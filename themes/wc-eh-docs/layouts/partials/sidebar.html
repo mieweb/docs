@@ -8,7 +8,6 @@
             <li><span class="nav-toggle" data-name="{{ .Identifier }}">&nbsp;</span>
               <a href="{{ .URL }}">
                 {{ $cleanUrl := replace .URL $.Site.BaseURL "" }}
-                {{.Name}}
                 {{ with $.Site.GetPage $cleanUrl }}{{ .Name }}{{ end }}
               </a>
               {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
