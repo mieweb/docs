@@ -68,6 +68,7 @@ In order to run `wikiGDrive` as a command we need to `npm link` wikiGDrive (beca
 ```bash
 npm link wikigdrive path/to/where/you/cloned/wikigdrive
 ```
+The first time you run, you will be prompted with a URL.  You must visit this URL to authenticate yourself.  Once you follow the steps, you will receive a code.  Copy this code and paste it in your terminal. Then hit enter.  If your `.wikigdrive` has been removed or tampered with, you may be asked to do this again.
 
 When you run the wikiGDrive script, you will be downloading all files and folders within the folder of the URL you provide.  The script will create a `.wikigdrive` file in the root folder.  This contains auth information and other data that is necessary for the wikigdrive script to run properly. **DO NOT DELETE or MODIFY this file unless you know what you are doing.**
 
