@@ -6,15 +6,15 @@ description
 
 ## Requirements
 
-- Hugo
-- wikiGdrive
+- [Hugo](https://gohugo.io/)
+- [wikiGDrive](https://github.com/mieweb/wikiGDrive)
 
 
 
 ### Install Hugo:
 
-- Windows
-- Mac
+- [Windows](https://gohugo.io/getting-started/installing/#chocolatey-windows)
+- [Mac](https://gohugo.io/getting-started/installing/#homebrew-macos)
 
 Verify installation, run: `hugo version`
 
