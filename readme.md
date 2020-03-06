@@ -26,11 +26,12 @@ Clone the wikiGDrive repository:
 git clone git@github.com:mieweb/wikiGDrive.git
 ```
 
-Install dependencies:
+Install dependencies and build:
 
 ```bash
 cd wikiGDrive
 npm install
+npm run build
 ```
 
 ### Setup Hugo Site:
