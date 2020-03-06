@@ -1,0 +1,102 @@
+// Colors
+$orange:#F05C21;
+$darkorange:#B84720;
+$yellow:#FBB135;
+$tan: #d4cbb9;
+$blue:#007AB3;
+$blue1:#007AB3;
+$lightblue: #009ADA;
+$darkblue:#047AA7;
+$darkbluealt:#02608B;
+$paleblue:#7E88A3;
+$lightgrey:#F0F0EB;
+$lightgray:#F0F0EB;
+$lightgrey1:#C4C6C8;
+$lightgray1:#C4C6C8;
+$lightgrey2:#9C9EA1;
+$lightgray2:#9C9EA1;
+$lightgrey3:#e3e3e3;
+$lightgray3:#e3e3e3;
+$darkgrey:#505050;
+$darkgray:#505050;
+$darkgrey1:#666666;
+$darkgray1:#666666;
+$darkgrey2:#414149;
+$darkgray2:#414149;
+$darkgrey3:#7E8083;
+$darkgray3:#7E8083;
+$darkgrey4: #5f6062;
+$darkgray4: #5f6062;
+$darkgrey5: #505050;
+$darkgray5: #505050;
+$green:#6CB33F;
+$viridiangreen:#6A8A79;
+$white:#ffffff;
+$basecolor: #F6F4F2;
+$primary: $blue !default;
+$secondary: $orange;
+$info: #FBB135;
+$info: #1e3e7b;
+
+$navbar-bg: $darkgrey;
+
+// Weights
+$w-u: 200;
+$w-l: 300;
+$w-n: 400;
+$w-b: 600;
+
+// Buttons
+$btn-padding-y: 0px;
+$btn-font-size: 14px;
+$btn-font-weight: 700;
+$btn-line-height: 36px;
+$btn-border-width: 2px;
+$border-radius: 0px;
+$border-radius-lg: 0px;
+$border-radius-sm: 0px;
+
+$block-standard-line-height: calc(#{$btn-line-height} + 4px);
+// Fonts
+$font-family-sans-serif: 'Montserrat',
+sans-serif;
+$font-family-serif: 'Zilla Slab';
+
+// Containers:
+
+$container-p: 28px;
+$container-p-xs: 24px;
+$container-p-sm: 36px;
+$container-p-md: 0px;
+$container-p-lg: 36px;
+$container-p-xl: 0px;
+
+// Grid breakpoints
+$grid-breakpoints: (tn: 0,
+  xs: 360,
+  sm: 567px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px);
+
+// Grid containers
+$container-max-widths: (xs: 460px,
+  sm: 567px,
+  md: 768px,
+  lg: 960px,
+  xl: 1200px);
+
+$theme-colors: ("dim": $lightgray3,
+  "info": $info,
+  "primary": $blue,
+  "tan": $tan,
+  "yellow": $yellow,
+  "dark": $darkgrey,
+  "dark-alt": $darkgrey3,
+  "base": $basecolor,
+  "primary-dark": $darkbluealt);
+
+$navbar-padding-y: .313rem;
+$breadcrumb-padding-y: 1.375rem;
+$breadcrumb-bg: transparent;
+$breadcrumb-divider: quote(">");

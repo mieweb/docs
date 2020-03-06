@@ -1,0 +1,15 @@
+{{ $page := .page }}
+{{ $site := .site }}
+
+  {{ range .menu }}
+  {{ $is := $page.IsMenuCurrent "main" . }}
+  {{ $has := $page.HasMenuCurrent "main" . }}
+  {{ if .HasChildren }}
+
+      {{ if $is }}
+        {{ partial "children-render.html" (dict "menu" .Children "page" $page "site" $site) | safeHTML }}
+      {{ else }}
+        {{ partial "children.html" (dict "menu" .Children "page" $page "site" $site) | safeHTML }}
+      {{ end }}
+  {{ end }}
+  {{ end }}

@@ -1,0 +1,29 @@
+<aside id="sidebar" class="sidebar c2ol-3 px-0 py-4">
+  <nav class="nav-sidebar px-5 py-1">
+    <ul class="navbar-nav sticky-top">
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <li><span class="nav-toggle" data-name="{{ .Identifier }}">&nbsp;</span>
+              <a href="{{ .URL }}">
+                {{ $cleanUrl := replace .URL $.Site.BaseURL "" }}
+                {{.Name}}
+                {{ with $.Site.GetPage $cleanUrl }}{{ .Name }}{{ end }}
+              </a>
+              {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
+              {{ partial "sidebar-nav.html" $temp }}
+            </li>
+          {{ else }}
+            <li data-name="{{ .Identifier }}" class="root-level">
+              <a href="{{ .URL }}">
+                {{ $cleanUrl := replace .URL $.Site.BaseURL "" }}
+                {{ with $.Site.GetPage $cleanUrl }}{{ .Name }}{{ end }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </ul>
+  </nav>
+</aside>

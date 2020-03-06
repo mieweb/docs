@@ -1,0 +1,117 @@
+// MIEDocs:
+// @import 'fonts.scss';
+// @import 'variables.scss';
+// @import 'brand.scss'; // Local Brand Overrides
+// @import 'mixins.scss';
+
+
+// Standard Bootstrap:
+@import "bootstrap/bootstrap";
+
+// MIEDocs Bootstrap Overrides:
+@import 'theme/type';
+@import 'theme/images';
+@import 'theme/sidebar';
+@import 'theme/lists';
+@import 'theme/tables';
+@import 'theme/navigation';
+@import 'theme/autocomplete';
+@import 'theme/toc';
+@import 'theme/search';
+@import 'theme/page-toolbar';
+@import 'theme/notice';
+@import 'theme/breadcrumbs';
+
+@media only screen and (min-width:0px) {
+	body {
+		color: $darkgrey;
+	}
+
+	body,
+	html,
+	main {
+		height: 100%;
+	}
+
+	main {
+		height: 100%;
+
+		.container-fluid {
+			height: 100%;
+		}
+	}
+
+	.content-wrapper {
+		height: 100%;
+		@include p(1.125rem);
+		@include pb(72px);
+	}
+
+	#content {
+		position: relative;
+		// width: 100%;
+		padding: 20px;
+		// @include mt(72px);
+		min-height: 100vh;
+		transition: all 0.3s;
+	}
+	  .system_link {
+			@include my(.5rem);
+			visibility: visible;
+			width: 100%;
+			max-width: 500px;
+	  	/* */
+	  	// position: absolute;
+	  	// top: 12px;
+	  	// right: 100px;
+	  	// width: auto;
+	  	/*
+    background-color: rgba(240, 240, 235, 0.8);
+    border-radius: 0px 0px 0px 17px;*/
+			// padding: 0px 8px 8px 8px;
+			input {
+				width: 100%;
+				
+			}
+			.btn {
+				@include my();
+				line-height: 1rem !important;
+			}
+
+	  }
+
+	  .system_link small {
+	  	font-size: 10px;
+	  	line-height: 18px;
+	  	display: block;
+	  }
+
+	  .system_link .sys_input {
+	  	border-radius: 0px 0px 0px 0px;
+	  }
+}
+
+@media only screen and (min-width:320px) {}
+
+@media only screen and (min-width:360px) {}
+
+@media only screen and (min-width:567px) {
+#content {
+@include mt();
+width: 100%;
+}
+
+}
+
+@media only screen and (min-width:768px) {
+	.content-wrapper {
+		height: 100%;
+		max-width: 1400px;
+	}
+}
+
+@media only screen and (min-width:992px) {}
+
+@media only screen and (min-width:1280px) {}
+
+@media only screen and (min-width:1400px) {}

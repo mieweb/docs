@@ -1,0 +1,27 @@
+{{ $page := .page }}
+{{ $site := .site }}
+{{ $menu := .menu }}
+{{ $item := .entry }}
+<ul class="nested">
+  {{ $lvl := $item.Identifier }}
+  {{ range $item.Children }}
+    {{ if .HasChildren }}
+      <li>
+        <span class="nav-toggle" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">&nbsp;</span>
+        <a href="{{ .URL }}">
+          {{ $cleanUrl := replace .URL $site.BaseURL "" }}
+          {{ .Name }}
+        </a>
+        {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
+        {{ partial "sidebar-nav.html" $temp }}
+      </li>
+    {{ else }}
+      <li data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
+        <a href="{{ .URL }}">
+          {{ $cleanUrl := replace .URL $site.BaseURL "" }}
+          {{ .Name }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

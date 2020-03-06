@@ -1,0 +1,16 @@
+// MIEDocs:
+@import 'fonts.scss';
+@import 'variables.scss';
+@import 'brand-wc.scss'; // Local Brand Overrides
+@import 'mixins.scss';
+
+
+// Theme:
+@import "theme.scss";
+
+
+// Adjust Logo Size
+.navbar .navbar-brand img {
+  width: 126.19px;
+  height: 50px;
+}

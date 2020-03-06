@@ -1,0 +1,54 @@
+.card.notice {
+  margin: 2rem 0;
+  position: relative;
+  max-width: 90%;
+  .card-header {
+    color: #ffffff;
+  }
+  .card-body {
+    img {
+      @include my(1rem);
+      display: block;
+    }
+  }
+
+  &.info {
+    .card-header {
+      background: #F0B37E;
+    }
+
+    .card-body {
+      background: #FFF2DB;
+    }
+  }
+
+  &.warning {
+    .card-header {
+      background: rgba(217, 83, 79, 0.8);
+    }
+
+    .card-body {
+      background: #FAE2E2;
+    }
+  }
+
+  &.note {
+    .card-header {
+      background: #6AB0DE;
+    }
+
+    .card-body {
+      background: #E7F2FA;
+    }
+  }
+
+  &.tip {
+    .card-header {
+      background: rgba(92, 184, 92, 0.8);
+    }
+
+    .card-body {
+      background: #E6F9E6;
+    }
+  }
+}

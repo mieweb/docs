@@ -1,0 +1,19 @@
+<header class="fi3xed-top">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{ $.Site.BaseURL }}/">
+        <img class="" src="{{ $.Site.BaseURL }}/images/brand/{{ $.Site.Params.Brand.code }}/logo.svg">
+      </a>
+      <div class="navbar-main" id="navbarSupportedContent">
+        <form class="form search-form ml-auto">
+          <div class="collapse show searchbox" id="collapse-search">
+            <label class="sr-only" for="search-by"><i class="fas fa-search"></i></label>
+            <input class="form-control" data-search-input id="search-by" type="search"
+              placeholder="{{T "Search-placeholder"}}">
+            <span data-search-clear=""><i class="fa fa-times"></i></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>

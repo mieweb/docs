@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+{{ partial "navigation.html" . }}
+<main>
+  <div class="wrapper">
+      {{ partial "sidebar.html" . }}
+      <div id="content" class="content p-0">
+        {{ partial "page-toolbar.html" . }}
+        <div class="content-wrapper px-xl-5 py-xl-4">
+          <h1 id='{{ if .Params.url }}{{ replace .Params.url ".md" ""}}{{ end }}'>{{ if .Title }}{{ .Title }}{{ end }}</h1>
+          {{ partial "toc.html" . }}
+          {{ .Content }}
+        </div>
+
+      </div>
+    </div>
+</main>
+{{ partial "footer.html" . }}

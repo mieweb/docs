@@ -1,0 +1,41 @@
+@include media-breakpoint-up(tn) {
+    .toc {
+    
+        top: 60px;
+        margin-left: auto;
+        width: 100%;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                list-style-image: initial;
+
+                &::before {
+                    content: "\25A0";
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .toc {
+        top: 60px;
+        margin-left: auto;
+        width: auto;
+        float: right;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                list-style-image: initial;
+
+                &::before {
+                    content: "\25A0";
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@include media-breakpoint-up(tn) {
+
+  .page-toolbar {
+    z-index: 999;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $basecolor;
+    border-bottom: 1px solid $light;
+    border-top: 1px solid #efefef;
+    @include pr(12px);
+
+    .page-toolbar-right {
+      display: flex;
+      justify-content: flex-end;
+      justify-self: flex-end;
+      flex-grow: 1;
+    }
+    
+    #sidebarCollapse {
+      border-radius: 0 0 16px 0;
+      background-color: $lightgray3 !important;
+      border: none !important;
+      @include my();
+      @include px(.75rem);
+      height: 36px;
+position: initial;
+      &.active {
+        position: absolute;
+        right: 100%;
+        z-index: 2;
+        background-color: transparent !important;
+
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .btn {
+      @include my(.5rem);
+    }
+  }
+
+}
+
+@include media-breakpoint-up(sm) {
+  .page-toolbar {
+    position: sticky;
+    top: 0px;
+  }
+  #collapse-search-btn {
+    display: none;
+  }
+}
+@include media-breakpoint-up(lg) {
+
+  .page-toolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $basecolor;
+    border-bottom: 1px solid $light;
+    border-bottom: 1px solid #efefef;
+    @include pr(22px);
+
+    #sidebarCollapse {
+      border-radius: 0 0 16px 0;
+      background-color: $lightgray3 !important;
+      border: none !important;
+      @include my();
+      @include px(.75rem);
+      height: 36px;
+
+      &.active {
+        background-color: $basecolor !important;
+        position: static;
+
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .btn {
+      @include my(.5rem);
+    }
+  }
+
+}

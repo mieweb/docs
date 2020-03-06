@@ -1,0 +1,151 @@
+main {
+  .sidebar {
+  .navbar-nav {
+    // position: -webkit-sticky;
+    // position: sticky;
+    // top: 90px;
+  }
+
+    background-color: #e3e3e3;
+    @include pl(32px);
+    @include py(16px);
+    ul {
+      li {
+        a {
+          font-size: 12px;
+          color: $darkgray;
+          @include fff(12px,400);
+
+          @include py(8px);
+        }
+      }
+    }
+  }
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+@include media-breakpoint-up(tn) {
+  #sidebar {
+    min-width: 375px;
+    max-width: 375px;
+    transition: all 0.3s;
+    margin-left: 0px;
+    // min-height: 100vh;
+  }
+
+  #sidebar.active {
+    margin-left: -375px;
+  }
+}
+@include media-breakpoint-up(sm) {
+  #sidebar {
+    min-width: 400px;
+    max-width: 400px;
+    transition: all 0.3s;
+    margin-left: 0px;
+  }
+
+  #sidebar.active {
+    margin-left: -400px;
+  }
+}
+
+@media (max-width: 1130px) {
+    #sidebar {
+      // position: absolute;
+      z-index: 1;
+      margin-left: -375px;
+      &:not(.active){
+
+      }
+
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse {
+      z-index:99999;
+    }
+}
+
+
+.nav-sidebar {
+  margin-left: 0px;
+}
+
+.nav-sidebar ul {
+  list-style-type: none;
+  padding-inline-start: 8px;
+
+  &.navbar-nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    padding-inline-start: 20px;
+  }
+
+  li {
+    padding: 4px 0;
+
+    a.active-item {
+      font-weight: bold;
+      color: $primary;
+    }
+  }
+}
+.nav-toggle {
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-toggle::before {
+
+  content: "\f054";
+  color: #000;
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 10px;
+  font: normal normal normal 14px/1 FontAwesome;
+  margin-left: -20px;
+}
+
+.nav-toggle-down::before {
+  transform: rotate(90deg);
+}
+
+main {
+
+  .sidebar ul li a {
+    font-size: 17px;
+    line-height: 28px;
+    text-transform: capitalize;
+  }
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
