@@ -1,0 +1,27 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "WebChart"
+theme = "wc-eh-docs"
+
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+[params]
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "MIEDocs"
+  author = "Alan Quandt"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  [params.brand]
+    name = 'WebChart'
+    abbr = 'WC'
+    code = 'wc'
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
+[markup.goldmark.renderer]
+  unsafe= true
