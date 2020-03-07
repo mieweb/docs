@@ -7,8 +7,7 @@
           {{ if .HasChildren }}
             <li><span class="nav-toggle" data-name="{{ .Identifier }}">&nbsp;</span>
               <a href="{{ .URL }}">
-                {{ $cleanUrl := replace .URL $.Site.BaseURL "" }}
-                {{ with $.Site.GetPage $cleanUrl }}{{ .Name }}{{ end }}
+                {{ .Name }}
               </a>
               {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
               {{ partial "sidebar-nav.html" $temp }}
@@ -16,8 +15,7 @@
           {{ else }}
             <li data-name="{{ .Identifier }}" class="root-level">
               <a href="{{ .URL }}">
-                {{ $cleanUrl := replace .URL $.Site.BaseURL "" }}
-                {{ with $.Site.GetPage $cleanUrl }}{{ .Name }}{{ end }}
+                {{ .Name }}
               </a>
             </li>
           {{ end }}

@@ -9,7 +9,6 @@
       <li>
         <span class="nav-toggle" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">&nbsp;</span>
         <a href="{{ .URL }}">
-          {{ $cleanUrl := replace .URL $site.BaseURL "" }}
           {{ .Name }}
         </a>
         {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
@@ -18,7 +17,6 @@
     {{ else }}
       <li data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
         <a href="{{ .URL }}">
-          {{ $cleanUrl := replace .URL $site.BaseURL "" }}
           {{ .Name }}
         </a>
       </li>
