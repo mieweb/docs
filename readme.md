@@ -1,10 +1,6 @@
 # MIE Docs
 
-description 
-
-
 ## Setup
-
 
 **Requirements**
 
@@ -13,7 +9,8 @@ description
 - [Node.js](https://nodejs.org/en/download/package-manager/)
 - [wikiGDrive](https://www.npmjs.com/package/@mieweb/wikigdrive)
 
-**Mac Setup**
+### Mac Users
+
 From your terminal, run:
 
 ```bash
@@ -23,7 +20,7 @@ npm i -g @mieweb/wikigdrive
 git clone ssh://git@repo.mieweb.com:7999/~aquandt/mie-docs.git
 ```
 
-**Windows Setup**
+### Windows Users
 
 If you do not have Git installed, [download](https://git-scm.com/download/win) and install it.
 
