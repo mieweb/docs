@@ -1,7 +1,7 @@
 # SAMPLE CONFIG:  Use config-[product].toml
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Enterprise Health"
+title = "MIE Documentation Website"
 theme = "wc-eh-docs"
 
 metaDataFormat = "yaml"
@@ -19,9 +19,9 @@ defaultContentLanguageInSubdir= true
   disableBreadcrumb = false
   disableNextPrev = false
   [params.brand]
-    name = 'Enterprise Health'
-    abbr = 'EH'
-    code = 'eh' 
+    name = 'Medical Informatics Engineering'
+    abbr = 'MIE'
+    code = 'mie' 
 [outputs]
   home = [ "HTML", "RSS", "JSON"]
 [markup.goldmark.renderer]
