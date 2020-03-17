@@ -58,7 +58,8 @@ We will need to run wikigdrive at least once in order to generate the content th
 
 - URL of the Google Drive folder you wish to use (example URL: `https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR` )
 - [Google API client ID and client secret](https://console.developers.google.com/apis/credentials/oauthclient/762352378313-cfb109ipchpj1qij3i8u17t7faf6t5e0.apps.googleusercontent.com?project=wikigdrive)  You should see something like this:
-  ![](google-console.png)
+  
+![](google-console.png)
 
 **Quickstart With Sample Folder**
 
@@ -76,6 +77,7 @@ This example will:
 If the script ran without error, you should see something like this: 
 
 ![](sample-wikigdrive.png)
+
 ***Note:** content that is displayed may vary as the sample project gets updates*
 
 Now, you can start a local server to preview the website by running:
@@ -85,6 +87,7 @@ hugo server
 ```
 
 If the server started without error, you should see:
+
 ![](hugo-server.png)
 
 You should now be able to open your web browser and go to [http://localhost:1313](http://localhost:1313).  If that location is not available, look at the area in purple in the above screenshot.  Port 1313 may not be available, in which case Hugo will have assigned another port.   If so, change the `1313` in your browser to match what is in your terminal.
@@ -92,4 +95,5 @@ You should now be able to open your web browser and go to [http://localhost:1313
 You should see something like this in your browser:
 
 ![](sample-website.png)
+
 ***Note:** content/look of the website may vary as the sample project gets updates*
