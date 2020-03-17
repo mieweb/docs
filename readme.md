@@ -3,83 +3,96 @@
 description 
 
 
+## Setup
 
-## Requirements
 
+**Requirements**
+
+- [Git for Windows](https://git-scm.com/download/win)
 - [Hugo](https://gohugo.io/)
-- [wikiGDrive](https://github.com/mieweb/wikiGDrive)
+- [Node.js](https://nodejs.org/en/download/package-manager/)
+- [wikiGDrive](https://www.npmjs.com/package/@mieweb/wikigdrive)
 
-First, install Hugo [Windows](https://gohugo.io/getting-started/installing/#chocolatey-windows) - [Mac](https://gohugo.io/getting-started/installing/#homebrew-macos) and verify installation by running: `hugo version`
-
-Once Hugo is installed, you need to clone the wikiGDrive repository, install dependencies and build:
-
-```bash
-git clone git@github.com:mieweb/wikiGDrive.git
-cd wikiGDrive
-npm install
-npm run build
-```
-
-## Setup Hugo Site:
-
-Clone this repository (NOT in your wikiGDrive directory):
+**Mac Setup**
+From your terminal, run:
 
 ```bash
+brew install node
+brew install hugo
+npm i -g @mieweb/wikigdrive
 git clone ssh://git@repo.mieweb.com:7999/~aquandt/mie-docs.git
-cd mie-docs
 ```
 
-In order to run `wikiGDrive` as a command we need to `npm link` wikiGDrive (because it is not yet available as an NPM module). You should only need to do this once.
+**Windows Setup**
 
-In your `mie-docs` directory, run:
+If you do not have Git installed, [download](https://git-scm.com/download/win) and install it.
+
+To install Nodejs and Chocolatey (package manager), [go here](https://nodejs.org/en/download/package-manager/) and choose the Windows (.msi) installer. If you are unsure about your computer being 32 or 64 bit, choose 32.
+
+During the installation, you will reach a screen with a checkbox for installing Chocolatey. Make sure this is checked (it is not checked by default):
+
+![](nodejs.png)
+
+Once you have Chocolatey installed, open your terminal (run as administrator), run:
 
 ```bash
-npm link wikigdrive path/to/where/you/cloned/wikigdrive
+choco install hugo
+npm i -g @mieweb/wikigdrive
+git clone ssh://git@repo.mieweb.com:7999/~aquandt/mie-docs.git
 ```
 
+## Getting Started
+
+### Overview
+
+This project uses the following tools:
+
+- **wikigdrive:**  A script that will download content from a Google Drive folder and convert it to [Markdown](https://www.markdownguide.org/cheat-sheet/) for use with Hugo.
+- **Hugo:** A static HTML website builder.
+
+You will use wikigdrive to download or watch for updates (and download) to the content in your Google Drive Folder.  You can use Hugo to:
+
+- Run a local web server (usually at http://localhost:1313) to test/preview your documentation website.
+- Build a copy of your documentation website.  You can then deploy this build to a public webserver, should you choose.
 
 ### Getting content from Google Drive:
 
-When you run the wikiGDrive script, you will be downloading all files and folders within the folder of the URL you provide.  The script will create a `.wikigdrive` file in the root folder.  This contains auth information and other data that is necessary for the wikigdrive script to run properly. **DO NOT DELETE or MODIFY this file unless you know what you are doing.**
+We will need to run wikigdrive at least once in order to generate the content that Hugo will build the website with.  You will need to have the following:
 
-To run the script, you must provide:
+- URL of the Google Drive folder you wish to use (example URL: `https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR` )
+- [Google API client ID and client secret](https://console.developers.google.com/apis/credentials/oauthclient/762352378313-cfb109ipchpj1qij3i8u17t7faf6t5e0.apps.googleusercontent.com?project=wikigdrive)  You should see something like this:
+  ![](google-console.png)
 
-- URL of the root Google Drive folder
-- [Google API client ID and client secret](https://console.developers.google.com/apis/credentials/oauthclient/762352378313-cfb109ipchpj1qij3i8u17t7faf6t5e0.apps.googleusercontent.com?project=wikigdrive). 
-- Destination for the downloaded files (usually the 'content' directory)
+**Quickstart With Sample Folder**
 
-Common options for wikiGDrive ( all options found [here](https://github.com/mieweb/wikiGDrive) ):
-
-```
---link_mode mdURLs - `/filename.md`
---link_mode dirURLs - `/filename/`
---link_mode uglyURLs - `/filename.html`
-
---without-folder-structure    Download documents into single, flat folder
-```
-
-Example use:
+If you wish try a quick example with a simple Google Drive folder, move into your project directory `cd mie-docs` and run:
 
 ```bash
-wikigdrive "https://GOOGLE_DRIVE_FOLDER_URL"  --client_id YOUR_CLIENT_ID --client_secret YOUR_CLIENT_SECRET --link_mode uglyURLs --without-folder-structure --dest content 
+wikigdrive "https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR"  --client_id CLIENT_ID --client_secret CLIENT_SECRET  --dest content --link_mode uglyURLs --without-folder-structure --drive_id 0ALfGlL3hJS03Uk9PVA
 ```
 
-The first time you run, you will be prompted with a URL.  You must visit this URL to authenticate yourself.  Once you follow the steps, you will receive a code.  Copy this code and paste it in your terminal. Then hit enter.  If your `.wikigdrive` has been removed or tampered with, you may be asked to do this again.
+This example will:
+- Download and convert all Google Docs within the sample folder (and sub folders).
+- All converted documents will be placed in the `content` directory. Specified with `--dest content`
+- Page URLS will have the .html extension. Specified with `--line_mode uglyURLs`
 
-### Hugo Build/Server:
+If the script ran without error, you should see something like this: 
 
-The wc-eh-docs theme is setup to change the branding depending on which product you are building documentation for.  You should provide the proper config file for your purposes. 
+![](sample-wikigdrive.png)
+***Note:** content that is displayed may vary as the sample project gets updates*
 
-To build the documentation run `hugo` with the config file for the desired product:
+Now, you can start a local server to preview the website by running:
 
-```bash
-hugo --config 'config-wc.toml' // Builds with WebChart branding
-hugo --config 'config-eh.toml' // Builds with Enterprise Health branding
+```
+hugo server
 ```
 
-To start a Hugo server, run `hugo server` with the config file for the desired product:
+If the server started without error, you should see:
+![](hugo-server.png)
 
-```bash
-hugo server --config 'config-wc.toml' // Runs Hugo server with WebChart branding
-hugo server --config 'config-eh.toml' // Runs Hugo server with Enterprise Health branding
-```
+You should now be able to open your web browser and go to [http://localhost:1313](http://localhost:1313).  If that location is not available, look at the area in purple in the above screenshot.  Port 1313 may not be available, in which case Hugo will have assigned another port.   If so, change the `1313` in your browser to match what is in your terminal.
+
+You should see something like this in your browser:
+
+![](sample-website.png)
+***Note:** content/look of the website may vary as the sample project gets updates*
