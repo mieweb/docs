@@ -75,7 +75,7 @@ We will need to run wikigdrive at least once in order to generate the content th
 
 If you wish try a quick example with a simple Google Drive folder, move into your project directory `cd mie-docs` and run:
 
-***Note:** Make sure you replace CLIENT_ID and CLIENT_SECRECT with the vales from the Google console.  Do not just copy, paste, and run.*
+***Note:** Make sure you replace CLIENT_ID and CLIENT_SECRET with the vales from the Google console.  Do not just copy, paste, and run.*
 
 ```bash
 wikigdrive "https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR"  --client_id CLIENT_ID --client_secret CLIENT_SECRET  --dest content --link_mode uglyURLs --without-folder-structure --drive_id 0ALfGlL3hJS03Uk9PVA
