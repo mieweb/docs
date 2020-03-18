@@ -17,7 +17,7 @@ From your terminal, run:
 brew install node
 brew install hugo
 npm i -g @mieweb/wikigdrive
-git clone ssh://git@repo.mieweb.com:7999/~aquandt/mie-docs.git
+git clone git@github.mieweb.com:aquandt/mie-docs.git
 ```
 
 ### Windows Users
@@ -35,7 +35,7 @@ Once you have Chocolatey installed, open your terminal (run as administrator), r
 ```bash
 choco install hugo
 npm i -g @mieweb/wikigdrive
-git clone ssh://git@repo.mieweb.com:7999/~aquandt/mie-docs.git
+git clone git@github.mieweb.com:aquandt/mie-docs.git
 ```
 
 ## Getting Started
