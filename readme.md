@@ -15,8 +15,14 @@ From your terminal, run:
 
 ```bash
 brew install node
+```
+```bash
 brew install hugo
+```
+```bash
 npm i -g @mieweb/wikigdrive
+```
+```bash
 git clone git@github.mieweb.com:aquandt/mie-docs.git
 ```
 
@@ -34,7 +40,11 @@ Once you have Chocolatey installed, open your terminal (run as administrator), r
 
 ```bash
 choco install hugo
+```
+```bash
 npm i -g @mieweb/wikigdrive
+```
+```bash
 git clone git@github.mieweb.com:aquandt/mie-docs.git
 ```
 
