@@ -14,10 +14,7 @@
 From your terminal, run:
 
 ```bash
-brew install node
-```
-```bash
-brew install hugo
+brew install node hugo
 ```
 ```bash
 npm i -g @mieweb/wikigdrive
@@ -34,7 +31,7 @@ To install Nodejs and Chocolatey (package manager), [go here](https://nodejs.org
 
 During the installation, you will reach a screen with a checkbox for installing Chocolatey. Make sure this is checked (it is not checked by default):
 
-![](https://github.mieweb.com/aquandt/mie-docs/blob/master/nodejs.png)
+![](readme-assets/nodejs.png)
 
 Once you have Chocolatey installed, open your terminal (run as administrator), run:
 
@@ -69,7 +66,7 @@ We will need to run wikigdrive at least once in order to generate the content th
 - URL of the Google Drive folder you wish to use (example URL: `https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR` )
 - [Google API client ID and client secret](https://console.developers.google.com/apis/credentials/oauthclient/762352378313-cfb109ipchpj1qij3i8u17t7faf6t5e0.apps.googleusercontent.com?project=wikigdrive)  You should see something like this:
   
-![](https://github.mieweb.com/aquandt/mie-docs/blob/master/google-console.png)
+![](readme-assets/google-console.png)
 
 **Quickstart With Sample Folder**
 
@@ -80,6 +77,13 @@ If you wish try a quick example with a simple Google Drive folder, move into you
 ```bash
 wikigdrive "https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR"  --client_id CLIENT_ID --client_secret CLIENT_SECRET  --dest content --link_mode uglyURLs --without-folder-structure --drive_id 0ALfGlL3hJS03Uk9PVA
 ```
+The first time this runs, you will be asked to visit a URL and copy/paste a code.  Follow the following steps.  If done correctly, you should not have to do this again.
+
+- Follow the URL
+- If asked, log in with your MIE Google account
+- You will be asked to agree to allow wikiGDrive permission to access Google Drive. Do so.
+- You will then be given a code.  Copy it.
+- Return to your terminal and paste it and hit enter.
 
 This example will:
 - Download and convert all Google Docs within the sample folder (and sub folders).
@@ -88,7 +92,7 @@ This example will:
 
 If the script ran without error, you should see something like this: 
 
-![](https://github.mieweb.com/aquandt/mie-docs/blob/master/sample-wikigdrive.png)
+![](readme-assets/sample-wikigdrive.png)
 
 ***Note:** content that is displayed may vary as the sample project gets updates*
 
@@ -100,12 +104,33 @@ hugo server
 
 If the server started without error, you should see:
 
-![](https://github.mieweb.com/aquandt/mie-docs/blob/master/hugo-server.png)
+![](readme-assets/hugo-server.png)
 
 You should now be able to open your web browser and go to [http://localhost:1313](http://localhost:1313).  If that location is not available, look at the area in purple in the above screenshot.  Port 1313 may not be available, in which case Hugo will have assigned another port.   If so, change the `1313` in your browser to match what is in your terminal.
 
 You should see something like this in your browser:
 
-![](https://github.mieweb.com/aquandt/mie-docs/blob/master/sample-website.png)
+![](readme-assets/sample-website.png)
 
 ***Note:** content/look of the website may vary as the sample project gets updates*
+
+To stop the server, return to your terminal and hit CTRL+C.
+
+## Branding
+
+There are currently 3 branding options.  
+
+- MIE (Generic)
+- Enterprise Health
+- WebChart
+
+The MIE branding option is the default and its configuration is stored in the `config.toml` file.  Enterprise Health's branding configuration is stored in `config-eh.toml` and WebChart's is within `config-wc.toml`.
+
+If you wish to build or run a local server using a different branding configuration; add the `--config` flag to your Hugo command.
+
+Example:
+
+```bash
+hugo server --config 'config-eh.toml'
+hugo --config 'config-wc.toml'
+```
