@@ -20,7 +20,7 @@ brew install node hugo
 npm i -g @mieweb/wikigdrive
 ```
 ```bash
-git clone git@github.mieweb.com:aquandt/mie-docs.git
+git clone https://github.mieweb.com/aquandt/mie-docs.git
 ```
 
 ### Windows Users
@@ -42,7 +42,7 @@ choco install hugo
 npm i -g @mieweb/wikigdrive
 ```
 ```bash
-git clone git@github.mieweb.com:aquandt/mie-docs.git
+git clone https://github.mieweb.com/aquandt/mie-docs.git
 ```
 
 ## Getting Started
