@@ -11,16 +11,14 @@
 
 ### Mac Users
 
-From your terminal, run:
+From your terminal, clone this repository:
 
 ```bash
-brew install node hugo
-```
-```bash
-npm i -g @mieweb/wikigdrive postcss postcss-cli
-```
-```bash
 git lfs clone https://github.mieweb.com/aquandt/mie-docs.git
+```
+Then run the setup script:
+```bash
+./setup.sh
 ```
 
 ### Windows Users
@@ -33,17 +31,15 @@ During the installation, you will reach a screen with a checkbox for installing 
 
 ![](readme-assets/nodejs.png)
 
-Once you have Chocolatey installed, open your terminal (run as administrator), run:
-
-```bash
-choco install hugo
-```
-```bash
-npm i -g @mieweb/wikigdrive postcss postcss-cli
-```
+Once you have Chocolatey installed, open Git Bash (run as administrator), clone this repository:
 ```bash
 git lfs clone https://github.mieweb.com/aquandt/mie-docs.git
 ```
+Then run the setup script:
+```bash
+./setup.sh
+```
+
 
 ## Getting Started
 
