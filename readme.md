@@ -17,7 +17,7 @@ From your terminal, run:
 brew install node hugo
 ```
 ```bash
-npm i -g @mieweb/wikigdrive
+npm i -g @mieweb/wikigdrive postcss postcss-cli
 ```
 ```bash
 git lfs clone https://github.mieweb.com/aquandt/mie-docs.git
@@ -39,7 +39,7 @@ Once you have Chocolatey installed, open your terminal (run as administrator), r
 choco install hugo
 ```
 ```bash
-npm i -g @mieweb/wikigdrive
+npm i -g @mieweb/wikigdrive postcss postcss-cli
 ```
 ```bash
 git lfs clone https://github.mieweb.com/aquandt/mie-docs.git
