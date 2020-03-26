@@ -71,7 +71,7 @@ If you wish try a quick example with a simple Google Drive folder, move into you
 ***Note:** Make sure you replace CLIENT_ID and CLIENT_SECRET with the values from the Google console.  Do not just copy, paste, and run.*
 
 ```bash
-wikigdrive "https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR"  --client_id CLIENT_ID --client_secret CLIENT_SECRET  --dest content --link_mode uglyURLs --without-folder-structure --drive_id 0ALfGlL3hJS03Uk9PVA
+wikigdrive "https://drive.google.com/drive/folders/1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-"  --client_id CLIENT_ID --client_secret CLIENT_SECRET  --dest content --link_mode uglyURLs --without-folder-structure --drive_id 0ALfGlL3hJS03Uk9PVA
 ```
 The first time this runs, you will be asked to visit a URL and copy/paste a code.  Follow the following steps.  If done correctly, you should not have to do this again.
 
