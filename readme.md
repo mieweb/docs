@@ -60,9 +60,7 @@ You will use wikigdrive to download or watch for updates (and download) to the c
 We will need to run wikigdrive at least once in order to generate the content that Hugo will build the website with.  You will need to have the following:
 
 - URL of the Google Drive folder you wish to use (example URL: `https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR` )
-- [Google API client ID and client secret](https://console.developers.google.com/apis/credentials/oauthclient/762352378313-cfb109ipchpj1qij3i8u17t7faf6t5e0.apps.googleusercontent.com?project=wikigdrive)  You should see something like this:
-  
-![](readme-assets/google-console.png)
+- If you do not have Google Cloud credentials in `.wikigdrive` file, visit the [wikiGrdive](https://github.com/mieweb/wikiGDrive/blob/master/README.md#authorization) project for instructions.
 
 **Quickstart With Sample Folder**
 
