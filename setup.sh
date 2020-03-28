@@ -7,8 +7,9 @@ then
   (which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)")
   brew install node hugo
   brew update node hugo
-  npm i -g @mieweb/wikigdrive postcss postcss-cli
 elif [[ "$OSTYPE" == "msys" ]]
 then
   choco install -y nodejs hugo hugo-extended
 fi
+
+npm i -g @mieweb/wikigdrive postcss postcss-cli
