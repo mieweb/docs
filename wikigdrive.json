@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wikigdrive",
+  "private_key_id": "a3b49700bd15663daea0a87341d2054b8d372cd8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUU6Xf9FTiZmiY\nYlu2HgjZYlQZB69kgVxfZUxRu3KLU/ZEcnuRF5XKF9KsHwYqpNzu59yVnX5RE5wu\nDg+4nmYRY2NeBFULdUF2cd8Z/eWj7Q4Hhvu0bRrto6Ffw8ULHL5UBNOCbE+R4fG/\nxEOulJJryCdy/j6t6P1cJkNrAANtGcPMuaJSQpd6ytrnCYFCHOiQ4ULHYeysskWB\nV2GY10CJJADH9CFgu/sk4cWgvRHKEfWLuOdMKdYw3e6/8XyWwLD/FCRPDYKLS26R\nTklIl/q4otsQh1j4wpmz4n/D1DXKNAmLG20EEjH/EX54VOaNh59uBYqq0PxLPiih\n7esHKH9NAgMBAAECggEAGkMGXz7vSNl10nNH+KyaV5jr4fSrYvkFHd9/oxRWRJlr\n+mdWlUmfg1GTAysLLjcaBIq1I+RI/Wo5hRDELQeahEgQwE403qfwIuBOwf4/axkl\nBRVTCKv+CqqUiS3Dr24stGOsbZNL/DVAG4IBBRTnT2GAT57WzdfljoJFEHT9935g\nowVZG4V9Y8Nk5iyF2bmwntiN7BdJkVpaYcM6VjFBIJYWk0Xt32vNL6PAqZkxMaA/\nn6BDw2wJafYaQ3noDPrvL4scLd3K1A/u1j0aUaTxws08MySqu0nzhgzYN0X1B0kt\nYvXlRnYSrYflcs89CeGdFbay4NsmZztJ9s4fyomdwQKBgQDukcI7BwXOCvG4vpqN\n4WeWW+lPNbWc1pfAMQAfLDn4+H2b4NvEv+i1dkVFgFTYJyF/IXKKQVyTlJ2YSkkM\nY8L44xmDEil8/ChpnpGCB6mAAoeJDL1h/FRRBRnQKRcL9lb3ibaP24nbBrDyFBps\nS7BNxusG2pLrhfZB3nqMnwFQtQKBgQDj1wr64OpEYDjeJRqgkCiFCUknqH/7biPA\nPciB/BIW7zramIEc+vgj6FAQSQaMy+L4J/UHVvuYcvU6zrZpif+sB7G/lqV344/S\nKN6+Ekb9VzRNI6iuihWDnSZZMZEhEmN1zHxqkbg+mg5397FKyU4pUBJZIRceBdfg\nIN23cibLOQKBgGGBzaMWkbbPHlDmBoFq2U3JLyiiySHbS5bP8D7Ncrxhw+UMGIbn\n8RMJzfJEK2lVRQmTAB+l61KecXMnGYgo1i2nlGvP5okg/tt8ZfiBbTPW1NKdFGKS\nIVwj+5Lq2HKZMp5l+On/Tu7oYzXuJYaRwPNpE/JvL5F35Viyt9/1tTHpAoGBAKQh\nJqTB36EwG+dTnVHrZ3Um0k9CYCfVGOYE2+tflfx1i9UrJV+mH5lmYj7JDHHi8ndH\n+Yi3DXmt3qDlhpySr97SkCZvNHYgNVv02zjbW85mwqOLO5m4mXT9gUGhpmXHpGSY\n0UvH+40FV8TuZwZz691w9DbG0qtrFC8+Hdpn3jBpAoGAPpndL2Hzt0lTMNjJR4Uj\njRejr9FUl7JW7SfGXAEazXlRxEeny5n4P1Xmp6BUa5Ur9WQPBUsAol8/zJyUetYe\nSeZ4OOr7i8UjxfOi1u1aWr00pv39tgpGhZBelBmhEgohzy88KAQAvvu3uZri5PN8\n4Lepzfa2A1H4eBEv9KxzPHc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mie-docs-wikigdrive@wikigdrive.iam.gserviceaccount.com",
+  "client_id": "103184696095283927333",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mie-docs-wikigdrive%40wikigdrive.iam.gserviceaccount.com"
+}
