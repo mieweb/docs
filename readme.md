@@ -9,6 +9,7 @@
 
 **Requirements**
 
+- [Git LFS](https://git-lfs.github.com/)
 - [Hugo](https://gohugo.io/)
 - [Node.js](https://nodejs.org/en/download/package-manager/)
 - [wikiGDrive](https://www.npmjs.com/package/@mieweb/wikigdrive) Background: [Info](https://docs.google.com/document/d/1H6vwfQXIexdg4ldfaoPUjhOZPnSkNn6h29WD6Fi-SBY/edit#heading=h.rv5b8ogzvg6h)
@@ -18,7 +19,12 @@
 From your terminal, clone this repository:
 
 ```bash
+# CHOOSE ONE
+# for username and password
 git lfs clone https://github.mieweb.com/aquandt/mie-docs.git
+# -- OR --
+# for SSH key
+git lfs clone git@github.mieweb.com:aquandt/mie-docs.git
 ```
 Then run the setup script:
 ```bash
