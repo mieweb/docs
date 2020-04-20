@@ -5,7 +5,7 @@
 ## TLDR
 
 - [Git Desktop for Window](https://desktop.github.com)
-- open bash window, type: `./build`
+- open bash window, type: `./build.sh`
 
 **Requirements**
 
