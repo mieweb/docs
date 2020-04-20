@@ -11,7 +11,7 @@
 
 - [Hugo](https://gohugo.io/)
 - [Node.js](https://nodejs.org/en/download/package-manager/)
-- [wikiGDrive](https://www.npmjs.com/package/@mieweb/wikigdrive) Background: [Info](https://docs.google.com/document/d/1H6vwfQXIexdg4ldfaoPUjhOZPnSkNn6h29WD6Fi-SBY/edit#heading=h.rv5b8ogzvg6h)
+- [wikiGDrive](https://www.npmjs.com/package/@mieweb/wikigdrive)
 
 ### Mac Users
 
