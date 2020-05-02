@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 34
 id: 1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE
 source: https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE
+menu:
+    main:
+        name: "Injections CSV API"
+        identifier: "1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4890
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for injections using the Injections CSV API.
 
@@ -27,7 +33,7 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * A <strong>document</strong> in EH is a way of storing non-discrete information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
 * An <strong>encounter</strong> documents a visit with a employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
 
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://drive.google.com/a/mieweb.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.html) page for a more detailed explanation of terminology.
 
 
 
@@ -87,283 +93,171 @@ The CDC Immunization Information Systems CVX Codes are available here: [http://
 <table>
   <tr>
     <td>
-Enterprise Health Site Codes
-
-    </td>
+Enterprise Health Site Codes    </td>
     <td>
-Enterprise Health Site Descriptions
-
-    </td>
+Enterprise Health Site Descriptions    </td>
   </tr>
   <tr>
     <td>
-AB
-
-    </td>
+AB    </td>
     <td>
-Abdomin
-
-    </td>
+Abdomin    </td>
   </tr>
   <tr>
     <td>
-RG
-
-    </td>
+RG    </td>
     <td>
-Right Glute
-
-    </td>
+Right Glute    </td>
   </tr>
   <tr>
     <td>
-LG
-
-    </td>
+LG    </td>
     <td>
-Left Glute
-
-    </td>
+Left Glute    </td>
   </tr>
   <tr>
     <td>
-LD
-
-    </td>
+LD    </td>
     <td>
-Left Deltoid
-
-    </td>
+Left Deltoid    </td>
   </tr>
   <tr>
     <td>
-RD
-
-    </td>
+RD    </td>
     <td>
-Right Deltoid
-
-    </td>
+Right Deltoid    </td>
   </tr>
   <tr>
     <td>
-LAF
-
-    </td>
+LAF    </td>
     <td>
-Left Arm Forearm
-
-    </td>
+Left Arm Forearm    </td>
   </tr>
   <tr>
     <td>
-RAF
-
-    </td>
+RAF    </td>
     <td>
-Right Arm Forearm
-
-    </td>
+Right Arm Forearm    </td>
   </tr>
   <tr>
     <td>
-LT
-
-    </td>
+LT    </td>
     <td>
-Left Thigh
-
-    </td>
+Left Thigh    </td>
   </tr>
   <tr>
     <td>
-RT
-
-    </td>
+RT    </td>
     <td>
-Right Thigh
-
-    </td>
+Right Thigh    </td>
   </tr>
   <tr>
     <td>
-RA
-
-    </td>
+RA    </td>
     <td>
-Right Arm
-
-    </td>
+Right Arm    </td>
   </tr>
   <tr>
     <td>
-RAL
-
-    </td>
+RAL    </td>
     <td>
-Right Arm Lower Site
-
-    </td>
+Right Arm Lower Site    </td>
   </tr>
   <tr>
     <td>
-RAU
-
-    </td>
+RAU    </td>
     <td>
-Right Arm Upper Site
-
-    </td>
+Right Arm Upper Site    </td>
   </tr>
   <tr>
     <td>
-RD
-
-    </td>
+RD    </td>
     <td>
-Right Deltoid
-
-    </td>
+Right Deltoid    </td>
   </tr>
   <tr>
     <td>
-RT
-
-    </td>
+RT    </td>
     <td>
-Right Thigh
-
-    </td>
+Right Thigh    </td>
   </tr>
   <tr>
     <td>
-RG
-
-    </td>
+RG    </td>
     <td>
-Right Gluteus
-
-    </td>
+Right Gluteus    </td>
   </tr>
   <tr>
     <td>
-RVL
-
-    </td>
+RVL    </td>
     <td>
-Right Vastus Lateralis
-
-    </td>
+Right Vastus Lateralis    </td>
   </tr>
   <tr>
     <td>
-LA
-
-    </td>
+LA    </td>
     <td>
-Left Arm
-
-    </td>
+Left Arm    </td>
   </tr>
   <tr>
     <td>
-LAL
-
-    </td>
+LAL    </td>
     <td>
-Left Arm Lower Site
-
-    </td>
+Left Arm Lower Site    </td>
   </tr>
   <tr>
     <td>
-LAU
-
-    </td>
+LAU    </td>
     <td>
-Left Arm Upper Site
-
-    </td>
+Left Arm Upper Site    </td>
   </tr>
   <tr>
     <td>
-LD
-
-    </td>
+LD    </td>
     <td>
-Left Deltoid
-
-    </td>
+Left Deltoid    </td>
   </tr>
   <tr>
     <td>
-LT
-
-    </td>
+LT    </td>
     <td>
-Left Thigh
-
-    </td>
+Left Thigh    </td>
   </tr>
   <tr>
     <td>
-LG
-
-    </td>
+LG    </td>
     <td>
-Left Gluteus
-
-    </td>
+Left Gluteus    </td>
   </tr>
   <tr>
     <td>
-LVL
-
-    </td>
+LVL    </td>
     <td>
-Left Vastus Lateralis
-
-    </td>
+Left Vastus Lateralis    </td>
   </tr>
   <tr>
     <td>
-AB
-
-    </td>
+AB    </td>
     <td>
-Abdomen
-
-    </td>
+Abdomen    </td>
   </tr>
   <tr>
     <td>
-O
-
-    </td>
+O    </td>
     <td>
-Oral
-
-    </td>
+Oral    </td>
   </tr>
   <tr>
     <td>
-BN
-
-    </td>
+BN    </td>
     <td>
-Both Nares
-
-    </td>
+Both Nares    </td>
   </tr>
   <tr>
     <td>
-OTHER
-
-    </td>
+OTHER    </td>
     <td>
-Other
-
-    </td>
+Other    </td>
   </tr>
 </table>
 
@@ -374,103 +268,63 @@ Other
 <table>
   <tr>
     <td>
-Enterprise Health Route Codes
-
-    </td>
+Enterprise Health Route Codes    </td>
     <td>
-Enterprise Health Route Descriptions
-
-    </td>
+Enterprise Health Route Descriptions    </td>
   </tr>
   <tr>
     <td>
-ID
-
-    </td>
+ID    </td>
     <td>
-Intradermal
-
-    </td>
+Intradermal    </td>
   </tr>
   <tr>
     <td>
-IM
-
-    </td>
+IM    </td>
     <td>
-Intramuscular
-
-    </td>
+Intramuscular    </td>
   </tr>
   <tr>
     <td>
-IV
-
-    </td>
+IV    </td>
     <td>
-Intravenous
-
-    </td>
+Intravenous    </td>
   </tr>
   <tr>
     <td>
-PO
-
-    </td>
+PO    </td>
     <td>
-Oral
-
-    </td>
+Oral    </td>
   </tr>
   <tr>
     <td>
-SC
-
-    </td>
+SC    </td>
     <td>
-Subcutaneous
-
-    </td>
+Subcutaneous    </td>
   </tr>
   <tr>
     <td>
-OTH
-
-    </td>
+OTH    </td>
     <td>
-Other
-
-    </td>
+Other    </td>
   </tr>
   <tr>
     <td>
-IN
-
-    </td>
+IN    </td>
     <td>
-Intranasal
-
-    </td>
+Intranasal    </td>
   </tr>
   <tr>
     <td>
-IA
-
-    </td>
+IA    </td>
     <td>
-Intraarticular
-
-    </td>
+Intraarticular    </td>
   </tr>
   <tr>
     <td>
-TD
-
-    </td>
+TD    </td>
     <td>
-Transdermal
-
-    </td>
+Transdermal    </td>
   </tr>
 </table>
 

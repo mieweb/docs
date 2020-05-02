@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 43
 id: 1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y
 source: https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y
+menu:
+    main:
+        name: "Data Import Tab"
+        identifier: "1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4810
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 

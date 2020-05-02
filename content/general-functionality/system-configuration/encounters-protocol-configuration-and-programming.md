@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 131
 id: 19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY
 source: https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY
+menu:
+    main:
+        name: "Encounters Protocol Configuration & Programming"
+        identifier: "19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY"
+        parent: "1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw"
+        weight: 280
 ---
 *This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
 
@@ -259,7 +265,7 @@ Once the flowsheet is compiled and each is set to a specific input type and desc
 
 {{% info %}}
 
-More help regarding other details of flowsheet module programming is found in [Observation Flowsheets](https://drive.google.com/a/mieweb.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY) help guide in the {{% system-name %}} online help.
+More help regarding other details of flowsheet module programming is found in [Observation Flowsheets](../order-and-result-management/observation-flowsheets.html) help guide in the {{% system-name %}} online help.
 
 {{% /info %}}
 

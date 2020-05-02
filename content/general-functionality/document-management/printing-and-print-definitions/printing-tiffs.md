@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 31
 id: 174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ
 source: https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ
+menu:
+    main:
+        name: "Printing TIFFs"
+        identifier: "174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ"
+        parent: "1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY"
+        weight: 750
 ---
 ## Printing Documents from a Tiff Printer
 

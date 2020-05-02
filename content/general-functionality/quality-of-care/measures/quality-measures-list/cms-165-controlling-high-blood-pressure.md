@@ -48,73 +48,45 @@ Using the Vitals section of the encounter, ensure blood pressure is recorded cor
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Annual Wellness Visit
-
-    </td>
+Encounter, Performed: Annual Wellness Visit    </td>
     <td>
-2.16.840.1.113883.3.526.3.1240
-
-    </td>
+2.16.840.1.113883.3.526.3.1240    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Home Healthcare Services
-
-    </td>
+Encounter, Performed: Home Healthcare Services    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Office Visit
-
-    </td>
+Encounter, Performed: Office Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Essential Hypertension
-
-    </td>
+Diagnosis: Essential Hypertension    </td>
     <td>
-2.16.840.1.113883.3.464.1003.104.12.1011
-
-    </td>
+2.16.840.1.113883.3.464.1003.104.12.1011    </td>
   </tr>
 </table>
 
@@ -127,33 +99,21 @@ Equals Initial Population
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Physical Exam, Performed: Diastolic blood pressure
-
-    </td>
+Physical Exam, Performed: Diastolic blood pressure    </td>
     <td>
-LOINC version 2.63 Code 8462-4
-
-    </td>
+LOINC version 2.63 Code 8462-4    </td>
   </tr>
   <tr>
     <td>
-Physical Exam, Performed: Systolic blood pressure
-
-    </td>
+Physical Exam, Performed: Systolic blood pressure    </td>
     <td>
-LOINC version 2.63 Code 8480-6
-
-    </td>
+LOINC version 2.63 Code 8480-6    </td>
   </tr>
 </table>
 
@@ -162,113 +122,69 @@ LOINC version 2.63 Code 8480-6
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Chronic Kidney Disease, Stage 5
-
-    </td>
+Diagnosis: Chronic Kidney Disease, Stage 5    </td>
     <td>
-2.16.840.1.113883.3.526.3.1002
-
-    </td>
+2.16.840.1.113883.3.526.3.1002    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: End Stage Renal Disease
-
-    </td>
+Diagnosis: End Stage Renal Disease    </td>
     <td>
-2.16.840.1.113883.3.526.3.353
-
-    </td>
+2.16.840.1.113883.3.526.3.353    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Essential Hypertension
-
-    </td>
+Diagnosis: Essential Hypertension    </td>
     <td>
-2.16.840.1.113883.3.464.1003.104.12.1011
-
-    </td>
+2.16.840.1.113883.3.464.1003.104.12.1011    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Kidney Transplant Recipient
-
-    </td>
+Diagnosis: Kidney Transplant Recipient    </td>
     <td>
-2.16.840.1.113883.3.464.1003.109.12.1029
-
-    </td>
+2.16.840.1.113883.3.464.1003.109.12.1029    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Pregnancy
-
-    </td>
+Diagnosis: Pregnancy    </td>
     <td>
-2.16.840.1.113883.3.526.3.378
-
-    </td>
+2.16.840.1.113883.3.526.3.378    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order: Hospice care ambulatory
-
-    </td>
+Intervention, Order: Hospice care ambulatory    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed: Hospice care ambulatory
-
-    </td>
+Intervention, Performed: Hospice care ambulatory    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed: Dialysis Services
-
-    </td>
+Procedure, Performed: Dialysis Services    </td>
     <td>
-2.16.840.1.113883.3.464.1003.109.12.1013
-
-    </td>
+2.16.840.1.113883.3.464.1003.109.12.1013    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed: Kidney Transplant
-
-    </td>
+Procedure, Performed: Kidney Transplant    </td>
     <td>
-2.16.840.1.113883.3.464.1003.109.12.1012
-
-    </td>
+2.16.840.1.113883.3.464.1003.109.12.1012    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed: Vascular Access for Dialysis
-
-    </td>
+Procedure, Performed: Vascular Access for Dialysis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.109.12.1011
-
-    </td>
+2.16.840.1.113883.3.464.1003.109.12.1011    </td>
   </tr>
 </table>
 

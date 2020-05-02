@@ -49,203 +49,123 @@ Numerator 3: Patients who had counseling for physical activity during a visit th
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.378
-
-    </td>
+2.16.840.1.113883.3.526.3.378    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.666.5.307
-
-    </td>
+2.16.840.1.113883.3.666.5.307    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1024
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1024    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1027
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1027    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1026
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1026    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1022
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1022    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.195.12.1003
-
-    </td>
+2.16.840.1.113883.3.464.1003.195.12.1003    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1035
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1035    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
   <tr>
     <td>
-Physical Exam, Performed
-
-    </td>
+Physical Exam, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.121.12.1012
-
-    </td>
+2.16.840.1.113883.3.464.1003.121.12.1012    </td>
   </tr>
   <tr>
     <td>
-Physical Exam, Performed
-
-    </td>
+Physical Exam, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.121.12.1014
-
-    </td>
+2.16.840.1.113883.3.464.1003.121.12.1014    </td>
   </tr>
   <tr>
     <td>
-Physical Exam, Performed
-
-    </td>
+Physical Exam, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.121.12.1015
-
-    </td>
+2.16.840.1.113883.3.464.1003.121.12.1015    </td>
   </tr>
 </table>
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 26
 id: 1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ
 source: https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ
+menu:
+    main:
+        name: "Create Employees File for Import"
+        identifier: "1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4740
 ---
 This document explains how to import your existing employees into {{% system-name %}} .
 
@@ -24,157 +30,91 @@ What you will need:
 <table>
   <tr>
     <td>
-**Field Name**
-
-    </td>
+**Field Name**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-**Requirement**
-
-    </td>
+**Requirement**    </td>
   </tr>
   <tr>
     <td>
-Employee ID
-
-    </td>
+Employee ID    </td>
     <td>
-This field will be used for looking up the chart to insert or update.
-
-    </td>
+This field will be used for looking up the chart to insert or update.    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-Birth Date
-
-    </td>
+Birth Date    </td>
     <td>
-Employee Date of Birth. Date format should be YYYYMMDD or MM/DD/YYYY.
-
-    </td>
+Employee Date of Birth. Date format should be YYYYMMDD or MM/DD/YYYY.    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-Last Name
-
-    </td>
+Last Name    </td>
     <td>
-Employee Last Name
-
-    </td>
+Employee Last Name    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-First Name
-
-    </td>
+First Name    </td>
     <td>
-Employee First Name
-
-    </td>
+Employee First Name    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Email Address
-
-    </td>
+Email Address    </td>
     <td>
-Employee Email Address
-
-    </td>
+Employee Email Address    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Position Title
-
-    </td>
+Position Title    </td>
     <td>
-Employee Job Title
-
-    </td>
+Employee Job Title    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Employee Work Status
-
-    </td>
+Employee Work Status    </td>
     <td>
-Employee Status (See Specification for Valid Codes)
-
-    </td>
+Employee Status (See Specification for Valid Codes)    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-SSO ID / Username
-
-    </td>
+SSO ID / Username    </td>
     <td>
-Username used for Patient Portal / Single Sign-on (SSO)
-
-    </td>
+Username used for Patient Portal / Single Sign-on (SSO)    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Badge ID
-
-    </td>
+Badge ID    </td>
     <td>
-The ID used at Check-In kiosks. This is typically the number from an ID card or RFID chip, used at the Check-In kiosk, in a clinic waiting room. **If Check-In kiosks are part of the **{{% sys-name %}}** deployment, this field is required**. Otherwise, this field should be skipped.
-
-    </td>
+The ID used at Check-In kiosks. This is typically the number from an ID card or RFID chip, used at the Check-In kiosk, in a clinic waiting room. **If Check-In kiosks are part of the **{{% sys-name %}}** deployment, this field is required**. Otherwise, this field should be skipped.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Supervisor ID
-
-    </td>
+Supervisor ID    </td>
     <td>
-Supervisor Employee ID
-
-    </td>
+Supervisor Employee ID    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
 </table>
 

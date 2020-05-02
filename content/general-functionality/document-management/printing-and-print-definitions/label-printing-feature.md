@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 43
 id: 1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10
 source: https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10
+menu:
+    main:
+        name: "Label Printing Feature"
+        identifier: "1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10"
+        parent: "1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY"
+        weight: 780
 ---
 {{% system-name %}} offers a label generating feature that generates labels with predefined chart information. The data and information printed on the labels is provided as part of the system standard; however, label layouts can be customized for clients, as needed.
 
@@ -111,5 +117,5 @@ At the end of the encounter view, a section is available for listing all encount
 
 ![](../../../external_files/be72e1d0c85575e3a58bf78599ac99b8.png)
 
-For more information, please review the [Order Requests Chart Tab](https://docs.google.com/document/d/1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o) documentation.
+For more information, please review the [Order Requests Chart Tab](../../order-and-result-management/e-orders-chart-tab.html) documentation.
 

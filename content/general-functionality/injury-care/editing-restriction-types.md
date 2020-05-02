@@ -3,9 +3,15 @@ title: "Editing Restriction Types"
 date: 2020-03-30T16:34:03.981Z
 url: "general-functionality/injury-care/editing-restriction-types.html"
 author: Jeremia Ploor
-version: 55
+version: 57
 id: 1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE
 source: https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE
+menu:
+    main:
+        name: "Editing Restriction Types"
+        identifier: "1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE"
+        parent: "111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY"
+        weight: 1730
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related) when working in charts. Personnel may initiate an encounter to document and authorize work restrictions. The types of clinical restrictions choices available for staff to document, when working in charts, is customizable for the {{% system-name %}} system.
 
@@ -30,7 +36,7 @@ Restriction Types can be added to the system for users to be able to select and 
 
 
 
-![](../../external_files/6a43a4daa5380f408eb7f9f1e2371124.png)
+![](../../external_files/d0d177a61a42d4a19accdde5f8f1b339.png)
 
 
 

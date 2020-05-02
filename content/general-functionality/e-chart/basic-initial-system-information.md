@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 43
 id: 1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8
 source: https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8
+menu:
+    main:
+        name: "Basic Initial System Information"
+        identifier: "1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8"
+        parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
+        weight: 890
 ---
 ## Patient/Employee/Chart Simple Search Screen
 
@@ -24,7 +30,7 @@ source: https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQ
 
 * Users who have security access to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) of the Control Panel are able to set their own system defaults and preferences as well as change settings for other users, individually or system-wide.  
 * The [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) screen will default to the logged-in user's settings.  This can be changed by clicking the dropdown option in the upper-right corner of the screen.
-* Users can view the help document named [My Settings](https://docs.google.com/document/d/1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc) that will explain every setting present on the screen.
+* Users can view the help document named [My Settings](../system-administration/security/my-settings.html) that will explain every setting present on the screen.
 * The following are some basic settings that can be changed for each user or could be changed for the entire system default.
     * <strong>Default Location</strong> (found in the WebChart User Interface section)- this is to designate the location that a user is associated with if more than one location is entered in the system. If more than one location exists, users should set the location where they work at most frequently with this setting.
     * <strong>Search By</strong> (found in the E-Chart Patient Search Criteria section) - this is to set the user's preferred patient search method by name, MR number, SSN, birth date, home phone number or document id.  

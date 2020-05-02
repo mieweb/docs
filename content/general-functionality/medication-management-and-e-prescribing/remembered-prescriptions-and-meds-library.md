@@ -1,0 +1,104 @@
+---
+title: "Remembered Prescriptions & Meds Library"
+date: 2020-02-27T20:07:48.515Z
+url: "general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.html"
+author: Alan Quandt
+version: 26
+id: 1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM
+source: https://drive.google.com/open?id=1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM
+menu:
+    main:
+        name: "Remembered Prescriptions & Meds Library"
+        identifier: "1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM"
+        parent: "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
+        weight: 2240
+---
+## Create Remembered Prescription from Quick Prescribe
+
+In the patient's (or a test patient's) e-meds chart tab, make sure your current library is set to whatever library you want the script to be remembered under. Make sure you are not in *default library.*
+
+![](../../external_files/b5f680b75d48540a70420e4fa8bd1342.png)
+To change your library, click on the underlined Current Library link and choose the library from the drop-down choices. Make your selection, then click the SET button to set the current library.
+
+![](../../external_files/b593374e3d696045a367a2a2481605bf.png)
+
+Click the Prescribe link in the patient's e-meds tab.
+
+![](../../external_files/d203542cfedffba54db534e9b9b70e4a.png)
+
+In the *Medication* field, begin to type the medication you want to prescribe and save to the physician's library as a remembered script name.
+
+It is highly suggested to always select an auto-complete medication choice selection with **(New)** beside it. The (New) means this is not a remembered script choice entered already. These auto-complete medication choices come from the First DataBank database and drug/allergy interactions/warnings work only from these selections of known medications. This is an updated list of medications from First DataBank. Using a (New) choice will prompt you to fill out each field when you tab to each following fields of form, sig, duration, etc.
+
+![](../../external_files/be5cd7978b88f1dd9ce09d41b29ed70d.png)
+
+Continue selecting your form, type in the sig you want remembered, the duration, quantity, indication, etc.
+
+**FORM field:** the selection from the choices shown here will *save* with the remembered script. Free text forms will save also. If you free-type in a form, it will not save with the remembered script for future use. If you have to free-type in a form, we suggest typing it in along with the Medication Name in the first field, *or* type in the specific free-text form in the *Note to Pharmacist* field.
+
+The *Note to Pharmacist* field will also save if you set it to be a remembered script. Note to Pharmacist is helpful to put in compound medication information, etc. Anything typed in the Special Instructions field will also be remembered when using the remembered script feature.
+
+When you get to **REMEMBERED SCRIPT NAME** this is where you type in usually the physician's last name so they know it's their saved med they entered/use often or an abbreviation on what he/she uses this drug for (ex: CHF) or what he/she wants to remember it by to know it's his/her remembered script.
+
+![](../../external_files/7538c17d18997c87ce494325d7e8dde7.png)
+
+Click the PRESCRIBE button at the bottom to submit the prescription.
+
+When prescribing for another patient and you are in the same *current library* as it was saved/remembered in, if you go to prescribe the medication, you will then see your *Remembered Name/Saved Med Library* script as a choice in the auto-complete. The medication name choices list is not alphabetical based on few characters.  It is supposed to be based on frequency of use. Type more characters to limit the list choices.
+
+![](../../external_files/d3a030ea2b0002fb6faef0293c85f51f.png)
+
+You can select that remembered script name and it will populate all the fields that the remembered script was entered in as. You can of course override any field and change anything, but since all the fields are filled out to how they were to be remembered, you can quickly click the PRESCRIBE button to prescribe the remembered script med for a patient and you're done without having to go thru each individual field as you do for (New) medication choices.
+
+If you have your library set to someone else, that *remembered script name/med* will not show up as an auto-complete choice while you are set to someone else's library.
+
+The remembered script is only saved under the library that it was set to when saved/remembered initially.
+
+![](../../external_files/dba48aba2b656384c762f22b4eae0e23.png)
+
+You can free-text in a medication name in the medication field instead of selecting a First DataBank auto-complete medication choice, however it is not recommended because the drug/allergy interactions/warnings cannot work since it is an unrecognized medication and not in the First DataBank database. You can continue to add data to the fields and can type in a remembered script name and it will save this as a remembered script for that user's library.
+
+![](../../external_files/393e9f81a04ae6e29429f00ec3839013.png)
+
+### ![](../../external_files/007c1cccc48f8aec9dda24f406a83807.png)
+
+### Update Button
+
+The UPDATE button found above ‘remembered script' field can clicked if you used/prescribed a ‘remembered script' in the medication name field. Some previous saved remembered scripts could be missing required info/fields for prescriptions to be valid for electronic transmission via SureScripts.
+
+![](../../external_files/156bcae207c534081bb28cd2e2746c65.png)
+
+When you use a ‘remembered script' and change or enter in information to the prescription fields and click the UPDATE button for the remembered script, it will ‘update' that remembered script with everything you entered in currently. It ‘updates' the remembered script and changes the remembered script to have the details you just entered in. When you click the UPDATE button, the ‘remembered script name' populates that field and upon submit, that remembered script name will be updated with the information you entered.
+
+## Remembered Prescriptions in Encounter Exams
+
+When you are working in the Meds plan section of any encounter, you can also utilize the *Remember As* and *update* features as above. The library you are set to is where this is pointed to.
+
+![](../../external_files/c85906ca1adf47a3163d32fe84306fb8.png)
+
+## Meds Library in Control Panel
+
+If you need to edit or delete or look at a remembered script (saved library medication), simply click on the Control sidemenu tab. Then click the Meds tab at the top. This will open the Common Scripts (saved library medications) for your practice.
+
+![](../../external_files/ca7ae1035ce5e59a3a260f684ab70b3f.png)
+
+To find a remembered script, make sure the Current Library is set to the library you wish to view the saved/remembered medications for.
+
+The full list for that library will display. You can also use the search tools to find a remembered script for that library.
+
+![](../../external_files/db62c285dc0b0fb04ae53a4bc068aec7.png)
+
+Click Edit to edit remembered script fields, or click Delete to delete that remembered script from showing up in the user's library when they prescribe medications.
+
+Clicking Edit will allow you to edit any fields for that remembered script in the user's library.
+
+Click SUBMIT button when done editing.
+
+![](../../external_files/48bfae39e76c6d120954c767064a0881.png)
+
+If you had free-typed in a medication name instead of selecting a First DataBank medication database choice, and saved your script with a remembered name, then your remembered script in the Meds Library tab in Control would show the **Custom Drug Name** column as the free-text medication name you typed and saved.
+
+![](../../external_files/31484a2f5cf56301bfa40d3b8eb80578.png)
+
+All other scripts chosen from the auto-complete First DataBank database medication name choices will show that in the **Script** column as a recognized medication.
+

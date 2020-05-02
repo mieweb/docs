@@ -6,12 +6,18 @@ author: Jeremia Ploor
 version: 69
 id: 1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg
 source: https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg
+menu:
+    main:
+        name: "Due List"
+        identifier: "1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg"
+        parent: "13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg"
+        weight: 1840
 ---
 Tests or Procedures items that are "due" (pending) are displayed in dynamic encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
 
 ## Due List Portlet
 
-When viewing the Summary chart tab, there is a portlet available for display named Due List.  This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed, or marked declined/waived, etc. This list is managed in the Due List chart tab and/or from within dynamic encounters.  For more information on how portlets work in this chart tab, please see help guide named [Patient Summary-Interactive Chart Tab](https://docs.google.com/document/d/1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk).
+When viewing the Summary chart tab, there is a portlet available for display named Due List.  This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed, or marked declined/waived, etc. This list is managed in the Due List chart tab and/or from within dynamic encounters.  For more information on how portlets work in this chart tab, please see help guide named [Patient Summary-Interactive Chart Tab](../e-chart/patient-summary-interactive-chart-tab.html).
 
 
 
@@ -31,7 +37,7 @@ If a Health Surveillance Panel, the chart is a member of, has any comments (on t
 
 
 
-A Due List is a list of pending orders with due dates for a chart.  These can be managed in dynamic encounters, but also from the Due List chart tab. The list serves as a reminder for what is due or what is coming due or what is past due when working in the chart.  The Due List is separated into 3 different sections that are sortable, filterable lists in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to the [DataVis Grids-Data Tool](https://docs.google.com/document/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY) documentation.  
+A Due List is a list of pending orders with due dates for a chart.  These can be managed in dynamic encounters, but also from the Due List chart tab. The list serves as a reminder for what is due or what is coming due or what is past due when working in the chart.  The Due List is separated into 3 different sections that are sortable, filterable lists in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to the [DataVis Grids-Data Tool](../reports/using-datavis-grids-data-tools.html) documentation.  
 
 
 
@@ -338,7 +344,7 @@ Due List items that have a status other than pending or in progress, will be fou
 
 
 
-There is a left to right scrollable bar to see additional columns of information for each past due list item.  The section is a sortable, filterable list in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to [DataVis Grids-Data Tool](https://docs.google.com/document/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY) documentation.
+There is a left to right scrollable bar to see additional columns of information for each past due list item.  The section is a sortable, filterable list in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to [DataVis Grids-Data Tool](../reports/using-datavis-grids-data-tools.html) documentation.
 
 ### Edit Items
 

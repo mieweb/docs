@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 26
 id: 1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY
 source: https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY
+menu:
+    main:
+        name: "Create Health Surveillance File for Import"
+        identifier: "1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4750
 ---
 This document explains how to import your health surveillance data into {{% system-name %}} .
 
@@ -24,81 +30,47 @@ What you will need:
 <table>
   <tr>
     <td>
-**Field Name**
-
-    </td>
+**Field Name**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-**Requirement**
-
-    </td>
+**Requirement**    </td>
     <td>
-**Column Header Name**
-
-    </td>
+**Column Header Name**    </td>
   </tr>
   <tr>
     <td>
-Employee ID
-
-    </td>
+Employee ID    </td>
     <td>
-Employee Identifier
-
-    </td>
+Employee Identifier    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-patient_panel_status.pat_id
-
-    </td>
+patient_panel_status.pat_id    </td>
   </tr>
   <tr>
     <td>
-External ID
-
+External ID    </td>
+    <td>
     </td>
     <td>
- 
-
-    </td>
+**Required**    </td>
     <td>
-**Required**
-
-    </td>
-    <td>
-patient_panel_status.ext_id
-
-    </td>
+patient_panel_status.ext_id    </td>
   </tr>
   <tr>
     <td>
-Panel ID
-
+Panel ID    </td>
+    <td>
     </td>
     <td>
- 
-
-    </td>
+**Required**    </td>
     <td>
-**Required**
-
-    </td>
-    <td>
-patient_panel_status.panel_id
-
-    </td>
+patient_panel_status.panel_id    </td>
   </tr>
   <tr>
     <td>
-Surveillance Schedule Status
-
-    </td>
+Surveillance Schedule Status    </td>
     <td>
 Possible values:
 
@@ -106,23 +78,15 @@ current
 
 history
 
-deleted
-
-    </td>
+deleted    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-patient_panel_status.rec_status
-
-    </td>
+patient_panel_status.rec_status    </td>
   </tr>
   <tr>
     <td>
-Test Outcome Status
-
-    </td>
+Test Outcome Status    </td>
     <td>
 Possible values:
 
@@ -138,71 +102,41 @@ notfit
 
 overdue
 
-failcomply: Failure to comply
-
-    </td>
+failcomply: Failure to comply    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-patient_panel_status.status
-
-    </td>
+patient_panel_status.status    </td>
   </tr>
   <tr>
     <td>
-Effective Date
-
-    </td>
+Effective Date    </td>
     <td>
-When the status went into effect
-
-    </td>
+When the status went into effect    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
- patient_panel_status.effective_dt
-
-    </td>
+patient_panel_status.effective_dt    </td>
   </tr>
   <tr>
     <td>
-Next Due
-
-    </td>
+Next Due    </td>
     <td>
-Next due date for panel
-
-    </td>
+Next due date for panel    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-patient_panel_status.next_due 
-
-    </td>
+patient_panel_status.next_due    </td>
   </tr>
   <tr>
     <td>
-Panel Membership Start Date
-
-    </td>
+Panel Membership Start Date    </td>
     <td>
-If a date is provided, this chart will be added as a member to the panel effective the specified start date. If the chart is not an active member of the panel (EG, the record is historical), then no Panel Membership Start Date should be specified.
-
-    </td>
+If a date is provided, this chart will be added as a member to the panel effective the specified start date. If the chart is not an active member of the panel (EG, the record is historical), then no Panel Membership Start Date should be specified.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-patient_panel_status.pm_start_dt 
-
-    </td>
+patient_panel_status.pm_start_dt    </td>
   </tr>
 </table>
 

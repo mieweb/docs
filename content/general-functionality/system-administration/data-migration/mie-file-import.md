@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 36
 id: 1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY
 source: https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY
+menu:
+    main:
+        name: "MIE File Import"
+        identifier: "1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4720
 ---
 
 
@@ -100,199 +106,115 @@ Listed below are the file/storage types that are supported by this tool. Use the
 <table>
   <tr>
     <td>
-**Storage Type**
-
-    </td>
+**Storage Type**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-**File Extension**
-
-    </td>
+**File Extension**    </td>
   </tr>
   <tr>
     <td>
-1
-
-    </td>
+1    </td>
     <td>
-Plain text file
-
-    </td>
+Plain text file    </td>
     <td>
-txt
-
-    </td>
+txt    </td>
   </tr>
   <tr>
     <td>
-2
-
-    </td>
+2    </td>
     <td>
-Rich Text Format document
-
-    </td>
+Rich Text Format document    </td>
     <td>
-rtf
-
-    </td>
+rtf    </td>
   </tr>
   <tr>
     <td>
-3
-
-    </td>
+3    </td>
     <td>
-PNG Image
-
-    </td>
+PNG Image    </td>
     <td>
-png
-
-    </td>
+png    </td>
   </tr>
   <tr>
     <td>
-4
-
-    </td>
+4    </td>
     <td>
-HyperText Markup Language document
-
-    </td>
+HyperText Markup Language document    </td>
     <td>
-html or htm
-
-    </td>
+html or htm    </td>
   </tr>
   <tr>
     <td>
-6
-
-    </td>
+6    </td>
     <td>
-Microsoft Word document
-
-    </td>
+Microsoft Word document    </td>
     <td>
-doc or docx
-
-    </td>
+doc or docx    </td>
   </tr>
   <tr>
     <td>
-7
-
-    </td>
+7    </td>
     <td>
-Tagged Image File Format (TIFF)
-
-    </td>
+Tagged Image File Format (TIFF)    </td>
     <td>
-tif or tiff
-
-    </td>
+tif or tiff    </td>
   </tr>
   <tr>
     <td>
-8
-
-    </td>
+8    </td>
     <td>
-JPEG Image
-
-    </td>
+JPEG Image    </td>
     <td>
-jpg or jpeg
-
-    </td>
+jpg or jpeg    </td>
   </tr>
   <tr>
     <td>
-9
-
-    </td>
+9    </td>
     <td>
-Generic binary file. Used for unrecognized or unsupported file types.
-
-    </td>
+Generic binary file. Used for unrecognized or unsupported file types.    </td>
     <td>
-bin
-
-    </td>
+bin    </td>
   </tr>
   <tr>
     <td>
-14
-
-    </td>
+14    </td>
     <td>
-Preformatted text file (displays text as-is with newlines)
-
-    </td>
+Preformatted text file (displays text as-is with newlines)    </td>
     <td>
-txt
-
-    </td>
+txt    </td>
   </tr>
   <tr>
     <td>
-17
-
-    </td>
+17    </td>
     <td>
-Portable Document Format (PDF)
-
-    </td>
+Portable Document Format (PDF)    </td>
     <td>
-pdf
-
-    </td>
+pdf    </td>
   </tr>
   <tr>
     <td>
-18
-
-    </td>
+18    </td>
     <td>
-Microsoft Excel spreadsheet
-
-    </td>
+Microsoft Excel spreadsheet    </td>
     <td>
-xls or xlsx
-
-    </td>
+xls or xlsx    </td>
   </tr>
   <tr>
     <td>
-22
-
-    </td>
+22    </td>
     <td>
-Email
-
-    </td>
+Email    </td>
     <td>
-eml
-
-    </td>
+eml    </td>
   </tr>
   <tr>
     <td>
-27
-
-    </td>
+27    </td>
     <td>
-Extensible Markup Language document
-
-    </td>
+Extensible Markup Language document    </td>
     <td>
-xml
-
-    </td>
+xml    </td>
   </tr>
 </table>
 

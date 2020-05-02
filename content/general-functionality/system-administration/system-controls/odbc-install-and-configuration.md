@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 37
 id: 10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk
 source: https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk
+menu:
+    main:
+        name: "ODBC Install & Configuration"
+        identifier: "10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk"
+        parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
+        weight: 4650
 ---
 ### MySQL 5.3.6 ODBC Driver Install
 

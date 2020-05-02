@@ -16,43 +16,27 @@ Video Pricing is based on the number of minutes your participants are connected 
 <table>
   <tr>
     <td>
-**Meeting Type**
-
-    </td>
+**Meeting Type**    </td>
     <td>
-**Pricing**
-
-    </td>
+**Pricing**    </td>
   </tr>
   <tr>
     <td>
-Peer to Peer Room (2 people)	
-
-    </td>
+Peer to Peer Room (2 people)    </td>
     <td>
-$0.006 / minute (2 participants)
-
-    </td>
+$0.006 / minute (2 participants)    </td>
   </tr>
   <tr>
     <td>
-Small-Group Room (up to 4 participants)
-
-    </td>
+Small-Group Room (up to 4 participants)    </td>
     <td>
-$0.008 / min per participant 
-
-    </td>
+$0.008 / min per participant    </td>
   </tr>
   <tr>
     <td>
-Group Rooms (up to 50 participants)
-
-    </td>
+Group Rooms (up to 50 participants)    </td>
     <td>
-$0.02 / min per participant
-
-    </td>
+$0.02 / min per participant    </td>
   </tr>
 </table>
 
@@ -61,39 +45,23 @@ $0.02 / min per participant
 <table>
   <tr>
     <td>
-**Number Used:**
-
-    </td>
+**Number Used:**    </td>
     <td>
-**Monthly**
-
-    </td>
+**Monthly**    </td>
     <td>
-**Send Price**
-
-    </td>
+**Send Price**    </td>
     <td>
-**Receive Price**
-
-    </td>
+**Receive Price**    </td>
   </tr>
   <tr>
     <td>
-Local Numbers
-
-    </td>
+Local Numbers    </td>
     <td>
-$1.00 per #
-
-    </td>
+$1.00 per #    </td>
     <td>
-$0.0150
-
-    </td>
+$0.0150    </td>
     <td>
-$0.0150
-
-    </td>
+$0.0150    </td>
   </tr>
 </table>
 
@@ -106,23 +74,15 @@ In order to record visits, you must use the small room or larger video options. 
 <table>
   <tr>
     <td>
-**Meeting Type**
-
-    </td>
+**Meeting Type**    </td>
     <td>
-**Pricing**
-
-    </td>
+**Pricing**    </td>
   </tr>
   <tr>
     <td>
-Recorded Visits
-
-    </td>
+Recorded Visits    </td>
     <td>
-$0.04 / min per participant
-
-    </td>
+$0.04 / min per participant    </td>
   </tr>
 </table>
 

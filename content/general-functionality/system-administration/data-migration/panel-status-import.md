@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 19
 id: 1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ
 source: https://drive.google.com/open?id=1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ
+menu:
+    main:
+        name: "Panel Status Import"
+        identifier: "1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4910
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create patient panel status records using the Panel Status CSV API.
 
@@ -78,4 +84,4 @@ Unless otherwise specified, validation between the previous system and the new E
 
 ## Related Pages
 
-* [Data Import Master List](https://docs.google.com/document/d/12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.html)

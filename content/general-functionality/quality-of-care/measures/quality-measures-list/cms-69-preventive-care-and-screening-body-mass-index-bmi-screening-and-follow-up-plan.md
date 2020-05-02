@@ -51,193 +51,117 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.600.1.1623
-
-    </td>
+2.16.840.1.113883.3.600.1.1623    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.1.1751
-
-    </td>
+2.16.840.1.113883.3.600.1.1751    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.1.1575
-
-    </td>
+2.16.840.1.113883.3.600.1.1575    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1.1525
-
-    </td>
+2.16.840.1.113883.3.600.1.1525    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1.1528
-
-    </td>
+2.16.840.1.113883.3.600.1.1528    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1.1527
-
-    </td>
+2.16.840.1.113883.3.600.1.1527    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1.1525
-
-    </td>
+2.16.840.1.113883.3.600.1.1525    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1.1528
-
-    </td>
+2.16.840.1.113883.3.600.1.1528    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1.1579
-
-    </td>
+2.16.840.1.113883.3.600.1.1579    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1.1527
-
-    </td>
+2.16.840.1.113883.3.600.1.1527    </td>
   </tr>
   <tr>
     <td>
-Medication, Not Ordered
-
-    </td>
+Medication, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1.1498
-
-    </td>
+2.16.840.1.113883.3.600.1.1498    </td>
   </tr>
   <tr>
     <td>
-Medication, Not Ordered
-
-    </td>
+Medication, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1.1499
-
-    </td>
+2.16.840.1.113883.3.600.1.1499    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1.1498
-
-    </td>
+2.16.840.1.113883.3.600.1.1498    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1.1499
-
-    </td>
+2.16.840.1.113883.3.600.1.1499    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
 </table>
 

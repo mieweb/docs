@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 38
 id: 1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs
 source: https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs
+menu:
+    main:
+        name: "Editing Demographics"
+        identifier: "1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs"
+        parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
+        weight: 1040
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.  
 

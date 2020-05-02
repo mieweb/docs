@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 46
 id: 1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg
 source: https://drive.google.com/open?id=1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg
+menu:
+    main:
+        name: "Encounter Protocols"
+        identifier: "1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg"
+        parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+        weight: 1580
 ---
 Protocols are clinical workflows that are condition specific, such as headaches, burns, falls and bites. To better guide the clinician through a patient visit based on a specific condition, ‘protocols' can be configured using observations, flowsheets, .macros and orders in the standard dynamic 'Visit' encounter.
 

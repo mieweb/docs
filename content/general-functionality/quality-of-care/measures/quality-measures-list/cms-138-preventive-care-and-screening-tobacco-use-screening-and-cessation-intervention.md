@@ -76,183 +76,111 @@ Using the Social History section of the encounter, ensure smoking status is docu
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Annual Wellness Visit
-
-    </td>
+Encounter, Performed: Annual Wellness Visit    </td>
     <td>
-2.16.840.1.113883.3.526.3.1240
-
-    </td>
+2.16.840.1.113883.3.526.3.1240    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Health & Behavioral Assessment - Individual
-
-    </td>
+Encounter, Performed: Health & Behavioral Assessment - Individual    </td>
     <td>
-2.16.840.1.113883.3.526.3.1020
-
-    </td>
+2.16.840.1.113883.3.526.3.1020    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Health and Behavioral Assessment - Initial
-
-    </td>
+Encounter, Performed: Health and Behavioral Assessment - Initial    </td>
     <td>
-2.16.840.1.113883.3.526.3.1245
-
-    </td>
+2.16.840.1.113883.3.526.3.1245    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Health and Behavioral Assessment, Reassessment
-
-    </td>
+Encounter, Performed: Health and Behavioral Assessment, Reassessment    </td>
     <td>
-2.16.840.1.113883.3.526.3.1529
-
-    </td>
+2.16.840.1.113883.3.526.3.1529    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Home Healthcare Services
-
-    </td>
+Encounter, Performed: Home Healthcare Services    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Occupational Therapy Evaluation
-
-    </td>
+Encounter, Performed: Occupational Therapy Evaluation    </td>
     <td>
-2.16.840.1.113883.3.526.3.1011
-
-    </td>
+2.16.840.1.113883.3.526.3.1011    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Office Visit
-
-    </td>
+Encounter, Performed: Office Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Ophthalmological Services
-
-    </td>
+Encounter, Performed: Ophthalmological Services    </td>
     <td>
-2.16.840.1.113883.3.526.3.1285
-
-    </td>
+2.16.840.1.113883.3.526.3.1285    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Group Counseling
-
-    </td>
+Encounter, Performed: Preventive Care Services - Group Counseling    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1027
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1027    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Other
-
-    </td>
+Encounter, Performed: Preventive Care Services - Other    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1030
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1030    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Individual Counseling
-
-    </td>
+Encounter, Performed: Preventive Care Services-Individual Counseling    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1026
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1026    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Psych Visit - Diagnostic Evaluation
-
-    </td>
+Encounter, Performed: Psych Visit - Diagnostic Evaluation    </td>
     <td>
-2.16.840.1.113883.3.526.3.1492
-
-    </td>
+2.16.840.1.113883.3.526.3.1492    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Psych Visit - Psychotherapy
-
-    </td>
+Encounter, Performed: Psych Visit - Psychotherapy    </td>
     <td>
-2.16.840.1.113883.3.526.3.1496
-
-    </td>
+2.16.840.1.113883.3.526.3.1496    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Psychoanalysis
-
-    </td>
+Encounter, Performed: Psychoanalysis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1141
-
-    </td>
+2.16.840.1.113883.3.526.3.1141    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Speech and Hearing Evaluation
-
-    </td>
+Encounter, Performed: Speech and Hearing Evaluation    </td>
     <td>
-2.16.840.1.113883.3.526.3.1530
-
-    </td>
+2.16.840.1.113883.3.526.3.1530    </td>
   </tr>
 </table>
 
@@ -261,25 +189,17 @@ Encounter, Performed: Speech and Hearing Evaluation
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed: Tobacco Use Screening
-
-    </td>
+Assessment, Performed: Tobacco Use Screening    </td>
     <td>
 2.16.840.1.113883.3.526.3.1278
 
-2.16.840.1.113883.3.526.3.1170
-
-    </td>
+2.16.840.1.113883.3.526.3.1170    </td>
   </tr>
 </table>
 
@@ -288,57 +208,37 @@ Assessment, Performed: Tobacco Use Screening
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed: Tobacco Use Screening
-
-    </td>
+Assessment, Performed: Tobacco Use Screening    </td>
     <td>
 2.16.840.1.113883.3.526.3.1278
 
 2.16.840.1.113883.3.526.3.1170
 
-2.16.840.1.113883.3.526.3.1189
-
-    </td>
+2.16.840.1.113883.3.526.3.1189    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed: Tobacco Use Cessation Counseling
-
-    </td>
+Intervention, Performed: Tobacco Use Cessation Counseling    </td>
     <td>
-2.16.840.1.113883.3.526.3.509
-
-    </td>
+2.16.840.1.113883.3.526.3.509    </td>
   </tr>
   <tr>
     <td>
-Medication, Active: Tobacco Use Cessation Pharmacotherapy
-
-    </td>
+Medication, Active: Tobacco Use Cessation Pharmacotherapy    </td>
     <td>
-2.16.840.1.113883.3.526.3.1190
-
-    </td>
+2.16.840.1.113883.3.526.3.1190    </td>
   </tr>
   <tr>
     <td>
-Medication, Order: Tobacco Use Cessation Pharmacotherapy
-
-    </td>
+Medication, Order: Tobacco Use Cessation Pharmacotherapy    </td>
     <td>
-2.16.840.1.113883.3.526.3.1190
-
-    </td>
+2.16.840.1.113883.3.526.3.1190    </td>
   </tr>
 </table>
 
@@ -347,59 +247,39 @@ Medication, Order: Tobacco Use Cessation Pharmacotherapy
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Assessment, Not Performed: Tobacco Use Screening
-
-    </td>
+Assessment, Not Performed: Tobacco Use Screening    </td>
     <td>
 2.16.840.1.113883.3.526.3.1278
 
-2.16.840.1.113883.3.526.3.1007
-
-    </td>
+2.16.840.1.113883.3.526.3.1007    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Performed: Tobacco Use Cessation Counseling
-
-    </td>
+Intervention, Not Performed: Tobacco Use Cessation Counseling    </td>
     <td>
 2.16.840.1.113883.3.526.3.509
 
-2.16.840.1.113883.3.526.3.1007
-
-    </td>
+2.16.840.1.113883.3.526.3.1007    </td>
   </tr>
   <tr>
     <td>
-Medication, Not Ordered: Tobacco Use Cessation Pharmacotherapy
-
-    </td>
+Medication, Not Ordered: Tobacco Use Cessation Pharmacotherapy    </td>
     <td>
 2.16.840.1.113883.3.526.3.1190
 
-2.16.840.1.113883.3.526.3.1007
-
-    </td>
+2.16.840.1.113883.3.526.3.1007    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Limited Life Expectancy
-
-    </td>
+Diagnosis: Limited Life Expectancy    </td>
     <td>
-2.16.840.1.113883.3.526.3.1259
-
-    </td>
+2.16.840.1.113883.3.526.3.1259    </td>
   </tr>
 </table>
 

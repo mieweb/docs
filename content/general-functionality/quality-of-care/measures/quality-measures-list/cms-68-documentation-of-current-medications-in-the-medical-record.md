@@ -49,23 +49,15 @@ Review and update the medications in the Presenting Medications section of the e
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Medications Encounter Code Set
-
-    </td>
+Encounter, Performed: Medications Encounter Code Set    </td>
     <td>
-2.16.840.1.113883.3.600.1.1834
-
-    </td>
+2.16.840.1.113883.3.600.1.1834    </td>
   </tr>
 </table>
 
@@ -78,23 +70,15 @@ Equals Initial Population
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed: Documentation of current medications (procedure)
-
-    </td>
+Procedure, Performed: Documentation of current medications (procedure)    </td>
     <td>
-SNOMEDCT version 2017-09 Code 428191000124101
-
-    </td>
+SNOMEDCT version 2017-09 Code 428191000124101    </td>
   </tr>
 </table>
 
@@ -103,23 +87,15 @@ SNOMEDCT version 2017-09 Code 428191000124101
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Procedure, Not Performed: Documentation of current medications (procedure)
-
-    </td>
+Procedure, Not Performed: Documentation of current medications (procedure)    </td>
     <td>
-2.16.840.1.113883.3.600.1.1502
-
-    </td>
+2.16.840.1.113883.3.600.1.1502    </td>
   </tr>
 </table>
 

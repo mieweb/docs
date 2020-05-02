@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 32
 id: 17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM
 source: https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM
+menu:
+    main:
+        name: "Waiting List Tab"
+        identifier: "17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM"
+        parent: "1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
+        weight: 1170
 ---
 Log into {{% system-name %}}
 
@@ -96,7 +102,7 @@ Scroll down to the very bottom and there is a field named *Cancel*. Select a can
 
 {{% tip %}}
 
-If the reason is not in this drop-down choice you can add Cancellation Code Reason if you have security role permission. See other help documentation titled [COPY-EDIT-DELETE-CANCEL-NO SHOW APPOINTMENTS](https://drive.google.com/a/mieweb.com/open?id=1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous).
+If the reason is not in this drop-down choice you can add Cancellation Code Reason if you have security role permission. See other help documentation titled [COPY-EDIT-DELETE-CANCEL-NO SHOW APPOINTMENTS](cancel-no-show-edit-appointments.html).
 
 {{% /tip %}}
 

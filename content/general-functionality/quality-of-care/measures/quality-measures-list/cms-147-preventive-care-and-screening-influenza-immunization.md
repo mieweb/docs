@@ -70,193 +70,117 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Annual Wellness Visit
-
-    </td>
+Encounter, Performed: Annual Wellness Visit    </td>
     <td>
-2.16.840.1.113883.3.526.3.1240
-
-    </td>
+2.16.840.1.113883.3.526.3.1240    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Care Services in Long-Term Residential Facility
-
-    </td>
+Encounter, Performed: Care Services in Long-Term Residential Facility    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1014
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1014    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Discharge Services - Nursing Facility
-
-    </td>
+Encounter, Performed: Discharge Services - Nursing Facility    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1013
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1013    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Encounter-Influenza
-
-    </td>
+Encounter, Performed: Encounter-Influenza    </td>
     <td>
-2.16.840.1.113883.3.526.3.1252
-
-    </td>
+2.16.840.1.113883.3.526.3.1252    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Home Healthcare Services
-
-    </td>
+Encounter, Performed: Home Healthcare Services    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Nursing Facility Visit
-
-    </td>
+Encounter, Performed: Nursing Facility Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1012
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1012    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Office Visit
-
-    </td>
+Encounter, Performed: Office Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Outpatient Consultation
-
-    </td>
+Encounter, Performed: Outpatient Consultation    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1008
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1008    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Patient Provider Interaction
-
-    </td>
+Encounter, Performed: Patient Provider Interaction    </td>
     <td>
-2.16.840.1.113883.3.526.3.1012
-
-    </td>
+2.16.840.1.113883.3.526.3.1012    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Group Counseling
-
-    </td>
+Encounter, Performed: Preventive Care Services - Group Counseling    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1027
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1027    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Other
-
-    </td>
+Encounter, Performed: Preventive Care Services - Other    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1030
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1030    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services, Initial Office Visit, 0 to 17
-
-    </td>
+Encounter, Performed: Preventive Care Services, Initial Office Visit, 0 to 17    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1022
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1022    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Individual Counseling
-
-    </td>
+Encounter, Performed: Preventive Care Services-Individual Counseling    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1026
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1026    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care, Established Office Visit, 0 to 17
-
-    </td>
+Encounter, Performed: Preventive Care, Established Office Visit, 0 to 17    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1024
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1024    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed: Hemodialysis
-
-    </td>
+Procedure, Performed: Hemodialysis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1083
-
-    </td>
+2.16.840.1.113883.3.526.3.1083    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed: Peritoneal Dialysis
-
-    </td>
+Procedure, Performed: Peritoneal Dialysis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1084
-
-    </td>
+2.16.840.1.113883.3.526.3.1084    </td>
   </tr>
 </table>
 
@@ -269,43 +193,27 @@ Equal to Initial Patient Population
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Communication: From Patient To Provider: Previous Receipt of Influenza Vaccine
-
-    </td>
+Communication: From Patient To Provider: Previous Receipt of Influenza Vaccine    </td>
     <td>
-2.16.840.1.113883.3.526.3.1185
-
-    </td>
+2.16.840.1.113883.3.526.3.1185    </td>
   </tr>
   <tr>
     <td>
-Immunization, Administered: Influenza Vaccine
-
-    </td>
+Immunization, Administered: Influenza Vaccine    </td>
     <td>
-2.16.840.1.113883.3.526.3.1254
-
-    </td>
+2.16.840.1.113883.3.526.3.1254    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed: Influenza Vaccination
-
-    </td>
+Procedure, Performed: Influenza Vaccination    </td>
     <td>
-2.16.840.1.113883.3.526.3.402
-
-    </td>
+2.16.840.1.113883.3.526.3.402    </td>
   </tr>
 </table>
 
@@ -314,111 +222,71 @@ Procedure, Performed: Influenza Vaccination
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Allergy/Intolerance: Egg Substance
-
-    </td>
+Allergy/Intolerance: Egg Substance    </td>
     <td>
-2.16.840.1.113883.3.526.3.1537
-
-    </td>
+2.16.840.1.113883.3.526.3.1537    </td>
   </tr>
   <tr>
     <td>
-Allergy/Intolerance: Influenza Vaccination
-
-    </td>
+Allergy/Intolerance: Influenza Vaccination    </td>
     <td>
-2.16.840.1.113883.3.526.3.402
-
-    </td>
+2.16.840.1.113883.3.526.3.402    </td>
   </tr>
   <tr>
     <td>
-Allergy/Intolerance: Influenza Vaccine
-
-    </td>
+Allergy/Intolerance: Influenza Vaccine    </td>
     <td>
-2.16.840.1.113883.3.526.3.1254
-
-    </td>
+2.16.840.1.113883.3.526.3.1254    </td>
   </tr>
   <tr>
     <td>
-Communication: From Patient To Provider: Influenza Vaccination Declined
-
-    </td>
+Communication: From Patient To Provider: Influenza Vaccination Declined    </td>
     <td>
-2.16.840.1.113883.3.526.3.1255
-
-    </td>
+2.16.840.1.113883.3.526.3.1255    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Allergy to Eggs
-
-    </td>
+Diagnosis: Allergy to Eggs    </td>
     <td>
-2.16.840.1.113883.3.526.3.1253
-
-    </td>
+2.16.840.1.113883.3.526.3.1253    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Allergy to Influenza Vaccine
-
-    </td>
+Diagnosis: Allergy to Influenza Vaccine    </td>
     <td>
-2.16.840.1.113883.3.526.3.1256
-
-    </td>
+2.16.840.1.113883.3.526.3.1256    </td>
   </tr>
   <tr>
     <td>
-Diagnosis: Intolerance to Influenza Vaccine
-
-    </td>
+Diagnosis: Intolerance to Influenza Vaccine    </td>
     <td>
-2.16.840.1.113883.3.526.3.1257
-
-    </td>
+2.16.840.1.113883.3.526.3.1257    </td>
   </tr>
   <tr>
     <td>
-Immunization, Not Administered: Influenza Vaccine
-
-    </td>
+Immunization, Not Administered: Influenza Vaccine    </td>
     <td>
 2.16.840.1.113883.3.526.3.1254
 
 2.16.840.1.113883.3.526.3.1008
 
-2.16.840.1.113883.3.526.3.1009
-
-    </td>
+2.16.840.1.113883.3.526.3.1009    </td>
   </tr>
   <tr>
     <td>
-Procedure, Not Performed: Influenza Vaccination
-
-    </td>
+Procedure, Not Performed: Influenza Vaccination    </td>
     <td>
 2.16.840.1.113883.3.526.3.402
 
 2.16.840.1.113883.3.526.3.1008
 
-2.16.840.1.113883.3.526.3.1009
-
-    </td>
+2.16.840.1.113883.3.526.3.1009    </td>
   </tr>
 </table>
 

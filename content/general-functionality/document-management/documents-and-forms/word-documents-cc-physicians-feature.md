@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 65
 id: 1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ
 source: https://drive.google.com/open?id=1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ
+menu:
+    main:
+        name: "Word Documents - CC Physicians Feature"
+        identifier: "1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ"
+        parent: "1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI"
+        weight: 420
 ---
 {{% note %}}
 
@@ -134,7 +140,7 @@ Simply find the stored/uploaded document in the patient's chart (doc id). Then c
 
 ![](../../../external_files/725c6887394285c859ce6de4232b587e.png)
 
-The document properties will show various sections and scroll down to the sections named **Current Routes for Document** and **Routing History for Document**. There you will see which cc'd user/physician this document went to, how it was sent (printed, faxed, etc), date/time sent and if the datasend was successful or pending or has an error you need to acknowledge or you can resend a document via this route from here also. For other specific information on document properties and routes, please see other help documentation named *Document Properties.pdf*. For other specific information on how to be notified of a datasend error, please see other help documentation named [Alert-Errors-Failures-Interactive Tab](https://drive.google.com/a/mieweb.com/open?id=121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc)*.*
+The document properties will show various sections and scroll down to the sections named **Current Routes for Document** and **Routing History for Document**. There you will see which cc'd user/physician this document went to, how it was sent (printed, faxed, etc), date/time sent and if the datasend was successful or pending or has an error you need to acknowledge or you can resend a document via this route from here also. For other specific information on document properties and routes, please see other help documentation named *Document Properties.pdf*. For other specific information on how to be notified of a datasend error, please see other help documentation named [Alert-Errors-Failures-Interactive Tab](../../e-chart/alerts-errors-failures-interactive-tab.html)*.*
 
 ![](../../../external_files/8f31a1407141f70b497e95d5e4f900ff.png)
 Scrolling down in the document properties will also show fax history, print history, etc to see additional information also.

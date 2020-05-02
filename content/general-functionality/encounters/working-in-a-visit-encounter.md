@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 70
 id: 1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M
 source: https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M
+menu:
+    main:
+        name: "Working in a Visit Encounter"
+        identifier: "1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M"
+        parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+        weight: 1460
 ---
 The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.html) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
 

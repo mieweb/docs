@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 29
 id: 1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y
 source: https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y
+menu:
+    main:
+        name: "Panel Membership Import Tool"
+        identifier: "1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4840
 ---
 This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.html) help documentation for more information regarding its many uses.
 
@@ -17,7 +23,7 @@ The Panel Membership Import Tool uses partitions and medical record numbers (MRN
 
 {{% warning %}}
 
-Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](https://docs.google.com/document/d/1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
+Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.html); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
 
 ![](../../../external_files/0cdfc9e02234da08e25d874d68fe9bd3.png)
 
@@ -49,149 +55,86 @@ The following page defines data and fields that may be imported using the panel 
 <table>
   <tr>
     <td>
-**Field Name**
-
-    </td>
+**Field Name**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-Type
-
-    </td>
+Type    </td>
     <td>
-**Requirement**
-
-    </td>
+**Requirement**    </td>
   </tr>
   <tr>
     <td>
-PARTITION
-
-    </td>
+PARTITION    </td>
     <td>
-Partition of the patient. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.
-
-    </td>
+Partition of the patient. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.    </td>
     <td>
-char
-
-    </td>
+char    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-MRN
-
-    </td>
+MRN    </td>
     <td>
-Medical record number of patient. This is a unique identifier found on every patient chart, used for looking up the chart, to insert or update.
-
-    </td>
+Medical record number of patient. This is a unique identifier found on every patient chart, used for looking up the chart, to insert or update.    </td>
     <td>
-integer
-
-    </td>
+integer    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-PANEL_ID
-
-    </td>
+PANEL_ID    </td>
     <td>
-The panel ID to be associated with the patient.
-
-    </td>
+The panel ID to be associated with the patient.    </td>
     <td>
-char
-
-    </td>
+char    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-INCLUDE
-
-    </td>
+INCLUDE    </td>
     <td>
 This field determines whether to Include to panel or Exclude from panel:
 
     * **1** = Include to panel
-    * **0** = Exclude from panel
-    </td>
+    * **0** = Exclude from panel    </td>
     <td>
-integer
-
-    </td>
+integer    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-START_DATETIME
-
-    </td>
+START_DATETIME    </td>
     <td>
-Datetime of panel membership initiation.
-
-    </td>
+Datetime of panel membership initiation.    </td>
     <td>
-Datetime
-
-    </td>
+Datetime    </td>
     <td>
-Optional 
-
-    </td>
+Optional    </td>
   </tr>
   <tr>
     <td>
-CHANGE_REASON
-
-    </td>
+CHANGE_REASON    </td>
     <td>
-If any changes are being made, this field can be used to provide a reason for the change.
-
-    </td>
+If any changes are being made, this field can be used to provide a reason for the change.    </td>
     <td>
-char
-
-    </td>
+char    </td>
     <td>
-Optional
-
-    </td>
+Optional    </td>
   </tr>
   <tr>
     <td>
-TRIGGER_ENTRY_EXIT_ACTIONS
-
-    </td>
+TRIGGER_ENTRY_EXIT_ACTIONS    </td>
     <td>
-Default (1)
-
-    </td>
+Default (1)    </td>
     <td>
-integer
-
-    </td>
+integer    </td>
     <td>
-Optional
-
-    </td>
+Optional    </td>
   </tr>
 </table>
 

@@ -23,135 +23,75 @@ source: https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvy
 <table>
   <tr>
     <td>
-
-
     </td>
     <td>
-**Chrome**
-
-    </td>
+**Chrome**    </td>
     <td>
-**Firefox**
-
-    </td>
+**Firefox**    </td>
     <td>
-**Safari**
-
-    </td>
+**Safari******    </td>
     <td>
-**Edge (ORTC*** & Chromium)
-
-    </td>
+**Edge (ORTC*** & Chromium)****    </td>
   </tr>
   <tr>
     <td>
-**Android KitKat+**
-
-    </td>
+**Android KitKat+**    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
--
-
-    </td>
+-    </td>
     <td>
--
-
-    </td>
+-    </td>
   </tr>
   <tr>
     <td>
-**iOS 11+**
-
-    </td>
+**iOS 11+**    </td>
     <td>
-*
-
-    </td>
+*    </td>
     <td>
-*
-
-    </td>
+*    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
--
-
-    </td>
+-    </td>
   </tr>
   <tr>
     <td>
-**Linux**
-
-    </td>
+**Linux**    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
--
-
-    </td>
+-    </td>
     <td>
--
-
-    </td>
+-    </td>
   </tr>
   <tr>
     <td>
-**macOS**
-
-    </td>
+**macOS**    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
--
-
-    </td>
+-    </td>
   </tr>
   <tr>
     <td>
-**Windows**
-
-    </td>
+**Windows**    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
     <td>
--
-
-    </td>
+-    </td>
     <td>
-✓
-
-    </td>
+✓    </td>
   </tr>
 </table>
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 25
 id: 1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo
 source: https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo
+menu:
+    main:
+        name: "Patient Education Interface"
+        identifier: "1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
+        parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
+        weight: 5360
 ---
 {{% system-name %}}  has the ability to interface with Patient Education resources such as Healthwise. This is a billable add-on along with monthly costs that can be quoted out by your MIE Implementer. HealthWise patient instructions integration then must be turned on and configured to your system.
 

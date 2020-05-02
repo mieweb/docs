@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 27
 id: 13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4
 source: https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4
+menu:
+    main:
+        name: "Import/Export JSON Files"
+        identifier: "13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4870
 ---
 The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the *System Configurator*.
 
@@ -14,201 +20,111 @@ Users with proper permissions can create JSON files of the following sections/mo
 <table>
   <tr>
     <td>
-Abbreviations
-
-    </td>
+Abbreviations    </td>
     <td>
-Document Types
-
-    </td>
+Document Types    </td>
     <td>
-Health Surveillance
-
-    </td>
+Health Surveillance    </td>
     <td>
-Observation Flowsheets
-
-    </td>
+Observation Flowsheets    </td>
     <td>
-Scripted Logic & Scripted Rules
-
-    </td>
+Scripted Logic & Scripted Rules    </td>
   </tr>
   <tr>
     <td>
-Apt Types
-
-    </td>
+Apt Types    </td>
     <td>
-Drug Aliases
-
-    </td>
+Drug Aliases    </td>
     <td>
-Kits
-
-    </td>
+Kits    </td>
     <td>
-Order List
-
-    </td>
+Order List    </td>
     <td>
-Security Roles
-
-    </td>
+Security Roles    </td>
   </tr>
   <tr>
     <td>
-AutoComplete Fields
-
-    </td>
+AutoComplete Fields    </td>
     <td>
-Drug Indications
-
-    </td>
+Drug Indications    </td>
     <td>
-Language Translations
-
-    </td>
+Language Translations    </td>
     <td>
-Order Pick List
-
-    </td>
+Order Pick List    </td>
     <td>
-Stations
-
-    </td>
+Stations    </td>
   </tr>
   <tr>
     <td>
-Chart Tabs
-
-    </td>
+Chart Tabs    </td>
     <td>
-Drug Reactions
-
-    </td>
+Drug Reactions    </td>
     <td>
-Layouts
-
-    </td>
+Layouts    </td>
     <td>
-Partitions
-
-    </td>
+Partitions    </td>
     <td>
-System Files
-
-    </td>
+System Files    </td>
   </tr>
   <tr>
     <td>
-Chart Types
-
-    </td>
+Chart Types    </td>
     <td>
-Encounter Exams
-
-    </td>
+Encounter Exams    </td>
     <td>
-Libraries
-
-    </td>
+Libraries    </td>
     <td>
-Print Definitions
-
-    </td>
+Print Definitions    </td>
     <td>
-System Reports
-
-    </td>
+System Reports    </td>
   </tr>
   <tr>
     <td>
-Common Scripts
-
-    </td>
+Common Scripts    </td>
     <td>
-Encounter Types
-
-    </td>
+Encounter Types    </td>
     <td>
-Locations
-
-    </td>
+Locations    </td>
     <td>
-Refer to Systems
-
-    </td>
+Refer to Systems    </td>
     <td>
-System Settings
-
-    </td>
+System Settings    </td>
   </tr>
   <tr>
     <td>
-Common Sigs
-
-    </td>
+Common Sigs    </td>
     <td>
-Esign Rules
-
-    </td>
+Esign Rules    </td>
     <td>
-Menu Editor
-
-    </td>
+Menu Editor    </td>
     <td>
-Restriction Types
-
-    </td>
+Restriction Types    </td>
     <td>
-Tasklist Events
-
-    </td>
+Tasklist Events    </td>
   </tr>
   <tr>
     <td>
-Custom Allergies
-
-    </td>
+Custom Allergies    </td>
     <td>
-Fast Tasks
-
-    </td>
+Fast Tasks    </td>
     <td>
-My Settings
-
-    </td>
+My Settings    </td>
     <td>
-Scheduled Jobs
-
-    </td>
+Scheduled Jobs    </td>
     <td>
-Term Replacement
-
-    </td>
+Term Replacement    </td>
   </tr>
   <tr>
     <td>
-Departments
-
-    </td>
+Departments    </td>
     <td>
-Frequencies
-
-    </td>
+Frequencies    </td>
     <td>
-Observation Codes
-
-    </td>
+Observation Codes    </td>
     <td>
-Schedules
-
-    </td>
+Schedules    </td>
     <td>
-User Portlets
-
-    </td>
+User Portlets    </td>
   </tr>
 </table>
 

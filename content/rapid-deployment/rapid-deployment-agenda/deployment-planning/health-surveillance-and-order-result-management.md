@@ -3,7 +3,7 @@ title: "Health Surveillance & Order/Result Management"
 date: 2020-02-27T21:27:37.919Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/health-surveillance-and-order-result-management.html"
 author: Alan Quandt
-version: 10
+version: 12
 id: 1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus
 source: https://drive.google.com/open?id=1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus
 menu:

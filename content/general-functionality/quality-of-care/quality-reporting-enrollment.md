@@ -6,12 +6,18 @@ author: Jeremia Ploor
 version: 89
 id: 1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk
 source: https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk
+menu:
+    main:
+        name: "Quality Reporting Enrollment"
+        identifier: "1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk"
+        parent: "1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk"
+        weight: 2500
 ---
 In order to better serve client needs, {{% system-name %}} has streamlined the concepts and efforts of quality reporting participation, in order to serve all interested entities. If, as a standard, a business would like to track ongoing quality of care initiatives, or even participate in sponsored quality programs, {{% system-name %}} systems now offer a plethora of quantifiable and reportable measures, designed to track and improve overall care delivery.
 
 
 
-The following information is intended to walk users through the basic enrollment process, which will in turn allow for ongoing tracking of relevant care-specific data, processes, and outcomes. For detailed specifications regarding the available measures, please feel free to navigate to our [Measures Specifications](https://docs.google.com/document/d/1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ) documentation.
+The following information is intended to walk users through the basic enrollment process, which will in turn allow for ongoing tracking of relevant care-specific data, processes, and outcomes. For detailed specifications regarding the available measures, please feel free to navigate to our [Measures Specifications](measures.html) documentation.
 
 ## Enroll via Quality Reporting Portlet
 
@@ -27,7 +33,7 @@ The following information is intended to walk users through the basic enrollment
 4. If enrolling in a specific program, or one of the sponsored incentive programs, specify the <strong>Start/End Dates</strong> of the intended performance period. Otherwise, leave blank.    ![](../../external_files/fcba7ef35dbc12c2766de3612b17a0fc.png)
 5. Next, from the <strong>Available Measures</strong> table, select <strong>all measures needing to be tracked</strong>, specific to the relevant program(s) opted into by the enrolled provider(s). Filter the columns, as needed.  ![](../../external_files/25a844da1edb3f9ceb96b956fa2b433d.png) 
 
-{{% info %}} For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](https://docs.google.com/document/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY) help documentation. {{% /info %}}
+{{% info %}} For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](../reports/using-datavis-grids-data-tools.html) help documentation. {{% /info %}}
 
 
  {{% warning %}} 

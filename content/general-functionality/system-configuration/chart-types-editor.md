@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 34
 id: 1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE
 source: https://drive.google.com/open?id=1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE
+menu:
+    main:
+        name: "Chart Types Editor"
+        identifier: "1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE"
+        parent: "1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw"
+        weight: 190
 ---
 ## Overview
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 22
 id: 1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A
 source: https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A
+menu:
+    main:
+        name: "Create Language Translation File for Import"
+        identifier: "1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4860
 ---
 This document explains how to import your language translation data into  {{% system-name %}} .
 
@@ -23,95 +29,55 @@ The following table provides optional or required **Field Names** and **Descr
 <table>
   <tr>
     <td>
-**Field Name**
-
-    </td>
+**Field Name**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-**Requirement**
-
-    </td>
+**Requirement**    </td>
     <td>
-**Column Header Name**
-
-    </td>
+**Column Header Name**    </td>
   </tr>
   <tr>
     <td>
-LANGUAGE CODE
-
-    </td>
+LANGUAGE CODE    </td>
     <td>
 Code that identifies the language. Examples: sp = Spanish, zh-hans = Simplified Chinese
 
-See: [https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
-
-    </td>
+See: [https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-LANGUAGE CODE
-
-    </td>
+LANGUAGE CODE    </td>
   </tr>
   <tr>
     <td>
-CONTEXT
-
-    </td>
+CONTEXT    </td>
     <td>
-Used to disambiguate phrases that may need to be translated differently depending on product area.
-
-    </td>
+Used to disambiguate phrases that may need to be translated differently depending on product area.    </td>
     <td>
-**Optional**
-
-    </td>
+**Optional**    </td>
     <td>
-CONTEXT
-
-    </td>
+CONTEXT    </td>
   </tr>
   <tr>
     <td>
-ENGLISH
-
-    </td>
+ENGLISH    </td>
     <td>
-The original English text
-
-    </td>
+The original English text    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-ENGLISH
-
-    </td>
+ENGLISH    </td>
   </tr>
   <tr>
     <td>
-TRANSLATION
-
-    </td>
+TRANSLATION    </td>
     <td>
-Translated text
-
-    </td>
+Translated text    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-TRANSLATION
-
-    </td>
+TRANSLATION    </td>
   </tr>
 </table>
 
@@ -128,7 +94,7 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 
 
 
-![](../../../external_files/7bd529d305026a46c3f1fd15a4b2b073.png)
+![](../../../external_files/f7321acaa475d389413c8960f680181a.png)
 
 
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 111
 id: 1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A
 source: https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A
+menu:
+    main:
+        name: "Encounter Plan Section - Medications"
+        identifier: "1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A"
+        parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+        weight: 1510
 ---
 **Toward the bottom of an Encounter Exam is a section called Plan.**
 

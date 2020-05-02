@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 49
 id: 1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM
 source: https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM
+menu:
+    main:
+        name: "SpeechMike Dictation Instructions"
+        identifier: "1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM"
+        parent: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
+        weight: 1340
 ---
 ## Using the Phone to Call in Dictation
 

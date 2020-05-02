@@ -59,123 +59,75 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Annual Wellness Visit
-
-    </td>
+Encounter, Performed: Annual Wellness Visit    </td>
     <td>
-2.16.840.1.113883.3.526.3.1240
-
-    </td>
+2.16.840.1.113883.3.526.3.1240    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Audiology Visit
-
-    </td>
+Encounter, Performed: Audiology Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1066
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1066    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Care Services in Long-Term Residential Facility
-
-    </td>
+Encounter, Performed: Care Services in Long-Term Residential Facility    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1014
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1014    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Face-to-Face Interaction
-
-    </td>
+Encounter, Performed: Face-to-Face Interaction    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1048
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1048    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Home Healthcare Services
-
-    </td>
+Encounter, Performed: Home Healthcare Services    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Nursing Facility Visit
-
-    </td>
+Encounter, Performed: Nursing Facility Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1012
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1012    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Office Visit
-
-    </td>
+Encounter, Performed: Office Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Ophthalmological Services
-
-    </td>
+Encounter, Performed: Ophthalmological Services    </td>
     <td>
-2.16.840.1.113883.3.526.3.1285
-
-    </td>
+2.16.840.1.113883.3.526.3.1285    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Individual Counseling
-
-    </td>
+Encounter, Performed: Preventive Care Services-Individual Counseling    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1026
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1026    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
 </table>
 
@@ -188,23 +140,15 @@ Equal to Initial Patient Population
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed: Falls Screening
-
-    </td>
+Assessment, Performed: Falls Screening    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1028
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1028    </td>
   </tr>
 </table>
 
@@ -213,53 +157,33 @@ Assessment, Performed: Falls Screening
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Encounter Inpatient
-
-    </td>
+Encounter, Performed: Encounter Inpatient    </td>
     <td>
-2.16.840.1.113883.3.666.5.307
-
-    </td>
+2.16.840.1.113883.3.666.5.307    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order: Hospice care ambulatory
-
-    </td>
+Intervention, Order: Hospice care ambulatory    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed: Hospice care ambulatory
-
-    </td>
+Intervention, Performed: Hospice care ambulatory    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed: Patient not ambulatory
-
-    </td>
+Assessment, Performed: Patient not ambulatory    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1009
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1009    </td>
   </tr>
 </table>
 

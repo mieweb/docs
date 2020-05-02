@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 28
 id: 12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc
 source: https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc
+menu:
+    main:
+        name: "Create Cases File for Import"
+        identifier: "12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4790
 ---
 This document explains how to import your cases into {{% system-name %}} .
 
@@ -24,137 +30,82 @@ What you will need:
 <table>
   <tr>
     <td>
-**Field Name**
-
-    </td>
+**Field Name**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-**Requirement**
-
-    </td>
+**Requirement**    </td>
   </tr>
   <tr>
     <td>
-Employee ID
-
-    </td>
+Employee ID    </td>
     <td>
-Employee Identifier
-
-    </td>
+Employee Identifier    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-External ID
-
-    </td>
+External ID    </td>
     <td>
-This identifier will be used for looking up the chart in {{% system-name %}} , to insert or update, and must match an Employee ID from the Employee Demographic Import specification.
-
-    </td>
+This identifier will be used for looking up the chart in {{% system-name %}} , to insert or update, and must match an Employee ID from the Employee Demographic Import specification.    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
   </tr>
   <tr>
     <td>
-Visit Type
-
-    </td>
+Visit Type    </td>
     <td>
-Must be a specific visit type code from the {{% system-name %}} system. This is the visit type associated with the Clinical Encounter import. It is the Visit Type field taken from the Encounter Types manager.
-
-    </td>
+Must be a specific visit type code from the {{% system-name %}} system. This is the visit type associated with the Clinical Encounter import. It is the Visit Type field taken from the Encounter Types manager.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Date of Service
-
-    </td>
+Date of Service    </td>
     <td>
-Associated with encounter visit type, to insert the Date of Service (DOS) for the encounter specified. If a visit type is not indicated using encounters.visit_type field, the encounter will be created without a service date (i.e., it will be blank). DOS must be in YYYY-MM-DD HH:MM:SS format.
-
-    </td>
+Associated with encounter visit type, to insert the Date of Service (DOS) for the encounter specified. If a visit type is not indicated using encounters.visit_type field, the encounter will be created without a service date (i.e., it will be blank). DOS must be in YYYY-MM-DD HH:MM:SS format.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Chief Complaint
-
-    </td>
+Chief Complaint    </td>
     <td>
-Reason for visit, or major complaint of an encounter.
-
-    </td>
+Reason for visit, or major complaint of an encounter.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Service Location
-
-    </td>
+Service Location    </td>
     <td>
-The location code for the document's service location. These are stored in the Locations Manager of the Control Panel.
-
-    </td>
+The location code for the document's service location. These are stored in the Locations Manager of the Control Panel.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Case Closed Status
-
-    </td>
+Case Closed Status    </td>
     <td>
 Case Closed Status specifies whether or not the case is still active (i.e., open), or if the case has concluded (i.e., closed). Providing this field will insert the encounter as opened or closed. Valid options include:
 
     * 0 = Open
-    * 1 = Closed
-    </td>
+    * 1 = Closed    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Case Datetime
-
-    </td>
+Case Datetime    </td>
     <td>
-Date and time of the case or incident. If an injury or illness accompanies the clinical encounter being imported, then a case should be created. Adding a Case Datetime creates a case in {{% system-name %}} and links the case to the clinical encounter. Must be formatted as YYYY-MM-DD HH:MM:SS
-
-    </td>
+Date and time of the case or incident. If an injury or illness accompanies the clinical encounter being imported, then a case should be created. Adding a Case Datetime creates a case in {{% system-name %}} and links the case to the clinical encounter. Must be formatted as YYYY-MM-DD HH:MM:SS    </td>
     <td>
-**Required** for OSHA 300A Reporting & Best Practice for Illness / Injury *Only*
-
-    </td>
+**Required** for OSHA 300A Reporting & Best Practice for Illness / Injury *Only*    </td>
   </tr>
   <tr>
     <td>
-Case Type
-
-    </td>
+Case Type    </td>
     <td>
 The type of case the incident refers to. Options include:
 
@@ -163,63 +114,41 @@ The type of case the incident refers to. Options include:
     * Billing = Billing cases
     * Absence Management = Absence management cases
     * MSEA = Medical Suitability for Expatriate Assignment cases
-    * Medical Surveillance = Health Surveillance cases
-    </td>
+    * Medical Surveillance = Health Surveillance cases    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Incident Location Description
-
-    </td>
+Incident Location Description    </td>
     <td>
-Brief description where the incident occurred. For example, if it happened in Plant 4, the location description could be "Back truck dock".
-
-    </td>
+Brief description where the incident occurred. For example, if it happened in Plant 4, the location description could be "Back truck dock".    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Work Related
-
-    </td>
+Work Related    </td>
     <td>
 Flags injury as OSHA work-related:
 
     * 0 = No
     * 1 = Yes
-    * 2 = Undetermined
-    </td>
+    * 2 = Undetermined    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-OSHA Reported Date
-
-    </td>
+OSHA Reported Date    </td>
     <td>
-Timestamp when incident was reported to OSHA. Date and time must be formatted as YYYY-MM-DD HH:MM:SS
-
-    </td>
+Timestamp when incident was reported to OSHA. Date and time must be formatted as YYYY-MM-DD HH:MM:SS    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-OSHA Injury/Illness Type
-
-    </td>
+OSHA Injury/Illness Type    </td>
     <td>
 Maps to the {{% sys-name %}} Injury/Illness Type incident field. Injury or illness type (OSHA list). Options include:
 
@@ -228,44 +157,31 @@ Maps to the {{% sys-name %}} Injury/Illness Type incident field. Injury or illne
     * R = Respiratory condition
     * P = Poisoning
     * H = Hearing loss
-    * A = All other illnesses
-    </td>
+    * A = All other illnesses    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Privacy Case
-
-    </td>
+Privacy Case    </td>
     <td>
 Flag if incident is sensitive. Name of employee is hidden on OSHA log.
 
     * 0 = No
-    * 1 = Yes
-    </td>
+    * 1 = Yes    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
   </tr>
   <tr>
     <td>
-Incident Status
-
-    </td>
+Incident Status    </td>
     <td>
 Populates the case/incident in {{% sys-name %}} as opened or closed. If importing open cases, set this value to 1. Options include:
 
     * 2 = Closed
     * 1 = Current
-    * 0 = Created, but not entered
-    </td>
+    * 0 = Created, but not entered    </td>
     <td>
- 
-
     </td>
   </tr>
 </table>

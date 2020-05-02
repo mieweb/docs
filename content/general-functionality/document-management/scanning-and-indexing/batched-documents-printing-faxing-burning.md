@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 37
 id: 1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs
 source: https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs
+menu:
+    main:
+        name: "Batched Documents - Printing, Faxing, Burning"
+        identifier: "1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs"
+        parent: "1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w"
+        weight: 700
 ---
 ## Adding a Document to a Batch
 

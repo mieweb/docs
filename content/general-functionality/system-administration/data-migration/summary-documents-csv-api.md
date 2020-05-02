@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 53
 id: 1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4
 source: https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4
+menu:
+    main:
+        name: "Summary Documents CSV API"
+        identifier: "1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4930
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create structured text (HTML) summary documents using the Summary Documents CSV API.
 

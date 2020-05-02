@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 71
 id: 16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI
 source: https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI
+menu:
+    main:
+        name: "Working in a Legacy Encounter"
+        identifier: "16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI"
+        parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+        weight: 1450
 ---
 When you open an encounter and are working in it, your point & click encounter exam is customized to your practice. Most sections can be customized and programmed to accommodate your workflow. There are different variations on most sections that can be programmed. Contact your MIE Implementer if you have any questions or want to change an entry section.
 

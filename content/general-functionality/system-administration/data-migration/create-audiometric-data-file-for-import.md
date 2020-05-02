@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 31
 id: 1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4
 source: https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4
+menu:
+    main:
+        name: "Create Audiometric Data File for Import"
+        identifier: "1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4760
 ---
 This document explains how to import your historical audiometric testing data into {{% system-name %}} .
 
@@ -24,435 +30,243 @@ What you will need:
 <table>
   <tr>
     <td>
-**Field Name**
-
-    </td>
+**Field Name**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-**Requirement**
-
-    </td>
+**Requirement**    </td>
     <td>
-Data File Column Header
-
-    </td>
+Data File Column Header    </td>
   </tr>
   <tr>
     <td>
-Employee ID
-
-    </td>
+Employee ID    </td>
     <td>
-This identifier will be used for looking up the chart in {{% system-name %}} , to insert or update, and must match an Employee ID from the Employee Demographic Import specification.
-
-    </td>
+This identifier will be used for looking up the chart in {{% system-name %}} , to insert or update, and must match an Employee ID from the Employee Demographic Import specification.    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-documents.pat_id
-
-    </td>
+documents.pat_id    </td>
   </tr>
   <tr>
     <td>
-External ID
-
-    </td>
+External ID    </td>
     <td>
-This is used for {{% system-name %}} systems. Typically this is the auto incrementing column from the legacy DB or populated by third-party interfaces.
-
-    </td>
+This is used for {{% system-name %}} systems. Typically this is the auto incrementing column from the legacy DB or populated by third-party interfaces.    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-documents.ext_doc_id
-
-    </td>
+documents.ext_doc_id    </td>
   </tr>
   <tr>
     <td>
-Test Datetime
-
-    </td>
+Test Datetime    </td>
     <td>
-When the test was conducted (datetime), in YYYY-MM-DD HH:MM:SS format.
-
-    </td>
+When the test was conducted (datetime), in YYYY-MM-DD HH:MM:SS format.    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-audio.test_datetime
-
-    </td>
+audio.test_datetime    </td>
   </tr>
   <tr>
     <td>
-Left 500 Hz
-
-    </td>
+Left 500 Hz    </td>
     <td>
-Result for the left ear 500 Hz test in dB.
-
-    </td>
+Result for the left ear 500 Hz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left05
-
-    </td>
+audio.left05    </td>
   </tr>
   <tr>
     <td>
-Left 1 kHz
-
-    </td>
+Left 1 kHz    </td>
     <td>
-Result for the left ear 1 kHz test in dB.
-
-    </td>
+Result for the left ear 1 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left1
-
-    </td>
+audio.left1    </td>
   </tr>
   <tr>
     <td>
-Left 2 kHz
-
-    </td>
+Left 2 kHz    </td>
     <td>
-Result for the left ear 2 kHz test in dB.
-
-    </td>
+Result for the left ear 2 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left2
-
-    </td>
+audio.left2    </td>
   </tr>
   <tr>
     <td>
-Left 3 kHz
-
-    </td>
+Left 3 kHz    </td>
     <td>
-Result for the left ear 3 kHz test in dB.
-
-    </td>
+Result for the left ear 3 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left3
-
-    </td>
+audio.left3    </td>
   </tr>
   <tr>
     <td>
-Left 4 kHz
-
-    </td>
+Left 4 kHz    </td>
     <td>
-Result for the left ear 4 kHz test in dB.
-
-    </td>
+Result for the left ear 4 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left4
-
-    </td>
+audio.left4    </td>
   </tr>
   <tr>
     <td>
-Left 6 kHz
-
-    </td>
+Left 6 kHz    </td>
     <td>
-Result for the left ear 6 kHz test in dB.
-
-    </td>
+Result for the left ear 6 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left6
-
-    </td>
+audio.left6    </td>
   </tr>
   <tr>
     <td>
-Left 8 kHz
-
-    </td>
+Left 8 kHz    </td>
     <td>
-Result for the left ear 8 kHz test in dB.
-
-    </td>
+Result for the left ear 8 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left8
-
-    </td>
+audio.left8    </td>
   </tr>
   <tr>
     <td>
-Right 500 Hz
-
-    </td>
+Right 500 Hz    </td>
     <td>
-Result for the right ear 500 Hz test in dB.
-
-    </td>
+Result for the right ear 500 Hz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right05
-
-    </td>
+audio.right05    </td>
   </tr>
   <tr>
     <td>
-Right 1 kHz
-
-    </td>
+Right 1 kHz    </td>
     <td>
-Result for the right ear 1 kHz test in dB.
-
-    </td>
+Result for the right ear 1 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right1
-
-    </td>
+audio.right1    </td>
   </tr>
   <tr>
     <td>
-Right 2 kHz
-
-    </td>
+Right 2 kHz    </td>
     <td>
-Result for the right ear 2 kHz test in dB.
-
-    </td>
+Result for the right ear 2 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right2
-
-    </td>
+audio.right2    </td>
   </tr>
   <tr>
     <td>
-Right 3 kHz
-
-    </td>
+Right 3 kHz    </td>
     <td>
-Result for the right ear 3 kHz test in dB.
-
-    </td>
+Result for the right ear 3 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right3
-
-    </td>
+audio.right3    </td>
   </tr>
   <tr>
     <td>
-Right 4 kHz
-
-    </td>
+Right 4 kHz    </td>
     <td>
-Result for the right ear 4 kHz test in dB.
-
-    </td>
+Result for the right ear 4 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right4
-
-    </td>
+audio.right4    </td>
   </tr>
   <tr>
     <td>
-Right 6 kHz
-
-    </td>
+Right 6 kHz    </td>
     <td>
-Result for the right ear 6 kHz test in dB.
-
-    </td>
+Result for the right ear 6 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right6
-
-    </td>
+audio.right6    </td>
   </tr>
   <tr>
     <td>
-Right 8 kHz
-
-    </td>
+Right 8 kHz    </td>
     <td>
-Result for the right ear 8 kHz test in dB.
-
-    </td>
+Result for the right ear 8 kHz test in dB.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right8
-
-    </td>
+audio.right8    </td>
   </tr>
   <tr>
     <td>
-Left STS
-
-    </td>
+Left STS    </td>
     <td>
-Standard threshold shift from last baseline test for the left ear. Options include: **Yes** or **No**.
-
-    </td>
+Standard threshold shift from last baseline test for the left ear. Options include: **Yes** or **No**.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left_sts
-
-    </td>
+audio.left_sts    </td>
   </tr>
   <tr>
     <td>
-Right STS
-
-    </td>
+Right STS    </td>
     <td>
-Standard threshold shift from last baseline test for the right ear. Options include: **Yes** or **No**.
-
-    </td>
+Standard threshold shift from last baseline test for the right ear. Options include: **Yes** or **No**.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right_sts
-
-    </td>
+audio.right_sts    </td>
   </tr>
   <tr>
     <td>
-Left Baseline
-
-    </td>
+Left Baseline    </td>
     <td>
-Flags the test as a baseline for the left ear. Options include: **Yes** or **No**.
-
-    </td>
+Flags the test as a baseline for the left ear. Options include: **Yes** or **No**.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.left_baseline
-
-    </td>
+audio.left_baseline    </td>
   </tr>
   <tr>
     <td>
-Right Baseline
-
-    </td>
+Right Baseline    </td>
     <td>
-Flags the test as a baseline for the right ear. Options include: **Yes** or **No**.
-
-    </td>
+Flags the test as a baseline for the right ear. Options include: **Yes** or **No**.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.right_baseline
-
-    </td>
+audio.right_baseline    </td>
   </tr>
   <tr>
     <td>
-Calibration Date
-
-    </td>
+Calibration Date    </td>
     <td>
-Records the last date (datetime) the audiometer was calibrated, YYYY-MM-DD HH:MM:SS format.
-
-    </td>
+Records the last date (datetime) the audiometer was calibrated, YYYY-MM-DD HH:MM:SS format.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-audio.calibration_date
-
-    </td>
+audio.calibration_date    </td>
   </tr>
   <tr>
     <td>
-Comment
-
-    </td>
+Comment    </td>
     <td>
-Free text comment regarding the test. Multiple comments may be specified. They will be separated by newlines in the comments section of the audiogram.
-
-    </td>
+Free text comment regarding the test. Multiple comments may be specified. They will be separated by newlines in the comments section of the audiogram.    </td>
     <td>
-Optional
-
-    </td>
+Optional    </td>
     <td>
-audio.comment
-
-    </td>
+audio.comment    </td>
   </tr>
 </table>
 

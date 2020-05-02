@@ -41,153 +41,93 @@ Tracks all patients 20 years old or younger diagnosed with tooth decay or caviti
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.125.12.1004
-
-    </td>
+2.16.840.1.113883.3.464.1003.125.12.1004    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.125.12.1003
-
-    </td>
+2.16.840.1.113883.3.464.1003.125.12.1003    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.666.5.307
-
-    </td>
+2.16.840.1.113883.3.666.5.307    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1024
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1024    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1022
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1022    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
 </table>
 

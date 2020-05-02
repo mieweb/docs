@@ -63,83 +63,51 @@ Ensure the system is configured to order, track, and archive referrals appropria
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Ophthalmological Services
-
-    </td>
+Encounter, Performed: Ophthalmological Services    </td>
     <td>
-2.16.840.1.113883.3.526.3.1285
-
-    </td>
+2.16.840.1.113883.3.526.3.1285    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Office Visit
-
-    </td>
+Encounter, Performed: Office Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services, Initial Office Visit, 0 to 17
-
-    </td>
+Encounter, Performed: Preventive Care Services, Initial Office Visit, 0 to 17    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1022
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1022    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care, Established Office Visit, 0 to 17
-
-    </td>
+Encounter, Performed: Preventive Care, Established Office Visit, 0 to 17    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1024
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1024    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed: Referral
-
-    </td>
+Intervention, Performed: Referral    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1046
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1046    </td>
   </tr>
 </table>
 
@@ -152,23 +120,15 @@ Equals Initial Population
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Communication: From Provider To Provider: Consultant Report
-
-    </td>
+Communication: From Provider To Provider: Consultant Report    </td>
     <td>
-2.16.840.1.113883.3.464.1003.121.12.1006
-
-    </td>
+2.16.840.1.113883.3.464.1003.121.12.1006    </td>
   </tr>
 </table>
 

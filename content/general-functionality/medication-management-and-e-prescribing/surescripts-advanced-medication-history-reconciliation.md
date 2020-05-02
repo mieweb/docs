@@ -48,7 +48,7 @@ To do this, click the Reconcile link to bring in those medications from electron
 
 Once you've clicked Reconcile, a separate window on your screen which is the FroozHIE module. There are instructions at the top to explain the FroozHIE tool and how to bring data over into {{% system-name %}} . Only medications will display in the FroozHIE tool on the left side since only Medication History was obtained with SureScripts Advanced.
 
-![](../../external_files/a5cd06ceab3cca9a2450960d4d93f795.png)
+![](../../external_files/0cdc96a6407a53f9371413ab8f884911.png)
 
 Whatever medications you want brought over (transferred over) into {{% system-name %}} , click the >> button next to it. The LEFT side is the patient's Medication History record you queried. The RIGHT side is what you have in {{% system-name %}} for that patient currently in their medication history in {{% system-name %}} .
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 33
 id: 1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg
 source: https://drive.google.com/open?id=1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg
+menu:
+    main:
+        name: "Document Details"
+        identifier: "1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg"
+        parent: "1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI"
+        weight: 500
 ---
 Document details can be added in multiple ways to many types of documents within {{% system-name %}} . Discrete observation data, for example, can be captured and stored on any document that is indexed within {{% system-name %}} , given the proper setup. Review the information below, to learn about adding and viewing document details, as needed.
 
@@ -15,7 +21,7 @@ Document details can be added in multiple ways to many types of documents within
 2. Next, create a flowsheet with the same name as the document type (e.g., Document Type Code = 2DECHO, Flowsheet Name = 2DECHO). Be sure to match the Flowsheet name to the Document Type <em>Code</em> and not the Description.
 3. To finish creating the flowsheet, add all of the preferred observations, so that the information can be captured, accordingly. If an observation does not exist within {{% system-name %}} , it must be added before attempting to configure any flowsheet.
 
-For detailed information regarding the adding of flowsheets to {{% system-name %}} , check out the [Observation Flowsheets](https://docs.google.com/document/d/15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY) documentation.
+For detailed information regarding the adding of flowsheets to {{% system-name %}} , check out the [Observation Flowsheets](../../order-and-result-management/observation-flowsheets.html) documentation.
 
 ## Adding Document Details
 

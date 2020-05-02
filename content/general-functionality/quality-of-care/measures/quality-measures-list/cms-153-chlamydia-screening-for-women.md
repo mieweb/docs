@@ -64,383 +64,231 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.121.12.1040
-
-    </td>
+2.16.840.1.113883.3.464.1003.121.12.1040    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.112.11.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.112.11.1023    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.112.12.1003
-
-    </td>
+2.16.840.1.113883.3.464.1003.112.12.1003    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1012
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1012    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.110.12.1049
-
-    </td>
+2.16.840.1.113883.3.464.1003.110.12.1049    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.112.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.112.12.1001    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.120.12.1003
-
-    </td>
+2.16.840.1.113883.3.464.1003.120.12.1003    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.112.12.1004
-
-    </td>
+2.16.840.1.113883.3.464.1003.112.12.1004    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1006
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1006    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.464.1003.112.12.1002
-
-    </td>
+2.16.840.1.113883.3.464.1003.112.12.1002    </td>
   </tr>
   <tr>
     <td>
-Diagnostic Study, Order
-
-    </td>
+Diagnostic Study, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1008
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1008    </td>
   </tr>
   <tr>
     <td>
-Diagnostic Study, Order
-
-    </td>
+Diagnostic Study, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.198.12.1034
-
-    </td>
+2.16.840.1.113883.3.464.1003.198.12.1034    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.666.5.307
-
-    </td>
+2.16.840.1.113883.3.666.5.307    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1024
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1024    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1022
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1022    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Laboratory Test, Order
-
-    </td>
+Laboratory Test, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1007
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1007    </td>
   </tr>
   <tr>
     <td>
-Laboratory Test, Order
-
-    </td>
+Laboratory Test, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.110.12.1051
-
-    </td>
+2.16.840.1.113883.3.464.1003.110.12.1051    </td>
   </tr>
   <tr>
     <td>
-Laboratory Test, Order
-
-    </td>
+Laboratory Test, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.108.12.1017
-
-    </td>
+2.16.840.1.113883.3.464.1003.108.12.1017    </td>
   </tr>
   <tr>
     <td>
-Laboratory Test, Order
-
-    </td>
+Laboratory Test, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1011
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1011    </td>
   </tr>
   <tr>
     <td>
-Laboratory Test, Performed
-
-    </td>
+Laboratory Test, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.110.12.1052
-
-    </td>
+2.16.840.1.113883.3.464.1003.110.12.1052    </td>
   </tr>
   <tr>
     <td>
-Medication, Active
-
-    </td>
+Medication, Active    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1080
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1080    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1080
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1080    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1143
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1143    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113883.3.560.100.2
-
-    </td>
+2.16.840.1.113883.3.560.100.2    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed
-
-    </td>
+Procedure, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1015
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1015    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed
-
-    </td>
+Procedure, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1009
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1009    </td>
   </tr>
   <tr>
     <td>
-Procedure, Performed
-
-    </td>
+Procedure, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.111.12.1010
-
-    </td>
+2.16.840.1.113883.3.464.1003.111.12.1010    </td>
   </tr>
 </table>
 

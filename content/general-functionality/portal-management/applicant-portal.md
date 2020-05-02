@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 84
 id: 14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU
 source: https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU
+menu:
+    main:
+        name: "Applicant Portal"
+        identifier: "14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
+        parent: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
+        weight: 1210
 ---
 
 

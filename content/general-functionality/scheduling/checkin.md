@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 49
 id: 19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8
 source: https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8
+menu:
+    main:
+        name: "Checkin"
+        identifier: "19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8"
+        parent: "1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
+        weight: 1190
 ---
 The {{% system-name %}} Checkin module significantly improves patient flow by ensuring communication lines between the front office and clinicians are always open. The Checkin module will function in a patient kiosk setting, or within {{% system-name %}} as used by the clinical staff.
 
@@ -216,7 +222,7 @@ The Checkin-Public dashboard only shows the Waiting Room station. Once the patie
 
 ## Checkin Reports
 
-A report is available for auditing check-in statistics. This can be used to review statistics from each station within {{% system-name %}} . Refer to separate [Checkin Reports](https://docs.google.com/document/d/1wiiDtA6Dlmbqe65Sx1tJh-cDj-Ld7D5GmICs6-qXoNU) documentation.
+A report is available for auditing check-in statistics. This can be used to review statistics from each station within {{% system-name %}} . Refer to separate [Checkin Reports](../reports/checkin-reports.html) documentation.
 
 {{% note %}}
 

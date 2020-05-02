@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 51
 id: 1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM
 source: https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM
+menu:
+    main:
+        name: "Sketch Documents"
+        identifier: "1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM"
+        parent: "1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI"
+        weight: 450
 ---
 The  {{% system-name %}} system is designed to allow sketches to be uploaded as documents into charts, as needed. A user can sketch on a blank background or over a templated background image, and then immediately upload the image to the chart. This is particularly useful when documenting an area of an injury and a visual representation provides added context to the documentation.
 
@@ -53,7 +59,7 @@ In order to author documents for others, the user must have the Access Control 
 
 * A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.    ![](../../../external_files/3502b1d2c363b84e370eea3046d4624a.png)
+* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.    ![](../../../external_files/ce3aff314ae32d9b093c8e061d2d28b8.png)
 
 
 

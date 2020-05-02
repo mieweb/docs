@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 18
 id: 1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0
 source: https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0
+menu:
+    main:
+        name: "Device Interface - Benson Audiometer"
+        identifier: "1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0"
+        parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
+        weight: 5430
 ---
 This page provides instructions for retrieving results from the Benson software with {{% system-name %}} , and lists the fields that the interface retrieves.
 
@@ -63,7 +69,7 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
 
 ## Related Pages
 
-[Devices List](https://docs.google.com/document/d/1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)
+[Devices List](../../../resources/system-specifications/interface-specifications.html)
 
 Configuration File
 

@@ -48,7 +48,7 @@ You will receive a message if the patient has already had an eligibility check r
 
 Otherwise, when you click SEND REQUEST button and it's not within 72 hours of the last eligibility request for that patient, it will instantly show the Eligibility Information on your screen.
 
-![](../../external_files/891e99407cf23ee665dcc7220179a783.png)
+![](../../external_files/c096551b42343c05dcca083e2a6a4e82.png)
 
 Not only is the Drug Eligibility shown on your screen, this Drug Eligibility documentation was automatically stored into the patient's record with a doc.id (doc.type INS_ELIG) in the patient's doc.sum tab. So at any time, you can find that stored document now in the patient's chart to refer to or print off, etc.
 

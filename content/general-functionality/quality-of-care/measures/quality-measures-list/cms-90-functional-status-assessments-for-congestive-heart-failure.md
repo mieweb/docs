@@ -39,283 +39,171 @@ menu:
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1177
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1177    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1222
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1222    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1215
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1215    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1211
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1211    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1226
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1226    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1221
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1221    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1216
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1216    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1212
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1212    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1225
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1225    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1220
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1220    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1139
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1139    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1213
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1213    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1176
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1176    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1223
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1223    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1138
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1138    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1214
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1214    </td>
   </tr>
   <tr>
     <td>
-Assessment, Performed
-
-    </td>
+Assessment, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.118.12.1217
-
-    </td>
+2.16.840.1.113883.3.464.1003.118.12.1217    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.376
-
-    </td>
+2.16.840.1.113883.3.526.3.376    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1025
-
-    </td>
+2.16.840.1.113883.3.526.3.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.666.5.307
-
-    </td>
+2.16.840.1.113883.3.666.5.307    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
 </table>
 

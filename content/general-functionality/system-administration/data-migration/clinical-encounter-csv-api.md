@@ -6,12 +6,18 @@ author: Jeremia Ploor
 version: 19
 id: 1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk
 source: https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk
+menu:
+    main:
+        name: "Clinical Encounter CSV API"
+        identifier: "1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4880
 ---
 ## Introduction
 
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) using the Clinical Encounter CSV API.
 
-A **case** encompasses a variety of data that is ultimately meant to generate an [OSHA 300 log](https://www.osha.gov/recordkeeping/RKforms.html) for [occupational injuries and illness.](https://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&p_part_number=1904) The [Case Management CSV API](https://docs.google.com/document/d/1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM) includes encounter information, and is used when encounters are imported as a part of a case.
+A **case** encompasses a variety of data that is ultimately meant to generate an [OSHA 300 log](https://www.osha.gov/recordkeeping/RKforms.html) for [occupational injuries and illness.](https://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&p_part_number=1904) The [Case Management CSV API](case-management-csv-api.html) includes encounter information, and is used when encounters are imported as a part of a case.
 
 
 
@@ -36,7 +42,7 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * <strong>Nature of injury codes</strong> and <strong>body part codes</strong> are combined in a case to create the incident nature of injury body part ID (nibp_id) in an MIE system.
 * In occupational health, a <strong>restriction</strong> (clinical restriction) refers to an activity that an employee (patient) is not permitted to do after an injury (incident).
 
-CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](https://docs.google.com/document/d/1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](data-import-overview.html) page for a more detailed explanation of terminology.
 
 
 
@@ -44,7 +50,7 @@ CSV refers to the type of file and format of data needed to import information i
 
 The Clinical Encounter CSV API is useful for clients importing encounter-related data such as annual tests for clearance. Each encounter includes a chief complaint and documents separate visits with an employee/patient. Additional information is included in the encounter via documents. A **document** in {{% sys-name %}} is a way of storing information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, physician tasks for a patient, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
 
-The related [Case Management CSV API](https://docs.google.com/document/d/1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM) imports encounter, restriction, accommodation, condition, or nature of injury information for a patient, and is used to generate an OSHA 300 log. Clients who do not submit OSHA 300 logs may find the Clinical Encounter CSV API more appropriate for their needs.
+The related [Case Management CSV API](case-management-csv-api.html) imports encounter, restriction, accommodation, condition, or nature of injury information for a patient, and is used to generate an OSHA 300 log. Clients who do not submit OSHA 300 logs may find the Clinical Encounter CSV API more appropriate for their needs.
 
 
 
@@ -97,9 +103,9 @@ Observations can be added to the encounter by adding the observation columns to 
 
 The field obs_result is required to create an observation.
 
-[Chart Observations Import Options](https://docs.google.com/document/d/179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A) can be used to modify how observations are processed as the file is loaded.
+[Chart Observations Import Options](chart-observations-import-options.html) can be used to modify how observations are processed as the file is loaded.
 
-[Chart Observations Default Values](https://docs.google.com/document/d/1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM) can be used to simplify the import file.
+[Chart Observations Default Values](chart-observations-default-values.html) can be used to simplify the import file.
 
 
 
@@ -147,11 +153,11 @@ The following examples are available:
 
 ## Related Pages
 
-* [Case Management CSV API](https://docs.google.com/document/d/1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM)
-* [Restrictions CSV API](https://docs.google.com/document/d/1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU)
-* [Accommodations CSV API](https://docs.google.com/document/d/1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc)
-* [Conditions CSV API](https://docs.google.com/document/d/1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4)
-* [Nature of Injury CSV API](https://docs.google.com/document/d/1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU)
-* [Data Import Master List](https://docs.google.com/document/d/12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
-* [Import Overview](https://docs.google.com/document/d/1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk)
+* [Case Management CSV API](case-management-csv-api.html)
+* [Restrictions CSV API](restrictions-csv-api.html)
+* [Accommodations CSV API](accommodations-csv-api.html)
+* [Conditions CSV API](conditions-csv-api.html)
+* [Nature of Injury CSV API](nature-of-injury-csv-api.html)
+* [Data Import Master List](data-import-master-list.html)
+* [Import Overview](data-import-overview.html)
 * [Data Migration File Format Standard](data-migration-file-format-standard.html)

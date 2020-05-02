@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 26
 id: 1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M
 source: https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M
+menu:
+    main:
+        name: "Data Import Standards"
+        identifier: "1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4970
 ---
 The following columns display in standardized data import specifications:
 
@@ -49,83 +55,51 @@ CDC Race codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf](
 <table>
   <tr>
     <td>
-Code
-
-    </td>
+Code    </td>
     <td>
-Description
-
-    </td>
+Description    </td>
   </tr>
   <tr>
     <td>
-R1
-
-    </td>
+R1    </td>
     <td>
-American Indian
-
-    </td>
+American Indian    </td>
   </tr>
   <tr>
     <td>
-R2
-
-    </td>
+R2    </td>
     <td>
-Asian
-
-    </td>
+Asian    </td>
   </tr>
   <tr>
     <td>
-R3
-
-    </td>
+R3    </td>
     <td>
-African American
-
-    </td>
+African American    </td>
   </tr>
   <tr>
     <td>
-R4
-
-    </td>
+R4    </td>
     <td>
-Hawaiian / Pacific Islander
-
-    </td>
+Hawaiian / Pacific Islander    </td>
   </tr>
   <tr>
     <td>
-R5
-
-    </td>
+R5    </td>
     <td>
-White
-
-    </td>
+White    </td>
   </tr>
   <tr>
     <td>
-R9
-
-    </td>
+R9    </td>
     <td>
-Other
-
-    </td>
+Other    </td>
   </tr>
   <tr>
     <td>
-NA
-
-    </td>
+NA    </td>
     <td>
-Declined to Answer
-
-    </td>
+Declined to Answer    </td>
   </tr>
 </table>
 
@@ -140,43 +114,27 @@ CDC Ethnicity codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.
 <table>
   <tr>
     <td>
-Code
-
-    </td>
+Code    </td>
     <td>
-Description
-
-    </td>
+Description    </td>
   </tr>
   <tr>
     <td>
-E1
-
-    </td>
+E1    </td>
     <td>
-Hispanic or Latino
-
-    </td>
+Hispanic or Latino    </td>
   </tr>
   <tr>
     <td>
-E2
-
-    </td>
+E2    </td>
     <td>
-Not Hispanic or Latino
-
-    </td>
+Not Hispanic or Latino    </td>
   </tr>
   <tr>
     <td>
-NA
-
-    </td>
+NA    </td>
     <td>
-Declined to Answer
-
-    </td>
+Declined to Answer    </td>
   </tr>
 </table>
 
@@ -189,73 +147,45 @@ Declined to Answer
 <table>
   <tr>
     <td>
-Code
-
-    </td>
+Code    </td>
     <td>
-Description
-
-    </td>
+Description    </td>
   </tr>
   <tr>
     <td>
-M
-
-    </td>
+M    </td>
     <td>
-Male
-
-    </td>
+Male    </td>
   </tr>
   <tr>
     <td>
-F
-
-    </td>
+F    </td>
     <td>
-Female
-
-    </td>
+Female    </td>
   </tr>
   <tr>
     <td>
-A
-
-    </td>
+A    </td>
     <td>
-Ambiguous
-
-    </td>
+Ambiguous    </td>
   </tr>
   <tr>
     <td>
-N
-
-    </td>
+N    </td>
     <td>
-Not applicable
-
-    </td>
+Not applicable    </td>
   </tr>
   <tr>
     <td>
-O
-
-    </td>
+O    </td>
     <td>
-Other
-
-    </td>
+Other    </td>
   </tr>
   <tr>
     <td>
-U
-
-    </td>
+U    </td>
     <td>
-Unknown
-
-    </td>
+Unknown    </td>
   </tr>
 </table>
 
@@ -268,73 +198,45 @@ Unknown
 <table>
   <tr>
     <td>
-Code
-
-    </td>
+Code    </td>
     <td>
-Description
-
-    </td>
+Description    </td>
   </tr>
   <tr>
     <td>
-M
-
-    </td>
+M    </td>
     <td>
-Married
-
-    </td>
+Married    </td>
   </tr>
   <tr>
     <td>
-S
-
-    </td>
+S    </td>
     <td>
-Single
-
-    </td>
+Single    </td>
   </tr>
   <tr>
     <td>
-D
-
-    </td>
+D    </td>
     <td>
-Divorced
-
-    </td>
+Divorced    </td>
   </tr>
   <tr>
     <td>
-W
-
-    </td>
+W    </td>
     <td>
-Widowed
-
-    </td>
+Widowed    </td>
   </tr>
   <tr>
     <td>
-A
-
-    </td>
+A    </td>
     <td>
-Legally Separated
-
-    </td>
+Legally Separated    </td>
   </tr>
   <tr>
     <td>
-C
-
-    </td>
+C    </td>
     <td>
-Common Law
-
-    </td>
+Common Law    </td>
   </tr>
 </table>
 
@@ -347,33 +249,21 @@ Common Law
 <table>
   <tr>
     <td>
-Code
-
-    </td>
+Code    </td>
     <td>
-Description
-
-    </td>
+Description    </td>
   </tr>
   <tr>
     <td>
-F
-
-    </td>
+F    </td>
     <td>
-Full-Time Employee
-
-    </td>
+Full-Time Employee    </td>
   </tr>
   <tr>
     <td>
-P
-
-    </td>
+P    </td>
     <td>
-Part-Time Employee
-
-    </td>
+Part-Time Employee    </td>
   </tr>
 </table>
 
@@ -386,53 +276,33 @@ Part-Time Employee
 <table>
   <tr>
     <td>
-Code
-
-    </td>
+Code    </td>
     <td>
-Description
-
-    </td>
+Description    </td>
   </tr>
   <tr>
     <td>
-id:username
-
-    </td>
+id:username    </td>
     <td>
-Webchart username
-
-    </td>
+Webchart username    </td>
   </tr>
   <tr>
     <td>
-id:uid
-
-    </td>
+id:uid    </td>
     <td>
-Universal ID
-
-    </td>
+Universal ID    </td>
   </tr>
   <tr>
     <td>
-id:npi
-
-    </td>
+id:npi    </td>
     <td>
-Nation Provider ID
-
-    </td>
+Nation Provider ID    </td>
   </tr>
   <tr>
     <td>
-id:user_id
-
-    </td>
+id:user_id    </td>
     <td>
-Internal Webchart User ID
-
-    </td>
+Internal Webchart User ID    </td>
   </tr>
 </table>
 
@@ -445,73 +315,45 @@ Internal Webchart User ID
 <table>
   <tr>
     <td>
-Code
-
-    </td>
+Code    </td>
     <td>
-Description
-
-    </td>
+Description    </td>
   </tr>
   <tr>
     <td>
-id:username
-
-    </td>
+id:username    </td>
     <td>
-Webchart username
-
-    </td>
+Webchart username    </td>
   </tr>
   <tr>
     <td>
-id:ext_id
-
-    </td>
+id:ext_id    </td>
     <td>
-External Identifier
-
-    </td>
+External Identifier    </td>
   </tr>
   <tr>
     <td>
-id:ssn
-
-    </td>
+id:ssn    </td>
     <td>
-Social Security Number (US)
-
-    </td>
+Social Security Number (US)    </td>
   </tr>
   <tr>
     <td>
-id:sin
-
-    </td>
+id:sin    </td>
     <td>
-Social Insurance Number (Canada)
-
-    </td>
+Social Insurance Number (Canada)    </td>
   </tr>
   <tr>
     <td>
-id:email
-
-    </td>
+id:email    </td>
     <td>
-email address
-
-    </td>
+email address    </td>
   </tr>
   <tr>
     <td>
-id:pat_id
-
-    </td>
+id:pat_id    </td>
     <td>
-Internal Webchart Patient ID
-
-    </td>
+Internal Webchart Patient ID    </td>
   </tr>
 </table>
 
@@ -555,7 +397,7 @@ Any errors encountered during the import display on the import page. Click the D
 
 ## CSV Header Options
 
-[Chart Data CSV Header Options](https://docs.google.com/document/d/1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho)
+[Chart Data CSV Header Options](chart-data-csv-header-options.html)
 
 
 

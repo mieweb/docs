@@ -49,173 +49,105 @@ Ensure all 12+ year-old patients are screened for depression before the beginnin
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.600.450
-
-    </td>
+2.16.840.1.113883.3.600.450    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.600.145
-
-    </td>
+2.16.840.1.113883.3.600.145    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.1916
-
-    </td>
+2.16.840.1.113883.3.600.1916    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.537
-
-    </td>
+2.16.840.1.113883.3.600.537    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.538
-
-    </td>
+2.16.840.1.113883.3.600.538    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.1542
-
-    </td>
+2.16.840.1.113883.3.600.1542    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.1545
-
-    </td>
+2.16.840.1.113883.3.600.1545    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.467
-
-    </td>
+2.16.840.1.113883.3.600.467    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.468
-
-    </td>
+2.16.840.1.113883.3.600.468    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed
-
-    </td>
+Intervention, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.559
-
-    </td>
+2.16.840.1.113883.3.600.559    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.600.469
-
-    </td>
+2.16.840.1.113883.3.600.469    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.600.470
-
-    </td>
+2.16.840.1.113883.3.600.470    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
 </table>
 

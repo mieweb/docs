@@ -3,9 +3,14 @@ title: "Videos & Demonstrations"
 date: 2020-03-20T17:25:34.962Z
 url: "videos-and-demonstrations.html"
 author: Jeremia Ploor
-version: 228
+version: 230
 id: 1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk
 source: https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk
+menu:
+    main:
+        name: "Videos & Demonstrations"
+        identifier: "1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk"
+        weight: 6790
 ---
 All {{% system-name %}} training videos and demonstrations can be found below. Peruse the various overviews, and spend some time with the in-depth looks at the available functionality within the product, or even get acquainted with some of the more common workflows used. 
 
@@ -43,7 +48,7 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 {{% column %}}
 
-![](external_files/8dd8757c10ec5c3ec103a2af1af2f9e3.png)
+![](external_files/036481028fc108b0739fff3e967e13ce.png)
 
 {{% /column %}}
 

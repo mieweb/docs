@@ -21,113 +21,69 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 <table>
   <tr>
     <td>
-Acuity/B (far)
-
-    </td>
+Acuity/B (far)    </td>
     <td>
-Acuity/B (near)
-
-    </td>
+Acuity/B (near)    </td>
   </tr>
   <tr>
     <td>
-Acuity/L (far)
-
-    </td>
+Acuity/L (far)    </td>
     <td>
-Acuity/L (near)
-
-    </td>
+Acuity/L (near)    </td>
   </tr>
   <tr>
     <td>
-Acuity/R (far)
-
-    </td>
+Acuity/R (far)    </td>
     <td>
-Acuity/R (near)
-
-    </td>
+Acuity/R (near)    </td>
   </tr>
   <tr>
     <td>
-Depth (far)
-
-    </td>
+Depth (far)    </td>
     <td>
-Fusion
-
-    </td>
+Fusion    </td>
   </tr>
   <tr>
     <td>
-Acuity/B (Mesopic)
-
-    </td>
+Acuity/B (Mesopic)    </td>
     <td>
-Depth Perception
-
-    </td>
+Depth Perception    </td>
   </tr>
   <tr>
     <td>
-Acuity/B (Hypemetropia)
-
-    </td>
+Acuity/B (Hypemetropia)    </td>
     <td>
-Decreasing Contrast
-
-    </td>
+Decreasing Contrast    </td>
   </tr>
   <tr>
     <td>
-Acuity/L (Hypemetropia)
-
-    </td>
+Acuity/L (Hypemetropia)    </td>
     <td>
-Amsler/R
-
-    </td>
+Amsler/R    </td>
   </tr>
   <tr>
     <td>
-Acuity/R (Hypemetropia)
-
-    </td>
+Acuity/R (Hypemetropia)    </td>
     <td>
-Amsler/L
-
-    </td>
+Amsler/L    </td>
   </tr>
   <tr>
     <td>
-Color/B
-
-    </td>
+Color/B    </td>
     <td>
-Astigmatism/L
-
-    </td>
+Astigmatism/L    </td>
   </tr>
   <tr>
     <td>
-Color/L
-
-    </td>
+Color/L    </td>
     <td>
-Astigmatism/R
-
-    </td>
+Astigmatism/R    </td>
   </tr>
   <tr>
     <td>
-Color/R
-
-    </td>
+Color/R    </td>
     <td>
-Peripheral Vision
-
-    </td>
+Peripheral Vision    </td>
   </tr>
 </table>
 

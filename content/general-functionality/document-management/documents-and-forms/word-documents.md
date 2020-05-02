@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 74
 id: 1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U
 source: https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U
+menu:
+    main:
+        name: "Word Documents"
+        identifier: "1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U"
+        parent: "1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI"
+        weight: 410
 ---
 ## Add/Upload Word Document to Chart
 

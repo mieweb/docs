@@ -1,9 +1,9 @@
 ---
 title: "_index"
-date: 2020-04-01T18:50:55.590Z
+date: 2020-04-20T22:54:52.412Z
 url: "_index.html"
-author: Jeremia Ploor
-version: 45
+author: Doug Horner
+version: 60
 id: 1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0
 source: https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0
 ---
@@ -13,15 +13,15 @@ Information and resources designed to assist with the general use, setup, and co
 
 START HERE! A powerful resource for all users. Check out our various modules, standard functionality, and prescribed workflows designed to streamline all of your clinical and administrative needs.
 
-## [Programs](https://docs.google.com/document/d/1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk)
+## [Programs](programs.html)
 
 {{% system-name %}} offers various solutions for your every-day needs. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.
 
-## [Rapid Install & Deployment](https://docs.google.com/document/d/1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o)
+## [Rapid Install & Deployment](rapid-deployment.html)
 
 The {{% system-name %}} system allows for a non-invasive experience for deploying and implementing a standard product. By using streamlined agendas and a straight-forward project plan, users can get back to basics and feel at ease with their new solution.
 
-## [General Functionality](https://docs.google.com/document/d/1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0)
+## [General Functionality](general-functionality.html)
 
 See an overview and detailed documentation of all our solutions.
 
@@ -46,33 +46,21 @@ Contact Us
 <table>
   <tr>
     <td>
-Phone
-
-    </td>
+Phone    </td>
     <td>
-(260) 459-6270 Option 1
-
-    </td>
+(260) 459-6270 Option 1    </td>
   </tr>
   <tr>
     <td>
-Toll-free
-
-    </td>
+Toll-free    </td>
     <td>
-1-888-498-3484
-
-    </td>
+1-888-498-3484    </td>
   </tr>
   <tr>
     <td>
-Email
-
-    </td>
+Email    </td>
     <td>
-support@mieweb.com
-
-    </td>
+support@mieweb.com    </td>
   </tr>
 </table>
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 65
 id: 1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc
 source: https://drive.google.com/open?id=1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc
+menu:
+    main:
+        name: "Link Documents to Encounters"
+        identifier: "1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc"
+        parent: "1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI"
+        weight: 520
 ---
 The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding encounter whether the encounter is open or closed. Linking a document to an encounter in a chart allows users to easily view the encounter and corresponding linked documents, all from one place. Security permission of *Link Documents to Encounters* must be permitted to users that need to link documents to encounters.
 
@@ -96,7 +102,7 @@ For more details on scanning, indexing, and linking while indexing, see our [Ind
 
 ### Link from Add Document
 
-Using the **Add Document** link provides users the ability to open or create new documents in a chart. This function also allows users to specify an encounter to link to the new document, if necessary. For additional information on how to add documents, link documents, or access pre-configured or pre-templated documents, check out our documentation on [Document Management](https://docs.google.com/document/d/1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ).
+Using the **Add Document** link provides users the ability to open or create new documents in a chart. This function also allows users to specify an encounter to link to the new document, if necessary. For additional information on how to add documents, link documents, or access pre-configured or pre-templated documents, check out our documentation on [Document Management](../../document-management.html).
 
 First, to begin adding a new document for linking an encounter to, click the **Add Document** link, while in the appropriate chart.
 

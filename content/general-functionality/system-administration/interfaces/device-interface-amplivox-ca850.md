@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 19
 id: 1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA
 source: https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA
+menu:
+    main:
+        name: "Device Interface - Amplivox CA850"
+        identifier: "1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA"
+        parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
+        weight: 5410
 ---
 This page provides instructions for retrieving results from the Amplivox CA850 and Amplivox PC850 audiometers with Enterprise Health (EH), and lists the fields that the interface retrieves.
 
@@ -54,5 +60,5 @@ To correctly install and use the audiometer with EH the following considerations
 
 ## Related Pages
 
-[Devices List](https://docs.google.com/document/d/1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)
+[Devices List](../../../resources/system-specifications/interface-specifications.html)
 

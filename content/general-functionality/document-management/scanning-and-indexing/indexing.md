@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 83
 id: 1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8
 source: https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8
+menu:
+    main:
+        name: "Indexing"
+        identifier: "1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8"
+        parent: "1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w"
+        weight: 680
 ---
 The WebScan module allows users to scan and index documents into the {{% system-name %}} system, so that document images can be attached to associated charts and be stored, accordingly. Indexing is the process of cataloging documents according to their attributes, such as chart name, provider, document type, date of document, etc. Once documents are scanned and indexed, staff can search for and retrieve documents from electronic charts, rather than having to search a medical file for paper copies. Additionally, there are WebScan reports that can be run by an administrator, or users with proper security permissions, that report statistics on batches scanned and/or indexed.
 
@@ -204,223 +210,135 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 <table>
   <tr>
     <td>
-**Keystroke**
-
-    </td>
+**Keystroke**    </td>
     <td>
-**Output**
-
-    </td>
+**Output**    </td>
   </tr>
   <tr>
     <td>
-**[Up/Down]**
-
-    </td>
+**[Up/Down]**    </td>
     <td>
-Using the up/down arrow keys moves the line of focus (i.e., yellow indicator line) of the Image Info section up or down, to the next or previous line/page.
-
-    </td>
+Using the up/down arrow keys moves the line of focus (i.e., yellow indicator line) of the Image Info section up or down, to the next or previous line/page.    </td>
   </tr>
   <tr>
     <td>
-**[Left/Right]**
-
-    </td>
+**[Left/Right]**    </td>
     <td>
-The left/right arrow keys allow users to look at the lines/pages that are linked together. Using the up/down arrows would bypass any linked lines/pages. Using the left/right arrows allow users to view the specific linked lines/pages.
-
-    </td>
+The left/right arrow keys allow users to look at the lines/pages that are linked together. Using the up/down arrows would bypass any linked lines/pages. Using the left/right arrows allow users to view the specific linked lines/pages.    </td>
   </tr>
   <tr>
     <td>
-**[Tab]**
-
-    </td>
+**[Tab]**    </td>
     <td>
-Advances to the next entry field for indexing (e.g., Service Date, Doc Type, Provider, Patient, Service Location, etc.).
-
-    </td>
+Advances to the next entry field for indexing (e.g., Service Date, Doc Type, Provider, Patient, Service Location, etc.).    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + [Left]**
-
-    </td>
+**[Ctrl] + [Left]**    </td>
     <td>
-Rotates single page 90 degrees counterclockwise.
-
-    </td>
+Rotates single page 90 degrees counterclockwise.    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + [Right]**
-
-    </td>
+**[Ctrl] + [Right]**    </td>
     <td>
-Rotates single page 90 degrees clockwise.
-
-    </td>
+Rotates single page 90 degrees clockwise.    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + [Up]**
-
-    </td>
+**[Ctrl] + [Up]**    </td>
     <td>
-Moves the current page up.
-
-    </td>
+Moves the current page up.    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + [Down]**
-
-    </td>
+**[Ctrl] + [Down]**    </td>
     <td>
-Moves the current page down.
-
-    </td>
+Moves the current page down.    </td>
   </tr>
   <tr>
     <td>
-**[Delete]**
-
-    </td>
+**[Delete]**    </td>
     <td>
-Deletes the page. Can Un-delete by pressing the key again. When a page is deleted with other pages linked to it, all pages will be deleted.
-
-    </td>
+Deletes the page. Can Un-delete by pressing the key again. When a page is deleted with other pages linked to it, all pages will be deleted.    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + [Delete]**
-
-    </td>
+**[Ctrl] + [Delete]**    </td>
     <td>
-Purges all deleted pages from the batch. Takes the pages that are marked for deletion and removes them from the batch and the view. Some users leave deleted pages in the batch, because deleted pages are not uploaded, by default. Whereas others want them removed from the batch, so that the number of pages to review is reduced. Once a deleted page is purged, it cannot be retrieved for viewing or indexing.
-
-    </td>
+Purges all deleted pages from the batch. Takes the pages that are marked for deletion and removes them from the batch and the view. Some users leave deleted pages in the batch, because deleted pages are not uploaded, by default. Whereas others want them removed from the batch, so that the number of pages to review is reduced. Once a deleted page is purged, it cannot be retrieved for viewing or indexing.    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + [Enter]**
-
-    </td>
+**[Ctrl] + [Enter]**    </td>
     <td>
-Performs the linking function, linking the current page to the previous page. To un-link, simply press [Ctrl] + Enter again.
-
-    </td>
+Performs the linking function, linking the current page to the previous page. To un-link, simply press [Ctrl] + Enter again.    </td>
   </tr>
   <tr>
     <td>
-**[Home/End]**
-
-    </td>
+**[Home/End]**    </td>
     <td>
-Using the Home key advances to the beginning of the batch (i.e., page/line 1). Using the End key goes to the end of the batch (i.e., last item of the batch).
-
-    </td>
+Using the Home key advances to the beginning of the batch (i.e., page/line 1). Using the End key goes to the end of the batch (i.e., last item of the batch).    </td>
   </tr>
   <tr>
     <td>
-**[Enter]**
-
-    </td>
+**[Enter]**    </td>
     <td>
-Sets the form indexing data. Tabbing between fields while indexing advances users from field to field, but when all fields have been entered, hitting the Enter key sets the data and populates the entered information into the *Image Info* fields, advancing the program to the next page/line.
-
-    </td>
+Sets the form indexing data. Tabbing between fields while indexing advances users from field to field, but when all fields have been entered, hitting the Enter key sets the data and populates the entered information into the *Image Info* fields, advancing the program to the next page/line.    </td>
   </tr>
   <tr>
     <td>
-**[Alt] + R** or **[Alt] + [Enter]**
-
-    </td>
+**[Alt] + R** or **[Alt] + [Enter]**    </td>
     <td>
-Sets all pages to all the current indexing data. This is the same functionality as clicking the Fill Blanks toolbar button. Either hotkey function copies down *all* the form data, not just one field. Specify the ending document number to establish the end of the range to copy to.
-
-    </td>
+Sets all pages to all the current indexing data. This is the same functionality as clicking the Fill Blanks toolbar button. Either hotkey function copies down *all* the form data, not just one field. Specify the ending document number to establish the end of the range to copy to.    </td>
   </tr>
   <tr>
     <td>
-**[Shift] + [Enter]**
-
-    </td>
+**[Shift] + [Enter]**    </td>
     <td>
-Sets all pages to one specific form element (i.e., specific index field). This is the same functionality as clicking the FillField toolbar button. Using the hotkey [Shift] + [Enter] where the cursor is focused will populate the field data onto all the following pages in the batch. This is a quick way of copying down a field to all pages in the batch.
-
-    </td>
+Sets all pages to one specific form element (i.e., specific index field). This is the same functionality as clicking the FillField toolbar button. Using the hotkey [Shift] + [Enter] where the cursor is focused will populate the field data onto all the following pages in the batch. This is a quick way of copying down a field to all pages in the batch.    </td>
   </tr>
   <tr>
     <td>
-**[Alt] + C**
-
-    </td>
+**[Alt] + C**    </td>
     <td>
-Performs the Close function for the batch. Proceed to mark the batch as complete, if appropriate. This hotkey is the same as clicking the Close button from the toolbar.
-
-    </td>
+Performs the Close function for the batch. Proceed to mark the batch as complete, if appropriate. This hotkey is the same as clicking the Close button from the toolbar.    </td>
   </tr>
   <tr>
     <td>
-**[Alt] + U**
-
-    </td>
+**[Alt] + U**    </td>
     <td>
-Uploads the documents into {{% system-name %}} . Same functionality as clicking the Upload to Chart button from the toolbar.
-
-    </td>
+Uploads the documents into {{% system-name %}} . Same functionality as clicking the Upload to Chart button from the toolbar.    </td>
   </tr>
   <tr>
     <td>
-**[Alt] + P**
-
-    </td>
+**[Alt] + P**    </td>
     <td>
-Processes barcodes, deletes blanks, and indexes any information garnered by reading the barcodes. Same functionality as clicking the Process Barcodes button from the toolbar.
-
-    </td>
+Processes barcodes, deletes blanks, and indexes any information garnered by reading the barcodes. Same functionality as clicking the Process Barcodes button from the toolbar.    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + M**
-
-    </td>
+**[Ctrl] + M**    </td>
     <td>
-Allows users to move a page to a different order in the batch. Same functionality as right-clicking a line/page and selecting the Move Page option from the context menu.
-
-    </td>
+Allows users to move a page to a different order in the batch. Same functionality as right-clicking a line/page and selecting the Move Page option from the context menu.    </td>
   </tr>
   <tr>
     <td>
-**[Alt] + L**
-
-    </td>
+**[Alt] + L**    </td>
     <td>
-Copies all the Index Information fields down to the next line/page. Same functionality as right-clicking on the line/page and choosing the Copy Down One option from the context menu.
-
-    </td>
+Copies all the Index Information fields down to the next line/page. Same functionality as right-clicking on the line/page and choosing the Copy Down One option from the context menu.    </td>
   </tr>
   <tr>
     <td>
-**[Ctrl] + [Tab]**
-
-    </td>
+**[Ctrl] + [Tab]**    </td>
     <td>
-Switches focus between page list and indexing fields.
-
-    </td>
+Switches focus between page list and indexing fields.    </td>
   </tr>
   <tr>
     <td>
-**[Shift] + [Alt] + P**
-
-    </td>
+**[Shift] + [Alt] + P**    </td>
     <td>
-Displays any barcode on *current* page. While on a page with a barcode, hold [Ctrl] + [Alt] + P to see what the barcode data will display.
-
-    </td>
+Displays any barcode on *current* page. While on a page with a barcode, hold [Ctrl] + [Alt] + P to see what the barcode data will display.    </td>
   </tr>
 </table>
 
@@ -434,7 +352,7 @@ Displays any barcode on *current* page. While on a page with a barcode, hold [Ct
 
 
 
-**Bubble**: This button is for clients using bubble forms in the {{% system-name %}} system. This triggers the reading of the bubble form optical marks and indexes and uploads the document. If a batch has bubble forms to index, first click the **Process Barcodes** button, and then click the **Scan Bubbles** button. {{% system-name %}} can be programmed to set required entry fields on bubble forms, as well as display expected result criteria, ultimately warning users if a value is not provided or out of range. If any errors are detected, a pop-up window will appear for making changes to the errored values. Clicking Submit at the bottom of the pop-up window will save the data. Continue indexing any additional pages of the batch and click the **Upload** button. Refer to [Indexing Bubble Forms](https://docs.google.com/document/d/16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c) for more details.
+**Bubble**: This button is for clients using bubble forms in the {{% system-name %}} system. This triggers the reading of the bubble form optical marks and indexes and uploads the document. If a batch has bubble forms to index, first click the **Process Barcodes** button, and then click the **Scan Bubbles** button. {{% system-name %}} can be programmed to set required entry fields on bubble forms, as well as display expected result criteria, ultimately warning users if a value is not provided or out of range. If any errors are detected, a pop-up window will appear for making changes to the errored values. Clicking Submit at the bottom of the pop-up window will save the data. Continue indexing any additional pages of the batch and click the **Upload** button. Refer to [Indexing Bubble Forms](indexing-bubble-forms.html) for more details.
 
 
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 45
 id: 14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0
 source: https://drive.google.com/open?id=14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0
+menu:
+    main:
+        name: "Encounters Labs Results Section"
+        identifier: "14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0"
+        parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+        weight: 1500
 ---
 The Labs Results area of the encounter is where you can key in results of labs and will be stored as discrete reportable data. You may utilize this section if a patient hands you some lab results from an outside facility/provider or if you do in-house labs and want to quickly document the results in the patient's chart and track.
 
@@ -72,5 +78,5 @@ Once you are in the edit mode, you can remove the fields you don't want shown in
 
 ![](../../external_files/ac26085f8319fa8885dd100e0aadb390.png)
 
-See separate help documentation named [Observations Tab](https://docs.google.com/document/d/13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw), page 11 for more specific detail on how to edit flowsheets and ordering.
+See separate help documentation named [Observations Tab](../order-and-result-management/observations-tab.html), page 11 for more specific detail on how to edit flowsheets and ordering.
 

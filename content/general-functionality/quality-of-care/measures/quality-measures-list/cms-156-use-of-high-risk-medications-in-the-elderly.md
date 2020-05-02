@@ -62,113 +62,69 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Annual Wellness Visit
-
-    </td>
+Encounter, Performed: Annual Wellness Visit    </td>
     <td>
-2.16.840.1.113883.3.526.3.1240
-
-    </td>
+2.16.840.1.113883.3.526.3.1240    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Home Healthcare Services
-
-    </td>
+Encounter, Performed: Home Healthcare Services    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Office Visit
-
-    </td>
+Encounter, Performed: Office Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1025
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1025    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up
-
-    </td>
+Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1023
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1023    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Care Services in Long-Term Residential Facility
-
-    </td>
+Encounter, Performed: Care Services in Long-Term Residential Facility    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1014
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1014    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Discharge Services - Nursing Facility
-
-    </td>
+Encounter, Performed: Discharge Services - Nursing Facility    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1013
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1013    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Encounter Inpatient
-
-    </td>
+Encounter, Performed: Encounter Inpatient    </td>
     <td>
-2.16.840.1.113883.3.666.5.307
-
-    </td>
+2.16.840.1.113883.3.666.5.307    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Nursing Facility Visit
-
-    </td>
+Encounter, Performed: Nursing Facility Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1012
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1012    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed: Ophthalmologic Outpatient Visit
-
-    </td>
+Encounter, Performed: Ophthalmologic Outpatient Visit    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.11.1206
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.11.1206    </td>
   </tr>
 </table>
 
@@ -181,1133 +137,681 @@ Equals Initial Population
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Butalbital / Caffeine / Codeine
-
-    </td>
+Acetaminophen / Butalbital / Caffeine / Codeine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1326
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1326    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Butalbital / Caffeine
-
-    </td>
+Acetaminophen / Butalbital / Caffeine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1363
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1363    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Butalbital
-
-    </td>
+Acetaminophen / Butalbital    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1317
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1317    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Chlorpheniramine / Dextromethorphan / Phenylephrine
-
-    </td>
+Acetaminophen / Chlorpheniramine / Dextromethorphan / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1310
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1310    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Chlorpheniramine / Dextromethorphan / Pseudoephedrine
-
-    </td>
+Acetaminophen / Chlorpheniramine / Dextromethorphan / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1321
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1321    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Chlorpheniramine / Dextromethorphan
-
-    </td>
+Acetaminophen / Chlorpheniramine / Dextromethorphan    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1421
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1421    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Chlorpheniramine / Phenylephrine
-
-    </td>
+Acetaminophen / Chlorpheniramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1328
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1328    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Chlorpheniramine / Pseudoephedrine
-
-    </td>
+Acetaminophen / Chlorpheniramine / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1316
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1316    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Dexbrompheniramine
-
-    </td>
+Acetaminophen / Dexbrompheniramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1405
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1405    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Dextromethorphan / Diphenhydramine / Phenylephrine
-
-    </td>
+Acetaminophen / Dextromethorphan / Diphenhydramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1399
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1399    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Dextromethorphan / Doxylamine / Phenylephrine
-
-    </td>
+Acetaminophen / Dextromethorphan / Doxylamine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1287
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1287    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Dextromethorphan / Doxylamine
-
-    </td>
+Acetaminophen / Dextromethorphan / Doxylamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1338
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1338    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Diphenhydramine / Phenylephrine
-
-    </td>
+Acetaminophen / Diphenhydramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1318
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1318    </td>
   </tr>
   <tr>
     <td>
-Acetaminophen / Diphenhydramine
-
-    </td>
+Acetaminophen / Diphenhydramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1350
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1350    </td>
   </tr>
   <tr>
     <td>
-Amitriptyline / Chlordiazepoxide
-
-    </td>
+Amitriptyline / Chlordiazepoxide    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1286
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1286    </td>
   </tr>
   <tr>
     <td>
-Amitriptyline / Perphenazine
-
-    </td>
+Amitriptyline / Perphenazine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1428
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1428    </td>
   </tr>
   <tr>
     <td>
-Amitriptyline Hydrochloride
-
-    </td>
+Amitriptyline Hydrochloride    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1373
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1373    </td>
   </tr>
   <tr>
     <td>
-Amoxapine
-
-    </td>
+Amoxapine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1273
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1273    </td>
   </tr>
   <tr>
     <td>
-Anti Infectives, other
-
-    </td>
+Anti Infectives, other    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1481
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1481    </td>
   </tr>
   <tr>
     <td>
-Aspirin / Butalbital / Caffeine
-
-    </td>
+Aspirin / Butalbital / Caffeine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1347
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1347    </td>
   </tr>
   <tr>
     <td>
-Aspirin / Caffeine / Orphenadrine
-
-    </td>
+Aspirin / Caffeine / Orphenadrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1302
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1302    </td>
   </tr>
   <tr>
     <td>
-Atropine / Diphenoxylate
-
-    </td>
+Atropine / Diphenoxylate    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1274
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1274    </td>
   </tr>
   <tr>
     <td>
-Atropine / Hyoscyamine / Phenobarbital / Scopolamine
-
-    </td>
+Atropine / Hyoscyamine / Phenobarbital / Scopolamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1355
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1355    </td>
   </tr>
   <tr>
     <td>
-Benztropine
-
-    </td>
+Benztropine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1361
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1361    </td>
   </tr>
   <tr>
     <td>
-Brompheniramine / Codeine / Phenylephrine
-
-    </td>
+Brompheniramine / Codeine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1409
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1409    </td>
   </tr>
   <tr>
     <td>
-Brompheniramine / Codeine / Pseudoephedrine
-
-    </td>
+Brompheniramine / Codeine / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1450
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1450    </td>
   </tr>
   <tr>
     <td>
-Brompheniramine / Dextromethorphan / Phenylephrine
-
-    </td>
+Brompheniramine / Dextromethorphan / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1325
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1325    </td>
   </tr>
   <tr>
     <td>
-Brompheniramine / Dextromethorphan / Pseudoephedrine
-
-    </td>
+Brompheniramine / Dextromethorphan / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1339
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1339    </td>
   </tr>
   <tr>
     <td>
-Brompheniramine / Phenylephrine
-
-    </td>
+Brompheniramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1327
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1327    </td>
   </tr>
   <tr>
     <td>
-Brompheniramine / Pseudoephedrine
-
-    </td>
+Brompheniramine / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1332
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1332    </td>
   </tr>
   <tr>
     <td>
-Brompheniramine
-
-    </td>
+Brompheniramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1427
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1427    </td>
   </tr>
   <tr>
     <td>
-Butabarbital
-
-    </td>
+Butabarbital    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1402
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1402    </td>
   </tr>
   <tr>
     <td>
-Carbinoxamine
-
-    </td>
+Carbinoxamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1306
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1306    </td>
   </tr>
   <tr>
     <td>
-Carisoprodol
-
-    </td>
+Carisoprodol    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1369
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1369    </td>
   </tr>
   <tr>
     <td>
-Chlophedianol / Chlorpheniramine / Phenylephrine
-
-    </td>
+Chlophedianol / Chlorpheniramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1412
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1412    </td>
   </tr>
   <tr>
     <td>
-Chlophedianol / Dexchlorpheniramine / Pseudoephedrine
-
-    </td>
+Chlophedianol / Dexchlorpheniramine / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1447
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1447    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Codeine
-
-    </td>
+Chlorpheniramine / Codeine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1301
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1301    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Dextromethorphan / Phenylephrine
-
-    </td>
+Chlorpheniramine / Dextromethorphan / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1312
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1312    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Dextromethorphan / Pseudoephedrine
-
-    </td>
+Chlorpheniramine / Dextromethorphan / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1337
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1337    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Hydrocodone / Pseudoephedrine
-
-    </td>
+Chlorpheniramine / Hydrocodone / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1299
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1299    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Hydrocodone
-
-    </td>
+Chlorpheniramine / Hydrocodone    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1330
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1330    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Phenylephrine / Phenyltoloxamine
-
-    </td>
+Chlorpheniramine / Phenylephrine / Phenyltoloxamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1453
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1453    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Phenylephrine / Pyrilamine
-
-    </td>
+Chlorpheniramine / Phenylephrine / Pyrilamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1309
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1309    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Phenylephrine
-
-    </td>
+Chlorpheniramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1343
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1343    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine / Pseudoephedrine
-
-    </td>
+Chlorpheniramine / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1315
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1315    </td>
   </tr>
   <tr>
     <td>
-Chlorpheniramine
-
-    </td>
+Chlorpheniramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1352
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1352    </td>
   </tr>
   <tr>
     <td>
-Chlorpropamide
-
-    </td>
+Chlorpropamide    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1303
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1303    </td>
   </tr>
   <tr>
     <td>
-Chlorzoxazone
-
-    </td>
+Chlorzoxazone    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1362
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1362    </td>
   </tr>
   <tr>
     <td>
-Clemastine
-
-    </td>
+Clemastine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1308
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1308    </td>
   </tr>
   <tr>
     <td>
-Clomipramine
-
-    </td>
+Clomipramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1336
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1336    </td>
   </tr>
   <tr>
     <td>
-Conjugated Estrogens / Medroxyprogesterone
-
-    </td>
+Conjugated Estrogens / Medroxyprogesterone    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1324
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1324    </td>
   </tr>
   <tr>
     <td>
-Conjugated Estrogens
-
-    </td>
+Conjugated Estrogens    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1357
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1357    </td>
   </tr>
   <tr>
     <td>
-Cyclobenzaprine Hydrochloride
-
-    </td>
+Cyclobenzaprine Hydrochloride    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1372
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1372    </td>
   </tr>
   <tr>
     <td>
-Cyproheptadine
-
-    </td>
+Cyproheptadine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1277
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1277    </td>
   </tr>
   <tr>
     <td>
-Desiccated Thyroid
-
-    </td>
+Desiccated Thyroid    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1354
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1354    </td>
   </tr>
   <tr>
     <td>
-Desipramine
-
-    </td>
+Desipramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1278
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1278    </td>
   </tr>
   <tr>
     <td>
-Dexbrompheniramine / Dextromethorphan / Phenylephrine
-
-    </td>
+Dexbrompheniramine / Dextromethorphan / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1426
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1426    </td>
   </tr>
   <tr>
     <td>
-Dexbrompheniramine / Pseudoephedrine
-
-    </td>
+Dexbrompheniramine / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1430
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1430    </td>
   </tr>
   <tr>
     <td>
-Dexbrompheniramine Maleate / Pseudoephedrine Hydrochloride
-
-    </td>
+Dexbrompheniramine Maleate / Pseudoephedrine Hydrochloride    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1429
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1429    </td>
   </tr>
   <tr>
     <td>
-Dexbrompheniramine
-
-    </td>
+Dexbrompheniramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1375
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1375    </td>
   </tr>
   <tr>
     <td>
-Dexchlorpheniramine / Dextromethorphan / Pseudoephedrine
-
-    </td>
+Dexchlorpheniramine / Dextromethorphan / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1300
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1300    </td>
   </tr>
   <tr>
     <td>
-Dexchlorpheniramine / Pseudoephedrine
-
-    </td>
+Dexchlorpheniramine / Pseudoephedrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1425
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1425    </td>
   </tr>
   <tr>
     <td>
-Dextromethorphan / Diphenhydramine / Phenylephrine
-
-    </td>
+Dextromethorphan / Diphenhydramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1397
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1397    </td>
   </tr>
   <tr>
     <td>
-Dextromethorphan / Doxylamine
-
-    </td>
+Dextromethorphan / Doxylamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1452
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1452    </td>
   </tr>
   <tr>
     <td>
-Dicyclomine
-
-    </td>
+Dicyclomine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1279
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1279    </td>
   </tr>
   <tr>
     <td>
-Dienogest / Estradiol Multiphasic
-
-    </td>
+Dienogest / Estradiol Multiphasic    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1398
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1398    </td>
   </tr>
   <tr>
     <td>
-Dimenhydrinate
-
-    </td>
+Dimenhydrinate    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1500
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1500    </td>
   </tr>
   <tr>
     <td>
-Diphenhydramine / Ibuprofen
-
-    </td>
+Diphenhydramine / Ibuprofen    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1293
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1293    </td>
   </tr>
   <tr>
     <td>
-Diphenhydramine / Phenylephrine
-
-    </td>
+Diphenhydramine / Phenylephrine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1307
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1307    </td>
   </tr>
   <tr>
     <td>
-Diphenhydramine Hydrochloride
-
-    </td>
+Diphenhydramine Hydrochloride    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1371
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1371    </td>
   </tr>
   <tr>
     <td>
-Dipyridamole
-
-    </td>
+Dipyridamole    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1349
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1349    </td>
   </tr>
   <tr>
     <td>
-Disopyramide
-
-    </td>
+Disopyramide    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1311
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1311    </td>
   </tr>
   <tr>
     <td>
-Drospirenone / Estradiol
-
-    </td>
+Drospirenone / Estradiol    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1410
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1410    </td>
   </tr>
   <tr>
     <td>
-Esterified Estrogens / Methyltestosterone
-
-    </td>
+Esterified Estrogens / Methyltestosterone    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1320
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1320    </td>
   </tr>
   <tr>
     <td>
-Esterified Estrogens
-
-    </td>
+Esterified Estrogens    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1419
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1419    </td>
   </tr>
   <tr>
     <td>
-Estradiol / Norethindrone
-
-    </td>
+Estradiol / Norethindrone    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1323
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1323    </td>
   </tr>
   <tr>
     <td>
-Estradiol
-
-    </td>
+Estradiol    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1365
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1365    </td>
   </tr>
   <tr>
     <td>
-Estropipate
-
-    </td>
+Estropipate    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1319
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1319    </td>
   </tr>
   <tr>
     <td>
-Glyburide / Metformin
-
-    </td>
+Glyburide / Metformin    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1360
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1360    </td>
   </tr>
   <tr>
     <td>
-Glyburide
-
-    </td>
+Glyburide    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1368
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1368    </td>
   </tr>
   <tr>
     <td>
-Guanfacine
-
-    </td>
+Guanfacine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1341
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1341    </td>
   </tr>
   <tr>
     <td>
-High Risk Medications for the Elderly
-
-    </td>
+High Risk Medications for the Elderly    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1253
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1253    </td>
   </tr>
   <tr>
     <td>
-High-Risk Medications With Days Supply Criteria
-
-    </td>
+High-Risk Medications With Days Supply Criteria    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1254
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1254    </td>
   </tr>
   <tr>
     <td>
-Hydrochlorothiazide / Methyldopa
-
-    </td>
+Hydrochlorothiazide / Methyldopa    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1414
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1414    </td>
   </tr>
   <tr>
     <td>
-Hydroxyzine
-
-    </td>
+Hydroxyzine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1374
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1374    </td>
   </tr>
   <tr>
     <td>
-Hyoscyamine / Methenamine / Mblue / Phenyl Salicyl / Sodium Biphosphate
-
-    </td>
+Hyoscyamine / Methenamine / Mblue / Phenyl Salicyl / Sodium Biphosphate    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1504
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1504    </td>
   </tr>
   <tr>
     <td>
-Hyoscyamine / Methenamine / Mblue / Phenyl Salicyl
-
-    </td>
+Hyoscyamine / Methenamine / Mblue / Phenyl Salicyl    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1503
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1503    </td>
   </tr>
   <tr>
     <td>
-Hyoscyamine / Methenamine / Mblue / Sodium Biphosphate
-
-    </td>
+Hyoscyamine / Methenamine / Mblue / Sodium Biphosphate    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1505
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1505    </td>
   </tr>
   <tr>
     <td>
-Hyoscyamine
-
-    </td>
+Hyoscyamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1501
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1501    </td>
   </tr>
   <tr>
     <td>
-Imipramine
-
-    </td>
+Imipramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1359
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1359    </td>
   </tr>
   <tr>
     <td>
-Indomethacin
-
-    </td>
+Indomethacin    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1366
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1366    </td>
   </tr>
   <tr>
     <td>
-Isoxsuprine
-
-    </td>
+Isoxsuprine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1422
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1422    </td>
   </tr>
   <tr>
     <td>
-Ketorolac Tromethamine
-
-    </td>
+Ketorolac Tromethamine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1364
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1364    </td>
   </tr>
   <tr>
     <td>
-List of Single RxNorm Code Concepts for High Risk Drugs for the Elderly
-
-    </td>
+List of Single RxNorm Code Concepts for High Risk Drugs for the Elderly    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1272
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1272    </td>
   </tr>
   <tr>
     <td>
-Meclizine
-
-    </td>
+Meclizine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1506
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1506    </td>
   </tr>
   <tr>
     <td>
-Megestrol
-
-    </td>
+Megestrol    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1342
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1342    </td>
   </tr>
   <tr>
     <td>
-Meperidine
-
-    </td>
+Meperidine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1351
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1351    </td>
   </tr>
   <tr>
     <td>
-Meprobamate
-
-    </td>
+Meprobamate    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1284
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1284    </td>
   </tr>
   <tr>
     <td>
-Metaxalone
-
-    </td>
+Metaxalone    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1358
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1358    </td>
   </tr>
   <tr>
     <td>
-Methocarbamol
-
-    </td>
+Methocarbamol    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1370
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1370    </td>
   </tr>
   <tr>
     <td>
-Methyldopa
-
-    </td>
+Methyldopa    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1331
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1331    </td>
   </tr>
   <tr>
     <td>
-Nifedipine
-
-    </td>
+Nifedipine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1353
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1353    </td>
   </tr>
   <tr>
     <td>
-Nonbenzodiazepine hypnotics
-
-    </td>
+Nonbenzodiazepine hypnotics    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1480
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1480    </td>
   </tr>
   <tr>
     <td>
-Nortriptyline
-
-    </td>
+Nortriptyline    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1507
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1507    </td>
   </tr>
   <tr>
     <td>
-Paroxetine
-
-    </td>
+Paroxetine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1508
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1508    </td>
   </tr>
   <tr>
     <td>
-Phenobarbital
-
-    </td>
+Phenobarbital    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1348
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1348    </td>
   </tr>
   <tr>
     <td>
-Promethazine Hydrochloride
-
-    </td>
+Promethazine Hydrochloride    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1367
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1367    </td>
   </tr>
   <tr>
     <td>
-Protriptyline
-
-    </td>
+Protriptyline    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1509
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1509    </td>
   </tr>
   <tr>
     <td>
-Pseudoephedrine / Triprolidine
-
-    </td>
+Pseudoephedrine / Triprolidine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1345
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1345    </td>
   </tr>
   <tr>
     <td>
-Trihexyphenidyl
-
-    </td>
+Trihexyphenidyl    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1334
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1334    </td>
   </tr>
   <tr>
     <td>
-Trimipramine
-
-    </td>
+Trimipramine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1285
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1285    </td>
   </tr>
   <tr>
     <td>
-Triprolidine
-
-    </td>
+Triprolidine    </td>
     <td>
-2.16.840.1.113883.3.464.1003.196.12.1408
-
-    </td>
+2.16.840.1.113883.3.464.1003.196.12.1408    </td>
   </tr>
 </table>
 
@@ -1316,33 +820,21 @@ Triprolidine
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order: Hospice care ambulatory
-
-    </td>
+Intervention, Order: Hospice care ambulatory    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
   <tr>
     <td>
-Intervention, Performed: Hospice care ambulatory
-
-    </td>
+Intervention, Performed: Hospice care ambulatory    </td>
     <td>
-2.16.840.1.113762.1.4.1108.15
-
-    </td>
+2.16.840.1.113762.1.4.1108.15    </td>
   </tr>
 </table>
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 25
 id: 1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc
 source: https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc
+menu:
+    main:
+        name: "Observation Codes CSV API"
+        identifier: "1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4900
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create observation codes using the Observation Codes CSV API.
 
@@ -17,7 +23,7 @@ The abstract that follows should be presented to decision-makers or stakeholders
 
 The Observation Codes CSV API imports the details that comprise how observations are classified in the system.
 
-CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](https://docs.google.com/document/d/1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](data-import-overview.html) page for a more detailed explanation of terminology.
 
 #### Screenshots
 
@@ -95,4 +101,4 @@ Example using sample data is provided on [Example tab in the specification.](ht
 
 ## Related Pages
 
-* [Data Import Master List](https://docs.google.com/document/d/12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.html)

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 47
 id: 199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo
 source: https://drive.google.com/open?id=199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo
+menu:
+    main:
+        name: "Encounters"
+        identifier: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+        parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
+        weight: 1290
 ---
 
 
@@ -36,7 +42,7 @@ We have worked around the clock to rapidly add telehealth capability to the {{%s
 
 ## 
 
-[Dictation & Transcription](https://docs.google.com/document/d/1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY):
+[Dictation & Transcription](encounters/dictation-and-transcription.html):
 
 {{% system-name %}} has seamlessly integrated dictation into the workflow to provide the clinician a variety of input methods. As important as dictation is to the daily workflow of the physician, it is equally important to have a streamlined process to have those dictation files converted to text. {{% system-name %}} also includes a robust transcription module for this reason.
 
@@ -52,7 +58,7 @@ We have worked around the clock to rapidly add telehealth capability to the {{%s
 
 ## 
 
-[Injury Care](https://docs.google.com/document/d/111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY):
+[Injury Care](injury-care.html):
 
 {{% system-name %}} can be used for treating, documenting, managing, *and* reporting injuries and illnesses, which can be initiated from a visit to the clinic, or in advance, via an employee portal. This allows incidents to be reported anytime, day or night. And regardless of how the information is captured, {{% system-name %}} can compile the recorded data into form overlays, minimizing the need for redundant data entry, while also easing reporting burdens.
 
@@ -63,7 +69,7 @@ We have worked around the clock to rapidly add telehealth capability to the {{%s
 
 ## 
 
-[Work-Related Exams](https://docs.google.com/document/d/15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg):
+[Work-Related Exams](encounters/work-related-exams.html):
 
 {{% system-name %}} offers various work-related encounters, which help with managing applicants and pre-placements, as well as examining and documenting fitness, wellness, and one's certification.
 

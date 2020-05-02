@@ -46,273 +46,165 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.600.263
-
-    </td>
+2.16.840.1.113883.3.600.263    </td>
   </tr>
   <tr>
     <td>
-Diagnostic Study, Not Ordered
-
-    </td>
+Diagnostic Study, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.2448
-
-    </td>
+2.16.840.1.113883.3.600.2448    </td>
   </tr>
   <tr>
     <td>
-Diagnostic Study, Order
-
-    </td>
+Diagnostic Study, Order    </td>
     <td>
-2.16.840.1.113883.3.600.2448
-
-    </td>
+2.16.840.1.113883.3.600.2448    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.600.1920
-
-    </td>
+2.16.840.1.113883.3.600.1920    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1515
-
-    </td>
+2.16.840.1.113883.3.600.1515    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1508
-
-    </td>
+2.16.840.1.113883.3.600.1508    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.823
-
-    </td>
+2.16.840.1.113883.3.600.823    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1518
-
-    </td>
+2.16.840.1.113883.3.600.1518    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1475
-
-    </td>
+2.16.840.1.113883.3.600.1475    </td>
   </tr>
   <tr>
     <td>
-Intervention, Not Ordered
-
-    </td>
+Intervention, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1510
-
-    </td>
+2.16.840.1.113883.3.600.1510    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1515
-
-    </td>
+2.16.840.1.113883.3.600.1515    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1537
-
-    </td>
+2.16.840.1.113883.3.600.1537    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1474
-
-    </td>
+2.16.840.1.113883.3.600.1474    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1508
-
-    </td>
+2.16.840.1.113883.3.600.1508    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.823
-
-    </td>
+2.16.840.1.113883.3.600.823    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1518
-
-    </td>
+2.16.840.1.113883.3.600.1518    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1475
-
-    </td>
+2.16.840.1.113883.3.600.1475    </td>
   </tr>
   <tr>
     <td>
-Intervention, Order
-
-    </td>
+Intervention, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1510
-
-    </td>
+2.16.840.1.113883.3.600.1510    </td>
   </tr>
   <tr>
     <td>
-Laboratory Test, Not Ordered
-
-    </td>
+Laboratory Test, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1482
-
-    </td>
+2.16.840.1.113883.3.600.1482    </td>
   </tr>
   <tr>
     <td>
-Laboratory Test, Order
-
-    </td>
+Laboratory Test, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1482
-
-    </td>
+2.16.840.1.113883.3.600.1482    </td>
   </tr>
   <tr>
     <td>
-Medication, Not Ordered
-
-    </td>
+Medication, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.600.1476
-
-    </td>
+2.16.840.1.113883.3.600.1476    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.600.1476
-
-    </td>
+2.16.840.1.113883.3.600.1476    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
 </table>
 

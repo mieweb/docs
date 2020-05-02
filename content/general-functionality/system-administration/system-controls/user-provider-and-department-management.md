@@ -6,6 +6,12 @@ author: Alan Quandt
 version: 75
 id: 1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk
 source: https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk
+menu:
+    main:
+        name: "User/Provider & Department Management"
+        identifier: "1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk"
+        parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
+        weight: 4420
 ---
 With the proper security permissions, adding, editing, and removing users can be easily managed from within the  {{% system-name %}} solution's Access Control editor. Following is a detailed outline of the processes of managing users, providers, referring physicians, and departments. There are varying types of user access to consider, in addition to methods by which users can be added to the  {{% system-name %}} solution. Therefore, consider the organization's needs and follow the guided workflows, below, as appropriate.
 

@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 24
 id: 1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU
 source: https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU
+menu:
+    main:
+        name: "Create Vital Signs File for Import"
+        identifier: "1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4780
 ---
 This document explains how to import historical vital signs for employees into {{% system-name %}} .
 
@@ -24,315 +30,191 @@ What you will need:
 <table>
   <tr>
     <td>
-**Field Name**
-
-    </td>
+**Field Name**    </td>
     <td>
-**Description**
-
-    </td>
+**Description**    </td>
     <td>
-**Requirement**
-
-    </td>
+**Requirement**    </td>
     <td>
-Data File Header
-
-    </td>
+Data File Header    </td>
   </tr>
   <tr>
     <td>
-Employee ID
-
-    </td>
+Employee ID    </td>
     <td>
-Employee Identifier. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.
-
-    </td>
+Employee Identifier. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.    </td>
     <td>
-**Required**
-
-    </td>
+**Required**    </td>
     <td>
-patients.id
-
-    </td>
+patients.id    </td>
   </tr>
   <tr>
     <td>
-Test Datetime
-
-    </td>
+Test Datetime    </td>
     <td>
-Datetime vital signs were recorded. Must be in YYYY-MM-DD HH:MM:SS format.
-
-    </td>
+Datetime vital signs were recorded. Must be in YYYY-MM-DD HH:MM:SS format.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.*.observed_datetime
-
-    </td>
+@obs.*.observed_datetime    </td>
   </tr>
   <tr>
     <td>
-Temperature
-
-    </td>
+Temperature    </td>
     <td>
-Degree of hotness or coldness of the body. Provide a numeric value (e.g., 98.6 or 101).
-
-    </td>
+Degree of hotness or coldness of the body. Provide a numeric value (e.g., 98.6 or 101).    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.BODY TEMPERATURE.obs_result
-
-    </td>
+@obs.BODY TEMPERATURE.obs_result    </td>
   </tr>
   <tr>
     <td>
-Temperature Units
-
-    </td>
+Temperature Units    </td>
     <td>
 Default units are determined by the Preferred Unit System user setting, or they can be overridden. Choices are:
 
     * **F** = Fahrenheit
-    * **C** = Celsius
-    </td>
+    * **C** = Celsius    </td>
     <td>
-Optional
-
-    </td>
+Optional    </td>
     <td>
-@obs.BODY TEMPERATURE.obs_units
-
-    </td>
+@obs.BODY TEMPERATURE.obs_units    </td>
   </tr>
   <tr>
     <td>
-Height
-
-    </td>
+Height    </td>
     <td>
-Measurement from head to foot of a standing person. Provide a numeric value (e.g., 72).
-
-    </td>
+Measurement from head to foot of a standing person. Provide a numeric value (e.g., 72).    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.BODY HEIGHT.obs_result
-
-    </td>
+@obs.BODY HEIGHT.obs_result    </td>
   </tr>
   <tr>
     <td>
-Height Units
-
-    </td>
+Height Units    </td>
     <td>
 Default units are determined by the Preferred Unite System user setting, or they can be overridden. Choices are:
 
     * **in** = Inches
-    * **cm** = Centimeters
-    </td>
+    * **cm** = Centimeters    </td>
     <td>
-Optional
-
-    </td>
+Optional    </td>
     <td>
-@obs.BODY HEIGHT.obs_units
-
-    </td>
+@obs.BODY HEIGHT.obs_units    </td>
   </tr>
   <tr>
     <td>
-Weight
-
-    </td>
+Weight    </td>
     <td>
-The heaviness of a person. Provide a numeric value (e.g., 150).
-
-    </td>
+The heaviness of a person. Provide a numeric value (e.g., 150).    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.BODY WEIGHT.obs_result
-
-    </td>
+@obs.BODY WEIGHT.obs_result    </td>
   </tr>
   <tr>
     <td>
-Weight Units
-
-    </td>
+Weight Units    </td>
     <td>
 Default units are determined by the Preferred Unite System user setting, or they can be overridden. Choices are:
 
     * **lbs** = Pounds
-    * **kg** = Kilograms
-    </td>
+    * **kg** = Kilograms    </td>
     <td>
-Optional
-
-    </td>
+Optional    </td>
     <td>
-@obs.BODY HEIGHT.obs_units
-
-    </td>
+@obs.BODY HEIGHT.obs_units    </td>
   </tr>
   <tr>
     <td>
-BMI
-
-    </td>
+BMI    </td>
     <td>
 Provide a numeric value for Body Mass Index (e.g., 22.45). 
 
 {{% warning %}} This is not automatically calculated during an import. {{% /warning %}}
-
-
     </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.BMI.obs_result
-
-    </td>
+@obs.BMI.obs_result    </td>
   </tr>
   <tr>
     <td>
-Systolic BP
-
-    </td>
+Systolic BP    </td>
     <td>
-Supply a numeric value for Systolic Blood Pressure.
-
-    </td>
+Supply a numeric value for Systolic Blood Pressure.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.Systolic BP.obs_result
-
-    </td>
+@obs.Systolic BP.obs_result    </td>
   </tr>
   <tr>
     <td>
-Diastolic BP
-
-    </td>
+Diastolic BP    </td>
     <td>
-Supply a numeric value for Diastolic Blood Pressure.
-
-    </td>
+Supply a numeric value for Diastolic Blood Pressure.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.Diastolic BP.obs_result
-
-    </td>
+@obs.Diastolic BP.obs_result    </td>
   </tr>
   <tr>
     <td>
-BP Site
-
-    </td>
+BP Site    </td>
     <td>
 Body part from which blood pressure was taken. Valid choices are:
 
     * Left Arm
     * Right Arm
     * Left Leg
-    * Right Leg
-    </td>
+    * Right Leg    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.BP Site.obs_result
-
-    </td>
+@obs.BP Site.obs_result    </td>
   </tr>
   <tr>
     <td>
-Position
-
-    </td>
+Position    </td>
     <td>
 The position of the patient when the BP was collected. Valid choices are:
 
     * Sitting
     * Standing
-    * Supine
-    </td>
+    * Supine    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.Position.obs_result
-
-    </td>
+@obs.Position.obs_result    </td>
   </tr>
   <tr>
     <td>
-Heart Rate
-
-    </td>
+Heart Rate    </td>
     <td>
-Provide a numeric value for Heart Rate as beats per minute (bpm).
-
-    </td>
+Provide a numeric value for Heart Rate as beats per minute (bpm).    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.HEART RATE.obs_result
-
-    </td>
+@obs.HEART RATE.obs_result    </td>
   </tr>
   <tr>
     <td>
-Pulse Regularity
-
-    </td>
+Pulse Regularity    </td>
     <td>
 Pulse regularity choices:
 
     * Regular
-    * Irregular
-    </td>
+    * Irregular    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.Pulse Regularity.obs_result
-
-    </td>
+@obs.Pulse Regularity.obs_result    </td>
   </tr>
   <tr>
     <td>
-Pulse Site
-
-    </td>
+Pulse Site    </td>
     <td>
 Location where pulse was taken. Valid choices are:
 
@@ -341,61 +223,38 @@ Location where pulse was taken. Valid choices are:
     * Brachial
     * Carotid
     * Femoral
-    * Pedal
-    </td>
+    * Pedal    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.Pulse Site.obs_result
-
-    </td>
+@obs.Pulse Site.obs_result    </td>
   </tr>
   <tr>
     <td>
-O2 Saturation
-
-    </td>
+O2 Saturation    </td>
     <td>
 Provide a numeric value for Oxygen Saturation percentage (e.g., 96 or 98.5). 
 
 {{% note %}} Do not provide the percentage sign (%). {{% /note %}}
-
-
     </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.O2 Saturation.obs_result
-
-    </td>
+@obs.O2 Saturation.obs_result    </td>
   </tr>
   <tr>
     <td>
-Respiration Rate
-
-    </td>
+Respiration Rate    </td>
     <td>
-Provide a numeric value for Respiration Rate as breaths per minute.
-
-    </td>
+Provide a numeric value for Respiration Rate as breaths per minute.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.RESPIRATION RATE.obs_result
-
-    </td>
+@obs.RESPIRATION RATE.obs_result    </td>
   </tr>
   <tr>
     <td>
-Exertion
-
-    </td>
+Exertion    </td>
     <td>
 Specific exertion, as it relates to the respiration rate. Valid choices are:
 
@@ -404,34 +263,21 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
     * 1 minute after exertion
     * 2 minute after exertion
     * 3 minute after exertion
-    * Sleeping
-    </td>
+    * Sleeping    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.Exertion.obs_result
-
-    </td>
+@obs.Exertion.obs_result    </td>
   </tr>
   <tr>
     <td>
-Pain Severity
-
-    </td>
+Pain Severity    </td>
     <td>
-Provide a whole number from 0-10. 0 is no pain, and 10 is extreme pain.
-
-    </td>
+Provide a whole number from 0-10. 0 is no pain, and 10 is extreme pain.    </td>
     <td>
-Best Practice
-
-    </td>
+Best Practice    </td>
     <td>
-@obs.Pain Severity.obs_result
-
-    </td>
+@obs.Pain Severity.obs_result    </td>
   </tr>
 </table>
 

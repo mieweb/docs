@@ -44,283 +44,171 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 <table>
   <tr>
     <td>
-Name
-
-    </td>
+Name    </td>
     <td>
-Value Set
-
-    </td>
+Value Set    </td>
   </tr>
   <tr>
     <td>
-Allergy/Intolerance
-
-    </td>
+Allergy/Intolerance    </td>
     <td>
-2.16.840.1.113883.3.526.3.1493
-
-    </td>
+2.16.840.1.113883.3.526.3.1493    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1177
-
-    </td>
+2.16.840.1.113883.3.526.3.1177    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.366
-
-    </td>
+2.16.840.1.113883.3.526.3.366    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.362
-
-    </td>
+2.16.840.1.113883.3.526.3.362    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.367
-
-    </td>
+2.16.840.1.113883.3.526.3.367    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.412
-
-    </td>
+2.16.840.1.113883.3.526.3.412    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.368
-
-    </td>
+2.16.840.1.113883.3.526.3.368    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.376
-
-    </td>
+2.16.840.1.113883.3.526.3.376    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.370
-
-    </td>
+2.16.840.1.113883.3.526.3.370    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1178
-
-    </td>
+2.16.840.1.113883.3.526.3.1178    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1091
-
-    </td>
+2.16.840.1.113883.3.526.3.1091    </td>
   </tr>
   <tr>
     <td>
-Diagnosis
-
-    </td>
+Diagnosis    </td>
     <td>
-2.16.840.1.113883.3.526.3.1090
-
-    </td>
+2.16.840.1.113883.3.526.3.1090    </td>
   </tr>
   <tr>
     <td>
-Diagnostic Study, Performed
-
-    </td>
+Diagnostic Study, Performed    </td>
     <td>
-2.16.840.1.113883.3.526.3.1134
-
-    </td>
+2.16.840.1.113883.3.526.3.1134    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1014
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1014    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1007
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1007    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1016
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1016    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1012
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1012    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1001
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1001    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.464.1003.101.12.1008
-
-    </td>
+2.16.840.1.113883.3.464.1003.101.12.1008    </td>
   </tr>
   <tr>
     <td>
-Encounter, Performed
-
-    </td>
+Encounter, Performed    </td>
     <td>
-2.16.840.1.113883.3.526.3.1012
-
-    </td>
+2.16.840.1.113883.3.526.3.1012    </td>
   </tr>
   <tr>
     <td>
-Medication, Active
-
-    </td>
+Medication, Active    </td>
     <td>
-2.16.840.1.113883.3.526.3.1184
-
-    </td>
+2.16.840.1.113883.3.526.3.1184    </td>
   </tr>
   <tr>
     <td>
-Medication, Not Ordered
-
-    </td>
+Medication, Not Ordered    </td>
     <td>
-2.16.840.1.113883.3.526.3.1184
-
-    </td>
+2.16.840.1.113883.3.526.3.1184    </td>
   </tr>
   <tr>
     <td>
-Medication, Order
-
-    </td>
+Medication, Order    </td>
     <td>
-2.16.840.1.113883.3.526.3.1184
-
-    </td>
+2.16.840.1.113883.3.526.3.1184    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Ethnicity
-
-    </td>
+Patient Characteristic Ethnicity    </td>
     <td>
-2.16.840.1.114222.4.11.837
-
-    </td>
+2.16.840.1.114222.4.11.837    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Payer
-
-    </td>
+Patient Characteristic Payer    </td>
     <td>
-2.16.840.1.114222.4.11.3591
-
-    </td>
+2.16.840.1.114222.4.11.3591    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Race
-
-    </td>
+Patient Characteristic Race    </td>
     <td>
-2.16.840.1.114222.4.11.836
-
-    </td>
+2.16.840.1.114222.4.11.836    </td>
   </tr>
   <tr>
     <td>
-Patient Characteristic Sex
-
-    </td>
+Patient Characteristic Sex    </td>
     <td>
-2.16.840.1.113762.1.4.1
-
-    </td>
+2.16.840.1.113762.1.4.1    </td>
   </tr>
 </table>
 

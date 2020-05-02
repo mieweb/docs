@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 26
 id: 1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI
 source: https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI
+menu:
+    main:
+        name: "Completed Orders Import Tool"
+        identifier: "1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI"
+        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
+        weight: 4730
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create completed order records using the Completed Orders CSV API.
 
@@ -23,7 +29,7 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * A <strong>panel</strong> is a group of one-time or recurring testing items to performed for a person.
 * An <strong>order</strong> is a specific procedure that has been completed for a patient, such as an EKG.
 
-CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the system. See the [Import Overview](https://docs.google.com/document/d/1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the system. See the [Import Overview](data-import-overview.html) page for a more detailed explanation of terminology.
 
 ## Workflow Considerations
 
@@ -104,7 +110,7 @@ Example file with multiple order_id columns for four patients. Two of the patien
 
 ## Related Pages
 
-* [Data Import Master List](https://docs.google.com/document/d/12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.html)
 
 
 

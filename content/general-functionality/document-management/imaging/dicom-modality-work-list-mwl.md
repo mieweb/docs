@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 32
 id: 1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs
 source: https://drive.google.com/open?id=1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs
+menu:
+    main:
+        name: "DICOM Modality Work List (MWL)"
+        identifier: "1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs"
+        parent: "1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U"
+        weight: 850
 ---
 In most cases, once MWL is installed and configured on the base system, configuring MWL for a DICOM entity is as simple as checking a box.
 

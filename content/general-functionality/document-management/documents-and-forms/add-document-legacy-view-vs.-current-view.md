@@ -6,6 +6,12 @@ author: Jeremia Ploor
 version: 40
 id: 1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc
 source: https://drive.google.com/open?id=1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc
+menu:
+    main:
+        name: "Add Document - Legacy View vs. Current View"
+        identifier: "1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc"
+        parent: "1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI"
+        weight: 380
 ---
 When navigating to the **Add Document** library, it's important to note the optional views. These views are determined by the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) Add Document Screen* *preference. By default, the setting is **Current**, though users may choose to set the view to **Legacy**, if preferred. Changing this setting will only affect the logged-in user.
 
