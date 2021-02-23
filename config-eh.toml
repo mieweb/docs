@@ -1,8 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://docs-qa.med-web.com/eh"
 languageCode = "en-us"
 title = "Enterprise Health"
 theme = "wc-eh-docs"
-
+publishDir = "public/eh"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 [markup]
@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir= true
 [params]
   editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
   description = "MIEDocs"
-  author = "Alan Quandt"
+  author = "Enterprise Health"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false

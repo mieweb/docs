@@ -1,8 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://docs-qa.med-web.com/wc"
 languageCode = "en-us"
 title = "WebChart"
 theme = "wc-eh-docs"
-
+publishDir = "public/wc"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 [markup]
@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir= true
 [params]
   editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
   description = "MIEDocs"
-  author = "Alan Quandt"
+  author = "WebChart"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -25,3 +25,4 @@ defaultContentLanguageInSubdir= true
   home = [ "HTML", "RSS", "JSON"]
 [markup.goldmark.renderer]
   unsafe= true
+
