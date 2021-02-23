@@ -8,6 +8,12 @@ then
   (which hugo || brew install node hugo)
   # brew update node hugo
 elif [[ "$OSTYPE" == "msys" ]]
+elif [[ "$OSTYPE" == "linux-gnu" ]]
+  if [[ -e apt ]]
+    apt install nodejs hugo hugo-extended
+  else
+    yum install nodejs hugo hugo-extended
+  fi
 then
   choco install -y nodejs hugo hugo-extended
 fi
