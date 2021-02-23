@@ -2,8 +2,7 @@
 title: "Import/Export JSON Files"
 date: 2020-03-17T03:25:07.588Z
 url: "general-functionality/system-administration/data-migration/import-export-json-files.html"
-author: Jeremia Ploor
-version: 27
+version: 33
 id: 13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4
 source: https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4
 menu:
@@ -19,112 +18,67 @@ Users with proper permissions can create JSON files of the following sections/mo
 
 <table>
   <tr>
-    <td>
-Abbreviations    </td>
-    <td>
-Document Types    </td>
-    <td>
-Health Surveillance    </td>
-    <td>
-Observation Flowsheets    </td>
-    <td>
-Scripted Logic & Scripted Rules    </td>
+    <td>Abbreviations</td>
+    <td>Document Types</td>
+    <td>Health Surveillance</td>
+    <td>Observation Flowsheets</td>
+    <td>Scripted Logic & Scripted Rules</td>
   </tr>
   <tr>
-    <td>
-Apt Types    </td>
-    <td>
-Drug Aliases    </td>
-    <td>
-Kits    </td>
-    <td>
-Order List    </td>
-    <td>
-Security Roles    </td>
+    <td>Apt Types</td>
+    <td>Drug Aliases</td>
+    <td>Kits</td>
+    <td>Order List</td>
+    <td>Security Roles</td>
   </tr>
   <tr>
-    <td>
-AutoComplete Fields    </td>
-    <td>
-Drug Indications    </td>
-    <td>
-Language Translations    </td>
-    <td>
-Order Pick List    </td>
-    <td>
-Stations    </td>
+    <td>AutoComplete Fields</td>
+    <td>Drug Indications</td>
+    <td>Language Translations</td>
+    <td>Order Pick List</td>
+    <td>Stations</td>
   </tr>
   <tr>
-    <td>
-Chart Tabs    </td>
-    <td>
-Drug Reactions    </td>
-    <td>
-Layouts    </td>
-    <td>
-Partitions    </td>
-    <td>
-System Files    </td>
+    <td>Chart Tabs</td>
+    <td>Drug Reactions</td>
+    <td>Layouts</td>
+    <td>Partitions</td>
+    <td>System Files</td>
   </tr>
   <tr>
-    <td>
-Chart Types    </td>
-    <td>
-Encounter Exams    </td>
-    <td>
-Libraries    </td>
-    <td>
-Print Definitions    </td>
-    <td>
-System Reports    </td>
+    <td>Chart Types</td>
+    <td>Encounter Exams</td>
+    <td>Libraries</td>
+    <td>Print Definitions</td>
+    <td>System Reports</td>
   </tr>
   <tr>
-    <td>
-Common Scripts    </td>
-    <td>
-Encounter Types    </td>
-    <td>
-Locations    </td>
-    <td>
-Refer to Systems    </td>
-    <td>
-System Settings    </td>
+    <td>Common Scripts</td>
+    <td>Encounter Types</td>
+    <td>Locations</td>
+    <td>Refer to Systems</td>
+    <td>System Settings</td>
   </tr>
   <tr>
-    <td>
-Common Sigs    </td>
-    <td>
-Esign Rules    </td>
-    <td>
-Menu Editor    </td>
-    <td>
-Restriction Types    </td>
-    <td>
-Tasklist Events    </td>
+    <td>Common Sigs</td>
+    <td>Esign Rules</td>
+    <td>Menu Editor</td>
+    <td>Restriction Types</td>
+    <td>Tasklist Events</td>
   </tr>
   <tr>
-    <td>
-Custom Allergies    </td>
-    <td>
-Fast Tasks    </td>
-    <td>
-My Settings    </td>
-    <td>
-Scheduled Jobs    </td>
-    <td>
-Term Replacement    </td>
+    <td>Custom Allergies</td>
+    <td>Fast Tasks</td>
+    <td>My Settings</td>
+    <td>Scheduled Jobs</td>
+    <td>Term Replacement</td>
   </tr>
   <tr>
-    <td>
-Departments    </td>
-    <td>
-Frequencies    </td>
-    <td>
-Observation Codes    </td>
-    <td>
-Schedules    </td>
-    <td>
-User Portlets    </td>
+    <td>Departments</td>
+    <td>Frequencies</td>
+    <td>Observation Codes</td>
+    <td>Schedules</td>
+    <td>User Portlets</td>
   </tr>
 </table>
 

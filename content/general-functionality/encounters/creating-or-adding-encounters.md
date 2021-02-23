@@ -2,8 +2,7 @@
 title: "Creating or Adding Encounters"
 date: 2020-03-13T15:01:30.440Z
 url: "general-functionality/encounters/creating-or-adding-encounters.html"
-author: Jeremia Ploor
-version: 42
+version: 48
 id: 1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY
 source: https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY
 menu:

@@ -2,8 +2,7 @@
 title: "Introducing TeleHealth"
 date: 2020-03-31T16:54:54.418Z
 url: "general-functionality/encounters/telehealth/introducing-telehealth.html"
-author: Jeremia Ploor
-version: 47
+version: 59
 id: 1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4
 source: https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4
 ---
@@ -22,76 +21,46 @@ source: https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvy
 
 <table>
   <tr>
-    <td>
-    </td>
-    <td>
-**Chrome**    </td>
-    <td>
-**Firefox**    </td>
-    <td>
-**Safari******    </td>
-    <td>
-**Edge (ORTC*** & Chromium)****    </td>
+    <td></td>
+    <td>**Chrome**</td>
+    <td>**Firefox**</td>
+    <td>**Safari******</td>
+    <td>**Edge (ORTC*** & Chromium)****</td>
   </tr>
   <tr>
-    <td>
-**Android KitKat+**    </td>
-    <td>
-✓    </td>
-    <td>
-✓    </td>
-    <td>
--    </td>
-    <td>
--    </td>
+    <td>**Android KitKat+**</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td>
-**iOS 11+**    </td>
-    <td>
-*    </td>
-    <td>
-*    </td>
-    <td>
-✓    </td>
-    <td>
--    </td>
+    <td>**iOS 11+**</td>
+    <td>*</td>
+    <td>*</td>
+    <td>✓</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td>
-**Linux**    </td>
-    <td>
-✓    </td>
-    <td>
-✓    </td>
-    <td>
--    </td>
-    <td>
--    </td>
+    <td>**Linux**</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td>
-**macOS**    </td>
-    <td>
-✓    </td>
-    <td>
-✓    </td>
-    <td>
-✓    </td>
-    <td>
--    </td>
+    <td>**macOS**</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td>
-**Windows**    </td>
-    <td>
-✓    </td>
-    <td>
-✓    </td>
-    <td>
--    </td>
-    <td>
-✓    </td>
+    <td>**Windows**</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>-</td>
+    <td>✓</td>
   </tr>
 </table>
 

@@ -2,8 +2,8 @@
 title: "Restrictions CSV API"
 date: 2020-02-27T21:32:12.910Z
 url: "general-functionality/system-administration/data-migration/restrictions-csv-api.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU
 source: https://drive.google.com/open?id=1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU
 menu:

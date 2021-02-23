@@ -2,8 +2,7 @@
 title: "Audio-Vision Data Entry"
 date: 2020-03-06T20:09:17.824Z
 url: "general-functionality/document-management/documents-and-forms/audio-vision-data-entry.html"
-author: Jeremia Ploor
-version: 34
+version: 40
 id: 1_7hqvXyUU3mbM8rCJ8GvthD6asStMJ5d9pbZkBQv4FM
 source: https://drive.google.com/open?id=1_7hqvXyUU3mbM8rCJ8GvthD6asStMJ5d9pbZkBQv4FM
 menu:

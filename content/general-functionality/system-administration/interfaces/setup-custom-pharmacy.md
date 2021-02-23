@@ -2,7 +2,7 @@
 title: "Setup Custom Pharmacy"
 date: 2020-02-27T20:29:02.852Z
 url: "general-functionality/system-administration/interfaces/setup-custom-pharmacy.html"
-version: 10
+version: 15
 id: 1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4
 source: https://drive.google.com/open?id=1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4
 menu:

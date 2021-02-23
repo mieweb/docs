@@ -2,8 +2,7 @@
 title: "Panel Action Evaluator"
 date: 2020-03-13T15:20:58.197Z
 url: "general-functionality/health-surveillance/panel-action-evaluator.html"
-author: Jeremia Ploor
-version: 35
+version: 41
 id: 1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g
 source: https://drive.google.com/open?id=1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g
 menu:

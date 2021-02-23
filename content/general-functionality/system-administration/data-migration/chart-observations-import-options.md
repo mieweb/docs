@@ -2,8 +2,8 @@
 title: "Chart Observations Import Options"
 date: 2020-02-27T21:31:09.639Z
 url: "general-functionality/system-administration/data-migration/chart-observations-import-options.html"
-author: Alan Quandt
-version: 21
+author: aquandt
+version: 26
 id: 179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A
 source: https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A
 menu:

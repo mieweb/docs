@@ -2,8 +2,8 @@
 title: "Review Session - Tasking"
 date: 2020-02-27T21:25:50.587Z
 url: "rapid-deployment/review-sessions/review-session-tasking.html"
-author: Alan Quandt
-version: 13
+author: aquandt
+version: 18
 id: 1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA
 source: https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA
 menu:

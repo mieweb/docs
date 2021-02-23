@@ -2,8 +2,7 @@
 title: "Sketch Documents"
 date: 2020-03-23T16:46:51.864Z
 url: "general-functionality/document-management/documents-and-forms/sketch-documents.html"
-author: Jeremia Ploor
-version: 51
+version: 60
 id: 1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM
 source: https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM
 menu:

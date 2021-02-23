@@ -2,8 +2,8 @@
 title: "CMS 125 - Breast Cancer Screening"
 date: 2020-02-27T21:30:06.501Z
 url: "general-functionality/quality-of-care/measures/quality-measures-list/cms-125-breast-cancer-screening.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk
 source: https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk
 menu:
@@ -56,40 +56,28 @@ Use the Past Procedures section of the encounter to record a previous mammogram,
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Value Set    </td>
+    <td>Name</td>
+    <td>Value Set</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed: Annual Wellness Visit    </td>
-    <td>
-2.16.840.1.113883.3.526.3.1240    </td>
+    <td>Encounter, Performed: Annual Wellness Visit</td>
+    <td>2.16.840.1.113883.3.526.3.1240</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed: Home Healthcare Services    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1016    </td>
+    <td>Encounter, Performed: Home Healthcare Services</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1016</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed: Office Visit    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1001    </td>
+    <td>Encounter, Performed: Office Visit</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1001</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1025    </td>
+    <td>Encounter, Performed: Preventive Care Services - Established Office Visit, 18 and Up</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1025</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1023    </td>
+    <td>Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1023</td>
   </tr>
 </table>
 
@@ -101,16 +89,12 @@ Equals Initial Population
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Value Set    </td>
+    <td>Name</td>
+    <td>Value Set</td>
   </tr>
   <tr>
-    <td>
-Diagnostic Study, Performed: Mammography    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.108.12.1018    </td>
+    <td>Diagnostic Study, Performed: Mammography</td>
+    <td>2.16.840.1.113883.3.464.1003.108.12.1018</td>
   </tr>
 </table>
 
@@ -118,58 +102,40 @@ Diagnostic Study, Performed: Mammography    </td>
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Value Set    </td>
+    <td>Name</td>
+    <td>Value Set</td>
   </tr>
   <tr>
-    <td>
-Intervention, Order: Hospice care ambulatory    </td>
-    <td>
-2.16.840.1.113762.1.4.1108.15    </td>
+    <td>Intervention, Order: Hospice care ambulatory</td>
+    <td>2.16.840.1.113762.1.4.1108.15</td>
   </tr>
   <tr>
-    <td>
-Intervention, Performed: Hospice care ambulatory    </td>
-    <td>
-2.16.840.1.113762.1.4.1108.15    </td>
+    <td>Intervention, Performed: Hospice care ambulatory</td>
+    <td>2.16.840.1.113762.1.4.1108.15</td>
   </tr>
   <tr>
-    <td>
-Diagnosis: History of bilateral mastectomy    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.198.12.1068    </td>
+    <td>Diagnosis: History of bilateral mastectomy</td>
+    <td>2.16.840.1.113883.3.464.1003.198.12.1068</td>
   </tr>
   <tr>
-    <td>
-Diagnosis: Status Post Left Mastectomy    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.198.12.1069    </td>
+    <td>Diagnosis: Status Post Left Mastectomy</td>
+    <td>2.16.840.1.113883.3.464.1003.198.12.1069</td>
   </tr>
   <tr>
-    <td>
-Diagnosis: Status Post Right Mastectomy    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.198.12.1070    </td>
+    <td>Diagnosis: Status Post Right Mastectomy</td>
+    <td>2.16.840.1.113883.3.464.1003.198.12.1070</td>
   </tr>
   <tr>
-    <td>
-Diagnosis: Unilateral Mastectomy, Unspecified Laterality    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.198.12.1071    </td>
+    <td>Diagnosis: Unilateral Mastectomy, Unspecified Laterality</td>
+    <td>2.16.840.1.113883.3.464.1003.198.12.1071</td>
   </tr>
   <tr>
-    <td>
-Procedure, Performed: Bilateral Mastectomy    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.198.12.1005    </td>
+    <td>Procedure, Performed: Bilateral Mastectomy</td>
+    <td>2.16.840.1.113883.3.464.1003.198.12.1005</td>
   </tr>
   <tr>
-    <td>
-Procedure, Performed: Unilateral Mastectomy    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.198.12.1020    </td>
+    <td>Procedure, Performed: Unilateral Mastectomy</td>
+    <td>2.16.840.1.113883.3.464.1003.198.12.1020</td>
   </tr>
 </table>
 

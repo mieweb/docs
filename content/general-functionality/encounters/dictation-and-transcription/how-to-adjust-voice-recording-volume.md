@@ -2,8 +2,7 @@
 title: "How to Adjust Voice Recording Volume"
 date: 2020-03-25T20:35:56.079Z
 url: "general-functionality/encounters/dictation-and-transcription/how-to-adjust-voice-recording-volume.html"
-author: Jeremia Ploor
-version: 33
+version: 39
 id: 1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk
 source: https://drive.google.com/open?id=1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk
 menu:

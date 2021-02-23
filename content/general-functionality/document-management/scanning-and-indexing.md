@@ -2,7 +2,7 @@
 title: "Scanning & Indexing"
 date: 2020-02-27T19:40:46.468Z
 url: "general-functionality/document-management/scanning-and-indexing.html"
-version: 8
+version: 13
 id: 1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w
 source: https://drive.google.com/open?id=1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w
 menu:

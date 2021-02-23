@@ -2,7 +2,7 @@
 title: "Chart Observations Default Values"
 date: 2020-02-27T21:04:46.860Z
 url: "general-functionality/system-administration/data-migration/chart-observations-default-values.html"
-version: 7
+version: 12
 id: 1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM
 source: https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM
 menu:

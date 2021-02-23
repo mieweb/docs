@@ -2,8 +2,7 @@
 title: "Device Interface - Audio System"
 date: 2020-03-19T19:31:42.080Z
 url: "general-functionality/system-administration/interfaces/device-interface-audio-system.html"
-author: Jeremia Ploor
-version: 43
+version: 49
 id: 1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c
 source: https://drive.google.com/open?id=1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c
 menu:

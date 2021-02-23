@@ -2,8 +2,8 @@
 title: "TechOmni"
 date: 2020-03-10T14:03:53.331Z
 url: "general-functionality/document-management/imaging/techomni.html"
-author: Alan Quandt
-version: 22
+author: aquandt
+version: 27
 id: 1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ
 source: https://drive.google.com/open?id=1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ
 menu:

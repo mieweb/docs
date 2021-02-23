@@ -1,0 +1,12 @@
+---
+title: "Viewing cleared, flagged, or reconciled transactions"
+date: 2021-02-18T19:10:40.416Z
+url: "general-functionality/financial-functionality/viewing-cleared-flagged-or-reconciled-transactions.html"
+author: Edward Grzetich
+version: 14
+id: 1yGFA_7iHZBY2hTo4OadZcZE_EyZmN_6Om4XgLZZPudI
+source: https://drive.google.com/open?id=1yGFA_7iHZBY2hTo4OadZcZE_EyZmN_6Om4XgLZZPudI
+---
+* [Access the ledger](accessing-the-ledger.html).
+* At the upper-right, select <strong>Registry View</strong>. The system displays the registry view.
+* Above the list of transactions, select <strong>the link</strong> of the status of transactions to view. The system displays transactions of that status and hides others.![](../../external_files/645044dbf49c66299db8caf29ce9ec2e.png)

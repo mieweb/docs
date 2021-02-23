@@ -2,8 +2,8 @@
 title: "Security Role Settings"
 date: 2020-03-10T14:14:41.266Z
 url: "general-functionality/system-administration/security/security-role-settings.html"
-author: Alan Quandt
-version: 26
+author: aquandt
+version: 33
 id: 1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM
 source: https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM
 menu:

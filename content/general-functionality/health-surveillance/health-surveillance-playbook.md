@@ -2,8 +2,7 @@
 title: "Health Surveillance Playbook"
 date: 2020-03-13T16:47:14.321Z
 url: "general-functionality/health-surveillance/health-surveillance-playbook.html"
-author: Jeremia Ploor
-version: 149
+version: 155
 id: 1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4
 source: https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4
 menu:
@@ -609,92 +608,59 @@ Over the years {{% system-name %}} has completed many data migrations from OHM. 
 
 <table>
   <tr>
-    <td>
-Module    </td>
-    <td>
-Discrete    </td>
-    <td>
-Summary    </td>
+    <td>Module</td>
+    <td>Discrete</td>
+    <td>Summary</td>
   </tr>
   <tr>
-    <td>
-Employee charts and demographics (OHM table Employee)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Employee charts and demographics (OHM table Employee)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Users and providers (EXAM/USER)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Users and providers (EXAM/USER)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Vitals (VITALS)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Vitals (VITALS)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Health surveillance enrollment and next due dates (EXPHIST)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Health surveillance enrollment and next due dates (EXPHIST)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Audiometric exams (AUDIO)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Audiometric exams (AUDIO)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Pulmonary function tests (PFT)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Pulmonary function tests (PFT)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Laboratory results (LABRESULT/LABPANEL)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Laboratory results (LABRESULT/LABPANEL)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Vaccines and immunizations (IMMUNE)    </td>
-    <td>
-x    </td>
-    <td>
-    </td>
+    <td>Vaccines and immunizations (IMMUNE)</td>
+    <td>x</td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Encounters/Incidents (LOG/ELOG/LOG_MEMO/ELOG_MEMO)    </td>
-    <td>
-    </td>
-    <td>
-x    </td>
+    <td>Encounters/Incidents (LOG/ELOG/LOG_MEMO/ELOG_MEMO)</td>
+    <td></td>
+    <td>x</td>
   </tr>
   <tr>
-    <td>
-Scanned documents    </td>
-    <td>
-    </td>
-    <td>
-x    </td>
+    <td>Scanned documents</td>
+    <td></td>
+    <td>x</td>
   </tr>
 </table>
 

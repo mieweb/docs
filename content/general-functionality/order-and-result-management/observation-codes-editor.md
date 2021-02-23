@@ -2,8 +2,7 @@
 title: "Observation Codes Editor"
 date: 2020-03-13T20:07:29.409Z
 url: "general-functionality/order-and-result-management/observation-codes-editor.html"
-author: Jeremia Ploor
-version: 36
+version: 48
 id: 1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU
 source: https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU
 menu:

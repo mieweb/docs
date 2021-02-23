@@ -2,8 +2,7 @@
 title: "Scheduler Views"
 date: 2020-03-10T17:27:50.430Z
 url: "general-functionality/scheduling/scheduler-views.html"
-author: Jeremia Ploor
-version: 37
+version: 43
 id: 1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I
 source: https://drive.google.com/open?id=1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I
 menu:

@@ -2,8 +2,8 @@
 title: "Rapid Deployment Project Outline"
 date: 2020-02-27T21:24:04.139Z
 url: "rapid-deployment/rapid-deployment-project-outline.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8
 source: https://drive.google.com/open?id=1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8
 menu:
@@ -77,7 +77,7 @@ menu:
         * Add Users
         * [Add Departments](../general-functionality/system-configuration/managing-departments.html)
         * [Prescriber Setup](../general-functionality/system-administration/system-controls/setting-up-e-prescribers.html)
-        * [User/Patient Relationship Setup](../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.html)
+        * [User/Patient Relationship Setup](../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-.html)
     * Chart Configuration
         * [Document Types](../general-functionality/system-configuration/document-type-tab.html)
         * [Chart Types](../general-functionality/system-configuration/chart-types-editor.html)
@@ -90,7 +90,7 @@ menu:
     * Review Session Demonstration
     * Manual Registration - [Demographics](../general-functionality/e-chart/demographics-tab-summary.html)
     * [Chart Photos](../general-functionality/document-management/documents-and-forms/picture-photo-documents.html)
-    * [User Roles/Relationships](../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.html)
+    * [User Roles/Relationships](../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-.html)
     * [Partition Restrictions](../general-functionality/system-administration/system-controls/partition-manager.html)
 * [Document Management](review-sessions/review-session-document-management.html)
     * Review Session Demonstration
@@ -165,12 +165,12 @@ menu:
     * Drug Eligibility/SureScripts Advanced (add-on)
     * Electronic Prescribing Controlled Substances (EPCS) Enrollment (add-on)
     * Update First DataBank Provider List
-    * [Medication Library](../general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.html)
+    * [Medication Library](../general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-libr.html)
     * [Travel Kits](../general-functionality/medication-management-and-e-prescribing/travel-kits.html)
 * [Injection/Immunization Management](review-sessions/review-session-injection-immunization-management.html)
     * Review Session Demonstration
-    * [Injection Descriptions](../general-functionality/injection/immunization-management/injection-editor.html)
-    * [Mass Flu Program Business Rules](../general-functionality/injection/immunization-management/injection-program-tab-recording-mass-injections.html)
+    * [Injection Descriptions](../general-functionality/injection-immunization-management/injection-editor.html)
+    * [Mass Flu Program Business Rules](../general-functionality/injection-immunization-management/injection-program-tab-recording-mass-injecti.html)
 * [Tasking](review-sessions/review-session-tasking.html)
     * Review Session Demonstration
     * [Fast Task Templates](../general-functionality/task-management/fast-task-templates.html)
@@ -181,7 +181,7 @@ menu:
 * [Fax Manager](review-sessions/review-session-fax-manager.html)
     * Review Session Demonstration
     * Load Fax Coversheet(s)
-    * [Inbound Fax Queue](../general-functionality/system-administration/system-controls/inbound-fax-queue-setting-user-access-permissions.html) (add-on)
+    * [Inbound Fax Queue](../general-functionality/system-administration/system-controls/inbound-fax-queue-setting-user-access-pe.html) (add-on)
     * [Outbound Faxing](../general-functionality/fax-manager/fax-manager-tab-outbound-faxing.html)
     * Preferences/Permissions/Security Settings
 * [Reports](review-sessions/review-session-reports.html)
@@ -192,8 +192,8 @@ menu:
     * Pivot Access
 * [System Administrator](review-sessions/review-session-system-administration.html)
     * Review Session Demonstration
-    * [ActiveX Controls](../general-functionality/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.html)
-    * [Document Queue](../general-functionality/system-administration/system-controls/document-queue-merging-imported-documents.html)
+    * [ActiveX Controls](../general-functionality/document-management/scanning-and-indexing/alternatiff-activex-control-for-webs.html)
+    * [Document Queue](../general-functionality/system-administration/system-controls/document-queue-merging-imported-document.html)
     * [Language Translations](../general-functionality/system-administration/system-controls/multilingual-feature.html)
     * Scheduled Jobs
     * [User Preferences](../general-functionality/system-administration/security/my-settings.html)

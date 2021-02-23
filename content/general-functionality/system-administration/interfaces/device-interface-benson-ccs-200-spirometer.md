@@ -2,8 +2,7 @@
 title: "Device Interface - Benson CCS-200 Spirometer"
 date: 2020-03-18T14:49:40.210Z
 url: "general-functionality/system-administration/interfaces/device-interface-benson-ccs-200-spirometer.html"
-author: Jeremia Ploor
-version: 35
+version: 41
 id: 1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw
 source: https://drive.google.com/open?id=1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw
 ---

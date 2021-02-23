@@ -2,8 +2,7 @@
 title: "Adding Non-OSHA Case"
 date: 2020-03-13T13:16:54.123Z
 url: "general-functionality/injury-care/case-management/adding-non-osha-case.html"
-author: Jeremia Ploor
-version: 36
+version: 42
 id: 1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs
 source: https://drive.google.com/open?id=1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs
 menu:

@@ -2,8 +2,7 @@
 title: "Create PFT Data File for Import"
 date: 2020-03-17T02:47:24.604Z
 url: "general-functionality/system-administration/data-migration/create-pft-data-file-for-import.html"
-author: Jeremia Ploor
-version: 24
+version: 30
 id: 16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw
 source: https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw
 menu:
@@ -29,184 +28,112 @@ What you will need:
 
 <table>
   <tr>
-    <td>
-**Field Name**    </td>
-    <td>
-**Description**    </td>
-    <td>
-**Requirement**    </td>
-    <td>
-Data File Column Header    </td>
+    <td>**Field Name**</td>
+    <td>**Description**</td>
+    <td>**Requirement**</td>
+    <td>Data File Column Header</td>
   </tr>
   <tr>
-    <td>
-Employee ID    </td>
-    <td>
-Employee Identifier. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.    </td>
-    <td>
-**Required**    </td>
-    <td>
-documents.pat_id    </td>
+    <td>Employee ID</td>
+    <td>Employee Identifier. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.</td>
+    <td>**Required**</td>
+    <td>documents.pat_id</td>
   </tr>
   <tr>
-    <td>
-External ID    </td>
-    <td>
-This is a unique identifier typically populated by third-party interfaces from which the document originated.    </td>
-    <td>
-**Required**    </td>
-    <td>
-documents.ext_doc_id    </td>
+    <td>External ID</td>
+    <td>This is a unique identifier typically populated by third-party interfaces from which the document originated.</td>
+    <td>**Required**</td>
+    <td>documents.ext_doc_id</td>
   </tr>
   <tr>
-    <td>
-Test Datetime    </td>
-    <td>
-When (datetime) the PFT was performed. Must be formatted as YYYY-MM-DD HH:MM:SS    </td>
-    <td>
-**Required**    </td>
-    <td>
-pft.test_datetime    </td>
+    <td>Test Datetime</td>
+    <td>When (datetime) the PFT was performed. Must be formatted as YYYY-MM-DD HH:MM:SS</td>
+    <td>**Required**</td>
+    <td>pft.test_datetime</td>
   </tr>
   <tr>
-    <td>
-PFT Maneuver Datetime    </td>
-    <td>
-Datetime of PFT maneuver. Must be formatted as YYYY-MM-DD HH:MM:SS    </td>
-    <td>
-**Required**    </td>
-    <td>
-pft_maneuver.meneuver_datetime    </td>
+    <td>PFT Maneuver Datetime</td>
+    <td>Datetime of PFT maneuver. Must be formatted as YYYY-MM-DD HH:MM:SS</td>
+    <td>**Required**</td>
+    <td>pft_maneuver.meneuver_datetime</td>
   </tr>
   <tr>
-    <td>
-FVC    </td>
-    <td>
-Records the forced vital capacity (FVC) , the total volume expelled from lungs. Enter volume in milliliters (mL).    </td>
-    <td>
-**Required**    </td>
-    <td>
-pft_maneuver.fvc    </td>
+    <td>FVC</td>
+    <td>Records the forced vital capacity (FVC) , the total volume expelled from lungs. Enter volume in milliliters (mL).</td>
+    <td>**Required**</td>
+    <td>pft_maneuver.fvc</td>
   </tr>
   <tr>
-    <td>
-FVC Predicted    </td>
-    <td>
-Records the predicted value for FVC. Enter volume in milliliters (mL).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.fvc_predicted    </td>
+    <td>FVC Predicted</td>
+    <td>Records the predicted value for FVC. Enter volume in milliliters (mL).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.fvc_predicted</td>
   </tr>
   <tr>
-    <td>
-FEV1    </td>
-    <td>
-Records the forced expiratory volume (FEV). Enter volume in milliliters (mL).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.fev1    </td>
+    <td>FEV1</td>
+    <td>Records the forced expiratory volume (FEV). Enter volume in milliliters (mL).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.fev1</td>
   </tr>
   <tr>
-    <td>
-FEV1 Predicted    </td>
-    <td>
-Records the predicted value for the FEV for the first second of the test. Enter volume in milliliters (mL).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.fev1_predicted    </td>
+    <td>FEV1 Predicted</td>
+    <td>Records the predicted value for the FEV for the first second of the test. Enter volume in milliliters (mL).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.fev1_predicted</td>
   </tr>
   <tr>
-    <td>
-FEF25%-75%    </td>
-    <td>
-Records the forced expiratory flow (FEF) from 25% to 75% of test, or the middle 50% of test. Enter volume in milliliters (mL).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.fef25_75    </td>
+    <td>FEF25%-75%</td>
+    <td>Records the forced expiratory flow (FEF) from 25% to 75% of test, or the middle 50% of test. Enter volume in milliliters (mL).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.fef25_75</td>
   </tr>
   <tr>
-    <td>
-FEF25%-75% Predicted    </td>
-    <td>
-Records the predicted value for FEF from 25% to 75% of test. Enter volume in milliliters (mL).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.fef25_75_predicted    </td>
+    <td>FEF25%-75% Predicted</td>
+    <td>Records the predicted value for FEF from 25% to 75% of test. Enter volume in milliliters (mL).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.fef25_75_predicted</td>
   </tr>
   <tr>
-    <td>
-FEV1/FVC    </td>
-    <td>
-Records the lower limit of normal for the first second of FEV over the FVC.    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.fev1_fvc    </td>
+    <td>FEV1/FVC</td>
+    <td>Records the lower limit of normal for the first second of FEV over the FVC.</td>
+    <td>Optional</td>
+    <td>pft_maneuver.fev1_fvc</td>
   </tr>
   <tr>
-    <td>
-FEV1/FVC Predicted    </td>
-    <td>
-Records the predicted value for the first second of FEV over the FVC.    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.fev1_fvc_predicted    </td>
+    <td>FEV1/FVC Predicted</td>
+    <td>Records the predicted value for the first second of FEV over the FVC.</td>
+    <td>Optional</td>
+    <td>pft_maneuver.fev1_fvc_predicted</td>
   </tr>
   <tr>
-    <td>
-PEF    </td>
-    <td>
-Records the lower limit of normal for PEF. Enter volume in milliliters (mL).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.pef    </td>
+    <td>PEF</td>
+    <td>Records the lower limit of normal for PEF. Enter volume in milliliters (mL).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.pef</td>
   </tr>
   <tr>
-    <td>
-PEF Predicted    </td>
-    <td>
-Records the predicted value for PEF. Enter volume in milliliters (mL).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.pef_predicted    </td>
+    <td>PEF Predicted</td>
+    <td>Records the predicted value for PEF. Enter volume in milliliters (mL).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.pef_predicted</td>
   </tr>
   <tr>
-    <td>
-Spirometer    </td>
-    <td>
-Model of spirometer.    </td>
-    <td>
-Optional    </td>
-    <td>
-pft.spirometer    </td>
+    <td>Spirometer</td>
+    <td>Model of spirometer.</td>
+    <td>Optional</td>
+    <td>pft.spirometer</td>
   </tr>
   <tr>
-    <td>
-Interpretation    </td>
-    <td>
-Interpretation of a test (by device).    </td>
-    <td>
-Optional    </td>
-    <td>
-pft_maneuver.interpretation    </td>
+    <td>Interpretation</td>
+    <td>Interpretation of a test (by device).</td>
+    <td>Optional</td>
+    <td>pft_maneuver.interpretation</td>
   </tr>
   <tr>
-    <td>
-Comment    </td>
-    <td>
-Free text comment for PFT. This field may be repeated in the CSV file. Comments would be handled in-order and separated by a newline.    </td>
-    <td>
-Optional    </td>
-    <td>
-pft.comment    </td>
+    <td>Comment</td>
+    <td>Free text comment for PFT. This field may be repeated in the CSV file. Comments would be handled in-order and separated by a newline.</td>
+    <td>Optional</td>
+    <td>pft.comment</td>
   </tr>
 </table>
 

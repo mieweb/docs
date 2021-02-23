@@ -2,7 +2,7 @@
 title: "High-level Demonstration for Core Team"
 date: 2020-02-27T20:41:02.693Z
 url: "rapid-deployment/rapid-deployment-agenda/high-level-demonstration-for-core-team.html"
-version: 7
+version: 12
 id: 1xTyA4BU2ay6pjQhQS7xAXMSrnpBifugw7pqslWORm9U
 source: https://drive.google.com/open?id=1xTyA4BU2ay6pjQhQS7xAXMSrnpBifugw7pqslWORm9U
 menu:

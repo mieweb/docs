@@ -2,8 +2,7 @@
 title: "Device Interface - Depisteo VT1"
 date: 2020-03-18T14:35:13.634Z
 url: "general-functionality/system-administration/interfaces/device-interface-depisteo-vt1.html"
-author: Jeremia Ploor
-version: 24
+version: 30
 id: 10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg
 source: https://drive.google.com/open?id=10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg
 ---
@@ -20,70 +19,48 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 
 <table>
   <tr>
-    <td>
-Acuity/B (far)    </td>
-    <td>
-Acuity/B (near)    </td>
+    <td>Acuity/B (far)</td>
+    <td>Acuity/B (near)</td>
   </tr>
   <tr>
-    <td>
-Acuity/L (far)    </td>
-    <td>
-Acuity/L (near)    </td>
+    <td>Acuity/L (far)</td>
+    <td>Acuity/L (near)</td>
   </tr>
   <tr>
-    <td>
-Acuity/R (far)    </td>
-    <td>
-Acuity/R (near)    </td>
+    <td>Acuity/R (far)</td>
+    <td>Acuity/R (near)</td>
   </tr>
   <tr>
-    <td>
-Depth (far)    </td>
-    <td>
-Fusion    </td>
+    <td>Depth (far)</td>
+    <td>Fusion</td>
   </tr>
   <tr>
-    <td>
-Acuity/B (Mesopic)    </td>
-    <td>
-Depth Perception    </td>
+    <td>Acuity/B (Mesopic)</td>
+    <td>Depth Perception</td>
   </tr>
   <tr>
-    <td>
-Acuity/B (Hypemetropia)    </td>
-    <td>
-Decreasing Contrast    </td>
+    <td>Acuity/B (Hypemetropia)</td>
+    <td>Decreasing Contrast</td>
   </tr>
   <tr>
-    <td>
-Acuity/L (Hypemetropia)    </td>
-    <td>
-Amsler/R    </td>
+    <td>Acuity/L (Hypemetropia)</td>
+    <td>Amsler/R</td>
   </tr>
   <tr>
-    <td>
-Acuity/R (Hypemetropia)    </td>
-    <td>
-Amsler/L    </td>
+    <td>Acuity/R (Hypemetropia)</td>
+    <td>Amsler/L</td>
   </tr>
   <tr>
-    <td>
-Color/B    </td>
-    <td>
-Astigmatism/L    </td>
+    <td>Color/B</td>
+    <td>Astigmatism/L</td>
   </tr>
   <tr>
-    <td>
-Color/L    </td>
-    <td>
-Astigmatism/R    </td>
+    <td>Color/L</td>
+    <td>Astigmatism/R</td>
   </tr>
   <tr>
-    <td>
-Color/R    </td>
-    <td>
-Peripheral Vision    </td>
+    <td>Color/R</td>
+    <td>Peripheral Vision</td>
   </tr>
 </table>
 

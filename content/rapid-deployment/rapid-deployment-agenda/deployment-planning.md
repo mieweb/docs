@@ -2,7 +2,7 @@
 title: "Deployment Planning"
 date: 2020-02-27T20:41:08.035Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning.html"
-version: 7
+version: 12
 id: 1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ
 source: https://drive.google.com/open?id=1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ
 menu:

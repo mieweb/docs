@@ -2,8 +2,7 @@
 title: "Editing Restriction Types"
 date: 2020-03-30T16:34:03.981Z
 url: "general-functionality/injury-care/editing-restriction-types.html"
-author: Jeremia Ploor
-version: 57
+version: 63
 id: 1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE
 source: https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE
 menu:
@@ -36,7 +35,7 @@ Restriction Types can be added to the system for users to be able to select and 
 
 
 
-![](../../external_files/d0d177a61a42d4a19accdde5f8f1b339.png)
+![](../../external_files/6a43a4daa5380f408eb7f9f1e2371124.png)
 
 
 

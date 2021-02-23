@@ -1,9 +1,9 @@
 ---
 title: "Device Interface - NDD EasyOne Connect vbase"
-date: 2020-02-28T15:28:06.291Z
+date: 2021-01-14T21:07:22.084Z
 url: "general-functionality/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.html"
-author: Alan Quandt
-version: 21
+author: Aaron Capriglione
+version: 83
 id: 1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c
 source: https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c
 menu:
@@ -82,7 +82,7 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
     * The name field is how we uniquely identify devices, so this must be entered exactly.
         * ![](../../../external_files/57fe806c4925dd8d0a99589dffa59a58.png)
         * This name can be found in a PFT document that was created using the device.
-        * ![](../../../external_files/7f5a972b358020bf85ad183297ff03da.png)
+        * ![](../../../external_files/11590fcc394141c58991ae7c196f1e4e.png)
         * If you use all the same kind of device, then you can assume they will follow the same pattern, with just the serial number being different.
 * To perform calibration in the NDD software, go to Utilities > Check Calibration
 * After calibration, there will be a special patient created in the NDD patient list, named "Calibration Check" with an ID that is the serial number of the device.

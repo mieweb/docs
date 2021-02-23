@@ -2,7 +2,7 @@
 title: "Health Surveillance Panels - Automated Membership"
 date: 2020-02-27T20:00:00.803Z
 url: "general-functionality/health-surveillance/health-surveillance-panels-automated-membership.html"
-version: 23
+version: 28
 id: 1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I
 source: https://drive.google.com/open?id=1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I
 menu:

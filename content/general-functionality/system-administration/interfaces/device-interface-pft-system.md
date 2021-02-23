@@ -2,7 +2,7 @@
 title: "Device Interface - PFT System"
 date: 2020-02-27T20:28:23.442Z
 url: "general-functionality/system-administration/interfaces/device-interface-pft-system.html"
-version: 36
+version: 41
 id: 15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA
 source: https://drive.google.com/open?id=15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA
 menu:

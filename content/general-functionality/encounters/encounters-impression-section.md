@@ -2,8 +2,7 @@
 title: "Encounters Impression Section"
 date: 2020-03-13T14:24:55.091Z
 url: "general-functionality/encounters/encounters-impression-section.html"
-author: Jeremia Ploor
-version: 29
+version: 35
 id: 1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ
 source: https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ
 menu:

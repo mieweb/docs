@@ -2,8 +2,8 @@
 title: "Out-of-the-Box Urls"
 date: 2020-02-27T21:32:04.753Z
 url: "general-functionality/system-administration/out-of-the-box-urls.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM
 source: https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM
 menu:
@@ -241,7 +241,7 @@ The following documents are available for additional information and specificat
 
 [Injections CSV API](data-migration/injections-csv-api.html)
 
-[Language Translation CSV API](data-migration/create-language-translation-file-for-import.html)
+[Language Translation CSV API](data-migration/create-language-translation-file-for-impo.html)
 
 [Observation Codes CSV API](data-migration/observation-codes-csv-api.html)
 

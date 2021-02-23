@@ -2,7 +2,7 @@
 title: "Discontinue Medications"
 date: 2020-02-27T20:05:57.138Z
 url: "general-functionality/medication-management-and-e-prescribing/discontinue-medications.html"
-version: 22
+version: 27
 id: 1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY
 source: https://drive.google.com/open?id=1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY
 menu:

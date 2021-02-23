@@ -2,8 +2,8 @@
 title: "Tasking & E-Sign"
 date: 2020-02-27T21:27:44.178Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/tasking-and-e-sign.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg
 source: https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg
 menu:

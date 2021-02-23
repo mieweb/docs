@@ -2,8 +2,8 @@
 title: "Quality Reporting"
 date: 2020-02-27T21:26:25.410Z
 url: "programs/quality-reporting.html"
-author: Alan Quandt
-version: 12
+author: aquandt
+version: 18
 id: 1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI
 source: https://drive.google.com/open?id=1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI
 menu:

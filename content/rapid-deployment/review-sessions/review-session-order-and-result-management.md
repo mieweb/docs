@@ -2,8 +2,8 @@
 title: "Review Session - Order and Result Management"
 date: 2020-02-27T21:25:30.979Z
 url: "rapid-deployment/review-sessions/review-session-order-and-result-management.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU
 source: https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU
 menu:

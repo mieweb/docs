@@ -2,8 +2,8 @@
 title: "Base Configuration"
 date: 2020-02-27T21:27:18.394Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/base-configuration.html"
-author: Alan Quandt
-version: 9
+author: aquandt
+version: 14
 id: 1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg
 source: https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg
 menu:

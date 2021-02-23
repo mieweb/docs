@@ -2,8 +2,7 @@
 title: "Drug Plan and Formularies"
 date: 2020-03-16T12:01:52.181Z
 url: "general-functionality/medication-management-and-e-prescribing/drug-plan-and-formularies.html"
-author: Jeremia Ploor
-version: 43
+version: 49
 id: 1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE
 source: https://drive.google.com/open?id=1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE
 menu:

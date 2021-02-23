@@ -2,8 +2,7 @@
 title: "Panel Membership Import Tool"
 date: 2020-03-17T03:14:54.850Z
 url: "general-functionality/system-administration/data-migration/panel-membership-import-tool.html"
-author: Jeremia Ploor
-version: 29
+version: 37
 id: 1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y
 source: https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y
 menu:
@@ -54,87 +53,57 @@ The following page defines data and fields that may be imported using the panel 
 
 <table>
   <tr>
-    <td>
-**Field Name**    </td>
-    <td>
-**Description**    </td>
-    <td>
-Type    </td>
-    <td>
-**Requirement**    </td>
+    <td>**Field Name**</td>
+    <td>**Description**</td>
+    <td>Type</td>
+    <td>**Requirement**</td>
   </tr>
   <tr>
-    <td>
-PARTITION    </td>
-    <td>
-Partition of the patient. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.    </td>
-    <td>
-char    </td>
-    <td>
-**Required**    </td>
+    <td>PARTITION</td>
+    <td>Partition of the patient. This field will be used for looking up the chart in {{% system-name %}} , to insert or update.</td>
+    <td>char</td>
+    <td>**Required**</td>
   </tr>
   <tr>
-    <td>
-MRN    </td>
-    <td>
-Medical record number of patient. This is a unique identifier found on every patient chart, used for looking up the chart, to insert or update.    </td>
-    <td>
-integer    </td>
-    <td>
-**Required**    </td>
+    <td>MRN</td>
+    <td>Medical record number of patient. This is a unique identifier found on every patient chart, used for looking up the chart, to insert or update.</td>
+    <td>integer</td>
+    <td>**Required**</td>
   </tr>
   <tr>
-    <td>
-PANEL_ID    </td>
-    <td>
-The panel ID to be associated with the patient.    </td>
-    <td>
-char    </td>
-    <td>
-**Required**    </td>
+    <td>PANEL_ID</td>
+    <td>The panel ID to be associated with the patient.</td>
+    <td>char</td>
+    <td>**Required**</td>
   </tr>
   <tr>
-    <td>
-INCLUDE    </td>
+    <td>INCLUDE</td>
     <td>
 This field determines whether to Include to panel or Exclude from panel:
 
     * **1** = Include to panel
-    * **0** = Exclude from panel    </td>
-    <td>
-integer    </td>
-    <td>
-**Required**    </td>
+    * **0** = Exclude from panel
+    </td>
+    <td>integer</td>
+    <td>**Required**</td>
   </tr>
   <tr>
-    <td>
-START_DATETIME    </td>
-    <td>
-Datetime of panel membership initiation.    </td>
-    <td>
-Datetime    </td>
-    <td>
-Optional    </td>
+    <td>START_DATETIME</td>
+    <td>Datetime of panel membership initiation.</td>
+    <td>Datetime</td>
+    <td>Optional</td>
   </tr>
   <tr>
-    <td>
-CHANGE_REASON    </td>
-    <td>
-If any changes are being made, this field can be used to provide a reason for the change.    </td>
-    <td>
-char    </td>
-    <td>
-Optional    </td>
+    <td>CHANGE_REASON</td>
+    <td>If any changes are being made, this field can be used to provide a reason for the change.</td>
+    <td>char</td>
+    <td>Optional</td>
   </tr>
   <tr>
-    <td>
-TRIGGER_ENTRY_EXIT_ACTIONS    </td>
-    <td>
-Default (1)    </td>
-    <td>
-integer    </td>
-    <td>
-Optional    </td>
+    <td>TRIGGER_ENTRY_EXIT_ACTIONS</td>
+    <td>Default (1)</td>
+    <td>integer</td>
+    <td>Optional</td>
   </tr>
 </table>
 

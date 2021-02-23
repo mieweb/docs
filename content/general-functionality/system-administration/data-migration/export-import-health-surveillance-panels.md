@@ -2,7 +2,7 @@
 title: "Export/Import Health Surveillance Panels"
 date: 2020-02-27T20:23:52.293Z
 url: "general-functionality/system-administration/data-migration/export-import-health-surveillance-panels.html"
-version: 22
+version: 27
 id: 1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU
 source: https://drive.google.com/open?id=1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU
 menu:

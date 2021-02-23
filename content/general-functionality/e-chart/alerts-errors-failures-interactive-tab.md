@@ -2,8 +2,8 @@
 title: "Alerts, Errors, Failures - Interactive Tab"
 date: 2020-02-27T21:12:37.185Z
 url: "general-functionality/e-chart/alerts-errors-failures-interactive-tab.html"
-author: Alan Quandt
-version: 46
+author: aquandt
+version: 51
 id: 121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc
 source: https://drive.google.com/open?id=121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc
 menu:

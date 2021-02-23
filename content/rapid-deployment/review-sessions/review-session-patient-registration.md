@@ -2,8 +2,8 @@
 title: "Review Session - Patient Registration"
 date: 2020-02-27T21:24:28.695Z
 url: "rapid-deployment/review-sessions/review-session-patient-registration.html"
-author: Alan Quandt
-version: 13
+author: aquandt
+version: 18
 id: 1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0
 source: https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0
 menu:
@@ -102,6 +102,6 @@ The [Partition Manager](https://system/?f=admin&s=partmanager&tabmodule=admin&ta
 * [Picture-Photo Documents](../../general-functionality/document-management/documents-and-forms/picture-photo-documents.html)
 * [Partition Manager](../../general-functionality/system-administration/system-controls/partition-manager.html)
 * [Insurance Summary-Demographics Tab](../../general-functionality/e-chart/insurance-summary-in-demographics-tab.html)
-* [Medical Contacts-Relationships and User-Patient Relationships](../../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.html)
+* [Medical Contacts-Relationships and User-Patient Relationships](../../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-.html)
 * [Medical Record Numbers](../../general-functionality/patient-registration/medical-record-numbers.html)
 * [Merging Charts in System](../../general-functionality/system-administration/system-controls/merging-accounts-charts-in-system.html)

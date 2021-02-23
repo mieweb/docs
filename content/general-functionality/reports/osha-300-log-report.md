@@ -2,7 +2,7 @@
 title: "OSHA 300 Log Report"
 date: 2020-02-27T20:15:26.983Z
 url: "general-functionality/reports/osha-300-log-report.html"
-version: 28
+version: 33
 id: 1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE
 source: https://drive.google.com/open?id=1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE
 menu:

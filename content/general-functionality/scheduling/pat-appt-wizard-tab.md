@@ -2,7 +2,7 @@
 title: "Pat/Appt Wizard Tab"
 date: 2020-02-27T19:47:42.780Z
 url: "general-functionality/scheduling/pat-appt-wizard-tab.html"
-version: 11
+version: 16
 id: 12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM
 source: https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM
 menu:

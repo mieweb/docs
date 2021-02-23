@@ -2,7 +2,7 @@
 title: "Show Inventory Tab"
 date: 2020-02-27T20:32:21.170Z
 url: "general-functionality/system-administration/asset-management/show-inventory-tab.html"
-version: 23
+version: 28
 id: 1pwmVB0X2rvStNmDOmy_XRa1ScUcZmzqEQlQWuJ9xtb0
 source: https://drive.google.com/open?id=1pwmVB0X2rvStNmDOmy_XRa1ScUcZmzqEQlQWuJ9xtb0
 menu:

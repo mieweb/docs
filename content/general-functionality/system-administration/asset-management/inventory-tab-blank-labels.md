@@ -2,7 +2,7 @@
 title: "Inventory Tab - Blank Labels"
 date: 2020-02-27T20:31:19.130Z
 url: "general-functionality/system-administration/asset-management/inventory-tab-blank-labels.html"
-version: 13
+version: 18
 id: 1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A
 source: https://drive.google.com/open?id=1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A
 menu:

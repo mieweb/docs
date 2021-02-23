@@ -2,8 +2,8 @@
 title: "Document Properties"
 date: 2020-02-27T21:10:00.312Z
 url: "general-functionality/document-management/documents-and-forms/document-properties.html"
-author: Alan Quandt
-version: 36
+author: aquandt
+version: 43
 id: 1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s
 source: https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s
 menu:

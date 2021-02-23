@@ -2,7 +2,7 @@
 title: "Patient Chart File Export"
 date: 2020-02-27T20:24:55.247Z
 url: "general-functionality/system-administration/data-migration/patient-chart-file-export.html"
-version: 24
+version: 30
 id: 1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM
 source: https://drive.google.com/open?id=1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM
 menu:

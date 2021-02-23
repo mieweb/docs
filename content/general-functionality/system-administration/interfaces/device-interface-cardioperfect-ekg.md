@@ -2,7 +2,7 @@
 title: "Device Interface - CardioPerfect EKG"
 date: 2020-02-27T20:27:01.320Z
 url: "general-functionality/system-administration/interfaces/device-interface-cardioperfect-ekg.html"
-version: 21
+version: 26
 id: 17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk
 source: https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk
 menu:

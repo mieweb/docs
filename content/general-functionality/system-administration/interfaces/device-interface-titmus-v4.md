@@ -2,8 +2,8 @@
 title: "Device Interface - Titmus V4"
 date: 2020-02-27T21:33:11.490Z
 url: "general-functionality/system-administration/interfaces/device-interface-titmus-v4.html"
-author: Alan Quandt
-version: 21
+author: aquandt
+version: 26
 id: 1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo
 source: https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo
 menu:
@@ -41,104 +41,71 @@ The following data fields are collected in {{% system-name %}} using the Titmus
 
 <table>
   <tr>
-    <td>
-Corrected    </td>
-    <td>
-Uncorrected    </td>
+    <td>Corrected</td>
+    <td>Uncorrected</td>
   </tr>
   <tr>
-    <td>
-Binocularity (far)    </td>
-    <td>
-Binocularity (far)    </td>
+    <td>Binocularity (far)</td>
+    <td>Binocularity (far)</td>
   </tr>
   <tr>
-    <td>
-Acuity/B (far)    </td>
-    <td>
-Acuity/B (far)    </td>
+    <td>Acuity/B (far)</td>
+    <td>Acuity/B (far)</td>
   </tr>
   <tr>
-    <td>
-Acuity/L (far)    </td>
-    <td>
-Acuity/L (far)    </td>
+    <td>Acuity/L (far)</td>
+    <td>Acuity/L (far)</td>
   </tr>
   <tr>
-    <td>
-Acuity/R (far)    </td>
-    <td>
-Acuity/R (far)    </td>
+    <td>Acuity/R (far)</td>
+    <td>Acuity/R (far)</td>
   </tr>
   <tr>
-    <td>
-Depth (far)    </td>
-    <td>
-Depth (far)    </td>
+    <td>Depth (far)</td>
+    <td>Depth (far)</td>
   </tr>
   <tr>
-    <td>
-Color (far)    </td>
-    <td>
-Color (far)    </td>
+    <td>Color (far)</td>
+    <td>Color (far)</td>
   </tr>
   <tr>
-    <td>
-Phoria Lateral (far)    </td>
-    <td>
-Phoria Lateral (far)    </td>
+    <td>Phoria Lateral (far)</td>
+    <td>Phoria Lateral (far)</td>
   </tr>
   <tr>
-    <td>
-Phoria Vertical (far)    </td>
-    <td>
-Phoria Vertical (far)    </td>
+    <td>Phoria Vertical (far)</td>
+    <td>Phoria Vertical (far)</td>
   </tr>
   <tr>
-    <td>
-Binocularity (near)    </td>
-    <td>
-Binocularity (near)    </td>
+    <td>Binocularity (near)</td>
+    <td>Binocularity (near)</td>
   </tr>
   <tr>
-    <td>
-Acuity/B (near)    </td>
-    <td>
-Acuity/B (near)    </td>
+    <td>Acuity/B (near)</td>
+    <td>Acuity/B (near)</td>
   </tr>
   <tr>
-    <td>
-Acuity/L (near)    </td>
-    <td>
-Acuity/L (near)    </td>
+    <td>Acuity/L (near)</td>
+    <td>Acuity/L (near)</td>
   </tr>
   <tr>
-    <td>
-Acuity/R (near)    </td>
-    <td>
-Acuity/B (near)    </td>
+    <td>Acuity/R (near)</td>
+    <td>Acuity/B (near)</td>
   </tr>
   <tr>
-    <td>
-Phoria Lateral (near)    </td>
-    <td>
-Phoria Lateral (near)    </td>
+    <td>Phoria Lateral (near)</td>
+    <td>Phoria Lateral (near)</td>
   </tr>
   <tr>
-    <td>
-Phoria Vertical (near)    </td>
-    <td>
-Phoria Lateral (near)    </td>
+    <td>Phoria Vertical (near)</td>
+    <td>Phoria Lateral (near)</td>
   </tr>
   <tr>
-    <td colspan="2">
-Peripheral    </td>
+    <td colspan="2">Peripheral</td>
   </tr>
   <tr>
-    <td>
-Peripheral Vision (L Degree) - Nasal    </td>
-    <td>
-Peripheral Vision (R Degree) - Nasal    </td>
+    <td>Peripheral Vision (L Degree) - Nasal</td>
+    <td>Peripheral Vision (R Degree) - Nasal</td>
   </tr>
 </table>
 

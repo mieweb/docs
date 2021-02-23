@@ -2,8 +2,8 @@
 title: "Sending HL7 Messages to System"
 date: 2020-02-28T15:31:21.269Z
 url: "general-functionality/system-administration/interfaces/sending-hl7-messages-to-system.html"
-author: Alan Quandt
-version: 15
+author: aquandt
+version: 20
 id: 1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw
 source: https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw
 menu:

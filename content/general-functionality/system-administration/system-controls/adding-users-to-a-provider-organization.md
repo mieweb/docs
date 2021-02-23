@@ -2,7 +2,7 @@
 title: "Adding Users to a Provider Organization"
 date: 2020-02-27T20:18:45.794Z
 url: "general-functionality/system-administration/system-controls/adding-users-to-a-provider-organization.html"
-version: 29
+version: 34
 id: 1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U
 source: https://drive.google.com/open?id=1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U
 menu:
@@ -67,7 +67,7 @@ An alternative way to associate users with PO's is to edit the user's profile fr
 
 Scroll to the lower portion of the screen and locate the Refresh with the User Patients ListEdit (which contains xx patients). This hyperlink and list does not get rendered at all if the setting "Webchart", "Settings", "Limit users to Provider Organization" is turned off. This is a feature mainly used by our Corporate Health practices. Clicking on the Refresh with the User Patients List link will query the system to render the list.
 
-![](../../../external_files/d142a008d461974afd567699a95ea418.png)
+![](../../../external_files/06acbdbb6cb0e4f50f81f1eff42d3b00.png)
 
 The link will then change to say **Show Patients Linked to User:**
 

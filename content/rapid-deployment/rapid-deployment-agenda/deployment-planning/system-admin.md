@@ -2,8 +2,8 @@
 title: "System Admin"
 date: 2020-02-27T21:27:49.466Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/system-admin.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1NmvnJfchSVK7KFPNzGUgyLEjKYj7HkIvNRF52SS1J-k
 source: https://drive.google.com/open?id=1NmvnJfchSVK7KFPNzGUgyLEjKYj7HkIvNRF52SS1J-k
 menu:

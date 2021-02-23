@@ -2,7 +2,7 @@
 title: "Patient Registration"
 date: 2020-02-27T19:34:21.430Z
 url: "general-functionality/patient-registration.html"
-version: 8
+version: 13
 id: 1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0
 source: https://drive.google.com/open?id=1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0
 menu:

@@ -2,8 +2,7 @@
 title: "Document Type Purge Rules"
 date: 2020-03-23T18:15:06.981Z
 url: "general-functionality/document-management/documents-and-forms/document-type-purge-rules.html"
-author: Jeremia Ploor
-version: 43
+version: 49
 id: 1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg
 source: https://drive.google.com/open?id=1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg
 menu:

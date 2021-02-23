@@ -2,8 +2,7 @@
 title: "TeleHealth"
 date: 2020-03-31T14:31:43.227Z
 url: "general-functionality/encounters/telehealth.html"
-author: Jeremia Ploor
-version: 30
+version: 40
 id: 1gqUkQvl5rLf5tbD0avlLfKSn0uy3tqcqqoY3U5XNQK8
 source: https://drive.google.com/open?id=1gqUkQvl5rLf5tbD0avlLfKSn0uy3tqcqqoY3U5XNQK8
 ---

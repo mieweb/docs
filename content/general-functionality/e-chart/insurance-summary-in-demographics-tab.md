@@ -2,8 +2,7 @@
 title: "Insurance Summary in Demographics Tab"
 date: 2020-03-25T16:48:24.618Z
 url: "general-functionality/e-chart/insurance-summary-in-demographics-tab.html"
-author: Jeremia Ploor
-version: 61
+version: 67
 id: 1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU
 source: https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU
 menu:

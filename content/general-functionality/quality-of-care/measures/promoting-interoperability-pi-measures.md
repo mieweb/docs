@@ -2,8 +2,7 @@
 title: "Promoting Interoperability (PI) Measures"
 date: 2020-02-28T21:58:39.683Z
 url: "general-functionality/quality-of-care/measures/promoting-interoperability-pi-measures.html"
-author: Jeremia Ploor
-version: 30
+version: 36
 id: 1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw
 source: https://drive.google.com/open?id=1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw
 menu:

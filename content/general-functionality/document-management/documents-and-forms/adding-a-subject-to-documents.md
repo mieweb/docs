@@ -2,8 +2,8 @@
 title: "Adding a Subject to Documents"
 date: 2020-02-27T21:10:07.369Z
 url: "general-functionality/document-management/documents-and-forms/adding-a-subject-to-documents.html"
-author: Alan Quandt
-version: 27
+author: aquandt
+version: 32
 id: 1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk
 source: https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk
 menu:

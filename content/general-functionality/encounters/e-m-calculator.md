@@ -2,7 +2,7 @@
 title: "E/M Calculator"
 date: 2020-02-27T19:55:20.020Z
 url: "general-functionality/encounters/e-m-calculator.html"
-version: 22
+version: 27
 id: 1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE
 source: https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE
 menu:

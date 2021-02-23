@@ -2,7 +2,7 @@
 title: "Clinical Medicine"
 date: 2020-02-27T19:30:05.023Z
 url: "programs/medical-programs/clinical-medicine.html"
-version: 11
+version: 17
 id: 1D2Tr1fpF7oqAx0hsXkwT5D2RA1epjcGuNFVNv87bXEM
 source: https://drive.google.com/open?id=1D2Tr1fpF7oqAx0hsXkwT5D2RA1epjcGuNFVNv87bXEM
 menu:

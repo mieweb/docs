@@ -2,7 +2,7 @@
 title: "System Plugins"
 date: 2020-02-27T20:17:38.936Z
 url: "general-functionality/system-administration/system-controls/system-plugins.html"
-version: 9
+version: 14
 id: 1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A
 source: https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A
 menu:

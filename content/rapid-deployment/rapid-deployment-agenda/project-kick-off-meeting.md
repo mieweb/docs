@@ -2,7 +2,7 @@
 title: "Project Kick-off Meeting"
 date: 2020-02-27T20:40:57.215Z
 url: "rapid-deployment/rapid-deployment-agenda/project-kick-off-meeting.html"
-version: 7
+version: 12
 id: 1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI
 source: https://drive.google.com/open?id=1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI
 menu:

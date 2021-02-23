@@ -2,7 +2,7 @@
 title: "Locking Individual or Specific Charts"
 date: 2020-02-27T20:19:45.825Z
 url: "general-functionality/system-administration/system-controls/locking-individual-or-specific-charts.html"
-version: 37
+version: 43
 id: 15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA
 source: https://drive.google.com/open?id=15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA
 menu:

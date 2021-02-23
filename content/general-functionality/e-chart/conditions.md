@@ -2,7 +2,7 @@
 title: "Conditions"
 date: 2020-02-27T19:45:25.898Z
 url: "general-functionality/e-chart/conditions.html"
-version: 43
+version: 48
 id: 1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0
 source: https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0
 menu:

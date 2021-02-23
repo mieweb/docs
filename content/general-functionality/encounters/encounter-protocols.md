@@ -2,8 +2,7 @@
 title: "Encounter Protocols"
 date: 2020-03-30T16:02:13.354Z
 url: "general-functionality/encounters/encounter-protocols.html"
-author: Jeremia Ploor
-version: 46
+version: 52
 id: 1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg
 source: https://drive.google.com/open?id=1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg
 menu:

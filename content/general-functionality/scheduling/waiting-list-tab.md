@@ -2,8 +2,7 @@
 title: "Waiting List Tab"
 date: 2020-03-25T17:17:23.139Z
 url: "general-functionality/scheduling/waiting-list-tab.html"
-author: Jeremia Ploor
-version: 32
+version: 38
 id: 17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM
 source: https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM
 menu:

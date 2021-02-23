@@ -2,8 +2,7 @@
 title: "Biometric Data Entry"
 date: 2020-03-06T20:19:49.657Z
 url: "general-functionality/document-management/documents-and-forms/biometric-data-entry.html"
-author: Jeremia Ploor
-version: 30
+version: 36
 id: 1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs
 source: https://drive.google.com/open?id=1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs
 menu:

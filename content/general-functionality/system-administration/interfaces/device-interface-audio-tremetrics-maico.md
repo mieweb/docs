@@ -2,7 +2,7 @@
 title: "Device Interface - Audio: Tremetrics/Maico"
 date: 2020-02-27T20:26:37.849Z
 url: "general-functionality/system-administration/interfaces/device-interface-audio-tremetrics-maico.html"
-version: 17
+version: 22
 id: 1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I
 source: https://drive.google.com/open?id=1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I
 menu:

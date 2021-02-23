@@ -2,7 +2,7 @@
 title: "Order List Import Tool"
 date: 2020-02-27T20:45:53.671Z
 url: "general-functionality/system-administration/data-migration/order-list-import-tool.html"
-version: 7
+version: 12
 id: 1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I
 source: https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I
 menu:
@@ -28,94 +28,58 @@ The order list column definition shall contain all columns listed below regardle
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Type    </td>
-    <td>
-Required    </td>
-    <td>
-Comments    </td>
+    <td>Name</td>
+    <td>Type</td>
+    <td>Required</td>
+    <td>Comments</td>
   </tr>
   <tr>
-    <td>
-Order name    </td>
-    <td>
-char 2^24 (16MB)    </td>
-    <td>
-R    </td>
-    <td>
-This is the short form name or mneumonic of the order item    </td>
+    <td>Order name</td>
+    <td>char 2^24 (16MB)</td>
+    <td>R</td>
+    <td>This is the short form name or mneumonic of the order item</td>
   </tr>
   <tr>
-    <td>
-Order detail description    </td>
-    <td>
-char 2^24 (16MB)    </td>
-    <td>
-O    </td>
-    <td>
-Detailed description of the order item    </td>
+    <td>Order detail description</td>
+    <td>char 2^24 (16MB)</td>
+    <td>O</td>
+    <td>Detailed description of the order item</td>
   </tr>
   <tr>
-    <td>
-Order code    </td>
-    <td>
-char 30    </td>
-    <td>
-R    </td>
-    <td>
-Unique order code for this order item    </td>
+    <td>Order code</td>
+    <td>char 30</td>
+    <td>R</td>
+    <td>Unique order code for this order item</td>
   </tr>
   <tr>
-    <td>
-LOINC code    </td>
-    <td>
-char 50    </td>
-    <td>
-O    </td>
-    <td>
-LOINC code    </td>
+    <td>LOINC code</td>
+    <td>char 50</td>
+    <td>O</td>
+    <td>LOINC code</td>
   </tr>
   <tr>
-    <td>
-CPT code    </td>
-    <td>
-char 30    </td>
-    <td>
-O    </td>
-    <td>
-CPT code    </td>
+    <td>CPT code</td>
+    <td>char 30</td>
+    <td>O</td>
+    <td>CPT code</td>
   </tr>
   <tr>
-    <td>
-Collection instructions    </td>
-    <td>
-char 2^24 (16MB)    </td>
-    <td>
-O    </td>
-    <td>
-Special instructions for at the time of collection    </td>
+    <td>Collection instructions</td>
+    <td>char 2^24 (16MB)</td>
+    <td>O</td>
+    <td>Special instructions for at the time of collection</td>
   </tr>
   <tr>
-    <td>
-Patient instructions    </td>
-    <td>
-char 2^24 (16MB)    </td>
-    <td>
-O    </td>
-    <td>
-Instructions for the patient prior to collection    </td>
+    <td>Patient instructions</td>
+    <td>char 2^24 (16MB)</td>
+    <td>O</td>
+    <td>Instructions for the patient prior to collection</td>
   </tr>
   <tr>
-    <td>
-Force separate order    </td>
-    <td>
-char 1    </td>
-    <td>
-O    </td>
-    <td>
-If (Y)es, force a separate order to be placed, If (N)o, all this item to be grouped with other order items in a single order    </td>
+    <td>Force separate order</td>
+    <td>char 1</td>
+    <td>O</td>
+    <td>If (Y)es, force a separate order to be placed, If (N)o, all this item to be grouped with other order items in a single order</td>
   </tr>
 </table>
 

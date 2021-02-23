@@ -2,8 +2,8 @@
 title: "E-Sign All Pending Tab"
 date: 2020-03-10T14:20:34.885Z
 url: "general-functionality/e-sign-electronic-signature/e-sign-all-pending-tab.html"
-author: Alan Quandt
-version: 26
+author: aquandt
+version: 31
 id: 1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4
 source: https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4
 menu:

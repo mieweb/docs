@@ -2,8 +2,7 @@
 title: "Health Surveillance Panels - Actions"
 date: 2020-03-13T15:11:36.505Z
 url: "general-functionality/health-surveillance/health-surveillance-panels-actions.html"
-author: Jeremia Ploor
-version: 28
+version: 34
 id: 1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54
 source: https://drive.google.com/open?id=1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54
 menu:

@@ -2,7 +2,7 @@
 title: "Merging Accounts/Charts in System"
 date: 2020-02-27T20:22:07.557Z
 url: "general-functionality/system-administration/system-controls/merging-accounts-charts-in-system.html"
-version: 42
+version: 47
 id: 1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY
 source: https://drive.google.com/open?id=1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY
 menu:

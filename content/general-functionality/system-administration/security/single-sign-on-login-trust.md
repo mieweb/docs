@@ -2,8 +2,8 @@
 title: "Single Sign-On Login Trust"
 date: 2020-02-27T21:22:18.806Z
 url: "general-functionality/system-administration/security/single-sign-on-login-trust.html"
-author: Alan Quandt
-version: 22
+author: aquandt
+version: 27
 id: 1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM
 source: https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM
 menu:

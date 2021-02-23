@@ -2,7 +2,7 @@
 title: "Signature Pad Device"
 date: 2020-02-27T20:26:18.438Z
 url: "general-functionality/system-administration/interfaces/signature-pad-device.html"
-version: 12
+version: 17
 id: 1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo
 source: https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo
 menu:

@@ -1,9 +1,9 @@
 ---
 title: "Rapid Deployment Agenda"
-date: 2020-02-27T21:23:46.395Z
+date: 2021-01-29T22:11:51.106Z
 url: "rapid-deployment/rapid-deployment-agenda.html"
-author: Alan Quandt
-version: 10
+author: Will Reiske
+version: 25
 id: 1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8
 source: https://drive.google.com/open?id=1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8
 menu:
@@ -14,6 +14,8 @@ menu:
         weight: 5770
 ---
 Our Rapid Deployment Agenda provides clients with an outline of the high-level expectations and milestones of a successful deployment. The contents of this outline are based on the more-detailed [standard project plan](rapid-deployment-project-outline.html). For a look at the potential timeline, time estimates, and agenda topics, be sure to check out the [Project Kick-Off](rapid-deployment-agenda/project-kick-off-meeting.html), the [Core Team Demonstration](rapid-deployment-agenda/high-level-demonstration-for-core-team.html), and the various [Deployment Meetings](rapid-deployment-agenda/deployment-planning.html). Note that many of the objectives and milestones can be executed concurrently, utilizing all available resources more effectively and efficiently, thus shortening deployment times.
+
+
 
 {{% drawio border="true" viewerToolbar="true" fitWindow="false" diagramName="Discovery to Rapid Deployment" simpleViewer="false" width="" diagramWidth="1148" revision="4" sys="" %}}
 

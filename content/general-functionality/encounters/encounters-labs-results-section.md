@@ -2,8 +2,7 @@
 title: "Encounters Labs Results Section"
 date: 2020-03-26T17:39:27.991Z
 url: "general-functionality/encounters/encounters-labs-results-section.html"
-author: Jeremia Ploor
-version: 45
+version: 51
 id: 14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0
 source: https://drive.google.com/open?id=14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0
 menu:

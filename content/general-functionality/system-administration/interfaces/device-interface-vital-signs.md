@@ -1,8 +1,9 @@
 ---
 title: "Device Interface - Vital Signs"
-date: 2020-02-27T20:28:46.527Z
+date: 2020-09-22T18:09:33.593Z
 url: "general-functionality/system-administration/interfaces/device-interface-vital-signs.html"
-version: 11
+author: Will Reiske
+version: 23
 id: 1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U
 source: https://drive.google.com/open?id=1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U
 menu:
@@ -17,7 +18,7 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
 ## Vital Signs
 
 * Open {{% system-name %}} .
-* Pull up correct patient.
+* Pull up the correct patient.
 * Add encounter for patient or add vitals by choosing the Vitals chart tab
 * Once Encounter has been added scroll down to Vitals section or enter in via Vitals chart tab. Make sure <em>device</em> mode is selected.
 
@@ -27,8 +28,8 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
     * Vital signs will appear on page.
 * Select the add button for the correct set of vitals. (Note: if the device is being kept clean your results should be the only ones listed)
 * Select and submit button and vital signs will be saved to the encounter and appear on page.
-* Select Clear Device button.
-* Scroll to bottom of page and select submit to save vital signs to chart.
+* Select the Clear Device button.
+* Scroll to the bottom of the page and select submit to save vital signs to chart.
 * Please note that for metrics the process above is the preferred method for entering vital signs
 * Take patient's vital signs.
 

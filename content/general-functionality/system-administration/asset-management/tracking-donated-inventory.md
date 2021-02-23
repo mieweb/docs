@@ -2,7 +2,7 @@
 title: "Tracking Donated Inventory"
 date: 2020-02-27T20:30:10.177Z
 url: "general-functionality/system-administration/asset-management/tracking-donated-inventory.html"
-version: 11
+version: 16
 id: 1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc
 source: https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc
 menu:

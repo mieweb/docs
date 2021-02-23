@@ -2,7 +2,7 @@
 title: "Health Surveillance Panels - Add Memberships Manually"
 date: 2020-02-27T19:59:52.225Z
 url: "general-functionality/health-surveillance/health-surveillance-panels-add-memberships-manually.html"
-version: 17
+version: 24
 id: 1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA
 source: https://drive.google.com/open?id=1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA
 menu:

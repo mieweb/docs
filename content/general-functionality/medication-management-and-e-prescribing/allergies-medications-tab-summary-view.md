@@ -2,8 +2,7 @@
 title: "Allergies/Medications Tab Summary View"
 date: 2020-03-16T14:57:56.799Z
 url: "general-functionality/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.html"
-author: Jeremia Ploor
-version: 57
+version: 63
 id: 1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA
 source: https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA
 menu:

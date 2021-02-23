@@ -2,7 +2,7 @@
 title: "Dictation and Transcription"
 date: 2020-02-27T19:50:45.866Z
 url: "general-functionality/encounters/dictation-and-transcription.html"
-version: 14
+version: 20
 id: 1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY
 source: https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY
 menu:

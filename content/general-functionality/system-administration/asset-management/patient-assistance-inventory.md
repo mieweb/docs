@@ -2,7 +2,7 @@
 title: "Patient Assistance Inventory"
 date: 2020-02-27T20:30:22.116Z
 url: "general-functionality/system-administration/asset-management/patient-assistance-inventory.html"
-version: 13
+version: 18
 id: 1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s
 source: https://drive.google.com/open?id=1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s
 menu:

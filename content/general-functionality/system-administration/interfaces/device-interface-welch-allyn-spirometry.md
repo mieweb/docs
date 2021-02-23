@@ -2,7 +2,7 @@
 title: "Device Interface - Welch Allyn Spirometry"
 date: 2020-02-27T20:28:56.204Z
 url: "general-functionality/system-administration/interfaces/device-interface-welch-allyn-spirometry.html"
-version: 23
+version: 28
 id: 1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0
 source: https://drive.google.com/open?id=1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0
 menu:

@@ -2,7 +2,7 @@
 title: "Due List in a Dynamic Encounter"
 date: 2020-02-27T20:00:48.718Z
 url: "general-functionality/health-surveillance/due-list-in-a-dynamic-encounter.html"
-version: 39
+version: 44
 id: 1NHVGEeKbx_wGt0Y8K3WXwos-rv3dRUg4Ev6n7tdTD1Y
 source: https://drive.google.com/open?id=1NHVGEeKbx_wGt0Y8K3WXwos-rv3dRUg4Ev6n7tdTD1Y
 menu:

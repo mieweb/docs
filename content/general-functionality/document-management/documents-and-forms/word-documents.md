@@ -2,8 +2,7 @@
 title: "Word Documents"
 date: 2020-03-23T16:26:17.055Z
 url: "general-functionality/document-management/documents-and-forms/word-documents.html"
-author: Jeremia Ploor
-version: 74
+version: 80
 id: 1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U
 source: https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U
 menu:

@@ -2,8 +2,7 @@
 title: "Cancel/No-Show/Edit Appointments"
 date: 2020-03-10T17:26:23.670Z
 url: "general-functionality/scheduling/cancel-no-show-edit-appointments.html"
-author: Jeremia Ploor
-version: 36
+version: 42
 id: 1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous
 source: https://drive.google.com/open?id=1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous
 menu:

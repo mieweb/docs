@@ -2,8 +2,7 @@
 title: "Fax Manager Tab - Outbound Faxing"
 date: 2020-03-16T16:24:34.438Z
 url: "general-functionality/fax-manager/fax-manager-tab-outbound-faxing.html"
-author: Jeremia Ploor
-version: 26
+version: 32
 id: 1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk
 source: https://drive.google.com/open?id=1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk
 menu:
@@ -25,7 +24,7 @@ The 3 categories at the bottom of this Fax Manager tab: Pending Fax Spool, Error
 
 The fax jobs that display for you *and* the fax jobs that you can search for to see are all driven by what security you are set to. If your security is to only view your *own* fax jobs, than any search you render or jobs you see here in the queue will only be your own jobs. If your security is set to *all users* then you will be able to search and view all fax jobs regardless of user who rendered them.
 
-![](../../external_files/69ea2b7072d65489a49e55145a32a1cb.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 ## Fax Categories and Options
 

@@ -2,7 +2,7 @@
 title: "Device Interface - Piccolo System"
 date: 2020-02-27T20:28:32.748Z
 url: "general-functionality/system-administration/interfaces/device-interface-piccolo-system.html"
-version: 13
+version: 18
 id: 1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4
 source: https://drive.google.com/open?id=1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4
 menu:

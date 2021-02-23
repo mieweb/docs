@@ -2,8 +2,7 @@
 title: "Side Chart Configuration"
 date: 2020-03-05T17:32:44.289Z
 url: "general-functionality/system-configuration/side-chart-configuration.html"
-author: Jeremia Ploor
-version: 29
+version: 35
 id: 1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng
 source: https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng
 menu:

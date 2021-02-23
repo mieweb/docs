@@ -1,9 +1,8 @@
 ---
 title: "Patient Portal First-Time Setup & Configuration"
-date: 2020-03-12T16:39:08.060Z
+date: 2020-05-12T14:24:51.089Z
 url: "general-functionality/portal-management/patient-portal-first-time-setup-and-configuration.html"
-author: Jeremia Ploor
-version: 293
+version: 320
 id: 1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc
 source: https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc
 menu:
@@ -70,13 +69,15 @@ The security role(s) that are chosen must have the following security settings s
     3. <strong>Limited to Default Tab</strong> = No
     4. <strong>Manage Observations</strong> = Edit
     5. <strong>Document Permissions</strong> = Edit
-    6. <strong>Manage Settings</strong> = Manage Own Settings
-    7. <strong>View Encounters</strong> = Yes
-    8. <strong>Sign Document</strong> = Yes
-    9. <strong>View Preliminary Documents</strong> = Yes
-    10. <strong>Manage Users</strong> = Self
-    11. <strong>Manage User Patients</strong> = Yes
-    12. <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
+    6. <strong>Conditions</strong> = Edit
+    7. <strong>Demographics</strong> = Edit
+    8. <strong>Manage Settings</strong> = Manage Own Settings
+    9. <strong>View Encounters</strong> = Yes
+    10. <strong>Sign Document</strong> = Yes
+    11. <strong>View Preliminary Documents</strong> = Yes
+    12. <strong>Manage Users</strong> = Self
+    13. <strong>Manage User Patients</strong> = Yes
+    14. <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
 
  {{% /info %}}
 
@@ -286,15 +287,24 @@ While on the *Patient Portal* tab, click the **Configuration** header to expa
 
 **Configuration**: Use the drop-down to select which chart tab will be used to determine the message types and/or documents available for the message center. Clicking the **Add messages types** link will take users to the currently selected chart tab. The **View Preliminary Documents** security setting must be set to **Yes** for users to view documents. 
 
-**Questionnaires for Supervisors' Review**: This option allows users to set exactly which questionnaires need reviewed and responded to by supervisors, when completed.
+**Document accept template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route accepted documents using Fast Tasks.
 
-**Employer Response Instructions**: Use this field to provide any ad hoc instructions necessary for employer responses.
+**Document reject template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route rejected documents using Fast Tasks.
 
-**Supervisor Questionnaire Tasks**: This option allows users to configure tasks to order questionnaires for supervisors, based on questionnaires completed by employees.
+**Conversation types**: Document types selected in this list will display conversations in the Document View page. Configure by selecting the appropriate portal message document type from the dropdown, so that replies that are sent back to the portal user are visible and linked to the original message sent from the portal.
 
-**Custom Message Center title**: The text placed in this field will update and replace the Message Center title. Limit 60 characters.
 
-**Custom Message Center header**: The text placed in this field will update and replace the Message Center header. Limit 60 characters.
+
+{{% note %}}
+
+If a document (such as a lab result document) should not display on the portal until after the document has been e-signed, add an additional expression to the Additional Expression field when editing the Message Center chart tab (or any chart tab being selected in the portal setup). The Additional Expression field will only display when in the Advanced Editor mode. An example of the additional expression to be used when doc type WCLAB should only display once it has been e-signed by the provider is as follows:
+
+
+
+d.storage_type>0 AND IF(d.doc_type = 'WCLAB', EXISTS (SELECT sig.doc_id FROM document_sign sig WHERE sig.doc_id = d.doc_id AND sig.status = 1), 1)
+
+{{% /note %}}
+
 
 
 
@@ -302,27 +312,25 @@ Click the **Next** button to save and close the section, and proceed to the **Se
 
 ### Select Modules
 
-The Select Modules section is intended for customizing the functionality of the patient portal. There are certain modules enabled, by default. How to activate or deactivate these modules is discussed below, as well as how to customize them, as needed.
-
-
-
-1. Clicking on the <strong>Select Modules</strong> header will open a dialog window where modules can be added to or removed from the portal functionality. With the necessary modules selected/deselected, simply click the <strong>Save</strong> button to retain all changes.
-2. All of the modules can be given a custom name using the <strong>Custom Module Name</strong> field, under each of the respective section headings.
-
-
-
-Available modules within the portal are:
-
-
+The Select Modules section is intended for customizing the functionality of the patient portal. The available modules to enable on the portal are:
 
 * My Appointments
 * Forms
 * Questionnaires
 * My Medical Information
 * Report Work Injury or Illness
-* Send a Message
+* Send A Message
 * Other Health Resources
 * Work Status
+
+
+
+There are certain modules enabled, by default. How to activate or deactivate these modules is discussed below, as well as how to customize them, as needed.
+
+
+
+1. Clicking on the Select Modules header will open a dialog window where modules can be added to or removed from the portal functionality. With the necessary modules selected/deselected, simply click the Save button to retain all changes.
+2. All of the modules can be given a custom name using the Custom Module Name field, under each of the respective section headings.
 
 #### My Appointments
 
@@ -361,6 +369,24 @@ The *My Appointments* module can be updated to allow certain functionality, as w
 **Force any available doctor**: This disables the Select Provider field from displaying on the portal, automatically assigning a provider based on the appointment type and availability.
 
 **Alert text to show at top of form**: Use this field to display an alert or memo at the top of the page (e.g., "If this is a medical emergency, please dial 9-1-1.").
+
+### My Medical Information
+
+The *My Medical Information* module is intended for displaying pre-defined documents in this section of the portal. The *My Medical Information* module will point to the My Medical Information chart tab, by default. The section within the portal will display the documents that are linked to whatever chart tab is selected during the portal setup. 
+
+* <strong>Custom Module Name</strong>: Rename this module to specify how this section will be labeled within the portal. Customize up to 60 characters.
+* <strong>Message Configuration</strong>: Use the drop-down to select which chart tab will be used to populate this section of the portal.
+
+{{% note %}}
+
+If a document (such as a lab result document) should not display on the portal until after the document has been e-signed, add an additional expression to the Additional Expression field when editing the Message Center chart tab (or any chart tab being selected in the portal setup). The Additional Expression field will only display when in the Advanced Editor mode. An example of the additional expression to be used when doc type WCLAB should only display once it has been e-signed by the provider is as follows:
+
+
+
+d.storage_type>0 AND IF(d.doc_type = 'WCLAB', EXISTS (SELECT sig.doc_id FROM document_sign sig WHERE sig.doc_id = d.doc_id AND sig.status = 1), 1)
+
+{{% /note %}}
+
 
 #### Send a Message
 
@@ -555,31 +581,44 @@ WebChart databases may or may not have all the needed chart types, chart tabs, o
 
 1. Add or enable the <strong>Provider Management</strong> menu item.
 2. Add <strong>Chart Types</strong> chart tab, if missing.
-    1. Ensure that <strong>Portal</strong> and <strong>Provider Organization</strong> chart types exist.
+    1. Ensure that <strong>Portal</strong> chart type exists.
+    2. Ensure there is a <strong>Provider Organization</strong> chart type.
+
+{{% info %}}
+
+A provider Organization partition needs added if it does not already exist, using the Partition Manager.
+
+![](../../external_files/79f7dd5eb85f161ef349da9c9bec1e2b.png)
+
+{{% /info %}}
+
+
 3. Ensure that there is a <strong>Portal Setup</strong> and <strong>Patient Portal</strong> chart tab.
-    2. Verify that the Portal Setup and Patient Portal chart tabs are set to the <em>Portal </em>chart type.
+    3. Verify that the Portal Setup and Patient Portal chart tabs are set to the <em>Portal </em>chart type.
 4. Ensure that there is an <strong>Overview (PO)</strong> chart tab and that it is set to <em>Active</em>.
-    3. Verify that the Overview (PO) chart tab is set to a <em>Provider Organization</em> chart type.
+    4. Verify that the Overview (PO) chart tab is set to a <em>Provider Organization</em> chart type.
 5. Ensure the <strong>Pat Portal Invite Email</strong> layout exists. If it does not exist, please reach out to Application Support, so a ticket can be assigned to a portal developer to have it created.
-    4. Verify the content in the layout is edited with the correct portal name if this email layout is copied from another database.
+    5. Verify the content in the layout is edited with the correct portal name if this email layout is copied from another database.
 6. Add a new security role of <strong>Patients</strong> and a new department called <strong>Patients</strong> (these names must match EXACTLY). Set the following security settings for the Patients security role:
-    5. <strong>Limited Access</strong> = Yes
-    6. <strong>Limit to Portal</strong> = Yes
-    7. <strong>Limited to Default Tab</strong> = No
-    8. <strong>Manage Observations</strong> = Edit
-    9. <strong>Document Permissions</strong> = Edit
-    10. <strong>Manage Settings</strong> = Manage Own Settings
-    11. <strong>View Encounters</strong> = Yes
-    12. <strong>Sign Document</strong> = Yes
-    13. <strong>View Preliminary Documents</strong> = Yes
-    14. <strong>Manage Users</strong> = Self
-    15. <strong>Manage User Patients</strong> = Yes
-    16. <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
+    6. <strong>Limited Access</strong> = Yes
+    7. <strong>Limit to Portal</strong> = Yes
+    8. <strong>Limited to Default Tab</strong> = No
+    9. <strong>Manage Observations</strong> = Edit
+    10. <strong>Document Permissions</strong> = Edit
+    11. <strong>Conditions</strong> = Edit
+    12. <strong>Demographics </strong>= Edit
+    13. <strong>Manage Settings</strong> = Manage Own Settings
+    14. <strong>View Encounters</strong> = Yes
+    15. <strong>Sign Document</strong> = Yes
+    16. <strong>View Preliminary Documents</strong> = Yes
+    17. <strong>Manage Users</strong> = Self
+    18. <strong>Manage User Patients</strong> = Yes
+    19. <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
 7. Set the <strong>NMC, Signup, New User Realm</strong> system setting to <em>Patients</em>.
 8. Enable or add <strong>WebChart, NMC, NMC System</strong> system setting by setting the value to <em>1</em> (one).
 9. If clients are not going to utilize both NMC and the patient portal, complete the following:
-    17. Disable the <strong>E-Chart, Encounters, Show NMC link in view</strong> system setting (i.e., set value to 0).
-    18. Set <strong>WebChart, Encounters, Send clinical summary to NMC</strong> system setting to <em>-1</em>.
+    20. Disable the <strong>E-Chart, Encounters, Show NMC link in view</strong> system setting (i.e., set value to 0).
+    21. Set <strong>WebChart, Encounters, Send clinical summary to NMC</strong> system setting to <em>-1</em>.
         1. Verify that the WCPATED doc type (Clinical Summary/Patient Education) does not contain the NMC information located at the bottom of the document. 
 
 {{% /only %}}

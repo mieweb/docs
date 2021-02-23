@@ -2,8 +2,8 @@
 title: "Adding Hospital Case"
 date: 2020-03-09T23:03:30.240Z
 url: "general-functionality/injury-care/case-management/adding-hospital-case.html"
-author: Alan Quandt
-version: 25
+author: aquandt
+version: 31
 id: 1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk
 source: https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk
 menu:

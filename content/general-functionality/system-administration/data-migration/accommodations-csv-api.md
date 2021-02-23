@@ -2,8 +2,8 @@
 title: "Accommodations CSV API"
 date: 2020-02-27T21:32:16.770Z
 url: "general-functionality/system-administration/data-migration/accommodations-csv-api.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc
 source: https://drive.google.com/open?id=1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc
 menu:

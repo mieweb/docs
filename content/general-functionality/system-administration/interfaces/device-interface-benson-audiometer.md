@@ -1,9 +1,8 @@
 ---
 title: "Device Interface - Benson Audiometer"
-date: 2020-03-19T19:08:51.988Z
+date: 2020-05-11T12:19:36.982Z
 url: "general-functionality/system-administration/interfaces/device-interface-benson-audiometer.html"
-author: Jeremia Ploor
-version: 18
+version: 39
 id: 1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0
 source: https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0
 menu:
@@ -62,7 +61,7 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
 * The interface uses files exported from the Benson audio software
 * To get the correct export format a configuration file must be imported into the Benson software
     * Please talk to an implementer to get the configuration file
-    * Use "Merge" file option in Benson Audio software
+    * Use "Merge" file option in the Plus Package software
 * The import menu is not installed on a default system, it must be added from the menu editor in the Control Panel.
     * To select the options that appear in the dropdown of the import page, add "?f=wc_import&s=edit" to the URL and select the desired options.
 * System setting "Save results automatically" should be set to "0"
@@ -71,6 +70,6 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
 
 [Devices List](../../../resources/system-specifications/interface-specifications.html)
 
-Configuration File
+### Configuration File
 
-* File:Stxextract mie.mdb
+* File: [Stxextract mie.mdb](https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)

@@ -2,8 +2,8 @@
 title: "Viewing Cases"
 date: 2020-03-09T23:22:52.265Z
 url: "general-functionality/injury-care/case-management/viewing-cases.html"
-author: Alan Quandt
-version: 35
+author: aquandt
+version: 40
 id: 1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds
 source: https://drive.google.com/open?id=1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds
 menu:

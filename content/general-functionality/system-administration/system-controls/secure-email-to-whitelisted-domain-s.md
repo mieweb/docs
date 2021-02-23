@@ -2,7 +2,7 @@
 title: "Secure Email to Whitelisted Domain(s)"
 date: 2020-02-27T20:21:13.177Z
 url: "general-functionality/system-administration/system-controls/secure-email-to-whitelisted-domain-s.html"
-version: 38
+version: 45
 id: 1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ
 source: https://drive.google.com/open?id=1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ
 menu:

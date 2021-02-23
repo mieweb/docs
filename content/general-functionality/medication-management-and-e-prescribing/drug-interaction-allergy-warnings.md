@@ -2,7 +2,7 @@
 title: "Drug Interaction/Allergy Warnings"
 date: 2020-02-27T20:04:52.863Z
 url: "general-functionality/medication-management-and-e-prescribing/drug-interaction-allergy-warnings.html"
-version: 23
+version: 28
 id: 1m0qyUJ0gzjNW32y7tnUzzTuwj0Fkv-wLTk6agxc8k-8
 source: https://drive.google.com/open?id=1m0qyUJ0gzjNW32y7tnUzzTuwj0Fkv-wLTk6agxc8k-8
 menu:

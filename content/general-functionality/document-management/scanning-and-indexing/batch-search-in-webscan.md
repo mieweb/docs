@@ -2,8 +2,7 @@
 title: "Batch Search in WebScan"
 date: 2020-03-09T16:13:04.599Z
 url: "general-functionality/document-management/scanning-and-indexing/batch-search-in-webscan.html"
-author: Jeremia Ploor
-version: 19
+version: 25
 id: 1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c
 source: https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c
 menu:

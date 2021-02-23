@@ -2,7 +2,7 @@
 title: "Encounter Summary Toolbar"
 date: 2020-02-27T19:55:26.253Z
 url: "general-functionality/encounters/encounter-summary-toolbar.html"
-version: 20
+version: 25
 id: 1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI
 source: https://drive.google.com/open?id=1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI
 menu:

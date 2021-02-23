@@ -2,8 +2,7 @@
 title: "Encounter Plan Section - Medications"
 date: 2020-03-30T15:46:29.194Z
 url: "general-functionality/encounters/encounter-plan-section-medications.html"
-author: Jeremia Ploor
-version: 111
+version: 117
 id: 1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A
 source: https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A
 menu:

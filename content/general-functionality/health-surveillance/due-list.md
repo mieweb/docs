@@ -2,8 +2,7 @@
 title: "Due List"
 date: 2020-03-30T17:02:56.352Z
 url: "general-functionality/health-surveillance/due-list.html"
-author: Jeremia Ploor
-version: 69
+version: 78
 id: 1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg
 source: https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg
 menu:

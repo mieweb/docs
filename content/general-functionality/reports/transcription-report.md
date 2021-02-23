@@ -1,8 +1,9 @@
 ---
 title: "Transcription Report"
-date: 2020-02-27T20:17:14.867Z
+date: 2021-02-22T18:34:34.162Z
 url: "general-functionality/reports/transcription-report.html"
-version: 15
+author: Edward Grzetich
+version: 35
 id: 1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM
 source: https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM
 menu:
@@ -12,39 +13,59 @@ menu:
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
         weight: 4360
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control. Additionally, you must have security role access to the Transcription Stats. This setting is in the Security Role Editor and is in {{% system-name %}} controls called VIEW TRANSCRIPTION STATS. Set to None, View Own Stats, or View Others Stats. This allows users within a role to access the Tran Report tab in the Report left side-bar tab.
+{note}The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {system-name} and not performance metrics.{/note}
 
-Click *Reports* tab on the left side-bar menu.
+Use transcription reports to view statistics on transcription output. The report can present information based on department, provider, user, document type, and ranges of dates. A transcription report includes the following information:
 
-Click *Tran Reports* tab from the top tab menu.
+* <em>User:</em> User name of the transcriptionist.
+* <em>Last:</em> Last name of the transcriptionist.
+* <em>First:</em> First name of the transcriptionist.
+* <em>MI:</em> Middle initial of the transcriptionist.
+* <em>Char.:</em> Quantity of characters not including spaces transcribed during the period of the report.
+* <em>Char w/Space:</em> Quantity of characters including spaces transcribed during the period of the report.
+* <em>Words:</em> Quantity of words transcribed during the period of the report.
+* <em>Lines: </em>Quantity of lines of text not including spaces transcribed during the period of the report.
+* <em>Lines w/Space: </em>Quantity of lines of text including spaces transcribed during the period of the report.
+* <em>Paragraphs:</em> Quantity of paragraphs transcribed during the period of the report.
+* <em>Pages:</em> Quantity of pages transcribed during the period of the report.
+* <em>Total # Transcriptions:</em>
+* <em>Editing Time:</em> Total number of minutes spent in transcription during the period of the report based on the amount of time the transcription window is open. This is simply a statistic, not a performance metric.
+* <em>WPM:</em> Quantity of words transcribed per minute calculated by dividing the calculated editing time by the quantity of words per minute transcribed during the period of the report. This is simply a statistic, not a performance metric.
+* <em>Dictation MM:SS:</em> Length of dictation in minutes and seconds included in the period of the report.
 
-You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.
+Some transcriptions are based on templated documents. Templates include characters, words, and lines (like a form) to which information is added. Typically for transcription statistics, it is undesirable to include the characters, words, and lines that are part of the template and which the transcriptionist did not transcribe. When generating a transcription status report, the system can exclude characters, words, and lines that are part of the template from the quantities of characters, words, and lines transcribed. For example, if a template contains a quantity of 100 characters, words, and lines and the transcriptionist transcribes an additional quantity of 100 characters, words, and lines that were entered into the template, the system may calculate a quantity of 200 characters, words, and lines transcribed if the quantity that are part of the template are not excluded. To exclude them, see Subtract Template Stats field.
 
-![](../../external_files/fd82366faa7158e80cb4efa80353ac03.png)
+The system can automatically provide a comparison of transcription statistics for two periods of time. When doing so, the system displays the statistics for each period and then the differences between them for each statistic reported. To produce a report including a comparison of statistics, see Transcribed Date Range #2* *field.
 
-* <strong>Select Dept</strong>: You can select a specific department you wish to view transcription stats for using the drop-down arrow.
-* <strong>Select User:</strong> If you selected a department in the field prior, the <em>Select User</em> field will only show users within that department. You can narrow down your transcription report by a specific user in that department. If you do not select a department in the field prior, all users in your system will show up in the <em>Select User</em> field to choose from. You can narrow down the results by a specific user in your system.
-* <strong>Limit To Provider:</strong> Begin typing in the last or first name of the provider (physician) you want to limit transcription statistics to. The results will show dictation statistics related to that specific provider only. If you do not select a provider in this field, the transcription results will be for any and all providers.
+You must have security role access to reports and to viewing transcription statistics before generating transcription reports. The access to reports is controlled by the *Statistics* setting and viewing transcription statistics is controlled by the *Tran Reports* setting in the Security Role Editor. See [Security Role Settings](../system-administration/security/security-role-settings.html).
 
-![](../../external_files/62751ca8a0e884a9bab946ddbfae3491.png)
+1. Show the side menu. The side menu appears.
+2. From the side menu, select <strong>Reports</strong>.
+3. Select <strong>Dictation/Transcription</strong>. The <em>Dictation/Transcription</em> section appears.
+4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears. ![](../../external_files/f4190f61f9dbc747972dacec7e971248.png)
+5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report: 
+    * <em>Select </em> <em>Department</em>: Select department for which to view transcription statistics.
+    * <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user. If you selected a department in the <em>Select Department</em> field, only users in that department are shown in this field. If you did not select a department, all users are shown in this field.
+    * <em>Limit To Provider:</em> To limit the report to transcriptions performed for a provider, type the first or last name of the provider. If you do not select a provider in this field, the transcription results will be for all providers.
+    * <em>Document Type</em>: To limit the report to transcriptions performed on a type of document, select the document type. To not limit the report, leave set to <em>All Document Types</em>
+    * <em>Exclude Selected Document Type:</em> To exclude transcriptions performed on a type of document, select that type of document from the <em>Document Type</em> field and select this check box. The report will contain transcription statistics for all types of documents except that selected in the <em>Document Type</em> field.
+    * <em>Subtract Template Stats:</em> To exclude from transcription statistics words contained in a template on which the transcribed document is based, select this check box. 
+    * <em>Transcription Type:</em> To produce a report limited to one type of information transcribed, select that type. If you select <em>All Transcriptions</em> or <em>Encounter Observations</em>, the system resets the <em>Document Type</em> field to <em>All</em> and the check box of the <em>Exclude Selected Document Type</em> is cleared and the field made unavailable because these are only applicable to document types.
+    * <em>Transcribed Date Range #1:</em> Do one:
+        * Leave all month, day, and year fields blank to show transcription statistics from all time.
+        * To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+        * To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
+        * To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+    * <em>Transcribed Date Range #2:</em> To see and compare transcription statistics of two ranges of dates, do one of the following. To not see nor compare transcription statistics of two ranges, of dates, leave these fields empty.
+        * Leave all month, day, and year fields blank to show transcription statistics from all time.
+        * To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+        * To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
+        * To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
 
-* <strong>Document Type</strong>: Select the specific document type you wish the stats to be reported on or leave as All Document Types.
-* <strong>Exclude Selected Document Type:</strong> You can select a document type, then check-mark the box to <em>Exclude Selected Document Type</em>. This will run transcription stats on <strong>all</strong> document types <strong>except</strong> the <strong>one</strong> that you selected from the drop- down arrow box.
-* <strong>Subtract Template Stats:</strong> Template characters are words/lines/characters that someone already typed in a ‘word' document as a template/guide to follow. When a word template is added, the word/line/character counts are stored in a database table, and if this ‘subtract template stats' option is selected, the report will subtract those totals from the final documents that the transcriptionists add. If the pre-typed template has 1000 characters in it, and the transcriptionist types an additional 1000 when adding a document of that type, then there are 2000 characters in the document. If someone wants to see how much actual typing the transcriptionist did, they want to be able to subtract that original 1000 characters. The subtract templates stats does deduct what prefills into the template (ie. Name:, Date: MR #, etc.) but it does not subtract the data that autopopulates (ie. the actual patient name, the actual date, the actual medical record NUMBER, etc.).
-* <strong>Transcription Type:</strong> Select the transcription type to be limited to or leave as All Transcription Types to be reported. If you select ‘All Transcriptions' or ‘Encounter Observations' for the Transcription Type, the ‘Document Type' choice will be reset to ‘All' and the ‘Exclude' option is cleared and grayed out. When you select ‘Text/Word Documents' the ‘Exclude' option is enabled. This is because the document type only really matters when you are looking at Text/Word Documents.
-* <strong>Transcribed Date Range #1:</strong> Type in a date range of statistics to show. If left blank, it will pull everything ever done. Leaving starting date blank will include everything before ending date. Leaving ending date blank will include everything after starting date. If both are blank, all dates will be included.
-* <strong>Transcribed Date Range #2:</strong> Enter a date range here if you wish to run stats comparing this date range against the Date Range #1 field. At least one date must be valid or no comparison will be made. In Date Range #1 you would enter a date range, and here in Date Range #2, you would enter a different date range. The statistics display results as a comparison of two different date ranges.
+![](../../external_files/02f4d111614bbf7cc6e830b079724a6d.png)
 
 ![](../../external_files/374e7df17d7037ff90874ce921d11e7a.png)
 
-Click *Run Query* button to run the Transcription Statistics Report.
 
-It will then run and at the bottom of the screen it will show each username with their specific statistics.
-
-The columns have titles to result the information.
-
-* <strong>Editing Time</strong> column displays total number of minutes based on the time difference between when the transcription window is opened until it is closed. This is simply a metric, not performance metric.
-* <strong>Dictation MM:SS</strong> column is the total number of minutes and seconds of dictation that was used to transcribe the documents in the report.
-
-![](../../external_files/02f4d111614bbf7cc6e830b079724a6d.png)
 

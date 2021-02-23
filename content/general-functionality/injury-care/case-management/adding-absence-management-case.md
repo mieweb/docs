@@ -2,8 +2,8 @@
 title: "Adding Absence Management Case"
 date: 2020-03-09T23:02:39.211Z
 url: "general-functionality/injury-care/case-management/adding-absence-management-case.html"
-author: Alan Quandt
-version: 23
+author: aquandt
+version: 29
 id: 1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY
 source: https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY
 menu:

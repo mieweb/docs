@@ -2,8 +2,7 @@
 title: "Scheduler Inputs Editor Required/Recommended Fields"
 date: 2020-03-25T17:18:55.860Z
 url: "general-functionality/scheduling/scheduler-inputs-editor-required-recommended-fields.html"
-author: Jeremia Ploor
-version: 26
+version: 32
 id: 1qEbtV_j1szCuj6q_3JCUFmodXw8Jqigh06gUynj7woo
 source: https://drive.google.com/open?id=1qEbtV_j1szCuj6q_3JCUFmodXw8Jqigh06gUynj7woo
 menu:
@@ -17,7 +16,7 @@ You can set fields to be required or recommended when adding/creating appointmen
 
 You can set which fields your practice would like to be required or simply fields deemed recommended that users fill out when creating/adding appointments using the {{% system-name %}} scheduler. The required/recommended inputs editor in the scheduler differentiates between scheduled appointments and appointments added to the waitlist. Each of those two types of appointments can have its own set of required and recommended inputs.
 
-![](../../external_files/fe72757bdabd173944cca6fbe40076db.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 When users are creating/adding appointments in {{% system-name %}} , any of the ADD APPOINTMENT fields can now be set as required or recommended.
 
@@ -48,7 +47,7 @@ Required fields must be fixed before it will allow you to save the appointment. 
 
 You can set which fields your practice would like to be required or simply fields that are recommended that users fill out when creating/adding appointments in {{% system-name %}} scheduler. You must have security rights to System Settings Editor to access this.
 
-![](../../external_files/fe72757bdabd173944cca6fbe40076db.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 Go into the sidemenu tab named SCHEDULER. Click the WIZARD tab at the top.
 
@@ -58,7 +57,7 @@ Scroll down to the bottom without entering anything in any fields in the Wizard 
 
 The Scheduler Inputs Editor will appear on your screen. Here you choose the radio button for each field that you wish to make required or wish to tag as recommended. Leave as ‘none' if you don't require nor recommended the field(s) need be filled out when users are creating/scheduling patient appointments in {{% system-name %}} . Resource is a system required field and not editable.
 
-![](../../external_files/fe72757bdabd173944cca6fbe40076db.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 When done making the radio button selections in the Scheduler Inputs Editor, you **must** type in a reason for the change(s). Then click the SAVE button. Your selections are saved and you can get out of the wizard tab and continue working elsewhere in {{% system-name %}} , or schedule an appointment.
 

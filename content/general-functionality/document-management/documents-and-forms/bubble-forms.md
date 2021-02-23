@@ -2,8 +2,7 @@
 title: "Bubble Forms"
 date: 2020-03-06T20:04:39.113Z
 url: "general-functionality/document-management/documents-and-forms/bubble-forms.html"
-author: Jeremia Ploor
-version: 17
+version: 27
 id: 1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0
 source: https://drive.google.com/open?id=1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0
 menu:

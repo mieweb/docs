@@ -2,7 +2,7 @@
 title: "MammoTrack Sidemenu"
 date: 2020-02-27T20:29:25.900Z
 url: "general-functionality/system-administration/interfaces/mammotrack-sidemenu.html"
-version: 35
+version: 40
 id: 1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0
 source: https://drive.google.com/open?id=1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0
 menu:
@@ -236,7 +236,7 @@ The only option (if you have security rights) is to *un-delete*. When you click 
 
 Click *Undelete* to undelete the mammogram, or cancel to exit out.
 
-![](../../../external_files/bbe15b2116834837d8e6c42600aa8702.png)
+![](../../../external_files/8e585db8c071960eb3f5c6f80480f75f.png)
 
 After you *undelete,* it will give you the message at the top of the screen that the *mammogram was* *successfully un-deleted.* It then moves this mammogram into the *Ready to Send* status tab (P birad status).
 

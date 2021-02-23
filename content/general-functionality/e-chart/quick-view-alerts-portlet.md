@@ -2,8 +2,7 @@
 title: "Quick View - Alerts Portlet"
 date: 2020-03-09T21:13:03.975Z
 url: "general-functionality/e-chart/quick-view-alerts-portlet.html"
-author: Jeremia Ploor
-version: 63
+version: 69
 id: 186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY
 source: https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY
 menu:

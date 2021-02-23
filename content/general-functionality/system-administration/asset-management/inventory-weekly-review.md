@@ -2,7 +2,7 @@
 title: "Inventory Weekly Review"
 date: 2020-02-27T20:32:27.298Z
 url: "general-functionality/system-administration/asset-management/inventory-weekly-review.html"
-version: 11
+version: 16
 id: 1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I
 source: https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I
 menu:

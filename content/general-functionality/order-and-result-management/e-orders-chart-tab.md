@@ -2,8 +2,7 @@
 title: "E-Orders Chart Tab"
 date: 2020-03-13T19:19:01.256Z
 url: "general-functionality/order-and-result-management/e-orders-chart-tab.html"
-author: Jeremia Ploor
-version: 59
+version: 65
 id: 1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o
 source: https://drive.google.com/open?id=1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o
 menu:

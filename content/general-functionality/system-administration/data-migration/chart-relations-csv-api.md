@@ -2,8 +2,8 @@
 title: "Chart Relations CSV API"
 date: 2020-02-28T15:25:48.497Z
 url: "general-functionality/system-administration/data-migration/chart-relations-csv-api.html"
-author: Alan Quandt
-version: 17
+author: aquandt
+version: 22
 id: 1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k
 source: https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k
 menu:
@@ -46,64 +46,40 @@ High Level: Patient 2 is related to Patient 1 with Relation Type.
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Type    </td>
-    <td>
-Required    </td>
-    <td>
-Comments    </td>
+    <td>Name</td>
+    <td>Type</td>
+    <td>Required</td>
+    <td>Comments</td>
   </tr>
   <tr>
-    <td>
-PAT1_PARTITION    </td>
-    <td>
-char    </td>
-    <td>
-R    </td>
-    <td>
-Partition of first patient    </td>
+    <td>PAT1_PARTITION</td>
+    <td>char</td>
+    <td>R</td>
+    <td>Partition of first patient</td>
   </tr>
   <tr>
-    <td>
-PAT1_MRN    </td>
-    <td>
-integer    </td>
-    <td>
-R    </td>
-    <td>
-MR Number of first patient    </td>
+    <td>PAT1_MRN</td>
+    <td>integer</td>
+    <td>R</td>
+    <td>MR Number of first patient</td>
   </tr>
   <tr>
-    <td>
-PAT2_PARTITION    </td>
-    <td>
-char    </td>
-    <td>
-R    </td>
-    <td>
-Partition of second patient    </td>
+    <td>PAT2_PARTITION</td>
+    <td>char</td>
+    <td>R</td>
+    <td>Partition of second patient</td>
   </tr>
   <tr>
-    <td>
-PAT2_MRN    </td>
-    <td>
-integer    </td>
-    <td>
-R    </td>
-    <td>
-MR Number of second patient    </td>
+    <td>PAT2_MRN</td>
+    <td>integer</td>
+    <td>R</td>
+    <td>MR Number of second patient</td>
   </tr>
   <tr>
-    <td>
-RELATION_TYPE_ID    </td>
-    <td>
-integer    </td>
-    <td>
-R    </td>
-    <td>
-Relation type between both patients    </td>
+    <td>RELATION_TYPE_ID</td>
+    <td>integer</td>
+    <td>R</td>
+    <td>Relation type between both patients</td>
   </tr>
 </table>
 
@@ -115,112 +91,76 @@ The following table outlines default relation types.
 
 <table>
   <tr>
-    <td>
-Relation Type    </td>
-    <td>
-Relation ID    </td>
+    <td>Relation Type</td>
+    <td>Relation ID</td>
   </tr>
   <tr>
-    <td>
-Self    </td>
-    <td>
-1    </td>
+    <td>Self</td>
+    <td>1</td>
   </tr>
   <tr>
-    <td>
-Spouse    </td>
-    <td>
-2    </td>
+    <td>Spouse</td>
+    <td>2</td>
   </tr>
   <tr>
-    <td>
-Parent    </td>
-    <td>
-3    </td>
+    <td>Parent</td>
+    <td>3</td>
   </tr>
   <tr>
-    <td>
-Grandparent    </td>
-    <td>
-4    </td>
+    <td>Grandparent</td>
+    <td>4</td>
   </tr>
   <tr>
-    <td>
-Child    </td>
-    <td>
-5    </td>
+    <td>Child</td>
+    <td>5</td>
   </tr>
   <tr>
-    <td>
-Sibling    </td>
-    <td>
-6    </td>
+    <td>Sibling</td>
+    <td>6</td>
   </tr>
   <tr>
-    <td>
-Aunt/Uncle    </td>
-    <td>
-7    </td>
+    <td>Aunt/Uncle</td>
+    <td>7</td>
   </tr>
   <tr>
-    <td>
-Cousin    </td>
-    <td>
-8    </td>
+    <td>Cousin</td>
+    <td>8</td>
   </tr>
   <tr>
-    <td>
-Mother    </td>
-    <td>
-9    </td>
+    <td>Mother</td>
+    <td>9</td>
   </tr>
   <tr>
-    <td>
-Father    </td>
-    <td>
-10    </td>
+    <td>Father</td>
+    <td>10</td>
   </tr>
   <tr>
-    <td>
-Unknown    </td>
-    <td>
-11    </td>
+    <td>Unknown</td>
+    <td>11</td>
   </tr>
   <tr>
-    <td>
-Grandchild    </td>
-    <td>
-12    </td>
+    <td>Grandchild</td>
+    <td>12</td>
   </tr>
   <tr>
-    <td>
-Niece/Nephew    </td>
-    <td>
-13    </td>
+    <td>Niece/Nephew</td>
+    <td>13</td>
   </tr>
   <tr>
-    <td>
-Provider    </td>
-    <td>
-14    </td>
+    <td>Provider</td>
+    <td>14</td>
   </tr>
   <tr>
-    <td>
-Provider Organization    </td>
-    <td>
-15    </td>
+    <td>Provider Organization</td>
+    <td>15</td>
   </tr>
   <tr>
-    <td>
-Contact    </td>
-    <td>
-16    </td>
+    <td>Contact</td>
+    <td>16</td>
   </tr>
   <tr>
-    <td>
-    </td>
-    <td>
-[[Relation Type ID]]    </td>
+    <td></td>
+    <td>[[Relation Type ID]]</td>
   </tr>
 </table>
 

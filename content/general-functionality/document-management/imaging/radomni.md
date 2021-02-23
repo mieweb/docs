@@ -2,7 +2,7 @@
 title: "RadOmni"
 date: 2020-02-27T21:01:07.965Z
 url: "general-functionality/document-management/imaging/radomni.html"
-version: 7
+version: 12
 id: 1mTsD1oXYnV2ZVK_7okDnVLmvkG60cAj5x0-DwUypgk8
 source: https://drive.google.com/open?id=1mTsD1oXYnV2ZVK_7okDnVLmvkG60cAj5x0-DwUypgk8
 menu:

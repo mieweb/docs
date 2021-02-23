@@ -2,7 +2,7 @@
 title: "Device Interface - EKG System"
 date: 2020-02-27T20:28:15.111Z
 url: "general-functionality/system-administration/interfaces/device-interface-ekg-system.html"
-version: 22
+version: 29
 id: 1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs
 source: https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs
 menu:

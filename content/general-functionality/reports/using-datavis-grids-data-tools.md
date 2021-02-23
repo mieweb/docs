@@ -2,8 +2,7 @@
 title: "Using DataVis Grids - Data Tools"
 date: 2020-03-16T16:31:49.734Z
 url: "general-functionality/reports/using-datavis-grids-data-tools.html"
-author: Jeremia Ploor
-version: 20
+version: 36
 id: 1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY
 source: https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY
 menu:

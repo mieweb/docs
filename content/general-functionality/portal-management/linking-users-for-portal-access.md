@@ -2,8 +2,7 @@
 title: "Linking Users for Portal Access"
 date: 2020-03-25T18:42:13.576Z
 url: "general-functionality/portal-management/linking-users-for-portal-access.html"
-author: Jeremia Ploor
-version: 37
+version: 43
 id: 1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8
 source: https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8
 menu:

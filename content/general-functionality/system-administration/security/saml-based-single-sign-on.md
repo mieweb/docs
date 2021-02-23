@@ -2,8 +2,8 @@
 title: "SAML-Based Single Sign-On"
 date: 2020-02-27T21:22:13.838Z
 url: "general-functionality/system-administration/security/saml-based-single-sign-on.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc
 source: https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc
 menu:

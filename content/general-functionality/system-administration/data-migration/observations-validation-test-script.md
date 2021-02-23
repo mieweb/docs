@@ -2,8 +2,8 @@
 title: "Observations Validation Test Script"
 date: 2020-02-28T15:30:47.082Z
 url: "general-functionality/system-administration/data-migration/observations-validation-test-script.html"
-author: Alan Quandt
-version: 39
+author: aquandt
+version: 44
 id: 1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM
 source: https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM
 menu:
@@ -33,36 +33,24 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
 <table>
   <tr>
-    <td>
-**Field Name**    </td>
-    <td>
-**Description**    </td>
-    <td>
-**Example**    </td>
+    <td>**Field Name**</td>
+    <td>**Description**</td>
+    <td>**Example**</td>
   </tr>
   <tr>
-    <td>
-Employee ID    </td>
-    <td>
-Employee Identifier    </td>
-    <td>
-MR 12345    </td>
+    <td>Employee ID</td>
+    <td>Employee Identifier</td>
+    <td>MR 12345</td>
   </tr>
   <tr>
-    <td>
-Observation Name    </td>
-    <td>
-Name of observation to validate    </td>
-    <td>
-p.work_phone    </td>
+    <td>Observation Name</td>
+    <td>Name of observation to validate</td>
+    <td>p.work_phone</td>
   </tr>
   <tr>
-    <td>
-Observation Result    </td>
-    <td>
-Expected result of observation being validated    </td>
-    <td>
-8883139766    </td>
+    <td>Observation Result</td>
+    <td>Expected result of observation being validated</td>
+    <td>8883139766</td>
   </tr>
 </table>
 

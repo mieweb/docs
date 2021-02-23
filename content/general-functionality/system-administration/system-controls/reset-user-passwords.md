@@ -2,8 +2,7 @@
 title: "Reset User Passwords"
 date: 2020-03-16T22:43:01.849Z
 url: "general-functionality/system-administration/system-controls/reset-user-passwords.html"
-author: Jeremia Ploor
-version: 29
+version: 35
 id: 19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws
 source: https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws
 menu:

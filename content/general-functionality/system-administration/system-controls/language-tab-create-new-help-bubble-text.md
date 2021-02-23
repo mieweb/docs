@@ -2,7 +2,7 @@
 title: "Language Tab - Create New Help Bubble Text"
 date: 2020-02-27T20:20:44.606Z
 url: "general-functionality/system-administration/system-controls/language-tab-create-new-help-bubble-text.html"
-version: 20
+version: 25
 id: 1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk
 source: https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk
 menu:

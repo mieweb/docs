@@ -2,8 +2,7 @@
 title: "Messages from NMC User"
 date: 2020-03-11T22:32:43.569Z
 url: "general-functionality/portal-management/messages-from-nmc-user.html"
-author: Jeremia Ploor
-version: 65
+version: 71
 id: 1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM
 source: https://drive.google.com/open?id=1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM
 menu:

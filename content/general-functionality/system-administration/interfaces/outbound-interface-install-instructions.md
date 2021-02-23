@@ -2,8 +2,7 @@
 title: "Outbound Interface Install Instructions"
 date: 2020-03-05T15:43:31.766Z
 url: "general-functionality/system-administration/interfaces/outbound-interface-install-instructions.html"
-author: Jeremia Ploor
-version: 50
+version: 72
 id: 1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA
 source: https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA
 ---

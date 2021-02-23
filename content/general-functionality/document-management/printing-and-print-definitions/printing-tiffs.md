@@ -2,8 +2,7 @@
 title: "Printing TIFFs"
 date: 2020-03-24T15:06:06.991Z
 url: "general-functionality/document-management/printing-and-print-definitions/printing-tiffs.html"
-author: Jeremia Ploor
-version: 31
+version: 37
 id: 174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ
 source: https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ
 menu:

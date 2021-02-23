@@ -2,8 +2,7 @@
 title: "E-Orders - Add Order Requests"
 date: 2020-03-13T19:22:58.979Z
 url: "general-functionality/order-and-result-management/e-orders-add-order-requests.html"
-author: Jeremia Ploor
-version: 44
+version: 52
 id: 1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50
 source: https://drive.google.com/open?id=1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50
 menu:
@@ -140,7 +139,7 @@ A Print ABN hyperlink can be programmed to display, reminding users that an Adva
 
 If the value of this system setting is set to 2 for the system you are working in, the Print ABN link will be shown on the stored order documents for all patients regardless of Medicare B status or CPT requirements.
 
-![](../../external_files/f01b797d82a704fb3d2603ff6ae906fd.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 Then to print, click PRINT/FAX ORDER.
 

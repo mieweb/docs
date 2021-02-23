@@ -2,8 +2,7 @@
 title: "Data Migration Questionnaire"
 date: 2020-03-17T00:54:23.101Z
 url: "general-functionality/system-administration/data-migration/data-migration-questionnaire.html"
-author: Jeremia Ploor
-version: 35
+version: 41
 id: 1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg
 source: https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg
 menu:
@@ -56,244 +55,144 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
 
 <table>
   <tr>
-    <td>
-DATA TYPES    </td>
-    <td>
-REQUIRED (Y/N)    </td>
-    <td>
-METHOD (DISCRETE/SUMMARY/BOTH)    </td>
-    <td>
-RELATED REPORTS    </td>
-    <td>
-NOTES OR COMMENTS    </td>
+    <td>DATA TYPES</td>
+    <td>REQUIRED (Y/N)</td>
+    <td>METHOD (DISCRETE/SUMMARY/BOTH)</td>
+    <td>RELATED REPORTS</td>
+    <td>NOTES OR COMMENTS</td>
   </tr>
   <tr>
-    <td>
-Employee Demographics    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Employee Demographics</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Users/Providers    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Users/Providers</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Service Locations    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Service Locations</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Case Management (wellness visits or injury- and illness-related cases)    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Case Management (wellness visits or injury- and illness-related cases)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Health Surveillance (membership and due dates)    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Health Surveillance (membership and due dates)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Audiometric Testing    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Audiometric Testing</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Pulmonary Function Testing    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Pulmonary Function Testing</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Vitals    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Vitals</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Lab Results    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Lab Results</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Respirator Fit Testing    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Respirator Fit Testing</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Scanned images or flat files (e.g. ECGs, Word, Excel, or PDF documents), scanned charts, or employee photos    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Scanned images or flat files (e.g. ECGs, Word, Excel, or PDF documents), scanned charts, or employee photos</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Questionnaires    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Questionnaires</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Immunizations    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Immunizations</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Medications    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Medications</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Allergies    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Allergies</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Absence Management (Work Restrictions & Accommodations)    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Absence Management (Work Restrictions & Accommodations)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Diagnoses/ Conditions    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Diagnoses/ Conditions</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Appointments    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Appointments</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td>
-Medical Suitability for Expatriate Assignment evaluations    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
+    <td>Medical Suitability for Expatriate Assignment evaluations</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 

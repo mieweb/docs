@@ -2,8 +2,7 @@
 title: "Partition Manager"
 date: 2020-03-16T22:54:37.896Z
 url: "general-functionality/system-administration/system-controls/partition-manager.html"
-author: Jeremia Ploor
-version: 23
+version: 31
 id: 1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU
 source: https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU
 menu:

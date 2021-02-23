@@ -2,7 +2,7 @@
 title: "ADFS 3.0 Configuration for SSO"
 date: 2020-02-27T20:26:04.497Z
 url: "general-functionality/system-administration/security/adfs-3.0-configuration-for-sso.html"
-version: 32
+version: 37
 id: 15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM
 source: https://drive.google.com/open?id=15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM
 menu:

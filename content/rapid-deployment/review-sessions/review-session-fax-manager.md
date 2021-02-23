@@ -2,8 +2,8 @@
 title: "Review Session - Fax Manager"
 date: 2020-02-27T21:25:58.999Z
 url: "rapid-deployment/review-sessions/review-session-fax-manager.html"
-author: Alan Quandt
-version: 15
+author: aquandt
+version: 20
 id: 19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM
 source: https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM
 menu:
@@ -143,7 +143,7 @@ For more information, see the [My Settings](../../general-functionality/system-a
 
 ### Help Documentation
 
-* [Batched Documents-Printing or Faxing or Burning](../../general-functionality/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.html)
+* [Batched Documents-Printing or Faxing or Burning](../../general-functionality/document-management/scanning-and-indexing/batched-documents-printing-faxing-bu.html)
 * [Email Notification of Sent or Failed Faxes](../../general-functionality/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.html)
 * [Fax Manager Tab](../../general-functionality/fax-manager/fax-manager-tab-outbound-faxing.html)
 * [Faxing Documents](../../general-functionality/fax-manager/faxing-documents.html)

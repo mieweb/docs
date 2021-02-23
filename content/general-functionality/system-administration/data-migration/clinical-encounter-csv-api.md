@@ -2,8 +2,7 @@
 title: "Clinical Encounter CSV API"
 date: 2020-03-17T13:11:47.649Z
 url: "general-functionality/system-administration/data-migration/clinical-encounter-csv-api.html"
-author: Jeremia Ploor
-version: 19
+version: 25
 id: 1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk
 source: https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk
 menu:

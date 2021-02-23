@@ -2,7 +2,7 @@
 title: "Encounter Report"
 date: 2020-02-27T20:14:04.456Z
 url: "general-functionality/reports/encounter-report.html"
-version: 15
+version: 20
 id: 1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ
 source: https://drive.google.com/open?id=1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ
 menu:

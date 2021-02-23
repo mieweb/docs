@@ -2,8 +2,7 @@
 title: "PDF Documents"
 date: 2020-03-05T20:46:46.117Z
 url: "general-functionality/document-management/documents-and-forms/pdf-documents.html"
-author: Jeremia Ploor
-version: 41
+version: 47
 id: 153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY
 source: https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY
 menu:

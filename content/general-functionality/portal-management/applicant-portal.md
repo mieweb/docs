@@ -2,8 +2,7 @@
 title: "Applicant Portal"
 date: 2020-03-20T17:21:42.097Z
 url: "general-functionality/portal-management/applicant-portal.html"
-author: Jeremia Ploor
-version: 84
+version: 90
 id: 14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU
 source: https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU
 menu:

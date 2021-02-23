@@ -2,8 +2,7 @@
 title: "Working in a Visit Encounter"
 date: 2020-03-26T17:19:46.927Z
 url: "general-functionality/encounters/working-in-a-visit-encounter.html"
-author: Jeremia Ploor
-version: 70
+version: 78
 id: 1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M
 source: https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M
 menu:
@@ -421,7 +420,7 @@ A default stored encounter template can also be applied when setting up appointm
 
 One can also apply a template to an encounter at time of creation. From the Quick Links portlet, there is an icon next to each visit type available for quick creation. Clicking on this icon will open up the template choices. Selecting a template choice will then open/create the encounter of the icon you clicked next to, and applies the template you selected.
 
-![](../../external_files/2ce4192f8e49014edf5dd52ed88aac38.png) ![](../../external_files/b565d1910e5f3b6af83dff97a15fb64d.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png) ![](../../external_files/b565d1910e5f3b6af83dff97a15fb64d.png)
 
 Dynamic encounter templates also use the "Archive as" document type if one was set in the template being used and save as that doc.type once encounter is closed/archived.
 

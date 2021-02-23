@@ -2,8 +2,8 @@
 title: "Review Session - System Administration"
 date: 2020-02-27T21:26:12.492Z
 url: "rapid-deployment/review-sessions/review-session-system-administration.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 17
 id: 1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec
 source: https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec
 menu:

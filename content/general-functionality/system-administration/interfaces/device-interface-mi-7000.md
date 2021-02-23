@@ -2,8 +2,8 @@
 title: "Device Interface - MI 7000"
 date: 2020-02-27T21:28:12.911Z
 url: "general-functionality/system-administration/interfaces/device-interface-mi-7000.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8
 source: https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8
 menu:

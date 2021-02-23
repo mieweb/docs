@@ -2,8 +2,7 @@
 title: "Document Details"
 date: 2020-03-23T17:49:31.479Z
 url: "general-functionality/document-management/documents-and-forms/document-details.html"
-author: Jeremia Ploor
-version: 33
+version: 39
 id: 1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg
 source: https://drive.google.com/open?id=1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg
 menu:

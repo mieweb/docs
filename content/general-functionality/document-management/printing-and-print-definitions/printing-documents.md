@@ -2,8 +2,7 @@
 title: "Printing Documents"
 date: 2020-03-24T15:02:35.364Z
 url: "general-functionality/document-management/printing-and-print-definitions/printing-documents.html"
-author: Jeremia Ploor
-version: 23
+version: 33
 id: 1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q
 source: https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q
 menu:

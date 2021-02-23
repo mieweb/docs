@@ -2,8 +2,8 @@
 title: "Review Session - Portal Management"
 date: 2020-02-27T21:25:02.537Z
 url: "rapid-deployment/review-sessions/review-session-portal-management.html"
-author: Alan Quandt
-version: 22
+author: aquandt
+version: 29
 id: 1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk
 source: https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk
 menu:

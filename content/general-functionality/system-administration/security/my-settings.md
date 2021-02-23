@@ -2,8 +2,8 @@
 title: "My Settings"
 date: 2020-03-10T14:12:00.297Z
 url: "general-functionality/system-administration/security/my-settings.html"
-author: Alan Quandt
-version: 30
+author: aquandt
+version: 41
 id: 1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc
 source: https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc
 menu:
@@ -487,7 +487,7 @@ To save settings, click Submit Settings at the top or bottom of the screen.
 
 
 
-![](../../../external_files/e9fbee43199cf94fb9d51c6b51753881.png)
+![](../../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 ### Password/PIN Control
 

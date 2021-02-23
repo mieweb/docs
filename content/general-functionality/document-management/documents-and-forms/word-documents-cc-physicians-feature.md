@@ -2,8 +2,7 @@
 title: "Word Documents - CC Physicians Feature"
 date: 2020-03-23T16:31:35.134Z
 url: "general-functionality/document-management/documents-and-forms/word-documents-cc-physicians-feature.html"
-author: Jeremia Ploor
-version: 65
+version: 71
 id: 1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ
 source: https://drive.google.com/open?id=1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ
 menu:

@@ -2,8 +2,7 @@
 title: "Fast Task Templates"
 date: 2020-03-16T15:58:58.269Z
 url: "general-functionality/task-management/fast-task-templates.html"
-author: Jeremia Ploor
-version: 30
+version: 64
 id: 1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw
 source: https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw
 menu:

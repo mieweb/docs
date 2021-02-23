@@ -2,8 +2,7 @@
 title: "Closing an Existing Case"
 date: 2020-03-13T13:45:11.738Z
 url: "general-functionality/injury-care/case-management/closing-an-existing-case.html"
-author: Jeremia Ploor
-version: 29
+version: 35
 id: 1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw
 source: https://drive.google.com/open?id=1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw
 menu:

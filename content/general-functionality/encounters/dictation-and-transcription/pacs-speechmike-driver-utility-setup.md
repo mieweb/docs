@@ -2,7 +2,7 @@
 title: "PACS SpeechMike Driver Utility Setup"
 date: 2020-02-27T19:52:36.833Z
 url: "general-functionality/encounters/dictation-and-transcription/pacs-speechmike-driver-utility-setup.html"
-version: 23
+version: 32
 id: 1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg
 source: https://drive.google.com/open?id=1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg
 menu:

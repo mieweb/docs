@@ -2,8 +2,8 @@
 title: "Pharmacy Filter Import"
 date: 2020-02-27T21:30:59.551Z
 url: "general-functionality/system-administration/data-migration/pharmacy-filter-import.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A
 source: https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A
 menu:
@@ -60,44 +60,28 @@ The purpose of this page is to define data and fields that may be imported into 
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Type    </td>
-    <td>
-Required    </td>
-    <td>
-Comments    </td>
+    <td>Name</td>
+    <td>Type</td>
+    <td>Required</td>
+    <td>Comments</td>
   </tr>
   <tr>
-    <td>
-FILTER_NAME    </td>
-    <td>
-char    </td>
-    <td>
-R    </td>
-    <td>
-Name of the Filter    </td>
+    <td>FILTER_NAME</td>
+    <td>char</td>
+    <td>R</td>
+    <td>Name of the Filter</td>
   </tr>
   <tr>
-    <td>
-NPI    </td>
-    <td>
-integer    </td>
-    <td>
-O*    </td>
-    <td>
-National Provider Identifier    </td>
+    <td>NPI</td>
+    <td>integer</td>
+    <td>O*</td>
+    <td>National Provider Identifier</td>
   </tr>
   <tr>
-    <td>
-NCPDPID    </td>
-    <td>
-integer    </td>
-    <td>
-O    </td>
-    <td>
-National Council for Prescription Drug Programs ID    </td>
+    <td>NCPDPID</td>
+    <td>integer</td>
+    <td>O</td>
+    <td>National Council for Prescription Drug Programs ID</td>
   </tr>
 </table>
 

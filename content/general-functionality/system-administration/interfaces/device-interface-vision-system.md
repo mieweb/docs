@@ -2,7 +2,7 @@
 title: "Device Interface - Vision System"
 date: 2020-02-27T20:28:38.471Z
 url: "general-functionality/system-administration/interfaces/device-interface-vision-system.html"
-version: 14
+version: 19
 id: 1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI
 source: https://drive.google.com/open?id=1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI
 menu:

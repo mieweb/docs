@@ -2,7 +2,7 @@
 title: "Patient Summary - Interactive Chart Tab"
 date: 2020-02-27T19:47:07.178Z
 url: "general-functionality/e-chart/patient-summary-interactive-chart-tab.html"
-version: 27
+version: 32
 id: 1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk
 source: https://drive.google.com/open?id=1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk
 menu:

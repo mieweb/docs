@@ -2,8 +2,7 @@
 title: "SpeechMike Dictation Instructions"
 date: 2020-03-25T21:00:24.947Z
 url: "general-functionality/encounters/dictation-and-transcription/speechmike-dictation-instructions.html"
-author: Jeremia Ploor
-version: 49
+version: 58
 id: 1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM
 source: https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM
 menu:

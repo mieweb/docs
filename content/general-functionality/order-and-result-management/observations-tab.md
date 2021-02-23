@@ -2,7 +2,7 @@
 title: "Observations Tab"
 date: 2020-02-27T20:03:08.015Z
 url: "general-functionality/order-and-result-management/observations-tab.html"
-version: 66
+version: 71
 id: 13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw
 source: https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw
 menu:
@@ -66,7 +66,7 @@ If you selected a specific flowsheet to render, under the resulted flowsheet and
 
 To view specifics of an observation, simply click on the underlined observation result. It will open a separate window where you can view the specifics entered for that observation along with any modifications done to that observation.
 
-![](../../external_files/d30ef23ddd146f2154bc2840bd9514ba.png)
+![](../../external_files/005543a950fcfd9da3711da44ddf7a79.png)
 
 ### Search Observations Link
 

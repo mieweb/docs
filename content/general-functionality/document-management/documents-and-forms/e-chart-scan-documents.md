@@ -2,8 +2,8 @@
 title: "E-Chart Scan Documents"
 date: 2020-03-09T19:33:19.747Z
 url: "general-functionality/document-management/documents-and-forms/e-chart-scan-documents.html"
-author: Alan Quandt
-version: 61
+author: aquandt
+version: 67
 id: 1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc
 source: https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc
 menu:

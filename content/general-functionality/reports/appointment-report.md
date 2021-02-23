@@ -2,7 +2,7 @@
 title: "Appointment Report"
 date: 2020-02-27T20:12:25.056Z
 url: "general-functionality/reports/appointment-report.html"
-version: 38
+version: 43
 id: 16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30
 source: https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30
 menu:
@@ -124,7 +124,7 @@ Both the cancellation email and email after moving emails will allow i-calendar 
 
 Click UPDATE when you have made your Update Option selections. It will then give you a confirmation at the top of the screen saying how many appointments you updated.
 
-![](../../external_files/ed2d5608041a4c6a778a654b4dcc5b67.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 ### Printing Charts/Documents for Found Appointments
 

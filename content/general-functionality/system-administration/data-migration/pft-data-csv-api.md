@@ -2,8 +2,7 @@
 title: "PFT Data CSV API"
 date: 2020-03-17T15:18:25.223Z
 url: "general-functionality/system-administration/data-migration/pft-data-csv-api.html"
-author: Jeremia Ploor
-version: 16
+version: 22
 id: 1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o
 source: https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o
 menu:

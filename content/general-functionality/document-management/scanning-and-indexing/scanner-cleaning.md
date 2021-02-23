@@ -2,8 +2,7 @@
 title: "Scanner Cleaning"
 date: 2020-03-06T22:16:27.286Z
 url: "general-functionality/document-management/scanning-and-indexing/scanner-cleaning.html"
-author: Jeremia Ploor
-version: 15
+version: 21
 id: 181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ
 source: https://drive.google.com/open?id=181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ
 menu:

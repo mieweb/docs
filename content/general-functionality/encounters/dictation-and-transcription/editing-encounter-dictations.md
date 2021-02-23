@@ -2,8 +2,7 @@
 title: "Editing Encounter Dictations"
 date: 2020-03-12T20:59:42.218Z
 url: "general-functionality/encounters/dictation-and-transcription/editing-encounter-dictations.html"
-author: Jeremia Ploor
-version: 25
+version: 31
 id: 1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4
 source: https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4
 menu:

@@ -2,8 +2,7 @@
 title: "Document Type Tab"
 date: 2020-03-20T20:37:35.642Z
 url: "general-functionality/system-configuration/document-type-tab.html"
-author: Jeremia Ploor
-version: 68
+version: 74
 id: 1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q
 source: https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q
 menu:
@@ -81,7 +80,7 @@ These inactive document types listed are inactive in the system.
 
 You can activate any inactive document types if you wish. Simply click the option to Activate this document type. The system will automatically set this document type to active and give you a confirmation message at the top. The document type can now be found in the *active* listing.
 
-![](../../external_files/571b5050ca67696f48bf642472061ae4.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 If you made a mistake, simply find it in the *active* listing, and click deactivate in the options column.
 
@@ -162,92 +161,59 @@ Below, where it says :value; is where you type in a value choice (do not type th
 
 <table>
   <tr>
-    <td>
-*Program Style:*Must have colons and semi-colons for it to work    </td>
-    <td>
-*What you are programming:*How it views/shows in {{% system-name %}}    </td>
-    <td>
-*Your value choices:*Type in these choices for ‘value'    </td>
+    <td>*Program Style:*Must have colons and semi-colons for it to work</td>
+    <td>*What you are programming:*How it views/shows in {{% system-name %}}</td>
+    <td>*Your value choices:*Type in these choices for ‘value'</td>
   </tr>
   <tr>
-    <td>
-background-color:value;    </td>
-    <td>
-Background color    </td>
-    <td>
-Any color name (ex: red,orange,blue, brown,pink, purple,yellow, etc)    </td>
+    <td>background-color:value;</td>
+    <td>Background color</td>
+    <td>Any color name (ex: red,orange,blue, brown,pink, purple,yellow, etc)</td>
   </tr>
   <tr>
-    <td>
-color:value;    </td>
-    <td>
-Font color    </td>
-    <td>
-Any color name (ex: red,orange,blue, brown,pink, purple,yellow, etc)    </td>
+    <td>color:value;</td>
+    <td>Font color</td>
+    <td>Any color name (ex: red,orange,blue, brown,pink, purple,yellow, etc)</td>
   </tr>
   <tr>
-    <td>
-font-family:value;    </td>
-    <td>
-Font family/type    </td>
-    <td>
-Arial, Times, Courier, Century, Helvetica, etc. Font families depend from system to system on what fonts are available.    </td>
+    <td>font-family:value;</td>
+    <td>Font family/type</td>
+    <td>Arial, Times, Courier, Century, Helvetica, etc. Font families depend from system to system on what fonts are available.</td>
   </tr>
   <tr>
-    <td>
-font-weight:value;    </td>
-    <td>
-Weight of font    </td>
-    <td>
-Bold, bolder, lighter or normal    </td>
+    <td>font-weight:value;</td>
+    <td>Weight of font</td>
+    <td>Bold, bolder, lighter or normal</td>
   </tr>
   <tr>
-    <td>
-font-style:value;    </td>
-    <td>
-Style of font    </td>
-    <td>
-Italic, oblique or normal    </td>
+    <td>font-style:value;</td>
+    <td>Style of font</td>
+    <td>Italic, oblique or normal</td>
   </tr>
   <tr>
-    <td>
-font-size:value;    </td>
-    <td>
-Size of font    </td>
-    <td>
-Can be in pt, px or em formats ex: 12pt, 10pt, 14px, 16em, etc.    </td>
+    <td>font-size:value;</td>
+    <td>Size of font</td>
+    <td>Can be in pt, px or em formats ex: 12pt, 10pt, 14px, 16em, etc.</td>
   </tr>
   <tr>
-    <td>
-font-variant:value;    </td>
-    <td>
-Variant of font    </td>
-    <td>
-Small-caps or normal    </td>
+    <td>font-variant:value;</td>
+    <td>Variant of font</td>
+    <td>Small-caps or normal</td>
   </tr>
   <tr>
-    <td>
-text-align:value;    </td>
-    <td>
-Alignment of text    </td>
-    <td>
-Left, right, center or justify    </td>
+    <td>text-align:value;</td>
+    <td>Alignment of text</td>
+    <td>Left, right, center or justify</td>
   </tr>
   <tr>
-    <td>
-vertical-align:value;    </td>
-    <td>
-Alignment of text vertically    </td>
-    <td>
-Top, bottom or middle    </td>
+    <td>vertical-align:value;</td>
+    <td>Alignment of text vertically</td>
+    <td>Top, bottom or middle</td>
   </tr>
   <tr>
-    <td>
-text-decoration:value;    </td>
-    <td>
-Decoration of text    </td>
-    <td>
-Underline, overline, line-through or none    </td>
+    <td>text-decoration:value;</td>
+    <td>Decoration of text</td>
+    <td>Underline, overline, line-through or none</td>
   </tr>
 </table>
 

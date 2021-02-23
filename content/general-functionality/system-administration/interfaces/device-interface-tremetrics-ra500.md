@@ -2,8 +2,8 @@
 title: "Device Interface - Tremetrics RA500"
 date: 2020-02-27T21:28:08.010Z
 url: "general-functionality/system-administration/interfaces/device-interface-tremetrics-ra500.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 17
 id: 1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc
 source: https://drive.google.com/open?id=1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc
 menu:

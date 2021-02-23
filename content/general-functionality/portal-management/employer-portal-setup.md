@@ -2,8 +2,7 @@
 title: "Employer Portal Setup"
 date: 2020-03-10T20:42:30.772Z
 url: "general-functionality/portal-management/employer-portal-setup.html"
-author: Jeremia Ploor
-version: 53
+version: 59
 id: 1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs
 source: https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs
 menu:

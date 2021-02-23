@@ -2,8 +2,7 @@
 title: "Vitals Tracking & Management"
 date: 2020-03-13T17:01:29.858Z
 url: "general-functionality/order-and-result-management/vitals-tracking-and-management.html"
-author: Jeremia Ploor
-version: 44
+version: 50
 id: 1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s
 source: https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s
 menu:
@@ -181,112 +180,76 @@ Entering Height and Weight on the flowsheet layout DOES NOT auto-calculate the B
 
 <table>
   <tr>
-    <td>
-Table Heading    </td>
-    <td>
-Meaning    </td>
+    <td>Table Heading</td>
+    <td>Meaning</td>
   </tr>
   <tr>
-    <td>
-Observed Date/Time    </td>
-    <td>
-The observation date and time.    </td>
+    <td>Observed Date/Time</td>
+    <td>The observation date and time.</td>
   </tr>
   <tr>
-    <td>
-Ht    </td>
-    <td>
-Height    </td>
+    <td>Ht</td>
+    <td>Height</td>
   </tr>
   <tr>
-    <td>
-Wt    </td>
-    <td>
-Weight    </td>
+    <td>Wt</td>
+    <td>Weight</td>
   </tr>
   <tr>
-    <td>
-BMI    </td>
-    <td>
-Body Mass Index    </td>
+    <td>BMI</td>
+    <td>Body Mass Index</td>
   </tr>
   <tr>
-    <td>
-Sys    </td>
-    <td>
-Systolic    </td>
+    <td>Sys</td>
+    <td>Systolic</td>
   </tr>
   <tr>
-    <td>
-Dia    </td>
-    <td>
-Diastolic    </td>
+    <td>Dia</td>
+    <td>Diastolic</td>
   </tr>
   <tr>
-    <td>
-BP Site    </td>
-    <td>
-Body site from which blood pressure was measured.    </td>
+    <td>BP Site</td>
+    <td>Body site from which blood pressure was measured.</td>
   </tr>
   <tr>
-    <td>
-Position    </td>
-    <td>
-Patient position when the BP was taken.    </td>
+    <td>Position</td>
+    <td>Patient position when the BP was taken.</td>
   </tr>
   <tr>
-    <td>
-Resp    </td>
-    <td>
-Respiration    </td>
+    <td>Resp</td>
+    <td>Respiration</td>
   </tr>
   <tr>
-    <td>
-Temp    </td>
-    <td>
-Temperature    </td>
+    <td>Temp</td>
+    <td>Temperature</td>
   </tr>
   <tr>
-    <td>
-Head Circ    </td>
-    <td>
-Head Circumference    </td>
+    <td>Head Circ</td>
+    <td>Head Circumference</td>
   </tr>
   <tr>
-    <td>
-Pulse    </td>
-    <td>
-Measure of heartbeats per minute.    </td>
+    <td>Pulse</td>
+    <td>Measure of heartbeats per minute.</td>
   </tr>
   <tr>
-    <td>
-Pulse Site    </td>
-    <td>
-Body site from which the pulse was taken.    </td>
+    <td>Pulse Site</td>
+    <td>Body site from which the pulse was taken.</td>
   </tr>
   <tr>
-    <td>
-Exertion    </td>
-    <td>
-Type of exertion associated with pulse.    </td>
+    <td>Exertion</td>
+    <td>Type of exertion associated with pulse.</td>
   </tr>
   <tr>
-    <td>
-O2 Sat    </td>
-    <td>
-Oxygen Saturation, or blood oxygen levels.    </td>
+    <td>O2 Sat</td>
+    <td>Oxygen Saturation, or blood oxygen levels.</td>
   </tr>
   <tr>
-    <td>
-Pain Sev    </td>
-    <td>
-Pain severity    </td>
+    <td>Pain Sev</td>
+    <td>Pain severity</td>
   </tr>
   <tr>
-    <td>
-Entered By    </td>
-    <td>
-By whom the vitals were measured.    </td>
+    <td>Entered By</td>
+    <td>By whom the vitals were measured.</td>
   </tr>
 </table>
 
@@ -324,7 +287,7 @@ Vital Signs are a type of observation which can be displayed as a formatted flow
 
 6. With the desired Flowsheet selected, the patient vital signs will display at the bottom of the page.
 
-![](../../external_files/7a9fc931fe701c38c43840321ac13f4e.png)
+![](../../external_files/891e99407cf23ee665dcc7220179a783.png)
 
 ## Device Interface
 

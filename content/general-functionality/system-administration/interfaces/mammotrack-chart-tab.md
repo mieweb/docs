@@ -2,7 +2,7 @@
 title: "MammoTrack Chart Tab"
 date: 2020-02-27T20:29:13.529Z
 url: "general-functionality/system-administration/interfaces/mammotrack-chart-tab.html"
-version: 21
+version: 26
 id: 1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo
 source: https://drive.google.com/open?id=1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo
 menu:

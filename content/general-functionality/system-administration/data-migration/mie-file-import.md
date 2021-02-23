@@ -2,8 +2,7 @@
 title: "MIE File Import"
 date: 2020-03-17T02:05:30.422Z
 url: "general-functionality/system-administration/data-migration/mie-file-import.html"
-author: Jeremia Ploor
-version: 36
+version: 42
 id: 1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY
 source: https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY
 menu:
@@ -105,116 +104,74 @@ Listed below are the file/storage types that are supported by this tool. Use the
 
 <table>
   <tr>
-    <td>
-**Storage Type**    </td>
-    <td>
-**Description**    </td>
-    <td>
-**File Extension**    </td>
+    <td>**Storage Type**</td>
+    <td>**Description**</td>
+    <td>**File Extension**</td>
   </tr>
   <tr>
-    <td>
-1    </td>
-    <td>
-Plain text file    </td>
-    <td>
-txt    </td>
+    <td>1</td>
+    <td>Plain text file</td>
+    <td>txt</td>
   </tr>
   <tr>
-    <td>
-2    </td>
-    <td>
-Rich Text Format document    </td>
-    <td>
-rtf    </td>
+    <td>2</td>
+    <td>Rich Text Format document</td>
+    <td>rtf</td>
   </tr>
   <tr>
-    <td>
-3    </td>
-    <td>
-PNG Image    </td>
-    <td>
-png    </td>
+    <td>3</td>
+    <td>PNG Image</td>
+    <td>png</td>
   </tr>
   <tr>
-    <td>
-4    </td>
-    <td>
-HyperText Markup Language document    </td>
-    <td>
-html or htm    </td>
+    <td>4</td>
+    <td>HyperText Markup Language document</td>
+    <td>html or htm</td>
   </tr>
   <tr>
-    <td>
-6    </td>
-    <td>
-Microsoft Word document    </td>
-    <td>
-doc or docx    </td>
+    <td>6</td>
+    <td>Microsoft Word document</td>
+    <td>doc or docx</td>
   </tr>
   <tr>
-    <td>
-7    </td>
-    <td>
-Tagged Image File Format (TIFF)    </td>
-    <td>
-tif or tiff    </td>
+    <td>7</td>
+    <td>Tagged Image File Format (TIFF)</td>
+    <td>tif or tiff</td>
   </tr>
   <tr>
-    <td>
-8    </td>
-    <td>
-JPEG Image    </td>
-    <td>
-jpg or jpeg    </td>
+    <td>8</td>
+    <td>JPEG Image</td>
+    <td>jpg or jpeg</td>
   </tr>
   <tr>
-    <td>
-9    </td>
-    <td>
-Generic binary file. Used for unrecognized or unsupported file types.    </td>
-    <td>
-bin    </td>
+    <td>9</td>
+    <td>Generic binary file. Used for unrecognized or unsupported file types.</td>
+    <td>bin</td>
   </tr>
   <tr>
-    <td>
-14    </td>
-    <td>
-Preformatted text file (displays text as-is with newlines)    </td>
-    <td>
-txt    </td>
+    <td>14</td>
+    <td>Preformatted text file (displays text as-is with newlines)</td>
+    <td>txt</td>
   </tr>
   <tr>
-    <td>
-17    </td>
-    <td>
-Portable Document Format (PDF)    </td>
-    <td>
-pdf    </td>
+    <td>17</td>
+    <td>Portable Document Format (PDF)</td>
+    <td>pdf</td>
   </tr>
   <tr>
-    <td>
-18    </td>
-    <td>
-Microsoft Excel spreadsheet    </td>
-    <td>
-xls or xlsx    </td>
+    <td>18</td>
+    <td>Microsoft Excel spreadsheet</td>
+    <td>xls or xlsx</td>
   </tr>
   <tr>
-    <td>
-22    </td>
-    <td>
-Email    </td>
-    <td>
-eml    </td>
+    <td>22</td>
+    <td>Email</td>
+    <td>eml</td>
   </tr>
   <tr>
-    <td>
-27    </td>
-    <td>
-Extensible Markup Language document    </td>
-    <td>
-xml    </td>
+    <td>27</td>
+    <td>Extensible Markup Language document</td>
+    <td>xml</td>
   </tr>
 </table>
 

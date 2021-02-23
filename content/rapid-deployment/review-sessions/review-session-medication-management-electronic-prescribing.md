@@ -2,8 +2,8 @@
 title: "Review Session - Medication Management/Electronic Prescribing"
 date: 2020-02-27T21:25:41.678Z
 url: "rapid-deployment/review-sessions/review-session-medication-management-electronic-prescribing.html"
-author: Alan Quandt
-version: 23
+author: aquandt
+version: 28
 id: 1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU
 source: https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU
 menu:
@@ -294,7 +294,7 @@ In order to use the Dose/Formulary functionality and see the in-system button, t
 
 To see the Dosing and Formulary screen in its entirety when prescribing a med, the Form of the medication must be selected.
 
-Before selecting the appropriate formulary, an eligibility check must be run. An eligibility check cannot be run more than once every 72 hours, per individual. Once it has been run and obtained, then the available formularies associated with the individual's drug benefit plan are loaded into the chart. The {{% system-name %}} solution will maintain records of coverage eligibility in the Patient Benefit table. This eligibility status shows in the Allergies/Medications tab and the encounter Meds Plan section. Here, the last date/time an eligibility check was run will also display; however, if there is no listed date/time, no eligibility check has been run, meaning only dosing information will be available, with no formulary information. For more information on eligibility checking, see the [Prescription and Insurance Eligibility Requests – Surescripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html) documentation.
+Before selecting the appropriate formulary, an eligibility check must be run. An eligibility check cannot be run more than once every 72 hours, per individual. Once it has been run and obtained, then the available formularies associated with the individual's drug benefit plan are loaded into the chart. The {{% system-name %}} solution will maintain records of coverage eligibility in the Patient Benefit table. This eligibility status shows in the Allergies/Medications tab and the encounter Meds Plan section. Here, the last date/time an eligibility check was run will also display; however, if there is no listed date/time, no eligibility check has been run, meaning only dosing information will be available, with no formulary information. For more information on eligibility checking, see the [Prescription and Insurance Eligibility Requests – Surescripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-.html) documentation.
 
 {{% tip %}}
 
@@ -337,17 +337,17 @@ Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Se
 * [E-Refills-MY PENDING REFILLS tab](../../general-functionality/medication-management-and-e-prescribing/e-refills-my-pending-refills-tab.html)
 * [Edit or Change Meds](../../general-functionality/medication-management-and-e-prescribing/edit-change-medications.html)
 * [Flow-Pat Ed-Meds Sheets](../../general-functionality/medication-management-and-e-prescribing/allergy-medication-tab-quick-links.html)
-* [Formulary and Dosing-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-formulary-and-dosing.html)
-* [Medication History Reconciliation-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.html)
-* [Meds Library-Remembered Scripts](../../general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.html)
+* [Formulary and Dosing-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-formulary-and-dos.html)
+* [Medication History Reconciliation-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-medication-histor.html)
+* [Meds Library-Remembered Scripts](../../general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-libr.html)
 * [Meds Tab Summary View](../../general-functionality/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.html)
-* [Preferred Pharmacy-Supply-Verification-Current Library](../../general-functionality/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.html)
+* [Preferred Pharmacy-Supply-Verification-Current Library](../../general-functionality/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply.html)
 * [Prescribing and Adding Meds](../../general-functionality/medication-management-and-e-prescribing/prescribing-adding-medications.html)
-* [Prescription and Insurance Eligibility Requests-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html)
+* [Prescription and Insurance Eligibility Requests-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-.html)
 * [Print-Fax-Transmit Prescriptions](../../general-functionality/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.html)
 * [Refill All Meds](../../general-functionality/medication-management-and-e-prescribing/refill-all.html)
 * [Setting up E-Prescribers](../../general-functionality/system-administration/system-controls/setting-up-e-prescribers.html)
-* [Unknown Allergy or Medication Add Email Notifications](../../general-functionality/medication-management-and-e-prescribing/unknown-allergy-medication-email-notifications.html)
+* [Unknown Allergy or Medication Add Email Notifications](../../general-functionality/medication-management-and-e-prescribing/unknown-allergy-medication-email-notif.html)
 * [E-Meds Report of Printed-Faxed-ESent](../../general-functionality/reports/e-meds-report.html)
 * [Med Report](../../general-functionality/reports/medication-report.html)
 * [Uncoded Meds Report](../../general-functionality/reports/uncoded-medications-report.html)

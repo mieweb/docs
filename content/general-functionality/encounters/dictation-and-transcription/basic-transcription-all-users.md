@@ -2,8 +2,7 @@
 title: "Basic Transcription - All Users"
 date: 2020-03-12T21:03:04.710Z
 url: "general-functionality/encounters/dictation-and-transcription/basic-transcription-all-users.html"
-author: Jeremia Ploor
-version: 42
+version: 48
 id: 19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y
 source: https://drive.google.com/open?id=19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y
 menu:

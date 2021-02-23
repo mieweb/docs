@@ -2,8 +2,8 @@
 title: "Demographics Tab Summary"
 date: 2020-03-09T22:51:40.258Z
 url: "general-functionality/e-chart/demographics-tab-summary.html"
-author: Alan Quandt
-version: 27
+author: aquandt
+version: 32
 id: 1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg
 source: https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg
 menu:

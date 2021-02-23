@@ -2,8 +2,7 @@
 title: "Device Interface - Amplivox CA850"
 date: 2020-03-19T19:02:19.406Z
 url: "general-functionality/system-administration/interfaces/device-interface-amplivox-ca850.html"
-author: Jeremia Ploor
-version: 19
+version: 25
 id: 1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA
 source: https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA
 menu:

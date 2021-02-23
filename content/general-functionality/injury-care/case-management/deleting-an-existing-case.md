@@ -2,8 +2,7 @@
 title: "Deleting an Existing Case"
 date: 2020-03-13T13:47:35.461Z
 url: "general-functionality/injury-care/case-management/deleting-an-existing-case.html"
-author: Jeremia Ploor
-version: 37
+version: 43
 id: 1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk
 source: https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk
 menu:

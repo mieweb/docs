@@ -1,9 +1,9 @@
 ---
 title: "_index"
-date: 2020-04-20T22:54:52.412Z
+date: 2021-02-17T20:55:35.656Z
 url: "_index.html"
-author: Doug Horner
-version: 60
+author: Will Reiske
+version: 327
 id: 1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0
 source: https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0
 ---
@@ -29,14 +29,14 @@ See an overview and detailed documentation of all our solutions.
 
 {{% only sys="eh" %}}
 
-![](external_files/ee9d637630d1ced749776c65fb76c521.png)
+![](external_files/4c23564a42b0abd987e42c9579c51917.png)
 
 {{% /only %}}
 
 
 {{% only sys="wc" %}}
 
-![](external_files/20f27344dde24483a68638e2b9c11d85.png)
+![](external_files/04187b7333cea419350f823f7b048ee0.png)
 
 {{% /only %}}
 
@@ -45,22 +45,16 @@ Contact Us
 
 <table>
   <tr>
-    <td>
-Phone    </td>
-    <td>
-(260) 459-6270 Option 1    </td>
+    <td>Phone</td>
+    <td>(260) 459-6270 Option 1</td>
   </tr>
   <tr>
-    <td>
-Toll-free    </td>
-    <td>
-1-888-498-3484    </td>
+    <td>Toll-free</td>
+    <td>1-888-498-3484</td>
   </tr>
   <tr>
-    <td>
-Email    </td>
-    <td>
-support@mieweb.com    </td>
+    <td>Email</td>
+    <td>support@mieweb.com</td>
   </tr>
 </table>
 

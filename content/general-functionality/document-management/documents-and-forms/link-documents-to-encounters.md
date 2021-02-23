@@ -2,8 +2,7 @@
 title: "Link Documents to Encounters"
 date: 2020-03-23T17:58:18.072Z
 url: "general-functionality/document-management/documents-and-forms/link-documents-to-encounters.html"
-author: Jeremia Ploor
-version: 65
+version: 71
 id: 1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc
 source: https://drive.google.com/open?id=1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc
 menu:

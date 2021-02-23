@@ -2,8 +2,7 @@
 title: "How to Remove MIEPlayer Control"
 date: 2020-03-12T20:49:00.254Z
 url: "general-functionality/encounters/dictation-and-transcription/how-to-remove-mieplayer-control.html"
-author: Jeremia Ploor
-version: 27
+version: 33
 id: 1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o
 source: https://drive.google.com/open?id=1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o
 menu:

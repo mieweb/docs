@@ -2,8 +2,7 @@
 title: "Scanning"
 date: 2020-03-24T12:46:23.202Z
 url: "general-functionality/document-management/scanning-and-indexing/scanning.html"
-author: Jeremia Ploor
-version: 40
+version: 46
 id: 1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0
 source: https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0
 menu:

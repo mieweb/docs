@@ -2,8 +2,7 @@
 title: "Sidemenu Thumbtack Feature"
 date: 2020-03-09T21:04:49.396Z
 url: "general-functionality/e-chart/sidemenu-thumbtack-feature.html"
-author: Jeremia Ploor
-version: 22
+version: 28
 id: 1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4
 source: https://drive.google.com/open?id=1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4
 menu:

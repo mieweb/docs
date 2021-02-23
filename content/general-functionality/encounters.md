@@ -2,8 +2,7 @@
 title: "Encounters"
 date: 2020-03-27T15:11:48.239Z
 url: "general-functionality/encounters.html"
-author: Jeremia Ploor
-version: 47
+version: 53
 id: 199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo
 source: https://drive.google.com/open?id=199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo
 menu:

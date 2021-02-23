@@ -2,8 +2,8 @@
 title: "Work-Related Exams & Clinical Care"
 date: 2020-02-27T21:27:35.013Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/work-related-exams-and-clinical-care.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1eOhrb_r3jJ_atpkEE6NOmLYTypoYUCIeQj-39MRVoQ0
 source: https://drive.google.com/open?id=1eOhrb_r3jJ_atpkEE6NOmLYTypoYUCIeQj-39MRVoQ0
 menu:

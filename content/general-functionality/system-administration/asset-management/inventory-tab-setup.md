@@ -2,8 +2,8 @@
 title: "Inventory Tab Setup"
 date: 2020-02-27T20:31:20.847Z
 url: "general-functionality/system-administration/asset-management/inventory-tab-setup.html"
-author: Alan Quandt
-version: 22
+author: aquandt
+version: 27
 id: 1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs
 source: https://drive.google.com/open?id=1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs
 menu:
@@ -65,7 +65,7 @@ To delete a master inventory item, click Delete in the options column.
 
 If the inventoried item still has quantity in stock, you will see an error message that you cannot delete the inventory item. If you needed to delete that, you'd have to go and edit it in the *Show Inventory* tab and expire it or edit it to a zero quantity first. If you have a zero quantity inventory item that you need to delete, you will get a message to confirm the inventory item deletion. Click Delete to continue to delete the inventory item completely from the master inventory list of the system.
 
-![](../../../external_files/2399390bcbe532337dec67dd87311a4a.png) ![](../../../external_files/b1c4061adf4ff16a8b462a89b59a171b.png)
+![](../../../external_files/2399390bcbe532337dec67dd87311a4a.png) ![](../../../external_files/61b2c51e70ef7b0737236ee40ce7213b.png)
 
 ## Merging Inventory Items
 

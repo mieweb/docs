@@ -2,8 +2,7 @@
 title: "X-Ray Results Data Entry"
 date: 2020-03-06T20:36:53.541Z
 url: "general-functionality/document-management/documents-and-forms/x-ray-results-data-entry.html"
-author: Jeremia Ploor
-version: 27
+version: 33
 id: 1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU
 source: https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU
 menu:

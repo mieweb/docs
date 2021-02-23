@@ -2,8 +2,8 @@
 title: "Review Session - Scheduler"
 date: 2020-02-27T21:24:45.329Z
 url: "rapid-deployment/review-sessions/review-session-scheduler.html"
-author: Alan Quandt
-version: 12
+author: aquandt
+version: 24
 id: 16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44
 source: https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44
 menu:

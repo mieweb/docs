@@ -2,8 +2,8 @@
 title: "DICOM Setup Tab"
 date: 2020-03-09T19:34:25.790Z
 url: "general-functionality/document-management/imaging/dicom-setup-tab.html"
-author: Alan Quandt
-version: 18
+author: aquandt
+version: 23
 id: 1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg
 source: https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg
 menu:

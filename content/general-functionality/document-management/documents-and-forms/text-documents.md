@@ -2,8 +2,7 @@
 title: "Text Documents"
 date: 2020-03-05T20:22:27.480Z
 url: "general-functionality/document-management/documents-and-forms/text-documents.html"
-author: Jeremia Ploor
-version: 33
+version: 39
 id: 1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc
 source: https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc
 menu:

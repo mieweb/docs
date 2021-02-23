@@ -2,8 +2,7 @@
 title: "EKG Data Entry"
 date: 2020-03-06T20:29:53.003Z
 url: "general-functionality/document-management/documents-and-forms/ekg-data-entry.html"
-author: Jeremia Ploor
-version: 26
+version: 32
 id: 1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY
 source: https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY
 menu:

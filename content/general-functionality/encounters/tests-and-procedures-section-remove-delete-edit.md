@@ -2,8 +2,8 @@
 title: "Tests & Procedures Section - Remove, Delete, Edit"
 date: 2020-02-27T21:14:57.599Z
 url: "general-functionality/encounters/tests-and-procedures-section-remove-delete-edit.html"
-author: Alan Quandt
-version: 20
+author: aquandt
+version: 25
 id: 1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E
 source: https://drive.google.com/open?id=1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E
 menu:

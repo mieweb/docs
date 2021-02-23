@@ -2,8 +2,7 @@
 title: "Print Chart"
 date: 2020-03-09T17:46:39.608Z
 url: "general-functionality/document-management/printing-and-print-definitions/print-chart.html"
-author: Jeremia Ploor
-version: 28
+version: 37
 id: 10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8
 source: https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8
 menu:

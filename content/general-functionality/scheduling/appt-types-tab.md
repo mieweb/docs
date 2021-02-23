@@ -1,8 +1,9 @@
 ---
 title: "Appt Types Tab"
-date: 2020-02-27T19:48:29.775Z
+date: 2021-02-22T21:41:56.471Z
 url: "general-functionality/scheduling/appt-types-tab.html"
-version: 20
+author: Edward Grzetich
+version: 69
 id: 1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo
 source: https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo
 menu:
@@ -12,97 +13,142 @@ menu:
         parent: "1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
         weight: 1160
 ---
-Log into {{% system-name %}}
+## About <em>Appt Types</em> tab
 
-Click *Scheduler* from the left sidebar menu.
+Use the *Appt Types* tab to view, add, edit, and delete appointment types and appointment templates. 
 
-If you have the preference in My Settings of FORCE DEFAULT RESOURCES set to Yes, your scheduler view will show all the resources (physicians) schedules that you have added an appt for or edited an appt for. To only show one resource, make sure this is set to No.
+Appointment types are used to set up basic information about frequently-used appointments. For example, an appointment type can be created for new patient appointments and each time it is used, the system automatically applies a current procedural terminology (CPT) code, appointment duration, visit type, and other characteristics to the appointment. Appointment types help ensure appointments are created uniformly and relieve staff of repetitious work.
 
-Click *Scheduler* tab from left sidebar menu.
+Appointment templates are based on appointment types and refine them by associating with them a service location, a default encounter type for documenting the encounter visit resulting from the appointment, and clinical and scheduling instructions for staff. 
 
-Click *Appt Types* tab from the top menu of tabs.
+To create, edit, and delete appointment types and appointment templates, the *Manage Apt Types* security role needs to be set to *Yes*. See [Security Role Settings](../system-administration/security/security-role-settings.html).
 
-This shows the existing list of appointment types, durations, coding, etc to select from when selecting the appointment type for a patient's appointment. They automatically list in alphabetical order. If you have security role access, you can edit/delete from here or add an appointment type from here.
+## Viewing appointment types
 
-![](../../external_files/72122d268b38659b2dfca12e06ef5d69.png)
+1. Select the side menu. The side menu appears.
+2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types. To work with the table, see [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.html).![](../../external_files/fdec01eed509f021a2863bf9afdcac3c.png)
 
-## Quick Links of the Appointment Types Tab
+## Viewing appointment type templates
 
-### Alphabetize Types
+1. Select the side menu. The side menu appears.
+2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
+4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates. To work with the table, see [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.html).
 
-Click this and it will automatically alphabetize this Appointment Type list by code description column only. Can edit or delete an appointment type from here. To edit, see instructions below called *Editing an Appointment Type*. To delete an appointment type, click *delete*. It will ask you if you are sure you want to delete it and tell you how many appointments and resource schedules exist with this appointment type. Choose Yes or No to continue in delete.
+![](../../external_files/16ad71bca25bb3ab81cd3f5ed462daf0.png)
 
-![](../../external_files/72122d268b38659b2dfca12e06ef5d69.png)
+## Adding appointment types
 
-### Add Type
+1. Select the side menu. The side menu appears.
+2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
+4. At the top-right of the page, select <strong>Add Type</strong>. The <em>Appointment Type</em> section appears. ![](../../external_files/8e2ce61b35710883dffcf09920b56ca4.png)
+5. In the <em>Appointment Type</em> section, make entries or selections in fields as appropriate:
+    * <em>Active</em>: To make the appointment type active in the system and available to be used after it is created, enable this check box. To make the appointment type inactive in the system and unavailable to be used after it is created, clear this check box. 
+    * <em>Code</em>: Enter the appointment code. The entry in this field appears in the schedule next to the patient. Type in the same CPT code for the visit encounter for the appointment type or an alpha-numeric abbreviation of the name of the appointment type.
+    * <em>CPT code</em>: Type the appropriate CPT code for billing, auditing, or report purposes. You may also leave this field empty.
+    * <em>Duration</em>: Type the amount of time this type of appointment is expected to take.
+    * <em>Display order</em>: Type a number by which the system will sort the appointment type for display in the table of appointment types (see [Viewing appointment types](#viewing-appointment-types)) and when scheduling an appointment. The lower the number in this field, the closer to the top of the table and when scheduling this appointment type appears.
+    * <em>Duration given to patient</em>: Type the duration of the appointment in minutes to provide to the patient. The system provides this duration when the patient views the appointment, for example when it sends a reminder email. For example, medical staff may be required for 15 minutes of a 60-minute appointment. In this case, the appointment type duration appears on the schedule of the medical staff as a 15-minute appointment and the duration given to patient is 60 minutes.
+    * <em>Description</em>: Type in the full name of appointment type you are creating.
+    * <em>Default Encounter Type</em>: If your practice uses the <em>Checkin</em> module, select <strong>Checkin</strong>. If your practice uses encounters and wishes to have the systems automatically create and open a type of encounter when a patient is checked in for the visit based on this appointment type, select that <strong>encounter type</strong>.
+    * <em>Default Encounter Template</em>: If you selected a default encounter type other than <em>Checkin </em>in the previous field, select <strong>the encounter template with the same name</strong> in this field. Otherwise, select <strong>None</strong>.
+    * <em>Dictation Job Type</em>: Select the appropriate dictation job type that the system will apply to dictation added to the encounter from this appointment type. 
+    * <em>Print Definitions</em>: Print definitions can be attached to appointment types. Print definitions that are attached to an appointment type this way are noted as appointment type print definitions. Resource options in this section show users in the scheduling realm. To undo print definitions being attached to appt types, you need to remove the print definition(s) from all appointment types and use the print definition editor to remove the appt type designation.
+    * <em>Title Color</em>: Type a hexadecimal color value or select the <strong>eye dropper button</strong> to select a color from a palette. This color applies to the title bar, the first line of an appointment in the scheduler view that shows the appointment time and patient name. If you do not select a color, the system displays the title without a color.  ![](../../external_files/8270857b0723b32a6e20f373badba837.png)
+    * <em>Color</em>: Type a hexadecimal color value or select the <strong>eye dropper button</strong> to select a color from a palette. If you do not select a color, the system displays the appointment body  without a color.
+    * <em>Comment</em>: Type comments to appear in the <em>Comments</em> field when scheduling an appointment based on this appointment type. This entry also appears in the <em>Scheduler</em> view under the patient's appointment date and time. 
+6. Do one:
+    * Select <strong>Submit</strong> to update the appointment type list and any future appointments made from this appointment type. No changes are made to any existing appointments based on this appointment type or any schedule templates for this type.
+    * Select <strong>Submit & Update</strong> to update the appointment type list and also update all existing patient appointments based on this appointment type and updates any existing schedules with this appointment type.
 
-Click this to **add** an Appointment Type (must have security permission to this):
+## Add an appointment type template
 
-![](../../external_files/5960271d04923e834b7fc891be20aa1b.png)
+1. Select the side menu. The side menu appears.
+2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
+4. At the top-right of the page, select <strong>Add Template</strong>. The <em>Add Appointment Type Template</em> section appears. ![](../../external_files/187b9dba13a605264b79bfb5bfbdcc0c.png)
+5. In the <em>Add Appointment Type Template</em> section, make entries or selections in fields as appropriate:
+    * <em>Apt Type</em>: Select the appointment type the template will create when used to schedule an appointment.
+    * <em>Resource</em>: Select the resource (such as a physician) that when scheduled, this appointment type template will reserve.
+    * <em>Location</em>: Select the location where the appointment type can be scheduled.
+    * <em>Duration</em>: Type the amount of time in minutes for which this appointment will reserve the resource.
+    * <em>Duration Given to Patient</em>: Type the duration of the appointment in minutes to provide to the patient. The system provides this duration when the patient views the appointment, for example when it sends a reminder email. For example, medical staff may be required for 15 minutes of a 60-minute appointment. In this case, the appointment type duration appears on the schedule of the medical staff as a 15-minute appointment and the duration given to patient is 60 minutes.
+    * <em>Reminder</em>: This field is not used. Do not make a selection in it.
+    * <em>Scheduling Instructions</em>: This field is not used. Do not type in it.
+    * <em>Clinical Instructions</em>: This field is not used. Do not type in it.
+6. Select <strong>Submit Template</strong>. The system displays a message indicating the appointment type template was created.
 
-* <strong>Active:</strong> Keep this check-marked so the appointment type remains active. If you want any appt type to stay in system (not delete it completely) but mark as inactive, simply uncheck here.
-* <strong>Code:</strong> This is the APT code. (Appointment Code). This is the code or alpha's that will appear in the scheduler view next to the patient. Type in the same CPT code you will use, or an Alpha abbreviation of the name of the appointment type you are creating.
-* <strong>CPT code:</strong> leave blank or, enter the correct CPT code for billing/auditing/report purposes.
-* <strong>Duration:</strong> type in the amount of time it takes for this type of appointment
-* <strong>Display order:</strong> Enter in a display order number. This is the ordering the appointment types will order/show in when you come to this Appt Types tab <em>and</em> also shows in this order to staff when scheduling appointments. If they staff clicks their down arrow key on the keyboard to select an appt type to schedule the patient for – this is the order in which they will see choices (or they can use the autocomplete method). You may want to make your most popular appointment types a lower display order # so they appear first in the ordering/selection for staff to see quicker. Than any appt types you use to perhaps block for meetings, vacation, sick, etc would be set to a higher display order so they appear at the end of the list of choices.
-* <strong>Duration given to patient:</strong> This is a field to enter the duration to tell the patient. It mainly comes into play when sending emails to a patient. The duration indicated on a patient email will be the patient duration rather than the actual duration. For some practices, they may schedule 15 minute appointments on their calendar but the patient may be there for 60 minutes, so they tell the patient 60minute duration. Their Medical staff may only be required for the first 15 minutes of that though hence scheduling the 15 minute appointment durations vs. the duration given to the patient.
-* <strong>Description:</strong> Type in the full name of appointment you are creating.
-* <strong>Default Encounter Type:</strong> If your practice uses the checkin module, it is suggested to always default this to Checkin. If your practice uses encounters and wish to have an encounter type automatically create & open when a patient is checked in for the visit, you can specify the encounter type name here.
-* <strong>Default Encounter Template:</strong> If you practice has any named saved/stored encounter templates, those will be available here to select one. When an appointment checks in with this appointment type and a default encounter type has been set for this appt type, then a specific encounter template can also be set. When a patient is checked in for the appointment, the specific encounter will automatically be created in the chart and also a specific encounter template will be applied if this is set.
-* <strong>Dictation Job Type:</strong> This is the dictation job type that will open/default to when a user adds dictation from the patient's appointment who has this appt type.
-* <strong>Print Definitions:</strong> Print definitions can be attached to appointment types. Print definitions that are attached to an appointment type this way are noted as appointment type print definitions. Resource options in this section show users in the scheduling realm. To undo print definitions being attached to appt types, you need to remove the print definition(s) from all appointment types and use the print definition editor to remove the appt type designation.
-* <strong>Title Color:</strong> Choose the color for the ‘title bar' of the appointment. The ‘title bar' is the first line of the appointment in the scheduler view that shows the appointment time and patient. If you do not select a color, it will automatically default to no color. If you select a color, you'll see the color choice appear around the Edit Color words/box next to this with the color hex value in the field. The rest of the appointment (body of the appointment) will be in the next color.
+## Adding multiple appointment type templates
 
-![](../../external_files/e38c1a1e3b2225f546989fd7d4fd3481.png)
+Use this method to quickly create multiple appointment type templates for any combination of appointment types, resources, and locations. For example, a medical specialist (the resource) can be scheduled for three appointment types at two locations. This results in six appointment type templates:
 
-* <strong>Color</strong>: This color selection is for the ‘body' of the appointment. If you do not select a color, it will automatically default to no color. If you select a color, you'll see the color appear around the Edit Color words/box next to this with the color hex value in the field.
-* <strong>Comment:</strong> Type any comments associated with this appointment type. These comments will appear in the comments box when scheduling an appointment for a patient with this appt type if you have your preference set to show comments. These comments will also appear in the Scheduler view under the patient's specified appointment time/date. This is a comment associated with the appointment type so anyone who gets scheduled for an appointment will have that comment on their appointment when created.
-* <strong>Choices for submission/changes:</strong>
-    * Click <strong>Submit:</strong> This will only update the appt type list and any future appointments made from here on. It does not change the info. for any appointments already existing/scheduled for this appt type or any schedule templates for this type. If you click this, it will give you a confirmation at the top.
-    * Click <strong>Submit & Update:</strong> This will update the appt type list and it also updates all existing patient appointments for this type and updates any existing schedules with this appt type. If you click this, it will give you a confirmation at the top.
+<table>
+  <tr>
+    <td>**Appointment type template 1**</td>
+    <td>**Appointment type template 2**</td>
+    <td>**Appointment type template 3**</td>
+    <td>**Appointment type template 4**</td>
+    <td>**Appointment type template 5**</td>
+    <td>**Appointment type template 6**</td>
+  </tr>
+  <tr>
+    <td>Resource 1</td>
+    <td>Resource 1</td>
+    <td>Resource 1</td>
+    <td>Resource 1</td>
+    <td>Resource 1</td>
+    <td>Resource 1</td>
+  </tr>
+  <tr>
+    <td>Appointment type 1</td>
+    <td>Appointment type 2</td>
+    <td>Appointment type 3</td>
+    <td>Appointment type 1</td>
+    <td>Appointment type 2</td>
+    <td>Appointment type 3</td>
+  </tr>
+  <tr>
+    <td>Location1</td>
+    <td>Location 1</td>
+    <td>Location 1</td>
+    <td>Location 2</td>
+    <td>Location 2</td>
+    <td>Location 2</td>
+  </tr>
+</table>
 
-### Add Template
+If no location is chosen, your choices for appointment types and resources will be associated with all locations. These templates will have the same durations and durations given to patient as the corresponding appointment type that was selected. Appointment types created this way can be edited by using the *Edit* link in the appointment templates table. See [Viewing appointment types](#viewing-appointment-types).
 
-Can select a specific appointment type template for a specific doctor and/or location in a schedule.
+If you try to create multiple appointment type templates for a combination of resources, appointment types, and locations that already exists, the system will not overwrite the existing appointment type templates and will present a message indicating those that were not created.
 
-Example, Dr. A may take 30 minutes for a new patient exam and only wants 30 minutes to be saved when making appointments for patients who want to be seen for new patient exams. However, Dr. B may want 1 hour allotted for his/her new patient exam appointments. Creating templates for appointment types allows that. Then a person making an appointment can see the appointment type and choose the specific physician/resource and/or location.
+1. Select the side menu. The side menu appears.
+2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
+4. At the top-right of the page, select <strong>Add Multiple Templates</strong>. The <em>Add Multiple Templates</em> section appears. ![](../../external_files/3ff52f1b234f4b323946115e5b572cf4.png)
+5. In the <em>Appointment Type</em> field, do the following to select one or more appointment types:
+    1. To create appointment templates based on all appointment types, select <strong>Select All</strong>.
+    2. To clear selected appointment types, select <strong>Un-Select All</strong>.
+    3. To search for an appointment type, type its name in the field. The system displays matching appointment types in the menu.
+    4. Select one or more <strong>appointment types</strong>.
+6. In the <em>Resource</em> field, do the following to select one or more resources:
+    5. To create appointment templates including all resources, select <strong>Select All</strong>.
+    6. To clear selected resources, select <strong>Un-Select All</strong>.
+    7. To search for a resource, type its name in the field. The system displays matching resources in the menu.
+    8. Select one or more <strong>resources</strong>.
+7. In the <em>Location</em> field, do the following to select one or more locations:
+    9. To create appointment templates including all locations, select <strong>Select All</strong>.
+    10. To clear selected locations, select <strong>Un-Select All</strong>.
+    11. To search for a location, type its name in the field. The system displays matching locations in the menu.
+    12. Select one or more <strong>locations</strong>.
+8. Select the <strong>Create Templates</strong> button. If the selected appointment types, resources, and locations do not conflict with existing appointment templates, the system creates and displays the new appointment templates in the list of appointment type templates. Otherwise, the system indicates one or more appointment type templates exists and does not overwrite them.
 
-![](../../external_files/5a177f5c7a1ff7b18702cf330573ec7a.png)
-
-* <strong>Apt Type:</strong> Choose the appointment type you want to template for a specific resource.
-* <strong>Resource:</strong> Choose the specific resource (physician, etc) that this appointment type template is for.
-* <strong>Location:</strong> If want, choose the specific location this appointment type template is for. This does not show any outside locations.
-* <strong>Duration:</strong> Choose the duration that this specific resource takes for this type of appointment. Then, when a person adds an appointment for a patient from the Scheduler and clicks <em>Calculate</em> box after selecting the appointment type, it will also pull this specific duration you entered according to the appointment type, resource, and/or location that was entered in the Appointment Wizard tab.
-* <strong>Duration Given to Patient:</strong> This is a field to enter the duration to tell the patient. It mainly comes into play when sending emails to a patient. The duration indicated on a patient email will be the patient duration rather than the actual duration. For some practices, they may schedule 15 minute appointments on their calendar but the patient may be there for 60 minutes, so they tell the patient 60minute duration. Their Medical staff may only be required for the first 15 minutes of that though hence scheduling the 15 minute appointment durations vs. the duration given to the patient.
-* <strong>Reminder:</strong> This field is not used. Do not enter any selection here.
-* <strong>Scheduling Instructions:</strong> This field is not used. Doesn't print or show anywhere. Do not enter anything here.
-* <strong>Clinical Instructions:</strong> This field is not used. Doesn't print or show anywhere. Do not enter anything here. This field is not used. Do not enter any selection here
-
-Click *Submit Template* when done. You will see a confirmation message at the top that says *Appointment Type Template Inserted Successfully!*
-
-### Add Multiple Templates
-
-Use this method to quickly create multiple appointment type templates in mass using existing appt types.
-
-![](../../external_files/87e323ebd265ffbd193bf70bdc1d4dbf.png)
-
-You can use this method to create multiple appointment type templates in mass for any combination of appointment type, resource and location you select. For instance, if you choose 3 appointment types, 4 resources, and 2 locations then 24 appt type templates will be created. If no location is chosen, your choices for appointment types and resources will be associated to **all** locations.These templates will have the same "duration" and "duration given to patient" settings as corresponding appointment type that was selected and these can be edited by using the edit link in the appointment templates listview.
-
-![](../../external_files/8e95a7824d97be990ab5c884f24fa2b3.png)
-
-If you try to create a template combination that already exists, the existing appt type template will **not** be overwritten and you will receive an alert stating such.
-
-![](../../external_files/5b2814f46c3de6d205383eb57f408192.png)
-
-If you have entered in multiple templates that can be created successfully, you will receive a confirmation message at the top that your Appointment Type Templates have been inserted successfully and it will refresh you back to the appointment type templates screen.
-
-![](../../external_files/d0f7e6e1c13938b2fe2a3c773ac4c8be.png)
-
-### View Types
+### Viewing appointment types
 
 Click this to view the list of appointment types in the system. It's the same summary list that pops up with the main Appt Types tab and like Alphabetize Types.
 
-![](../../external_files/df70327f728890c0b73cd1989d154a78.png)
+![](../../external_files/fdec01eed509f021a2863bf9afdcac3c.png)
 
 You can edit a type from here by clicking **edit** to the far right of the type you select.
 
@@ -112,21 +158,18 @@ You can also *delete* an appt type from here (if you have the security access to
 
 Click this to view all the existing appointment type templates in the system. These type templates were created using the *Add Template* link or the *Add Multiple Templates* link (see page 4 & 5 of this help documentation).
 
-![](../../external_files/f662253025e667459f7d1b4a40b2438e.png)
-
 You can edit or delete a type from here by clicking the selection in the options column of the Appt Template. There is also a "search" filter at the top to search for existing appointment type templates.
 
 ## Editing or Deleting an Appointment Type
 
 Click *Edit* from the appointment types tab or from Alphabetize Types link/option or from View Types link/option in this screen.
 
-![](../../external_files/df70327f728890c0b73cd1989d154a78.png)
-
 Edit any fields. (See detailed descriptions of each field in the above help documentation section called APPT TYPE on page 2 above.)
 
 At the top of the edit screen it also notes how many appointments are already scheduled with this appointment type you are about to edit. It also notes how many schedules use this appointment type you are about to edit. Depending on the button that you select after editing the appointment type (selecting SUBMIT or SUBMIT & UPDATE) the edits done may or may not affect those appointments already scheduled with this appt type or schedules attached to this appt type.
 
-![](../../external_files/f8526df1af60e96700d2d766d6b5f710.png)
+![](../../external_files/3198560663df7fb5bcda23e8d3cdc637.png)
 
 * Click <strong>Submit:</strong> This will only update the appt type list with the edits you made and any future appointments made from here on. It does not change the appt type information for any appointments already existing/scheduled for this appt type or any schedule templates for this type. If you click this, it will give you a confirmation at the top. If you are editing appointment type <em>codes</em> (the abbreviation), please make sure you click submit & update instead, otherwise the system will not be able to find that appointment type for any existing appointments already scheduled using that type.
 * Click <strong>Submit & Update:</strong> This will update the appt type list and it also updates all existing patient appointments for this type and updates any existing schedules with this appt type with all edits you have made. If you click this, it will give you a confirmation at the top. If you edit the appt type <em>code,</em> you should click submit and update.
+* 

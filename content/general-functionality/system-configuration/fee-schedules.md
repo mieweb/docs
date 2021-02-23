@@ -2,7 +2,7 @@
 title: "Fee Schedules"
 date: 2020-02-27T19:34:17.779Z
 url: "general-functionality/system-configuration/fee-schedules.html"
-version: 36
+version: 41
 id: 1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto
 source: https://drive.google.com/open?id=1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto
 menu:

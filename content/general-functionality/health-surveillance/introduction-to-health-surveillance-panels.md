@@ -2,8 +2,7 @@
 title: "Introduction to Health Surveillance Panels"
 date: 2020-03-13T15:08:54.014Z
 url: "general-functionality/health-surveillance/introduction-to-health-surveillance-panels.html"
-author: Jeremia Ploor
-version: 21
+version: 27
 id: 1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik
 source: https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik
 menu:

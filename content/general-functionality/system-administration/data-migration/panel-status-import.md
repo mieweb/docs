@@ -2,8 +2,7 @@
 title: "Panel Status Import"
 date: 2020-03-17T15:16:03.508Z
 url: "general-functionality/system-administration/data-migration/panel-status-import.html"
-author: Jeremia Ploor
-version: 19
+version: 25
 id: 1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ
 source: https://drive.google.com/open?id=1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ
 menu:

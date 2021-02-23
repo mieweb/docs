@@ -2,7 +2,7 @@
 title: "Inventory Mappings"
 date: 2020-02-27T20:31:50.550Z
 url: "general-functionality/system-administration/asset-management/inventory-mappings.html"
-version: 30
+version: 35
 id: 1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos
 source: https://drive.google.com/open?id=1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos
 menu:

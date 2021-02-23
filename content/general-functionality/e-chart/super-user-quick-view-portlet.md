@@ -2,8 +2,7 @@
 title: "Super User Quick View Portlet"
 date: 2020-03-10T16:24:00.920Z
 url: "general-functionality/e-chart/super-user-quick-view-portlet.html"
-author: Jeremia Ploor
-version: 29
+version: 35
 id: 1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI
 source: https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI
 menu:

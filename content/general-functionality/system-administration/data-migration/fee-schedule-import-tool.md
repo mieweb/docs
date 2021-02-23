@@ -2,7 +2,7 @@
 title: "Fee Schedule Import Tool"
 date: 2020-02-27T20:46:06.612Z
 url: "general-functionality/system-administration/data-migration/fee-schedule-import-tool.html"
-version: 7
+version: 12
 id: 1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0
 source: https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0
 menu:
@@ -27,54 +27,34 @@ The fee schedule column definition shall contain all columns listed below regard
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Type    </td>
-    <td>
-Required    </td>
-    <td>
-Comments    </td>
+    <td>Name</td>
+    <td>Type</td>
+    <td>Required</td>
+    <td>Comments</td>
   </tr>
   <tr>
-    <td>
-Fee Schedule Name    </td>
-    <td>
-char 100    </td>
-    <td>
-R    </td>
-    <td>
-Name of fee schedule    </td>
+    <td>Fee Schedule Name</td>
+    <td>char 100</td>
+    <td>R</td>
+    <td>Name of fee schedule</td>
   </tr>
   <tr>
-    <td>
-CPT Code    </td>
-    <td>
-char 15    </td>
-    <td>
-R    </td>
-    <td>
-CPT code to load    </td>
+    <td>CPT Code</td>
+    <td>char 15</td>
+    <td>R</td>
+    <td>CPT code to load</td>
   </tr>
   <tr>
-    <td>
-Description    </td>
-    <td>
-char 255    </td>
-    <td>
-R    </td>
-    <td>
-Description of the CPT Code    </td>
+    <td>Description</td>
+    <td>char 255</td>
+    <td>R</td>
+    <td>Description of the CPT Code</td>
   </tr>
   <tr>
-    <td>
-Amount    </td>
-    <td>
-double(9,2)    </td>
-    <td>
-R    </td>
-    <td>
-Dollar amount for CPT Code (max 9 digits before decimal, 2 digits after, ie 123456789.00)    </td>
+    <td>Amount</td>
+    <td>double(9,2)</td>
+    <td>R</td>
+    <td>Dollar amount for CPT Code (max 9 digits before decimal, 2 digits after, ie 123456789.00)</td>
   </tr>
 </table>
 

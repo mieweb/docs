@@ -2,8 +2,7 @@
 title: "Health Surveillance Panels - Action Rules"
 date: 2020-03-13T15:15:41.577Z
 url: "general-functionality/health-surveillance/health-surveillance-panels-action-rules.html"
-author: Jeremia Ploor
-version: 34
+version: 40
 id: 10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc
 source: https://drive.google.com/open?id=10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc
 menu:

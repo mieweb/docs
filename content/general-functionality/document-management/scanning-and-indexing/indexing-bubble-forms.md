@@ -2,8 +2,7 @@
 title: "Indexing Bubble Forms"
 date: 2020-03-09T15:08:14.503Z
 url: "general-functionality/document-management/scanning-and-indexing/indexing-bubble-forms.html"
-author: Jeremia Ploor
-version: 30
+version: 36
 id: 16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c
 source: https://drive.google.com/open?id=16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c
 menu:

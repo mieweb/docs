@@ -2,7 +2,7 @@
 title: "Viewing Health Surveillance Panels & Membership"
 date: 2020-02-27T20:00:28.475Z
 url: "general-functionality/health-surveillance/viewing-health-surveillance-panels-and-membership.html"
-version: 24
+version: 29
 id: 1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM
 source: https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM
 menu:

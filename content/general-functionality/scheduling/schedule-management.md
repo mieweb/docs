@@ -2,8 +2,7 @@
 title: "Schedule Management"
 date: 2020-03-10T17:11:24.605Z
 url: "general-functionality/scheduling/schedule-management.html"
-author: Jeremia Ploor
-version: 45
+version: 53
 id: 1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q
 source: https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q
 menu:

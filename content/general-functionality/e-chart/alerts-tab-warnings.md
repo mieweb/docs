@@ -2,8 +2,8 @@
 title: "Alerts Tab - Warnings"
 date: 2020-02-27T21:12:42.458Z
 url: "general-functionality/e-chart/alerts-tab-warnings.html"
-author: Alan Quandt
-version: 22
+author: aquandt
+version: 27
 id: 1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0
 source: https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0
 menu:

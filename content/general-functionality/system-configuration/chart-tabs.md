@@ -2,8 +2,7 @@
 title: "Chart Tabs"
 date: 2020-03-20T20:26:51.158Z
 url: "general-functionality/system-configuration/chart-tabs.html"
-author: Jeremia Ploor
-version: 83
+version: 89
 id: 1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk
 source: https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk
 menu:

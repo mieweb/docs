@@ -2,7 +2,7 @@
 title: "Routing Dictation"
 date: 2020-02-27T19:51:41.120Z
 url: "general-functionality/encounters/dictation-and-transcription/routing-dictation.html"
-version: 18
+version: 26
 id: 1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8
 source: https://drive.google.com/open?id=1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8
 menu:

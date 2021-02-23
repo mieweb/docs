@@ -2,8 +2,7 @@
 title: "Working in a Legacy Encounter"
 date: 2020-03-26T17:07:46.706Z
 url: "general-functionality/encounters/working-in-a-legacy-encounter.html"
-author: Jeremia Ploor
-version: 71
+version: 77
 id: 16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI
 source: https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI
 menu:

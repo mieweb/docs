@@ -2,7 +2,7 @@
 title: "Installing MIE Device App"
 date: 2020-02-27T21:06:51.908Z
 url: "general-functionality/system-administration/interfaces/installing-mie-device-app.html"
-version: 30
+version: 37
 id: 1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE
 source: https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE
 menu:

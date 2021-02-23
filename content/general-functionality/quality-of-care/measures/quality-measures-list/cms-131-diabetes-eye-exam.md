@@ -2,8 +2,8 @@
 title: "CMS 131 - Diabetes: Eye Exam"
 date: 2020-02-27T21:30:11.746Z
 url: "general-functionality/quality-of-care/measures/quality-measures-list/cms-131-diabetes-eye-exam.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg
 source: https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg
 menu:
@@ -53,100 +53,68 @@ menu:
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Value Set    </td>
+    <td>Name</td>
+    <td>Value Set</td>
   </tr>
   <tr>
-    <td>
-Diagnosis    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.103.12.1001    </td>
+    <td>Diagnosis</td>
+    <td>2.16.840.1.113883.3.464.1003.103.12.1001</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed    </td>
-    <td>
-2.16.840.1.113883.3.526.3.1240    </td>
+    <td>Encounter, Performed</td>
+    <td>2.16.840.1.113883.3.526.3.1240</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed    </td>
-    <td>
-2.16.840.1.113883.3.666.5.307    </td>
+    <td>Encounter, Performed</td>
+    <td>2.16.840.1.113883.3.666.5.307</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1016    </td>
+    <td>Encounter, Performed</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1016</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1001    </td>
+    <td>Encounter, Performed</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1001</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed    </td>
-    <td>
-2.16.840.1.113883.3.526.3.1285    </td>
+    <td>Encounter, Performed</td>
+    <td>2.16.840.1.113883.3.526.3.1285</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1025    </td>
+    <td>Encounter, Performed</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1025</td>
   </tr>
   <tr>
-    <td>
-Encounter, Performed    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.101.12.1023    </td>
+    <td>Encounter, Performed</td>
+    <td>2.16.840.1.113883.3.464.1003.101.12.1023</td>
   </tr>
   <tr>
-    <td>
-Intervention, Order    </td>
-    <td>
-2.16.840.1.113762.1.4.1108.15    </td>
+    <td>Intervention, Order</td>
+    <td>2.16.840.1.113762.1.4.1108.15</td>
   </tr>
   <tr>
-    <td>
-Intervention, Performed    </td>
-    <td>
-2.16.840.1.113762.1.4.1108.15    </td>
+    <td>Intervention, Performed</td>
+    <td>2.16.840.1.113762.1.4.1108.15</td>
   </tr>
   <tr>
-    <td>
-Patient Characteristic Ethnicity    </td>
-    <td>
-2.16.840.1.114222.4.11.837    </td>
+    <td>Patient Characteristic Ethnicity</td>
+    <td>2.16.840.1.114222.4.11.837</td>
   </tr>
   <tr>
-    <td>
-Patient Characteristic Payer    </td>
-    <td>
-2.16.840.1.114222.4.11.3591    </td>
+    <td>Patient Characteristic Payer</td>
+    <td>2.16.840.1.114222.4.11.3591</td>
   </tr>
   <tr>
-    <td>
-Patient Characteristic Race    </td>
-    <td>
-2.16.840.1.114222.4.11.836    </td>
+    <td>Patient Characteristic Race</td>
+    <td>2.16.840.1.114222.4.11.836</td>
   </tr>
   <tr>
-    <td>
-Patient Characteristic Sex    </td>
-    <td>
-2.16.840.1.113762.1.4.1    </td>
+    <td>Patient Characteristic Sex</td>
+    <td>2.16.840.1.113762.1.4.1</td>
   </tr>
   <tr>
-    <td>
-Physical Exam, Performed    </td>
-    <td>
-2.16.840.1.113883.3.464.1003.115.12.1088    </td>
+    <td>Physical Exam, Performed</td>
+    <td>2.16.840.1.113883.3.464.1003.115.12.1088</td>
   </tr>
 </table>
 

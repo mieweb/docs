@@ -2,7 +2,7 @@
 title: "Adding/Editing Health Surveillance Panels"
 date: 2020-02-27T19:59:26.235Z
 url: "general-functionality/health-surveillance/adding-editing-health-surveillance-panels.html"
-version: 19
+version: 24
 id: 1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM
 source: https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM
 menu:
@@ -90,11 +90,11 @@ You can edit an existing panel by clicking the edit link in the options column o
 
 It will open the current panel with the fields you can edit. Below that section is a revision history of all revisions that have been done to that panel that you can open and view the previous entry if you wish.
 
-![](../../external_files/e9c4d4df51c2669d6a9297ce31db0295.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 
 You can edit any field regarding the panel. When you are done, you **must** type in a reason for your edit/change.
 
 It is a required field. Then click the SUBMIT button and it will save your edits and track you as the user who modified and the date/time of modification.
 
-![](../../external_files/5b6a1ebd157b448fe3f27286898fb84f.png)
+![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
 

@@ -2,7 +2,7 @@
 title: "Employer/Employee Second Portal Setup"
 date: 2020-02-27T19:50:32.374Z
 url: "general-functionality/portal-management/employer-employee-second-portal-setup.html"
-version: 17
+version: 22
 id: 1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM
 source: https://drive.google.com/open?id=1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM
 menu:

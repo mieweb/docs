@@ -2,7 +2,7 @@
 title: "Order Question Import Tool"
 date: 2020-02-27T20:45:58.797Z
 url: "general-functionality/system-administration/data-migration/order-question-import-tool.html"
-version: 7
+version: 12
 id: 1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c
 source: https://drive.google.com/open?id=1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c
 menu:
@@ -28,74 +28,46 @@ The order question column definition shall contain all columns listed below rega
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Type    </td>
-    <td>
-Required    </td>
-    <td>
-Comments    </td>
+    <td>Name</td>
+    <td>Type</td>
+    <td>Required</td>
+    <td>Comments</td>
   </tr>
   <tr>
-    <td>
-Order code    </td>
-    <td>
-char 30    </td>
-    <td>
-R    </td>
-    <td>
-The order code on which this question is to be asked when it is ordered.    </td>
+    <td>Order code</td>
+    <td>char 30</td>
+    <td>R</td>
+    <td>The order code on which this question is to be asked when it is ordered.</td>
   </tr>
   <tr>
-    <td>
-Question code    </td>
-    <td>
-char 30    </td>
-    <td>
-R    </td>
-    <td>
-Code that uniquely identifies the question.    </td>
+    <td>Question code</td>
+    <td>char 30</td>
+    <td>R</td>
+    <td>Code that uniquely identifies the question.</td>
   </tr>
   <tr>
-    <td>
-Question    </td>
-    <td>
-char 200    </td>
-    <td>
-R    </td>
-    <td>
-The Question to be asked.    </td>
+    <td>Question</td>
+    <td>char 200</td>
+    <td>R</td>
+    <td>The Question to be asked.</td>
   </tr>
   <tr>
-    <td>
-Input Type    </td>
-    <td>
-'T', 'Y', or 'R'    </td>
-    <td>
-R    </td>
-    <td>
-How the question is to be answered. The valid input types are (T)ext, (Y)esNo, and (R)adio button.    </td>
+    <td>Input Type</td>
+    <td>'T', 'Y', or 'R'</td>
+    <td>R</td>
+    <td>How the question is to be answered. The valid input types are (T)ext, (Y)esNo, and (R)adio button.</td>
   </tr>
   <tr>
-    <td>
-Answer List    </td>
-    <td>
-char 1024    </td>
-    <td>
-O    </td>
-    <td>
-List of possible answers. Items must be separated by '|' (the bar/pipe character).    </td>
+    <td>Answer List</td>
+    <td>char 1024</td>
+    <td>O</td>
+    <td>List of possible answers. Items must be separated by '|' (the bar/pipe character).</td>
   </tr>
   <tr>
-    <td>
-Asking display order    </td>
-    <td>
-int 3    </td>
-    <td>
-O    </td>
-    <td>
-The order in which the questions are displayed.    </td>
+    <td>Asking display order</td>
+    <td>int 3</td>
+    <td>O</td>
+    <td>The order in which the questions are displayed.</td>
   </tr>
 </table>
 

@@ -2,8 +2,8 @@
 title: "Review Session - Checkin"
 date: 2020-02-27T21:24:39.047Z
 url: "rapid-deployment/review-sessions/review-session-checkin.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y
 source: https://drive.google.com/open?id=14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y
 menu:

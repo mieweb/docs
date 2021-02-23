@@ -2,8 +2,7 @@
 title: "Flowsheets Editor"
 date: 2020-03-30T18:57:04.429Z
 url: "general-functionality/order-and-result-management/flowsheets-editor.html"
-author: Jeremia Ploor
-version: 58
+version: 70
 id: 1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY
 source: https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY
 menu:

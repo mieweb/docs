@@ -2,8 +2,8 @@
 title: "Review Session - Document Management"
 date: 2020-02-27T21:24:36.161Z
 url: "rapid-deployment/review-sessions/review-session-document-management.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ
 source: https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ
 menu:
@@ -110,7 +110,7 @@ Review the preferences of security roles and individuals, and ensure document ac
 * [Scanning](../../general-functionality/document-management/scanning-and-indexing/scanning.html)
 * [Indexing](../../general-functionality/document-management/scanning-and-indexing/indexing.html)
 * [Search for Scanned Batches - WebScan](../../general-functionality/document-management/scanning-and-indexing/batch-search-in-webscan.html)
-* [AlternaTIFF ActiveX control for WebScan](../../general-functionality/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.html)
+* [AlternaTIFF ActiveX control for WebScan](../../general-functionality/document-management/scanning-and-indexing/alternatiff-activex-control-for-webs.html)
 * [E-Chart Scan Documents](../../general-functionality/document-management/documents-and-forms/e-chart-scan-documents.html)
 * [Text Documents](../../general-functionality/document-management/documents-and-forms/text-documents.html)
 * [Word Documents](../../general-functionality/document-management/documents-and-forms/word-documents.html)

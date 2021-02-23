@@ -2,8 +2,7 @@
 title: "Delete/Move/Lock Documents"
 date: 2020-03-23T17:21:07.161Z
 url: "general-functionality/document-management/documents-and-forms/delete-move-lock-documents.html"
-author: Jeremia Ploor
-version: 50
+version: 56
 id: 1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4
 source: https://drive.google.com/open?id=1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4
 menu:

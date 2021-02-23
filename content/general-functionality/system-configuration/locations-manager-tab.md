@@ -2,8 +2,7 @@
 title: "Locations Manager Tab"
 date: 2020-03-05T17:14:42.915Z
 url: "general-functionality/system-configuration/locations-manager-tab.html"
-author: Jeremia Ploor
-version: 34
+version: 40
 id: 1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw
 source: https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw
 menu:

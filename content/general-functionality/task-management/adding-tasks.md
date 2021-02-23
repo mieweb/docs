@@ -2,8 +2,7 @@
 title: "Adding Tasks"
 date: 2020-03-16T15:52:59.061Z
 url: "general-functionality/task-management/adding-tasks.html"
-author: Jeremia Ploor
-version: 60
+version: 72
 id: 1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag
 source: https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag
 menu:

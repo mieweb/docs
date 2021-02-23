@@ -2,8 +2,8 @@
 title: "Device Interface - Maico MA800"
 date: 2020-02-27T21:28:06.013Z
 url: "general-functionality/system-administration/interfaces/device-interface-maico-ma800.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY
 source: https://drive.google.com/open?id=1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY
 menu:

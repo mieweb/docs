@@ -2,8 +2,8 @@
 title: "Scheduler & Check-in"
 date: 2020-02-27T21:27:23.979Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/scheduler-and-check-in.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA
 source: https://drive.google.com/open?id=1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA
 menu:

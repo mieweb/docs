@@ -2,7 +2,7 @@
 title: "Common Case Search Report"
 date: 2020-02-27T20:12:56.822Z
 url: "general-functionality/reports/common-case-search-report.html"
-version: 67
+version: 73
 id: 1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU
 source: https://drive.google.com/open?id=1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU
 menu:

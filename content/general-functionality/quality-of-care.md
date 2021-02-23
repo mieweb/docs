@@ -2,8 +2,8 @@
 title: "Quality of Care"
 date: 2020-02-27T21:28:01.325Z
 url: "general-functionality/quality-of-care.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk
 source: https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk
 menu:

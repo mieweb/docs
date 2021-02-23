@@ -2,7 +2,7 @@
 title: "Activity Log Report"
 date: 2020-02-27T20:12:05.387Z
 url: "general-functionality/reports/activity-log-report.html"
-version: 16
+version: 21
 id: 1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY
 source: https://drive.google.com/open?id=1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY
 menu:

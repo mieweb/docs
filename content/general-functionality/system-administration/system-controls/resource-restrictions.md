@@ -2,7 +2,7 @@
 title: "Resource Restrictions"
 date: 2020-02-27T20:20:52.770Z
 url: "general-functionality/system-administration/system-controls/resource-restrictions.html"
-version: 23
+version: 28
 id: 1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY
 source: https://drive.google.com/open?id=1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY
 menu:

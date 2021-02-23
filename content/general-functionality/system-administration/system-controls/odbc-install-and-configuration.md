@@ -2,8 +2,7 @@
 title: "ODBC Install & Configuration"
 date: 2020-03-16T23:23:27.283Z
 url: "general-functionality/system-administration/system-controls/odbc-install-and-configuration.html"
-author: Jeremia Ploor
-version: 37
+version: 43
 id: 10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk
 source: https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk
 menu:

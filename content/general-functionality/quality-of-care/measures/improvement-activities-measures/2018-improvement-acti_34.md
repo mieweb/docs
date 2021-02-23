@@ -1,0 +1,61 @@
+---
+title: "PM 18 - Provide Clinical-Community Linkages"
+date: 2020-02-27T20:53:42.387Z
+url: "general-functionality/quality-of-care/measures/improvement-activities-measures/2018-improvement-acti_34.html"
+version: 11
+id: 16dkT5HTGBKqQJY8eXoZI0y8ko3JqgUPpMkSeSMHJvZ8
+source: https://drive.google.com/open?id=16dkT5HTGBKqQJY8eXoZI0y8ko3JqgUPpMkSeSMHJvZ8
+menu:
+    main:
+        name: "PM 18 - Provide Clinical-Community Linkages"
+        identifier: "16dkT5HTGBKqQJY8eXoZI0y8ko3JqgUPpMkSeSMHJvZ8"
+        parent: "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI"
+        weight: 3370
+---
+
+
+
+
+
+
+
+
+**Activity Weighting**: Medium
+
+**Subcategory Name**: Population Management
+
+**Description**: Engaging community health workers to provide a comprehensive link to community resources through family-based services focusing on success in health, education, and self-sufficiency. This activity supports individual MIPS eligible clinicians or groups that coordinate with primary care and other clinicians, engage and support patients, use of health information technology, and employ quality measurement and improvement processes. An example of this community based program is the NCQA Patient-Centered Connected Care (PCCC) Recognition Program or other such programs that meet these criteria.
+
+
+
+
+
+
+
+## 
+
+Supporting Documentation
+
+* Documentation of engagement with community health workers; and 
+* A demonstrated link to community resources that promote family-based services i.e. paper work, notes, etc.; and 
+* Documentation of coordination with primary care and other clinicians to engage and support patients, use of health information technology, and employ quality measurement and improvement processes, e.g. NCQA Patient-Centered Connected Care (PCCC) Recognition Program or similar programs. 
+
+{{% note %}}
+
+A certified EHR may be used for documentation purposes, but is not required unless attesting for the Promoting Interoperability (formerly ACI) bonus.
+
+{{% /note %}}
+
+
+## 
+
+Resources
+
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
+
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
+
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+
+[Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)
+

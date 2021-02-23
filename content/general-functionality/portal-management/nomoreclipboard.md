@@ -2,7 +2,7 @@
 title: "NoMoreClipboard"
 date: 2020-02-27T20:37:24.966Z
 url: "general-functionality/portal-management/nomoreclipboard.html"
-version: 7
+version: 12
 id: 1BjF6NXvvzRfQtf-G77s_gu5FwvVtNl2x8RSz4cNIU3g
 source: https://drive.google.com/open?id=1BjF6NXvvzRfQtf-G77s_gu5FwvVtNl2x8RSz4cNIU3g
 menu:

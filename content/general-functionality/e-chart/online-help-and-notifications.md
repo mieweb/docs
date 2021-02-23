@@ -2,8 +2,7 @@
 title: "Online Help and Notifications"
 date: 2020-03-09T20:43:31.783Z
 url: "general-functionality/e-chart/online-help-and-notifications.html"
-author: Jeremia Ploor
-version: 36
+version: 42
 id: 1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI
 source: https://drive.google.com/open?id=1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI
 menu:

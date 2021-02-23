@@ -2,7 +2,7 @@
 title: "Storage Report"
 date: 2020-02-27T20:16:58.467Z
 url: "general-functionality/reports/storage-report.html"
-version: 11
+version: 16
 id: 1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4
 source: https://drive.google.com/open?id=1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4
 menu:

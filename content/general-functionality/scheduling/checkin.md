@@ -2,8 +2,7 @@
 title: "Checkin"
 date: 2020-03-25T17:30:11.945Z
 url: "general-functionality/scheduling/checkin.html"
-author: Jeremia Ploor
-version: 49
+version: 55
 id: 19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8
 source: https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8
 menu:

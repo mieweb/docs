@@ -2,8 +2,8 @@
 title: "Merge Manager Tab"
 date: 2020-02-27T21:21:33.247Z
 url: "general-functionality/system-administration/system-controls/merge-manager-tab.html"
-author: Alan Quandt
-version: 23
+author: aquandt
+version: 28
 id: 1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk
 source: https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk
 menu:

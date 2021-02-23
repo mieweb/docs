@@ -2,8 +2,7 @@
 title: "Multilingual Feature"
 date: 2020-03-16T22:57:36.970Z
 url: "general-functionality/system-administration/system-controls/multilingual-feature.html"
-author: Jeremia Ploor
-version: 56
+version: 67
 id: 1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY
 source: https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY
 menu:

@@ -2,8 +2,7 @@
 title: "Archiving/Closing/Re-archiving Encounters"
 date: 2020-03-13T14:41:23.189Z
 url: "general-functionality/encounters/archiving-closing-re-archiving-encounters.html"
-author: Jeremia Ploor
-version: 43
+version: 49
 id: 1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo
 source: https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo
 menu:

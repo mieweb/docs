@@ -2,7 +2,7 @@
 title: "Print/Fax/Transmit Prescriptions"
 date: 2020-02-27T20:04:28.276Z
 url: "general-functionality/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.html"
-version: 37
+version: 44
 id: 1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc
 source: https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc
 menu:
@@ -28,7 +28,7 @@ After you click SAVE when prescribing a drug, the Medication history screen will
 * <strong>Details</strong> column: This will be blank, unless there is an error with the prescription or if it is a controlled substance. If there is a field left blank, it will say here what it is missing. If it is a controlled substance, then it will say that here. Some options currently set to show in <em>details</em> column are: 1) Controlled substance with class #, 2) May or may not be a controlled substance, 3) No Quantity specified, 4) No Strength/Form specified and 5) No Prescriber specified. This allows you to catch something before printing/faxing, correct it, then print/fax it correctly. To correct something, you can click on the underlined drug name in the <strong>Drug Name</strong> column and it will pull up that prescription. You then click <em>Edit</em> and either <em>Change Therapy</em> or <em>Correct Error</em> (see separate Prescribing/Adding Meds help documentation). Click <em>Save</em> after correcting the error/therapy, then it will still be in the pending print/fax box w/ your changes/corrections. Prescriptions with missing "required" SureScripts fields can be printed, but not faxed/e-sent until the required fields are fixed. If SureScripts is disabled, then there will be no warning about the required fields.
     * If you see a detail message of:_ This drug has (Inactive) status_ , that means the system is telling the user that for example: Elavil is not a drug that can be prescribed anymore, according to our drug database provider (First Databank) it is inactive and not available for prescribing. Further research will need to be done by the user to prescribe something valid.
 
-![](../../external_files/58c90d2bfbe994165957822d9e1e0792.png)
+![](../../external_files/092365f311f2319bbce079ef39e42fb3.png)
 
 * <strong>Options</strong> column with the words "<em>Do NOT Send"</em>. If you do <strong>not</strong> want to print/fax/transmit a particular prescription or drug guide at this time then click that. It will take it totally out of the <em>pending print prescriptions</em> and still places it below in the patient's medication history_._ It will show the others still as active to print (if there are others pending to print). You can continue to click another if you wish not to print another. This medication has been prescribed for this patient, but has been chosen not to print/fax/transmit. Ex: you may have called in a prescription to a pharmacy. Since you called it in, you would not print/fax/transmit it now.
 * <strong>Script:</strong> Use the drop-down arrow to select the type of script pad you want these printed/faxed/transmitted on.

@@ -2,8 +2,8 @@
 title: "Review Session - Work-Related Exams"
 date: 2020-02-27T21:25:14.565Z
 url: "rapid-deployment/review-sessions/review-session-work-related-exams.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU
 source: https://drive.google.com/open?id=17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU
 menu:

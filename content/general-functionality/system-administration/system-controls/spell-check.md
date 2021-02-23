@@ -2,8 +2,8 @@
 title: "Spell Check"
 date: 2020-03-10T14:16:20.062Z
 url: "general-functionality/system-administration/system-controls/spell-check.html"
-author: Alan Quandt
-version: 24
+author: aquandt
+version: 29
 id: 1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ
 source: https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ
 menu:

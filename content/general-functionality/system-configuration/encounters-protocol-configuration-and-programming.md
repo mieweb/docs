@@ -2,8 +2,7 @@
 title: "Encounters Protocol Configuration & Programming"
 date: 2020-03-20T21:07:28.846Z
 url: "general-functionality/system-configuration/encounters-protocol-configuration-and-programming.html"
-author: Jeremia Ploor
-version: 131
+version: 137
 id: 19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY
 source: https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY
 menu:

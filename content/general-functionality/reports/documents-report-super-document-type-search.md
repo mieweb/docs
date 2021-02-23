@@ -2,8 +2,7 @@
 title: "Documents Report / Super Document Type Search"
 date: 2020-03-16T16:41:16.740Z
 url: "general-functionality/reports/documents-report-super-document-type-search.html"
-author: Jeremia Ploor
-version: 30
+version: 38
 id: 1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0
 source: https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0
 menu:

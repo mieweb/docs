@@ -2,8 +2,7 @@
 title: "Adding an Appointment Using the Wizard Tab"
 date: 2020-03-10T17:21:10.201Z
 url: "general-functionality/scheduling/adding-an-appointment-using-the-wizard-tab.html"
-author: Jeremia Ploor
-version: 56
+version: 62
 id: 1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw
 source: https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw
 menu:
@@ -191,7 +190,7 @@ This is an example of scheduling an allergy injection for 5/14/2009 at 12:30pm a
 
 It then listed my initial appointment (which is considered the first occurrence) and then subsequently listed the next 2 occurrences which totals the 3 occurrences that was specified.
 
-![](../../external_files/b098af2cf03370ec5773be3924b669a0.png)
+![](../../external_files/f378839628e9cca00957241b1140e099.png)
 
 You can view to the right of each appointment listing if the appointment scheduling was ok (shows as saved) or if there are any conflicts. If any conflicts (like overbooked, etc) you can Force the appointment to be scheduled anyhow, or you can find free time or view calendar to reschedule just that specific conflicted appointment.
 

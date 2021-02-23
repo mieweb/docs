@@ -2,8 +2,8 @@
 title: "DICOM Viewer"
 date: 2020-03-09T19:36:52.318Z
 url: "general-functionality/document-management/imaging/dicom-viewer.html"
-author: Alan Quandt
-version: 29
+author: aquandt
+version: 35
 id: 1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0
 source: https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0
 menu:

@@ -2,8 +2,7 @@
 title: "Data Import Standards"
 date: 2020-03-17T16:11:37.150Z
 url: "general-functionality/system-administration/data-migration/data-import-standards.html"
-author: Jeremia Ploor
-version: 26
+version: 32
 id: 1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M
 source: https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M
 menu:
@@ -54,52 +53,36 @@ CDC Race codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf](
 
 <table>
   <tr>
-    <td>
-Code    </td>
-    <td>
-Description    </td>
+    <td>Code</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>
-R1    </td>
-    <td>
-American Indian    </td>
+    <td>R1</td>
+    <td>American Indian</td>
   </tr>
   <tr>
-    <td>
-R2    </td>
-    <td>
-Asian    </td>
+    <td>R2</td>
+    <td>Asian</td>
   </tr>
   <tr>
-    <td>
-R3    </td>
-    <td>
-African American    </td>
+    <td>R3</td>
+    <td>African American</td>
   </tr>
   <tr>
-    <td>
-R4    </td>
-    <td>
-Hawaiian / Pacific Islander    </td>
+    <td>R4</td>
+    <td>Hawaiian / Pacific Islander</td>
   </tr>
   <tr>
-    <td>
-R5    </td>
-    <td>
-White    </td>
+    <td>R5</td>
+    <td>White</td>
   </tr>
   <tr>
-    <td>
-R9    </td>
-    <td>
-Other    </td>
+    <td>R9</td>
+    <td>Other</td>
   </tr>
   <tr>
-    <td>
-NA    </td>
-    <td>
-Declined to Answer    </td>
+    <td>NA</td>
+    <td>Declined to Answer</td>
   </tr>
 </table>
 
@@ -113,28 +96,20 @@ CDC Ethnicity codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.
 
 <table>
   <tr>
-    <td>
-Code    </td>
-    <td>
-Description    </td>
+    <td>Code</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>
-E1    </td>
-    <td>
-Hispanic or Latino    </td>
+    <td>E1</td>
+    <td>Hispanic or Latino</td>
   </tr>
   <tr>
-    <td>
-E2    </td>
-    <td>
-Not Hispanic or Latino    </td>
+    <td>E2</td>
+    <td>Not Hispanic or Latino</td>
   </tr>
   <tr>
-    <td>
-NA    </td>
-    <td>
-Declined to Answer    </td>
+    <td>NA</td>
+    <td>Declined to Answer</td>
   </tr>
 </table>
 
@@ -146,46 +121,32 @@ Declined to Answer    </td>
 
 <table>
   <tr>
-    <td>
-Code    </td>
-    <td>
-Description    </td>
+    <td>Code</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>
-M    </td>
-    <td>
-Male    </td>
+    <td>M</td>
+    <td>Male</td>
   </tr>
   <tr>
-    <td>
-F    </td>
-    <td>
-Female    </td>
+    <td>F</td>
+    <td>Female</td>
   </tr>
   <tr>
-    <td>
-A    </td>
-    <td>
-Ambiguous    </td>
+    <td>A</td>
+    <td>Ambiguous</td>
   </tr>
   <tr>
-    <td>
-N    </td>
-    <td>
-Not applicable    </td>
+    <td>N</td>
+    <td>Not applicable</td>
   </tr>
   <tr>
-    <td>
-O    </td>
-    <td>
-Other    </td>
+    <td>O</td>
+    <td>Other</td>
   </tr>
   <tr>
-    <td>
-U    </td>
-    <td>
-Unknown    </td>
+    <td>U</td>
+    <td>Unknown</td>
   </tr>
 </table>
 
@@ -197,46 +158,32 @@ Unknown    </td>
 
 <table>
   <tr>
-    <td>
-Code    </td>
-    <td>
-Description    </td>
+    <td>Code</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>
-M    </td>
-    <td>
-Married    </td>
+    <td>M</td>
+    <td>Married</td>
   </tr>
   <tr>
-    <td>
-S    </td>
-    <td>
-Single    </td>
+    <td>S</td>
+    <td>Single</td>
   </tr>
   <tr>
-    <td>
-D    </td>
-    <td>
-Divorced    </td>
+    <td>D</td>
+    <td>Divorced</td>
   </tr>
   <tr>
-    <td>
-W    </td>
-    <td>
-Widowed    </td>
+    <td>W</td>
+    <td>Widowed</td>
   </tr>
   <tr>
-    <td>
-A    </td>
-    <td>
-Legally Separated    </td>
+    <td>A</td>
+    <td>Legally Separated</td>
   </tr>
   <tr>
-    <td>
-C    </td>
-    <td>
-Common Law    </td>
+    <td>C</td>
+    <td>Common Law</td>
   </tr>
 </table>
 
@@ -248,22 +195,16 @@ Common Law    </td>
 
 <table>
   <tr>
-    <td>
-Code    </td>
-    <td>
-Description    </td>
+    <td>Code</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>
-F    </td>
-    <td>
-Full-Time Employee    </td>
+    <td>F</td>
+    <td>Full-Time Employee</td>
   </tr>
   <tr>
-    <td>
-P    </td>
-    <td>
-Part-Time Employee    </td>
+    <td>P</td>
+    <td>Part-Time Employee</td>
   </tr>
 </table>
 
@@ -275,34 +216,24 @@ Part-Time Employee    </td>
 
 <table>
   <tr>
-    <td>
-Code    </td>
-    <td>
-Description    </td>
+    <td>Code</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>
-id:username    </td>
-    <td>
-Webchart username    </td>
+    <td>id:username</td>
+    <td>Webchart username</td>
   </tr>
   <tr>
-    <td>
-id:uid    </td>
-    <td>
-Universal ID    </td>
+    <td>id:uid</td>
+    <td>Universal ID</td>
   </tr>
   <tr>
-    <td>
-id:npi    </td>
-    <td>
-Nation Provider ID    </td>
+    <td>id:npi</td>
+    <td>Nation Provider ID</td>
   </tr>
   <tr>
-    <td>
-id:user_id    </td>
-    <td>
-Internal Webchart User ID    </td>
+    <td>id:user_id</td>
+    <td>Internal Webchart User ID</td>
   </tr>
 </table>
 
@@ -314,46 +245,32 @@ Internal Webchart User ID    </td>
 
 <table>
   <tr>
-    <td>
-Code    </td>
-    <td>
-Description    </td>
+    <td>Code</td>
+    <td>Description</td>
   </tr>
   <tr>
-    <td>
-id:username    </td>
-    <td>
-Webchart username    </td>
+    <td>id:username</td>
+    <td>Webchart username</td>
   </tr>
   <tr>
-    <td>
-id:ext_id    </td>
-    <td>
-External Identifier    </td>
+    <td>id:ext_id</td>
+    <td>External Identifier</td>
   </tr>
   <tr>
-    <td>
-id:ssn    </td>
-    <td>
-Social Security Number (US)    </td>
+    <td>id:ssn</td>
+    <td>Social Security Number (US)</td>
   </tr>
   <tr>
-    <td>
-id:sin    </td>
-    <td>
-Social Insurance Number (Canada)    </td>
+    <td>id:sin</td>
+    <td>Social Insurance Number (Canada)</td>
   </tr>
   <tr>
-    <td>
-id:email    </td>
-    <td>
-email address    </td>
+    <td>id:email</td>
+    <td>email address</td>
   </tr>
   <tr>
-    <td>
-id:pat_id    </td>
-    <td>
-Internal Webchart Patient ID    </td>
+    <td>id:pat_id</td>
+    <td>Internal Webchart Patient ID</td>
   </tr>
 </table>
 

@@ -2,7 +2,7 @@
 title: "Provider Quality of Care Status"
 date: 2020-02-27T20:43:38.560Z
 url: "general-functionality/quality-of-care/provider-quality-of-care-status.html"
-version: 7
+version: 12
 id: 1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4
 source: https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4
 menu:

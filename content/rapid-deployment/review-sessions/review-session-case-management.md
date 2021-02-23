@@ -2,8 +2,8 @@
 title: "Review Session - Case Management"
 date: 2020-02-27T21:25:11.802Z
 url: "rapid-deployment/review-sessions/review-session-case-management.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw
 source: https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw
 menu:

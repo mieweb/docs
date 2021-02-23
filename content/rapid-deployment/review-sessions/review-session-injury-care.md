@@ -2,8 +2,8 @@
 title: "Review Session - Injury Care"
 date: 2020-02-27T21:25:07.347Z
 url: "rapid-deployment/review-sessions/review-session-injury-care.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU
 source: https://drive.google.com/open?id=1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU
 menu:

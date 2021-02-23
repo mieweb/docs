@@ -2,8 +2,8 @@
 title: "Conditions CSV API"
 date: 2020-02-27T21:32:21.297Z
 url: "general-functionality/system-administration/data-migration/conditions-csv-api.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4
 source: https://drive.google.com/open?id=1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4
 menu:

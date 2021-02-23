@@ -2,8 +2,7 @@
 title: "Picture-Photo Documents"
 date: 2020-03-05T20:49:06.831Z
 url: "general-functionality/document-management/documents-and-forms/picture-photo-documents.html"
-author: Jeremia Ploor
-version: 46
+version: 52
 id: 1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY
 source: https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY
 menu:

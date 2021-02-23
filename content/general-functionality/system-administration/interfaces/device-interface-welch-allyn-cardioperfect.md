@@ -2,8 +2,8 @@
 title: "Device Interface - Welch Allyn CardioPerfect"
 date: 2020-02-27T21:28:10.618Z
 url: "general-functionality/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.html"
-author: Alan Quandt
-version: 12
+author: aquandt
+version: 17
 id: 1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8
 source: https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8
 menu:

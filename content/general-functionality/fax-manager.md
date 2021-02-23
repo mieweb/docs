@@ -2,7 +2,7 @@
 title: "Fax Manager"
 date: 2020-02-27T20:11:13.029Z
 url: "general-functionality/fax-manager.html"
-version: 8
+version: 13
 id: 1h4WYryKs4DeyPgg4oCW6NTLGr5yOYsEgUz8h7dkJXjg
 source: https://drive.google.com/open?id=1h4WYryKs4DeyPgg4oCW6NTLGr5yOYsEgUz8h7dkJXjg
 menu:

@@ -2,7 +2,7 @@
 title: "Inventory Module Settings"
 date: 2020-02-27T20:31:40.529Z
 url: "general-functionality/system-administration/asset-management/inventory-module-settings.html"
-version: 32
+version: 37
 id: 1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I
 source: https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I
 menu:

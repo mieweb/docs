@@ -2,8 +2,8 @@
 title: "Measures"
 date: 2020-02-27T21:28:53.378Z
 url: "general-functionality/quality-of-care/measures.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ
 source: https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ
 menu:

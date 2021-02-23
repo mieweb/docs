@@ -2,8 +2,7 @@
 title: "Quick View Sidemenu"
 date: 2020-03-09T21:01:07.216Z
 url: "general-functionality/e-chart/quick-view-sidemenu.html"
-author: Jeremia Ploor
-version: 35
+version: 41
 id: 1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY
 source: https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY
 menu:

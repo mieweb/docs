@@ -2,8 +2,7 @@
 title: "How to Install MIEPlayer Control"
 date: 2020-03-12T20:44:01.559Z
 url: "general-functionality/encounters/dictation-and-transcription/how-to-install-mieplayer-control.html"
-author: Jeremia Ploor
-version: 26
+version: 32
 id: 1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM
 source: https://drive.google.com/open?id=1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM
 menu:

@@ -2,8 +2,7 @@
 title: "Tests & Procedures Section - Applying/Adding, Completing, Resulting"
 date: 2020-03-13T14:08:37.388Z
 url: "general-functionality/encounters/tests-and-procedures-section-applying-adding-completing-resulting.html"
-author: Jeremia Ploor
-version: 113
+version: 119
 id: 1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA
 source: https://drive.google.com/open?id=1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA
 menu:

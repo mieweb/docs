@@ -2,8 +2,7 @@
 title: "Encounters Tab - Search and List View"
 date: 2020-03-13T14:28:03.179Z
 url: "general-functionality/encounters/encounters-tab-search-and-list-view.html"
-author: Jeremia Ploor
-version: 47
+version: 53
 id: 1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A
 source: https://drive.google.com/open?id=1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A
 menu:

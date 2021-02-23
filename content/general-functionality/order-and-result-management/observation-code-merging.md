@@ -2,8 +2,7 @@
 title: "Observation Code Merging"
 date: 2020-03-13T19:54:16.045Z
 url: "general-functionality/order-and-result-management/observation-code-merging.html"
-author: Jeremia Ploor
-version: 35
+version: 41
 id: 17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c
 source: https://drive.google.com/open?id=17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c
 menu:

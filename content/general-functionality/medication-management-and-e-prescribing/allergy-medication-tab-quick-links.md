@@ -2,7 +2,7 @@
 title: "Allergy/Medication Tab - Quick Links"
 date: 2020-02-27T20:05:32.500Z
 url: "general-functionality/medication-management-and-e-prescribing/allergy-medication-tab-quick-links.html"
-version: 21
+version: 26
 id: 1UjHeKBG_-NqC_E63USzFXrmo9BOyG9WuZ5yNv5ZXFkQ
 source: https://drive.google.com/open?id=1UjHeKBG_-NqC_E63USzFXrmo9BOyG9WuZ5yNv5ZXFkQ
 menu:

@@ -2,8 +2,7 @@
 title: "Summary Documents CSV API"
 date: 2020-03-17T15:37:53.190Z
 url: "general-functionality/system-administration/data-migration/summary-documents-csv-api.html"
-author: Jeremia Ploor
-version: 53
+version: 59
 id: 1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4
 source: https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4
 menu:

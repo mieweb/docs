@@ -1,9 +1,9 @@
 ---
 title: "Videos & Demonstrations"
-date: 2020-03-20T17:25:34.962Z
+date: 2020-09-11T17:12:21.021Z
 url: "videos-and-demonstrations.html"
-author: Jeremia Ploor
-version: 230
+author: Will Reiske
+version: 370
 id: 1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk
 source: https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk
 menu:
@@ -13,6 +13,14 @@ menu:
         weight: 6790
 ---
 All {{% system-name %}} training videos and demonstrations can be found below. Peruse the various overviews, and spend some time with the in-depth looks at the available functionality within the product, or even get acquainted with some of the more common workflows used. 
+
+
+
+First, be sure to check out the vision and core concepts of the {{% system-name %}} system, as presented by Doug Horner.
+
+
+
+{{% gvideo  id="1tcMjxjgJrREP96UGtwowVcT8zKjYk_X_" %}}
 
 
 
@@ -48,7 +56,7 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 {{% column %}}
 
-![](external_files/036481028fc108b0739fff3e967e13ce.png)
+![](external_files/1eea34683f3c4d2fa152b6abfaf8780b.png)
 
 {{% /column %}}
 
@@ -94,8 +102,6 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 
 
-([slides](https://docs.google.com/presentation/d/1AAqXWj4si51HevUucTxH0eNYglVqvYUgfcfNWDXWn-Y/edit#slide=id.g3c685e27e0_5_0))
-
 
 
 {{% /only %}}
@@ -113,15 +119,11 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 
 
-([slides](https://docs.google.com/presentation/d/1AAqXWj4si51HevUucTxH0eNYglVqvYUgfcfNWDXWn-Y/edit#slide=id.g3c685e27e0_5_0))
-
 ### Document Management, Forms Library
 
 {{% gvideo  id="19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN" %}}
 
 
-
-([slides](https://docs.google.com/presentation/d/1dAOCBPnnkg_lumJvL_V7X6VZX6vgoY1yDz1H7A9Kkdo/edit#slide=id.g3c685e27e0_5_0))
 
 ### Orders, Flowsheets, Medical Codify, Procedures
 
@@ -129,21 +131,17 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 
 
-([slides](https://docs.google.com/presentation/d/1NGV8znwH223imA1KEXEG6Rdigq7wCf7LQD5t0hK9Jvw/edit#slide=id.g3ca42e5984_0_0))
-
 ### EOs/POs/Locations
 
 {{% gvideo  id="1rS9x2j1Ar7-D_oRIB1HjpHrghPqNDyMk" %}}
 
 
 
-([slides](https://docs.google.com/presentation/d/1cLMHNITcTcCHdLQSe2SYMFViCox4MRyK7DFs3Xld_BU/edit#slide=id.g3c685e27e0_5_0))
-
 ### Health Surveillance & Reports
 
 {{% gvideo  id="1bJTGlPduxkAYpprlpXEU5rsOmzCvCAHH" %}}
 
-([slides](https://docs.google.com/presentation/d/1pjFyJZBVE8s5daiDdyOa_a9xnJzjv2j-D0JRcEwc9WA/edit#slide=id.g3c685e27e0_5_0))
+
 
 ### Portals
 
@@ -151,15 +149,11 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 
 
-([slides](https://docs.google.com/presentation/d/1mqKvqtF6Q30NEPkMJ4hgyYwfMldGN-gnGPiG5rgmcsw/edit#slide=id.g3ca42e5984_0_0))
-
 ### Injury/Illness, OSHA Reports
 
 {{% gvideo  id="146dgZ94s45oa_ZyWvGyoiPLmcEJthqDb" %}}
 
 
-
-([slides](https://docs.google.com/presentation/d/1pFNtLPPC2jcN_i_BoF7fnsvkgva0fsTSQy-8TBT7K2k/edit#slide=id.g3ca42e5a12_0_73))
 
 ### Scheduled Jobs
 
@@ -167,23 +161,17 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 
 
-([slides](https://docs.google.com/presentation/d/1xqmATcFbAQqtcsVoe47wlPIfREF4l1xbSOMRlLUUaW4/edit#slide=id.g3c685e27e0_5_0))
-
 ### Reports - DataVis, Grid, Pivot Tables
 
 {{% gvideo  id="1w1VGRYZbJ0Qyn8tUjQB9181lKfbeveQw" %}}
 
 
 
-([slides](https://docs.google.com/presentation/d/1bresUSlKdJjL7xs_JQHA2oXFZfSnjg84YC12_qiGS7E/edit#slide=id.g3ca42e5a90_0_72))
-
 ### Quality, Wellness Measures
 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
 
 
-
-([slides](https://docs.google.com/presentation/d/1q-tVnxvDLX6e3bhC7wTZo-LvdLFQp1twvzDv7lcYLdY/edit#slide=id.g3ca42e5984_0_0))
 
 {{% /only %}}
 
@@ -198,15 +186,11 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 
 
-([slides](https://docs.google.com/presentation/d/1dAOCBPnnkg_lumJvL_V7X6VZX6vgoY1yDz1H7A9Kkdo/edit#slide=id.g3c685e27e0_5_0))
-
 ### Orders, Flowsheets, Medical Codify, Procedures
 
 {{% gvideo  id="1_wWIfb_7hYxADvhAgD6ZPU4h7xOHnzR3" %}}
 
 
-
-([slides](https://docs.google.com/presentation/d/1NGV8znwH223imA1KEXEG6Rdigq7wCf7LQD5t0hK9Jvw/edit#slide=id.g3ca42e5984_0_0))
 
 ### EOs/POs/Locations
 
@@ -214,45 +198,41 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 
 
-([slides](https://docs.google.com/presentation/d/1cLMHNITcTcCHdLQSe2SYMFViCox4MRyK7DFs3Xld_BU/edit#slide=id.g3c685e27e0_5_0))
-
 ### Health Surveillance & Reports
 
 {{% gvideo  id="1bJTGlPduxkAYpprlpXEU5rsOmzCvCAHH" %}}
 
 
 
-([slides](https://docs.google.com/presentation/d/1pjFyJZBVE8s5daiDdyOa_a9xnJzjv2j-D0JRcEwc9WA/edit#slide=id.g3c685e27e0_5_0))
-
 ### Portals
 
 {{% gvideo  id="1mtwQ4Rct-OFNMwFGGOILNqKYnz8whUYU" %}}
 
-([slides](https://docs.google.com/presentation/d/1mqKvqtF6Q30NEPkMJ4hgyYwfMldGN-gnGPiG5rgmcsw/edit#slide=id.g3ca42e5984_0_0))
+
 
 ### Injury/Illness, OSHA Reports
 
 {{% gvideo  id="146dgZ94s45oa_ZyWvGyoiPLmcEJthqDb" %}}
 
-([slides](https://docs.google.com/presentation/d/1pFNtLPPC2jcN_i_BoF7fnsvkgva0fsTSQy-8TBT7K2k/edit#slide=id.g3ca42e5a12_0_73))
+
 
 ### Scheduled Jobs
 
 {{% gvideo  id="1yaSvFFNqhoQM1wKQlF3V6AupaZFb3FO5" %}}
 
-([slides](https://docs.google.com/presentation/d/1xqmATcFbAQqtcsVoe47wlPIfREF4l1xbSOMRlLUUaW4/edit#slide=id.g3c685e27e0_5_0))
+
 
 ### Reports - DataVis, Grid, Pivot Tables
 
 {{% gvideo  id="1w1VGRYZbJ0Qyn8tUjQB9181lKfbeveQw" %}}
 
-([slides](https://docs.google.com/presentation/d/1bresUSlKdJjL7xs_JQHA2oXFZfSnjg84YC12_qiGS7E/edit#slide=id.g3ca42e5a90_0_72))
+
 
 ### Quality, Wellness Measures
 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
 
-([slides](https://docs.google.com/presentation/d/1q-tVnxvDLX6e3bhC7wTZo-LvdLFQp1twvzDv7lcYLdY/edit#slide=id.g3ca42e5984_0_0))
+
 
 {{% /only %}}
 

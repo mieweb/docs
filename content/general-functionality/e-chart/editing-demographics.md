@@ -2,8 +2,7 @@
 title: "Editing Demographics"
 date: 2020-03-25T16:40:50.153Z
 url: "general-functionality/e-chart/editing-demographics.html"
-author: Jeremia Ploor
-version: 38
+version: 48
 id: 1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs
 source: https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs
 menu:

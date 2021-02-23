@@ -2,7 +2,7 @@
 title: "WebScan Report"
 date: 2020-02-27T20:17:24.392Z
 url: "general-functionality/reports/webscan-report.html"
-version: 16
+version: 23
 id: 1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA
 source: https://drive.google.com/open?id=1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA
 menu:

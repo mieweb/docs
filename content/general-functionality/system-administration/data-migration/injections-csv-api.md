@@ -2,8 +2,7 @@
 title: "Injections CSV API"
 date: 2020-03-17T15:04:17.378Z
 url: "general-functionality/system-administration/data-migration/injections-csv-api.html"
-author: Jeremia Ploor
-version: 34
+version: 40
 id: 1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE
 source: https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE
 menu:
@@ -92,172 +91,116 @@ The CDC Immunization Information Systems CVX Codes are available here: [http://
 
 <table>
   <tr>
-    <td>
-Enterprise Health Site Codes    </td>
-    <td>
-Enterprise Health Site Descriptions    </td>
+    <td>Enterprise Health Site Codes</td>
+    <td>Enterprise Health Site Descriptions</td>
   </tr>
   <tr>
-    <td>
-AB    </td>
-    <td>
-Abdomin    </td>
+    <td>AB</td>
+    <td>Abdomin</td>
   </tr>
   <tr>
-    <td>
-RG    </td>
-    <td>
-Right Glute    </td>
+    <td>RG</td>
+    <td>Right Glute</td>
   </tr>
   <tr>
-    <td>
-LG    </td>
-    <td>
-Left Glute    </td>
+    <td>LG</td>
+    <td>Left Glute</td>
   </tr>
   <tr>
-    <td>
-LD    </td>
-    <td>
-Left Deltoid    </td>
+    <td>LD</td>
+    <td>Left Deltoid</td>
   </tr>
   <tr>
-    <td>
-RD    </td>
-    <td>
-Right Deltoid    </td>
+    <td>RD</td>
+    <td>Right Deltoid</td>
   </tr>
   <tr>
-    <td>
-LAF    </td>
-    <td>
-Left Arm Forearm    </td>
+    <td>LAF</td>
+    <td>Left Arm Forearm</td>
   </tr>
   <tr>
-    <td>
-RAF    </td>
-    <td>
-Right Arm Forearm    </td>
+    <td>RAF</td>
+    <td>Right Arm Forearm</td>
   </tr>
   <tr>
-    <td>
-LT    </td>
-    <td>
-Left Thigh    </td>
+    <td>LT</td>
+    <td>Left Thigh</td>
   </tr>
   <tr>
-    <td>
-RT    </td>
-    <td>
-Right Thigh    </td>
+    <td>RT</td>
+    <td>Right Thigh</td>
   </tr>
   <tr>
-    <td>
-RA    </td>
-    <td>
-Right Arm    </td>
+    <td>RA</td>
+    <td>Right Arm</td>
   </tr>
   <tr>
-    <td>
-RAL    </td>
-    <td>
-Right Arm Lower Site    </td>
+    <td>RAL</td>
+    <td>Right Arm Lower Site</td>
   </tr>
   <tr>
-    <td>
-RAU    </td>
-    <td>
-Right Arm Upper Site    </td>
+    <td>RAU</td>
+    <td>Right Arm Upper Site</td>
   </tr>
   <tr>
-    <td>
-RD    </td>
-    <td>
-Right Deltoid    </td>
+    <td>RD</td>
+    <td>Right Deltoid</td>
   </tr>
   <tr>
-    <td>
-RT    </td>
-    <td>
-Right Thigh    </td>
+    <td>RT</td>
+    <td>Right Thigh</td>
   </tr>
   <tr>
-    <td>
-RG    </td>
-    <td>
-Right Gluteus    </td>
+    <td>RG</td>
+    <td>Right Gluteus</td>
   </tr>
   <tr>
-    <td>
-RVL    </td>
-    <td>
-Right Vastus Lateralis    </td>
+    <td>RVL</td>
+    <td>Right Vastus Lateralis</td>
   </tr>
   <tr>
-    <td>
-LA    </td>
-    <td>
-Left Arm    </td>
+    <td>LA</td>
+    <td>Left Arm</td>
   </tr>
   <tr>
-    <td>
-LAL    </td>
-    <td>
-Left Arm Lower Site    </td>
+    <td>LAL</td>
+    <td>Left Arm Lower Site</td>
   </tr>
   <tr>
-    <td>
-LAU    </td>
-    <td>
-Left Arm Upper Site    </td>
+    <td>LAU</td>
+    <td>Left Arm Upper Site</td>
   </tr>
   <tr>
-    <td>
-LD    </td>
-    <td>
-Left Deltoid    </td>
+    <td>LD</td>
+    <td>Left Deltoid</td>
   </tr>
   <tr>
-    <td>
-LT    </td>
-    <td>
-Left Thigh    </td>
+    <td>LT</td>
+    <td>Left Thigh</td>
   </tr>
   <tr>
-    <td>
-LG    </td>
-    <td>
-Left Gluteus    </td>
+    <td>LG</td>
+    <td>Left Gluteus</td>
   </tr>
   <tr>
-    <td>
-LVL    </td>
-    <td>
-Left Vastus Lateralis    </td>
+    <td>LVL</td>
+    <td>Left Vastus Lateralis</td>
   </tr>
   <tr>
-    <td>
-AB    </td>
-    <td>
-Abdomen    </td>
+    <td>AB</td>
+    <td>Abdomen</td>
   </tr>
   <tr>
-    <td>
-O    </td>
-    <td>
-Oral    </td>
+    <td>O</td>
+    <td>Oral</td>
   </tr>
   <tr>
-    <td>
-BN    </td>
-    <td>
-Both Nares    </td>
+    <td>BN</td>
+    <td>Both Nares</td>
   </tr>
   <tr>
-    <td>
-OTHER    </td>
-    <td>
-Other    </td>
+    <td>OTHER</td>
+    <td>Other</td>
   </tr>
 </table>
 
@@ -267,64 +210,44 @@ Other    </td>
 
 <table>
   <tr>
-    <td>
-Enterprise Health Route Codes    </td>
-    <td>
-Enterprise Health Route Descriptions    </td>
+    <td>Enterprise Health Route Codes</td>
+    <td>Enterprise Health Route Descriptions</td>
   </tr>
   <tr>
-    <td>
-ID    </td>
-    <td>
-Intradermal    </td>
+    <td>ID</td>
+    <td>Intradermal</td>
   </tr>
   <tr>
-    <td>
-IM    </td>
-    <td>
-Intramuscular    </td>
+    <td>IM</td>
+    <td>Intramuscular</td>
   </tr>
   <tr>
-    <td>
-IV    </td>
-    <td>
-Intravenous    </td>
+    <td>IV</td>
+    <td>Intravenous</td>
   </tr>
   <tr>
-    <td>
-PO    </td>
-    <td>
-Oral    </td>
+    <td>PO</td>
+    <td>Oral</td>
   </tr>
   <tr>
-    <td>
-SC    </td>
-    <td>
-Subcutaneous    </td>
+    <td>SC</td>
+    <td>Subcutaneous</td>
   </tr>
   <tr>
-    <td>
-OTH    </td>
-    <td>
-Other    </td>
+    <td>OTH</td>
+    <td>Other</td>
   </tr>
   <tr>
-    <td>
-IN    </td>
-    <td>
-Intranasal    </td>
+    <td>IN</td>
+    <td>Intranasal</td>
   </tr>
   <tr>
-    <td>
-IA    </td>
-    <td>
-Intraarticular    </td>
+    <td>IA</td>
+    <td>Intraarticular</td>
   </tr>
   <tr>
-    <td>
-TD    </td>
-    <td>
-Transdermal    </td>
+    <td>TD</td>
+    <td>Transdermal</td>
   </tr>
 </table>
 

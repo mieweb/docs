@@ -2,8 +2,7 @@
 title: "Chart Types Editor"
 date: 2020-03-20T17:54:38.850Z
 url: "general-functionality/system-configuration/chart-types-editor.html"
-author: Jeremia Ploor
-version: 34
+version: 42
 id: 1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE
 source: https://drive.google.com/open?id=1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE
 menu:

@@ -2,8 +2,8 @@
 title: "Allergy Data Validation Test Script"
 date: 2020-02-27T21:32:57.175Z
 url: "general-functionality/system-administration/data-migration/allergy-data-validation-test-script.html"
-author: Alan Quandt
-version: 19
+author: aquandt
+version: 24
 id: 1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM
 source: https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM
 menu:
@@ -40,94 +40,68 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
 <table>
   <tr>
-    <td>
-**Field**    </td>
-    <td>
-**Description**    </td>
-    <td>
-**Sample Data**    </td>
+    <td>**Field**</td>
+    <td>**Description**</td>
+    <td>**Sample Data**</td>
   </tr>
   <tr>
-    <td>
-**Allergy Name**    </td>
-    <td>
-Name of allergy to validate    </td>
-    <td>
-Vicodin    </td>
+    <td>**Allergy Name**</td>
+    <td>Name of allergy to validate</td>
+    <td>Vicodin</td>
   </tr>
   <tr>
-    <td>
-**Alternate Name**    </td>
-    <td>
-Alternative name of allergy    </td>
-    <td>
-hydrocodone-acetaminophen    </td>
+    <td>**Alternate Name**</td>
+    <td>Alternative name of allergy</td>
+    <td>hydrocodone-acetaminophen</td>
   </tr>
   <tr>
-    <td>
-**Type**    </td>
+    <td>**Type**</td>
     <td>
 Type of allergy
 
 Options include:
 
 * Medication
-* Other    </td>
-    <td>
-Medication    </td>
+* Other
+    </td>
+    <td>Medication</td>
   </tr>
   <tr>
-    <td>
-**Allergy or Intolerance**    </td>
+    <td>**Allergy or Intolerance**</td>
     <td>
 Allergy/Intolerance flag
 
 Options include:
 
 * Allergy
-* Intolerance    </td>
-    <td>
-Allergy    </td>
-  </tr>
-  <tr>
-    <td>
-**Reaction/Reason**    </td>
-    <td>
-Records the reaction or response to the allergy/intolerance being documented    </td>
-    <td>
-Rash, Itching    </td>
-  </tr>
-  <tr>
-    <td>
-**Start Date**    </td>
-    <td>
-When the allergy/intolerance was first noted    </td>
-    <td>
-10/10/2010    </td>
-  </tr>
-  <tr>
-    <td>
-**End Date**    </td>
-    <td>
-The date on which the allergy/intolerance was noted to stop    </td>
-    <td>
+* Intolerance
     </td>
+    <td>Allergy</td>
   </tr>
   <tr>
-    <td>
-Entered By    </td>
-    <td>
-Initials of the user entering allergy/intolerance data    </td>
-    <td>
-BB    </td>
+    <td>**Reaction/Reason**</td>
+    <td>Records the reaction or response to the allergy/intolerance being documented</td>
+    <td>Rash, Itching</td>
   </tr>
   <tr>
-    <td>
-Date Modified    </td>
-    <td>
-Records the last date the allergy was modified    </td>
-    <td>
-3/4/2015 8:00    </td>
+    <td>**Start Date**</td>
+    <td>When the allergy/intolerance was first noted</td>
+    <td>10/10/2010</td>
+  </tr>
+  <tr>
+    <td>**End Date**</td>
+    <td>The date on which the allergy/intolerance was noted to stop</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Entered By</td>
+    <td>Initials of the user entering allergy/intolerance data</td>
+    <td>BB</td>
+  </tr>
+  <tr>
+    <td>Date Modified</td>
+    <td>Records the last date the allergy was modified</td>
+    <td>3/4/2015 8:00</td>
   </tr>
 </table>
 

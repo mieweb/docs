@@ -2,7 +2,7 @@
 title: "Medical Record Numbers"
 date: 2020-02-27T19:35:30.353Z
 url: "general-functionality/patient-registration/medical-record-numbers.html"
-version: 22
+version: 29
 id: 1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg
 source: https://drive.google.com/open?id=1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg
 menu:

@@ -2,8 +2,7 @@
 title: "Adding Restrictions and Accommodations"
 date: 2020-03-13T11:33:56.836Z
 url: "general-functionality/injury-care/adding-restrictions-and-accommodations.html"
-author: Jeremia Ploor
-version: 49
+version: 69
 id: 1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg
 source: https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg
 menu:

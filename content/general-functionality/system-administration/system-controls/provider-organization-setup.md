@@ -2,8 +2,7 @@
 title: "Provider Organization Setup"
 date: 2020-03-16T22:35:38.380Z
 url: "general-functionality/system-administration/system-controls/provider-organization-setup.html"
-author: Jeremia Ploor
-version: 47
+version: 53
 id: 1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY
 source: https://drive.google.com/open?id=1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY
 menu:

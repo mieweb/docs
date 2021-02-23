@@ -2,8 +2,8 @@
 title: "Email Reminders from System"
 date: 2020-02-27T21:21:19.649Z
 url: "general-functionality/system-administration/system-controls/email-reminders-from-system.html"
-author: Alan Quandt
-version: 55
+author: aquandt
+version: 60
 id: 1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw
 source: https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw
 menu:

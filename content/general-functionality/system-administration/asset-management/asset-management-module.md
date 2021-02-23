@@ -2,7 +2,7 @@
 title: "Asset Management Module"
 date: 2020-02-27T20:30:03.349Z
 url: "general-functionality/system-administration/asset-management/asset-management-module.html"
-version: 36
+version: 45
 id: 1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ
 source: https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ
 menu:

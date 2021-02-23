@@ -2,8 +2,8 @@
 title: "Chart Data CSV Header Options"
 date: 2020-02-28T15:24:56.361Z
 url: "general-functionality/system-administration/data-migration/chart-data-csv-header-options.html"
-author: Alan Quandt
-version: 17
+author: aquandt
+version: 22
 id: 1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho
 source: https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho
 menu:
@@ -118,6 +118,6 @@ Related Pages
 
 * [Data Import Master List](data-import-master-list.html)
 * [Chart Data CSV API](chart-data-csv-api.html)
-* [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.html)
+* [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-op.html)
 * [Chart Observations Import Options](chart-observations-import-options.html)
 * [Chart PUR Import Options](https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options)

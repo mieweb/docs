@@ -2,7 +2,7 @@
 title: "Open Encounters Report"
 date: 2020-02-27T20:15:15.596Z
 url: "general-functionality/reports/open-encounters-report.html"
-version: 11
+version: 16
 id: 1EHgA_fUZw1elKqO93WHidXgIbGAskkj0ibyxAMYVZ_Y
 source: https://drive.google.com/open?id=1EHgA_fUZw1elKqO93WHidXgIbGAskkj0ibyxAMYVZ_Y
 menu:

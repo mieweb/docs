@@ -2,8 +2,7 @@
 title: "TeleHealth Pricing"
 date: 2020-03-31T14:37:42.416Z
 url: "general-functionality/encounters/telehealth/telehealth-pricing.html"
-author: Jeremia Ploor
-version: 22
+version: 33
 id: 1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM
 source: https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM
 ---
@@ -15,28 +14,20 @@ Video Pricing is based on the number of minutes your participants are connected 
 
 <table>
   <tr>
-    <td>
-**Meeting Type**    </td>
-    <td>
-**Pricing**    </td>
+    <td>**Meeting Type**</td>
+    <td>**Pricing**</td>
   </tr>
   <tr>
-    <td>
-Peer to Peer Room (2 people)    </td>
-    <td>
-$0.006 / minute (2 participants)    </td>
+    <td>Peer to Peer Room (2 people)</td>
+    <td>$0.006 / minute (2 participants)</td>
   </tr>
   <tr>
-    <td>
-Small-Group Room (up to 4 participants)    </td>
-    <td>
-$0.008 / min per participant    </td>
+    <td>Small-Group Room (up to 4 participants)</td>
+    <td>$0.008 / min per participant</td>
   </tr>
   <tr>
-    <td>
-Group Rooms (up to 50 participants)    </td>
-    <td>
-$0.02 / min per participant    </td>
+    <td>Group Rooms (up to 50 participants)</td>
+    <td>$0.02 / min per participant</td>
   </tr>
 </table>
 
@@ -44,24 +35,16 @@ $0.02 / min per participant    </td>
 
 <table>
   <tr>
-    <td>
-**Number Used:**    </td>
-    <td>
-**Monthly**    </td>
-    <td>
-**Send Price**    </td>
-    <td>
-**Receive Price**    </td>
+    <td>**Number Used:**</td>
+    <td>**Monthly**</td>
+    <td>**Send Price**</td>
+    <td>**Receive Price**</td>
   </tr>
   <tr>
-    <td>
-Local Numbers    </td>
-    <td>
-$1.00 per #    </td>
-    <td>
-$0.0150    </td>
-    <td>
-$0.0150    </td>
+    <td>Local Numbers</td>
+    <td>$1.00 per #</td>
+    <td>$0.0150</td>
+    <td>$0.0150</td>
   </tr>
 </table>
 
@@ -73,16 +56,12 @@ In order to record visits, you must use the small room or larger video options. 
 
 <table>
   <tr>
-    <td>
-**Meeting Type**    </td>
-    <td>
-**Pricing**    </td>
+    <td>**Meeting Type**</td>
+    <td>**Pricing**</td>
   </tr>
   <tr>
-    <td>
-Recorded Visits    </td>
-    <td>
-$0.04 / min per participant    </td>
+    <td>Recorded Visits</td>
+    <td>$0.04 / min per participant</td>
   </tr>
 </table>
 

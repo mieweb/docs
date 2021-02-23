@@ -2,8 +2,7 @@
 title: "Vision Data Entry"
 date: 2020-03-06T20:17:50.609Z
 url: "general-functionality/document-management/documents-and-forms/vision-data-entry.html"
-author: Jeremia Ploor
-version: 48
+version: 54
 id: 15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM
 source: https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM
 menu:

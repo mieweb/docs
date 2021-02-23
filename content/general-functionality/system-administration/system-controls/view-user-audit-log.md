@@ -2,7 +2,7 @@
 title: "View User Audit Log"
 date: 2020-02-27T20:20:58.429Z
 url: "general-functionality/system-administration/system-controls/view-user-audit-log.html"
-version: 23
+version: 28
 id: 1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo
 source: https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo
 menu:

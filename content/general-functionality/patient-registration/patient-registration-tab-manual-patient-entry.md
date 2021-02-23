@@ -2,7 +2,7 @@
 title: "Patient Registration Tab - Manual Patient Entry"
 date: 2020-02-27T19:35:05.765Z
 url: "general-functionality/patient-registration/patient-registration-tab-manual-patient-entry.html"
-version: 18
+version: 25
 id: 1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0
 source: https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0
 menu:

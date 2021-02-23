@@ -2,8 +2,7 @@
 title: "Locations Management"
 date: 2020-03-05T17:06:16.370Z
 url: "general-functionality/system-configuration/locations-management.html"
-author: Jeremia Ploor
-version: 56
+version: 62
 id: 1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs
 source: https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs
 menu:

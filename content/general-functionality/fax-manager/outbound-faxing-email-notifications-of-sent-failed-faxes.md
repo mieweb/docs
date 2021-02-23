@@ -2,7 +2,7 @@
 title: "Outbound Faxing Email Notifications of Sent/Failed Faxes"
 date: 2020-02-27T20:11:36.398Z
 url: "general-functionality/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.html"
-version: 14
+version: 19
 id: 1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k
 source: https://drive.google.com/open?id=1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k
 menu:

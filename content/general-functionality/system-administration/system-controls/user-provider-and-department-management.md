@@ -2,8 +2,8 @@
 title: "User/Provider & Department Management"
 date: 2020-03-19T22:27:44.922Z
 url: "general-functionality/system-administration/system-controls/user-provider-and-department-management.html"
-author: Alan Quandt
-version: 75
+author: aquandt
+version: 81
 id: 1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk
 source: https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk
 menu:

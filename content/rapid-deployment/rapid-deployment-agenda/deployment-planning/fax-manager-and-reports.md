@@ -2,8 +2,8 @@
 title: "Fax Manager & Reports"
 date: 2020-02-27T21:27:46.914Z
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/fax-manager-and-reports.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10
 source: https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10
 menu:

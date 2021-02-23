@@ -2,8 +2,7 @@
 title: "Patient Education Interface"
 date: 2020-03-19T18:42:55.464Z
 url: "general-functionality/system-administration/interfaces/patient-education-interface.html"
-author: Jeremia Ploor
-version: 25
+version: 34
 id: 1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo
 source: https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo
 menu:

@@ -2,8 +2,8 @@
 title: "Audiogram Validation Test Script"
 date: 2020-02-27T21:32:53.730Z
 url: "general-functionality/system-administration/data-migration/audiogram-validation-test-script.html"
-author: Alan Quandt
-version: 31
+author: aquandt
+version: 36
 id: 1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo
 source: https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo
 menu:
@@ -33,196 +33,145 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
 <table>
   <tr>
-    <td>
-**Field**    </td>
-    <td>
-**Description**    </td>
-    <td>
-**Sample Data**    </td>
+    <td>**Field**</td>
+    <td>**Description**</td>
+    <td>**Sample Data**</td>
   </tr>
   <tr>
-    <td>
-**Test Datetime**    </td>
+    <td>**Test Datetime**</td>
     <td>
 When the test was conducted (datetime).
 
-Must be in this date and time format: YYYY-MM-DD HH:MM:SS    </td>
-    <td>
-2019-02-15 13:30:00    </td>
+Must be in this date and time format: YYYY-MM-DD HH:MM:SS
+    </td>
+    <td>2019-02-15 13:30:00</td>
   </tr>
   <tr>
-    <td>
-**Left 500 Hz**    </td>
-    <td>
-Result for the left ear 500 Hz test in dB.    </td>
-    <td>
-10    </td>
+    <td>**Left 500 Hz**</td>
+    <td>Result for the left ear 500 Hz test in dB.</td>
+    <td>10</td>
   </tr>
   <tr>
-    <td>
-**Left 1 kHz**    </td>
-    <td>
-Result for the left ear 1 kHz test in dB.    </td>
-    <td>
-5    </td>
+    <td>**Left 1 kHz**</td>
+    <td>Result for the left ear 1 kHz test in dB.</td>
+    <td>5</td>
   </tr>
   <tr>
-    <td>
-**Left 2 kHz**    </td>
-    <td>
-Result for the left ear 2 kHz test in dB.    </td>
-    <td>
-10    </td>
+    <td>**Left 2 kHz**</td>
+    <td>Result for the left ear 2 kHz test in dB.</td>
+    <td>10</td>
   </tr>
   <tr>
-    <td>
-**Left 3 kHz**    </td>
-    <td>
-Result for the left ear 3 kHz test in dB.    </td>
-    <td>
-15    </td>
+    <td>**Left 3 kHz**</td>
+    <td>Result for the left ear 3 kHz test in dB.</td>
+    <td>15</td>
   </tr>
   <tr>
-    <td>
-**Left 4 kHz**    </td>
-    <td>
-Result for the left ear 4 kHz test in dB.    </td>
-    <td>
-20    </td>
+    <td>**Left 4 kHz**</td>
+    <td>Result for the left ear 4 kHz test in dB.</td>
+    <td>20</td>
   </tr>
   <tr>
-    <td>
-**Left 6 kHz**    </td>
-    <td>
-Result for the left ear 6 kHz test in dB.    </td>
-    <td>
-10    </td>
+    <td>**Left 6 kHz**</td>
+    <td>Result for the left ear 6 kHz test in dB.</td>
+    <td>10</td>
   </tr>
   <tr>
-    <td>
-**Left 8 kHz**    </td>
-    <td>
-Result for the left ear 8 kHz test in dB.    </td>
-    <td>
-20    </td>
+    <td>**Left 8 kHz**</td>
+    <td>Result for the left ear 8 kHz test in dB.</td>
+    <td>20</td>
   </tr>
   <tr>
-    <td>
-**Right 500 Hz**    </td>
-    <td>
-Result for the right ear 500 Hz test in dB.    </td>
-    <td>
-5    </td>
+    <td>**Right 500 Hz**</td>
+    <td>Result for the right ear 500 Hz test in dB.</td>
+    <td>5</td>
   </tr>
   <tr>
-    <td>
-**Right 1 kHz**    </td>
-    <td>
-Result for the right ear 1 kHz test in dB.    </td>
-    <td>
-5    </td>
+    <td>**Right 1 kHz**</td>
+    <td>Result for the right ear 1 kHz test in dB.</td>
+    <td>5</td>
   </tr>
   <tr>
-    <td>
-**Right 2 kHz**    </td>
-    <td>
-Result for the right ear 2 kHz test in dB.    </td>
-    <td>
-10    </td>
+    <td>**Right 2 kHz**</td>
+    <td>Result for the right ear 2 kHz test in dB.</td>
+    <td>10</td>
   </tr>
   <tr>
-    <td>
-**Right 3 kHz**    </td>
-    <td>
-Result for the right ear 3 kHz test in dB.    </td>
-    <td>
-10    </td>
+    <td>**Right 3 kHz**</td>
+    <td>Result for the right ear 3 kHz test in dB.</td>
+    <td>10</td>
   </tr>
   <tr>
-    <td>
-**Right 4 kHz**    </td>
-    <td>
-Result for the right ear 4 kHz test in dB.    </td>
-    <td>
-25    </td>
+    <td>**Right 4 kHz**</td>
+    <td>Result for the right ear 4 kHz test in dB.</td>
+    <td>25</td>
   </tr>
   <tr>
-    <td>
-**Right 6 kHz**    </td>
-    <td>
-Result for the right ear 6 kHz test in dB.    </td>
-    <td>
-25    </td>
+    <td>**Right 6 kHz**</td>
+    <td>Result for the right ear 6 kHz test in dB.</td>
+    <td>25</td>
   </tr>
   <tr>
-    <td>
-**Right 8 kHz**    </td>
-    <td>
-Result for the right ear 8 kHz test in dB.    </td>
-    <td>
-20    </td>
+    <td>**Right 8 kHz**</td>
+    <td>Result for the right ear 8 kHz test in dB.</td>
+    <td>20</td>
   </tr>
   <tr>
-    <td>
-**Left STS**    </td>
+    <td>**Left STS**</td>
     <td>
 Standard threshold shift from last baseline test for the left ear.
 
 Options include:
 
 * YES
-* NO    </td>
-    <td>
-YES    </td>
+* NO
+    </td>
+    <td>YES</td>
   </tr>
   <tr>
-    <td>
-**Right STS**    </td>
+    <td>**Right STS**</td>
     <td>
 Standard threshold shift from last baseline test for the right ear.
 
 Options include:
 
 * YES
-* NO    </td>
-    <td>
-NO    </td>
+* NO
+    </td>
+    <td>NO</td>
   </tr>
   <tr>
-    <td>
-**Left Baseline**    </td>
+    <td>**Left Baseline**</td>
     <td>
 Flags the test as a baseline for the left ear.
 
 Options include:
 
 * YES
-* NO    </td>
-    <td>
-YES    </td>
+* NO
+    </td>
+    <td>YES</td>
   </tr>
   <tr>
-    <td>
-**Right Baseline**    </td>
+    <td>**Right Baseline**</td>
     <td>
 Flags the test as a baseline for the right ear.
 
 Options include:
 
 * YES
-* NO    </td>
-    <td>
-NO    </td>
+* NO
+    </td>
+    <td>NO</td>
   </tr>
   <tr>
-    <td>
-**Calibration Date**    </td>
+    <td>**Calibration Date**</td>
     <td>
 Records the last date (datetime) the audiometer was calibrated.
 
-Must be in this date and time format: YYYY-MM-DD HH:MM:SS    </td>
-    <td>
-2016-12-15 08:30:02    </td>
+Must be in this date and time format: YYYY-MM-DD HH:MM:SS
+    </td>
+    <td>2016-12-15 08:30:02</td>
   </tr>
 </table>
 

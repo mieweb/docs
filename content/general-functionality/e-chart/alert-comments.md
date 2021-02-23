@@ -2,8 +2,7 @@
 title: "Alert Comments"
 date: 2020-03-10T16:38:22.823Z
 url: "general-functionality/e-chart/alert-comments.html"
-author: Jeremia Ploor
-version: 39
+version: 45
 id: 1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0
 source: https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0
 menu:

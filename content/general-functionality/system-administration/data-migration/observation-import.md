@@ -2,7 +2,7 @@
 title: "Observation Import"
 date: 2020-02-27T20:46:16.207Z
 url: "general-functionality/system-administration/data-migration/observation-import.html"
-version: 7
+version: 12
 id: 1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs
 source: https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs
 menu:
@@ -27,194 +27,118 @@ The lab result column definition shall contain all columns listed below regardle
 
 <table>
   <tr>
-    <td>
-Name    </td>
-    <td>
-Type    </td>
-    <td>
-Required    </td>
-    <td>
-Comments    </td>
+    <td>Name</td>
+    <td>Type</td>
+    <td>Required</td>
+    <td>Comments</td>
   </tr>
   <tr>
-    <td>
-Patient ID    </td>
-    <td>
-char 255    </td>
-    <td>
-R    </td>
-    <td>
-Patient identifier, usually an MRN    </td>
+    <td>Patient ID</td>
+    <td>char 255</td>
+    <td>R</td>
+    <td>Patient identifier, usually an MRN</td>
   </tr>
   <tr>
-    <td>
-Patient Lastname    </td>
-    <td>
-char 100    </td>
-    <td>
-O    </td>
-    <td>
-Last name of the patient    </td>
+    <td>Patient Lastname</td>
+    <td>char 100</td>
+    <td>O</td>
+    <td>Last name of the patient</td>
   </tr>
   <tr>
-    <td>
-Patient Firstname    </td>
-    <td>
-char 100    </td>
-    <td>
-O    </td>
-    <td>
-First name of the patient    </td>
+    <td>Patient Firstname</td>
+    <td>char 100</td>
+    <td>O</td>
+    <td>First name of the patient</td>
   </tr>
   <tr>
-    <td>
-Patient Class    </td>
-    <td>
-char 1    </td>
-    <td>
-O    </td>
-    <td>
-I=Inpatient, O=Outpatient    </td>
+    <td>Patient Class</td>
+    <td>char 1</td>
+    <td>O</td>
+    <td>I=Inpatient, O=Outpatient</td>
   </tr>
   <tr>
-    <td>
-Observation Datetime    </td>
-    <td>
-datetime    </td>
-    <td>
-R    </td>
-    <td>
-Date the observation took place (YYYYMMDD)    </td>
+    <td>Observation Datetime</td>
+    <td>datetime</td>
+    <td>R</td>
+    <td>Date the observation took place (YYYYMMDD)</td>
   </tr>
   <tr>
-    <td>
-Observation Code    </td>
-    <td>
-int 10    </td>
-    <td>
-O    </td>
-    <td>
-Identifier of the specific observation    </td>
+    <td>Observation Code</td>
+    <td>int 10</td>
+    <td>O</td>
+    <td>Identifier of the specific observation</td>
   </tr>
   <tr>
-    <td>
-Observation Name    </td>
-    <td>
-char 255    </td>
-    <td>
-R    </td>
-    <td>
-Name of the specific observation    </td>
+    <td>Observation Name</td>
+    <td>char 255</td>
+    <td>R</td>
+    <td>Name of the specific observation</td>
   </tr>
   <tr>
-    <td>
-Observation Order    </td>
-    <td>
-int 5    </td>
-    <td>
-O    </td>
-    <td>
-Numeric value to indicate the order of the observations    </td>
+    <td>Observation Order</td>
+    <td>int 5</td>
+    <td>O</td>
+    <td>Numeric value to indicate the order of the observations</td>
   </tr>
   <tr>
-    <td>
-Observation Result    </td>
-    <td>
-char 64k    </td>
-    <td>
-R    </td>
-    <td>
-Result value of the observation    </td>
+    <td>Observation Result</td>
+    <td>char 64k</td>
+    <td>R</td>
+    <td>Result value of the observation</td>
   </tr>
   <tr>
-    <td>
-Observation Range    </td>
-    <td>
-char 30    </td>
-    <td>
-O    </td>
-    <td>
-Range for the observation    </td>
+    <td>Observation Range</td>
+    <td>char 30</td>
+    <td>O</td>
+    <td>Range for the observation</td>
   </tr>
   <tr>
-    <td>
-Observation Units    </td>
-    <td>
-char 20    </td>
-    <td>
-O    </td>
-    <td>
-Units that the observation result is in    </td>
+    <td>Observation Units</td>
+    <td>char 20</td>
+    <td>O</td>
+    <td>Units that the observation result is in</td>
   </tr>
   <tr>
-    <td>
-Observation Flag    </td>
-    <td>
-char 10    </td>
-    <td>
-O    </td>
-    <td>
-Flag to determine N=Normal/A=Abnormal    </td>
+    <td>Observation Flag</td>
+    <td>char 10</td>
+    <td>O</td>
+    <td>Flag to determine N=Normal/A=Abnormal</td>
   </tr>
   <tr>
-    <td>
-Observation Status    </td>
-    <td>
-char 20    </td>
-    <td>
-O    </td>
-    <td>
-Status of the observation, F=final, P=preliminary    </td>
+    <td>Observation Status</td>
+    <td>char 20</td>
+    <td>O</td>
+    <td>Status of the observation, F=final, P=preliminary</td>
   </tr>
   <tr>
-    <td>
-Observer Code    </td>
-    <td>
-int 10    </td>
-    <td>
-O    </td>
-    <td>
-Code to ID the person doing the observation    </td>
+    <td>Observer Code</td>
+    <td>int 10</td>
+    <td>O</td>
+    <td>Code to ID the person doing the observation</td>
   </tr>
   <tr>
-    <td>
-Comment    </td>
-    <td>
-char 64k    </td>
-    <td>
-O    </td>
-    <td>
-Comment on the observation result    </td>
+    <td>Comment</td>
+    <td>char 64k</td>
+    <td>O</td>
+    <td>Comment on the observation result</td>
   </tr>
   <tr>
-    <td>
-Performing Lab    </td>
-    <td>
-char 30    </td>
-    <td>
-R    </td>
-    <td>
-Name of lab where results took place    </td>
+    <td>Performing Lab</td>
+    <td>char 30</td>
+    <td>R</td>
+    <td>Name of lab where results took place</td>
   </tr>
   <tr>
-    <td>
-Encounter Ext ID    </td>
-    <td>
-char 100    </td>
-    <td>
-O    </td>
-    <td>
-External identifier of encounter this obs is linked to    </td>
+    <td>Encounter Ext ID</td>
+    <td>char 100</td>
+    <td>O</td>
+    <td>External identifier of encounter this obs is linked to</td>
   </tr>
   <tr>
-    <td>
-Encounter Interface    </td>
-    <td>
-char 100    </td>
-    <td>
-O    </td>
-    <td>
-Interface value used when that encounter was imported    </td>
+    <td>Encounter Interface</td>
+    <td>char 100</td>
+    <td>O</td>
+    <td>Interface value used when that encounter was imported</td>
   </tr>
 </table>
 

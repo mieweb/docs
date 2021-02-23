@@ -2,7 +2,7 @@
 title: "Add Inventory Tab"
 date: 2020-02-27T20:30:16.149Z
 url: "general-functionality/system-administration/asset-management/add-inventory-tab.html"
-version: 12
+version: 17
 id: 1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88
 source: https://drive.google.com/open?id=1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88
 menu:

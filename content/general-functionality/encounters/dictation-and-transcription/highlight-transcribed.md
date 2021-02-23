@@ -2,8 +2,7 @@
 title: "Highlight Transcribed"
 date: 2020-03-13T11:10:00.685Z
 url: "general-functionality/encounters/dictation-and-transcription/highlight-transcribed.html"
-author: Jeremia Ploor
-version: 36
+version: 42
 id: 1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4
 source: https://drive.google.com/open?id=1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4
 menu:

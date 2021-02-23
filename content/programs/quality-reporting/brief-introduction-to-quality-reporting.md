@@ -2,8 +2,7 @@
 title: "Brief Introduction to Quality Reporting"
 date: 2020-02-28T17:00:04.178Z
 url: "programs/quality-reporting/brief-introduction-to-quality-reporting.html"
-author: Jeremia Ploor
-version: 15
+version: 21
 id: 1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o
 source: https://drive.google.com/open?id=1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o
 menu:

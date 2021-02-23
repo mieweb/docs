@@ -2,8 +2,7 @@
 title: "Transcribing Dictation"
 date: 2020-03-13T11:15:15.186Z
 url: "general-functionality/encounters/dictation-and-transcription/transcribing-dictation.html"
-author: Jeremia Ploor
-version: 46
+version: 52
 id: 1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg
 source: https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg
 menu:
@@ -98,7 +97,7 @@ Do not click the Red X box in the upper right hand corner of your screen to clos
 
 {{% info %}}
 
-If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you will see other options here besides Close. See other help documentation named [Encounters-Closing Dictation](closing-encounters-from-the-dictation-module.html)*.*
+If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you will see other options here besides Close. See other help documentation named [Encounters-Closing Dictation](closing-encounters-from-the-dictation-m.html)*.*
 
 {{% /info %}}
 
@@ -177,7 +176,7 @@ The patient's encounter with the section free-text fields will still be open on 
 
 {{% info %}}
 
-If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you should see the option and archive & close encounter. See other help documentation named [Encounters-Closing Dictation](closing-encounters-from-the-dictation-module.html)*.*
+If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you should see the option and archive & close encounter. See other help documentation named [Encounters-Closing Dictation](closing-encounters-from-the-dictation-m.html)*.*
 
 {{% /info %}}
 

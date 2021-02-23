@@ -2,7 +2,7 @@
 title: "Encounter Worklists"
 date: 2020-02-27T19:56:34.320Z
 url: "general-functionality/encounters/encounter-worklists.html"
-version: 27
+version: 32
 id: 1abTr620F-FY9LuKaPmqQomdsG1YOnha2ZSzP3PVcsQE
 source: https://drive.google.com/open?id=1abTr620F-FY9LuKaPmqQomdsG1YOnha2ZSzP3PVcsQE
 menu:

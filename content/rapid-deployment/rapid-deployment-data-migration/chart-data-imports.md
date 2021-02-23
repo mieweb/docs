@@ -2,8 +2,8 @@
 title: "Chart Data Imports"
 date: 2020-02-27T21:24:06.521Z
 url: "rapid-deployment/rapid-deployment-data-migration/chart-data-imports.html"
-author: Alan Quandt
-version: 10
+author: aquandt
+version: 15
 id: 1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA
 source: https://drive.google.com/open?id=1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA
 menu:

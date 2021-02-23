@@ -2,8 +2,8 @@
 title: "Review Session - System Configuration"
 date: 2020-02-27T21:24:23.063Z
 url: "rapid-deployment/review-sessions/review-session-system-configuration.html"
-author: Alan Quandt
-version: 30
+author: aquandt
+version: 35
 id: 1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM
 source: https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM
 menu:
@@ -257,8 +257,8 @@ Some of the most commonly changed user preferences are:
 
 * [Locations Manager Tab](../../general-functionality/system-configuration/locations-manager-tab.html)
 * [Adding a Department](../../general-functionality/system-configuration/managing-departments.html)
-* [Access Control - Adding/Deleting/Editing Users](../../general-functionality/system-administration/system-controls/access-control-adding-deleting-editing-users.html)
-* [Access Control - Quick-Add Multiple Active Users](../../general-functionality/system-administration/system-controls/access-control-quick-add-multiple-active-users.html)
+* [Access Control - Adding/Deleting/Editing Users](../../general-functionality/system-administration/system-controls/access-control-adding-deleting-editing-u.html)
+* [Access Control - Quick-Add Multiple Active Users](../../general-functionality/system-administration/system-controls/access-control-quick-add-multiple-active.html)
 * [Reset Users Password](../../general-functionality/system-administration/system-controls/reset-user-passwords.html)
 * [Chart Types Editor](../../general-functionality/system-configuration/chart-types-editor.html)
 * [Chart Tab](../../general-functionality/system-configuration/chart-tabs.html)

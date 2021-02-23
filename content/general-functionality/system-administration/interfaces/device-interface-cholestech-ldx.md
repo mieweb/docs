@@ -2,7 +2,7 @@
 title: "Device Interface - Cholestech LDX"
 date: 2020-02-27T20:28:03.764Z
 url: "general-functionality/system-administration/interfaces/device-interface-cholestech-ldx.html"
-version: 13
+version: 18
 id: 11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10
 source: https://drive.google.com/open?id=11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10
 menu:

@@ -2,7 +2,7 @@
 title: "Conditions/ICD-9 Report"
 date: 2020-02-27T20:13:04.136Z
 url: "general-functionality/reports/conditions-icd-9-report.html"
-version: 13
+version: 18
 id: 1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE
 source: https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE
 menu:
