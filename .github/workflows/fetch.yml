@@ -34,7 +34,13 @@ jobs:
         npm run build
 
     - name: "Git LFS"
-      run: git lfs fetch 
+      run: |
+        echo "lfs env"
+        git lfs env
+        echo "ulimit -a"
+        ulimit -a
+        echo "git lfs fetch" 
+        git lfs fetch 
 
     # Runs a single command using the runners shell
     - name: Checkout Google Drive
