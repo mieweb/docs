@@ -23,20 +23,20 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout docs
       uses: actions/checkout@v2
-      with:
-        lfs: true
       
     - name: Checkout wikiGDrive
       uses: actions/checkout@v2
       with:
         repository: https://github.com/mieweb/wikiGDrive
-        lfs: true
 
     - name: Build WikiGDrive
       run: |
         cd wikiGDrive
         npm install
         npm run build
+
+    - name: "Git LFS"
+      run: git lfs fetch 
 
     # Runs a single command using the runners shell
     - name: Checkout Google Drive
