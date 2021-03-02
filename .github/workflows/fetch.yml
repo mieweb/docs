@@ -25,9 +25,7 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Checkout wikiGDrive
-      uses: actions/checkout@v2
-      with:
-        repository: https://github.com/mieweb/wikiGDrive
+      run: git clone https://github.com/mieweb/wikiGDrive.git
 
     - name: Build WikiGDrive
       run: |
