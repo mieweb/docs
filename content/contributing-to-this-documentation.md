@@ -1,9 +1,9 @@
 ---
 title: "Contributing to this documentation"
-date: "2021-04-18T01:26:10.489Z"
+date: "2021-04-18T01:49:05.233Z"
 url: "contributing-to-this-documentation.html"
 author: Doug Horner
-version: 9
+version: 12
 id: "1i83mX3HvQ0oajGh-8C_2a4-TrfjxDPyoegRgNGQjN1U"
 source: "https://drive.google.com/open?id=1i83mX3HvQ0oajGh-8C_2a4-TrfjxDPyoegRgNGQjN1U"
 ---
@@ -24,15 +24,18 @@ Contributing to this documentation
 
 
 
-Example macros:
+## Templates
+
+Hugo is used to transform the Markdown into html.  You should be familiar with basic [Hugo Templating](https://gohugo.io/templates/introduction/) but here is are example used throughout:
+
+
 
 This resolves to the system name/brand: {{% system-name %}}
-
-
 
 This is a conditional content in the page.  
 
 {{% only sys="eh" %}}
 
 {{% /only %}}
+
 
