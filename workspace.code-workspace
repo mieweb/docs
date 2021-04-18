@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../wikiGDrive"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "pwa-node",
+				"request": "launch",
+				"name": "Launch Program",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"program": "../wikiGDrive/src/main.ts",
+				"cwd": "${workspaceFolder}",
+				"args": ["pull", "https://docs.google.com/document/d/1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0/edit"]
+			}
+		]
+	}
+}
