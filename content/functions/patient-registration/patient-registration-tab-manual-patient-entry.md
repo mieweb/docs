@@ -1,8 +1,9 @@
 ---
 title: "Patient Registration Tab - Manual Patient Entry"
-date: "2020-02-27T19:35:05.765Z"
+date: "2021-04-18T04:58:25.003Z"
 url: "functions/patient-registration/patient-registration-tab-manual-patient-entry.html"
-version: 26
+author: Doug Horner
+version: 31
 id: "1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0"
 source: "https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0"
 menu:

@@ -3,12 +3,12 @@ title: "Functions"
 date: "2021-04-18T01:17:44.797Z"
 url: "functions.html"
 author: Doug Horner
-version: 31
+version: 37
 id: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
 source: "https://drive.google.com/open?id=1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
 menu:
     main:
-        name: "Function"
+        name: "Functions"
         identifier: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
         weight: 170
 ---
