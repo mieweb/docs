@@ -75,13 +75,13 @@ Once the vials have been entered, the user will be taken back to the immunizatio
 
 Clicking the **Inj/Imm List** link will load the same screen as when the MAR/Injections chart tab is accessed. This screen provides a complete, active summary list of injections and immunizations for the chart in context. By default the screen loads twenty (20) items per section. There is a System Setting (E-Chart, Injections, Listview limit per page) that triggers more or less entries to populate and show, based on the specified setting. This can be set to any specific number, to show how many entries will display at a time. Setting it to zero (0) will cause the lists to show all entries and not be limited.
 
-For more information about injections, adding vials, and the injection tab, generally, review the [Injection Tab](../../general-functionality/injection-immunization-management/injection-tab.html) and [Vials](../../general-functionality/injection-immunization-management/injection-tab-vials.html) documentation.
+For more information about injections, adding vials, and the injection tab, generally, review the [Injection Tab](../../functions/injection-immunization-management/injection-tab.html) and [Vials](../../functions/injection-immunization-management/injection-tab-vials.html) documentation.
 
 ### Summary List Categories
 
 The Injection/Immunization chart tab allows clinicians to review and maintain any immunization records, recorded injections/immunizations, as well as any active vials or ongoing medication administrations. To easily navigate the information, when in the Injection/Immunization chart tab, the summary list displays three categories: Medication Administration, Immunizations, and Vials. Each of these categories allow for specific functionality and behaviors, to foster improved efficiency and better patient care.
 
-For additional information regarding the Injection/Immunization module, its various categories, and its general features, see the [Injection/Immunization Management](../../general-functionality/injection-immunization-management.html) index.
+For additional information regarding the Injection/Immunization module, its various categories, and its general features, see the [Injection/Immunization Management](../../functions/injection-immunization-management.html) index.
 
 ### Visit Encounter
 
@@ -115,7 +115,7 @@ There is integrated Clinical Decision Support, so pop-ups may appear to alert fo
 {{% /tip %}}
 
 
-For more information on the Mass Injection Program, review our [Injection Program Tab](../../general-functionality/injection-immunization-management/injection-program-tab-recording-mass-injections.html) documentation.
+For more information on the Mass Injection Program, review our [Injection Program Tab](../../functions/injection-immunization-management/injection-program-tab-recording-mass-injections.html) documentation.
 
 ## System Configuration
 
@@ -151,12 +151,12 @@ Manage Injection Codes: If permission is set to Yes, it allows users access to t
 
 ### Help Documentation
 
-* [Injection Editor](../../general-functionality/injection-immunization-management/injection-editor.html)
-* [Injection Program Tab-Recording Mass Injections](../../general-functionality/injection-immunization-management/injection-program-tab-recording-mass-injections.html)
-* [Injection Tab-Edit-Delete](../../general-functionality/injection-immunization-management/edit-delete-injections-immunizations.html)
-* [Injection Tab-Vials](../../general-functionality/injection-immunization-management/injection-tab-vials.html)
-* [Injection Tab](../../general-functionality/injection-immunization-management/injection-tab.html)
-* [Injection Tab with CHIRP Interface](../../general-functionality/injection-immunization-management/injection-tab-with-chirp-interface.html)
+* [Injection Editor](../../functions/injection-immunization-management/injection-editor.html)
+* [Injection Program Tab-Recording Mass Injections](../../functions/injection-immunization-management/injection-program-tab-recording-mass-injections.html)
+* [Injection Tab-Edit-Delete](../../functions/injection-immunization-management/edit-delete-injections-immunizations.html)
+* [Injection Tab-Vials](../../functions/injection-immunization-management/injection-tab-vials.html)
+* [Injection Tab](../../functions/injection-immunization-management/injection-tab.html)
+* [Injection Tab with CHIRP Interface](../../functions/injection-immunization-management/injection-tab-with-chirp-interface.html)
 
 ### Training Videos
 

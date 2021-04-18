@@ -140,7 +140,7 @@ If interested in utilizing the employee portal, particularly with the Travel Que
 
 Travel Kits, otherwise known as Medication Kits, are pre-templated groupings of common and/or preventative medications needed for varying types of travel, which can be prescribed from the {{% system-name %}} Travel Management module. These are typically prescribed for travellers frequenting different countries or travelling often, who may need medications without interruption, or such medications that help with motion sickness, diarrhea, or problems sleeping, for example. These kits are configured and available for easy ordering from the {{% system-name %}} system and should not be confused with a pre-travel request for pre-travel requirements.
 
-Clients should be sure to review the current list of existing Travel Kits by navigating to the [Meds Manager menu](https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager) of the Control Panel. Use the **Select Meds Editor** dropdown in the upper-right corner to select *Kits*. The existing kits will populate in the Medication Kits table. Here kit items can be viewed, edited, or kits, in general, can be added, as needed. Using the links in the Options column, view or add kit items by clicking **Items**; otherwise, click the **Edit** link to change the name or description of the kit or to make it active/inactive. To add a new kit, click the **Add Kit** link. For more detailed information on usage or setup, see the [Travel Kits](../../general-functionality/medication-management-and-e-prescribing/travel-kits.html) documentation.
+Clients should be sure to review the current list of existing Travel Kits by navigating to the [Meds Manager menu](https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager) of the Control Panel. Use the **Select Meds Editor** dropdown in the upper-right corner to select *Kits*. The existing kits will populate in the Medication Kits table. Here kit items can be viewed, edited, or kits, in general, can be added, as needed. Using the links in the Options column, view or add kit items by clicking **Items**; otherwise, click the **Edit** link to change the name or description of the kit or to make it active/inactive. To add a new kit, click the **Add Kit** link. For more detailed information on usage or setup, see the [Travel Kits](../../functions/medication-management-and-e-prescribing/travel-kits.html) documentation.
 
 ### Pre-Placement/Applicant Portal
 
@@ -152,11 +152,11 @@ If purchased, the {{% system-name %}} system can be configured to allow pre-plac
 
 (Only if purchased)
 
-When using approved Topaz Signature Pad devices, {{% system-name %}} can capture patient/employee signatures for consents, waivers, declinations, and other functions, such as signature confirmation when picking up travel kits. All signatures captured using a Topaz device are added to the appropriate templated form or document and stored in the respective chart. If a Topaz device integration is purchased, it is recommended to configure the Signature sidemenu to display and utilize the signature functionality for Travel Med Kit pickups. If interested, see the [Signature Pad Device](../../general-functionality/system-administration/interfaces/signature-pad-device.html) documentation for further details.
+When using approved Topaz Signature Pad devices, {{% system-name %}} can capture patient/employee signatures for consents, waivers, declinations, and other functions, such as signature confirmation when picking up travel kits. All signatures captured using a Topaz device are added to the appropriate templated form or document and stored in the respective chart. If a Topaz device integration is purchased, it is recommended to configure the Signature sidemenu to display and utilize the signature functionality for Travel Med Kit pickups. If interested, see the [Signature Pad Device](../../functions/system-administration/interfaces/signature-pad-device.html) documentation for further details.
 
 ## Resources
 
 ### Help Documentation
 
-* [Travel Kits](../../general-functionality/medication-management-and-e-prescribing/travel-kits.html)
-* [Signature Pad Device](../../general-functionality/system-administration/interfaces/signature-pad-device.html)
+* [Travel Kits](../../functions/medication-management-and-e-prescribing/travel-kits.html)
+* [Signature Pad Device](../../functions/system-administration/interfaces/signature-pad-device.html)

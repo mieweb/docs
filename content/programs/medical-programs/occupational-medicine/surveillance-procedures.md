@@ -21,7 +21,7 @@ menu:
 
 
 
-The {{% system-name %}} [Order and Result Management](../../../general-functionality/order-and-result-management.html) module provides all of the necessary tools for easily and intuitively ordering, customizing, delivering, and tracking tests and procedures. Through computerized provider order entry (CPOE), {{% system-name %}} streamlines the processes involved in order and result management. In general, order requests can be created from a visit encounter or from within the chart. Once a requisition is generated, it can easily be printed, faxed, or electronically transmitted, as needed.
+The {{% system-name %}} [Order and Result Management](../../../functions/order-and-result-management.html) module provides all of the necessary tools for easily and intuitively ordering, customizing, delivering, and tracking tests and procedures. Through computerized provider order entry (CPOE), {{% system-name %}} streamlines the processes involved in order and result management. In general, order requests can be created from a visit encounter or from within the chart. Once a requisition is generated, it can easily be printed, faxed, or electronically transmitted, as needed.
 
 
 

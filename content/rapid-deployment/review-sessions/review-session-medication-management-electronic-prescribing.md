@@ -181,7 +181,7 @@ Assuming the user has already been created in the system and the initial setup a
 * Search for and find the prescribing clinician needing e-prescribing privileges.
 * Simply click the <strong>Edit</strong> link in the <em>Options</em> column. 
 
-{{% info %}} If the prescribing clinician is new to {{% system-name %}} , click the [Add User link](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control&opp=auser&realm), to add the user/provider to the {{% system-name %}} solution. See [User/Provider & Department Management](../../general-functionality/system-administration/system-controls/user-provider-and-department-management.html) for more information on adding users/providers. {{% /info %}}
+{{% info %}} If the prescribing clinician is new to {{% system-name %}} , click the [Add User link](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control&opp=auser&realm), to add the user/provider to the {{% system-name %}} solution. See [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.html) for more information on adding users/providers. {{% /info %}}
 
 * Ensure these required fields are completed for SureScripts' verification:
     * <strong>First Name</strong>: Full, legal first name.
@@ -294,7 +294,7 @@ In order to use the Dose/Formulary functionality and see the in-system button, t
 
 To see the Dosing and Formulary screen in its entirety when prescribing a med, the Form of the medication must be selected.
 
-Before selecting the appropriate formulary, an eligibility check must be run. An eligibility check cannot be run more than once every 72 hours, per individual. Once it has been run and obtained, then the available formularies associated with the individual's drug benefit plan are loaded into the chart. The {{% system-name %}} solution will maintain records of coverage eligibility in the Patient Benefit table. This eligibility status shows in the Allergies/Medications tab and the encounter Meds Plan section. Here, the last date/time an eligibility check was run will also display; however, if there is no listed date/time, no eligibility check has been run, meaning only dosing information will be available, with no formulary information. For more information on eligibility checking, see the [Prescription and Insurance Eligibility Requests – Surescripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html) documentation.
+Before selecting the appropriate formulary, an eligibility check must be run. An eligibility check cannot be run more than once every 72 hours, per individual. Once it has been run and obtained, then the available formularies associated with the individual's drug benefit plan are loaded into the chart. The {{% system-name %}} solution will maintain records of coverage eligibility in the Patient Benefit table. This eligibility status shows in the Allergies/Medications tab and the encounter Meds Plan section. Here, the last date/time an eligibility check was run will also display; however, if there is no listed date/time, no eligibility check has been run, meaning only dosing information will be available, with no formulary information. For more information on eligibility checking, see the [Prescription and Insurance Eligibility Requests – Surescripts Advanced](../../functions/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html) documentation.
 
 {{% tip %}}
 
@@ -313,11 +313,11 @@ There are a large number of system settings available regarding the Medications 
 
 ### Security Role Permissions
 
-In additional to system settings, it is important to review the security settings for each user or security role needing access to the medication management functions. Review the settings and give permission, as appropriate. There is also information available within the [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) online help documentation.
+In additional to system settings, it is important to review the security settings for each user or security role needing access to the medication management functions. Review the settings and give permission, as appropriate. There is also information available within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.html) online help documentation.
 
 ### My Settings Preferences
 
-Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../general-functionality/system-administration/security/my-settings.html) online help documentation.
+Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../functions/system-administration/security/my-settings.html) online help documentation.
 
 ![](review-session-medication-management-electronic-prescribing.images/image12.png)
 
@@ -325,32 +325,32 @@ Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Se
 
 ### Help Documentation
 
-* [Encounters Plan Section-Meds](../../general-functionality/encounters/encounter-plan-section-medications.html)
-* [Allergies and Intolerances](../../general-functionality/medication-management-and-e-prescribing/allergies-and-intolerances.html)
-* [Discontinue Meds](../../general-functionality/medication-management-and-e-prescribing/discontinue-medications.html)
-* [Drug Guide Search](../../general-functionality/medication-management-and-e-prescribing/drug-guide-search.html)
-* [Drug Interaction-Allergy Warnings](../../general-functionality/medication-management-and-e-prescribing/drug-interaction-allergy-warnings.html)
-* [Drug Plan and Formularies](../../general-functionality/medication-management-and-e-prescribing/drug-plan-and-formularies.html)
-* [E-Refills-ALL E-REFILLS tab](../../general-functionality/medication-management-and-e-prescribing/e-refills-all-e-refills-tab.html)
-* [E-Refills-E-SCRIPTS tab](../../general-functionality/medication-management-and-e-prescribing/e-refills-e-scripts-tab.html)
-* [E-Refills-MY E-RX ERRORS tab](../../general-functionality/medication-management-and-e-prescribing/e-refills-my-e-rx-errors-tab.html)
-* [E-Refills-MY PENDING REFILLS tab](../../general-functionality/medication-management-and-e-prescribing/e-refills-my-pending-refills-tab.html)
-* [Edit or Change Meds](../../general-functionality/medication-management-and-e-prescribing/edit-change-medications.html)
-* [Flow-Pat Ed-Meds Sheets](../../general-functionality/medication-management-and-e-prescribing/allergy-medication-tab-quick-links.html)
-* [Formulary and Dosing-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-formulary-and-dosing.html)
-* [Medication History Reconciliation-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.html)
-* [Meds Library-Remembered Scripts](../../general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.html)
-* [Meds Tab Summary View](../../general-functionality/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.html)
-* [Preferred Pharmacy-Supply-Verification-Current Library](../../general-functionality/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.html)
-* [Prescribing and Adding Meds](../../general-functionality/medication-management-and-e-prescribing/prescribing-adding-medications.html)
-* [Prescription and Insurance Eligibility Requests-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html)
-* [Print-Fax-Transmit Prescriptions](../../general-functionality/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.html)
-* [Refill All Meds](../../general-functionality/medication-management-and-e-prescribing/refill-all.html)
-* [Setting up E-Prescribers](../../general-functionality/system-administration/system-controls/setting-up-e-prescribers.html)
-* [Unknown Allergy or Medication Add Email Notifications](../../general-functionality/medication-management-and-e-prescribing/unknown-allergy-medication-email-notifications.html)
-* [E-Meds Report of Printed-Faxed-ESent](../../general-functionality/reports/e-meds-report.html)
-* [Med Report](../../general-functionality/reports/medication-report.html)
-* [Uncoded Meds Report](../../general-functionality/reports/uncoded-medications-report.html)
+* [Encounters Plan Section-Meds](../../functions/encounters/encounter-plan-section-medications.html)
+* [Allergies and Intolerances](../../functions/medication-management-and-e-prescribing/allergies-and-intolerances.html)
+* [Discontinue Meds](../../functions/medication-management-and-e-prescribing/discontinue-medications.html)
+* [Drug Guide Search](../../functions/medication-management-and-e-prescribing/drug-guide-search.html)
+* [Drug Interaction-Allergy Warnings](../../functions/medication-management-and-e-prescribing/drug-interaction-allergy-warnings.html)
+* [Drug Plan and Formularies](../../functions/medication-management-and-e-prescribing/drug-plan-and-formularies.html)
+* [E-Refills-ALL E-REFILLS tab](../../functions/medication-management-and-e-prescribing/e-refills-all-e-refills-tab.html)
+* [E-Refills-E-SCRIPTS tab](../../functions/medication-management-and-e-prescribing/e-refills-e-scripts-tab.html)
+* [E-Refills-MY E-RX ERRORS tab](../../functions/medication-management-and-e-prescribing/e-refills-my-e-rx-errors-tab.html)
+* [E-Refills-MY PENDING REFILLS tab](../../functions/medication-management-and-e-prescribing/e-refills-my-pending-refills-tab.html)
+* [Edit or Change Meds](../../functions/medication-management-and-e-prescribing/edit-change-medications.html)
+* [Flow-Pat Ed-Meds Sheets](../../functions/medication-management-and-e-prescribing/allergy-medication-tab-quick-links.html)
+* [Formulary and Dosing-SureScripts Advanced](../../functions/medication-management-and-e-prescribing/surescripts-advanced-formulary-and-dosing.html)
+* [Medication History Reconciliation-SureScripts Advanced](../../functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.html)
+* [Meds Library-Remembered Scripts](../../functions/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.html)
+* [Meds Tab Summary View](../../functions/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.html)
+* [Preferred Pharmacy-Supply-Verification-Current Library](../../functions/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.html)
+* [Prescribing and Adding Meds](../../functions/medication-management-and-e-prescribing/prescribing-adding-medications.html)
+* [Prescription and Insurance Eligibility Requests-SureScripts Advanced](../../functions/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html)
+* [Print-Fax-Transmit Prescriptions](../../functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.html)
+* [Refill All Meds](../../functions/medication-management-and-e-prescribing/refill-all.html)
+* [Setting up E-Prescribers](../../functions/system-administration/system-controls/setting-up-e-prescribers.html)
+* [Unknown Allergy or Medication Add Email Notifications](../../functions/medication-management-and-e-prescribing/unknown-allergy-medication-email-notifications.html)
+* [E-Meds Report of Printed-Faxed-ESent](../../functions/reports/e-meds-report.html)
+* [Med Report](../../functions/reports/medication-report.html)
+* [Uncoded Meds Report](../../functions/reports/uncoded-medications-report.html)
 * [Travel Kits](https://docs.google.com/document/d/1Hh-Up6MnYTqvnc2vEx38lXyRG5rbm4ln3jnd8Qy_G7Q/edit)
 
 ### Training Videos

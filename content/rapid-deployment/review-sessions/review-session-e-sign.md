@@ -91,7 +91,7 @@ Custom configuration of automated e-sign or tasking business rules, or to automa
 
 ### All Pending Access
 
-The [All Pending tab](../../general-functionality/e-sign-electronic-signature/e-sign-all-pending-tab.html) of the E-Sign module displays a summary of *all* outstanding E-Sign Requests. The ListView displays all requests by user last name and the count of each user's documents pending a signature. It is important to determine what users should be granted permission to access this tab. As noted above, the security permission is **All Pending Access** and the possible levels of access are None, View, or Delete.
+The [All Pending tab](../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.html) of the E-Sign module displays a summary of *all* outstanding E-Sign Requests. The ListView displays all requests by user last name and the count of each user's documents pending a signature. It is important to determine what users should be granted permission to access this tab. As noted above, the security permission is **All Pending Access** and the possible levels of access are None, View, or Delete.
 
 ### Esign Chart Tab
 
@@ -130,13 +130,13 @@ Two common methods administrative staff and managers use to review E-Sign Reques
 
 ### Help Documentation
 
-* [E-Sign Chart Tab](../../general-functionality/e-sign-electronic-signature/e-sign-chart-tab.html)
-* [Esign-All Pending Tab](../../general-functionality/e-sign-electronic-signature/e-sign-all-pending-tab.html)
-* [Esign-Request Signature](../../general-functionality/e-sign-electronic-signature/request-e-signature.html)
-* [Esign-Unrequest Signature](../../general-functionality/e-sign-electronic-signature/un-request-unassign-an-e-signature.html)
-* [Esign-Pending Reviews](../../general-functionality/e-sign-electronic-signature/pending-e-sign-reviews.html)
-* [Esign-Highlight Transcribed](../../general-functionality/encounters/dictation-and-transcription/highlight-transcribed.html)
-* [Document Search](../../general-functionality/reports/documents-report-super-document-type-search.html)
+* [E-Sign Chart Tab](../../functions/e-sign-electronic-signature/e-sign-chart-tab.html)
+* [Esign-All Pending Tab](../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.html)
+* [Esign-Request Signature](../../functions/e-sign-electronic-signature/request-e-signature.html)
+* [Esign-Unrequest Signature](../../functions/e-sign-electronic-signature/un-request-unassign-an-e-signature.html)
+* [Esign-Pending Reviews](../../functions/e-sign-electronic-signature/pending-e-sign-reviews.html)
+* [Esign-Highlight Transcribed](../../functions/encounters/dictation-and-transcription/highlight-transcribed.html)
+* [Document Search](../../functions/reports/documents-report-super-document-type-search.html)
 
 ### Training Videos
 

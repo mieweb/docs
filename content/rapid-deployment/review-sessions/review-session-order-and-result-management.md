@@ -116,11 +116,11 @@ Observation flowsheet names must match order names *exactly*, in order for the f
 {{% /info %}}
 
 
-Consider what orders will need to be built according to flowsheet layouts, and ensure existing configurations are suitable for the needs of the practice, and create new order items and flowsheets, as needed. To review or begin creating and configuring new flowsheets, navigate to the [Observation Codes tab](https://system/?f=admin&subfunc=obscodes_manager&t=Observation+Codes&tabmodule=admin&tabselect=Observation+Codes) of the **Control Panel**. Once there, click the [Display Flowsheets link](https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet) in the upper-right corner. Click **Edit** on any flowsheet to view the contents and make any necessary changes. For additional information on setup and configuration, check out the [Observation Flowsheets](../../general-functionality/order-and-result-management/observation-flowsheets.html) help documentation.
+Consider what orders will need to be built according to flowsheet layouts, and ensure existing configurations are suitable for the needs of the practice, and create new order items and flowsheets, as needed. To review or begin creating and configuring new flowsheets, navigate to the [Observation Codes tab](https://system/?f=admin&subfunc=obscodes_manager&t=Observation+Codes&tabmodule=admin&tabselect=Observation+Codes) of the **Control Panel**. Once there, click the [Display Flowsheets link](https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet) in the upper-right corner. Click **Edit** on any flowsheet to view the contents and make any necessary changes. For additional information on setup and configuration, check out the [Observation Flowsheets](../../functions/order-and-result-management/observation-flowsheets.html) help documentation.
 
 ### Document Types
 
-It is important to consider the types of results being stored and indexed in charts. When scanning, indexing, or uploading result documents, the {{% system-name %}} system needs to know the type of document being stored, so that it can be indexed correctly. Review the types of results that will be uploaded and recorded in the system, so that the appropriate [Document Types](../../general-functionality/system-configuration/document-type-tab.html) can be added to the system, using the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the **Control Panel**.
+It is important to consider the types of results being stored and indexed in charts. When scanning, indexing, or uploading result documents, the {{% system-name %}} system needs to know the type of document being stored, so that it can be indexed correctly. Review the types of results that will be uploaded and recorded in the system, so that the appropriate [Document Types](../../functions/system-configuration/document-type-tab.html) can be added to the system, using the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the **Control Panel**.
 
 {{% tip %}}
 
@@ -159,7 +159,7 @@ These same picklist order items are also visible in the Visit Orders section of 
 
 A system setting determines which order picklist the Order Quick Links portlet will display. By default, the *Orders Portlet Picklist* system setting is set to Quick Visit Orders, by default. This indicates to the system that the Order Quick Links portlet of the Summary chart tab will offer quick order selections designated by the Quick Visit Orders picklist. The system setting value can be changed to an alternative order picklist, if necessary. Whichever picklist is specified as the value of the system setting is the picklist that will generate the options in Order Quick Links portlet of the Summary chart tab.
 
-For more information, check out the [Patient Summary](../../general-functionality/e-chart/patient-summary-interactive-chart-tab.html) documentation.
+For more information, check out the [Patient Summary](../../functions/e-chart/patient-summary-interactive-chart-tab.html) documentation.
 
 ### Refer To Field of Order Requests
 
@@ -197,7 +197,7 @@ Though not available in the standard product by default, labels can be programme
 
 The *Order Label* layout must be established within {{% system-name %}} , with configuration done by MIE. Once the layout is available, the **Label** link will display in the Orders module. To view the Label link and print any custom configured labels, ensure the **Auto Print on Summary** system setting is enabled. Then, to print a label associated with an Order Request, simply click the **Label** link *after* successfully creating the Order Request.
 
-For additional details, check out the help documentation on the [Label Printing Feature](../../general-functionality/document-management/printing-and-print-definitions/label-printing-feature.html).
+For additional details, check out the help documentation on the [Label Printing Feature](../../functions/document-management/printing-and-print-definitions/label-printing-feature.html).
 
 ### HL7 Lab Interface
 
@@ -211,7 +211,7 @@ One thing to note is that results are displayed using lab-supplied reference ran
 
 {{% info %}}
 
-If set up with an orders interface with a lab vendor (e.g., LabCorp), the account number for that specific location must be entered in the [Locations Manager tab](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) of the **Control Panel** for that location. When {{% system-name %}} sends the order electronically to the lab via the interface, that lab account number is sent with it. For more information, see the [Locations Management](../../general-functionality/system-configuration/locations-management.html) documentation.
+If set up with an orders interface with a lab vendor (e.g., LabCorp), the account number for that specific location must be entered in the [Locations Manager tab](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) of the **Control Panel** for that location. When {{% system-name %}} sends the order electronically to the lab via the interface, that lab account number is sent with it. For more information, see the [Locations Management](../../functions/system-configuration/locations-management.html) documentation.
 
 {{% /info %}}
 
@@ -263,21 +263,21 @@ A *Referred Orders* grid report is available in the referrable entity's Provider
 
 ### Help Documentation
 
-* [Advanced Search-Refer To of E-Orders](../../general-functionality/order-and-result-management/e-orders-refer-to-advanced-search.html)
-* [E-Orders-Add Order Request](../../general-functionality/order-and-result-management/e-orders-add-order-requests.html)
-* [E-Orders-Order Requests Chart Tab-Grid](../../general-functionality/order-and-result-management/order-requests-grid.html)
-* [E-Orders Chart Tab](../../general-functionality/order-and-result-management/e-orders-chart-tab.html)
-* [E-Orders View Recent](../../general-functionality/order-and-result-management/orders-view-recent.html)
-* [Link Document to E-Order](../../general-functionality/document-management/documents-and-forms/link-documents-to-order-requests.html)
-* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../general-functionality/encounters/tests-and-procedures-section-applying-adding-completing-resulting.html)
-* [Tests and Procedures-Edit-Delete-Remove](../../general-functionality/encounters/tests-and-procedures-section-remove-delete-edit.html)
-* [Due List Chart Tab](../../general-functionality/health-surveillance/due-list.html)
+* [Advanced Search-Refer To of E-Orders](../../functions/order-and-result-management/e-orders-refer-to-advanced-search.html)
+* [E-Orders-Add Order Request](../../functions/order-and-result-management/e-orders-add-order-requests.html)
+* [E-Orders-Order Requests Chart Tab-Grid](../../functions/order-and-result-management/order-requests-grid.html)
+* [E-Orders Chart Tab](../../functions/order-and-result-management/e-orders-chart-tab.html)
+* [E-Orders View Recent](../../functions/order-and-result-management/orders-view-recent.html)
+* [Link Document to E-Order](../../functions/document-management/documents-and-forms/link-documents-to-order-requests.html)
+* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.html)
+* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.html)
+* [Due List Chart Tab](../../functions/health-surveillance/due-list.html)
 * [Public - Orders Inbound and Outbound Interface Specs](https://www.mieweb.com/wiki/Orders_(ORM%5EO01)_Inbound_and_Outbound)
 * [Public - Lab Result CSV API](https://www.mieweb.com/wiki/Lab_Result_CSV_API)
 * [Public - Sending HL7 Messages into System](https://www.mieweb.com/wiki/Sending_HL7_Messages_To_WebChart)
-* [Orders Due Report](../../general-functionality/reports/orders-due-report.html)
-* [Orders Usage Report](../../general-functionality/reports/orders-usage-report.html)
-* [Observation Code Editor](../../general-functionality/order-and-result-management/observation-codes-editor.html)
-* [Observation Code Merging](../../general-functionality/order-and-result-management/observation-code-merging.html)
-* [Observation Flowsheets](../../general-functionality/order-and-result-management/observation-flowsheets.html)
-* [Observations Tab](../../general-functionality/order-and-result-management/observations-tab.html)
+* [Orders Due Report](../../functions/reports/orders-due-report.html)
+* [Orders Usage Report](../../functions/reports/orders-usage-report.html)
+* [Observation Code Editor](../../functions/order-and-result-management/observation-codes-editor.html)
+* [Observation Code Merging](../../functions/order-and-result-management/observation-code-merging.html)
+* [Observation Flowsheets](../../functions/order-and-result-management/observation-flowsheets.html)
+* [Observations Tab](../../functions/order-and-result-management/observations-tab.html)

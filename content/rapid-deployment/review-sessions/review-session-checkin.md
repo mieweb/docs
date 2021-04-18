@@ -197,7 +197,7 @@ Two reports specific to the Checkin module are the Checkin Statistics, tracked t
 
 ### Help Documentation
 
-* [Checkin](../../general-functionality/scheduling/checkin.html)
-* [Checkin Reports](../../general-functionality/reports/checkin-reports.html)
-* [My Settings](../../general-functionality/system-administration/security/my-settings.html)
-* [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html)
+* [Checkin](../../functions/scheduling/checkin.html)
+* [Checkin Reports](../../functions/reports/checkin-reports.html)
+* [My Settings](../../functions/system-administration/security/my-settings.html)
+* [Security Role Settings](../../functions/system-administration/security/security-role-settings.html)

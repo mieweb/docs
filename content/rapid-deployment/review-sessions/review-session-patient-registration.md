@@ -96,12 +96,12 @@ The [Partition Manager](https://system/?f=admin&s=partmanager&tabmodule=admin&ta
 
 ### Help Documentation
 
-* [Patient Registration Tab - Manual Patient Entry](../../general-functionality/patient-registration/patient-registration-tab-manual-patient-entry.html)
-* [Editing Patient Demographics](../../general-functionality/e-chart/editing-demographics.html)
-* [Demographics Tab Summary](../../general-functionality/e-chart/demographics-tab-summary.html)
-* [Picture-Photo Documents](../../general-functionality/document-management/documents-and-forms/picture-photo-documents.html)
-* [Partition Manager](../../general-functionality/system-administration/system-controls/partition-manager.html)
-* [Insurance Summary-Demographics Tab](../../general-functionality/e-chart/insurance-summary-in-demographics-tab.html)
-* [Medical Contacts-Relationships and User-Patient Relationships](../../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.html)
-* [Medical Record Numbers](../../general-functionality/patient-registration/medical-record-numbers.html)
-* [Merging Charts in System](../../general-functionality/system-administration/system-controls/merging-accounts-charts-in-system.html)
+* [Patient Registration Tab - Manual Patient Entry](../../functions/patient-registration/patient-registration-tab-manual-patient-entry.html)
+* [Editing Patient Demographics](../../functions/e-chart/editing-demographics.html)
+* [Demographics Tab Summary](../../functions/e-chart/demographics-tab-summary.html)
+* [Picture-Photo Documents](../../functions/document-management/documents-and-forms/picture-photo-documents.html)
+* [Partition Manager](../../functions/system-administration/system-controls/partition-manager.html)
+* [Insurance Summary-Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.html)
+* [Medical Contacts-Relationships and User-Patient Relationships](../../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.html)
+* [Medical Record Numbers](../../functions/patient-registration/medical-record-numbers.html)
+* [Merging Charts in System](../../functions/system-administration/system-controls/merging-accounts-charts-in-system.html)

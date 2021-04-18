@@ -60,7 +60,7 @@ Only users with the **View Access** security permission set to *Yes* will be abl
 {{% /info %}}
 
 
-For additional information regarding the Task List module and the various tabs, categories, and options available for managing tasks, see the [Task List](../../general-functionality/task-management/task-list.html) documentation.
+For additional information regarding the Task List module and the various tabs, categories, and options available for managing tasks, see the [Task List](../../functions/task-management/task-list.html) documentation.
 
 ### Your Task List
 
@@ -146,13 +146,13 @@ All available Tasklist Events will be audited with the client, in order to asses
 
 ### Security & Settings
 
-Review user security settings for users needing access to Tasking, and give permission, as appropriate. There is also information available within the [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) online help.
+Review user security settings for users needing access to Tasking, and give permission, as appropriate. There is also information available within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.html) online help.
 
 ![](review-session-tasking.images/image1.png)
 
 ### My Settings Preferences
 
-Review security roles and individual My Settings preferences of those needing access to the Task List module. Review permissions and set, as appropriate. This information is also available within the [My Settings](../../general-functionality/system-administration/security/my-settings.html) online help.
+Review security roles and individual My Settings preferences of those needing access to the Task List module. Review permissions and set, as appropriate. This information is also available within the [My Settings](../../functions/system-administration/security/my-settings.html) online help.
 
 ![](review-session-tasking.images/image2.png)
 
@@ -162,11 +162,11 @@ Review security roles and individual My Settings preferences of those needing ac
 
 ### Help Documentation
 
-* [Fast Task Template](../../general-functionality/task-management/fast-task-templates.html)
-* [Task List](../../general-functionality/task-management/task-list.html)
-* [Task Search](../../general-functionality/task-management/task-search.html)
-* [Adding Tasks](../../general-functionality/task-management/adding-tasks.html)
-* [Task Report](../../general-functionality/reports/task-report.html)
+* [Fast Task Template](../../functions/task-management/fast-task-templates.html)
+* [Task List](../../functions/task-management/task-list.html)
+* [Task Search](../../functions/task-management/task-search.html)
+* [Adding Tasks](../../functions/task-management/adding-tasks.html)
+* [Task Report](../../functions/reports/task-report.html)
 
 ### Training Videos
 

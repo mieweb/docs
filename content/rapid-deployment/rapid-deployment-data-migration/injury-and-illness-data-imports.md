@@ -35,5 +35,5 @@ menu:
 
 
 
-* [Create Cases File for Import](../../general-functionality/system-administration/data-migration/create-cases-file-for-import.html)
+* [Create Cases File for Import](../../functions/system-administration/data-migration/create-cases-file-for-import.html)
 * [Cases Data Validation Test](https://docs.google.com/document/d/1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI)

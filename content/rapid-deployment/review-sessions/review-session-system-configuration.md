@@ -207,7 +207,7 @@ As a means to automate varying types of system maintenance and necessary workflo
 
 ### My Settings
 
-Users have the ability to manage specific settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the **Control Panel**, to begin editing these options. For information on each of the preferences, check out the [My Settings](../../general-functionality/system-administration/security/my-settings.html) and [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) help documentation.
+Users have the ability to manage specific settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the **Control Panel**, to begin editing these options. For information on each of the preferences, check out the [My Settings](../../functions/system-administration/security/my-settings.html) and [Security Role Settings](../../functions/system-administration/security/security-role-settings.html) help documentation.
 
 ![](review-session-system-configuration.images/image19.png)
 
@@ -255,23 +255,23 @@ Some of the most commonly changed user preferences are:
 
 ### Help Documentation
 
-* [Locations Manager Tab](../../general-functionality/system-configuration/locations-manager-tab.html)
-* [Adding a Department](../../general-functionality/system-configuration/managing-departments.html)
-* [Access Control - Adding/Deleting/Editing Users](../../general-functionality/system-administration/system-controls/access-control-adding-deleting-editing-users.html)
-* [Access Control - Quick-Add Multiple Active Users](../../general-functionality/system-administration/system-controls/access-control-quick-add-multiple-active-users.html)
-* [Reset Users Password](../../general-functionality/system-administration/system-controls/reset-user-passwords.html)
-* [Chart Types Editor](../../general-functionality/system-configuration/chart-types-editor.html)
-* [Chart Tab](../../general-functionality/system-configuration/chart-tabs.html)
-* [Document Type Tab](../../general-functionality/system-configuration/document-type-tab.html)
-* [Provider Organization Setup](../../general-functionality/system-administration/system-controls/provider-organization-setup.html)
-* [Provider Organization - Adding Users to a PO](../../general-functionality/system-administration/system-controls/adding-users-to-a-provider-organization.html)
+* [Locations Manager Tab](../../functions/system-configuration/locations-manager-tab.html)
+* [Adding a Department](../../functions/system-configuration/managing-departments.html)
+* [Access Control - Adding/Deleting/Editing Users](../../functions/system-administration/system-controls/access-control-adding-deleting-editing-users.html)
+* [Access Control - Quick-Add Multiple Active Users](../../functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.html)
+* [Reset Users Password](../../functions/system-administration/system-controls/reset-user-passwords.html)
+* [Chart Types Editor](../../functions/system-configuration/chart-types-editor.html)
+* [Chart Tab](../../functions/system-configuration/chart-tabs.html)
+* [Document Type Tab](../../functions/system-configuration/document-type-tab.html)
+* [Provider Organization Setup](../../functions/system-administration/system-controls/provider-organization-setup.html)
+* [Provider Organization - Adding Users to a PO](../../functions/system-administration/system-controls/adding-users-to-a-provider-organization.html)
 * [CPT Code Editor and Picklists](https://docs.google.com/document/d/17lF5jX7q3_oBclS7j9Y5bnpEScivaFnrSwrgQT-0yj8)
-* [Fee Schedules](../../general-functionality/system-configuration/fee-schedules.html)
-* [Insurance Summary - Demographics Tab](../../general-functionality/e-chart/insurance-summary-in-demographics-tab.html)
-* [Insurance Eligibility Tab](../../general-functionality/e-chart/insurance-eligibility-tab.html)
-* [My Settings](../../general-functionality/system-administration/security/my-settings.html)
-* [Locations Management](../../general-functionality/system-configuration/locations-management.html)
-* [System Files Management](../../general-functionality/system-configuration/system-files-management.html)
+* [Fee Schedules](../../functions/system-configuration/fee-schedules.html)
+* [Insurance Summary - Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.html)
+* [Insurance Eligibility Tab](../../functions/e-chart/insurance-eligibility-tab.html)
+* [My Settings](../../functions/system-administration/security/my-settings.html)
+* [Locations Management](../../functions/system-configuration/locations-management.html)
+* [System Files Management](../../functions/system-configuration/system-files-management.html)
 
 
 

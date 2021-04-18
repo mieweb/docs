@@ -83,7 +83,7 @@ The Waiting List displays patients in ascending order of when they were schedule
 
 The [Scheduler](https://system/?func=scheduler#Now)[ ](https://system/?func=scheduler#Now)[module](https://system/?func=scheduler#Now) in {{% system-name %}} allows offices to interface with a Practice Management (PM) system, as well as account for any varying schedules the organization may need. Depending on the workflows and necessary schedule resources, varying degrees of configuration are needed to begin scheduling appointments in {{% system-name %}} .
 
-In order to add or manage schedules and appointments in {{% system-name %}} , the proper security permissions must be provided. For instance, in order to create and manage resource schedules, the security role setting *Edit Schedules* must be set to **Yes**. Similarly, to add appointments, the *Add Appointments* setting must be **Yes**. If the My Settings preference of *Force Default Resources* is set to **Yes**, the Scheduler will show all resources that have an added or edited appointment by you. To view only one resource at a time, ensure this setting is set to **No**. For more information on some the various settings, review the [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) documentation.
+In order to add or manage schedules and appointments in {{% system-name %}} , the proper security permissions must be provided. For instance, in order to create and manage resource schedules, the security role setting *Edit Schedules* must be set to **Yes**. Similarly, to add appointments, the *Add Appointments* setting must be **Yes**. If the My Settings preference of *Force Default Resources* is set to **Yes**, the Scheduler will show all resources that have an added or edited appointment by you. To view only one resource at a time, ensure this setting is set to **No**. For more information on some the various settings, review the [Security Role Settings](../../functions/system-administration/security/security-role-settings.html) documentation.
 
 Once schedules are configured, adding an appointment is as simple as navigating to the [Scheduler](https://system/?func=scheduler#Now), locating the necessary day on the proper resource's schedule, and clicking the appropriate time slot needed. This will automatically open the Wizard tab, which allows users to detail the scheduled appointment, as needed. When the Appointment Wizard opens, it will show the *Patient* section, where the user types in the last name of the patient, or searches by date of birth, medical record number, or social security number. If the **Add Appt** link is clicked from anywhere in a chart, the *Patient* field will automatically populate the name of the patient. To reduce alerts and ensure everything on the Scheduler works fluidly, the following areas may need additional configuration:
 
@@ -111,7 +111,7 @@ Creating schedules is quick and easy in {{% system-name %}} systems. After creat
 
 ### Appointment Types & Templates
 
-As part of the schedule setup, there is the ability to specify the types of appointments allowed on a particular schedule, or for a specific schedule resource. Appointment types are created and maintained from the tab, found in the Scheduler module. The {{% system-name %}} system has several default appointment types, as well as encounter types. To review these, simply navigate to the [Appt Types tab](https://system/?func=scheduler&s=apttypes). An appointment type can be configured to default to a specific encounter type, or they may be set up with an associated CPT code, pre-built print definitions, or additional details, as needed. For more information, review the [Appt Types Tab](../../general-functionality/scheduling/appt-types-tab.html) documentation.
+As part of the schedule setup, there is the ability to specify the types of appointments allowed on a particular schedule, or for a specific schedule resource. Appointment types are created and maintained from the tab, found in the Scheduler module. The {{% system-name %}} system has several default appointment types, as well as encounter types. To review these, simply navigate to the [Appt Types tab](https://system/?func=scheduler&s=apttypes). An appointment type can be configured to default to a specific encounter type, or they may be set up with an associated CPT code, pre-built print definitions, or additional details, as needed. For more information, review the [Appt Types Tab](../../functions/scheduling/appt-types-tab.html) documentation.
 
 Additionally, {{% system-name %}} allows the creation of appointment type templates. These templates allow schedules to be customized per scheduling resource needs. For example, Dr. John A. Doe may wish to see Office Visit Follow-Ups for a 15 minute duration, but Dr. Jane B. Doe would like to see the same appointment type for 30 minutes. Use an appointment type template to distinguish any specific differences needing to be represented on behalf of a specific scheduling resource.
 
@@ -146,7 +146,7 @@ If a client uses the Checkin module, it is suggested to always default the Defau
 
 Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print or fax job. Print definitions can be attached to any appointment type. This allows users to click one button and get a group of forms/documents for use, as it relates to the scheduled appointment.
 
-To print or fax a print definition from the Scheduler, simply click the *Print Chart* link from the patient's appointment. To dissociate print definitions from any appointment types, remove the print definition(s) from each of the associated appointment types, and submit the changes. Additional information can be found in the [Print Definitions](../../general-functionality/document-management/printing-and-print-definitions/print-definitions.html) documentation.
+To print or fax a print definition from the Scheduler, simply click the *Print Chart* link from the patient's appointment. To dissociate print definitions from any appointment types, remove the print definition(s) from each of the associated appointment types, and submit the changes. Additional information can be found in the [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.html) documentation.
 
 ### Cancellation Codes
 
@@ -158,13 +158,13 @@ There are a large number of system settings available for the Scheduler module. 
 
 ### Security Role Permissions
 
-In additional to system settings, it is important to review the security settings for each user or security role needing access to the scheduler functions. There is additional information available within the [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) online help documentation, if needed.
+In additional to system settings, it is important to review the security settings for each user or security role needing access to the scheduler functions. There is additional information available within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.html) online help documentation, if needed.
 
 ![](review-session-scheduler.images/image1.png)
 
 ### My Settings Preferences
 
-Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../general-functionality/system-administration/security/my-settings.html) online help documentation.
+Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../functions/system-administration/security/my-settings.html) online help documentation.
 
 ![](review-session-scheduler.images/image2.png)
 
@@ -172,15 +172,15 @@ Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Se
 
 ### Help Documentation
 
-* [Adding an Appt Using Wizard Tab](../../general-functionality/scheduling/adding-an-appointment-using-the-wizard-tab.html)
-* [Appt Types Tab](../../general-functionality/scheduling/appt-types-tab.html)
-* [Copy-Edit-Delete-Cancel-No Show Appointments](../../general-functionality/scheduling/cancel-no-show-edit-appointments.html)
-* [PAT-APT Wizard Tab](../../general-functionality/scheduling/pat-appt-wizard-tab.html)
-* [Required-Recommended Fields When Adding Appointments](../../general-functionality/scheduling/scheduler-inputs-editor-required-recommended-fields.html)
-* [Scheduler Views-List-Multi-Week](../../general-functionality/scheduling/scheduler-views.html)
-* [Schedules Tab](../../general-functionality/scheduling/schedules-tab.html)
-* [Waiting List Tab](../../general-functionality/scheduling/waiting-list-tab.html)
-* [Schedule Management](../../general-functionality/scheduling/schedule-management.html)
+* [Adding an Appt Using Wizard Tab](../../functions/scheduling/adding-an-appointment-using-the-wizard-tab.html)
+* [Appt Types Tab](../../functions/scheduling/appt-types-tab.html)
+* [Copy-Edit-Delete-Cancel-No Show Appointments](../../functions/scheduling/cancel-no-show-edit-appointments.html)
+* [PAT-APT Wizard Tab](../../functions/scheduling/pat-appt-wizard-tab.html)
+* [Required-Recommended Fields When Adding Appointments](../../functions/scheduling/scheduler-inputs-editor-required-recommended-fields.html)
+* [Scheduler Views-List-Multi-Week](../../functions/scheduling/scheduler-views.html)
+* [Schedules Tab](../../functions/scheduling/schedules-tab.html)
+* [Waiting List Tab](../../functions/scheduling/waiting-list-tab.html)
+* [Schedule Management](../../functions/scheduling/schedule-management.html)
 
 ### Training Videos
 

@@ -21,7 +21,7 @@ menu:
 
 
 
-Our clients have a lot going on. That's why we're here to help! [Learn how to enroll here!](../general-functionality/quality-of-care/quality-reporting-enrollment.html)
+Our clients have a lot going on. That's why we're here to help! [Learn how to enroll here!](../functions/quality-of-care/quality-reporting-enrollment.html)
 
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures, as seen below; designed for participation in the various incentive programs available, today. These measures have been developed to help with understanding and excelling at tracking and providing quality care data.
 

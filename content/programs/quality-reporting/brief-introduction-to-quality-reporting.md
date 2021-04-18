@@ -23,5 +23,5 @@ In addition to all of this, there are resources available from the [Agency for 
 * [Stage 3](https://www.cms.gov/Regulations-and-Guidance/Legislation/EHRIncentivePrograms/2018Stage3ProgramRequirementsEHCAH.html): Exclusive to eligible hospitals, critical access hospitals, and dual-eligible hospitals. Eligible professionals are directed to the Promoting Interoperability measures, found under MIPS.
 * [MIPS](https://qpp.cms.gov/mips/overview): Consists of measure sets for Cost, Quality, Promoting Interoperability (previously, Advancing Care Information), and Improvement Activities, not to mention those for varying specialties.
 
-{{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures for participation in the various incentive programs available. [Check them out](../../general-functionality/quality-of-care/measures.html)!
+{{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures for participation in the various incentive programs available. [Check them out](../../functions/quality-of-care/measures.html)!
 

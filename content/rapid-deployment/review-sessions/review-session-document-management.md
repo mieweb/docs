@@ -67,7 +67,7 @@ The Forms Library is a collection of different document types that are used thro
 
 Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print or fax job. Print definitions can be accessed from either the Scheduler module or any patient chart by clicking the **Print Chart** link. Users are then given the ability to select the desired print definition and set a date range and printing options, such as printing without headers and printing one document per page. In addition, users can not only print and fax, but can send the print definition as a secure email, or even create a batch so that the print definition can be printed or faxed at a later time.
 
-Additional information can be found in the [Print Definitions](../../general-functionality/document-management/printing-and-print-definitions/print-definitions.html) documentation.
+Additional information can be found in the [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.html) documentation.
 
 ## System Configuration
 
@@ -107,23 +107,23 @@ Review the preferences of security roles and individuals, and ensure document ac
 
 ### Help Documentation
 
-* [Scanning](../../general-functionality/document-management/scanning-and-indexing/scanning.html)
-* [Indexing](../../general-functionality/document-management/scanning-and-indexing/indexing.html)
-* [Search for Scanned Batches - WebScan](../../general-functionality/document-management/scanning-and-indexing/batch-search-in-webscan.html)
-* [AlternaTIFF ActiveX control for WebScan](../../general-functionality/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.html)
-* [E-Chart Scan Documents](../../general-functionality/document-management/documents-and-forms/e-chart-scan-documents.html)
-* [Text Documents](../../general-functionality/document-management/documents-and-forms/text-documents.html)
-* [Word Documents](../../general-functionality/document-management/documents-and-forms/word-documents.html)
-* [PDF Documents](../../general-functionality/document-management/documents-and-forms/pdf-documents.html)
-* [Picture-Photo Documents](../../general-functionality/document-management/documents-and-forms/picture-photo-documents.html)
-* [Sketch Documents](../../general-functionality/document-management/documents-and-forms/sketch-documents.html)
-* [Delete-Move-Lock Documents](../../general-functionality/document-management/documents-and-forms/delete-move-lock-documents.html)
-* [Form Documents](../../general-functionality/document-management/documents-and-forms/form-documents.html)
-* [Bubble Form-Audiogram](../../general-functionality/document-management/documents-and-forms/audiogram-data-entry.html)
-* [Bubble Form-Biometric](../../general-functionality/document-management/documents-and-forms/biometric-data-entry.html)
-* [Bubble Form-EKG](../../general-functionality/document-management/documents-and-forms/ekg-data-entry.html)
-* [Bubble Form-PFT](../../general-functionality/document-management/documents-and-forms/pft-data-entry.html)
-* [Bubble Form-Xray_Results](../../general-functionality/document-management/documents-and-forms/x-ray-results-data-entry.html)
-* [Bubble Sheets-Indexing](../../general-functionality/document-management/scanning-and-indexing/indexing-bubble-forms.html)
-* [Insurance Summary in Demographics Tab](../../general-functionality/e-chart/insurance-summary-in-demographics-tab.html)
-* [Print Definitions](../../general-functionality/document-management/printing-and-print-definitions/print-definitions.html)
+* [Scanning](../../functions/document-management/scanning-and-indexing/scanning.html)
+* [Indexing](../../functions/document-management/scanning-and-indexing/indexing.html)
+* [Search for Scanned Batches - WebScan](../../functions/document-management/scanning-and-indexing/batch-search-in-webscan.html)
+* [AlternaTIFF ActiveX control for WebScan](../../functions/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.html)
+* [E-Chart Scan Documents](../../functions/document-management/documents-and-forms/e-chart-scan-documents.html)
+* [Text Documents](../../functions/document-management/documents-and-forms/text-documents.html)
+* [Word Documents](../../functions/document-management/documents-and-forms/word-documents.html)
+* [PDF Documents](../../functions/document-management/documents-and-forms/pdf-documents.html)
+* [Picture-Photo Documents](../../functions/document-management/documents-and-forms/picture-photo-documents.html)
+* [Sketch Documents](../../functions/document-management/documents-and-forms/sketch-documents.html)
+* [Delete-Move-Lock Documents](../../functions/document-management/documents-and-forms/delete-move-lock-documents.html)
+* [Form Documents](../../functions/document-management/documents-and-forms/form-documents.html)
+* [Bubble Form-Audiogram](../../functions/document-management/documents-and-forms/audiogram-data-entry.html)
+* [Bubble Form-Biometric](../../functions/document-management/documents-and-forms/biometric-data-entry.html)
+* [Bubble Form-EKG](../../functions/document-management/documents-and-forms/ekg-data-entry.html)
+* [Bubble Form-PFT](../../functions/document-management/documents-and-forms/pft-data-entry.html)
+* [Bubble Form-Xray_Results](../../functions/document-management/documents-and-forms/x-ray-results-data-entry.html)
+* [Bubble Sheets-Indexing](../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.html)
+* [Insurance Summary in Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.html)
+* [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.html)

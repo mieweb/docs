@@ -1,9 +1,9 @@
 ---
 title: "_index"
-date: "2021-04-18T01:06:27.203Z"
+date: "2021-04-18T01:16:39.885Z"
 url: "_index.html"
 author: Doug Horner
-version: 453
+version: 459
 id: "1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 source: "https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 ---
@@ -29,9 +29,11 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 
 {{% system-name %}} offers various solutions for Enterprise Management of Health and Wellness. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
-
-
 <object type="image/svg+xml" data="diagrams/wc-positioning.svg"><img src="diagrams/wc-positioning.svg" /></object>
+
+
+
+<object type="image/svg+xml" data="diagrams/eh-positioning.svg"><img src="diagrams/eh-positioning.svg" /></object>
 
 {{% /only %}}
 
@@ -44,14 +46,14 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 
 
 
-<object type="image/svg+xml" data="diagrams/eh-positioning.svg"><img src="diagrams/eh-positioning.svg" /></object>
+![](https://lh6.googleusercontent.com/cbAYq3cbzLHmVtdYurUpdbroqPbw_k2OT0Ku87qHLgq3vknlRsw0UBysJ2tNMNHcJKGyLlxp7ZCopdnL1hmS8gXRnFJ3KNxg9r625lHjZkXZNsLeMTuBQ1lgoKTaOYMENRuq3W2MXyCse5JiZA)
 
 {{% /only %}}
 
 
 
 
-### [Functions](general-functionality.html)
+### [Functions](functions.html)
 
 See an overview and detailed documentation of all our solutions.
 

@@ -35,5 +35,5 @@ menu:
 
 
 
-* [Create Employees File for Import](../../general-functionality/system-administration/data-migration/create-employees-file-for-import.html)
+* [Create Employees File for Import](../../functions/system-administration/data-migration/create-employees-file-for-import.html)
 * [Chart Data Validation Test](https://docs.google.com/document/d/19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A)

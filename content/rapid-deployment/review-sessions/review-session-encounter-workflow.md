@@ -214,7 +214,7 @@ In addition to the various system settings, it is important to review the securi
 * <strong>Reopen Closed Encounters</strong>: Allows users to reopen closed encounters for editing or updating data captured within the encounter.
 * <strong>Remove Encounter Sections</strong>: Allows users to remove sections from dynamic encounters. Some sections can be locked within the encounter layout, meaning the section is to stay in the encounter and not be removed. For this reason, the permission level may be set to No, Any, or Any except locked.
 
-For more detail on user security role setting, see our [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) online help documentation.
+For more detail on user security role setting, see our [Security Role Settings](../../functions/system-administration/security/security-role-settings.html) online help documentation.
 
 ### My Settings Preferences
 
@@ -230,7 +230,7 @@ My Settings preferences also need considered when providing access to the Encoun
     * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
     * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
 
-Any additional details can be found in the [My Settings](../../general-functionality/system-administration/security/my-settings.html) online help documentation, if necessary.
+Any additional details can be found in the [My Settings](../../functions/system-administration/security/my-settings.html) online help documentation, if necessary.
 
 ## Reporting
 
@@ -240,28 +240,28 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 
 ### Help Documentation
 
-* [Encounters-Adding-Creating Encounters](../../general-functionality/encounters/creating-or-adding-encounters.html)
-* [Working in a Visit Encounter](../../general-functionality/encounters/working-in-a-visit-encounter.html)
-* [Working in a Legacy Encounter](../../general-functionality/encounters/working-in-a-legacy-encounter.html)
-* [Encounters-Archiving-Closing-ReArchiving](../../general-functionality/encounters/archiving-closing-re-archiving-encounters.html)
-* [Encounters-Closing Dictation](../../general-functionality/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.html)
-* [Encounters-Editing Dictation](../../general-functionality/encounters/dictation-and-transcription/editing-encounter-dictations.html)
-* [Encounters-Impression Section](../../general-functionality/encounters/encounters-impression-section.html)
-* [Encounters-Labs Results Section](../../general-functionality/encounters/encounters-labs-results-section.html)
-* [Encounters-Protocol Configuration-Programming](../../general-functionality/system-configuration/encounters-protocol-configuration-and-programming.html)
-* [Encounters-Protocols](../../general-functionality/encounters/encounter-protocols.html)
-* [Encounters-Transcribing Dictation](../../general-functionality/encounters/dictation-and-transcription/transcribing-dictation.html)
-* [Encounters-Worklist-Open Encounters](../../general-functionality/encounters/encounter-worklists.html)
-* [Encounters Plan Section-Make Order Feature](../../general-functionality/encounters/make-order-feature-encounter-plan-section.html)
-* [Encounters Plan Section-Meds](../../general-functionality/encounters/encounter-plan-section-medications.html)
-* [Encounters Tab-Search and ListView](../../general-functionality/encounters/encounters-tab-search-and-list-view.html)
-* [Link Documents to Encounters](../../general-functionality/document-management/documents-and-forms/link-documents-to-encounters.html)
-* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../general-functionality/encounters/tests-and-procedures-section-applying-adding-completing-resulting.html)
-* [Tests and Procedures-Edit-Delete-Remove](../../general-functionality/encounters/tests-and-procedures-section-remove-delete-edit.html)
-* [Due List-Dynamic Encounter](../../general-functionality/health-surveillance/due-list-in-a-dynamic-encounter.html)
-* [Encounter Report](../../general-functionality/reports/encounter-report.html)
-* [Encounters Open Exam Report](../../general-functionality/reports/open-encounters-report.html)
-* [Encounter-EM Calculator](../../general-functionality/encounters/e-m-calculator.html)
-* [Encounter-Summary Toolbar](../../general-functionality/encounters/encounter-summary-toolbar.html)
-* [Encounter Checkout Chart Tab](../../general-functionality/encounters/encounter-checkout-chart-tab.html)
+* [Encounters-Adding-Creating Encounters](../../functions/encounters/creating-or-adding-encounters.html)
+* [Working in a Visit Encounter](../../functions/encounters/working-in-a-visit-encounter.html)
+* [Working in a Legacy Encounter](../../functions/encounters/working-in-a-legacy-encounter.html)
+* [Encounters-Archiving-Closing-ReArchiving](../../functions/encounters/archiving-closing-re-archiving-encounters.html)
+* [Encounters-Closing Dictation](../../functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.html)
+* [Encounters-Editing Dictation](../../functions/encounters/dictation-and-transcription/editing-encounter-dictations.html)
+* [Encounters-Impression Section](../../functions/encounters/encounters-impression-section.html)
+* [Encounters-Labs Results Section](../../functions/encounters/encounters-labs-results-section.html)
+* [Encounters-Protocol Configuration-Programming](../../functions/system-configuration/encounters-protocol-configuration-and-programming.html)
+* [Encounters-Protocols](../../functions/encounters/encounter-protocols.html)
+* [Encounters-Transcribing Dictation](../../functions/encounters/dictation-and-transcription/transcribing-dictation.html)
+* [Encounters-Worklist-Open Encounters](../../functions/encounters/encounter-worklists.html)
+* [Encounters Plan Section-Make Order Feature](../../functions/encounters/make-order-feature-encounter-plan-section.html)
+* [Encounters Plan Section-Meds](../../functions/encounters/encounter-plan-section-medications.html)
+* [Encounters Tab-Search and ListView](../../functions/encounters/encounters-tab-search-and-list-view.html)
+* [Link Documents to Encounters](../../functions/document-management/documents-and-forms/link-documents-to-encounters.html)
+* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.html)
+* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.html)
+* [Due List-Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.html)
+* [Encounter Report](../../functions/reports/encounter-report.html)
+* [Encounters Open Exam Report](../../functions/reports/open-encounters-report.html)
+* [Encounter-EM Calculator](../../functions/encounters/e-m-calculator.html)
+* [Encounter-Summary Toolbar](../../functions/encounters/encounter-summary-toolbar.html)
+* [Encounter Checkout Chart Tab](../../functions/encounters/encounter-checkout-chart-tab.html)
 * [Scripted Rules](https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing)

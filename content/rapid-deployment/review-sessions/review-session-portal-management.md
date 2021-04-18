@@ -104,7 +104,7 @@ An order for the consent must be added to the Portal Consent picklist, with an a
 
 * <strong>Renewal interval</strong>: This determines the interval at which consent forms need completed. If no interval is provided, each form will only be required once. Setting the renewal interval to the shortest requirement is recommended.
 
-All other options are part of the standard configuration and are enabled by default. No additional changes are required in this section, unless more customizations are needed to suit the business needs. In these cases, users are welcome to review the [Patient Portal](../../general-functionality/portal-management/patient-portal-first-time-setup-and-configuration.html) online help documentation, for further details.
+All other options are part of the standard configuration and are enabled by default. No additional changes are required in this section, unless more customizations are needed to suit the business needs. In these cases, users are welcome to review the [Patient Portal](../../functions/portal-management/patient-portal-first-time-setup-and-configuration.html) online help documentation, for further details.
 
 ### Employee Portal
 
@@ -294,7 +294,7 @@ The applicant portal is a web-based platform available for screening new employe
 
 This portal is configured so that candidates can be directed to the portal to complete forms and/or questionnaires, according to the hiring and pre-employment needs of the business. Candidates simply need to begin the portal session by entering their first and last name. Once the applicant has completed the forms/questionnaires, all of the information is submitted to the employer electronically. From here, a login-disabled user account will be drafted and linked to the pre-configured Applicant department, so if hired, the information can be easily merged into the employee user account.
 
-![](https://lh5.googleusercontent.com/hTfgFuGUCpM301o_CxKQWu5ctsM3BrVssOoh2IBQlja-UAbWgFVVY3dRj3S7JmupytgX3F-GBiBIr1WQggiClJB8o5rlt1UmM8sCkVEwV0dVA4gRX1Z9MH26iOhn0ahFd1Qb43YfZt4nf5DL2A)
+![](https://lh3.googleusercontent.com/FDwq-omDeKnPNswGAtuSKyWD24MlYNJeb-2cRx1QW2AqVyzw8brK95k8mdTpld_aFjeofOMjHig1b3PhKrKkZ8VlAd7DbnTVFNnKcozeA2MZfOEE-cuQGRX6Eh31Rk8xwfM6JZ6xiGml7RLndg)
 
 #### System Configuration and Setup
 
@@ -320,7 +320,7 @@ In {{% system-name %}} systems, workflows *use charts* for every patient, as wel
 
 ### Help Documentation
 
-* [Linking Users for Portal Access](../../general-functionality/portal-management/linking-users-for-portal-access.html)
-* [Patient Portal Setup](../../general-functionality/portal-management/patient-portal-first-time-setup-and-configuration.html)
-* [Employer Portal Setup](../../general-functionality/portal-management/employer-portal-setup.html)
-* [Employer-Employee Second Portal Setup](../../general-functionality/portal-management/employer-employee-second-portal-setup.html)
+* [Linking Users for Portal Access](../../functions/portal-management/linking-users-for-portal-access.html)
+* [Patient Portal Setup](../../functions/portal-management/patient-portal-first-time-setup-and-configuration.html)
+* [Employer Portal Setup](../../functions/portal-management/employer-portal-setup.html)
+* [Employer-Employee Second Portal Setup](../../functions/portal-management/employer-employee-second-portal-setup.html)

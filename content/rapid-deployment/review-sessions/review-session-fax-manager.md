@@ -98,13 +98,13 @@ Users may also preview the coversheet and all pages of the fax by clicking the *
 
 ### Fax Manager
 
-The [Fax Manager](https://system/?f=admin&t=faxman) provides a dashboard for users with the proper security permissions to view and manage fax transmissions. For instance, users with the *View Outgoing Faxes* security setting set to **All Users** will be able to view all outbound faxes, along with their statuses and intended destinations, among other things. For more information on viewing and managing faxes, see the [Fax Manager Tab](../../general-functionality/fax-manager/fax-manager-tab-outbound-faxing.html) help documentation.
+The [Fax Manager](https://system/?f=admin&t=faxman) provides a dashboard for users with the proper security permissions to view and manage fax transmissions. For instance, users with the *View Outgoing Faxes* security setting set to **All Users** will be able to view all outbound faxes, along with their statuses and intended destinations, among other things. For more information on viewing and managing faxes, see the [Fax Manager Tab](../../functions/fax-manager/fax-manager-tab-outbound-faxing.html) help documentation.
 
 ### System-Delivered Email Notifications
 
 {{% system-name %}} has a feature that will notify users of successful or failed fax transmissions. This feature is enabled, by default; however users must have a valid email address provided in their user account in order to receive any email notifications.
 
-![](https://lh6.googleusercontent.com/zoxUZlGTBMZdxEZDi32nwPo2iJW7uPAEr3JUlEV3aw_QuFXMmpAlva0SOhxkuR69Lo7BJlwvBcXDOlI04VPqjcjED9HXZOnOLg39UeHy-YdyUYY4iMXGkf-s1-jarJpd_Kp2R52r1Hs3THjLAg)
+![](https://lh3.googleusercontent.com/qnFZIs-WcblohVcReTIdN1mpYAJWZlyafwnuF2dJMxTdK2l6DUI3X2Bp0AzzKI3u1QD48zIi3N4N0YwsPl3q8hGylx_Cd6Dfusx9mViRrLByw8O3144QYmwGg7kFitAOhttEwqumDQhBapE5xw)
 
 The *Friendly e-mail to user upon successful fax* system setting is user-specific, meaning the user sending the fax will be the recipient of the system-delivered email notification. Though the Fax Manager is always available for viewing failed and successful faxes, all email notifications send immediately, upon completion or failure.
 
@@ -137,16 +137,16 @@ Depending on the security permissions granted, specific users can have the abili
 * Remember Last Faxed
 * Send Fax Notifications
 
-For more information, see the [My Settings](../../general-functionality/system-administration/security/my-settings.html) help documentation.
+For more information, see the [My Settings](../../functions/system-administration/security/my-settings.html) help documentation.
 
 ## Resources
 
 ### Help Documentation
 
-* [Batched Documents-Printing or Faxing or Burning](../../general-functionality/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.html)
-* [Email Notification of Sent or Failed Faxes](../../general-functionality/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.html)
-* [Fax Manager Tab](../../general-functionality/fax-manager/fax-manager-tab-outbound-faxing.html)
-* [Faxing Documents](../../general-functionality/fax-manager/faxing-documents.html)
+* [Batched Documents-Printing or Faxing or Burning](../../functions/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.html)
+* [Email Notification of Sent or Failed Faxes](../../functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.html)
+* [Fax Manager Tab](../../functions/fax-manager/fax-manager-tab-outbound-faxing.html)
+* [Faxing Documents](../../functions/fax-manager/faxing-documents.html)
 
 ### Training Videos
 
