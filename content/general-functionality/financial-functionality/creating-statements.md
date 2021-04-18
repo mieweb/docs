@@ -1,11 +1,11 @@
 ---
 title: "Creating Statements"
-date: 2021-02-18T16:19:45.481Z
+date: "2021-02-18T16:19:45.481Z"
 url: "general-functionality/financial-functionality/creating-statements.html"
-author: Edward Grzetich
+author: egrzetich
 version: 17
-id: 1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98
-source: https://drive.google.com/open?id=1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98
+id: "1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98"
+source: "https://drive.google.com/open?id=1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98"
 ---
 Before creating statements, [close and post transactions](closing-and-posting-transactions.html).
 

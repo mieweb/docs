@@ -1,11 +1,11 @@
 ---
 title: "Fee  schedules"
-date: 2021-02-17T19:43:08.754Z
+date: "2021-02-17T19:43:08.754Z"
 url: "general-functionality/financial-functionality/fee-schedules.html"
 author: Adam Humes
 version: 9
-id: 1sSy0HOZEuSlpQCX9UsAovxKI3N28tC7H6jI8xqIHfHE
-source: https://drive.google.com/open?id=1sSy0HOZEuSlpQCX9UsAovxKI3N28tC7H6jI8xqIHfHE
+id: "1sSy0HOZEuSlpQCX9UsAovxKI3N28tC7H6jI8xqIHfHE"
+source: "https://drive.google.com/open?id=1sSy0HOZEuSlpQCX9UsAovxKI3N28tC7H6jI8xqIHfHE"
 ---
 Use fee schedules to set costs and prices for orders. Each fee schedule must be associated with a cost account and a revenue account already established in the system. Fee schedules have beginning dates and end dates during which they may be used in the system. The time between these dates is the effective period. Before and after the effective period, the fee schedule cannot be used. When practical, the begin dates and end dates of fee schedules can be set so that the effective period essentially never ends.
 

@@ -1,16 +1,16 @@
 ---
 title: "Videos & Demonstrations"
-date: 2020-09-11T17:12:21.021Z
+date: "2021-04-09T10:46:40.622Z"
 url: "videos-and-demonstrations.html"
-author: Will Reiske
-version: 370
-id: 1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk
-source: https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk
+author: Grzegorz Godlewski
+version: 396
+id: "1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk"
+source: "https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk"
 menu:
     main:
         name: "Videos & Demonstrations"
         identifier: "1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk"
-        weight: 6790
+        weight: 6760
 ---
 All {{% system-name %}} training videos and demonstrations can be found below. Peruse the various overviews, and spend some time with the in-depth looks at the available functionality within the product, or even get acquainted with some of the more common workflows used. 
 
@@ -56,7 +56,7 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% column %}}
 
-![](external_files/1eea34683f3c4d2fa152b6abfaf8780b.png)
+![](videos-and-demonstrations.images/image1.png)
 
 {{% /column %}}
 

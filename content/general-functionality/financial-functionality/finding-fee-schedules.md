@@ -1,11 +1,11 @@
 ---
 title: "Finding fee schedules"
-date: 2021-02-17T19:43:17.825Z
+date: "2021-02-17T19:43:17.825Z"
 url: "general-functionality/financial-functionality/finding-fee-schedules.html"
 author: Adam Humes
 version: 18
-id: 1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s
-source: https://drive.google.com/open?id=1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s
+id: "1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s"
+source: "https://drive.google.com/open?id=1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s"
 ---
 Note that the system treats the dates specified in the *Begin Date* and *End Date* fields as inclusive of the effective periods of fee schedules. 
 
@@ -13,7 +13,7 @@ For example, if there is a fee schedule effective from the first day of this mon
 
 * Select the side menu. The side menu appears.
 * Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens. 
-* From the <em>Module</em> list, select <strong>Fee Schedule</strong>. The <em>Fee Schedules</em> page appears.![](../../external_files/3da450f12f068513ccdeb7f7c438a3f7.png)
+* From the <em>Module</em> list, select <strong>Fee Schedule</strong>. The <em>Fee Schedules</em> page appears.![](finding-fee-schedules.images/image1.png)
 * To search for fee schedules by name, in the <strong>Fee Schedule</strong> field, type some or all of the name. The system displays matching fee schedule names. Select the appropriate fee schedule name. To remove the fee schedule name, select the <strong>minus button</strong> next to it.
 * To search for fee schedules by a begin date, do one:
     * Type the day, month, and year of the beginning date to search.

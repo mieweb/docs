@@ -1,16 +1,16 @@
 ---
 title: "Fee Schedule Import Tool"
-date: 2020-02-27T20:46:06.612Z
+date: "2020-02-27T20:46:06.612Z"
 url: "general-functionality/system-administration/data-migration/fee-schedule-import-tool.html"
-version: 12
-id: 1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0
-source: https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0
+version: 13
+id: "1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0"
+source: "https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0"
 menu:
     main:
         name: "Fee Schedule Import Tool"
         identifier: "1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5030
+        weight: 5010
 ---
 This wiki page is to document how fee schedule data needs to be constructed in order to import using WebChart's Fee Schedule Import Tool.
 

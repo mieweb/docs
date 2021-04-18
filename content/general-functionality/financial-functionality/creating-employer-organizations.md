@@ -1,11 +1,11 @@
 ---
 title: "Creating employer organizations"
-date: 2021-02-18T16:07:46.271Z
+date: "2021-02-18T16:07:46.271Z"
 url: "general-functionality/financial-functionality/creating-employer-organizations.html"
-author: Edward Grzetich
+author: egrzetich
 version: 13
-id: 1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ
-source: https://drive.google.com/open?id=1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ
+id: "1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ"
+source: "https://drive.google.com/open?id=1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ"
 ---
 An employer organization to be added as a sub-employer organization must already be in the system and an employer organization. If it is not, first create the employer organization that will be subordinate or [change an organization to an employer organization](changing-organizations-to-employer-organizations.html).
 

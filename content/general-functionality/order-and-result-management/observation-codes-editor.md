@@ -1,16 +1,16 @@
 ---
 title: "Observation Codes Editor"
-date: 2020-03-13T20:07:29.409Z
+date: "2020-03-13T20:07:29.409Z"
 url: "general-functionality/order-and-result-management/observation-codes-editor.html"
-version: 48
-id: 1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU
-source: https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU
+version: 49
+id: "1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
+source: "https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
 menu:
     main:
         name: "Observation Codes Editor"
         identifier: "1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
         parent: "103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
-        weight: 1970
+        weight: 1950
 ---
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
 
@@ -62,7 +62,7 @@ As noted, when users navigate to the , the page loads a summary list view of all
 
 
 
-![](../../external_files/4fd5130c00acea1455a4ecbc75481ded.png)
+![](observation-codes-editor.images/image1.png)
 
 
 
@@ -70,7 +70,7 @@ Viewing an observation code will provide additional details, such as HL7 Transla
 
 
 
-![](../../external_files/2f4efc18db84062bb0f358a68650f057.png)
+![](observation-codes-editor.images/image2.png)
 
 
 
@@ -78,7 +78,7 @@ The number of times the respective observation code has been used within charts 
 
 
 
-![](../../external_files/36b26bbb1940eaeddea4d530e119a229.png)
+![](observation-codes-editor.images/image3.png)
 
 
 
@@ -86,7 +86,7 @@ The Observation Count value is a hyperlink. When clicked, a detailed list of all
 
 
 
-![](../../external_files/dbc6e32ed8190b3078541cdef0f74342.png)
+![](observation-codes-editor.images/image4.png)
 
 
 
@@ -96,7 +96,7 @@ To edit an existing observation code, users with the necessary security permissi
 
 
 
-![](../../external_files/c75cd013d88b5bf5bf0b91a1b33738d1.png)
+![](observation-codes-editor.images/image5.png)
 
 
 
@@ -112,7 +112,7 @@ To delete an existing observation code, simply click the **Delete** link from th
 
 
 
-![](../../external_files/145c53f5ab70c2e6d12661bf54a1aad1.png)
+![](observation-codes-editor.images/image6.png)
 
 ### Merge
 
@@ -124,7 +124,7 @@ To merge an observation code, locate the observation being removed and click the
 
 
 
-![](../../external_files/8328b4a67117379ba27f6da262a21c1c.png)
+![](observation-codes-editor.images/image7.png)
 
 
 
@@ -132,7 +132,7 @@ When the Observation Code Merge page loads, **Enter Observation Code** will be t
 
 
 
-![](../../external_files/e537aa958565aeb8514d3bbf33161d4f.png)
+![](observation-codes-editor.images/image8.png)
 
 
 
@@ -149,7 +149,7 @@ After continuing, users will be prompted with a verification page. Before the Me
 
 
 
-![](../../external_files/50d4b10cc9f6c5d80e9d317acde97169.png)
+![](observation-codes-editor.images/image9.png)
 
 
 

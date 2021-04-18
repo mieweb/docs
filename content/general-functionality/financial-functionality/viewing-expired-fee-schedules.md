@@ -1,11 +1,11 @@
 ---
 title: "Viewing expired fee schedules"
-date: 2021-02-18T19:09:23.465Z
+date: "2021-02-18T19:09:23.465Z"
 url: "general-functionality/financial-functionality/viewing-expired-fee-schedules.html"
-author: Edward Grzetich
+author: egrzetich
 version: 17
-id: 13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8
-source: https://drive.google.com/open?id=13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8
+id: "13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8"
+source: "https://drive.google.com/open?id=13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8"
 ---
 By default, the system displays fee schedules that expire within 90 days from the current date. Therefore, when initially viewing expired fee schedules, a fee schedule currently in effect may appear.
 

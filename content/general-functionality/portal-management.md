@@ -1,17 +1,17 @@
 ---
 title: "Portal Management"
-date: 2020-02-27T21:26:54.695Z
+date: "2020-02-27T21:26:54.695Z"
 url: "general-functionality/portal-management.html"
 author: aquandt
-version: 23
-id: 1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94
-source: https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94
+version: 24
+id: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
+source: "https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
 menu:
     main:
         name: "Portal Management"
         identifier: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
         parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
-        weight: 1200
+        weight: 1180
 ---
 
 

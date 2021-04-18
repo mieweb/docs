@@ -1,17 +1,17 @@
 ---
 title: "Adding MSEA Case"
-date: 2020-03-09T23:04:49.437Z
+date: "2020-03-09T23:04:49.437Z"
 url: "general-functionality/injury-care/case-management/adding-msea-case.html"
 author: aquandt
-version: 29
-id: 1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI
-source: https://drive.google.com/open?id=1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI
+version: 30
+id: "1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI"
+source: "https://drive.google.com/open?id=1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI"
 menu:
     main:
         name: "Adding MSEA Case"
         identifier: "1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1650
+        weight: 1630
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -42,7 +42,7 @@ By default, the Case section of encounters will display the following case types
 
 
 
-![](../../../external_files/6ccfbe4f62807d9faf9d912003b0db88.png)
+![](adding-msea-case.images/image1.png)
 
 
 
@@ -50,7 +50,7 @@ If you wish to document a new case, click the header or **Edit** (Pencil) icon
 
 
 
-![](../../../external_files/c631c6f901de2cf799e051474497cbb2.png)
+![](adding-msea-case.images/image2.png)
 
 
 
@@ -58,7 +58,7 @@ Once the **Case** section is expanded, indicate which type of case to create o
 
 
 
-![](../../../external_files/b97885987917d15612e7c64b9ed77341.png)
+![](adding-msea-case.images/image3.png)
 
 ## MSEA Case Details
 
@@ -66,7 +66,7 @@ After selecting to create a MSEA case type, the only field that expands is the 
 
 
 
-![](../../../external_files/dc8818b6c4c342390a0f2d6d9aee99e0.png)
+![](adding-msea-case.images/image4.png)
 
 
 

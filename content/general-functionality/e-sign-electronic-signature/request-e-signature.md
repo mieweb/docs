@@ -1,17 +1,17 @@
 ---
 title: "Request E-Signature"
-date: 2020-03-10T14:26:13.228Z
+date: "2020-03-10T14:26:13.228Z"
 url: "general-functionality/e-sign-electronic-signature/request-e-signature.html"
 author: aquandt
-version: 45
-id: 1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c
-source: https://drive.google.com/open?id=1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c
+version: 46
+id: "1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c"
+source: "https://drive.google.com/open?id=1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c"
 menu:
     main:
         name: "Request E-Signature"
         identifier: "1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c"
         parent: "1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854"
-        weight: 2410
+        weight: 2390
 ---
 E-Sign is used to electronically mark a document by putting the label "Signed by: Michael Example, MD" on a document in {{% system-name %}} within a chart.  This ‘signature label' is called an E-sign (electronic signature).  It's not a wet signature in handwriting, but it is a place in the document properties header that says "Signed by: Michael Example, MD".   It puts the name of the person that reviewed the document and marked it as ‘sign'.
 
@@ -25,7 +25,7 @@ The document header will appear above the document and at the right side in the 
 
 
 
-![](../../external_files/6d08453a62dcc3b882634eef69e286c9.png)
+![](request-e-signature.images/image1.png)
 
 
 
@@ -33,7 +33,7 @@ The screen will display the request signature fields for the user to select whom
 
 
 
-![](../../external_files/816b02b51b685d351fbc7af4dd3517fa.png)
+![](request-e-signature.images/image2.png)
 
 
 
@@ -41,7 +41,7 @@ To assign the esign request to whom should sign the document, use the drop-down 
 
 
 
-![](../../external_files/df8cb3ee72aaed892236aaaf74c001b7.png)
+![](request-e-signature.images/image3.png)
 
 
 
@@ -49,7 +49,7 @@ If the person whom you wish to request a signature from is not in that drop-down
 
 
 
-![](../../external_files/3779110549662b1e97bd55b4709090f5.png)
+![](request-e-signature.images/image4.png)
 
 
 
@@ -63,7 +63,7 @@ A message will display that a signature has been requested for that document id.
 
 
 
-![](../../external_files/db1db0abd6e68eee16fcc46930f7ea62.png)
+![](request-e-signature.images/image5.png)
 
 
 
@@ -71,7 +71,7 @@ By clicking on the Properties link on the document will display who the esign re
 
 
 
-![](../../external_files/b65c04a7eccf1121a46a422b307e4db0.png)
+![](request-e-signature.images/image6.png)
 
 
 
@@ -79,7 +79,7 @@ When a signature is requested, {{% system-name %}} stores ‘who' requested it i
 
 
 
-![](../../external_files/021f09bb3fd1e1689b1219c3d0a777be.png)
+![](request-e-signature.images/image7.png)
 
 
 
@@ -96,7 +96,7 @@ Once the document has been esigned by the specified person, the Preliminary gets
 
 
 
-![](../../external_files/e98b60fd072d43ee48572bd1ea953576.png)
+![](request-e-signature.images/image8.png)
 
 
 

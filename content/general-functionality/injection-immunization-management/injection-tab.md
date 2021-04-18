@@ -1,16 +1,16 @@
 ---
 title: "Injection Tab"
-date: 2020-03-16T14:30:50.543Z
+date: "2020-03-16T14:30:50.543Z"
 url: "general-functionality/injection-immunization-management/injection-tab.html"
-version: 69
-id: 1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk
-source: https://drive.google.com/open?id=1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk
+version: 70
+id: "1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk"
+source: "https://drive.google.com/open?id=1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk"
 menu:
     main:
         name: "Injection Tab"
         identifier: "1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk"
         parent: "1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA"
-        weight: 2280
+        weight: 2260
 ---
 ## View Injections/Immunizations
 
@@ -26,7 +26,7 @@ In these categories will be listed (if any) records of immunizations, oral immun
 
 
 
-![](../../external_files/490423471df6074a5a9e6277e01bd420.png)
+![](injection-tab.images/image1.png)
 
 
 
@@ -34,7 +34,7 @@ To view any deleted immunizations or deleted other injections or vials for the s
 
 
 
-![](../../external_files/24a14a7a175cd36f1114098b744c5abf.png)
+![](injection-tab.images/image2.png)
 
 
 
@@ -42,7 +42,7 @@ It will then show and list the deleted for all categories.  A deleted injection
 
 
 
-![](../../external_files/70c965668e7cf440febd919b40512a4d.png)
+![](injection-tab.images/image3.png)
 
 
 
@@ -54,7 +54,7 @@ If your system is interfaced bi-directionally with an injection program example:
 
 
 
-![](../../external_files/189344b9094c0375c71e5205ece11ae9.png)
+![](injection-tab.images/image4.png)
 
 
 
@@ -70,7 +70,7 @@ From the injections tab, click Add Inj/Imm at the top right of the injection scr
 
 
 
-![](../../external_files/736468051901d7a16fe673af7c93cebc.png)
+![](injection-tab.images/image5.png)
 
 
 
@@ -78,7 +78,7 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 
 
 
-![](../../external_files/2e6d66ff3bc17462a805767d500ffc83.png)
+![](injection-tab.images/image6.png)
 
 
 
@@ -93,7 +93,7 @@ You can only free-type in an injection name if your system has a setting turned 
 
 
 
-![](../../external_files/e0ba190849cbeb8d20f17bdfbce7039f.png)
+![](injection-tab.images/image7.png)
 
 
 
@@ -103,7 +103,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 
 
-![](../../external_files/8713027b81462262571f86f1b5b62d00.png)![](../../external_files/4ba9f5177a38ca3f986e87d4fc55a0f6.png)
+![](injection-tab.images/image8.png)![](injection-tab.images/image9.png)
 
 
 
@@ -112,7 +112,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 
 
-![](../../external_files/621662e7aa979409f0cf673aae153434.png)
+![](injection-tab.images/image10.png)
 
 
 
@@ -133,7 +133,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 
 
-![](../../external_files/0578c333e11bb76a6f0a9db495010159.png)
+![](injection-tab.images/image11.png)
 
 
 
@@ -145,7 +145,7 @@ The following fields can be entered when editing an injection or now when you ar
 
 
 
-![](../../external_files/60fd84e62b87b8d02f78c606e1aa0e34.png)
+![](injection-tab.images/image12.png)
 
 
 
@@ -157,7 +157,7 @@ Injections entry screens and display lists (ex: print definition sections for in
 
 
 
-![](../../external_files/07f7648e229d6e9b3ee6e1cbe8329023.png)
+![](injection-tab.images/image13.png)
 
 
 
@@ -167,7 +167,7 @@ If enabled, these fields will display for data entry on an injection record:
 
 
 
-![](../../external_files/f83f25dbaa408868d2c6aaee52ae479a.png)
+![](injection-tab.images/image14.png)
 
 
 
@@ -190,7 +190,7 @@ There are system settings where MIE can configure additional fields in the add i
 
 
 
-![](../../external_files/0489051d1490aa105ed6d1791f3ba3e4.png)
+![](injection-tab.images/image15.png)
 
 
 
@@ -198,7 +198,7 @@ Any extra fields that are not already required can be programmed to the system s
 
 
 
-![](../../external_files/6c387b99c0caf303b273081da1fb1251.png)
+![](injection-tab.images/image16.png)
 
 
 
@@ -208,7 +208,7 @@ Many clients hand the patient a Vaccine Information Handout (VIS) when the patie
 
 
 
-![](../../external_files/1f8a203c4b3813bb5d77d425f5888ffb.png)
+![](injection-tab.images/image17.png)
 
 
 
@@ -216,7 +216,7 @@ Once you click on the link VIS Handouts, it will open the VIS Handout fields for
 
 
 
-![](../../external_files/0450807a261d91a09d288f2d33bb39c8.png)
+![](injection-tab.images/image18.png)
 
 
 
@@ -228,7 +228,7 @@ The VIS Website link can be set up by your MIE Implementer.  You do not have to
 
 
 
-![](../../external_files/52d0dcee6f912eb31b2811603707cdcc.png)
+![](injection-tab.images/image19.png)
 
 
 
@@ -236,7 +236,7 @@ When you click the VIS Website link found available in the VIS Handouts section,
 
 
 
-![](../../external_files/2a6738caf054b4af76bbaa2a782a8c4d.png)
+![](injection-tab.images/image20.png)
 
 
 
@@ -248,7 +248,7 @@ You must click the ADD BUTTON to insert more than one VIS Handout to the injecti
 
 
 
-![](../../external_files/ab6634abe2b36a874ca9e199fd2bec71.png)
+![](injection-tab.images/image21.png)
 
 
 
@@ -258,7 +258,7 @@ It also gives a confirmation towards the top that says Successfully added inject
 
 
 
-![](../../external_files/ec9788aad0d5a1faab0e0fb66fca7825.png)
+![](injection-tab.images/image22.png)
 
 
 
@@ -266,7 +266,7 @@ In the injection/immunization listing, you will see in the comments/reaction col
 
 
 
-![](../../external_files/092ac33e55d9e1bdb877f681555cea6d.png)
+![](injection-tab.images/image23.png)
 
 
 
@@ -278,7 +278,7 @@ Click Quick Add at the top right of the injection screen to add multiple injecti
 
 
 
-![](../../external_files/8d68d67c0e12ef6dac6d68814eb49406.png)
+![](injection-tab.images/image24.png)
 
 
 
@@ -311,7 +311,7 @@ It also gives a confirmation towards the top that says Successfully added # inje
 
 
 
-![](../../external_files/2b2364f6544e326be6c12dd2f5d632d0.png)
+![](injection-tab.images/image25.png)
 
 
 
@@ -327,7 +327,7 @@ Injection/Immunization List is the complete, active summary list of injection / 
 
 
 
-![](../../external_files/bacea5fc80bd838ff51af377ecfea4a4.png)
+![](injection-tab.images/image26.png)
 
 
 
@@ -335,7 +335,7 @@ By default the screen lists 20 at a time in each section. There is a system sett
 
 
 
-![](../../external_files/2f4f681c090cde9a061c8706e5773f57.png)
+![](injection-tab.images/image27.png)
 
 
 
@@ -347,7 +347,7 @@ Some examples of system settings that can control the auto-complete or choices f
 
 
 
-![](../../external_files/3673540146f1beddae4b55dfbf7e1dd5.png)
+![](injection-tab.images/image28.png)
 
 
 
@@ -355,7 +355,7 @@ Another quick way to access these system settings and in a more user-friendly fo
 
 
 
-![](../../external_files/74f587a85615aaa9462a57e3090202f2.png)
+![](injection-tab.images/image29.png)
 
 
 
@@ -363,7 +363,7 @@ Then go to that window and click in the url at the top.  Click the "end" key on
 
 
 
-![](../../external_files/c68df289a1bda58c966be4c30d80d480.png)
+![](injection-tab.images/image30.png)
 
 
 
@@ -371,7 +371,7 @@ You will see this screen:
 
 
 
-![](../../external_files/a120018697e8864e7967e003d249389b.png)
+![](injection-tab.images/image31.png)
 
 
 

@@ -1,17 +1,17 @@
 ---
 title: "Lab Result CSV API"
-date: 2020-02-27T21:28:38.594Z
+date: "2020-02-27T21:28:38.594Z"
 url: "general-functionality/system-administration/data-migration/lab-result-csv-api.html"
 author: aquandt
-version: 26
-id: 1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk
-source: https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk
+version: 27
+id: "1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk"
+source: "https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk"
 menu:
     main:
         name: "Lab Result CSV API"
         identifier: "1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5180
+        weight: 5160
 ---
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 
@@ -27,7 +27,7 @@ Lab results are stored in a chart as a document. A **document** in an EH syste
 
 All lab results are stored both as discrete data. Discrete data can be displayed in EH as a **flowsheet,**or collection of results.
 
-![](../../../external_files/b08b4410a4537d38158a0c224bce31bf.png)
+![](lab-result-csv-api.images/image1.png)
 
 ## Specifications
 

@@ -1,16 +1,16 @@
 ---
 title: "Adding Non-OSHA Case"
-date: 2020-03-13T13:16:54.123Z
+date: "2020-03-13T13:16:54.123Z"
 url: "general-functionality/injury-care/case-management/adding-non-osha-case.html"
-version: 42
-id: 1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs
-source: https://drive.google.com/open?id=1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs
+version: 44
+id: "1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs"
+source: "https://drive.google.com/open?id=1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs"
 menu:
     main:
         name: "Adding Non-OSHA Case"
         identifier: "1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1660
+        weight: 1640
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -36,7 +36,7 @@ By default, the Case section in encounters will display the following case types
 
 
 
-![](../../../external_files/51626a4c9ffffd6d802e13401e90df89.png)
+![](adding-non-osha-case.images/image1.png)
 
 
 
@@ -44,7 +44,7 @@ If you wish to document a new case, expand to open the Case section in the dynam
 
 
 
-![](../../../external_files/c631c6f901de2cf799e051474497cbb2.png)
+![](adding-non-osha-case.images/image2.png)
 
 
 
@@ -52,7 +52,7 @@ Once the Case section is expanded, indicate which type of case to create on the 
 
 
 
-![](../../../external_files/5e65f56b9984b1c604cbc0b4e2b32a15.png)
+![](adding-non-osha-case.images/image3.png)
 
 
 
@@ -66,7 +66,7 @@ Upon documenting the radio button selection, the case section will branch open t
 
 
 
-![](../../../external_files/4f831b73faa9d1f12f7b30385dba1ada.png)
+![](adding-non-osha-case.images/image4.png)
 
 
 
@@ -76,7 +76,7 @@ The return to work (RTW) dates may be entered now or in later during the case ma
 
 
 
-![](../../../external_files/97288e05060a01ba0dd05f4cbef193e3.png)
+![](adding-non-osha-case.images/image5.png)
 
 ### Location
 
@@ -84,7 +84,7 @@ The location section displays to document where the injury occurred specifically
 
 
 
-![](../../../external_files/5f77cf7ceb8a553fea4002362aa0b7c9.png)
+![](adding-non-osha-case.images/image6.png)
 
 
 
@@ -92,7 +92,7 @@ If selecting Offsite Location, then the fields that branch open are required fre
 
 
 
-![](../../../external_files/71d82f49f09eb1794687b8404b10410c.png)
+![](adding-non-osha-case.images/image7.png)
 
 
 
@@ -102,7 +102,7 @@ In the incident details section is where answers to 3 required questions on how 
 
 
 
-![](../../../external_files/8a40de6e08e839c9d2deff8c76b09593.png)
+![](adding-non-osha-case.images/image8.png)
 
 
 
@@ -114,7 +114,7 @@ Here you can document the nature of injury or illness using a drop-down selectio
 
 
 
-![](../../../external_files/5017f051bd635adf8de050f0493573ad.png)
+![](adding-non-osha-case.images/image9.png)
 
 
 
@@ -125,7 +125,7 @@ Selecting Contaminated Sharp as the nature of injury will expand 3 additional fi
 {{% /info %}}
 
 
-![](../../../external_files/0a34d8f8b3a47c965c1123360e2219f6.png)
+![](adding-non-osha-case.images/image10.png)
 
 ### Work Status (or Lost Time) Section
 
@@ -141,7 +141,7 @@ Some dynamic encounters offer an Incident Summary section.  This is an expand
 
 
 
-![](../../../external_files/2e3193207c0d0a833ff0bb26a1759cd3.png)
+![](adding-non-osha-case.images/image11.png)
 
 
 

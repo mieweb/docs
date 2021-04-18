@@ -1,16 +1,16 @@
 ---
 title: "Editing Restriction Types"
-date: 2020-03-30T16:34:03.981Z
+date: "2020-03-30T16:34:03.981Z"
 url: "general-functionality/injury-care/editing-restriction-types.html"
-version: 63
-id: 1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE
-source: https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE
+version: 64
+id: "1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE"
+source: "https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE"
 menu:
     main:
         name: "Editing Restriction Types"
         identifier: "1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE"
         parent: "111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY"
-        weight: 1730
+        weight: 1710
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related) when working in charts. Personnel may initiate an encounter to document and authorize work restrictions. The types of clinical restrictions choices available for staff to document, when working in charts, is customizable for the {{% system-name %}} system.
 
@@ -18,7 +18,7 @@ From the Control sidemenu tab, find and click the Restrictions Type tab.  A lis
 
 
 
-![](../../external_files/5bfbd7cb1410f8d3007f265e89f20039.png)
+![](editing-restriction-types.images/image1.png)
 
 
 
@@ -35,7 +35,7 @@ Restriction Types can be added to the system for users to be able to select and 
 
 
 
-![](../../external_files/6a43a4daa5380f408eb7f9f1e2371124.png)
+![](editing-restriction-types.images/image2.png)
 
 
 
@@ -43,7 +43,7 @@ The Add Clinical Restriction Type fields will display towards the top of the lis
 
 
 
-![](../../external_files/07c86bd72c5d7e0d4fe259b5c8d0c5b9.png)
+![](editing-restriction-types.images/image3.png)
 
 
 
@@ -51,7 +51,7 @@ In the description field, type in the name of the new restriction type.  Then c
 
 
 
-![](../../external_files/7f5fafb49661f158510928b45df5ee2a.png)
+![](editing-restriction-types.images/image4.png)
 
 
 
@@ -59,7 +59,7 @@ A new pop-up displays to allow you to select the format of the new restriction t
 
 
 
-![](../../external_files/3f1c4d3d5376025deb356634160e2698.png)
+![](editing-restriction-types.images/image5.png)
 
 
 
@@ -73,7 +73,7 @@ If Discrete Value is selected as the option type for the new restriction type, i
 
 
 
-![](../../external_files/9082255f65a1cde9ef7c193738cccf97.png)
+![](editing-restriction-types.images/image6.png)
 
 
 
@@ -81,7 +81,7 @@ Click Save to add the new restriction type and discrete value label to the syste
 
 
 
-![](../../external_files/f60288dbdc5f26619048c2bf6d97e480.png)
+![](editing-restriction-types.images/image7.png)
 
 
 
@@ -91,7 +91,7 @@ When users are working in an encounter and documenting restrictions, the new res
 
 
 
-![](../../external_files/b8dae68571a15989b6b5a9803212a5fb.png)
+![](editing-restriction-types.images/image8.png)
 
 
 
@@ -105,7 +105,7 @@ After choosing Selected Values as the option type on the new restriction being a
 
 
 
-![](../../external_files/c04ca96029db63f45a55c7a663ef0c2e.png)
+![](editing-restriction-types.images/image9.png)
 
 
 
@@ -117,7 +117,7 @@ When users are working in an encounter and documenting restrictions, the new res
 
 
 
-![](../../external_files/f2e0f9f03cf08701f0a8cc3033450481.png)
+![](editing-restriction-types.images/image10.png)
 
 
 
@@ -127,7 +127,7 @@ In either option type (when adding a new restriction type to the system library)
 
 
 
-![](../../external_files/21931c559b69c82635d94abb734e319a.png)
+![](editing-restriction-types.images/image11.png)
 
 
 
@@ -147,11 +147,11 @@ Here is an example of the Allowed weight checkmarked for the restriction type �
 
 
 
-![](../../external_files/dce8a54f48862789ee6f3cc88dacafb0.png)
+![](editing-restriction-types.images/image12.png)
 
 
 
-3. It is here, after selecting a selected value, that a 3rd field would open to display specific increments of allowed weight if the restriction type was set to allow weight (the checkbox in the editor) and if the system has the setting enabled to use allowed weight.  ![](../../external_files/82e4637c09ee01d45bc471805c6933bc.png)
+3. It is here, after selecting a selected value, that a 3rd field would open to display specific increments of allowed weight if the restriction type was set to allow weight (the checkbox in the editor) and if the system has the setting enabled to use allowed weight.  ![](editing-restriction-types.images/image13.png)
 
 
 
@@ -161,7 +161,7 @@ Existing Restriction Types can be edited in the editor or can be deleted from th
 
 
 
-![](../../external_files/7bd5664fbc33c9d9012bbe8791a60b24.png)
+![](editing-restriction-types.images/image14.png)
 
 
 

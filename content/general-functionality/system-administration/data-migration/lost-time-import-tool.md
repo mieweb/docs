@@ -1,22 +1,22 @@
 ---
 title: "Lost Time Import Tool"
-date: 2020-03-17T03:08:03.242Z
+date: "2020-03-17T03:08:03.242Z"
 url: "general-functionality/system-administration/data-migration/lost-time-import-tool.html"
-version: 28
-id: 1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk
-source: https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk
+version: 29
+id: "1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk"
+source: "https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk"
 menu:
     main:
         name: "Lost Time Import Tool"
         identifier: "1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4830
+        weight: 4810
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 
 
 
-![](../../../external_files/286d65ecf5855833c3be25ea6c1932b5.png)
+![](lost-time-import-tool.images/image1.png)
 
 
 
@@ -24,7 +24,7 @@ If user(s) have security permission to allow .csv data import, then the user(s) 
 
 
 
-![](../../../external_files/41570f886bf5502ba4aeaaa6f4086d29.png)
+![](lost-time-import-tool.images/image4.png)
 
 
 
@@ -32,7 +32,7 @@ If your system does not have a Data Import tab, please contact your MIE Implemen
 
 
 
-![](../../../external_files/113d09e5c2ccc3947224658793b11767.png)
+![](lost-time-import-tool.images/image5.png)
 
 
 
@@ -48,7 +48,7 @@ In this help document we will be going through the {{% system-name %}} Lost Time
 
 
 
-![](../../../external_files/10ab221baf31ec10b4256e7d59031030.png)
+![](lost-time-import-tool.images/image6.png)
 
 
 
@@ -56,7 +56,7 @@ Once you've made the drop-down selection from the Data Import tool type and clic
 
 
 
-![](../../../external_files/9e56231c418d94dbc328638b2e1a241b.png)
+![](https://lh5.googleusercontent.com/qO6VP0eu9sy040INcctv-dCIswPxud3TltlJSeXR0q_cZgayQTaKF23fTiSXHTL-AtMvuli733wQYHEEvrvAOD6oGcKnr2LbTw9uKkXvZbJcE5V5ZK20grQ-P9oCtrWBln0EOzXgco7uDi094w)
 
 
 
@@ -92,7 +92,7 @@ You can view the [spreadsheet template](https://docs.google.com/spreadsheets/d/1
 
 
 
-![](../../../external_files/0b606cb35e523dc55561a405c2fb9aea.png)
+![](https://lh5.googleusercontent.com/t-Tr1XfVcG7s8ru5hwOFmI_PEBZzEGY53SM0zyxjT8g6QeVuieallZPhYDuHjbiODuDmtTAgiQikLV2aC6ExcLHePni5TTvBCncvfolZvckTGCy8G60JBUgpl-r482q1XcUR0VFYaSRLWc8u8Q)
 
 
 

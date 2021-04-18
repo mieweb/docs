@@ -1,16 +1,16 @@
 ---
 title: "Summary Documents CSV API"
-date: 2020-03-17T15:37:53.190Z
+date: "2020-03-17T15:37:53.190Z"
 url: "general-functionality/system-administration/data-migration/summary-documents-csv-api.html"
-version: 59
-id: 1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4
-source: https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4
+version: 60
+id: "1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4"
+source: "https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4"
 menu:
     main:
         name: "Summary Documents CSV API"
         identifier: "1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4930
+        weight: 4910
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create structured text (HTML) summary documents using the Summary Documents CSV API.
 
@@ -44,7 +44,7 @@ The first several columns in the example CSV dictate some discrete metadata for 
 
 
 
-![](../../../external_files/a260522366bd2d6dab95caeae26ebcf2.png)
+![](summary-documents-csv-api.images/image1.png)
 
 
 
@@ -54,9 +54,9 @@ Following the discrete fields, a *Section Header* (section_header) several *N
 
 
 
-![](../../../external_files/45910b658bc9b00af253755ba3205636.png)
+![](summary-documents-csv-api.images/image2.png)
 
-![](../../../external_files/640c9d973ee6903a830362005480b75d.png)
+![](summary-documents-csv-api.images/image3.png)
 
 
 
@@ -64,7 +64,7 @@ Each column in the CSV above corresponds to a line of text in the resulting summ
 
 
 
-![](../../../external_files/0df941d2df4a21c1fb402d7747d995fd.png)
+![](summary-documents-csv-api.images/image4.png)
 
 
 
@@ -72,7 +72,7 @@ The last screenshot displays a list of the Document Summary in EH. This is a lis
 
 
 
-![](../../../external_files/920ea179a10107d97454a9e061a109c6.png)
+![](summary-documents-csv-api.images/image5.png)
 
 ## Workflow Considerations
 
@@ -122,7 +122,7 @@ The first screenshot shows a list (listview) in EH. This can be seen by selectin
 
 
 
-![](../../../external_files/61ff0ed3a2a4d4ba0810db0fce40d0d8.png)
+![](summary-documents-csv-api.images/image6.png)
 
 
 
@@ -130,7 +130,7 @@ The second screenshot shows a document's header, which contains much of the disc
 
 
 
-![](../../../external_files/dcf92edc31c4920dabcf7abbe2c87383.png)
+![](summary-documents-csv-api.images/image7.png)
 
 
 
@@ -138,7 +138,7 @@ Document properties display discrete information about a document that is not av
 
 
 
-![](../../../external_files/bbf87301ec61f05368abb1b57e8c5741.png)
+![](summary-documents-csv-api.images/image8.png)
 
 
 
@@ -146,7 +146,7 @@ Documents may be searched using the following criteria in EH: patient name, ente
 
 
 
-![](../../../external_files/af37580b1e3597014b6a02d8e89e0e5b.png)
+![](summary-documents-csv-api.images/image9.png)
 
 ### Creating Discrete Data from a Summary Document
 
@@ -160,15 +160,15 @@ It is sometimes valuable to import questionnaire data as a summary document. In 
 
 
 
-![](../../../external_files/7d801269fbd5477bfc85490546886b58.png)
+![](summary-documents-csv-api.images/image10.png)
 
-![](../../../external_files/df489c019f74ce7746a06442d3522fed.png)
+![](summary-documents-csv-api.images/image11.png)
 
 The questionnaire document is listed for the specified patient (Dolly Bacon).
 
 
 
-![](../../../external_files/864a2fc2a16ae6a05f753480d0018799.png)
+![](summary-documents-csv-api.images/image12.png)
 
 
 
@@ -176,7 +176,7 @@ Questions and corresponding responses are listed in the questionnaire summary do
 
 
 
-![](../../../external_files/f1e0a6569248256624d2179b58247cb7.png)
+![](summary-documents-csv-api.images/image13.png)
 
 
 
@@ -249,9 +249,9 @@ Documents are grouped by required fields. The screenshots below show an example 
 
 
 
-![](../../../external_files/f0d7da906cf3c45efd81c687cf43f70c.png)
+![](summary-documents-csv-api.images/image14.png)
 
-![](../../../external_files/672cd421465a87245d033bee93893a6c.png)
+![](summary-documents-csv-api.images/image15.png)
 
 
 
@@ -259,7 +259,7 @@ The combined summary documents display on the patient's chart.
 
 
 
-![](../../../external_files/e59e65ec0a1ec270362898e256e8408b.png)
+![](summary-documents-csv-api.images/image16.png)
 
 
 

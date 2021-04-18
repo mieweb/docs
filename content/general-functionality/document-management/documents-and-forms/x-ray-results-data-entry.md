@@ -1,10 +1,10 @@
 ---
 title: "X-Ray Results Data Entry"
-date: 2020-03-06T20:36:53.541Z
+date: "2020-03-06T20:36:53.541Z"
 url: "general-functionality/document-management/documents-and-forms/x-ray-results-data-entry.html"
-version: 33
-id: 1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU
-source: https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU
+version: 34
+id: "1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU"
+source: "https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU"
 menu:
     main:
         name: "X-Ray Results Data Entry"
@@ -29,12 +29,12 @@ To access and utilize a bubble form for recording information, simply navigate t
 1. While in the appropriate chart, access and print the x-ray results bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
 
-![](../../../external_files/8dae84ffa4b23f6294e0e22cda6e1145.png)
+![](x-ray-results-data-entry.images/image1.png)
 
 3. Print out the bubble form.
 4. Record results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](../../../external_files/d7c63c3916a37f5224c7374ae366609b.png)
+![](x-ray-results-data-entry.images/image2.png)
 
 {{% info %}}
 
@@ -51,15 +51,15 @@ There are alternative, manual and semi-manual processes outside of using and sca
 
 This method of data entry can be achieved by selecting the x-ray order on the **Due List**, found in the Tests & Procedures section of the encounter, then using the **Add to Exam** button, to allow for manual entry or device import.
 
-![](../../../external_files/2e2891f1e920d0f1eaef8fa102a29ec4.png)
+![](x-ray-results-data-entry.images/image3.png)
 
 If the x-ray order is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter.
 
-![](../../../external_files/346a9cf349dafd4fc584381cbbf29a4e.png)
+![](x-ray-results-data-entry.images/image4.png)
 
 Alternatively, the x-ray order may be selected using the **Picklist** icon, by selecting the order from the list and adding it to the encounter.
 
-![](../../../external_files/0d041b3d9577bcc59340b507751a0d88.png)
+![](x-ray-results-data-entry.images/image5.png)
 
 ### Import Data From Device
 
@@ -69,5 +69,5 @@ Though not the typical type of device interface, the {{% system-name %}} solutio
 
 These types of reports are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable clients to review the various data captured during a visit or encounter, as well as that stored in documents. The Document Reports is available here, for example, along with the Patient Observations report.
 
-![](../../../external_files/b9a7df4311a77d054079cfc3f781bb81.png)
+![](x-ray-results-data-entry.images/image6.png)
 

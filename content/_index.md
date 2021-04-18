@@ -1,11 +1,11 @@
 ---
 title: "_index"
-date: 2021-02-17T20:55:35.656Z
+date: "2021-04-16T20:09:19.249Z"
 url: "_index.html"
-author: Will Reiske
-version: 327
-id: 1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0
-source: https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0
+author: Doug Horner
+version: 442
+id: "1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
+source: "https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 ---
 Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
 
@@ -29,14 +29,14 @@ See an overview and detailed documentation of all our solutions.
 
 {{% only sys="eh" %}}
 
-![](external_files/4c23564a42b0abd987e42c9579c51917.png)
+<object type="image/svg+xml" data="diagrams/wc-positioning.svg"><img src="diagrams/wc-positioning.svg" /></object>
 
 {{% /only %}}
 
 
 {{% only sys="wc" %}}
 
-![](external_files/04187b7333cea419350f823f7b048ee0.png)
+<object type="image/svg+xml" data="diagrams/eh-positioning.svg"><img src="diagrams/eh-positioning.svg" /></object>
 
 {{% /only %}}
 

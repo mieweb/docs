@@ -1,16 +1,16 @@
 ---
 title: "Respirator Info Chart Tab"
-date: 2020-02-27T20:00:56.891Z
+date: "2020-02-27T20:00:56.891Z"
 url: "general-functionality/health-surveillance/respirator-info-chart-tab.html"
-version: 16
-id: 1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU
-source: https://drive.google.com/open?id=1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU
+version: 17
+id: "1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU"
+source: "https://drive.google.com/open?id=1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU"
 menu:
     main:
         name: "Respirator Info Chart Tab"
         identifier: "1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU"
         parent: "13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg"
-        weight: 1860
+        weight: 1840
 ---
 The Respirator Info is a chart tab found in the employee's E-Chart. Click this tab to see only the specific respirator panel memberships the employee belongs to.
 
@@ -18,15 +18,15 @@ The Respirator Info is a chart tab found in the employee's E-Chart. Click this t
 
 This first section shows panels that are strictly related to respirator panels only and doesn't show any other panels (for example the *Panel Membership* tab in Campaign Membership tab shows all panels). If any are check-marked, that means the employee is part of that specific respirator panel. You can hover your mouse over the icon in the panel names to see the description the panel is defined as in the HS set up. You can also hover your mouse over the icons next to each panel check-marked for that employee to see the last completed date or decertified information, change reason comments, etc.
 
-![](../../external_files/664ff82ccbc27aea15a8e7a1a2568131.png)
+![](respirator-info-chart-tab.images/image1.png)
 
 This Key guide helps you manage the panel information.
 
-![](../../external_files/73b41d84042162100cd09a5e57510a17.png)
+![](respirator-info-chart-tab.images/image2.png)
 
 If you check or uncheck-mark a panel membership from here, a CHANGE REASON box will appear. This is where you type in the reason for changing or adding an employee's panel. Nothing is saved until you click the SUBMIT button at the bottom of this screen. If you add a panel to a patient, they should receive an email notification when they are due for entry orders (based on the panel components trigger event settings).
 
-![](../../external_files/194533b08f451dde31bc1bebccbc6f18.png)
+![](respirator-info-chart-tab.images/image3.png)
 
 Once done with any changes/edits to the Respirator Panel Membership section, make sure you click the SAVE button at the very bottom of the screen to save all your edits/entries.
 
@@ -34,7 +34,7 @@ Once done with any changes/edits to the Respirator Panel Membership section, mak
 
 This second section show the respirator fit testing. This is a flowsheet of the respirator fit testing the employee has had done. It shows the history of previous respirator fits the employee has had in a flowsheet form. You can delete anyprevious entries using the [ - ] button in the options column.
 
-![](../../external_files/664ff82ccbc27aea15a8e7a1a2568131.png)
+![](https://lh4.googleusercontent.com/U8nV2yNXUqp2w3JxKvfWWuxMhCa6V7AoZRdwMERGI6F4tHTLnp9tdNaxuLug9TvUUnr2EnZVwVXLXbY4nfF94SCFaxrWIuU_IkRQZDcRr11KvdlabtuWTchai9e2sEQ5XwngI1_ae3b1uU8Cbw)
 
 To add a new respirator fit testing entry:
 

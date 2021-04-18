@@ -1,16 +1,16 @@
 ---
 title: "Interfaces"
-date: 2020-02-27T20:26:11.178Z
+date: "2020-02-27T20:26:11.178Z"
 url: "general-functionality/system-administration/interfaces.html"
-version: 16
-id: 1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q
-source: https://drive.google.com/open?id=1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q
+version: 17
+id: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
+source: "https://drive.google.com/open?id=1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
 menu:
     main:
         name: "Interfaces"
         identifier: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
         parent: "1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo"
-        weight: 5320
+        weight: 5300
 ---
 
 

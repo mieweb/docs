@@ -1,10 +1,10 @@
 ---
 title: "Introducing TeleHealth"
-date: 2020-03-31T16:54:54.418Z
+date: "2020-03-31T16:54:54.418Z"
 url: "general-functionality/encounters/telehealth/introducing-telehealth.html"
-version: 59
-id: 1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4
-source: https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4
+version: 61
+id: "1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4"
+source: "https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4"
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.  
 
@@ -91,7 +91,7 @@ source: https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvy
 
 * Place of Service (POS) code 02
 
-![](../../../external_files/1e2814f294d729aaeb3fc3968d842c98.png)
+![](introducing-telehealth.images/image2.png)
 
 **What does it cost?**
 
@@ -118,17 +118,17 @@ source: https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvy
 
 ### Patient initiated (iOS)
 
-![](../../../external_files/36987afcfefcb1fcdcaf42d100e16470.png)![](../../../external_files/389ce68e56fd2a7d5a6fb714699af0de.png)![](../../../external_files/72545446550e67b9f348218bb25b1d6a.png)![](../../../external_files/16b00e8964a7d245429c6633777031e0.png)
+![](introducing-telehealth.images/image3.png)![](introducing-telehealth.images/image4.png)![](introducing-telehealth.images/image5.png)![](introducing-telehealth.images/image6.png)
 
 
 
 ### Provider
 
-![](../../../external_files/628ae591ea4885d4f9bdcd82dc460ea4.png)
+![](https://lh3.googleusercontent.com/vE02_X7NwUQRaGi-f369X3LYTQd9aXI8jAhR6TQYyZApN8d5Y6qkUCay4XOlwnXWroJjTeoodi5cZRlBz-H74cvad6l0PvC956Sft_ZjWIb9RAFShCE7F_fnW55WVGiNtOJ99gK98F68zPH_HA)
 
 
 
-![](../../../external_files/5ccfcebb9649b107640ecc4859e658da.png)
+![](https://lh4.googleusercontent.com/TzGd8U-E7-545BNWERyipE8fTuVYVxIkzZEj5EgPPJ80AyBtVp8OVlPGusAKVODdl6mlT8fzh9kOa1Oil_trppDfMW0rU6mizdY4Kb7FIJnkYqHBMiz-82jMU05zu-kevjEgzKRnazlvAM7GZA)
 
 
 

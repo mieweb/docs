@@ -1,11 +1,11 @@
 ---
 title: "Financial reports"
-date: 2021-02-17T19:42:45.858Z
+date: "2021-02-17T19:42:45.858Z"
 url: "general-functionality/financial-functionality/financial-reports.html"
 author: Adam Humes
 version: 10
-id: 1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ
-source: https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ
+id: "1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ"
+source: "https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ"
 ---
 Use financial reports to view balances and details of accounts and pending billing and appointments. Also use financial reports to close out months.
 

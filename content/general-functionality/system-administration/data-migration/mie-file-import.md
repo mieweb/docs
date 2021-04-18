@@ -1,16 +1,16 @@
 ---
 title: "MIE File Import"
-date: 2020-03-17T02:05:30.422Z
+date: "2020-03-17T02:05:30.422Z"
 url: "general-functionality/system-administration/data-migration/mie-file-import.html"
-version: 42
-id: 1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY
-source: https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY
+version: 43
+id: "1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
+source: "https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
 menu:
     main:
         name: "MIE File Import"
         identifier: "1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4720
+        weight: 4700
 ---
 
 

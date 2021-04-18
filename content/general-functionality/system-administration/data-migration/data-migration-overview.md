@@ -1,16 +1,16 @@
 ---
 title: "Data Migration Overview"
-date: 2020-03-17T16:06:56.394Z
+date: "2020-03-17T16:06:56.394Z"
 url: "general-functionality/system-administration/data-migration/data-migration-overview.html"
-version: 29
-id: 1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8
-source: https://drive.google.com/open?id=1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8
+version: 30
+id: "1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8"
+source: "https://drive.google.com/open?id=1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8"
 menu:
     main:
         name: "Data Migration Overview"
         identifier: "1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4950
+        weight: 4930
 ---
 Data migration is the process of transferring data between different storage types, formats, or systems, and is an important consideration for clients replacing an existing EHR. At {{% system-name %}} , we have imported data from a number of different systems, including Medgate, OHM, Sentry, Flow Gemini, and many other custom databases and countless proprietary spreadsheets. All of these imports involve a similar process, as described in this document.
 

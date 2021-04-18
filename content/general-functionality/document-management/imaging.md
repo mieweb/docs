@@ -1,10 +1,10 @@
 ---
 title: "Imaging"
-date: 2020-02-27T19:43:28.703Z
+date: "2020-02-27T19:43:28.703Z"
 url: "general-functionality/document-management/imaging.html"
-version: 13
-id: 1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U
-source: https://drive.google.com/open?id=1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U
+version: 14
+id: "1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U"
+source: "https://drive.google.com/open?id=1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U"
 menu:
     main:
         name: "Imaging"

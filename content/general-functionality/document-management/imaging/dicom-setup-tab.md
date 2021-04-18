@@ -1,11 +1,11 @@
 ---
 title: "DICOM Setup Tab"
-date: 2020-03-09T19:34:25.790Z
+date: "2020-03-09T19:34:25.790Z"
 url: "general-functionality/document-management/imaging/dicom-setup-tab.html"
 author: aquandt
-version: 23
-id: 1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg
-source: https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg
+version: 24
+id: "1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg"
+source: "https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg"
 menu:
     main:
         name: "DICOM Setup Tab"
@@ -23,7 +23,7 @@ The [DICOM Setup tab](https://system/?f=dicom&dcfunc=aeedit) is both a dashboard
 
 
 
-![](../../../external_files/c509db15121d02b00b436bc0f127d448.png)
+![](dicom-setup-tab.images/image1.png)
 
 
 
@@ -35,7 +35,7 @@ To view application entities, simply click the [View Application Entities](https
 
 
 
-![](../../../external_files/a153fe3d892ba812f7f14e95cfa996ae.png)
+![](dicom-setup-tab.images/image2.png)
 
 
 
@@ -43,7 +43,7 @@ To add an Application Entity, once in the Application Entities, simply select th
 
 
 
-![](../../../external_files/c1bde63e0db2165a0667666dc0d6f4f3.png)
+![](dicom-setup-tab.images/image3.png)
 
 
 

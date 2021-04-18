@@ -1,16 +1,16 @@
 ---
 title: "Meaningful Use Reports"
-date: 2020-02-27T20:14:52.180Z
+date: "2020-02-27T20:14:52.180Z"
 url: "general-functionality/reports/meaningful-use-reports.html"
-version: 25
-id: 1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA
-source: https://drive.google.com/open?id=1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA
+version: 26
+id: "1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA"
+source: "https://drive.google.com/open?id=1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA"
 menu:
     main:
         name: "Meaningful Use Reports"
         identifier: "1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4240
+        weight: 4220
 ---
 There are a few reports a superuser can run to monitor clinicians and see where they are currently on their Meaningful Use calculations and/or to see which clinicians have opted in for Meaningful Use and each measure they have checkmarked to report/calculate on.
 
@@ -22,23 +22,23 @@ If you are a superuser who needs to see all the providers & where they sit (in r
 
 This report can be found in your REPORTS sidemenu tab. Below are screenshots showing the 2 possible tabs it may be found in depending on your {{% system-name %}} system.
 
-![](../../external_files/ce510b8fc57afd8c48065ff81fad6036.png)
+![](meaningful-use-reports.images/image1.png)
 
 **OR**
 
-![](../../external_files/70d1711bc3b2d67155a8d3398c3de1eb.png)
+![](meaningful-use-reports.images/image2.png)
 
 This compliance/status for all enrolled physicians report will show every user who has opted in for Meaningful Use feature. It then lists the users name followed by the compliance calculations column that shows the fraction of completed measures, and then the name of the meaningful use measures they are reporting for/tracking. Continue to scroll down the screen to see all users and/or calculations for each user and/or which measures they are reporting/tracking on. You can also recalculate for someone here.
 
-![](../../external_files/7950b17ea36d72071d572cb35d418f30.png)
+![](meaningful-use-reports.images/image3.png)
 
 You can also select a specific year (phase) to run the reports by. Select the reporting year from the drop-down and click RUN REPORT and see the calculations and/or print them out.
 
-![](../../external_files/f37b176233b48c4c551a8d0623dab3d7.png)
+![](meaningful-use-reports.images/image4.png)
 
 Under the reporting year drop-down selection there is also a multi-autocomplete to select a user(s) to filter the report. By default, the Meaningful Use Compliance report shows all the users opted in for meaningful use. If you wish to filter to only see certain specific user(s) you can use the auto-complete field and only those user(s) and their calculations for the year specified will render on the screen. This user autocomplete is pointed to the system setting for the physician realm.
 
-![](../../external_files/5275ed8a3994071c4871875132696cfe.png)
+![](meaningful-use-reports.images/image5.png)
 
 ## Meaningful Use Enrollment Report
 
@@ -48,15 +48,15 @@ If you are a superuser who needs to see all the providers and what measures they
 
 This enrollment report (measures providers opted in for in {{% system-name %}} ) can be found in your REPORTS sidemenu tab. Below are screenshots showing the 2 possible tabs it may be found in depending on your {{% system-name %}} system.
 
-![](../../external_files/3d127bd9bebf383b5d6ce2619d6e1d9e.png)
+![](meaningful-use-reports.images/image6.png)
 
 **OR**
 
-![](../../external_files/48a44fda8b3a79264e7d2d6247de653d.png)
+![](meaningful-use-reports.images/image7.png)
 
 The system report will run and render. It will list every user who has opted in for Meaningful Use feature and which measures they have check-marked to report/calculate on within {{% system-name %}} . You can use the show CSV link to download the report into an excel spreadsheet application. You can also use the view printable link to print out a copy of the Enrollment Overview report that rendered.
 
-![](../../external_files/6ae066555d3ee20b86dc5e36ccbe0666.png)
+![](meaningful-use-reports.images/image8.png)
 
 ## Meaningful Use Measure Override Report
 
@@ -66,9 +66,9 @@ This allows you to run a report by date range or performing provider on the enco
 
 This override report can be found in your REPORTS sidemenu tab.
 
-![](../../external_files/1b0ce5b8dff7138f8aed491b546ba86d.png)
+![](meaningful-use-reports.images/image9.png)
 
 The system report will run and render. It will list details of what encounter for which provider had meaningful use measure numerator/denominator boxes checked or unchecked manually by the acting user noted. Most meaningful use calculations are automated by the system. Users always have an option to override measures for tracking purposes and this helps audit who did that and when and to what measures and which part of the calculation.
 
-![](../../external_files/4cbc386c416bf92d250ce387ed12a476.png)
+![](meaningful-use-reports.images/image10.png)
 

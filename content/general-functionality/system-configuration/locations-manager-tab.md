@@ -1,10 +1,10 @@
 ---
 title: "Locations Manager Tab"
-date: 2020-03-05T17:14:42.915Z
+date: "2020-03-05T17:14:42.915Z"
 url: "general-functionality/system-configuration/locations-manager-tab.html"
-version: 40
-id: 1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw
-source: https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw
+version: 41
+id: "1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw"
+source: "https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw"
 menu:
     main:
         name: "Locations Manager Tab"
@@ -18,17 +18,17 @@ If you have security permission to manage locations (and depending on your secur
 
 When you click the *Locations Manager* tab, it will open up to display all active locations in your system. Your MIE Implementer may have already entered in some locations for your practice. However, you can manage any locations here in this tab. If you are a new {{% system-name %}} database with no locations previously added, the default will show an active OFFICE location in your system. Use this as the ‘main' location for your practice. Click edit to change that description to your practice and add address/phone/fax information. You can continue to add other locations after the main one has been edited to your specific location information.
 
-![](../../external_files/36bbd737e1a7e2171faf3155e76d12a3.png)
+![](locations-manager-tab.images/image1.png)
 
 ## Add a New Location
 
 To add a new location to your {{% system-name %}} system, click the Add Location link found at the top right while in the Location Manager tab.
 
-![](../../external_files/898de3c0b9745e9b9b123d0bfb901b45.png)
+![](locations-manager-tab.images/image2.png)
 
 The *add location* screen will open. The fields are described below.
 
-![](../../external_files/520a17943916f268313cdd4c94b38969.png)
+![](locations-manager-tab.images/image3.png)
 
 * <strong>Code:</strong> This is a required field. You must type in a brief abbreviated code for this specific location. It has to be unique and cannot be left blank. It only allows up to 10 characters.
 * <strong>Description:</strong> Type in the full name of the location.
@@ -50,14 +50,14 @@ There is a system setting to allow for international province/state selection. I
 {{% /tip %}}
 
 
-![](../../external_files/3675f7f5660a561588450ca6bd5b2610.png)
+![](locations-manager-tab.images/image4.png)
 * <strong>Country:</strong> Defaults to United States, but you can select the country where this location is.
 * <strong>Time Zone:</strong> Defaults to Use System Time Zone, but you can select the specific time zone the location is.
 * <strong>Phone Number/Fax Number:</strong> Enter full phone number & fax number and must include area code.
 * <strong>Use in FAX header:</strong> If this location has a specific fax number entered above in this location's fax# field and you want all outgoing faxes from users using this default location to show this location's fax # as the "Sent From' on any outgoing faxes sent from {{% system-name %}} in the top header of the fax, set this option to <strong>Yes</strong>. This means any outgoing faxes sent by users who are set to this default location will show this specific location's fax# in the top header of the fax that the recipient receives instead of your {{% system-name %}} system's primary/main fax number.  This location fax# will override and display on the outgoing faxes instead of what your {{% system-name %}} system's primary/main fax number is set to.
     * If this location has no FAX number or you don't want any faxes from users who are set to this default location to show this location's specific FAX number on the outgoing faxes, please set this option to <strong>No</strong>.  This means any fax sent by the user using this location as their default will show your {{% system-name %}} system's primary/main fax number instead and won't show the location specific fax# on the header of the fax that the recipient receives.  System setting for fax header:
 
-![](../../external_files/0174b0c6551d46c7ee3070a29255d20f.png)
+![](locations-manager-tab.images/image5.png)
 
 * There is also the security setting named <strong>Allow setting of FAX From:</strong> If set to Yes (default is No) the user can choose the CSI value of a fax they are sending from the ‘fax' mode. The CSI value is the Call Station Identifier that is part of the FAX header - it is essentially the caller id of the FAX. If user is set to Yes permission, in the print chart module (fax mode) a drop-down field named <strong>From</strong>: will show and user can select from a drop-down of fax #'s to set the fax ‘from' on the header that the recipient receives.
 * <strong>Account Number:</strong> MIE will enter this field if necessary. Example, it may be the lab interface account number we need to attach for that specific location, etc. to send/receive results for. If your practice is set up with an orders interface with a lab vendor to submit lab orders electronically to a lab facility (ex: LabCorp), the lab's location account number for that specific location must be entered in the location tab of control tab. When we send the order electronically to the lab that account number for the location gets sent with it.
@@ -66,29 +66,29 @@ There is a system setting to allow for international province/state selection. I
 
 Click the ADD button to add the location to the system and it will give you a confirmation message at the top.
 
-![](../../external_files/8c0c2d0ddacd80f98af1dcd2810c5622.png)
+![](locations-manager-tab.images/image6.png)
 
 ## View Outside or Deactivated Locations
 
 If you inactivated a location, or set a location as ‘outside', use the links provided in the locations manager tab to show those.
 
-![](../../external_files/898de3c0b9745e9b9b123d0bfb901b45.png)
+![](locations-manager-tab.images/image7.png)
 
 If there was a location that was deactivated in error, you can show deactivated, then click the activate link found in the options column for that location. That location would be reactivated and set as active.
 
 There is also a search filter available in the Locations Manager to help search and find a specific location(s) you are looking for in this tab. This is helpful if you have an abundance of {{% system-name %}} locations in your system.
 
-![](../../external_files/bafc259c5da9c3a2a6eb64067e9c8618.png)
+![](locations-manager-tab.images/image8.png)
 
 ## Deactivate a Location
 
 You would only deactivate a location if you no longer utilized a specific location. To ‘deactivate' a location from the main location summary listing screen click the deactivate link on the right options column. Any location set as ‘inactive' will not appear in any {{% system-name %}} module to choose as a location selection. The location must be set as ‘active' in order for it to be used elsewhere in {{% system-name %}} as a selection.
 
-![](../../external_files/58ae11edf2d5e5ae85a32e16e7c43cfb.png)
+![](locations-manager-tab.images/image9.png)
 
 Once you click the Deactivate link for that location, it will show a screen for you to confirm that you want to deactivate this location. It also notes how many documents will be affected by this when you deactivate it.
 
-### ![](../../external_files/fc7bf6668a0163dbc9455826d7610ea6.png)
+### ![](locations-manager-tab.images/image10.png)
 
 Continue to deactivate the location by clicking the DEACTIVATE button. It will then give you a confirmation message at the top that the location was successfully deactivated.
 
@@ -98,11 +98,11 @@ If there was a location that was deactivated in error, you can click the show de
 
 If you need to edit a location for any reason (phone number change, address change, name change, etc), simply click the edit link found in the options column at the right of the specific location listed in the summary.
 
-![](../../external_files/58ae11edf2d5e5ae85a32e16e7c43cfb.png)
+![](https://lh6.googleusercontent.com/ky-ckM5xUz4K8r1-aRiIXEo9mY-cJ5mnCEdalz0j4Ifm8_lEEsaQ9w2PvJqW0pjF7TvtcLWTqSuIthOa5ioTH89Pz1p-cLr1V9CzL7KJSIRsX-IDlf9KjyhmhGLLCQUqxwUC4cPsoE7UPSFyKA)
 
 Once you click edit to modify a location, the edit/modification screen will appear. You can change anything you wish. It also notes how many documents use this location and any edits/modifications will update those instances as well.
 
-![](../../external_files/2bd7f20fa1ec2a17c464527e7f195fd9.png)
+![](https://lh3.googleusercontent.com/9cDDpqKH6LHiOh9aWJcEBIz_knPGG9JSZ8Ksj5u3g-0EF63cAFDGpP2LRJJPmkOEt664CL9SBpCTKHUucTuMe7P1c3LOatrPrZbenuGkTR9VC52aRjq0E3PsK_La5oR0MO3HRot2wFBPreB8Zw)
 
 When done editing the location fields, click the MODIFY button to save and submit the changes.
 

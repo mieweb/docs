@@ -1,17 +1,17 @@
 ---
 title: "Sending HL7 Messages to System"
-date: 2020-02-28T15:31:21.269Z
+date: "2020-02-28T15:31:21.269Z"
 url: "general-functionality/system-administration/interfaces/sending-hl7-messages-to-system.html"
 author: aquandt
-version: 20
-id: 1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw
-source: https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw
+version: 21
+id: "1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw"
+source: "https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw"
 menu:
     main:
         name: "Sending HL7 Messages to System"
         identifier: "1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5370
+        weight: 5350
 ---
 The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 

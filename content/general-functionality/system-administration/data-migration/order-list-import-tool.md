@@ -1,16 +1,16 @@
 ---
 title: "Order List Import Tool"
-date: 2020-02-27T20:45:53.671Z
+date: "2020-02-27T20:45:53.671Z"
 url: "general-functionality/system-administration/data-migration/order-list-import-tool.html"
-version: 12
-id: 1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I
-source: https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I
+version: 13
+id: "1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I"
+source: "https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I"
 menu:
     main:
         name: "Order List Import Tool"
         identifier: "1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5000
+        weight: 4980
 ---
 This wiki page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
 

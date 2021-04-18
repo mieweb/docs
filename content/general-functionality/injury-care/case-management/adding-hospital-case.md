@@ -1,17 +1,17 @@
 ---
 title: "Adding Hospital Case"
-date: 2020-03-09T23:03:30.240Z
+date: "2020-03-09T23:03:30.240Z"
 url: "general-functionality/injury-care/case-management/adding-hospital-case.html"
 author: aquandt
-version: 31
-id: 1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk
-source: https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk
+version: 32
+id: "1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk"
+source: "https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk"
 menu:
     main:
         name: "Adding Hospital Case"
         identifier: "1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1640
+        weight: 1620
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -39,7 +39,7 @@ By default, the Case section of encounters will display the following case types
 
 
 
-![](../../../external_files/6ccfbe4f62807d9faf9d912003b0db88.png)
+![](adding-hospital-case.images/image1.png)
 
 
 
@@ -47,7 +47,7 @@ If you wish to document a new case, click the header or **Edit** (Pencil) icon o
 
 
 
-![](../../../external_files/c631c6f901de2cf799e051474497cbb2.png)
+![](adding-hospital-case.images/image2.png)
 
 
 
@@ -55,7 +55,7 @@ Once the **Case** section is expanded, indicate which type of case to create on 
 
 
 
-![](../../../external_files/39d8c85de94ea942ede9acc153b38adf.png)
+![](adding-hospital-case.images/image3.png)
 
 ## Hospital Case Details
 
@@ -63,7 +63,7 @@ After selecting to create a Hospital case type, the only field that expands is t
 
 
 
-![](../../../external_files/466fb3e127b383d16221c963281cf0f5.png)
+![](adding-hospital-case.images/image4.png)
 
 ### Work Status (or Lost Time) Section
 

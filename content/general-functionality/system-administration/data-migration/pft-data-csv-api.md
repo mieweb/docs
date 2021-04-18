@@ -1,16 +1,16 @@
 ---
 title: "PFT Data CSV API"
-date: 2020-03-17T15:18:25.223Z
+date: "2020-03-17T15:18:25.223Z"
 url: "general-functionality/system-administration/data-migration/pft-data-csv-api.html"
-version: 22
-id: 1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o
-source: https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o
+version: 23
+id: "1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o"
+source: "https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o"
 menu:
     main:
         name: "PFT Data CSV API"
         identifier: "1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4920
+        weight: 4900
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for spirometry (pulmonary function tests) using the PFT Data CSV API.
 

@@ -1,10 +1,10 @@
 ---
 title: "Picture-Photo Documents"
-date: 2020-03-05T20:49:06.831Z
+date: "2020-03-05T20:49:06.831Z"
 url: "general-functionality/document-management/documents-and-forms/picture-photo-documents.html"
-version: 52
-id: 1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY
-source: https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY
+version: 53
+id: "1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY"
+source: "https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY"
 menu:
     main:
         name: "Picture-Photo Documents"
@@ -24,7 +24,7 @@ To begin adding a photo as a document to a chart, navigate to the Document Libra
 
 
 
-![](../../../external_files/ab10d8419f47767a0395334d574373c3.png)
+![](picture-photo-documents.images/image1.png)
 
 
 
@@ -39,7 +39,7 @@ Select the document type needing attached and uploaded to the chart by simply cl
 
 
 
-![](../../../external_files/945751b6bee33b6dd192520b62d83395.png)
+![](picture-photo-documents.images/image2.png)
 
 
 
@@ -47,7 +47,7 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 
 
-![](../../../external_files/573e45c4c3185505ac4e2ffe89ec66c9.png)
+![](picture-photo-documents.images/image3.png)
 
 
 
@@ -88,7 +88,7 @@ In order to author documents for others, the user must have the Access Control *
 
 
 
-![](../../../external_files/ce3aff314ae32d9b093c8e061d2d28b8.png)
+![](picture-photo-documents.images/image4.png)
 
 
 
@@ -122,12 +122,12 @@ If this is the first time uploading a picture, the MIE VidCap Control plugin wil
 {{% /note %}}
 
 
-![](../../../external_files/a2e19737af798eec55046d1ff646d125.png)
+![](picture-photo-documents.images/image5.png)
 {{% tip %}}
 
 The media source can be changed, as needed. To change either the media source or the SmartCard folder, simply right-click anywhere in the box of photos/images. If the preferred media source is SmartCard, but the Picture folder is not the correct directory, select **Set SmartCard Folder**. Make sure to select the correct folder needing associated, and then click **OK**. Otherwise, to change the media source from SmartCard to any of the available alternatives (e.g., Camera), place a checkmark next to the appropriate option by simply clicking on that choice. The Document Capture Control screen will display the picture files from the newly selected folder or source.
 
-![](../../../external_files/39fe187564af30d2d73d3f47f15fa788.png)
+![](picture-photo-documents.images/image6.png)
 
 {{% /tip %}}
 
@@ -140,7 +140,7 @@ Once ready, use the mouse to select a picture for upload. When the photo is sele
 
 If the work station is set up with a **WebCam** for taking photos for chart demographics, simply click the webcam icon on the scan control toolbar to open the viewer.
 
-![](../../../external_files/beb7d3d3e92e6a1392a69da8fe8a2edf.png)
+![](picture-photo-documents.images/image7.png)
 
 {{% /tip %}}
 
@@ -149,7 +149,7 @@ When ready to upload, click the **Record** (red circle) button. This will upload
 
 
 
-![](../../../external_files/114fcc18a3024791773bb76a5d8fb624.png)
+![](picture-photo-documents.images/image8.png)
 
 
 
@@ -164,5 +164,5 @@ Any uploaded photos will appear as stored documents in the respective chart. Eac
 
 
 
-![](../../../external_files/f45881e63d78b609efb807219272dc57.png)
+![](picture-photo-documents.images/image9.png)
 

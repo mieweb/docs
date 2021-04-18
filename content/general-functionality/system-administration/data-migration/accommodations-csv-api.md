@@ -1,17 +1,17 @@
 ---
 title: "Accommodations CSV API"
-date: 2020-02-27T21:32:16.770Z
+date: "2020-02-27T21:32:16.770Z"
 url: "general-functionality/system-administration/data-migration/accommodations-csv-api.html"
 author: aquandt
-version: 15
-id: 1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc
-source: https://drive.google.com/open?id=1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc
+version: 16
+id: "1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc"
+source: "https://drive.google.com/open?id=1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc"
 menu:
     main:
         name: "Accommodations CSV API"
         identifier: "1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5110
+        weight: 5090
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for accommodations** using the [Case Management CSV API](case-management-csv-api.html).
 

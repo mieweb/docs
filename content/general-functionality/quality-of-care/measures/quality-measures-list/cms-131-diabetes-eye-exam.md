@@ -1,17 +1,17 @@
 ---
 title: "CMS 131 - Diabetes: Eye Exam"
-date: 2020-02-27T21:30:11.746Z
+date: "2020-02-27T21:30:11.746Z"
 url: "general-functionality/quality-of-care/measures/quality-measures-list/cms-131-diabetes-eye-exam.html"
 author: aquandt
-version: 15
-id: 1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg
-source: https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg
+version: 16
+id: "1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg"
+source: "https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg"
 menu:
     main:
         name: "CMS 131 - Diabetes: Eye Exam"
         identifier: "1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg"
         parent: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
-        weight: 3920
+        weight: 3900
 ---
 [CMS131v5 ](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS131&showresult=CMS131v5&showresulttype=Measure)(2017)
 

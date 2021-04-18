@@ -1,16 +1,16 @@
 ---
 title: "Audiometric Data CSV API"
-date: 2020-02-27T20:45:01.208Z
+date: "2020-02-27T20:45:01.208Z"
 url: "general-functionality/system-administration/data-migration/audiometric-data-csv-api.html"
-version: 12
-id: 14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA
-source: https://drive.google.com/open?id=14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA
+version: 13
+id: "14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA"
+source: "https://drive.google.com/open?id=14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA"
 menu:
     main:
         name: "Audiometric Data CSV API"
         identifier: "14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5170
+        weight: 5150
 ---
 The following page defines data and fields that may be imported into MIE systems (Enterprise Health, WebChart) for audiometry using the Audiometric Data CSV API.
 

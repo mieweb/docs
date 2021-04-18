@@ -1,17 +1,17 @@
 ---
 title: "Chart Data Imports"
-date: 2020-02-27T21:24:06.521Z
+date: "2020-02-27T21:24:06.521Z"
 url: "rapid-deployment/rapid-deployment-data-migration/chart-data-imports.html"
 author: aquandt
-version: 15
-id: 1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA
-source: https://drive.google.com/open?id=1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA
+version: 16
+id: "1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA"
+source: "https://drive.google.com/open?id=1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA"
 menu:
     main:
         name: "Chart Data Imports"
         identifier: "1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA"
         parent: "1OQWE20b-U3zYvhTtkJW-fE_3Vh_8tTBfwhRr2Mqcjvg"
-        weight: 5940
+        weight: 5920
 ---
 
 

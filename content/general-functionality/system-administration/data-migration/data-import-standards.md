@@ -1,16 +1,16 @@
 ---
 title: "Data Import Standards"
-date: 2020-03-17T16:11:37.150Z
+date: "2020-03-17T16:11:37.150Z"
 url: "general-functionality/system-administration/data-migration/data-import-standards.html"
-version: 32
-id: 1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M
-source: https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M
+version: 33
+id: "1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M"
+source: "https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M"
 menu:
     main:
         name: "Data Import Standards"
         identifier: "1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4970
+        weight: 4950
 ---
 The following columns display in standardized data import specifications:
 

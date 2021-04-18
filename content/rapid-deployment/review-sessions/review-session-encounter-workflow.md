@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Encounter Workflow"
-date: 2020-02-27T21:24:54.640Z
+date: "2020-02-27T21:24:54.640Z"
 url: "rapid-deployment/review-sessions/review-session-encounter-workflow.html"
 author: aquandt
-version: 15
-id: 14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c
-source: https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c
+version: 16
+id: "14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
+source: "https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
 menu:
     main:
         name: "Review Session - Encounter Workflow"
         identifier: "14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6040
+        weight: 6020
 ---
 ## Agenda
 
@@ -244,7 +244,7 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 * [Working in a Visit Encounter](../../general-functionality/encounters/working-in-a-visit-encounter.html)
 * [Working in a Legacy Encounter](../../general-functionality/encounters/working-in-a-legacy-encounter.html)
 * [Encounters-Archiving-Closing-ReArchiving](../../general-functionality/encounters/archiving-closing-re-archiving-encounters.html)
-* [Encounters-Closing Dictation](../../general-functionality/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-m.html)
+* [Encounters-Closing Dictation](../../general-functionality/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.html)
 * [Encounters-Editing Dictation](../../general-functionality/encounters/dictation-and-transcription/editing-encounter-dictations.html)
 * [Encounters-Impression Section](../../general-functionality/encounters/encounters-impression-section.html)
 * [Encounters-Labs Results Section](../../general-functionality/encounters/encounters-labs-results-section.html)

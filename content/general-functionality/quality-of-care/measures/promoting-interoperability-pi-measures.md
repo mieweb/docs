@@ -1,16 +1,16 @@
 ---
 title: "Promoting Interoperability (PI) Measures"
-date: 2020-02-28T21:58:39.683Z
+date: "2020-02-28T21:58:39.683Z"
 url: "general-functionality/quality-of-care/measures/promoting-interoperability-pi-measures.html"
-version: 36
-id: 1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw
-source: https://drive.google.com/open?id=1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw
+version: 37
+id: "1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw"
+source: "https://drive.google.com/open?id=1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw"
 menu:
     main:
         name: "Promoting Interoperability (PI) Measures"
         identifier: "1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw"
         parent: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
-        weight: 2540
+        weight: 2520
 ---
 {{% section %}}
 

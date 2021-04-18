@@ -1,11 +1,11 @@
 ---
 title: "Adding a Subject to Documents"
-date: 2020-02-27T21:10:07.369Z
+date: "2020-02-27T21:10:07.369Z"
 url: "general-functionality/document-management/documents-and-forms/adding-a-subject-to-documents.html"
 author: aquandt
-version: 32
-id: 1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk
-source: https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk
+version: 33
+id: "1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk"
+source: "https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk"
 menu:
     main:
         name: "Adding a Subject to Documents"
@@ -19,35 +19,35 @@ A **Subject** field is available when adding documents to the {{% system-name %}
 
 Every stored document in {{% system-name %}} has document properties that specify details pertaining to the document. Clicking the **Properties** link, found on the upper-right side of every document, will display the various properties for the document.
 
-![](../../../external_files/06de011d7e7b1574f24293214fbe0a23.png)
+![](adding-a-subject-to-documents.images/image1.png)
 
 Additionally, below the listed document properties, all revisions, linkings, and routings of the document are tracked and displayed in table format.
 
-![](../../../external_files/cf599e0a5bfc722b89bd092da3e7fc9a.png)
+![](adding-a-subject-to-documents.images/image2.png)
 
 ### Subject Field
 
 Having a Subject field for each document is a helpful, important feature. Use the Subject field to enter a free-text subject to any type of document stored (e.g., saved, uploaded, scanned, etc.) within {{% system-name %}} .
 
-![](../../../external_files/b1ba14a0b9ca59d81cbffb18936781d7.png)
+![](adding-a-subject-to-documents.images/image3.png)
 
 Access the document needing a subject by clicking the document ID. This opens the document view. Subjects can be added or edited from the view of the document by simply clicking the **Add** or **Edit** link found in the Subject field.
 
-![](../../../external_files/4aeb5f79263fc71d0b7baba862add0b7.png)
+![](adding-a-subject-to-documents.images/image4.png)
 
 After clicking the Add or Edit link, a pop-up box will allow the subject to be modified, as needed. Click the **Save** button to retain the modification.
 
-![](../../../external_files/6de02c5810b384739e3ab310185ef53d.png)
+![](adding-a-subject-to-documents.images/image5.png)
 
 An alternative method for updating or adding a subject to a document is through the document properties. Access the document, and click the Properties link. After the page loads, click the **Edit Properties** link, enter a subject in the *Subject* field, and click the **Submit Changes** button.
 
-![](../../../external_files/08069179eda7d8932c419901ff4c0ea1.png)
+![](adding-a-subject-to-documents.images/image6.png)
 
 ### Searching By Subject
 
 A Subject column will display in any List View system-wide, if the System Setting ("E-Chart", "Defaults", "Display Document Subject in ListView") is enabled. This functionality provides an easy-to-use resource for scanning through, or perusing, several documents.
 
-![](../../../external_files/b1ba14a0b9ca59d81cbffb18936781d7.png)
+![](https://lh3.googleusercontent.com/ehH_7c-r5QLMyJQixJnZS6NKJ--c_8UQsPnhCSCbrO4TBv_QceAMvyi354mlMCiuak0dVkLZsF4fkrNpb6OKRqfQOAXbc8cgOmKLLkz1-i7O1RWfWErvkCfC4-cYZKffomk2kLOajJoxGd0K8A)
 
 There is also a means to search the system by subject criteria using the Document Search feature. Please see the additional help documentation [Documents Report-Super DocSearch](../../reports/documents-report-super-document-type-search.html).
 

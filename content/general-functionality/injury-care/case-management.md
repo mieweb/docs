@@ -1,16 +1,16 @@
 ---
 title: "Case Management"
-date: 2020-02-27T19:30:41.423Z
+date: "2020-02-27T19:30:41.423Z"
 url: "general-functionality/injury-care/case-management.html"
-version: 13
-id: 16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8
-source: https://drive.google.com/open?id=16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8
+version: 14
+id: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
+source: "https://drive.google.com/open?id=16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
 menu:
     main:
         name: "Case Management"
         identifier: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
         parent: "111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY"
-        weight: 1620
+        weight: 1600
 ---
 
 

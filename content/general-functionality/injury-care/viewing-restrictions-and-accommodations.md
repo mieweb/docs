@@ -1,16 +1,16 @@
 ---
 title: "Viewing Restrictions and Accommodations"
-date: 2020-03-13T11:46:45.933Z
+date: "2020-03-13T11:46:45.933Z"
 url: "general-functionality/injury-care/viewing-restrictions-and-accommodations.html"
-version: 42
-id: 1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A
-source: https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A
+version: 43
+id: "1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A"
+source: "https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A"
 menu:
     main:
         name: "Viewing Restrictions and Accommodations"
         identifier: "1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A"
         parent: "111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY"
-        weight: 1720
+        weight: 1700
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions. Â Restrictions are also available for viewing throughout {{% system-name %}} and its own chart tab outside of an encounter exam.
 
@@ -20,7 +20,7 @@ From anywhere while working in the chart, if the chart has current active restri
 
 
 
-![](../../external_files/b0db7a1721ae4560660fce73de15014f.png)
+![](viewing-restrictions-and-accommodations.images/image1.png)
 
 
 
@@ -28,7 +28,7 @@ If the chart has any current active Lost Time accommodation, the lost time brief
 
 
 
-![](../../external_files/ecc1147f8cb10956e5d14d5b7939e523.png)
+![](viewing-restrictions-and-accommodations.images/image2.png)
 
 
 
@@ -36,7 +36,7 @@ From the lost time or the restrictions brief info in the chart info bar, there i
 
 
 
-![](../../external_files/7898ccce050daa39fdbd0ccdcbf3f704.png)
+![](viewing-restrictions-and-accommodations.images/image3.png)
 
 
 
@@ -44,7 +44,7 @@ The Show More link will take you to the Restrictions/Lost Time chart tab summary
 
 
 
-![](../../external_files/0d38ab56e3597f03e60c0ce9db8fd1fc.png)
+![](viewing-restrictions-and-accommodations.images/image4.png)
 
 
 
@@ -52,7 +52,7 @@ To go to the detailed view, simply go to the right side and click the detail vie
 
 
 
-![](../../external_files/0a53c324bf972339b752666775a5356a.png)
+![](viewing-restrictions-and-accommodations.images/image5.png)
 
 
 
@@ -64,7 +64,7 @@ To go back to the bulleted summary view, simply click the summary view icon at t
 
 
 
-![](../../external_files/3b92079ac43f66f477d924101216eb0d.png)
+![](viewing-restrictions-and-accommodations.images/image6.png)
 
 
 
@@ -74,7 +74,7 @@ While working in an encounter, there is a Subjective section that you can jump t
 
 
 
-![](../../external_files/672ba263e7b7291fb264b7cd6872b0a3.png)
+![](viewing-restrictions-and-accommodations.images/image7.png)
 
 
 
@@ -91,7 +91,7 @@ Any active current restrictions that are specifically linked to a case/incident 
 
 
 
-![](../../external_files/9b8a5c58a691f24d98001a39bde6f3e5.png)
+![](viewing-restrictions-and-accommodations.images/image8.png)
 
 
 
@@ -105,7 +105,7 @@ Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time. Â
 
 
 
-![](../../external_files/dec1fc9fd148aacb76bce5a49ccf6335.png)
+![](viewing-restrictions-and-accommodations.images/image9.png)
 
 
 
@@ -124,7 +124,7 @@ In order to view inactive restrictions within an encounter, simply click the enc
 
 
 
-![](../../external_files/913686ba66277b13962aa2a49831bb9e.png)
+![](viewing-restrictions-and-accommodations.images/image10.png)
 
 
 

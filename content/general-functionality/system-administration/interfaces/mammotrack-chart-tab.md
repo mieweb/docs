@@ -1,16 +1,16 @@
 ---
 title: "MammoTrack Chart Tab"
-date: 2020-02-27T20:29:13.529Z
+date: "2020-02-27T20:29:13.529Z"
 url: "general-functionality/system-administration/interfaces/mammotrack-chart-tab.html"
-version: 26
-id: 1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo
-source: https://drive.google.com/open?id=1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo
+version: 27
+id: "1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo"
+source: "https://drive.google.com/open?id=1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo"
 menu:
     main:
         name: "MammoTrack Chart Tab"
         identifier: "1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5340
+        weight: 5320
 ---
 ## Adding a Mammogram
 
@@ -26,17 +26,17 @@ You will then see the summary screen for Mammogram history for that specific pat
 
 To add a new mammogram, click the *Add Mammogram* link at the top right of the screen.
 
-![](../../../external_files/a7abb86cd28c883d19afed9435fef3a7.png)
+![](mammotrack-chart-tab.images/image1.png)
 
 After you click *Add Mammogram*, it will take you to the *Add Mammogram* screen.
 
 This is where you add the mammogram data for it to track for the patient.
 
-![](../../../external_files/3e44948b2d52889885ce5ecd31ab428b.png)
+![](mammotrack-chart-tab.images/image2.png)
 
 * <strong>Status:</strong> Use the drop-down to select the status of the mammogram you are adding for the patient. This is considered the <em>birad status.</em> If it is a new mammogram being added, you would choose status <em>Ready To Send</em> or <em>Held</em>. The options 0,1,2,3,4,5,6 are used by the radiologist after reading the mammogram and determining the status/results of the films. They choose the result status and change it (revise it) from <em>Ready to Send or Held</em> to the 0-6 result finding.
 
-![](../../../external_files/5bdbbff1e82053cd64963104f7fc1b34.png)
+![](mammotrack-chart-tab.images/image3.png)
 
 * <strong>Technologist:</strong> Choose the technologist who performed the mammogram by using the drop-down arrow. These names are loaded into a specific department. If the name of the technician does not show up on this list, please contact your administrator who will then contact MIE to make sure he/she gets loaded.
 * <strong>Radiologist:</strong> If you are adding a mammogram and choose status 0-6, meaning the radiologist has already read the films, you would choose the radiologist name from the drop-down also.
@@ -53,13 +53,13 @@ You will also again see the summary of mammograms underneath the add mammogram f
 
 You can click *Show All Histories* link at the top right of this summary to see the entire breakdown of each mammogram history ever taken place for the specific patient.
 
-![](../../../external_files/3e44948b2d52889885ce5ecd31ab428b.png)
+![](mammotrack-chart-tab.images/image4.png)
 
 You can click that link again to *hide all histories*. This then shows the one line summary for each patient in that summary category.
 
 The summary shows the current mammogram status of that specific mammogram. However, when you click *Show all Histories*, it shows any and each revision made to that specific mammogram and how it got from the step of being a new/added mammogram to the point of where it is now as current status. It shows the specific history of that mammogram for all patients in that summary category.
 
-![](../../../external_files/7bb991cf49bcd40718c4a231f6c3be7a.png)
+![](mammotrack-chart-tab.images/image5.png)
 
 ## Current Mammogram Status
 
@@ -84,13 +84,13 @@ The columns are:
     * <strong>Edit</strong> is used when there is an error in the mammogram information and needs changed (example: someone entered the wrong technologist name, etc).
     * <strong>Delete</strong> is used when a mammogram needs deleted and taken completely out.
 
-![](../../../external_files/16f608326d7ae9f7ca2b0df99dcc5ef9.png)
+![](mammotrack-chart-tab.images/image6.png)
 
 ## Printed Forms Not Scanned
 
 The other category in the Mammotrack summary screen is *Printed Forms that have not been Scanned* for that patient. This is a list of all MAMMOTRACK doc_type forms which have been printed (and not scanned) for that patient because these letters are set to be tracked. These are forms that are rendered and sent to the patient. This tracks those forms as to what form was sent and when. These forms are not scanned back into the system, so this is the list that tracks that.
 
-![](../../../external_files/a231fbd6c78964bbd410885dcf95d22a.png)
+![](mammotrack-chart-tab.images/image7.png)
 
 This is the same type of tracking list when you are in the MammoTrack side menu tab and are in the corresponding Birad top tab.
 
@@ -106,23 +106,23 @@ To update a mammogram, in E-Chart search and find the specific patient and click
 
 Once you have found the specific mammogram for that patient, click *update* from the options column at the far right. (You must have security rights to update/edit/delete mammograms).
 
-![](../../../external_files/fe1c0229b67715ac27692a7b690828bd.png)
+![](mammotrack-chart-tab.images/image8.png)
 
 *Update* option only appears for H or P or S birad status. H or P or S status is held, pending (ready to send), or sent statuses. You are updating a held, ready to send, or sent mammogram to another status or specific birad result/finding. You cannot update a mammogram that already has a birad result (0,1,2,3,4,5 or 6). You would have to *edit* if a radiologist's birad finding was already entered and needed changed.
 
 After clicking *update*, the *Update Mammogram* fields will appear on the screen.
 
-![](../../../external_files/4211f572ea16370e53534ac52b8874ee.png)
+![](mammotrack-chart-tab.images/image9.png)
 
 * <strong>Birad/Status:</strong> Shows the current status this mammogram is in. Use the drop-down to change the mammogram's birad or status. Depending on what birad or status you choose, other fields may open on the screen.
 * <strong>Radiologist:</strong> If you choose a birad of 0,1,2,3,4,5 or 6 you will need to enter the radiologist that read and determined this birad result for the mammogram. Select the radiologist by using the drop-down arrow.
 * <strong>Followup Date:</strong> If you select birad result 1,2,or 3 then the <em>Follow Up</em> field will appear. Type in the date that the patient is to follow-up with the physician for this mammogram. The follow-up date will default to a year from the date of the original mammogram. Most practices want a patient with a 1,2,or 3 birad result to follow-up for another mammogram in one year. However, you can change this by typing over the fields or picking a date from the pick date link.
 
-![](../../../external_files/35e5f69783a540b5d9966a0f2d88acaf.png)
+![](mammotrack-chart-tab.images/image10.png)
 
 * <strong>Biopsy:</strong> If you select birad result 4,5 or 6 then the <em>Biopsy</em> field will appear. If a biopsy was done in regards to this mammogram, then select <em>Complete</em>. Additional fields to enter in the source and the result (biopsy result) of Benign or Malignant will appear for ‘complete' biopsies. If there was no biopsy done or it is pending, then None or Pending will appear as choices in the Biopsy field also. If the patient refused a biopsy, that biopsy status is also available.
 
-![](../../../external_files/8cca3e48cdded39dd82d7d0ff0dba8d5.png)
+![](mammotrack-chart-tab.images/image11.png)
 
 * <strong>Comments:</strong> The comments currently tagged with the mammogram appear. You can add to them or type new comments.
 * <strong>Save/Reset/Cancel:</strong> Click Save to add the mammogram into the system for this patient. Click Reset to stay in the <em>update mammogram</em> mode, but it will reset all the fields and drop-downs to the default. Click Cancel to get out of the <em>update mammogram</em> mode.
@@ -135,7 +135,7 @@ You must have security rights to delete mammograms from the Mammotracking tab.
 
 To delete a mammogram, click the *delete* option. A *Confirm Delete* screen will appear.
 
-![](../../../external_files/d41506aba1fa35c0ab5e5ff20d6e21ce.png)
+![](mammotrack-chart-tab.images/image12.png)
 
 You cannot edit/delete/change the current comments associated with the mammogram. You must type in a *reason* for deleting the mammogram. Once you have done this, click *Delete* to proceed or Cancel to get out.
 
@@ -147,5 +147,5 @@ In the mammogram module, there is a ‘Set Preferences' link which allows the us
 
 The security setting on a user *Copy Followup Forms to Other* determines whether or not the user is allowed to copy their form default rules to another user's default rules:
 
-![](../../../external_files/305973d900fe2c286f6561d1dc4ae563.png)
+![](https://lh3.googleusercontent.com/w2wabexJMcdIzV5iDKOQWMMVzu2QR2IUR1b-VsSQL1mggJgS0YQsvtC_kGi9mcBgiWMy0ew8kviWOlx_s5ZUm7XpMINQUb-59DAUt9V95i-NVm-h7eqkfBkocLi666_cu-twsLX7eay3F3iv3A)
 

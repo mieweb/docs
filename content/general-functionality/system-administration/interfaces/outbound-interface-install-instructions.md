@@ -1,10 +1,10 @@
 ---
 title: "Outbound Interface Install Instructions"
-date: 2020-03-05T15:43:31.766Z
+date: "2020-03-05T15:43:31.766Z"
 url: "general-functionality/system-administration/interfaces/outbound-interface-install-instructions.html"
 version: 72
-id: 1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA
-source: https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA
+id: "1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA"
+source: "https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA"
 ---
 ## Overview
 
@@ -20,7 +20,7 @@ source: https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDit
 
 Refer To Systems (RTS) is used to manage connection details for vendors/services that receive data from {{% system-name %}}. The {{% syslink "RTS Editor" "f=admin&subfunc=rts_editor&t=Refer+to+Systems" %}} is found in the Control Panel.  It requires a permission level to access it.
 
-![](../../../external_files/4507037fda9d09041a864135f04d1ae9.png)
+![](outbound-interface-install-instructions.images/image1.png)
 
 Each RTS entry contains: 
 
@@ -35,7 +35,7 @@ Each RTS entry contains:
 
 Here are the available connection options that the RTS editor supports
 
-![](../../../external_files/d44c1290fdd4d328864c6117961f279d.png)
+![](outbound-interface-install-instructions.images/image2.png)
 
 1. Socket
     * Format: 'socket'|[IP address]|[port]|[SSL flag 1/0]
@@ -69,7 +69,7 @@ Here are the available connection options that the RTS editor supports
 
 Here are the types of outbound messages that can be configured for each RTS endpoint.  Selecting these determines how they are represented inside of Webchart and EH.
 
-![](../../../external_files/ce5ed035ceed3dc0c5af2c1b43a3abaf.png)
+![](outbound-interface-install-instructions.images/image3.png)
 
 1. Is WebChart?
     * For sending messages between 2 Webchart systems
@@ -101,7 +101,7 @@ There are many available triggers
 * <em>On Appointments Add</em> - creates SIU
 * <em>On Procedures for Billing Add</em> - creates DFT
 
-![](../../../external_files/fe045f4e12ed432dcdd991533bcdb083.png)
+![](outbound-interface-install-instructions.images/image4.png)
 
 
 
@@ -110,7 +110,7 @@ JOINs and WHERE clause
 * This allows for more filtering to work with specific sets of patients.  Requires some understanding of the Webchart DB schema.  Generally requires MIE EDI team to build.  However, manually copying Auto Route JOINs and WHERE Clauses into new Auto Routes is also possible.
 * The <em>Help Me</em> feature allows non-power users to build their own commonly used Join/Where clauses.
 
-![](../../../external_files/858ac6ea9e851d229d4de23898eac280.png)
+![](outbound-interface-install-instructions.images/image5.png)
 
 
 
@@ -118,7 +118,7 @@ There are many available send options
 
 * <em>HL7 Send</em> - this will send out HL7 messages
 
-![](../../../external_files/40942661c1b722cb328d0ad0bf5d5c55.png)
+![](outbound-interface-install-instructions.images/image6.png)
 
 
 
@@ -135,11 +135,11 @@ The Send Queue has reports that show the records
 * <em>Error</em> - messages that were unable to send successfully
 * <em>Completed/Acknowledged</em> - messages that were sent successfully
 
-![](../../../external_files/e2b7fc6b5e2a8665cdaf03d502f3cef3.png)
+![](outbound-interface-install-instructions.images/image7.png)
 
 
 
 Resending messages is possible for Completed messages using the Options *Resend *link
 
-![](../../../external_files/2844b1944f3b82f411f5acc332713d84.png)
+![](outbound-interface-install-instructions.images/image8.png)
 

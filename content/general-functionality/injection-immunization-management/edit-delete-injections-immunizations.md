@@ -1,22 +1,22 @@
 ---
 title: "Edit/Delete Injections/Immunizations"
-date: 2020-03-16T14:36:13.205Z
+date: "2020-03-16T14:36:13.205Z"
 url: "general-functionality/injection-immunization-management/edit-delete-injections-immunizations.html"
-version: 46
-id: 1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI
-source: https://drive.google.com/open?id=1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI
+version: 47
+id: "1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI"
+source: "https://drive.google.com/open?id=1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI"
 menu:
     main:
         name: "Edit/Delete Injections/Immunizations"
         identifier: "1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI"
         parent: "1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA"
-        weight: 2290
+        weight: 2270
 ---
 To make an edit or modify a specific immunization or injection record, get into the patient's injections tab to show the list of active immunizations/injections.  Find the specific injection or immunization that you wish to edit and click on the underlined injection/immunization name to get into the edit mode.
 
 
 
-![](../../external_files/8cb7c2964ed6231ef97dfa5de2af7987.png)
+![](edit-delete-injections-immunizations.images/image1.png)
 
 
 
@@ -24,7 +24,7 @@ The injection record will appear.  You can change/edit any of the fields if you
 
 
 
-![](../../external_files/512e97404174d891a185f06e38ce5902.png)
+![](edit-delete-injections-immunizations.images/image2.png)
 
 
 
@@ -38,7 +38,7 @@ It also gives a confirmation towards the top that says Successfully modified inj
 
 
 
-![](../../external_files/e8932309f0f56a363e8b034d1a24a6ca.png)
+![](edit-delete-injections-immunizations.images/image3.png)
 
 
 
@@ -46,7 +46,7 @@ When an edit is done, the Injection/Immunization listing also shows the initials
 
 
 
-![](../../external_files/8b1e096cb7245142f19fa5012eee4ad7.png)
+![](edit-delete-injections-immunizations.images/image4.png)
 
 
 
@@ -56,13 +56,13 @@ To delete a specific immunization or injection record, get into the patient's in
 
 
 
-![](../../external_files/a6ca5bec8c6c91f04141f8570970074a.png)
+![](edit-delete-injections-immunizations.images/image5.png)
 
 The injection record will appear. To delete the injection/immunization, click Delete at the bottom of this record.
 
 
 
-![](../../external_files/c077c353ff02a2fbac047a5c9adcb926.png)
+![](edit-delete-injections-immunizations.images/image6.png)
 
 
 
@@ -70,7 +70,7 @@ After clicking Delete, it will then ask you to confirm that you really want to d
 
 
 
-![](../../external_files/8fe31252cd2edc2a671931054873bdb5.png)
+![](edit-delete-injections-immunizations.images/image7.png)
 
 
 
@@ -80,7 +80,7 @@ Another dialog screen will appear and will require you to type in the Reason for
 
 
 
-![](../../external_files/2a55155de0f88c9c811d322759211b4c.png)
+![](edit-delete-injections-immunizations.images/image8.png)
 
 
 
@@ -88,13 +88,13 @@ You must type in the reason for deleting this injection record.  It will not ac
 
 After typing in the reason for deleting the record, click Delete Document button below the reason field.
 
-![](../../external_files/8412826781a7641a678ee4fb7bea2b83.png)
+![](edit-delete-injections-immunizations.images/image9.png)
 
 After you have typed in the reason for deletion and clicked Delete Document, it will say a confirmation message that Document (#) has been Deleted Successfully. And it will have the injection deletion record below that with the reason for deletion.
 
 
 
-![](../../external_files/4b1271885cbf642c8a125ac86afc2d9f.png)
+![](edit-delete-injections-immunizations.images/image10.png)
 
 
 
@@ -104,7 +104,7 @@ To view the deleted immunizations or deleted other injections for the specific p
 
 
 
-![](../../external_files/6e40c45dcb9f621968d602b479ced262.png)
+![](edit-delete-injections-immunizations.images/image11.png)
 
 
 
@@ -114,7 +114,7 @@ Once you have found the deleted injection record in DocSum (will say Deleted in 
 
 
 
-![](../../external_files/af6f8f5d8f1a3e04fe4d29b6aa74adb9.png)
+![](edit-delete-injections-immunizations.images/image12.png)
 
 
 
@@ -122,7 +122,7 @@ After clicking the DocID number for the deleted injection record, that specific 
 
 
 
-![](../../external_files/4b1271885cbf642c8a125ac86afc2d9f.png)
+![](https://lh6.googleusercontent.com/d-FRt6Bc25xqeoESt2q2RhsbDdlzo-3i6zY1_gn-JWbgF8ze0DaCIvaG-w-AP7jmT6jsiTSvzOUVOC8HVXkqOT8LnH5BJ_0RSwZJ35EL3W_yf2pSz-7P_M2w1kRIH6OZ5le3B4dQFNjkxGy4Yw)
 
 
 

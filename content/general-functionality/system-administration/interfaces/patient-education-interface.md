@@ -1,16 +1,16 @@
 ---
 title: "Patient Education Interface"
-date: 2020-03-19T18:42:55.464Z
+date: "2020-03-19T18:42:55.464Z"
 url: "general-functionality/system-administration/interfaces/patient-education-interface.html"
-version: 34
-id: 1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo
-source: https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo
+version: 35
+id: "1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
+source: "https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
 menu:
     main:
         name: "Patient Education Interface"
         identifier: "1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5360
+        weight: 5340
 ---
 {{% system-name %}}  has the ability to interface with Patient Education resources such as Healthwise. This is a billable add-on along with monthly costs that can be quoted out by your MIE Implementer. HealthWise patient instructions integration then must be turned on and configured to your system.
 
@@ -34,13 +34,13 @@ In those areas, you will see Search links that take you to Healthwise.
 
 Patient Summary tab:
 
-![](../../../external_files/e83ef403b389d222e734d2edb10d6ff8.png)
+![](patient-education-interface.images/image1.png)
 
 
 
 Patient's Conditions tab:
 
-![](../../../external_files/9d6d98f12a0497f46a777f8b0f0dfda2.png)
+![](patient-education-interface.images/image2.png)
 
 These Search links when clicked take you to a separate window to the Healthwise Patient Education site.
 
@@ -50,7 +50,7 @@ You can switch languages to print it out in by the drop-down in the Healthwise w
 
 
 
-![](../../../external_files/833490caa42a2190fdfebc24d2b94854.png)
+![](patient-education-interface.images/image3.png)
 
 
 
@@ -58,13 +58,13 @@ You can also select the font print size to print for the patient.
 
 
 
-![](../../../external_files/84bf602b5fbc9143fcf765020e046d23.png)
+![](patient-education-interface.images/image4.png)
 
 
 
 You can also click the ADD NOTE button to add your own text and notes for the handout you are going to be rendering for the patient. The ‘notes' you type in there will render as page 1 of the final document. You can also save note ‘templates' to use for future times. Type it in and then click the "save or update Note as:" and name it. Then you can use an "existing note template" from that drop-down on future education documents you render.
 
-![](../../../external_files/c476acc40f25d79ec931975035c5b316.png)
+![](patient-education-interface.images/image5.png)
 
 Click **Print** when ready to print it.
 
@@ -72,9 +72,9 @@ When a user prints the Healthwise patient material,  {{% system-name %}} querie
 
 
 
-![](../../../external_files/996ffd7f4e95e48294e62978a470db3e.png)
+![](patient-education-interface.images/image6.png)
 
-![](../../../external_files/447b72d3ff5bc40001f1cabbaac4f0e9.png)
+![](patient-education-interface.images/image7.png)
 
 By default, the document is stored as doc.type WCHEALTH. You should have the doc.type WCHEALTH in your system with the description of it being "Healthwise Patient Education". You can change the system setting to store these to a different doc.type, however by default it's already set up to point to WCHEALTH doc.type.
 
@@ -82,12 +82,12 @@ By default, the document is stored as doc.type WCHEALTH. You should have the doc
 
 If you are doing Meaningful Use, you would **not** want to change this setting to store as doc.type WCPATED because WCPATED is looked at in meaningful use measures/calculations and could skew that data.
 
-![](../../../external_files/0b0d5a9c7fe933c4dcb766c05541c8ed.png)
+![](patient-education-interface.images/image8.png)
 
 {{% /note %}}
 
 
 That doc.type should be specified to show in a specific chart tab. You can go to that chart tab to find the uploaded Healthwise Patient Education and the subject line contains which education material it is. This stores as a PDF file type for accessing.
 
-![](../../../external_files/4badce8eef002ea7da655b1e646a4e9b.png)
+![](patient-education-interface.images/image9.png)
 

@@ -1,17 +1,17 @@
 ---
 title: "Case Management CSV API"
-date: 2020-02-27T21:32:08.466Z
+date: "2020-02-27T21:32:08.466Z"
 url: "general-functionality/system-administration/data-migration/case-management-csv-api.html"
 author: aquandt
-version: 17
-id: 1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM
-source: https://drive.google.com/open?id=1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM
+version: 18
+id: "1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM"
+source: "https://drive.google.com/open?id=1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM"
 menu:
     main:
         name: "Case Management CSV API"
         identifier: "1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5090
+        weight: 5070
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) using the Case Management CSV API. A **case** encompasses a variety of data that is ultimately meant to generate an [OSHA 300 log](https://www.osha.gov/recordkeeping/RKforms.html) for [occupational injuries and illness.](https://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&p_part_number=1904)
 

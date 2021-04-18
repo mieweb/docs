@@ -1,17 +1,17 @@
 ---
 title: "Pending E-Sign Reviews"
-date: 2020-03-10T14:22:54.163Z
+date: "2020-03-10T14:22:54.163Z"
 url: "general-functionality/e-sign-electronic-signature/pending-e-sign-reviews.html"
 author: aquandt
-version: 42
-id: 1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I
-source: https://drive.google.com/open?id=1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I
+version: 43
+id: "1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I"
+source: "https://drive.google.com/open?id=1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I"
 menu:
     main:
         name: "Pending E-Sign Reviews"
         identifier: "1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I"
         parent: "1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854"
-        weight: 2430
+        weight: 2410
 ---
 E-Sign is used to electronically mark a document by putting the label "Signed by: Michael Example, MD" on a document in {{% system-name %}} within a chart.  This ‘signature label' is called an E-sign (electronic signature).  It's not a wet signature in handwriting, but it is a place in the document properties header that says "Signed by: Michael Example, MD".  It puts the name of the person that reviewed the document and marked it as ‘sign'.
 
@@ -25,7 +25,7 @@ The Pending Reviews tab, found within the E-Sign sidemenu tab module, is where u
 
 
 
-![](../../external_files/79f987d4f2608e599d0d24286ab5c1f5.png)
+![](pending-e-sign-reviews.images/image1.png)
 
 
 
@@ -33,7 +33,7 @@ Another way to get to your assigned pending e-sign requests is by going to the E
 
 
 
-![](../../external_files/329842e0c2cbf5560bff1f68cdd626a0.png)
+![](pending-e-sign-reviews.images/image2.png)
 
 
 
@@ -54,7 +54,7 @@ High priority requests will be at the top and highlighted in red, followed by no
 
 
 
-![](../../external_files/0c1915b98dc304b0f6bca5a62d6eb747.png)
+![](pending-e-sign-reviews.images/image3.png)
 
 
 
@@ -64,7 +64,7 @@ The Last Reviewed Documents category/bucket will be displayed next which lists d
 
 
 
-![](../../external_files/90366a026d2266e1c0a12e31f8ac0493.png)
+![](pending-e-sign-reviews.images/image4.png)
 
 
 
@@ -72,7 +72,7 @@ The Pending Reviews tab can have a custom layout configured by MIE.  Some workf
 
 
 
-![](../../external_files/47646ed5d48768aa848c18669c432080.png)
+![](pending-e-sign-reviews.images/image5.png)
 
 
 
@@ -82,7 +82,7 @@ When viewing the Pending Documents awaiting your e-signature, simply click the D
 
 
 
-![](../../external_files/1eea6cd31e0c2ec56b4b4e9e76d06a1d.png)
+![](pending-e-sign-reviews.images/image6.png)
 
 
 
@@ -90,7 +90,7 @@ The Doc ID is a hyperlink that will take you directly into the specific document
 
 
 
-![](../../external_files/d8db7ec0beba295063ffa175f9aaa2f4.png)
+![](pending-e-sign-reviews.images/image7.png)
 
 
 
@@ -98,7 +98,7 @@ When done reviewing the document, scroll to the bottom of the document.  You wi
 
 
 
-![](../../external_files/240b24b77926907e6bc6978677888245.png)
+![](pending-e-sign-reviews.images/image8.png)
 
 
 
@@ -123,7 +123,7 @@ There is a My Settings preference available to increase the number of documents 
 {{% /tip %}}
 
 
-![](../../external_files/9d4db2bd45b3c14893872a04928e9449.png)
+![](pending-e-sign-reviews.images/image9.png)
 
 
 
@@ -133,7 +133,7 @@ At the top and at the very bottom is the button Mark All as Signed.  If you cli
 
 
 
-![](../../external_files/6164cd62cd77a4ec91f8c8dd0dbb430a.png)
+![](pending-e-sign-reviews.images/image10.png)
 
 
 
@@ -141,7 +141,7 @@ However, each document displayed does still offer individual functions.  You co
 
 
 
-![](../../external_files/9f16fc4cb6b010ba2d1ace65e1172c3c.png)
+![](pending-e-sign-reviews.images/image11.png)
 
 #### Options in Multi-Review
 
@@ -149,7 +149,7 @@ Even if you checked them all the documents in bulk as ‘Sign', you can change t
 
 
 
-![](../../external_files/9f16fc4cb6b010ba2d1ace65e1172c3c.png)
+![](pending-e-sign-reviews.images/image12.png)
 
 
 
@@ -162,7 +162,7 @@ The choices on individual documents being reviewed and signed using Multi-Review
 * Reject: Choose this if you wish to reject the document with notes/reason and it will automatically be sent to your user tasklist in the form of a task and it will take it out of your E-sign pending queue. The system automatically marks this rejected E-sign task as High and attaches the document.  Click the radio button next to ‘Reject' then can type in a note/reason in the free-text comment box next to that. Those comments will show up in the information bubble in document properties.  If you wish to reject, yet want to request a signature(s) from other people, then, you still click the radio button next to ‘Reject' then you can go over and select a person from the Request Signature dropdown arrow field.  This will reject and take the document out of your E-Sign queue.  It will then be sent back to the original requesting user in a task form.  It also then will request the signature from the other person(s) (if you selected any). Continue with the next document in your Multi-Review Listing and make selections.  When done with all documents and selections, click Sign Marked Documents.  When a provider rejects a signature it will task the person that sent it to him (or a specific person/dept depending on how you have the reject fast task setup), but it does not automatically un-request the signature.  Whomever receives the reject task has to manually un-request the signature for the person that rejected it.
 * Request Signature:  You must choose an option before this (must select either to do nothing, sign or reject) then can use this field to request another signature from someone.  A comment box next to the Request Signature drop-down will open to type in any comments for the person you are requesting a signature from
 * Add Dictation:  If system is enabled for dictation, can click this link and the dictation player will open and appear in the top corner.  You can add dictation to the specific e-sign document you are working in. If dictate something into the player, it will send the dictation job to the dictation tab/queue.  The transcriptionist then can open the dictation and/or the document you sent this from in esign. This allows the transcriptionist to access the document easily to make edits to if need be from your dictation remarks.
-* Add Document:  Click this and another screen will open to the add document module of {{% system-name %}} .  You can add/create any document (ex: note) to the patient's chart from here. Any document you create/add from multi-review esign using this add document feature will link themselves to the document being reviewed. You will see this in the document links section of the add document properties screen that opens once you've selected what type of document to ‘add'.    ![](../../external_files/3cc0a839052576d7df7e550ef3171042.png)
+* Add Document:  Click this and another screen will open to the add document module of {{% system-name %}} .  You can add/create any document (ex: note) to the patient's chart from here. Any document you create/add from multi-review esign using this add document feature will link themselves to the document being reviewed. You will see this in the document links section of the add document properties screen that opens once you've selected what type of document to ‘add'.    ![](pending-e-sign-reviews.images/image13.png)
 
 
 
@@ -172,7 +172,7 @@ The choices on individual documents being reviewed and signed using Multi-Review
 
 Scroll all the way at the bottom of the documents being displayed in bulk count using the Multi-Review feature to see the option to access the button Sign Marked Documents.  
 
- ![](../../external_files/93912dfe29a81397538261ed25990af1.png)
+ ![](pending-e-sign-reviews.images/image14.png)
 
 
 
@@ -180,7 +180,7 @@ After all the documents, displayed in bulk using Multi-Sign, have been marked to
 
 
 
-![](../../external_files/ba4e14d833bb5050158605771f3ee2e6.png)
+![](https://lh6.googleusercontent.com/3tYSjdq5Tpp-utilU5AB29BnozWH8woHw8ez6q9iyJsA1PwqjxXjPh2U6_65XGEof0EvygFlEjAbGthlBf54WztKl3f474yAT_0JAck5RyKJc3Ztlp4KsdTQTtW-LwULJZUKPnmnHLa7BvxhSw)
 
 
 

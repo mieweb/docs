@@ -1,16 +1,16 @@
 ---
 title: "Due List"
-date: 2020-03-30T17:02:56.352Z
+date: "2020-03-30T17:02:56.352Z"
 url: "general-functionality/health-surveillance/due-list.html"
-version: 78
-id: 1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg
-source: https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg
+version: 79
+id: "1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg"
+source: "https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg"
 menu:
     main:
         name: "Due List"
         identifier: "1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg"
         parent: "13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg"
-        weight: 1840
+        weight: 1820
 ---
 Tests or Procedures items that are "due" (pending) are displayed in dynamic encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
 
@@ -20,7 +20,7 @@ When viewing the Summary chart tab, there is a portlet available for display nam
 
 
 
-![](../../external_files/0c0c7a4673d50385ac71646142202c27.png)
+![](due-list.images/image1.png)
 
 
 
@@ -32,7 +32,7 @@ If a Health Surveillance Panel, the chart is a member of, has any comments (on t
 
 
 
-![](../../external_files/1153a4fee523465f84ba874cd9be7d25.png)
+![](due-list.images/image2.png)
 
 
 
@@ -40,7 +40,7 @@ A Due List is a list of pending orders with due dates for a chart.  These can b
 
 
 
-![](../../external_files/deec4a65718114207cefa16c19ae2c50.png)
+![](due-list.images/image3.png)
 
 
 
@@ -52,7 +52,7 @@ Due List items in this section are pending tests or procedures on the chart that
 
 
 
-![](../../external_files/bff5f958513c1b8b0707b61a52783fd1.png)
+![](due-list.images/image4.png)
 
 
 
@@ -60,7 +60,7 @@ After selecting the specific pending items to work, click the appropriate button
 
 
 
-![](../../external_files/45deee73d91bea7458dacb13651b463b.png)
+![](due-list.images/image5.png)
 
 ### Edit Items
 
@@ -68,7 +68,7 @@ The Edit Items button is where you can set or change the status of due list item
 
 
 
-![](../../external_files/1fdc0e602498159e5d24f98b251de55a.png)
+![](due-list.images/image6.png)
 
 #### No Change
 
@@ -100,7 +100,7 @@ Typically if declining a pending due list item, most workflows call for the pati
 
 
 
-![](../../external_files/6b0a0d6aeea76816864d4f9b5d4135ff.png)
+![](due-list.images/image7.png)
 
 #### Deleted
 
@@ -167,7 +167,7 @@ This is an easy way for a user to generate waitlist appointments from the chart'
 
 
 
-![](../../external_files/b7b40e185c6d89f1b5ef9a408eab0ab8.png)
+![](due-list.images/image8.png)
 
 
 
@@ -175,7 +175,7 @@ The pending due list item (order item) must have a corresponding appt type set t
 
 
 
-![](../../external_files/7a90380aaa5f6e0068fa0861d1335039.png)
+![](due-list.images/image9.png)
 
 
 
@@ -183,7 +183,7 @@ If a pending due list item does not have an appointment type linked to the main 
 
 
 
-![](../../external_files/384187ed955a3a122146886f5e9201c4.png)
+![](due-list.images/image10.png)
 
 
 
@@ -191,7 +191,7 @@ If the system does find an appt type linked to the specific order item that is o
 
 
 
-![](../../external_files/9b6516937698d3c49b75187e26990fdf.png)
+![](due-list.images/image11.png)
 
 
 
@@ -199,7 +199,7 @@ The pending due list item will remain on the due list as pending, but when in th
 
 
 
-![](../../external_files/ffae7bc0312fa8257416385a7bfb4337.png)
+![](due-list.images/image12.png)
 
 
 
@@ -207,7 +207,7 @@ The viewable details of the waitlist appointment will display the various appoin
 
 
 
-![](../../external_files/60bc212bbcee782b2702cb419b957d7f.png)
+![](due-list.images/image13.png)
 
 ### Evaluate
 
@@ -219,7 +219,7 @@ Automatic nightly scheduled jobs can also be configured to always ‘evaluate' a
 
 
 
-![](../../external_files/e3507092ee600c498719ef3f24d2d488.png)
+![](due-list.images/image14.png)
 
 
 
@@ -232,7 +232,7 @@ The system will evaluate the health surveillance panel that was checkmarked.  A
 
 
 
-![](../../external_files/53f24cefc2464630b5b67ce6c4cca281.png)
+![](due-list.images/image15.png)
 
 
 
@@ -240,7 +240,7 @@ Back on the due list, the system now shows each and every order item that is par
 
 
 
-![](../../external_files/c4987c3f383c48014621cb057884cfa8.png)
+![](due-list.images/image16.png)
 
 ### Create Order
 
@@ -248,7 +248,7 @@ If a pending due list items needs referred out to have performed, an order shoul
 
 
 
-![](../../external_files/9eb526e23f9eff0a0894bfd44d548384.png)
+![](due-list.images/image17.png)
 
 
 
@@ -267,7 +267,7 @@ Some order items on a due list may be performed right then and there via the Due
 
 
 
-![](../../external_files/1e8c6653ce77f3fb264ef9ddbdfe33b3.png)
+![](due-list.images/image18.png)
 
 
 
@@ -275,7 +275,7 @@ When the pending due list item(s) are selected, click the Perform button.  An e
 
 
 
-![](../../external_files/3bc26ca8bb1ed300997315c19cdd53af.png)
+![](due-list.images/image19.png)
 
 
 
@@ -287,7 +287,7 @@ This is simply a quick way to refresh the Due List chart tab instead of going ou
 
 
 
-![](../../external_files/b71384e90c5521293df76000c28f1cbb.png)
+![](due-list.images/image20.png)
 
 ### Add Orders
 
@@ -295,7 +295,7 @@ A test or procedure item, or a main Health Surveillance Panel can be added to th
 
 
 
-![](../../external_files/acf46a3509d037187144de7553e2e786.png)
+![](due-list.images/image21.png)
 
 
 
@@ -303,7 +303,7 @@ To add a test or procedure to the due list, click the Add New Orders button.  W
 
 
 
-![](../../external_files/468c3249ab9d785cf0382b99634ea0c0.png)
+![](due-list.images/image22.png)
 
 
 
@@ -315,7 +315,7 @@ From any due list item regardless of which section the item is listed in, there 
 
 
 
-![](../../external_files/74e84ecd264bf6e540ff653dc2330a87.png)
+![](due-list.images/image23.png)
 
 
 
@@ -323,7 +323,7 @@ Clicking on the View Details link on a specific due list item will show details 
 
 
 
-![](../../external_files/dbcb9a3086051edf88de00b4d5a4ba7f.png)
+![](due-list.images/image24.png)
 
 ## In Progress Items Section
 
@@ -331,7 +331,7 @@ Due List items that have a status of In Progress will be found in this section. 
 
 
 
-![](../../external_files/6253edf254adae68cf0790f830ebbba9.png)
+![](due-list.images/image25.png)
 
 ## Past Items Section
 
@@ -339,7 +339,7 @@ Due List items that have a status other than pending or in progress, will be fou
 
 
 
-![](../../external_files/1b79e08eba44228db1d58c48bbadccbd.png)
+![](due-list.images/image26.png)
 
 
 
@@ -351,7 +351,7 @@ Edit Items is a function button found in both the In Progress and Past Items sec
 
 
 
-![](../../external_files/71cf2a922383459b94629a3897a6dfdb.png)
+![](due-list.images/image27.png)
 
 
 

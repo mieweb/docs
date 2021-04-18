@@ -1,22 +1,22 @@
 ---
 title: "Reset User Passwords"
-date: 2020-03-16T22:43:01.849Z
+date: "2020-03-16T22:43:01.849Z"
 url: "general-functionality/system-administration/system-controls/reset-user-passwords.html"
-version: 35
-id: 19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws
-source: https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws
+version: 36
+id: "19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws"
+source: "https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws"
 menu:
     main:
         name: "Reset User Passwords"
         identifier: "19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws"
         parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-        weight: 4510
+        weight: 4490
 ---
 Must have security permissions to be able to add/edit/delete users
 
 A user may have tried to log in using the wrong password too many times. It will then lock that user out. You will need to reset their password.
 
-![](../../../external_files/91b7aab838cbbd2190e5f3c096f33599.png)
+![](reset-user-passwords.images/image1.png)
 
 ## Search for the User
 
@@ -33,21 +33,21 @@ You can search for a user if you know what department(s) they are attached to an
 
 This will pop-up any users that match to that last name (or first few letters of the last name if you entered).
 
-![](../../../external_files/f1197b4b7e9bffcb7ca8c2798ae0659b.png)
+![](reset-user-passwords.images/image2.png)
 
 Once your results produce, click on the underlined username (on the left column) that you want to edit or view. This pops up the summary screen of this user's information. You can view all the information for that user. There is also links in the summary to view when the user's last login failed and when the user last logged in.
 
-![](../../../external_files/72f5b9b52a889e54d01d66be450cae3d.png)
+![](reset-user-passwords.images/image3.png)
 
 Click the Edit User link found at the top right of this user summary screen.
 
-![](../../../external_files/72f5b9b52a889e54d01d66be450cae3d.png)
+![](reset-user-passwords.images/image4.png)
 
 When you are in the user's username screen, scroll down to the password section towards the bottom right.
 
 Do the following 6 steps to reset a password:
 
-![](../../../external_files/b5b8ba7cc363ec7e1ea7282af0cac3d5.png)
+![](reset-user-passwords.images/image5.png)
 
 1. <strong>Password Expire Date:</strong> Must make it today's date. Simply click the TODAY button. Make it today's date. That way it prompts the user (when they login) to create their own unique password since the generic one you are setting will expire today. Passwords expire every 30 days and the user gets prompted to change their password when logging into {{% system-name %}} 30 days from when the password is set/changed. However, when creating a new user, you want it to expire ‘today' so they will be prompted immediately upon initial login so they can set their own unique password.
 2. <strong>Login Expire Date:</strong> Leave blank. If your company sets up a temporary user for a limited amount of time to access their {{% system-name %}} , they can enter a login expire date here and it will automatically (on this date entered) expire their login and they will not be allowed to log back in after the expiration date.
@@ -56,18 +56,18 @@ Do the following 6 steps to reset a password:
 
 
 
-![](../../../external_files/8249a97a424b5dacc33038046c6abe84.png)
+![](reset-user-passwords.images/image6.png)
 
 
 
 5. <strong>Verify Password</strong>: Retype in the generic password you are using as the reset password for the user.
 6. <strong>Reset Fail Count:</strong> You must check-mark the <em>Reset Fail Count</em> box. If a user logs in too many times with the wrong information, the user gets locked out of the {{% system-name %}} system. You reset the password in the steps above <strong>and</strong> also checkmark this box. If you don't check-mark to reset the fail count, it still will not allow the user to login. You must check-mark this box to reset and unlock the user's login.
 
-![](../../../external_files/ef3ec17974aeff83f174e118d2ab3914.png)
+![](https://lh4.googleusercontent.com/1-_JAcxrL-h2CHQ59CJyF_RqiD8nKAKstaoITrmCf8_zaGCMTLU-9gOTuPuDIMXDvm_d9XDqHeZHvlL226w3ys4S6z1QWmMMCexvldZ88sIkJRi8fBNDfLVJhWgxKAhM667rb6saHVU381Cr3g)
 
 You must then click the **SUBMIT EDIT** button at the bottom of the user screen.
 
-![](../../../external_files/b5b8ba7cc363ec7e1ea7282af0cac3d5.png)
+![](https://lh4.googleusercontent.com/A0hxL61WGFXyNi2nMIQhIZqcF5kM7Ywdti8mdKfUhlh5BIpJfU3ve6H18tXzrWPMcLiy1DSN1L_5iq7GtDBivgLOLDEQdPRAjsJ-Ypo14_UFoSji3Usn7368aMMa4-taYpdVs7uVUUGIR3OqoA)
 
 The user is now unlocked and can now log back into {{% system-name %}} with the password you reset it to and be prompted to change it to their own unique password can hold up to 50 characters and can be configured with alpha, capital letters, lowercase, numbers or other extended characters. Please have user read other help documentation named *Log On to |system|.pdf* for more specific information on passwords and the configurations, restrictions, and password expirations.
 

@@ -1,10 +1,10 @@
 ---
 title: "Security Best Practices"
-date: 2020-03-09T18:45:50.193Z
+date: "2020-03-09T18:45:50.193Z"
 url: "general-functionality/e-chart/security-best-practices.html"
-version: 27
-id: 1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU
-source: https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU
+version: 30
+id: "1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU"
+source: "https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU"
 menu:
     main:
         name: "Security Best Practices"

@@ -1,17 +1,17 @@
 ---
 title: "Transcription Report"
-date: 2021-02-22T18:34:34.162Z
+date: "2021-02-22T18:34:34.162Z"
 url: "general-functionality/reports/transcription-report.html"
-author: Edward Grzetich
-version: 35
-id: 1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM
-source: https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM
+author: egrzetich
+version: 36
+id: "1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM"
+source: "https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM"
 menu:
     main:
         name: "Transcription Report"
         identifier: "1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4360
+        weight: 4340
 ---
 {note}The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {system-name} and not performance metrics.{/note}
 
@@ -42,7 +42,7 @@ You must have security role access to reports and to viewing transcription stati
 1. Show the side menu. The side menu appears.
 2. From the side menu, select <strong>Reports</strong>.
 3. Select <strong>Dictation/Transcription</strong>. The <em>Dictation/Transcription</em> section appears.
-4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears. ![](../../external_files/f4190f61f9dbc747972dacec7e971248.png)
+4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears. ![](transcription-report.images/image1.png)
 5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report: 
     * <em>Select </em> <em>Department</em>: Select department for which to view transcription statistics.
     * <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user. If you selected a department in the <em>Select Department</em> field, only users in that department are shown in this field. If you did not select a department, all users are shown in this field.
@@ -63,9 +63,9 @@ You must have security role access to reports and to viewing transcription stati
         * To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
 
-![](../../external_files/02f4d111614bbf7cc6e830b079724a6d.png)
+![](transcription-report.images/image2.png)
 
-![](../../external_files/374e7df17d7037ff90874ce921d11e7a.png)
+![](transcription-report.images/image3.png)
 
 
 

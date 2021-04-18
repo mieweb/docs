@@ -1,16 +1,16 @@
 ---
 title: "Security"
-date: 2020-02-27T20:25:07.589Z
+date: "2020-02-27T20:25:07.589Z"
 url: "general-functionality/system-administration/security.html"
-version: 13
-id: 15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY
-source: https://drive.google.com/open?id=15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY
+version: 14
+id: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
+source: "https://drive.google.com/open?id=15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
 menu:
     main:
         name: "Security"
         identifier: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
         parent: "1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo"
-        weight: 5230
+        weight: 5210
 ---
 
 

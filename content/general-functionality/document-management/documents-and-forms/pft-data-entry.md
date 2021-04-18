@@ -1,10 +1,10 @@
 ---
 title: "PFT Data Entry"
-date: 2020-03-06T20:35:16.544Z
+date: "2020-03-06T20:35:16.544Z"
 url: "general-functionality/document-management/documents-and-forms/pft-data-entry.html"
-version: 39
-id: 1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg
-source: https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg
+version: 40
+id: "1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg"
+source: "https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg"
 menu:
     main:
         name: "PFT Data Entry"
@@ -27,12 +27,12 @@ To access and utilize a bubble form for recording information, simply navigate t
 1. While in the appropriate chart, access and print the PFT bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
 
-![](../../../external_files/9784b1ef26e37527b0e59dd742b21414.png)
+![](pft-data-entry.images/image1.png)
 
 3. Print out the bubble form.
 4. Record results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](../../../external_files/1df1c19968db5dbe2f69f65c81f29d1d.png)
+![](pft-data-entry.images/image2.png)
 
 {{% info %}}
 
@@ -49,25 +49,25 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 Navigating to the **Test Results** chart tab allows users to select what type of results need to be entered or reviewed. One of the types of results is **PFT** results. When selected, the screen will display an entry screen to key in a new PFT test, but will also show a *List View* of all of the archived/closed (i.e., stored documents) PFT tests at the bottom of the page.
 
-![](../../../external_files/feb48d8bdc53ac3df30abd4934ba9df8.png)
+![](pft-data-entry.images/image3.png)
 
 To add new PFT data from the Test Results chart tab:
 
 1. Click the <strong>New Manual Test</strong> to enter the PFT data.
 
-![](../../../external_files/448f6b474763be696d27c71f6abec108.png)
+![](pft-data-entry.images/image4.png)
 
 2. If performing a <em>New Manual Test</em>, begin filling in the fields with the appropriate data.
 3. In the PFT manual-entry screen, there is the ability to enter an interpretation and mark a maneuver as the <em>best maneuver</em>. In the list of all maneuvers, views of the interpretation of a maneuver will show the first 25 characters, with the rest visible while hovering.
 
-![](../../../external_files/bff69892cec283fc0c6d726e96101646.png)
+![](pft-data-entry.images/image5.png)
 
  
 
 {{% info %}} PFT Interpretation data can be populated as an encounter view. This is an optional setting that can be enabled on encounter views to show PFT Interpretation. {{% /info %}}
 
 
-4. When completed, click the <strong>Save</strong> button. The <strong>Save</strong> button will only appear if the New Manual Test button has been clicked.  ![](../../../external_files/d6d2998fd0263e228027045cb12048bb.png)
+4. When completed, click the <strong>Save</strong> button. The <strong>Save</strong> button will only appear if the New Manual Test button has been clicked.  ![](pft-data-entry.images/image6.png)
 
 The data will be stored in the system in the **Test Results** chart tab. If the recorded data is preferred elsewhere in the system, do not hesitate to reach out to Helpdesk. We are happy to work with clients in order to develop ways to better address any specific business needs.
 
@@ -77,25 +77,25 @@ Another alternative to the bubble form is the manual process of entering results
 
 The PFT may be added to an encounter in multiple ways. One method is by selecting the PFT order on the **Due List**, found in the *Tests & Procedures* section of the encounter, then using the **Add to Exam** button to allow for manual entry or device import.
 
-![](../../../external_files/3c8aa558f6f4d69c4f2403fb83fe6d4a.png)
+![](pft-data-entry.images/image7.png)
 
 If the PFT is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter.
 
-![](../../../external_files/5985ae76a6bccad2527396bbedf45d20.png)
+![](pft-data-entry.images/image8.png)
 
 Alternatively, the PFT may be selected using the **Picklist** icon by selecting the order from the list and adding it to the encounter.
 
-![](../../../external_files/f2496951617da90dbe16905e5a84e8da.png)
+![](pft-data-entry.images/image9.png)
 
 ### Import PFT Data From Device
 
 When accessing the the Test Results chart tab after adding a new PFT, there is the ability to enter data manually, or upload results from a device if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load From Device** import button, select the appropriate file, and click **Upload File** (see other help documentation named [Device Interface – PFT System](../../system-administration/interfaces/device-interface-pft-system.html), for more information).
 
-![](../../../external_files/f8281ea9874dbdb04255d5c9a21735cb.png)
+![](pft-data-entry.images/image10.png)
 
 ## Reporting
 
 These types of report links are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The PFT Summary Report is available here, for example.
 
-![](../../../external_files/de652b060d359efb3f41a09c1f70263f.png)
+![](pft-data-entry.images/image11.png)
 

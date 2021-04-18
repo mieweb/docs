@@ -1,16 +1,16 @@
 ---
 title: "Create Employees File for Import"
-date: 2020-03-17T02:34:35.428Z
+date: "2020-03-17T02:34:35.428Z"
 url: "general-functionality/system-administration/data-migration/create-employees-file-for-import.html"
-version: 34
-id: 1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ
-source: https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ
+version: 35
+id: "1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ"
+source: "https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ"
 menu:
     main:
         name: "Create Employees File for Import"
         identifier: "1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4740
+        weight: 4720
 ---
 This document explains how to import your existing employees into {{% system-name %}} .
 
@@ -93,7 +93,7 @@ What you will need:
 
 
 
-![](../../../external_files/c8482288f1b7bc4b7cdd3cb16caa106e.png)
+![](create-employees-file-for-import.images/image1.png)
 
 
 
@@ -106,7 +106,7 @@ What you will need:
 
 
 
-![](../../../external_files/f7321acaa475d389413c8960f680181a.png)
+![](create-employees-file-for-import.images/image2.png)
 
 
 
@@ -114,7 +114,7 @@ What you will need:
 
 
 
-![](../../../external_files/6ad90004bcde1af68316b8ca0dc908ba.png)
+![](create-employees-file-for-import.images/image3.png)
 
 
 
@@ -122,7 +122,7 @@ What you will need:
 
 
 
-![](../../../external_files/c2dae99efdec3e52fd697f3eea7e3abe.png)
+![](create-employees-file-for-import.images/image4.png)
 
 
 
@@ -130,7 +130,7 @@ What you will need:
 
 
 
-![](../../../external_files/9a0563b4e22b891467a5929bf13ae6e6.png) 
+![](create-employees-file-for-import.images/image5.png) 
 
 {{% tip %}}
 

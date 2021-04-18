@@ -1,16 +1,16 @@
 ---
 title: "How to Install MIEPlayer Control"
-date: 2020-03-12T20:44:01.559Z
+date: "2020-03-12T20:44:01.559Z"
 url: "general-functionality/encounters/dictation-and-transcription/how-to-install-mieplayer-control.html"
-version: 32
-id: 1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM
-source: https://drive.google.com/open?id=1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM
+version: 39
+id: "1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM"
+source: "https://drive.google.com/open?id=1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM"
 menu:
     main:
         name: "How to Install MIEPlayer Control"
         identifier: "1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM"
         parent: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-        weight: 1310
+        weight: 1290
 ---
 There is also added support to {{% system-name %}} for the MIEplayer plugin to be used in alternative browsers such as Firefox or Chrome. Firefox will open a plugin downloader and manually installing the plugin will get a user up and running. Chrome and other browsers require more work. [https://mywebchart.com/plugins/](https://mywebchart.com/plugins/) will host details. If user is on a Macintosh, a java plugin can be optionally setup to be used. It is not as feature rich but functional. The steps described below are for Internet Explorer.
 
@@ -19,7 +19,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](../../../external_files/bdf249a4fe5acef6c874349127408ee9.png)
+![](how-to-install-mieplayer-control.images/image1.png)
 
 
 
@@ -27,7 +27,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](../../../external_files/ef52463049398a363ed617205b475eed.png)
+![](how-to-install-mieplayer-control.images/image2.png)
 
 
 
@@ -35,7 +35,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](../../../external_files/8dcaf260e18411e7d7843711aa460a8c.png)
+![](how-to-install-mieplayer-control.images/image3.png)
 
 
 
@@ -43,7 +43,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](../../../external_files/0d4e1bc3b457c66eb44e5bc77ec45113.png)
+![](how-to-install-mieplayer-control.images/image4.png)
 
 
 
@@ -51,7 +51,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](../../../external_files/d9e5425eba16e8df4ffc18b2c520c8e3.png)
+![](how-to-install-mieplayer-control.images/image5.png)
 
 
 
@@ -59,7 +59,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](../../../external_files/ad4d428b6931d8847d6b2403a9b956be.png)
+![](how-to-install-mieplayer-control.images/image6.png)
 
 
 
@@ -67,7 +67,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](../../../external_files/8ce864c86294ac9a391099cb38728629.png)
+![](how-to-install-mieplayer-control.images/image7.png)
 
 
 

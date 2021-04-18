@@ -1,16 +1,16 @@
 ---
 title: "Edit/Change Medications"
-date: 2020-02-27T20:04:13.354Z
+date: "2020-02-27T20:04:13.354Z"
 url: "general-functionality/medication-management-and-e-prescribing/edit-change-medications.html"
-version: 32
-id: 1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk
-source: https://drive.google.com/open?id=1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk
+version: 33
+id: "1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk"
+source: "https://drive.google.com/open?id=1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk"
 menu:
     main:
         name: "Edit/Change Medications"
         identifier: "1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk"
         parent: "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
-        weight: 2060
+        weight: 2040
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.
 
@@ -20,39 +20,39 @@ Click on the *MEDS* tab at the top in the patient's file. The *MEDS* summary scr
 
 Meds tab options appear on the top right side of the screen. You are automatically defaulted to show the entire medication list once you are in E-Meds. However, you can also click the **List** link to view the medication list (entered medications) for the patient.
 
-![](../../external_files/0a4f335d83a77feaa2d5b97393231fac.png)
+![](edit-change-medications.images/image1.png)
 
 ## Edit/Change Entered Medication/Rx
 
 Go to the Medication History list by clicking LIST link. The LIST is the medication history of prescriptions in the patient's MEDS tab. Find the medication listed and to the right of the medication you have the options to edit/discontinue/delete/refill. If you wish to make a change click **edit***.*
 
-![](../../external_files/f488ebfe33561630c1453f264a552079.png)
+![](edit-change-medications.images/image2.png)
 The *Modifying Medication Record* box pops-up. Any warnings will also appear above.
 
-![](../../external_files/08bafadbbd3dbe30d0eea4e2b1cf1b3c.png)
+![](edit-change-medications.images/image3.png)
 
 Choose **Change Therapy** if you need to change a strength, change directions, change dosage, etc. Change therapy is supposed to reflect a change in fact, ie, the patient was previously taking the drug like "X", and now you (or managing physician) is changing that to now take it like "Y". It is a convenience feature and is like writing a new script and discontinuing the old one - but {{% system-name %}} prefills the new script with the old one's information. Choose **Correct Error** if you need to change a prescriber, add more info, etc. You must have security role permission to *Change Therapy*.
 
 If you choose **Correct Error**: The medication details & fields will open up on your screen. Make corrections and click *SAVE*. Saves everything as it was, just adds/overwrites using your corrections. You will then get a confirmation message that it has *saved changes to medication*. It will save your corrections and the medication will not be placed in the print/fax queue.
 
-![](../../external_files/6d235012de668fa6ac5cb4981acb9751.png)
+![](edit-change-medications.images/image4.png)
 
 If you choose **Change Therapy:** A Change Med box appears and you need to enter the date you are making a change to the therapy of this prescription and the reason for making a change to this prescription. Making changes in therapy will make the new prescription with changed therapies be placed in your print/fax queue to print/fax the changed prescription. It is a convenience feature and is like writing a new script and discontinuing the old one - but {{% system-name %}} prefills the new script with the old one's information
 
 Enter the date of effective change in therapy. Enter the reason you are changing therapy for this mediation. (Again, if it was purely an error in entry, you should use *correct error* method instead.) Make your changes to the specific fields (form, strength, sig, etc) and then click *SAVE.*
 
-![](../../external_files/235c7dbaa62dae644065de95cc1708fc.png)
+![](edit-change-medications.images/image5.png)
 It will give you a confirmation message that it has *saved changes to medication.* It also then automatically places that new prescription in your print/fax queue. You can print/fax that changed prescription then.
 
-![](../../external_files/3ba16a4be926a9cc9257e9810708c716.png)
+![](edit-change-medications.images/image6.png)
 
 In the list (medication history at the bottom of E-Meds) the original medication (prescription) now shows as **changed** in the Medication History summary in the *options* column. (To see *changed* medications in the medication history, your preference to **Show Discontinued** must be on. A status of ‘changed' is just like a status of ‘discontinued'.)
 
 Then right below the original prescription/medication that you *changed*, it shows the *new* (changed therapy) prescription that you just made. That is now the new/valid medication (prescription) and shows the options to edit, delete, discontinue, or refill that.
 
-![](../../external_files/7030212d02fc8cd0f9007a2de8e6a4b6.png)
+![](edit-change-medications.images/image7.png)
 
 Any changed/edits/revisions can be seen by clicking the underlined drug name and viewing the Medication Revisions section.
 
-![](../../external_files/653b45ead7e958b65c7448353652efc1.png)
+![](edit-change-medications.images/image8.png)
 

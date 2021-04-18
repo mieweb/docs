@@ -1,16 +1,16 @@
 ---
 title: "Closing an Existing Case"
-date: 2020-03-13T13:45:11.738Z
+date: "2020-03-13T13:45:11.738Z"
 url: "general-functionality/injury-care/case-management/closing-an-existing-case.html"
-version: 35
-id: 1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw
-source: https://drive.google.com/open?id=1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw
+version: 36
+id: "1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw"
+source: "https://drive.google.com/open?id=1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw"
 menu:
     main:
         name: "Closing an Existing Case"
         identifier: "1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1680
+        weight: 1660
 ---
 ## Cases
 
@@ -22,7 +22,7 @@ The dynamic encounters offer a Case section.  To see the listing of cases/incid
 
 
 
-![](../../../external_files/ba1643eb1188310ef4027dd82964ce74.png)
+![](closing-an-existing-case.images/image1.png)
 
 
 
@@ -36,7 +36,7 @@ To close a case when working in an encounter is done by clicking the Close hyper
 
 
 
-![](../../../external_files/9ac0adc4c1b7be5c2ad9ac38a10e8049.png)
+![](closing-an-existing-case.images/image2.png)
 
 
 
@@ -51,7 +51,7 @@ A pop-up window will display to key in the date this case is considered closed e
 
 
 
-![](../../../external_files/94724169f199a01a116a3a1574f2928c.png)
+![](closing-an-existing-case.images/image3.png)
 
 
 
@@ -59,7 +59,7 @@ The date indicated as the close date will be displayed in the case section listi
 
 
 
-![](../../../external_files/7c69def61ecef26ac8215ae012a96723.png)
+![](closing-an-existing-case.images/image4.png)
 
 ### Closing a Case from the Cases Chart Tab
 
@@ -67,7 +67,7 @@ You can also close a case from the Cases chart tab when working in a chart.  Th
 
 
 
-![](../../../external_files/723e3b313266a63568a72754b109f4b2.png)
+![](closing-an-existing-case.images/image5.png)
 
 
 
@@ -75,7 +75,7 @@ To close an open case from the Cases chart tab, simply click the Close link foun
 
 
 
-![](../../../external_files/9cff269d240e822fc39316969b71b079.png)
+![](closing-an-existing-case.images/image6.png)
 
 
 
@@ -83,7 +83,7 @@ A pop-up window will display to key in the date this case is considered closed e
 
 
 
-![](../../../external_files/94724169f199a01a116a3a1574f2928c.png)
+![](https://lh5.googleusercontent.com/dt55p571aziAbwMlLw6Il0OgHOXsPS3zMORAqXY2l-Sl331PvYpdgIwWJuh5yhp8u4iixi3G29AtFS-AvpckY4P5uHGlB2g5ZmE8NczR2F8-wINW8UKqh671KB7yowlO5po4OpaoTrl90i0gJg)
 
 
 
@@ -91,7 +91,7 @@ The date indicated as the close date will be displayed in the case section listi
 
 
 
-![](../../../external_files/7c69def61ecef26ac8215ae012a96723.png)
+![](https://lh5.googleusercontent.com/cl9rJcN43Cc89v7cLJTwNHjmVKuwhhkpTLXpjsX2Uypt0Armma_-g41Af4sHqL3L_ulORIsr1Gef9U5j6vp5L6SIECLl_d9uMhQLAqZJEzKzlWNmrSDev_5TLrP5quK4mRDTJyM7YzW51WGQ4g)
 
 
 

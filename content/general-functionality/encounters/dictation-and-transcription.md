@@ -1,16 +1,16 @@
 ---
 title: "Dictation and Transcription"
-date: 2020-02-27T19:50:45.866Z
+date: "2020-02-27T19:50:45.866Z"
 url: "general-functionality/encounters/dictation-and-transcription.html"
-version: 20
-id: 1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY
-source: https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY
+version: 21
+id: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
+source: "https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
 menu:
     main:
         name: "Dictation and Transcription"
         identifier: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
         parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
-        weight: 1300
+        weight: 1280
 ---
 
 

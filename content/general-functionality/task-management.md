@@ -1,16 +1,16 @@
 ---
 title: "Task Management"
-date: 2020-02-27T20:09:41.456Z
+date: "2020-02-27T20:09:41.456Z"
 url: "general-functionality/task-management.html"
-version: 13
-id: 1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU
-source: https://drive.google.com/open?id=1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU
+version: 14
+id: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
+source: "https://drive.google.com/open?id=1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
 menu:
     main:
         name: "Task Management"
         identifier: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
         parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
-        weight: 2340
+        weight: 2320
 ---
 
 

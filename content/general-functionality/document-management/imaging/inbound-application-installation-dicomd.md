@@ -1,10 +1,10 @@
 ---
 title: "Inbound Application Installation: dicomd"
-date: 2020-03-24T15:49:30.238Z
+date: "2020-03-24T15:49:30.238Z"
 url: "general-functionality/document-management/imaging/inbound-application-installation-dicomd.html"
-version: 37
-id: 1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4
-source: https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4
+version: 38
+id: "1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4"
+source: "https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4"
 menu:
     main:
         name: "Inbound Application Installation: dicomd"

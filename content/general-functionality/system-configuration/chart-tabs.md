@@ -1,10 +1,10 @@
 ---
 title: "Chart Tabs"
-date: 2020-03-20T20:26:51.158Z
+date: "2020-03-20T20:26:51.158Z"
 url: "general-functionality/system-configuration/chart-tabs.html"
-version: 89
-id: 1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk
-source: https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk
+version: 95
+id: "1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk"
+source: "https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk"
 menu:
     main:
         name: "Chart Tabs"
@@ -20,7 +20,7 @@ When you click [Chart Tabs](https://system/?f=chart&s=cteditor&tabmodule=admin&t
 
 Users can click on any underlined column to sort the listing alphabetically, or by way of any of the other columns, as needed.
 
-![](../../external_files/aec44e92483b8b2173e45d51efa8100c.png)
+![](chart-tabs.images/image1.png)
 
 
 
@@ -32,7 +32,7 @@ Available columns include:
 * <strong>Def Doc Type</strong>: Lists the document default type(s) (if any) for the chart tab in context. If a Default Document Type is designated for this chart tab, only that document type will be displayed as the primary Default Document Add Type when the Add Document link is clicked from within the chart. Leave this field blank if a default document add type is not needed for the chart tab.  
 * <strong>Description</strong>: If documented, this is the purpose of each chart tab. The first 60 characters of the description display here. If the description exceeds 60 characters, the entirety of the description will be displayed in a help bubble following the truncated version
 
-![](../../external_files/ebeefd292184c054758ec54c8325847a.png)  
+![](chart-tabs.images/image2.png)  
 
 * <strong>Document Type(s)</strong>: Lists all of the Document Types that are mapped to and appear on the chart tab in context. 
 * <strong>Sub Tab Of</strong>: Lists the parent tab of the chart tab in context. In other words, if the chart tab in context is found within another menu or tab, that menu/tab, or parent, will be displayed in this column. 
@@ -49,7 +49,7 @@ There are also checkboxes available to change your search results to find what y
 
 Click the SEARCH button when ready to show the results of the search criteria you have set.
 
-![](../../external_files/18e64e1eaedd8dfff06468db19566f48.png)
+![](chart-tabs.images/image3.png)
 
 
 
@@ -63,13 +63,13 @@ Click Chart Tabs at the top.
 
 To add, click Add Tab link at the top right of the screen.
 
-![](../../external_files/aba521899cd1e31c523d8ef14e1be6ca.png)
+![](chart-tabs.images/image4.png)
 
 
 
 After you click Add Tab, the Chart Tab Basic Editor Information screen will appear.  This is where you type in the name of your new chart tab and select specifications for the chart tab.
 
-![](../../external_files/1afe98f31e03e226fc8836c1876e9508.png)
+![](chart-tabs.images/image5.png)
 
 
 
@@ -130,7 +130,7 @@ If you select any default view that allows you to tag document types to it, you 
 
 
 
-![](../../external_files/4588e586267423c2201da029aefaad70.png)  ![](../../external_files/f04c4bd5c47937e87879edef4a4ea7ea.png)
+![](chart-tabs.images/image6.png)  ![](chart-tabs.images/image7.png)
 
 
 
@@ -153,7 +153,7 @@ If you need to see a list of documents that haven't been tagged to a chart tab y
 
 
 
-![](../../external_files/40b385f6381873e6cc7dd6049ef9acd7.png)
+![](chart-tabs.images/image8.png)
 
 
 
@@ -161,7 +161,7 @@ A list of document types not tagged to any inclusive tab will display.  It will
 
 
 
-![](../../external_files/2c41f21b371dd33eba7ce0e949176fc8.png)
+![](chart-tabs.images/image9.png)
 
 
 
@@ -175,7 +175,7 @@ This is for MIE syntax programmer use to program instructions for specific clien
 
 
 
-![](../../external_files/0d32019e60c3672505f1b76fca1cd9b6.png)
+![](chart-tabs.images/image10.png)
 
 ### Edit or Delete/Inactivate an Existing Chart Tab
 
@@ -189,7 +189,7 @@ Find the chart tab you wish to edit by using the search engine or by scrolling t
 
 
 
-![](../../external_files/09c1059166641e8c7cb733be8a347e61.png)
+![](chart-tabs.images/image11.png)
 
 
 
@@ -199,7 +199,7 @@ Revisions done to a chart tab are tracked. If you wish to view the revisions eve
 
 
 
-![](../../external_files/cf9a2a6755aba6855a13cea347215204.png)
+![](chart-tabs.images/image12.png)
 
 
 
@@ -207,7 +207,7 @@ The ‘view/summary' of the chart tab will show on your screen and a revision hi
 
 
 
-![](../../external_files/0bf3e2d6bdecb30fbcc41a04c5682f82.png)
+![](chart-tabs.images/image13.png)
 
 
 
@@ -215,7 +215,7 @@ If wish to delete (inactivate a chart tab), click delete and you will delete thi
 
 
 
-![](../../external_files/e9cbd648626dac5750331b3b28b9c5a9.png)
+![](chart-tabs.images/image14.png)
 
 
 
@@ -223,7 +223,7 @@ A confirmation message will appear at the top to confirm you successfully delete
 
 
 
-![](../../external_files/a48170a3a4eda4c3f4a25f201b4a3d9b.png)
+![](chart-tabs.images/image15.png)
 
 
 
@@ -231,7 +231,7 @@ To "reactivate/undelete" a chart tab, you can click the UnDelete link in its opt
 
 
 
-![](../../external_files/f341a98005d77720c4bc596e69b52c69.png)
+![](chart-tabs.images/image16.png)
 
 
 
@@ -245,7 +245,7 @@ Click the Restrictions link in the options column next to the chart tab name to 
 
 
 
-![](../../external_files/b728e13042d1ced530cd5f6d75df810c.png)
+![](chart-tabs.images/image17.png)
 
 
 
@@ -255,7 +255,7 @@ The Allowed Users / Allowed Departments to the restricted chart tab will display
 
 
 
-![](../../external_files/f5d9bb3401e645399dbd58dd92f2fb12.png)
+![](chart-tabs.images/image18.png)
 
 
 
@@ -273,7 +273,7 @@ If you want to deny permission to a user and/or department or need to edit a per
 
 
 
-![](../../external_files/b154eaae6bcd358b82e3d1242ca80d39.png)
+![](chart-tabs.images/image19.png)
 
 
 
@@ -281,7 +281,7 @@ Once in either link, find the Allowed Users / Allowed Departments section. To ch
 
 
 
-![](../../external_files/2384210de884251de205774979468ce6.png)
+![](chart-tabs.images/image20.png)
 
 
 
@@ -291,7 +291,7 @@ When done editing the users or departments to change their permission level, cli
 
 
 
-![](../../external_files/d65e1e1bcb7c2fa1485d4a73e11c758e.png)
+![](chart-tabs.images/image21.png)
 
 
 
@@ -301,7 +301,7 @@ Any user or department who is removed from the allowed list using the [ - ] butt
 
 
 
-![](../../external_files/d9cd615a63468b0a82a39b2a623c6e7a.png)
+![](chart-tabs.images/image22.png)
 
 
 

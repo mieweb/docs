@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Checkin"
-date: 2020-02-27T21:24:39.047Z
+date: "2020-02-27T21:24:39.047Z"
 url: "rapid-deployment/review-sessions/review-session-checkin.html"
 author: aquandt
-version: 15
-id: 14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y
-source: https://drive.google.com/open?id=14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y
+version: 18
+id: "14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y"
+source: "https://drive.google.com/open?id=14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y"
 menu:
     main:
         name: "Review Session - Checkin"
         identifier: "14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6020
+        weight: 6000
 ---
 ## Agenda
 

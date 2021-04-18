@@ -1,16 +1,16 @@
 ---
 title: "SpeechMike Dictation Instructions"
-date: 2020-03-25T21:00:24.947Z
+date: "2020-03-25T21:00:24.947Z"
 url: "general-functionality/encounters/dictation-and-transcription/speechmike-dictation-instructions.html"
-version: 58
-id: 1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM
-source: https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM
+version: 59
+id: "1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM"
+source: "https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM"
 menu:
     main:
         name: "SpeechMike Dictation Instructions"
         identifier: "1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM"
         parent: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-        weight: 1340
+        weight: 1320
 ---
 ## Using the Phone to Call in Dictation
 
@@ -83,7 +83,7 @@ If your  {{% system-name %}}  system has the system setting *E-Chart*, *Dict
 
 
 
-![](../../../external_files/e0782f542e25b7d67c5753d388531ddf.png)
+![](speechmike-dictation-instructions.images/image1.png)
 
 
 
@@ -91,7 +91,7 @@ A dictation box called **MIE Player** will pop-up on your screen. You can have
 
 
 
-![](../../../external_files/c19f8212907089091fa0995838e41bda.png)
+![](speechmike-dictation-instructions.images/image2.png)
 
 
 
@@ -115,7 +115,7 @@ Push the RECORD button on the LFH5276 SpeechMike Pro. Or you can click the middl
 
 
 
-![](../../../external_files/ef891d7c6663d3631f637e461d4dbcef.png)
+![](speechmike-dictation-instructions.images/image3.png)
 
 
 
@@ -137,7 +137,7 @@ If you do **not** press the EOL button on the SpeechMike to upload (or don't c
 
 
 
-![](../../../external_files/8196dafef0dd2588192a44c8b68eb9b1.png)
+![](speechmike-dictation-instructions.images/image4.png)
 
 
 
@@ -157,7 +157,7 @@ The trigger button underneath the SpeechMike Pro can be programmed to be an "ent
 
 
 
-![](../../../external_files/5213c4da7854ff091d57bddd661099fd.png)
+![](speechmike-dictation-instructions.images/image5.png)
 
 
 
@@ -181,7 +181,7 @@ Follow the previous steps in ‘Dictate from Patient's E-Chart'.
 
 
 
-![](../../../external_files/ea80721a7e37866ef49a11fcb124cbd5.png)
+![](speechmike-dictation-instructions.images/image6.png)
 
 
 
@@ -189,7 +189,7 @@ When done dictating for a patient from the Scheduler view and after you upload i
 
 
 
-![](../../../external_files/a929ca645afd02794defb77c72d641b9.png)
+![](speechmike-dictation-instructions.images/image7.png)
 
 
 
@@ -203,7 +203,7 @@ Click the **Dictate Day** link found towards the top of the Scheduler screen. 
 
 
 
-![](../../../external_files/c7d245e946a3fc4fd56ebfc0fe1e2cec.png)
+![](speechmike-dictation-instructions.images/image8.png)
 
 
 
@@ -221,7 +221,7 @@ You can add a dictation without being in a specific patient's account. This dict
 
 
 
-![](../../../external_files/26c9f71a23e683dd5f02d7a1cf13c91c.png)
+![](speechmike-dictation-instructions.images/image9.png)
 
 
 
@@ -229,7 +229,7 @@ The dictation box called MIE Player will pop-up on the on the screen. It will no
 
 
 
-![](../../../external_files/a1de912999dfc0973ff0b16356a732ce.png)
+![](speechmike-dictation-instructions.images/image10.png)
 
 
 
@@ -268,23 +268,23 @@ After uploading, it then says *File uploaded successfully. (Record to begin ano
 
 **Figure 1: MIE Player Buttons:**
 
-![](../../../external_files/7693107375cf6ae956abca1127fcf67c.png)
+![](speechmike-dictation-instructions.images/image11.png)
 
-![](../../../external_files/9f01aa219f1c09eb4076bd5bc91bc075.png) = rewind dictation all the way to the very beginning/start
+![](speechmike-dictation-instructions.images/image12.png) = rewind dictation all the way to the very beginning/start
 
-![](../../../external_files/4df361ff2fa5f03162a220db480cef21.png) = rewind dictation back in 1 minute increments
+![](speechmike-dictation-instructions.images/image13.png) = rewind dictation back in 1 minute increments
 
-![](../../../external_files/357e45bfbe044662a505b903f5220c77.png) = play
+![](speechmike-dictation-instructions.images/image14.png) = play
 
-![](../../../external_files/08340d1e74defb64a4d989d73bb8b04b.png) = record
+![](speechmike-dictation-instructions.images/image15.png) = record
 
-![](../../../external_files/63038ab812791fb09aa58bd240313dc2.png) = stop
+![](speechmike-dictation-instructions.images/image16.png) = stop
 
-![](../../../external_files/d34c1a155d58a00d8b3e9a3dd3de0421.png) = fast forward dictation in 1 minute increments
+![](speechmike-dictation-instructions.images/image17.png) = fast forward dictation in 1 minute increments
 
-![](../../../external_files/17e6d9828a8557c8e5b873e157e6768c.png) = fast forward dictation to the very end
+![](speechmike-dictation-instructions.images/image18.png) = fast forward dictation to the very end
 
-![](../../../external_files/913e87972c8e3ef7f758de2600e9cc07.png) = upload dictation into  {{% system-name %}} system
+![](speechmike-dictation-instructions.images/image19.png) = upload dictation into  {{% system-name %}} system
 
 You cannot edit dictation done and uploaded. You would dictate a separate note/file stating the correction, etc. You could create a separate work type for "correction" and task upon "dictation add" for that worktype, etc.
 

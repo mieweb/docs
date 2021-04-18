@@ -1,16 +1,16 @@
 ---
 title: "Project Kick-off Meeting"
-date: 2020-02-27T20:40:57.215Z
+date: "2020-02-27T20:40:57.215Z"
 url: "rapid-deployment/rapid-deployment-agenda/project-kick-off-meeting.html"
-version: 12
-id: 1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI
-source: https://drive.google.com/open?id=1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI
+version: 13
+id: "1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI"
+source: "https://drive.google.com/open?id=1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI"
 menu:
     main:
         name: "Project Kick-off Meeting"
         identifier: "1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI"
         parent: "1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8"
-        weight: 5780
+        weight: 5760
 ---
 ## Purpose
 

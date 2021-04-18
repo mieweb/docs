@@ -1,16 +1,16 @@
 ---
 title: "HL7 - RESTful"
-date: 2020-03-19T18:47:19.729Z
+date: "2020-03-19T18:47:19.729Z"
 url: "general-functionality/system-administration/interfaces/hl7-restful.html"
-version: 21
-id: 1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg
-source: https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg
+version: 22
+id: "1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg"
+source: "https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg"
 menu:
     main:
         name: "HL7 - RESTful"
         identifier: "1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5380
+        weight: 5360
 ---
 ## CGI Vars Explained
 

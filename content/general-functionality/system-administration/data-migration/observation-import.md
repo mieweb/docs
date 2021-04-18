@@ -1,16 +1,16 @@
 ---
 title: "Observation Import"
-date: 2020-02-27T20:46:16.207Z
+date: "2020-02-27T20:46:16.207Z"
 url: "general-functionality/system-administration/data-migration/observation-import.html"
-version: 12
-id: 1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs
-source: https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs
+version: 13
+id: "1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs"
+source: "https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs"
 menu:
     main:
         name: "Observation Import"
         identifier: "1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4990
+        weight: 4970
 ---
 This wiki page is to document how observation data needs to be constructed in order to import using WebChart's Observation data Import Tool.
 

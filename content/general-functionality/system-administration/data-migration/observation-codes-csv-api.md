@@ -1,16 +1,16 @@
 ---
 title: "Observation Codes CSV API"
-date: 2020-03-17T15:10:49.614Z
+date: "2020-03-17T15:10:49.614Z"
 url: "general-functionality/system-administration/data-migration/observation-codes-csv-api.html"
-version: 31
-id: 1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc
-source: https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc
+version: 32
+id: "1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc"
+source: "https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc"
 menu:
     main:
         name: "Observation Codes CSV API"
         identifier: "1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4900
+        weight: 4880
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create observation codes using the Observation Codes CSV API.
 
@@ -30,7 +30,7 @@ The first screenshot shows a simple CSV file containing the required field and s
 
 
 
-![](../../../external_files/3a4c5959f674c00b011fa4356e6254f6.png)
+![](observation-codes-csv-api.images/image1.png)
 
 
 
@@ -38,13 +38,13 @@ This screenshot shows how the Bilirubin observation code should appear when view
 
 
 
-![](../../../external_files/942fa8ca9bdfb861eaca286413aeb1cf.png)
+![](observation-codes-csv-api.images/image2.png)
 
 
 
 And this final screenshot shows how the RBC observation code should appear when viewing in the Observation Codes Manager after the import has been run with the example CSV file.
 
-![](../../../external_files/1c63106c70332b76b90c69d68af17f49.png)
+![](observation-codes-csv-api.images/image3.png)
 
 ## Specifications
 

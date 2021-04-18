@@ -1,16 +1,16 @@
 ---
 title: "Import/Export JSON Files"
-date: 2020-03-17T03:25:07.588Z
+date: "2020-03-17T03:25:07.588Z"
 url: "general-functionality/system-administration/data-migration/import-export-json-files.html"
-version: 33
-id: 13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4
-source: https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4
+version: 34
+id: "13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
+source: "https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
 menu:
     main:
         name: "Import/Export JSON Files"
         identifier: "13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4870
+        weight: 4850
 ---
 The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the *System Configurator*.
 
@@ -91,7 +91,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](../../../external_files/7539b1746095f9ab9c956da8c5d6817c.png)
+![](import-export-json-files.images/image1.png)
 
 
 
@@ -99,7 +99,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](../../../external_files/8297090d2b6694385a54d9c534c3ae61.png)
+![](import-export-json-files.images/image2.png)
 
 
 
@@ -108,7 +108,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](../../../external_files/f32047601e1dbaa28f3e08a4c891bfb8.png)
+![](import-export-json-files.images/image3.png)
 
 
 
@@ -116,7 +116,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](../../../external_files/54cb1aa7a075d1773ffcdd4696726dba.png)  
+![](import-export-json-files.images/image4.png)  
 
 {{% tip %}} For larger lists, use Ctrl + F to find specific words/phrases/spellings in the page. {{% /tip %}}
 
@@ -125,7 +125,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](../../../external_files/ce5ff67c042231c4e13ea8844b2b5dfd.png)
+![](import-export-json-files.images/image5.png)
 
 
 
@@ -157,7 +157,7 @@ There can be issues if exporting and importing to different database versions. A
 
 1. From the import database (i.e., the database into which the JSON file is being imported), navigate to the <strong>Control Panel</strong>.
 2. Go to the <strong>System Configuration</strong> tab.
-3. Click the <strong>Import</strong> link in the upper-right corner of the page.    ![](../../../external_files/862e461739e5f9c2f1e3a68e1ab3030a.png)
+3. Click the <strong>Import</strong> link in the upper-right corner of the page.    ![](import-export-json-files.images/image6.png)
 
 There are several import options available. The following instructions will focus on the process for importing a saved file.
 
@@ -165,7 +165,7 @@ There are several import options available. The following instructions will focu
 
 
 
-![](../../../external_files/c894e5760e07b7901c52b7463de06306.png)
+![](import-export-json-files.images/image7.png)
 
 
 
@@ -173,7 +173,7 @@ There are several import options available. The following instructions will focu
 
 
 
-![](../../../external_files/a156d0e8dfa7c4d59ed46cf414575ac1.png)
+![](import-export-json-files.images/image8.png)
 
 
 
@@ -183,7 +183,7 @@ There are several import options available. The following instructions will focu
 
 
 
-![](../../../external_files/8e5d832b14e01b51eb65cf5b21d3e418.png)
+![](import-export-json-files.images/image9.png)
 
 
 

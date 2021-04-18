@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Tasking"
-date: 2020-02-27T21:25:50.587Z
+date: "2020-02-27T21:25:50.587Z"
 url: "rapid-deployment/review-sessions/review-session-tasking.html"
 author: aquandt
-version: 18
-id: 1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA
-source: https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA
+version: 19
+id: "1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA"
+source: "https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA"
 menu:
     main:
         name: "Review Session - Tasking"
         identifier: "1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6130
+        weight: 6110
 ---
 ## Agenda
 
@@ -148,15 +148,15 @@ All available Tasklist Events will be audited with the client, in order to asses
 
 Review user security settings for users needing access to Tasking, and give permission, as appropriate. There is also information available within the [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) online help.
 
-![](../../external_files/d77c13968574844e47764ec7691d0f0f.png)
+![](review-session-tasking.images/image1.png)
 
 ### My Settings Preferences
 
 Review security roles and individual My Settings preferences of those needing access to the Task List module. Review permissions and set, as appropriate. This information is also available within the [My Settings](../../general-functionality/system-administration/security/my-settings.html) online help.
 
-![](../../external_files/4c8053985d8ce4cdc90630173316cac3.png)
+![](review-session-tasking.images/image2.png)
 
-![](../../external_files/414b495d9cd6052854637f1f5596fd09.png)
+![](review-session-tasking.images/image3.png)
 
 ## Resources
 

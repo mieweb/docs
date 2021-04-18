@@ -1,17 +1,17 @@
 ---
 title: "Out-of-the-Box Urls"
-date: 2020-02-27T21:32:04.753Z
+date: "2020-02-27T21:32:04.753Z"
 url: "general-functionality/system-administration/out-of-the-box-urls.html"
 author: aquandt
-version: 15
-id: 1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM
-source: https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM
+version: 16
+id: "1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM"
+source: "https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM"
 menu:
     main:
         name: "Out-of-the-Box Urls"
         identifier: "1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM"
         parent: "1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo"
-        weight: 5750
+        weight: 5730
 ---
 The following URLs have been compiled to assist with any implementation efforts which may call for a list of friendly domains, which will require whitelisting for user access using the {{% system-name %}} system. 
 
@@ -241,7 +241,7 @@ The following documents are available for additional information and specificat
 
 [Injections CSV API](data-migration/injections-csv-api.html)
 
-[Language Translation CSV API](data-migration/create-language-translation-file-for-impo.html)
+[Language Translation CSV API](data-migration/create-language-translation-file-for-import.html)
 
 [Observation Codes CSV API](data-migration/observation-codes-csv-api.html)
 

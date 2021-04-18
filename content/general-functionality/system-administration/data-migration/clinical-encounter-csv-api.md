@@ -1,16 +1,16 @@
 ---
 title: "Clinical Encounter CSV API"
-date: 2020-03-17T13:11:47.649Z
+date: "2020-03-17T13:11:47.649Z"
 url: "general-functionality/system-administration/data-migration/clinical-encounter-csv-api.html"
-version: 25
-id: 1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk
-source: https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk
+version: 26
+id: "1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk"
+source: "https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk"
 menu:
     main:
         name: "Clinical Encounter CSV API"
         identifier: "1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4880
+        weight: 4860
 ---
 ## Introduction
 

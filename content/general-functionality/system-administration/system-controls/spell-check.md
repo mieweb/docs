@@ -1,17 +1,17 @@
 ---
 title: "Spell Check"
-date: 2020-03-10T14:16:20.062Z
+date: "2020-03-10T14:16:20.062Z"
 url: "general-functionality/system-administration/system-controls/spell-check.html"
 author: aquandt
-version: 29
-id: 1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ
-source: https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ
+version: 30
+id: "1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ"
+source: "https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ"
 menu:
     main:
         name: "Spell Check"
         identifier: "1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ"
         parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-        weight: 4570
+        weight: 4550
 ---
 {{% system-name %}} offers a spell check feature within text documents, encounter text, and other areas of use.  When utilizing spell check, those with security permission to Manage Spell Check can add words to the  {{% system-name %}} library to be recognized.  
 
@@ -19,7 +19,7 @@ Words that are added to the master spell check library for the system are found 
 
 
 
-![](../../../external_files/f564c9785ab9a3921a3e1f9e9f60af07.png)
+![](spell-check.images/image1.png)
 
 
 
@@ -29,7 +29,7 @@ When documenting in a text document, the spell check can be utilized.  After ty
 
 
 
-![](../../../external_files/00ab79ffdda13424888e86a1f1120c9e.png)
+![](spell-check.images/image2.png)
 
 
 
@@ -44,7 +44,7 @@ Any words that the system does not recognize will be highlighted and will displa
 
 
 
-![](../../../external_files/a538d7a3d15d9da93a82d989947b3db6.png)
+![](spell-check.images/image3.png)
 
 
 
@@ -54,7 +54,7 @@ When you are working in encounters, there are various encounter sections or fiel
 
 
 
-![](../../../external_files/37c84247f06f72abc7da3eb5cb449320.png)
+![](spell-check.images/image4.png)
 
 ## Add Word to Spell Check Library
 
@@ -66,7 +66,7 @@ The user should utilize spell check and once spell check finds a misspelled word
 
 
 
-![](../../../external_files/6b1ca3247a4283715cd745b43456fb6d.png)
+![](spell-check.images/image5.png)
 
 
 
@@ -74,7 +74,7 @@ When you click Add it will ask you to confirm the highlighted word you are about
 
 
 
-![](../../../external_files/666df9cfc91e22651cc2b5484bf830d4.png)
+![](spell-check.images/image6.png)
 
 
 
@@ -86,7 +86,7 @@ There is a Spell Check editor tab found in the sidemenu Control Panel.
 
 
 
-![](../../../external_files/f790fec1ee43d35a948c2de04c295805.png)
+![](spell-check.images/image7.png)
 
 
 
@@ -96,7 +96,7 @@ A quick way to see every word that was added to your system's spell check librar
 
 
 
-![](../../../external_files/bdeccc0020167e20b5ca0494f1abeac4.png)
+![](spell-check.images/image8.png)
 
 
 
@@ -104,7 +104,7 @@ If you need to narrow down your search to find something specific, you can enter
 
 
 
-![](../../../external_files/8cd3c237c8c27a3a8d4174bce999d03f.png)
+![](spell-check.images/image9.png)
 
 
 

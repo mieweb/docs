@@ -1,11 +1,11 @@
 ---
 title: "Using information about expired fee schedules in grids"
-date: 2021-02-18T19:10:05.187Z
+date: "2021-02-18T19:10:05.187Z"
 url: "general-functionality/financial-functionality/using-information-about-expired-fee-schedules-in-grids.html"
-author: Edward Grzetich
+author: egrzetich
 version: 13
-id: 1p7wZkQtojxLvxtFtLCsGHUlWBFkAgh3Mxay-pZ3sws4
-source: https://drive.google.com/open?id=1p7wZkQtojxLvxtFtLCsGHUlWBFkAgh3Mxay-pZ3sws4
+id: "1p7wZkQtojxLvxtFtLCsGHUlWBFkAgh3Mxay-pZ3sws4"
+source: "https://drive.google.com/open?id=1p7wZkQtojxLvxtFtLCsGHUlWBFkAgh3Mxay-pZ3sws4"
 ---
 Use the following information about expired fee schedules in a grid:
 

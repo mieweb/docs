@@ -1,17 +1,17 @@
 ---
 title: "CMS 125 - Breast Cancer Screening"
-date: 2020-02-27T21:30:06.501Z
+date: "2020-02-27T21:30:06.501Z"
 url: "general-functionality/quality-of-care/measures/quality-measures-list/cms-125-breast-cancer-screening.html"
 author: aquandt
-version: 15
-id: 1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk
-source: https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk
+version: 16
+id: "1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk"
+source: "https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk"
 menu:
     main:
         name: "CMS 125 - Breast Cancer Screening"
         identifier: "1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk"
         parent: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
-        weight: 3890
+        weight: 3870
 ---
 [CMS125v5](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=cms125&showresult=CMS125v5&showresulttype=Measure) (2017)
 

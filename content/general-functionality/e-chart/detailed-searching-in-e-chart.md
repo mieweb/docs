@@ -1,10 +1,10 @@
 ---
 title: "Detailed Searching in E-Chart"
-date: 2020-03-09T20:46:38.676Z
+date: "2020-03-09T20:46:38.676Z"
 url: "general-functionality/e-chart/detailed-searching-in-e-chart.html"
-version: 32
-id: 1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY
-source: https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY
+version: 33
+id: "1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY"
+source: "https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY"
 menu:
     main:
         name: "Detailed Searching in E-Chart"
@@ -18,11 +18,11 @@ When in the {{% system-name %}} system, the [E-Chart](https://system/?f=chart) s
 
 To do a more detailed search, click the [Detailed](https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch) link from the list of Search Types.
 
-![](../../external_files/3715f597165e4fac3e6eed0e1e4f20d7.png)
+![](detailed-searching-in-e-chart.images/image1.png)
 
 The detailed search filter screen will open with various filter fields to help narrow down a search for a chart by more detail.
 
-![](../../external_files/e7089fc51a5eef5205401428acd79b01.png)
+![](detailed-searching-in-e-chart.images/image2.png)
 
 {{% tip %}}
 
@@ -37,7 +37,7 @@ Within the [Detailed](https://system/?f=chart&s=pat&s=search&search_method=detai
 
 The percent sign (%) is a hotkey to perform a CONTAINS search, followed by the letters you wish to search. In this example, we typed %art in the name field and clicked the **Search** button.  The system resulted matching charts with names of the letters ‘art' in them.
 
-![](../../external_files/6db6e341896adf570b16c19f5e7b6c40.png)
+![](detailed-searching-in-e-chart.images/image3.png)
 
 {{% /tip %}}
 
@@ -57,11 +57,11 @@ Disabling the SSN search does not turn off the ability to search by SSN in other
 
 ### Enabled
 
-![](../../external_files/116d66874f57082d17821546a7439a35.png)
+![](detailed-searching-in-e-chart.images/image4.png)
 
 ### Disabled
 
 
 
-![](../../external_files/008c9add918d08508b4634f6716e6674.png)
+![](detailed-searching-in-e-chart.images/image5.png)
 

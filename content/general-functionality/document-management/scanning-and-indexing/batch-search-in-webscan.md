@@ -1,10 +1,10 @@
 ---
 title: "Batch Search in WebScan"
-date: 2020-03-09T16:13:04.599Z
+date: "2020-03-09T16:13:04.599Z"
 url: "general-functionality/document-management/scanning-and-indexing/batch-search-in-webscan.html"
-version: 25
-id: 1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c
-source: https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c
+version: 26
+id: "1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c"
+source: "https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c"
 menu:
     main:
         name: "Batch Search in WebScan"
@@ -16,7 +16,7 @@ In order to access the [WebScan](https://system/?f=miewebscan) module, users mus
 
 To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any Checked-In batches will be listed under the Batch list view, by default. The Checked-in batches are various scanned documents ready to be indexed into the system.
 
-![](../../../external_files/e88e9fd175c087614917e98ecf2d8524.png)
+![](batch-search-in-webscan.images/image1.png)
 
 To search for a scan batch, use the Batch Search Criteria search fields at the top of the page. Fill in the available fields to narrow the search, as appropriate.
 
@@ -33,7 +33,7 @@ Completed and Deleted batches are purged from the system every 90 days. The Depl
 
 **Comment**: This field is intended to allow users the ability to search comments provided on batches, and can be limited by a BEGINS WITH search, or an EXACT search, as needed.
 
-**Patient**: Searching can be narrowed down to a specific patient/chart, MRN, Date of Birth, or SSN. For more information on how to utilize the autocomplete search, click the help bubble  to the right of the field.
+**Patient**: Searching can be narrowed down to a specific patient/chart, MRN, Date of Birth, or SSN. For more information on how to utilize the autocomplete search, click the help bubble ![](batch-search-in-webscan.images/image2.png) to the right of the field.
 
 **User**: Searching can be narrowed down to a specific user, if necessary. Simply type the first or last name of the user, and select the name from the autocomplete list of choices. Leaving this field blank will search by all users.
 
@@ -43,7 +43,7 @@ Completed and Deleted batches are purged from the system every 90 days. The Depl
 
 With the limiting criteria provided, simply click the **Search** button to show any applicable search results. The search results will display in the Batch list view, found below the search criteria fields. To perform another search, modify the fields as necessary, or click the **Clear** button to begin again.
 
-![](../../../external_files/0f2f4e852b5399dd082b074b1dd23bea.png)
+![](https://lh3.googleusercontent.com/I-iGeH-YucBv4apc9oT5zTij8d5bqw5nSWOwni2vABPnWkNMYCfMAgTA8PvW3hE4IYULCSsTPGo9KWt0_4Z1AlSvgyWJXxsqMII4q6Gc5TY6N0SaNHNE6_GZ2FBAzb4F0e2zeHcJoCm2-fs7CQ)
 
 {{% warning %}}
 

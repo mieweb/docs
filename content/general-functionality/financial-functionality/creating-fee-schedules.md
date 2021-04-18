@@ -1,16 +1,16 @@
 ---
 title: "Creating fee schedules"
-date: 2021-02-17T19:43:13.773Z
+date: "2021-02-17T19:43:13.773Z"
 url: "general-functionality/financial-functionality/creating-fee-schedules.html"
 author: Adam Humes
 version: 12
-id: 1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw
-source: https://drive.google.com/open?id=1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw
+id: "1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw"
+source: "https://drive.google.com/open?id=1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw"
 ---
 * Select the side menu. The side menu appears.
 * Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens. 
-* From the <em>Module</em> list, select <strong>Fee Schedule</strong>. The <em>Fee Schedules</em> page appears.![](../../external_files/3da450f12f068513ccdeb7f7c438a3f7.png)
-* Select <strong>Add New Fee Schedule</strong>. The <em>Add New Fee Schedule</em> window appears.   ![](../../external_files/387af1394cd6b9f69f247f1a591998f4.png)
+* From the <em>Module</em> list, select <strong>Fee Schedule</strong>. The <em>Fee Schedules</em> page appears.![](creating-fee-schedules.images/image1.png)
+* Select <strong>Add New Fee Schedule</strong>. The <em>Add New Fee Schedule</em> window appears.   ![](creating-fee-schedules.images/image2.png)
 * In <strong>Fee Schedule Name</strong>, type the name of the fee schedule.
 * In <em>Begin Date</em>, do one:
     * Type the day, month, and year on which the fee schedule is effective.

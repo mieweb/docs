@@ -1,10 +1,10 @@
 ---
 title: "Patient Registration Tab - Manual Patient Entry"
-date: 2020-02-27T19:35:05.765Z
+date: "2020-02-27T19:35:05.765Z"
 url: "general-functionality/patient-registration/patient-registration-tab-manual-patient-entry.html"
-version: 25
-id: 1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0
-source: https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0
+version: 26
+id: "1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0"
+source: "https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0"
 menu:
     main:
         name: "Patient Registration Tab - Manual Patient Entry"
@@ -18,7 +18,7 @@ Click the *E-Chart* tab from the left sidebar menu.
 
 Click *Patient Registration* tab at the top.
 
-![](../../external_files/600ae82f4fffd76d0d8d29ae166b0fbd.png)
+![](patient-registration-tab-manual-patient-entry.images/image1.png)
 
 Enter last name, first name, birthdate, and SSN, then click *Search* at the bottom.
 
@@ -26,7 +26,7 @@ It will search and see if the patient exists or match any part of the informatio
 
 If it finds a close match from the fields you entered, it will show those matches. These are possible matches of patient's already entered in your system. You may want to double check that the patient already exists in {{% system-name %}} from this search result. This helps eliminate entering duplicate patients.
 
-![](../../external_files/4b4d1d2ea50ec5d89ecae3f3a85ca52c.png)
+![](patient-registration-tab-manual-patient-entry.images/image2.png)
 
 It will then give you a choice of either selecting an existing patient record from the list of matching patients or continuing on with the registration/adding process for the patient and information you entered.
 
@@ -42,7 +42,7 @@ All this information populates the *Demographics* tab of the patient's chart.
 
 Fill out the registration screen fields.
 
-![](../../external_files/b5c67205c2cc92010666ab8adea6ad24.png)
+![](patient-registration-tab-manual-patient-entry.images/image3.png)
 
 **The required fields are Last Name, First Name, and Birthdate**.
 
@@ -52,13 +52,13 @@ Suffix field is for example: Jr, III, Sr. etc.
 
 Note: Country field is first to populate for address in order to help with a Postal Code field. The Country field (in the patient registration screen) for the patient's address and their employer Country field is set to ‘United States' by default when a user preference for the default location has not been set by the logged in user. The Default Country can also be set system wide via a system setting.
 
-![](../../external_files/04415c35ca994c4670eb871ac7a98ee0.png)
+![](patient-registration-tab-manual-patient-entry.images/image4.png)
 
 Upon keying in the postal code field, the system will auto-populate the county and city and state for you in the remaining fields. The Postal Code field will accommodate international postal codes and display as they are entered without auto-formatting.
 
 Note: There is a system setting to allow for international province/state selection. If system setting *US States Only* is disabled (value 0) then the State field in demographics will change to say *State/Province-Country* and you can use the autocomplete to select a state/province and country for the patient. It will result in international and US selections.
 
-![](../../external_files/3675f7f5660a561588450ca6bd5b2610.png)
+![](patient-registration-tab-manual-patient-entry.images/image5.png)
 
 Your practice may be set up to have a check-box on the registration screen named **Exclude from patient quality care.** Check-mark this if you are entering a test patient or a fake patient to your system. If you checkmark this box, it will exclude that patient from any report data, etc. This is to be check-marked for fake or test patients only in your system.
 

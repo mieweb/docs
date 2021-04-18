@@ -1,16 +1,16 @@
 ---
 title: "Disabling Inactive User Access & Accounts"
-date: 2020-02-27T20:43:05.104Z
+date: "2020-02-27T20:43:05.104Z"
 url: "general-functionality/system-administration/security/disabling-inactive-user-access-and-accounts.html"
-version: 12
-id: 1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY
-source: https://drive.google.com/open?id=1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY
+version: 13
+id: "1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY"
+source: "https://drive.google.com/open?id=1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY"
 menu:
     main:
         name: "Disabling Inactive User Access & Accounts"
         identifier: "1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY"
         parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
-        weight: 5270
+        weight: 5250
 ---
 As an  {{% system-name %}} standard, all user application access is regularly reviewed and validated, ensuring all user access–including of employees, clients, vendors, and partners–is appropriate, given the users' roles and responsibilities. This provides assurance that object access and account management practices support the MIE Information Security Policies. For example, the security principle of *least privilege* requires all users to be granted the most restrictive set of privileges needed for the performance of their authorized tasks. Simply applying this principle limits the damage that can result from accident, error, or unauthorized use.
 

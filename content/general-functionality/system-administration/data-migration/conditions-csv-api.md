@@ -1,17 +1,17 @@
 ---
 title: "Conditions CSV API"
-date: 2020-02-27T21:32:21.297Z
+date: "2020-02-27T21:32:21.297Z"
 url: "general-functionality/system-administration/data-migration/conditions-csv-api.html"
 author: aquandt
-version: 15
-id: 1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4
-source: https://drive.google.com/open?id=1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4
+version: 16
+id: "1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4"
+source: "https://drive.google.com/open?id=1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4"
 menu:
     main:
         name: "Conditions CSV API"
         identifier: "1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5120
+        weight: 5100
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for conditions** using the [Case Management CSV API](case-management-csv-api.html).
 

@@ -1,23 +1,23 @@
 ---
 title: "How to Remove MIEPlayer Control"
-date: 2020-03-12T20:49:00.254Z
+date: "2020-03-12T20:49:00.254Z"
 url: "general-functionality/encounters/dictation-and-transcription/how-to-remove-mieplayer-control.html"
-version: 33
-id: 1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o
-source: https://drive.google.com/open?id=1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o
+version: 34
+id: "1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o"
+source: "https://drive.google.com/open?id=1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o"
 menu:
     main:
         name: "How to Remove MIEPlayer Control"
         identifier: "1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o"
         parent: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-        weight: 1320
+        weight: 1300
 ---
 1. Open Internet Explorer on your desktop.
 2. At the top toolbar, select TOOLS, then the option called INTERNET OPTIONS.
 
 
 
-![](../../../external_files/93252d485abb41de64c6b984c3b4dddf.png)
+![](how-to-remove-mieplayer-control.images/image1.png)
 
 
 
@@ -25,7 +25,7 @@ menu:
 
 
 
-![](../../../external_files/68c5f84e9848e87642c2e7ace25984b8.png)
+![](how-to-remove-mieplayer-control.images/image2.png)
 
 
 
@@ -33,7 +33,7 @@ menu:
 
 
 
-![](../../../external_files/a5f1bceba0e4f9bff2c8d8f09908c7fb.png)
+![](how-to-remove-mieplayer-control.images/image3.png)
 
 
 
@@ -41,7 +41,7 @@ menu:
 
 
 
-![](../../../external_files/63dee6232a9bb42a38ebfb0a1058c548.png)
+![](how-to-remove-mieplayer-control.images/image4.png)
 
 
 
@@ -49,7 +49,7 @@ menu:
 
 
 
-![](../../../external_files/6a1118a997ebfdaa02cdd43e437e739c.png)
+![](how-to-remove-mieplayer-control.images/image5.png)
 
 
 
@@ -57,7 +57,7 @@ menu:
 
 
 
-![](../../../external_files/34a230da8615995388ef32b3ed11c7d0.png)
+![](how-to-remove-mieplayer-control.images/image6.png)
 
 
 

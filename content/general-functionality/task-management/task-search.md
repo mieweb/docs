@@ -1,23 +1,23 @@
 ---
 title: "Task Search"
-date: 2020-03-10T14:50:47.829Z
+date: "2020-03-10T14:50:47.829Z"
 url: "general-functionality/task-management/task-search.html"
 author: aquandt
-version: 27
-id: 1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw
-source: https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw
+version: 28
+id: "1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw"
+source: "https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw"
 menu:
     main:
         name: "Task Search"
         identifier: "1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw"
         parent: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
-        weight: 2370
+        weight: 2350
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 
 
 
-![](../../external_files/0435d9d4e0a166b7813b1e23815e481c.png)
+![](task-search.images/image1.png)
 
 
 
@@ -47,7 +47,7 @@ Once any applicable search criteria fields are filled out, click the Submit butt
 
 
 
-![](../../external_files/31fe1a05cc3707d0eaa8081dc0ac5e65.png)
+![](task-search.images/image2.png)
 
 
 
@@ -62,7 +62,7 @@ If need to run another Task Search, but want to keep most of the search criteria
 
 
 
-![](../../external_files/5f7748a4bc80b212d741751e17d744a9.png)
+![](task-search.images/image3.png)
 
 
 

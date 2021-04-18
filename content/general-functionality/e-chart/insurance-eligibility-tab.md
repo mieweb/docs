@@ -1,17 +1,17 @@
 ---
 title: "Insurance Eligibility Tab"
-date: 2020-03-09T22:56:39.950Z
+date: "2020-03-09T22:56:39.950Z"
 url: "general-functionality/e-chart/insurance-eligibility-tab.html"
 author: aquandt
-version: 22
-id: 1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U
-source: https://drive.google.com/open?id=1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U
+version: 23
+id: "1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U"
+source: "https://drive.google.com/open?id=1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U"
 menu:
     main:
         name: "Insurance Eligibility Tab"
         identifier: "1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U"
         parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
-        weight: 1050
+        weight: 1040
 ---
 {{% system-name %}} can interface with RealMed insurance eligibility to provide real-time insurance eligibility information on a patient chart. Contact your MIE Implementer to inquire about this optional feature and setup.
 
@@ -19,7 +19,7 @@ From the **Insurance Eligibility** chart tab, the **Insurance Eligibility Reques
 
 
 
-![](../../external_files/95760f0d38518cbb636c475affbb0b4c.png)
+![](insurance-eligibility-tab.images/image1.png)
 
 
 
@@ -33,7 +33,7 @@ When you click the Send Request button, the request will be sent and eligibility
 
 
 
-![](../../external_files/2cf6cab7d11f63dc8017825bff7fdb51.png)
+![](insurance-eligibility-tab.images/image2.png)
 
 
 

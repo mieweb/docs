@@ -1,16 +1,16 @@
 ---
 title: "Create PFT Data File for Import"
-date: 2020-03-17T02:47:24.604Z
+date: "2020-03-17T02:47:24.604Z"
 url: "general-functionality/system-administration/data-migration/create-pft-data-file-for-import.html"
-version: 30
-id: 16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw
-source: https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw
+version: 31
+id: "16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw"
+source: "https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw"
 menu:
     main:
         name: "Create PFT Data File for Import"
         identifier: "16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4770
+        weight: 4750
 ---
 This document explains how to import your pulmonary function testing data into {{% system-name %}} .
 
@@ -146,7 +146,7 @@ What you will need:
 
 
 
-![](../../../external_files/c38a3b1a90978270fae4e78f9541a92b.png)
+![](create-pft-data-file-for-import.images/image1.png)
 
 
 
@@ -159,7 +159,7 @@ What you will need:
 
 
 
-![](../../../external_files/f7321acaa475d389413c8960f680181a.png)
+![](create-pft-data-file-for-import.images/image2.png)
 
 
 
@@ -167,7 +167,7 @@ What you will need:
 
 
 
-![](../../../external_files/6ad90004bcde1af68316b8ca0dc908ba.png)
+![](create-pft-data-file-for-import.images/image3.png)
 
 
 
@@ -175,11 +175,11 @@ What you will need:
 
 
 
-![](../../../external_files/e27eb17bce375b2ecafcc3550c76eef7.png)
+![](create-pft-data-file-for-import.images/image4.png)
 
 
 
-5. Select the PFT Data CSV File and click <strong>Upload</strong>.  ![](../../../external_files/c91f78c766688b7fe19950c1255c5f70.png)
+5. Select the PFT Data CSV File and click <strong>Upload</strong>.  ![](create-pft-data-file-for-import.images/image5.png)
 
 
 

@@ -1,10 +1,10 @@
 ---
 title: "Side Chart Configuration"
-date: 2020-03-05T17:32:44.289Z
+date: "2020-03-05T17:32:44.289Z"
 url: "general-functionality/system-configuration/side-chart-configuration.html"
-version: 35
-id: 1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng
-source: https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng
+version: 36
+id: "1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng"
+source: "https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng"
 menu:
     main:
         name: "Side Chart Configuration"
@@ -18,11 +18,11 @@ When working anywhere in {{% system-name %}} , you will see the ability to open 
 
 Clicking this icon near the patient's MR# will expand and display a side chart on the right side. The side chart should be used for a **brief** overview of information found within the chart. Demographic information is in the blue section followed by default sections named *Notes, Medical Records and Summary Tests*. This offers the ability to browse and look at documents housed in these 3 sections without getting out of the encounter or going to the other chart tabs outside the encounter. The red *Comments* section expands to display any alert documents the chart may have on it.
 
-![](../../external_files/6705069e69f0ecde5bfb7ca4a5c39439.png)
+![](side-chart-configuration.images/image1.png)
 
 To browse documents that may be housed in the *Notes, Medical Records or Summary Tests* sections, simply click on the section itself to expand the document contents. The sections expand to show a list view of the documents sorted with most recent at the top. To open and get into a specific document, simply click the date of service hyperlink.
 
-![](../../external_files/5f17d91988fce94dcb19cf2a32fc9f9a.png)
+![](side-chart-configuration.images/image2.png)
 
 By default, the side chart access defaults to chart tabs named Notes, Medical Record and Test Results. However your MIE Implementer can set up any chart tabs to be seen/accessed here in the side chart feature. A chart tab named "Side Chart" simply needs to be programmed (as a hidden chart tab) with the sub-tabs that are to be in the Side Chart tab and that will immediately reflect in this Side Chart functionality feature.
 
@@ -30,7 +30,7 @@ By default, the side chart access defaults to chart tabs named Notes, Medical Re
 
 To collapse the side chart access, simply click on the icon image near the patient's MR# to collapse it.
 
-![](../../external_files/ef1cc56f4a978ae59716b608a90bc00c.png)
+![](side-chart-configuration.images/image3.png)
 
 ## Side Chart Custom Configuration
 
@@ -56,7 +56,7 @@ Then create or activate a chart tab named "Side Chart". This tab will house your
 * Select the sub-chart tabs to display within the Side Chart, and select "force display" on those sub-chart tabs you are linking to this main Side Chart tab.
 * If you do not include an "order" to display the tabs in, it defaults to alphabetic.
 
-![](../../external_files/bc28212d569c5df4b93c8bd18c4d1537.png)
+![](side-chart-configuration.images/image4.png)
 
 {{% note %}}
 

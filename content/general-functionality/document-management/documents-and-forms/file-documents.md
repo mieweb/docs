@@ -1,10 +1,10 @@
 ---
 title: "File Documents"
-date: 2020-03-05T21:30:04.746Z
+date: "2020-03-05T21:30:04.746Z"
 url: "general-functionality/document-management/documents-and-forms/file-documents.html"
-version: 35
-id: 1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw
-source: https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw
+version: 36
+id: "1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw"
+source: "https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw"
 menu:
     main:
         name: "File Documents"
@@ -31,7 +31,7 @@ Once the document/form library loads, select the **File** link, to filter the 
 
 
 
-![](../../../external_files/a66a8a8825e9a1e6f5c902708db1e172.png)
+![](file-documents.images/image1.png)
 
 
 
@@ -52,7 +52,7 @@ Users must have **Transcribe for Others** security access to author documents 
 
 
 
-![](../../../external_files/32c29517b537714ce37fcea5e9d96b26.png)
+![](file-documents.images/image2.png)
 
 
 
@@ -68,7 +68,7 @@ Users must have **Transcribe for Others** security access to author documents 
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters to assist with linking. If an encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and it will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](../../../external_files/ce3aff314ae32d9b093c8e061d2d28b8.png)
+![](file-documents.images/image3.png)
 
 
 

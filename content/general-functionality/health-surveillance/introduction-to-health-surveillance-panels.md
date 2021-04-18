@@ -1,26 +1,26 @@
 ---
 title: "Introduction to Health Surveillance Panels"
-date: 2020-03-13T15:08:54.014Z
+date: "2020-03-13T15:08:54.014Z"
 url: "general-functionality/health-surveillance/introduction-to-health-surveillance-panels.html"
-version: 27
-id: 1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik
-source: https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik
+version: 28
+id: "1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik"
+source: "https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik"
 menu:
     main:
         name: "Introduction to Health Surveillance Panels"
         identifier: "1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik"
         parent: "13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg"
-        weight: 1760
+        weight: 1740
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 
-![](../../external_files/fae942d2400869a7034c5e39b8b9a351.png)
+![](introduction-to-health-surveillance-panels.images/image1.png)
 
 ## Security & Settings
 
 Review Security Settings for users who need access to Health Surveillance (and Case Management). Review Settings and give rights as needed by client.  This information is also available within the online help.
 
-![](../../external_files/c111b6e382aeea95cf96f7ec30d6bb02.png)
+![](introduction-to-health-surveillance-panels.images/image2.png)
 
 ## Health Surveillance Panels
 

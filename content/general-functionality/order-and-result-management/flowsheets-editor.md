@@ -1,16 +1,16 @@
 ---
 title: "Flowsheets Editor"
-date: 2020-03-30T18:57:04.429Z
+date: "2020-03-30T18:57:04.429Z"
 url: "general-functionality/order-and-result-management/flowsheets-editor.html"
-version: 70
-id: 1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY
-source: https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY
+version: 83
+id: "1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY"
+source: "https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY"
 menu:
     main:
         name: "Flowsheets Editor"
         identifier: "1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY"
         parent: "103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
-        weight: 1990
+        weight: 1970
 ---
 The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](observations-tab.html) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](observation-codes-editor.html) and [Observation Code Merging](observation-code-merging.html) documentation.
 
@@ -30,7 +30,7 @@ The following information provides details on how to add and configure flowsheet
 
 
 
-![](../../external_files/11e75a92b333681a89f9f489536e3f1d.png) 
+![](flowsheets-editor.images/image1.png) 
 
 {{% note %}} Any custom discrete values will not be interoperable when communicating with other systems. {{% /note %}}
 
@@ -112,7 +112,7 @@ To avoid the default behavior of automatically displaying line breaks/headers, u
 
 
 
-![](../../external_files/34e9dfa881c530a8187d623fefa387a3.png)
+![](flowsheets-editor.images/image2.png)
 
 
 
@@ -150,7 +150,7 @@ A common use for conditional logic is to display or hide a row, depending on a p
 `
 `
 `
-![](../../external_files/787a862b838ac41004e446acc84b073d.png)`
+![](flowsheets-editor.images/image3.png)`
 `
 #### Based on Patient Sex
 

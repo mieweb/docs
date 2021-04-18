@@ -1,16 +1,16 @@
 ---
 title: "Injections CSV API"
-date: 2020-03-17T15:04:17.378Z
+date: "2020-03-17T15:04:17.378Z"
 url: "general-functionality/system-administration/data-migration/injections-csv-api.html"
-version: 40
-id: 1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE
-source: https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE
+version: 41
+id: "1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE"
+source: "https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE"
 menu:
     main:
         name: "Injections CSV API"
         identifier: "1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4890
+        weight: 4870
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for injections using the Injections CSV API.
 
@@ -38,7 +38,7 @@ CSV refers to the type of file and format of data needed to import information i
 
 ### Screenshots
 
-![](../../../external_files/fbc389413ce58152fa4d7d4d3a5853f5.png)
+![](injections-csv-api.images/image1.png)
 
 
 
@@ -46,7 +46,7 @@ Injections data is stored as a document, and will display within the appropriate
 
 
 
-![](../../../external_files/7b37157a95d4a5a7e29b17de66623b5f.png)
+![](injections-csv-api.images/image2.png)
 
 
 
@@ -54,7 +54,7 @@ In addition, injections display within the Injections flowsheet chart tab as dis
 
 
 
-![](../../../external_files/610fd222b2acdba8cc3370f8142b78d8.png)
+![](injections-csv-api.images/image3.png)
 
 ## Specifications
 

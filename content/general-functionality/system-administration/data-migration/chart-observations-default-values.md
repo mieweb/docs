@@ -1,16 +1,16 @@
 ---
 title: "Chart Observations Default Values"
-date: 2020-02-27T21:04:46.860Z
+date: "2020-02-27T21:04:46.860Z"
 url: "general-functionality/system-administration/data-migration/chart-observations-default-values.html"
-version: 12
-id: 1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM
-source: https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM
+version: 13
+id: "1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM"
+source: "https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM"
 menu:
     main:
         name: "Chart Observations Default Values"
         identifier: "1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5150
+        weight: 5130
 ---
 ## What we mean by "default"
 

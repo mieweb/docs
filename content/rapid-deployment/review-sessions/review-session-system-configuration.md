@@ -1,17 +1,17 @@
 ---
 title: "Review Session - System Configuration"
-date: 2020-02-27T21:24:23.063Z
+date: "2020-02-27T21:24:23.063Z"
 url: "rapid-deployment/review-sessions/review-session-system-configuration.html"
 author: aquandt
-version: 35
-id: 1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM
-source: https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM
+version: 36
+id: "1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM"
+source: "https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM"
 menu:
     main:
         name: "Review Session - System Configuration"
         identifier: "1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 5990
+        weight: 5970
 ---
 ## Agenda
 
@@ -46,23 +46,23 @@ System configurations are any necessary arrangements or modifications for automa
 
 To begin addressing the requirements for effective use of the {{% system-name %}} system, navigate to the **Administrator Welcome** section of the **Quick View**, and click the [Admin Get Started link](https://system/?f=layout&s=pat&module=MASTER&name=AdministratorPortlets&tabmodule=+). Here, users are presented with various areas of the system that require initial setup and consideration for configuration.
 
-![](../../external_files/cd9886becf6b512352ed9dc55faa4d3f.png)
+![](review-session-system-configuration.images/image1.png)
 
-![](../../external_files/26c40ac20a6ba29755e9792b3b9db575.png)
+![](review-session-system-configuration.images/image2.png)
 
 ### Corporate Branding
 
 From the **Corporate Branding** section, clients may browse to local files of their required logo, for both document letterheads and the system/portal logo(s). Click **Upload** after the appropriate files have been selected, and the system will store the files and display them, accordingly.
 
-![](../../external_files/762537fba8147fb0b8796a7936763718.png)
+![](review-session-system-configuration.images/image3.png)
 
 ### Add/Update Locations
 
 Adding and updating locations can be done using the **Update Office Location** section. Clients click the [here](https://system/?f=chart&s=leditor&opp=Edit&oldcode=OFFICE) link to edit the primary location of the business. Once this is updated, simply click the **Modify** button, and the page will refresh the **Locations Manager**, where additional locations can be added, as needed. This editor may also be accessed by navigating to the **Control Panel** and selecting the [Locations Manager tab](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager).
 
-![](../../external_files/0d0a63ed23f4d0204187f1af647c54cd.png)
+![](review-session-system-configuration.images/image4.png)
 
-![](../../external_files/a8c41703fdcb187aa9d4a3a03b2b1c06.png)
+![](review-session-system-configuration.images/image5.png)
 
 Though all fields are not necessary, it is best practice to be as detailed as possible. Default required fields are:
 
@@ -83,11 +83,11 @@ Users and providers utilizing the {{% system-name %}} system can be added manual
 
 Though there are several methods for adding a new user manually, the simplest is to navigate to the [Quick View](https://system/?func=omniscope) sidemenu. Within the **Administrator Welcome** portlet, there is an [Admin Get Started link](https://system/?f=layout&s=pat&module=MASTER&name=AdministratorPortlets&tabmodule=+) available. After clicking the link, the **Add User** section will be available, where the [here](https://system/?f=admin&s=pat&t=security&opp=auser) hyperlink can be used to begin manually entering a new user.
 
-![](../../external_files/e4500264b4e91c21b28a04aefcb12613.png)
+![](review-session-system-configuration.images/image6.png)
 
 Enter all of the necessary information, as it relates to the user profile being created.
 
-![](../../external_files/1d094147d5c3572e8a1e2ed2c9aa3548.png)
+![](review-session-system-configuration.images/image7.png)
 
 {{% info %}}
 
@@ -107,10 +107,10 @@ In this context, the term *Patients* refers to any available chart in the {{% sy
 {{% /info %}}
 
 
-![](../../external_files/51765597cb458074c1ca5357ebc4d0af.png)
+![](review-session-system-configuration.images/image8.png)
 The **Patients Linked to User** page will load. Begin typing the last name of the patient to be linked to the user, and select the name from the autocomplete. In order to gain access to the portal, the patient and user accounts require the role of **No More Clipboard User**. A supervisor should be linked with the **Supervisor** role.
 
-![](../../external_files/9ef1ee8806bc77c4d833a41762fc5c90.png)
+![](review-session-system-configuration.images/image9.png)
 
 #### Provider Setup
 
@@ -124,19 +124,19 @@ In order to provide a "wet" signature on documentation, each provider will need 
 
 Chart Types are an important concept in {{% system-name %}} . Chart Types are used to differentiate between *types* of records in the system, allowing for different chart tabs, as needed. These should only be managed by a Deployment Consultant. To view chart types, navigate to the **Chart Types** tab in the Control Panel.
 
-![](../../external_files/31bf258eece778e8f7ab9def64c6669b.png)
+![](review-session-system-configuration.images/image10.png)
 
 ### Chart Tabs
 
 Chart tabs, too, are very important in the {{% system-name %}} system. Chart tabs hold the various contents of a chart type, or specific record. One aspect of chart tabs is to designate the types of documents to be available or used from a given chart tab. Though their color can be modified, and they can be added, removed, or renamed, as needed, they should only be managed by a Deployment Consultant. To view the default chart tabs, navigate to the **Chart Tabs** tab in the Control Panel.
 
-![](../../external_files/9cedeaf862c28030f440075cfa027d0c.png)
+![](review-session-system-configuration.images/image11.png)
 
 ### Document Types
 
 Document types are a foundational element of the {{% system-name %}} system. Document types establish the type of document, so that {{% system-name %}} understands what to do with the content, or data. Each document type gets mapped so that specific documents can display in one or more designated areas, or chart tabs. These are set up by default and should only be managed by the Deployment Consultant, from the [Document Types tab](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the Control Panel, if necessary.
 
-![](../../external_files/30efbbf0407821593a67c091ae34bd30.png)
+![](review-session-system-configuration.images/image12.png)
 
 ### Load Employer Organizations
 
@@ -146,17 +146,17 @@ Depending on the needs of the business, Employer Organizations can be added and 
 
 The ability to add a Provider Organization is a feature designed to assist with provider management and to establish, or build provider directories. The provider directory is accessible when creating an order, where it pulls the provider name, address, and phone number onto the order form. This allows referring by provider. Provider Organizations may be added by clients from the [Provider Management sidemenu](https://system/?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+).
 
-![](../../external_files/38b435ff4eb800a4a7adc0c1fbcc9a7f.png)
+![](review-session-system-configuration.images/image13.png)
 
 ### CPT Codes
 
 To assist with streamlining billing and charges, a CPT editor is available for managing CPT codes, picklists, and modifiers. To access the editor, navigate to the [CPT Codes tab](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&t=CPT+Codes&tabmodule=admin&tabselect=CPT+Codes) of the **Control Panel**.
 
-![](../../external_files/be75ffe0b2ee1bcb8a46474301192959.png)
+![](review-session-system-configuration.images/image14.png)
 
 To begin adding CPT codes and their associated descriptions to the {{% system-name %}} system, simply click the [Add CPT code link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&opp=add_cpt), in the upper-right corner of the page.
 
-![](../../external_files/5333a613be571205601530b3e1b7065b.png)
+![](review-session-system-configuration.images/image15.png)
 
 Duplicate CPT codes cannot be added to the system. An error message will appear, if attempted.
 
@@ -164,7 +164,7 @@ Duplicate CPT codes cannot be added to the system. An error message will appear,
 
 Once all CPT codes and descriptions have been entered, picklists can be created. Picklists provide a means to limit the number of available CPT codes by encounter type, or what's more is the ability to group CPT codes according to their function (e.g., Immunization CPT codes can be grouped into an individual picklist). Depending on the business needs, *all* picklists can be shown in the Billing and Charges section of encounters, by default; or certain picklists can be set to display in any encounter, as needed.
 
-![](../../external_files/4a5da9d5e4d8fd1d3a4420eb21f14bfa.png)
+![](review-session-system-configuration.images/image16.png)
 
 To begin building picklists, click the [Add Picklist link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&view=picklist&opp=add_list) from the CPT Codes editor. This will open the CPT Picklist editor. Enter the name of the picklist in the **Name** field (must be unique). This field is limited to 30 characters. Next, enter the CPT codes needed to display within this picklist. The order in which they are entered is the way in which they display. When finished, click the **Save** button. Alternatively, clicking the **Save & Alphabetize** button will change the way the CPT codes display within the picklist, making them display alphabetically by description, rather than in the order in which they were entered.
 
@@ -189,9 +189,9 @@ Fee schedules are used to manage pricing for provided services, dependent upon a
 
 Adding and updating insurance to a chart is quick and easy with {{% system-name %}} . While in the individual's chart, navigate to the **Admin** chart tab, and select **Demographics** from the menu. Scroll to the bottom of the page, to the **Insurance Summary** section. To begin entering insurance information, click the **Add Insurance** link. The page will refresh and display the *Add Insurance Policy* screen, where the insurance policy and pre-certification information may be added to the patient's chart.
 
-![](../../external_files/dd78e3cc4c243897476ecceeaf0c0c1e.png).
+![](review-session-system-configuration.images/image17.png).
 
-![](../../external_files/c0fad081eb2569cc161656ffba398865.png)
+![](review-session-system-configuration.images/image18.png)
 
 When adding an insurance plan to a chart, it is important the insurance plan is available within {{% system-name %}} . To view and manage available insurance plans within the system, navigate to the [Insurance Plans tab](https://system/?f=chart&s=insplan&tabmodule=admin&t=Insurance+Plans&tabmodule=admin&tabselect=Insurance+Plans) of the **Control Panel**. Here, administrators may add and update available insurance plans, as needed. The plans that are added will be available for selection from the *Insurance Plan* autocomplete, found when adding a policy to the patient's chart.
 
@@ -209,7 +209,7 @@ As a means to automate varying types of system maintenance and necessary workflo
 
 Users have the ability to manage specific settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the **Control Panel**, to begin editing these options. For information on each of the preferences, check out the [My Settings](../../general-functionality/system-administration/security/my-settings.html) and [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) help documentation.
 
-![](../../external_files/d1c96d43a0e13dc251d54993679643fe.png)
+![](review-session-system-configuration.images/image19.png)
 
 Some of the most commonly changed user preferences are:
 
@@ -257,8 +257,8 @@ Some of the most commonly changed user preferences are:
 
 * [Locations Manager Tab](../../general-functionality/system-configuration/locations-manager-tab.html)
 * [Adding a Department](../../general-functionality/system-configuration/managing-departments.html)
-* [Access Control - Adding/Deleting/Editing Users](../../general-functionality/system-administration/system-controls/access-control-adding-deleting-editing-u.html)
-* [Access Control - Quick-Add Multiple Active Users](../../general-functionality/system-administration/system-controls/access-control-quick-add-multiple-active.html)
+* [Access Control - Adding/Deleting/Editing Users](../../general-functionality/system-administration/system-controls/access-control-adding-deleting-editing-users.html)
+* [Access Control - Quick-Add Multiple Active Users](../../general-functionality/system-administration/system-controls/access-control-quick-add-multiple-active-users.html)
 * [Reset Users Password](../../general-functionality/system-administration/system-controls/reset-user-passwords.html)
 * [Chart Types Editor](../../general-functionality/system-configuration/chart-types-editor.html)
 * [Chart Tab](../../general-functionality/system-configuration/chart-tabs.html)

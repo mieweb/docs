@@ -1,16 +1,16 @@
 ---
 title: "Print/Fax/Transmit Prescriptions"
-date: 2020-02-27T20:04:28.276Z
+date: "2020-02-27T20:04:28.276Z"
 url: "general-functionality/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.html"
-version: 44
-id: 1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc
-source: https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc
+version: 45
+id: "1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc"
+source: "https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc"
 menu:
     main:
         name: "Print/Fax/Transmit Prescriptions"
         identifier: "1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc"
         parent: "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
-        weight: 2070
+        weight: 2050
 ---
 Printing a prescription will render the prescription on paper from your printer you are hooked up to.
 
@@ -20,7 +20,7 @@ Transmit will send the prescription by a SureScripts electronic transmission (if
 
 After you click SAVE when prescribing a drug, the Medication history screen will reappear and in the middle will be a box that says **This patient Has unsent prescriptions** and/or **This patient has unprinted drug guides.**
 
-![](../../external_files/dc3a08bd9e626916743ddbface640b98.png)
+![](print-fax-transmit-prescriptions.images/image1.png)
 
 * <strong>Include</strong> option column: This will automatically default to having all scripts check-marked to be included in the print/fax/transmit queue. You can un-checkmark specific ones and they will <strong>not</strong> print/fax/transmit at this time. However, they <strong>will</strong> stay up in the <strong>This Patient Has Unsent Prescriptions</strong> queue. You can then print or fax/transmit or take completely out by clicking Do Not Print (see below instructions).
     * If there are prescriptions in this queue but you cannot check-mark them to include them to be sent, then you must look at the details column to see what needs fixed. Once errors are fixed, then the prescription should be able to be check-marked to be included to be sent.
@@ -28,7 +28,7 @@ After you click SAVE when prescribing a drug, the Medication history screen will
 * <strong>Details</strong> column: This will be blank, unless there is an error with the prescription or if it is a controlled substance. If there is a field left blank, it will say here what it is missing. If it is a controlled substance, then it will say that here. Some options currently set to show in <em>details</em> column are: 1) Controlled substance with class #, 2) May or may not be a controlled substance, 3) No Quantity specified, 4) No Strength/Form specified and 5) No Prescriber specified. This allows you to catch something before printing/faxing, correct it, then print/fax it correctly. To correct something, you can click on the underlined drug name in the <strong>Drug Name</strong> column and it will pull up that prescription. You then click <em>Edit</em> and either <em>Change Therapy</em> or <em>Correct Error</em> (see separate Prescribing/Adding Meds help documentation). Click <em>Save</em> after correcting the error/therapy, then it will still be in the pending print/fax box w/ your changes/corrections. Prescriptions with missing "required" SureScripts fields can be printed, but not faxed/e-sent until the required fields are fixed. If SureScripts is disabled, then there will be no warning about the required fields.
     * If you see a detail message of:_ This drug has (Inactive) status_ , that means the system is telling the user that for example: Elavil is not a drug that can be prescribed anymore, according to our drug database provider (First Databank) it is inactive and not available for prescribing. Further research will need to be done by the user to prescribe something valid.
 
-![](../../external_files/092365f311f2319bbce079ef39e42fb3.png)
+![](print-fax-transmit-prescriptions.images/image2.png)
 
 * <strong>Options</strong> column with the words "<em>Do NOT Send"</em>. If you do <strong>not</strong> want to print/fax/transmit a particular prescription or drug guide at this time then click that. It will take it totally out of the <em>pending print prescriptions</em> and still places it below in the patient's medication history_._ It will show the others still as active to print (if there are others pending to print). You can continue to click another if you wish not to print another. This medication has been prescribed for this patient, but has been chosen not to print/fax/transmit. Ex: you may have called in a prescription to a pharmacy. Since you called it in, you would not print/fax/transmit it now.
 * <strong>Script:</strong> Use the drop-down arrow to select the type of script pad you want these printed/faxed/transmitted on.
@@ -37,13 +37,13 @@ After you click SAVE when prescribing a drug, the Medication history screen will
 
 The easiest/quickest way is to have had the patient's Preferred Pharmacy set in the patient's meds tab and a stored Preferred Mail-In Pharmacy for the patient. Then you can use the quick buttons of USE PREFERRED or USE MAIL-IN to populate the pharmacy field with that specific pharmacy and continue to transmit the script.
 
-![](../../external_files/3a9669151df5139f4127d69dfe7f189e.png)
+![](print-fax-transmit-prescriptions.images/image3.png)
 
 If you wish to search and transmit to a different pharmacy, just clear the *Pharmacy* field (click the CLEAR button) and type at least 3 characters of the pharmacy you want to search for. The system will show you a drop-down of matching choices according to what you typed. These pharmacy choices are within the patient's state/city or zip code range. The state/city and zip code defaults are read from the patient's demographics tab. If there is no zip code entered in the patient's demographics tab, it will show choices for pharmacies within the logged in user's zip code range.
 
 When you search for a pharmacy to send to, it shows the pharmacy name, address, phone and fax numbers. It also may show some pharmacies in grey and some pharmacies in bold **blue.** Pharmacies showing in **blue** are capable to e-transmit to using the SureScripts feature. It doesn't mean it will be electronically transmitted to that pharmacy though unless you are a certified e-prescriber with SureScripts (see other help documentation named *Setting up E-Prescribers.pdf* to become certified). The bold **blue** just signifies that this pharmacy is indeed capable to electronically transmit to via the SureScripts feature. The other pharmacies in grey are valid pharmacies, but they would be transmitted via standard fax from {{% system-name %}} because they are not capable of receiving via electronic transmit. *If the pharmacy isn't capable of receiving an electronic transmit, the prescription will automatically default to a fax to that pharmacy.*
 
-![](../../external_files/67ffbb4c80b99d99b5058a59c9d9ab3a.png) ![](../../external_files/48dfcd5f07d974c0a4d111667a863172.png)
+![](print-fax-transmit-prescriptions.images/image4.png) ![](print-fax-transmit-prescriptions.images/image5.png)
 
 Select the pharmacy you wish to transmit to. You can search for pharmacies via state/city or zip code. We suggest searching by zip code because for example: some pharmacies from the database may be loaded as Ft Wayne vs Fort Wayne. Some cities may be spelled out differently, but the search should find those and we can add a list of normalized city names as needed.In the blank pharmacy field type at least the **first three (3) letters** of the pharmacy and it will take you to those pharmacies matching those initial characters. It may take a few seconds to load selections because it is looking through the NPI pharmacy directory and the SureScripts database of national pharmacies for that area in your search criteria. This field searches those directories. This search field is not pointed to any {{% system-name %}} departments. If the pharmacy you want is not found in the search, there is no way to add it to the directories. Adding a pharmacy to a department in {{% system-name %}} username screen will not show here. You would need to print the prescription for the patient if the pharmacy they want it sent to is not found as a choice. The pharmacy selections from the NPI database & SureScripts database and are updated nightly.
 
@@ -53,15 +53,15 @@ If you can't find the specific pharmacy you need, please be sure to search via z
 * <strong>Mail Only option:</strong> Checking this box limits the results to pharmacies in the SureScripts and/or NPI pharmacy directories to mail in pharmacies only. This option is used mostly when setting the patient's preferred mail in pharmacy or when searching for a mail-in pharmacy to transmit to.
 * <strong>Fax # / Phone # Search:</strong> You can do a reverse search for a pharmacy if you know the pharmacy's specific fax number or phone number. Instead of searching for the name of the pharmacy, you are searching for pharmacy matches by fax/phone number of the pharmacy that you know. This could be utilized when a patient states a pharmacy that may have had a name change. The patient may know the pharmacy by one name, yet the SureScripts and NPI database have it stored as an official/different name. To search for a pharmacy by its known fax or phone number, first make sure the <em>pharmacy field</em> is cleared. Click the clear button to clear that field. Then select the radio button to search by fax or phone number of the pharmacy. Proceed to type in at least the first 6 digits (including area code) of the fax or phone number for the pharmacy you are searching for. The first 6 digits are required. You can type them all run together (ex: 260483) or include a space or dash (ex: 260 483 or 260-483). Once you have at least the first 6 digits of the pharmacy's fax or phone number you are searching for, hit your TAB key to advance and then any matching results will render.
 
-![](../../external_files/6ccae3e4bc91fc9fae3e9d689552264e.png)
+![](print-fax-transmit-prescriptions.images/image6.png)
 
 If you wish to set this found pharmacy as the patient's Preferred Pharmacy or as the patient's Preferred Mail-In Pharmacy, after you've selected it from the *Pharmacy* search field, simply click the SET AS PREFERRED button or SET AS MAIL-IN button. It will save that pharmacy as the patient's Preferred Pharmacy in {{% system-name %}} or the patient's Preferred Mail-In pharmacy.
 
-![](../../external_files/2b14755eb1014b60d08dc69f6c541e0f.png) ![](../../external_files/79acd0ec4df5a590a26d3e0d24716969.png)
+![](print-fax-transmit-prescriptions.images/image7.png) ![](print-fax-transmit-prescriptions.images/image8.png)
 
 At the top of the fax/transmit screen is the *medications* summary of each prescription being sent. This is essentially the preview and last step to verify the prescription and details that will be faxed or transmitted. You can use the show/hide link to show/hide this section if you wish.
 
-![](../../external_files/169afb707a4278ba7765bc7f977f87a1.png)
+![](print-fax-transmit-prescriptions.images/image9.png)
 
 The next section is the pharmacy search (described above).
 
@@ -69,19 +69,19 @@ Below that are the details of the pharmacy that it will be faxed or transmitted 
 
 * <strong>Service Level</strong>: The service level tells you what that pharmacy is capable of.  Hover your mouse over the help icon to see what the pharmacy you selected is capable of. This is an example of a pharmacy that is capable of receiving prescriptions via electronic transmission using SureScripts. This would be sent by electronic transmit (SureScripts) if you, the prescriber, have been verified by SureScripts as an approved e-prescriber. It also shows the service level and you can hover over the help icon to see descriptions of service level(s) this pharmacy is capable of. The Fax Coversheet will <strong>not</strong> render if the pharmacy will be receiving the prescription electronically transmitted from your practice.
 
-![](../../external_files/ce262fdbed4685242d0d8c6bf557e8b1.png)
+![](print-fax-transmit-prescriptions.images/image10.png)
 
 * <strong>Fax From</strong>: This field shows on the Fax/Transmit E-Prescription screen, allowing users to choose a source location.  Pharmacies then can see what number to use if faxing things back.
 
-![](../../external_files/08368f17bed475668b3efc724f203ed0.png)
+![](print-fax-transmit-prescriptions.images/image11.png)
 
 * In order to see the <strong>Fax From</strong> field you need the security setting of <em>Allow Setting of FAX From</em> set to yes. Also, the location selections shown in this <em>Fax From</em> field are pulled from the "Locations" tab in {{% system-name %}} . The location(s) you wish to be able to show as selections here must have the setting of <em>Use In Fax Header</em> set to Yes in the "Locations" tab.
 
-![](../../external_files/715f72bfbca6524f8d9660f2c3fe8d35.png)
+![](print-fax-transmit-prescriptions.images/image12.png)
 
 * <strong>Fax Coversheet</strong>: Choose the fax coversheet if you are the prescription is defaulting to go by fax (fax-only service level) because the pharmacy isn't capable of receiving electronic SureScripts transmissions. The fax coversheet will <em>only</em> be sent with the script if it goes by default fax mode. A script will be sent by fax if the pharmacy is not capable of receiving via electronic transmittal, or if you, the prescriber, do not have verification approval from SureScripts to be an e-prescriber.
 
-![](../../external_files/6f40ba3fc374db4fb513b050a34cc104.png)
+![](print-fax-transmit-prescriptions.images/image13.png)
 
 * <strong>Fax/Transmit</strong> will default to a fax or electronically transmit the prescription job right then.
     * Fax/Transmit button will send the fax or transmit the prescription electronically depending on the service level. Preview button will only appear if the prescription is being sent via fax. This way you can ‘preview' the fax being sent.
@@ -90,7 +90,7 @@ Below that are the details of the pharmacy that it will be faxed or transmitted 
 
 Even though the pharmacy you selected is e-send capable, doesn't mean that you are transmitting/e-sending until you are a verified e-prescriber with Surescripts. The script will be sent by a default manual fax until you are verified with SureScripts. There's nothing here on this screen telling you which way it will be sent (fax or transmit) until after you click fax/transmit. Then it will say it was faxed instead of e-sent because the prescriber is not an e-prescriber. It will let you know if it was faxed or e-sent successfully right away or show you a message that it may be pending verification.
 
-![](../../external_files/59c4479cbac4b209bfa850c33fad3dbc.png)
+![](print-fax-transmit-prescriptions.images/image15.png)
 
 To see if the script was printed, faxed or electronically transmitted (e-sent), you can go into the patient's medication history to view how it went. (See instructions on page 7 below)
 
@@ -100,11 +100,11 @@ Patients with a non-US address previously could not have E-prescriptions routed 
 
 If you are sending a prescription that is going to go by a default manual fax (because the pharmacy isn't capable of receiving electronic SureScript transmissions),
 
-![](../../external_files/ee91680e5960a16c1f1258b1fb669cf9.png)
+![](print-fax-transmit-prescriptions.images/image16.png)
 
 In the **FAX PREVIEW** mode, it opens an AlternaTIFF view of what the fax will look like (including the coversheet). You can go thru each page using the < > arrow keys. Preview shows you the fax to look over. You then have the choices of SEND FAX or CANCEL FAX in this preview mode.
 
-![](../../external_files/3b5e967bf88068864a77765b54417eb0.png)
+![](print-fax-transmit-prescriptions.images/image17.png)
 
 * If you preview it and all looks fine, you would click SEND FAX.
 * If you want to cancel the entire fax job you click CANCEL FAX.  Cancel Fax takes the fax job completely out (doesn't mark it as faxed either) and cancels the fax entirely. This Cancel Fax button in the preview mode acts entirely different than the Cancel Fax button on the fax/transmit screen earlier.
@@ -124,9 +124,9 @@ If there were any errors with the pharmacy receiving your electronic transmit, y
 
 In the patient's E-Meds chart tab click on the medication/drug name of the specific medication in the Medication History section (Drug Name column) to see the stored history for that drug/prescription.
 
-![](../../external_files/3e95dfec72cdde63a1e480f2d0e22ce4.png)
+![](print-fax-transmit-prescriptions.images/image18.png)
 
 Once in the specific drug history, scroll down, it will show refills, medication revisions and below that it will tell you when/if the script was printed and/or faxed and also another section for e-send (electronically transmitted) dates and to which pharmacy.
 
-![](../../external_files/135adaf2fe8cea96b0e1dfd8ca3fc6a5.png)
+![](https://lh4.googleusercontent.com/_7Biy1rcVS_NHDMXb8VFwRVQ_7b79FoGUjWUeVY8QFB9yicvSiU37F-clwzPtOEfI58YkXtUVxO8DY56HHs-nRxHBaI7tqYupUF0tA8vgx5sQKEk5LUINwBd1ei00izYDl_eAYb99Jkf4ro0Hg)
 

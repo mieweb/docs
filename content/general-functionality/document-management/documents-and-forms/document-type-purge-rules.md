@@ -1,10 +1,10 @@
 ---
 title: "Document Type Purge Rules"
-date: 2020-03-23T18:15:06.981Z
+date: "2020-03-23T18:15:06.981Z"
 url: "general-functionality/document-management/documents-and-forms/document-type-purge-rules.html"
-version: 49
-id: 1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg
-source: https://drive.google.com/open?id=1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg
+version: 50
+id: "1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg"
+source: "https://drive.google.com/open?id=1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg"
 menu:
     main:
         name: "Document Type Purge Rules"
@@ -29,11 +29,11 @@ When {{% system-name %}} documents are purged, they are permanently deleted. Ret
 
 Navigate to the [Document Types tab](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) found in the **Control Panel** sidemenu. Given the proper security permissions, there will be a link to [View Purge Rules](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtpurgerules), found in the upper-right corner of the page.
 
-![](../../../external_files/63538aa25af29ae6bf933e9ad1633fed.png)
+![](document-type-purge-rules.images/image1.png)
 
 Clicking the View Purge Rules link will load a list view of active and inactive Document Type Purge Rules in {{% system-name %}} .
 
-![](../../../external_files/2d71d5facebbce8a99f38e58044493fc.png)
+![](document-type-purge-rules.images/image2.png)
 
 Once created, purge rules cannot be deleted, only inactivated. The active purge rules are listed in the top-most section, *Document Type Purge Rules*. All inactive purge rules are listed in the lower *Inactive Document Purge Rules* section. Inactive purge rules will not be considered when the purge rules are *evaluated*. Evaluating a purge rule is the trigger that marks documents matching the purge rule parameters for possible removal.
 
@@ -49,11 +49,11 @@ With the purge rule(s) evaluated and the appropriate documents approved for remo
 
 The **Add Purge Rule** link is found at the upper-right of the *View Document Purge Rules* page_._
 
-![](../../../external_files/f89f7706c22264b28b6b0d45d73b47d1.png)
+![](document-type-purge-rules.images/image3.png)
 
 Clicking the link will load the *Add Purge Rule* screen. Users given the appropriate security permissions may add new purge rules, as needed. As noted, at the bottom of the page is a list of purge rules that already exist in {{% system-name %}} . These may be used as references when creating new rules, as well.
 
-![](../../../external_files/ea222544aef8d8d179fc9c31960945e4.png)
+![](document-type-purge-rules.images/image4.png)
 
 {{% note %}}
 
@@ -81,7 +81,7 @@ The first type of purge rule is the document type-based purge rule, which requir
 
 After clicking the [Add Purge Rule](https://system/?f=chart&s=dteditor&t=Document+Types&dtopp=dtpurgerules&opp=add) link, the first available field is a drop-down multi-select menu, which allows users to select which document type(s) will be evaluated by the rule. By clicking the ellipsis (**…**) button to the right of the drop-down menu, users can see which document types are available in the system. From here, users may *select all*, *un-select all*, or check off specific document types to be included in the purge rule. To retract the drop-down menu, click the ellipsis button, again.
 
-![](../../../external_files/33715a130890cf7fb76c6e8844efe81c.png)
+![](document-type-purge-rules.images/image5.png)
 
 Together, the selection of **Document Type(s)** and **Lifetime Before Purging** define the documents and how long they are expected to be kept before purging. The **Lifetime Before Purging** textbox should be used to specify an age the document should reach before it is eligible for purging. Use the letters `y`, `m`, and `d` to specify *years*, *months*, and *days*. For example, 5y 4m 3d would specify an age of 5 years, 4 months, and 3 days before the document would be eligible to be purged.
 
@@ -89,7 +89,7 @@ Together, the selection of **Document Type(s)** and **Lifetime Before Purging** 
 
 As noted, when a checkmark is placed in the *Match SQL Text* box, the Document Type(s) drop-down and Lifetime Before Purging textbox will be removed and replaced with the **SQL Text** free-text field. Here, SQL statements may be entered. The Lifetime Before Purging field is no longer available with SQL-based purge rules, because lifetime will be included in the SQL query.
 
-![](../../../external_files/22f061a74b9c6fed398044fbd1b80c58.png)
+![](document-type-purge-rules.images/image6.png)
 
 This is how most rules will likely be created, as it provides more flexibility for accommodating all elements of data retention policies, such as last encounter date, patients in litigation, or specific stored document variables and data, like physicians, locations, or the like.
 
@@ -102,7 +102,7 @@ Further discussion of SQL is beyond the scope of this document. A {{% system-nam
 
 Click the **Add Purge Rule** button to create the purge rule. To discard it, click **Cancel**.
 
-![](../../../external_files/3673d5f834aaf0156291b6cbaa5a714d.png)
+![](document-type-purge-rules.images/image7.png)
 
 ## Editing a Purge Rule
 
@@ -120,11 +120,11 @@ Each time a purge rule is edited, a copy of the rule is saved before the rule is
 
 Evaluating a purge rule is the trigger that marks documents matching the purge rule parameters for possible removal. Simply click the **Evaluate** link of the active purge rule needing triggered, and the purge rule will run, compiling a list of documents matching the specified criteria.
 
-![](../../../external_files/2f8ccd8332f006e56739289ab23b8ea7.png)
+![](document-type-purge-rules.images/image8.png)
 
 Depending on the complexity of the query and how many documents are in the system, this process may take a few moments to generate the list. When the list is ready, a *Matching Document(s) for Purge Rule* screen be presented, with the document matches.
 
-![](../../../external_files/e98adcee4ad9540ef0fafaaa5c54423a.png)
+![](document-type-purge-rules.images/image9.png)
 
 Any documents that have already been added to the *Documents to be Purged* table will appear with the *Select* checkbox already checked. Documents that have not yet been added, or approved for deletion, will be listed without the checkbox checked. A **Select All** and **Select None** button can be found below the list view. Check all the documents approved for deletion, and uncheck any that are not needing purged.
 

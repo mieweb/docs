@@ -1,10 +1,10 @@
 ---
 title: "Patient Registration"
-date: 2020-02-27T19:34:21.430Z
+date: "2020-02-27T19:34:21.430Z"
 url: "general-functionality/patient-registration.html"
-version: 13
-id: 1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0
-source: https://drive.google.com/open?id=1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0
+version: 14
+id: "1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0"
+source: "https://drive.google.com/open?id=1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0"
 menu:
     main:
         name: "Patient Registration"

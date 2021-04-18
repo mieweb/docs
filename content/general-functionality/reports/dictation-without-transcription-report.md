@@ -1,16 +1,16 @@
 ---
 title: "Dictation without Transcription Report"
-date: 2020-02-27T20:13:16.359Z
+date: "2020-02-27T20:13:16.359Z"
 url: "general-functionality/reports/dictation-without-transcription-report.html"
-version: 16
-id: 1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4
-source: https://drive.google.com/open?id=1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4
+version: 17
+id: "1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4"
+source: "https://drive.google.com/open?id=1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4"
 menu:
     main:
         name: "Dictation without Transcription Report"
         identifier: "1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4150
+        weight: 4130
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
 
@@ -22,7 +22,7 @@ Click *Dict W/O Trans* tab from the top menu.
 
 The Dictation without Transcription summary report automatically pops up and lists *all* of the outstanding dictations that do not have a matching transcription of a word document.
 
-![](../../external_files/642b3d25bb1b771b07a7866b0eac6c07.png)
+![](dictation-without-transcription-report.images/image1.png)
 
 You can narrow down this report by selecting a specific dictating user (dictating physician), and/or date range from the fields at the top. Click *Apply* to show the reports of your new search.
 
@@ -32,5 +32,5 @@ If you click the Dictation ID number then it will open and play the dictation th
 
 You can grab the dictation and transcribe to complete it, or you can edit the dictation or send, etc all providing you have the security level permissions.
 
-![](../../external_files/cb4ddda4de93fc3ce3f6ca2a9dd79a66.png)
+![](dictation-without-transcription-report.images/image2.png)
 

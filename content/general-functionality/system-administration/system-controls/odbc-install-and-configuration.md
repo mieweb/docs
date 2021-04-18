@@ -1,16 +1,16 @@
 ---
 title: "ODBC Install & Configuration"
-date: 2020-03-16T23:23:27.283Z
+date: "2020-03-16T23:23:27.283Z"
 url: "general-functionality/system-administration/system-controls/odbc-install-and-configuration.html"
-version: 43
-id: 10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk
-source: https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk
+version: 44
+id: "10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk"
+source: "https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk"
 menu:
     main:
         name: "ODBC Install & Configuration"
         identifier: "10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk"
         parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-        weight: 4650
+        weight: 4630
 ---
 ### MySQL 5.3.6 ODBC Driver Install
 
@@ -38,7 +38,7 @@ From the Windows Desktop:
 
 
 
-![](../../../external_files/5c95e8326b21122b78d8abb0883e921a.png)
+![](odbc-install-and-configuration.images/image1.png)
 
 
 
@@ -71,7 +71,7 @@ From the MySQL ODBC Configuration Screen
 
 
 
-![](../../../external_files/c3fa0677bf10b062bd9a256c03058552.png)
+![](odbc-install-and-configuration.images/image2.png)
 
 
 
@@ -114,7 +114,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](../../../external_files/77d78226f6a611a1b45bfc064f8b2ca0.png)
+![](odbc-install-and-configuration.images/image3.png)
 
 
 
@@ -123,7 +123,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](../../../external_files/9ca56c80326b9a5a462f3d4cb5c09c54.png)
+![](odbc-install-and-configuration.images/image4.png)
 
 
 
@@ -133,7 +133,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](../../../external_files/e5564ededd360904cd688f7d5ae1b0d6.png)
+![](odbc-install-and-configuration.images/image5.png)
 
 
 
@@ -144,7 +144,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](../../../external_files/9527efbec8a37824a6cb72c4c01ae6cc.png)
+![](odbc-install-and-configuration.images/image6.png)
 
 
 
@@ -152,7 +152,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](../../../external_files/c72b766bb4d2a9d8a45eeccf223f70d2.png)
+![](odbc-install-and-configuration.images/image7.png)
 
 
 

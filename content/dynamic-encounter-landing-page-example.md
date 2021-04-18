@@ -1,11 +1,11 @@
 ---
 title: "Dynamic encounter landing page example"
-date: 2021-02-11T19:56:09.172Z
+date: "2021-02-11T19:56:09.172Z"
 url: "dynamic-encounter-landing-page-example.html"
-author: Edward Grzetich
+author: egrzetich
 version: 21
-id: 1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ
-source: https://drive.google.com/open?id=1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ
+id: "1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ"
+source: "https://drive.google.com/open?id=1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ"
 ---
 Dynamic encounter landing page example
 

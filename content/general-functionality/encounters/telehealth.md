@@ -1,10 +1,10 @@
 ---
 title: "TeleHealth"
-date: 2020-03-31T14:31:43.227Z
+date: "2020-03-31T14:31:43.227Z"
 url: "general-functionality/encounters/telehealth.html"
-version: 40
-id: 1gqUkQvl5rLf5tbD0avlLfKSn0uy3tqcqqoY3U5XNQK8
-source: https://drive.google.com/open?id=1gqUkQvl5rLf5tbD0avlLfKSn0uy3tqcqqoY3U5XNQK8
+version: 42
+id: "1gqUkQvl5rLf5tbD0avlLfKSn0uy3tqcqqoY3U5XNQK8"
+source: "https://drive.google.com/open?id=1gqUkQvl5rLf5tbD0avlLfKSn0uy3tqcqqoY3U5XNQK8"
 ---
 {{% system-name %}} has announced the launch of embedded video visit capabilities to support clinics and practices that are rapidly moving to telehealth, as they respond to the COVID-19 pandemic.
 

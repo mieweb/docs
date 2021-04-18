@@ -1,16 +1,16 @@
 ---
 title: "Data Migration File Format Standard"
-date: 2020-03-17T01:50:37.727Z
+date: "2020-03-17T01:50:37.727Z"
 url: "general-functionality/system-administration/data-migration/data-migration-file-format-standard.html"
-version: 25
-id: 1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg
-source: https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg
+version: 26
+id: "1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg"
+source: "https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg"
 menu:
     main:
         name: "Data Migration File Format Standard"
         identifier: "1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4710
+        weight: 4690
 ---
 This is an overview of what MIE expects from data files that are received from clients for data migration. Because it is time consuming and often unreliable to find and fix any problems with these files, MIE will return to the client any files that do not meet the following requirements.
 

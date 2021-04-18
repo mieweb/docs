@@ -1,11 +1,11 @@
 ---
 title: "Configuring access to financial funding sources"
-date: 2021-02-18T15:52:51.275Z
+date: "2021-02-18T15:52:51.275Z"
 url: "general-functionality/financial-functionality/configuring-access-to-financial-funding-sources.html"
-author: Edward Grzetich
+author: egrzetich
 version: 11
-id: 1Nk51k7eFk7sbCADxwOlfsWb4sxLGdc6kkva5tWhS1GU
-source: https://drive.google.com/open?id=1Nk51k7eFk7sbCADxwOlfsWb4sxLGdc6kkva5tWhS1GU
+id: "1Nk51k7eFk7sbCADxwOlfsWb4sxLGdc6kkva5tWhS1GU"
+source: "https://drive.google.com/open?id=1Nk51k7eFk7sbCADxwOlfsWb4sxLGdc6kkva5tWhS1GU"
 ---
 For each user security role or user account that needs to view or edit financial funding sources when working with charges or payments, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.html). 
 

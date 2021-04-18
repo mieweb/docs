@@ -1,17 +1,17 @@
 ---
 title: "Improvement Activities Measures"
-date: 2020-02-27T21:29:08.172Z
+date: "2020-02-27T21:29:08.172Z"
 url: "general-functionality/quality-of-care/measures/improvement-activities-measures.html"
 author: aquandt
-version: 15
-id: 1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE
-source: https://drive.google.com/open?id=1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE
+version: 16
+id: "1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE"
+source: "https://drive.google.com/open?id=1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE"
 menu:
     main:
         name: "Improvement Activities Measures"
         identifier: "1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE"
         parent: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
-        weight: 2570
+        weight: 2550
 ---
 
 
@@ -31,7 +31,7 @@ Improvement activities allow practices to participate in meaningful ways to bett
 
 ### 
 
-[2018 Improvement Activities](improvement-activities-measures/2018-improvement-acti_1.html)
+[2018 Improvement Activities](improvement-activities-measures/2018-improvement-activities.html)
 
 
 
@@ -41,7 +41,7 @@ Improvement activities allow practices to participate in meaningful ways to bett
 
 ### 
 
-[2019 Improvement Activities](improvement-activities-measures/2019-improvement-acti_1.html)
+[2019 Improvement Activities](improvement-activities-measures/2019-improvement-activities.html)
 
 
 

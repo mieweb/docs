@@ -1,16 +1,16 @@
 ---
 title: "Signature Pad Device"
-date: 2020-02-27T20:26:18.438Z
+date: "2020-02-27T20:26:18.438Z"
 url: "general-functionality/system-administration/interfaces/signature-pad-device.html"
-version: 17
-id: 1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo
-source: https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo
+version: 18
+id: "1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo"
+source: "https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo"
 menu:
     main:
         name: "Signature Pad Device"
         identifier: "1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5570
+        weight: 5550
 ---
 In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and you should install the CD prior to using. We recommend the Topaz Signature Pad Device.
 
@@ -22,7 +22,7 @@ The example below shows the signature program utilized in an Immunization Consen
 
 This Signature program can be customized to be titled/labeled as you wish. In this example below, it uses the signature pad device for various immunization consents, travel pickup and prescription pickup requests. Upon the patient's electronic signature, the document (and electronic signature) is uploaded and stored directly into the patient's chart.
 
-![](../../../external_files/79ba396b5895ad6891023db159300871.png)
+![](signature-pad-device.images/image1.png)
 
 The above screenshot example allows you to enter in the patient's name that need to sign the consent. Then the specific consent radio button is selected. A canned statement appears both on the signature pad device and on the {{% system-name %}} screen. It is ready for the patient to sign.
 
@@ -30,7 +30,7 @@ Click the START SIGNATURE button and the patient would sign the signature pad us
 
 This is an example of what the uploaded and stored document would look like, along with the electronic signature and date/time stamp on the document.
 
-![](../../../external_files/9aa11f78c1e96420ccbf3e9b14e93230.png)
+![](https://lh5.googleusercontent.com/0l6hdjsAZZmK7aOfHIrNiR0X3Klpl14zlPTSpgcQdFKQrzhGbA7ThzFIWUiEX-FLHylLR9w54TwKBU49hzkc_WTnq9_GS34WfrB-udzYIg7C4Ak7yjC5-BbHqVJcdvkCjabgPnKM7wZuR4GkoQ)
 
 Signature pad devices can also be used in conjunction with the mass immunization record tab. See other help documentation named *Mass Immunization Record Tab.pdf*.
 

@@ -1,16 +1,16 @@
 ---
 title: "Injection Tab - Vials"
-date: 2020-03-16T14:41:06.490Z
+date: "2020-03-16T14:41:06.490Z"
 url: "general-functionality/injection-immunization-management/injection-tab-vials.html"
-version: 47
-id: 11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk
-source: https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk
+version: 48
+id: "11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk"
+source: "https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk"
 menu:
     main:
         name: "Injection Tab - Vials"
         identifier: "11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk"
         parent: "1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA"
-        weight: 2300
+        weight: 2280
 ---
 ## Add Vials
 
@@ -18,7 +18,7 @@ There is a feature in the immunization/injections module to add Allergy Vials fr
 
 
 
-![](../../external_files/239fe214b2055d8b957e09df9ef1f67b.png)
+![](injection-tab-vials.images/image1.png)
 
 
 
@@ -28,7 +28,7 @@ Enter the information in each field.  
 
 
 
-![](../../external_files/b55c519c119d7132743fc8278d4940b9.png)
+![](injection-tab-vials.images/image2.png)
 
 
 
@@ -36,7 +36,7 @@ Click the ADD button when done entering the vial(s) you wish. After you enter vi
 
 
 
-![](../../external_files/b3c9c2442d7168677fe8de46039049f6.png)
+![](injection-tab-vials.images/image3.png)
 
 
 
@@ -48,7 +48,7 @@ Then, click the ADD INJECTIONS FOR VIALS button under the vials summary listing.
 
 
 
-![](../../external_files/97523f1f0e503d3612c3901c8ffc521b.png)
+![](injection-tab-vials.images/image4.png)
 
 
 
@@ -58,7 +58,7 @@ Fill out the injection fields with the information.  Fields will be auto-popula
 
 
 
-![](../../external_files/ba7c2a4841637093e7564e69635eddb7.png)
+![](injection-tab-vials.images/image5.png)
 
 
 
@@ -90,7 +90,7 @@ When working in an encounter, your MIE Implementer can have the Vials section pr
 
 
 
-![](../../external_files/66c7e734ff9ca1c0013fe3a2035c69a5.png)
+![](injection-tab-vials.images/image6.png)
 
 
 
@@ -100,7 +100,7 @@ If you are a practice that uses the Vials for patients, you can have your MIE Im
 
 
 
-![](../../external_files/3e122b552a3473e2f3545a8f87a8173f.png)
+![](injection-tab-vials.images/image7.png)
 
 
 
@@ -114,7 +114,7 @@ To Edit a Vial, simply click the Edit link in the Options column next to the via
 
 
 
-![](../../external_files/1524b8bc8c9edb618e0b286641468e6c.png)
+![](injection-tab-vials.images/image8.png)
 
 
 
@@ -122,7 +122,7 @@ Make the edits to the fields you wish.
 
 
 
-![](../../external_files/da3882bc081d3b53fa7246fc3266f625.png)
+![](injection-tab-vials.images/image9.png)
 
 
 
@@ -138,7 +138,7 @@ To Delete a Vial, simply click the Delete link in the Options column next to the
 
 
 
-![](../../external_files/2bb1848f003eadb7548ac69a62b97465.png)
+![](injection-tab-vials.images/image10.png)
 
 
 
@@ -146,7 +146,7 @@ Click the DELETE button.  Once you click delete, it will delete the vial.  The
 
 
 
-![](../../external_files/2338379819b829fd6ea6a84352e64622.png)
+![](injection-tab-vials.images/image11.png)
 
 
 
@@ -158,7 +158,7 @@ If you wish to view or retrieve a deleted vial, from the main Injections summary
 
 
 
-![](../../external_files/614038897af1e60221761e1cb4869071.png)
+![](injection-tab-vials.images/image12.png)
 
 
 
@@ -168,7 +168,7 @@ If you wish to retrieve (undelete) a vial, simply click the link undelete from t
 
 
 
-![](../../external_files/9165f9245c26ca99a9144c47df0b91a9.png)
+![](injection-tab-vials.images/image13.png)
 
 
 
@@ -176,7 +176,7 @@ It then brings up the details of the vial.  Click UNDELETE button at the bottom
 
 
 
-![](../../external_files/b813f311d1e11ab25046fe727c14249e.png)
+![](injection-tab-vials.images/image14.png)
 
 
 
@@ -192,7 +192,7 @@ Copy is a quick way to enter another vial using a previous/old vial information.
 
 
 
-![](../../external_files/0ab5dbc77e52013e8faee87d20888677.png)
+![](injection-tab-vials.images/image15.png)
 
 
 
@@ -202,7 +202,7 @@ This is just a quick way to enter another vial without having to re-enter field 
 
 
 
-![](../../external_files/632121b072636d69a28ec095f27d7d82.png)
+![](injection-tab-vials.images/image16.png)
 
 
 
@@ -218,7 +218,7 @@ Contact your MIE Implementer to set the doc.type to the system setting.  The do
 
 
 
-![](../../external_files/d72cd8c9d3f4e8db8894f48191e9864c.png)
+![](injection-tab-vials.images/image17.png)
 
 
 
@@ -226,7 +226,7 @@ Using a flatbed scanner to scan a Vial sheet, simply click the Scan link in the 
 
 
 
-![](../../external_files/32e59401271d5acc5d6086aaa69d58d6.png)
+![](injection-tab-vials.images/image18.png)
 
 
 
@@ -236,7 +236,7 @@ The document scan control will appear on the screen.  Proceed to scan in the vi
 
 
 
-![](../../external_files/af68f08d4d7884c4ffb4686c9e4fd687.png)
+![](injection-tab-vials.images/image19.png)
 
 
 

@@ -1,10 +1,10 @@
 ---
 title: "Managing Departments"
-date: 2020-02-27T19:33:06.713Z
+date: "2020-02-27T19:33:06.713Z"
 url: "general-functionality/system-configuration/managing-departments.html"
-version: 38
-id: 1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0
-source: https://drive.google.com/open?id=1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0
+version: 39
+id: "1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0"
+source: "https://drive.google.com/open?id=1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0"
 menu:
     main:
         name: "Managing Departments"
@@ -22,11 +22,11 @@ Click *View Departments* link option at the top left.
 
 You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system.
 
-![](../../external_files/807c4feb30da6726bcf051f8c085ee7c.png)
+![](managing-departments.images/image1.png)
 
 Click on the underlined *Department* name to open a list of the users that are set to this department.
 
-![](../../external_files/807c4feb30da6726bcf051f8c085ee7c.png)
+![](managing-departments.images/image2.png)
 
 ## Add a Department
 
@@ -38,17 +38,17 @@ Click *View Departments* link option at the top left.
 
 You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system. Click *Add Department* link towards the top right corner of this screen.
 
-![](../../external_files/807c4feb30da6726bcf051f8c085ee7c.png)
+![](managing-departments.images/image3.png)
 
 When you click Add Department, the Add Department screen fields will display.
 
-![](../../external_files/e0c6e33baeb65c8b8f3ef096e99c9600.png)
+![](managing-departments.images/image4.png)
 
 **NAME**: Type is the full name of the department you wish to add.
 
 **VIEWABLE DEPARTMENTS**: Then you must check any *Viewable Departments* that you want this department to be able to view. Make sure it's own department is check-marked. Once the department is checked, the users in that department will be able to view anything that those other users in that department(s) are allowed to view. You can check-mark *all* of the departments by clicking the **Check All Dept** button. These viewable departments are primarily if a user is set to a security permission to view restricted departments only. For example, suppose I am an administrator (as my primary department) and my viewable departments are physicians and nurses, but not pharmacists. Then I cannot see anyone whose primary department is "pharmacists". If the physicians department can view nurses, pharmacists and administrators, then a person whose primary department is "physicians" can view any pharmacist. If, as a primary administrator, I am also in the physicians department, I still cannot view anyone in the pharmacy department. If a dept is marked viewable, the user can see the other users within that department. *Currently this is for NoMoreClipboard use only, however any |system| user may be set to be restricted to view specific department(s) only.*
 
-![](../../external_files/dd99bbc50b749169b022c6ed658682ef.png)
+![](managing-departments.images/image5.png)
 Then click *Submit Dept.* It will then say it was successfully loaded.
 
 ## Delete/Inactivate a Department
@@ -63,23 +63,23 @@ You will see an alphabetized list of the Departments that exist in your {{% syst
 
 Click Delete in the options column to delete a department.
 
-![](../../external_files/807c4feb30da6726bcf051f8c085ee7c.png)
+![](managing-departments.images/image6.png)
 
 When you *delete* a department, it does not actually delete it. It marks it as "inactive".
 
 It will ask you a confirmation that you really want to delete this department. Click Delete to proceed or cancel to escape and get out.
 
-![](../../external_files/71a7f1e280eaf0cfa278c524982be980.png)
+![](managing-departments.images/image7.png)
 
 ## Reactivating a Deleted Department
 
 If you ‘deleted' a department (inactivated a department), and you need to put it back in as an active department, you click the *Show Inactive* link in the section title. This will display all active and deleted (inactive) departments in an alphabetized listing on the screen.
 
-![](../../external_files/09c242c03136f9a0bafc62b12191a09a.png)
+![](managing-departments.images/image8.png)
 
 Find the department you want to re-activate and click *Activate* in the options column.
 
-![](../../external_files/b26b8abda606f50e2bd5b3b9c3614898.png)
+![](managing-departments.images/image9.png)
 
 If you need a department completely and permanently deleted, you need to call MIE to have that done.
 
@@ -95,7 +95,7 @@ You will see an alphabetized list of the Departments that exist in your {{% syst
 
 Or click the link *Edit* in the options column of the department you wish to edit.
 
-![](../../external_files/807c4feb30da6726bcf051f8c085ee7c.png)
+![](managing-departments.images/image10.png)
 
 You will now be in the Edit Department screen fields.
 
@@ -103,7 +103,7 @@ You will now be in the Edit Department screen fields.
 
 **VIEWABLE DEPARTMENTS**: You can edit by check-marking (or un-checkmarking) any *Viewable Departments* that you want this department to be able to view. Make sure it's own department is check-marked. Once the department is checked, the users in that department will be able to view anything that those other users in that department(s) are allowed to view. You can check-mark *all* of the departments by clicking the **Check All Dept** button. These viewable departments are primarily if a user is set to a security permission to view restricted departments only. Currently this is for NoMoreClipboard use only, however any {{% system-name %}} user may be set to be restricted to view specific department(s) only.
 
-![](../../external_files/941ebf178085fff37dc12ec9a08ef734.png)
+![](managing-departments.images/image11.png)
 
 Click SUBMIT DEPT. button at the bottom. Your edits will now be saved for that department..
 
@@ -115,17 +115,17 @@ To add or remove users to/from a department in mass, click View Departments from
 
 Find the department you wish to add mass users to or remove users from and click edit link.
 
-![](../../external_files/694c015d9261d8d8461430d0259cb000.png)
+![](https://lh3.googleusercontent.com/2gF2uqRP2Y58-54fWM4zwqElnIzpOdPz1i2vqg212ob2cDoCLZ-iIcBMxwS1VSXZkpZFxnpC0GL60mXrOlDSPEDitviQeXF8tmTgs4GIxrFS133T-2r-Ken-ONf5B9J5cgh6jKjRJruHqBux7Q)
 
 In the edit screen, there is the **Users in the ( ) Department** section. This lists alphabetically (by last name) the names of the users that are currently a part of the department. To remove users from a department, simply click the [-] button next to their name in the *options* column.
 
-![](../../external_files/bf8f5bcfc945dfec54a79ab2ff3d681d.png)
+![](https://lh6.googleusercontent.com/nXnCSdLlFjmf9lL0nAr8rY7SjBZAprU5sUesvw8u6Ukaqgd2bTvW7_7eoG3GcTxxVTx0GOT-P0dcKK2J7HYQCxZQKWTF8Gml6tUbJOll187f9U4JTRRRr8K8QDXMinjLq3-sdQu5mDLw2lt7OQ)
 
 You can add users to the department (in mass) by using the auto-complete field and when you find the user, click the ADD button. Continue to add more users to the department.
 
-![](../../external_files/2140a3f215829aaa5161795a6920d46e.png)
+![](https://lh6.googleusercontent.com/iVEtgl1yN7-m5y8sB-um8LFVd2tzryw48FPv4S6bzd3315kg8o2fu_1o-cVgCpfSAgEV6-VKFyfci1Dchi-sVixE-VnStk4eXwyPXJdzduRnY8AS_7rvnfBJ7QUhEAqRMlGaIeKpJbiNVfneqg)
 
 When you are done adding and/or removing users from the department, click the SUBMIT DEPT button to save your work.
 
-![](../../external_files/8e361a17016309f071b149d479828d55.png)
+![](https://lh5.googleusercontent.com/1NzuOeaRwG2d0SFINrU7xnFWP9ACu0TW39jdZb6Ekqo8mq9xaeypz3anc-aNJryBEg1zlkUukTmapbm0SO1hqGwFTp4CUQRpL7ClWkZW7Esx_U8z_UJ8r3gQDuTyPAPlZi5C9CzQYOExkMpZtQ)
 

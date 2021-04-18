@@ -1,17 +1,17 @@
 ---
 title: "Device Interface - NDD EasyOne Connect vbase"
-date: 2021-01-14T21:07:22.084Z
+date: "2021-04-12T19:10:33.325Z"
 url: "general-functionality/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.html"
-author: Aaron Capriglione
-version: 83
-id: 1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c
-source: https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c
+author: Kyle Kocks
+version: 101
+id: "1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
+source: "https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
 menu:
     main:
         name: "Device Interface - NDD EasyOne Connect vbase"
         identifier: "1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5490
+        weight: 5470
 ---
 The following is referring to the NDD EasyOne Connect spirometry system (also referred to as Easy-On or EasyWare). Contact your MIE Implementer to see if your spirometer system model can be interfaced or quoted.
 
@@ -22,8 +22,9 @@ NDD's EasyOne Connect software employs a plugin system that EMR vendors can use 
 ## Plugin Download and Installation
 
 * From Control Panel > Plugins, use the "Download NDD Easy-On Plugin" link to download the EHR plugin to a PC that has the NDD software already installed.
+* If Internet Explorer was used to download the file, rename the file from "nddplugin_mie.zip" to "nddplugin_mie.zemr"
 * Run the EasyOne Connect software as an administrator.
-    * {{% anchor sys="_GoBack" %}} ![](../../../external_files/bd3fad7d2335a75fc221c8e8e501cab4.png)
+    * {{% anchor sys="_GoBack" %}} ![](device-interface-ndd-easyone-connect-vbase.images/image1.png)
 * Click Utilities > Configuration.
 * Click the EMR tab.
 * Install new.
@@ -41,7 +42,7 @@ The plugin will get and send data under the authority of a  SYSTEM  user.  Ea
 * Make sure the <strong>Devices</strong> portlet is selected.
 * Once per user (not on every workstation), click the One-Time setup link.  This creates a public/private key pair and a login trust record.
 * On each workstation, the user should click the Get client credentials link then click in the box to copy their credentials to the clipboard.
-    * ![](../../../external_files/040b38ed73583c4c1dc41cd19a0c409d.png)
+    * ![](device-interface-ndd-easyone-connect-vbase.images/image2.png)
     * Be sure all of the text is copied.  It should should:
         * Start with "----BEGIN RSA PRIVATE KEY----"
         * End with "----END RSA PRIVATE KEY----".
@@ -49,7 +50,7 @@ The plugin will get and send data under the authority of a  SYSTEM  user.  Ea
 * Click "Search EMR".  A warning that the software could not make connection to EHR system should display.
 * Click "Search EMR" again.  This time you will be prompted to enter your  SYSTEM  username.
 * Click in the "Credential Data" text box and Ctrl+V or Right mouse click and Paste.
-    * ![](../../../external_files/4c820cd770b98d2d9be8295125689418.png)
+    * ![](device-interface-ndd-easyone-connect-vbase.images/image3.png)
 * If successful, this setup should only need to be done once per user per PC.
 
 ## Finding People Due for Testing
@@ -80,9 +81,9 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
     * This can be enabled by showing the "Assets" sidemenu tab
     * Click "Add New Asset"
     * The name field is how we uniquely identify devices, so this must be entered exactly.
-        * ![](../../../external_files/57fe806c4925dd8d0a99589dffa59a58.png)
+        * ![](device-interface-ndd-easyone-connect-vbase.images/image4.png)
         * This name can be found in a PFT document that was created using the device.
-        * ![](../../../external_files/11590fcc394141c58991ae7c196f1e4e.png)
+        * ![](device-interface-ndd-easyone-connect-vbase.images/image5.png)
         * If you use all the same kind of device, then you can assume they will follow the same pattern, with just the serial number being different.
 * To perform calibration in the NDD software, go to Utilities > Check Calibration
 * After calibration, there will be a special patient created in the NDD patient list, named "Calibration Check" with an ID that is the serial number of the device.
@@ -90,12 +91,12 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
 * Click to select the Calibration Check test that you want to upload
 * Click the double-right arrow in the middle of the row of icons to expand options.
 * Click the EMR button.
-    * ![](../../../external_files/157494b9b728b94da8d3897d6cf2c736.png)
+    * ![](device-interface-ndd-easyone-connect-vbase.images/image6.png)
     * The Doc ID is the unique ID of the calibration document and you can find it in the device's asset chart, or by searching for it by ID.
     * The calibration document will be a PFT document, and the result of calibration will be shown as the Interpretation.
-        * ![](../../../external_files/2f966d1f9d0f2b3bc19241aa17a3c357.png)
+        * ![](device-interface-ndd-easyone-connect-vbase.images/image7.png)
 * If you try to upload calibration for a device that hasn't yet been entered as an asset, you will see an error like this displayed:
-    * ![](../../../external_files/b4d835c36ec3107a81df4f9ca54bbaf8.png)
+    * ![](device-interface-ndd-easyone-connect-vbase.images/image8.png)
     * After registering a chart with that name, you should be able to upload the calibration.
 
 ## Collected Fields

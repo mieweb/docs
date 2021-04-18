@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Scheduler"
-date: 2020-02-27T21:24:45.329Z
+date: "2020-02-27T21:24:45.329Z"
 url: "rapid-deployment/review-sessions/review-session-scheduler.html"
 author: aquandt
-version: 24
-id: 16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44
-source: https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44
+version: 25
+id: "16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44"
+source: "https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44"
 menu:
     main:
         name: "Review Session - Scheduler"
         identifier: "16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6030
+        weight: 6010
 ---
 ## Agenda
 
@@ -160,13 +160,13 @@ There are a large number of system settings available for the Scheduler module. 
 
 In additional to system settings, it is important to review the security settings for each user or security role needing access to the scheduler functions. There is additional information available within the [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) online help documentation, if needed.
 
-![](../../external_files/ffacdfa3441ab51e96fde0803aaa46b7.png)
+![](review-session-scheduler.images/image1.png)
 
 ### My Settings Preferences
 
 Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../general-functionality/system-administration/security/my-settings.html) online help documentation.
 
-![](../../external_files/0692226b2a6950ad67b48bcf86f95e1a.png)
+![](review-session-scheduler.images/image2.png)
 
 ## Resources
 

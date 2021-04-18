@@ -1,16 +1,16 @@
 ---
 title: "Additional Appointment-Related Reports"
-date: 2020-02-27T20:12:13.662Z
+date: "2020-02-27T20:12:13.662Z"
 url: "general-functionality/reports/additional-appointment-related-reports.html"
-version: 17
-id: 1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI
-source: https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI
+version: 18
+id: "1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI"
+source: "https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI"
 menu:
     main:
         name: "Additional Appointment-Related Reports"
         identifier: "1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4090
+        weight: 4070
 ---
 ## Appointment Cancel Reason Report
 
@@ -24,7 +24,7 @@ Click *Appt Cancel Reason* tab from the top tab menu.
 
 The search criteria screen will display.
 
-![](../../external_files/d3c41b624ad432f928c42346520a34cb.png)
+![](additional-appointment-related-reports.images/image1.png)
 
 * <strong>Dates:</strong> Enter any date ranges. If you want a full history, simply enter an end date of today.
 * <strong>Resource:</strong> Select a resource from the drop-down.
@@ -47,7 +47,7 @@ It will also show the number of duplicate appointments for that patient.
 
 The Startdate is the date the duplicate appointment occurs.
 
-![](../../external_files/2522935c34bf58140d9cd35641efc74d.png)
+![](additional-appointment-related-reports.images/image2.png)
 
 You can click View Printable and print out a basic black/white printable layout by then going to FILE and PRINT from that view.
 
@@ -61,7 +61,7 @@ Click *Appt No Location* tab from the top tab menu.
 
 It will automatically generate a list of appointments without locations. These are appointments schedule that do not have a location selected for the patient's appointment.
 
-![](../../external_files/96214270b52fbf63e545da5d2cd856c7.png)
+![](additional-appointment-related-reports.images/image3.png)
 
 You can click View Printable and print out a basic black/white printable layout by then going to FILE and PRINT from that view.
 
@@ -75,7 +75,7 @@ It can be shown in the Reports side tab and/or it can be shown in the Omniscope 
 
 There are many options for this report, however the only way to get a patient off this list is to add dictation to the appointment date by clicking the add dictation link in the options column.
 
-![](../../external_files/d70e6ee8ad1bea21f0268334c71a94b6.png)
+![](additional-appointment-related-reports.images/image4.png)
 
 Your MIE Implementer can add a programming clause in that layout to exclude appointments that have been cancelled, or are no-show appointments. This will take those patient appointments off this report list or keep those from showing up on this report list.
 

@@ -1,16 +1,16 @@
 ---
 title: "Multilingual Feature"
-date: 2020-03-16T22:57:36.970Z
+date: "2020-03-16T22:57:36.970Z"
 url: "general-functionality/system-administration/system-controls/multilingual-feature.html"
-version: 67
-id: 1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY
-source: https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY
+version: 84
+id: "1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY"
+source: "https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY"
 menu:
     main:
         name: "Multilingual Feature"
         identifier: "1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY"
         parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-        weight: 4580
+        weight: 4560
 ---
 {{% system-name %}}  supports many different languages:  English, Indonesian/Bahasa, Portuguese, Chinese, Spanish, Thai, Dutch, Vietnamese.
 
@@ -23,37 +23,37 @@ menu:
 
 There is a system setting to set the default language for the  {{% system-name %}} system. By default it is set to English.
 
-![](../../../external_files/9127d5260451cb03187df8a6be210f5e.png)
+![](multilingual-feature.images/image1.png)
 
 If a  {{% system-name %}} system needs to show in other languages, please make sure the system setting for Multilingual is enabled.
 
-![](../../../external_files/0bf9f62a02c61f69192b9cc7b431e59a.png)
+![](multilingual-feature.images/image2.png)
 
 If you want to show  {{% system-name %}} in other supported languages to be able to select and display  {{% system-name %}} in any of our supported languages, you must have the supported languages system setting value set with some JSON programming format. Please contact your MIE Implementer to have set the languages you wish to have your  {{% system-name %}} to offer. The system setting provides each  {{% system-name %}} system to show specified list of languages that  {{% system-name %}} can be shown in via the "globe" icon when working in {{% system-name %}} .
 
-![](../../../external_files/88147e9dafffe81ac97a7150fd2cb252.png)
+![](multilingual-feature.images/image3.png)
 
 Once the system setting is set with the desired languages to make available, you will see a "world" or "globe" icon at the top right corner of your  {{% system-name %}} system. You can click that to have your  {{% system-name %}} view shown in different languages instead of always going to set preferred language via *My Settings* preference. The *My Settings* preference and the "world" or "globe" icon selection are the same thing; same method of changing your language you are viewing. This only affects your user logged in session; it doesn't change the language for all other users in {{% system-name %}} .
 
-![](../../../external_files/d09e3b50ab28838bf3034d8c82903f68.png)
+![](multilingual-feature.images/image4.png)
 
 By clicking the "globe" icon, from the drop-down select the language you want  {{% system-name %}} shown in. Your MIE Implementer needs to copy in the specific language(s) files in the db background that you want your  {{% system-name %}} to support.
 
-![](../../../external_files/1a72b742a96613177bb46a78b44f4a69.png)
+![](multilingual-feature.images/image5.png)
 
 As soon as you select a different language, your screen will refresh and display in the language you selected. Every time you work in {{% system-name %}} , it will be shown in the language you have selected here. Meaning even if you log out, you will not be sent back to English version, etc.
 
 You will see chart tabs, screens, titles, etc all translated to the language you selected from the "world" or "globe" icon or what you set via the auto-complete from your My Settings preference screen. This screenshot example shows my system in Spanish.
 
-![](../../../external_files/56ec21463be3605d8e81d3119cff0abe.png)
+![](multilingual-feature.images/image6.png)
 
 If you have security permission to "Manage Languages", you will see "balloons" next to any English words, that means there is currently no translation stored for that word and it will be shown in English but provides you the "balloon" to translate it for your system. Usually only users with translation expertise have security to translate so it's translated correctly for all users to see.
 
-![](../../../external_files/3e91ac4042b8aafa83b7e65d5e3116e3.png) ![](../../../external_files/5f547d8c0e4c6d620ce3212850dd02d3.png)
+![](multilingual-feature.images/image7.png) ![](multilingual-feature.images/image8.png)
 
 If you have security permission to "manage languages" than you can translate any word ‘on the fly' that has a balloon next to it if you wish. You would click the "balloon" icon and a small pop-up window will appear to translate that English word into the language you are viewing  {{% system-name %}} in.
 
-![](../../../external_files/1eedc22640dc0f7ea55690cd2078a88b.png)
+![](multilingual-feature.images/image9.png)
 
 The title of this pop-up means "Provide Translation". That will display in whatever language you are set to view (ex: Proveer traducci?n). The next line is the name of the specific word (in English) you are about to translate (ex: Print Chart). Then there is a free text box where you type in your translation words. You would type in the spelling/words in the language you are translating for (what you are set on your view).
 
@@ -76,17 +76,17 @@ You can be in a different language and still be able to access the English trans
 
 Go to *My Settings* and set your preference to **show** English Translations on Hover.
 
-![](../../../external_files/e7adccfb75fae38d7e354f2585d9e331.png)
+![](multilingual-feature.images/image10.png)
 
 If that is set to ‘show' then you can be in  {{% system-name %}} and use your mouse to hover over a translated/different language word, title, section, chart tabs, sidetabs, or anything that is translated and you will see it's English translation. Here is an example where my mouse is hovering over the Fecha de Conclusion column title and it shows me the English translation for that column title which is "Date Concluded".
 
-![](../../../external_files/8411b370200738abbcb1b4d6f6f08189.png)
+![](multilingual-feature.images/image11.png)
 
 ## Language Manager Tab
 
 The *Language Manager* or *Language Editor* tab is found in the Control sidemenu tab. You must have security permission to "Manager Languages" to access this tab.
 
-![](../../../external_files/fc599b90514e72d7e32c198e3a1df51f.png)
+![](multilingual-feature.images/image12.png)
 
 Here in the *Language Manager* tab is where you can manage translations that someone did.
 
@@ -96,15 +96,15 @@ You fill out any filter criteria to find the labeled translation you need and cl
 
 To edit a translation already done, you would click edit in the options column. You can then retype the corrected translation in that field and submit. You can inactivate the label translation too.
 
-![](../../../external_files/31e431cd2128b0972b1165afb3b15c18.png)
+![](multilingual-feature.images/image13.png)
 
 The *Language Manager* tab also has a link for "Script Translations" that allows convenient translation of some labels. This hyperlink *Script Translations* will only show/appear if your default language preference is something other than English. So to access this hyperlink, you must have your preferred language set to something other than English (either in the My Settings preference or via the "globe" icon).
 
-![](../../../external_files/2f9f10ad11d9c95e79eb492f77ced7ef.png)
+![](multilingual-feature.images/image14.png)
 
 When you click that hyperlink, a pop-up window will appear of some missing script translations (for the language that you are set on). You can see them listed and you can provide a translation for in an easy flowsheet type of method. If it's a long list, use the inner scroll bar to see the entire listing. Click Submit button to save your translation work.
 
-![](../../../external_files/0f8f9cee18ada46bf71253d9adaf8e88.png)
+![](multilingual-feature.images/image15.png)
 
 ## Date Formatting for Other Languages
 
@@ -112,7 +112,7 @@ For multilingual systems, the appointment start date and end date fields that ar
 
 Examples of translated date formats for different countries:
 
-![](../../../external_files/b96ca37d35b606758f61da1ca0c0845d.png)
+![](multilingual-feature.images/image16.png)
 
 There is a system setting that will prevent  {{% system-name %}} from trying to find translations. This can improve performance for systems that only use English. The system setting is: "Webchart", "i18n", "Show Translations". Value 0 = off
 
@@ -124,31 +124,31 @@ The system has the ability customize help bubble text that is hard-coded with th
 
 To customize the first time, click the Create New Help Text hyperlink found in the Languages tab.
 
-![](../../../external_files/52be902a43c7a8fae46c6587380b2c64.png)
+![](multilingual-feature.images/image17.png)
 
 From the value drop-down select the specific hard-coded help bubble text you wish to change and customize. In the Translation field, type out exactly what you want that specific help bubble verbiage to display to users as. Click SAVE button when done.
 
-![](../../../external_files/795e98ec72626e77b4f5d70bdb5514a2.png)
+![](multilingual-feature.images/image18.png)
 
 After saving, the help bubble verbiage for the specific selected (value) standard help field will be changed to what you typed into Translation field. This is an example of help bubble verbiage we changed for patient autocomplete search help (?) bubble:
 
-![](../../../external_files/3ce5a75757307c4e4cc82a10523b48f4.png)
+![](multilingual-feature.images/image19.png)
 
 Back in the Languages tab, you can click the *SEARCH* button and see all translations and help bubble translations. Help bubble translations are context *standard input help*.
 
-![](../../../external_files/a387ab4e93ae2a5569a72ef6d793ab41.png)
+![](multilingual-feature.images/image20.png)
 
 You can edit translated help bubble verbiage by clicking the edit hyperlink next to it and making changes.
 
 You can also change a translated help bubble verbiage back to what the product default comes with (the hard-coded verbiage) by inactivating the stored custom translation. Simply click the edit hyperlink next to a customized translated standard input help bubble translation, then uncheckmark the ‘active' checkbox and Submit your edit.
 
-![](../../../external_files/f08b59b0b571a1fec02a7188922e3d62.png)
+![](multilingual-feature.images/image21.png)
 
 The standard input help specific bubble customized translation that is now inactive, the (?) help bubble verbiage for it will default back to the hard-coded default product verbiage. Here is an example of what it would revert back to in a patient autocomplete search (?) help bubble:
 
-![](../../../external_files/570416641a42881b4495a4290a473c6e.png)
+![](multilingual-feature.images/image22.png)
 
 A customized help bubble that we support can be translated again. Simply search by inactive translations (uncheckmark the active only in the search filter) and click search. Then click ‘edit' next to the inactive translated help bubble verbiage translation. Activate it and type something in the translation that you want shown to users for that specific help bubble in the product.
 
-![](../../../external_files/07e32fdb3e1a02c9367fe8b5caf4ff8b.png)
+![](multilingual-feature.images/image23.png)
 

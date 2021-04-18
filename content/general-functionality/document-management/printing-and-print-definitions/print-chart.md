@@ -1,10 +1,10 @@
 ---
 title: "Print Chart"
-date: 2020-03-09T17:46:39.608Z
+date: "2020-03-09T17:46:39.608Z"
 url: "general-functionality/document-management/printing-and-print-definitions/print-chart.html"
-version: 37
-id: 10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8
-source: https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8
+version: 38
+id: "10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8"
+source: "https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8"
 menu:
     main:
         name: "Print Chart"
@@ -28,7 +28,7 @@ After navigating to a specific chart from the [E-Chart module](https://system/?
 
 
 
-![](../../../external_files/94ad8f38ae00983cdbcc2b3887ea844b.png)
+![](print-chart.images/image1.png)
 
 
 
@@ -36,7 +36,7 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 
 
-![](../../../external_files/73453f9a013ccaf3bff2951b673f9509.png)
+![](print-chart.images/image2.png)
 
 
 
@@ -52,7 +52,7 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 
 
-![](../../../external_files/d8e9022c111af5d87c245564298289a5.png)
+![](print-chart.images/image3.png)
 
 
 
@@ -60,7 +60,7 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 
 
-![](../../../external_files/a18dfaf12a33d141aaf079103e05497a.png)
+![](print-chart.images/image4.png)
 
 
 
@@ -81,7 +81,7 @@ When the **Print without headers** option is selected, another option will be 
 
 
 
-![](../../../external_files/bf0357dc90c3de40776e9a015932e7bd.png)
+![](print-chart.images/image5.png)
 
 
 
@@ -89,7 +89,7 @@ Legacy printing is possible when the *Use legacy print formatting* option is a
 
 
 
-![](../../../external_files/2cc2927ba47e347ab830ff88162118db.png)
+![](print-chart.images/image6.png)
 
 
 
@@ -110,7 +110,7 @@ As noted, the Print Chart functionality is available from various locations with
 
 
 
-![](../../../external_files/a2d9c7db081216eec01ce7d131718a59.png)
+![](print-chart.images/image7.png)
 
 
 
@@ -118,7 +118,7 @@ Once in the Appointments chart tab, locate the appointment for which documents n
 
 
 
-![](../../../external_files/f9466089b59c661e89fa7678907627db.png)
+![](print-chart.images/image8.png)
 
 
 
@@ -126,7 +126,7 @@ Once clicked, the Print Chart dialog window will open. Following the same instru
 
 
 
-![](../../../external_files/cfee26d0885d53c268c097b90a46f8ee.png)
+![](print-chart.images/image9.png)
 
 
 
@@ -145,7 +145,7 @@ In addition to the various locations users can access the Print Chart functional
 
 
 
-![](../../../external_files/e185551742db5c2e58cd832b0488a94f.png)
+![](print-chart.images/image11.png)
 
 
 
@@ -153,7 +153,7 @@ Additionally, users have the ability to utilize the **Print Charts** link, fou
 
 
 
-![](../../../external_files/5b98bfbaadf263bc1d714bd5803430c9.png)
+![](https://lh4.googleusercontent.com/4Pmm9Px9mYV2TV_eb7V_t4tmKMv7wZ70oF0EqmNMYkpC8e6cIYG2iinwpgXu8Qm6npEO_WtFEkr9GCFyMzFVfeY3DBvZKeY_yhnGQHUD9B5LVRxqQHZgnoua5lnTgX3soWvaJXewWhT8Yk9EgA)
 
 
 

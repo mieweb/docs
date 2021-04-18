@@ -1,22 +1,22 @@
 ---
 title: "E-Refills - All E-Refills Tab"
-date: 2020-03-16T11:53:37.082Z
+date: "2020-03-16T11:53:37.082Z"
 url: "general-functionality/medication-management-and-e-prescribing/e-refills-all-e-refills-tab.html"
-version: 31
-id: 1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE
-source: https://drive.google.com/open?id=1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE
+version: 32
+id: "1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE"
+source: "https://drive.google.com/open?id=1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE"
 menu:
     main:
         name: "E-Refills - All E-Refills Tab"
         identifier: "1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE"
         parent: "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
-        weight: 2100
+        weight: 2080
 ---
 You can get to this tab by clicking on the E-Refills link in the alert taskbar at the top (if you are an e-Prescriber and have pending e-refills that need done) OR you can access this tab by going into E-Chart sidemenu tab, then selecting the E-Rx tab at the top (this method of access would be for users who can manage e-refill requests for others).
 
 At the top is a search filter that you can utilize to find specific e-refills in various buckets of this tab. One must set at minimum the prescriber field and click ‘search' to render results.
 
-![](../../external_files/7d2b1f510a3558762ffa53624b4431cb.png)
+![](e-refills-all-e-refills-tab.images/image1.png)
 
 Under the search criteria, the ALL E-REFILLS results then could show e-refills history in two different ways.
 
@@ -25,7 +25,7 @@ Under the search criteria, the ALL E-REFILLS results then could show e-refills h
 
 If this tab shows all zero, then it is because you are not an e-prescriber and also don't have security to work other's refills.
 
-![](../../external_files/783095e7af8280fa5bded4276f5c64a6.png)
+![](e-refills-all-e-refills-tab.images/image2.png)
 
 {{% tip %}}
 
@@ -36,13 +36,13 @@ If you are receiving e-refill requests from pharmacies for a physician who has l
 
 If you **do** have security to manage e-rx refills for others, then this tab will show all categorized e-refill requests for all certified e-Prescribers. A quick way to know this is that you **do** see the *prescriber* name column in the summaries which distinguishes which e-refill request was whose.
 
-![](../../external_files/9d7aa4ff6560d3cbb5745f487fe2de29.png)
+![](e-refills-all-e-refills-tab.images/image3.png)
 
 If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will *not* see the e-refills alert at the top of your screen. You would work those e-refill requests from this tab. You would work them from the PENDING REFILLS REQUESTS category listed at the top of the summary of this tab. Please make sure to only work the refill requests for the prescriber you are designated to.
 
 To work an e-refill request, please see other help documentation named [E-Refills-MY PENDING REFILLS](e-refills-my-pending-refills-tab.html)*.*
 
-![](../../external_files/9d7aa4ff6560d3cbb5745f487fe2de29.png)
+![](e-refills-all-e-refills-tab.images/image4.png)
 If you need to work or monitor or view other e-refills for other categories for e-Prescribers, it is done from this tab.
 
 *It depends if you are an e-Prescriber or not AND/OR if you have security rights to manage e-refill requests for others as to what you will see in this tab.*
@@ -55,29 +55,29 @@ If you are an e-prescriber but do **not** have security to manage other's e-rx r
 
 From the Pending Refill Requests category, clicking the *ID* column will open up that specific pending e-refill to work on. If you click on the *ID* from any other category, it will open up the details of the e-refill request and any approval/denial, etc notes attached to it.
 
-![](../../external_files/67d0b4f074c74ca9e01ce60dbe29c615.png)
+![](e-refills-all-e-refills-tab.images/image5.png)
 
 ## Categories
 
 This *All E-Refills* tab also shows e-refills that have been worked and puts them/sorts them into specific categories such as e-refills that were approved, denied, etc. Completed Refill Requests means the refill request was worked/completed. It could've been denied or approved or changed, but it's completed so it also stores in the completed category. Any refill request errors will also show in it's specific category and unmatched patient refill requests has it's own category to store those in.
 
-![](../../external_files/9d7aa4ff6560d3cbb5745f487fe2de29.png)
+![](e-refills-all-e-refills-tab.images/image6.png)
 
 ### Refill Request Errors
 
 If there were any errors upon transmission of an e-refill request back to a pharmacy, they will show in this category. If the error was due to a connectivity issue between {{% system-name %}} and SureScripts, you will see a RESEND button. This will allow you to resend the e-refill request message back to the pharmacy until it either falls into the completed refill requests category, any other category or remains in this category but returns with a specific error message other than connectivity issue.
 
-![](../../external_files/8961a7cfb5da940b687599072549dfe6.png)
+![](e-refills-all-e-refills-tab.images/image7.png)
 
 If there is still a connectivity issue and you click the RESEND button – you will see a red message box and you will still have access to RESEND button to try again later when connectivity issues have been resolved.
 
-![](../../external_files/982edd39d804cd94854f92313c6795a2.png)
+![](e-refills-all-e-refills-tab.images/image8.png)
 
 You can also get to the RESEND button by clicking on the specific refill *ID* link.
 
-![](../../external_files/7c40b4884397e5b2be0013ab14589d49.png)
+![](e-refills-all-e-refills-tab.images/image9.png)
 
-![](../../external_files/d0b9ef616b06fab43045a8ac1b823e35.png)
+![](https://lh6.googleusercontent.com/WODLxrrfpKT2b8kV2tQPLBfpCQH49ySia6XK-0qZYEZBmfM6Jt6od90g-JL2mmaWNRSCqj73m1Ioa4_ifDR2NPFwFXol51QcO5pWUn8h4c_qBxCnjHzFqvS-LTHz7Qa_d_sZ_Lu5KJyKeWBk3w)
 
 Only refill request messages back to pharmacies via SureScripts are *resendable* if it was a connectivity issue. Any other message that reached SureScripts but they rejected it for any reason – those will be in this category but with a specific error message and no *resend* method is available for those.
 
@@ -87,5 +87,5 @@ This section will probably not ever show anything because the e-Prescriber recei
 
 E-refill request messages for prescribers that are Active or Login Disabled show up in the All E-Refills list. To stop receiving these (ex: for a provider who terminated the practice and their login is disabled), the *Receive Refill Requests* checkbox needs to be unchecked for a user, regardless of their status.
 
-![](../../external_files/57e42ea216a44f9cc01ecc1bb8e3a1c5.png)
+![](https://lh3.googleusercontent.com/LIFkS_keGsuv25JLqGB6brRMo8fx3WhmxRHsCoROaDO5xObdukve5A1PTilfjk47sGMRIaKHnqgTLxm4IlnaJ6o8Ng0Yr18Fz_RZHnRHQOUf_RBYgYax2A-bq8I8c-GQOubkkGpoXdRUPCK9cg)
 

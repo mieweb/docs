@@ -1,16 +1,16 @@
 ---
 title: "Order Question Import Tool"
-date: 2020-02-27T20:45:58.797Z
+date: "2020-02-27T20:45:58.797Z"
 url: "general-functionality/system-administration/data-migration/order-question-import-tool.html"
-version: 12
-id: 1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c
-source: https://drive.google.com/open?id=1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c
+version: 13
+id: "1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c"
+source: "https://drive.google.com/open?id=1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c"
 menu:
     main:
         name: "Order Question Import Tool"
         identifier: "1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5040
+        weight: 5020
 ---
 This wiki page is to document how Order Questions (AOE) data needs to be constructed in order to import using WebChart's Order Questions Import Tool.
 

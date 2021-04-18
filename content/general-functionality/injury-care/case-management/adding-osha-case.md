@@ -1,16 +1,16 @@
 ---
 title: "Adding OSHA Case"
-date: 2020-03-13T13:18:41.709Z
+date: "2020-03-13T13:18:41.709Z"
 url: "general-functionality/injury-care/case-management/adding-osha-case.html"
-version: 50
-id: 1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg
-source: https://drive.google.com/open?id=1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg
+version: 54
+id: "1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg"
+source: "https://drive.google.com/open?id=1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg"
 menu:
     main:
         name: "Adding OSHA Case"
         identifier: "1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1670
+        weight: 1650
 ---
 A case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
 
@@ -20,7 +20,7 @@ If you wish to document a new case, expand to open the Case section in the dynam
 
 
 
-![](../../../external_files/c631c6f901de2cf799e051474497cbb2.png)
+![](adding-osha-case.images/image1.png)
 
 
 
@@ -28,7 +28,7 @@ Once the Case section is expanded, indicate which type of case to create on the 
 
 
 
-![](../../../external_files/fbfacfdcbe6a30d6d3ef2f3615ff462e.png)
+![](adding-osha-case.images/image2.png)
 
 
 
@@ -45,7 +45,7 @@ By default, the Case section in encounters will display the following case types
 
 
 
-![](../../../external_files/6ccfbe4f62807d9faf9d912003b0db88.png)
+![](adding-osha-case.images/image3.png)
 
 
 
@@ -55,7 +55,7 @@ After selecting to create an Injury OSHA Standard case, a question will branch o
 
 
 
-![](../../../external_files/f0ab835110633aca097b659f9aeddbc9.png)
+![](adding-osha-case.images/image4.png)
 
 #### Dates/Times of Injury or Illness
 
@@ -63,7 +63,7 @@ Upon documenting the radio button selection, the case section will branch open t
 
 
 
-![](../../../external_files/5f43542c64493a6780a87f3aa2f3018a.png)
+![](adding-osha-case.images/image5.png)
 
 
 
@@ -73,7 +73,7 @@ The return to work (RTW) dates may be entered now or in later during the case ma
 
 
 
-![](../../../external_files/322a8b16f7011bd235e2c0862bf1402d.png)
+![](adding-osha-case.images/image6.png)
 
 
 
@@ -83,7 +83,7 @@ The work related section is to document details regarding if the incident is wor
 
 
 
-![](../../../external_files/bd94dd46f72145e6779fb2d1d8b3f6dd.png)
+![](adding-osha-case.images/image7.png)
 
 
 
@@ -95,7 +95,7 @@ The location section displays to document where the injury occurred specifically
 
 
 
-![](../../../external_files/5f77cf7ceb8a553fea4002362aa0b7c9.png)
+![](adding-osha-case.images/image8.png)
 
 
 
@@ -103,7 +103,7 @@ If selecting Offsite Location, then the fields that branch open are required fre
 
 
 
-![](../../../external_files/71d82f49f09eb1794687b8404b10410c.png)
+![](adding-osha-case.images/image9.png)
 
 
 
@@ -113,7 +113,7 @@ In the incident details section are some checkbox choices and also where you fre
 
 
 
-![](../../../external_files/ce58d8c7a78f397c564e885c0159e6f5.png)
+![](adding-osha-case.images/image10.png)
 
 
 
@@ -121,7 +121,7 @@ Event and Source drop-down fields are not displayed Injury-OSHA case type by def
 
 
 
-![](../../../external_files/0d240df3cd89279f0904d2579dd4030a.png)
+![](adding-osha-case.images/image11.png)
 
 
 
@@ -131,7 +131,7 @@ In the optional treatment section, you can indicate an answer if the patient rec
 
 
 
-![](../../../external_files/531d6c8a71dfedd78435e173a19107fc.png)
+![](adding-osha-case.images/image12.png)
 
 
 
@@ -141,7 +141,7 @@ The treatment provided by onsite health services radio button choice points to a
 
 
 
-![](../../../external_files/3d35593167b49310ab80c284f530d28d.png)
+![](adding-osha-case.images/image13.png)
 
 
 
@@ -149,7 +149,7 @@ The treatment provided by hospital/er/urgent care facility radio button choice s
 
 
 
-![](../../../external_files/5ba5d36760d0376f4e388c6f08129ac3.png)
+![](adding-osha-case.images/image14.png)
 
 
 
@@ -157,7 +157,7 @@ The treatment provided by external provider or other radio button choices show f
 
 
 
-![](../../../external_files/00cb15e87c7db15a5b952ca9ff73136d.png)
+![](adding-osha-case.images/image15.png)
 
 
 
@@ -167,7 +167,7 @@ This optional section is provided to be able to document what providers are work
 
 
 
-![](../../../external_files/189b6c4416424fcea31c04d74857fad2.png)
+![](adding-osha-case.images/image16.png)
 
 
 
@@ -177,7 +177,7 @@ Here you can document the nature of injury or illness using a drop-down selectio
 
 
 
-![](../../../external_files/5017f051bd635adf8de050f0493573ad.png)
+![](adding-osha-case.images/image17.png)
 
 
 
@@ -185,7 +185,7 @@ Here you can document the nature of injury or illness using a drop-down selectio
 
 
 
-![](../../../external_files/0a34d8f8b3a47c965c1123360e2219f6.png)
+![](adding-osha-case.images/image18.png)
 
 
 
@@ -207,7 +207,7 @@ Some dynamic encounters offer an Incident Summary section.  This is an expandab
 
 
 
-![](../../../external_files/2e3193207c0d0a833ff0bb26a1759cd3.png)
+![](adding-osha-case.images/image19.png)
 
 
 

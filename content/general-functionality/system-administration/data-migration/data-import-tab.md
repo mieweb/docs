@@ -1,22 +1,22 @@
 ---
 title: "Data Import Tab"
-date: 2020-03-17T03:04:04.539Z
+date: "2020-03-17T03:04:04.539Z"
 url: "general-functionality/system-administration/data-migration/data-import-tab.html"
-version: 49
-id: 1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y
-source: https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y
+version: 50
+id: "1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y"
+source: "https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y"
 menu:
     main:
         name: "Data Import Tab"
         identifier: "1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4810
+        weight: 4790
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 
 
 
-![](../../../external_files/286d65ecf5855833c3be25ea6c1932b5.png)
+![](data-import-tab.images/image1.png)
 
 
 
@@ -24,7 +24,7 @@ If user(s) have security permission to allow .csv data import, then the user(s) 
 
 
 
-![](../../../external_files/41570f886bf5502ba4aeaaa6f4086d29.png)
+![](data-import-tab.images/image2.png)
 
 
 
@@ -32,7 +32,7 @@ If your system does not have a Data Import tab, please contact your MIE Implemen
 
 
 
-![](../../../external_files/113d09e5c2ccc3947224658793b11767.png)
+![](data-import-tab.images/image5.png)
 
 
 
@@ -40,7 +40,7 @@ Once in the Data Import tab, use the drop down to select the {{% system-name %}}
 
 
 
-![](../../../external_files/0400587b96175d641db3820a5babb848.png)
+![](data-import-tab.images/image6.png)
 
 
 
@@ -63,7 +63,7 @@ To include Patient Extended Values (PEV) in the import, column headers must incl
 
 
 
-![](../../../external_files/39eda0cbccc5a657a89e1a01fd5dcb9b.png)
+![](data-import-tab.images/image7.png)
 
 
 
@@ -83,7 +83,7 @@ Hover your mouse over any of the column titles to show a full description of eac
 
 
 
-![](../../../external_files/cd25eba14bc58962c42b9248bc7ca384.png)
+![](data-import-tab.images/image8.png)
 
 
 
@@ -95,7 +95,7 @@ Patient lookup is now based on MRN, last name, firstname, and DOB. If 1 match is
 
 
 
-![](../../../external_files/9210422f97f69858e0319c6b3e0dac98.png)
+![](data-import-tab.images/image9.png)
 
 
 
@@ -125,7 +125,7 @@ For example, 02 April 2014 at 3:16 pm would look like 10140402 151600
 
 
 
-![](../../../external_files/f794289d891d416a7b3aec5f78e9a699.png)
+![](data-import-tab.images/image10.png)
 
 
 
@@ -146,7 +146,7 @@ First and Last name are optional fields when importing observations. If names ar
 
 
 
-![](../../../external_files/5a3cbfa849b14e76843a15ade070f859.png)
+![](data-import-tab.images/image11.png)
 
 
 
@@ -161,7 +161,7 @@ Fee schedule import will create/update fee schedules and CPT codes in {{% system
 
 
 
-![](../../../external_files/47da1d41a0d04498990b4b8d1ce4cf6f.png)
+![](data-import-tab.images/image12.png)
 
 
 
@@ -175,7 +175,7 @@ Asset import will create/update assets (usually in separate partition) with spec
 
 
 
-![](../../../external_files/b1329708541a066d1ff5d83af3ebca87.png)
+![](data-import-tab.images/image13.png)
 
 
 
@@ -189,7 +189,7 @@ This data import is for importing Completed Encounter Orders. The import tool ta
 
 
 
-![](../../../external_files/a6a105f1b78e8fff5900102a327f354a.png)
+![](data-import-tab.images/image14.png)
 
 
 
@@ -203,7 +203,7 @@ These data import modules are for importing Order list catalogs and Order questi
 
 
 
-![](../../../external_files/82367eed14106b7743e2e6c24d6b6023.png)
+![](data-import-tab.images/image15.png)
 
 
 
@@ -215,7 +215,7 @@ These data import modules are for importing Order list catalogs and Order questi
 
 This import tool allows the adding of encounters from a spreadsheet that also imports lost time (incident/cases) data which may be needed when converting data from a separate system into {{% system-name %}} for work related incidents/encounters. See other help documentation titled *Data Import-Lost Time Import Tool.pdf*
 
-![](../../../external_files/e73413f77d10a871863c7c1f8f10eeb5.png)
+![](data-import-tab.images/image16.png)
 ## Panel Membership Import
 
 
@@ -224,7 +224,7 @@ This import tool allows the adding of patients from a spreadsheet to specified H
 
 
 
-![](../../../external_files/f25ed017120f1f3cd9ac13d54beb5398.png)
+![](data-import-tab.images/image17.png)
 
 
 
@@ -232,7 +232,7 @@ For a list of your systems active panel membership options, please utilize the  
 
 
 
-![](../../../external_files/485e627f133f7113469aa23382f06477.png)
+![](https://lh6.googleusercontent.com/I8Patifev0Htryvx3oRmscZxjx4HYKFo0GNczFYzA9G_Kq_NY7AEzj5Dy8TomvjNB3rVMM2sq6FVFWQhEZe0aDsbm2hY82SUxhmiddHqAVH8epbb-Ve21QyGe_t84U0ANBeVpVYQs3KiNVPghg)
 
 
 
@@ -242,5 +242,5 @@ Not only can you import data using the Data Import tool, but you can export spec
 
 
 
-![](../../../external_files/17c7c6e14b85a79380746c3b0a688e17.png)
+![](https://lh6.googleusercontent.com/FqsBiev9sr-tkApEmQXp1rh8Cu4r0pLMwhBQ3CD__q0lOUYyEsNMOMOZtLnWZTpBED8Psl8kca9dLWmRdlR7_2Da7tyw-ybRZkTKuuyftUHaEIeL4Ji6YnQocx67Pc9haXLKsyGBDP0WcoTkeA)
 

@@ -1,16 +1,16 @@
 ---
 title: "Employer Portal Setup"
-date: 2020-03-10T20:42:30.772Z
+date: "2020-03-10T20:42:30.772Z"
 url: "general-functionality/portal-management/employer-portal-setup.html"
-version: 59
-id: 1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs
-source: https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs
+version: 62
+id: "1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs"
+source: "https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs"
 menu:
     main:
         name: "Employer Portal Setup"
         identifier: "1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs"
         parent: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
-        weight: 1230
+        weight: 1210
 ---
 {{% system-name %}} offers various portal options, depending on the needs of the client. The **Employer Portal**, often referred to as the **Supervisor Portal**, **Agency Portal**, or **Leadership Portal**, streamlines employee engagement and tracking, offering easy access to due lists, employee work statuses, as well as health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, or any additional information custom to the business needs. To more fully address preferred configurations and review available options and features, utilize the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} side menu to access and edit the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} , as needed.
 
@@ -26,18 +26,18 @@ Again, before configuring the Employer Portal, it must be enabled within the sys
 2. Type the name of the PO, and click the <strong>Search</strong> button.
 3. Locate the PO Name, and click the hyperlink. In this example, we will be using {{% syslink "Better Corp" "f=chart&s=pat&pat_id=43" %}} .
 4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43" %}}  tab.
-5. Click on the <strong>General Configuration</strong> section header to open and select the appropriate features to enable all portals that are necessary.  ![](../../external_files/41a94a2a6df4099675ab6eec52b360ea.png)
+5. Click on the <strong>General Configuration</strong> section header to open and select the appropriate features to enable all portals that are necessary.  ![](employer-portal-setup.images/image1.png)
 
 
 
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
-7. With the portal setup completed, locate the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} tab of the PO, to begin work on that portal's configurations.  ![](../../external_files/f8b17a3302a4c2cf6d33344aa3a52db2.png)
+7. With the portal setup completed, locate the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} tab of the PO, to begin work on that portal's configurations.  ![](employer-portal-setup.images/image2.png)
 
 
 
 8. Any permissions or settings that need to be addressed can be found under the Security Requirements section near the top of the page, and the configuration and modules can be adjusted, using the remaining sections, as needed. 
 
-![](../../external_files/04ae3f0025d791b3d6f3fbffa92fb001.png)
+![](employer-portal-setup.images/image3.png)
 
 
 
@@ -60,11 +60,11 @@ Miscellaneous
 
 Home Page
 
-* <strong>View Sample</strong> (![](../../external_files/18ab84c754db511d86ef761fec7d15c8.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
+* <strong>View Sample</strong> (![](employer-portal-setup.images/image4.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
 
 
 
-![](../../external_files/ff5e8c2174015235c69444dafb5c2067.png)
+![](employer-portal-setup.images/image5.png)
 
 
 
@@ -97,7 +97,7 @@ The expanded Select Module section allows for configuration of each module, if n
 
 
 
-![](../../external_files/266082db060b948298abfaca4d4f2c3d.png)
+![](employer-portal-setup.images/image6.png)
 
 
 

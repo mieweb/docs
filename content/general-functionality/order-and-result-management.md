@@ -1,16 +1,16 @@
 ---
 title: "Order & Result Management"
-date: 2020-02-27T20:01:00.961Z
+date: "2020-02-27T20:01:00.961Z"
 url: "general-functionality/order-and-result-management.html"
-version: 13
-id: 103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8
-source: https://drive.google.com/open?id=103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8
+version: 14
+id: "103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
+source: "https://drive.google.com/open?id=103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
 menu:
     main:
         name: "Order & Result Management"
         identifier: "103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
         parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
-        weight: 1880
+        weight: 1860
 ---
 
 

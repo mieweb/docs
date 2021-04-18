@@ -1,16 +1,16 @@
 ---
 title: "Patient Summary - Interactive Chart Tab"
-date: 2020-02-27T19:47:07.178Z
+date: "2020-02-27T19:47:07.178Z"
 url: "general-functionality/e-chart/patient-summary-interactive-chart-tab.html"
-version: 32
-id: 1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk
-source: https://drive.google.com/open?id=1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk
+version: 33
+id: "1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk"
+source: "https://drive.google.com/open?id=1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk"
 menu:
     main:
         name: "Patient Summary - Interactive Chart Tab"
         identifier: "1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk"
         parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
-        weight: 1070
+        weight: 1060
 ---
 ## Patient Summary Chart Tab
 
@@ -22,11 +22,11 @@ When logged into {{% system-name %}} , go into the patient's chart you wish to v
 
 To view the Patient Summary tab, click that specific chart tab when in the patient's chart (your {{% system-name %}} summary tab may be named something different as specified above.)
 
-![](../../external_files/f7cc64256309d7da2d313c183ab3bb18.png)
+![](patient-summary-interactive-chart-tab.images/image1.png)
 
 When you click on the Patient Summary tab, you will see a quick reference to view modules in a summary format for that patient. These can be any modules that your company specifies they wish to be able to display.
 
-![](../../external_files/c67ef184d35b12fc3d70a004fd87c268.png)
+![](patient-summary-interactive-chart-tab.images/image2.png)
 
 ### Modules/Sections
 
@@ -34,35 +34,35 @@ The sections/modules that show in the Patient Summary tab are called portlets. Y
 
 To see all the portlets (sections) available for view, click **Select Portlets** link at the top right when you are in the Patient Summary tab.
 
-![](../../external_files/c67ef184d35b12fc3d70a004fd87c268.png)
+![](patient-summary-interactive-chart-tab.images/image3.png)
 
 The **Available Sections** option window will open on your computer screen.
 
-![](../../external_files/46ef78b594008cae699443c2184a9909.png)
+![](patient-summary-interactive-chart-tab.images/image4.png)
 
 Your {{% system-name %}} system may have different section (portlet) choices than the screenshot above. Your practice can request other {{% system-name %}} modules/tabs to be part of this Patient Summary tab section selection. Contact your MIE Implementer.
 
 You can checkmark or uncheck-mark any sections you wish to show or not display in the Patient Summary tab. The changes and selections you make *only affect your username & your view*. They do not affect any other users. Once you make changes and click **SAVE**, those modules will display then on the Patient Summary tab view until you make other changes. They apply to this Patient Summary tab, not to individual patient charts.
 
-![](../../external_files/46ef78b594008cae699443c2184a9909.png)
+![](patient-summary-interactive-chart-tab.images/image5.png)
 
 In the Patient Summary tab, the module (sections) have icons that perform certain functions. These are located at the top right corner of each section/module. If you hover your computer mouse over each, it will show you what each function icon does.
 
-![](../../external_files/602e56b09d3eb30e745008a552c37139.png)
+![](patient-summary-interactive-chart-tab.images/image6.png)
 
 Ex: Hover the computer mouse over the + icon and it tells you this is the icon to click to ‘move' that section/module.
 
-![](../../external_files/802255018147fec3fb0b6b2f8e6eeaf6.png)
+![](patient-summary-interactive-chart-tab.images/image7.png)
 
 The other icons function as such:
 
-![](../../external_files/543fcd3de029f5ff945e3e62561b984c.png)
+![](patient-summary-interactive-chart-tab.images/image8.png)
 
-![](../../external_files/8bae52d13141cbeecc0b9d82352aece9.png)
+![](patient-summary-interactive-chart-tab.images/image9.png)
 
-![](../../external_files/6c0625a7e971fd1a062ef7e71089f982.png)
+![](patient-summary-interactive-chart-tab.images/image10.png)
 
-![](../../external_files/8590eece0cdf31ff052164e4f3fa5c51.png)
+![](patient-summary-interactive-chart-tab.images/image11.png)
 
 ### Columns
 
@@ -72,17 +72,17 @@ We recommend 2 columns, but up to 4 columns are available.
 
 To change the amount of columns, simply click **Select Portlets** link in this Patient Summary tab.
 
-![](../../external_files/f7cc64256309d7da2d313c183ab3bb18.png)
+![](patient-summary-interactive-chart-tab.images/image12.png)
 
 When the *available sections* screen opens, select the number of columns you wish from the drop-down (also checkmark or uncheck-mark any sections/modules you wish to view or take off at this time if you want). Then click the SAVE button at the bottom.
 
-![](../../external_files/dfef15300eddfbf27aad951c3770f97d.png)
+![](patient-summary-interactive-chart-tab.images/image13.png)
 
 Your computer screen will refresh and you will see the Patient Summary tab again, but with the amount of columns you selected. It does not automatically move and rearrange the selected modules/sections into these columns. All of them may still be in one column and you would need to drag and drop those sections/modules into the other column(s) on your view.
 
 The screenshot below shows that we wanted to change my Patient Summary tab to 3 columns. It kept the modules/sections in the columns we had set previously, but has now made the 3^rd column for us to move modules/sections into. Now that the 3 columns are showing, you need to move the modules with your computer mouse into the number of columns you selected by using the drag and drop method.
 
-![](../../external_files/f6e608166d756ac36c8502a6ed8523b5.png)
+![](patient-summary-interactive-chart-tab.images/image14.png)
 
 ### Moving Modules/Sections
 
@@ -92,15 +92,15 @@ To move a section/module when in the Patient Summary tab, simply click & hold yo
 
 Below shows section Allergies being moved from column 1 to column 3:
 
-![](../../external_files/e54ecd5df4c2f14f146480f2f2ae0690.png)
+![](patient-summary-interactive-chart-tab.images/image15.png)
 
 Click Move icon, hold it and drag & drop it into column 3.
 
-![](../../external_files/e8cdd16c43ca4b7b1f943df5a927171f.png)
+![](patient-summary-interactive-chart-tab.images/image17.png)
 
 Now the Allergies section is showing in column 3 (because we moved it). This will remain this way for *my* viewing for my Patient Summary tab view until I make another change.
 
-![](../../external_files/5fef33b5acc30e0d6918deb5991faf8e.png)
+![](patient-summary-interactive-chart-tab.images/image18.png)
 
 Continue to move modules/sections by clicking the move icon, holding & drag/drop that section into a different viewing order or into a different column.
 
@@ -108,21 +108,21 @@ When you initially view this tab (new to this tab), all your portlets in this ta
 
 On the portlets on the left column that you want to move to the right 2^nd column—simply click your mouse on the ‘move' button (screen shot below) and **don't** let go of the mouse click—you have to **hold and drag**.  So, click on the move button—hold the mouse down and the category (portlet) will turn red border and then drag it with your mouse (while still holding down on the click) and drag it to the right side.
 
-![](../../external_files/c39e11f27043ca8f7ed8f032f7fd155e.png)
+![](https://lh6.googleusercontent.com/zziFLOxlSWtKQUgvqX-7-p82NFRBhtbN_md5nGngkxnXUj1VrLVA6G-7uKHqJDkk8NfUf9UoNNLCJqSy9LP5HBGT8hAYl_D0XY9MtYbGZR_3vLMXBdeDmEh6aQq_WoNCV8lAUcDPVExhW-TE1Q)
 
 When a portlet is not configured correctly, the alert no longer shows. It will simply not be moveable.
 
 ## Set Portlets Based on Security Role
 
-You can setup the portlets/modules in the Patient Summary interactive chart tab display for users according to their security role. You must have security permission to *Save Default Widgets* as Yes to be able to see this and perform this.![](../../external_files/90c06a308c159d830c62cc59c48029c5.png)
+You can setup the portlets/modules in the Patient Summary interactive chart tab display for users according to their security role. You must have security permission to *Save Default Widgets* as Yes to be able to see this and perform this.![](https://lh4.googleusercontent.com/dJn8R63B4c_ztSjG0SA7NrCGlGIeKwC0cfFoWlCkST0r-JmL2BKCieG2_eHd09nM_LKDbnUX5lUu_9FwQQXw-AyTC5ZxEy68thGEbg-FfLvaHlcouXgnc3iVXKkYeOfol17FazfwjnHcSrNHZQ)
 
 From the Patient Summary chart tab, click Select Portlets link.
 
-![](../../external_files/79ecd3ef2e413202dacaad585e1f51c3.png)
+![](https://lh6.googleusercontent.com/MxBXEwcDEVSPxGLkTFASqUmIhqL-xR8UdMlkybTGBJ8pL6FDWIvFQXwmIclavV0qa97ok5xddC7VHIBMwWviG7UlaL-Fu2CWg2j6XmTI_Biwab9v0A0jTjl91HTsLr-HiUrPiaEuRNjp5ZKinQ)
 
 Click the drop-down in *Save as default* to select the specific security role you want to set this tab's portlet views for **or** you can do entire system wide and select *–system default*- and everyone will have these portlets open for this tab system wide that you set.
 
-![](../../external_files/a759d67c8415e39c8291838687c8c963.png)
+![](https://lh4.googleusercontent.com/9lOrFq8An36hb7y9g4oG1agDyl8rUU8xwjM0VxzVHoGOp3BCCBSg-7qy-Ixi22NqtN9nktV33tygge6bbCwaycrpKupUVtGiTLeGGrWuOIBMCenzoMNI2Fhp14pb9ojZqk2Ns0uau75nqSEF9g)
 
 Once selected the security role or system default system wide, then set the columns and checkmark which portlets to display for the users when they get into the Patient Summary tab.  Then click the SAVE button.
 

@@ -1,17 +1,17 @@
 ---
 title: "Device Interface - MI 7000"
-date: 2020-02-27T21:28:12.911Z
+date: "2020-02-27T21:28:12.911Z"
 url: "general-functionality/system-administration/interfaces/device-interface-mi-7000.html"
 author: aquandt
-version: 15
-id: 1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8
-source: https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8
+version: 16
+id: "1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8"
+source: "https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8"
 menu:
     main:
         name: "Device Interface - MI 7000"
         identifier: "1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5560
+        weight: 5540
 ---
 This page provides instructions for retrieving results from the MI 7000 audiometer with {{% system-name %}} ( {{% sys-name %}} ), and lists the fields that the interface retrieves.
 

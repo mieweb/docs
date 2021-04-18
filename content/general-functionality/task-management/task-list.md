@@ -1,16 +1,16 @@
 ---
 title: "Task List"
-date: 2020-03-16T15:47:13.973Z
+date: "2020-03-16T15:47:13.973Z"
 url: "general-functionality/task-management/task-list.html"
-version: 98
-id: 1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k
-source: https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k
+version: 101
+id: "1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k"
+source: "https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k"
 menu:
     main:
         name: "Task List"
         identifier: "1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k"
         parent: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
-        weight: 2350
+        weight: 2330
 ---
 ## Viewing Your Task & Department Task Alerts
 
@@ -22,7 +22,7 @@ There are two ways to access your pending tasks:
 
 
 
-![](../../external_files/581d2c778639b8b6acfca3c16370cd0d.png)
+![](task-list.images/image1.png)
 
 
 
@@ -36,7 +36,7 @@ Either way will take you to the Task List.  It will default to open to Your Tas
 
 
 
-![](../../external_files/7c200dd5945afc8fae120c040c14997a.png)
+![](task-list.images/image2.png)
 
 
 
@@ -46,7 +46,7 @@ The Your Task List tab shows any tasks you are to complete if someone specified 
 
 
 
-![](../../external_files/e1c8ee85e2ab3db84debd93c7db97fea.png)
+![](task-list.images/image3.png)
 
 
 
@@ -58,7 +58,7 @@ Reminders will appear first if any tasks assigned to you have a reminder date in
 
 
 
-![](../../external_files/80a032a074a5f6919d0f300ae77d198b.png)
+![](task-list.images/image4.png)
 
 
 
@@ -66,7 +66,7 @@ There are two additional features in the Reminders bucket of the Task List.  Vi
 
 
 
-![](../../external_files/95642de45912ca408e5d276fbe4f498f.png)
+![](task-list.images/image5.png)
 
 #### Overdue Tasks
 
@@ -74,7 +74,7 @@ Overdue Tasks are tasks assigned you you that are past the due date set on the t
 
 
 
-![](../../external_files/31a3409e38f75f0a691e90de36990f12.png)
+![](task-list.images/image6.png)
 
 
 
@@ -82,7 +82,7 @@ There is an additional features in the Overdue Tasks bucket of the Task List.  
 
 
 
-![](../../external_files/4da2a181069558f19e325f5f2c6a0f56.png)
+![](task-list.images/image7.png)
 
 #### User Tasks
 
@@ -90,7 +90,7 @@ User tasks are all tasks assigned to specifically to your username.  These are 
 
 
 
-![](../../external_files/f22fc3ec4b8a790008a71f5dcd16a467.png)
+![](task-list.images/image8.png)
 
 
 
@@ -98,7 +98,7 @@ There are two additional features in the User Tasks bucket of the Task List.  V
 
 
 
-![](../../external_files/ff5219f54f11892bfb49b2fa69a39d3e.png)
+![](task-list.images/image9.png)
 
 
 
@@ -108,7 +108,7 @@ These tasks will follow you (unless you click hide to not show a specific depart
 
 
 
-![](../../external_files/e72298cab489fac5fd9a4bbc71cdb6f5.png)
+![](task-list.images/image10.png)
 
 
 
@@ -116,7 +116,7 @@ There are four additional features in the Department Tasks buckets of the Task L
 
 
 
-![](../../external_files/a671f88c2312fa30b30b5ab4db5b0e52.png)
+![](task-list.images/image11.png)
 
 
 
@@ -124,27 +124,27 @@ There are four additional features in the Department Tasks buckets of the Task L
 
 Overdue and User Tasks buckets are tasks specifically assigned to you that are awaiting completion.  There are two ways to work a task:
 
-1. Quick Options: If you can decipher (from the summary task list view details) what the task is for, what to do, how to complete it, and you indeed complete it just by looking at the details displayed in the task list view, then go to the Options column. These are 3 quick options for completing a task:  a checkbox, the Mark Done link, and the Reply link. ![](../../external_files/44e8b3642dace983103a7d9841fcadc3.png)
+1. Quick Options: If you can decipher (from the summary task list view details) what the task is for, what to do, how to complete it, and you indeed complete it just by looking at the details displayed in the task list view, then go to the Options column. These are 3 quick options for completing a task:  a checkbox, the Mark Done link, and the Reply link. ![](task-list.images/image12.png)
 
 
 
-2. Task ID method: If you don't want to utilize the quick options, then the other way to work a task is to click on the task ID number by the task you want to work. It will pull up the task and give you more options for completing this task.  ![](../../external_files/e25f365a49250fef431d65dd2d09324b.png)
+2. Task ID method: If you don't want to utilize the quick options, then the other way to work a task is to click on the task ID number by the task you want to work. It will pull up the task and give you more options for completing this task.  ![](task-list.images/image13.png)
 
 ### Quick Options
 
-* Check-Mark box:  This will show if you have My Settings preference of Show Complete CheckBox enabled.  You can click the checkmark box of the task you want to mark done and it puts a strikethrough on the task.  Unchecking it will reverse it (if you checked by mistake). Using the checkmark is a quick way to mark the task done if you can complete the task based on the details displayed on the listing. ![](../../external_files/88abb7bcb81220200eefa167516b6e9c.png)
+* Check-Mark box:  This will show if you have My Settings preference of Show Complete CheckBox enabled.  You can click the checkmark box of the task you want to mark done and it puts a strikethrough on the task.  Unchecking it will reverse it (if you checked by mistake). Using the checkmark is a quick way to mark the task done if you can complete the task based on the details displayed on the listing. ![](task-list.images/image14.png)
 
 
 
 * If you checkmark this box, it considers it complete (inserts a strikethrough) and when you refresh the page or work elsewhere in {{% system-name %}} and return to the Task List, the checkmarked tasks will be gone and taken out of the queue since indicated ‘complete' using this method.  
-* Mark Done: This option always displays and is not My Settings preference driven.  You can click the Mark Done link and it will pop up a Notes to Complete textbox where you can free-text notes regarding the completion of this task.  When done typing in notes, click the Complete button to mark the task as completed. ![](../../external_files/d805757c0f240778e9d7e395a82bb921.png)
+* Mark Done: This option always displays and is not My Settings preference driven.  You can click the Mark Done link and it will pop up a Notes to Complete textbox where you can free-text notes regarding the completion of this task.  When done typing in notes, click the Complete button to mark the task as completed. ![](task-list.images/image15.png)
 
 
 
 ### 
 
 * Reply: This will show if you have My Settings preference of Show Reply Link in Task enabled. By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
-    * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply. ![](../../external_files/f0de55a0bb60d1a7190a00d540d311bd.png)
+    * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply. ![](task-list.images/image16.png)
 
 
 
@@ -154,11 +154,11 @@ Overdue and User Tasks buckets are tasks specifically assigned to you that are a
 
 ### Task ID Method
 
-* Task ID link:  If you don't want to utilize the quick options, then click on the task ID number by the specific task you want work. It will pull up the task and give you more options for completing this task.   ![](../../external_files/3442e018d5fd5f975766b8680c52e00a.png)
+* Task ID link:  If you don't want to utilize the quick options, then click on the task ID number by the specific task you want work. It will pull up the task and give you more options for completing this task.   ![](task-list.images/image17.png)
 
 
 
-* Once you click the Task ID it will open the specific task with all details.  It will also give you many other options at the top and bottom towards completing this task. If the task is regarding a specific document for a patient, the document will also show/appear on the top of the screen for you to view with the task details and buttons below the document. ![](../../external_files/8d9d34f3779d2d522773e2dbdca7d613.png)
+* Once you click the Task ID it will open the specific task with all details.  It will also give you many other options at the top and bottom towards completing this task. If the task is regarding a specific document for a patient, the document will also show/appear on the top of the screen for you to view with the task details and buttons below the document. ![](task-list.images/image18.png)
 
 
 
@@ -168,7 +168,7 @@ Options in Task ID method view:
 * Doc ID:  The document image will display on the screen if the task is tied to a specific document in the chart.  Yet, the document ID is also shown at the top as the identifier and provides it as a hyperlink to get to that document.
 * Printable:  You can click the printable link found next to the task and/or doc id.  It will show a printable version of this specific task along with your other pending tasks.
 * Sign & Mark Done: This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click.  This option will prompt you to enter text notes you want to document related to this task you are signing and completing/marking done.
-    * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient. ![](../../external_files/2fe090ca6b8054b852f4cce59b11bb14.png)
+    * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient. ![](task-list.images/image19.png)
 
 
 
@@ -211,7 +211,7 @@ The two methods to work a department task are the same as the above described Us
 
 
 
-![](../../external_files/8b3c8a9a101545dc9872b019ee7f53cd.png)
+![](task-list.images/image20.png)
 
 
 
@@ -221,7 +221,7 @@ Grab will assign the task to you (makes you the owner of that department task), 
 
 Using the ‘Show Assigned' hyperlink in the department tasks title bar will display any open department tasks and who has grabbed any to work (indicated by the Owner column).
 
-![](../../external_files/39544c64cbc158606a0f4b0c76253131.png)
+![](task-list.images/image21.png)
 
 {{% /tip %}}
 
@@ -236,7 +236,7 @@ When in the Task List, there are several other tabs at the top than the Your Tas
 
 
 
-![](../../external_files/5b805f5021e7d352291519e4dda2b709.png)
+![](task-list.images/image22.png)
 
 
 
@@ -246,7 +246,7 @@ The Delegated tab within the Task List module lists all pending tasks that you d
 
 
 
-![](../../external_files/a71de297b64e2d2591f047f09e1cc2ad.png)
+![](task-list.images/image23.png)
 
 
 
@@ -269,7 +269,7 @@ The Completed tab within the Task List module is accessible to users who have se
 
 
 
-![](../../external_files/e2cbaf694f0667b646d62a7bfc2ba341.png)
+![](task-list.images/image24.png)
 
 
 
@@ -288,7 +288,7 @@ In this tab, if a task is assigned to a user who has no last name entered into {
 {{% /note %}}
 
 
-![](../../external_files/5783a0631e53a7d1b7b267ef9fbfdbf9.png)
+![](task-list.images/image25.png)
 
 
 
@@ -300,7 +300,7 @@ Total (Future) column is the count of tasks that the user or department has that
 
 
 
-![](../../external_files/6b59bdd4a88d043d99f4887c389f283c.png)
+![](task-list.images/image26.png)
 
 #### Clear All Tasks
 
@@ -308,7 +308,7 @@ If users have security permission to clear tasks, the option Clear all tasks wil
 
 
 
-![](../../external_files/b7d5a6ac77d5315889606569ff05cf39.png)
+![](task-list.images/image27.png)
 
 
 
@@ -316,7 +316,7 @@ If you click Clear All Tasks for a specific user's pending tasks, it will allow 
 
 
 
-![](../../external_files/78c77de03162ecf82f789822304e8b6b.png)
+![](task-list.images/image28.png)
 
 
 
@@ -332,7 +332,7 @@ You can only access and perform options in this tab if you have security access.
 
 
 
-![](../../external_files/ea2b0bb17df63274c6e0afeb15cd59ce.png)
+![](task-list.images/image29.png)
 
 
 
@@ -346,7 +346,7 @@ The Fast Tasks taab is also only accessible if the user has security permission.
 
 
 
-![](../../external_files/c1246a1ff17494cf32eba744c9b350f3.png)
+![](task-list.images/image30.png)
 
 
 

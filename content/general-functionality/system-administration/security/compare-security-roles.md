@@ -1,16 +1,16 @@
 ---
 title: "Compare Security Roles"
-date: 2020-02-27T20:25:20.019Z
+date: "2020-02-27T20:25:20.019Z"
 url: "general-functionality/system-administration/security/compare-security-roles.html"
-version: 25
-id: 1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo
-source: https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo
+version: 26
+id: "1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo"
+source: "https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo"
 menu:
     main:
         name: "Compare Security Roles"
         identifier: "1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo"
         parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
-        weight: 5250
+        weight: 5230
 ---
 Click *Control* tab from left sidebar menu.
 
@@ -18,7 +18,7 @@ Click *Security Role Editor* tab from top menu.
 
 Click the Compare Roles link found at the top right corner. This allows you to compare security roles and each individual security setting that each may have. If you need to audit security or configure a new security role, you can work on all your roles at the same time while you compare them.
 
-![](../../../external_files/cd78fe3793e8f0f65d3db1e0935cd7e1.png)
+![](compare-security-roles.images/image1.png)
 
 It displays (reports) on the security settings, values and security roles along with the # of users that are tied to each specific security role.
 
@@ -30,11 +30,11 @@ The next columns are each of the security roles you have in your {{% system-name
 
 It shows the first 20 securities/modules by default.
 
-![](../../../external_files/1610e4e15a7a159928b98b29c178a9c0.png)
+![](compare-security-roles.images/image2.png)
 
 If you see blank security and values, those are old security settings. They are still stored in the database, but not used anymore in {{% system-name %}} . If you clicked on one of these, you would see an error message.
 
-![](../../../external_files/057619e87623f2a047795d3378b7efc1.png)
+![](compare-security-roles.images/image3.png)
 
 ## Compare/Show Specific Security Roles
 
@@ -44,11 +44,11 @@ By default, the screen automatically opens and displays *all* security roles in 
 
 So, to narrow down and compare specific security roles, click the **Roles to Display** button in the fields at the top.
 
-![](../../../external_files/28d641b76f0daf63a4ffcffd289c86c9.png)
+![](compare-security-roles.images/image4.png)
 
 A box will open where you can check-mark the specific security roles you want to display. You can un-select all to start fresh, or you can select all security roles to display, or individually check-mark which specific security roles you want to display and compare settings of.
 
-![](../../../external_files/6328e03706c9e751b362cbe7f8640b6d.png)
+![](compare-security-roles.images/image5.png)
 
 Once done with your selections, click the SEARCH button to the right.
 
@@ -64,7 +64,7 @@ Type in a keyword of the security setting name (description) or module you are l
 
 It will display only those security settings with that in the security name (description) and/or module if it finds any matches.
 
-![](../../../external_files/1411ec4348d3ed77a3a332ec507a5563.png)
+![](compare-security-roles.images/image6.png)
 
 ## Edit/Change Security Settings for Security Role
 
@@ -72,7 +72,7 @@ You can choose what security roles to display as a side by side comparison on yo
 
 In the example below, I searched for keyword of fax. It then displays the 4 security permissions {{% system-name %}} has regarding ‘fax' that it found as a match.
 
-![](../../../external_files/1411ec4348d3ed77a3a332ec507a5563.png)
+![](compare-security-roles.images/image7.png)
 
 Upon looking at what that security role is set to, I can edit the security permission from here easily and in mass for every user in a specific security role.
 
@@ -86,13 +86,13 @@ When you use the drop-down to change the value for a security role in the drop-d
 
 See other help documentation named *Security Role Settings.pdf* for detailed information on what each security setting and value means and affects.
 
-![](../../../external_files/6e33b31b6484c9bfba3689a9fd176050.png)
+![](compare-security-roles.images/image8.png)
 
 When you change a value for a security role, it does not input a comment for each change.
 
 The Show CSV link will download what you are showing/viewing/comparing on your screen and put it into an excel spreadsheet that you can view, print, save, sort, etc.
 
-![](../../../external_files/a5c09d89afa7fd446e64c93ef7a595ea.png)
+![](compare-security-roles.images/image9.png)
 
-![](../../../external_files/8288b5a1c30c4c6a6fe03ff00efe6e5a.png)
+![](https://lh6.googleusercontent.com/t3np59MrPDxZVG2sHmxc47IQoErdZXyKs6iUVG1eqolFfr01XYsSgmcUqO7WOGboc5ZuTjFHAxE0KhKAaaCuKc_uYRVUgSkzHGoCJiUfwzOl2vSWgxYYyRveEIlrNfizObwv7y521j1m08ioFg)
 

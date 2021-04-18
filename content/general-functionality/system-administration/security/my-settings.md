@@ -1,17 +1,17 @@
 ---
 title: "My Settings"
-date: 2020-03-10T14:12:00.297Z
+date: "2020-03-10T14:12:00.297Z"
 url: "general-functionality/system-administration/security/my-settings.html"
 author: aquandt
-version: 41
-id: 1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc
-source: https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc
+version: 48
+id: "1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc"
+source: "https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc"
 menu:
     main:
         name: "My Settings"
         identifier: "1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc"
         parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
-        weight: 5260
+        weight: 5240
 ---
 Users have the ability to manage specific settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to My Settings in the Control Panel, to begin editing these options.
 
@@ -21,7 +21,7 @@ Click Control from left sidebar menu. Click My Settings tab at top. Use drop-dow
 
 
 
-![](../../../external_files/f24253b2152e2aa7eb1debfba126d139.png)
+![](my-settings.images/image1.png)
 
 
 
@@ -31,7 +31,7 @@ If you have security rights, you can view other user's preference settings and/o
 
 
 
-![](../../../external_files/ee3308f90a8ec7237dc8513faf59df0b.png)
+![](my-settings.images/image2.png)
 
 
 
@@ -45,7 +45,7 @@ If you have security permission and want to edit preferences for another user in
 
 
 
-![](../../../external_files/1be718f883de9cb56e38c982a58f8a0f.png)
+![](my-settings.images/image3.png)
 
 
 
@@ -57,7 +57,7 @@ This is usually maintained by your MIE Implementer. Viewing the System Default p
 
 
 
-![](../../../external_files/9c3f6e78ce1f64f5ffb2cecf91770792.png)
+![](my-settings.images/image4.png)
 
 
 
@@ -65,7 +65,7 @@ To change a system default preference as a means of applying that change in mass
 
 
 
-![](../../../external_files/1703dffbceb3abeeb1ea3e6405deb82d.png)
+![](my-settings.images/image5.png)
 
 
 
@@ -77,7 +77,7 @@ For instance, in this example, I want everyone in the entire {{% system-name %}}
 
 
 
-![](../../../external_files/f4d1e67736e01e52953f1c483636b70e.png)
+![](my-settings.images/image6.png)
 
 
 
@@ -85,7 +85,7 @@ Click SET TO DEFAULT button to apply that setting and its value to all users in 
 
 
 
-![](../../../external_files/b60c9e856a7c43e12213cfb492cec542.png)
+![](my-settings.images/image7.png)
 
 
 
@@ -97,7 +97,7 @@ If you have security permission and want to edit preferences for users tied to a
 
 
 
-![](../../../external_files/ea3a22ab46876ca220378974644e4257.png)
+![](my-settings.images/image8.png)
 
 
 
@@ -110,7 +110,7 @@ When looking at preference choices available in the drop-down:
 
 
 
-![](../../../external_files/9838988b26c3f5a279b13d6b59383020.png)
+![](my-settings.images/image9.png)
 
 
 
@@ -158,7 +158,7 @@ When looking at preference choices available in the drop-down:
 * English Translations on Hover: For multilingual systems, if "Show" is chosen here, then when viewing {{% system-name %}} in a language other than English, if you move your mouse over a translated item, it will display the original English below it.
 * Date Format: There are 3 choices (MM-DD-YYYY, DD-MM-YYYY or YYYY-MM-DD) It is defaulted to MM-DD-YYYY however if you change, any date (date of birth, document date, revision dates, etc) will then display as your selected format in {{% system-name %}} .  The entry fields for the dates follow the same ordering as the displaying selection also. The separator for dates is standardized to use the dash ( - ).
 * 24 Hour Clock:  Choose Yes or No.  If Yes, times displayed for your view will be 24 hour military time. Field entry is still in normal 12 hr time with am/pm on it, yet summary view shows military time. If set to No, the times displayed for your view will be normal 12-hour clock times with pm or am after it.
-* Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format. ![](../../../external_files/2041e84451b8cbe6d652f6e1423c2206.png)
+* Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format. ![](my-settings.images/image10.png)
 * Preferred Unit System: Choose Default, English or Metric.  You can still enter vitals, etc w/ either unit system; this just makes the drop-down choice units start at the system you choose. (ex: units for weight lbs vs kg, height  units inches vs. cm, etc).
 
 ### E-Chart
@@ -487,7 +487,7 @@ To save settings, click Submit Settings at the top or bottom of the screen.
 
 
 
-![](../../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)
+![](my-settings.images/image11.png)
 
 ### Password/PIN Control
 

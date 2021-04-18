@@ -1,0 +1,59 @@
+---
+title: "PSPA 21 - Implementation of Fall Screening and Assessment Programs"
+date: "2020-02-27T20:55:14.900Z"
+url: "general-functionality/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-21-implementation-of-fall-screening-and-assessment-programs.html"
+version: 12
+id: "1GQU6K0OpGc9Mo9S8Bt6ywQN6s8oJa9E9SbQhoJKnfXo"
+source: "https://drive.google.com/open?id=1GQU6K0OpGc9Mo9S8Bt6ywQN6s8oJa9E9SbQhoJKnfXo"
+menu:
+    main:
+        name: "PSPA 21 - Implementation of Fall Screening and Assessment Programs"
+        identifier: "1GQU6K0OpGc9Mo9S8Bt6ywQN6s8oJa9E9SbQhoJKnfXo"
+        parent: "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI"
+        weight: 3580
+---
+
+
+
+
+
+
+
+
+**Activity Weighting**: Medium
+
+**Subcategory Name**: Patient Safety and Practice Assessment
+
+**Description**: Implementation of fall screening and assessment programs to identify patients at risk for falls and address modifiable risk factors (e.g., Clinical decision support/prompts in the electronic health record that help manage the use of medications, such as benzodiazepines, that increase fall risk).
+
+
+
+
+
+
+
+## 
+
+Supporting Documentation
+
+* Implementation of a Falls Screening and Assessment Program - Implementation of a falls screening and assessment program that uses valid and reliable tools to identify patients at risk for falls and address modifiable risk factors, for example, the STEADI program for identification of falls risk; and 
+* Implementation Progress - Documentation of progress made on falls screening and assessment after implementation of tool.
+
+
+
+
+
+
+
+## 
+
+Resources
+
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
+
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
+
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+
+[Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)
+

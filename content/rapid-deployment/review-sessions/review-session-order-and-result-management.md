@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Order and Result Management"
-date: 2020-02-27T21:25:30.979Z
+date: "2020-02-27T21:25:30.979Z"
 url: "rapid-deployment/review-sessions/review-session-order-and-result-management.html"
 author: aquandt
-version: 15
-id: 1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU
-source: https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU
+version: 16
+id: "1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU"
+source: "https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU"
 menu:
     main:
         name: "Review Session - Order and Result Management"
         identifier: "1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6100
+        weight: 6080
 ---
 ## Agenda
 

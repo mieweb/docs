@@ -1,16 +1,16 @@
 ---
 title: "WebScan Report"
-date: 2020-02-27T20:17:24.392Z
+date: "2020-02-27T20:17:24.392Z"
 url: "general-functionality/reports/webscan-report.html"
-version: 23
-id: 1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA
-source: https://drive.google.com/open?id=1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA
+version: 24
+id: "1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA"
+source: "https://drive.google.com/open?id=1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA"
 menu:
     main:
         name: "WebScan Report"
         identifier: "1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4380
+        weight: 4360
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
 
@@ -22,7 +22,7 @@ You do not have to fill out every single field. These fields are different ways 
 
 *WebScan* displays scanned/uploaded statistics *and* Indexed statistics in separate categories. This report will display the results of each according to your search engine fields. This report automatically defaults to today's date and shows today's results under this search engine.
 
-![](../../external_files/ece42fbf85892eb8f2adb9c273acab56.png)
+![](webscan-report.images/image1.png)
 
 * <strong>Enter Start Date</strong>: Can type in date or select by using the calendar in pick date. Automatically populates with today's date.
 * <strong>Enter End Date:</strong> Can type in date or select by using the calendar in pick date. Automatically populates with today's date.
@@ -36,11 +36,11 @@ Below your search engine, it will then display the results of the scanned statis
 
 This reports show Indexed dates/Created dates that batches were scanned in/created, User names, Pages and if you check-marked detailed list then it will include BatchID and comments related to that batch.
 
-![](../../external_files/769317f41ba8c5f8bd4e86db80e31747.png)
+![](webscan-report.images/image2.png)
 
 * <strong>Download CSV:</strong> You will see this link above each result category. If you click this—it will open or save up an <em>excel spreadsheet</em> that you can then modify/sort/print, etc. It's mainly used to print the report or save spreadsheet into your computer files, etc.
 
-![](../../external_files/8061e2800dcd5be8ac878e353cb25d57.png)
+![](webscan-report.images/image3.png)
 
 If you just *open* this, view the spreadsheet, then click Back arrow to escape back into {{% system-name %}} . You cannot print/save, etc from this *open* view. You have to go back to download csv and select to save it to your computer and then get back into the file you saved to edit/print, etc.
 

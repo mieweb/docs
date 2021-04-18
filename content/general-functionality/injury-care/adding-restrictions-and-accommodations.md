@@ -1,16 +1,16 @@
 ---
 title: "Adding Restrictions and Accommodations"
-date: 2020-03-13T11:33:56.836Z
+date: "2020-03-13T11:33:56.836Z"
 url: "general-functionality/injury-care/adding-restrictions-and-accommodations.html"
-version: 69
-id: 1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg
-source: https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg
+version: 70
+id: "1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg"
+source: "https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg"
 menu:
     main:
         name: "Adding Restrictions and Accommodations"
         identifier: "1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg"
         parent: "111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY"
-        weight: 1710
+        weight: 1690
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout {{% system-name %}} from a header, or from its own chart tab outside of an encounter exam.
 
@@ -20,7 +20,7 @@ While working in an encounter, the Plan area of the encounter offers a section n
 
 
 
-![](../../external_files/b482974d0bb003672d133635c0f8ff8f.png)
+![](adding-restrictions-and-accommodations.images/image1.png)
 
 
 
@@ -35,13 +35,13 @@ Accommodations on a restriction will be indented underneath the restriction.  I
 
 
 
-![](../../external_files/7d8d5c9cd55fbc003480355820ffd702.png)
+![](adding-restrictions-and-accommodations.images/image2.png)
 
 If you are in "detailed" view for the Restrictions and Accommodations encounter section, any accommodation related to a restriction is in a separate column on the same restriction line item.  It is possible for accommodations not to be tied to a restriction and for restrictions not to have accommodations and those would be listed separately.
 
 
 
-![](../../external_files/223dfcc1e3c9e92263efa6a2d2eda8af.png)
+![](adding-restrictions-and-accommodations.images/image3.png)
 
 
 
@@ -49,7 +49,7 @@ To add a new restriction, simply click on the section title bar Restrictions and
 
 
 
-![](../../external_files/decbd2781154ac2378d44fb17676cbf8.png)
+![](adding-restrictions-and-accommodations.images/image4.png)
 
 
 
@@ -57,7 +57,7 @@ Once you do that, you will see again a list of all current active restrictions a
 
 
 
-![](../../external_files/62adcea5db794f4242ae01972e3d931a.png)
+![](adding-restrictions-and-accommodations.images/image5.png)
 
 
 
@@ -78,7 +78,7 @@ Continue to add an accommodation to this restriction if you have accommodations 
 
 
 
-![](../../external_files/8312afb696abc74345df5639d432813d.png)
+![](adding-restrictions-and-accommodations.images/image6.png)
 
 
 
@@ -86,7 +86,7 @@ If you do not have any known accommodations to tie to this restriction yet, simp
 
 
 
-![](../../external_files/95e7249c4d86cd1bd6f61c608d39fbc2.png)
+![](adding-restrictions-and-accommodations.images/image7.png)
 
 
 
@@ -104,7 +104,7 @@ While you are entering in a restriction, you can enter in the corresponding acco
 
 
 
-![](../../external_files/f2eca7b80892f2eb5acd6fefabe97a05.png)
+![](adding-restrictions-and-accommodations.images/image8.png)
 
 
 
@@ -121,7 +121,7 @@ If a provider has entered in a restriction and does not know the accommodation y
 
 
 
-![](../../external_files/d60376db438a0bc74b85a96eff8a64f2.png)
+![](adding-restrictions-and-accommodations.images/image9.png)
 
 
 
@@ -131,7 +131,7 @@ Checkmark which restriction to apply an accommodation to.  Then go down to the 
 
 
 
-![](../../external_files/13b7484c5524c43d38bc894bf3c65a05.png)
+![](adding-restrictions-and-accommodations.images/image10.png)
 
 
 
@@ -141,7 +141,7 @@ You can also add an accommodation to a restriction via the "edit" icon on the re
 
 
 
-![](../../external_files/fdbc51491aaad804bcbec3d4da9ba9ba.png)
+![](adding-restrictions-and-accommodations.images/image11.png)
 
 
 
@@ -151,7 +151,7 @@ You have the opportunity to repeat, extend, or end past (active or inactive) res
 
 
 
-![](../../external_files/9bddc38418eca3f94f00b62c0a562d04.png)
+![](adding-restrictions-and-accommodations.images/image12.png)
 
 
 
@@ -159,7 +159,7 @@ You will see the list of past restrictions (active or inactive) on that chart. �
 
 
 
-![](../../external_files/b9e6717722e7384bfd17f938402c5ec9.png)
+![](adding-restrictions-and-accommodations.images/image13.png)
 
 
 
@@ -169,7 +169,7 @@ There is an END ALL button in the restrictions and also accommodations sub secti
 
 
 
-![](../../external_files/a0658fd97336ed587e4b0ffaf8efdb85.png)
+![](adding-restrictions-and-accommodations.images/image14.png)
 
 ### Edit Form Quick Link
 
@@ -177,7 +177,7 @@ The Edit Form hyperlink is simply a quick way to get to the fields to add a bran
 
 
 
-![](../../external_files/8aa705d6747ed2d3141e63bb5f24f2ea.png)
+![](adding-restrictions-and-accommodations.images/image15.png)
 
 
 
@@ -194,7 +194,7 @@ If you entered in an incorrect restriction and/or accommodation, you can click t
 
 
 
-![](../../external_files/bc7f9ce6c14137701bbb6d958ccbfd5d.png)
+![](adding-restrictions-and-accommodations.images/image16.png)
 
 
 
@@ -227,7 +227,7 @@ When you click the pencil icon (to edit) the restriction and accommodation field
 
 
 
-![](../../external_files/100d74bf37bcf21569f0f7804524bdfd.png)
+![](adding-restrictions-and-accommodations.images/image17.png)
 
 
 
@@ -241,7 +241,7 @@ Current restrictions, that encompass today's date, are always shown in the dark 
 
 
 
-![](../../external_files/457235275c3a61bcf14e955b606b7ced.png)
+![](adding-restrictions-and-accommodations.images/image18.png)
 
 
 
@@ -251,5 +251,5 @@ Any active current restrictions that are specifically linked to a case/incident 
 
 
 
-![](../../external_files/b6928247088b0025ca89cde1d38afcac.png)
+![](adding-restrictions-and-accommodations.images/image19.png)
 

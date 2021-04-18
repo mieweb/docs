@@ -1,17 +1,17 @@
 ---
 title: "Allergy Data Validation Test Script"
-date: 2020-02-27T21:32:57.175Z
+date: "2020-02-27T21:32:57.175Z"
 url: "general-functionality/system-administration/data-migration/allergy-data-validation-test-script.html"
 author: aquandt
-version: 24
-id: 1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM
-source: https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM
+version: 25
+id: "1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM"
+source: "https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM"
 menu:
     main:
         name: "Allergy Data Validation Test Script"
         identifier: "1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5200
+        weight: 5180
 ---
 This document is intended to describe and assist users with the process to validate medication allergies imported from another system. The {{% system-name %}} system uses the Visit encounter to display the details related to a visit. 
 
@@ -108,15 +108,15 @@ Options include:
 ## Validation Instructions
 
 * Log into the {{% system-name %}} system.
-* Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.  ![](../../../external_files/ba2565ae7f28ae2bc3deb4d5c9e480f3.png)  {{% tip %}}
+* Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.  ![](allergy-data-validation-test-script.images/image1.png)  {{% tip %}}
     * Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
     * Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.html) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.html).)
 
 {{% /tip %}}
 
 
-* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](../../../external_files/fc4a55c6aa34edbba920cbc5479b0638.png)   
-* Select <strong>Allergies/Medications</strong> from the Medical Record chart tab.  ![](../../../external_files/34b0e17ab629426de1392cf5f21d3422.png)   
+* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](allergy-data-validation-test-script.images/image2.png)   
+* Select <strong>Allergies/Medications</strong> from the Medical Record chart tab.  ![](allergy-data-validation-test-script.images/image3.png)   
 * Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
     * Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
     * Contact {{% system-name %}} with the findings.
@@ -132,5 +132,5 @@ The **Allergy Report** and **Allergy Report - DV** can both be particularly h
 To access and utilize these reports:
 
 * Navigate to the  {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}}  sidemenu.
-* Select the  {{% syslink "Medications/Allergies/Scripts" "f=layout&module=reports&name=MedsAllergiesScripts&tabmodule=reports&tabmodule=reports&t=Medications%2FAllergies%2FScripts&tabselect=Medications%2FAllergies%2FScripts" %}}  report list.  ![](../../../external_files/238b38b69ca8b2ffaf415730f46f0ded.png)   
-* Criteria may be added to filter or drill down data.  ![](../../../external_files/c8c2bd5f13250a71da5064ca5118dbc4.png)
+* Select the  {{% syslink "Medications/Allergies/Scripts" "f=layout&module=reports&name=MedsAllergiesScripts&tabmodule=reports&tabmodule=reports&t=Medications%2FAllergies%2FScripts&tabselect=Medications%2FAllergies%2FScripts" %}}  report list.  ![](allergy-data-validation-test-script.images/image4.png)   
+* Criteria may be added to filter or drill down data.  ![](allergy-data-validation-test-script.images/image5.png)

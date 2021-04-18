@@ -1,17 +1,17 @@
 ---
 title: "Nature of Injury CSV API"
-date: 2020-02-27T21:32:25.970Z
+date: "2020-02-27T21:32:25.970Z"
 url: "general-functionality/system-administration/data-migration/nature-of-injury-csv-api.html"
 author: aquandt
-version: 15
-id: 1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU
-source: https://drive.google.com/open?id=1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU
+version: 18
+id: "1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU"
+source: "https://drive.google.com/open?id=1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU"
 menu:
     main:
         name: "Nature of Injury CSV API"
         identifier: "1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5130
+        weight: 5110
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for nature of injury** using the [Case Management CSV API](case-management-csv-api.html).
 

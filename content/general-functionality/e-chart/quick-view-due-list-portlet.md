@@ -1,10 +1,10 @@
 ---
 title: "Quick View - Due List Portlet"
-date: 2020-03-10T16:13:43.615Z
+date: "2020-03-10T16:13:43.615Z"
 url: "general-functionality/e-chart/quick-view-due-list-portlet.html"
-version: 43
-id: 10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE
-source: https://drive.google.com/open?id=10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE
+version: 44
+id: "10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE"
+source: "https://drive.google.com/open?id=10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE"
 menu:
     main:
         name: "Quick View - Due List Portlet"
@@ -16,7 +16,7 @@ The **Due List portlet** found on the [Quick View](https://system/) page is a gr
 
 
 
-![](../../external_files/861af4e3c9d519f4c10045209bb07d5a.png)
+![](quick-view-due-list-portlet.images/image1.png)
 
 
 
@@ -26,7 +26,7 @@ Each column on the Due List can be used to sort or filter items in the table.
 
 
 
-![](../../external_files/b0479c440373cbd684b1d399c2fc7a64.png)
+![](quick-view-due-list-portlet.images/image2.png)
 
 
 
@@ -38,7 +38,7 @@ If you filter out rows, those will be filtered out on future sessions/charts you
 
 
 
-![](../../external_files/68eaf1feba6bab1a24c12ffe216144e6.png)
+![](quick-view-due-list-portlet.images/image3.png)
 
 
 
@@ -49,7 +49,7 @@ Drag and drop a column name to change the order of columns.
 
 
 
-![](../../external_files/c69d0069f17bfb494a5ade73938f260f.png)
+![](quick-view-due-list-portlet.images/image4.png)
 
 
 
@@ -57,7 +57,7 @@ You can also drag and drop a column name and place it into the table header to g
 
 
 
-![](../../external_files/4f1093876519b3e5f34e4c87b5865469.png)
+![](quick-view-due-list-portlet.images/image5.png)
 
 
 
@@ -69,7 +69,7 @@ The **Due List portlet** can be refreshed at any time, to provide the most up-to
 
 
 
-![](../../external_files/7f659d3f8d5890e53fd791646eec7a52.png)
+![](quick-view-due-list-portlet.images/image6.png)
 
 
 
@@ -79,7 +79,7 @@ The carrot icons on the right corners of the Due List portlet act as a show/hide
 
 
 
-![](../../external_files/c7e30bb616e1cf51bf0f9c9c2437d03c.png)
+![](quick-view-due-list-portlet.images/image7.png)
 
 
 
@@ -89,7 +89,7 @@ From any due list item listed, there is a **Details** hyperlink column.  
 
 
 
-![](../../external_files/d39ada53e4615389c5c4450ff8f9b655.png)
+![](quick-view-due-list-portlet.images/image8.png)
 
 
 
@@ -97,7 +97,7 @@ Clicking on Details for a specific due list item will show information about the
 
 
 
-![](../../external_files/f7678971743b672865104b8c5cbd79e3.png)
+![](quick-view-due-list-portlet.images/image9.png)
 
 
 
@@ -107,7 +107,7 @@ The Due List grid will display the chart's next scheduled appointment date if th
 
 
 
-![](../../external_files/8911e46114ab1eeef86632f99e7085f3.png)
+![](quick-view-due-list-portlet.images/image10.png)
 
 
 
@@ -117,7 +117,7 @@ The Due List grid will display a hyperlink to access the waitlist module.  Clic
 
 
 
-![](../../external_files/77aeed6adfb5113379513c67aee43303.png)
+![](quick-view-due-list-portlet.images/image11.png)
 
 
 

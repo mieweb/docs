@@ -1,10 +1,10 @@
 ---
 title: "Colors"
-date: 2020-02-27T19:32:06.134Z
+date: "2020-02-27T19:32:06.134Z"
 url: "general-functionality/system-configuration/colors.html"
-version: 100
-id: 1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA
-source: https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA
+version: 101
+id: "1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA"
+source: "https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA"
 menu:
     main:
         name: "Colors"
@@ -14,37 +14,37 @@ menu:
 ---
 From the Control sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
 
-![](../../external_files/42e7c571be9ad3e1f1dd2b4bd21d1df9.png)
+![](colors.images/image1.png)
 
 When you are in the Colors module, there are 2 choices of Color Scheme by default that you can look at and set. This section gives you a quick glance at what things will look like as you change colors. It also shows if you are changing the "System" colors (named Custom) or the miEHR colors (miEHR colors are defaulted to be MIE's branded colors of green, orange, etc).
 
-![](../../external_files/6c4080975530705d3e5008ca38b3a283.png)
+![](colors.images/image2.png)
 
 Each logged in user has their own My Settings preference to determine which color scheme they want to see {{% system-name %}} in. However any changes done to any color scheme in {{% system-name %}} will affect all users that have that selected. The My Settings preference is called *Color Scheme*.
 
-![](../../external_files/fc4db2126d95e553e5cf2a731861e349.png)
+![](colors.images/image3.png)
 
 It also provides you with the opportunity to customize colors per individual patient, for System (CoBranded) or miEHR CoBrand.
 
-![](../../external_files/22ab81b7de009a74a4d21d8b4f492109.png) ![](../../external_files/ded07fef4e5cb1c38e1546f21fc761ee.png)
+![](colors.images/image4.png) ![](colors.images/image5.png)
 
-![](../../external_files/1145689be0b59d3ff10d8177c2a0cf8f.png)
+![](colors.images/image6.png)
 
 The top portion is a summary of the color scheme you are looking at and all types of settings and what color they are set to.
 
-![](../../external_files/32c86335a7d8f612e2ac168e09176610.png)
+![](colors.images/image7.png)
 
 Below that is where you can change the entire system font. If all you want to do is change font only, you can set that and then scroll down and click the Submit Colors button.
 
-![](../../external_files/6a655ac353badefecf37d0e09f5e1243.png)
+![](colors.images/image8.png)
 
 Down at the bottom is a *Refresh Image Cache* button. You may want to scroll down there first and click that. This makes sure that the most recent copy of all images/colors are being used.
 
-![](../../external_files/550361291aaa266ed2ee0fe911efaf9c.png)
+![](colors.images/image9.png)
 
 The next section is all the settings that colors can be changed and shows the color they are set to currently. The radio button is what you would click to select that specific item you want to change color for. The next step would be to either select a color on the right side with your mouse to apply to that selected field *or* if you know a specific Hex Value code that you want for it, you can type that in the field. Whatever radio button of the item selected is what will be applied this color.
 
-![](../../external_files/058ed73c47e99c0ab60c1d9275008cee.png)
+![](colors.images/image10.png)
 
 
 
@@ -54,7 +54,7 @@ The next section is all the settings that colors can be changed and shows the co
 
 The Submit Colors button is at the bottom of the screen which you would click to save & submit any color changes you did.
 
-![](../../external_files/22fb46a2a127f893066559f34bd3d89d.png)
+![](colors.images/image11.png)
 
 For details on every specific item to change color for (where/what will change if you select something to change its color), please see next pages.
 
@@ -67,82 +67,82 @@ For details on every specific item to change color for (where/what will change i
   <tr>
     <td>Background Color</td>
     <td>For "Custom", controls the outside frame – above tabs, below sidemenu, bottom status line of {{% sys-name %}} .For "miEHR", controls below the sidemenu tabs and the status bar at the bottom.</td>
-    <td>![](../../external_files/72b3337d550dbce6ee8b75c4d6d73de8.png)</td>
+    <td>![](https://lh4.googleusercontent.com/NquSq-vO6htHHvtMVlOjj6SlYUiZiqYsRVd3lL9whPGJ3dZ4oOpid4wvYoQ0GPGqyke4vU99HB8oYqVZAc_HmVkxClv8OJbIfAD1Fg5QmmyRmhjgRaKa_DJ7pPuMWG2CGZMTpvwm4pU2Mc4pFw)</td>
   </tr>
   <tr>
     <td>Background Font Color</td>
     <td>For "Custom", font color on status bar at the bottom and the user's name and primary department in the upper right.For "miEHR", Font color displayed on status bar at the bottom.</td>
-    <td>![](../../external_files/569f7f2c8ae13a6f56b4bb91bb9014ce.png)![](../../external_files/a88276cfad8915b653df4345bce3a1ed.png)</td>
+    <td>![](https://lh4.googleusercontent.com/nbhbZuBYH1HT9OElFvcKdpmBBH7izNGCWTbDqlQLgBi9ArQkt1ydeP1LOdqv3VJPBpzRGTRKlrayXlss3SfslMaoWDASdOqemr9F0gb1p8f67ETJCP7h775xIvn5DEjJ2GTalb0Nh_mvC2gAAw)![](https://lh3.googleusercontent.com/qHdosWmQcmBWzz9NoTmkMtKYGkz7zvEGHs6lIo1jZ0k-nRDcLmiafjpywsW7xboZfYlfw_FsOm8rYT3lFR1wHS-IrRYGYInYWK0r8eF4KgDFIr2-iGXc32damBWgMSxDCPDjT8KVHDr6BgBhxA)</td>
   </tr>
   <tr>
     <td>Folder Color</td>
     <td>Main/Body area of tabs (folders) background color</td>
-    <td>![](../../external_files/ca66c7bebf1f2c70f08a2649bd8adf02.png)</td>
+    <td>![](https://lh4.googleusercontent.com/O6jqF_8q3m4yb0UAXOv899DMeGfDPNC5BH2kGxbq8SJqVBvZTpK5cv2LO4G6VFcXcADPBgAC6SKgrE1cji84H5-3BN4HnwkQXqvbptxQ4oU1tUzfdDqKHOf3LBiTeNJVPTprCoTN3cbkwOZ8Ug)</td>
   </tr>
   <tr>
     <td>Folder Font Color</td>
     <td>Font color displayed on links when in a folder and also on the folder name when it is selected/active.Font color of E-Chart search criteria and links.</td>
-    <td>![](../../external_files/1e22115a7b125335a3df68a65f62c262.png) ![](../../external_files/88c86d0a840cfccf7263b24cb3077b31.png)</td>
+    <td>![](https://lh4.googleusercontent.com/CeVf3WsKYHCfHGDOEBLRugPwaizew7ZM8_qLPDkFl3Xr4HGTNff7mPc4CVH2IS_QEH2WdceS9P_JxChT3wy1-S_HXUzu83XLw3Fj6M-VGUl1EigMFuH8TDKMI-v4CffvF2BKif2kLf-UfEE0fA) ![](https://lh6.googleusercontent.com/mzfC9_Wk_GwCoYOHX73beTz24589rwA-Djn_woDvH1rWcynSbbKacI2qINvYklCdFvWBaS6aOty5skWvyB9HSzcXmEnGcl_6jZ9PO-UxtaGaene-CkNz_rvNDMwJ_q-L96c7B0AE99Bi4NOwFQ)</td>
   </tr>
   <tr>
     <td>Title Color</td>
     <td>Background color of the area below list viewsE-Chart, Any view in Chart tabs, Warning Title</td>
-    <td>![](../../external_files/7dfceb4ee0907f26e9902ed7bd1bf1ab.png) ![](../../external_files/c5e0e158bf5acaaecd65e33280d5e50c.png) ![](../../external_files/0ef0802be4e48c0d247d72713a20803c.png)</td>
+    <td>![](https://lh5.googleusercontent.com/9WpgHziz6M9FdqMLDecEMzseldkbyoEgcJ7tcD2q5vxoliBnUEKtWVgiA1TZLDyju3dyCzxv3O8qigrDhaKNkTrpwH3g-vy-BEoZuVCQXOoAP8JVPjyYt3bV169wpJciiWx1ZroxXwewOjjttg) ![](https://lh5.googleusercontent.com/DKh0vBUMU8lLBAkK0dF6fHWHhbHNdkSzWIY3CEPbw0_ZyT38xio_0ietkf2sQS2mezydHtQvhV8EmAz-cEhqxyuwN6jKaH1yaCeWjMbkFygFs93FVSIu1ysRx7pFXhBZf95hGQn0cTfIKDQ8XQ) ![](https://lh4.googleusercontent.com/kFEw-V7sHTT46Z0h1i52kEpd15shpAY8JQ7mnk1MYcWCpEybGaRWScZrpauTU7P2pveyaPcEZpcgspioH2OdYdXFGsIHjOTTVm6PY6qOOg6XOxsFH3V1hH5Adk_N6GsUDOtnUpkxzwzqUnqX3w)</td>
   </tr>
   <tr>
     <td>Title Font Color</td>
     <td>Font color on the title background, Portlet headers, Listview & Listedit & Dialogs</td>
-    <td>![](../../external_files/f5e10f16829e0c97994a5d0e21c43ef8.png) ![](../../external_files/1588e9f74a8b910ad2640484934efe3a.png) ![](../../external_files/4920e959a5bdcb78803cfe77417543d6.png)![](../../external_files/a805c5ebbdb4d50ca09b915807ab5dfc.png)</td>
+    <td>![](https://lh3.googleusercontent.com/UzYv2qj01W2QeCTdHdlQpZcfspX8kJcotlugSebl2_QzRn559IFJh4h2623BBo9vN_cZTZWmvfHcOxi1_kZcU7vOoVxaHVc97QNzKw2wYaTXDHag3DxmrChBme3U4HTGoyaW0tApQc_KiwOh_g) ![](https://lh5.googleusercontent.com/yifUA0bB8nUeHHOcsnkvIF_OkM1KTi86ahHaXAhFBO9xRAV2iappkn5fWJf9MzDAJfIDgppLsPtKT8KACA3m2p92QS0Zp9R-2xqrBS-qE4eiyfU7fJNMs9PWuWLvSj3-AdrYmWu70rl38Ib3zA) ![](https://lh3.googleusercontent.com/s_KyYgC3npW_b_-xanvInwDwCUmkfT2GEp5MZc9MErxdYKpRexJhaIESoRrpbDonMji3CM1bQ3OdQfgXPHiKVqhUn1jtezL151DfnfhabffmQ0qB-BxmpiEt0Z_WQ9Rd4mAJqE52EiarmmTGiQ)![](https://lh6.googleusercontent.com/FELycxZICPv5LxGDCOFnRg5yBFm--nCj_HmOr43nelrE14hNKd9K56WmjWCQGfyjXPcF3GML16TLRFhpVMVwf1Wm6hl3ZOiFkSgfeUxpGpUl0MWOEXzeloXOpf4NE8pKNS8NSGu9JLrUxYgG1w)</td>
   </tr>
   <tr>
     <td>Subtitle Color</td>
     <td>Background color of the area below titlesCheckin, Scheduler, E-Chart, Listview & Listedit headers</td>
-    <td>![](../../external_files/b7bb824560064646ed8f2b74678aa74e.png) ![](../../external_files/134ea248b6040a3eaf96bab2f8dfe404.png) ![](../../external_files/c5899b1d5131125361cacc15eafe20b8.png)![](../../external_files/5f5536b7e5684e19848b65bf0ff688f7.png) ![](../../external_files/bc3d718e47fc42cf92896c4a26a398f5.png)</td>
+    <td>![](https://lh5.googleusercontent.com/wNzHumZPgy23ZLmQ_hGmd3l1-2tnsm3_2-Lfeeuyh9tgaY9eVu494KI8IMT_8YBUERIoKdZU_nlwiAAOXIUew7MXuagr5DONWyQHxmDy20IBpVM5KwZCdRZsOdC08tyhfSmDj7uGI_yGnEEsqg) ![](https://lh4.googleusercontent.com/-kG8iLJFgFYzqlFo9mX7n6Jx5V2dpKGR-0tM30EpTQAv60AdmL5cbwZfbRUyB5Wwnpyd1ls8xlvlWea1G1VHEQQ0TFi7yFQmek22l2qi5O97_eGE43UmITblD-2zYQiWDm10h0EE-Vl8klqpwg) ![](https://lh3.googleusercontent.com/sEXCW0X1NeY0Jz6R7yJmM_6C6A28OdHBd9cfOpRIw4MLWUO5g_gBLs2vteGlrF4Epouk1Sr8Y20A2NWhV2vGaSIzr4VE5_jDYdEOyqCIHjPtfkK-33dXs8-bKeg2VHwBAyhuLcLhUuzafuy9cA)![](https://lh6.googleusercontent.com/1tweb3Q-PV-PipEE_zRgUujZKWkz3mrBvjTDIplXJ3iiaCb1GPL-YWIrnVXSpw_W2mT5F8NnkbWAcOe2xKjohQipWXo0kDnYr2ySMzRMmaNuxTLF8N9Np9kbmsINQSOsdIjMapMMQ4OeOfKLbA) ![](https://lh4.googleusercontent.com/ECnx4ztC5Sfn7uyu2qhkRpl9CJqwru0ieKgkLl8INIWdqq_NKMf1ilvz9WgH8UHZO-NW_SEIj2ue0qBN9yx1-UUcwBTuxwQkF6dncD8tNn-gzXpCZLxCqe90vlYXL6Mv_ti3UFVXM4svAOFPpg)</td>
   </tr>
   <tr>
     <td>SubTitle Font Color</td>
     <td>Font color for subtitles</td>
-    <td>![](../../external_files/1e7b8f4a6df43decf98d06714da6a958.png)</td>
+    <td>![](https://lh6.googleusercontent.com/xBYDpyF1JvG748Dq_-WvV9Rxga6UFYnteHWItTOhiheQo_uxgDyevDibnIj_pPwS1LbrxAtMAoBbczgMAEDracCpCFH6TbksTbKiwLO8rdAFxOwQlUBVC7zom7zxq6GUNzqbBeHwlz_2P_O01A)</td>
   </tr>
   <tr>
     <td>Field Color</td>
     <td>The shading (background) color behind field fonts.</td>
-    <td>![](../../external_files/85ec4acf1fe61e50aabe3466a05a440d.png) ![](../../external_files/27bc204873f082b6bfc4e9a5b39550b8.png)</td>
+    <td>![](https://lh3.googleusercontent.com/9QYn-ejm2QALxih6IolcEgRHV8uxpSJ3lGpjOxO4e3BiRJCA9QVRbVjUDQKrySRNYAy90H3kV3Yqkc8YAuku6HNf2iUno-bWLhIJYoR6mu1PCO5HTOt94iZeVRecRN4x3zNfPPdq8jF66Vg-LQ) ![](https://lh5.googleusercontent.com/DjzAZjKCDl_JUW9xC9q4jf85kSVpRQX0M4gCegn4r0wVeEhsF2T4RpGGd1qTaJO7ND2YEHrxllLc5tuTNI60pEFu197v3phxpLmgPrclJd68dSU-1AjUZoHq7kHLDW6IgjExTlzlei679bOaEA)</td>
   </tr>
   <tr>
     <td>Field Font Color</td>
     <td>Font of the field description</td>
-    <td>![](../../external_files/4fea4af28207f6559b99bec87f19ba52.png)</td>
+    <td>![](https://lh5.googleusercontent.com/QvQcov7pDVJ-qRxk8ynoO_KuBTXkaFTUSiNUtaYPOUKzW731fd3hrz9cYA8q9hr22VfBAnw5-FQkkAnByKugG9unxznmpSKLCchxt6H0Qztrams9OvfJ_JFWasv_5Pre3ydx3-yO0rKyGRdRVg)</td>
   </tr>
   <tr>
     <td>Value Color</td>
     <td>Found in many areas:Encounters-the row selected & background of Encounter Search.Tasks: Fast task picklist background.E-Chart: color of the row when viewing a list of names.Portlets: Background color of main area.Control/My Settings: Background color</td>
-    <td>![](../../external_files/cb652c64f6e632cf12f3328b78cba463.png)![](../../external_files/d41d8cd98f00b204e9800998ecf8427e.png)![](../../external_files/5526315c6b47229a2060003b0fab1f83.png) ![](../../external_files/a4c9e415c6a7472e61c889c962ccfb76.png)![](../../external_files/7c0e7ae77dd67315e8bbaf0f8f3cc84d.png)</td>
+    <td>![](https://lh4.googleusercontent.com/zIHi8coDBmJAEYhgG_UfUVrjJQHit1oNEFMlwS-3HYBuDTU70EKsg3R8arSo4oZXpb4pEmUo2n4-Sc9BEBuumw1NtCtjB9YvM4TbgERGP9qKM5KocpGf40tFCeqcv2_ZH673CVR_XW-uTpFKzw)![](https://lh5.googleusercontent.com/58vdXkYpRgheca-okiCvmPK_CLGoAaf7SJteC3PadgnAdnmjDmSp-qzzHqGe7xdB8YmWnkTqa5Zg1BAId5oUyT5aXY1igtblztzfjKjKdmZrXd70mp91mvBeEtlNlZfpH24ruZeQZNh5Z9sVhw)![](https://lh3.googleusercontent.com/r6fdryy7VR_3K06aYo6NxjbXXpN9HlB1F4O_g4sVXwqQEfIHNUXyqsvwLJEMjzBNxYqYgUqeA0ke8oVfCzX6U9Veh2TjiGtzI-8ylWy0yzF2K4GXnDXBGyJ5aUGRUuO8KMu_2f3bUoa5Q-pywA) ![](https://lh3.googleusercontent.com/LDRAl4wJD1IdyXMwptjKSjFtXBzYQXgVNzfgO-cPuujj4Yt515kbz7JGundD48kC_UWPVYkSiOBsAwCLDW0GWIcM6AVeqgbnE7apG3igZMi-TS8FzdJqyDsMfJ4aEIoYlZGAfH5xh3kLHCcZfA)![](https://lh3.googleusercontent.com/I89JC_4LjnnEDevSc9znF_OZ57O2YxuVtv9xYmKZHD_Vq3DACIDT-lOlrkfT6wtITEpsQcrGipLsHhZhVbhayaxsTESsjk8elzHg42q7P5nVxvvFZDObVSdRQWeqODfLJRf15YFL7vwgxydZjQ)</td>
   </tr>
   <tr>
     <td>Value Font Color</td>
     <td>Font for the value fields.</td>
-    <td>![](../../external_files/530ffc890059d551bf32ea4065054d1d.png)</td>
+    <td>![](https://lh5.googleusercontent.com/MTsyb4bBBMCLBH76lsiybskZESV5Pn-wk0OrIu9Qih1z3V9jbfVX5QLYjaHRslFKtNwVkten_MqammpQJ5b-DHaX1HhDLMRladXSGpPPSDzEtuQYpMKvuXPPLqB5jZn_QCofAhn6aBJ0yaqOzQ)</td>
   </tr>
   <tr>
     <td>Alternate Value Color</td>
     <td>In multiple selections, background color of non-primary value, such as every other row in e-chart, or in document list view.</td>
-    <td>![](../../external_files/63f5b23f335aaa016d5e2bd4d7454e0d.png) ![](../../external_files/620d51a40d537c23167ceb28220f4a08.png)</td>
+    <td>![](https://lh3.googleusercontent.com/KdxY47JGcvocd8n-yb287zZ5R6hF4qDVDpHStdWOZru-JZZOrt2ePkwrS0kmdW_dpTu1rRci_0JYiwnvnMi4TR_Vj0S7ANNukCndd3k3U8FcCNUznsLFSmxhaXC8_XigyIFkSOn2WvN7yEfJ6A) ![](https://lh5.googleusercontent.com/zq3DdFmoiNv4GI7snavi3dA-D1UQOTA8W9rx66jY1e2EyUzwr8aHY4948YK8pgTabsFau_wbh2AgY6e14YEgFhjv2HSGVa-aIlVvA61sOeF2sdibNLvs8hfvU7WNQXlsSJobBhtt9XjY1H9x5g)</td>
   </tr>
   <tr>
     <td>Alternate Value Font Color</td>
     <td>Font color used for alternate value.</td>
-    <td>![](../../external_files/4cba876cb44cae05c1c55fbfd2bddb3d.png)</td>
+    <td>![](https://lh5.googleusercontent.com/U0r4MKnPuv_GpR2NncjkDpN439THrD_OdhrYFP0L6g9raX5yjvQJCS9crPpnh5NZdMfmmXjEmESRO52uW31ELChLNwW3ybbHB4VpTyxZY7ZAxLPKzOKnao3gtPE-Hi4K18m64_8foWK918Xc8A)</td>
   </tr>
   <tr>
     <td>NonActive Tab Color</td>
     <td>Color of tabs when not selected/active.</td>
-    <td>![](../../external_files/0d6ff6e14592d12a778c972ff454718b.png)</td>
+    <td>![](https://lh6.googleusercontent.com/4IWQx8IW86AOL-Jnu6Ot1dnbGJCZIyD9jCMNxuvPw9d2CA1IsORAQcpoN_C01a9yRRCkQJ84FGiyTkVGYWrAp5CLZ-zeyY5rsmCe7T5ngy3LhxGLAenW24wOYc3AtWptd4cghM2sjAKZODy-aQ)</td>
   </tr>
   <tr>
     <td>NonActive Tab Font Color</td>
     <td>On chart tabs when they are not selected/active.</td>
-    <td>![](../../external_files/795e2fb594d9850a101f1a1ded2ffe7e.png)</td>
+    <td>![](https://lh5.googleusercontent.com/epbRbW1Zk46T9QapQX6tnVp3gWiakYSTf36y0K37V_nPARd2NDyh-24uPZic9UmFImn_qOKvoKSNB152fS7Di8w6pyndDVMqgYX6sJEi9arOQBEGPeYVGaVo-kpV6urtXv1i7PoHIeUX32BS4w)</td>
   </tr>
   <tr>
     <td>*Outline Color*</td>
@@ -172,27 +172,27 @@ For details on every specific item to change color for (where/what will change i
   <tr>
     <td>Alert Color</td>
     <td>Alerts/Guidelines background color on Portlet, in Chart Tabs, Observations (abnormal results)</td>
-    <td>![](../../external_files/53c7bc5e1d2f1fa47b75130c524d27ec.png) ![](../../external_files/07c5e83543a69c8202dcad176d1952d5.png)![](../../external_files/6b7497ffc72cbda0937bd818b5d27b0a.png)</td>
+    <td>![](https://lh3.googleusercontent.com/4EZuzUFDSEKOb3bywUjAJlQS5aCzX7Ref3Z08eRP4tUak3y-EfOy5MXcv4t8OclC6lkkP-g9R2yeRUjAzeWPFKQGFbguADipBpmQUTm0UdTkN3ruaXRwqNDxHZcS0ngYY0AR0Y7EL6D6AQDXRg) ![](https://lh6.googleusercontent.com/_M7F5ZZ6CdRtRPHwc9bRd-KukZh7Uppcd559L79-yH6kvr2Z13P3PKuPTA7aFFBL4rIx8UlPxmxh59YfamyWRtbwypvgHNmZIuUMc7RjY9MUiigeUzT3fD_lqErpJH_FlHTP3m6lYIs9CNKlXw)![](https://lh6.googleusercontent.com/F95TJkH4P9wc49iR-sX_w1DS--IAEDYp4MvqZ-zPvu6C1n3T43gqM3j7ZtpWtVs0r5RhdurfbR8UN6HxllD1TCJCiCC_D78Mk5rR7AHx3gfqpHHE78JsXcEJZqZkqJklRqunGsoQThnMtO4_sg)</td>
   </tr>
   <tr>
     <td>Alert Font Color</td>
     <td>Font color for Alerts</td>
-    <td>![](../../external_files/a79e1f0193907d4642b4b1b644b8e1ce.png)</td>
+    <td>![](https://lh6.googleusercontent.com/jQUsJTgd1MdDRg5p4nBSeQ8favYwM4Hfmh4518Nng3RRmawMytMm-gxlixaFtFId7GhW62YqsMUhs39GAlVVO3v8LAnxiyYWfJGCVuZsh3_l8kIUpMqmZXhGK35aTWDEqI4nbAfx76YYgJHbaw)</td>
   </tr>
   <tr>
     <td>Warning Color</td>
     <td>Background color for Warnings</td>
-    <td>![](../../external_files/bcf9f7fb4d58d4eb5acbbc6c65774c02.png)</td>
+    <td>![](https://lh5.googleusercontent.com/NqBRir0MCKFnJyHxmk8Ld6qIDuCJfF6fzkAkqVAHL8jkWAnoqAKfnGUKlRA-Ogj7ByJQGRuhoMa8V3Vd8qCQPPjJAjSzyJ3x16xbzEBCCrZFVxd_07i4j_6FJkAZB5WrVFA5GuHr-HQ5o3uuaQ)</td>
   </tr>
   <tr>
     <td>Warning Font Color</td>
     <td>Font color of Warnings</td>
-    <td>![](../../external_files/c24e1f31476a53c7521140f599075fc3.png)</td>
+    <td>![](https://lh5.googleusercontent.com/Rsq9c6YqHY_vGbA06xPeKaRUvRio3D_do9toOwdVd3gqGMyrMH0zQQiCAeEdhbmQd8pQMseFHibr5ElRxCFOm9v6bIgxbe5rur6XLuWG9ZCfZELZ2DqkhPgm_XRz7arpBkEhv3ZZKCUZTEvFqQ)</td>
   </tr>
   <tr>
     <td>Row Divider Color</td>
     <td>Color of the *line* between each row.</td>
-    <td>![](../../external_files/cce5bbb79c8bf00a6f3f5eaaa7e48bcc.png)</td>
+    <td>![](https://lh6.googleusercontent.com/QHkSKyNQI9nbiDwMWODTwoeroLDmBmutROvYUkqg6R2B8kw1HgrKmVvy1Q6JdefTSY3katyR_Wz8kH93ss2LCD-zl88am2_ESx9HaG_A1Stqpto-0ZvVmVTqvchBVKspeXs_E2-xtMP3p8VFXQ)</td>
   </tr>
   <tr>
     <td>*SubTitle Border Color*</td>
@@ -202,17 +202,17 @@ For details on every specific item to change color for (where/what will change i
   <tr>
     <td>New Record Color</td>
     <td>When hovering, shows the record/line you are on in a highlighted color to differentiate so you know where you are hovering.</td>
-    <td>![](../../external_files/2689b1f10f0d648adc101bf0390b09f4.png)</td>
+    <td>![](https://lh3.googleusercontent.com/AhjAYz2mq5VjNqkTwj83cd4iFD6wmLEWlxtMct-oobUkSoHdyLP1HKLCkVQ6jdgaW0OABbkml_dNljY0smPq-0McPMR_d7EuPUSBuM6GLiy0zjKYZXEQa16pgojZLBNoJ2kZ9tpAEtB7pgznfg)</td>
   </tr>
   <tr>
     <td>New Record Font Color</td>
     <td>Color of font for highlighted record.</td>
-    <td>![](../../external_files/e4a5e67a87cff1afc144eb3107142b49.png)</td>
+    <td>![](https://lh5.googleusercontent.com/EsnuMiqYEYWGukYf-j-fVhIZ1P_mnI8rM36flXkyeH_3NHrjPUFmjWXHoFtYjrTjtMe1olfDRXhVSyaSBy-b5f6bTUP5x0I6jBnpxPiUO2lqzscbFTFLysCuinZCXp-nuD51JaO0sQ73zgImyg)</td>
   </tr>
   <tr>
     <td>Phone Notes Color</td>
     <td>Background color of text notes free text field.</td>
-    <td>![](../../external_files/9a35cca6cd33acb3c7711bcf9b5a40fb.png)</td>
+    <td>![](https://lh6.googleusercontent.com/8zo25YkkbL3BJFe9J452q6qEYBEBv7qucRxCQx2Sjdz-LsS55VWbuJolyTzlCu5aHQCnUYo876012rOsOpf3BkJTSZFzoaRpMnZkLE5LUYCHxBFP-1zs0qwTf4Fo7Jwsdhb9cuVVQHM3y8zv2A)</td>
   </tr>
   <tr>
     <td>*Phone Notes Font Color*</td>
@@ -222,72 +222,72 @@ For details on every specific item to change color for (where/what will change i
   <tr>
     <td>Doc Notes Color</td>
     <td>Background color of Doctor Note (text file) free text field.</td>
-    <td>![](../../external_files/942217c0b830bc7a9fdde60c17e73afe.png)</td>
+    <td>![](https://lh6.googleusercontent.com/Anox4KMqFmo0cyM-VMBRVbI6B6mwklJpiBdVkLcn_uGYDAFJthX0vGmyL1hFLfOP6Oc-v8u70V0KFbcHu5QsrwcHLHR595I_zkVnYhe68i-8kYmF6wilUncvI520zopjz-NLQMZIjsM0El74Lw)</td>
   </tr>
   <tr>
     <td>Doc Notes Font Color</td>
     <td>Font color of text document "Doctor Note"</td>
-    <td>![](../../external_files/fd4bb03e5eec57619f8a4a39f6bef2b9.png)</td>
+    <td>![](https://lh4.googleusercontent.com/Awa6ENzZwf-zik4zWju5Yc7HBkxnCxExZC8-PqzHzBmWrmjUFrp3wpocxH4RUy-wRrf5EsfhImkAxrKqqPIS0TjNx_OGb36iancdYdpADRlkD0l8rtOId7o2qNu0mF26uyLjbvzHbVJ0-tNsYw)</td>
   </tr>
   <tr>
     <td>Document Default Color</td>
     <td>Background color shown for uploaded Word and interface and scanned documents, however this is no longer respected in the system, so changing this won't do anything. Default document colors are now black and white. This can be changed in the Document Type Editor in the ‘style' field.</td>
-    <td>![](../../external_files/9f9fbf0b591d2a973be493a9754990ca.png)</td>
+    <td>![](https://lh3.googleusercontent.com/NDwFWMVbiWvfnykzT7gKPEy-hmXgXic2zH0zihC9Q7JKSiuKU05g04LHqcm-KzSxAIoKvhjCAN2gtsKS3kWOMXk-IhG-dHKbeIDvnNI9aUxNfx1TzHB2-Y2VWqZrGt-ogisp3m0M7YND9vW24A)</td>
   </tr>
   <tr>
     <td>Document Default Font Color</td>
     <td>Font color for Word and interface documents, however this is no longer respected in the system, so changing this won't do anything. Default document font color is now black. This can be changed in the Document Type Editor in the ‘style' field.</td>
-    <td>![](../../external_files/82413accb5a8f3f1618908b5b1df0020.png)</td>
+    <td>![](https://lh3.googleusercontent.com/5lvZEZRgo-2-mVxGcDxlyHiyvWbWdGWc-pvV42sTTjYe9kuYMk8H9utiP2OWGS9iugukTgIfsbPw-L7FLqk8_Z4S7tx1XYW3XEXYwNaduTnp6MHJAYuFRT1_WDZxuxJ1MqTer4qFEqNUV3lsKg)</td>
   </tr>
   <tr>
     <td>SchSchedule Font Color</td>
     <td>Default appointment font color, if one is not specified.</td>
-    <td>![](../../external_files/446f212e52e7db16dc8cc639de0e5083.png)</td>
+    <td>![](https://lh6.googleusercontent.com/Z0nmntKoOCbYXw_5qMyOV2DYDNzCSLESVNMKlzTduB192MdH3Vlc52KHzem1rX4b-HvHD5F2ySvesiAaZm7pxX5BXJbDcOTc-Ly8Ayfxb3AqoFjOyVk8DwUpAW3WprBaAovvhAVMBxl9J2cPGA)</td>
   </tr>
   <tr>
     <td>SchSchedule Color</td>
     <td>Default appointment background color, if one is not specified.</td>
-    <td>![](../../external_files/c5c75d7b521e0bd9fe57ff7db50cd3bf.png)</td>
+    <td>![](https://lh5.googleusercontent.com/fNPkuCQcuSxVKC38C4k-ig9CugLV65EqBWoRoR-92d65CynvZz1bf-Jg9kOoX1IK60rD1PTfhFO6OUibWx7HZN4NWcb2KBvvXtwP1PPgdVwXBoEznkcpuoRbFfkyWwvk8HK1i04BBOn1yBUZ2w)</td>
   </tr>
   <tr>
     <td>SchAppointment Color</td>
     <td>The default background color, if none is stipulated, when creating new appointment types. Displays in the scheduler tab.</td>
-    <td>![](../../external_files/c5c75d7b521e0bd9fe57ff7db50cd3bf.png)</td>
+    <td>![](https://lh5.googleusercontent.com/fNPkuCQcuSxVKC38C4k-ig9CugLV65EqBWoRoR-92d65CynvZz1bf-Jg9kOoX1IK60rD1PTfhFO6OUibWx7HZN4NWcb2KBvvXtwP1PPgdVwXBoEznkcpuoRbFfkyWwvk8HK1i04BBOn1yBUZ2w)</td>
   </tr>
   <tr>
     <td>SchAppointment Font Color</td>
     <td>Font color of any links within an appt.</td>
-    <td>![](../../external_files/446f212e52e7db16dc8cc639de0e5083.png)</td>
+    <td>![](https://lh6.googleusercontent.com/Z0nmntKoOCbYXw_5qMyOV2DYDNzCSLESVNMKlzTduB192MdH3Vlc52KHzem1rX4b-HvHD5F2ySvesiAaZm7pxX5BXJbDcOTc-Ly8Ayfxb3AqoFjOyVk8DwUpAW3WprBaAovvhAVMBxl9J2cPGA)</td>
   </tr>
   <tr>
     <td>SchAppointment Title Color</td>
     <td>Background color of the 1 ^st line of the appointment – the "title" showing pt. name, DOB, time.</td>
-    <td>![](../../external_files/851db7c0e58f9b4f6ffaa277917cadfd.png)</td>
+    <td>![](https://lh4.googleusercontent.com/rJLi9PFgl1SHbOvb9-vyBMXjdgmyWx1BdKK0WrZ2CoxmqWnOnOgFL_PGckVNRvRCHa_KYH72VqvGR2oL_ZW6uT1RcuuXOmXkrB5GjmX-3dJ0Q6GTDknTRG6TbPeI2nNROdfCr-7paNbrm_5K3w)</td>
   </tr>
   <tr>
     <td>SchAppointment Title Font Color</td>
     <td>Font color of appointment details (non-link data).</td>
-    <td>![](../../external_files/7fc8232cfd962541df9b50d1dbd91e7d.png)</td>
+    <td>![](https://lh5.googleusercontent.com/OPkGZ1u3NrJh8ba0tzGqM16ytuBgYFi0NuRE-jhzSoVSeR8JlYrlLFDrnSK69tPVxORJ4gjGQKb-uZnBfaovcuALNIC3JDZeWRQcsq9XzmE_4nMrIYYhtEvLkynls216cz27A6Ho9y6Q2Myx-w)</td>
   </tr>
   <tr>
     <td>Menu Hover Color</td>
     <td>Background color of the sidemenu to change to when you hover your mouse over it so you can tell where you are hovering at to differentiate where your mouse is or what to select.</td>
-    <td>![](../../external_files/e517c2a9751fa233186210c27fd57ba6.png)</td>
+    <td>![](https://lh5.googleusercontent.com/Wcf_i8v8YFQARw9QorgwFF9rjAzPpCDkXx1owAm0QdHe70Khr0FpdMXCPFlTY97Su6sxm-sdjqBkSi9Z11rq7koMsAHfMEoSb1tQN2aB-1degYhBe2u5B6Su_x2VrX-9_tUPulwPYX5jx84sLg)</td>
   </tr>
   <tr>
     <td>Menu Hover Font Color</td>
     <td>Font color of sidemenu when you hover.</td>
-    <td>White font: ![](../../external_files/e517c2a9751fa233186210c27fd57ba6.png)</td>
+    <td>White font: ![](https://lh5.googleusercontent.com/Wcf_i8v8YFQARw9QorgwFF9rjAzPpCDkXx1owAm0QdHe70Khr0FpdMXCPFlTY97Su6sxm-sdjqBkSi9Z11rq7koMsAHfMEoSb1tQN2aB-1degYhBe2u5B6Su_x2VrX-9_tUPulwPYX5jx84sLg)</td>
   </tr>
   <tr>
     <td>QuickNav Color</td>
     <td>Background of links at top, like MyTasks, DocQueue, etc.</td>
-    <td>![](../../external_files/3415f7e01ce1475ddad29448fef93fb2.png)</td>
+    <td>![](https://lh3.googleusercontent.com/xT2-F5TJxZCY5ujd0MG4s4uY95e5MVgZWxp5x9DInJiyo0wt_ijsOLn2CE1_HiVI5Nm0u-122t46nYgQ2W2TgsqmPwbmtUOAPf2NW1JfTRVTTH9DyjoN9NU7LWt62p1DoTaVSHJ0VlOulR3wZw)</td>
   </tr>
   <tr>
     <td>QuickNav Font Color</td>
     <td>Font for links at top, like MyTasks, DocQueue, etc.</td>
-    <td>![](../../external_files/7b8e65fedc80cc38dd2d72215733cf21.png)!Images^components_system_configuration_general_configuration_colors_media_83.png!The numbers in () parenthesis for E-Sign and My Tasks are hard-coded and can only be changed by MIE.</td>
+    <td>![](https://lh6.googleusercontent.com/LAH4q1GisdeR27VkeZt0E4O0SkNeZVoD5XqAmYQoLURZ2uY2uG4hvQWgZdI2HUOEwxYYlSid4Zwi8oExaYKy3U4f6FuHjwkTZjpv8Le_54HkztpNtVLi5RSL_VwFpXYLwRj5Weul9-RwrXpBdA)!Images^components_system_configuration_general_configuration_colors_media_83.png!The numbers in () parenthesis for E-Sign and My Tasks are hard-coded and can only be changed by MIE.</td>
   </tr>
 </table>
 

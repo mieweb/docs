@@ -1,16 +1,17 @@
 ---
 title: "Patient Portal First-Time Setup & Configuration"
-date: 2020-05-12T14:24:51.089Z
+date: "2021-03-30T13:46:32.498Z"
 url: "general-functionality/portal-management/patient-portal-first-time-setup-and-configuration.html"
-version: 320
-id: 1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc
-source: https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc
+author: Dawn Case
+version: 383
+id: "1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc"
+source: "https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc"
 menu:
     main:
         name: "Patient Portal Setup"
         identifier: "1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc"
         parent: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
-        weight: 1280
+        weight: 1260
 ---
 
 
@@ -34,11 +35,11 @@ Many WebChart databases, especially legacy systems, may lack the necessary compo
 
 Configuration of a patient portal is done within a provider organization (PO) chart. To add or modify provider organization charts, click the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} sidemenu option. In order to configure the portal from the PO, the **Portal** chart type must be associated with the chart. The chart type(s) can be viewed and edited from the **Overview (PO)** chart tab within the respective chart.
 
-![](../../external_files/b02e7a59af829f5cde55de0cde5b981a.png)
+![](patient-portal-first-time-setup-and-configuration.images/image1.png)
 
 In order to begin configuring the Patient Portal, it first must be enabled from the **General Configuration** section of the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}} tab.
 
-![](../../external_files/9b5b3f11889bdfad19b6fc2f2e3da648.png)
+![](patient-portal-first-time-setup-and-configuration.images/image2.png)
 
 Utilize the Provider Management menu search to locate the Provider Organization (PO) *chart* that will house the portal configurations. By default, a {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} provider organization will exist in the {{% system-name %}} system. This default provider organization can be used to setup/configure the patient portal; otherwise, a new provider organization can be created. 
 
@@ -55,12 +56,12 @@ Complete the following steps to setup the patient portal within the provider org
 2. Type the name of the PO, and click the <strong>Search</strong> button. In this example, we will be using  {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} .
 3. Locate the PO Name, and click the hyperlink.
 4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}}  tab.
-5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information. ![](../../external_files/69880c23d3ee06be759932df84a8f451.png)
-6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.   ![](../../external_files/226cd117628ce65029d312bea8eafbe1.png) {{% only sys="wc" %}}
+5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information. ![](patient-portal-first-time-setup-and-configuration.images/image3.png)
+6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.   ![](patient-portal-first-time-setup-and-configuration.images/image4.png) {{% only sys="wc" %}}
 
 {{% info %}}
 
- WebChart portals should use a **Patients **role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.  ![](../../external_files/d59760edd61d339c76daf5acd84d958b.png) 
+ WebChart portals should use a **Patients **role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.  ![](patient-portal-first-time-setup-and-configuration.images/image5.png) 
 
 The security role(s) that are chosen must have the following security settings set in place:
 
@@ -89,13 +90,13 @@ The security role(s) that are chosen must have the following security settings s
 
 ## General Configuration
 
-After running the portal setup, click the **General Configuration/Portal** header to expand and begin customizing and updating the portal information, accordingly.  ![](../../external_files/87e493fb307cc5031e42add54ce7b029.png) 
+After running the portal setup, click the **General Configuration/Portal** header to expand and begin customizing and updating the portal information, accordingly.  ![](patient-portal-first-time-setup-and-configuration.images/image6.png) 
 
 
 
 **Branding** 
 
-**Logo - Upload new logo**: Click the **upload new logo** link to replace the default logo. The page will refresh after confirming the image selection.
+**Logo - Upload new logo**: Click the **upload new logo** link to replace the default logo. The page will refresh after confirming the image selection. If the logo does not appear in the portal as it should for all users, check to see if doc type WCPHOTO is restricted to certain department or users and adjust as needed.
 
 
 
@@ -104,6 +105,8 @@ After running the portal setup, click the **General Configuration/Portal** head
 
 
 **Enable Patient Portal**: Select to enable patient/employee portal.
+
+* Verify system setting of ‘Default on Signup' to be NMC vs. APP and that the NMC partition is set to View only.  Leaving the ‘Default on Signup' system setting set to APP will assign an APP MRN to all charts will create a portal account.
 
 **Enable Employer Portal**: Select to enable employer/supervisor portal.
 
@@ -124,6 +127,8 @@ After running the portal setup, click the **General Configuration/Portal** head
 There is also a system setting that needs added and reviewed when utilizing the Activation Code Redemption functionality. The setting controls how many days an activation code remains active. By default, the system setting is set to 30 days. The system setting to be added is *Unified Portal, Account Activation, Days to expire activation code*.
 
  {{% /note %}}
+
+
 
 
 **Use Alias for User's Name**: Select to enable the use of aliases in the portal, in place of user first names. The last name will not be affected.
@@ -163,7 +168,7 @@ There is also a system setting that needs added and reviewed when utilizing the 
 
 
 
-**View Sample** (![](../../external_files/18ab84c754db511d86ef761fec7d15c8.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](../../external_files/ff5e8c2174015235c69444dafb5c2067.png)
+**View Sample** (![](patient-portal-first-time-setup-and-configuration.images/image7.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](patient-portal-first-time-setup-and-configuration.images/image8.png)
 
 **Custom Heading**: Use this field to customize the warning heading displayed to those users without a default portal or lacking the appropriate setup.
 
@@ -173,7 +178,7 @@ There is also a system setting that needs added and reviewed when utilizing the 
 
 **Permission Check Warning** 
 
-**View Sample** (![](../../external_files/18ab84c754db511d86ef761fec7d15c8.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
+**View Sample** (![](patient-portal-first-time-setup-and-configuration.images/image9.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
 
 **Custom Heading**: Use this field to customize the warning heading displayed to those lacking access to the portal environment.
 
@@ -228,6 +233,18 @@ To *fully* add a consent form to the list:
 
 
 
+**Login Page**
+
+
+
+**SSO Message**: Add a custom message underneath the SSO options on this portal's login page.
+
+**Footer Message**: Add a custom message to the footer of this portal's login page.
+
+
+
+
+
 Once all of the appropriate fields have been addressed, click the **Next** button, or click the section header to close and save all entries.
 
 ## Customizations
@@ -236,7 +253,7 @@ With the initial setup complete, navigate to the {{% syslink "Patient Portal" "f
 
 
 
-While on the *Patient Portal* tab, click the **Configuration** header to expand and review the available options. Fill out the appropriate fields, as needed.   ![](../../external_files/c54051799178cb6e903d04258174c2ca.png)
+While on the *Patient Portal* tab, click the **Configuration** header to expand and review the available options. Fill out the appropriate fields, as needed.   ![](patient-portal-first-time-setup-and-configuration.images/image10.png)
 
 
 
@@ -266,7 +283,7 @@ While on the *Patient Portal* tab, click the **Configuration** header to expa
 
 
 
-**View Sample** (![](../../external_files/18ab84c754db511d86ef761fec7d15c8.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](../../external_files/ff5e8c2174015235c69444dafb5c2067.png)
+**View Sample** (![](patient-portal-first-time-setup-and-configuration.images/image11.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](patient-portal-first-time-setup-and-configuration.images/image12.png)
 
 **Brand for Welcome Message**: The name or brand to be used in the Welcome Message. By default, the word NoMoreClipboard will be populated, but this field can be updated with up to 25 characters. Click Show Sample to see where this occurs.
 
@@ -304,6 +321,18 @@ If a document (such as a lab result document) should not display on the portal u
 d.storage_type>0 AND IF(d.doc_type = 'WCLAB', EXISTS (SELECT sig.doc_id FROM document_sign sig WHERE sig.doc_id = d.doc_id AND sig.status = 1), 1)
 
 {{% /note %}}
+
+
+By default, if the Lab Result document is added to Message Center chart tab, ALL Lab Result documents will display unless a whereclause as outlined above is added to the Message Center chart tab.
+
+
+
+Email notifications will be sent when new documents are available to view in either the Message Center or My Medical Information chart tab.  The following 3 items need to be in place in order for the email notifications to work properly:
+
+* Pat Portal Notification Layout- this should be included in databases by default.  The layout should be reviewed to ensure that both the Message Center and The My Medical Information chart tabs are accounted for in this layout.
+* PortalMessageNotification System report- this should be included in databases by default.  
+* Scheduled Job- this is not included in databases by default and will need to be added if it doesn't exist.  When creating the scheduled job, the type is Perform Report, select the system report name of PortalMessageNotification and set the recurrence. 
+
 
 
 
@@ -439,6 +468,10 @@ Adding Questionnaire modules will allow users to add custom questionnaires to th
 
 
 
+Databases on RC202009 and newer now have the ability to allow demographic information completed from a questionnaire to populate Enterprise Health or WebChart directly.  The observations used in the questionnaire should be the ‘p.demo observations' or ‘pev. demo observations'.   For discrete data that is not free texted (such as Sex, Race, Ethnicity) the values entered into the discrete fields in the observation screen need to match what is being stored in WebChart.  For example, to proper transfer Sex from a portal questionnaire to WebChart or Enterprise Health, the values that need to be entered into the discrete data fields in the observation screen must be F, M and UNK.
+
+
+
 If users should only be allowed to view but not edit their medical information (i.e., allergies, medications and immunizations), a new flowsheet will need to be created. Users can create a new flowsheet or simply copy the My Medical Information flowsheet and edit it, where necessary. For example, the *view only* flowsheet could contain four (4) layouts labeled Demographics, Allergies View Only, Medications View Only, and Immunizations View Only.
 
 #### Other Health Resources
@@ -493,31 +526,33 @@ Any layouts that list the MIE helpdesk number for portal assistance must be chan
 
 When an activation code is generated from the Portal portlet from the patient summary screen, a layout is triggered with an available link designed to create a Portal Activation Code Instructions document. Once the Portal Activation Code Instruction document is generated from the patient summary screen, it will store in the Document Summary chart tab by default. The document can also be mapped to additional chart tabs if desired.  A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
 
-![](../../external_files/a9225e6dbdb34ecd84fc55ee9ccdae4e.png)
+![](patient-portal-first-time-setup-and-configuration.images/image13.png)
 
 #### Welcome to the Portal Email Layout
 
 When a patient/employee signs up for the portal successfully, the following layout will be triggered, sending out the email below. A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
 
-![](../../external_files/ff8998730a34456d3ec0cae8df998f1d.png)
+![](patient-portal-first-time-setup-and-configuration.images/image14.png)
 
 #### Password Reset Email Notification Layout
 
-Whenever a portal user attempts to reset their portal password, an email notification will be sent to the portal user. This email is sent as soon as the portal user clicks the Forget Password link and enters their username and security question.  A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
+To enable automation of resetting portal passwords, the system setting of ‘Reset PinCode Call URL' should be set as follows: [https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true](https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true) 
 
-![](../../external_files/d28823de2237104a792b6920433b0dd0.png)
+Whenever a portal user attempts to reset their portal password, an email notification will be sent to the portal user. This email is sent as soon as the portal user clicks the Forget Password link and enters their username and security question.  The verbiage in this screen is C code and the phone number listed pulls from the value in the system setting of System>Tech Support>Phone Number
+
+![](patient-portal-first-time-setup-and-configuration.images/image15.png)
 
 #### Resetting Portal Password via Email Layout
 
-When portal users want to reset their password using the email option, versus other options, such as cell or home phone, this is the email users will receive. A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
+When portal users want to reset their password using the email option, versus other options, such as cell or home phone, this is the email users will receive. This screen is layout driven and may need to be added if it doesn't exist in the database.  The layout name is ‘Password Reset PinCode Email'. A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
 
-![](../../external_files/fc2fdef67ce5aa08298ee7fb77629aa3.png)
+![](patient-portal-first-time-setup-and-configuration.images/image16.png)
 
 #### Identity Verification Layout
 
-When users click the Forget Password link and provide their username and security question answer, the following dialogue box displays. Users will be asked how they wish to reset their password (i.e., email, cell phone, home phone, work phone). Clients may opt to edit the verbiage to replace the MIE helpdesk number with their number for portal assistance.
+When users click the Forget Password link and provide their username and security question answer, the following dialogue box displays. Users will be asked how they wish to reset their password (i.e., email, cell phone, home phone, work phone). The MIE technical support number should be replaced with the client's phone number and that is controlled from the value entered in the System>Tech Support>Phone Number system setting.
 
-![](../../external_files/3906bfe8def6fbd4669af2a6896e9053.png)
+![](patient-portal-first-time-setup-and-configuration.images/image17.png)
 
 ### Help Bubble Icons
 
@@ -533,7 +568,7 @@ Every page or screen of a portal can have a help bubble available in the top bar
 
 All of the portal help bubbles and help documentation and verbiage is managed from the {{% syslink "Layout Manager" "f=admin&subfunc=layout_manager&t=Layout+Manager" %}} of the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}} . To see a list of existing help bubble layouts, simply search for MIEHELP.
 
-![](../../external_files/1f9b1b017220a0ea23833200845756d8.png)
+![](patient-portal-first-time-setup-and-configuration.images/image18.png)
 
 To make edits to any of the existing layouts:
 
@@ -555,19 +590,19 @@ To add a new layout for the Message Center/My Medical Information screen:
 
 
 
-![](../../external_files/e776ab3f32482781c97c7b04892e7f02.png)
+![](patient-portal-first-time-setup-and-configuration.images/image19.png)
 
 ### Toggle Between Multiple Portals
 
 In some cases, portal users may have access to more than one portal that has been setup/configured in the same WebChart database. In such cases, users who have access to more than one portal will see **Portal Selection** from the menu options. Once the user has established their username and password for one portal, that same username and password can be used to gain access to any of the additional portals that are set up in the database. There is no need to generate a new activation code for each additional portal a portal user accesses.
 
-![](../../external_files/312b5b2406192c44c003aab5098fb9a2.png)
+![](https://lh5.googleusercontent.com/A9KF3WpgR0onEdyYlagNzrjbhQCDVxTQc8BLFGxadaf4gxlVrkr9GPqzz9RoQ8bIhRJ5XC39EBHzm3tjk_cgNsdjlriJc-FXdCGKBDMHHDvMMcHgRVUz_A-REJgaoD8-3fWK0OWbAQkziflIUg)
 
 ### Portal Activation Code Report
 
 The Portal Activation Code report will display the date an activation code was generated for a patient chart along with the date (if applicable) that the activation code was used to create a portal account. The users listed on this report are only those users who have actually created their portal account. The report columns include MRN, patient name, DOB, Sex, Code Creation Date, Activation Date, Portal Name (i.e., the name of the provider organization). This report can be found by going to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} side menu tab and then selecting the {{% syslink "Utilization" "f=layout&module=reports&name=Utilization&tabmodule=reports&tabmodule=reports&t=Utilization&tabselect=Utilization" %}} chart tab. This report can be filtered by a date range, partition, and provider organization (portal). 
 
-![](../../external_files/b24bb5d6f6dbeb7a67252444acc56d95.png)
+![](https://lh3.googleusercontent.com/5TPbjb9serZGseTww04b04z4roP2YOPVIz2U0175iIRROsUlUAbZo4nPYUZqU7jgsIOWKY-YtoWALXDCkjpGOZomlli4p8EZ4CqgXN7ID6c1QWu63O2-xja-Ae1kEsRJXRZ-jH0IvUN6pNMkEQ)
 
 {{% only sys="wc" %}}
 
@@ -588,7 +623,7 @@ WebChart databases may or may not have all the needed chart types, chart tabs, o
 
 A provider Organization partition needs added if it does not already exist, using the Partition Manager.
 
-![](../../external_files/79f7dd5eb85f161ef349da9c9bec1e2b.png)
+![](https://lh5.googleusercontent.com/JLHDEk4xfFF9w7D6ilwaIjn3AMTGvWF7-VWNl0M4iwH6JaNOMukY0uo8gzJiFFpQRLYZkeo5lecDwLCIG22RSfi5KT68M8Kfr4kgQAhplB9Aeis-PRNRnHV28HPcy0y9RomCCsWjihK63rUoIA)
 
 {{% /info %}}
 

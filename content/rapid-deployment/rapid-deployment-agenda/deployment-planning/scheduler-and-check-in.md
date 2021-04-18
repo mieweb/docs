@@ -1,17 +1,17 @@
 ---
 title: "Scheduler & Check-in"
-date: 2020-02-27T21:27:23.979Z
+date: "2020-02-27T21:27:23.979Z"
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/scheduler-and-check-in.html"
 author: aquandt
-version: 15
-id: 1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA
-source: https://drive.google.com/open?id=1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA
+version: 16
+id: "1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA"
+source: "https://drive.google.com/open?id=1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA"
 menu:
     main:
         name: "Scheduler & Check-in"
         identifier: "1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA"
         parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5880
+        weight: 5860
 ---
 ## Purpose
 

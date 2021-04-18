@@ -1,16 +1,16 @@
 ---
 title: "Appointments Import"
-date: 2020-02-27T20:45:50.310Z
+date: "2020-02-27T20:45:50.310Z"
 url: "general-functionality/system-administration/data-migration/appointments-import.html"
-version: 12
-id: 1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo
-source: https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo
+version: 13
+id: "1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo"
+source: "https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo"
 menu:
     main:
         name: "Appointments Import"
         identifier: "1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5020
+        weight: 5000
 ---
 This wiki page is to document how appointment data needs to be constructed in order to import using WebChart's Schedule Import Tool.
 

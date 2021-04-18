@@ -1,11 +1,11 @@
 ---
 title: "Document Management"
-date: 2020-02-27T21:09:07.746Z
+date: "2020-02-27T21:09:07.746Z"
 url: "general-functionality/document-management.html"
 author: aquandt
-version: 15
-id: 1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ
-source: https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ
+version: 16
+id: "1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ"
+source: "https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ"
 menu:
     main:
         name: "Document Management"

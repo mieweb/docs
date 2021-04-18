@@ -1,20 +1,20 @@
 ---
 title: "Olympus Digital Dictation"
-date: 2020-03-13T11:26:04.733Z
+date: "2020-03-13T11:26:04.733Z"
 url: "general-functionality/encounters/dictation-and-transcription/olympus-digital-dictation.html"
-version: 36
-id: 1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s
-source: https://drive.google.com/open?id=1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s
+version: 37
+id: "1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s"
+source: "https://drive.google.com/open?id=1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s"
 menu:
     main:
         name: "Olympus Digital Dictation"
         identifier: "1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s"
         parent: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-        weight: 1420
+        weight: 1400
 ---
 MIE must first turn on the ability to transfer Olympus DS-330 dictation if you are using Olympus mikes. If you are using SpeechMikes, please see other help documentation named *SpeechMike Dictation*.
 
-![](../../../external_files/79df33e750a3674415b61aff3b5c8424.png)
+![](olympus-digital-dictation.images/image1.png)
 
 {{% note %}}
 
@@ -69,7 +69,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](../../../external_files/7b5b1ae9b3c5fdd66a3a739d1cafcc1f.png)
+![](olympus-digital-dictation.images/image2.png)
 
 
 
@@ -77,7 +77,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](../../../external_files/a4bc408f56dfea86c558f6151d4e089c.png)
+![](olympus-digital-dictation.images/image3.png)
 
 
 
@@ -85,7 +85,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](../../../external_files/61c114156a68d4720974a612d162af1f.png)
+![](olympus-digital-dictation.images/image4.png)
 
 
 
@@ -93,7 +93,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](../../../external_files/aa1b24fb96705b404e5656eed51d62c8.png)
+![](olympus-digital-dictation.images/image5.png)
 
 
 
@@ -101,7 +101,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](../../../external_files/97d73667454f8013b3211b4c8fd387a1.png)
+![](olympus-digital-dictation.images/image6.png)
 
 
 
@@ -109,7 +109,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](../../../external_files/c0f53d0a6310c1882a4a414ca0456182.png)
+![](olympus-digital-dictation.images/image7.png)
 
 
 
@@ -135,7 +135,7 @@ You should double check that the users who log in to upload dictations from olym
 
 ## After Transferring Olympus Dictations
 
-![](../../../external_files/afe0ea1abae1c75cc19f25b40c985a86.png)
+![](olympus-digital-dictation.images/image8.png)
 
 After uploading your transfers, you will see them listed in the Dictation pending queue of the Dictation tab.
 

@@ -1,11 +1,11 @@
 ---
 title: "Medical Clearance"
-date: 2020-09-02T21:03:25.147Z
+date: "2020-09-02T21:03:25.147Z"
 url: "programs/medical-programs/occupational-medicine/medical-clearance.html"
 author: Will Reiske
-version: 22
-id: 1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c
-source: https://drive.google.com/open?id=1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c
+version: 25
+id: "1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c"
+source: "https://drive.google.com/open?id=1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c"
 menu:
     main:
         name: "Medical Clearance"

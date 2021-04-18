@@ -1,16 +1,16 @@
 ---
 title: "Using DataVis Grids - Data Tools"
-date: 2020-03-16T16:31:49.734Z
+date: "2020-03-16T16:31:49.734Z"
 url: "general-functionality/reports/using-datavis-grids-data-tools.html"
-version: 36
-id: 1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY
-source: https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY
+version: 37
+id: "1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY"
+source: "https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY"
 menu:
     main:
         name: "Using DataVis Grids - Data Tools"
         identifier: "1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4070
+        weight: 4050
 ---
 *The actual grid you use may differ slightly in appearance from the examples below. Some grids may be configured specifically to disallow certain features.*
 
@@ -18,7 +18,7 @@ menu:
 
 The grid starts with "plain output" which shows the raw data. This is useful for examining all the details, and allows you to sort and filter.
 
-![](../../external_files/62e30006224e5d6c89a571e212d8c897.png)
+![](using-datavis-grids-data-tools.images/image1.png)
 
 *initial view of the grid*
 
@@ -30,7 +30,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 6. The <strong>view toolbar section</strong> — use the back/forward arrows to navigate view history, the dropdown to select a view, and the undo button to reset all views.
 7. The <strong>limit toolbar section</strong> — initially, only the first 500 rows are shown. More will be shown as you scroll down; the checkbox can be used to turn that behavior on/off. The "Show All Rows" button will immediately show all rows, without having to scroll down repeatedly.
 
-![](../../external_files/9a597224d554c3f453178d578297b610.png)
+![](using-datavis-grids-data-tools.images/image2.png)
 
 *after clicking the gear icon to show the grid controls*
 
@@ -44,7 +44,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ## Group Output
 
-![](../../external_files/6d90ef899442d9c8e7dac120851e93e7.png)
+![](using-datavis-grids-data-tools.images/image3.png)
 
 *after grouping by Product*
 
@@ -53,7 +53,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ## Pivot Output
 
-![](../../external_files/fed0aaf393f3a9d304b3e677730e3224.png)
+![](using-datavis-grids-data-tools.images/image4.png)
 
 *after adding Category to the group, and pivoting by Country*
 
@@ -74,7 +74,7 @@ Filters you are already using still apply, if they don't conflict with the drill
 {{% /note %}}
 
 
-![](../../external_files/832e65e57e443c1944b6e4d9d90e71ae.png)
+![](using-datavis-grids-data-tools.images/image5.png)
 *after drilling down into Germany's banana orders*
 
 Click the **view history back arrow** in the **view toolbar section** to go back to the previous view.

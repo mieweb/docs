@@ -1,10 +1,10 @@
 ---
 title: "Printing & Print Definitions"
-date: 2020-02-27T19:42:35.386Z
+date: "2020-02-27T19:42:35.386Z"
 url: "general-functionality/document-management/printing-and-print-definitions.html"
-version: 13
-id: 1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY
-source: https://drive.google.com/open?id=1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY
+version: 14
+id: "1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY"
+source: "https://drive.google.com/open?id=1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY"
 menu:
     main:
         name: "Printing & Print Definitions"

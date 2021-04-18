@@ -1,17 +1,17 @@
 ---
 title: "Audiogram Validation Test Script"
-date: 2020-02-27T21:32:53.730Z
+date: "2020-02-27T21:32:53.730Z"
 url: "general-functionality/system-administration/data-migration/audiogram-validation-test-script.html"
 author: aquandt
-version: 36
-id: 1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo
-source: https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo
+version: 37
+id: "1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo"
+source: "https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo"
 menu:
     main:
         name: "Audiogram Validation Test Script"
         identifier: "1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5210
+        weight: 5190
 ---
 This document is intended to describe and assist users with the process to validate audiogram results imported from another system.
 
@@ -180,20 +180,20 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 ## Validation Instructions ([video](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-))
 
 * Log into the {{% system-name %}} system.
-* Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.  ![](../../../external_files/ba2565ae7f28ae2bc3deb4d5c9e480f3.png)  {{% tip %}}
+* Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.  ![](audiogram-validation-test-script.images/image1.png)  {{% tip %}}
     * Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
     * Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.html) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.html).)
 
 {{% /tip %}}
 
 
-* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](../../../external_files/fc4a55c6aa34edbba920cbc5479b0638.png) 
-* Select <strong>Audiogram</strong> from the Test Results chart tab. ![](../../../external_files/152e2048959cb5ae76488187a5ac17c5.png)  
+* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](audiogram-validation-test-script.images/image2.png) 
+* Select <strong>Audiogram</strong> from the Test Results chart tab. ![](audiogram-validation-test-script.images/image3.png)  
 
 {{% tip %}} The number in parenthesis indicates the number of items in each tab.  {{% /tip %}}
   
-* The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.  ![](../../../external_files/283a6df018a00e71a04e462e4721c4a6.png) 
-* Clicking into the most recent audiogram will display all results that have been entered.  ![](../../../external_files/225f7f94d61aa7b2e19e7de11b066dc3.png)
+* The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.  ![](audiogram-validation-test-script.images/image4.png) 
+* Clicking into the most recent audiogram will display all results that have been entered.  ![](audiogram-validation-test-script.images/image5.png)
 * With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import.  
     * Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
     * Validate the correct location and and by whom the test was administered. 
@@ -217,10 +217,10 @@ The **Audiogram Report** and **Audiometric Testing** reports are particularly he
 To access and utilize these reports:
 
 * Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](../../../external_files/cb50b47c0e411cfe828a46c430bd3687.png)
+* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](audiogram-validation-test-script.images/image6.png)
 * Criteria may be added to filter or drill down data. 
-    * Audiogram Report  ![](../../../external_files/3be12612c19304605fca1a836454990d.png)   
-    * Audiometric Testing Report  ![](../../../external_files/3efe4868801d47da03026774bcdc335b.png)  
+    * Audiogram Report  ![](audiogram-validation-test-script.images/image7.png)   
+    * Audiometric Testing Report  ![](audiogram-validation-test-script.images/image8.png)  
 
 ## FAQs
 

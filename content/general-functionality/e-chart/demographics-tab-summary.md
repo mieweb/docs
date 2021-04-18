@@ -1,23 +1,23 @@
 ---
 title: "Demographics Tab Summary"
-date: 2020-03-09T22:51:40.258Z
+date: "2020-03-09T22:51:40.258Z"
 url: "general-functionality/e-chart/demographics-tab-summary.html"
 author: aquandt
-version: 32
-id: 1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg
-source: https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg
+version: 33
+id: "1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg"
+source: "https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg"
 menu:
     main:
         name: "Demographics Tab Summary"
         identifier: "1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg"
         parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
-        weight: 1030
+        weight: 1020
 ---
 To navigate to the patient **Demographics** chart tab, search for the chart from the [E-Chart](https://system/?f=chart) sidemenu. Get into the chart, and click on the **Admin** chart tab. Demographics is available as a subtab of the Admin chart tab.
 
 
 
-![](../../external_files/0c7e47e04e3d724a976e5e182cadae5b.png)
+![](demographics-tab-summary.images/image1.png)
 
 
 
@@ -29,7 +29,7 @@ The dark grey demographics header will display on all tabs when in the chart, no
 
 
 
-![](../../external_files/91f59070c6639d87e8dd7ac65d31bf03.png)
+![](demographics-tab-summary.images/image2.png)
 
 
 
@@ -40,7 +40,7 @@ Following the demographics header are any alerts entered into the chart, display
 
 
 
-![](../../external_files/c2c8169663ec066a2bd1808903734551.png)
+![](demographics-tab-summary.images/image3.png)
 
 
 
@@ -65,7 +65,7 @@ The ability to edit relationships, set the chart to offline, partial or online a
 
 
 
-![](../../external_files/face709a403958084427c0b7be91dd95.png)
+![](demographics-tab-summary.images/image4.png)
 
 
 
@@ -73,5 +73,5 @@ Users also have the ability to merge duplicate charts from the demographics char
 
 
 
-![](../../external_files/dac3e5ff89b45df6c09992bda12d125e.png)
+![](demographics-tab-summary.images/image5.png)
 

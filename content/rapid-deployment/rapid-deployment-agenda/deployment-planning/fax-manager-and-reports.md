@@ -1,17 +1,17 @@
 ---
 title: "Fax Manager & Reports"
-date: 2020-02-27T21:27:46.914Z
+date: "2020-02-27T21:27:46.914Z"
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/fax-manager-and-reports.html"
 author: aquandt
-version: 15
-id: 1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10
-source: https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10
+version: 16
+id: "1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10"
+source: "https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10"
 menu:
     main:
         name: "Fax Manager & Reports"
         identifier: "1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10"
         parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5830
+        weight: 5810
 ---
 ## Purpose
 

@@ -1,16 +1,16 @@
 ---
 title: "System Plugins"
-date: 2020-02-27T20:17:38.936Z
+date: "2020-02-27T20:17:38.936Z"
 url: "general-functionality/system-administration/system-controls/system-plugins.html"
-version: 14
-id: 1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A
-source: https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A
+version: 15
+id: "1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A"
+source: "https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A"
 menu:
     main:
         name: "System Plugins"
         identifier: "1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A"
         parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-        weight: 4410
+        weight: 4390
 ---
 Certain modules, screens, functionalities require additional plugins to be installed on your computer before they will function. These are extensions to the program that are needed.
 
@@ -22,7 +22,7 @@ There is support for Firefox in the Plugins page. The three plugins that are sup
 
 There is support for Chrome in the Plugins page. Newer versions of Chrome have tighter restrictions on installing third party extensions. To give {{% system-name %}} permission to use its own plugins, the plugin manager displays an "Import To Registry to Allow Plugins" link. Downloading and executing that link's file will give Chrome permission to run any plugin coming from the {{% system-name %}} system's domain.
 
-![](../../../external_files/543d61ebbe87c8fecc38e94faa87262e.png)
+![](system-plugins.images/image1.png)
 
 At the top right corner of the Plugins page, there is a link Download all controls in a single CAB file that will perform that download to your system in CAB file format.
 

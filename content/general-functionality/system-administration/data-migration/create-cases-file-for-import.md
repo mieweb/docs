@@ -1,16 +1,16 @@
 ---
 title: "Create Cases File for Import"
-date: 2020-03-17T02:53:32.574Z
+date: "2020-03-17T02:53:32.574Z"
 url: "general-functionality/system-administration/data-migration/create-cases-file-for-import.html"
-version: 34
-id: 12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc
-source: https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc
+version: 35
+id: "12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
+source: "https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
 menu:
     main:
         name: "Create Cases File for Import"
         identifier: "12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4790
+        weight: 4770
 ---
 This document explains how to import your cases into {{% system-name %}} .
 
@@ -160,7 +160,7 @@ Populates the case/incident in {{% sys-name %}} as opened or closed. If importin
 
 
 
-![](../../../external_files/c38a3b1a90978270fae4e78f9541a92b.png)
+![](create-cases-file-for-import.images/image1.png)
 
 
 
@@ -173,7 +173,7 @@ Populates the case/incident in {{% sys-name %}} as opened or closed. If importin
 
 
 
-![](../../../external_files/f7321acaa475d389413c8960f680181a.png)
+![](create-cases-file-for-import.images/image2.png)
 
 
 
@@ -181,7 +181,7 @@ Populates the case/incident in {{% sys-name %}} as opened or closed. If importin
 
 
 
-![](../../../external_files/6ad90004bcde1af68316b8ca0dc908ba.png)
+![](create-cases-file-for-import.images/image3.png)
 
 
 
@@ -189,11 +189,11 @@ Populates the case/incident in {{% sys-name %}} as opened or closed. If importin
 
 
 
-![](../../../external_files/c4c0b5a3941a382738ce4835b27ea672.png)
+![](create-cases-file-for-import.images/image4.png)
 
 
 
-5. Select the Cases CSV File and click <strong>Upload</strong>.  ![](../../../external_files/092ea84dbda4d4a9b7de4838d613ce0c.png) 
+5. Select the Cases CSV File and click <strong>Upload</strong>.  ![](create-cases-file-for-import.images/image5.png) 
 
 {{% tip %}}
 

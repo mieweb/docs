@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Injection/Immunization Management"
-date: 2020-02-27T21:25:46.347Z
+date: "2020-02-27T21:25:46.347Z"
 url: "rapid-deployment/review-sessions/review-session-injection-immunization-management.html"
 author: aquandt
-version: 18
-id: 1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo
-source: https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo
+version: 19
+id: "1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo"
+source: "https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo"
 menu:
     main:
         name: "Review Session - Injection/Immunization Management"
         identifier: "1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6120
+        weight: 6100
 ---
 ## Agenda
 
@@ -55,7 +55,7 @@ The **MAR/Injections** chart tab is also known, simply, as the Injection tab. Th
 
 A common feature found throughout the {{% system-name %}} system are the quick links, typically seen at the top of a page. The Injection/Immunization module is no exception. At the top of the module, there are a series of links that offer the ability to add new or historical injections/immunizations, to add vials, from which injections can be administered, or even a means to quickly review the recorded injection/immunization information.
 
-![](../../external_files/0bd8f12b4515b50b3c17da36be942be8.png)
+![](review-session-injection-immunization-management.images/image1.png)
 
 #### Add Inj/Imm
 
@@ -115,7 +115,7 @@ There is integrated Clinical Decision Support, so pop-ups may appear to alert fo
 {{% /tip %}}
 
 
-For more information on the Mass Injection Program, review our [Injection Program Tab](../../general-functionality/injection-immunization-management/injection-program-tab-recording-mass-injecti.html) documentation.
+For more information on the Mass Injection Program, review our [Injection Program Tab](../../general-functionality/injection-immunization-management/injection-program-tab-recording-mass-injections.html) documentation.
 
 ## System Configuration
 
@@ -131,7 +131,7 @@ Some practices are concerned with specific injections, so they may utilize the e
 
 There are several system settings that drive the fields and available choices found in the Injection/Immunization module. With the appropriate security permissions, users can navigate to the System Settings tab, found in the Control Panel, and edit/update with the appropriate information or values. The available system settings are multitudinous, but they are intended to control functions ranging from autocompletes and dropdowns to defaults and alerts. Be sure to use caution whenever editing system settings.
 
-![](../../external_files/7e45cd23f760ba70e8bfbc21472146a2.png)
+![](review-session-injection-immunization-management.images/image2.png)
 
 #### &implement
 
@@ -152,7 +152,7 @@ Manage Injection Codes: If permission is set to Yes, it allows users access to t
 ### Help Documentation
 
 * [Injection Editor](../../general-functionality/injection-immunization-management/injection-editor.html)
-* [Injection Program Tab-Recording Mass Injections](../../general-functionality/injection-immunization-management/injection-program-tab-recording-mass-injecti.html)
+* [Injection Program Tab-Recording Mass Injections](../../general-functionality/injection-immunization-management/injection-program-tab-recording-mass-injections.html)
 * [Injection Tab-Edit-Delete](../../general-functionality/injection-immunization-management/edit-delete-injections-immunizations.html)
 * [Injection Tab-Vials](../../general-functionality/injection-immunization-management/injection-tab-vials.html)
 * [Injection Tab](../../general-functionality/injection-immunization-management/injection-tab.html)

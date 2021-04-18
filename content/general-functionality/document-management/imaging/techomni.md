@@ -1,11 +1,11 @@
 ---
 title: "TechOmni"
-date: 2020-03-10T14:03:53.331Z
+date: "2020-03-10T14:03:53.331Z"
 url: "general-functionality/document-management/imaging/techomni.html"
 author: aquandt
-version: 27
-id: 1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ
-source: https://drive.google.com/open?id=1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ
+version: 28
+id: "1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ"
+source: "https://drive.google.com/open?id=1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ"
 menu:
     main:
         name: "TechOmni"
@@ -19,7 +19,7 @@ In populating the form, users will be able to input the Order Number, which can 
 
 
 
-![](../../../external_files/5533e5f95da16309babcaa25e7f513fa.png)
+![](techomni.images/image1.png)
 
 
 
@@ -39,7 +39,7 @@ TechOmni is a powerful tool that can be used in conjunction with the [RadOmni](r
         * Adding this option allows users to easily display any encounters with encounter orders of any particular order type(s).
             * Imaging = IF
             * Labs = L
-            * Referrals = RF ![](../../../external_files/90edbb40d5d64b259caaeba659fe9e03.png)
+            * Referrals = RF ![](techomni.images/image2.png)
 
 {{% tip %}}
 

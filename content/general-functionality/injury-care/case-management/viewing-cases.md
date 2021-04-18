@@ -1,17 +1,17 @@
 ---
 title: "Viewing Cases"
-date: 2020-03-09T23:22:52.265Z
+date: "2020-03-09T23:22:52.265Z"
 url: "general-functionality/injury-care/case-management/viewing-cases.html"
 author: aquandt
-version: 40
-id: 1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds
-source: https://drive.google.com/open?id=1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds
+version: 41
+id: "1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds"
+source: "https://drive.google.com/open?id=1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds"
 menu:
     main:
         name: "Viewing Cases"
         identifier: "1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1700
+        weight: 1680
 ---
 A Case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
 
@@ -21,7 +21,7 @@ The dynamic encounters offer a Case section.  To see the listing of cases/incid
 
 
 
-![](../../../external_files/ba1643eb1188310ef4027dd82964ce74.png)
+![](viewing-cases.images/image1.png)
 
 
 
@@ -31,7 +31,7 @@ Case details display the date of the incident/case,  date created, the conditio
 
 From this listing of cases, in the options column you can task, delete, link or unlink, close, or generate a 301 forms library document based on the incident data.
 
-![](../../../external_files/3bf304b5966ab3231f02dc6f0eef9f9b.png)
+![](viewing-cases.images/image2.png)
 
 
 
@@ -39,7 +39,7 @@ Clicking on an existing Case number (that is a hyperlink) will take you to a sum
 
 
 
-![](../../../external_files/1a35ca16445fac5f272dfa0c89a8474d.png)
+![](viewing-cases.images/image3.png)
 
 
 
@@ -49,7 +49,7 @@ Open existing cases on a chart will be displayed on the side chart feature.  To
 
 
 
-![](../../../external_files/c9514d8fa543ee2504acbf0d9f15e29e.png)
+![](viewing-cases.images/image4.png)
 
 
 
@@ -70,7 +70,7 @@ Closed cases have a conclusion date indicated in bold and when viewing closed ca
 
 
 
-![](../../../external_files/4eebd3ca4d8bf8b28a6af1490406a16b.png)
+![](viewing-cases.images/image5.png)
 
 
 
@@ -80,7 +80,7 @@ Clicking on the Case number (that is a hyperlink) will take you to a summary vie
 
 
 
-![](../../../external_files/3531d9443a5fe25b9b694fa8ba8d7ead.png)
+![](viewing-cases.images/image6.png)
 
 
 
@@ -90,7 +90,7 @@ To see the listing of cases/incidents a patient/employee has, you must expand th
 
 
 
-![](../../../external_files/ba1643eb1188310ef4027dd82964ce74.png)
+![](viewing-cases.images/image7.png)
 
 
 
@@ -106,7 +106,7 @@ To delete a Case you can do it while working in an encounter or from the Case ch
 
 
 
-![](../../../external_files/091a5ff6b502e4709f5ce7efa27c3d9d.png)
+![](viewing-cases.images/image8.png)
 
 ### Edit
 
@@ -118,7 +118,7 @@ A Task option is available on existing cases.  When clicked, a separate task wi
 
 
 
-![](../../../external_files/52636aedecd912857d1197dd3f11cc42.png)
+![](viewing-cases.images/image9.png)
 
 ### Link/Unlink
 
@@ -126,7 +126,7 @@ When working in an encounter, clicking Link on a specific existing case will aut
 
 
 
-![](../../../external_files/b8142557c6ededfb89ab299dab83d468.png)
+![](viewing-cases.images/image10.png)
 
 
 
@@ -134,7 +134,7 @@ Case details appear in the grey encounter info bar area if your current encounte
 
 
 
-![](../../../external_files/8d9d3a0008d2debd25009e188f6190b9.png)
+![](viewing-cases.images/image11.png)
 
 ### Close
 
@@ -146,7 +146,7 @@ To close a Case, you can do it while working in an encounter or from the Case ch
 
 
 
-![](../../../external_files/0e03ae3d8a6f148f0baf1701c790e412.png)
+![](viewing-cases.images/image12.png)
 
 
 
@@ -156,11 +156,11 @@ The 301 hyperlink provides the ability to print the OSHA 301 form regarding the 
 
 .
 
-![](../../../external_files/200014a9a01463572a9c00c139a53b68.png)
+![](viewing-cases.images/image13.png)
 
 
 
-![](../../../external_files/5d08239e8d164d9c0f79845231cc35e6.png)
+![](viewing-cases.images/image14.png)
 
 
 
@@ -172,7 +172,7 @@ The Case section in encounters offers an Incident Links button.  Clicking on th
 
 
 
-![](../../../external_files/503ee4efe07ea9ed5366788b6c6dfb64.png)
+![](viewing-cases.images/image15.png)
 
 
 
@@ -180,7 +180,7 @@ The documents and encounters linked to that specific linked case will expand on 
 
 
 
-![](../../../external_files/ebcaaec151eafa3884974cd425558ddc.png)
+![](https://lh5.googleusercontent.com/LUQ5_r4hNsf2D0OwqguuckYSDaauRFeUfKxXEHHWTZEZwmWymnHLMWrup915h16UFUBt_I-uqDm084YeMO89t5LKJ9bPa5wyPjg9ySeq2xTLsNtdPzOT_CmpdaV_wadB593Xh_og85PE2x9HfA)
 
 
 

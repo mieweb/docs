@@ -1,17 +1,17 @@
 ---
 title: "Single Sign-On (SSO)"
-date: 2020-02-27T21:22:11.490Z
+date: "2020-02-27T21:22:11.490Z"
 url: "general-functionality/system-administration/security/single-sign-on-sso.html"
 author: aquandt
-version: 15
-id: 1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA
-source: https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA
+version: 16
+id: "1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA"
+source: "https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA"
 menu:
     main:
         name: "Single Sign-On (SSO)"
         identifier: "1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA"
         parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
-        weight: 5280
+        weight: 5260
 ---
 The following document provides a general overview of using single sign-on (SSO) with {{% system-name %}} . SSO access is a standard for users accessing protected information, such as patient data. Access is provided by creating and enabling a login trust, so that when properly configured, users are redirected to a SSO login page to access the appropriate system(s), accordingly.
 

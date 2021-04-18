@@ -1,16 +1,16 @@
 ---
 title: "Create Audiometric Data File for Import"
-date: 2020-03-17T02:43:45.578Z
+date: "2020-03-17T02:43:45.578Z"
 url: "general-functionality/system-administration/data-migration/create-audiometric-data-file-for-import.html"
-version: 37
-id: 1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4
-source: https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4
+version: 38
+id: "1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4"
+source: "https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4"
 menu:
     main:
         name: "Create Audiometric Data File for Import"
         identifier: "1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4760
+        weight: 4740
 ---
 This document explains how to import your historical audiometric testing data into {{% system-name %}} .
 
@@ -182,7 +182,7 @@ What you will need:
 
 
 
-![](../../../external_files/f53960a55f921a0d22c3bf62afc73c4c.png)  ![](../../../external_files/d047d52a405895f5837b79dcae4a8ee2.png)
+![](create-audiometric-data-file-for-import.images/image1.png)  ![](create-audiometric-data-file-for-import.images/image2.png)
 
 * Save the file as CSV format.
 
@@ -193,7 +193,7 @@ What you will need:
 
 
 
-![](../../../external_files/f7321acaa475d389413c8960f680181a.png)
+![](create-audiometric-data-file-for-import.images/image3.png)
 
 
 
@@ -201,7 +201,7 @@ What you will need:
 
 
 
-![](../../../external_files/6ad90004bcde1af68316b8ca0dc908ba.png)
+![](create-audiometric-data-file-for-import.images/image4.png)
 
 
 
@@ -209,11 +209,11 @@ What you will need:
 
 
 
-![](../../../external_files/5b68d1dd8a646804df3053bc2c5f1253.png)
+![](create-audiometric-data-file-for-import.images/image5.png)
 
 
 
-5. Select the Audiometric Data CSV File and click <strong>Upload</strong>.    ![](../../../external_files/6f91603a0b84f1a6ee2779cac26e1049.png)
+5. Select the Audiometric Data CSV File and click <strong>Upload</strong>.    ![](create-audiometric-data-file-for-import.images/image6.png)
 
 
 

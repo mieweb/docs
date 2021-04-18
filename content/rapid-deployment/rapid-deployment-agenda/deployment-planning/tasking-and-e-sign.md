@@ -1,17 +1,17 @@
 ---
 title: "Tasking & E-Sign"
-date: 2020-02-27T21:27:44.178Z
+date: "2020-02-27T21:27:44.178Z"
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/tasking-and-e-sign.html"
 author: aquandt
-version: 15
-id: 1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg
-source: https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg
+version: 16
+id: "1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg"
+source: "https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg"
 menu:
     main:
         name: "Tasking & E-Sign"
         identifier: "1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg"
         parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5900
+        weight: 5880
 ---
 ## Purpose
 

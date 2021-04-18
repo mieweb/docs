@@ -1,17 +1,17 @@
 ---
 title: "HL7 Segment Definitions"
-date: 2020-02-28T15:29:03.986Z
+date: "2020-02-28T15:29:03.986Z"
 url: "general-functionality/system-administration/interfaces/hl7-segment-definitions.html"
 author: aquandt
-version: 20
-id: 1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80
-source: https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80
+version: 21
+id: "1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
+source: "https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
 menu:
     main:
         name: "HL7 Segment Definitions"
         identifier: "1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5400
+        weight: 5380
 ---
 {{% anchor sys="msh" %}}
 

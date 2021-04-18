@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Patient Registration"
-date: 2020-02-27T21:24:28.695Z
+date: "2020-02-27T21:24:28.695Z"
 url: "rapid-deployment/review-sessions/review-session-patient-registration.html"
 author: aquandt
-version: 18
-id: 1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0
-source: https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0
+version: 19
+id: "1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
+source: "https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
 menu:
     main:
         name: "Review Session - Patient Registration"
         identifier: "1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6000
+        weight: 5980
 ---
 ## Agenda
 
@@ -42,7 +42,7 @@ Depending on the needs of the organization, entering and loading demographics ca
 
 As noted, a standard chart is typically created through an established HR interface; however, the customer may manually register new patients by navigating to the **E-Chart** sidemenu and selecting the [Patient Registration tab](https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration) at the top of the page.
 
- ![](../../external_files/b25ed7fa3117650343ef451943783f13.png)
+ ![](review-session-patient-registration.images/image1.png)
 
 Begin by entering some of the individual's information:
 
@@ -68,7 +68,7 @@ The Postal Code field will accommodate international postal codes and will displ
 
 To view any of the demographic information entered upon registration, navigate to the **Admin** chart tab of the individual's chart. The **Demographics** menu option is available from the Admin chart tab. When Demographics is selected, the page will load all of the information captured upon registration. Quick links are available for modifying or updating this information, as needed.
 
-![](../../external_files/3bbad9d0ea296ffbd0f3206b98e470cf.png)
+![](review-session-patient-registration.images/image2.png)
 
 #### E-Chart Photos
 
@@ -102,6 +102,6 @@ The [Partition Manager](https://system/?f=admin&s=partmanager&tabmodule=admin&ta
 * [Picture-Photo Documents](../../general-functionality/document-management/documents-and-forms/picture-photo-documents.html)
 * [Partition Manager](../../general-functionality/system-administration/system-controls/partition-manager.html)
 * [Insurance Summary-Demographics Tab](../../general-functionality/e-chart/insurance-summary-in-demographics-tab.html)
-* [Medical Contacts-Relationships and User-Patient Relationships](../../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-.html)
+* [Medical Contacts-Relationships and User-Patient Relationships](../../general-functionality/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.html)
 * [Medical Record Numbers](../../general-functionality/patient-registration/medical-record-numbers.html)
 * [Merging Charts in System](../../general-functionality/system-administration/system-controls/merging-accounts-charts-in-system.html)

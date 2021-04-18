@@ -1,10 +1,10 @@
 ---
 title: "Scanner Cleaning"
-date: 2020-03-06T22:16:27.286Z
+date: "2020-03-06T22:16:27.286Z"
 url: "general-functionality/document-management/scanning-and-indexing/scanner-cleaning.html"
-version: 21
-id: 181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ
-source: https://drive.google.com/open?id=181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ
+version: 22
+id: "181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ"
+source: "https://drive.google.com/open?id=181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ"
 menu:
     main:
         name: "Scanner Cleaning"

@@ -1,28 +1,28 @@
 ---
 title: "Guideline Report"
-date: 2020-02-27T20:14:26.640Z
+date: "2020-02-27T20:14:26.640Z"
 url: "general-functionality/reports/guideline-report.html"
-version: 17
-id: 1RWPdiF4m082Uy3ENvU-4lRS_edV78dltrktYW6cA70s
-source: https://drive.google.com/open?id=1RWPdiF4m082Uy3ENvU-4lRS_edV78dltrktYW6cA70s
+version: 18
+id: "1RWPdiF4m082Uy3ENvU-4lRS_edV78dltrktYW6cA70s"
+source: "https://drive.google.com/open?id=1RWPdiF4m082Uy3ENvU-4lRS_edV78dltrktYW6cA70s"
 menu:
     main:
         name: "Guideline Report"
         identifier: "1RWPdiF4m082Uy3ENvU-4lRS_edV78dltrktYW6cA70s"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4210
+        weight: 4190
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
 
 Guideline Report displays results/list showing all patients that are past due (non compliant) for a clinical guideline, which the criteria for being considered "past due" or "non-compliant" is programmed as a Scripted Rule in {{% system-name %}} . If the patient is "past due" or "non compliant" with the criteria you've asked MIE to program for a specific guideline, those will appear as "Guideline Alerts" in the patient's chart wherever *Warnings* are shown. Ex: diabetic patient past due for a foot exam, pregnancy patient past due for a Glucose test, patient's doe for a DTaP Injection, etc.
 
-![](../../external_files/e4d2ed263e44be488e4a43d05b47cd33.png)
+![](guideline-report.images/image1.png)
 
 Click *Reports* tab on the left sidebar menu, and then within the Visits parent tab you should see the Guideline Report link.
 
 The Guideline Report search screen will open. This is a search showing compliant vs non-compliant statistics and patients according to the rules (guidelines) in the criteria you enter and other search filters. The more search filters you enter, the quicker the report will run. This report will be looking through your entire population for patients to result that have that specific "guideline alert" currently on their chart according to other search filter criteria you enter in, which helps narrow down the results.
 
-![](../../external_files/f54a45cdd499c5ca9a64b0f60c267fa0.png)
+![](guideline-report.images/image2.png)
 
 * <strong>Rule:</strong> Select the Scripted Rule that is currently programmed in your system. This is a rule (guideline) you are searching results for from the drop-down arrow to show patients who currently have this "alert" on their chart (that they are past due or non-compliant, etc). You must specify a rule to run a report on. This field is not optional
 
@@ -44,7 +44,7 @@ Click SEARCH to show search results.
 
 The patients that have the Guideline Rule/Alert currently on their chart (the Guideline Rule/Alert that was selected to run the report) will result below the search filters as *Non-Compliant Patients*. This is a listing of all patients (according to the search filter criteria entered) that have that Guideline Alert/Rule on their chart currently. These are patients who are non-compliant with the Guideline Rule (Scripted Rule) that is programmed in your system. This report does not result patients marked as deceased in their demographics information.
 
-![](../../external_files/e26928833c7954a5b00405546730af76.png)
+![](guideline-report.images/image3.png)
 
 ### Options
 

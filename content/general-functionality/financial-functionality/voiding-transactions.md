@@ -1,11 +1,11 @@
 ---
 title: "Voiding transactions"
-date: 2021-02-18T19:12:24.594Z
+date: "2021-02-18T19:12:24.594Z"
 url: "general-functionality/financial-functionality/voiding-transactions.html"
-author: Edward Grzetich
+author: egrzetich
 version: 13
-id: 1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU
-source: https://drive.google.com/open?id=1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU
+id: "1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU"
+source: "https://drive.google.com/open?id=1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU"
 ---
 Only transactions that have not been closed can be voided.
 

@@ -1,18 +1,18 @@
 ---
 title: "E-Refills - E-Scripts Tab"
-date: 2020-02-27T20:06:51.472Z
+date: "2020-02-27T20:06:51.472Z"
 url: "general-functionality/medication-management-and-e-prescribing/e-refills-e-scripts-tab.html"
-version: 15
-id: 1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc
-source: https://drive.google.com/open?id=1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc
+version: 16
+id: "1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc"
+source: "https://drive.google.com/open?id=1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc"
 menu:
     main:
         name: "E-Refills - E-Scripts Tab"
         identifier: "1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc"
         parent: "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
-        weight: 2110
+        weight: 2090
 ---
-![](../../external_files/6db87c7470c236270e8f97447c105d4c.png)
+![](e-refills-e-scripts-tab.images/image1.png)
 
 * <strong>New Scripts – Sent:</strong> Shows all the scripts that were transmitted successfully.
 * <strong>New Scripts – Error:</strong> Shows any scripts that have an error. Sometimes the error message makes sense, others are blank. Would need to contact George at MIE if need specifics on one.

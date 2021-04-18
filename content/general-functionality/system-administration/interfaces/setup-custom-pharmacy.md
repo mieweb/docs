@@ -1,16 +1,16 @@
 ---
 title: "Setup Custom Pharmacy"
-date: 2020-02-27T20:29:02.852Z
+date: "2020-02-27T20:29:02.852Z"
 url: "general-functionality/system-administration/interfaces/setup-custom-pharmacy.html"
-version: 15
-id: 1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4
-source: https://drive.google.com/open?id=1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4
+version: 16
+id: "1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4"
+source: "https://drive.google.com/open?id=1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4"
 menu:
     main:
         name: "Setup Custom Pharmacy"
         identifier: "1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5330
+        weight: 5310
 ---
 You must have security role of *Manage Custom Pharmacies* set to Yes to access the Custom Pharmacy tab found in the Control tab module.
 
@@ -18,9 +18,9 @@ If your practice has a drug dispenser type machine that we interface with (examp
 
 The editor for setting up a dispensing machine to receive these electronic prescriptions and allow that in-house dispensing machine be set as a patient's preferred pharmacy is the tab named *Custom Pharmacy* which is found in the sidemenu tab named Control.
 
-![](../../../external_files/07267c3f6aedcf5e4d21973829a91c13.png)
+![](setup-custom-pharmacy.images/image1.png)
 
 If you have security permission to the Custom Pharmacy tab, this is the listing of Custom Pharmacies your practice has. Custom Pharmacies are dispensing machines in-house. Contact your MIE Implementer to have one set up and get you information on an interface with your medication dispensing machine. MIE will program and set up the Custom Pharmacy using this tab. These fields are for MIE to use and enter. The listing in this tab will show all active and inactive custom pharmacies your practice has set up.
 
-![](../../../external_files/799d81366bb75393d740558b3868573d.png)
+![](setup-custom-pharmacy.images/image2.png)
 

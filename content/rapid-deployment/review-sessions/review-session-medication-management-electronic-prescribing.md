@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Medication Management/Electronic Prescribing"
-date: 2020-02-27T21:25:41.678Z
+date: "2020-02-27T21:25:41.678Z"
 url: "rapid-deployment/review-sessions/review-session-medication-management-electronic-prescribing.html"
 author: aquandt
-version: 28
-id: 1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU
-source: https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU
+version: 29
+id: "1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU"
+source: "https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU"
 menu:
     main:
         name: "Review Session - Medication Management/Electronic Prescribing"
         identifier: "1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6110
+        weight: 6090
 ---
 ## Agenda
 
@@ -108,7 +108,7 @@ Do not use Default library.
 
 To change the library from *Default*, click the **Current Library** hyperlink, and select the preferred library from the dropdown options. Once the selection has been made, click the **Set** button to save the setting.
 
-![](../../external_files/2698d6842f3825fc026617fac21332fc.png)
+![](review-session-medication-management-electronic-prescribing.images/image1.png)
 
 {{% tip %}}
 
@@ -125,7 +125,7 @@ To create a remembered prescription:
 * Fill out all of the remaining fields, as appropriate. The next field, <strong>Form</strong>, will display the most common option, with a list of alternatives below it. The Form will save with the remembered prescription, if an autocomplete option is chosen; however, if the Form is free-texted, it will not be remembered.
 * Use the <strong>Remember As</strong> field to enter the keyword being used to recall the remembered prescription. Generally, a physician last name, medical condition abbreviation, or what the medication is being used for, are all types of keywords often used. Enter the keyword in this field.
 
-![](../../external_files/3676ee4b02f9d7fe2fe2f46f751641fa.png)
+![](review-session-medication-management-electronic-prescribing.images/image2.png)
 
 * Once all fields have been entered, click the <strong>Prescribe</strong> button to submit the prescription. When the medication is finished being prescribed, that medication will be available for reuse. It will populate all all of the same data entered, originally.
 
@@ -133,7 +133,7 @@ To create a remembered prescription:
 
 To prescribe that same medication with all of the associated details, navigate back to the Prescription Details page by clicking the **Prescribe** link in the patient's chart. As long as the library the medication was saved to is set as the Current Library, the medication and its remembered name and associated details will populate when selected from the Medication autocomplete.
 
-![](../../external_files/041f37725e79972230faeaabde0de906.png)
+![](review-session-medication-management-electronic-prescribing.images/image3.png)
 
 {{% tip %}}
 
@@ -146,7 +146,7 @@ The Medication autocomplete choices are not alphabetical, but rather based on fr
 
 Updating or changing a remembered prescription is just as easy, if not easier. To begin, load the remembered prescription, as shown above. Once all of the fields populate as expected, make any and all changes necessary. With the changes made, ensure the **Remember As** keyword is set accordingly, and click the **Update** button. This is used to change previously saved scripts anytime after the initial save.
 
-![](../../external_files/cb27add77c7ff4fd7948b93be28d50ec.png)
+![](review-session-medication-management-electronic-prescribing.images/image4.png)
 
 ## System Configuration
 
@@ -167,9 +167,9 @@ As a means to maintain best practices, prior to submitting any requests to SureS
 
 * Navigate to the DMS, locate the client, and Add Task of <strong>New Prescriber Verified</strong>.
 
-![](../../external_files/4393778a1ccae3610fc383221de4b6aa.png)
+![](review-session-medication-management-electronic-prescribing.images/image5.png)
 
-* Once the request is processed, a reply to the task will be provided, and a SureScripts Prescriber ID (SPI) will be assigned to the provider. Always check the provider prior to notifying the client. ![](../../external_files/229755f89b4b14796a2bccb9a24e3ac0.png)
+* Once the request is processed, a reply to the task will be provided, and a SureScripts Prescriber ID (SPI) will be assigned to the provider. Always check the provider prior to notifying the client. ![](review-session-medication-management-electronic-prescribing.images/image6.png)
 
 ### Enroll Providers in SureScripts
 
@@ -212,17 +212,17 @@ Additional steps are required for both setting up the provider, as well as presc
 * The E-Token Signature App needs installed on the workstation(s) being used by the provider.
 * Two-factor authentication, with a token (e.g., USB thumb drive) and token password, is needed in order to prescribe medications.
 
-![](../../external_files/cb75add6384b206406b6cd9381eba2d1.png)
+![](review-session-medication-management-electronic-prescribing.images/image7.png)
 
 An EPCS Prescription will not transmit without a Prescriber's Token **AND** Passcode. Failure to provide both will place the medication(s) in an unsigned prescription queue.
 
-![](../../external_files/56de4564f91902e7fbbad2c9807e9b60.png)
+![](review-session-medication-management-electronic-prescribing.images/image8.png)
 
 {{% info %}}
 
 Even though providers are capable of electronically prescribing controlled substances, not all pharmacies are capable of receiving these electronic requests. {{% system-name %}} displays which pharmacies are EPCS-enabled when a pharmacy is selected for a patient.
 
-![](../../external_files/b9e7a1e99185632b2a981c8e0c827e7a.png)
+![](review-session-medication-management-electronic-prescribing.images/image9.png)
 
 {{% /info %}}
 
@@ -280,7 +280,7 @@ Performing these steps will send an edit message and a disable status message to
 
 The Surescripts Advanced functionality includes access to Prescription Benefits (i.e., insurance eligibility and prescription formulary benefit information), as well as access to an individual's Medication History and the ability to perform Prescription Routing to Mail Order Pharmacies using specified formularies. The System Setting (i.e., "Drug Lookup", "Formulary", "Show Surescripts") must be enabled (Value = 1) in order to use these features.
 
-![](../../external_files/d3cbe25bcde59636bf7f8151bbd6519a.png)
+![](review-session-medication-management-electronic-prescribing.images/image10.png)
 
 #### Prescription Benefits
 
@@ -290,11 +290,11 @@ Accessing an individual's Prescription Benefits (both eligibility and formulary)
 
 In order to use the Dose/Formulary functionality and see the in-system button, the **Dose Range Calculator** system setting must be enabled. The button will be available when prescribing medications.
 
-![](../../external_files/c6ad90b9a73b60acd7a1fd91508bf643.png)
+![](review-session-medication-management-electronic-prescribing.images/image11.png)
 
 To see the Dosing and Formulary screen in its entirety when prescribing a med, the Form of the medication must be selected.
 
-Before selecting the appropriate formulary, an eligibility check must be run. An eligibility check cannot be run more than once every 72 hours, per individual. Once it has been run and obtained, then the available formularies associated with the individual's drug benefit plan are loaded into the chart. The {{% system-name %}} solution will maintain records of coverage eligibility in the Patient Benefit table. This eligibility status shows in the Allergies/Medications tab and the encounter Meds Plan section. Here, the last date/time an eligibility check was run will also display; however, if there is no listed date/time, no eligibility check has been run, meaning only dosing information will be available, with no formulary information. For more information on eligibility checking, see the [Prescription and Insurance Eligibility Requests – Surescripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-.html) documentation.
+Before selecting the appropriate formulary, an eligibility check must be run. An eligibility check cannot be run more than once every 72 hours, per individual. Once it has been run and obtained, then the available formularies associated with the individual's drug benefit plan are loaded into the chart. The {{% system-name %}} solution will maintain records of coverage eligibility in the Patient Benefit table. This eligibility status shows in the Allergies/Medications tab and the encounter Meds Plan section. Here, the last date/time an eligibility check was run will also display; however, if there is no listed date/time, no eligibility check has been run, meaning only dosing information will be available, with no formulary information. For more information on eligibility checking, see the [Prescription and Insurance Eligibility Requests – Surescripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html) documentation.
 
 {{% tip %}}
 
@@ -319,7 +319,7 @@ In additional to system settings, it is important to review the security setting
 
 Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../general-functionality/system-administration/security/my-settings.html) online help documentation.
 
-![](../../external_files/2b7004cb1b50ed1e98f8ca3083ec8ca4.png)
+![](review-session-medication-management-electronic-prescribing.images/image12.png)
 
 ## Resources
 
@@ -337,17 +337,17 @@ Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Se
 * [E-Refills-MY PENDING REFILLS tab](../../general-functionality/medication-management-and-e-prescribing/e-refills-my-pending-refills-tab.html)
 * [Edit or Change Meds](../../general-functionality/medication-management-and-e-prescribing/edit-change-medications.html)
 * [Flow-Pat Ed-Meds Sheets](../../general-functionality/medication-management-and-e-prescribing/allergy-medication-tab-quick-links.html)
-* [Formulary and Dosing-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-formulary-and-dos.html)
-* [Medication History Reconciliation-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-medication-histor.html)
-* [Meds Library-Remembered Scripts](../../general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-libr.html)
+* [Formulary and Dosing-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-formulary-and-dosing.html)
+* [Medication History Reconciliation-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.html)
+* [Meds Library-Remembered Scripts](../../general-functionality/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.html)
 * [Meds Tab Summary View](../../general-functionality/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.html)
-* [Preferred Pharmacy-Supply-Verification-Current Library](../../general-functionality/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply.html)
+* [Preferred Pharmacy-Supply-Verification-Current Library](../../general-functionality/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.html)
 * [Prescribing and Adding Meds](../../general-functionality/medication-management-and-e-prescribing/prescribing-adding-medications.html)
-* [Prescription and Insurance Eligibility Requests-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-.html)
+* [Prescription and Insurance Eligibility Requests-SureScripts Advanced](../../general-functionality/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html)
 * [Print-Fax-Transmit Prescriptions](../../general-functionality/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.html)
 * [Refill All Meds](../../general-functionality/medication-management-and-e-prescribing/refill-all.html)
 * [Setting up E-Prescribers](../../general-functionality/system-administration/system-controls/setting-up-e-prescribers.html)
-* [Unknown Allergy or Medication Add Email Notifications](../../general-functionality/medication-management-and-e-prescribing/unknown-allergy-medication-email-notif.html)
+* [Unknown Allergy or Medication Add Email Notifications](../../general-functionality/medication-management-and-e-prescribing/unknown-allergy-medication-email-notifications.html)
 * [E-Meds Report of Printed-Faxed-ESent](../../general-functionality/reports/e-meds-report.html)
 * [Med Report](../../general-functionality/reports/medication-report.html)
 * [Uncoded Meds Report](../../general-functionality/reports/uncoded-medications-report.html)

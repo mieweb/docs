@@ -1,17 +1,17 @@
 ---
 title: "Sample HL7 Messages"
-date: 2020-02-28T15:31:03.205Z
+date: "2020-02-28T15:31:03.205Z"
 url: "general-functionality/system-administration/interfaces/sample-hl7-messages.html"
 author: aquandt
-version: 23
-id: 1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg
-source: https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg
+version: 24
+id: "1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg"
+source: "https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg"
 menu:
     main:
         name: "Sample HL7 Messages"
         identifier: "1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5390
+        weight: 5370
 ---
 ### SIU
 

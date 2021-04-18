@@ -1,16 +1,16 @@
 ---
 title: "Panel Membership Import Tool"
-date: 2020-03-17T03:14:54.850Z
+date: "2020-03-17T03:14:54.850Z"
 url: "general-functionality/system-administration/data-migration/panel-membership-import-tool.html"
-version: 37
-id: 1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y
-source: https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y
+version: 42
+id: "1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y"
+source: "https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y"
 menu:
     main:
         name: "Panel Membership Import Tool"
         identifier: "1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4840
+        weight: 4820
 ---
 This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.html) help documentation for more information regarding its many uses.
 
@@ -24,7 +24,7 @@ The Panel Membership Import Tool uses partitions and medical record numbers (MRN
 
 Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.html); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
 
-![](../../../external_files/0cdfc9e02234da08e25d874d68fe9bd3.png)
+![](panel-membership-import-tool.images/image1.png)
 
 {{% /warning %}}
 
@@ -113,7 +113,7 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](../../../external_files/966214c59ae1a46b7c239962baee06a2.png)
+![](panel-membership-import-tool.images/image2.png)
 
 
 
@@ -126,7 +126,7 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](../../../external_files/f7321acaa475d389413c8960f680181a.png)
+![](panel-membership-import-tool.images/image3.png)
 
 
 
@@ -134,7 +134,7 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](../../../external_files/6ad90004bcde1af68316b8ca0dc908ba.png)
+![](panel-membership-import-tool.images/image4.png)
 
 
 
@@ -142,7 +142,7 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](../../../external_files/cfab357db3d128750fa9eaf657f5416d.png)
+![](panel-membership-import-tool.images/image5.png)
 
 
 
@@ -150,14 +150,14 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](../../../external_files/e6fd67006d63145a36826b81caee83ef.png) 
+![](panel-membership-import-tool.images/image6.png) 
 
 
 
-{{% tip %}} Use the help bubble to see what panel IDs your {{% system-name %}} system has to populate into the spreadsheet template for import. *This screenshot is an example. Do not use this Panel ID ordering for your system.* ![](../../../external_files/26b5b4aef9fdfc13fa224151eef1ca53.png) {{% /tip %}}
+{{% tip %}} Use the help bubble to see what panel IDs your {{% system-name %}} system has to populate into the spreadsheet template for import. *This screenshot is an example. Do not use this Panel ID ordering for your system.* ![](panel-membership-import-tool.images/image7.png) {{% /tip %}}
 
 
-6. Click the <strong>Choose File</strong> button, and select the panel membership data CSV file (from Step 5) and click <strong>Upload</strong>.  ![](../../../external_files/af307b74493cd98ab0b70ad82b9104d0.png)
+6. Click the <strong>Choose File</strong> button, and select the panel membership data CSV file (from Step 5) and click <strong>Upload</strong>.  ![](panel-membership-import-tool.images/image8.png)
 
 
 

@@ -1,17 +1,17 @@
 ---
 title: "Chart Relations CSV API"
-date: 2020-02-28T15:25:48.497Z
+date: "2020-02-28T15:25:48.497Z"
 url: "general-functionality/system-administration/data-migration/chart-relations-csv-api.html"
 author: aquandt
-version: 22
-id: 1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k
-source: https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k
+version: 23
+id: "1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k"
+source: "https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k"
 menu:
     main:
         name: "Chart Relations CSV API"
         identifier: "1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4980
+        weight: 4960
 ---
 The purpose of this page is to define data and fields that may be imported into MIE systems (i.e., WebChart, Enterprise Health) using the Chart Relations Import.
 

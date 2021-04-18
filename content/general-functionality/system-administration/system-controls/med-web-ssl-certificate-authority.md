@@ -1,16 +1,16 @@
 ---
 title: "Med-Web SSL Certificate Authority"
-date: 2020-03-16T23:30:25.696Z
+date: "2020-03-16T23:30:25.696Z"
 url: "general-functionality/system-administration/system-controls/med-web-ssl-certificate-authority.html"
-version: 21
-id: 1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58
-source: https://drive.google.com/open?id=1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58
+version: 22
+id: "1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58"
+source: "https://drive.google.com/open?id=1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58"
 menu:
     main:
         name: "Med-Web SSL Certificate Authority"
         identifier: "1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58"
         parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-        weight: 4680
+        weight: 4660
 ---
 For SSL encrypted web pages, a certificate is used. MIE has created it's own Certificate Authority (CA) for generating certificates. In order to NOT get a warning, you need to install the CA into your web browsers.
 

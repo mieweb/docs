@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Health Surveillance"
-date: 2020-02-27T21:25:22.522Z
+date: "2020-02-27T21:25:22.522Z"
 url: "rapid-deployment/review-sessions/review-session-health-surveillance.html"
 author: aquandt
-version: 18
-id: 1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ
-source: https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ
+version: 19
+id: "1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
+source: "https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
 menu:
     main:
         name: "Review Session - Health Surveillance"
         identifier: "1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6090
+        weight: 6070
 ---
 ## Agenda
 
@@ -97,7 +97,7 @@ When there is a member of a health surveillance panel, the panel will need to be
 
 [Health Surveillance](https://system/?f=layout&module=reports&name=HealthSurveillance&tabmodule=reports&t=Health+Surveillance&tabmodule=reports&tabselect=Health+Surveillance) has several helpful reports available in the **Reports** sidemenu.
 
-![](../../external_files/66524f5356ccb4fd720528378fb17af0.png)
+![](review-session-health-surveillance.images/image1.png)
 
 ### Beryllium Health Surveillance
 
@@ -221,7 +221,7 @@ A default declination form is mapped to the **Decline Form** link, found under t
 
 Review the security settings for users needing access to Health Surveillance (and Case Management). Review settings and give permissions, enable, or set, as appropriate. These settings can be found under the Health Surveillance section of the Access Control user settings. Additional information can be found within the [Security Role Settings](../../general-functionality/system-administration/security/security-role-settings.html) online help documentation, if needed.
 
-![](../../external_files/b39c6651421d268edb2785a166b6ef9a.png)
+![](review-session-health-surveillance.images/image2.png)
 
 ## Resources
 

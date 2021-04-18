@@ -1,16 +1,16 @@
 ---
 title: "Fast Task Templates"
-date: 2020-03-16T15:58:58.269Z
+date: "2020-03-16T15:58:58.269Z"
 url: "general-functionality/task-management/fast-task-templates.html"
-version: 64
-id: 1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw
-source: https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw
+version: 68
+id: "1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw"
+source: "https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw"
 menu:
     main:
         name: "Fast Task Templates"
         identifier: "1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw"
         parent: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
-        weight: 2380
+        weight: 2360
 ---
 To access the Fast Tasks Template tab within the Task List sidemenu module, users must have security for Manage Fast Tasks.
 
@@ -24,13 +24,13 @@ When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a lis
 
 
 
-![](../../external_files/c3a3e6d51aa607c763de5069502f1663.png)  
+![](fast-task-templates.images/image1.png)  
 
 To configure and add a new Fast Task template selection to the system, click the Add link found on the right side of the Fast Tasks screen.
 
 
 
-![](../../external_files/4d7c18c69361b3a403c72f4d4c73b848.png)
+![](fast-task-templates.images/image2.png)
 
 
 
@@ -38,7 +38,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 
 
 
-![](../../external_files/6a3373cd7873b8efbf6f3093918a754f.png)
+![](fast-task-templates.images/image3.png)
 
 
 
@@ -58,7 +58,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 * Layout:  Leave as None/Std Comment.  However, MIE can program a specific layout to allow users to input task details that displays in the Notes section when creating a text.  Layouts allow a different look instead of just a plain text-box if needed. It can also pull other {{% system-name %}} information into the task automatically (ex: patient's conditions, patient's allergies, etc).  Layouts are billable time done by MIE and the layout type/name would show here as a choice after it's developed.
 * Notes: Fast Tasks can show pretemplated text here in the notes field.  This may help prompt other users to remember what to key in or do or specific information that is standard for this fast task.  Whatever is typed here in the template will display in the ‘notes' field of the fast task when users create this fast task or when system automatically sends the fast task if based on a tasklist event rule.  This notes field can be left blank to indicate a free-text notes field. If a Layout is programmed by MIE (see layout field above), then the layout would display in the Note field when users create the fast task. This is an example of a layout being used for the Notes section.  This layout is designed to have the user document specific things to be entered in the task of this type.
 
-          ![](../../external_files/4ced87405a74b117b51425dde3a03c53.png)
+          ![](fast-task-templates.images/image4.png)
 
 
 
@@ -84,7 +84,7 @@ To access the Fast Tasks Template tab within the Task List sidemenu module, user
 
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
 
-![](../../external_files/c3a3e6d51aa607c763de5069502f1663.png)  
+![](fast-task-templates.images/image5.png)  
 
 ### Edit
 
@@ -92,7 +92,7 @@ To edit, find the specific fast task template that needs edited and simply click
 
 
 
-![](../../external_files/fc54307648b300d3246dbcdbcb62064f.png)
+![](fast-task-templates.images/image6.png)
 
 
 
@@ -108,7 +108,7 @@ It will ask you to confirm that you are sure you want to delete the fast task.
 
 
 
-![](../../external_files/c18554d67bdd24d59761dde2a5455771.png)
+![](https://lh3.googleusercontent.com/Ji_OrIcmytErCnUuvD4yxuV3v2vRwDPnffXcaDSsKECzieALwRF6dF49dMJpWgndGtG7on-O6YMqKPa5zYvwDNtPFYf2LKdfyRsmWrCzaDYphiVKc9YMjLAALZjLy-5qqbRutCfaskbtTpu4Hg)
 
 
 

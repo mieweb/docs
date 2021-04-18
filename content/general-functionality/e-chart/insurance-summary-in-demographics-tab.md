@@ -1,16 +1,16 @@
 ---
 title: "Insurance Summary in Demographics Tab"
-date: 2020-03-25T16:48:24.618Z
+date: "2020-03-25T16:48:24.618Z"
 url: "general-functionality/e-chart/insurance-summary-in-demographics-tab.html"
-version: 67
-id: 1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU
-source: https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU
+version: 68
+id: "1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU"
+source: "https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU"
 menu:
     main:
         name: "Insurance Summary in Demographics Tab"
         identifier: "1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU"
         parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
-        weight: 1060
+        weight: 1050
 ---
 Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.
 
@@ -18,7 +18,7 @@ When in demographics tab or if click manage information within the insurance por
 
 
 
-![](../../external_files/ae2094ddd3465ddd0e9ed08671aad5ba.png)
+![](insurance-summary-in-demographics-tab.images/image1.png)
 
 
 
@@ -37,7 +37,7 @@ To add an insurance for the chart, when in the Insurance Summary area, click the
 
 
 
-![](../../external_files/6ed55e2827d41c4dbd780e3f2cb7f07b.png)
+![](insurance-summary-in-demographics-tab.images/image2.png)
 
 
 
@@ -45,7 +45,7 @@ The **Add Insurance Policy** screen and fields display.  The fields are describ
 
 
 
-![](../../external_files/11fb7886db8fb64fb93fa3764f49f208.png)
+![](insurance-summary-in-demographics-tab.images/image3.png)
 
 
 
@@ -61,7 +61,7 @@ The **Add Insurance Policy** screen and fields display.  The fields are describ
     * <strong>Enter Holder</strong>: When the box is not checkmarked, the Enter Holder: field will appear.  This is where you can type the last name of the person who holds the insurance.  The system will attempt to auto-complete by last name and search your system for that policyholder you are typing in.  The policyholder must be a patient in your system for it to auto-complete and find that person here.  If the policyholder is not a patient in your system, you would continue to type that person's first and last name as free-text in that field. You would then click the Non-Patient Holder Details button to enter the remaining policyholder information manually.  Example: insurance is held by the husband but he has never been seen at this practice because it's an OBGYN practice.  He would not be found as a patient in the system, so you continue to type out his name in the Enter Holder: field and then would click Non-Patient Holder Details to continue to enter his detailed information.
     * <strong>Non-Patient Holder Details</strong>: Enter the policy holder's information if that policy holder is not an existing patient in your system.
 * <strong>Policy Comments</strong>: Type any comments related to the insurance policy here.
-* <strong>Insurance Pre-Certifications</strong>: When insurances are entered in the patient's demographics tab, there are fields to enter any pre-certification details.  Example would be a patient coming in for physical therapy is pre-certified for 10 visits from Oct 2007 through Dec 2007. You can detail that when adding or editing the insurance from the patient's demographics tab.  If there are any pre-certification details entered in for a patient's insurance, this precert information will appear in the checkin module also when you checkin the patient. This information also shows if you hover your mouse over the patient's insurance name(s) in the scheduler view in the appointment detail. If you have insurance messages coming in from your interface/PM system, you can still enter Pre-certification information here in {{% system-name %}} and it will save.  ![](../../external_files/cf8d9975aa7e54aeb2e782b1e00cd7d0.png)
+* <strong>Insurance Pre-Certifications</strong>: When insurances are entered in the patient's demographics tab, there are fields to enter any pre-certification details.  Example would be a patient coming in for physical therapy is pre-certified for 10 visits from Oct 2007 through Dec 2007. You can detail that when adding or editing the insurance from the patient's demographics tab.  If there are any pre-certification details entered in for a patient's insurance, this precert information will appear in the checkin module also when you checkin the patient. This information also shows if you hover your mouse over the patient's insurance name(s) in the scheduler view in the appointment detail. If you have insurance messages coming in from your interface/PM system, you can still enter Pre-certification information here in {{% system-name %}} and it will save.  ![](insurance-summary-in-demographics-tab.images/image4.png)
 
 
 
@@ -81,7 +81,7 @@ Insurance policy details can be edited in a chart by clicking the Edit link on t
 
 
 
-![](../../external_files/abab60437385eed23a108ef5bcfc74ce.png)
+![](insurance-summary-in-demographics-tab.images/image5.png)
 
 
 
@@ -89,11 +89,11 @@ After clicking edit on a specific insurance listed, the **Edit Insurance Policy*
 
 
 
-![](../../external_files/9c1b125f565f77aa5508d23b73962835.png)
+![](insurance-summary-in-demographics-tab.images/image6.png)
 
 
 
-![](../../external_files/d734d94b76420274c2f13eba2d7cae25.png)
+![](insurance-summary-in-demographics-tab.images/image7.png)
 
 
 
@@ -103,7 +103,7 @@ An insurance cannot be deleted from the chart, but it can be marked **inactive**
 
 
 
-![](../../external_files/aeca8c289fe8a5ac8fbba22fa2270a0a.png)
+![](insurance-summary-in-demographics-tab.images/image8.png)
 
 ## Card Options
 
@@ -111,7 +111,7 @@ Depending on your security permissions, when looking at the Insurance Summary se
 
 
 
-![](../../external_files/cc2ca6ab0fca446576b4fce02f6ae2b3.png)
+![](insurance-summary-in-demographics-tab.images/image9.png)
 
 
 
@@ -125,7 +125,7 @@ If an insurance card has already been scanned in as an image/document into the c
 
 
 
-![](../../external_files/08d52d4005350d0c9116d60a3e084d48.png)
+![](insurance-summary-in-demographics-tab.images/image10.png)
 
 
 
@@ -142,7 +142,7 @@ Select the radio button for the document (insurance card) you wish to link to th
 
 
 
-![](../../external_files/3acfae7042078d97e79c75f9b1fefc30.png)
+![](insurance-summary-in-demographics-tab.images/image11.png)
 
 
 
@@ -150,7 +150,7 @@ Once you click the Link button to link an existing insurance card scanned docume
 
 
 
-![](../../external_files/7e67b6ac42e4e3c074c1ee2db8c88e1e.png)
+![](insurance-summary-in-demographics-tab.images/image12.png)
 
 
 
@@ -160,7 +160,7 @@ If there are no existing e-scan documents (insurance card documents, etc) in the
 
 
 
-![](../../external_files/4499324623f046b26c4786914a6a48ce.png)
+![](insurance-summary-in-demographics-tab.images/image13.png)
 
 
 
@@ -172,7 +172,7 @@ To unlink a stored document image from a specific insurance policy in the chart,
 
 
 
-![](../../external_files/66a05fa24371594bf90a5cc840a852f8.png)
+![](insurance-summary-in-demographics-tab.images/image14.png)
 
 
 
@@ -180,7 +180,7 @@ Once you select **Unlink Existing Insurance Card** from a specific listed insura
 
 
 
-![](../../external_files/0f33eda76f8b6d553d308f954cd8bf41.png)
+![](insurance-summary-in-demographics-tab.images/image15.png)
 
 
 
@@ -188,7 +188,7 @@ Once you have confirmed and unlinked the document from the insurance policy, the
 
 
 
-![](../../external_files/c326a5fdfe5b36be2adca5a3b14cbafb.png)
+![](insurance-summary-in-demographics-tab.images/image16.png)
 
 
 
@@ -207,7 +207,7 @@ You can scan in an insurance card via **Add Document** method and select the fil
 
 
 
-![](../../external_files/fce8850d4be1dbb05b714b253feada43.png)
+![](insurance-summary-in-demographics-tab.images/image17.png)
 
 
 
@@ -217,7 +217,7 @@ The document you scanned will appear in the document scan control box now. If yo
 
 
 
-![](../../external_files/ae6a9626d60ef59a359762d0bae3975b.png)
+![](insurance-summary-in-demographics-tab.images/image18.png)
 
 
 
@@ -236,7 +236,7 @@ The Document Scan Control box and the scanned image is followed by the **Add Doc
 
 
 
-![](../../external_files/72a561f5e709d4dbe31e752c05a55767.png)
+![](insurance-summary-in-demographics-tab.images/image19.png)
 
 
 
@@ -264,7 +264,7 @@ It will upload the scanned image directly into the chart according to the docume
 
 
 
-* <strong>Crop</strong>: on the image, place your mouse (which will appear as a cross + ) at the point where you want to start cropping, click and hold the mouse down and drag to highlight in BLACK over the image part that you want to keep. Release your mouse.  If you want to re-do the crop, just click the mouse and do this again. When you have what you want to save/keep highlighted in BLACK, click the <strong>CROP</strong> button. It will refresh and show your cropped document in the upper left corner.  This is what will be uploaded & stored into the chart. If you wish to crop more, repeat the steps.  ![](../../external_files/63656851480111d0f3e4e479f9187f8e.png)
+* <strong>Crop</strong>: on the image, place your mouse (which will appear as a cross + ) at the point where you want to start cropping, click and hold the mouse down and drag to highlight in BLACK over the image part that you want to keep. Release your mouse.  If you want to re-do the crop, just click the mouse and do this again. When you have what you want to save/keep highlighted in BLACK, click the <strong>CROP</strong> button. It will refresh and show your cropped document in the upper left corner.  This is what will be uploaded & stored into the chart. If you wish to crop more, repeat the steps.  ![](insurance-summary-in-demographics-tab.images/image20.png)
 
 
 
@@ -280,5 +280,5 @@ It will upload the scanned image directly into the chart according to the docume
 
 
 
-![](../../external_files/3a4ee96f729169d78cb1f8f3769d3d5f.png)
+![](insurance-summary-in-demographics-tab.images/image21.png)
 

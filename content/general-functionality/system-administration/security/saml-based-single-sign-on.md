@@ -1,17 +1,17 @@
 ---
 title: "SAML-Based Single Sign-On"
-date: 2020-02-27T21:22:13.838Z
+date: "2020-02-27T21:22:13.838Z"
 url: "general-functionality/system-administration/security/saml-based-single-sign-on.html"
 author: aquandt
-version: 15
-id: 1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc
-source: https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc
+version: 16
+id: "1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc"
+source: "https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc"
 menu:
     main:
         name: "SAML-Based Single Sign-On"
         identifier: "1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc"
         parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
-        weight: 5310
+        weight: 5290
 ---
 SSO access is a standard for users accessing protected information, such as patient data. Access is provided by creating and enabling a login trust. This allows users to access all  {{% system-name %}} services by signing in *one time*. When properly configured, users are redirected to the SSO login page to access the system, accordingly.
 

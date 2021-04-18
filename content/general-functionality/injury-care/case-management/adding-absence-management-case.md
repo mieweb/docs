@@ -1,17 +1,17 @@
 ---
 title: "Adding Absence Management Case"
-date: 2020-03-09T23:02:39.211Z
+date: "2020-03-09T23:02:39.211Z"
 url: "general-functionality/injury-care/case-management/adding-absence-management-case.html"
 author: aquandt
-version: 29
-id: 1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY
-source: https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY
+version: 30
+id: "1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY"
+source: "https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY"
 menu:
     main:
         name: "Adding Absence Management Case"
         identifier: "1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1630
+        weight: 1610
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -38,7 +38,7 @@ By default, the Case section of encounters will display the following case types
 
 
 
-![](../../../external_files/6ccfbe4f62807d9faf9d912003b0db88.png)
+![](adding-absence-management-case.images/image1.png)
 
 
 
@@ -46,7 +46,7 @@ If you wish to document a new case, click the header or **Edit** (Pencil) icon o
 
 
 
-![](../../../external_files/c631c6f901de2cf799e051474497cbb2.png)
+![](adding-absence-management-case.images/image2.png)
 
 
 
@@ -58,7 +58,7 @@ After selecting to create an Absence Management case type, subsequent data field
 
 
 
-![](../../../external_files/5101f8c554818f63b168511bb12ed912.png)
+![](adding-absence-management-case.images/image3.png)
 
 ### Work Status (or Lost Time) Section
 

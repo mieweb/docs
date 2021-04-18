@@ -1,17 +1,17 @@
 ---
 title: "Un-Request/Unassign an E-Signature"
-date: 2020-03-10T14:24:17.209Z
+date: "2020-03-10T14:24:17.209Z"
 url: "general-functionality/e-sign-electronic-signature/un-request-unassign-an-e-signature.html"
 author: aquandt
-version: 36
-id: 1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I
-source: https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I
+version: 37
+id: "1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I"
+source: "https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I"
 menu:
     main:
         name: "Un-Request/Unassign an E-Signature"
         identifier: "1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I"
         parent: "1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854"
-        weight: 2420
+        weight: 2400
 ---
 From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission. It is also helpful to know who the document was requested to and the document id number, or document type and date of service.
 
@@ -19,7 +19,7 @@ In the All Pending tab, it lists all users who have pending e-sign requests assi
 
 
 
-![](../../external_files/524b3e17e019480960ef5599cec180c8.png)
+![](un-request-unassign-an-e-signature.images/image1.png)
 
 
 
@@ -27,7 +27,7 @@ It will list all pending documents that are in that user's queue to e-sign.  Cl
 
 
 
-![](../../external_files/0bf0f239f8bd492b8eaeb2d8ac0b32b8.png)
+![](un-request-unassign-an-e-signature.images/image2.png)
 
 
 
@@ -35,7 +35,7 @@ Once in the specific document, click Properties link at the top right side of th
 
 
 
-![](../../external_files/ca2ca025a9992de1ea9c01859fe8a07f.png)
+![](un-request-unassign-an-e-signature.images/image3.png)
 
 
 
@@ -43,7 +43,7 @@ Within the document properties, a Needs Signed By field displays the user whom t
 
 
 
-![](../../external_files/b06860c9d1b1392d6192f904cceb7147.png)
+![](un-request-unassign-an-e-signature.images/image4.png)
 
 
 
@@ -51,7 +51,7 @@ After clicking un-request, another step is to confirm to un-request the signatur
 
 
 
-![](../../external_files/902c4fb04451132eb6a57804d554e807.png)
+![](un-request-unassign-an-e-signature.images/image5.png)
 
 
 
@@ -59,7 +59,7 @@ The un-request has been performed and it will display a message as such, while t
 
 
 
-![](../../external_files/6a464ca53b0a6267643d496a5e2984c7.png)
+![](un-request-unassign-an-e-signature.images/image6.png)
 
 
 
@@ -71,7 +71,7 @@ An un-request can be done via the document properties if you are in the document
 
 
 
-![](../../external_files/72ffcada0af89440537915b5495986dc.png)
+![](un-request-unassign-an-e-signature.images/image7.png)
 
 
 
@@ -79,7 +79,7 @@ When in the document properties, the detail of who the document needs signed by 
 
 
 
-![](../../external_files/8cd7f17fa2f4d598e19c7d4eb116bba8.png)
+![](un-request-unassign-an-e-signature.images/image8.png)
 
 ### Request different signature on document
 
@@ -87,7 +87,7 @@ When un-requesting using either option described above to un-request, one can re
 
 
 
-![](../../external_files/e20dda2ab6c35859110468fadc2a03c0.png)
+![](un-request-unassign-an-e-signature.images/image9.png)
 
 
 
@@ -95,7 +95,7 @@ After clicking View Document, the document will open with options at the top rig
 
 
 
-![](../../external_files/e1dc014c18ced5bb203e073741a7b39e.png)
+![](un-request-unassign-an-e-signature.images/image10.png)
 
 
 

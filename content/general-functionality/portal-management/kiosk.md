@@ -1,16 +1,16 @@
 ---
 title: "Kiosk"
-date: 2020-03-11T18:15:47.911Z
+date: "2020-03-11T18:15:47.911Z"
 url: "general-functionality/portal-management/kiosk.html"
-version: 32
-id: 1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs
-source: https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs
+version: 33
+id: "1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs"
+source: "https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs"
 menu:
     main:
         name: "Kiosk"
         identifier: "1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs"
         parent: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
-        weight: 1240
+        weight: 1220
 ---
 The  {{% system-name %}}  Kiosk is a portal integration designed for streamlining things such as check-in and intake processes. For example, users may electronically access questionnaires or paperwork required by the clinic upon check-in, so then all of the necessary information can be recorded and automatically uploaded into the appropriate chart. With the  {{% system-name %}}  Kiosk, clients can easily maintain traffic flow, while also managing their check-in and intake processes. Below, users will find the information needed for initially setting up and utilizing the kiosk functionality.
 
@@ -21,7 +21,7 @@ The  {{% system-name %}}  Kiosk is a portal integration designed for streamlin
 
 
 
-![](../../external_files/e41ef1018ed7330190c8b5f57ff0f96c.png)
+![](kiosk.images/image1.png)
 
 
 
@@ -30,7 +30,7 @@ The  {{% system-name %}}  Kiosk is a portal integration designed for streamlin
 
 
 
-![](../../external_files/9262680772d6111974545b732a23501e.png)
+![](kiosk.images/image2.png)
 
 
 
@@ -38,7 +38,7 @@ The  {{% system-name %}}  Kiosk is a portal integration designed for streamlin
 
 
 
-![](../../external_files/cff7e94ca835d06aa5eaf6b7c0562389.png)
+![](kiosk.images/image3.png)
 
 
 

@@ -1,17 +1,17 @@
 ---
 title: "Pharmacy Filter Import"
-date: 2020-02-27T21:30:59.551Z
+date: "2020-02-27T21:30:59.551Z"
 url: "general-functionality/system-administration/data-migration/pharmacy-filter-import.html"
 author: aquandt
-version: 15
-id: 1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A
-source: https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A
+version: 16
+id: "1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A"
+source: "https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A"
 menu:
     main:
         name: "Pharmacy Filter Import"
         identifier: "1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5010
+        weight: 4990
 ---
 The Pharmacy Filter allows you to import filter data on pharmacies based on either their NPI or NCPDPID.
 

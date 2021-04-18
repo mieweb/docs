@@ -1,10 +1,10 @@
 ---
 title: "System Configuration"
-date: 2020-02-27T19:31:27.327Z
+date: "2020-02-27T19:31:27.327Z"
 url: "general-functionality/system-configuration.html"
-version: 17
-id: 1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw
-source: https://drive.google.com/open?id=1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw
+version: 20
+id: "1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw"
+source: "https://drive.google.com/open?id=1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw"
 menu:
     main:
         name: "System Configuration"

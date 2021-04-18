@@ -1,11 +1,11 @@
 ---
 title: "DICOM Viewer"
-date: 2020-03-09T19:36:52.318Z
+date: "2020-03-09T19:36:52.318Z"
 url: "general-functionality/document-management/imaging/dicom-viewer.html"
 author: aquandt
-version: 35
-id: 1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0
-source: https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0
+version: 36
+id: "1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0"
+source: "https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0"
 menu:
     main:
         name: "DICOM Viewer"
@@ -17,7 +17,7 @@ Most X-Ray images are found within the  chart, under the **Test Results** char
 
 
 
-![](../../../external_files/d9caa9ac7e624dfa5c9fec712ef8bfed.png)
+![](dicom-viewer.images/image1.png)
 
 
 
@@ -25,7 +25,7 @@ Clicking on a specific document found here will open up that image on your {{% s
 
 
 
-![](../../../external_files/bd69269dc2c0d9a598d2b2f1bab44f33.png)
+![](dicom-viewer.images/image2.png)
 
 
 
@@ -33,7 +33,7 @@ The **Series** [+] button if clicked will open all images for that series on you
 
 
 
-![](../../../external_files/d597c507f8348f800b64b1b574290330.png)
+![](dicom-viewer.images/image3.png)
 
 
 
@@ -41,7 +41,7 @@ The **Push** section offers different types of pushes to an AE Title that must b
 
 
 
-![](../../../external_files/0c1f9b2fe88441fd16f30b71b6f0ff6e.png)
+![](dicom-viewer.images/image4.png)
 
 
 
@@ -49,7 +49,7 @@ The **Enhanced** section will open up the enhanced viewer screen.
 
 
 
-![](../../../external_files/24a5f1439b5437626823e5f334cf4575.png)
+![](dicom-viewer.images/image5.png)
 
 
 
@@ -57,7 +57,7 @@ Users can choose the contrast level in which to batch print a series.
 
 
 
-![](../../../external_files/13564979b550d99323377908f8f10412.png)
+![](dicom-viewer.images/image6.png)
 
 
 
@@ -65,7 +65,7 @@ When clicking on the actual image, it will open another window for enhanced view
 
 
 
-![](../../../external_files/c8c4e6139345c890fedc58aaae906249.png)
+![](dicom-viewer.images/image7.png)
 
 
 
@@ -73,7 +73,7 @@ The first 2 buttons in the toolbar take you from stage to stage. There may be ma
 
 
 
-![](../../../external_files/11fd46aa659870458c42072bc8280b8f.png)
+![](dicom-viewer.images/image8.png)
 
 
 
@@ -83,7 +83,7 @@ To hang views side by side, they must be in the same series/same document.  You
 
 
 
-![](../../../external_files/570a1ce18fc0b59b175f115aa3b86de7.png)
+![](dicom-viewer.images/image9.png)
 
 
 
@@ -93,7 +93,7 @@ An example to see a hang is to search for doc.id 316 in your system (a sample im
 
 
 
-![](../../../external_files/72f4a1d40461c3f984dfe982cd76dfd6.png)
+![](dicom-viewer.images/image10.png)
 
 
 
@@ -101,5 +101,5 @@ To get out of the enhanced viewer, click the "Close Window" hyperlink at the top
 
 
 
-![](../../../external_files/91869a7539381b1d223adb2a47f0a459.png)
+![](dicom-viewer.images/image11.png)
 

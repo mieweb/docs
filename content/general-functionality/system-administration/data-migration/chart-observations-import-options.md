@@ -1,17 +1,17 @@
 ---
 title: "Chart Observations Import Options"
-date: 2020-02-27T21:31:09.639Z
+date: "2020-02-27T21:31:09.639Z"
 url: "general-functionality/system-administration/data-migration/chart-observations-import-options.html"
 author: aquandt
-version: 26
-id: 179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A
-source: https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A
+version: 27
+id: "179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A"
+source: "https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A"
 menu:
     main:
         name: "Chart Observations Import Options"
         identifier: "179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5140
+        weight: 5120
 ---
 The following options are allowed. Any other options are unsupported and will be rejected.
 
@@ -65,15 +65,15 @@ After this file is loaded:
 * Each of the patients has two myObs1 results.
 * Each of the patients has a myObs2 result.
 
-![](../../../external_files/b77a7a0b581b6b229ddd2519b16c551f.png)
+![](chart-observations-import-options.images/image1.png)
 
-![](../../../external_files/5992903ee0b91a69fbb2092186dbb92f.png)
+![](chart-observations-import-options.images/image2.png)
 
-![](../../../external_files/6d8587cd3216987f5c9072c5c1e78f67.png)
+![](chart-observations-import-options.images/image3.png)
 
-![](../../../external_files/03bf2528b46a63e6a0a0cf00aa7190ed.png)
+![](chart-observations-import-options.images/image4.png)
 
-![](../../../external_files/4b5348b924b9ac23c3e823eb1b32ba22.png)
+![](chart-observations-import-options.images/image5.png)
 
 ### Import Updated Data
 
@@ -120,15 +120,15 @@ The imported file is processed as follows:
 * Existing data is replaced with the new data.
 * Test4's result is deleted.
 
-![](../../../external_files/0f0ecc77ed520e7e4176592406a589c6.png)
+![](chart-observations-import-options.images/image6.png)
 
-![](../../../external_files/4cda9dc79f7af853ab03d483fc5fd362.png)
+![](chart-observations-import-options.images/image7.png)
 
-![](../../../external_files/e355239c0fb9b0117f9c26ae886ebeb7.png)
+![](chart-observations-import-options.images/image8.png)
 
-![](../../../external_files/f7cbb5066cdb48d961dcdebda4a90711.png)
+![](chart-observations-import-options.images/image9.png)
 
-![](../../../external_files/193dace05f78e759ca05e7eef07a569e.png)
+![](chart-observations-import-options.images/image10.png)
 
 ## Related Pages
 

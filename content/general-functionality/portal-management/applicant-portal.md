@@ -1,16 +1,17 @@
 ---
 title: "Applicant Portal"
-date: 2020-03-20T17:21:42.097Z
+date: "2021-03-31T21:08:57.956Z"
 url: "general-functionality/portal-management/applicant-portal.html"
-version: 90
-id: 14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU
-source: https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU
+author: Alice Uhrick
+version: 120
+id: "14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
+source: "https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
 menu:
     main:
         name: "Applicant Portal"
         identifier: "14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
         parent: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
-        weight: 1210
+        weight: 1190
 ---
 
 
@@ -39,7 +40,7 @@ The following items are considerations to be discussed with the Deployment Consu
 
 **Order Picklist**: Any questionnaires being used for the Applicant Portal must fall within an order picklist. Work with the Deployment Consultant(s) to ensure an order picklist is configured, listing each questionnaire needed for the Applicant Portal.
 
-**Applicant Portal PO Chart Tab**: Customizations to the Applicant Portal can be done through the Applicant Portal chart tab of the Provider Organization (PO), as needed. It is through the Applicant Portal chart tab that users with the appropriate permissions may configure the portal components. The portal URL suffix will be provided from this tab, as well, which will be appended to the production database base URL and distributed for use.
+**Appl****icant Portal PO Chart Tab**: Customizations to the Applicant Portal can be done through the Applicant Portal chart tab of the Provider Organization (PO), as needed. It is through the Applicant Portal chart tab that users with the appropriate permissions may configure the portal components. The portal URL suffix will be provided from this tab, as well, which will be appended to the production database base URL and distributed for use.
 
 **Tasking**: It is important to discuss and determine any tasklist events needing triggered whenever applicants register and submit information via the Applicant Portal.
 
@@ -134,17 +135,17 @@ Following the instructions below, *update* these system settings:
 4. Locate and select the [Portal Setup](https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43) tab.
 5. Once there, click the <strong>Applicant Portal</strong> header, to expand the section. Click the <strong>Run Setup</strong> button.
 
-![](../../external_files/62f50e4bd753767894129830e56dca78.png) 
+![](applicant-portal.images/image1.png) 
 
 6. The Setup Wizard will run. 
 
-![](../../external_files/77f85aa7fa737d6dfeef03a168c2d7b2.png) 
+![](applicant-portal.images/image2.png) 
 
 7. After running the portal setup, review the <strong>Security Requirements</strong> and update, as necessary.
 
 
 
-![](../../external_files/b91478a51fbb1804dcb16d4d9e09535f.png)
+![](applicant-portal.images/image3.png)
 
 
 
@@ -181,7 +182,7 @@ These Security Requirements should always be followed for ensuring the proper se
 3. Type "Applicant Portal" into the <strong>New Set</strong> field.
 4. Begin typing the name of a questionnaire to be added, and select it from the autocomplete.
 5. Click the <strong>Save</strong> button.
-6. To continue adding additional questionnaires, click the plus [ + ] icon in the header of the new group.    ![](../../external_files/ee4e1bac66371c14ab82e14f2cf5d6b2.png)
+6. To continue adding additional questionnaires, click the plus [ + ] icon in the header of the new group.    ![](applicant-portal.images/image4.png)
 
 ## Configure Applicant Portal
 

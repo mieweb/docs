@@ -1,16 +1,16 @@
 ---
 title: "Create Vital Signs File for Import"
-date: 2020-03-17T02:50:33.797Z
+date: "2020-03-17T02:50:33.797Z"
 url: "general-functionality/system-administration/data-migration/create-vital-signs-file-for-import.html"
-version: 30
-id: 1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU
-source: https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU
+version: 31
+id: "1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
+source: "https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
 menu:
     main:
         name: "Create Vital Signs File for Import"
         identifier: "1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4780
+        weight: 4760
 ---
 This document explains how to import historical vital signs for employees into {{% system-name %}} .
 
@@ -223,7 +223,7 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](../../../external_files/c38a3b1a90978270fae4e78f9541a92b.png)
+![](create-vital-signs-file-for-import.images/image1.png)
 
 
 
@@ -236,7 +236,7 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](../../../external_files/f7321acaa475d389413c8960f680181a.png)
+![](create-vital-signs-file-for-import.images/image2.png)
 
 
 
@@ -244,7 +244,7 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](../../../external_files/6ad90004bcde1af68316b8ca0dc908ba.png)
+![](create-vital-signs-file-for-import.images/image3.png)
 
 
 
@@ -252,11 +252,11 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](../../../external_files/c2dae99efdec3e52fd697f3eea7e3abe.png)
+![](create-vital-signs-file-for-import.images/image4.png)
 
 
 
-5. Select the Vital Signs CSV File and click <strong>Upload</strong>.  ![](../../../external_files/9a0563b4e22b891467a5929bf13ae6e6.png) 
+5. Select the Vital Signs CSV File and click <strong>Upload</strong>.  ![](create-vital-signs-file-for-import.images/image5.png) 
 
 {{% tip %}}
 

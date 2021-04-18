@@ -1,16 +1,16 @@
 ---
 title: "Editing Demographics"
-date: 2020-03-25T16:40:50.153Z
+date: "2020-03-25T16:40:50.153Z"
 url: "general-functionality/e-chart/editing-demographics.html"
-version: 48
-id: 1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs
-source: https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs
+version: 49
+id: "1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs"
+source: "https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs"
 menu:
     main:
         name: "Editing Demographics"
         identifier: "1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs"
         parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
-        weight: 1040
+        weight: 1030
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.  
 
@@ -25,7 +25,7 @@ There are two ways to edit demographics in a chart. One is to find the **Demogra
 
 
 
-![](../../external_files/41af5230a888d68513d6f9eaa49d30d8.png)
+![](editing-demographics.images/image1.png)
 
 
 
@@ -33,7 +33,7 @@ The alternative method for editing chart demographics is from the **Demographics
 
 
 
-![](../../external_files/a4ffb6d5a7302a500daa1c6a35ab706d.png)
+![](editing-demographics.images/image2.png)
 
 
 
@@ -45,7 +45,7 @@ Red fields are required fields that must contain data in order to create, save, 
 
 
 
-![](../../external_files/b4e5003649c27c5991c16415436b0950.png)
+![](editing-demographics.images/image3.png)
 
 
 
@@ -68,7 +68,7 @@ If you have security permission, you can view all revisions in a list format tha
 
 
 
-![](../../external_files/e45bcbfe34cebfa2f92bcd0e56da9999.png)
+![](editing-demographics.images/image4.png)
 
 
 
@@ -76,7 +76,7 @@ The system will display the count of revisions done for demographics on the char
 
 
 
-![](../../external_files/f98c472249122a935135fa8098c07712.png)
+![](editing-demographics.images/image5.png)
 
 
 
@@ -86,7 +86,7 @@ You can click on any **Revision Number (#) **link on the specific demographics r
 
 
 
-![](../../external_files/3505212f9180f24d11a0cae282a963a8.png)
+![](editing-demographics.images/image6.png)
 
 
 
@@ -94,7 +94,7 @@ In this example, revision # 2 was clicked.  The system refreshed and displays a
 
 
 
-![](../../external_files/559118068288e1e372cc5f5e8e7666a7.png)
+![](editing-demographics.images/image7.png)
 
 
 
@@ -102,5 +102,5 @@ Click **Back to Patient Demographics** hyperlink to get back to the general demo
 
 
 
-![](../../external_files/24de4ebf7658f8efa844b41d2367a253.png)
+![](editing-demographics.images/image8.png)
 

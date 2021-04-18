@@ -1,16 +1,16 @@
 ---
 title: "Panel Status Import"
-date: 2020-03-17T15:16:03.508Z
+date: "2020-03-17T15:16:03.508Z"
 url: "general-functionality/system-administration/data-migration/panel-status-import.html"
-version: 25
-id: 1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ
-source: https://drive.google.com/open?id=1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ
+version: 26
+id: "1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ"
+source: "https://drive.google.com/open?id=1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ"
 menu:
     main:
         name: "Panel Status Import"
         identifier: "1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4910
+        weight: 4890
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create patient panel status records using the Panel Status CSV API.
 

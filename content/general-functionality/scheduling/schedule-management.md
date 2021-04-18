@@ -1,16 +1,16 @@
 ---
 title: "Schedule Management"
-date: 2020-03-10T17:11:24.605Z
+date: "2020-03-10T17:11:24.605Z"
 url: "general-functionality/scheduling/schedule-management.html"
-version: 53
-id: 1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q
-source: https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q
+version: 54
+id: "1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q"
+source: "https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q"
 menu:
     main:
         name: "Schedule Management"
         identifier: "1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q"
         parent: "1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
-        weight: 1100
+        weight: 1080
 ---
 ## Overview
 

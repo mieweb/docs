@@ -1,16 +1,16 @@
 ---
 title: "Non-Compliant Report"
-date: 2020-02-27T20:15:07.915Z
+date: "2020-02-27T20:15:07.915Z"
 url: "general-functionality/reports/non-compliant-report.html"
-version: 16
-id: 1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po
-source: https://drive.google.com/open?id=1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po
+version: 17
+id: "1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po"
+source: "https://drive.google.com/open?id=1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po"
 menu:
     main:
         name: "Non-Compliant Report"
         identifier: "1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po"
         parent: "1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY"
-        weight: 4260
+        weight: 4240
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
 
@@ -22,7 +22,7 @@ Click *Non-Compliant Report* tab from the top tab menu.
 
 The Non-Compliant Patients List Options screen will open.
 
-![](../../external_files/9db9ead553aaed7cca10b8badaf8a533.png)
+![](non-compliant-report.images/image1.png)
 
 * <strong>Physician:</strong> Can select all physicians or a specific physician from the drop-down arrow.
 * <strong>Evaluation Date:</strong> Select the Evaluation Date. This is for historical purposes.  You can see how the non-compliance percentages change over time.  Usually you will want to use today's date.
@@ -35,9 +35,9 @@ Click SUBMIT to show search results.
 
 The results show the compliance report card for the physician(s) you selected if you did *not* check-mark to list the patients.
 
-![](../../external_files/871d6fd624053057346b7aaba5611df0.png)
+![](non-compliant-report.images/image2.png)
 
 If you check-marked to list the patients, it will then list the specific patients that are non-compliant according to the fields you entered for the report.
 
-![](../../external_files/83ffa21fc20d3d7425660cb1b558ce67.png)
+![](non-compliant-report.images/image3.png)
 

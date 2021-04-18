@@ -1,16 +1,16 @@
 ---
 title: "Pat/Appt Wizard Tab"
-date: 2020-02-27T19:47:42.780Z
+date: "2020-02-27T19:47:42.780Z"
 url: "general-functionality/scheduling/pat-appt-wizard-tab.html"
-version: 16
-id: 12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM
-source: https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM
+version: 17
+id: "12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM"
+source: "https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM"
 menu:
     main:
         name: "Pat/Appt Wizard Tab"
         identifier: "12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM"
         parent: "1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
-        weight: 1110
+        weight: 1090
 ---
 Log into {{% system-name %}}
 
@@ -30,7 +30,7 @@ Click *Pat/Apt Wizard* tab from the top menu of tabs.
 
 All this information populates the *Demographics* tab of the patient's chart.
 
-![](../../external_files/d218a70647bdf80b2bfecb464378dca6.png)
+![](pat-appt-wizard-tab.images/image1.png)
 
 Fill out the registration screen fields and click the **Save** button at the bottom.
 
@@ -40,11 +40,11 @@ It then goes to the *Appointment Wizard* screen for this new registered patient.
 
 Manual Registration in {{% system-name %}} shows this new registered patient in {{% system-name %}} only. It will not merge/appear in any other practice management system that your company uses (example: Medical Manager, Experior, Medic, etc.)
 
-![](../../external_files/1b2cada98a031dc44a3de17617b89019.png)
+![](pat-appt-wizard-tab.images/image2.png)
 
 Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled *Adding An Appointment Using Wizard Tab.pdf*
 
 If you click the **Close** button in the Appointment Wizard screen without making an appointment—it will still save/keep the patient registration you just did manually and still puts that patient in {{% system-name %}} as a registered patient. You will see the message the patient was successfully added and you have the option to return to the scheduler if you didn't add an appointment thru the wizard.
 
-![](../../external_files/6e4bc2c56f37fb49e8250401421f9e79.png)
+![](pat-appt-wizard-tab.images/image3.png)
 

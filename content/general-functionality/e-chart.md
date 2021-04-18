@@ -1,10 +1,10 @@
 ---
 title: "E-Chart"
-date: 2020-02-27T19:44:20.933Z
+date: "2020-02-27T19:44:20.933Z"
 url: "general-functionality/e-chart.html"
-version: 13
-id: 1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU
-source: https://drive.google.com/open?id=1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU
+version: 14
+id: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
+source: "https://drive.google.com/open?id=1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
 menu:
     main:
         name: "E-Chart"

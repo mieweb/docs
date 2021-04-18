@@ -1,16 +1,16 @@
 ---
 title: "Completed Orders Import Tool"
-date: 2020-03-17T02:25:23.687Z
+date: "2020-03-17T02:25:23.687Z"
 url: "general-functionality/system-administration/data-migration/completed-orders-import-tool.html"
-version: 32
-id: 1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI
-source: https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI
+version: 35
+id: "1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI"
+source: "https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI"
 menu:
     main:
         name: "Completed Orders Import Tool"
         identifier: "1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4730
+        weight: 4710
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create completed order records using the Completed Orders CSV API.
 
@@ -38,11 +38,11 @@ Access the Data Import tab found in Control. See the [Data Import Tab](data-imp
 
 Make sure all order items are listed in the import template tool that are part of the panel w/ a completion date, along w/ the representative event order item. Work with your MIE Implementer to import completed orders for Health Surveillance Panel needs.
 
-![](../../../external_files/321cd15604fd57cfe699db7340e8d915.png)
+![](completed-orders-import-tool.images/image1.png)
 
 Importing prior order id's as ‘completed' will show them as completed along w/ the date in the Due List View along w/ the comment from the import tool spreadsheet.
 
-![](../../../external_files/d4630a0fb29386f116f5370fb51492e4.png)
+![](completed-orders-import-tool.images/image2.png)
 
 ## Specifications
 

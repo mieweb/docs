@@ -1,10 +1,10 @@
 ---
 title: "PDF Documents"
-date: 2020-03-05T20:46:46.117Z
+date: "2020-03-05T20:46:46.117Z"
 url: "general-functionality/document-management/documents-and-forms/pdf-documents.html"
-version: 47
-id: 153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY
-source: https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY
+version: 48
+id: "153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY"
+source: "https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY"
 menu:
     main:
         name: "PDF Documents"
@@ -25,7 +25,7 @@ Though users may upload and store any type of file to a chart, certain file type
 
 To add a PDF document to a chart, navigate to the Document Library by clicking any **Add Document** link, found throughout the chart. Once clicked, the library will load, and the **PDF** filter link can be selected to reduce the available documents. Selecting the PDF filter link will show only document types that are available to upload as a PDF file.
 
-![](../../../external_files/5e27f4054c73da578464e9a093433fb6.png)
+![](pdf-documents.images/image1.png)
 
 {{% note %}}
 
@@ -36,11 +36,11 @@ If a specific document type is not listed, contact the system administrator to s
 
 Select the document type needing attached and uploaded to the chart by simply clicking the PDF link following the appropriate document name.
 
-![](../../../external_files/9be700bd8541e6e2b414b1c4c2636f12.png)
+![](pdf-documents.images/image2.png)
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
-![](../../../external_files/293e86c1b9ce9fe96202fb4460df7dd7.png)
+![](pdf-documents.images/image3.png)
 
 **Authored By**: Given the proper security permission, use this field to select for whom this PDF document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
@@ -65,7 +65,7 @@ In order to author documents for others, the user must have the Access Control *
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](../../../external_files/ce3aff314ae32d9b093c8e061d2d28b8.png)
+![](pdf-documents.images/image4.png)
 
 {{% info %}}
 
@@ -82,11 +82,11 @@ If the user has a current encounter set in the chart, the Encounter field will a
 
 **Drag n' Drop/Use File Upload**: This field is designed to allow the dragging and dropping of PDF files for upload, or the ability to browse to specific PDF files. The field tends to default to the Drag n' Drop option; however, clicking the **Use File Upload** link will switch to allow users to browse to local PDF files for upload.
 
-![](../../../external_files/17a7a60790ed43bd74f35aa8d08c4ca1.png)
+![](pdf-documents.images/image5.png)
 
 Multiple PDF files can be uploaded to the same chart within this session, if necessary. Any additional files will assume the same Date of Service, Location, Author, etc. To add multiple files, select the initial PDF file using the steps above, then click the **Add Another File** button, and repeat the same steps to find the necessary file(s) for upload.
 
-![](../../../external_files/6912fddc7b2f378f38806d4d7e2b4edb.png)
+![](pdf-documents.images/image6.png)
 
 Once the PDF(s) have been selected for upload, click the **Add Document** button. This will upload the document(s) into the chart and will display a confirmation message of successful upload.
 

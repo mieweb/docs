@@ -1,17 +1,17 @@
 ---
 title: "Device Interface - Welch Allyn CardioPerfect"
-date: 2020-02-27T21:28:10.618Z
+date: "2020-02-27T21:28:10.618Z"
 url: "general-functionality/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.html"
 author: aquandt
-version: 17
-id: 1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8
-source: https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8
+version: 20
+id: "1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8"
+source: "https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8"
 menu:
     main:
         name: "Device Interface - Welch Allyn CardioPerfect"
         identifier: "1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5590
+        weight: 5570
 ---
 This page describes the interface between Enterprise Health (EH) and the Welch Allyn EKG and Spirometry Monitoring system known as CardioPerfect.
 
@@ -58,7 +58,7 @@ A list of devices known to work with this interface:
         * Date Format
         * File types:
             * Image Type = TIF
-            * Check all boxes under Image and XML  ![](../../../external_files/57d79f7b6dbed0da58153e4cfa2a8470.png)
+            * Check all boxes under Image and XML  ![](device-interface-welch-allyn-cardioperfect.images/image1.png)
 * CardioPerfect runs MSSQL on the PC. Some implementations may be talking to a database remotely and multiple machines sharing the same DB.
 
 ## EH Setup

@@ -1,29 +1,29 @@
 ---
 title: "Alerts Tab - Warnings"
-date: 2020-02-27T21:12:42.458Z
+date: "2020-02-27T21:12:42.458Z"
 url: "general-functionality/e-chart/alerts-tab-warnings.html"
 author: aquandt
-version: 27
-id: 1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0
-source: https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0
+version: 28
+id: "1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0"
+source: "https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0"
 menu:
     main:
         name: "Alerts Tab - Warnings"
         identifier: "1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0"
         parent: "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU"
-        weight: 1010
+        weight: 1000
 ---
 In the patient's ‘Summary' chart tab is a portlet named *Warnings/Alerts* where you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, guidelines (scripted rules) etc. for the patient.
 
-![](../../external_files/2cbea98948527a18e47588ba7d1b205a.png)
+![](alerts-tab-warnings.images/image1.png)
 
 Also, as a separate chart tab in the patient's chart, is a chart tab named ‘Warnings', you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, etc. for the patient.
 
-![](../../external_files/ea9a50ec054bf5bde2b4e1815e3bcf9a.png)
+![](alerts-tab-warnings.images/image3.png)
 
 The warnings section also shows in the encounter (point & click) exam. Contact your MIE Implementer if you want it programmed on any encounter.
 
-![](../../external_files/bf1cb7f245e852de1597fc03197e7cca.png)
+![](alerts-tab-warnings.images/image4.png)
 
 Drug interaction warnings and Allergy warnings will also appear in E-Meds module when adding an allergy/intolerance or prescribing a med, or in the patient's medication history. {{% system-name %}} can generate a warning stating contraindications and duplicate therapies, so we encourage entering allergies for patients and current meds the patient is taking.
 
@@ -35,15 +35,15 @@ This shows the last time we have updated the Drug database (not the rxdb as a wh
 
 For more information on how to use the Drug Guide Search, please see our [Drug Guide Search](../medication-management-and-e-prescribing/drug-guide-search.html) help documentation.
 
-![](../../external_files/a6c94fdebda62bc8d59c4a431bbb84ee.png)
+![](alerts-tab-warnings.images/image5.png)
 
 The warnings automatically sort and default to order by Severity. Guidelines are scripted rules that MIE can program for you based on specific things you want to be alerted for on your patients based on different criteria and conditions. Contact your MIE Implementer if you wish to have a scripted rule/guideline programmed for your practice/specialty.
 
-![](../../external_files/ea9a50ec054bf5bde2b4e1815e3bcf9a.png)
+![](alerts-tab-warnings.images/image6.png)
 
-Hovering your mouse over the  help icon will pop-up a monolog more detailed information about that specific warning/alert.
+Hovering your mouse over the ![](alerts-tab-warnings.images/image7.png) help icon will pop-up a monolog more detailed information about that specific warning/alert.
 
-![](../../external_files/67b4d6274890dfe33446eee8e6ca7e51.png)
+![](https://lh6.googleusercontent.com/J-ag2duJImf8yMn6Wz8Ufka9LFWn8-DwuRzyGd1moza45VYX1CDLVqq8Mtf8ZiEK-njl_uDONsDfT7vT99nAEeDrYv0IXmwV1GnCCdahqlcSKncgH3v3eNq7frZZDRaow4Mz3zOddqbWyrKtEg)
 
 If a Drug interaction warning or Allergy warning appears in a patient's chart while prescribing or documenting.
 
@@ -51,11 +51,11 @@ If a Drug interaction warning or Allergy warning appears in a patient's chart wh
 
 Based on your security permission in {{% system-name %}} , you may be able to dismiss warnings for the patient only or for all patients or not at all.
 
-![](../../external_files/f6dc58099ecde671f2bec4ad7ebd8424.png)
+![](https://lh4.googleusercontent.com/3xtskjmqJ8thsGfa9qBdlJqIPhbql6YmAuZEpg8ZCiRjeG2cLOnD1nZDEmhw8JuzdJ8MFeIB-BALA3TjGxcglIvLwC8_ObYhGCi-J-jy0U9na_hd081nRWllGrsDe9zwrIjLp-ZGXGDyPtPTcw)
 
 Most practices give the nurses/MA's the right to dismiss for ‘this patient' and give the physician's the higher security to dismiss ‘for all patients'.
 
-![](../../external_files/ea9a50ec054bf5bde2b4e1815e3bcf9a.png)
+![](https://lh6.googleusercontent.com/pJ9CNeeyfH9Q5BsFRUi2RSTMq5hF6w7LL7LDUKqtl5ln8SlHjn2PrzUtdLGMu1RYrklhHmPZ6XabI3s__xh8NZfMIoRaTZie_Th3GQmOwtn7SfBpE8Bht71rmzz6nXj2VZdiEO-8mOxMT1T-zg)
 
 MIE cannot hide or remove the warnings.  To be an e-prescribe system and per the guidelines, etc we are to generate these interactions and warnings.  These warnings are required. These warnings also display/print on the Med Sheet. The system is telling you a warning, contraindication, interaction or duplicate therapy.
 
@@ -63,7 +63,7 @@ If you wish to dismiss it, you would do the following steps (if you have securit
 
 Usually, the Physician has been set with security rights to dismiss all levels.  The physician can dismiss the warning for that specific patient only.  Or the physician can dismiss the specific warning for all patients via him or all users.
 
-![](../../external_files/58783049570c0079aa296c5130b4a4a3.png)
+![](https://lh6.googleusercontent.com/68BSEIUODEcQ-JZpNwT33Kq50QIrJ01xJiNbqjPh2kcKi3lB7HPVhLHifWX5NkDM639t_ROnCaFv6NcfaBl-VPE9j5IuvHJpVHtWsUt7wZSX5w0PlLn0esnSb5dj-Nm7bTToSmVRReCjgE2pKA)
 
 Usually, the nurses have been set with security rights to dismiss warnings only for that specific patient only (doesn't affect all other patients).
 
@@ -75,27 +75,27 @@ If you wish to dismiss, go into the specific patient's chart and click the dismi
 
 Warnings should only be dismissed by nurse's or MD's. The *Reason for Dismissing* field should be filled out for why you are dismissing the warning. It will accept free text, but it will also auto-complete and give you choices of previous entries of reasons why warnings were dismissed (it saves previous reasons for dismissing entries if a dismissing reason was typed in twice exactly the same).
 
-![](../../external_files/2cbea98948527a18e47588ba7d1b205a.png)
+![](https://lh3.googleusercontent.com/vS-dNSM0EzTzVoXC2Jh_k5-k1Y_sHZdwU7QGsHznuNtqVt4rZTwwZkHfkm6KtlOVc7SJAoszGAF5V9r2Cyxbf0nw-rynJmmusoHZ86kQgb4_bbF7fMCTtq-hwAqqWqsQ_Xh8qCs0xN7zHcbc9A)
 
-![](../../external_files/45dc05518494402b8e61b822563a3cbc.png)
+![](https://lh3.googleusercontent.com/_em41_gFbixzIlMIP9cVSzM2iXxx9OWa52sMDiId-KtYjDk8-sAGRifhgtdu2GCR8lMJSQFPPyUmmU5oaIDCxX2fPShLpUCzE_U5napf2ldy_GW-T7P2nEQGI3LYWo2yPL_dzdcVjBSBn6Iqdw)
 
 ## Dismiss Guideline Warnings
 
 Based on your security permission in {{% system-name %}} , you may be able to dismiss warnings for the patient only or for all patients or not at all.
 
-![](../../external_files/f6dc58099ecde671f2bec4ad7ebd8424.png)
+![](https://lh4.googleusercontent.com/3xtskjmqJ8thsGfa9qBdlJqIPhbql6YmAuZEpg8ZCiRjeG2cLOnD1nZDEmhw8JuzdJ8MFeIB-BALA3TjGxcglIvLwC8_ObYhGCi-J-jy0U9na_hd081nRWllGrsDe9zwrIjLp-ZGXGDyPtPTcw)
 
 Dismissing Guideline alerts/warnings on a patient's chart are different than dismissing drug/allergy warnings. You can dismiss from the warnings/alerts portlet, warnings chart tab, or warnings section from encounters.
 
-![](../../external_files/2cbea98948527a18e47588ba7d1b205a.png)
+![](https://lh3.googleusercontent.com/vS-dNSM0EzTzVoXC2Jh_k5-k1Y_sHZdwU7QGsHznuNtqVt4rZTwwZkHfkm6KtlOVc7SJAoszGAF5V9r2Cyxbf0nw-rynJmmusoHZ86kQgb4_bbF7fMCTtq-hwAqqWqsQ_Xh8qCs0xN7zHcbc9A)
 
 Click the Dismiss if you wish to dismiss the guideline alert for a patient for any reason.
 
-![](../../external_files/1a3a1d5923e71b29eaffb050bd1fa150.png)
+![](https://lh5.googleusercontent.com/1qvSI2u2Wu5-YEW2wUI01B2ZtLQ2BgLqIQbkBl0T9wsp5iQ3rDNC3AROsLSURZWj7OxNNkJEo3AwvAp_nlzMQmkabn3lKEkzhpUAwT5dVaN7iLW8U4dktVCbw89EsHHiZTELc0_PtlbzJXmuig)
 
 You then have to type in a reason for dismissing (make sure you are dismissing for only that patient and not all patients w/ that guideline warning/alert).
 
-![](../../external_files/ee7e34ed6a775f5371613d4767b4ca21.png)
+![](https://lh4.googleusercontent.com/NgXdUYe2RGm7t6y1Q0n-2LWBlUKb-3PDX6DHiSGLayrNdCsQzC1d-jtNE9N8Tf-OQyLKAufqbUCdVVyj6EJQ3w6TduCvuTrCLUbrqyBBJf6V6iKSgCubgodudjygdun7EB7s3xGZzpbjR94_mQ)
 
 Resume Warning: Enter a date you want the Warning to reappear on the patient's chart. This warning will reappear on the day selected/entered. The date is when you want the alert dismissed until.  So the alert will not display again until the date that is entered. Blank means never. Leaving this date blank and submitting the dismissal will mean the warning will never reappear for this patient.
 

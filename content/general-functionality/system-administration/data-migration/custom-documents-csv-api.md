@@ -1,16 +1,16 @@
 ---
 title: "Custom Documents CSV API"
-date: 2020-02-27T21:00:26.519Z
+date: "2020-02-27T21:00:26.519Z"
 url: "general-functionality/system-administration/data-migration/custom-documents-csv-api.html"
-version: 14
-id: 1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0
-source: https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0
+version: 15
+id: "1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0"
+source: "https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0"
 menu:
     main:
         name: "Custom Documents CSV API"
         identifier: "1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5160
+        weight: 5140
 ---
 Custom documents can be designed at the storage type level. When a layout is present in the system with module=Storage Type and name=<storage type>, this layout will be used to render the document.
 

@@ -1,22 +1,22 @@
 ---
 title: "Deleting an Existing Case"
-date: 2020-03-13T13:47:35.461Z
+date: "2020-03-13T13:47:35.461Z"
 url: "general-functionality/injury-care/case-management/deleting-an-existing-case.html"
-version: 43
-id: 1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk
-source: https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk
+version: 44
+id: "1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk"
+source: "https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk"
 menu:
     main:
         name: "Deleting an Existing Case"
         identifier: "1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk"
         parent: "16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8"
-        weight: 1690
+        weight: 1670
 ---
 ## Cases
 
 A Case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
 
-![](../../../external_files/bf75431536cd1d26b1e8c352873a6ef2.png)
+![](deleting-an-existing-case.images/image1.png)
 
 
 
@@ -28,7 +28,7 @@ The dynamic encounters offer a Case section.  To see the listing of cases/incid
 
 
 
-![](../../../external_files/ba1643eb1188310ef4027dd82964ce74.png)
+![](deleting-an-existing-case.images/image2.png)
 
 
 
@@ -38,7 +38,7 @@ Closing a case is different than deleting a case.  To close a case, please refe
 
 
 
-![](../../../external_files/51e00262d3f4562e4da69349fbb7c463.png)
+![](deleting-an-existing-case.images/image3.png)
 
 
 
@@ -53,7 +53,7 @@ To delete a case, click the Delete hyperlink found in the options column of the 
 
 
 
-![](../../../external_files/9540d0bd92478ad11a42b1dcd34591a4.png)
+![](deleting-an-existing-case.images/image4.png)
 
 
 
@@ -68,7 +68,7 @@ Deleting a case should be taken very seriously and make sure it's indeed what ne
 
 
 
-![](../../../external_files/c95187b59430bd279cbc977916df508f.png)
+![](deleting-an-existing-case.images/image5.png)
 
 
 
@@ -76,7 +76,7 @@ The case deleted will display in the list view with a strikethrough.
 
 
 
-![](../../../external_files/fa84b3271727b9317bbd22913c4a3c17.png)
+![](deleting-an-existing-case.images/image6.png)
 
 
 
@@ -88,7 +88,7 @@ You can also delete a case from the Cases chart tab when working in a chart.  T
 
 
 
-![](../../../external_files/ad2d97b567488dd53767bada7e6f0f25.png)
+![](deleting-an-existing-case.images/image7.png)
 
 
 
@@ -96,20 +96,20 @@ To delete an open or closed case from the Cases chart tab, simply click the Dele
 
 
 
-![](../../../external_files/2a064e87713a422178b791ae68fa5c3b.png)
+![](deleting-an-existing-case.images/image8.png)
 
 
 
 A pop-up window will display to confirm deleting the selected case.  To delete a case, type the word Yes into the confirm box.  Then one must document a reason for deleting the case.  Upon the required fields being filled out, the case will be permanently deleted, all revision history for it along with any links to the case that may be in the chart.
 
 
-![](../../../external_files/c95187b59430bd279cbc977916df508f.png)
+![](deleting-an-existing-case.images/image9.png)
 
 The case deleted will display in the list view with a strikethrough.
 
 
 
-![](../../../external_files/4da8099b3c4e2fd262059a8638885030.png)
+![](https://lh3.googleusercontent.com/Gyt85tUqOcgEIvlCJ2CgipnijiKW4Q0CY1y40RFeiGL0L-J-CUCfgW9F90jr6NV_K94jlAkiUoe5ghyfMb99pEDSLPFiuj7mkbzJFUuN2H0s4BDZ2eHsPYrNj_z4-ghJN6erji6ewTA8aSsuyQ)
 
 
 

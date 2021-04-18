@@ -1,17 +1,17 @@
 ---
 title: "Observations Validation Test Script"
-date: 2020-02-28T15:30:47.082Z
+date: "2020-02-28T15:30:47.082Z"
 url: "general-functionality/system-administration/data-migration/observations-validation-test-script.html"
 author: aquandt
-version: 44
-id: 1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM
-source: https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM
+version: 45
+id: "1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM"
+source: "https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM"
 menu:
     main:
         name: "Observations Validation Test Script"
         identifier: "1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5220
+        weight: 5200
 ---
 This document is intended to describe and assist users with the process to validate discrete observations imported from another system.
 
@@ -57,22 +57,22 @@ Some charts/records may not have all data elements, and in some circumstances, t
 ## Validation Instructions ([video](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing))
 
 * Log into the {{% system-name %}} system.
-* Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.  ![](../../../external_files/ba2565ae7f28ae2bc3deb4d5c9e480f3.png)  {{% tip %}}
+* Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.  ![](observations-validation-test-script.images/image1.png)  {{% tip %}}
     * Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
     * Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.html) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.html).)
 
 {{% /tip %}}
 
 
-* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](../../../external_files/fc4a55c6aa34edbba920cbc5479b0638.png) 
-* Select <strong>Observations/Flowsheets</strong> from the Medical Record chart tab.  ![](../../../external_files/4a1cf8620e05c10d54ca4e1cc982851c.png)   
+* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](observations-validation-test-script.images/image2.png) 
+* Select <strong>Observations/Flowsheets</strong> from the Medical Record chart tab.  ![](observations-validation-test-script.images/image3.png)   
 
 {{% tip %}} The number in parenthesis indicates the number of items in each tab.  {{% /tip %}}
 
-* The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.  ![](../../../external_files/a8a891b30173b8665c299e4d2a45b7e9.png)  {{% tip %}}
-* Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page. ![](../../../external_files/686cd64c35ae0cbf81a9164ec2036efd.png)![](../../../external_files/2d6dfaa487ff4a44b2cb71bb809b2ef7.png) 
-    * To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.html).)  ![](../../../external_files/95943c8a01861746e847325b8344a325.png) 
-    * Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.html) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.  ![](../../../external_files/7a3d7a792280ac0b43358e1ed5f1e98f.png)
+* The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.  ![](observations-validation-test-script.images/image4.png)  {{% tip %}}
+* Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page. ![](observations-validation-test-script.images/image5.png)![](observations-validation-test-script.images/image6.png) 
+    * To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.html).)  ![](observations-validation-test-script.images/image7.png) 
+    * Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.html) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.  ![](observations-validation-test-script.images/image8.png)
 
 {{% /tip %}}
  
@@ -92,8 +92,8 @@ Reports ([video](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8
 The [Patient Observations report](../../reports/observations-report.html) is particularly helpful in validating data between systems. To access and utilize this report:
 
 * Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](../../../external_files/452b37ab31bffc744a78834dc2bd8bd9.png)
-* Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen.   ![](../../../external_files/00264f0ec0ad27a4850e9aa473591d25.png)
+* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](observations-validation-test-script.images/image9.png)
+* Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen.   ![](observations-validation-test-script.images/image10.png)
 
 ## FAQs
 
@@ -101,7 +101,7 @@ The [Patient Observations report](../../reports/observations-report.html) is par
 
 **A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/observations-report-7345005.html), described above, to search specific observation values. Otherwise, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.html) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
-![](../../../external_files/7a3d7a792280ac0b43358e1ed5f1e98f.png)
+![](https://lh3.googleusercontent.com/is4FEPxfSYPpipeihs4zmcD_RGjAy_s13j8qOit9qqM1AbVgl_GUBX9duoCr_LwmTkHbrMVvFI-cJps55jFz9DNpFrZYGAnmFuUddATgoZ-A7Zhv3tJYzhZ1KoRpuomdKDZ64AGt3UNxO0X46w)
 
 **Q: **Why are some observations only listed once, even though they apply across all dates (e.g., Race, Ethnicity, Email, etc.)?
 

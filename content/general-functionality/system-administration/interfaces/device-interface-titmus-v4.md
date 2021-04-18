@@ -1,17 +1,17 @@
 ---
 title: "Device Interface - Titmus V4"
-date: 2020-02-27T21:33:11.490Z
+date: "2020-02-27T21:33:11.490Z"
 url: "general-functionality/system-administration/interfaces/device-interface-titmus-v4.html"
 author: aquandt
-version: 26
-id: 1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo
-source: https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo
+version: 27
+id: "1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo"
+source: "https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo"
 menu:
     main:
         name: "Device Interface - Titmus V4"
         identifier: "1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5600
+        weight: 5580
 ---
 This page provides instructions for interfacing the Titmus V4 Vision Screener with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable. 
 
@@ -28,10 +28,10 @@ The Titmus V4 Screener device interface uses the Titmus Software, which will nee
 
 * Open the Titmus Software.   
 * Click the Config icon.   
-* Click <strong>Integration</strong>.  ![](../../../external_files/0b604b00c890dbb515416af417accd92.png)   
-* Select <strong>Vision (out)</strong> by placing a check in the corresponding box.  ![](../../../external_files/f5fd57e8845622a28b8cf0b78b4f1980.png)   
-* Expand the list under Integration and select <strong>File</strong>.  ![](../../../external_files/4fca17b9ba63b601b180a2da3a335d8d.png)   
-* Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](installing-mie-device-app.html).  ![](../../../external_files/b634e7eb1b4e0163e431470e52735e15.png)   
+* Click <strong>Integration</strong>.  ![](device-interface-titmus-v4.images/image1.png)   
+* Select <strong>Vision (out)</strong> by placing a check in the corresponding box.  ![](device-interface-titmus-v4.images/image2.png)   
+* Expand the list under Integration and select <strong>File</strong>.  ![](device-interface-titmus-v4.images/image3.png)   
+* Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](installing-mie-device-app.html).  ![](device-interface-titmus-v4.images/image4.png)   
 * Click <strong>Apply</strong>.   
 * Click <strong>Close</strong>.
 
@@ -111,9 +111,9 @@ The following data fields are collected in {{% system-name %}} using the Titmus
 
 ## Using the Device Interface
 
-* While in a chart, add a <strong>Vision Screening</strong> order to the Due List.  ![](../../../external_files/bd458f5bee089fcc102e4697ce9673d1.png)   
-* While in the encounter, add the <strong>Vision Screening</strong> order to the exam from the Tests & Procedures section.  ![](../../../external_files/34122fe028ef7f79b279360300d68f25.png)   
-* In the Vision Screening section, click the <strong>Automatic</strong> link.  ![](../../../external_files/54fc17a60bfe31fdcb908a7c1b282ee6.png)   
+* While in a chart, add a <strong>Vision Screening</strong> order to the Due List.  ![](device-interface-titmus-v4.images/image5.png)   
+* While in the encounter, add the <strong>Vision Screening</strong> order to the exam from the Tests & Procedures section.  ![](device-interface-titmus-v4.images/image6.png)   
+* In the Vision Screening section, click the <strong>Automatic</strong> link.  ![](device-interface-titmus-v4.images/image7.png)   
 * Click the <strong>Titmus V4</strong> button.   
 * Perform test in the Titmus Software as instructed in the device operation manual.   
-* After completed, the results will be automatically uploaded to {{% system-name %}} and the Vision Screening section will update with the results.  ![](../../../external_files/d4204100c9460f0d20322b3a837628f5.png)
+* After completed, the results will be automatically uploaded to {{% system-name %}} and the Vision Screening section will update with the results.  ![](device-interface-titmus-v4.images/image8.png)

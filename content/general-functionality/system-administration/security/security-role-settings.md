@@ -1,17 +1,17 @@
 ---
 title: "Security Role Settings"
-date: 2020-03-10T14:14:41.266Z
+date: "2020-03-10T14:14:41.266Z"
 url: "general-functionality/system-administration/security/security-role-settings.html"
 author: aquandt
-version: 33
-id: 1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM
-source: https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM
+version: 36
+id: "1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM"
+source: "https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM"
 menu:
     main:
         name: "Security Role Settings"
         identifier: "1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM"
         parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
-        weight: 5240
+        weight: 5220
 ---
 The {{% system-name %}} system is HIPAA compliant and the role based access control security determines who can access the EHR system, and which features of the system the staff member may use. The {{% system-name %}} administrator can allow or limit staff access to patient information, lab results and {{% system-name %}} modification features. Security roles can be defined for an entire department such as physicians, reception, outside guests such as hospitals, or roles can be customized individually.
 
@@ -29,7 +29,7 @@ Select the security role that you wish to change security settings for by clicki
 
 
 
-![](../../../external_files/599a18fc84d255d80c1253161f1f6760.png)
+![](security-role-settings.images/image1.png)
 
 
 
@@ -44,7 +44,7 @@ Security setting changes being made to the security role here, affect every user
 {{% /note %}}
 
 
-![](../../../external_files/8af587c8adb811c7250750fc9f5e4f7b.png)
+![](security-role-settings.images/image2.png)
 
 
 
@@ -52,7 +52,7 @@ When finished changing any security settings for the entire role, scroll down to
 
 
 
-![](../../../external_files/f27407071ff57182a89512a9c8969bd8.png)
+![](security-role-settings.images/image3.png)
 
 
 
@@ -70,7 +70,7 @@ Search for the specific user from Access Control using various search methods av
 
 
 
-![](../../../external_files/740b561957e38fb42d31c3f00c7825ef.png)
+![](security-role-settings.images/image4.png)
 
 
 
@@ -78,7 +78,7 @@ Once the specific user has been located, click Edit on their user line at the fa
 
 
 
-![](../../../external_files/ad26b734362c75a09f12fdd953011e97.png)
+![](security-role-settings.images/image5.png)
 
 
 
@@ -86,7 +86,7 @@ After clicking Edit, the system takes you to the edit screen of their user detai
 
 
 
-![](../../../external_files/321b405d9c08631548294514cb99ee22.png)
+![](security-role-settings.images/image6.png)
 
 
 
@@ -94,7 +94,7 @@ The Individual Security settings screen for that user will open. Select any secu
 
 
 
-![](../../../external_files/6caac03c03e9eb83eb7eb60444480c2f.png)
+![](security-role-settings.images/image7.png)
 
 
 
@@ -521,7 +521,7 @@ When done making changes to security permissions, you must type in a reason for 
 
 
 
-![](../../../external_files/320be844827b8d397bade40a74006ef8.png)
+![](security-role-settings.images/image8.png)
 
 
 

@@ -1,11 +1,11 @@
 ---
 title: "Document Properties"
-date: 2020-02-27T21:10:00.312Z
+date: "2020-02-27T21:10:00.312Z"
 url: "general-functionality/document-management/documents-and-forms/document-properties.html"
 author: aquandt
-version: 43
-id: 1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s
-source: https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s
+version: 44
+id: "1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s"
+source: "https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s"
 menu:
     main:
         name: "Document Properties"
@@ -15,17 +15,17 @@ menu:
 ---
 Every document contains metadata that identifies the document or describes the data of the document. These details are found in the document properties. The document properties accessed by clicking the **Properties** link, found in the upper-right corner of the stored document.
 
-![](../../../external_files/d52c89b062c7213ecf3dab25172371d0.png)
+![](document-properties.images/image1.png)
 
 After clicking the **Properties** link, the page will display all of the general properties of the document, as well as additional properties sections, such as revision history, encounters linked to the document, orders linked to the document, current routes for the document, etc.
 
-![](../../../external_files/fb409fc9ae2b8cf5ab91484215d04765.png)
+![](document-properties.images/image2.png)
 
 ## Document Properties Fields
 
 The following explains the various fields available in the document properties. These fields are those found at the top of the *Properties* page.
 
-![](../../../external_files/6d2467fdaaff9f842f3c9d3108a8ade0.png)
+![](document-properties.images/image3.png)
 
 **Document ID**: The document identifier, or document ID, is often referred to as doc ID, or some variation thereof. Every document that is created has a unique identifier. This document identifier can be found throughout the system as a hyperlink. Clicking the document ID link will take users directly into the document view. The document view displays limited document properties, such as revision number, author, date of service, created by, creation date, and location. However, to view additional properties, or specific details, click the Properties link and locate the necessary information. Any previous versions, or revisions, can be viewed by simply clicking the revision number.
 
@@ -39,7 +39,7 @@ The following explains the various fields available in the document properties. 
 
 **Link to Orders**: This field is visible when on the *Edit Properties* screen. The field is an autocomplete, and when an order number is selected, this indicates a pending, incomplete order request is linked, or associated with the document. Using this field to link a pending order with a document will mark the pending, incomplete order as Complete, when the properties are saved. This functionality is also available when using the Add Document quick link. If a link needs to be removed, use the *Orders Linked to Document* section of the *Edit Properties* page. See [Link Document to Order](link-documents-to-order-requests.html) documentation for additional information and details.
 
-![](../../../external_files/1376139ca9b7e766143b4d7b75d0dbb2.png)
+![](document-properties.images/image4.png)
 
 **Interface**: If the document in context originates from an external interface, this field will autopopulate the name of the interface the document originated from.
 
@@ -49,13 +49,13 @@ The following explains the various fields available in the document properties. 
 
 **Needs Signed By**: The {{% system-name %}} system not only offers the ability to electronically sign a document directly, but to request electronic signatures of documents, as well. The *Needs Signed By* field shows those users that are expected to e-sign the document. An **un-request** link is available to remove the e-sign request from the document, if necessary. Also, like the *Signed By* field, the first 15 characters of any comment associated with a signature request will display, though hovering over or clicking the comment will display the comment in its entirety. The information bubble shows from whom and when the request came.
 
-![](../../../external_files/cb24f138ba1ab7e074215b7621490e1f.png)
+![](document-properties.images/image5.png)
 
 **Subject**: The ability to add a subject to a document is a feature that is enabled by default. This field is designed for free-texted subjects, intended to assist with providing context on and searchability of multitudinous documents. To add a subject, simply click the **Add** link in the *Subject* field of the document properties. After free-texting the subject, click the **Save** button. Subjects cannot be added/edited for email documents, because email subjects are created when the email reminder is triggered from system modules. For more details, review the [Adding a Subject to Documents](adding-a-subject-to-documents.html) documentation.
 
 **Case**: Like linking a document to an order, {{% system-name %}} allows users to link cases/incidents to documents, as needed. When on the *Edit Properties* screen, an autocomplete field is available for linking a case/incident to the document in context. If the document is linked to a case/incident, it will display the date and time, as well as the case number the document is linked to. Using the down arrow (↓) in the *Case* field will display all of the existing cases within the chart in context. Link to, or edit which case the document is linked to, by selecting the appropriate one from those available. Check out more information about [Viewing Cases](../../injury-care/case-management/viewing-cases.html), if interested.
 
-![](../../../external_files/02e5aeddc15aee6781e5e7bf25b1b0ea.png)
+![](document-properties.images/image6.png)
 
 **MR#**: This field displays the medical record number of the chart the document is stored within.
 
@@ -73,7 +73,7 @@ The following explains the various fields available in the document properties. 
 
 While viewing the document properties, there are several groupings found toward the lower-half of the properties page. These groupings are intended to offer users a quick and easy method for checking revisions, links, routes, and locks. The following information explains each section and how each is intended to be used.
 
-![](../../../external_files/810390c0dfeaa1afddb5f8a79d647631.png)
+![](document-properties.images/image7.png)
 
 ### Revisions for Document
 
@@ -83,7 +83,7 @@ If any revisions have been done to the document, the *Revisions for Document* se
 
 To view and compare revision versions, or the different versions of the document in context, simply use the **Diff** checkboxes and **View Diff** button. Checkmark which revisions to compare differences between by selecting the appropriate Diff checkboxes. Once the revisions being compared are selected, click the View Diffs button. This button allows for a visual comparison of the changes made between revisions.The changes will be highlighted on the screen for easy viewing.
 
-![](../../../external_files/db51f5564ab977f4dc1cd8ed474a4550.png)
+![](document-properties.images/image8.png)
 
 {{% note %}}
 
@@ -103,7 +103,7 @@ The View Diffs button can be disabled system-wide via the system setting (i.e., 
 
 This *Encounters Linked to Document* section details all encounters linked to the document. The option to remove a link is available by clicking the **Remove Link** hyperlink, found in the *Options* column.
 
-![](../../../external_files/2cbef5a69bbfd4de89ee25bbd9744872.png)
+![](document-properties.images/image9.png)
 
 For more information on how to link documents to encounters, check out [Link Documents to Encounters](link-documents-to-encounters.html).
 
@@ -111,7 +111,7 @@ For more information on how to link documents to encounters, check out [Link Doc
 
 Users can review the document properties to see whether a document is linked to a specific order, as well. The *Orders Linked to Document* section displays each instance the document has been linked to a specific order request. The option to remove the link between order and document is available by clicking the **Remove Link** hyperlink from the *Options* column.
 
-![](../../../external_files/c4e4e9bb59003d3c226d76bf7a2ad22a.png)
+![](document-properties.images/image10.png)
 
 For more information on how to link documents to orders, check out [Link Documents to Orders](link-documents-to-order-requests.html).
 
@@ -121,7 +121,7 @@ The *Document is Linked To* section is particularly helpful to users, because it
 
 To link a document to another document, check out [Link a Document to Another Document](link-documents-to-other-documents.html).
 
-![](../../../external_files/439667a14ca482680477ca2b33685389.png)
+![](document-properties.images/image11.png)
 
 {{% note %}}
 
@@ -138,7 +138,7 @@ If the document is *electronically* transmitted, route details will display in t
 
 For example, if the document route displays an error, or it shows as pending, the **Cancel** link or **Error** link can be used to move the transmission route from the pending queue to the errored queue, removing the route from the list of routes to be retried. Resending can undo this.
 
-![](../../../external_files/891910cf84eec16e37b8ad7cd2e441ff.png)
+![](document-properties.images/image12.png)
 
 If the document routed successfully, the status will display *Complete* and the only available options would be to Resend or Deactivate in the event of any transmission or communication errors.
 
@@ -148,13 +148,13 @@ For more information and to set up error and alert notifications, please see our
 
 This section tracks and stores all routing that has been done with the document, displaying all relevant information pertaining to the datasend route, such as by which method the document was sent, when it was sent, as well as what *send-on* criteria the route followed.
 
-![](../../../external_files/a2e930937190fb0659cc0864c242c615.png)
+![](document-properties.images/image13.png)
 
 ### Edit Lock on Document
 
 With the appropriate security permissions, users can view and manage document locks. If the document is locked, this section would show by whom, when, and how long the document has been locked, giving the user the ability to remove the lock, as needed.
 
-![](../../../external_files/5763cbf82999a00c89e68d701644b13f.png)
+![](document-properties.images/image14.png)
 
 For more information, see the [Delete/Move/Lock Documents](delete-move-lock-documents.html) documentation.
 
@@ -162,5 +162,5 @@ For more information, see the [Delete/Move/Lock Documents](delete-move-lock-docu
 
 This section shows all the fax history for the document. It will only display if there is fax history to present for the document.
 
-![](../../../external_files/e01de535c266618561bad5236212bd37.png)
+![](document-properties.images/image15.png)
 

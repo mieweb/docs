@@ -1,17 +1,17 @@
 ---
 title: "Single Sign-On Login Trust"
-date: 2020-02-27T21:22:18.806Z
+date: "2020-02-27T21:22:18.806Z"
 url: "general-functionality/system-administration/security/single-sign-on-login-trust.html"
 author: aquandt
-version: 27
-id: 1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM
-source: https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM
+version: 28
+id: "1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM"
+source: "https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM"
 menu:
     main:
         name: "Single Sign-On Login Trust"
         identifier: "1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM"
         parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
-        weight: 5300
+        weight: 5280
 ---
 The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.
 
@@ -35,7 +35,7 @@ For additional client requirements information, see our [SAML-based SSO document
 
 {{% system-name %}} is able to publish it's SAML SP metadata in three ways: an Internet URL, a file download which may be emailed to the client or block of text which may be copy/pasted in communications to the client.
 
-![](../../../external_files/c4078ba6c7d555c3b2937a6dfda6a89b.png)
+![](single-sign-on-login-trust.images/image1.png)
 
 Once this metadata has been shared with them, most IDPs will then share their metadata with us.
 
@@ -43,19 +43,19 @@ Once this metadata has been shared with them, most IDPs will then share their me
 
 The IDP metadata file will be imported into the {{% system-name %}} system via the Import Metadata link in the Login Trusts editor.
 
-![](../../../external_files/dd3b9d3ddad6419e52afc9689bc0d494.png)
+![](single-sign-on-login-trust.images/image2.png)
 
 The relevant data will be extracted from the metadata file and displayed in the Add Login Trust screen, as described below in Login Trust Fields.
 
-![](../../../external_files/77291c383d82c2855677736159b34e7a.png)
+![](single-sign-on-login-trust.images/image3.png)
 
 Verify the information and then click the Submit button at the bottom.
 
-![](../../../external_files/acae19d0df556df47117f5d9701c1505.png)
+![](single-sign-on-login-trust.images/image4.png)
 
 The SAML IDP will now be available on the system's Login page under the Remote Log In heading.
 
-![](../../../external_files/b4151fdde14b4322dc3a9c006e368614.png)
+![](single-sign-on-login-trust.images/image5.png)
 
 ## Removing the Login page
 
@@ -63,13 +63,13 @@ Once an SSO connection has been configured and tested, the  login page can now 
 
 In the listing of the Login Trusts editor, there is an option for "Make Default". This link is used to disable the login page and direct all authentication requests to that specific SSO server.
 
-![](../../../external_files/34a0d90f23d11f23572a33059d1a3d38.png)
+![](single-sign-on-login-trust.images/image6.png)
 
 ## Login Trust Fields
 
 The {{% system-name %}} **Add Login Trust** screen displays the following options:
 
-![](../../../external_files/60c4a739669b704f7e9dd94e65524fe2.png)
+![](single-sign-on-login-trust.images/image7.png)
 
 The following list provides details and insight on using the fields available on the Add Login Trust screen:
 
@@ -157,9 +157,9 @@ To create a login trust for SSO:
 * Open the SAML metadata file provided by the client.
 * Log into the system.
 * Navigate to the <strong>Control Panel</strong> on the left side menu.
-* Click the <strong>Login Trusts</strong> tab.  ![](../../../external_files/867cbe88510ee77ebe0e0da15613a0bb.png)
+* Click the <strong>Login Trusts</strong> tab.  ![](single-sign-on-login-trust.images/image8.png)
 * Click the <strong>Add Login Trust </strong>link, in the top-right of the page.
-* In the received metadata file, search for <strong>entityID</strong>, to locate the <strong>Domain</strong>.  ![](../../../external_files/9a11adebc95ba79927d13240e42e0856.png)
+* In the received metadata file, search for <strong>entityID</strong>, to locate the <strong>Domain</strong>.  ![](single-sign-on-login-trust.images/image9.png)
 * Enter that URL into the <strong>Domain</strong> field.
 * Enter the appropriate client information into the <strong>Description</strong> field.
 * Select the <strong>Allow SAML requests from this domain</strong> checkbox.

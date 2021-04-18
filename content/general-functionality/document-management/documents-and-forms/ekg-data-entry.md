@@ -1,10 +1,10 @@
 ---
 title: "EKG Data Entry"
-date: 2020-03-06T20:29:53.003Z
+date: "2020-03-06T20:29:53.003Z"
 url: "general-functionality/document-management/documents-and-forms/ekg-data-entry.html"
-version: 32
-id: 1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY
-source: https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY
+version: 33
+id: "1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY"
+source: "https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY"
 menu:
     main:
         name: "EKG Data Entry"
@@ -34,12 +34,12 @@ To access and utilize a bubble form for recording information, simply navigate t
 1. While in the appropriate chart, access and print the EKG bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
 
-![](../../../external_files/76237b80a61f8f59738859a7c35a1d45.png)
+![](ekg-data-entry.images/image1.png)
 
 3. Print out the bubble form.
 4. Record the results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](../../../external_files/0353fffe32f90d4311ab2f0c86102e36.png)
+![](ekg-data-entry.images/image2.png)
 
 {{% info %}}
 
@@ -56,25 +56,25 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 This method of data entry can be achieved by checking the EKG order on the **Due List**, found in the Tests & Procedures section of the encounter, then using the **Add to Exam** button, to allow for manual entry or device import.
 
-![](../../../external_files/e901051b141bb9a1add22479b8e9f184.png)
+![](ekg-data-entry.images/image3.png)
 
 If the EKG is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter via the **Add to Exam** button.
 
-![](../../../external_files/9da26e1955abca7f597c20249151e7f5.png)
+![](ekg-data-entry.images/image4.png)
 
 Alternatively, the EKG may be selected using the **Picklist** icon by selecting the order from the list and adding it to the encounter.
 
-![](../../../external_files/4efadef60f79b5317dab5228c1efcd59.png)
+![](ekg-data-entry.images/image5.png)
 
 Once the EKG test/procedure has been applied to the encounter, EKG data fields open for data entry in the visit encounter.
 
-![](../../../external_files/962319b063933b222defc694dd14281e.png)
+![](ekg-data-entry.images/image6.png)
 
 ### Import EKG Data From Device
 
 When accessing the **Test Results** chart tab after adding a new EKG, there is the ability to either enter the data manually, or upload results from a device, if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load CardioPerfect** import button when the EKG procedure is added to the visit encounter. Select the appropriate file and click **Upload File**.
 
-![](../../../external_files/bea20c3b96b88beb9676630bf6d60ca7.png)
+![](ekg-data-entry.images/image7.png)
 
 For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – EKG System](../../system-administration/interfaces/device-interface-ekg-system.html).
 
@@ -82,5 +82,5 @@ For more information on device interfaces and file uploads, see the help documen
 
 These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The EKG Report is available here, for example.
 
-![](../../../external_files/56552f933dfd0467643187786c7d775c.png)
+![](ekg-data-entry.images/image8.png)
 

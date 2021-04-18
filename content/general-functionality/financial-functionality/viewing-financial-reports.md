@@ -1,11 +1,11 @@
 ---
 title: "Viewing financial reports"
-date: 2021-02-18T19:11:41.072Z
+date: "2021-02-18T19:11:41.072Z"
 url: "general-functionality/financial-functionality/viewing-financial-reports.html"
-author: Edward Grzetich
+author: egrzetich
 version: 14
-id: 1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64
-source: https://drive.google.com/open?id=1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64
+id: "1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64"
+source: "https://drive.google.com/open?id=1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64"
 ---
 If you customize a report using DataVis Grids Data Tools, the customized report will only be available to you.  
 

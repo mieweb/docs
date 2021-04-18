@@ -1,16 +1,16 @@
 ---
 title: "Adding Tasks"
-date: 2020-03-16T15:52:59.061Z
+date: "2020-03-16T15:52:59.061Z"
 url: "general-functionality/task-management/adding-tasks.html"
-version: 72
-id: 1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag
-source: https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag
+version: 73
+id: "1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag"
+source: "https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag"
 menu:
     main:
         name: "Adding Tasks"
         identifier: "1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag"
         parent: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
-        weight: 2360
+        weight: 2340
 ---
 ## Types of Tasks
 
@@ -25,7 +25,7 @@ When in a specific chart, the Add Task link is found in various places.  Adding
 
 
 
-![](../../external_files/f011a03f78434320c1dfc5fbf5ca987a.png)
+![](adding-tasks.images/image1.png)
 
 
 
@@ -37,7 +37,7 @@ To create a generic task regarding a chart, click Add Generic button after havin
 
 
 
-![](../../external_files/01a6a442046b46e94d05b42d4f0479fe.png)
+![](adding-tasks.images/image2.png)
 
 
 
@@ -45,7 +45,7 @@ Generic tasks have blank fields that you can free-text the information needed fo
 
 
 
-![](../../external_files/83aa7aba648052dbe6efa49ed3d1fbea.png)
+![](adding-tasks.images/image3.png)
 
 
 
@@ -72,7 +72,7 @@ Users do not have security permission of View Access for tasks will not appear
 
 
 
-![](../../external_files/8d0f4fae89a247f487a99be5dc09d4cd.png)
+![](adding-tasks.images/image4.png)
 
 
 
@@ -80,41 +80,41 @@ Users do not have security permission of View Access for tasks will not appear
 
 
 
-![](../../external_files/b294839846569f342f47593a7d900aa8.png)
+![](adding-tasks.images/image5.png)
 
 
 
 * Assign this task to a Department and a specific user within that department: If/when you choose a department, the Owner field will display a list of users that are tied to that department selected.  You can then assign a specific user (within that specified department) as the assignee to the task.
     * Use that auto-complete field to select a specific user within that department to assign this task to. You can also click your ↓ down arrow key on your keyboard to view the users within that department so you can select from.
-    * Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done. ![](../../external_files/2592bbfb6cd3c808a6e72e287e48d374.png)
+    * Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done. ![](adding-tasks.images/image6.png)
 
 
 
-* Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the drop-down arrow in Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.   ![](../../external_files/36e25b63748d4e3abdf579499327728c.png)
+* Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the drop-down arrow in Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.   ![](adding-tasks.images/image7.png)
 
 
 
-* Assign this same task to multiple specific users/owners:  You can choose a specific users (owners) to assign the task to.  Each user (owner) assigned the task, must then complete the task. ![](../../external_files/12e4d2c3af645146d1fb7ab92042c36e.png)
+* Assign this same task to multiple specific users/owners:  You can choose a specific users (owners) to assign the task to.  Each user (owner) assigned the task, must then complete the task. ![](adding-tasks.images/image8.png)
 
 
 
-* All Must Acknowledge within a specific department: After selecting a department as an assignee, in the Owner field, there is an option to assign to All must acknowledge.  If you select this, it will assign the task to every single user that is a member of that specific department selected.  This should be used with caution, as all users in that department would have to complete/acknowledge the task. To use this feature, the department must be chosen with the department to be tasked, then in the owner field, click the ↓ down arrow button on your keyboard or start typing the word all to see the All Must Acknowledge choice.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users of a department who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. ![](../../external_files/0d7bc2ce0b5bd49506059bf8f168de1b.png)
+* All Must Acknowledge within a specific department: After selecting a department as an assignee, in the Owner field, there is an option to assign to All must acknowledge.  If you select this, it will assign the task to every single user that is a member of that specific department selected.  This should be used with caution, as all users in that department would have to complete/acknowledge the task. To use this feature, the department must be chosen with the department to be tasked, then in the owner field, click the ↓ down arrow button on your keyboard or start typing the word all to see the All Must Acknowledge choice.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users of a department who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. ![](adding-tasks.images/image9.png)
 
 
 
-* All Must Acknowledge in entire {{% system-name %}} system: If you want to send/assign a task to every user in the entire {{% system-name %}} system, you do not select a specific department, but simply select All Must Acknowledge in the owner field.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. Use this with extreme caution, as this will assign/send the task to every user (who has View Tasking permission) in the entire {{% system-name %}} system.  Users who do not have permission to view tasking will not be tasked when All Must Acknowledge is selected as the user. ![](../../external_files/81ca34a2be8c0097a79c9fc7c5be1724.png)
+* All Must Acknowledge in entire {{% system-name %}} system: If you want to send/assign a task to every user in the entire {{% system-name %}} system, you do not select a specific department, but simply select All Must Acknowledge in the owner field.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. Use this with extreme caution, as this will assign/send the task to every user (who has View Tasking permission) in the entire {{% system-name %}} system.  Users who do not have permission to view tasking will not be tasked when All Must Acknowledge is selected as the user. ![](adding-tasks.images/image10.png)
 
 
 
 When done typing in task details and indicating whom the task should be assigned to, click the Add Task button.
 
-![](../../external_files/6d3f4c9e231675addabf999faafa95d1.png)
+![](adding-tasks.images/image11.png)
 
 
 
 A confirmation message will saying it has successfully recorded the task note as a document in the specified chart, and has successfully added the task to the system.
 
-![](../../external_files/951af64670ef3a9c88d4214309ed2087.png)
+![](adding-tasks.images/image12.png)
 
 
 
@@ -129,7 +129,7 @@ If you've ‘lost a task' it's because the user browsed away from the task befor
 
 To create a generic task regarding a chart, view the Fast Tasks section of the screen and select a specific fast task choice after having clicked the Add Task link found throughout the chart.
 
-![](../../external_files/d7a5a82218e294d75ae99781c53b377d.png)
+![](adding-tasks.images/image13.png)
 
 
 
@@ -137,7 +137,7 @@ According to how the fast task was templated and configured, after you click the
 
 If that is the case, the type of fast task selected was an automatic task.  Automatic fast tasks are set up not to prompt the user, therefore you cannot add or edit any information within the task fields.  The task fields were already set up by an administrator with specific routing and criteria and templated information in the task to be done for this type of fast task.
 
-![](../../external_files/23aee992b45ca1ee3836f0dbfe05d999.png)
+![](adding-tasks.images/image14.png)
 
 
 
@@ -147,7 +147,7 @@ After selecting a specific fast task choice, the Add Task field boxes may displa
 
 
 
-![](../../external_files/bab9cbde78e2d1ced6e815b99f5be0e2.png)
+![](adding-tasks.images/image15.png)
 
 
 
@@ -161,7 +161,7 @@ Within a chart, the Medical Records chart tab houses a sub-tab named Task Notes.
 
 
 
-![](../../external_files/fdefce5a9f53fad378d2766e3c338705.png)
+![](adding-tasks.images/image16.png)
 
 
 
@@ -169,7 +169,7 @@ Once in a specific task document looking at the task details, one can view who a
 
 
 
-![](../../external_files/568e8472ef8ade82f6941f43e012f9fc.png)
+![](adding-tasks.images/image17.png)
 
 
 
@@ -177,7 +177,7 @@ If the task is assigned to a specific user or department you are not a member of
 
 
 
-![](../../external_files/f27cd2cfcc97c4a59d304af83e96ea0b.png)
+![](adding-tasks.images/image18.png)
 
 
 
@@ -187,7 +187,7 @@ Tasks can be generated in the {{% system-name %}} system miscellaneously and not
 
 
 
-![](../../external_files/be22dc5f93c0cc1b46074f738d3f2322.png)
+![](adding-tasks.images/image19.png)
 
 
 
@@ -207,7 +207,7 @@ Once you have the specific document opened, click Add Task hyperlink at the top 
 
 
 
-![](../../external_files/5429656bc126e0ebdeea7252187071b3.png)
+![](adding-tasks.images/image20.png)
 
 
 
@@ -219,7 +219,7 @@ Depending on the task option selected, if prompted, fill out or edit task fields
 
 
 
-![](../../external_files/7e0d5ca9235fdbec5fc6e9ce4b550305.png)
+![](adding-tasks.images/image21.png)
 
 
 
@@ -238,7 +238,7 @@ If the Hide/Show Tasks hyperlink appears below the document, that indicates this
 
 
 
-![](../../external_files/8014c64386fe2772b115f1cd99570903.png)
+![](adding-tasks.images/image22.png)
 
 
 
@@ -246,7 +246,7 @@ The branch of tasks along with task details for each, will appear below the Hide
 
 
 
-![](../../external_files/36a428b9cc93cb1f1fd485dfc1dde713.png)
+![](adding-tasks.images/image23.png)
 
 
 

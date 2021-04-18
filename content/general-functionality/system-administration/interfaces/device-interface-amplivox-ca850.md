@@ -1,16 +1,16 @@
 ---
 title: "Device Interface - Amplivox CA850"
-date: 2020-03-19T19:02:19.406Z
+date: "2020-03-19T19:02:19.406Z"
 url: "general-functionality/system-administration/interfaces/device-interface-amplivox-ca850.html"
-version: 25
-id: 1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA
-source: https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA
+version: 26
+id: "1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA"
+source: "https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA"
 menu:
     main:
         name: "Device Interface - Amplivox CA850"
         identifier: "1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5410
+        weight: 5390
 ---
 This page provides instructions for retrieving results from the Amplivox CA850 and Amplivox PC850 audiometers with Enterprise Health (EH), and lists the fields that the interface retrieves.
 

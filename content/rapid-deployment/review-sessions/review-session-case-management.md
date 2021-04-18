@@ -1,17 +1,17 @@
 ---
 title: "Review Session - Case Management"
-date: 2020-02-27T21:25:11.802Z
+date: "2020-02-27T21:25:11.802Z"
 url: "rapid-deployment/review-sessions/review-session-case-management.html"
 author: aquandt
-version: 15
-id: 1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw
-source: https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw
+version: 16
+id: "1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw"
+source: "https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw"
 menu:
     main:
         name: "Review Session - Case Management"
         identifier: "1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6070
+        weight: 6050
 ---
 ## Agenda
 

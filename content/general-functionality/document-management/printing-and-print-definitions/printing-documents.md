@@ -1,10 +1,10 @@
 ---
 title: "Printing Documents"
-date: 2020-03-24T15:02:35.364Z
+date: "2020-03-24T15:02:35.364Z"
 url: "general-functionality/document-management/printing-and-print-definitions/printing-documents.html"
-version: 33
-id: 1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q
-source: https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q
+version: 34
+id: "1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q"
+source: "https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q"
 menu:
     main:
         name: "Printing Documents"
@@ -18,11 +18,11 @@ Printing documents from the {{% system-name %}} system is a simple process. The 
 
 While in the appropriate chart, locate and open the document needing printed. Click the **Print** link, found in the upper-right corner of the document header.
 
-![](../../../external_files/648191dff7c3d1d5688465592e146257.png)
+![](printing-documents.images/image1.png)
 
 Once clicked, the Print Dialog window will open, with **Send To** *Printer* marked, by default.
 
-![](../../../external_files/387ffe1fe1ebbc8704eff43d2afae34c.png)
+![](printing-documents.images/image2.png)
 
 Users may choose to **Print without headers** or **Use legacy print formatting**, if preferred.
 
@@ -56,17 +56,17 @@ Users may set the format of print documents to either PDF or TIFF, by way of the
 
 Printing full-size scanned documents requires a simple adjustment in the default printing settings. To begin, locate and open the specific scanned document needing printed.
 
-![](../../../external_files/98a35b9414bcd3e4c7830ef5cf0eee93.png)
+![](printing-documents.images/image3.png)
 
 Depending on the web browser used, when the document is opened, the scanned image will either appear within an AlternaTIFF workspace (e.g., IE), or when clicked, the image will appear in a viewer of a new tab/window (e.g., Chrome). The focus here is on Internet Explorer web browsers, using the AlternaTIFF control.
 
 Right-click the grey toolbar area, just above the scanned image. Select **More Settings**.
 
-![](../../../external_files/e1949fff99c8c5bad530fc1380cf38a5.png)
+![](printing-documents.images/image4.png)
 
 Once clicked, the AltneraTIFF: More Settings dialog window will open. Ensure the **Always print full page** option is selected, and click the **OK** button.
 
-![](../../../external_files/7477ad2a4999cfbd66910a249c624458.png)
+![](printing-documents.images/image5.png)
 
 {{% note %}}
 

@@ -1,17 +1,17 @@
 ---
 title: "Data Import Overview"
-date: 2020-02-27T21:30:32.809Z
+date: "2020-02-27T21:30:32.809Z"
 url: "general-functionality/system-administration/data-migration/data-import-overview.html"
 author: aquandt
-version: 17
-id: 1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk
-source: https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk
+version: 18
+id: "1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk"
+source: "https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk"
 menu:
     main:
         name: "Data Import Overview"
         identifier: "1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4940
+        weight: 4920
 ---
 This page provides an explanation of terminology related to importing data from an existing system to the {{% system-name %}} system.
 

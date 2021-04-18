@@ -1,10 +1,10 @@
 ---
 title: "Printing TIFFs"
-date: 2020-03-24T15:06:06.991Z
+date: "2020-03-24T15:06:06.991Z"
 url: "general-functionality/document-management/printing-and-print-definitions/printing-tiffs.html"
-version: 37
-id: 174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ
-source: https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ
+version: 38
+id: "174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ"
+source: "https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ"
 menu:
     main:
         name: "Printing TIFFs"
@@ -18,13 +18,13 @@ menu:
 2. Call patient report within in the originating application. (ie, pacemaker, sleep study)
 3. If in Word, Click on "File", then "Print" from the menu in the upper left hand corner of the screen
 
-![](../../../external_files/37c3690838b1f7ecbc35dabd45d45213.png)
+![](printing-tiffs.images/image1.png)
 
 4. Select the MIE Tiff Printer from the print drop down if it does not default for you. Then click on "OK".
 
 
 
-![](../../../external_files/a64d4945a249dea12770d10d0f76371a.png)
+![](printing-tiffs.images/image2.png)
 
 
 
@@ -34,22 +34,22 @@ menu:
 
 6. Once at this screen, Enter Date of Study, Document type, Referring Physician name, Patient name and Service Location. These fields are auto complete fields, so it is not necessary to type the entire data in.
 
-![](../../../external_files/598d813dbde2754d155b3412c7c30578.png)
+![](printing-tiffs.images/image3.png)
 
 7. Once all fields are completed, click the "<strong>Upload File</strong>" button.
 8. Once you have clicked upload file, you will be asked if it is OK to upload the file. Click on "OK".
 
-![](../../../external_files/c7b43d4f01992b34b1c6535b007c6ceb.png)
+![](printing-tiffs.images/image4.png)
 
 9. Once file has uploaded, you will see a confirmation the document has been uploaded successfully.
 
-![](../../../external_files/dcc21f49524c23bd96a08c52c97ba967.png)
+![](printing-tiffs.images/image5.png)
 
 10. Once you have uploaded the document, you will return the indexing screen.
 
-![](../../../external_files/598d813dbde2754d155b3412c7c30578.png)
+![](printing-tiffs.images/image6.png)
 
 11. The user may browse away from this screen, or toggle back to another application (sleep software or Pacemaker software). The next job that the user "prints" to {{% system-name %}} will refresh this screen. If the user chooses to browse in {{% system-name %}} , you will see the below warning. It is ok to browse, simply click "OK" to proceed.
 
-![](../../../external_files/cb1332095e50009b9d32725b419c1d8e.png)
+![](https://lh4.googleusercontent.com/QX53dH6jMFo-Ri54mw9sSaVPtwsZMKRVN8rAqqZ_xUJ0YW23vePii6iYKgJDDPTaonNetWNXVYbaWM5CgWrC3vgTD-NAMo8nNinHRewTZE0b0YM5RlGK2acMmx2c8NPD9jQnO3fzmm5ofNdKkw)
 

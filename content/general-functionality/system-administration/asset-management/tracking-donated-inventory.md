@@ -1,28 +1,28 @@
 ---
 title: "Tracking Donated Inventory"
-date: 2020-02-27T20:30:10.177Z
+date: "2020-02-27T20:30:10.177Z"
 url: "general-functionality/system-administration/asset-management/tracking-donated-inventory.html"
-version: 16
-id: 1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc
-source: https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc
+version: 17
+id: "1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc"
+source: "https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc"
 menu:
     main:
         name: "Tracking Donated Inventory"
         identifier: "1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5640
+        weight: 5620
 ---
 ## Add Donated Tab
 
 This tab looks and performs just like the *Add Inventory* tab. However, when you add inventory items here thru the *Add Donated* tab, it tracks the transaction comment as *donated* if your system is set up to add/receive donated inventory items. Note: If you will not be tracking inventory items as separate ‘donated' items instead of general received inventory, then you can have your MIE Implementer remove this tab.
 
-![](../../../external_files/cfa13a616fbde014396bacfe80190ba3.png)
+![](tracking-donated-inventory.images/image1.png)
 
 If you need to add inventory specific to a patient because your practice uses patient assistance programs, you have to enter the patient's specific inventory from their e-chart using the Dispense chart tab (See other help documentation named *Receive Patient Assistance*).
 
 Depending on how your practice is set up and what all inventory details you track for Inventory, your *Add Inventory* data entry fields may be different.
 
-![](../../../external_files/6dadc96a4ebab47a6f927b54bed9f0a5.png)
+![](tracking-donated-inventory.images/image2.png)
 
 To add donated inventory quantity and detail information to be tied to your inventory master item, fill out the fields in this Add Donated screen. Use your tab key to advance to each field.
 

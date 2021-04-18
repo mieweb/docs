@@ -1,20 +1,20 @@
 ---
 title: "Viewing Health Surveillance Panels & Membership"
-date: 2020-02-27T20:00:28.475Z
+date: "2020-02-27T20:00:28.475Z"
 url: "general-functionality/health-surveillance/viewing-health-surveillance-panels-and-membership.html"
-version: 29
-id: 1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM
-source: https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM
+version: 30
+id: "1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM"
+source: "https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM"
 menu:
     main:
         name: "Viewing Health Surveillance Panels & Membership"
         identifier: "1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM"
         parent: "13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg"
-        weight: 1830
+        weight: 1810
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 
-![](../../external_files/fae942d2400869a7034c5e39b8b9a351.png)
+![](viewing-health-surveillance-panels-and-membership.images/image1.png)
 
 The listing of current Panels will display on the screen under the Panel Search fields.
 
@@ -24,15 +24,15 @@ You can view current members of panels and also current automated {{% system-nam
 
 To view existing memberships & membership rules on existing panels go to Control tab→Health Surveillance tab→ Find the specific panel and click Membership hyperlink from the main panel listing.
 
-![](../../external_files/149e8341028f2d7cc4719bf10bb35fb4.png)
+![](viewing-health-surveillance-panels-and-membership.images/image2.png)
 
 OR you can instead get to membership when in the "actions" of any specific panel.
 
-![](../../external_files/58b830ca94716a7eea8f5c7db19a1df0.png)
+![](viewing-health-surveillance-panels-and-membership.images/image3.png)
 
 Then click membership hyperlink found at the top of the Panel Actions screen for that specific panel.
 
-![](../../external_files/5f6dc7ad75ab3b32ebbab9804556ff51.png)
+![](viewing-health-surveillance-panels-and-membership.images/image4.png)
 
 Either method, you gain access to the *Panel Membership* screen which shows 3 sections on that screen.  At the top you should see (in bold) the words *Panel Membership* and then the specific panel you accessed membership on.
 
@@ -42,41 +42,41 @@ The next section shows *Individual Include/Exclude* which lists all current empl
 
 At the very bottom you see *Membership Approval* where you can click the *Approve Membership Now* button and it essentially marks the last time a user (with a date/time stamp) that approved & validated this membership screen for the specific panel.
 
-![](../../external_files/1f673a5f649abd143f7c16e51fe66583.png)
+![](viewing-health-surveillance-panels-and-membership.images/image5.png)
 
-![](../../external_files/e49fc8e15995a6d27d5801db4848906c.png)
+![](viewing-health-surveillance-panels-and-membership.images/image6.png)
 
-![](../../external_files/578b854f20fb840985bc8a2d47de99c2.png)
+![](viewing-health-surveillance-panels-and-membership.images/image7.png)
 
 You can edit/expire from this membership listing on a specific individual. Clicking the Edit/Expire hyperlink in the options column will open up a screen to make any edits, or expire an individual's membership to this panel.
 
-![](../../external_files/5c78719a98d807d71f23c381f0061d66.png)
+![](viewing-health-surveillance-panels-and-membership.images/image8.png)
 
 ## Viewing Memberships from Chart
 
 You can view current membership of panels for a specific chart (patient/employee) when working in the chart. Simply find the Health Surveillance tab while working in the chart. Go to the *Panel Membership Overview* subtab.
 
-![](../../external_files/55f027d25ed4bbb5161238ae123d6e78.png)
+![](viewing-health-surveillance-panels-and-membership.images/image9.png)
 
 The Panel Membership Overview tab section named **Current Membership** shows list of all panels they are currently a member of or have applied to their chart. You can hover your mouse over the icon in the panel names to see the description the panel is defined as in the Health Surveillance set up. You can also hover your mouse over the icons next to each panel check-marked for that employee to see the last completed date or decertified information, change reason comments, etc.
 
-![](../../external_files/7f93536ef4f4787bb1f47fa9f8931b82.png)
+![](viewing-health-surveillance-panels-and-membership.images/image10.png)
 
 * <strong>Add Completion Date:</strong> this button will allow you to manually key in a completion date for the panel. It then inserts a completed representative order for that panel with that completion date.
 
-![](../../external_files/f053199a0dadb2efe27e5dae724670f0.png)
+![](viewing-health-surveillance-panels-and-membership.images/image11.png)
 
 If there was a pending order to begin with, that doesn't get altered. This button ‘add completed date' can be hidden if don't wish to utilize.
 
-![](../../external_files/8e918498f89fb44b32dde07b22b29b15.png)
+![](viewing-health-surveillance-panels-and-membership.images/image12.png)
 
 There is also a Key guide that helps you manage the panel information. To access this simply click the *Show Key* or *Hide Key* button at the top of this chart tab.
 
-![](../../external_files/12eb47ed7ca25fd47834aabe2f4f179d.png)
+![](viewing-health-surveillance-panels-and-membership.images/image13.png)
 
 The **Panel Membership History** section shows the history of current and past panels the employee/patient is/has been a member of.
 
-![](../../external_files/991f03f390d75718f9fc7a60114f0188.png)
+![](viewing-health-surveillance-panels-and-membership.images/image14.png)
 
 There are several columns of additional information such as:
 

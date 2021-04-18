@@ -1,17 +1,17 @@
 ---
 title: "Chart Data CSV API"
-date: 2020-02-27T21:28:33.488Z
+date: "2020-02-27T21:28:33.488Z"
 url: "general-functionality/system-administration/data-migration/chart-data-csv-api.html"
 author: aquandt
-version: 17
-id: 1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs
-source: https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs
+version: 18
+id: "1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs"
+source: "https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs"
 menu:
     main:
         name: "Chart Data CSV API"
         identifier: "1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5070
+        weight: 5050
 ---
 The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.
 
@@ -76,7 +76,7 @@ A partition is a means of organizing groups of charts. Partitions are often used
 
 The field @patient_mrns. is required for a demographics import.
 
-[Chart MRNumber Import Options](chart-medical-record-number-mrn-import-op.html) can be used to modify how patient mrns are processed as the file is loaded.
+[Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.html) can be used to modify how patient mrns are processed as the file is loaded.
 
 #### patient_admin
 

@@ -1,17 +1,17 @@
 ---
 title: "Measures"
-date: 2020-02-27T21:28:53.378Z
+date: "2020-02-27T21:28:53.378Z"
 url: "general-functionality/quality-of-care/measures.html"
 author: aquandt
-version: 15
-id: 1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ
-source: https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ
+version: 16
+id: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
+source: "https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
 menu:
     main:
         name: "Measures"
         identifier: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
         parent: "1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk"
-        weight: 2530
+        weight: 2510
 ---
 
 

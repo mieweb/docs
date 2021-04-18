@@ -1,16 +1,16 @@
 ---
 title: "Archiving/Closing/Re-archiving Encounters"
-date: 2020-03-13T14:41:23.189Z
+date: "2020-03-13T14:41:23.189Z"
 url: "general-functionality/encounters/archiving-closing-re-archiving-encounters.html"
-version: 49
-id: 1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo
-source: https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo
+version: 50
+id: "1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo"
+source: "https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo"
 menu:
     main:
         name: "Archiving/Closing/Re-archiving Encounters"
         identifier: "1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo"
         parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
-        weight: 1590
+        weight: 1570
 ---
 In order to archive, close, or re-archive an encounter, users must be familiar with the security settings, buttons, toolbars, and links associated with the encounter. The buttons found in the encounter are customizable and may have different functions per practice, or per encounter, depending on the preferred workflows. Contact an Implementation Specialist to have the buttons renamed or functionality reconfigured, as needed.
 
@@ -34,7 +34,7 @@ Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit
 
 
 
-![](../../external_files/16aae40abced6d7d596382236aa962db.png)
+![](archiving-closing-re-archiving-encounters.images/image1.png)
 
 
 
@@ -48,7 +48,7 @@ Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit
 
 
 
-![](../../external_files/10133b7038502417e7fa7c98b4821625.png)
+![](archiving-closing-re-archiving-encounters.images/image2.png)
 
 
 
@@ -56,9 +56,9 @@ Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit
 
 **Standard Encounter Buttons** - Buttons related to an open encounter:
 
-![](../../external_files/c5b9c27f4741950273e606226936be77.png)
+![](archiving-closing-re-archiving-encounters.images/image3.png)
 
-![](../../external_files/83a5b3dedec491f02eca8172e6c8bdb6.png)
+![](archiving-closing-re-archiving-encounters.images/image4.png)
 
 
 
@@ -79,20 +79,20 @@ If any transcription is pending on an encounter, users will not have the option 
 
 {{% info %}}
 
-Clicking the encounter section header or the![](../../external_files/38b9dba68f2944db89fe1808f56da8df.png)button, at the bottom of each section, will also save the user's current progress in the encounter.
+Clicking the encounter section header or the![](archiving-closing-re-archiving-encounters.images/image5.png)button, at the bottom of each section, will also save the user's current progress in the encounter.
 
 {{% /info %}}
 
 
 **Encounter Stage buttons** - To assist users in pushing the encounter through the established workflow, these buttons can be configured with any necessary stages and be placed at the top and bottom of the encounter for ease of access. These buttons simply change the *stage* of the open encounter, indicating it is ready for the next user.
 
-![](../../external_files/75300cdd613338c2de7dc253a354ca12.png)     ![](../../external_files/30557e6d34cf5817bd3431a149808367.png)
+![](archiving-closing-re-archiving-encounters.images/image6.png)     ![](archiving-closing-re-archiving-encounters.images/image7.png)
 
 ## Archiving and Closing Encounters
 
 As noted, every button EXCEPT Archive & Close will take the user to a view, or preview, of the encounter. When previewing the encounter, users may **Archive and Close Encounter**, or **Create Preliminary Archive**. Both of these options, for all intents and purposes, will *archive the document with a designated doc ID*. 
 
-![](../../external_files/cbb837a85bf664574eb5140f315ef28c.png)
+![](archiving-closing-re-archiving-encounters.images/image8.png)
 
 ### Creating a Preliminary Archive
 

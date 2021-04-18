@@ -1,17 +1,17 @@
 ---
 title: "Chart Data CSV Header Options"
-date: 2020-02-28T15:24:56.361Z
+date: "2020-02-28T15:24:56.361Z"
 url: "general-functionality/system-administration/data-migration/chart-data-csv-header-options.html"
 author: aquandt
-version: 22
-id: 1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho
-source: https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho
+version: 23
+id: "1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho"
+source: "https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho"
 menu:
     main:
         name: "Chart Data CSV Header Options"
         identifier: "1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho"
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 5050
+        weight: 5030
 ---
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing specific fields with processing options using the [Chart Data CSV API](chart-data-csv-api.html). These options give the import the ability to process the field in a number of ways. This is especially useful for systems where the values may change or need to be removed entirely. Although the default process works in most situations, the options that follow allow a user to fine tune how the data is processed.
 
@@ -118,6 +118,6 @@ Related Pages
 
 * [Data Import Master List](data-import-master-list.html)
 * [Chart Data CSV API](chart-data-csv-api.html)
-* [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-op.html)
+* [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.html)
 * [Chart Observations Import Options](chart-observations-import-options.html)
 * [Chart PUR Import Options](https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options)

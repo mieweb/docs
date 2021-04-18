@@ -1,17 +1,17 @@
 ---
 title: "Base Configuration"
-date: 2020-02-27T21:27:18.394Z
+date: "2020-02-27T21:27:18.394Z"
 url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/base-configuration.html"
 author: aquandt
-version: 14
-id: 1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg
-source: https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg
+version: 15
+id: "1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg"
+source: "https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg"
 menu:
     main:
         name: "Base Configuration"
         identifier: "1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg"
         parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5810
+        weight: 5790
 ---
 ## Purpose
 

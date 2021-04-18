@@ -1,17 +1,17 @@
 ---
 title: "E-Sign All Pending Tab"
-date: 2020-03-10T14:20:34.885Z
+date: "2020-03-10T14:20:34.885Z"
 url: "general-functionality/e-sign-electronic-signature/e-sign-all-pending-tab.html"
 author: aquandt
-version: 31
-id: 1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4
-source: https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4
+version: 32
+id: "1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4"
+source: "https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4"
 menu:
     main:
         name: "E-Sign All Pending Tab"
         identifier: "1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4"
         parent: "1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854"
-        weight: 2440
+        weight: 2420
 ---
 From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission.
 
@@ -19,7 +19,7 @@ In the All Pending tab, it lists all users who have documents pending e-sign req
 
 
 
-![](../../external_files/694d6b4c36cdd2778ffd9d4898e85a5f.png)
+![](e-sign-all-pending-tab.images/image1.png)
 
 
 
@@ -29,7 +29,7 @@ If you have security permission, you can click on the underlined user's name and
 
 
 
-![](../../external_files/f3f9abd1b30881670a5d312d5c7384ac.png) 
+![](e-sign-all-pending-tab.images/image2.png) 
 
 
 
@@ -37,7 +37,7 @@ When clicking Sign Doc,  would then e-sign your name as preliminary, not the pe
 
 
 
-![](../../external_files/1b2be2b3cdc011da9c5123aa3e113ff2.png)
+![](e-sign-all-pending-tab.images/image3.png)
 
 
 
@@ -58,7 +58,7 @@ To clear a user's entire e-sign queue, simply click on the Clear Queue link from
 
 
 
-![](../../external_files/3a3bb19283051b19e11d41cfe6669914.png)
+![](e-sign-all-pending-tab.images/image4.png)
 
 
 
@@ -66,7 +66,7 @@ It will then pop up a confirmation box asking if you really wish to delete all t
 
 
 
-![](../../external_files/47549e73d97e1d58ae49aa5efcfdd5de.png)
+![](e-sign-all-pending-tab.images/image5.png)
 
 
 
@@ -74,7 +74,7 @@ After clicking OK, it will display a confirmation at the top of the screen that 
 
 
 
-![](../../external_files/e0e2178b127db244fb315d1ca533dac3.png)
+![](e-sign-all-pending-tab.images/image6.png)
 
 
 
@@ -84,7 +84,7 @@ If have security permission to view the All Pending tab and have security permis
 
 
 
-![](../../external_files/730e11a0261b6b27bac203eb158f2373.png)
+![](e-sign-all-pending-tab.images/image7.png)
 
 
 
@@ -92,7 +92,7 @@ When Proxy Sign is clicked, the multi-review queue will open and the user with p
 
 
 
-![](../../external_files/121771f256cb32af6f72a2473a219764.png)
+![](e-sign-all-pending-tab.images/image8.png)
 
 
 
@@ -100,7 +100,7 @@ Once you have marked the documents to be signed and clicked the Sign Marked Docu
 
 
 
-![](../../external_files/d2d78fa07427c814c09de5b5abe31079.png)
+![](e-sign-all-pending-tab.images/image9.png)
 
 ## E-Sign Reports
 
@@ -108,7 +108,7 @@ Using the Document Report found in the Reports sidemenu, a report can be run to 
 
 
 
-![](../../external_files/58ef1c47e3cd7790e6300db0966c4bf6.png)
+![](e-sign-all-pending-tab.images/image10.png)
 
 
 
@@ -116,7 +116,7 @@ Once the report results, an E-Signature can be requested right there from the re
 
 
 
-![](../../external_files/e1182372337e0d6477193c31722a7097.png)
+![](e-sign-all-pending-tab.images/image11.png)
 
 
 

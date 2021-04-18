@@ -1,10 +1,10 @@
 ---
 title: "Print Definitions"
-date: 2020-03-09T16:32:06.375Z
+date: "2020-03-09T16:32:06.375Z"
 url: "general-functionality/document-management/printing-and-print-definitions/print-definitions.html"
-version: 71
-id: 1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok
-source: https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok
+version: 72
+id: "1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok"
+source: "https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok"
 menu:
     main:
         name: "Print Definitions"
@@ -32,7 +32,7 @@ Click the [Add Definition](https://system/?f=chart&s=printdefedit&item=def&opp=a
 
 
 
-![](../../../external_files/59284abc006414f64d1450b8bca97e1e.png)
+![](print-definitions.images/image1.png)
 
 
 
@@ -40,7 +40,7 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 
 
-![](../../../external_files/108622bec3d5961549935cb8cbca2aa7.png)
+![](print-definitions.images/image2.png)
 
 
 
@@ -48,11 +48,11 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 
 
-![](../../../external_files/537ab8d5192e4d805f0f7adcb8877cb4.png)
+![](print-definitions.images/image3.png)
 
 
 
-![](../../../external_files/6f75fa576a306a3395764a53cf64d322.png)
+![](print-definitions.images/image4.png)
 
 
 
@@ -84,7 +84,7 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 
 
-![](../../../external_files/a93e355daff3a2a219ed0cbbb8151ec2.png)
+![](print-definitions.images/image5.png)
 
 
 
@@ -99,7 +99,7 @@ When using a print definition en masse (i.e., on multiple charts at one time), t
 
 
 
-![](../../../external_files/d4823b1fcd0aed9ff632c389ea520df4.png)
+![](print-definitions.images/image6.png)
 
 
 
@@ -126,7 +126,7 @@ When the **Restriction Control** option is enabled on a print definition, specif
 
 
 
-![](../../../external_files/f0413d29911b5dfdd32d176e993f1867.png)
+![](print-definitions.images/image7.png)
 
 
 
@@ -134,7 +134,7 @@ When creating a print definition, an additional screen will load after clicking 
 
 
 
-![](../../../external_files/f00b02d11878aa5c4738479bac1d6816.png)
+![](print-definitions.images/image8.png)
 
 
 
@@ -142,7 +142,7 @@ Once clicked, the *Edit Print Definition* page will load. Update the **Allowed U
 
 
 
-![](../../../external_files/cb7cf379ae44adf1516cc04d1d8a2141.png)
+![](print-definitions.images/image9.png)
 
 
 
@@ -163,7 +163,7 @@ When the **Scheduler Override Control** option is enabled on a print definition,
 
 
 
-![](../../../external_files/76910214ceb92c0e88443fce76cdcf12.png)
+![](print-definitions.images/image10.png)
 
 
 
@@ -171,7 +171,7 @@ When creating a print definition, an additional screen will load after clicking 
 
 
 
-![](../../../external_files/07eae5b4bbf378a9fb0b2d10a1834748.png)
+![](print-definitions.images/image11.png)
 
 
 
@@ -179,7 +179,7 @@ Once clicked, the *Edit Print Definition* page will load. Update the **Override 
 
 
 
-![](../../../external_files/20afdc74bec10457460ac9b467fa512b.png)
+![](print-definitions.images/image12.png)
 
 
 
@@ -209,7 +209,7 @@ To *remove* any overriding criteria from the list, simply click the minus button
 
 
 
-![](../../../external_files/25e3e875de3fec7215a263a23a33422d.png)
+![](print-definitions.images/image13.png)
 
 
 
@@ -229,7 +229,7 @@ After locating the existing print definition needing edited, click the **Edit** 
 
 
 
-![](../../../external_files/12d29279272cf6d631ae5f0e72a53d98.png)
+![](print-definitions.images/image14.png)
 
 
 
@@ -237,7 +237,7 @@ The *Edit Print Definition* page will load, where any of the fields can be updat
 
 
 
-![](../../../external_files/85b0823285e0d21f9689f8712f50bc06.png)
+![](print-definitions.images/image15.png)
 
 
 
@@ -267,7 +267,7 @@ After locating the existing print definition needing inactivated, click the **Ed
 
 
 
-![](../../../external_files/12d29279272cf6d631ae5f0e72a53d98.png)
+![](print-definitions.images/image16.png)
 
 
 
@@ -275,7 +275,7 @@ Set the *Status* by selecting the **Inactive** radio button. This will retain th
 
 
 
-![](../../../external_files/eddf4abe9bae7611de99264aa6f53a41.png)
+![](print-definitions.images/image17.png)
 
 
 
@@ -291,7 +291,7 @@ After navigating to the [Print Definitions editor](https://system/?f=chart&s=pr
 
 
 
-![](../../../external_files/f7305a7f2f81c0e03727d4cda9edeba2.png)
+![](print-definitions.images/image18.png)
 
 
 
@@ -307,7 +307,7 @@ Navigate to the [Print Definitions editor](https://system/?f=chart&s=printdefedi
 
 
 
-![](../../../external_files/69c63873ff24d5540d404c6962e1096e.png)
+![](print-definitions.images/image19.png)
 
 
 
@@ -315,7 +315,7 @@ The Add Print Section page will load. Fill in the appropriate fields to create t
 
 
 
-![](../../../external_files/312223b93486a527e9ed71e4535505ff.png)
+![](print-definitions.images/image20.png)
 
 
 
@@ -363,7 +363,7 @@ A MIE Deployment Consultant can assist with any WHERE clauses needed for Conditi
 
 
 
-![](../../../external_files/bdd69a865a66d76c6ab745118ed2421e.png)
+![](print-definitions.images/image21.png)
 
 
 
@@ -423,7 +423,7 @@ To view the sections of a specific print definition, first navigate to the [Prin
 
 
 
-![](../../../external_files/bd610ab0829f02a43a8f1f76ba5dad2f.png)
+![](print-definitions.images/image22.png)
 
 
 
@@ -431,7 +431,7 @@ Once clicked, the print sections attributed to the print definition will be list
 
 
 
-![](../../../external_files/cef083f55f2c996c12d14763a67de504.png)
+![](print-definitions.images/image23.png)
 
 
 
@@ -450,12 +450,12 @@ Use the Edit link to mark a print section as *Inactive*, as needed. This allows 
 {{% /tip %}}
 
 
-![](../../../external_files/e57d176961d2088fff712066f88dc94b.png)
+![](print-definitions.images/image24.png)
 When editing a section, users may change any of the section fields.
 
 
 
-![](../../../external_files/25cd85eb487a25f347f037d3b6e430e1.png)
+![](print-definitions.images/image25.png)
 
 
 
@@ -476,12 +476,12 @@ Use the Edit link to mark a print section as *Inactive*, as needed. This allows 
 {{% /tip %}}
 
 
-![](../../../external_files/e57d176961d2088fff712066f88dc94b.png)
+![](print-definitions.images/image26.png)
 When deleting a print section, users will need to verify that the print section is to be deleted. Select Yes or No.
 
 
 
-![](../../../external_files/5ce7c0a996b3801d86b83ae90b0b0750.png)
+![](print-definitions.images/image27.png)
 
 
 
@@ -499,7 +499,7 @@ To begin, first navigate to the [Print Definitions editor](https://system/?f=cha
 
 
 
-![](../../../external_files/a4e4b80d55b15e5c1c110549d1bde237.png)
+![](print-definitions.images/image28.png)
 
 
 
@@ -507,7 +507,7 @@ Once clicked, the page will load with a **New Print Definition Name** field. Sim
 
 
 
-![](../../../external_files/07577d8bc05f877ff7fc3a4e40cf834f.png)
+![](https://lh5.googleusercontent.com/JYj-9jyrPOfkJl2mGVsV5QOhgWDpywQRoNVOB6ZFnSiZzSpeyZFV6mPHVgMTjXF_u2N2v2C5Prk4_iBIPp4FfhejkXQYWNmBBTCL3NtDzLF6BdFleGs9LEP1lnnkQx1XH2cvqAeNC2bC3nBv2Q)
 
 
 
@@ -515,7 +515,7 @@ After confirming the duplication, the page will refresh with the status displaye
 
 
 
-![](../../../external_files/61395b86a8ee2f1597386402fb7fa980.png)
+![](https://lh4.googleusercontent.com/wJUKxiG4SwbtBToIzM4JAQqSgLs4KXIhVVIivYZD4p8COcliw3RREFwM4RjCag77Jnl7PkZNPpK2bbTBCnfAPiLcYJ1dkjZ_3FLOhM4YJ0RSp6yw8qD4Su_ugG8qJOELOn-j449ry6iyY5Sk9g)
 
 
 
