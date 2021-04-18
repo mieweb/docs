@@ -1,4 +1,4 @@
-baseURL = "https://docs-qa.med-web.com/wc"
+baseURL = "/wc"
 languageCode = "en-us"
 title = "WebChart"
 theme = "wc-eh-docs"
