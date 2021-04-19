@@ -19,7 +19,7 @@ A powerful resource for all users. Check out our various modules, standard funct
 
 ## Documentation
 
-This documentation is organized into two sections "Programs" and "Functions."  The "Functions" are the low level features for {{% system-name %}} and the "Programs" represent the combination of the functions to achieve a specific business purpose.  For example, Document Management is a Function and it is used across many Programs as the foundation of information management.  Another example Function would be EPCS (Electronic Prescribing of Controlled Substances) and would be specific  
+This documentation is organized into two sections "Programs" and "Functions."  The "Functions" are the low level features for {{% system-name %}} and the "Programs" represent the combination of the functions to achieve a specific business purpose.  For example, Document Management is a Function and it is used across many Programs as the foundation of information management.  Another example Function would be EPCS (Electronic Prescribing of Controlled Substances) and would be in Clinical, Behavioral and Occupational Programs.    
 
 ### [Programs](programs.html)
 
