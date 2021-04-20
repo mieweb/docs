@@ -49,8 +49,9 @@
 					"webpack:///./~/*": "${workspaceFolder:wikiGDrive}/node_modules/*",
 					"webpack://?:*/*": "${workspaceFolder:wikiGDrive}/*"
 				},
-				"args": ["pull" ]
-//				"args": ["pull", "https://docs.google.com/document/d/1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0/edit"]
+				"args": [ "pull" ]
+//				"args": [ "pull", "1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0" ]
+//				"args": [ "pull", "https://docs.google.com/document/d/1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0/edit"]
 			}
 		]
 	}	  
