@@ -1,13 +1,13 @@
 ---
 title: "_index"
-date: "2021-04-18T20:13:36.730Z"
+date: "2021-04-20T05:34:59.397Z"
 url: "_index.html"
 author: Doug Horner
-version: 489
+version: 494
 id: "1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 source: "https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 ---
-Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
+Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs. 
 
 ## [Video Library](videos-and-demonstrations.html)
 
