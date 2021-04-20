@@ -1,13 +1,36 @@
-# MIE Docs
+# WebChart / Enterprise Health Docs
+
+If your are a non-techie looking to [contribute](content/contributing-to-this-documentation.md) to documentation, best use the website and author in Google Drive and make recommendations there.
+
+# Overview
+
+This git repo contains the history of documentation for MIE's WebChart based products for public consumption.  It's purpose is four fold:  
+
+1. Act as a public facing revision control repository for end-user and adminsitrator documentation linked to the release cycle for WebChart based software.  Eg: each version of the documentation is earmarked on a branch RC20YYMM and this documentation will be maintained beside that strategy.
+2. Scripts to maintain the documentation. The source of truth for the "master" branch of the [content](content) folder is **not** this repository.  It is instead is stored in a specific [Documentation Home folder](https://drive.google.com/drive/u/0/folders/1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-) on a [MIE Documentation Google Shared Drive](https://drive.google.com/drive/u/0/folders/0ALfGlL3hJS03Uk9PVA).  Changes should be made there (by using "Propose Changes") and when approved in the Google Drive, a tool named wikiGDrive transforms the Google Docs and Google Drawings into Markdown and images (png or svg) to be placed in the content folder.
+3. Scripting tools to transform the Markdown into HTML using [Hugo](https://gohugo.io) to generate a website for each product branded to it's purpose.
+4. Automation in GitHub Enterprise [Actions](.github/workflows) to automate the updating of the public facing websites.  Currently there are two:  1) docs.webchartnow.com and 2) docs.enterprisehealth.com
+
+## Contents of this project
+
+1. The [content](content) folder contains the [Markdown](https://www.markdownguide.org/basic-syntax/) for documentation.  Most conributors of documentation will not directly work with the Markdown as it requires a bit more skill than working with Google Docs and Diagrams.
+2. Scripts to get Google changes in to Markdown
+themes.gohugo.io) for WC and EH.
+3. Hugo stuff
+    - [config-eh.toml](config-eh.toml) Hugo config for Enterprise Health of static pages.
+    - [config-wc.toml](config-wc.toml) Hugo config for WebChart building of static pages.
+    - [themes/wc-eh-docs](themes/wc-eh-docs) custom Hugo [themes](https://themes.gohugo.io)
+4. Automation to automate the process as well as a set of scripts to update a qa-server in realtime watching for changes in Google Drive and near instant update.
+    - [Actions](.github/workflows) - github scripts that automate changes out to production and test Pull Requests to see if they break the build process.
+    - [test.sh](test.sh) a script for testing the static page generation locally on your own machine.
+    - [start-server.sh](start-server.sh) starts several services that watch for changes in realtime from Google, download, transform and update the page.
 
 ## Setup 
+### TLDR - for geeks to get started quickly.
 
-## TLDR
-
-- [Git Desktop for Window](https://desktop.github.com)
+- Clone this repo.
 - open bash window, type: `./build.sh`
-
-**Requirements**
+### Requirements
 
 - [Git LFS](https://git-lfs.github.com/)
 - [Hugo](https://gohugo.io/)
@@ -21,7 +44,7 @@ From your terminal, clone this repository:
 ```bash
 # CHOOSE ONE
 # for username and password
-git lfs clone https://github.mieweb.com/aquandt/mie-docs.git
+git lfs clone https://github.mieweb.com/webchart/docs.git
 # -- OR --
 # for SSH key
 git lfs clone git@github.mieweb.com:aquandt/mie-docs.git
@@ -39,8 +62,6 @@ If you do not have Git installed, [download](https://git-scm.com/download/win) a
 To install Nodejs and Chocolatey (package manager), [go here](https://nodejs.org/en/download/package-manager/) and choose the Windows (.msi) installer. If you are unsure about your computer being 32 or 64 bit, choose 32.
 
 During the installation, you will reach a screen with a checkbox for installing Chocolatey. Make sure this is checked (it is not checked by default):
-
-![](readme-assets/nodejs.png)
 
 Once you have Chocolatey installed, open Git Bash (run as administrator), clone this repository:
 ```bash
@@ -69,22 +90,3 @@ We will need to run wikigdrive at least once in order to generate the content th
 
 - URL of the Google Drive folder you wish to use (example URL: `https://drive.google.com/drive/folders/1ahRhJjqSdokWHI6QllTJzms_u5jYxWBR` )
 - If you do not have Google Cloud credentials in `.wikigdrive` file, visit the [wikiGrdive](https://github.com/mieweb/wikiGDrive/blob/master/README.md#authorization) project for instructions.
-
-## Branding
-
-There are currently 3 branding options.  
-
-- MIE (Generic)
-- Enterprise Health
-- WebChart
-
-The MIE branding option is the default and its configuration is stored in the `config.toml` file.  Enterprise Health's branding configuration is stored in `config-eh.toml` and WebChart's is within `config-wc.toml`.
-
-If you wish to build or run a local server using a different branding configuration; add the `--config` flag to your Hugo command.
-
-Example:
-
-```bash
-hugo server --config 'config-eh.toml'
-hugo --config 'config-wc.toml'
-```
