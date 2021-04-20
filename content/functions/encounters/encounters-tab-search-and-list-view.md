@@ -24,13 +24,13 @@ At the top of the encounters list view tab you will see the *Encounter Search* w
 
 If you click Show Encounter Search, it will open up the Encounter Search fields. You can set any fields to narrow down your search to find the specific encounter(s) you need for the patient.
 
-![](encounters-tab-search-and-list-view.images/image2.png)
+![](encounters-tab-search-and-list-view.images/image3.png)
 
 ### Encounter List
 
 Under the Encounter Search tool, it shows the full encounters list view summary for this patient (or if you did a specific encounter search, it will show matching results here). You can click the List All Encounters link at the top of this tab to get back to the full listing of encounters for the patient.
 
-![](encounters-tab-search-and-list-view.images/image3.png)
+![](encounters-tab-search-and-list-view.images/image2.png)
 
 Encounters are listed by Service Date order (most recent DOS at the top of the list) regardless of creation date or encounter ID. It lists all encounters that this patient has had and the one you just added will be at the top (first on the list).
 
@@ -38,11 +38,11 @@ The encounters list shows the chief complaint column which will show the first 3
 
 In the Assessments column, when you hover over it to see more than the first 30 characters, the **bold** diagnosis/assessments will be shown signifying those were the conditions marked as active for that visit and any concluded conditions marked on that visit will be followed but not bolded and have the (conc) label.
 
-![](encounters-tab-search-and-list-view.images/image4.png)
+![](encounters-tab-search-and-list-view.images/image5.png)
 
 The list of encounters for the patient also shows who the Performing Doctor is that is set on the encounter and the date the encounter was created. The Open/Closed column shows if the encounter is still in open status or if it's been closed.
 
-![](encounters-tab-search-and-list-view.images/image5.png)
+![](encounters-tab-search-and-list-view.images/image4.png)
 
 {{% note %}}
 
@@ -51,26 +51,26 @@ If there is no Performing Provider documented within the encounter, the listview
 {{% /note %}}
 
 
-![](encounters-tab-search-and-list-view.images/image6.png)
+![](encounters-tab-search-and-list-view.images/image7.png)
 If the encounters for your practice incorporate different "stages" of the encounter (like one screen for intake/nurses, another screen/stage for physicians documenting, another screen/stage for post exam) and there is workflow in place to move those encounters to various worklist buckets, then the "stage" that the encounter is currently in will be shown in a **Stage** column.
 
-![](encounters-tab-search-and-list-view.images/image7.png)
+![](encounters-tab-search-and-list-view.images/image6.png)
 
 In the options column you will see various links that perform functions or take you to specific views of the encounter.
 
-![](encounters-tab-search-and-list-view.images/image8.png)
+![](encounters-tab-search-and-list-view.images/image9.png)
 
 Depending on what your practice has set up and what security privileges you are set to, there will be various links here in the options column.
 
-![](encounters-tab-search-and-list-view.images/image9.png)
+![](encounters-tab-search-and-list-view.images/image8.png)
 
-#### ![](encounters-tab-search-and-list-view.images/image10.png)
+#### ![](encounters-tab-search-and-list-view.images/image12.png)
 
 **Set Current**: If you click this, it will set this specific encounter as ‘current' for you. It then shows it as Current in this column and shows that current encounter up in your top encounters summary toolbar. You can set open or closed encounters to ‘current'.
 
 **Current**: This means this specific encounter is the current encounter you have set/shown in the top summary encounter toolbar. You can set open or closed encounters to be ‘current' on your screen. If your practice utilizes a ‘worklist', then it will show your name as having this encounter set as ‘current' for the patient. (see other help documentation named Encounter-Worklist.pdf)
 
-![](encounters-tab-search-and-list-view.images/image12.png)
+![](encounters-tab-search-and-list-view.images/image10.png)
 
 * <strong>(Release):</strong> Release is user specific.  If the encounter is set to Current for your log in, then the current encounter toolbar at the top will show for that encounter.  You can have one current encounter per patient. If you click <em>(Release)</em> then you are releasing the encounter so it is no longer set as Current.  This means the top encounter toolbar will go away for that encounter.  If you set Current or Release an encounter, it doesn't change other users.
 * <strong>Set Open:</strong> You must have security permission to be able to re-open closed encounters. The system must also have a system setting turned on named <em>Show Set Open Link</em> to allow the link to be present. This allows users with this security permission to re-open closed encounters. Re-opening a closed encounter means the encounter is closed and you can click this to ‘re-open' the encounter. It will re-open it and change the encounter status from closed to open. It will also mark it as your <em>current</em> encounter and show it at the top encounter summary toolbar. You can ‘release' it from being your current. The set open link is here to put the encounter back on the performing Dr's worklist.  If your practice doesn't use a worklist, then there is no need to set open.
@@ -82,23 +82,23 @@ Depending on what your practice has set up and what security privileges you are 
 * <strong>Add Physician:</strong> You can add a physician and select their user role and also can link them to the patient from here. You can add users on the encounter.  What we usually do is have the CC section on the bottom of the encounter exams.  On the encounter exams we usually only allow you 1 role, like referring physicians. But from here you save encounter users by using the "Add Physician" link on the encounter options.
 * <strong>Create CCD Document:</strong> If the encounter shows this link, you can create a CCD document (Continuity of Care Document). CCD is a different XML format that is supported by some EMR/PHR systems (instead of CCR).  We are able to communicate between {{% system-name %}} systems as well with CCD, but normally as a default use CCR in those various send methods. If you Create CCD Document from here, it will open up the specially formatted XML version of their medical record in a separate window. The user can then choose to save it or on to a media device for the patient, or whatever they may choose.
 
-![](encounters-tab-search-and-list-view.images/image13.png)
+![](https://lh4.googleusercontent.com/D0JRSMSXP225kbru3CZn-H2c2ie2pvmulSsE2bvQgYdgIl4l9zjIcjVkVnu75FVsbIWKEvHzTBv_YdrR6tEzx3OHOzjg2cZJINm1XF9SK2mUTmLyLhwbQCR5Hh2t-1l-U2j-h54-CA2gqGZ9fA)
 
 The create ccd document link/feature can be turned off. The system setting to turn this off is:
 
-![](encounters-tab-search-and-list-view.images/image14.png)
+![](encounters-tab-search-and-list-view.images/image13.png)
 
 * <strong>View Links:</strong> The closed/archived encounter document is shown here along w/ any additional ‘views' the encounter stored as. You can access the stored encounter document and any additional ‘views' it stored as from this view links feature. Can quickly access it to print/fax/task, etc. Also, if the encounter is linked to any other documents in the patient's chart, this ‘view links' option will show. You can click ‘view links' to view what documents this encounter is linked to. E-signs can be linked to an encounter and one can link any document to an encounter. Using the view links will pop-up a box showing you what documents (along with it's date of service) are linked to this encounter. You can click on the underlined document that is linked to open that specific document up on your screen for viewing.
 
-![](encounters-tab-search-and-list-view.images/image15.png)
+![](encounters-tab-search-and-list-view.images/image14.png)
 
 MIE can also program a section named *Linked Documents* to be shown within the encounter while working in the encounter. This enables the user access to view linked documents (documents linked to that specific encounter) from within an encounter, instead of always having to go out to properties to the View Links functionality.
 
-![](https://lh3.googleusercontent.com/DPjBTMUm7Y3zsZrG1J4Upo-h2ciBpIFgf21n6wwwPEMcrcQ4rUeJrwGDO2XwsrWPCwQ30txdA1uI9REim2yKZ3JRPUQJWkrdRFINkG4S1t6uAKvbwX6w8swLWRn0T3lSNXr06ZDan9lk2X7OWg)
+![](encounters-tab-search-and-list-view.images/image15.png)
 
 The remaining links are encounter specific named. Meaning they will show the specific name of the encounter your system uses and any stages the encounter has. Below we will use the encounter example named *Office Visit-Follow Up*.
 
-![](https://lh4.googleusercontent.com/Y5wHX8lFsI-f-Cs72kMeB1Z9zvGOWk4NUFThl-BnNLYrJEvvlItFmYy71U5UjQZLrDw7hpNj4K70Yhb2ZAhC7rt0zbHMtA-vJddM31CtiQvTe_HKsZD-K6jB2nlIIebj36lReZyGCFgGbxAaJA)
+![](encounters-tab-search-and-list-view.images/image12.png)
 
 * <strong>Office Visit-Follow Up:</strong> The specific name of the encounter is shown here so it won't be ‘Office Visit-Follow Up', but states the specific name of the encounter this patient had created for their chart. It the encounter has ‘stages' in it, those stages are also listed for quick entry access. Clicking the name of the encounter (which is shown as a link here) will take you right to the entry side of the encounter. You can get back into the entry mode for the encounter, make edits, etc. It sets it as your ‘current' encounter and takes you to the entry fields for the encounter exam. You can make edits and save or use the other function buttons (re-archive, close/archive, etc). The proper way to edit is to get into the encounter using this link and edit and then re-archive. This updates all views/documents associated with that encounter. MIE can also set up esign rules then to send an esign request/notify the physician to re-sign if a user edits a final encounter document this way.
 

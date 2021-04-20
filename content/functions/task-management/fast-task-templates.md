@@ -30,7 +30,7 @@ To configure and add a new Fast Task template selection to the system, click the
 
 
 
-![](fast-task-templates.images/image2.png)
+![](fast-task-templates.images/image4.png)
 
 
 
@@ -38,7 +38,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 
 
 
-![](fast-task-templates.images/image3.png)
+![](fast-task-templates.images/image2.png)
 
 
 
@@ -58,7 +58,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 * Layout:  Leave as None/Std Comment.  However, MIE can program a specific layout to allow users to input task details that displays in the Notes section when creating a text.  Layouts allow a different look instead of just a plain text-box if needed. It can also pull other {{% system-name %}} information into the task automatically (ex: patient's conditions, patient's allergies, etc).  Layouts are billable time done by MIE and the layout type/name would show here as a choice after it's developed.
 * Notes: Fast Tasks can show pretemplated text here in the notes field.  This may help prompt other users to remember what to key in or do or specific information that is standard for this fast task.  Whatever is typed here in the template will display in the ‘notes' field of the fast task when users create this fast task or when system automatically sends the fast task if based on a tasklist event rule.  This notes field can be left blank to indicate a free-text notes field. If a Layout is programmed by MIE (see layout field above), then the layout would display in the Note field when users create the fast task. This is an example of a layout being used for the Notes section.  This layout is designed to have the user document specific things to be entered in the task of this type.
 
-          ![](fast-task-templates.images/image4.png)
+          ![](fast-task-templates.images/image6.png)
 
 
 
@@ -84,7 +84,7 @@ To access the Fast Tasks Template tab within the Task List sidemenu module, user
 
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
 
-![](fast-task-templates.images/image5.png)  
+![](fast-task-templates.images/image1.png)  
 
 ### Edit
 
@@ -92,7 +92,7 @@ To edit, find the specific fast task template that needs edited and simply click
 
 
 
-![](fast-task-templates.images/image6.png)
+![](fast-task-templates.images/image5.png)
 
 
 
@@ -108,7 +108,7 @@ It will ask you to confirm that you are sure you want to delete the fast task.
 
 
 
-![](https://lh5.googleusercontent.com/EnXmDN0VlvL07x2UwKqw8RGqGkg5ZKQCiTjCDRv6p9MaSIuXQTg0QWg3Z988X1XKQCmaQKLXbs6qbn6aL2YVolJg0ASosjuRGf3ctU7epqr1hwI-u8ij7kNFF8WtO32jbTLQw3WIIP1vFOfDAg)
+![](fast-task-templates.images/image3.png)
 
 
 

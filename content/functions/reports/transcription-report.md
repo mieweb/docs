@@ -42,7 +42,7 @@ You must have security role access to reports and to viewing transcription stati
 1. Show the side menu. The side menu appears.
 2. From the side menu, select <strong>Reports</strong>.
 3. Select <strong>Dictation/Transcription</strong>. The <em>Dictation/Transcription</em> section appears.
-4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears. ![](transcription-report.images/image1.png)
+4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears. ![](transcription-report.images/image3.png)
 5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report: 
     * <em>Select </em> <em>Department</em>: Select department for which to view transcription statistics.
     * <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user. If you selected a department in the <em>Select Department</em> field, only users in that department are shown in this field. If you did not select a department, all users are shown in this field.
@@ -63,9 +63,9 @@ You must have security role access to reports and to viewing transcription stati
         * To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
 
-![](transcription-report.images/image2.png)
+![](transcription-report.images/image1.png)
 
-![](transcription-report.images/image3.png)
+![](transcription-report.images/image2.png)
 
 
 

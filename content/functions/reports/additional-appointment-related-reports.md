@@ -47,7 +47,7 @@ It will also show the number of duplicate appointments for that patient.
 
 The Startdate is the date the duplicate appointment occurs.
 
-![](additional-appointment-related-reports.images/image2.png)
+![](additional-appointment-related-reports.images/image3.png)
 
 You can click View Printable and print out a basic black/white printable layout by then going to FILE and PRINT from that view.
 
@@ -61,7 +61,7 @@ Click *Appt No Location* tab from the top tab menu.
 
 It will automatically generate a list of appointments without locations. These are appointments schedule that do not have a location selected for the patient's appointment.
 
-![](additional-appointment-related-reports.images/image3.png)
+![](additional-appointment-related-reports.images/image2.png)
 
 You can click View Printable and print out a basic black/white printable layout by then going to FILE and PRINT from that view.
 

@@ -16,9 +16,9 @@ When access to a chart is restricted, the system provides a means for appropriat
 
 The security setting of **Limited Access** is what drives this along with security setting of **Allow Emergency Access to Charts**.
 
-![](emergency-access-for-limited-access-users.images/image1.png)
+![](emergency-access-for-limited-access-users.images/image5.png)
 
-![](emergency-access-for-limited-access-users.images/image2.png)
+![](emergency-access-for-limited-access-users.images/image7.png)
 
 ## Limited Access
 
@@ -42,37 +42,37 @@ When a user is set to Limited Access ‘emergency' level, when they work in {{% 
 
 However, when the user has ‘emergency' Limited Access security, they will always see the **[] Show Restricted Accounts** check-box in the patient and document searches.
 
-![](emergency-access-for-limited-access-users.images/image3.png)
+![](emergency-access-for-limited-access-users.images/image6.png)
 
 If they need to search and find a patient outside their limited access and it may be an emergency situation, they can checkmark the **[] Show Restricted Accounts**
 
-![](emergency-access-for-limited-access-users.images/image4.png)
+![](emergency-access-for-limited-access-users.images/image9.png)
 
 When it is check-marked, they can search for a patient or a document and see all matching search results. It will show that the account or document is *restricted*, but they can get into it if need be for an emergency.
 
-![](emergency-access-for-limited-access-users.images/image5.png)
+![](emergency-access-for-limited-access-users.images/image8.png)
 
 If the user needs to get into the patient's account and are usually ‘restricted' from it, they can click the MR# to advance into the patient's account. The user will see a warning that they do not have access to this patient, **but** since they have emergency Limited Access security level, they can click here to gain emergency access to the patient's chart.
 
-![](emergency-access-for-limited-access-users.images/image6.png)
+![](emergency-access-for-limited-access-users.images/image2.png)
 
 Once they click here to gain emergency access, it will pop-up another dialog box to confirm they want to continue to gain entry via emergency access. Click Yes to proceed.
 
-![](emergency-access-for-limited-access-users.images/image7.png)
+![](emergency-access-for-limited-access-users.images/image1.png)
 
 Once the user continues into the restricted patient's chart, but has emergency access to it, the use will see a banner at the top notifying them that they are in EMERGENCY ACCESS ENABLED mode and their session to work in this patient's chart expires in a set amount of time. The banner contains how much time is remaining until the record will become locked.
 
-![](emergency-access-for-limited-access-users.images/image8.png)
+![](emergency-access-for-limited-access-users.images/image4.png)
 
 The time the session expires is usually set to 2 hours, but it is a system setting that the practice can change (or contact your MIE Implementer). Emergency Access session for your practice can be set to a different amount of time other than the standard 2 hours. The system setting is set by ‘seconds'. The normal 2 hour default is set as 7200 seconds in the system setting, but again system wide it can be changed to any amount determined by the practice.
 
-![](emergency-access-for-limited-access-users.images/image9.png)
+![](emergency-access-for-limited-access-users.images/image3.png)
 
 The user can access that same patient's account they gained emergency access to until their session expires. They can get out and work in other charts and come back to it up until their session expires.
 
 When the emergency session expires the chart becomes locked. If the session expires, and you go to click to continue to work in that patient's chart it will take you back to the ‘Access Denied' screen. If you need more time you'll have to gain emergency access again.
 
-![](https://lh5.googleusercontent.com/iLc3UYUNezDBLGVZF6RKI9FLys9-UtEDBBrGfb5VgoffLCszS3xgnzTvc0dSnOzXvFMkMvyjOUnw1lg-4KMCpcdkgtSM-gycMfG-CJ1d_wFsJm2JxFVElYyFuZXceYLiqn_AtljqCPDmttMoQg)
+![](emergency-access-for-limited-access-users.images/image2.png)
 
 Users with Emergency Limited Access security can see the **[] Show Restricted Accounts** optional check-box in Simple Patient Search, Detailed Patient Search, & Document Search modes to gain emergency access.
 

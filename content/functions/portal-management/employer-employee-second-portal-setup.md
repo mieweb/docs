@@ -18,35 +18,35 @@ There may be a need for a second portal of a different url and different users r
 
 From the sidemenu tab *Provider Management*, then click Add New Provider Organization to set up and name a second portal.
 
-![](employer-employee-second-portal-setup.images/image1.png)
+![](employer-employee-second-portal-setup.images/image4.png)
 
 Enter in a name for this provider organization if one doesn't already exist. For this help guide, we will be using the name *Top Level* as an example of a second portal.
 
-![](employer-employee-second-portal-setup.images/image2.png)
+![](employer-employee-second-portal-setup.images/image6.png)
 
 The screen will refresh to the *Overview* page of the newly created provider organization.
 
-![](employer-employee-second-portal-setup.images/image3.png)
+![](employer-employee-second-portal-setup.images/image5.png)
 
 In this *Overview* tab, scroll down to the bottom section named **Chart Types** and click to expand that section. Add an additional chart type of **Portal** to this chart. Then click the NEXT button to save the work.
 
-![](employer-employee-second-portal-setup.images/image4.png)
+![](employer-employee-second-portal-setup.images/image8.png)
 
 After you click NEXT, click the *Overview* chart tab again to refresh the entire page. You will then see all the portal setup tabs at the top being applied since you set this provider organization chart to be an additional chart type of "portal".
 
-![](employer-employee-second-portal-setup.images/image5.png)
+![](employer-employee-second-portal-setup.images/image7.png)
 
 Click the *Portal Setup* tab and begin configuration. See other help guide titled *Employer-Employee Portal Setup.pdf*. Then see additional help guide titled *Employer-Employee Portal Menu Layout.pdf* to set up the portal options for this new second portal.
 
 At any time, you can see what your real second portal will look like. First make sure you have a "supervisor" relationship on your username to another test user. Also make sure you are linked to your own chart as NoMoreClipboard User role (MIE Implementers can link to a test patient).
 
-![](employer-employee-second-portal-setup.images/image6.png)
+![](employer-employee-second-portal-setup.images/image2.png)
 
 Simply go to the sidemenu tab *Quick View*, then have the portlet named *Employee Portal* displayed on your screen. Within the *Employee Portals* section you will see a button for the second portal you created. Click on that.
 
-![](employer-employee-second-portal-setup.images/image7.png)
+![](employer-employee-second-portal-setup.images/image1.png)
 
 You will access the second portal and see the configuration you set up for it.
 
-![](employer-employee-second-portal-setup.images/image8.png)
+![](employer-employee-second-portal-setup.images/image3.png)
 

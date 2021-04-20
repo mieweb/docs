@@ -2,7 +2,7 @@
 title: "Fee  schedules"
 date: "2021-02-17T19:43:08.754Z"
 url: "functions/financial-functionality/fee-schedules.html"
-author: Adam Humes
+author: ahumes
 version: 9
 id: "1sSy0HOZEuSlpQCX9UsAovxKI3N28tC7H6jI8xqIHfHE"
 source: "https://drive.google.com/open?id=1sSy0HOZEuSlpQCX9UsAovxKI3N28tC7H6jI8xqIHfHE"

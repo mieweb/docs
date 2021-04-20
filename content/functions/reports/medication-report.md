@@ -37,11 +37,11 @@ Click *Search Meds* button to show your search results.
 
 Your report will display on the screen with totals at the bottom.
 
-![](medication-report.images/image2.png)
+![](medication-report.images/image3.png)
 
 You can export the results to a CSV (spreadsheet). Simply click on the **Show CSV** link in the results.
 
-![](medication-report.images/image3.png)
+![](medication-report.images/image2.png)
 
 This will put all the data into an excel spreadsheet which you can save, sort, etc. in spreadsheet form.
 

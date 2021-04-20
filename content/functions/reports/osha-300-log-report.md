@@ -22,19 +22,19 @@ Incidents are cases. We use the terminology interchangeably, so you may have enc
 
 The OSHA 300 Log Report will show a summary of OSHA reportable cases. If a case/incident is OSHA recordable, the field *Date determined recordable* needs to be populated in the Injury-OSHA case type in a dynamic encounter the case is linked to. Having a date in the field *Date determined recordable* signifies this is an OSHA 300 reportable case. The OSHA 300 LOG report looks at any/all cases (based on your filter criteria) that have a date populated in this *date determined recordable* field.
 
-![](osha-300-log-report.images/image2.png)
+![](osha-300-log-report.images/image3.png)
 
 You can also tell if the case (linked to the encounter you are working in) is OSHA recordable by seeing it displayed in the light grey bar in the header.
 
-![](osha-300-log-report.images/image3.png)
+![](osha-300-log-report.images/image2.png)
 
 From the Reports sidemenu, there is a reports parent tab named *Safety.* Then there is a report available named *OSHA 300 Log*.
 
-![](osha-300-log-report.images/image4.png)
+![](osha-300-log-report.images/image5.png)
 
 Clicking on that takes you to the OSHA 300 Log report but at the top you will see a search criteria field section named *Common Incident Search*. See other help documentation titled *Common Incident Search.pdf* for specifics on each filter criteria field. Most OSHA 300 Logs are run staff using incident date range filter.
 
-![](osha-300-log-report.images/image5.png)
+![](osha-300-log-report.images/image4.png)
 
 ## OSHA 300 Log Results
 
@@ -42,33 +42,33 @@ You do not have to enter in any search filters. You can scroll down and click SE
 
 However, most staff run OSHA 300 Log by incident date range filter. After any search filter criteria fields are keyed in, click the SEARCH button at the bottom of the Common Incident Search report while in the OSHA 300 Log report. Below it will result all the matching criteria cases/incidents in a list view that were deemed/noted as OSHA Recordable and it's titled *OSHA 300 Log*.
 
-![](osha-300-log-report.images/image6.png)
+![](osha-300-log-report.images/image7.png)
 
 ## Columns of Cases Results in OSHA 300 Log Report
 
 * <strong>Case Number:</strong> This displays the specific assigned number to the case/incident.
 * <strong>Name:</strong> This displays the last name,first name of the patient/employee on the OSHA recordable case/incident. If the case/incident were marked as a <em>privacy case</em> in that checkbox field, then the OSHA 300 Log will result the name as <em>Privacy Case</em>.
 
-![](osha-300-log-report.images/image7.png)
+![](osha-300-log-report.images/image6.png)
 
-![](osha-300-log-report.images/image8.png)
+![](osha-300-log-report.images/image9.png)
 
 * <strong>Job Title:</strong> This pulls the data that is stored in the Job Code Description field of the employee demographics tab.
 * <strong>Onset Date:</strong> This pulls the <em>date and time of injury or onset of illness</em> from the OSHA recordable case/incident.
 
-![](osha-300-log-report.images/image9.png)
+![](osha-300-log-report.images/image8.png)
 
 * <strong>Location:</strong> This pulls the <em>where the event occurred</em> field from the OSHA recordable case/incident.
 
-![](osha-300-log-report.images/image10.png)
+![](osha-300-log-report.images/image12.png)
 
 * <strong>Description:</strong> This pulls the <em>Nature of Injury or Illness, Body part, and what object or substance directly harmed the employee</em> fields from the OSHA recordable case/incident.
 
-![](osha-300-log-report.images/image11.png)
+![](osha-300-log-report.images/image10.png)
 
 * <strong>Death Case:</strong> This column displays N (for No) if the <em>patient died</em> checkbox field in the OSHA recordable case/incident isn't marked. The column displays Y (for Yes) if the checkbox is checked on the OSHA recordable case/incident.
 
-![](osha-300-log-report.images/image12.png)
+![](osha-300-log-report.images/image11.png)
 
 * <strong>Days Away from Work Case:</strong> If the employee had any Lost Time documented for the OSHA recordable case in the Restrictions section and the accommodation. Lost time should be documented as the restriction type, and a Lost Time accommodation choice to it should be documented. The accommodation drop-down choices deemed <em>lost time</em> are looked at in system setting <em>Lost Time Type</em>. By default the 5 Lost Time accommodation choices are counted for this, but the system setting controls that. If there is Lost Time accommodation documented on an encounter linked to an OSHA recordable case, then this column displays Y (for Yes). If the employee didn't have any Lost Time types documented in any restrictions & accommodations, then this column displays N (for No). If there was no Lost Time, but there were other restriction(s), this column would still display N (for No) and the next column for restriction case would be displayed as Y.
 

@@ -24,13 +24,13 @@ Any changes done in the Injection Editor affect an injection auto-complete such 
 
 
 
-![](injection-editor.images/image1.png)
+![](injection-editor.images/image5.png)
 
 
 
 INJECTION EDITOR tab is accessible if you have security rights to it. It lists any injection names that have edits or are marked hidden once you open this tab.  It always shows what injections have been modified in this summary.
 
-![](injection-editor.images/image2.png)
+![](injection-editor.images/image3.png)
 
 ## Hide an Injection Name
 
@@ -40,7 +40,7 @@ Once you have the injection name in that field that you want to hide, simply che
 
 
 
-![](injection-editor.images/image3.png)
+![](injection-editor.images/image1.png)
 
 
 
@@ -48,7 +48,7 @@ Once you have clicked the ADD button, it puts that edit up in the summary list a
 
 
 
-![](injection-editor.images/image4.png)
+![](injection-editor.images/image9.png)
 
 
 
@@ -58,7 +58,7 @@ You can reverse a hidden injection.  If the injection name is hidden, but now y
 
 
 
-![](injection-editor.images/image5.png)
+![](injection-editor.images/image7.png)
 
 
 
@@ -72,7 +72,7 @@ The "display name" option is a way to change a particular injection code CDC nam
 
 
 
-![](injection-editor.images/image6.png)
+![](injection-editor.images/image4.png)
 
 
 
@@ -80,7 +80,7 @@ Once you have the injection name in that field that you want to ‘rename', simp
 
 
 
-![](injection-editor.images/image7.png)
+![](injection-editor.images/image2.png)
 
 ![](injection-editor.images/image8.png)
 
@@ -92,7 +92,7 @@ After you have clicked the ADD button, that renamed injection will display above
 
 
 
-![](injection-editor.images/image9.png)
+![](injection-editor.images/image6.png)
 
 
 

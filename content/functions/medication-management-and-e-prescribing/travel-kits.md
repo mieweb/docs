@@ -24,35 +24,35 @@ The superuser must have security rights to *Meds Manage* set to Yes.
 
 In Control Panel sidemenu tab, click Meds Manager tab at the top. At the right corner, select *Kits* from the Meds Editor selection drop-down. The screen should refresh to show you existing Medication Kits. If not, you can click the *GO* button after selecting *Kits* in the drop-down.
 
-![](travel-kits.images/image2.png)
+![](travel-kits.images/image3.png)
 
 The screen will show the Medication/Travel Kits currently built in your system. Most clients keep the Name and the Description the same.
 
-![](travel-kits.images/image3.png)
+![](travel-kits.images/image2.png)
 
 ### View Items within Medication/Travel Kit
 
 To see all the medication items that are grouped in a specific Medication/Travel Kit, simply click the *Items* link next to a specific Medication Kit.
 
-![](travel-kits.images/image4.png)
+![](travel-kits.images/image5.png)
 
 The list of included items in that Medication/Travel Kit selected will appear on the screen. At the top in bold it also shows which Medication Kit items you are viewing.
 
-![](travel-kits.images/image5.png)
+![](travel-kits.images/image4.png)
 
 ### Edit Existing Item(s) in Medication/Travel Kit
 
 You can edit an existing item that is a part of a Medication Kit. Simply click the *Edit* link next to the specific drug/medication item you need to edit.
 
-![](travel-kits.images/image6.png)
+![](travel-kits.images/image7.png)
 
 The *Edit Kit Item* screen will appear. You can change any of the fields you wish or update them. You must have all of the fields filled out, otherwise when the Travel/Medication Kit is prescribed, the queue will render an error if you were to print/fax/transmit them out. Then the user would have to manually fix that prescribed item in the patient's chart for the kit every time. Indication & Instructions fields are *not* required. However everything above that would be.
 
-![](travel-kits.images/image7.png)
+![](travel-kits.images/image6.png)
 
 * <strong>Checked by Default:</strong> checkmark this if this medication item should always be set "to use" when a user is selecting a travel kit to prescribe. The medication will automatically be checkmarked to dispense if this <em>checked by default</em> is checked. If this is not checked, the item still shows up as an item in that Medication Kit, but the user has to manually select the medication to prescribe for the patient. One would leave this unchecked if the medication were "optional" to prescribe. If mandatory, then it would be suggested to checkmark <em>checked by default</em> so it saves the end user time when prescribing the medication kit.
 
-![](travel-kits.images/image8.png)
+![](travel-kits.images/image9.png)
 
 * <strong>Active:</strong> this is checkmarked if the item is to be actively part of the Medication Kit. If need to remove that medication item from being part of the kit, simply uncheckmark so it the item is now inactive in the system from being prescribed with that kit selection.
 
@@ -62,11 +62,11 @@ Click the *SUBMIT* button to save all work to that item.
 
 When you are viewing the existing items that are part of a specific Medication Kit you selected, you can add more items to the kit. Simply click the Add Item to Kit link found at the top left.
 
-![](travel-kits.images/image9.png)
+![](travel-kits.images/image8.png)
 
 The *Add Kit Item* screen will appear. Fill out all the fields. The Indication & Instructions fields are optional, but the fields above it should be filled out entirely so the end user doesn't have to manually fix an error each time when processing the script(s). See same field requirements and explanations above in the *Editing an Existing Item* section of this help document.
 
-![](travel-kits.images/image10.png)
+![](travel-kits.images/image12.png)
 
 Click the *SUBMIT* button to save all work. To add another item to the kit, repeat the above steps while in that same Medication Kit.
 
@@ -74,11 +74,11 @@ Click the *SUBMIT* button to save all work. To add another item to the kit, repe
 
 If you wish to edit a Medication/Travel Kit name, or description or mark as inactive, simply click the *edit* link next to the Medication Kit you wish to edit.
 
-![](travel-kits.images/image11.png)
+![](travel-kits.images/image10.png)
 
 The *Edit Kit* window will appear. You can change the name, description or uncheckmark *active* to make it inactive and it won't display as choices for a user working in {{% system-name %}} . Or vice-versa, if you wish to make an inactive Medication Kit now active, simply checkmark it to make it active. Click the *SUBMIT* button to save all work.
 
-![](travel-kits.images/image12.png)
+![](travel-kits.images/image11.png)
 
 ## Add a New Medication/Travel Kit
 

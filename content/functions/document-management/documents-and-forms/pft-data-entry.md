@@ -32,7 +32,7 @@ To access and utilize a bubble form for recording information, simply navigate t
 3. Print out the bubble form.
 4. Record results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](pft-data-entry.images/image2.png)
+![](pft-data-entry.images/image4.png)
 
 {{% info %}}
 
@@ -55,12 +55,12 @@ To add new PFT data from the Test Results chart tab:
 
 1. Click the <strong>New Manual Test</strong> to enter the PFT data.
 
-![](pft-data-entry.images/image4.png)
+![](pft-data-entry.images/image2.png)
 
 2. If performing a <em>New Manual Test</em>, begin filling in the fields with the appropriate data.
 3. In the PFT manual-entry screen, there is the ability to enter an interpretation and mark a maneuver as the <em>best maneuver</em>. In the list of all maneuvers, views of the interpretation of a maneuver will show the first 25 characters, with the rest visible while hovering.
 
-![](pft-data-entry.images/image5.png)
+![](pft-data-entry.images/image11.png)
 
  
 
@@ -77,7 +77,7 @@ Another alternative to the bubble form is the manual process of entering results
 
 The PFT may be added to an encounter in multiple ways. One method is by selecting the PFT order on the **Due List**, found in the *Tests & Procedures* section of the encounter, then using the **Add to Exam** button to allow for manual entry or device import.
 
-![](pft-data-entry.images/image7.png)
+![](pft-data-entry.images/image5.png)
 
 If the PFT is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter.
 
@@ -85,7 +85,7 @@ If the PFT is not found on the Due List, it can be autocompleted in the Tests & 
 
 Alternatively, the PFT may be selected using the **Picklist** icon by selecting the order from the list and adding it to the encounter.
 
-![](pft-data-entry.images/image9.png)
+![](pft-data-entry.images/image7.png)
 
 ### Import PFT Data From Device
 
@@ -97,5 +97,5 @@ When accessing the the Test Results chart tab after adding a new PFT, there is t
 
 These types of report links are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The PFT Summary Report is available here, for example.
 
-![](pft-data-entry.images/image11.png)
+![](pft-data-entry.images/image9.png)
 

@@ -2,7 +2,7 @@
 title: "Editing employer organizations"
 date: "2021-02-17T19:45:31.248Z"
 url: "functions/financial-functionality/editing-employer-organizations.html"
-author: Adam Humes
+author: ahumes
 version: 12
 id: "1PleeV1Z7fxATGu1yowdD2s_fPffeoRkLVlFzNyCYPQw"
 source: "https://drive.google.com/open?id=1PleeV1Z7fxATGu1yowdD2s_fPffeoRkLVlFzNyCYPQw"

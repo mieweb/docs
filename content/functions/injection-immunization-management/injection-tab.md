@@ -26,7 +26,7 @@ In these categories will be listed (if any) records of immunizations, oral immun
 
 
 
-![](injection-tab.images/image1.png)
+![](injection-tab.images/image7.png)
 
 
 
@@ -34,7 +34,7 @@ To view any deleted immunizations or deleted other injections or vials for the s
 
 
 
-![](injection-tab.images/image2.png)
+![](injection-tab.images/image24.png)
 
 
 
@@ -42,7 +42,7 @@ It will then show and list the deleted for all categories.  A deleted injection
 
 
 
-![](injection-tab.images/image3.png)
+![](injection-tab.images/image21.png)
 
 
 
@@ -54,7 +54,7 @@ If your system is interfaced bi-directionally with an injection program example:
 
 
 
-![](injection-tab.images/image4.png)
+![](injection-tab.images/image28.png)
 
 
 
@@ -70,7 +70,7 @@ From the injections tab, click Add Inj/Imm at the top right of the injection scr
 
 
 
-![](injection-tab.images/image5.png)
+![](injection-tab.images/image17.png)
 
 
 
@@ -78,7 +78,7 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 
 
 
-![](injection-tab.images/image6.png)
+![](injection-tab.images/image20.png)
 
 
 
@@ -93,7 +93,7 @@ You can only free-type in an injection name if your system has a setting turned 
 
 
 
-![](injection-tab.images/image7.png)
+![](injection-tab.images/image6.png)
 
 
 
@@ -103,7 +103,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 
 
-![](injection-tab.images/image8.png)![](injection-tab.images/image9.png)
+![](injection-tab.images/image30.png)![](injection-tab.images/image8.png)
 
 
 
@@ -112,7 +112,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 
 
-![](injection-tab.images/image10.png)
+![](injection-tab.images/image18.png)
 
 
 
@@ -133,7 +133,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 
 
-![](injection-tab.images/image11.png)
+![](injection-tab.images/image25.png)
 
 
 
@@ -145,7 +145,7 @@ The following fields can be entered when editing an injection or now when you ar
 
 
 
-![](injection-tab.images/image12.png)
+![](injection-tab.images/image15.png)
 
 
 
@@ -167,7 +167,7 @@ If enabled, these fields will display for data entry on an injection record:
 
 
 
-![](injection-tab.images/image14.png)
+![](injection-tab.images/image31.png)
 
 
 
@@ -190,7 +190,7 @@ There are system settings where MIE can configure additional fields in the add i
 
 
 
-![](injection-tab.images/image15.png)
+![](injection-tab.images/image16.png)
 
 
 
@@ -198,7 +198,7 @@ Any extra fields that are not already required can be programmed to the system s
 
 
 
-![](injection-tab.images/image16.png)
+![](injection-tab.images/image14.png)
 
 
 
@@ -208,7 +208,7 @@ Many clients hand the patient a Vaccine Information Handout (VIS) when the patie
 
 
 
-![](injection-tab.images/image17.png)
+![](injection-tab.images/image26.png)
 
 
 
@@ -216,7 +216,7 @@ Once you click on the link VIS Handouts, it will open the VIS Handout fields for
 
 
 
-![](injection-tab.images/image18.png)
+![](injection-tab.images/image2.png)
 
 
 
@@ -228,7 +228,7 @@ The VIS Website link can be set up by your MIE Implementer.  You do not have to
 
 
 
-![](injection-tab.images/image19.png)
+![](injection-tab.images/image9.png)
 
 
 
@@ -236,7 +236,7 @@ When you click the VIS Website link found available in the VIS Handouts section,
 
 
 
-![](injection-tab.images/image20.png)
+![](injection-tab.images/image12.png)
 
 
 
@@ -248,7 +248,7 @@ You must click the ADD BUTTON to insert more than one VIS Handout to the injecti
 
 
 
-![](injection-tab.images/image21.png)
+![](injection-tab.images/image4.png)
 
 
 
@@ -258,7 +258,7 @@ It also gives a confirmation towards the top that says Successfully added inject
 
 
 
-![](injection-tab.images/image22.png)
+![](injection-tab.images/image23.png)
 
 
 
@@ -266,7 +266,7 @@ In the injection/immunization listing, you will see in the comments/reaction col
 
 
 
-![](injection-tab.images/image23.png)
+![](injection-tab.images/image10.png)
 
 
 
@@ -278,7 +278,7 @@ Click Quick Add at the top right of the injection screen to add multiple injecti
 
 
 
-![](injection-tab.images/image24.png)
+![](injection-tab.images/image22.png)
 
 
 
@@ -311,7 +311,7 @@ It also gives a confirmation towards the top that says Successfully added # inje
 
 
 
-![](injection-tab.images/image25.png)
+![](injection-tab.images/image3.png)
 
 
 
@@ -327,7 +327,7 @@ Injection/Immunization List is the complete, active summary list of injection / 
 
 
 
-![](injection-tab.images/image26.png)
+![](injection-tab.images/image1.png)
 
 
 
@@ -335,7 +335,7 @@ By default the screen lists 20 at a time in each section. There is a system sett
 
 
 
-![](injection-tab.images/image27.png)
+![](injection-tab.images/image5.png)
 
 
 
@@ -347,7 +347,7 @@ Some examples of system settings that can control the auto-complete or choices f
 
 
 
-![](injection-tab.images/image28.png)
+![](injection-tab.images/image27.png)
 
 
 
@@ -363,7 +363,7 @@ Then go to that window and click in the url at the top.  Click the "end" key on
 
 
 
-![](injection-tab.images/image30.png)
+![](injection-tab.images/image11.png)
 
 
 
@@ -371,7 +371,7 @@ You will see this screen:
 
 
 
-![](injection-tab.images/image31.png)
+![](injection-tab.images/image19.png)
 
 
 

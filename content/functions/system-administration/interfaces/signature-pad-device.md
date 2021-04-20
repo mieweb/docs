@@ -30,7 +30,7 @@ Click the START SIGNATURE button and the patient would sign the signature pad us
 
 This is an example of what the uploaded and stored document would look like, along with the electronic signature and date/time stamp on the document.
 
-![](https://lh5.googleusercontent.com/zQu8RyApaoT0egH-xa_NpFWTedogUDDL7vlgPXSmnfhXKCPuw_gx_8EspGXEE96-YtN5Pc03gJ1yklq1iG8SBAiku836F7Cs-wYqBRVwWgdZr9yejonOhQVE4V6O_OOgJ50Xf_YuJvTbOkd-Lg)
+![](https://lh4.googleusercontent.com/3FDr09HBhIaAnvMRMJvYTihHWC7H1xpeZQ4ylqUvk_cer15PDVQ2OtK9_bb-vWgA02-UyoRy66JN-4vWpBSyFRPiyXbhXAxRImLyOLYV_F9mMrg7S_xLPOvTwPnMqxsjvLjFP9dOUn7zb_VatQ)
 
 Signature pad devices can also be used in conjunction with the mass immunization record tab. See other help documentation named *Mass Immunization Record Tab.pdf*.
 

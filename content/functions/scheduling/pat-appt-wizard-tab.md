@@ -40,11 +40,11 @@ It then goes to the *Appointment Wizard* screen for this new registered patient.
 
 Manual Registration in {{% system-name %}} shows this new registered patient in {{% system-name %}} only. It will not merge/appear in any other practice management system that your company uses (example: Medical Manager, Experior, Medic, etc.)
 
-![](pat-appt-wizard-tab.images/image2.png)
+![](pat-appt-wizard-tab.images/image3.png)
 
 Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled *Adding An Appointment Using Wizard Tab.pdf*
 
 If you click the **Close** button in the Appointment Wizard screen without making an appointment—it will still save/keep the patient registration you just did manually and still puts that patient in {{% system-name %}} as a registered patient. You will see the message the patient was successfully added and you have the option to return to the scheduler if you didn't add an appointment thru the wizard.
 
-![](pat-appt-wizard-tab.images/image3.png)
+![](pat-appt-wizard-tab.images/image2.png)
 

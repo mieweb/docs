@@ -26,38 +26,38 @@ It most likely will default and open to the ADD ORDER module. This means it auto
 
 After you are in the orders tab or have clicked the link Add Order from somewhere in {{% system-name %}} , your default action may be set to *add order*. That means when you have clicked the order tab or the add orders link, then the ADD ORDER screen will appear for this patient. Otherwise, most recent orders summary will open.
 
-![](e-orders-add-order-requests.images/image1.png)
+![](e-orders-add-order-requests.images/image6.png)
 
 If you are not opened to the add orders screen, click Add from the top right of the screen when in the orders module.
 
-![](e-orders-add-order-requests.images/image2.png)
+![](e-orders-add-order-requests.images/image8.png)
 
 ### PIN Authenticate
 
 You can have your orders module to require a PIN. This only allows users with a designated PIN to create orders. This is a system setting that can be turned on.
 
-![](e-orders-add-order-requests.images/image3.png)
+![](e-orders-add-order-requests.images/image7.png)
 
 When you click *add* to add an order for a patient, you would then see at the beginning of the order the field **PIN Authenticate**. This means your practice has requested that users enter their PIN (personal identification number) to access and add orders for patients. If you see this field, you cannot create or edit an order for the patient until you enter your PIN number first. This gives you access to add or edit an order then and others cannot.
 
-![](e-orders-add-order-requests.images/image4.png)
+![](e-orders-add-order-requests.images/image10.png)
 
 Your PIN number must be entered in your username screen or in the MY SETTINGS tab screen for your username. It is the field called PIN Vericode. The PIN number entered in this field is what you type in the orders PIN Authenticate field to gain access.
 
-![](e-orders-add-order-requests.images/image5.png)
+![](e-orders-add-order-requests.images/image9.png)
 
 **Or from MY SETTINGS:**
 
-![](e-orders-add-order-requests.images/image6.png)
+![](e-orders-add-order-requests.images/image12.png)
 
 After you have entered your PIN Authenticate number (if applicable) in the orders module, you now complete the fields to create/add an order for this patient.
 
-![](e-orders-add-order-requests.images/image7.png)
+![](e-orders-add-order-requests.images/image11.png)
 
 * <strong>MR# and Name</strong> will automatically be filled out since you are in the specific patient's e-chart. The MR# dropdown defaults to the MR number in respect to the USERS "starting partition" preference default partition if the patient has an MR number with that partition
 * <strong>Standing Order Frequency:</strong> Type in how often to do the order, example: to do this standing order every 3 days or every 1 month, etc. In the first field, type the number, then in the 2^nd field use the drop-down to select the frequency unit (ex: days, months, etc) If it isn't a standing order, leave as 0 (zero) days.
 
-![](e-orders-add-order-requests.images/image8.png)
+![](e-orders-add-order-requests.images/image14.png)
 
 * <strong>Schedule Lab In:</strong> You can use the drop-down arrow to select an automated selection if the date for the order is not a specific date (more of a general time frame). You can also free-type in the free-text field next to it any other general date time frame, etc. You can also get date/time specific by going to the next field of Scheduled Date.
 
@@ -73,11 +73,11 @@ Or
 * <strong>Diagnosis:</strong> This field will display all diagnoses from the Assessment (Impression) section. If there are fewer conditions in the Assessment section than specified in the system setting: <em>Orders, Defaults, Number of patient conditions</em>, the remainder will be pulled from the patient's active conditions that are not already in the Assessment section. You can delete the diagnosis that appears by clicking on the grey minus button. You can also add another diagnosis in the field below that. When you start typing the name of the diagnosis, a series of auto-complete choices will appear and you can choose from there. You can also start typing the ICD-9 code and a series of auto-complete choices will appear and you can choose from there. To add multiple diagnosis to this order, simply search and select the diagnosis after you select from the auto-complete choices and it will automatically insert it in the field above it. To delete one, click the minus button next to the diagnosis. MIE can also program a diagnosis picklist here if you wish to have a pop-up window of most common diagnoses for this particular e-order set. When you are done, simply go to the next tab called Patient Instructions.
 * <strong>Bill Type:</strong> Order requests can specify a bill type. If system setting <em>Require Bill Type</em> is enabled, this field will appear. There are four options: The default is None (unspecified), Self, Client, and Third Party. The system setting (Orders, Settings, Require Bill Type) will control whether this field is required or not on the order. If this setting is on (value set to 1), and ‘None' is chosen in the bill type dropdown, the user will be asked to choose a different option.
 
-![](e-orders-add-order-requests.images/image9.png)
+![](e-orders-add-order-requests.images/image13.png)
 
 * <strong>CC Physcians:</strong> Your MIE Implementer can enable a layout tag to show a <em>CC Physicians</em> field if you need ability to send out multiple CC physicians on an order. The auto-complete of choices pulls from users who are tied to the department(s) listed in the system setting <em>Orders, Settings, Refer To Departments</em>. Contact your MIE Implementer to have that set. If this setting is empty, it falls back to user choices whose role is Referring Physician. This CC field/user selected shows on the view/document order also.
 
-![](e-orders-add-order-requests.images/image10.png)
+![](e-orders-add-order-requests.images/image17.png)
 
 * <strong>Patient Instructions:</strong> Free type any instructions for the patient regarding this order. These instructions may or may not print on the order sheet, depending on how your practice decided to layout the printable order sheet.
 * <strong>Comments:</strong> Free type any comments regarding this order. It will print on the order sheet and will show up in the Comments category when looking at this patient's recent orders from the orders screen view.
@@ -88,7 +88,7 @@ Continue the order by check-marking the specific items/orders you wish to have d
 
 * <strong>Additional:</strong> This auto-complete field is available if system setting Number Order Autocompletes is enabled.
 
-![](e-orders-add-order-requests.images/image11.png)
+![](e-orders-add-order-requests.images/image15.png)
 
 It will show an auto-complete field named *Additional* where a user can key in an additional order that isn't found on the pre-templated Order set checkmark picklist. The autocomplete "additional" field is pointed to *all* existing order items in the system. It is not a free text.
 
@@ -96,17 +96,17 @@ It will show an auto-complete field named *Additional* where a user can key in a
 
 The system setting *E-Chart*, *Order Picklists*, *Restrict Sets* can be enabled to restrict order picklists from being viewed and used by department. By default restricting sets is disabled. If enabled, this system setting indicates (by setting the value) which order picklists to restrict in the system. For a picklist to be accessed by specific departments but restricted from others, from Access Control make a department named the specific order picklist exactly (followed by any other words) and tag users to that department to be able to see/use the restricted picklist. The picklist is then restricted to all other users that aren't part of that dept that matches the picklist name.
 
-![](e-orders-add-order-requests.images/image12.png)
+![](e-orders-add-order-requests.images/image16.png)
 
 Under the Set Name field of the Order Request screen, are the selectable order items that correspond with the set name (picklist) you are working in.
 
-![](e-orders-add-order-requests.images/image13.png)
+![](e-orders-add-order-requests.images/image18.png)
 
 Any order item that you check-mark and it has a blank field next to it, after you check-mark it you may need to enter more information needed for that item/order by free text typing in that field to complete that item/order.
 
 When done, at the top of the Order Request screen simply click REQUEST ORDERS button.
 
-![](e-orders-add-order-requests.images/image14.png)
+![](e-orders-add-order-requests.images/image19.png)
 
 It may then show a confirmation that you select the correct diagnosis for the order which you entered if your practice requires that field or any other required fields missing. There are several fields that can be set as "required" for your practice workflow.
 
@@ -114,7 +114,7 @@ After selecting the specific diagnosis each order item pertains to, click FINISH
 
 This is a ‘diagnosis confirmation' screen that can be turned off and doesn't need to be turned on for use in your system. Again this is one of many fields that can be set to be "required". If your practice wishes to have any turned off, please contact your MIE Implementer.
 
-![](e-orders-add-order-requests.images/image15.png)
+![](e-orders-add-order-requests.images/image20.png)
 
 {{% note %}}
 
@@ -129,21 +129,21 @@ After requesting the orders, it sets the status of the orders as pending or inco
 
 It may automatically take you to the print module to print this order if you have the system setting to automatically take you to the print job screen.
 
-![](e-orders-add-order-requests.images/image16.png)
+![](e-orders-add-order-requests.images/image21.png)
 
 Otherwise, after you click FINISH, it will refresh to the screen showing the order and say the order was successfully inserted.
 
 A Print ABN hyperlink can be programmed to display, reminding users that an Advance Beneficiary Notice (ABN) form may be needed for a patient. An ABN form is required for all patients who have Medicare Part B insurance, for certain Lab Orders, or not at all. There is a system setting (Orders,Settings,Show ABN Link for all patients) that is off by default. However, if the value of this system setting is set to 1 for the system you are working in, a Print ABN link will appear on stored order documents on all orders for Medicare B patients (As defined by the PQRS system setting) and no link is shown for all other patients.
 
-![](e-orders-add-order-requests.images/image17.png)
+![](e-orders-add-order-requests.images/image22.png)
 
 If the value of this system setting is set to 2 for the system you are working in, the Print ABN link will be shown on the stored order documents for all patients regardless of Medicare B status or CPT requirements.
 
-![](e-orders-add-order-requests.images/image18.png)
+![](e-orders-add-order-requests.images/image23.png)
 
 Then to print, click PRINT/FAX ORDER.
 
-![](e-orders-add-order-requests.images/image19.png)
+![](e-orders-add-order-requests.images/image24.png)
 
 When you click Print/Fax Order, it will take you through the printing module to print.
 
@@ -151,7 +151,7 @@ After you print, X out of the print module view.
 
 You will then still be in the patient's orders module.
 
-![](e-orders-add-order-requests.images/image20.png)
+![](e-orders-add-order-requests.images/image25.png)
 
 You can complete another order for this patient by clicking Add from this e-orders module/tab or you can go to E-Chart and work elsewhere, etc.
 
@@ -159,7 +159,7 @@ You can complete another order for this patient by clicking Add from this e-orde
 
 If your practice is set up with an orders interface with a lab vendor to submit lab orders electronically to a lab facility (ex: LabCorp), the lab's location account number for that specific location must be entered in the location tab of control tab.  When we send the order electronically to the lab that account number for the location gets sent with it.
 
-![](e-orders-add-order-requests.images/image21.png)
+![](e-orders-add-order-requests.images/image1.png)
 
 ## Labels
 
@@ -167,19 +167,19 @@ If your system is set up to print a label from the e-orders submission, after sa
 
 Using the *Print* window that opens, select your printer and click OK to print. Once this software is installed and the printer has been chosen, when you click the label link provided at any future time, it will just automatically print that label to that printer.
 
-![](e-orders-add-order-requests.images/image22.png)
+![](e-orders-add-order-requests.images/image2.png)
 
 To reprint a label, click the label link provided in any listing or after successfully inserting the order.
 
 It will automatically print the label to your printer.
 
-![](e-orders-add-order-requests.images/image23.png)
+![](e-orders-add-order-requests.images/image3.png)
 
 Labels can also be performed from the list of standing orders for the patient (in orders module)
 
-![](e-orders-add-order-requests.images/image24.png)
+![](e-orders-add-order-requests.images/image4.png)
 
 Or from the "view" of the encounter at the very bottom of the order was done by *"Create xxx Order*" method from within the encounter.
 
-![](e-orders-add-order-requests.images/image25.png)
+![](e-orders-add-order-requests.images/image5.png)
 

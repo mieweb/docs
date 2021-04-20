@@ -62,7 +62,7 @@ As noted, when users navigate to the , the page loads a summary list view of all
 
 
 
-![](observation-codes-editor.images/image1.png)
+![](observation-codes-editor.images/image5.png)
 
 
 
@@ -78,7 +78,7 @@ The number of times the respective observation code has been used within charts 
 
 
 
-![](observation-codes-editor.images/image3.png)
+![](observation-codes-editor.images/image8.png)
 
 
 
@@ -86,7 +86,7 @@ The Observation Count value is a hyperlink. When clicked, a detailed list of all
 
 
 
-![](observation-codes-editor.images/image4.png)
+![](observation-codes-editor.images/image1.png)
 
 
 
@@ -96,7 +96,7 @@ To edit an existing observation code, users with the necessary security permissi
 
 
 
-![](observation-codes-editor.images/image5.png)
+![](observation-codes-editor.images/image9.png)
 
 
 
@@ -124,7 +124,7 @@ To merge an observation code, locate the observation being removed and click the
 
 
 
-![](observation-codes-editor.images/image7.png)
+![](observation-codes-editor.images/image3.png)
 
 
 
@@ -132,7 +132,7 @@ When the Observation Code Merge page loads, **Enter Observation Code** will be t
 
 
 
-![](observation-codes-editor.images/image8.png)
+![](observation-codes-editor.images/image7.png)
 
 
 
@@ -149,7 +149,7 @@ After continuing, users will be prompted with a verification page. Before the Me
 
 
 
-![](observation-codes-editor.images/image9.png)
+![](observation-codes-editor.images/image4.png)
 
 
 

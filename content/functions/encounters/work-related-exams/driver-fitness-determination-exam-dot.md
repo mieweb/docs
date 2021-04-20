@@ -22,7 +22,7 @@ The Department of Transportation (DOT) physical exam is the default for commerci
 
 To add and open a Driver Fitness Determination encounter, first navigate to the patient chart and click the **Add Driver Fitness Determination** link, found in the **Quick Links** portlet of the patient's Summary.
 
-![](driver-fitness-determination-exam-dot.images/image1.png)
+![](driver-fitness-determination-exam-dot.images/image10.png)
 
 {{% tip %}}
 
@@ -31,10 +31,10 @@ Once an encounter is opened, there will be quick navigation links available with
 {{% /tip %}}
 
 
-![](driver-fitness-determination-exam-dot.images/image2.png)
+![](driver-fitness-determination-exam-dot.images/image12.png)
 Like any encounter, once it has been created and opened, the encounter navigation toolbar will load with the respective navigation and staging buttons. The navigation buttons are determined by the various categories available within the encounter, used to group the information and collected data. In this case, the Driver Fitness encounter has three categories: 1) **Driver Information**, 2) **Examination Report**, and 3) **Plan**. Each of these can be clicked and used as quick links to the respective section found within each category.
 
-![](driver-fitness-determination-exam-dot.images/image3.png)
+![](driver-fitness-determination-exam-dot.images/image11.png)
 
 ### Driver Information (Section I)
 
@@ -44,7 +44,7 @@ The first part of the encounter is the *Driver Information* section. Within this
 
 To begin, users will need to determine what type of certification is being considered for the visit–New Certification, Recertification, or Follow-up. Depending the type selected, the encounter will load the relevant data available within the patient's chart. To select the certification type, click the section header or the edit (pencil) icon to open the section and choose, accordingly.
 
-![](driver-fitness-determination-exam-dot.images/image4.png)
+![](driver-fitness-determination-exam-dot.images/image14.png)
 
 * <strong>New Certification</strong> - Pre-populates data within the <em>Personal Information</em> section.
 * <strong>Recertification -</strong> Pre-populates data within the <em>Personal Information</em> and <em>Health History</em> sections, based on the previous Driver Fitness encounter.
@@ -68,17 +68,17 @@ The Driver Health History section is used to document surgical history, current 
 
 Any previously documented surgeries will be listed under **Surgeries**, and can be edited or added to, as needed. Ensure all information is correct and up-to-date.
 
-![](driver-fitness-determination-exam-dot.images/image5.png)
+![](driver-fitness-determination-exam-dot.images/image13.png)
 
 Following Surgeries is **Medications**, where all currently prescribed medications will be listed. These can be edited or added to, as needed. Ensure all information is correct and up-to-date.
 
-![](driver-fitness-determination-exam-dot.images/image6.png)
+![](driver-fitness-determination-exam-dot.images/image16.png)
 
 Depending on whether or not a portal has been configured for the client, users will be able to either review past medical history and general questions answered by the driver, or enter the responses manually, using the point-and-click functionality within the encounter. Once the information is verified and up-to-date, be sure to review the listed conditions recorded for the driver, shown at the bottom of the questionnaire.
 
-![](driver-fitness-determination-exam-dot.images/image7.png)
+![](driver-fitness-determination-exam-dot.images/image15.png)
 
-![](driver-fitness-determination-exam-dot.images/image8.png)
+![](driver-fitness-determination-exam-dot.images/image18.png)
 
 Once all of the information has been entered and reviewed, click the **Next** button to continue.
 
@@ -90,7 +90,7 @@ The *Examination Report* section is intended to allow the medical staff/examiner
 
 The Driver Health History Review allows the medical staff/examiner to review and discuss any pertinent questions answered by the driver when providing their health history.
 
-![](driver-fitness-determination-exam-dot.images/image9.png)
+![](driver-fitness-determination-exam-dot.images/image17.png)
 
 Once all necessary information has been reviewed and documented, click the **Next** button to proceed to the following section.
 
@@ -100,33 +100,33 @@ Under the Testing section, users can record the driver's pulse, blood pressure, 
 
 When recording the findings for visual acuity under the **Vision** section, users will not only have the general questions to answer, they will have the ability to select the preferred method for obtaining and recording visual acuities (i.e., Snellen test or Comprehensive test).
 
-![](driver-fitness-determination-exam-dot.images/image10.png)
+![](driver-fitness-determination-exam-dot.images/image21.png)
 
 Only one method needs to be used when obtaining and recording visual acuities:
 
 *Snellen*
 
-![](driver-fitness-determination-exam-dot.images/image11.png)
+![](driver-fitness-determination-exam-dot.images/image19.png)
 or
 
 *Comprehensive*
 
-![](driver-fitness-determination-exam-dot.images/image12.png)
+![](driver-fitness-determination-exam-dot.images/image20.png)
 After performing vision testing, screening for hearing loss can be done in the following **Hearing** section. Here, users can test and record the findings one of two ways: 1) Whispered voice at not less than 5 feet away with or without hearing aids, or 2) Audiometric testing.
 
 *Whispered voice*
 
-![](driver-fitness-determination-exam-dot.images/image13.png)
+![](driver-fitness-determination-exam-dot.images/image22.png)
 *Audiometric test*
 
-![](driver-fitness-determination-exam-dot.images/image14.png)
+![](driver-fitness-determination-exam-dot.images/image23.png)
 Once all testing has been performed and recorded, click the **Next** button to continue to the following section.
 
 #### Physical Examination
 
 The final portion of the Examination Report is the Physical Examination section. Here, the provider can check all body systems for any abnormalities. This section is designed to pull forward the previous exam information, if there is any available within the chart.
 
-![](driver-fitness-determination-exam-dot.images/image15.png)
+![](driver-fitness-determination-exam-dot.images/image24.png)
 
 Once completed, click the **Next** button.
 
@@ -138,7 +138,7 @@ Under the *Plan* are various sections intended to provide all of the necessary i
 
 The Visit Orders section allows the provider to add and/or create orders for additional testing or procedures that may be needed. Simply fill in the autocompletes as appropriate, and click the **Add** button to create the order. This will also create an additional header at the end of the encounter, for each order entered. For additional details on entering orders from an encounter, see the Working in a Dynamic Encounter online help documentation.
 
-![](driver-fitness-determination-exam-dot.images/image16.png)
+![](driver-fitness-determination-exam-dot.images/image25.png)
 
 After adding any necessary orders, click the **Next** button to proceed to the following section.
 
@@ -146,7 +146,7 @@ After adding any necessary orders, click the **Next** button to proceed to the f
 
 The FMCSA requires specific information to be provided and completed on the standard paper Form MCSA-5875 and Certificate MCSA-5876. Because of this, {{% system-name %}} has designed the Required Items section to display any item required for the FMCSA documentation that has been missed or unaddressed. Clicking any of the item hyperlinks will jump to the section that is missing the required data.
 
-![](driver-fitness-determination-exam-dot.images/image17.png)
+![](driver-fitness-determination-exam-dot.images/image26.png)
 
 #### Medical Examiner Determination
 
@@ -158,7 +158,7 @@ Users will have the ability to specify whether the Medical Examiner Determinatio
 
 
 
-![](driver-fitness-determination-exam-dot.images/image18.png)
+![](driver-fitness-determination-exam-dot.images/image1.png)
 
 
 
@@ -177,47 +177,47 @@ For more information on adding recommendations or generating a Work Status Repor
 
 Once the examination is completed and all required documentation is accounted for, the Print DOT Forms section can be used to access and print any of the necessary forms. Simply use any of the links to print the appropriate forms.
 
-![](driver-fitness-determination-exam-dot.images/image19.png)
+![](driver-fitness-determination-exam-dot.images/image27.png)
 
 These forms and certificate are overlaid with all of the relevant information required by the FMCSA that was recorded in the {{% system-name %}} system.
 
-![](driver-fitness-determination-exam-dot.images/image20.png)
+![](driver-fitness-determination-exam-dot.images/image2.png)
 
-![](driver-fitness-determination-exam-dot.images/image21.png)
+![](driver-fitness-determination-exam-dot.images/image3.png)
 
 #### Complete Orders
 
 Any pending orders will display under Compete Orders section. It will display if the order is pending or has been completed.
 
-![](driver-fitness-determination-exam-dot.images/image22.png)
+![](driver-fitness-determination-exam-dot.images/image4.png)
 
 By clicking the Complete Orders header, users are able to review and complete any orders pending in the patient's chart.
 
-![](driver-fitness-determination-exam-dot.images/image23.png)
+![](driver-fitness-determination-exam-dot.images/image5.png)
 
 As noted, any orders created from the Visit Orders section will be displayed under a separate heading, below the Complete Orders section.
 
-![](driver-fitness-determination-exam-dot.images/image24.png)
+![](driver-fitness-determination-exam-dot.images/image6.png)
 
 After all documentation within the encounter is completed, the user will scroll to the bottom of the page and click the **Save Incomplete** (or the **Save Incomplete & View**) button. This will save all of the information and release the encounter.
 
-![](driver-fitness-determination-exam-dot.images/image25.png)
+![](driver-fitness-determination-exam-dot.images/image7.png)
 
 If there were order requests made from the encounter, the encounter view will provide the ability to view, complete, edit, or batch the order request(s), as needed.
 
-![](driver-fitness-determination-exam-dot.images/image26.png)
+![](driver-fitness-determination-exam-dot.images/image8.png)
 
 ### Archive and Close the Encounter
 
 Once the provider has finished all of the necessary documentation, the user will click the **Archive & Close** button, at the end of the encounter. Doing this will mark the encounter *closed*, and the encounter will be stored within the {{% system-name %}} system as a document with a doc ID.
 
-![](driver-fitness-determination-exam-dot.images/image27.png)
+![](driver-fitness-determination-exam-dot.images/image9.png)
 
 ## Driver Fitness Determination - State
 
 For drivers that do not qualify for interstate operations, the driver fitness determination is made according to state standards. As referenced in the Medical Examiner Determination section, users have the option to change the radio button from Federal to **State**, which will update the fields, accordingly.
 
-![](https://lh6.googleusercontent.com/5EPjbJYO_c7IQElvGfhTHtVsrEUPqEbnyh8ttX8KiLcawVwoFhKUTdQqmu1CAQfqtrYIpCu6-QJRfpHTMcyTH-FF6KCsPIJZDvHGKfKflm1rp7HdzcfiEKrSfamPMipWv0OGQy2NjZs8Jbcnbg)
+![](driver-fitness-determination-exam-dot.images/image1.png)
 
 ## Driver Fitness Determination - Certificate
 

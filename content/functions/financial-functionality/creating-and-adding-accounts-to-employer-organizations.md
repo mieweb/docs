@@ -26,11 +26,11 @@ When creating an account, only the account name is required. The account can be 
     * Select <strong>Calendar</strong> to pick the date on which funding will no longer be available from this account.
 * Select the <strong>Add New</strong> button. The system displays information about the account.
 * If appropriate, add contacts to the account:
-    * In the <em>Contacts</em> section, select <strong>Add New Contact</strong>. The <em>Enter Information</em> page appears.  ![](creating-and-adding-accounts-to-employer-organizations.images/image2.png)
+    * In the <em>Contacts</em> section, select <strong>Add New Contact</strong>. The <em>Enter Information</em> page appears.  ![](creating-and-adding-accounts-to-employer-organizations.images/image3.png)
     * In the <em>Enter Information</em> page, complete the fields. Select the <strong>Add New</strong> button. The system shows information about the contact.
     * At the bottom of the screen, select the <strong>Submit</strong> button. The system adds the contact to the account.
 * If appropriate, add an insurance policy: 
-    * In the <em>Insurance</em> section, select <strong>Show/Hide Quick Lists</strong>. <em>Quick List</em> appears below.  ![](creating-and-adding-accounts-to-employer-organizations.images/image3.png)
+    * In the <em>Insurance</em> section, select <strong>Show/Hide Quick Lists</strong>. <em>Quick List</em> appears below.  ![](creating-and-adding-accounts-to-employer-organizations.images/image2.png)
     * From <em>Quick List</em>, select <strong>an insurance provider</strong>. The <em>Add Insurance Policy</em> window appears.  ![](creating-and-adding-accounts-to-employer-organizations.images/image4.png)
     * In the <em>Add Insurance Policy</em> window, in the <em>Liability Type</em> field, select the appropriate <strong>type of liability covered</strong> by the insurance policy.
     * In the <em>Policy Number</em> field, enter <strong>the insurance policy number</strong>.

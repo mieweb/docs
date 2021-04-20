@@ -2,7 +2,7 @@
 title: "Printing TIFFs"
 date: "2020-03-24T15:06:06.991Z"
 url: "functions/document-management/printing-and-print-definitions/printing-tiffs.html"
-version: 38
+version: 39
 id: "174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ"
 source: "https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ"
 menu:
@@ -18,7 +18,7 @@ menu:
 2. Call patient report within in the originating application. (ie, pacemaker, sleep study)
 3. If in Word, Click on "File", then "Print" from the menu in the upper left hand corner of the screen
 
-![](printing-tiffs.images/image1.png)
+![](printing-tiffs.images/image6.png)
 
 4. Select the MIE Tiff Printer from the print drop down if it does not default for you. Then click on "OK".
 
@@ -39,7 +39,7 @@ menu:
 7. Once all fields are completed, click the "<strong>Upload File</strong>" button.
 8. Once you have clicked upload file, you will be asked if it is OK to upload the file. Click on "OK".
 
-![](printing-tiffs.images/image4.png)
+![](printing-tiffs.images/image1.png)
 
 9. Once file has uploaded, you will see a confirmation the document has been uploaded successfully.
 
@@ -47,9 +47,9 @@ menu:
 
 10. Once you have uploaded the document, you will return the indexing screen.
 
-![](printing-tiffs.images/image6.png)
+![](printing-tiffs.images/image3.png)
 
 11. The user may browse away from this screen, or toggle back to another application (sleep software or Pacemaker software). The next job that the user "prints" to {{% system-name %}} will refresh this screen. If the user chooses to browse in {{% system-name %}} , you will see the below warning. It is ok to browse, simply click "OK" to proceed.
 
-![](https://lh4.googleusercontent.com/5U0Ee0Z53Y6fWbsBdspVAOoHo7_2cZsMScFiCtQAb6V23elwYpAvWmoq6E1XAiXLKB9JA0iTiIH-i2h9a3op5ERalGHLFl-7Ot2OCzvE8MvHP52ubn6bS-ofXrmLGdfA-TQUZUXEvWwrauNnLg)
+![](printing-tiffs.images/image4.png)
 

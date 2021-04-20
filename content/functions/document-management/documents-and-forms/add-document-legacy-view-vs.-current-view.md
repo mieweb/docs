@@ -14,11 +14,11 @@ menu:
 ---
 When navigating to the **Add Document** library, it's important to note the optional views. These views are determined by the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) Add Document Screen* *preference. By default, the setting is **Current**, though users may choose to set the view to **Legacy**, if preferred. Changing this setting will only affect the logged-in user.
 
-![](add-document-legacy-view-vs.-current-view.images/image1.png)
+![](add-document-legacy-view-vs.-current-view.images/image2.png)
 
 To set the *Add Document Screen* view, navigate to the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) tab of the **Control Panel** sidemenu and change the setting accordingly.
 
-![](add-document-legacy-view-vs.-current-view.images/image2.png)
+![](add-document-legacy-view-vs.-current-view.images/image4.png)
 
 ## Legacy View
 
@@ -32,7 +32,7 @@ If a multi-column list of available documents does not load, as seen above, then
 
 When the *Add Document Screen* user preference set to *Current*, clicking the **Add Document** link will open the document library, showing a multi-column list of available documents, similar to the Legacy view. However, in the Current view, users have a *Search* field with autocomplete, a *Most Common* documents list, and a full list of available documents, under the *All Types* section. Again, if the full document list does not load, then the chart tab being used to access the documents library is tied to a specific document type. Select another chart tab in the patient's chart (e.g., Documents) and click the Add Document link again, to access the full list.
 
-![](add-document-legacy-view-vs.-current-view.images/image4.png)
+![](add-document-legacy-view-vs.-current-view.images/image6.png)
 
 ### Most Common Options Menu
 
@@ -42,7 +42,7 @@ As noted, the *Current* Add Document Screen view provides a **Most Common** sect
 
 Once the Options link is clicked, a pop-up window will display the most commonly used documents. Here, users can select any or all documents to have the count reset to zero. Place a checkmark next to any document(s) needing reset, and simply click the **Reset Selected** button.
 
-![](add-document-legacy-view-vs.-current-view.images/image6.png)
+![](add-document-legacy-view-vs.-current-view.images/image1.png)
 
 
 

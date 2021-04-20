@@ -20,7 +20,7 @@ Click on the side menu tab named *Control.*
 
 Click on the top tab named *Activity Log* (or can access it from the Reports tab).
 
-![](activity-log-report.images/image1.png)
+![](activity-log-report.images/image4.png)
 
 The Activity Log Search Criteria fields will appear on the screen. You can narrow down your search results by entering any information in the following fields:
 
@@ -42,7 +42,7 @@ If the user supplies either a session_id or BOTH the start and end dates, they c
 
 The Activity Log search results will display below the search criteria fields you filled out.
 
-![](activity-log-report.images/image2.png)
+![](activity-log-report.images/image6.png)
 
 There is a lot of audit information given and takes time to understand and read the results. {{% system-name %}} records every click. Please call our helpdesk with any assistance needed.
 
@@ -50,17 +50,17 @@ Continue to search by modifying the search fields, or by clicking CLEAR ALL to s
 
 If you wish to view a specific activity from the results, click **View CGI Data** link in the CGI Data column. When you click View CGI Data it will open the CGI data window on your screen.
 
-![](activity-log-report.images/image3.png)
+![](activity-log-report.images/image5.png)
 
 This shows the CGI Data. F is for Function, S is for Subfunction, then it proceeds to state which module and additional details.
 
 The **Hide/Show CGI Query String** link the top will open the cgi query string. You can highlight this string and right click to copy this with your mouse.
 
-![](activity-log-report.images/image4.png)
+![](activity-log-report.images/image8.png)
 
 After you copy the entire string with your mouse, click CONTROL and N keys on your keyboard to open a *new window* on your computer screen. At the top of the new window that opened up on your computer, type in a question mark **?** at the **end** of the url that shows there. Then after the **?** question mark, right click and *paste* in the cgi query string you copied.
 
-![](activity-log-report.images/image5.png)
+![](activity-log-report.images/image7.png)
 
 When the cgi string is pasted in the url (don't forget the ? question mark) then hit ENTER on your keyboard.
 
@@ -76,13 +76,13 @@ You can view failed logins from the Activity Log module.
 
 Simply click View Failed Logins link from the top right corner of the Activity Log Search Criteria screen.
 
-![](activity-log-report.images/image6.png)
+![](activity-log-report.images/image2.png)
 
 The Failed Logins Search Criteria fields will display on the screen and below that is all the failed logins.
 
 To narrow down the search, simply enter in information into any of the search criteria fields.
 
-![](activity-log-report.images/image7.png)
+![](activity-log-report.images/image1.png)
 
 * <strong>Date:</strong> Must enter a date range to show results for.
 * <strong>IP Address:</strong> Can enter any part of the users IP address by specifying the method from the drop-down.
@@ -99,5 +99,5 @@ Continue to search by modifying the search fields, or by clicking CLEAR ALL to s
 
 User Watch tab is found in Control sidemenu. Users (with security privilege) can view the activity log with a session_id (e.g. via the ‘View Click Log' link on the user watch page).
 
-![](activity-log-report.images/image8.png)
+![](activity-log-report.images/image3.png)
 

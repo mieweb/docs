@@ -28,17 +28,17 @@ Clicking one of the Add Encounter hyperlinks from the Quick Links portlet will a
 
 Users have the ability to create an encounter from saved/stored templates, as well. Clicking the Templates icon will provide a list of available templates to select from and that can be applied to the encounter being opened. Simply click the hyperlink of the named template you wish to apply and {{% system-name %}} will create, open and apply that template to the visit type indicated.
 
-![](creating-or-adding-encounters.images/image2.png)
+![](creating-or-adding-encounters.images/image3.png)
 
 With the encounter open, capturing data can begin immediately. Any changes to date of service, visit type, location, provider, and the like can all be managed from the Encounter section of the dynamic encounter, if necessary.
 
-![](creating-or-adding-encounters.images/image3.png)
+![](creating-or-adding-encounters.images/image2.png)
 
 {{% info %}}
 
 The opened encounter is automatically set to **Current** after being created. 
 
-![](creating-or-adding-encounters.images/image4.png)
+![](creating-or-adding-encounters.images/image5.png)
 
 For more information on accessing encounters, see our [Encounter Summary Toolbar](encounter-summary-toolbar.html) documentation.
 
@@ -49,7 +49,7 @@ For more information on accessing encounters, see our [Encounter Summary Toolba
 
 From *Encounters* of the Medical Records chart tab, users may click the **Add Encounter** link in the upper-right corner, to create a new encounter, as needed.
 
-![](creating-or-adding-encounters.images/image5.png)
+![](creating-or-adding-encounters.images/image4.png)
 
 Using this method *will not* automatically populate the encounter info, meaning the user will be taken to the Add Encounter screen, where the encounter details will need to be entered *manually*, prior to creating the encounter.
 
@@ -76,7 +76,7 @@ The list of Performing Providers populates and varies based on configuration and
 
 Once all of the relevant fields have been reviewed and populated, click the **Save** button. This will create and open the encounter in the chart. The new encounter will populate the provided date/time, location, and the performing provider. Any changes to the date of service, visit type, location, provider, and the like can all be managed from the Encounter section of the dynamic encounter, if necessary.
 
-![](creating-or-adding-encounters.images/image7.png)
+![](creating-or-adding-encounters.images/image2.png)
 
 
 
@@ -90,7 +90,7 @@ To view appointments linked to encounters in a patient chart, users can navigate
 
 Once clicked, another window will open Encounters of the Medical Record chart tab. This will show any encounter(s) linked to the appointment. If there are no encounters linked to the appointment, the display will be blank. 
 
-![](creating-or-adding-encounters.images/image9.png)
+![](creating-or-adding-encounters.images/image7.png)
 
 ### Creating/Adding Encounters from Scheduler
 
@@ -98,7 +98,7 @@ As noted, encounters can be created from the *Scheduler*, as well. This is contr
 
 The Show Add Encounter user preference has three possible options:
 
-![](creating-or-adding-encounters.images/image10.png)
+![](creating-or-adding-encounters.images/image11.png)
 
 **No:** Select No to avoid displaying the Add Encounter link on the scheduler view.
 
@@ -115,13 +115,13 @@ If there is no Default Visit Type set on the appointment type, then the Add Enco
 
 With the Show Add Encounter setting enabled, users can simply click the Add Encounter link from the scheduled appointment to begin creating an encounter.
 
-![](creating-or-adding-encounters.images/image11.png)
+![](creating-or-adding-encounters.images/image9.png)
 
 {{% tip %}}
 
 If there is an asterisk ( * ) next to the Add Encounter link, there is already an encounter open and linked to that appointment.
 
-![](creating-or-adding-encounters.images/image12.png)
+![](creating-or-adding-encounters.images/image10.png)
 
 
 
@@ -130,17 +130,17 @@ If there is an asterisk ( * ) next to the Add Encounter link, there is already a
 
 When adding an encounter from the Scheduler, the appointment information will automatically populate the respective fields. The date, time, location, and resource all pull in from the appointment information. 
 
-![](creating-or-adding-encounters.images/image13.png)
+![](creating-or-adding-encounters.images/image12.png)
 
 ### Creating/Adding Encounters from E-Sign
 
 Users have the ability to create encounters from the List View or Multi-Review of the E-Sign module, as well. In order for an encounter type to be available for creation from the E-Sign module, the encounter type must be configured with Quick Add enabled. In the Encounter Type editor, the visit type can be set up as a Quick Add encounter, which will display a quick link in the E-Sign module.
 
-![](creating-or-adding-encounters.images/image14.png)
+![](creating-or-adding-encounters.images/image13.png)
 
 Simply click the Quick Add Encounter Link. This is any link displayed after the Open Chart quick link, uniquely named according to the encounter type. Clicking any of these from the E-Sign module will allow clinicians to quickly sign the document and link it to an encounter.
 
-![](https://lh3.googleusercontent.com/i8ZAIX4vGon0LLSGP6U1y6k6nj2h0UP2Rr54uL1eiUgf0pHqhMi9IF96LkU-dGKuni_sjhBjePT_eGO3cfGgy9mYodB7fPaaQNxf_huvCeU0EjrPHsaklfqwHuu1FMG2BT0vXva9br--As9AZg)
+![](creating-or-adding-encounters.images/image14.png)
 
 Only adding a new encounter will sign the document and link the document to the encounter. When the Quick Add Encounter Link is clicked, the user will be taken to the encounter, and when the encounter is closed and archived, the user will be taken back to the E-Sign module. 
 

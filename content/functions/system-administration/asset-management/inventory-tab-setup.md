@@ -31,7 +31,7 @@ First search to see if the specific medication (strength, etc), immunization and
 
 To search, us the *Search by* field at the top to narrow down your search results.
 
-![](inventory-tab-setup.images/image2.png)
+![](inventory-tab-setup.images/image3.png)
 
 You can search by inventoried name, or by an alias or by Inventory ID #.
 
@@ -39,33 +39,33 @@ You can search for 2 at a time by clicking the [ + ] button in the *search by* s
 
 If you click the [ + ] sign in search by, you can open up another search to search a medication name and it's alias name or 2 different searches, etc.
 
-![](inventory-tab-setup.images/image3.png)
+![](inventory-tab-setup.images/image2.png)
 
 After you click the SEARCH button, your results will display on your screen in **the Inventory Items Master List** section under the search by section.
 
-![](inventory-tab-setup.images/image4.png)
+![](inventory-tab-setup.images/image5.png)
 
 ## Edit/Delete Inventory Items
 
 If you need to edit the Display Name or Alias of an inventory item that is showing in the Inventory Master List, click on Edit in the options column.
 
-![](inventory-tab-setup.images/image5.png)
+![](inventory-tab-setup.images/image4.png)
 
 When you click Edit for a master inventory item, it will take you to the *Rename Inventory Item* screen.
 
 Here you can type in the New Name and/or a New Alias. The New Name should include the name & the strength/form, size, box info, etc. The Alias is like a ‘remembered name' just like when in e-meds module when prescribing a med. You do not have to enter anything in the Alias field. It is optional, but alias names do show to users when dispensing a medication, and on inventory reports and searches.
 
-![](inventory-tab-setup.images/image6.png)
+![](inventory-tab-setup.images/image7.png)
 
 Click the CHANGE NAME button when done or cancel to get out of this screen.
 
 To delete a master inventory item, click Delete in the options column.
 
-![](inventory-tab-setup.images/image7.png)
+![](inventory-tab-setup.images/image6.png)
 
 If the inventoried item still has quantity in stock, you will see an error message that you cannot delete the inventory item. If you needed to delete that, you'd have to go and edit it in the *Show Inventory* tab and expire it or edit it to a zero quantity first. If you have a zero quantity inventory item that you need to delete, you will get a message to confirm the inventory item deletion. Click Delete to continue to delete the inventory item completely from the master inventory list of the system.
 
-![](inventory-tab-setup.images/image8.png) ![](inventory-tab-setup.images/image9.png)
+![](inventory-tab-setup.images/image9.png) ![](inventory-tab-setup.images/image8.png)
 
 ## Merging Inventory Items
 
@@ -73,11 +73,11 @@ Merging would be done if (for instance) two different items are in this inventor
 
 If you need to merge inventory items in the Inventory Master List, checkmark which items to merge in the *Merge* column. Then click the *Merge Selected* button at the bottom.
 
-![](inventory-tab-setup.images/image10.png)
+![](inventory-tab-setup.images/image12.png)
 
 It will then take you to the *Merge Inventory Items* screen. Here you type the new name of the Merged Item or same name, and optional you can enter a new alias merged item name.
 
-![](inventory-tab-setup.images/image11.png)
+![](inventory-tab-setup.images/image10.png)
 
 Click the MERGE button at the bottom or cancel to escape out.
 
@@ -87,7 +87,7 @@ It will then merge all those selected into one new mapping with the name/alias y
 
 If you've confirmed that the inventory item doesn't already exist in the Master Inventory Items list, then click on Add an Item link at the top right.
 
-![](inventory-tab-setup.images/image12.png)
+![](inventory-tab-setup.images/image11.png)
 
 The *Add Inventory Item* fields will display. Type in the name of the inventory item you wish to add to the inventory along with it's strength (10mg, 25mg,etc) and form (tablet/injection, supply info, etc). You can also type in its alias name (this is like a remembered name that can be used when dispensing this) if it has an alias known to your staff at your practice.
 

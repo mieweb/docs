@@ -33,7 +33,7 @@ You can only enter the valid DEA & NPI numbers. No other labels or other text ca
 
 NPI and DEA numbers both have specific numbers of numerals and alpha characters which we call a ‘checksum'. If a DEA or NPI number entered doesn't have that amount of numerals or characters, it will give you an error message to check that number you entered.
 
-![](setting-up-e-prescribers.images/image4.png)
+![](https://lh4.googleusercontent.com/Mnjt0UcZ_exiuIhW6pJKoILEq_Q-hmJbSSiPBpr2uDW86dawF0bhl09_BGHDgEIbHBGvygiIEYG47Qu4-94pqhrvr6zUBAC3-9M2ygikA3x0ZyWkbpVbH23RmbcfwL9r2kW7CjOpWSwWai_7Vw)
 
 When you have all the required fields entered and the appropriate electronic prescriber boxes checked, click the SUBMIT EDIT button for that user's information or SUBMIT INSERT button if it's a new user you are setting up.
 
@@ -49,11 +49,11 @@ A user/physician can still use the E-Meds tab/prescribing feature in {{% system-
 
 You can check the stage the verification process is in by going into control and searching for the user. Click on the user to ‘view' their summary username information. The field titled **E-Prescriber** will show the specific check-box(es) that are marked for that prescriber and also will show the stage of certification that the prescriber/user is in.
 
-![](setting-up-e-prescribers.images/image6.png) ![](setting-up-e-prescribers.images/image7.png)
+![](setting-up-e-prescribers.images/image4.png) ![](setting-up-e-prescribers.images/image7.png)
 
 You can get into the user and see status from the edit user link/screen also. Hover your computer mouse over the help icon to get a description of the verification stage they are in. If the status says ‘e-prescriber has not yet been verified by MIE' for more than 2 days, please contact your MIE Implementer or our help desk.
 
-![](setting-up-e-prescribers.images/image8.png)
+![](setting-up-e-prescribers.images/image6.png)
 
 If the user has been verified by SureScripts as an e-prescriber and now can send prescriptions to pharmacies via e-send (electronic transmission), you will see the **verified** status for that user along with their SureScripts SPI number.
 
@@ -63,11 +63,11 @@ If the user has been verified by SureScripts as an e-prescriber and now can send
 
 If you have the box check-marked to *Receive Refill Requests*, it that means you are a Prescriber who wants to receive e-refill requests from pharmacies electronically via SureScripts.
 
-![](setting-up-e-prescribers.images/image10.png)
+![](setting-up-e-prescribers.images/image8.png)
 
 This will enable the pharmacies (who are capable) to send you electronic requests for refills via the E-Refills alert taskbar in {{% system-name %}} .
 
-![](setting-up-e-prescribers.images/image11.png)
+![](setting-up-e-prescribers.images/image10.png)
 
 There is a SureScripts **requirement** to using this feature. When you receive a refill request electronically, SureScripts has a requirement that you must respond and work that request within 48 hours. If you don't respond within the 48 hour timeframe and you become delinquent in processing/working those refill requests, SureScripts will disable your ability to receive future e-refill requests through the e-refill queue (see other help documentation named *E-Refill Queue.pdf*).
 
@@ -79,7 +79,7 @@ e-Prescriber will not see any new e-refill requests coming in through their E-Re
 
 The e-Prescriber will receive refill requests via fax or phone calls as was done prior to this available feature.
 
-![](setting-up-e-prescribers.images/image12.png)
+![](setting-up-e-prescribers.images/image10.png)
 
 You *can* turn back on the ability to receive e-refill requests from pharmacies again after you have been disconnected/disabled by SureScripts. Simply have your superuser go into the e-Prescriber's {{% system-name %}} username screen. You will see that the *[] Receive Refill Requests* box is un-check marked because SureScripts disabled that feature due to delinquency. If you wish to turn that feature back on, simply checkmark the box **[] Receive Refill Requests** in the user's {{% system-name %}} username screen again. Click the SUBMIT EDIT button at the bottom of the username screen. That electronic prescriber selection & e-Prescribers information/details will again be sent to the department at MIE to verify, then once upon verification, MIE will send a message to SureScripts for certification/verification. Once SureScripts re-verifies, they will re-instate the e-refills feature and you should be back to receiving e-refill (electronic refill) requests from pharmacies via the E-Refills alert taskbar queue in {{% system-name %}} .
 
@@ -87,7 +87,7 @@ If a physician goes on vacation or calls in sick, there is a security setting th
 
 The security setting for being able to work on incoming e-refill requests across the board is named *Manage E-Rx Refills for Others.*
 
-![](https://lh4.googleusercontent.com/vtthK4rTvL88Wx00xJmyhJ7s0MRaogYbKzEyDQjyK87PRozVaBIjucA-CNinEtZW2VN_RhexZomf7kT7egSYHstXqb576fb09VMVppsfsGtRgbBjK9EfyY1Ry2h5ZjshkOi0ZuJkDeTjLL6NAQ)
+![](setting-up-e-prescribers.images/image11.png)
 ## Terminated E-Prescriber/Disenrolled Provider
 
 When a physician/prescriber terminates from your practice, these are the steps that need done in your {{% system-name %}} database. This is *only* for terminated physicians/prescribers that were set up previously in {{% system-name %}} using the previous page steps and those who were verified by SureScripts in your {{% system-name %}} system.
@@ -98,7 +98,7 @@ Please **do not delete** or inactivate the physician/prescriber in the Access Co
 * Uncheck-mark their Electronic Prescriber checkboxes (both should be uncheck-marked).
 * Click the SUBMIT EDIT button at the very bottom.
 
-![](https://lh4.googleusercontent.com/4NRLW127GHk39zhYX6qLhYzyD4AbLNujY1pVCv3ONl8Wohx-6K0SbA3ASErxHWtL5OY8Lq31gg7PVGMvUpiCY6DqTUGjwZkpNgzOkAbDOeprX26lL0sznHkkLNIWN8HCN4d9GfkGTGWWc0DN3g)
+![](setting-up-e-prescribers.images/image12.png)
 
 Doing these steps will send this edit message and disabled status message to SureScripts so they know that the terminated prescriber should not be sent electronic refill requests, and pharmacies will not be able to accept new scripts from the terminated prescriber from this {{% system-name %}} system. The next day (24 hours later) you can delete the physician from your system (inactive their username, etc).
 

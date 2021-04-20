@@ -18,11 +18,11 @@ Must have security permission to access username screen.
 
 Search for the user you wish to view the audit for.
 
-![](view-user-audit-log.images/image1.png)
+![](view-user-audit-log.images/image2.png)
 
 Once you've found the user (username) of the person, click their underlined username from the left column titled USERNAME.
 
-![](view-user-audit-log.images/image2.png)
+![](view-user-audit-log.images/image4.png)
 
 The *View User Screen* will appear. At the right side of the screen, click the **View Audit Log** link (if you have security permission).
 
@@ -30,7 +30,7 @@ The *View User Screen* will appear. At the right side of the screen, click the *
 
 You can click this to view the patient's this user has viewed/worked in and view activity using the Audit Log Search fields. See separate instructions titled *Audit Log Search*.
 
-![](view-user-audit-log.images/image4.png)
+![](view-user-audit-log.images/image6.png)
 
 You can narrow down your search results by entering any information in the following fields:
 
@@ -58,5 +58,5 @@ To get out of the Audit Log Search, click the Close Window link at the top right
 
 There are several system settings that can be turned on/off for various audit logging items throughout {{% system-name %}} . In system settings search for Audit Event section to see all the various audit logging item settings or contact your MIE Implementer.
 
-![](view-user-audit-log.images/image6.png)
+![](view-user-audit-log.images/image1.png)
 

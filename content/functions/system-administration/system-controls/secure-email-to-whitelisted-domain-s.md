@@ -35,7 +35,7 @@ Lastly, the  {{% system-name %}} users must have security access to *securely 
 
 This security permission is different than the security permission to email patients. This security setting is for being able to securely email documents/records from patient charts to others who use a whitelisted domain email address.
 
-![](secure-email-to-whitelisted-domain-s.images/image2.png)
+![](secure-email-to-whitelisted-domain-s.images/image3.png)
 
 {{% /tip %}}
 
@@ -51,39 +51,39 @@ Do not go to File, then down to Print in the Microsoft Windows toolbar at the ve
 {{% /warning %}}
 
 
-![](secure-email-to-whitelisted-domain-s.images/image3.png)
+![](secure-email-to-whitelisted-domain-s.images/image2.png)
 The sending screen will open and here you select the radio button titled *Secure Email* in order to email this document to someone who has an email address within a specified whitelisted domain (whose domain connection was securely established previously with  {{% system-name %}} and is set in the system setting).
 
-![](secure-email-to-whitelisted-domain-s.images/image4.png)
+![](secure-email-to-whitelisted-domain-s.images/image5.png)
 
 Once the *secure email* radio button is selected, the bottom portion of that screen will show a few fields; *Recipients, Subject, free text box.*
 
-![](secure-email-to-whitelisted-domain-s.images/image5.png)
+![](secure-email-to-whitelisted-domain-s.images/image4.png)
 * <strong>Recipients:</strong> Begin typing in the email address to whom you want to send the document to. Hit the <em>tab</em> keyboard key or the <em>add</em>button. If need to add another email address to email the same document to, continue again. Otherwise even if just sending to one email address, you need to hit the <em>tab</em> key or the <em>add</em> button. Doing that will trigger the  {{% system-name %}} system to process if that email domain is a secure connected whitelist domain or a ‘direct' HISP domain connection or if the email address is insecure and cannot be transmitted to.
-
-![](secure-email-to-whitelisted-domain-s.images/image6.png)
-
-If the email address (you are sending to) has a secure connection to  {{% system-name %}} and has been set in the system setting by the MIE developer or MIE Implementer, once you *tab* or *add* that email in this screen, you will see an envelope icon next to the recipient's email address. The envelope icon means it will send via email and this email address domain has been specified as whitelisted in your  {{% system-name %}} system settings.
 
 ![](secure-email-to-whitelisted-domain-s.images/image7.png)
 
+If the email address (you are sending to) has a secure connection to  {{% system-name %}} and has been set in the system setting by the MIE developer or MIE Implementer, once you *tab* or *add* that email in this screen, you will see an envelope icon next to the recipient's email address. The envelope icon means it will send via email and this email address domain has been specified as whitelisted in your  {{% system-name %}} system settings.
+
+![](secure-email-to-whitelisted-domain-s.images/image6.png)
+
 If the email address (you are sending to) has a HISP ‘direct' secure connection to {{% system-name %}} , you will see a lock icon next to the recipient's email address. The document will be transmitted via ‘direct' protocol exchange methods and not a regular secure whitelist email connection. It will also ‘send from' the sender's ‘direct' address. ‘Direct' HISP connection is separate from a whitelist domain connection. Contact your MIE Implementer to be set up with ‘direct' HISP secure connection exchange.
-
-![](secure-email-to-whitelisted-domain-s.images/image8.png)
-
-In review, the  {{% system-name %}} system can only email documents via secure whitelisted domains that were previously setup with secure connection by MIE developers otherwise you will see the pop-up message that you have entered in an insecure email address (domain) and  {{% system-name %}} cannot send the document via email.
 
 ![](secure-email-to-whitelisted-domain-s.images/image9.png)
 
+In review, the  {{% system-name %}} system can only email documents via secure whitelisted domains that were previously setup with secure connection by MIE developers otherwise you will see the pop-up message that you have entered in an insecure email address (domain) and  {{% system-name %}} cannot send the document via email.
+
+![](secure-email-to-whitelisted-domain-s.images/image8.png)
+
 If you hover your mouse over the (?) help bubble in the recipients field, it will help explain the recipient must have a ‘direct' protocol exchange email address or an email address (domain) of what has been setup as whitelisted in your system. It will list those domains that were setup with secure connection in this (?) help bubble so you know what email address domains are secure to send documents to.
 
-![](secure-email-to-whitelisted-domain-s.images/image10.png)
+![](secure-email-to-whitelisted-domain-s.images/image12.png)
 
 * <strong>Email From:</strong> This is the address the recipient of the email will see as the ‘From'. It will auto-populate your email address from your  {{% system-name %}} username screen.
 * <strong>Subject:</strong> Type in a subject for the email. The email will attach the document you selected, but this is the ‘subject line' of the email that the recipient will receive in their email inbox.
 * <strong>Free Text Box:</strong> Type in any free text which will be received by the recipient in the body of the email (along with the attached document you selected to email out).
 
-![](secure-email-to-whitelisted-domain-s.images/image11.png)
+![](secure-email-to-whitelisted-domain-s.images/image10.png)
 
 Click SEND EMAIL button when wish to generate the email to be sent out.
 
@@ -91,7 +91,7 @@ Click SEND EMAIL button when wish to generate the email to be sent out.
 
 You can X out of that screen to get back to the chart you were in.
 
-![](secure-email-to-whitelisted-domain-s.images/image12.png)
+![](secure-email-to-whitelisted-domain-s.images/image11.png)
 
 Here is an example of what the recipient receives:
 

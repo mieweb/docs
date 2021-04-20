@@ -31,11 +31,11 @@ If a specific document type is not listed, contact the system administrator to s
 
 Select the document type needing attached and uploaded to the chart by simply clicking the Text link following the appropriate document name.
 
-![](text-documents.images/image2.png)
+![](text-documents.images/image3.png)
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
-![](text-documents.images/image3.png)
+![](text-documents.images/image2.png)
 
 **Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me **button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
@@ -58,7 +58,7 @@ In order to author documents for others, the user must have the Access Control 
 
 * A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.    ![](text-documents.images/image4.png)
+* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.    ![](text-documents.images/image5.png)
 
 
 
@@ -77,7 +77,7 @@ If the user has a current encounter set in the chart, the *Encounter* field wi
 
 **Textbox:** For Text documents, a textbox will be available for entering relevant content. Text templates can be configured by MIE or system administrators, if necessary. When there is no pre-programmed template, the textbox will be blank, and text can be added, accordingly. If a template has been configured for the document type, be sure to follow the template, filling it in and typing where is appropriate; however, additional text can always be added, even when a template is being used.
 
-![](text-documents.images/image5.png)
+![](text-documents.images/image4.png)
 
 Once the necessary fields and content have been added, the document can be uploaded to the chart by simply clicking the **Add Document** button. The Text document will be uploaded to the chart, and a confirmation message will display, notifying the user that the document has been successfully uploaded.
 
@@ -91,22 +91,22 @@ To append to a text document, navigate to the document, and click the **Append*
 
 A text document can be appended multiple times, if needed.
 
-![](text-documents.images/image6.png)
+![](text-documents.images/image7.png)
 
 {{% /tip %}}
 
 
 The original body of the document will be labeled as **Original Document** for clear visibility.
 
-![](text-documents.images/image7.png)
+![](text-documents.images/image6.png)
 
 This original content will be followed by a large free-text box, where any additional information can be provided. Type any necessary information to append to the existing document, and click the Submit Append button to save the changes.
 
-![](text-documents.images/image8.png)
+![](text-documents.images/image9.png)
 
 A confirmation message will display, notifying the user that the document has been successfully uploaded, and the appended text will be shown below the original content, with a timestamp and author of the addition.
 
-![](text-documents.images/image9.png)
+![](text-documents.images/image8.png)
 
 ## Edit a Text Document
 
@@ -116,7 +116,7 @@ To edit a text document, navigate to the document, and click the **Edit** link
 
 
 
-![](text-documents.images/image10.png)
+![](text-documents.images/image12.png)
 
 
 
@@ -124,7 +124,7 @@ The *Properties for Document* screen will open. All of the fields will retain 
 
 
 
-![](text-documents.images/image11.png)
+![](text-documents.images/image10.png)
 
 
 
@@ -132,7 +132,7 @@ When finished, click the **Edit Document** button to save and submit the edits
 
 
 
-![](text-documents.images/image12.png)
+![](text-documents.images/image11.png)
 
 
 

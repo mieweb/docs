@@ -16,11 +16,11 @@ Vital signs not only assist in early detection of potential problems, they aid i
 
 ## Adding Vitals to the Patient Encounter
 
-1. To add vitals to a patient's encounter, navigate to the <strong>Objective</strong> section of the encounter, open the <strong>Vitals</strong> subsection, and click the pencil ![](vitals-tracking-and-management.images/image1.png) icon, located on the right of the header. The Vitals section will expand. Note that previous vitals display at the bottom of the Vitals section.
+1. To add vitals to a patient's encounter, navigate to the <strong>Objective</strong> section of the encounter, open the <strong>Vitals</strong> subsection, and click the pencil ![](vitals-tracking-and-management.images/image13.png) icon, located on the right of the header. The Vitals section will expand. Note that previous vitals display at the bottom of the Vitals section.
 
 
 
-![](vitals-tracking-and-management.images/image2.png)
+![](vitals-tracking-and-management.images/image11.png)
 
 
 
@@ -42,7 +42,7 @@ Hover over each icon to identify its function.
 
 
 
-![](vitals-tracking-and-management.images/image3.png)
+![](vitals-tracking-and-management.images/image4.png)
 
 
 
@@ -50,7 +50,7 @@ Hover over each icon to identify its function.
 
 
 
-![](vitals-tracking-and-management.images/image4.png)
+![](vitals-tracking-and-management.images/image5.png)
 
 {{% tip %}}
 
@@ -63,7 +63,7 @@ When adding Height values, {{% system-name %}} will automatically convert into i
 
 6. After all vitals have been entered and comments added where necessary, simply click the <strong>Next</strong> button, and the following section will open, to allow for additional documentation.
 
-![](vitals-tracking-and-management.images/image5.png)
+![](vitals-tracking-and-management.images/image14.png)
 
 ## Adding Vitals to the Patient Record
 
@@ -79,7 +79,7 @@ When adding Height values, {{% system-name %}} will automatically convert into i
 
 
 
-![](vitals-tracking-and-management.images/image7.png)
+![](vitals-tracking-and-management.images/image3.png)
 
 
 
@@ -95,7 +95,7 @@ When adding Height values, {{% system-name %}} will automatically convert into i
 
 
 
-![](vitals-tracking-and-management.images/image9.png)
+![](vitals-tracking-and-management.images/image10.png)
 
 {{% tip %}}
 
@@ -111,18 +111,18 @@ Entering both a height and a weight will auto-calculate the patient BMI.
 
 
 
-![](vitals-tracking-and-management.images/image10.png)
+![](vitals-tracking-and-management.images/image4.png)
 
 
 
-7. Once all the necessary values have been entered, click the ![](vitals-tracking-and-management.images/image11.png) button.
+7. Once all the necessary values have been entered, click the ![](vitals-tracking-and-management.images/image16.png) button.
 8. Fields that include comments will load with an asterisk ( * ) next to the value. Using the cursor, hover over any value to see details, or hover over a value with an asterisk to see the comments and details.
 
 
 
 {{% tip %}}
 
-When hovering over values, alternative results will display. In this example, inches can also be converted into centimeters. Also, if the user preference is Metric units, this can be configured from My Settings.![](vitals-tracking-and-management.images/image12.png)
+When hovering over values, alternative results will display. In this example, inches can also be converted into centimeters. Also, if the user preference is Metric units, this can be configured from My Settings.![](vitals-tracking-and-management.images/image17.png)
 
 {{% /tip %}}
 
@@ -133,7 +133,7 @@ When hovering over values, alternative results will display. In this example, in
 
 
 
-![](vitals-tracking-and-management.images/image13.png)
+![](vitals-tracking-and-management.images/image9.png)
 
 
 
@@ -141,7 +141,7 @@ When hovering over values, alternative results will display. In this example, in
 
 
 
-![](vitals-tracking-and-management.images/image14.png)
+![](vitals-tracking-and-management.images/image12.png)
 
 {{% note %}}
 
@@ -160,7 +160,7 @@ Entering Height and Weight on the flowsheet layout DOES NOT auto-calculate the B
 
 
 
-![](vitals-tracking-and-management.images/image15.png)
+![](vitals-tracking-and-management.images/image2.png)
 
 
 
@@ -168,7 +168,7 @@ Entering Height and Weight on the flowsheet layout DOES NOT auto-calculate the B
 
 
 
-![](vitals-tracking-and-management.images/image16.png)
+![](vitals-tracking-and-management.images/image6.png)
 
 
 
@@ -273,7 +273,7 @@ Vital Signs are a type of observation which can be displayed as a formatted flow
 
 
 
-![](vitals-tracking-and-management.images/image17.png)
+![](vitals-tracking-and-management.images/image15.png)
 
 
 
@@ -281,20 +281,20 @@ Vital Signs are a type of observation which can be displayed as a formatted flow
 
 
 
-![](vitals-tracking-and-management.images/image18.png)
+![](vitals-tracking-and-management.images/image1.png)
 
 
 
 6. With the desired Flowsheet selected, the patient vital signs will display at the bottom of the page.
 
-![](vitals-tracking-and-management.images/image19.png)
+![](vitals-tracking-and-management.images/image18.png)
 
 ## Device Interface
 
 {{% system-name %}} has the capability to interface with a vitals device such as Welch Allyn Spot Vital Signs Monitor.
 
 1. With an established interface, there will be a <strong>Vitals From</strong> section within the Vital Signs chart tab.
-2. Simply click the ![](https://lh6.googleusercontent.com/YmBnwKJDqObkvKnfZwzKwvm1qI6vHmvZDrQ42_j4HsxF4jL0YnUV2g-gIwAOxEVWVlZTaWgxp-W71bctV4TuBP3kcSMr9-qvoDePqlHxdoZOC5oCYysucYBgfyVOp-e21FVmAGmtC2TVlMi0Ag) button, and the vitals will import and store within the {{% system-name %}} system. Otherwise, click the <strong>Manual</strong> link, and the vitals can be entered manually, as needed.
+2. Simply click the ![](vitals-tracking-and-management.images/image19.png) button, and the vitals will import and store within the {{% system-name %}} system. Otherwise, click the <strong>Manual</strong> link, and the vitals can be entered manually, as needed.
 
-![](https://lh4.googleusercontent.com/PLZJJcY9HXYZZ9htPpwWv4M0wa7u0I1vDVsYxFv7AWM0Tf0Nqzd7rZg7xYqybAaJiQ2sCnxyI3EghpMzsUaGJv__tr-VFJzQfWqC4_2gmyhrkezEHo-mZYAqggadJa45DNSCSm3P9ZBHkv55cA)
+![](vitals-tracking-and-management.images/image7.png)
 

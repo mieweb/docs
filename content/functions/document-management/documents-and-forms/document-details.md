@@ -30,37 +30,37 @@ Once the initial setup is completed, the document and ability to capture the spe
 
 While using the WebScan feature, adding document details can be accomplished during the indexing process. When indexing, the Doc Type field must be provided. The {{% system-name %}} system will then perform a search for any flowsheet matching the supplied Doc Type code. If a match is found, the **Document Details** button will activate, found at the bottom of the *Index Information* section. However, continue with the remaining indexing fields before proceeding to the Document Details button.
 
-![](document-details.images/image1.png)
+![](document-details.images/image3.png)
 
 When the Document Details button is clicked from the indexing screen, the matching flowsheet fields will open in a pop-up window, where the discrete observation data can be recorded. This pop-up allows users to enter discrete observation data associated with the respective flowsheet. Clicking the **Submit** button will save the entered data. Continue indexing, as appropriate, and upload the batch to the chart using the normal indexing workflow.
 
-![](document-details.images/image2.png)
+![](document-details.images/image5.png)
 
 ### Add Document
 
 Another method for capturing discrete data can be done while in a specific chart, using the **Add Document** link. Access the appropriate document by clicking the **Add Document** link and selecting any of the available document options.
 
-![](document-details.images/image3.png)
+![](document-details.images/image4.png)
 
 If a document in the library has an associated flowsheet, as described above, a *Document Details* section will be provided for data entry, with the flowsheet data entry points. When finished, continue uploading the document via the method of selection.
 
-![](document-details.images/image4.png)
+![](document-details.images/image7.png)
 
 ## View/Edit Discrete Data on Document
 
 As noted, the document details will display any discrete observation data that was captured in {{% system-name %}} from the respective flowsheet. The observation data can be viewed and/or edited in the document properties. To view captured Document Details on an uploaded document, click the **Properties** link, found in the upper-right corner of the document.
 
-![](document-details.images/image5.png)
+![](document-details.images/image6.png)
 
 Any captured discrete data will be listed in the *Document Details* section.
 
-![](document-details.images/image6.png)
+![](document-details.images/image2.png)
 
 Editing this observation data can be done by simply clicking the **Edit Properties** link. The *Document Details* section will expand, allowing users to edit the observations, as needed.
 
 Once completed, click the **Submit Changes** button, and the edits will be saved. The original observation data will remain in the chart in revision history; however, the *Document Details* section of the document properties will only show the most recent data.
 
-![](document-details.images/image7.png)
+![](document-details.images/image1.png)
 
 {{% tip %}}
 

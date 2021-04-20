@@ -2,7 +2,7 @@
 title: "Financials"
 date: "2021-03-05T17:54:18.969Z"
 url: "functions/encounters/landingpages/financials.html"
-author: Adam Humes
+author: ahumes
 version: 55
 id: "1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ"
 source: "https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ"

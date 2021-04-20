@@ -20,13 +20,13 @@ The listing of current active Panels will display automatically on the screen un
 
 If you wish to see any panels that are *inactive*, simply click the Show Inactive link in the title Panels at the top.
 
-![](adding-editing-health-surveillance-panels.images/image2.png)
+![](adding-editing-health-surveillance-panels.images/image3.png)
 
 ## Panel Search
 
 To search for an existing active panel, use the drop-downs and enter information to narrow down your search for a panel. You can search key words of the panel, the name, or the description.
 
-![](adding-editing-health-surveillance-panels.images/image3.png)
+![](adding-editing-health-surveillance-panels.images/image2.png)
 
 The search results will display below columns on the screen for each panel:
 
@@ -41,7 +41,7 @@ The search results will display below columns on the screen for each panel:
 
 When adding a new panel, fill out the necessary fields and click the SUBMIT button.
 
-![](adding-editing-health-surveillance-panels.images/image4.png)
+![](adding-editing-health-surveillance-panels.images/image5.png)
 
 
 
@@ -64,7 +64,7 @@ Add the specific Health Surveillance Panels:
     * <strong>Representative Event Type:</strong> Choose Procedure or Encounter.   A procedure or encounter that represents the panel as a whole, if applicable  Unless you want the HS panel to open an encounter when the orders populate the due list, then the event type will always be Procedure. The encounter would otherwise be opened when the patient checks in for their appt.
     * <strong>Representative Event:</strong> This is a drop-down field to the right after you select Encounter or Procedure in the first drop-down.  Choose the Order item that was added as the representative event. Usually the order is the same name of the panel.   You would have added the representative action order item for the panel (or searched for existing one) in pages above.
 
-![](adding-editing-health-surveillance-panels.images/image5.png)
+![](adding-editing-health-surveillance-panels.images/image4.png)
 
 * <strong>Comments:</strong> These are comments for/on the main panel level. These are displayed as <em>Health Surveillance Comments</em> in a section of the Due List chart tab and in Tests/Procedures section of dynamic encounters. These comments may include instructions on the ‘panel level' that may be useful for staff to see.
 * <strong>Owner:</strong>  This auto-complete field looks for any user in the system to select.  This is an optional entry field that denotes the point of contact (that has to be entered in as some type of user in {{% system-name %}} ) for managing this panel.
@@ -74,7 +74,7 @@ Add the specific Health Surveillance Panels:
     * Set to 0 to disallow shifting
 * <strong>Exit Alert:</strong>  An alert message to display when a member is about to be removed from this panel manually.
 
-![](adding-editing-health-surveillance-panels.images/image6.png)
+![](adding-editing-health-surveillance-panels.images/image7.png)
 
 * <strong>Created/Modified/Change Reason:</strong> When a panel is created, {{% system-name %}} displays the initials of the user of who created this panel and the date this panel was created.  If a panel is edited/modified, we store the initials of the user who last modified this panel and the date this panel was last modified.  When a panel is edited, the user must type in a reason for change and this is displayed here.
 
@@ -86,15 +86,15 @@ See additional online help documentation titled *Health Surveillance Tab.pdf*
 
 You can edit an existing panel by clicking the edit link in the options column of a panel.
 
-![](adding-editing-health-surveillance-panels.images/image7.png)
+![](adding-editing-health-surveillance-panels.images/image6.png)
 
 It will open the current panel with the fields you can edit. Below that section is a revision history of all revisions that have been done to that panel that you can open and view the previous entry if you wish.
 
-![](adding-editing-health-surveillance-panels.images/image8.png)
+![](adding-editing-health-surveillance-panels.images/image9.png)
 
 You can edit any field regarding the panel. When you are done, you **must** type in a reason for your edit/change.
 
 It is a required field. Then click the SUBMIT button and it will save your edits and track you as the user who modified and the date/time of modification.
 
-![](adding-editing-health-surveillance-panels.images/image9.png)
+![](adding-editing-health-surveillance-panels.images/image8.png)
 

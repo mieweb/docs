@@ -21,7 +21,7 @@ The  {{% system-name %}}  Kiosk is a portal integration designed for streamlin
 
 
 
-![](kiosk.images/image1.png)
+![](kiosk.images/image3.png)
 
 
 
@@ -38,7 +38,7 @@ The  {{% system-name %}}  Kiosk is a portal integration designed for streamlin
 
 
 
-![](kiosk.images/image3.png)
+![](kiosk.images/image1.png)
 
 
 

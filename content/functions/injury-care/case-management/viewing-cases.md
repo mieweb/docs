@@ -21,7 +21,7 @@ The dynamic encounters offer a Case section.  To see the listing of cases/incid
 
 
 
-![](viewing-cases.images/image1.png)
+![](viewing-cases.images/image7.png)
 
 
 
@@ -31,7 +31,7 @@ Case details display the date of the incident/case,  date created, the conditio
 
 From this listing of cases, in the options column you can task, delete, link or unlink, close, or generate a 301 forms library document based on the incident data.
 
-![](viewing-cases.images/image2.png)
+![](viewing-cases.images/image9.png)
 
 
 
@@ -49,7 +49,7 @@ Open existing cases on a chart will be displayed on the side chart feature.  To
 
 
 
-![](viewing-cases.images/image4.png)
+![](viewing-cases.images/image6.png)
 
 
 
@@ -80,7 +80,7 @@ Clicking on the Case number (that is a hyperlink) will take you to a summary vie
 
 
 
-![](viewing-cases.images/image6.png)
+![](viewing-cases.images/image4.png)
 
 
 
@@ -106,7 +106,7 @@ To delete a Case you can do it while working in an encounter or from the Case ch
 
 
 
-![](viewing-cases.images/image8.png)
+![](viewing-cases.images/image11.png)
 
 ### Edit
 
@@ -118,7 +118,7 @@ A Task option is available on existing cases.  When clicked, a separate task wi
 
 
 
-![](viewing-cases.images/image9.png)
+![](viewing-cases.images/image1.png)
 
 ### Link/Unlink
 
@@ -134,7 +134,7 @@ Case details appear in the grey encounter info bar area if your current encounte
 
 
 
-![](viewing-cases.images/image11.png)
+![](viewing-cases.images/image2.png)
 
 ### Close
 
@@ -146,7 +146,7 @@ To close a Case, you can do it while working in an encounter or from the Case ch
 
 
 
-![](viewing-cases.images/image12.png)
+![](viewing-cases.images/image13.png)
 
 
 
@@ -156,7 +156,7 @@ The 301 hyperlink provides the ability to print the OSHA 301 form regarding the 
 
 .
 
-![](viewing-cases.images/image13.png)
+![](viewing-cases.images/image12.png)
 
 
 
@@ -180,7 +180,7 @@ The documents and encounters linked to that specific linked case will expand on 
 
 
 
-![](https://lh5.googleusercontent.com/2vl6Vc5GJUDuuYPreRN-4ETkDGlyvud2-RsMFGKfAC5F0AkwSEPj18IAfeyYrtXXEikpQCnmMCAmqkkXs1hVGcFsN2Lo7gK01vboELW9lKQYj3EZZucC0tqDZHtfyfKtFwHrm5w0MyqY7hBuow)
+![](viewing-cases.images/image8.png)
 
 
 

@@ -47,7 +47,7 @@ Whenever the **Dymo 450 1.25 x 2.25** link is clicked from the Quick Links portl
 
 Once the link has been clicked, a preview of the label data will show when the Print screen loads. Clicking the **Print** button will open the *Print Dialog* window, where the specific Dymo printer needs to be selected in order to print.
 
-![](label-printing-feature.images/image2.png)
+![](label-printing-feature.images/image3.png)
 
 {{% tip %}}
 
@@ -58,23 +58,23 @@ Ensure the selected printer matches the Dymo installed for use. Also, to verify 
 
 Another available link from the Quick Links portlet is the **Select Label** link. Clicking this will open a pop-up window, where the user can choose a different Dymo label size for printing. When an alternative size is selected, the label data preview will load, and clicking the **Print** button will open the Print Dialog box, as before.
 
-![](label-printing-feature.images/image3.png)
+![](label-printing-feature.images/image2.png)
 
 ### From Print Chart
 
 Labels can also be generated using the Print Chart functionality, which allows for printing established Print Definitions. Printing labels using the **Print Chart** link is not configured in {{% system-name %}} by default.
 
-![](label-printing-feature.images/image4.png)
+![](label-printing-feature.images/image5.png)
 
 In order to provide this functionality, MIE will need to create a custom layout, including all of the necessary data for the label. Then, the Print Definition can be established and programmed with a section mapped to the custom layout. Once the Print Definition is configured, users can print labels using the Print Chart link.
 
-![](label-printing-feature.images/image5.png)
+![](label-printing-feature.images/image4.png)
 
 ### From Scheduler View
 
 A system setting ("Scheduler", "Settings", "Print Labels") is enabled, by default, so that users may generate and print labels for all scheduled appointments shown for the day in context. If the system setting is disabled, users will not see the **Print Labels** link in the upper-right corner of any of the Scheduler views.
 
-![](label-printing-feature.images/image6.png)
+![](label-printing-feature.images/image7.png)
 
 Labels printed from the Scheduler contain the following demographic information, by default:
 
@@ -88,7 +88,7 @@ MIE can customize this layout, if necessary.
 
 When the **Print Labels** link is clicked from a scheduler view, a preview of the data will load, with a Print button toward the top-middle of the page. Click the **Print** button to open the Print Dialog window and print one label for every scheduled patient appointment listed for the day. Otherwise, if the labels are no longer needed, instead of clicking the Print button, simply click the X in the upper-right corner to exit the screen.
 
-![](label-printing-feature.images/image7.png)
+![](label-printing-feature.images/image6.png)
 
 ### From Order Requests
 
@@ -98,15 +98,15 @@ The *Order Label* layout must be established within {{% system-name %}} , with c
 
 To print a label associated with an Order Request, click the **Label** link after successfully creating the Order Request.
 
-![](label-printing-feature.images/image8.png)
+![](label-printing-feature.images/image9.png)
 
 Once the page loads, click the **Print** button. Verify the correct printer is selected, and click Print.
 
-![](label-printing-feature.images/image9.png)
+![](label-printing-feature.images/image8.png)
 
 Labels for Order Requests can also be generated and printed from the **Order Requests** chart tab. This is where all Order Requests for the chart are listed according to category. In the *Options* column of the grid, a **Print Label** link is provided. Users may print labels for Order Requests, as needed.
 
-![](label-printing-feature.images/image10.png)
+![](label-printing-feature.images/image11.png)
 
 #### From Encounter View
 
@@ -114,7 +114,7 @@ Orders are often created when working in an encounter. Because of this, {{% syst
 
 At the end of the encounter view, a section is available for listing all encounter Order Requests: *This encounter has order requests*. There is a **Label** link in the *Options* column, which can be used for generating and printing a label for each Order Request.
 
-![](label-printing-feature.images/image11.png)
+![](label-printing-feature.images/image10.png)
 
 For more information, please review the [Order Requests Chart Tab](../../order-and-result-management/e-orders-chart-tab.html) documentation.
 

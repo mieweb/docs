@@ -24,7 +24,7 @@ If user(s) have security permission to allow .csv data import, then the user(s) 
 
 
 
-![](lost-time-import-tool.images/image4.png)
+![](https://lh4.googleusercontent.com/RPkdmOEvJMmMbfsJn2UqgU3JEKw1j2YKhyQVNObw3G1pIqL72-p_qXx1PnPc-jcW0gTmWcyAb0dJyvWIA8KMobpxxU9Naca9m-PDp2sCCos2sQ1V7WHHY51ppOEbvBSLW-NY4ug-vwm3fBNRkg)
 
 
 
@@ -32,7 +32,7 @@ If your system does not have a Data Import tab, please contact your MIE Implemen
 
 
 
-![](lost-time-import-tool.images/image5.png)
+![](https://lh6.googleusercontent.com/pzD0dIV-nYb9Dxh5bECy2sqHsMlgWAnL53-KMAGG-sr4NvLz_5fXEwEonbZZsbEv9mZIrz--ZMW0cQmsvzAGZwmvmM2dvw-s_LzTvOT2HWWpWJNdExz3Yhglxwo-iHgJhNIb0f_uDi_wmz1C5w)
 
 
 
@@ -48,7 +48,7 @@ In this help document we will be going through the {{% system-name %}} Lost Time
 
 
 
-![](lost-time-import-tool.images/image6.png)
+![](lost-time-import-tool.images/image5.png)
 
 
 
@@ -56,7 +56,7 @@ Once you've made the drop-down selection from the Data Import tool type and clic
 
 
 
-![](https://lh4.googleusercontent.com/GwbT_Wf9CKyhVyee969ozGDdv_3DeyoZk3dmYLXzfG2WvQ9D2z9xw--lj1FfSvcXB3iSJm7x3HzS_CY8A7gJVUZbURR41TfrqFZ3ttEbRV6PPQUE-Hu06fcqpw0tYqr6gtODaGvBDZzr8aenDQ)
+![](lost-time-import-tool.images/image4.png)
 
 
 
@@ -92,7 +92,7 @@ You can view the [spreadsheet template](https://docs.google.com/spreadsheets/d/1
 
 
 
-![](https://lh3.googleusercontent.com/DqcHKuiFYkoOuIt_2rSu4jn96f2WlwTnve-lpFTcPzzRs1Y32HnN2_OpJ7-6GEQR3simtslPADpnUXq6OFeKtVG_1g7ld8nILzbPrYm9LFPWbPBvffTpAuEJOUjZFiIrfjwpTIK4kv48K_rFCg)
+![](lost-time-import-tool.images/image6.png)
 
 
 

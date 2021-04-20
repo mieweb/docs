@@ -28,25 +28,25 @@ Upon clicking into Action Rules, it will list any current, existing indication o
 
 In Panel Actions of a panel, there is an option to select an **Indication Rule** where it can have a drop-down set to any action rule found in ‘Action Rules' hyperlink module which must evaluate to be ‘true' in order for this specific panel action (that you are adding to the panel) to trigger for an employee. ‘Action Rules' are configured by an MIE Developer and you would contact your MIE Implementer with the action rule criteria you need for your system panel(s).  An example of an action rule is to only trigger this action item (procedure) on an employee if they are part of department xxx or another example is an action rule configured in the system that can be applied to this specific action (procedure) in this panel that only would trigger a Hep 3^rd injection action (procedure) on an employee in this panel if they've had their 2^nd Hepatitis injection given with a date in last 8 weeks. Or another scenario example is to only trigger a panel action item if the patient is female gender.
 
-![](health-surveillance-panels-action-rules.images/image2.png)
+![](health-surveillance-panels-action-rules.images/image3.png)
 
 In Panel Actions of a panel, there is an option to select a **Contraindication Rule** where it can have a drop-[down set to any action rule found in ‘Action Rules' hyperlink module which must evaluate to be ‘false' in order for this specific panel action (that you are adding to the panel) to trigger for an employee.
 
-![](health-surveillance-panels-action-rules.images/image3.png)
+![](health-surveillance-panels-action-rules.images/image2.png)
 
 Action rules that are added/programmed here in the Action Rules editor by giving the action (indication or contraindication rule) a name in that field and programming the script in that field. MIE programs these as html, etc is required in the *script* field.
 
-![](health-surveillance-panels-action-rules.images/image4.png)
+![](health-surveillance-panels-action-rules.images/image5.png)
 
 Once an action rule is programmed, they display as selections while setting up a panel action. An action rule is linked to an applicable panel action as either an *indication rule* or a *contraindication rule* found here in the initial panel action setup.
 
-![](health-surveillance-panels-action-rules.images/image5.png)
+![](health-surveillance-panels-action-rules.images/image4.png)
 
 ### Test an Action Rule
 
 Here within the Action Panels screen, you can test action rules (indication and contraindication rules) when setting up Health Surveillance panels. You can test action rules against an individual to verify indication or contraindication rules to ensure they trigger as desired when implemented in the panel setup.
 
-![](health-surveillance-panels-action-rules.images/image6.png)
+![](health-surveillance-panels-action-rules.images/image7.png)
 
 A simple example: Criteria for an action rule is the panel member must be Female. *Note: Typically Actions Rules would be used to trigger more complex rules outside of gender or age, since we already include age and gender in the panel action definition. Actions rules help define specific sets or sub-sets of panel members, like triggering certain rules for only those panel members who live in another country or perhaps for those have an observation of (for example) HGBA1C.*
 
@@ -54,17 +54,17 @@ In the action rules screen, you can click "edit" to test on an existing action r
 
 You must have the action rule pulled up or programmed in if getting ready to add a new action rule. Then click on the TEST button for the field option of an auto-complete to display to choose a patient/employee to test the rule against.
 
-![](health-surveillance-panels-action-rules.images/image7.png)
+![](health-surveillance-panels-action-rules.images/image6.png)
 
 The test rule result will return a **result** of True or False and will further result more information on how the action will behave if used as an indication or contraindication rule using this specific patient/employee as an example.
 
 Example of true result (patient is a female in our simple example):
 
-![](health-surveillance-panels-action-rules.images/image8.png)
+![](health-surveillance-panels-action-rules.images/image9.png)
 
 Example of a false result (patient is not a female in our simple example):
 
-![](health-surveillance-panels-action-rules.images/image9.png)
+![](health-surveillance-panels-action-rules.images/image8.png)
 
 ### Add an Action Rule
 
@@ -72,7 +72,7 @@ If you wish to add the action rule you entered in and tested, simply click the A
 
 When you are done entering in Action Rules for your system (which show up as contraindication or indication rule choices in panel action setup), click the SUBMIT button. If you do not click the submit button, it will not save your work to the system.
 
-![](health-surveillance-panels-action-rules.images/image10.png)
+![](health-surveillance-panels-action-rules.images/image12.png)
 
 ### Edit Action Rule
 
@@ -85,10 +85,10 @@ You can click *edit* to get to the "test" feature of an existing action rule als
 {{% /note %}}
 
 
-![](health-surveillance-panels-action-rules.images/image11.png)
+![](health-surveillance-panels-action-rules.images/image10.png)
 When you are done editing an Action Rule for your system (which show up as contraindication or indication rule choices in panel action setup), click the OK button.
 
-![](health-surveillance-panels-action-rules.images/image12.png)
+![](health-surveillance-panels-action-rules.images/image11.png)
 
 It will show the edited action rule in the listedit above. However you need to click the SUBMIT button. If you do not click the submit button, it will not save your work/edits to the system.
 

@@ -18,11 +18,11 @@ The following is referring to a Cholestech LDX system. Contact your MIE Implemen
 
 Within the encounter when the lab test has been ordered or the Cholestech section shows on an encounter, click the Connect to Cholestech (choose port ) hyperlink to open the connection to the Cholestech.
 
-![](device-interface-cholestech-ldx.images/image2.png)
+![](device-interface-cholestech-ldx.images/image3.png)
 
 Make sure the *Port:* field has the correct port your device is set to on your machine. Then click the **Open Port** button.
 
-![](device-interface-cholestech-ldx.images/image3.png)
+![](device-interface-cholestech-ldx.images/image2.png)
 
 The data will interface in. If you want to see the raw data coming in, you can click the *show/hide raw data* hyperlink. When data is done, click the **Submit** button to save the data to the patient's chart/encounter document.
 

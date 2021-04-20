@@ -25,7 +25,7 @@ To see specific Patient Assistance current inventory (if your system uses Patien
 
 The *Show Inventory* (Current Inventory) screen shows all medications, immunizations and order items you have entered as inventory for your practice with its specific quantity in stock at this current time and other details (site that inventory is at, lot & details, etc).
 
-![](show-inventory-tab.images/image2.png)
+![](show-inventory-tab.images/image3.png)
 
 The columns show this information:
 
@@ -34,7 +34,7 @@ The columns show this information:
 * <strong>Item Name</strong>: This is the master inventory list item name of the inventoried item. This is also a hyperlink. If you click an item name shown here, it will take you to the <em>Transaction Report</em> screen and automatically limit that report screen to the inventoried item name you clicked. It prefills fields for you based on that item name you clicked.
 * <strong>Qty</strong>: This is how many the site/location has on hand currently. Any Qty that is zero means it is out of stock. You can click the Hide Out of Stock link at the right to not show the inventoried meds that are out of stock.
 
-![](show-inventory-tab.images/image3.png)
+![](show-inventory-tab.images/image2.png)
 
 * <strong>Site</strong>: If your practice has multiple locations where inventory is kept, the site will be shown here of where that inventoried item is located at.
 * <strong>Lot</strong>: This is the Lot number for this specific lot of meds or items that are inventoried. This is also a hyperlink. If you click a lot number shown here, it will take you to the <em>Transaction Report</em> screen and automatically limit that report screen to the item/lot number you clicked. It prefills fields for you based on that lot number you clicked.
@@ -42,7 +42,7 @@ The columns show this information:
 
 You can also use the search tool at the top of this Show Inventory view to search for something specific using these same fields to narrow down your search by.
 
-![](show-inventory-tab.images/image4.png)
+![](show-inventory-tab.images/image5.png)
 
 ## Options
 
@@ -55,20 +55,20 @@ the options hyperlinks say the word "med", but these options apply to immunizati
 {{% /info %}}
 
 
-![](show-inventory-tab.images/image5.png)
+![](show-inventory-tab.images/image4.png)
 * <strong>Edit</strong>: This is used when you need to edit/change the count/quantity of the inventoried item. When you click Edit, it will allow you to edit to enter a new quantity for this item. You should enter comments pertaining to the quantity being edited also.
 
-![](show-inventory-tab.images/image6.png)
+![](show-inventory-tab.images/image7.png)
 
 * Click the SAVE button to update and save with your change. The RESET button will reset the fields back to what they originally were when you just clicked edit and you can start over. The CANCEL button will cancel this and take you out of the screen.
 * <strong>Expire:</strong> This is used if you need to expire some quantity or all quantity of the inventoried item. When you click Expire, it defaults to show the quantity you currently have. You then need to enter the number (quantity) you wish to <em>expire</em>. If you are expiring <em>all</em> the quantity in that, you would leave the quantity alone and type a comment of why you are expiring this. If you need to only expire a portion, you can enter the specific quantity you wish to expire from that item. You are typing in the quantity to expire. You should enter comments pertaining to the quantity & reason why you are expiring.
 
-![](show-inventory-tab.images/image7.png)
+![](show-inventory-tab.images/image6.png)
 
 * If you do not see the link to expire a med, that means the item is out of stock (zero quantity) so there is nothing to expire.
 * <strong>Transfer:</strong> This is used if you need to transfer a specific quantity of an inventoried item to either a different site or to a specific patient (if you use the patient assistance inventory). When you click Transfer, it defaults to show the quantity you currently have. You then type in the quantity that you wish to transfer.
 
-![](show-inventory-tab.images/image8.png)
+![](show-inventory-tab.images/image9.png)
 
 * In the <em>Destination</em> fields, you can begin typing in the name of the site (location) you wish to transfer this inventory to. The system will auto-complete and give you choices of locations/sites that are currently in your {{% system-name %}} system. If you are not transferring an inventoried item quantity to a specific patient, please leave the patient field as <em>None.</em> Or, you can also begin typing in a patient's last name and it will auto-complete choices for you to move the inventoried med quantity to that specific patient noted.
 
@@ -85,19 +85,19 @@ You should enter comments pertaining to the quantity & reason why you are transf
 
 When you search and show inventory, it will show all results that match. Below shows an example search for *amox* and it renders all the inventoried items that begin with *amox*. It shows one that has a quantity of zero, which means it's out of stock.
 
-![](show-inventory-tab.images/image9.png)
+![](show-inventory-tab.images/image8.png)
 
 You can click the Hide Out of Stock link also to narrow down your results to show only the inventoried meds that have quantity left in the inventory.
 
-![](show-inventory-tab.images/image10.png)
+![](show-inventory-tab.images/image12.png)
 
 Current inventory without quantity (aka: out of stock) is now hidden:
 
-![](show-inventory-tab.images/image11.png)
+![](show-inventory-tab.images/image10.png)
 
 You can reverse the results to show all again by clicking Show Out of Stock link then in the same area.
 
-![](show-inventory-tab.images/image12.png)
+![](show-inventory-tab.images/image11.png)
 
 ### Show Patient Inventory
 

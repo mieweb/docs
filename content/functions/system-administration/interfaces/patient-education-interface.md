@@ -34,13 +34,13 @@ In those areas, you will see Search links that take you to Healthwise.
 
 Patient Summary tab:
 
-![](patient-education-interface.images/image1.png)
+![](patient-education-interface.images/image5.png)
 
 
 
 Patient's Conditions tab:
 
-![](patient-education-interface.images/image2.png)
+![](patient-education-interface.images/image7.png)
 
 These Search links when clicked take you to a separate window to the Healthwise Patient Education site.
 
@@ -50,7 +50,7 @@ You can switch languages to print it out in by the drop-down in the Healthwise w
 
 
 
-![](patient-education-interface.images/image3.png)
+![](patient-education-interface.images/image6.png)
 
 
 
@@ -58,13 +58,13 @@ You can also select the font print size to print for the patient.
 
 
 
-![](patient-education-interface.images/image4.png)
+![](patient-education-interface.images/image9.png)
 
 
 
 You can also click the ADD NOTE button to add your own text and notes for the handout you are going to be rendering for the patient. The ‘notes' you type in there will render as page 1 of the final document. You can also save note ‘templates' to use for future times. Type it in and then click the "save or update Note as:" and name it. Then you can use an "existing note template" from that drop-down on future education documents you render.
 
-![](patient-education-interface.images/image5.png)
+![](patient-education-interface.images/image8.png)
 
 Click **Print** when ready to print it.
 
@@ -72,9 +72,9 @@ When a user prints the Healthwise patient material,  {{% system-name %}} querie
 
 
 
-![](patient-education-interface.images/image6.png)
+![](patient-education-interface.images/image2.png)
 
-![](patient-education-interface.images/image7.png)
+![](patient-education-interface.images/image1.png)
 
 By default, the document is stored as doc.type WCHEALTH. You should have the doc.type WCHEALTH in your system with the description of it being "Healthwise Patient Education". You can change the system setting to store these to a different doc.type, however by default it's already set up to point to WCHEALTH doc.type.
 
@@ -82,12 +82,12 @@ By default, the document is stored as doc.type WCHEALTH. You should have the doc
 
 If you are doing Meaningful Use, you would **not** want to change this setting to store as doc.type WCPATED because WCPATED is looked at in meaningful use measures/calculations and could skew that data.
 
-![](patient-education-interface.images/image8.png)
+![](patient-education-interface.images/image4.png)
 
 {{% /note %}}
 
 
 That doc.type should be specified to show in a specific chart tab. You can go to that chart tab to find the uploaded Healthwise Patient Education and the subject line contains which education material it is. This stores as a PDF file type for accessing.
 
-![](patient-education-interface.images/image9.png)
+![](patient-education-interface.images/image3.png)
 

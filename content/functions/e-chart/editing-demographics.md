@@ -33,7 +33,7 @@ The alternative method for editing chart demographics is from the **Demographics
 
 
 
-![](editing-demographics.images/image2.png)
+![](editing-demographics.images/image4.png)
 
 
 
@@ -45,7 +45,7 @@ Red fields are required fields that must contain data in order to create, save, 
 
 
 
-![](editing-demographics.images/image3.png)
+![](editing-demographics.images/image7.png)
 
 
 
@@ -68,7 +68,7 @@ If you have security permission, you can view all revisions in a list format tha
 
 
 
-![](editing-demographics.images/image4.png)
+![](editing-demographics.images/image2.png)
 
 
 
@@ -76,7 +76,7 @@ The system will display the count of revisions done for demographics on the char
 
 
 
-![](editing-demographics.images/image5.png)
+![](editing-demographics.images/image6.png)
 
 
 
@@ -86,7 +86,7 @@ You can click on any **Revision Number (#) **link on the specific demographics r
 
 
 
-![](editing-demographics.images/image6.png)
+![](editing-demographics.images/image5.png)
 
 
 
@@ -94,7 +94,7 @@ In this example, revision # 2 was clicked.  The system refreshed and displays a
 
 
 
-![](editing-demographics.images/image7.png)
+![](editing-demographics.images/image3.png)
 
 
 

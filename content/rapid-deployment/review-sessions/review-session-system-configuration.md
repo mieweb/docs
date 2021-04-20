@@ -48,21 +48,21 @@ To begin addressing the requirements for effective use of the {{% system-name %}
 
 ![](review-session-system-configuration.images/image1.png)
 
-![](review-session-system-configuration.images/image2.png)
+![](review-session-system-configuration.images/image3.png)
 
 ### Corporate Branding
 
 From the **Corporate Branding** section, clients may browse to local files of their required logo, for both document letterheads and the system/portal logo(s). Click **Upload** after the appropriate files have been selected, and the system will store the files and display them, accordingly.
 
-![](review-session-system-configuration.images/image3.png)
+![](review-session-system-configuration.images/image2.png)
 
 ### Add/Update Locations
 
 Adding and updating locations can be done using the **Update Office Location** section. Clients click the [here](https://system/?f=chart&s=leditor&opp=Edit&oldcode=OFFICE) link to edit the primary location of the business. Once this is updated, simply click the **Modify** button, and the page will refresh the **Locations Manager**, where additional locations can be added, as needed. This editor may also be accessed by navigating to the **Control Panel** and selecting the [Locations Manager tab](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager).
 
-![](review-session-system-configuration.images/image4.png)
-
 ![](review-session-system-configuration.images/image5.png)
+
+![](review-session-system-configuration.images/image4.png)
 
 Though all fields are not necessary, it is best practice to be as detailed as possible. Default required fields are:
 
@@ -83,11 +83,11 @@ Users and providers utilizing the {{% system-name %}} system can be added manual
 
 Though there are several methods for adding a new user manually, the simplest is to navigate to the [Quick View](https://system/?func=omniscope) sidemenu. Within the **Administrator Welcome** portlet, there is an [Admin Get Started link](https://system/?f=layout&s=pat&module=MASTER&name=AdministratorPortlets&tabmodule=+) available. After clicking the link, the **Add User** section will be available, where the [here](https://system/?f=admin&s=pat&t=security&opp=auser) hyperlink can be used to begin manually entering a new user.
 
-![](review-session-system-configuration.images/image6.png)
+![](review-session-system-configuration.images/image7.png)
 
 Enter all of the necessary information, as it relates to the user profile being created.
 
-![](review-session-system-configuration.images/image7.png)
+![](review-session-system-configuration.images/image6.png)
 
 {{% info %}}
 
@@ -107,10 +107,10 @@ In this context, the term *Patients* refers to any available chart in the {{% sy
 {{% /info %}}
 
 
-![](review-session-system-configuration.images/image8.png)
+![](review-session-system-configuration.images/image9.png)
 The **Patients Linked to User** page will load. Begin typing the last name of the patient to be linked to the user, and select the name from the autocomplete. In order to gain access to the portal, the patient and user accounts require the role of **No More Clipboard User**. A supervisor should be linked with the **Supervisor** role.
 
-![](review-session-system-configuration.images/image9.png)
+![](review-session-system-configuration.images/image8.png)
 
 #### Provider Setup
 
@@ -124,19 +124,19 @@ In order to provide a "wet" signature on documentation, each provider will need 
 
 Chart Types are an important concept in {{% system-name %}} . Chart Types are used to differentiate between *types* of records in the system, allowing for different chart tabs, as needed. These should only be managed by a Deployment Consultant. To view chart types, navigate to the **Chart Types** tab in the Control Panel.
 
-![](review-session-system-configuration.images/image10.png)
+![](review-session-system-configuration.images/image12.png)
 
 ### Chart Tabs
 
 Chart tabs, too, are very important in the {{% system-name %}} system. Chart tabs hold the various contents of a chart type, or specific record. One aspect of chart tabs is to designate the types of documents to be available or used from a given chart tab. Though their color can be modified, and they can be added, removed, or renamed, as needed, they should only be managed by a Deployment Consultant. To view the default chart tabs, navigate to the **Chart Tabs** tab in the Control Panel.
 
-![](review-session-system-configuration.images/image11.png)
+![](review-session-system-configuration.images/image10.png)
 
 ### Document Types
 
 Document types are a foundational element of the {{% system-name %}} system. Document types establish the type of document, so that {{% system-name %}} understands what to do with the content, or data. Each document type gets mapped so that specific documents can display in one or more designated areas, or chart tabs. These are set up by default and should only be managed by the Deployment Consultant, from the [Document Types tab](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the Control Panel, if necessary.
 
-![](review-session-system-configuration.images/image12.png)
+![](review-session-system-configuration.images/image11.png)
 
 ### Load Employer Organizations
 

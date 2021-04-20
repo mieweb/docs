@@ -33,7 +33,7 @@ Simply clicking the Search button without altering any search criteria fields wi
 {{% /tip %}}
 
 
-![](demographics-report.images/image2.png)
+![](demographics-report.images/image3.png)
 However, if the system contains a lot of patient charts, this could time out and not result anything, thus requiring a field to filter by to reduce matches.
 
 There are some icons you can hover over that will give you some information or ways to enter fields.
@@ -42,5 +42,5 @@ Click SEARCH when you want to run your search for patient data related to demogr
 
 Your search result will display below the search fields. It will display Matching Patients according to the fields you narrowed your search down to include.
 
-![](demographics-report.images/image3.png)
+![](demographics-report.images/image2.png)
 

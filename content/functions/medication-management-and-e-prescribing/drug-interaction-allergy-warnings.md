@@ -22,22 +22,22 @@ This shows the last time we have updated the Drug database (not the rxdb as a wh
 
 For more information on how to use the Drug Guide Search, please see other help documentation named *Drug Guide Search.pdf*
 
-![](drug-interaction-allergy-warnings.images/image1.png)
+![](drug-interaction-allergy-warnings.images/image4.png)
 If a Drug interaction warning or Allergy warning appears in a patient's chart while prescribing or documenting, it will alert the user to that warning and there is a feature to *dismiss* warnings. Interaction warnings for the same exact drug already prescribed/entered for a specific patient are not produced.
 
 Based on your security permission in {{% system-name %}} , you may be able to dismiss warnings for the patient only or for all patients or not at all.
 
-![](drug-interaction-allergy-warnings.images/image2.png)
+![](drug-interaction-allergy-warnings.images/image6.png)
 
 Most practices give the nurses/MA's the right to dismiss for ‘this patient' and give the physician's the higher security to dismiss ‘for all patients'.
 
 Prescribing a medication in Quick Prescribe, **any DRUG INTERACTION warnings** will appear when you are prescribing a drug that interacts with another the patient already has entered as prescribed or an allergy the patient has entered. Quick Prescribe will also check and give warning to duplicate therapy by checking the patient's current med lists entered in {{% system-name %}} .
 
-![](drug-interaction-allergy-warnings.images/image3.png)
+![](drug-interaction-allergy-warnings.images/image5.png)
 
 **DRUG INTERACTION/DUPLICATE THERAPY warnings** display in red or yellow in the *Comment* column of the Medication History listing.
 
-![](drug-interaction-allergy-warnings.images/image4.png)
+![](drug-interaction-allergy-warnings.images/image8.png)
 
 MIE cannot hide or remove the warnings.  To be an e-prescribe system and per the guidelines, etc we are to generate these interactions and warnings.  These warnings are required. These warnings also display/print on the Med Sheet. The system is telling you a warning, contraindication, interaction or duplicate therapy.
 
@@ -45,7 +45,7 @@ If you wish to dismiss it, you would do the following steps (if you have securit
 
 Usually, the Physician has been set with security rights to dismiss all levels.  The physician can dismiss the warning for that specific patient only.  Or the physician can dismiss the specific warning for all patients via him or all users.
 
- ![](drug-interaction-allergy-warnings.images/image5.png)
+ ![](https://lh6.googleusercontent.com/YiYnWi91C6-C9qGYASJeNbxEYdIvbc0eVcz0snvQrBVUbVSt-vOnYEmO5mfa701ynmfWttUs7FBa8u5QEwuIkEvt-XxWUOs2bKEO2WJ55V54gob4RMCpxJb7kFTFBfnz29FGImb38m8eUwx28w)
 
 Usually, the nurses have been set with security rights to dismiss warnings only for that specific patient only (doesn't affect all other patients).
 
@@ -57,11 +57,11 @@ If you wish to dismiss, go into the specific patient's e-meds tab and click on t
 
 Warnings should only be dismissed by nurse's or MD's. The *Reason for Dismissing* field should be filled out for why you are dismissing the warning. It will accept free text, but it will also auto-complete and give you choices of previous entries of reasons why warnings were dismissed (it saves previous reasons for dismissing entries if a dismissing reason was typed in twice exactly the same).
 
- ![](drug-interaction-allergy-warnings.images/image6.png)
+ ![](drug-interaction-allergy-warnings.images/image2.png)
 
- ![](drug-interaction-allergy-warnings.images/image8.png)
+ ![](drug-interaction-allergy-warnings.images/image1.png)
 
 Any warnings that have been dismissed will show as *(dismissed)* after them in the comment column of the patient's e-meds tab Medication History.
 
-![](https://lh4.googleusercontent.com/PNM2f-7oR9rNHXrRWH3sQPGIu3bD5xWV3Wh8gh0aWBQM2vkRhB9ddvcYD4MnfIZYJpxPu_lZA0jybfz61rXpEM9JFLTKHlgdBE-fGVrE_YDS5aFpCO_7txM-yqRG5wyiRz_HrFDctTpJi6U7hw)
+![](drug-interaction-allergy-warnings.images/image3.png)
 

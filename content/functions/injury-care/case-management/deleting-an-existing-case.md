@@ -16,7 +16,7 @@ menu:
 
 A Case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
 
-![](deleting-an-existing-case.images/image1.png)
+![](deleting-an-existing-case.images/image9.png)
 
 
 
@@ -28,7 +28,7 @@ The dynamic encounters offer a Case section.  To see the listing of cases/incid
 
 
 
-![](deleting-an-existing-case.images/image2.png)
+![](deleting-an-existing-case.images/image7.png)
 
 
 
@@ -38,7 +38,7 @@ Closing a case is different than deleting a case.  To close a case, please refe
 
 
 
-![](deleting-an-existing-case.images/image3.png)
+![](deleting-an-existing-case.images/image2.png)
 
 
 
@@ -53,7 +53,7 @@ To delete a case, click the Delete hyperlink found in the options column of the 
 
 
 
-![](deleting-an-existing-case.images/image4.png)
+![](deleting-an-existing-case.images/image1.png)
 
 
 
@@ -68,7 +68,7 @@ Deleting a case should be taken very seriously and make sure it's indeed what ne
 
 
 
-![](deleting-an-existing-case.images/image5.png)
+![](deleting-an-existing-case.images/image6.png)
 
 
 
@@ -76,7 +76,7 @@ The case deleted will display in the list view with a strikethrough.
 
 
 
-![](deleting-an-existing-case.images/image6.png)
+![](deleting-an-existing-case.images/image8.png)
 
 
 
@@ -88,7 +88,7 @@ You can also delete a case from the Cases chart tab when working in a chart.  T
 
 
 
-![](deleting-an-existing-case.images/image7.png)
+![](deleting-an-existing-case.images/image4.png)
 
 
 
@@ -96,20 +96,20 @@ To delete an open or closed case from the Cases chart tab, simply click the Dele
 
 
 
-![](deleting-an-existing-case.images/image8.png)
+![](deleting-an-existing-case.images/image3.png)
 
 
 
 A pop-up window will display to confirm deleting the selected case.  To delete a case, type the word Yes into the confirm box.  Then one must document a reason for deleting the case.  Upon the required fields being filled out, the case will be permanently deleted, all revision history for it along with any links to the case that may be in the chart.
 
 
-![](deleting-an-existing-case.images/image9.png)
+![](deleting-an-existing-case.images/image6.png)
 
 The case deleted will display in the list view with a strikethrough.
 
 
 
-![](https://lh4.googleusercontent.com/N7uauCN9WVb-V4vD34T-MC8tc0vn2wRC9STNh2589Sg4vfc9XPg4Vfu3b10nKmyzn0G9Td1D-a3Eu5fG5Z2r2mri-dwf2xNP22JYC_8FQ1SNOi-WemZZf3ZcvRyKiDZXzIHrgC4F20EYgaDoaA)
+![](deleting-an-existing-case.images/image5.png)
 
 
 

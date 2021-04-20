@@ -24,21 +24,21 @@ Search by any field method listed (example type in patient's last name, etc) and
 
 Click the SEARCH button at the bottom.
 
-![](editing-encounter-dictations.images/image1.png)
+![](editing-encounter-dictations.images/image3.png)
 
 A list of matching dictation found (according to the entered search criteria) will display right below the search function.
 
-![](editing-encounter-dictations.images/image2.png)
+![](editing-encounter-dictations.images/image4.png)
 
 Click on the underlined Dictation ID number of the Encounter dictation you wish to edit.
 
-![](editing-encounter-dictations.images/image3.png)
+![](editing-encounter-dictations.images/image4.png)
 
 This will open and display a list of all individual dictations associated with the encounter.
 
 Click on the underlined Dictation ID number, but this time select the specific Dictation ID of the encounter you wish to edit. Do not click grab.
 
-![](editing-encounter-dictations.images/image4.png)
+![](editing-encounter-dictations.images/image6.png)
 
 The dictation player box will open.
 
@@ -59,8 +59,8 @@ Click the **DONE** button at the bottom of the encounter transcription text box 
 {{% /warning %}}
 
 
-![](editing-encounter-dictations.images/image6.png)
+![](editing-encounter-dictations.images/image2.png)
 When you are done, a message will appear that says "All Dictations for Encounter (xxx) are Currently in Progress". Click the underlined *CLOSE* link to close out the encounter dictation.
 
 This will move the dictation in the appropriate dictation tab.
-![](https://lh4.googleusercontent.com/BbbV1SKSI4IP7WcBK9PZuzVM-wxpfJjm8JIvK_9oYo2DQNKoVGRxS2PzSZBNspMzH35-yNNJ61kEH_WyqUcXGKFjr9Ptg8b4aCqoUx5Cy2lzwoX7vDldTwTgrENJQmN0AJr4fxVmM-hfCQ-jNA)
+![](editing-encounter-dictations.images/image1.png)

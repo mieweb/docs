@@ -17,7 +17,7 @@ To access the Task Search tab within the Task List sidemenu module, users must h
 
 
 
-![](task-search.images/image1.png)
+![](task-search.images/image3.png)
 
 
 
@@ -62,7 +62,7 @@ If need to run another Task Search, but want to keep most of the search criteria
 
 
 
-![](task-search.images/image3.png)
+![](task-search.images/image1.png)
 
 
 

@@ -19,7 +19,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](how-to-install-mieplayer-control.images/image1.png)
+![](how-to-install-mieplayer-control.images/image3.png)
 
 
 
@@ -27,7 +27,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](how-to-install-mieplayer-control.images/image2.png)
+![](how-to-install-mieplayer-control.images/image6.png)
 
 
 
@@ -35,7 +35,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](how-to-install-mieplayer-control.images/image3.png)
+![](how-to-install-mieplayer-control.images/image5.png)
 
 
 
@@ -51,7 +51,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](how-to-install-mieplayer-control.images/image5.png)
+![](how-to-install-mieplayer-control.images/image2.png)
 
 
 
@@ -59,7 +59,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](how-to-install-mieplayer-control.images/image6.png)
+![](how-to-install-mieplayer-control.images/image7.png)
 
 
 
@@ -67,7 +67,7 @@ There is also added support to {{% system-name %}} for the MIEplayer plugin to b
 
 
 
-![](how-to-install-mieplayer-control.images/image7.png)
+![](how-to-install-mieplayer-control.images/image1.png)
 
 
 

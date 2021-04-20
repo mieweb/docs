@@ -16,7 +16,7 @@ To make an edit or modify a specific immunization or injection record, get into 
 
 
 
-![](edit-delete-injections-immunizations.images/image1.png)
+![](edit-delete-injections-immunizations.images/image10.png)
 
 
 
@@ -24,7 +24,7 @@ The injection record will appear.  You can change/edit any of the fields if you
 
 
 
-![](edit-delete-injections-immunizations.images/image2.png)
+![](edit-delete-injections-immunizations.images/image3.png)
 
 
 
@@ -38,7 +38,7 @@ It also gives a confirmation towards the top that says Successfully modified inj
 
 
 
-![](edit-delete-injections-immunizations.images/image3.png)
+![](edit-delete-injections-immunizations.images/image11.png)
 
 
 
@@ -46,7 +46,7 @@ When an edit is done, the Injection/Immunization listing also shows the initials
 
 
 
-![](edit-delete-injections-immunizations.images/image4.png)
+![](edit-delete-injections-immunizations.images/image9.png)
 
 
 
@@ -56,13 +56,13 @@ To delete a specific immunization or injection record, get into the patient's in
 
 
 
-![](edit-delete-injections-immunizations.images/image5.png)
+![](edit-delete-injections-immunizations.images/image8.png)
 
 The injection record will appear. To delete the injection/immunization, click Delete at the bottom of this record.
 
 
 
-![](edit-delete-injections-immunizations.images/image6.png)
+![](edit-delete-injections-immunizations.images/image7.png)
 
 
 
@@ -70,7 +70,7 @@ After clicking Delete, it will then ask you to confirm that you really want to d
 
 
 
-![](edit-delete-injections-immunizations.images/image7.png)
+![](edit-delete-injections-immunizations.images/image5.png)
 
 
 
@@ -80,7 +80,7 @@ Another dialog screen will appear and will require you to type in the Reason for
 
 
 
-![](edit-delete-injections-immunizations.images/image8.png)
+![](edit-delete-injections-immunizations.images/image4.png)
 
 
 
@@ -88,13 +88,13 @@ You must type in the reason for deleting this injection record.  It will not ac
 
 After typing in the reason for deleting the record, click Delete Document button below the reason field.
 
-![](edit-delete-injections-immunizations.images/image9.png)
+![](edit-delete-injections-immunizations.images/image6.png)
 
 After you have typed in the reason for deletion and clicked Delete Document, it will say a confirmation message that Document (#) has been Deleted Successfully. And it will have the injection deletion record below that with the reason for deletion.
 
 
 
-![](edit-delete-injections-immunizations.images/image10.png)
+![](edit-delete-injections-immunizations.images/image2.png)
 
 
 
@@ -104,7 +104,7 @@ To view the deleted immunizations or deleted other injections for the specific p
 
 
 
-![](edit-delete-injections-immunizations.images/image11.png)
+![](edit-delete-injections-immunizations.images/image1.png)
 
 
 
@@ -122,7 +122,7 @@ After clicking the DocID number for the deleted injection record, that specific 
 
 
 
-![](https://lh6.googleusercontent.com/Tx9N1DTn7d4gR47-UwbC18-4vYsvsg3uucRrKDDSVRAW3FjIRgwTpun05_7ShHP_HxvbWlvuuD8c3hW1ExEj18jzmB-b3RbHZGwxFb5UWEVcF_A4wf6d4_ahzhrE0RTFhJ93ModS5HkzsTPJVw)
+![](edit-delete-injections-immunizations.images/image2.png)
 
 
 

@@ -18,7 +18,7 @@ E-Refill requests are electronic refill transmission requests from the pharmacy 
 
 If you are a certified e-prescriber, you will notice any incoming e-refill requests in the top of your screen view. It will show the **E-Refills** alert at the top, along with the number of e-refill requests to you. These are your personal incoming e-refill requests specific to you, the specific logged in user/certified e-prescriber. These are you pending refill requests to work on.
 
-![](e-refills-my-pending-refills-tab.images/image1.png)
+![](e-refills-my-pending-refills-tab.images/image8.png)
 
 When you receive a refill request, SureScripts has a requirement that you must respond and work each request within 48 hours. Pharmacies, as a general rule, will expect your reply to a request for refill within 24 hours, barring holidays and weekends. If they do not see a response within that time, they may send additional requests. By checking consistently and frequently for refill requests, designated staff can respond to the pharmacy promptly, thereby minimizing the chance of pharmacists making the same request multiple times (your staff will also become more adept at getting value from the system through frequent usage). Also, Prescribers must respond electronically to refill requests within 48 hours. A later response or lack of response will result in an increase in faxes and calls from pharmacies to prescribers. If you don't consistently respond within the 48 hour timeframe, SureScripts may disable/disconnect your ability to receive future e-refill (electronic refill) requests if a pharmacy lodges a complaint.
 
@@ -28,13 +28,13 @@ If a physician goes on vacation or calls in sick, there is a security setting th
 
 The security setting for being able to work on incoming e-refill requests across the board is named *Manage E-Rx Refills for Others*:
 
-![](e-refills-my-pending-refills-tab.images/image2.png)
+![](e-refills-my-pending-refills-tab.images/image10.png)
 
 ## E-Rx Tab
 
 If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will *not* see the e-refills alert at the top of your screen. You would have to go into E-Chart sidemenu tab and go into the E-Rx tab at the top. If you have security permission to manage e-rx refills for others, this is where you would find those pending refills to work on. The ALL E-REFILLS TAB is where you go to work those (see other help instructions named *E-Refills-ALL E-REFILLS tab.pdf*).
 
-![](e-refills-my-pending-refills-tab.images/image3.png)
+![](e-refills-my-pending-refills-tab.images/image9.png)
 
 ### E-Refills Alert Bar
 
@@ -42,7 +42,7 @@ A certified e-Prescriber will see their incoming e-refills alerts at the top of 
 
 You can click on this alert E-Refills link and it will take you directly to your pending electronic refill requests to work on.
 
-![](e-refills-my-pending-refills-tab.images/image4.png)
+![](e-refills-my-pending-refills-tab.images/image8.png)
 
 Upon clicking the E-Refills link in the top alert bar, it directly opens you to the tab named **MY PENDING E-REFILLS**. These are your personal pending e-refill (electronic refill) requests from pharmacies that have come in for you.
 
@@ -52,13 +52,13 @@ This is the tab that you view and work your incoming e-refill requests from. The
 
 The **My Pending E-Refills** screen shows a summary of all your pending e-refill requests that need worked on. The ID column is the specific e-refill ID. The Received column shows the date & time the request was received into {{% system-name %}} . The Patient column is the patient name. The Drug column is the name & form of the drug that the e-refill request is about. The Controlled column states if it is a controlled substance or not. If it is a controlled substance, the corresponding schedule will display.
 
-![](e-refills-my-pending-refills-tab.images/image5.png)
+![](e-refills-my-pending-refills-tab.images/image11.png)
 
 ### Working an E-Refill Request
 
 To work on an e-refill request that came in, simply click the underlined ID number for the specific request you wish to work on.
 
-![](e-refills-my-pending-refills-tab.images/image6.png)
+![](e-refills-my-pending-refills-tab.images/image11.png)
 
 Once you click on a refill request ID to work on, it will open the detailed refill request from the pharmacy on your screen. The details include the patient information, the specific drug/qty/supply/sig being requested for a refill, and other specific information. It also shows the name of the pharmacy that is sending this refill request. The prescriber name would be your name (the e-prescriber) unless you had security permission to work the e-refill queue for others, then this is where you would see who the e-refill request is to.
 
@@ -66,7 +66,7 @@ You need to view the correct patient, correct drug and details, etc is correct a
 
 After this top section is reviewed and any changes made if need be, then you would work the APPROVE / APPROVE W/ EDIT REFILL / CHANGE / DENY buttons at the bottom.
 
-![](e-refills-my-pending-refills-tab.images/image7.png)
+![](e-refills-my-pending-refills-tab.images/image12.png)
 
 If a prescriber has been deactivated (ex: terminated your practice and their username is login disabled) and an e-refill request has come from the pharmacy for a refill, the ‘Approve', ‘Approve w/ Edit Refill', and ‘Change' buttons in the Refill Request dialog no longer appear. Only the options ‘Deny' and ‘Cancel' are available. Clicking Deny will default the drop-down selection to ‘Prescriber not associated with this practice or location.'
 
@@ -74,7 +74,7 @@ If a prescriber has been deactivated (ex: terminated your practice and their use
 
 * <strong>Patient:</strong> This is the name, DOB, Age and Gender of the patient the pharmacy is requesting a refill for. If you click the underlined patient link, it will open up the patient details and a patient search field. You can view more specific patient information from here.
 
-![](e-refills-my-pending-refills-tab.images/image8.png)
+![](e-refills-my-pending-refills-tab.images/image14.png)
 
 * <strong>Open Chart:</strong> This is a link you can click to take you directly to the patient's chart. It will open in a separate screen while leaving this refill request open in the background. You can browse and get into to the patient's medications tab in {{% system-name %}} from this link without having to get out of the refill request.
 * <strong>Unmatched:</strong> If you see the yellow alert <strong>Unmatched</strong> next to the patient name in the refill request, it means the pharmacy is sending you a request for a patient that is <em>not a match</em> in your {{% system-name %}} system. {{% system-name %}} does not find a name/dob, etc match for the patient they are sending an e-refill request for.
@@ -82,18 +82,18 @@ If a prescriber has been deactivated (ex: terminated your practice and their use
 
 Once you click the SET button, the patient information at the top summary would change to be the patient you selected. You would then click OK to take you back to the refill request.
 
-![](e-refills-my-pending-refills-tab.images/image9.png)
+![](e-refills-my-pending-refills-tab.images/image13.png)
 
 #### Drug Section
 
 * <strong>Drug:</strong> This is the name of the medication/drug the pharmacy is requesting a refill for. It also lists other details. If you click the underlined drug link, it will open up the drug details and the drug search field. You can view more specific drug information from here.
 
-![](e-refills-my-pending-refills-tab.images/image10.png)
+![](e-refills-my-pending-refills-tab.images/image14.png)
 
 * <strong>Unmatched:</strong> If you see the yellow alert <strong>Unmatched</strong> next to the drug name in the refill request, it means the pharmacy is sending you a request for a drug that does not <em>match</em> an active drug the patient has already prescribed/listed in their chart in your {{% system-name %}} system. {{% system-name %}} does not find that drug listed in the patient's current medication history that they are sending an e-refill request for. Meaning, your practice may have not prescribed this drug to this patient before since it's not listed in their medication history in e-meds module.
     * You can also link the unmatched refill request drug to a current medication for the patient by clicking on the drug link. It will open the Medication from Patient's List screen. You can type in a drug name in the search to see if the patient is currently on something that you want to link this e-refill request to. If no results show, then the patient doesn't have that as an active medication in their medication history in {{% system-name %}}. You can also click the SHOW ALL button to show the active medications the patient has in their {{% system-name %}} medication history.
 
-![](e-refills-my-pending-refills-tab.images/image11.png) ![](e-refills-my-pending-refills-tab.images/image12.png)
+![](e-refills-my-pending-refills-tab.images/image15.png) ![](e-refills-my-pending-refills-tab.images/image16.png)
 
 If you wish to link the unmatched refill request, then select the patient's active medication in the search or show all field, then click the SET button, the linked drug information at the top summary would change. You would then click OK to take you back to the refill request.
 
@@ -101,7 +101,7 @@ It remains the same unmatched drug name on the refill request dialog screen in o
 
 If you approve a refill request and hasn't been matched in the {{% system-name %}} system (meaning the drug refill request still shows *unmatched* in that request field), you can still approve it but you will see this warning message if you want to approve an unmatched drug.
 
-![](e-refills-my-pending-refills-tab.images/image13.png)
+![](e-refills-my-pending-refills-tab.images/image17.png)
 
 If you approve a refill for an unmatched drug for the patient, it will allow you to approve the refill and it will add that drug name & details to the patient's active medication history in {{% system-name %}} .
 
@@ -109,29 +109,29 @@ If you approve a refill for an unmatched drug for the patient, it will allow you
 
 * <strong>Pharmacy:</strong> This is the name & address of the pharmacy that is requesting a refill for. If you click the underlined pharmacy link, it will open up the pharmacy details along with phone & fax# to that pharmacy.
 
-![](e-refills-my-pending-refills-tab.images/image14.png)
+![](e-refills-my-pending-refills-tab.images/image18.png)
 
 #### Prescriber Section
 
 * <strong>Prescriber:</strong> This is the name of the e-prescriber that the pharmacy is requesting a refill from. If you click the underlined prescriber link, it will open up the e-prescriber details. If you are the e-Prescriber and working your e-refills, you would leave this as your name. If you are another user who is working e-refills for a physician on vacation (for example), then you may want to leave it as the original prescriber's name.
 
-![](e-refills-my-pending-refills-tab.images/image15.png)
+![](e-refills-my-pending-refills-tab.images/image19.png)
 
 * You can move this e-refill request to another physician's refill queue by setting someone in the prescriber agent field OR if you are an e-Prescriber physician taking over another physician's refill requests, you can set your name as prescriber agent for this refill you are working on.
 * <strong>Prescriber Agent:</strong> This auto-complete field points and shows choices of other e-Prescribers in your {{% system-name %}} systems that are currently set to be able to handle e-refill requests. Meaning, if there is a physician/prescriber in your system who does not want to receive electronic refill requests and they don't have that box check-marked in their username screen, even though they <em>are</em> an e-Prescriber, they will not show up in this auto-complete field of Prescriber Agent choices since they do not receive electronic refill requests.
 
-![](e-refills-my-pending-refills-tab.images/image16.png)
+![](e-refills-my-pending-refills-tab.images/image19.png)
 
 If you set a user as a Prescriber Agent in this field, it can work in three different ways.
 
 1. Leave Prescriber Agent blank if you are working an e-refill request and want to approve/deny the refill using the original (local) prescriber's name. Or if the physician is out and you called or asked this original requested physician and verified the refill approval or denial with that original physician/prescriber. You wouldn't set anyone else in this field then acting in behalf of the original prescriber being requested for this refill.
 2. If you wish to ‘forward' this e-refill request to another physician in your practice to work, start typing that physician's <strong>last name</strong> here in the Prescriber Agent field and you will get an auto-complete of selections <strong>if</strong> the user (physician/ prescriber) you want to forward to has the ability to receive e-refill requests. (Meaning, that physician must have the check-box <em>receive refill requests</em> marked in their username screen and been verified with SureScripts to receive electronic refill requests.) You must type in at least 2 characters of the prescriber's last name that you want to forward this to. You may want to ‘forward' an e-refill request if the original prescriber that received this request is ill or on vacation, etc.
 
-![](e-refills-my-pending-refills-tab.images/image17.png)
+![](e-refills-my-pending-refills-tab.images/image20.png)
 
 Once you click the OK button, it will refresh you back to the e-refill request dialog box. It will show you the original prescriber that was being requested and then it shows the Agent that you selected.
 
-![](e-refills-my-pending-refills-tab.images/image18.png)
+![](e-refills-my-pending-refills-tab.images/image21.png)
 
 The Prescriber Agent field can be filled out to select another e-Prescriber who is working on behalf of the original prescriber.
 
@@ -143,7 +143,7 @@ Once a refill request has been worked (approved, changed, or denied) by anyone w
 
 To APPROVE a refill request after reviewing and/or matching/linking etc any details that needed attention, simply click the APPROVE button or APPROVE W/EDIT REFILL
 
-![](e-refills-my-pending-refills-tab.images/image19.png)
+![](e-refills-my-pending-refills-tab.images/image22.png)
 
 Sometimes a pharmacy will send a refill request through the e-refills queue that have the refills field stated *unspecified*. Or a pharmacy may send a refill request through the e-refills queue that have a specific # in that refills field, but you may not want to approve it for that many refills.
 
@@ -155,9 +155,9 @@ If the e-refill request from the pharmacy has a specific # in the refills, BOTH 
 
 You can APPROVE it as is (you *can't* change the dispensings—you are approving as is), or you can APPROVE W/ EDIT and change the dispensings and continue to approve.
 
-![](e-refills-my-pending-refills-tab.images/image20.png)
+![](e-refills-my-pending-refills-tab.images/image23.png)
 
-![](e-refills-my-pending-refills-tab.images/image21.png)
+![](e-refills-my-pending-refills-tab.images/image1.png)
 
 * <strong>Approve button:</strong> Use to approve as-is with the number of refills specified by the pharmacy
 * <strong>Approve w/ Edit Refill button:</strong> Use to approve the refill request, but set a practice-specified number of refills (dispensings).
@@ -169,17 +169,17 @@ You can APPROVE it as is (you *can't* change the dispensings—you are approving
 
 Click the SEND APPROVAL button to now send the approved refill back to the pharmacy.
 
-![](e-refills-my-pending-refills-tab.images/image22.png)
+![](e-refills-my-pending-refills-tab.images/image2.png)
 
 If you approve a controlled substance refill request, those a not allowed to be e-transmitted back to the pharmacy. It will alert you to that at the top of the approval screen. You would mark it as approved, but the script refill is placed up in the *unsent prescriptions* queue from the patient's e-meds module. You would approve the refill request and the pre-typed comments are there to the pharmacist. Click SEND APPROVAL button, but then you would then go into the patient's e-meds tab and manually fax it to them via the e-meds module.
 
-![](e-refills-my-pending-refills-tab.images/image23.png)
+![](e-refills-my-pending-refills-tab.images/image3.png)
 
 ### Deny Refill Request
 
 To DENY a refill request after reviewing any details that needed attention, simply click the DENY button.
 
-![](https://lh3.googleusercontent.com/NpMYCDSYZxLpGuWic81KbvJ1nHfkiqkBgU8V3txSeniji2NEj4Y1cTI_6kgJpr4PDFkHmqXYsvq1oMaT_RejKck3gXlBT459WzY8RXMPN3bp8KLlNU7u0KrdS_Ju2D0UywjVn-KA9kS6hoHe2Q)
+![](e-refills-my-pending-refills-tab.images/image4.png)
 
 When you click the DENY button, you will see the *deny refill request* screen open up.
 
@@ -188,20 +188,20 @@ When you click the DENY button, you will see the *deny refill request* screen op
 
 Click the SEND DENIAL button to now send the refill denial back to the pharmacy.
 
-![](https://lh4.googleusercontent.com/2pw135Fv7-_K69s8kCFZMAOvA1AQdiaIF_9pfWqQcqwWbperVDIbvPO1IH0BErkHOQQ4nfIabZIUgBfyOM3LCE9oQAKo_qWcQxlQnkpxL8J1PFrgbVS7-lt0v0Z7u_uJAK0_x1IdVnq7xGko9Q)
+![](e-refills-my-pending-refills-tab.images/image5.png)
 
 ### Change Refill Request
 
 To CHANGE a refill request after reviewing any details that needed attention, simply click the CHANGE button. *You cannot change a controlled substance refill request. The ‘change' button will be disabled for controlled substances.*
 
-![](https://lh3.googleusercontent.com/NpMYCDSYZxLpGuWic81KbvJ1nHfkiqkBgU8V3txSeniji2NEj4Y1cTI_6kgJpr4PDFkHmqXYsvq1oMaT_RejKck3gXlBT459WzY8RXMPN3bp8KLlNU7u0KrdS_Ju2D0UywjVn-KA9kS6hoHe2Q)
+![](e-refills-my-pending-refills-tab.images/image4.png)
 When you click the CHANGE button, you will be taken to the prescribe function. You are changing the refill request to a new medication even if it is just a change in milligrams or sig or the drug totally. Enter the new drug and details that you are changing the refill request to. You are in essence changing the drug but approving the refill request. Example: A refill comes in for Lipitor 40mg, but you want to lower the dose to 10mg. You can click the CHANGE button to insert a new prescription and send it to the pharmacy from this request. Essentially you are acknowledging the refill request you received, but changing the medication/sig/form, etc.
 
 When you click the CHANGE button, it will open up the blank prescribe module. Here you enter in the new/changed script. Click SUBMIT button to save & submit the script you changed the refill request to.
 
-![](https://lh5.googleusercontent.com/9_XFmgPBqB4USnOjkPzp0j2DRL0jJLU6qTAAkPctq4w8xkIdw6ekPxul-sQqqA4lRzdgQF5iOBsmU1NMZFhF69EqMEjfMzn0EKBwQpyDUbqeWMy55zKR23bnbm3CKsfDE9KJ_9VAMhv_tjSNtQ)
+![](e-refills-my-pending-refills-tab.images/image6.png)
 
 Once you click the SUBMIT button, the *Change Refill Request* screen will appear. You can enter the reason for the change to the e-refill request and click SUBMIT button. As it states, the original refill request you are acknowledging will be marked as denied, but the new prescription you changed it to will be sent automatically to that pharmacy.
 
-![](https://lh4.googleusercontent.com/Baoqsn-Ew0pFNFUZ0J_32NL8DDpGRKqLVTXSx0B1T9ILd0KiuxIaNpUAqm-uZ078BSkY5POk0m4kMYLj24mNJamwcDDi3rl4U0XsyC3jhdKbHtivSskPzmJ5UsAsrgDd-ZOymbDn6F7b2ElGSw)
+![](e-refills-my-pending-refills-tab.images/image7.png)
 

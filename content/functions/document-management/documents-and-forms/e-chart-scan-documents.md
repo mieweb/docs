@@ -34,7 +34,7 @@ To begin scanning in a document to the chart, navigate to the Document Library b
 
 
 
-![](e-chart-scan-documents.images/image1.png)
+![](e-chart-scan-documents.images/image8.png)
 
 
 
@@ -51,7 +51,7 @@ Once the scanner is prepared, select the document type needing attached and uplo
 
 
 
-![](e-chart-scan-documents.images/image2.png)
+![](e-chart-scan-documents.images/image9.png)
 
 
 
@@ -64,13 +64,13 @@ When the Scan link is clicked, the MIE VidCap Control plugin will need to be ins
 
 Scanning and uploading an individual document using this method is a two-part process, where the user first scans in the document, and then indexes the document, accordingly. Once the document is selected, the Document Capture Control screen will open at the top of the screen, with the Add Document Properties section displayed lower on the screen.
 
-![](e-chart-scan-documents.images/image3.png)
+![](e-chart-scan-documents.images/image2.png)
 
 ![](e-chart-scan-documents.images/image4.png)
 
 Depending on if the functionality has been used previously, the system may automatically start the scanner and begin scanning the document, automatically. Otherwise, select the appropriate scanner by clicking the **Select Scanner** button and choosing the necessary scanner. Once set, click the **Scan Image** button to initiate scanning the document.
 
-![](e-chart-scan-documents.images/image5.png)
+![](e-chart-scan-documents.images/image3.png)
 
 The scanned document will appear as an image within the Document Scan Control area. If the document is two-sided and the scanner is not equipped with a duplex scanning feature, flip the document over, and click the **Scan Image** button, again. Users may scan in as many pages as necessary, though each scan will be stored as a single document in the chart.
 
@@ -80,7 +80,7 @@ After scanning the document(s) using the above method, scroll down to the Add Do
 
 
 
-![](e-chart-scan-documents.images/image7.png)
+![](e-chart-scan-documents.images/image1.png)
 
 
 
@@ -107,7 +107,7 @@ In order to author documents for others, the user must have the Access Control *
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](e-chart-scan-documents.images/image8.png)
+![](e-chart-scan-documents.images/image5.png)
 
 
 
@@ -136,16 +136,16 @@ When scanning in documents, there are various control options available from the
 
 
 
-![](e-chart-scan-documents.images/image9.png)
+![](e-chart-scan-documents.images/image10.png)
 
 
 
-* <strong>Crop</strong> : To utilize the Crop feature, simply hover the mouse over the scanned image and place the cross cursor ![](e-chart-scan-documents.images/image10.png) at the starting point of the intended crop. Left-click and hold the mouse button, dragging the cursor over the scanned image, highlighting (in black) the area intended to be cropped and kept. Release the mouse. If the highlighted field needs redone, simply left-click the mouse again, and resize the crop field. When ready, click the <strong>Crop</strong> button.
+* <strong>Crop</strong> : To utilize the Crop feature, simply hover the mouse over the scanned image and place the cross cursor  at the starting point of the intended crop. Left-click and hold the mouse button, dragging the cursor over the scanned image, highlighting (in black) the area intended to be cropped and kept. Release the mouse. If the highlighted field needs redone, simply left-click the mouse again, and resize the crop field. When ready, click the <strong>Crop</strong> button.
     * The area highlighted in black will be saved. After clicking the Crop button, the image will refresh, showing the cropped document in the upper-left corner. The cropped image will be stored in the chart, once uploaded. If more of the document requires cropping, simply continue by repeating the steps, above.
 
 
 
-![](https://lh6.googleusercontent.com/N0OnHORSqcUNrwXKxj0zXDiG5tOiI-5zODUx5bizXGEp00aiAf8FTRUJOBJprKfDfbhAibflBlee6-o6fofMmh_8yGHSdRXGT6gUHmDInp-E0kZZftkapPXXfR4hGl-q_0gpbbsW0YtIAn1fDA)
+![](e-chart-scan-documents.images/image7.png)
 
 
 

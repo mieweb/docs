@@ -20,21 +20,21 @@ Resource Restrictions can be used to prohibit staff or clinicians from accessing
 
 To start, access the **Resource Restrictions** tab in the control panel.
 
-![](resource-restrictions.images/image1.png)
+![](resource-restrictions.images/image5.png)
 
 The *Resource Restrictions* tab contains a filter search bar that is directed to the users within departments that are listed in the system's settings as Scheduling Resources. By default, the system setting is pointing to the Scheduling Resources department.
 
-![](resource-restrictions.images/image2.png)
+![](resource-restrictions.images/image7.png)
 
-![](resource-restrictions.images/image3.png)
+![](resource-restrictions.images/image6.png)
 
 Begin typing in the last name of the Scheduling Resource that needs to be restricted from users. The field is an autocomplete. Select the name of the user profile in the Scheduling Resources department. If a user name does NOT auto-complete any choices, check the Access Control tab to ensure that the desired resource's user profile is part of the Scheduling Resources department.
 
-![](resource-restrictions.images/image4.png)
+![](resource-restrictions.images/image9.png)
 
 Once the name populates, select it, and click the "Search" button. This will refresh the page.
 
-![](resource-restrictions.images/image5.png)
+![](resource-restrictions.images/image8.png)
 
 The page then displays 4 sections:
 
@@ -45,21 +45,21 @@ The page then displays 4 sections:
 
 When all needed fields are complete, click the **Submit Changes** button to create the restriction.
 
-![](resource-restrictions.images/image6.png)
+![](resource-restrictions.images/image2.png)
 
 Once the restriction is submitted, the screen with refresh and the list of allowed users will now display the user who added them, as well as the date and time of addition. The same information will also display in the Revision History section.
 
-![](resource-restrictions.images/image7.png)
+![](resource-restrictions.images/image1.png)
 
 ## Editing Existing Restrictions
 
 From the Resource Restrictions tab found in Control, search for the resource that needs editing. Type in their last name by using the autocomplete to select the specific resource.
 
-![](resource-restrictions.images/image8.png)
+![](resource-restrictions.images/image4.png)
 
 Click "Search" to refresh the screen and bring up the existing listings of *allowed* users and departments for that specific restricted resource.
 
-![](resource-restrictions.images/image9.png)
+![](resource-restrictions.images/image3.png)
 
 Utilize the - buttons to remove users or departments that should no longer have access. Add new users or departments with the "Add" buttons that *should* have permission to access. Record the reason for the change, then click the Submit button to save all work.
 

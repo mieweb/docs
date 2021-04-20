@@ -118,7 +118,7 @@ failcomply: Failure to comply
 
 
 
-![](create-health-surveillance-file-for-import.images/image1.png)
+![](create-health-surveillance-file-for-import.images/image3.png)
 
 
 
@@ -139,7 +139,7 @@ failcomply: Failure to comply
 
 
 
-![](create-health-surveillance-file-for-import.images/image3.png)
+![](create-health-surveillance-file-for-import.images/image5.png)
 
 
 
@@ -147,7 +147,7 @@ failcomply: Failure to comply
 
 
 
-![](create-health-surveillance-file-for-import.images/image4.png)
+![](create-health-surveillance-file-for-import.images/image1.png)
 
 
 
@@ -155,7 +155,7 @@ failcomply: Failure to comply
 
 
 
-![](create-health-surveillance-file-for-import.images/image5.png) 
+![](create-health-surveillance-file-for-import.images/image4.png) 
 
 {{% tip %}}
 

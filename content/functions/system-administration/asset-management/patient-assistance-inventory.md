@@ -20,7 +20,7 @@ If you need to add inventory specifically tied to an individual patient because 
 
 Depending on how your practice is set up and what all you track for Inventory, your *Receive Patient Meds* (adding patient specific inventory) entry fields may be different.
 
-![](patient-assistance-inventory.images/image2.png)
+![](patient-assistance-inventory.images/image3.png)
 
 To add a quantity of received meds into this specific patient's assistance (patient inventory) fill out the fields in the *Receive Patient Meds* screen. Use your tab key to advance to each field.
 
@@ -49,7 +49,7 @@ You will get a confirmation at the top stating the system received the medicatio
 
 When you go back into the patient's Dispense chart tab, you will see their received medications you entered into the patient's assistance inventory (for that specific patient) using the Receive Patient Assistance feature. It is the last bucket in the Dispense chart tab named *Patient Assistance Inventory*.
 
-![](patient-assistance-inventory.images/image3.png)
+![](patient-assistance-inventory.images/image2.png)
 
 If you need to add inventory as donated or as general inventory, you need to do that through the Add Donated tab or the Add Inventory tab which is separate from the specific patient's assistance inventory. (See other help documentation named *Add Inventory* and *Add Donated*).
 

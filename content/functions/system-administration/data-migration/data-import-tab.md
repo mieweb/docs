@@ -16,7 +16,7 @@ Must have security access to access the DATA IMPORT tab found in Control Panel s
 
 
 
-![](data-import-tab.images/image1.png)
+![](data-import-tab.images/image2.png)
 
 
 
@@ -24,7 +24,7 @@ If user(s) have security permission to allow .csv data import, then the user(s) 
 
 
 
-![](data-import-tab.images/image2.png)
+![](https://lh3.googleusercontent.com/POZhPnjGzyzUVeHC2erXGvk5ASi0RqfwKPkQmAWQm6Jpl_e9omd0SAnYMF4q2cZh6qQIqvRk3_YEm-3h_ME3g7e1uyL7na7dkAzfGZB6YtcRjyOfZj3bwmLy0XX9lRSaXOdn_LRwPxdhOM-GXw)
 
 
 
@@ -32,7 +32,7 @@ If your system does not have a Data Import tab, please contact your MIE Implemen
 
 
 
-![](data-import-tab.images/image5.png)
+![](https://lh6.googleusercontent.com/-TPnVJ2Led5TCZjQT69tDg2OKCNv4cBbjz7YA8N33oCNLCasem_swi4sEWxDdcg0c4gHmiLVj7GZNt-I5pDXERNvDMMglYmX9vDZmc4JjmyEalbqNxnJUNjELQekMZIEUKjMROpwt56p0vExKw)
 
 
 
@@ -63,7 +63,7 @@ To include Patient Extended Values (PEV) in the import, column headers must incl
 
 
 
-![](data-import-tab.images/image7.png)
+![](data-import-tab.images/image5.png)
 
 
 
@@ -95,7 +95,7 @@ Patient lookup is now based on MRN, last name, firstname, and DOB. If 1 match is
 
 
 
-![](data-import-tab.images/image9.png)
+![](data-import-tab.images/image7.png)
 
 
 
@@ -146,7 +146,7 @@ First and Last name are optional fields when importing observations. If names ar
 
 
 
-![](data-import-tab.images/image11.png)
+![](data-import-tab.images/image9.png)
 
 
 
@@ -161,7 +161,7 @@ Fee schedule import will create/update fee schedules and CPT codes in {{% system
 
 
 
-![](data-import-tab.images/image12.png)
+![](data-import-tab.images/image13.png)
 
 
 
@@ -175,7 +175,7 @@ Asset import will create/update assets (usually in separate partition) with spec
 
 
 
-![](data-import-tab.images/image13.png)
+![](data-import-tab.images/image11.png)
 
 
 
@@ -189,7 +189,7 @@ This data import is for importing Completed Encounter Orders. The import tool ta
 
 
 
-![](data-import-tab.images/image14.png)
+![](data-import-tab.images/image12.png)
 
 
 
@@ -203,7 +203,7 @@ These data import modules are for importing Order list catalogs and Order questi
 
 
 
-![](data-import-tab.images/image15.png)
+![](data-import-tab.images/image14.png)
 
 
 
@@ -215,7 +215,7 @@ These data import modules are for importing Order list catalogs and Order questi
 
 This import tool allows the adding of encounters from a spreadsheet that also imports lost time (incident/cases) data which may be needed when converting data from a separate system into {{% system-name %}} for work related incidents/encounters. See other help documentation titled *Data Import-Lost Time Import Tool.pdf*
 
-![](data-import-tab.images/image16.png)
+![](data-import-tab.images/image15.png)
 ## Panel Membership Import
 
 
@@ -224,7 +224,7 @@ This import tool allows the adding of patients from a spreadsheet to specified H
 
 
 
-![](data-import-tab.images/image17.png)
+![](data-import-tab.images/image16.png)
 
 
 
@@ -232,7 +232,7 @@ For a list of your systems active panel membership options, please utilize the  
 
 
 
-![](https://lh6.googleusercontent.com/oGiKP-8GnQLL7bH-jLzXZxHUuxcOtHhQAogtFaAXoGGDkbNMFeXNcB2d9AaATI-A_SCYqsuLA4FSmVvX2l7jHELNbnKwhGtSo6EEXul_EEdDuzAI88IQvD8ZIuxcorXe22Bqfqw4cDtCTqr3bw)
+![](data-import-tab.images/image1.png)
 
 
 
@@ -242,5 +242,5 @@ Not only can you import data using the Data Import tool, but you can export spec
 
 
 
-![](https://lh5.googleusercontent.com/Br4QMh5W8TMa8lMlBgKAK1sWlAsuPr-t5Yg8faAjYNFbF_h-V9anl4yWYIEVASVmed-SlZc0OJQl9ya9X4gChHE6O5yGP70rEZ5EPL7Z--6FxTkbf4UatrlMp3kZcuVvVS502zW8JhZIaUX7ZA)
+![](data-import-tab.images/image17.png)
 

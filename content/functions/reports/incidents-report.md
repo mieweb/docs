@@ -17,11 +17,11 @@ Capturing incident detail on a patient is done through the office visit encounte
 
 From the Reports sidemenu, your MIE Implementer can program the Incidents report tab.
 
-![](incidents-report.images/image1.png)
+![](incidents-report.images/image2.png)
 
 Some practices have the same report placed instead on the sidemenu tab for easy access.
 
-![](incidents-report.images/image2.png)
+![](incidents-report.images/image4.png)
 
 From either access, you will be taken to the Incident Search screen.
 
@@ -31,7 +31,7 @@ In the Incident Search, there are a plethora of filter fields you can populate t
 
 However, by default, the system will show any and all incidents directly below these search filters. Use the filter fields above to help narrow down the results and click the SEARCH button. The filtered results along with detailed data will display here then (below the search fields above) where you can further export to csv (excel spreadsheet) or view printable to print.
 
-![](incidents-report.images/image4.png)
+![](incidents-report.images/image6.png)
 
 The Case Date column shows the incident datetime. That is when the incident occurred.
 
@@ -41,5 +41,5 @@ There is another Incident Report available from the Reports sidemenu tab if goin
 
 This report is much more generic and only offers a few filters. The results regarding incidents and some specific data (after you submit) will display on the screen where you can import to csv (excel spreadsheet) or view printable to print.
 
-![](incidents-report.images/image6.png)
+![](incidents-report.images/image1.png)
 

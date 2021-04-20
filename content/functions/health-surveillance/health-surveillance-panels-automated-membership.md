@@ -14,7 +14,7 @@ menu:
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 
-![](health-surveillance-panels-automated-membership.images/image1.png)
+![](health-surveillance-panels-automated-membership.images/image8.png)
 
 The listing of current Panels will display on the screen under the Panel Search fields.
 
@@ -24,15 +24,15 @@ You can view current members of panels and also current automated {{% system-nam
 
 To view existing memberships & membership rules on existing panels go to Control tab→Health Surveillance tab→ Find the specific panel and click Membership hyperlink from the main panel listing.
 
-![](health-surveillance-panels-automated-membership.images/image2.png)
+![](health-surveillance-panels-automated-membership.images/image10.png)
 
 OR you can instead get to membership when in the "actions" of any specific panel.
 
-![](health-surveillance-panels-automated-membership.images/image3.png)
+![](health-surveillance-panels-automated-membership.images/image9.png)
 
 Then click membership hyperlink found at the top of the Panel Actions screen for that specific panel.
 
-![](health-surveillance-panels-automated-membership.images/image4.png)
+![](health-surveillance-panels-automated-membership.images/image12.png)
 
 Either method, you gain access to the *Panel Membership* screen which shows 3 sections on that screen.  At the top you should see (in bold) the words *Panel Membership* and then the specific panel you accessed membership on.
 
@@ -42,11 +42,11 @@ The next section shows *Individual Include/Exclude* which lists all current empl
 
 At the very bottom you see *Membership Approval* where you can click the *Approve Membership Now* button and it essentially marks the last time a user (with a date/time stamp) that approved & validated this membership screen for the specific panel.
 
-![](health-surveillance-panels-automated-membership.images/image5.png)
+![](health-surveillance-panels-automated-membership.images/image11.png)
 
-![](health-surveillance-panels-automated-membership.images/image6.png)
+![](health-surveillance-panels-automated-membership.images/image2.png)
 
-![](health-surveillance-panels-automated-membership.images/image7.png)
+![](health-surveillance-panels-automated-membership.images/image1.png)
 
 ## View Automated Membership Rules
 
@@ -54,7 +54,7 @@ You can have {{% system-name %}} automate membership by including or excluding e
 
 If any automated membership rules exist for the specific panel viewing membership on, it will be listed in the *Membership Rule* section. This lists any CC (Cost Center), Loc (Location), Bld (Building), and EC (Employee Class) that the membership rules are looking at. If custom queries (additional criteria) are also or instead looked at to determine which employee charts are considered members of a panel automatically, then it would be listed in the *additional criteria* field which is only seen if you were to click edit on the membership rule. The start date for the automatic membership rule is also indicated.
 
-![](health-surveillance-panels-automated-membership.images/image8.png)
+![](health-surveillance-panels-automated-membership.images/image4.png)
 
 ## Add Automated Membership Rule
 
@@ -62,7 +62,7 @@ If any automated membership rules exist for the specific panel viewing membershi
 
 MIE Developers would be the ones to program automated membership rules on any panels needed, but to add an automatic implicit membership rule to a specific panel you would click the Add Membership Rule hyperlink from the membership screen.
 
-![](health-surveillance-panels-automated-membership.images/image9.png)
+![](health-surveillance-panels-automated-membership.images/image3.png)
 
 That is where MIE sets any automatied panel membership rules or additional criteria programming. Location is the Facility_code field in demographics. Building, cost center & employee class fields are also found in employee demographics tab.
 
@@ -70,15 +70,15 @@ It's always best to do Health Surveillance panels and testing regarding membersh
 
 If a panel membership rule's additional criteria contains invalid SQL or new invalid SQL is entered when editing a membership rule, a warning displays that there is a panel membership rule configuration problem. It will not end all implicit memberships in that panel after evaluating if there is invalid SQL. To fix the invalid SQL after receiving this warning message, simply click *edit* on the membership rule that was being inserted or edited.
 
-![](health-surveillance-panels-automated-membership.images/image10.png)
+![](health-surveillance-panels-automated-membership.images/image7.png)
 
 Once an employee's chart is automatically made a member of the panel based on automated membership rules, the employee will show as "implicit" membership for that panel (not explicit). It's important for your MIE Implementer to have the scheduled job enabled for the panel membership evaluator and panel action items evaluator to run each night if you have automated membership rules set in place. These scheduled jobs are what makes the panel action evaluator run and the automated membership rules run once a night.
 
-![](health-surveillance-panels-automated-membership.images/image11.png)
+![](health-surveillance-panels-automated-membership.images/image5.png)
 
 Automated membership rules also look at what charts are considered "active", so it's important to work with your MIE Implementer on what an "active" chart is considered in your system based on your HR interface feed fields being received.
 
-![](health-surveillance-panels-automated-membership.images/image12.png)
+![](health-surveillance-panels-automated-membership.images/image6.png)
 
 Also, whenever the Panel Action Evaluator runs, any pending orders for patients with explicit panel memberships will be deleted if that patient fails the Active Patient Clause criteria.
 

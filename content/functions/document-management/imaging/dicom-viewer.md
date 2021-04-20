@@ -17,7 +17,7 @@ Most X-Ray images are found within the  chart, under the **Test Results** char
 
 
 
-![](dicom-viewer.images/image1.png)
+![](dicom-viewer.images/image3.png)
 
 
 
@@ -25,7 +25,7 @@ Clicking on a specific document found here will open up that image on your {{% s
 
 
 
-![](dicom-viewer.images/image2.png)
+![](dicom-viewer.images/image10.png)
 
 
 
@@ -33,7 +33,7 @@ The **Series** [+] button if clicked will open all images for that series on you
 
 
 
-![](dicom-viewer.images/image3.png)
+![](dicom-viewer.images/image8.png)
 
 
 
@@ -41,7 +41,7 @@ The **Push** section offers different types of pushes to an AE Title that must b
 
 
 
-![](dicom-viewer.images/image4.png)
+![](dicom-viewer.images/image5.png)
 
 
 
@@ -49,7 +49,7 @@ The **Enhanced** section will open up the enhanced viewer screen.
 
 
 
-![](dicom-viewer.images/image5.png)
+![](dicom-viewer.images/image2.png)
 
 
 
@@ -57,7 +57,7 @@ Users can choose the contrast level in which to batch print a series.
 
 
 
-![](dicom-viewer.images/image6.png)
+![](dicom-viewer.images/image9.png)
 
 
 
@@ -73,7 +73,7 @@ The first 2 buttons in the toolbar take you from stage to stage. There may be ma
 
 
 
-![](dicom-viewer.images/image8.png)
+![](dicom-viewer.images/image1.png)
 
 
 
@@ -83,7 +83,7 @@ To hang views side by side, they must be in the same series/same document.  You
 
 
 
-![](dicom-viewer.images/image9.png)
+![](dicom-viewer.images/image4.png)
 
 
 
@@ -93,7 +93,7 @@ An example to see a hang is to search for doc.id 316 in your system (a sample im
 
 
 
-![](dicom-viewer.images/image10.png)
+![](dicom-viewer.images/image11.png)
 
 
 
@@ -101,5 +101,5 @@ To get out of the enhanced viewer, click the "Close Window" hyperlink at the top
 
 
 
-![](dicom-viewer.images/image11.png)
+![](dicom-viewer.images/image6.png)
 

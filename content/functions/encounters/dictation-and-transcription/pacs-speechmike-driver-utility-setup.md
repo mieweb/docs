@@ -16,37 +16,37 @@ To begin, go to **START** at the bottom left corner of your computer desktop a
 
 **ALL PROGRAMS**. Next, find and select the program named **SpeechMike Driver Utility** then another branch will open. Click **Control Application** to run the Control Application for the SpeechMike Driver Utility.
 
-![](https://lh5.googleusercontent.com/aLdQe82AYQqu-ejeKa3f2DQyHDtLNnP-4MReTLetfMOWfdm7WyG-ZKpykz-bJy1TfnBcMQyBCK3FffJQPJhcyqgXCHDfBb6Ra_CzGAszu_yxD32WCOQfPL9Qd-AmmfT-BNzCGNxD8BfVhXXOIw)
+![](https://lh5.googleusercontent.com/18xExR_PaYTTiVa_TgqSCiq97FJ_oOdBnk91AxY4rESHJHRCjWalLvavgIjVKoZ8EEjmJ2dkWw1oxOqIC_Q0i4PnXJ0JjkJynSILcTnP6haV-6ac3IjZ8WQGpP7Hx3BhSm2vIlk2Lb9-SMPVQw)
 
 The *Control Utility* screen will open. This is where you will make some selections for setup.
 
-![](https://lh6.googleusercontent.com/2bCL9-3SjBVj5CV5Km-rXRK80gbkpmYQbDhLdIA3quMg81nzIAAFfjfzFtjhzg59VWiHBKsEQvgjXrMADPvVfIr2fh_TqtqombLdcYgyE2yhzYCklx4PsvODEg7XaELxC-sMgeZv12YxMmOg4Q)
+![](https://lh4.googleusercontent.com/BCBXjMSTsAytfii2GYkMJiYz2dF7GoH8nzKvN3OJYt_vnh3BDgFiUoB4dR6spxdz6orgzEZzclHqfsVgB7MK8ZxrAyiZjbckV0hjIXPbVuprH6To-acsfZU1QefgH9Yp0XZnv2w2V0E_gcXraQ)
 
 Click on **Options** at the top toolbar, then select **Buttons**. The Buttons options will branch out. In the Buttons options, select the name of your SpeechMike.
 
-![](https://lh6.googleusercontent.com/NwOtIYBAC2rL2fV8XcOMVfBYyTcm8q0UgUWRFchpwSKCUrlSHQXqESuYLANQexTu5gEVYpolPdjz0R7CbHhPAJgkDDtoqRu3INVYHyUezfCZ-cR9KbkAb8l1PO0ADzJdkDPTKG0Qd7uz0OzlLg)
+![](https://lh5.googleusercontent.com/vpTfDSKQnCg-Q2ckNQcttZSkQRswEsHMJBIqNJKtBYRu07qiD9PdB4xRY2wa1eQtdHnnAPaPB5TjQj1XzovkLQhdWIGfSqkeMu-CeS8GaVSAjCGng9tkyZZC0vAXVqzpoLECAsw0-A9hr26hgw)
 
 After you have selected your SpeechMike name, click on **Options** again in the top toolbar.
 
 Then select **Auto-Assign.**
 
-![](https://lh6.googleusercontent.com/K17G59QeLBT7UmFonFkwL-K8U1sMlEcLoMrSgo6n2Hd781JSk6fUBCAQCqBUptmShS23yHomQUhm2nmjzwIRLEaDcJQO79EloPQty5sUJHshMQAjyOaJdD8saA8u5Q64uj0Wkxg_dlNjBItx2g)
+![](https://lh4.googleusercontent.com/oQ6gmoyHEhU2gdAiRWNAretsGiyY0Wl-eBBTGTYzeoHjzJTl0I-DP9IIDNUZxhukv1j0WcaVk_SJlTbIeiIqrY5UriPpBQAJrOoe9JflOblLIRRxWYmEkCauxFRlbdEBSNkx09ZRcNv3smrMWw)
 
 Notice that the Auto-Assign button is pressed in. Now click on the "Browse" icon. The *browse* icon is the icon that looks like a yellow folder w/ a magnifying glass on it. It is to the right of *Assigned Application* field.
 
-![](https://lh5.googleusercontent.com/xf1Ew7hmdjl8CwHTPwr-BMaRklVdKII2uWJ4nlw15tDNPvOFLkVP8aMcaNghikzpeq26HB2O6-3aDOsY8oFWu8oI0sNG5OAzdYzeAqG7sx0bIa_joioy9yEb_m1mhfyEB7eVmaHIqhaAqtAi2A)
+![](https://lh4.googleusercontent.com/q5SoZyqSVbG2sKvH-4orjvABdBbr0_cKuidDi89ZDAjme8bWeABgAZRcBOzkoqZIW1mVRthMguHmBG5Yl8yLkr3ChPPHUu3r6cVzD6nfNyIW7LcU7UHgFeKIkTUpfdPF6Ynq5j2sF3OCl9n0Zw)
 
 After you have clicked browse, find the Internet Explorer program **in Local Disk (C: ) -> Program Files -> Internet Explorer.** Click Local Disk (C:), then click Program Files, then click Internet Explorer.
 
-![](https://lh4.googleusercontent.com/KnlxDFFQnQFGrgbG4iDrrdCVB6XxnWZmT5-wegHaiG8hMkqXsTaTfWWVkxDqHSRNPC4Ap8ow1-HYeGd1av8ngqwB7TuiZ3Axd5bo9oGM_z2me2NYqEti7Ikg26cAj4OT9K7aH0r3vx8RNZ0OdQ)
+![](https://lh6.googleusercontent.com/6NALsnGlM1LSOj-acrjbig6VGqSapPM7ekB3XzbG7ny_xTX3xNRIlVJ9W-Fb_rQT4EheoaPRYnj3-dmLthogWV1hCHabiOPd-Q2UbLm40xBEw__Cj5ZNon0javfyzkI5nZVc1XZE23Wves-IxA)
 
 When the Internet Explorer folder opens, click on **iexplore.exe.**
 
-![](https://lh6.googleusercontent.com/x078RC8krNR_PA5712Yg5eV0sA5ev3KG58HFCP6rILc-9w8KPhDqnhHZIWgf_v5r3OHYUxtjPgjPQ-HvoW5cs_4jj1XXQnzgDp_JKm6PE0oAqfpD59O6wjkSl8voIzQ5AMdjyivS3tx-pFdEew)
+![](https://lh4.googleusercontent.com/apg3GDwg4n76pLWeT7geuJu7erP3ZjXUg6BbofYnn2wLq32DyVxdDt1SnFM4shqifbX0C1P7JbUAZSaV35eVfvfemIDGZDJ2WvnkIBzA40jJrD8FyoZnGoql3SDnQfbE-CLGCrTfHBefe-zY9A)
 
 Then, click on the **EOL** button. This is to assign the button for uploading.
 
-![](https://lh6.googleusercontent.com/GEMCCEXsBoFXOSm42ODoFaeapK4cmb6JQHEmMxlQc_fsVeR1z0QcPkjm677Ub8TXBLyMJxRt40d6NgqO6bSEogXPm6X6J2D2NvFWHjoOt2CE6nqfwYO5hXPzz4m4nJsS_pJbsZWBuFWaWhmWXg)
+![](https://lh4.googleusercontent.com/giC0kJE-0IC5J9Z8lqibuLhRLFM3rcGaFULdx9RXJ7Z6PcF3Ju60BxymxqI-fS77yOFbmOPBNUysc5qcsKDeZYJgTCflHRLoBYljfFeWz2zdG3gBuXU1vGtNaj_X9f6-MKbJUm8_05gE0mYBHw)
 
 Now you need to assign a Keyboard Input command. For example hold the Alt key down with U.
 
@@ -56,11 +56,11 @@ Internet explorer is already using Alt + F, Alt + E, Alt + V, Alt + T, Alt + H.
 
 The "Dictation" layout or any other layout used here, needs to have the access keys assigned to the buttons for uploading a dictation. When done, click the *close* button.
 
-![](https://lh5.googleusercontent.com/2U8kn1dmlLDVeKiT_HuZLKwH6OOFDxGJNN_NEu6IO6p-h2mWJwujdiuO6me-_oPJPHAUfb7IsYUnzBTZLMz8L99irFzWvSL7KvcqGjl0ZQUizns45NtQr5o5Ug9_GhDBsB50GtbSV0OAnksdEA)
+![](https://lh3.googleusercontent.com/u_PoNX_qzz3GhLhgJ3uPuweYI71liiNtFoZ62DJLhHIGv9szQzqTeEutanqppiBAFEYxNtwM_UvKuPQqUJDkzYfV0Z_8QD985uf0xF11SwNsWu0A86i8FqjAmMsFcHmHrdkqavM9gKisBAJWPA)
 
 When done, click on **File** from the top toolbar, then click **Save**.
 
-![](https://lh4.googleusercontent.com/yjQfC10JhrUSmWMEWsIT-5oESkhhphSxclSUbd7ba1m5gCE9cNLWm71T3kdcRiTJeTw277S_6iix3JCq2kSwNieUCW3aO2MuNRAi4uJ6GV10aDsHMAJN_u9TNnJSqgCB6nAASa_0N0JH5MqP1g)
+![](https://lh4.googleusercontent.com/velyaRGAB8k6J1-TvgT4w0yGzNTtszVxE0vhYDrQmIJ-FJA6BkVRUyBCX5scbl-XCuhfiAk57EWBR-148WcqA0QtGB-lpcQOcPlV66klOj7tPVPf_tTohw9tHfv3-klQsabXH8lX0ABhXb_RKQ)
 
 After you click Save, it will pop open a SAVE AS screen in the Driver Utility.
 
@@ -68,5 +68,5 @@ Type in the *File name* field **Webchart.scm** to save as **Webchart.scm**.
 
 Make sure *Save as type* says Scheme files (.SCM) and click SAVE.
 
-![](https://lh6.googleusercontent.com/1PBBF8x4G9S_pUacUPCdMabFzSguSdin0xni-C-sP0SkTl0fuXxpFDom86uTUR7Xf7Us-HosV7-UOSXG_9pv7-w1StPY2XbliQh1-Ru6kbQm6N1vXpBl5gwTpMKdv-bJlrmOznwKgy1Ree2Yug)
+![](https://lh4.googleusercontent.com/Gj2qC6u2bzS8AqmjY-ndeOP59VUPsgCTao5c8doeq6aRiJ0dKH3tlU-KnBECo6Diq8bxQwsySuHDRVTbxyZ91qvMoRcxmFnEre8uGYTiP0EKzPmR_XCCGwHWpkGAE7ThiA5aDhUEc2GPyxepMw)
 

@@ -2,7 +2,7 @@
 title: "Editing employer organization accounts"
 date: "2021-03-02T19:33:32.499Z"
 url: "functions/financial-functionality/editing-employer-organization-accounts.html"
-author: Adam Humes
+author: ahumes
 version: 19
 id: "1PzAcAguTcxDsfoxFIwdro80Mbtxql0QXRm45FBviNU8"
 source: "https://drive.google.com/open?id=1PzAcAguTcxDsfoxFIwdro80Mbtxql0QXRm45FBviNU8"

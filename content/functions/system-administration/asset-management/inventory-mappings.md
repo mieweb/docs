@@ -16,7 +16,7 @@ menu:
 
 The Mappings tab is located in the sidemenu tab named *Inventory*. It will open to the default of showing you all of the current *Inventory Mappings*.
 
-![](inventory-mappings.images/image1.png)
+![](inventory-mappings.images/image4.png)
 
 Mapping needs to be done because it is the process of matching the Master Inventory Item name to a recognized medication in the drug database, CDC immunization, or supply order within the database.
 
@@ -26,17 +26,17 @@ First you will want to search for the inventory item to confirm if it's already 
 
 * <strong>Search</strong>: You can search for mappings using the search by fields. If you click the [ + ] sign in search by, you can open up another search to search a medication name and it's inventory name or 2 different searches, etc.
 
-![](inventory-mappings.images/image2.png)
+![](inventory-mappings.images/image6.png)
 
 * You can also render results to show by All Types, or get granular by selecting to see only current mappings that are Medication type, Injection Type, Order type or Barcode type.
 
-![](inventory-mappings.images/image3.png)
+![](inventory-mappings.images/image5.png)
 
 ### Columns in Results
 
 Mapped ID column: shows you the Medication ID # it's mapped to from First DataBank (if it's a medication inventory item mapping), or it will be the CDC immunization code if it's an immunization/injection mapping, the {{% system-name %}} Order ID# if it's a supply order mapping or the barcode # if it's a Barcode mapping. For medications that are mapped to Medication ID's from First DataBank, you click that underlined id#, it will open up that drug guide for the medication.
 
-![](inventory-mappings.images/image4.png)
+![](inventory-mappings.images/image7.png)
 
 * <strong>Mapped Name</strong>: This is the recognized name of the medication from First DataBank, or the CDC recognized immunization or the recognized supply order. This is what the master inventory item is mapped to.
 * <strong>Mapping Type</strong>: This is the type of mapping it is. If it's a medication inventory item mapping, an injection/immunization mapping, a supply order mapping or a barcode mapping for that specific inventory item.
@@ -66,13 +66,13 @@ The *Show Type:* needs to be selected to Medication.
 
 Then click the Add a Mapping hyperlink at the top right of the Mappings tab (next to *Show Type* selection).
 
-![](inventory-mappings.images/image6.png)
+![](inventory-mappings.images/image9.png)
 
 The Map Inventory fields will open at the top of the screen.
 
 The two fields on the left are the auto-completes pointed to the medication name & form/strength from the First DataBank drug database. Begin typing and select from the auto-complete for the recognized drug database medication name and use the tab key to select the specific strength/form that First Databank states this drug is available in. This is what your Master Inventory Med item will be linked/mapped to in the recognized drug database {{% system-name %}} is linked to.
 
-![](inventory-mappings.images/image7.png)
+![](inventory-mappings.images/image8.png)
 
 Again, use the tab key to go over to the next field which is your Inventory Description field.
 
@@ -80,7 +80,7 @@ The Inventory Description field is to be the Master Inventory Item of that medic
 
 Begin typing in the name of the master inventoried medication in your system that you entered in the Control Inventory (Master Inventory List) tab. Select the master inventory item name. It will auto-complete for your selection.
 
-## ![](inventory-mappings.images/image8.png)
+## ![](inventory-mappings.images/image11.png)
 
 Click SUBMIT button and it will say confirmation of *mapping inserted* at the top.
 
@@ -92,13 +92,13 @@ The *Show Type:* needs to be selected to Injection.
 
 Then click the Add a Mapping hyperlink at the top right of the Mappings tab (next to *Show Type* selection).
 
-![](inventory-mappings.images/image9.png)
+![](inventory-mappings.images/image10.png)
 
 The Map Inventory fields will open at the top of the screen.
 
 The field on the left is the auto-complete pointed to the CDC immunizations listing. Begin typing and select from the auto-complete for the recognized CDC immunization. This is what your Master Inventory item will be linked/mapped to in the recognized immunization database {{% system-name %}} is linked to.
 
-![](inventory-mappings.images/image10.png)
+![](inventory-mappings.images/image14.png)
 
 Again, use the tab key to go over to the next field which is your Inventory Description field.
 
@@ -106,7 +106,7 @@ The Inventory Description field is to be the Master Inventory Item of that immun
 
 Begin typing in the name of the master inventoried immunization in your system that you entered in the Control Inventory (Master Inventory List) tab. Select the master inventory item name. It will auto-complete for your selection.
 
-![](inventory-mappings.images/image11.png)
+![](inventory-mappings.images/image12.png)
 
 Click SUBMIT button and it will say confirmation of *mapping inserted* at the top.
 
@@ -118,13 +118,13 @@ The *Show Type:* needs to be selected to Order.
 
 Then click the Add a Mapping hyperlink at the top right of the Mappings tab (next to *Show Type* selection).
 
-![](inventory-mappings.images/image12.png)
+![](inventory-mappings.images/image13.png)
 
 The Map Inventory fields will open at the top of the screen.
 
 The field on the left is the auto-complete pointed to the Supply Orders in {{% system-name %}} that were entered in the Order List Editor or Order Supply Editor tab. Begin typing and select from the auto-complete for the recognized order. This is what your Master Inventory item will be linked/mapped to in the recognized orders in {{% system-name %}} .
 
-![](inventory-mappings.images/image13.png)
+![](inventory-mappings.images/image15.png)
 
 Again, use the tab key to go over to the next field which is your Inventory Description field.
 
@@ -132,7 +132,7 @@ The Inventory Description field is to be the Master Inventory Item of that suppl
 
 Begin typing in the name of the master inventoried order in your system that you entered in the Control Inventory (Master Inventory List) tab. Select the master inventory item name. It will auto-complete for your selection.
 
-![](inventory-mappings.images/image14.png)
+![](inventory-mappings.images/image16.png)
 
 Click SUBMIT button and it will say confirmation of *mapping inserted* at the top.
 
@@ -144,13 +144,13 @@ The *Show Type:* needs to be selected to Barcode. MIE can interface with a barco
 
 Then click the Add a Mapping link at the top right of the Mappings tab (also next to *Show Type*).
 
-![](inventory-mappings.images/image15.png)
+![](inventory-mappings.images/image17.png)
 
 The Map Inventory screen fields will open at the top of the screen.
 
 On the left side field, place your cursor in that field and then physically trigger the barcode scanner on the physical item's barcode on the packaging that you want it to read. The Barcode numbers/alpha should populate in that field.
 
-![](inventory-mappings.images/image16.png)
+![](inventory-mappings.images/image18.png)
 
 Again, use the tab key to go over to the next field which is your Inventory Description field.
 
@@ -158,7 +158,7 @@ The Inventory Description field is to be the Master Inventory Item of that inven
 
 Begin typing in the name of the master inventoried order in your system that you entered in the Control Inventory (Master Inventory List) tab. Select the master inventory item name. It will auto-complete for your selection.
 
-![](inventory-mappings.images/image17.png)
+![](inventory-mappings.images/image19.png)
 
 Click SUBMIT button and it will say confirmation of *mapping inserted* at the top.
 
@@ -166,17 +166,17 @@ You will then see it listed in the Inventory Mappings Tab list of all current ma
 
 If you are using the Barcode scanner functionality, your inventory item in the master list should have 2 mappings tied it. One mapping should be to the inventory item "type" and the other mapping would be to its "barcode".
 
-![](inventory-mappings.images/image18.png)
+![](inventory-mappings.images/image20.png)
 
 ## Edit/Delete Mapping(s)
 
 If you need to edit a mapping, click the edit link in the options column of the Mappings Tab list for the specific mapping you need to edit.
 
-![](inventory-mappings.images/image19.png)
+![](inventory-mappings.images/image21.png)
 
 The Edit Map Inventory screen will open. Edit what needs done to the inventory item mapping and use your tab key to go thru the fields.
 
-![](inventory-mappings.images/image20.png)
+![](inventory-mappings.images/image22.png)
 
 If you selected a different medication name from the drug database, use your *tab* key on the keyboard to advance to the strength/form field. All choices for this drug from the database will show here for selection.
 
@@ -186,19 +186,19 @@ To delete a mapping, simply click the Delete option for the specific mapping ite
 
 It will ask you to confirm the mapping deletion. Click DELETE button to perform the deletion or cancel to escape out.
 
-![](inventory-mappings.images/image21.png)
+![](inventory-mappings.images/image1.png)
 
 ## Merging Mappings
 
 If you need to merge 2 different mappings that are the same (duplicates), check-mark which ones to merge in the MERGE column. Then click the MERGE SELECTED button at the bottom.
 
-![](inventory-mappings.images/image22.png)
+![](inventory-mappings.images/image2.png)
 
 The mappings & quantities would be merged into one mapping.
 
 If you check-mark 2 inventory mappings that conflict with each other, you will get that warning message.
 
-![](https://lh4.googleusercontent.com/U37PvHXtAcllh08b1qiuRzeroCbw0686Erep_7ftnSGj1TYKd2ah3UhpWXEv70Kb7YiQYcmttt780reGp8a-v0ExUKF6YOHxN_OysnStblXodeQ-o1FOAiFl15lcAVAuGNG0k7KecP-OLA9Ozg)
+![](inventory-mappings.images/image3.png)
 
 You can check-mark them to merge again and click OVERRIDE button to override this warning or click Cancel to escape out.
 

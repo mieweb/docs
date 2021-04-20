@@ -2,7 +2,7 @@
 title: "Viewing employer organization accounts"
 date: "2021-03-02T19:33:30.808Z"
 url: "functions/financial-functionality/viewing-employer-organization-accounts.html"
-author: Adam Humes
+author: ahumes
 version: 18
 id: "1uSpG45pzytlu3fKcKN3qkVS_de74FqsYorRpcXXSONs"
 source: "https://drive.google.com/open?id=1uSpG45pzytlu3fKcKN3qkVS_de74FqsYorRpcXXSONs"

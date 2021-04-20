@@ -3,7 +3,7 @@ title: "Portal Management"
 date: "2020-02-27T21:26:54.695Z"
 url: "functions/portal-management.html"
 author: aquandt
-version: 24
+version: 26
 id: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
 source: "https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
 menu:

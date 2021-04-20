@@ -41,12 +41,12 @@ The {{% system-name %}} system can display another system's data as documents. T
 {{% /tip %}}
 
 
-* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](document-validation-test-script.images/image2.png)   
-* As noted, the Documents chart tab displays <strong>all</strong> documents related to the chart. The documents in this tab may also appear in other, more specific tabs, such as Labs or Encounters chart tabs. Change the view of the results using the drop-down in the upper-right corner of the page.   ![](document-validation-test-script.images/image3.png)    
+* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](document-validation-test-script.images/image3.png)   
+* As noted, the Documents chart tab displays <strong>all</strong> documents related to the chart. The documents in this tab may also appear in other, more specific tabs, such as Labs or Encounters chart tabs. Change the view of the results using the drop-down in the upper-right corner of the page.   ![](document-validation-test-script.images/image2.png)    
 
-{{% tip %}} **Detail View** may be better suited for validating documents. Changing views does not change views across chart tabs, but will change the respective view across different charts. Using the drop-down makes it easy to change between views and can be updated, as needed. ![](document-validation-test-script.images/image4.png) {{% /tip %}}
+{{% tip %}} **Detail View** may be better suited for validating documents. Changing views does not change views across chart tabs, but will change the respective view across different charts. Using the drop-down makes it easy to change between views and can be updated, as needed. ![](document-validation-test-script.images/image5.png) {{% /tip %}}
 
-* Select the document being validated from the list.   ![](document-validation-test-script.images/image5.png)  
+* Select the document being validated from the list.   ![](document-validation-test-script.images/image4.png)  
 
 {{% tip %}} To return to the list of documents, click the Documents chart tab. {{% /tip %}}
 
@@ -61,16 +61,16 @@ The [Super Document Search and Document Reports](../../reports/documents-report-
 
 ### Super Document Search Report
 
-* Using the Chart Search Quick View portlet, or navigating to {{% syslink "E-Chart" "f=chart" %}} , click the <strong>Documents</strong> link to open the Super Document Search Report.  ![](document-validation-test-script.images/image6.png)   
-* Select criteria to search by. Typically <strong>Doc Type</strong> and <strong>Service Date</strong> ranges are used to limit results. Use the Detail View and Modify Search links to manipulate the search results, as needed.  ![](document-validation-test-script.images/image7.png) 
+* Using the Chart Search Quick View portlet, or navigating to {{% syslink "E-Chart" "f=chart" %}} , click the <strong>Documents</strong> link to open the Super Document Search Report.  ![](document-validation-test-script.images/image7.png)   
+* Select criteria to search by. Typically <strong>Doc Type</strong> and <strong>Service Date</strong> ranges are used to limit results. Use the Detail View and Modify Search links to manipulate the search results, as needed.  ![](document-validation-test-script.images/image6.png) 
 
 See the online help documentation for more information on the [Super Document Search](../../reports/documents-report-super-document-type-search.html).
 
 ### Document Reports 
 
 * Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list and select the {{% syslink "Document Reports" "f=reports&s=docrp&tabmodule=reports&t=Visits" %}} .  ![](document-validation-test-script.images/image8.png) 
-* Similar to the Super Document Search Report, the Document Report performs a document search based on provided criteria. This report has less criteria available for searching.  ![](document-validation-test-script.images/image9.png)
+* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list and select the {{% syslink "Document Reports" "f=reports&s=docrp&tabmodule=reports&t=Visits" %}} .  ![](document-validation-test-script.images/image9.png) 
+* Similar to the Super Document Search Report, the Document Report performs a document search based on provided criteria. This report has less criteria available for searching.  ![](document-validation-test-script.images/image8.png)
 
 See the online help documentation for more information on using the [Documents Report](../../reports/documents-report-super-document-type-search.html).
 

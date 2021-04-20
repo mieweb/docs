@@ -24,13 +24,13 @@ The Task Summary report automatically pops up at All Departments and lists all t
 
 By default, the report opens (defaults) to show all department task stats for the lifetime of the database. More filters are available such as date specific fields and by selecting a specific department to run task statistics on.
 
-![](task-report.images/image2.png)
+![](task-report.images/image3.png)
 
 Results (based on filter criteria entered) will result below the filter search fields on the screen.
 
 Depending on filter criteria entered, it may also result to show as many as 3 categories of results: Department Stats, User Stats, and/or Patient Stats. Use the show/hide hyperlink to expand that detail on the statistics.
 
-![](task-report.images/image3.png)
+![](task-report.images/image2.png)
 
 ## Categories within the Task Report
 

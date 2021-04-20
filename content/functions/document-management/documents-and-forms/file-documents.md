@@ -52,7 +52,7 @@ Users must have **Transcribe for Others** security access to author documents 
 
 
 
-![](file-documents.images/image2.png)
+![](file-documents.images/image3.png)
 
 
 
@@ -68,7 +68,7 @@ Users must have **Transcribe for Others** security access to author documents 
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters to assist with linking. If an encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and it will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](file-documents.images/image3.png)
+![](file-documents.images/image2.png)
 
 
 

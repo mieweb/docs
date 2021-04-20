@@ -3,7 +3,7 @@ title: "Applicant Portal"
 date: "2021-03-31T21:08:57.956Z"
 url: "functions/portal-management/applicant-portal.html"
 author: Alice Uhrick
-version: 120
+version: 122
 id: "14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
 source: "https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
 menu:
@@ -139,13 +139,13 @@ Following the instructions below, *update* these system settings:
 
 6. The Setup Wizard will run. 
 
-![](applicant-portal.images/image2.png) 
+![](applicant-portal.images/image4.png) 
 
 7. After running the portal setup, review the <strong>Security Requirements</strong> and update, as necessary.
 
 
 
-![](applicant-portal.images/image3.png)
+![](applicant-portal.images/image2.png)
 
 
 
@@ -182,7 +182,7 @@ These Security Requirements should always be followed for ensuring the proper se
 3. Type "Applicant Portal" into the <strong>New Set</strong> field.
 4. Begin typing the name of a questionnaire to be added, and select it from the autocomplete.
 5. Click the <strong>Save</strong> button.
-6. To continue adding additional questionnaires, click the plus [ + ] icon in the header of the new group.    ![](applicant-portal.images/image4.png)
+6. To continue adding additional questionnaires, click the plus [ + ] icon in the header of the new group.    ![](applicant-portal.images/image3.png)
 
 ## Configure Applicant Portal
 

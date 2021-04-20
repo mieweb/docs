@@ -25,7 +25,7 @@ Though users may upload and store any type of file to a chart, certain file type
 
 To add a PDF document to a chart, navigate to the Document Library by clicking any **Add Document** link, found throughout the chart. Once clicked, the library will load, and the **PDF** filter link can be selected to reduce the available documents. Selecting the PDF filter link will show only document types that are available to upload as a PDF file.
 
-![](pdf-documents.images/image1.png)
+![](pdf-documents.images/image2.png)
 
 {{% note %}}
 
@@ -36,7 +36,7 @@ If a specific document type is not listed, contact the system administrator to s
 
 Select the document type needing attached and uploaded to the chart by simply clicking the PDF link following the appropriate document name.
 
-![](pdf-documents.images/image2.png)
+![](pdf-documents.images/image4.png)
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
@@ -65,7 +65,7 @@ In order to author documents for others, the user must have the Access Control *
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](pdf-documents.images/image4.png)
+![](pdf-documents.images/image6.png)
 
 {{% info %}}
 
@@ -86,7 +86,7 @@ If the user has a current encounter set in the chart, the Encounter field will a
 
 Multiple PDF files can be uploaded to the same chart within this session, if necessary. Any additional files will assume the same Date of Service, Location, Author, etc. To add multiple files, select the initial PDF file using the steps above, then click the **Add Another File** button, and repeat the same steps to find the necessary file(s) for upload.
 
-![](pdf-documents.images/image6.png)
+![](pdf-documents.images/image1.png)
 
 Once the PDF(s) have been selected for upload, click the **Add Document** button. This will upload the document(s) into the chart and will display a confirmation message of successful upload.
 

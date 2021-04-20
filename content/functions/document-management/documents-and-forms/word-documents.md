@@ -34,7 +34,7 @@ Choose your document name/description that you wish to create for this patient's
 
 The ADD DOCUMENT PROPERTIES box opens at the top left corner of the screen:
 
-![](word-documents.images/image2.png)
+![](word-documents.images/image3.png)
 
 * <strong>Authored By:</strong> You must have security access to this. The security permission is called ‘Transcribe for Others'. Select who the author of this word document is. If you are creating this word document for a physician or someone else, choose their name. You can start typing the last name or first name in the first blank field and the system will auto-complete your typing and display a list of users that match and you can select from there. If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search). If you are creating this word document yourself (not for anyone else) then choose ME box here. The document will reflect your name as created by: and also within the template if it asks for the dictator name. The name you choose/select, will then appear at the top of these fields. Confirm and make a change if need to. If you do not have security permission to create documents for other users, this field will not be an option. It will automatically put your name on the document you are about to create.
 * <strong>Document Type:</strong> This pops-up the name of this word document you clicked on. If you realize you chose the wrong doc.type, you can use the drop-down arrow here and select the correct word document type.
@@ -43,11 +43,11 @@ The ADD DOCUMENT PROPERTIES box opens at the top left corner of the screen:
 * <strong>Subject:</strong> Can type in a subject for the document. The subject displays on a list view summary where documents are displayed and is a searchable field in reports.
 * <strong>Encounter:</strong> You can choose to attach this new document to an encounter for the patient. This will auto-fill with the current encounter number by default, but you can also click the search button and it will pop a select & search patient encounter window to show you all encounters for this patient.  If you click the Search within xx days it will search for encounters out in 3 day increments.
 
-![](word-documents.images/image3.png)
+![](word-documents.images/image2.png)
 
 Once you've found the encounter you wish to attach this new document to, click the Select Encounter link & it will place the encounter data information in the encounter field.
 
-![](word-documents.images/image4.png)
+![](word-documents.images/image5.png)
 
 If you do not want to link this to an encounter, simply delete any encounter number in the encounter field.
 
@@ -63,7 +63,7 @@ When you click *ADD DOCUMENT* it will take a couple seconds to open/pull up the 
 
 Entry points are symbols in the word documents. They are usually highlighted in yellow color (but not always). These are points where you can quickly use a hotkey to get to and type your information.
 
-![](word-documents.images/image5.png)
+![](word-documents.images/image4.png)
 
 When the Word document opens, it will automatically take you to the first entry point of the document.
 
@@ -90,7 +90,7 @@ When you are completely done with the word document for this patient, select the
 
 It is located at the top left corner of the Word screen.
 
-![](word-documents.images/image6.png)
+![](word-documents.images/image7.png)
 
 * <strong>Upload:</strong> Click the UPLOAD button to upload this word document directly into the patient's chart. It may do spell-check (if it was turned on). If there is a spell check alert—complete it or skip it by clicking cancel.
 
@@ -102,15 +102,15 @@ This is how it looks in {{% system-name %}} (even when finding it in DocSum (Doc
 
 If you don't click the **UPLOAD** button and try to exit / close out the Word document by clicking X at the top right corner, it will confirm if you want to upload the Word document or not.
 
-![](word-documents.images/image7.png)
+![](word-documents.images/image6.png)
 
 When a word document is uploaded into the patient's chart and you view the document from a chart tab or document summary tab, it is stored and viewed as just the text version of the word document.  This is displayed this way because it would take too long to open word viewer or word every time you wanted to view one of these documents. To view the word document in its entirety and correct set-up/format, you would simply need to click print if you needed to see the letterhead or physical signature on the document or the correct set-up/layout. To view the word document in its entirety and correct format, simply click print, then click print again, and then cancel the print job, but the document still shows up on your screen to view entirely using the Alternatiff view of the document without printing it out on paper.
 
-![](word-documents.images/image8.png)
+![](word-documents.images/image9.png)
 
-If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the *Fractions with fraction character* then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}} shows the word document on the ‘view' in text to save space and memory and is utilized just as a quick view.   When it is shown on the view as the plain text, the text editor does not recognize Word's formatted version of these characters. ![](word-documents.images/image9.png)
+If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the *Fractions with fraction character* then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}} shows the word document on the ‘view' in text to save space and memory and is utilized just as a quick view.   When it is shown on the view as the plain text, the text editor does not recognize Word's formatted version of these characters. ![](word-documents.images/image8.png)
 
-![](word-documents.images/image10.png)
+![](word-documents.images/image12.png)
 
 ## Print/Fax Uploaded Word Document
 
@@ -118,7 +118,7 @@ Find and open the patient's Word document from the DocSum (Document Summary) tab
 
 Click [ Print ] or [ Fax ] from the top right corner of choices when you are in that specific document.
 
-![](word-documents.images/image11.png)
+![](word-documents.images/image10.png)
 
 (See other help instructions named Faxing Document.pdf or Printing Documents.pdf )
 
@@ -132,7 +132,7 @@ For Word, it will put the "Preliminary" verbiage watermark on the document which
 
 The watermark system setting in {{% system-name %}} is applicable to Word and Encounters.  It is the same setting and not two separate.
 
-![](word-documents.images/image12.png)
+![](word-documents.images/image11.png)
 
 ![](word-documents.images/image13.png)
 

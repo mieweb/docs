@@ -32,7 +32,7 @@ Click the [Add Definition](https://system/?f=chart&s=printdefedit&item=def&opp=a
 
 
 
-![](print-definitions.images/image1.png)
+![](print-definitions.images/image10.png)
 
 
 
@@ -40,7 +40,7 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 
 
-![](print-definitions.images/image2.png)
+![](print-definitions.images/image12.png)
 
 
 
@@ -48,11 +48,11 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 
 
-![](print-definitions.images/image3.png)
+![](print-definitions.images/image11.png)
 
 
 
-![](print-definitions.images/image4.png)
+![](print-definitions.images/image14.png)
 
 
 
@@ -84,7 +84,7 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 
 
-![](print-definitions.images/image5.png)
+![](print-definitions.images/image13.png)
 
 
 
@@ -99,7 +99,7 @@ When using a print definition en masse (i.e., on multiple charts at one time), t
 
 
 
-![](print-definitions.images/image6.png)
+![](print-definitions.images/image16.png)
 
 
 
@@ -126,7 +126,7 @@ When the **Restriction Control** option is enabled on a print definition, specif
 
 
 
-![](print-definitions.images/image7.png)
+![](print-definitions.images/image15.png)
 
 
 
@@ -134,7 +134,7 @@ When creating a print definition, an additional screen will load after clicking 
 
 
 
-![](print-definitions.images/image8.png)
+![](print-definitions.images/image18.png)
 
 
 
@@ -142,7 +142,7 @@ Once clicked, the *Edit Print Definition* page will load. Update the **Allowed U
 
 
 
-![](print-definitions.images/image9.png)
+![](print-definitions.images/image17.png)
 
 
 
@@ -163,7 +163,7 @@ When the **Scheduler Override Control** option is enabled on a print definition,
 
 
 
-![](print-definitions.images/image10.png)
+![](print-definitions.images/image21.png)
 
 
 
@@ -171,7 +171,7 @@ When creating a print definition, an additional screen will load after clicking 
 
 
 
-![](print-definitions.images/image11.png)
+![](print-definitions.images/image19.png)
 
 
 
@@ -179,7 +179,7 @@ Once clicked, the *Edit Print Definition* page will load. Update the **Override 
 
 
 
-![](print-definitions.images/image12.png)
+![](print-definitions.images/image20.png)
 
 
 
@@ -209,7 +209,7 @@ To *remove* any overriding criteria from the list, simply click the minus button
 
 
 
-![](print-definitions.images/image13.png)
+![](print-definitions.images/image22.png)
 
 
 
@@ -229,7 +229,7 @@ After locating the existing print definition needing edited, click the **Edit** 
 
 
 
-![](print-definitions.images/image14.png)
+![](print-definitions.images/image23.png)
 
 
 
@@ -237,7 +237,7 @@ The *Edit Print Definition* page will load, where any of the fields can be updat
 
 
 
-![](print-definitions.images/image15.png)
+![](print-definitions.images/image24.png)
 
 
 
@@ -267,7 +267,7 @@ After locating the existing print definition needing inactivated, click the **Ed
 
 
 
-![](print-definitions.images/image16.png)
+![](print-definitions.images/image23.png)
 
 
 
@@ -275,7 +275,7 @@ Set the *Status* by selecting the **Inactive** radio button. This will retain th
 
 
 
-![](print-definitions.images/image17.png)
+![](print-definitions.images/image25.png)
 
 
 
@@ -291,7 +291,7 @@ After navigating to the [Print Definitions editor](https://system/?f=chart&s=pr
 
 
 
-![](print-definitions.images/image18.png)
+![](print-definitions.images/image26.png)
 
 
 
@@ -307,7 +307,7 @@ Navigate to the [Print Definitions editor](https://system/?f=chart&s=printdefedi
 
 
 
-![](print-definitions.images/image19.png)
+![](print-definitions.images/image27.png)
 
 
 
@@ -315,7 +315,7 @@ The Add Print Section page will load. Fill in the appropriate fields to create t
 
 
 
-![](print-definitions.images/image20.png)
+![](print-definitions.images/image28.png)
 
 
 
@@ -363,7 +363,7 @@ A MIE Deployment Consultant can assist with any WHERE clauses needed for Conditi
 
 
 
-![](print-definitions.images/image21.png)
+![](print-definitions.images/image1.png)
 
 
 
@@ -423,7 +423,7 @@ To view the sections of a specific print definition, first navigate to the [Prin
 
 
 
-![](print-definitions.images/image22.png)
+![](print-definitions.images/image2.png)
 
 
 
@@ -431,7 +431,7 @@ Once clicked, the print sections attributed to the print definition will be list
 
 
 
-![](print-definitions.images/image23.png)
+![](print-definitions.images/image3.png)
 
 
 
@@ -450,12 +450,12 @@ Use the Edit link to mark a print section as *Inactive*, as needed. This allows 
 {{% /tip %}}
 
 
-![](print-definitions.images/image24.png)
+![](print-definitions.images/image4.png)
 When editing a section, users may change any of the section fields.
 
 
 
-![](print-definitions.images/image25.png)
+![](print-definitions.images/image5.png)
 
 
 
@@ -476,12 +476,12 @@ Use the Edit link to mark a print section as *Inactive*, as needed. This allows 
 {{% /tip %}}
 
 
-![](print-definitions.images/image26.png)
+![](print-definitions.images/image4.png)
 When deleting a print section, users will need to verify that the print section is to be deleted. Select Yes or No.
 
 
 
-![](print-definitions.images/image27.png)
+![](print-definitions.images/image6.png)
 
 
 
@@ -499,7 +499,7 @@ To begin, first navigate to the [Print Definitions editor](https://system/?f=cha
 
 
 
-![](print-definitions.images/image28.png)
+![](print-definitions.images/image7.png)
 
 
 
@@ -507,7 +507,7 @@ Once clicked, the page will load with a **New Print Definition Name** field. Sim
 
 
 
-![](https://lh6.googleusercontent.com/bWzz-CYh1sSvJ5bYndq4C4hpX2EKpuEeprrKoC1P0bV-EdkbDNw-1JRzB5yKz82eIH1v6p-76fQuBsPGJ10DqqzgBR0lm6T7-Uwmi40BQ3Cp5LUsXAVTMXSh29sUJUdDHPerw4UYmT5RaXHIZw)
+![](print-definitions.images/image8.png)
 
 
 
@@ -515,7 +515,7 @@ After confirming the duplication, the page will refresh with the status displaye
 
 
 
-![](https://lh5.googleusercontent.com/oHm6_xjziuHUEdW_wy2nebWP2XF-1Jqt_3XSV_rXr-tEPqIT3xJGC0SOUsnT-vLoY_iSruUhBZTqJ1xuMUicnC1ZFi2i5SBCVcHsFARHRV2zOpbfsjgozVvghTHgQp_XhiOVO38rjVvdaEmEEg)
+![](print-definitions.images/image9.png)
 
 
 

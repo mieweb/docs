@@ -29,12 +29,12 @@ To access and utilize a bubble form for recording information, simply navigate t
 1. While in the appropriate chart, access and print the x-ray results bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
 
-![](x-ray-results-data-entry.images/image1.png)
+![](x-ray-results-data-entry.images/image2.png)
 
 3. Print out the bubble form.
 4. Record results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](x-ray-results-data-entry.images/image2.png)
+![](x-ray-results-data-entry.images/image4.png)
 
 {{% info %}}
 
@@ -55,7 +55,7 @@ This method of data entry can be achieved by selecting the x-ray order on the **
 
 If the x-ray order is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter.
 
-![](x-ray-results-data-entry.images/image4.png)
+![](x-ray-results-data-entry.images/image6.png)
 
 Alternatively, the x-ray order may be selected using the **Picklist** icon, by selecting the order from the list and adding it to the encounter.
 
@@ -69,5 +69,5 @@ Though not the typical type of device interface, the {{% system-name %}} solutio
 
 These types of reports are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable clients to review the various data captured during a visit or encounter, as well as that stored in documents. The Document Reports is available here, for example, along with the Patient Observations report.
 
-![](x-ray-results-data-entry.images/image6.png)
+![](x-ray-results-data-entry.images/image1.png)
 

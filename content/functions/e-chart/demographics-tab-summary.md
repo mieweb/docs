@@ -17,7 +17,7 @@ To navigate to the patient **Demographics** chart tab, search for the chart from
 
 
 
-![](demographics-tab-summary.images/image1.png)
+![](demographics-tab-summary.images/image3.png)
 
 
 
@@ -40,7 +40,7 @@ Following the demographics header are any alerts entered into the chart, display
 
 
 
-![](demographics-tab-summary.images/image3.png)
+![](demographics-tab-summary.images/image5.png)
 
 
 
@@ -73,5 +73,5 @@ Users also have the ability to merge duplicate charts from the demographics char
 
 
 
-![](demographics-tab-summary.images/image5.png)
+![](demographics-tab-summary.images/image1.png)
 

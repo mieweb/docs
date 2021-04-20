@@ -29,7 +29,7 @@ A username for each individual now needs set up then for them to log into {{% sy
 
 After you save/submit the user, you need to go back in and click the edit user link on this specific user to get to the Edit Patients Linked to User at the top right corner of the *edit user* screen. This is where you will set which specific patient charts they are limited/allowed to access and all other patient records will be unseen from their view.
 
-![](limited-access-users.images/image2.png)
+![](limited-access-users.images/image3.png)
 
 When you click Edit Patients Linked to User, you will then see the list of patients the user is currently allowed to access. This list is the patients the user is **ALLOWED** to access since they are security of "limited access".
 
@@ -46,7 +46,7 @@ If the patient's chart is "locked", you cannot link that patient to a user that 
 {{% /info %}}
 
 
-![](limited-access-users.images/image3.png)
+![](limited-access-users.images/image2.png)
 ## Remove Patients from User
 
 You can remove patients linked to a specific user. If you remove a patient that means this limited access user will not be able to view/access that specific patient anymore. They will no longer be linked to that patient for accessing.

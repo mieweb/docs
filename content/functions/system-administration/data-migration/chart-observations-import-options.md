@@ -67,13 +67,13 @@ After this file is loaded:
 
 ![](chart-observations-import-options.images/image1.png)
 
-![](chart-observations-import-options.images/image2.png)
-
 ![](chart-observations-import-options.images/image3.png)
 
-![](chart-observations-import-options.images/image4.png)
+![](chart-observations-import-options.images/image2.png)
 
 ![](chart-observations-import-options.images/image5.png)
+
+![](chart-observations-import-options.images/image4.png)
 
 ### Import Updated Data
 
@@ -120,13 +120,13 @@ The imported file is processed as follows:
 * Existing data is replaced with the new data.
 * Test4's result is deleted.
 
-![](chart-observations-import-options.images/image6.png)
-
 ![](chart-observations-import-options.images/image7.png)
 
-![](chart-observations-import-options.images/image8.png)
+![](chart-observations-import-options.images/image6.png)
 
 ![](chart-observations-import-options.images/image9.png)
+
+![](chart-observations-import-options.images/image8.png)
 
 ![](chart-observations-import-options.images/image10.png)
 

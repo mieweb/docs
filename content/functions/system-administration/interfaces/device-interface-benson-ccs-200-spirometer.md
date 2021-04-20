@@ -15,7 +15,7 @@ This page provides instructions for interfacing the Benson CCS-220 Spirometer wi
 
 ## Collected Data Fields
 
-The following data fields are collected in![](device-interface-benson-ccs-200-spirometer.images/image1.png)using Benson CCS-200:
+The following data fields are collected inusing Benson CCS-200:
 
 * Patient MRN
 * Test Date/Time
@@ -36,44 +36,44 @@ From the encounter, the Spirometry/PFT can be added to the exam using the Tests 
 
 1. Using the In House Testing icon or autocomplete, select <strong>Spirometry/PFT</strong> to add to the exam. 
 
-![](device-interface-benson-ccs-200-spirometer.images/image2.png)
+![](device-interface-benson-ccs-200-spirometer.images/image3.png)
 
 2. After adding the procedure to the exam, open the Spirometry/PFT section by clicking the header, and select the appropriate device (i.e., CCS-200) from the <strong>File Type</strong> dropdown.
 
-![](device-interface-benson-ccs-200-spirometer.images/image3.png)
+![](device-interface-benson-ccs-200-spirometer.images/image10.png)
 
 {{% note %}} Perform testing with the Benson Software as instructed in the device's operation manual, and save the test and export the results:
 
 * Choose the File menu and export.
-* Select "ATS-ERS 2005 standard format" in the Format dropdown. ![](device-interface-benson-ccs-200-spirometer.images/image4.png)
+* Select "ATS-ERS 2005 standard format" in the Format dropdown. ![](device-interface-benson-ccs-200-spirometer.images/image6.png)
 * Select the correct location to save the file.
 * Click OK.
 
 {{% /note %}}
 
 
-3. To import the spirometry/PFT results, click the <strong>Load From Device</strong> button.  ![](device-interface-benson-ccs-200-spirometer.images/image5.png) 
+3. To import the spirometry/PFT results, click the <strong>Load From Device</strong> button.  ![](device-interface-benson-ccs-200-spirometer.images/image2.png) 
 4. When loading test data, be sure to select the <strong>Reason for Test</strong> using the dropdown.
 
-![](device-interface-benson-ccs-200-spirometer.images/image6.png)
+![](device-interface-benson-ccs-200-spirometer.images/image8.png)
 
 5. After clicking the Load From Device button, the <strong>Load Data</strong> section will appear. Select the ATS/ERS formatted file. 
 
-![](device-interface-benson-ccs-200-spirometer.images/image7.png)
+![](device-interface-benson-ccs-200-spirometer.images/image5.png)
 
 {{% note %}} If the file does not appear in the Load Data section, right-click in the Load Data box and select **Source: SmartCard** from the context menu, if it is not already selected. If necessary, right-click again and select **Set SmartCard Folder...**. Set the folder to the same output directory.
 
-![](device-interface-benson-ccs-200-spirometer.images/image8.png) {{% /note %}}
+![](device-interface-benson-ccs-200-spirometer.images/image1.png) {{% /note %}}
 
 
 6. Before uploading the file, add any pertinent information using the Comments and Interpretation fields.
 
-![](device-interface-benson-ccs-200-spirometer.images/image9.png)
+![](device-interface-benson-ccs-200-spirometer.images/image7.png)
 
 7. Click the <strong>Upload File</strong> button.
 8. The results will populate the section.
 
-![](device-interface-benson-ccs-200-spirometer.images/image10.png)
+![](device-interface-benson-ccs-200-spirometer.images/image4.png)
 
 
 
@@ -82,7 +82,7 @@ From the encounter, the Spirometry/PFT can be added to the exam using the Tests 
 
 9. Scroll to the top of the expanded spirometry/PFT encounter section and select <strong>Completed</strong> by placing a check mark in the box.
 
-![](https://lh3.googleusercontent.com/rKeoJc2K5ZhgOrRyaCyQue7hHLYNrkQyiCnNno-Zuj8mCQwx90G-nlC3gi6Z0OXVP7G3TO2UDDd7dSP-IJf1Dgzgba_kBJr5bfCFwm7e7F813V_ze8nBiehvsbknAELsXcs4wPOSy24eBqH8TQ)
+![](device-interface-benson-ccs-200-spirometer.images/image9.png)
 
 10. Click the header or <strong>Next</strong> button to collapse the section and continue working in the encounter, as needed.
 

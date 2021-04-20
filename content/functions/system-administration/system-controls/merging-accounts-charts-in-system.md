@@ -20,19 +20,19 @@ Search and select the patient's chart that you will merge information **into**.
 
 Get into the patient's chart. Click *Demographics* chart tab at the top in the patient's chart.
 
-![](merging-accounts-charts-in-system.images/image1.png)
+![](merging-accounts-charts-in-system.images/image8.png)
 
 While in the *Demographics* chart tab, use your mouse to scroll all the way down to the bottom of this screen. If any matches in your system already exist that closely match the patient that you are in, there will be a header that says **Matching Patients in patients partition(s)** or **Matching Patients NOT in patients partition(s).** It will then list the partition MR# of other patients that are a close match to the patient you are in, their full name, birth date, and a *rating* number. Follow then the directions below for merging a duplicate account to this patient's account in the same or other partition.
 
 If no matches in your system exist that closely match the patient you are in, there will not be any header. You would then click *Manual Search* down at the bottom of the screen and follow the directions below to search for the duplicate account you want to merge to this patient.
 
-![](merging-accounts-charts-in-system.images/image2.png)
+![](merging-accounts-charts-in-system.images/image10.png)
 
 ## Merging Matching Patients
 
 If the duplicate patient is listed in the *Matching Patients in patients partition(s)* or *Matching Patients NOT in patients partition(s)* then you would first make sure the patient(s) you select from here are definitely the same as who you want to merge into.
 
-![](merging-accounts-charts-in-system.images/image3.png)
+![](merging-accounts-charts-in-system.images/image9.png)
 
 You can click the underlined Partition MR# or patient's name to view the information in those accounts to verify that it indeed is a duplicate account that needs merged into the patient's chart you are in.
 
@@ -44,17 +44,17 @@ When you have verified the Partition MR#/duplicate patient accounts that you wan
 
 Click the *SELECT* box to checkmark the patient(s) from the *Matching Patients in patients partition(s)* or *Matching Patients NOT in patients partition(s)* that you want to merge into the patient's chart that you are currently in.
 
-![](merging-accounts-charts-in-system.images/image4.png)
+![](merging-accounts-charts-in-system.images/image9.png)
 
 After you have selected the patient(s) that match, click the *PREVIEW MERGE* button at the bottom of the screen. It will then open to the *Merge Preview for Patient:* screen. There are essentially 3 sections to the *Merge Preview* screen.
 
 The first section (at the top) will be the demographics information of the patient that you are currently **in** and want to merge the information/account(s) **to.** Verify that you are still in the correct patient's chart that you are merging information into.
 
-![](merging-accounts-charts-in-system.images/image5.png)
+![](merging-accounts-charts-in-system.images/image11.png)
 
 Scrolling down, to the middle of this preview merge screen, you will see the second section. When you scroll to the middle of this preview merge screen, it will display the **Merge Options**. These are radio buttons (choices) to perform your merge. Click the circle (radio button) of the Merge Option you wish to perform. You must make a selection here for the merge to be performed.
 
-![](merging-accounts-charts-in-system.images/image6.png)
+![](merging-accounts-charts-in-system.images/image13.png)
 
 * <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this patient's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
 * <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this patient's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em>partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
@@ -63,19 +63,19 @@ Scrolling down, to the middle of this preview merge screen, you will see the sec
 
 The third and last section of this *Merge Patient* screen (scroll down past the Merge Options) is the demographic information of the patient(s) you are going to merge information **from** and put into the current patient's chart you are in. Verify that this is still the patient(s) account that you are going to merge from. You will be merging this patient(s) information and chart into the current (top portion) patient's chart.
 
-![](merging-accounts-charts-in-system.images/image7.png)
+![](merging-accounts-charts-in-system.images/image12.png)
 
 After you have verified and made your Merge Option selection, click the button at the very bottom that says **Merge Using Selected Options.** Once you click *Merge Using Selected Options*, your merge will automatically begin. If you click this box and forgot to select a Merge Option, it will give you an error message and you would click *Go to Patient* to start all over again.
 
-![](merging-accounts-charts-in-system.images/image8.png)
+![](merging-accounts-charts-in-system.images/image12.png)
 
 After you click *Merge Using Selected Options*, it will open a screen that says **Merge Preview for Patient:**
 
 Then it has a summary list of everything it merged. Your merge is completed.
 
-![](merging-accounts-charts-in-system.images/image9.png)
+![](merging-accounts-charts-in-system.images/image14.png)
 
-![](merging-accounts-charts-in-system.images/image10.png)
+![](merging-accounts-charts-in-system.images/image1.png)
 
 You can click the button at the bottom that says *Go to Patient* to return to the main patient's chart, or you can also click *E-chart* on the left sidebar menu to get out and work on another patient chart, etc.
 
@@ -87,17 +87,17 @@ Click *E-Chart* on the left sidebar menu. Search and select the patient's char
 
 Get into the patient's chart. Click *Demographics* chart tab at the top in the patient's chart.
 
-![](merging-accounts-charts-in-system.images/image11.png)
+![](merging-accounts-charts-in-system.images/image15.png)
 
 While in the *Demographics* chart tab, use your mouse to scroll all the way down to the bottom of the patient demographics screen.
 
 If the system finds no matches that closely match the patient you are in, there will not be any header. You would then click *Manual Search* down at the bottom of the screen after the insurance section. This is the MANUAL SEARCH link to access a manual search to find a chart and perform a merge.
 
-![](merging-accounts-charts-in-system.images/image12.png)
+![](merging-accounts-charts-in-system.images/image16.png)
 
 After you click the *Manual Search* link, a new screen will **not** pop-up. It will instead, pop-up a **Search for "Merge From" patient not found below:** box right where you had just clicked Manual Search. If you don't see it, just use your mouse to scroll down on the screen you are on.
 
-![](merging-accounts-charts-in-system.images/image13.png)
+![](merging-accounts-charts-in-system.images/image17.png)
 
 ### Search for "Merge From" Patient Not Found Below
 
@@ -107,11 +107,11 @@ The search results will show up underneath the search field you typed in.
 
 You can only select *one* patient at a time from these results to merge information from. (Unlike the matching partitions above where you can select check-boxes to merge more than one at a time.)
 
-![](merging-accounts-charts-in-system.images/image14.png)
+![](merging-accounts-charts-in-system.images/image18.png)
 
 If you manually searched and found the patient's account you wish to merge into the current patient's account you are in, then click the underlined **MR#** to start a preview merge. If you click any other underlined results (name, ssn, dob, age) then it will open that patient's chart to verify contents, etc. You would then have to start over to merge.
 
-![](merging-accounts-charts-in-system.images/image15.png)
+![](merging-accounts-charts-in-system.images/image18.png)
 
 This manual search does **not** give ratings, so please be sure to verify you indeed have the correct patient to merge from.
 
@@ -119,13 +119,13 @@ After you click the MR# of that patient you manually searched for and found, it 
 
 The first section (at the top) will be the demographics information of the patient that you are currently **in** and want to merge the information/account(s) **to.** Verify that you are still in the correct patient's chart that you are merging information into.
 
-![](merging-accounts-charts-in-system.images/image16.png)
+![](merging-accounts-charts-in-system.images/image19.png)
 
 Scrolling down, to the middle of this preview merge screen, you will see the second section. When you scroll to the middle of this preview merge screen, it will display the **Merge Options**. These are radio buttons (choices) to perform your merge.
 
 Click the circle (radio button) of the Merge Option you wish to perform. You must make a selection here for the merge to be performed.
 
-![](merging-accounts-charts-in-system.images/image17.png)
+![](merging-accounts-charts-in-system.images/image20.png)
 
 * <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this patient's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
 * <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this patient's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em>partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
@@ -134,19 +134,19 @@ Click the circle (radio button) of the Merge Option you wish to perform. You mus
 
 The third and last section of this *Merge Patient* screen (scroll down past the Merge Options) is the demographic information of the patient(s) you are going to merge information **from** and put into the current patient's chart you are in. Verify that this is still the patient(s) account that you are going to merge from. You will be merging this patient(s) information and chart into the current (top portion) patient's chart.
 
-![](merging-accounts-charts-in-system.images/image18.png)
+![](merging-accounts-charts-in-system.images/image21.png)
 
 After you have verified and made your Merge Option selection, click the button at the very bottom that says **Merge Using Selected Options.** Once you click *Merge Using Selected Options*, your merge will automatically begin. If you click this box and forgot to select a Merge Option, it will give you an error message and you would click *Go to Patient* to start all over again.
 
-![](merging-accounts-charts-in-system.images/image19.png)
+![](merging-accounts-charts-in-system.images/image22.png)
 
 After you click *Merge Using Selected Options*, it will open a screen that says **Merge Preview for Patient:**
 
 Then it has a summary list of everything it merged. Your merge is completed.
 
-![](merging-accounts-charts-in-system.images/image20.png)
+![](merging-accounts-charts-in-system.images/image14.png)
 
-![](merging-accounts-charts-in-system.images/image21.png)
+![](merging-accounts-charts-in-system.images/image1.png)
 
 You can click the button at the bottom that says *Go to Patient* to return to the main patient's chart, or you can also click *E-chart* on the left sidebar menu to get out and work on another patient chart, etc.
 
@@ -156,7 +156,7 @@ If the Record is marked as "Temporary", show this in the record header in the AL
 
 If the Record is marked as "Inactive", show this in the record header in the ALERT Background and Font Color in bold. This is simply a notice to the user letting them know they are viewing a record is not active.
 
-![](merging-accounts-charts-in-system.images/image22.png)
+![](merging-accounts-charts-in-system.images/image2.png)
 
 If you merge an MR# chart with another partition, and the user makes the "other" partition the primary account number (which is incorrect to do), you get this warning on the patient charts.
 
@@ -166,13 +166,13 @@ The correct way is to merge the temporary patient into the permanent MR#. Then t
 
 There is a MY SETTING preference to show the merge patient link from the appointments listing in the scheduler views. This link *only*displays if you have the preference on to show the link and also only if the patient is a temp (tmp) patient (temporary) account. Some practices receive a lot of tmp patients through an interface that schedule appointments and this link here makes it easy to merge/reconcile them while viewing the appointment schedule.
 
-![](https://lh6.googleusercontent.com/hZpI3EnILoRoXL4Ki_wKo5ippufNdAlaCayBZm1lWunbvmo313LNl5eySZLqSPZbMAVtdEnOGR9jwbRz69vtm7mW_Qk7p8vmgUulUa4cCWmq8RecPMm00zdbU8g3_BsYI3VIOrVeBLUSUHpqhg)
+![](merging-accounts-charts-in-system.images/image3.png)
 
 The preference applies to the patient you are currently seeing on the scheduler screen.
 
 There are 3 choices to set this MY SETTINGS preference to for the merge patient link from the appointments listing on the scheduler views.
 
-![](https://lh3.googleusercontent.com/Lr7Imkr0uqqUStTXoExpynbAT2TslTXglDGKOh1nIciNXb_SJ34pvY54_pxn3NFHfc9y0196ZGnorJ6t_LvGCqj5RlyjtuWdv3n6foBQF11JEt1UJFX0x2Fmw-HcK_McjDmrGycnVUYb6SKPew)
+![](merging-accounts-charts-in-system.images/image4.png)
 
 * <strong>Tmp Only:</strong> if you are set to tmp_only, you will only see the merge link on a patient whose account is marked as temp and has a single possible match.
 * <strong>Always:</strong> If you set it to always, that doesn't mean it shows for every patient on the appointment listing, it just means it shows the link on both the tmp patient <strong>and</strong> the non-tmp patient matching account. Shows for patient's who haove a single possible match. No matter which patient you click merge patient on, the merge still works in only one direction, tmp to → non_tmp.
@@ -184,19 +184,19 @@ When you click Merge Patient link, it will always only merge in one direction re
 
 Click the Merge Patient link and you will see a confirmation merge window open on your screen. You need to confirm the merge by clicking the MERGE button.
 
-![](https://lh5.googleusercontent.com/5g8XedMSmHueVl_KYdBZhUcxD7LLfb1jw0Mq6iuq8VTZwOgXzlTnKHVfK1DBZNPz0eIzrDQ3MonljezK0Ei3vl_mPLG9boxPY2CDkKhdf_XnXOpQxZXP8IJZ_9h_NUIvyxazFZPrk_9PO8MtQQ)
+![](merging-accounts-charts-in-system.images/image5.png)
 
 Doing a merge using the Merge Patient option will merge the patient's accounts after you click the MERGE button. It does not keep the patient's temp mr#. It discards the old temp info and merges it with the patient's active account.
 
 You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} . You will still see the Merge Patient link, you will still see the confirmation merge window, but when you click the MERGE button on the confirmation screen, you will see the warning display that you lack permission to actually perform the merge.
 
-![](https://lh6.googleusercontent.com/Nq5YeD1rVB6nGnwtx2txFPnO_mBWEyCePeTz_LHCIZlgIQpf3lRbp_mktpqCbBlpbG2Knq8-ODdHj80-DS3K9edoSYla6UC-rmcYP9ICl7vPmv-3kGjfa3ZDcipQDgP27oAiVOofXAlps3yd4A)
+![](merging-accounts-charts-in-system.images/image6.png)
 
 {{% info %}}
 
 This same "merging" functions & searches is available in the **Merge portlet** in the patient summary interactive tab if you have that portlet displayed for your view. The same security permissions respect for this portlet also.
 
-![](https://lh4.googleusercontent.com/4oSvYip2lR3695doz0pKT051NcN5i2iVDmFJkTNqQDP1XgTSMqeI7T4pMd_xVRzEsh974H3QGr8O5ql4iR_HPJx1ivA0_gpY-O5mtjaqVkC-8mc9xsjJ98Bpt2wBI_yR_x9jbSheHSciaEqwSg)
+![](merging-accounts-charts-in-system.images/image7.png)
 
 {{% /info %}}
 

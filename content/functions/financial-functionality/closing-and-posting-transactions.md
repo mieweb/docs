@@ -20,11 +20,11 @@ Use the pending billing report to close and post transactions. Typically, [creat
 * Select the <strong>OK</strong> button.
 * If necessary, work with the information in the report as described in [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.html).
 * For each service to close and post, in the leftmost column, select its <strong>checkbox</strong>.
-* At the bottom of the report, select <strong>Close</strong>. The <em>Close Transactions</em> window appears.  ![](closing-and-posting-transactions.images/image2.png)
+* At the bottom of the report, select <strong>Close</strong>. The <em>Close Transactions</em> window appears.  ![](closing-and-posting-transactions.images/image3.png)
 * In the <em>Close Transactions</em> window, if necessary, do one to change the posting date:
     * Type in the <strong>Month</strong>, <strong>Day</strong>, and <strong>Year</strong> fields.
     * Select <strong>Calendar</strong>. Select the posting date.
-* Select <strong>Yes</strong>. In the <em>Close Transactions</em> window, the system indicates the number of transactions closed. Select <strong>Close Window</strong>.  ![](closing-and-posting-transactions.images/image3.png)
+* Select <strong>Yes</strong>. In the <em>Close Transactions</em> window, the system indicates the number of transactions closed. Select <strong>Close Window</strong>.  ![](closing-and-posting-transactions.images/image2.png)
 
 
 

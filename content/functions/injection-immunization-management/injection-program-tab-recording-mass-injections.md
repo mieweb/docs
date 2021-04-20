@@ -18,7 +18,7 @@ If doing mass immunizations/injections, {{% system-name %}} provides a feature t
 
 Click the E-Chart sidemenu tab.  Click the Injection Program tab. (The Injection Program tab may be located elsewhere in your system like it's own sidemenu tab). The Injection / Immunization screen will open.
 
-![](injection-program-tab-recording-mass-injections.images/image1.png)
+![](injection-program-tab-recording-mass-injections.images/image5.png)
 
 The Injection screen will appear.  The Injection screen has fields to fill out pertaining to the injection / immunization that you want to record.
 
@@ -26,7 +26,7 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image2.png)
+![](injection-program-tab-recording-mass-injections.images/image3.png)
 
 
 
@@ -34,7 +34,7 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
     * You can have this feature customized differently to pop-up a warning for specific document(s) to look for prior to injecting.  In the example below, it is set up to show a pop-up warning if the patient selected above doesn't have a stored/uploaded HIPAA document in their chart stored already.  Your {{% system-name %}} system can be customized for different pop-up warnings, but by default the rule looks for doc.type HIPAA if it exists in the patient's chart or not.
         * Example--HIPAA notice: After you select a patient, you may see this pop-up HIPAA notice stating a HIPAA needs signed by the patient and uploaded on file before you can administer the injection/document in this module.  That specific document must be signed & uploaded. If this form is not already stored in the patient's e-chart, you will see this notice pop-up. If the patient already has a signed & uploaded HIPAA form on file (in their chart), then you will not see this pop-up notice and can proceed to enter the injection data/record in the next fields.  MIE can program any rule for a document that you wish for it to prompt you for. You can have the patient sign the HIPAA form with a pen pad device, tablet pen, or print & index immediately into the patient's chart.
 
-![](injection-program-tab-recording-mass-injections.images/image3.png)![](injection-program-tab-recording-mass-injections.images/image4.png)
+![](injection-program-tab-recording-mass-injections.images/image9.png)![](injection-program-tab-recording-mass-injections.images/image17.png)
 
  
 
@@ -42,7 +42,7 @@ If you see the above pop-up notice, please click OK or SHOW HIPAA FORM and it wi
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image5.png)
+![](injection-program-tab-recording-mass-injections.images/image4.png)
 
 
 
@@ -50,7 +50,7 @@ You will then get a confirmation pop-up asking if you want to upload this form/i
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image6.png)
+![](injection-program-tab-recording-mass-injections.images/image15.png)
 
 
 
@@ -60,7 +60,7 @@ Remaining fields:
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image7.png)
+![](injection-program-tab-recording-mass-injections.images/image3.png)
 
 
 
@@ -72,7 +72,7 @@ Remaining fields:
 * Certain immunizations are automatically programmed to look for specific allergies or conditions.  
     * Influenza injections: When you select specific influenza injections, the system will notify you in an alert box if the patient is allergic to eggs, allergic to influenza vaccine, allergic to flu vaccine, allergic to influenza virus vaccine or if has Guillain-Barre syndrome.  These allergies must be previously documented in the patient's E-Meds allergy tab. Guillain-Barre syndrome must be previously documented in the patient's conditions tab.
 
-![](injection-program-tab-recording-mass-injections.images/image9.png)![](injection-program-tab-recording-mass-injections.images/image10.png)
+![](injection-program-tab-recording-mass-injections.images/image12.png)![](injection-program-tab-recording-mass-injections.images/image14.png)
 
     * Egg allergy alert: When you select other specific injections or immunizations to record, some specific injections will also look for egg allergies and give you an alert.  These injections that look for egg allergies and give a pop-up alert are: MMR, Influenza split (incl.purified surface antigen), Influenza whole, Influenza NOS, Influenza live intranasal, Rabies intramuscular injection, Rabies intradermal injection, Rabies NOS and Yellow Fever.
 * Administration Date:  Automatically pops-up today's date and current time.  Change date or time to when the injection was given.
@@ -101,7 +101,7 @@ The following fields can be entered when editing an injection or now when you ar
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image11.png)
+![](injection-program-tab-recording-mass-injections.images/image13.png)
 
 
 
@@ -109,7 +109,7 @@ Once you click on the link VIS Handouts, it will open the VIS Handout fields for
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image12.png)
+![](injection-program-tab-recording-mass-injections.images/image18.png)
 
 
 
@@ -121,7 +121,7 @@ The VIS Website link can be set up by your MIE Implementer.  You do not have to
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image13.png)
+![](injection-program-tab-recording-mass-injections.images/image6.png)
 
 
 
@@ -129,7 +129,7 @@ When you click the VIS Website link found available in the VIS Handouts section,
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image14.png)
+![](injection-program-tab-recording-mass-injections.images/image1.png)
 
 
 
@@ -141,7 +141,7 @@ You must click the ADD BUTTON to insert more than one VIS Handout to the injecti
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image15.png)
+![](injection-program-tab-recording-mass-injections.images/image2.png)
 
 
 
@@ -149,7 +149,7 @@ When ready to upload the injection record into the patient's chart, click the AD
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image16.png)
+![](injection-program-tab-recording-mass-injections.images/image10.png)
 
 
 
@@ -159,19 +159,19 @@ The INJECTION PROGRAM tab keeps the prior patient's injection field information 
 
 
 
-![](injection-program-tab-recording-mass-injections.images/image17.png)
+![](injection-program-tab-recording-mass-injections.images/image11.png)
 
 
 
 You can also have your MIE Implementer program a Print last injection record hyperlink available in this mass injections module at the top corner.  
 
-![](injection-program-tab-recording-mass-injections.images/image18.png)
+![](injection-program-tab-recording-mass-injections.images/image16.png)
 
 After you have documented the patient's injection, before documenting the next patient in line you can click print last injection record and print out a document of the injection you just entered for that patient.  Then can hand that to the patient as their copy which is the document of the injection record you just did. Then proceed to enter in the next patient information.
 
 
 
-![](https://lh4.googleusercontent.com/P-5Fehx6k_Vcaxr9r80ZNXmP5c3Yqka4Y1aSBTpx8PcylBxMRNYTsh0y6l6CnJcact7zcC-3y65MKzOb83mKnJOZBiERCOXo0vpioYLAUHqk0DTCkvLEDMC1cLjvVu6Fe9G9bX0LEqXo6xqKJA)
+![](injection-program-tab-recording-mass-injections.images/image7.png)
 
 
 

@@ -40,7 +40,7 @@ The Payer field will say RXHUB which is the SureScripts database the feature is 
 
 Click the SEND REQUEST button when you are ready to send a request to retrieve the patient's benefits eligibility.
 
-![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image3.png)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image2.png)
 
 You will receive a message if the patient has already had an eligibility check run within the last 72 hours. The message will also note which doc.id it is currently in the patient's chart and you can click that hyperlink to get to it directly.
 
@@ -48,7 +48,7 @@ You will receive a message if the patient has already had an eligibility check r
 
 Otherwise, when you click SEND REQUEST button and it's not within 72 hours of the last eligibility request for that patient, it will instantly show the Eligibility Information on your screen.
 
-![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image5.png)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image3.png)
 
 Not only is the Drug Eligibility shown on your screen, this Drug Eligibility documentation was automatically stored into the patient's record with a doc.id (doc.type INS_ELIG) in the patient's doc.sum tab. So at any time, you can find that stored document now in the patient's chart to refer to or print off, etc.
 
@@ -56,7 +56,7 @@ Not only is the Drug Eligibility shown on your screen, this Drug Eligibility doc
 
 If you have the patient's information as something different from the database the eligibility came from, it will state this message: *Information different from current patient demographics is shown in bold.* This just alerts you that the database has different information stored for that patient's demographics than your system does and how you have it entered in the patient's demographics chart tab. You can use this information to update the patient's record or confirm with the patient.
 
-![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image7.png)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image5.png)
 
 When you run drug eligibility, it will also automatically update the patient's insurance in {{% system-name %}} demographics insurance section.
 
@@ -68,7 +68,7 @@ When you are working in the patient's chart and in the E-Meds tab prescribing or
 
 If you have the MY SETTINGS scheduler preference for SHOW LAST ELIGIBILITY set to *yes*, on the scheduler view you will then see when the **Last Eligibility** was run and at what time for that patient in their appointment slot. Click the hyperlink on the date/time of the Last Eligibility that displays to open that specific eligibility document stored in the patient's chart.
 
-![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image9.png)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image7.png)
 
 It opens the stored document in a new window on your screen. To get out, simply X out of the window.
 
@@ -80,11 +80,11 @@ Any user can perform an eligibility check in mass for the entire patient's on to
 
 From the Scheduler/Appointments view, click the link *Run All Drug Eligibility*.
 
-![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image10.png)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image11.png)
 
 This will bring up a screen that is titled *Check eligibility for everyone on the schedule for today*. The query function will automatically start in a new opened window on your screen. If you have a lot of patients on the schedule for the day, this will take up to 1-2 minutes depending on your schedule load. Please wait until the query function is complete. You will see a message at the top that it has performed action when it is complete.
 
-![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image11.png)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image9.png)
 
 It will also show many column titles and it isn't essential to understand what each column is or for. This is simply the way to get to the query that will run all patients scheduled for appointments in {{% system-name %}} for today's date and the service provider is pointed to the appointment resource the appt is scheduled with.
 
@@ -97,11 +97,11 @@ If this screen shows empty (no patient's listed) then there are no patient's sch
 
 If there were no patient's scheduled for appointments with today's date, the screen listing would be empty and if you clicked the Perform link anyhow (with no patient's listed to query eligibility for), you would see this message:
 
-![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image12.png)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image10.png)
 
 After successful drug eligibility, retrieval for all patient's scheduled for appointments for today's date. You can now get out of this report (X out of this opened window) and work elsewhere in {{% system-name %}} . The Drug Eligibility document you queried is now in the patient's chart automatically saved as doc.type INS_ELIG (named Insurance/Prescription Eligibility) and defaulted to chart tab named Doc.Sum but you can have the doc.type placed in whichever chart tab you wish system wide.
 
-![](https://lh5.googleusercontent.com/wsStP-e9WMFK4RNV6I9KgAbNnld6kPSWprMRwN7iwGSXhUl4wgfav2kIk__vQhAlyh79xS2SRJt8gSARUogXCRwmtOb6ABOIvzDnb2JRtzm5eJtbwOuA-lrSX2xIHfF_SDk2nglG9aH62vZNoQ)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image12.png)
 
 When you run drug eligibility, the system saves the policy and formulary information from these eligibility inquiries and the insurance policies are inserted as inactive by default in the insurance section of the patient's demographics.
 
@@ -109,11 +109,11 @@ When eligibility is run either individually per patient or in mass using this me
 
 When you are working in the patient's chart and in the E-Meds tab prescribing or documenting allergies or medications, etc. you will see it displays the *Last Eligibility* with date/time that was run for that patient at the top right corner of the screen. Click the hyperlink on the date/time of the Last Eligibility that displays to open that specific eligibility document stored in the patient's chart. It opens the stored document in a new window on your screen. To get out, simply X out of the window.
 
-![](https://lh6.googleusercontent.com/CUT7GvDqwGXJ6uipSKhbPTzY9PiDiCz-7u9IdQQv1q5M2qJozc1k26pePdTn3CvBkxjnbWZoqmgJTR2aW7LC4HLssIYb--5DnlN7Tc1UqZmZQD9-CGHVn7n9s2GUVkXFXD28EmNYlDtZEX3ZKg)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image8.png)
 
 If you have the MY SETTINGS scheduler preference for SHOW LAST ELIGIBILITY set to *yes*, on the scheduler view you will then see when the **Last Eligibility** was run and at what time for that patient in their appointment slot. Click the hyperlink on the date/time of the Last Eligibility that displays to open that specific eligibility document stored in the patient's chart.
 
-![](https://lh5.googleusercontent.com/FBZGjQrGTUH_noSGeE0Jt7n4gxo_xktgSBKEpqIIwbCqkiXuz2Xz5Xa9uWyJnH2LXQ7PSfefdEzx8QJ6Rnq4B2Zr9Hx_1G-Qg7IuddrkgTijIh5nLADqx-4n-VISfEHuwd1BxPaD59QMfzSy9g)
+![](surescripts-advanced-prescription-and-insurance-eligibility-requests.images/image7.png)
 
 It opens the stored document in a new window on your screen. To get out, simply X out of the window.
 

@@ -43,19 +43,19 @@ Once this metadata has been shared with them, most IDPs will then share their me
 
 The IDP metadata file will be imported into the {{% system-name %}} system via the Import Metadata link in the Login Trusts editor.
 
-![](single-sign-on-login-trust.images/image2.png)
+![](single-sign-on-login-trust.images/image3.png)
 
 The relevant data will be extracted from the metadata file and displayed in the Add Login Trust screen, as described below in Login Trust Fields.
 
-![](single-sign-on-login-trust.images/image3.png)
+![](single-sign-on-login-trust.images/image2.png)
 
 Verify the information and then click the Submit button at the bottom.
 
-![](single-sign-on-login-trust.images/image4.png)
+![](single-sign-on-login-trust.images/image5.png)
 
 The SAML IDP will now be available on the system's Login page under the Remote Log In heading.
 
-![](single-sign-on-login-trust.images/image5.png)
+![](single-sign-on-login-trust.images/image4.png)
 
 ## Removing the Login page
 
@@ -63,13 +63,13 @@ Once an SSO connection has been configured and tested, the  login page can now 
 
 In the listing of the Login Trusts editor, there is an option for "Make Default". This link is used to disable the login page and direct all authentication requests to that specific SSO server.
 
-![](single-sign-on-login-trust.images/image6.png)
+![](single-sign-on-login-trust.images/image7.png)
 
 ## Login Trust Fields
 
 The {{% system-name %}} **Add Login Trust** screen displays the following options:
 
-![](single-sign-on-login-trust.images/image7.png)
+![](single-sign-on-login-trust.images/image6.png)
 
 The following list provides details and insight on using the fields available on the Add Login Trust screen:
 
@@ -157,9 +157,9 @@ To create a login trust for SSO:
 * Open the SAML metadata file provided by the client.
 * Log into the system.
 * Navigate to the <strong>Control Panel</strong> on the left side menu.
-* Click the <strong>Login Trusts</strong> tab.  ![](single-sign-on-login-trust.images/image8.png)
+* Click the <strong>Login Trusts</strong> tab.  ![](single-sign-on-login-trust.images/image9.png)
 * Click the <strong>Add Login Trust </strong>link, in the top-right of the page.
-* In the received metadata file, search for <strong>entityID</strong>, to locate the <strong>Domain</strong>.  ![](single-sign-on-login-trust.images/image9.png)
+* In the received metadata file, search for <strong>entityID</strong>, to locate the <strong>Domain</strong>.  ![](single-sign-on-login-trust.images/image8.png)
 * Enter that URL into the <strong>Domain</strong> field.
 * Enter the appropriate client information into the <strong>Description</strong> field.
 * Select the <strong>Allow SAML requests from this domain</strong> checkbox.

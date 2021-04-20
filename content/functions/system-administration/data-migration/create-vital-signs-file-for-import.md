@@ -223,7 +223,7 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](create-vital-signs-file-for-import.images/image1.png)
+![](create-vital-signs-file-for-import.images/image3.png)
 
 
 
@@ -236,7 +236,7 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](create-vital-signs-file-for-import.images/image2.png)
+![](create-vital-signs-file-for-import.images/image1.png)
 
 
 
@@ -244,7 +244,7 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](create-vital-signs-file-for-import.images/image3.png)
+![](create-vital-signs-file-for-import.images/image4.png)
 
 
 
@@ -252,7 +252,7 @@ Specific exertion, as it relates to the respiration rate. Valid choices are:
 
 
 
-![](create-vital-signs-file-for-import.images/image4.png)
+![](create-vital-signs-file-for-import.images/image2.png)
 
 
 

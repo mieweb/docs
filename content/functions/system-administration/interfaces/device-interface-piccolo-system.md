@@ -22,20 +22,20 @@ The following is referring to a blood chemistry analyzer Abaxis Piccolo Xpress s
 
 * The screen to connect to the Abaxis Piccolo Xpress will open on your screen.
 
-![](device-interface-piccolo-system.images/image2.png)
+![](device-interface-piccolo-system.images/image3.png)
 
 * Have the Piccolo machine hooked up to the computer that is running {{% system-name %}} . Usually they are just a serial connection to the machine and usb connection on the other end to the computer/laptop.
 * Select the Connect to Abaxis Piccolo Xpress (choose port) link in your {{% system-name %}} encounter.
 
-![](device-interface-piccolo-system.images/image3.png)
+![](device-interface-piccolo-system.images/image2.png)
 
 * Verify the port information in the pop-up and select the "Open Port" button
 
-![](device-interface-piccolo-system.images/image4.png)
+![](device-interface-piccolo-system.images/image5.png)
 
 * Click the confirm option you wish to do (yes, this time or Yes, always)
 
-![](device-interface-piccolo-system.images/image5.png)
+![](device-interface-piccolo-system.images/image4.png)
 
 * Transmit the information from the equipment.
 * The {{% system-name %}} screen displays "Receiving data" here on the encounters/test & procedures section you are in.

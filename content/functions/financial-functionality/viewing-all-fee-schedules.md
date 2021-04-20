@@ -2,7 +2,7 @@
 title: "Viewing all fee schedules"
 date: "2021-02-17T19:43:21.908Z"
 url: "functions/financial-functionality/viewing-all-fee-schedules.html"
-author: Adam Humes
+author: ahumes
 version: 17
 id: "1nad6bnJlNKZcV7TI6aSKIG4J2twAgP_Damj7nU-nGkI"
 source: "https://drive.google.com/open?id=1nad6bnJlNKZcV7TI6aSKIG4J2twAgP_Damj7nU-nGkI"

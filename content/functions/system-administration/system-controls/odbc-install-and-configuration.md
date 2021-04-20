@@ -71,7 +71,7 @@ From the MySQL ODBC Configuration Screen
 
 
 
-![](odbc-install-and-configuration.images/image2.png)
+![](odbc-install-and-configuration.images/image7.png)
 
 
 
@@ -114,7 +114,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](odbc-install-and-configuration.images/image3.png)
+![](odbc-install-and-configuration.images/image6.png)
 
 
 
@@ -144,7 +144,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](odbc-install-and-configuration.images/image6.png)
+![](odbc-install-and-configuration.images/image3.png)
 
 
 
@@ -152,7 +152,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 
 
 
-![](odbc-install-and-configuration.images/image7.png)
+![](odbc-install-and-configuration.images/image2.png)
 
 
 

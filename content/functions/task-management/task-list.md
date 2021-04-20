@@ -22,7 +22,7 @@ There are two ways to access your pending tasks:
 
 
 
-![](task-list.images/image1.png)
+![](task-list.images/image28.png)
 
 
 
@@ -36,7 +36,7 @@ Either way will take you to the Task List.  It will default to open to Your Tas
 
 
 
-![](task-list.images/image2.png)
+![](task-list.images/image8.png)
 
 
 
@@ -46,7 +46,7 @@ The Your Task List tab shows any tasks you are to complete if someone specified 
 
 
 
-![](task-list.images/image3.png)
+![](task-list.images/image13.png)
 
 
 
@@ -58,7 +58,7 @@ Reminders will appear first if any tasks assigned to you have a reminder date in
 
 
 
-![](task-list.images/image4.png)
+![](task-list.images/image11.png)
 
 
 
@@ -66,7 +66,7 @@ There are two additional features in the Reminders bucket of the Task List.  Vi
 
 
 
-![](task-list.images/image5.png)
+![](task-list.images/image19.png)
 
 #### Overdue Tasks
 
@@ -74,7 +74,7 @@ Overdue Tasks are tasks assigned you you that are past the due date set on the t
 
 
 
-![](task-list.images/image6.png)
+![](task-list.images/image27.png)
 
 
 
@@ -82,7 +82,7 @@ There is an additional features in the Overdue Tasks bucket of the Task List.  
 
 
 
-![](task-list.images/image7.png)
+![](task-list.images/image12.png)
 
 #### User Tasks
 
@@ -90,7 +90,7 @@ User tasks are all tasks assigned to specifically to your username.  These are 
 
 
 
-![](task-list.images/image8.png)
+![](task-list.images/image4.png)
 
 
 
@@ -98,7 +98,7 @@ There are two additional features in the User Tasks bucket of the Task List.  V
 
 
 
-![](task-list.images/image9.png)
+![](task-list.images/image15.png)
 
 
 
@@ -108,7 +108,7 @@ These tasks will follow you (unless you click hide to not show a specific depart
 
 
 
-![](task-list.images/image10.png)
+![](task-list.images/image24.png)
 
 
 
@@ -116,7 +116,7 @@ There are four additional features in the Department Tasks buckets of the Task L
 
 
 
-![](task-list.images/image11.png)
+![](task-list.images/image14.png)
 
 
 
@@ -124,20 +124,20 @@ There are four additional features in the Department Tasks buckets of the Task L
 
 Overdue and User Tasks buckets are tasks specifically assigned to you that are awaiting completion.  There are two ways to work a task:
 
-1. Quick Options: If you can decipher (from the summary task list view details) what the task is for, what to do, how to complete it, and you indeed complete it just by looking at the details displayed in the task list view, then go to the Options column. These are 3 quick options for completing a task:  a checkbox, the Mark Done link, and the Reply link. ![](task-list.images/image12.png)
+1. Quick Options: If you can decipher (from the summary task list view details) what the task is for, what to do, how to complete it, and you indeed complete it just by looking at the details displayed in the task list view, then go to the Options column. These are 3 quick options for completing a task:  a checkbox, the Mark Done link, and the Reply link. ![](task-list.images/image29.png)
 
 
 
-2. Task ID method: If you don't want to utilize the quick options, then the other way to work a task is to click on the task ID number by the task you want to work. It will pull up the task and give you more options for completing this task.  ![](task-list.images/image13.png)
+2. Task ID method: If you don't want to utilize the quick options, then the other way to work a task is to click on the task ID number by the task you want to work. It will pull up the task and give you more options for completing this task.  ![](task-list.images/image23.png)
 
 ### Quick Options
 
-* Check-Mark box:  This will show if you have My Settings preference of Show Complete CheckBox enabled.  You can click the checkmark box of the task you want to mark done and it puts a strikethrough on the task.  Unchecking it will reverse it (if you checked by mistake). Using the checkmark is a quick way to mark the task done if you can complete the task based on the details displayed on the listing. ![](task-list.images/image14.png)
+* Check-Mark box:  This will show if you have My Settings preference of Show Complete CheckBox enabled.  You can click the checkmark box of the task you want to mark done and it puts a strikethrough on the task.  Unchecking it will reverse it (if you checked by mistake). Using the checkmark is a quick way to mark the task done if you can complete the task based on the details displayed on the listing. ![](task-list.images/image21.png)
 
 
 
 * If you checkmark this box, it considers it complete (inserts a strikethrough) and when you refresh the page or work elsewhere in {{% system-name %}} and return to the Task List, the checkmarked tasks will be gone and taken out of the queue since indicated ‘complete' using this method.  
-* Mark Done: This option always displays and is not My Settings preference driven.  You can click the Mark Done link and it will pop up a Notes to Complete textbox where you can free-text notes regarding the completion of this task.  When done typing in notes, click the Complete button to mark the task as completed. ![](task-list.images/image15.png)
+* Mark Done: This option always displays and is not My Settings preference driven.  You can click the Mark Done link and it will pop up a Notes to Complete textbox where you can free-text notes regarding the completion of this task.  When done typing in notes, click the Complete button to mark the task as completed. ![](task-list.images/image3.png)
 
 
 
@@ -154,11 +154,11 @@ Overdue and User Tasks buckets are tasks specifically assigned to you that are a
 
 ### Task ID Method
 
-* Task ID link:  If you don't want to utilize the quick options, then click on the task ID number by the specific task you want work. It will pull up the task and give you more options for completing this task.   ![](task-list.images/image17.png)
+* Task ID link:  If you don't want to utilize the quick options, then click on the task ID number by the specific task you want work. It will pull up the task and give you more options for completing this task.   ![](task-list.images/image6.png)
 
 
 
-* Once you click the Task ID it will open the specific task with all details.  It will also give you many other options at the top and bottom towards completing this task. If the task is regarding a specific document for a patient, the document will also show/appear on the top of the screen for you to view with the task details and buttons below the document. ![](task-list.images/image18.png)
+* Once you click the Task ID it will open the specific task with all details.  It will also give you many other options at the top and bottom towards completing this task. If the task is regarding a specific document for a patient, the document will also show/appear on the top of the screen for you to view with the task details and buttons below the document. ![](task-list.images/image10.png)
 
 
 
@@ -168,7 +168,7 @@ Options in Task ID method view:
 * Doc ID:  The document image will display on the screen if the task is tied to a specific document in the chart.  Yet, the document ID is also shown at the top as the identifier and provides it as a hyperlink to get to that document.
 * Printable:  You can click the printable link found next to the task and/or doc id.  It will show a printable version of this specific task along with your other pending tasks.
 * Sign & Mark Done: This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click.  This option will prompt you to enter text notes you want to document related to this task you are signing and completing/marking done.
-    * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient. ![](task-list.images/image19.png)
+    * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient. ![](task-list.images/image5.png)
 
 
 
@@ -221,7 +221,7 @@ Grab will assign the task to you (makes you the owner of that department task), 
 
 Using the ‘Show Assigned' hyperlink in the department tasks title bar will display any open department tasks and who has grabbed any to work (indicated by the Owner column).
 
-![](task-list.images/image21.png)
+![](task-list.images/image1.png)
 
 {{% /tip %}}
 
@@ -236,7 +236,7 @@ When in the Task List, there are several other tabs at the top than the Your Tas
 
 
 
-![](task-list.images/image22.png)
+![](task-list.images/image25.png)
 
 
 
@@ -246,7 +246,7 @@ The Delegated tab within the Task List module lists all pending tasks that you d
 
 
 
-![](task-list.images/image23.png)
+![](task-list.images/image2.png)
 
 
 
@@ -269,7 +269,7 @@ The Completed tab within the Task List module is accessible to users who have se
 
 
 
-![](task-list.images/image24.png)
+![](task-list.images/image26.png)
 
 
 
@@ -288,7 +288,7 @@ In this tab, if a task is assigned to a user who has no last name entered into {
 {{% /note %}}
 
 
-![](task-list.images/image25.png)
+![](task-list.images/image22.png)
 
 
 
@@ -300,7 +300,7 @@ Total (Future) column is the count of tasks that the user or department has that
 
 
 
-![](task-list.images/image26.png)
+![](task-list.images/image30.png)
 
 #### Clear All Tasks
 
@@ -308,7 +308,7 @@ If users have security permission to clear tasks, the option Clear all tasks wil
 
 
 
-![](task-list.images/image27.png)
+![](task-list.images/image9.png)
 
 
 
@@ -316,7 +316,7 @@ If you click Clear All Tasks for a specific user's pending tasks, it will allow 
 
 
 
-![](task-list.images/image28.png)
+![](task-list.images/image17.png)
 
 
 
@@ -332,7 +332,7 @@ You can only access and perform options in this tab if you have security access.
 
 
 
-![](task-list.images/image29.png)
+![](task-list.images/image7.png)
 
 
 
@@ -346,7 +346,7 @@ The Fast Tasks taab is also only accessible if the user has security permission.
 
 
 
-![](task-list.images/image30.png)
+![](task-list.images/image18.png)
 
 
 

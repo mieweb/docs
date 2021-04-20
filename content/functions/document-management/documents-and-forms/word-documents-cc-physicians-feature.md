@@ -29,11 +29,11 @@ Using the CC Physician feature allows you to attach any users, referring physici
 
 Click on the Add link to create a list of CC (Carbon Copied) Physicians for this word document you are creating. This is optional. You do not have to attach any carbon copied physicians.
 
-![](word-documents-cc-physicians-feature.images/image1.png)
+![](word-documents-cc-physicians-feature.images/image2.png)
 
 A new window will open to add CC'd users to this document.
 
-![](word-documents-cc-physicians-feature.images/image2.png)
+![](word-documents-cc-physicians-feature.images/image4.png)
 
 **Recipient:** Recipient is the cc'd (carbon copied) users (usually physician(s) that you want to receive this word document. Usually the physicians dictate who they want to ‘cc' their dictated document to and the transcriptionists can set those cc users here when they open the word template to transcribe into. The transcriptionist can also set the cc users once they are in the word document typing (see below pages), but this is the first place you can set a cc user for the document.
 
@@ -43,7 +43,7 @@ A new window will open to add CC'd users to this document.
 
 **Method:** The *method* field will automatically default to what the user has set as their *preferred route* in their username screen. Most users (for example referring physicians that are loaded into your {{% system-name %}} system) are set to preferred route as ‘fax'. So, the method field here would default to FAX, but you can override it and select using the drop-down arrow. This CC feature is mainly used to ‘fax' these carbon copied users, so you will most likely always be selecting ‘fax' here to get this document to that cc'd user/physician, but you can override and make a different selection.
 
-![](word-documents-cc-physicians-feature.images/image4.png)
+![](word-documents-cc-physicians-feature.images/image6.png)
 
 * The username screen for a loaded {{% system-name %}} user within a department (example: referring physicians) has a field to set their ‘preferred route'. The <em>method</em> field here in the cc feature will respect what that preferred route is set for on that cc user.
 
@@ -51,7 +51,7 @@ A new window will open to add CC'd users to this document.
 
 * If you chose method of ‘Print', the next <em>detail</em> field will populate the stored user's full address in the <strong>Mail To</strong> field. Currently, the <strong>Mail To</strong> doesn't actually get used. In the future, it will be developed to print the document and an envelope at the same time. Then the address that shows up in this <em>Mail To</em> field (or if you manually type one) in the <em>Mail To</em> field will be utilized on the envelope. You can leave this blank for now as this feature has not yet been developed. Using the method ‘print' will cause the document to be printed to the (network) printer by the system's print daemon. This will only work for network printers that have been configured to work with {{% system-name %}} . Continue to select the printer, paper tray and also check-mark if you want the document to print without document headers or not.
 
-![](word-documents-cc-physicians-feature.images/image6.png)
+![](word-documents-cc-physicians-feature.images/image8.png)
 
 
 
@@ -71,7 +71,7 @@ A new window will open to add CC'd users to this document.
 
 **Send On:** Select when you want to send this document to the cc'd users/physicians. Your choices are to send this document on any and **All Revisions** (this includes the original document), or **Preliminary Signed** which will send this document after it has been *preliminary* e-signed by your provider, or **Final Signed Only** which will send this document after it has been e-signed as final by your provider. Once this cc route is created, when the document matches the ‘Send On' criteria, it will automatically be sent via the method you selected (faxed, printed, etc) by the system's datasend program. Your system must have a datasend setup for this to work, so please contact your MIE Implementer.
 
-![](word-documents-cc-physicians-feature.images/image8.png)
+![](word-documents-cc-physicians-feature.images/image10.png)
 
 
 
@@ -87,7 +87,7 @@ To add multiple CC Users/Physicians to the document, click the ADD button and it
 
 
 
-![](word-documents-cc-physicians-feature.images/image10.png)
+![](word-documents-cc-physicians-feature.images/image12.png)
 
 
 
@@ -101,7 +101,7 @@ Open the word template, as usual, to create the word document by clicking the Ad
 
 
 
-![](word-documents-cc-physicians-feature.images/image12.png)
+![](word-documents-cc-physicians-feature.images/image11.png)
 
 
 
@@ -125,11 +125,11 @@ When you are done with the CC user screen, you must click the DONE button to sav
 
 You will be returned back to the word document you have open and were working on. Continue to type in your document and click the UPLOAD button when done to upload the document.
 
-![](word-documents-cc-physicians-feature.images/image15.png)
+![](word-documents-cc-physicians-feature.images/image13.png)
 
 You will be shown the uploaded document on your screen if your MY SETTINGS preference is to return you to the uploaded document view upon upload process. Your uploaded document shows it in a text version and has assigned the document a document id since it is now uploaded into the patient's chart.
 
-![](word-documents-cc-physicians-feature.images/image16.png)
+![](word-documents-cc-physicians-feature.images/image15.png)
 
 ## Viewing CC'ed Users on an Uploaded Document
 
@@ -137,26 +137,26 @@ You can see which CC'd users are set to an uploaded document and their routes th
 
 Simply find the stored/uploaded document in the patient's chart (doc id). Then click on the *Properties* link found on the stored document.
 
-![](https://lh4.googleusercontent.com/qWAHzMlL-MGCziBGPrQqHorfb57C33D-ryK9uZY3C8WJmaMjAXklZiL-y1YQ9bRxB4vQoBbCsdUd9KWVZzTaJ_oVGyWKRqGJgmn23vJvFgjUvjowzmf1N7AbuXMjQm-wsoan9EC7kH9pTHXSEQ)
+![](word-documents-cc-physicians-feature.images/image15.png)
 
 The document properties will show various sections and scroll down to the sections named **Current Routes for Document** and **Routing History for Document**. There you will see which cc'd user/physician this document went to, how it was sent (printed, faxed, etc), date/time sent and if the datasend was successful or pending or has an error you need to acknowledge or you can resend a document via this route from here also. For other specific information on document properties and routes, please see other help documentation named *Document Properties.pdf*. For other specific information on how to be notified of a datasend error, please see other help documentation named [Alert-Errors-Failures-Interactive Tab](../../e-chart/alerts-errors-failures-interactive-tab.html)*.*
 
-![](https://lh4.googleusercontent.com/pPIQs3kxJmGwGbbQskiRoFMS0aFYcdltuIzENHnibD9RQ-lwAu1VLj0dF1qQuymIqIOwPvDwqBT011lbDs-WycBqf60Ba9zpA000ut2G8sld6GcyAKRmVqm7wtVAEU51Znls7ubrV7IDcWZezQ)
+![](word-documents-cc-physicians-feature.images/image16.png)
 Scrolling down in the document properties will also show fax history, print history, etc to see additional information also.
 
 ## Editing Uploaded Word Documents with CC Users Attached
 
 You can edit (revise) an uploaded word document in a patient's chart as usual. Simply find the stored/uploaded document in the patient's chart (doc id). Then click on the *Edit* link found on the stored document.
 
-![](https://lh4.googleusercontent.com/qWAHzMlL-MGCziBGPrQqHorfb57C33D-ryK9uZY3C8WJmaMjAXklZiL-y1YQ9bRxB4vQoBbCsdUd9KWVZzTaJ_oVGyWKRqGJgmn23vJvFgjUvjowzmf1N7AbuXMjQm-wsoan9EC7kH9pTHXSEQ)
+![](word-documents-cc-physicians-feature.images/image15.png)
 
 When you click the *edit* link, the *edit document properties* window will open. It will show you what CC users/physicians are already tied to that uploaded word document. You can add another at this time by clicking the Add link in the CC user field, or remove one, etc.
 
-![](https://lh6.googleusercontent.com/D8ky8J6qXU-oOoMD49_uLxlYyNbzk0D5yEXwQxB04WNm8IZF12nQ_UiMTS9PP2hRoeISScMTEfAHRr0yykBuYMEpU_sDf_CK3kg2UiFyQC-xgnp6ZDubFbzhWVzxFbxnQzsttBm97ef-MGwAXA)
+![](https://lh4.googleusercontent.com/z0zp6X1lNag0ief6CWcNd1l7JI5SIFdNO1wzutOPL1YPN9O5aYNXNagKLJQN54bTe5f9xsv0XORxDF7ODCVzx7jnIiE0iP9bYbS4i-_SP1cB-wfdzZ8Kk-8mCNBkURk8ovp6KUodIqYd5jwbfA)
 
 Depending on what the CC'd users are set to for *send on status*, if you make a revision—the route may be set up to send the revised document also to the CC'd user (see *send on* field in above previous page 3 steps).
 
-![](https://lh6.googleusercontent.com/W73sy1RvIvZuvdB50PR_ykLw7LpgPwd2nkwmm6qbdN2ExvoHcMyMbetMf2dsSAlDdegYU3o7yutGsoIudAJJNiHH404ghO6u-iD69h4VBsPg3x9bFYvUZIMElqwRckrCz3IvSQm2wy7DEj47yA)
+![](word-documents-cc-physicians-feature.images/image1.png)
 
 You must continue and click the EDIT DOCUMENT button to get into the document and make any other changes to the document itself and upload the document again. You can also see the CC userlist while working in the body of the word template (as stated in previous pages of this help document) by using the CC Userlist button in the toolbar of the opened word document.
 

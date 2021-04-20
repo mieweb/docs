@@ -2,7 +2,7 @@
 title: "Finding employer organizations"
 date: "2021-02-17T19:42:19.484Z"
 url: "functions/financial-functionality/finding-employer-organizations.html"
-author: Adam Humes
+author: ahumes
 version: 12
 id: "1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg"
 source: "https://drive.google.com/open?id=1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg"

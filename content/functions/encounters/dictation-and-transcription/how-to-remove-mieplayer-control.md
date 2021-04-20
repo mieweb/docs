@@ -17,7 +17,7 @@ menu:
 
 
 
-![](how-to-remove-mieplayer-control.images/image1.png)
+![](how-to-remove-mieplayer-control.images/image2.png)
 
 
 
@@ -25,7 +25,7 @@ menu:
 
 
 
-![](how-to-remove-mieplayer-control.images/image2.png)
+![](how-to-remove-mieplayer-control.images/image1.png)
 
 
 
@@ -49,7 +49,7 @@ menu:
 
 
 
-![](how-to-remove-mieplayer-control.images/image5.png)
+![](how-to-remove-mieplayer-control.images/image6.png)
 
 
 
@@ -57,7 +57,7 @@ menu:
 
 
 
-![](how-to-remove-mieplayer-control.images/image6.png)
+![](how-to-remove-mieplayer-control.images/image5.png)
 
 
 

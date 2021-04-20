@@ -20,11 +20,11 @@ Please make sure you have your email entered in your username screen (a superuse
 
 Your {{% system-name %}} system for your practice also must have two system settings turned on. These are on by default, but your MIE Implementer can turn off this email notification feature entirely for your entire practice.
 
-![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image2.png)
+![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image3.png)
 
 The next item to have set is your *MY SETTINGS* preference for *Send Fax Notifications*. It is set to ‘Both' by default. You can leave it as both or change it to which notification you want to receive via email for the fax sent. Most users set theirs to only receive email notifications for their failed faxes. This is a preference for you, the logged in user, and doesn't affect anyone else. Make sure you have your email address entered in your username screen.
 
-![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image3.png)
+![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image2.png)
 
 * <strong>Both:</strong> You will receive an email notification each time your fax is successfully sent and you will also receive email notification each time a fax you send is unsuccessful.
 * <strong>Send:</strong> You will only receive an email notification every time a fax you send is successful.
@@ -45,7 +45,7 @@ Email is from *support@mieweb.com.* Please do not reply to this email. It is for
 
 Subject line shows the name of the {{% system-name %}} system. Contents of the email show again the {{% system-name %}} system the fax was done in and who the fax was sent to.
 
-![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image4.png)
+![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image5.png)
 
 ### Unsuccessful Fax
 
@@ -55,5 +55,5 @@ Email is from *support@mieweb.com.* Please do not reply to this email. It is for
 
 Subject line shows the name of the {{% system-name %}} system. Contents of the email show again the {{% system-name %}} system the fax was done in and the email says why it was unsuccessful. The user can also click the underlined link in the email to view the fax itself right from there.
 
-![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image5.png)
+![](outbound-faxing-email-notifications-of-sent-failed-faxes.images/image4.png)
 

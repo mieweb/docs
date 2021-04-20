@@ -22,7 +22,7 @@ The dynamic encounters offer a Case section.  To see the listing of cases/incid
 
 
 
-![](closing-an-existing-case.images/image1.png)
+![](closing-an-existing-case.images/image4.png)
 
 
 
@@ -36,7 +36,7 @@ To close a case when working in an encounter is done by clicking the Close hyper
 
 
 
-![](closing-an-existing-case.images/image2.png)
+![](closing-an-existing-case.images/image6.png)
 
 
 
@@ -59,7 +59,7 @@ The date indicated as the close date will be displayed in the case section listi
 
 
 
-![](closing-an-existing-case.images/image4.png)
+![](closing-an-existing-case.images/image1.png)
 
 ### Closing a Case from the Cases Chart Tab
 
@@ -67,7 +67,7 @@ You can also close a case from the Cases chart tab when working in a chart.  Th
 
 
 
-![](closing-an-existing-case.images/image5.png)
+![](closing-an-existing-case.images/image2.png)
 
 
 
@@ -75,7 +75,7 @@ To close an open case from the Cases chart tab, simply click the Close link foun
 
 
 
-![](closing-an-existing-case.images/image6.png)
+![](closing-an-existing-case.images/image5.png)
 
 
 
@@ -83,7 +83,7 @@ A pop-up window will display to key in the date this case is considered closed e
 
 
 
-![](https://lh6.googleusercontent.com/Sgim9x0QR74mxEk5HjdlP-3BX_4Vc4fPDF-dDbZtSZYCZA3V4_HVoGM6vaQperFL81SZ6g3Je9Xmfloi0pYMfUduH746Dm4J82L5UbNGVBfK-FYxGCShjXiaA2NoFI4BoMsVwk0ryAxpXGB5bA)
+![](closing-an-existing-case.images/image3.png)
 
 
 
@@ -91,7 +91,7 @@ The date indicated as the close date will be displayed in the case section listi
 
 
 
-![](https://lh5.googleusercontent.com/kXnMdLiTz9plEQ7XYi0RzyE9K_yli3wEw16yB5ScEUiU6v7RbYPs_94U11AnluwCSUQREvDwKOxG12Uu1GVXqOE7bN71QXw88nyXF6e6PPSA4kO7r2JidVTO4dRjV-ypFiZhotkLh9afNq2DNQ)
+![](closing-an-existing-case.images/image1.png)
 
 
 

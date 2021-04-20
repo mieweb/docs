@@ -29,10 +29,10 @@ To link using this method, the document being linked to an encounter must alread
 {{% /note %}}
 
 
-![](link-documents-to-encounters.images/image1.png)
+![](link-documents-to-encounters.images/image10.png)
 After clicking *View Links*, a pop-up window will display a list of items the document is currently linked to, if any. To link the document to an encounter, simply click the **Add** link displayed in the pop-up.
 
-![](link-documents-to-encounters.images/image2.png)
+![](link-documents-to-encounters.images/image12.png)
 
 The *Add Encounter Link* window will open with an autocomplete field and **Search** and **Add Link** buttons. Because most encounter IDs are not known, use the Search button to locate the appropriate encounter ID to be linked. Using the Search button will allow the user to search encounters from the past 3 days.
 
@@ -43,16 +43,16 @@ To search further out than 3 days, simply click the **Search Within x Days** lin
 {{% /tip %}}
 
 
-![](link-documents-to-encounters.images/image3.png)
+![](link-documents-to-encounters.images/image11.png)
 After clicking the Search button and finding the appropriate encounter, click the **Select** link next to the encounter being linked to the document. The selected encounter ID and relevant information will populate the field. Continue by clicking the **Add Link** button, which completes the linking process.
 
-![](link-documents-to-encounters.images/image4.png)
+![](link-documents-to-encounters.images/image14.png)
 
 ### Link from Document Properties
 
 A stored document can be linked to an encounter while in the Properties of the document, as well. To link a document to an encounter from the document properties, simply open the document view and click the *Properties* link, found in the upper-right corner of the document header.
 
-![](link-documents-to-encounters.images/image5.png)
+![](link-documents-to-encounters.images/image13.png)
 
 Once the Properties page loads, click the **Link to Encounter** hyperlink, near the top of the page.
 
@@ -63,7 +63,7 @@ If the **Link to Encounter** hyperlink is not displayed, then security permissio
 {{% /note %}}
 
 
-![](link-documents-to-encounters.images/image6.png)
+![](link-documents-to-encounters.images/image16.png)
 Clicking the **Link to Encounter** hyperlink will open the Encounters ListView. All encounters for the chart will appear in the list, and additional details are provided to help users identify the appropriate encounters, as needed. Once the appropriate encounter is found, simply click the **Link to Document** hyperlink, found in the Options column of the encounter being selected.
 
 {{% info %}}
@@ -73,10 +73,10 @@ A document can be linked to an open or closed encounter.
 {{% /info %}}
 
 
-![](link-documents-to-encounters.images/image7.png)
+![](link-documents-to-encounters.images/image15.png)
 Once clicked, the system will link the document to the selected encounter and refresh the page, where a confirmation message will be displayed along with the properties of the linked encounter.
 
-![](link-documents-to-encounters.images/image8.png)
+![](link-documents-to-encounters.images/image18.png)
 
 ### Link from WebScan
 
@@ -84,11 +84,11 @@ Users designated to scan and index documents into the {{% system-name %}} system
 
 To link documents to an encounter while using WebScan, note the **Encounter** field. In order to use this field, a chart must first be specified in the **Chart** field. Once a chart has been specified, the Encounter field will allow for searching and linking of scanned documents to encounters.
 
-![](link-documents-to-encounters.images/image9.png)
+![](link-documents-to-encounters.images/image17.png)
 
 If the exact encounter ID is known, users may begin typing to autocomplete the appropriate encounter. However, if the encounter ID is not known, users may begin searching for one by clicking the **Search** button next to the *Encounter* indexing field. When clicked, all encounters for the chart, 3 days out from the provided Service Date, will display. Both open and closed encounters are listed. Select the appropriate encounter by clicking the **Select** link in the Options column. When finished, either continue indexing the remainder of the batch, or upload the linked documents directly into the chart.
 
-![](link-documents-to-encounters.images/image10.png)
+![](link-documents-to-encounters.images/image21.png)
 
 {{% tip %}}
 
@@ -105,19 +105,19 @@ Using the **Add Document** link provides users the ability to open or create new
 
 First, to begin adding a new document for linking an encounter to, click the **Add Document** link, while in the appropriate chart.
 
-![](link-documents-to-encounters.images/image11.png)
+![](link-documents-to-encounters.images/image19.png)
 
 Find the document type needing added by using the filtering options or autocomplete field.
 
-![](link-documents-to-encounters.images/image12.png)
+![](link-documents-to-encounters.images/image20.png)
 
 Once the necessary document has been selected from the library, the *Add Document Properties* screen will display. Here, users will find an **Encounter** field, where they may specify and link the appropriate encounter to the document in context.
 
-![](link-documents-to-encounters.images/image13.png)
+![](link-documents-to-encounters.images/image22.png)
 
 As noted, if the exact encounter ID is known, users may begin typing to autocomplete the appropriate encounter. However, if the encounter ID is not known, users may begin searching for one by clicking the **Search** button next to the *Encounter* autocomplete field. When clicked, all encounters for the chart, 3 days out from the provided Service Date, will display. Both open and closed encounters are listed. Select the appropriate encounter by clicking the **Select** link in the Options column. Continue adding the document and linking the encounter by clicking the **Add Document** button at the bottom of the window.
 
-![](link-documents-to-encounters.images/image14.png)
+![](link-documents-to-encounters.images/image21.png)
 
 {{% tip %}}
 
@@ -132,11 +132,11 @@ There are various ways to view documents linked to encounters. Users may simply 
 
 A stored document can be accessed from either the appropriate chart tab the document is indexed to, or from the Documents chart tab. While in the document, click the **Properties** link. Once the Properties page loads, locate the **Encounters Linked to Document** section. Here, all linked encounters will be listed.
 
-![](link-documents-to-encounters.images/image15.png)
+![](link-documents-to-encounters.images/image23.png)
 
 The linked encounters of documents can easily viewed from the **Encounters** chart tab, as well. Once the Encounters ListView loads, locate the appropriate encounter and click the **View Links** hyperlink, in the Options column. Clicking this will open a pop-up window displaying a list of documents linked to the selected encounter.
 
-![](link-documents-to-encounters.images/image16.png)
+![](link-documents-to-encounters.images/image24.png)
 
 ## Move Link via Encounter Properties
 
@@ -151,19 +151,19 @@ When using the Move Link functionality, users must know the specific encounter I
 
 To move a linked document to another encounter, navigate to Encounters chart tab and click the **Properties** link of the appropriate encounter.
 
-![](link-documents-to-encounters.images/image17.png)
+![](link-documents-to-encounters.images/image4.png)
 
 Once the page loads, scroll down to the **Links to Encounter** section to view all items linked to the encounter in context.
 
-![](link-documents-to-encounters.images/image18.png)
+![](link-documents-to-encounters.images/image5.png)
 
 Find the document needing moved to another encounter. Once located, click the **Move Link** hyperlink.
 
-![](link-documents-to-encounters.images/image19.png)
+![](link-documents-to-encounters.images/image25.png)
 
 When the Move Link hyperlink is clicked, the page will refresh with a **Move Encounter Link** section displayed where the previous *Links to Encounter* section was shown.
 
-![](link-documents-to-encounters.images/image20.png)
+![](link-documents-to-encounters.images/image26.png)
 
 Enter the specific encounter ID into the **Move to Encounter** autocomplete field. Once the encounter is entered, click the **Move** button.
 
@@ -174,14 +174,14 @@ The Move Link functionality does not support moving documents between charts.
 {{% /note %}}
 
 
-![](link-documents-to-encounters.images/image21.png)
+![](link-documents-to-encounters.images/image1.png)
 The page will refresh again, this time replacing the *Move Encounter Link* section with the **Confirm Move Link to Encounter** section. Click the **Confirm Move** button to confirm the moving of the document to the new encounter.
 
-![](link-documents-to-encounters.images/image22.png)
+![](link-documents-to-encounters.images/image2.png)
 
 After confirming the move, the page will refresh with a confirmation showing from where and where to the document has been moved.
 
-![](link-documents-to-encounters.images/image23.png)
+![](link-documents-to-encounters.images/image3.png)
 
 ## Unlink Documents
 
@@ -191,19 +191,19 @@ Unlinking a document from an encounter is just as easy as linking or viewing one
 
 To remove the link of a document from an encounter, navigate to the Encounters chart tab and locate the appropriate encounter. Once located, click the **Properties** link.
 
-![](link-documents-to-encounters.images/image24.png)
+![](link-documents-to-encounters.images/image4.png)
 
 Once the page loads, scroll down to the **Links to Encounter** section to see all items linked to the encounter in context.
 
-![](link-documents-to-encounters.images/image25.png)
+![](link-documents-to-encounters.images/image5.png)
 
 Locate the linked document needing unlinked from the encounter, and click the **Delete Link** hyperlink, in the Options column.
 
-![](link-documents-to-encounters.images/image26.png)
+![](link-documents-to-encounters.images/image6.png)
 
 Once clicked, the page will refresh with a **Delete Encounter Link** section displayed where the previous *Links to Encounter* section was shown. Click the **Delete Link** button to confirm the deletion of the link to the encounter.
 
-![](https://lh5.googleusercontent.com/SIKMPKd4DU5lIQRRYQnAEsF_k4L5SyFhqiTIdXPWfOaW5K6icPywwgkVIKdzkldFIyfbexZ3erGcAh1Fj9wZjSdnSV0R2ke48wFvMniC2c34ob2zl5PejWbmgkiszlHkg8MBSqw7RsyLfD0CFA)
+![](link-documents-to-encounters.images/image7.png)
 
 After confirming the deletion of the link to the encounter, the page will refresh with a confirmation, and the document will no longer be listed in the *Links to Encounters* section.
 
@@ -220,11 +220,11 @@ A link between a document and an encounter can be removed from the properties of
 
 Locate the appropriate document. When viewing the document, click the **Properties** link from the document header. When the page loads, scroll down to the **Encounters Linked to Document** section.
 
-![](https://lh5.googleusercontent.com/ayzjvo4p9yAb_LHV4SGH-vbJgYpAUqDeMrZ8pZ3Qjk7-tiEVDD3krCPgJ7ypBt1bjSAefID3Ko3YxfmX6NBG0zZPqRcOHRtxrpkeQxbtruCx4a9wl9M7MXPwND0xjkFkNZAYJJxuOJZac_8-uA)
+![](link-documents-to-encounters.images/image8.png)
 
 Locate the appropriate linked encounter and remove by simply clicking the **Remove Link** hyperlink from the Options column.
 
-![](https://lh4.googleusercontent.com/UB94GEdRsJCclpkg9h9G4A4WR3pBnjTEiBJItzoWPWD4c_1G_utbj9zO-W0Nl3wl9KbhtufvfV_qkEgncfUOAAvPsLwrFzbvAroJiL7lApzUAwhnW7-qifW4b6d2vzWsQl9cUmuhZ0Kthm7EhA)
+![](link-documents-to-encounters.images/image9.png)
 
 {{% warning %}}
 

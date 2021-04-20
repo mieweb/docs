@@ -22,13 +22,13 @@ Blank Labels functionality does also offer ability to key in a patient's name an
 
 Otherwise, for general/blank labels that you may want to adhere to say OTC medication packages that you offer, you can enter all the medication label fields (name, form, sig, etc) also using auto-complete choices from the drug database.
 
-![](inventory-tab-blank-labels.images/image2.png)
+![](inventory-tab-blank-labels.images/image3.png)
 
 When done, click SELECT WARNINGS button.
 
 The Warnings regarding the specific medication that you keyed in will display. Check-mark any or all warnings to be printed on the label. You can uncheckmark warnings that you wish not to be on the label. Then click the PRINT LABELS button when done.
 
-![](inventory-tab-blank-labels.images/image3.png)
+![](inventory-tab-blank-labels.images/image2.png)
 
 It will then show a print preview on your screen and you need to click the PRINT button to print the label on your special label paper & printer. You can print multiple of these ‘blank' labels if you wish.
 

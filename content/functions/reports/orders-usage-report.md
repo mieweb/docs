@@ -40,11 +40,11 @@ Fields are optional to narrow down your search results:
     * <em>Show detailed list</em> is automatically checked. This shows a detailed list of patients and order specifics, along with the overall results. If you uncheck-mark this, you will not see a patient specific listing and will only see the overall results for your criteria field search.
     * <em>Show contents of panels</em> is automatically checked. This shows the order panel column and item contents of any panels that were ordered. These panel contents will render in your search results if checkmarked. If you uncheck-mark this, you will not see the specific panel contents in your results.
 
-![](orders-usage-report.images/image2.png)
+![](orders-usage-report.images/image3.png)
 
 Click the SEARCH button to render your results. It reports on how many of specific orders are ordered by location, by provider, and can output details of the orders.
 
 If you wish to print your report results, simply click view printable link at the top right of your search results screen. To modify your search without having to start all over, click the modify search link. The Save Printable View link saves the printable view as a time stamped html file.
 
-![](orders-usage-report.images/image3.png)
+![](orders-usage-report.images/image2.png)
 

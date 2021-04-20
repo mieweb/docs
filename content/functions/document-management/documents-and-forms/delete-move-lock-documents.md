@@ -31,19 +31,19 @@ To delete a document from a chart, find and open the document needing deleted. W
 
 Once the page reloads, click the **Delete** link.
 
-![](delete-move-lock-documents.images/image2.png)
+![](delete-move-lock-documents.images/image3.png)
 
 The *Delete Document* confirmation prompt will load at the top of the document. This shows the document ID in parentheses, and a free-text field to state *Reason for Deleting Document*. To proceed with deletion, it is required to provide the reason for deleting the document. Click the **Delete Document** button, when finished.
 
-![](delete-move-lock-documents.images/image3.png)
+![](delete-move-lock-documents.images/image2.png)
 
 After deleting, a confirmation will appear stating, *Document (ID#) has been Deleted Successfully*. All content of the document will be removed and replaced with verbiage of the document's deletion and the reason for deleting.
 
-![](delete-move-lock-documents.images/image4.png)
+![](delete-move-lock-documents.images/image5.png)
 
 {{% system-name %}} will keep a record of document deletions in the revision history of the chart. The document(s) will be kept in the chart, with the contents removed. Some chart tabs are configured to omit deleted documents from the view, by default (e.g., Document Summary chart tab). Other chart tabs can be configured to omit deleted documents from view, if preferred. Otherwise, chart tabs will display a deleted document in the List View.
 
-![](delete-move-lock-documents.images/image5.png)
+![](delete-move-lock-documents.images/image4.png)
 
 {{% tip %}}
 
@@ -58,15 +58,15 @@ The security permission **Document Move** must be set to **Yes** in order to mov
 
 To perform moving a document from one chart to another, find and open the document needing moved. While viewing the document, click the **Properties** link near the upper-right corner of the page.
 
-![](delete-move-lock-documents.images/image6.png)
+![](delete-move-lock-documents.images/image7.png)
 
 Once the *Properties for Document* screen loads, click the **Move** link.
 
-![](delete-move-lock-documents.images/image7.png)
+![](delete-move-lock-documents.images/image6.png)
 
 The *Move Document* confirmation prompt will display at the top of the screen. This shows the document ID in parentheses, an autocomplete field to specify where the document is going, and a free-text field to provide *Reason for Moving Document*.
 
-![](delete-move-lock-documents.images/image8.png)
+![](delete-move-lock-documents.images/image9.png)
 
 To proceed moving the document, use the *Move To Employee/Patient* autocomplete field to specify the appropriate chart the document needs moved into. The autocomplete field functions as a search for finding the correct chart, because the necessary chart must already exist in order to move the document. Use the help bubble for assistance with searching for the appropriate chart.
 
@@ -81,11 +81,11 @@ If there are duplicate, or matching patients, these will display above the chart
 
 Once finished, a confirmation will populate at the top of the page, stating *Document (ID#) has been moved to patient MR: # successfully*.
 
-![](delete-move-lock-documents.images/image9.png)
+![](delete-move-lock-documents.images/image8.png)
 
 {{% system-name %}} will keep a record of document moves in the revision history of the chart. In the List View of the original chart, documents will display as *Deleted*, because the document is considered *deleted* from the original chart and *moved* into the correct chart. The full contents of the document can be viewed from the correct chart.
 
-![](delete-move-lock-documents.images/image10.png)
+![](delete-move-lock-documents.images/image11.png)
 
 {{% note %}}
 
@@ -100,31 +100,31 @@ The **Document Lock** security permission must granted in order for a user to be
 
 To lock a document, find and open the document needing locked. While viewing the document, click the **Properties** link near the upper-right corner of the page.
 
-![](delete-move-lock-documents.images/image11.png)
+![](delete-move-lock-documents.images/image7.png)
 
 Once the page reloads, click the **Lock** link.
 
-![](delete-move-lock-documents.images/image12.png)
+![](delete-move-lock-documents.images/image10.png)
 
 The *Locking Document* confirmation prompt will load at the top of the document. This shows the document ID in parentheses, and a free-text field to state *Reason for Locking Document*. To proceed with locking, it is required to provide the reason. Click the **Lock Document** button, when finished.
 
-![](delete-move-lock-documents.images/image13.png)
+![](delete-move-lock-documents.images/image12.png)
 
 After locking, a confirmation will appear stating, *Document ID (#) has been locked successfully*. {{% system-name %}} will keep a record of this locked document in the revision history of the chart.
 
-![](delete-move-lock-documents.images/image14.png)
+![](delete-move-lock-documents.images/image13.png)
 
 When viewing document List Views, all locked documents will display in the list; however, all locked documents indicate their locked status, along with the provided reason for locking.
 
-![](delete-move-lock-documents.images/image15.png)
+![](delete-move-lock-documents.images/image14.png)
 
 Users without permission to view locked documents will not see any contents when trying to access a locked document. Only users with proper security permissions to lock documents can view locked documents. There are also security options for users to be able to print locked documents, if necessary.
 
-![](delete-move-lock-documents.images/image16.png)
+![](delete-move-lock-documents.images/image15.png)
 
 ## Remove Old Record Locks
 
 With the proper security permission, a user may review a full listing of current record locks on documents. Simply navigate to the **Control Panel** and select the [Record Locks](https://system/?f=admin&s=recordman&tabmodule=admin&tabselect=Record+Locks) tab. Authorized users can remove locks on individual documents, or utilize the **Remove Old Record Locks** link in the top-right corner of the page. This will remove all record locks on the list, en masse.
 
-![](https://lh6.googleusercontent.com/exBSJA02gHDiTFFsEMTTjQHWLJKpqYcigJzINqGIwFaw3JuXNzf4mhfy3FuDkUxkENORL1W_PRiAaSFPTsnBChiLNbNerlwjLA2lLnKbhnKDQ7YywtY1TsTMwy3zuiuOwDaXX4yz9cQURo5dvQ)
+![](delete-move-lock-documents.images/image16.png)
 

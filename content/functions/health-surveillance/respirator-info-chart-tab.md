@@ -22,11 +22,11 @@ This first section shows panels that are strictly related to respirator panels o
 
 This Key guide helps you manage the panel information.
 
-![](respirator-info-chart-tab.images/image2.png)
+![](respirator-info-chart-tab.images/image3.png)
 
 If you check or uncheck-mark a panel membership from here, a CHANGE REASON box will appear. This is where you type in the reason for changing or adding an employee's panel. Nothing is saved until you click the SUBMIT button at the bottom of this screen. If you add a panel to a patient, they should receive an email notification when they are due for entry orders (based on the panel components trigger event settings).
 
-![](respirator-info-chart-tab.images/image3.png)
+![](respirator-info-chart-tab.images/image2.png)
 
 Once done with any changes/edits to the Respirator Panel Membership section, make sure you click the SAVE button at the very bottom of the screen to save all your edits/entries.
 
@@ -34,7 +34,7 @@ Once done with any changes/edits to the Respirator Panel Membership section, mak
 
 This second section show the respirator fit testing. This is a flowsheet of the respirator fit testing the employee has had done. It shows the history of previous respirator fits the employee has had in a flowsheet form. You can delete anyprevious entries using the [ - ] button in the options column.
 
-![](https://lh4.googleusercontent.com/VSA_6GnRcaXnPHyBpJyjBh4XMsT8Bvstx0TVJazxvuecq5H_3Fe9LM4n-y9gmGyPriInRt44dmAiLb1st7bZk91XObMyBRBxDdDMwziRyHZrvNzZnI0PSH1SRFzK-AcPXm_ReFrrY4lou3mBOA)
+![](respirator-info-chart-tab.images/image1.png)
 
 To add a new respirator fit testing entry:
 

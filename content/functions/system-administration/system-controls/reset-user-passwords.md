@@ -16,7 +16,7 @@ Must have security permissions to be able to add/edit/delete users
 
 A user may have tried to log in using the wrong password too many times. It will then lock that user out. You will need to reset their password.
 
-![](reset-user-passwords.images/image1.png)
+![](reset-user-passwords.images/image3.png)
 
 ## Search for the User
 
@@ -33,21 +33,21 @@ You can search for a user if you know what department(s) they are attached to an
 
 This will pop-up any users that match to that last name (or first few letters of the last name if you entered).
 
-![](reset-user-passwords.images/image2.png)
+![](reset-user-passwords.images/image6.png)
 
 Once your results produce, click on the underlined username (on the left column) that you want to edit or view. This pops up the summary screen of this user's information. You can view all the information for that user. There is also links in the summary to view when the user's last login failed and when the user last logged in.
 
-![](reset-user-passwords.images/image3.png)
+![](reset-user-passwords.images/image5.png)
 
 Click the Edit User link found at the top right of this user summary screen.
 
-![](reset-user-passwords.images/image4.png)
+![](reset-user-passwords.images/image5.png)
 
 When you are in the user's username screen, scroll down to the password section towards the bottom right.
 
 Do the following 6 steps to reset a password:
 
-![](reset-user-passwords.images/image5.png)
+![](reset-user-passwords.images/image2.png)
 
 1. <strong>Password Expire Date:</strong> Must make it today's date. Simply click the TODAY button. Make it today's date. That way it prompts the user (when they login) to create their own unique password since the generic one you are setting will expire today. Passwords expire every 30 days and the user gets prompted to change their password when logging into {{% system-name %}} 30 days from when the password is set/changed. However, when creating a new user, you want it to expire ‘today' so they will be prompted immediately upon initial login so they can set their own unique password.
 2. <strong>Login Expire Date:</strong> Leave blank. If your company sets up a temporary user for a limited amount of time to access their {{% system-name %}} , they can enter a login expire date here and it will automatically (on this date entered) expire their login and they will not be allowed to log back in after the expiration date.
@@ -56,18 +56,18 @@ Do the following 6 steps to reset a password:
 
 
 
-![](reset-user-passwords.images/image6.png)
+![](reset-user-passwords.images/image4.png)
 
 
 
 5. <strong>Verify Password</strong>: Retype in the generic password you are using as the reset password for the user.
 6. <strong>Reset Fail Count:</strong> You must check-mark the <em>Reset Fail Count</em> box. If a user logs in too many times with the wrong information, the user gets locked out of the {{% system-name %}} system. You reset the password in the steps above <strong>and</strong> also checkmark this box. If you don't check-mark to reset the fail count, it still will not allow the user to login. You must check-mark this box to reset and unlock the user's login.
 
-![](https://lh6.googleusercontent.com/gd8JPuvk5mLOMHLVEpBBlBXrsz5gcJ7nwFQese7DcbWYuiZDmR3dPym1HQeHSPbrZFuNwElqOvOg3tWWVoBRBc5_Kv2Uh41p6IN2AyERGtv9klGnLS36tAVMGTBKiJEpJL77p5GfIwgrzWLSRQ)
+![](reset-user-passwords.images/image1.png)
 
 You must then click the **SUBMIT EDIT** button at the bottom of the user screen.
 
-![](https://lh3.googleusercontent.com/GbVYQ6MHWQ_T9f9dCccZd03fPW_uiYN_4aEejHxfKAiOk01kaUZDYAuSmnGoXJRKUxn6KNIXN6f7AidK7epFIQIJqUuSnck5034hm0SjVFidoDUcYuRy8ZAHzY-1tYGFyOtHxlI_RBTTth7DBA)
+![](reset-user-passwords.images/image2.png)
 
 The user is now unlocked and can now log back into {{% system-name %}} with the password you reset it to and be prompted to change it to their own unique password can hold up to 50 characters and can be configured with alpha, capital letters, lowercase, numbers or other extended characters. Please have user read other help documentation named *Log On to |system|.pdf* for more specific information on passwords and the configurations, restrictions, and password expirations.
 

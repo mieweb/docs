@@ -18,7 +18,7 @@ There is a feature in the immunization/injections module to add Allergy Vials fr
 
 
 
-![](injection-tab-vials.images/image1.png)
+![](injection-tab-vials.images/image9.png)
 
 
 
@@ -28,7 +28,7 @@ Enter the information in each field.  
 
 
 
-![](injection-tab-vials.images/image2.png)
+![](injection-tab-vials.images/image14.png)
 
 
 
@@ -36,7 +36,7 @@ Click the ADD button when done entering the vial(s) you wish. After you enter vi
 
 
 
-![](injection-tab-vials.images/image3.png)
+![](injection-tab-vials.images/image15.png)
 
 
 
@@ -48,7 +48,7 @@ Then, click the ADD INJECTIONS FOR VIALS button under the vials summary listing.
 
 
 
-![](injection-tab-vials.images/image4.png)
+![](injection-tab-vials.images/image6.png)
 
 
 
@@ -58,7 +58,7 @@ Fill out the injection fields with the information.  Fields will be auto-popula
 
 
 
-![](injection-tab-vials.images/image5.png)
+![](injection-tab-vials.images/image12.png)
 
 
 
@@ -90,7 +90,7 @@ When working in an encounter, your MIE Implementer can have the Vials section pr
 
 
 
-![](injection-tab-vials.images/image6.png)
+![](injection-tab-vials.images/image3.png)
 
 
 
@@ -100,7 +100,7 @@ If you are a practice that uses the Vials for patients, you can have your MIE Im
 
 
 
-![](injection-tab-vials.images/image7.png)
+![](injection-tab-vials.images/image18.png)
 
 
 
@@ -122,7 +122,7 @@ Make the edits to the fields you wish.
 
 
 
-![](injection-tab-vials.images/image9.png)
+![](injection-tab-vials.images/image10.png)
 
 
 
@@ -138,7 +138,7 @@ To Delete a Vial, simply click the Delete link in the Options column next to the
 
 
 
-![](injection-tab-vials.images/image10.png)
+![](injection-tab-vials.images/image5.png)
 
 
 
@@ -146,7 +146,7 @@ Click the DELETE button.  Once you click delete, it will delete the vial.  The
 
 
 
-![](injection-tab-vials.images/image11.png)
+![](injection-tab-vials.images/image13.png)
 
 
 
@@ -158,7 +158,7 @@ If you wish to view or retrieve a deleted vial, from the main Injections summary
 
 
 
-![](injection-tab-vials.images/image12.png)
+![](injection-tab-vials.images/image1.png)
 
 
 
@@ -168,7 +168,7 @@ If you wish to retrieve (undelete) a vial, simply click the link undelete from t
 
 
 
-![](injection-tab-vials.images/image13.png)
+![](injection-tab-vials.images/image11.png)
 
 
 
@@ -176,7 +176,7 @@ It then brings up the details of the vial.  Click UNDELETE button at the bottom
 
 
 
-![](injection-tab-vials.images/image14.png)
+![](injection-tab-vials.images/image19.png)
 
 
 
@@ -192,7 +192,7 @@ Copy is a quick way to enter another vial using a previous/old vial information.
 
 
 
-![](injection-tab-vials.images/image15.png)
+![](injection-tab-vials.images/image16.png)
 
 
 
@@ -202,7 +202,7 @@ This is just a quick way to enter another vial without having to re-enter field 
 
 
 
-![](injection-tab-vials.images/image16.png)
+![](injection-tab-vials.images/image2.png)
 
 
 
@@ -218,7 +218,7 @@ Contact your MIE Implementer to set the doc.type to the system setting.  The do
 
 
 
-![](injection-tab-vials.images/image17.png)
+![](injection-tab-vials.images/image7.png)
 
 
 
@@ -226,7 +226,7 @@ Using a flatbed scanner to scan a Vial sheet, simply click the Scan link in the 
 
 
 
-![](injection-tab-vials.images/image18.png)
+![](injection-tab-vials.images/image17.png)
 
 
 
@@ -236,7 +236,7 @@ The document scan control will appear on the screen.  Proceed to scan in the vi
 
 
 
-![](injection-tab-vials.images/image19.png)
+![](injection-tab-vials.images/image4.png)
 
 
 

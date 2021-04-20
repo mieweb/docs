@@ -19,7 +19,7 @@ From the **Insurance Eligibility** chart tab, the **Insurance Eligibility Reques
 
 
 
-![](insurance-eligibility-tab.images/image1.png)
+![](insurance-eligibility-tab.images/image2.png)
 
 
 
@@ -33,7 +33,7 @@ When you click the Send Request button, the request will be sent and eligibility
 
 
 
-![](insurance-eligibility-tab.images/image2.png)
+![](insurance-eligibility-tab.images/image1.png)
 
 
 

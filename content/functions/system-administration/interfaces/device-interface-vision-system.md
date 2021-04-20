@@ -23,11 +23,11 @@ The following is referring to a Vision - Titmus i500 system. Contact your MIE Im
 
 * Select import results button
 
-![](device-interface-vision-system.images/image2.png)
+![](device-interface-vision-system.images/image3.png)
 
 * Results will be imported to the correct folder "-LCC Vision Results".
 
-![](device-interface-vision-system.images/image3.png)
+![](device-interface-vision-system.images/image2.png)
 
 * Select close.
 * Open {{% system-name %}} (if not already open) and pick correct patient.
@@ -40,11 +40,11 @@ The following is referring to a Vision - Titmus i500 system. Contact your MIE Im
         * Right click on filebox
         * Choose set smartcard folder
 
-![](device-interface-vision-system.images/image4.png)
+![](device-interface-vision-system.images/image5.png)
 
 * Select the correct location of the Titmus vision files which will be "-LCC Vision Results" and select ok.
 
-![](device-interface-vision-system.images/image5.png)
+![](device-interface-vision-system.images/image4.png)
 
 * Titmus vision files will populate the filebox
 

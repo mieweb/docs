@@ -35,9 +35,9 @@ Click SUBMIT to show search results.
 
 The results show the compliance report card for the physician(s) you selected if you did *not* check-mark to list the patients.
 
-![](non-compliant-report.images/image2.png)
+![](non-compliant-report.images/image3.png)
 
 If you check-marked to list the patients, it will then list the specific patients that are non-compliant according to the fields you entered for the report.
 
-![](non-compliant-report.images/image3.png)
+![](non-compliant-report.images/image2.png)
 

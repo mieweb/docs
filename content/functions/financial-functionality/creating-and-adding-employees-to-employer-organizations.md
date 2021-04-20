@@ -12,8 +12,8 @@ Typically, employees are added to employer organizations automatically based on 
 When creating and adding employees to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient chart for the employee and the process is completed from the patient demographics screen.
 
 * [Find the employer organization](finding-employer-organizations.html) to which to add an employee.
-* Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees of the employer organization.  ![](creating-and-adding-employees-to-employer-organizations.images/image1.png)  ![](creating-and-adding-employees-to-employer-organizations.images/image2.png) 
-* At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.  ![](creating-and-adding-employees-to-employer-organizations.images/image3.png)
+* Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees of the employer organization.  ![](creating-and-adding-employees-to-employer-organizations.images/image1.png)  ![](creating-and-adding-employees-to-employer-organizations.images/image3.png) 
+* At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.  ![](creating-and-adding-employees-to-employer-organizations.images/image2.png)
 * {info } The Social Security Number and email address are optional.{/info}
 * If the employer organization includes partitions, in the <em>Partition</em> field, select <strong>the appropriate partition</strong> in which the employee's patient chart will be created.
 * In the <em>Birth Date</em> field, type in the <strong>Month</strong>, <strong>Day</strong>, and <strong>Year</strong> fields or select <strong>Calendar</strong> to select the employee's birth date from a calendar.

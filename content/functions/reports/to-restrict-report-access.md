@@ -27,13 +27,13 @@ If the user has the **Limit to Restricted Items **security setting set to **Yes*
 
 MIE programs and names all layouts. If a user has the **Manage Layouts** security preference set to **Yes**, that user will be able to access the layout name directly from the report needing restricted. In order to restrict a report, the name of the system report layout to which the report is pointed is necessary. 
 
-![](to-restrict-report-access.images/image1.png)
+![](to-restrict-report-access.images/image5.png)
 
-1. To begin, go to the Reports sidemenu and locate the report needing restricted. Click the <strong>Show Rendered Layout Information</strong> (Inline) icon (![](to-restrict-report-access.images/image2.png)) in the upper-right corner of the window.
+1. To begin, go to the Reports sidemenu and locate the report needing restricted. Click the <strong>Show Rendered Layout Information</strong> (Inline) icon (![](to-restrict-report-access.images/image6.png)) in the upper-right corner of the window.
 
 
 
-![](to-restrict-report-access.images/image3.png)
+![](to-restrict-report-access.images/image13.png)
 
 
 
@@ -41,7 +41,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image4.png)
+![](to-restrict-report-access.images/image2.png)
 
 
 
@@ -49,7 +49,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image5.png)
+![](to-restrict-report-access.images/image14.png)
 
 
 
@@ -57,7 +57,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image6.png)
+![](to-restrict-report-access.images/image8.png)
 
 
 
@@ -72,7 +72,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image7.png)
+![](to-restrict-report-access.images/image1.png)
 
 
 
@@ -80,7 +80,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image8.png)
+![](to-restrict-report-access.images/image10.png)
 
 
 
@@ -88,7 +88,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image9.png)
+![](to-restrict-report-access.images/image11.png)
 
 
 
@@ -96,7 +96,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image10.png)
+![](to-restrict-report-access.images/image3.png)
 
 
 
@@ -104,7 +104,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image11.png) 
+![](to-restrict-report-access.images/image12.png) 
 
 
 
@@ -117,7 +117,7 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image12.png) 
+![](to-restrict-report-access.images/image4.png) 
 
 
 
@@ -128,8 +128,8 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 
 
-![](to-restrict-report-access.images/image13.png)
+![](to-restrict-report-access.images/image7.png)
 
 
 
-13. When a user is restricted from a report, they will be presented with the following message:  ![](to-restrict-report-access.images/image14.png)
+13. When a user is restricted from a report, they will be presented with the following message:  ![](to-restrict-report-access.images/image9.png)

@@ -28,7 +28,7 @@ You can add a partition by selecting *Add Partition* link from the top right cor
 
 It will open to the Partition Add screen:
 
-![](partition-manager.images/image2.png)
+![](partition-manager.images/image3.png)
 
 * <strong>Partition:</strong> Enter the abbreviation for the partition. <strong>Must</strong> be in uppercase letters. This is a coded name for the partition. This is what will be stored in the DB. Preferred format is no spaces and in all CAPS. Maximum 15 characters.
 * <strong>WC GUID:</strong> This is a Globally Unique IDentifier. This is only needed if patients in this partition will be sent out of the system via Data Send Interface. Data send interface requires a unique identifier for each partition so that it's easy to understand which system it comes from. Technically, this field just has to be unique; but for sending data between {{% system-name %}} or NMC systems, this field needs to be the system OID (Object Identifier) followed by the next numeric value. For example: System OID = 1.2.840.114398.1.710; WC GUID (partition 1) = 1.2.840.114398.1.710.1; WC GUID (partition 2) = 1.2.840.114398.1.710.2
@@ -37,7 +37,7 @@ It will open to the Partition Add screen:
 * <strong>MR Sequence:</strong> This is used for Auto Assigned MR Numbers to set where the numbers will begin numerically. See View Type below on how to make a partition Auto Assigned. You can edit within the particular partition, but if the client has a PM system we are interfacing w/ than they would want to make the edit in that system so the edit will come across the feed and update {{% system-name %}} .  For example: MR Sequence = 10000 - Next patient registered into that partition will have the MRN=10001 The next patient after that registered into that partition will have the MRN=10002, the next 10003, etc…
 * <strong>Partition View:</strong> This determines how the MRNs in this partition will be assigned. There are several options in an attempt to meet all client needs. How a user will be able to see, view or search for a partition. View Types:
 
-![](partition-manager.images/image3.png)
+![](partition-manager.images/image2.png)
 
 * <strong>View Only</strong>: This partition has no way of assignment inside of the system. The partition is likely populated by an interface and the value of the MRN should not be editable or removed.
 * <strong>Auto Increment</strong>: All MRNs in this partition are sequential starting at the value in MR Sequence. The assignment of a MRN in this partition is optional via checkbox inside of the system's patient registration and edit demographic screens by default.

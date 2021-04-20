@@ -182,7 +182,7 @@ What you will need:
 
 
 
-![](create-audiometric-data-file-for-import.images/image1.png)  ![](create-audiometric-data-file-for-import.images/image2.png)
+![](create-audiometric-data-file-for-import.images/image5.png)  ![](create-audiometric-data-file-for-import.images/image6.png)
 
 * Save the file as CSV format.
 
@@ -193,7 +193,7 @@ What you will need:
 
 
 
-![](create-audiometric-data-file-for-import.images/image3.png)
+![](create-audiometric-data-file-for-import.images/image4.png)
 
 
 
@@ -201,7 +201,7 @@ What you will need:
 
 
 
-![](create-audiometric-data-file-for-import.images/image4.png)
+![](create-audiometric-data-file-for-import.images/image3.png)
 
 
 
@@ -209,11 +209,11 @@ What you will need:
 
 
 
-![](create-audiometric-data-file-for-import.images/image5.png)
+![](create-audiometric-data-file-for-import.images/image2.png)
 
 
 
-5. Select the Audiometric Data CSV File and click <strong>Upload</strong>.    ![](create-audiometric-data-file-for-import.images/image6.png)
+5. Select the Audiometric Data CSV File and click <strong>Upload</strong>.    ![](create-audiometric-data-file-for-import.images/image1.png)
 
 
 

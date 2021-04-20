@@ -2,7 +2,7 @@
 title: "Financial reports"
 date: "2021-02-17T19:42:45.858Z"
 url: "functions/financial-functionality/financial-reports.html"
-author: Adam Humes
+author: ahumes
 version: 10
 id: "1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ"
 source: "https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ"

@@ -25,11 +25,11 @@ When the Fill Report tab is clicked, it shows the search fields at the top, and 
     * <strong>Dispense</strong>: will report by the date the fill was dispensed.
 * <strong>Report Method</strong>: If select View Details report method, then the username/patient name fields appear to key in (if wish) to filter the fill report by specific user and/or patient details. This method (view details) will show your report results by patient / user specific in a list view.
 
-![](fill-reports.images/image2.png)
+![](fill-reports.images/image3.png)
 
 If select **Trend** you then select to trend by hour, day, week, month, etc and then enter the date range to run the report for. It then gives you a plot graph along with the trending selected.
 
-![](fill-reports.images/image3.png)
+![](fill-reports.images/image2.png)
 
 * <strong>Date Range</strong>: Can enter a date range of the dates the fill was done.
 

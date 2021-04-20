@@ -30,7 +30,7 @@ The first screenshot shows a simple CSV file containing the required field and s
 
 
 
-![](observation-codes-csv-api.images/image1.png)
+![](observation-codes-csv-api.images/image2.png)
 
 
 
@@ -38,7 +38,7 @@ This screenshot shows how the Bilirubin observation code should appear when view
 
 
 
-![](observation-codes-csv-api.images/image2.png)
+![](observation-codes-csv-api.images/image1.png)
 
 
 

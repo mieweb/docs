@@ -36,7 +36,7 @@ By default, the Case section in encounters will display the following case types
 
 
 
-![](adding-non-osha-case.images/image1.png)
+![](adding-non-osha-case.images/image8.png)
 
 
 
@@ -44,7 +44,7 @@ If you wish to document a new case, expand to open the Case section in the dynam
 
 
 
-![](adding-non-osha-case.images/image2.png)
+![](adding-non-osha-case.images/image4.png)
 
 
 
@@ -52,7 +52,7 @@ Once the Case section is expanded, indicate which type of case to create on the 
 
 
 
-![](adding-non-osha-case.images/image3.png)
+![](adding-non-osha-case.images/image1.png)
 
 
 
@@ -66,7 +66,7 @@ Upon documenting the radio button selection, the case section will branch open t
 
 
 
-![](adding-non-osha-case.images/image4.png)
+![](adding-non-osha-case.images/image5.png)
 
 
 
@@ -76,7 +76,7 @@ The return to work (RTW) dates may be entered now or in later during the case ma
 
 
 
-![](adding-non-osha-case.images/image5.png)
+![](adding-non-osha-case.images/image11.png)
 
 ### Location
 
@@ -84,7 +84,7 @@ The location section displays to document where the injury occurred specifically
 
 
 
-![](adding-non-osha-case.images/image6.png)
+![](adding-non-osha-case.images/image9.png)
 
 
 
@@ -92,7 +92,7 @@ If selecting Offsite Location, then the fields that branch open are required fre
 
 
 
-![](adding-non-osha-case.images/image7.png)
+![](adding-non-osha-case.images/image3.png)
 
 
 
@@ -102,7 +102,7 @@ In the incident details section is where answers to 3 required questions on how 
 
 
 
-![](adding-non-osha-case.images/image8.png)
+![](adding-non-osha-case.images/image2.png)
 
 
 
@@ -114,7 +114,7 @@ Here you can document the nature of injury or illness using a drop-down selectio
 
 
 
-![](adding-non-osha-case.images/image9.png)
+![](adding-non-osha-case.images/image10.png)
 
 
 
@@ -125,7 +125,7 @@ Selecting Contaminated Sharp as the nature of injury will expand 3 additional fi
 {{% /info %}}
 
 
-![](adding-non-osha-case.images/image10.png)
+![](adding-non-osha-case.images/image6.png)
 
 ### Work Status (or Lost Time) Section
 
@@ -141,7 +141,7 @@ Some dynamic encounters offer an Incident Summary section.  This is an expand
 
 
 
-![](adding-non-osha-case.images/image11.png)
+![](adding-non-osha-case.images/image7.png)
 
 
 

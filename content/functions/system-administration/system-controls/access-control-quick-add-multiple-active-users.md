@@ -27,7 +27,7 @@ It will show the list of departments your system has entered.
 
 You can search for a user if you know what department(s) they are attached to and view that way. Click the underlined department name and you will see all users tied to that department.
 
-![](access-control-quick-add-multiple-active-users.images/image1.png)
+![](access-control-quick-add-multiple-active-users.images/image4.png)
 
 However, it is much easier to search by a user's last name. In the Search box at the top of the Access Control tab you are in:
 
@@ -49,7 +49,7 @@ Click *Access Control* tab at the top
 
 Click the Quick Add Users link on the far right side.
 
-![](access-control-quick-add-multiple-active-users.images/image2.png)
+![](access-control-quick-add-multiple-active-users.images/image4.png)
 
 This will take you to the screen where you can add several users at once. These will place all of these users as active status with the password and login that you specify. There are two sections to quick add users.
 
@@ -57,7 +57,7 @@ The first section is where you add multiple active physicians for access to your
 
 The (?) help bubble helps explain this screen.
 
-![](access-control-quick-add-multiple-active-users.images/image3.png)
+![](access-control-quick-add-multiple-active-users.images/image5.png)
 
 This screen is **not** used to manage existing users. You cannot edit, delete or deactivate existing users here. This screen is for quickly adding multiple users at once to gain quick access into your  {{% system-name %}} system. Adding users from this screen will set these users as active and also will set the login and password to what you specify. The passwords you enter will expire immediately, so users will be prompted to create their own unique password the first time they log in.
 
@@ -71,7 +71,7 @@ The password is displayed on the screen as hidden, but one can click "*click to 
 
 No users are entered as active users into the system until the SUBMIT button is clicked.
 
-![](access-control-quick-add-multiple-active-users.images/image4.png)
+![](access-control-quick-add-multiple-active-users.images/image7.png)
 
 To add more details to the users that you are quickly adding (such as address, phone, fax, email, credentials, other departments, pin, security questions, etc.), you will need to go to the Access Control tab, search and find the specific user(s), then edit that user(s) and enter in the other detail fields.
 
@@ -79,19 +79,19 @@ Clicking any SUBMIT button will submit all entries made in either section.
 
 Once you click the SUBMIT button, it will refresh you back to the Access Control tab/screen and give you confirmation that the user was successfully added.
 
-![](access-control-quick-add-multiple-active-users.images/image5.png)
+![](access-control-quick-add-multiple-active-users.images/image6.png)
 
 Upon confirmation, the users will be added as active users to your system and can now login using the username and password that you set. They will then be prompted to create their own unique password upon initial login.
 
 If there were any errors or problems with creating the user in the system, it will also give a message explaining what needs done. You would need to re-enter that user and follow the reason it guides you to fix because any user trying to be added that gives an error is *not*inserted/submitted into the system.
 
-![](access-control-quick-add-multiple-active-users.images/image6.png)
+![](access-control-quick-add-multiple-active-users.images/image2.png)
 
 When accessing the Quick Add Users screen, both sections will list to show the active users that have been created in the last 30 minutes (limit 5), so newly added users will appear at the top of the appropriate list-edit for the next 30 minutes.
 
-![](access-control-quick-add-multiple-active-users.images/image7.png)
+![](access-control-quick-add-multiple-active-users.images/image1.png)
 
 You can quickly tag multiple users to a specific department by going to "View Department" and using the listedit & autocomplete feature there. See help documentation titled [Managing Departments](../../system-configuration/managing-departments.html) for more information.
 
-![](https://lh3.googleusercontent.com/tLop0DILBMwcl2SOYLTHoQG0tiYRQmod74tXAnlUHCd2lrVxIIxYzgkepVtay-16hUYy-ZVuuWClMTiRwfhcm8nV0EBN5JeJryJIBGpASRVIfmGpsmxPZsSWC5yj2BzfQF2YRZP26_NR68FKCQ)
+![](access-control-quick-add-multiple-active-users.images/image3.png)
 

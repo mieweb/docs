@@ -20,7 +20,7 @@ From anywhere while working in the chart, if the chart has current active restri
 
 
 
-![](viewing-restrictions-and-accommodations.images/image1.png)
+![](viewing-restrictions-and-accommodations.images/image5.png)
 
 
 
@@ -36,7 +36,7 @@ From the lost time or the restrictions brief info in the chart info bar, there i
 
 
 
-![](viewing-restrictions-and-accommodations.images/image3.png)
+![](viewing-restrictions-and-accommodations.images/image6.png)
 
 
 
@@ -44,7 +44,7 @@ The Show More link will take you to the Restrictions/Lost Time chart tab summary
 
 
 
-![](viewing-restrictions-and-accommodations.images/image4.png)
+![](viewing-restrictions-and-accommodations.images/image7.png)
 
 
 
@@ -52,7 +52,7 @@ To go to the detailed view, simply go to the right side and click the detail vie
 
 
 
-![](viewing-restrictions-and-accommodations.images/image5.png)
+![](viewing-restrictions-and-accommodations.images/image4.png)
 
 
 
@@ -64,7 +64,7 @@ To go back to the bulleted summary view, simply click the summary view icon at t
 
 
 
-![](viewing-restrictions-and-accommodations.images/image6.png)
+![](viewing-restrictions-and-accommodations.images/image10.png)
 
 
 
@@ -74,7 +74,7 @@ While working in an encounter, there is a Subjective section that you can jump t
 
 
 
-![](viewing-restrictions-and-accommodations.images/image7.png)
+![](viewing-restrictions-and-accommodations.images/image9.png)
 
 
 
@@ -91,7 +91,7 @@ Any active current restrictions that are specifically linked to a case/incident 
 
 
 
-![](viewing-restrictions-and-accommodations.images/image8.png)
+![](viewing-restrictions-and-accommodations.images/image1.png)
 
 
 
@@ -105,7 +105,7 @@ Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time. Â
 
 
 
-![](viewing-restrictions-and-accommodations.images/image9.png)
+![](viewing-restrictions-and-accommodations.images/image8.png)
 
 
 
@@ -124,7 +124,7 @@ In order to view inactive restrictions within an encounter, simply click the enc
 
 
 
-![](viewing-restrictions-and-accommodations.images/image10.png)
+![](viewing-restrictions-and-accommodations.images/image3.png)
 
 
 

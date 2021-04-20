@@ -30,7 +30,7 @@ The *MEDS* summary screen pops up and lists allergies, refills due (if any) and 
 
 Towards the top left under patient name and other info it gives you the option to set Preferred Pharmacy. Towards the right side under the other info, it gives you the option to set Preferred Days Supply. Clicking either of these links will allow you to select for both at the same time and set both fields in one step.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image2.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image3.png)
 
 ### Preferred Pharmacy
 
@@ -40,7 +40,7 @@ Click Preferred Pharmacy to either SELECT a pharmacy for this patient or to CHAN
 
 You can search for pharmacies via state/city or zip code. We suggest searching by zip code because for example: some pharmacies from the database may be loaded as Ft Wayne vs Fort Wayne, but the search should find those and we can add a list of normalized city names as needed. Some cities may be spelled out differently. In the blank pharmacy field type at least the **first three (3) letters** of the pharmacy and it will take you to those pharmacies matching those initial characters. It may take a few seconds to load selections because it is looking through the NPI pharmacy directory and the SureScripts database of national pharmacies for that area in your search criteria. This field searches those directories. This search field is not pointed to any {{% system-name %}} departments. If the pharmacy you want is not found in the search, there is no way to add it to the directories. Adding a pharmacy to a department in {{% system-name %}} username screen will not show here. The pharmacy selections from the NPI database & SureScripts database and are updated nightly.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image3.png) ![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image4.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image2.png) ![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image5.png)
 
 If you can't find the specific pharmacy you need, please be sure to search via zip code search criteria. Some cities are stored in the directories differently (ex: Fort Wayne vs Ft Wayne) and MIE has no control of how those are stored and directed to {{% system-name %}} from SureScripts, but the search should find those and we can add a list of normalized city names as needed. It's best to do a zip code search. Zip code search will search for pharmacies 100 miles around the center of the zip code. The first 30 will render with the closest ones first in the list.
 
@@ -48,13 +48,13 @@ If you can't find the specific pharmacy you need, please be sure to search via z
 * <strong>Mail Only option:</strong> Checking this box limits the results to pharmacies in the SureScripts and/or NPI pharmacy directories to mail in pharmacies only. This option is used mostly when setting the patient's preferred mail in pharmacy or when searching for a mail-in pharmacy to transmit to.
 * <strong>Fax # / Phone # Search:</strong> You can do a reverse search for a pharmacy if you know the pharmacy's specific fax number or phone number. Instead of searching for the name of the pharmacy, you are searching for pharmacy matches by fax/phone number of the pharmacy that you know. This could be utilized when a patient states a pharmacy that may have had a name change. The patient may know the pharmacy by one name, yet the SureScripts and NPI database have it stored as an official/different name. To search for a pharmacy by its known fax or phone number, first make sure the <em>pharmacy field</em> is cleared. Click the clear button to clear that field. Then select the radio button to search by fax or phone number of the pharmacy. Proceed to type in at least the first 6 digits (including area code) of the fax or phone number for the pharmacy you are searching for. The first 6 digits are required. You can type them all run together (ex: 260483) or include a space or dash (ex: 260 483 or 260-483). Once you have at least the first 6 digits of the pharmacy's fax or phone number you are searching for, hit your TAB key to advance and then any matching results will render.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image5.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image4.png)
 
 When you find the patient's preferred pharmacy they wish to be set to, simply use your mouse to select it.
 
 Pharmacies showing in **blue** are capable to e-transmit to using the SureScripts feature. It doesn't mean it will be electronically transmitted to that pharmacy though unless you are a certified e-prescriber with SureScripts (see other help documentation named *Setting Up E-Prescribers.pdf* to become certified). The bold **blue** just signifies that this pharmacy is indeed capable to electronically transmit to via the SureScripts feature. The other pharmacies in grey are valid pharmacies from the either database, but they would be transmitted via standard fax from {{% system-name %}} because they are not capable of receiving via electronic transmit. The other symbols next to the pharmacies denote what type of pharmacy it is and certification status.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image6.png) ![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image7.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image2.png) ![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image6.png)
 
 Once you have selected the patient's preferred pharmacy to store on their chart, click the SET AS PREFERRED button. This will store the pharmacy as the patient's preferred pharmacy they use.
 
@@ -66,17 +66,17 @@ To set this, you would do the same steps as the above in setting the Preferred P
 
 When you have found the patient's preferred Mail-In Pharmacy, click the SET AS MAIL-IN button and it will store in the patient's chart. If you do not find a specific Mail-In Pharmacy and you've exhausted all search methods, contact your MIE Implementer. Your Implementer can add to the mail-in pharmacy list if requested by a practice, however the Mail-In Pharmacy will show system wide for any and all {{% system-name %}} practice systems. If you wish a mail-in pharmacy to be added to the searchable database, contact your MIE Implementer and specific information will need to be gathered and applied before this can/will be added to the system wide database. This is only for Mail-In Pharmacies, not regular preferred pharmacies which need to pull from SureScripts or NPI databases.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image9.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image7.png)
 
 * <strong>Mail Only option:</strong> Checking this box limits the results to pharmacies in the SureScripts and/or NPI pharmacy directories to mail in pharmacies only. This option is used mostly when setting the patient's preferred mail in pharmacy or when searching for a mail-in pharmacy to transmit to.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image10.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image2.png)
 
 ## Set Preferred Days Supply
 
 Make sure system setting is turned on for this Days Supply field to show on screen of e-meds module:
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image11.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image9.png)
 
 ### Preferred Days Supply
 
@@ -96,7 +96,7 @@ Click on the down-arrow button in the next field. This will pop up 21, 30, 60, 9
 
 If you chose the wrong one, follow the above steps again. If the days supply the patient uses is **not** in this list, choose the **blank** field at the very top of the list of days supply choices using the scroll bar and highlight and click on this blank field. (At the very top of the listing) This will then make it say Not Selected for this patient.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image12.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image10.png)
 
 Then click SET. It will now show up next to Preferred Pharmacy: for this patient.
 
@@ -112,34 +112,34 @@ Review the patient's medication history and if all is to your approval then clic
 
 It will pop-up a confirmation asking if you're sure you want to verify the medications record for the patient
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image13.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image11.png)
 
 Click Verify or Cancel. If click VERIFY, it will then show the meds history as
 
 **List of Verifications** with the date you verified, the time you verified, and your username.
 
-![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image14.png)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image12.png)
 
 When a medication history has been verified, it shows the meds history as **List of Verifications Verified On:** with the date last verified, the time last verified, and the username who last verified this Medication History content. If you wish to verify again (ex: is has been a month and changes were made, etc) then click **Verify** and it will alert you if you really wish to verify or not. If you verify, it will then save this verification as *Verified On*. It only saves the last verification. This verification date/time may also print on your system's Med Sheet if your practice has it set up to do so.
 
 If you wish to see an entire list of verifications done on this patient's medication history, then click **List Verifications**.
 
-![](https://lh5.googleusercontent.com/3R6ZAvhRok0eW0BFfxvQxUrrT-agCFgaGpxDvHn3z4c52R2TdvFve8IdXkN7jOJ0x_w-1C1p2Y8ADXbEZQ7Mn8MYan448LvePzP7BPmStXtXK_942a3DT-zuaYOeNGJYnbHqn_6p3xeTl6PlxQ)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image12.png)
 
 The Meds + Allergies list of verifications will display. You can also click View Doc to view that specific Med Sheet with all the meds/allergies for that specific verification that was done.
 
-![](https://lh4.googleusercontent.com/WEHlgmzWxmoRsJEz_Qnr74vB7LvR-GMJAPN2gfyTJuYM4DWVu9btA4ZVICouGw7bVg1KkPblMs05y2hFkQuU9-kLxYSyo1WE4xEvmD5wmSCG4PedQlhxKzZuuBWVo1YT6TsoZtlXn1dFGPvCqg)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image13.png)
 
 If a patient never had their medication history verified, you would see the following statement in their Medications History screen: *The accuracy of this content has not yet been verified.*
 
-![](https://lh6.googleusercontent.com/_fIYf6tWHTfPWi5XZEQHnB_b1-yXT2_7VgiyeD6ADNknjpB5nvrPVVhMphJCJUO1Qd4yQxtEQfnBDG17narpZ2bUsxhYbaa7gFxPDi17olZZD4omJODKwLd1QFVxDCh04yMr4iWY88hf_cZLkA)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image14.png)
 ## Select Current Library
 
 This does NOT save for a patient. This is just for you as a user to select a physician/person's library of prescriptions you want to work in. You can switch here when in different patients. If you only work for 1 physician primarily, you can select his/her name here in the library and that's what will be defaulted to for **every patient's chart** you work in, unless you change it here.
 
 This allows you to work under a library/physician for prescribing without having to always go to your control settings.
 
-![](https://lh5.googleusercontent.com/zWpO2b2g6RIox4Ldteo5jdL8hIcUj-fQJCOYlOlN7RcqKxbNbEGgBeMcyaLbizn8jSh_mE-cJcIAe7j1jGKHqgpZFAFH9usL700woi-cSHtOQdCLfgLguBK92aBxERfI43qnutBlubzcMSZiRg)
+![](setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.images/image3.png)
 
 If you wish to change library/physician for prescribing click Current Library in the patient's med screen.
 

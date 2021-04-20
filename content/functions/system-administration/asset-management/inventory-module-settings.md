@@ -12,13 +12,13 @@ menu:
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
         weight: 5670
 ---
-![](inventory-module-settings.images/image1.png)
+![](inventory-module-settings.images/image4.png)
 
 ## Inventory Module Security Settings
 
 The following are security settings available for users in order to utilize the Inventory module.
 
-![](inventory-module-settings.images/image2.png)
+![](inventory-module-settings.images/image6.png)
 
 * <strong>View Inventory:</strong> Allows users access to the <em>Inventory</em> tab and modality on the left side bar menu.
 * <strong>Receive Inventory:</strong> Allows users to access and use the <em>Add Inventory</em> and <em>Add Donated</em> tabs to add/receive meds into Inventory.
@@ -41,7 +41,7 @@ The following are security settings available for users in order to utilize the 
 
 The following are user preferences available for users in order to utilize the Inventory module.
 
-![](inventory-module-settings.images/image3.png)
+![](inventory-module-settings.images/image5.png)
 
 * <strong>Transaction Search:</strong> In the Inventory module, this user preference to <em>Show Search</em> or <em>Hide Search</em> determines if the transaction screen advanced search fields will automatically show or hide on the landing page each time the user opens the Transaction Search tab of Inventory module.
 * <strong>Number of Verify Needed:</strong> Select # of Verification Needed Fills you wish to display on your screen for each patient at a time. Example: if select 5 as your user preference, it will only show the first 5 Verification Needed Fills for that patient, then you would click <em>next</em> to get the next 5, etc. This applies to MedQueue tab and Dispense tab and if verification functionality is turned on via system setting for the {{% system-name %}} system.
@@ -52,19 +52,19 @@ The following are user preferences available for users in order to utilize the I
 
 The following are system settings available for enabled or disabled features and functionality for the Inventory module. Some inventory system settings will not show up (will not be triggered to be able to view or set enable/disable functionality in System Settings module) until you have added inventory and done some setup in the {{% system-name %}} system and/or prescribed and/or done a test dispense/fill.
 
-![](inventory-module-settings.images/image4.png) ![](inventory-module-settings.images/image5.png)
+![](inventory-module-settings.images/image8.png) ![](inventory-module-settings.images/image7.png)
 
-![](inventory-module-settings.images/image6.png)
+![](inventory-module-settings.images/image10.png)
 
-![](inventory-module-settings.images/image7.png)
+![](inventory-module-settings.images/image9.png)
 
-![](inventory-module-settings.images/image8.png)
+![](inventory-module-settings.images/image12.png)
 
 #### Injections
 
 * <strong>E-Chart, Injections, Show Inventory Qty in Autocompletes:</strong> Disabled (value 0) by default, but recommended to enable if using inventory module for immunizations. If enabled (value 1), while working in <em>Add Injection/Immunization</em> module to document an injection, it will show the total QTY (quantity) next to any injection/immunization you are documenting available in inventory and also shows QTY (quantity) for that specific vial/lot# available in that field. This allows seeing the quantity for the injection/immunization you have in inventory and per specific lot, for decrementing inventory for injections/immunizations mapped to inventory.
 
-![](inventory-module-settings.images/image9.png)
+![](inventory-module-settings.images/image11.png)
 
 #### Inventory
 
@@ -72,27 +72,27 @@ The following are system settings available for enabled or disabled features and
 * <strong>E-Chart, Inventory, By Site:</strong> Disabled (value 0) by default. If enabled (value 1), you can add inventory to master list, add inventory quantity when receiving new inventory items and decrement inventory by a specific site/location.
 * <strong>E-Chart, Inventory, OfficeFill Task:</strong> Default value is OfficeFill meaning it is pointing to the fast task named <em>OfficeFill</em> when prescriptions to "fill" from inventory are signified via the prescription while working in a patient encounter and the <strong>[ x] Fill</strong> checkbox is marked or if radio button <em>patient is in office</em> while prescribing from Medications chart tab and the Fill Script date is entered along with radio button <em>patient in office</em>. This will trigger that fast task and put the fill request in the Med Queue tab under <em>In Office Fill Requests</em> for staff to work.
 
-![](inventory-module-settings.images/image10.png)
+![](inventory-module-settings.images/image15.png)
 
 * <strong>E-Chart, Inventory, PhoneFill Task:</strong> Default value is PhoneFill meaning it is pointing to the fast task named <em>PhoneFill</em> when prescriptions to "fill" from inventory are signified via the prescription if radio button <em>patient Phone</em> while prescribing from Medications chart tab. This will trigger that fast task and put the fill request in the Med Queue tab under <em>Phone Fill Requests</em> for staff to work.
 
-![](inventory-module-settings.images/image11.png)
+![](inventory-module-settings.images/image13.png)
 
 * <strong>E-Chart, Inventory, Prescribe From Inventory</strong>: Disabled (value 0) by default and most likely to remain off for practices. If enabled (value 0) then this would limit the {{% system-name %}} system for staff to only see auto-complete choices for prescribing meds to be meds only in their inventory. They would not be able to prescribe any medication choices or prescriptions for any meds that they do not have in their inventory. If enabled, staff is only allowed to prescribe and only sees medication autocomplete choices to prescribe meds only from inventory in their system and nothing else. So if a patient needed a prescription for Tylenol, but you don't dispense or have Tylenol in your inventory system, the staff wouldn't be able to see that med in the auto-complete to prescribe it since it's a med outside their inventory.
 * <strong>E-Chart, Inventory, Print All Warnings on Labels as Default:</strong> Default value is enabled (value 1) to prepopulate a checkmark in all the specific warnings related to a dispensable med while dispensing a medication from inventory and printing a label for it. Allows "all selected" of specific warnings to be also placed on the label being created for the dispensable medication from your inventory while working a "fill" request but you can always uncheckmark one(s) you wish. This just saves user time from manually checkmarking them all the time.To disable (value 0) then the selection of warnings to print on the label for a dispensable med will not be prefilled with a checkmark. Users have to then manually select any warning(s) they wish to be on the label for the dispensable med.
 
-![](inventory-module-settings.images/image12.png)
+![](inventory-module-settings.images/image14.png)
 
 * <strong>E-Chart, Inventory, Show Drug Classes:</strong> Disabled (value 0) by default, but if enabled (value 1) then in the <em>Show Inventory</em> tab, it will add a column named <em>Drug Class</em> and show the appropriate drug class pulled from the rxdb database related to a specific mapped inventory medication item that is a controlled substance.
 * <strong>E-Chart, Inventory, Show Quantity in AutoCompletes:</strong> Disabled (value 0) by default, but if enabled (value 1) then users will see the quantity (QTY:#) next to medication choices when prescribing and quantity (QTY:#) next to immunization choices while documenting gave an injection. Recommend this be enabled if using the inventory module for dispensable medications and/or immunizations.
 * <strong>E-Chart, Inventory, Use Lot Numbers:</strong> Disabled (value 0) by default, but if enabled (value 1) then users will be able to key in specific lot numbers to master inventory items, when adding quantity inventory to system and when dispensing medications or immunizations. This will ensure fill requests and immunizations given will show correct QTY for a specific lot# of an inventory item and decrement the correct inventory item by matching up the lot#. If use the Lot#, it's essential to also fill out the manufacturer, supplier and expiration date fields also so the system can find the perfect match when dispensing from inventory. If (for example: supply order) doesn't have a lot#, then it's best to leave lot, mfr, supplier, expiration blank.
 * <strong>E-Chart, Inventory, Verify Fills:</strong> Enabled (value 1) by default, to have medications being dispensed from inventory go through a verification process before it can be dispensed out. When this is enabled, the staff working fill requests via the Med Queue and/or Dispense chart tab will go through the fill request and label generation, but then it will fall into the <em>Verification Needed Fills</em> queue for someone to work and verify. At time of verification, the label can be printed and the medication to dispense per fill request can be marked as verified and dispensed. At time of verification, the <strong>filled until</strong> will populate with the appropriate date. Until a dispensable fill request has been verified, the <strong>filled until</strong> column will cay <em>Current Fill has not Been Verified Nor Dispensed</em>.
 
-![](inventory-module-settings.images/image13.png)
+![](inventory-module-settings.images/image16.png)
 
 * If system setting is disabled (Value 0), then staff does not have to go through nor work verification requests for dispensable inventory medications and there will not be a bucket/section named <em>Verification Needed Fills</em> and once the fill request is worked, that medication will be marked as dispensed and the <strong>filled until</strong> column is appropriately marked with a date instead of a holding status of verification needed.
 
-![](inventory-module-settings.images/image14.png)
+![](inventory-module-settings.images/image17.png)
 
 * <strong>E-Chart, Inventory, Show Supplier:</strong> Disabled (value 0) by default. If enabled (value 1) then it will display a field named <em>Supplier</em> while in the Add Inventory functionality. Can key in Supplier information of inventory item details.
 * <strong>Inventory, Label Printing, Enforce Labels in Landscape:</strong> Enabled (value 1) by default. This will render the label for the dispensable inventory medication in landscape fashion for a dymolabel printer.
@@ -104,45 +104,45 @@ Run a test Transaction Report in the {{% system-name %}} system to make these sy
 
 * <strong>Inventory, Transaction Report, Check All Trans Types on Clear:</strong> Enabled (value 1) by default. That pre-populates a checkmark in all of the <em>Transaction Types</em> when you run the report or clear the report to run another transaction search report. User can uncheckmark which one(s) they don't want to run and result the report by. Disabled (value 0) will not pre-populate these checkmarks in the <em>Transaction Types</em> of this report and user will manually have to checkmark which types to run the report for.
 
-![](inventory-module-settings.images/image15.png)
+![](inventory-module-settings.images/image18.png)
 
 * <strong>Inventory, Transaction Report, Show Prescriber:</strong> Disabled (value 0) by default. If enabled (value 1) then the Prescriber column will show with applicable information in the results when running the Transaction Report for Inventory. If enabled with value 2, then the Prescriber NPI column will show results when running the Transaction Report for Inventory.
 * <strong>Inventory, Transaction Report, Show Refills Remaining:</strong> Disabled (value 0) by default. If enabled (value 1) then the Refills column will show with applicable information in the results when running the Transaction Report for Inventory.
 * <strong>Inventory, Transaction Report, Show RXID:</strong> Disabled (value 0) by default. If enabled (value 1) then the RxID column will show with applicable information in the results when running the Transaction Report for Inventory.
 * <strong>Inventory, Transaction Report, Show Sig in Results:</strong> Disabled (value 0) by default. If enabled (value 1) then the Sig column will show with applicable information in the results when running the Transaction Report for Inventory.
 
-![](inventory-module-settings.images/image16.png)
+![](inventory-module-settings.images/image19.png)
 
 #### Supply Orders
 
 * <strong>Orders, Settings, Order From Inventory:</strong> Disabled (value 0) by default. Recommended to enable (value 1) if using inventory module for supply orders. This system setting then enables ability to order supply items from inventory using <em>orders</em> and makes the QTY# (quantity) show up on each order item when ordering supplies from inventory. This will allow the order item to decrement from inventory.
     * So essentially to see QTY# (quantity) count of current inventory for order supplies tied to inventory, this system setting must be enabled.
 
-![](inventory-module-settings.images/image17.png)
+![](inventory-module-settings.images/image20.png)
 
 * To see QTY# (quantity) count of current inventory for injection immunizations tied to inventory, this system setting must be enabled.
 
-![](inventory-module-settings.images/image18.png)
+![](inventory-module-settings.images/image21.png)
 
 * And to see QTY# (quantity) count of current inventory for medication prescriptions tied to inventory, this system setting must be enabled.
 
-![](inventory-module-settings.images/image19.png)
+![](inventory-module-settings.images/image22.png)
 
 #### Dispense
 
 * <strong>E-Chart, Dispense, Confirm User on Transactions:</strong> Enabled (value 1) by default. This requires the user's username and password to dispense a medication prescription from inventory in the Dispense chart tab. This is considered double authentication. Disable (value 0) to not show the username and password double authentication fields in the Dispense tab when working a fill request.
 
-![](inventory-module-settings.images/image20.png)
+![](inventory-module-settings.images/image23.png)
 
 * <strong>E-Chart, Meds, Encounter plan collect dispense details:</strong> Disabled (value 0) by default. If enabled (value 1) then users can document dispense details of medication prescriptions handing out/dispensing directly into the plan while prescribing via the encounter plan meds section.
 
-![](inventory-module-settings.images/image21.png)
+![](inventory-module-settings.images/image1.png)
 
 * <strong>E-Chart, Meds, Use Fill Requests:</strong> Disabled (value 0) by default. If enabled (value 1) then this makes hyperlink "add fill request" functionality show up in meds module.
 
-![](inventory-module-settings.images/image22.png)
+![](inventory-module-settings.images/image2.png)
 
 * And the fill checkbox functionality in the medication orders section of encounters.
 
-![](inventory-module-settings.images/image23.png)
+![](inventory-module-settings.images/image3.png)
 

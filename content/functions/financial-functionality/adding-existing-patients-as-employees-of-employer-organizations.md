@@ -12,7 +12,7 @@ Typically, employees are added to employer organizations automatically based on 
 When adding existing patients as employees of employer organizations, choose a matching chart and complete the from the patient demographics screen.
 
 * [Find the employer organization](finding-employer-organizations.html) to which to add an employee.
-* Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees of the employer organization.  ![](adding-existing-patients-as-employees-of-employer-organizations.images/image1.png)  ![](adding-existing-patients-as-employees-of-employer-organizations.images/image2.png) 
-* At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.  ![](adding-existing-patients-as-employees-of-employer-organizations.images/image3.png)
+* Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees of the employer organization.  ![](adding-existing-patients-as-employees-of-employer-organizations.images/image1.png)  ![](adding-existing-patients-as-employees-of-employer-organizations.images/image3.png) 
+* At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.  ![](adding-existing-patients-as-employees-of-employer-organizations.images/image2.png)
 * 
 * The patient chart demographics screen appears. See [Editing Demographics](https://confluence.mieweb.com/display/DOCS10/Editing+Demographics).

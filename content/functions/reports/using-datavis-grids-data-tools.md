@@ -30,7 +30,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 6. The <strong>view toolbar section</strong> — use the back/forward arrows to navigate view history, the dropdown to select a view, and the undo button to reset all views.
 7. The <strong>limit toolbar section</strong> — initially, only the first 500 rows are shown. More will be shown as you scroll down; the checkbox can be used to turn that behavior on/off. The "Show All Rows" button will immediately show all rows, without having to scroll down repeatedly.
 
-![](using-datavis-grids-data-tools.images/image2.png)
+![](using-datavis-grids-data-tools.images/image3.png)
 
 *after clicking the gear icon to show the grid controls*
 
@@ -44,7 +44,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ## Group Output
 
-![](using-datavis-grids-data-tools.images/image3.png)
+![](using-datavis-grids-data-tools.images/image2.png)
 
 *after grouping by Product*
 
@@ -53,7 +53,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ## Pivot Output
 
-![](using-datavis-grids-data-tools.images/image4.png)
+![](using-datavis-grids-data-tools.images/image5.png)
 
 *after adding Category to the group, and pivoting by Country*
 
@@ -74,7 +74,7 @@ Filters you are already using still apply, if they don't conflict with the drill
 {{% /note %}}
 
 
-![](using-datavis-grids-data-tools.images/image5.png)
+![](using-datavis-grids-data-tools.images/image4.png)
 *after drilling down into Germany's banana orders*
 
 Click the **view history back arrow** in the **view toolbar section** to go back to the previous view.

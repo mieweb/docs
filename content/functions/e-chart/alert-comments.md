@@ -16,7 +16,7 @@ The **Alert Comments** document ([WCALERT document type](https://system/?f=char
 
 
 
-![](alert-comments.images/image1.png)
+![](alert-comments.images/image7.png)
 
 
 
@@ -24,7 +24,7 @@ The alert comments will usually appear in a red Alert Comments banner in the pat
 
 
 
-![](alert-comments.images/image2.png)
+![](alert-comments.images/image11.png)
 
 
 
@@ -32,7 +32,7 @@ If there is more than one alert comment in a patient's chart, they will be shown
 
 
 
-![](alert-comments.images/image3.png)
+![](alert-comments.images/image4.png)
 
 
 
@@ -42,7 +42,7 @@ Select **Alert Comment**.  (For more information, see our [Text Documents](../d
 
 
 
-![](alert-comments.images/image4.png)
+![](alert-comments.images/image5.png)
 
 
 
@@ -50,7 +50,7 @@ Begin typing your alert comment regarding the patient in the body of the documen
 
 
 
-![](alert-comments.images/image5.png)
+![](alert-comments.images/image12.png)
 
 
 
@@ -62,11 +62,11 @@ When you have entered in the alert comment, click the **Add Document** button be
 
 
 
-To edit an alert comment you can click on the specific alert in the patient's header that you wish to edit (you must have security permission to edit documents).  ![](alert-comments.images/image7.png)
+To edit an alert comment you can click on the specific alert in the patient's header that you wish to edit (you must have security permission to edit documents).  ![](alert-comments.images/image3.png)
 
 
 
-The alert document will open, and the user can then select the **Edit** hyperlink to begin editing the alert comment.  ![](alert-comments.images/image8.png)
+The alert document will open, and the user can then select the **Edit** hyperlink to begin editing the alert comment.  ![](alert-comments.images/image1.png)
 
 
 
@@ -94,7 +94,7 @@ The system setting E-Chart, Defaults, Alert Comment Cutoff can be set with a num
 
 
 
-![](alert-comments.images/image11.png)
+![](alert-comments.images/image8.png)
 
 
 
@@ -102,7 +102,7 @@ In this example, the system setting is set to cut off after 10 characters on an 
 
 
 
-![](alert-comments.images/image12.png)
+![](alert-comments.images/image2.png)
 
 
 

@@ -42,7 +42,7 @@ By default, the Case section of encounters will display the following case types
 
 
 
-![](adding-msea-case.images/image1.png)
+![](adding-msea-case.images/image3.png)
 
 
 
@@ -58,7 +58,7 @@ Once the **Case** section is expanded, indicate which type of case to create o
 
 
 
-![](adding-msea-case.images/image3.png)
+![](adding-msea-case.images/image4.png)
 
 ## MSEA Case Details
 
@@ -66,7 +66,7 @@ After selecting to create a MSEA case type, the only field that expands is the 
 
 
 
-![](adding-msea-case.images/image4.png)
+![](adding-msea-case.images/image1.png)
 
 
 

@@ -30,45 +30,45 @@ The Chart Types Editor tab is available in the Control Panel. Your MIE Implement
 
 In order to access the Chart Types Editor tab, the user have the permission (‘Control', ‘Manage Chart Types') set to ‘Yes'.
 
-![](chart-types-editor.images/image2.png)
+![](chart-types-editor.images/image3.png)
 
 Each {{% system-name %}} system starts with 0 chart types, so the first step is to follow the ‘Add Chart Types' link.
 
-![](chart-types-editor.images/image3.png)
+![](chart-types-editor.images/image2.png)
 
 That takes the user to another page that displays a listedit allowing the user to add as many chart types as desired. Type in the name(s) of the Chart Types you need to create for your system, click *add button* to add multiple and when done click *SAVE* button.
 
-![](chart-types-editor.images/image4.png)
+![](chart-types-editor.images/image5.png)
 
 Once you have saved (at least one chart type has been created) the chart types editor displays a listview with options.
 
-![](chart-types-editor.images/image5.png)
+![](chart-types-editor.images/image4.png)
 
 ## Options/Functions for Chart Types
 
-![](chart-types-editor.images/image6.png)
+![](chart-types-editor.images/image7.png)
 
 ### Edit
 
 The editing option displays a listedit that allows the user to quickly associate the chart type to multiple chart tabs. These are the tabs that a user will see when accessing a record/chart tied to this specific chart type. This *Edit* screen allows the user to edit the description of a chart type and link chart tabs, document types, appointment types, visit types, and relation types to a chart *type*.
 
-![](chart-types-editor.images/image7.png)
+![](chart-types-editor.images/image6.png)
 
 OR
 
 You can also set the chart tabs to a specific chart types in the above edit screen **or** you can go to the Chart Tabs control and set chart *types* within the individual *chart tab* properties also.
 
-![](chart-types-editor.images/image8.png)
+![](chart-types-editor.images/image9.png)
 
 ### Edit Partitions
 
 The Edit Partitions option displays a listview that allows the user to quickly associate the chart type to a specific partition or multiple partitions. Each active partition is displayed along with the number of patients. The number of patients (records/charts) is split up into a column showing the number who have that chart type set to their records currently vs the total number of patients who are in that entire partition.
 
-![](chart-types-editor.images/image9.png)
+![](chart-types-editor.images/image8.png)
 
 If the user has security permission (‘E-Chart', ‘Allow Unrestricted Pat Search') set to ‘Yes', these numbers will be displayed as links to listviews of these patients.
 
-![](chart-types-editor.images/image10.png)
+![](chart-types-editor.images/image12.png)
 
 You can tag ALL patients or remove ALL patients in a partition to/from specific chart type via these links.
 
@@ -85,7 +85,7 @@ This link allows the user to quickly change the description of the chart type (t
 
 Delete takes the user to a confirmation page that shows all chart tabs and patient/chart records that are associated with this chart type.
 
-![](chart-types-editor.images/image11.png)
+![](chart-types-editor.images/image10.png)
 
 If the user confirms this decision, three things will happen:
 
@@ -99,7 +99,7 @@ Your MIE Implementer can set up these chart tabs and name them ex: Patient Chart
 
 This tab also allows users to "see" which chart type a specific patient/record is tagged to while working in that patient/chart record. If you don't have security permission to "manage chart types" then it will simply display the "chart type" the patient/chart record is associated with. You would not be able to tag or untag an individual patient/chart record from/to a specific chart "type" unless you have security.
 
-![](chart-types-editor.images/image12.png)
+![](chart-types-editor.images/image11.png)
 
 ![](chart-types-editor.images/image13.png)
 

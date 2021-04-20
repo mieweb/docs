@@ -26,7 +26,7 @@ These fields are optional. The more fields you enter and fill out, the more narr
 
 * <strong>Patient:</strong> You can enter a specific patient name here or hover over the help icon to get help on how to search for a patient to enter here.
 
-![](conditions-icd-9-report.images/image2.png)
+![](conditions-icd-9-report.images/image3.png)
 
 * <strong>SNOMED Concept Code:</strong> This is to search by a specific Snomed code. To search for a condition/ICD9 code, go to the next field. Type in the specific SNOMED code to search by. Click the add <strong>+</strong> button to add another SNOMED code to the search. (Click the <strong>–</strong> to take it off the list).
 * <strong>ICD9:</strong> You can enter the name of the condition or the specific ICD9 code here. Begin typing the condition name or ICD9 code and it will auto-complete and give you choices to select from. Click the add <strong>+</strong> button to add another condition/ICD9 to the search. (Click the <strong>–</strong> to take it off the list).
@@ -36,7 +36,7 @@ These fields are optional. The more fields you enter and fill out, the more narr
 * <strong>Managed By:</strong> You can narrow down your search by entering a specific physician/resource from your practice. Begin typing the first <em>or</em> last name of the physician and it will auto-complete and give you choices to select from. This is the physician/resource that is tied to managing the condition entered for the patients. "Deleted" users will also show here in this field for selection.
 * <strong>Current Status:</strong> Default will be at Positive. However, you can change the status to whatever you wish. Hover or click your mouse on the help icon for explanations of each status.
 
-![](conditions-icd-9-report.images/image3.png)
+![](conditions-icd-9-report.images/image2.png)
 
 * <strong>Format:</strong> Default will be at ListView. However, you can change the status to whatever you wish. Hover or click your mouse on the help icon for explanations of each status.
 

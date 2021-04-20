@@ -2,7 +2,7 @@
 title: "Security Best Practices"
 date: "2020-03-09T18:45:50.193Z"
 url: "functions/e-chart/security-best-practices.html"
-version: 30
+version: 32
 id: "1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU"
 source: "https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU"
 menu:

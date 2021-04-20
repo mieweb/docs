@@ -24,23 +24,23 @@ Start to type in the first few characters of the **profile name** you wish to se
 
 If you want to see an entire list of existing profiles, simply put your cursor (mouse) in the field and hit the *down arrow* button on your keyboard ↓. This will show the drop-down of all fee schedule profiles that exist. You may enter your Profile Fee schedules by codes or numeric or names. You may not want to enter any other fee schedules and only will work off the *default* profile.
 
-![](fee-schedules.images/image2.png)
+![](fee-schedules.images/image3.png)
 
 The **Edit Default Profile** link is to change anything in the master/across the board/standard fee schedule. When you click this, it may take a few minutes to open on your screen depending on how many codes you have entered in your system. This is the huge master/across the board/standard fee schedule for your system. Any other individual profiles would be searched for and edited using the profile name search described above.
 
-![](fee-schedules.images/image3.png)
+![](fee-schedules.images/image2.png)
 
 ## Adding a New Profile
 
 If you searched and didn't find an existing profile and needed to add a new fee schedule profile, simply type in the name of the profile, click the *search* button and it will pop up a warning that it doesn't find that profile and asks if you want to add a profile with that name you typed.
 
-![](fee-schedules.images/image4.png)
+![](fee-schedules.images/image5.png)
 
 Link any CPT codes & amounts to the new profile you added, simply use the CPT Code & Amount fields provided at the end of the listed profile.
 
 You must enter a CPT code, then an amount, then click the ADD button to link cpt codes & amounts to a fee schedule profile. Then you can continue to add many more cpt codes & corresponding amounts to that fee schedule profile.
 
-![](fee-schedules.images/image5.png)
+![](fee-schedules.images/image4.png)
 
 When you are all done adding cpt codes/amounts to that profile, you **must click the SUBMIT CHANGES** button at the very end. This is a final submission/save. It will not save anything you added if you do not perform this at the end.
 
@@ -50,7 +50,7 @@ Type in the profile name you need to edit something in.
 
 Click the SEARCH button. It will then show the entire profile details for that profile you need to edit something in. It may take a minute or two to open the profile details. If there are a lot of cpt codes/charges attached to a profile, it takes longer to open.
 
-![](fee-schedules.images/image6.png)
+![](fee-schedules.images/image7.png)
 
 **Code:** Could be CPT code or other inventory codes supported for pricing fee schedules
 
@@ -58,7 +58,7 @@ Click the SEARCH button. It will then show the entire profile details for that p
 
 * To edit an amount attached to that profile, simply click the <strong>edit</strong> button in the options column to the right of the specific CPT code/amount listed. Code Types &Codes are not editable since code_type participates in the primary key for the fee_schedules table. You would have to remove that line and re-enter correctly if needed to make an edit to the Code or Code Type. It will then open up that CPT code/amount line. You can change the amount. <strong>The amount must be typed with 4 dollar digits, period, and then 2 cent digits.</strong> To make a specific dollar amount, the dollar amount must have 4 digits, then the period/decimal point, and then cents is 2 digits. Do not enter any dollar signs or anything else but numeric and a decimal point.
 
-![](fee-schedules.images/image7.png)
+![](fee-schedules.images/image6.png)
 
 * Click OK when done. When you are done editing ANY AND ALL CPT codes, you <strong>must click the SUBMIT CHANGES</strong> button at the very bottom to submit the final edits/changes, etc or nothing will be changed/saved/stored.
 
@@ -66,7 +66,7 @@ Click the SEARCH button. It will then show the entire profile details for that p
 
 Simply click the [ - ] minus button to the right of the cpt code/amount you wish to totally delete. It will put a strike-out line through it. Again, you **must click the SUBMIT CHANGES** button at the very bottom of the profile details listing to submit the final edits/changes/deletions you did or nothing will be changed/saved/stored for the profile you are in.
 
-![](fee-schedules.images/image8.png) ![](fee-schedules.images/image9.png)
+![](fee-schedules.images/image9.png) ![](fee-schedules.images/image8.png)
 
 If you made a mistake, you can reverse and click the [ + ] plus sign (in the options column) to reverse the deletion (remove the strike-out). You can reverse whatever you like if you haven't clicked the SUBMIT CHANGES button yet.
 
@@ -76,15 +76,15 @@ In order to change or add any Fee Schedules, you must have security permission t
 
 Log into {{% system-name %}} . Click the CONTROL side menu tab. Then click the INSURANCE PLANS tab at the top.
 
-![](fee-schedules.images/image10.png)
+![](fee-schedules.images/image12.png)
 
 Find the insurance plan you wish to tag to a Fee Schedule Profile. After you find the insurance plan, you click edit to the right of that specific insurance plan you want.
 
-![](fee-schedules.images/image11.png)
+![](fee-schedules.images/image10.png)
 
 After you click edit on the insurance plan, the *Edit Insurance Plan* screen will open. You can see the details and then set or change the *Fee Schedule Profile* field.
 
-![](fee-schedules.images/image12.png)
+![](fee-schedules.images/image11.png)
 
 In the **Fee Schedule Profile** field, begin typing the name of the profile you want this insurance plan attached to. It will auto-complete you choices of fee schedule profiles that exist.
 

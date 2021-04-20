@@ -33,14 +33,14 @@ To index a bubble sheet:
 2. Once the batch opens to the <em>Index Information</em> screen, click the <strong>Process BarCodes</strong> button, found near the center of the toolbar, at the top of the window.
 3. Next, click the <strong>Bubble</strong> button on the toolbar. The system will read the optical marks (i.e., bubbles) on the form and populate the data into a confirmation pop-up window.
 
-![](indexing-bubble-forms.images/image1.png)  
+![](indexing-bubble-forms.images/image2.png)  
 
 {{% info %}} Fields on bubble forms can be customized and configured, as needed. Fields can be set up with ranges, so result criteria falling outside of a specified range will produce an alert. Likewise, fields can be flagged as required, producing an alert if left blank. {{% /info %}}
 
 
 4. Verify the values in the confirmation pop-up window. If an optical mark was not dark enough, or a bubble could not be read, changes may be updated or entered into the appropriate fields of the confirmation window. Fields with illegible marking, or that were left blank, will be skipped during processing, and the entry will display as blank. Zeroes (0) are not entered, by default.
 
-![](indexing-bubble-forms.images/image2.png)  {{% info %}} The confirmation window will always show U.S. customary units of measure, regardless of the preference setting for the user, or whether or not the bubble form was filled out with metric measurements. In this screenshot, the weight that was entered was 111.2 kg, but when the indexing was performed, the system read and converted the data, translating into an English equivalent of approximately 245.15 lbs. ![](indexing-bubble-forms.images/image3.png)
+![](indexing-bubble-forms.images/image1.png)  {{% info %}} The confirmation window will always show U.S. customary units of measure, regardless of the preference setting for the user, or whether or not the bubble form was filled out with metric measurements. In this screenshot, the weight that was entered was 111.2 kg, but when the indexing was performed, the system read and converted the data, translating into an English equivalent of approximately 245.15 lbs. ![](indexing-bubble-forms.images/image3.png)
 
 {{% /info %}}
 
@@ -49,11 +49,11 @@ To index a bubble sheet:
 6. Continue indexing any additional pages in the batch, as needed.
 7. After indexing the entire batch, click the <strong>Upload to Chart</strong> button to upload the indexed documents to the specified chart.
 
-![](indexing-bubble-forms.images/image4.png)
+![](indexing-bubble-forms.images/image5.png)
 
 Once uploaded, the form image will be stored in the respective chart, and the discrete data will feed into the appropriate chart as observations, where they can be reviewed under the **Medical Record Observations/Flowsheets** chart tab. Here, the uploaded observation values can be seen in detail with the date(s) from the indexed bubble form(s).
 
-![](indexing-bubble-forms.images/image5.png)
+![](indexing-bubble-forms.images/image4.png)
 
 {{% tip %}}
 

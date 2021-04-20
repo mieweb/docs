@@ -18,7 +18,7 @@ Click *Security Role Editor* tab from top menu.
 
 Click the Compare Roles link found at the top right corner. This allows you to compare security roles and each individual security setting that each may have. If you need to audit security or configure a new security role, you can work on all your roles at the same time while you compare them.
 
-![](compare-security-roles.images/image1.png)
+![](compare-security-roles.images/image5.png)
 
 It displays (reports) on the security settings, values and security roles along with the # of users that are tied to each specific security role.
 
@@ -30,11 +30,11 @@ The next columns are each of the security roles you have in your {{% system-name
 
 It shows the first 20 securities/modules by default.
 
-![](compare-security-roles.images/image2.png)
+![](compare-security-roles.images/image7.png)
 
 If you see blank security and values, those are old security settings. They are still stored in the database, but not used anymore in {{% system-name %}} . If you clicked on one of these, you would see an error message.
 
-![](compare-security-roles.images/image3.png)
+![](compare-security-roles.images/image6.png)
 
 ## Compare/Show Specific Security Roles
 
@@ -44,11 +44,11 @@ By default, the screen automatically opens and displays *all* security roles in 
 
 So, to narrow down and compare specific security roles, click the **Roles to Display** button in the fields at the top.
 
-![](compare-security-roles.images/image4.png)
+![](compare-security-roles.images/image9.png)
 
 A box will open where you can check-mark the specific security roles you want to display. You can un-select all to start fresh, or you can select all security roles to display, or individually check-mark which specific security roles you want to display and compare settings of.
 
-![](compare-security-roles.images/image5.png)
+![](compare-security-roles.images/image8.png)
 
 Once done with your selections, click the SEARCH button to the right.
 
@@ -64,7 +64,7 @@ Type in a keyword of the security setting name (description) or module you are l
 
 It will display only those security settings with that in the security name (description) and/or module if it finds any matches.
 
-![](compare-security-roles.images/image6.png)
+![](compare-security-roles.images/image1.png)
 
 ## Edit/Change Security Settings for Security Role
 
@@ -72,7 +72,7 @@ You can choose what security roles to display as a side by side comparison on yo
 
 In the example below, I searched for keyword of fax. It then displays the 4 security permissions {{% system-name %}} has regarding ‘fax' that it found as a match.
 
-![](compare-security-roles.images/image7.png)
+![](compare-security-roles.images/image1.png)
 
 Upon looking at what that security role is set to, I can edit the security permission from here easily and in mass for every user in a specific security role.
 
@@ -86,13 +86,13 @@ When you use the drop-down to change the value for a security role in the drop-d
 
 See other help documentation named *Security Role Settings.pdf* for detailed information on what each security setting and value means and affects.
 
-![](compare-security-roles.images/image8.png)
+![](compare-security-roles.images/image3.png)
 
 When you change a value for a security role, it does not input a comment for each change.
 
 The Show CSV link will download what you are showing/viewing/comparing on your screen and put it into an excel spreadsheet that you can view, print, save, sort, etc.
 
-![](compare-security-roles.images/image9.png)
+![](compare-security-roles.images/image2.png)
 
-![](https://lh3.googleusercontent.com/bqNUt7zHo5E_T3V7--U580BIFxDFhCuO0s-3QdvCcpT1aump2BlX6k-azAynh_kXPomlBcoKJG5lzXyDt8MPS2RvItnVF3OBgw9Wv8mhEJucr91U5l67qpb3eEvHeVrWI7bBTjLdSmyq4COXlA)
+![](compare-security-roles.images/image4.png)
 

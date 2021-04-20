@@ -20,7 +20,7 @@ When the provider is in their esign queue (or multi-sign queue) and the document
 
 
 
-![](highlight-transcribed.images/image1.png)
+![](highlight-transcribed.images/image2.png)
 
 
 
@@ -28,7 +28,7 @@ When the provider is reviewing the document to sign and clicks highlight transcr
 
 
 
-![](highlight-transcribed.images/image2.png)
+![](highlight-transcribed.images/image3.png)
 
 
 
@@ -36,7 +36,7 @@ When done reviewing the document, continue to esign the document as needed by us
 
 
 
-![](highlight-transcribed.images/image3.png)
+![](highlight-transcribed.images/image1.png)
 
 
 

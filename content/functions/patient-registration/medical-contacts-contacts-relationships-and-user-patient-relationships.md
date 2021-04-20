@@ -20,7 +20,7 @@ MIE can add different "roles" to show here, but by default we only show Family, 
 
 But to see more possible physicians tied to a patient's chart (that are other roles than the ones we display by default for quick reference), you simply click the "manage information" icon and get to the full list of the patient's doctors (or again, MIE can add more to show here in this summary view.  For an example, this screen show has added "pulmonary" role to show any pulmonary noted physicians in the patient's chart).
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image2.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image3.png)
 
 {{% tip %}}
 
@@ -29,24 +29,24 @@ If the *manage info* icon in Medical Contacts takes you to a tab/screen that jus
 {{% /tip %}}
 
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image3.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image2.png)
 In the chart tab named *Relationships* it shows a list of all current Contacts and their roles associated with the patient's record. You can access this screen by the *manage info* icon from Medical Contacts or from this separate chart tab in the patient's chart.
 
 ## Contacts Section
 
 This is a list of all providers (contacts) and their role to the patient that are set in the patient's chart. User's name is the contact name (provider) that pulls from {{% system-name %}} access control module (the contact must be listed in {{% system-name %}} as a user) and the role is a drop-down to select what "role" that user/contact is in relation to the patient. The *role* drop down selections can be changed to be able to show whatever role selections your staff is allowed/wants to set & capture. Any family, referring or attending noted here will show on the Medical Contacts portlet. You can contact your MIE Implementer to have the Medical Contacts portlet show other specific roles.
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image4.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image5.png)
 
 You can add a "role/physician" to a patient either via the encounter CC section, Medical Contacts portlet of Patient Summary chart tab or this separate Relationships chart tab. Same way to delete/remove a provider from a patient.
 
 Users with security permission can go to *Control* sidetab and click User Role Editor to add more roles (newer systems should have all roles available) and still access/link/show the same ways as above.  If you add more roles you will need to use a number higher than 100.  0-100 is protected for our use and coding we have in place for things.
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image5.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image4.png)
 
 When you set a provider and "role" to a patient using the CC section of an encounter, if you want that physician to show in the "Relationships" chart tab or "Medical Contacts" portlet you would need to click the "link" to patient checkbox.  If your attending/family/ referring comes in by an interface you wouldn't link those since the other system is system of record on those, but any other roles you want to track or assign to a patient you would ‘link'.  If you don't "link" in the CC section – the physician is just noted on the encounter document; it doesn't link or set that provider contact & role to the patient record unless you checkmark "link".
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image6.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image7.png)
 
 ### Contacts (Providers) Tied to Patients
 
@@ -54,29 +54,29 @@ When you set a provider and "role" to a patient using the CC section of an encou
 
 Just click on their username on the far left column when you find who you want to see (don't click to edit the user or anything).
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image7.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image6.png)
 
 You are taken to view the user's details. Then scroll down and you'll see what "roles" that physician/user is linked to and you'll see a hyperlink **Show Patients Linked to User**.
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image8.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image9.png)
 
 Click on that hyperlink *Show Patients Linked to User* and it opens up (right below that hyperlink) a list of patients that have that provider linked/set to them as contacts.  You can click on the Patient's Name to get into the patient's chart directly.
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image9.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image8.png)
 
 ### Add/Delete Patients Linked to Contacts/Providers en Masse
 
 To unlink patient's from contacts/providers, you can do it individually through each patient's chart, or you can do in mass by clicking the Edit User hyperlink on the provider/contacts view user screen (you must have security permission to edit users).
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image10.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image12.png)
 
 Then click the provided Edit Patients Linked to User hyperlink.
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image11.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image10.png)
 
 You can then in mass click the [-] delete button to delete any patient's linked to that provider/contact. Or you can add (in mass) other patients to be linked to this provider/contact and set the role this provider/contact is for each patient you are linking.
 
-![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image12.png)
+![](medical-contacts-contacts-relationships-and-user-patient-relationships.images/image11.png)
 
 Once done deleting or adding other patients from/to this provider/user, click the SUBMIT button to save. Then you can click the Back to User View hyperlink at the top right to get back to the View User details page.
 

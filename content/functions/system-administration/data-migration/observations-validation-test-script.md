@@ -64,15 +64,15 @@ Some charts/records may not have all data elements, and in some circumstances, t
 {{% /tip %}}
 
 
-* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](observations-validation-test-script.images/image2.png) 
-* Select <strong>Observations/Flowsheets</strong> from the Medical Record chart tab.  ![](observations-validation-test-script.images/image3.png)   
+* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](observations-validation-test-script.images/image3.png) 
+* Select <strong>Observations/Flowsheets</strong> from the Medical Record chart tab.  ![](observations-validation-test-script.images/image2.png)   
 
 {{% tip %}} The number in parenthesis indicates the number of items in each tab.  {{% /tip %}}
 
-* The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.  ![](observations-validation-test-script.images/image4.png)  {{% tip %}}
-* Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page. ![](observations-validation-test-script.images/image5.png)![](observations-validation-test-script.images/image6.png) 
-    * To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.html).)  ![](observations-validation-test-script.images/image7.png) 
-    * Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.html) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.  ![](observations-validation-test-script.images/image8.png)
+* The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.  ![](observations-validation-test-script.images/image5.png)  {{% tip %}}
+* Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page. ![](observations-validation-test-script.images/image4.png)![](observations-validation-test-script.images/image7.png) 
+    * To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.html).)  ![](observations-validation-test-script.images/image6.png) 
+    * Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.html) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.  ![](observations-validation-test-script.images/image9.png)
 
 {{% /tip %}}
  
@@ -92,7 +92,7 @@ Reports ([video](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8
 The [Patient Observations report](../../reports/observations-report.html) is particularly helpful in validating data between systems. To access and utilize this report:
 
 * Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](observations-validation-test-script.images/image9.png)
+* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](observations-validation-test-script.images/image8.png)
 * Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen.   ![](observations-validation-test-script.images/image10.png)
 
 ## FAQs
@@ -101,7 +101,7 @@ The [Patient Observations report](../../reports/observations-report.html) is par
 
 **A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/observations-report-7345005.html), described above, to search specific observation values. Otherwise, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.html) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
-![](https://lh6.googleusercontent.com/x2IIF6prhsatTIFgy-on1K5WvzZtuI27SQxnoZxepqAPt6GvCBdHEfevxoLC-8Zluyg-dYJc0-PwG-Ej_mDmaF-_GZu-1JWKqrt1Y5RtRMtZR_LiytvGkwd8xZ_6xW_4HntdTBgaruLM_JRykA)
+![](observations-validation-test-script.images/image9.png)
 
 **Q: **Why are some observations only listed once, even though they apply across all dates (e.g., Race, Ethnicity, Email, etc.)?
 

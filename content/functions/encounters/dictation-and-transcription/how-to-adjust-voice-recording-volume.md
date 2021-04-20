@@ -16,7 +16,7 @@ menu:
 
 
 
-![](how-to-adjust-voice-recording-volume.images/image1.png) **or** ![](how-to-adjust-voice-recording-volume.images/image2.png)
+![](how-to-adjust-voice-recording-volume.images/image2.png) **or** ![](how-to-adjust-voice-recording-volume.images/image1.png)
 
 
 

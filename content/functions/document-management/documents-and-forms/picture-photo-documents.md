@@ -24,7 +24,7 @@ To begin adding a photo as a document to a chart, navigate to the Document Libra
 
 
 
-![](picture-photo-documents.images/image1.png)
+![](picture-photo-documents.images/image5.png)
 
 
 
@@ -39,7 +39,7 @@ Select the document type needing attached and uploaded to the chart by simply cl
 
 
 
-![](picture-photo-documents.images/image2.png)
+![](picture-photo-documents.images/image7.png)
 
 
 
@@ -47,7 +47,7 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 
 
-![](picture-photo-documents.images/image3.png)
+![](picture-photo-documents.images/image6.png)
 
 
 
@@ -88,7 +88,7 @@ In order to author documents for others, the user must have the Access Control *
 
 
 
-![](picture-photo-documents.images/image4.png)
+![](picture-photo-documents.images/image9.png)
 
 
 
@@ -122,12 +122,12 @@ If this is the first time uploading a picture, the MIE VidCap Control plugin wil
 {{% /note %}}
 
 
-![](picture-photo-documents.images/image5.png)
+![](picture-photo-documents.images/image8.png)
 {{% tip %}}
 
 The media source can be changed, as needed. To change either the media source or the SmartCard folder, simply right-click anywhere in the box of photos/images. If the preferred media source is SmartCard, but the Picture folder is not the correct directory, select **Set SmartCard Folder**. Make sure to select the correct folder needing associated, and then click **OK**. Otherwise, to change the media source from SmartCard to any of the available alternatives (e.g., Camera), place a checkmark next to the appropriate option by simply clicking on that choice. The Document Capture Control screen will display the picture files from the newly selected folder or source.
 
-![](picture-photo-documents.images/image6.png)
+![](picture-photo-documents.images/image2.png)
 
 {{% /tip %}}
 
@@ -140,7 +140,7 @@ Once ready, use the mouse to select a picture for upload. When the photo is sele
 
 If the work station is set up with a **WebCam** for taking photos for chart demographics, simply click the webcam icon on the scan control toolbar to open the viewer.
 
-![](picture-photo-documents.images/image7.png)
+![](picture-photo-documents.images/image1.png)
 
 {{% /tip %}}
 
@@ -149,7 +149,7 @@ When ready to upload, click the **Record** (red circle) button. This will upload
 
 
 
-![](picture-photo-documents.images/image8.png)
+![](picture-photo-documents.images/image4.png)
 
 
 
@@ -164,5 +164,5 @@ Any uploaded photos will appear as stored documents in the respective chart. Eac
 
 
 
-![](picture-photo-documents.images/image9.png)
+![](picture-photo-documents.images/image3.png)
 

@@ -16,17 +16,17 @@ Show Transaction Report tab is located within the sidemenu tab named *Inventory*
 
 You can get to the Transaction Report and search fields by clicking this specific tab, or you can get to the Transaction Report by clicking on a specific medication item name or Lot Number hyperlink from the Show Inventory module and it will take you to this Transaction Report with fields prepopulate with that specific inventory item details to run the report by. This Transaction Report is a report of any and all transactions related to the inventory module.
 
-![](inventory-transaction-report.images/image1.png)
+![](inventory-transaction-report.images/image5.png)
 
 When you are in the Transaction Report tab, it should show the Transaction Search fields at the top. If it doesn't, then simply click the Show Search link and the search toolbar will open. You can set this to default to always show or always hide in your MY SETTINGS preference.
 
-![](inventory-transaction-report.images/image2.png)
+![](inventory-transaction-report.images/image7.png)
 
 ## Run Transaction Report Search
 
 When you are in the Transaction Report tab, it will show the transaction search fields. To narrow your Inventory Transaction results, enter specifics into the fields to narrow down your search results. You must click the SEARCH button to show the matching results.
 
-![](inventory-transaction-report.images/image3.png)
+![](inventory-transaction-report.images/image6.png)
 
 These are the search and filter field choices currently available. You do not need to enter in every field, but the more fields (filters) you have entered, the more narrowed down your inventory transaction search results will be.
 
@@ -38,7 +38,7 @@ These are the search and filter field choices currently available. You do not ne
 * <strong>Site/Stockpile:</strong> Can limit the results of the Transaction Report to specific location(s) and/or stockpile(s).
 * <strong>UserName:</strong> You can type in the specific user or username (or beginning portion of a username) to limit results to show transactions done by that user (username) and select from the auto-complete. This is the user that performed an inventory transaction. If you need to limit the selections that display here, the Inventory Transaction Report Settings tab (found in Control sidemenu tab) controls this field. From the <em>Inv.Trans.Report Settings</em> tab, select the department(s) in this tab, which will be used to display the usernames in the Inventory Transaction Report. This limits the selection down to just those involved in using or dispensing inventory.
 
-![](inventory-transaction-report.images/image4.png)
+![](inventory-transaction-report.images/image9.png)
 
 * <strong>Count by:</strong> Check-mark which of these that you wish to show a count for. It will display your results as a count only. This is possibly used to see how many (the count) of transactions by patient, by item or by user.
 * <strong>Transaction Types:</strong> All are defaulted to be check-marked to show all in the results search. You can un-checkmark any to leave those types out. These are transaction types for the inventoried medication. You can show inventory transactions that were:
@@ -60,23 +60,23 @@ Click the SEARCH button to render your results by your filters (fields) you ente
 
 Your transaction search results will show below the search toolbar fields and the look and columns of the results differs based on what search filter criteria was entered, especially the "count by" filter if selected.
 
-![](inventory-transaction-report.images/image5.png)
+![](inventory-transaction-report.images/image8.png)
 
 The View Printable and Show CSV links available above the results will place the data into a black/white view that you can print. Or you can click the Show CSV link to download it into an excel spreadsheet format.
 
-![](inventory-transaction-report.images/image6.png)
+![](inventory-transaction-report.images/image2.png)
 
 If you have security permission, you can click Edit Transaction in the options column.
 
-![](inventory-transaction-report.images/image7.png)
+![](inventory-transaction-report.images/image1.png)
 
 It will open the Edit Transaction screen where you can make changes/edits for this specific transaction.
 
-![](inventory-transaction-report.images/image8.png)
+![](inventory-transaction-report.images/image4.png)
 
 Click SAVE button when done to save the transaction edit.
 
 You will get a confirmation that the transaction was edited successfully.
 
-![](inventory-transaction-report.images/image9.png)
+![](inventory-transaction-report.images/image3.png)
 

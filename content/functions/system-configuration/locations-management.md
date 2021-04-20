@@ -18,13 +18,13 @@ The {{% system-name %}} solution allows varying degrees of customization with re
 
 With the necessary security permissions to manage locations, the [Locations Manager](https://system/?f=chart&s=leditor) chart tab, found within the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin), allows adding, editing, and deactivating of locations. The locations found here are the areas the practices utilize for any and all aspects of the delivery of care. Some examples of locations are any facilities or sites an appointment needs scheduled for, any locality needing associated with created documents, or any places at which services are provided. Locations should also be entered for any sites at which physicians may practice, perform surgeries, or round. Another type of location to consider is an affiliated or referring site, such as locations that provide results (e.g., labs and lab interfaces) or receive referrals (e.g., x-ray, lab draw, consult, etc.).
 
-![](locations-management.images/image1.png)
+![](locations-management.images/image2.png)
 
 ### Utilization & Initial Use
 
 In order to use the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) chart tab, a user must have either the **Add** or **Edit** security setting for the **E-Chart: Manage Locations** security option. With this setting appropriately enabled, clicking the tab will display all active locations set up within the system. Some locations may have been entered by an an Implementer; however, any and all locations, can be manually added, edited, or deactivated from this screen.
 
-![](locations-management.images/image2.png)
+![](locations-management.images/image4.png)
 
 Upon accessing a new {{% system-name %}} database with no locations previously added, a default location will always display, with the code **OFFICE** and the description of **Corporate Office** or **Office**. Use this entry as the primary location for the organization. To view and update:
 
@@ -67,7 +67,7 @@ To **add** a new location to the  {{% system-name %}}  solution:
 
 Once all fields have been provided for, as necessary, click the **Add** button to submit the location to the system. A confirmation message will display at the top of the page.
 
-![](locations-management.images/image4.png)
+![](locations-management.images/image6.png)
 
 ##### Edit Locations
 
@@ -126,7 +126,7 @@ Only locations no longer being used should ever be deactivated. To **deactivate
 1. Click the <strong>De-Activate</strong> link in the Options column of the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager).
 2. Once the De-Activate link is clicked, a <em>Confirm De-Activate</em> page will load. This confirmation will also show how many documents use this location and that they will be updated upon acceptance.
 
-![](locations-management.images/image6.png)
+![](locations-management.images/image1.png)
 
 3. Click the <strong>De-Activate</strong> button.
 4. A confirmation message will display at the top of the page. 

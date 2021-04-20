@@ -20,19 +20,19 @@ If you have the preference in My Settings of FORCE DEFAULT RESOURCES set to Yes,
 
 The LIST VIEW / MULTI VIEW & WEEK VIEW tabs at the top:
 
-![](scheduler-views.images/image1.png)
+![](scheduler-views.images/image4.png)
 
 If you (the logged in user) are a physician – your Scheduler default will be set to you in the drop-down. Your default view will be your own schedule of appointments. If you (the logged in user) are not a provider that sees patients for appointments, you will need to set your default Scheduler view. Simply click the provider you wish to default to in the drop-down and/or specific location and click the SAVE button to the right of the screen under the mini-calendar. This will then be your default view. You will need to set this default view before using "pocket" mode.
 
 If you see the words **No resources defined** in the drop-down of providers in the Scheduler, you need to either create a department named SysSched and tag any providers or rooms that have appointments scheduled to them.
 
-![](scheduler-views.images/image2.png) ![](scheduler-views.images/image3.png)
+![](scheduler-views.images/image6.png) ![](scheduler-views.images/image5.png)
 
 OR
 
 You can have your MIE Implementer change the system setting to point to a specific department instead of the default Scheduling Realm department (SysSched department). Whatever this is set to – the users/rooms that have appointments scheduled to them need to be in that specific department.
 
-![](scheduler-views.images/image4.png)
+![](scheduler-views.images/image8.png)
 
 ## List View Tab
 
@@ -40,11 +40,11 @@ Click *List View* tab at the top. This shows a list of patients and appt. times 
 
 There are search fields at the top to select resource, which location(s), date, etc that you want to see. There are other option hyperlinks on the right side of the top of the screen for the days schedule on view.
 
-![](scheduler-views.images/image5.png)
+![](scheduler-views.images/image7.png)
 
 It will open/default to today's date in the Scheduler. If you wish to view a different date, enter it in the top at the date field and click GO, or use the calendar at the far right of the screen and click on a calendar date. OR use the *Jump To* drop-down choice. These are pre-set choices of advancing exactly 3 days, 1 week, etc. To go back to today's schedule, click the TODAY button and then click GO.
 
-![](scheduler-views.images/image6.png)
+![](scheduler-views.images/image10.png)
 
 Choose the doctor (resource), therapist, date, etc to view a schedule from the drop-down arrow boxes.
 
@@ -62,28 +62,28 @@ To print entire days' schedules w/ this view click [*view printable*] on the rig
 
 ### Available Quick Links on Views
 
-![](scheduler-views.images/image7.png)
+![](scheduler-views.images/image9.png)
 
 * <strong>View Printable:</strong> allows you to view and print/fax a date range list of appointments for that resource. This layout can be customized for what displays for each appointment by your company. After clicking <em>View Printable,</em> then select the resource(s) you wish to show in the print/fax document. Then enter a date range of appointments schedules you wish to print/fax. It can print each day and each resource on a separate page if you have <em>start each resource on new page</em> check-marked. You can control the check-mark default by the user preference <em>Print with Page Breaks</em>.
 * <strong>Canceled:</strong> allows you to view appointments that are canceled for that individual for that day.
 * <strong>Print Charts:</strong> Will print all the individuals/charts/forms needed for that day all at once for all patient's scheduled according to print def or appt def you pick. (See additional help instructions titled <em>Printing Documents.</em>)
 
-![](scheduler-views.images/image8.png)
+![](scheduler-views.images/image12.png)
 
 * <strong>Add Dictation</strong>: Click this and it will allow you to add dictation. It will <strong>not</strong> be linked to a specific patient. You will need to dictate all that information.
 * <strong>Dictate Day:</strong> Click this (if you have this option turned on in MY SETTINGS) to go through all <strong>un-dictated</strong> patients and add dictation in schedule order. It will automatically pop-up the MIEPlayer with the 1^st patient name in the scheduler view. Dictate then upload. After you upload, the next patient in the schedule will pop-up in the MIEPlayer to dictate for next. If you do not want to dictate for a specific patient that pops-up in MIEPlayer, then close the window by X out the MIEPlayer box. It will then skip that particular patient and pop-up the next patient in the schedule order.
     * When you skip a patient, it considers it still as <strong>un-dictated</strong>. When you refresh and go back into the schedule and click Dictate Day again, it will start with the first <strong>un-dictated</strong> patient and any others that are un-dictated in that schedule order. Meaning, it will pop-up any that you had previously skipped if applicable.
 * <strong>Email:</strong> You must have security permission to <em>Send Email to Patients</em> set to Yes in order for any email features to display for your use. If your security is set to No, you will not see this Email feature. Click this to send out emails for <em>all</em> appointments scheduled for the schedule you are viewing. It will only send emails if the patient has an email address entered in their <em>demographics tab</em> in the email field. See other help documentation named <em>Email Reminders From |system|.pdf</em> on how to send emails to patient from here.
 
-![](scheduler-views.images/image9.png)
+![](scheduler-views.images/image11.png)
 
 * <strong>Print Labels:</strong> Click this to print a label for <em>all</em> patients with scheduled appointments for the schedule you are viewing. See other help documentation named <em>Label_Printing_Feature.pdf</em> on how to print labels from here.
 
-![](scheduler-views.images/image10.png)
+![](scheduler-views.images/image11.png)
 
 * <strong>Run All Drug Eligibility:</strong> Click this to run Drug Eligibility for <em>all</em> patients with scheduled appointments for the schedule you are viewing if your system is set up for this.
 
-![](scheduler-views.images/image11.png)
+![](scheduler-views.images/image13.png)
 
 See other help documentation named *Prescription/Insurance Eligibility Requests-SureScripts.pdf* on how run Drug/Insurance Eligibility checks.
 
@@ -91,7 +91,7 @@ See other help documentation named *Prescription/Insurance Eligibility Requests-
 
 The Scheduler tab usually automatically defaults to open to the *Multi-View* screen unless you change it in My Settings for your username.
 
-![](scheduler-views.images/image12.png)
+![](scheduler-views.images/image14.png)
 
 Choose the doctor, therapist, etc to view a schedule from the drop-down arrow box.
 
@@ -103,7 +103,7 @@ Choose a location, or will default to *Any locations* or your default location y
 
 It will open to today's date in the Scheduler. If you wish to view a different date, enter it in the top at the date field and click GO, or use the calendar at the far right of the screen and click on a calendar date. OR use the *Jump To* drop-down choice. These are pre-set choices of advancing exactly 3 days, 1 week, etc. To go back to today's schedule, click the TODAY button and then click GO.
 
-![](scheduler-views.images/image13.png)
+![](scheduler-views.images/image10.png)
 
 * This multi-view shows the appointments that are reserved and times that are open.
 * The view will also show under the resource name _<em>/</em>_ (example 2/10) meaning it is displaying the number of appointments scheduled out of the total number of allowed appointments (if this amount appt allowed has been set for the schedule). It will not show these numbers if there is not restricted number of appointments entered for a specific schedule.
@@ -116,7 +116,7 @@ If you scroll all the way down to the bottom of this screen view, you will see t
 
 **Cancelled Appointments** and/or **No Show Appointments** and/or **Dictations without Appointments**.
 
-![](scheduler-views.images/image14.png)
+![](scheduler-views.images/image15.png)
 
 * <strong>Cancelled Appointments:</strong> Shows list of cancelled appointments for that specific day & physician. Can select options of Add Document or Print Chart by clicking these OPTIONS on the far right column. Add Document takes you to the Add Document program and you would select what type of note (text, etc) that you want to enter.
 * <strong>No Show Appointments:</strong> Shows list of patients that were no shows for that specific day & physician. Can select options of Add Document or Print Chart by clicking these OPTIONS on the far right column. Add Document takes you to the Add Document program and you would select what type of note (text, etc) that you want to enter.
@@ -126,7 +126,7 @@ If you scroll all the way down to the bottom of this screen view, you will see t
 
 Click *Week View* tab at the top. This shows a week's worth of appointments for the person(s) you select and the date you select. You will need to scroll over to the right to see the whole week and options at the top.
 
-![](scheduler-views.images/image15.png)
+![](scheduler-views.images/image16.png)
 
 Choose the doctor, therapist, etc to view a schedule from the drop-down arrow box.
 
@@ -138,7 +138,7 @@ Choose a location, or will default to *Any locations* or your default location y
 
 It will open to today's date in the Scheduler. If you wish to view a different date, enter it in the top at the date field and click GO, or use the calendar at the far right of the screen and click on a calendar date. OR use the *Jump To* drop-down choice. These are pre-set choices of advancing exactly 3 days, 1 week, etc. To go back to today's schedule, click the TODAY button and then click GO.
 
-![](scheduler-views.images/image16.png)
+![](scheduler-views.images/image10.png)
 
 This week-view shows the appointments that are reserved and times that are open.
 
@@ -174,7 +174,7 @@ In *LIST* view, you can change your view to show appointments only, schedules on
 
 When looking in *schedules* only mode, the numerator/denominator you see tells you how many appointments you have out of how many you are allowed. The denominator comes from that total number. If the numerator is bigger than the denominator it means it's overbooked.
 
-![](https://lh4.googleusercontent.com/hwXnYLp5ZlsPZ97gKk4Y0JdL-q6D7uWB-hxtzaSSd50qV7r9U0G-ZWdUoYgu0iZQcisEKDNhRwgZRVY4wQxhPf6EKTi_CGZSswIDcFNeqOjZfYFpdSxmcDkKx-beR0h0H8SW2zJPeLVUrThMuw)
+![](scheduler-views.images/image1.png)
 
 You can also change your appointment view to Full, Compact or Patient Name. *Full* will show the entire appointment information in the appointment block, *Compact* will compact the appointment block information. You can view the rest of the appointment information by clicking the appointment block for a specific patient. (Click again to hide the information). *Patient Name* will compact the appointments to show **only** the patient name on the appointment block. You can view the rest of the appointment information by clicking the appointment block for a specific patient. (Click again to hide the information). You can select what you want and click *Save* box and it will remember your preference.
 
@@ -184,13 +184,13 @@ Setting options here allow quicker access to change some settings/preferences in
 
 Click the *SAVE button* to save the view preferences you set.
 
-![](https://lh3.googleusercontent.com/BkdvGYVoo-5lR2bArXaIpmrVGhpr9FauySF98UI2bAo1AKC7Z-2DbiU_yg4jYtIETl9bofM8RDFH6DRDWXNnA8pA0vrgz96e-_hxXtYCl5YDMdOS9PWkKhz1d6owU88e7hCweXEZEiy49cFQFw)
+![](scheduler-views.images/image2.png)
 
 ### Preferences Button
 
 If you click this, it automatically takes you to the *My Settings* Scheduler Preferences. You can set these here instead of going to the control tab, MY SETTINGS tab and setting preferences there. These are defaults that you wish to set for your scheduler view also.
 
-![](https://lh6.googleusercontent.com/xNk_28cDFqWxR-d0--vWTLTIn1Ps7cqRqCw7coQ63U2JkiWimgmmLaPxtURG0tKBHN4NsX6AdW7_Sd4hd6Jti9pnsL1PfvpV8wjAh5sCQlPjcFlyVZ3Dx9FDeNgq-Lp9Q7EYtTLCcDtMmmuf2g)
+![](scheduler-views.images/image3.png)
 
 For descriptions on each Scheduler preference, please see other help documentation titled MY SETTINGS.
 

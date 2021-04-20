@@ -22,7 +22,7 @@ When you scroll up in the encounter, these chart tabs will collapse and hide to 
 
 
 
-![](working-in-a-visit-encounter.images/image1.png)
+![](working-in-a-visit-encounter.images/image17.png)
 
 
 
@@ -34,7 +34,7 @@ When you scroll up in the encounter, the second line of the patient information 
 
 
 
-![](working-in-a-visit-encounter.images/image2.png)
+![](working-in-a-visit-encounter.images/image19.png)
 
 ## Encounter Section Jump Tabs
 
@@ -42,7 +42,7 @@ When working in a dynamic encounter, you will notice blue tabs. The blue tabs ar
 
 
 
-![](working-in-a-visit-encounter.images/image3.png)
+![](working-in-a-visit-encounter.images/image18.png)
 
 ## Stage Buttons
 
@@ -54,7 +54,7 @@ The ‘stage' buttons are also available at the very bottom of the encounter.
 
 
 
-![](working-in-a-visit-encounter.images/image4.png)
+![](working-in-a-visit-encounter.images/image21.png)
 
 ## Function Buttons
 
@@ -62,7 +62,7 @@ When working in a dynamic encounter, you will see function buttons on the far ri
 
 
 
-![](working-in-a-visit-encounter.images/image5.png)
+![](working-in-a-visit-encounter.images/image20.png)
 
 ### Release
 
@@ -70,7 +70,7 @@ The release icon is available at the top or a button at the bottom of the dynami
 
 
 
-![](working-in-a-visit-encounter.images/image6.png)
+![](working-in-a-visit-encounter.images/image23.png)
 
 
 
@@ -78,14 +78,14 @@ This release button will take you to the "view" of the encounter and release you
 
 If you have not released the encounter, when a user navigates to an encounter that has already been grabbed or the encounter is marked as "current" for another user, a red alert displays on top of the encounter stating another user owns this encounter. It doesn't prevent that other user from working in the encounter, but it notifies to them that someone else has this same encounter marked as "current" or is currently working in it and has not released it as "current" for themselves. System setting *Use Grab* must be enabled to utilize this feature. *Note: If this system setting is disabled (value 0) then you will not see nor need to utilize the "release" button in the dynamic encounter.*
 
-![](working-in-a-visit-encounter.images/image7.png)
+![](working-in-a-visit-encounter.images/image22.png)
 ## Multiple Users in Encounter
 
 Seeing the *Other Users InThis Encounter* yellow alert bar means another userI(s) has this specific encounter id marked as "current" for themselves. They may be in the encounter working also, or they may just still have that patient's encounter still set as "current" for themselves and never clicked "release". Any user who has the same encounter marked as "current" for themselves will show that alert to other users who also get into the encounter to work. You can force to release the encounter from another user as current. Simply click the *release* hyperlink in the options column next to the specific user(s). If no other user has this same encounter ‘current' for themselves, you will not see any of this.
 
 
 
-![](working-in-a-visit-encounter.images/image8.png)
+![](working-in-a-visit-encounter.images/image28.png)
 
 
 
@@ -93,7 +93,7 @@ Others **can** continue to work in the same encounter while you are working in
 
 
 
-![](working-in-a-visit-encounter.images/image9.png)
+![](working-in-a-visit-encounter.images/image25.png)
 
 ## Side Chart Access
 
@@ -103,7 +103,7 @@ Clicking this icon near the patient's MR# will expand and display a side chart o
 
 
 
-![](working-in-a-visit-encounter.images/image10.png)
+![](working-in-a-visit-encounter.images/image33.png)
 
 
 
@@ -111,7 +111,7 @@ To browse documents that may be housed in the *Notes, Medical Records or Summar
 
 
 
-![](working-in-a-visit-encounter.images/image11.png)
+![](working-in-a-visit-encounter.images/image29.png)
 
 
 
@@ -121,7 +121,7 @@ To collapse the side chart access, simply click on the icon image near the patie
 
 
 
-![](working-in-a-visit-encounter.images/image12.png)
+![](working-in-a-visit-encounter.images/image31.png)
 
 ## Typing/Capturing Data
 
@@ -129,7 +129,7 @@ When working in the encounter, the encounter sections are collapsed to provide y
 
 
 
-![](working-in-a-visit-encounter.images/image13.png)
+![](working-in-a-visit-encounter.images/image34.png)
 
 
 
@@ -143,7 +143,7 @@ In the dynamic encounter, each section shows a quick summary view when looking a
 
 
 
-![](working-in-a-visit-encounter.images/image14.png)
+![](working-in-a-visit-encounter.images/image36.png)
 
 ### Detailed View
 
@@ -151,7 +151,7 @@ In the dynamic encounter, you can see more detailed information of existing data
 
 
 
-![](working-in-a-visit-encounter.images/image15.png)
+![](working-in-a-visit-encounter.images/image38.png)
 
 
 
@@ -159,7 +159,7 @@ The same list of data shows, but expands to show more detail such as dates, reac
 
 
 
-![](working-in-a-visit-encounter.images/image16.png)
+![](working-in-a-visit-encounter.images/image40.png)
 
 
 
@@ -169,7 +169,7 @@ To get back to display as "summary view" simply click the icon labeled "Summary 
 
 
 
-![](working-in-a-visit-encounter.images/image17.png)
+![](working-in-a-visit-encounter.images/image42.png)
 
 ### Removing/Hiding Sections
 
@@ -177,7 +177,7 @@ In a dynamic encounter, you can "hide" a section and it will keep it hidden for 
 
 
 
-![](working-in-a-visit-encounter.images/image18.png)
+![](working-in-a-visit-encounter.images/image44.png)
 
 
 
@@ -187,7 +187,7 @@ In this example, we don't use "Cases/Incidents" for our practice, so I can X/hid
 
 
 
-![](working-in-a-visit-encounter.images/image19.png)
+![](working-in-a-visit-encounter.images/image46.png)
 
 
 
@@ -195,7 +195,7 @@ I can bring that section "back" to be shown on the encounter I'm working in if n
 
 
 
-![](working-in-a-visit-encounter.images/image20.png)
+![](working-in-a-visit-encounter.images/image26.png)
 
 
 
@@ -203,7 +203,7 @@ Once I clicked on the word "Case" from that pop-up window, the Case section imme
 
 
 
-![](working-in-a-visit-encounter.images/image21.png)
+![](working-in-a-visit-encounter.images/image3.png)
 
 
 
@@ -215,12 +215,12 @@ In order to get "into" a section to key in other or more data, you must click on
 
 So for example, if I wanted to key in another allergy that the patient states they have, I would click on the title bar named *Allergies/Intolerances.*
 
-![](working-in-a-visit-encounter.images/image22.png)
+![](working-in-a-visit-encounter.images/image5.png)
 When you click on a section title bar, the section will expand open to enable you to key in data. You can also edit existing data that lists in that section if you have security permissions.
 
 
 
-![](working-in-a-visit-encounter.images/image23.png)
+![](working-in-a-visit-encounter.images/image7.png)
 
 
 
@@ -228,7 +228,7 @@ Clicking the ?Next button will save and close that section and expand open the s
 
 
 
-![](working-in-a-visit-encounter.images/image24.png)
+![](working-in-a-visit-encounter.images/image9.png)
 
 
 
@@ -236,7 +236,7 @@ If you expanded a section but didn't want or need to key any data into that sect
 
 
 
-![](working-in-a-visit-encounter.images/image25.png)
+![](working-in-a-visit-encounter.images/image11.png)
 
 
 
@@ -246,7 +246,7 @@ You can click one button to have *all* sections of the encounter expanded to k
 
 
 
-![](working-in-a-visit-encounter.images/image26.png)
+![](working-in-a-visit-encounter.images/image12.png)
 
 
 
@@ -258,7 +258,7 @@ In the dynamic encounter, the section Encounter Info houses the date of visit, w
 
 
 
-![](working-in-a-visit-encounter.images/image27.png)
+![](working-in-a-visit-encounter.images/image13.png)
 
 
 
@@ -266,7 +266,7 @@ Encounter visit types are usually generic (ex: Visit encounter), but there is a 
 
 
 
-![](working-in-a-visit-encounter.images/image28.png)
+![](working-in-a-visit-encounter.images/image14.png)
 
 The encounter remains stored as the visit type you created, but the stored/archived document (that the encounter created) is saved as what you selected in the *Archive As* field (document type name).
 
@@ -278,7 +278,7 @@ If no multi-dictation file exists yet on the encounter, this section will appear
 
 
 
-![](working-in-a-visit-encounter.images/image29.png)
+![](working-in-a-visit-encounter.images/image15.png)
 
 
 
@@ -286,7 +286,7 @@ Once you expand the section. You will be able to record dictation via the *reco
 
 
 
-![](working-in-a-visit-encounter.images/image30.png)
+![](working-in-a-visit-encounter.images/image16.png)
 
 
 
@@ -294,7 +294,7 @@ When you click *record multi-dictation* then the MIE Record Dictation player w
 
 
 
-![](working-in-a-visit-encounter.images/image31.png)
+![](working-in-a-visit-encounter.images/image24.png)
 
 
 
@@ -302,7 +302,7 @@ If there is a multi-dictation file that was recorded already on the encounter, y
 
 
 
-![](working-in-a-visit-encounter.images/image32.png)
+![](working-in-a-visit-encounter.images/image27.png)
 
 
 
@@ -310,7 +310,7 @@ When the Multi-Dictation section is expanded, you have the ability to record and
 
 
 
-![](working-in-a-visit-encounter.images/image33.png)
+![](working-in-a-visit-encounter.images/image30.png)
 
 
 
@@ -342,7 +342,7 @@ In the Visit Orders section of a dynamic encounter, you have the ability to show
 
 
 
-![](working-in-a-visit-encounter.images/image34.png)
+![](working-in-a-visit-encounter.images/image32.png)
 
 ### Restrictions and Accommodations
 
@@ -362,7 +362,7 @@ The dynamic encounter offers a batching mode to document patient education mater
 
 
 
-![](working-in-a-visit-encounter.images/image36.png)
+![](working-in-a-visit-encounter.images/image37.png)
 
 ### Future Appointments
 
@@ -370,7 +370,7 @@ This section will show a list of all future appointments scheduled for the chart
 
 
 
-![](working-in-a-visit-encounter.images/image37.png)
+![](working-in-a-visit-encounter.images/image39.png)
 
 ### Future Case Appointments
 
@@ -378,7 +378,7 @@ If the dynamic encounter is linked to an existing *case* back up in the Cases 
 
 
 
-![](working-in-a-visit-encounter.images/image38.png)
+![](working-in-a-visit-encounter.images/image41.png)
 
 ### Date Pickers
 
@@ -386,7 +386,7 @@ Any section with a date picker (calendar icon) will expand to open a calendar wh
 
 
 
-![](working-in-a-visit-encounter.images/image39.png)
+![](working-in-a-visit-encounter.images/image43.png)
 
 
 
@@ -398,7 +398,7 @@ Dynamic encounter templates can be saved and loaded. The *Tools* icon button g
 
 
 
-![](working-in-a-visit-encounter.images/image40.png)
+![](working-in-a-visit-encounter.images/image45.png)
 
 
 
@@ -410,7 +410,7 @@ To search and utilize a saved template type that is stored in the library, simpl
 
 
 
-![](working-in-a-visit-encounter.images/image41.png)
+![](working-in-a-visit-encounter.images/image1.png)
 
 
 
@@ -420,7 +420,7 @@ A default stored encounter template can also be applied when setting up appointm
 
 One can also apply a template to an encounter at time of creation. From the Quick Links portlet, there is an icon next to each visit type available for quick creation. Clicking on this icon will open up the template choices. Selecting a template choice will then open/create the encounter of the icon you clicked next to, and applies the template you selected.
 
-![](working-in-a-visit-encounter.images/image42.png) ![](working-in-a-visit-encounter.images/image43.png)
+![](working-in-a-visit-encounter.images/image2.png) ![](working-in-a-visit-encounter.images/image4.png)
 
 Dynamic encounter templates also use the "Archive as" document type if one was set in the template being used and save as that doc.type once encounter is closed/archived.
 
@@ -430,7 +430,7 @@ Stored templates in your system can be deleted in their entirety. Click on the 
 
 
 
-![](working-in-a-visit-encounter.images/image44.png)
+![](working-in-a-visit-encounter.images/image6.png)
 
 ### Final Summary
 
@@ -438,7 +438,7 @@ At the end of the encounter entry screen you will see a section named *Summary*
 
 
 
-![](working-in-a-visit-encounter.images/image45.png)
+![](working-in-a-visit-encounter.images/image8.png)
 
 ## Closed Encounters
 
@@ -446,7 +446,7 @@ You can still get into a closed encounter as before, but dynamic encounters will
 
 
 
-![](working-in-a-visit-encounter.images/image46.png)
+![](working-in-a-visit-encounter.images/image10.png)
 
 ## Additional Documents
 

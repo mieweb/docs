@@ -22,25 +22,25 @@ Additionally, forms can be programmed to print specific information, automatical
 
 To access a form from a chart, click the [E-Chart sidemenu](https://system/?f=chart), navigate to the necessary chart, and when the *Summary* tab loads, click the **Add Document** link.
 
-![](form-documents.images/image1.png)
+![](form-documents.images/image6.png)
 
 As noted, users can also access and print forms from the [Scheduler](https://system/?func=scheduler#Now). Locate the appropriate appointment, and click the **Add Document** link from the appointment view.
 
-![](form-documents.images/image2.png)
+![](form-documents.images/image8.png)
 
 To access and print a form from the *Appointments* chart tab, simply navigate to the respective chart and locate the Appointments option from the *Admin* chart tab. Users can click the **Add Document** link found in the *Options* column.
 
-![](form-documents.images/image3.png)
+![](form-documents.images/image7.png)
 
 ### Forms Library
 
 When the Add Document link is clicked, the Forms Library will load. Users can choose from the list of **All Types**, or for filtering options, users may click any of the document type links, and the list will reduce to only the selected document type. A **Doc Type Search** is also available, if preferred.
 
-![](form-documents.images/image4.png)
+![](form-documents.images/image10.png)
 
 To open a document/form, simply click the associated hyperlink (e.g., Form, Text, HTML, New, etc.), following the specific document being accessed.
 
-![](form-documents.images/image5.png)
+![](form-documents.images/image9.png)
 
 {{% note %}}
 
@@ -49,7 +49,7 @@ The document will open a new window/tab, in either a PDF or TIFF format. Forms c
 {{% /note %}}
 
 
-![](form-documents.images/image6.png)
+![](form-documents.images/image2.png)
 {{% tip %}}
 
 The Document View Format rendering (in PDF or TIFF) is a setting found in the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) tab of the Control Panel. This can be changed at the user level, if desired.
@@ -61,7 +61,7 @@ The Document View Format rendering (in PDF or TIFF) is a setting found in the [M
 
 Once the appropriate form document has been rendered, simply click the printer icon near the top of the screen, to print the form document in context. Once the icon is clicked, the print dialog screen will open. Confirm the correct printer is selected, and ensure the printer is setup to print the correct number of pages. Once finished, the window can be closed and working can continue as before.
 
-![](form-documents.images/image7.png)
+![](form-documents.images/image1.png)
 
 {{% note %}}
 
@@ -76,13 +76,13 @@ AlternaTIFF is a web browser add-on designed to display most of the common types
 
 Simply launch a form from the Forms Library and click the pen icon or button from the AlternaTIFF toolbar. Once the user signs the appropriate section on the form using the mouse or touchscreen, click the Upload button, also found on the toolbar. If necessary, users can click the Eraser icon or button to remove the signature and retry. If interested, clients may use a signature pad device for consent forms, prescription pick-up, records pick-up, and the like, as well.
 
-![](form-documents.images/image8.png)
+![](form-documents.images/image4.png)
 
 When presented with the confirmation prompt, users must click the **OK** button to continue uploading the document into the respective chart. Otherwise, clicking **Cancel** will bypass this step.
 
-![](form-documents.images/image9.png)
+![](form-documents.images/image3.png)
 
 The form is stored in the respective chart and given a unique document ID number. The form is housed in the chart tab(s) according to the configuration of the system.
 
-![](form-documents.images/image10.png)
+![](form-documents.images/image5.png)
 

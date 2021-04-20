@@ -19,7 +19,7 @@ In the All Pending tab, it lists all users who have pending e-sign requests assi
 
 
 
-![](un-request-unassign-an-e-signature.images/image1.png)
+![](un-request-unassign-an-e-signature.images/image5.png)
 
 
 
@@ -27,7 +27,7 @@ It will list all pending documents that are in that user's queue to e-sign.  Cl
 
 
 
-![](un-request-unassign-an-e-signature.images/image2.png)
+![](un-request-unassign-an-e-signature.images/image10.png)
 
 
 
@@ -51,7 +51,7 @@ After clicking un-request, another step is to confirm to un-request the signatur
 
 
 
-![](un-request-unassign-an-e-signature.images/image5.png)
+![](un-request-unassign-an-e-signature.images/image7.png)
 
 
 
@@ -59,7 +59,7 @@ The un-request has been performed and it will display a message as such, while t
 
 
 
-![](un-request-unassign-an-e-signature.images/image6.png)
+![](un-request-unassign-an-e-signature.images/image2.png)
 
 
 
@@ -71,7 +71,7 @@ An un-request can be done via the document properties if you are in the document
 
 
 
-![](un-request-unassign-an-e-signature.images/image7.png)
+![](un-request-unassign-an-e-signature.images/image1.png)
 
 
 
@@ -87,7 +87,7 @@ When un-requesting using either option described above to un-request, one can re
 
 
 
-![](un-request-unassign-an-e-signature.images/image9.png)
+![](un-request-unassign-an-e-signature.images/image6.png)
 
 
 
@@ -95,7 +95,7 @@ After clicking View Document, the document will open with options at the top rig
 
 
 
-![](un-request-unassign-an-e-signature.images/image10.png)
+![](un-request-unassign-an-e-signature.images/image9.png)
 
 
 

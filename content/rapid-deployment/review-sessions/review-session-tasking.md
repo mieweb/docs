@@ -154,9 +154,9 @@ Review user security settings for users needing access to Tasking, and give perm
 
 Review security roles and individual My Settings preferences of those needing access to the Task List module. Review permissions and set, as appropriate. This information is also available within the [My Settings](../../functions/system-administration/security/my-settings.html) online help.
 
-![](review-session-tasking.images/image2.png)
-
 ![](review-session-tasking.images/image3.png)
+
+![](review-session-tasking.images/image2.png)
 
 ## Resources
 

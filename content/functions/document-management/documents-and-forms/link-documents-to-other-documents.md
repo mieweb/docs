@@ -32,17 +32,17 @@ After the page loads, scroll down to the **Document Is Linked To** section. Here
 
 To add a document link, click the **Add Link** hyperlink next to the section header.
 
-![](link-documents-to-other-documents.images/image2.png)
+![](link-documents-to-other-documents.images/image3.png)
 
 Once clicked, the **Document Linked to Document** page will load, with fields available for defining the document being linked and the type of link being created.
 
-![](link-documents-to-other-documents.images/image3.png)
+![](link-documents-to-other-documents.images/image2.png)
 
 The **Link Type** dropdown allows users to define types of links between documents, if necessary. Generally, the **Is Linked to** option is chosen, by default.
 
 ![](link-documents-to-other-documents.images/image4.png)
 
-The **Linked To** field is used to define the document being linked to the document in context. Simply begin typing the document ID to populate the appropriate document being linked. If the document ID is not known, simply use the help bubble ![](link-documents-to-other-documents.images/image5.png) to utilize the search feature, to find the appropriate document ID.
+The **Linked To** field is used to define the document being linked to the document in context. Simply begin typing the document ID to populate the appropriate document being linked. If the document ID is not known, simply use the help bubble  to utilize the search feature, to find the appropriate document ID.
 
 {{% tip %}}
 
@@ -58,7 +58,7 @@ After filling in the fields, click the **Add** button to the right of the screen
 
 Continue linking documents, as needed, clicking the **Add** button after each one.
 
-![](link-documents-to-other-documents.images/image7.png)
+![](link-documents-to-other-documents.images/image5.png)
 
 After all documents have been linked to the document in context, click the **Save** button to signify completion and to save all entries. Once clicked, the page will refresh with the **Documents Linked to Document** section displaying all links to the document in context.
 
@@ -73,7 +73,7 @@ The document will not be linked to the other documents until the *Save* button i
 
 Users may continue to other areas of the chart as needed, or they may click the **Back to Properties** link in the upper-right corner, to return to the document properties.
 
-![](link-documents-to-other-documents.images/image9.png)
+![](link-documents-to-other-documents.images/image7.png)
 
 ## Link via E-Sign
 
@@ -90,16 +90,16 @@ To link the document being signed to a new document being created, the **Add Doc
 {{% /note %}}
 
 
-![](link-documents-to-other-documents.images/image10.png)
+![](link-documents-to-other-documents.images/image11.png)
 After clicking the Add Document link, a new window/tab will open and display the Add Document module within the chart.
 
-![](link-documents-to-other-documents.images/image11.png)
+![](link-documents-to-other-documents.images/image9.png)
 
 With the pending document still open in the previous window/tab, select the specific document type that needs added to the chart from the *Add Document* screen. The document type being added will be linked to the document being reviewed in the E-Sign module.
 
 After selecting the new document type to add (e.g., Doctor Note text document), the *Add Document Properties* screen will load. Here, the **Document Links** section will display the link of the new document being added **Is a Reply to** the document being reviewed. Once added, the user can finish the review and e-sign the original document in the previous window/tab.
 
-![](link-documents-to-other-documents.images/image12.png)
+![](link-documents-to-other-documents.images/image10.png)
 
 For more information on the E-Sign module and working the queue, please visit our directory of [E-Sign](../../e-sign-electronic-signature.html) help documentation.
 
@@ -109,15 +109,15 @@ Sometimes a document will no longer need linked to another document. Unlinking d
 
 Locate the document needing unlinked. Click the **Properties** link in the document header. Scroll down to the *Document is Linked To* section, where all document links are listed, and simply click the **Add Link** hyperlink, found next to the section title.
 
-![](link-documents-to-other-documents.images/image13.png)
+![](link-documents-to-other-documents.images/image12.png)
 
 The ListEdit will load showing each of the links that exist for the document. To remove a link, locate the specific line item of the link type and document, and click the minus [ - ] button found in the *Options* column.
 
-![](link-documents-to-other-documents.images/image14.png)
+![](link-documents-to-other-documents.images/image13.png)
 
 Once clicked, the system will strikethrough the line. If an incorrect line was selected, simply click the plus [ + ] button found in the *Options* column, and this will reverse the action.
 
-![](https://lh4.googleusercontent.com/q6cVz0Wrf8_UN_X0JaV8lsFNsNEn0_GzgLU1z5lvbPv5QtdFFOL31dtJx_haq7DnboBUD8tIBTE2FR2eJX6u7yb4rL3oT_X9oETQViafhWqThz8P0kJZ0i7CmM5g8inx3EoahXOgjIzimD98ow)
+![](link-documents-to-other-documents.images/image14.png)
 
 When finished, click the **Save** button to save all changes. After the page refreshes, users may continue working in the chart, or to get back to document properties, simply click the **Back to Properties** link found in the upper-right corner of the screen.
 

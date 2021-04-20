@@ -2,7 +2,7 @@
 title: "Printing or faxing statements or creating copies on optical media"
 date: "2021-03-02T19:33:29.295Z"
 url: "functions/financial-functionality/printing-or-faxing-statements-or-creating-copies-on-optical-media.html"
-author: Adam Humes
+author: ahumes
 version: 17
 id: "1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw"
 source: "https://drive.google.com/open?id=1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw"

@@ -35,11 +35,11 @@ There are optional fields to narrow your search from:
 
 Example of the waiting list shown with_out_ grouping the resources. This patient below is on the waiting list for an appointment requiring multiple resources. Therefore, she is listed twice on the waiting list as each resource is separated out.
 
-![](waiting-list-tab.images/image2.png) ![](waiting-list-tab.images/image3.png)
+![](waiting-list-tab.images/image3.png) ![](waiting-list-tab.images/image2.png)
 
 This example shows the waiting list *with* the Group resources check-marked. This groups the resources for any patient that is on the waiting list for an appointment requiring more than 1 resource. It lists the patient once, but groups all the resources (physicians) in the doctor line.
 
-![](waiting-list-tab.images/image4.png) ![](waiting-list-tab.images/image5.png)
+![](waiting-list-tab.images/image5.png) ![](waiting-list-tab.images/image4.png)
 
 * <strong>Patient:</strong> To search for a specific patient on the waiting list, type patient's last name (in the <em>Patient</em> search field) and it will pop-up patients to select from. Highlight the patient then click <em>Search</em>. Your search will show up in the Waiting List: below. If you want to search for someone by using their MR#, you must type a question mark and then the MR#.
 * <strong>Location:</strong> To search by a specific location on the waiting list, select the desired location from the drop-down arrow. Only shows inside locations. It does not show outside locations.
@@ -49,7 +49,7 @@ This example shows the waiting list *with* the Group resources check-marked. Thi
 
 **Show CSV Link:** If you click the *Show CSV* link above the waiting list results, it will put the waiting list into an excel spreadsheet/report format. You can sort, print, save, or do other functions from this report/spreadsheet ability.
 
-![](waiting-list-tab.images/image6.png)
+![](waiting-list-tab.images/image7.png)
 
 ## Remove Patients from the Waiting List
 
@@ -65,13 +65,13 @@ Find the patient you want on the waiting list.
 
 Click *edit* at the right of the patient name on the waiting list that you want to move off this list (by editing the appts) and make/create an appointment for. (You can also find list of patients on the waiting list by using the Appointment Report and edit their appt to now schedule them for a specific date/time of an appt from there too).
 
-![](waiting-list-tab.images/image7.png)
+![](waiting-list-tab.images/image6.png)
 
 It will now open the *Appointment Wizard* tab for the patient.
 
-![](waiting-list-tab.images/image8.png)
-
 ![](waiting-list-tab.images/image9.png)
+
+![](waiting-list-tab.images/image8.png)
 
 Fill out the **appointment date & time** field information of the appointment that the patient is now being scheduled for (see appt wizard instructions) and/or edit any other information in the Appointment Wizard screen.
 
@@ -91,13 +91,13 @@ Find the patient you want on the waiting list.
 
 Click *edit* at the right of the patient name on the waiting list that you want to take off this list and not create a future appointment for. (You can also find list of patients on the waiting list by using the Appointment Report and take them off from there too).
 
-![](waiting-list-tab.images/image10.png)
+![](waiting-list-tab.images/image6.png)
 
 It will now open the *Appointment Wizard* tab for the patient.
 
 Scroll down to the very bottom and there is a field named *Cancel*. Select a cancel reason from the drop-down of choices.
 
-![](waiting-list-tab.images/image11.png)
+![](waiting-list-tab.images/image10.png)
 
 {{% tip %}}
 
@@ -118,7 +118,7 @@ It will open the *Appointment Wizard tab.*
 
 Search and select the patient you want to put on the waiting list from the Patient Search field at the top of the Appointment Wizard screen.
 
-![](waiting-list-tab.images/image12.png)
+![](waiting-list-tab.images/image11.png)
 
 OR
 
@@ -128,7 +128,7 @@ Find patient you want and get into their file.
 
 Click *Add Apt* from anywhere in the patient's chart.
 
-![](waiting-list-tab.images/image13.png)
+![](waiting-list-tab.images/image12.png)
 
 It will open the *Appointment Wizard* screen.
 
@@ -136,13 +136,13 @@ When the Appointment Wizard opens, it will show the *Patient* section. This is w
 
 Proceed to fill out the information fields that you need to, then at the **date/time for appointment field** you must click USE WAITLIST button. It will clear out the date/time fields to be blank (meaning the patient will be going on the waiting list).
 
-![](waiting-list-tab.images/image14.png)
+![](waiting-list-tab.images/image13.png)
 
 Then go down to the bottom of the screen and click the SAVE box.
 
 It will add the patient's appt to the waiting list and it will refresh you to take you to the waiting list view. This has put this patient in the waiting list and shows you. You can get out and continue to work elsewhere in {{% system-name %}} .
 
-![](waiting-list-tab.images/image15.png)
+![](waiting-list-tab.images/image14.png)
 
 ## Send Email(s) to Patient(s) on Waiting List
 
@@ -150,13 +150,13 @@ You must have security permission to *Send Email to Patients* set to Yes in orde
 
 You can send an email of a patient reminder to anyone or all patients on the waiting list. The email will only be sent to those patients who have an email address stored in the demographics tab in the email field.
 
-![](waiting-list-tab.images/image16.png)
+![](waiting-list-tab.images/image15.png)
 
 When in the scheduler, click the WAITING LIST tab at the top.
 
 In the Waiting List screen view, click **Notify Patient by Email** link at the top right of the waiting list.
 
-![](waiting-list-tab.images/image17.png)
+![](waiting-list-tab.images/image16.png)
 
 See other help documentation named *Email Reminders From |system|.pdf* on how to send emails to patient from here. You can also send emails for waiting list appointments from the Appointment Report. See other help documentation regarding the Appointment Report.
 
@@ -164,7 +164,7 @@ See other help documentation named *Email Reminders From |system|.pdf* on how to
 
 You can print charts, using print definitions, for patient's on the waiting list by clicking the Print Charts link found in the Waiting List tab. Print Charts functions just like the print chart link found under list or multi-view.
 
-![](https://lh6.googleusercontent.com/FlRreLn0ogt7GhIg8cdMHYLC-wCSBYI95FTx2sPu9keH17aXMXzHG-fZS9fIErqcGdqSw9VAJPfjvkW2U8N4OCPtRhYDvmXNIneEiB0X-1lGyOxD_gHiOR9y9zeZLIvQ853nrkyyCAcesYVdrA)
+![](waiting-list-tab.images/image17.png)
 
 You can also send emails for waiting list appointments from the Appointment Report. See other help documentation regarding the Appointment Report.
 

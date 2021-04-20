@@ -91,7 +91,7 @@ source: "https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWv
 
 * Place of Service (POS) code 02
 
-![](introducing-telehealth.images/image2.png)
+![](introducing-telehealth.images/image5.png)
 
 **What does it cost?**
 
@@ -118,17 +118,17 @@ source: "https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWv
 
 ### Patient initiated (iOS)
 
-![](introducing-telehealth.images/image3.png)![](introducing-telehealth.images/image4.png)![](introducing-telehealth.images/image5.png)![](introducing-telehealth.images/image6.png)
+![](introducing-telehealth.images/image3.png)![](introducing-telehealth.images/image2.png)![](introducing-telehealth.images/image6.png)![](introducing-telehealth.images/image4.png)
 
 
 
 ### Provider
 
-![](https://lh3.googleusercontent.com/XeNJs8Z2GhzRuz2r2vb68iLfbjr-6MByy25Kzla9DSd4v0TqRFv8KQAjxAcxVnXI5iNKsBY8qJyZsvXJnEQ17pAmVzePgi23aqlcPfvKT7fBoOebbaYw8HODT5_tOGCzQdf9y907TU94q6wgcQ)
+![](https://lh3.googleusercontent.com/IwvwxT2o-tQuYlUXBVxAgoOQYBpRfwgyBwSdAmfEOiRdmVwAfPd_jJSICkctMqtgFOi_pVyr5pCknkn3IKL08UeYoAcU_GmLDNEpzMEEH0aEqRGBh7M0-gb5wiJPiYLqZzrpVR2hwCGbbVlUXg)
 
 
 
-![](https://lh3.googleusercontent.com/F6hoRmZV0blKaHu-p7p76n587_IE3uAagdF6RSNZ0Z0ZFtzwR_eLoqlHVpdvYsZMp1yaaNpl_Eq8bxPuKBdaTGTwYU349qHkUKV_tUyCuPE99Ob7epxNJNNzf39241_XdYuLTBU_-yQZATAX2g)
+![](https://lh3.googleusercontent.com/u2vZ6yYXJfyXh8Xj2pC4wV42FNFg_OROIzyO4pGplCetKtMZ5TwYozAdFRwXozzYAVC6qJOF636993gNnyHrt_O_emYoHlcpAH5jwn0lozmAZWLLluWdDwNhRkhGYqWdfnwC8sQaKaCbOmkWzQ)
 
 
 

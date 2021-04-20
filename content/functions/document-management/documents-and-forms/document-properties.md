@@ -19,13 +19,13 @@ Every document contains metadata that identifies the document or describes the d
 
 After clicking the **Properties** link, the page will display all of the general properties of the document, as well as additional properties sections, such as revision history, encounters linked to the document, orders linked to the document, current routes for the document, etc.
 
-![](document-properties.images/image2.png)
+![](document-properties.images/image3.png)
 
 ## Document Properties Fields
 
 The following explains the various fields available in the document properties. These fields are those found at the top of the *Properties* page.
 
-![](document-properties.images/image3.png)
+![](document-properties.images/image2.png)
 
 **Document ID**: The document identifier, or document ID, is often referred to as doc ID, or some variation thereof. Every document that is created has a unique identifier. This document identifier can be found throughout the system as a hyperlink. Clicking the document ID link will take users directly into the document view. The document view displays limited document properties, such as revision number, author, date of service, created by, creation date, and location. However, to view additional properties, or specific details, click the Properties link and locate the necessary information. Any previous versions, or revisions, can be viewed by simply clicking the revision number.
 
@@ -39,7 +39,7 @@ The following explains the various fields available in the document properties. 
 
 **Link to Orders**: This field is visible when on the *Edit Properties* screen. The field is an autocomplete, and when an order number is selected, this indicates a pending, incomplete order request is linked, or associated with the document. Using this field to link a pending order with a document will mark the pending, incomplete order as Complete, when the properties are saved. This functionality is also available when using the Add Document quick link. If a link needs to be removed, use the *Orders Linked to Document* section of the *Edit Properties* page. See [Link Document to Order](link-documents-to-order-requests.html) documentation for additional information and details.
 
-![](document-properties.images/image4.png)
+![](document-properties.images/image5.png)
 
 **Interface**: If the document in context originates from an external interface, this field will autopopulate the name of the interface the document originated from.
 
@@ -49,13 +49,13 @@ The following explains the various fields available in the document properties. 
 
 **Needs Signed By**: The {{% system-name %}} system not only offers the ability to electronically sign a document directly, but to request electronic signatures of documents, as well. The *Needs Signed By* field shows those users that are expected to e-sign the document. An **un-request** link is available to remove the e-sign request from the document, if necessary. Also, like the *Signed By* field, the first 15 characters of any comment associated with a signature request will display, though hovering over or clicking the comment will display the comment in its entirety. The information bubble shows from whom and when the request came.
 
-![](document-properties.images/image5.png)
+![](document-properties.images/image4.png)
 
 **Subject**: The ability to add a subject to a document is a feature that is enabled by default. This field is designed for free-texted subjects, intended to assist with providing context on and searchability of multitudinous documents. To add a subject, simply click the **Add** link in the *Subject* field of the document properties. After free-texting the subject, click the **Save** button. Subjects cannot be added/edited for email documents, because email subjects are created when the email reminder is triggered from system modules. For more details, review the [Adding a Subject to Documents](adding-a-subject-to-documents.html) documentation.
 
 **Case**: Like linking a document to an order, {{% system-name %}} allows users to link cases/incidents to documents, as needed. When on the *Edit Properties* screen, an autocomplete field is available for linking a case/incident to the document in context. If the document is linked to a case/incident, it will display the date and time, as well as the case number the document is linked to. Using the down arrow (↓) in the *Case* field will display all of the existing cases within the chart in context. Link to, or edit which case the document is linked to, by selecting the appropriate one from those available. Check out more information about [Viewing Cases](../../injury-care/case-management/viewing-cases.html), if interested.
 
-![](document-properties.images/image6.png)
+![](document-properties.images/image7.png)
 
 **MR#**: This field displays the medical record number of the chart the document is stored within.
 
@@ -73,7 +73,7 @@ The following explains the various fields available in the document properties. 
 
 While viewing the document properties, there are several groupings found toward the lower-half of the properties page. These groupings are intended to offer users a quick and easy method for checking revisions, links, routes, and locks. The following information explains each section and how each is intended to be used.
 
-![](document-properties.images/image7.png)
+![](document-properties.images/image6.png)
 
 ### Revisions for Document
 
@@ -83,7 +83,7 @@ If any revisions have been done to the document, the *Revisions for Document* se
 
 To view and compare revision versions, or the different versions of the document in context, simply use the **Diff** checkboxes and **View Diff** button. Checkmark which revisions to compare differences between by selecting the appropriate Diff checkboxes. Once the revisions being compared are selected, click the View Diffs button. This button allows for a visual comparison of the changes made between revisions.The changes will be highlighted on the screen for easy viewing.
 
-![](document-properties.images/image8.png)
+![](document-properties.images/image9.png)
 
 {{% note %}}
 
@@ -103,7 +103,7 @@ The View Diffs button can be disabled system-wide via the system setting (i.e., 
 
 This *Encounters Linked to Document* section details all encounters linked to the document. The option to remove a link is available by clicking the **Remove Link** hyperlink, found in the *Options* column.
 
-![](document-properties.images/image9.png)
+![](document-properties.images/image8.png)
 
 For more information on how to link documents to encounters, check out [Link Documents to Encounters](link-documents-to-encounters.html).
 
@@ -111,7 +111,7 @@ For more information on how to link documents to encounters, check out [Link Doc
 
 Users can review the document properties to see whether a document is linked to a specific order, as well. The *Orders Linked to Document* section displays each instance the document has been linked to a specific order request. The option to remove the link between order and document is available by clicking the **Remove Link** hyperlink from the *Options* column.
 
-![](document-properties.images/image10.png)
+![](document-properties.images/image12.png)
 
 For more information on how to link documents to orders, check out [Link Documents to Orders](link-documents-to-order-requests.html).
 
@@ -121,7 +121,7 @@ The *Document is Linked To* section is particularly helpful to users, because it
 
 To link a document to another document, check out [Link a Document to Another Document](link-documents-to-other-documents.html).
 
-![](document-properties.images/image11.png)
+![](document-properties.images/image10.png)
 
 {{% note %}}
 
@@ -138,7 +138,7 @@ If the document is *electronically* transmitted, route details will display in t
 
 For example, if the document route displays an error, or it shows as pending, the **Cancel** link or **Error** link can be used to move the transmission route from the pending queue to the errored queue, removing the route from the list of routes to be retried. Resending can undo this.
 
-![](document-properties.images/image12.png)
+![](document-properties.images/image11.png)
 
 If the document routed successfully, the status will display *Complete* and the only available options would be to Resend or Deactivate in the event of any transmission or communication errors.
 

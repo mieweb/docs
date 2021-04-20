@@ -93,7 +93,7 @@ What you will need:
 
 
 
-![](create-employees-file-for-import.images/image1.png)
+![](create-employees-file-for-import.images/image5.png)
 
 
 
@@ -106,7 +106,7 @@ What you will need:
 
 
 
-![](create-employees-file-for-import.images/image2.png)
+![](create-employees-file-for-import.images/image4.png)
 
 
 
@@ -114,7 +114,7 @@ What you will need:
 
 
 
-![](create-employees-file-for-import.images/image3.png)
+![](create-employees-file-for-import.images/image1.png)
 
 
 
@@ -122,7 +122,7 @@ What you will need:
 
 
 
-![](create-employees-file-for-import.images/image4.png)
+![](create-employees-file-for-import.images/image2.png)
 
 
 
@@ -130,7 +130,7 @@ What you will need:
 
 
 
-![](create-employees-file-for-import.images/image5.png) 
+![](create-employees-file-for-import.images/image3.png) 
 
 {{% tip %}}
 

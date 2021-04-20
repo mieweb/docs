@@ -20,7 +20,7 @@ You must have security role access to Manage Autocompletes. This allows users (b
 
 Autocomplete fields are both learned and pre-loaded in {{% system-name %}} . The AC Editor tab found in Control sidemenu allows users to access and/or edit, add or delete auto-complete field choices that appear in modules throughout {{% system-name %}} .
 
-![](autocomplete-editor.images/image2.png)
+![](autocomplete-editor.images/image3.png)
 
 When you are in the AC Editor tab it will default to show all. You can narrow down your search by using the drop-down on the top right side of the AC Editor tab to select a specific module to look at autocomplete field choices.
 
@@ -39,7 +39,7 @@ If you have permission, you can delete an auto-complete field and confirm the de
 
 To *add* an autocomplete selection to a field, you would go to that field in {{% system-name %}} and type the information into the available field, so the system can *learn* the auto-complete. One example of adding autocomplete text which is not in the system is below in the *dismiss warnings* *reason field* when dismissing a warning and this field is an auto-complete.
 
-![](autocomplete-editor.images/image3.png)
+![](autocomplete-editor.images/image2.png)
 
 After it is typed in the field, the system "learns" it and then it can be edited or deleted using the AC Editor tab.
 

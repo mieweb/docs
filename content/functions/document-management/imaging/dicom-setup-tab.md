@@ -23,7 +23,7 @@ The [DICOM Setup tab](https://system/?f=dicom&dcfunc=aeedit) is both a dashboard
 
 
 
-![](dicom-setup-tab.images/image1.png)
+![](dicom-setup-tab.images/image3.png)
 
 
 
@@ -35,7 +35,7 @@ To view application entities, simply click the [View Application Entities](https
 
 
 
-![](dicom-setup-tab.images/image2.png)
+![](dicom-setup-tab.images/image1.png)
 
 
 
@@ -43,7 +43,7 @@ To add an Application Entity, once in the Application Entities, simply select th
 
 
 
-![](dicom-setup-tab.images/image3.png)
+![](dicom-setup-tab.images/image2.png)
 
 
 

@@ -16,7 +16,7 @@ menu:
 
 * When logging into {{% system-name %}} , most users will navigate to the [E-Chart sidemenu](https://system/?f=chart).  The E-Chart side menu tab is the patient/employee search screen. By default, users will be directed to the <strong>Simple</strong> search screen. Users can change their default landing page upon login of the system by accessing [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the <strong>Control Panel</strong> and changing the <em>Default Page</em> setting.
 
-![](basic-initial-system-information.images/image1.png)
+![](basic-initial-system-information.images/image5.png)
 
 * The patient/employee search screen is usually defaulted to search by <strong>Name</strong>.  When searching by name, users should enter the last name followed by a comma and then first name.  Users can enter the full first and last name or a few characters of each to render results.
 * Users can also search for patients/employees by Employee/Medical Record Number, Social Security Number (entered with no dashes), DOB, Home Phone number (clicking the Home Phone number hyperlink allows users to search by alternate phone number, cell phone number and work phone number as well) or Doc ID.
@@ -37,7 +37,7 @@ menu:
     * <strong>Number of Recent Patients</strong> (found in the E-Chart Defaults section) - this will determine the maximum number of employees/patients that will display in the <em>Your Recent Employees</em> section of the [E-Chart](https://system/?f=chart) screen.
 * To save changes to the [My Settings](https://system/) screen, users should click on the <strong>Submit Settings</strong> button located at the top or the bottom of this screen. Once the changes have been saved, the user will receive a message to indicate that the setting updates were successful.
 
-![](basic-initial-system-information.images/image2.png)
+![](basic-initial-system-information.images/image4.png)
 
 ### Document Summary Tab
 
@@ -52,7 +52,7 @@ menu:
 
 
 
-  ![](basic-initial-system-information.images/image3.png)![](basic-initial-system-information.images/image4.png)
+  ![](basic-initial-system-information.images/image6.png)![](basic-initial-system-information.images/image3.png)
 
 
 
@@ -62,13 +62,13 @@ Users can click on any chart tab located at the top of the charts to view or ent
 
 
 
-![](basic-initial-system-information.images/image5.png)
+![](basic-initial-system-information.images/image6.png)
 
 
 
 Clicking the [Home](https://system/?func=omniscope) icon located towards the top-left corner of the screen will navigate the user back to their default landing screen.  The default landing page is defined per user in the [My Settings](https://system/) chart tab of the **Control Panel**. The *Default Page* setting drives this navigation.
 
- ![](basic-initial-system-information.images/image6.png)
+ ![](basic-initial-system-information.images/image1.png)
 
 ## Logging Out
 
@@ -76,5 +76,5 @@ To log out of the system, click the [Logout](https://system/?func=logout) sideme
 
 
 
-![](https://lh6.googleusercontent.com/hzV_dHczyzhmWtjmnWBAm6e8oJUBrWSfXB41jrE5VlheQn5SiLV932OvroN2_B-IPBxu9vI1s9-j9e5Kdon5s6ljiOApPv_6G1WtyWtJzg61pJXGF14ogKOeyxvIJ_bF9lwIZ43fa4n3dznXLA)
+![](basic-initial-system-information.images/image2.png)
 

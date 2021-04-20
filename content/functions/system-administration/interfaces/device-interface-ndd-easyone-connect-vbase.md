@@ -42,7 +42,7 @@ The plugin will get and send data under the authority of a  SYSTEM  user.  Ea
 * Make sure the <strong>Devices</strong> portlet is selected.
 * Once per user (not on every workstation), click the One-Time setup link.  This creates a public/private key pair and a login trust record.
 * On each workstation, the user should click the Get client credentials link then click in the box to copy their credentials to the clipboard.
-    * ![](device-interface-ndd-easyone-connect-vbase.images/image2.png)
+    * ![](device-interface-ndd-easyone-connect-vbase.images/image3.png)
     * Be sure all of the text is copied.  It should should:
         * Start with "----BEGIN RSA PRIVATE KEY----"
         * End with "----END RSA PRIVATE KEY----".
@@ -50,7 +50,7 @@ The plugin will get and send data under the authority of a  SYSTEM  user.  Ea
 * Click "Search EMR".  A warning that the software could not make connection to EHR system should display.
 * Click "Search EMR" again.  This time you will be prompted to enter your  SYSTEM  username.
 * Click in the "Credential Data" text box and Ctrl+V or Right mouse click and Paste.
-    * ![](device-interface-ndd-easyone-connect-vbase.images/image3.png)
+    * ![](device-interface-ndd-easyone-connect-vbase.images/image2.png)
 * If successful, this setup should only need to be done once per user per PC.
 
 ## Finding People Due for Testing
@@ -81,9 +81,9 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
     * This can be enabled by showing the "Assets" sidemenu tab
     * Click "Add New Asset"
     * The name field is how we uniquely identify devices, so this must be entered exactly.
-        * ![](device-interface-ndd-easyone-connect-vbase.images/image4.png)
-        * This name can be found in a PFT document that was created using the device.
         * ![](device-interface-ndd-easyone-connect-vbase.images/image5.png)
+        * This name can be found in a PFT document that was created using the device.
+        * ![](device-interface-ndd-easyone-connect-vbase.images/image4.png)
         * If you use all the same kind of device, then you can assume they will follow the same pattern, with just the serial number being different.
 * To perform calibration in the NDD software, go to Utilities > Check Calibration
 * After calibration, there will be a special patient created in the NDD patient list, named "Calibration Check" with an ID that is the serial number of the device.
@@ -91,10 +91,10 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
 * Click to select the Calibration Check test that you want to upload
 * Click the double-right arrow in the middle of the row of icons to expand options.
 * Click the EMR button.
-    * ![](device-interface-ndd-easyone-connect-vbase.images/image6.png)
+    * ![](device-interface-ndd-easyone-connect-vbase.images/image7.png)
     * The Doc ID is the unique ID of the calibration document and you can find it in the device's asset chart, or by searching for it by ID.
     * The calibration document will be a PFT document, and the result of calibration will be shown as the Interpretation.
-        * ![](device-interface-ndd-easyone-connect-vbase.images/image7.png)
+        * ![](device-interface-ndd-easyone-connect-vbase.images/image6.png)
 * If you try to upload calibration for a device that hasn't yet been entered as an asset, you will see an error like this displayed:
     * ![](device-interface-ndd-easyone-connect-vbase.images/image8.png)
     * After registering a chart with that name, you should be able to upload the calibration.

@@ -25,7 +25,7 @@ The document header will appear above the document and at the right side in the 
 
 
 
-![](request-e-signature.images/image1.png)
+![](request-e-signature.images/image3.png)
 
 
 
@@ -33,7 +33,7 @@ The screen will display the request signature fields for the user to select whom
 
 
 
-![](request-e-signature.images/image2.png)
+![](request-e-signature.images/image1.png)
 
 
 
@@ -41,7 +41,7 @@ To assign the esign request to whom should sign the document, use the drop-down 
 
 
 
-![](request-e-signature.images/image3.png)
+![](request-e-signature.images/image8.png)
 
 
 
@@ -49,7 +49,7 @@ If the person whom you wish to request a signature from is not in that drop-down
 
 
 
-![](request-e-signature.images/image4.png)
+![](request-e-signature.images/image5.png)
 
 
 
@@ -63,7 +63,7 @@ A message will display that a signature has been requested for that document id.
 
 
 
-![](request-e-signature.images/image5.png)
+![](request-e-signature.images/image2.png)
 
 
 
@@ -71,7 +71,7 @@ By clicking on the Properties link on the document will display who the esign re
 
 
 
-![](request-e-signature.images/image6.png)
+![](request-e-signature.images/image4.png)
 
 
 
@@ -79,7 +79,7 @@ When a signature is requested, {{% system-name %}} stores ‘who' requested it i
 
 
 
-![](request-e-signature.images/image7.png)
+![](request-e-signature.images/image6.png)
 
 
 
@@ -96,7 +96,7 @@ Once the document has been esigned by the specified person, the Preliminary gets
 
 
 
-![](request-e-signature.images/image8.png)
+![](request-e-signature.images/image7.png)
 
 
 

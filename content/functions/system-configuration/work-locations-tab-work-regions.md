@@ -16,7 +16,7 @@ Panels can be assigned to work regions to limit the selection for what is approp
 
 The system setting *Use Work Regions* must be enabled if want to utilize work regions for health surveillance panels.
 
-![](work-locations-tab-work-regions.images/image1.png)
+![](work-locations-tab-work-regions.images/image2.png)
 
 If the system setting is enabled, it enables the Work Locations tab in the Control sidemenu. One or more work regions can be assigned to a panel and this can be used as search criteria from the panel page. {{% system-name %}} filters out the panels not tied to the patient's work region in the orders panel picklist.
 
@@ -24,7 +24,7 @@ If the system setting is enabled, it enables the Work Locations tab in the Contr
 
 The *Work Locations* tab is found in the Control sidemenu tab. When you click in the Work Locations tab, three (3) Work Location Management selections will display. These are editors to set up regions, sites, and locations for your system related to campaigns and/or panels.
 
-![](work-locations-tab-work-regions.images/image2.png)
+![](work-locations-tab-work-regions.images/image4.png)
 
 ### Work Region Manager
 
@@ -36,7 +36,7 @@ You can use the [edit] button to edit a few things on existing work regions. It 
 
 When in any work location editor, the top right links are quick ways to get to the other work locations editors if you wish.
 
-![](work-locations-tab-work-regions.images/image4.png)
+![](work-locations-tab-work-regions.images/image3.png)
 
 ### Work Site Manager
 
@@ -55,7 +55,7 @@ You can use the [edit] button to edit a few things on existing work sites. It wi
 
 When you click Work Location Manager the listing of current and active work locations set up (for your system) will display. If you need to see the *inactive* work locations also simply click the show inactive link at the top left. It will then display all work locations that are active *and* inactive. You can tell which is which by looking at the *Active* column.
 
-![](https://lh3.googleusercontent.com/pRimhi7oXJ3VWWfYRQvQdGqiYWOUrE744lsrdFTHRK-nC6QUhb-xXGbnpfZm1iOfnhw71F2f13nIdMd5dhd056J19nMub89PBDWGdfj5Ec0C4Z_md2TLNJT6eRTVvhChpnKh0qKWPTM1INq74g)
+![](work-locations-tab-work-regions.images/image1.png)
 
 You can use the [edit] button to edit a few things on existing work locations. It will track when and who edited a work site entry. You can also enter/add a new work site:
 

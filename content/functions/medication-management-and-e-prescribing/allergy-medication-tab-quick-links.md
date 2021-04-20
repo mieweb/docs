@@ -16,11 +16,11 @@ menu:
 
 Click the Flow link in the Meds tab to show the Meds Flow Sheet.
 
-![](allergy-medication-tab-quick-links.images/image1.png)
+![](allergy-medication-tab-quick-links.images/image4.png)
 
 The Meds Flow Sheet screen appears. This shows the flow of medications the patient is on according to dates.
 
-![](allergy-medication-tab-quick-links.images/image2.png)
+![](allergy-medication-tab-quick-links.images/image5.png)
 
 Can also click (view) in the date flow column of a specific medication to view the full prescription details and edit from there.
 
@@ -28,7 +28,7 @@ Can also click (view) in the date flow column of a specific medication to view t
 
 This is an optional program. This is the Patient Education link. When you click Pat Ed it will open a separate screen of a printable Patient Education sheet.
 
-![](allergy-medication-tab-quick-links.images/image3.png)
+![](allergy-medication-tab-quick-links.images/image2.png)
 
 You can print out this page and hand it to the patient. It lists everything in their Medication History screen.
 
@@ -38,9 +38,9 @@ It lists *Current Medications* with the drug name, instructions, and reason for 
 
 This Patient Education Sheet lists *Medication Changes* with sub-categories of *Medications to Start Taking*, *Medication Changes*, and *Medications to Stop Taking*. The Patient Education document also lists the pharmacy in which the respected medication was sent to.
 
-![](allergy-medication-tab-quick-links.images/image4.png)
+![](allergy-medication-tab-quick-links.images/image7.png)
 
-![](allergy-medication-tab-quick-links.images/image5.png)
+![](allergy-medication-tab-quick-links.images/image6.png)
 
 This does **not** show discontinued medications that expired (reading from the date entered in Discontinued Date on a prescription). It does show discontinued medications that you discontinued for a specific reason in the *Medications to Stop Taking*.
 
@@ -54,7 +54,7 @@ This is an optional program. Your practice has to request that this program be t
 
 When you click *Med Sheet* it will open a separate screen of a AlternaTiff printable Medication Sheet. This is the Medication Sheet link for office use or for other practices.
 
-![](allergy-medication-tab-quick-links.images/image6.png)
+![](allergy-medication-tab-quick-links.images/image2.png)
 
 When it opens, it is set to automatically go to the print mode. Make sure you have selected the correct printer and click Print. You can print out this page to send to another practice, use to fax, or use internally in your practice.
 
@@ -62,11 +62,11 @@ It lists everything in the patient's Medication History screen. It lists *Allerg
 
 **Medication Sheet - example of a page 1:**
 
-![](allergy-medication-tab-quick-links.images/image7.png)
+![](allergy-medication-tab-quick-links.images/image1.png)
 
 **Medication Sheet - example of a page 2:**
 
-![](https://lh4.googleusercontent.com/nbVrTZaZipZ5z6_eW6hd86LaXpzB8rMiKA4gZbRYwrYtflKOoGXSRzIkzN7drO7h09h596CBPvod2ARfvYJCzwQs_P-WZAeicDtCRN1aMvUYN8JrsHv5N4gM2z30sNkFCCYYA9YrSRylNfJPbA)
+![](allergy-medication-tab-quick-links.images/image3.png)
 
 Updates will always be blank. This is a spot to physically write in changes first on paper before entering them into the system.
 

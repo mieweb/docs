@@ -21,7 +21,7 @@ menu:
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image1.png)
+![](identrust-certificate-registration-step-by-step.images/image16.png)
 
 
 
@@ -48,7 +48,7 @@ CLICK [ [HERE](https://www.identrust.com/igc/mie/) ] TO BEGIN
 
 It's as Easy as 1 - 2 - 3!
 
-![](identrust-certificate-registration-step-by-step.images/image2.png)
+![](identrust-certificate-registration-step-by-step.images/image18.png)
 
 
 
@@ -68,11 +68,11 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image3.png)
+![](identrust-certificate-registration-step-by-step.images/image17.png)
 
 #### Select the Storage Device
 
-#### ![](identrust-certificate-registration-step-by-step.images/image4.png)
+#### ![](identrust-certificate-registration-step-by-step.images/image19.png)
 
 1. Every certificate provided through IdenTrust for EPCS has a 2-year validity period. This will automatically be selected.
 2. Following the Validity Period selection is the selection for the SafeNet USB Token, used to store the digital certificate.
@@ -84,7 +84,7 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image5.png)
+![](identrust-certificate-registration-step-by-step.images/image4.png)
 
 
 
@@ -92,7 +92,7 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image6.png)
+![](identrust-certificate-registration-step-by-step.images/image20.png)
 
 
 
@@ -100,7 +100,7 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image7.png)
+![](identrust-certificate-registration-step-by-step.images/image15.png)
 
 
 
@@ -108,7 +108,7 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image8.png)  {{% note title="A Note from IdenTrust" %}}   Here at IdenTrust, we are often contacted by people who have forgotten their passwords. We will always try to help. Unfortunately, in many cases, there is nothing we can do, and you, the customer, will have to start over and apply for a new certificate. There are two passwords you will NEED TO REMEMBER: **Account Password** Next, you will create your Account Password with Secret Questions and Answers. This password will be used to download your certificate after your application is approved. If this Account Password is forgotten, you may reset it using your Secret Questions and Answers. **If you are unable to recall the Answers to your Secret Questions, you will have to start over and apply again.** **Token Passcode** A passcode is required for the hardware that will store your certificate.You will create the Passcode when you download your certificate. The Token Passcode must be entered when you use your certificate. **If the Token Passcode is forgotten, your certificate is locked and cannot be recovered, so you would need to purchase a new IGC Basic Assurance Unaffiliated Hardware + 2-Year Certificate.** {{% /note %}}
+![](identrust-certificate-registration-step-by-step.images/image2.png)  {{% note title="A Note from IdenTrust" %}}   Here at IdenTrust, we are often contacted by people who have forgotten their passwords. We will always try to help. Unfortunately, in many cases, there is nothing we can do, and you, the customer, will have to start over and apply for a new certificate. There are two passwords you will NEED TO REMEMBER: **Account Password** Next, you will create your Account Password with Secret Questions and Answers. This password will be used to download your certificate after your application is approved. If this Account Password is forgotten, you may reset it using your Secret Questions and Answers. **If you are unable to recall the Answers to your Secret Questions, you will have to start over and apply again.** **Token Passcode** A passcode is required for the hardware that will store your certificate.You will create the Passcode when you download your certificate. The Token Passcode must be entered when you use your certificate. **If the Token Passcode is forgotten, your certificate is locked and cannot be recovered, so you would need to purchase a new IGC Basic Assurance Unaffiliated Hardware + 2-Year Certificate.** {{% /note %}}
 
 
 
@@ -117,7 +117,7 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image9.png)
+![](identrust-certificate-registration-step-by-step.images/image11.png)
 
 
 
@@ -129,11 +129,11 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image10.png)
+![](identrust-certificate-registration-step-by-step.images/image14.png)
 
 
 
-2. Indicate that you have read and acknowledged the <strong>Subscriber Agreement</strong>. Click <strong>Submit Application</strong> to continue.    ![](identrust-certificate-registration-step-by-step.images/image11.png)
+2. Indicate that you have read and acknowledged the <strong>Subscriber Agreement</strong>. Click <strong>Submit Application</strong> to continue.    ![](identrust-certificate-registration-step-by-step.images/image22.png)
 
 ### Get Verified
 
@@ -168,7 +168,7 @@ Email verification must be completed (within 30 days) for IdenTrust to approve y
 
 This portion of the second phase (carried out by IdenTrust) consists of validating the information you provided against independent data sources. You will not need to do anything during this stage; you will receive a retrieval kit from IdenTrust in the mail if your application is approved. You will be able to check on the Application Status under Your Account Information:
 
-![](identrust-certificate-registration-step-by-step.images/image12.png)
+![](identrust-certificate-registration-step-by-step.images/image23.png)
 
 **Your New IGC Token will be mailed to you. Expect arrival between 3-5 days.**
 
@@ -180,7 +180,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image13.png)
+![](identrust-certificate-registration-step-by-step.images/image21.png)
 
 
 
@@ -190,7 +190,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image14.png)
+![](identrust-certificate-registration-step-by-step.images/image10.png)
 
 
 
@@ -200,7 +200,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image15.png)
+![](identrust-certificate-registration-step-by-step.images/image13.png)
 
 
 
@@ -208,7 +208,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image16.png)  {{% warning %}} This is the Token Passcode for your USB Token which **must not be forgotten**. If you forget this passcode your certificate will be **permanently locked** and cannot be recovered.
+![](identrust-certificate-registration-step-by-step.images/image24.png)  {{% warning %}} This is the Token Passcode for your USB Token which **must not be forgotten**. If you forget this passcode your certificate will be **permanently locked** and cannot be recovered.
 
 *****REMEMBER YOUR TOKEN PASSCODE***** {{% /warning %}}
 
@@ -219,7 +219,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image17.png)
+![](identrust-certificate-registration-step-by-step.images/image9.png)
 
 
 
@@ -228,7 +228,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image18.png) 
+![](identrust-certificate-registration-step-by-step.images/image12.png) 
 
 Carefully follow the prompts to retrieve your IGC Certificate and generate keys, accordingly. Do not close your browser until you see the screen indicating that you have finished the retrieval.
 
@@ -242,7 +242,7 @@ After the retrieval and key generation is complete, it is important that you tes
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image19.png)
+![](identrust-certificate-registration-step-by-step.images/image1.png)
 
 
 
@@ -250,11 +250,11 @@ After the retrieval and key generation is complete, it is important that you tes
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image20.png)
+![](identrust-certificate-registration-step-by-step.images/image3.png)
 
 
 
-3. You will then be prompted to provide two factor authentication with the token and passcode. When ready, click <strong>OK</strong>.    ![](identrust-certificate-registration-step-by-step.images/image21.png)  ![](identrust-certificate-registration-step-by-step.images/image22.png)
+3. You will then be prompted to provide two factor authentication with the token and passcode. When ready, click <strong>OK</strong>.    ![](identrust-certificate-registration-step-by-step.images/image5.png)  ![](identrust-certificate-registration-step-by-step.images/image6.png)
 
 
 
@@ -266,7 +266,7 @@ Once you have finished retrieving and testing the certificate, you are able to V
 
 Follow the prompts through verification.
 
-![](identrust-certificate-registration-step-by-step.images/image23.png)
+![](identrust-certificate-registration-step-by-step.images/image7.png)
 
-![](identrust-certificate-registration-step-by-step.images/image24.png)
+![](identrust-certificate-registration-step-by-step.images/image8.png)
 

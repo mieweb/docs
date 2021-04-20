@@ -18,7 +18,7 @@ From the Control sidemenu tab, find and click the Restrictions Type tab. Â A lis
 
 
 
-![](editing-restriction-types.images/image1.png)
+![](editing-restriction-types.images/image11.png)
 
 
 
@@ -35,7 +35,7 @@ Restriction Types can be added to the system for users to be able to select and 
 
 
 
-![](editing-restriction-types.images/image2.png)
+![](editing-restriction-types.images/image13.png)
 
 
 
@@ -43,7 +43,7 @@ The Add Clinical Restriction Type fields will display towards the top of the lis
 
 
 
-![](editing-restriction-types.images/image3.png)
+![](editing-restriction-types.images/image7.png)
 
 
 
@@ -59,7 +59,7 @@ A new pop-up displays to allow you to select the format of the new restriction t
 
 
 
-![](editing-restriction-types.images/image5.png)
+![](editing-restriction-types.images/image8.png)
 
 
 
@@ -73,7 +73,7 @@ If Discrete Value is selected as the option type for the new restriction type, i
 
 
 
-![](editing-restriction-types.images/image6.png)
+![](editing-restriction-types.images/image3.png)
 
 
 
@@ -81,7 +81,7 @@ Click Save to add the new restriction type and discrete value label to the syste
 
 
 
-![](editing-restriction-types.images/image7.png)
+![](editing-restriction-types.images/image6.png)
 
 
 
@@ -91,7 +91,7 @@ When users are working in an encounter and documenting restrictions, the new res
 
 
 
-![](editing-restriction-types.images/image8.png)
+![](editing-restriction-types.images/image14.png)
 
 
 
@@ -127,7 +127,7 @@ In either option type (when adding a new restriction type to the system library)
 
 
 
-![](editing-restriction-types.images/image11.png)
+![](editing-restriction-types.images/image1.png)
 
 
 
@@ -147,11 +147,11 @@ Here is an example of the Allowed weight checkmarked for the restriction type â€
 
 
 
-![](editing-restriction-types.images/image12.png)
+![](editing-restriction-types.images/image5.png)
 
 
 
-3. It is here, after selecting a selected value, that a 3rd field would open to display specific increments of allowed weight if the restriction type was set to allow weight (the checkbox in the editor) and if the system has the setting enabled to use allowed weight.  ![](editing-restriction-types.images/image13.png)
+3. It is here, after selecting a selected value, that a 3rd field would open to display specific increments of allowed weight if the restriction type was set to allow weight (the checkbox in the editor) and if the system has the setting enabled to use allowed weight.  ![](editing-restriction-types.images/image2.png)
 
 
 
@@ -161,7 +161,7 @@ Existing Restriction Types can be edited in the editor or can be deleted from th
 
 
 
-![](editing-restriction-types.images/image14.png)
+![](editing-restriction-types.images/image12.png)
 
 
 

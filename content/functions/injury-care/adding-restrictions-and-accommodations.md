@@ -20,7 +20,7 @@ While working in an encounter, the Plan area of the encounter offers a section n
 
 
 
-![](adding-restrictions-and-accommodations.images/image1.png)
+![](adding-restrictions-and-accommodations.images/image18.png)
 
 
 
@@ -35,13 +35,13 @@ Accommodations on a restriction will be indented underneath the restriction.  I
 
 
 
-![](adding-restrictions-and-accommodations.images/image2.png)
+![](adding-restrictions-and-accommodations.images/image7.png)
 
 If you are in "detailed" view for the Restrictions and Accommodations encounter section, any accommodation related to a restriction is in a separate column on the same restriction line item.  It is possible for accommodations not to be tied to a restriction and for restrictions not to have accommodations and those would be listed separately.
 
 
 
-![](adding-restrictions-and-accommodations.images/image3.png)
+![](adding-restrictions-and-accommodations.images/image12.png)
 
 
 
@@ -49,7 +49,7 @@ To add a new restriction, simply click on the section title bar Restrictions and
 
 
 
-![](adding-restrictions-and-accommodations.images/image4.png)
+![](adding-restrictions-and-accommodations.images/image10.png)
 
 
 
@@ -57,7 +57,7 @@ Once you do that, you will see again a list of all current active restrictions a
 
 
 
-![](adding-restrictions-and-accommodations.images/image5.png)
+![](adding-restrictions-and-accommodations.images/image8.png)
 
 
 
@@ -78,7 +78,7 @@ Continue to add an accommodation to this restriction if you have accommodations 
 
 
 
-![](adding-restrictions-and-accommodations.images/image6.png)
+![](adding-restrictions-and-accommodations.images/image3.png)
 
 
 
@@ -86,7 +86,7 @@ If you do not have any known accommodations to tie to this restriction yet, simp
 
 
 
-![](adding-restrictions-and-accommodations.images/image7.png)
+![](adding-restrictions-and-accommodations.images/image17.png)
 
 
 
@@ -104,7 +104,7 @@ While you are entering in a restriction, you can enter in the corresponding acco
 
 
 
-![](adding-restrictions-and-accommodations.images/image8.png)
+![](adding-restrictions-and-accommodations.images/image14.png)
 
 
 
@@ -121,7 +121,7 @@ If a provider has entered in a restriction and does not know the accommodation y
 
 
 
-![](adding-restrictions-and-accommodations.images/image9.png)
+![](adding-restrictions-and-accommodations.images/image2.png)
 
 
 
@@ -131,7 +131,7 @@ Checkmark which restriction to apply an accommodation to.  Then go down to the 
 
 
 
-![](adding-restrictions-and-accommodations.images/image10.png)
+![](adding-restrictions-and-accommodations.images/image11.png)
 
 
 
@@ -141,7 +141,7 @@ You can also add an accommodation to a restriction via the "edit" icon on the re
 
 
 
-![](adding-restrictions-and-accommodations.images/image11.png)
+![](adding-restrictions-and-accommodations.images/image13.png)
 
 
 
@@ -151,7 +151,7 @@ You have the opportunity to repeat, extend, or end past (active or inactive) res
 
 
 
-![](adding-restrictions-and-accommodations.images/image12.png)
+![](adding-restrictions-and-accommodations.images/image4.png)
 
 
 
@@ -159,7 +159,7 @@ You will see the list of past restrictions (active or inactive) on that chart. �
 
 
 
-![](adding-restrictions-and-accommodations.images/image13.png)
+![](adding-restrictions-and-accommodations.images/image16.png)
 
 
 
@@ -169,7 +169,7 @@ There is an END ALL button in the restrictions and also accommodations sub secti
 
 
 
-![](adding-restrictions-and-accommodations.images/image14.png)
+![](adding-restrictions-and-accommodations.images/image6.png)
 
 ### Edit Form Quick Link
 
@@ -177,7 +177,7 @@ The Edit Form hyperlink is simply a quick way to get to the fields to add a bran
 
 
 
-![](adding-restrictions-and-accommodations.images/image15.png)
+![](adding-restrictions-and-accommodations.images/image5.png)
 
 
 
@@ -194,7 +194,7 @@ If you entered in an incorrect restriction and/or accommodation, you can click t
 
 
 
-![](adding-restrictions-and-accommodations.images/image16.png)
+![](adding-restrictions-and-accommodations.images/image1.png)
 
 
 
@@ -227,7 +227,7 @@ When you click the pencil icon (to edit) the restriction and accommodation field
 
 
 
-![](adding-restrictions-and-accommodations.images/image17.png)
+![](adding-restrictions-and-accommodations.images/image15.png)
 
 
 
@@ -241,7 +241,7 @@ Current restrictions, that encompass today's date, are always shown in the dark 
 
 
 
-![](adding-restrictions-and-accommodations.images/image18.png)
+![](adding-restrictions-and-accommodations.images/image9.png)
 
 
 

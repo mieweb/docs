@@ -24,7 +24,7 @@ The Panel Membership Import Tool uses partitions and medical record numbers (MRN
 
 Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.html); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
 
-![](panel-membership-import-tool.images/image1.png)
+![](panel-membership-import-tool.images/image4.png)
 
 {{% /warning %}}
 
@@ -113,7 +113,7 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](panel-membership-import-tool.images/image2.png)
+![](panel-membership-import-tool.images/image7.png)
 
 
 
@@ -126,7 +126,7 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](panel-membership-import-tool.images/image3.png)
+![](panel-membership-import-tool.images/image2.png)
 
 
 
@@ -134,7 +134,7 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](panel-membership-import-tool.images/image4.png)
+![](panel-membership-import-tool.images/image6.png)
 
 
 
@@ -150,11 +150,11 @@ This field determines whether to Include to panel or Exclude from panel:
 
 
 
-![](panel-membership-import-tool.images/image6.png) 
+![](panel-membership-import-tool.images/image1.png) 
 
 
 
-{{% tip %}} Use the help bubble to see what panel IDs your {{% system-name %}} system has to populate into the spreadsheet template for import. *This screenshot is an example. Do not use this Panel ID ordering for your system.* ![](panel-membership-import-tool.images/image7.png) {{% /tip %}}
+{{% tip %}} Use the help bubble to see what panel IDs your {{% system-name %}} system has to populate into the spreadsheet template for import. *This screenshot is an example. Do not use this Panel ID ordering for your system.* ![](panel-membership-import-tool.images/image3.png) {{% /tip %}}
 
 
 6. Click the <strong>Choose File</strong> button, and select the panel membership data CSV file (from Step 5) and click <strong>Upload</strong>.  ![](panel-membership-import-tool.images/image8.png)

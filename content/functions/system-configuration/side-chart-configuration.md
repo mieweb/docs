@@ -22,7 +22,7 @@ Clicking this icon near the patient's MR# will expand and display a side chart o
 
 To browse documents that may be housed in the *Notes, Medical Records or Summary Tests* sections, simply click on the section itself to expand the document contents. The sections expand to show a list view of the documents sorted with most recent at the top. To open and get into a specific document, simply click the date of service hyperlink.
 
-![](side-chart-configuration.images/image2.png)
+![](side-chart-configuration.images/image3.png)
 
 By default, the side chart access defaults to chart tabs named Notes, Medical Record and Test Results. However your MIE Implementer can set up any chart tabs to be seen/accessed here in the side chart feature. A chart tab named "Side Chart" simply needs to be programmed (as a hidden chart tab) with the sub-tabs that are to be in the Side Chart tab and that will immediately reflect in this Side Chart functionality feature.
 
@@ -30,7 +30,7 @@ By default, the side chart access defaults to chart tabs named Notes, Medical Re
 
 To collapse the side chart access, simply click on the icon image near the patient's MR# to collapse it.
 
-![](side-chart-configuration.images/image3.png)
+![](side-chart-configuration.images/image2.png)
 
 ## Side Chart Custom Configuration
 

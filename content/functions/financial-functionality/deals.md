@@ -2,7 +2,7 @@
 title: "Deals"
 date: "2021-02-17T19:42:06.794Z"
 url: "functions/financial-functionality/deals.html"
-author: Adam Humes
+author: ahumes
 version: 11
 id: "1GGqEjpljaHjSu1ZhgbJJdh1aPJY8q2Pb8gBAPQJH-hI"
 source: "https://drive.google.com/open?id=1GGqEjpljaHjSu1ZhgbJJdh1aPJY8q2Pb8gBAPQJH-hI"

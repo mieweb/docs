@@ -35,21 +35,21 @@ The links are named after the type of encounter itself. So, the links shown in t
 
 A patient could have several encounter exams open. In order to edit or access the exam, it must be set as *current*. The current exam will always display links above the chart tabs in this encounter summary toolbar. To set an encounter as current, either click the "set current" link in the encounters tab and it will default as the current encounter.
 
-![](encounter-summary-toolbar.images/image2.png)
+![](encounter-summary-toolbar.images/image3.png)
 
 ## Filtering
 
 In the encounter summary toolbar, you may see a link named Remove Encounter Filter. This means the encounter and the patient's chart is currently set to show and access only documents (chart tabs, etc) related to that specific current encounter displaying in your top summary toolbar. You are filtering documents by current encounter. This link allows you to then ‘remove' that filter that you are set to, if you wish.
 
-![](encounter-summary-toolbar.images/image3.png)
+![](encounter-summary-toolbar.images/image2.png)
 
 If you click *remove encounter filter*, then you will see and access everything (all patient's documents, chart tabs, etc) in the patient's record. You aren't limiting you view to only see other documents related to this specific encounter.
 
 If you see the link in the encounter exam summary line named Filter By Current Encounter, that means you are currently not filtering documents by the current encounter. You can see any and all documents in the patient's chart and not be limited/filtered to the current encounter only. If you wish to filter and only see documents in the patient's chart related to this current encounter, you can click this Filter by Current Encounter link. It will then only show the patient's documents in their chart & chart tabs that are specifically related to this current encounter. You are limited to only view and see other documents related to this specific encounter only. You are hiding the rest of the patient's documents.
 
-![](encounter-summary-toolbar.images/image4.png)
+![](encounter-summary-toolbar.images/image5.png)
 
 Your MIE Implementer can turn off the filtering feature. Your {{% system-name %}} system can have this filter feature on or off. Most practices do not want to filter by encounter. This is the system setting to change to zero to turn it off (is on by default). Then the users will not ever see the filter links in any encounter summary toolbar.
 
-![](encounter-summary-toolbar.images/image5.png)
+![](encounter-summary-toolbar.images/image4.png)
 

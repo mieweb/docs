@@ -16,7 +16,7 @@ The **Due List portlet** found on the [Quick View](https://system/) page is a gr
 
 
 
-![](quick-view-due-list-portlet.images/image1.png)
+![](quick-view-due-list-portlet.images/image5.png)
 
 
 
@@ -26,7 +26,7 @@ Each column on the Due List can be used to sort or filter items in the table.
 
 
 
-![](quick-view-due-list-portlet.images/image2.png)
+![](quick-view-due-list-portlet.images/image11.png)
 
 
 
@@ -38,7 +38,7 @@ If you filter out rows, those will be filtered out on future sessions/charts you
 
 
 
-![](quick-view-due-list-portlet.images/image3.png)
+![](quick-view-due-list-portlet.images/image7.png)
 
 
 
@@ -49,7 +49,7 @@ Drag and drop a column name to change the order of columns.
 
 
 
-![](quick-view-due-list-portlet.images/image4.png)
+![](quick-view-due-list-portlet.images/image10.png)
 
 
 
@@ -57,7 +57,7 @@ You can also drag and drop a column name and place it into the table header to g
 
 
 
-![](quick-view-due-list-portlet.images/image5.png)
+![](quick-view-due-list-portlet.images/image9.png)
 
 
 
@@ -79,7 +79,7 @@ The carrot icons on the right corners of the Due List portlet act as a show/hide
 
 
 
-![](quick-view-due-list-portlet.images/image7.png)
+![](quick-view-due-list-portlet.images/image2.png)
 
 
 
@@ -97,7 +97,7 @@ Clicking on Details for a specific due list item will show information about the
 
 
 
-![](quick-view-due-list-portlet.images/image9.png)
+![](quick-view-due-list-portlet.images/image3.png)
 
 
 
@@ -107,7 +107,7 @@ The Due List grid will display the chart's next scheduled appointment date if th
 
 
 
-![](quick-view-due-list-portlet.images/image10.png)
+![](quick-view-due-list-portlet.images/image1.png)
 
 
 
@@ -117,7 +117,7 @@ The Due List grid will display a hyperlink to access the waitlist module.  Clic
 
 
 
-![](quick-view-due-list-portlet.images/image11.png)
+![](quick-view-due-list-portlet.images/image4.png)
 
 
 

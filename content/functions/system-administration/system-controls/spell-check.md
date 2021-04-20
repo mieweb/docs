@@ -29,7 +29,7 @@ When documenting in a text document, the spell check can be utilized.  After ty
 
 
 
-![](spell-check.images/image2.png)
+![](spell-check.images/image6.png)
 
 
 
@@ -44,7 +44,7 @@ Any words that the system does not recognize will be highlighted and will displa
 
 
 
-![](spell-check.images/image3.png)
+![](spell-check.images/image2.png)
 
 
 
@@ -74,7 +74,7 @@ When you click Add it will ask you to confirm the highlighted word you are about
 
 
 
-![](spell-check.images/image6.png)
+![](spell-check.images/image8.png)
 
 
 
@@ -86,7 +86,7 @@ There is a Spell Check editor tab found in the sidemenu Control Panel.
 
 
 
-![](spell-check.images/image7.png)
+![](spell-check.images/image3.png)
 
 
 
@@ -96,7 +96,7 @@ A quick way to see every word that was added to your system's spell check librar
 
 
 
-![](spell-check.images/image8.png)
+![](spell-check.images/image9.png)
 
 
 
@@ -104,7 +104,7 @@ If you need to narrow down your search to find something specific, you can enter
 
 
 
-![](spell-check.images/image9.png)
+![](spell-check.images/image7.png)
 
 
 

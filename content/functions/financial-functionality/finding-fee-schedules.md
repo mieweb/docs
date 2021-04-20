@@ -2,7 +2,7 @@
 title: "Finding fee schedules"
 date: "2021-02-17T19:43:17.825Z"
 url: "functions/financial-functionality/finding-fee-schedules.html"
-author: Adam Humes
+author: ahumes
 version: 18
 id: "1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s"
 source: "https://drive.google.com/open?id=1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s"

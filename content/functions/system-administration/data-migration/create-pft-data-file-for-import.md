@@ -146,7 +146,7 @@ What you will need:
 
 
 
-![](create-pft-data-file-for-import.images/image1.png)
+![](create-pft-data-file-for-import.images/image5.png)
 
 
 
@@ -159,7 +159,7 @@ What you will need:
 
 
 
-![](create-pft-data-file-for-import.images/image2.png)
+![](create-pft-data-file-for-import.images/image4.png)
 
 
 
@@ -167,7 +167,7 @@ What you will need:
 
 
 
-![](create-pft-data-file-for-import.images/image3.png)
+![](create-pft-data-file-for-import.images/image1.png)
 
 
 
@@ -175,11 +175,11 @@ What you will need:
 
 
 
-![](create-pft-data-file-for-import.images/image4.png)
+![](create-pft-data-file-for-import.images/image2.png)
 
 
 
-5. Select the PFT Data CSV File and click <strong>Upload</strong>.  ![](create-pft-data-file-for-import.images/image5.png)
+5. Select the PFT Data CSV File and click <strong>Upload</strong>.  ![](create-pft-data-file-for-import.images/image3.png)
 
 
 

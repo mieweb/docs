@@ -187,13 +187,13 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 {{% /tip %}}
 
 
-* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](audiogram-validation-test-script.images/image2.png) 
-* Select <strong>Audiogram</strong> from the Test Results chart tab. ![](audiogram-validation-test-script.images/image3.png)  
+* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](audiogram-validation-test-script.images/image3.png) 
+* Select <strong>Audiogram</strong> from the Test Results chart tab. ![](audiogram-validation-test-script.images/image2.png)  
 
 {{% tip %}} The number in parenthesis indicates the number of items in each tab.  {{% /tip %}}
   
-* The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.  ![](audiogram-validation-test-script.images/image4.png) 
-* Clicking into the most recent audiogram will display all results that have been entered.  ![](audiogram-validation-test-script.images/image5.png)
+* The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.  ![](audiogram-validation-test-script.images/image5.png) 
+* Clicking into the most recent audiogram will display all results that have been entered.  ![](audiogram-validation-test-script.images/image4.png)
 * With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import.  
     * Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
     * Validate the correct location and and by whom the test was administered. 
@@ -217,9 +217,9 @@ The **Audiogram Report** and **Audiometric Testing** reports are particularly he
 To access and utilize these reports:
 
 * Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](audiogram-validation-test-script.images/image6.png)
+* Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.  ![](audiogram-validation-test-script.images/image7.png)
 * Criteria may be added to filter or drill down data. 
-    * Audiogram Report  ![](audiogram-validation-test-script.images/image7.png)   
+    * Audiogram Report  ![](audiogram-validation-test-script.images/image6.png)   
     * Audiometric Testing Report  ![](audiogram-validation-test-script.images/image8.png)  
 
 ## FAQs

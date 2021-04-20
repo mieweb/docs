@@ -26,11 +26,11 @@ The sections that display in the [Quick View](https://system/?f) tab are called 
 
 To see all the portlets available for display, click the **Select Portlets **link at the top-right of the page when you are in the Quick View tab.
 
-![](quick-view-sidemenu.images/image2.png)
+![](quick-view-sidemenu.images/image3.png)
 
 The **Available Portlets** window will be displayed on the screen. These are modules, or worklists or dashboards, that reside elsewhere in  {{% system-name %}} , but are conveniently accessible to display for use here, on the Quick View.
 
-![](quick-view-sidemenu.images/image3.png)
+![](quick-view-sidemenu.images/image4.png)
 
 {{% info %}}
 
@@ -41,7 +41,7 @@ The **Administrator Welcome** portlet will display at the top of the Quick Vie
 
 After clicking the **Select Portlets** link, check or uncheck any portlets you wish to be shown or not within the Quick View tab. The changes and selections you make only affect your username and your view. Once selections are made click Save. The portlets selected will display in your Quick View until you make other changes.
 
-![](quick-view-sidemenu.images/image4.png)
+![](quick-view-sidemenu.images/image6.png)
 
 ## Portlet Icons
 
@@ -64,7 +64,7 @@ If you have security permission to save default portlets, you can configure the 
 
 From the Select Portlets function in Quick View, the **Save as Default **option will display, providing you have security permission to save default portlets for security roles in the system.
 
-![](quick-view-sidemenu.images/image6.png)
+![](quick-view-sidemenu.images/image8.png)
 
  
 
@@ -81,7 +81,7 @@ System Default is a choice in the drop-down where, if selected, the default port
 
 Once the security role is selected via the drop-down, click the pencil/paper icon next to the drop-down.
 
-![](quick-view-sidemenu.images/image8.png)
+![](quick-view-sidemenu.images/image2.png)
 
 The screen will refresh and display the Quick View portlets as the security role default is currently set up as.  You can visually see the portlets on your Quick View screen for that security role selected. You can drag and drop portlets to be in a specific order also for the security role default.  Click the Select Portlets link to get back into the portlet selection and then checkmark or uncheckmark portlets to be displayed or not in the specific selected security role default.
 

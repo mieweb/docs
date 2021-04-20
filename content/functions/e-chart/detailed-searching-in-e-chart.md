@@ -18,11 +18,11 @@ When in the {{% system-name %}} system, the [E-Chart](https://system/?f=chart) s
 
 To do a more detailed search, click the [Detailed](https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch) link from the list of Search Types.
 
-![](detailed-searching-in-e-chart.images/image1.png)
+![](detailed-searching-in-e-chart.images/image2.png)
 
 The detailed search filter screen will open with various filter fields to help narrow down a search for a chart by more detail.
 
-![](detailed-searching-in-e-chart.images/image2.png)
+![](detailed-searching-in-e-chart.images/image1.png)
 
 {{% tip %}}
 
@@ -57,11 +57,11 @@ Disabling the SSN search does not turn off the ability to search by SSN in other
 
 ### Enabled
 
-![](detailed-searching-in-e-chart.images/image4.png)
+![](detailed-searching-in-e-chart.images/image5.png)
 
 ### Disabled
 
 
 
-![](detailed-searching-in-e-chart.images/image5.png)
+![](detailed-searching-in-e-chart.images/image4.png)
 

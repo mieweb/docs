@@ -24,15 +24,15 @@ You can view current members of panels and also current automated {{% system-nam
 
 To view existing memberships & membership rules on existing panels go to Control tab→Health Surveillance tab→ Find the specific panel and click Membership hyperlink from the main panel listing.
 
-![](viewing-health-surveillance-panels-and-membership.images/image2.png)
+![](viewing-health-surveillance-panels-and-membership.images/image3.png)
 
 OR you can instead get to membership when in the "actions" of any specific panel.
 
-![](viewing-health-surveillance-panels-and-membership.images/image3.png)
+![](viewing-health-surveillance-panels-and-membership.images/image2.png)
 
 Then click membership hyperlink found at the top of the Panel Actions screen for that specific panel.
 
-![](viewing-health-surveillance-panels-and-membership.images/image4.png)
+![](viewing-health-surveillance-panels-and-membership.images/image5.png)
 
 Either method, you gain access to the *Panel Membership* screen which shows 3 sections on that screen.  At the top you should see (in bold) the words *Panel Membership* and then the specific panel you accessed membership on.
 
@@ -42,33 +42,33 @@ The next section shows *Individual Include/Exclude* which lists all current empl
 
 At the very bottom you see *Membership Approval* where you can click the *Approve Membership Now* button and it essentially marks the last time a user (with a date/time stamp) that approved & validated this membership screen for the specific panel.
 
-![](viewing-health-surveillance-panels-and-membership.images/image5.png)
-
-![](viewing-health-surveillance-panels-and-membership.images/image6.png)
+![](viewing-health-surveillance-panels-and-membership.images/image4.png)
 
 ![](viewing-health-surveillance-panels-and-membership.images/image7.png)
 
+![](viewing-health-surveillance-panels-and-membership.images/image6.png)
+
 You can edit/expire from this membership listing on a specific individual. Clicking the Edit/Expire hyperlink in the options column will open up a screen to make any edits, or expire an individual's membership to this panel.
 
-![](viewing-health-surveillance-panels-and-membership.images/image8.png)
+![](viewing-health-surveillance-panels-and-membership.images/image9.png)
 
 ## Viewing Memberships from Chart
 
 You can view current membership of panels for a specific chart (patient/employee) when working in the chart. Simply find the Health Surveillance tab while working in the chart. Go to the *Panel Membership Overview* subtab.
 
-![](viewing-health-surveillance-panels-and-membership.images/image9.png)
+![](viewing-health-surveillance-panels-and-membership.images/image8.png)
 
 The Panel Membership Overview tab section named **Current Membership** shows list of all panels they are currently a member of or have applied to their chart. You can hover your mouse over the icon in the panel names to see the description the panel is defined as in the Health Surveillance set up. You can also hover your mouse over the icons next to each panel check-marked for that employee to see the last completed date or decertified information, change reason comments, etc.
 
-![](viewing-health-surveillance-panels-and-membership.images/image10.png)
+![](viewing-health-surveillance-panels-and-membership.images/image12.png)
 
 * <strong>Add Completion Date:</strong> this button will allow you to manually key in a completion date for the panel. It then inserts a completed representative order for that panel with that completion date.
 
-![](viewing-health-surveillance-panels-and-membership.images/image11.png)
+![](viewing-health-surveillance-panels-and-membership.images/image10.png)
 
 If there was a pending order to begin with, that doesn't get altered. This button ‘add completed date' can be hidden if don't wish to utilize.
 
-![](viewing-health-surveillance-panels-and-membership.images/image12.png)
+![](viewing-health-surveillance-panels-and-membership.images/image11.png)
 
 There is also a Key guide that helps you manage the panel information. To access this simply click the *Show Key* or *Hide Key* button at the top of this chart tab.
 

@@ -32,7 +32,7 @@ If you wish to fax the specific document you have opened on the screen, click Fa
 
 
 
-![](faxing-documents.images/image2.png)
+![](faxing-documents.images/image3.png)
 
 
 
@@ -42,14 +42,14 @@ Fax mode window:
 
 
 
-![](faxing-documents.images/image3.png)
+![](faxing-documents.images/image2.png)
 
 
 
 * <strong>Comments</strong>: Type in here any comments you wish and these will print on the fax coversheet to the recipient of this fax. These comments will print on the fax coversheet if you select a fax coversheet that has been programmed.
 * <strong>Print without headers</strong>: <em>This option will only appear if you have the security permission to Allow Printing without Headers set to Yes</em>. This option is for word documents, form documents, sketch, etc. Check-mark this if you <strong>do not</strong> want the grey-box patient header summary at the top to print on the document. This grey-box shows DOC ID, DOS, DICTATED BY, WHO INDEXED/TYPED IT, DOCUMENT TYPE DESCRIPTION, WHO E-SIGNED IT, etc. You have the option to print it on the document or not <em>if you have security permission to do so.</em> If you do not see this option box, then you are restricted and the patient summary header will always appear on the documents you are printing/faxing.
 
-![](faxing-documents.images/image4.png)
+![](faxing-documents.images/image5.png)
 
 
 
@@ -67,12 +67,12 @@ Fax mode window:
 {{% /info %}}
 
 
-![](faxing-documents.images/image5.png)
+![](faxing-documents.images/image4.png)
 * <strong>From:</strong> If a user has security permission named "<em>Allow Setting of FAX From"</em> set to Yes, the user can choose the CSI value of a fax. The CSI value is the Call Station Identifier that is part of the FAX header - it is essentially the caller id of the FAX. If user is set to Yes permission, in the fax mode a drop-down field named From: will show and user can select from a drop-down of fax #'s to set the fax ‘from' on the header that the recipient receives. ‘FROM' fax number choices in this drop-down are set in the LOCATIONS tab for each location with a fax#. If the user doesn't have security to choose "from" for a fax, then it uses the user's location and the system setting <em>Fax Header</em> entry.
 
 
 
-![](faxing-documents.images/image6.png)
+![](faxing-documents.images/image7.png)
 
 
 
@@ -95,7 +95,7 @@ When searching a Fax Department for Users and you do not find the person/place o
 
 
 
-![](faxing-documents.images/image7.png)
+![](faxing-documents.images/image6.png)
 
 
 
@@ -103,7 +103,7 @@ It will open another window that says ADD USER. Enter the Fax Recipients Last, F
 
 
 
-![](faxing-documents.images/image8.png)
+![](faxing-documents.images/image9.png)
 
 
 
@@ -113,7 +113,7 @@ If the person/place you manually entered is not in this warning list, click Add 
 
 
 
-![](faxing-documents.images/image9.png)
+![](faxing-documents.images/image8.png)
 
 
 
@@ -127,7 +127,7 @@ Click – Preview – box at the bottom if wish to view the documents that will 
 
 
 
-![](faxing-documents.images/image10.png)
+![](faxing-documents.images/image11.png)
 
 
 
@@ -141,13 +141,13 @@ You can view status of your fax on the Fax Manager Tab on the left sidebar menu 
 
 
 
-![](faxing-documents.images/image11.png)
+![](faxing-documents.images/image10.png)
 
 
 
 * <strong>From:</strong> If a user has security permission named "<em>Allow Setting of FAX From"</em> set to Yes, the user can choose the CSI value of a fax. The CSI value is the Call Station Identifier that is part of the FAX header - it is essentially the caller id of the FAX. If user is set to Yes permission, in the fax mode a drop-down field named From: will show and user can select from a drop-down of fax #'s to set the fax ‘from' on the header that the recipient receives. ‘FROM' fax number choices in this drop-down are set in the LOCATIONS tab for each location with a fax#. If the user doesn't have security to choose "from" for a fax, then it uses the user's location and the system setting <em>Fax Header</em> entry.
 
-![](https://lh3.googleusercontent.com/zXdYiCiLoCwh8uJkA7LraF4pRA-FVXpHDhb3lIC077b2hbW-50zBhB27I45gFq599mZvedB9KwWn8Ir9kY5K02vT0pZVxKEvBHrLlLi0b6UDEQEHsBrx6b31e5yX4u7TsefQ7lR-kY4IUySMqw)
+![](faxing-documents.images/image7.png)
 
 * <strong>Cover</strong>: Select type of fax coversheet to use by using the drop-down arrow. (MIE loads these) You can also choose the fax cover-sheet choice or select: <strong>No CoverSheet.</strong> If you choose this, a coversheet will not be sent with your document(s) and no comments will be printed since there is no coversheet selected.
 * <strong>Name:</strong> Type in the name of the person to receive the fax.   
@@ -168,7 +168,7 @@ Click –FAX—box at the bottom to send this fax now.
 
 Click – Preview – box at the bottom if wish to view the documents that will be faxed. The coversheet will be the first page if you selected a fax coversheet. After you preview, you can then click SEND FAX or CANCEL FAX from that screen.
 
-![](https://lh3.googleusercontent.com/YYRC39d2mp63NISYV2ZsJNRh4ZCtYBOQqlabtq_zifklweIWx_BB1Rixim5PhWt6XrnlaJxtoxGxX0HlQoehvtw2pezSZaZyF_KTwDtabkDuO2qHG29dDkgeNgufD-iAVvNMGiaXb6rfJhPMoQ)
+![](faxing-documents.images/image11.png)
 
 Click CANCEL if wish to get out of the fax mode screen.
 
@@ -179,7 +179,7 @@ You can view status of your fax on the Fax Manager Tab on the left sidebar menu 
 * <strong>Chart</strong>: Select this radio button to fax to the fax # stored in a "chart" within {{% system-name %}} . Any "chart" stored in  {{% system-name %}} can house a fax #.  {{% system-name %}} offers the ability to fax documents to the number specified in a specific patient/employee or any other type of "Chart" (ex: PO, EO, EPM, etc).
 * <strong>From:</strong> If a user has security permission named "<em>Allow Setting of FAX From"</em> set to Yes, the user can choose the CSI value of a fax. The CSI value is the Call Station Identifier that is part of the FAX header - it is essentially the caller id of the FAX. If user is set to Yes permission, in the fax mode a drop-down field named From: will show and user can select from a drop-down of fax #'s to set the fax ‘from' on the header that the recipient receives. ‘FROM' fax number choices in this drop-down are set in the LOCATIONS tab for each location with a fax#. If the user doesn't have security to choose "from" for a fax, then it uses the user's location and the system setting <em>Fax Header</em> entry.
 
-![](https://lh3.googleusercontent.com/zXdYiCiLoCwh8uJkA7LraF4pRA-FVXpHDhb3lIC077b2hbW-50zBhB27I45gFq599mZvedB9KwWn8Ir9kY5K02vT0pZVxKEvBHrLlLi0b6UDEQEHsBrx6b31e5yX4u7TsefQ7lR-kY4IUySMqw)
+![](faxing-documents.images/image7.png)
 
 * <strong>Cover</strong>: Select type of fax coversheet to use by using the drop-down arrow. (MIE loads these) You can also choose the fax cover-sheet choice or select: <strong>No CoverSheet.</strong> If you choose this, a coversheet will not be sent with your document(s) and no comments will be printed since there is no coversheet selected.
 * <strong>Name:</strong> Type in the name of the "chart" to receive the fax.  {{% system-name %}} offers the ability to fax documents to the number specified in a specific patient/employee or any other type of "Chart". If the "chart" has a fax # stored in a fax# field, that "chart" will be accessible in the auto-complete to fax to. It will send to the fax# stored in that "chart" record you want to send to. You cannot edit the fax# from here. The Fax# it will send to is visible in the <em>name</em> auto-complete when you are searching a "chart" to send to.
@@ -189,7 +189,7 @@ Click –FAX—box at the bottom to send this fax now.
 
 Click – Preview – box at the bottom if wish to view the documents that will be faxed. The coversheet will be the first page if you selected a fax coversheet. After you preview, you can then click SEND FAX or CANCEL FAX from that screen.
 
-![](https://lh3.googleusercontent.com/YYRC39d2mp63NISYV2ZsJNRh4ZCtYBOQqlabtq_zifklweIWx_BB1Rixim5PhWt6XrnlaJxtoxGxX0HlQoehvtw2pezSZaZyF_KTwDtabkDuO2qHG29dDkgeNgufD-iAVvNMGiaXb6rfJhPMoQ)
+![](faxing-documents.images/image11.png)
 
 Click CANCEL if wish to get out of the fax mode screen.
 

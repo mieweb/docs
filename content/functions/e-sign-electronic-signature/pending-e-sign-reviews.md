@@ -25,7 +25,7 @@ The Pending Reviews tab, found within the E-Sign sidemenu tab module, is where u
 
 
 
-![](pending-e-sign-reviews.images/image1.png)
+![](pending-e-sign-reviews.images/image5.png)
 
 
 
@@ -33,7 +33,7 @@ Another way to get to your assigned pending e-sign requests is by going to the E
 
 
 
-![](pending-e-sign-reviews.images/image2.png)
+![](pending-e-sign-reviews.images/image1.png)
 
 
 
@@ -54,7 +54,7 @@ High priority requests will be at the top and highlighted in red, followed by no
 
 
 
-![](pending-e-sign-reviews.images/image3.png)
+![](pending-e-sign-reviews.images/image13.png)
 
 
 
@@ -64,7 +64,7 @@ The Last Reviewed Documents category/bucket will be displayed next which lists d
 
 
 
-![](pending-e-sign-reviews.images/image4.png)
+![](pending-e-sign-reviews.images/image8.png)
 
 
 
@@ -72,7 +72,7 @@ The Pending Reviews tab can have a custom layout configured by MIE.  Some workf
 
 
 
-![](pending-e-sign-reviews.images/image5.png)
+![](pending-e-sign-reviews.images/image11.png)
 
 
 
@@ -82,7 +82,7 @@ When viewing the Pending Documents awaiting your e-signature, simply click the D
 
 
 
-![](pending-e-sign-reviews.images/image6.png)
+![](pending-e-sign-reviews.images/image3.png)
 
 
 
@@ -90,7 +90,7 @@ The Doc ID is a hyperlink that will take you directly into the specific document
 
 
 
-![](pending-e-sign-reviews.images/image7.png)
+![](pending-e-sign-reviews.images/image10.png)
 
 
 
@@ -98,7 +98,7 @@ When done reviewing the document, scroll to the bottom of the document.  You wi
 
 
 
-![](pending-e-sign-reviews.images/image8.png)
+![](pending-e-sign-reviews.images/image4.png)
 
 
 
@@ -123,7 +123,7 @@ There is a My Settings preference available to increase the number of documents 
 {{% /tip %}}
 
 
-![](pending-e-sign-reviews.images/image9.png)
+![](pending-e-sign-reviews.images/image7.png)
 
 
 
@@ -133,7 +133,7 @@ At the top and at the very bottom is the button Mark All as Signed.  If you cli
 
 
 
-![](pending-e-sign-reviews.images/image10.png)
+![](pending-e-sign-reviews.images/image12.png)
 
 
 
@@ -141,7 +141,7 @@ However, each document displayed does still offer individual functions.  You co
 
 
 
-![](pending-e-sign-reviews.images/image11.png)
+![](pending-e-sign-reviews.images/image2.png)
 
 #### Options in Multi-Review
 
@@ -149,7 +149,7 @@ Even if you checked them all the documents in bulk as ‘Sign', you can change t
 
 
 
-![](pending-e-sign-reviews.images/image12.png)
+![](pending-e-sign-reviews.images/image2.png)
 
 
 
@@ -162,7 +162,7 @@ The choices on individual documents being reviewed and signed using Multi-Review
 * Reject: Choose this if you wish to reject the document with notes/reason and it will automatically be sent to your user tasklist in the form of a task and it will take it out of your E-sign pending queue. The system automatically marks this rejected E-sign task as High and attaches the document.  Click the radio button next to ‘Reject' then can type in a note/reason in the free-text comment box next to that. Those comments will show up in the information bubble in document properties.  If you wish to reject, yet want to request a signature(s) from other people, then, you still click the radio button next to ‘Reject' then you can go over and select a person from the Request Signature dropdown arrow field.  This will reject and take the document out of your E-Sign queue.  It will then be sent back to the original requesting user in a task form.  It also then will request the signature from the other person(s) (if you selected any). Continue with the next document in your Multi-Review Listing and make selections.  When done with all documents and selections, click Sign Marked Documents.  When a provider rejects a signature it will task the person that sent it to him (or a specific person/dept depending on how you have the reject fast task setup), but it does not automatically un-request the signature.  Whomever receives the reject task has to manually un-request the signature for the person that rejected it.
 * Request Signature:  You must choose an option before this (must select either to do nothing, sign or reject) then can use this field to request another signature from someone.  A comment box next to the Request Signature drop-down will open to type in any comments for the person you are requesting a signature from
 * Add Dictation:  If system is enabled for dictation, can click this link and the dictation player will open and appear in the top corner.  You can add dictation to the specific e-sign document you are working in. If dictate something into the player, it will send the dictation job to the dictation tab/queue.  The transcriptionist then can open the dictation and/or the document you sent this from in esign. This allows the transcriptionist to access the document easily to make edits to if need be from your dictation remarks.
-* Add Document:  Click this and another screen will open to the add document module of {{% system-name %}} .  You can add/create any document (ex: note) to the patient's chart from here. Any document you create/add from multi-review esign using this add document feature will link themselves to the document being reviewed. You will see this in the document links section of the add document properties screen that opens once you've selected what type of document to ‘add'.    ![](pending-e-sign-reviews.images/image13.png)
+* Add Document:  Click this and another screen will open to the add document module of {{% system-name %}} .  You can add/create any document (ex: note) to the patient's chart from here. Any document you create/add from multi-review esign using this add document feature will link themselves to the document being reviewed. You will see this in the document links section of the add document properties screen that opens once you've selected what type of document to ‘add'.    ![](pending-e-sign-reviews.images/image9.png)
 
 
 
@@ -180,7 +180,7 @@ After all the documents, displayed in bulk using Multi-Sign, have been marked to
 
 
 
-![](https://lh6.googleusercontent.com/ED-HtRnuMbasu7HM9da1O2bdTODFzcewbNkstUwttmgx1lVxl3olGQSiMU_3cmoKr9xDTozXI0_KMrN7I0s0c0CZQyWzB5Vi1eZIa3YaCob4YBmyyn2XD0n3O3AzKGHFRAr_zmUQvIGjLIW2Ng)
+![](pending-e-sign-reviews.images/image6.png)
 
 
 

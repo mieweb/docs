@@ -21,7 +21,7 @@ Click Control from left sidebar menu. Click My Settings tab at top. Use drop-dow
 
 
 
-![](my-settings.images/image1.png)
+![](my-settings.images/image11.png)
 
 
 
@@ -31,7 +31,7 @@ If you have security rights, you can view other user's preference settings and/o
 
 
 
-![](my-settings.images/image2.png)
+![](my-settings.images/image6.png)
 
 
 
@@ -65,7 +65,7 @@ To change a system default preference as a means of applying that change in mass
 
 
 
-![](my-settings.images/image5.png)
+![](my-settings.images/image10.png)
 
 
 
@@ -77,7 +77,7 @@ For instance, in this example, I want everyone in the entire {{% system-name %}}
 
 
 
-![](my-settings.images/image6.png)
+![](my-settings.images/image8.png)
 
 
 
@@ -85,7 +85,7 @@ Click SET TO DEFAULT button to apply that setting and its value to all users in 
 
 
 
-![](my-settings.images/image7.png)
+![](my-settings.images/image2.png)
 
 
 
@@ -97,7 +97,7 @@ If you have security permission and want to edit preferences for users tied to a
 
 
 
-![](my-settings.images/image8.png)
+![](my-settings.images/image7.png)
 
 
 
@@ -158,7 +158,7 @@ When looking at preference choices available in the drop-down:
 * English Translations on Hover: For multilingual systems, if "Show" is chosen here, then when viewing {{% system-name %}} in a language other than English, if you move your mouse over a translated item, it will display the original English below it.
 * Date Format: There are 3 choices (MM-DD-YYYY, DD-MM-YYYY or YYYY-MM-DD) It is defaulted to MM-DD-YYYY however if you change, any date (date of birth, document date, revision dates, etc) will then display as your selected format in {{% system-name %}} .  The entry fields for the dates follow the same ordering as the displaying selection also. The separator for dates is standardized to use the dash ( - ).
 * 24 Hour Clock:  Choose Yes or No.  If Yes, times displayed for your view will be 24 hour military time. Field entry is still in normal 12 hr time with am/pm on it, yet summary view shows military time. If set to No, the times displayed for your view will be normal 12-hour clock times with pm or am after it.
-* Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format. ![](my-settings.images/image10.png)
+* Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format. ![](my-settings.images/image1.png)
 * Preferred Unit System: Choose Default, English or Metric.  You can still enter vitals, etc w/ either unit system; this just makes the drop-down choice units start at the system you choose. (ex: units for weight lbs vs kg, height  units inches vs. cm, etc).
 
 ### E-Chart
@@ -487,7 +487,7 @@ To save settings, click Submit Settings at the top or bottom of the screen.
 
 
 
-![](my-settings.images/image11.png)
+![](my-settings.images/image5.png)
 
 ### Password/PIN Control
 

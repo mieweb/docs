@@ -32,7 +32,7 @@ Available columns include:
 * <strong>Def Doc Type</strong>: Lists the document default type(s) (if any) for the chart tab in context. If a Default Document Type is designated for this chart tab, only that document type will be displayed as the primary Default Document Add Type when the Add Document link is clicked from within the chart. Leave this field blank if a default document add type is not needed for the chart tab.  
 * <strong>Description</strong>: If documented, this is the purpose of each chart tab. The first 60 characters of the description display here. If the description exceeds 60 characters, the entirety of the description will be displayed in a help bubble following the truncated version
 
-![](chart-tabs.images/image2.png)  
+![](chart-tabs.images/image18.png)  
 
 * <strong>Document Type(s)</strong>: Lists all of the Document Types that are mapped to and appear on the chart tab in context. 
 * <strong>Sub Tab Of</strong>: Lists the parent tab of the chart tab in context. In other words, if the chart tab in context is found within another menu or tab, that menu/tab, or parent, will be displayed in this column. 
@@ -49,7 +49,7 @@ There are also checkboxes available to change your search results to find what y
 
 Click the SEARCH button when ready to show the results of the search criteria you have set.
 
-![](chart-tabs.images/image3.png)
+![](chart-tabs.images/image21.png)
 
 
 
@@ -63,13 +63,13 @@ Click Chart Tabs at the top.
 
 To add, click Add Tab link at the top right of the screen.
 
-![](chart-tabs.images/image4.png)
+![](chart-tabs.images/image12.png)
 
 
 
 After you click Add Tab, the Chart Tab Basic Editor Information screen will appear.  This is where you type in the name of your new chart tab and select specifications for the chart tab.
 
-![](chart-tabs.images/image5.png)
+![](chart-tabs.images/image10.png)
 
 
 
@@ -130,7 +130,7 @@ If you select any default view that allows you to tag document types to it, you 
 
 
 
-![](chart-tabs.images/image6.png)  ![](chart-tabs.images/image7.png)
+![](chart-tabs.images/image7.png)  ![](chart-tabs.images/image9.png)
 
 
 
@@ -153,7 +153,7 @@ If you need to see a list of documents that haven't been tagged to a chart tab y
 
 
 
-![](chart-tabs.images/image8.png)
+![](chart-tabs.images/image20.png)
 
 
 
@@ -161,7 +161,7 @@ A list of document types not tagged to any inclusive tab will display.  It will
 
 
 
-![](chart-tabs.images/image9.png)
+![](chart-tabs.images/image4.png)
 
 
 
@@ -175,7 +175,7 @@ This is for MIE syntax programmer use to program instructions for specific clien
 
 
 
-![](chart-tabs.images/image10.png)
+![](chart-tabs.images/image14.png)
 
 ### Edit or Delete/Inactivate an Existing Chart Tab
 
@@ -189,7 +189,7 @@ Find the chart tab you wish to edit by using the search engine or by scrolling t
 
 
 
-![](chart-tabs.images/image11.png)
+![](chart-tabs.images/image5.png)
 
 
 
@@ -199,7 +199,7 @@ Revisions done to a chart tab are tracked. If you wish to view the revisions eve
 
 
 
-![](chart-tabs.images/image12.png)
+![](chart-tabs.images/image19.png)
 
 
 
@@ -207,7 +207,7 @@ The ‘view/summary' of the chart tab will show on your screen and a revision hi
 
 
 
-![](chart-tabs.images/image13.png)
+![](chart-tabs.images/image22.png)
 
 
 
@@ -215,7 +215,7 @@ If wish to delete (inactivate a chart tab), click delete and you will delete thi
 
 
 
-![](chart-tabs.images/image14.png)
+![](chart-tabs.images/image15.png)
 
 
 
@@ -223,7 +223,7 @@ A confirmation message will appear at the top to confirm you successfully delete
 
 
 
-![](chart-tabs.images/image15.png)
+![](chart-tabs.images/image8.png)
 
 
 
@@ -231,7 +231,7 @@ To "reactivate/undelete" a chart tab, you can click the UnDelete link in its opt
 
 
 
-![](chart-tabs.images/image16.png)
+![](chart-tabs.images/image3.png)
 
 
 
@@ -255,7 +255,7 @@ The Allowed Users / Allowed Departments to the restricted chart tab will display
 
 
 
-![](chart-tabs.images/image18.png)
+![](chart-tabs.images/image2.png)
 
 
 
@@ -273,7 +273,7 @@ If you want to deny permission to a user and/or department or need to edit a per
 
 
 
-![](chart-tabs.images/image19.png)
+![](chart-tabs.images/image6.png)
 
 
 
@@ -281,7 +281,7 @@ Once in either link, find the Allowed Users / Allowed Departments section. To ch
 
 
 
-![](chart-tabs.images/image20.png)
+![](chart-tabs.images/image11.png)
 
 
 
@@ -291,7 +291,7 @@ When done editing the users or departments to change their permission level, cli
 
 
 
-![](chart-tabs.images/image21.png)
+![](chart-tabs.images/image13.png)
 
 
 
@@ -301,7 +301,7 @@ Any user or department who is removed from the allowed list using the [ - ] butt
 
 
 
-![](chart-tabs.images/image22.png)
+![](chart-tabs.images/image16.png)
 
 
 

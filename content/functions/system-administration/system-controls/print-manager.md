@@ -14,7 +14,7 @@ menu:
 ---
 You must have security to be able to View the Print Manager tab found in Control.
 
-![](print-manager.images/image1.png)
+![](print-manager.images/image2.png)
 
 ## Overview
 
@@ -29,7 +29,7 @@ If you click the view link that is available next to the listed Print Job, you w
 {{% /tip %}}
 
 
-![](print-manager.images/image2.png)
+![](print-manager.images/image4.png)
 MIE will set up printers for your practice using this tab and in order to manage printers, the security for *Manage Printers* needs to be set to Yes.
 
 ![](print-manager.images/image3.png)
@@ -38,7 +38,7 @@ MIE will set up printers for your practice using this tab and in order to manage
 
 The chart tab found in an individual's chart named *Print & Fax History* also shows the Print History pertaining to documents specific to the patient you are in. The Print Job ID hyperlink also is only available for 7 days as above since it's a temporary file. However you can click the view hyperlink to see a text list of the documents that were in that print job.
 
-![](print-manager.images/image4.png)
+![](print-manager.images/image6.png)
 
 If you click the view link that is available next to the listed Print Job, you will see a text list of doc.id's and documents that were printed in that print job. This allows you visual of what was printed/rendered and can look up those document ids if needed.
 
@@ -48,4 +48,4 @@ If you click the view link that is available next to the listed Print Job, you w
 
 You can also see errored print jobs via the "Alerts" module via the taskbar at the top if any are errored out or via the Quick View sidemenu tab as a module. See other help documentation named *Alert-Errors-Failures-Interactive Tab.pdf*
 
-![](print-manager.images/image6.png)
+![](print-manager.images/image1.png)

@@ -24,11 +24,11 @@ When the chief complaint section is expanded, right under the free text field (w
 
 You can click the ↓ down arrow key on your keyboard to see the protocol preprogrammed selections or can begin typing in the auto-complete field to make your selection. This field does not accept any free text. The selection *Occupational Injury* is also a protocol choice.
 
-![](encounter-protocols.images/image2.png)
+![](encounter-protocols.images/image3.png)
 
 Once the Chief Complaint section header is collapsed (or you click the ‘next' button to proceed to next section of encounter), the protocol selection is displayed at the top in the light grey encounter info bar to help you know what encounter and what protocol you are working in. It is also displayed in the chief complaint section of the encounter and view/stored document.
 
-![](encounter-protocols.images/image3.png)
+![](encounter-protocols.images/image2.png)
 
 ## Encounter Sections that Change with Protocol
 
@@ -40,7 +40,7 @@ This screenshot shows an example of an HPI section that displays data fields to 
 
 Versus this default HPI section data fields to capture in regarding HPI if no protocol was selected.
 
-![](encounter-protocols.images/image5.png)
+![](encounter-protocols.images/image9.png)
 
 Depending on the protocol selected, various sections of the dynamic encounter (History of Present Illness (HPI), Review of Systems (ROS), Physical Exam (PE), Tests and Procedures, Quality, Plan Narrative, Visit Orders, Treatments, Patient Education and Depart Instructions) will reflect possible different data fields to capture to go through and document on the visit.
 
@@ -52,7 +52,7 @@ MACROs labeled throughout the encounter. MACROs are a pre-programmed statement s
 
 Specific MACRO choices can be programmed to protocol flowsheet sections in prior protocol setup. By clicking on a specific preprogrammed MACRO item that displays as a selection, it will populate an entire verbiage statement into the data field it corresponds to. This is to help save you typing, allow for more efficient time in documenting data, and provides you quick list to pick from that most applies to this data field element. MACROs can be programmed by any end user with security.
 
-![](encounter-protocols.images/image7.png)
+![](encounter-protocols.images/image5.png)
 
 ### Tests & Procedures Section Using Protocols
 
@@ -66,17 +66,17 @@ Clicking on the specific hyperlink of the test/procedure component (add xxxx to 
 
 In this screen shot example, we selected Add "Electrocardiogram" to Exam link that was displayed (it appeared as a choice based on the protocol we had previously selected to use for this visit encounter) and then it applied the Electrocardiogram order item into the Tests & Procedures section. It applies it as ‘in progress'.
 
-![](encounter-protocols.images/image9.png)
+![](encounter-protocols.images/image7.png)
 
 Click to expand the specific order item section (ex: Electrocardiogram) to key in the data of the test/procedure you performed and result the test/procedure. Make sure to mark the item as ‘completed' when done.
 
-![](encounter-protocols.images/image10.png)
+![](encounter-protocols.images/image12.png)
 
 ### Treatments Section Using Protocols
 
 The treatments section is meant to document any test or procedure (stored as order items) that were done at this visit as a treatment. It's similar to the Tests & Procedures section, but this is meant to be the place to document things given as a treatment at today's visit. If a protocol is selected and the protocol has a preprogrammed *Protocol Treatments* orders picklist programmed, those specific items will display in this section as a hyperlink to select. These may be specific listed items as a guidance to ‘add' to the exam based on the protocol selected in the chief complaint. In this screen shot example, we had selected Cardiovascular Chest Pain as a protocol to follow and now in the *Treatments* section we see some specific items listed that follow that protocol that we may want to ‘add to exam' to perform and document that we did as a treatment at today's visit regarding his/her chest pain visit.
 
-![](encounter-protocols.images/image11.png)
+![](encounter-protocols.images/image10.png)
 
 Clicking on the specific hyperlink of the treatment item quick pick (add xxxx to exam) listed will apply that specific item to the visit encounter to indicate it was performed and needs documented as a treatment today. It applies the order item as its own sub-section here.
 
@@ -84,7 +84,7 @@ In this screen shot example, we selected Add "Administer oxygen by face mask" to
 
 Click to expand the specific order item section (ex: Administer oxygen by face mask) to key in the data of the item you performed as a treatment and result it. Make sure to mark the item as ‘completed' when done.
 
-![](encounter-protocols.images/image12.png)
+![](encounter-protocols.images/image11.png)
 
 {{% note %}}
 

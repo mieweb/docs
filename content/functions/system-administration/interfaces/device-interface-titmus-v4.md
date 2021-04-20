@@ -28,10 +28,10 @@ The Titmus V4 Screener device interface uses the Titmus Software, which will nee
 
 * Open the Titmus Software.   
 * Click the Config icon.   
-* Click <strong>Integration</strong>.  ![](device-interface-titmus-v4.images/image1.png)   
-* Select <strong>Vision (out)</strong> by placing a check in the corresponding box.  ![](device-interface-titmus-v4.images/image2.png)   
-* Expand the list under Integration and select <strong>File</strong>.  ![](device-interface-titmus-v4.images/image3.png)   
-* Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](installing-mie-device-app.html).  ![](device-interface-titmus-v4.images/image4.png)   
+* Click <strong>Integration</strong>.  ![](device-interface-titmus-v4.images/image4.png)   
+* Select <strong>Vision (out)</strong> by placing a check in the corresponding box.  ![](device-interface-titmus-v4.images/image6.png)   
+* Expand the list under Integration and select <strong>File</strong>.  ![](device-interface-titmus-v4.images/image5.png)   
+* Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](installing-mie-device-app.html).  ![](device-interface-titmus-v4.images/image8.png)   
 * Click <strong>Apply</strong>.   
 * Click <strong>Close</strong>.
 
@@ -111,9 +111,9 @@ The following data fields are collected in {{% system-name %}} using the Titmus
 
 ## Using the Device Interface
 
-* While in a chart, add a <strong>Vision Screening</strong> order to the Due List.  ![](device-interface-titmus-v4.images/image5.png)   
-* While in the encounter, add the <strong>Vision Screening</strong> order to the exam from the Tests & Procedures section.  ![](device-interface-titmus-v4.images/image6.png)   
-* In the Vision Screening section, click the <strong>Automatic</strong> link.  ![](device-interface-titmus-v4.images/image7.png)   
+* While in a chart, add a <strong>Vision Screening</strong> order to the Due List.  ![](device-interface-titmus-v4.images/image7.png)   
+* While in the encounter, add the <strong>Vision Screening</strong> order to the exam from the Tests & Procedures section.  ![](device-interface-titmus-v4.images/image2.png)   
+* In the Vision Screening section, click the <strong>Automatic</strong> link.  ![](device-interface-titmus-v4.images/image1.png)   
 * Click the <strong>Titmus V4</strong> button.   
 * Perform test in the Titmus Software as instructed in the device operation manual.   
-* After completed, the results will be automatically uploaded to {{% system-name %}} and the Vision Screening section will update with the results.  ![](device-interface-titmus-v4.images/image8.png)
+* After completed, the results will be automatically uploaded to {{% system-name %}} and the Vision Screening section will update with the results.  ![](device-interface-titmus-v4.images/image3.png)

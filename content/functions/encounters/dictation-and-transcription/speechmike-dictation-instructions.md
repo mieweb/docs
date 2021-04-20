@@ -91,7 +91,7 @@ A dictation box called **MIE Player** will pop-up on your screen. You can have
 
 
 
-![](speechmike-dictation-instructions.images/image2.png)
+![](speechmike-dictation-instructions.images/image3.png)
 
 
 
@@ -115,7 +115,7 @@ Push the RECORD button on the LFH5276 SpeechMike Pro. Or you can click the middl
 
 
 
-![](speechmike-dictation-instructions.images/image3.png)
+![](speechmike-dictation-instructions.images/image2.png)
 
 
 
@@ -137,7 +137,7 @@ If you do **not** press the EOL button on the SpeechMike to upload (or don't c
 
 
 
-![](speechmike-dictation-instructions.images/image4.png)
+![](speechmike-dictation-instructions.images/image5.png)
 
 
 
@@ -157,7 +157,7 @@ The trigger button underneath the SpeechMike Pro can be programmed to be an "ent
 
 
 
-![](speechmike-dictation-instructions.images/image5.png)
+![](speechmike-dictation-instructions.images/image4.png)
 
 
 
@@ -181,7 +181,7 @@ Follow the previous steps in ‘Dictate from Patient's E-Chart'.
 
 
 
-![](speechmike-dictation-instructions.images/image6.png)
+![](speechmike-dictation-instructions.images/image7.png)
 
 
 
@@ -189,7 +189,7 @@ When done dictating for a patient from the Scheduler view and after you upload i
 
 
 
-![](speechmike-dictation-instructions.images/image7.png)
+![](speechmike-dictation-instructions.images/image6.png)
 
 
 
@@ -203,7 +203,7 @@ Click the **Dictate Day** link found towards the top of the Scheduler screen. 
 
 
 
-![](speechmike-dictation-instructions.images/image8.png)
+![](speechmike-dictation-instructions.images/image9.png)
 
 
 
@@ -221,7 +221,7 @@ You can add a dictation without being in a specific patient's account. This dict
 
 
 
-![](speechmike-dictation-instructions.images/image9.png)
+![](speechmike-dictation-instructions.images/image8.png)
 
 
 
@@ -229,7 +229,7 @@ The dictation box called MIE Player will pop-up on the on the screen. It will no
 
 
 
-![](speechmike-dictation-instructions.images/image10.png)
+![](speechmike-dictation-instructions.images/image12.png)
 
 
 
@@ -268,9 +268,9 @@ After uploading, it then says *File uploaded successfully. (Record to begin ano
 
 **Figure 1: MIE Player Buttons:**
 
-![](speechmike-dictation-instructions.images/image11.png)
+![](speechmike-dictation-instructions.images/image10.png)
 
-![](speechmike-dictation-instructions.images/image12.png) = rewind dictation all the way to the very beginning/start
+![](speechmike-dictation-instructions.images/image11.png) = rewind dictation all the way to the very beginning/start
 
 ![](speechmike-dictation-instructions.images/image13.png) = rewind dictation back in 1 minute increments
 

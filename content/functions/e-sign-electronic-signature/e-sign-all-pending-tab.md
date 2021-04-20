@@ -19,7 +19,7 @@ In the All Pending tab, it lists all users who have documents pending e-sign req
 
 
 
-![](e-sign-all-pending-tab.images/image1.png)
+![](e-sign-all-pending-tab.images/image10.png)
 
 
 
@@ -29,7 +29,7 @@ If you have security permission, you can click on the underlined user's name and
 
 
 
-![](e-sign-all-pending-tab.images/image2.png) 
+![](e-sign-all-pending-tab.images/image7.png) 
 
 
 
@@ -37,7 +37,7 @@ When clicking Sign Doc,  would then e-sign your name as preliminary, not the pe
 
 
 
-![](e-sign-all-pending-tab.images/image3.png)
+![](e-sign-all-pending-tab.images/image9.png)
 
 
 
@@ -58,7 +58,7 @@ To clear a user's entire e-sign queue, simply click on the Clear Queue link from
 
 
 
-![](e-sign-all-pending-tab.images/image4.png)
+![](e-sign-all-pending-tab.images/image2.png)
 
 
 
@@ -66,7 +66,7 @@ It will then pop up a confirmation box asking if you really wish to delete all t
 
 
 
-![](e-sign-all-pending-tab.images/image5.png)
+![](e-sign-all-pending-tab.images/image8.png)
 
 
 
@@ -74,7 +74,7 @@ After clicking OK, it will display a confirmation at the top of the screen that 
 
 
 
-![](e-sign-all-pending-tab.images/image6.png)
+![](e-sign-all-pending-tab.images/image3.png)
 
 
 
@@ -84,7 +84,7 @@ If have security permission to view the All Pending tab and have security permis
 
 
 
-![](e-sign-all-pending-tab.images/image7.png)
+![](e-sign-all-pending-tab.images/image6.png)
 
 
 
@@ -92,7 +92,7 @@ When Proxy Sign is clicked, the multi-review queue will open and the user with p
 
 
 
-![](e-sign-all-pending-tab.images/image8.png)
+![](e-sign-all-pending-tab.images/image1.png)
 
 
 
@@ -100,7 +100,7 @@ Once you have marked the documents to be signed and clicked the Sign Marked Docu
 
 
 
-![](e-sign-all-pending-tab.images/image9.png)
+![](e-sign-all-pending-tab.images/image5.png)
 
 ## E-Sign Reports
 
@@ -108,7 +108,7 @@ Using the Document Report found in the Reports sidemenu, a report can be run to 
 
 
 
-![](e-sign-all-pending-tab.images/image10.png)
+![](e-sign-all-pending-tab.images/image4.png)
 
 
 

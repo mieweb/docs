@@ -22,19 +22,19 @@ You do not have to fill out every single field. These fields are different ways 
 
 This is a report that you can run to show anything stored as an observation (or encounter data if stored as an observations), vitals, etc. for all patients.
 
-![](observations-report.images/image1.png)
+![](observations-report.images/image2.png)
 
 * <strong>Start Date:</strong> If no start date range entered here, it will assume the beginning date of the database creation.
 * <strong>End Date (required):</strong> This is a required field. You must have an end date.
 * <strong>Observation:</strong> Type in the first part of the observation you are searching to show results for. The system will attempt to auto-complete and give you a selection of choices. Click on your choice and it will save it in the list. Continue to type and select another observation to add to the search criteria report you want to run.
 
-![](observations-report.images/image2.png) ![](observations-report.images/image3.png)
+![](observations-report.images/image4.png) ![](observations-report.images/image3.png)
 
 When done, click SEARCH button.
 
 Your results will render below this field criteria section.
 
-![](observations-report.images/image4.png)
+![](observations-report.images/image6.png)
 
 You can rearrange or sort by clicking the column title.
 
@@ -49,5 +49,5 @@ These are optional fields.
 
 You can click the Show CSV link and download your search results into an excel spreadsheet which you can save, sort, etc in spreadsheet form. There is a view printable link to print your search results in the format shown on your results screen.
 
- ![](observations-report.images/image6.png)
+ ![](observations-report.images/image1.png)
 

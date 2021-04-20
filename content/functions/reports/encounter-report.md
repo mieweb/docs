@@ -24,7 +24,7 @@ The Encounter search screen will open.
 
 You can choose from basic or advanced search by clicking the appropriate link.
 
-![](encounter-report.images/image1.png)
+![](encounter-report.images/image2.png)
 
 Enter the appropriate selections into the fields you wish to narrow your Encounter Report search down to.
 
@@ -34,7 +34,7 @@ Click SEARCH button and the results will display below the search field screen. 
 
 In the options column you will see View Timecard and it shows the status of the encounter below that.
 
-![](encounter-report.images/image2.png)
+![](encounter-report.images/image4.png)
 
 If you click view timecard it opens up the details of that encounter respective to time.
 
@@ -42,7 +42,7 @@ If you click view timecard it opens up the details of that encounter respective 
 
 * <strong>View Printable:</strong> Click this and it will open a black/white printable version in a separate screen of the search results displayed on the screen. To print from this printable version screen, simply go to FILE and select PRINT.
 
-![](encounter-report.images/image4.png)
+![](encounter-report.images/image6.png)
 
 * <strong>Average Encounters:</strong> If you click this link (next to View Printable) then it will open a search screen for <em>Average For Encounters</em>. You can enter the specific fields and click CALCULATE button and it will calculate the average time card for a specific encounter(s). It also gives other totals/averages for dictations and signatures related to the visit type(s) you selected.
 
@@ -55,5 +55,5 @@ The system will then display the Average Timecard specific to the data you enter
 
 Click RESET to start another search, or change the fields and click CALCULATE to do another average, or simply go back to the search by clicking Return to Search link at the top right of this screen.
 
-![](encounter-report.images/image6.png)
+![](encounter-report.images/image1.png)
 

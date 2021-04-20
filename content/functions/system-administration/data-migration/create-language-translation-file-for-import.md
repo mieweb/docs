@@ -75,7 +75,7 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 
 
 
-![](create-language-translation-file-for-import.images/image2.png)
+![](create-language-translation-file-for-import.images/image4.png)
 
 
 
@@ -83,7 +83,7 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 
 
 
-![](create-language-translation-file-for-import.images/image3.png)
+![](create-language-translation-file-for-import.images/image5.png)
 
 
 
@@ -91,13 +91,13 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 
 
 
-![](create-language-translation-file-for-import.images/image4.png)
+![](create-language-translation-file-for-import.images/image3.png)
 
 
 
 5. Choose Delimiter: (tab), select the Language Translation Text File and click Upload.
 
-![](create-language-translation-file-for-import.images/image5.png)
+![](create-language-translation-file-for-import.images/image2.png)
 
 
 

@@ -20,7 +20,7 @@ The following is referring to an OMI Audiometric Data Management Software ASW200
 
 First ensure that a calibration has been performed for the day. If one has not been performed you will receive this pop up box:
 
-![](device-interface-audio-system.images/image1.png)
+![](device-interface-audio-system.images/image2.png)
 
 {{% /note %}}
 
@@ -28,7 +28,7 @@ First ensure that a calibration has been performed for the day. If one has not b
 1. From the audiogram computer select OMI Audio Version 3 or if it has been renamed "Audio" shortcut from the desktop.
 2. OMI Software will ask for user initials. Initials are not required to proceed
 
-![](device-interface-audio-system.images/image2.png)
+![](device-interface-audio-system.images/image4.png)
 
 ![](device-interface-audio-system.images/image3.png)
 
@@ -39,7 +39,7 @@ First ensure that a calibration has been performed for the day. If one has not b
     * When calibration is complete in OMI, select Receive Calibration on the main screen.
     * The following screen will appear:
 
-![](device-interface-audio-system.images/image4.png)
+![](device-interface-audio-system.images/image6.png)
 
 * Please be sure that the <strong>Audiometer Serial # field is set.</strong> This will auto populate but need to confirm.
 * Select "Receive Data" results will pull forward. (Note: Sometimes you need to click the receive data button twice.)
@@ -48,7 +48,7 @@ First ensure that a calibration has been performed for the day. If one has not b
 
 * Complete the "Listening and Visual Checks OK?" Section (Top Right Hand Corner) Add Calibration MM/DD/YYYY under "Calibration Subject" and select "Save" at the bottom of the screen and then select "Exit".
 
-![](device-interface-audio-system.images/image6.png)
+![](device-interface-audio-system.images/image8.png)
 
 * Performing an Audio Test:
     * Choose Select/Add Client
@@ -70,7 +70,7 @@ First ensure that a calibration has been performed for the day. If one has not b
 
 * In OMI choose the Copy Files dropdown and choose Export ASCII data.
 
-![](device-interface-audio-system.images/image8.png)
+![](device-interface-audio-system.images/image10.png)
 
 * Under select date range choose the current day's date on the Starting Date and the Ending Date.
 
@@ -78,7 +78,7 @@ First ensure that a calibration has been performed for the day. If one has not b
 
 * Select "Apply Selections"
 
-![](device-interface-audio-system.images/image10.png)
+![](device-interface-audio-system.images/image13.png)
 
 * Choose the correct patient from the list below and select begin export.
 * Box to save will pop up
@@ -89,15 +89,15 @@ First ensure that a calibration has been performed for the day. If one has not b
 
 ![](device-interface-audio-system.images/image12.png)
 
-![](device-interface-audio-system.images/image13.png)
+![](device-interface-audio-system.images/image14.png)
 
 * If you would like you can add the patients MR# ID to the filename by clicking in the File name box and renaming the file and select save. (Please note that the file extension must by .txt.) See below for example.
 
-![](device-interface-audio-system.images/image14.png)
+![](device-interface-audio-system.images/image15.png)
 
 * After selecting "Save" you will receive the following pop up. Note that it states the file has been exported to C:Program Files-LCC Audio ResultsAExport1234.txt. Select "Ok"
 
-![](device-interface-audio-system.images/image15.png)
+![](device-interface-audio-system.images/image16.png)
 
 * Close out of OMI software.
 
@@ -106,17 +106,17 @@ First ensure that a calibration has been performed for the day. If one has not b
 * Open {{% system-name %}} (if not already open) and choose correct patient.
 * Choose correct encounter and make sure there is an audiogram procedure on the due list or in office/tests procedures section; or you may need to add an encounter and check the due list for the audiogram procedure. If there is no audiogram procedure, you will need to add it to the due list.
 
-![](device-interface-audio-system.images/image16.png)
+![](device-interface-audio-system.images/image17.png)
 
 * Or go to chart tab named Audio Tool and click add audiogram
 * Scroll down the page to the Audio section and click "new" button to import an audio file.
 
-![](device-interface-audio-system.images/image17.png)
+![](device-interface-audio-system.images/image18.png)
 
 * Choose reason for test and enter in any current test comments and/or overall comments. Even if the file you are importing has comments or overall comments, those will be imported there too.
 * Scroll down to the "filebox".
 
-![](device-interface-audio-system.images/image18.png)
+![](device-interface-audio-system.images/image19.png)
 
 Make sure the audiogram result files are showing up in the file box.
 
@@ -125,15 +125,15 @@ Make sure the audiogram result files are showing up in the file box.
         * Right click on "filebox"
         * Choose set smartcard folder
 
-![](device-interface-audio-system.images/image19.png)
+![](device-interface-audio-system.images/image20.png)
 
 * Choose the correct location of the audiogram files (C:Program Files-LCC Audio Results and select ok
 
-![](device-interface-audio-system.images/image20.png)
+![](device-interface-audio-system.images/image21.png)
 
 * Audiogram files should populate the filebox
 
-![](device-interface-audio-system.images/image21.png)
+![](device-interface-audio-system.images/image1.png)
 
 * Choose the correct audiogram file for your patient.
 * Click the <em>upload file</em> button

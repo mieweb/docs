@@ -30,7 +30,7 @@ The following information provides details on how to add and configure flowsheet
 
 
 
-![](flowsheets-editor.images/image1.png) 
+![](flowsheets-editor.images/image2.png) 
 
 {{% note %}} Any custom discrete values will not be interoperable when communicating with other systems. {{% /note %}}
 
@@ -112,7 +112,7 @@ To avoid the default behavior of automatically displaying line breaks/headers, u
 
 
 
-![](flowsheets-editor.images/image2.png)
+![](flowsheets-editor.images/image3.png)
 
 
 
@@ -150,7 +150,7 @@ A common use for conditional logic is to display or hide a row, depending on a p
 `
 `
 `
-![](flowsheets-editor.images/image3.png)`
+![](flowsheets-editor.images/image1.png)`
 `
 #### Based on Patient Sex
 

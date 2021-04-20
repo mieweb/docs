@@ -38,7 +38,7 @@ CSV refers to the type of file and format of data needed to import information i
 
 ### Screenshots
 
-![](injections-csv-api.images/image1.png)
+![](injections-csv-api.images/image3.png)
 
 
 
@@ -46,7 +46,7 @@ Injections data is stored as a document, and will display within the appropriate
 
 
 
-![](injections-csv-api.images/image2.png)
+![](injections-csv-api.images/image1.png)
 
 
 
@@ -54,7 +54,7 @@ In addition, injections display within the Injections flowsheet chart tab as dis
 
 
 
-![](injections-csv-api.images/image3.png)
+![](injections-csv-api.images/image2.png)
 
 ## Specifications
 

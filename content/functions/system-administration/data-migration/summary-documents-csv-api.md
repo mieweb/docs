@@ -44,7 +44,7 @@ The first several columns in the example CSV dictate some discrete metadata for 
 
 
 
-![](summary-documents-csv-api.images/image1.png)
+![](summary-documents-csv-api.images/image2.png)
 
 
 
@@ -54,9 +54,9 @@ Following the discrete fields, a *Section Header* (section_header) several *N
 
 
 
-![](summary-documents-csv-api.images/image2.png)
+![](summary-documents-csv-api.images/image8.png)
 
-![](summary-documents-csv-api.images/image3.png)
+![](summary-documents-csv-api.images/image15.png)
 
 
 
@@ -64,7 +64,7 @@ Each column in the CSV above corresponds to a line of text in the resulting summ
 
 
 
-![](summary-documents-csv-api.images/image4.png)
+![](summary-documents-csv-api.images/image10.png)
 
 
 
@@ -72,7 +72,7 @@ The last screenshot displays a list of the Document Summary in EH. This is a lis
 
 
 
-![](summary-documents-csv-api.images/image5.png)
+![](summary-documents-csv-api.images/image9.png)
 
 ## Workflow Considerations
 
@@ -122,7 +122,7 @@ The first screenshot shows a list (listview) in EH. This can be seen by selectin
 
 
 
-![](summary-documents-csv-api.images/image6.png)
+![](summary-documents-csv-api.images/image3.png)
 
 
 
@@ -130,7 +130,7 @@ The second screenshot shows a document's header, which contains much of the disc
 
 
 
-![](summary-documents-csv-api.images/image7.png)
+![](summary-documents-csv-api.images/image4.png)
 
 
 
@@ -138,7 +138,7 @@ Document properties display discrete information about a document that is not av
 
 
 
-![](summary-documents-csv-api.images/image8.png)
+![](summary-documents-csv-api.images/image1.png)
 
 
 
@@ -146,7 +146,7 @@ Documents may be searched using the following criteria in EH: patient name, ente
 
 
 
-![](summary-documents-csv-api.images/image9.png)
+![](summary-documents-csv-api.images/image14.png)
 
 ### Creating Discrete Data from a Summary Document
 
@@ -160,9 +160,9 @@ It is sometimes valuable to import questionnaire data as a summary document. In 
 
 
 
-![](summary-documents-csv-api.images/image10.png)
+![](summary-documents-csv-api.images/image5.png)
 
-![](summary-documents-csv-api.images/image11.png)
+![](summary-documents-csv-api.images/image7.png)
 
 The questionnaire document is listed for the specified patient (Dolly Bacon).
 
@@ -176,7 +176,7 @@ Questions and corresponding responses are listed in the questionnaire summary do
 
 
 
-![](summary-documents-csv-api.images/image13.png)
+![](summary-documents-csv-api.images/image11.png)
 
 
 
@@ -249,9 +249,9 @@ Documents are grouped by required fields. The screenshots below show an example 
 
 
 
-![](summary-documents-csv-api.images/image14.png)
+![](summary-documents-csv-api.images/image6.png)
 
-![](summary-documents-csv-api.images/image15.png)
+![](summary-documents-csv-api.images/image13.png)
 
 
 

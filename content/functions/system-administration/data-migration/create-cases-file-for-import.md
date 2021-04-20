@@ -160,7 +160,7 @@ Populates the case/incident in {{% sys-name %}} as opened or closed. If importin
 
 
 
-![](create-cases-file-for-import.images/image1.png)
+![](create-cases-file-for-import.images/image5.png)
 
 
 
@@ -193,7 +193,7 @@ Populates the case/incident in {{% sys-name %}} as opened or closed. If importin
 
 
 
-5. Select the Cases CSV File and click <strong>Upload</strong>.  ![](create-cases-file-for-import.images/image5.png) 
+5. Select the Cases CSV File and click <strong>Upload</strong>.  ![](create-cases-file-for-import.images/image1.png) 
 
 {{% tip %}}
 

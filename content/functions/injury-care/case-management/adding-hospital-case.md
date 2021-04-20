@@ -47,7 +47,7 @@ If you wish to document a new case, click the header or **Edit** (Pencil) icon o
 
 
 
-![](adding-hospital-case.images/image2.png)
+![](adding-hospital-case.images/image3.png)
 
 
 
@@ -55,7 +55,7 @@ Once the **Case** section is expanded, indicate which type of case to create on 
 
 
 
-![](adding-hospital-case.images/image3.png)
+![](adding-hospital-case.images/image2.png)
 
 ## Hospital Case Details
 

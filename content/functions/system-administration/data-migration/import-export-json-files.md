@@ -91,7 +91,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](import-export-json-files.images/image1.png)
+![](import-export-json-files.images/image8.png)
 
 
 
@@ -99,7 +99,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](import-export-json-files.images/image2.png)
+![](import-export-json-files.images/image7.png)
 
 
 
@@ -108,7 +108,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](import-export-json-files.images/image3.png)
+![](import-export-json-files.images/image2.png)
 
 
 
@@ -116,7 +116,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](import-export-json-files.images/image4.png)  
+![](import-export-json-files.images/image1.png)  
 
 {{% tip %}} For larger lists, use Ctrl + F to find specific words/phrases/spellings in the page. {{% /tip %}}
 
@@ -125,7 +125,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 
 
 
-![](import-export-json-files.images/image5.png)
+![](import-export-json-files.images/image3.png)
 
 
 
@@ -157,7 +157,7 @@ There can be issues if exporting and importing to different database versions. A
 
 1. From the import database (i.e., the database into which the JSON file is being imported), navigate to the <strong>Control Panel</strong>.
 2. Go to the <strong>System Configuration</strong> tab.
-3. Click the <strong>Import</strong> link in the upper-right corner of the page.    ![](import-export-json-files.images/image6.png)
+3. Click the <strong>Import</strong> link in the upper-right corner of the page.    ![](import-export-json-files.images/image5.png)
 
 There are several import options available. The following instructions will focus on the process for importing a saved file.
 
@@ -165,7 +165,7 @@ There are several import options available. The following instructions will focu
 
 
 
-![](import-export-json-files.images/image7.png)
+![](import-export-json-files.images/image4.png)
 
 
 
@@ -173,7 +173,7 @@ There are several import options available. The following instructions will focu
 
 
 
-![](import-export-json-files.images/image8.png)
+![](import-export-json-files.images/image9.png)
 
 
 
@@ -183,7 +183,7 @@ There are several import options available. The following instructions will focu
 
 
 
-![](import-export-json-files.images/image9.png)
+![](import-export-json-files.images/image6.png)
 
 
 

@@ -56,7 +56,7 @@ To open a Fax Dialogue window and fax a document, simply click **Fax** when in t
 
 Or if several documents are being sent and a fax batch is needed, simply indicate which documents need added to the batch using the **Batch** links from the Documents chart tab list view. Once all documents have been batched, click the **Fax** link from the Batch toolbar, found at the top of the screen.
 
-![](review-session-fax-manager.images/image2.png)
+![](review-session-fax-manager.images/image3.png)
 
 Clicking any of these links will open a standard Print Dialogue window, which includes a *Fax* section. This window and section may also be accessed by clicking a **Print** link from anywhere in the system and simply changing the *Sent To* selection to **Fax**. The window will update accordingly.
 
@@ -64,7 +64,7 @@ Clicking any of these links will open a standard Print Dialogue window, which in
 
 The Fax section of the Print Dialogue window has various fields to be filled out, dependent upon the *mode* selected (i.e., User, Manual, or Chart).
 
-![](review-session-fax-manager.images/image3.png)
+![](review-session-fax-manager.images/image2.png)
 
 **User**: The *User* mode displays any established departments and users, so that users may fax directly from the {{% system-name %}} system to internal departments/users, reducing printing costs and streamlining the faxing process.
 
@@ -74,7 +74,7 @@ The Fax section of the Print Dialogue window has various fields to be filled out
 
 {{% tip %}}
 
-To enter an international number, simply type a plus sign ![](review-session-fax-manager.images/image5.png) followed by the international number. The plus sign will disable automatic formatting in the Fax # field, therefore if it is not included before the number, standard US formatting will still be applied (###) ###-####.
+To enter an international number, simply type a plus sign  followed by the international number. The plus sign will disable automatic formatting in the Fax # field, therefore if it is not included before the number, standard US formatting will still be applied (###) ###-####.
 
 {{% /tip %}}
 
@@ -104,7 +104,7 @@ The [Fax Manager](https://system/?f=admin&t=faxman) provides a dashboard for us
 
 {{% system-name %}} has a feature that will notify users of successful or failed fax transmissions. This feature is enabled, by default; however users must have a valid email address provided in their user account in order to receive any email notifications.
 
-![](https://lh3.googleusercontent.com/qnFZIs-WcblohVcReTIdN1mpYAJWZlyafwnuF2dJMxTdK2l6DUI3X2Bp0AzzKI3u1QD48zIi3N4N0YwsPl3q8hGylx_Cd6Dfusx9mViRrLByw8O3144QYmwGg7kFitAOhttEwqumDQhBapE5xw)
+![](review-session-fax-manager.images/image5.png)
 
 The *Friendly e-mail to user upon successful fax* system setting is user-specific, meaning the user sending the fax will be the recipient of the system-delivered email notification. Though the Fax Manager is always available for viewing failed and successful faxes, all email notifications send immediately, upon completion or failure.
 

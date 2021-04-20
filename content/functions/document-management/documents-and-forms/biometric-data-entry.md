@@ -29,12 +29,12 @@ To access and utilize a bubble form for recording information, simply navigate t
 1. While in the appropriate chart, access and print the bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
 
-![](biometric-data-entry.images/image1.png)
+![](biometric-data-entry.images/image3.png)
 
 3. Print out the bubble form.
 4. Record the result by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](biometric-data-entry.images/image2.png)
+![](biometric-data-entry.images/image5.png)
 
 {{% info %}}
 
@@ -53,12 +53,12 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 Navigating to the **Medical Record** **Vital Signs** chart tab allows users to select what type of results need to be entered or reviewed. In the Vital Signs chart tab, the screen will display a *List View* of all of the existing biometric data.
 
-![](biometric-data-entry.images/image3.png)
+![](biometric-data-entry.images/image4.png)
 
 1. Key in the biometric/vitals data in the fields provided. Set the observed date/time field.
 2. When finished, click the <strong>Submit</strong> button
 
-![](biometric-data-entry.images/image4.png)
+![](biometric-data-entry.images/image7.png)
 
 The data will be stored in the system, under the **Vital Signs** chart tab, as well as anywhere vitals are displayed. If the recorded data is preferred elsewhere in the system, do not hesitate to reach out to Helpdesk. We are happy to work with clients to develop ways to address any specific business needs.
 
@@ -66,17 +66,17 @@ The data will be stored in the system, under the **Vital Signs** chart tab, as w
 
 Another alternative to the bubble form is entering results manually, through the Vitals section of a visit encounter. When in a visit encounter, click the Vitals banner (or pencil icon) to expand the section for editing. The biometric data fields will display for data entry.
 
-![](biometric-data-entry.images/image5.png)
+![](biometric-data-entry.images/image6.png)
 
 ### Biometric Encounter
 
 There is a Biometric encounter available, but the bubble form isn't meant to coincide with the encounter of the same name. Contact the Deployment Consultant if information is needed for using Biometric encounters.
 
-![](biometric-data-entry.images/image6.png)
+![](biometric-data-entry.images/image2.png)
 
 ## Reporting
 
 Biometric reports are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) category. These reports enable a client to review the various data captured during a visit or encounter. The Patient Observations report is available here, as well.
 
-![](biometric-data-entry.images/image7.png)
+![](biometric-data-entry.images/image1.png)
 

@@ -18,7 +18,7 @@ As a superuser for your practice, your email may be programmed into a system set
 
 When an unknown allergy has been added to a patient's chart, it warns the user that they are entering an unknown allergy. It gives them the option to cancel out and redo it (by selecting No), or click Yes to continue to add this unknown allergy to the patient's chart.
 
-![](unknown-allergy-medication-email-notifications.images/image1.png)
+![](unknown-allergy-medication-email-notifications.images/image3.png)
 
 If the user selects ‘yes' to add the unknown allergy to the patient's chart, it does add it to the patient's chart and the superuser will get an email notification of this unknown allergy add. It is up to the superuser who is receiving these email notifications to examine the medication/allergy record that was added and determine if it should be corrected.
 
@@ -28,11 +28,11 @@ The system doesn't recognized abbreviations. The allergy should be entered as fu
 
 If a user enters in an unknown/unrecognized an allergy in a patient's record (instead of the full recognized allergy selection), you will receive an email notification such as the below.
 
-![](unknown-allergy-medication-email-notifications.images/image2.png)
+![](unknown-allergy-medication-email-notifications.images/image4.png)
 
 The **From:** will most likely be from **noreplywebchart@med-web.com** but it will populate whatever value is entered in this system setting. That's what the *From* email line will pull.
 
-![](unknown-allergy-medication-email-notifications.images/image3.png)
+![](unknown-allergy-medication-email-notifications.images/image2.png)
 
 The **Subject:** will be **|System|*-*Unknown Allergy/Intolerance Added**.
 
@@ -42,7 +42,7 @@ Of course, an entered *unknown* allergy may be correct. It may not always need t
 
 For example, if the patient is allergic to ‘leaves' and touching leaves causes hives on the patient, the user would enter ‘leaves' as their allergy. ‘Leaves' is not a recognized allergy in the First Databank database. Therefore, when the user adds this allergy to the patient's chart, they will get the warning that they are adding an unknown (unrecognized) allergy to the chart. They would click Yes. The superuser then gets an emailed notification of an unknown allergy of ‘leaves' being added. In this case, the superuser feels this is an appropriate allergy after conferring with the physician and doesn't need to edit or correct this allergy entry. They will keep it in the patient's allergy history, yet the system just notified you of the unknown allergy add to make sure you determine it as correct.
 
-![](unknown-allergy-medication-email-notifications.images/image4.png)
+![](unknown-allergy-medication-email-notifications.images/image6.png)
 
 ## Unknown Medications
 
@@ -58,7 +58,7 @@ If a user enters an unrecognized drug/medication in a patient's e-chart via quic
 
 The **From:** will most likely be from **noreplywebchart@med-web.com** but it will populate whatever value is entered in this system setting. That's what the *From* email line will pull.
 
-![](unknown-allergy-medication-email-notifications.images/image6.png)
+![](unknown-allergy-medication-email-notifications.images/image2.png)
 
 The **Subject:** will be **|System|*-*Unknown Allergy/Intolerance Added**.
 
@@ -76,5 +76,5 @@ Unknown Allergies, Intolerance and Medications are noted in the patient's list w
 
 This asterisk means that the entered allergy/intolerance and/or mediation is an unrecognized entry and wasn't selected from the auto-complete choices provided from First Databank database.
 
-![](https://lh5.googleusercontent.com/ZYqlAJAKb5Xbr9ciJkzr16Tm9slrgwlOMh21iQcV0h3aAmfEln5743RFR_az7NC3wyrHeqDHe4b0nNbBlBsc4LLFcC3vXFRBbnCb5tK04MbiHXPDMqLMs4Uo0LZnMpFDR5bnHCSvimYmK8ZXyw)
+![](unknown-allergy-medication-email-notifications.images/image1.png)
 

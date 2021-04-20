@@ -35,11 +35,11 @@ Many WebChart databases, especially legacy systems, may lack the necessary compo
 
 Configuration of a patient portal is done within a provider organization (PO) chart. To add or modify provider organization charts, click the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} sidemenu option. In order to configure the portal from the PO, the **Portal** chart type must be associated with the chart. The chart type(s) can be viewed and edited from the **Overview (PO)** chart tab within the respective chart.
 
-![](patient-portal-first-time-setup-and-configuration.images/image1.png)
+![](patient-portal-first-time-setup-and-configuration.images/image5.png)
 
 In order to begin configuring the Patient Portal, it first must be enabled from the **General Configuration** section of the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}} tab.
 
-![](patient-portal-first-time-setup-and-configuration.images/image2.png)
+![](patient-portal-first-time-setup-and-configuration.images/image6.png)
 
 Utilize the Provider Management menu search to locate the Provider Organization (PO) *chart* that will house the portal configurations. By default, a {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} provider organization will exist in the {{% system-name %}} system. This default provider organization can be used to setup/configure the patient portal; otherwise, a new provider organization can be created. 
 
@@ -56,12 +56,12 @@ Complete the following steps to setup the patient portal within the provider org
 2. Type the name of the PO, and click the <strong>Search</strong> button. In this example, we will be using  {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} .
 3. Locate the PO Name, and click the hyperlink.
 4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}}  tab.
-5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information. ![](patient-portal-first-time-setup-and-configuration.images/image3.png)
-6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.   ![](patient-portal-first-time-setup-and-configuration.images/image4.png) {{% only sys="wc" %}}
+5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information. ![](patient-portal-first-time-setup-and-configuration.images/image1.png)
+6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.   ![](patient-portal-first-time-setup-and-configuration.images/image8.png) {{% only sys="wc" %}}
 
 {{% info %}}
 
- WebChart portals should use a **Patients **role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.  ![](patient-portal-first-time-setup-and-configuration.images/image5.png) 
+ WebChart portals should use a **Patients **role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.  ![](patient-portal-first-time-setup-and-configuration.images/image7.png) 
 
 The security role(s) that are chosen must have the following security settings set in place:
 
@@ -90,7 +90,7 @@ The security role(s) that are chosen must have the following security settings s
 
 ## General Configuration
 
-After running the portal setup, click the **General Configuration/Portal** header to expand and begin customizing and updating the portal information, accordingly.  ![](patient-portal-first-time-setup-and-configuration.images/image6.png) 
+After running the portal setup, click the **General Configuration/Portal** header to expand and begin customizing and updating the portal information, accordingly.  ![](patient-portal-first-time-setup-and-configuration.images/image10.png) 
 
 
 
@@ -168,7 +168,7 @@ There is also a system setting that needs added and reviewed when utilizing the 
 
 
 
-**View Sample** (![](patient-portal-first-time-setup-and-configuration.images/image7.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](patient-portal-first-time-setup-and-configuration.images/image8.png)
+**View Sample** (![](patient-portal-first-time-setup-and-configuration.images/image9.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](patient-portal-first-time-setup-and-configuration.images/image11.png)
 
 **Custom Heading**: Use this field to customize the warning heading displayed to those users without a default portal or lacking the appropriate setup.
 
@@ -253,7 +253,7 @@ With the initial setup complete, navigate to the {{% syslink "Patient Portal" "f
 
 
 
-While on the *Patient Portal* tab, click the **Configuration** header to expand and review the available options. Fill out the appropriate fields, as needed.   ![](patient-portal-first-time-setup-and-configuration.images/image10.png)
+While on the *Patient Portal* tab, click the **Configuration** header to expand and review the available options. Fill out the appropriate fields, as needed.   ![](patient-portal-first-time-setup-and-configuration.images/image12.png)
 
 
 
@@ -283,7 +283,7 @@ While on the *Patient Portal* tab, click the **Configuration** header to expa
 
 
 
-**View Sample** (![](patient-portal-first-time-setup-and-configuration.images/image11.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](patient-portal-first-time-setup-and-configuration.images/image12.png)
+**View Sample** (![](patient-portal-first-time-setup-and-configuration.images/image9.png)): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  ![](patient-portal-first-time-setup-and-configuration.images/image11.png)
 
 **Brand for Welcome Message**: The name or brand to be used in the Welcome Message. By default, the word NoMoreClipboard will be populated, but this field can be updated with up to 25 characters. Click Show Sample to see where this occurs.
 
@@ -596,13 +596,13 @@ To add a new layout for the Message Center/My Medical Information screen:
 
 In some cases, portal users may have access to more than one portal that has been setup/configured in the same WebChart database. In such cases, users who have access to more than one portal will see **Portal Selection** from the menu options. Once the user has established their username and password for one portal, that same username and password can be used to gain access to any of the additional portals that are set up in the database. There is no need to generate a new activation code for each additional portal a portal user accesses.
 
-![](https://lh4.googleusercontent.com/LIq4ENC5WGb4nP73vc2JC_Alv7DCARQGshcmUYGOSzhOihsxBcJhz8exQ_DyKG9dty4k3Q5KzfUlufTgWJRxswGHbmamohFMwGfRVKR2CzCK_jAwHeLU0fm2kGMU0WVjFel65E3ARyfINdJmoQ)
+![](patient-portal-first-time-setup-and-configuration.images/image3.png)
 
 ### Portal Activation Code Report
 
 The Portal Activation Code report will display the date an activation code was generated for a patient chart along with the date (if applicable) that the activation code was used to create a portal account. The users listed on this report are only those users who have actually created their portal account. The report columns include MRN, patient name, DOB, Sex, Code Creation Date, Activation Date, Portal Name (i.e., the name of the provider organization). This report can be found by going to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} side menu tab and then selecting the {{% syslink "Utilization" "f=layout&module=reports&name=Utilization&tabmodule=reports&tabmodule=reports&t=Utilization&tabselect=Utilization" %}} chart tab. This report can be filtered by a date range, partition, and provider organization (portal). 
 
-![](https://lh4.googleusercontent.com/Nd4T3qnqlXXfBDiH4I3tIZLuyBM_UDO5tA6xVxSsxCJHpSZyFxpYiXTQCWVTuD5xDHHBVXJnYasFkmFAvsafUlnguINzVAQ0RNz-8yk_ZLyWj8OTILCVPuHKeQIt57cmT1dO2PT7dQEswLUtOg)
+![](patient-portal-first-time-setup-and-configuration.images/image4.png)
 
 {{% only sys="wc" %}}
 
@@ -623,7 +623,7 @@ WebChart databases may or may not have all the needed chart types, chart tabs, o
 
 A provider Organization partition needs added if it does not already exist, using the Partition Manager.
 
-![](https://lh4.googleusercontent.com/MgBejP-QOYgYztJn3ljpGFsNGRgDAu0RPGS1_-m1S_tal3-FlsuT5kOTqHVihfUjpcvMXM8_Zye8f50KcRiBo0yHCCXyB0EtvzzwmUw1SLvwgHJJ5kDwUbIPA3chON3FBG_ILs7dZE7U3aL73g)
+![](patient-portal-first-time-setup-and-configuration.images/image2.png)
 
 {{% /info %}}
 

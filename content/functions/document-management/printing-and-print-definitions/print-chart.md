@@ -28,7 +28,7 @@ After navigating to a specific chart from the [E-Chart module](https://system/?
 
 
 
-![](print-chart.images/image1.png)
+![](print-chart.images/image7.png)
 
 
 
@@ -36,7 +36,7 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 
 
-![](print-chart.images/image2.png)
+![](print-chart.images/image9.png)
 
 
 
@@ -52,7 +52,7 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 
 
-![](print-chart.images/image3.png)
+![](print-chart.images/image8.png)
 
 
 
@@ -60,7 +60,7 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 
 
-![](print-chart.images/image4.png)
+![](print-chart.images/image11.png)
 
 
 
@@ -81,7 +81,7 @@ When the **Print without headers** option is selected, another option will be 
 
 
 
-![](print-chart.images/image5.png)
+![](https://lh5.googleusercontent.com/7kwJy-euK0PJHg1gUBCv76x3eMbDDOGZvlle8Ow9SjIN1tjcYBfvc-hFzCU2gvGE_AiE6xXYxWoSTxby0b4uKSSciDzmOjU1Ye7Fzbng7roJgsAdZgDCUjNfH2Z92ERieOSQ6vBSpJLcerUdxA)
 
 
 
@@ -89,7 +89,7 @@ Legacy printing is possible when the *Use legacy print formatting* option is a
 
 
 
-![](print-chart.images/image6.png)
+![](print-chart.images/image2.png)
 
 
 
@@ -110,7 +110,7 @@ As noted, the Print Chart functionality is available from various locations with
 
 
 
-![](print-chart.images/image7.png)
+![](print-chart.images/image1.png)
 
 
 
@@ -118,7 +118,7 @@ Once in the Appointments chart tab, locate the appointment for which documents n
 
 
 
-![](print-chart.images/image8.png)
+![](print-chart.images/image4.png)
 
 
 
@@ -126,7 +126,7 @@ Once clicked, the Print Chart dialog window will open. Following the same instru
 
 
 
-![](print-chart.images/image9.png)
+![](print-chart.images/image3.png)
 
 
 
@@ -145,7 +145,7 @@ In addition to the various locations users can access the Print Chart functional
 
 
 
-![](print-chart.images/image11.png)
+![](print-chart.images/image6.png)
 
 
 
@@ -153,7 +153,7 @@ Additionally, users have the ability to utilize the **Print Charts** link, fou
 
 
 
-![](https://lh5.googleusercontent.com/-rEdRLvZtWo1trZKuprJR3Z9-2iHDnUOevDGbccYCsug3LaEfuEhUE1wYch7qfUBHqND6rkeIvSXmIQAJnYbbdJjKwVyVmLnYsxVNoQBl1wZ6vn-erx-An569G3xjAME3wcRUlJd4zWQ4DMXZA)
+![](print-chart.images/image5.png)
 
 
 

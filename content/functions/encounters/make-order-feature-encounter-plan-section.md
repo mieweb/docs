@@ -20,15 +20,15 @@ If the user/physician uses list (and not make / create order) or the auto-comple
 
 Your plan section in encounters can be programmed to have a Make Order feature link or a Create Order link. This gives the physician/user the ability to make and create an order right from the plan and then it is ready to print/fax in the encounter view or print all. Using the make /create order link bypasses the unordered orders and inserts the order into the patient's chart. It is then available in the encounter PRINT ALL option to print these orders for the patient.
 
-![](make-order-feature-encounter-plan-section.images/image1.png) ![](make-order-feature-encounter-plan-section.images/image2.png)
+![](make-order-feature-encounter-plan-section.images/image3.png) ![](make-order-feature-encounter-plan-section.images/image5.png)
 
-![](make-order-feature-encounter-plan-section.images/image3.png)
+![](make-order-feature-encounter-plan-section.images/image4.png)
 
 To create an order in the plan section, the user must **first click Make / Create xxx Order** link from the specific category they want to make an order from. If you click list first and check-mark items—it will render it as an unordered order (see separate help documentation). You can have the ‘list' links removed to force creation of order from encounter.
 
 To make an order right from the encounter, click Make / Create Order first in the specific section. When you click Make / Create xxx Order, it will open up the *Start Order Request* dialogue screen.
 
-![](make-order-feature-encounter-plan-section.images/image4.png)
+![](make-order-feature-encounter-plan-section.images/image7.png)
 
 In the *Start Order Request* screen, you must select and enter the fields:
 
@@ -40,45 +40,45 @@ In the *Start Order Request* screen, you must select and enter the fields:
 * <strong>Schedule Lab In:</strong> You can use the drop-down arrow to select an automated selection if the date for the order is not a specific date (more of a general time frame). You can also free-type in the free-text field next to it any other general date time frame, etc.
 * <strong>Diagnosis:</strong> The 4 most recent conditions the patient has will appear here. There is a system setting you can ask your MIE Implementer to set to add more or less to this list.
 
-![](make-order-feature-encounter-plan-section.images/image5.png)
+![](make-order-feature-encounter-plan-section.images/image6.png)
 
 * By default it is set to 4. You can delete the diagnosis that appears by clicking on the grey minus button. You can also add another diagnosis in the field below that. When you start typing the name of the diagnosis, a series of auto-complete choices will appear and you can choose from there. You can also start typing the ICD-9 code and a series of auto-complete choices will appear and you can choose from there. To add multiple diagnoses to this order, simply search and select the diagnosis after you select from the auto-complete choices and it will automatically insert it in the field above it. To delete one, click the minus button next to the diagnosis. Any conditions/diagnosis that are entered on the order that the patient doesn't already have will be linked to the encounter as a part of the "Impression" and will not appear under the "Past Medical History". This respects the system setting "Save Diagnosis to Patient Conditions" that causes orders to save the conditions to the patient in the first place. When you are done, simply go to the next tab called Patient Instructions.
 * <strong>Bill Type:</strong> Order requests can specify a bill type. If system setting <em>Require Bill Type</em> is enabled, this field will appear. There are four options: The default is None (unspecified), Self, Client, and Third Party. The system setting (Orders, Settings, Require Bill Type) will control whether this field is required or not on the order. If this setting is on (value set to 1), and ‘None' is chosen in the bill type dropdown, the user will be asked to choose a different option.
 
-![](make-order-feature-encounter-plan-section.images/image6.png)
+![](make-order-feature-encounter-plan-section.images/image9.png)
 
 * <strong>Patient Instructions:</strong> Free type any instructions for the patient regarding this order. These instructions may or may not print on the order sheet, depending on how your practice decided to layout the printable order sheet.
 * <strong>Comments:</strong> Free type any comments regarding this order. It will print on the order sheet and will show up in the Comments category when looking at this patient's recent orders from the orders screen view.
 
 Continue down this order screen and checkmark which order items you wish to order for the patient. The blank fields next to any order item are free-text boxes (like to document which side to do an xray or how many views or any additional comments regarding that order item).
 
-![](make-order-feature-encounter-plan-section.images/image7.png)
+![](make-order-feature-encounter-plan-section.images/image8.png)
 
 Above or at the bottom there are function buttons. Click "REQUEST ORDERS" button to render the order. The "Hide Top Form" button simply hides the top portion of this orders screen and only shows the order items to checkmark.
 
-![](make-order-feature-encounter-plan-section.images/image8.png)
+![](make-order-feature-encounter-plan-section.images/image11.png)
 
 You can toggle between order sets to checkmark orders from various order set's (ex: Lab, Imaging, etc) all at once and make it **one** order document instead of separate. There is the ability to switch picklists in the encounter order which is controlled by a dropdown containing all the order picklists in the system.
 
 The last picklist visited before clicking the "Request Orders" button will be the name of the order document that it will store as, regardless of whether any orders were chosen on that last picklist or not. The user can choose which picklist is recorded by visiting that picklist (or returning to it) before clicking the "Request Orders" button. There is a help bubble explaining this next to the *set name* field also for additional help. Again, this gives ability to mark orders across various order sets but will store it as one order document – as the name of the last set name (picklist) you were in.
 
-![](make-order-feature-encounter-plan-section.images/image9.png)
+![](make-order-feature-encounter-plan-section.images/image10.png)
 
 After clicking REQUEST ORDERS button, this will close that orders screen and then it will list your items you selected under the *Order Requests* category of the encounter.
 
-![](make-order-feature-encounter-plan-section.images/image10.png)
+![](make-order-feature-encounter-plan-section.images/image14.png)
 
 If your system is configured to require diagnosis for each order item, you will be prompted to confirm diagnosis for each order item you marked. If there are more than 3 order items on the order, you will have the ability to **apply diagnosis** to all order items quickly in mass instead of individually. If there are any order questions to answer on any order item, you will be prompted to answer those too. Click the FINISH button when done confirming diagnosis for each specific order item and any questions answered.
 
-![](make-order-feature-encounter-plan-section.images/image11.png) ![](make-order-feature-encounter-plan-section.images/image12.png)
+![](make-order-feature-encounter-plan-section.images/image12.png) ![](make-order-feature-encounter-plan-section.images/image13.png)
 
 When click the FINISH button, it will prepare the order request for submission with the encounter but the order request will *not* be submitted until the encounter work is saved. You can edit the order request before you save your encounter work. You can click the *edit "xxx" order request* button. This will re-open the ‘Start Order Request' window and populate it as it was in its last state. Cancelling the order request from that window or the Finish Order Request window keeps the order intact. If any changes to the order are made, those changes will be reflected on the page.
 
-![](make-order-feature-encounter-plan-section.images/image13.png)
+![](make-order-feature-encounter-plan-section.images/image15.png)
 
 If you click the SAVE button on the encounter to save your encounter work, you will see this section change to show the order requests and be able to *edit* them if need be. You can still edit the order at that point also.
 
-![](make-order-feature-encounter-plan-section.images/image14.png)
+![](make-order-feature-encounter-plan-section.images/image16.png)
 
 {{% info %}}
 
@@ -87,7 +87,7 @@ While working in the encounter and seeing the requested orders as the look above
 {{% /info %}}
 
 
-![](make-order-feature-encounter-plan-section.images/image15.png)
+![](make-order-feature-encounter-plan-section.images/image17.png)
 
 * <strong>Comments</strong> can be shown. That would show the comments field from the order request (comments are hidden by default).
 * <strong>Date of Service</strong> next to the ‘Edit Order Request' link on generated orders can be hidden. This is the date of the encounter, not the order date or order create date (currently date is default to be shown)
@@ -96,17 +96,17 @@ While working in the encounter and seeing the requested orders as the look above
 
 If you click the hyperlink edit order request (date) you will be taken to the order screen again to make any edits and click REQUEST ORDERS button at the bottom to render. See other help documentation on editing orders.
 
-![](make-order-feature-encounter-plan-section.images/image16.png)
+![](make-order-feature-encounter-plan-section.images/image18.png)
 
 When done with the encounter exam, the physician will submit the encounter.
 
 If there were any orders made by the physician using this make/create order feature, those orders show on the encounter document "view". The orders show in the *plan* area of the encounter document along w/ any diagnosis required on the order item.
 
-![](make-order-feature-encounter-plan-section.images/image17.png)
+![](make-order-feature-encounter-plan-section.images/image19.png)
 
 The order itself (the document) would be pending to batch/print/fax in the encounters "view" to print and hand to the patient or fax out to a facility. There are several other places in {{% system-name %}} that you can print/fax/batch this order document. But from here, in the "view" of the encounter, look in the *Encounter Options* area at the very bottom of the screen.
 
-![](make-order-feature-encounter-plan-section.images/image18.png)
+![](make-order-feature-encounter-plan-section.images/image20.png)
 
 You can batch and print all orders, prescriptions, drug guides, etc created from the encounter. You can also see the last time it was printed or faxed so you know if someone already rendered it.
 
@@ -123,7 +123,7 @@ If the user's preference for (‘Orders', ‘Encounter Orders', ‘Filter Pick L
 
 You can easily mark a pending order as "complete" even while working in the encounter or from the "view" of the encounter.
 
-![](make-order-feature-encounter-plan-section.images/image19.png) ![](make-order-feature-encounter-plan-section.images/image20.png)
+![](make-order-feature-encounter-plan-section.images/image21.png) ![](make-order-feature-encounter-plan-section.images/image22.png)
 
 Clicking the hyperlink to Complete a pending order request will take you to the *Complete Order* screen to document the pending order as "complete". (See additional documentation regarding *Order Completion* screen.) You will see this hyperlink available for any type of order request done via the Make xxx Order functionality.
 
@@ -131,7 +131,7 @@ Clicking the hyperlink to Complete a pending order request will take you to the 
 
 You can easily mark a pending lab order as "complete" and key in the lab results as discrete data to link to the originating lab order. You can do this even while working in the encounter o from the "view" of the encounter.
 
-![](make-order-feature-encounter-plan-section.images/image21.png) ![](make-order-feature-encounter-plan-section.images/image22.png)
+![](make-order-feature-encounter-plan-section.images/image1.png) ![](make-order-feature-encounter-plan-section.images/image2.png)
 
 Clicking the hyperlink to Complete with Results for a pending lab order request will take you to the *Complete Order with Results* screen to document the lab results of the order as discrete data and creates a Lab Results document in the patient's chart along with completing the order. (See additional help documentation regarding *Complete Order with Results* screen.) You will see this hyperlink available for any type of Lab order request done via the Make Lab Order functionality.
 

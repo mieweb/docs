@@ -24,7 +24,7 @@ The *My E-Rx Errors* screen shows a summary of any new prescriptions prescribed 
 
 Any errors that happen on any electronically sent prescription from you will show here in the My E-Rx Errors tab, but will also show you as an alert in the alert taskbar.
 
-![](e-refills-my-e-rx-errors-tab.images/image2.png)
+![](e-refills-my-e-rx-errors-tab.images/image1.png)
 
 These could be a variety of errors for why the electronic transmit of the prescription didn't go through or if there is a problem with the prescription. These errors need worked and corrected if need be from the e-meds module. Once corrected, you may need to resend.
 
@@ -32,9 +32,9 @@ Once done working the error, making the correction in the patient's e-meds modul
 
 You can still view and access a historical summary list of these errors from the E-Scripts tab in the category named *New E-Scripts Error*. A history of e-script errors is stored here. This entire E-Scripts tab and it's categories can be viewed by all users in the {{% system-name %}} system.
 
-![](e-refills-my-e-rx-errors-tab.images/image3.png)
+![](e-refills-my-e-rx-errors-tab.images/image2.png)
 
 If the My E-Rx Errors tab is blank, that means there are no errors to view or dismiss.
 
-![](https://lh5.googleusercontent.com/PtzNiAZ3Srd3T46wN1u6xGRuDZ9Jw6PC7iwKFYZPi2aWWFhIDsC6bq8U3oGO8NmXp9wUIAOuUitN6C6g00XpuIs0yPYWuOGqHlCy6HFqJvaxqG0l12nucPgqqhxjXx-IVUqX9QNZCIWxchCg7Q)
+![](e-refills-my-e-rx-errors-tab.images/image3.png)
 

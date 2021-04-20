@@ -16,7 +16,7 @@ You must have security role access to the Reports module/tab. This setting is in
 
 Many of the {{% system-name %}} reports offer a hyperlink to export spreadsheet or show spreadsheet.
 
-![](exporting-report-data.images/image1.png) ![](exporting-report-data.images/image2.png)
+![](exporting-report-data.images/image7.png) ![](exporting-report-data.images/image9.png)
 
 The functionality of this is to take the data that rendered on your screen and export it to an XML file that you can open with Excel. From the excel document, you can manipulate or sort the data further as you wish and/or save the report in an excel format or distribute as you wish.
 
@@ -28,35 +28,35 @@ Generate a report using the *export or show spreadsheet* hyperlinks from a {{% s
 
 Go to that report file icon on your desktop and on it, right click and select *Properties*
 
-![](exporting-report-data.images/image3.png)
+![](exporting-report-data.images/image8.png)
 Choose the *Change* button
 
-![](exporting-report-data.images/image4.png)
+![](exporting-report-data.images/image11.png)
 
 Choose the *Browse* button
 
-![](exporting-report-data.images/image5.png)
+![](exporting-report-data.images/image10.png)
 
 In the search field begin typing the word *excel*
 
-![](exporting-report-data.images/image6.png)
+![](exporting-report-data.images/image2.png)
 Choose *Excel.exe* and choose the *open* button
 
-![](exporting-report-data.images/image7.png)
+![](exporting-report-data.images/image1.png)
 
 When you are at the *Open with* screen, choose the *Exce_l program (icon) and click the _OK* button
 
-![](exporting-report-data.images/image8.png)
+![](exporting-report-data.images/image4.png)
 
 You have now completed and successfully changed the default of XML files to open with Excel. The properties screen should look like this where it states the type of file is XML and it will open with Excel.
 
-![](exporting-report-data.images/image9.png)
+![](exporting-report-data.images/image3.png)
 
 ## Exporting to CSV/Excel
 
 Many of the {{% system-name %}} reports offer a hyperlink to download CSV or show CSV.
 
-![](exporting-report-data.images/image10.png) ![](exporting-report-data.images/image11.png)
+![](exporting-report-data.images/image6.png) ![](exporting-report-data.images/image5.png)
 
 The functionality of this is to take the data that rendered on your screen and export it to a CSV file type. From the CSV file, you can manipulate or sort the data further as you wish and/or save the report in an excel type spreadsheet or distribute as you wish. A CSV is a comma separated values file, which allows data to be saved in a table structured format. CSV files can be used with any spreadsheet program, such as Microsoft Excel, OpenOffice Calc, or Google Spreadsheets. You can save as a CSV file type, but most users change the file type and save it as an Excel (xls) file type when you go to save the file and select a different file type to save it as.
 

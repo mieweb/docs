@@ -115,8 +115,8 @@ Options include:
 {{% /tip %}}
 
 
-* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](allergy-data-validation-test-script.images/image2.png)   
-* Select <strong>Allergies/Medications</strong> from the Medical Record chart tab.  ![](allergy-data-validation-test-script.images/image3.png)   
+* Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.  ![](allergy-data-validation-test-script.images/image3.png)   
+* Select <strong>Allergies/Medications</strong> from the Medical Record chart tab.  ![](allergy-data-validation-test-script.images/image2.png)   
 * Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
     * Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
     * Contact {{% system-name %}} with the findings.
@@ -132,5 +132,5 @@ The **Allergy Report** and **Allergy Report - DV** can both be particularly h
 To access and utilize these reports:
 
 * Navigate to the  {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}}  sidemenu.
-* Select the  {{% syslink "Medications/Allergies/Scripts" "f=layout&module=reports&name=MedsAllergiesScripts&tabmodule=reports&tabmodule=reports&t=Medications%2FAllergies%2FScripts&tabselect=Medications%2FAllergies%2FScripts" %}}  report list.  ![](allergy-data-validation-test-script.images/image4.png)   
-* Criteria may be added to filter or drill down data.  ![](allergy-data-validation-test-script.images/image5.png)
+* Select the  {{% syslink "Medications/Allergies/Scripts" "f=layout&module=reports&name=MedsAllergiesScripts&tabmodule=reports&tabmodule=reports&t=Medications%2FAllergies%2FScripts&tabselect=Medications%2FAllergies%2FScripts" %}}  report list.  ![](allergy-data-validation-test-script.images/image5.png)   
+* Criteria may be added to filter or drill down data.  ![](allergy-data-validation-test-script.images/image4.png)

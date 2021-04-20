@@ -18,7 +18,7 @@ The  {{% system-name %}} system is designed to allow sketches to be uploaded as
 
 To create a sketch document in a chart, first navigate to the Document Library by clicking any of the **Add Document** links, found throughout the chart. Once clicked, the library will load, and the **Sketch** filter link can be selected to reduce the available documents. Selecting the Sketch filter link will show only document types that can be drawn on and uploaded as a sketch files.
 
-![](sketch-documents.images/image1.png)
+![](sketch-documents.images/image7.png)
 
 
 
@@ -31,11 +31,11 @@ If a specific document type is not listed, contact the system administrator to s
 
 Select the document type needing attached and uploaded to the chart by simply clicking the Sketch link following the appropriate document name.
 
-![](sketch-documents.images/image2.png)
+![](sketch-documents.images/image9.png)
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
-![](sketch-documents.images/image3.png)
+![](sketch-documents.images/image8.png)
 
 **Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me **button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
@@ -58,7 +58,7 @@ In order to author documents for others, the user must have the Access Control 
 
 * A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.    ![](sketch-documents.images/image4.png)
+* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.    ![](sketch-documents.images/image10.png)
 
 
 
@@ -100,7 +100,7 @@ As noted, the default pen color for sketches is black, but can be changed, as ne
 
 To change the color of the pen, simply click the **stroke** button on the left toolbar, and a grid of color options will display. Click the preferred color on the grid and mouse over the sketch area to allow the color grid to collapse. Sketching can be performed, as needed.
 
-![](sketch-documents.images/image6.png)
+![](sketch-documents.images/image2.png)
 
 
 
@@ -109,7 +109,7 @@ To change the color of the pen, simply click the **stroke** button on the left
 An additional feature on the left toolbar is the ability to add text annotations. This feature is often used to add a reference point (e.g., number, letter, asterisk) for detailing additional comments or notes in the textbox, above the sketch image. To add, simply click the text button (**Aa**) from the toolbar, and select the area of the sketch where the annotation needs to be placed. The system will create a text box that can be used to add text, as needed.
 The text will display in the selected pen color.
 
-![](sketch-documents.images/image7.png)
+![](sketch-documents.images/image1.png)
 
 
 
@@ -128,11 +128,11 @@ Sketching is also available from within the encounter. Contact your Deployment C
 
 The sketch control functionality can be made available in the Tests & Procedures section of an encounter, if preferred. Configuration of the necessary sketch image document type must be completed, and MIE can configure an order item sharing the same name as the document type description. When a sketch order item is configured, it utilizes a special layout to pull in the sketch image of the matching document type of the forms library.
 
-![](sketch-documents.images/image8.png)
+![](sketch-documents.images/image4.png)
 
 Once the sketch is configured in the system as an order item, users can quickly select the sketch image to drop into the encounter for documenting. From the Tests & Procedures encounter section, select the appropriate sketch order item and click the **Add To Exam **button.
 
-![](sketch-documents.images/image9.png)
+![](sketch-documents.images/image3.png)
 
 The sketch will be inserted into the encounter for drawing on as its own section.
 
@@ -143,7 +143,7 @@ Mark the sketch order item as Completed, so the order does not stay on the Due L
 {{% /tip %}}
 
 
-![](sketch-documents.images/image10.png)
+![](sketch-documents.images/image6.png)
 ## Edit/Delete a Sketch Document
 
 Users cannot edit or erase sketch markings once the sketch has been uploaded to the chart. However, provided the proper user security permissions, users may edit the document properties fields, or even move or delete the sketch document, if necessary.

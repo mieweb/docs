@@ -14,7 +14,7 @@ menu:
 ---
 MIE must first turn on the ability to transfer Olympus DS-330 dictation if you are using Olympus mikes. If you are using SpeechMikes, please see other help documentation named *SpeechMike Dictation*.
 
-![](olympus-digital-dictation.images/image1.png)
+![](olympus-digital-dictation.images/image2.png)
 
 {{% note %}}
 
@@ -69,7 +69,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](olympus-digital-dictation.images/image2.png)
+![](olympus-digital-dictation.images/image8.png)
 
 
 
@@ -77,7 +77,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](olympus-digital-dictation.images/image3.png)
+![](olympus-digital-dictation.images/image4.png)
 
 
 
@@ -85,7 +85,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](olympus-digital-dictation.images/image4.png)
+![](olympus-digital-dictation.images/image6.png)
 
 
 
@@ -93,7 +93,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](olympus-digital-dictation.images/image5.png)
+![](olympus-digital-dictation.images/image3.png)
 
 
 
@@ -101,7 +101,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](olympus-digital-dictation.images/image6.png)
+![](olympus-digital-dictation.images/image5.png)
 
 
 
@@ -109,7 +109,7 @@ We recommend each physician have their own Olympus mike. If that is not possible
 
 
 
-![](olympus-digital-dictation.images/image7.png)
+![](olympus-digital-dictation.images/image1.png)
 
 
 
@@ -135,7 +135,7 @@ You should double check that the users who log in to upload dictations from olym
 
 ## After Transferring Olympus Dictations
 
-![](olympus-digital-dictation.images/image8.png)
+![](olympus-digital-dictation.images/image7.png)
 
 After uploading your transfers, you will see them listed in the Dictation pending queue of the Dictation tab.
 

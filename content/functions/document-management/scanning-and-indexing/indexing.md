@@ -2,7 +2,7 @@
 title: "Indexing"
 date: "2020-03-24T12:57:54.562Z"
 url: "functions/document-management/scanning-and-indexing/indexing.html"
-version: 90
+version: 91
 id: "1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8"
 source: "https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8"
 menu:
@@ -36,7 +36,7 @@ Additionally, the ListView of the checked-in scanned batches will only show batc
 
 
 
-![](indexing.images/image1.png)
+![](indexing.images/image10.png)
 
 
 
@@ -48,7 +48,7 @@ There are various statuses used within {{% system-name %}} for tracking batches.
 
 
 
-![](indexing.images/image2.png)
+![](indexing.images/image12.png)
 
 
 
@@ -93,7 +93,7 @@ As explained, the WebScan module will display all *Checked In* batches, by defau
 
 
 
-![](indexing.images/image3.png)
+![](indexing.images/image11.png)
 
 #### Columns in Batch ListView
 
@@ -101,7 +101,7 @@ The **Batch** ListView shows various columns of information. Click any of the co
 
 
 
-![](indexing.images/image4.png)
+![](indexing.images/image14.png)
 
 
 
@@ -125,7 +125,7 @@ In the **Options** column of the Batch ListView are the functions that can be do
 
 
 
-![](indexing.images/image5.png)
+![](indexing.images/image13.png)
 
 
 
@@ -140,12 +140,12 @@ Once a batch is in the status of *Checked Out, Completed,* or *Deleted*, users m
 {{% /tip %}}
 
 
-![](indexing.images/image6.png)
+![](indexing.images/image16.png)
 **View**: Allows users to only view the pages of the batch. Clicking the *View* link opens batch pages in a TIFF file format. The AlternaTIFF toolbar is visible at the top of the page and allows the contents of the batch to be navigated and reviewed using the available toolbar buttons. Indexing cannot be done from this view. After viewing, simply close the window by clicking the red X in the top-right corner of the window. The batch remains set to the status it was in when the *View* option was clicked.
 
 
 
-![](indexing.images/image7.png)
+![](indexing.images/image15.png)
 
 
 
@@ -153,7 +153,7 @@ Once a batch is in the status of *Checked Out, Completed,* or *Deleted*, users m
 
 
 
-![](indexing.images/image8.png)
+![](indexing.images/image18.png)
 
 
 
@@ -170,7 +170,7 @@ To begin indexing a batch, users must click the **Open** link from the *Options*
 
 
 
-![](indexing.images/image9.png)
+![](indexing.images/image17.png)
 
 
 
@@ -178,7 +178,7 @@ The first page of the batch will display on the right side of the window. The fi
 
 
 
-![](indexing.images/image10.png)
+![](indexing.images/image21.png)
 
 
 
@@ -186,7 +186,7 @@ The first page of the batch will display on the right side of the window. The fi
 
 
 
-![](indexing.images/image11.png)
+![](indexing.images/image19.png)
 
 
 
@@ -202,7 +202,7 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 
 
 
-![](indexing.images/image12.png)
+![](indexing.images/image20.png)
 
 
 
@@ -303,7 +303,7 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 
 
 
-![](indexing.images/image13.png)
+![](indexing.images/image22.png)
 
 
 
@@ -315,7 +315,7 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 
 
 
-![](indexing.images/image14.png)
+![](indexing.images/image23.png)
 
 
 
@@ -349,7 +349,7 @@ The highlighted yellow bar in **Image Info** section indicates the page number a
 {{% /info %}}
 
 
-![](indexing.images/image15.png)
+![](indexing.images/image24.png)
 **FillField**: The FillField button provides users a type of autofill feature, similar to the Shift + Enter hotkey, or the *Fill Down* feature of spreadsheets. Clicking FillField will prompt the user to select which field of the Index Information section the user would like repeated for the remaining documents in the batch. Once selected, click the **Apply** button, and the remaining documents will have the selected field populated with the same data currently entered. This saves users time by eliminating the need to enter the same field information, repeatedly.
 
 
@@ -400,7 +400,7 @@ Exiting the WebScan module is possible by clicking the X, found in the upper-rig
 
 
 
-![](indexing.images/image16.png)
+![](indexing.images/image25.png)
 
 
 
@@ -442,7 +442,7 @@ If a user is restricted to certain chart types, the indexing module will only re
 
 
 
-![](indexing.images/image17.png)
+![](indexing.images/image26.png)
 
 
 
@@ -453,7 +453,7 @@ The *Link to Order* field will not activate until the *Chart* field has been ent
 {{% /note %}}
 
 
-![](indexing.images/image18.png)
+![](indexing.images/image27.png)
 **Service Location**: The Service Location field is optional. It is an autocomplete, so simply begin typing the name of the service location and {{% system-name %}} will initiate the search on the database. All possible matches will be driven by those locations configured in the system. The Service Location field will not accept free text.
 
 
@@ -481,7 +481,7 @@ The Batch Info section shows the Batch ID number, the number of pages scanned in
 
 
 
-![](indexing.images/image19.png)
+![](indexing.images/image28.png)
 
 
 
@@ -493,7 +493,7 @@ The Image Info section displays columns aligned with the fields of the Index Inf
 
 
 
-![](indexing.images/image20.png)
+![](indexing.images/image29.png)
 
 
 
@@ -514,7 +514,7 @@ The Image Info section displays columns aligned with the fields of the Index Inf
 
 
 
-![](indexing.images/image21.png)
+![](indexing.images/image1.png)
 
 
 
@@ -529,12 +529,12 @@ To *un-link* a page, simply **right-click** the line item and select the **Un-Li
 {{% /tip %}}
 
 
-![](indexing.images/image22.png)
+![](indexing.images/image2.png)
 **Copy Down One**: The Copy Down One option allows users to copy the same index field information from the current page to the line below it. This will only copy the index fields to the next page; it will not duplicate the document/image. Often, when the Copy Down One function is used, a **Dup** alert will appear in the *Status* column. This means the system detects the same information being indexed on a separate item. It can also signify that a document with the same index field information already exists in the respective chart. Modifying some index fields for the document may eliminate some Dup alerts; however, they do not need to be corrected if the intention is to upload the document.
 
 
 
-![](indexing.images/image23.png)
+![](indexing.images/image3.png)
 
 
 
@@ -549,7 +549,7 @@ Click on the red **Dup **hyperlink to open the view of the duplicate page/image.
 
 
 
-![](indexing.images/image24.png)
+![](indexing.images/image4.png)
 
 
 
@@ -568,7 +568,7 @@ Once all applicable fields have been filled, linking has been completed, and nec
 
 
 
-![](indexing.images/image25.png)
+![](indexing.images/image5.png)
 
 
 
@@ -576,7 +576,7 @@ Once complete, the batch will remain opened. To confirm the batch is finished up
 
 
 
-![](indexing.images/image26.png)
+![](indexing.images/image6.png)
 
 
 
@@ -591,7 +591,7 @@ In cases where the entire batch cannot be completed and indexed in one sitting, 
 {{% /info %}}
 
 
-![](indexing.images/image27.png)
+![](indexing.images/image7.png)
 ## Closing a Batch after Upload
 
 
@@ -604,7 +604,7 @@ First, to close the batch, click the **Close** button, near the top-left of the 
 
 
 
-![](indexing.images/image28.png)
+![](indexing.images/image8.png)
 
 
 
@@ -619,7 +619,7 @@ Once the **Close Batch** window opens, continue filling out the necessary inform
 
 
 
-![](indexing.images/image29.png)
+![](indexing.images/image9.png)
 
 
 

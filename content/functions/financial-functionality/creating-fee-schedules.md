@@ -2,7 +2,7 @@
 title: "Creating fee schedules"
 date: "2021-02-17T19:43:13.773Z"
 url: "functions/financial-functionality/creating-fee-schedules.html"
-author: Adam Humes
+author: ahumes
 version: 12
 id: "1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw"
 source: "https://drive.google.com/open?id=1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw"

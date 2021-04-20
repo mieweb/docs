@@ -27,7 +27,7 @@ When trying to access any of the areas listed above and you do not have addition
 
 
 
-![](super-user-quick-view-portlet.images/image1.png)
+![](super-user-quick-view-portlet.images/image5.png)
 
 
 
@@ -42,20 +42,20 @@ To access and activate the SuperUser access required, the user must:
 
 1. Add the<strong> SuperUser portlet</strong> to the [Quick View](https://system/) sidemenu.
 
-![](super-user-quick-view-portlet.images/image2.png)
+![](super-user-quick-view-portlet.images/image1.png)
 
 2. Next, locate the Super User portlet and click the <strong>Unlock for this Session</strong> button.
 
-![](super-user-quick-view-portlet.images/image3.png)
+![](super-user-quick-view-portlet.images/image4.png)
 
 3. Enter the password provided by your MIE Implementer.
 
-![](super-user-quick-view-portlet.images/image4.png)
+![](super-user-quick-view-portlet.images/image2.png)
 
 4. Click the <strong>Enable</strong> button after keying in the password.
 5. If successful, the button in the Super User portlet will display <strong>Super user access enabled</strong>. The super user can now go to those areas above, that were previously restricted.  
 
-![](super-user-quick-view-portlet.images/image5.png)
+![](super-user-quick-view-portlet.images/image3.png)
 
 6. If the system did not recognize the correct password, it will alert you to try again.
 

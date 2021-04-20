@@ -22,7 +22,7 @@ While in the appropriate chart, locate and open the document needing printed. Cl
 
 Once clicked, the Print Dialog window will open, with **Send To** *Printer* marked, by default.
 
-![](printing-documents.images/image2.png)
+![](printing-documents.images/image3.png)
 
 Users may choose to **Print without headers** or **Use legacy print formatting**, if preferred.
 
@@ -56,17 +56,17 @@ Users may set the format of print documents to either PDF or TIFF, by way of the
 
 Printing full-size scanned documents requires a simple adjustment in the default printing settings. To begin, locate and open the specific scanned document needing printed.
 
-![](printing-documents.images/image3.png)
+![](printing-documents.images/image2.png)
 
 Depending on the web browser used, when the document is opened, the scanned image will either appear within an AlternaTIFF workspace (e.g., IE), or when clicked, the image will appear in a viewer of a new tab/window (e.g., Chrome). The focus here is on Internet Explorer web browsers, using the AlternaTIFF control.
 
 Right-click the grey toolbar area, just above the scanned image. Select **More Settings**.
 
-![](printing-documents.images/image4.png)
+![](printing-documents.images/image5.png)
 
 Once clicked, the AltneraTIFF: More Settings dialog window will open. Ensure the **Always print full page** option is selected, and click the **OK** button.
 
-![](printing-documents.images/image5.png)
+![](printing-documents.images/image4.png)
 
 {{% note %}}
 

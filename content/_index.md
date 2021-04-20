@@ -1,9 +1,9 @@
 ---
 title: "_index"
-date: "2021-04-18T09:22:31.594Z"
+date: "2021-04-18T20:13:36.730Z"
 url: "_index.html"
 author: Doug Horner
-version: 470
+version: 489
 id: "1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 source: "https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 ---
@@ -19,7 +19,7 @@ A powerful resource for all users. Check out our various modules, standard funct
 
 ## Documentation
 
-This documentation is organized into two sections "Programs" and "Functions."  The "Functions" are the low level features for {{% system-name %}} and the "Programs" represent the combination of the functions to achieve a specific business purpose.  For example, Document Management is a Function and it is used across many Programs as the foundation of information management.  Another example Function would be EPCS (Electronic Prescribing of Controlled Substances) and would be in Clinical, Behavioral and Occupational Programs.    
+This documentation is organized into two sections "Programs" and "Functions."  The "Functions" are the low level features for {{% system-name %}} and the "Programs" represent the combination of the functions to achieve a specific business purpose.  For example, Document Management is a Function and it is used across many Programs as the foundation of information management.  Another example Function would be EPCS (Electronic Prescribing of Controlled Substances) and would be in Clinical, Behavioral and Occupational Programs.  
 
 ### [Programs](programs.html)
 

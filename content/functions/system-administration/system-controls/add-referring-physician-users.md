@@ -27,7 +27,7 @@ It will pop-up the list of departments your system has.
 
 You can search for a referring physician by typing in the last name portion of the referring physician's last name and make sure you are searching by **name** filter, or you can click the specific department name to view all the referring physicians listed in the Ref (referring) Physicians department.
 
-![](add-referring-physician-users.images/image1.png)
+![](add-referring-physician-users.images/image2.png)
 
 In the Search box at the top of the Access Control tab you are in:
 
@@ -49,7 +49,7 @@ Click *Access Control* tab at the top
 
 Click the [ Add User ] link on the far right side.
 
-![](add-referring-physician-users.images/image2.png)
+![](add-referring-physician-users.images/image4.png)
 
 When adding a Referring Physician, please fill out only the below fields. These are all that are needed/required.
 
@@ -63,7 +63,7 @@ Fill out only the fields below…
 * <strong>Current Status:</strong> Must change to be Login Disabled.
 * <strong>Def. User Role:</strong> This is the default user role. Must set this to Referring Physician. Many modules (ex: scheduler) pull referring physicians from this field, so it is important this is set.
 
-![](add-referring-physician-users.images/image4.png)
+![](add-referring-physician-users.images/image6.png)
 
 * <strong>First Name:</strong> Type in the referring physician's first name.
 * <strong>Last Name:</strong> Type in the referring physician's last name.
@@ -88,5 +88,5 @@ At the very top will say in blue "username successfully added". Or, it will give
 
 You can quickly tag multiple users (in mass) to a specific department by going to "View Department" and using the listedit & autocomplete feature there. See help documentation titled *Adding A Department.pdf* for more information.
 
-![](add-referring-physician-users.images/image6.png)
+![](add-referring-physician-users.images/image1.png)
 

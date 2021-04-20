@@ -95,7 +95,7 @@ These are a set of functions that can dynamically define component metadata per 
 
 When entering data into the Google Spreadsheet, a menu item is available (WebChart Conversion>Update Module) to assist with completing the needed Module Summary lines. Click this at any point to update the module lines in this tab.
 
-![](system-conversion.images/image1.png)
+![](system-conversion.images/image25.png)
 
 
 
@@ -151,7 +151,7 @@ Module Summary:
 
 The following table **encounters** is used for the Encounter example.
 
-![](system-conversion.images/image2.png)
+![](system-conversion.images/image27.png)
 
 Notice:
 
@@ -161,15 +161,15 @@ Notice:
 
 Based on the *Encounter Options* listed above, determine the mapping to legacy columns and complete the column **Encounter Options**.
 
-![](system-conversion.images/image3.png)
+![](system-conversion.images/image26.png)
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
 
-![](system-conversion.images/image4.png)
+![](system-conversion.images/image29.png)
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Encounter** module.
 
-![](system-conversion.images/image5.png)
+![](system-conversion.images/image28.png)
 
 Notice:
 
@@ -178,7 +178,7 @@ Notice:
 
 The completed row:
 
-![](system-conversion.images/image6.png)
+![](system-conversion.images/image31.png)
 
 Notice:
 
@@ -199,11 +199,11 @@ Notice:
 
 The example Encounters (Visits>Encounters) were crafted to be created for the patient William Hart.
 
-![](system-conversion.images/image7.png)
+![](system-conversion.images/image30.png)
 
 The newly generated Encounters:
 
-![](system-conversion.images/image8.png)
+![](system-conversion.images/image33.png)
 
 
 
@@ -256,7 +256,7 @@ Module Summary:
 
 The following table **documents** is used for the Summary Documents example.
 
-![](system-conversion.images/image9.png)
+![](system-conversion.images/image32.png)
 
 Notice:
 
@@ -266,15 +266,15 @@ Notice:
 
 Based on the *Document Options* and *Element Types* listed above, determine the mapping to legacy columns and complete the columns. The **Description** and **Order** has also been filled to demonstrate their effect on the created document.
 
-![](system-conversion.images/image10.png)
+![](system-conversion.images/image36.png)
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
 
-![](system-conversion.images/image11.png)
+![](system-conversion.images/image34.png)
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Summary Document** module.
 
-![](system-conversion.images/image12.png)
+![](system-conversion.images/image35.png)
 
 Notice:
 
@@ -283,7 +283,7 @@ Notice:
 
 The completed row:
 
-![](system-conversion.images/image13.png)
+![](system-conversion.images/image37.png)
 
 Notice:
 
@@ -306,15 +306,15 @@ Notice:
 
 The example Summary Documents (Document Summary) were crafted to be created for the patient William Hart.
 
-![](system-conversion.images/image14.png)
+![](system-conversion.images/image38.png)
 
 The newly generated Summary Documents:
 
-![](system-conversion.images/image15.png)
+![](system-conversion.images/image39.png)
 
 Here is an example Summary Document. Descriptions appear on the left column, while database values appear on the right. At the bottom containing comments is the *narrative*. Both sections are sorted according to the order specified in the **Data Mapping**.
 
-![](system-conversion.images/image16.png)
+![](system-conversion.images/image40.png)
 
 
 
@@ -362,7 +362,7 @@ Module Summary (one line per Observation):
 
 The following table **observations** is used for the Observations example.
 
-![](system-conversion.images/image17.png)
+![](system-conversion.images/image41.png)
 
 Notice:
 
@@ -372,7 +372,7 @@ Notice:
 
 Based on the Observation Options, get_obs_name, and get_obs_test_comments options listed above, determine the mapping to legacy columns and complete the columns.
 
-![](system-conversion.images/image18.png)
+![](system-conversion.images/image42.png)
 
 Three observations have been identified here. All are using the value of "test_date" for the observed date. They are also using the values of "comments1-4" for the observation comments.
 
@@ -382,11 +382,11 @@ Three observations have been identified here. All are using the value of "test_d
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
 
-![](system-conversion.images/image19.png)
+![](system-conversion.images/image43.png)
 
 Click on the **Module Summary** tab to see a row automatically created for each **Sample Observations** component.
 
-![](system-conversion.images/image20.png)
+![](system-conversion.images/image44.png)
 
 Notice:
 
@@ -395,7 +395,7 @@ Notice:
 
 The completed rows:
 
-![](system-conversion.images/image21.png)
+![](system-conversion.images/image15.png)
 
 Notice:
 
@@ -414,16 +414,16 @@ Notice:
 
 The example Observations (Medical Record>Observations/Flowsheets) were crafted to be created for the patient William Hart.
 
-![](system-conversion.images/image22.png)
+![](system-conversion.images/image16.png)
 
 To see the results:
 
 * Select a date range that is limited to the results you need.
-* For the example, which contains vitals, select the <strong>Vitals</strong> flowsheet. Depending on the observations you select, you may need to view them on a custom or different flowsheet.  ![](system-conversion.images/image23.png)
+* For the example, which contains vitals, select the <strong>Vitals</strong> flowsheet. Depending on the observations you select, you may need to view them on a custom or different flowsheet.  ![](system-conversion.images/image17.png)
 
 The newly generated Observations:
 
-![](system-conversion.images/image24.png)
+![](system-conversion.images/image18.png)
 
 
 
@@ -458,7 +458,7 @@ Module Summary:
 
 The following table **fit_test** is used for the Respirator Fit Test example.
 
-![](system-conversion.images/image25.png)
+![](system-conversion.images/image19.png)
 
 Notice:
 
@@ -468,15 +468,15 @@ Notice:
 
 Based on the *Fit Test Options* listed above, determine the mapping to legacy columns and complete the columns. The **Order** has also been filled to demonstrate its effect on the comments.
 
-![](system-conversion.images/image26.png)
+![](system-conversion.images/image20.png)
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
 
-![](system-conversion.images/image27.png)
+![](system-conversion.images/image21.png)
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Fit Test** module.
 
-![](system-conversion.images/image28.png)
+![](system-conversion.images/image22.png)
 
 Notice:
 
@@ -485,7 +485,7 @@ Notice:
 
 The completed row:
 
-![](system-conversion.images/image29.png)
+![](system-conversion.images/image23.png)
 
 Notice:
 
@@ -498,11 +498,11 @@ Notice:
 
 The example Respirator Fit Tests (Test Results>Respirator Info) were crafted to be created for the patient William Hart.
 
-![](system-conversion.images/image30.png)
+![](system-conversion.images/image24.png)
 
 The newly generated Respirator Fit Tests:
 
-![](system-conversion.images/image31.png)
+![](system-conversion.images/image5.png)
 
 
 
@@ -587,7 +587,7 @@ Module Summary:
 
 The following table **pft** is used for the PFT example.
 
-![](system-conversion.images/image32.png)
+![](system-conversion.images/image6.png)
 
 Notice:
 
@@ -597,15 +597,15 @@ Notice:
 
 Based on the PFT Options listed above, determine the mapping to legacy columns and complete the column **PFT Options**.
 
-![](system-conversion.images/image33.png)
+![](system-conversion.images/image7.png)
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
 
-![](system-conversion.images/image34.png)
+![](system-conversion.images/image8.png)
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample PFT** module.
 
-![](system-conversion.images/image35.png)
+![](system-conversion.images/image9.png)
 
 Notice:
 
@@ -635,11 +635,11 @@ Notice:
 
 The example PFTs (Test Results>PFT) were crafted to be created for the patient William Hart.
 
-![](system-conversion.images/image36.png)
+![](system-conversion.images/image10.png)
 
 The newly generated PFTs:
 
-![](system-conversion.images/image37.png)
+![](system-conversion.images/image11.png)
 
 
 
@@ -700,7 +700,7 @@ Module Summary:
 
 The following table **audio** is used for the Audiograms example.
 
-![](system-conversion.images/image38.png)
+![](system-conversion.images/image12.png)
 
 Notice:
 
@@ -710,15 +710,15 @@ Notice:
 
 Based on the *Audio Options* listed above, determine the mapping to legacy columns and complete the columns. The **Order** has also been filled to demonstrate its effect on the comments.
 
-![](system-conversion.images/image39.png)
+![](system-conversion.images/image13.png)
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
 
-![](system-conversion.images/image40.png)
+![](system-conversion.images/image14.png)
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Audiogram** module.
 
-![](system-conversion.images/image41.png)
+![](system-conversion.images/image1.png)
 
 Notice:
 
@@ -727,7 +727,7 @@ Notice:
 
 The completed row:
 
-![](system-conversion.images/image42.png)
+![](system-conversion.images/image2.png)
 
 Notice:
 
@@ -750,11 +750,11 @@ Notice:
 
 The example Audiograms (Test Results>Audio) were crafted to be created for the patient William Hart.
 
-![](system-conversion.images/image43.png)
+![](system-conversion.images/image3.png)
 
 The newly generated Audiograms:
 
-![](system-conversion.images/image44.png)
+![](system-conversion.images/image4.png)
 
 
 

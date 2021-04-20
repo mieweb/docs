@@ -20,7 +20,7 @@ When you click this tab, it automatically defaults to open to the top tab called
 
 This is the full summary of all mammograms for patients that are set as the *Ready to Send* status currently in {{% system-name %}} specific to **location.** If you wish to view *all* mammograms that are ready to send, then you need to change the location drop-down to *ALL.* If you click *set* next to location, it will keep this location and set it for your location defaults for other programs. Whatever location default you have *set* will display here. You can always change the location to *ALL* or a specific location. Most technicians send out their own mammograms from their specific practice location, that is why it defaults by location. However, if you have security rights, you can work on any mammograms from any location.
 
-![](mammotrack-sidemenu.images/image1.png)
+![](mammotrack-sidemenu.images/image16.png)
 
 From this tab you see the listing of all patients who have mammograms ready to send out. When you are ready to send out a mammogram for a patient or bulk of patients, you need to physically send out the mammograms and then change the status of those mailed/sent from this tab. This is where they are tracked.
 
@@ -32,7 +32,7 @@ You can use the search engine at the top to search for a specific mammogram (by 
 
 Each patient's mammogram is automatically defaulted to checkmark the *Mark Sent* box. This is a quick way to update multiple mammograms as the *sent* status. You can *un-checkmark* any mammogram and it will not update it as sent and it will keep it as ready to send status.
 
-![](mammotrack-sidemenu.images/image2.png)
+![](mammotrack-sidemenu.images/image16.png)
 
 As soon as you have check-marked all the mammograms that you sent out, click the *Mark as Sent* button at the bottom. This will automatically updates all the mammograms you check-marked from ready to send status to *Sent* status.
 
@@ -44,7 +44,7 @@ Edit, Delete and Show History are also individual options you can perform (if yo
 
 This is the full summary of all mammograms for patients that are set as the *Held* status currently in {{% system-name %}} specific to **location.** If you wish to view *all* mammograms that are in as *held* status, then you need to change the location drop-down to *ALL.* If you click *set* next to location, it will keep this location and set it for your location defaults for other programs. Whatever location default you have *set* will display here. You can always change the location to *ALL* or a specific location. Most technicians work on their own mammograms from their specific practice location, which is why it defaults by location. However, if you have security rights, you can work on any mammograms from any location.
 
-![](mammotrack-sidemenu.images/image3.png)
+![](mammotrack-sidemenu.images/image17.png)
 
 From this tab you see the listing of all patients who have mammograms being held for some reason.
 
@@ -58,7 +58,7 @@ You can use the search engine at the top to search for a specific mammogram (by 
 
 You have to click the *update* option for each individual mammogram in order to change it from held status to Ready to Send status. The *update* option is located at the far right options column on each mammogram line.
 
-![](mammotrack-sidemenu.images/image4.png)
+![](mammotrack-sidemenu.images/image19.png)
 
 Once you've clicked *update* you can only change the status to Ready To Send. You also type any comments if needed and click *Save.* It then moves this mammogram from the held status to the *Ready to Send* status and tab.
 
@@ -68,7 +68,7 @@ Edit, Delete and Show History are also options you can perform (if you have secu
 
 This is the full summary of all mammograms for patients that are set as the *Sent* status currently in {{% system-name %}} specific to **location.** If you wish to view *all* mammograms that are in as *Sent* status, then you need to change the location drop-down to *ALL.* If you click *set* next to location, it will keep this location and set it for your location defaults for other programs. Whatever location default you have *set* will display here. You can always change the location to *ALL* or a specific location. Most technicians work on their own mammograms from their specific practice location, which is why it defaults by location. However, if you have security rights, you can work on any mammograms from any location.
 
-![](mammotrack-sidemenu.images/image5.png)
+![](mammotrack-sidemenu.images/image18.png)
 
 From this tab you see the listing of all patients who have mammograms that were already sent out.
 
@@ -84,7 +84,7 @@ You can use the search engine at the top to search for a specific mammogram (by 
 
 You have to click the *update* option for each individual mammogram in order to change it from sent status to a birad score result. The *update* option is located at the far right options column on each mammogram line.
 
-![](mammotrack-sidemenu.images/image6.png)
+![](mammotrack-sidemenu.images/image21.png)
 
 Once you've clicked *update* select a birad score result. Depending on the birad score result you enter, a biopsy or follow-up field may appear.
 
@@ -105,7 +105,7 @@ Edit, Delete and Show History are also options you can perform (if you have secu
 
 Each specific birad score tab is the full summary of mammograms with that specific birad score currently in {{% system-name %}} specific to **location.** If you wish to view *all* mammograms for that specific birad score, then you need to change the location drop-down to *ALL.* If you click *set* next to location, it will keep this location and set it for your location defaults for other programs. Whatever location default you have *set* will display here. You can always change the location to *ALL* or a specific location. Most technicians work on their own mammograms from their specific practice location, which is why it defaults by location. However, if you have security rights, you can work on any mammograms from any location.
 
-![](mammotrack-sidemenu.images/image7.png)
+![](mammotrack-sidemenu.images/image20.png)
 
 From each birad score tab you see the listing of all patients who have mammograms that have that corresponding birad score result.
 
@@ -117,7 +117,7 @@ See next section for instructions on how to create and print followup reports. H
 
 This is used to keep track of what form was sent out and when.
 
-![](mammotrack-sidemenu.images/image8.png)
+![](mammotrack-sidemenu.images/image20.png)
 
 ### Editing a Birad Score Result or Other Field
 
@@ -125,7 +125,7 @@ If you have to change a mammogram birad score to a different birad score result,
 
 Depending on the current birad score the mammogram has, a biopsy or follow-up field may appear.
 
-![](mammotrack-sidemenu.images/image9.png)
+![](mammotrack-sidemenu.images/image22.png)
 
 * <strong>Patient</strong> is the name of the patient
 * <strong>Technologist</strong> is the name of the technologist who performed the mammogram.
@@ -150,7 +150,7 @@ Edit, Delete and Show History are also options you can perform (if you have secu
 
 Any mammogram with a birad score of 1, 2 or 3 in the corresponding Birad tabs will have a link at the top right corner to *Create Followup Report*. This is a report of all patients with mammograms that are due for a followup and have not had any followup form/letter/reminder printed and mailed to them yet. This is a way to print followup letters/forms, etc in bulk according to due date and birad score. This followup report is based on the location you are set to in the Birad score tab.
 
-![](mammotrack-sidemenu.images/image10.png)
+![](mammotrack-sidemenu.images/image20.png)
 
 Most clients go in (example) every Monday and print a letter or form, etc and mail to the patients who have a followup due date of a specific date in the next month.
 
@@ -168,15 +168,15 @@ The search result will show patient's that have not had any followup forms/lette
 
 You can select *Don't Print* as an option. It will then keep this mammogram in the followup letters queue and skip it. When you are done selecting each type of form/letter, then click the *Print* button at the very bottom of the screen.
 
-![](mammotrack-sidemenu.images/image11.png)
+![](mammotrack-sidemenu.images/image3.png)
 
 As soon as you click *Print,* it will open to another screen that has all your letters/forms in Alternatiff view and ready to print. You can scroll thru each page/letter/form by using the toolbar at the top. You can print all the letters to your printer by clicking the printer icon in the toolbar.
 
-![](mammotrack-sidemenu.images/image12.png)
+![](mammotrack-sidemenu.images/image4.png)
 
 Once you have looked through the letters/forms and you have printed them on your printer, click the *Update Followup as Completed* button at the top.
 
-![](mammotrack-sidemenu.images/image13.png)
+![](mammotrack-sidemenu.images/image4.png)
 
 This will update all of these mammograms to the status of *Followup Printed* summary category at the bottom of the Birad tabs automatically for you (specific to the location you are set at viewing). Meaning, it takes them out of the *due* followup report and shows that patient's mammogram in the *Followup Printed* birad score summary at the bottom of that specific birad tab.
 
@@ -184,19 +184,19 @@ The Followup Printed birad summary category is the summary list of all followup 
 
 This is used to keep track of what form was sent out and when.
 
-![](mammotrack-sidemenu.images/image14.png)
+![](mammotrack-sidemenu.images/image5.png)
 
 It will then give you the message at the top that the *Followup Letters are Marked Complete.*
 
 You must X out of this screen to get back into {{% system-name %}} or MammoTrack.
 
-![](mammotrack-sidemenu.images/image15.png)
+![](mammotrack-sidemenu.images/image6.png)
 
 ## Set Preferences
 
 When you are in the *Create Followup Report* screen, you will see a link to *Set Preferences* at the top right corner of the screen.
 
-![](mammotrack-sidemenu.images/image16.png)
+![](mammotrack-sidemenu.images/image23.png)
 
 Click *Set Preferences* and it will open another screen allowing you to set up rules for assigning document types (forms, letters, etc) to mammograms when they print the follow-up letters. This is just a quick way to get your document type choice to show up in the specific birad and/or according to location when you *Create Followup Report* from the birad tabs.
 
@@ -218,7 +218,7 @@ When you get back into *Create Followup Report* for that birad, if you had any p
 
 You can always change the form to use by using the drop-down. The preference is just a quick way to get the drop-down to already be selected at the form you wish to print for these types of birad scores and/or location.
 
-![](mammotrack-sidemenu.images/image17.png)
+![](mammotrack-sidemenu.images/image24.png)
 
 To delete a Mammogram Followup Form preference, simply click the ( - ) button in the options column next to the specific preference you wish to delete. It will place a strike through the preference. Click *Save* then to save all changes in the preferences screen.
 
@@ -226,7 +226,7 @@ To delete a Mammogram Followup Form preference, simply click the ( - ) button in
 
 This is the full summary of all mammograms for patients that were deleted and are specific to **location.** If you wish to view *all* mammograms that were deleted, then you need to change the location drop-down to *ALL.* If you click *set* next to location, it will keep this location and set it for your location defaults for other programs. Whatever location default you have *set* will display here. You can always change the location to *ALL* or a specific location. Most technicians work on their own mammograms from their specific practice location, which is why it defaults by location. However, if you have security rights, you can work on any mammograms from any location.
 
-![](mammotrack-sidemenu.images/image18.png)
+![](mammotrack-sidemenu.images/image25.png)
 
 The only option (if you have security rights) is to *un-delete*. When you click *un-delete* it will show the patient's name and technologist.
 
@@ -236,7 +236,7 @@ The only option (if you have security rights) is to *un-delete*. When you click 
 
 Click *Undelete* to undelete the mammogram, or cancel to exit out.
 
-![](mammotrack-sidemenu.images/image19.png)
+![](mammotrack-sidemenu.images/image26.png)
 
 After you *undelete,* it will give you the message at the top of the screen that the *mammogram was* *successfully un-deleted.* It then moves this mammogram into the *Ready to Send* status tab (P birad status).
 
@@ -248,45 +248,45 @@ This is where you search and print reports based upon the data you entered in th
 
 The very first check-box is called **Include Test**. If this box is check-marked, then the reports you run will include test patients in your system like Olive Oil, Mickey Mouse, Test Test, etc. Most clients will never check-mark this box, but it is there for testing purposes.
 
-![](mammotrack-sidemenu.images/image20.png)
+![](mammotrack-sidemenu.images/image27.png)
 
 ### View Results As Section
 
 * <strong>Test:</strong> Checking this box will allow test patients such as Olive Oil to be included in the report.
 
-![](mammotrack-sidemenu.images/image21.png)
+![](mammotrack-sidemenu.images/image7.png)
 
 * <strong>List:</strong> Displays search results in a list view. (Shows each patient and each column description)
 
-![](mammotrack-sidemenu.images/image22.png)
+![](mammotrack-sidemenu.images/image8.png)
 
 * <strong>Technologist Count:</strong> Displays search results by the technologist username and the count of how many they have done within your search range. Click <em>View Details</em> in the options column to view the specific list view of each patient and mammogram that technologist has done for that count.
 
-![](mammotrack-sidemenu.images/image23.png)
+![](mammotrack-sidemenu.images/image9.png)
 
 It may also show the results broken down per month depending on your date search range.
 
 * <strong>Radiologist Count:</strong> Displays search results by the radiologist username and the count of how many they have done within your search range. Click <em>View Details</em> in the options column to view the specific list view of each patient and mammogram that radiologist has done for that count.
 
-![](mammotrack-sidemenu.images/image24.png)
+![](mammotrack-sidemenu.images/image10.png)
 
 See below instructions on how to print a Federal Report for the Radiologist counts.
 
 * <strong>Status Count:</strong> Shows the search result according to birad score (status) and number of mammograms (count). Click <em>View Details</em> in the options column to view the specific list view of each patient and mammogram for that birad status score.
 
-![](mammotrack-sidemenu.images/image25.png)
+![](mammotrack-sidemenu.images/image11.png)
 
 * <strong>Location Count:</strong> Shows the search result according to location and number of mammograms (count). Click <em>View Details</em> in the options column to view the birad status view of each mammogram for that specific location. Click <em>View Details</em> again next to a specific birad status score to view the specific patient mammograms for that birad score.
 
-![](mammotrack-sidemenu.images/image26.png)
+![](mammotrack-sidemenu.images/image12.png)
 
 * <strong>Service Date Count:</strong> Shows the search result according to each specific date and the number of mammograms (count) done on that specific date between the date range you specified. Click <em>View Details</em> in the options column to view the birad status view of each mammogram for that specific service date. Click <em>View Details</em> again next to a specific birad status score to view the specific patient mammograms for that birad score.
 
-![](mammotrack-sidemenu.images/image27.png)
+![](mammotrack-sidemenu.images/image13.png)
 
 ### Patient Section
 
-![](https://lh3.googleusercontent.com/cZp5iFEbaxosh78tO2BrGlp_HftG6rYF5YgWVj4qX6__5NqGoA9h_wiTfVPOBbx2TMlUZLGI6yk3xjS9LaJ7-VRWDg5UK02yKjsOgVzDC_f7mThHX11f1Ct0EuDV-CCcZiYnKJ5Fv5-xcz4y4Q)
+![](mammotrack-sidemenu.images/image14.png)
 
 ### Patient & Service Sections
 
@@ -302,23 +302,23 @@ See below instructions on how to print a Federal Report for the Radiologist coun
 
 **View Printable:** If you click this option in any search result, it will open a screen that you can print by going to File, then selecting Print. After printing it, simply X out of that screen to return back to the search results.
 
-![](https://lh3.googleusercontent.com/WeVXQulQdR7K-UF2qzRZMuahORWWkcRxKq2WuUS6RNdZg07z6jQWc_-bNRvKoWWaEPXSuK-_0Brs1vNNGXjsFNwIGes1IL324yWhyWq5PQosPE2Yqc0IxA56IOhNea9IMmWXBorQcSY68cRoFA)
+![](mammotrack-sidemenu.images/image13.png)
 
 **View Federal:** When viewing the search result by Radiologist Count, you will also see a link called *View Federal*. Click this to change the viewing of the counts to the Federal (government) view. This report is the totals and readings/results that the Radiologists did during that date range and for other specified search fields you entered. Every year a report of mammograms is to be reported to the government. This Federal Report allows you to search, view and print this data for the government.
 
-![](https://lh3.googleusercontent.com/ZOJRfYLl4V4l9UG98NlUqyXdo_zrhSNLtGxrZgi2ccZlQxdc3pSWz3uNcTEHRFZg7x6wI5rkIF_mSEfjAG-ctHOV0J8EEmbc11ig2AHKquHH5YZ0QPJF4FJnciJ4QpT_HkyYL_8MBhi471wtuQ)
+![](mammotrack-sidemenu.images/image15.png)
 
 It lists the Radiologist count and birad scores according to location. It provides False Positive counts and also shows the facility percentage per location. Click *View Printable* to show the Federal report in a printable version.
 
 To print from the *view printable* screen, go to File and select Print. To get out of the printable version screen, simply X out and return to the MammoTrack screen.
 
-![](https://lh4.googleusercontent.com/F4yYMkUNfmF2i7P0IvO4R98903SnCdNMQ1al47U4XCb9BnDrJX7UaEEnwqJ7sNevDwYRikqed6wT7CniEBhhwtKbi0vq1CRFJMZDhaUoYd_Apyzh9gXbI4JotkiWknrsjKwiBVHnC55JRcjuAA)
+![](mammotrack-sidemenu.images/image1.png)
 
 ## Follow-Up Tab
 
 You can click the top tab called *Followup* to work on followup reports. This tab displays and separates all follow-ups that need done according to birad scores. This is the same as working in the specific Birad score tab and clicking *Create Followup Report*. This tab, however, just shows all birad follow-ups on the same screen and you can see more. It is not broken down by location.
 
-![](https://lh3.googleusercontent.com/Ec6Cg0NF_kEbv6GwpWD8C1B5eRtMO2SbfGd-oeTBSfElF1BvzWSkhv_9GntoYRsHsPlqSXvicrvUfvs_4lp-dw2FPMQCrncxbZoxiAUhCGEJASCDBv92ZBTb9rjv5wYKvkDgwRmTYSjQbnBpmA)
+![](mammotrack-sidemenu.images/image2.png)
 
 This is a report of all patients with mammograms that are due for a followup and have not had any followup form/letter/reminder printed and mailed to them yet. This is a way to print followup letters/forms, etc in bulk according to due date and grouped in birad score. This followup tab shows all results for all locations. It is not broken down by location.
 
@@ -336,15 +336,15 @@ You can select *Don't Print* as an option. It will then keep this mammogram in t
 
 When you are done selecting each type of form/letter, then click the *Print* button at the very bottom of each birad section. Each birad section in the *Followup* tab has it's own print button. It will only print that sections followup Letters.
 
-![](https://lh4.googleusercontent.com/Z0k4Ee0fqjenWqUeUj9h41hoaGQorMaLG2AdzX0xyz-XSYcQkn-74Tw3z747TQneeJh-ryjqYebwQlEZ_-eBH-l8OctDr-GaWvSBSJwXrSNUQdSPjOYdjDNSgduuThyXMw3xQGaSA4wgxOkK2A)
+![](mammotrack-sidemenu.images/image3.png)
 
 As soon as you click *Print,* it will open to another screen that has all your letters/forms in Alternatiff view and ready to print. You can scroll thru each page/letter/form by using the toolbar at the top. You can print all the letters to your printer by clicking the printer icon in the toolbar.
 
-![](https://lh3.googleusercontent.com/MXreaom7MWQ_NJvnp9SlwrWSaMTlu-4jOwE01BK1Yeza6zTiToT5WDTj0UMsF4EyJfiD2amERbXXwLQvUrh3bL2GPW9FoWBGOkg2IUHTF_q-u5_q_8VD6UqsHdv9foSc2UsUaKPquA9xIeWlsw)
+![](mammotrack-sidemenu.images/image4.png)
 
 Once you have looked through the letters/forms and you have printed them on your printer, click the *Update Followup as Completed* button at the top.
 
-![](https://lh3.googleusercontent.com/MXreaom7MWQ_NJvnp9SlwrWSaMTlu-4jOwE01BK1Yeza6zTiToT5WDTj0UMsF4EyJfiD2amERbXXwLQvUrh3bL2GPW9FoWBGOkg2IUHTF_q-u5_q_8VD6UqsHdv9foSc2UsUaKPquA9xIeWlsw)
+![](mammotrack-sidemenu.images/image4.png)
 
 This will update all of these mammograms to the status of *Followup Printed* summary category at the bottom of the Birad tabs automatically for you (specific to the location you are set at viewing). Meaning, it takes them out of the *due* followup report and shows that patient's mammogram in the *Followup Printed* birad score summary at the bottom of that specific birad tab.
 
@@ -352,11 +352,11 @@ The Followup Printed birad summary category is the summary list of all followup 
 
 This is used to keep track of what form was sent out and when.
 
-![](https://lh6.googleusercontent.com/BpnMmCfLRP6_oTYGuIz06rvjAN5QnWeh0SgvZ0nPr3eqq1ZWI2ydsqXo3NDxfazrG7Rgmjsc1rBoxOEZfarrI1fdCBef90yT00zd5cfrVe0_tO_pEWInrh3HDRR7YgngRqu33GSFTyA7wlSlMg)
+![](mammotrack-sidemenu.images/image5.png)
 
 It will then give you the message at the top that the *Followup Letters are Marked Complete.* You must X out of this screen to get back into {{% system-name %}} or MammoTrack.
 
-![](https://lh5.googleusercontent.com/yfAZjupmQIZFEprOsoGRhBaT1s-WpDwZk9Eh28_voZygMFso1chAWqukdbs4ZKz-pNCDm_wKEiOiM6WRAFAtiy7v2xMAHvSCmXZsOJsxX7szYs-SG_YjTay5z2iucjOZXSN9GN-qeaEi9JcqfQ)
+![](mammotrack-sidemenu.images/image6.png)
 
 *To set preferences in the Followup Tab, please refer to previous instructions regarding Preferences.*
 

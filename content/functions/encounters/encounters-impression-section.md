@@ -20,7 +20,7 @@ The Impression area of the encounter is where you select your diagnosis/findings
 
 The top section of the Impression area lists all conditions/problems the patient currently has (entered in their {{% system-name %}} system). It pulls in that conditions section so you don't have to re-type/re-enter.
 
-![](encounters-impression-section.images/image2.png)
+![](encounters-impression-section.images/image1.png)
 
 The Impression is simply a summary of all ACTIVE patient conditions for being the reason for *today's* visit. The impression will include all conditions the patient currently has. More than likely at least one or more of these conditions will be the reason for today's visit.
 
@@ -33,7 +33,7 @@ Below the listing of the patient's current condition history is the entry fields
 * <strong>Deleted Conditions</strong> are patient conditions that were entered in error and are now deleted from the patient's history.
 * <strong>Differential</strong> status is used if the doctor is suspecting 1 or more possibilities for what a patient might be suffering from, but, is awaiting further information (test results, etc) before making a definitive diagnosis.  Then once he/she makes a diagnosis, he/she would change the status of the correct one to "positive/active", and the rest to deleted (since they never really had the condition to begin with).
 
-![](encounters-impression-section.images/image3.png)
+![](encounters-impression-section.images/image2.png)
 
 The impression will include all conditions, even those not necessarily related to your practice, so if you don't want all of those others on the view, change the status to N/A. Selecting Active or N/A has no effect on the patient's current condition list, this is encounter specific.  However, if you Delete or add a new condition in this section, this will update and affect the patient's Active Condition list. Any problem/impression marked as status ACTIVE displays on the view/final encounter document.
 
@@ -57,7 +57,7 @@ This setting controls the conditions linked to a newly created encounter in the 
 * <strong>Last Enc (No match – all</strong>): the linked conditions on the last known encounter will be linked to this encounter (ranking & status is respected & displayed as was on last known encounter); but if no last encounter is found (patient has no previous encounter) then all the patient's conditions displayed will link to show as "active" status, not as strikethrough.
 * <strong>All Active Conditions:</strong> It shows all the active conditions the patient has as status "active"; regardless of any encounter you ever get into or last encounter. You would "N/A" the ones that are not applicable to today's visit by changing the "status" to N/A for those.
 
-![](encounters-impression-section.images/image5.png)
+![](encounters-impression-section.images/image3.png)
 
 When you are working in encounters, it strikes out the patient's conditions in the listing and has them marked as N/A. All you have to do quickly is then set the status to the ones you want as ACTIVE that pertain to today's visit. It's just a reverse method to quickly mark conditions as active. Otherwise, the patient's conditions are listed as ACTIVE and you'd have to go thru and set a lot of the conditions to N/A status that don't pertain to today's visit. You can determine how you want to view this listing and how you want to set status and if you want to copy in the same status & rankings of the patient's previous encounter and decide between the options available.
 
@@ -66,7 +66,7 @@ When a condition/problem is set as N/A with the [STRIKEOUT:strikethrough] in the
 * <strong>Notes:</strong> Type any notes regarding this specific condition/problem for the patient. Use the other <em>Impression Notes</em> to type notes in general about the assessment.
 * <strong>Rank:</strong> The rank column is where you (the physician) can enter a number and ‘rank' the problems/findings/diagnosis for existing conditions pertaining to today's visit or for new problems that have been entered in the encounter here. Ranking is very important if you interface back to a billing system (ex: Kareo billing system).
 
-![](encounters-impression-section.images/image6.png)
+![](encounters-impression-section.images/image1.png)
 
 Entering a 1 will display/print/list it first that problem in your view and also on the final document, entering a 5 would put it towards the end of the list, etc.  It just allows you to put in order your findings/diagnosis or rank them in importance, etc. Upon next encounter the patient has, this impression section will retain this ordering/ranking also.
 
@@ -74,11 +74,11 @@ If you leave the Rank blank, we default those to rank of 100.  If you leave one
 
 If you don't want to rank any problems more important than another, just simply leave as blank and nothing will change (lists and displays in alphabetical order then since all assume the rank of 100 being left blank).
 
-![](encounters-impression-section.images/image7.png)
+![](encounters-impression-section.images/image5.png)
 
 It will print them on the view/stored document version in the same ranking order you set them to. Ranked ones print first in specified ranking order and any left blank will render last, alphabetically as order ranking "100" of order.
 
-![](https://lh3.googleusercontent.com/lMGLr2t3aTakpJMFyWfV0p-Ak5N4EZiP8eUl6tqZsSPbAqyK4P9TakNcOgekqltqpGFsX9-5z669q_a1T6U_jPiYuuMCwAZ3TbfhL92NFy4SUQo7qP-4gyNSFUgU1QnSWOZbBFOszljLll_Dhg)
+![](encounters-impression-section.images/image6.png)
 
 Ranking can be "remembered" and utilized in future visit encounters by setting the *my settings preference* of **"Impressions Linked as Active"** to one of the 4 middle choices shown in the drop-down of selections. See above "status" section on page 2 for descriptions.
 
@@ -86,7 +86,7 @@ Ranking can be "remembered" and utilized in future visit encounters by setting t
 
 After you have set the status of the patient's current conditions/problems that are listed, you can add any new problems/conditions for today's visit that pertain to the patient using the *problem* auto-complete field. When typing in words/name of a condition, we result most used conditions towards the top of the choices. If typing in a specific ICD9 or ICD10 code (instead of words/name of the condition), we result at the top official ICD code selection and below that other options under snomed coding. Conditions shown in the auto-complete choices as *italics light grey* are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown.
 
-![](https://lh6.googleusercontent.com/yHXlWGYFOE5AN_YZ6-f8GQMW5uljKkHQtvKpiiu014xddMwLqEzKzDDpH9SPgtiz2eqZYvgRWk27WpTV1zKdi93i1vqGHc2Zlyth_iXQQ_w-X2GQ-6y5DgqEbL08W33sTtKwChJ2vkYccsfd3g)
+![](encounters-impression-section.images/image1.png)
 
 When done, click the ADD button and continue to add another problem/condition for the patient pertaining to today's visit. This condition will also be added to the patient's conditions history tab in {{% system-name %}} .
 
@@ -94,7 +94,7 @@ You can have a *duplicate active condition* warning/message turned on for the Im
 
 Contact your MIE Implementer to have this attribute added/turned on for the encounter impression area in the encounter for your practice.
 
-![](https://lh4.googleusercontent.com/uN3o01uk42_QlcgfB3Q8yUxsJzW6dVqroTDxxqlcyWFmvHmPfpb0ZlRAhsSrTLKmdGiSXh6VlGouQMRxPeACv7B_1s7Olzy382Say908B3bs4SrKxnnrQ5DIa1p6mDZ03KsAWcih4ongvsG5ZQ)
+![](encounters-impression-section.images/image7.png)
 
 {{% note %}}
 

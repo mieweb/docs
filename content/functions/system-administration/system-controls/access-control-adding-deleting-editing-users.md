@@ -51,11 +51,11 @@ Click *Access Control* tab at the top
 
 Click the Add User link on the far right side. (To add multiple active users quickly at a time, see other help documentation named [Access Control-Quick Add Multiple Users](access-control-quick-add-multiple-active-users.html))
 
-![](access-control-adding-deleting-editing-users.images/image2.png)
+![](access-control-adding-deleting-editing-users.images/image1.png)
 
 When adding a user, fill out all the fields you can:
 
-![](access-control-adding-deleting-editing-users.images/image3.png)
+![](access-control-adding-deleting-editing-users.images/image2.png)
 
 ### Add User Screen
 
@@ -106,7 +106,7 @@ Check all boxes that this user will be a department of. Make sure you also click
 
 This hyperlink and list does not get rendered at all if the setting "Webchart", "Settings", "Limit users to Provider Organization" is turned off. This is a feature mainly used by our Corporate Health practices. Clicking on the Refresh with the User Patients List link will query the system to render the list.
 
-![](access-control-adding-deleting-editing-users.images/image5.png)
+![](access-control-adding-deleting-editing-users.images/image3.png)
 
 At that time the hyperlink will change to say Show patients Linked to User. When you click this link, then the system will render the list of the patients tied to that user.
 
@@ -114,7 +114,7 @@ At that time the hyperlink will change to say Show patients Linked to User. When
 
 However many patient charts are linked to the user will display in a listedit format. You can add or delete user patient relationships here.
 
-![](access-control-adding-deleting-editing-users.images/image7.png)
+![](access-control-adding-deleting-editing-users.images/image5.png)
 
 Click **Submit Insert or Submit Edit** at the bottom.
 
@@ -146,21 +146,21 @@ This will pop-up any matches to that last name (or first few letters of the last
 
 Once your results produce, click on the underlined username (on the left column) that you want to edit or view. This pops up the summary screen of this user's information. You can view all the information for that user. There is also links in the summary to view when the user's last login failed and when the user last logged in.
 
-![](access-control-adding-deleting-editing-users.images/image9.png)
+![](access-control-adding-deleting-editing-users.images/image7.png)
 
 Below this section of the username screen, it will display what departments the user is a member of, any restrictions, security exceptions, etc.
 
 If you edit an existing user's security role (if you change the security role they are currently set to), when you submit your edit in their username screen, you may see a prompt box. If the user has any existing security role exceptions set, it will prompt if you want to keep their security role exceptions that are set, or if you wish to delete them and set the user to the security role settings that are default to that role you are changing them to.
 
-![](access-control-adding-deleting-editing-users.images/image10.png)
+![](access-control-adding-deleting-editing-users.images/image11.png)
 
 You can also select options at the top of this user's summary.
 
-![](access-control-adding-deleting-editing-users.images/image11.png)
+![](access-control-adding-deleting-editing-users.images/image9.png)
 
 ### Options
 
-![](access-control-adding-deleting-editing-users.images/image12.png)
+![](access-control-adding-deleting-editing-users.images/image10.png)
 
 #### Edit User
 
@@ -190,7 +190,7 @@ If you are deleting a physician who was certified by SureScripts as an electroni
 
 If you have security role permission, this link will appear. You can click this to view the patient's this user has viewed/worked in and view activity using the Audit Log Search fields. See separate instructions titled *Audit Log Search*.
 
-![](https://lh3.googleusercontent.com/TgoOKJ1URFbGbar89gIZhd_se2K5C_eIWHJAkvMVlwjdf82xAyii7ImtPQa9NdJueoaSyIJdWSmvyAkALbql96ZetvH5HshoYno4mPz_qWLCYxe5SolUV8j1Y8cKr3jeClE4zcByrhZcqJw54Q)
+![](access-control-adding-deleting-editing-users.images/image12.png)
 
 #### View User Revisions
 

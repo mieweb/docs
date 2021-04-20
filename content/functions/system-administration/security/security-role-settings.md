@@ -29,7 +29,7 @@ Select the security role that you wish to change security settings for by clicki
 
 
 
-![](security-role-settings.images/image1.png)
+![](security-role-settings.images/image8.png)
 
 
 
@@ -44,7 +44,7 @@ Security setting changes being made to the security role here, affect every user
 {{% /note %}}
 
 
-![](security-role-settings.images/image2.png)
+![](security-role-settings.images/image6.png)
 
 
 
@@ -52,7 +52,7 @@ When finished changing any security settings for the entire role, scroll down to
 
 
 
-![](security-role-settings.images/image3.png)
+![](security-role-settings.images/image1.png)
 
 
 
@@ -70,7 +70,7 @@ Search for the specific user from Access Control using various search methods av
 
 
 
-![](security-role-settings.images/image4.png)
+![](security-role-settings.images/image7.png)
 
 
 
@@ -78,7 +78,7 @@ Once the specific user has been located, click Edit on their user line at the fa
 
 
 
-![](security-role-settings.images/image5.png)
+![](security-role-settings.images/image2.png)
 
 
 
@@ -86,7 +86,7 @@ After clicking Edit, the system takes you to the edit screen of their user detai
 
 
 
-![](security-role-settings.images/image6.png)
+![](security-role-settings.images/image4.png)
 
 
 
@@ -94,7 +94,7 @@ The Individual Security settings screen for that user will open. Select any secu
 
 
 
-![](security-role-settings.images/image7.png)
+![](security-role-settings.images/image3.png)
 
 
 
@@ -521,7 +521,7 @@ When done making changes to security permissions, you must type in a reason for 
 
 
 
-![](security-role-settings.images/image8.png)
+![](security-role-settings.images/image5.png)
 
 
 

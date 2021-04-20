@@ -22,18 +22,18 @@ If your practice manages external providers utilizing our Provider Management mo
 
 The system setting System, External Provider, Use Charts must be enabled (value 1) for the Advanced Search hyperlink to appear while creating an e-order. Your practice must be managing external providers/organizations using the Provider Management module.
 
-![](e-orders-refer-to-advanced-search.images/image2.png)
+![](e-orders-refer-to-advanced-search.images/image3.png)
 
 The specific chart types to be looked at in resulting choices in the Advanced Search must also be set in the system setting System, External Provider, Chart Types.
 
-![](e-orders-refer-to-advanced-search.images/image3.png)
+![](e-orders-refer-to-advanced-search.images/image2.png)
 
 In order for the Advanced Search functionality to result choices, the referable providers/organizations must first have been entered in the Provider Management module. See other help documentation titled *Provider Management.pdf*
 
 ![](e-orders-refer-to-advanced-search.images/image4.png)
 While creating an e-order for the patient (either via the add order module or within a visit encounter), you will see the Advanced Search link next to the **Refer To** auto-complete field.
 
-![](e-orders-refer-to-advanced-search.images/image5.png)
+![](e-orders-refer-to-advanced-search.images/image1.png)
 
 Click Advanced Search to access the library of referable providers/organizations that are stored and managed in your Provider Management module.
 
@@ -48,22 +48,22 @@ The Advanced Search lists/results all chart choices where: 1) The chart type are
 {{% /note %}}
 
 
-![](e-orders-refer-to-advanced-search.images/image7.png)
+![](e-orders-refer-to-advanced-search.images/image5.png)
 While here in the *External Providers* selection screen, you see a grid of all referable providers or provider organizations that are managed in your Provider Management module. A Provider is a ‘Chart' for a provider. A Provider Organization is a ‘Chart' for an Provider Group that can have relationships to Providers. Again, only providers or organizations that are flagged as *referable entities* will display here for selection. If a provider practices at multiple locations, there will be a line item for that provider for *each* address so the user can decide which location to send the patient.
 
 ![](e-orders-refer-to-advanced-search.images/image8.png)
 
 You can utilize the right scroll bar at the bottom of the *External Providers* screen to see more identifying information regarding the referable provider or organization such as language, office hours, address, body parts they treat etc. This result grid can be a customized layout of specific columns/data you wish to result.
 
-![](e-orders-refer-to-advanced-search.images/image9.png)
+![](e-orders-refer-to-advanced-search.images/image7.png)
 
 You can also use the filter feature on any column by clicking the ? icon on any column. You can filter the selections on this screen to perhaps only display to you providers that specialize in a particular language. You can utilize the filter on any column of this grid.
 
-![](e-orders-refer-to-advanced-search.images/image10.png)
+![](e-orders-refer-to-advanced-search.images/image11.png)
 
 You can also drag and drop columns in any order you wish. Perhaps *body part treated* is something always relevant to your selections when referring patients. You may want to drag and drop that column to be after the ‘name' column so you can easily visibly look for selections that way. The system will remember your column order preference.
 
-![](e-orders-refer-to-advanced-search.images/image11.png)
+![](e-orders-refer-to-advanced-search.images/image9.png)
 
 
 
@@ -78,15 +78,15 @@ When you filter or drag/drop a column, the system will remember that for the nex
 
 When ready, click Select next to the provider or organization and their name after verifying the specific location of that provider or organization you wish to select. A provider could work at several locations and the one you select will populate the address details on the order document.
 
-![](e-orders-refer-to-advanced-search.images/image12.png)
+![](e-orders-refer-to-advanced-search.images/image10.png)
 
 It will then populate the name, of the referable entity you selected, into the **Refer To** section of the e-order.
 
-![](e-orders-refer-to-advanced-search.images/image13.png)
+![](e-orders-refer-to-advanced-search.images/image12.png)
 
 You can utilize the auto-complete for the *Refer To* field if you already have memorized referable providers or entities that you commonly refer to and know they are referable entities. You don't always have to click the Advanced Search to be able to select referable entities. When the Advance Search functionality is enabled, this auto-complete in the *Refer To* field behaves the same way. It will result in choices (based on what you type in the auto-complete) of only referable entities or providers from the Provider Management module based on chart types specified in the system setting "Chart Types". *Note: If you do not see addresses next to the provider or organization in the auto-complete choices, contact your MIE Implementer. They will need to program the attribute to show the organizations and addresses a provider is linked to when using the auto-complete. This will help users select the right one as the order printable/faxable document will display that address info.*
 
-![](e-orders-refer-to-advanced-search.images/image14.png)
+![](e-orders-refer-to-advanced-search.images/image13.png)
 When the order(s) have been requested, you will be taken to the order document view. You will see the referable entities details that have been housed using the Provider Management module.
 
 {{% info %}}
@@ -96,4 +96,4 @@ If you do not see the provider or organizations detailed address information, pl
 {{% /info %}}
 
 
-![](https://lh3.googleusercontent.com/8zCCogCm5zqsgq8D2n3dp-RCQs0EprsQ40F68V3QJrm0WM6GaLErT1erobTgwkvtHvYGF7OqlbSl2Xny3jYFCu-zoeLOCI2qWRFlHkM_OQhwRHEAmgDIlY3NzDCpKkUAbOOYaaimDgCZh6DtaQ)
+![](e-orders-refer-to-advanced-search.images/image14.png)

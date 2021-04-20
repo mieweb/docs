@@ -69,28 +69,28 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 * This is the screen that you will see if you attempt to login to Welch Allyn software manually. If you attempted to login this way you will not be successful. You will receive and "Access Denied" pop-up.
 
-![](device-interface-ekg-system.images/image2.png)
-
 ![](device-interface-ekg-system.images/image3.png)
+
+![](device-interface-ekg-system.images/image2.png)
 
 * If this happens you need to change the Username to "Admin" and the password to "Admin" and select login. There may also be another login screen behind the scenes that you will need to input the same Username and Password….Admin, Admin.
 * Refresh your screen in {{% system-name %}} and your Welch Allyn software will open automatically and this screen will appear. Note that the employee information also pulls in automatically. You do not need to enter this information.
 
-![](device-interface-ekg-system.images/image4.png)
+![](device-interface-ekg-system.images/image1.png)
 
-* Select the ![](device-interface-ekg-system.images/image5.png) button at the top of the screen to begin your test.
+* Select the ![](device-interface-ekg-system.images/image4.png) button at the top of the screen to begin your test.
 * EKG should start and show on screen.
 
 ![](device-interface-ekg-system.images/image6.png)
 
-* Observe the screen and Select Record ![](device-interface-ekg-system.images/image7.png) when you are ready.
+* Observe the screen and Select Record ![](device-interface-ekg-system.images/image5.png) when you are ready.
 * Once done recording (10 Seconds) the interpretation should be automatically done. If not, select Tools>Interpretation.
 
 ![](device-interface-ekg-system.images/image8.png)
 
 * Enter the information and select Confirm.
 
-![](device-interface-ekg-system.images/image9.png)
+![](device-interface-ekg-system.images/image7.png)
 
 * The files will transfer/export automatically to a designated folder on your computer.
 
@@ -98,17 +98,17 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 * Scroll to the EKG section of the encounter (or EKG chart tab tool) in {{% system-name %}}
 
-![](device-interface-ekg-system.images/image10.png)
+![](device-interface-ekg-system.images/image11.png)
 * Scroll to the "filebox"
 * Change the smartcard to point to the correct folder.
     * Changing smartcard:
         * Right click on filebox
 
-![](device-interface-ekg-system.images/image11.png)
+![](device-interface-ekg-system.images/image9.png)
 
 * Choose set smartcard folder
 
-![](device-interface-ekg-system.images/image12.png)
+![](device-interface-ekg-system.images/image10.png)
 
 * Choose the correct location of the for files (-LCC EKG Results) and select ok
     * File should populate the filebox
@@ -124,11 +124,11 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
     * Interpretation should populate the textbox.
 * Select the upload button
 
-![](device-interface-ekg-system.images/image13.png)
+![](device-interface-ekg-system.images/image12.png)
 
 * EKG will upload to the Encounter (or EKG chart tab tool)
 
-![](https://lh3.googleusercontent.com/T0qIuLifsGA-4naKgpdHdlL5D0ZbgAkh_O1aCru4nYc4kqCZ4dlj0si5S31Yzmfyh7b0a6kopNjeF6CUGrafTRY8NVPlD85DKWdrijHMCPrzRTNfZWhH3M75Fm3jYQnn6MbeHuj2fA1RVul9nA)
+![](device-interface-ekg-system.images/image13.png)
 
 * When prompted select YES to delete the record as the folder should remain empty and only the current results should be showing.
 * Scroll to bottom of encounter page and choose save to ensure the EKG is saved to that encounter.

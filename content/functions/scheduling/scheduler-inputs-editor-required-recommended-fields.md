@@ -16,16 +16,16 @@ You can set fields to be required or recommended when adding/creating appointmen
 
 You can set which fields your practice would like to be required or simply fields deemed recommended that users fill out when creating/adding appointments using the {{% system-name %}} scheduler. The required/recommended inputs editor in the scheduler differentiates between scheduled appointments and appointments added to the waitlist. Each of those two types of appointments can have its own set of required and recommended inputs.
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image1.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image3.png)
 
 When users are creating/adding appointments in {{% system-name %}} , any of the ADD APPOINTMENT fields can now be set as required or recommended.
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image2.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image7.png)
 
 * <strong>Required</strong> means the field(s) have to have something entered in them before the system will allow you to save and schedule that appointment. No appointments will be put on the scheduler or saved until you click the SAVE button and have any required fields fixed. Appointments cannot be saved if you have required fields that are blank or missing. Resource is a required field system wide and cannot be altered.
 * <strong>Recommended</strong> means the field(s) don't have to have anything entered in them, but you are being alerted that the practice has recommended that the field be filled out if you can gather that information. If you are alerted that a field is recommended, you can still proceed through the alert message and continue to SAVE the appointment without having to have an entry in that recommended field.
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image3.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image6.png)
 
 When you click the SAVE button, if there are any missing fields that your practice has deemed required or recommended, you will get a pop-up warning box indicating what required fields are missing, or what recommended fields your practice would like you to gather.
 
@@ -33,35 +33,35 @@ The required/recommended inputs editor in the scheduler differentiates between s
 
 Appointments to be scheduled w/ specific date/time:
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image4.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image9.png)
 
 Appointments put on Waiting List from add appt screen:
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image5.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image8.png)
 
 Required fields must be fixed before it will allow you to save the appointment. Recommended fields are just alerting you that your practice deems them ‘recommended fields' but you can proceed and continue to save the appointment without having to fill out that field.
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image6.png)![](scheduler-inputs-editor-required-recommended-fields.images/image7.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image5.png)![](scheduler-inputs-editor-required-recommended-fields.images/image1.png)
 
 ## Editing Required/Recommended Fields
 
 You can set which fields your practice would like to be required or simply fields that are recommended that users fill out when creating/adding appointments in {{% system-name %}} scheduler. You must have security rights to System Settings Editor to access this.
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image8.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image3.png)
 
 Go into the sidemenu tab named SCHEDULER. Click the WIZARD tab at the top.
 
 Scroll down to the bottom without entering anything in any fields in the Wizard tab. Under the SAVE button, you will see the link that says **Edit Required/Recommended Inputs**. Click on that link.
 
-![](scheduler-inputs-editor-required-recommended-fields.images/image9.png)
+![](scheduler-inputs-editor-required-recommended-fields.images/image2.png)
 
 The Scheduler Inputs Editor will appear on your screen. Here you choose the radio button for each field that you wish to make required or wish to tag as recommended. Leave as ‘none' if you don't require nor recommended the field(s) need be filled out when users are creating/scheduling patient appointments in {{% system-name %}} . Resource is a system required field and not editable.
 
-![](https://lh5.googleusercontent.com/68RdiMySU_hgxj1jYdwm5KC9ci19k-D__hxKHmvVzP2XB4pNDPqjyQnNVEwn4Cay-vZvypEJpFp_MXALpd-iJ-OYC69t9ONRfCyIsqUQsnrp1vgIx_3LmWIgBxqDYP5PGuk9dVRGlC30wq3QoQ)
+![](scheduler-inputs-editor-required-recommended-fields.images/image3.png)
 
 When done making the radio button selections in the Scheduler Inputs Editor, you **must** type in a reason for the change(s). Then click the SAVE button. Your selections are saved and you can get out of the wizard tab and continue working elsewhere in {{% system-name %}} , or schedule an appointment.
 
 If you are adding/scheduling an appointment using {{% system-name %}} and you click the SAVE button, you will be alerted to any fields that you left missing that are required or recommended. From this alert pop-up message, you can also access the Scheduler Input Editor if you have security rights. You can access and edit or view the system wide required/recommended fields from here while working in an appointment.
 
-![](https://lh5.googleusercontent.com/8tPLOigyaTnUfpwdJlX_ca9aczzYy7pP3oZNa3dh9S-5Y_73SKHLaD0HbKAnm1PVmOtSDZRRsMLWe7ETzznbd2yKElgoF57Y_qQ0oOipgdTLiBk7pRZ5Xc7V_gRJnNMvTpCST3yXSlS9yW4s2w)
+![](scheduler-inputs-editor-required-recommended-fields.images/image4.png)
 
