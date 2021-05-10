@@ -2,7 +2,7 @@
 title: "Patient Education Interface"
 date: "2020-03-19T18:42:55.464Z"
 url: "functions/system-administration/interfaces/patient-education-interface.html"
-version: 35
+version: 37
 id: "1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
 source: "https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
 menu:

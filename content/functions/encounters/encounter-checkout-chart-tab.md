@@ -2,7 +2,7 @@
 title: "Encounter Checkout Chart Tab"
 date: "2020-02-27T19:55:48.946Z"
 url: "functions/encounters/encounter-checkout-chart-tab.html"
-version: 32
+version: 34
 id: "16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc"
 source: "https://drive.google.com/open?id=16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc"
 menu:

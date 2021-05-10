@@ -2,7 +2,7 @@
 title: "SureScripts Advanced - Prescription and Insurance Eligibility Requests"
 date: "2020-02-27T20:07:44.004Z"
 url: "functions/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.html"
-version: 28
+version: 32
 id: "10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg"
 source: "https://drive.google.com/open?id=10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg"
 menu:

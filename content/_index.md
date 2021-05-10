@@ -1,9 +1,9 @@
 ---
 title: "_index"
-date: "2021-04-20T05:34:59.397Z"
+date: "2021-04-25T02:27:29.808Z"
 url: "_index.html"
 author: Doug Horner
-version: 494
+version: 509
 id: "1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 source: "https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0"
 ---
@@ -58,6 +58,8 @@ See an overview and detailed documentation of all our solutions.
 ## [Rapid Install & Deployment](rapid-deployment.html)
 
 The {{% system-name %}} system allows for a non-invasive experience for deploying and implementing a standard product. By using streamlined agendas and a straight-forward project plan, users can get back to basics and feel at ease with their new solution.
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "Device Interface - NDD EasyOne Connect vbase"
 date: "2021-04-12T19:10:33.325Z"
 url: "functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.html"
 author: Kyle Kocks
-version: 101
+version: 103
 id: "1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
 source: "https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
 menu:

@@ -2,7 +2,7 @@
 title: "Quick View - Due List Portlet"
 date: "2020-03-10T16:13:43.615Z"
 url: "functions/e-chart/quick-view-due-list-portlet.html"
-version: 44
+version: 48
 id: "10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE"
 source: "https://drive.google.com/open?id=10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE"
 menu:
