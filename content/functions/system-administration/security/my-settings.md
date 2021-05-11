@@ -3,7 +3,7 @@ title: "My Settings"
 date: "2020-03-10T14:12:00.297Z"
 url: "functions/system-administration/security/my-settings.html"
 author: aquandt
-version: 48
+version: 52
 id: "1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc"
 source: "https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc"
 menu:

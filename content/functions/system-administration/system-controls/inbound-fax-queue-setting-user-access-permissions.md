@@ -2,7 +2,7 @@
 title: "Inbound Fax Queue - Setting User Access Permissions"
 date: "2020-03-16T23:02:34.491Z"
 url: "functions/system-administration/system-controls/inbound-fax-queue-setting-user-access-permissions.html"
-version: 36
+version: 38
 id: "1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM"
 source: "https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM"
 menu:
@@ -30,7 +30,7 @@ Next, you need to customize user security by setting the security permission for
 
 Set these 2 security permissions for that user:
 
-![](https://lh5.googleusercontent.com/IyUV7csgp7bm9lQi3a5rtxUuE6vkiuYxgsVtT9rNflAOGc0DTBEbzA_uC-UbYMJls9NzCPqxzLdXbdJcRQnF3hRO87yiOgQ1FT2mgLU4wMkLONd5BLtjWCf_jHMwvNsCgqOrgbS6HV9hKaZpRw)
+![](inbound-fax-queue-setting-user-access-permissions.images/image3.jpg)
 
 * <strong>Incoming File Queue:</strong>
     * <strong>No Access:</strong> Users cannot access the side-menu tab named Fax Q (cannot access Inbound Fax Queue)

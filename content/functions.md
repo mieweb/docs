@@ -1,9 +1,9 @@
 ---
 title: "Functions"
-date: "2021-04-18T01:17:44.797Z"
+date: "2021-05-10T22:21:45.993Z"
 url: "functions.html"
 author: Doug Horner
-version: 41
+version: 48
 id: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
 source: "https://drive.google.com/open?id=1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
 menu:
@@ -12,9 +12,11 @@ menu:
         identifier: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
         weight: 170
 ---
-## Welcome
+## Functions
 
-Here, users will find a library of information and resources, designed to guide navigation and provide answers to any questions that may arise. Take a moment and peruse our available content. Search by category or function, below, or perform a keyword search for relevant content in the sidebar.
+Functions are functional components of the software that when combined together can be used to build a Program.  The "Functions" are the low level features for {{% system-name %}} and the "Programs" represent the combination of the functions to achieve a specific business purpose.  For example, Document Management is a Function and it is used across many Programs as the foundation of information management.  Another example Function would be EPCS (Electronic Prescribing of Controlled Substances) and would be in Clinical, Behavioral and Occupational Programs.  
+
+
 
 {{% children %}}
 

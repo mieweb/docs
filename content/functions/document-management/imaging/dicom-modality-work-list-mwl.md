@@ -2,7 +2,7 @@
 title: "DICOM Modality Work List (MWL)"
 date: "2020-03-24T15:53:13.829Z"
 url: "functions/document-management/imaging/dicom-modality-work-list-mwl.html"
-version: 39
+version: 41
 id: "1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs"
 source: "https://drive.google.com/open?id=1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs"
 menu:

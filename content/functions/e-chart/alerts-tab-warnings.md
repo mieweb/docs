@@ -3,7 +3,7 @@ title: "Alerts Tab - Warnings"
 date: "2020-02-27T21:12:42.458Z"
 url: "functions/e-chart/alerts-tab-warnings.html"
 author: aquandt
-version: 32
+version: 34
 id: "1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0"
 source: "https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0"
 menu:
@@ -23,7 +23,7 @@ Also, as a separate chart tab in the patient's chart, is a chart tab named ‘Wa
 
 The warnings section also shows in the encounter (point & click) exam. Contact your MIE Implementer if you want it programmed on any encounter.
 
-![](https://lh5.googleusercontent.com/dDFaLImdhFQV68iVZboJ9hCxIwGfIe_8PL4fkYYHZtSMfkik64BKUo-ooFtTF9sJIueXGHYFU_kmHJ3GU1aeClfDDgcfwZIxcva-qRHc62Zk8dARivSsvhPPKIwxSwfI4SDhuHMZxJ48Kc20zg)
+![](alerts-tab-warnings.images/image2.jpg)
 
 Drug interaction warnings and Allergy warnings will also appear in E-Meds module when adding an allergy/intolerance or prescribing a med, or in the patient's medication history. {{% system-name %}} can generate a warning stating contraindications and duplicate therapies, so we encourage entering allergies for patients and current meds the patient is taking.
 
@@ -63,7 +63,7 @@ If you wish to dismiss it, you would do the following steps (if you have securit
 
 Usually, the Physician has been set with security rights to dismiss all levels.  The physician can dismiss the warning for that specific patient only.  Or the physician can dismiss the specific warning for all patients via him or all users.
 
-![](https://lh3.googleusercontent.com/e8gRoDB4_-jGMZyDTwAuMggnnhtfkvgGs5UjKgWS3YXMNPtuWgWjsd8zfyVD2Z5_3FjeG9caCAcp6M14C0nH5gt-bp_D3QSG-OsjJsrnbW_ybpZnMlJB99QeSBeC4kK5CUX1ZpJuq7S0wChcDg)
+![](alerts-tab-warnings.images/image8.jpg)
 
 Usually, the nurses have been set with security rights to dismiss warnings only for that specific patient only (doesn't affect all other patients).
 
@@ -91,11 +91,11 @@ Dismissing Guideline alerts/warnings on a patient's chart are different than dis
 
 Click the Dismiss if you wish to dismiss the guideline alert for a patient for any reason.
 
-![](https://lh4.googleusercontent.com/YnU8QWJTGkr5ajCCAoIWUdWCQwcxGKbmADGdC_u8sW7P63zvSMD2kP9tsU6tJ0m1uJIqgLmQ9pCFSpw_d5cyIFVGE1mm7cu8w4QpXP0jGU-kAW0FzZhheUoHAsyaFQSelFZmV0xHsYBR-hBObQ)
+![](alerts-tab-warnings.images/image9.jpg)
 
 You then have to type in a reason for dismissing (make sure you are dismissing for only that patient and not all patients w/ that guideline warning/alert).
 
-![](https://lh6.googleusercontent.com/CLsglZobE5c8Sh5PtzvEPHm_LWuNKagcYNquKOiyo9OGYX7ChC5MDNObpEOcL3JgxAF3yI4Oad1zJP-JUtBwiqPX0KfY1gVPN7iJK7OG09RlwG-mCfriHJ12wL-NHWhqBTJk7RZ3okYJPQ4S1A)
+![](alerts-tab-warnings.images/image10.jpg)
 
 Resume Warning: Enter a date you want the Warning to reappear on the patient's chart. This warning will reappear on the day selected/entered. The date is when you want the alert dismissed until.  So the alert will not display again until the date that is entered. Blank means never. Leaving this date blank and submitting the dismissal will mean the warning will never reappear for this patient.
 

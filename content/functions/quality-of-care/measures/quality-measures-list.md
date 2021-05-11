@@ -3,7 +3,7 @@ title: "Quality Measures List"
 date: "2020-02-27T21:26:45.248Z"
 url: "functions/quality-of-care/measures/quality-measures-list.html"
 author: aquandt
-version: 16
+version: 18
 id: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
 source: "https://drive.google.com/open?id=14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
 menu:

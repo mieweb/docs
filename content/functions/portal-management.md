@@ -1,9 +1,9 @@
 ---
 title: "Portal Management"
-date: "2020-02-27T21:26:54.695Z"
+date: "2021-04-27T18:15:34.584Z"
 url: "functions/portal-management.html"
-author: aquandt
-version: 26
+author: Doug Horner
+version: 39
 id: "1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
 source: "https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94"
 menu:
@@ -85,7 +85,7 @@ The Kiosk is a portal integration designed with limited functionality and immedi
 
 
 
-
+## Website
 
 
 

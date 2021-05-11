@@ -3,7 +3,7 @@ title: "Patient Portal First-Time Setup & Configuration"
 date: "2021-03-30T13:46:32.498Z"
 url: "functions/portal-management/patient-portal-first-time-setup-and-configuration.html"
 author: Dawn Case
-version: 383
+version: 385
 id: "1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc"
 source: "https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc"
 menu:

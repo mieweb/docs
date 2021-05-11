@@ -3,7 +3,7 @@ title: "Adding alert comments to employer organizations"
 date: "2021-02-17T22:23:31.889Z"
 url: "functions/financial-functionality/adding-alert-comments-to-employer-organizations.html"
 author: egrzetich
-version: 18
+version: 20
 id: "1vV9ZAwk3eHys6SHAKLCBXPZpgiiuyilqQHifr7OEPkk"
 source: "https://drive.google.com/open?id=1vV9ZAwk3eHys6SHAKLCBXPZpgiiuyilqQHifr7OEPkk"
 ---
