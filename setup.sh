@@ -9,7 +9,7 @@ then
   # brew update node hugo
 elif [[ "$OSTYPE" == "msys" ]]
 then
-  echo "unsuported"
+  echo "unsupported"
 elif [[ "$OSTYPE" == "linux-gnu" ]]
   if [[ -e apt ]]
   then
