@@ -14,10 +14,10 @@ jobs:
 
     # Build the HTML versions of the md using hugo
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml'
+      run: hugo --config 'config-wc.toml --baseURL https://docs.webchartnow.com/'
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml'
+      run: hugo --config 'config-eh.toml --baseURL https://docs.enterprisehealth.com/'
 
     # Maintaining file permissions and case sensitive files
     # If file permissions and case sensitivity are required, you can tar all of your files together 
@@ -34,7 +34,7 @@ jobs:
 
     - name: 'Deploy built documentation to production folder'
       run: |
-        rsync -ruva --progress public deploy@wc-docs.med-web.com:/www/docrootssl/docs
+        rsync -ruva public deploy@wc-docs.med-web.com:/www/docrootssl/docs
 
     - name: Rocket.Chat Notification
       uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@master
