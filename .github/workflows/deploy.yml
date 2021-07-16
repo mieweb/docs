@@ -14,10 +14,10 @@ jobs:
 
     # Build the HTML versions of the md using hugo
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml --baseURL https://docs.webchartnow.com/'
+      run: hugo --config 'config-wc.toml' --baseURL https://docs.webchartnow.com/
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml --baseURL https://docs.enterprisehealth.com/'
+      run: hugo --config 'config-eh.toml' --baseURL https://docs.enterprisehealth.com/
 
     # Maintaining file permissions and case sensitive files
     # If file permissions and case sensitivity are required, you can tar all of your files together 
