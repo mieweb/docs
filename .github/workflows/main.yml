@@ -27,6 +27,9 @@ jobs:
     - name: Build Enterprise Health HTML
       run: hugo --config 'config-eh.toml'
 
+    - name: 'Deploy built documentation to www folder on docs-qa'
+      run: rsync -ruva public /www/mie-docs/
+
     - name: Rocket.Chat Notification
       uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@master
       if: always()
