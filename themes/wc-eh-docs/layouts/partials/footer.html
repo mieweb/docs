@@ -5,7 +5,8 @@
 
 
 <div class="fixed-bottom p-2 bg-dark text-light">{{ $.Site.Title }} Documentation <br>Last Build:
-  {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</div>
+  {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}  <a href="{{ replace $.Site.BaseURL "docs" "docs-legacy" }}">Legacy Documentation</a>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
