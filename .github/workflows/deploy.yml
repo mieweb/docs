@@ -1,0 +1,50 @@
+name: Deploy to Production
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: [ self-hosted, docsqa ]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # Build the HTML versions of the md using hugo
+    - name: Build WebChart HTML
+      run: hugo --config 'config-wc.toml'
+
+    - name: Build Enterprise Health HTML
+      run: hugo --config 'config-eh.toml'
+
+    # Maintaining file permissions and case sensitive files
+    # If file permissions and case sensitivity are required, you can tar all of your files together 
+    # before artifact upload. Post download, the tar file will maintain file permissions and case sensitivity.
+    # https://github.com/actions/upload-artifact#maintaining-file-permissions-and-case-sensitive-files
+    - name: 'Tar Documentation'
+      run: tar -cvf documentation-static.tar public
+
+    # Upload to GHE
+    - uses: actions/upload-artifact@v2
+      with:
+        name: documentation-static
+        path: documentation-static.tar
+
+    - name: 'Deploy built documentation to production folder'
+      run: |
+        rsync -ruva --progress public deploy@wc-docs.med-web.com:/www/docrootssl/docs
+
+    - name: Rocket.Chat Notification
+      uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@master
+      if: always()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Publish to Production*'
+        mention: 'here'
+        channel: '#miedocs'
+        url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
+        # We should enable this once we figure out why this doesn't work.
+        # commit: true
+        # token: ${{ secrets.GHE_TOKEN }}

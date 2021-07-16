@@ -55,4 +55,18 @@ jobs:
       
     - name: run Hugo for Enterprise Health
       run: hugo --config 'config-eh.toml'
+
+    - name: Rocket.Chat Notification
+      uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@master
+      if: always()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Fetch Google Changes*'
+        mention: 'here'
+        mention_if: 'failure'
+        channel: '#miedocs'
+        url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
+        # We should enable this once we figure out why this doesn't work.
+        # commit: true
+        # token: ${{ secrets.GHE_TOKEN }}
       
