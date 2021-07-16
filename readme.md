@@ -47,7 +47,7 @@ From your terminal, clone this repository:
 git lfs clone https://github.mieweb.com/webchart/docs.git
 # -- OR --
 # for SSH key
-git lfs clone git@github.mieweb.com:aquandt/mie-docs.git
+git lfs clone git@github.mieweb.com:webchart/docs.git
 ```
 Then run the setup script:
 ```bash
@@ -65,7 +65,7 @@ During the installation, you will reach a screen with a checkbox for installing 
 
 Once you have Chocolatey installed, open Git Bash (run as administrator), clone this repository:
 ```bash
-git lfs clone https://github.mieweb.com/aquandt/mie-docs.git
+git lfs clone https://github.mieweb.com/webchart/docs.git
 ```
 Then run the setup script:
 ```bash
