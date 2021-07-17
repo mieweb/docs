@@ -12,6 +12,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: LFS pull
+      run: git lfs pull
+      
     # Build the HTML versions of the md using hugo
     - name: Build WebChart HTML
       run: hugo --config 'config-wc.toml' --baseURL https://docs.webchartnow.com/
