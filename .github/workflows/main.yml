@@ -38,7 +38,7 @@ jobs:
       run: hugo --config 'config-eh.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh"
 
     - name: Build index.html
-      run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1><br />Build triggered by ${{github.actor}}<hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
+      run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.mieweb.com/webchart/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
 
     - name: 'Deploy built documentation to www folder on docs-qa'
       run: rsync -ruva public/ "/www/mie-docs/public/${{ steps.extract_branch.outputs.branch }}/"
@@ -48,7 +48,7 @@ jobs:
       if: always()
       with:
         type: ${{ job.status }}
-        job_name: '*CI* https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
+        job_name: '*CI* @${{github.actor}}, https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
         channel: '#miedocs'
         url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
         # We should enable this once we figure out why this doesn't work.
@@ -65,3 +65,4 @@ jobs:
             repo: context.repo.repo,
             body: '👋 @${{github.actor}}, Your documentation has been pushed to https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
           })
+      if: github.ref != 'refs/heads/master'

@@ -19,19 +19,6 @@ jobs:
     - name: Build Enterprise Health HTML
       run: hugo --config 'config-eh.toml' --baseURL https://docs.enterprisehealth.com/
 
-    # Maintaining file permissions and case sensitive files
-    # If file permissions and case sensitivity are required, you can tar all of your files together 
-    # before artifact upload. Post download, the tar file will maintain file permissions and case sensitivity.
-    # https://github.com/actions/upload-artifact#maintaining-file-permissions-and-case-sensitive-files
-    - name: 'Tar Documentation'
-      run: tar -cvf documentation-static.tar public
-
-    # Upload to GHE
-    - uses: actions/upload-artifact@v2
-      with:
-        name: documentation-static
-        path: documentation-static.tar
-
     - name: 'Deploy built documentation to production folder'
       run: |
         rsync -ruva public deploy@wc-docs.med-web.com:/www/docrootssl/docs
