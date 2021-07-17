@@ -20,26 +20,48 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      with:
+        token: ${{ github.token }}
+      
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(git branch --remote --verbose --no-abbrev --contains | sed -rne 's/^[^\/]*\/([^\ ]+).*$/\1/p' | sed 's@/@-@')"
+      id: extract_branch
 
+    - name: LFS fetch
+      run: git lfs fetch
+      
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml'
+      run: hugo --config 'config-wc.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc"
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml'
+      run: hugo --config 'config-eh.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh"
+
+    - name: Build index.html
+      run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1><br />Build triggered by ${{github.actor}}<hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
 
     - name: 'Deploy built documentation to www folder on docs-qa'
-      run: rsync -ruva public /www/mie-docs/
-
+      run: rsync -ruva public/ "/www/mie-docs/public/${{ steps.extract_branch.outputs.branch }}/"
+  
     - name: Rocket.Chat Notification
       uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@master
       if: always()
       with:
         type: ${{ job.status }}
-        job_name: '*CI*'
-        mention: 'here'
-        mention_if: 'failure'
+        job_name: '*CI* https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
         channel: '#miedocs'
         url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
         # We should enable this once we figure out why this doesn't work.
         # commit: true
         # token: ${{ secrets.GHE_TOKEN }}
+
+    - name: comment PR
+      uses: actions/github-script@master
+      with:
+        script: |
+          github.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '👋 @${{github.actor}}, Your documentation has been pushed to https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
+          })
