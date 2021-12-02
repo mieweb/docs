@@ -2,7 +2,7 @@
 title: "CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented"
 date: "2020-02-27T20:56:58.522Z"
 url: "functions/quality-of-care/measures/quality-measures-list/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.html"
-version: 13
+version: 15
 id: "1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y"
 source: "https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y"
 menu:

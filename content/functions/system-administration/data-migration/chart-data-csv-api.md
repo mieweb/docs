@@ -3,7 +3,7 @@ title: "Chart Data CSV API"
 date: "2020-02-27T21:28:33.488Z"
 url: "functions/system-administration/data-migration/chart-data-csv-api.html"
 author: aquandt
-version: 18
+version: 20
 id: "1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs"
 source: "https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs"
 menu:

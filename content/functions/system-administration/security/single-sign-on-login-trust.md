@@ -3,7 +3,7 @@ title: "Single Sign-On Login Trust"
 date: "2020-02-27T21:22:18.806Z"
 url: "functions/system-administration/security/single-sign-on-login-trust.html"
 author: aquandt
-version: 28
+version: 30
 id: "1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM"
 source: "https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM"
 menu:

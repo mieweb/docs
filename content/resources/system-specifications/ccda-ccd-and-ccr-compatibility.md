@@ -10,7 +10,7 @@ menu:
         name: "CCDA, CCD and CCR Compatibility"
         identifier: "1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA"
         parent: "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU"
-        weight: 6260
+        weight: 6270
 ---
 ## Comparison Grid
 

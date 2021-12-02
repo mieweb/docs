@@ -2,7 +2,7 @@
 title: "Fee Schedule Import Tool"
 date: "2020-02-27T20:46:06.612Z"
 url: "functions/system-administration/data-migration/fee-schedule-import-tool.html"
-version: 13
+version: 15
 id: "1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0"
 source: "https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0"
 menu:

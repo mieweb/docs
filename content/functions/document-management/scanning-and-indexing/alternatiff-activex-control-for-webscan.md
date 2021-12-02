@@ -2,7 +2,7 @@
 title: "AlternaTIFF ActiveX Control for WebScan"
 date: "2020-03-06T22:10:54.540Z"
 url: "functions/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.html"
-version: 34
+version: 39
 id: "1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA"
 source: "https://drive.google.com/open?id=1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA"
 menu:
@@ -27,7 +27,7 @@ These instructions are for users on a Windows 10 operating system. Users must ha
 
 1. When prompted, click <strong>Install</strong>, or allow installation of the necessary components for the WebScan functionality. Depending on device and browser, the website will trigger an alert and request that notifies the user of the pending installation.
 
-![](https://lh4.googleusercontent.com/HHkZlk9Iy0vnXziJ1CQpvqyMs3DZF8ob5gItdorlGe23DO4q08e4wy97zXPIohD5pEh7_ovoMy_hYYbQA4vmi_JGb-H8R5K0Pklt9uS4Grcd_21-eIk2tEm0B3EXCKojZ8wqhhBXgH0m3qclsA)
+![](alternatiff-activex-control-for-webscan.images/image5.jpg)
 
 2. When prompted with, <strong>Do you want to allow this app to make changes to your device?</strong>, click <strong>Yes</strong>. This message will display twice, and the user will need to select Yes for both messages. These messages are designed to ask permission to make changes to the device, in order to install necessary components.
 
@@ -40,16 +40,16 @@ To add a Trusted Site in Internet Explorer:
 1. Open <strong>Internet Options</strong> and click the <strong>Security</strong> tab.
 2. Within the Trusted Sites zone, click the <strong>Sites</strong> Button.
 
-![](https://lh4.googleusercontent.com/l2vXIAm4gv56l2DjjG78K8XKhDTw8kXOb5PqFKpsWaFozATp9_342Zog9yeSAoZQDcpwuGU9Bbf7llkoRg88ZOMvUB4LTQ6pnR91eM-rBnoSO5WvVjOMvoFDZbBz_H0dww_DlGFZxBQuHn6OMA)
+![](alternatiff-activex-control-for-webscan.images/image3.jpg)
 
 3. Add the URL to the Trusted Sites field, and click the <strong>Add</strong> button.
 
-![](https://lh3.googleusercontent.com/e8bEoFP50qn5sJWw_FO_hQE_zGPgRV-hQjXG44yj2f5woIX914QwJL7MnAy4lBH1Cjt3a7xlkiqL6bsOZcU41NywHl9P1vv-M-6X_1JVIFjgmg9nlP1zfGP8PueZUVl0n8E32tforp9LucHRjQ)
+![](alternatiff-activex-control-for-webscan.images/image4.jpg)
 
 4. Click the <strong>Close</strong> button.
 5. Set the security level for this zone to <strong>Low</strong>.
 
-![](https://lh4.googleusercontent.com/009HtrUrWDziigeueUVmkSKMxOcjUxumc7bSFIyT1Altz4ro52wG4PuH6NNnsLrTvcpKj6x30Zr98Rak-VzYR6DDbfNJul7WOTeBYaSjWDPXLfNRGwCnoMNVPUNvfkKDy7AIzlh0T8kI1xcBPg)
+![](alternatiff-activex-control-for-webscan.images/image1.jpg)
 
 6. Select the <strong>Apply</strong> button, and then click <strong>OK</strong> to finish.
 

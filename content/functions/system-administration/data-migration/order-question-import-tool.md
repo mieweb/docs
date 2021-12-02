@@ -1,8 +1,9 @@
 ---
 title: "Order Question Import Tool"
-date: "2020-02-27T20:45:58.797Z"
+date: "2021-10-29T16:01:13.157Z"
 url: "functions/system-administration/data-migration/order-question-import-tool.html"
-version: 15
+author: Kate Barton
+version: 27
 id: "1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c"
 source: "https://drive.google.com/open?id=1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c"
 menu:
@@ -16,12 +17,12 @@ This wiki page is to document how Order Questions (AOE) data needs to be constru
 
 * File format: Data file shall be formatted in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
-* Each subsequent row shall represent an fee schedule.
+* Each subsequent row shall represent an order question.
 * The Order Type is specified on the upload file form. Each item in the list will be imported to the order item that matches with the specified type.
 
 ## Column Definition
 
-The order question column definition shall contain all columns listed below regardless if their is a value or not.
+The order question column definition shall contain all columns listed below regardless if there is a value or not.
 
 * R = Required
 * O = Optional
@@ -73,7 +74,7 @@ The order question column definition shall contain all columns listed below rega
 
 ## Examples of CSV
 
-### Fee Schedule Example
+### Order Question<strong> Example</strong>
 
 This example shows how to import multiple order questions (AOE) into 1 order item with code 'LAB5725'.
 
@@ -92,5 +93,5 @@ This example shows how to import multiple order questions (AOE) into 1 order ite
 
 Here is a sample CSV file to download and view in a text editor or a spreadsheet program.
 
-File:Order questions.csv
+File:[Order questions.csv](../interfaces/order-questions.csv.bin)
 

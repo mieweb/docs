@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - Welch Allyn Spirometry"
         identifier: "1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5520
+        weight: 5530
 ---
 The following is referring to a Welch Allyn CardioPerfect spirometry system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 

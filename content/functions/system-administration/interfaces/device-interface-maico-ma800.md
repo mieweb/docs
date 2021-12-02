@@ -11,7 +11,7 @@ menu:
         name: "Device Interface - Maico MA800"
         identifier: "1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5530
+        weight: 5540
 ---
 This page provides instructions for retrieving results from the Teleaccoustics Maico MA800 audiometer with Enterprise Health (EH), and lists the fields that the interface retrieves.
 

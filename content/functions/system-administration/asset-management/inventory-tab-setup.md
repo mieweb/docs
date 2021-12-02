@@ -3,7 +3,7 @@ title: "Inventory Tab Setup"
 date: "2020-02-27T20:31:20.847Z"
 url: "functions/system-administration/asset-management/inventory-tab-setup.html"
 author: aquandt
-version: 28
+version: 32
 id: "1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs"
 source: "https://drive.google.com/open?id=1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Inventory Tab Setup"
         identifier: "1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5660
+        weight: 5670
 ---
 Using the "Control" tab in the Inventory module is the first step to getting your inventory module set up. This is where you key in to tell the system any and all inventory items that you will want to track. This isn't where you add quantity or tell the system specific lot's, quantity, etc. This is just keying in a name of an item that you want shown on inventory reports, to users to dispense inventory for, etc.
 

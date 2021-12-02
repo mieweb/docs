@@ -2,7 +2,7 @@
 title: "Introducing TeleHealth"
 date: "2020-03-31T16:54:54.418Z"
 url: "functions/encounters/telehealth/introducing-telehealth.html"
-version: 61
+version: 81
 id: "1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4"
 source: "https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4"
 ---
@@ -124,11 +124,11 @@ source: "https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWv
 
 ### Provider
 
-![](https://lh3.googleusercontent.com/IwvwxT2o-tQuYlUXBVxAgoOQYBpRfwgyBwSdAmfEOiRdmVwAfPd_jJSICkctMqtgFOi_pVyr5pCknkn3IKL08UeYoAcU_GmLDNEpzMEEH0aEqRGBh7M0-gb5wiJPiYLqZzrpVR2hwCGbbVlUXg)
+![](introducing-telehealth.images/image7.jpg)
 
 
 
-![](https://lh3.googleusercontent.com/u2vZ6yYXJfyXh8Xj2pC4wV42FNFg_OROIzyO4pGplCetKtMZ5TwYozAdFRwXozzYAVC6qJOF636993gNnyHrt_O_emYoHlcpAH5jwn0lozmAZWLLluWdDwNhRkhGYqWdfnwC8sQaKaCbOmkWzQ)
+![](introducing-telehealth.images/image1.jpg)
 
 
 

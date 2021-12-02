@@ -2,7 +2,7 @@
 title: "Working Inbound Fax Queue & Distributing Incoming Faxes"
 date: "2020-03-09T16:19:40.525Z"
 url: "functions/document-management/scanning-and-indexing/working-inbound-fax-queue-and-distributing-incoming-faxes.html"
-version: 72
+version: 80
 id: "1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8"
 source: "https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8"
 menu:

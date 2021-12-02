@@ -1,8 +1,9 @@
 ---
 title: "Chart Tabs"
-date: "2020-03-20T20:26:51.158Z"
+date: "2021-07-22T14:52:57.002Z"
 url: "functions/system-configuration/chart-tabs.html"
-version: 95
+author: Bridget Hamm
+version: 108
 id: "1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk"
 source: "https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk"
 menu:

@@ -3,7 +3,7 @@ title: "Alerts, Errors, Failures - Interactive Tab"
 date: "2020-02-27T21:12:37.185Z"
 url: "functions/e-chart/alerts-errors-failures-interactive-tab.html"
 author: aquandt
-version: 52
+version: 57
 id: "121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc"
 source: "https://drive.google.com/open?id=121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc"
 menu:
@@ -63,7 +63,7 @@ We recommend keeping the ‘alerts' module in 1 column view because if you set i
 ![](alerts-errors-failures-interactive-tab.images/image17.png)
 When you are in the Alerts/Errors screen, you can click on the *Manage Information* link in any specific alert category you want to work. The *Manage Information* icon is the pencil/paper icon at the top right of each category. You can also use the other icons to collapse the category, move them around to a different display order, or delete the category from your view.
 
-![](https://lh4.googleusercontent.com/0P6CU8oQNpv1JCi3vmyoJksjYNyKA_TrBjq1nvcmcsgdIrhtQ5PIXqdQqNQB9GI0ijvCZYUknAy2PgiE_kvG8HOU47GIMrToGXwxb2bZZyeXo1aEpCauYqSMOxm4rwVeDmuIw8bgkWNPEvFddw)
+![](alerts-errors-failures-interactive-tab.images/image21.jpg)
 
 To change your alert/errors preferences, there is a link provided from the screen that you can click and change your preferences quickly from this page. Click the Preferences link found at the top right corner of the Alerts/Errors screen.
 
@@ -141,7 +141,7 @@ This is where you can then see routes in progress, pending routes, completed rou
 
 There is a security option for MIE/Tech support named "Break Sending Lock" option for Routes marked as ‘Sending' in the DataSend Queue. This feature allows the unlocking of any ‘stuck' route which has been stuck for more than an hour. Users wishing to have this ability will need the new E-Chart permission: "Unlock Sending Routes". In the case of a coding error, routes can become ‘stuck' in the ‘In Progress' status. This new option allows MIE/Tech support (intended audience) to retry these stuck routes without reverting to a backend tool.
 
-![](https://lh6.googleusercontent.com/4Ns9jQVwSYJy0l7T8KPe5dUNF6lTtafkJpuuc29WqrToPTS-h-gD-q9ZmC4Kc1LTKBc02tY4y3Fs2xDgb-XGHzxZKDjqUqJMniN6_YOfnonj2st9ZLHzWw0G-XTc1MZoFkOb9uQ1xRlKIb6wAg)
+![](alerts-errors-failures-interactive-tab.images/image6.jpg)
 
 If you click the Failed Auto-Send Items link from the Quick View tab, it will also take you to the Data Send Queue.
 
@@ -151,7 +151,7 @@ If you click the Failed Auto-Send Items link from the Quick View tab, it will al
 
 If you have no pending alerts for yourself or system wide (depending on your preference setting), then the category will show the message NO PENDING ALERTS for that category on your screen view in the alerts/errors page.
 
-![](https://lh5.googleusercontent.com/8LNjxKrQZo0oqh6l92vyojFw9S-W6mx_4sjB8U7dOdeLqQcLKpqet9AME6Lbq_YcKEUZSGuNR0-hRNuXLGB8jwC1G37ybcGI1PcGujKFrDHGEmJQlTZEaGt5-VhZ1hmbeXX3Bg86GogvUtiJQw)
+![](alerts-errors-failures-interactive-tab.images/image8.jpg)
 
 However the Quick View alerts section will not show the category or link if there are no pending failed items to work on in that category. It will only display the failed job type category link and the number count if there are any pending errors for that failed alert category according to your preference setting.
 

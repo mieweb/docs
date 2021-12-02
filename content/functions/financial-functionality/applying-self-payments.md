@@ -3,7 +3,7 @@ title: "Applying self payments"
 date: "2021-02-17T22:48:31.800Z"
 url: "functions/financial-functionality/applying-self-payments.html"
 author: egrzetich
-version: 14
+version: 16
 id: "1B7Df4vCyxBjC_iv5DUyiHU8fdRWlxsjp5OTx-D0W6YY"
 source: "https://drive.google.com/open?id=1B7Df4vCyxBjC_iv5DUyiHU8fdRWlxsjp5OTx-D0W6YY"
 ---

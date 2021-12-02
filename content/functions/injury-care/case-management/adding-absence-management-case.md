@@ -1,9 +1,9 @@
 ---
 title: "Adding Absence Management Case"
-date: "2020-03-09T23:02:39.211Z"
+date: "2021-09-30T18:35:29.344Z"
 url: "functions/injury-care/case-management/adding-absence-management-case.html"
-author: aquandt
-version: 30
+author: Alice Uhrick
+version: 128
 id: "1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY"
 source: "https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY"
 menu:

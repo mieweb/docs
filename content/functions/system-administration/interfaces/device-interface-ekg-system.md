@@ -2,7 +2,7 @@
 title: "Device Interface - EKG System"
 date: "2020-02-27T20:28:15.111Z"
 url: "functions/system-administration/interfaces/device-interface-ekg-system.html"
-version: 30
+version: 34
 id: "1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs"
 source: "https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - EKG System"
         identifier: "1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5460
+        weight: 5470
 ---
 This document describes the interface between {{% system-name %}} and the Welch Allyn EKG Monitoring system known as CardioPerfect. {{% system-name %}} can interface with other models of devices, so please contact Help Desk for verification and quote for the interface.
 

@@ -2,7 +2,7 @@
 title: "Encounters Tab - Search and List View"
 date: "2020-03-13T14:28:03.179Z"
 url: "functions/encounters/encounters-tab-search-and-list-view.html"
-version: 54
+version: 56
 id: "1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A"
 source: "https://drive.google.com/open?id=1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A"
 menu:
@@ -82,7 +82,7 @@ Depending on what your practice has set up and what security privileges you are 
 * <strong>Add Physician:</strong> You can add a physician and select their user role and also can link them to the patient from here. You can add users on the encounter.  What we usually do is have the CC section on the bottom of the encounter exams.  On the encounter exams we usually only allow you 1 role, like referring physicians. But from here you save encounter users by using the "Add Physician" link on the encounter options.
 * <strong>Create CCD Document:</strong> If the encounter shows this link, you can create a CCD document (Continuity of Care Document). CCD is a different XML format that is supported by some EMR/PHR systems (instead of CCR).  We are able to communicate between {{% system-name %}} systems as well with CCD, but normally as a default use CCR in those various send methods. If you Create CCD Document from here, it will open up the specially formatted XML version of their medical record in a separate window. The user can then choose to save it or on to a media device for the patient, or whatever they may choose.
 
-![](https://lh4.googleusercontent.com/D0JRSMSXP225kbru3CZn-H2c2ie2pvmulSsE2bvQgYdgIl4l9zjIcjVkVnu75FVsbIWKEvHzTBv_YdrR6tEzx3OHOzjg2cZJINm1XF9SK2mUTmLyLhwbQCR5Hh2t-1l-U2j-h54-CA2gqGZ9fA)
+![](encounters-tab-search-and-list-view.images/image11.jpg)
 
 The create ccd document link/feature can be turned off. The system setting to turn this off is:
 

@@ -2,7 +2,7 @@
 title: "Signature Pad Device"
 date: "2020-02-27T20:26:18.438Z"
 url: "functions/system-administration/interfaces/signature-pad-device.html"
-version: 18
+version: 43
 id: "1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo"
 source: "https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Signature Pad Device"
         identifier: "1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5550
+        weight: 5560
 ---
 In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and you should install the CD prior to using. We recommend the Topaz Signature Pad Device.
 
@@ -30,7 +30,7 @@ Click the START SIGNATURE button and the patient would sign the signature pad us
 
 This is an example of what the uploaded and stored document would look like, along with the electronic signature and date/time stamp on the document.
 
-![](https://lh4.googleusercontent.com/3FDr09HBhIaAnvMRMJvYTihHWC7H1xpeZQ4ylqUvk_cer15PDVQ2OtK9_bb-vWgA02-UyoRy66JN-4vWpBSyFRPiyXbhXAxRImLyOLYV_F9mMrg7S_xLPOvTwPnMqxsjvLjFP9dOUn7zb_VatQ)
+![](signature-pad-device.images/image2.jpg)
 
 Signature pad devices can also be used in conjunction with the mass immunization record tab. See other help documentation named *Mass Immunization Record Tab.pdf*.
 

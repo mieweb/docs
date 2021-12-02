@@ -2,7 +2,7 @@
 title: "BE 22 - Improved Practices that Engage Patients Pre-Visit"
 date: "2020-02-27T20:50:21.588Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-22-improved-practices-that-engage-patients-pre-visit.html"
-version: 12
+version: 13
 id: "1yVBGdT51nvzRmsylsXBldpcgyjMxG0sh7exJe59wXzk"
 source: "https://drive.google.com/open?id=1yVBGdT51nvzRmsylsXBldpcgyjMxG0sh7exJe59wXzk"
 menu:

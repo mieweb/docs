@@ -2,7 +2,7 @@
 title: "Inventory Mappings"
 date: "2020-02-27T20:31:50.550Z"
 url: "functions/system-administration/asset-management/inventory-mappings.html"
-version: 36
+version: 38
 id: "1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos"
 source: "https://drive.google.com/open?id=1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Inventory Mappings"
         identifier: "1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5680
+        weight: 5690
 ---
 ## After you have added a new inventory item into your inventory in the Master Inventory List/Control tab, you then map it in the Mappings tab.
 

@@ -2,7 +2,7 @@
 title: "Printing Documents"
 date: "2020-03-24T15:02:35.364Z"
 url: "functions/document-management/printing-and-print-definitions/printing-documents.html"
-version: 34
+version: 36
 id: "1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q"
 source: "https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q"
 menu:

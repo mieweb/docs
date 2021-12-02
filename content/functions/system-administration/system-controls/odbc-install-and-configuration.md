@@ -2,7 +2,7 @@
 title: "ODBC Install & Configuration"
 date: "2020-03-16T23:23:27.283Z"
 url: "functions/system-administration/system-controls/odbc-install-and-configuration.html"
-version: 44
+version: 51
 id: "10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk"
 source: "https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk"
 menu:

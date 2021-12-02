@@ -2,7 +2,7 @@
 title: "Patient Summary - Interactive Chart Tab"
 date: "2020-02-27T19:47:07.178Z"
 url: "functions/e-chart/patient-summary-interactive-chart-tab.html"
-version: 33
+version: 38
 id: "1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk"
 source: "https://drive.google.com/open?id=1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk"
 menu:
@@ -108,7 +108,7 @@ When you initially view this tab (new to this tab), all your portlets in this ta
 
 On the portlets on the left column that you want to move to the right 2^nd column—simply click your mouse on the ‘move' button (screen shot below) and **don't** let go of the mouse click—you have to **hold and drag**.  So, click on the move button—hold the mouse down and the category (portlet) will turn red border and then drag it with your mouse (while still holding down on the click) and drag it to the right side.
 
-![](https://lh6.googleusercontent.com/gcZQVkZKuTyYdrD5D-zHeGNxJWz-tloSZdTxOZ-gL0Ix_3K6gVwmFrq6A9AcJ6LcrYC30m3rPt-aGTxAxCmtq45NaeMTRM6GBgko-2pr212fQBOkwEHCUOu-HGUABl2Uqg91foj_Vfduj0kGAg)
+![](patient-summary-interactive-chart-tab.images/image16.jpg)
 
 When a portlet is not configured correctly, the alert no longer shows. It will simply not be moveable.
 

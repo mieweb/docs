@@ -1,8 +1,9 @@
 ---
 title: "Employer Portal Setup"
-date: "2020-03-10T20:42:30.772Z"
+date: "2021-08-27T18:32:47.675Z"
 url: "functions/portal-management/employer-portal-setup.html"
-version: 62
+author: Aris Eracleous
+version: 102
 id: "1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs"
 source: "https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs"
 menu:

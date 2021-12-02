@@ -2,7 +2,7 @@
 title: "Viewing Restrictions and Accommodations"
 date: "2020-03-13T11:46:45.933Z"
 url: "functions/injury-care/viewing-restrictions-and-accommodations.html"
-version: 43
+version: 45
 id: "1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A"
 source: "https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A"
 menu:

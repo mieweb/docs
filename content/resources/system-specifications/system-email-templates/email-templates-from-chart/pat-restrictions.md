@@ -11,7 +11,7 @@ menu:
         name: "Pat Restrictions"
         identifier: "1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk"
         parent: "1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ"
-        weight: 6470
+        weight: 6480
 ---
 
 

@@ -2,7 +2,7 @@
 title: "PSPA 12 - Participation in Private Payer CPIA"
 date: "2020-02-27T20:54:24.739Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-12-participation-in-private-payer-cpia.html"
-version: 12
+version: 13
 id: "1qZAll0fRZQMFeKgOasa5Ll1ft_IAuJSVG37psolEk58"
 source: "https://drive.google.com/open?id=1qZAll0fRZQMFeKgOasa5Ll1ft_IAuJSVG37psolEk58"
 menu:

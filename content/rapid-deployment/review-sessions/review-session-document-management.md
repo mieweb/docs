@@ -3,7 +3,7 @@ title: "Review Session - Document Management"
 date: "2020-02-27T21:24:36.161Z"
 url: "rapid-deployment/review-sessions/review-session-document-management.html"
 author: aquandt
-version: 16
+version: 20
 id: "1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ"
 source: "https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - Document Management"
         identifier: "1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 5990
+        weight: 6000
 ---
 ## Agenda
 

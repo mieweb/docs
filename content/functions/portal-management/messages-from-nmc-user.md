@@ -112,7 +112,7 @@ You can individually select the routes to perform an option. Once you have the r
 
 There is a security option for MIE/Tech support named "Break Sending Lock" option for Routes marked as ‘Sending' in the DataSend Queue. This feature allows the unlocking of any ‘stuck' route which has been stuck for more than an hour. Users wishing to have this ability will need the new E-Chart permission: "Unlock Sending Routes". In the case of a coding error, routes can become ‘stuck' in the ‘In Progress' status. This new option allows MIE/Tech support (intended audience) to retry these stuck routes without reverting to a backend tool.
 
-![](https://lh5.googleusercontent.com/ZyQSlv25MurEqMW7qgt4JSA1esazaig1buj6CO_Wnmn61GElp5h77nNdHW_k1Enbky7KuCi2rVKf1ou1hGW-pMjxEILqZW99E_ze3wjC2QxX1JEpJOi8NsFt8Nn91QU4HrkllL2fx85RuqltDg)
+![](messages-from-nmc-user.images/image33.jpg)
 
 ## Alert Toolbar
 
@@ -203,13 +203,13 @@ Once you have sent the patient summary to the NMC user from {{% system-name %}} 
 
 You will see confirmation and you will see a link that says *Click here to view the local CCR document*.  You don't need to click it—but if you want to see what was in it—click that link and you're taken to the CCR document you just sent them.
 
-![](https://lh3.googleusercontent.com/j2R-4e85BjtL6m2_u5xDBryUBIfya2uDX-DlViIfx7VtdkxJJsSnTrLar6o13iN7AWmbkzYY81i9OOUJLTp2onthjOBeR6Jk1Gw_hu4Ui4RCmU2oeEWBo_4CRDUVNb7YX5MFsp1heZrzWu-KjQ)
+![](messages-from-nmc-user.images/image8.jpg)
 
 Once you click the POST TO NMC or SEND TO NMC button from anywhere—the CCR document you sent to that patient via NMC is stored as doc.type {{% sys-name %}} CCR and is found in your doc.sum tab **and** NMC Documents tab.   Then you can access from there to see who/when/how many times a CCR was sent to that patient and track or see when.
 
 If you want to see **if** the CCR went to the NMC patient *successfully* or not, you can see that from the SEND QUEUE side menu tab as always, or you can see it by going to the specific patient's chart, find the CCR you pushed, go to properties and down in the **Current Routes** section you'll see complete or error and hover your mouse over for more details.
 
-![](https://lh5.googleusercontent.com/heRRLO-Ke_8dy6cywCvyi7l0CIOHLhAK9kZmIAxpoJ4BU57s5hvoqDeqba7NbOdd8q33n-LN8I7Q0OEiP1W5-uc63R6jVOR8qSNzklQ7FXnvW-rvNNkzH3GmU0kW0QMt4bjyrBZ-TpQtuXXQgA)
+![](messages-from-nmc-user.images/image9.jpg)
 
 The practice can control what data is sent in a CCR from {{% system-name %}} . Your MIE Implementer can set up a CCR Sharing flowsheet in the observations tab. You can specify which observations you wish to have in the CCR's. The other things that are automatically sent in a CCR from {{% system-name %}} are Demographics, Meds, Allergies, Conditions, Procedures, Family History, Immunizations/Injections and the observations you specify in a CCR Sharing flowsheet. If no CCR Sharing flowsheet is set up, then any and all observations from that patient's chart and/or encounter would be in the CCR. Most practices are set up with a CCR Sharing flowsheet restricting the observations to only the minimal ones that Meaningful Use requires, but the CCR Sharing flowsheet gives the practice the control on what is shared. Also your system can be set to not send a patient's SSN through the CCR. System setting "CCR", "Content", "Include Social Security Number" allows you to turn off including the SSN in CCRs created in your system, if value is set to 0.
 
@@ -227,7 +227,7 @@ When a {{% system-name %}} user clicks the button POST (PATIENT SUMMARY) TO NMC 
 
 Once you have sent the patient summary to the NMC user from {{% system-name %}} using that button, it will tell you the document number and a message that it was uploaded successfully into the NMC user's account. If the patient doesn't have an NMC account yet, it will provide you with the member pickup code that you can give to the patient. They would then log into NoMoreClipboard, create an account and use that member pickup code. Once the promo code is picked up (patient creates a NMC account) then the promo code is removed. Any future pushes would not return a promo code, just the confirmation that the document was posted to NoMoreClipboard. The NMC# is not known to the {{% system-name %}} system until the NMC patient sends something back to the {{% system-name %}} system. This is why you still see the message "*a NoMoreClipboard.com account is not linked to this patient"*, but you are not getting a promo code back either.
 
-![](https://lh5.googleusercontent.com/BkhhOzwwbvhZC3x_5IbKWwKHlOw3dFPPvrtSIc73MiwiifI1r2naWg3IQqdylXvSEEXw-3qQH0WeUhcioNh_TyB1mIHdpeEsT-4MS8JuzaQqn4BQgLRyY6yUxqmCuv7dFiViIGWRu33XR7_eSQ)
+![](messages-from-nmc-user.images/image18.jpg)
 
 ##### How Portal Users Receive Patient Summary (CCR)
 

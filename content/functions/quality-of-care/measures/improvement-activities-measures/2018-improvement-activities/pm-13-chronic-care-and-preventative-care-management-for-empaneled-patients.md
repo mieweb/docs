@@ -2,7 +2,7 @@
 title: "PM 13 - Chronic Care and Preventative Care Management for Empaneled Patients"
 date: "2020-02-27T20:53:15.828Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-13-chronic-care-and-preventative-care-management-for-empaneled-patients.html"
-version: 12
+version: 13
 id: "1le-_NZkzK_bBYchn7v2WUcRYosryUgpLDBeyHlh_Ays"
 source: "https://drive.google.com/open?id=1le-_NZkzK_bBYchn7v2WUcRYosryUgpLDBeyHlh_Ays"
 menu:

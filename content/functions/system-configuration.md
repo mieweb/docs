@@ -2,7 +2,7 @@
 title: "System Configuration"
 date: "2020-02-27T19:31:27.327Z"
 url: "functions/system-configuration.html"
-version: 20
+version: 25
 id: "1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw"
 source: "https://drive.google.com/open?id=1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw"
 menu:

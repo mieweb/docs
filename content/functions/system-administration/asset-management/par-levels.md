@@ -10,7 +10,7 @@ menu:
         name: "Par Levels"
         identifier: "13k9nhRuRl5D_RWT3l9VE64JqMfF-jl1KQuvCda69nGo"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5700
+        weight: 5710
 ---
 In order to view or edit Par Levels, the user must have security permission level for *Manage Stock Warning Levels* set.
 

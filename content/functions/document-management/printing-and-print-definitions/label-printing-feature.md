@@ -2,7 +2,7 @@
 title: "Label Printing Feature"
 date: "2020-03-24T15:23:57.818Z"
 url: "functions/document-management/printing-and-print-definitions/label-printing-feature.html"
-version: 54
+version: 60
 id: "1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10"
 source: "https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10"
 menu:

@@ -11,7 +11,7 @@ menu:
         name: "Patient Registration & Document Management"
         identifier: "1i-O15wMVtd1z-_3p7cFpA9pTPSVWtSHotxi2wKwJXek"
         parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5850
+        weight: 5860
 ---
 ## Purpose
 

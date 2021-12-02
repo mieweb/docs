@@ -2,7 +2,7 @@
 title: "Quick View Sidemenu"
 date: "2020-03-09T21:01:07.216Z"
 url: "functions/e-chart/quick-view-sidemenu.html"
-version: 43
+version: 44
 id: "1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY"
 source: "https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY"
 menu:

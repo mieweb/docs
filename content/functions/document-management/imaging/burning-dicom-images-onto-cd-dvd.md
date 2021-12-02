@@ -2,7 +2,7 @@
 title: "Burning DICOM Images onto CD/DVD"
 date: "2020-03-09T21:03:47.916Z"
 url: "functions/document-management/imaging/burning-dicom-images-onto-cd-dvd.html"
-version: 45
+version: 47
 id: "1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw"
 source: "https://drive.google.com/open?id=1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw"
 menu:

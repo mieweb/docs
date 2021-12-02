@@ -2,7 +2,7 @@
 title: "CMS 68 - Documentation of Current Medications in the Medical Record"
 date: "2020-02-27T20:57:06.580Z"
 url: "functions/quality-of-care/measures/quality-measures-list/cms-68-documentation-of-current-medications-in-the-medical-record.html"
-version: 13
+version: 27
 id: "1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0"
 source: "https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0"
 menu:

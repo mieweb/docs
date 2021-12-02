@@ -2,7 +2,7 @@
 title: "Fax Manager Tab - Outbound Faxing"
 date: "2020-03-16T16:24:34.438Z"
 url: "functions/fax-manager/fax-manager-tab-outbound-faxing.html"
-version: 33
+version: 36
 id: "1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk"
 source: "https://drive.google.com/open?id=1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk"
 menu:

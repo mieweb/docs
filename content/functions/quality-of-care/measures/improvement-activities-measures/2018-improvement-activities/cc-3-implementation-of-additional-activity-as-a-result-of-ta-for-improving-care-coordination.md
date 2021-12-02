@@ -2,7 +2,7 @@
 title: "CC 3 - Implementation of Additional Activity as a Result of TA for Improving Care Coordination"
 date: "2020-02-27T20:52:08.742Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-3-implementation-of-additional-activity-as-a-result-of-ta-for-improving-care-coordination.html"
-version: 12
+version: 13
 id: "1bXd20Ves-0hwzHgddksCkf4yFocJoo4PRoQ6nO45u6c"
 source: "https://drive.google.com/open?id=1bXd20Ves-0hwzHgddksCkf4yFocJoo4PRoQ6nO45u6c"
 menu:

@@ -41,7 +41,7 @@ Click the SET button to set this state/county/plan information for the patient.
 
 Click the clear button if you made a mistake and it will erase all fields to start over.
 
-![](https://lh4.googleusercontent.com/-ZgPghXFiW5MygHnRbe7PCsulMsOWexRrANHApv4sRGRFGjJPKI2VZW3kaURBBQBd5KZ5jokz-2RdYGvBCZxNrGga_ljADxL385fQPdQTPPJE2BQVN0atwOAJPvsPx8sFTBA-Bl89kHcBFF1-A)
+![](drug-plan-and-formularies.images/image5.jpg)
 
 Once you've clicked SET, the Medicare drug plan including CMS#, along with (state/county) information is stored for the patient in their Meds tab.
 
@@ -77,7 +77,7 @@ Type in the name of the medication you are prescribing and the system will auto-
 
 After you have selected a medication, tab to the *Form* field which is next. If the medication is covered under the Medicare drug plan, the form will be bolded in blue along with the tier that they fall into will be displayed. These are forms of the medication that are covered under that patient's drug plan. Lower tiers (ex: Tier 1) are generic and usually cheaper. Some plans have up to 7 tiers.
 
-![](https://lh3.googleusercontent.com/qq0cUuxn5NRJX_HUeTceuhd54v0R-D8vVmInrKeDs3rAaNGeCC5plUhBRmfnXP59uLCHxTzhtJP8PiseupmSXAh3wMb7EFTyzDJXPixp05rqTq1kaEJmZGaN09UHd3cjI3FMOzg3LIqiJDhmsQ)
+![](drug-plan-and-formularies.images/image12.jpg)
 
 After you've selected a covered form with tier info on it (which is bold blue choices with Tier listed on it), you can tab to the next field and continue to fill out your prescription.
 

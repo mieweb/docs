@@ -2,7 +2,7 @@
 title: "Encounters Impression Section"
 date: "2020-03-13T14:24:55.091Z"
 url: "functions/encounters/encounters-impression-section.html"
-version: 36
+version: 40
 id: "1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ"
 source: "https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ"
 menu:

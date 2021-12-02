@@ -2,7 +2,7 @@
 title: "Pat FMLA Med Cert Missing Info"
 date: "2020-02-27T20:38:30.242Z"
 url: "resources/system-specifications/system-email-templates/email-templates-from-chart/pat-fmla-med-cert-missing-info.html"
-version: 13
+version: 14
 id: "16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug"
 source: "https://drive.google.com/open?id=16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Pat FMLA Med Cert Missing Info"
         identifier: "16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug"
         parent: "1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ"
-        weight: 6370
+        weight: 6380
 ---
 
 

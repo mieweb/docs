@@ -3,7 +3,7 @@ title: "Review Session - Health Surveillance"
 date: "2020-02-27T21:25:22.522Z"
 url: "rapid-deployment/review-sessions/review-session-health-surveillance.html"
 author: aquandt
-version: 19
+version: 23
 id: "1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
 source: "https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - Health Surveillance"
         identifier: "1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6070
+        weight: 6080
 ---
 ## Agenda
 

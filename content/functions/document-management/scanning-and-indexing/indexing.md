@@ -2,7 +2,7 @@
 title: "Indexing"
 date: "2020-03-24T12:57:54.562Z"
 url: "functions/document-management/scanning-and-indexing/indexing.html"
-version: 91
+version: 94
 id: "1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8"
 source: "https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8"
 menu:

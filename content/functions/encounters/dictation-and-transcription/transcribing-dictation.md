@@ -2,7 +2,7 @@
 title: "Transcribing Dictation"
 date: "2020-03-13T11:15:15.186Z"
 url: "functions/encounters/dictation-and-transcription/transcribing-dictation.html"
-version: 53
+version: 59
 id: "1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg"
 source: "https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg"
 menu:

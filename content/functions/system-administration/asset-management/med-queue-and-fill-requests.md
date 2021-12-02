@@ -10,7 +10,7 @@ menu:
         name: "Med Queue and Fill Requests"
         identifier: "157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5690
+        weight: 5700
 ---
 A prescription in {{% system-name %}} must be ‘signified' to be filled in-house (via medication inventory) in order for the Fill Request to be triggered to staff. A Fill Request is triggered via a task and into the Med Queue worklist. To trigger a Fill Request from the patient's Medications/Allergies chart tab or via the Prescribe link or Refill link, the Prescriber must put a date in the Fill Script date field and then note patient is ‘in office' or ‘phone' for the Fill Request. The prescriber would enter the date to fill this script on and then select the radio button if the patient is in the office and waiting on the medications, or if the patient called in and needs medications filled but was on the phone (lower priority than patient's waiting in office for fills).
 

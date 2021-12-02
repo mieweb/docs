@@ -2,7 +2,7 @@
 title: "Setting Up E-Prescribers"
 date: "2020-02-27T20:18:05.494Z"
 url: "functions/system-administration/system-controls/setting-up-e-prescribers.html"
-version: 42
+version: 47
 id: "12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw"
 source: "https://drive.google.com/open?id=12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw"
 menu:
@@ -33,7 +33,7 @@ You can only enter the valid DEA & NPI numbers. No other labels or other text ca
 
 NPI and DEA numbers both have specific numbers of numerals and alpha characters which we call a ‘checksum'. If a DEA or NPI number entered doesn't have that amount of numerals or characters, it will give you an error message to check that number you entered.
 
-![](https://lh4.googleusercontent.com/Mnjt0UcZ_exiuIhW6pJKoILEq_Q-hmJbSSiPBpr2uDW86dawF0bhl09_BGHDgEIbHBGvygiIEYG47Qu4-94pqhrvr6zUBAC3-9M2ygikA3x0ZyWkbpVbH23RmbcfwL9r2kW7CjOpWSwWai_7Vw)
+![](setting-up-e-prescribers.images/image2.jpg)
 
 When you have all the required fields entered and the appropriate electronic prescriber boxes checked, click the SUBMIT EDIT button for that user's information or SUBMIT INSERT button if it's a new user you are setting up.
 

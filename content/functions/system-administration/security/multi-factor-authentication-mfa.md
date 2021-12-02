@@ -3,9 +3,15 @@ title: "Multi-Factor Authentication MFA"
 date: "2021-07-16T20:36:51.028Z"
 url: "functions/system-administration/security/multi-factor-authentication-mfa.html"
 author: Doug Horner
-version: 7
+version: 10
 id: "1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE"
 source: "https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE"
+menu:
+    main:
+        name: "Multi-Factor Authentication MFA"
+        identifier: "1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE"
+        parent: "15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY"
+        weight: 5300
 ---
 # Multi-Factor Authentication
 
@@ -30,7 +36,7 @@ WebChart EHR supports two options for the second factor password:
 
 
 * Time-based
-* Counter-based
+* Counter-based  
 
 
 
@@ -39,3 +45,4 @@ MIE strongly recommends a time-based password; however, a counter-based password
 ## General Set Up
 
 Once MFA is enabled for a system, each user can be configured from their Edit User page.  Setup is completed most easily on a device that has 2D barcode scanning capability by following the prompts in WebChart and on your device; however, setup can also be completed with a device that does not support barcode scanning.
+

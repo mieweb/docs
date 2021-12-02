@@ -2,14 +2,14 @@
 title: "Rapid Deployment"
 date: "2020-02-27T20:32:31.821Z"
 url: "rapid-deployment.html"
-version: 25
+version: 32
 id: "1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o"
 source: "https://drive.google.com/open?id=1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o"
 menu:
     main:
         name: "Rapid Deployment"
         identifier: "1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o"
-        weight: 5740
+        weight: 5750
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Working in a Visit Encounter"
 date: "2020-03-26T17:19:46.927Z"
 url: "functions/encounters/working-in-a-visit-encounter.html"
-version: 99
+version: 119
 id: "1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M"
 source: "https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M"
 menu:

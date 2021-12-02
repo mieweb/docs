@@ -24,7 +24,7 @@ If user(s) have security permission to allow .csv data import, then the user(s) 
 
 
 
-![](https://lh4.googleusercontent.com/RPkdmOEvJMmMbfsJn2UqgU3JEKw1j2YKhyQVNObw3G1pIqL72-p_qXx1PnPc-jcW0gTmWcyAb0dJyvWIA8KMobpxxU9Naca9m-PDp2sCCos2sQ1V7WHHY51ppOEbvBSLW-NY4ug-vwm3fBNRkg)
+![](lost-time-import-tool.images/image3.jpg)
 
 
 
@@ -32,7 +32,7 @@ If your system does not have a Data Import tab, please contact your MIE Implemen
 
 
 
-![](https://lh6.googleusercontent.com/pzD0dIV-nYb9Dxh5bECy2sqHsMlgWAnL53-KMAGG-sr4NvLz_5fXEwEonbZZsbEv9mZIrz--ZMW0cQmsvzAGZwmvmM2dvw-s_LzTvOT2HWWpWJNdExz3Yhglxwo-iHgJhNIb0f_uDi_wmz1C5w)
+![](lost-time-import-tool.images/image2.jpg)
 
 
 

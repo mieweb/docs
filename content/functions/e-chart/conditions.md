@@ -1,8 +1,9 @@
 ---
 title: "Conditions"
-date: "2020-02-27T19:45:25.898Z"
+date: "2021-08-30T12:28:44.539Z"
 url: "functions/e-chart/conditions.html"
-version: 51
+author: Sara Riecke
+version: 62
 id: "1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0"
 source: "https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0"
 menu:
@@ -215,5 +216,5 @@ The Search link will take you out to Healthwise.net in a separate window to take
 
 If you click View Links for any condition, it will open up display the encounters that the given condition is linked to and all the items/documents that are linked to those encounters (in reverse chronological order). Deleted items will not show up in the list.
 
-![](https://lh5.googleusercontent.com/6ayBsUxQ3C0Z56ZvEOgJc48E7wBEVVzfMaZ3JVBmg453I87QKuBoTGcA4EKhqmeZ75ZzjaJDDmHFPfv_WmDVIHTIb8gYoh9OIwBIiZnUcgIViLU7UWYqX0xvq0U5XkoafQshoZwA-Ya7erjILQ)
+![](conditions.images/image8.jpg)
 

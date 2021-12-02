@@ -1,9 +1,9 @@
 ---
 title: "Interface Specifications"
-date: "2021-06-23T18:06:25.023Z"
+date: "2021-11-29T16:44:52.171Z"
 url: "resources/system-specifications/interface-specifications.html"
 author: Bridget Hamm
-version: 213
+version: 392
 id: "1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4"
 source: "https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Interface Specifications"
         identifier: "1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4"
         parent: "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU"
-        weight: 6250
+        weight: 6260
 ---
 
 
@@ -46,8 +46,6 @@ Please see the list below for a complete listing of all vendors/devices that we 
 
 
 {{% toc %}}
-
-## 
 
 ## Billing/Practice Management Interfaces
 
@@ -102,7 +100,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Audiometer - Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.html)
 * Audiometer - Xeta Otometrics (no model # on device)
 * Audiometer - [OMI Audiometric Data Management Software ASW2004 & ASW2210](https://confluence.mieweb.com/display/DOCS10/OMI+Audiometric)
-* Audiometer - [Tremetrics RA300, RA400, RA500, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500.html)
+* Audiometer - [Tremetrics RA300, RA400, RA500, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.html)
 * Audiometer - Tremetrics RA300/RA500 Audiometer Device
 * Audiometer - Tremetrics RA660 Audiometer Device
 * Barcode Inventory scanner - DATALOGIC ES46080 QuickScan 6000; Class # 668112-014001-0000
@@ -111,7 +109,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Card Swipe Reader - OmniReader card reader: WCR3237-633U - 3 track mag stripe reader and visible bar code reader with USB/Kybd interface
 * Cell-Dyn Emerald LIS
 * Cholestech LDX Analyzer p/n 412 00008
-* Clinitek Status by Seimens - analyzer that reads urine dipsticks
+* Clinitek Status by Siemens - analyzer that reads urine dipsticks
 * Coulter AcT series hematology analyzer
 * [Dymo LabelWriter](https://docs.google.com/document/d/1NoA7PT68mtnbrKJdD9MzmkWqLXv8lMLw/edit) - model 300, 330, 400 and 450 Turbo
 * ECG/EKG - Esaote 3/12 Channel ECG Unit P8000
@@ -138,7 +136,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Tremetrics RA660 Audiometer Device
 * X-Ray image import from a CD or option of DICOM interface
 * Vision - [Titmus i500](https://confluence.mieweb.com/display/DOCS10/Titmus+i500)
-* Vision - VT1
+* Vision - Depisteo VT1
 * Vital Signs Monitoring - [Welch Allyn Spot Vital Signs Monitor - Welch 4200B-E1](http://www.ariamedical.com/welch-4200b-e1.htmlWelch Allyn - Spot Vital Signs Monitor)
 * Vital Signs Monitoring - Welch Allyn Spot Vital Signs LXi (USB connection)
 * [Vital Signs Monitoring - Welch Allyn Vital signs 300 Series](http://www.welchallyn.com/documents/Patient%20Monitoring/Continuous%20Monitoring/Vital%20Signs%20Monitor%20300%20Series/SM2615EU%20RevD%20072808%20VSM300%20Sales.pdf)
@@ -195,14 +193,14 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * California CAIR unidirectional (bidirectional is possible, but no clients have requested)
 * Florida Shots (unidirectional nightly FTP to send matching injections)
 * Georgia GRITS uni-directional HL7 via HTTPS
-* Hawaii HIR bi-directional 
+* Hawaii HIR uni-directional 
 * Idaho thru Scientific Technologies Corp (STC)
 * Illinois I-Care (bi-directional via sFTP)
 * [Indiana Children's Healthcare Immunization Registry Program (CHIRP) bi-directional HL7 via HTTPS](https://miewiki.med-web.com/wiki/images/3/3c/DTT_Specification_Guide_v2.8.2.pdf)
 * Kansas
 * Louisiana thru Scientific Technologies Corp (STC)
 * Maryland MDHD Crisp Immunization or ImmuNet
-* [Massachusetts Immunization Information System](https://www.contactmiis.info) via HTTPS
+* [Massachusetts Immunization Information System](https://www.contactmiis.info) (MIIS) via HTTPS
 * Michigan Care Improvement Registry (MCIR) Immunization Registry (uni-directional HL7 via HTTPS)
 * Mississippi thru Scientific Technologies Corp (STC)
 * Missouri Immunization Registry
@@ -237,6 +235,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 
 ## [HR Systems](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)
 
+* ADP
 * Concentra HR
 * GDW
 * Kronos
@@ -248,6 +247,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * SHRM (LLNL)
 * Spillman
 * Stanford Registry
+* Ultipro
 * Workday
 
 {{% anchor sys="lab_system_interfaces" %}}
@@ -357,4 +357,5 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Brentwood
 * Disney CARS (a Disney system)
 * [Liberty Mutual](https://confluence.mieweb.com/display/DOCS10/Workers'+Compensation+Interface)
+* Sedgewick in progress
 * Zurich

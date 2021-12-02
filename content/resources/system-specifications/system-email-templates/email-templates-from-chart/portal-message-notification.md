@@ -10,7 +10,7 @@ menu:
         name: "Portal Message Notification"
         identifier: "13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg"
         parent: "1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ"
-        weight: 6510
+        weight: 6520
 ---
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 

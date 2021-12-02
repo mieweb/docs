@@ -1,8 +1,9 @@
 ---
 title: "CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan"
-date: "2020-02-27T20:56:53.906Z"
+date: "2021-06-18T14:33:45.022Z"
 url: "functions/quality-of-care/measures/quality-measures-list/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.html"
-version: 13
+author: Nicole Richardson
+version: 56
 id: "1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c"
 source: "https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c"
 menu:
@@ -12,25 +13,33 @@ menu:
         parent: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
         weight: 3770
 ---
-[CMS2v6](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS2&showresult=CMS2v6&showresulttype=Measure) (2017)
-
-[CMS2v7](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS2&showresult=CMS2v7&showresulttype=Measure) (2018)
+## Overview
 
 [CMS2v8](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS2&showresult=CMS2v8&showresulttype=Measure) (2019)
 
+[CMS2v9](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v9&showresulttype=Measure&module=&tabmodule=&searchterm=CMS2) (2020)
+
+[CMS2v10](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v10&showresulttype=Measure&module=&tabmodule=&searchterm=CMS2) (2021)
 
 
-**Description**:  Percentage of patients aged 12 years and older screened for depression on the date of the encounter using an age appropriate standardized depression screening tool AND if positive, a follow-up plan is documented on the date of the positive screen.
 
-**Initial Patient Population**:  All patients aged 12 years and older before the beginning of the measurement period with at least one eligible encounter during the measurement period.
+**Description**:  Percentage of patients aged 12 years and older screened for depression on the date of the encounter or up to 14 days prior to the date of the encounter using an age-appropriate standardized depression screening tool AND if positive, a follow-up plan is documented on the date of the eligible encounter.
+
+**Initial Patient Population**:  All patients aged 12 years and older at the beginning of the measurement period with at least one eligible encounter during the measurement period.
 
 **Denominator**:  Equals Initial Population.
 
-**Numerator**: Patients screened for depression on the date of the encounter using an age appropriate standardized tool AND if positive, a follow-up plan is documented on the date of the positive screen.
+**Numerator**: Patients screened for depression on the date of the encounter or up to 14 days prior to the date of the encounter using an age-appropriate standardized tool AND if positive, a follow-up plan is documented on the date of the eligible encounter.
 
 **Inverse Measure**:  No
 
 ## Clinical Instructions
+
+### New UI Visit Encounter
+
+1. 
+
+### Original Visit Encounter
 
 Ensure all 12+ year-old patients are screened for depression before the beginning of the measurement period with at least one eligible encounter. Use the Test and Procedures section of the encounter to order and perform the depression screening. Any patient with a positive screening requires a follow-up plan be documented during the current encounter.  In addition, an adult or adolescent depression screening document with an appropriate LOINC code will also be counted.  Perform the following steps to document a depression screening in the Tests and Procedures section of the Visit encounter:
 
@@ -119,5 +128,5 @@ Ensure all 12+ year-old patients are screened for depression before the beginnin
 
 ## Source(s)
 
-[Medical Codify](https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS2&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet)
+[eCQI CMS2](https://ecqi.healthit.gov/ecqm/ep/2021/cms002v10)
 

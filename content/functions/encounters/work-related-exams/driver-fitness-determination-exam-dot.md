@@ -2,7 +2,7 @@
 title: "Driver Fitness Determination Exam (DOT)"
 date: "2020-03-12T20:38:19.609Z"
 url: "functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.html"
-version: 68
+version: 75
 id: "1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA"
 source: "https://drive.google.com/open?id=1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA"
 menu:

@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - Audio: Tremetrics/Maico"
         identifier: "1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5420
+        weight: 5430
 ---
 The following is referring to a Tremetrics RA500 or Maico MA800 audiogram system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 

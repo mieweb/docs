@@ -2,7 +2,7 @@
 title: "Data Import Tab"
 date: "2020-03-17T03:04:04.539Z"
 url: "functions/system-administration/data-migration/data-import-tab.html"
-version: 50
+version: 57
 id: "1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y"
 source: "https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y"
 menu:
@@ -24,7 +24,7 @@ If user(s) have security permission to allow .csv data import, then the user(s) 
 
 
 
-![](https://lh3.googleusercontent.com/POZhPnjGzyzUVeHC2erXGvk5ASi0RqfwKPkQmAWQm6Jpl_e9omd0SAnYMF4q2cZh6qQIqvRk3_YEm-3h_ME3g7e1uyL7na7dkAzfGZB6YtcRjyOfZj3bwmLy0XX9lRSaXOdn_LRwPxdhOM-GXw)
+![](data-import-tab.images/image4.jpg)
 
 
 
@@ -32,7 +32,7 @@ If your system does not have a Data Import tab, please contact your MIE Implemen
 
 
 
-![](https://lh6.googleusercontent.com/-TPnVJ2Led5TCZjQT69tDg2OKCNv4cBbjz7YA8N33oCNLCasem_swi4sEWxDdcg0c4gHmiLVj7GZNt-I5pDXERNvDMMglYmX9vDZmc4JjmyEalbqNxnJUNjELQekMZIEUKjMROpwt56p0vExKw)
+![](data-import-tab.images/image3.jpg)
 
 
 

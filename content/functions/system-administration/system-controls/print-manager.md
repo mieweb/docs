@@ -2,7 +2,7 @@
 title: "Print Manager"
 date: "2020-03-16T22:51:33.990Z"
 url: "functions/system-administration/system-controls/print-manager.html"
-version: 30
+version: 31
 id: "1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0"
 source: "https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0"
 menu:

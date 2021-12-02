@@ -11,7 +11,7 @@ menu:
         name: "Injury Care & Case Mgmt"
         identifier: "1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ"
         parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5830
+        weight: 5840
 ---
 ## Purpose
 

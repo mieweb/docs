@@ -2,7 +2,7 @@
 title: "Installing MIE Device App"
 date: "2020-02-27T21:06:51.908Z"
 url: "functions/system-administration/interfaces/installing-mie-device-app.html"
-version: 38
+version: 46
 id: "1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE"
 source: "https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Installing MIE Device App"
         identifier: "1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5590
+        weight: 5600
 ---
 There are required applications that may be needed for some programs, as well as certain functionality within the {{% system-name %}} system. The following instructions intend to assist users in installing the **MIE Device App** and the **MIE SSL App**. 
 

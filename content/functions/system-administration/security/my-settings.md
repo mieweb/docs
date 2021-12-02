@@ -1,9 +1,9 @@
 ---
 title: "My Settings"
-date: "2020-03-10T14:12:00.297Z"
+date: "2021-11-16T14:59:23.891Z"
 url: "functions/system-administration/security/my-settings.html"
-author: aquandt
-version: 52
+author: Sara Riecke
+version: 89
 id: "1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc"
 source: "https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc"
 menu:
@@ -133,7 +133,9 @@ When looking at preference choices available in the drop-down:
 * Warn if exiting without submit:  Choose On or Off.  On means the system will pop up a warning box (dialog box) if you are trying to exit (close) a program/module/document, etc before saving any changes or edits. You can then go back to that document/module/program and save/submit any changes, etc or continue to get out and lose any changes/edits you made. Off means you will not get this warning box and if you exit a program, module or document prior to saving any changes/edits, etc then you won't be warned to go back to save it or continue to exit and lose the data you had changed.
 * Default Pocket Page: Choose the page (these are the side-bar menu tabs/pages) that you wish your ‘pocket' {{% sys-name %}} version to always begin with (default to) each time you log in to the ‘pocket' {{% sys-name %}} version from your smart-device.
 * Document View Format:  TIFF or PDF are the choices.  Most select TIFF. This is the program you wish to open/view any forms from add document. Then you can print from that view. If you have not downloaded TIFF software, you can still access the forms by viewing in PDF.
-* Use Popup for User Demo Links: If set to YES, a user's name or physician's name, etc will appear as underlined. You can click their underlined name or username to see a pop-up display basic information about that user/physician. This pop-up tells you their address stored in {{% system-name %}} , full name, and can make edits to them if you have permission. This is a quick link to click if you aren't sure who the user was that created a document or need physician information, etc. If set to NO, the usernames and physician names will not appear as underlined and you can't click the underlined link to view more complete information about that user/physician.
+* Use Popup for User Demo Links: If set to YES, a user's name or physician's name, etc 
+* 
+* will appear as underlined. You can click their underlined name or username to see a pop-up display basic information about that user/physician. This pop-up tells you their address stored in {{% system-name %}} , full name, and can make edits to them if you have permission. This is a quick link to click if you aren't sure who the user was that created a document or need physician information, etc. If set to NO, the usernames and physician names will not appear as underlined and you can't click the underlined link to view more complete information about that user/physician.
 * Use Popup for Patient Links:If set to YES, patient names will appear as an underlined link.  You can click their underlined name and the system will open right to that patient's default chart tab. This link appears and allows you to click the patient's name also in the E-Chart search results to get to their chart.  If set to NO, patient's names will not appear underlined and you have to get into a patient's chart by selecting their MR# link or another option.
 * Use AJAX Tools: This is kind of like the ‘Use Popups' preference. If you turn it on, you'll get a lot of windows. If it's off, you'll browse away from things. If Use AJAX is turned on, you'll get a window to enter the task into. If it's turned off, you'll get a popup with our plain fields to enter into.  Default is to be Yes.
 * Inline Edit Layout Link:  If set to show, when rendering a layout you will see an edit icon. It shows an edit icon anywhere a layout is rendered. You can click it and it will open a window to edit that layout. Must have security to do layouts. This is mainly for MIE programming use.

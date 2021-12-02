@@ -3,7 +3,7 @@ title: "Review Session - System Configuration"
 date: "2020-02-27T21:24:23.063Z"
 url: "rapid-deployment/review-sessions/review-session-system-configuration.html"
 author: aquandt
-version: 36
+version: 43
 id: "1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM"
 source: "https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - System Configuration"
         identifier: "1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 5970
+        weight: 5980
 ---
 ## Agenda
 

@@ -28,7 +28,7 @@ Find the ? icon on each column to sort and/or filter by specific criteria in a p
 
 Drag and drop a column name to change the order of columns.
 
-![](https://lh4.googleusercontent.com/xn5qwLPp2HDu5d09jXgYa2xp_1JmXpjQoVFeQ_Guv2HUsEQxsIfHDoV20N16JtjdEbNYlOqFnWK0_nJAFmDccz_H_BWdjtSpODU_ecih1KXNnwNYyDaNLWl1m_MAo5FcAmUvEwhuebEGzDRlyA)
+![](orders-due-report.images/image15.jpg)
 
 You can also drag and drop a column name and place it into the table header to group items in the table by that column. In this example, I drug the "order name" and "type" column up into the table header and now my list sorts and arranges by that.
 

@@ -2,7 +2,7 @@
 title: "CMS 165 - Controlling High Blood Pressure"
 date: "2020-02-27T20:59:30.619Z"
 url: "functions/quality-of-care/measures/quality-measures-list/cms-165-controlling-high-blood-pressure.html"
-version: 12
+version: 14
 id: "1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc"
 source: "https://drive.google.com/open?id=1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc"
 menu:

@@ -2,7 +2,7 @@
 title: "Meaningful Use Reports"
 date: "2020-02-27T20:14:52.180Z"
 url: "functions/reports/meaningful-use-reports.html"
-version: 26
+version: 28
 id: "1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA"
 source: "https://drive.google.com/open?id=1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA"
 menu:

@@ -11,7 +11,7 @@ menu:
         name: "Device Interface - Titmus V4"
         identifier: "1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5580
+        weight: 5590
 ---
 This page provides instructions for interfacing the Titmus V4 Vision Screener with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable. 
 

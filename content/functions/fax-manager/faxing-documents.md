@@ -2,7 +2,7 @@
 title: "Faxing Documents"
 date: "2020-03-16T16:21:29.768Z"
 url: "functions/fax-manager/faxing-documents.html"
-version: 42
+version: 45
 id: "1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g"
 source: "https://drive.google.com/open?id=1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g"
 menu:

@@ -11,7 +11,7 @@ menu:
         name: "Encounter Workflow & Portal Management"
         identifier: "1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ"
         parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5800
+        weight: 5810
 ---
 ## Purpose
 

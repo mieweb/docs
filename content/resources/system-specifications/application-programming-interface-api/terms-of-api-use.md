@@ -3,7 +3,7 @@ title: "Terms of API Use"
 date: "2021-04-06T13:28:47.741Z"
 url: "resources/system-specifications/application-programming-interface-api/terms-of-api-use.html"
 author: Doug Horner
-version: 43
+version: 46
 id: "1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY"
 source: "https://drive.google.com/open?id=1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Terms of API Use"
         identifier: "1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY"
         parent: "1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks"
-        weight: 6200
+        weight: 6210
 ---
 ## Use of the WebChart® API
 

@@ -3,7 +3,7 @@ title: "Quality of Care"
 date: "2020-02-27T21:28:01.325Z"
 url: "functions/quality-of-care.html"
 author: aquandt
-version: 16
+version: 19
 id: "1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk"
 source: "https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk"
 menu:

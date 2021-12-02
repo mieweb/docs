@@ -10,7 +10,7 @@ menu:
         name: "On-Premise MySQL Server Hardware Requirements"
         identifier: "1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM"
         parent: "1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI"
-        weight: 6230
+        weight: 6240
 ---
 ## Dedicated Server Minimum Requirements
 

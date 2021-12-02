@@ -2,7 +2,7 @@
 title: "Promoting Interoperability (PI) Measures"
 date: "2020-02-28T21:58:39.683Z"
 url: "functions/quality-of-care/measures/promoting-interoperability-pi-measures.html"
-version: 37
+version: 41
 id: "1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw"
 source: "https://drive.google.com/open?id=1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw"
 menu:

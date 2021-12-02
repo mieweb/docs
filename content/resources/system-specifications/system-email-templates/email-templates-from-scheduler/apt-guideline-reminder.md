@@ -10,7 +10,7 @@ menu:
         name: "Apt Guideline Reminder"
         identifier: "1v8AzGmcED_QmF-RwhztZuJZjpq99NKLFVUkacCV474A"
         parent: "1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E"
-        weight: 6580
+        weight: 6590
 ---
 
 

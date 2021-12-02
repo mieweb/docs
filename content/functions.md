@@ -1,9 +1,9 @@
 ---
 title: "Functions"
-date: "2021-05-10T22:21:45.993Z"
+date: "2021-07-16T20:47:38.982Z"
 url: "functions.html"
 author: Doug Horner
-version: 48
+version: 67
 id: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
 source: "https://drive.google.com/open?id=1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
 menu:

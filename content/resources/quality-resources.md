@@ -3,7 +3,7 @@ title: "Quality Resources"
 date: "2020-02-27T21:27:57.735Z"
 url: "resources/quality-resources.html"
 author: aquandt
-version: 18
+version: 22
 id: "1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk"
 source: "https://drive.google.com/open?id=1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Quality Resources"
         identifier: "1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk"
         parent: "1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE"
-        weight: 6680
+        weight: 6690
 ---
 {{% note %}}
 

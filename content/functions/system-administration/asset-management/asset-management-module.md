@@ -2,7 +2,7 @@
 title: "Asset Management Module"
 date: "2020-02-27T20:30:03.349Z"
 url: "functions/system-administration/asset-management/asset-management-module.html"
-version: 46
+version: 48
 id: "1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ"
 source: "https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Asset Management Module"
         identifier: "1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5610
+        weight: 5620
 ---
 The Asset Management Module allows users to track equipment assigned to users, warranty information, maintenance request and calibration requirements. The module includes creating work orders, calibration requests and tracks these items over time. The module includes automation of notification 90 and 30 days prior to when calibration, service agreements, warranties and insurance policies are due or will expire. There is robust reporting included. Please verify with your MIE implementer that your system has been prepared to use the Asset Management Module. MIE Implementer must set up this module to be used in your  {{% system-name %}}  system and must have the two committed layout encounters & visit types enabled/activated on your system for use.
 

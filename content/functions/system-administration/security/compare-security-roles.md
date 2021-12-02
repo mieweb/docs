@@ -2,7 +2,7 @@
 title: "Compare Security Roles"
 date: "2020-02-27T20:25:20.019Z"
 url: "functions/system-administration/security/compare-security-roles.html"
-version: 26
+version: 32
 id: "1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo"
 source: "https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo"
 menu:

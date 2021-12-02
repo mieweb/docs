@@ -2,7 +2,7 @@
 title: "Document Type Purge Rules"
 date: "2020-03-23T18:15:06.981Z"
 url: "functions/document-management/documents-and-forms/document-type-purge-rules.html"
-version: 50
+version: 54
 id: "1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg"
 source: "https://drive.google.com/open?id=1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg"
 menu:

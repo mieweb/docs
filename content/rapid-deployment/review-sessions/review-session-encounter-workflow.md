@@ -3,7 +3,7 @@ title: "Review Session - Encounter Workflow"
 date: "2020-02-27T21:24:54.640Z"
 url: "rapid-deployment/review-sessions/review-session-encounter-workflow.html"
 author: aquandt
-version: 16
+version: 23
 id: "14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
 source: "https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - Encounter Workflow"
         identifier: "14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6020
+        weight: 6030
 ---
 ## Agenda
 

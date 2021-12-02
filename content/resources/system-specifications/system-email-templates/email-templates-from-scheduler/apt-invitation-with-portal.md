@@ -10,7 +10,7 @@ menu:
         name: "Apt Invitation with Portal"
         identifier: "1_9KLm_UcpM0vQsGlOxZaccnQouL1lLgfn-KU5PeP_DI"
         parent: "1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E"
-        weight: 6600
+        weight: 6610
 ---
 
 

@@ -2,7 +2,7 @@
 title: "System Files Management"
 date: "2020-03-20T20:50:43.774Z"
 url: "functions/system-configuration/system-files-management.html"
-version: 35
+version: 41
 id: "1faeAEwfFOMCYV4zh0yko4gGtLwhgypG1ZtcSZXAbAn4"
 source: "https://drive.google.com/open?id=1faeAEwfFOMCYV4zh0yko4gGtLwhgypG1ZtcSZXAbAn4"
 menu:

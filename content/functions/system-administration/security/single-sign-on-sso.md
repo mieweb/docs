@@ -3,7 +3,7 @@ title: "Single Sign-On (SSO)"
 date: "2020-02-27T21:22:11.490Z"
 url: "functions/system-administration/security/single-sign-on-sso.html"
 author: aquandt
-version: 16
+version: 17
 id: "1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA"
 source: "https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA"
 menu:

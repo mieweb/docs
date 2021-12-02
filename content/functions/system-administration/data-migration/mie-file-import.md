@@ -2,7 +2,7 @@
 title: "MIE File Import"
 date: "2020-03-17T02:05:30.422Z"
 url: "functions/system-administration/data-migration/mie-file-import.html"
-version: 43
+version: 47
 id: "1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
 source: "https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
 menu:

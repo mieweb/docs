@@ -3,7 +3,7 @@ title: "DICOM Setup Tab"
 date: "2020-03-09T19:34:25.790Z"
 url: "functions/document-management/imaging/dicom-setup-tab.html"
 author: aquandt
-version: 24
+version: 27
 id: "1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg"
 source: "https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg"
 menu:

@@ -45,7 +45,7 @@ If you wish to dismiss it, you would do the following steps (if you have securit
 
 Usually, the Physician has been set with security rights to dismiss all levels.  The physician can dismiss the warning for that specific patient only.  Or the physician can dismiss the specific warning for all patients via him or all users.
 
- ![](https://lh6.googleusercontent.com/YiYnWi91C6-C9qGYASJeNbxEYdIvbc0eVcz0snvQrBVUbVSt-vOnYEmO5mfa701ynmfWttUs7FBa8u5QEwuIkEvt-XxWUOs2bKEO2WJ55V54gob4RMCpxJb7kFTFBfnz29FGImb38m8eUwx28w)
+ ![](drug-interaction-allergy-warnings.images/image7.jpg)
 
 Usually, the nurses have been set with security rights to dismiss warnings only for that specific patient only (doesn't affect all other patients).
 

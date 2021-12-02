@@ -11,7 +11,7 @@ menu:
         name: "Device Interface - MI 7000"
         identifier: "1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5540
+        weight: 5550
 ---
 This page provides instructions for retrieving results from the MI 7000 audiometer with {{% system-name %}} ( {{% sys-name %}} ), and lists the fields that the interface retrieves.
 

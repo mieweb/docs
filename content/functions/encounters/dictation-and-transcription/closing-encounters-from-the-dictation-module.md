@@ -2,7 +2,7 @@
 title: "Closing Encounters from the Dictation Module"
 date: "2020-03-12T21:01:32.907Z"
 url: "functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.html"
-version: 31
+version: 32
 id: "1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A"
 source: "https://drive.google.com/open?id=1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A"
 menu:

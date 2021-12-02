@@ -2,7 +2,7 @@
 title: "Scanner Cleaning"
 date: "2020-03-06T22:16:27.286Z"
 url: "functions/document-management/scanning-and-indexing/scanner-cleaning.html"
-version: 24
+version: 25
 id: "181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ"
 source: "https://drive.google.com/open?id=181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ"
 menu:

@@ -10,7 +10,7 @@ menu:
         name: "Tracking Donated Inventory"
         identifier: "1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5620
+        weight: 5630
 ---
 ## Add Donated Tab
 

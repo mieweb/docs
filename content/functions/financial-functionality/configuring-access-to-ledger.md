@@ -3,7 +3,7 @@ title: "Configuring access to ledger"
 date: "2021-02-18T15:53:28.874Z"
 url: "functions/financial-functionality/configuring-access-to-ledger.html"
 author: egrzetich
-version: 13
+version: 15
 id: "16mRc8J0pBrOwb2iPNF4WzPxSkPCkqj0XzH_iZORsJco"
 source: "https://drive.google.com/open?id=16mRc8J0pBrOwb2iPNF4WzPxSkPCkqj0XzH_iZORsJco"
 ---

@@ -1,8 +1,9 @@
 ---
 title: "Encounters Protocol Configuration & Programming"
-date: "2020-03-20T21:07:28.846Z"
+date: "2021-11-09T15:37:51.182Z"
 url: "functions/system-configuration/encounters-protocol-configuration-and-programming.html"
-version: 138
+author: Spenser Smith
+version: 148
 id: "19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY"
 source: "https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY"
 menu:

@@ -3,7 +3,7 @@ title: "Review Session - Medication Management/Electronic Prescribing"
 date: "2020-02-27T21:25:41.678Z"
 url: "rapid-deployment/review-sessions/review-session-medication-management-electronic-prescribing.html"
 author: aquandt
-version: 29
+version: 39
 id: "1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU"
 source: "https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - Medication Management/Electronic Prescribing"
         identifier: "1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6090
+        weight: 6100
 ---
 ## Agenda
 

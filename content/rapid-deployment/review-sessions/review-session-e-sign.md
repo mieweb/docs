@@ -3,7 +3,7 @@ title: "Review Session - E-Sign"
 date: "2020-02-27T21:25:54.536Z"
 url: "rapid-deployment/review-sessions/review-session-e-sign.html"
 author: aquandt
-version: 16
+version: 18
 id: "1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc"
 source: "https://drive.google.com/open?id=1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - E-Sign"
         identifier: "1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6120
+        weight: 6130
 ---
 ## Agenda
 

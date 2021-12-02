@@ -11,7 +11,7 @@ menu:
         name: "On-Premise Deployment"
         identifier: "1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI"
         parent: "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU"
-        weight: 6220
+        weight: 6230
 ---
 ## Change Log
 

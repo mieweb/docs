@@ -1,9 +1,9 @@
 ---
 title: "HL7 Segment Definitions"
-date: "2020-02-28T15:29:03.986Z"
+date: "2021-09-24T19:55:27.332Z"
 url: "functions/system-administration/interfaces/hl7-segment-definitions.html"
-author: aquandt
-version: 21
+author: Nick Wallace
+version: 36
 id: "1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
 source: "https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
 menu:
@@ -11,16 +11,16 @@ menu:
         name: "HL7 Segment Definitions"
         identifier: "1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5380
+        weight: 5390
 ---
 {{% anchor sys="msh" %}}
 
-Message Header (MSH)
+## Message Header (MSH)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -177,7 +177,7 @@ Message Header (MSH)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -238,7 +238,7 @@ Message Header (MSH)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -288,12 +288,12 @@ Message Header (MSH)
 
 {{% anchor sys="msa" %}}
 
-Message Acknowledgement (MSA)
+## Message Acknowledgement (MSA)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -343,12 +343,12 @@ Message Acknowledgement (MSA)
 
 {{% anchor sys="evn" %}}
 
-Event Type (EVN)
+## Event Type (EVN)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -390,12 +390,12 @@ Event Type (EVN)
 
 {{% anchor sys="mrg" %}}
 
-Merge Patient Information (MRG)
+## Merge Patient Information (MRG)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -461,12 +461,12 @@ Merge Patient Information (MRG)
 
 {{% anchor sys="pid" %}}
 
-Patient Identification (PID)
+## Patient Identification (PID)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -788,12 +788,12 @@ Patient Identification (PID)
 
 {{% anchor sys="pd1" %}}
 
-Patient Additional Demographics (PD1)
+## Patient Additional Demographics (PD1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -899,12 +899,12 @@ Patient Additional Demographics (PD1)
 
 {{% anchor sys="pv1" %}}
 
-Patient Visit (PV1)
+## Patient Visit (PV1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -1330,12 +1330,12 @@ Patient Visit (PV1)
 
 {{% anchor sys="pv2" %}}
 
-Patient Visit - Additional Information (PV2)
+## Patient Visit - Additional Information (PV2)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -1641,12 +1641,12 @@ Patient Visit - Additional Information (PV2)
 
 {{% anchor sys="dg1" %}}
 
-Diagnosis (DG1)
+## Diagnosis (DG1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -1784,12 +1784,12 @@ Diagnosis (DG1)
 
 {{% anchor sys="ft1" %}}
 
-Financial Transaction (FT1)
+## Financial Transaction (FT1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -2007,12 +2007,12 @@ Financial Transaction (FT1)
 
 {{% anchor sys="gt1" %}}
 
-Guarantor (GT1)
+## Guarantor (GT1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -2462,12 +2462,12 @@ Guarantor (GT1)
 
 {{% anchor sys="in1" %}}
 
-Insurance (IN1)
+## Insurance (IN1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -2869,12 +2869,12 @@ Insurance (IN1)
 
 {{% anchor sys="in2" %}}
 
-Insurance - Additional Information (IN2)
+## Insurance - Additional Information (IN2)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3463,7 +3463,7 @@ Insurance - Additional Information (IN2)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3673,12 +3673,12 @@ Insurance - Additional Information (IN2)
 
 {{% anchor sys="pr1" %}}
 
-Procedures (PR1)
+## Procedures (PR1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3792,12 +3792,12 @@ Procedures (PR1)
 
 {{% anchor sys="err" %}}
 
-Error (ERR)
+## Error (ERR)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3815,12 +3815,12 @@ Error (ERR)
 
 {{% anchor sys="zil" %}}
 
-ZIL
+## ZIL
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3838,12 +3838,12 @@ ZIL
 
 {{% anchor sys="ztn" %}}
 
-ZTN
+## ZTN
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3877,12 +3877,12 @@ ZTN
 
 {{% anchor sys="zdg" %}}
 
-ZDG
+## ZDG
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3908,12 +3908,12 @@ ZDG
 
 {{% anchor sys="nte" %}}
 
-Notes and Comments (NTE)
+## Notes and Comments (NTE)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -3955,12 +3955,12 @@ Notes and Comments (NTE)
 
 {{% anchor sys="sch" %}}
 
-Scheduling Activity Information (SCH)
+## Scheduling Activity Information (SCH)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4170,12 +4170,12 @@ Scheduling Activity Information (SCH)
 
 {{% anchor sys="rgs" %}}
 
-Resource Group (RGS)
+## Resource Group (RGS)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4209,12 +4209,12 @@ Resource Group (RGS)
 
 {{% anchor sys="ail" %}}
 
-Appointment Information - Location resource (AIL)
+## Appointment Information - Location resource (AIL)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4320,12 +4320,12 @@ Appointment Information - Location resource (AIL)
 
 {{% anchor sys="aip" %}}
 
-Appointment Information - Personnel Resource (AIP)
+## Appointment Information - Personnel Resource (AIP)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4431,12 +4431,12 @@ Appointment Information - Personnel Resource (AIP)
 
 {{% anchor sys="aig" %}}
 
-Appointment Information - General Resource (AIG)
+## Appointment Information - General Resource (AIG)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4561,7 +4561,7 @@ Appointment Information - General Resource (AIG)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4622,7 +4622,7 @@ Appointment Information - General Resource (AIG)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4819,7 +4819,7 @@ Appointment Information - General Resource (AIG)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -4963,12 +4963,14 @@ Appointment Information - General Resource (AIG)
   </tr>
 </table>
 
+## 
+
 ## Next of Kin/Associated Parties (NK1)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -5277,7 +5279,7 @@ Appointment Information - General Resource (AIG)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -5439,12 +5441,12 @@ Appointment Information - General Resource (AIG)
 
 {{% anchor sys="orc" %}}
 
-Common Order (ORC)
+## Common Order (ORC)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -5646,12 +5648,12 @@ Common Order (ORC)
 
 {{% anchor sys="obr" %}}
 
-Observation request (OBR)
+## Observation request (OBR)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6021,12 +6023,12 @@ Observation request (OBR)
 
 {{% anchor sys="obx" %}}
 
-Observation/Result (OBX)
+## Observation/Result (OBX)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6175,7 +6177,7 @@ Observation/Result (OBX)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6364,7 +6366,7 @@ Observation/Result (OBX)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6414,12 +6416,12 @@ Observation/Result (OBX)
 
 {{% anchor sys="txa" %}}
 
-Transcription Document Header (TXA)
+## Transcription Document Header (TXA)
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6616,7 +6618,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6653,7 +6655,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6762,7 +6764,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6847,7 +6849,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6892,7 +6894,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -6945,7 +6947,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -7238,7 +7240,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -7379,7 +7381,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -7448,7 +7450,7 @@ Transcription Document Header (TXA)
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -7514,12 +7516,12 @@ Transcription Document Header (TXA)
 
 {{% anchor sys="zpa" %}}
 
-ZPA
+## ZPA
 
 <table>
   <tr>
     <td>**Sequence**</td>
-    <td>**length**</td>
+    <td>**Length**</td>
     <td>**Data Type**</td>
     <td>**Required**</td>
     <td>**Repetition**</td>
@@ -7819,7 +7821,7 @@ ZPA
 
 {{% anchor sys="tn" %}}
 
-TN
+### TN
 
 The TN Data Type is an MIE Extension designed for notifying a sending system of translations used in the processing of the message. This can be thought of as an incremental approach to maintaining a MFN interface.
 

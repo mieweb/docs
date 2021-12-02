@@ -3,7 +3,7 @@ title: "Device Interface - NDD EasyOne Connect vbase"
 date: "2021-04-12T19:10:33.325Z"
 url: "functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.html"
 author: Kyle Kocks
-version: 103
+version: 119
 id: "1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
 source: "https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Device Interface - NDD EasyOne Connect vbase"
         identifier: "1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5470
+        weight: 5480
 ---
 The following is referring to the NDD EasyOne Connect spirometry system (also referred to as Easy-On or EasyWare). Contact your MIE Implementer to see if your spirometer system model can be interfaced or quoted.
 

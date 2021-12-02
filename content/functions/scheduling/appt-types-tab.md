@@ -3,7 +3,7 @@ title: "Appt Types Tab"
 date: "2021-02-24T15:17:03.005Z"
 url: "functions/scheduling/appt-types-tab.html"
 author: egrzetich
-version: 93
+version: 100
 id: "1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo"
 source: "https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo"
 menu:

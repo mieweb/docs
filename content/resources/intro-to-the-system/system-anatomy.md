@@ -3,7 +3,7 @@ title: "System Anatomy"
 date: "2020-02-27T21:28:42.966Z"
 url: "resources/intro-to-the-system/system-anatomy.html"
 author: aquandt
-version: 48
+version: 66
 id: "1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8"
 source: "https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "System Anatomy"
         identifier: "1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8"
         parent: "1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc"
-        weight: 6750
+        weight: 6760
 ---
 The following page provides details on the correct terminology for screens and items that appear in an MIE (WebChart, Enterprise Health) system.
 

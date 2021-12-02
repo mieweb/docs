@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - CardioPerfect EKG"
         identifier: "17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5440
+        weight: 5450
 ---
 The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.
 

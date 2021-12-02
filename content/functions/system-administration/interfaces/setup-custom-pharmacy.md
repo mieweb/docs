@@ -10,7 +10,7 @@ menu:
         name: "Setup Custom Pharmacy"
         identifier: "1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5310
+        weight: 5320
 ---
 You must have security role of *Manage Custom Pharmacies* set to Yes to access the Custom Pharmacy tab found in the Control tab module.
 

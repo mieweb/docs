@@ -2,7 +2,7 @@
 title: "Text Documents"
 date: "2020-03-05T20:22:27.480Z"
 url: "functions/document-management/documents-and-forms/text-documents.html"
-version: 40
+version: 42
 id: "1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc"
 source: "https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc"
 menu:

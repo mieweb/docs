@@ -2,7 +2,7 @@
 title: "CC 10 - Care Transition Documentation Practice Improvements"
 date: "2020-02-27T20:51:31.775Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-10-care-transition-documentation-practice-improvements.html"
-version: 12
+version: 13
 id: "1w1e6ZoISoS0KU-eo4I6cCBO-8N6x86xqEmpve_GomOY"
 source: "https://drive.google.com/open?id=1w1e6ZoISoS0KU-eo4I6cCBO-8N6x86xqEmpve_GomOY"
 menu:

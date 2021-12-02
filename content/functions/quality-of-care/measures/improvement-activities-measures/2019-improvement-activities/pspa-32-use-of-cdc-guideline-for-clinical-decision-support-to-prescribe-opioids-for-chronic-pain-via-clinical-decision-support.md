@@ -2,7 +2,7 @@
 title: "PSPA 32 - Use of CDC Guideline for Clinical Decision Support to Prescribe Opioids for Chronic Pain via Clinical Decision Support"
 date: "2020-02-27T20:56:45.925Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities/pspa-32-use-of-cdc-guideline-for-clinical-decision-support-to-prescribe-opioids-for-chronic-pain-via-clinical-decision-support.html"
-version: 15
+version: 16
 id: "1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo"
 source: "https://drive.google.com/open?id=1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo"
 menu:

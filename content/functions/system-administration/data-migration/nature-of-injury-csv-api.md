@@ -3,7 +3,7 @@ title: "Nature of Injury CSV API"
 date: "2020-02-27T21:32:25.970Z"
 url: "functions/system-administration/data-migration/nature-of-injury-csv-api.html"
 author: aquandt
-version: 18
+version: 21
 id: "1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU"
 source: "https://drive.google.com/open?id=1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU"
 menu:

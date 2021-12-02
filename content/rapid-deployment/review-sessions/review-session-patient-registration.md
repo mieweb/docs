@@ -3,7 +3,7 @@ title: "Review Session - Patient Registration"
 date: "2020-02-27T21:24:28.695Z"
 url: "rapid-deployment/review-sessions/review-session-patient-registration.html"
 author: aquandt
-version: 19
+version: 24
 id: "1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
 source: "https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - Patient Registration"
         identifier: "1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 5980
+        weight: 5990
 ---
 ## Agenda
 

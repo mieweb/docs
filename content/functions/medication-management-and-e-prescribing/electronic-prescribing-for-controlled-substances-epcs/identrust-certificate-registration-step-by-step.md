@@ -1,9 +1,9 @@
 ---
 title: "IdenTrust Certificate Registration Step-by-Step"
-date: "2021-02-17T13:58:57.581Z"
+date: "2021-10-05T12:38:03.987Z"
 url: "functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step.html"
-author: Spenser Smith
-version: 130
+author: Alice Uhrick
+version: 187
 id: "1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY"
 source: "https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY"
 menu:
@@ -48,7 +48,7 @@ CLICK [ [HERE](https://www.identrust.com/igc/mie/) ] TO BEGIN
 
 It's as Easy as 1 - 2 - 3!
 
-![](identrust-certificate-registration-step-by-step.images/image18.png)
+
 
 
 
@@ -58,21 +58,25 @@ When prescribers are ready to purchase the certificate and/or token, there is a 
 
 #### Select a Certificate
 
-The first step requires the selection of the certificate. There are 2 types of Certificates that MIE/IdenTrust will offer to prescribers.
+The first step requires the selection of the certificate. There are 3 types of Certificates that MIE/IdenTrust will offer to prescribers.
 
 
 
-1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $109.00</strong>
+1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $109.00 (Prices subject to change by IdenTrust)</strong>
     1. Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
-2. Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $99.00
+2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $197.00 (Pricing subject to change by IdenTrust)</strong>
+    2. Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
+3. Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $99.00
 
 
 
 ![](identrust-certificate-registration-step-by-step.images/image17.png)
 
+
+
 #### Select the Storage Device
 
-#### ![](identrust-certificate-registration-step-by-step.images/image19.png)
+#### ![](identrust-certificate-registration-step-by-step.images/image18.png)
 
 1. Every certificate provided through IdenTrust for EPCS has a 2-year validity period. This will automatically be selected.
 2. Following the Validity Period selection is the selection for the SafeNet USB Token, used to store the digital certificate.
@@ -92,7 +96,7 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image20.png)
+![](identrust-certificate-registration-step-by-step.images/image19.png)
 
 
 
@@ -133,7 +137,7 @@ The first step requires the selection of the certificate. There are 2 types of C
 
 
 
-2. Indicate that you have read and acknowledged the <strong>Subscriber Agreement</strong>. Click <strong>Submit Application</strong> to continue.    ![](identrust-certificate-registration-step-by-step.images/image22.png)
+2. Indicate that you have read and acknowledged the <strong>Subscriber Agreement</strong>. Click <strong>Submit Application</strong> to continue.    ![](identrust-certificate-registration-step-by-step.images/image21.png)
 
 ### Get Verified
 
@@ -168,7 +172,7 @@ Email verification must be completed (within 30 days) for IdenTrust to approve y
 
 This portion of the second phase (carried out by IdenTrust) consists of validating the information you provided against independent data sources. You will not need to do anything during this stage; you will receive a retrieval kit from IdenTrust in the mail if your application is approved. You will be able to check on the Application Status under Your Account Information:
 
-![](identrust-certificate-registration-step-by-step.images/image23.png)
+![](identrust-certificate-registration-step-by-step.images/image22.png)
 
 **Your New IGC Token will be mailed to you. Expect arrival between 3-5 days.**
 
@@ -180,7 +184,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image21.png)
+![](identrust-certificate-registration-step-by-step.images/image20.png)
 
 
 
@@ -208,7 +212,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 
-![](identrust-certificate-registration-step-by-step.images/image24.png)  {{% warning %}} This is the Token Passcode for your USB Token which **must not be forgotten**. If you forget this passcode your certificate will be **permanently locked** and cannot be recovered.
+![](identrust-certificate-registration-step-by-step.images/image23.png)  {{% warning %}} This is the Token Passcode for your USB Token which **must not be forgotten**. If you forget this passcode your certificate will be **permanently locked** and cannot be recovered.
 
 *****REMEMBER YOUR TOKEN PASSCODE***** {{% /warning %}}
 

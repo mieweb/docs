@@ -2,7 +2,7 @@
 title: "Print Chart"
 date: "2020-03-09T17:46:39.608Z"
 url: "functions/document-management/printing-and-print-definitions/print-chart.html"
-version: 38
+version: 43
 id: "10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8"
 source: "https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8"
 menu:
@@ -81,7 +81,7 @@ When the **Print without headers** option is selected, another option will be 
 
 
 
-![](https://lh5.googleusercontent.com/7kwJy-euK0PJHg1gUBCv76x3eMbDDOGZvlle8Ow9SjIN1tjcYBfvc-hFzCU2gvGE_AiE6xXYxWoSTxby0b4uKSSciDzmOjU1Ye7Fzbng7roJgsAdZgDCUjNfH2Z92ERieOSQ6vBSpJLcerUdxA)
+![](https://lh3.googleusercontent.com/SM960Ok3AoHeHjWMfiuPexJC_sBn2iuIXqoHUiMTyo_zkmtY5PCew_xRKnrjR1tEIHQ0xJc1n35RX4xGXdF2cLpEu1nB58kwWZpvL8tT1144wkRZe3Ml9IRKAjSgGRBPEeGaOaUjytbnVi1CTA)
 
 
 

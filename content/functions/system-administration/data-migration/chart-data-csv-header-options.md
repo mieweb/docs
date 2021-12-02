@@ -3,7 +3,7 @@ title: "Chart Data CSV Header Options"
 date: "2020-02-28T15:24:56.361Z"
 url: "functions/system-administration/data-migration/chart-data-csv-header-options.html"
 author: aquandt
-version: 23
+version: 24
 id: "1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho"
 source: "https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho"
 menu:

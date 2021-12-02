@@ -2,7 +2,7 @@
 title: "Clinical Encounter CSV API"
 date: "2020-03-17T13:11:47.649Z"
 url: "functions/system-administration/data-migration/clinical-encounter-csv-api.html"
-version: 26
+version: 28
 id: "1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk"
 source: "https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk"
 menu:

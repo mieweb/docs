@@ -2,7 +2,7 @@
 title: "Create Cases File for Import"
 date: "2020-03-17T02:53:32.574Z"
 url: "functions/system-administration/data-migration/create-cases-file-for-import.html"
-version: 35
+version: 36
 id: "12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
 source: "https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
 menu:

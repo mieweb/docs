@@ -3,7 +3,7 @@ title: "Access Control - Quick Add Multiple Active Users"
 date: "2020-02-27T21:20:20.800Z"
 url: "functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.html"
 author: aquandt
-version: 31
+version: 36
 id: "1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg"
 source: "https://drive.google.com/open?id=1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg"
 menu:

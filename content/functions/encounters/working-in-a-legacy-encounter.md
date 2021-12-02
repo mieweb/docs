@@ -2,7 +2,7 @@
 title: "Working in a Legacy Encounter"
 date: "2020-03-26T17:07:46.706Z"
 url: "functions/encounters/working-in-a-legacy-encounter.html"
-version: 80
+version: 84
 id: "16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI"
 source: "https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI"
 menu:
@@ -16,11 +16,11 @@ When you open an encounter and are working in it, your point & click encounter e
 
 At the top of the encounter, you may have a section named **Today's Encounters**. This section lists encounters created today only (today's date).  If you are working in a dated encounter (dated previous to today's date) and there are multiple encounters, it will still show open encounters for today's date only, not the dated encounter you are working on.  Your practice might also have links to launch other exams that may require separate documentation/encounters. These links are found right below the *Today's Encounters* section.
 
-![](https://lh5.googleusercontent.com/3ysNbW0pf8w1l8gL3N7qUsN9fME5EblSHWSQyxgeebO9U_vVzDICd3njGsr8YIGtS8-P2KU3aD49YP26FOqAfnyt8-djE3BnZO9-mjGrQBNJPh-_dvp_k49B-_mvn61veO-bjs7TymQTUKU0dw)
+![](working-in-a-legacy-encounter.images/image13.jpg)
 
 Your practice may have the **Current Users on Encounter** section at the top of the open encounter also. This shows any other user that has this encounter set as ‘current'. Two users can be in the same encounter at the same time. However, they will both have to save/ refresh to see each other's work.  We would hope both users are not entering the same data, if so; the last person to submit wins. You can *release* that user(s) from the encounter if you wish.
 
-![](https://lh3.googleusercontent.com/2gOTP1tgec_SX-ChrF9EgOJd8THdsDx7ANHqLX-RtqE4uNc7cmvbsCBpNoxcoEZpwPaxtyUytRGbWcsrGXojV7UIqZxxnfTkcR2WEx9FHIScri0MZ0U_VEq5sToCmHrP7GQDZD-A22dZa-PH7w)
+![](working-in-a-legacy-encounter.images/image15.jpg)
 
 The top portion is an editable field for Date of Service (DOS), location of this patient's visit and Provider of who is seeing the patient for this visit. For the Provider drop-down – the Meaningful Use and Pediatric encounter exams use the same option when setting the performing doctor (provider). The input remembers what was last entered and pre-fills it with that value.  The office visit encounter exams use the logged in user to pre-fill the value.  So if a nurse adds an office visit through quick links then her/his name will be selected as the provider.  Unless she/he changes that manually.
 
@@ -56,7 +56,7 @@ Most entries are radio buttons, check boxes, dictated, sketch, auto-complete fie
 
 When you click on the section (example, we've clicked on *respiratory* section), it will open up previous programmed choices to select. You can select one or multiple. To select multiple, click the [+] to keep the var-tree open and select multiple items from the tree. You can also free text or add dictation from this opened var-tree for that selection. The add new link will show along with the free text and add dictation links if you have security permission to add new var tree entries. To use the Dictation link, you must have security permission to Add Dictation also.
 
-![](working-in-a-legacy-encounter.images/image27.png) ![](https://lh6.googleusercontent.com/PizyK4PuU6QAG2kk59wlhwJ0K1LhiDQraOa9kntZOIQ5nKejO93wScXjWJVwyO2pm1pTrv85R3_jNO3M86KVhJSlSF0ZoEX-eWXgLeZgtvvuso9qcRrNRPptkJ1QlBHyqXAiYGO8pK7LDimgSg)
+![](working-in-a-legacy-encounter.images/image27.png) ![](working-in-a-legacy-encounter.images/image24.jpg)
 
 If you have security to add new var tree items, when you click add new it will popup an editor to add the var tree item you wish.
 
@@ -108,7 +108,7 @@ If you hover your mouse over these 3 little buttons—it will tell you which is 
 
 When you spell-check and it finds something, the list of suggestions will appear in a box. You can change to one of the suggestions, or you can ignore or edit or add that word to your {{% system-name %}} system's spell check library. See other help documentation named *Spell Check.pdf*
 
-![](https://lh3.googleusercontent.com/D6WECZ66rlmAhceGjvj0UYnFSdCKpZ0Eu8cl9ujYre1GuG9OAhUjEBoSnPKmrARJNronBcGYz2BHeex1DTbK4ZAbzuJZpTHBvk6AKfJetun0lrWaSKGcZU8US037aguqnMXpM5GysOu6yxBJ2w)
+![](working-in-a-legacy-encounter.images/image32.jpg)
 ### Bringing in Previous Data/Entries
 
 Your practice may have encounters set up to display the previous entry/data. The previous encounter entry for the section may show on the right side. This is so you can see what someone entered/documented in the most recent previous encounter of this visit type. If you wish to document the same findings (same entry data), you can quickly just copy over that previous entry from the prior encounter over into this current encounter you are working on. This saves time from re-entering the same information.

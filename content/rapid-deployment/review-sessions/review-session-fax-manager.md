@@ -3,7 +3,7 @@ title: "Review Session - Fax Manager"
 date: "2020-02-27T21:25:58.999Z"
 url: "rapid-deployment/review-sessions/review-session-fax-manager.html"
 author: aquandt
-version: 21
+version: 27
 id: "19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM"
 source: "https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Review Session - Fax Manager"
         identifier: "19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM"
         parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6130
+        weight: 6140
 ---
 ## Agenda
 

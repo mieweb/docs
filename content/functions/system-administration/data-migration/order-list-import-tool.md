@@ -1,8 +1,9 @@
 ---
 title: "Order List Import Tool"
-date: "2020-02-27T20:45:53.671Z"
+date: "2021-07-12T12:50:04.389Z"
 url: "functions/system-administration/data-migration/order-list-import-tool.html"
-version: 13
+author: Dave Cornewell
+version: 33
 id: "1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I"
 source: "https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I"
 menu:
@@ -104,5 +105,5 @@ This example shows how to import multiple order items into the complete order li
 
 Here is a sample CSV file to download and view in a text editor or a spreadsheet program.
 
-[File:Order list.csv](https://miewiki.med-web.com/wiki/index.php/File:Order_list.csv)
+[File:Order list.csv](https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing)
 

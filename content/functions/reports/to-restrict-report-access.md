@@ -2,7 +2,7 @@
 title: "To Restrict Report Access"
 date: "2020-03-16T16:58:57.557Z"
 url: "functions/reports/to-restrict-report-access.html"
-version: 43
+version: 44
 id: "1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg"
 source: "https://drive.google.com/open?id=1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg"
 menu:

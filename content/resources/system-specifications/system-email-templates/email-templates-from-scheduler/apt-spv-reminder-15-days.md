@@ -10,7 +10,7 @@ menu:
         name: "Apt Spv Reminder 15 Days"
         identifier: "11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk"
         parent: "1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E"
-        weight: 6660
+        weight: 6670
 ---
 
 

@@ -1,8 +1,9 @@
 ---
 title: "Inbound Fax Queue - Setting User Access Permissions"
-date: "2020-03-16T23:02:34.491Z"
+date: "2021-06-22T13:11:30.338Z"
 url: "functions/system-administration/system-controls/inbound-fax-queue-setting-user-access-permissions.html"
-version: 38
+author: Spenser Smith
+version: 58
 id: "1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM"
 source: "https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM"
 menu:
@@ -12,6 +13,8 @@ menu:
         parent: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
         weight: 4600
 ---
+## 
+
 ## Providing Access to Inbound Fax Queue
 
 Adding a new user to access Inbound Fax Queue is a two step process.

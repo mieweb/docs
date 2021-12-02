@@ -10,7 +10,7 @@ menu:
         name: "Asset Management"
         identifier: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
         parent: "1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo"
-        weight: 5600
+        weight: 5610
 ---
 
 

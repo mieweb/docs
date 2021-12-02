@@ -2,7 +2,7 @@
 title: "Observations Tab"
 date: "2020-02-27T20:03:08.015Z"
 url: "functions/order-and-result-management/observations-tab.html"
-version: 72
+version: 78
 id: "13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw"
 source: "https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw"
 menu:
@@ -179,7 +179,7 @@ For more information on managing flowsheets (like adding, editing, copying) for 
 
 The chart data is found in database tables in a shared database (like the drug data).  Chart choices are programmed by MIE. Some basic charts are loaded into all systems. These can be turned on by your MIE Implementer through a system setting.
 
-![](https://lh5.googleusercontent.com/TtbVOOkWxtvljtwoFXEs4Aw-2KKhul-6pYm03NuyGFonItVECncpaSO78VUFaDS5jFvsgnMlHCbuOLJnR4TM3dk9p1ep8FF7X3U2yZVus3mcx2iylGDz_noo6QOAc6QRXtEklP_np2EYOVfU2A)
+![](observations-tab.images/image8.jpg)
 
 If you wish to have a specific chart programmed, please contact your MIE representative. If there is something you want to ‘chart' that will be compared to statistical averages, you would get us that data and we would put it in as a customized chart for your system. By default, {{% system-name %}} is equipped to show CDC and World Health Organization (WHO) pediatric growth charts.
 

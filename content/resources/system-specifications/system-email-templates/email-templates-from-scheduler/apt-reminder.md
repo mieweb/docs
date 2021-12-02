@@ -10,7 +10,7 @@ menu:
         name: "Apt Reminder"
         identifier: "1W1mMo6izbKfwcB2lcX52-SyU0UpjhB-MZHo9_9MXxDI"
         parent: "1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E"
-        weight: 6640
+        weight: 6650
 ---
 
 

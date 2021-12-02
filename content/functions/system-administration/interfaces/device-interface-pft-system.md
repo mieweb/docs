@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - PFT System"
         identifier: "15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5480
+        weight: 5490
 ---
 The following is referring to a pulmonary OMI Sensormedics model number 922 system. Contact your MIE Implementer to see if your pulmonary system model can be interfaced or quoted
 

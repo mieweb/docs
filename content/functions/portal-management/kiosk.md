@@ -2,7 +2,7 @@
 title: "Kiosk"
 date: "2020-03-11T18:15:47.911Z"
 url: "functions/portal-management/kiosk.html"
-version: 39
+version: 41
 id: "1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs"
 source: "https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs"
 menu:

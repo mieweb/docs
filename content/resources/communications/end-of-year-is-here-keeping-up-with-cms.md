@@ -11,7 +11,7 @@ menu:
         name: "End-of-Year Is Here: Keeping Up with CMS"
         identifier: "1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk"
         parent: "1HhuFWjUfqvrqm63msQ9sFRNCPWDjjaCniEXYbWa9cDc"
-        weight: 6730
+        weight: 6740
 ---
 It is that time of year, again! Quality reporting is upon us, and {{% system-name %}} wants to keep you informed of the basics:
 

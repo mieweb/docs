@@ -3,7 +3,7 @@ title: "Intro to the System"
 date: "2020-02-27T21:31:50.269Z"
 url: "resources/intro-to-the-system.html"
 author: aquandt
-version: 40
+version: 54
 id: "1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc"
 source: "https://drive.google.com/open?id=1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Intro to the System"
         identifier: "1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc"
         parent: "1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE"
-        weight: 6740
+        weight: 6750
 ---
 The following page addresses the basic navigation and functionality of {{% system-name %}} . If you're a current user, you'll notice some things might look a little different. We've improved the user experience — making {{% system-name %}} even more intuitive and efficient.
 

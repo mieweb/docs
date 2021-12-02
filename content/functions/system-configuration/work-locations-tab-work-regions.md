@@ -2,7 +2,7 @@
 title: "Work Locations Tab - Work Regions"
 date: "2020-02-27T19:32:54.120Z"
 url: "functions/system-configuration/work-locations-tab-work-regions.html"
-version: 44
+version: 53
 id: "15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc"
 source: "https://drive.google.com/open?id=15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc"
 menu:

@@ -2,7 +2,7 @@
 title: "MACRA: Quality Payment Program (QPP)"
 date: "2020-02-27T20:36:42.236Z"
 url: "resources/communications/macra-quality-payment-program-qpp.html"
-version: 21
+version: 30
 id: "12p7Iy880e45Q2ET2g2wDFFRzSW5kUkrwhO8Y77UhkfQ"
 source: "https://drive.google.com/open?id=12p7Iy880e45Q2ET2g2wDFFRzSW5kUkrwhO8Y77UhkfQ"
 menu:
@@ -10,11 +10,11 @@ menu:
         name: "MACRA: Quality Payment Program (QPP)"
         identifier: "12p7Iy880e45Q2ET2g2wDFFRzSW5kUkrwhO8Y77UhkfQ"
         parent: "1HhuFWjUfqvrqm63msQ9sFRNCPWDjjaCniEXYbWa9cDc"
-        weight: 6700
+        weight: 6710
 ---
 Keeping You Ahead of the Game
 
-![](https://lh6.googleusercontent.com/J1V9W-C-fNtvHMjzkmdQTEkt7SHch7bekBUvIOvsmGWNZLBO7lG_mkK7EbG5EeOke43rN82Zu2lx-7IJP79yT7wFUv3De6xMN7zwQrtTo56DuSjVn1XxtGM9mNHCaiA4lxcra4fuZ-PEbTT4VQ)
+![](macra-quality-payment-program-qpp.images/image1.jpg)
 
 ## MACRA
 

@@ -2,7 +2,7 @@
 title: "Unknown Allergy/Medication Email Notifications"
 date: "2020-02-27T20:05:47.758Z"
 url: "functions/medication-management-and-e-prescribing/unknown-allergy-medication-email-notifications.html"
-version: 24
+version: 28
 id: "1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8"
 source: "https://drive.google.com/open?id=1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8"
 menu:

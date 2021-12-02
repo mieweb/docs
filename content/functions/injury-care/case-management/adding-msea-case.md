@@ -3,7 +3,7 @@ title: "Adding MSEA Case"
 date: "2020-03-09T23:04:49.437Z"
 url: "functions/injury-care/case-management/adding-msea-case.html"
 author: aquandt
-version: 30
+version: 31
 id: "1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI"
 source: "https://drive.google.com/open?id=1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI"
 menu:

@@ -2,7 +2,7 @@
 title: "Pat Audio STS Retest"
 date: "2020-02-27T20:38:07.835Z"
 url: "resources/system-specifications/system-email-templates/email-templates-from-chart/pat-audio-sts-retest.html"
-version: 13
+version: 14
 id: "1IxQLpFZso4bcZg-hMLA2M1nBJW4mVauo38F2vHiSYzE"
 source: "https://drive.google.com/open?id=1IxQLpFZso4bcZg-hMLA2M1nBJW4mVauo38F2vHiSYzE"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Pat Audio STS Retest"
         identifier: "1IxQLpFZso4bcZg-hMLA2M1nBJW4mVauo38F2vHiSYzE"
         parent: "1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ"
-        weight: 6320
+        weight: 6330
 ---
 
 

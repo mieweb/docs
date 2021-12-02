@@ -2,7 +2,7 @@
 title: "Print/Fax/Transmit Prescriptions"
 date: "2020-02-27T20:04:28.276Z"
 url: "functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.html"
-version: 45
+version: 49
 id: "1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc"
 source: "https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc"
 menu:
@@ -90,7 +90,7 @@ Below that are the details of the pharmacy that it will be faxed or transmitted 
 
 Even though the pharmacy you selected is e-send capable, doesn't mean that you are transmitting/e-sending until you are a verified e-prescriber with Surescripts. The script will be sent by a default manual fax until you are verified with SureScripts. There's nothing here on this screen telling you which way it will be sent (fax or transmit) until after you click fax/transmit. Then it will say it was faxed instead of e-sent because the prescriber is not an e-prescriber. It will let you know if it was faxed or e-sent successfully right away or show you a message that it may be pending verification.
 
-![](https://lh4.googleusercontent.com/dj3K94zn2prkkxRA10de5sFl5rIsNmg0OL3JXOoOUuZsgCAJQlclsdj_PxpGW05kyz0qQhaZVNkrQt0gBxbWXhYkD-smS3SMT9EeWxBmXFUIbP2f8LBA545CEZ2SOKmCZ7PwQA-ry8AhIcZITw)
+![](print-fax-transmit-prescriptions.images/image14.jpg)
 
 To see if the script was printed, faxed or electronically transmitted (e-sent), you can go into the patient's medication history to view how it went. (See instructions on page 7 below)
 

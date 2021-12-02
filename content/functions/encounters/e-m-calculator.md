@@ -1,8 +1,9 @@
 ---
 title: "E/M Calculator"
-date: "2020-02-27T19:55:20.020Z"
+date: "2021-08-30T16:38:08.151Z"
 url: "functions/encounters/e-m-calculator.html"
-version: 28
+author: Sara Riecke
+version: 39
 id: "1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE"
 source: "https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE"
 menu:

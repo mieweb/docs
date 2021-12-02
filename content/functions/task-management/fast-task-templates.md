@@ -2,7 +2,7 @@
 title: "Fast Task Templates"
 date: "2020-03-16T15:58:58.269Z"
 url: "functions/task-management/fast-task-templates.html"
-version: 72
+version: 88
 id: "1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw"
 source: "https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw"
 menu:

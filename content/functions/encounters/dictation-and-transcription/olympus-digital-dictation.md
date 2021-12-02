@@ -2,7 +2,7 @@
 title: "Olympus Digital Dictation"
 date: "2020-03-13T11:26:04.733Z"
 url: "functions/encounters/dictation-and-transcription/olympus-digital-dictation.html"
-version: 37
+version: 39
 id: "1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s"
 source: "https://drive.google.com/open?id=1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s"
 menu:

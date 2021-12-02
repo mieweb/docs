@@ -2,7 +2,7 @@
 title: "BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care"
 date: "2020-02-27T20:49:46.111Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-15-engagement-of-patients-family-and-caregivers-in-developing-a-plan-of-care.html"
-version: 12
+version: 13
 id: "1kCuPtPP5z_mmvgci5LjvEWVraB0MhtL5InFLxqanX1k"
 source: "https://drive.google.com/open?id=1kCuPtPP5z_mmvgci5LjvEWVraB0MhtL5InFLxqanX1k"
 menu:

@@ -3,7 +3,7 @@ title: "Device Interface - Vital Signs"
 date: "2020-09-22T18:09:33.593Z"
 url: "functions/system-administration/interfaces/device-interface-vital-signs.html"
 author: Will Reiske
-version: 24
+version: 29
 id: "1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U"
 source: "https://drive.google.com/open?id=1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "Device Interface - Vital Signs"
         identifier: "1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5510
+        weight: 5520
 ---
 The following is referring to a Welch Allyn Spot Vital Signs monitor system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 

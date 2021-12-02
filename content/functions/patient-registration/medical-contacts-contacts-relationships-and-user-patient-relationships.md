@@ -2,7 +2,7 @@
 title: "Medical Contacts - Contacts, Relationships, and User-Patient Relationships"
 date: "2020-03-20T21:13:39.925Z"
 url: "functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.html"
-version: 54
+version: 60
 id: "1_S9E96qZpixBS4IVXO2ZLdEppl1vfUFG0jYFhbNpyf8"
 source: "https://drive.google.com/open?id=1_S9E96qZpixBS4IVXO2ZLdEppl1vfUFG0jYFhbNpyf8"
 menu:

@@ -2,7 +2,7 @@
 title: "TeleHealth Pricing"
 date: "2020-03-31T14:37:42.416Z"
 url: "functions/encounters/telehealth/telehealth-pricing.html"
-version: 33
+version: 35
 id: "1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM"
 source: "https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM"
 ---

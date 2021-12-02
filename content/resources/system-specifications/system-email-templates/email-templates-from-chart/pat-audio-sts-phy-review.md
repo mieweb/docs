@@ -2,7 +2,7 @@
 title: "Pat Audio STS Phy Review"
 date: "2020-02-27T20:38:01.729Z"
 url: "resources/system-specifications/system-email-templates/email-templates-from-chart/pat-audio-sts-phy-review.html"
-version: 13
+version: 14
 id: "1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0"
 source: "https://drive.google.com/open?id=1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Pat Audio STS Phy Review"
         identifier: "1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0"
         parent: "1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ"
-        weight: 6310
+        weight: 6320
 ---
 
 

@@ -10,7 +10,7 @@ menu:
         name: "MIPS: Pick Your Pace"
         identifier: "1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI"
         parent: "1HhuFWjUfqvrqm63msQ9sFRNCPWDjjaCniEXYbWa9cDc"
-        weight: 6710
+        weight: 6720
 ---
 ## MIPS Transition Year 2017
 

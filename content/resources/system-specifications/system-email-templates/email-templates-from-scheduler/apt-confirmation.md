@@ -2,7 +2,7 @@
 title: "Apt Confirmation"
 date: "2020-02-27T20:39:50.764Z"
 url: "resources/system-specifications/system-email-templates/email-templates-from-scheduler/apt-confirmation.html"
-version: 13
+version: 21
 id: "1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg"
 source: "https://drive.google.com/open?id=1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Apt Confirmation"
         identifier: "1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg"
         parent: "1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E"
-        weight: 6540
+        weight: 6550
 ---
 
 

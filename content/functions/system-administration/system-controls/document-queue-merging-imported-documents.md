@@ -1,8 +1,9 @@
 ---
 title: "Document Queue - Merging Imported Documents"
-date: "2020-03-16T22:26:58.823Z"
+date: "2021-09-24T18:21:23.309Z"
 url: "functions/system-administration/system-controls/document-queue-merging-imported-documents.html"
-version: 93
+author: Nick Wallace
+version: 112
 id: "1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA"
 source: "https://drive.google.com/open?id=1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA"
 menu:
@@ -35,10 +36,32 @@ Then click the SEARCH box off to the right.
 
 ## Merge Ratings
 
+Match ratings range from 0 through 9 with the higher rating being more certain it is the same person.
+
 <table>
   <tr>
-    <td>IF DOB MATCH:Search for all patient with the same DOB as the target. (Skip if no DOB known)Rating: 9 - Compare last_name, first_nameRating: 9 - Compare ssnRating: 8 - Compare soundex of last_name, first_nameRating: 7 - Compare first_name <-> last_nameRating: 6 - Compere last_name, first_name[1](First name Initial)Rating: 5 - Compare last_nameRating: 4 - Compare first_nameRating: 3 - Compare soundex first_name</td>
-    <td>ELSE:Search for all patients with last_name_phn, this is only done when DOB is not valid.Rating: 5 - Compare last_name, first_nameRating: 4 - Compare soundex of last_name, first_nameRating: 3 - Compare soundex first_nameRating: 2 - Compare first_name <-> last_nameRating: 1 - Compare first_name[1] (First name Initial)</td>
+    <td>
+**DOB matches and the following criteria apply:**
+
+* Rating 9: Last Name, First Name matches
+* Rating 8: SSN matches
+* Rating 8: Last Name, First Name sound similar (*e.g.,* Bob and Rob)
+* Rating 7: First Name and Last Name are swapped
+* Rating 6: Last Name, First Name Initial matches
+* Rating 5: Only Last Name matches
+* Rating 4: Only First Name matches
+* Rating 3: Only First Name sounds similar (*e.g.,* Bob and Rob)
+    </td>
+    <td>
+**DOB does not match and the following criteria apply:**
+
+* Rating 6: SSN matches
+* Rating 5: Last Name, First Name matches
+* Rating 4: Last Name, First Name sound similar (*e.g.,* Bob and Rob)
+* Rating 3: First Name sounds similar (*e.g.,* Bob and Rob)
+* Rating 2: First Name and Last Name are swapped
+* Rating 1: First Name Initial matches
+    </td>
   </tr>
 </table>
 

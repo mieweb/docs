@@ -2,7 +2,7 @@
 title: "Work Status"
 date: "2020-03-13T12:22:51.837Z"
 url: "functions/injury-care/work-status.html"
-version: 61
+version: 65
 id: "1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0"
 source: "https://drive.google.com/open?id=1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0"
 menu:

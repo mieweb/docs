@@ -2,7 +2,7 @@
 title: "Create Vital Signs File for Import"
 date: "2020-03-17T02:50:33.797Z"
 url: "functions/system-administration/data-migration/create-vital-signs-file-for-import.html"
-version: 31
+version: 32
 id: "1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
 source: "https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
 menu:

@@ -2,7 +2,7 @@
 title: "Allergies and Intolerances"
 date: "2020-02-27T20:05:07.498Z"
 url: "functions/medication-management-and-e-prescribing/allergies-and-intolerances.html"
-version: 64
+version: 66
 id: "1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM"
 source: "https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM"
 menu:

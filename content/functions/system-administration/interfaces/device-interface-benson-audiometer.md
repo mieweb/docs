@@ -2,7 +2,7 @@
 title: "Device Interface - Benson Audiometer"
 date: "2020-05-11T12:19:36.982Z"
 url: "functions/system-administration/interfaces/device-interface-benson-audiometer.html"
-version: 42
+version: 66
 id: "1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0"
 source: "https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - Benson Audiometer"
         identifier: "1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5410
+        weight: 5420
 ---
 This page provides instructions for retrieving results from the Benson software with {{% system-name %}} , and lists the fields that the interface retrieves.
 

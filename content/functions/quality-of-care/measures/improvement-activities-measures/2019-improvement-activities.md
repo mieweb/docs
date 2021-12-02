@@ -3,7 +3,7 @@ title: "2019 Improvement Activities"
 date: "2020-02-27T20:47:27.512Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities.html"
 author: aquandt
-version: 13
+version: 15
 id: "1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU"
 source: "https://drive.google.com/open?id=1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU"
 menu:

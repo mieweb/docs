@@ -2,7 +2,7 @@
 title: "SureScripts Advanced - Medication History Reconciliation"
 date: "2020-02-27T20:07:36.640Z"
 url: "functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.html"
-version: 30
+version: 34
 id: "1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU"
 source: "https://drive.google.com/open?id=1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU"
 menu:

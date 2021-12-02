@@ -1,8 +1,9 @@
 ---
 title: "Observation Flowsheets"
-date: "2020-03-13T20:10:40.457Z"
+date: "2021-11-16T21:21:14.466Z"
 url: "functions/order-and-result-management/observation-flowsheets.html"
-version: 97
+author: Doug Horner
+version: 240
 id: "15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY"
 source: "https://drive.google.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY"
 menu:
@@ -58,9 +59,39 @@ The *New Flowsheet* screen will open.
 
 ![](observation-flowsheets.images/image40.png)
 
+### Edit Observation Items
+
 * Simply click the edit (pencil) icon on the specific observation item within the flowsheet to edit the description. The edit fields for <em>section, conditional and calculation</em> are mainly used by MIE to program specific custom criteria. Click the <em>save</em> button when done editing the description. The ‘description' is what end users will see in the field to key data in when working in an encounter, so use terminology that is recognized to them & your practice.
 
 ![](observation-flowsheets.images/image44.png)
+
+#### Section 
+
+Items that share the same section label will be grouped together.
+
+#### Conditional
+
+Javascript that determines whether or not the item should be shown. 
+
+
+
+* true  (or [Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)) - If the script returns "true" the item will be stored.
+* false (or [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)) - The item will not be stored and in fact wiped out if it had been answered but then changed.
+* hidden - If the script returns the string "hidden" the item will not be shown but will be calculated and stored.  If the script is just the word hidden, you don't need the quotes.
+
+####  Calculation
+
+JavaScript that determines the value of the item/observation. Items that should be shown to the user would be set to conditional:true.  If items should not be shown, but used and stored should be set to conditional: "hidden" 
+
+
+
+
+
+
+
+
+
+
 
 * <strong>Input Type:</strong> Each observation has an input type. This is the method of how the "data" can be keyed in (for that specific observation item) when this flowsheet is used/applied in a dynamic encounter.
 

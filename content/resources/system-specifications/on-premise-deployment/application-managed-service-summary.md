@@ -10,7 +10,7 @@ menu:
         name: "Application Managed Service Summary"
         identifier: "1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o"
         parent: "1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI"
-        weight: 6240
+        weight: 6250
 ---
 ## Terms
 

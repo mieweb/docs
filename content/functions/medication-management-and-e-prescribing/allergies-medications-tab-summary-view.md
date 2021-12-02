@@ -2,7 +2,7 @@
 title: "Allergies/Medications Tab Summary View"
 date: "2020-03-16T14:57:56.799Z"
 url: "functions/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.html"
-version: 64
+version: 67
 id: "1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA"
 source: "https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA"
 menu:
@@ -84,7 +84,7 @@ If your physician is set up to work the e-refills queue, they will now see pendi
 
 IF the physician or any other user has security to MANAGE E-RX REFILLS FOR OTHERS, then they will also see ALL pending e-refill requests specific for that patient and it will denote which prescriber the e-refill is pending for.  These people with rights can work these refills from here also instead of going out to the E-RX tab also.
 
-![](https://lh4.googleusercontent.com/r5hVkxVRO0wxhXx_yc5lDqJA9xI1RvnAbhIGoPiONJ4KWDeX1z5tCENyC6QWlw2BRlSzLylHpyjdRyLh9d8vt31rMnVVZ8MdLmJDYZXC136Puc9PhJT52RTNycUUJCAVMRXP7wxS-6TZrQZpiA)
+![](allergies-medications-tab-summary-view.images/image12.jpg)
 
 ![](allergies-medications-tab-summary-view.images/image11.png)
 

@@ -2,7 +2,7 @@
 title: "Device Interface - Depisteo VT1"
 date: "2020-03-18T14:35:13.634Z"
 url: "functions/system-administration/interfaces/device-interface-depisteo-vt1.html"
-version: 32
+version: 34
 id: "10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg"
 source: "https://drive.google.com/open?id=10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg"
 ---

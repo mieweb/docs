@@ -2,7 +2,7 @@
 title: "Health Surveillance Panels - Action Rules"
 date: "2020-03-13T15:15:41.577Z"
 url: "functions/health-surveillance/health-surveillance-panels-action-rules.html"
-version: 41
+version: 43
 id: "10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc"
 source: "https://drive.google.com/open?id=10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc"
 menu:

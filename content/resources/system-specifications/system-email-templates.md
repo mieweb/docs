@@ -3,7 +3,7 @@ title: "System Email Templates"
 date: "2020-02-27T21:26:58.722Z"
 url: "resources/system-specifications/system-email-templates.html"
 author: aquandt
-version: 18
+version: 20
 id: "1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs"
 source: "https://drive.google.com/open?id=1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs"
 menu:
@@ -11,7 +11,7 @@ menu:
         name: "System Email Templates"
         identifier: "1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs"
         parent: "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU"
-        weight: 6270
+        weight: 6280
 ---
 
 

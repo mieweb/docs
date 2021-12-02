@@ -10,7 +10,7 @@ menu:
         name: "Client Hardware and Software Specifications"
         identifier: "1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA"
         parent: "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU"
-        weight: 6180
+        weight: 6190
 ---
 The following page documents the minimum required hardware and software to properly load and run the web-based  {{% system-name %}} application.
 

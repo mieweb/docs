@@ -3,7 +3,7 @@ title: "Adding transactions to the ledger"
 date: "2021-02-17T22:46:14.361Z"
 url: "functions/financial-functionality/adding-transactions-to-the-ledger.html"
 author: egrzetich
-version: 13
+version: 15
 id: "1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk"
 source: "https://drive.google.com/open?id=1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk"
 ---

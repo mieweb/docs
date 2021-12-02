@@ -36,7 +36,7 @@ When you click SEARCH, it will show your results below it.
 
 This report shows total # at the bottom, then lists individual mr#, patient full name, the medication name that was prescribed, the date/time it was printed or faxed or e-sent (electronically transmitted via SureScripts), the patient's appt date, and the name of the prescribing physician.
 
-![](https://lh6.googleusercontent.com/DUMLCzyIDQU64-aVoVWz8qP6I3nZeZF6GsJUwhmBJypONTbHJbULF8KoNyWDTWwV4Wu-DKeLC6IUw7dbfxAVggXW6lekPrwiyq1fOxCVfRRzvoCFNEMmpDj32xYwB273wUeI5ba3-SSIjozM7g)
+![](e-meds-report.images/image2.jpg)
 
 The Method column tells you if that prescription was printed or faxed.
 

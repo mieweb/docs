@@ -1,8 +1,9 @@
 ---
 title: "Customize Online Help Pop-up Screens"
-date: "2020-02-27T20:20:00.606Z"
+date: "2021-11-17T16:12:49.566Z"
 url: "functions/system-administration/system-controls/customize-online-help-pop-up-screens.html"
-version: 68
+author: Aaron Capriglione
+version: 103
 id: "13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A"
 source: "https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A"
 menu:

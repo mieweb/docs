@@ -2,7 +2,7 @@
 title: "Injection Program Tab - Recording Mass Injections"
 date: "2020-03-16T14:45:42.136Z"
 url: "functions/injection-immunization-management/injection-program-tab-recording-mass-injections.html"
-version: 51
+version: 54
 id: "1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk"
 source: "https://drive.google.com/open?id=1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk"
 menu:

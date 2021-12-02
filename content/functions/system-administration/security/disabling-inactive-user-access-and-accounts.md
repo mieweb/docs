@@ -2,7 +2,7 @@
 title: "Disabling Inactive User Access & Accounts"
 date: "2020-02-27T20:43:05.104Z"
 url: "functions/system-administration/security/disabling-inactive-user-access-and-accounts.html"
-version: 13
+version: 15
 id: "1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY"
 source: "https://drive.google.com/open?id=1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY"
 menu:

@@ -10,7 +10,7 @@ menu:
         name: "Patient Assistance Inventory"
         identifier: "1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5640
+        weight: 5650
 ---
 ## Add Patient Assistance Inventory
 

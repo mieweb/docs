@@ -3,7 +3,7 @@ title: "CMS 130 - Colorectal Cancer Screening"
 date: "2020-02-27T21:30:09.388Z"
 url: "functions/quality-of-care/measures/quality-measures-list/cms-130-colorectal-cancer-screening.html"
 author: aquandt
-version: 16
+version: 17
 id: "17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8"
 source: "https://drive.google.com/open?id=17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8"
 menu:

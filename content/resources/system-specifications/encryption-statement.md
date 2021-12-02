@@ -2,7 +2,7 @@
 title: "Encryption Statement"
 date: "2020-02-27T20:35:59.932Z"
 url: "resources/system-specifications/encryption-statement.html"
-version: 17
+version: 18
 id: "15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA"
 source: "https://drive.google.com/open?id=15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Encryption Statement"
         identifier: "15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA"
         parent: "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU"
-        weight: 6210
+        weight: 6220
 ---
 ## Introduction
 

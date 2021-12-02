@@ -2,7 +2,7 @@
 title: "PM 5 - Engagement of Community for Health Status Improvement"
 date: "2020-02-27T20:53:57.020Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-5-engagement-of-community-for-health-status-improvement.html"
-version: 12
+version: 13
 id: "1_xjeN5G2bvWA_B6Wtaa704PpKIPfR_-p8ILCqdm05sA"
 source: "https://drive.google.com/open?id=1_xjeN5G2bvWA_B6Wtaa704PpKIPfR_-p8ILCqdm05sA"
 menu:

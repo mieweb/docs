@@ -2,7 +2,7 @@
 title: "Managing Departments"
 date: "2020-02-27T19:33:06.713Z"
 url: "functions/system-configuration/managing-departments.html"
-version: 39
+version: 41
 id: "1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0"
 source: "https://drive.google.com/open?id=1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0"
 menu:

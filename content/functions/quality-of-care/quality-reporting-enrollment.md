@@ -2,7 +2,7 @@
 title: "Quality Reporting Enrollment"
 date: "2020-03-20T17:33:15.915Z"
 url: "functions/quality-of-care/quality-reporting-enrollment.html"
-version: 96
+version: 98
 id: "1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk"
 source: "https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk"
 menu:

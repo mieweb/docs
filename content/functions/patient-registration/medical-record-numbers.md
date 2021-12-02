@@ -2,7 +2,7 @@
 title: "Medical Record Numbers"
 date: "2020-02-27T19:35:30.353Z"
 url: "functions/patient-registration/medical-record-numbers.html"
-version: 32
+version: 38
 id: "1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg"
 source: "https://drive.google.com/open?id=1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg"
 menu:

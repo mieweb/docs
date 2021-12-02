@@ -3,7 +3,7 @@ title: "Measures"
 date: "2020-02-27T21:28:53.378Z"
 url: "functions/quality-of-care/measures.html"
 author: aquandt
-version: 16
+version: 29
 id: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
 source: "https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
 menu:

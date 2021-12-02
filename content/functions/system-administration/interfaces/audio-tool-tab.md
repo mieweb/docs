@@ -10,7 +10,7 @@ menu:
         name: "Audio Tool Tab"
         identifier: "1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5400
+        weight: 5410
 ---
 Within {{% system-name %}} , you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. Contact your MIE Implementer for set up. From the *Audio Tool* chart tab you can click Add Audiogram to add data results.
 
@@ -22,7 +22,7 @@ Prior result data displays on the top portion of the Audio tool. If aren't any p
 
 Click the NEW button to manually add audio results or to Import data from an MIE approved integrated device. If you need to edit an existing study on file, click the EDIT button.
 
-![](https://lh6.googleusercontent.com/oFAxjjL516h54pCAF0XvonNMQdxjbq05hJBgifY1CodM4C0VuznhE5-zq-LEj5ysExRBEUQaF4V5VU1aEXtonYQkyZ5yWx30g1FTzDJEeqdvQQE5hK-oj6Gy5rukF-fxVWqwbz4tXC5MP2K6ug)
+![](audio-tool-tab.images/image2.jpg)
 
 For manual entry:
 
@@ -33,7 +33,7 @@ Enter results from the device output
 
 Manually enter New or Edit existing results for left ear, right ear, test date, calibration date and outside service provider and location if applicable, then click the SAVE button. The user may at any time click the CANCEL button to cancel data entry.
 
-![](https://lh5.googleusercontent.com/ZuJR4kq8lfjvarVeORQ3Kt64ykxxK1nYcXC3RVHzeWMs-ZsZPDqtW_eP1mGjyUOsujvfJmjCAIxznYDGdqxZts062GqDfHHkXmNCtEPoad8ScDkrSh7fn30J7KUCxiS1Qjcor-VTEHZZhD3AtA)
+![](audio-tool-tab.images/image5.jpg)
 
 Once saved, you will get confirmation. Click OK to close success message.
 
@@ -67,13 +67,13 @@ Regardless of manual or imported results, the user should ask the patient the mi
 
 The user may select a prior Audio result (baseline- highlighted in neon green) and compare it to any other previous result dated after the baseline. Comparison results will calculate any shift in hearing and adjust for normal age corrected hearing deficits. The system will then analyze the results and determine if the shifts in hearing are Stable or if a shift has occurred that would be recordable to OSHA.
 
-![](https://lh4.googleusercontent.com/2bbhG5txsVMo0WiVO_MiHTnKVeJ8GkidAJccZTgq3Z3uLtbvt-gsdkJ3iLFN0JJU0lpPQDxsF5qzAkZ_6lEYoK50OfLiRGpZGKtUbktlNnAJ9FJh_Xr78PKqG5FhfXk8jlNP5KhKcvJCZEX98w)
+![](audio-tool-tab.images/image12.jpg)
 
 A Standard Threshold Shift, or STS, is defined as a change in hearing threshold, relative to the baseline audiogram, of an average of 10 decibels (dB) or more at the 2, 3, 4 kHz in one or both ears. If an employee's hearing test reveals that the employee has experienced a work-related Standard Threshold Shift (STS) in hearing in one or both ears, and the employee's hearing level is 25 decibels (dB) or more above audiometric zero (averaged at 2, 3, 4 kHz) in the same ear(s) as the STS, an employer must record the case on the OSHA 300 Log.
 
 Audio Results display with a "Non Age Corrected Shift" and "Age Corrected Shift".  Providers should use the Corrected STS based on the appropriate standard mandated by corporate, state or federal guidelines. Example 1: Company XYZ medical protocol may require all STS's are calculated using an age corrected shift. Example 2: The State of Oregon law requires all STS's be calculated without using age correction. Example 3: some OSHA panels, like Mining Health Surveillance, require results be calculated without age correction. Clinicians and Reviewing Medical Officers should reference their company standard operating procedures for appropriate guidelines to be followed.
 
-![](https://lh5.googleusercontent.com/s1FrPnu-jSZAlBzxNdWROQbmj-sP16eroYVgcQLZY9rsx5sBlkOJoqbbmKyScNVBtKmEWkYnIk9SH55KN_Q_iZI5W4D4GXmnWCu3fEU-k73RLL3XfFvZpUTGW1cx0LxHSEialqMNQxATVyYWfA)
+![](audio-tool-tab.images/image10.jpg)
 
 By system default, if a STS is NOT detected, the "Analysis" field will display as ‘Stable' and the "Possible OSHA Recordable" field will display as ‘no'. If a STS is detected, the "Analysis" field will display with a red ‘STS' and the "Possible OSHA Recordable" field will display as ‘yes'.
 
@@ -81,11 +81,11 @@ Upon request, both the age shift criteria and the guidelines to flag a possible 
 
 Upon saving the Audiogram results, the user is prompted with a message that states the audiogram has successfully saved.
 
-![](https://lh3.googleusercontent.com/NXMgHDr-MgRYsQJmpjKcCiQlWZV7GG-Ga6d1Fly3QEYWT3j7I8gpbeZwslF-78NNig4TxMFC5WYuPgSd8HXjCHbAHIDAEHNM-mwbEmr2JCqr2134tAwgHlGH-SddeJ7oSTyaNM8uaz9o8yz1jw)
+![](audio-tool-tab.images/image11.jpg)
 
 In the event an STS has been detected a second pop up message will display warning the user that an STS has been detected and to retest any employees in the Hearing Conservation Program within 21 days.  All other patients/employees should be counseled or appropriate referrals made as considered by the clinician.
 
-![](https://lh4.googleusercontent.com/Ihc0FPxWjn67SYmG0zxx8zI3rzy0finHsnxCNLty1ZFrjAcT2ZAWXUGW_2HUyY04GwWhemPyOlzb9GDkVHxzoGcUJySekRuVjo0jEmSrW5eCWH7Hx_aRJuk4EDzhc_fmwImt2_ifpigqQ1nZKg)
+![](audio-tool-tab.images/image13.jpg)
 
 The system default warning notifies the user to retest *within* 21 days.  OSHA requires the employee be retested *within* 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** *See other online help guide named Cases-Adding OSHA Case.pdf*
 

@@ -2,7 +2,7 @@
 title: "Device Interface - Piccolo System"
 date: "2020-02-27T20:28:32.748Z"
 url: "functions/system-administration/interfaces/device-interface-piccolo-system.html"
-version: 19
+version: 20
 id: "1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4"
 source: "https://drive.google.com/open?id=1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - Piccolo System"
         identifier: "1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5490
+        weight: 5500
 ---
 The following is referring to a blood chemistry analyzer Abaxis Piccolo Xpress system. Contact your MIE Implementer to see if your piccolo system model can be interfaced or quoted.
 

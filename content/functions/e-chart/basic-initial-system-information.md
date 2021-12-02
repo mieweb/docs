@@ -2,7 +2,7 @@
 title: "Basic Initial System Information"
 date: "2020-03-24T16:00:49.374Z"
 url: "functions/e-chart/basic-initial-system-information.html"
-version: 50
+version: 51
 id: "1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8"
 source: "https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8"
 menu:

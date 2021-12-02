@@ -2,7 +2,7 @@
 title: "Side Chart Configuration"
 date: "2020-03-05T17:32:44.289Z"
 url: "functions/system-configuration/side-chart-configuration.html"
-version: 36
+version: 40
 id: "1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng"
 source: "https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng"
 menu:

@@ -2,7 +2,7 @@
 title: "PSPA 20 - Leadership Engagement in Regular Guidance and Demonstrated Commitment for Implementing Practice Improvement Changes"
 date: "2020-02-27T20:55:07.595Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-20-leadership-engagement-in-regular-guidance-and-demonstrated-commitment-for-implementing-practice-improvement-changes.html"
-version: 12
+version: 13
 id: "1XJaIz-xHIJbNfDf0Jgdh1GIdXJYzKJGPGujFrCQxTCI"
 source: "https://drive.google.com/open?id=1XJaIz-xHIJbNfDf0Jgdh1GIdXJYzKJGPGujFrCQxTCI"
 menu:

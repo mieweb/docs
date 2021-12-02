@@ -152,7 +152,7 @@ You can edit (revise) an uploaded word document in a patient's chart as usual. S
 
 When you click the *edit* link, the *edit document properties* window will open. It will show you what CC users/physicians are already tied to that uploaded word document. You can add another at this time by clicking the Add link in the CC user field, or remove one, etc.
 
-![](https://lh4.googleusercontent.com/z0zp6X1lNag0ief6CWcNd1l7JI5SIFdNO1wzutOPL1YPN9O5aYNXNagKLJQN54bTe5f9xsv0XORxDF7ODCVzx7jnIiE0iP9bYbS4i-_SP1cB-wfdzZ8Kk-8mCNBkURk8ovp6KUodIqYd5jwbfA)
+![](word-documents-cc-physicians-feature.images/image17.jpg)
 
 Depending on what the CC'd users are set to for *send on status*, if you make a revision—the route may be set up to send the revised document also to the CC'd user (see *send on* field in above previous page 3 steps).
 

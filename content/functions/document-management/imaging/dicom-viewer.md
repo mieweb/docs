@@ -3,7 +3,7 @@ title: "DICOM Viewer"
 date: "2020-03-09T19:36:52.318Z"
 url: "functions/document-management/imaging/dicom-viewer.html"
 author: aquandt
-version: 36
+version: 40
 id: "1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0"
 source: "https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0"
 menu:

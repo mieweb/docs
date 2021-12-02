@@ -2,7 +2,7 @@
 title: "PSPA 6 - Consultation of the Prescription Drug Monitoring Program"
 date: "2020-02-27T20:55:58.769Z"
 url: "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-6-consultation-of-the-prescription-drug-monitoring-program.html"
-version: 12
+version: 15
 id: "1mAhBSisvHCBxBX1-Tf736vMlK11LbTtsGBIv-0iEJs8"
 source: "https://drive.google.com/open?id=1mAhBSisvHCBxBX1-Tf736vMlK11LbTtsGBIv-0iEJs8"
 menu:

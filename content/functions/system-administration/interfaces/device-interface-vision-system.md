@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - Vision System"
         identifier: "1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5500
+        weight: 5510
 ---
 The following is referring to a Vision - Titmus i500 system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 

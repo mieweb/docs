@@ -2,7 +2,7 @@
 title: "Apt Released to Full Duty"
 date: "2020-02-27T20:40:22.564Z"
 url: "resources/system-specifications/system-email-templates/email-templates-from-scheduler/apt-released-to-full-duty.html"
-version: 13
+version: 14
 id: "16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4"
 source: "https://drive.google.com/open?id=16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Apt Released to Full Duty"
         identifier: "16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4"
         parent: "1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E"
-        weight: 6630
+        weight: 6640
 ---
 
 

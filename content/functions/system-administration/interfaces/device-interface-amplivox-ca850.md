@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - Amplivox CA850"
         identifier: "1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5390
+        weight: 5400
 ---
 This page provides instructions for retrieving results from the Amplivox CA850 and Amplivox PC850 audiometers with Enterprise Health (EH), and lists the fields that the interface retrieves.
 

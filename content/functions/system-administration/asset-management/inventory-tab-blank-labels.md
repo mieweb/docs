@@ -10,7 +10,7 @@ menu:
         name: "Inventory Tab - Blank Labels"
         identifier: "1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5650
+        weight: 5660
 ---
 If your system is set up to print Blank labels on special label paper, the Blank Labels tab can be found in the sidemenu tab of Inventory.
 

@@ -3,6 +3,8 @@ type: page
 ---
  * Diagrams
  * Functions
+  * Absence Management
+   * [Absence Management Workflow](functions/absence-management/absence-management-workflow.html)
   * Document Management
    * Documents & Forms
     * [Add Document - Legacy View vs. Current View](functions/document-management/documents-and-forms/add-document-legacy-view-vs.-current-view.html)
@@ -119,7 +121,6 @@ type: page
     * [Patient Education](functions/encounters/landingpages/patient-education.html)
     * [Plan Narrative](functions/encounters/landingpages/plan-narrative.html)
     * [Recommendations](functions/encounters/landingpages/recommendations.html)
-    * [Smart Plan](functions/encounters/landingpages/smart-plan.html)
     * [Social History](functions/encounters/landingpages/social-history.html)
     * [Tests and Procedures](functions/encounters/landingpages/tests-and-procedures.html)
     * [Visit Orders](functions/encounters/landingpages/visit-orders.html)
@@ -591,7 +592,7 @@ type: page
     * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.html)
     * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.html)
     * [Device Interface - Titmus V4](functions/system-administration/interfaces/device-interface-titmus-v4.html)
-    * [Device Interface - Tremetrics RA500](functions/system-administration/interfaces/device-interface-tremetrics-ra500.html)
+    * [Device Interface - Tremetrics RA500 , RA300, RA800](functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.html)
     * [Device Interface - Vision System](functions/system-administration/interfaces/device-interface-vision-system.html)
     * [Device Interface - Vital Signs](functions/system-administration/interfaces/device-interface-vital-signs.html)
     * [Device Interface - Welch Allyn CardioPerfect](functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.html)
@@ -602,7 +603,9 @@ type: page
     * [MammoTrack Chart Tab](functions/system-administration/interfaces/mammotrack-chart-tab.html)
     * [MammoTrack Sidemenu](functions/system-administration/interfaces/mammotrack-sidemenu.html)
     * [Outbound Interface Install Instructions](functions/system-administration/interfaces/outbound-interface-install-instructions.html)
+    * [Outbound Sample HL7 Messages](functions/system-administration/interfaces/outbound-sample-hl7-messages.html)
     * [Patient Education Interface](functions/system-administration/interfaces/patient-education-interface.html)
+    * [Receiving HL7 Messages from System](functions/system-administration/interfaces/receiving-hl7-messages-from-system.html)
     * [Sample HL7 Messages](functions/system-administration/interfaces/sample-hl7-messages.html)
     * [Sending HL7 Messages to System](functions/system-administration/interfaces/sending-hl7-messages-to-system.html)
     * [Setup Custom Pharmacy](functions/system-administration/interfaces/setup-custom-pharmacy.html)
@@ -611,6 +614,7 @@ type: page
     * [ADFS 3.0 Configuration for SSO](functions/system-administration/security/adfs-3.0-configuration-for-sso.html)
     * [Compare Security Roles](functions/system-administration/security/compare-security-roles.html)
     * [Disabling Inactive User Access & Accounts](functions/system-administration/security/disabling-inactive-user-access-and-accounts.html)
+    * [Multi-Factor Authentication MFA](functions/system-administration/security/multi-factor-authentication-mfa.html)
     * [My Settings](functions/system-administration/security/my-settings.html)
     * [SAML-Based Single Sign-On](functions/system-administration/security/saml-based-single-sign-on.html)
     * [Security Role Settings](functions/system-administration/security/security-role-settings.html)
@@ -680,6 +684,7 @@ type: page
   * [Injection/Immunization Management](functions/injection-immunization-management.html)
   * [Injury Care](functions/injury-care.html)
   * [Medication Management & E-Prescribing](functions/medication-management-and-e-prescribing.html)
+  * [Meeting Minutes - RRH](functions/meeting-minutes-rrh.html)
   * [Order & Result Management](functions/order-and-result-management.html)
   * [Patient Registration](functions/patient-registration.html)
   * [Portal Management](functions/portal-management.html)
@@ -696,6 +701,8 @@ type: page
    * [Absence Management](programs/compliance-programs/absence-management.html)
    * [Medical Surveillance](programs/compliance-programs/medical-surveillance.html)
    * [Worksite Injury & Illness](programs/compliance-programs/worksite-injury-and-illness.html)
+  * EHR Certification
+   * [Real World Testing Plan 2021](programs/ehr-certification/real-world-testing-plan-2021.html)
   * Medical Programs
    * Occupational Medicine
     * [Medical Clearance](programs/medical-programs/occupational-medicine/medical-clearance.html)
@@ -811,6 +818,10 @@ type: page
      * [Default](resources/system-specifications/system-email-templates/email-templates-from-scheduler/default.html)
     * [Email Templates from Chart](resources/system-specifications/system-email-templates/email-templates-from-chart.html)
     * [Email Templates from Scheduler](resources/system-specifications/system-email-templates/email-templates-from-scheduler.html)
+   * VPAT
+    * [Clinical Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/clinical-portal-voluntary-product-accessibility-template-vpat.html)
+    * [Employer Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/employer-portal-voluntary-product-accessibility-template-vpat.html)
+    * [Patient Portal Voluntary Product Accessibility Template (VPAT)](resources/system-specifications/vpat/patient-portal-voluntary-product-accessibility-template-vpat.html)
    * [Application Programming Interface (API)](resources/system-specifications/application-programming-interface-api.html)
    * [CCDA, CCD and CCR Compatibility](resources/system-specifications/ccda-ccd-and-ccr-compatibility.html)
    * [Client Hardware and Software Specifications](resources/system-specifications/client-hardware-and-software-specifications.html)

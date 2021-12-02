@@ -10,7 +10,7 @@ menu:
         name: "Device Interface - Cholestech LDX"
         identifier: "11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5450
+        weight: 5460
 ---
 The following is referring to a Cholestech LDX system. Contact your MIE Implementer to see if your Cholesterol system model can be interfaced or quoted.
 

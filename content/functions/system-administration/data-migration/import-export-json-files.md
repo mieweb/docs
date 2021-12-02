@@ -1,8 +1,9 @@
 ---
 title: "Import/Export JSON Files"
-date: "2020-03-17T03:25:07.588Z"
+date: "2021-08-26T12:03:20.282Z"
 url: "functions/system-administration/data-migration/import-export-json-files.html"
-version: 34
+author: Sara Riecke
+version: 40
 id: "13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
 source: "https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
 menu:
@@ -12,7 +13,7 @@ menu:
         parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
         weight: 4850
 ---
-The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the *System Configurator*.
+                                                                                                 The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the *System Configurator*.
 
 Users with proper permissions can create JSON files of the following sections/modules:
 

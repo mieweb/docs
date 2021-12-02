@@ -2,7 +2,7 @@
 title: "Editing Encounter Dictations"
 date: "2020-03-12T20:59:42.218Z"
 url: "functions/encounters/dictation-and-transcription/editing-encounter-dictations.html"
-version: 32
+version: 34
 id: "1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4"
 source: "https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4"
 menu:

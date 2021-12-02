@@ -2,7 +2,7 @@
 title: "SureScripts Advanced - Formulary and Dosing"
 date: "2020-02-27T20:07:27.795Z"
 url: "functions/medication-management-and-e-prescribing/surescripts-advanced-formulary-and-dosing.html"
-version: 39
+version: 48
 id: "1gT7EBIu-7OE1aAdVGs5iI01pV8flTBqMVvxV1a8Ui-8"
 source: "https://drive.google.com/open?id=1gT7EBIu-7OE1aAdVGs5iI01pV8flTBqMVvxV1a8Ui-8"
 menu:

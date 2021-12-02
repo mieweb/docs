@@ -2,7 +2,7 @@
 title: "Inventory Module Settings"
 date: "2020-02-27T20:31:40.529Z"
 url: "functions/system-administration/asset-management/inventory-module-settings.html"
-version: 38
+version: 41
 id: "1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I"
 source: "https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Inventory Module Settings"
         identifier: "1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5670
+        weight: 5680
 ---
 ![](inventory-module-settings.images/image4.png)
 

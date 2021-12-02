@@ -1,8 +1,9 @@
 ---
 title: "Partition Manager"
-date: "2020-03-16T22:54:37.896Z"
+date: "2021-11-11T15:00:57.459Z"
 url: "functions/system-administration/system-controls/partition-manager.html"
-version: 32
+author: Jessie Valdez
+version: 56
 id: "1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU"
 source: "https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU"
 menu:

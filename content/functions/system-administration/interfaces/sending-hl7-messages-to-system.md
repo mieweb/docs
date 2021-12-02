@@ -1,9 +1,9 @@
 ---
 title: "Sending HL7 Messages to System"
-date: "2020-02-28T15:31:21.269Z"
+date: "2021-09-24T18:53:50.652Z"
 url: "functions/system-administration/interfaces/sending-hl7-messages-to-system.html"
-author: aquandt
-version: 21
+author: Nick Wallace
+version: 54
 id: "1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw"
 source: "https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw"
 menu:
@@ -11,13 +11,13 @@ menu:
         name: "Sending HL7 Messages to System"
         identifier: "1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5350
+        weight: 5360
 ---
 The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 
 {{% anchor sys="assumptions" %}}
 
-Assumptions
+#### Assumptions
 
 The following assumptions have been made concerning the implementation of the interface:
 
@@ -54,7 +54,7 @@ When the HL7 Interface processes an inbound message, it sends back an acknowledg
 
 #### HL7 RESTful POST
 
-It is possible to send HL7 messages over a restful webservice post using HTTPS. It is recommended to use a multi-part/form POST content type to properly encode the variables and the message itself. The webservice requires specific variables to exist within the POST, included are unique login credentials provided at the start of the interface project.
+It is possible to send HL7 messages over a restful web service post using HTTPS. It is recommended to use a multi-part/form POST content type to properly encode the variables and the message itself. The webservice requires specific variables to exist within the POST, included are unique login credentials provided at the start of the interface project.
 
 [HL7 - RESTful](hl7-restful.html)
 
@@ -76,55 +76,55 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 
 ### Scheduling (SIU)
 
-* SIU^S12 : MSH SCH [ PID ] [ NTE ] [ PV1 ] [ DG1 ] [ RGS ] [ AIG ] AIL [ AIP ]
-* SIU^S14 : MSH SCH [ PID ] [ NTE ] [ PV1 ] [ DG1 ] [ RGS ] [ AIG ] AIL [ AIP ]
-* SIU^S15 : MSH SCH [ PID ] [ NTE ] [ PV1 ] [ DG1 ] [ RGS ] [ AIG ] [ AIL ] [ AIP ]
+* [SIU^S12](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [SCH](hl7-segment-definitions.html) [ [PID](hl7-segment-definitions.html) ] [ [NTE](hl7-segment-definitions.html) ] [ [PV1](hl7-segment-definitions.html) ] [ [DG1](hl7-segment-definitions.html) ] [ [RGS](hl7-segment-definitions.html) ] [ [AIG](hl7-segment-definitions.html) ] [AIL](hl7-segment-definitions.html) [ [AIP](hl7-segment-definitions.html) ]
+* [SIU^S14](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [SCH](hl7-segment-definitions.html) [ [PID](hl7-segment-definitions.html) ] [ [NTE](hl7-segment-definitions.html) ] [ [PV1](hl7-segment-definitions.html) ] [ [DG1](hl7-segment-definitions.html) ] [ [RGS](hl7-segment-definitions.html) ] [ [AIG](hl7-segment-definitions.html) ] [AIL](hl7-segment-definitions.html) [ [AIP](hl7-segment-definitions.html) ]
+* [SIU^S15](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [SCH](hl7-segment-definitions.html) [ [PID](hl7-segment-definitions.html) ] [ [NTE](hl7-segment-definitions.html) ] [ [PV1](hl7-segment-definitions.html) ] [ [DG1](hl7-segment-definitions.html) ] [ [RGS](hl7-segment-definitions.html) ] [ [AIG](hl7-segment-definitions.html) ] [ [AIL](hl7-segment-definitions.html) ] [ [AIP](hl7-segment-definitions.html) ]
 
 {{% anchor sys="patient_registration" %}}
 
-Patient Registration (ADT)
+### Patient Registration (ADT)
 
-* ADT^A01 : MSH [ EVN ] PID [ PV1 ] < PV2 > < IN1 >
-* ADT^A04 : MSH [ EVN ] PID [ PV1 ] [ DG1 ] [ GT1 ] < IN1 < IN2 > >
-* ADT^A08 : MSH [ EVN ] PID [ PV1 ] [ DG1 ] [ GT1 ] < IN1 < IN2 > >
-* ADT^A40 : MSH EVN { PID [ PD1 ] MRG [ PV1 ] }
+* [ADT^A01](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [ [EVN](hl7-segment-definitions.html) ] [PID](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] < [PV2](hl7-segment-definitions.html) > < [IN1](hl7-segment-definitions.html) >
+* [ADT^A04](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [ [EVN](hl7-segment-definitions.html) ] [PID](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] [ [DG1](hl7-segment-definitions.html) ] [ [GT1](hl7-segment-definitions.html) ] < [IN1](hl7-segment-definitions.html) < [IN2](hl7-segment-definitions.html) > >
+* [ADT^A08](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [ [EVN](hl7-segment-definitions.html) ] [PID](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] [ [DG1](hl7-segment-definitions.html) ] [ [GT1](hl7-segment-definitions.html) ] < [IN1](hl7-segment-definitions.html) < [IN2](hl7-segment-definitions.html) > >
+* [ADT^A40](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [EVN](hl7-segment-definitions.html) { [PID](hl7-segment-definitions.html) [ [PD1](hl7-segment-definitions.html) ] [MRG](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] }
 
 {{% anchor sys="lab_results" %}}
 
-Lab Results (ORU)
+### Lab Results (ORU)
 
-* ORU^R01: MSH PID [ PV1 ] {ORC { OBR { OBX < NTE > } }}
-* ORU^R03: MSH PID [ PV1 ] {ORC { OBR { OBX < NTE > } }}
+* [ORU^R01](sample-hl7-messages.html): [MSH](hl7-segment-definitions.html) [PID](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] {[ORC](hl7-segment-definitions.html) { [OBR](hl7-segment-definitions.html) { [OBX](hl7-segment-definitions.html) < [NTE](hl7-segment-definitions.html) > } }}
+* [ORU^R03](sample-hl7-messages.html): [MSH](hl7-segment-definitions.html) [PID](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] {[ORC](hl7-segment-definitions.html) { [OBR](hl7-segment-definitions.html) { [OBX](hl7-segment-definitions.html) < [NTE](hl7-segment-definitions.html) > } }}
 
 {{% anchor sys="lab_orders" %}}
 
-Lab Orders (ORM)
+### Lab Orders (ORM)
 
-* ORM^O01: MSH PID <NTE> [ PV1 ] [ PV2 ] <IN1> [ GT1 ] { ORC { OBR <NTE> <DG1> <OBX> } } [ ZPA ] [ ZIL ]
+* [ORM^O01](sample-hl7-messages.html): [MSH](hl7-segment-definitions.html) [PID](hl7-segment-definitions.html) <[NTE](hl7-segment-definitions.html)> [ [PV1](hl7-segment-definitions.html) ] [ [PV2](hl7-segment-definitions.html) ] <[IN1](hl7-segment-definitions.html)> [ [GT1](hl7-segment-definitions.html) ] { [ORC](hl7-segment-definitions.html) { [OBR](hl7-segment-definitions.html) <[NTE](hl7-segment-definitions.html)> <[DG1](hl7-segment-definitions.html)> <[OBX](hl7-segment-definitions.html)> } } [ [ZPA](hl7-segment-definitions.html) ] [ [ZIL](hl7-segment-definitions.html) ]
 
 ### Documents (MDM)
 
-* MDM^T02 : MSH [ EVN ] PID [ PV1 ] TXA { OBX }
+* [MDM^T02](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [ [EVN](hl7-segment-definitions.html) ] [PID](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] [TXA](hl7-segment-definitions.html) { [OBX](hl7-segment-definitions.html) }
 
 {{% anchor sys="financial_transactions" %}}
 
-Financial Transactions (DFT)
+### Financial Transactions (DFT)
 
-* DFT^P03 : MSH [ EVN ] PID [ PV1 ] <OBX> { FT1 < PR1 >} < DG1 > [ GT1 ] < IN1 < IN2 > >
+* DFT^P03 : [MSH](hl7-segment-definitions.html) [ [EVN](hl7-segment-definitions.html) ] [PID](hl7-segment-definitions.html) [ [PV1](hl7-segment-definitions.html) ] <[OBX](hl7-segment-definitions.html)> { [FT1](hl7-segment-definitions.html) < [PR1](hl7-segment-definitions.html) >} < [DG1](hl7-segment-definitions.html) > [ [GT1](hl7-segment-definitions.html) ] < [IN1](hl7-segment-definitions.html) < [IN2](hl7-segment-definitions.html) > >
 
 ### Acknowledgement (ACK) message
 
-* ACK : MSH MSA [ ERR ] < ZTN > < ZDG >
+* [ACK](sample-hl7-messages.html) : [MSH](hl7-segment-definitions.html) [MSA](hl7-segment-definitions.html) [ [ERR](hl7-segment-definitions.html) ] < [ZTN](hl7-segment-definitions.html) > < [ZDG](hl7-segment-definitions.html) >
 
 ## Field Definitions
 
 {{% anchor sys="responsible-observer" %}}
 
-Responsible Observer
+### Responsible Observer
 
 Logic when processing Responsible Observer for hl7 v2.3 messages:
 
-OBX 16 (responsible observer) is used to set the performing lab facility, which is stored as a user in {{% system-name %}} . The obx 16.1 value can auto create a user or it can be mapped to a user in {{% system-name %}}  depending on the user setting for OBX user in the hl7 configuration. If auto creating the user is configured, the other XCN sub compent values in OBX 16 are used to create the lab facility user. If we are translating the values in OBX 16.1 the user in {{% system-name %}} will be manually created with the correct lab contact name, address, etc... Even if the user is Auto created, the User's information can be corrected or amended by editing the user account in {{% system-name %}} .
+OBX 16 (responsible observer) is used to set the performing lab facility, which is stored as a user in {{% system-name %}} . The obx 16.1 value can auto create a user or it can be mapped to a user in {{% system-name %}}  depending on the user setting for OBX user in the hl7 configuration. If auto creating the user is configured, the other XCN sub component values in OBX 16 are used to create the lab facility user. If we are translating the values in OBX 16.1 the user in {{% system-name %}} will be manually created with the correct lab contact name, address, etc... Even if the user is Auto created, the User's information can be corrected or amended by editing the user account in {{% system-name %}} .
 
 
 
@@ -146,5 +146,5 @@ If the hl7 version is 2.5.1 or higher, the OBX 24 (performing organization addre
 {{% /note %}}
 
 
-When displaying the laboratory results in {{% system-name %}} the system polls all of the observations stored together at the Result level (OBR) it will then display the common lab between the obsevations at the end of the result. Any observation that has a differing lab facility, that facility is then printed in line with the observation.
+When displaying the laboratory results in {{% system-name %}} the system polls all of the observations stored together at the Result level (OBR) it will then display the common lab between the observations at the end of the result. Any observation that has a differing lab facility, that facility is then printed in line with the observation.
 

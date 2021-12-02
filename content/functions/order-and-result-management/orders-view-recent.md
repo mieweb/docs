@@ -80,7 +80,7 @@ X out of the view screen when done to get back to {{% system-name %}} .
 
 If you see an option link named View Results it means a document has been linked to this order. So, there could be the lab report with the patient's lab results linked to this specific lab e-order. *See other help documentation named Link Document to E-Order.pdf* You can link documents to orders from the indexing module or while in this e-orders module marking an order complete. When any document is linked to a specific order item(s) you can view the result directly here or go to the document and see what orders it's linked to via it's properties.
 
-![](https://lh6.googleusercontent.com/FHA7sQCHGYKTULYUfaHFWOzev3Rsu6ayLJXTT0svzulQRcCjGvJKiKPg_qYHKC7UFwxam7x9s7DBqMCL6ogVvkDgpiZURCUCWa0Yo79wTMTbLrn8ODKyD_6pTD4YPSE_wlxRGdRL8seOZk7fhA)
+![](orders-view-recent.images/image26.jpg)
 
 ## Complete Orders
 

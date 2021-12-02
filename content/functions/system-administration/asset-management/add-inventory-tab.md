@@ -2,7 +2,7 @@
 title: "Add Inventory Tab"
 date: "2020-02-27T20:30:16.149Z"
 url: "functions/system-administration/asset-management/add-inventory-tab.html"
-version: 18
+version: 19
 id: "1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88"
 source: "https://drive.google.com/open?id=1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88"
 menu:
@@ -10,7 +10,7 @@ menu:
         name: "Add Inventory Tab"
         identifier: "1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5630
+        weight: 5640
 ---
 Add Inventory Tab is located within the sidemenu tab named *Inventory*. The *Add Inventory* tab is where you go to add inventory quantity and details to begin dispensing from your inventory module or to add quantity and details of more inventory items received from your supplier that you want to add to your current inventory.
 

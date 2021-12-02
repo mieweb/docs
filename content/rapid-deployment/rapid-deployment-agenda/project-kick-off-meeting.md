@@ -10,7 +10,7 @@ menu:
         name: "Project Kick-off Meeting"
         identifier: "1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI"
         parent: "1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8"
-        weight: 5760
+        weight: 5770
 ---
 ## Purpose
 

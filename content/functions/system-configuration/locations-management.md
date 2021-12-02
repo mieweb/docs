@@ -2,7 +2,7 @@
 title: "Locations Management"
 date: "2020-03-05T17:06:16.370Z"
 url: "functions/system-configuration/locations-management.html"
-version: 63
+version: 72
 id: "1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs"
 source: "https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs"
 menu:

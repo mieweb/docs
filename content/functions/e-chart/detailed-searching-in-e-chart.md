@@ -2,7 +2,7 @@
 title: "Detailed Searching in E-Chart"
 date: "2020-03-09T20:46:38.676Z"
 url: "functions/e-chart/detailed-searching-in-e-chart.html"
-version: 33
+version: 34
 id: "1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY"
 source: "https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY"
 menu:

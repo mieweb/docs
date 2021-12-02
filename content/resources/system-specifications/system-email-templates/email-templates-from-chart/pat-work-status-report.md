@@ -11,7 +11,7 @@ menu:
         name: "Pat Work Status Report"
         identifier: "1-uWUd3qtMjl7jbVj2WOl_XdUABpr_akxuKvuMtqiLqs"
         parent: "1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ"
-        weight: 6500
+        weight: 6510
 ---
 
 

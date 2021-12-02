@@ -3,7 +3,7 @@ title: "E-Chart Scan Documents"
 date: "2020-03-09T19:33:19.747Z"
 url: "functions/document-management/documents-and-forms/e-chart-scan-documents.html"
 author: aquandt
-version: 68
+version: 72
 id: "1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc"
 source: "https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc"
 menu:

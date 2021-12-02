@@ -10,7 +10,7 @@ menu:
         name: "MammoTrack Sidemenu"
         identifier: "1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0"
         parent: "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q"
-        weight: 5330
+        weight: 5340
 ---
 Click *MammoTrack* from left sidebar tab. This opens the specific tabs related to mammograms. It shows all data related to patients who have or have had mammograms tracked in the system and their mammogram result.
 

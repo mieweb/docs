@@ -10,7 +10,7 @@ menu:
         name: "Inventory Weekly Review"
         identifier: "1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I"
         parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5720
+        weight: 5730
 ---
 The Weekly Review Inventory Tab is located within the sidemenu tab named *Inventory*.
 

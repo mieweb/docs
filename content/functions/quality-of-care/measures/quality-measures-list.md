@@ -1,9 +1,9 @@
 ---
 title: "Quality Measures List"
-date: "2020-02-27T21:26:45.248Z"
+date: "2021-06-18T14:15:49.199Z"
 url: "functions/quality-of-care/measures/quality-measures-list.html"
-author: aquandt
-version: 18
+author: Nicole Richardson
+version: 33
 id: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
 source: "https://drive.google.com/open?id=14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
 menu:
@@ -13,6 +13,14 @@ menu:
         parent: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
         weight: 3760
 ---
+Updated for 2021 and new UI
+
+
+
+
+
+Previous Documentation
+
 [CMS68](quality-measures-list/cms-68-documentation-of-current-medications-in-the-medical-record.html)
 
 [CMS125](quality-measures-list/cms-125-breast-cancer-screening.html)

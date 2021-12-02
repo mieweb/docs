@@ -10,7 +10,7 @@ menu:
         name: "Pat Portal Message Notification"
         identifier: "17Gz_wwFB0iRCXgnKBKGdUo-d7mxuDiSItN0TlCQSzb4"
         parent: "1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ"
-        weight: 6460
+        weight: 6470
 ---
 
 

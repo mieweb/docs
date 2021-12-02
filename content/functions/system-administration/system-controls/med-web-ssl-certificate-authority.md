@@ -1,8 +1,9 @@
 ---
 title: "Med-Web SSL Certificate Authority"
-date: "2020-03-16T23:30:25.696Z"
+date: "2021-10-06T02:38:47.400Z"
 url: "functions/system-administration/system-controls/med-web-ssl-certificate-authority.html"
-version: 22
+author: Dave Cornewell
+version: 31
 id: "1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58"
 source: "https://drive.google.com/open?id=1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58"
 menu:
@@ -49,7 +50,7 @@ Before we begin consider skipping to step 44 and request that someone from Tech 
 5. At the Certificate Store screen click Next
 6. Complete the installation by clicking Finish
 7. You should see a message that says the import was successful
-8. Now, since you are doing this on a Windows PC, Microsoft will have, more than likely, installed the cert in an entirely useless place. You see, there is a very specific structure to the way that certs are stored on a Windows PC, well, in any computer OS actually. So, regardless of the fact that the cert is for a trusted CA, it will have been placed in a seemingly random location, but most assuredly some other location than that which stores the trusted Certificate Authority certificates. You will most likely continue to see the same SSL error that you had seen prior to steps 1-7. You may now blame Microsoft for this nagging problem as well as other problems such as world hunger, religious based terrorism, proliferation of nuclear weapons, the Israeli/Palestinian conflict and of course the never ending battle over Kashmir.
+8. Now, since you are doing this on a Windows PC, Microsoft will have, more than likely, installed the cert in an entirely useless place. You see, there is a very specific structure to the way that certs are stored on a Windows PC, well, in any computer OS actually. So, regardless of the fact that the cert is for a trusted CA, it will have been placed in a seemingly random location, but most assuredly some other location than that which stores the trusted Certificate Authority certificates. You will most likely continue to see the same SSL error that you had seen prior to steps 1-7.
 9. Repeat steps 1-4
 10. Select "Place all certificates in the following store" then click Browse
 11. Check the box to "Show physical stores"

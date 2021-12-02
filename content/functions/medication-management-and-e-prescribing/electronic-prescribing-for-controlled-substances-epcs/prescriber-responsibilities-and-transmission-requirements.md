@@ -2,7 +2,7 @@
 title: "Prescriber Responsibilities & Transmission Requirements"
 date: "2020-03-15T21:54:15.607Z"
 url: "functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/prescriber-responsibilities-and-transmission-requirements.html"
-version: 29
+version: 31
 id: "1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg"
 source: "https://drive.google.com/open?id=1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg"
 menu:
