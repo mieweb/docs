@@ -1,0 +1,42 @@
+type: 'directory'
+id: '1zFKpUZmJhsD56st9CL56bPt1PSlaUHAn'
+title: 'Improvement Activities Measures'
+fileName: 'improvement-activities-measures'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:54.975Z'
+version: '286'
+fileMap:
+  2019-improvement-activities.md:
+    type: 'md'
+    id: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
+    title: '2019 Improvement Activities'
+    modifiedTime: '2020-02-27T20:47:27.512Z'
+    version: 19
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: '2019-improvement-activities.md'
+  2018-improvement-activities.md:
+    type: 'md'
+    id: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
+    title: '2018 Improvement Activities'
+    modifiedTime: '2020-02-27T20:47:24.671Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: '2018-improvement-activities.md'
+  2019-improvement-activities:
+    type: 'directory'
+    id: '1GyEaEEDsk6gzrVLefHrRz-Nvhlf-WaNS'
+    title: '2019 Improvement Activities'
+    modifiedTime: '2020-02-27T19:24:56.690Z'
+    version: 295
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: '2019-improvement-activities'
+  2018-improvement-activities:
+    type: 'directory'
+    id: '1txZ7yMXDU-D9PjtxBE83sO2GwYswYvKP'
+    title: '2018 Improvement Activities'
+    modifiedTime: '2020-02-27T19:24:55.775Z'
+    version: 294
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: '2018-improvement-activities'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

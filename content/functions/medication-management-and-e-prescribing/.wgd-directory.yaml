@@ -1,0 +1,209 @@
+type: 'directory'
+id: '1QjWWE0PKiKX4vua8TqWK9T3CqkJ4UqJN'
+title: 'Medication Management & E-Prescribing'
+fileName: 'medication-management-and-e-prescribing'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:13.905Z'
+version: '305'
+fileMap:
+  allergies-medications-tab-summary-view.md:
+    type: 'md'
+    id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
+    title: 'Allergies/Medications Tab Summary View'
+    modifiedTime: '2020-03-16T14:57:56.799Z'
+    version: 73
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'allergies-medications-tab-summary-view.md'
+  drug-plan-and-formularies.md:
+    type: 'md'
+    id: '1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE'
+    title: 'Drug Plan and Formularies'
+    modifiedTime: '2020-03-16T12:01:52.181Z'
+    version: 54
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'drug-plan-and-formularies.md'
+  refill-all.md:
+    type: 'md'
+    id: '10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA'
+    title: 'Refill All'
+    modifiedTime: '2020-03-16T11:56:29.091Z'
+    version: 49
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'refill-all.md'
+  e-refills-all-e-refills-tab.md:
+    type: 'md'
+    id: '1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
+    title: 'E-Refills - All E-Refills Tab'
+    modifiedTime: '2020-03-16T11:53:37.082Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'e-refills-all-e-refills-tab.md'
+  e-refills-my-pending-refills-tab.md:
+    type: 'md'
+    id: '1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
+    title: 'E-Refills - My Pending Refills Tab'
+    modifiedTime: '2020-03-16T11:48:41.502Z'
+    version: 61
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'e-refills-my-pending-refills-tab.md'
+  prescribing-adding-medications.md:
+    type: 'md'
+    id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
+    title: 'Prescribing/Adding Medications'
+    modifiedTime: '2020-03-16T11:42:07.149Z'
+    version: 96
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'prescribing-adding-medications.md'
+  electronic-prescribing-for-controlled-substances-epcs.md:
+    type: 'md'
+    id: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
+    title: 'Electronic Prescribing for Controlled Substances (EPCS)'
+    modifiedTime: '2020-03-13T20:30:12.083Z'
+    version: 54
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'electronic-prescribing-for-controlled-substances-epcs.md'
+  travel-kits.md:
+    type: 'md'
+    id: '1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q'
+    title: 'Travel Kits'
+    modifiedTime: '2020-02-27T20:08:18.497Z'
+    version: 53
+    mimeType: 'text/x-markdown'
+    fileName: 'travel-kits.md'
+  setting-preferred-pharmacy,-days-supply,-and-current-library-and-med-history-verification.md:
+    type: 'md'
+    id: '1M34Pr2z2Qc-Z1I0PuQYKCB50vurvtKddEMd7fHRQX6Q'
+    title: 'Setting Preferred Pharmacy, Days Supply, and Current Library & Med History Verification'
+    modifiedTime: '2020-02-27T20:08:07.990Z'
+    version: 41
+    mimeType: 'text/x-markdown'
+    fileName: 'setting-preferred-pharmacy,-days-supply,-and-current-library-and-med-history-verification.md'
+  remembered-prescriptions-and-meds-library.md:
+    type: 'md'
+    id: '1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM'
+    title: 'Remembered Prescriptions & Meds Library'
+    modifiedTime: '2020-02-27T20:07:48.515Z'
+    version: 41
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'remembered-prescriptions-and-meds-library.md'
+  surescripts-advanced-prescription-and-insurance-eligibility-requests.md:
+    type: 'md'
+    id: '10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg'
+    title: 'SureScripts Advanced - Prescription and Insurance Eligibility Requests'
+    modifiedTime: '2020-02-27T20:07:44.004Z'
+    version: 64
+    mimeType: 'text/x-markdown'
+    fileName: 'surescripts-advanced-prescription-and-insurance-eligibility-requests.md'
+  surescripts-advanced-medication-history-reconciliation.md:
+    type: 'md'
+    id: '1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
+    title: 'SureScripts Advanced - Medication History Reconciliation'
+    modifiedTime: '2020-02-27T20:07:36.640Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    fileName: 'surescripts-advanced-medication-history-reconciliation.md'
+  surescripts-advanced-formulary-and-dosing.md:
+    type: 'md'
+    id: '1gT7EBIu-7OE1aAdVGs5iI01pV8flTBqMVvxV1a8Ui-8'
+    title: 'SureScripts Advanced - Formulary and Dosing'
+    modifiedTime: '2020-02-27T20:07:27.795Z'
+    version: 57
+    mimeType: 'text/x-markdown'
+    fileName: 'surescripts-advanced-formulary-and-dosing.md'
+  e-refills-e-scripts-tab.md:
+    type: 'md'
+    id: '1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
+    title: 'E-Refills - E-Scripts Tab'
+    modifiedTime: '2020-02-27T20:06:51.472Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    fileName: 'e-refills-e-scripts-tab.md'
+  e-refills-my-e-rx-errors-tab.md:
+    type: 'md'
+    id: '14D4jugRUV60ZlpKzbFhIJtsqz_dnwy15jlyn66sUvxM'
+    title: 'E-Refills - My E-Rx Errors Tab'
+    modifiedTime: '2020-02-27T20:06:25.416Z'
+    version: 21
+    mimeType: 'text/x-markdown'
+    fileName: 'e-refills-my-e-rx-errors-tab.md'
+  discontinue-medications.md:
+    type: 'md'
+    id: '1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
+    title: 'Discontinue Medications'
+    modifiedTime: '2020-02-27T20:05:57.138Z'
+    version: 32
+    mimeType: 'text/x-markdown'
+    fileName: 'discontinue-medications.md'
+  unknown-allergy-medication-email-notifications.md:
+    type: 'md'
+    id: '1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8'
+    title: 'Unknown Allergy/Medication Email Notifications'
+    modifiedTime: '2020-02-27T20:05:47.758Z'
+    version: 32
+    mimeType: 'text/x-markdown'
+    fileName: 'unknown-allergy-medication-email-notifications.md'
+  allergy-medication-tab-quick-links.md:
+    type: 'md'
+    id: '1UjHeKBG_-NqC_E63USzFXrmo9BOyG9WuZ5yNv5ZXFkQ'
+    title: 'Allergy/Medication Tab - Quick Links'
+    modifiedTime: '2020-02-27T20:05:32.500Z'
+    version: 31
+    mimeType: 'text/x-markdown'
+    fileName: 'allergy-medication-tab-quick-links.md'
+  allergies-and-intolerances.md:
+    type: 'md'
+    id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
+    title: 'Allergies and Intolerances'
+    modifiedTime: '2020-02-27T20:05:07.498Z'
+    version: 70
+    mimeType: 'text/x-markdown'
+    fileName: 'allergies-and-intolerances.md'
+  drug-interaction-allergy-warnings.md:
+    type: 'md'
+    id: '1m0qyUJ0gzjNW32y7tnUzzTuwj0Fkv-wLTk6agxc8k-8'
+    title: 'Drug Interaction/Allergy Warnings'
+    modifiedTime: '2020-02-27T20:04:52.863Z'
+    version: 33
+    mimeType: 'text/x-markdown'
+    fileName: 'drug-interaction-allergy-warnings.md'
+  drug-guide-search.md:
+    type: 'md'
+    id: '1yfB8xD-yey4VBd_Yzka0pkd_PGCMq8s9GmZHCCbZiLA'
+    title: 'Drug Guide Search'
+    modifiedTime: '2020-02-27T20:04:35.130Z'
+    version: 33
+    mimeType: 'text/x-markdown'
+    fileName: 'drug-guide-search.md'
+  print-fax-transmit-prescriptions.md:
+    type: 'md'
+    id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
+    title: 'Print/Fax/Transmit Prescriptions'
+    modifiedTime: '2020-02-27T20:04:28.276Z'
+    version: 56
+    mimeType: 'text/x-markdown'
+    fileName: 'print-fax-transmit-prescriptions.md'
+  edit-change-medications.md:
+    type: 'md'
+    id: '1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
+    title: 'Edit/Change Medications'
+    modifiedTime: '2020-02-27T20:04:13.354Z'
+    version: 37
+    mimeType: 'text/x-markdown'
+    fileName: 'edit-change-medications.md'
+  electronic-prescribing-for-controlled-substances-epcs:
+    type: 'directory'
+    id: '1xDutuDVNI5xqD9S7e2mHZZUsJEm1umHv'
+    title: 'Electronic Prescribing for Controlled Substances (EPCS)'
+    modifiedTime: '2020-02-27T19:24:54.047Z'
+    version: 290
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'electronic-prescribing-for-controlled-substances-epcs'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,0 +1,43 @@
+type: 'directory'
+id: '12DN96EZeS3WvJucwFUzZoVMiQ4s5d5zQ'
+title: 'Fax Manager'
+fileName: 'fax-manager'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:18.155Z'
+version: '284'
+fileMap:
+  incoming-file-q-set-up-and-documentation.bin:
+    type: 'binary'
+    id: '1O0O3u7ELJx8DKJVaeIwFFba-YPxyYJ1q'
+    title: 'Incoming File Q Set-Up and Documentation'
+    modifiedTime: '2022-08-03T18:18:31.439Z'
+    version: 1
+    mimeType: 'application/vnd.google-apps.shortcut'
+    fileName: 'incoming-file-q-set-up-and-documentation.bin'
+  fax-manager-tab-outbound-faxing.md:
+    type: 'md'
+    id: '1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
+    title: 'Fax Manager Tab - Outbound Faxing'
+    modifiedTime: '2020-03-16T16:24:34.438Z'
+    version: 39
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'fax-manager-tab-outbound-faxing.md'
+  faxing-documents.md:
+    type: 'md'
+    id: '1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g'
+    title: 'Faxing Documents'
+    modifiedTime: '2020-03-16T16:21:29.768Z'
+    version: 51
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'faxing-documents.md'
+  outbound-faxing-email-notifications-of-sent-failed-faxes.md:
+    type: 'md'
+    id: '1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
+    title: 'Outbound Faxing Email Notifications of Sent/Failed Faxes'
+    modifiedTime: '2020-02-27T20:11:36.398Z'
+    version: 28
+    mimeType: 'text/x-markdown'
+    fileName: 'outbound-faxing-email-notifications-of-sent-failed-faxes.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,21 +1,19 @@
 ---
-title: "Scanning & Indexing"
-date: "2020-02-27T19:40:46.468Z"
-url: "functions/document-management/scanning-and-indexing.html"
-version: 15
-id: "1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w"
-source: "https://drive.google.com/open?id=1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w"
+id: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
+title: 'Scanning & Indexing'
+date: '2020-02-27T19:40:46.468Z'
+version: 20
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Scanning & Indexing"
-        identifier: "1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w"
-        parent: "1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ"
-        weight: 640
+  main:
+    name: 'Scanning & Indexing'
+    identifier: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
+    parent: '1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
+    weight: 640
 ---
-
-
-
-
 
 
 
@@ -25,10 +23,9 @@ The {{% system-name %}} WebScan feature allows users to scan either one page or 
 
 
 
-
-
-
-
-
 {{% children %}}
+
+
+
+
 

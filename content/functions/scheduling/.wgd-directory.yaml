@@ -1,0 +1,97 @@
+type: 'directory'
+id: '16aG6lnk-pa7JMAyooh6DBpgoBj_uisjj'
+title: 'Scheduling'
+fileName: 'scheduling'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:06.518Z'
+version: '293'
+fileMap:
+  checkin.md:
+    type: 'md'
+    id: '19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
+    title: 'Checkin'
+    modifiedTime: '2021-10-07T12:19:14.558Z'
+    version: 79
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'sriecke'
+    fileName: 'checkin.md'
+  appt-types-tab.md:
+    type: 'md'
+    id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
+    title: 'Appt Types Tab'
+    modifiedTime: '2021-02-24T15:17:03.005Z'
+    version: 115
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'appt-types-tab.md'
+  scheduler-inputs-editor-required-recommended-fields.md:
+    type: 'md'
+    id: '1qEbtV_j1szCuj6q_3JCUFmodXw8Jqigh06gUynj7woo'
+    title: 'Scheduler Inputs Editor Required/Recommended Fields'
+    modifiedTime: '2020-03-25T17:18:55.860Z'
+    version: 37
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'scheduler-inputs-editor-required-recommended-fields.md'
+  waiting-list-tab.md:
+    type: 'md'
+    id: '17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
+    title: 'Waiting List Tab'
+    modifiedTime: '2020-03-25T17:17:23.139Z'
+    version: 48
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'waiting-list-tab.md'
+  scheduler-views.md:
+    type: 'md'
+    id: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
+    title: 'Scheduler Views'
+    modifiedTime: '2020-03-10T17:27:50.430Z'
+    version: 48
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'scheduler-views.md'
+  cancel-no-show-edit-appointments.md:
+    type: 'md'
+    id: '1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
+    title: 'Cancel/No-Show/Edit Appointments'
+    modifiedTime: '2020-03-10T17:26:23.670Z'
+    version: 47
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'cancel-no-show-edit-appointments.md'
+  adding-an-appointment-using-the-wizard-tab.md:
+    type: 'md'
+    id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
+    title: 'Adding an Appointment Using the Wizard Tab'
+    modifiedTime: '2020-03-10T17:21:10.201Z'
+    version: 69
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'adding-an-appointment-using-the-wizard-tab.md'
+  schedule-management.md:
+    type: 'md'
+    id: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
+    title: 'Schedule Management'
+    modifiedTime: '2020-03-10T17:11:24.605Z'
+    version: 69
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'schedule-management.md'
+  schedules-tab.md:
+    type: 'md'
+    id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
+    title: 'Schedules Tab'
+    modifiedTime: '2020-02-27T19:48:23.179Z'
+    version: 64
+    mimeType: 'text/x-markdown'
+    fileName: 'schedules-tab.md'
+  pat-appt-wizard-tab.md:
+    type: 'md'
+    id: '12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
+    title: 'Pat/Appt Wizard Tab'
+    modifiedTime: '2020-02-27T19:47:42.780Z'
+    version: 21
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-appt-wizard-tab.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,24 +1,23 @@
 ---
-title: "How to Adjust Voice Recording Volume"
-date: "2020-03-25T20:35:56.079Z"
-url: "functions/encounters/dictation-and-transcription/how-to-adjust-voice-recording-volume.html"
-version: 40
-id: "1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk"
-source: "https://drive.google.com/open?id=1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk"
+id: '1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
+title: 'How to Adjust Voice Recording Volume'
+date: '2020-03-25T20:35:56.079Z'
+version: 44
+lastAuthor: ''
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "How to Adjust Voice Recording Volume"
-        identifier: "1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk"
-        parent: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-        weight: 1310
+  main:
+    name: 'How to Adjust Voice Recording Volume'
+    identifier: '1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
+    parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
+    weight: 1330
 ---
 1. From the desktop of your computer, click START from the bottom left corner. Depending on what style you are displaying the start menu (classic or start view), you may then need to go to SETTINGS, then to CONTROL PANEL. Otherwise, click START and click CONTROL PANEL.
 
-
-
-![](how-to-adjust-voice-recording-volume.images/image2.png) **or** ![](how-to-adjust-voice-recording-volume.images/image1.png)
-
-
+![](how-to-adjust-voice-recording-volume.assets/100000000000019D000001AF8C5B6348C972F797.png) **or** ![](how-to-adjust-voice-recording-volume.assets/1000000000000172000001C800F7A9565D81AE5D.png)
 
 2. Double click on SOUNDS AND AUDIO DEVICES control program.
 3. At the top, click the VOICE tab. Verify the <em>Default device for Voice recording</em> is "<strong>Audio Control Microphone</strong>" or "<strong>Philips Speechmike</strong>".

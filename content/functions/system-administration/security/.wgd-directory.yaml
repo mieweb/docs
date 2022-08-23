@@ -1,0 +1,87 @@
+type: 'directory'
+id: '1cxFJnGjghdYkPrV30-B_KEZi8Kl-SXgu'
+title: 'Security'
+fileName: 'security'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:32.264Z'
+version: '103'
+fileMap:
+  my-settings.md:
+    type: 'md'
+    id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
+    title: 'My Settings'
+    modifiedTime: '2022-02-09T18:44:31.238Z'
+    version: 110
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Angie Nichols'
+    fileName: 'my-settings.md'
+  multi-factor-authentication-mfa.md:
+    type: 'md'
+    id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
+    title: 'Multi-Factor Authentication MFA'
+    modifiedTime: '2021-07-16T20:36:51.028Z'
+    version: 14
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'multi-factor-authentication-mfa.md'
+  security-role-settings.md:
+    type: 'md'
+    id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
+    title: 'Security Role Settings'
+    modifiedTime: '2020-03-10T14:14:41.266Z'
+    version: 90
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'security-role-settings.md'
+  single-sign-on-login-trust.md:
+    type: 'md'
+    id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
+    title: 'Single Sign-On Login Trust'
+    modifiedTime: '2020-02-27T21:22:18.806Z'
+    version: 36
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'single-sign-on-login-trust.md'
+  saml-based-single-sign-on.md:
+    type: 'md'
+    id: '1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
+    title: 'SAML-Based Single Sign-On'
+    modifiedTime: '2020-02-27T21:22:13.838Z'
+    version: 22
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'saml-based-single-sign-on.md'
+  single-sign-on-sso.md:
+    type: 'md'
+    id: '1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
+    title: 'Single Sign-On (SSO)'
+    modifiedTime: '2020-02-27T21:22:11.490Z'
+    version: 28
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'single-sign-on-sso.md'
+  disabling-inactive-user-access-and-accounts.md:
+    type: 'md'
+    id: '1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
+    title: 'Disabling Inactive User Access & Accounts'
+    modifiedTime: '2020-02-27T20:43:05.104Z'
+    version: 19
+    mimeType: 'text/x-markdown'
+    fileName: 'disabling-inactive-user-access-and-accounts.md'
+  adfs-3.0-configuration-for-sso.md:
+    type: 'md'
+    id: '15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
+    title: 'ADFS 3.0 Configuration for SSO'
+    modifiedTime: '2020-02-27T20:26:04.497Z'
+    version: 44
+    mimeType: 'text/x-markdown'
+    fileName: 'adfs-3.0-configuration-for-sso.md'
+  compare-security-roles.md:
+    type: 'md'
+    id: '1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
+    title: 'Compare Security Roles'
+    modifiedTime: '2020-02-27T20:25:20.019Z'
+    version: 38
+    mimeType: 'text/x-markdown'
+    fileName: 'compare-security-roles.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

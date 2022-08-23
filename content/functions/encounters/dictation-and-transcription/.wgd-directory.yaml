@@ -1,0 +1,116 @@
+type: 'directory'
+id: '1yEDEyIAZGCOfAHqNAL1J9QQOUbmr6bU2'
+title: 'Dictation and Transcription'
+fileName: 'dictation-and-transcription'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:08.310Z'
+version: '304'
+fileMap:
+  pacs-speechmike-driver-utility-setup.md:
+    type: 'md'
+    id: '1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
+    title: 'PACS SpeechMike Driver Utility Setup'
+    modifiedTime: '2022-02-23T20:12:56.293Z'
+    version: 60
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Dave Cornewell'
+    fileName: 'pacs-speechmike-driver-utility-setup.md'
+  speechmike-dictation-instructions.md:
+    type: 'md'
+    id: '1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
+    title: 'SpeechMike Dictation Instructions'
+    modifiedTime: '2020-03-25T21:00:24.947Z'
+    version: 63
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'speechmike-dictation-instructions.md'
+  how-to-adjust-voice-recording-volume.md:
+    type: 'md'
+    id: '1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
+    title: 'How to Adjust Voice Recording Volume'
+    modifiedTime: '2020-03-25T20:35:56.079Z'
+    version: 44
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'how-to-adjust-voice-recording-volume.md'
+  olympus-digital-dictation.md:
+    type: 'md'
+    id: '1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s'
+    title: 'Olympus Digital Dictation'
+    modifiedTime: '2020-03-13T11:26:04.733Z'
+    version: 43
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'olympus-digital-dictation.md'
+  transcribing-dictation.md:
+    type: 'md'
+    id: '1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
+    title: 'Transcribing Dictation'
+    modifiedTime: '2020-03-13T11:15:15.186Z'
+    version: 66
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'transcribing-dictation.md'
+  highlight-transcribed.md:
+    type: 'md'
+    id: '1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
+    title: 'Highlight Transcribed'
+    modifiedTime: '2020-03-13T11:10:00.685Z'
+    version: 47
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'highlight-transcribed.md'
+  basic-transcription-all-users.md:
+    type: 'md'
+    id: '19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
+    title: 'Basic Transcription - All Users'
+    modifiedTime: '2020-03-12T21:03:04.710Z'
+    version: 55
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'basic-transcription-all-users.md'
+  closing-encounters-from-the-dictation-module.md:
+    type: 'md'
+    id: '1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
+    title: 'Closing Encounters from the Dictation Module'
+    modifiedTime: '2020-03-12T21:01:32.907Z'
+    version: 37
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'closing-encounters-from-the-dictation-module.md'
+  editing-encounter-dictations.md:
+    type: 'md'
+    id: '1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
+    title: 'Editing Encounter Dictations'
+    modifiedTime: '2020-03-12T20:59:42.218Z'
+    version: 45
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'editing-encounter-dictations.md'
+  how-to-remove-mieplayer-control.md:
+    type: 'md'
+    id: '1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o'
+    title: 'How to Remove MIEPlayer Control'
+    modifiedTime: '2020-03-12T20:49:00.254Z'
+    version: 38
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'how-to-remove-mieplayer-control.md'
+  how-to-install-mieplayer-control.md:
+    type: 'md'
+    id: '1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM'
+    title: 'How to Install MIEPlayer Control'
+    modifiedTime: '2020-03-12T20:44:01.559Z'
+    version: 43
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'how-to-install-mieplayer-control.md'
+  routing-dictation.md:
+    type: 'md'
+    id: '1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8'
+    title: 'Routing Dictation'
+    modifiedTime: '2020-02-27T19:51:41.120Z'
+    version: 36
+    mimeType: 'text/x-markdown'
+    fileName: 'routing-dictation.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,0 +1,36 @@
+type: 'directory'
+id: '1xDutuDVNI5xqD9S7e2mHZZUsJEm1umHv'
+title: 'Electronic Prescribing for Controlled Substances (EPCS)'
+fileName: 'electronic-prescribing-for-controlled-substances-epcs'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:54.047Z'
+version: '290'
+fileMap:
+  identrust-certificate-registration-step-by-step.md:
+    type: 'md'
+    id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
+    title: 'IdenTrust Certificate Registration Step-by-Step'
+    modifiedTime: '2022-03-02T21:42:17.031Z'
+    version: 235
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Bridget Hamm'
+    fileName: 'identrust-certificate-registration-step-by-step.md'
+  epcs-setup.md:
+    type: 'md'
+    id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
+    title: 'EPCS Setup'
+    modifiedTime: '2022-03-02T13:25:35.598Z'
+    version: 451
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Theresa Juillerat'
+    fileName: 'epcs-setup.md'
+  prescriber-responsibilities-and-transmission-requirements.md:
+    type: 'md'
+    id: '1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
+    title: 'Prescriber Responsibilities & Transmission Requirements'
+    modifiedTime: '2020-03-15T21:54:15.607Z'
+    version: 35
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'prescriber-responsibilities-and-transmission-requirements.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

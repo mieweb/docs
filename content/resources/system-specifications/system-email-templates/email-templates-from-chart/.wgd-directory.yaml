@@ -1,0 +1,198 @@
+type: 'directory'
+id: '1Ywc4IM6HcOBPFPELtqvecR7mUCbonRzD'
+title: 'Email Templates from Chart'
+fileName: 'email-templates-from-chart'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:47.742Z'
+version: '267'
+fileMap:
+  pat-work-status-report.md:
+    type: 'md'
+    id: '1-uWUd3qtMjl7jbVj2WOl_XdUABpr_akxuKvuMtqiLqs'
+    title: 'Pat Work Status Report'
+    modifiedTime: '2020-03-10T14:08:57.272Z'
+    version: 27
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'pat-work-status-report.md'
+  pat-restrictions.md:
+    type: 'md'
+    id: '1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
+    title: 'Pat Restrictions'
+    modifiedTime: '2020-03-10T14:08:19.239Z'
+    version: 29
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'pat-restrictions.md'
+  pat-nmc-invitation.md:
+    type: 'md'
+    id: '1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
+    title: 'Pat NMC Invitation'
+    modifiedTime: '2020-03-10T14:07:47.497Z'
+    version: 27
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'pat-nmc-invitation.md'
+  pat-immunizations-past-due.md:
+    type: 'md'
+    id: '1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
+    title: 'Pat Immunizations Past Due'
+    modifiedTime: '2020-03-10T14:07:06.453Z'
+    version: 29
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'pat-immunizations-past-due.md'
+  pat-immunizations-due.md:
+    type: 'md'
+    id: '18cyXlgTRUM7ANFk3Ho_NODVuaG2Ml5u3VSIxlflECHI'
+    title: 'Pat Immunizations Due'
+    modifiedTime: '2020-03-10T14:06:41.621Z'
+    version: 28
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'pat-immunizations-due.md'
+  pat-non-compliance.md:
+    type: 'md'
+    id: '17X8EeDFXu7OyTXVYabii-vSil2VCqzUrjxcczy202yU'
+    title: 'Pat Non Compliance'
+    modifiedTime: '2020-02-27T20:40:39.609Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-non-compliance.md'
+  pat-travel-injection.md:
+    type: 'md'
+    id: '1ER03JgPAczSj0UNEgRoAGhifQAsz-YXN7Xx-nu0OP7w'
+    title: 'Pat Travel Injection'
+    modifiedTime: '2020-02-27T20:39:17.793Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-travel-injection.md'
+  pat-return-to-work.md:
+    type: 'md'
+    id: '1OGDM_4Gv11SQBZuuEOH1GJXYyIyGYHXck32PELJHClE'
+    title: 'Pat Return to Work'
+    modifiedTime: '2020-02-27T20:39:12.405Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-return-to-work.md'
+  pat-portal-message-notification.md:
+    type: 'md'
+    id: '17Gz_wwFB0iRCXgnKBKGdUo-d7mxuDiSItN0TlCQSzb4'
+    title: 'Pat Portal Message Notification'
+    modifiedTime: '2020-02-27T20:39:03.308Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-portal-message-notification.md'
+  pat-mloa-start.md:
+    type: 'md'
+    id: '1acLPzvllmvBdxbihscuwBo2RfY9cNvuSOQ8i9YH4sBE'
+    title: 'Pat MLOA Start'
+    modifiedTime: '2020-02-27T20:38:56.141Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-mloa-start.md'
+  pat-mloa-extend.md:
+    type: 'md'
+    id: '1RVLS6Yc8l1maaoDhVZBTBBMGIIiEp2FeU5BLeey9AXs'
+    title: 'Pat MLOA Extend'
+    modifiedTime: '2020-02-27T20:38:50.970Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-mloa-extend.md'
+  pat-hs-reminder-to-spv.md:
+    type: 'md'
+    id: '1uIAp4Y448Sfzsu4P3SLfeyM8j3YU_fwOJ-K9sQ2oXq8'
+    title: 'Pat HS Reminder to SPV'
+    modifiedTime: '2020-02-27T20:38:37.641Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-hs-reminder-to-spv.md'
+  pat-guideline-reminder.md:
+    type: 'md'
+    id: '1pfoc98Z8qWhN3HRsccaYI04TotYSfYuUzdEmh57tmNk'
+    title: 'Pat Guideline Reminder'
+    modifiedTime: '2020-02-27T20:38:34.175Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-guideline-reminder.md'
+  pat-fmla-med-cert-missing-info.md:
+    type: 'md'
+    id: '16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug'
+    title: 'Pat FMLA Med Cert Missing Info'
+    modifiedTime: '2020-02-27T20:38:30.242Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-fmla-med-cert-missing-info.md'
+  pat-fmla-ineligible.md:
+    type: 'md'
+    id: '1UfrM69NpA-o675fdoeSSo_Th9dZuMBdgeBfPfNciYzY'
+    title: 'Pat FMLA Ineligible'
+    modifiedTime: '2020-02-27T20:38:26.040Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-fmla-ineligible.md'
+  pat-fmla-denied.md:
+    type: 'md'
+    id: '1v2t6AZjuzTdOzQ6Z3gLloJlPkIpTyRJxSQ-4-0BCHJQ'
+    title: 'Pat FMLA Denied'
+    modifiedTime: '2020-02-27T20:38:19.833Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-fmla-denied.md'
+  pat-fmla-approved-supervisor.md:
+    type: 'md'
+    id: '1ahK11TnjyA6KV8Ss8B8822lL6hGpBlZ4CDoaYg6aS4k'
+    title: 'Pat FMLA Approved Supervisor'
+    modifiedTime: '2020-02-27T20:38:15.964Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-fmla-approved-supervisor.md'
+  pat-fmla-approved-employee.md:
+    type: 'md'
+    id: '10Zxz9-QWTUJR1vQqXlxPCAxG-E0C83HG-ASlv205eg8'
+    title: 'Pat FMLA Approved Employee'
+    modifiedTime: '2020-02-27T20:38:12.258Z'
+    version: 19
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-fmla-approved-employee.md'
+  pat-audio-sts-retest.md:
+    type: 'md'
+    id: '1IxQLpFZso4bcZg-hMLA2M1nBJW4mVauo38F2vHiSYzE'
+    title: 'Pat Audio STS Retest'
+    modifiedTime: '2020-02-27T20:38:07.835Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-audio-sts-retest.md'
+  pat-audio-sts-phy-review.md:
+    type: 'md'
+    id: '1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0'
+    title: 'Pat Audio STS Phy Review'
+    modifiedTime: '2020-02-27T20:38:01.729Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pat-audio-sts-phy-review.md'
+  comments-only.md:
+    type: 'md'
+    id: '10jlSsNidlxILcjDqaGmDZzEh5OWnyLtihy1s9fggdgI'
+    title: 'Comments Only'
+    modifiedTime: '2020-02-27T20:37:57.540Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'comments-only.md'
+  portal-message-notification.md:
+    type: 'md'
+    id: '13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
+    title: 'Portal Message Notification'
+    modifiedTime: '2020-02-27T20:37:52.283Z'
+    version: 21
+    mimeType: 'text/x-markdown'
+    fileName: 'portal-message-notification.md'
+  high-blood-pressure-notification.md:
+    type: 'md'
+    id: '1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc'
+    title: 'High Blood Pressure Notification'
+    modifiedTime: '2020-02-27T20:37:48.697Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'high-blood-pressure-notification.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

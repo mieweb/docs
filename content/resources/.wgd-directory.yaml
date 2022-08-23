@@ -1,0 +1,67 @@
+type: 'directory'
+id: '1ahfVIVqVTCWvdED0KHwU-ipKTYsh67cF'
+title: 'Resources'
+fileName: 'resources'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:38.812Z'
+version: '70'
+fileMap:
+  intro-to-the-system.md:
+    type: 'md'
+    id: '1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
+    title: 'Intro to the System'
+    modifiedTime: '2020-02-27T21:31:50.269Z'
+    version: 62
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'intro-to-the-system.md'
+  quality-resources.md:
+    type: 'md'
+    id: '1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
+    title: 'Quality Resources'
+    modifiedTime: '2020-02-27T21:27:57.735Z'
+    version: 28
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'quality-resources.md'
+  communications.md:
+    type: 'md'
+    id: '1HhuFWjUfqvrqm63msQ9sFRNCPWDjjaCniEXYbWa9cDc'
+    title: 'Communications'
+    modifiedTime: '2020-02-27T20:36:31.710Z'
+    version: 22
+    mimeType: 'text/x-markdown'
+    fileName: 'communications.md'
+  system-specifications.md:
+    type: 'md'
+    id: '1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
+    title: 'System Specifications'
+    modifiedTime: '2020-02-27T20:35:46.122Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    fileName: 'system-specifications.md'
+  intro-to-the-system:
+    type: 'directory'
+    id: '1oSVs_5aBUxsRfUauSX-MPtJPyr4T3mqW'
+    title: 'Intro to the System'
+    modifiedTime: '2020-02-27T19:24:58.489Z'
+    version: 284
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'intro-to-the-system'
+  communications:
+    type: 'directory'
+    id: '1tqEOhPHt74pLMpsOkJ6BsNatBJPgq4Zy'
+    title: 'Communications'
+    modifiedTime: '2020-02-27T19:24:44.523Z'
+    version: 302
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'communications'
+  system-specifications:
+    type: 'directory'
+    id: '1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5'
+    title: 'System Specifications'
+    modifiedTime: '2020-02-27T19:24:40.082Z'
+    version: 61
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'system-specifications'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

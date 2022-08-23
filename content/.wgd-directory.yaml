@@ -1,0 +1,127 @@
+type: 'directory'
+id: '0AF_nrE0_QH_2Uk9PVA'
+title: 'Drive'
+fileName: ''
+mimeType: 'application/vnd.google-apps.folder'
+date: '2022-04-15T20:50:00.173Z'
+version: '1'
+fileMap:
+  .navigation.md:
+    type: 'md'
+    id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
+    title: '.navigation'
+    modifiedTime: '2022-06-10T16:43:35.152Z'
+    version: 232
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: '.navigation.md'
+  proposed-health-surveillance-worklow.svg:
+    type: 'drawing'
+    id: '1WrNsgniilZhynhgomqA5yRPAqdBm6PCAf5UMnXI9wUQ'
+    title: 'Proposed  health-surveillance Worklow'
+    modifiedTime: '2022-04-19T11:51:07.984Z'
+    version: 21
+    mimeType: 'image/svg+xml'
+    fileName: 'proposed-health-surveillance-worklow.svg'
+  functions.md:
+    type: 'md'
+    id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
+    title: 'Functions'
+    modifiedTime: '2021-12-20T19:15:13.859Z'
+    version: 84
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'functions.md'
+  _index.md:
+    type: 'md'
+    id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
+    title: '_index'
+    modifiedTime: '2021-05-10T22:20:39.704Z'
+    version: 678
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: '_index.md'
+  functions:
+    type: 'directory'
+    id: '1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP'
+    title: 'Functions'
+    modifiedTime: '2021-04-18T01:13:22.858Z'
+    version: 285
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'functions'
+  videos-and-demonstrations.md:
+    type: 'md'
+    id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
+    title: 'Videos & Demonstrations'
+    modifiedTime: '2021-04-09T10:46:40.622Z'
+    version: 440
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Grzegorz Godlewski'
+    fileName: 'videos-and-demonstrations.md'
+  resources.md:
+    type: 'md'
+    id: '1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
+    title: 'Resources'
+    modifiedTime: '2021-03-20T19:26:41.981Z'
+    version: 49
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'resources.md'
+  dynamic-encounter-landing-page-example.md:
+    type: 'md'
+    id: '1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ'
+    title: 'Dynamic encounter landing page example'
+    modifiedTime: '2021-02-11T19:56:09.172Z'
+    version: 30
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'dynamic-encounter-landing-page-example.md'
+  diagrams:
+    type: 'directory'
+    id: '1gcdDn4ndAdnO7VhG7MPO-ffepKopU-Vk'
+    title: 'Diagrams'
+    modifiedTime: '2020-03-30T20:09:46.150Z'
+    version: 83
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'diagrams'
+  rapid-deployment.md:
+    type: 'md'
+    id: '1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
+    title: 'Rapid Deployment'
+    modifiedTime: '2020-02-27T20:32:31.821Z'
+    version: 41
+    mimeType: 'text/x-markdown'
+    fileName: 'rapid-deployment.md'
+  programs.md:
+    type: 'md'
+    id: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
+    title: 'Programs'
+    modifiedTime: '2020-02-27T19:29:40.998Z'
+    version: 39
+    mimeType: 'text/x-markdown'
+    fileName: 'programs.md'
+  resources:
+    type: 'directory'
+    id: '1ahfVIVqVTCWvdED0KHwU-ipKTYsh67cF'
+    title: 'Resources'
+    modifiedTime: '2020-02-27T19:24:38.812Z'
+    version: 70
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'resources'
+  rapid-deployment:
+    type: 'directory'
+    id: '1Nn6hwnNBi-b63JnWaq3dK2_2PsUWykgP'
+    title: 'Rapid Deployment'
+    modifiedTime: '2020-02-27T19:24:35.069Z'
+    version: 61
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'rapid-deployment'
+  programs:
+    type: 'directory'
+    id: '1cd7hs06zA0YvezOax9PEJk7wgHbKUmU6'
+    title: 'Programs'
+    modifiedTime: '2020-02-27T19:23:50.928Z'
+    version: 79
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'programs'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

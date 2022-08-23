@@ -1,29 +1,26 @@
 ---
-title: "Patient Assistance Inventory"
-date: "2020-02-27T20:30:22.116Z"
-url: "functions/system-administration/asset-management/patient-assistance-inventory.html"
-version: 19
-id: "1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s"
-source: "https://drive.google.com/open?id=1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s"
+id: '1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
+title: 'Patient Assistance Inventory'
+date: '2020-02-27T20:30:22.116Z'
+version: 23
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Patient Assistance Inventory"
-        identifier: "1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s"
-        parent: "1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek"
-        weight: 5650
+  main:
+    name: 'Patient Assistance Inventory'
+    identifier: '1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
+    parent: '1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek'
+    weight: 5670
 ---
 ## Add Patient Assistance Inventory
 
 If you need to add inventory specifically tied to an individual patient because your practice uses patient assistance programs, you have to enter add the specific inventory item into the specific patient's chart via their *Dispense* chart tab.
-
-![](patient-assistance-inventory.images/image1.png)
-
+![](patient-assistance-inventory.assets/10000201000004F6000000D32E3297CC14E5A316.png)
 Depending on how your practice is set up and what all you track for Inventory, your *Receive Patient Meds* (adding patient specific inventory) entry fields may be different.
-
-![](patient-assistance-inventory.images/image3.png)
-
+![](patient-assistance-inventory.assets/10000201000004C10000009492F75C3AFE136BD2.png)
 To add a quantity of received meds into this specific patient's assistance (patient inventory) fill out the fields in the *Receive Patient Meds* screen. Use your tab key to advance to each field.
-
 * <strong>Site</strong>: Is which site the meds till be available at.
 * <strong>Stockpile</strong>: if that site has a stockpile location associated with it, you can specify the stockpile you are adding inventory to for that specific site.
 * <strong>Drug</strong>: Begin typing the name of the medication item that you are adding to inventory. It will auto-complete choices from your master inventory items list for selection. If you have a barcode hand-held scanner device interface into your {{% system-name %}} system, you can have the cursor in this field, scan the barcode on the box/item and it will insert the barcode# and item name here (if prior barcode mapping has been compiled).
@@ -33,29 +30,24 @@ To add a quantity of received meds into this specific patient's assistance (pati
 * <strong>Manufacturer</strong>: You can enter the Manufacturer of the item you are adding to inventory.
 * <strong>Supplier</strong>: You can enter the Supplier of the item you are adding to the inventory (who supplied it to you). However this field does not display anywhere else nor show in any reports.
 * <strong>Expiration Date</strong>: You can enter the expiration date for an inventory item being added to the inventory. There is a CLEAR button to clear the date or a calendar/pick date icon/link to pick a date from the calendar feature.
-
 {{% tip %}}
 
 There is also another CLEAR button to the far right which will clear *all* the add inventory fields for that line to start over.
-
 {{% /tip %}}
-
-
 Click the ADD TO INVENTORY button at the very bottom to add these medication(s) to the patient's specific inventory/chart.
-
 You will get a confirmation at the top stating the system received the medication into the patient's inventory successfully.
 
 ## Viewing Patient Assistance Inventory Individually
 
 When you go back into the patient's Dispense chart tab, you will see their received medications you entered into the patient's assistance inventory (for that specific patient) using the Receive Patient Assistance feature. It is the last bucket in the Dispense chart tab named *Patient Assistance Inventory*.
-
-![](patient-assistance-inventory.images/image2.png)
-
+![](patient-assistance-inventory.assets/10000201000004DE000001A7210978ED0FC045E5.png)
 If you need to add inventory as donated or as general inventory, you need to do that through the Add Donated tab or the Add Inventory tab which is separate from the specific patient's assistance inventory. (See other help documentation named *Add Inventory* and *Add Donated*).
 
 ## View All Patient Assistance Inventory
 
-## In the sidemenu tab <strong><em>Inventory,</em></strong> go to the Show Current Inventory tab and find the hyperlink on the right side that says Show Patient Inventory. It will result and list all patient specific inventories (patient assistance meds) and details while also listing the specific patient. This is to see any and all patient assistance inventory tied to specific patients in the entire system. (See other help documentation named <strong><em>Show Inventory Tab</em></strong>).
 
-## ![](patient-assistance-inventory.images/image4.png)
+## In the sidemenu tab **_Inventory,_** go to the Show Current Inventory tab and find the hyperlink on the right side that says Show Patient Inventory. It will result and list all patient specific inventories (patient assistance meds) and details while also listing the specific patient. This is to see any and all patient assistance inventory tied to specific patients in the entire system. (See other help documentation named **_Show Inventory Tab_**).
+
+
+## ![](patient-assistance-inventory.assets/100002010000054E00000192632B6109DA3B44D0.png)
 

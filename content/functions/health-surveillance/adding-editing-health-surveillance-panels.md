@@ -1,35 +1,30 @@
 ---
-title: "Adding/Editing Health Surveillance Panels"
-date: "2020-02-27T19:59:26.235Z"
-url: "functions/health-surveillance/adding-editing-health-surveillance-panels.html"
-version: 25
-id: "1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM"
-source: "https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM"
+id: '1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
+title: 'Adding/Editing Health Surveillance Panels'
+date: '2020-02-27T19:59:26.235Z'
+version: 33
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Adding/Editing Health Surveillance Panels"
-        identifier: "1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM"
-        parent: "13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg"
-        weight: 1750
+  main:
+    name: 'Adding/Editing Health Surveillance Panels'
+    identifier: '1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
+    parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
+    weight: 1770
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab at the top menu of tabs.
-
-![](adding-editing-health-surveillance-panels.images/image1.png)
-
+![](adding-editing-health-surveillance-panels.assets/1000020100000487000001CB7E6905846D7BDBCE.png)
 The listing of current active Panels will display automatically on the screen under the Panel Search criteria fields.
-
 If you wish to see any panels that are *inactive*, simply click the Show Inactive link in the title Panels at the top.
-
-![](adding-editing-health-surveillance-panels.images/image3.png)
+![](adding-editing-health-surveillance-panels.assets/1000020100000470000000B065BE0592A538A370.png)
 
 ## Panel Search
 
 To search for an existing active panel, use the drop-downs and enter information to narrow down your search for a panel. You can search key words of the panel, the name, or the description.
-
-![](adding-editing-health-surveillance-panels.images/image2.png)
-
+![](adding-editing-health-surveillance-panels.assets/10000000000000620000005167F5E10827BFF1E5.png)
 The search results will display below columns on the screen for each panel:
-
 * <strong>Panel:</strong> Is the abbreviated name of the panel and a required field. This field cannot be modified once saved.
 * <strong>Name:</strong> Is the full name/description of the panel.
 * <strong>Description:</strong> Is any length of text describing what this panel is for, who is to be included in it, etc. Any helpful information to explain this panel.
@@ -40,14 +35,9 @@ The search results will display below columns on the screen for each panel:
 ## Add a New Panel
 
 When adding a new panel, fill out the necessary fields and click the SUBMIT button.
-
-![](adding-editing-health-surveillance-panels.images/image5.png)
-
-
+![](adding-editing-health-surveillance-panels.assets/1000020100000245000001EA619B36AAD8A5703F.png)
 
 Add the specific Health Surveillance Panels:
-
-
 
 * You can export and import from other systems.  See other help documentation titled <em>Health Surveillance Tab-Export-Import Panels.pdf.</em> Then after imported, you can tweak (and double check setup of the imported panels) in the system you imported into so the components fit their needs and rules.  When you use the export/import tool, it should create order items for you on the fly into the system you import them into and that would save you steps in the above pages regarding adding order items.  You still need to go in and tweak order items and panel components after the import.
 * Complete the following fields to add Panels one at a time into the system:
@@ -63,9 +53,7 @@ Add the specific Health Surveillance Panels:
     * <strong>Restricted:</strong> Selecting this indicates managing this panel's membership will be limited to specific users and/or departments. Only permitted/allowed users/ departments are the ones allowed to add employees to the panel and create membership rules for it.
     * <strong>Representative Event Type:</strong> Choose Procedure or Encounter.   A procedure or encounter that represents the panel as a whole, if applicable  Unless you want the HS panel to open an encounter when the orders populate the due list, then the event type will always be Procedure. The encounter would otherwise be opened when the patient checks in for their appt.
     * <strong>Representative Event:</strong> This is a drop-down field to the right after you select Encounter or Procedure in the first drop-down.  Choose the Order item that was added as the representative event. Usually the order is the same name of the panel.   You would have added the representative action order item for the panel (or searched for existing one) in pages above.
-
-![](adding-editing-health-surveillance-panels.images/image4.png)
-
+![](adding-editing-health-surveillance-panels.assets/10000201000003160000023B1C59CDE2A3781ECA.png)
 * <strong>Comments:</strong> These are comments for/on the main panel level. These are displayed as <em>Health Surveillance Comments</em> in a section of the Due List chart tab and in Tests/Procedures section of dynamic encounters. These comments may include instructions on the ‘panel level' that may be useful for staff to see.
 * <strong>Owner:</strong>  This auto-complete field looks for any user in the system to select.  This is an optional entry field that denotes the point of contact (that has to be entered in as some type of user in {{% system-name %}} ) for managing this panel.
 * <strong>Adjustment Range:</strong>  There are 2 system settings that your MIE Implementer will need to enable if you wish to use these fields (Adjust Early and Adjust Late are the name of the system settings). This is used for systems with forecasting and due date adjustment enabled; the default number of days early or late can be overridden here for this panel. This allows how far "early" or "late" the panel can be adjusted to to mesh up with other panels.
@@ -73,28 +61,17 @@ Add the specific Health Surveillance Panels:
     * Specify a positive number of days to override the default
     * Set to 0 to disallow shifting
 * <strong>Exit Alert:</strong>  An alert message to display when a member is about to be removed from this panel manually.
-
-![](adding-editing-health-surveillance-panels.images/image7.png)
-
+![](adding-editing-health-surveillance-panels.assets/1000020100000208000000AC2CDAEACE9667B418.png)
 * <strong>Created/Modified/Change Reason:</strong> When a panel is created, {{% system-name %}} displays the initials of the user of who created this panel and the date this panel was created.  If a panel is edited/modified, we store the initials of the user who last modified this panel and the date this panel was last modified.  When a panel is edited, the user must type in a reason for change and this is displayed here.
-
 Click **SUBMIT** button to add the main panel (without components yet) to save the panel to the system
-
 See additional online help documentation titled *Health Surveillance Tab.pdf*
 
 ## Edit an Existing Panel
 
 You can edit an existing panel by clicking the edit link in the options column of a panel.
-
-![](adding-editing-health-surveillance-panels.images/image6.png)
-
+![](adding-editing-health-surveillance-panels.assets/100000000000030C0000006296605369E2EBDF5B.png)
 It will open the current panel with the fields you can edit. Below that section is a revision history of all revisions that have been done to that panel that you can open and view the previous entry if you wish.
-
-![](adding-editing-health-surveillance-panels.images/image9.png)
-
+![](adding-editing-health-surveillance-panels.assets/100000000000032200000082F3DA912EB62EF73A.png)
 You can edit any field regarding the panel. When you are done, you **must** type in a reason for your edit/change.
-
 It is a required field. Then click the SUBMIT button and it will save your edits and track you as the user who modified and the date/time of modification.
-
-![](adding-editing-health-surveillance-panels.images/image8.png)
-
+![](adding-editing-health-surveillance-panels.assets/10000000000001960000004F421A8DE11C56FB44.png)

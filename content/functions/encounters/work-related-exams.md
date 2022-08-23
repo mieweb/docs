@@ -1,21 +1,19 @@
 ---
-title: "Work-Related Exams"
-date: "2020-02-27T19:52:48.211Z"
-url: "functions/encounters/work-related-exams.html"
-version: 25
-id: "15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg"
-source: "https://drive.google.com/open?id=15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg"
+id: '15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg'
+title: 'Work-Related Exams'
+date: '2020-02-27T19:52:48.211Z'
+version: 29
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Work-Related Exams"
-        identifier: "15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg"
-        parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
-        weight: 1410
+  main:
+    name: 'Work-Related Exams'
+    identifier: '15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg'
+    parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
+    weight: 1430
 ---
-
-
-
-
 
 
 
@@ -24,9 +22,8 @@ menu:
 
 
 
-
-
-
-
 {{% children %}}
+
+
+
 

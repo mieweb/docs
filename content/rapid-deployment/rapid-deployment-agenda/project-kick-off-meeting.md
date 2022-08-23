@@ -1,16 +1,18 @@
 ---
-title: "Project Kick-off Meeting"
-date: "2020-02-27T20:40:57.215Z"
-url: "rapid-deployment/rapid-deployment-agenda/project-kick-off-meeting.html"
-version: 13
-id: "1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI"
-source: "https://drive.google.com/open?id=1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI"
+id: '1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI'
+title: 'Project Kick-off Meeting'
+date: '2020-02-27T20:40:57.215Z'
+version: 17
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Project Kick-off Meeting"
-        identifier: "1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI"
-        parent: "1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8"
-        weight: 5770
+  main:
+    name: 'Project Kick-off Meeting'
+    identifier: '1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI'
+    parent: '1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
+    weight: 5790
 ---
 ## Purpose
 
@@ -43,4 +45,3 @@ Present the EH Kick-off Meeting Powerpoint, Statement of Work (SOW), Project Pla
 ## Afterward
 
 Document action items, distribute meeting minutes, open Jira project (link project to charter and SOW), create Jira tickets for integration projects that are in scope, schedule recurring project and integration meetings, update percentage complete and dates on project plan, work on finalizing project charter and the project plan, send out access to the database, and prepare for the subsequent meetings.
-

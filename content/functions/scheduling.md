@@ -1,21 +1,20 @@
 ---
-title: "Scheduling"
-date: "2020-02-27T19:47:19.396Z"
-url: "functions/scheduling.html"
-version: 16
-id: "1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
-source: "https://drive.google.com/open?id=1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
+id: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
+title: 'Scheduling'
+date: '2020-02-27T19:47:19.396Z'
+version: 20
+mimeType: 'text/x-markdown'
+links:
+  - 'https://system/?func=scheduler#Now'
+source: 'https://drive.google.com/open?id=1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Scheduling"
-        identifier: "1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w"
-        parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
-        weight: 1070
+  main:
+    name: 'Scheduling'
+    identifier: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
+    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
+    weight: 1090
 ---
-
-
-
-
 
 
 
@@ -25,10 +24,9 @@ The {{% system-name %}} appointment and schedule management module features a cu
 
 
 
-
-
-
-
-
 {{% children %}}
+
+
+
+
 

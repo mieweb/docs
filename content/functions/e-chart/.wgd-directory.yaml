@@ -1,0 +1,178 @@
+type: 'directory'
+id: '1z5QHccZylXHi6g1qadzagX_2-_WtuafU'
+title: 'E-Chart'
+fileName: 'e-chart'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:05.661Z'
+version: '264'
+fileMap:
+  alerts-tab-warnings.md:
+    type: 'md'
+    id: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
+    title: 'Alerts Tab - Warnings'
+    modifiedTime: '2022-06-10T16:29:02.358Z'
+    version: 54
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'alerts-tab-warnings.md'
+  conditions.md:
+    type: 'md'
+    id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
+    title: 'Conditions'
+    modifiedTime: '2021-08-30T12:28:44.539Z'
+    version: 66
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'sriecke'
+    fileName: 'conditions.md'
+  insurance-summary-in-demographics-tab.md:
+    type: 'md'
+    id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
+    title: 'Insurance Summary in Demographics Tab'
+    modifiedTime: '2020-03-25T16:48:24.618Z'
+    version: 74
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'insurance-summary-in-demographics-tab.md'
+  editing-demographics.md:
+    type: 'md'
+    id: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
+    title: 'Editing Demographics'
+    modifiedTime: '2020-03-25T16:40:50.153Z'
+    version: 57
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'editing-demographics.md'
+  basic-initial-system-information.md:
+    type: 'md'
+    id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
+    title: 'Basic Initial System Information'
+    modifiedTime: '2020-03-24T16:00:49.374Z'
+    version: 54
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'basic-initial-system-information.md'
+  alert-comments.md:
+    type: 'md'
+    id: '1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
+    title: 'Alert Comments'
+    modifiedTime: '2020-03-10T16:38:22.823Z'
+    version: 55
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'alert-comments.md'
+  super-user-quick-view-portlet.md:
+    type: 'md'
+    id: '1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
+    title: 'Super User Quick View Portlet'
+    modifiedTime: '2020-03-10T16:24:00.920Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'super-user-quick-view-portlet.md'
+  quick-view-due-list-portlet.md:
+    type: 'md'
+    id: '10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE'
+    title: 'Quick View - Due List Portlet'
+    modifiedTime: '2020-03-10T16:13:43.615Z'
+    version: 54
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'quick-view-due-list-portlet.md'
+  insurance-eligibility-tab.md:
+    type: 'md'
+    id: '1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
+    title: 'Insurance Eligibility Tab'
+    modifiedTime: '2020-03-09T22:56:39.950Z'
+    version: 27
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'insurance-eligibility-tab.md'
+  demographics-tab-summary.md:
+    type: 'md'
+    id: '1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
+    title: 'Demographics Tab Summary'
+    modifiedTime: '2020-03-09T22:51:40.258Z'
+    version: 38
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'demographics-tab-summary.md'
+  quick-view-alerts-portlet.md:
+    type: 'md'
+    id: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
+    title: 'Quick View - Alerts Portlet'
+    modifiedTime: '2020-03-09T21:13:03.975Z'
+    version: 76
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'quick-view-alerts-portlet.md'
+  sidemenu-thumbtack-feature.md:
+    type: 'md'
+    id: '1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
+    title: 'Sidemenu Thumbtack Feature'
+    modifiedTime: '2020-03-09T21:04:49.396Z'
+    version: 35
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'sidemenu-thumbtack-feature.md'
+  quick-view-sidemenu.md:
+    type: 'md'
+    id: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
+    title: 'Quick View Sidemenu'
+    modifiedTime: '2020-03-09T21:01:07.216Z'
+    version: 50
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'quick-view-sidemenu.md'
+  detailed-searching-in-e-chart.md:
+    type: 'md'
+    id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
+    title: 'Detailed Searching in E-Chart'
+    modifiedTime: '2020-03-09T20:46:38.676Z'
+    version: 37
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'detailed-searching-in-e-chart.md'
+  online-help-and-notifications.md:
+    type: 'md'
+    id: '1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI'
+    title: 'Online Help and Notifications'
+    modifiedTime: '2020-03-09T20:43:31.783Z'
+    version: 51
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'online-help-and-notifications.md'
+  security-best-practices.md:
+    type: 'md'
+    id: '1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
+    title: 'Security Best Practices'
+    modifiedTime: '2020-03-09T18:45:50.193Z'
+    version: 38
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'security-best-practices.md'
+  alerts,-errors,-failures-interactive-tab.md:
+    type: 'md'
+    id: '121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
+    title: 'Alerts, Errors, Failures - Interactive Tab'
+    modifiedTime: '2020-02-27T21:12:37.185Z'
+    version: 60
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'alerts,-errors,-failures-interactive-tab.md'
+  patient-summary-interactive-chart-tab.md:
+    type: 'md'
+    id: '1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk'
+    title: 'Patient Summary - Interactive Chart Tab'
+    modifiedTime: '2020-02-27T19:47:07.178Z'
+    version: 44
+    mimeType: 'text/x-markdown'
+    fileName: 'patient-summary-interactive-chart-tab.md'
+  preventive-care-portlet.md:
+    type: 'md'
+    id: '1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
+    title: 'Preventive Care Portlet'
+    modifiedTime: '2020-02-27T19:45:32.923Z'
+    version: 24
+    mimeType: 'text/x-markdown'
+    fileName: 'preventive-care-portlet.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

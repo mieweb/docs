@@ -1,23 +1,23 @@
 ---
-title: "Measures"
-date: "2020-02-27T21:28:53.378Z"
-url: "functions/quality-of-care/measures.html"
-author: aquandt
-version: 29
-id: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
-source: "https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
+id: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
+title: 'Measures'
+date: '2020-02-27T21:28:53.378Z'
+version: 33
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
+links:
+  - 'measures/promoting-interoperability-pi-measures.md'
+  - 'measures/improvement-activities-measures.md'
+  - 'measures/quality-measures-list.md'
+source: 'https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Measures"
-        identifier: "1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ"
-        parent: "1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk"
-        weight: 2510
+  main:
+    name: 'Measures'
+    identifier: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
+    parent: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
+    weight: 2530
 ---
-
-
-
-
-
 
 
 
@@ -31,31 +31,13 @@ menu:
 
 
 
+[**Promoting Interoperability (PI) Measures**](measures/promoting-interoperability-pi-measures.md)
 
 
 
+[**Improvement Activities Measures**](measures/improvement-activities-measures.md)
 
 
 
-### 
-
-[Promoting Interoperability (PI) Measures](measures/promoting-interoperability-pi-measures.html)
-
-
-
-
-
-### 
-
-[Improvement Activities Measures](measures/improvement-activities-measures.html)
-
-
-
-
-
-### 
-
-[Quality Measures](measures/quality-measures-list.html)
-
-
+[**Quality Measures**](measures/quality-measures-list.md)
 

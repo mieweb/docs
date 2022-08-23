@@ -1,33 +1,29 @@
 ---
-title: "System Email Templates"
-date: "2020-02-27T21:26:58.722Z"
-url: "resources/system-specifications/system-email-templates.html"
-author: aquandt
-version: 20
-id: "1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs"
-source: "https://drive.google.com/open?id=1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs"
+id: '1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
+title: 'System Email Templates'
+date: '2020-02-27T21:26:58.722Z'
+version: 27
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
+links:
+  - 'system-email-templates/email-templates-from-chart.md'
+  - 'system-email-templates/email-templates-from-scheduler.md'
+source: 'https://drive.google.com/open?id=1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "System Email Templates"
-        identifier: "1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs"
-        parent: "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU"
-        weight: 6280
+  main:
+    name: 'System Email Templates'
+    identifier: '1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
+    parent: '1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
+    weight: 6310
 ---
 
 
 
 
-
-
-## 
-
-[Email Templates from Chart](system-email-templates/email-templates-from-chart.html)
-
+[**Email Templates from Chart**](system-email-templates/email-templates-from-chart.md)
 {{% children page="Email Templates from Chart" sort="creation" %}}
 
-## 
 
-[Email Templates from Scheduler](system-email-templates/email-templates-from-scheduler.html)
-
+[**Email Templates from Scheduler**](system-email-templates/email-templates-from-scheduler.md)
 {{% children page="Email Templates from Scheduler" sort="creation" %}}
-

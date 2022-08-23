@@ -1,93 +1,165 @@
 ---
-title: "CMS 68 - Documentation of Current Medications in the Medical Record"
-date: "2020-02-27T20:57:06.580Z"
-url: "functions/quality-of-care/measures/quality-measures-list/cms-68-documentation-of-current-medications-in-the-medical-record.html"
-version: 27
-id: "1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0"
-source: "https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0"
+id: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
+title: 'CMS 68 - Documentation of Current Medications in the Medical Record'
+date: '2022-05-23T12:15:40.249Z'
+version: 67
+lastAuthor: 'Nicole Richardson'
+mimeType: 'text/x-markdown'
+links:
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v10&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v11&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/glossary/eligible-clinician'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11'
+source: 'https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "CMS 68 - Documentation of Current Medications in the Medical Record"
-        identifier: "1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0"
-        parent: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
-        weight: 3800
+  main:
+    name: 'CMS 68 - Documentation of Current Medications in the Medical Record'
+    identifier: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
+    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
+    weight: 3820
 ---
-## Medical Codify
+## Overview
 
-[CMS68v6](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=cms68&showresult=CMS68v6&showresulttype=Measure) (2017)
+[CMS68v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v9&showresulttype=Measure) (2020)
+[CMS68v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v10&showresulttype=Measure) (2021)
+[CMS68v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v11&showresulttype=Measure) (2022)
 
-[CMS68v7](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=cms68&showresult=CMS68v7&showresulttype=Measure) (2018)
-
-[CMS68v8](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=cms68&showresult=CMS68v8&showresulttype=Measure) (2019)
+### Identifiers
 
 
+<table>
+<tr>
+<td><strong>CMS eCQM ID</strong></td>
+<td><strong>NQF eCQM ID</strong></td>
+<td><strong>NQF</strong></td>
+<td><strong>MIPS Quality ID</strong></td>
+</tr>
+<tr>
+<td>CMS68v11</td>
+<td>–</td>
+<td>–</td>
+<td>130</td>
+</tr>
 
-**Description**:  Percentage of visits for patients aged 18 years and older for which the eligible professional or eligible clinician attests to documenting a list of current medications using all immediate resources available on the date of the encounter. This list must include ALL known prescriptions, over-the-counters, herbals, and vitamin/mineral/dietary (nutritional) supplements AND must contain the medications' name, dosage, frequency and route of administration.
+</table>
+*MIE only supports data collection and reporting using eCQM specifications
 
-**Initial Patient Population**:  All visits occurring during the 12 month measurement period for patients aged 18 years and older.
+### Definitions
 
-**Denominator**:  Equals Initial Population
 
-**Numerator**: Eligible professional or eligible clinician attests to documenting, updating or reviewing the patient's current medications using all immediate resources available on the date of the encounter. This list must include ALL known prescriptions, over-the-counters, herbals and vitamin/mineral/dietary (nutritional) supplements AND must contain the medications' name, dosages, frequency and route of administration
+<table>
+<tr>
+<td><strong>Description</strong></td>
+<td>Percentage of visits for patients aged 18 years and older for which the eligible professional or <a href="https://ecqi.healthit.gov/glossary/eligible-clinician"></a> attests to documenting a list of current medications using all immediate resources available on the date of the encounter</td>
+</tr>
+<tr>
+<td><strong>Initial Patient Population</strong></td>
+<td>All visits occurring during the 12-month measurement period for patients aged 18 years and older</td>
+</tr>
+<tr>
+<td><strong>Denominator</strong></td>
+<td>Equals Initial Population</td>
+</tr>
+<tr>
+<td><strong>Denominator Exclusions</strong></td>
+<td>–</td>
+</tr>
+<tr>
+<td><strong>Numerator</strong></td>
+<td>Eligible professional or <a href="https://ecqi.healthit.gov/glossary/eligible-clinician"></a> attests to documenting, updating, or reviewing the patient's current medications using all immediate resources available on the date of the encounter</td>
+</tr>
+<tr>
+<td><strong>Numerator Exclusions</strong></td>
+<td>–</td>
+</tr>
+<tr>
+<td><strong>Denominator Exceptions</strong></td>
+<td>Documentation of a medical reason(s) for not documenting, updating, or reviewing the patient's current medications list (e.g., patient is in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status)</td>
+</tr>
 
-**Inverse Measure**:  No
+</table>
+
+
+### Additional Information
+
+
+<table>
+<tr>
+<td><strong>Measure Type</strong></td>
+<td>Process Measure</td>
+</tr>
+<tr>
+<td><strong>Measure Scoring</strong></td>
+<td>Proportion measure</td>
+</tr>
+<tr>
+<td><strong>Granularity</strong></td>
+<td>Encounter</td>
+</tr>
+<tr>
+<td><strong>Improvement Notation</strong></td>
+<td>Higher score indicates better quality</td>
+</tr>
+<tr>
+<td><strong>Domain</strong></td>
+<td>Patient Safety</td>
+</tr>
+
+</table>
+
+
 
 ## Clinical Instructions
 
+Ensure the list of current medications is always up-to-date for all patients.
+
+### Preferred Workflow
+
 Review and update the medications in the Presenting Medications section of the encounter, as appropriate, including ALL current prescriptions, over-the-counters, herbals, and vitamin/mineral/dietary supplements, with name(s), dosage(s), frequency, and route(s) of administration.
 
-* While documenting the Visit Encounter, open the Presenting Medications section of the encounter, and begin a review of all current medications.
-* Add, remove, and/or update the medications, as appropriate.
-* After reviewing and updating the medications, select the <strong>Medication reconciliation done</strong> box.
-* Continue documenting the encounter as appropriate.
-* When completed, Close and Archive the encounter
+If the Presenting Medications section is part of the encounter outline at time of archive and close, the appropriate SNOMED Concept ID will be documented for the encounter to achieve numerator credit.
 
 ## Evidence
 
+
 ### Initial Patient Population
 
+
 <table>
-  <tr>
-    <td>Name</td>
-    <td>Value Set</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed: Medications Encounter Code Set</td>
-    <td>2.16.840.1.113883.3.600.1.1834</td>
-  </tr>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Encounter, Performed: Encounter to Document Medications</td>
+<td>2.16.840.1.113883.3.600.1.1834</td>
+</tr>
+
 </table>
 
-### Denominator
-
-Equals Initial Population
 
 ### Numerator
 
-<table>
-  <tr>
-    <td>Name</td>
-    <td>Value Set</td>
-  </tr>
-  <tr>
-    <td>Procedure, Performed: Documentation of current medications (procedure)</td>
-    <td>SNOMEDCT version 2017-09 Code 428191000124101</td>
-  </tr>
-</table>
-
-### Denominator Exception
 
 <table>
-  <tr>
-    <td>Name</td>
-    <td>Value Set</td>
-  </tr>
-  <tr>
-    <td>Procedure, Not Performed: Documentation of current medications (procedure)</td>
-    <td>2.16.840.1.113883.3.600.1.1502</td>
-  </tr>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Intervention, Performed: Documentation of current medications (procedure)</td>
+<td>SNOMEDCT Code 428191000124101</td>
+</tr>
+<tr>
+<td>Procedure, Performed: Documentation of current medications (procedure)</td>
+<td>SNOMEDCT Code 428191000124101</td>
+</tr>
+
 </table>
+
 
 ## Source(s)
 
-[Medical Codify](https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=cms68&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet)
-
+[eCQI CMS68](https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11)
