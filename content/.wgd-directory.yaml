@@ -6,6 +6,15 @@ mimeType: 'application/vnd.google-apps.folder'
 date: '2022-04-15T20:50:00.173Z'
 version: '1'
 fileMap:
+  functions.md:
+    type: 'md'
+    id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
+    title: 'Functions'
+    modifiedTime: '2022-08-23T15:37:25.864Z'
+    version: 88
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'functions.md'
   .navigation.md:
     type: 'md'
     id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
@@ -23,15 +32,6 @@ fileMap:
     version: 21
     mimeType: 'image/svg+xml'
     fileName: 'proposed-health-surveillance-worklow.svg'
-  functions.md:
-    type: 'md'
-    id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    title: 'Functions'
-    modifiedTime: '2021-12-20T19:15:13.859Z'
-    version: 84
-    mimeType: 'text/x-markdown'
-    lastAuthor: 'Will Reiske'
-    fileName: 'functions.md'
   _index.md:
     type: 'md'
     id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
