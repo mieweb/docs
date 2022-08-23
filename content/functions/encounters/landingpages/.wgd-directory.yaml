@@ -1,0 +1,234 @@
+type: 'directory'
+id: '1sNcirsE6P5DfHmJF1tOIk_Ibm7AQXlE-'
+title: 'landingpages'
+fileName: 'landingpages'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2021-02-26T15:53:52.343Z'
+version: '212'
+fileMap:
+  financials.md:
+    type: 'md'
+    id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
+    title: 'Financials'
+    modifiedTime: '2021-03-05T17:54:18.969Z'
+    version: 61
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'ahumes'
+    fileName: 'financials.md'
+  final-allergies.md:
+    type: 'md'
+    id: '1OQwq4NG1eARq0eMM_Q7eY1JUpeCrQ0GBYjSGUYDelmM'
+    title: 'Final Allergies'
+    modifiedTime: '2021-02-26T16:15:03.357Z'
+    version: 9
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'final-allergies.md'
+  carbon-copy.md:
+    type: 'md'
+    id: '1JxQAWY4nwYAQJwq4NQ5DYvP3RYMml3wz_KejI5gb4dQ'
+    title: 'Carbon Copy'
+    modifiedTime: '2021-02-26T16:14:21.738Z'
+    version: 14
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'carbon-copy.md'
+  evaluation-and-management-calculator.md:
+    type: 'md'
+    id: '1qM1CZJczQo_xn9ccF_ltJGaSpJFx-quIby_9dFBQ588'
+    title: 'Evaluation and Management Calculator'
+    modifiedTime: '2021-02-26T16:11:54.485Z'
+    version: 13
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'evaluation-and-management-calculator.md'
+  immunizations-and-injections.md:
+    type: 'md'
+    id: '1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
+    title: 'Immunizations and Injections'
+    modifiedTime: '2021-02-26T16:11:01.703Z'
+    version: 13
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'immunizations-and-injections.md'
+  flowsheet.md:
+    type: 'md'
+    id: '1pTKEDFywwFJ-PVKQEogRVIQucG2qz1TNb36sjoUc7E0'
+    title: 'Flowsheet'
+    modifiedTime: '2021-02-26T16:10:26.557Z'
+    version: 19
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'flowsheet.md'
+  visit-orders.md:
+    type: 'md'
+    id: '1hsKVxA92VxeRYJn89EtUIV7ipS3NfIqM3CsDJRsDUEY'
+    title: 'Visit Orders'
+    modifiedTime: '2021-02-26T16:09:47.609Z'
+    version: 19
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'visit-orders.md'
+  social-history.md:
+    type: 'md'
+    id: '1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
+    title: 'Social History'
+    modifiedTime: '2021-02-26T16:09:16.836Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'social-history.md'
+  history-of-present-illness.md:
+    type: 'md'
+    id: '1rAmscj43iNpKmNuQPbQOteZhZwD20Mq2pR3_FfAijM8'
+    title: 'History of Present Illness'
+    modifiedTime: '2021-02-26T16:08:41.734Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'history-of-present-illness.md'
+  chief-complaint.md:
+    type: 'md'
+    id: '1_EFI6XA7aSkCqugmBfqh1FudkauR-2j6DWBM1nLAfVE'
+    title: 'Chief Complaint'
+    modifiedTime: '2021-02-26T16:08:06.512Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'chief-complaint.md'
+  contributing-providers.md:
+    type: 'md'
+    id: '13u4axKsgMry3YtUiZRzJVM04yIRBNyHfnhAIZ-p3g9k'
+    title: 'Contributing Providers'
+    modifiedTime: '2021-02-26T16:07:30.256Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'contributing-providers.md'
+  goals.md:
+    type: 'md'
+    id: '1wmHfsyGscBIZTDK5wh9OHKFLvqomOaudvXI4KtKFjqo'
+    title: 'Goals'
+    modifiedTime: '2021-02-26T16:06:55.356Z'
+    version: 10
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'goals.md'
+  recommendations.md:
+    type: 'md'
+    id: '1gtz7AgyPA2bPOoQd57LL_BZ80VQjJpGjUHaVLHdxLNE'
+    title: 'Recommendations'
+    modifiedTime: '2021-02-26T16:06:07.167Z'
+    version: 10
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'recommendations.md'
+  depart-instructions.md:
+    type: 'md'
+    id: '1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
+    title: 'Depart Instructions'
+    modifiedTime: '2021-02-26T16:05:30.513Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'depart-instructions.md'
+  patient-education.md:
+    type: 'md'
+    id: '1BMQbUu4dtP5zu3RrRMyg-MVFiH0acXyiEX0_n3zZnRg'
+    title: 'Patient Education'
+    modifiedTime: '2021-02-26T16:04:07.372Z'
+    version: 15
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'patient-education.md'
+  future-appointments.md:
+    type: 'md'
+    id: '1ShWTkzMas3ymndgJv2PwPMybW25lAYurxAxbChLBWKA'
+    title: 'Future Appointments'
+    modifiedTime: '2021-02-26T16:03:32.615Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'future-appointments.md'
+  plan-narrative.md:
+    type: 'md'
+    id: '1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
+    title: 'Plan Narrative'
+    modifiedTime: '2021-02-26T16:02:40.240Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'plan-narrative.md'
+  images.md:
+    type: 'md'
+    id: '1GnmXZCmcrEl2iSdffMsfP1CCd613PCvGc5lVy1NS2HY'
+    title: 'Images'
+    modifiedTime: '2021-02-26T16:01:58.274Z'
+    version: 10
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'images.md'
+  tests-and-procedures.md:
+    type: 'md'
+    id: '1wpLkLZxiPl3nc9Z3z47IqB8BN7_SHnE2VN6N8tsx08A'
+    title: 'Tests and Procedures'
+    modifiedTime: '2021-02-26T16:00:44.066Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'tests-and-procedures.md'
+  visual-exam.md:
+    type: 'md'
+    id: '1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc'
+    title: 'Visual Exam'
+    modifiedTime: '2021-02-26T15:59:48.173Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'visual-exam.md'
+  nurse-physical-exam.md:
+    type: 'md'
+    id: '1AWRERARQlFkZyzQ-Z6Gk9AyRDwnMBljDFz5I8EOcq40'
+    title: 'Nurse Physical Exam'
+    modifiedTime: '2021-02-26T15:59:00.574Z'
+    version: 10
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'nurse-physical-exam.md'
+  vitals.md:
+    type: 'md'
+    id: '1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
+    title: 'Vitals'
+    modifiedTime: '2021-02-26T15:58:31.774Z'
+    version: 10
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'vitals.md'
+  exam-editor-and-encounter-types.md:
+    type: 'md'
+    id: '1XeitrM19wY4AsG_B0dYy6L8C5jQSggpJxq77MVLPUPw'
+    title: 'Exam Editor and Encounter Types'
+    modifiedTime: '2021-02-26T15:57:58.346Z'
+    version: 15
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'exam-editor-and-encounter-types.md'
+  encounter.md:
+    type: 'md'
+    id: '1_RMhSD5IiXCHdNXRht41exZoec0AzWdn-ZcloqADsqc'
+    title: 'Encounter'
+    modifiedTime: '2021-02-26T15:57:18.140Z'
+    version: 10
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'encounter.md'
+  encounter-owners.md:
+    type: 'md'
+    id: '1h_gT9F-toUuJrJvskcGJwKiGUkUCqkQ8r5p96aydEWM'
+    title: 'Encounter Owners'
+    modifiedTime: '2021-02-26T15:56:46.010Z'
+    version: 15
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'egrzetich'
+    fileName: 'encounter-owners.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,21 +1,25 @@
 ---
-title: "Health Surveillance & Order/Result Management"
-date: "2020-02-27T21:27:37.919Z"
-url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/health-surveillance-and-order-result-management.html"
-author: aquandt
-version: 18
-id: "1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus"
-source: "https://drive.google.com/open?id=1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus"
+id: '1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
+title: 'Health Surveillance & Order/Result Management'
+date: '2020-02-27T21:27:37.919Z'
+version: 23
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
+links:
+  - '../../review-sessions/review-session-health-surveillance.md'
+  - '../../review-sessions/review-session-order-and-result-management.md'
+source: 'https://drive.google.com/open?id=1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Health Surveillance & Order/Result Management"
-        identifier: "1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus"
-        parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5830
+  main:
+    name: 'Health Surveillance & Order/Result Management'
+    identifier: '1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
+    parent: '1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
+    weight: 5850
 ---
 ## Purpose
 
-Cover the [Health Surveillance Review Session](../../review-sessions/review-session-health-surveillance.html) and [Order and Result Management Review Session](../../review-sessions/review-session-order-and-result-management.html), to gather necessary information and identify any gaps.
+Cover the [Health Surveillance Review Session](../../review-sessions/review-session-health-surveillance.md) and [Order and Result Management Review Session](../../review-sessions/review-session-order-and-result-management.md), to gather necessary information and identify any gaps.
 
 ## Objective
 
@@ -53,4 +57,3 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 ## Afterward
 
 Document action items, distribute meeting minutes, create Jira tickets for configuration projects that are in scope, perform system configuration, update percentage complete and dates on project plan, and prepare for subsequent meetings.
-

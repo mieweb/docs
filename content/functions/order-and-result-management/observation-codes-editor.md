@@ -1,40 +1,38 @@
 ---
-title: "Observation Codes Editor"
-date: "2020-03-13T20:07:29.409Z"
-url: "functions/order-and-result-management/observation-codes-editor.html"
-version: 49
-id: "1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
-source: "https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
+id: '1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
+title: 'Observation Codes Editor'
+date: '2020-03-13T20:07:29.409Z'
+version: 66
+lastAuthor: ''
+mimeType: 'text/x-markdown'
+links:
+  - 'flowsheets-editor.md'
+  - 'https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager'
+source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Observation Codes Editor"
-        identifier: "1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
-        parent: "103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
-        weight: 1950
+  main:
+    name: 'Observation Codes Editor'
+    identifier: '1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
+    parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
+    weight: 1970
 ---
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
 
-
-
-Additionally, because observation codes are often viewed for trend analysis, or in a graphical format, the Observation Codes Manager is also designed to allow easy access to the Flowsheet Manager for adding, editing, and viewing observation flowsheets. For more information on creating, using, and maintaining observation flowsheets, see the [Flowsheets Editor](flowsheets-editor.html) online help documentation.
+Additionally, because observation codes are often viewed for trend analysis, or in a graphical format, the Observation Codes Manager is also designed to allow easy access to the Flowsheet Manager for adding, editing, and viewing observation flowsheets. For more information on creating, using, and maintaining observation flowsheets, see the [Flowsheets Editor](flowsheets-editor.md) online help documentation.
 
 ## Observation Codes
 
 Observation codes are used for tracking various data within individual charts, and can be used across device and system interfaces, as well as within observation flowsheets and questionnaires. Because of this, it is important that observation codes remain up-to-date and current.
-
 To view the current observation codes available within the {{% system-name %}} system, navigate to the tab of the . Here, a list view of all the available observation codes will populate. Users may click on the column header hyperlinks to sort in ascending/descending order, or all observation codes may be searched against using the available filters at the top of the page.
-
 {{% note %}}
 
 In order to access the Observation Codes Manager, users must have the **Observation Manager** security setting set to *Yes*.
-
 {{% /note %}}
-
 
 ## Adding Observation Codes
 
 If an observation code is not available, or a new observation needs to be added, users with the appropriate security permission may add new ones, as follows:
-
 1. From the Observation Codes Manager, click the link in the upper-right corner of the page.
 2. Once the page loads, begin filling in all of the appropriate fields, as needed:
     1. <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
@@ -55,50 +53,30 @@ If an observation code is not available, or a new observation needs to be added,
 3. Once all of the appropriate fields have been updated, click the <strong>Save</strong> button to submit all new information.
 
 
-
 ## Viewing/Editing Observation Codes
 
 As noted, when users navigate to the , the page loads a summary list view of all available observation codes. If additional details are needed for a specific observation, users may click the **View** link from the *Options* column of the respective observation code. Clicking the **Obs Code** or **Obs Name** values will open the Observation Code View, as well.
 
-
-
-![](observation-codes-editor.images/image5.png)
-
-
+![](observation-codes-editor.assets/10000201000004FB000001FDE8302E25C33BD1DB.png)
 
 Viewing an observation code will provide additional details, such as HL7 Translations, Flowsheets containing the observation, specified ranges, custom discrete values, and charts matching a specified target.
 
-
-
-![](observation-codes-editor.images/image2.png)
-
-
+![](observation-codes-editor.assets/100002010000050A000002AC29E155B5787438B9.png)
 
 The number of times the respective observation code has been used within charts throughout the system is also available, listed as the **Observation Count**. This is particularly useful when merging or maintaining observation codes.
 
-
-
-![](observation-codes-editor.images/image8.png)
-
-
+![](observation-codes-editor.assets/10000201000004F4000001AAF7F94E3FBA929D64.png)
 
 The Observation Count value is a hyperlink. When clicked, a detailed list of all associated charts with the respective observation code will display, along with the result, observation data/time, etc.
 
-
-
-![](observation-codes-editor.images/image1.png)
-
+![](observation-codes-editor.assets/10000201000004FA000002DA896ABB0BC7448D82.png)
 
 
 ### Edit
 
 To edit an existing observation code, users with the necessary security permission may click the **Edit** link from the *Options* column of the respective observation code. This will open the Observation Code Editor. Make any and all necessary changes, and click the **Save** button to submit the edits.
 
-
-
-![](observation-codes-editor.images/image9.png)
-
-
+![](observation-codes-editor.assets/10000201000005A00000024FA73B57A8D6848515.png)
 
 
 
@@ -106,56 +84,33 @@ To edit an existing observation code, users with the necessary security permissi
 
 When maintaining observation codes, there will be times when observation codes are either obsolete, or no longer used, because other, more applicable options are available. In these instances, users may opt to delete an observation code, or in some cases, merge it with another more common observation code.
 
-
-
 To delete an existing observation code, simply click the **Delete** link from the *Options* column of the respective observation code. This will present a confirmation of the deletion. Click the **Delete** button to continue with the removal.
 
-
-
-![](observation-codes-editor.images/image6.png)
+![](observation-codes-editor.assets/100002010000050A000001A693510738A2965B1B.png)
 
 ### Merge
 
 Whenever merging observation codes, it is important to understand that the code from which merging is occurring is the code that will be removed, or overwritten, in the {{% system-name %}} system. For instance, if the Urine(Glu) 9 observation code was being merged with Urinalysis Glucose 129, users would merge from Urine(Glu) 9, thus overwriting it with Urinalysis Glucose 129.
 
-
-
 To merge an observation code, locate the observation being removed and click the **Merge** link from the *Options* column.
 
-
-
-![](observation-codes-editor.images/image3.png)
-
-
+![](observation-codes-editor.assets/10000201000004FB000002323537A92A6B55FFD7.png)
 
 When the Observation Code Merge page loads, **Enter Observation Code** will be the stored observation code retained within the system. Click the **Continue** button to save.
 
-
-
-![](observation-codes-editor.images/image7.png)
-
-
-
+![](observation-codes-editor.assets/100002010000050A000001D5698DB98DCB1C1C04.png)
 
 
 {{% warning %}}
 
 Once an observation code has been merged, it cannot be *unmerged*.
-
 {{% /warning %}}
-
-
 After continuing, users will be prompted with a verification page. Before the Merge button is available, the verification must be checked. After the box has been checked, click the **Merge** button.
 
-
-
-![](observation-codes-editor.images/image4.png)
-
+![](observation-codes-editor.assets/100002010000050A000002C8DC321B30BF3DD24B.png)
 
 
 ## Display Flowsheets
 
 Because observations are used to populate Flowsheets, {{% system-name %}} has provided a quick link for accessing the Flowsheet Manager directly from the Observation Codes Manager. Simply click the link in the upper-right corner of the page, and the will load.
-
 For details regarding how to add, edit, and maintain Observation Flowsheets, see our [Flowsheet Manager](https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager) online help documentation.
-

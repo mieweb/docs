@@ -1,16 +1,19 @@
 ---
-title: "Data Migration Questionnaire"
-date: "2020-03-17T00:54:23.101Z"
-url: "functions/system-administration/data-migration/data-migration-questionnaire.html"
-version: 42
-id: "1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg"
-source: "https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg"
+id: '1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
+title: 'Data Migration Questionnaire'
+date: '2020-03-17T00:54:23.101Z'
+version: 46
+lastAuthor: ''
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Data Migration Questionnaire"
-        identifier: "1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg"
-        parent: "1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU"
-        weight: 4680
+  main:
+    name: 'Data Migration Questionnaire'
+    identifier: '1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
+    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
+    weight: 4700
 ---
 ## Abstract
 
@@ -19,7 +22,6 @@ This document is intended for those requesting data migration (DM) into  {{% sy
 ## I. Data Sources and Storage
 
 This section is intended to provide an overview of the current state of data, its storage, and potential restrictions.
-
 1. Where do you store legacy data that is being considered for data migration?
     1. List and describe the purpose of all legacy EMRs or commercial applications in use.
     2. List and describe the purpose of all custom applications storing data that may need migrated to {{% sys-name %}} .
@@ -33,7 +35,6 @@ This section is intended to provide an overview of the current state of data, it
 ## II. Who's Who?
 
 We'd like to know everyone that has a voice in this project. Everyone with decision-making ability needs to be trained in our product. This will help them in decision-making when we have questions about what data is required and how it will be migrated.
-
 1. Identify key stakeholders in the data migration project and describe their role(s) in the project.
 2. Identify any relevant Subject Matter Experts (SMEs) and/or any key personnel and their titles/roles, if not already listed as a key stakeholder. Examples include:
     1. Medical Director
@@ -43,191 +44,188 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
     5. Any other SMEs requiring engagement for non-clinical workflows or data migrations
 3. Please provide an organizational chart, if possible. This allows for a better understanding of the parties involved, while reducing planning time and determining resource availability.
 4. Identify the individuals responsible for data validation.
-    6. Is there a user-acceptance process?
+    1. Is there a user-acceptance process?
 5. Identify the SME for each data source, or the individual(s) best suited to address questions regarding the location and function of specific records or fields during the data migration.
-    7. What is their availability for potential questions or concerns?
+    1. What is their availability for potential questions or concerns?
 
 ## III. Client & Workflow-Specific Requirements
 
-* {{% system-name %}} typically encounters the following common data migrations from legacy data source(s). Which of the following data will your migration require? Also briefly describe any relevant reports for the legacy data, including the frequency of use and whether or not you analyze trends in historical data. When considering reports, please consider those used by not only clinical teams, but also caseworkers, medical directors, executives, and anyone else who may be accessing this data.
-
+1. {{% system-name %}} typically encounters the following common data migrations from legacy data source(s). Which of the following data will your migration require? Also briefly describe any relevant reports for the legacy data, including the frequency of use and whether or not you analyze trends in historical data. When considering reports, please consider those used by not only clinical teams, but also caseworkers, medical directors, executives, and anyone else who may be accessing this data.
 
 
 <table>
-  <tr>
-    <td>DATA TYPES</td>
-    <td>REQUIRED (Y/N)</td>
-    <td>METHOD (DISCRETE/SUMMARY/BOTH)</td>
-    <td>RELATED REPORTS</td>
-    <td>NOTES OR COMMENTS</td>
-  </tr>
-  <tr>
-    <td>Employee Demographics</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Users/Providers</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Service Locations</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Case Management (wellness visits or injury- and illness-related cases)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Health Surveillance (membership and due dates)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Audiometric Testing</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Pulmonary Function Testing</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Vitals</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Lab Results</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Respirator Fit Testing</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Scanned images or flat files (e.g. ECGs, Word, Excel, or PDF documents), scanned charts, or employee photos</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Questionnaires</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Immunizations</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Medications</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Allergies</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Absence Management (Work Restrictions & Accommodations)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Diagnoses/ Conditions</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Appointments</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Medical Suitability for Expatriate Assignment evaluations</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+<tr>
+<td>DATA TYPES</td>
+<td>REQUIRED (Y/N)</td>
+<td>METHOD (DISCRETE/SUMMARY/BOTH)</td>
+<td>RELATED REPORTS</td>
+<td>NOTES OR COMMENTS</td>
+</tr>
+<tr>
+<td>Employee Demographics</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Users/Providers</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Service Locations</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Case Management (wellness visits or injury- and illness-related cases)</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Health Surveillance (membership and due dates)</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Audiometric Testing</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Pulmonary Function Testing</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Vitals</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Lab Results</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Respirator Fit Testing</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Scanned images or flat files (e.g. ECGs, Word, Excel, or PDF documents), scanned charts, or employee photos</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Questionnaires</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Immunizations</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medications</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Allergies</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Absence Management (Work Restrictions & Accommodations)</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Diagnoses/ Conditions</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Appointments</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical Suitability for Expatriate Assignment evaluations</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
 </table>
 
-
-
-* To ensure a full scope of the project is at hand, are there any additional migrations needing considered?
-* Some followup questions regarding the above items:
+2. To ensure a full scope of the project is at hand, are there any additional migrations needing considered?
+3. Some followup questions regarding the above items:
     * If you track cases, such as injuries, illnesses, or visits, and discrete data is intended to be moved, is there an established method for differentiating open and closed cases? For example, some workflows dictate that data is not entered into the system until a resolution is determined; whereas some workflows will begin a case as soon as the employee walks into a clinic.
     * If you track Health Surveillance (HS) membership and due dates, please list and briefly discuss the HS programs you track.
     * If you track HS membership and due dates, what determines the next due date? For example, previous clients have chosen a medical anniversary date corresponding to the employee's date of birth, date of hire, Cost Center, or Organizational Unit. Most clients, however, use the last test date, and then schedule the next due date at the time of the last exam.
-* Is there a need to store sensitive data, and if so, are there any controls that need considered in its migration? Examples may be, but are not limited to: Employee Assistance Program (EAP) information, Fit For Duty evaluations, Psychological notes, or data related to highly placed executives/officials.
+4. Is there a need to store sensitive data, and if so, are there any controls that need considered in its migration? Examples may be, but are not limited to: Employee Assistance Program (EAP) information, Fit For Duty evaluations, Psychological notes, or data related to highly placed executives/officials.
     * With regard to sensitive information, is there a need for relationship mapping, or security rules, intended to limit access to specific data?
-* Identify and describe any custom reports or tools used to extract data for workflows.
-* What interfaces (electronic or manual) interact with your legacy data source(s)? Are they inbound, outbound, or bidirectional? Briefly describe each interface. If there are any forms or requirements associated with these interfaces, please include examples.
-* Will there be a Human Resources (HR) interface? If so, will there be any demographic information that will be required beyond what comes over the HR interface? Please consider dependents, applicants, contractors, and other non-employees that may be seen in a clinic, but not included on the HR feed.
+5. Identify and describe any custom reports or tools used to extract data for workflows.
+6. What interfaces (electronic or manual) interact with your legacy data source(s)? Are they inbound, outbound, or bidirectional? Briefly describe each interface. If there are any forms or requirements associated with these interfaces, please include examples.
+7. Will there be a Human Resources (HR) interface? If so, will there be any demographic information that will be required beyond what comes over the HR interface? Please consider dependents, applicants, contractors, and other non-employees that may be seen in a clinic, but not included on the HR feed.
     * If the answer is Yes above, please consider the following questions around your HR Interface:
         * What is your source system and version number?
         * Do you host your HR application?
         * Will you be providing the periodic data extraction? Or will there be a 3rd party?
-* Data Format: CSV
+8. Data Format: CSV
     * Confirm delimiter (comma, tab, and vertical bar are most common). Choose something not present within any of the data fields for the HR data file.
     * What population will be included in each file? Everyone or only people who have had demographic updates since the last extraction (deltas)?
     * Frequency of the data file: daily, weekly, etc.
-* Standard connectivity for HR interfaces include MIE hosting FTPS (preferred) or SFTP.
+9. Standard connectivity for HR interfaces include MIE hosting FTPS (preferred) or SFTP.
     * What IP Address or Range(s) will be used to connect to MIE's interface server to deliver the data file?
-* Please discuss any items from the Workflow Considerations section of the informational document provided with this questionnaire.
+10. Please discuss any items from the Workflow Considerations section of the informational document provided with this questionnaire.
     * Confirm that the Employee ID passed as the first Medical Record number is 100% populated, never changes, and is never reused.
     * Termination procedure
     * Applicant procedure
-* File name convention
+11. File name convention
     * <client handle>_<hr system>_<system type>_YYYYMMDDHHMMSS.csv
     * EG: eh_workday_dev_20170628095942.csv or eh_sap_prod_20170420000000.csv
-* Are there any workflows that may be unique to your situation? Or do you have special input screens to facilitate a workflow in your legacy data systems?
-* Will different employee/patient populations need to be restricted from certain clinical personnel? For example, would you want to restrict clinicians to work only with employees and personnel by country, person type (i.e. employee, applicant, contractor, etc), or employer organization (e.g. company, subsidiary, contractor, agency, prime, etc)?
-
+12. Are there any workflows that may be unique to your situation? Or do you have special input screens to facilitate a workflow in your legacy data systems?
+13. Will different employee/patient populations need to be restricted from certain clinical personnel? For example, would you want to restrict clinicians to work only with employees and personnel by country, person type (i.e. employee, applicant, contractor, etc), or employer organization (e.g. company, subsidiary, contractor, agency, prime, etc)?
 
 
 ## IV. Next Steps

@@ -1,0 +1,25 @@
+type: 'directory'
+id: '1UMfOTNHV9nVW9JH5JHCvh-UjklqvimJm'
+title: 'On-Premise Deployment'
+fileName: 'on-premise-deployment'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:41.096Z'
+version: '300'
+fileMap:
+  application-managed-service-summary.md:
+    type: 'md'
+    id: '1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
+    title: 'Application Managed Service Summary'
+    modifiedTime: '2020-02-27T20:46:34.562Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    fileName: 'application-managed-service-summary.md'
+  on-premise-mysql-server-hardware-requirements.md:
+    type: 'md'
+    id: '1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM'
+    title: 'On-Premise MySQL Server Hardware Requirements'
+    modifiedTime: '2020-02-27T20:46:26.827Z'
+    version: 19
+    mimeType: 'text/x-markdown'
+    fileName: 'on-premise-mysql-server-hardware-requirements.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

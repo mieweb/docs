@@ -1,0 +1,108 @@
+type: 'directory'
+id: '1GcGWDbh6TyiQu3tK6dvXZDlZ8zFyQ_Xm'
+title: 'Deployment Planning'
+fileName: 'deployment-planning'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:49.947Z'
+version: '278'
+fileMap:
+  system-admin.md:
+    type: 'md'
+    id: '1NmvnJfchSVK7KFPNzGUgyLEjKYj7HkIvNRF52SS1J-k'
+    title: 'System Admin'
+    modifiedTime: '2020-02-27T21:27:49.466Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'system-admin.md'
+  fax-manager-and-reports.md:
+    type: 'md'
+    id: '1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
+    title: 'Fax Manager & Reports'
+    modifiedTime: '2020-02-27T21:27:46.914Z'
+    version: 22
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'fax-manager-and-reports.md'
+  tasking-and-e-sign.md:
+    type: 'md'
+    id: '1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
+    title: 'Tasking & E-Sign'
+    modifiedTime: '2020-02-27T21:27:44.178Z'
+    version: 24
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'tasking-and-e-sign.md'
+  medication-management-e-prescribing-and-injection-immunization-management.md:
+    type: 'md'
+    id: '1-lISyynsVEL9vuPGAfFFS021RJmb6d37Y-yiasjxLf4'
+    title: 'Medication Management/E-Prescribing & Injection/Immunization Management'
+    modifiedTime: '2020-02-27T21:27:41.799Z'
+    version: 22
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'medication-management-e-prescribing-and-injection-immunization-management.md'
+  health-surveillance-and-order-result-management.md:
+    type: 'md'
+    id: '1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
+    title: 'Health Surveillance & Order/Result Management'
+    modifiedTime: '2020-02-27T21:27:37.919Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'health-surveillance-and-order-result-management.md'
+  work-related-exams-and-clinical-care.md:
+    type: 'md'
+    id: '1eOhrb_r3jJ_atpkEE6NOmLYTypoYUCIeQj-39MRVoQ0'
+    title: 'Work-Related Exams & Clinical Care'
+    modifiedTime: '2020-02-27T21:27:35.013Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'work-related-exams-and-clinical-care.md'
+  injury-care-and-case-mgmt.md:
+    type: 'md'
+    id: '1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ'
+    title: 'Injury Care & Case Mgmt'
+    modifiedTime: '2020-02-27T21:27:32.772Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'injury-care-and-case-mgmt.md'
+  encounter-workflow-and-portal-management.md:
+    type: 'md'
+    id: '1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
+    title: 'Encounter Workflow & Portal Management'
+    modifiedTime: '2020-02-27T21:27:26.111Z'
+    version: 24
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'encounter-workflow-and-portal-management.md'
+  scheduler-and-check-in.md:
+    type: 'md'
+    id: '1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA'
+    title: 'Scheduler & Check-in'
+    modifiedTime: '2020-02-27T21:27:23.979Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'scheduler-and-check-in.md'
+  patient-registration-and-document-management.md:
+    type: 'md'
+    id: '1i-O15wMVtd1z-_3p7cFpA9pTPSVWtSHotxi2wKwJXek'
+    title: 'Patient Registration & Document Management'
+    modifiedTime: '2020-02-27T21:27:20.901Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'patient-registration-and-document-management.md'
+  base-configuration.md:
+    type: 'md'
+    id: '1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
+    title: 'Base Configuration'
+    modifiedTime: '2020-02-27T21:27:18.394Z'
+    version: 21
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'base-configuration.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,0 +1,18 @@
+type: 'directory'
+id: '1oSVs_5aBUxsRfUauSX-MPtJPyr4T3mqW'
+title: 'Intro to the System'
+fileName: 'intro-to-the-system'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:58.489Z'
+version: '284'
+fileMap:
+  system-anatomy.md:
+    type: 'md'
+    id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
+    title: 'System Anatomy'
+    modifiedTime: '2020-02-27T21:28:42.966Z'
+    version: 72
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'system-anatomy.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

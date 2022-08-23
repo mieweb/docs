@@ -1,21 +1,19 @@
 ---
-title: "Order & Result Management"
-date: "2020-02-27T20:01:00.961Z"
-url: "functions/order-and-result-management.html"
-version: 14
-id: "103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
-source: "https://drive.google.com/open?id=103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
+id: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
+title: 'Order & Result Management'
+date: '2020-02-27T20:01:00.961Z'
+version: 18
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Order & Result Management"
-        identifier: "103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8"
-        parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
-        weight: 1860
+  main:
+    name: 'Order & Result Management'
+    identifier: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
+    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
+    weight: 1880
 ---
-
-
-
-
 
 
 
@@ -24,9 +22,9 @@ menu:
 
 
 
-
-
-
-
 {{% children %}}
+
+
+
+
 

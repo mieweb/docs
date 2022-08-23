@@ -1,22 +1,20 @@
 ---
-title: "Medical Programs"
-date: "2021-03-22T22:40:59.826Z"
-url: "programs/medical-programs.html"
-author: Grzegorz Godlewski
-version: 63
-id: "1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU"
-source: "https://drive.google.com/open?id=1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU"
+id: '1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU'
+title: 'Medical Programs'
+date: '2021-03-22T22:40:59.826Z'
+version: 67
+lastAuthor: 'Grzegorz Godlewski'
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Medical Programs"
-        identifier: "1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU"
-        parent: "1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk"
-        weight: 40
+  main:
+    name: 'Medical Programs'
+    identifier: '1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU'
+    parent: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
+    weight: 40
 ---
-
-
-
-
 
 
 
@@ -25,9 +23,9 @@ The {{% system-name %}} medical programs are intended to be accessed and used fo
 
 
 
-
-
-
-
 {{% children %}}
+
+
+
+
 

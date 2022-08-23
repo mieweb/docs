@@ -1,107 +1,186 @@
 ---
-title: "CMS 75 - Children Who Have Dental Decay or Cavities"
-date: "2020-02-27T20:57:15.740Z"
-url: "functions/quality-of-care/measures/quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.html"
-version: 13
-id: "1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM"
-source: "https://drive.google.com/open?id=1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM"
+id: '1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
+title: 'CMS 75 - Children Who Have Dental Decay or Cavities'
+date: '2022-05-16T15:48:04.708Z'
+version: 68
+lastAuthor: 'Nicole Richardson'
+mimeType: 'text/x-markdown'
+links:
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10'
+source: 'https://drive.google.com/open?id=1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "CMS 75 - Children Who Have Dental Decay or Cavities"
-        identifier: "1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM"
-        parent: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
-        weight: 3820
+  main:
+    name: 'CMS 75 - Children Who Have Dental Decay or Cavities'
+    identifier: '1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
+    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
+    weight: 3840
 ---
-[CMS75v5](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS75&showresult=CMS75v5&showresulttype=Measure) (2017)
+## Overview
 
-[CMS75v6](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS75&showresult=CMS75v6&showresulttype=Measure) (2018)
+[CMS75v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v8&showresulttype=Measure) (2020)
+[CMS75v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v9&showresulttype=Measure) (2021)
+[CMS75v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v10&showresulttype=Measure) (2022)
 
-[CMS75v7](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS75&showresult=CMS75v7&showresulttype=Measure) (2019)
+### Identifiers
 
 
+<table>
+<tr>
+<td><strong>CMS eCQM ID</strong></td>
+<td><strong>NQF eCQM ID</strong></td>
+<td><strong>NQF</strong></td>
+<td><strong>MIPS Quality ID</strong></td>
+</tr>
+<tr>
+<td>CMS75v10</td>
+<td>–</td>
+<td>–</td>
+<td>378</td>
+</tr>
 
-**Description**:  Percentage of children, age 0-20 years, who have had tooth decay or cavities during the measurement period.
+</table>
+*MIE only supports data collection and reporting using eCQM specifications
 
-**Initial Patient Population**:  Children, age 0-20 years, with a visit during the measurement period.
+### Definitions
 
-**Denominator**:  Equals Initial Population
 
-**Numerator**: Children who had cavities or decayed teeth.
+<table>
+<tr>
+<td><strong>Description</strong></td>
+<td>Percentage of children, 6 months - 20 years of age at the start of the measurement period, who have had tooth decay or cavities during the measurement period</td>
+</tr>
+<tr>
+<td><strong>Initial Patient Population</strong></td>
+<td>Children, 6 months - 20 years of age, with a clinical oral evaluation during the measurement period</td>
+</tr>
+<tr>
+<td><strong>Denominator</strong></td>
+<td>Equals Initial Population</td>
+</tr>
+<tr>
+<td><strong>Denominator Exclusions</strong></td>
+<td>Exclude patients who are in hospice care for any part of the measurement period.</td>
+</tr>
+<tr>
+<td><strong>Numerator</strong></td>
+<td>Children who had a diagnosis of cavities or decayed teeth in any part of the measurement period</td>
+</tr>
+<tr>
+<td><strong>Numerator Exclusions</strong></td>
+<td>–</td>
+</tr>
+<tr>
+<td><strong>Denominator Exceptions</strong></td>
+<td>–</td>
+</tr>
 
-**Inverse Measure**:  Yes
+</table>
+
+
+### Additional Information
+
+
+<table>
+<tr>
+<td><strong>Measure Type</strong></td>
+<td>Outcome measure</td>
+</tr>
+<tr>
+<td><strong>Measure Scoring</strong></td>
+<td>Proportion measure</td>
+</tr>
+<tr>
+<td><strong>Granularity</strong></td>
+<td>Patient</td>
+</tr>
+<tr>
+<td><strong>Improvement Notation</strong></td>
+<td>Lower score indicates better quality</td>
+</tr>
+<tr>
+<td><strong>Domain</strong></td>
+<td>Community/Population Health</td>
+</tr>
+
+</table>
+
+
 
 ## Clinical Instructions
 
-Tracks all patients 20 years old or younger diagnosed with tooth decay or cavities. 
+Track all patients 6 months to 20 years of age diagnosed with tooth decay or cavities.
 
-* Using the Symptoms/Diagnosis section of the encounter, ensure the patient has a diagnosis of tooth or dental decay, whenever applicable.
+### Workflow
+
+1. While documenting the Visit encounter, record the diagnosis, as appropriate
+2. Open the Symptoms/Diagnosis section
+3. Ensure the patient has a diagnosis of tooth or dental decay, as applicable
+4. Continue documenting the encounter, as appropriate
+5. When completed, Close and Archive the encounter
 
 ## Evidence
 
+
+### Initial Patient Population
+
+
 <table>
-  <tr>
-    <td>Name</td>
-    <td>Value Set</td>
-  </tr>
-  <tr>
-    <td>Diagnosis</td>
-    <td>2.16.840.1.113883.3.464.1003.125.12.1004</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.464.1003.125.12.1003</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.666.5.307</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.464.1003.101.12.1001</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.464.1003.101.12.1024</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.464.1003.101.12.1025</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.464.1003.101.12.1023</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.464.1003.101.12.1022</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113762.1.4.1108.15</td>
-  </tr>
-  <tr>
-    <td>Intervention, Performed</td>
-    <td>2.16.840.1.113762.1.4.1108.15</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Ethnicity</td>
-    <td>2.16.840.1.114222.4.11.837</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Payer</td>
-    <td>2.16.840.1.114222.4.11.3591</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Race</td>
-    <td>2.16.840.1.114222.4.11.836</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Sex</td>
-    <td>2.16.840.1.113762.1.4.1</td>
-  </tr>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Encounter, Performed: Clinical Oral Evaluation</td>
+<td>2.16.840.1.113883.3.464.1003.125.12.1003</td>
+</tr>
+
 </table>
 
-## Source(s)
 
-[Medical Codify](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS75&Submit=Search&icd9search=1&icd10search=1&icd10pcssearch=1&snomedsearch=1&loincsearch=1&labcorpsearch=1&questsearch=1&rxnormsearch=1&hcpcssearch=1&ndcsearch=1&cvxsearch=1&vissearch=1&vssearch=1&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet)
+### Denominator Exclusions
 
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Encounter, Performed: Encounter Inpatient</td>
+<td>2.16.840.1.113883.3.666.5.307</td>
+</tr>
+<tr>
+<td>Intervention, Order: Hospice care ambulatory</td>
+<td>2.16.840.1.113762.1.4.1108.15</td>
+</tr>
+<tr>
+<td>Intervention, Performed: Hospice care ambulatory</td>
+<td>2.16.840.1.113762.1.4.1108.15</td>
+</tr>
+
+</table>
+
+
+### Numerator
+
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Diagnosis: Dental Caries</td>
+<td>2.16.840.1.113883.3.464.1003.125.12.1004</td>
+</tr>
+
+</table>
+
+
+## **Source(s)**
+
+[eCQI CMS75](https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10)

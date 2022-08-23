@@ -1,72 +1,40 @@
 ---
-title: "PACS SpeechMike Driver Utility Setup"
-date: "2020-02-27T19:52:36.833Z"
-url: "functions/encounters/dictation-and-transcription/pacs-speechmike-driver-utility-setup.html"
-version: 33
-id: "1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg"
-source: "https://drive.google.com/open?id=1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg"
+id: '1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
+title: 'PACS SpeechMike Driver Utility Setup'
+date: '2022-02-23T20:12:56.293Z'
+version: 60
+lastAuthor: 'Dave Cornewell'
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "PACS SpeechMike Driver Utility Setup"
-        identifier: "1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg"
-        parent: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-        weight: 1390
+  main:
+    name: 'PACS SpeechMike Driver Utility Setup'
+    identifier: '1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
+    parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
+    weight: 1410
 ---
-To begin, go to **START** at the bottom left corner of your computer desktop and move your mouse to
+To begin, install and run the Philips Device Control Center application
+![](pacs-speechmike-driver-utility-setup.assets/10000201000001600000005819712CA6D5DDF8A3.png)
 
-**ALL PROGRAMS**. Next, find and select the program named **SpeechMike Driver Utility** then another branch will open. Click **Control Application** to run the Control Application for the SpeechMike Driver Utility.
+The *Control Center* screen will open. This is where you will make some selections for setup. Go to Application control and click on the buttons you want to configure.
+![](pacs-speechmike-driver-utility-setup.assets/100002010000032600000223D5A2F0AADCF9767B.png)
 
-![](pacs-speechmike-driver-utility-setup.images/image7.jpg)
 
-The *Control Utility* screen will open. This is where you will make some selections for setup.
 
-![](pacs-speechmike-driver-utility-setup.images/image9.jpg)
+Click Add
+![](pacs-speechmike-driver-utility-setup.assets/100002010000025B0000015915BE29053DDBC39A.png)
 
-Click on **Options** at the top toolbar, then select **Buttons**. The Buttons options will branch out. In the Buttons options, select the name of your SpeechMike.
+Choose Hotkey
+![](pacs-speechmike-driver-utility-setup.assets/10000201000001F90000009D9786FB7102A1F154.png)
 
-![](pacs-speechmike-driver-utility-setup.images/image8.jpg)
+Configure the hotkey you want to the dictation recorder then make sure the dictation recorder is configured to match
+![](pacs-speechmike-driver-utility-setup.assets/10000201000003B200000178886C62F3522D385E.png)
 
-After you have selected your SpeechMike name, click on **Options** again in the top toolbar.
+![](pacs-speechmike-driver-utility-setup.assets/1000020100000256000000FA62FD8AA6AE120EE3.png)
 
-Then select **Auto-Assign.**
 
-![](pacs-speechmike-driver-utility-setup.images/image11.jpg)
-
-Notice that the Auto-Assign button is pressed in. Now click on the "Browse" icon. The *browse* icon is the icon that looks like a yellow folder w/ a magnifying glass on it. It is to the right of *Assigned Application* field.
-
-![](pacs-speechmike-driver-utility-setup.images/image10.jpg)
-
-After you have clicked browse, find the Internet Explorer program **in Local Disk (C: ) -> Program Files -> Internet Explorer.** Click Local Disk (C:), then click Program Files, then click Internet Explorer.
-
-![](pacs-speechmike-driver-utility-setup.images/image2.jpg)
-
-When the Internet Explorer folder opens, click on **iexplore.exe.**
-
-![](pacs-speechmike-driver-utility-setup.images/image1.jpg)
-
-Then, click on the **EOL** button. This is to assign the button for uploading.
-
-![](pacs-speechmike-driver-utility-setup.images/image4.jpg)
-
-Now you need to assign a Keyboard Input command. For example hold the Alt key down with U.
-
-Make sure this combination doesn't already exist in your program.
-
-Internet explorer is already using Alt + F, Alt + E, Alt + V, Alt + T, Alt + H.
-
-The "Dictation" layout or any other layout used here, needs to have the access keys assigned to the buttons for uploading a dictation. When done, click the *close* button.
-
-![](pacs-speechmike-driver-utility-setup.images/image3.jpg)
-
-When done, click on **File** from the top toolbar, then click **Save**.
-
-![](pacs-speechmike-driver-utility-setup.images/image6.jpg)
-
-After you click Save, it will pop open a SAVE AS screen in the Driver Utility.
-
-Type in the *File name* field **Webchart.scm** to save as **Webchart.scm**.
-
-Make sure *Save as type* says Scheme files (.SCM) and click SAVE.
-
-![](pacs-speechmike-driver-utility-setup.images/image5.jpg)
+Make sure to click the Apply button
+![](pacs-speechmike-driver-utility-setup.assets/10000201000000EE00000128FFAD667BC80E6487.png)
 

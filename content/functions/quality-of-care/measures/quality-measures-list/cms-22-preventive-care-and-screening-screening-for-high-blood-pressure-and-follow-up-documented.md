@@ -1,160 +1,248 @@
 ---
-title: "CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented"
-date: "2020-02-27T20:56:58.522Z"
-url: "functions/quality-of-care/measures/quality-measures-list/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.html"
-version: 15
-id: "1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y"
-source: "https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y"
+id: '1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
+title: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
+date: '2022-05-11T18:41:02.927Z'
+version: 111
+lastAuthor: 'Nicole Richardson'
+mimeType: 'text/x-markdown'
+links:
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10'
+source: 'https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented"
-        identifier: "1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y"
-        parent: "14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y"
-        weight: 3780
+  main:
+    name: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
+    identifier: '1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
+    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
+    weight: 3800
 ---
-[CMS22v5](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS22&showresult=CMS22v5&showresulttype=Measure) (2017)
+## Overview
 
-[CMS22v6](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS22&showresult=CMS22v6&showresulttype=Measure) (2018)
+[CMS22v8 ](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure)(2020)
+[CMS22v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v9&showresulttype=Measure) (2021)
+[CMS22v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure) (2022)
 
-[CMS22v7](https://medicalcodify.com/eh/?f=layoutnouser&func&module&tabmodule&name=RXDBmain&searchterm=CMS22&showresult=CMS22v7&showresulttype=Measure) (2019)
+### Identifiers
+
+
+<table>
+<tr>
+<td><strong>CMS eCQM ID</strong></td>
+<td><strong>NQF eCQM ID</strong></td>
+<td><strong>NQF</strong></td>
+<td><strong>MIPS Quality ID</strong></td>
+</tr>
+<tr>
+<td>CMS22v10</td>
+<td>–</td>
+<td>–</td>
+<td>317</td>
+</tr>
+
+</table>
+*MIE only supports data collection and reporting using eCQM specifications
+
+### Definitions
+
+
+<table>
+<tr>
+<td><strong>Description</strong></td>
+<td>Percentage of patient visits for patients aged 18 years and older seen during the measurement period who were screened for high blood pressure AND a recommended follow-up plan is documented, as indicated, if blood pressure is elevated or hypertensive.</td>
+</tr>
+<tr>
+<td><strong>Initial Patient Population</strong></td>
+<td>All patient visits for patients aged 18 years and older at the beginning of the measurement period.</td>
+</tr>
+<tr>
+<td><strong>Denominator</strong></td>
+<td>Equals Initial Population.</td>
+</tr>
+<tr>
+<td><strong>Denominator Exclusions</strong></td>
+<td>Patient has an active diagnosis of hypertension.</td>
+</tr>
+<tr>
+<td><strong>Numerator</strong></td>
+<td>Patient visits where patients were screened for high blood pressure AND have a recommended follow-up plan documented, as indicated, if the blood pressure is elevated or hypertensive.</td>
+</tr>
+<tr>
+<td><strong>Numerator Exclusions</strong></td>
+<td>–</td>
+</tr>
+<tr>
+<td><strong>Denominator Exceptions</strong></td>
+<td><ul><li><p>Documentation of medical reason(s) for not screening for high blood pressure (e.g., patient is in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status).</p></li><li><p>Documentation of patient reason(s) for not screening for blood pressure measurements or for not ordering an appropriate follow-up intervention if patient BP is elevated or hypertensive (e.g., patient refuses).</p></li></ul></td>
+</tr>
+
+</table>
+
+
+### Additional Information
 
 
 
-**Description**:  Percentage of patients aged 18 years and older seen during the reporting period who were screened for high blood pressure AND a recommended follow-up plan is documented based on the current blood pressure (BP) reading as indicated.
+<table>
+<tr>
+<td><strong>Measure Type</strong></td>
+<td>Process measure</td>
+</tr>
+<tr>
+<td><strong>Measure Scoring</strong></td>
+<td>Proportion measure</td>
+</tr>
+<tr>
+<td><strong>Granularity</strong></td>
+<td>Encounter</td>
+</tr>
+<tr>
+<td><strong>Improvement Notation</strong></td>
+<td>Higher score indicates better quality</td>
+</tr>
+<tr>
+<td><strong>Domain</strong></td>
+<td>Community/Population Health</td>
+</tr>
 
-**Initial Patient Population**:  All patients aged 18 years and older before the start of the measurement period with at least one eligible encounter during the measurement period.
+</table>
 
-**Denominator**:  Equals Initial Population
-
-**Numerator**: Patients who were screened for high blood pressure AND have a recommended follow-up plan documented, as indicated if the blood pressure is pre-hypertensive or hypertensive.
-
-**Inverse Measure**:  No
 
 ## Clinical Instructions
 
-Track all 18+ year-old patients screened for high blood pressure, and ensure those with a pre-hypertensive or hypertensive blood pressure reading have a follow-up plan recommended and documented. Pre-hypertension is blood pressure readings with a systolic pressure from 120 to 139 mm/Hg or a diastolic pressure from 80 to 89 mm/Hg. Readings greater than or equal to 140/90 mm/HG are considered hypertension. While documenting the Visit encounter, record the blood pressure, as appropriate.
+Track all 18+ year-old patients screened for high blood pressure, and ensure those with a pre-hypertensive or hypertensive blood pressure reading have a follow-up plan recommended and documented. Pre-hypertension is defined by blood pressure readings with a systolic pressure from 120 to 139 mm/Hg or a diastolic pressure from 80 to 89 mm/Hg. Hypertension is defined by readings greater than or equal to 140/90 mm/Hg.
 
-* Open the Vitals section and enter the diastolic and systolic pressures
-* If the blood pressure is high and the patient is assessed prehypertensive or hypertensive, recommend a follow-up plan and document, accordingly
-* Ensure the Follow Up Plan observation is configured with LOINC 56851-9
-* Complete and provide the follow-up plan, as appropriate
-* Continue documenting the encounter, as needed
-* When completed, Close and Archive the encounter
+### Preferred Workflow
+
+1. While documenting the Visit encounter, record the blood pressure, as appropriate
+2. Open the Vitals section and enter the systolic and diastolic pressures
+3. If the blood pressure is high and the patient is assessed prehypertensive or hypertensive, recommend a follow-up plan and document, accordingly
+    1. Open the Preventive Care section
+    2. Open the Hypertension Interventions picklist
+    3. Order the appropriate follow-up items(s) for the patient
+    OR
+    4. E-prescribe an appropriate hypertension medication
+5. Continue documenting the encounter, as needed
+6. When completed, Close and Archive the encounter
+
+### Alternate Workflow
+
+1. While documenting the Visit encounter, record the blood pressure, as appropriate
+2. Open the Vitals section and enter the systolic and diastolic pressures
+3. If the blood pressure is high and the patient is assessed prehypertensive or hypertensive, recommend a follow-up plan and document, accordingly
+4. Complete and provide the follow-up plan, as appropriate
+5. Continue documenting the encounter, as needed
+6. When completed, Close and Archive the encounter
 
 ## Evidence
 
+
+### Initial Patient Population
+
+
 <table>
-  <tr>
-    <td>Name</td>
-    <td>Value Set</td>
-  </tr>
-  <tr>
-    <td>Diagnosis</td>
-    <td>2.16.840.1.113883.3.600.263</td>
-  </tr>
-  <tr>
-    <td>Diagnostic Study, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.2448</td>
-  </tr>
-  <tr>
-    <td>Diagnostic Study, Order</td>
-    <td>2.16.840.1.113883.3.600.2448</td>
-  </tr>
-  <tr>
-    <td>Encounter, Performed</td>
-    <td>2.16.840.1.113883.3.600.1920</td>
-  </tr>
-  <tr>
-    <td>Intervention, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.1515</td>
-  </tr>
-  <tr>
-    <td>Intervention, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.1508</td>
-  </tr>
-  <tr>
-    <td>Intervention, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.823</td>
-  </tr>
-  <tr>
-    <td>Intervention, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.1518</td>
-  </tr>
-  <tr>
-    <td>Intervention, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.1475</td>
-  </tr>
-  <tr>
-    <td>Intervention, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.1510</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.1515</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.1537</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.1474</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.1508</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.823</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.1518</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.1475</td>
-  </tr>
-  <tr>
-    <td>Intervention, Order</td>
-    <td>2.16.840.1.113883.3.600.1510</td>
-  </tr>
-  <tr>
-    <td>Laboratory Test, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.1482</td>
-  </tr>
-  <tr>
-    <td>Laboratory Test, Order</td>
-    <td>2.16.840.1.113883.3.600.1482</td>
-  </tr>
-  <tr>
-    <td>Medication, Not Ordered</td>
-    <td>2.16.840.1.113883.3.600.1476</td>
-  </tr>
-  <tr>
-    <td>Medication, Order</td>
-    <td>2.16.840.1.113883.3.600.1476</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Ethnicity</td>
-    <td>2.16.840.1.114222.4.11.837</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Payer</td>
-    <td>2.16.840.1.114222.4.11.3591</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Race</td>
-    <td>2.16.840.1.114222.4.11.836</td>
-  </tr>
-  <tr>
-    <td>Patient Characteristic Sex</td>
-    <td>2.16.840.1.113762.1.4.1</td>
-  </tr>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Encounter, Performed: Encounter to Screen for Blood Pressure</td>
+<td>2.16.840.1.113883.3.600.1920</td>
+</tr>
+
 </table>
 
-## Source(s)
 
-[Medical Codify](https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS22&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet)
+### Denominator Exclusions
 
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Diagnosis: Diagnosis of Hypertension</td>
+<td>2.16.840.1.113883.3.600.263</td>
+</tr>
+
+</table>
+
+
+### Numerator
+
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Value Set</strong></td>
+</tr>
+<tr>
+<td>Diagnostic Study, Order: EKG 12 channel panel</td>
+<td>LOINC Code 34534-8</td>
+</tr>
+<tr>
+<td>Diagnostic Study, Order: EKG study</td>
+<td>LOINC Code 11524-6</td>
+</tr>
+<tr>
+<td>Intervention, Order: Dietary Recommendations</td>
+<td>2.16.840.1.113883.3.600.1515</td>
+</tr>
+<tr>
+<td>Intervention, Order: Follow Up Within 4 Weeks</td>
+<td>2.16.840.1.113883.3.526.3.1578</td>
+</tr>
+<tr>
+<td>Intervention, Order: Follow-up 2-3 months (finding)</td>
+<td>SNOMEDCT Code 183624006</td>
+</tr>
+<tr>
+<td>Intervention, Order: Follow-up 4-6 months (finding)</td>
+<td>SNOMEDCT Code 183625007</td>
+</tr>
+<tr>
+<td>Intervention, Order: Lifestyle Recommendation</td>
+<td>2.16.840.1.113883.3.526.3.1581</td>
+</tr>
+<tr>
+<td>Intervention, Order: Recommendation to Increase Physical Activity</td>
+<td>2.16.840.1.113883.3.600.1518</td>
+</tr>
+<tr>
+<td>Intervention, Order: Referral or Counseling for Alcohol Consumption</td>
+<td>2.16.840.1.113883.3.526.3.1583</td>
+</tr>
+<tr>
+<td>Intervention, Order: Referral to Primary Care or Alternate Provider</td>
+<td>2.16.840.1.113883.3.526.3.1580</td>
+</tr>
+<tr>
+<td>Intervention, Order: Weight Reduction Recommended</td>
+<td>2.16.840.1.113883.3.600.1510</td>
+</tr>
+<tr>
+<td>Laboratory Test, Order: Laboratory Tests for Hypertension</td>
+<td>2.16.840.1.113883.3.600.1482</td>
+</tr>
+<tr>
+<td>Medication, Order: Pharmacologic Therapy for Hypertension</td>
+<td>2.16.840.1.113883.3.526.1577</td>
+</tr>
+<tr>
+<td>Physical Exam, Performed: Diastolic blood pressure</td>
+<td>LOINC Code 8462-4</td>
+</tr>
+<tr>
+<td>Physical Exam, Performed: Systolic blood pressure</td>
+<td>LOINC Code 8480-6</td>
+</tr>
+
+</table>
+
+
+## **Source(s)**
+
+[eCQI CMS22](https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10)

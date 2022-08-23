@@ -1,0 +1,396 @@
+type: 'directory'
+id: '1QcK9EDNNfz8sjByQmnEWEgl-vobVNkaj'
+title: 'Quality Measures List'
+fileName: 'quality-measures-list'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:25:02.117Z'
+version: '321'
+fileMap:
+  cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9percent.md:
+    type: 'md'
+    id: '1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
+    title: 'CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)'
+    modifiedTime: '2022-06-07T13:50:51.845Z'
+    version: 86
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9percent.md'
+  cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md:
+    type: 'md'
+    id: '1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q'
+    title: 'CMS 69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-up Plan'
+    modifiedTime: '2022-05-24T14:01:44.837Z'
+    version: 87
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md'
+  cms-50-closing-the-referral-loop-receipt-of-specialist-report.md:
+    type: 'md'
+    id: '1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
+    title: 'CMS 50 - Closing the Referral Loop: Receipt of Specialist Report'
+    modifiedTime: '2022-05-24T13:52:38.737Z'
+    version: 108
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-50-closing-the-referral-loop-receipt-of-specialist-report.md'
+  cms-117-childhood-immunization-status.md:
+    type: 'md'
+    id: '1MR0uCXDGLsP0rlSwgFdVRKCohi_d5Sfy_55wV1xV7nc'
+    title: 'CMS 117 - Childhood Immunization Status'
+    modifiedTime: '2022-05-23T12:27:08.410Z'
+    version: 59
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-117-childhood-immunization-status.md'
+  cms-90-functional-status-assessments-for-congestive-heart-failure.md:
+    type: 'md'
+    id: '18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
+    title: 'CMS 90 - Functional Status Assessments for Congestive Heart Failure'
+    modifiedTime: '2022-05-23T12:20:29.883Z'
+    version: 73
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-90-functional-status-assessments-for-congestive-heart-failure.md'
+  cms-68-documentation-of-current-medications-in-the-medical-record.md:
+    type: 'md'
+    id: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
+    title: 'CMS 68 - Documentation of Current Medications in the Medical Record'
+    modifiedTime: '2022-05-23T12:15:40.249Z'
+    version: 67
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-68-documentation-of-current-medications-in-the-medical-record.md'
+  cms-75-children-who-have-dental-decay-or-cavities.md:
+    type: 'md'
+    id: '1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
+    title: 'CMS 75 - Children Who Have Dental Decay or Cavities'
+    modifiedTime: '2022-05-16T15:48:04.708Z'
+    version: 68
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-75-children-who-have-dental-decay-or-cavities.md'
+  cms-74-primary-caries-prevention-intervention-as-offered-by-primary-care-providers,-including-dentists.md:
+    type: 'md'
+    id: '1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4'
+    title: 'CMS 74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists'
+    modifiedTime: '2022-05-16T15:47:08.770Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-74-primary-caries-prevention-intervention-as-offered-by-primary-care-providers,-including-dentists.md'
+  cms-66-functional-status-assessment-for-total-knee-replacement.md:
+    type: 'md'
+    id: '14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
+    title: 'CMS 66 - Functional Status Assessment for Total Knee Replacement'
+    modifiedTime: '2022-05-16T15:45:59.673Z'
+    version: 47
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-66-functional-status-assessment-for-total-knee-replacement.md'
+  cms-56-functional-status-assessment-for-total-hip-replacement.md:
+    type: 'md'
+    id: '1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U'
+    title: 'CMS 56 - Functional Status Assessment for Total Hip Replacement'
+    modifiedTime: '2022-05-11T20:12:53.552Z'
+    version: 61
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-56-functional-status-assessment-for-total-hip-replacement.md'
+  cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md:
+    type: 'md'
+    id: '1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
+    title: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
+    modifiedTime: '2022-05-11T18:41:02.927Z'
+    version: 111
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md'
+  cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.md:
+    type: 'md'
+    id: '1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
+    title: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan'
+    modifiedTime: '2022-05-11T18:12:32.090Z'
+    version: 164
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.md'
+  cms-347-statin-therapy-for-the-prevention-and-treatment-of-cardiovascular-disease.md:
+    type: 'md'
+    id: '1frOmVEMtMqMmrc_ztH4hM1mlEYzvgyrNU4qZZjuW9LU'
+    title: 'CMS 347 - Statin Therapy for the Prevention and Treatment of Cardiovascular Disease'
+    modifiedTime: '2022-04-29T19:25:20.405Z'
+    version: 49
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-347-statin-therapy-for-the-prevention-and-treatment-of-cardiovascular-disease.md'
+  cms-177-child-and-adolescent-major-depressive-disorder-mdd-suicide-risk-assessment.md:
+    type: 'md'
+    id: '1HCEqw0M2GLLrCTZ1Jzg5RL_FacpXa3n74cRLt2yxlmY'
+    title: 'CMS 177 - Child and Adolescent Major Depressive Disorder (MDD): Suicide Risk Assessment'
+    modifiedTime: '2022-04-29T13:16:53.158Z'
+    version: 13
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-177-child-and-adolescent-major-depressive-disorder-mdd-suicide-risk-assessment.md'
+  cms-161-adult-major-depressive-disorder-mdd-suicide-risk-assessment.md:
+    type: 'md'
+    id: '1XwNvJ7ebSrbOOgbbpqhpcV18eyKUCssMCmpdZPFCwzk'
+    title: 'CMS 161 - Adult Major Depressive Disorder (MDD): Suicide Risk Assessment'
+    modifiedTime: '2022-04-29T13:15:02.884Z'
+    version: 21
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-161-adult-major-depressive-disorder-mdd-suicide-risk-assessment.md'
+  cms-159-depression-remission-at-twelve-months.md:
+    type: 'md'
+    id: '1Jo1ZcIJ0Gs1sWISKJO8secJ2N3RU04thYDjzgnW8ab0'
+    title: 'CMS 159 - Depression Remission at Twelve Months'
+    modifiedTime: '2022-04-29T12:47:04.769Z'
+    version: 28
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-159-depression-remission-at-twelve-months.md'
+  cms-157-oncology-medical-and-radiation-pain-intensity-quantified.md:
+    type: 'md'
+    id: '1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA'
+    title: 'CMS 157 - Oncology: Medical and Radiation - Pain Intensity Quantified'
+    modifiedTime: '2022-04-28T14:27:01.338Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-157-oncology-medical-and-radiation-pain-intensity-quantified.md'
+  cms-149-dementia-cognitive-assessment.md:
+    type: 'md'
+    id: '1U__PxyFngT3WIb7xckii8CbTT6jK_sK79vdIg9LpUt4'
+    title: 'CMS 149 - Dementia: Cognitive Assessment'
+    modifiedTime: '2022-04-28T14:16:34.772Z'
+    version: 13
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-149-dementia-cognitive-assessment.md'
+  cms-143-primary-open-angle-glaucoma-poag-optic-nerve-evaluation.md:
+    type: 'md'
+    id: '1tOaKesGwQOjB8Ap2oYlfMvI2sWfS-ONQuvPyBb5jCbc'
+    title: 'CMS 143 - Primary Open-Angle Glaucoma (POAG): Optic Nerve Evaluation'
+    modifiedTime: '2022-04-28T14:03:19.182Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-143-primary-open-angle-glaucoma-poag-optic-nerve-evaluation.md'
+  cms-142-diabetic-retinopathy-communication-with-the-physician-managing-ongoing-diabetes-care.md:
+    type: 'md'
+    id: '1hZk611fsSe3YlJaMUWzYn0T3aaNCB8FVMkykoD2uKxA'
+    title: 'CMS 142 - Diabetic Retinopathy: Communication with the Physician Managing Ongoing Diabetes Care'
+    modifiedTime: '2022-04-28T13:53:43.464Z'
+    version: 14
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-142-diabetic-retinopathy-communication-with-the-physician-managing-ongoing-diabetes-care.md'
+  cms-137-initiation-and-engagement-of-alcohol-and-other-drug-dependence-treatment.md:
+    type: 'md'
+    id: '1OMZEtOiKag63xhZX7gZ60Kp8E_9MHAiDpI_9Epz-rK4'
+    title: 'CMS 137 - Initiation and Engagement of Alcohol and Other Drug Dependence Treatment'
+    modifiedTime: '2022-04-28T13:40:33.445Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-137-initiation-and-engagement-of-alcohol-and-other-drug-dependence-treatment.md'
+  cms-134-diabetes-medical-attention-for-nephropathy.md:
+    type: 'md'
+    id: '1w4VbzocSetahRwg8L0i1saJYqZLjfNnoq4pruRq-1cE'
+    title: 'CMS 134 - Diabetes: Medical Attention for Nephropathy'
+    modifiedTime: '2022-04-22T20:32:36.946Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-134-diabetes-medical-attention-for-nephropathy.md'
+  cms-133-cataracts-20-40-or-better-visual-acuity-within-90-days-following-cataract-surgery.md:
+    type: 'md'
+    id: '1cQ6E7ZtZO3gwdq3EZAJTkQNSLOGgnuyUPaXz_voXwb8'
+    title: 'CMS 133 - Cataracts: 20/40 or Better Visual Acuity within 90 Days Following Cataract Surgery'
+    modifiedTime: '2022-04-22T20:16:32.623Z'
+    version: 25
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-133-cataracts-20-40-or-better-visual-acuity-within-90-days-following-cataract-surgery.md'
+  cms-129-prostate-cancer-avoidance-of-overuse-of-bone-scan-for-staging-low-risk-prostate-cancer-patients.md:
+    type: 'md'
+    id: '1uyzFO8FwjOJb8-ixYtKd94iuVcu4wwwIhvkIO5Fybw4'
+    title: 'CMS 129 - Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients'
+    modifiedTime: '2022-04-22T18:22:57.037Z'
+    version: 12
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-129-prostate-cancer-avoidance-of-overuse-of-bone-scan-for-staging-low-risk-prostate-cancer-patients.md'
+  cms-128-anti-depressant-medication-management.md:
+    type: 'md'
+    id: '1FuuAMczkTt8tFHJuRu6eIdGj_lbbafeyahIjsQ9QzWE'
+    title: 'CMS 128 - Anti-depressant Medication Management'
+    modifiedTime: '2022-04-22T18:12:50.780Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-128-anti-depressant-medication-management.md'
+  cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md:
+    type: 'md'
+    id: '1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
+    title: 'CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention'
+    modifiedTime: '2022-04-22T14:53:39.158Z'
+    version: 33
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md'
+  cms-165-controlling-high-blood-pressure.md:
+    type: 'md'
+    id: '1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
+    title: 'CMS 165 - Controlling High Blood Pressure'
+    modifiedTime: '2022-04-22T14:37:14.358Z'
+    version: 31
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-165-controlling-high-blood-pressure.md'
+  cms-156-use-of-high-risk-medications-in-the-elderly.md:
+    type: 'md'
+    id: '1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
+    title: 'CMS 156 - Use of High-Risk Medications in the Elderly'
+    modifiedTime: '2022-04-22T14:21:28.814Z'
+    version: 60
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-156-use-of-high-risk-medications-in-the-elderly.md'
+  cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md:
+    type: 'md'
+    id: '16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
+    title: 'CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents'
+    modifiedTime: '2022-04-21T21:07:00.893Z'
+    version: 33
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md'
+  cms-154-appropriate-treatment-for-children-with-upper-respiratory-infection-uri.md:
+    type: 'md'
+    id: '1W0FANlgAIXUMqpKPJK6j0CUcGtHkY_-tbJsNQ_RkkcQ'
+    title: 'CMS 154 - Appropriate Treatment for Children with Upper Respiratory Infection (URI)'
+    modifiedTime: '2022-04-21T20:40:56.624Z'
+    version: 33
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-154-appropriate-treatment-for-children-with-upper-respiratory-infection-uri.md'
+  cms-153-chlamydia-screening-for-women.md:
+    type: 'md'
+    id: '1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
+    title: 'CMS 153 - Chlamydia Screening for Women'
+    modifiedTime: '2022-04-21T20:18:56.392Z'
+    version: 41
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-153-chlamydia-screening-for-women.md'
+  cms-147-preventive-care-and-screening-influenza-immunization.md:
+    type: 'md'
+    id: '1bktV0BYSKkWBzLv0AMyxNlGX_3BH4lXBMzqSjQk7WQ8'
+    title: 'CMS 147 - Preventive Care and Screening: Influenza Immunization'
+    modifiedTime: '2022-04-21T14:44:56.733Z'
+    version: 37
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-147-preventive-care-and-screening-influenza-immunization.md'
+  cms-146-appropriate-testing-for-children-with-pharyngitis.md:
+    type: 'md'
+    id: '1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
+    title: 'CMS 146 - Appropriate Testing for Children with Pharyngitis'
+    modifiedTime: '2022-04-20T20:09:18.918Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-146-appropriate-testing-for-children-with-pharyngitis.md'
+  cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40percent.md:
+    type: 'md'
+    id: '1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
+    title: 'CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)'
+    modifiedTime: '2022-04-20T19:45:18.490Z'
+    version: 46
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40percent.md'
+  cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md:
+    type: 'md'
+    id: '1mjaSrGAH3j_mNUIhsJT4neLhoquPAcUP2VKpHrCaKUI'
+    title: 'CMS 144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
+    modifiedTime: '2022-04-20T15:02:42.844Z'
+    version: 34
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
+  cms-139-falls-screening-for-future-fall-risk.md:
+    type: 'md'
+    id: '1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
+    title: 'CMS 139 - Falls: Screening for Future Fall Risk'
+    modifiedTime: '2022-04-20T14:35:59.513Z'
+    version: 34
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-139-falls-screening-for-future-fall-risk.md'
+  cms-136-follow-up-care-for-children-prescribed-adhd-medication-add.md:
+    type: 'md'
+    id: '1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc'
+    title: 'CMS 136 - Follow-Up Care for Children Prescribed ADHD Medication (ADD)'
+    modifiedTime: '2022-04-20T14:20:57.043Z'
+    version: 39
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-136-follow-up-care-for-children-prescribed-adhd-medication-add.md'
+  cms-135-heart-failure-hf-angiotensin-converting-enzyme-ace-inhibitor-or-angiotensin-receptor-blocker-arb-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md:
+    type: 'md'
+    id: '1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
+    title: 'CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
+    modifiedTime: '2022-04-20T13:53:16.615Z'
+    version: 39
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-135-heart-failure-hf-angiotensin-converting-enzyme-ace-inhibitor-or-angiotensin-receptor-blocker-arb-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
+  cms-131-diabetes-eye-exam.md:
+    type: 'md'
+    id: '1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
+    title: 'CMS 131 - Diabetes: Eye Exam'
+    modifiedTime: '2022-04-20T13:17:07.932Z'
+    version: 32
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-131-diabetes-eye-exam.md'
+  cms-130-colorectal-cancer-screening.md:
+    type: 'md'
+    id: '17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8'
+    title: 'CMS 130 - Colorectal Cancer Screening'
+    modifiedTime: '2022-04-20T13:02:58.416Z'
+    version: 42
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-130-colorectal-cancer-screening.md'
+  cms-127-pneumococcal-vaccination-status-for-older-adults.md:
+    type: 'md'
+    id: '14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
+    title: 'CMS 127 - Pneumococcal Vaccination Status for Older Adults'
+    modifiedTime: '2022-04-19T20:15:17.026Z'
+    version: 32
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-127-pneumococcal-vaccination-status-for-older-adults.md'
+  cms-125-breast-cancer-screening.md:
+    type: 'md'
+    id: '1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk'
+    title: 'CMS 125 - Breast Cancer Screening'
+    modifiedTime: '2022-04-19T20:02:16.052Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-125-breast-cancer-screening.md'
+  cms-124-cervical-cancer-screening.md:
+    type: 'md'
+    id: '1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
+    title: 'CMS 124 - Cervical Cancer Screening'
+    modifiedTime: '2022-04-19T19:36:48.515Z'
+    version: 38
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nicole Richardson'
+    fileName: 'cms-124-cervical-cancer-screening.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

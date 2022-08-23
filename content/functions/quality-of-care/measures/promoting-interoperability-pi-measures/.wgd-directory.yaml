@@ -1,0 +1,25 @@
+type: 'directory'
+id: '175gOWUmjYeF7hCYkelVc9F4bgixAWDJD'
+title: 'Promoting Interoperability (PI) Measures'
+fileName: 'promoting-interoperability-pi-measures'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:53.269Z'
+version: '296'
+fileMap:
+  pi_ep_1-e-prescribing.md:
+    type: 'md'
+    id: '1QQ_PCqt0R3IeEpLRUSPy4GkOJDqV93UCYzdqrWMEXbQ'
+    title: 'PI_EP_1 -- e-Prescribing'
+    modifiedTime: '2020-02-27T21:05:48.416Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'pi_ep_1-e-prescribing.md'
+  pi_phcdrr_5-clinical-data-registry-reporting.md:
+    type: 'md'
+    id: '1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
+    title: 'PI_PHCDRR_5 -- Clinical Data Registry Reporting'
+    modifiedTime: '2020-02-27T21:05:41.548Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    fileName: 'pi_phcdrr_5-clinical-data-registry-reporting.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

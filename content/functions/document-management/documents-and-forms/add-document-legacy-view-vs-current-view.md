@@ -1,0 +1,11 @@
+---
+id: '1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
+title: 'Redirect to: Add Document - Legacy View vs. Current View'
+date: '2022-08-16T13:35:12.764Z'
+source: 'https://drive.google.com/open?id=1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
+mimeType: 'text/x-markdown'
+url: 'add-document-legacy-view-vs.-current-view.md'
+redirectTo: '1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+---
+Renamed to: [Add Document - Legacy View vs. Current View](add-document-legacy-view-vs.-current-view.md)

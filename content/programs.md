@@ -1,20 +1,18 @@
 ---
-title: "Programs"
-date: "2020-02-27T19:29:40.998Z"
-url: "programs.html"
-version: 28
-id: "1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk"
-source: "https://drive.google.com/open?id=1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk"
+id: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
+title: 'Programs'
+date: '2020-02-27T19:29:40.998Z'
+version: 39
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Programs"
-        identifier: "1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk"
-        weight: 30
+  main:
+    name: 'Programs'
+    identifier: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
+    weight: 30
 ---
-
-
-
-
 
 
 
@@ -23,9 +21,8 @@ menu:
 
 
 
-
-
-
-
 {{% children %}}
+
+
+
 

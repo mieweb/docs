@@ -1,54 +1,47 @@
 ---
-title: "DICOM Setup Tab"
-date: "2020-03-09T19:34:25.790Z"
-url: "functions/document-management/imaging/dicom-setup-tab.html"
-author: aquandt
-version: 27
-id: "1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg"
-source: "https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg"
+id: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
+title: 'DICOM Setup Tab'
+date: '2020-03-09T19:34:25.790Z'
+version: 35
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
+links:
+  - 'https://system/?f=dicom&dcfunc=aeedit'
+  - 'https://system/?f=dicom&s=app_entities'
+  - 'https://system/?f=dicom&dcfunc=aeedit&tabmodule=admin&tabselect=Dicom+Setup'
+  - 'https://system/?f=dicom&s=app_entities&opp=add'
+  - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
+source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "DICOM Setup Tab"
-        identifier: "1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg"
-        parent: "1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U"
-        weight: 800
+  main:
+    name: 'DICOM Setup Tab'
+    identifier: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
+    parent: '1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U'
+    weight: 800
 ---
 Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and exchanging image information in and between medical imaging software.
 
-## DICOM Setup Tab
+## **DICOM Setup Tab**
 
 Access to the [Dicom Setup tab](https://system/?f=dicom&dcfunc=aeedit) requires the DICOM Queue security permission.  DICOM Queue security permission allows access to the DICOM Image Queue and all the settings that go with it.  
-
 The [DICOM Setup tab](https://system/?f=dicom&dcfunc=aeedit) is both a dashboard with search functionality, as well as a link to add or edit the Application Entities information. There is also a "basic" or "advanced" search capability at the top left corner of this screen to search for DICOM routes in the categories of the dashboard.
 
+![](dicom-setup-tab.assets/10000201000004AD0000020CEE38906D495EAD5C.png)
 
 
-![](dicom-setup-tab.images/image3.png)
-
-
-
-## Application Entities Editor
+## **Application Entities Editor**
 
 Access to view and manage Application Entities requires the Application Entities Editor security permission.  The Application Entities Editor security permission allows access to add, edit, or delete DICOM Application Entities, however this editor is mainly for MIE programming staff.
-
 To view application entities, simply click the [View Application Entities](https://system/?f=dicom&s=app_entities) hyperlink in the [DICOM Setup](https://system/?f=dicom&dcfunc=aeedit&tabmodule=admin&tabselect=Dicom+Setup) tab found within the **Control Panel** sidemenu.
 
-
-
-![](dicom-setup-tab.images/image1.png)
-
-
+![](dicom-setup-tab.assets/10000201000004AD0000020C5FBC1088FBEF7955.png)
 
 To add an Application Entity, once in the Application Entities, simply select the [Add Entity](https://system/?f=dicom&s=app_entities&opp=add) link.
 
-
-
-![](dicom-setup-tab.images/image2.png)
-
-
+![](dicom-setup-tab.assets/10000201000004AF000000B06D998E6B02BF543D.png)
 
 The following information is displayed on the application entities screen:
-
 * <strong>Title</strong>: Commonly referred to as "AE Title" or "Application Entity Title" - this is given to a superuser by the client or technical engineer who services the imaging device. This is a name assigned to that device and will be given to a superuser to input in this box. The AE title is required in order for a remote device to send images to the  {{% system-name %}} application.
 * <strong>Node</strong>: Commonly referred to as "IP Address" - this number sequence given to the superuser by the client or technical engineer who services the imaging device. This is a number assigned to an imaging device and the superuser will input this number in this box. The IP address is required in order for a remote device to send images to the  {{% system-name %}} application.
 * <strong>Port</strong>: This number will be either added by MIE or given to the superuser to complete this field from MIE. Port 104 is the standard port for DICOM communications. (Clients may need administrator access to use port 104.) This port field is required for configuration in order for successful transmission of images into  {{% system-name %}} . Additional port number detail is listed below:
@@ -63,10 +56,10 @@ The following information is displayed on the application entities screen:
     * None (N)
     * Study (S)
     * Series (E)
-        * Image (I) 
-
-{{% info %}} Most devices are set up to transmit at the **Study** level. {{% /info %}}
-
+        * Image (I)
+          {{% info %}}
+          Most devices are set up to transmit at the <strong>Study</strong> level.
+          {{% /info %}}
 * <strong>Max Connections</strong>: Sets the maximum number of threads 0 how many studies can be pushed at once.
 * <strong>Comment</strong>: This is a freetext field where you can identify in simplistic terms what the device is.
 * <strong>AE Ability</strong>: Push or Print are the options. You would only use "Print" if the device is a DICOM printer. If Push is selected, additional fields will branch open to program, if needed:
@@ -76,6 +69,4 @@ The following information is displayed on the application entities screen:
     * <strong>Compression</strong>: Three choices–None, Lossless (compress as much as possible without losing data), and Lossy + # (will lose data). Example: Lossy 90 means "only lose 10% of the quality". This is an Image Quality setting. (Comparison to when you use a slider in JPG images for quality.) Compression affects the size of the file.
 * <strong>Update DB from DICOM data</strong>: Takes DICOM data and updates the patient info demographics info. MR#
 * <strong>Allow MWL Query</strong>: Check this box if the Modality Worklist integration is being set up between  {{% system-name %}} and the device.
-
-
 

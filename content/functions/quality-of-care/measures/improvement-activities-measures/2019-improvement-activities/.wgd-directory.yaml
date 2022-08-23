@@ -1,0 +1,65 @@
+type: 'directory'
+id: '1GyEaEEDsk6gzrVLefHrRz-Nvhlf-WaNS'
+title: '2019 Improvement Activities'
+fileName: '2019-improvement-activities'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:56.690Z'
+version: '295'
+fileMap:
+  pspa-32-use-of-cdc-guideline-for-clinical-decision-support-to-prescribe-opioids-for-chronic-pain-via-clinical-decision-support.md:
+    type: 'md'
+    id: '1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo'
+    title: 'PSPA 32 - Use of CDC Guideline for Clinical Decision Support to Prescribe Opioids for Chronic Pain via Clinical Decision Support'
+    modifiedTime: '2020-02-27T20:56:45.925Z'
+    version: 27
+    mimeType: 'text/x-markdown'
+    fileName: 'pspa-32-use-of-cdc-guideline-for-clinical-decision-support-to-prescribe-opioids-for-chronic-pain-via-clinical-decision-support.md'
+  pspa-31-patient-medication-risk-education.md:
+    type: 'md'
+    id: '1QPm-3oew_1L-aVTYue5l3m5S0-OZ2j-X4CtkhCejJT0'
+    title: 'PSPA 31 - Patient Medication Risk Education'
+    modifiedTime: '2020-02-27T20:56:42.313Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    fileName: 'pspa-31-patient-medication-risk-education.md'
+  pcmh-electronic-submission-of-patient-centered-medical-home-accreditation.md:
+    type: 'md'
+    id: '1XjBcfnKg2XIIpISVnvHkHBHuOCLQP9gKrJGJx_QHNNA'
+    title: 'PCMH - Electronic Submission of Patient Centered Medical Home Accreditation'
+    modifiedTime: '2020-02-27T20:56:31.151Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    fileName: 'pcmh-electronic-submission-of-patient-centered-medical-home-accreditation.md'
+  cc-18-relationship-centered-communication.md:
+    type: 'md'
+    id: '1j4d0DYyVAFMje4IttC5jVL87O9hga0httdk924b2R7A'
+    title: 'CC 18 - Relationship-Centered Communication'
+    modifiedTime: '2020-02-27T20:56:25.744Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    fileName: 'cc-18-relationship-centered-communication.md'
+  bmh-10-completion-of-collaborative-care-management-training-program.md:
+    type: 'md'
+    id: '1K3GNql1BX7DW5zwok31Dvb4R70WIwwmHrY4zhFOYSI0'
+    title: 'BMH 10 - Completion of Collaborative Care Management Training Program'
+    modifiedTime: '2020-02-27T20:56:22.061Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    fileName: 'bmh-10-completion-of-collaborative-care-management-training-program.md'
+  be-24-financial-navigation-program.md:
+    type: 'md'
+    id: '1IpJ9DhjK1gavyMQoV7q-_KPlfcAiUMr-dWbb50jFqdI'
+    title: 'BE 24 - Financial Navigation Program'
+    modifiedTime: '2020-02-27T20:56:18.150Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    fileName: 'be-24-financial-navigation-program.md'
+  ahe-7-comprehensive-eye-exams.md:
+    type: 'md'
+    id: '1tkvB5yBrfJpbD-kickGvXtml11DdU0LztIsCsJogECU'
+    title: 'AHE 7 - Comprehensive Eye Exams'
+    modifiedTime: '2020-02-27T20:56:13.546Z'
+    version: 16
+    mimeType: 'text/x-markdown'
+    fileName: 'ahe-7-comprehensive-eye-exams.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,0 +1,51 @@
+type: 'directory'
+id: '1yc-v7_KxMHDgNdSQGDPc9oTmF6RM0cTk'
+title: 'Quality of Care'
+fileName: 'quality-of-care'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:50.847Z'
+version: '307'
+fileMap:
+  quality-reporting-enrollment.md:
+    type: 'md'
+    id: '1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
+    title: 'Quality Reporting Enrollment'
+    modifiedTime: '2020-03-20T17:33:15.915Z'
+    version: 106
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'quality-reporting-enrollment.md'
+  measures.md:
+    type: 'md'
+    id: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
+    title: 'Measures'
+    modifiedTime: '2020-02-27T21:28:53.378Z'
+    version: 33
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'measures.md'
+  provider-quality-of-care-status.md:
+    type: 'md'
+    id: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
+    title: 'Provider Quality of Care Status'
+    modifiedTime: '2020-02-27T20:43:38.560Z'
+    version: 17
+    mimeType: 'text/x-markdown'
+    fileName: 'provider-quality-of-care-status.md'
+  create-file-for-submission.md:
+    type: 'md'
+    id: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
+    title: 'Create File for Submission'
+    modifiedTime: '2020-02-27T20:43:35.135Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    fileName: 'create-file-for-submission.md'
+  measures:
+    type: 'directory'
+    id: '1kkI0MFLFMKd1y0GVy0oNI7xt1qNzoEds'
+    title: 'Measures'
+    modifiedTime: '2020-02-27T19:24:52.179Z'
+    version: 308
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'measures'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

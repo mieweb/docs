@@ -1,0 +1,54 @@
+type: 'directory'
+id: '1RwzLBAHbTXCF1sZvJxCWI0WMe-y1fllC'
+title: 'Printing & Print Definitions'
+fileName: 'printing-and-print-definitions'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:03.648Z'
+version: '297'
+fileMap:
+  label-printing-feature.md:
+    type: 'md'
+    id: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
+    title: 'Label Printing Feature'
+    modifiedTime: '2020-03-24T15:23:57.818Z'
+    version: 64
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'label-printing-feature.md'
+  printing-tiffs.md:
+    type: 'md'
+    id: '174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
+    title: 'Printing TIFFs'
+    modifiedTime: '2020-03-24T15:06:06.991Z'
+    version: 43
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'printing-tiffs.md'
+  printing-documents.md:
+    type: 'md'
+    id: '1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
+    title: 'Printing Documents'
+    modifiedTime: '2020-03-24T15:02:35.364Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'printing-documents.md'
+  print-chart.md:
+    type: 'md'
+    id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
+    title: 'Print Chart'
+    modifiedTime: '2020-03-09T17:46:39.608Z'
+    version: 47
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'print-chart.md'
+  print-definitions.md:
+    type: 'md'
+    id: '1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
+    title: 'Print Definitions'
+    modifiedTime: '2020-03-09T16:32:06.375Z'
+    version: 103
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'print-definitions.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

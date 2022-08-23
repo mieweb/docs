@@ -1,21 +1,19 @@
 ---
-title: "Task Management"
-date: "2020-02-27T20:09:41.456Z"
-url: "functions/task-management.html"
-version: 14
-id: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
-source: "https://drive.google.com/open?id=1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
+id: '1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
+title: 'Task Management'
+date: '2020-02-27T20:09:41.456Z'
+version: 18
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Task Management"
-        identifier: "1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU"
-        parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
-        weight: 2320
+  main:
+    name: 'Task Management'
+    identifier: '1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
+    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
+    weight: 2340
 ---
-
-
-
-
 
 
 
@@ -24,9 +22,8 @@ The {{% system-name %}} Tasking module streamlines everyday tasks into an electr
 
 
 
-
-
-
-
 {{% children %}}
+
+
+
 

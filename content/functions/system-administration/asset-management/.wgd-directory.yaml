@@ -1,0 +1,110 @@
+type: 'directory'
+id: '13oJKtAZgPBsXI-gU-lp_Pmc-TzOLmXlO'
+title: 'Asset Management'
+fileName: 'asset-management'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:34.164Z'
+version: '286'
+fileMap:
+  med-queue-and-fill-requests.md:
+    type: 'md'
+    id: '157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
+    title: 'Med Queue and Fill Requests'
+    modifiedTime: '2022-08-09T17:52:16.862Z'
+    version: 74
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'med-queue-and-fill-requests.md'
+  inventory-mappings.md:
+    type: 'md'
+    id: '1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos'
+    title: 'Inventory Mappings'
+    modifiedTime: '2022-08-09T16:04:42.801Z'
+    version: 57
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'inventory-mappings.md'
+  show-inventory-tab.md:
+    type: 'md'
+    id: '1pwmVB0X2rvStNmDOmy_XRa1ScUcZmzqEQlQWuJ9xtb0'
+    title: 'Show Inventory Tab'
+    modifiedTime: '2022-08-09T15:46:56.913Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'show-inventory-tab.md'
+  add-inventory-tab.md:
+    type: 'md'
+    id: '1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
+    title: 'Add Inventory Tab'
+    modifiedTime: '2022-08-09T15:38:32.584Z'
+    version: 29
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'add-inventory-tab.md'
+  inventory-weekly-review.md:
+    type: 'md'
+    id: '1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
+    title: 'Inventory Weekly Review'
+    modifiedTime: '2020-02-27T20:32:27.298Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    fileName: 'inventory-weekly-review.md'
+  par-levels.md:
+    type: 'md'
+    id: '13k9nhRuRl5D_RWT3l9VE64JqMfF-jl1KQuvCda69nGo'
+    title: 'Par Levels'
+    modifiedTime: '2020-02-27T20:32:07.311Z'
+    version: 29
+    mimeType: 'text/x-markdown'
+    fileName: 'par-levels.md'
+  inventory-module-settings.md:
+    type: 'md'
+    id: '1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
+    title: 'Inventory Module Settings'
+    modifiedTime: '2020-02-27T20:31:40.529Z'
+    version: 57
+    mimeType: 'text/x-markdown'
+    fileName: 'inventory-module-settings.md'
+  inventory-tab-setup.md:
+    type: 'md'
+    id: '1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
+    title: 'Inventory Tab Setup'
+    modifiedTime: '2020-02-27T20:31:20.847Z'
+    version: 41
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'inventory-tab-setup.md'
+  inventory-tab-blank-labels.md:
+    type: 'md'
+    id: '1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A'
+    title: 'Inventory Tab - Blank Labels'
+    modifiedTime: '2020-02-27T20:31:19.130Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    fileName: 'inventory-tab-blank-labels.md'
+  patient-assistance-inventory.md:
+    type: 'md'
+    id: '1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
+    title: 'Patient Assistance Inventory'
+    modifiedTime: '2020-02-27T20:30:22.116Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    fileName: 'patient-assistance-inventory.md'
+  tracking-donated-inventory.md:
+    type: 'md'
+    id: '1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
+    title: 'Tracking Donated Inventory'
+    modifiedTime: '2020-02-27T20:30:10.177Z'
+    version: 21
+    mimeType: 'text/x-markdown'
+    fileName: 'tracking-donated-inventory.md'
+  asset-management-module.md:
+    type: 'md'
+    id: '1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
+    title: 'Asset Management Module'
+    modifiedTime: '2020-02-27T20:30:03.349Z'
+    version: 54
+    mimeType: 'text/x-markdown'
+    fileName: 'asset-management-module.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
