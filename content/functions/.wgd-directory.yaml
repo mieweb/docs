@@ -1,0 +1,337 @@
+type: 'directory'
+id: '1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP'
+title: 'Functions'
+fileName: 'functions'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2021-04-18T01:13:22.858Z'
+version: '285'
+fileMap:
+  new-document.md:
+    type: 'md'
+    id: '1kNB6VF1k8qPt9UiCv2MLIhhB4yI9aetGq_pzK1NJFQA'
+    title: 'New document'
+    modifiedTime: '2022-08-23T14:08:37.531Z'
+    version: 8
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'new-document.md'
+  injury-care.md:
+    type: 'md'
+    id: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
+    title: 'Injury Care'
+    modifiedTime: '2022-08-13T17:04:26.070Z'
+    version: 62
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'injury-care.md'
+  medication-management-and-e-prescribing.md:
+    type: 'md'
+    id: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
+    title: 'Medication Management & E-Prescribing'
+    modifiedTime: '2022-02-08T15:08:43.651Z'
+    version: 26
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Gavin Roudebush'
+    fileName: 'medication-management-and-e-prescribing.md'
+  absence-management:
+    type: 'directory'
+    id: '18MuB6MrJPVEBSBTsAsVJKsqUQbVtSijh'
+    title: 'Absence Management'
+    modifiedTime: '2021-09-30T18:34:03.743Z'
+    version: 169
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'absence-management'
+  portal-management.md:
+    type: 'md'
+    id: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
+    title: 'Portal Management'
+    modifiedTime: '2021-04-27T18:15:34.584Z'
+    version: 66
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Doug Horner'
+    fileName: 'portal-management.md'
+  visit-encounter:
+    type: 'directory'
+    id: '1TdezD8IpvdAghiYsIKx-IZ2N-w_9AcsL'
+    title: 'Visit Encounter'
+    modifiedTime: '2021-02-23T20:26:07.925Z'
+    version: 11
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'visit-encounter'
+  financial-functionality:
+    type: 'directory'
+    id: '1gq3BMLutr7wLSppoV4u0Ddcq_GelD5zX'
+    title: 'Financial functionality'
+    modifiedTime: '2021-02-17T14:41:33.228Z'
+    version: 229
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'financial-functionality'
+  encounters.md:
+    type: 'md'
+    id: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
+    title: 'Encounters'
+    modifiedTime: '2020-03-27T15:11:48.239Z'
+    version: 68
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'encounters.md'
+  quality-of-care.md:
+    type: 'md'
+    id: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
+    title: 'Quality of Care'
+    modifiedTime: '2020-02-27T21:28:01.325Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'quality-of-care.md'
+  system-administration.md:
+    type: 'md'
+    id: '1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
+    title: 'System Administration'
+    modifiedTime: '2020-02-27T21:20:07.223Z'
+    version: 24
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'system-administration.md'
+  document-management.md:
+    type: 'md'
+    id: '1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
+    title: 'Document Management'
+    modifiedTime: '2020-02-27T21:09:07.746Z'
+    version: 30
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'document-management.md'
+  reports.md:
+    type: 'md'
+    id: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
+    title: 'Reports'
+    modifiedTime: '2020-02-27T20:11:41.108Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    fileName: 'reports.md'
+  fax-manager.md:
+    type: 'md'
+    id: '1h4WYryKs4DeyPgg4oCW6NTLGr5yOYsEgUz8h7dkJXjg'
+    title: 'Fax Manager'
+    modifiedTime: '2020-02-27T20:11:13.029Z'
+    version: 21
+    mimeType: 'text/x-markdown'
+    fileName: 'fax-manager.md'
+  e-sign-electronic-signature.md:
+    type: 'md'
+    id: '1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854'
+    title: 'E-Sign (Electronic Signature)'
+    modifiedTime: '2020-02-27T20:10:15.661Z'
+    version: 22
+    mimeType: 'text/x-markdown'
+    fileName: 'e-sign-electronic-signature.md'
+  task-management.md:
+    type: 'md'
+    id: '1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
+    title: 'Task Management'
+    modifiedTime: '2020-02-27T20:09:41.456Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    fileName: 'task-management.md'
+  injection-immunization-management.md:
+    type: 'md'
+    id: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
+    title: 'Injection/Immunization Management'
+    modifiedTime: '2020-02-27T20:08:23.540Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    fileName: 'injection-immunization-management.md'
+  order-and-result-management.md:
+    type: 'md'
+    id: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
+    title: 'Order & Result Management'
+    modifiedTime: '2020-02-27T20:01:00.961Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    fileName: 'order-and-result-management.md'
+  health-surveillance.md:
+    type: 'md'
+    id: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
+    title: 'Health Surveillance'
+    modifiedTime: '2020-02-27T19:58:17.828Z'
+    version: 22
+    mimeType: 'text/x-markdown'
+    fileName: 'health-surveillance.md'
+  scheduling.md:
+    type: 'md'
+    id: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
+    title: 'Scheduling'
+    modifiedTime: '2020-02-27T19:47:19.396Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    fileName: 'scheduling.md'
+  e-chart.md:
+    type: 'md'
+    id: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
+    title: 'E-Chart'
+    modifiedTime: '2020-02-27T19:44:20.933Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    fileName: 'e-chart.md'
+  patient-registration.md:
+    type: 'md'
+    id: '1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
+    title: 'Patient Registration'
+    modifiedTime: '2020-02-27T19:34:21.430Z'
+    version: 18
+    mimeType: 'text/x-markdown'
+    fileName: 'patient-registration.md'
+  system-configuration.md:
+    type: 'md'
+    id: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
+    title: 'System Configuration'
+    modifiedTime: '2020-02-27T19:31:27.327Z'
+    version: 30
+    mimeType: 'text/x-markdown'
+    fileName: 'system-configuration.md'
+  quality-of-care:
+    type: 'directory'
+    id: '1yc-v7_KxMHDgNdSQGDPc9oTmF6RM0cTk'
+    title: 'Quality of Care'
+    modifiedTime: '2020-02-27T19:24:50.847Z'
+    version: 307
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'quality-of-care'
+  portal-management:
+    type: 'directory'
+    id: '14Md2CPhpF2dtoJFQehD7d0Yxs1DjFhhl'
+    title: 'Portal Management'
+    modifiedTime: '2020-02-27T19:24:45.398Z'
+    version: 282
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'portal-management'
+  system-administration:
+    type: 'directory'
+    id: '1UvKNUyOk7fYItfTEIXP22lviv2N3IJMr'
+    title: 'System Administration'
+    modifiedTime: '2020-02-27T19:24:20.653Z'
+    version: 141
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'system-administration'
+  reports:
+    type: 'directory'
+    id: '1JfLUoDMo5-befWCXvGO6dGVqYnChxtVN'
+    title: 'Reports'
+    modifiedTime: '2020-02-27T19:24:19.177Z'
+    version: 280
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'reports'
+  fax-manager:
+    type: 'directory'
+    id: '12DN96EZeS3WvJucwFUzZoVMiQ4s5d5zQ'
+    title: 'Fax Manager'
+    modifiedTime: '2020-02-27T19:24:18.155Z'
+    version: 284
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'fax-manager'
+  e-sign-electronic-signature:
+    type: 'directory'
+    id: '1Ia4xI0icUOir7nUhAoOsh1xa724AYseT'
+    title: 'E-Sign (Electronic Signature)'
+    modifiedTime: '2020-02-27T19:24:17.246Z'
+    version: 227
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'e-sign-electronic-signature'
+  task-management:
+    type: 'directory'
+    id: '1n0kG7SZnUulm0gKq-P4gMwaFL2rIRwLG'
+    title: 'Task Management'
+    modifiedTime: '2020-02-27T19:24:16.251Z'
+    version: 277
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'task-management'
+  injection-immunization-management:
+    type: 'directory'
+    id: '1X_EpIib7ft6HgFa24I8qQDLPoSQDI0wa'
+    title: 'Injection/Immunization Management'
+    modifiedTime: '2020-02-27T19:24:14.703Z'
+    version: 300
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'injection-immunization-management'
+  medication-management-and-e-prescribing:
+    type: 'directory'
+    id: '1QjWWE0PKiKX4vua8TqWK9T3CqkJ4UqJN'
+    title: 'Medication Management & E-Prescribing'
+    modifiedTime: '2020-02-27T19:24:13.905Z'
+    version: 305
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'medication-management-and-e-prescribing'
+  order-and-result-management:
+    type: 'directory'
+    id: '1DD9YzKQU6V3gX0kfSPC_rXkamScMbqAn'
+    title: 'Order & Result Management'
+    modifiedTime: '2020-02-27T19:24:13.077Z'
+    version: 305
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'order-and-result-management'
+  health-surveillance:
+    type: 'directory'
+    id: '1vvPtXtsHlz61luI3a7NTjPhvSWgnXUcF'
+    title: 'Health Surveillance'
+    modifiedTime: '2020-02-27T19:24:11.837Z'
+    version: 301
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'health-surveillance'
+  injury-care:
+    type: 'directory'
+    id: '1i4kSmWAUFrEIyYF038E2G1w-plZTiJR-'
+    title: 'Injury Care'
+    modifiedTime: '2020-02-27T19:24:10.809Z'
+    version: 21
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'injury-care'
+  encounters:
+    type: 'directory'
+    id: '1ZsKfca9jUrEMfvO-fEXf3_YY6984p04-'
+    title: 'Encounters'
+    modifiedTime: '2020-02-27T19:24:07.422Z'
+    version: 119
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'encounters'
+  scheduling:
+    type: 'directory'
+    id: '16aG6lnk-pa7JMAyooh6DBpgoBj_uisjj'
+    title: 'Scheduling'
+    modifiedTime: '2020-02-27T19:24:06.518Z'
+    version: 293
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'scheduling'
+  e-chart:
+    type: 'directory'
+    id: '1z5QHccZylXHi6g1qadzagX_2-_WtuafU'
+    title: 'E-Chart'
+    modifiedTime: '2020-02-27T19:24:05.661Z'
+    version: 264
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'e-chart'
+  document-management:
+    type: 'directory'
+    id: '1tBOYLUF8geYDb0mrGVbdaMkdxbMkhFPd'
+    title: 'Document Management'
+    modifiedTime: '2020-02-27T19:24:01.152Z'
+    version: 299
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'document-management'
+  patient-registration:
+    type: 'directory'
+    id: '1VgA7_m1u1YUu9pMh64ZKCQIGhW0yz8W7'
+    title: 'Patient Registration'
+    modifiedTime: '2020-02-27T19:24:00.183Z'
+    version: 276
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'patient-registration'
+  system-configuration:
+    type: 'directory'
+    id: '1-igmW4ma-gS62gDOsYThI1wL_Hbqrxso'
+    title: 'System Configuration'
+    modifiedTime: '2020-02-27T19:23:59.133Z'
+    version: 110
+    mimeType: 'application/vnd.google-apps.folder'
+    fileName: 'system-configuration'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

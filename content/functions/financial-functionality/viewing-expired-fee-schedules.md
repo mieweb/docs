@@ -1,14 +1,15 @@
 ---
-title: "Viewing expired fee schedules"
-date: "2021-02-18T19:09:23.465Z"
-url: "functions/financial-functionality/viewing-expired-fee-schedules.html"
-author: egrzetich
-version: 19
-id: "13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8"
-source: "https://drive.google.com/open?id=13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8"
+id: '13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8'
+title: 'Viewing expired fee schedules'
+date: '2021-02-18T19:09:23.465Z'
+version: 23
+lastAuthor: 'egrzetich'
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 ---
 By default, the system displays fee schedules that expire within 90 days from the current date. Therefore, when initially viewing expired fee schedules, a fee schedule currently in effect may appear.
-
 1. Select the side menu. The side menu appears.
 2. Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens. 
 3. From the <em>Module</em> list, select <strong>Fee Schedule</strong>. The <em>Fee Schedules</em> page appears.

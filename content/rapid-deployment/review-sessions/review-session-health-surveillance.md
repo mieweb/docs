@@ -1,17 +1,55 @@
 ---
-title: "Review Session - Health Surveillance"
-date: "2020-02-27T21:25:22.522Z"
-url: "rapid-deployment/review-sessions/review-session-health-surveillance.html"
-author: aquandt
-version: 23
-id: "1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
-source: "https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
+id: '1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
+title: 'Review Session - Health Surveillance'
+date: '2020-02-27T21:25:22.522Z'
+version: 27
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
+links:
+  - '../../functions/health-surveillance/health-surveillance-panels-actions.md'
+  - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
+  - 'review-session-portal-management.md'
+  - '../../functions/e-chart/quick-view-due-list-portlet.md'
+  - '../../functions/health-surveillance/due-list.md'
+  - '../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md'
+  - 'https://system/?f=layout&module=reports&name=HealthSurveillance&tabmodule=reports&t=Health+Surveillance&tabmodule=reports&tabselect=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=BerylliumHealthSurveillance&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=HSDueListCount&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=HSDueListStatus&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=Forecast&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=NonCompliantEmployees&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=PanelActionDefinition&tabmodule=reports&t=Health+Surveillance&panel=pa.name+AS+''Action+Name''&panel=GROUP_CONCAT(DISTINCT+pr.reg_source)+AS+''Reg.+Source''&panel=pa.description+AS+''Description''&panel=CASE+pa.trigger_type+WHEN+''E''+THEN+''Entry''+WHEN+''X''+THEN+''Exit''+WHEN+''R''+THEN+''Routine''+ELSE+''Unknown''+END+AS+''Trigger+Type''&panel=CASE+pa.trigger_type+WHEN+''R''+THEN+CASE+pa.trigger_date_type+WHEN+''DOB''+THEN+''Date+of+Birth''+WHEN+''event''+THEN+''Last+Event''+WHEN+''EDOB''+THEN+''Last+Event+-+On+Date+of+Birth''+WHEN+''DOH''+THEN+''Last+Event+-+On+Date+of+Hire''+WHEN+''CAM''+THEN+''Last+Event+-+On+Campaign+Date''+WHEN+''pit''+THEN+''Point+in+Time''+WHEN+''oact''+THEN++''Prior+Action+(Completed)''+WHEN+''tact''+THEN+''Other+Action+(Triggered)''+WHEN+''PE''+THEN+''Panel+Expiration''+WHEN+''MA''+THEN+''Medical+Anniversary''+ELSE+''Unknown''+END+ELSE+''''+END+AS+''Trigger+Date''&panel=IF+(pa.event_type%3D''P'',ol.name,pa.event_data)+AS+''Event+Name'''
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=PanelAudit&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=PanelMetrics&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=PanelStatus&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=PerformanceMetrics&tabmodule=reports&t=Health+Surveillance'
+  - 'https://system/?f=layout&s=pat&module=SystemReport&name=RespiratorRoster&tabmodule=reports&t=Health+Surveillance'
+  - 'https://drive.google.com/file/d/0B5Hsu0mf2-tkZGJSOEE2TkJYUkE/view'
+  - 'https://system/?f=orders&s=list_editor&t=List+Editor&tabmodule=admin&tabselect=Orders-List+Editor'
+  - 'https://system/?f=layout&module=HSP&name=PanelActionList&tabmodule=admin&tabselect=Health+Surveillance'
+  - 'https://system/?f=panelactiontest&tabmodule=admin&tabselect=Health+Surveillance'
+  - '../../functions/system-administration/security/security-role-settings.md'
+  - '../../functions/health-surveillance/health-surveillance-panels-action-rules.md'
+  - '../../functions/health-surveillance/health-surveillance-panels-add-memberships-manually.md'
+  - '../../functions/health-surveillance/adding-editing-health-surveillance-panels.md'
+  - '../../functions/health-surveillance/health-surveillance-panels-automated-membership.md'
+  - '../../functions/system-administration/data-migration/completed-orders-import-tool.md'
+  - '../../functions/system-administration/data-migration/export-import-health-surveillance-panels.md'
+  - '../../functions/health-surveillance/introduction-to-health-surveillance-panels.md'
+  - '../../functions/reports/panel-definition-report.md'
+  - '../../functions/system-administration/data-migration/panel-membership-import-tool.md'
+  - '../../functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md'
+  - '../../functions/health-surveillance/panel-action-evaluator.md'
+  - '../../functions/health-surveillance/respirator-info-chart-tab.md'
+  - '../../functions/system-configuration/locations-management.md'
+source: 'https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Review Session - Health Surveillance"
-        identifier: "1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ"
-        parent: "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM"
-        weight: 6080
+  main:
+    name: 'Review Session - Health Surveillance'
+    identifier: '1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
+    parent: '1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM'
+    weight: 6100
 ---
 ## Agenda
 
@@ -51,18 +89,16 @@ Our health surveillance program makes it easy to track and manage occupational h
 
 ## Health Surveillance Panels
 
-A health surveillance panel defines a group of events or services, known as *Panel Actions*. [Panel Actions](../../functions/health-surveillance/health-surveillance-panels-actions.html) may be a one-time requirement for a given individual, or they may be one or more events/services set on a recurring schedule. Panels also contain at least one *Representative Event*, which triggers the completion of the panel, as well as possible *action rules*, which set specific criteria on established Panel Actions. Health surveillance panels are sometimes associated with exposure groups, because the panels can be used for surveying groups exposed to certain hazards encountered while on the job, for example.
-
+A health surveillance panel defines a group of events or services, known as *Panel Actions*. [Panel Actions](../../functions/health-surveillance/health-surveillance-panels-actions.md) may be a one-time requirement for a given individual, or they may be one or more events/services set on a recurring schedule. Panels also contain at least one *Representative Event*, which triggers the completion of the panel, as well as possible *action rules*, which set specific criteria on established Panel Actions. Health surveillance panels are sometimes associated with exposure groups, because the panels can be used for surveying groups exposed to certain hazards encountered while on the job, for example.
 Panels can be found, tracked, and displayed in the Health Surveillance module of the chart. This allows for easy tracking and follow-up. Panels can also be used to document regularly scheduled voluntary health screenings, or checkups, and can be configured according to location, if necessary.
 
 ### Panel Actions
 
-A panel consists of a list of tests, procedures, or other services expected to be performed per exam. As stated, these items are known as [Panel Actions](../../functions/health-surveillance/health-surveillance-panels-actions.html), and they can be configured with specifications, or parameters, which are known as *action rules*. Action rules determine when the actions should be triggered, or considered due; or they may trigger a notification of the panel needing to be completed via a portal, tasking, or email, depending on the system configuration. Rules may also require the presence of certain things (e.g., only trigger if the individual is male, perform only as a vaccine series), or include a multitude of various other complexities, not to mention whether the action(s) is/are being performed as an entry panel, routine panel, or exit panel.
+A panel consists of a list of tests, procedures, or other services expected to be performed per exam. As stated, these items are known as [Panel Actions](../../functions/health-surveillance/health-surveillance-panels-actions.md), and they can be configured with specifications, or parameters, which are known as *action rules*. Action rules determine when the actions should be triggered, or considered due; or they may trigger a notification of the panel needing to be completed via a portal, tasking, or email, depending on the system configuration. Rules may also require the presence of certain things (e.g., only trigger if the individual is male, perform only as a vaccine series), or include a multitude of various other complexities, not to mention whether the action(s) is/are being performed as an entry panel, routine panel, or exit panel.
 
 ### Representative Events
 
 Health surveillance panels typically consist of many various Panel Actions to be performed. Some of these actions may be required, others may be denied, and even more may be omitted (e.g., a test for males only with a female participant). Some services/events may not even be completed the same day (e.g., labs are needing drawn, a physical exam is needed, or a respirator fit test is performed, all on different days). This is why every panel must have a Representative Event.
-
 A Representative Event is configured in the panel itself as the one and only unique action, that when it (the Event) is marked as Completed, the entire health surveillance panel is considered complete. The Representative Event must be unique to the panel (i.e., it cannot be used in any other health surveillance panel). What's more, is if the panel is set to recur, the next time it is evaluated and triggered will be based on the date the panel Representative Event was set Completed.
 
 ## Panel Memberships
@@ -79,7 +115,7 @@ Since health surveillance panels require understanding scheduling and appointmen
 
 ## Portal
 
-The {{% system-name %}} system emphasizes employee engagement and tracking, offering easy access to due lists, employee work status, and health surveillance through its certified portal. Employees can schedule appointments, provide information, and complete questionnaires, easily maintaining work certifications and overall wellness. Though discussed briefly, here, available portals and their management will be touched on in detail during the [Portal Management Review Session](review-session-portal-management.html).
+The {{% system-name %}} system emphasizes employee engagement and tracking, offering easy access to due lists, employee work status, and health surveillance through its certified portal. Employees can schedule appointments, provide information, and complete questionnaires, easily maintaining work certifications and overall wellness. Though discussed briefly, here, available portals and their management will be touched on in detail during the [Portal Management Review Session](review-session-portal-management.md).
 
 ### Employee Portal
 
@@ -91,13 +127,12 @@ Our Employer Portal offers an "anytime" look at overall staff health surveillanc
 
 ## Managing the Due List
 
-When there is a member of a health surveillance panel, the panel will need to be *evaluated* in order to trigger all the Panel Actions that are due. There are several areas within {{% system-name %}} to view and manage these triggered actions, or **Due List** items. The Due List can be populated on the portlet, available on the chart Summary tab, the Due List chart tab, the Tests & Procedures section or Recommendations section of a dynamic encounter, as well as the various reports available on health surveillance forecasting. For more information regarding the viewing and managing of Due List items, or health surveillance panels, see the [Quick View - Due List Portlet](../../functions/e-chart/quick-view-due-list-portlet.html), [Due List](../../functions/health-surveillance/due-list.html), and [Due List in a Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.html) documentation.
+When there is a member of a health surveillance panel, the panel will need to be *evaluated* in order to trigger all the Panel Actions that are due. There are several areas within {{% system-name %}} to view and manage these triggered actions, or **Due List** items. The Due List can be populated on the portlet, available on the chart Summary tab, the Due List chart tab, the Tests & Procedures section or Recommendations section of a dynamic encounter, as well as the various reports available on health surveillance forecasting. For more information regarding the viewing and managing of Due List items, or health surveillance panels, see the [Quick View - Due List Portlet](../../functions/e-chart/quick-view-due-list-portlet.md), [Due List](../../functions/health-surveillance/due-list.md), and [Due List in a Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md) documentation.
 
 ## Reporting
 
 [Health Surveillance](https://system/?f=layout&module=reports&name=HealthSurveillance&tabmodule=reports&t=Health+Surveillance&tabmodule=reports&tabselect=Health+Surveillance) has several helpful reports available in the **Reports** sidemenu.
-
-![](review-session-health-surveillance.images/image1.png)
+![](review-session-health-surveillance.assets/100002010000026D0000011EAB30891FDD4CBFE9.png)
 
 ### Beryllium Health Surveillance
 
@@ -119,7 +154,7 @@ The [Forecast report](https://system/?f=layout&s=pat&module=SystemReport&name=Fo
 
 The [Non-Compliant Employees report](https://system/?f=layout&s=pat&module=SystemReport&name=NonCompliantEmployees&tabmodule=reports&t=Health+Surveillance) results employees that are decertified for health surveillance panels.
 
-### [Panel Action Definition](https://system/?f=layout&s=pat&module=SystemReport&name=PanelActionDefinition&tabmodule=reports&t=Health+Surveillance&panel=pa.name+AS+'Action+Name'&panel=GROUP_CONCAT(DISTINCT+pr.reg_source)+AS+'Reg.+Source'&panel=pa.description+AS+'Description'&panel=CASE+pa.trigger_type+WHEN+'E'+THEN+'Entry'+WHEN+'X'+THEN+'Exit'+WHEN+'R'+THEN+'Routine'+ELSE+'Unknown'+END+AS+'Trigger+Type'&panel=CASE+pa.trigger_type+WHEN+'R'+THEN+CASE+pa.trigger_date_type+WHEN+'DOB'+THEN+'Date+of+Birth'+WHEN+'event'+THEN+'Last+Event'+WHEN+'EDOB'+THEN+'Last+Event+-+On+Date+of+Birth'+WHEN+'DOH'+THEN+'Last+Event+-+On+Date+of+Hire'+WHEN+'CAM'+THEN+'Last+Event+-+On+Campaign+Date'+WHEN+'pit'+THEN+'Point+in+Time'+WHEN+'oact'+THEN++'Prior+Action+(Completed)'+WHEN+'tact'+THEN+'Other+Action+(Triggered)'+WHEN+'PE'+THEN+'Panel+Expiration'+WHEN+'MA'+THEN+'Medical+Anniversary'+ELSE+'Unknown'+END+ELSE+''+END+AS+'Trigger+Date'&panel=IF+(pa.event_type%3D'P',ol.name,pa.event_data)+AS+'Event+Name')
+### [**Panel Action Definition**](https://system/?f=layout&s=pat&module=SystemReport&name=PanelActionDefinition&tabmodule=reports&t=Health+Surveillance&panel=pa.name+AS+'Action+Name'&panel=GROUP_CONCAT(DISTINCT+pr.reg_source)+AS+'Reg.+Source'&panel=pa.description+AS+'Description'&panel=CASE+pa.trigger_type+WHEN+'E'+THEN+'Entry'+WHEN+'X'+THEN+'Exit'+WHEN+'R'+THEN+'Routine'+ELSE+'Unknown'+END+AS+'Trigger+Type'&panel=CASE+pa.trigger_type+WHEN+'R'+THEN+CASE+pa.trigger_date_type+WHEN+'DOB'+THEN+'Date+of+Birth'+WHEN+'event'+THEN+'Last+Event'+WHEN+'EDOB'+THEN+'Last+Event+-+On+Date+of+Birth'+WHEN+'DOH'+THEN+'Last+Event+-+On+Date+of+Hire'+WHEN+'CAM'+THEN+'Last+Event+-+On+Campaign+Date'+WHEN+'pit'+THEN+'Point+in+Time'+WHEN+'oact'+THEN++'Prior+Action+(Completed)'+WHEN+'tact'+THEN+'Other+Action+(Triggered)'+WHEN+'PE'+THEN+'Panel+Expiration'+WHEN+'MA'+THEN+'Medical+Anniversary'+ELSE+'Unknown'+END+ELSE+''+END+AS+'Trigger+Date'&panel=IF+(pa.event_type%3D'P',ol.name,pa.event_data)+AS+'Event+Name')
 
 Using the autocomplete, select a Panel Name. Any additional columns can be selected using the Column Options selector. When submitted, the system will result the contents and details of the selected panel. The Panel Name field is not required. When left blank, the report will run, listing ALL active panels with their panel contents and details. This is a convenient way to render every active panel and component details into a view or CSV/Excel sheet for further sorting or printing needs.
 
@@ -134,7 +169,6 @@ The [Panel Forecast report](https://system/?f=layout&s=pat&module=SystemReport&n
 ### Panel Metrics
 
 The [Panel Metrics report](https://system/?f=layout&s=pat&module=SystemReport&name=PanelMetrics&tabmodule=reports&t=Health+Surveillance) displays health surveillance panels that are due within the specified due date range. This report displays each panel status, as well as other details organized in a variety of available sections:
-
 * <strong>Employee Panels</strong>: This section lists the individual employees and any associated health surveillance panels that are due.
 * The other sections display aggregate totals:
     * <strong>Total Employee Panels by Month</strong>
@@ -171,7 +205,7 @@ Each Panel Action, including Representative Events, must have a corresponding or
 
 ### Step 4 - Panels
 
-With a lot of the preliminary work out of the way, add the specific health surveillance panels, as needed. This can be done by navigating to the **Control Panel **sidemenu and selecting the [Health Surveillance tab](https://system/?f=layout&module=HSP&name=PanelActionList&tabmodule=admin&tabselect=Health+Surveillance). Once there, simply click the **Add Panel** button. Fill out the fields accordingly, making sure the Representative Event is unique on every panel.
+With a lot of the preliminary work out of the way, add the specific health surveillance panels, as needed. This can be done by navigating to the **Control Panel** sidemenu and selecting the [Health Surveillance tab](https://system/?f=layout&module=HSP&name=PanelActionList&tabmodule=admin&tabselect=Health+Surveillance). Once there, simply click the **Add Panel** button. Fill out the fields accordingly, making sure the Representative Event is unique on every panel.
 
 ### Step 5 - Panel Actions/Action Rules
 
@@ -180,13 +214,11 @@ After the panels have been created, Panel Actions can be added, as appropriate. 
 ### Step 6 - Completed Orders Import Tool
 
 Panel Actions set up with a *Prior Action (Completed)* **Trigger Date** need a specific order item in the chart history to ensure the Last Completed date is recorded. This tells the system to mark the Panel Action complete, triggering any other action item(s) dependent upon the completion of the initial action.
-
 With that said, it is important to retain the Last Completed date on imported health surveillance data. These dates will ensure that Panel Actions trigger with the appropriate due dates. Be sure the completed orders are recorded in {{% system-name %}} prior to any manual and/or automated memberships are established, before an HR feed is enabled, and before panel membership automation is processed via a cron/scheduled job, if applicable.
 
 ### Step 7 - Panel Memberships
 
 Panel memberships refer to the individual charts affiliated with a given health surveillance panel. Determine how individual charts will become "members" of the panel(s). The out-of-the-box product allows panel memberships to be manually maintained by staff, unless Membership Rules are established and programmed. Rules can be programmed according to location, building, cost center, or job class for HR/PM interfaces.
-
 To begin manually managing membership, navigate to the **Control Panel** sidemenu, and select the [Health Surveillance tab](https://system/?f=layout&module=HSP&name=PanelActionList&tabmodule=admin&tabselect=Health+Surveillance). Locate the panel being edited, and click the **Membership** hyperlink in the *Options* column.
 
 #### Automated Memberships
@@ -219,9 +251,8 @@ A default declination form is mapped to the **Decline Form** link, found under t
 
 ## Security & System Settings
 
-Review the security settings for users needing access to Health Surveillance (and Case Management). Review settings and give permissions, enable, or set, as appropriate. These settings can be found under the Health Surveillance section of the Access Control user settings. Additional information can be found within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.html) online help documentation, if needed.
-
-![](review-session-health-surveillance.images/image2.png)
+Review the security settings for users needing access to Health Surveillance (and Case Management). Review settings and give permissions, enable, or set, as appropriate. These settings can be found under the Health Surveillance section of the Access Control user settings. Additional information can be found within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help documentation, if needed.
+![](review-session-health-surveillance.assets/100002010000028D00000074510B37ED55FA1435.png)
 
 ## Resources
 
@@ -229,19 +260,19 @@ Review the security settings for users needing access to Health Surveillance (an
 
 ### Help Documentation
 
-* [Due List-Chart Tab](../../functions/health-surveillance/due-list.html)
-* [Due List-Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.html)
-* [Health Surveillance Panels-Action Rules](../../functions/health-surveillance/health-surveillance-panels-action-rules.html)
-* [Health Surveillance Panels-Actions](../../functions/health-surveillance/health-surveillance-panels-actions.html)
-* [Health Surveillance Panels-Add Individual Manual Membership](../../functions/health-surveillance/health-surveillance-panels-add-memberships-manually.html)
-* [Health Surveillance Panels-Adding and Editing](../../functions/health-surveillance/adding-editing-health-surveillance-panels.html)
-* [Health Surveillance Panels-Automated Membership](../../functions/health-surveillance/health-surveillance-panels-automated-membership.html)
-* [Health Surveillance Panels-Completed Orders Import Tool](../../functions/system-administration/data-migration/completed-orders-import-tool.html)
-* [Health Surveillance Panels-Export-Import Panels](../../functions/system-administration/data-migration/export-import-health-surveillance-panels.html)
-* [Health Surveillance Panels-Introduction](../../functions/health-surveillance/introduction-to-health-surveillance-panels.html)
-* [Health Surveillance Panels-Panel Definition Report](../../functions/reports/panel-definition-report.html)
-* [Health Surveillance Panels-Panel Membership Import Tool](../../functions/system-administration/data-migration/panel-membership-import-tool.html)
-* [Health Surveillance Panels-View Membership](../../functions/health-surveillance/viewing-health-surveillance-panels-and-membership.html)
-* [Panel Action Evaluator](../../functions/health-surveillance/panel-action-evaluator.html)
-* [Respirator Info-Chart Tab](../../functions/health-surveillance/respirator-info-chart-tab.html)
-* [Work Regions-Work Location tab](../../functions/system-configuration/locations-management.html)
+* [Due List-Chart Tab](../../functions/health-surveillance/due-list.md)
+* [Due List-Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
+* [Health Surveillance Panels-Action Rules](../../functions/health-surveillance/health-surveillance-panels-action-rules.md)
+* [Health Surveillance Panels-Actions](../../functions/health-surveillance/health-surveillance-panels-actions.md)
+* [Health Surveillance Panels-Add Individual Manual Membership](../../functions/health-surveillance/health-surveillance-panels-add-memberships-manually.md)
+* [Health Surveillance Panels-Adding and Editing](../../functions/health-surveillance/adding-editing-health-surveillance-panels.md)
+* [Health Surveillance Panels-Automated Membership](../../functions/health-surveillance/health-surveillance-panels-automated-membership.md)
+* [Health Surveillance Panels-Completed Orders Import Tool](../../functions/system-administration/data-migration/completed-orders-import-tool.md)
+* [Health Surveillance Panels-Export-Import Panels](../../functions/system-administration/data-migration/export-import-health-surveillance-panels.md)
+* [Health Surveillance Panels-Introduction](../../functions/health-surveillance/introduction-to-health-surveillance-panels.md)
+* [Health Surveillance Panels-Panel Definition Report](../../functions/reports/panel-definition-report.md)
+* [Health Surveillance Panels-Panel Membership Import Tool](../../functions/system-administration/data-migration/panel-membership-import-tool.md)
+* [Health Surveillance Panels-View Membership](../../functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md)
+* [Panel Action Evaluator](../../functions/health-surveillance/panel-action-evaluator.md)
+* [Respirator Info-Chart Tab](../../functions/health-surveillance/respirator-info-chart-tab.md)
+* [Work Regions-Work Location tab](../../functions/system-configuration/locations-management.md)

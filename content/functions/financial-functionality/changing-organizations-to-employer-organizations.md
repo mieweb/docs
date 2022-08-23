@@ -1,25 +1,23 @@
 ---
-title: "Changing organizations to employer organizations"
-date: "2021-02-17T22:50:42.522Z"
-url: "functions/financial-functionality/changing-organizations-to-employer-organizations.html"
-author: egrzetich
-version: 14
-id: "1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg"
-source: "https://drive.google.com/open?id=1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg"
+id: '1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg'
+title: 'Changing organizations to employer organizations'
+date: '2021-02-17T22:50:42.522Z'
+version: 18
+lastAuthor: 'egrzetich'
+mimeType: 'text/x-markdown'
+links:
+  - 'finding-employer-organizations.md'
+source: 'https://drive.google.com/open?id=1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 ---
 If an organization exists in the system and is not an employer organization but needs to be, do the following to change it to an employer organization rather than creating one.
+1. [Find employer organizations](finding-employer-organizations.md).
+2. From the search results, select the name of the organization to change. The system displays information about the organization.
+3. In the <em>Charts Types</em> section, select the <strong>edit</strong> button.
 
-* [Find employer organizations](finding-employer-organizations.html).
-* From the search results, select the name of the organization to change. The system displays information about the organization.
-* In the <em>Charts Types</em> section, select the <strong>edit</strong> button. 
-* In the <em>Chart Type</em> column, locate <strong>Organization</strong>. In the <em>Options</em> column, select the remove button. The <em>Organization</em> chart title appears struck out in the <em>Chart Type</em> column.![](changing-organizations-to-employer-organizations.images/image1.png)
-* From the <em>Chart Type</em> field, choose <strong>Employer Organization</strong>. Select the <strong>Add</strong> button. The <em>Employer Organization</em> chart appears in the <em>Chart Type</em> column.
-* Select the <strong>Submit</strong> button. In the <em>Chart Types</em> column, Organization no longer appears and Employer Organization appears.
-
-
-
-
-
+4. In the <em>Chart Type</em> column, locate <strong>Organization</strong>. In the <em>Options</em> column, select the remove button. The <em>Organization</em> chart title appears struck out in the <em>Chart Type</em> column.<img src="changing-organizations-to-employer-organizations.assets/100000000000011A000000B54FB7319F588B0B7B.png" />
+5. From the <em>Chart Type</em> field, choose <strong>Employer Organization</strong>. Select the <strong>Add</strong> button. The <em>Employer Organization</em> chart appears in the <em>Chart Type</em> column.
+6. Select the <strong>Submit</strong> button. In the <em>Chart Types</em> column, Organization no longer appears and Employer Organization appears.
 
 
 

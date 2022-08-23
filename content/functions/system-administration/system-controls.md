@@ -1,21 +1,19 @@
 ---
-title: "System Controls"
-date: "2020-02-27T20:17:32.029Z"
-url: "functions/system-administration/system-controls.html"
-version: 14
-id: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-source: "https://drive.google.com/open?id=1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
+id: '1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
+title: 'System Controls'
+date: '2020-02-27T20:17:32.029Z'
+version: 20
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "System Controls"
-        identifier: "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8"
-        parent: "1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo"
-        weight: 4380
+  main:
+    name: 'System Controls'
+    identifier: '1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
+    parent: '1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
+    weight: 4400
 ---
-
-
-
-
 
 
 
@@ -24,9 +22,8 @@ As a matter of principle,  {{% system-name %}} ensures its products meet the na
 
 
 
-
-
-
-
 {{% children %}}
+
+
+
 

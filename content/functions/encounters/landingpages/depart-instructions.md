@@ -1,11 +1,12 @@
 ---
-title: "Depart Instructions"
-date: "2021-02-26T16:05:30.513Z"
-url: "functions/encounters/landingpages/depart-instructions.html"
-author: egrzetich
-version: 7
-id: "1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc"
-source: "https://drive.google.com/open?id=1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc"
+id: '1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
+title: 'Depart Instructions'
+date: '2021-02-26T16:05:30.513Z'
+version: 11
+lastAuthor: 'egrzetich'
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 ---
 Depart Instructions
-

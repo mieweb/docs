@@ -1,18 +1,22 @@
 ---
-title: "Application Managed Service Summary"
-date: "2020-02-27T20:46:34.562Z"
-url: "resources/system-specifications/on-premise-deployment/application-managed-service-summary.html"
-version: 14
-id: "1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o"
-source: "https://drive.google.com/open?id=1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o"
+id: '1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
+title: 'Application Managed Service Summary'
+date: '2020-02-27T20:46:34.562Z'
+version: 20
+mimeType: 'text/x-markdown'
+links:
+  - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html'
+  - 'https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7'
+source: 'https://drive.google.com/open?id=1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Application Managed Service Summary"
-        identifier: "1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o"
-        parent: "1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI"
-        weight: 6250
+  main:
+    name: 'Application Managed Service Summary'
+    identifier: '1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
+    parent: '1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
+    weight: 6280
 ---
-## Terms
+## **Terms**
 
 * Remote Application Administrators (RAA) – A team of individuals who remotely manage on-premise instances of MySQL
 * {{% system-name %}} System – The software application that manages, stores and transmits employee data to and from web-enabled devices.
@@ -26,46 +30,39 @@ menu:
 The following Managed Service (MS) Levels are provided by {{% sys-name %}} to operate, maintain and monitor the {{% system-name %}} database(s) on the behalf of the customer when hosted on-premise, on customer hardware. The Service Level Agreement (SLA) is subject to change in order to fit the customer's environment and needs. The fees associated with the MS levels (listed in the table below) are billed monthly and on a per database instance (each running mysql).
 
 <table>
-  <tr>
-    <td>Level</td>
-    <td>
-Monitoring
+<tr>
+<td>Level</td>
+<td>Monitoring(hours x days)</td>
+<td>SLA</td>
+<td>Monthly Feeper / instance</td>
+</tr>
+<tr>
+<td>Silver</td>
+<td>8x5, excluding US Holidays</td>
+<td>120-Minute to Sev 1</td>
+<td>$800</td>
+</tr>
+<tr>
+<td>Gold</td>
+<td>24x7, all days of the year</td>
+<td>60-Minute to Sev 1</td>
+<td>$1,000</td>
+</tr>
+<tr>
+<td>Platinum</td>
+<td>24x7, all days of the year</td>
+<td>30-Minute to Sev 1</td>
+<td>$1,200</td>
+</tr>
 
-(hours x days)
-    </td>
-    <td>SLA</td>
-    <td>
-Monthly Fee
-
-per / instance
-    </td>
-  </tr>
-  <tr>
-    <td>Silver</td>
-    <td>8x5, excluding US Holidays</td>
-    <td>120-Minute to Sev 1</td>
-    <td>$800</td>
-  </tr>
-  <tr>
-    <td>Gold</td>
-    <td>24x7, all days of the year</td>
-    <td>60-Minute to Sev 1</td>
-    <td>$1,000</td>
-  </tr>
-  <tr>
-    <td>Platinum</td>
-    <td>24x7, all days of the year</td>
-    <td>30-Minute to Sev 1</td>
-    <td>$1,200</td>
-  </tr>
 </table>
 
-### Description of MS Levels
+### **Description of MS Levels**
 
-#### Silver
+
+#### **Silver**
 
 The Silver MS level includes:
-
 * Initial setup and configuration of {{% sys-name %}} and instances
 * Initial setup and tuning of monitoring servers
 * Regular health checks and monitoring
@@ -73,10 +70,9 @@ The Silver MS level includes:
 * 60-Minute SLA to (Sev 1) issues
 * 8x5 real time monitoring to correct performance, availability, and critical security issues, excluding US Holidays
 
-#### Gold
+#### **Gold**
 
 The Gold MS level includes:
-
 * All of Silver, plus:
 * 30-Minute SLA to (Sev 1) issues
 * 24x7 real time monitoring to correct performance, availability, and critical security issues
@@ -85,18 +81,17 @@ The Gold MS level includes:
 #### Platinum
 
 The Platinum MS level includes:
-
 * All of Silver and Gold, plus:
 * 15-Minute SLA to (Sev 1) issues
 * 24x7 real time monitoring to correct performance, availability, and critical security issues
 * High Availability configuration (includes monitoring, management, and scaling for fast failover to secondary and DR replica servers)
 
-## Requirements of Customers
+## **Requirements of Customers**
 
-### Monitoring Server
+
+### **Monitoring Server**
 
 For {{% system-name %}} to provide the managed service levels described, the following are server requirements of the customer:
-
 * Provide monitoring server:
     * 64bit Linux OS, [Red Hat® Enterprise 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html) or [CentOS 7](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7)
     * 4Gb Ram
@@ -110,7 +105,6 @@ For {{% system-name %}} to provide the managed service levels described, the fol
 * Web Accessible (not required)
 * Sudo privileges
 
-### Access to Network
+### **Access to Network**
 
-![](application-managed-service-summary.images/image1.png)
-
+![](application-managed-service-summary.assets/10000201000002650000016A50AE4C582C36A23C.png)

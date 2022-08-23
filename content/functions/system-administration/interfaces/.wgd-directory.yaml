@@ -1,0 +1,334 @@
+type: 'directory'
+id: '1HEadh38SFRh6p3Cp8VR0kCLZI821IZVO'
+title: 'Interfaces'
+fileName: 'interfaces'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:33.108Z'
+version: '297'
+fileMap:
+  device-interface-welch-allyn-cardioperfect.md:
+    type: 'md'
+    id: '1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
+    title: 'Device Interface - Welch Allyn CardioPerfect'
+    modifiedTime: '2022-07-27T20:50:14.964Z'
+    version: 81
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Kyle Kocks'
+    fileName: 'device-interface-welch-allyn-cardioperfect.md'
+  device-interface-ndd-easyone-connect-vbase.md:
+    type: 'md'
+    id: '1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
+    title: 'Device Interface - NDD EasyOne Connect vbase'
+    modifiedTime: '2022-06-23T00:58:44.715Z'
+    version: 218
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Bridget Hamm'
+    fileName: 'device-interface-ndd-easyone-connect-vbase.md'
+  outbound-sample-hl7-messages.md:
+    type: 'md'
+    id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
+    title: 'Outbound Sample HL7 Messages'
+    modifiedTime: '2022-06-13T19:32:37.257Z'
+    version: 59
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nick Wallace'
+    fileName: 'outbound-sample-hl7-messages.md'
+  delete-me_e-clinicalworks-v5-20220323_104651.doc:
+    type: 'binary'
+    id: '1zRBEG_x-moG9JoqB1r_nhtcL7gXUZTbl'
+    title: 'DELETE ME_E-ClinicalWorks-v5-20220323_104651.doc'
+    modifiedTime: '2022-03-23T14:59:05.397Z'
+    version: 93
+    mimeType: 'application/msword'
+    fileName: 'delete-me_e-clinicalworks-v5-20220323_104651.doc'
+  e-clinicalworks.md:
+    type: 'md'
+    id: '1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
+    title: 'E-ClinicalWorks'
+    modifiedTime: '2022-03-23T14:52:39.698Z'
+    version: 11
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Kate Barton'
+    fileName: 'e-clinicalworks.md'
+  sample-hl7-messages.md:
+    type: 'md'
+    id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
+    title: 'Sample HL7 Messages'
+    modifiedTime: '2022-03-10T19:03:57.467Z'
+    version: 111
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Angie Nichols'
+    fileName: 'sample-hl7-messages.md'
+  sending-hl7-messages-to-system.md:
+    type: 'md'
+    id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
+    title: 'Sending HL7 Messages to System'
+    modifiedTime: '2022-03-10T19:03:36.783Z'
+    version: 130
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Angie Nichols'
+    fileName: 'sending-hl7-messages-to-system.md'
+  device-interface-benson-audiometer.md:
+    type: 'md'
+    id: '1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
+    version: 66
+    title: 'Device Interface - Benson Audiometer'
+    modifiedTime: '2020-05-11T12:19:36.982Z'
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-benson-audiometer.md'
+  device-interface-benson-audiometer@1.md:
+    type: 'md'
+    id: '1-zMW9ExOCYDHLPw9kwKqj79QuTJjxXOFU-gHPGw6o_Y'
+    version: 57
+    title: 'Device Interface- Benson Audiometer'
+    modifiedTime: '2021-12-16T13:43:22.283Z'
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Alice Uhrick'
+    fileName: 'device-interface-benson-audiometer.md'
+  order-questions.csv:
+    type: 'binary'
+    id: '1pCbkfLSSJUZo4Gs1YeGe9anLSpnyRrE9'
+    title: 'Order Questions.csv'
+    modifiedTime: '2021-10-29T15:54:43.000Z'
+    version: 153
+    mimeType: 'text/csv'
+    fileName: 'order-questions.csv'
+  receiving-hl7-messages-from-system.md:
+    type: 'md'
+    id: '1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
+    title: 'Receiving HL7 Messages from System'
+    modifiedTime: '2021-09-24T19:55:36.541Z'
+    version: 63
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nick Wallace'
+    fileName: 'receiving-hl7-messages-from-system.md'
+  hl7-segment-definitions.md:
+    type: 'md'
+    id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
+    title: 'HL7 Segment Definitions'
+    modifiedTime: '2021-09-24T19:55:27.332Z'
+    version: 41
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Nick Wallace'
+    fileName: 'hl7-segment-definitions.md'
+  device-interface-tremetrics-ra500-,-ra300,-ra800.md:
+    type: 'md'
+    id: '1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
+    title: 'Device Interface - Tremetrics RA500 , RA300, RA800'
+    modifiedTime: '2021-08-31T14:16:27.353Z'
+    version: 48
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Kyle Kocks'
+    fileName: 'device-interface-tremetrics-ra500-,-ra300,-ra800.md'
+  patient-education-interface.md:
+    type: 'md'
+    id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
+    title: 'Patient Education Interface'
+    modifiedTime: '2021-08-30T18:51:59.554Z'
+    version: 132
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'sriecke'
+    fileName: 'patient-education-interface.md'
+  device-interface-vital-signs.md:
+    type: 'md'
+    id: '1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
+    title: 'Device Interface - Vital Signs'
+    modifiedTime: '2020-09-22T18:09:33.593Z'
+    version: 43
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'device-interface-vital-signs.md'
+  device-interface-audio-system.md:
+    type: 'md'
+    id: '1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
+    title: 'Device Interface - Audio System'
+    modifiedTime: '2020-03-19T19:31:42.080Z'
+    version: 54
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'device-interface-audio-system.md'
+  device-interface-amplivox-ca850.md:
+    type: 'md'
+    id: '1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
+    title: 'Device Interface - Amplivox CA850'
+    modifiedTime: '2020-03-19T19:02:19.406Z'
+    version: 30
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'device-interface-amplivox-ca850.md'
+  hl7-restful.md:
+    type: 'md'
+    id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
+    title: 'HL7 - RESTful'
+    modifiedTime: '2020-03-19T18:47:19.729Z'
+    version: 35
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'hl7-restful.md'
+  device-interface-benson-ccs-200-spirometer.md:
+    type: 'md'
+    id: '1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw'
+    title: 'Device Interface - Benson CCS-200 Spirometer'
+    modifiedTime: '2020-03-18T14:49:40.210Z'
+    version: 56
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'device-interface-benson-ccs-200-spirometer.md'
+  device-interface-depisteo-vt1.md:
+    type: 'md'
+    id: '10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
+    title: 'Device Interface - Depisteo VT1'
+    modifiedTime: '2020-03-18T14:35:13.634Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'device-interface-depisteo-vt1.md'
+  outbound-interface-install-instructions.md:
+    type: 'md'
+    id: '1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA'
+    title: 'Outbound Interface Install Instructions'
+    modifiedTime: '2020-03-05T15:43:31.766Z'
+    version: 76
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'outbound-interface-install-instructions.md'
+  device-interface-titmus-v4.md:
+    type: 'md'
+    id: '1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
+    title: 'Device Interface - Titmus V4'
+    modifiedTime: '2020-02-27T21:33:11.490Z'
+    version: 31
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'device-interface-titmus-v4.md'
+  device-interface-mi-7000.md:
+    type: 'md'
+    id: '1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
+    title: 'Device Interface - MI 7000'
+    modifiedTime: '2020-02-27T21:28:12.911Z'
+    version: 24
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'device-interface-mi-7000.md'
+  device-interface-maico-ma800.md:
+    type: 'md'
+    id: '1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY'
+    title: 'Device Interface - Maico MA800'
+    modifiedTime: '2020-02-27T21:28:06.013Z'
+    version: 22
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'aquandt'
+    fileName: 'device-interface-maico-ma800.md'
+  installing-mie-device-app.md:
+    type: 'md'
+    id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
+    title: 'Installing MIE Device App'
+    modifiedTime: '2020-02-27T21:06:51.908Z'
+    version: 60
+    mimeType: 'text/x-markdown'
+    fileName: 'installing-mie-device-app.md'
+  mammotrack-sidemenu.md:
+    type: 'md'
+    id: '1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0'
+    title: 'MammoTrack Sidemenu'
+    modifiedTime: '2020-02-27T20:29:25.900Z'
+    version: 45
+    mimeType: 'text/x-markdown'
+    fileName: 'mammotrack-sidemenu.md'
+  mammotrack-chart-tab.md:
+    type: 'md'
+    id: '1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo'
+    title: 'MammoTrack Chart Tab'
+    modifiedTime: '2020-02-27T20:29:13.529Z'
+    version: 31
+    mimeType: 'text/x-markdown'
+    fileName: 'mammotrack-chart-tab.md'
+  setup-custom-pharmacy.md:
+    type: 'md'
+    id: '1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'
+    title: 'Setup Custom Pharmacy'
+    modifiedTime: '2020-02-27T20:29:02.852Z'
+    version: 20
+    mimeType: 'text/x-markdown'
+    fileName: 'setup-custom-pharmacy.md'
+  device-interface-welch-allyn-spirometry.md:
+    type: 'md'
+    id: '1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0'
+    title: 'Device Interface - Welch Allyn Spirometry'
+    modifiedTime: '2020-02-27T20:28:56.204Z'
+    version: 35
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-welch-allyn-spirometry.md'
+  device-interface-vision-system.md:
+    type: 'md'
+    id: '1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI'
+    title: 'Device Interface - Vision System'
+    modifiedTime: '2020-02-27T20:28:38.471Z'
+    version: 24
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-vision-system.md'
+  device-interface-piccolo-system.md:
+    type: 'md'
+    id: '1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
+    title: 'Device Interface - Piccolo System'
+    modifiedTime: '2020-02-27T20:28:32.748Z'
+    version: 23
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-piccolo-system.md'
+  device-interface-pft-system.md:
+    type: 'md'
+    id: '15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
+    title: 'Device Interface - PFT System'
+    modifiedTime: '2020-02-27T20:28:23.442Z'
+    version: 53
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-pft-system.md'
+  device-interface-ekg-system.md:
+    type: 'md'
+    id: '1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
+    title: 'Device Interface - EKG System'
+    modifiedTime: '2020-02-27T20:28:15.111Z'
+    version: 44
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-ekg-system.md'
+  device-interface-cholestech-ldx.md:
+    type: 'md'
+    id: '11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10'
+    title: 'Device Interface - Cholestech LDX'
+    modifiedTime: '2020-02-27T20:28:03.764Z'
+    version: 25
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-cholestech-ldx.md'
+  device-interface-cardioperfect-ekg.md:
+    type: 'md'
+    id: '17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
+    title: 'Device Interface - CardioPerfect EKG'
+    modifiedTime: '2020-02-27T20:27:01.320Z'
+    version: 38
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-cardioperfect-ekg.md'
+  device-interface-audio-tremetrics-maico.md:
+    type: 'md'
+    id: '1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
+    title: 'Device Interface - Audio: Tremetrics/Maico'
+    modifiedTime: '2020-02-27T20:26:37.849Z'
+    version: 27
+    mimeType: 'text/x-markdown'
+    fileName: 'device-interface-audio-tremetrics-maico.md'
+  audio-tool-tab.md:
+    type: 'md'
+    id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
+    title: 'Audio Tool Tab'
+    modifiedTime: '2020-02-27T20:26:28.878Z'
+    version: 45
+    mimeType: 'text/x-markdown'
+    fileName: 'audio-tool-tab.md'
+  signature-pad-device.md:
+    type: 'md'
+    id: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
+    title: 'Signature Pad Device'
+    modifiedTime: '2020-02-27T20:26:18.438Z'
+    version: 52
+    mimeType: 'text/x-markdown'
+    fileName: 'signature-pad-device.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

@@ -1,29 +1,26 @@
 ---
-title: "Outbound Interface Install Instructions"
-date: "2020-03-05T15:43:31.766Z"
-url: "functions/system-administration/interfaces/outbound-interface-install-instructions.html"
-version: 72
-id: "1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA"
-source: "https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA"
+id: '1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA'
+title: 'Outbound Interface Install Instructions'
+date: '2020-03-05T15:43:31.766Z'
+version: 76
+lastAuthor: ''
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 ---
 ## Overview
-
 
 
 1. Understanding the end point to configure the Refer To Systems (RTS).
 2. Understanding the trigger that will take place in {{% system-name %}} to send the data to the end point to configure the Auto Route.
 
 
+## Refer To Systems
 
-## Refer To Systems[
-](https://confluence.mieweb.com/display/SwOp/Refer+To+Systems#page-metadata-start)
-
-Refer To Systems (RTS) is used to manage connection details for vendors/services that receive data from {{% system-name %}}. The {{% syslink "RTS Editor" "f=admin&subfunc=rts_editor&t=Refer+to+Systems" %}} is found in the Control Panel.  It requires a permission level to access it.
-
-![](outbound-interface-install-instructions.images/image8.png)
-
+Refer To Systems (RTS) is used to manage connection details for vendors/services that receive data from {{% system-name %}}. The *{{% syslink "RTS Editor" "f=admin&subfunc=rts_editor&t=Refer+to+Systems" %}}* is found in the Control Panel.  It requires a permission level to access it.
+![](outbound-interface-install-instructions.assets/1000020100000546000002700E724961023BEB22.png)
 Each RTS entry contains: 
-
 * <strong>System ID </strong>- This is a required unique identifier for the RTS
 * <strong>System Name</strong> - This is a human readable name for the entry.  It is used when setting up Auto Routes and Performing Facilities on Lab Orders
 * <strong>System Address</strong> - This is the end point information. This can be a URL, Filename, SFTP, among others.
@@ -34,112 +31,76 @@ Each RTS entry contains:
 ### System Address
 
 Here are the available connection options that the RTS editor supports
-
-![](outbound-interface-install-instructions.images/image4.png)
-
+![](outbound-interface-install-instructions.assets/10000201000003790000018456877259DE13E983.png)
 1. Socket
-    * Format: 'socket'|[IP address]|[port]|[SSL flag 1/0]
-    * `Example: socket|192.168.2.23|5321|0
-`
-2. File
-    * Format: 'file'|[file directory and name relative to where the datasend binary lives]
-    * `Example: file|../testfile.hl7
-`
-3. Multi-File
-    * Format: 'multi_file'|[file directory and beginning of filename to use]
-    * `Example: multi_file|../testmultifile
-`
-4. SCP
-    * Format: 'scp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
-        * Note username/password are on the RTS entry itself
-    * `Example: scp|192.168.34.27||data/outbound|testfile.dat|
-`
-5. SFTP
-    * Format: 'sftp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
-        * Note username/password are on the RTS entry itself
-    * `Example: sftp|192.168.34.27||data/outbound|testfile.dat|
-`
-6. HTTPS (default)
-    * Format: [URL]|[username CGI variable name]|[password CGI variable name]|[message CGI variable name]
-        * Note username/password are on the RTS entry itself
-    * `Example: https://mywebchart.com/omg/webchart.cgi|login_user|login_passwd|message
-`
-
+    1. Format: 'socket'|[IP address]|[port]|[SSL flag 1/0]
+<pre>Example: socket|192.168.2.23|5321|0</pre>2. File
+    1. Format: 'file'|[file directory and name relative to where the datasend binary lives]
+<pre>Example: file|../testfile.hl7</pre>3. Multi-File
+    1. Format: 'multi_file'|[file directory and beginning of filename to use]
+<pre>Example: multi_file|../testmultifile</pre>4. SCP
+    1. Format: 'scp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
+        1. Note username/password are on the RTS entry itself
+<pre>Example: scp|192.168.34.27||data/outbound|testfile.dat|</pre>5. SFTP
+    1. Format: 'sftp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
+        1. Note username/password are on the RTS entry itself
+<pre>Example: sftp|192.168.34.27||data/outbound|testfile.dat|</pre>6. HTTPS (default)
+    1. Format: [URL]|[username CGI variable name]|[password CGI variable name]|[message CGI variable name]
+        1. Note username/password are on the RTS entry itself
+<pre>Example: https://mywebchart.com/omg/webchart.cgi|login_user|login_passwd|message</pre>
 ### System Ability
 
 Here are the types of outbound messages that can be configured for each RTS endpoint.  Selecting these determines how they are represented inside of Webchart and EH.
-
-![](outbound-interface-install-instructions.images/image7.png)
-
+![](outbound-interface-install-instructions.assets/100002010000044300000061DF73A21CC3EDA86A.png)
 1. Is WebChart?
-    * For sending messages between 2 Webchart systems
+    1. For sending messages between 2 Webchart systems
 2. Is HAP Server?
-    * Specifies that this can be used as a remote chart HAP System endpoint in the ChartTabs editor.
+    1. Specifies that this can be used as a remote chart HAP System endpoint in the ChartTabs editor.
 3. Is HL7 Recipient?
-    * For sending HL7 data to a system
+    1. For sending HL7 data to a system
 4. Is Text Export?
-    * Specifies that this can be used as a Text Export endpoint in the Send dialog and Auto Routes editor.
+    1. Specifies that this can be used as a Text Export endpoint in the Send dialog and Auto Routes editor.
 5. Is XDS Reg?
-    * For sending via XDS.
+    1. For sending via XDS.
 6. Is PIX?
-    * Specifies that this is a PIX Manager and is suitable as an endpoint for performing ITI-9 PIX queries.
+    1. Specifies that this is a PIX Manager and is suitable as an endpoint for performing ITI-9 PIX queries.
 7. Is HL7 Orders Outbound?
-    * For sending HL7 Orders to a system
+    1. For sending HL7 Orders to a system
 8. Is PDQ?
-    * Specifies that this a Patient Demographics Supplier and is suitable as an endpoint for performing ITI-21 PDQ queries.
+    1. Specifies that this a Patient Demographics Supplier and is suitable as an endpoint for performing ITI-21 PDQ queries.
 9. Is OnDemand?
-    * Specifies that any outgoing XDR submissions are to be registered as On-Demand documents rather than static documents.
-
+    1. Specifies that any outgoing XDR submissions are to be registered as On-Demand documents rather than static documents.
 
 
 ## Auto Routes
 
 There are many available triggers
-
 * <em>On Document Add/Update</em> - creates MDM, VXU or ORU
 * <em>On Patient Add/Update</em> - creates ADT
 * <em>On Appointments Add</em> - creates SIU
 * <em>On Procedures for Billing Add</em> - creates DFT
-
-![](outbound-interface-install-instructions.images/image3.png)
-
-
+![](outbound-interface-install-instructions.assets/1000020100000387000001D4FFCDE23766FBB900.png)
 
 JOINs and WHERE clause
-
 * This allows for more filtering to work with specific sets of patients.  Requires some understanding of the Webchart DB schema.  Generally requires MIE EDI team to build.  However, manually copying Auto Route JOINs and WHERE Clauses into new Auto Routes is also possible.
 * The <em>Help Me</em> feature allows non-power users to build their own commonly used Join/Where clauses.
-
-![](outbound-interface-install-instructions.images/image6.png)
-
-
+![](outbound-interface-install-instructions.assets/1000020100000395000001DEDE929AF3379F7A0B.png)
 
 There are many available send options
-
 * <em>HL7 Send</em> - this will send out HL7 messages
-
-![](outbound-interface-install-instructions.images/image2.png)
-
+![](outbound-interface-install-instructions.assets/10000201000003850000029F0D9EA6BAC58D88ED.png)
 
 
 ## Testing and Verifying
 
 Once records are added into Webchart and the triggers are satisfied, the HL7 message should send out according to the RTS.  To validate that the data was sent outbound successfully, browse to the DataSend Queue in Control Panel -> Interfaces.
 
-
-
 The Send Queue has reports that show the records
-
 * <em>In Progress</em> - messages currently being sent to the RTS End point
 * <em>Pending</em> - messages waiting to be sent to the RTS End point
 * <em>Error</em> - messages that were unable to send successfully
 * <em>Completed/Acknowledged</em> - messages that were sent successfully
+![](outbound-interface-install-instructions.assets/100002010000041F000002D9CB0CDE460D466837.png)
 
-![](outbound-interface-install-instructions.images/image5.png)
-
-
-
-Resending messages is possible for Completed messages using the Options *Resend *link
-
-![](outbound-interface-install-instructions.images/image1.png)
-
+Resending messages is possible for Completed messages using the Options *Resend* link
+![](outbound-interface-install-instructions.assets/10000201000005670000018007FBF4B9158C2E7A.png)

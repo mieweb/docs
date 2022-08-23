@@ -1,21 +1,24 @@
 ---
-title: "Base Configuration"
-date: "2020-02-27T21:27:18.394Z"
-url: "rapid-deployment/rapid-deployment-agenda/deployment-planning/base-configuration.html"
-author: aquandt
-version: 17
-id: "1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg"
-source: "https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg"
+id: '1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
+title: 'Base Configuration'
+date: '2020-02-27T21:27:18.394Z'
+version: 21
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
+links:
+  - '../../review-sessions/review-session-system-configuration.md'
+source: 'https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Base Configuration"
-        identifier: "1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg"
-        parent: "1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ"
-        weight: 5800
+  main:
+    name: 'Base Configuration'
+    identifier: '1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
+    parent: '1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
+    weight: 5820
 ---
 ## Purpose
 
-Cover the [System Configuration Review Session](../../review-sessions/review-session-system-configuration.html) to gather necessary information and identify any gaps.
+Cover the [System Configuration Review Session](../../review-sessions/review-session-system-configuration.md) to gather necessary information and identify any gaps.
 
 ## Objective
 
@@ -23,7 +26,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
-* [System Configuration Review Session](../../review-sessions/review-session-system-configuration.html) and Demonstration
+* [System Configuration Review Session](../../review-sessions/review-session-system-configuration.md) and Demonstration
     * Corporate Branding (Logo)
     * Add/update Locations
     * Add Users
@@ -42,4 +45,3 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 ## Afterward
 
 Document action items, distribute meeting minutes, create Jira tickets for configuration projects that are in scope, perform system configuration, update percentage complete and dates on project plan, distribute final version of the project charter and project plan, and prepare for the subsequent meetings.
-

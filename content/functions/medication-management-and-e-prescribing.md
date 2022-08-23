@@ -1,21 +1,21 @@
 ---
-title: "Medication Management & E-Prescribing"
-date: "2020-02-27T20:03:52.738Z"
-url: "functions/medication-management-and-e-prescribing.html"
-version: 14
-id: "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
-source: "https://drive.google.com/open?id=1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
+id: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
+title: 'Medication Management & E-Prescribing'
+date: '2022-02-08T15:08:43.651Z'
+version: 26
+lastAuthor: 'Gavin Roudebush'
+mimeType: 'text/x-markdown'
+links:
+  - 'system-administration/system-controls/setting-up-e-prescribers.md'
+source: 'https://drive.google.com/open?id=1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Medication Management & E-Prescribing"
-        identifier: "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA"
-        parent: "1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0"
-        weight: 1980
+  main:
+    name: 'Medication Management & E-Prescribing'
+    identifier: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
+    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
+    weight: 2000
 ---
-
-
-
-
 
 
 
@@ -24,9 +24,11 @@ The {{% system-name %}} solution provides a sophisticated yet easy-to-use medica
 
 
 
-
-
-
-
 {{% children %}}
+
+
+Note: In order to use E-Prescribing you must [set up a prescriber first](system-administration/system-controls/setting-up-e-prescribers.md). 
+
+
+
 

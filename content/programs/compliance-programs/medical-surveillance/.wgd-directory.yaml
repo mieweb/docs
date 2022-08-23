@@ -1,0 +1,18 @@
+type: 'directory'
+id: '1lT8VTuGvwfUaQR3aSt4oPPse7myKECfi'
+title: 'Medical Surveillance'
+fileName: 'medical-surveillance'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:23:57.154Z'
+version: '53'
+fileMap:
+  industrial-hygiene.md:
+    type: 'md'
+    id: '1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A'
+    title: 'Industrial Hygiene'
+    modifiedTime: '2020-03-05T15:56:04.336Z'
+    version: 32
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'industrial-hygiene.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

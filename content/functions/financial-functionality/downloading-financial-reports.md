@@ -1,15 +1,22 @@
 ---
-title: "Downloading financial reports"
-date: "2021-02-18T16:20:52.868Z"
-url: "functions/financial-functionality/downloading-financial-reports.html"
-author: egrzetich
-version: 18
-id: "1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y"
-source: "https://drive.google.com/open?id=1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y"
+id: '1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y'
+title: 'Downloading financial reports'
+date: '2021-02-18T16:20:52.868Z'
+version: 21
+lastAuthor: 'egrzetich'
+mimeType: 'text/x-markdown'
+links:
+  - 'viewing-financial-reports.md'
+  - '../reports/using-datavis-grids-data-tools.md'
+source: 'https://drive.google.com/open?id=1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 ---
 The system generates reports in comma-separated value format for download. After downloading, open in a spreadsheet program.
+1. [View a financial report](viewing-financial-reports.md). 
+2. [Work with the information in the report](../reports/using-datavis-grids-data-tools.md) as appropriate to include the information to download.
+3. Select <strong>Generate CSV</strong>. The system generates a CSV file of the information as displayed.
 
-* [View a financial report](viewing-financial-reports.html). 
-* [Work with the information in the report](../reports/using-datavis-grids-data-tools.html) as appropriate to include the information to download.
-* Select <strong>Generate CSV</strong>. The system generates a CSV file of the information as displayed.  ![](downloading-financial-reports.images/image1.png)
-* When the file is ready to download, the <em>Generate CSV</em> icon changes to <em>Download CSV</em>. Select <strong>Download CSV</strong>. Your device downloads the file.   ![](downloading-financial-reports.images/image2.png)
+   <img src="downloading-financial-reports.assets/100000000000001B000000258CE9D64724766B05.png" />
+4. When the file is ready to download, the <em>Generate CSV</em> icon changes to <em>Download CSV</em>. Select <strong>Download CSV</strong>. Your device downloads the file.
+
+    <img src="downloading-financial-reports.assets/100000000000001C0000001D915D3F94577EC8FD.png" />

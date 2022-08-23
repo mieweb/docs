@@ -1,0 +1,81 @@
+type: 'directory'
+id: '1BUVpKEev56snIQvY9qZCrm1cg3LGZ4nP'
+title: 'Scanning & Indexing'
+fileName: 'scanning-and-indexing'
+mimeType: 'application/vnd.google-apps.folder'
+date: '2020-02-27T19:24:02.761Z'
+version: '293'
+fileMap:
+  scanning.md:
+    type: 'md'
+    id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
+    title: 'Scanning'
+    modifiedTime: '2021-12-29T13:08:55.701Z'
+    version: 92
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'sriecke'
+    fileName: 'scanning.md'
+  batched-documents-printing,-faxing,-burning.md:
+    type: 'md'
+    id: '1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
+    title: 'Batched Documents - Printing, Faxing, Burning'
+    modifiedTime: '2020-03-24T14:44:49.174Z'
+    version: 50
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'batched-documents-printing,-faxing,-burning.md'
+  indexing.md:
+    type: 'md'
+    id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+    title: 'Indexing'
+    modifiedTime: '2020-03-24T12:57:54.562Z'
+    version: 106
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'indexing.md'
+  working-inbound-fax-queue-and-distributing-incoming-faxes.md:
+    type: 'md'
+    id: '1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
+    title: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
+    modifiedTime: '2020-03-09T16:19:40.525Z'
+    version: 84
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'working-inbound-fax-queue-and-distributing-incoming-faxes.md'
+  batch-search-in-webscan.md:
+    type: 'md'
+    id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
+    title: 'Batch Search in WebScan'
+    modifiedTime: '2020-03-09T16:13:04.599Z'
+    version: 30
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'batch-search-in-webscan.md'
+  indexing-bubble-forms.md:
+    type: 'md'
+    id: '16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
+    title: 'Indexing Bubble Forms'
+    modifiedTime: '2020-03-09T15:08:14.503Z'
+    version: 41
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'indexing-bubble-forms.md'
+  scanner-cleaning.md:
+    type: 'md'
+    id: '181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ'
+    title: 'Scanner Cleaning'
+    modifiedTime: '2020-03-06T22:16:27.286Z'
+    version: 29
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'scanner-cleaning.md'
+  alternatiff-activex-control-for-webscan.md:
+    type: 'md'
+    id: '1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
+    title: 'AlternaTIFF ActiveX Control for WebScan'
+    modifiedTime: '2020-03-06T22:10:54.540Z'
+    version: 43
+    mimeType: 'text/x-markdown'
+    lastAuthor: ''
+    fileName: 'alternatiff-activex-control-for-webscan.md'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'

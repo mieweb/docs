@@ -1,21 +1,19 @@
 ---
-title: "Dictation and Transcription"
-date: "2020-02-27T19:50:45.866Z"
-url: "functions/encounters/dictation-and-transcription.html"
-version: 29
-id: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-source: "https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
+id: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
+title: 'Dictation and Transcription'
+date: '2020-02-27T19:50:45.866Z'
+version: 35
+mimeType: 'text/x-markdown'
+links: []
+source: 'https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
+wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 menu:
-    main:
-        name: "Dictation and Transcription"
-        identifier: "1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY"
-        parent: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
-        weight: 1280
+  main:
+    name: 'Dictation and Transcription'
+    identifier: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
+    parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
+    weight: 1300
 ---
-
-
-
-
 
 
 
@@ -24,9 +22,8 @@ The ability to dictate notes in a patient chart is a critical factor when it com
 
 
 
-
-
-
-
 {{% children %}}
+
+
+
 
