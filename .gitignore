@@ -3,3 +3,7 @@ public*/
 /resources
 .vscode/
 .wgd
+.wgd-directory.yaml
+.wgd-local-links.csv
+.wgd-local-log.csv
+*.debug.xml
