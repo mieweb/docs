@@ -11,7 +11,7 @@ links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
   - '../../e-sign-electronic-signature.md'
 source: 'https://drive.google.com/open?id=1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Link Documents to Other Documents'
@@ -29,31 +29,49 @@ Documents can only be linked to other documents within the *same* chart.
 
 To link a stored document to another from the document properties, first find the document needing linked. Once located, click the **Properties** link in the document header.
 After the page loads, scroll down to the **Document Is Linked To** section. Here, users can view what documents are currently linked to the document in context, if any.
-![](link-documents-to-other-documents.assets/10000201000004A1000001FE7CC2914F27F6720E.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004A1000001FE7CC2914F27F6720E.png)
+
 To add a document link, click the **Add Link** hyperlink next to the section header.
-![](link-documents-to-other-documents.assets/10000201000004A1000001FE8F798E677867A704.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004A1000001FE8F798E677867A704.png)
+
 Once clicked, the **Document Linked to Document** page will load, with fields available for defining the document being linked and the type of link being created.
-![](link-documents-to-other-documents.assets/10000201000004B00000009265C156089D01AB67.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004B00000009265C156089D01AB67.png)
+
 The **Link Type** dropdown allows users to define types of links between documents, if necessary. Generally, the **Is Linked to** option is chosen, by default.
-![](link-documents-to-other-documents.assets/10000201000004AD000000979B946F4604BC1F1D.png)
-The **Linked To** field is used to define the document being linked to the document in context. Simply begin typing the document ID to populate the appropriate document being linked. If the document ID is not known, simply use the help bubble ![](link-documents-to-other-documents.assets/1000020100000001000000014C77D75F6DC67A52.png) to utilize the search feature, to find the appropriate document ID.
+
+![](../link-documents-to-other-documents.assets/10000201000004AD000000979B946F4604BC1F1D.png)
+
+The **Linked To**
+ field is used to define the document being linked to the document in context. Simply begin typing the document ID to populate the appropriate document being linked. If the document ID is not known, simply use the help bubble ![](../link-documents-to-other-documents.assets/1000020100000001000000014C77D75F6DC67A52.png)
+ to utilize the search feature, to find the appropriate document ID.
 {{% tip %}}
 
 If searching by document type name, it is important to know that the search is configured as a BEGINS WITH search, not a CONTAINS search. The documents of the chart beginning with the entered text will begin to populate as possible selections. The document name, ID, and date of service are shown to help users select the correct document to link.
 {{% /tip %}}
-![](link-documents-to-other-documents.assets/10000201000004A600000080AC4914D5170A6FB3.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004A600000080AC4914D5170A6FB3.png)
+
 A **Comments** field is provided for users to enter any comments pertaining to or necessary of the link type and documents being linked.
 After filling in the fields, click the **Add** button to the right of the screen. Once clicked, the new link will be displayed in a ListEdit view, above the linking fields. This allows multiple documents to be added, if necessary.
 Continue linking documents, as needed, clicking the **Add** button after each one.
-![](link-documents-to-other-documents.assets/10000201000004B3000000A80706FA62D74E3F7F.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004B3000000A80706FA62D74E3F7F.png)
+
 After all documents have been linked to the document in context, click the **Save** button to signify completion and to save all entries. Once clicked, the page will refresh with the **Documents Linked to Document** section displaying all links to the document in context.
-![](link-documents-to-other-documents.assets/10000201000004B3000000A8C41B34169EAE10F7.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004B3000000A8C41B34169EAE10F7.png)
+
 {{% note %}}
 
 The document will not be linked to the other documents until the *Save* button is clicked. The **Add** button simply puts the link in the ListEdit and does not save or submit the links. Users must click the **Save** button to save all link entries.
 {{% /note %}}
 Users may continue to other areas of the chart as needed, or they may click the **Back to Properties** link in the upper-right corner, to return to the document properties.
-![](link-documents-to-other-documents.assets/10000201000004B0000000D90A61B7DEB274401A.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004B0000000D90A61B7DEB274401A.png)
+
 
 ## Link via E-Sign
 
@@ -64,23 +82,35 @@ Regardless of the method used, the ability to add a document to the chart while 
 
 To link the document being signed to a new document being created, the **Add Document** link must be clicked *before* signing the marked document.
 {{% /note %}}
-![](link-documents-to-other-documents.assets/100002010000049A0000023F18E6FB7C79039EBA.png)
+
+![](../link-documents-to-other-documents.assets/100002010000049A0000023F18E6FB7C79039EBA.png)
+
 After clicking the Add Document link, a new window/tab will open and display the Add Document module within the chart.
-![](link-documents-to-other-documents.assets/10000201000004BE000001AC4859B7E44B2988F8.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004BE000001AC4859B7E44B2988F8.png)
+
 With the pending document still open in the previous window/tab, select the specific document type that needs added to the chart from the *Add Document* screen. The document type being added will be linked to the document being reviewed in the E-Sign module.
 After selecting the new document type to add (e.g., Doctor Note text document), the *Add Document Properties* screen will load. Here, the **Document Links** section will display the link of the new document being added **Is a Reply to** the document being reviewed. Once added, the user can finish the review and e-sign the original document in the previous window/tab.
-![](link-documents-to-other-documents.assets/10000201000004BD000001F4D867C8CC56633119.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004BD000001F4D867C8CC56633119.png)
+
 For more information on the E-Sign module and working the queue, please visit our directory of [E-Sign](../../e-sign-electronic-signature.md) help documentation.
 
 ## Unlink a Document
 
 Sometimes a document will no longer need linked to another document. Unlinking documents is just as easy as linking.
 Locate the document needing unlinked. Click the **Properties** link in the document header. Scroll down to the *Document is Linked To* section, where all document links are listed, and simply click the **Add Link** hyperlink, found next to the section title.
-![](link-documents-to-other-documents.assets/10000201000004960000022AC16367204F3DF343.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004960000022AC16367204F3DF343.png)
+
 The ListEdit will load showing each of the links that exist for the document. To remove a link, locate the specific line item of the link type and document, and click the minus [ - ] button found in the *Options* column.
-![](link-documents-to-other-documents.assets/10000201000004B1000000CF535C33DDEB8DA79B.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004B1000000CF535C33DDEB8DA79B.png)
+
 Once clicked, the system will strikethrough the line. If an incorrect line was selected, simply click the plus [ + ] button found in the *Options* column, and this will reverse the action.
-![](link-documents-to-other-documents.assets/10000201000004B3000000B94388B4D6165BFE15.png)
+
+![](../link-documents-to-other-documents.assets/10000201000004B3000000B94388B4D6165BFE15.png)
+
 When finished, click the **Save** button to save all changes. After the page refreshes, users may continue working in the chart, or to get back to document properties, simply click the **Back to Properties** link found in the upper-right corner of the screen.
 {{% note %}}
 

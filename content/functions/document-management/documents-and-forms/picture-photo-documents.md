@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Picture-Photo Documents'
@@ -25,7 +25,9 @@ The {{% system-name %}} system is designed to allow photos/pictures to be upload
 
 To begin adding a photo as a document to a chart, navigate to the Document Library by clicking any **Add Document** link, found throughout the chart. Once clicked, the library will load, and the **Picture** filter link can be selected to reduce the available document types. Selecting the Picture filter link will show only document types that are available to upload as a picture.
 
-![](picture-photo-documents.assets/100002010000032300000106D2AC0FE5FDB0053D.png)
+
+![](../picture-photo-documents.assets/100002010000032300000106D2AC0FE5FDB0053D.png)
+
 
 {{% note %}}
 
@@ -34,11 +36,15 @@ If a specific document type is not listed, contact the system administrator to s
 
 Select the document type needing attached and uploaded to the chart by simply clicking the **Picture** link following the appropriate document name.
 
-![](picture-photo-documents.assets/10000201000003230000010601AE7D5E1A9AC67A.png)
+
+![](../picture-photo-documents.assets/10000201000003230000010601AE7D5E1A9AC67A.png)
+
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
-![](picture-photo-documents.assets/10000201000001FA00000121C24C6B6E43B38085.png)
+
+![](../picture-photo-documents.assets/10000201000001FA00000121C24C6B6E43B38085.png)
+
 
 **Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
@@ -61,7 +67,9 @@ In order to author documents for others, the user must have the Access Control *
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. When the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](picture-photo-documents.assets/10000201000003C1000000F1F4892718266B5DC3.png)
+
+![](../picture-photo-documents.assets/10000201000003C1000000F1F4892718266B5DC3.png)
+
 
 {{% info %}}
 
@@ -81,12 +89,16 @@ Once the necessary fields have been filled in, click the **Add Document** button
 If this is the first time uploading a picture, the MIE VidCap Control plugin will need to be installed. This will allow users to capture images from a camera (e.g. a webcam) for upload, or from a smartcard source, where the image file can be browsed to and uploaded, as needed.
 {{% /note %}}
 
-![](picture-photo-documents.assets/100002010000029F000001B22E853FFD8336DA87.png)
+
+![](../picture-photo-documents.assets/100002010000029F000001B22E853FFD8336DA87.png)
+
 
 {{% tip %}}
 
 The media source can be changed, as needed. To change either the media source or the SmartCard folder, simply right-click anywhere in the box of photos/images. If the preferred media source is SmartCard, but the Picture folder is not the correct directory, select **Set SmartCard Folder**. Make sure to select the correct folder needing associated, and then click **OK**. Otherwise, to change the media source from SmartCard to any of the available alternatives (e.g., Camera), place a checkmark next to the appropriate option by simply clicking on that choice. The Document Capture Control screen will display the picture files from the newly selected folder or source.
-![](picture-photo-documents.assets/100002010000027F000001BC8932B08C2D59CD37.png)
+
+![](../picture-photo-documents.assets/100002010000027F000001BC8932B08C2D59CD37.png)
+
 {{% /tip %}}
 
 Once ready, use the mouse to select a picture for upload. When the photo is selected it will be highlighted with a blue border. If multiple photos are being uploaded and needed selected at the same time, hold the **Ctrl** button on the keyboard while clicking any additional photos needing uploaded. All selected photos will have a blue border notating the selection.
@@ -94,12 +106,16 @@ Once ready, use the mouse to select a picture for upload. When the photo is sele
 {{% tip %}}
 
 If the work station is set up with a **WebCam** for taking photos for chart demographics, simply click the webcam icon on the scan control toolbar to open the viewer.
-![](picture-photo-documents.assets/100002010000027B000000C8E8156AA59B4FF084.png)
+
+![](../picture-photo-documents.assets/100002010000027B000000C8E8156AA59B4FF084.png)
+
 {{% /tip %}}
 
 When ready to upload, click the **Record** (red circle) button. This will upload the selected files.
 
-![](picture-photo-documents.assets/1000020100000298000001B58B23C05650DDCB84.png)
+
+![](../picture-photo-documents.assets/1000020100000298000001B58B23C05650DDCB84.png)
+
 
 {{% warning %}}
 
@@ -108,4 +124,6 @@ With some computers, upon uploading photos, a pop-up message may display asking 
 
 Any uploaded photos will appear as stored documents in the respective chart. Each photo will be a separate document with the date of service specified, even though multiple photos may have been uploaded within the same session.
 
-![](picture-photo-documents.assets/10000201000004A6000001D39B8944600970A8DF.png)
+
+![](../picture-photo-documents.assets/10000201000004A6000001D39B8944600970A8DF.png)
+

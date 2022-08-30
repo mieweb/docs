@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ERES&old_module=Email&old_name=Pat+Restrictions&active=0'
 source: 'https://drive.google.com/open?id=1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Pat Restrictions'
@@ -41,7 +41,9 @@ RE: Frederick J Anderson
 
 This is to notify you that Frederick J Anderson has the following work restriction:
 
-![](pat-restrictions.assets/1000020100000278000000639FDF4DFAACBA7D00.png)
+
+![](../pat-restrictions.assets/1000020100000278000000639FDF4DFAACBA7D00.png)
+
 If you have any additional questions regarding this notification, please contact Health Services.
 We thank you for your cooperation.
 

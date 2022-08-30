@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=scheduler&s=appt_wizard&location&startdateDAY=4&startdateMONTH=12&startdateYEAR=2018&startdateTIME=05:08pm'
   - 'https://system/?f=chart&s=docq'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Editing Demographics'
@@ -25,18 +25,24 @@ If your practice has an interface from your practice management (PM) system or a
 
 There are two ways to edit demographics in a chart. One is to find the **Demographics** chart tab in the chart. This can be found as a subtab of the **Admin** chart tab. Once there, users will see an **Edit Demo** link, which allows for editing the chart demographics.
 
-![](editing-demographics.assets/10000201000003C9000001309FABAE467EFB5AF6.png)
+
+![](../editing-demographics.assets/10000201000003C9000001309FABAE467EFB5AF6.png)
+
 
 The alternative method for editing chart demographics is from the **Demographics** chart portlet, found on the patient's **Summary** tab. Here, users can simply click the **Manage Info** icon that looks like a pencil, and this will take the user to the **Demographic Information** page.
 
-![](editing-demographics.assets/1000020100000312000001318952D4BBC80BC90C.png)
+
+![](../editing-demographics.assets/1000020100000312000001318952D4BBC80BC90C.png)
+
 
 The Demographic Information screen is a layout that can be altered to collect the specific data fields needed for the business workflows or reporting needs. Contact your MIE Implementer if you need to add additional fields to capture specific data on this screen.
 {{% note %}}
 
 Red fields are required fields that must contain data in order to create, save, or edit a chart.
 
-![](editing-demographics.assets/10000201000004280000016425A37AFFDCD6DFF2.png)
+
+![](../editing-demographics.assets/10000201000004280000016425A37AFFDCD6DFF2.png)
+
 
 {{% /note %}}
 
@@ -52,21 +58,31 @@ After all edits are done click the **Save** button at the bottom of the screen
 
 If you have security permission, you can view all revisions in a list format that were done to that chart's demographics.  When in the Demographics chart tab, click **Patient Revisions** link found just above the chart's demographic information.
 
-![](editing-demographics.assets/10000201000003C9000001309327F642DF315BF5.png)
+
+![](../editing-demographics.assets/10000201000003C9000001309327F642DF315BF5.png)
+
 
 The system will display the count of revisions done for demographics on the chart. The system always displays the information from the chart for the last known revision.
 
-![](editing-demographics.assets/10000201000004B4000001A93B3D6C4FB0A33C0C.png)
+
+![](../editing-demographics.assets/10000201000004B4000001A93B3D6C4FB0A33C0C.png)
+
 
 The chart's most current demographics display on the screen (the last known revision), but as you scroll down you will see the **Revisions** list view section. All revision history is listed, the detail of each revision, such as revision date/time and who revised it.
 You can click on any **Revision Number (#)** link on the specific demographics revision you wish to display on the screen.
 
-![](editing-demographics.assets/1000020100000480000001B063CB281E0504B9B7.png)
+
+![](../editing-demographics.assets/1000020100000480000001B063CB281E0504B9B7.png)
+
 
 In this example, revision # 2 was clicked.  The system refreshed and displays all the demographic info on the screen for revision 2. It also identifies that I am viewing revision #2 at the top.
 
-![](editing-demographics.assets/100002010000047C000001AAA48ABD23596AFF04.png)
+
+![](../editing-demographics.assets/100002010000047C000001AAA48ABD23596AFF04.png)
+
 
 Click **Back to Patient Demographics** hyperlink to get back to the general demographics tab summary in order to exit out of patient revision mode.
 
-![](editing-demographics.assets/100002010000047C000001AA6B4AAA3109282701.png)
+
+![](../editing-demographics.assets/100002010000047C000001AA6B4AAA3109282701.png)
+

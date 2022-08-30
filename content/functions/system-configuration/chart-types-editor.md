@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Chart Types Editor'
@@ -25,34 +25,54 @@ For {{% system-name %}} systems that do use this, chart tabs will be separated i
 
 Before any changes are made to chart tabs or patient/records/charts, or patient partitions, each chart tab has the default chart type (the blank option in the chart tab editor).
 The Chart Types Editor tab is available in the Control Panel. Your MIE Implementer will add this if your practice will need to utilize this functionality.
-![](chart-types-editor.assets/100002010000024A00000128186265209EFF3692.png)
+
+![](../chart-types-editor.assets/100002010000024A00000128186265209EFF3692.png)
+
 In order to access the Chart Types Editor tab, the user have the permission (‘Control', ‘Manage Chart Types') set to ‘Yes'.
-![](chart-types-editor.assets/10000201000001030000002ACD28471D3504D857.png)
+
+![](../chart-types-editor.assets/10000201000001030000002ACD28471D3504D857.png)
+
 Each {{% system-name %}} system starts with 0 chart types, so the first step is to follow the ‘Add Chart Types' link.
-![](chart-types-editor.assets/10000201000004E8000000CD5B20F41590AB430D.png)
+
+![](../chart-types-editor.assets/10000201000004E8000000CD5B20F41590AB430D.png)
+
 That takes the user to another page that displays a listedit allowing the user to add as many chart types as desired. Type in the name(s) of the Chart Types you need to create for your system, click *add button* to add multiple and when done click *SAVE* button.
-![](chart-types-editor.assets/10000201000001F0000000810C8350953B367338.png)
+
+![](../chart-types-editor.assets/10000201000001F0000000810C8350953B367338.png)
+
 Once you have saved (at least one chart type has been created) the chart types editor displays a listview with options.
-![](chart-types-editor.assets/10000201000004B800000054C9446B73BD1BC564.png)
+
+![](../chart-types-editor.assets/10000201000004B800000054C9446B73BD1BC564.png)
+
 
 ## Options/Functions for Chart Types
 
-![](chart-types-editor.assets/100002010000054D000000B311275A41526C9586.png)
+
+![](../chart-types-editor.assets/100002010000054D000000B311275A41526C9586.png)
+
 
 ### Edit
 
 The editing option displays a listedit that allows the user to quickly associate the chart type to multiple chart tabs. These are the tabs that a user will see when accessing a record/chart tied to this specific chart type. This *Edit* screen allows the user to edit the description of a chart type and link chart tabs, document types, appointment types, visit types, and relation types to a chart *type*.
-![](chart-types-editor.assets/10000201000004FD00000178C81BA8ACFB201DB7.png)
+
+![](../chart-types-editor.assets/10000201000004FD00000178C81BA8ACFB201DB7.png)
+
 OR
 You can also set the chart tabs to a specific chart types in the above edit screen **or** you can go to the Chart Tabs control and set chart *types* within the individual *chart tab* properties also.
-![](chart-types-editor.assets/100002010000036F000001BAC00B37C28FF7A79E.png)
+
+![](../chart-types-editor.assets/100002010000036F000001BAC00B37C28FF7A79E.png)
+
 
 ### Edit Partitions
 
 The Edit Partitions option displays a listview that allows the user to quickly associate the chart type to a specific partition or multiple partitions. Each active partition is displayed along with the number of patients. The number of patients (records/charts) is split up into a column showing the number who have that chart type set to their records currently vs the total number of patients who are in that entire partition.
-![](chart-types-editor.assets/10000201000004AC0000010F432B146FB59013A9.png)
+
+![](../chart-types-editor.assets/10000201000004AC0000010F432B146FB59013A9.png)
+
 If the user has security permission (‘E-Chart', ‘Allow Unrestricted Pat Search') set to ‘Yes', these numbers will be displayed as links to listviews of these patients.
-![](chart-types-editor.assets/100002010000049D0000018E2E11112519D42417.png)
+
+![](../chart-types-editor.assets/100002010000049D0000018E2E11112519D42417.png)
+
 You can tag ALL patients or remove ALL patients in a partition to/from specific chart type via these links.
 * <strong>Add ALL patients</strong>: this is a link that will refresh the page and every patient/chart record in that partition you selected will get tied to that chart type you are in, regardless of that patient's membership in other partitions, and regardless of the other chart types that patient may have.
 * <strong>Remove ALL patients</strong>: this is a link that will refresh the page and every patient/chart record in that partition you selected will no longer be associated with that chart type you are in, regardless of that patient's membership in other partitions, and regardless of the other chart types that patient may have.
@@ -65,7 +85,9 @@ This link allows the user to quickly change the description of the chart type (t
 ### Delete
 
 Delete takes the user to a confirmation page that shows all chart tabs and patient/chart records that are associated with this chart type.
-![](chart-types-editor.assets/10000201000004A0000000D9AFECC910A7D39C29.png)
+
+![](../chart-types-editor.assets/10000201000004A0000000D9AFECC910A7D39C29.png)
+
 If the user confirms this decision, three things will happen:
 1. All chart tabs that have this chart type will revert to the ‘default chart type'.
 2. No patients/chart records will have that chart type any longer and <strong>no</strong> other chart types will be added to these patients to compensate for this. Any patient/chart record who no longer has any chart types will only have chart tabs of the ‘default chart type' displayed in his/her chart.
@@ -73,12 +95,20 @@ If the user confirms this decision, three things will happen:
 You can tag specific individual patients via the patient's record instead of the above "all in mass" links in the editor method. This is done through a chart tab while working in the patient/chart record named Set Chart Type or Unset Chart Type.
 Your MIE Implementer can set up these chart tabs and name them ex: Patient Chart Types or Unset Chart Type or Set Chart Type etc. Then a chart *tab* where you can set or unset the specific patient/chart record you are in individually instead of the "mass" method in previous page/editor (providing the user has security to manage chart types).
 This tab also allows users to "see" which chart type a specific patient/record is tagged to while working in that patient/chart record. If you don't have security permission to "manage chart types" then it will simply display the "chart type" the patient/chart record is associated with. You would not be able to tag or untag an individual patient/chart record from/to a specific chart "type" unless you have security.
-![](chart-types-editor.assets/1000020100000430000000F2F9F49074E0556DDA.png)
-![](chart-types-editor.assets/1000020100000217000000E401FC2167FC35445D.png)
+
+![](../chart-types-editor.assets/1000020100000430000000F2F9F49074E0556DDA.png)
+
+
+![](../chart-types-editor.assets/1000020100000217000000E401FC2167FC35445D.png)
+
 Once you have Chart Types set up, you can have specific Document Types set to chart type(s). The list of doc.types that may be set to "chart types" would then be available in an indexing screen.
 In this example, I may need to scan and house a service agreement document for an Audio machine. My {{% system-name %}} system uses the asset management module and could have chart named "Audio machine". So for regular patient charts I would never need to store a ‘service agreement' to them, but I do need to for my Audio machine chart that is in {{% system-name %}} .
 The doc.type editor allows now for a doc.type to be set to chart type(s) if necessary.
-![](chart-types-editor.assets/100002010000030600000134EA8B22D847C2C99C.png)
+
+![](../chart-types-editor.assets/100002010000030600000134EA8B22D847C2C99C.png)
+
 Chart Types is also a filter in the indexing module. Depending on the type of images/documents to index, you can set the Chart Type in the indexing field to help filter for document types and medical record charts to index to. If I had a batch of documents to index that were for the Audio Machine, I would set the chart type to *asset management* here in the indexing screen and the list of doc.types in the auto-complete would only show me doc.types to index to that are tied to asset management chart type. Same for the *chart* field, I would get an auto-complete of MR#'s for charts (medical records) tied to that chart type of asset management so I can find and index the document to the Audio Machine chart MR# and not a patient's chart.
-![](chart-types-editor.assets/100002010000020E000001B03C53B28235CCBD9C.png)
+
+![](../chart-types-editor.assets/100002010000020E000001B03C53B28235CCBD9C.png)
+
 Note: Charts with the "Patient" chart type will see chart tabs and visit types that do not have a chart type specified. No chart type is treated as "Patient" chart type.

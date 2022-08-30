@@ -6,7 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Dictation without Transcription Report'
@@ -19,9 +19,13 @@ This is a report to show dictation that does not have matching transcription. Th
 Click *Reports* from left sidebar menu.
 Click *Dict W/O Trans* tab from the top menu.
 The Dictation without Transcription summary report automatically pops up and lists *all* of the outstanding dictations that do not have a matching transcription of a word document.
-![](dictation-without-transcription-report.assets/100000000000038800000173F50FE4130445F0C1.png)
+
+![](../dictation-without-transcription-report.assets/100000000000038800000173F50FE4130445F0C1.png)
+
 You can narrow down this report by selecting a specific dictating user (dictating physician), and/or date range from the fields at the top. Click *Apply* to show the reports of your new search.
 When you click the patient name or the MR# on this report, it will take you to the specific document that the dictation is tied to. Otherwise it will take you to the appointment scheduler.
 If you click the Dictation ID number then it will open and play the dictation through the MIEPlayer.
 You can grab the dictation and transcribe to complete it, or you can edit the dictation or send, etc all providing you have the security level permissions.
-![](dictation-without-transcription-report.assets/10000000000002360000016D855199D29DB6A457.png)
+
+![](../dictation-without-transcription-report.assets/10000000000002360000016D855199D29DB6A457.png)
+

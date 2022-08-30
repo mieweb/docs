@@ -6,14 +6,32 @@ mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:40.082Z'
 version: '61'
 fileMap:
+  application-programming-interface-api.md:
+    type: 'md'
+    id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
+    title: 'Application Programming Interface (API)'
+    modifiedTime: '2022-08-30T20:43:59.305Z'
+    version: 40
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'application-programming-interface-api.md'
+  client-hardware-and-software-specifications.md:
+    type: 'md'
+    id: '1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
+    title: 'Client Hardware and Software Specifications'
+    modifiedTime: '2022-08-30T20:38:36.509Z'
+    version: 34
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'client-hardware-and-software-specifications.md'
   interface-specifications.md:
     type: 'md'
     id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
     title: 'Interface Specifications'
-    modifiedTime: '2022-08-18T18:59:07.919Z'
-    version: 1114
+    modifiedTime: '2022-08-25T20:50:59.221Z'
+    version: 1183
     mimeType: 'text/x-markdown'
-    lastAuthor: 'Bridget Hamm'
+    lastAuthor: 'Tom Slabach'
     fileName: 'interface-specifications.md'
   ccda,-ccd-and-ccr-compatibility.md:
     type: 'md'
@@ -29,7 +47,7 @@ fileMap:
     id: '14vy3k0f0EWCGaXu__JfC9ZtWZSsVFxInvTev8gQssbQ'
     title: 'FHIR Application Programming Interface (API)'
     modifiedTime: '2022-07-26T17:15:48.882Z'
-    version: 37
+    version: 40
     mimeType: 'text/x-markdown'
     lastAuthor: 'Nicole Richardson'
     fileName: 'fhir-application-programming-interface-api.md'
@@ -75,33 +93,15 @@ fileMap:
     version: 18
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'vpat'
-  client-hardware-and-software-specifications.md:
-    type: 'md'
-    id: '1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
-    title: 'Client Hardware and Software Specifications'
-    modifiedTime: '2020-03-10T17:48:46.388Z'
-    version: 29
-    mimeType: 'text/x-markdown'
-    lastAuthor: ''
-    fileName: 'client-hardware-and-software-specifications.md'
   system-email-templates.md:
     type: 'md'
     id: '1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
     title: 'System Email Templates'
     modifiedTime: '2020-02-27T21:26:58.722Z'
-    version: 27
+    version: 31
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'system-email-templates.md'
-  application-programming-interface-api.md:
-    type: 'md'
-    id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-    title: 'Application Programming Interface (API)'
-    modifiedTime: '2020-02-27T21:26:23.076Z'
-    version: 33
-    mimeType: 'text/x-markdown'
-    lastAuthor: 'aquandt'
-    fileName: 'application-programming-interface-api.md'
   on-premise-deployment.md:
     type: 'md'
     id: '1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
@@ -124,7 +124,7 @@ fileMap:
     id: '1zkr32tiy309Y5ReMR7ectmlv7fT_DzVz'
     title: 'System Email Templates'
     modifiedTime: '2020-02-27T19:24:46.535Z'
-    version: 280
+    version: 282
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'system-email-templates'
   application-programming-interface-api:
@@ -140,7 +140,7 @@ fileMap:
     id: '1UMfOTNHV9nVW9JH5JHCvh-UjklqvimJm'
     title: 'On-Premise Deployment'
     modifiedTime: '2020-02-27T19:24:41.096Z'
-    version: 300
+    version: 302
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'on-premise-deployment'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

@@ -2,7 +2,7 @@
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
 date: '2021-12-17T15:27:04.732Z'
-version: 234
+version: 238
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'observation-codes-editor.md'
   - 'observation-code-merging.md'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Flowsheets Editor'
@@ -34,7 +34,8 @@ The following information provides details on how to add and configure flowsheet
 
 1. Verify all observations needed for the new flowsheet are already created and available within the  {{% system-name %}} system.
 
-![](flowsheets-editor.assets/100002010000050A0000018F585EE53038EDF00E.png)
+
+![](../flowsheets-editor.assets/100002010000050A0000018F585EE53038EDF00E.png)
 {{% note %}}
 Any custom discrete values will not be interoperable when communicating with other systems.
 {{% /note %}}
@@ -103,7 +104,9 @@ To avoid the default behavior of automatically displaying line breaks/headers, u
 1. Click the Edit icon (pencil) to edit the line break/header, and update the <strong>Section</strong> field with a category, label, term, or generic freetext (e.g., lungs, bsa, etc.).
 2. Once the line break/header has been updated with a section name, edit each line item or observation belonging to that section with the same section name.
 
-![](flowsheets-editor.assets/100002010000058F000002D6A3D3D217F2118846.png)
+
+![](../flowsheets-editor.assets/100002010000058F000002D6A3D3D217F2118846.png)
+
 
 3. Click the <strong>Submit</strong> button to save all changes.
 
@@ -147,7 +150,9 @@ observationDisplay('Since your last exam, have you experienced rhinitis, a runny
 
 
 ```
-![](flowsheets-editor.assets/100002010000058E000002202E0B1263B2E85593.png)
+
+![](../flowsheets-editor.assets/100002010000058E000002202E0B1263B2E85593.png)
+
 
 #### Based on Patient Sex
 

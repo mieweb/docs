@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-encounter-workflow.md'
   - '../../review-sessions/review-session-portal-management.md'
 source: 'https://drive.google.com/open?id=1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Encounter Workflow & Portal Management'

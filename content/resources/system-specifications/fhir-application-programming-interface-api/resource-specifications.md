@@ -1,9 +1,9 @@
 ---
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
-date: '2022-08-08T21:10:35.978Z'
-version: 491
-lastAuthor: 'Nicole Richardson'
+date: '2022-08-30T15:25:37.584Z'
+version: 498
+lastAuthor: 'Will Reiske'
 mimeType: 'text/x-markdown'
 links:
   - 'http://hl7.org/fhir/R4/allergyintolerance.html'
@@ -53,7 +53,7 @@ links:
   - 'http://hl7.org/fhir/R4/provenance.html'
   - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 # Supported Resources
 
@@ -228,9 +228,7 @@ A list of allergies for a specific patient can be returned when searching by tha
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
-
 
 
 ```
@@ -239,7 +237,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "AllergyIntolerance",
@@ -300,11 +297,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 	"recordedDate": "2022-08-05T18:33:45Z"
 }
 
-
-
+{{% /pre %}}
 
 ```
-{{% /pre %}}
+
 ## Error Handling
 
 

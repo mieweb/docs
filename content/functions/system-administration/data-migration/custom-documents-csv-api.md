@@ -10,7 +10,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/images/6/69/Storage_Type_Header_13.txt'
   - 'https://miewiki.med-web.com/wiki/images/c/c3/Storage_type_1001_example.pdf'
 source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Custom Documents CSV API'

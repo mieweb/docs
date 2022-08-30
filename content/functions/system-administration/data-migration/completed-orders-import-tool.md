@@ -13,7 +13,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Completed Orders Import Tool'
@@ -41,9 +41,13 @@ CSV refers to the type of file and format of data needed to import information i
 If you have panels with action items set to trigger on *prior action (completed)* (see other help documentation named *Health Surveillance Panels-Actions.pdf*) then it's important to have specific order items in the employee's history to have the ‘last completed' date so the system knows when the last specific order item was marked complete in order to trigger other action items dependent on it. The *last completed date* is imported during the migration process to ensure that surveillance actions trigger with the appropriate due date.  This is needed for manual and/or {{% system-name %}} automated panel membership needs before the HR feed is turned on and before panel membership automation (if there is any) gets turned on and processes via the scheduled job.
 Access the Data Import tab found in Control. See the [Data Import Tab](data-import-tab.md) help documentation.
 Make sure all order items are listed in the import template tool that are part of the panel w/ a completion date, along w/ the representative event order item. Work with your MIE Implementer to import completed orders for Health Surveillance Panel needs.
-![](completed-orders-import-tool.assets/100002010000034E0000011622D90AD0535559E0.png)
+
+![](../completed-orders-import-tool.assets/100002010000034E0000011622D90AD0535559E0.png)
+
 Importing prior order id's as ‘completed' will show them as completed along w/ the date in the Due List View along w/ the comment from the import tool spreadsheet.
-![](completed-orders-import-tool.assets/100002010000048F000000705102DDAE5ECF3FA9.png)
+
+![](../completed-orders-import-tool.assets/100002010000048F000000705102DDAE5ECF3FA9.png)
+
 
 ## **Specifications**
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'My Settings'
@@ -20,14 +20,18 @@ Users have the ability to manage specific settings for themselves, for others, o
 Changes to any of the My Setting preferences will only affect you, the logged in user, no one else.  The username you are logged in as will be the only user affected by these preferences.
 Click Control from left sidebar menu. Click My Settings tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click Submit Settings box at the top or bottom of the screen.
 
-![](my-settings.assets/10000201000004C000000101C6B7F2382E89736C.png)
+
+![](../my-settings.assets/10000201000004C000000101C6B7F2382E89736C.png)
+
 
 
 ## **Edit Preferences For**
 
 If you have security rights, you can view other user's preference settings and/or edit them.  Alternatively, you can view the System Default settings or you can view specific Security Role Default settings.  
 
-![](my-settings.assets/100002010000018D000000546173914EB6A80D21.png)
+
+![](../my-settings.assets/100002010000018D000000546173914EB6A80D21.png)
+
 
 
 ### **Yourself**
@@ -38,7 +42,9 @@ This field at the top right of My Settings defaults to you (yourself – the log
 
 If you have security permission and want to edit preferences for another user in your system, simply select OTHER USER from the drop-down. A second field named Choose a user: will appear where you are to start typing in the name of the other user. It will auto-complete and give you choices/matches of users in your system.  
 
-![](my-settings.assets/10000201000002E30000005764DA2CAAFBBC3955.png)
+
+![](../my-settings.assets/10000201000002E30000005764DA2CAAFBBC3955.png)
+
 
 Once you have selected the other user, the screen will refresh and show that user's preferences/settings your screen. Make changes to their preferences and click SUBMIT CHANGES button when done. This changes preferences for that specific other user only.
 
@@ -46,21 +52,29 @@ Once you have selected the other user, the screen will refresh and show that use
 
 This is usually maintained by your MIE Implementer. Viewing the System Default preferences shows what the defaults for your entire {{% system-name %}} system are set to. Of course, individual users though can change their individual preferences. You or your MIE Implementer can change preferences for all users in your system in mass by changing defaults here that change all users system wide instead of individually by user.
 
-![](my-settings.assets/10000201000004B0000000FFA923F9D94EB3ECB6.png)
+
+![](../my-settings.assets/10000201000004B0000000FFA923F9D94EB3ECB6.png)
+
 
 To change a system default preference as a means of applying that change in mass to all users in {{% system-name %}} is a two step process and is a bit different than changing an individual preference setting. When changing a System Default preference, find the My Setting preference you wish to change for the entire system. The name of the preference (when viewing preferences for System Default) should be underlined. the underline is really a link.   Example:
 
-![](my-settings.assets/10000201000000960000003A920A96C1A5D67721.png)
+
+![](../my-settings.assets/10000201000000960000003A920A96C1A5D67721.png)
+
 
 The specific preference field with the drop-down arrow tells you what the system default is already set to. If you need to change the ‘system default' (you are not changing it in mass for all users yet—you are just changing the system default setting) then you use the drop-down arrow to change your selection. Click SUBMIT CHANGES button at the bottom when done. This saves that setting/preference for the system default only. This does not apply it to everyone in mass yet.
 Once you have the system default set to what you want or it is already set to what you want all users to be changed to, then click the underlined My Setting Preference name of the one you just set.
 For instance, in this example, I want everyone in the entire {{% system-name %}} system to be preference set to Number of Recent Patients: 10. After I have the system default setting set to 10 and saved, I now need to go back in and apply this to all users in the {{% system-name %}} system. So, I click on the underlined name Number of Recent Patients setting. It then pops up a warning message on my screen that I am about to change this specific setting for all {{% system-name %}} users.
 
-![](my-settings.assets/1000020100000293000000A0061684F922E77CBA.png)
+
+![](../my-settings.assets/1000020100000293000000A0061684F922E77CBA.png)
+
 
 Click SET TO DEFAULT button to apply that setting and its value to all users in your {{% system-name %}} system or cancel to get out. You will get a confirmation message at the top stating you updated that setting for all users in your system.
 
-![](my-settings.assets/10000201000001A40000006E83B5248A33139AC3.png)
+
+![](../my-settings.assets/10000201000001A40000006E83B5248A33139AC3.png)
+
 
 Continue to another system default if you wish. If you are changing preferences for all users in mass to be the system default setting, each change has to be done individually.
 
@@ -68,14 +82,18 @@ Continue to another system default if you wish. If you are changing preferences 
 
 If you have security permission and want to edit preferences for users tied to a specific security role, simply select SECURITY ROLE DEFAULTS from the drop-down. A second field named Choose a security role: will appear. Use the drop-down arrow to select the specific security role that you wish to edit preferences on. Any changes to preferences (My Settings) will affect all users tied to that security role.
 
-![](my-settings.assets/10000201000002CC000000D96324FFF95087EBF1.png)
+
+![](../my-settings.assets/10000201000002CC000000D96324FFF95087EBF1.png)
+
 
 Changing security role preferences and then applying them to all users within that security is the same process as above in the System Default section. Please see above section for steps on how to apply security role default preference to all users within that security role in mass.
 When looking at preference choices available in the drop-down:
 * One Asterisk denotes the preference as a Security Role default
 * Three Asterisks denotes the preference as both the Security Role and System defaults.
 
-![](my-settings.assets/100002010000046E0000008C9851F2F0EA3ED71C.png)
+
+![](../my-settings.assets/100002010000046E0000008C9851F2F0EA3ED71C.png)
+
 
 
 ## **My Settings Descriptions of Preferences/Settings**
@@ -127,7 +145,8 @@ When looking at preference choices available in the drop-down:
 * Date Format: There are 3 choices (MM-DD-YYYY, DD-MM-YYYY or YYYY-MM-DD) It is defaulted to MM-DD-YYYY however if you change, any date (date of birth, document date, revision dates, etc) will then display as your selected format in {{% system-name %}} .  The entry fields for the dates follow the same ordering as the displaying selection also. The separator for dates is standardized to use the dash ( - ).
 * 24 Hour Clock:  Choose Yes or No.  If Yes, times displayed for your view will be 24 hour military time. Field entry is still in normal 12 hr time with am/pm on it, yet summary view shows military time. If set to No, the times displayed for your view will be normal 12-hour clock times with pm or am after it.
 * Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format.
-  <img src="my-settings.assets/10000201000000F3000000190CBE8CB3E0404774.png" />
+  <img src="../my-settings.assets/10000201000000F3000000190CBE8CB3E0404774.png" />
+
 * Preferred Unit System: Choose Default, English or Metric.  You can still enter vitals, etc w/ either unit system; this just makes the drop-down choice units start at the system you choose. (ex: units for weight lbs vs kg, height  units inches vs. cm, etc).
 
 ### **E-Chart**
@@ -455,7 +474,9 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Default Category: If your system is set up with categories for incoming faxes, you can set a category to default to when working and batching and forwarding faxes in the FaxQ module.
 To save settings, click Submit Settings at the top or bottom of the screen.
 
-![](my-settings.assets/10000201000003830000006E51006394C4AD3055.png)
+
+![](../my-settings.assets/10000201000003830000006E51006394C4AD3055.png)
+
 
 ### **Password/PIN Control**
 

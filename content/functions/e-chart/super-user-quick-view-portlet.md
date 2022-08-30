@@ -19,7 +19,7 @@ links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://system/'
 source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Super User Quick View Portlet'
@@ -38,7 +38,9 @@ If you are a superuser and need access to view or edit the following areas of th
 * Portions of the [Chart Tabs](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) editor
 When trying to access any of the areas listed above and you do not have additional SuperUser access, an error message will display.
 
-![](super-user-quick-view-portlet.assets/100002010000020500000088ABE29E37A7719BFA.png)
+
+![](../super-user-quick-view-portlet.assets/100002010000020500000088ABE29E37A7719BFA.png)
+
 
 {{% note %}}
 
@@ -47,14 +49,22 @@ Any SuperUser that requires a password to access those areas above should consul
 
 To access and activate the SuperUser access required, the user must:
 1. Add the<strong> SuperUser portlet</strong> to the [Quick View](https://system/) sidemenu.
-![](super-user-quick-view-portlet.assets/10000201000001E400000208A11E02B46876EF30.png)
+
+![](../super-user-quick-view-portlet.assets/10000201000001E400000208A11E02B46876EF30.png)
+
 2. Next, locate the Super User portlet and click the <strong>Unlock for this Session</strong> button.
-![](super-user-quick-view-portlet.assets/100002010000024A0000005A36B8B5FC8CE891BA.png)
+
+![](../super-user-quick-view-portlet.assets/100002010000024A0000005A36B8B5FC8CE891BA.png)
+
 3. Enter the password provided by your MIE Implementer.
-![](super-user-quick-view-portlet.assets/10000201000001DB00000091851FE5B9516687B3.png)
+
+![](../super-user-quick-view-portlet.assets/10000201000001DB00000091851FE5B9516687B3.png)
+
 4. Click the <strong>Enable</strong> button after keying in the password.
 5. If successful, the button in the Super User portlet will display <strong>Super user access enabled</strong>. The super user can now go to those areas above, that were previously restricted.  
-![](super-user-quick-view-portlet.assets/100002010000024A000000592B5722B0C383B388.png)
+
+![](../super-user-quick-view-portlet.assets/100002010000024A000000592B5722B0C383B388.png)
+
 6. If the system did not recognize the correct password, it will alert you to try again.
 
 The password enables the logged-in superuser access to the areas mentioned above. In other words, after the superuser signs out, the superuser must re-enter the password into the portlet, in order to regain access to those areas. The password is not required for normal functionality.

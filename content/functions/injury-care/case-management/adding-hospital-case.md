@@ -2,13 +2,13 @@
 id: '1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
 title: 'Adding Hospital Case'
 date: '2020-03-09T23:03:30.240Z'
-version: 36
+version: 38
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Adding Hospital Case'
@@ -34,21 +34,29 @@ By default, the Case section of encounters will display the following case types
 * Medical Suitability of Expatriate Assignment (MSEA)
 * Medical Surveillance
 
-![](adding-hospital-case.assets/10000201000004A400000102E8549FDCA2FE867C.png)
+
+![](../adding-hospital-case.assets/10000201000004A400000102E8549FDCA2FE867C.png)
+
 
 If you wish to document a new case, click the header or **Edit** (Pencil) icon of the **Case** section in the dynamic encounter.
 
-![](adding-hospital-case.assets/10000201000004A400000102E5623BD7A1337E27.png)
+
+![](../adding-hospital-case.assets/10000201000004A400000102E5623BD7A1337E27.png)
+
 
 Once the **Case** section is expanded, indicate which type of case to create on the chart by selecting the appropriate radio button. The type of case selected will determine other fields or radio button data to complete. Once you open/create a case, any documentation, encounter visit documentations, or the like can be linked to a specific case/incident the chart has had previously documented.
 
-![](adding-hospital-case.assets/10000201000004A7000000D039287E81C426AB92.png)
+
+![](../adding-hospital-case.assets/10000201000004A7000000D039287E81C426AB92.png)
+
 
 ## **Hospital Case Details**
 
 After selecting to create a Hospital case type, the only field that expands is the **Date and time** field, which is required as noted by the red asterisk, and is meant for documenting the onset date and time of the Hospital case/incident.
 
-![](adding-hospital-case.assets/10000201000004A7000000D02E41CC6A50E4DEC3.png)
+
+![](../adding-hospital-case.assets/10000201000004A7000000D02E41CC6A50E4DEC3.png)
+
 
 ### **Work Status (or Lost Time) Section**
 

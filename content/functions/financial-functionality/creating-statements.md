@@ -9,7 +9,7 @@ links:
   - 'closing-and-posting-transactions.md'
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 Before creating statements, [close and post transactions](closing-and-posting-transactions.md).
 1. [Find the employer organization](finding-employer-organizations.md) for which to create statements.

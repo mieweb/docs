@@ -6,6 +6,15 @@ mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:38.812Z'
 version: '70'
 fileMap:
+  system-specifications.md:
+    type: 'md'
+    id: '1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
+    title: 'System Specifications'
+    modifiedTime: '2022-08-30T20:37:23.397Z'
+    version: 30
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'system-specifications.md'
   intro-to-the-system.md:
     type: 'md'
     id: '1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
@@ -32,14 +41,6 @@ fileMap:
     version: 22
     mimeType: 'text/x-markdown'
     fileName: 'communications.md'
-  system-specifications.md:
-    type: 'md'
-    id: '1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
-    title: 'System Specifications'
-    modifiedTime: '2020-02-27T20:35:46.122Z'
-    version: 23
-    mimeType: 'text/x-markdown'
-    fileName: 'system-specifications.md'
   intro-to-the-system:
     type: 'directory'
     id: '1oSVs_5aBUxsRfUauSX-MPtJPyr4T3mqW'
@@ -53,7 +54,7 @@ fileMap:
     id: '1tqEOhPHt74pLMpsOkJ6BsNatBJPgq4Zy'
     title: 'Communications'
     modifiedTime: '2020-02-27T19:24:44.523Z'
-    version: 302
+    version: 304
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'communications'
   system-specifications:
@@ -64,4 +65,4 @@ fileMap:
     version: 61
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'system-specifications'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

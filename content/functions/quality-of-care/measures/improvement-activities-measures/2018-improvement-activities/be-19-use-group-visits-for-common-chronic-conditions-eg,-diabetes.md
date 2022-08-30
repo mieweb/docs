@@ -6,6 +6,6 @@ source: 'https://drive.google.com/open?id=1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6
 mimeType: 'text/x-markdown'
 url: 'be-19-use-group-visits-for-common-chronic-conditions-e.g.,-diabetes.md'
 redirectTo: '1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 Renamed to: [BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)](be-19-use-group-visits-for-common-chronic-conditions-e.g.,-diabetes.md)

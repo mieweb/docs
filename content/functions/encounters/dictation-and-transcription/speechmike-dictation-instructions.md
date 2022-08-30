@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'SpeechMike Dictation Instructions'
@@ -64,11 +64,15 @@ If your  {{% system-name %}}  system has the system setting *E-Chart*, *Dict
 
 {{% system-name %}}  automatically searches for tasks that the patient has requesting a dictation. If there are any, it will show those but will allow you to add a separate dictation. This is a double check incase you are adding dictation for the patient regarding something and there is already a task out there requesting the specific dictation.
 
-![](speechmike-dictation-instructions.assets/10000000000002C200000093147EDEBCB1A2F7E5.png)
+
+![](../speechmike-dictation-instructions.assets/10000000000002C200000093147EDEBCB1A2F7E5.png)
+
 
 A dictation box called **MIE Player** will pop-up on your screen. You can have it appear at any corner of your screen through the MY SETTINGS preference. It will have the patient's name in it and options to select Location, Priority and Job Type if your system is set up for those options.
 
-![](speechmike-dictation-instructions.assets/1000000000000200000000BD867A84FCD0D415D4.png)
+
+![](../speechmike-dictation-instructions.assets/1000000000000200000000BD867A84FCD0D415D4.png)
+
 
 Select LOCATION by using the drop-down arrow. Location would be where this patient had the appointment. Select PRIORITY by using the drop-down arrow. (if your company has priorities set up)
 
@@ -80,7 +84,9 @@ Select LOCATION by using the drop-down arrow. Location would be where this patie
 Select JOB TYPE by using the drop-down arrow. (if your company has job types set up) The drop-down arrow will describe your choices. It will also remember the last job type you selected.
 Push the RECORD button on the LFH5276 SpeechMike Pro. Or you can click the middle red circle button in the MIEPlayer box to start recording mode.
 
-![](speechmike-dictation-instructions.assets/1000000000000200000000CE0EC1CB2680074EE2.png)
+
+![](../speechmike-dictation-instructions.assets/1000000000000200000000CE0EC1CB2680074EE2.png)
+
 
 The MIEPlayer will show in a red bar that it is recording.
 Begin dictating by stating DOS, location, and other company required information into the SpeechMike and continue with dictation.
@@ -91,7 +97,9 @@ Click EOL (End of Letter) button on the LFH5276 SpeechMike to **upload the dict
 If you do **not** press the EOL button on the SpeechMike to upload (or don't click the floppy disk icon to upload) and you X out of the MIEPlayer, it does not save any dictation.
 **SpeechMike LFH5276 Pro Buttons:**
 
-![](speechmike-dictation-instructions.assets/10000000000001F4000001D0BBBED5F4B96CA86B.png)
+
+![](../speechmike-dictation-instructions.assets/10000000000001F4000001D0BBBED5F4B96CA86B.png)
+
 
 FI, F2, F3, F4 buttons on the LFH5276 SpeechMike Pro can be programmed by MIE to perform certain shortcut functions. Example: F4 could be programmed to Sign and Close, F2 & F3 could be programmed to function as forward and backspace arrows on the current toolbar, etc. Example:
 * Upper left - "Sign as Preliminary"
@@ -102,7 +110,9 @@ Trigger on the backside of the SpeechMike – "enter button.
 
 The trigger button underneath the SpeechMike Pro can be programmed to be an "enter" button.
 
-![](speechmike-dictation-instructions.assets/1000000000000172000000F52C836DB81672D8A5.png)
+
+![](../speechmike-dictation-instructions.assets/1000000000000172000000F52C836DB81672D8A5.png)
+
 
 After you have uploaded your dictation, the MIEPlayer will close out automatically.
 You can now do another dictation by following the above steps again, or search for another patient in the E-Chart left sidebar menu and do a dictation for another patient that you search for.
@@ -118,11 +128,15 @@ When in the Scheduler, click the **Add Dictation** link from the patient's app
 Follow the previous steps in ‘Dictate from Patient's E-Chart'.
 {{% system-name %}}  automatically searches for tasks that the patient has requesting a dictation. If there are any, it will show those but will allow you to add a separate dictation. This is a double check incase you are adding dictation for the patient regarding something and there is already a task out there requesting the specific dictation.
 
-![](speechmike-dictation-instructions.assets/100000000000031E00000145FF4A1F36DA5F9C17.png)
+
+![](../speechmike-dictation-instructions.assets/100000000000031E00000145FF4A1F36DA5F9C17.png)
+
 
 When done dictating for a patient from the Scheduler view and after you upload it, it will automatically insert the Dictation ID number next to the **Add Dictation** link. The Scheduler screen will stay appearing and you can continue to another patient if wish.
 
-![](speechmike-dictation-instructions.assets/100000000000031B00000120CA0B589F3AB321AD.png)
+
+![](../speechmike-dictation-instructions.assets/100000000000031B00000120CA0B589F3AB321AD.png)
+
 
 
 ### Dictate from Scheduler Using Dictate Day Option
@@ -131,7 +145,9 @@ Click the *Scheduler* left sidebar tab.
 Find the specific day and correct resource (physician, etc) you wish to dictate on.
 Click the **Dictate Day** link found towards the top of the Scheduler screen. The MY SETTINGS preference to ‘dictate day' must be set to Yes for this link to appear on your view.
 
-![](speechmike-dictation-instructions.assets/1000000000000364000001221296AB7DC8FE0AF1.png)
+
+![](../speechmike-dictation-instructions.assets/1000000000000364000001221296AB7DC8FE0AF1.png)
+
 
 Dictate day will allow you to dictate all patients in this day's schedule. It automatically skips any patient that already has dictation tied to their specific appointment date.
 Click **Dictate Day** to go through all **un-dictated** patients and add dictation in schedule order. It will automatically pop-up the MIEPlayer with the first patient name in the scheduler view. Dictate then **upload** the dictation for that patient. After you upload, the next patient on the schedule will pop-up in the MIEPlayer to dictate for. If you do not want to dictate for a specific patient that pops-up in MIEPlayer, then close the window by X out the MIEPlayer box. It will then skip that particular patient and pop-up the next patient in the schedule order.
@@ -142,11 +158,15 @@ When you skip a patient, it considers it still as **un-dictated**. When you ref
 **The dictation will *not* be tied to a patient's E-Chart**
 You can add a dictation without being in a specific patient's account. This dictation would show up for transcriptionist to do, but it would not be tied to a patient's account or patient's name. You would have to dictate verbally the patient, account # and any other information for the transcriptionist to complete and upload into a patient's chart. You can however manually search and tag the patient's name and/or birthdate to the dictation by using the auto-complete fields in MIE Player when it opens.
 
-![](speechmike-dictation-instructions.assets/10000000000003B2000000C34A6672B945003424.png)
+
+![](../speechmike-dictation-instructions.assets/10000000000003B2000000C34A6672B945003424.png)
+
 
 The dictation box called MIE Player will pop-up on the on the screen. It will not have a patient's name in it, so it will not attach the dictation to any patient's chart. However, it does provide a Patient field if you wish to search for the patient to attach this dictation to.
 
-![](speechmike-dictation-instructions.assets/10000000000001FA000000DDB2A86CDCB558BB5C.png)
+
+![](../speechmike-dictation-instructions.assets/10000000000001FA000000DDB2A86CDCB558BB5C.png)
+
 
 **D.O.B**. – can type the date of birth entry when a patient is not given. You would still dictate/voice the patient's name if applicable.
 Select **PRIORITY** by using the drop-down arrow.
@@ -169,13 +189,31 @@ After uploading, it then says *File uploaded successfully. (Record to begin ano
 ## MIE Player
 
 **Figure 1: MIE Player Buttons:**
-![](speechmike-dictation-instructions.assets/100000000000014C000000D7BD310E619224B2F1.png)
-![](speechmike-dictation-instructions.assets/10000200000000190000001964356F5CDC2C66FA.png) = rewind dictation all the way to the very beginning/start
-![](speechmike-dictation-instructions.assets/1000020000000019000000190824265BE20477E0.png) = rewind dictation back in 1 minute increments
-![](speechmike-dictation-instructions.assets/100002000000001900000019D9708F6B9F99747D.png) = play
-![](speechmike-dictation-instructions.assets/1000020000000019000000193F5B515CF3510998.png) = record
-![](speechmike-dictation-instructions.assets/1000020000000019000000198C20035BBE556237.png) = stop
-![](speechmike-dictation-instructions.assets/1000020000000019000000190D27A0FE5FE7B5E3.png) = fast forward dictation in 1 minute increments
-![](speechmike-dictation-instructions.assets/100002000000001900000019B3C477C6294DEF61.png) = fast forward dictation to the very end
-![](speechmike-dictation-instructions.assets/100002000000001900000019922E981F4D868C7A.png) = upload dictation into  {{% system-name %}} system
+
+![](../speechmike-dictation-instructions.assets/100000000000014C000000D7BD310E619224B2F1.png)
+
+
+![](../speechmike-dictation-instructions.assets/10000200000000190000001964356F5CDC2C66FA.png)
+ = rewind dictation all the way to the very beginning/start
+
+![](../speechmike-dictation-instructions.assets/1000020000000019000000190824265BE20477E0.png)
+ = rewind dictation back in 1 minute increments
+
+![](../speechmike-dictation-instructions.assets/100002000000001900000019D9708F6B9F99747D.png)
+ = play
+
+![](../speechmike-dictation-instructions.assets/1000020000000019000000193F5B515CF3510998.png)
+ = record
+
+![](../speechmike-dictation-instructions.assets/1000020000000019000000198C20035BBE556237.png)
+ = stop
+
+![](../speechmike-dictation-instructions.assets/1000020000000019000000190D27A0FE5FE7B5E3.png)
+ = fast forward dictation in 1 minute increments
+
+![](../speechmike-dictation-instructions.assets/100002000000001900000019B3C477C6294DEF61.png)
+ = fast forward dictation to the very end
+
+![](../speechmike-dictation-instructions.assets/100002000000001900000019922E981F4D868C7A.png)
+ = upload dictation into  {{% system-name %}} system
 You cannot edit dictation done and uploaded. You would dictate a separate note/file stating the correction, etc. You could create a separate work type for "correction" and task upon "dictation add" for that worktype, etc.

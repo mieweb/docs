@@ -2,7 +2,7 @@
 id: '19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
 title: 'Review Session - Fax Manager'
 date: '2020-02-27T21:25:58.999Z'
-version: 30
+version: 32
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - '../../functions/fax-manager/faxing-documents.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=512d4a650f5972363795065eb10926cb'
 source: 'https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Review Session - Fax Manager'
@@ -60,23 +60,35 @@ Faxing information from the {{% system-name %}} system can be done on an individ
 ### Fax Dialogue Window
 
 To open a Fax Dialogue window and fax a document, simply click **Fax** when in the specific document needing sent.
-![](review-session-fax-manager.assets/10000201000004E500000063DF2F9C269D26FB6A.png)
+
+![](../review-session-fax-manager.assets/10000201000004E500000063DF2F9C269D26FB6A.png)
+
 Or if several documents are being sent and a fax batch is needed, simply indicate which documents need added to the batch using the **Batch** links from the Documents chart tab list view. Once all documents have been batched, click the **Fax** link from the Batch toolbar, found at the top of the screen.
-![](review-session-fax-manager.assets/10000201000004C2000001794C61C34B63C5FC64.png)
+
+![](../review-session-fax-manager.assets/10000201000004C2000001794C61C34B63C5FC64.png)
+
 Clicking any of these links will open a standard Print Dialogue window, which includes a *Fax* section. This window and section may also be accessed by clicking a **Print** link from anywhere in the system and simply changing the *Sent To* selection to **Fax**. The window will update accordingly.
 
 #### Modes
 
 The Fax section of the Print Dialogue window has various fields to be filled out, dependent upon the *mode* selected (i.e., User, Manual, or Chart).
-![](review-session-fax-manager.assets/1000020100000225000000ABD5DA24A4B8950527.png)
+
+![](../review-session-fax-manager.assets/1000020100000225000000ABD5DA24A4B8950527.png)
+
 **User**: The *User* mode displays any established departments and users, so that users may fax directly from the {{% system-name %}} system to internal departments/users, reducing printing costs and streamlining the faxing process.
 **Manual**: The *Manual* mode is used when faxing to an outside resource, or individual/location, that does not already exist in the {{% system-name %}} system. Manual mode can be used anytime, to fax anyone. Simply type in the **Name** of the outside resource being faxed. To fax the same document(s) to multiple individuals or locations, finish typing in the **Fax #** with area code, and click the **Add** button. This will populate the first recipient at the top of the section and allow additional recipients to be added, as needed. To remove a recipient, simply click the **X** button.
-![](review-session-fax-manager.assets/1000020100000226000000F38B710C126BC5AC2D.png)
+
+![](../review-session-fax-manager.assets/1000020100000226000000F38B710C126BC5AC2D.png)
+
 {{% tip %}}
 
-To enter an international number, simply type a plus sign ![](review-session-fax-manager.assets/1000020100000001000000014C77D75F6DC67A52.png) followed by the international number. The plus sign will disable automatic formatting in the Fax # field, therefore if it is not included before the number, standard US formatting will still be applied (###) ###-####.
+
+To enter an international number, simply type a plus sign ![](../review-session-fax-manager.assets/1000020100000001000000014C77D75F6DC67A52.png)
+ followed by the international number. The plus sign will disable automatic formatting in the Fax # field, therefore if it is not included before the number, standard US formatting will still be applied (###) ###-####.
 {{% /tip %}}
-**Chart**: The *Chart* mode allows faxing to numbers stored in any {{% system-name %}} charts. Any chart with a fax number provided may be selected for faxing, giving users the ability to fax documents to specific individuals, or any entity, based on the chart type (e.g., Patient, PO, EO, EPM, etc). Using the **Name** field, begin typing the last name or organization name, or if the MRN is known, begin the entry with a question mark ![](review-session-fax-manager.assets/1000020100000001000000012C0265FEAAFA8174.png) and continue entering the MRN. If a name or organization does not appear for autocomplete, that indicates a fax number has not been provided in the chart.
+**Chart**: The *Chart* mode allows faxing to numbers stored in any {{% system-name %}} charts. Any chart with a fax number provided may be selected for faxing, giving users the ability to fax documents to specific individuals, or any entity, based on the chart type (e.g., Patient, PO, EO, EPM, etc). Using the **Name**
+ field, begin typing the last name or organization name, or if the MRN is known, begin the entry with a question mark ![](../review-session-fax-manager.assets/1000020100000001000000012C0265FEAAFA8174.png)
+ and continue entering the MRN. If a name or organization does not appear for autocomplete, that indicates a fax number has not been provided in the chart.
 {{% info %}}
 
 The {{% system-name %}} system automatically remembers the last person/dept faxed, based on the logged-in user.
@@ -95,7 +107,9 @@ The [Fax Manager](https://system/?f=admin&t=faxman) provides a dashboard for us
 ### System-Delivered Email Notifications
 
 {{% system-name %}} has a feature that will notify users of successful or failed fax transmissions. This feature is enabled, by default; however users must have a valid email address provided in their user account in order to receive any email notifications.
-![](review-session-fax-manager.assets/10000201000001FD0000005E20ADF23A186C3217.png)
+
+![](../review-session-fax-manager.assets/10000201000001FD0000005E20ADF23A186C3217.png)
+
 The *Friendly e-mail to user upon successful fax* system setting is user-specific, meaning the user sending the fax will be the recipient of the system-delivered email notification. Though the Fax Manager is always available for viewing failed and successful faxes, all email notifications send immediately, upon completion or failure.
 Additionally, a [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preference drives what email notifications the logged-in user will receive. The **Send Fax Notifications** preference is defaulted to *Both*, but can be updated *Send*, *Failed*, or *None*. Every user has the ability to set their own preference.
 **Both**: An email notification is sent for each successful and unsuccessful fax.

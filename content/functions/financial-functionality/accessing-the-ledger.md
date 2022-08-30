@@ -8,9 +8,11 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) of the ledger to access.
 2. Select the <strong>Accounting</strong> tab. A menu appears. From the menu, select <strong>Ledger</strong>. The ledger appears.
 
-![](accessing-the-ledger.assets/10000000000000CB000000952D761ED0353F51F1.png)
+
+![](../accessing-the-ledger.assets/10000000000000CB000000952D761ED0353F51F1.png)
+

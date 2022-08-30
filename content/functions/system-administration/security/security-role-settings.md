@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Security Role Settings'
@@ -28,7 +28,9 @@ Click Control Panel tab from left sidebar menu.
 Click Security Role Editor tab from top menu.
 Select the security role that you wish to change security settings for by clicking edit to the right of the department security role name.
 
-![](security-role-settings.assets/100002010000054C0000015BDF3BA42AC17FB978.png)
+
+![](../security-role-settings.assets/100002010000054C0000015BDF3BA42AC17FB978.png)
+
 
 At the top it will display which security role you are in for editing.  It also states the number of current users in this role. Click the view revision history for … to view revisions previously done to this security role.  This opens up a new window and you can search for revision details.  This is also the same link named Revisions that is provided in the prior listing of security roles options column.
 Change any security settings by using the drop-down arrow in the field(s).   
@@ -37,11 +39,15 @@ Change any security settings by using the drop-down arrow in the field(s).   
 Security setting changes being made to the security role here, affect every user that is tied to the security role being edited.
 {{% /note %}}
 
-![](security-role-settings.assets/1000020100000473000000B6F671B607D8570074.png)
+
+![](../security-role-settings.assets/1000020100000473000000B6F671B607D8570074.png)
+
 
 When finished changing any security settings for the entire role, scroll down to the bottom of this security role edit screen.  At the very bottom there is a text field where you are required to type in the reason for the security permission change(s).  You have to type something in here or it will not save your edits.  Then, click the Update Individual Security button below that.  It then saves these security settings for this individual user only.  These changes do not affect the entire security role, just this individual user.
 
-![](security-role-settings.assets/100002010000011D0000007F1965DD037B61A2B5.png)
+
+![](../security-role-settings.assets/100002010000011D0000007F1965DD037B61A2B5.png)
+
 
 You will then get a confirmation message that you successfully edited/updated that entire security role.   You can select another security role department to change or continue to work in {{% system-name %}} .
 
@@ -52,19 +58,27 @@ Select Control on left sidebar menu.
 Select Access Control from the top tab menu.
 Search for the specific user from Access Control using various search methods available.
 
-![](security-role-settings.assets/10000201000004C2000000FF0CCA0D39E718B927.png)
+
+![](../security-role-settings.assets/10000201000004C2000000FF0CCA0D39E718B927.png)
+
 
 Once the specific user has been located, click Edit on their user line at the far right.
 
-![](security-role-settings.assets/10000201000004C2000000FFCD79A05CADD1380F.png)
+
+![](../security-role-settings.assets/10000201000004C2000000FFCD79A05CADD1380F.png)
+
 
 After clicking Edit, the system takes you to the edit screen of their user details. Click Customize User Security hyperlink at the top right of the edit user screen.
 
-![](security-role-settings.assets/10000201000004B1000000B1A7AC62CF2D546B33.png)
+
+![](../security-role-settings.assets/10000201000004B1000000B1A7AC62CF2D546B33.png)
+
 
 The Individual Security settings screen for that user will open. Select any security settings to change (for this specific user) by using the drop-downs in any security permission setting. When finished changing any security settings for the specific user, scroll down to the bottom of the individual security edit screen.  At the very bottom there is a text box field where you are required to type in the reason for the security permission change(s). You have to type something in here or it will not save your edits. Then, click the Update Individual Security button below that. System will then save these security settings for this individual user only.  The changes done here for individual user do not affect the entire security role, just this individual user.
 
-![](security-role-settings.assets/100002010000046C000001DE3B7C1A85147F69AB.png)
+
+![](../security-role-settings.assets/100002010000046C000001DE3B7C1A85147F69AB.png)
+
 
 
 ## **Summary of Security Role Settings**
@@ -488,7 +502,9 @@ The Individual Security settings screen for that user will open. Select any secu
 * Bill Time: Yes allows users to visibly see the Bill Time button and perform that function from the provider org (PO) chart in the Location Time Tracking tab.
 When done making changes to security permissions, you must type in a reason for the change.  You cannot update or save the changes without typing in the reason.
 
-![](security-role-settings.assets/100002010000013C00000083C24DCBBA9E9D4918.png)
+
+![](../security-role-settings.assets/100002010000013C00000083C24DCBBA9E9D4918.png)
+
 
 To save the settings, click Update Role at bottom of the screen if editing settings for entire security role.
 Or click Update Individual Security at the bottom of the screen if editing settings for a specific individual user.

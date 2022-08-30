@@ -21,7 +21,7 @@ links:
   - 'https://system/?f=admin&s=work_locations&opp=work_regions&work_regions_show_active=1'
   - 'https://system/?f=admin&s=work_locations&opp=work_sites&work_sites_show_active=1'
 source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Locations Management'
@@ -34,12 +34,16 @@ The {{% system-name %}} solution allows varying degrees of customization with re
 ## Locations Manager
 
 With the necessary security permissions to manage locations, the [Locations Manager](https://system/?f=chart&s=leditor) chart tab, found within the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin), allows adding, editing, and deactivating of locations. The locations found here are the areas the practices utilize for any and all aspects of the delivery of care. Some examples of locations are any facilities or sites an appointment needs scheduled for, any locality needing associated with created documents, or any places at which services are provided. Locations should also be entered for any sites at which physicians may practice, perform surgeries, or round. Another type of location to consider is an affiliated or referring site, such as locations that provide results (e.g., labs and lab interfaces) or receive referrals (e.g., x-ray, lab draw, consult, etc.).
-![](locations-management.assets/1000020100000556000001715EC5688201B59A69.png)
+
+![](../locations-management.assets/1000020100000556000001715EC5688201B59A69.png)
+
 
 ### Utilization & Initial Use
 
 In order to use the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) chart tab, a user must have either the **Add** or **Edit** security setting for the **E-Chart: Manage Locations** security option. With this setting appropriately enabled, clicking the tab will display all active locations set up within the system. Some locations may have been entered by an an Implementer; however, any and all locations, can be manually added, edited, or deactivated from this screen.
-![](locations-management.assets/100002010000055A0000014D3BCE853D7E7DD316.png)
+
+![](../locations-management.assets/100002010000055A0000014D3BCE853D7E7DD316.png)
+
 Upon accessing a new {{% system-name %}} database with no locations previously added, a default location will always display, with the code **OFFICE** and the description of **Corporate Office** or **Office**. Use this entry as the primary location for the organization. To view and update:
 1. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin), from the left sidemenu.
 2. Click the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) tab.
@@ -47,7 +51,9 @@ Upon accessing a new {{% system-name %}} database with no locations previously a
 4. Update the appropriate fields to reflect the organization's primary office description, address, and phone/fax information.
 5. Click the <strong>Modify</strong> button to submit the changes.
 6. A confirmation message will display at the top of the page.
-![](locations-management.assets/10000201000004BD000001EBF904EF70C049E5C9.png)
+
+![](../locations-management.assets/10000201000004BD000001EBF904EF70C049E5C9.png)
+
 Additional locations can be added after the primary location has been edited and updated to reflect the appropriate location information.
 
 #### Add/Edit/Deactivate Locations
@@ -73,7 +79,9 @@ To **add** a new location to the  {{% system-name %}}  solution:
 
 
 Once all fields have been provided for, as necessary, click the **Add** button to submit the location to the system. A confirmation message will display at the top of the page.
-![](locations-management.assets/10000201000004BD000001EE074E9CD46B2BF11A.png)
+
+![](../locations-management.assets/10000201000004BD000001EE074E9CD46B2BF11A.png)
+
 **Edit Locations**
 {{% note %}}
 
@@ -108,13 +116,17 @@ The required location must be set to **Active = Yes** and *either* **Outside
 {{% info %}}
 
 When editing a location, an alert will appear at the bottom of the screen, stating how many documents use this location and that they will be updated upon submission.
-![](locations-management.assets/10000201000004BD000001EB1E5DFB6CE9C8FAE0.png)
+
+![](../locations-management.assets/10000201000004BD000001EB1E5DFB6CE9C8FAE0.png)
+
 {{% /info %}}
 **Deactivate Locations**
 Only locations no longer being used should ever be deactivated. To **deactivate** a location:
 1. Click the <strong>De-Activate</strong> link in the Options column of the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager).
 2. Once the De-Activate link is clicked, a <em>Confirm De-Activate</em> page will load. This confirmation will also show how many documents use this location and that they will be updated upon acceptance.
-![](locations-management.assets/10000201000004C0000002503CD525293693AD1A.png)
+
+![](../locations-management.assets/10000201000004C0000002503CD525293693AD1A.png)
+
 3. Click the <strong>De-Activate</strong> button.
 4. A confirmation message will display at the top of the page.
 
@@ -129,9 +141,13 @@ Deactivated and outside locations do not display in the table on the Locations M
 If a location was deactivated or set as outside, or external, use the links provided in the upper-right corner of the Locations Manager summary page:
 * [Show Outside Locations](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&outsideloc=1)
 * [Show Deactivated](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&outsideloc=1&deactivated=1)
-![](locations-management.assets/10000201000004BE0000015039AE25A5BF175B6C.png)
+
+![](../locations-management.assets/10000201000004BE0000015039AE25A5BF175B6C.png)
+
 There is also a search filter available in the Locations Manager to help search and find a specific location, if necessary. This is particularly helpful when there is an abundance of locations in the system.
-![](locations-management.assets/10000201000004BE0000015093212875B5672ADC.png)
+
+![](../locations-management.assets/10000201000004BE0000015093212875B5672ADC.png)
+
 
 ## Work Location Management
 

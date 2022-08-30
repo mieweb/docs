@@ -11,7 +11,7 @@ links:
   - 'editing-demographics.md'
   - 'insurance-summary-in-demographics-tab.md'
 source: 'https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Demographics Tab Summary'
@@ -21,19 +21,25 @@ menu:
 ---
 To navigate to the patient **Demographics** chart tab, search for the chart from the [E-Chart](https://system/?f=chart) sidemenu. Get into the chart, and click on the **Admin** chart tab. Demographics is available as a subtab of the Admin chart tab.
 
-![](demographics-tab-summary.assets/1000020100000546000001B7DEB9F1B39B7CA6F5.png)
+
+![](../demographics-tab-summary.assets/1000020100000546000001B7DEB9F1B39B7CA6F5.png)
+
 
 The Demographics chart tab displays a dark grey header that will contain the name, chart status, age, date of birth, sex, home phone number, next appointment information, along with the medical record number.  
 {{% info %}}
 
 The dark grey demographics header will display on all tabs when in the chart, not just the Demographics chart tab.
 
-![](demographics-tab-summary.assets/10000201000004AD000001314C3FC34CFEA2804B.png)
+
+![](../demographics-tab-summary.assets/10000201000004AD000001314C3FC34CFEA2804B.png)
+
 
 {{% /info %}}
 Following the demographics header are any alerts entered into the chart, displayed in red. Also following the demographics chart tab header are quick links to allow users the ability to perform various functions, specific to the chart in context, such as adding an appointment, adding a task, creating an order, etc.
 
-![](demographics-tab-summary.assets/10000201000004AD000001312FBEB7A216AE29C2.png)
+
+![](../demographics-tab-summary.assets/10000201000004AD000001312FBEB7A216AE29C2.png)
+
 
 The next section on the Demographic chart tab is the brief medical header which lists the allergies, current medications, and current conditions. This area is driven by [My Settings](https://system/) preferences.
 Following the medical header, users can utilize the remaining quick links to perform functions such as checking in the patient (**Checkin**), editing demographics (**Edit Demo**), seeing revisions to the chart demographics (**Patient Revisions**), or **Add Alert Comments**.
@@ -46,8 +52,12 @@ The demographics chart tab contains demographic information, marital/contact inf
 Once the new photo is uploaded, it will replace the existing/previous photo. The existing/previous photo will be stored as a document in the patient chart. Users can scan drivers' licenses to use as patient photos, if desired.  Users will need to access the Add Document screen and select **E-Chart Scan** for the picture-add method, instead.
 The ability to edit relationships, set the chart to offline, partial or online along with adding chart comments, hide/display providers linked to the patient, add insurance, show or hide inactive insurance information is also provided in the demographics summary tab.  Please refer to [Insurance Summary-Demographics Tab](insurance-summary-in-demographics-tab.md) help documentation for more details.
 
-![](demographics-tab-summary.assets/1000020100000640000002257565D0EE3117685E.png)
+
+![](../demographics-tab-summary.assets/1000020100000640000002257565D0EE3117685E.png)
+
 
 Users also have the ability to merge duplicate charts from the demographics chart tab. If the system finds a possible duplicate chart based on matching demographics, the possible duplicate chart(s) will display information such as  chart name, date of birth, and match rating. Users should open/display the chart that they wish to keep. Then, either checkmark the **Select** box for the appropriate chart *that should be merged* or click the **Manual Search** link to manually search for the chart that should be merged with the current one.
 
-![](demographics-tab-summary.assets/1000020100000640000000CCB12F6A1A4A90D79B.png)
+
+![](../demographics-tab-summary.assets/1000020100000640000000CCB12F6A1A4A90D79B.png)
+

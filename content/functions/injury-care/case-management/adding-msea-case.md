@@ -2,13 +2,13 @@
 id: '1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI'
 title: 'Adding MSEA Case'
 date: '2020-03-09T23:04:49.437Z'
-version: 34
+version: 36
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Adding MSEA Case'
@@ -35,21 +35,29 @@ By default, the Case section of encounters will display the following case types
 * Medical Suitability for Expatriate Assignment (MSEA)
 * Medical Surveillance
 
-![](adding-msea-case.assets/10000201000004A400000102E8549FDCA2FE867C.png)
+
+![](../adding-msea-case.assets/10000201000004A400000102E8549FDCA2FE867C.png)
+
 
 If you wish to document a new case, click the header or **Edit** (Pencil) icon of the **Case** section in the dynamic encounter.
 
-![](adding-msea-case.assets/10000201000004A400000102E5623BD7A1337E27.png)
+
+![](../adding-msea-case.assets/10000201000004A400000102E5623BD7A1337E27.png)
+
 
 Once the **Case** section is expanded, indicate which type of case to create on the chart by selecting the appropriate radio button. The type of case selected will determine other fields or radio button data to complete. Once you open/create a case, any documentation, encounter visit documentations, or the like can be linked to a specific case/incident the chart has had previously documented.
 
-![](adding-msea-case.assets/10000201000004B3000000BEAE20678052E2F410.png)
+
+![](../adding-msea-case.assets/10000201000004B3000000BEAE20678052E2F410.png)
+
 
 ## **MSEA Case Details**
 
 After selecting to create a MSEA case type, the only field that expands is the **Date and time** field, which is required as noted by the red asterisk, and is meant for documenting the onset date and time of the case/incident.
 
-![](adding-msea-case.assets/10000201000004B3000000BE9AB8A19C38F131C3.png)
+
+![](../adding-msea-case.assets/10000201000004B3000000BE9AB8A19C38F131C3.png)
+
 
 
 ### **Work Status (or Lost Time) Section**

@@ -2,7 +2,7 @@
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
 date: '2020-02-27T21:24:54.640Z'
-version: 54
+version: 56
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -45,7 +45,7 @@ links:
   - '../../functions/encounters/encounter-summary-toolbar.md'
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Review Session - Encounter Workflow'

@@ -4,14 +4,14 @@ title: 'Case Management'
 fileName: 'case-management'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:25:01.248Z'
-version: '302'
+version: '304'
 fileMap:
   adding-absence-management-case.md:
     type: 'md'
     id: '1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
     title: 'Adding Absence Management Case'
     modifiedTime: '2021-09-30T18:35:29.344Z'
-    version: 140
+    version: 142
     mimeType: 'text/x-markdown'
     lastAuthor: 'Alice Uhrick'
     fileName: 'adding-absence-management-case.md'
@@ -20,7 +20,7 @@ fileMap:
     id: '1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
     title: 'Deleting an Existing Case'
     modifiedTime: '2020-03-13T13:47:35.461Z'
-    version: 48
+    version: 50
     mimeType: 'text/x-markdown'
     lastAuthor: ''
     fileName: 'deleting-an-existing-case.md'
@@ -29,7 +29,7 @@ fileMap:
     id: '1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
     title: 'Closing an Existing Case'
     modifiedTime: '2020-03-13T13:45:11.738Z'
-    version: 40
+    version: 42
     mimeType: 'text/x-markdown'
     lastAuthor: ''
     fileName: 'closing-an-existing-case.md'
@@ -38,7 +38,7 @@ fileMap:
     id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
     title: 'Adding OSHA Case'
     modifiedTime: '2020-03-13T13:18:41.709Z'
-    version: 69
+    version: 71
     mimeType: 'text/x-markdown'
     lastAuthor: ''
     fileName: 'adding-osha-case.md'
@@ -47,7 +47,7 @@ fileMap:
     id: '1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs'
     title: 'Adding Non-OSHA Case'
     modifiedTime: '2020-03-13T13:16:54.123Z'
-    version: 48
+    version: 50
     mimeType: 'text/x-markdown'
     lastAuthor: ''
     fileName: 'adding-non-osha-case.md'
@@ -56,7 +56,7 @@ fileMap:
     id: '1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
     title: 'Viewing Cases'
     modifiedTime: '2020-03-09T23:22:52.265Z'
-    version: 45
+    version: 47
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'viewing-cases.md'
@@ -65,7 +65,7 @@ fileMap:
     id: '1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI'
     title: 'Adding MSEA Case'
     modifiedTime: '2020-03-09T23:04:49.437Z'
-    version: 34
+    version: 36
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'adding-msea-case.md'
@@ -74,8 +74,8 @@ fileMap:
     id: '1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
     title: 'Adding Hospital Case'
     modifiedTime: '2020-03-09T23:03:30.240Z'
-    version: 36
+    version: 38
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'adding-hospital-case.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

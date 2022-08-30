@@ -4,7 +4,7 @@ title: '2018 Improvement Activities'
 fileName: '2018-improvement-activities'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:55.775Z'
-version: '294'
+version: '296'
 fileMap:
   pspa-9-completion-of-the-ama-steps-forward-program.md:
     type: 'md'
@@ -372,7 +372,7 @@ fileMap:
     id: '1AItULVTpRM4B-5o5xvsQ-7q_IhdY6sRCVtwmhcUt75A'
     title: 'EPA 2 - Use of Telehealth Services that Expand Practice Access'
     modifiedTime: '2020-02-27T20:52:40.744Z'
-    version: 16
+    version: 19
     mimeType: 'text/x-markdown'
     fileName: 'epa-2-use-of-telehealth-services-that-expand-practice-access.md'
   cc-9-implementation-of-practices-processes-for-developing-regular-individual-care-plans.md:
@@ -897,4 +897,4 @@ fileMap:
     version: 16
     mimeType: 'text/x-markdown'
     fileName: 'ahe-1-engagement-of-new-medicaid-patients-and-follow-up.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

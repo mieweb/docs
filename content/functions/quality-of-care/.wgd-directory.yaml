@@ -4,8 +4,17 @@ title: 'Quality of Care'
 fileName: 'quality-of-care'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:50.847Z'
-version: '307'
+version: '309'
 fileMap:
+  create-file-for-submission.md:
+    type: 'md'
+    id: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
+    title: 'Create File for Submission'
+    modifiedTime: '2022-08-30T23:05:44.234Z'
+    version: 30
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'create-file-for-submission.md'
   quality-reporting-enrollment.md:
     type: 'md'
     id: '1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
@@ -32,20 +41,12 @@ fileMap:
     version: 17
     mimeType: 'text/x-markdown'
     fileName: 'provider-quality-of-care-status.md'
-  create-file-for-submission.md:
-    type: 'md'
-    id: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
-    title: 'Create File for Submission'
-    modifiedTime: '2020-02-27T20:43:35.135Z'
-    version: 20
-    mimeType: 'text/x-markdown'
-    fileName: 'create-file-for-submission.md'
   measures:
     type: 'directory'
     id: '1kkI0MFLFMKd1y0GVy0oNI7xt1qNzoEds'
     title: 'Measures'
     modifiedTime: '2020-02-27T19:24:52.179Z'
-    version: 308
+    version: 310
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'measures'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

@@ -6,7 +6,7 @@ version: 20
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'E-Refills - E-Scripts Tab'
@@ -14,7 +14,8 @@ menu:
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
     weight: 2110
 ---
-![](e-refills-e-scripts-tab.assets/1000020100000263000000CFC1AF416F06CC8E72.png)
+![](../e-refills-e-scripts-tab.assets/1000020100000263000000CFC1AF416F06CC8E72.png)
+
 * <strong>New Scripts – Sent:</strong> Shows all the scripts that were transmitted successfully.
 * <strong>New Scripts – Error:</strong> Shows any scripts that have an error. Sometimes the error message makes sense, others are blank. Would need to contact George at MIE if need specifics on one.
 * <strong>New Scripts-Pending Pharmacy Verification:</strong> That means the pharmacy system never sent us an acknowledgment that they received the message.  Some pharmacies send an acknowledgment as an immediate reply, and others reply instead with a message that is essentially an IOU, that they promise they'll send us a message later telling us that they got it, or a message that there was an error.  When things show in this list for a long time, that means those pharmacies broke their promise, basically.  In these cases, the prescriber cannot be 100% sure that the script was delivered.

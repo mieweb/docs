@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-system-administration.md'
 source: 'https://drive.google.com/open?id=1NmvnJfchSVK7KFPNzGUgyLEjKYj7HkIvNRF52SS1J-k'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'System Admin'

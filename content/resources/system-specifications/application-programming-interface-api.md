@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2020-02-27T21:26:23.076Z'
-version: 33
-lastAuthor: 'aquandt'
+date: '2022-08-30T20:43:59.305Z'
+version: 40
+lastAuthor: 'Will Reiske'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
@@ -21,7 +21,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Application Programming Interface (API)'
@@ -33,38 +33,36 @@ menu:
 
 ## Introduction
 
-With {{% system-name %}} , you can augment the system and layer in configuration to support almost any workflow or process–migrate meaningful data from legacy applications; interface intelligently with HR systems, email applications, labs, and medical devices; experience no concerns about sharing data across the solution, and no barriers aggregating data from multiple sources. This document provides an overview of the framework that drives these accomplishments. Explore the {{% system-name %}}  API, below. Though any coding language may be used, the following example is written in python:
+With {{% system-name %}}, you can augment the system and layer in configuration to support almost any workflow or process–migrate meaningful data from legacy applications; interface intelligently with HR systems, email applications, labs, and medical devices; experience no concerns about sharing data across the solution, and no barriers aggregating data from multiple sources. 
+
+This document provides an overview of the framework that drives these accomplishments. 
+
+Explore the {{% system-name %}} API, below. 
+
+Though any coding language may be used, the following example is written in python:
 [https://github.com/mieweb/wcexport/blob/master/wcjson.py](https://github.com/mieweb/wcexport/blob/master/wcjson.py)
-Interactive, dynamic documentation of the {{% system-name %}}  API can be found inside the product. Navigate to the API tab of the Control Panel for full visibility of the various objects and their APIs.
+
+Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel for full visibility of the various objects and their APIs.
 
 ## Session Establishment
 
-Command-line:
 
-
-```
-
+### Command-line
 
 {{% pre language="bash" theme="RDark" %}}
+```
 
 
 curl WEBCHARTURL?login_user=USERNAME&login_passwd=PASSWORD
 
-
-
 {{% /pre %}}
 
-
-
-
-```
-Python example:
-
-
 ```
 
+### Python example
 
 {{% pre language="py" theme="RDark" %}}
+```
 
 
 out = urllib2.urlopen(URL, urllib.urlencode({
@@ -73,16 +71,10 @@ out = urllib2.urlopen(URL, urllib.urlencode({
 }))
 COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
 
-
-
 {{% /pre %}}
-
-
-
 
 ```
 {{% info %}}
-
 COOKIE represents the session and is sent in the response.
 {{% /info %}}
 
@@ -123,7 +115,6 @@ Overall, this document is intended to comply with the established criteria laid 
 
 {{% pre language="py" theme="RDark" title="Patients Example" %}}
 
-
 requests = {
   'Last Name LIKE "Hart"': 'GET/db/patients/LIKE_last_name=Hart',
   'Last Name LIKE "Pregnant"': 'GET/db/patients/LIKE_last_name=Pregnan',
@@ -138,11 +129,7 @@ js = json.load(
   })))
 print(json.dumps(js))
 
-
-
 {{% /pre %}}
-
-
 
 
 ```
@@ -251,7 +238,6 @@ URL-specific sections are returned in XML CCDA format.
 
 {{% pre language="py" theme="RDark" title="Data Category Example" %}}
 
-
 #!/usr/bin/env python
 import sys
 import os
@@ -346,12 +332,7 @@ if __name__ == '__main__':
                                        fp.write(res.read())
 
 
-
-
-
 {{% /pre %}}
-
-
 
 
 ```
@@ -360,12 +341,10 @@ if __name__ == '__main__':
 
 Receive documents stored in charts:
 
-
 ```
 
 
 {{% pre language="py" theme="RDark" %}}
-
 
 #!/usr/bin/env python
 import urllib2
@@ -446,9 +425,7 @@ if __name__ == '__main__':
                         # print(json.dumps(js))
 
 
-
 {{% /pre %}}
-
 
 
 ```
@@ -457,13 +434,15 @@ if __name__ == '__main__':
 
 {{% system-name %}}  has functional tools for importing and exporting documents to the system. The Export Tool is written in Python and can be run on Windows, Mac, or Linux. Conversely, importing documents is done with the [MIE File Import](https://www.mieweb.com/wiki/MIE_File_Import) utility.
 
-![](application-programming-interface-api.assets/10000201000002D70000013F2A25AC14B0AD48B7.png)
+
+![](../application-programming-interface-api.assets/10000201000002D70000013F2A25AC14B0AD48B7.png)
+
 
 ### Requirements
 
-**Windows:** compiled exe are provided so Windows 7+ is sufficient.
-**Mac 10.8+:** Python 2.7 is shipped with Mountain Lion and greater.
-**Linux**: Python 2.7 or Python 3.1 is required and python-tk. The user interface requires a GUI / window manager.
+* <strong>Windows:</strong> compiled exe are provided so Windows 7+ is sufficient.
+* <strong>Mac 10.8+:</strong> Python 2.7 is shipped with Mountain Lion and greater.
+* <strong>Linux</strong>: Python 2.7 or Python 3.1 is required and python-tk. The user interface requires a GUI / window manager.
 
 ### Installing
 

@@ -6,6 +6,15 @@ mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:23:59.133Z'
 version: '110'
 fileMap:
+  chart-tabs.md:
+    type: 'md'
+    id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
+    title: 'Chart Tabs'
+    modifiedTime: '2022-08-29T19:12:07.344Z'
+    version: 159
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Grzegorz Godlewski'
+    fileName: 'chart-tabs.md'
   encounters-protocol-configuration-and-programming.md:
     type: 'md'
     id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
@@ -15,15 +24,6 @@ fileMap:
     mimeType: 'text/x-markdown'
     lastAuthor: 'jlowrey'
     fileName: 'encounters-protocol-configuration-and-programming.md'
-  chart-tabs.md:
-    type: 'md'
-    id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
-    title: 'Chart Tabs'
-    modifiedTime: '2021-07-22T14:52:57.002Z'
-    version: 140
-    mimeType: 'text/x-markdown'
-    lastAuthor: 'Bridget Hamm'
-    fileName: 'chart-tabs.md'
   system-files-management.md:
     type: 'md'
     id: '1faeAEwfFOMCYV4zh0yko4gGtLwhgypG1ZtcSZXAbAn4'
@@ -119,4 +119,4 @@ fileMap:
     version: 115
     mimeType: 'text/x-markdown'
     fileName: 'colors.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

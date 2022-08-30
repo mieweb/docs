@@ -2,7 +2,7 @@
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
 date: '2021-04-09T10:46:40.622Z'
-version: 440
+version: 442
 lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ links:
   - 'https://blog.enterprisehealth.com/videos/standard-reporting-demo-video'
   - 'https://blog.enterprisehealth.com/videos/osha-recordkeeping-and-reporting-demo-video'
 source: 'https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Videos & Demonstrations'
@@ -57,7 +57,9 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% column %}}
 
-![](videos-and-demonstrations.assets/10000201000001BD0000013317972096890C0126.png)
+
+![](../videos-and-demonstrations.assets/10000201000001BD0000013317972096890C0126.png)
+
 {{% /column %}}
 {{% /section %}}
 

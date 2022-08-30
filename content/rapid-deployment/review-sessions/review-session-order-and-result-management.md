@@ -2,7 +2,7 @@
 id: '1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
 title: 'Review Session - Order and Result Management'
 date: '2020-02-27T21:25:30.979Z'
-version: 24
+version: 26
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -39,7 +39,7 @@ links:
   - '../../functions/order-and-result-management/observation-code-merging.md'
   - '../../functions/order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Review Session - Order and Result Management'

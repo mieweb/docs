@@ -4,7 +4,7 @@ title: 'Imaging'
 fileName: 'imaging'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:04.690Z'
-version: '280'
+version: '282'
 fileMap:
   dicom-modality-work-list-mwl.md:
     type: 'md'
@@ -68,4 +68,4 @@ fileMap:
     version: 17
     mimeType: 'text/x-markdown'
     fileName: 'radomni.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

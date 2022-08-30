@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
 source: 'https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Printing Documents'
@@ -21,9 +21,13 @@ Printing documents from the {{% system-name %}} system is a simple process. The 
 ## Print an Individual Document
 
 While in the appropriate chart, locate and open the document needing printed. Click the **Print** link, found in the upper-right corner of the document header.
-![](printing-documents.assets/10000201000004F90000018986AD78C5357A5C96.png)
+
+![](../printing-documents.assets/10000201000004F90000018986AD78C5357A5C96.png)
+
 Once clicked, the Print Dialog window will open, with **Send To** *Printer* marked, by default.
-![](printing-documents.assets/100002010000027E000001D51737C7D302D26C86.png)
+
+![](../printing-documents.assets/100002010000027E000001D51737C7D302D26C86.png)
+
 Users may choose to **Print without headers** or **Use legacy print formatting**, if preferred.
 **Print without headers**: This option allows users to print the contents of the document, only. No header information will be included on the printout, meaning the Doc ID, Author, Revised By, Document Type, DOS, Location, Revised Date, and Signed By information will not be displayed on the printed document. This option is only available to users with the Allow Printing Without Headers security permission set to Yes. This option is particularly useful when printing Word documents, forms, sketches, or the like.
 * <strong>Print only without headers</strong>: When the <em>Print without headers</em> option is selected, another option will be made available. Selecting the Print Only Without Headers option will override the document type settings, removing <em>all</em> headers, when printing. This option is most useful for exporting PDFs for interface use.
@@ -43,12 +47,18 @@ Users may set the format of print documents to either PDF or TIFF, by way of the
 ## Setup for Printing Full-Size Scanned Documents
 
 Printing full-size scanned documents requires a simple adjustment in the default printing settings. To begin, locate and open the specific scanned document needing printed.
-![](printing-documents.assets/10000201000004AD000002129C649E510922278C.png)
+
+![](../printing-documents.assets/10000201000004AD000002129C649E510922278C.png)
+
 Depending on the web browser used, when the document is opened, the scanned image will either appear within an AlternaTIFF workspace (e.g., IE), or when clicked, the image will appear in a viewer of a new tab/window (e.g., Chrome). The focus here is on Internet Explorer web browsers, using the AlternaTIFF control.
 Right-click the grey toolbar area, just above the scanned image. Select **More Settings**.
-![](printing-documents.assets/10000201000004A500000251A6B3A5FDE2BFCC4E.png)
+
+![](../printing-documents.assets/10000201000004A500000251A6B3A5FDE2BFCC4E.png)
+
 Once clicked, the AltneraTIFF: More Settings dialog window will open. Ensure the **Always print full page** option is selected, and click the **OK** button.
-![](printing-documents.assets/10000201000004AD0000024FCB041E8AC1F59FFF.png)
+
+![](../printing-documents.assets/10000201000004AD0000024FCB041E8AC1F59FFF.png)
+
 {{% note %}}
 
 This setting only needs to be done one time for each workstation, and only needs performed on workstations intending to print insurance cards, driver's licenses, or other scanned documents.

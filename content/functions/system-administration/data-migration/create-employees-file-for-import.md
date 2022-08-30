@@ -10,7 +10,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A'
 source: 'https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Create Employees File for Import'
@@ -93,7 +93,9 @@ What you will need:
 {{% /tip %}}
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Employees CSV File Example for guidance.
 
-![](create-employees-file-for-import.assets/100002010000046900000071E44CE094683F6B42.png)
+
+![](../create-employees-file-for-import.assets/100002010000046900000071E44CE094683F6B42.png)
+
 
 3. Save the file as CSV format.
 
@@ -102,19 +104,26 @@ What you will need:
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-![](create-employees-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
+![](../create-employees-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
 
 3. Select the Data Import tab.
 
-![](create-employees-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
+![](../create-employees-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
 
 4. Select Chart Data CSV API from the drop-down menu and click Go.
 
-![](create-employees-file-for-import.assets/10000201000001530000007C5E57984C7C960DED.png)
+
+![](../create-employees-file-for-import.assets/10000201000001530000007C5E57984C7C960DED.png)
+
 
 5. Select the Employees CSV File and click Upload.
 
-![](create-employees-file-for-import.assets/1000020100000144000000B8D55B5D24C2DED099.png)
+
+![](../create-employees-file-for-import.assets/1000020100000144000000B8D55B5D24C2DED099.png)
 
 {{% tip %}}
 

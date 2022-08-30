@@ -30,7 +30,7 @@ links:
   - '../../reports/e-meds-report.md'
   - '../../system-administration/system-controls/view-user-audit-log.md'
 source: 'https://drive.google.com/open?id=1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'EPCS Setup'
@@ -92,7 +92,9 @@ Before addressing any of the system and user setup, it is important that the des
 Similarly, before being able to fully utilize the prescription application, the E-Token Signature App will need to be installed to each Windows workstation being used for EPCS digital signing, along with any associated or supporting applications, found under the **Plugins** Control tab.
 1. Navigate to the <strong>Plugins</strong> menu of the Control Panel.
 2. In the upper-right corner, notice the three options available for EPCS:
-    ![](epcs-setup.assets/10000201000004AE0000009E402C6148FD81A99E.png)
+
+    ![](../epcs-setup.assets/10000201000004AE0000009E402C6148FD81A99E.png)
+
     1. <strong>Download MIE SSL App</strong> - This application should only be downloaded and installed if using the Cross-Browser E-Token Signature App.
     2. <strong>Download IE-Only E-Token Signature App</strong> - If using an Internet Explorer (IE) browser, download and install the IE-Only signature app. There is no need to install anything else with this.
     3. <strong>Download Cross-Browser E-Token Signature App</strong> - This application should be downloaded and installed if using an alternative web browser to IE (e.g., Chrome, Firefox, etc.). If using the Cross-Browser E-Token Signature App, be sure to also download and install the supporting MIE SSL App.
@@ -133,7 +135,8 @@ Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use
     15. <strong>EPCS</strong>: This option must be selected to allow EPCS functionality. Only the System Administrator has access to this option. <strong>Per DEA regulations, two (2) individuals must be involved when setting or revoking EPCS privileges</strong>. Selecting the EPCS option enables the sending of electronic prescriptions for DEA Schedule II-V drugs.
 
 {{% info %}}When the EPCS option is selected by the Designated Administrator, the following pop-up will display, prompting for the insertion of the two-factor authentication credential, followed by the password:
-![](epcs-setup.assets/10000201000001A6000000A8CD9DBE8902952D5D.png){{% /info %}}
+![](../epcs-setup.assets/10000201000001A6000000A8CD9DBE8902952D5D.png)
+{{% /info %}}
 
 6. Verify the prescriber is a member of the appropriate department.
 7. When all required fields are entered and the appropriate electronic prescriber boxes checked, click the <strong>Submit Edit</strong> button (or <em>Submit Insert</em> button, if a new user is being created).
@@ -168,22 +171,34 @@ All controlled substance prescriptions are dated and signed on the date they are
 {{% tip %}}
 
 Even though providers are capable of electronically prescribing controlled substances, not all pharmacies are capable of receiving these electronic requests. {{% system-name %}} displays which pharmacies are EPCS-enabled when a pharmacy is selected for a patient. This is why we encourage all staff to review the **Preferred Pharmacy** and the **Mail-In Pharmacy** with the patient PRIOR to creating a prescription. When reviewing with the patient, use the help bubble to see the pharmacy types.
-![](epcs-setup.assets/1000020100000191000000A34C6904ED1C56B923.png)
+
+![](../epcs-setup.assets/1000020100000191000000A34C6904ED1C56B923.png)
+
 {{% /tip %}}
 For more detailed information on how to add and prescribe medications, see our [Prescribing/Adding Medications](../prescribing-adding-medications.md) help documentation.
 
 ### Marking Prescriptions **_Ready to Sign_**/Digitally Signing Prescriptions
 
 As a part of EPCS certification, the CEHRT requires the practitioner to indicate each prescription is ready for signing. Because of this, a prescriber must review the prescriptions and mark each as Ready to Sign by checking the box(es). Digitally sign the prescription by clicking your (the prescriber's) name/link. **Be sure to read the legal statement before marking and signing**. 
-![](epcs-setup.assets/100002010000022A00000074CF288644C35F71F5.png)
-![](epcs-setup.assets/10000201000001DD00000133706E1791EC60F6CD.png)
+
+![](../epcs-setup.assets/100002010000022A00000074CF288644C35F71F5.png)
+
+
+![](../epcs-setup.assets/10000201000001DD00000133706E1791EC60F6CD.png)
+
 An electronic controlled prescription will not transmit without the prescriber's token AND password. Ensure the token is inserted into the device, and provide the Token Passcode, when prompted. Failure to provide both will result in the medication(s) being placed in Unsigned Prescription Queue.
-![](epcs-setup.assets/10000201000002090000012114124C92B6E235D8.png)
+
+![](../epcs-setup.assets/10000201000002090000012114124C92B6E235D8.png)
+
 {{% warning %}}
 
 Authorized EPCS prescribers are not authorized to use their tokens to sign a prescription for a different prescribing provider. The prescriber must not allow any other individual use of the token, or to perform EPCS signing in the {{% system-name %}} system.
-![](epcs-setup.assets/10000201000001310000006332DC6F5C10AA8155.png)
-![](epcs-setup.assets/10000201000001D4000000CCF4F7473191D498B5.png)
+
+![](../epcs-setup.assets/10000201000001310000006332DC6F5C10AA8155.png)
+
+
+![](../epcs-setup.assets/10000201000001D4000000CCF4F7473191D498B5.png)
+
 {{% /warning %}}
 For more information on e-prescribing, see our [Medication Management & E-Prescribing](../../medication-management-and-e-prescribing.md) help documentation.
 
@@ -192,11 +207,15 @@ For more information on e-prescribing, see our [Medication Management & E-Prescr
 Batching prescriptions is available; however, batching can only be preformed for one (1) single patient, at a time. Batching of multiple patients' prescriptions is prohibited. Furthermore, as a certified EPCS application, it is necessary for prescribers to individually sign EACH prescription. Therefore, we are unable to shortcut the authentication process (signing) of batched prescriptions, due to current DEA regulations.
 1. When prescriptions are batched for a patient, the prescriber is able to mark all prescriptions as Ready to Sign. Note they are all for the same patient.
 
-![](epcs-setup.assets/10000201000001C40000016F7923237ED9EABBE1.png)
+
+![](../epcs-setup.assets/10000201000001C40000016F7923237ED9EABBE1.png)
+
 
 2. Upon hitting the <strong>Sign</strong> button, the following Token Logon window will display. The prescriber will see this pop-up once for EACH medication that is batched. 
 
-![](epcs-setup.assets/10000201000002090000012114124C92B6E235D8.png)
+
+![](../epcs-setup.assets/10000201000002090000012114124C92B6E235D8.png)
+
 
 3. Follow the process of signing and clicking <strong>OK</strong>, until all prescriptions have been authenticated.
 
@@ -218,20 +237,28 @@ Approving any of the following EPCS refill requests will require the indication 
 * Refill Request
 * Approve w/Edit
 * Changing a Refill Request
-![](epcs-setup.assets/100002010000017E000001424C360BAB216A936F.png)
+
+![](../epcs-setup.assets/100002010000017E000001424C360BAB216A936F.png)
+
 For more information on managing refill requests, see our documentation on the [E-Scripts tab](../e-refills-e-scripts-tab.md), [All E-Refills tab](../e-refills-all-e-refills-tab.md), [Refill All](../refill-all.md), [My E-Rx Errors tab](../e-refills-my-e-rx-errors-tab.md), and [My Pending Refills tab](../e-refills-my-pending-refills-tab.md).
 
 ### Printing Controlled Substances
 
 As an EPCS-certified application, {{% system-name %}} cannot allow the transmission of a prescription that has previously been printed.
-![](epcs-setup.assets/100002010000022D0000006561C5BCE040E806F0.png)
+
+![](../epcs-setup.assets/100002010000022D0000006561C5BCE040E806F0.png)
+
 Similarly, any controlled prescription that has previously been electronically transmitted can only be printed as a COPY, not intended for dispensing. The prescription will print with a Note to Pharmacist reading **COPY - not for dispensing. Sent on: (date/time)**.
-![](epcs-setup.assets/10000201000001AA00000071CAE78BEE07CF3471.png)
+
+![](../epcs-setup.assets/10000201000001AA00000071CAE78BEE07CF3471.png)
+
 
 ### EPCS Transmission Failures
 
 In the event of a failed electronic transmission of a controlled prescription, {{% system-name %}} allows permitted users to PRINT the prescription (if allowed in your state). The prescription will print with a Note to Pharmacist reading **Failed on: (date/time)**.
-![](epcs-setup.assets/10000201000001AB0000006934785180F1CD0AE2.png)
+
+![](../epcs-setup.assets/10000201000001AB0000006934785180F1CD0AE2.png)
+
 {{% info %}}
 
 Remember to review the [Practitioner Responsibilities](prescriber-responsibilities-and-transmission-requirements.md) for unsuccessfully delivered electronic prescriptions.

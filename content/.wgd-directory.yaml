@@ -6,14 +6,32 @@ mimeType: 'application/vnd.google-apps.folder'
 date: '2022-04-15T20:50:00.173Z'
 version: '1'
 fileMap:
+  resources.md:
+    type: 'md'
+    id: '1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
+    title: 'Resources'
+    modifiedTime: '2022-08-30T20:37:03.408Z'
+    version: 60
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'resources.md'
+  _index.md:
+    type: 'md'
+    id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
+    title: '_index'
+    modifiedTime: '2022-08-30T18:20:34.813Z'
+    version: 686
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: '_index.md'
   functions.md:
     type: 'md'
     id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
     title: 'Functions'
-    modifiedTime: '2022-08-23T15:44:29.914Z'
-    version: 90
+    modifiedTime: '2022-08-29T14:36:49.728Z'
+    version: 98
     mimeType: 'text/x-markdown'
-    lastAuthor: 'Doug Horner'
+    lastAuthor: 'Will Reiske'
     fileName: 'functions.md'
   .navigation.md:
     type: 'md'
@@ -32,15 +50,6 @@ fileMap:
     version: 21
     mimeType: 'image/svg+xml'
     fileName: 'proposed-health-surveillance-worklow.svg'
-  _index.md:
-    type: 'md'
-    id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
-    title: '_index'
-    modifiedTime: '2021-05-10T22:20:39.704Z'
-    version: 678
-    mimeType: 'text/x-markdown'
-    lastAuthor: 'Doug Horner'
-    fileName: '_index.md'
   functions:
     type: 'directory'
     id: '1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP'
@@ -54,19 +63,10 @@ fileMap:
     id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
     title: 'Videos & Demonstrations'
     modifiedTime: '2021-04-09T10:46:40.622Z'
-    version: 440
+    version: 442
     mimeType: 'text/x-markdown'
     lastAuthor: 'Grzegorz Godlewski'
     fileName: 'videos-and-demonstrations.md'
-  resources.md:
-    type: 'md'
-    id: '1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
-    title: 'Resources'
-    modifiedTime: '2021-03-20T19:26:41.981Z'
-    version: 49
-    mimeType: 'text/x-markdown'
-    lastAuthor: 'Doug Horner'
-    fileName: 'resources.md'
   dynamic-encounter-landing-page-example.md:
     type: 'md'
     id: '1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ'
@@ -81,7 +81,7 @@ fileMap:
     id: '1gcdDn4ndAdnO7VhG7MPO-ffepKopU-Vk'
     title: 'Diagrams'
     modifiedTime: '2020-03-30T20:09:46.150Z'
-    version: 83
+    version: 84
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'diagrams'
   rapid-deployment.md:
@@ -97,7 +97,7 @@ fileMap:
     id: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
     title: 'Programs'
     modifiedTime: '2020-02-27T19:29:40.998Z'
-    version: 39
+    version: 42
     mimeType: 'text/x-markdown'
     fileName: 'programs.md'
   resources:
@@ -113,7 +113,7 @@ fileMap:
     id: '1Nn6hwnNBi-b63JnWaq3dK2_2PsUWykgP'
     title: 'Rapid Deployment'
     modifiedTime: '2020-02-27T19:24:35.069Z'
-    version: 61
+    version: 62
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'rapid-deployment'
   programs:
@@ -124,4 +124,4 @@ fileMap:
     version: 79
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'programs'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

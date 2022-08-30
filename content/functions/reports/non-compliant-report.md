@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Non-Compliant Report'
@@ -19,7 +19,9 @@ Non-Compliant Report lists patients that are not taking the proper medications (
 Click *Reports* tab on the left side-bar menu.
 Click *Non-Compliant Report* tab from the top tab menu.
 The Non-Compliant Patients List Options screen will open.
-![](non-compliant-report.assets/10000000000001420000014FE648DA0C3D6C69FB.png)
+
+![](../non-compliant-report.assets/10000000000001420000014FE648DA0C3D6C69FB.png)
+
 * <strong>Physician:</strong> Can select all physicians or a specific physician from the drop-down arrow.
 * <strong>Evaluation Date:</strong> Select the Evaluation Date. This is for historical purposes.  You can see how the non-compliance percentages change over time.  Usually you will want to use today's date.
 * <strong>List Patients:</strong> Checkmark this to show a list of non-compliant patients according to the search. Keep it uncheck-marked to show a compliance report card for the physician(s) you selected.
@@ -28,6 +30,10 @@ The Non-Compliant Patients List Options screen will open.
 * <strong>Drug Classes:</strong> Select any or all of the Drug Classes you wish to report on.
 Click SUBMIT to show search results.
 The results show the compliance report card for the physician(s) you selected if you did *not* check-mark to list the patients.
-![](non-compliant-report.assets/100000000000017F000000CC68BED348A811D939.png)
+
+![](../non-compliant-report.assets/100000000000017F000000CC68BED348A811D939.png)
+
 If you check-marked to list the patients, it will then list the specific patients that are non-compliant according to the fields you entered for the report.
-![](non-compliant-report.assets/1000000000000244000000473BDDC96D50C9747C.png)
+
+![](../non-compliant-report.assets/1000000000000244000000473BDDC96D50C9747C.png)
+

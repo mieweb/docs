@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Using DataVis Grids - Data Tools'
@@ -20,7 +20,9 @@ menu:
 ## Plain Output
 
 The grid starts with "plain output" which shows the raw data. This is useful for examining all the details, and allows you to sort and filter.
-![](using-datavis-grids-data-tools.assets/10000201000007CF000003F934C3F932B2F540BD.png)
+
+![](../using-datavis-grids-data-tools.assets/10000201000007CF000003F934C3F932B2F540BD.png)
+
 *initial view of the grid*
 1. Show/hide the whole grid.
 2. Use the <strong>gear icon</strong> to show/hide the grid controls (where you can set the filter, group, pivot, and aggregate functions: see following screenshots).
@@ -29,7 +31,9 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 5. Click the filter icon to add a filter for the column.
 6. The <strong>view toolbar section</strong> — use the back/forward arrows to navigate view history, the dropdown to select a view, and the undo button to reset all views.
 7. The <strong>limit toolbar section</strong> — initially, only the first 500 rows are shown. More will be shown as you scroll down; the checkbox can be used to turn that behavior on/off. The "Show All Rows" button will immediately show all rows, without having to scroll down repeatedly.
-![](using-datavis-grids-data-tools.assets/10000201000007CF000003F9434C6FE8835C8EF9.png)
+
+![](../using-datavis-grids-data-tools.assets/10000201000007CF000003F9434C6FE8835C8EF9.png)
+
 *after clicking the gear icon to show the grid controls*
 1. The <strong>filter control</strong> — here we have filtered by Order ID. To add more filters, select the column name from the dropdown and click the "+" button, or drag the column header into the control, or click the filter icon in the column header. Use the "–" button next to each filter to remove it.
 2. The <strong>group control</strong> — allows you to group the data by the value of certain columns. To group by a column, select the column name from the dropdown and click the "+" button, or drag the column header into the control.
@@ -41,14 +45,18 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ## Group Output
 
-![](using-datavis-grids-data-tools.assets/10000201000007CF000003F988BB93CF9A092D08.png)
+
+![](../using-datavis-grids-data-tools.assets/10000201000007CF000003F988BB93CF9A092D08.png)
+
 *after grouping by Product*
 1. Click the "+" or "–" button to expand/collapse the rows that belong to that group.
 2. The <strong>group mode toolbar section</strong> — "summary" mode shows only the group and the result of the aggregate function. "Detail" mode shows all the rows that go into each group.
 
 ## Pivot Output
 
-![](using-datavis-grids-data-tools.assets/10000201000007CF000003F90873AD17BDA001C1.png)
+
+![](../using-datavis-grids-data-tools.assets/10000201000007CF000003F90873AD17BDA001C1.png)
+
 *after adding Category to the group, and pivoting by Country*
 1. The <strong>filter control</strong> — here we have added a filter for Country. To add more filters, select the column name from the dropdown and click the "+" button.
 2. The <strong>group control</strong> — here we're grouping first by Category, then by Product. You can drag & drop these fields to reorder them. To add more columns to the grouping, select the column name from the dropdown and click the "+" button. To remove a column, use the "–" button next to the column name.
@@ -63,6 +71,8 @@ You can double-click a cell in the group output (summary mode) or pivot output t
 
 Filters you are already using still apply, if they don't conflict with the drill down filters (in this case, the Order ID filter applies, but the Country filter does not).
 {{% /note %}}
-![](using-datavis-grids-data-tools.assets/10000201000007CF000003F941BE850E833D1730.png)
+
+![](../using-datavis-grids-data-tools.assets/10000201000007CF000003F941BE850E833D1730.png)
+
 *after drilling down into Germany's banana orders*
 Click the **view history back arrow** in the **view toolbar section** to go back to the previous view.

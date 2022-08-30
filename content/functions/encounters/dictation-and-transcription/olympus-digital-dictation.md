@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Olympus Digital Dictation'
@@ -16,7 +16,9 @@ menu:
     weight: 1420
 ---
 MIE must first turn on the ability to transfer Olympus DS-330 dictation if you are using Olympus mikes. If you are using SpeechMikes, please see other help documentation named *SpeechMike Dictation*.
-![](olympus-digital-dictation.assets/10000000000001520000002C8D263AC66100C1BE.png)
+
+![](../olympus-digital-dictation.assets/10000000000001520000002C8D263AC66100C1BE.png)
+
 {{% note %}}
 
 {{% system-name %}} is currently only compatible with the DS-2, DS-330, DS-660, DS-2200, DS-2300, DS-3000, DS-3300, DS-4000 models (DSS Digital Speech Standard) and not compatible with the newer model(s).  Some of the above models are discontinued by Olympus. They are replacing with the DS-2400 which you have to use the Olympus software to manually convert the file to the DSS format. {{% system-name %}} currently only supports DSS format.
@@ -58,27 +60,39 @@ We recommend each physician have their own Olympus mike. If that is not possible
 3. Click on the <em>Dictation</em> tab on the left sidebar menu of {{% system-name %}} .
 4. Click the <strong>Olympus Transfer</strong> link at the top of the Dictation screen.
 
-![](olympus-digital-dictation.assets/10000000000003F700000114962BD7450B885E79.png)
+
+![](../olympus-digital-dictation.assets/10000000000003F700000114962BD7450B885E79.png)
+
 
 5. An Upload screen will open. Click Upload to Select the folder to upload from. Select Folder A.
 
-![](olympus-digital-dictation.assets/10000000000001860000012ECFD6B243F637CF02.png)
+
+![](../olympus-digital-dictation.assets/10000000000001860000012ECFD6B243F637CF02.png)
+
 
 6. <strong>You will only do this step the first time</strong>. Select the drive of the recorder (you will only select the drive the first time you connect to a computer.  The computer will remember what drive this is the next time you connect.) Browse and <strong>Select DSS_FDA</strong> drive. Click OK.
 
-![](olympus-digital-dictation.assets/10000000000001840000018ABB10FF55225C8323.png)
+
+![](../olympus-digital-dictation.assets/10000000000001840000018ABB10FF55225C8323.png)
+
 
 7. The screen will open a <em>Delete Confirm</em> dialog box and it will ask if you "Do you wish to delete files after upload?"  Click <strong>yes</strong> to remove the voice file off of the recorder.
 
-![](olympus-digital-dictation.assets/10000000000000DA0000006AC3F6E54CF470E6E3.png)
+
+![](../olympus-digital-dictation.assets/10000000000000DA0000006AC3F6E54CF470E6E3.png)
+
 
 8. You will see that you successfully uploaded the files.
 
-![](olympus-digital-dictation.assets/100000000000019B0000013D01A5F51E8B4E27A1.png)
+
+![](../olympus-digital-dictation.assets/100000000000019B0000013D01A5F51E8B4E27A1.png)
+
 
 9. Click <strong>[ Close Window ]</strong>
 
-![](olympus-digital-dictation.assets/1000000000000194000000E0F5BAF252BAAB6153.png)
+
+![](../olympus-digital-dictation.assets/1000000000000194000000E0F5BAF252BAAB6153.png)
+
 
 
 A pin number is not required to see all the physicians in the Physician drop-down choices.
@@ -94,7 +108,9 @@ You should double check that the users who log in to upload dictations from olym
 
 ## After Transferring Olympus Dictations
 
-![](olympus-digital-dictation.assets/1000000000000483000000B4F96EEB8A3F14B576.png)
+
+![](../olympus-digital-dictation.assets/1000000000000483000000B4F96EEB8A3F14B576.png)
+
 After uploading your transfers, you will see them listed in the Dictation pending queue of the Dictation tab.
 There will not be any patient names associated with them using Olympus mics. This is why it is important to do a hard stop/hard start after each patient so they transfer over individually into individual dictated files.
 You cannot edit dictation done and uploaded. You would dictate a separate note/file stating the correction, etc. You could create a separate work type for "correction" and task upon "dictation add" for that worktype, etc.

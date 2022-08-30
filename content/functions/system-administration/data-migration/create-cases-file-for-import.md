@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Create Cases File for Import'
@@ -122,7 +122,9 @@ What you will need:
 
 1. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents a case record. Below is a screenshot of the Cases CSV File Example for guidance.
 
-![](create-cases-file-for-import.assets/10000201000003A400000079320A07FD81770960.png)
+
+![](../create-cases-file-for-import.assets/10000201000003A400000079320A07FD81770960.png)
+
 
 2. Save the file as CSV format.
 
@@ -131,19 +133,25 @@ What you will need:
 1. Login as a user with administrator rights.
 2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
-![](create-cases-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
+![](../create-cases-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
-![](create-cases-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
+![](../create-cases-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
 
 4. Select <strong>Clinical Encounter CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-![](create-cases-file-for-import.assets/100002010000015E0000007DA3073118EF087BBA.png)
+
+![](../create-cases-file-for-import.assets/100002010000015E0000007DA3073118EF087BBA.png)
+
 
 5. Select the Cases CSV File and click <strong>Upload</strong>.
 
-   <img src="create-cases-file-for-import.assets/100002010000012F000000A5287390156CE2CF99.png" />
+   <img src="../create-cases-file-for-import.assets/100002010000012F000000A5287390156CE2CF99.png" />
 
 {{% tip %}}
 

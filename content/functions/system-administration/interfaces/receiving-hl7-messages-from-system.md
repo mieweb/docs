@@ -2,14 +2,14 @@
 id: '1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
 title: 'Receiving HL7 Messages from System'
 date: '2021-09-24T19:55:36.541Z'
-version: 63
+version: 65
 lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:
   - 'outbound-sample-hl7-messages.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 {{% anchor sys="assumptions" %}}

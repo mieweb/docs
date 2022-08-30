@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://doc.id/'
 source: 'https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Fast Task Templates'
@@ -24,14 +24,20 @@ Before adding a fast task template, check the existing fast task listing to make
 
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
 
-![](fast-task-templates.assets/10000201000005400000015A70DF4E5379539302.png)  
+
+![](../fast-task-templates.assets/10000201000005400000015A70DF4E5379539302.png)
+  
 To configure and add a new Fast Task template selection to the system, click the Add link found on the right side of the Fast Tasks screen.
 
-![](fast-task-templates.assets/10000201000005400000015A09743397427095FD.png)
+
+![](../fast-task-templates.assets/10000201000005400000015A09743397427095FD.png)
+
 
 The Task Template (NEW) screen opens.  Enter information into any applicable fields to create the new fast task selection for the system.
 
-![](fast-task-templates.assets/10000201000003780000025A43896B3FF658F5BB.png)
+
+![](../fast-task-templates.assets/10000201000003780000025A43896B3FF658F5BB.png)
+
 
 
 * Name: Name of the fast task link that will show for users to utilize.
@@ -47,7 +53,9 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 * Type: Select where the fast task template is to show up in the system to be accessible and used by setting the type here.  The default will be All, meaning the fast task template will be accessible to select throughout the system wherever users can Add Tasks. The Type should be what the task is regarding: All/Select One, Patient, Patient's Document, or a patient's Appointment, non-patient, fill request, Dictation, Incoming File Queue, Encounter, etc.  The Add Task link at the top of a chart is considered type "patient."  There is an Add Task link in the detail view of a document that is considered type "document", and there is an Add Task link in the scheduler that is considered type "appointment".  There is an Add Task link in the Task List sidemenu that is considered type "non-patient". There is also an Add Task link in the Meds/Prescribe/Refill chart tab of a chart considered type "fill request" because fill requests are regarding a prescription.  There is an Add Task link within the Incoming File Queue that is considered type "Incoming File Queue".
 * Layout:  Leave as None/Std Comment.  However, MIE can program a specific layout to allow users to input task details that displays in the Notes section when creating a text.  Layouts allow a different look instead of just a plain text-box if needed. It can also pull other {{% system-name %}} information into the task automatically (ex: patient's conditions, patient's allergies, etc).  Layouts are billable time done by MIE and the layout type/name would show here as a choice after it's developed.
 * Notes: Fast Tasks can show pretemplated text here in the notes field.  This may help prompt other users to remember what to key in or do or specific information that is standard for this fast task.  Whatever is typed here in the template will display in the ‘notes' field of the fast task when users create this fast task or when system automatically sends the fast task if based on a tasklist event rule.  This notes field can be left blank to indicate a free-text notes field. If a Layout is programmed by MIE (see layout field above), then the layout would display in the Note field when users create the fast task. This is an example of a layout being used for the Notes section.  This layout is designed to have the user document specific things to be entered in the task of this type.
-          ![](fast-task-templates.assets/100002010000034C00000133DCCAC36B354CACFD.png)
+
+          ![](../fast-task-templates.assets/100002010000034C00000133DCCAC36B354CACFD.png)
+
 
 * Insert as Completed:  Checkmark this only if the task is to be considered completed automatically when this specific fast task is created and used.
 * Assign to: Fast Tasks can be templated to know who to assign it to and then the user doesn't have to always set who to assign this fast task type to.  Typically repetitive tasks or common tasks always go to the same person or department. The Assign To field here is to indicate whom the fast task is to be assigned to when used.  It is ok to leave the Assign To field blank, but when a user goes to use this type of fast task template in the system, the user needs to manually assign the task each time the fast task is used.
@@ -63,13 +71,17 @@ When done entering the fast task template to the system, click the Save button. 
 
 To access the Fast Tasks Template tab within the Task List sidemenu module, users must have security for Manage Fast Tasks.
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
-![](fast-task-templates.assets/10000201000005400000015A70DF4E5379539302.png)  
+
+![](../fast-task-templates.assets/10000201000005400000015A70DF4E5379539302.png)
+  
 
 ### **Edit**
 
 To edit, find the specific fast task template that needs edited and simply click the respective Edit link in the options column.
 
-![](fast-task-templates.assets/10000201000005450000015FC78CF8793A438EFF.png)
+
+![](../fast-task-templates.assets/10000201000005450000015FC78CF8793A438EFF.png)
+
 
 Change and edit any of the fast task template fields and click Save when done editing.
 It will display a confirmation that you have successfully updated the fast task template.
@@ -79,7 +91,9 @@ It will display a confirmation that you have successfully updated the fast task 
 To delete, find the specific fast task template and simply click the respective Delete link in the options column.
 It will ask you to confirm that you are sure you want to delete the fast task.
 
-![](fast-task-templates.assets/100002010000017B000000528EEB7DC21A1E0FE3.png)
+
+![](../fast-task-templates.assets/100002010000017B000000528EEB7DC21A1E0FE3.png)
+
 
 Click the Yes button to proceed and delete the fast task template from the system. It will display a message that you successfully deleted the fast task.
 {{% warning %}}

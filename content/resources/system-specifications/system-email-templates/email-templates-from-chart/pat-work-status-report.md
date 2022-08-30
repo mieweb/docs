@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EWORKS&old_module=Email&old_name=Pat+Work+Status+Report&active=0'
 source: 'https://drive.google.com/open?id=1-uWUd3qtMjl7jbVj2WOl_XdUABpr_akxuKvuMtqiLqs'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Pat Work Status Report'
@@ -34,7 +34,9 @@ Subject: Notification to Schedule Appointment for Travel Immunizations Due
 
 ### ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
-![](pat-work-status-report.assets/1000020100000001000000014C77D75F6DC67A52.png)
+
+![](../pat-work-status-report.assets/1000020100000001000000014C77D75F6DC67A52.png)
+
 Patient : **Frederick Anderson** 
 Patient ID: **MIE-10025**
 **DEMOGRAPHICS**
