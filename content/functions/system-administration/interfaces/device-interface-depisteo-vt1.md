@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App'
 source: 'https://drive.google.com/open?id=10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 This page provides instructions for interfacing the Depisteo VT1 with the *{{% system-name%}}* system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable. 
 {{% note %}}
@@ -70,11 +70,17 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 ## Using the Device Interface
 
 1. A Vision Screening can be added to the chart from the Due List chart tab. Simply use the autocomplete to select it and click the <strong>Add</strong> button.
-![](device-interface-depisteo-vt1.assets/100002010000040C000002148A68C44C0C6DD1AE.png)
+
+![](../device-interface-depisteo-vt1.assets/100002010000040C000002148A68C44C0C6DD1AE.png)
+
 2. From the encounter, add the Vision Screening to the exam using the Tests & Procedures section. Select the test/procedure and click the <strong>Add to Exam</strong> button.
-![](device-interface-depisteo-vt1.assets/100002010000039300000215337EB748461533C4.png)
+
+![](../device-interface-depisteo-vt1.assets/100002010000039300000215337EB748461533C4.png)
+
 3. After adding it to the exam, open the Vision Screening section and click the <strong>Automatic</strong> link.
-![](device-interface-depisteo-vt1.assets/100002010000045D000002152153AECDA4BAFBDF.png)
+
+![](../device-interface-depisteo-vt1.assets/100002010000045D000002152153AECDA4BAFBDF.png)
+
 4. To initiate interfacing, click the <strong>Depisteo VT1</strong> button.
 5. Perform testing with the Depisteo Software as instructed in the device's operation manual.
 6. Save the test in Depisteo, and the results will automatically be uploaded into {{% system-name %}}.

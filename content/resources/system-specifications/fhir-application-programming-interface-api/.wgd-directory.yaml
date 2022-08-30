@@ -6,24 +6,24 @@ mimeType: 'application/vnd.google-apps.folder'
 date: '2022-07-26T17:07:34.356Z'
 version: '25'
 fileMap:
-  oauth-2.0-tutorial.md:
-    type: 'md'
-    id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-    title: 'OAuth 2.0 Tutorial'
-    modifiedTime: '2022-08-11T20:55:18.853Z'
-    version: 293
-    mimeType: 'text/x-markdown'
-    lastAuthor: 'Grzegorz Godlewski'
-    fileName: 'oauth-2.0-tutorial.md'
   resource-specifications.md:
     type: 'md'
     id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
     title: 'Resource Specifications'
-    modifiedTime: '2022-08-08T21:10:35.978Z'
-    version: 491
+    modifiedTime: '2022-08-30T15:25:37.584Z'
+    version: 498
     mimeType: 'text/x-markdown'
-    lastAuthor: 'Nicole Richardson'
+    lastAuthor: 'Will Reiske'
     fileName: 'resource-specifications.md'
+  oauth-2.0-tutorial.md:
+    type: 'md'
+    id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
+    title: 'OAuth 2.0 Tutorial'
+    modifiedTime: '2022-08-27T05:26:22.579Z'
+    version: 302
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Will Reiske'
+    fileName: 'oauth-2.0-tutorial.md'
   terms-of-use.md:
     type: 'md'
     id: '1e3kmiavTOjCuKHwE8uz4Ucyr1tNyN3CYJrKYgFN-rec'
@@ -42,4 +42,4 @@ fileMap:
     mimeType: 'text/x-markdown'
     lastAuthor: 'Nicole Richardson'
     fileName: 'endpoints.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

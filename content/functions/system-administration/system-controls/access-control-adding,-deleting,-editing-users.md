@@ -9,7 +9,7 @@ links:
   - 'access-control-quick-add-multiple-active-users.md'
   - 'setting-up-e-prescribers.md'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Access Control - Adding, Deleting, Editing Users'
@@ -27,7 +27,9 @@ Click *Control* tab on the left sidebar menu.
 Click *Access Control* tab at the top
 It will show the list of departments your system has entered.
 You can search for a user if you know what department(s) they are attached to and view that way. Click the underlined department name and you will see all users tied to that department.
-![](access-control-adding,-deleting,-editing-users.assets/10000201000002B300000097C3416204497BC12C.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000002B300000097C3416204497BC12C.png)
+
 However, it is much easier to search by a user's last name.
 In the Search box at the top of the Access Control tab you are in:
 * <strong>Criteria:</strong> leave as ‘Begins With'
@@ -44,15 +46,21 @@ Per Medical Informatics Engineering, Inc. policy, all *new* *providers* should b
 Click *Control* on the left sidebar menu.
 Click *Access Control* tab at the top
 Click the Add User link on the far right side. (To add multiple active users quickly at a time, see other help documentation named [Access Control-Quick Add Multiple Users](access-control-quick-add-multiple-active-users.md))
-![](access-control-adding,-deleting,-editing-users.assets/10000201000002B300000097C3416204497BC12C.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000002B300000097C3416204497BC12C.png)
+
 When adding a user, fill out all the fields you can:
-![](access-control-adding,-deleting,-editing-users.assets/10000201000002A10000013110821432B62EDAC0.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000002A10000013110821432B62EDAC0.png)
+
 
 ### Add User Screen
 
 * <strong>Username</strong> (first initial and last name all together and in lowercase) This will be their login name.
 * <strong>Alias:</strong> Anything typed here will be shown in the authored by field of any document created/uploaded and printed/faxed etc. Sometimes a client or user doesn't want their full name to show in document headers or in stored documents, etc so they enter either only their first name here, or initials here, etc. The Authored By field looks and pulls the alias field first. If nothing is entered in the alias field, it will pull the user's full legal name. The below screenshot is an example. Example: Albert Aorta does not have anything entered into his alias field, so any document he creates, indexes, uploads, etc is stored by his full name. Example: alex someone who entered <em>alex</em> in for their alias field and  {{% system-name %}} stores documents created by this person, uploaded, indexed, etc by his/her alias name/field since something is entered into that field.
-![](access-control-adding,-deleting,-editing-users.assets/10000201000002B100000035CF0D4AC35AB3531B.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000002B100000035CF0D4AC35AB3531B.png)
+
 * <strong>Primary Dept</strong>: Chose the PRIMARY department for this user using the drop-down arrow.
 * <strong>Organization:</strong> Type the name of your facility/practice/company.
 * <strong>Current Status:</strong> Should be default to <em>Active</em> when adding a new user. If the user is considered active, then a username and login password must be entered. Users that will not access the system (example: Pharmacy names/fax #'s, etc) would be status of Login Disabled. No password would need to be entered for non-accessing (disabled) users.
@@ -94,11 +102,17 @@ Check all boxes that this user will be a department of. Make sure you also click
 ### Refresh with the User Patients Listedit
 
 This hyperlink and list does not get rendered at all if the setting "Webchart", "Settings", "Limit users to Provider Organization" is turned off. This is a feature mainly used by our Corporate Health practices. Clicking on the Refresh with the User Patients List link will query the system to render the list.
-![](access-control-adding,-deleting,-editing-users.assets/100002010000022D0000008B7C828AD3AA11F27A.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/100002010000022D0000008B7C828AD3AA11F27A.png)
+
 At that time the hyperlink will change to say Show patients Linked to User. When you click this link, then the system will render the list of the patients tied to that user.
-![](access-control-adding,-deleting,-editing-users.assets/10000201000002480000009244581C992915AAC9.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000002480000009244581C992915AAC9.png)
+
 However many patient charts are linked to the user will display in a listedit format. You can add or delete user patient relationships here.
-![](access-control-adding,-deleting,-editing-users.assets/100002010000025D000000C2B30D7CE098B7D404.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/100002010000025D000000C2B30D7CE098B7D404.png)
+
 Click **Submit Insert or Submit Edit** at the bottom.
 At the very top will say in blue "username successfully added". Or, it will give you an error and tell you what it is and you can go back in and edit fields to the user you just created.
 It will also check to see if the user exists and if they are active or inactivated. Then you get an option to reactivate the user if it was already in there as inactive (instead of them being added again as a new user).
@@ -114,18 +128,28 @@ However, it is much easier to search by a user's last name. In the Search box at
 **By**: Use the drop-down arrow and select NAME
 **Show**: Click the … box to open your choices. Show only Active users, Show only Inactive users, Show only Deleted users. You can check-mark which or as many filters here as you wish to show results for.
 This will pop-up any matches to that last name (or first few letters of the last name if you entered).
-![](access-control-adding,-deleting,-editing-users.assets/10000201000002BB0000008E87B401C8AE0E4D04.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000002BB0000008E87B401C8AE0E4D04.png)
+
 Once your results produce, click on the underlined username (on the left column) that you want to edit or view. This pops up the summary screen of this user's information. You can view all the information for that user. There is also links in the summary to view when the user's last login failed and when the user last logged in.
-![](access-control-adding,-deleting,-editing-users.assets/1000020100000277000000D58CB6A2C1DC15A1C5.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/1000020100000277000000D58CB6A2C1DC15A1C5.png)
+
 Below this section of the username screen, it will display what departments the user is a member of, any restrictions, security exceptions, etc.
 If you edit an existing user's security role (if you change the security role they are currently set to), when you submit your edit in their username screen, you may see a prompt box. If the user has any existing security role exceptions set, it will prompt if you want to keep their security role exceptions that are set, or if you wish to delete them and set the user to the security role settings that are default to that role you are changing them to.
-![](access-control-adding,-deleting,-editing-users.assets/10000201000000D40000006024031742788135C0.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000000D40000006024031742788135C0.png)
+
 You can also select options at the top of this user's summary.
-![](access-control-adding,-deleting,-editing-users.assets/10000201000002BC000000EC89534D8CF5BC310A.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/10000201000002BC000000EC89534D8CF5BC310A.png)
+
 
 ### Options
 
-![](access-control-adding,-deleting,-editing-users.assets/100002010000017C000000221988A4E9ADF423F8.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/100002010000017C000000221988A4E9ADF423F8.png)
+
 
 #### Edit User
 
@@ -146,7 +170,9 @@ If you are deleting a physician who was certified by SureScripts as an electroni
 #### View Audit Log
 
 If you have security role permission, this link will appear. You can click this to view the patient's this user has viewed/worked in and view activity using the Audit Log Search fields. See separate instructions titled *Audit Log Search*.
-![](access-control-adding,-deleting,-editing-users.assets/1000020100000241000000BF9553CF91C8FA73D4.png)
+
+![](../access-control-adding,-deleting,-editing-users.assets/1000020100000241000000BF9553CF91C8FA73D4.png)
+
 
 #### View User Revisions
 

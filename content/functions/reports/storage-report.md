@@ -6,7 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Storage Report'
@@ -19,6 +19,10 @@ Storage Report runs a document storage report for DICOM/radiology images that ha
 Click *Reports* tab on the left sidebar menu.
 Click *Storage Report* tab from the top tab menu.
 The Document Storage Report search screen will open.
-![](storage-report.assets/100000000000021C0000017CE49010E8053F60AF.png)
+
+![](../storage-report.assets/100000000000021C0000017CE49010E8053F60AF.png)
+
 Select and enter the specific fields you wish to narrow your search down by.
-![](storage-report.assets/10000000000003850000019BF42EF4A28225EB5E.png)
+
+![](../storage-report.assets/10000000000003850000019BF42EF4A28225EB5E.png)
+

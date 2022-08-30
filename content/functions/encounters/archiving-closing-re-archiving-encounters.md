@@ -11,7 +11,7 @@ links:
   - '../../resources/intro-to-the-system.md'
   - '../../resources/intro-to-the-system/system-anatomy.md'
 source: 'https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Archiving/Closing/Re-archiving Encounters'
@@ -32,19 +32,27 @@ Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit
 
 
 
-![](archiving-closing-re-archiving-encounters.assets/10000201000004B10000014B3B7F130AED686129.png)
+
+![](../archiving-closing-re-archiving-encounters.assets/10000201000004B10000014B3B7F130AED686129.png)
+
 
 
 **Encounter Navigation Toolbar** - Provides navigation tabs which allow users to jump to different sections of the encounter. Hovering over any tab will display the sections that are available from within that portion of the encounter.
 
 
 
-![](archiving-closing-re-archiving-encounters.assets/10000201000004B10000014B3B0C8A8E4CFAE03D.png)
+
+![](../archiving-closing-re-archiving-encounters.assets/10000201000004B10000014B3B0C8A8E4CFAE03D.png)
+
 
 
 **Standard Encounter Buttons** - Buttons related to an open encounter:
-![](archiving-closing-re-archiving-encounters.assets/10000201000001A30000003ADA576C5B90E7096A.png)
-![](archiving-closing-re-archiving-encounters.assets/10000201000001C5000000205E9DCD10AC2A44B5.png)
+
+![](../archiving-closing-re-archiving-encounters.assets/10000201000001A30000003ADA576C5B90E7096A.png)
+
+
+![](../archiving-closing-re-archiving-encounters.assets/10000201000001C5000000205E9DCD10AC2A44B5.png)
+
 
 **Release** - This button will not only save the current progress of the encounter, but it will simply discharge, or release the current active editor from the encounter, allowing other users to modify the encounter without risk of overwriting each other's documentation.
 **Save Incomplete & View** - Saves current progress in the encounter but does not archive or close it. A copy of the encounter will open for users to view (preview), prior to them preliminarily archiving or closing it.
@@ -56,15 +64,23 @@ If any transcription is pending on an encounter, users will not have the option 
 **Archive & Close** - Saves the progress of the encounter, releases all dictation performed within the encounter, closes (finalizes), and then archives it with a designated document ID.
 {{% info %}}
 
-Clicking the encounter section header or the![](archiving-closing-re-archiving-encounters.assets/100002010000003B0000001A0A6EF11FD321F1DA.png)button, at the bottom of each section, will also save the user's current progress in the encounter.
+
+Clicking the encounter section header or the![](../archiving-closing-re-archiving-encounters.assets/100002010000003B0000001A0A6EF11FD321F1DA.png)
+button, at the bottom of each section, will also save the user's current progress in the encounter.
 {{% /info %}}
 **Encounter Stage buttons** - To assist users in pushing the encounter through the established workflow, these buttons can be configured with any necessary stages and be placed at the top and bottom of the encounter for ease of access. These buttons simply change the *stage* of the open encounter, indicating it is ready for the next user.
-![](archiving-closing-re-archiving-encounters.assets/10000201000000DC00000027C659D974C858AA45.png)     ![](archiving-closing-re-archiving-encounters.assets/100002010000012500000024C58B0B5DDAB4AB47.png)
+
+![](../archiving-closing-re-archiving-encounters.assets/10000201000000DC00000027C659D974C858AA45.png)
+
+     ![](../archiving-closing-re-archiving-encounters.assets/100002010000012500000024C58B0B5DDAB4AB47.png)
+
 
 ## Archiving and Closing Encounters
 
 As noted, every button EXCEPT Archive & Close will take the user to a view, or preview, of the encounter. When previewing the encounter, users may **Archive and Close Encounter**, or **Create Preliminary Archive**. Both of these options, for all intents and purposes, will *archive the document with a designated doc ID*. 
-![](archiving-closing-re-archiving-encounters.assets/10000201000004AD0000018921F350F23E21FCED.png)
+
+![](../archiving-closing-re-archiving-encounters.assets/10000201000004AD0000018921F350F23E21FCED.png)
+
 
 ### Creating a Preliminary Archive
 

@@ -13,7 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
   - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
 source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Audiogram Validation Test Script'
@@ -151,7 +151,7 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-   <img src="audiogram-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
+   <img src="../audiogram-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
 
    {{% tip %}}
     1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
@@ -159,10 +159,10 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-   <img src="audiogram-validation-test-script.assets/10000201000003EE0000005E5A4755F56EC0CF16.png" />
+   <img src="../audiogram-validation-test-script.assets/10000201000003EE0000005E5A4755F56EC0CF16.png" />
 
 2. Select <strong>Audiogram</strong> from the Test Results chart tab.
-   <img src="audiogram-validation-test-script.assets/100002010000048400000108F0A13D489D7C5EAB.png" />
+   <img src="../audiogram-validation-test-script.assets/100002010000048400000108F0A13D489D7C5EAB.png" />
 
    {{% tip %}}
    The number in parenthesis indicates the number of items in each tab. 
@@ -171,11 +171,12 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 
 3. The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.
 
-   <img src="audiogram-validation-test-script.assets/10000201000002D000000040E446B1F04AEC2DFE.png" />
+   <img src="../audiogram-validation-test-script.assets/10000201000002D000000040E446B1F04AEC2DFE.png" />
 
 4. Clicking into the most recent audiogram will display all results that have been entered.
 
-   <img src="audiogram-validation-test-script.assets/10000201000002D2000000948433627B36653995.png" />
+   <img src="../audiogram-validation-test-script.assets/10000201000002D2000000948433627B36653995.png" />
+
 5. With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
 
     1. Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
@@ -197,17 +198,19 @@ To access and utilize these reports:
 1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
 2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.
 
-   <img src="audiogram-validation-test-script.assets/10000201000000DA000000CFE328126D44CB0032.png" />
+   <img src="../audiogram-validation-test-script.assets/10000201000000DA000000CFE328126D44CB0032.png" />
+
 3. Criteria may be added to filter or drill down data. 
     1. Audiogram Report
 
-       <img src="audiogram-validation-test-script.assets/10000201000001FC000000C48CD81B0B90A5E378.png" />
+       <img src="../audiogram-validation-test-script.assets/10000201000001FC000000C48CD81B0B90A5E378.png" />
 
 
 
     2. Audiometric Testing Report
 
-       <img src="audiogram-validation-test-script.assets/10000201000002060000008E08D14DCAF85ECE98.png" /> 
+       <img src="../audiogram-validation-test-script.assets/10000201000002060000008E08D14DCAF85ECE98.png" />
+        
 
 
 ## FAQs

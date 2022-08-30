@@ -7,7 +7,7 @@ lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Import/Export JSON Files'
@@ -91,20 +91,27 @@ In order to create a JSON file for export, the logged-in user must have the appr
 1. From the export database (i.e., the database from which the JSON file is being exported), navigate to the <strong>Control Panel</strong>.
 2. Go to the <strong>System Configuration</strong> tab.
 
-![](import-export-json-files.assets/1000020100000551000001D912D43247AA7F162E.png)
+
+![](../import-export-json-files.assets/1000020100000551000001D912D43247AA7F162E.png)
+
 
 3. Select the module(s) needed for export from the database. It is permissible to select multiple modules for one JSON file.
 
-![](import-export-json-files.assets/10000201000004BF000001360BAABE1718DA9FD1.png)
+
+![](../import-export-json-files.assets/10000201000004BF000001360BAABE1718DA9FD1.png)
+
 
 4. After selecting the module(s), click the <strong>Search</strong> button.
 5. A ListView will display for each of the modules selected. Users may choose to scroll through the page, marking each individual item for export, as needed; otherwise, there are two quick links available to <strong>Jump to Bottom</strong> of each ListView, or jump to the <strong>Bottom of Page</strong>.
 
-![](import-export-json-files.assets/10000201000004AB0000019F25483AD575C2808B.png)
+
+![](../import-export-json-files.assets/10000201000004AB0000019F25483AD575C2808B.png)
+
 
 6. Unless all items within each module need to be exported, be sure to click the <strong>Uncheck All </strong><strong><em>[Module Name]</em></strong><em> </em>button and select all of the items to be exported, individually.
 
-![](import-export-json-files.assets/10000201000004990000010D056576D227C01D37.png)
+
+![](../import-export-json-files.assets/10000201000004990000010D056576D227C01D37.png)
 
 {{% tip %}}
 For larger lists, use Ctrl + F to find specific words/phrases/spellings in the page.
@@ -112,7 +119,9 @@ For larger lists, use Ctrl + F to find specific words/phrases/spellings in the p
 
 7. When finished selecting all of the items for export, go to the bottom of the page and provide a meaningful name for the export file and click the <strong>Export</strong> button.
 
-![](import-export-json-files.assets/10000201000004AC000000FBD6E00770E211F541.png)
+
+![](../import-export-json-files.assets/10000201000004AC000000FBD6E00770E211F541.png)
+
 
 8. A message will display at the bottom of the screen, prompting the user to Save the file, or Cancel. Select <strong>Save</strong> to create the file for export. 
 
@@ -136,21 +145,28 @@ There can be issues if exporting and importing to different database versions. A
 
 
 
-   <img src="import-export-json-files.assets/10000201000004BF0000010C26D18269536BC031.png" />
+   <img src="../import-export-json-files.assets/10000201000004BF0000010C26D18269536BC031.png" />
+
 
 There are several import options available. The following instructions will focus on the process for importing a saved file.
 1. After navigating to the Import screen, click the <strong>Choose File</strong> button and browse to the JSON file.
 
-![](import-export-json-files.assets/10000201000004BF000000DA966491F91774234D.png)
+
+![](../import-export-json-files.assets/10000201000004BF000000DA966491F91774234D.png)
+
 
 2. Select and Open the JSON file. A status window will appear, briefly.
 
-![](import-export-json-files.assets/10000201000001CF0000003AC0B7D2620C9867C2.png)
+
+![](../import-export-json-files.assets/10000201000001CF0000003AC0B7D2620C9867C2.png)
+
 
 3. Once the file has loaded, users will want to select the link to <strong>Jump to Bottom</strong>.
 4. With all of the necessary files selected, click the <strong>Import Selected</strong> button at the bottom of the page.
 5. A status window will appear, displaying the progress of the importing of the JSON file. When all columns are green, the import is complete.
 
-![](import-export-json-files.assets/10000201000004A200000209ECE3F3CA89215354.png)
+
+![](../import-export-json-files.assets/10000201000004A200000209ECE3F3CA89215354.png)
+
 
 6. <strong>Test the import, immediately upon completion, to ensure proper functionality.</strong>

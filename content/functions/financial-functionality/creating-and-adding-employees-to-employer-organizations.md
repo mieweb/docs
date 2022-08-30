@@ -9,20 +9,21 @@ links:
   - 'finding-employer-organizations.md'
   - '../e-chart/editing-demographics.md'
 source: 'https://drive.google.com/open?id=1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.
 When creating and adding employees to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient chart for the employee and the process is completed from the patient demographics screen.
 1. [Find the employer organization](finding-employer-organizations.md) to which to add an employee.
 2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees of the employer organization.
 
-   <img src="creating-and-adding-employees-to-employer-organizations.assets/10000000000000E0000000939AB53CC97E68DAFB.png" />
+   <img src="../creating-and-adding-employees-to-employer-organizations.assets/10000000000000E0000000939AB53CC97E68DAFB.png" />
 
-   <img src="creating-and-adding-employees-to-employer-organizations.assets/10000000000003A10000018AF2857DA662A5A17B.png" />
+   <img src="../creating-and-adding-employees-to-employer-organizations.assets/10000000000003A10000018AF2857DA662A5A17B.png" />
 
 3. At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.
 
-   <img src="creating-and-adding-employees-to-employer-organizations.assets/100000000000028800000139E19BD4B7A91806CE.png" />
+   <img src="../creating-and-adding-employees-to-employer-organizations.assets/100000000000028800000139E19BD4B7A91806CE.png" />
+
 4. {info }
    The Social Security Number and email address are optional.{/info}
 5. If the employer organization includes partitions, in the <em>Partition</em> field, select <strong>the appropriate partition</strong> in which the employee's patient chart will be created.

@@ -4,8 +4,17 @@ title: 'Medication Management & E-Prescribing'
 fileName: 'medication-management-and-e-prescribing'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:13.905Z'
-version: '305'
+version: '308'
 fileMap:
+  prescribing-adding-medications.md:
+    type: 'md'
+    id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
+    title: 'Prescribing/Adding Medications'
+    modifiedTime: '2022-08-29T16:21:31.714Z'
+    version: 118
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Emily McComb'
+    fileName: 'prescribing-adding-medications.md'
   allergies-medications-tab-summary-view.md:
     type: 'md'
     id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
@@ -51,15 +60,6 @@ fileMap:
     mimeType: 'text/x-markdown'
     lastAuthor: ''
     fileName: 'e-refills-my-pending-refills-tab.md'
-  prescribing-adding-medications.md:
-    type: 'md'
-    id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
-    title: 'Prescribing/Adding Medications'
-    modifiedTime: '2020-03-16T11:42:07.149Z'
-    version: 96
-    mimeType: 'text/x-markdown'
-    lastAuthor: ''
-    fileName: 'prescribing-adding-medications.md'
   electronic-prescribing-for-controlled-substances-epcs.md:
     type: 'md'
     id: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
@@ -163,7 +163,7 @@ fileMap:
     id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
     title: 'Allergies and Intolerances'
     modifiedTime: '2020-02-27T20:05:07.498Z'
-    version: 70
+    version: 72
     mimeType: 'text/x-markdown'
     fileName: 'allergies-and-intolerances.md'
   drug-interaction-allergy-warnings.md:
@@ -203,7 +203,7 @@ fileMap:
     id: '1xDutuDVNI5xqD9S7e2mHZZUsJEm1umHv'
     title: 'Electronic Prescribing for Controlled Substances (EPCS)'
     modifiedTime: '2020-02-27T19:24:54.047Z'
-    version: 290
+    version: 293
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'electronic-prescribing-for-controlled-substances-epcs'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

@@ -2,7 +2,7 @@
 id: '1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
 title: 'Review Session - Patient Registration'
 date: '2020-02-27T21:24:28.695Z'
-version: 32
+version: 34
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -20,7 +20,7 @@ links:
   - '../../functions/patient-registration/medical-record-numbers.md'
   - '../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Review Session - Patient Registration'
@@ -54,7 +54,9 @@ Depending on the needs of the organization, entering and loading demographics ca
 ### Patient Registration
 
 As noted, a standard chart is typically created through an established HR interface; however, the customer may manually register new patients by navigating to the **E-Chart** sidemenu and selecting the [Patient Registration tab](https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration) at the top of the page.
- ![](review-session-patient-registration.assets/10000201000001A0000000B9366430DAA1F670E1.png)
+
+ ![](../review-session-patient-registration.assets/10000201000001A0000000B9366430DAA1F670E1.png)
+
 Begin by entering some of the individual's information:
 * Last Name (required)
 * First Name (required)
@@ -71,7 +73,9 @@ The Postal Code field will accommodate international postal codes and will displ
 #### Demographics
 
 To view any of the demographic information entered upon registration, navigate to the **Admin** chart tab of the individual's chart. The **Demographics** menu option is available from the Admin chart tab. When Demographics is selected, the page will load all of the information captured upon registration. Quick links are available for modifying or updating this information, as needed.
-![](review-session-patient-registration.assets/10000201000004FA000002FF0FCDB3A2E48D2BEF.png)
+
+![](../review-session-patient-registration.assets/10000201000004FA000002FF0FCDB3A2E48D2BEF.png)
+
 
 #### E-Chart Photos
 

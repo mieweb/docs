@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1fNg0sAfSa--FDnU7IhltWryuzjmLbiqj7K7tEymrRSA'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'E-Meds Report'
@@ -19,15 +19,23 @@ E-Meds Report displays medications that have been prescribed in {{% system-name 
 Click *Reports* tab on the left side-bar menu.
 Click *E-Meds Printed/Faxed/E-Sent* tab from the top tab menu.
 A search engine shows on the screen.
-![](e-meds-report.assets/1000000000000395000001817CBAA0F044F95BF7.png)
+
+![](../e-meds-report.assets/1000000000000395000001817CBAA0F044F95BF7.png)
+
 * <strong>Start/End Date:</strong> You must enter a date range. Both dates must be entered.
 * <strong>Prescriber:</strong> This is optional and you do not need to enter anything here. If you do wish to only show results limited to a specific prescriber, please begin typing the <em>last name</em> of the user and the system will auto-complete your choices.
     * You must select from one of these choices. It will not accept free-text.
-![](e-meds-report.assets/10000000000001F7000000981861EC8FE2550F98.png)
+
+![](../e-meds-report.assets/10000000000001F7000000981861EC8FE2550F98.png)
+
 Click the SEARCH button to show your search results.
 When you click SEARCH, it will show your results below it.
 This report shows total # at the bottom, then lists individual mr#, patient full name, the medication name that was prescribed, the date/time it was printed or faxed or e-sent (electronically transmitted via SureScripts), the patient's appt date, and the name of the prescribing physician.
-![](e-meds-report.assets/10000000000003920000002ABD1E6BF23CAF24F3.jpg)
+
+![](../e-meds-report.assets/10000000000003920000002ABD1E6BF23CAF24F3.jpg)
+
 The Method column tells you if that prescription was printed or faxed.
-![](e-meds-report.assets/100000000000038C00000129BACA202DFC9D051A.png)
+
+![](../e-meds-report.assets/100000000000038C00000129BACA202DFC9D051A.png)
+
 This log/report shows *all* patients who had prescriptions printed or faxed or e-sent through E-Meds module.

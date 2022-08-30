@@ -10,7 +10,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Chart Observations Import Options'
@@ -78,11 +78,21 @@ After this file is loaded:
 * Each of the patients has an org level 2 entry, but Test1 has no result for it.
 * Each of the patients has two myObs1 results.
 * Each of the patients has a myObs2 result.
-![](chart-observations-import-options.assets/10000201000003040000023EF1DA38424DF43AEA.png)
-![](chart-observations-import-options.assets/100002010000030600000258EC61DA51633DA0B2.png)
-![](chart-observations-import-options.assets/10000201000003040000025CB84FBD59D44B59AB.png)
-![](chart-observations-import-options.assets/10000201000003070000025B521DF8E56D811A0B.png)
-![](chart-observations-import-options.assets/100002010000030800000258EA8D429F84C38E6D.png)
+
+![](../chart-observations-import-options.assets/10000201000003040000023EF1DA38424DF43AEA.png)
+
+
+![](../chart-observations-import-options.assets/100002010000030600000258EC61DA51633DA0B2.png)
+
+
+![](../chart-observations-import-options.assets/10000201000003040000025CB84FBD59D44B59AB.png)
+
+
+![](../chart-observations-import-options.assets/10000201000003070000025B521DF8E56D811A0B.png)
+
+
+![](../chart-observations-import-options.assets/100002010000030800000258EA8D429F84C38E6D.png)
+
 
 ### **Import Updated Data**
 
@@ -139,11 +149,21 @@ The imported file is processed as follows:
 
 * Existing data is replaced with the new data.
 * Test4's result is deleted.
-![](chart-observations-import-options.assets/100002010000031700000254ED66697B09A7B411.png)
-![](chart-observations-import-options.assets/100002010000031500000259E417EA4E1E9D8913.png)
-![](chart-observations-import-options.assets/10000201000003190000024EB5AD56E916F27E00.png)
-![](chart-observations-import-options.assets/1000020100000316000002501468E71E6E8119E7.png)
-![](chart-observations-import-options.assets/10000201000003160000025ABF14F1620C38B1D2.png)
+
+![](../chart-observations-import-options.assets/100002010000031700000254ED66697B09A7B411.png)
+
+
+![](../chart-observations-import-options.assets/100002010000031500000259E417EA4E1E9D8913.png)
+
+
+![](../chart-observations-import-options.assets/10000201000003190000024EB5AD56E916F27E00.png)
+
+
+![](../chart-observations-import-options.assets/1000020100000316000002501468E71E6E8119E7.png)
+
+
+![](../chart-observations-import-options.assets/10000201000003160000025ABF14F1620C38B1D2.png)
+
 
 ## **Related Pages**
 

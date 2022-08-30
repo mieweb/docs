@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Health Surveillance Panels - Actions'
@@ -23,12 +23,18 @@ Users must have security access to be in Health Surveillance Management control 
 1. Control->Health Surveillance tab – Actions (Options column), Add Actions to each panel per data collected in the matrix your MIE Implementer provided.
 2. Add actions for Entry, Routine and Exit into same panel when applicable. This should be identified on the matrix collected from the client back in step 1 in previous pages.
 3. In the panel list, find the specific panel you want to add actions to.  Click the Actions hyperlink at the far right.
-![](health-surveillance-panels-actions.assets/100002010000048A00000024C5543D65BA34128A.png)
+
+![](../health-surveillance-panels-actions.assets/100002010000048A00000024C5543D65BA34128A.png)
+
 The screen will display the list of any existing panel actions already in that panel (if there are any). Make sure the panel action item you want to add does not already exist in the panel itself.
 To add a new panel action item to the panel, click the Add Action hyperlink at the top right corner of the screen.
-![](health-surveillance-panels-actions.assets/10000201000004C3000000BD68234E665B32E2A4.png)
+
+![](../health-surveillance-panels-actions.assets/10000201000004C3000000BD68234E665B32E2A4.png)
+
 Confirm you are in the Panel Action adding screen and the name of the panel you are going to add an action to is also listed in the title.
-![](health-surveillance-panels-actions.assets/100002010000024D000001CC2E1655D178D37D62.png)
+
+![](../health-surveillance-panels-actions.assets/100002010000024D000001CC2E1655D178D37D62.png)
+
 You usually add the representative event action to the panel first.  Fill out the fields needed according to the matrix, details of what gets done to what type of employee, and SUBMIT to save that one panel action to the panel.
 * <strong>Action Name:</strong> Required field. This is usually the name of a test that is a component of the panel. This name will be displayed for this panel action in listings and dialogs to employee's and supervisors.
 * <strong>Description:</strong> Optional. Can give supporting details or information about the Action Name.
@@ -40,10 +46,14 @@ You usually add the representative event action to the panel first.  Fill out t
 
 If your panel action item is for an exposure type of panel, you wouldn't want to set any lead Time days for an exposure type action item.
 {{% /note %}}
-![](health-surveillance-panels-actions.assets/10000201000003100000018048B3190B5F0278E9.png)
+
+![](../health-surveillance-panels-actions.assets/10000201000003100000018048B3190B5F0278E9.png)
+
 * <strong>Required for Certification:</strong> Select this to indicate this specific panel action is required. Leave unchecked if panel action is voluntary by the employee. If checkmarked, a panel member (employee) failing or becoming overdue for this action will become decertified for the panel.
 * <strong>Indication Rule:</strong> Can select from the drop-down any action rule found in ‘Action Rules' hyperlink module which must evaluate to be ‘true' in order for this specific panel action (that you are adding to the panel) to trigger for an employee. ‘Action Rules' are configured by an MIE Developer and MIE Implementer needs to get the data details for the configuration.  An example of an action rule is to only trigger this action item (procedure) on an employee if they are part of department xxx or another example is an action rule configured in the system that can be applied to this specific action (procedure) in this panel that only would trigger a Hep 3^rd injection action (procedure) on an employee in this panel if they've had their 2^nd Hepatitis injection given with a date in last 8 weeks.  See other help documentation titled <em>Health Surveillance Tab-Action Rules.pdf</em>
-![](health-surveillance-panels-actions.assets/100002010000045E0000007364E123B484B4DCAE.png)
+
+![](../health-surveillance-panels-actions.assets/100002010000045E0000007364E123B484B4DCAE.png)
+
 * <strong>Contraindication Rule:</strong> Can select from the drop-down any action rule found in ‘Action Rules' hyperlink module which must evaluate to be ‘false' in order for this specific panel action (that you are adding to the panel) to trigger for an employee.  See other help documentation titled <em>Health Surveillance Tab-Action Rules.pdf</em>
 * <strong>Trigger Type:</strong> Drop down options: Entry, Exit, and Routine. Select to define at what point in the employee's current job status, the company or other regulating agency requires this action item (procedure) to be completed.  Entry will kick off when employee is put in as a member of that panel.  Evaluator (scheduled cron job) will run every day and trigger routine ones based on details and if they exit – then those action items will trigger when evaluator runs to find that.  Not many companies have exits.
 * <strong>Trigger Date:</strong> What should trigger this action item on the panel? Uses Drop down options of when to trigger this action item:
@@ -53,7 +63,9 @@ If your panel action item is for an exposure type of panel, you wouldn't want to
 * <strong>Last Event – On Date of Birth</strong>: Triggers the action item on the Date of Birth (that is captured in the employee's demographics), on a schedule determined by the last time the action was performed and the frequency.  Example, a test is indicated to be completed specifically at age 19, 22, 25, 28 etc.
 * <strong>Last Event- On Date of Hire</strong>: Triggers the action item on the Date of Hire (that is captured in the employee's demographics and employee's Hire Date should show up in demo header/grey bar in {{% system-name %}} ) on a schedule determined by the last time the action was performed and the frequency.  Example, a test is indicated to be completed specifically at certain intervals based on the date of hire. 1999, 2002, 2005, 2008.
 * <strong>Other Action (Triggered)</strong>: Triggers the action item at the same time as another action item (that you indicate) from this panel. Example, An action for an Audiogram may be triggered by the Entry, Routine, Exit Action.  If checked, other actions may use this Action as a trigger. This must be selected for the action to display in the "Related Action" List. The "Related Action" list displays when then "Trigger Date field" is set to "Other Action (Triggered)" or "Prior Action (Completed)".  Another example is for action items to trigger with the representative event if you utilize that type of Representative Event programming.  Then all the action items get triggered together for the panel. Triggers all with same date usually tied to rep event.
-![](health-surveillance-panels-actions.assets/100002010000033D0000003A6BC09B0FC4FEC8D0.png)
+
+![](../health-surveillance-panels-actions.assets/100002010000033D0000003A6BC09B0FC4FEC8D0.png)
+
 * <strong>Point in Time:</strong> The action item will be triggered on the same day and month each year (must key in MM/DD you want for point in time).
 * <strong>Prior Action (Completed):</strong> Use when there's an "other action item" that has to have been marked as completed before this action item will trigger. This triggers the action item at a given amount of time, specified by the time value/unit entered for Frequency, <em>after</em> another prior action in this panel was performed (then you must checkmark the prior action item(s) that must have been marked as completed before this action item will trigger).  An example of this would be a Hep B 2^nd series injection.  The 1^st injection would need to be marked complete first before you'd want Hep #2 to trigger as due on the employee.
 * <strong>Medical Anniversary Date</strong>: Assumes Medical Anniversary date has been captured into the patient demographics.  Due on the employee's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.  Medical anniversary is like a birth date – triggers on a point of time, so their med anniv day may be years ago ex: 2/28/2002 even though it's 2015 now.  Year of med anniv date doesn't matter. Typically the Medical Anniversary date would be set on employee's charts to be the last date of the "month" they are due – not the first of the month. Ex: due month is September, you put in 9/30/2015 in medical anniversary date field and they have the month of September (according to other panel action item details set) to get it done and receive notifications in that due month also, instead of the month before their med anniversary date.
@@ -71,16 +83,26 @@ If your panel action item is for an exposure type of panel, you wouldn't want to
 * <strong>Modified Date:</strong> Automatically generated and tracked by system and displays the last modified date/time and initials of the user who last modified this individual action item.
 * <strong>Change Reason:</strong> Any time a panel action is modified/edited, a reason for change must be typed by the user who is modifying. This is required before the user may submit and save changes to the panel action item.
 When setting up panels with Representative Events, it is suggested that you: create your action items for each panel for entry, routine and exit (as applicable – some clients only have entry or entry & routine, or just routine or all 3 for a specific panel). The Representative Event action item is generally named the same name as the panel.
-![](health-surveillance-panels-actions.assets/1000020100000459000000C61CFEED484EB1DB04.png)
+
+![](../health-surveillance-panels-actions.assets/1000020100000459000000C61CFEED484EB1DB04.png)
+
 And then when you add the other action items (procedure) to the panel (for example: a Physical Exam that needs done for entry and routine and exit for the panel), you can add that (ex: Physical Exam) panel action item once and set it to be trigger type: *routine*, then set Trigger Date to be *Other Action Triggered*  then in the next drop-down simply checkmark the entry, routine and/or exit action items from the list.  If you do not see them in the list, that means you haven't made them action items yet.   You need to add those action items first, then they will be displayed in that drop-down list to select from.  Therefore, you only have to enter the other action items (procedures) once per Health Surveillance panel even if the panel is entry and routine and exit and calls for the same action item (procedure) to be in the entry/routine/exit type trigger. Suggested to do that instead of adding action items for each type individually. For example wouldn't want to add: Chest Xray-Entry, then add another action item named Check Xray-Exit, etc and make the panel action items list lengthy.  Can all be encompassed by making the representative entry/routine/exit events first (depending on the matrix details) in the panel as action items, then add the individual panel items that also comprise the panel and set them as routine/other action triggered and checkmark the entry and/or routine and/or exit from there if that action item applies to more than one type of trigger.
-![](health-surveillance-panels-actions.assets/10000201000002EF0000016FDD003C47184E3356.png)
+
+![](../health-surveillance-panels-actions.assets/10000201000002EF0000016FDD003C47184E3356.png)
+
 
 ## Diagramed Examples
 
 Below are timeline images for the 3 most common trigger dates for panel action items. These diagrams illustrate the concepts of lead time, visible date, grace period, and due date.
 This timeline diagram shows an example of a panel action item that is set for **Date of Birth** as the trigger date type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
-![](health-surveillance-panels-actions.assets/10000201000004D10000013B3223A2E1CE54A76A.png)
+
+![](../health-surveillance-panels-actions.assets/10000201000004D10000013B3223A2E1CE54A76A.png)
+
 This timeline diagram shows an example of a panel action item that is set for **Last Event** as the trigger date type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
-![](health-surveillance-panels-actions.assets/10000201000004E100000133F62414BA3693DF44.png)
+
+![](../health-surveillance-panels-actions.assets/10000201000004E100000133F62414BA3693DF44.png)
+
 This timeline diagram shows an example of a panel action item that is set for **Medical Anniversary Date** as the trigger date type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
-![](health-surveillance-panels-actions.assets/10000201000004DC0000013F8EE9BD7380E8B5F4.png)
+
+![](../health-surveillance-panels-actions.assets/10000201000004DC0000013F8EE9BD7380E8B5F4.png)
+

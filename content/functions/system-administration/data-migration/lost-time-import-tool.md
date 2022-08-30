@@ -2,13 +2,13 @@
 id: '1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
 title: 'Lost Time Import Tool'
 date: '2022-03-08T18:36:59.785Z'
-version: 40
+version: 46
 lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203'
 source: 'https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Lost Time Import Tool'
@@ -18,15 +18,21 @@ menu:
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 
-![](lost-time-import-tool.assets/10000000000000A70000002A707D3271ABC5312F.png)
+
+![](../lost-time-import-tool.assets/10000000000000A70000002A707D3271ABC5312F.png)
+
 
 If user(s) have security permission to allow .csv data import, then the user(s) can access the DATA IMPORT tab, this feature allows the user access to download a .csv template file and fill in patient demographic data using a spreadsheet application. If you have it set to NO, you can't view or access the Data Import tab at all.
 
-![](lost-time-import-tool.assets/10000000000003800000009CC8F8282D62CB688B.jpg)
+
+![](../lost-time-import-tool.assets/10000000000003800000009CC8F8282D62CB688B.jpg)
+
 
 If your system does not have a Data Import tab, please contact your MIE Implementer to have the tab programmed on your system.
 
-![](lost-time-import-tool.assets/10000000000001900000003DBFF4A8F37497C81B.jpg)
+
+![](../lost-time-import-tool.assets/10000000000001900000003DBFF4A8F37497C81B.jpg)
+
 
 Once in the Data Import tab, use the drop down to select the specific {{% system-name %}} data import type and click the GO button.
 
@@ -36,11 +42,15 @@ Once in the Data Import tab, use the drop down to select the specific {{% system
 
 In this help document we will be going through the {{% system-name %}} Lost Time import type.
 
-![](lost-time-import-tool.assets/100002010000030600000112A1168367E79C0CB5.png)
+
+![](../lost-time-import-tool.assets/100002010000030600000112A1168367E79C0CB5.png)
+
 
 Once you've made the drop-down selection from the Data Import tool type and clicked the GO button for {{% system-name %}} Lost Time import, you can download the.csv template file [[Download Template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)]. From your own downloaded copy, fill in your Lost Time data using a spreadsheet application.
 
-![](lost-time-import-tool.assets/10000201000003B50000018D654DD8BD571DD914.png)
+
+![](../lost-time-import-tool.assets/10000201000003B50000018D654DD8BD571DD914.png)
+
 
 This {{% system-name %}} import tool allows the creating of encounters and creation of cases/incidents in a patient's chart with the data provided in the import spreadsheet.
 
@@ -63,7 +73,9 @@ VERBOSE mode will print out what the import is doing to the screen and the log f
 
 You can view the [spreadsheet template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203) and download your own copy. Again, even though our template shows 5 tabs for each of the 5 types of Lost Time imports available, each must be on its own unique separate file when you go to import that type.
 
-![](lost-time-import-tool.assets/10000201000002E9000000E3C6DF7C88FC2CD360.png)
+
+![](../lost-time-import-tool.assets/10000201000002E9000000E3C6DF7C88FC2CD360.png)
+
 
 
 ## Data and Values for Encounters and Incidents

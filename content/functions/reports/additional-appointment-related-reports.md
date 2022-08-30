@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Additional Appointment-Related Reports'
@@ -21,7 +21,9 @@ The Appointment Cancel Reason Report displays a report of cancelled appointments
 Click *Reports* tab on the left side-bar menu.
 Click *Appt Cancel Reason* tab from the top tab menu.
 The search criteria screen will display.
-![](additional-appointment-related-reports.assets/10000000000001C0000000C80C3299A968CA9C4C.png)
+
+![](../additional-appointment-related-reports.assets/10000000000001C0000000C80C3299A968CA9C4C.png)
+
 * <strong>Dates:</strong> Enter any date ranges. If you want a full history, simply enter an end date of today.
 * <strong>Resource:</strong> Select a resource from the drop-down.
 * <strong>Location:</strong> Select a location from the drop-down.
@@ -36,7 +38,9 @@ Click *Appt Duplicate* tab from the top tab menu.
 It will automatically generate a list of duplicate appointments specific to a patient.
 It will also show the number of duplicate appointments for that patient.
 The Startdate is the date the duplicate appointment occurs.
-![](additional-appointment-related-reports.assets/1000000000000398000000C085E73A260B0BCEE4.png)
+
+![](../additional-appointment-related-reports.assets/1000000000000398000000C085E73A260B0BCEE4.png)
+
 You can click View Printable and print out a basic black/white printable layout by then going to FILE and PRINT from that view.
 
 ## Appointment No Location Report
@@ -45,7 +49,9 @@ The Appointment No Location Report lists appointments scheduled without a locati
 Click *Reports* tab on the left side-bar menu.
 Click *Appt No Location* tab from the top tab menu.
 It will automatically generate a list of appointments without locations. These are appointments schedule that do not have a location selected for the patient's appointment.
-![](additional-appointment-related-reports.assets/1000000000000393000000F58BBD2B4EF961EAF8.png)
+
+![](../additional-appointment-related-reports.assets/1000000000000393000000F58BBD2B4EF961EAF8.png)
+
 You can click View Printable and print out a basic black/white printable layout by then going to FILE and PRINT from that view.
 
 ## Appointments Needing Dication Report
@@ -54,7 +60,9 @@ The Appointments Needing Dictation report displays a report of appointments that
 This is an optional list report and can be turned on for your practice.
 It can be shown in the Reports side tab and/or it can be shown in the Omniscope side tab or both.
 There are many options for this report, however the only way to get a patient off this list is to add dictation to the appointment date by clicking the add dictation link in the options column.
-![](additional-appointment-related-reports.assets/1000000000000448000000ABB3BF0481452B9AED.png)
+
+![](../additional-appointment-related-reports.assets/1000000000000448000000ABB3BF0481452B9AED.png)
+
 Your MIE Implementer can add a programming clause in that layout to exclude appointments that have been cancelled, or are no-show appointments. This will take those patient appointments off this report list or keep those from showing up on this report list.
 MIE can also exclude certain appointment types from this report list as well (ex: your practice never needs dictations done for an appointment type of Injection, so you can have your MIE Implementer program this report list to exclude that appointment type from showing up on this list).
 MIE can also program a date range for this report list. You can show the entire report list, or you can ask for it to be programmed to only show the appointments needing dictation within the last 30 days from today's logged in date or ask it to be programmed to ‘start' this report list from a certain starting date vs. the entire life of the database, etc.

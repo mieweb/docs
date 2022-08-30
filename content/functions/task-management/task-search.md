@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Task Search'
@@ -17,7 +17,9 @@ menu:
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 
-![](task-search.assets/1000020100000426000001EB333C8DA639973797.png)
+
+![](../task-search.assets/1000020100000426000001EB333C8DA639973797.png)
+
 
 The Task Search screen contains search criteria fields to help render a listing of created tasks in the {{% system-name %}} system.
 The search requires at least one search criteria field to be specified before any results can generate.  Using the search criteria fields can help narrow down the results to as granular as needed.
@@ -39,7 +41,9 @@ The search criteria fields are described as:
 * Document Type: Tasks created in the system store as their own document.  Typically they store as Task Note document, but some fast tasks store as their own unique document type.  In this field, can enter in task document type(s) to render matching results.
 Once any applicable search criteria fields are filled out, click the Submit button to display matching results. Task Search Results will display on the screen.
 
-![](task-search.assets/10000201000004AE00000153296E477C962C2C2F.png)
+
+![](../task-search.assets/10000201000004AE00000153296E477C962C2C2F.png)
+
 
 {{% tip %}}
 
@@ -48,7 +52,9 @@ The Show CSV link is available to export the results into an excel spreadsheet 
 
 If need to run another Task Search, but want to keep most of the search criteria fields the same as previously entered and only modify a few, simply click the Modify Search Criteria hyperlink found at the top right corner of the results screen.
 
-![](task-search.assets/10000201000004AE00000153FA94F329AC470BBA.png)
+
+![](../task-search.assets/10000201000004AE00000153FA94F329AC470BBA.png)
+
 
 Clicking that will take you back to the Task Search, but keeps all the search criteria fields set to the previously entered criteria.  At that point, you can simply modify any specific search field(s) needed, without having to enter fields and data again from scratch. Click the Submit button to run a modified search.
 

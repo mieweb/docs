@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1t7e9aucgiVOYrb6TxzA_fD1aG3VRWSNUcwJyNaENOd0'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Orders Usage Report'
@@ -19,7 +19,9 @@ This report shows what procedures/items were ordered using e-orders module and c
 Click *Reports* tab on the left sidebar menu.
 Click *Order Usage Report* tab.
 The orders usage report filters screen will open. Enter any criteria fields you wish to narrow down your results for.
-![](orders-usage-report.assets/10000201000001C80000017B0EBC3C1BFDAD1706.png)
+
+![](../orders-usage-report.assets/10000201000001C80000017B0EBC3C1BFDAD1706.png)
+
 Fields are optional to narrow down your search results:
 * <strong>Ordered Dates:</strong> Type in a specific date range to view results for.
 * <strong>Location(s):</strong> It is required to choose at least one location. Begin to type in a specific location and it will auto-complete to give you matching choices of active locations for your database (shows inside and outside locations). As soon as you select a location, it will save that location and you can begin to type another location to select if you wish to show results for multiple locations. Click the [-] minus sign to take a location off of your search.
@@ -34,7 +36,11 @@ Fields are optional to narrow down your search results:
 * <strong>Display Options:</strong> 2 choices:
     * <em>Show detailed list</em> is automatically checked. This shows a detailed list of patients and order specifics, along with the overall results. If you uncheck-mark this, you will not see a patient specific listing and will only see the overall results for your criteria field search.
     * <em>Show contents of panels</em> is automatically checked. This shows the order panel column and item contents of any panels that were ordered. These panel contents will render in your search results if checkmarked. If you uncheck-mark this, you will not see the specific panel contents in your results.
-![](orders-usage-report.assets/100000000000037C0000011F7385ABF0E893EA00.png)
+
+![](../orders-usage-report.assets/100000000000037C0000011F7385ABF0E893EA00.png)
+
 Click the SEARCH button to render your results. It reports on how many of specific orders are ordered by location, by provider, and can output details of the orders.
 If you wish to print your report results, simply click view printable link at the top right of your search results screen. To modify your search without having to start all over, click the modify search link. The Save Printable View link saves the printable view as a time stamped html file.
-![](orders-usage-report.assets/10000201000002DA000001148CCC0CEDE34302B2.png)
+
+![](../orders-usage-report.assets/10000201000002DA000001148CCC0CEDE34302B2.png)
+

@@ -11,7 +11,7 @@ links:
   - 'data-import-standards.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Observation Codes CSV API'
@@ -34,14 +34,20 @@ CSV refers to the type of file and format of data needed to import information i
 
 The first screenshot shows a simple CSV file containing the required field and several of the best practice fields. This example data is available for full inspection on the tab "Example" in the specification (see link in Specification section of this page).
 
-![](observation-codes-csv-api.assets/10000201000005560000005198AC9E84B4B54CBF.png)
+
+![](../observation-codes-csv-api.assets/10000201000005560000005198AC9E84B4B54CBF.png)
+
 
 This screenshot shows how the Bilirubin observation code should appear when viewing in the Observation Codes Manager after the import has been run with the example CSV file.
 
-![](observation-codes-csv-api.assets/1000020100000556000001F5FFDFD253429C81DA.png)
+
+![](../observation-codes-csv-api.assets/1000020100000556000001F5FFDFD253429C81DA.png)
+
 
 And this final screenshot shows how the RBC observation code should appear when viewing in the Observation Codes Manager after the import has been run with the example CSV file.
-![](observation-codes-csv-api.assets/1000020100000556000001F808068F8E1BD8B89D.png)
+
+![](../observation-codes-csv-api.assets/1000020100000556000001F808068F8E1BD8B89D.png)
+
 
 ## **Specifications**
 

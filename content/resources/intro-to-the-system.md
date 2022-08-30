@@ -9,7 +9,7 @@ links:
   - 'intro-to-the-system/system-anatomy.md'
   - '../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Intro to the System'
@@ -34,7 +34,9 @@ To the right:
 ### **Quick View**
 
 Most users see this page when they sign in to the system. It is a customizable dashboard featuring information from throughout the system pertinent to the user's daily job functions. This information is organized into areas called Portlets. Portlets can be collapsed and expanded — or moved by dragging and dropping, so what's important to a specific user can be placed at the top. You can also remove Portlets entirely.
-![](intro-to-the-system.assets/10000201000004AD0000022F843CBEDF739CCC4F.png)
+
+![](../intro-to-the-system.assets/10000201000004AD0000022F843CBEDF739CCC4F.png)
+
 
 ### **E-Chart**
 
@@ -48,7 +50,9 @@ encounters, notes and comments.
 * The Patient Extended Toolbar displays demographic, encounter, and other related information.
 * The Alerts toolbar displays available alert information — such as allergies or do not release requests.
 * The Encounter toolbar displays information and links to the open patient encounter.
-![](intro-to-the-system.assets/10000201000004AD0000022E098758EEF7FFA4D2.png)
+
+![](../intro-to-the-system.assets/10000201000004AD0000022E098758EEF7FFA4D2.png)
+
 
 ### **Dynamic Encounter**
 
@@ -67,7 +71,9 @@ Click the section heading to open a section for editing. When the section is ope
 When a section is open for editing, a Next button appears at the bottom. Click the next button to open the next available section for editing. Some sections have display options. The following options are available:
 * Summary view - Displays data in a bulleted list.
 * Detail view - Displays data in a table.
-![](intro-to-the-system.assets/10000201000004AD0000022E3E8010F0553A5B2F.png)
+
+![](../intro-to-the-system.assets/10000201000004AD0000022E3E8010F0553A5B2F.png)
+
 
 ## **Related Pages**
 

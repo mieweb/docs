@@ -56,7 +56,7 @@ fileMap:
     id: '1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
     title: 'Kiosk'
     modifiedTime: '2020-03-11T18:15:47.911Z'
-    version: 57
+    version: 59
     mimeType: 'text/x-markdown'
     lastAuthor: ''
     fileName: 'kiosk.md'
@@ -76,4 +76,4 @@ fileMap:
     version: 27
     mimeType: 'text/x-markdown'
     fileName: 'employer-employee-second-portal-setup.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

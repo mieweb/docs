@@ -4,7 +4,7 @@ title: 'Scheduling'
 fileName: 'scheduling'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:06.518Z'
-version: '293'
+version: '295'
 fileMap:
   checkin.md:
     type: 'md'
@@ -20,7 +20,7 @@ fileMap:
     id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
     title: 'Appt Types Tab'
     modifiedTime: '2021-02-24T15:17:03.005Z'
-    version: 115
+    version: 118
     mimeType: 'text/x-markdown'
     lastAuthor: 'egrzetich'
     fileName: 'appt-types-tab.md'
@@ -94,4 +94,4 @@ fileMap:
     version: 21
     mimeType: 'text/x-markdown'
     fileName: 'pat-appt-wizard-tab.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

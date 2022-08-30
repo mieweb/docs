@@ -9,7 +9,7 @@ links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Applicant Portal'
@@ -116,15 +116,19 @@ Following the instructions below, *update* these system settings:
 3. Locate the PO Name, and click the hyperlink.
 4. Locate and select the [Portal Setup](https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43) tab.
 5. Once there, click the <strong>Applicant Portal</strong> header, to expand the section. Click the <strong>Run Setup</strong> button.
-![](applicant-portal.assets/100002010000049E00000153DCC4CF527A2CEDC1.png)
+
+![](../applicant-portal.assets/100002010000049E00000153DCC4CF527A2CEDC1.png)
 
 6. The Setup Wizard will run.
 
-![](applicant-portal.assets/10000201000001CD000000ADD54404038DC69D56.png)
+
+![](../applicant-portal.assets/10000201000001CD000000ADD54404038DC69D56.png)
 
 7. After running the portal setup, review the <strong>Security Requirements</strong> and update, as necessary.
 
-![](applicant-portal.assets/100002010000049D0000019FFCD213BA05E05B6E.png)
+
+![](../applicant-portal.assets/100002010000049D0000019FFCD213BA05E05B6E.png)
+
 
 {{% note %}}
 These Security Requirements should always be followed for ensuring the proper security role settings.
@@ -160,7 +164,8 @@ These Security Requirements should always be followed for ensuring the proper se
 
 
 
-   <img src="applicant-portal.assets/10000201000005A00000015882EE97168CBFAC82.png" />
+   <img src="../applicant-portal.assets/10000201000005A00000015882EE97168CBFAC82.png" />
+
 
 ## Configure Applicant Portal
 

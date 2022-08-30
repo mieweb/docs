@@ -8,14 +8,15 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1kshWUcFrvmzCRJ9LGkoDz6WRXkLMRJigN7IBjrv11sE'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 1. [Find employer organizations](finding-employer-organizations.md).
 2. From the search results, select the <strong>name of the organization</strong> in which to edit contacts. The system displays information about the organization.
 3. Select the <strong>Overview (EO)</strong> tab.
 4. In the <em>Contacts</em> section, select the <strong>Edit</strong> button. The system makes the contacts available to be edited.
 
-   <img src="editing-employer-organization-contacts.assets/10000000000000340000003076FFC6355C947296.png" />
+   <img src="../editing-employer-organization-contacts.assets/10000000000000340000003076FFC6355C947296.png" />
+
 5. To change the end or start date of the contact:
     1. In the <em>Options</em> column, for the contact to edit, select the <strong>Edit</strong> button.
     2. Change the entries of the appropriate day, month, or year fields.

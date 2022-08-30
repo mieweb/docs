@@ -1,13 +1,13 @@
 ---
 id: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
 title: 'Injury Care'
-date: '2022-08-13T17:04:26.070Z'
-version: 62
-lastAuthor: 'Doug Horner'
+date: '2022-08-25T08:42:18.937Z'
+version: 69
+lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Injury Care'
@@ -22,7 +22,9 @@ menu:
 
 {{% system-name %}} can be used for treating, documenting, managing, *and* reporting injuries and illnesses, which can be initiated from a visit to the clinic, or in advance, via an employee portal. This allows incidents to be reported anytime, day or night. And regardless of how the information is captured, {{% system-name %}} can compile the recorded data into form overlays, minimizing the need for redundant data entry, while also easing reporting burdens. Overall, {{% system-name %}} not only incorporates streamlined processes for recording and treating injuries and illnesses, it also provides tools for easy tracking and follow-up through the use of its integrated worklists and tasking module.
 
-![](injury-care.assets/100002010000072D0000044422DA15163A28410F.png)
+
+![](../diagrams/injury-care.svg)
+
 
 
 ## Case Management

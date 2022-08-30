@@ -1,7 +1,7 @@
 ---
 type: 'page'
 title: 'TOC'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
  * Diagrams
  * Functions
@@ -705,7 +705,6 @@ wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
   * [Injection/Immunization Management](functions/injection-immunization-management.md)
   * [Injury Care](functions/injury-care.md)
   * [Medication Management & E-Prescribing](functions/medication-management-and-e-prescribing.md)
-  * [New document](functions/new-document.md)
   * [Order & Result Management](functions/order-and-result-management.md)
   * [Patient Registration](functions/patient-registration.md)
   * [Portal Management](functions/portal-management.md)

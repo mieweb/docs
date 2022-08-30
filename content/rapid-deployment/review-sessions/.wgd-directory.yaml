@@ -4,8 +4,17 @@ title: 'Review Sessions'
 fileName: 'review-sessions'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-02-27T19:24:37.482Z'
-version: '288'
+version: '292'
 fileMap:
+  review-session-case-management.md:
+    type: 'md'
+    id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
+    title: 'Review Session - Case Management'
+    modifiedTime: '2022-08-30T13:00:16.503Z'
+    version: 385
+    mimeType: 'text/x-markdown'
+    lastAuthor: 'Bridget Hamm'
+    fileName: 'review-session-case-management.md'
   review-session-pre-placement.md:
     type: 'md'
     id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
@@ -20,7 +29,7 @@ fileMap:
     id: '17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU'
     title: 'Review Session - Work-Related Exams'
     modifiedTime: '2021-08-27T17:37:27.880Z'
-    version: 36
+    version: 38
     mimeType: 'text/x-markdown'
     lastAuthor: 'sriecke'
     fileName: 'review-session-work-related-exams.md'
@@ -29,7 +38,7 @@ fileMap:
     id: '1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
     title: 'Review Session - System Administration'
     modifiedTime: '2020-02-27T21:26:12.492Z'
-    version: 39
+    version: 43
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-system-administration.md'
@@ -38,7 +47,7 @@ fileMap:
     id: '1HBDLPvHAyvO8K1g2gk8mlzBn76G84bBxUUiFlgbFzbQ'
     title: 'Review Session - Reports'
     modifiedTime: '2020-02-27T21:26:07.051Z'
-    version: 20
+    version: 22
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-reports.md'
@@ -47,7 +56,7 @@ fileMap:
     id: '19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
     title: 'Review Session - Fax Manager'
     modifiedTime: '2020-02-27T21:25:58.999Z'
-    version: 30
+    version: 32
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-fax-manager.md'
@@ -56,7 +65,7 @@ fileMap:
     id: '1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc'
     title: 'Review Session - E-Sign'
     modifiedTime: '2020-02-27T21:25:54.536Z'
-    version: 24
+    version: 26
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-e-sign.md'
@@ -65,7 +74,7 @@ fileMap:
     id: '1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA'
     title: 'Review Session - Tasking'
     modifiedTime: '2020-02-27T21:25:50.587Z'
-    version: 23
+    version: 25
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-tasking.md'
@@ -83,7 +92,7 @@ fileMap:
     id: '1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
     title: 'Review Session - Medication Management/Electronic Prescribing'
     modifiedTime: '2020-02-27T21:25:41.678Z'
-    version: 43
+    version: 47
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-medication-management-electronic-prescribing.md'
@@ -92,7 +101,7 @@ fileMap:
     id: '1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
     title: 'Review Session - Order and Result Management'
     modifiedTime: '2020-02-27T21:25:30.979Z'
-    version: 24
+    version: 26
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-order-and-result-management.md'
@@ -101,25 +110,16 @@ fileMap:
     id: '1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
     title: 'Review Session - Health Surveillance'
     modifiedTime: '2020-02-27T21:25:22.522Z'
-    version: 27
+    version: 29
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-health-surveillance.md'
-  review-session-case-management.md:
-    type: 'md'
-    id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-    title: 'Review Session - Case Management'
-    modifiedTime: '2020-02-27T21:25:11.802Z'
-    version: 26
-    mimeType: 'text/x-markdown'
-    lastAuthor: 'aquandt'
-    fileName: 'review-session-case-management.md'
   review-session-injury-care.md:
     type: 'md'
     id: '1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
     title: 'Review Session - Injury Care'
     modifiedTime: '2020-02-27T21:25:07.347Z'
-    version: 26
+    version: 28
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-injury-care.md'
@@ -128,7 +128,7 @@ fileMap:
     id: '1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
     title: 'Review Session - Portal Management'
     modifiedTime: '2020-02-27T21:25:02.537Z'
-    version: 43
+    version: 45
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-portal-management.md'
@@ -137,7 +137,7 @@ fileMap:
     id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
     title: 'Review Session - Encounter Workflow'
     modifiedTime: '2020-02-27T21:24:54.640Z'
-    version: 54
+    version: 56
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-encounter-workflow.md'
@@ -146,7 +146,7 @@ fileMap:
     id: '16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
     title: 'Review Session - Scheduler'
     modifiedTime: '2020-02-27T21:24:45.329Z'
-    version: 31
+    version: 33
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-scheduler.md'
@@ -155,7 +155,7 @@ fileMap:
     id: '14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y'
     title: 'Review Session - Checkin'
     modifiedTime: '2020-02-27T21:24:39.047Z'
-    version: 32
+    version: 34
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-checkin.md'
@@ -164,7 +164,7 @@ fileMap:
     id: '1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
     title: 'Review Session - Document Management'
     modifiedTime: '2020-02-27T21:24:36.161Z'
-    version: 26
+    version: 28
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-document-management.md'
@@ -173,7 +173,7 @@ fileMap:
     id: '1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
     title: 'Review Session - Patient Registration'
     modifiedTime: '2020-02-27T21:24:28.695Z'
-    version: 32
+    version: 34
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-patient-registration.md'
@@ -182,8 +182,8 @@ fileMap:
     id: '1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
     title: 'Review Session - System Configuration'
     modifiedTime: '2020-02-27T21:24:23.063Z'
-    version: 61
+    version: 64
     mimeType: 'text/x-markdown'
     lastAuthor: 'aquandt'
     fileName: 'review-session-system-configuration.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

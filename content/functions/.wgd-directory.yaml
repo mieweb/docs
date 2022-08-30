@@ -6,30 +6,30 @@ mimeType: 'application/vnd.google-apps.folder'
 date: '2021-04-18T01:13:22.858Z'
 version: '285'
 fileMap:
-  new-document.md:
+  encounters.md:
     type: 'md'
-    id: '1kNB6VF1k8qPt9UiCv2MLIhhB4yI9aetGq_pzK1NJFQA'
-    title: 'New document'
-    modifiedTime: '2022-08-23T14:08:37.531Z'
-    version: 8
+    id: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
+    title: 'Encounters'
+    modifiedTime: '2022-08-30T20:35:29.587Z'
+    version: 74
     mimeType: 'text/x-markdown'
-    lastAuthor: 'Doug Horner'
-    fileName: 'new-document.md'
+    lastAuthor: 'Will Reiske'
+    fileName: 'encounters.md'
   injury-care.md:
     type: 'md'
     id: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
     title: 'Injury Care'
-    modifiedTime: '2022-08-13T17:04:26.070Z'
-    version: 62
+    modifiedTime: '2022-08-25T08:42:18.937Z'
+    version: 69
     mimeType: 'text/x-markdown'
-    lastAuthor: 'Doug Horner'
+    lastAuthor: 'Grzegorz Godlewski'
     fileName: 'injury-care.md'
   medication-management-and-e-prescribing.md:
     type: 'md'
     id: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
     title: 'Medication Management & E-Prescribing'
     modifiedTime: '2022-02-08T15:08:43.651Z'
-    version: 26
+    version: 31
     mimeType: 'text/x-markdown'
     lastAuthor: 'Gavin Roudebush'
     fileName: 'medication-management-and-e-prescribing.md'
@@ -38,7 +38,7 @@ fileMap:
     id: '18MuB6MrJPVEBSBTsAsVJKsqUQbVtSijh'
     title: 'Absence Management'
     modifiedTime: '2021-09-30T18:34:03.743Z'
-    version: 169
+    version: 171
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'absence-management'
   portal-management.md:
@@ -66,15 +66,6 @@ fileMap:
     version: 229
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'financial-functionality'
-  encounters.md:
-    type: 'md'
-    id: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    title: 'Encounters'
-    modifiedTime: '2020-03-27T15:11:48.239Z'
-    version: 68
-    mimeType: 'text/x-markdown'
-    lastAuthor: ''
-    fileName: 'encounters.md'
   quality-of-care.md:
     type: 'md'
     id: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
@@ -195,7 +186,7 @@ fileMap:
     id: '1yc-v7_KxMHDgNdSQGDPc9oTmF6RM0cTk'
     title: 'Quality of Care'
     modifiedTime: '2020-02-27T19:24:50.847Z'
-    version: 307
+    version: 309
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'quality-of-care'
   portal-management:
@@ -251,7 +242,7 @@ fileMap:
     id: '1X_EpIib7ft6HgFa24I8qQDLPoSQDI0wa'
     title: 'Injection/Immunization Management'
     modifiedTime: '2020-02-27T19:24:14.703Z'
-    version: 300
+    version: 302
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'injection-immunization-management'
   medication-management-and-e-prescribing:
@@ -259,7 +250,7 @@ fileMap:
     id: '1QjWWE0PKiKX4vua8TqWK9T3CqkJ4UqJN'
     title: 'Medication Management & E-Prescribing'
     modifiedTime: '2020-02-27T19:24:13.905Z'
-    version: 305
+    version: 308
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'medication-management-and-e-prescribing'
   order-and-result-management:
@@ -267,7 +258,7 @@ fileMap:
     id: '1DD9YzKQU6V3gX0kfSPC_rXkamScMbqAn'
     title: 'Order & Result Management'
     modifiedTime: '2020-02-27T19:24:13.077Z'
-    version: 305
+    version: 307
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'order-and-result-management'
   health-surveillance:
@@ -275,7 +266,7 @@ fileMap:
     id: '1vvPtXtsHlz61luI3a7NTjPhvSWgnXUcF'
     title: 'Health Surveillance'
     modifiedTime: '2020-02-27T19:24:11.837Z'
-    version: 301
+    version: 303
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'health-surveillance'
   injury-care:
@@ -299,7 +290,7 @@ fileMap:
     id: '16aG6lnk-pa7JMAyooh6DBpgoBj_uisjj'
     title: 'Scheduling'
     modifiedTime: '2020-02-27T19:24:06.518Z'
-    version: 293
+    version: 295
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'scheduling'
   e-chart:
@@ -315,7 +306,7 @@ fileMap:
     id: '1tBOYLUF8geYDb0mrGVbdaMkdxbMkhFPd'
     title: 'Document Management'
     modifiedTime: '2020-02-27T19:24:01.152Z'
-    version: 299
+    version: 301
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'document-management'
   patient-registration:
@@ -334,4 +325,4 @@ fileMap:
     version: 110
     mimeType: 'application/vnd.google-apps.folder'
     fileName: 'system-configuration'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

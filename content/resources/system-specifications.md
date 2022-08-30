@@ -1,12 +1,13 @@
 ---
 id: '1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
 title: 'System Specifications'
-date: '2020-02-27T20:35:46.122Z'
-version: 23
+date: '2022-08-30T20:37:23.397Z'
+version: 30
+lastAuthor: 'Will Reiske'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'System Specifications'
@@ -14,16 +15,4 @@ menu:
     parent: '1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
     weight: 6210
 ---
-
-
-
-
-
-
-
-
 {{% children %}}
-
-
-
-

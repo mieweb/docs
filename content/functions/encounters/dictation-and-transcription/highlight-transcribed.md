@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
 source: 'https://drive.google.com/open?id=1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Highlight Transcribed'
@@ -20,15 +20,21 @@ If dictation is enabled on your system, and a user enters in an encounter, the A
 Most clients then have automated esign rules set up for the archived & closed encounter document to go to the provider's esign queue to sign and review the encounter document as to what has been transcribed on it.
 When the provider is in their esign queue (or multi-sign queue) and the document they are reviewing is an encounter document that had dictation done on it and now includes the transcription, the provider will see the Highlight Transcribed option in the document header while they are e-signing. Highlight Transcribed indicates there was dictation done in the encounter, someone transcribed it as part of the encounter document and the provider can highlight transcribed to quickly see a visual of what the transcriptionist typed in, according to what the provider had dictated.
 
-![](highlight-transcribed.assets/10000201000002A60000019B0606D3B24594552C.png)
+
+![](../highlight-transcribed.assets/10000201000002A60000019B0606D3B24594552C.png)
+
 
 When the provider is reviewing the document to sign and clicks highlight transcribed, all the text that was typed by transcribed will highlight in yellow so the esigner can quickly see and review what the transcriptionist typed on the encounter document.
 
-![](highlight-transcribed.assets/10000201000002AC00000167AD69BE9FE39237F7.png)
+
+![](../highlight-transcribed.assets/10000201000002AC00000167AD69BE9FE39237F7.png)
+
 
 When done reviewing the document, continue to esign the document as needed by using the various function links in the esign module.
 
-![](highlight-transcribed.assets/10000201000004750000003F27A1E3E6F4DD972C.png)
+
+![](../highlight-transcribed.assets/10000201000004750000003F27A1E3E6F4DD972C.png)
+
 
 See [Pending Esign Reviews](../../e-sign-electronic-signature/pending-e-sign-reviews.md) documentation for additional information and details on how to esign a document along with the various function links.
 

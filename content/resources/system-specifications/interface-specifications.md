@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2022-08-18T18:59:07.919Z'
-version: 1114
-lastAuthor: 'Bridget Hamm'
+date: '2022-08-25T20:50:59.221Z'
+version: 1183
+lastAuthor: 'Tom Slabach'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -49,7 +49,7 @@ links:
   - 'http://stchome.com/'
   - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Interface Specifications'
@@ -61,7 +61,9 @@ menu:
 
 
 
-![](interface-specifications.assets/10000201000003980000023031C82A72BF45DD1A.png)
+
+![](../interface-specifications.assets/10000201000003980000023031C82A72BF45DD1A.png)
+
 Please see the list below for a complete listing of all vendors/devices that we have integrated with. Any vendor/device not listed would need to be researched for compatibility with our product. Check out our [additional documentation](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md) that explains how to send HL7 messages to us.
 
 
@@ -237,6 +239,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Alaska thru Scientific Technologies Corp (STC)
 * Arizona thru Scientific Technologies Corp (STC)
 * California CAIR unidirectional (bidirectional is possible, but no clients have requested)
+* Colorado (CDPHE) Immunization Information System
 * Florida Shots (unidirectional nightly FTP to send matching injections)
 * Georgia GRITS uni-directional HL7 via HTTPS
 * Hawaii HIR uni-directional 

@@ -20,7 +20,7 @@ links:
   - 'on-premise-deployment/application-managed-service-summary.md'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'On-Premise Deployment'
@@ -99,7 +99,9 @@ During the installation and configuration period, all instances **must** have 
 
 ### State Diagram of Services
 
-![](on-premise-deployment.assets/10000201000000F90000007E929FD19C6128EA09.png)
+
+![](../on-premise-deployment.assets/10000201000000F90000007E929FD19C6128EA09.png)
+
 
 ## Environments
 
@@ -126,17 +128,23 @@ There are three typical deployment footprints:
 ### All-in-one
 
 All the required services run within a single server. This approach is best utilized in small (~50 concurrent users) deployments or for sandbox development use-cases. The "all-in-one" strategy for production is best when a virtualized environment is available for scaling and redundancy underneath the {{% system-name %}}  System. A VM image that contains all necessary services for the {{% system-name %}}  System to operate can be provided. This approach can also be used for Development and QA lifecycles. The All-in-one footprint enables quick and easy deployment and can serve as a stepping stone to larger deployments with dedicated services.
-![](on-premise-deployment.assets/1000020100000118000000D05CC561F222D7F6EA.png)
+
+![](../on-premise-deployment.assets/1000020100000118000000D05CC561F222D7F6EA.png)
+
 
 ### Dedicated DB
 
 The Dedicated DB is the first useful step to scaling up to handle more load. The database I/O patterns tend to compete with other I/O so it is useful to split the database to another server with dedicated resources.
-![](on-premise-deployment.assets/100002010000016800000096580FD9042060C89C.png)
+
+![](../on-premise-deployment.assets/100002010000016800000096580FD9042060C89C.png)
+
 
 ### High Availability / Horizontal Scalability
 
 The High Availability (HA) and Horizontal Scalability (HS) environment distributes low-level services across multiple systems to provide redundancy and high availability. The {{% system-name %}}  System is optimized to distribute the components across multiple servers and automatically failover to balanced redundant hardware. Managing a cluster requires expert skills in load balancing, routing, networking and monitoring.
-![](on-premise-deployment.assets/100002010000017500000117E30C8357FB6AF984.png)
+
+![](../on-premise-deployment.assets/100002010000017500000117E30C8357FB6AF984.png)
+
 
 ## Minimum Hardware Requirement
 

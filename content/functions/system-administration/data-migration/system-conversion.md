@@ -15,7 +15,7 @@ links:
   - 'https://docs.python.org/2/library/string.html#format-string-syntax'
   - 'data-migration-overview.md'
 source: 'https://drive.google.com/open?id=12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'System Conversion'
@@ -94,7 +94,9 @@ These are a set of functions that can dynamically define component metadata per 
 #### **Updating**
 
 When entering data into the Google Spreadsheet, a menu item is available (WebChart Conversion>Update Module) to assist with completing the needed Module Summary lines. Click this at any point to update the module lines in this tab.
-![](system-conversion.assets/100002010000030800000061E1D52E0ED3DDCC27.png)
+
+![](../system-conversion.assets/100002010000030800000061E1D52E0ED3DDCC27.png)
+
 
 
 ## **Migration Mapping**
@@ -141,22 +143,32 @@ Module Summary:
 #### **Example**
 
 The following table **encounters** is used for the Encounter example.
-![](system-conversion.assets/1000020100000304000001DAB83754C21AD9AC57.png)
+
+![](../system-conversion.assets/1000020100000304000001DAB83754C21AD9AC57.png)
+
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>encounters</strong> and it's columns have been located.
 3. <strong>Sample Encounter</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Encounter Options* listed above, determine the mapping to legacy columns and complete the column **Encounter Options**.
-![](system-conversion.assets/1000020100000321000001E36FDA38CC537D14BF.png)
+
+![](../system-conversion.assets/1000020100000321000001E36FDA38CC537D14BF.png)
+
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-![](system-conversion.assets/10000201000003090000005FDD3C522DB81FDCB2.png)
+
+![](../system-conversion.assets/10000201000003090000005FDD3C522DB81FDCB2.png)
+
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Encounter** module.
-![](system-conversion.assets/10000201000002E20000011E2C8FDA7E2CF029DE.png)
+
+![](../system-conversion.assets/10000201000002E20000011E2C8FDA7E2CF029DE.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-![](system-conversion.assets/1000020100000321000000B04BAF1C4DAB93A81D.png)
+
+![](../system-conversion.assets/1000020100000321000000B04BAF1C4DAB93A81D.png)
+
 Notice:
 1. The "Module Summary" tab is still selected.
 2. To create an Encounter, "Component" enter "ENCOUNTER" or "encounter". Case does not matter.
@@ -173,9 +185,13 @@ Notice:
     1. get_location - Define the location where the encounter took place.
         1. default=OFFICE - Use OFFICE for the location code for all encounters created.
 The example Encounters (Visits>Encounters) were crafted to be created for the patient William Hart.
-![](system-conversion.assets/10000201000002B8000001EEA7789543891A1C91.png)
+
+![](../system-conversion.assets/10000201000002B8000001EEA7789543891A1C91.png)
+
 The newly generated Encounters:
-![](system-conversion.assets/1000020100000322000001B60326BE4EE8ADEC67.png)
+
+![](../system-conversion.assets/1000020100000322000001B60326BE4EE8ADEC67.png)
+
 
 
 ### **Summary Documents**
@@ -218,22 +234,32 @@ Module Summary:
 #### **Example**
 
 The following table **documents** is used for the Summary Documents example.
-![](system-conversion.assets/1000020100000322000001D5A38EFE4BAD3A34B3.png)
+
+![](../system-conversion.assets/1000020100000322000001D5A38EFE4BAD3A34B3.png)
+
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>documents</strong> and it's columns have been located.
 3. <strong>Sample Summary Document</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Document Options* and *Element Types* listed above, determine the mapping to legacy columns and complete the columns. The **Description** and **Order** has also been filled to demonstrate their effect on the created document.
-![](system-conversion.assets/100002010000032100000125090A706A96F1DB6F.png)
+
+![](../system-conversion.assets/100002010000032100000125090A706A96F1DB6F.png)
+
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-![](system-conversion.assets/100002010000030B0000006030AFDDFBE4213860.png)
+
+![](../system-conversion.assets/100002010000030B0000006030AFDDFBE4213860.png)
+
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Summary Document** module.
-![](system-conversion.assets/10000201000002B5000001166C5042B1A0CC4A72.png)
+
+![](../system-conversion.assets/10000201000002B5000001166C5042B1A0CC4A72.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-![](system-conversion.assets/100002010000032200000094EF024611D9973E93.png)
+
+![](../system-conversion.assets/100002010000032200000094EF024611D9973E93.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Summary Document, enter "SUMMARY DOCUMENT" or "summary document" in "Component". Case does not matter.
@@ -252,11 +278,17 @@ Notice:
     1. get_location - Define the location where the document was created.
         1. default=OFFICE - Use OFFICE for the location code for all documents created.
 The example Summary Documents (Document Summary) were crafted to be created for the patient William Hart.
-![](system-conversion.assets/10000201000003010000021D05760394994B915F.png)
+
+![](../system-conversion.assets/10000201000003010000021D05760394994B915F.png)
+
 The newly generated Summary Documents:
-![](system-conversion.assets/100002010000031F000001A5BB058EB1559B9660.png)
+
+![](../system-conversion.assets/100002010000031F000001A5BB058EB1559B9660.png)
+
 Here is an example Summary Document. Descriptions appear on the left column, while database values appear on the right. At the bottom containing comments is the *narrative*. Both sections are sorted according to the order specified in the **Data Mapping**.
-![](system-conversion.assets/100002010000026A00000259EC7188983026D894.png)
+
+![](../system-conversion.assets/100002010000026A00000259EC7188983026D894.png)
+
 
 
 ### **Observations**
@@ -293,26 +325,36 @@ Module Summary (one line per Observation):
 #### **Example**
 
 The following table **observations** is used for the Observations example.
-![](system-conversion.assets/100002010000031E000001B4ED5E151680D1990C.png)
+
+![](../system-conversion.assets/100002010000031E000001B4ED5E151680D1990C.png)
+
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>observations</strong> and it's columns have been located.
 3. <strong>Sample Observations</strong> has been entered for the Module column for each row of the table.
 Based on the Observation Options, get_obs_name, and get_obs_test_comments options listed above, determine the mapping to legacy columns and complete the columns.
-![](system-conversion.assets/1000020100000323000000F9D4473772F15E2C5F.png)
+
+![](../system-conversion.assets/1000020100000323000000F9D4473772F15E2C5F.png)
+
 Three observations have been identified here. All are using the value of "test_date" for the observed date. They are also using the values of "comments1-4" for the observation comments.
 1. obs_name BODY HEIGHT - The observation code is specified by name.
 2. obs_code 2053 - The observation code is listed directly.
 3. obs_name BMI - The observation code is specified by name. An optional handle of "body mass index" has been applied (to be used on the Module Summary).
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-![](system-conversion.assets/100002010000030B0000006117778B6A353DA5A6.png)
+
+![](../system-conversion.assets/100002010000030B0000006117778B6A353DA5A6.png)
+
 Click on the **Module Summary** tab to see a row automatically created for each **Sample Observations** component.
-![](system-conversion.assets/100002010000029A00000169BCE6011E72D12517.png)
+
+![](../system-conversion.assets/100002010000029A00000169BCE6011E72D12517.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module rows have minimal information and will need to be completed.
 The completed rows:
-![](system-conversion.assets/1000020100000324000000E5D61ADBAA15323ED7.png)
+
+![](../system-conversion.assets/1000020100000324000000E5D61ADBAA15323ED7.png)
+
 Notice:
 1. The Module Summary tab is still selected.
 2. To create an Observation, this must match "OBSERVATION:" or "observation:". Case does not matter. Following this must come the handle, obs_code, or obs_name specified in the Data Mapping tab.
@@ -327,14 +369,19 @@ Notice:
     1. get_ext_id - Define an external identifier (identifies the individual record in the source data).
         1. db_cols=id - In the "observations" table, the column "id" is used for an external identifier.
 The example Observations (Medical Record>Observations/Flowsheets) were crafted to be created for the patient William Hart.
-![](system-conversion.assets/1000020100000293000001E4DE39A0A1ACF9BA2E.png)
+
+![](../system-conversion.assets/1000020100000293000001E4DE39A0A1ACF9BA2E.png)
+
 To see the results:
 1. Select a date range that is limited to the results you need.
 2. For the example, which contains vitals, select the <strong>Vitals</strong> flowsheet. Depending on the observations you select, you may need to view them on a custom or different flowsheet.
 
-   <img src="system-conversion.assets/10000201000002F1000002597AA63656BEF53CFF.png" />
+   <img src="../system-conversion.assets/10000201000002F1000002597AA63656BEF53CFF.png" />
+
 The newly generated Observations:
-![](system-conversion.assets/10000201000002B900000257C1934D26261F141F.png)
+
+![](../system-conversion.assets/10000201000002B900000257C1934D26261F141F.png)
+
 
 
 ### **Respirator Fit Test**
@@ -362,22 +409,32 @@ Module Summary:
 #### **Example**
 
 The following table **fit_test** is used for the Respirator Fit Test example.
-![](system-conversion.assets/1000020100000309000001DD63ECDDB774B71E74.png)
+
+![](../system-conversion.assets/1000020100000309000001DD63ECDDB774B71E74.png)
+
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>fit_test</strong> and its columns have been located.
 3. <strong>Sample Fit Test</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Fit Test Options* listed above, determine the mapping to legacy columns and complete the columns. The **Order** has also been filled to demonstrate its effect on the comments.
-![](system-conversion.assets/1000020100000321000001557FAF5CD701023497.png)
+
+![](../system-conversion.assets/1000020100000321000001557FAF5CD701023497.png)
+
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-![](system-conversion.assets/100002010000030900000061CEB56377CE23B3F5.png)
+
+![](../system-conversion.assets/100002010000030900000061CEB56377CE23B3F5.png)
+
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Fit Test** module.
-![](system-conversion.assets/100002010000029A000000F78ECB92B9B4582390.png)
+
+![](../system-conversion.assets/100002010000029A000000F78ECB92B9B4582390.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-![](system-conversion.assets/10000201000003240000016351621D22BE491BF7.png)
+
+![](../system-conversion.assets/10000201000003240000016351621D22BE491BF7.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Respirator Fit Test, enter "FIT TEST" or "fit test" in "Component". Case does not matter.
@@ -386,9 +443,13 @@ Notice:
         1. partition=MIE - Look in the MIE partition for the patient.
         2. db_cols=mrnumber - In the "fit_test" table, the column "mrnumber" matches a Medical Record Number.
 The example Respirator Fit Tests (Test Results>Respirator Info) were crafted to be created for the patient William Hart.
-![](system-conversion.assets/100002010000028E000001DFBCA948322A5ECF7C.png)
+
+![](../system-conversion.assets/100002010000028E000001DFBCA948322A5ECF7C.png)
+
 The newly generated Respirator Fit Tests:
-![](system-conversion.assets/100002010000032100000191ED2BA9DF084A000F.png)
+
+![](../system-conversion.assets/100002010000032100000191ED2BA9DF084A000F.png)
+
 
 
 ### **Pulmonary Function Tests**
@@ -466,17 +527,25 @@ Module Summary:
 #### **Example**
 
 The following table **pft** is used for the PFT example.
-![](system-conversion.assets/1000020100000307000001AB7BDEE6C6D8913D1D.png)
+
+![](../system-conversion.assets/1000020100000307000001AB7BDEE6C6D8913D1D.png)
+
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>pft</strong> and it's columns have been located.
 3. <strong>Sample PFT</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the PFT Options listed above, determine the mapping to legacy columns and complete the column **PFT Options**.
-![](system-conversion.assets/100002010000031F00000183FE90C030DC9DA6A9.png)
+
+![](../system-conversion.assets/100002010000031F00000183FE90C030DC9DA6A9.png)
+
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-![](system-conversion.assets/100002010000030A00000063868F04B03A04D1D6.png)
+
+![](../system-conversion.assets/100002010000030A00000063868F04B03A04D1D6.png)
+
 Click on the **Module Summary** tab to see a row automatically created for the **Sample PFT** module.
-![](system-conversion.assets/100002010000026D000001040B64D6091518951A.png)
+
+![](../system-conversion.assets/100002010000026D000001040B64D6091518951A.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
@@ -498,9 +567,13 @@ Notice:
     1. get_location - Define the location where the test took place.
         1. default=OFFICE - Use OFFICE for the location code for all tests created.
 The example PFTs (Test Results>PFT) were crafted to be created for the patient William Hart.
-![](system-conversion.assets/1000020100000265000001DA86C3C38F4427C600.png)
+
+![](../system-conversion.assets/1000020100000265000001DA86C3C38F4427C600.png)
+
 The newly generated PFTs:
-![](system-conversion.assets/10000201000001F60000025A689E22FB7719C2AD.png)
+
+![](../system-conversion.assets/10000201000001F60000025A689E22FB7719C2AD.png)
+
 
 
 ### **Audiometric Data**
@@ -554,22 +627,32 @@ Module Summary:
 #### **Example**
 
 The following table **audio** is used for the Audiograms example.
-![](system-conversion.assets/10000201000002FB00000216F08229F9C6F78AD3.png)
+
+![](../system-conversion.assets/10000201000002FB00000216F08229F9C6F78AD3.png)
+
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>audio</strong> and it's columns have been located.
 3. <strong>Sample Audiogram</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Audio Options* listed above, determine the mapping to legacy columns and complete the columns. The **Order** has also been filled to demonstrate its effect on the comments.
-![](system-conversion.assets/1000020100000320000001F7A6BB626931F1030E.png)
+
+![](../system-conversion.assets/1000020100000320000001F7A6BB626931F1030E.png)
+
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-![](system-conversion.assets/10000201000003070000006033B4A0A41AC2043C.png)
+
+![](../system-conversion.assets/10000201000003070000006033B4A0A41AC2043C.png)
+
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Audiogram** module.
-![](system-conversion.assets/10000201000002C00000011451EBE90935E5243E.png)
+
+![](../system-conversion.assets/10000201000002C00000011451EBE90935E5243E.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-![](system-conversion.assets/10000201000003220000009E043B5B19EB43E982.png)
+
+![](../system-conversion.assets/10000201000003220000009E043B5B19EB43E982.png)
+
 Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create an Audiogram, enter "AUDIOGRAM" or "audiogram" in "Component". Case does not matter.
@@ -588,9 +671,13 @@ Notice:
     1. get_location - Define the location where the test took place.
         1. default=OFFICE - Use OFFICE for the location code for all tests created.
 The example Audiograms (Test Results>Audio) were crafted to be created for the patient William Hart.
-![](system-conversion.assets/1000020100000298000001E1C733D4E9C46C3654.png)
+
+![](../system-conversion.assets/1000020100000298000001E1C733D4E9C46C3654.png)
+
 The newly generated Audiograms:
-![](system-conversion.assets/1000020100000321000001F1762DB8B0EFA836B6.png)
+
+![](../system-conversion.assets/1000020100000321000001F1762DB8B0EFA836B6.png)
+
 
 
 ## **References**

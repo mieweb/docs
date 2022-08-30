@@ -17,8 +17,8 @@
     "fileName": "_index.md",
     "realFileName": "_index.md",
     "mimeType": "text/x-markdown",
-    "modifiedTime": "2021-05-10T22:20:39.704Z",
-    "version": 678,
+    "modifiedTime": "2022-08-30T18:20:34.813Z",
+    "version": 686,
     "parentId": "0AF_nrE0_QH_2Uk9PVA"
   },
   {
@@ -29,7 +29,7 @@
     "fileName": "diagrams",
     "mimeType": "application/vnd.google-apps.folder",
     "modifiedTime": "2020-03-30T20:09:46.150Z",
-    "version": "83",
+    "version": "84",
     "parentId": "0AF_nrE0_QH_2Uk9PVA",
     "children": [
       {
@@ -117,7 +117,7 @@
         "realFileName": "injury-care.svg",
         "mimeType": "image/svg+xml",
         "modifiedTime": "2021-02-16T21:49:30.881Z",
-        "version": 98,
+        "version": 99,
         "parentId": "1gcdDn4ndAdnO7VhG7MPO-ffepKopU-Vk"
       },
       {
@@ -207,7 +207,7 @@
         "fileName": "absence-management",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2021-09-30T18:34:03.743Z",
-        "version": "169",
+        "version": "171",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -218,7 +218,7 @@
             "realFileName": "absence-management-workflow.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2022-01-04T12:11:47.967Z",
-            "version": 119,
+            "version": 126,
             "parentId": "18MuB6MrJPVEBSBTsAsVJKsqUQbVtSijh"
           }
         ]
@@ -231,7 +231,7 @@
         "fileName": "document-management",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:01.152Z",
-        "version": "299",
+        "version": "301",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -242,7 +242,7 @@
             "fileName": "documents-and-forms",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:01.913Z",
-            "version": "284",
+            "version": "286",
             "parentId": "1tBOYLUF8geYDb0mrGVbdaMkdxbMkhFPd",
             "children": [
               {
@@ -318,7 +318,7 @@
                 "realFileName": "bubble-forms.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-06T20:04:39.113Z",
-                "version": 39,
+                "version": 45,
                 "parentId": "19OVY8t3OzRAH8Ly5uYdIEoojjAFfRnz4"
               },
               {
@@ -406,7 +406,7 @@
                 "realFileName": "form-documents.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-23T16:56:28.858Z",
-                "version": 81,
+                "version": 87,
                 "parentId": "19OVY8t3OzRAH8Ly5uYdIEoojjAFfRnz4"
               },
               {
@@ -562,7 +562,7 @@
             "fileName": "imaging",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:04.690Z",
-            "version": "280",
+            "version": "282",
             "parentId": "1tBOYLUF8geYDb0mrGVbdaMkdxbMkhFPd",
             "children": [
               {
@@ -663,7 +663,7 @@
             "fileName": "printing-and-print-definitions",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:03.648Z",
-            "version": "297",
+            "version": "299",
             "parentId": "1tBOYLUF8geYDb0mrGVbdaMkdxbMkhFPd",
             "children": [
               {
@@ -742,7 +742,7 @@
             "fileName": "scanning-and-indexing",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:02.761Z",
-            "version": "293",
+            "version": "295",
             "parentId": "1tBOYLUF8geYDb0mrGVbdaMkdxbMkhFPd",
             "children": [
               {
@@ -1155,7 +1155,7 @@
             "realFileName": "request-e-signature.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-03-10T14:26:13.228Z",
-            "version": 58,
+            "version": 60,
             "parentId": "1Ia4xI0icUOir7nUhAoOsh1xa724AYseT"
           },
           {
@@ -1223,7 +1223,7 @@
             "fileName": "dictation-and-transcription",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:08.310Z",
-            "version": "304",
+            "version": "306",
             "parentId": "1ZsKfca9jUrEMfvO-fEXf3_YY6984p04-",
             "children": [
               {
@@ -1599,7 +1599,7 @@
                 "realFileName": "flowsheet.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2021-02-26T16:10:26.557Z",
-                "version": 19,
+                "version": 21,
                 "parentId": "1sNcirsE6P5DfHmJF1tOIk_Ibm7AQXlE-"
               },
               {
@@ -1788,7 +1788,7 @@
             "fileName": "telehealth",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-03-26T15:35:18.633Z",
-            "version": "289",
+            "version": "291",
             "parentId": "1ZsKfca9jUrEMfvO-fEXf3_YY6984p04-",
             "children": [
               {
@@ -1810,7 +1810,7 @@
                 "realFileName": "telehealth-pricing.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-31T14:37:42.416Z",
-                "version": 56,
+                "version": 59,
                 "parentId": "1CIvdAQPfRsjLtavjxAw_FWHO91hvMq3P"
               }
             ]
@@ -1856,7 +1856,7 @@
             "fileName": "work-related-exams",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:09.813Z",
-            "version": "308",
+            "version": "310",
             "parentId": "1ZsKfca9jUrEMfvO-fEXf3_YY6984p04-",
             "children": [
               {
@@ -1914,8 +1914,8 @@
         "fileName": "encounters.md",
         "realFileName": "encounters.md",
         "mimeType": "text/x-markdown",
-        "modifiedTime": "2020-03-27T15:11:48.239Z",
-        "version": 68,
+        "modifiedTime": "2022-08-30T20:35:29.587Z",
+        "version": 74,
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP"
       },
       {
@@ -2623,7 +2623,7 @@
         "fileName": "health-surveillance",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:11.837Z",
-        "version": "301",
+        "version": "303",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -2790,7 +2790,7 @@
         "fileName": "injection-immunization-management",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:14.703Z",
-        "version": "300",
+        "version": "302",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -2902,7 +2902,7 @@
             "fileName": "case-management",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:25:01.248Z",
-            "version": "302",
+            "version": "304",
             "parentId": "1i4kSmWAUFrEIyYF038E2G1w-plZTiJR-",
             "children": [
               {
@@ -2913,7 +2913,7 @@
                 "realFileName": "adding-absence-management-case.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2021-09-30T18:35:29.344Z",
-                "version": 140,
+                "version": 142,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               },
               {
@@ -2924,7 +2924,7 @@
                 "realFileName": "adding-hospital-case.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-09T23:03:30.240Z",
-                "version": 36,
+                "version": 38,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               },
               {
@@ -2935,7 +2935,7 @@
                 "realFileName": "adding-msea-case.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-09T23:04:49.437Z",
-                "version": 34,
+                "version": 36,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               },
               {
@@ -2946,7 +2946,7 @@
                 "realFileName": "adding-non-osha-case.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-13T13:16:54.123Z",
-                "version": 48,
+                "version": 50,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               },
               {
@@ -2957,7 +2957,7 @@
                 "realFileName": "adding-osha-case.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-13T13:18:41.709Z",
-                "version": 69,
+                "version": 71,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               },
               {
@@ -2968,7 +2968,7 @@
                 "realFileName": "closing-an-existing-case.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-13T13:45:11.738Z",
-                "version": 40,
+                "version": 42,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               },
               {
@@ -2979,7 +2979,7 @@
                 "realFileName": "deleting-an-existing-case.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-13T13:47:35.461Z",
-                "version": 48,
+                "version": 50,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               },
               {
@@ -2990,7 +2990,7 @@
                 "realFileName": "viewing-cases.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2020-03-09T23:22:52.265Z",
-                "version": 45,
+                "version": 47,
                 "parentId": "1OX4OmJq4Lv_5g8mLjfb-U-tzJldgqeH2"
               }
             ]
@@ -3048,8 +3048,8 @@
         "fileName": "injury-care.md",
         "realFileName": "injury-care.md",
         "mimeType": "text/x-markdown",
-        "modifiedTime": "2022-08-13T17:04:26.070Z",
-        "version": 62,
+        "modifiedTime": "2022-08-25T08:42:18.937Z",
+        "version": 69,
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP"
       },
       {
@@ -3060,7 +3060,7 @@
         "fileName": "medication-management-and-e-prescribing",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:13.905Z",
-        "version": "305",
+        "version": "308",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -3071,7 +3071,7 @@
             "realFileName": "allergies-and-intolerances.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T20:05:07.498Z",
-            "version": 70,
+            "version": 72,
             "parentId": "1QjWWE0PKiKX4vua8TqWK9T3CqkJ4UqJN"
           },
           {
@@ -3203,7 +3203,7 @@
             "fileName": "electronic-prescribing-for-controlled-substances-epcs",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:54.047Z",
-            "version": "290",
+            "version": "293",
             "parentId": "1QjWWE0PKiKX4vua8TqWK9T3CqkJ4UqJN",
             "children": [
               {
@@ -3225,7 +3225,7 @@
                 "realFileName": "identrust-certificate-registration-step-by-step.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2022-03-02T21:42:17.031Z",
-                "version": 235,
+                "version": 239,
                 "parentId": "1xDutuDVNI5xqD9S7e2mHZZUsJEm1umHv"
               },
               {
@@ -3259,8 +3259,8 @@
             "fileName": "prescribing-adding-medications.md",
             "realFileName": "prescribing-adding-medications.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2020-03-16T11:42:07.149Z",
-            "version": 96,
+            "modifiedTime": "2022-08-29T16:21:31.714Z",
+            "version": 118,
             "parentId": "1QjWWE0PKiKX4vua8TqWK9T3CqkJ4UqJN"
           },
           {
@@ -3372,18 +3372,7 @@
         "realFileName": "medication-management-and-e-prescribing.md",
         "mimeType": "text/x-markdown",
         "modifiedTime": "2022-02-08T15:08:43.651Z",
-        "version": 26,
-        "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP"
-      },
-      {
-        "id": "1kNB6VF1k8qPt9UiCv2MLIhhB4yI9aetGq_pzK1NJFQA",
-        "title": "New document",
-        "path": "/functions/new-document.md",
-        "fileName": "new-document.md",
-        "realFileName": "new-document.md",
-        "mimeType": "text/x-markdown",
-        "modifiedTime": "2022-08-23T14:08:37.531Z",
-        "version": 8,
+        "version": 31,
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP"
       },
       {
@@ -3394,7 +3383,7 @@
         "fileName": "order-and-result-management",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:13.077Z",
-        "version": "305",
+        "version": "307",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -3438,7 +3427,7 @@
             "realFileName": "flowsheets-editor.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2021-12-17T15:27:04.732Z",
-            "version": 234,
+            "version": 238,
             "parentId": "1DD9YzKQU6V3gX0kfSPC_rXkamScMbqAn"
           },
           {
@@ -3470,8 +3459,8 @@
             "fileName": "observation-flowsheets.md",
             "realFileName": "observation-flowsheets.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2021-11-16T21:21:14.466Z",
-            "version": 293,
+            "modifiedTime": "2022-08-23T15:08:57.414Z",
+            "version": 310,
             "parentId": "1DD9YzKQU6V3gX0kfSPC_rXkamScMbqAn"
           },
           {
@@ -3550,7 +3539,7 @@
             "realFileName": "medical-contacts-contacts,-relationships,-and-user-patient-relationships.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-03-20T21:13:39.925Z",
-            "version": 68,
+            "version": 70,
             "parentId": "1VgA7_m1u1YUu9pMh64ZKCQIGhW0yz8W7"
           },
           {
@@ -3572,7 +3561,7 @@
             "realFileName": "patient-registration-tab-manual-patient-entry.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2021-04-18T04:58:25.003Z",
-            "version": 44,
+            "version": 46,
             "parentId": "1VgA7_m1u1YUu9pMh64ZKCQIGhW0yz8W7"
           }
         ]
@@ -3640,7 +3629,7 @@
             "realFileName": "kiosk.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-03-11T18:15:47.911Z",
-            "version": 57,
+            "version": 59,
             "parentId": "14Md2CPhpF2dtoJFQehD7d0Yxs1DjFhhl"
           },
           {
@@ -3708,7 +3697,7 @@
         "fileName": "quality-of-care",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:50.847Z",
-        "version": "307",
+        "version": "309",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -3718,8 +3707,8 @@
             "fileName": "create-file-for-submission.md",
             "realFileName": "create-file-for-submission.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2020-02-27T20:43:35.135Z",
-            "version": 20,
+            "modifiedTime": "2022-08-30T23:05:44.234Z",
+            "version": 30,
             "parentId": "1yc-v7_KxMHDgNdSQGDPc9oTmF6RM0cTk"
           },
           {
@@ -3730,7 +3719,7 @@
             "fileName": "measures",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:52.179Z",
-            "version": "308",
+            "version": "310",
             "parentId": "1yc-v7_KxMHDgNdSQGDPc9oTmF6RM0cTk",
             "children": [
               {
@@ -3741,7 +3730,7 @@
                 "fileName": "improvement-activities-measures",
                 "mimeType": "application/vnd.google-apps.folder",
                 "modifiedTime": "2020-02-27T19:24:54.975Z",
-                "version": "286",
+                "version": "288",
                 "parentId": "1kkI0MFLFMKd1y0GVy0oNI7xt1qNzoEds",
                 "children": [
                   {
@@ -3752,7 +3741,7 @@
                     "fileName": "2018-improvement-activities",
                     "mimeType": "application/vnd.google-apps.folder",
                     "modifiedTime": "2020-02-27T19:24:55.775Z",
-                    "version": "294",
+                    "version": "296",
                     "parentId": "1zFKpUZmJhsD56st9CL56bPt1PSlaUHAn",
                     "children": [
                       {
@@ -4399,7 +4388,7 @@
                         "realFileName": "epa-2-use-of-telehealth-services-that-expand-practice-access.md",
                         "mimeType": "text/x-markdown",
                         "modifiedTime": "2020-02-27T20:52:40.744Z",
-                        "version": 16,
+                        "version": 19,
                         "parentId": "1txZ7yMXDU-D9PjtxBE83sO2GwYswYvKP"
                       },
                       {
@@ -5027,7 +5016,7 @@
                     "fileName": "2019-improvement-activities",
                     "mimeType": "application/vnd.google-apps.folder",
                     "modifiedTime": "2020-02-27T19:24:56.690Z",
-                    "version": "295",
+                    "version": "297",
                     "parentId": "1zFKpUZmJhsD56st9CL56bPt1PSlaUHAn",
                     "children": [
                       {
@@ -5141,7 +5130,7 @@
                 "fileName": "promoting-interoperability-pi-measures",
                 "mimeType": "application/vnd.google-apps.folder",
                 "modifiedTime": "2020-02-27T19:24:53.269Z",
-                "version": "296",
+                "version": "298",
                 "parentId": "1kkI0MFLFMKd1y0GVy0oNI7xt1qNzoEds",
                 "children": [
                   {
@@ -5187,7 +5176,7 @@
                 "fileName": "quality-measures-list",
                 "mimeType": "application/vnd.google-apps.folder",
                 "modifiedTime": "2020-02-27T19:25:02.117Z",
-                "version": "321",
+                "version": "323",
                 "parentId": "1kkI0MFLFMKd1y0GVy0oNI7xt1qNzoEds",
                 "children": [
                   {
@@ -5787,7 +5776,7 @@
             "realFileName": "common-case-search-report.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T20:12:56.822Z",
-            "version": 80,
+            "version": 82,
             "parentId": "1JfLUoDMo5-befWCXvGO6dGVqYnChxtVN"
           },
           {
@@ -5897,7 +5886,7 @@
             "realFileName": "incidents-report.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T20:14:28.257Z",
-            "version": 26,
+            "version": 28,
             "parentId": "1JfLUoDMo5-befWCXvGO6dGVqYnChxtVN"
           },
           {
@@ -5996,7 +5985,7 @@
             "realFileName": "osha-300-log-report.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T20:15:26.983Z",
-            "version": 43,
+            "version": 45,
             "parentId": "1JfLUoDMo5-befWCXvGO6dGVqYnChxtVN"
           },
           {
@@ -6108,7 +6097,7 @@
         "fileName": "scheduling",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:06.518Z",
-        "version": "293",
+        "version": "295",
         "parentId": "1QSiOFWJAltU1dczs5VwPCLZkWHSIwqoP",
         "children": [
           {
@@ -6130,7 +6119,7 @@
             "realFileName": "appt-types-tab.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2021-02-24T15:17:03.005Z",
-            "version": 115,
+            "version": 118,
             "parentId": "16aG6lnk-pa7JMAyooh6DBpgoBj_uisjj"
           },
           {
@@ -6849,7 +6838,7 @@
                 "realFileName": "lost-time-import-tool.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2022-03-08T18:36:59.785Z",
-                "version": 40,
+                "version": 46,
                 "parentId": "1KFshTO2ut-_1U5VmA9XzS4J5TZjtLgXe"
               },
               {
@@ -7412,7 +7401,7 @@
                 "realFileName": "receiving-hl7-messages-from-system.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2021-09-24T19:55:36.541Z",
-                "version": 63,
+                "version": 65,
                 "parentId": "1HEadh38SFRh6p3Cp8VR0kCLZI821IZVO"
               },
               {
@@ -7990,8 +7979,8 @@
             "fileName": "chart-tabs.md",
             "realFileName": "chart-tabs.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2021-07-22T14:52:57.002Z",
-            "version": 140,
+            "modifiedTime": "2022-08-29T19:12:07.344Z",
+            "version": 159,
             "parentId": "1-igmW4ma-gS62gDOsYThI1wL_Hbqrxso"
           },
           {
@@ -8147,7 +8136,7 @@
             "realFileName": "adding-tasks.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-03-16T15:52:59.061Z",
-            "version": 89,
+            "version": 91,
             "parentId": "1n0kG7SZnUulm0gKq-P4gMwaFL2rIRwLG"
           },
           {
@@ -8217,8 +8206,8 @@
     "fileName": "functions.md",
     "realFileName": "functions.md",
     "mimeType": "text/x-markdown",
-    "modifiedTime": "2022-08-23T15:44:29.914Z",
-    "version": 90,
+    "modifiedTime": "2022-08-29T14:36:49.728Z",
+    "version": 98,
     "parentId": "0AF_nrE0_QH_2Uk9PVA"
   },
   {
@@ -8450,7 +8439,7 @@
     "realFileName": "programs.md",
     "mimeType": "text/x-markdown",
     "modifiedTime": "2020-02-27T19:29:40.998Z",
-    "version": 39,
+    "version": 42,
     "parentId": "0AF_nrE0_QH_2Uk9PVA"
   },
   {
@@ -8472,7 +8461,7 @@
     "fileName": "rapid-deployment",
     "mimeType": "application/vnd.google-apps.folder",
     "modifiedTime": "2020-02-27T19:24:35.069Z",
-    "version": "61",
+    "version": "62",
     "parentId": "0AF_nrE0_QH_2Uk9PVA",
     "children": [
       {
@@ -8718,7 +8707,7 @@
             "realFileName": "injury-and-illness-data-imports.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:24:12.306Z",
-            "version": 20,
+            "version": 22,
             "parentId": "1RZD2sGFjRymsNpRb9RUWctzi58oJUXXb"
           }
         ]
@@ -8753,7 +8742,7 @@
         "fileName": "review-sessions",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:37.482Z",
-        "version": "288",
+        "version": "292",
         "parentId": "1Nn6hwnNBi-b63JnWaq3dK2_2PsUWykgP",
         "children": [
           {
@@ -8763,8 +8752,8 @@
             "fileName": "review-session-case-management.md",
             "realFileName": "review-session-case-management.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2020-02-27T21:25:11.802Z",
-            "version": 26,
+            "modifiedTime": "2022-08-30T13:00:16.503Z",
+            "version": 385,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8775,7 +8764,7 @@
             "realFileName": "review-session-checkin.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:24:39.047Z",
-            "version": 32,
+            "version": 34,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8786,7 +8775,7 @@
             "realFileName": "review-session-document-management.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:24:36.161Z",
-            "version": 26,
+            "version": 28,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8797,7 +8786,7 @@
             "realFileName": "review-session-e-sign.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:54.536Z",
-            "version": 24,
+            "version": 26,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8808,7 +8797,7 @@
             "realFileName": "review-session-encounter-workflow.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:24:54.640Z",
-            "version": 54,
+            "version": 56,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8819,7 +8808,7 @@
             "realFileName": "review-session-fax-manager.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:58.999Z",
-            "version": 30,
+            "version": 32,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8830,7 +8819,7 @@
             "realFileName": "review-session-health-surveillance.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:22.522Z",
-            "version": 27,
+            "version": 29,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8852,7 +8841,7 @@
             "realFileName": "review-session-injury-care.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:07.347Z",
-            "version": 26,
+            "version": 28,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8863,7 +8852,7 @@
             "realFileName": "review-session-medication-management-electronic-prescribing.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:41.678Z",
-            "version": 43,
+            "version": 47,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8874,7 +8863,7 @@
             "realFileName": "review-session-order-and-result-management.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:30.979Z",
-            "version": 24,
+            "version": 26,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8885,7 +8874,7 @@
             "realFileName": "review-session-patient-registration.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:24:28.695Z",
-            "version": 32,
+            "version": 34,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8896,7 +8885,7 @@
             "realFileName": "review-session-portal-management.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:02.537Z",
-            "version": 43,
+            "version": 45,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8918,7 +8907,7 @@
             "realFileName": "review-session-reports.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:26:07.051Z",
-            "version": 20,
+            "version": 22,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8929,7 +8918,7 @@
             "realFileName": "review-session-scheduler.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:24:45.329Z",
-            "version": 31,
+            "version": 33,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8940,7 +8929,7 @@
             "realFileName": "review-session-system-administration.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:26:12.492Z",
-            "version": 39,
+            "version": 43,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8951,7 +8940,7 @@
             "realFileName": "review-session-system-configuration.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:24:23.063Z",
-            "version": 61,
+            "version": 64,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8962,7 +8951,7 @@
             "realFileName": "review-session-tasking.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:25:50.587Z",
-            "version": 23,
+            "version": 25,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           },
           {
@@ -8973,7 +8962,7 @@
             "realFileName": "review-session-work-related-exams.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2021-08-27T17:37:27.880Z",
-            "version": 36,
+            "version": 38,
             "parentId": "1UCGCCHVIraTGq_eCrwxJ5VnO4JfZmuiU"
           }
         ]
@@ -9021,7 +9010,7 @@
         "fileName": "communications",
         "mimeType": "application/vnd.google-apps.folder",
         "modifiedTime": "2020-02-27T19:24:44.523Z",
-        "version": "302",
+        "version": "304",
         "parentId": "1ahfVIVqVTCWvdED0KHwU-ipKTYsh67cF",
         "children": [
           {
@@ -9169,8 +9158,8 @@
             "fileName": "application-programming-interface-api.md",
             "realFileName": "application-programming-interface-api.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2020-02-27T21:26:23.076Z",
-            "version": 33,
+            "modifiedTime": "2022-08-30T20:43:59.305Z",
+            "version": 40,
             "parentId": "1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5"
           },
           {
@@ -9202,8 +9191,8 @@
             "fileName": "client-hardware-and-software-specifications.md",
             "realFileName": "client-hardware-and-software-specifications.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2020-03-10T17:48:46.388Z",
-            "version": 29,
+            "modifiedTime": "2022-08-30T20:38:36.509Z",
+            "version": 34,
             "parentId": "1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5"
           },
           {
@@ -9236,7 +9225,7 @@
                 "fileName": "real-world-testing",
                 "mimeType": "application/vnd.google-apps.folder",
                 "modifiedTime": "2022-08-22T20:29:29.015Z",
-                "version": "4",
+                "version": "7",
                 "parentId": "1pvPT-h2FyQecUSDWuNAy6mfOatIwj_Ju",
                 "children": [
                   {
@@ -9258,7 +9247,7 @@
                     "realFileName": "rwt-results-2022-q1.md",
                     "mimeType": "text/x-markdown",
                     "modifiedTime": "2022-07-15T19:42:49.039Z",
-                    "version": 439,
+                    "version": 443,
                     "parentId": "1uYzQROxAcRAaC5tUMD8kTo8w9N1Lh3zh"
                   },
                   {
@@ -9282,7 +9271,7 @@
                 "realFileName": "real-world-testing.md",
                 "mimeType": "text/x-markdown",
                 "modifiedTime": "2022-08-22T20:51:43.338Z",
-                "version": 12,
+                "version": 24,
                 "parentId": "1pvPT-h2FyQecUSDWuNAy6mfOatIwj_Ju"
               }
             ]
@@ -9327,8 +9316,8 @@
                 "fileName": "oauth-2.0-tutorial.md",
                 "realFileName": "oauth-2.0-tutorial.md",
                 "mimeType": "text/x-markdown",
-                "modifiedTime": "2022-08-11T20:55:18.853Z",
-                "version": 293,
+                "modifiedTime": "2022-08-27T05:26:22.579Z",
+                "version": 302,
                 "parentId": "1uWsxZgKQn5wnb5Wa81Y4xDUvFsa02rBf"
               },
               {
@@ -9348,8 +9337,8 @@
                 "fileName": "resource-specifications.md",
                 "realFileName": "resource-specifications.md",
                 "mimeType": "text/x-markdown",
-                "modifiedTime": "2022-08-08T21:10:35.978Z",
-                "version": 491,
+                "modifiedTime": "2022-08-30T15:25:37.584Z",
+                "version": 498,
                 "parentId": "1uWsxZgKQn5wnb5Wa81Y4xDUvFsa02rBf"
               },
               {
@@ -9373,7 +9362,7 @@
             "realFileName": "fhir-application-programming-interface-api.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2022-07-26T17:15:48.882Z",
-            "version": 37,
+            "version": 40,
             "parentId": "1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5"
           },
           {
@@ -9383,8 +9372,8 @@
             "fileName": "interface-specifications.md",
             "realFileName": "interface-specifications.md",
             "mimeType": "text/x-markdown",
-            "modifiedTime": "2022-08-18T18:59:07.919Z",
-            "version": 1114,
+            "modifiedTime": "2022-08-25T20:50:59.221Z",
+            "version": 1183,
             "parentId": "1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5"
           },
           {
@@ -9395,7 +9384,7 @@
             "fileName": "on-premise-deployment",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:41.096Z",
-            "version": "300",
+            "version": "302",
             "parentId": "1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5",
             "children": [
               {
@@ -9441,7 +9430,7 @@
             "fileName": "system-email-templates",
             "mimeType": "application/vnd.google-apps.folder",
             "modifiedTime": "2020-02-27T19:24:46.535Z",
-            "version": "280",
+            "version": "282",
             "parentId": "1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5",
             "children": [
               {
@@ -9452,7 +9441,7 @@
                 "fileName": "email-templates-from-chart",
                 "mimeType": "application/vnd.google-apps.folder",
                 "modifiedTime": "2020-02-27T19:24:47.742Z",
-                "version": "267",
+                "version": "269",
                 "parentId": "1zkr32tiy309Y5ReMR7ectmlv7fT_DzVz",
                 "children": [
                   {
@@ -9729,7 +9718,7 @@
                 "fileName": "email-templates-from-scheduler",
                 "mimeType": "application/vnd.google-apps.folder",
                 "modifiedTime": "2020-02-27T19:24:48.880Z",
-                "version": "276",
+                "version": "278",
                 "parentId": "1zkr32tiy309Y5ReMR7ectmlv7fT_DzVz",
                 "children": [
                   {
@@ -9920,7 +9909,7 @@
             "realFileName": "system-email-templates.md",
             "mimeType": "text/x-markdown",
             "modifiedTime": "2020-02-27T21:26:58.722Z",
-            "version": 27,
+            "version": 31,
             "parentId": "1fzNZ2zmWWe3SvUsZlOoBGw7RRRDun2F5"
           },
           {
@@ -9978,8 +9967,8 @@
         "fileName": "system-specifications.md",
         "realFileName": "system-specifications.md",
         "mimeType": "text/x-markdown",
-        "modifiedTime": "2020-02-27T20:35:46.122Z",
-        "version": 23,
+        "modifiedTime": "2022-08-30T20:37:23.397Z",
+        "version": 30,
         "parentId": "1ahfVIVqVTCWvdED0KHwU-ipKTYsh67cF"
       }
     ]
@@ -9991,8 +9980,8 @@
     "fileName": "resources.md",
     "realFileName": "resources.md",
     "mimeType": "text/x-markdown",
-    "modifiedTime": "2021-03-20T19:26:41.981Z",
-    "version": 49,
+    "modifiedTime": "2022-08-30T20:37:03.408Z",
+    "version": 60,
     "parentId": "0AF_nrE0_QH_2Uk9PVA"
   },
   {
@@ -10011,7 +10000,7 @@
     "realFileName": "videos-and-demonstrations.md",
     "mimeType": "text/x-markdown",
     "modifiedTime": "2021-04-09T10:46:40.622Z",
-    "version": 440,
+    "version": 442,
     "parentId": "0AF_nrE0_QH_2Uk9PVA"
   }
 ]

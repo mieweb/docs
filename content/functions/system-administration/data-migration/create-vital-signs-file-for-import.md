@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641'
   - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
 source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Create Vital Signs File for Import'
@@ -173,7 +173,9 @@ Do not provide the percentage sign (%).
 
 1. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Vital Signs CSV File Example for guidance.
 
-![](create-vital-signs-file-for-import.assets/10000201000003A400000079320A07FD81770960.png)
+
+![](../create-vital-signs-file-for-import.assets/10000201000003A400000079320A07FD81770960.png)
+
 
 2. Save the file as CSV format.
 
@@ -182,19 +184,25 @@ Do not provide the percentage sign (%).
 1. Login as a user with administrator rights.
 2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
-![](create-vital-signs-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
+![](../create-vital-signs-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
-![](create-vital-signs-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
+![](../create-vital-signs-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
 
 4. Select <strong>Chart Data CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-![](create-vital-signs-file-for-import.assets/10000201000001530000007C5E57984C7C960DED.png)
+
+![](../create-vital-signs-file-for-import.assets/10000201000001530000007C5E57984C7C960DED.png)
+
 
 5. Select the Vital Signs CSV File and click <strong>Upload</strong>.
 
-   <img src="create-vital-signs-file-for-import.assets/1000020100000144000000B8D55B5D24C2DED099.png" />
+   <img src="../create-vital-signs-file-for-import.assets/1000020100000144000000B8D55B5D24C2DED099.png" />
 
 {{% tip %}}
 

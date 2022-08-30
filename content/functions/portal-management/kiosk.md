@@ -2,12 +2,12 @@
 id: '1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
 title: 'Kiosk'
 date: '2020-03-11T18:15:47.911Z'
-version: 57
+version: 59
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Kiosk'
@@ -22,16 +22,22 @@ The  {{% system-name %}}  Kiosk is a portal integration designed for streamlin
 1. Navigate to the <strong>System Settings</strong> tab of the Control Panel.
 2. Locate the <strong>E-Chart</strong>, <strong>Defaults</strong>, <strong>Use Checkin</strong> system setting.
 
-![](kiosk.assets/100002010000059E000001CEFAEF875933425A01.png)
+
+![](../kiosk.assets/100002010000059E000001CEFAEF875933425A01.png)
+
 
 3. Click the <strong>Edit</strong> link in the <em>Options</em> column.
 4. Change the <strong>Value</strong> field to <strong>1</strong>, and click the <strong>Change</strong> button after providing a reason for the change.
 
-![](kiosk.assets/100002010000059F000001F6FF285D24307F3C7C.png)
+
+![](../kiosk.assets/100002010000059F000001F6FF285D24307F3C7C.png)
+
 
 5. With the system setting enabled, navigate to the Provider Management side menu and locate and click the portal link from the <strong>Name</strong> column.
 
-![](kiosk.assets/100002010000059C000001EF1D47D74278C76D71.png)
+
+![](../kiosk.assets/100002010000059C000001EF1D47D74278C76D71.png)
+
 
 6. After the page loads, click the <strong>Portal Setup</strong> tab.
 7. Click the <strong>General Configuration</strong> header to expand the available options.

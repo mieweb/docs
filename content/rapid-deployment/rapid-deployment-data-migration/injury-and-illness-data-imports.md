@@ -2,14 +2,14 @@
 id: '1nXrFjzTbyMi_As_lbDc5OIGFCsqmfTNLYVEQ5UDffYo'
 title: 'Injury & Illness Data Imports'
 date: '2020-02-27T21:24:12.306Z'
-version: 20
+version: 22
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/data-migration/create-cases-file-for-import.md'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=1nXrFjzTbyMi_As_lbDc5OIGFCsqmfTNLYVEQ5UDffYo'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Injury & Illness Data Imports'

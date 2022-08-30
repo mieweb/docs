@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Transcription Report'
@@ -40,7 +40,8 @@ You must have security role access to reports and to viewing transcription stati
 2. From the side menu, select <strong>Reports</strong>.
 3. Select <strong>Dictation/Transcription</strong>. The <em>Dictation/Transcription</em> section appears.
 4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears.
-   <img src="transcription-report.assets/100000000000046A0000011781E92E460ADAA29C.png" />
+   <img src="../transcription-report.assets/100000000000046A0000011781E92E460ADAA29C.png" />
+
 5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report: 
     1. <em>Select </em> <em>Department</em>: Select department for which to view transcription statistics.
     2. <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user. If you selected a department in the <em>Select Department</em> field, only users in that department are shown in this field. If you did not select a department, all users are shown in this field.
@@ -60,6 +61,10 @@ You must have security role access to reports and to viewing transcription stati
         3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
         4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
-![](transcription-report.assets/10000201000004B40000006AA64CEFD949332BE4.png)
-![](transcription-report.assets/100000000000039000000167A90A3A3DC4120EA8.png)
+
+![](../transcription-report.assets/10000201000004B40000006AA64CEFD949332BE4.png)
+
+
+![](../transcription-report.assets/100000000000039000000167A90A3A3DC4120EA8.png)
+
 

@@ -4,7 +4,7 @@ title: 'TeleHealth'
 fileName: 'telehealth'
 mimeType: 'application/vnd.google-apps.folder'
 date: '2020-03-26T15:35:18.633Z'
-version: '289'
+version: '291'
 fileMap:
   introducing-telehealth.md:
     type: 'md'
@@ -20,8 +20,8 @@ fileMap:
     id: '1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
     title: 'TeleHealth Pricing'
     modifiedTime: '2020-03-31T14:37:42.416Z'
-    version: 56
+    version: 59
     mimeType: 'text/x-markdown'
     lastAuthor: ''
     fileName: 'telehealth-pricing.md'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'

@@ -11,7 +11,7 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.  
 
@@ -87,7 +87,9 @@ wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 * Under this new waiver, Medicare will pay for office, hospital, and other visits furnished via telehealth across the country, including in patient's places of residence starting March 6, 2020.  A range of providers, such as doctors, nurse practitioners, clinical psychologists, and licensed clinical social workers, will be able to offer telehealth to their patients.  Additionally, the HHS Office of Inspector General (OIG) is providing flexibility for healthcare providers to reduce or waive cost-sharing for telehealth visits paid by federal healthcare programs. The [CMS fact sheet](https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet) outlines the waiver. 
 **How do I bill for TeleHealth?**
 * Place of Service (POS) code 02
-![](introducing-telehealth.assets/10000201000003AE0000023380350CD1C9F6F514.png)
+
+![](../introducing-telehealth.assets/10000201000003AE0000023380350CD1C9F6F514.png)
+
 **What does it cost?**
 * See [Telehealth Pricing](telehealth-pricing.md)
 **Are there minimum commitments?**
@@ -105,12 +107,21 @@ wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
 
 ### Patient initiated (iOS)
 
-![](introducing-telehealth.assets/1000000000000483000009C4403BC830FA9C1D0B.png)![](introducing-telehealth.assets/1000000000000483000009C4989134D19570E960.png)![](introducing-telehealth.assets/1000000000000483000009C4DA24093AA6B79008.png)![](introducing-telehealth.assets/1000000000000483000009C4DEE39A80B80299C9.png)
+
+![](../introducing-telehealth.assets/1000000000000483000009C4403BC830FA9C1D0B.png)
+![](../introducing-telehealth.assets/1000000000000483000009C4989134D19570E960.png)
+![](../introducing-telehealth.assets/1000000000000483000009C4DA24093AA6B79008.png)
+![](../introducing-telehealth.assets/1000000000000483000009C4DEE39A80B80299C9.png)
+
 
 
 ### Provider
 
-![](introducing-telehealth.assets/1000000000000887000004DA81904015DABC4022.jpg)
 
-![](introducing-telehealth.assets/1000000000000899000004DA5994662A7BAD60AC.jpg)
+![](../introducing-telehealth.assets/1000000000000887000004DA81904015DABC4022.jpg)
+
+
+
+![](../introducing-telehealth.assets/1000000000000899000004DA5994662A7BAD60AC.jpg)
+
 

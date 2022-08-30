@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Create Language Translation File for Import'
@@ -61,25 +61,35 @@ The following table provides optional or required **Field Names** and **Descr
 </table>
 
 In Excel, save the sheet as Unicode Text.  This is important because **saving as CSV will NOT work** for many languages.
-![](create-language-translation-file-for-import.assets/100002010000035A000001EB7DB7BBDA22DC90CF.png)
+
+![](../create-language-translation-file-for-import.assets/100002010000035A000001EB7DB7BBDA22DC90CF.png)
+
 
 ## Upload Language Translation Text File
 
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-![](create-language-translation-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
+![](../create-language-translation-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)
+
 
 3. Select the Data Import tab.
 
-![](create-language-translation-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
+![](../create-language-translation-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)
+
 
 4. Select the Language Translation CSV API from the drop-down menu and click Go.
 
-![](create-language-translation-file-for-import.assets/1000020100000186000000AB01EF93204CD6B60B.png)
+
+![](../create-language-translation-file-for-import.assets/1000020100000186000000AB01EF93204CD6B60B.png)
+
 
 5. Choose Delimiter: (tab), select the Language Translation Text File and click Upload.
-![](create-language-translation-file-for-import.assets/1000020100000343000001AADF058A603ACD0197.png)
+
+![](../create-language-translation-file-for-import.assets/1000020100000343000001AADF058A603ACD0197.png)
+
 
 
 ## Example Files

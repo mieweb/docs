@@ -2,7 +2,7 @@
 id: '1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
 title: 'Review Session - System Administration'
 date: '2020-02-27T21:26:12.492Z'
-version: 39
+version: 43
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -28,7 +28,7 @@ links:
   - '../../functions/system-administration/system-controls/user-provider-and-department-management.md'
   - '../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md'
 source: 'https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'Review Session - System Administration'

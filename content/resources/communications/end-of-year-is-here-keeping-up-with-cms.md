@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/mips/mips-value-pathways'
   - '../communications.md'
 source: 'https://drive.google.com/open?id=1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
-wikigdrive: 'eb4f9f8e82d104274f4630740771c9319ef63af0'
+wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
 menu:
   main:
     name: 'End-of-Year Is Here: Keeping Up with CMS'
@@ -136,10 +136,14 @@ Due to the ongoing changes and updates needed for 2020 compliance, {{% system-na
 Stay up-to-date with us! Always check back to our Online Documentation and be sure to review our published [communications](../communications.md) for news and updates, regularly! Otherwise, administrators can view all of our **Latest news** in the {{% system-name %}} system, found under the Administrator Welcome portlet of the Quick View.
 {{% only sys="wc" type="INLINE" %}}
 
-![](end-of-year-is-here-keeping-up-with-cms.assets/100002010000054400000270DF1300E3B9A2AC4B.png)
+
+![](../end-of-year-is-here-keeping-up-with-cms.assets/100002010000054400000270DF1300E3B9A2AC4B.png)
+
 {{% /only %}}
 
 {{% only sys="eh" type="INLINE" %}}
 
-![](end-of-year-is-here-keeping-up-with-cms.assets/10000201000005450000020FFDED93D513B7307D.png)
+
+![](../end-of-year-is-here-keeping-up-with-cms.assets/10000201000005450000020FFDED93D513B7307D.png)
+
 {{% /only %}}
