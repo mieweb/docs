@@ -14,7 +14,7 @@ links:
   - '../../e-chart/alerts,-errors,-failures-interactive-tab.md'
   - 'delete-move-lock-documents.md'
 source: 'https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Document Properties'

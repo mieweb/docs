@@ -12,7 +12,7 @@ links:
   - '../fax-manager/faxing-documents.md'
   - '../document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md'
 source: 'https://drive.google.com/open?id=1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 ---
 [Create statements](creating-statements.md) before printing, faxing, or creating copies on optical media (burning).
 For example, to print three statements and fax another four, first select the three that need printed and print them, then repeat this process to find and select all that need faxed and fax those.

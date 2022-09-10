@@ -10,7 +10,7 @@ links:
   - 'https://drive.google.com/file/d/1KIMrmLjp58wyKxLZEebiQoY6iLPvG4Lw/view?usp=sharing'
   - '../../functions/system-administration/data-migration/chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1HFEQEZgI72Fl5H3njRaQOgoLYNAIWkZenoyeiwMAR4s'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 ---
 **Chart PUR Import Options**
 The following options are allowed. Any other options are unsupported and will be rejected.
