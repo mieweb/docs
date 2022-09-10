@@ -6,7 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1R15V9vD7TWaOwf81dKXw0Fw4EfTL6gIJGJY1o8uVwbk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Medication Report'
@@ -25,10 +25,10 @@ This is a report you can run to get result different statuses of medications tie
 * <strong>Name:</strong> Begin to type in the name of the medication you want run the report for. It will auto-complete and give you choices for what you typed. Select from the auto-complete choices. It will still search by free text in the case of entering something that's not matching an auto-complete choice.
 * <strong>Drug Class:</strong> Select a specific drug class to narrow down the results, or leave as <em>All Classes.</em>
 * <strong>Drug Status:</strong> Select the specific radio button of the status you wish to search. Defaults to <em>active</em> status.
-    * <strong>Active:</strong> The report will result in showing the active medications/classes, etc you are searching for.
-    * <strong>Discontinued:</strong> The report will show the discontinued medications/classes, etc you are searching for.
-    * <strong>Changed:</strong> The report will result in showing the changed medications/classes, etc you are searching for.
-    * <strong>Deleted:</strong> The report will results in showing the deleted medications/classes, etc you are searching for.
+   * <strong>Active:</strong> The report will result in showing the active medications/classes, etc you are searching for.
+   * <strong>Discontinued:</strong> The report will show the discontinued medications/classes, etc you are searching for.
+   * <strong>Changed:</strong> The report will result in showing the changed medications/classes, etc you are searching for.
+   * <strong>Deleted:</strong> The report will results in showing the deleted medications/classes, etc you are searching for.
 * <strong>Date Range:</strong> Depending on the ‘status' you select, you can enter a start date range of the patient medications you wish to search according to that status. The context of the date range depends on the status chosen.
 Click *Search Meds* button to show your search results.
 Your report will display on the screen with totals at the bottom.

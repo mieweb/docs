@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs'
   - 'indexing.md'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Scanning'
@@ -43,12 +43,12 @@ To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=
 5. To review and ensure the scanner settings and preferences are enabled, click the <strong>Settings</strong> button. Users may change these settings, as needed. For instance, barcodes on form documents will be read regardless of page orientation if the <em>Auto-Rotate to Find Barcodes</em> preference is set to <strong>Yes</strong>.
 
 
-    ![](../scanning.assets/100002010000038100000144096699442C110825.png)
+   ![](../scanning.assets/100002010000038100000144096699442C110825.png)
 
 
-    1. <strong>Resolution</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
-    2. <strong>Color Depth</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can set per page by simply changing the preference for each page being scanned.
-    3. <strong>Duplex</strong>: Users may scan the front and back of documents by setting Duplex to Yes.
+   1. <strong>Resolution</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
+   2. <strong>Color Depth</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can set per page by simply changing the preference for each page being scanned.
+   3. <strong>Duplex</strong>: Users may scan the front and back of documents by setting Duplex to Yes.
 7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Select Scanner</strong> button and viewing the listed scanner is correct and highlighted for use.
 8. When ready, click the <strong>Scan Image</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan Image button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
 9. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong>buttons, users may view the documents of the batch.

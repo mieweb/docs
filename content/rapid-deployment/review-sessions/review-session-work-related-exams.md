@@ -13,7 +13,7 @@ links:
   - '../../functions/medication-management-and-e-prescribing/travel-kits.md'
   - '../../functions/system-administration/interfaces/signature-pad-device.md'
 source: 'https://drive.google.com/open?id=17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Work-Related Exams'
@@ -25,25 +25,25 @@ menu:
 
 * <strong>Work-Related Exams Demonstration</strong>
 * <strong>Overview</strong>
-    * <strong>Driver Fitness Determination (DOT)</strong>
-    * <strong>Pre-Placement Management</strong>
-    * <strong>Travel Management</strong>
+   * <strong>Driver Fitness Determination (DOT)</strong>
+   * <strong>Pre-Placement Management</strong>
+   * <strong>Travel Management</strong>
 * <strong>Security Role Permissions</strong>
 * <strong>System Configuration</strong>
-    * <strong>DOT Appointment Type</strong>
-    * <strong>DOT Health Surveillance Panel</strong>
-    * <strong>Pre-Placement Chart Registration/Partition</strong>
-    * <strong>Pre-Placement Appointment Type</strong>
-    * <strong>Pre-Placement Health Surveillance Panel</strong>
-    * <strong>Travel Consult Appointment Type</strong>
-    * <strong>Encounter Stages</strong>
-    * <strong>Open Encounter Worklists</strong>
-    * <strong>Print Definitions</strong>
-    * <strong>Travel Questionnaire</strong>
-    * <strong>Employee Portal</strong>
-    * <strong>Travel Kits</strong>
-    * <strong>Pre-Placement/Applicant Portal</strong>
-    * <strong>Electronic Signature Pad Integration</strong>
+   * <strong>DOT Appointment Type</strong>
+   * <strong>DOT Health Surveillance Panel</strong>
+   * <strong>Pre-Placement Chart Registration/Partition</strong>
+   * <strong>Pre-Placement Appointment Type</strong>
+   * <strong>Pre-Placement Health Surveillance Panel</strong>
+   * <strong>Travel Consult Appointment Type</strong>
+   * <strong>Encounter Stages</strong>
+   * <strong>Open Encounter Worklists</strong>
+   * <strong>Print Definitions</strong>
+   * <strong>Travel Questionnaire</strong>
+   * <strong>Employee Portal</strong>
+   * <strong>Travel Kits</strong>
+   * <strong>Pre-Placement/Applicant Portal</strong>
+   * <strong>Electronic Signature Pad Integration</strong>
 * <strong>Resources</strong>
 
 ## Overview

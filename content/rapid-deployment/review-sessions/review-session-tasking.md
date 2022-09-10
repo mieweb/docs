@@ -23,7 +23,7 @@ links:
   - '../../functions/reports/task-report.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=7cae93a5fb5435af1677ba54618fcc37'
 source: 'https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Tasking'
@@ -36,16 +36,16 @@ menu:
 * <strong>Task List Module Demonstration</strong>
 * <strong>Tasking Overview</strong>
 * <strong>Task List Module</strong>
-    * <strong>Your Task List</strong>
-    * <strong>Delegated</strong>
-    * <strong>Fast Tasks</strong>
-        * <strong>Phone Notes</strong>
-    * <strong>Tasklist Events</strong>
-    * <strong>Task Search</strong>
+   * <strong>Your Task List</strong>
+   * <strong>Delegated</strong>
+   * <strong>Fast Tasks</strong>
+      * <strong>Phone Notes</strong>
+   * <strong>Tasklist Events</strong>
+   * <strong>Task Search</strong>
 * <strong>Reporting</strong>
 * <strong>System Configuration</strong>
-    * <strong>Fast Task Templates</strong>
-    * <strong>Tasklist Event Rules</strong>
+   * <strong>Fast Task Templates</strong>
+   * <strong>Tasklist Event Rules</strong>
 * <strong>Resources</strong>
 
 ## Overview

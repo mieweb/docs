@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Editing Restriction Types'
@@ -55,8 +55,8 @@ A new pop-up displays to allow you to select the format of the new restriction t
 
 
 * Option Type field offers two types to select from:
-    * Discrete Value: if selected, it will allow users to free text restriction details when the main restriction type is documented in a chart.
-    * Selected Values: if selected, it will offer users a drop-down of specific restriction details for the main restriction type being added to the system.  When the new restriction type is documented in a chart, another discrete list of choices regarding the restriction type will appear for users to select a more granular value for the restriction.
+   * Discrete Value: if selected, it will allow users to free text restriction details when the main restriction type is documented in a chart.
+   * Selected Values: if selected, it will offer users a drop-down of specific restriction details for the main restriction type being added to the system.  When the new restriction type is documented in a chart, another discrete list of choices regarding the restriction type will appear for users to select a more granular value for the restriction.
 
 ### **Entering a Discrete Value**
 

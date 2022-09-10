@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888'
   - 'https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU'
 source: 'https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Create Health Surveillance File for Import'
@@ -24,7 +24,7 @@ This document explains how to import your health surveillance data into {{% syst
 What you will need:
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Health Surveillance CSV File Example
-* {{% system-name %}} end user with administrative rights
+{{% system-name %}}*  end user with administrative rights
 
 ## Create Health Surveillance CSV File
 

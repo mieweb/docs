@@ -6,7 +6,7 @@ version: 31
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LGVI1_YjfWwaHWGkZq4-5wNtiPem25Dn06AAOhonuqo'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'MammoTrack Chart Tab'
@@ -72,9 +72,9 @@ The columns are:
 * <strong>Entry Date</strong> is the Date that the mammogram was first added/entered into Mammotrack.
 * <strong>Comment</strong> shows any comments that were typed in regarding the mammogram.
 * <strong>Options</strong> allow a user (with security rights) to update, edit or delete a mammogram.
-    * <strong>Update</strong> is normal workflow. When a radiologist reads a mammogram, the user would click update to change the birad/mammogram status to the correct result/finding, etc. Update is not to be used to correct/fix an error with the data in the mammogram.
-    * <strong>Edit</strong> is used when there is an error in the mammogram information and needs changed (example: someone entered the wrong technologist name, etc).
-    * <strong>Delete</strong> is used when a mammogram needs deleted and taken completely out.
+   * <strong>Update</strong> is normal workflow. When a radiologist reads a mammogram, the user would click update to change the birad/mammogram status to the correct result/finding, etc. Update is not to be used to correct/fix an error with the data in the mammogram.
+   * <strong>Edit</strong> is used when there is an error in the mammogram information and needs changed (example: someone entered the wrong technologist name, etc).
+   * <strong>Delete</strong> is used when a mammogram needs deleted and taken completely out.
 
 ![](../mammotrack-chart-tab.assets/10000000000003B300000062945B78B355B2ACF6.png)
 

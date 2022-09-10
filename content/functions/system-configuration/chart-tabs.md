@@ -2,13 +2,13 @@
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
 date: '2022-08-29T19:12:07.344Z'
-version: 159
+version: 161
 lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Chart Tabs'
@@ -82,49 +82,49 @@ After you click Add Tab, the Chart Tab Basic Editor Information screen will appe
 * <strong>Open in a new window?</strong>: If you want the chart tab to display in the new opened window or your screen each time, click Yes for this. Otherwise, most keep as No so the chart tab stays on the screen view instead of in a separate window.
 * <strong>Default View</strong>: Choose type of view this chart tab will appear as. The default view of a chart tab determines the basic functionality of that tab. To see a brief description of a particular default view, choose that default view in the select box, then click the question mark to the right of select box. Example: some are set to Documents-Thumb view (would show the scanned image while viewing all the documents in that chart tab). If you just wanted a text/list view, then choose Documents-List view. Documents-Detail view opens the document on the screen in a summary fashion. Documents-Thumb view shows the document image on the left for that tab and then the list view in the middle of the screen. Use the help icon to view what each Default View choice describes and shows. Your MIE Implementer loads other chart tabs like vitals, flowsheets, Rx lists, and other programs specific to your company.
 
-    {{% note %}}
+{{% note %}}
 
-    Certain default views will allow you to tag document types to them. Default views that allow document types to be tagged to them, but are not required: 
+   Certain default views will allow you to tag document types to them. Default views that allow document types to be tagged to them, but are not required: 
 
-    * Demographics View
-    * Encounter View
-    * Injections List
-    * Lab Results
-    * Mammogram Tracking
-    * Medications/Allergies
-    * Orders View
+   * Demographics View
+   * Encounter View
+   * Injections List
+   * Lab Results
+   * Mammogram Tracking
+   * Medications/Allergies
+   * Orders View
 
-    Default views that require at least one document type to be tagged: 
-    * Documents Detail  View
-    * Documents Detail List View
-    * Documents List View
-    * Documents Thumbnail View
+   Default views that require at least one document type to be tagged: 
+   * Documents Detail  View
+   * Documents Detail List View
+   * Documents List View
+   * Documents Thumbnail View
 
-    Default views that forbid/don't allow document types to be tagged to them: 
-    * Appointments View
-    * Conditions List
-    * Dashboard View
-    * DICOM view
-    * Dictation List
-    * Flowsheet (Observation List)
-    * Inventory View
-    * Sub Tab View
-    * Insurance List
+   Default views that forbid/don't allow document types to be tagged to them: 
+   * Appointments View
+   * Conditions List
+   * Dashboard View
+   * DICOM view
+   * Dictation List
+   * Flowsheet (Observation List)
+   * Inventory View
+   * Sub Tab View
+   * Insurance List
 
-    If you select any default view that allows you to tag document types to it, you will then see a Document Types section to complete.
+   If you select any default view that allows you to tag document types to it, you will then see a Document Types section to complete.
 
-    {{% /note %}}
+{{% /note %}}
 
-    * <strong>Inclusive</strong>: Begin typing the names of the document(s) you want included in this Chart Tab. It will auto-complete to give you choices. Click the ADD button to add it and type in another document to add to the chart tab. You can have as many documents added to a chart tab as you want. You can hit your down arrow ↓ key on your keyboard in this field to show the entire listing of document types in your system alphabetically and use the scroll to select and ADD individually that way with your mouse instead of the auto-complete. Or do a reverse document type add to a chart tab instead by selecting Exclusive.
-
-
-    ![](../chart-tabs.assets/100002010000037A000000AD7D12ADEFF47963F9.png)
-
-    ![](../chart-tabs.assets/100002010000029D0000019197465727F9AD4D2C.png)
+   * <strong>Inclusive</strong>: Begin typing the names of the document(s) you want included in this Chart Tab. It will auto-complete to give you choices. Click the ADD button to add it and type in another document to add to the chart tab. You can have as many documents added to a chart tab as you want. You can hit your down arrow ↓ key on your keyboard in this field to show the entire listing of document types in your system alphabetically and use the scroll to select and ADD individually that way with your mouse instead of the auto-complete. Or do a reverse document type add to a chart tab instead by selecting Exclusive.
 
 
-    * <strong>Exclusive</strong>: This chart-tab will include every document type in your system, except for the ones you type in using the auto-complete. Click the ADD button to add any document types to exclude from this chart tab. Only the document(s) you don't want included in the chart tab should be added here if you choose exclusive.
-    * <strong>Inactive</strong>: This is a list of document types that a super-user has deemed inactive.  You can also click to add these documents to your chart-tab, but these are old and not being used as this ‘doc type name' any longer.  These appear in italics and when choosing them from the auto-complete they say (INACTIVE) next to them.
+   ![](../chart-tabs.assets/100002010000037A000000AD7D12ADEFF47963F9.png)
+
+   ![](../chart-tabs.assets/100002010000029D0000019197465727F9AD4D2C.png)
+
+
+   * <strong>Exclusive</strong>: This chart-tab will include every document type in your system, except for the ones you type in using the auto-complete. Click the ADD button to add any document types to exclude from this chart tab. Only the document(s) you don't want included in the chart tab should be added here if you choose exclusive.
+   * <strong>Inactive</strong>: This is a list of document types that a super-user has deemed inactive.  You can also click to add these documents to your chart-tab, but these are old and not being used as this ‘doc type name' any longer.  These appear in italics and when choosing them from the auto-complete they say (INACTIVE) next to them.
 * <strong>Tab Order</strong>: Demo (demographics tab) is always zero (0).  Then when adding a chart-tab, use the drop-down to choose the order you wish the chart tab to appear in e-chart for patient's.  Usually skip 5 and put the next type in. That way, if you wish later to add a chart-tab and want it to show up as the 3rd tab, then you can go in easily and create it and mark it 3rd, since there are 5 in between each chart-tab.
 * <strong>Background Color</strong>:  Choose the background color for the chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to grey.
 * <strong>Font Color</strong>:  Choose the color of font you wish to have on that chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to black.

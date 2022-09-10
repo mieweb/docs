@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641'
   - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
 source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Create Vital Signs File for Import'
@@ -24,7 +24,7 @@ This document explains how to import historical vital signs for employees into {
 What you will need:
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Vital Signs CSV File Example
-* {{% system-name %}} end user with administrative rights
+{{% system-name %}}*  end user with administrative rights
 
 ## Create Vital Signs CSV File
 

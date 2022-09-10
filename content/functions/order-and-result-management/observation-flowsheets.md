@@ -9,7 +9,7 @@ links:
   - 'https://developer.mozilla.org/en-US/docs/Glossary/Truthy'
   - 'https://developer.mozilla.org/en-US/docs/Glossary/Falsy'
 source: 'https://drive.google.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Observation Flowsheets'
@@ -43,7 +43,7 @@ To add or build a new observation flowsheet to your system, simply click on the 
 
 The *New Flowsheet* screen will open.
 * <strong>Flowsheet Name:</strong> Type in the name of the new flowsheet you want to add. If this flowsheet should render on an encounter as a test/procedure item, make sure this is named exactly to match the order item.
-    * You can click <em>Show Entry Details</em> button if you wish to display the input types, show date/comments/alt. units columns. See additional help further down in this help document.
+   * You can click <em>Show Entry Details</em> button if you wish to display the input types, show date/comments/alt. units columns. See additional help further down in this help document.
 
 ![](../observation-flowsheets.assets/10000201000004C00000012F61A4ECDAF94FE210.png)
 
@@ -141,7 +141,7 @@ JavaScript that determines the value of the item/observation. Items that should 
 ![](../observation-flowsheets.assets/10000000000003EA00000111095D6020B316CDED.png)
 
 * The choices are No, Add to Macros or Prefill Input and are defined as:
-    * <strong>Prefill Input:</strong> This option default the input with the last, most recent value (that a patient's chart has for that matching observation) for that line item observation.
+   * <strong>Prefill Input:</strong> This option default the input with the last, most recent value (that a patient's chart has for that matching observation) for that line item observation.
 
 ![](../observation-flowsheets.assets/10000000000002BE0000014E282FD459BF6EC7EA.png)
 
@@ -191,10 +191,10 @@ After applying a line break/header, you can click ‘edit' on it and set a secti
 ![](../observation-flowsheets.assets/10000000000002FD000000A5088B1E73567AA855.png)
 
 * <strong>Questionnaires Only:</strong>
-    * <strong>Add Page Break:</strong> Adding a page break to questionnaire flowsheets will indicate to have the flowsheet continue from that point on, onto a new page on the portal.
-    * <strong>Add Section Break:</strong> Adding a section break to questionnaire flowsheets will break up the section to be its own with a title/label on the portal.
-    * <strong>Add Group Break:</strong> Adding a group break to questionnaire flowsheets will break up into a group with its own title/label and other section breaks can be utilized within a group on the portal and flowsheet within {{% system-name %}} .
-    * <strong>Add Layout:</strong> MIE can program a specific section layout to appear within the questionnaire flowsheet that will be utilized (ex: Medications layout) or this can be used to program the indication that the questionnaire should be in 2 columns.
+   * <strong>Add Page Break:</strong> Adding a page break to questionnaire flowsheets will indicate to have the flowsheet continue from that point on, onto a new page on the portal.
+   * <strong>Add Section Break:</strong> Adding a section break to questionnaire flowsheets will break up the section to be its own with a title/label on the portal.
+   * <strong>Add Group Break:</strong> Adding a group break to questionnaire flowsheets will break up into a group with its own title/label and other section breaks can be utilized within a group on the portal and flowsheet within {{% system-name %}} .
+   * <strong>Add Layout:</strong> MIE can program a specific section layout to appear within the questionnaire flowsheet that will be utilized (ex: Medications layout) or this can be used to program the indication that the questionnaire should be in 2 columns.
 
 ![](../observation-flowsheets.assets/10000201000004A9000000A5907ECB717E76D04D.png)
 

@@ -23,7 +23,7 @@ links:
   - '../../functions/reports/osha-300-log-report.md'
   - '../../functions/reports/incidents-report.md'
 source: 'https://drive.google.com/open?id=1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Injury Care'
@@ -38,18 +38,18 @@ menu:
 * <strong>Security Permissions</strong>
 * <strong>Insurance Interface</strong>
 * <strong>System configuration</strong>
-    * <strong>Import Tools</strong>
-    * <strong>Cases</strong>
-        * <strong>Incident On-site Locations</strong>
-        * <strong>Nature of Illness/Injury and Body Parts</strong>
-        * <strong>Restrictions (Types) & Accommodations</strong>
-            * <strong>Restriction Providers</strong>
-        * <strong>Event and Source</strong>
-    * <strong>State-Specific Forms/Print Definitions</strong>
+   * <strong>Import Tools</strong>
+   * <strong>Cases</strong>
+      * <strong>Incident On-site Locations</strong>
+      * <strong>Nature of Illness/Injury and Body Parts</strong>
+      * <strong>Restrictions (Types) & Accommodations</strong>
+         * <strong>Restriction Providers</strong>
+      * <strong>Event and Source</strong>
+   * <strong>State-Specific Forms/Print Definitions</strong>
 * <strong>Reporting</strong>
-    * <strong>Work Status Report Document</strong>
-    * <strong>OSHA 300/300A Import for partial year (spec)</strong>
-    * <strong>Portal</strong>
+   * <strong>Work Status Report Document</strong>
+   * <strong>OSHA 300/300A Import for partial year (spec)</strong>
+   * <strong>Portal</strong>
 * <strong>E-file with OSHA</strong>
 * <strong>Resources</strong>
 
@@ -61,20 +61,20 @@ Standard functionality includes:
 * Several possible case types and applicable data fields – Injury (OSHA Standard), Injury (Non-OSHA Standard), Hospital, Absence management, MSEA, and Medical Surveillance.
 * Integrated workflows allowing employees to self-report via an employee/patient portal, with task notifications designed to alert staff of new cases/incidents needing reviewed and validated.
 * Pre-loaded forms with data overlay:
-    * OSHA Form 301, configured with an overlay of employee incident data
-    * State-specific Doctor's First Report of Injury
-    * State-specific Employer's First Report of Injury
+   * OSHA Form 301, configured with an overlay of employee incident data
+   * State-specific Doctor's First Report of Injury
+   * State-specific Employer's First Report of Injury
 * Restrictions and Accommodations
 It is valuable to recognize the following considerations, concepts, and terminology in {{% system-name %}} :
 **Case/Incident** - A **case** is created in an initial visit (encounter), and is then linked to subsequent visits, as needed. A case links all follow-up visits (encounters), conditions, nature of injury information, restrictions, and accommodations. All of the documents pertaining to the case are grouped together within the chart, for reporting purposes. The term **incident** typically refers to the workplace injury that initiates a case note for an employee; however, the terms **case** and **incident** may be used interchangeably in {{% system-name %}} systems. In {{% sys-name %}} , an incident leads to a case being created. The database table in which information on an injury is recorded is known as the Incidents table, and programmatically, when an incident date is entered into the Incidents table, a case is created.
 **Case Types** - Case types present specific incident questions and forms, as well as designate different required fields, as appropriate to a given case, or incident. There are several case types to choose from in the {{% system-name %}} system:
 * <strong>Injury</strong> (<strong>OSHA Standard</strong>) - Comprises a full report of a workplace injury, or incident, for an individual. An injury or illness is OSHA recordable if it involves a significant incident or illness diagnosed by a physician or other licensed healthcare professional, even when it does not result in any of the following OSHA-recordable criteria:
-    * Death
-    * Days away from work
-    * Restricted work
-    * Transfer to another job
-    * Medical treatment beyond first aid
-    * Loss of consciousness
+   * Death
+   * Days away from work
+   * Restricted work
+   * Transfer to another job
+   * Medical treatment beyond first aid
+   * Loss of consciousness
 * <strong>Injury</strong> (<strong>Non-OSHA Standard</strong>) - An Injury Non-OSHA case type also serves as a full report of a workplace injury, or incident, for an individual; however they are typically only used by clients outside of the US, who are not held to standard OSHA guidelines and regulations. It is best practice for US-based clients to always use the Injury (OSHA Standard) case type, even when the incident may not be deemed OSHA recordable.
 * <strong>Hospital</strong> - The Hospital case type provides a means for hospital clients to track and group hospital care encounter visits.
 * <strong>Absence Management</strong> - Used for tracking specific types of encounters for medical leave and/or long-term absences, whereby requests for medical leave or obligations under the FMLA can be grouped together and stored.

@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Inbound Application Installation: dicomd'
@@ -64,8 +64,8 @@ Complete!
 ## **dicomd Configuration**
 
 1. Under /usr/local/webchart/dicom/ users will find two files: 
-    1. a config file
-    2. run.dicomd.RCXXXXXX file
+   1. a config file
+   2. run.dicomd.RCXXXXXX file
 2. Edit the config file and specify an AE title and EH configuration file. The first field is the AE Title for the PACS. The second field is the location of the EH configuration file used to connect to the EH database. The other fields may be left as default, as appropriate.
 
 ```

@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms147v11'
 source: 'https://drive.google.com/open?id=1bktV0BYSKkWBzLv0AMyxNlGX_3BH4lXBMzqSjQk7WQ8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 147 - Preventive Care and Screening: Influenza Immunization'
@@ -121,33 +121,33 @@ menu:
 
 Ensure all patients that are 6 months old or older have received a flu vaccination or reports having received a flu vaccine. Recording the receipt of the flu immunization or the administration of the vaccine can be done within or outside of the encounter:
 1. <strong>Option 1: Record the Receipt of Flu Immunization (Historical)</strong>
-    * <strong>Within Encounter</strong>
-        1. Open the Immunizations/Injections section of the encounter
-        2. Using the Description autocomplete, begin typing the name of the immunization
-        3. Add the Date and any Reactions/Comments
-        4. Click the Add button
-        5. Click the Next button, or close the section
-        6. Continue documenting the encounter as needed
-        7. When completed, Close and Archive the encounter
-    * <strong>Outside Encounter</strong>
-        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-        2. Click the Quick Add link in the upper-right of the page
-        3. Record any historical injections
-        4. Click the Submit button
+   * <strong>Within Encounter</strong>
+      1. Open the Immunizations/Injections section of the encounter
+      2. Using the Description autocomplete, begin typing the name of the immunization
+      3. Add the Date and any Reactions/Comments
+      4. Click the Add button
+      5. Click the Next button, or close the section
+      6. Continue documenting the encounter as needed
+      7. When completed, Close and Archive the encounter
+   * <strong>Outside Encounter</strong>
+      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+      2. Click the Quick Add link in the upper-right of the page
+      3. Record any historical injections
+      4. Click the Submit button
 1. <strong>Option 2: Document the Administration of Flu Vaccine</strong>
-    * <strong>Within Encounter</strong>
-        1. Open the Tests and Procedures section of the encounter
-        2. Using the autocomplete, begin typing the name of the vaccination being administered
-        3. Click the Add to Exam button
-        4. After adding the new section, open the section and fill in all required fields
-        5. Click the Next button, or close the section
-        6. Continue documenting the encounter as needed
-        7. When completed, Close and Archive the encounter
-    * <strong>Outside Encounter</strong>
-        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-        2. Click the Add Imm/Inj link in the upper-right of the page
-        3. Fill in all required fields
-        4. Click the Submit button
+   * <strong>Within Encounter</strong>
+      1. Open the Tests and Procedures section of the encounter
+      2. Using the autocomplete, begin typing the name of the vaccination being administered
+      3. Click the Add to Exam button
+      4. After adding the new section, open the section and fill in all required fields
+      5. Click the Next button, or close the section
+      6. Continue documenting the encounter as needed
+      7. When completed, Close and Archive the encounter
+   * <strong>Outside Encounter</strong>
+      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+      2. Click the Add Imm/Inj link in the upper-right of the page
+      3. Fill in all required fields
+      4. Click the Submit button
 
 ## Evidence
 

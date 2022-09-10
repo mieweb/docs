@@ -12,7 +12,7 @@ links:
   - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'IdenTrust Certificate Registration Step-by-Step'
@@ -59,9 +59,9 @@ There is a recording walking to watch someone walk through all the steps (the vi
 The first step requires the selection of the certificate. There are 3 types of Certificates that MIE/IdenTrust will offer to prescribers.
 
 1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $109.00 (Prices subject to change by IdenTrust)</strong>
-    1. Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
+   1. Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
 2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $197.00 (Pricing subject to change by IdenTrust)</strong>
-    1. Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
+   1. Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
 3. Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $99.00
 
 
@@ -78,9 +78,9 @@ The first step requires the selection of the certificate. There are 3 types of C
 
 1. Every certificate provided through IdenTrust for EPCS has a 2-year validity period. This will automatically be selected.
 2. Following the Validity Period selection is the selection for the SafeNet USB Token, used to store the digital certificate.
-    1. <strong>HID USB Token - $68.00</strong>
-        1. This option is for EPCS Two Factor Authentication Certificates and Tokens. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers may use their existing token.
-    2. SafeNet USB Token use existing - $0.00
+   1. <strong>HID USB Token - $68.00</strong>
+      1. This option is for EPCS Two Factor Authentication Certificates and Tokens. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers may use their existing token.
+   2. SafeNet USB Token use existing - $0.00
 3. Make your selection, and click the <strong>Next</strong> button.
 4. Verify your selections, and click <strong>Buy Now</strong>.
 
@@ -180,16 +180,16 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 2. <strong>Change the Passcode for the USB Token</strong> – Please note that this passcode reset process is intended for new, unused USB Tokens, or tokens where certificates have not already been installed. If you are using a USB Token that contains previous certificates, you will not see this prompt and can proceed to the next step.
-    1. Insert the USB Token into your computer. You will see a message pop-up that says, "For security reasons, you must change the Token Passcode of your new token."
-    2. Click <strong>Ok</strong>.
+   1. Insert the USB Token into your computer. You will see a message pop-up that says, "For security reasons, you must change the Token Passcode of your new token."
+   2. Click <strong>Ok</strong>.
 
 
 ![](../identrust-certificate-registration-step-by-step.assets/10000201000001AB000000AB253C3DF3B3D56E1E.png)
 
 
 3. Retrieve the Current Token Passcode from the Activation Letter you received, and set the New Token Passcode.
-    3. <strong>Current Token Passcode</strong>: (Refer to IdenTrust Letter) 
-    4. <strong>New Token Passcode</strong>: Enter a personal passcode that you WILL NOT forget.
+   3. <strong>Current Token Passcode</strong>: (Refer to IdenTrust Letter) 
+   4. <strong>New Token Passcode</strong>: Enter a personal passcode that you WILL NOT forget.
 
 
 ![](../identrust-certificate-registration-step-by-step.assets/100002010000014D00000118DDA9245CD24DD95A.png)

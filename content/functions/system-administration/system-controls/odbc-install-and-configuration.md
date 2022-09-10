@@ -11,7 +11,7 @@ links:
   - 'med-web-ssl-certificate-authority.md'
   - 'https://miewiki.med-web.com/wiki/images/7/72/Crystal10TurnOffSmartLinking.reg'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'ODBC Install & Configuration'
@@ -51,14 +51,14 @@ From the Windows Desktop:
 Now that you have the driver installed successfully, you will need to configure it.
 1. You will need MIE's CA, you can download from here: [Med-Web SSL CA](med-web-ssl-certificate-authority.md)
 2. You should have received an e-mail containing information on how to obtain the follow elements for configuration:
-    1. Hostname
-    2. Port: 3306
-    3. Username
-    4. Password
-    5. SSL Key
-    6. SSL Cert
-    7. SSL CA
-    8. SSL Cipher
+   1. Hostname
+   2. Port: 3306
+   3. Username
+   4. Password
+   5. SSL Key
+   6. SSL Cert
+   7. SSL CA
+   8. SSL Cipher
 
 From the MySQL ODBC Configuration Screen
 1. Click "Details >>" for advanced options.
@@ -70,7 +70,7 @@ From the MySQL ODBC Configuration Screen
 
 3. Fill in all fields provided from the configuration e-mail sent to you.
 4. Test connection by clicking "Test".
-    1. Insure that your certificates and keys are in the correct inputs.
+   1. Insure that your certificates and keys are in the correct inputs.
 
 ### **3rd Party Tools**
 

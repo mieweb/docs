@@ -6,7 +6,7 @@ version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Adding/Editing Health Surveillance Panels'
@@ -49,27 +49,27 @@ Add the specific Health Surveillance Panels:
 
 * You can export and import from other systems.  See other help documentation titled <em>Health Surveillance Tab-Export-Import Panels.pdf.</em> Then after imported, you can tweak (and double check setup of the imported panels) in the system you imported into so the components fit their needs and rules.  When you use the export/import tool, it should create order items for you on the fly into the system you import them into and that would save you steps in the above pages regarding adding order items.  You still need to go in and tweak order items and panel components after the import.
 * Complete the following fields to add Panels one at a time into the system:
-    * <strong>Panel:</strong> Required. Is the abbreviated, unique name of the panel (this is a required field). This field cannot be modified once saved.
-    * <strong>Full name:</strong> Required. Can be different, but usually the same as the Panel name. Is the full name/description of the panel. This full name will be displayed for this panel in listings and dialogs.
-    * <strong>Work Regions:</strong> This field is where you set one or more work regions to limit this panel to. This field will only show if you have system setting "Use Work Regions" enabled and have work regions manager tab configured in your system set up.  Setting work regions would be for clients who have different panels for employees in other regions of the world.  It helps you limit the visibility of panel choices in the panel membership and the panels search for other users in the system. See other help documentation titled <em>Work Regions-Work Locations Tab.pdf</em>
-    * <strong>Description:</strong> Free text field. Can be as descriptive as wish.  Is any length of notes or attachments describing what this panel is for, who is to be included in it, determination of EG, reviewed by, etc. Any helpful information to explain this panel.
-    * <strong>Regulatory Source:</strong> Add the regulatory source/group that has issued a requirement for these actions to be done. This is a free text field; however {{% system-name %}} will remember prior sources entered in the system.
-    * <strong>Regulatory Reference:</strong> A number that identified the regulation or rule (ex: the OSHA code used to support the order items required for surveillance) or can be left blank/no data.
-    * <strong>Regulatory Status:</strong>  Add the status of the regulation (proposed, accepted, active, adopted, etc). This is a free text field, however {{% system-name %}} will remember prior statuses entered in the system.
-    * <strong>Open Membership:</strong> Selecting this causes this panel to display on the HS Membership matrix even if person is not a member.
-    * <strong>Active:</strong> Check to select if this is an active panel.  If unchecked, the panel still saves in {{% system-name %}} , but is marked as inactive.
-    * <strong>Restricted:</strong> Selecting this indicates managing this panel's membership will be limited to specific users and/or departments. Only permitted/allowed users/ departments are the ones allowed to add employees to the panel and create membership rules for it.
-    * <strong>Representative Event Type:</strong> Choose Procedure or Encounter.   A procedure or encounter that represents the panel as a whole, if applicable  Unless you want the HS panel to open an encounter when the orders populate the due list, then the event type will always be Procedure. The encounter would otherwise be opened when the patient checks in for their appt.
-    * <strong>Representative Event:</strong> This is a drop-down field to the right after you select Encounter or Procedure in the first drop-down.  Choose the Order item that was added as the representative event. Usually the order is the same name of the panel.   You would have added the representative action order item for the panel (or searched for existing one) in pages above.
+   * <strong>Panel:</strong> Required. Is the abbreviated, unique name of the panel (this is a required field). This field cannot be modified once saved.
+   * <strong>Full name:</strong> Required. Can be different, but usually the same as the Panel name. Is the full name/description of the panel. This full name will be displayed for this panel in listings and dialogs.
+   * <strong>Work Regions:</strong> This field is where you set one or more work regions to limit this panel to. This field will only show if you have system setting "Use Work Regions" enabled and have work regions manager tab configured in your system set up.  Setting work regions would be for clients who have different panels for employees in other regions of the world.  It helps you limit the visibility of panel choices in the panel membership and the panels search for other users in the system. See other help documentation titled <em>Work Regions-Work Locations Tab.pdf</em>
+   * <strong>Description:</strong> Free text field. Can be as descriptive as wish.  Is any length of notes or attachments describing what this panel is for, who is to be included in it, determination of EG, reviewed by, etc. Any helpful information to explain this panel.
+   * <strong>Regulatory Source:</strong> Add the regulatory source/group that has issued a requirement for these actions to be done. This is a free text field; however {{% system-name %}} will remember prior sources entered in the system.
+   * <strong>Regulatory Reference:</strong> A number that identified the regulation or rule (ex: the OSHA code used to support the order items required for surveillance) or can be left blank/no data.
+   * <strong>Regulatory Status:</strong>  Add the status of the regulation (proposed, accepted, active, adopted, etc). This is a free text field, however {{% system-name %}} will remember prior statuses entered in the system.
+   * <strong>Open Membership:</strong> Selecting this causes this panel to display on the HS Membership matrix even if person is not a member.
+   * <strong>Active:</strong> Check to select if this is an active panel.  If unchecked, the panel still saves in {{% system-name %}} , but is marked as inactive.
+   * <strong>Restricted:</strong> Selecting this indicates managing this panel's membership will be limited to specific users and/or departments. Only permitted/allowed users/ departments are the ones allowed to add employees to the panel and create membership rules for it.
+   * <strong>Representative Event Type:</strong> Choose Procedure or Encounter.   A procedure or encounter that represents the panel as a whole, if applicable  Unless you want the HS panel to open an encounter when the orders populate the due list, then the event type will always be Procedure. The encounter would otherwise be opened when the patient checks in for their appt.
+   * <strong>Representative Event:</strong> This is a drop-down field to the right after you select Encounter or Procedure in the first drop-down.  Choose the Order item that was added as the representative event. Usually the order is the same name of the panel.   You would have added the representative action order item for the panel (or searched for existing one) in pages above.
 
 ![](../adding-editing-health-surveillance-panels.assets/10000201000003160000023B1C59CDE2A3781ECA.png)
 
 * <strong>Comments:</strong> These are comments for/on the main panel level. These are displayed as <em>Health Surveillance Comments</em> in a section of the Due List chart tab and in Tests/Procedures section of dynamic encounters. These comments may include instructions on the ‘panel level' that may be useful for staff to see.
 * <strong>Owner:</strong>  This auto-complete field looks for any user in the system to select.  This is an optional entry field that denotes the point of contact (that has to be entered in as some type of user in {{% system-name %}} ) for managing this panel.
 * <strong>Adjustment Range:</strong>  There are 2 system settings that your MIE Implementer will need to enable if you wish to use these fields (Adjust Early and Adjust Late are the name of the system settings). This is used for systems with forecasting and due date adjustment enabled; the default number of days early or late can be overridden here for this panel. This allows how far "early" or "late" the panel can be adjusted to to mesh up with other panels.
-    * Leave blank to use the default
-    * Specify a positive number of days to override the default
-    * Set to 0 to disallow shifting
+   * Leave blank to use the default
+   * Specify a positive number of days to override the default
+   * Set to 0 to disallow shifting
 * <strong>Exit Alert:</strong>  An alert message to display when a member is about to be removed from this panel manually.
 
 ![](../adding-editing-health-surveillance-panels.assets/1000020100000208000000AC2CDAEACE9667B418.png)

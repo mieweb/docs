@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Locations Manager Tab'
@@ -52,7 +52,7 @@ There is a system setting to allow for international province/state selection. I
 * <strong>Time Zone:</strong> Defaults to Use System Time Zone, but you can select the specific time zone the location is.
 * <strong>Phone Number/Fax Number:</strong> Enter full phone number & fax number and must include area code.
 * <strong>Use in FAX header:</strong> If this location has a specific fax number entered above in this location's fax# field and you want all outgoing faxes from users using this default location to show this location's fax # as the "Sent From' on any outgoing faxes sent from {{% system-name %}} in the top header of the fax, set this option to <strong>Yes</strong>. This means any outgoing faxes sent by users who are set to this default location will show this specific location's fax# in the top header of the fax that the recipient receives instead of your {{% system-name %}} system's primary/main fax number.  This location fax# will override and display on the outgoing faxes instead of what your {{% system-name %}} system's primary/main fax number is set to.
-    * If this location has no FAX number or you don't want any faxes from users who are set to this default location to show this location's specific FAX number on the outgoing faxes, please set this option to <strong>No</strong>.  This means any fax sent by the user using this location as their default will show your {{% system-name %}} system's primary/main fax number instead and won't show the location specific fax# on the header of the fax that the recipient receives.  System setting for fax header:
+   * If this location has no FAX number or you don't want any faxes from users who are set to this default location to show this location's specific FAX number on the outgoing faxes, please set this option to <strong>No</strong>.  This means any fax sent by the user using this location as their default will show your {{% system-name %}} system's primary/main fax number instead and won't show the location specific fax# on the header of the fax that the recipient receives.  System setting for fax header:
 
 ![](../locations-manager-tab.assets/100000000000019D00000029069E219CD6E0E913.png)
 

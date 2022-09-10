@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Encounter Plan Section - Medications'
@@ -78,14 +78,14 @@ Area's/modules where this feature will appear: Prescribe (E-Meds) chart tab, Ref
 ![](../encounter-plan-section-medications.assets/100000000000038F000000421223E9CDC1E76EED.png)
 
 * <strong>Note to Pharmacist:</strong> You can type a note to the pharmacist regarding this prescription and it will show on the prescription when printed/faxed/transmitted. This Notes field should only include information to the pharmacist that does not already have structured fields designated for such information, so long as it does not conflict with information sent in other structured fields. Inappropriate use of this Notes field includes information that already has a structured and codified field within the e-prescription message. The most concerning inappropriate use of this field is for patient directions, either supplemental or conflicting. This can lead to critical information not being conveyed to the patient.
-    * Instructions should not be split between the Sig and Notes fields. The Notes field should be reserved for information to assist the pharmacist in dispensing, benefits determination and other pharmacy staff activities.
-    * Populating multiple fields with patient instructions may result in some instructions being missed and not conveyed to the patient.
-    * Inconsistent patient information between the Sig and Notes can result in the patient being provided the wrong instructions.
-    * Examples of Improper Use
-        * Sig field-"Take one tablet daily," Notes field-"Take only on Monday, Wednesday and Friday."
-        * Sig field-"Dissolve one tablet under the tongue every 10 minutes for chest pain," Notes field-"Call physician immediately if relief is not obtained after three doses."
-        * Sig field-"Apply and rub well into affected area twice a day," Notes field-"Discontinue use and call physician if rash worsens."
-        * Sig field-"One drop to eye having surgery three times daily," Notes field-"Start two days prior to surgery."
+   * Instructions should not be split between the Sig and Notes fields. The Notes field should be reserved for information to assist the pharmacist in dispensing, benefits determination and other pharmacy staff activities.
+   * Populating multiple fields with patient instructions may result in some instructions being missed and not conveyed to the patient.
+   * Inconsistent patient information between the Sig and Notes can result in the patient being provided the wrong instructions.
+   * Examples of Improper Use
+      * Sig field-"Take one tablet daily," Notes field-"Take only on Monday, Wednesday and Friday."
+      * Sig field-"Dissolve one tablet under the tongue every 10 minutes for chest pain," Notes field-"Call physician immediately if relief is not obtained after three doses."
+      * Sig field-"Apply and rub well into affected area twice a day," Notes field-"Discontinue use and call physician if rash worsens."
+      * Sig field-"One drop to eye having surgery three times daily," Notes field-"Start two days prior to surgery."
 {{% note %}}
 
 The Note to Pharmacist field **should not** contain patient instructions on medication use.** Patient instructions should be contained entirely within the Sig field.**
@@ -97,7 +97,7 @@ The Note to Pharmacist field **should not** contain patient instructions on medi
 
 * <strong>Print Drug Guide:</strong> Checkmark this if you with to have the drug guide for this medication to go into the print queue to print for the patient.
 * <strong>Remember As:</strong> This means you the user can type something in there (example: BOB or Heart Disease). This remembers this specific prescription/form (not free-text form though)/sig/duration/refills and quantity and saves it in the prescriber's medication library.
-    * Update Button: If you used/prescribed a ‘remembered script' and change any prescription detail fields you can click the UPDATE button for the remembered script, it will ‘update' that remembered script with everything you entered in currently then. It ‘updates' the remembered script and changes that remembered script to have the details you just entered in/changed to.
+   * Update Button: If you used/prescribed a ‘remembered script' and change any prescription detail fields you can click the UPDATE button for the remembered script, it will ‘update' that remembered script with everything you entered in currently then. It ‘updates' the remembered script and changes that remembered script to have the details you just entered in/changed to.
 
 ![](../encounter-plan-section-medications.assets/10000201000001E50000004E3539EA2BFA9C7576.png)
 

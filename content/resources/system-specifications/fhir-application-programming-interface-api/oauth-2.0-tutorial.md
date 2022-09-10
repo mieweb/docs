@@ -1,14 +1,14 @@
 ---
 id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
-date: '2022-08-27T05:26:22.579Z'
-version: 302
-lastAuthor: 'Will Reiske'
+date: '2022-09-09T13:17:51.335Z'
+version: 316
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://oauth.net/2/'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 ---
 # OAuth 2.0 Overview
 

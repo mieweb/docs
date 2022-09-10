@@ -6,7 +6,7 @@ version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Encounter Report'
@@ -43,7 +43,7 @@ If you click view timecard it opens up the details of that encounter respective 
 ![](../encounter-report.assets/10000000000003300000008305F65993575009A5.png)
 
 * <strong>Date Range:</strong> You must enter at least an end date range date. If you want an entire history date range (not a specific date or week, etc), then simply leave the first date blank and make the end date today (now) date. It will give you results for the entire date history in your system.
-    * If you wish a specific date range, you must type in a Start and End date in the fields. Leaving both Start and End date fields blank will not give you any results. You must have a <em>range</em> or at least an end date.
+   * If you wish a specific date range, you must type in a Start and End date in the fields. Leaving both Start and End date fields blank will not give you any results. You must have a <em>range</em> or at least an end date.
 The system will then display the Average Timecard specific to the data you entered into the fields. The statistics on this report involve how long the encounters where open, how long it took for the dictations to be completed after they were created on the encounter, and how long did it take for the doctor to sign the transcribed document after the nurse uploaded the dictation transcription.
 Click RESET to start another search, or change the fields and click CALCULATE to do another average, or simply go back to the search by clicking Return to Search link at the top right of this screen.
 

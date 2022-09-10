@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'about:blank'
 source: 'https://drive.google.com/open?id=1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Provider Organization Setup'
@@ -93,10 +93,10 @@ It will open to the Partition Add screen:
 ![](../provider-organization-setup.assets/10000201000000010000000192AFFF46F4DC1BB5.png)
 
 * <strong>Active Types:</strong>
-    * Non Active:
-    * Active: This is an active partition. Active partitions also show up in E-orders to select from.
-    * Active with Doc Queue: This allows this partition to show up in the dropdown in the Document Queue for Merging. This partition type doesn't show up in E-Orders to select from.
-        * If you select <em>Active with Doc Queue Merging</em>, then another field named <em>Auto Merge Type</em> will open up. This is to set the merge chart options.
+   * Non Active:
+   * Active: This is an active partition. Active partitions also show up in E-orders to select from.
+   * Active with Doc Queue: This allows this partition to show up in the dropdown in the Document Queue for Merging. This partition type doesn't show up in E-Orders to select from.
+      * If you select <em>Active with Doc Queue Merging</em>, then another field named <em>Auto Merge Type</em> will open up. This is to set the merge chart options.
 
 ![](../provider-organization-setup.assets/10000201000000010000000152449A057AA5EDF9.png)
 

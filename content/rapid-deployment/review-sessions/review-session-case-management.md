@@ -2,7 +2,7 @@
 id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 title: 'Review Session - Case Management'
 date: '2022-08-30T13:00:16.503Z'
-version: 385
+version: 387
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -36,7 +36,7 @@ links:
   - 'https://mie.talentlms.com/learner/courseinfo/id:448'
   - 'https://mie.talentlms.com/learner/courseinfo/id:197'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Case Management'
@@ -49,65 +49,65 @@ menu:
 * Pre-requisites
 * Overview
 * WR Case Management Workflow Demonstration
-    * The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
+   * The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
 * Linked documentation
 * Case details
 * Referrals
-            * Case management notes
+         * Case management notes
 * Restrictions/Accommodations
 * Disposition/Work Status
-    * Tasking
-    * Work Related (WR) Case Management Encounter
-        * Case Manager
-        * Case
-        * Incident Summary
-        * Plan Narrative flowsheet (customizable & driven by protocol <em>Case Management</em>)
-        * Notes/Tracking
-            * Follow-Up Date
-        * Restrictions/Accommodations
-            * Lost Time Tracking
-        * Stages
-    * WR Case Management Worklist
-    * Security Role Permissions
-    * Linking Cases
-        * Linking existing case to a document (ex: WebScan or File Upload)
-        * Linking visit encounter(s) to existing case
-    * Cases stand-alone chart tab
-    * Close case
-        * Deleting case or Closing case difference
-    * Close/Archive Case Management Encounter (once considered ‘resolved', closed, or another outcome)
-    * Forms can be generated from the current case
-        * OSHA 301 configured with an overlay of employee incident data
-        * Generic and State-specific forms
-            * Doctor's First Report of Injury
-            * Employer's First Report of Injury
-    * Reports
-        * Case Management Encounters
-        * Daily Activity
-        * Incident Report
-        * OSHA 300 Log
-        * OSHA 300A
-        * Sharps Log
+   * Tasking
+   * Work Related (WR) Case Management Encounter
+      * Case Manager
+      * Case
+      * Incident Summary
+      * Plan Narrative flowsheet (customizable & driven by protocol <em>Case Management</em>)
+      * Notes/Tracking
+         * Follow-Up Date
+      * Restrictions/Accommodations
+         * Lost Time Tracking
+      * Stages
+   * WR Case Management Worklist
+   * Security Role Permissions
+   * Linking Cases
+      * Linking existing case to a document (ex: WebScan or File Upload)
+      * Linking visit encounter(s) to existing case
+   * Cases stand-alone chart tab
+   * Close case
+      * Deleting case or Closing case difference
+   * Close/Archive Case Management Encounter (once considered ‘resolved', closed, or another outcome)
+   * Forms can be generated from the current case
+      * OSHA 301 configured with an overlay of employee incident data
+      * Generic and State-specific forms
+         * Doctor's First Report of Injury
+         * Employer's First Report of Injury
+   * Reports
+      * Case Management Encounters
+      * Daily Activity
+      * Incident Report
+      * OSHA 300 Log
+      * OSHA 300A
+      * Sharps Log
 * System Configuration
-    * Encounter Stages
-    * Follow-Up Date
-    * Incident on-site Locations
-    * Task Rules
-    * Restriction Notification Email functionality to Supervisor
-    * Restriction Types Editor
-    * Accommodation types
-    * Nature of Illness/Injury and Body Parts
-    * Chart Tab Restriction
-    * Report Restriction
-    * Restriction Providers
-    * Legacy System Case Management
-    * My Settings preference for Cases
-    * System Settings (module I&I)
+   * Encounter Stages
+   * Follow-Up Date
+   * Incident on-site Locations
+   * Task Rules
+   * Restriction Notification Email functionality to Supervisor
+   * Restriction Types Editor
+   * Accommodation types
+   * Nature of Illness/Injury and Body Parts
+   * Chart Tab Restriction
+   * Report Restriction
+   * Restriction Providers
+   * Legacy System Case Management
+   * My Settings preference for Cases
+   * System Settings (module I&I)
 * System Configuration/Key Decision Points
 * Action Items/Timelines
 * Resources
-    * Documentation
-    * LMS Courses/Videos
+   * Documentation
+   * LMS Courses/Videos
 
 
 # Pre-requisites
@@ -118,9 +118,9 @@ Before the review session, please provide corresponding documentation:
 1. Standard Operating Procedures of the current Case Management processes
 2. Any mapping or swim lane documentation for the current Case Management processes 
 3. Types of Cases currently being utilized for Case Management
-    1. Injury/Illness
-    2. COVID
-    3. Absence Management (if purchased)
+   1. Injury/Illness
+   2. COVID
+   3. Absence Management (if purchased)
 4. Questionnaires/flowsheets for the current Case Management processes
 5. Report examples for the current Case Management processes
 6. Forms/Documentation examples that utilize the Case Management processes
@@ -282,10 +282,10 @@ All clients should review the available reports to determine if any additional r
 
 
 1. Are Case Managers to be utilized in future Case Management Workflows?
-    1. Do Case Managers need to have limited/restricted access?
-        1. If so, List of all Case Managers needed for restricted access setup
-        2. What restricted Chart tabs, print definitions, or documents are needed?
-        3. What access is needed for Case Managers?
+   1. Do Case Managers need to have limited/restricted access?
+      1. If so, List of all Case Managers needed for restricted access setup
+      2. What restricted Chart tabs, print definitions, or documents are needed?
+      3. What access is needed for Case Managers?
 2. What should be configured in the Plan Narrative section Case Management protocol flowsheet?
 3. What Case Management Reports are needed?
 4. What Stages are needed?

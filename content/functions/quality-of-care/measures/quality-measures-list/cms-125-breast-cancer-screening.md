@@ -12,7 +12,7 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms125v10'
 source: 'https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 125 - Breast Cancer Screening'
@@ -122,19 +122,19 @@ menu:
 
 Use the Past Procedures section of the encounter to record a previous mammogram, in order to track all 50-74 year-old women with one or more mammograms recorded (15 months prior to or during the measurement period). Otherwise, the procedure can be recorded in the Preventive Care section of the encounter, or a mammogram can be scanned and indexed, to record the screening was completed.
 1. While documenting the Visit encounter, either record the previous procedure or the receipt of the mammogram, or scan and index the mammogram, as appropriate:
-    1. <strong>Option 1:</strong> <strong>Document in Past Procedures section</strong>
-        1. Open the Past Procedures section.
-        2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Mammogram) with the appropriate concept ID.
-        3. Add the Date and any relevant Notes.
-        4. Click the Next button, or close the section.
-    1. <strong>Option 2: Document in the Preventive Care section of Visit encounter</strong>
-        1. Open the Preventive Care section.
-        2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-21-2018). This date is the Last Reported Date.
-        3. Click the Next button, or close the section. 
+   1. <strong>Option 1:</strong> <strong>Document in Past Procedures section</strong>
+      1. Open the Past Procedures section.
+      2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Mammogram) with the appropriate concept ID.
+      3. Add the Date and any relevant Notes.
+      4. Click the Next button, or close the section.
+   1. <strong>Option 2: Document in the Preventive Care section of Visit encounter</strong>
+      1. Open the Preventive Care section.
+      2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-21-2018). This date is the Last Reported Date.
+      3. Click the Next button, or close the section. 
 1. Continue documenting the encounter, as needed.
 2. When completed, Close and Archive the encounter.
 * <strong>Option 3: Scan/Index or Upload a Mammogram document</strong>
-    * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the MAMMO document type configured with the necessary LOIN-C (24606-6).
+   * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the MAMMO document type configured with the necessary LOIN-C (24606-6).
 
 ## Evidence
 

@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'E-Refills - My Pending Refills Tab'
@@ -75,8 +75,8 @@ If a prescriber has been deactivated (ex: terminated your practice and their use
 
 * <strong>Open Chart:</strong> This is a link you can click to take you directly to the patient's chart. It will open in a separate screen while leaving this refill request open in the background. You can browse and get into to the patient's medications tab in {{% system-name %}} from this link without having to get out of the refill request.
 * <strong>Unmatched:</strong> If you see the yellow alert <strong>Unmatched</strong> next to the patient name in the refill request, it means the pharmacy is sending you a request for a patient that is <em>not a match</em> in your {{% system-name %}} system. {{% system-name %}} does not find a name/dob, etc match for the patient they are sending an e-refill request for.
-    * You can then just simply deny the refill request if you know it's not your patient or cannot find it in your {{% system-name %}} system. Or if you know the patient is valid, but they send it either misspelled or perhaps wrong DOB, etc, then you would match it to the correct patient in your {{% system-name %}} system so the refill details populate that correct patient's chart. Example below: If the pharmacy sent the refill request in as David Cross, but you know the patient is spelled David *K* Ross, then you would use the patient auto-complete search field and find the correct {{% system-name %}} patient. Once you selected the right matching patient in your system, then click the SET button. The patient auto-complete search shows results for active patients only. If the patient is marked as deceased in your
-      {{% system-name %}} system, they will not show up as a patient to select in this search field.
+   * You can then just simply deny the refill request if you know it's not your patient or cannot find it in your {{% system-name %}} system. Or if you know the patient is valid, but they send it either misspelled or perhaps wrong DOB, etc, then you would match it to the correct patient in your {{% system-name %}} system so the refill details populate that correct patient's chart. Example below: If the pharmacy sent the refill request in as David Cross, but you know the patient is spelled David *K* Ross, then you would use the patient auto-complete search field and find the correct {{% system-name %}} patient. Once you selected the right matching patient in your system, then click the SET button. The patient auto-complete search shows results for active patients only. If the patient is marked as deceased in your
+{{% system-name %}}      system, they will not show up as a patient to select in this search field.
 Once you click the SET button, the patient information at the top summary would change to be the patient you selected. You would then click OK to take you back to the refill request.
 
 ![](../e-refills-my-pending-refills-tab.assets/100000000000025A0000014B4F8080F531F62F64.png)
@@ -89,8 +89,8 @@ Once you click the SET button, the patient information at the top summary would 
 ![](../e-refills-my-pending-refills-tab.assets/10000000000001C7000000EE1083405BF68D08F5.png)
 
 * <strong>Unmatched:</strong> If you see the yellow alert <strong>Unmatched</strong> next to the drug name in the refill request, it means the pharmacy is sending you a request for a drug that does not <em>match</em> an active drug the patient has already prescribed/listed in their chart in your {{% system-name %}} system. {{% system-name %}} does not find that drug listed in the patient's current medication history that they are sending an e-refill request for. Meaning, your practice may have not prescribed this drug to this patient before since it's not listed in their medication history in e-meds module.
-    * You can also link the unmatched refill request drug to a current medication for the patient by clicking on the drug link. It will open the Medication from Patient's List screen. You can type in a drug name in the search to see if the patient is currently on something that you want to link this e-refill request to. If no results show, then the patient doesn't have that as an active medication in their medication history in
-      {{% system-name %}}. You can also click the SHOW ALL button to show the active medications the patient has in their {{% system-name %}} medication history.
+   * You can also link the unmatched refill request drug to a current medication for the patient by clicking on the drug link. It will open the Medication from Patient's List screen. You can type in a drug name in the search to see if the patient is currently on something that you want to link this e-refill request to. If no results show, then the patient doesn't have that as an active medication in their medication history in
+{{% system-name %}}     . You can also click the SHOW ALL button to show the active medications the patient has in their {{% system-name %}} medication history.
 
 ![](../e-refills-my-pending-refills-tab.assets/10000000000002200000015C55B459E067A53F5B.png)
 
@@ -155,7 +155,7 @@ You can APPROVE it as is (you *can't* change the dispensings—you are approving
 
 * <strong>Approve button:</strong> Use to approve as-is with the number of refills specified by the pharmacy
 * <strong>Approve w/ Edit Refill button:</strong> Use to approve the refill request, but set a practice-specified number of refills (dispensings).
-    * When you click one of the APPROVE buttons, you will see the_approve refill request_screen open up. It again has the details of the drug being approved. Before sending the approval, you must fill out an approved dispensings field.
+   * When you click one of the APPROVE buttons, you will see the_approve refill request_screen open up. It again has the details of the drug being approved. Before sending the approval, you must fill out an approved dispensings field.
 * <strong>Days Supply:</strong> Can specify a days supply for the medication. If it can be calculated based on what is requested, it will show the calculation. This field does not get sent back to the pharmacy with the approval. It only affects the {{% system-name %}} system's refill record of the drug. Having a days supply (duration) set here makes it so an expiration date can be calculated.
 * <strong>Substitutions:</strong> There are times when a refill request comes in from a pharmacy and it will not specify whether or not substitutions are allowed on the med.  This field will say <em>UNSPECIFIED</em> in the incoming refill request. In this case, the provider needs to have an opportunity to decide this.  When the prescriber clicks an APPROVE button, it alerts the physician that substitutions wasn't specified by the pharmacy and the physician needs to approve as substitutions allowed (which is the default check-mark) or uncheck-mark it and not allow substitutions for the refill request.
 * <strong>Total number of dispensings approved:</strong> This is the total number of dispensings of the drug you will approve. This is <em>not</em> the number of refills. You must type in a number here and it cannot be zero. Because you are approving the drug to be refilled it would require at least <em>one</em> dispensing. You will get an error if you leave this blank or if you enter zero.

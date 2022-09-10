@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1AItULVTpRM4B-5o5xvsQ-7q_IhdY6sRCVtwmhcUt75A'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'EPA 2 - Use of Telehealth Services that Expand Practice Access'
@@ -31,9 +31,9 @@ menu:
 
 Supporting Documentation
 1. Use of Telehealth Services - Documented use of telehealth services through: 
-    1. claims adjudication (may use G codes to validate); 
-    2. certified EHR or 
-    3. other medical record document showing specific telehealth services, consults, or referrals performed for a patient; and 
+   1. claims adjudication (may use G codes to validate); 
+   2. certified EHR or 
+   3. other medical record document showing specific telehealth services, consults, or referrals performed for a patient; and 
 1. Analysis of Assessing Ability to Deliver Quality of Care - Participation in or performance of quality improvement analysis showing delivery of quality care to patients through the telehealth medium (e.g. Excel spreadsheet, Word document or others).
 
 

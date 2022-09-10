@@ -9,7 +9,7 @@ links:
   - 'measures.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Quality Reporting Enrollment'
@@ -24,19 +24,19 @@ The following information is intended to walk users through the basic enrollment
 ## Enroll via Quality Reporting Portlet
 
 1. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
-   {{% tip %}}
+{{% tip %}}
    If the Quality Reporting portlet is not enabled, click the <strong>Select Portlets</strong> link toward the top of the page. Select the <em>Quality Reporting</em> portlet, and click the <strong>Save</strong> button.
    <img src="../quality-reporting-enrollment.assets/10000201000001F60000025009ABC3AF08B77E21.png" />
-   {{% /tip %}}
+{{% /tip %}}
 2. Click the {{% syslink "Enroll" "f=layout&module=MIPS&name=Advanced+Measure+Enrollment&user_id=50&redirect=f%3Domniscope&tabmodule=+" %}} hyperlink to begin the enrollment process.
 
 
 
    <img src="../quality-reporting-enrollment.assets/10000201000004B0000001A8494D00E94942CC28.png" />
-   {{% warning %}}
+{{% warning %}}
    Ensure all participating provider profiles are edited with the correct National Provider Identifier (NPI) and Tax Identification Number (TIN), so that the JSON file to be submitted successfully uploads to the reporting website.
    <img src="../quality-reporting-enrollment.assets/10000201000004FB000001E89EC30D808A39672D.png" />
-   {{% /warning %}}
+{{% /warning %}}
 3. After the page loads, use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
 
 
@@ -51,9 +51,9 @@ The following information is intended to walk users through the basic enrollment
 
 5. Next, from the <strong>Available Measures</strong> table, select <strong>all measures needing to be tracked</strong>, specific to the relevant program(s) opted into by the enrolled provider(s). Filter the columns, as needed. 
    <img src="../quality-reporting-enrollment.assets/10000201000004BE00000298241BF625923C2998.png" />
-   {{% info %}}
+{{% info %}}
    For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](../reports/using-datavis-grids-data-tools.md) help documentation.
-   {{% /info %}}
+{{% /info %}}
 
 {{% warning %}}
 
@@ -64,10 +64,10 @@ It is very important to select the correct measure associated with your Performa
 
 6. Once all necessary measures have been selected, click the <strong>Submit</strong> button. 
    <img src="../quality-reporting-enrollment.assets/10000201000004B00000021B08DDA040D8800D24.png" />
-   {{% info %}}
+{{% info %}}
    The logged-in user will now be able to track the enrolled measures from the Quality Reporting portlet on the Quick View.
    <img src="../quality-reporting-enrollment.assets/100002010000028000000129AD9D0DC3FB209131.png" />
-   {{% /info %}}
+{{% /info %}}
 
 ## Guided Enrollment
 

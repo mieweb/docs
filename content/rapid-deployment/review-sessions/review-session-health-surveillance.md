@@ -43,7 +43,7 @@ links:
   - '../../functions/health-surveillance/respirator-info-chart-tab.md'
   - '../../functions/system-configuration/locations-management.md'
 source: 'https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Health Surveillance'
@@ -56,14 +56,14 @@ menu:
 * <strong>Health Surveillance Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>Health Surveillance Panels</strong>
-    * <strong>Panel Actions</strong>
-    * <strong>Representative Events</strong>
+   * <strong>Panel Actions</strong>
+   * <strong>Representative Events</strong>
 * <strong>Panel Memberships</strong>
 * <strong>Email Notifications</strong>
 * <strong>Scheduling</strong>
 * <strong>Portal</strong>
-    * <strong>Employee Portal</strong>
-    * <strong>Employer Portal</strong>
+   * <strong>Employee Portal</strong>
+   * <strong>Employer Portal</strong>
 * <strong>Managing the Due List</strong>
 * <strong>Reporting</strong>
 * <strong>System Configuration</strong>
@@ -173,9 +173,9 @@ The [Panel Forecast report](https://system/?f=layout&s=pat&module=SystemReport&n
 The [Panel Metrics report](https://system/?f=layout&s=pat&module=SystemReport&name=PanelMetrics&tabmodule=reports&t=Health+Surveillance) displays health surveillance panels that are due within the specified due date range. This report displays each panel status, as well as other details organized in a variety of available sections:
 * <strong>Employee Panels</strong>: This section lists the individual employees and any associated health surveillance panels that are due.
 * The other sections display aggregate totals:
-    * <strong>Total Employee Panels by Month</strong>
-    * <strong>Total Employee Panels by Month, and Required vs Voluntary</strong>
-    * <strong>Total Employee Panels Month, and Status</strong>
+   * <strong>Total Employee Panels by Month</strong>
+   * <strong>Total Employee Panels by Month, and Required vs Voluntary</strong>
+   * <strong>Total Employee Panels Month, and Status</strong>
 
 ### Panel Status
 

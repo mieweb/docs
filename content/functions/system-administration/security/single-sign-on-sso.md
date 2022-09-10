@@ -10,7 +10,7 @@ links:
   - 'https://en.wikipedia.org/wiki/Single_sign-on_'
   - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Single Sign-On (SSO)'
@@ -27,8 +27,8 @@ The sections that follow provide an overview of SSO, related features in the {{%
 It is useful to recognize the following terminology in relation to single sign-on. The terms listed in this section are commonly encountered as a part of this topic:
 * <strong>Application Program Interface</strong> (<strong>API</strong>): A set of routines, protocols, and tools for building software applications. The API specifies how software components should interact, and are used when programming graphical user interface (GUI) components.
 * <strong>Binding/SAML Binding</strong>: Refers to a supported workflow.
-    * IDP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the SSO Server.
-    * SP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the {{% system-name %}} system.
+   * IDP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the SSO Server.
+   * SP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the {{% system-name %}} system.
 * <strong>CGI Variable</strong>: A CGI (Common Gateway Interface) is a standard environment for web servers to interface with executable programs installed on a server, which generate web pages dynamically. A CGI variable is a user-supplied input (such as entering text into an open field).
 * <strong>Client System</strong>: The {{% system-name %}} system that allows logins from a given IDP.
 * Digital Signature Algorithm (<strong>DSA</strong>): A Federal Information Processing Standard for digital signatures.

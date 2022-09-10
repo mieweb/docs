@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=176-bgLFDRLW-GuYe4dKX1VgeRfFSXlOuBvIxz_0w4i4'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'PM 14 - Implementation of Methodologies for Improvements in Longitudinal Care Management for High Risk Patients'
@@ -36,9 +36,9 @@ menu:
 Supporting Documentation
 1. High Risk Patients - Identification of patients at high risk for adverse health outcome or harm; and 
 2. Use of Longitudinal Care Management - Documented use of longitudinal care management methods including at least one of the following: 
-    1. empaneled patient risk assignment and risk stratification into actionable risk cohorts; or 
-    2. personalized care plans for patients at high risk for adverse health outcome or harm; or 
-    3. evidence of use of on-site practice based or shared care managers to monitor and coordinate care for highest risk cohort.
+   1. empaneled patient risk assignment and risk stratification into actionable risk cohorts; or 
+   2. personalized care plans for patients at high risk for adverse health outcome or harm; or 
+   3. evidence of use of on-site practice based or shared care managers to monitor and coordinate care for highest risk cohort.
 
 
 

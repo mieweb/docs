@@ -11,7 +11,7 @@ links:
   - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Panel Membership Import Tool'
@@ -41,7 +41,7 @@ The following page defines data and fields that may be imported using the panel 
 
 ## Specifications
 
-* {{% system-name %}} end user with administrative privileges
+{{% system-name %}}*  end user with administrative privileges
 * Spreadsheet software for formatting the data file (e.g., Microsoft Excel or Google Sheets); data files must be formatted in Comma Separated Values (CSV)
 * The first row of the file must contain column header information
 * Each subsequent row represents an encounter order

@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Documents Report / Super Document Type Search'
@@ -35,10 +35,10 @@ You do not have to fill out every single field. These fields are different ways 
 * <strong>Location:</strong> Click on this field to check-mark a specific location or multiple locations for these documents you are searching for. If you skip this field, it will search all locations.
 * <strong>Interface</strong>: Type in the correct interface path (abbreviation) if looking for documents from an interface (Parkview, Lutheran, FW Med Lab, etc)
 * <strong>Dates & Date ranges:</strong>
-    * Origin Date Range is the date the originator ‘wrote' the document.  Example: When the doctor made the dictation.
-    * Create Date Range is the date the {{% system-name %}} version of the document was created.  Example: When the dictation was transcribed.
-    * Revision Date Range is the date of the latest revision date of the {{% system-name %}} document.
-    * Service Date Range is the date of the service that the document refers to.
+   * Origin Date Range is the date the originator ‘wrote' the document.  Example: When the doctor made the dictation.
+   * Create Date Range is the date the {{% system-name %}} version of the document was created.  Example: When the dictation was transcribed.
+   * Revision Date Range is the date of the latest revision date of the {{% system-name %}} document.
+   * Service Date Range is the date of the service that the document refers to.
 {{% tip %}}
 
 

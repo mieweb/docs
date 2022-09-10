@@ -6,7 +6,7 @@ version: 54
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Asset Management Module'
@@ -134,10 +134,10 @@ Maintenance: Enter maintenance tracking information in the maintenance section.
 
 * Warranty/Guarantee Expiration Date
 * Insurance Policy
-    * If Yes, the section will expand to record relevant insurance policy details.
+   * If Yes, the section will expand to record relevant insurance policy details.
 * Maintenance Agreement
-    * If Yes, the section will expand to record relevant maintenance agreement details.
-    * The maintenance agreement <em>Contract Expiration</em> date field is used for automatic notification of expiration to the owner at 90 and 30 days prior to the date via email cron job.
+   * If Yes, the section will expand to record relevant maintenance agreement details.
+   * The maintenance agreement <em>Contract Expiration</em> date field is used for automatic notification of expiration to the owner at 90 and 30 days prior to the date via email cron job.
 * Date of Last Maintenance will be populated from the Maintenance encounter.
 * Enter comments as needed.
 * Link to Service Manual: Add the URL link for any service manual if available.

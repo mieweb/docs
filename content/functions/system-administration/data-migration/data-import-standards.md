@@ -13,7 +13,7 @@ links:
   - 'http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Data Import Standards'
@@ -25,10 +25,10 @@ The following columns display in standardized data import specifications:
 * <strong>Field Name</strong> - The name for the specific field and what should be the column header in the file. Often from the related database column name.
 * <strong>Type (Length)</strong>- Identifies what type of value should be sent in this field and the maximum length the field can hold. Updated information available in db model, otherwise [follow link to model spreadsheet.](https://docs.google.com/a/mieweb.com/spreadsheets/d/1WqdIEGETaoa0RFPUazvKp5JfX-gYEIfzyQ8jtApwFq8/edit?usp=sharing)
 * <strong>Required</strong> - Indicates if a field is required. Options include:
-    * R - required: Data is required for import to function.
-    * O - optional: Data is optional for import.
-    * BP - best practice: Data is not required, but provides better usability within EH.
-    * CR - conditionally required: Data is required based on conditions defined in spec. Include details for conditionally required data in this column as needed.
+   * R - required: Data is required for import to function.
+   * O - optional: Data is optional for import.
+   * BP - best practice: Data is not required, but provides better usability within EH.
+   * CR - conditionally required: Data is required based on conditions defined in spec. Include details for conditionally required data in this column as needed.
 * <strong>Description</strong> - Description of imported information. Retrieved from db model or model spreadsheet (see link under Type).
 * <strong>Example</strong> - Example field contents.
 * <strong>Data File Column Name Header</strong> - Name of column header in CSV file.
@@ -295,11 +295,11 @@ Use the template file to establish the required columns and formats for the data
 
 The import file must be stored as a CSV. If prompted by Excel to save as a different format, make sure the file is saved as a CSV. It is best to first test with only a few rows of data before importing an entire file. Then, if the data imports successfully, delete the rows you just loaded from the original file so that they are not duplicated. To complete a test import:
 1. Input the following information into corresponding fields to upload the form:
-    1. <strong>Interface</strong>: hr_feed
-    2. <strong>Verbose</strong>: Select the Verbose checkbox to see the logging of the import. Usually only needed if there are errors.
-    3. <strong>Delimiter</strong>: select from drop list
-    4. <strong>Choose/Upload File</strong>: Select the file you're importing.
-    5. Click the <strong>Upload</strong> button.
+   1. <strong>Interface</strong>: hr_feed
+   2. <strong>Verbose</strong>: Select the Verbose checkbox to see the logging of the import. Usually only needed if there are errors.
+   3. <strong>Delimiter</strong>: select from drop list
+   4. <strong>Choose/Upload File</strong>: Select the file you're importing.
+   5. Click the <strong>Upload</strong> button.
 Any errors encountered during the import display on the import page. Click the Download Failed Generic Test Data File button to view the error file. This file is useful because it only contains the records from the data file that had issues. These issues can be identified and fixed and then the failed file can be uploaded to fill in the gap.
 
 ## **CSV Header Options**

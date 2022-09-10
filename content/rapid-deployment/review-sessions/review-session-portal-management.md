@@ -17,7 +17,7 @@ links:
   - '../../functions/portal-management/employer-portal-setup.md'
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
 source: 'https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Portal Management'
@@ -30,12 +30,12 @@ menu:
 * <strong>Employee and Supervisor Portal Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>System Configuration</strong>
-    * <strong>User-Patient Relationships</strong>
-    * <strong>Portal Setup</strong>
-    * <strong>Employee Portal</strong>
-    * <strong>Supervisor Portal</strong>
-    * <strong>Applicant Portal</strong>
-    * <strong>System Settings</strong>
+   * <strong>User-Patient Relationships</strong>
+   * <strong>Portal Setup</strong>
+   * <strong>Employee Portal</strong>
+   * <strong>Supervisor Portal</strong>
+   * <strong>Applicant Portal</strong>
+   * <strong>System Settings</strong>
 * <strong>Resources</strong>
 
 ## Overview
@@ -165,12 +165,12 @@ The Send a Message module can have its name and header customized, the sending i
 * <strong>Replacement text for header bar</strong>: The header found on the Send a Message portal page defaults to <em>Send a Message</em>. Use this field to customize this header, as needed.
 * <strong>Instruction text</strong>: Use this field to add optional instructions for the Send a Message portal page.
 * <strong>Allowed message types for sending within portal</strong>: The following message types are supported for transmission using the employee portal, by default:
-    * My Medical Information
-    * Request an Appointment
-    * Travel Questionnaire
-    * Ask a Clinical Question
-    * Request an Accommodation
-    * Report Injury or Illness
+   * My Medical Information
+   * Request an Appointment
+   * Travel Questionnaire
+   * Ask a Clinical Question
+   * Request an Accommodation
+   * Report Injury or Illness
 {{% tip %}}
 
 Click the minus button to remove any message type, or click the button or *Add message types* link, to add back message types, as needed.
@@ -183,12 +183,12 @@ The Other Health Resources module allows for additional resources to be added to
 * <strong>Custom Module Name</strong>: The name defaults to <em>Other Health Resources</em>. Customize up to 60 characters.
 * <strong>Add additional health resources</strong>: To add additional health resources, simply click the <strong>Add Health Resource</strong> button. This will place a templated NoMoreClipboard health resource panel at the bottom of the list of resources.
 1. To update/edit a health resource, click on any area within the resource panel:
-    1. <strong>Title</strong> (NOMORECLIPBOARD): This is a free-text field. Click on the title and update with the preferred title of the health resource.
-    2. <strong>Summary</strong>: This is a free-text field. Click anywhere in the NoMoreClipboard summary and update the text with a preferred description/summary of the health resource.
-    3. <strong>Link</strong> (NMC HOME): Clicking on the provided link will open an <strong>Edit Link</strong> window. Determine the link type (i.e., a normal link, a form, or a pre-built questionnaire), the link title, and the URL of the webpage. Click <strong>Submit</strong>, when finished.
-    4. <strong>Arrows</strong>: Use the arrows in the bottom-left corner to move the health resource panel to an alternative location on the page.
-    5. <strong>Add Link</strong>: Click this button to add additional links to the health resource.
-    6. <strong>Delete</strong>: Click this button to remove the health resource from displaying on the employee portal. The button changes to <strong>Undelete</strong>, so the panel can be replaced prior to submitting, if necessary.
+   1. <strong>Title</strong> (NOMORECLIPBOARD): This is a free-text field. Click on the title and update with the preferred title of the health resource.
+   2. <strong>Summary</strong>: This is a free-text field. Click anywhere in the NoMoreClipboard summary and update the text with a preferred description/summary of the health resource.
+   3. <strong>Link</strong> (NMC HOME): Clicking on the provided link will open an <strong>Edit Link</strong> window. Determine the link type (i.e., a normal link, a form, or a pre-built questionnaire), the link title, and the URL of the webpage. Click <strong>Submit</strong>, when finished.
+   4. <strong>Arrows</strong>: Use the arrows in the bottom-left corner to move the health resource panel to an alternative location on the page.
+   5. <strong>Add Link</strong>: Click this button to add additional links to the health resource.
+   6. <strong>Delete</strong>: Click this button to remove the health resource from displaying on the employee portal. The button changes to <strong>Undelete</strong>, so the panel can be replaced prior to submitting, if necessary.
 1. When all edits have been completed, click the <strong>Submit</strong> button.
 
 ### Supervisor Portal

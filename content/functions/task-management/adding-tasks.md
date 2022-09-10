@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Adding Tasks'
@@ -47,7 +47,7 @@ Generic tasks have blank fields that you can free-text the information needed fo
 
 * Description: Describe task or title it.  This is what assignees see in their task queue as the task description.
 * Subject:  You can add a subject to the task if you wish. This is visible when the task document is uploaded and stored to the chart.
-    * The Copy Description button is a quick method to copy and use the text in the description field as also the subject.  Tasks are saved as documents in the system and typically the document is just saved as Task Note.  Having a subject on the task document provides visibility to other users at a glance, as to what that task note document is about, when working in the chart.
+   * The Copy Description button is a quick method to copy and use the text in the description field as also the subject.  Tasks are saved as documents in the system and typically the document is just saved as Task Note.  Having a subject on the task document provides visibility to other users at a glance, as to what that task note document is about, when working in the chart.
 * Notes: Type what needs to be done, and other pertinent info for the assignee to complete this task.
 * Regarding: This will automatically have the chart's name you generated the Add Task from.  This task is linked to this specific chart. However, a different chart can be selected here if the task needs to be related to a different chart than the one being worked in.  
 * Priority: Select a priority for this generic task.  High will mark it in red and put at the top of a user/dept's task list. Normal priority will be put in between all the High and Low tasks in the lists.  Low will insert the task at the bottom of the assignee's task list.
@@ -75,9 +75,9 @@ Users do not have security permission of View Access for tasks will not appear
 
 
 * Assign this task to a Department and a specific user within that department: If/when you choose a department, the Owner field will display a list of users that are tied to that department selected.  You can then assign a specific user (within that specified department) as the assignee to the task.
-    * Use that auto-complete field to select a specific user within that department to assign this task to. You can also click your ↓ down arrow key on your keyboard to view the users within that department so you can select from.
-    * Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done.
-      <img src="../adding-tasks.assets/100002010000025B0000006F33560901575163CA.png" />
+   * Use that auto-complete field to select a specific user within that department to assign this task to. You can also click your ↓ down arrow key on your keyboard to view the users within that department so you can select from.
+   * Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done.
+     <img src="../adding-tasks.assets/100002010000025B0000006F33560901575163CA.png" />
 
 
 * Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the drop-down arrow in Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.  

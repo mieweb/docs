@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Fax Manager Tab - Outbound Faxing'
@@ -33,7 +33,7 @@ The fax jobs that display for you *and* the fax jobs that you can search for to 
 
 In the category of spools (Pending Fax Spool, Error Fax Spool and Completed Fax Spool), they all have options that can be performed on them. The fax jobs in each column are the fax jobs you sent. These only show the summary of fax jobs that are tied to your username (your username as the sender). To search for any other faxes, you will need to use the Outgoing Fax Search fields.
 * <strong>Pending Fax Spool</strong>: These are faxes that are pending in the system tied to your username (you are the sender). They are waiting to be sent out. Or they have been dialed and either the recipient's fax # is busy and it will attempt to resend again. Or these faxes are set to a lower priority and others are ahead of them in the spool.
-    * Options: On the right side under OPTIONS it will say Ack. ACK means acknowledge. If you click this, it is only to acknowledge that your fax failed. It will not delete the job and the fax will still try to go through 12 times. It does move it to the Completed Spool, but only acknowledges that there was a problem. It states ‘acknowledged' as the message of the progress column.
+   * Options: On the right side under OPTIONS it will say Ack. ACK means acknowledge. If you click this, it is only to acknowledge that your fax failed. It will not delete the job and the fax will still try to go through 12 times. It does move it to the Completed Spool, but only acknowledges that there was a problem. It states ‘acknowledged' as the message of the progress column.
 
 ![](../fax-manager-tab-outbound-faxing.assets/100000000000017D0000002364BFCE45F365DE30.png)
 
@@ -42,13 +42,13 @@ In the category of spools (Pending Fax Spool, Error Fax Spool and Completed Fax 
 ![](../fax-manager-tab-outbound-faxing.assets/100000000000047100000076DDAA780B4679B653.png)
 
 * <strong>Options:</strong> On the right side under OPTIONS it will say Ack. ACK means acknowledge. If you click this, it is only to acknowledge that your fax failed (did not go through) or you are acknowledging any other reason this fax failed. It will not delete the job and the fax will still try to go through 12 times. It does move it to the Completed Spool, but only acknowledges that there was a problem. It states ‘acknowledged' as the message of the progress column.
-    * Re-Send: You can re-send the fax job if you wish. Simply click Re-Send link in the FAX ID column.
+   * Re-Send: You can re-send the fax job if you wish. Simply click Re-Send link in the FAX ID column.
 {{% tip %}}
 
 A system setting gives ability to control a fax's timeout via a system setting named *System*, *Fax*, *Timeout*. This allows systems to be able to set the default timeout for a fax to live in the queue before it is cancelled. The default value is 6 meaning that a fax will be in the queue for 6 hours before it is timed out and cancelled.
 {{% /tip %}}
 * <strong>Completed Fax Spool</strong>: This lists what faxes are complete, how many pages, date it was faxed, how many attempts, etc. You can sort by clicking on the specific headers, but by default it's ordered by faxed date/time descending, then by fax_id descending. These fax jobs shown here are tied to your username (you are the sender).
-    * Progress column: This is where it states the progress of the completed fax. Example: if the fax were canceled, if it were resent, or if sent successfully then it will say how many pages were sent and how many attempts it took.
+   * Progress column: This is where it states the progress of the completed fax. Example: if the fax were canceled, if it were resent, or if sent successfully then it will say how many pages were sent and how many attempts it took.
 
 ![](../fax-manager-tab-outbound-faxing.assets/1000000000000470000000F65823F480F2CADDBB.png)
 

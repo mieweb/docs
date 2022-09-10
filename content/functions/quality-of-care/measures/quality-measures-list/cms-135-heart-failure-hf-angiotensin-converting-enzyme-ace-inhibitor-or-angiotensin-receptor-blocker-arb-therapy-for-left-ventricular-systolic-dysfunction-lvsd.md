@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms135v10'
 source: 'https://drive.google.com/open?id=1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
@@ -125,8 +125,8 @@ menu:
 
 Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 12-month period of the diagnosis of heart failure with a current or prior left ventricular ejection fraction (LVEF) < 40%.
 1. Ensure patient has one of the following diagnoses:
-    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
-    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109 
+   1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
+   2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109 
 1. Numerator will be populated with patients prescribed an ACE inhibitor or ARB therapy within the measurement period.  
 
 ## Evidence

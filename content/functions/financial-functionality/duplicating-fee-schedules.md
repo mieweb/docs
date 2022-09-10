@@ -9,7 +9,7 @@ links:
   - 'finding-fee-schedules.md'
   - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 ---
 Duplicate fee schedules to create a new fee schedule with the same fee schedule items and a different fee schedule name. 
 When duplicating a fee schedule, you can also set the prices of all items in the duplicate fee schedule to be a percentage of those in the original fee schedule. The costs of items in the duplicate fee schedule can also be set to a percentage of those in the original fee schedule. This is optional.
@@ -22,9 +22,9 @@ When duplicating a fee schedule, you can also set the prices of all items in the
 
 4. In the <em>Begin Date and End Date</em> fields, modify <strong>the dates</strong> if necessary.
 5. In the <em>Cost Percentage</em> field, do one:
-    1. To not change the costs of all items in the duplicate fee schedule, do not make an entry.
-    2. To change the costs of all items in the duplicate fee schedule, enter a <strong>whole number or decimal number</strong> by which the costs of all items in the original fee schedule will be multiplied. For example, to double the costs of all items in the duplicate fee schedule, enter 2.
+   1. To not change the costs of all items in the duplicate fee schedule, do not make an entry.
+   2. To change the costs of all items in the duplicate fee schedule, enter a <strong>whole number or decimal number</strong> by which the costs of all items in the original fee schedule will be multiplied. For example, to double the costs of all items in the duplicate fee schedule, enter 2.
 1. In the <em>Price Percentage</em> field, do one:
-    1. To not change the prices of all items in the duplicate fee schedule, do not make an entry.
-    2. To change the prices of all items in the duplicate fee schedule, enter a <strong>whole number or decimal number</strong> by which the prices of all items in the original fee schedule will be multiplied. For example, to halve the prices of all items in the duplicate fee schedule, enter .5.
+   1. To not change the prices of all items in the duplicate fee schedule, do not make an entry.
+   2. To change the prices of all items in the duplicate fee schedule, enter a <strong>whole number or decimal number</strong> by which the prices of all items in the original fee schedule will be multiplied. For example, to halve the prices of all items in the duplicate fee schedule, enter .5.
 1. Select <strong>Save</strong>. The system duplicates the fee schedule and sets costs and prices, if applicable. The fee schedule appears in the <em>Fee Schedule</em> section.

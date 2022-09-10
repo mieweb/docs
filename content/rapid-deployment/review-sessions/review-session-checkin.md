@@ -11,7 +11,7 @@ links:
   - '../../functions/system-administration/security/my-settings.md'
   - '../../functions/system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Checkin'
@@ -25,18 +25,18 @@ menu:
 * <strong>Security Role Permissions</strong>
 * <strong>My Settings Preferences</strong>
 * <strong>System Configuration</strong>
-    * <strong>Checkin and Lobby-Like Stations</strong>
-    * <strong>Station Manager</strong>
-    * <strong>One-Click Checkin</strong>
-    * <strong>Default Visit Type and Default Encounter Type</strong>
-    * <strong>Nightly Checkout</strong>
-    * <strong>Worklists</strong>
-    * <strong>Print Definitions</strong>
-    * <strong>Checkin-Public Sidemenu</strong>
-    * <strong>System Settings</strong>
-    * <strong>Practice Management System Interface</strong>
-    * <strong>Self-Checkin Kiosk</strong>
-    * <strong>Checkin via Portal</strong>
+   * <strong>Checkin and Lobby-Like Stations</strong>
+   * <strong>Station Manager</strong>
+   * <strong>One-Click Checkin</strong>
+   * <strong>Default Visit Type and Default Encounter Type</strong>
+   * <strong>Nightly Checkout</strong>
+   * <strong>Worklists</strong>
+   * <strong>Print Definitions</strong>
+   * <strong>Checkin-Public Sidemenu</strong>
+   * <strong>System Settings</strong>
+   * <strong>Practice Management System Interface</strong>
+   * <strong>Self-Checkin Kiosk</strong>
+   * <strong>Checkin via Portal</strong>
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
 

@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Data Migration File Format Standard'
@@ -102,7 +102,7 @@ The following steps are used to export an Access table as a Unicode CSV file:
 2. Click the <strong>External Data</strong> tab.
 3. In the <strong>Exports</strong> section, click <strong>Text File</strong>.
 4. In the export wizard, enter the file name.
-    1. Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
+   1. Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
 5. Click <strong>OK</strong>.
 6. Select <strong>Delimited</strong>.
 7. Click <strong>Next</strong>.

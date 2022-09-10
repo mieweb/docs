@@ -30,7 +30,7 @@ links:
   - '../../functions/scheduling/schedule-management.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447'
 source: 'https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Scheduler'
@@ -43,23 +43,23 @@ menu:
 * <strong>Demo Scheduler</strong>
 * <strong>Overview</strong>
 * <strong>Scheduler</strong>
-    * <strong>Tabs</strong>
-        * <strong>Views</strong>
-        * <strong>Wizards</strong>
-        * <strong>Schedules</strong>
-        * <strong>Waiting List</strong>
+   * <strong>Tabs</strong>
+      * <strong>Views</strong>
+      * <strong>Wizards</strong>
+      * <strong>Schedules</strong>
+      * <strong>Waiting List</strong>
 * <strong>System Configuration</strong>
-    * <strong>Schedule Resources</strong>
-    * <strong>Schedules</strong>
-    * <strong>Appointment Types</strong>
-        * <strong>Durations</strong>
-        * <strong>Colors</strong>
-        * <strong>Default Encounter Type</strong>
-        * <strong>Print Definitions</strong>
-    * <strong>Cancellation Codes</strong>
-    * <strong>Waiting List</strong>
-    * <strong>System Settings</strong>
-    * <strong>My Settings and Security Role Permissions</strong>
+   * <strong>Schedule Resources</strong>
+   * <strong>Schedules</strong>
+   * <strong>Appointment Types</strong>
+      * <strong>Durations</strong>
+      * <strong>Colors</strong>
+      * <strong>Default Encounter Type</strong>
+      * <strong>Print Definitions</strong>
+   * <strong>Cancellation Codes</strong>
+   * <strong>Waiting List</strong>
+   * <strong>System Settings</strong>
+   * <strong>My Settings and Security Role Permissions</strong>
 * <strong>Resources</strong>
 
 ## Overview
@@ -120,9 +120,9 @@ Creating schedules is quick and easy in {{% system-name %}} systems. After creat
 3. Click the [Add link](https://system/?func=scheduler&s=schedules&opp=sched_edit).
 4. Fill in all of the appropriate fields.
 5. Assign specific, allowed appointment types, when applicable.
-   {{% tip %}}
+{{% tip %}}
    Leaving this field blank will allow all appointment types to be scheduled for the resource in context.
-   {{% /tip %}}
+{{% /tip %}}
 6. Set a recurrence, if necessary.
 7. Copy the schedule to additional scheduling resources, when appropriate.
 8. Upon completion, click the <strong>Save</strong> button.

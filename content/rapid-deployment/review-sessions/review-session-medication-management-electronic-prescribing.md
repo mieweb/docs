@@ -46,7 +46,7 @@ links:
   - 'https://drive.google.com/open?id=1Hh-Up6MnYTqvnc2vEx38lXyRG5rbm4ln3jnd8Qy_G7Q'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=b79e8477f8cdb0cabd019dcd7f998b16'
 source: 'https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Medication Management/Electronic Prescribing'
@@ -59,21 +59,21 @@ menu:
 * <strong>Medication Management/Electronic Prescribing Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>Medication Management</strong>
-    * <strong>First DataBank Integration</strong>
-    * <strong>Meds Manager</strong>
-    * <strong>Medication Libraries & Remembered Entries</strong>
+   * <strong>First DataBank Integration</strong>
+   * <strong>Meds Manager</strong>
+   * <strong>Medication Libraries & Remembered Entries</strong>
 * <strong>System Configuration</strong>
-    * <strong>Paper Prescriptions</strong>
-    * <strong>SureScripts Prescriber Verification Process</strong>
-    * <strong>Enrolling Providers in Surescripts</strong>
-        * <strong>Electronically Prescribe Controlled Substances (ECPS) Option</strong>
-    * <strong>Receive E-Refill Requests</strong>
-    * <strong>Terminated E-Prescriber</strong>
-    * <strong>Surescripts Advanced/Drug Eligibility Option</strong>
-    * <strong>First DataBank Quarterly Report</strong>
-    * <strong>System Settings</strong>
-    * <strong>Security Role Permissions</strong>
-    * <strong>My Settings Preferences</strong>
+   * <strong>Paper Prescriptions</strong>
+   * <strong>SureScripts Prescriber Verification Process</strong>
+   * <strong>Enrolling Providers in Surescripts</strong>
+      * <strong>Electronically Prescribe Controlled Substances (ECPS) Option</strong>
+   * <strong>Receive E-Refill Requests</strong>
+   * <strong>Terminated E-Prescriber</strong>
+   * <strong>Surescripts Advanced/Drug Eligibility Option</strong>
+   * <strong>First DataBank Quarterly Report</strong>
+   * <strong>System Settings</strong>
+   * <strong>Security Role Permissions</strong>
+   * <strong>My Settings Preferences</strong>
 
 ## Overview
 
@@ -81,26 +81,26 @@ Medication management is a simple process for the provider and support staff whe
 Also intended to assist in better patient care, the {{% system-name %}} system offers *electronic prescribing* (E-Prescribing) of medications. E-Prescribing is a necessity in today's connected world. By submitting electronic prescriptions, it is not only less likely that prescriptions will be lost en route, but significant time is saved during the dispense process, thanks to the fast transmission of easily-readable information to and from pharmacies.
 Standard {{% sys-name %}} functionality includes:
 * <strong>First DataBank Integration</strong>
-    * {{% sys-name %}} partners with First Databank, a comprehensive U.S. FDA-approved drug database and drug decision report tool, to check for drug?drug and drug?food interactions, as well as drug allergies, at the time a prescription is written or filled. The database is updated every 7 days.
+{{% sys-name %}}   *  partners with First Databank, a comprehensive U.S. FDA-approved drug database and drug decision report tool, to check for drug?drug and drug?food interactions, as well as drug allergies, at the time a prescription is written or filled. The database is updated every 7 days.
 * <strong>SureScripts e-Prescribing Integration</strong>
-    * Through the SureScripts network, providers can securely transmit prescriptions to, and receive refill requests from, pharmacies across the nation, eliminating the need for paper scripts, faxing, and phone calls. The SureScripts network includes all of the nation's leading chain pharmacies, many of the nation's leading payers and pharmacy benefit managers, as well as over 10,000 independent pharmacies, nationwide. The {{% sys-name %}} system allows for sending prescriptions to pharmacies that are not part of the SureScripts network, as well.
+   * Through the SureScripts network, providers can securely transmit prescriptions to, and receive refill requests from, pharmacies across the nation, eliminating the need for paper scripts, faxing, and phone calls. The SureScripts network includes all of the nation's leading chain pharmacies, many of the nation's leading payers and pharmacy benefit managers, as well as over 10,000 independent pharmacies, nationwide. The {{% sys-name %}} system allows for sending prescriptions to pharmacies that are not part of the SureScripts network, as well.
 * <strong>Electronic Prescribing of Controlled Substances</strong> (<strong>EPCS</strong>)
-    * Custom configuration of EPCS and SureScripts Advanced functionality is available as an add-on service. This will be scoped and billed separately, as needed.
+   * Custom configuration of EPCS and SureScripts Advanced functionality is available as an add-on service. This will be scoped and billed separately, as needed.
 * <strong>Eligibility and Medicare Formulary</strong>
-    * SureScripts-certified electronic prescription management provides real-time access to eligibility and drug formulary information of a patient's Medicare insurance and/or pharmacy benefit plan, if available.
+   * SureScripts-certified electronic prescription management provides real-time access to eligibility and drug formulary information of a patient's Medicare insurance and/or pharmacy benefit plan, if available.
 * <strong>Reporting</strong>
-    * Several reports are available within the {{% system-name %}} system, designed to assist with providing quality care and tracking of managing prescriptions, medications, and drug utilization reviews. Some of these reports include:
-        * Allergy Report
-        * Controlled Substances Report
-        * EPCS Incidents Report
-        * Meds Report
-        * Meds Report - Custom Report
-        * Meds Report - Duplicates Report
-        * Prescriptions Report
-        * Prescriptions Printed / Faxed / E-Sent Report
-        * Unsent Prescriptions Report
-        * Uncoded Meds Report
-        * Unrecognized Patient Allergies Report
+   * Several reports are available within the {{% system-name %}} system, designed to assist with providing quality care and tracking of managing prescriptions, medications, and drug utilization reviews. Some of these reports include:
+      * Allergy Report
+      * Controlled Substances Report
+      * EPCS Incidents Report
+      * Meds Report
+      * Meds Report - Custom Report
+      * Meds Report - Duplicates Report
+      * Prescriptions Report
+      * Prescriptions Printed / Faxed / E-Sent Report
+      * Unsent Prescriptions Report
+      * Uncoded Meds Report
+      * Unrecognized Patient Allergies Report
 
 ## Medication Management
 
@@ -200,25 +200,25 @@ Assuming the user has already been created in the system and the initial setup a
 1. Navigate to the [Access Control tab](https://system/?f) of the <strong>Control Panel</strong>.
 2. Search for and find the prescribing clinician needing e-prescribing privileges.
 3. Simply click the <strong>Edit</strong> link in the <em>Options</em> column.
-   {{% info %}}
+{{% info %}}
    If the prescribing clinician is new to {{% system-name %}} , click the [Add User link](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control&opp=auser&realm), to add the user/provider to the {{% system-name %}} solution. See [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.md) for more information on adding users/providers.
-   {{% /info %}}
+{{% /info %}}
 4. Ensure these required fields are completed for SureScripts' verification:
-    * <strong>First Name</strong>: Full, legal first name.
-    * <strong>Last Name</strong>: Full, legal last name.
-    * <strong>Suffix</strong>: If the prescriber has a suffix (e.g., Jr., Sr., IV, etc.), this field must be used. Do not place suffixes in the Last Name field. The verification will be cancelled by SureScripts.
-    * <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-    * <strong>Address2</strong>: The secondary elements of the location address, if any (e.g., suite, unit, building, floor, etc.).
-    * <strong>Work Phone</strong>: Enter full work number, including area code.
-    * <strong>Fax Number</strong>: Enter full fax number, including area code.
-    * <strong>DEA Number</strong>: Enter a valid, 9-character DEA Registration number.
-    * <strong>National Provider Id</strong> (<strong>NPI</strong>): Enter a valid, 10-character NPI number.
-      {{% info %}}
-      Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use SureScripts; however, a blank space must be entered into the DEA Number field using the space bar key. Upon submission, a reminder will be triggered about the required field. Simply acknowledge the reminder and continue to submit the page. <strong>A valid NPI Number is still required for NPs and PAs to be certified with SureScripts</strong>.
-      {{% /info %}}
+   * <strong>First Name</strong>: Full, legal first name.
+   * <strong>Last Name</strong>: Full, legal last name.
+   * <strong>Suffix</strong>: If the prescriber has a suffix (e.g., Jr., Sr., IV, etc.), this field must be used. Do not place suffixes in the Last Name field. The verification will be cancelled by SureScripts.
+   * <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
+   * <strong>Address2</strong>: The secondary elements of the location address, if any (e.g., suite, unit, building, floor, etc.).
+   * <strong>Work Phone</strong>: Enter full work number, including area code.
+   * <strong>Fax Number</strong>: Enter full fax number, including area code.
+   * <strong>DEA Number</strong>: Enter a valid, 9-character DEA Registration number.
+   * <strong>National Provider Id</strong> (<strong>NPI</strong>): Enter a valid, 10-character NPI number.
+{{% info %}}
+     Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use SureScripts; however, a blank space must be entered into the DEA Number field using the space bar key. Upon submission, a reminder will be triggered about the required field. Simply acknowledge the reminder and continue to submit the page. <strong>A valid NPI Number is still required for NPs and PAs to be certified with SureScripts</strong>.
+{{% /info %}}
 1. Locate the <strong>Electronic Prescriber</strong> checkboxes. These selections are intended for prescribers, only (i.e., users holding a National Provider Identifier (NPI) number, and/or DEA Registration number, and are legally allowed to prescribe). Place a check mark in the appropriate checkboxes:
-    * <strong>Send New Scripts</strong>: All prescribers must check this box to become certified with SureScripts, to electronically transmit prescriptions from the  {{% system-name %}} . If this box is not checked, prescriptions will be sent as individual faxes, rather than e-transmitted via SureScripts.
-    * <strong>Receive Refill Requests</strong>: Prescribers wanting to receive e-refill requests electronically should check this box. This enables applicable pharmacies to send electronic requests for refills, which appear on the E-Refills Alert Taskbar in  {{% system-name %}} . If refill requests are preferred via manual fax and/or phone calls (i.e., not electronically), leave this checkbox unchecked.
+   * <strong>Send New Scripts</strong>: All prescribers must check this box to become certified with SureScripts, to electronically transmit prescriptions from the  {{% system-name %}} . If this box is not checked, prescriptions will be sent as individual faxes, rather than e-transmitted via SureScripts.
+   * <strong>Receive Refill Requests</strong>: Prescribers wanting to receive e-refill requests electronically should check this box. This enables applicable pharmacies to send electronic requests for refills, which appear on the E-Refills Alert Taskbar in  {{% system-name %}} . If refill requests are preferred via manual fax and/or phone calls (i.e., not electronically), leave this checkbox unchecked.
 1. Verify the prescriber is a member of the Prescribers Department, as described above.
 2. When all required fields are entered and the appropriate electronic prescriber boxes checked, click the <strong>Submit Edit</strong> button (or <em>Submit Insert</em> button, if a new user is being created).
 
@@ -273,8 +273,8 @@ When a SureScripts-verified prescribing physician terminates from a practice, th
 2. Click the [Access Control](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control) tab.
 3. Set the physician/user to <strong>Login Disabled</strong>.
 4. Deselect, or un-checkmark, <em>both</em> <strong>Electronic Prescriber</strong> checkboxes.
-    * Send New Scripts
-    * Receive Refill Requests
+   * Send New Scripts
+   * Receive Refill Requests
 1. At the very bottom, click the <strong>Submit Edit</strong> button.
 Performing these steps will send an edit message and a disable status message to SureScripts, informing them the physician's status changed, disabling the e-prescribing functionality. Consequently, pharmacies will no longer accept new prescriptions from the disabled prescriber from that specific {{% system-name %}} system.
 

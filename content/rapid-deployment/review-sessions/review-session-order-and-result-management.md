@@ -39,7 +39,7 @@ links:
   - '../../functions/order-and-result-management/observation-code-merging.md'
   - '../../functions/order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Order and Result Management'
@@ -52,21 +52,21 @@ menu:
 * <strong>Order and Result Management Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>System Configuration</strong>
-    * <strong>Orderable Items</strong>
-    * <strong>Order Panels</strong>
-    * <strong>Order Picklists</strong>
-        * <strong>Restricted Sets</strong>
-    * <strong>Observation Flowsheets</strong>
-    * <strong>Document Types</strong>
-    * <strong>Results Encounter</strong>
-    * <strong>Order Request Document</strong>
-    * <strong>Order Quick Links Portlet</strong>
-    * <strong>Refer To Field of Order Requests</strong>
-    * <strong>PIN Authentication</strong>
-    * <strong>Order Request Routing and Tracking</strong>
-    * <strong>Order Request Label</strong>
-    * <strong>HL7 Lab Interface</strong>
-    * <strong>System Settings</strong>
+   * <strong>Orderable Items</strong>
+   * <strong>Order Panels</strong>
+   * <strong>Order Picklists</strong>
+      * <strong>Restricted Sets</strong>
+   * <strong>Observation Flowsheets</strong>
+   * <strong>Document Types</strong>
+   * <strong>Results Encounter</strong>
+   * <strong>Order Request Document</strong>
+   * <strong>Order Quick Links Portlet</strong>
+   * <strong>Refer To Field of Order Requests</strong>
+   * <strong>PIN Authentication</strong>
+   * <strong>Order Request Routing and Tracking</strong>
+   * <strong>Order Request Label</strong>
+   * <strong>HL7 Lab Interface</strong>
+   * <strong>System Settings</strong>
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
 

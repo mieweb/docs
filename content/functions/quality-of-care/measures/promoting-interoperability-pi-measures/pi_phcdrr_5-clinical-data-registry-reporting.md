@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'PI_PHCDRR_5 -- Clinical Data Registry Reporting'
@@ -26,22 +26,22 @@ menu:
 ## Clinical Instructions
 
 1. Required for Promoting Interoperability Performance Category Score: <strong>Yes</strong>
-   {{% note %}}
+{{% note %}}
 2. The following measures are included in the Public Health and Clinical Data Exchange objective:
-    * Immunization Registry Reporting
-    * Electronic Case Reporting
-    * Public Health Registry Reporting
-    * Clinical Data Registry Reporting
-    * Syndromic Surveillance Reporting.
+   * Immunization Registry Reporting
+   * Electronic Case Reporting
+   * Public Health Registry Reporting
+   * Clinical Data Registry Reporting
+   * Syndromic Surveillance Reporting.
 {{% /note %}}
 1. Participants must select at least <strong>two of the five</strong> Public Health and Clinical Data Exchange measures
-    1. Measure Score: 10 points
-    2. Eligible for Bonus Score: No
+   1. Measure Score: 10 points
+   2. Eligible for Bonus Score: No
 1. MIPS eligible clinicians must:
-    1. Submit a "yes" to the Prevention of Information Blocking Attestations
-    2. Submit a "yes" to the ONC Direct Review Attestation, if applicable
-    3. Submit a "yes" that they have completed the Security Risk Analysis measure during the calendar year in which the MIPS performance period occurs
-    4. Must report the required measures from each of the four objectives in order to earn a score greater than zero for the Promoting Interoperability performance category
+   1. Submit a "yes" to the Prevention of Information Blocking Attestations
+   2. Submit a "yes" to the ONC Direct Review Attestation, if applicable
+   3. Submit a "yes" that they have completed the Security Risk Analysis measure during the calendar year in which the MIPS performance period occurs
+   4. Must report the required measures from each of the four objectives in order to earn a score greater than zero for the Promoting Interoperability performance category
 
 ## Source(s)
 

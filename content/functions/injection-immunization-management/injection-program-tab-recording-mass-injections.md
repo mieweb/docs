@@ -9,7 +9,7 @@ links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
 source: 'https://drive.google.com/open?id=1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Injection Program Tab - Recording Mass Injections'
@@ -32,8 +32,8 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 
 
 * Pop-up Warnings:  This program points to a rule looking for the doc.type HIPAA.  When entering in a patient's name and using your tab key to advance to the next field, this injection program looks for a HIPAA doc.type already stored/uploaded in the patient's chart.  If no such document is stored in the patient's chart, it should prompt the warning to ‘sign HIPAA' form.
-    * You can have this feature customized differently to pop-up a warning for specific document(s) to look for prior to injecting.  In the example below, it is set up to show a pop-up warning if the patient selected above doesn't have a stored/uploaded HIPAA document in their chart stored already.  Your {{% system-name %}} system can be customized for different pop-up warnings, but by default the rule looks for doc.type HIPAA if it exists in the patient's chart or not.
-        * Example--HIPAA notice: After you select a patient, you may see this pop-up HIPAA notice stating a HIPAA needs signed by the patient and uploaded on file before you can administer the injection/document in this module.  That specific document must be signed & uploaded. If this form is not already stored in the patient's e-chart, you will see this notice pop-up. If the patient already has a signed & uploaded HIPAA form on file (in their chart), then you will not see this pop-up notice and can proceed to enter the injection data/record in the next fields.  MIE can program any rule for a document that you wish for it to prompt you for. You can have the patient sign the HIPAA form with a pen pad device, tablet pen, or print & index immediately into the patient's chart.
+   * You can have this feature customized differently to pop-up a warning for specific document(s) to look for prior to injecting.  In the example below, it is set up to show a pop-up warning if the patient selected above doesn't have a stored/uploaded HIPAA document in their chart stored already.  Your {{% system-name %}} system can be customized for different pop-up warnings, but by default the rule looks for doc.type HIPAA if it exists in the patient's chart or not.
+      * Example--HIPAA notice: After you select a patient, you may see this pop-up HIPAA notice stating a HIPAA needs signed by the patient and uploaded on file before you can administer the injection/document in this module.  That specific document must be signed & uploaded. If this form is not already stored in the patient's e-chart, you will see this notice pop-up. If the patient already has a signed & uploaded HIPAA form on file (in their chart), then you will not see this pop-up notice and can proceed to enter the injection data/record in the next fields.  MIE can program any rule for a document that you wish for it to prompt you for. You can have the patient sign the HIPAA form with a pen pad device, tablet pen, or print & index immediately into the patient's chart.
 
 ![](../injection-program-tab-recording-mass-injections.assets/100002010000010D0000007FDD583E7D4AB9D023.png)
 ![](../injection-program-tab-recording-mass-injections.assets/100002010000010700000068AAFBE3098457619B.png)
@@ -59,17 +59,17 @@ Remaining fields:
 
 
 * Injection/Immunization:  This is a required field.  Type the name of the injection/immunization.  The system will attempt to auto-complete your typing & give you choices that match.  You can highlight & select if you wish. Otherwise, you can continue to free-type in text.
-    * Injections that used to show as NOS (Not Otherwise Specified) are now shown as unspecified formulation as this is a change that the CDC registry put in place 10/1/2010.
+   * Injections that used to show as NOS (Not Otherwise Specified) are now shown as unspecified formulation as this is a change that the CDC registry put in place 10/1/2010.
 
 ![](../injection-program-tab-recording-mass-injections.assets/1000020100000192000000493C2BBDAD4D4D4090.png)
 
 * Certain immunizations are automatically programmed to look for specific allergies or conditions.  
-    * Influenza injections: When you select specific influenza injections, the system will notify you in an alert box if the patient is allergic to eggs, allergic to influenza vaccine, allergic to flu vaccine, allergic to influenza virus vaccine or if has Guillain-Barre syndrome.  These allergies must be previously documented in the patient's E-Meds allergy tab. Guillain-Barre syndrome must be previously documented in the patient's conditions tab.
+   * Influenza injections: When you select specific influenza injections, the system will notify you in an alert box if the patient is allergic to eggs, allergic to influenza vaccine, allergic to flu vaccine, allergic to influenza virus vaccine or if has Guillain-Barre syndrome.  These allergies must be previously documented in the patient's E-Meds allergy tab. Guillain-Barre syndrome must be previously documented in the patient's conditions tab.
 
-    ![](../injection-program-tab-recording-mass-injections.assets/10000201000000C900000029AAEE349019098319.png)
-    ![](../injection-program-tab-recording-mass-injections.assets/1000020100000140000000297A6F80B0E455277E.png)
+   ![](../injection-program-tab-recording-mass-injections.assets/10000201000000C900000029AAEE349019098319.png)
+   ![](../injection-program-tab-recording-mass-injections.assets/1000020100000140000000297A6F80B0E455277E.png)
 
-    * Egg allergy alert: When you select other specific injections or immunizations to record, some specific injections will also look for egg allergies and give you an alert.  These injections that look for egg allergies and give a pop-up alert are: MMR, Influenza split (incl.purified surface antigen), Influenza whole, Influenza NOS, Influenza live intranasal, Rabies intramuscular injection, Rabies intradermal injection, Rabies NOS and Yellow Fever.
+   * Egg allergy alert: When you select other specific injections or immunizations to record, some specific injections will also look for egg allergies and give you an alert.  These injections that look for egg allergies and give a pop-up alert are: MMR, Influenza split (incl.purified surface antigen), Influenza whole, Influenza NOS, Influenza live intranasal, Rabies intramuscular injection, Rabies intradermal injection, Rabies NOS and Yellow Fever.
 * Administration Date:  Automatically pops-up today's date and current time.  Change date or time to when the injection was given.
 * Injection Administrator: Select the name of the person that gave the injection.  There are 3 ways to select the administrator's name. You can start typing the last name in the first blank field and click SEARCH to pull up a list of users that match and select from there.  If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search).  If you are the injection administrator yourself (not recording this for anyone else) then choose ME box here. The document will reflect your name as Injection Administrator. The name you choose/select, will then appear at the top of this field next to Injection Administrator.  Confirm and make a change if need to.
 * Administering Location: If your practice only has 1 location it will automatically populate this field.  If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered.
@@ -87,7 +87,7 @@ Decrement is done in whole numbers. So in inventory you have a qty of 10 flu sho
 The following fields can be entered when editing an injection or now when you are entering the injection & know the reactions.  These are typically used for Allergy Injections, but can be used for any other injection.
 * Resulting Fields: The Resulting fields are for documenting a reaction/result of the injection given.  Since you are doing just mass entry of injection given, you would document any reactions or results in the patient specific e-chart and not using this method.  See other help documentation named Injection Tab.pdf or Injection Tab-Edit-Delete.pdf).
 * VIS (Vaccine Information Handouts): Your mass injections program feature can be customized to require the VIS Handout field to be filled out and documented.  It will stop you from adding the injection record if you don't have a VIS handout documented.  Or your system can allow the user to add the injection to the patient's chart without documenting a VIS Handout.
-    * Many clients hand the patient a Vaccine Information Handout (VIS) when the patient receives an injection.  You can document that this handout was given to the patient by clicking the VIS Handouts link at the bottom of the injections/immunizations add/edit screen.   Better yet, you do not have to maintain a latest publication of VIS sheets yourself to hand out. We now offer the VIS Website link available while documenting an injection and VIS Handout.
+   * Many clients hand the patient a Vaccine Information Handout (VIS) when the patient receives an injection.  You can document that this handout was given to the patient by clicking the VIS Handouts link at the bottom of the injections/immunizations add/edit screen.   Better yet, you do not have to maintain a latest publication of VIS sheets yourself to hand out. We now offer the VIS Website link available while documenting an injection and VIS Handout.
 
 
 ![](../injection-program-tab-recording-mass-injections.assets/100002010000016600000090771D1F59A71214FF.png)

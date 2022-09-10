@@ -6,7 +6,7 @@ version: 56
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Print/Fax/Transmit Prescriptions'
@@ -24,12 +24,12 @@ After you click SAVE when prescribing a drug, the Medication history screen will
 ![](../print-fax-transmit-prescriptions.assets/10000000000001C8000000E9DC19B361397BA386.png)
 
 * <strong>Include</strong> option column: This will automatically default to having all scripts check-marked to be included in the print/fax/transmit queue. You can un-checkmark specific ones and they will <strong>not</strong> print/fax/transmit at this time. However, they <strong>will</strong> stay up in the <strong>This Patient Has Unsent Prescriptions</strong> queue. You can then print or fax/transmit or take completely out by clicking Do Not Print (see below instructions).
-    * If there are prescriptions in this queue but you cannot check-mark them to include them to be sent, then you must look at the details column to see what needs fixed. Once errors are fixed, then the prescription should be able to be check-marked to be included to be sent.
+   * If there are prescriptions in this queue but you cannot check-mark them to include them to be sent, then you must look at the details column to see what needs fixed. Once errors are fixed, then the prescription should be able to be check-marked to be included to be sent.
 * <strong>Drug Name</strong> column: It will then list the names of the drugs (it lists generic names if they selected ok to substitute). You can click on this underlined name of the drug to get a summary of the prescription that was entered. Then you can edit (if have security permission) from there. If you see the printer icon next to the drug name, this is a quick link to access the drug guide information sheet for this medication. You can click the printer icon to be sent to the print/fax module to quickly print this drug guide. It will then remove the drug guide from the <em>unprinted drug guide</em> queue. You can click the printer icon at anytime to print the drug guide as many times as you wish. The printer icon also shows next to the drug name in the Medication History summary. This is a system setting and may not be turned on for your practice.
 * <strong>Details</strong> column: This will be blank, unless there is an error with the prescription or if it is a controlled substance. If there is a field left blank, it will say here what it is missing. If it is a controlled substance, then it will say that here. Some options currently set to show in <em>details</em> column are: 1) Controlled substance with class #, 2) May or may not be a controlled substance, 3) No Quantity specified, 4) No Strength/Form specified and 5) No Prescriber specified. This allows you to catch something before printing/faxing, correct it, then print/fax it correctly. To correct something, you can click on the underlined drug name in the <strong>Drug Name</strong> column and it will pull up that prescription. You then click <em>Edit</em> and either <em>Change Therapy</em> or <em>Correct Error</em> (see separate Prescribing/Adding Meds help documentation). Click <em>Save</em> after correcting the error/therapy, then it will still be in the pending print/fax box w/ your changes/corrections. Prescriptions with missing "required" SureScripts fields can be printed, but not faxed/e-sent until the required fields are fixed. If SureScripts is disabled, then there will be no warning about the required fields.
-    * If you see a detail message of:_
-      This drug has (Inactive) status_
-      , that means the system is telling the user that for example: Elavil is not a drug that can be prescribed anymore, according to our drug database provider (First Databank) it is inactive and not available for prescribing. Further research will need to be done by the user to prescribe something valid.
+   * If you see a detail message of:_
+     This drug has (Inactive) status_
+     , that means the system is telling the user that for example: Elavil is not a drug that can be prescribed anymore, according to our drug database provider (First Databank) it is inactive and not available for prescribing. Further research will need to be done by the user to prescribe something valid.
 
 ![](../print-fax-transmit-prescriptions.assets/100000000000013A00000043C5B5160C7AE98174.png)
 
@@ -85,7 +85,7 @@ Below that are the details of the pharmacy that it will be faxed or transmitted 
 ![](../print-fax-transmit-prescriptions.assets/1000020100000208000001048DCBD2536E8BE31E.png)
 
 * <strong>Fax/Transmit</strong> will default to a fax or electronically transmit the prescription job right then.
-    * Fax/Transmit button will send the fax or transmit the prescription electronically depending on the service level. Preview button will only appear if the prescription is being sent via fax. This way you can ‘preview' the fax being sent.
+   * Fax/Transmit button will send the fax or transmit the prescription electronically depending on the service level. Preview button will only appear if the prescription is being sent via fax. This way you can ‘preview' the fax being sent.
 * <strong>Preview</strong> (if you wish to preview the default fax first) will pop-up an AlternaTIFF view of what the fax will look like (including the coversheet). You can go thru each page using the < > arrow keys. Preview shows you the fax to look over. See additional information below.
 * <strong>Cancel</strong> button here at this point cancel this screen and keep the script in the print/fax/transmit queue.
 Even though the pharmacy you selected is e-send capable, doesn't mean that you are transmitting/e-sending until you are a verified e-prescriber with Surescripts. The script will be sent by a default manual fax until you are verified with SureScripts. There's nothing here on this screen telling you which way it will be sent (fax or transmit) until after you click fax/transmit. Then it will say it was faxed instead of e-sent because the prescriber is not an e-prescriber. It will let you know if it was faxed or e-sent successfully right away or show you a message that it may be pending verification.

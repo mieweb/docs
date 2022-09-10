@@ -6,7 +6,7 @@ version: 60
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Installing MIE Device App'
@@ -41,10 +41,10 @@ There are required applications that may be needed for some programs, as well as
 
 
 
-   {{% note %}}
+{{% note %}}
    Ensure the Device Interface portlet is available from the Quick View page. This will be used to acquire the URL of the {{% system-name %}} system.
    <img src="../installing-mie-device-app.assets/10000000000004F5000002B439EFD6F6BCBCBFD8.png" />
-   {{% /note %}}
+{{% /note %}}
 6. Once installed, two new icons will appear in the system tray.
 
    <img src="../installing-mie-device-app.assets/10000201000000AE000000D3B94284AB5594FC71.png" />

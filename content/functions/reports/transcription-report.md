@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Transcription Report'
@@ -43,23 +43,23 @@ You must have security role access to reports and to viewing transcription stati
    <img src="../transcription-report.assets/100000000000046A0000011781E92E460ADAA29C.png" />
 
 5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report: 
-    1. <em>Select </em> <em>Department</em>: Select department for which to view transcription statistics.
-    2. <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user. If you selected a department in the <em>Select Department</em> field, only users in that department are shown in this field. If you did not select a department, all users are shown in this field.
-    3. <em>Limit To Provider:</em> To limit the report to transcriptions performed for a provider, type the first or last name of the provider. If you do not select a provider in this field, the transcription results will be for all providers.
-    4. <em>Document Type</em>: To limit the report to transcriptions performed on a type of document, select the document type. To not limit the report, leave set to <em>All Document Types</em>
-    5. <em>Exclude Selected Document Type:</em> To exclude transcriptions performed on a type of document, select that type of document from the <em>Document Type</em> field and select this check box. The report will contain transcription statistics for all types of documents except that selected in the <em>Document Type</em> field.
-    6. <em>Subtract Template Stats:</em> To exclude from transcription statistics words contained in a template on which the transcribed document is based, select this check box. 
-    7. <em>Transcription Type:</em> To produce a report limited to one type of information transcribed, select that type. If you select <em>All Transcriptions</em> or <em>Encounter Observations</em>, the system resets the <em>Document Type</em> field to <em>All</em> and the check box of the <em>Exclude Selected Document Type</em> is cleared and the field made unavailable because these are only applicable to document types.
-    8. <em>Transcribed Date Range #1:</em> Do one:
-        1. Leave all month, day, and year fields blank to show transcription statistics from all time.
-        2. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
-        3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
-        4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
-    9. <em>Transcribed Date Range #2:</em> To see and compare transcription statistics of two ranges of dates, do one of the following. To not see nor compare transcription statistics of two ranges, of dates, leave these fields empty.
-        1. Leave all month, day, and year fields blank to show transcription statistics from all time.
-        2. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
-        3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
-        4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+   1. <em>Select </em> <em>Department</em>: Select department for which to view transcription statistics.
+   2. <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user. If you selected a department in the <em>Select Department</em> field, only users in that department are shown in this field. If you did not select a department, all users are shown in this field.
+   3. <em>Limit To Provider:</em> To limit the report to transcriptions performed for a provider, type the first or last name of the provider. If you do not select a provider in this field, the transcription results will be for all providers.
+   4. <em>Document Type</em>: To limit the report to transcriptions performed on a type of document, select the document type. To not limit the report, leave set to <em>All Document Types</em>
+   5. <em>Exclude Selected Document Type:</em> To exclude transcriptions performed on a type of document, select that type of document from the <em>Document Type</em> field and select this check box. The report will contain transcription statistics for all types of documents except that selected in the <em>Document Type</em> field.
+   6. <em>Subtract Template Stats:</em> To exclude from transcription statistics words contained in a template on which the transcribed document is based, select this check box. 
+   7. <em>Transcription Type:</em> To produce a report limited to one type of information transcribed, select that type. If you select <em>All Transcriptions</em> or <em>Encounter Observations</em>, the system resets the <em>Document Type</em> field to <em>All</em> and the check box of the <em>Exclude Selected Document Type</em> is cleared and the field made unavailable because these are only applicable to document types.
+   8. <em>Transcribed Date Range #1:</em> Do one:
+      1. Leave all month, day, and year fields blank to show transcription statistics from all time.
+      2. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+      3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
+      4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+   9. <em>Transcribed Date Range #2:</em> To see and compare transcription statistics of two ranges of dates, do one of the following. To not see nor compare transcription statistics of two ranges, of dates, leave these fields empty.
+      1. Leave all month, day, and year fields blank to show transcription statistics from all time.
+      2. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+      3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
+      4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
 
 ![](../transcription-report.assets/10000201000004B40000006AA64CEFD949332BE4.png)

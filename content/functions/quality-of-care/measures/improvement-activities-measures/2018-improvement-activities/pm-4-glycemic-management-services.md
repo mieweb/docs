@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1QLvQHkwFRyEF28Fv9E6EsJETKvB-xE2KSqws4laQ0ME'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'PM 4 - Glycemic Management Services'
@@ -26,11 +26,11 @@ menu:
 **Subcategory Name**: Population Management
 **Description**: For outpatient Medicare beneficiaries with diabetes and who are prescribed antidiabetic agents (e.g., insulin, sulfonylureas), MIPS-eligible clinicians and groups must attest to having:
 * For the first performance year, at least 60 percent of medical records with documentation of an individualized glycemic treatment goal that: 
-    1. Takes into account patient-specific factors, including, at least 
-        1. age, 
-        2. comorbidities, and 
-        3. risk for hypoglycemia, and
-        4. is reassessed at least annually.
+   1. Takes into account patient-specific factors, including, at least 
+      1. age, 
+      2. comorbidities, and 
+      3. risk for hypoglycemia, and
+      4. is reassessed at least annually.
 The performance threshold will increase to 75 percent for the second performance year and onward. Clinician would attest that, 60 percent for first year, or 75 percent for the second year, of their medical records that document individualized glycemic treatment represent patients who are being treated for at least 90 days during the performance periods.
 
 

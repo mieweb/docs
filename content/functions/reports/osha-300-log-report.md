@@ -6,7 +6,7 @@ version: 45
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'OSHA 300 Log Report'
@@ -89,16 +89,16 @@ However, most staff run OSHA 300 Log by incident date range filter. After any se
 
 * <strong>Other Recordable Cases:</strong> If the employee had other cases/incidents in their chart record that were OSHA recordable, then this column will display Y (for Yes). If the employee had no other OSHA recordable cases/incidents in their record, then this column will display N (for No). Again, a case/incident is deemed OSHA recordable if the field <em>date determined recordable</em> is populated with a date.
 * <strong>Days Away from Work:</strong> If the employee had any Lost Time documented in the restrictions & accommodations section of the encounter that is linked to the OSHA recordable case, the number of days of Lost Time will be calculated here and displays a total number.
-    * If Lost time is documented in the Restrictions & Accommodations section of an encounter that is linked to an OSHA reportable case even for partial day, it counts as a full day in this calculated column.
-    * If Lost time is documented in the Restrictions & Accommodations section of an encounter that is linked to an OSHA reportable case, the start day of the lost time counts as a full day.
-    * The date of injury or onset of illness full day doesn't count as a day away from work in this calculated column if a documented lost time day started the same day. Day of incident/case does not count as a lost time day, if the lost time started that same day.
+   * If Lost time is documented in the Restrictions & Accommodations section of an encounter that is linked to an OSHA reportable case even for partial day, it counts as a full day in this calculated column.
+   * If Lost time is documented in the Restrictions & Accommodations section of an encounter that is linked to an OSHA reportable case, the start day of the lost time counts as a full day.
+   * The date of injury or onset of illness full day doesn't count as a day away from work in this calculated column if a documented lost time day started the same day. Day of incident/case does not count as a lost time day, if the lost time started that same day.
 * <strong>Days Restricted:</strong> If the employee had any Restrictions documented in the restrictions & accommodations section of the encounter that is linked to the OSHA recordable case, the number of days Restricted will be calculated here and displays as a total number.
-    * 180 days will be the max number it shows in this column. Anything more than 180 days will still only display as 180 days here in the column and is considered then a permanent restriction.
-    * If the employee had Lost Time documented at any time for this OSHA recordable case, no days will display as calculations here in this Days Restricted column. Instead, the Days Away from Work column would be populated with the Lost Days count. The case is either Days Away from Work or Days Restricted, one or the other, even though the employee may have both lost time & restrictions on the OSHA recordable case.
-    * If the employee only had Lost Time and no restrictions for the OSHA recordable case, nothing would display here in this column.
-    * Overlapping restriction days are only counted once. For example; if an employee had a Bending restriction for 5 days, and had another separate type of restriction for No Lifting also but for only 3 days. If those dates on those restrictions are any overlapping days, the count in this column will not count overlapping days. So the column would display 5 as the calculation.
-    * The calculation in this column does not include future days. For example; if the employee had a restriction from 1/1/2015 thru 1/31/2015 and you ran this OSHA 300 log on 1/15/2015, it would only show 14 as the calculation, not 30. It would show 30 if you ran the report on 1/31/2015.
-    * The calculation looks at the restriction start date & time and the end date & time and makes the calculation for this column. A full day is counted as a start day and the end day being a day apart.
+   * 180 days will be the max number it shows in this column. Anything more than 180 days will still only display as 180 days here in the column and is considered then a permanent restriction.
+   * If the employee had Lost Time documented at any time for this OSHA recordable case, no days will display as calculations here in this Days Restricted column. Instead, the Days Away from Work column would be populated with the Lost Days count. The case is either Days Away from Work or Days Restricted, one or the other, even though the employee may have both lost time & restrictions on the OSHA recordable case.
+   * If the employee only had Lost Time and no restrictions for the OSHA recordable case, nothing would display here in this column.
+   * Overlapping restriction days are only counted once. For example; if an employee had a Bending restriction for 5 days, and had another separate type of restriction for No Lifting also but for only 3 days. If those dates on those restrictions are any overlapping days, the count in this column will not count overlapping days. So the column would display 5 as the calculation.
+   * The calculation in this column does not include future days. For example; if the employee had a restriction from 1/1/2015 thru 1/31/2015 and you ran this OSHA 300 log on 1/15/2015, it would only show 14 as the calculation, not 30. It would show 30 if you ran the report on 1/31/2015.
+   * The calculation looks at the restriction start date & time and the end date & time and makes the calculation for this column. A full day is counted as a start day and the end day being a day apart.
 
 ### Remaining Columns of the OSHA 300 Log
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'outbound-faxing-email-notifications-of-sent-failed-faxes.md'
 source: 'https://drive.google.com/open?id=1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Faxing Documents'
@@ -146,7 +146,7 @@ If you wish to fax the exact same document(s) to another person at the same time
 
 * <strong>Fax #:</strong> Type in the fax number of the person to receive the fax. {{% system-name %}} 's faxing capability treats local and long-distance fax numbers alike. There is no reason to dial a 1-in front of a long-distance number. Only needs the area code and phone number. You can also enter fax numbers in international format. To enter an international number, type the plus sign <strong>+</strong> first in the field and then continue to type in the international fax number. If you type the + (plus sign) first, there won't be any automatic formatting done on it. Otherwise, standard US formatting will still be applied if there is no <strong>+</strong> entered first in the phone fields
 
-    * <strong>Example:</strong> +61 (08) 938 2508, this is what you see:
+   * <strong>Example:</strong> +61 (08) 938 2508, this is what you see:
 * <strong>Priority:</strong> Set priority. Defaults to Normal. If choose URGENT: it will be sent ahead of others in the fax spool. If choose LOW: it will not be faxed until a later time after all other normal and urgent faxes have been sent.
 Click –FAX—box at the bottom to send this fax now.
 Click – Preview – box at the bottom if wish to view the documents that will be faxed. The coversheet will be the first page if you selected a fax coversheet. After you preview, you can then click SEND FAX or CANCEL FAX from that screen.

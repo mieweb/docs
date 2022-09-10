@@ -15,7 +15,7 @@ links:
   - '../../functions/reports/documents-report-super-document-type-search.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=01b7980ef298c9776889ace1aa2c0174'
 source: 'https://drive.google.com/open?id=1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - E-Sign'
@@ -30,11 +30,11 @@ menu:
 * <strong>My Settings Preferences</strong>
 * <strong>Security Role Permissions</strong>
 * <strong>System Configuration</strong>
-    * <strong>Esign Editor</strong>
-    * <strong>All Pending</strong>
-    * <strong>CC Physician</strong>
-    * <strong>Esign Chart Tab</strong>
-    * <strong>System Settings</strong>
+   * <strong>Esign Editor</strong>
+   * <strong>All Pending</strong>
+   * <strong>CC Physician</strong>
+   * <strong>Esign Chart Tab</strong>
+   * <strong>System Settings</strong>
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
 

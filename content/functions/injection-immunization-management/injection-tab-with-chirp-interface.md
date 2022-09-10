@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
 source: 'https://drive.google.com/open?id=1cVM6kOokD8qoZ7i7IdJY4lVB2RIXhgOoDG1fNBPY5kQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Injection Tab with CHIRP Interface'
@@ -99,7 +99,7 @@ The Injection screen will appear. The Injection screen has fields to fill out pe
 ![](../injection-tab-with-chirp-interface.assets/100000000000021A000001EC3FF822FD3DD3B81A.png)
 
 * <strong>Injection/Immunization:</strong> This is a required field. Type the name of the injection/immunization. The system will attempt to auto-complete your typing & give you choices that match. You can highlight & select if you wish. Otherwise, you can continue to free-type in text. Certain immunizations are automatically programmed to look for specific allergies or conditions.
-    * <strong>Influenza injections:</strong> When you select any of the influenza injections, the system will notify you in an alert box if the patient is allergic to eggs, allergic to influenza vaccine, allergic to flu vaccine, allergic to influenza virus vaccine or if has Gullian-Barre syndrome. These allergies must be previously documented in the patient's E-Meds allergy tab. Guillian-Barre syndrome must be previously documented in the patient's conditions tab.
+   * <strong>Influenza injections:</strong> When you select any of the influenza injections, the system will notify you in an alert box if the patient is allergic to eggs, allergic to influenza vaccine, allergic to flu vaccine, allergic to influenza virus vaccine or if has Gullian-Barre syndrome. These allergies must be previously documented in the patient's E-Meds allergy tab. Guillian-Barre syndrome must be previously documented in the patient's conditions tab.
 
 ![](../injection-tab-with-chirp-interface.assets/10000000000000C9000000292D32F7185F35372D.png)
 

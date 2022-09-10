@@ -16,7 +16,7 @@ links:
   - 'https://system/?f=chart&s=checkin&t=station_manager&opp=add'
   - '../reports/checkin-reports.md'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Checkin'
@@ -73,7 +73,7 @@ The columns available in each category's list view can be sorted, as needed. The
 * <strong>Comment</strong>: Any comments tied to the checkin/station movement are displayed.
 * <strong>Acting User</strong>: This is the name of the user that last edited the patient's location, or station.
 * <strong>Options</strong>: Displays the patient's current station, and in parentheses, the amount of time the patient has been at the station. This can be clicked to move a patient to another station or to check him/her out.
-    * <strong>Open</strong>: Click this and the encounter will become the current encounter for the user. The user will then be taken directly into the current encounter's Exam stage.
+   * <strong>Open</strong>: Click this and the encounter will become the current encounter for the user. The user will then be taken directly into the current encounter's Exam stage.
 
 ### Move Station or Checkout Patient
 

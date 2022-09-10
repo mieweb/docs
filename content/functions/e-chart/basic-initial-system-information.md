@@ -13,7 +13,7 @@ links:
   - 'https://system/?func=omniscope'
   - 'https://system/?func=logout'
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Basic Initial System Information'
@@ -40,10 +40,10 @@ menu:
 * The [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) screen will default to the logged-in user's settings.  This can be changed by clicking the dropdown option in the upper-right corner of the screen.
 * Users can view the help document named [My Settings](../system-administration/security/my-settings.md) that will explain every setting present on the screen.
 * The following are some basic settings that can be changed for each user or could be changed for the entire system default.
-    * <strong>Default Location</strong> (found in the WebChart User Interface section)- this is to designate the location that a user is associated with if more than one location is entered in the system. If more than one location exists, users should set the location where they work at most frequently with this setting.
-    * <strong>Search By</strong> (found in the E-Chart Patient Search Criteria section) - this is to set the user's preferred patient search method by name, MR number, SSN, birth date, home phone number or document id.  
-    * <strong>Starting Folder</strong> (found in the E-Chart Defaults section) - this will designate which chart tab the user will navigate to when accessing a chart.  
-    * <strong>Number of Recent Patients</strong> (found in the E-Chart Defaults section) - this will determine the maximum number of employees/patients that will display in the <em>Your Recent Employees</em> section of the [E-Chart](https://system/?f=chart) screen.
+   * <strong>Default Location</strong> (found in the WebChart User Interface section)- this is to designate the location that a user is associated with if more than one location is entered in the system. If more than one location exists, users should set the location where they work at most frequently with this setting.
+   * <strong>Search By</strong> (found in the E-Chart Patient Search Criteria section) - this is to set the user's preferred patient search method by name, MR number, SSN, birth date, home phone number or document id.  
+   * <strong>Starting Folder</strong> (found in the E-Chart Defaults section) - this will designate which chart tab the user will navigate to when accessing a chart.  
+   * <strong>Number of Recent Patients</strong> (found in the E-Chart Defaults section) - this will determine the maximum number of employees/patients that will display in the <em>Your Recent Employees</em> section of the [E-Chart](https://system/?f=chart) screen.
 * To save changes to the [My Settings](https://system/) screen, users should click on the <strong>Submit Settings</strong> button located at the top or the bottom of this screen. Once the changes have been saved, the user will receive a message to indicate that the setting updates were successful.
 
 ![](../basic-initial-system-information.assets/100002010000064000000214D29DBCBAD2A71DE6.png)
@@ -55,7 +55,7 @@ menu:
 * The number in parenthesis next to the title of a chart tab, in this case the Documents tab, indicates how many documents exist in that chart tab. If no number exists, no documents exist in that chart tab.
 * When searching for documents in the chart, users can either navigate to the specific chart tab the document is mapped to or search in the Documents chart tab.  The Documents chart tab is intended to house all chart documents, so that users have a centeral location for all documents, if necessary.
 * The Documents chart tab will list documents in chronological order, by default.  The documents can also be sorted by Doc ID, Doc Type (lists documents in alpha order), subject, etc.  Resorting the list of documents is done by clicking on the underlined headings such as Doc ID, Serv Date, Doc Type, etc.  
-    * If users click the Doc ID heading, the list of documents will display in order of Doc ID with the oldest Doc ID listed first.  Users can click the Doc ID heading a second time to reverse the order and display the most recent Doc ID first. This action of reversing the order can be done with any column heading.
+   * If users click the Doc ID heading, the list of documents will display in order of Doc ID with the oldest Doc ID listed first.  Users can click the Doc ID heading a second time to reverse the order and display the most recent Doc ID first. This action of reversing the order can be done with any column heading.
 * Users can hover their mouse over the Documents chart tab and it will display the most current document stored in the chart.
 * Users can click on the Doc ID to open/display the selected document.
 * Users can change the default document view when in any chart tab.  This is done by using the dropdown located in the top-right corner of the Documents chart tab.

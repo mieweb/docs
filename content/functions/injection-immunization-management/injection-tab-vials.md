@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Injection Tab - Vials'
@@ -55,7 +55,7 @@ Fill out the injection fields with the information.  Fields will be auto-popula
 
 * Injection/Immunization:  This is a required field.  You must type the name of the injection/immunization into this field or you will get an alert when trying to save this without a name.  The system will attempt to auto-complete your typing & give you choices that match. You can highlight & select if you wish. Otherwise, you can continue to free-type in text.  
 * Administering Location: If your practice only has 1 location it will automatically populate this field.  If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered.  If you have a location selected here, it considers this injection an in-house injection.  Meaning, the injection was administered at your location.  If a location is selected here, you will be required then to fill out the Manufacturer and Expiration Date fields.  These are required fields if a location is specified.
-    * If the injection was given elsewhere and you are just documenting the injection for records, select No Location and it will not make those other fields required to fill out.
+   * If the injection was given elsewhere and you are just documenting the injection for records, select No Location and it will not make those other fields required to fill out.
 * Administration Date:  Automatically pops-up today's date and current time.  Change date or time to when the injection was given.
 * Administrator: Select the name of the person that gave the injection.  There are 3 ways to select the administrator's name. You can start typing the last name in the first blank field and click SEARCH to pull up a list of users that match and select from there.  If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there  (this is helpful to narrow down the search). If you are the injection administrator yourself (not recording this for anyone else) then choose ME box here.  The document will reflect your name as Injection Administrator. The name you choose/select, will then appear at the top of this field next to Injection Administrator.  Confirm and make a change if need to.
 * Route:  Select the route of the injection, if you wish, from the drop-down of choices.

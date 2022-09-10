@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Create Cases File for Import'
@@ -24,7 +24,7 @@ This document explains how to import your cases into {{% system-name %}} .
 What you will need:
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Cases CSV File Example
-* {{% system-name %}} end user with administrative rights
+{{% system-name %}}*  end user with administrative rights
 
 ## Create Cases CSV File
 

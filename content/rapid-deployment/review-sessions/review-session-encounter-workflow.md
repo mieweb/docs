@@ -45,7 +45,7 @@ links:
   - '../../functions/encounters/encounter-summary-toolbar.md'
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Encounter Workflow'
@@ -58,19 +58,19 @@ menu:
 * <strong>Encounter Workflow Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>System Configuration</strong>
-    * <strong>Encounter Types</strong>
-    * <strong>Appointment Type Default Encounter Type</strong>
-    * <strong>Protocols</strong>
-    * <strong>Encounter Templates</strong>
-    * <strong>Encounter Info Section</strong>
-    * <strong>Encounter Checkout Tab</strong>
-    * <strong>Macros</strong>
-    * <strong>Worklists</strong>
-    * <strong>Esign/Tasking</strong>
-    * <strong>Clinical Decision Support/Scripted Rules</strong>
-    * <strong>System Settings</strong>
-    * <strong>Security Role Permissions</strong>
-    * <strong>My Settings Preferences</strong>
+   * <strong>Encounter Types</strong>
+   * <strong>Appointment Type Default Encounter Type</strong>
+   * <strong>Protocols</strong>
+   * <strong>Encounter Templates</strong>
+   * <strong>Encounter Info Section</strong>
+   * <strong>Encounter Checkout Tab</strong>
+   * <strong>Macros</strong>
+   * <strong>Worklists</strong>
+   * <strong>Esign/Tasking</strong>
+   * <strong>Clinical Decision Support/Scripted Rules</strong>
+   * <strong>System Settings</strong>
+   * <strong>Security Role Permissions</strong>
+   * <strong>My Settings Preferences</strong>
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
 
@@ -214,12 +214,12 @@ My Settings preferences also need considered when providing access to the Encoun
 * <strong>Default Visit Type</strong>: This setting determines the default visit type when manually adding encounters. However, it is recommended to set to Checkin if the Scheduler is using the One-Click Checkin feature.
 * <strong>Link Patient Doctors New Enc</strong>: When enabled, any associated referring/family physicians or other physicians (set via system setting) will automatically populate in the CC (carbon copy) section of the encounter.
 * <strong>Impressions Linked As Active</strong>: This setting has various options available. It is important to note that the user on which this setting preference is set must be the user opening/creating encounters. In other words, the impressions found under the Symptoms/Diagnosis encounter section will behave according to the setting of the user that opens/creates the encounter.
-    * <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
-    * <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
-    * <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-    * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
-    * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-    * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
+   * <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
+   * <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
+   * <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+   * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
+   * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+   * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
 Any additional details can be found in the [My Settings](../../functions/system-administration/security/my-settings.md) online help documentation, if necessary.
 
 ## Reporting

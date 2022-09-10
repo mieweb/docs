@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Scheduler Views'
@@ -68,7 +68,7 @@ To print entire days' schedules w/ this view click [*view printable*] on the rig
 
 * <strong>Add Dictation</strong>: Click this and it will allow you to add dictation. It will <strong>not</strong> be linked to a specific patient. You will need to dictate all that information.
 * <strong>Dictate Day:</strong> Click this (if you have this option turned on in MY SETTINGS) to go through all <strong>un-dictated</strong> patients and add dictation in schedule order. It will automatically pop-up the MIEPlayer with the 1^st patient name in the scheduler view. Dictate then upload. After you upload, the next patient in the schedule will pop-up in the MIEPlayer to dictate for next. If you do not want to dictate for a specific patient that pops-up in MIEPlayer, then close the window by X out the MIEPlayer box. It will then skip that particular patient and pop-up the next patient in the schedule order.
-    * When you skip a patient, it considers it still as <strong>un-dictated</strong>. When you refresh and go back into the schedule and click Dictate Day again, it will start with the first <strong>un-dictated</strong> patient and any others that are un-dictated in that schedule order. Meaning, it will pop-up any that you had previously skipped if applicable.
+   * When you skip a patient, it considers it still as <strong>un-dictated</strong>. When you refresh and go back into the schedule and click Dictate Day again, it will start with the first <strong>un-dictated</strong> patient and any others that are un-dictated in that schedule order. Meaning, it will pop-up any that you had previously skipped if applicable.
 * <strong>Email:</strong> You must have security permission to <em>Send Email to Patients</em> set to Yes in order for any email features to display for your use. If your security is set to No, you will not see this Email feature. Click this to send out emails for <em>all</em> appointments scheduled for the schedule you are viewing. It will only send emails if the patient has an email address entered in their <em>demographics tab</em> in the email field. See other help documentation named <em>Email Reminders From |system|.pdf</em> on how to send emails to patient from here.
 
 ![](../scheduler-views.assets/10000000000001780000001639DA2B2B4520E2D3.png)

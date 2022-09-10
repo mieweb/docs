@@ -26,7 +26,7 @@ links:
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
   - 'https://ttpedge.sitenv.org/ttp/#/validators'
 source: 'https://drive.google.com/open?id=1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CCDA, CCD and CCR Compatibility'
@@ -254,7 +254,7 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 * [PDF CCD/C83 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=83) In HTML: [http://wiki.hitsp.org/docs/C83/C83-1.html](http://wiki.hitsp.org/docs/C83/C83-1.html)
 * [PDF CCD/C32 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=32) In HTML: [http://wiki.hitsp.org/docs/C32/C32-1.html](http://wiki.hitsp.org/docs/C32/C32-1.html)
 * [HL7/ASTM Implementation Guide for CDA Release 2 - Continuity of Care Document (CCD) Release 1](https://miewiki.med-web.com/wiki/index.php/HL7/ASTM_Implementation_Guide_for_CDA_Release_2_-_Continuity_of_Care_Document_(CCD)_Release_1)
-    * [Quick Start Guide to the HL7 Implementation Guide: CDA Release 2 – Continuity of Care Document (CCD)](https://miewiki.med-web.com/wiki/index.php/Quick_Start_Guide_to_the_HL7_Implementation_Guide:_CDA_Release_2_%E2%80%93_Continuity_of_Care_Document_(CCD))
+   * [Quick Start Guide to the HL7 Implementation Guide: CDA Release 2 – Continuity of Care Document (CCD)](https://miewiki.med-web.com/wiki/index.php/Quick_Start_Guide_to_the_HL7_Implementation_Guide:_CDA_Release_2_%E2%80%93_Continuity_of_Care_Document_(CCD))
 * [Unified Code for Units of Measure](http://unitsofmeasure.org/) aka UCUM which is a [standard](http://aurora.regenstrief.org/~ucum/ucum.html) for units on observations.
 * [CCR Specifications](https://miewiki.med-web.com/wiki/index.php/CCR_Specifications)
 * [C-CDA Specifications](https://miewiki.med-web.com/wiki/index.php/C-CDA_Specifications)

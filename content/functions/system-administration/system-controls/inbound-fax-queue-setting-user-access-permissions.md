@@ -7,7 +7,7 @@ lastAuthor: 'Spenser Smith'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Inbound Fax Queue - Setting User Access Permissions'
@@ -33,9 +33,9 @@ Set these 2 security permissions for that user:
 ![](../inbound-fax-queue-setting-user-access-permissions.assets/10000000000002570000003A2960AD5C128758EF.jpg)
 
 * <strong>Incoming File Queue:</strong>
-    * <strong>No Access:</strong> Users cannot access the side-menu tab named Fax Q (cannot access Inbound Fax Queue)
-    * <strong>View:</strong> Users can access the side-menu tab FaxQ, and can only view and print. Cannot do any other functions to batch/index, or delete, or distribute faxes in the queue. Users being tasked or emailed faxes also need to be set to at least View.
-    * <strong>Manage:</strong> Users have full access to the FaxQ and all functions. Can view, delete, batch/index, and distribute faxes using categories in the queue.
+   * <strong>No Access:</strong> Users cannot access the side-menu tab named Fax Q (cannot access Inbound Fax Queue)
+   * <strong>View:</strong> Users can access the side-menu tab FaxQ, and can only view and print. Cannot do any other functions to batch/index, or delete, or distribute faxes in the queue. Users being tasked or emailed faxes also need to be set to at least View.
+   * <strong>Manage:</strong> Users have full access to the FaxQ and all functions. Can view, delete, batch/index, and distribute faxes using categories in the queue.
 * <strong>Permission Editor:</strong> Yes should only be for super-users of the practice. This setting allows these super-users to add and permit users to access each fax number. For other users, this should be set to No, so they cannot add other users to fax permissions in the Fax Q module.
 
 ## Add/Set Phone Number Permissions

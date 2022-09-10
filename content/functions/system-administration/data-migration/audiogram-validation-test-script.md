@@ -13,7 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
   - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
 source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Audiogram Validation Test Script'
@@ -153,9 +153,9 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 
    <img src="../audiogram-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
 
-   {{% tip %}}
-    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-    2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+{{% tip %}}
+   1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
@@ -164,9 +164,9 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 2. Select <strong>Audiogram</strong> from the Test Results chart tab.
    <img src="../audiogram-validation-test-script.assets/100002010000048400000108F0A13D489D7C5EAB.png" />
 
-   {{% tip %}}
+{{% tip %}}
    The number in parenthesis indicates the number of items in each tab. 
-   {{% /tip %}}
+{{% /tip %}}
 
 
 3. The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.
@@ -179,14 +179,14 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 
 5. With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
 
-    1. Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
-    2. Validate the correct location and and by whom the test was administered.
-       {{% note %}}
-       The <em>Location</em> may be listed as the name of the legacy system (e.g., OHM), and the <em>Author/Administered By</em> may be listed as <strong>Import User</strong>.
-       {{% /note %}}
+   1. Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
+   2. Validate the correct location and and by whom the test was administered.
+{{% note %}}
+      The <em>Location</em> may be listed as the name of the legacy system (e.g., OHM), and the <em>Author/Administered By</em> may be listed as <strong>Import User</strong>.
+{{% /note %}}
 1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-    1. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-    2. Contact {{% system-name %}} with the findings.
+   1. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+   2. Contact {{% system-name %}} with the findings.
 
 ## Reports ([**video**](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_))
 
@@ -201,16 +201,16 @@ To access and utilize these reports:
    <img src="../audiogram-validation-test-script.assets/10000201000000DA000000CFE328126D44CB0032.png" />
 
 3. Criteria may be added to filter or drill down data. 
-    1. Audiogram Report
+   1. Audiogram Report
 
-       <img src="../audiogram-validation-test-script.assets/10000201000001FC000000C48CD81B0B90A5E378.png" />
+      <img src="../audiogram-validation-test-script.assets/10000201000001FC000000C48CD81B0B90A5E378.png" />
 
 
 
-    2. Audiometric Testing Report
+   2. Audiometric Testing Report
 
-       <img src="../audiogram-validation-test-script.assets/10000201000002060000008E08D14DCAF85ECE98.png" />
-        
+      <img src="../audiogram-validation-test-script.assets/10000201000002060000008E08D14DCAF85ECE98.png" />
+       
 
 
 ## FAQs

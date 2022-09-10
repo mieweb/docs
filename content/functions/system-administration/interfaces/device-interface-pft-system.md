@@ -6,7 +6,7 @@ version: 53
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Device Interface - PFT System'
@@ -21,7 +21,7 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 1. Open {{% system-name %}} .
 2. Pull up correct patient.
 3. Go to PFT Tool chart tab or add encounter for patient and make sure there is a PFT on the due list for your patient.
-    1. If there is not, you will need to add the procedure.
+   1. If there is not, you will need to add the procedure.
 
 ## Doing the PFT Calibration
 
@@ -45,9 +45,9 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 2. You can also select "Cancel" on the Operator screen without putting in initials and proceed.
 1. Performing Calibration:
 
-       Select the "Perform Cal/Leak Check" button. <img src="../device-interface-pft-system.assets/10000000000000AC0000001CEE55A890DCBF447C.png" />
+      Select the "Perform Cal/Leak Check" button. <img src="../device-interface-pft-system.assets/10000000000000AC0000001CEE55A890DCBF447C.png" />
 
-    2. The following screen will appear
+   2. The following screen will appear
 
 ![](../device-interface-pft-system.assets/10000000000002C900000102D6A42D5F4675F5D7.png)
 
@@ -71,7 +71,7 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 
    Choose Select/Add Client <img src="../device-interface-pft-system.assets/1000000000000087000000164A4378532EF7B4E8.png" />
 
-    1. Select correct patient and select use selected match
+   1. Select correct patient and select use selected match
 
 ![](../device-interface-pft-system.assets/100002010000029E0000009EAEDA3E32D8E76C87.png)
 
@@ -82,33 +82,33 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 1. Select ok
 2. Select yes
 1. If this patient is not in the list select New Client
-    1. Fill out correct information for current client
+   1. Fill out correct information for current client
 
 ![](../device-interface-pft-system.assets/1000000000000268000001EFDA40A92720EA9CB9.png)
 
 1. Select ok
 2. Select yes
 1. Select Perform FVC test
-    1. If a calibration has not been done on the machine that day, it will pop up a box asking if you want to continue with the test or do a calibration. See instructions above.
-    2. If you want to continue, select yes.
+   1. If a calibration has not been done on the machine that day, it will pop up a box asking if you want to continue with the test or do a calibration. See instructions above.
+   2. If you want to continue, select yes.
 1. Select Proceed with testing
 2. Check yes for any pre-test questions
 3. Select ok
 4. Make sure your PFT machine is set up correctly and do any patient teaching at this point.
 5. Select ok to start test
 6. Machine will make you wait 60 seconds before giving interpretation and between blows.
-    1. Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-        1. Once marking select calculate curve
+   1. Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+      1. Once marking select calculate curve
 1. Next select do another trial
 2. Select ok
 3. Wait 60 seconds for interpretation
-    1. Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-        1. Once marking select calculate curve
+   1. Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+      1. Once marking select calculate curve
 1. Next select do another trial
 2. Select ok
 3. Wait 60 seconds for interpretation
-    1. Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-        1. Once marking select calculate curve
+   1. Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+      1. Once marking select calculate curve
 1. Select done
 2. Fill out post test Q & A.
 3. Select ok
@@ -118,8 +118,8 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 1. Choose the Copy File link at the top of the page in OMI
 2. Choose Create ERS/ATS PFTVALS.Txt All Curves
 3. Choose current date for selected date range
-    1. Mark copy all dates
-    2. Mark Selected client
+   1. Mark copy all dates
+   2. Mark Selected client
 1. Select show number
 2. Select Ok
 3. Add patients MR number to file when saving and select save
@@ -145,9 +145,9 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 ![](../device-interface-pft-system.assets/100002010000024C00000147777A07E5B30677FF.png)
 
 1. Change the smartcard to point to the correct folder.
-    1. Changing smartcard:
-        1. Right click on filebox/data box
-        2. Choose set smartcard folder
+   1. Changing smartcard:
+      1. Right click on filebox/data box
+      2. Choose set smartcard folder
 
 ![](../device-interface-pft-system.assets/10000000000000B600000104C4F84B3EB8F0AEB1.png)
 

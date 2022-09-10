@@ -9,7 +9,7 @@ links:
   - 'intro-to-the-system/system-anatomy.md'
   - '../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Intro to the System'
@@ -45,7 +45,7 @@ E-chart navigation includes a number of toolbars, including:
 * The Tab toolbar, which navigates through the chart. The active tab is a solid color — some tabs have drop down navigation indicated by a mark in the lower
 right corner.
 * The Patient Info toolbar displays the patient's name and medical record number.
-    * Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past
+   * Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past
 encounters, notes and comments.
 * The Patient Extended Toolbar displays demographic, encounter, and other related information.
 * The Alerts toolbar displays available alert information — such as allergies or do not release requests.

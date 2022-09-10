@@ -13,7 +13,7 @@ links:
   - 'https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
   - '../../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Allergy Data Validation Test Script'
@@ -102,9 +102,9 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
    <img src="../allergy-data-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
 
-   {{% tip %}}
-    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-    2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+{{% tip %}}
+   1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
@@ -119,8 +119,8 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
 
 3. Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
-    1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
-    2. Contact {{% system-name %}} with the findings.
+   1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
+   2. Contact {{% system-name %}} with the findings.
 
 ## Reports
 

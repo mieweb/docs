@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Working in a Legacy Encounter'
@@ -69,8 +69,8 @@ If you have security to add new var tree items, when you click add new it will p
 ![](../working-in-a-legacy-encounter.assets/100002010000024A000001B3D02579CC47007E21.png)
 
 * <strong>Item Type</strong>: Whether you want a clickable item or a new submenu. You select either to create a clickable item in the grouping where they clicked the ‘Add New' or whether it creates a sub-grouping.
-    * SubMenu Name (If SubMenu selected): the name of the SubMenu to add to the current grouping. This also will create a clickable item under that grouping, so all other fields apply to that clickable item.
-    * Allow Append checkbox (If SubMenu selected): whether or not the ‘+' icons appear next to clickable items inside this new SubMenu.
+   * SubMenu Name (If SubMenu selected): the name of the SubMenu to add to the current grouping. This also will create a clickable item under that grouping, so all other fields apply to that clickable item.
+   * Allow Append checkbox (If SubMenu selected): whether or not the ‘+' icons appear next to clickable items inside this new SubMenu.
 * <strong>Display Name:</strong> what appears in the var-tree popup for them to click on (what is displayed on the screen to select from).
 * <strong>Text:</strong> this is what is inserted on the document after you click the "display name" when working in an encounter.
 * <strong>Is Normal</strong> This allows you to flag this statement as the "normal".
@@ -184,7 +184,7 @@ If you manually check-mark and override any of these, you *must* click the SAVE 
 Hover your mouse over the help icon in the Quality Measures title for explanation on each column checkbox.
 * <strong>Include</strong> column checkboxes mean that the patient fits the criteria and that they should be reported for this measure.
 * <strong>Pass</strong> column checkboxes mean that the correct actions were performed and documented to satisfy the rule. If you click <em>pass</em> checkbox first, it will automatically check the corresponding <em>include</em> checkbox also.
-    * Example: If a rule said that all female patients should have a pap smear annually, then a typical female should be ‘included'. If the physician was able to document that a pap had been done, then they could check the box for ‘pass'. If the patient had had a hysterectomy, the physician might override the system-determined ‘include' because they think this patient shouldn't be included for this measure.
+   * Example: If a rule said that all female patients should have a pap smear annually, then a typical female should be ‘included'. If the physician was able to document that a pap had been done, then they could check the box for ‘pass'. If the patient had had a hysterectomy, the physician might override the system-determined ‘include' because they think this patient shouldn't be included for this measure.
 * <strong>Exclusion</strong> column checkboxes mean that the patient fits into exclusion criteria for this measure for the visit. They are included, but excluded from pass/fail compliancy. You will still need to report exclusions when attesting and they will be on your calculation page & reports. Only certain NQF/clinical quality measures have exclusions available per CMS guidelines so that is why not all measures have this exclusion checkbox.
 
 ![](../working-in-a-legacy-encounter.assets/10000201000003410000013FCC4B0BBC53757028.png)

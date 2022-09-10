@@ -16,7 +16,7 @@ links:
   - '../../reports/observations-report.md'
   - 'https://docs.enterprisehealth.com/observations-report-7345005.html'
 source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Observations Validation Test Script'
@@ -71,9 +71,9 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
    <img src="../observations-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
 
-   {{% tip %}}
-    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-    2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+{{% tip %}}
+   1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
@@ -84,36 +84,36 @@ Some charts/records may not have all data elements, and in some circumstances, t
    <img src="../observations-validation-test-script.assets/1000020100000484000001525DE96F9AB6BF6B91.png" />
 
 
-   {{% tip %}}
+{{% tip %}}
    The number in parenthesis indicates the number of items in each tab. 
-   {{% /tip %}}
+{{% /tip %}}
 3. The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.
 
    <img src="../observations-validation-test-script.assets/100002010000049200000137BB40A2317D8F974E.png" />
 
-   {{% tip %}}
+{{% tip %}}
 4. Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page.
    <img src="../observations-validation-test-script.assets/10000201000001CC0000007B3CF06461C4F8A950.png" />
    <img src="../observations-validation-test-script.assets/1000020100000486000000C9B8AFEF8D7F48B22F.png" />
 
-    1. To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
+   1. To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
 
-       <img src="../observations-validation-test-script.assets/10000201000004810000007D3795F0ECC6025E70.png" />
+      <img src="../observations-validation-test-script.assets/10000201000004810000007D3795F0ECC6025E70.png" />
 
-    2. Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
+   2. Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
-       <img src="../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png" />
+      <img src="../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png" />
 
 {{% /tip %}}
 
 1. With the observations displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
 
-   {{% note %}}
+{{% note %}}
    The date displayed will be the date the data was imported to {{% system-name %}} , <strong>NOT</strong> the date the item was recorded in the legacy system.
-   {{% /note %}}
-    1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-    2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-    3. Contact {{% system-name %}} with the findings.
+{{% /note %}}
+   1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
+   2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+   3. Contact {{% system-name %}} with the findings.
 {{% anchor sys="report" %}}
 
 Reports ([video](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi))

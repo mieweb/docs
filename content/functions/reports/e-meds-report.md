@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1fNg0sAfSa--FDnU7IhltWryuzjmLbiqj7K7tEymrRSA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'E-Meds Report'
@@ -24,7 +24,7 @@ A search engine shows on the screen.
 
 * <strong>Start/End Date:</strong> You must enter a date range. Both dates must be entered.
 * <strong>Prescriber:</strong> This is optional and you do not need to enter anything here. If you do wish to only show results limited to a specific prescriber, please begin typing the <em>last name</em> of the user and the system will auto-complete your choices.
-    * You must select from one of these choices. It will not accept free-text.
+   * You must select from one of these choices. It will not accept free-text.
 
 ![](../e-meds-report.assets/10000000000001F7000000981861EC8FE2550F98.png)
 

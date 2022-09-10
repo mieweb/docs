@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Printing TIFFs'
@@ -29,7 +29,7 @@ menu:
 ![](../printing-tiffs.assets/10000000000001FF00000184D061283492420885.png)
 
 
-5. {{% system-name %}} will automatically launch and you will be prompted to log in if application is not open. Once logged into {{% system-name %}} , you will be taken directly to the Tiff Indexing screen.
+{{% system-name %}}5.  will automatically launch and you will be prompted to log in if application is not open. Once logged into {{% system-name %}} , you will be taken directly to the Tiff Indexing screen.
 
 6. Once at this screen, Enter Date of Study, Document type, Referring Physician name, Patient name and Service Location. These fields are auto complete fields, so it is not necessary to type the entire data in.
 

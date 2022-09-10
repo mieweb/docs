@@ -28,7 +28,7 @@ links:
   - '../../functions/system-administration/system-controls/user-provider-and-department-management.md'
   - '../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md'
 source: 'https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - System Administration'
@@ -41,16 +41,16 @@ menu:
 * <strong>System Administration Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>System Configuration</strong>
-    * <strong>Browser Requirements</strong>
-    * <strong>ActiveX Controls</strong>
-    * <strong>Language Translations</strong>
-    * <strong>Scheduled Jobs</strong>
-    * <strong>Secure Email Setup</strong>
-    * <strong>Single Sign-On (SSO)</strong>
-    * <strong>Audit & Activity Logs</strong>
-    * <strong>Settings/Preferences</strong>
-        * <strong>Security Role Settings</strong>
-        * <strong>System Settings</strong>
+   * <strong>Browser Requirements</strong>
+   * <strong>ActiveX Controls</strong>
+   * <strong>Language Translations</strong>
+   * <strong>Scheduled Jobs</strong>
+   * <strong>Secure Email Setup</strong>
+   * <strong>Single Sign-On (SSO)</strong>
+   * <strong>Audit & Activity Logs</strong>
+   * <strong>Settings/Preferences</strong>
+      * <strong>Security Role Settings</strong>
+      * <strong>System Settings</strong>
 * <strong>Resources</strong>
 
 ## Overview
