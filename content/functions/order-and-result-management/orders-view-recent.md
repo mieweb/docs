@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Orders - View Recent'
@@ -158,8 +158,8 @@ This is ability to complete an order request and document the results within an 
 * Encounter Info
 * Case (so that the encounter can be linked to a specific case/incident)
 * Results
-    * one section for each pending order_item from the pending order request
-    * Incomplete orders & completed orders sections
+   * one section for each pending order_item from the pending order request
+   * Incomplete orders & completed orders sections
 The contents of these sections are determined by the layout name field in each order item.
 * If the name of the order is the same as the name of a flowsheet and the layout is  "Obs Procedure", that flowsheet will be displayed
 * if the name of the order does NOT match the name of a flowsheet, the order's layout will be displayed if the order has a layout, otherwise the "Generic Order" layout will be used

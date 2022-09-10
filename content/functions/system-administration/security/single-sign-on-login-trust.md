@@ -10,7 +10,7 @@ links:
   - 'single-sign-on-sso.md'
   - 'saml-based-single-sign-on.md'
 source: 'https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Single Sign-On Login Trust'
@@ -84,12 +84,12 @@ The following list provides details and insight on using the fields available on
 * <strong>Make this Domain active</strong>: Required for the MIE SSO method.
 * <strong>Allow a(n otherwise) successfully processed login ticket to re-activate login-disabled users</strong>: Reactivates an inactive {{% system-name %}} user when that user attempts to log in via the employer SSO system.
 * <strong>Allow creation of new users from (otherwise) successfully processed login ticket</strong>: Creates a new {{% system-name %}} user when that person attempts to log in via the employer SSO system.
-    * XML Login Tickets or SAML assertions are recommended for use with this option.
+   * XML Login Tickets or SAML assertions are recommended for use with this option.
 * <strong>Allow this domain to be used for OpenID authentication</strong>: Processes OpenID SSO requests. Required for use with OpenID.
 * <strong>Pass current page's CGI variables to the login_url when re-authenticating</strong>: When a login session expires, the main window directs the user through the SSO server. If unchecked, expired sessions create a pop-up window to re-establish a valid user session.
-    * The SSO server (IDP) must support this option.
+   * The SSO server (IDP) must support this option.
 * <strong>Only allow translated users to login</strong>: Requires all login requests to reference a known username via translation. Login requests which do not have a translation to an established {{% system-name %}} username will be rejected. This is generally used in conjunction with a periodic user import process or HR feed.
-    * This option allows the {{% sys-name %}} system to dictate which users have access through SSO.
+   * This option allows the {{% sys-name %}} system to dictate which users have access through SSO.
 * <strong>Users may be, but need not be, translated</strong>: Translation allows lookup of the IDP-specified username against a lookup table. This allows the IDP and the {{% system-name %}} system to use a different identifier (username) for a user.
 * <strong>Allow SAML requests from this domain</strong>: Indicates that SAML requests (assertions) are allowed from the listed domain.
 * <strong>Use |System| initiated SAML instead of server initiated</strong>: Utilize SP-initiated bindings instead of IDP-initiated.
@@ -148,9 +148,9 @@ To create a login trust for SSO:
 11. Search the metadata file for <strong>IDPSSODescriptor</strong>, to find the remainder of the information necessary to populate the login trust form.
 12. Sections after the heading <strong>AttributeAuthorityDescriptor</strong>, if present, can be collapsed by clicking the chevron in front of it. All information collected for the {{% sys-name %}} login trust (aside from the domain) appears under the heading <strong>IDPSSODescriptor</strong>.
 13. In the metadata file, search for <strong>SingleSignOnService</strong>, to locate the login URL. The URL should indicate what type of SSO is used (in this case, IDP-initiated).
-    {{% info %}}
+{{% info %}}
     There may be multiple options for <strong>SingleSignOnService</strong>. It is important to pick the correct one. In most cases, and in this example, the link that includes the HTTP-redirect is correct.
-    {{% /info %}}
+{{% /info %}}
 14. Enter the URL in the <strong>Login URL</strong> field.
 15. Search the metadata file for <strong>X509Certificate</strong> to find the public key.
 16. Enter the X509 Certificate information into the <strong>Public Key</strong> field. This public key should be a long string of characters.

@@ -2,13 +2,13 @@
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
 date: '2020-03-16T15:47:13.973Z'
-version: 127
+version: 131
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
 source: 'https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Task List'
@@ -23,10 +23,10 @@ There are two ways to access your pending tasks:
 1. If you have the Show Pending Esign/Tasks My Settings preference on, click on the red task summary notification link at the very top of {{% system-name %}} from any screen, any tab, etc. titled My Tasks.
 
 
-    ![](../task-list.assets/10000201000000C100000026690DBAAC08915ABE.png)
+   ![](../task-list.assets/10000201000000C100000026690DBAAC08915ABE.png)
 
 
-    1. This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
+   1. This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
 -OR-
 3. Click Task List on the left sidemenu.
 Either way will take you to the Task List.  It will default to open to Your Task List tab.  It then lists all tasks assigned to your username and/or department(s).
@@ -130,13 +130,13 @@ Overdue and User Tasks buckets are tasks specifically assigned to you that are a
 
 
 * Reply: This will show if you have My Settings preference of Show Reply Link in Task enabled. By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
-    * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.
-      <img src="../task-list.assets/100002010000023F000001F7B3A50B71BF04BB74.png" />
+   * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.
+     <img src="../task-list.assets/100002010000023F000001F7B3A50B71BF04BB74.png" />
 
 
 * You then choose Add Task or Add Task and Mark Done buttons to indicate how to mark the original task that was assigned to you.
-    * If click Add Task it will prompt you again "You have replied to a task.  Would you like to complete that task?" If you click on the Yes button, it will remove that original task from your queue and still send the reply to the recipient. (Meaning it is really doing the same as add task and mark done).  If you click No then it will leave the original and the reply/new task in the queue.  
-    * If you click Add Task and Mark Done, this will skip the step of asking the user if they want to mark the old task done after they add the new (the new is the reply).  This then takes the original task out of the queue and puts it in the completed task tab. The reply will automatically go back to the person that originally sent you the task.  It is now their turn to complete on their end, and will show up on their task list to do and complete.
+   * If click Add Task it will prompt you again "You have replied to a task.  Would you like to complete that task?" If you click on the Yes button, it will remove that original task from your queue and still send the reply to the recipient. (Meaning it is really doing the same as add task and mark done).  If you click No then it will leave the original and the reply/new task in the queue.  
+   * If you click Add Task and Mark Done, this will skip the step of asking the user if they want to mark the old task done after they add the new (the new is the reply).  This then takes the original task out of the queue and puts it in the completed task tab. The reply will automatically go back to the person that originally sent you the task.  It is now their turn to complete on their end, and will show up on their task list to do and complete.
 
 ### **Task ID Method**
 
@@ -153,15 +153,15 @@ Options in Task ID method view:
 * Doc ID:  The document image will display on the screen if the task is tied to a specific document in the chart.  Yet, the document ID is also shown at the top as the identifier and provides it as a hyperlink to get to that document.
 * Printable:  You can click the printable link found next to the task and/or doc id.  It will show a printable version of this specific task along with your other pending tasks.
 * Sign & Mark Done: This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click.  This option will prompt you to enter text notes you want to document related to this task you are signing and completing/marking done.
-    * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient.
-      <img src="../task-list.assets/10000201000004BB0000011C19CE60C242B468BF.png" />
+   * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient.
+     <img src="../task-list.assets/10000201000004BB0000011C19CE60C242B468BF.png" />
 
 
 * Sign & Mark Done w/o (without) Note:  This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click. You will not be prompted to enter any text completion notes from this link.  This signs the document & marks the task done only. This is a quicker way to sign & mark done without have to go thru the text comment notes screen in the previous option.
 * Mark Done: If click this, it will pop up a Notes to Complete text box where you can free-text notes, your result, etc for this task and then click Complete box to mark it as completed.  This option allows you to mark the task done and make any notes to the task to keep on record.  It marks it as completed at the top. And then takes this task out of Your Task List and puts it in the completed task tab.
 * Mark Done w/o Note: If click this, you are marking the task done without having to enter any notes or free-text as in the above option called Mark Done. It marks it as completed at the top.  And then takes this task out of Your Task List and puts it in the completed task tab.
 * Reply:  By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
-    * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.
+   * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.
 {{% note %}}
 
 The reply button will not be available for use if the task was automatically created by an interface. This is because a user cannot reply the task to an interface.

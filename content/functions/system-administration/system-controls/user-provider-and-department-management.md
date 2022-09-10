@@ -11,7 +11,7 @@ links:
   - '../../portal-management/linking-users-for-portal-access.md'
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'User/Provider & Department Management'
@@ -30,13 +30,13 @@ At the top of the Access Control default landing page are navigation links and
 
 Above the Search field and filters are two navigation links:
 1. View Departments: This link navigates to the default landing page–the Departments view.
-    * Departments are listed alphabetically, with options to edit or delete, by default.
-    * This page can be returned to at any point during the user/department editing by simply clicking the View Departments link.
-    * Additional links are available, at the top of the table, which allow filtering to Show User Counts (displays the number of users within each department) and to Show Inactive (lists all inactive departments).
+   * Departments are listed alphabetically, with options to edit or delete, by default.
+   * This page can be returned to at any point during the user/department editing by simply clicking the View Departments link.
+   * Additional links are available, at the top of the table, which allow filtering to Show User Counts (displays the number of users within each department) and to Show Inactive (lists all inactive departments).
 2. View User Access: This link navigates to the User Access view.
-    * This page displays all usernames, their security exceptions and statuses, as well as their associated security roles.
-    * Options are available to review previous revisions to security exceptions and by whom they were made.
-    * A Show CSV link is available to download a CSV of the user list.
+   * This page displays all usernames, their security exceptions and statuses, as well as their associated security roles.
+   * Options are available to review previous revisions to security exceptions and by whom they were made.
+   * A Show CSV link is available to download a CSV of the user list.
 
 In the upper-right corner of the Access Control default landing page are three additional links:
 1. <strong>Add Department</strong>: Clicking this link provides the workspace to add a new department. See the <em>How to Create a Department</em> section for additional information.
@@ -49,15 +49,15 @@ Search in the Access Control editor is a simple, yet powerful tool. Combined wit
 * <strong>Criteria</strong>: A filter to limit searches by <strong>Exact</strong> wording, or by a result that <strong>Begins With</strong> the specified text.
 * <strong>Search</strong>: A free-form text box that allows a single line of text to be searched against all users and departments in the database.
 * <strong>By</strong>: A dropdown filter used to limit the specified search text against an element of the user profile. Available options are:
-    1. Username
-    2. User PIN
-    3. Name
-    4. Alias
-    5. E-Mail
-    6. Organization
-    7. Department
-    8. User ID
-    9. NPI
+   1. Username
+   2. User PIN
+   3. Name
+   4. Alias
+   5. E-Mail
+   6. Organization
+   7. Department
+   8. User ID
+   9. NPI
 * <strong>Show</strong>: This field allows the results to be filtered by <strong>Active</strong>, <strong>Inactive</strong>, and/or <strong>Deleted</strong> status.
 * <strong>Go</strong>: Once filters and text have been entered, click this button to search the database.
 
@@ -274,26 +274,26 @@ After searching, if the referring physician is not in the system, continue with 
 2. Click the Access Control tab.
 3. Click the Add User link.
 4. When adding a Referring Physician, ensure all of the fields, below, are addressed:
-    1. <strong>Primary Dept</strong>: Must select the referring physician's primary department (otherwise, select <em>Referring Physicians</em>).
-    2. <strong>Current Status</strong>: Select <em>Login Disabled</em>.
-    3. <strong>Def. User Role</strong>: This field must be set to <em>Referring Physician</em>, because many components of the system know which entities are referring physicians, based on this field. If this field is skipped, the system automatically defaults and saves the role as <em>User-Limited Access</em>.
-    4. <strong>First Name</strong>: Enter the referring physician's full legal first name.
-    5. <strong>Last Name</strong>: Enter the referring physician's full legal last name.
-    6. <strong>Degree</strong>: This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
-    7. <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-    8. <strong>Address2</strong>: The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
-    9. <strong>City</strong>: The full city name of the referring physician's location.
-    10. <strong>State</strong>: A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
-    11. <strong>Postal Code</strong>: Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
-    12. <strong>Preferred Route</strong>: If the office uses encounters and faxes documents to referring physicians, select <em>Fax</em> from the dropdown. If the office uses Direct Messaging to send direct email messages (as part of an EHR Incentive Program) select <em>Direct Email</em> from the dropdown.
+   1. <strong>Primary Dept</strong>: Must select the referring physician's primary department (otherwise, select <em>Referring Physicians</em>).
+   2. <strong>Current Status</strong>: Select <em>Login Disabled</em>.
+   3. <strong>Def. User Role</strong>: This field must be set to <em>Referring Physician</em>, because many components of the system know which entities are referring physicians, based on this field. If this field is skipped, the system automatically defaults and saves the role as <em>User-Limited Access</em>.
+   4. <strong>First Name</strong>: Enter the referring physician's full legal first name.
+   5. <strong>Last Name</strong>: Enter the referring physician's full legal last name.
+   6. <strong>Degree</strong>: This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
+   7. <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
+   8. <strong>Address2</strong>: The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
+   9. <strong>City</strong>: The full city name of the referring physician's location.
+   10. <strong>State</strong>: A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
+   11. <strong>Postal Code</strong>: Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
+   12. <strong>Preferred Route</strong>: If the office uses encounters and faxes documents to referring physicians, select <em>Fax</em> from the dropdown. If the office uses Direct Messaging to send direct email messages (as part of an EHR Incentive Program) select <em>Direct Email</em> from the dropdown.
 
-    {{% note %}}
-    If **Direct Email** is being used, be sure to collect the referring physician's Direct email address, and record the address in the Email field.
-    {{% /note %}}
+{{% note %}}
+   If **Direct Email** is being used, be sure to collect the referring physician's Direct email address, and record the address in the Email field.
+{{% /note %}}
 
-    13. <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
-    14. <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
-    15. <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
+   13. <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
+   14. <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
+   15. <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
 {{% note %}}
 **Username** can be left blank. They are not a *user* accessing the system, therefore, they do not need a username provided.
 {{% /note %}}
@@ -357,12 +357,12 @@ To quickly add multiple, new users, navigate to the Access Control manager tab
 1. Click the Quick Add Users link, in the upper-right corner of the page.
 2. The <strong>Add Users</strong> page will load.
 3. Using either the <strong>Add Physicians</strong> or the <strong>Add Users</strong> (<strong>Non-Physicians</strong>) sections, supply:
-    1. <strong>First Name</strong>: Enter the referring physician's full legal first name.
-    2. <strong>Last Name</strong>: Enter the referring physician's full legal last name.
-    3. <strong>User Role/Department</strong>: This is the Default User Role (of the physician) or the Primary Department (of the non-physician). Choose from the provided dropdown.
-    4. <strong>Security Role</strong>: This field dictates the level of access a user is permitted. Use the dropdown to select the appropriate Security Role for the user in context.
-    5. <strong>Username</strong>: Enter a unique username.
-    6. <strong>Password</strong>: Enter a password.
+   1. <strong>First Name</strong>: Enter the referring physician's full legal first name.
+   2. <strong>Last Name</strong>: Enter the referring physician's full legal last name.
+   3. <strong>User Role/Department</strong>: This is the Default User Role (of the physician) or the Primary Department (of the non-physician). Choose from the provided dropdown.
+   4. <strong>Security Role</strong>: This field dictates the level of access a user is permitted. Use the dropdown to select the appropriate Security Role for the user in context.
+   5. <strong>Username</strong>: Enter a unique username.
+   6. <strong>Password</strong>: Enter a password.
 4. When adding users in either section, click the <strong>Add</strong> button to store that user for submission. Click the minus (-) button, if a user needs to be removed or an error was made.
 5. Continue adding users, as needed.
 6. When all users have been added, click either <strong>Submit</strong> button.
@@ -395,13 +395,13 @@ Navigate to the Access Control manager tab, and search for the user needing au
 2. When the <em>View User</em> page loads, click the <strong>View Audit Log</strong> link.
 3. The <strong>Audit Log Search Criteria</strong> page will open in a new tab.
 4. Narrow the audit search using the provided fields:
-    1. <strong>Date</strong>: This is a required field. Use the Now, Clear, or Calendar icons, as needed.
-    2. <strong>Patient</strong>: This is an autocomplete field that helps limit an audit log to a specified chart. Use the Help Bubble for assistance on how to search various types of charts.
-    3. <strong>Reference ID</strong>: Enter a specific Reference ID to be searched against the user's activity.
-    4. <strong>Event Type</strong>: The type of events to be searched can be selected individually, or in multiples.
-    5. <strong>Event Action</strong>: This is the event that occurred (e.g., Stream, View, Edit, Add, etc.).
-    6. <strong>Event Description</strong>: A description of the specific aspects of the event; usually contains the document type description.
-    7. <strong>Outcome</strong>: Whether the event was a <em>Success</em>, <em>Failure</em>, or <em>All</em>.
+   1. <strong>Date</strong>: This is a required field. Use the Now, Clear, or Calendar icons, as needed.
+   2. <strong>Patient</strong>: This is an autocomplete field that helps limit an audit log to a specified chart. Use the Help Bubble for assistance on how to search various types of charts.
+   3. <strong>Reference ID</strong>: Enter a specific Reference ID to be searched against the user's activity.
+   4. <strong>Event Type</strong>: The type of events to be searched can be selected individually, or in multiples.
+   5. <strong>Event Action</strong>: This is the event that occurred (e.g., Stream, View, Edit, Add, etc.).
+   6. <strong>Event Description</strong>: A description of the specific aspects of the event; usually contains the document type description.
+   7. <strong>Outcome</strong>: Whether the event was a <em>Success</em>, <em>Failure</em>, or <em>All</em>.
 5. Once the preferred filters are entered, click the <strong>Search</strong> button. The results are specific to the user in context.
 6. For further details, click the <strong>View Click Logs</strong> link in the <em>Activity Details</em> column and view the exact activity of the user.
 

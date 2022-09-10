@@ -3,7 +3,7 @@ id: '1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
 title: 'Rapid Deployment Agenda'
 date: '2021-01-29T22:11:51.106Z'
 version: 40
-lastAuthor: 'Will Reiske'
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - 'rapid-deployment-project-outline.md'
@@ -11,7 +11,7 @@ links:
   - 'rapid-deployment-agenda/high-level-demonstration-for-core-team.md'
   - 'rapid-deployment-agenda/deployment-planning.md'
 source: 'https://drive.google.com/open?id=1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Rapid Deployment Agenda'
@@ -54,18 +54,18 @@ Our Rapid Deployment Agenda provides clients with an outline of the high-level e
 * End-to-end system demonstration
 * Vendor Governance
 * General introductions - Identify stakeholders, key players, and managers, serving as representatives of the varying departments, offices, and workflows.
-    * Leadership
-    * Steering Committee
-    * Role assignments and clarifications
-        * Who does what and why
-        * Communication standards – vertical/horizontal communication, file locations, information distribution channels, meeting minutes access, where to report or record issues, and ongoing list of contacts
-        * Discuss collaborative tools to be used
+   * Leadership
+   * Steering Committee
+   * Role assignments and clarifications
+      * Who does what and why
+      * Communication standards – vertical/horizontal communication, file locations, information distribution channels, meeting minutes access, where to report or record issues, and ongoing list of contacts
+      * Discuss collaborative tools to be used
 * Intent and vision of project
-    * Key success factors
+   * Key success factors
 * Project Plan
-    * Goals and deliverables
-    * Frequency of status meetings
-    * Agree to the roadmap, timeline, and schedule
+   * Goals and deliverables
+   * Frequency of status meetings
+   * Agree to the roadmap, timeline, and schedule
 * Q&A
 
 ### Base Configurations
@@ -73,7 +73,7 @@ Our Rapid Deployment Agenda provides clients with an outline of the high-level e
 * Review Sessions
 * Foundational Training
 * Checkpoints
-    * Use these meetings to assess status, progress, and next steps.
+   * Use these meetings to assess status, progress, and next steps.
 * Reviews
 
 ### Wrap-up

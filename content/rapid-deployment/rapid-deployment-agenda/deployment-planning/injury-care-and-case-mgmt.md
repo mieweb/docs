@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-injury-care.md'
   - '../../review-sessions/review-session-case-management.md'
 source: 'https://drive.google.com/open?id=1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Injury Care & Case Mgmt'
@@ -28,34 +28,34 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 ### Agenda - 2 Hours
 
 * Demonstrate Injury Care
-    * Overview
-        * Security Permissions
-        * Insurance Interface
-        * Work-Related Case Management
-        * System Configuration
-            * Import Tools
-            * Cases
-                * Incident On-Site Locations
-                * Nature of Illness/Injury and Body Parts
-                * Restrictions (Types) & Accommodations
-                    * Restriction Providers
-                * Event and Source
-            * State-Specific Forms/Print Definitions
-        * Reporting
-            * Work Status Report Document
-            * OSHA 300/300A Import for Partial Year (spec)
-            * Portal
-        * E-File with OSHA
-        * Resources
+   * Overview
+      * Security Permissions
+      * Insurance Interface
+      * Work-Related Case Management
+      * System Configuration
+         * Import Tools
+         * Cases
+            * Incident On-Site Locations
+            * Nature of Illness/Injury and Body Parts
+            * Restrictions (Types) & Accommodations
+               * Restriction Providers
+            * Event and Source
+         * State-Specific Forms/Print Definitions
+      * Reporting
+         * Work Status Report Document
+         * OSHA 300/300A Import for Partial Year (spec)
+         * Portal
+      * E-File with OSHA
+      * Resources
 * Demonstrate Case Management
-    * Case Management Overview
-        * Case Management Functionality
-        * Case Management Encounter
-        * Case Management Worklist
-        * Security Permissions
-        * Work-Related Case Management
-        * Reporting
-        * Resources
+   * Case Management Overview
+      * Case Management Functionality
+      * Case Management Encounter
+      * Case Management Worklist
+      * Security Permissions
+      * Work-Related Case Management
+      * Reporting
+      * Resources
 
 ## Afterward
 

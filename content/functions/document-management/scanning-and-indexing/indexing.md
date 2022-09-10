@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=miewebscan'
   - 'indexing-bubble-forms.md'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Indexing'
@@ -280,10 +280,10 @@ Indexing preferences include:
 
 * <strong>Blank Page Threshold</strong>: Setting will automatically detect and purge/delete blank pages when using the Process BarCodes button. The threshold is the percentage (%) of ink, or black on the page, that designates the page as <em>not blank</em>. This preference determines the minimum percentage of black required on the page before the program considers the page blank, marking it for deletion. If any scanned pages contain little content, a low percentage threshold would need to be set in order to detect the small amount of text, or black on the page. This setting is usually set to lower numbers. If a blank page is undetected and is not deleted, the scanner may be dirty, or the page may be smudgy and tripping the threshold sensor.
 * <strong>Default Mouse Mode</strong>: Sets what function is executed when using the mouse to click the document image.
-    * <strong>Zoom</strong>: Perform zoom function when document image is clicked. Equivalent toolbar option is the magnifying glass.
-    * <strong>Pan</strong>: Perform pan function when document image is clicked. Will only be able to scroll/move the image up and down. Equivalent toolbar option is the hand icon.
-    * <strong>Pointer</strong>: Selection will only allow scrolling. Cannot do anything to the document image.
-    * <strong>Crop</strong>: Perform crop function when document image is clicked. Equivalent toolbar option is the plus sign.
+   * <strong>Zoom</strong>: Perform zoom function when document image is clicked. Equivalent toolbar option is the magnifying glass.
+   * <strong>Pan</strong>: Perform pan function when document image is clicked. Will only be able to scroll/move the image up and down. Equivalent toolbar option is the hand icon.
+   * <strong>Pointer</strong>: Selection will only allow scrolling. Cannot do anything to the document image.
+   * <strong>Crop</strong>: Perform crop function when document image is clicked. Equivalent toolbar option is the plus sign.
 * <strong>Auto Link Form Pages</strong>: Setting to <strong>Yes</strong> will trigger multi-page forms embedded with form ID barcodes to automatically link, ensuring the full document, regardless of the number of pages, is linked to the first page, as one multi-page record. Otherwise, this must be done manually, while indexing the pages of the batch. In other words, if <em>Auto Link Form Pages</em> is set to Yes and the form being indexed is programmed with the necessary barcode, {{% system-name %}} will link subsequent pages of the form to the initial page. Because of the form ID barcode, {{% system-name %}} recognizes the form as a multi-page document.
 * <strong>Auto Un-tumble Form Pages</strong>: <em>Tumbling</em> is a programmable feature of printed forms where the back page is printed upside-down. Some forms are set to tumble for clipboard use, for example. If a form embedded with a form ID barcode is programmed to tumble and is scanned/indexed with this preference set to <strong>Yes</strong>, {{% system-name %}} will automatically <em>un-tumble</em> the pages, indexing all of them right-side up, with the back page no longer upside-down. If this preference is set to <strong>No</strong>, the pages would appear <em>tumbled</em>, just as they were printed and scanned in, and the user would then be required to manually rotate the inverted images.
 * <strong>Clear Indexing Fields</strong>: When set to <strong>Yes</strong>, the indexing fields of the <em>Indexing Information</em> section will be cleared after advancing to the next document within a batch.

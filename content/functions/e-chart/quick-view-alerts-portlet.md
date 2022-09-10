@@ -18,7 +18,7 @@ links:
   - 'https://system/?func=dicom&dcfunc=queue'
   - '../document-management/imaging/dicom-setup-tab.md'
 source: 'https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Quick View - Alerts Portlet'
@@ -143,9 +143,9 @@ The **Auto-Send Item Alerts** portlet shows failed datasend jobs for the logged-
 ![](../quick-view-alerts-portlet.assets/1000020100000484000001055A0B5A822B100EBB.png)
 
 * <strong>Acknowledge</strong>: Clicking this after an autoroute has failed indicates you acknowledge it errored out, removing it from the queue. 
-  {{% note %}}
+{{% note %}}
   If information, or document or chart info, ever changes or gets updated, then the auto-send route will be resent.
-  {{% /note %}}
+{{% /note %}}
 * <strong>Resend</strong>: Clicking this will attempt to resend the failed route.
 * <strong>Deactivate</strong>:  Clicking this means that you no longer want the errored route to be sent and wish it to never try sending again.
 If you wish to work the data-send/auto-route failures en masse, select each failed route and use the drop-down **Select Error Routes** to select an option that will be applied to all that were checked.

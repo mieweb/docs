@@ -15,7 +15,7 @@ links:
   - '../../functions/injection-immunization-management/injection-tab-with-chirp-interface.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45'
 source: 'https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Injection/Immunization Management'
@@ -28,17 +28,17 @@ menu:
 * <strong>Injection/Immunization Module Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>MAR/Injections Chart Tab</strong>
-    * <strong>Documenting Links</strong>
-    * <strong>Summary List Categories</strong>
-    * <strong>Visit Encounter</strong>
-    * <strong>VIS Handouts</strong>
-    * <strong>Mass Injection Program</strong>
+   * <strong>Documenting Links</strong>
+   * <strong>Summary List Categories</strong>
+   * <strong>Visit Encounter</strong>
+   * <strong>VIS Handouts</strong>
+   * <strong>Mass Injection Program</strong>
 * <strong>System Configuration</strong>
-    * <strong>Injection Editor</strong>
-    * <strong>System Settings</strong>
-    * <strong>Mass Injection Program</strong>
-    * <strong>Interface to Registry</strong>
-    * <strong>Security Permissions</strong>
+   * <strong>Injection Editor</strong>
+   * <strong>System Settings</strong>
+   * <strong>Mass Injection Program</strong>
+   * <strong>Interface to Registry</strong>
+   * <strong>Security Permissions</strong>
 * <strong>Resources</strong>
 
 ## Overview

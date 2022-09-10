@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1p8ulmLTBgIFKib-AvOY7jrMDTuzhrKnuq4X7D2T9TB8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'PM 1 - Participation in Systematic Anticoagulation Program'
@@ -32,8 +32,8 @@ menu:
 Supporting Documentation
 1. Patients Receiving Anti-Coagulation Medications - Total number of patients receiving anti-coagulation medications; and
 2. Percentage of that Total Participating in a Systematic Anticoagulation Program - Documented number of referrals to a coagulation/anti-coagulation clinic; 
-    1. number of patients performing patient self-reporting (PST); or
-    2. number of patients participating in self-management (PSM).
+   1. number of patients performing patient self-reporting (PST); or
+   2. number of patients participating in self-management (PSM).
 
 
 

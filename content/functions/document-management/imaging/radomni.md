@@ -6,7 +6,7 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mTsD1oXYnV2ZVK_7okDnVLmvkG60cAj5x0-DwUypgk8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'RadOmni'
@@ -20,12 +20,12 @@ The necessary setup for accessing and utilizing RadOmni is fairly simple and str
 The RadOmni Worklist auto-refreshes every three (3) minutes.
 {{% /info %}}
 * By default, the RadOmni layout displays All Encounters. Open Encounter Criteria can be added to the RadOmni All Encounters ListView, if necessary. The following criteria may be added to the layout:
-    * <strong>Stages</strong>
-        * If incoming encounters utilize staging, adding this option allows users to filter out completed or problematic records more easily.
-        * Ex: WHERE="e.location='CAM' AND e.stage='rad_order_completed'"
-    * <strong>Visit Types</strong>
-        * If multiple types of encounter orders are being used, adding this option allows users to easily restrict the report to specific visit types, as needed.
-        * Ex: WHERE="e.visit_type IN ('ERVISIT','OUTPATIENT','INPATIENT','OFFICE') AND e.location='ENT'"
-    * <strong>Encounter Location</strong>
-        * If multiple locations are used, adding this option allows users to easily restrict the report by the specific location(s), as needed.
-        * Ex: WHERE="e.location='CAM'"
+   * <strong>Stages</strong>
+      * If incoming encounters utilize staging, adding this option allows users to filter out completed or problematic records more easily.
+      * Ex: WHERE="e.location='CAM' AND e.stage='rad_order_completed'"
+   * <strong>Visit Types</strong>
+      * If multiple types of encounter orders are being used, adding this option allows users to easily restrict the report to specific visit types, as needed.
+      * Ex: WHERE="e.visit_type IN ('ERVISIT','OUTPATIENT','INPATIENT','OFFICE') AND e.location='ENT'"
+   * <strong>Encounter Location</strong>
+      * If multiple locations are used, adding this option allows users to easily restrict the report by the specific location(s), as needed.
+      * Ex: WHERE="e.location='CAM'"

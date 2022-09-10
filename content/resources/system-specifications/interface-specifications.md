@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2022-08-25T20:50:59.221Z'
-version: 1183
-lastAuthor: 'Tom Slabach'
+date: '2022-09-08T21:34:23.026Z'
+version: 1264
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -14,7 +14,6 @@ links:
   - 'https://drive.google.com/open?id=1egb4flCHJ6rnKMxQjkHBWini36q8XBIc'
   - 'https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view'
   - '../../functions/system-administration/interfaces/e-clinicalworks.md'
-  - 'http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress'
   - '../../functions/system-administration/interfaces/device-interface-amplivox-ca850.md'
   - '../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md'
   - 'https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM'
@@ -22,18 +21,19 @@ links:
   - '../../functions/system-administration/interfaces/device-interface-mi-7000.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html'
   - '../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md'
+  - 'http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html'
-  - 'https://drive.google.com/open?id=1NoA7PT68mtnbrKJdD9MzmkWqLXv8lMLw'
   - '../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md'
   - 'http://www.horiba.com/us/en/medical/products/hematology/abx-micros/abx-micros-60-details/abx-micros-60-905/'
   - 'http://www.hospira.com/Products/plumaplusinfusionsystem.aspx'
+  - 'https://drive.google.com/open?id=1NoA7PT68mtnbrKJdD9MzmkWqLXv8lMLw'
   - 'http://www.hemochronusersforum.co.uk/microcoagulation.html'
   - 'http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q'
+  - 'https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer'
+  - 'https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868'
+  - 'https://drive.google.com/open?id=1JkqBeFPTOZU6t-VgVUMy05zNg1-xHcOeEwWlQhrUNnM'
   - '../../functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-pft-system.html'
-  - 'https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868'
-  - 'https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer'
-  - 'https://drive.google.com/open?id=1JkqBeFPTOZU6t-VgVUMy05zNg1-xHcOeEwWlQhrUNnM'
   - 'http://www.ariamedical.com/welch-4200b-e1.htmlWelch%20Allyn%20-%20Spot%20Vital%20Signs%20Monitor'
   - 'http://www.welchallyn.com/documents/Patient%20Monitoring/Continuous%20Monitoring/Vital%20Signs%20Monitor%20300%20Series/SM2615EU%20RevD%20072808%20VSM300%20Sales.pdf'
   - 'https://www.crisphealth.org/'
@@ -49,7 +49,7 @@ links:
   - 'http://stchome.com/'
   - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Interface Specifications'
@@ -139,56 +139,87 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 
 ## Devices
 
-* [Abaxis Piccolo Xpress Blood Chemistry Analyzer](http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress)
-* Ambulatory Blood Pressure - SunTech Medcal Instruments Accuwin Pro Version 3 software. Device is the Oscar 2, 24 hr ABP.
-* Audiometer - [Amplivox CA850 & PC850 USB](../../functions/system-administration/interfaces/device-interface-amplivox-ca850.md)
-* Audiometer - [Benson CCA-100mini Plus Industrial Audiometer with a BAS-200 Bio-Acoustic Simulator](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md) (requires Plus Package software)
-* Audiometer - [Benson Mini 200](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md) (requires Plus Package software)
-* Audiometer - [Benson 200](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md) Audiometer Device
-* Audiometer - [Everest Audio](https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM)
-* Audiometer - [Device Interface - Maico MA800](../../functions/system-administration/interfaces/device-interface-maico-ma800.md)
-* Audiometer - Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md)
-* Audiometer - Xeta Otometrics (no model # on device)
-* Audiometer - [OMI Audiometric Data Management Software ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html)
-* Audiometer - [Tremetrics RA300, RA400, RA500, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md)
-* Audiometer - Tremetrics RA660 Audiometer Device
-* Barcode Inventory scanner - DATALOGIC ES46080 QuickScan 6000; Class # 668112-014001-0000
-* Barcode Inventory scanner - Motorola ES46080
-* Brother Label Printer QL570
-* Card Swipe Reader - Mag Strip and RFID MagTek Mini USB Swipe Readers (Part# 21040110)
-* Card Swipe Reader - OmniReader card reader: WCR3237-633U - 3 track mag stripe reader and visible bar code reader with USB/Kybd interface
-* Cell-Dyn Emerald LIS
+* Audiometer 
+   * [Amplivox CA850 & PC850 USB](../../functions/system-administration/interfaces/device-interface-amplivox-ca850.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
+   * [Benson CCA-100mini Plus Industrial Audiometer with a BAS-200 Bio-Acoustic Simulator](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md), [Benson Mini CCA-200mini](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md) (requires Plus Package software) (File Bi-directional)
+      * Export file from WebChart into Benson software and then Benson software exports report to upload to WebChart, requires specific report format that needs to be added to Benson software.  Importing report format requires the PLUS package.  Requires manual downloading of file to Benson for demographic information
+   * [Benson 200](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md) Audiometer Device
+   * [Everest Audio](https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM) (no model # on device) (File Uni-directional)
+   * [Maico MA800](../../functions/system-administration/interfaces/device-interface-maico-ma800.md) (Serial Uni-directional)
+   * Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
+   * [OMI Sensormedics ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html) (File Uni-directional)
+   * Shoebox *Not Supported
+   * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md) (Serial Uni-directional)
+   * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
+   * Xeta Otometrics (no model # on device) (File Uni-directional)
+* Barcode Inventory scanner 
+   * Datalogic Motorola ES46080 QuickScan 6000; Class # 668112-014001-0000 - Acts like a keyboard
+* Blood Chemistry 
+   * [Abaxis Piccolo Xpress Blood Chemistry Analyzer](http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress)
+* Blood Pressure 
+   * SunTech Medical Instruments Accuwin Pro Version 3 software - Device is the Oscar 2, 24 hr AB (File Unidirectional)
+   * SunTech Medical Tango M2 Model M00060987 - part of Quinton part of QStress 
+   * Welch Allyn Connex Spot Monitor 71WT
+* Body Composition
+   * Tanita Model BC-418; Serial #10020501
+* Breath Alcohol
+   * Phoenix 6.0
+* Card Scanner 
+   * Scanshell 800NR and 800DXN
+* Card Swipe Reader 
+   * MagTek MagStripe and RFID Mini USB Swipe Reader (Part# 21040110) - Acts like a keyboard
+   * Omni Barcode and MagStripe Reader WCR3237-633U - 3 track mag stripe reader and visible bar code reader with USB/Kybd interface - Acts like a keyboard
 * [Cholestech LDX](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html) Analyzer p/n 412 00008
-* Clinitek Status by Siemens - analyzer that reads urine dipsticks
-* Coulter AcT series hematology analyzer
-* [Dymo LabelWriter](https://drive.google.com/open?id=1NoA7PT68mtnbrKJdD9MzmkWqLXv8lMLw) - model 300, 330, 400, 450 Turbo, 550, 550 Turbo
-* ECG/EKG - Esaote 3/12 Channel ECG Unit P8000
-* [ECG/EKG - Welch Allyn PC-based Resting ECG Monitoring (CardioPerfect)](../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md)
-* ECG/EKG – Welch Allyn PC-based Resting ECG with interpretation model CPR-UI-UB-D <em>(MIE Note: Goes through CardioPerfect)</em>
-* ECG/EKG - Welch Allyn PC-based PCR100 Resting ECG w/Interp & Spiro Combo -101442 DS <em>(MIE Note: Goes through CardioPerfect)</em>
-* ECG/EKG - Welch Allyn Connex Cardio <em>(MIE Note: goes through CardioPerfect)</em>
-* Hematology - [Horiba Micros 60](http://www.horiba.com/us/en/medical/products/hematology/abx-micros/abx-micros-60-details/abx-micros-60-905/) 
+* Cholesterol 
+   * Abbott LDX Analyzer (Serial Uni-directional) - Still requires Java Applet to interface
+* ECG/EKG 
+   * Esaote 3/12 Channel ECG Unit P8000
+   * Phillips TC70 Pagewriter - Read every 30 minutes 
+   * Welch Allyn Connex Cardio (ActiveX/File) - New software replacement for CardioPerfect, only does EKG, not Spirometry.  Uses an ActiveX control to send demographic information and read the interpretation
+   * [Welch Allyn PC-based Resting ECG Monitoring (CardioPerfect)](../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md) (ActiveX/File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
+   * Welch Allyn PC-based Resting ECG with interpretation model CPR-UI-UB-D (ActiveX/File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
+   * Welch Allyn PC-based PCR100 Resting ECG w/Interp & Spiro Combo -101442 DS (ActiveX/File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
+* Hematology 
+   * Cell-Dyn Emerald LIS (Serial Uni-directional) - Uses the MIE Device app to monitor the serial port for incoming data and automatically transfer to WebChart
+   * Cpoulter AcT Series Analyzer (Serial Uni-directional) - Has been converted to the MIE Device App for constant listening
+   * [Horiba Micros 60](http://www.horiba.com/us/en/medical/products/hematology/abx-micros/abx-micros-60-details/abx-micros-60-905/) (Serial Uni-directional) - Still requires Java Applet to interface
 * Infusion System - [Plum A+](http://www.hospira.com/Products/plumaplusinfusionsystem.aspx) (Pending)
 * InstyMeds
+* Label Printer
+   * Brother QL570 *Not Supported
+   * [Dymo LabelWriter](https://drive.google.com/open?id=1NoA7PT68mtnbrKJdD9MzmkWqLXv8lMLw) - model 300, 330, 400, 450 Turbo, 550, 550 Turbo - Works like a printer, configuration built in out of the box
 * Microcoagulation System - [ITC Hemochron Jr.](http://www.hemochronusersforum.co.uk/microcoagulation.html)
-* Monitor and Defibrillator - [Phillips HeartStart MRx](http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q) (Pending)
-* OneStep Urine Analyzer
-* Pulmonary - [NDD EasyOne Spirometer using EasyOn software](../../functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
-* Pulmonary -[ OMI Sensormedics model number 922 & PFW05-D](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-pft-system.html)
-* [Pulmonary - Welch Allyn CardioPerfect](../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md)
-* Pulmonary - WINDx (in progress)
-* Respirator Fit -TSI Incorporated [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868)
-* Respirator Fit - [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer)
-* Scanshell Card Scanner - 800NR and 800DXN
-* Signature Pad - Topaz Systems SignatureGem LCD 1x5
-* [Signature Pad - Topaz GemView (BETA TESTING)](https://drive.google.com/open?id=1JkqBeFPTOZU6t-VgVUMy05zNg1-xHcOeEwWlQhrUNnM)
-* SpeechMike - Philips SpeechMike USB model LFH3200
+* Monitor and Defibrillator - [Phillips HeartStart MRx](http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q)
+* Respirator Fit 
+   * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file uplad
+   * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file uplad
+* Signature Pad 
+   * [Topaz GemView](https://drive.google.com/open?id=1JkqBeFPTOZU6t-VgVUMy05zNg1-xHcOeEwWlQhrUNnM) (File Bi-directional) - Our device is not only capturing a signature image but a secure biometric (this biometric data is comprised of speed, pace, and acceleration as well as pressure) This biometric data ties the signer to the document and can be reviewed forensically by a court-appointed handwriting expert with special software we only make available to the court system upon request. Our patented biometric signature technology has been called in to question in Federal Court and was upheld (please see details Here ).  A form can be automatically sent from Enterprise Health to the pad and then returned automatically to the chart.  Requires vendor software to function
+   * Topaz SignatureGem LCD 1x5 (ActiveX) - Requires an ActiveX control to use in the browser, limited to about 100 characters on the screen to display information to the user
+* SpeechMike 
+   * Philips SpeechMike USB model LFH3200
+* Spirometer
+   * Depisteo Spirolyser Q13
+   * [NDD EasyOne using EasyOn software](../../functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md) (Direct Communication) - Bidirectional interface with direct communication to Enterprise Health from the EasyOn software
+   * NSpire KoKo PFT (File Uni-directional) *Project Discontinued
+   * [OMI Sensormedics model number 922 & PFW05-D](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-pft-system.html)
+   * OMI Sensormedics model #1022 (File Uni-directional) - Uses the OMI software to interface with the NDD Spirometer, the device app will monitor and automatically upload files from the OMI software
+   * [Welch Allyn CardioPerfect](../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md) PC-based SpiroPerfect Spirometer (ActiveX / File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
+   * WINDx (in progress)
+* Stress Treadmill
+   * Mortara Serial # QS002203 (no model #) - Quinton Q Stress with TM55 Treadmill (2); Serial # 00483-001-570/ 114010189497 and Serial # 00483-001-570/ 114010189497 HL7 feed capable; proprietary computer; Q-Stress software version 4.5.046 for Windows XP Pro/Vista Ultimate/Win 7 Ultimate on both computers.
+* Urinalysis
+   * OneStep (Serial Uni-directional) - Uses the Java Applet to interface
+   * Siemens Clinitek Status (Serial Uni-directional) - Uses the Java Applet to interface
+* Vision 
+   * Depisteo VT1 (File Bi-directional) - Uses a .ini type file format to send demographic data to the device and then receive the data back PDF of file formats
+   * Titmus Honeywell V4 - Can do either file export or a bi-directional interface using MS Access or MS SQL Server
+   * Titmus i500
+* Vital Signs Monitoring 
+   * [Welch Allyn Spot Vital Signs Monitor - Welch 4200B-E1](http://www.ariamedical.com/welch-4200b-e1.htmlWelch%20Allyn%20-%20Spot%20Vital%20Signs%20Monitor)
+   * Welch Allyn Spot Vital Signs LXi (USB connection)
+   * [Welch Allyn Vital signs 300 Series](http://www.welchallyn.com/documents/Patient%20Monitoring/Continuous%20Monitoring/Vital%20Signs%20Monitor%20300%20Series/SM2615EU%20RevD%20072808%20VSM300%20Sales.pdf)
 * X-Ray image import from a CD or option of DICOM interface
-* Vision - Titmus i500
-* Vision - Depisteo VT1
-* Vital Signs Monitoring - [Welch Allyn Spot Vital Signs Monitor - Welch 4200B-E1](http://www.ariamedical.com/welch-4200b-e1.htmlWelch%20Allyn%20-%20Spot%20Vital%20Signs%20Monitor)
-* Vital Signs Monitoring - Welch Allyn Spot Vital Signs LXi (USB connection)
-* [Vital Signs Monitoring - Welch Allyn Vital signs 300 Series](http://www.welchallyn.com/documents/Patient%20Monitoring/Continuous%20Monitoring/Vital%20Signs%20Monitor%20300%20Series/SM2615EU%20RevD%20072808%20VSM300%20Sales.pdf)
 
 ## **DICOM/PACS**
 
@@ -226,7 +257,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * [KyHIE](https://khie.ky.gov/Pages/index.aspx)
 * MHIA-HIE Michigan Interface bi-directional
 * Michigan Health Connect (MHC) uni-directional
-    * [Michigan Care Improvement Registry ](https://mcir.org/)(MCIR) CCD Referral Documents thru MHC
+   * [Michigan Care Improvement Registry ](https://mcir.org/)(MCIR) CCD Referral Documents thru MHC
 * Michiana Health Information Network (MHIN)
 * Wait Time Information System (WTIS) Level 2 Surgery (OR) Specification Outbound to Canadian Ministry
 * Xerox (State of Wyoming HIE bi-directional and Kentucky uni-directional)
@@ -289,8 +320,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * GDW
 * Kronos
 * Peoplecore
-* Oracle GHRIS Peoplesoft v9.1
 * Peoplefluent - previously known as PeopleClick
+* Peoplesoft - Oracle GHRIS v9.1
 * SAD
 * SAP
 * SHRM (LLNL)

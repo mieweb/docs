@@ -15,7 +15,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion'
   - 'mie-file-import.md'
 source: 'https://drive.google.com/open?id=1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Data Migration Overview'
@@ -71,13 +71,13 @@ During this phase, rapid development and testing occurs in the following manner:
 #### **Final Dress Rehearsal**
 
 After the client has verified the migration modules, {{% sys-name %}} and the client complete a timed final dress rehearsal. The following process is completed for the timed dress rehearsal:
-1. {{% sys-name %}} creates a clean configured environment where the data may be loaded for testing. Typically, this is a clone of the configured production system before go-live.
+{{% sys-name %}}1.  creates a clean configured environment where the data may be loaded for testing. Typically, this is a clone of the configured production system before go-live.
 2. The client provides a new snapshot/backup of the data.
-3. {{% sys-name %}} obtains the data.
-4. {{% sys-name %}} optionally converts the data to the client's {{% sys-name %}} DB as custom tables in the newly created target environment.
-5. {{% sys-name %}} performs the data migration along with any custom interfaces to convert the data to documents and discrete data. Each step is timed. A data migration checklist is used to document the steps and timing for all steps.
-6. {{% sys-name %}} onboarding specialists perform internal verification as data is loaded in the system.
-7. {{% sys-name %}} onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
+{{% sys-name %}}3.  obtains the data.
+{{% sys-name %}}4.  optionally converts the data to the client's {{% sys-name %}} DB as custom tables in the newly created target environment.
+{{% sys-name %}}5.  performs the data migration along with any custom interfaces to convert the data to documents and discrete data. Each step is timed. A data migration checklist is used to document the steps and timing for all steps.
+{{% sys-name %}}6.  onboarding specialists perform internal verification as data is loaded in the system.
+{{% sys-name %}}7.  onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
 8. The client validates that the data in the dev system or sandbox is correct. Validation is also timed and documented.
 9. A "go" or "no-go" is provided by the client to {{% sys-name %}} to signal the end of timing.
 If a "no-go" is provided, a discussion is scheduled to discuss the issues that prevented a successful conversion. Changes are made as needed, adhering to the change control process if applicable. The data is converted in the dev system or sandbox if possible or the system is cleaned and reloaded if necessary, and the client validates again.
@@ -87,14 +87,14 @@ If a "no-go" is provided, a discussion is scheduled to discuss the issues that p
 The go-live procedure is similar to the dress rehearsal. The data migration checklist created during the dress rehearsal is used to migrate the data step-by-step. The following is a sample procedure for the go-live of a migrated system:
 1. The client stops using their historical product and puts it in a read-only state. Depending on the size of the database and timing of the migration, this is often done on a Friday after the end of normal business hours while data is migrated over a weekend. If more time is needed to load the data and allow for validation, then the schedule is adjusted to allow for extra time. Note that while the historical product is in a read-only state and the {{% sys-name %}} system is not yet loaded with data, clinics will only be able to reference the legacy system. Any new data will have to be logged on paper charts and entered into the  {{% sys-name %}} system after go-live.
 2. The client exports the data.
-3. {{% sys-name %}} obtains the data via a secure connection established from the sample data that was provided.
-4. {{% sys-name %}} converts the data if necessary and imports the data to the client's production DB.
-5. {{% sys-name %}} disables all cron jobs (HR Feed Import, Health Surveillance Evaluations/Enrollments, etc.).
-6. {{% sys-name %}} runs the migration into the client's dev or production system, following the data migration checklist.
-7. {{% sys-name %}} onboarding specialists perform internal verification as data is loaded in the system.
-8. {{% sys-name %}} onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
+{{% sys-name %}}3.  obtains the data via a secure connection established from the sample data that was provided.
+{{% sys-name %}}4.  converts the data if necessary and imports the data to the client's production DB.
+{{% sys-name %}}5.  disables all cron jobs (HR Feed Import, Health Surveillance Evaluations/Enrollments, etc.).
+{{% sys-name %}}6.  runs the migration into the client's dev or production system, following the data migration checklist.
+{{% sys-name %}}7.  onboarding specialists perform internal verification as data is loaded in the system.
+{{% sys-name %}}8.  onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
 9. The client validates final production run on the following day(s) and signs off.
-10. {{% sys-name %}} enables all cron jobs disabled before the import.
+{{% sys-name %}}10.  enables all cron jobs disabled before the import.
 11. The client turns off their old system and goes live with the  {{% sys-name %}} system.
 
 ## **Pre-developed Custom Modules from Specific Legacy Systems**

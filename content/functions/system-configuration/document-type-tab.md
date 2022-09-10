@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Document Type Tab'
@@ -142,10 +142,10 @@ After you have clicked Add Document Type, the Add a Document Type screen will op
 The drop-down choices of Chart Tabs available to tag the document type to are the chart tabs in the system that are able to display documents. If the chart tab does not appear in the drop-down, it is because the chart tab has a ‘default view' (functionality) set that does not allow the display of documents within that tab. You must link the document type to a Chart Tab in order for it to be filed/shown in that chart tab. You can also link a document type from the Chart Tab module.
 {{% /info %}}
 * <strong>Style</strong>: type the style that you want this document to show as when looking in a patient's chart. You can make it a colored background for this specific document type, can change the font, font size, color of font, etc. This does <strong>not</strong> affect the way it prints. This is strictly styles for viewing in documents in {{% system-name %}} only.
-    * <strong>Sample Text</strong>: Will show a sample of what the text/background, etc looks like while you are programming the style.
-        * <strong>Click the</strong>
-           <img src="../document-type-tab.assets/100002000000000E0000000E8FB1CC7D144D6E97.png" />
-           <strong>next to Sample Text to get a complete help listing of these programming options.</strong>
+   * <strong>Sample Text</strong>: Will show a sample of what the text/background, etc looks like while you are programming the style.
+      * <strong>Click the</strong>
+         <img src="../document-type-tab.assets/100002000000000E0000000E8FB1CC7D144D6E97.png" />
+         <strong>next to Sample Text to get a complete help listing of these programming options.</strong>
 {{% note %}}
 
 Below, where it says :value; is where you type in a value choice (do not type the word ‘value' or it won't work. You must program a value for each style. Any or all of these choices can be programmed. They all get programmed together on one line and separated by a semi-colon ( ; ) You must also **end** with a semi-colon ( ; ).

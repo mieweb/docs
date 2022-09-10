@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10'
 source: 'https://drive.google.com/open?id=1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)'
@@ -125,8 +125,8 @@ menu:
 
 Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month period of the diagnosis of coronary artery disease with prior myocardial infarction (MI) or a current or prior LVEF < 40%.
 1. Ensure patient has one of the following diagnoses:
-    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
-    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
+   1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
+   2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
 1. Numerator will be populated with patients prescribed a beta-blocker therapy within the measure period.
 
 ## Evidence

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Encounters Protocol Configuration & Programming'
@@ -74,9 +74,9 @@ Observation Name field:
 
 * Begin every observation name with <strong>HPI</strong>
 * After the word <strong>HPI</strong> then type the rest of the observation name needing to be stored to capture the data
-    * Examples:
-        * HPI Associated symptoms
-        * HPI Quality of pain
+   * Examples:
+      * HPI Associated symptoms
+      * HPI Quality of pain
 
 Observation Type field:
 
@@ -97,9 +97,9 @@ Observation Name field:
 
 * Begin every observation name with <strong>ROS</strong>
 * After the word <strong>ROS</strong> then type the rest of the observation name needing to be stored to capture the data
-    * Examples:
-        * ROS ENT
-        * ROS Endocrine
+   * Examples:
+      * ROS ENT
+      * ROS Endocrine
 
 Observation Type field:
 
@@ -117,9 +117,9 @@ Observation Name field:
 
 * Begin every observation name with <strong>PE</strong>
 * After the word <strong>PE</strong> then type the rest of the observation name needing to be stored to capture the data
-    * Examples:
-        * PE Level of consciousness
-        * PE General Appearance and Level of Distress
+   * Examples:
+      * PE Level of consciousness
+      * PE General Appearance and Level of Distress
 
 Observation Type field:
 
@@ -137,9 +137,9 @@ Observation Name field:
 
 * Begin every observation name with <strong>QUALITY</strong>
 * After the word <strong>QUALITY</strong> then type the rest of the observation name needing to be stored to capture the data
-    * Examples:
-        * QUALITY Assess client's potential for understanding the health information provided
-        * QUALITY Provide client education consistent with the assessment of the condition
+   * Examples:
+      * QUALITY Assess client's potential for understanding the health information provided
+      * QUALITY Provide client education consistent with the assessment of the condition
 
 Observation Type field:
 

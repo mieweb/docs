@@ -6,7 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=14wwTc74KWcRO1SQtDG0L14yjfNTGM5pNgfFZy8_6Jko'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Fill Reports'
@@ -21,8 +21,8 @@ The Fill Report is like a transaction report but a report specific to medication
 
 When the Fill Report tab is clicked, it shows the search fields at the top, and by default it lists *all* the Fill transactions below. So the landing page of Fill Reports list and shows any and all fills. To narrow down your report results in that section, you can enter in any search criteria field at the top of this report.
 * <strong>Report Type</strong>: Fill Using Entered Date will report by the <em>filled date</em> that is entered in the patient's dispense/fill. Fill Using <strong>Actual Date</strong> will report by the <em>actual date time stamp</em> the fill request was performed.
-    * <strong>Verify</strong>: will report by the date the fill was verified if you utilize the verify functionality.
-    * <strong>Dispense</strong>: will report by the date the fill was dispensed.
+   * <strong>Verify</strong>: will report by the date the fill was verified if you utilize the verify functionality.
+   * <strong>Dispense</strong>: will report by the date the fill was dispensed.
 * <strong>Report Method</strong>: If select View Details report method, then the username/patient name fields appear to key in (if wish) to filter the fill report by specific user and/or patient details. This method (view details) will show your report results by patient / user specific in a list view.
 
 ![](../fill-reports.assets/10000201000003A9000000A75B2E97866057F1B0.png)

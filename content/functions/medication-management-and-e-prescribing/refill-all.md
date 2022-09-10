@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Refill All'
@@ -32,7 +32,7 @@ Here is a listing of all the patient's prescriptions. It will automatically have
 
 * <strong>System setting 0</strong> means that your system will not task the provider but the office staff will be able to print/fax a refill without waiting on the provider. (This is what every system is defaulted to unless changed.)
 * <strong>System setting 1</strong> means all refill requests for your system will task the provider for approval first. The refill request requires the prescribing physician to approve any refills (via automatic task) before they can be printed or faxed.
-    * After the prescribing physician approves (via task) then the refills can be printed/faxed after approving. Your implementer can turn on these system settings to allow that security feature for just the prescribing physician of the original prescription to approve any refills in this module.
+   * After the prescribing physician approves (via task) then the refills can be printed/faxed after approving. Your implementer can turn on these system settings to allow that security feature for just the prescribing physician of the original prescription to approve any refills in this module.
 * <strong>System setting 2</strong> means your system will display the option to either task the provider for approval or office staff can print/fax the refill.
 More system settings that your MIE Implementer will need to set depending on your refill setting:
 
@@ -56,8 +56,8 @@ The fields at the top are there to help you set duration, refills & prescriber i
 
 * <strong>Refill Date:</strong> Type/select the date you are refilling the meds.
 * <strong>Check All</strong> box: You can select <em>Check All</em> to select <strong>all</strong> the drugs in the listing to be refilled. Or you can individually check-mark the box next to the <em>Drug Name</em> to select the specific drug(s) to be refilled.
-    * The <em>Check-All </em>option then changes to <em>Uncheck All</em>. You can click Uncheck All if you want to start over and clear the check-mark boxes in drug name selection.
-    * Whatever medications you want to have refilled <strong>must </strong>have a check-mark on them. The ones without check-marks will not be refilled.
+   * The <em>Check-All </em>option then changes to <em>Uncheck All</em>. You can click Uncheck All if you want to start over and clear the check-mark boxes in drug name selection.
+   * Whatever medications you want to have refilled <strong>must </strong>have a check-mark on them. The ones without check-marks will not be refilled.
 
 ![](../refill-all.assets/10000000000003460000010F4E2C607465732626.png)
 

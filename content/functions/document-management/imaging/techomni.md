@@ -9,7 +9,7 @@ links:
   - 'radomni.md'
   - '../../system-administration/data-migration/import-export-json-files.md'
 source: 'https://drive.google.com/open?id=1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'TechOmni'
@@ -28,36 +28,36 @@ TechOmni functions off of a simple process where images that are sent over as DI
 TechOmni is a powerful tool that can be used in conjunction with the [RadOmni](radomni.md) worklist as well as outside entities via HL7 interface to create complex workflows that enable features such as two-way communication between rads and techs, auto-launching of DICOM viewing applications and dictation/VR software, presentation of applicable prior studies and reports, order and results routing, order creation using CPT picklist and customized results delivery. Please contact our support team for more information regarding these advanced functions.
 * Users with the appropriate permissions can create JSON files from {{% sys-name %}} , using the System Configuration tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% sys-name %}} system (e.g., DEV, QA, etc.) and easily import into another (e.g., PROD), avoiding duplicative work and ensuring consistency. For more information, see our help documentation on how to [Import or Export JSON Files](../../system-administration/data-migration/import-export-json-files.md).
 * By default, the TechOmni layout displays All Encounters. Open Encounter Criteria can be added to the TechOmni All Encounters ListView, if necessary. The following criteria may be added to the layout:
-    * <strong>Stages</strong>
-        * If incoming encounters utilize staging, adding this option allows users to filter out completed or problematic records more easily.
-        * Ex: WHERE="e.stage NOT IN ('Problem','Order Complete')"
-    * <strong>Visit Types</strong>
-        * If multiple types of encounter orders are being used, adding this option allows users to easily restrict the report to specific visit types, as needed.
-        * Ex: WHERE="e.stage NOT IN ('Problem','Order Complete') AND e.visit_type='OUTPATIENT'"
-    * <strong>Order Types</strong>
-        * Adding this option allows users to easily display any encounters with encounter orders of any particular order type(s).
-            * Imaging = IF
-            * Labs = L
-            * Referrals = RF
-              <img src="../techomni.assets/100002010000010B000000DFB11E9F386043B2EB.png" />
+   * <strong>Stages</strong>
+      * If incoming encounters utilize staging, adding this option allows users to filter out completed or problematic records more easily.
+      * Ex: WHERE="e.stage NOT IN ('Problem','Order Complete')"
+   * <strong>Visit Types</strong>
+      * If multiple types of encounter orders are being used, adding this option allows users to easily restrict the report to specific visit types, as needed.
+      * Ex: WHERE="e.stage NOT IN ('Problem','Order Complete') AND e.visit_type='OUTPATIENT'"
+   * <strong>Order Types</strong>
+      * Adding this option allows users to easily display any encounters with encounter orders of any particular order type(s).
+         * Imaging = IF
+         * Labs = L
+         * Referrals = RF
+           <img src="../techomni.assets/100002010000010B000000DFB11E9F386043B2EB.png" />
 
 {{% tip %}}
 
 See additional Order Types available under the Orders-List Editor tab of the Control Panel.
 {{% /tip %}}
 
-    * Ex: JOIN="inner join encounter_orders o ON o.enc_id=e.encounter_id and o.type='IF'
+   * Ex: JOIN="inner join encounter_orders o ON o.enc_id=e.encounter_id and o.type='IF'
 * <strong>Order Status</strong>
-    * Every order is assigned an order status. Though TechOmni will likely be used for Pending orders, exclusively, the following is a list of all available order statuses and their respective identifiers:
-    * REPEAT = -5
-    * AUTO_DECLINED = -4
-    * WAIVED = -3
-    * DELETED   = -2
-    * DECLINED  = -1
-    * PENDING   = 0
-    * ORDERED   = 1
-    * COMPLETED = 2
-    * INPROGRESS = 3
+   * Every order is assigned an order status. Though TechOmni will likely be used for Pending orders, exclusively, the following is a list of all available order statuses and their respective identifiers:
+   * REPEAT = -5
+   * AUTO_DECLINED = -4
+   * WAIVED = -3
+   * DELETED   = -2
+   * DECLINED  = -1
+   * PENDING   = 0
+   * ORDERED   = 1
+   * COMPLETED = 2
+   * INPROGRESS = 3
 * <strong>Encounter Location</strong>
-    * If multiple locations are used, adding this option allows users to easily restrict the report by the specific location(s), as needed.
-    * Ex: WHERE="e.stage!='Problem' AND e.location!='CAM'"
+   * If multiple locations are used, adding this option allows users to easily restrict the report by the specific location(s), as needed.
+   * Ex: WHERE="e.stage!='Problem' AND e.location!='CAM'"

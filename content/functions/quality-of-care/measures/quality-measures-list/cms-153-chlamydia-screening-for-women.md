@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms153v10'
 source: 'https://drive.google.com/open?id=1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 153 - Chlamydia Screening for Women'
@@ -131,18 +131,18 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 {{% /tip %}}
 1. While documenting the Visit encounter, document the results of a chlamydia screening one of two ways:
 2. <strong>Option 1: Tests and Procedures Section</strong>
-    1. Open the Tests and Procedures section.
-    2. Using the autocomplete, begin typing Chlamydia, and select the appropriate screening.
-    3. Click the Add to Exam button.
-    4. After adding the new section, open the screening section and enter the results.
-    5. Click the Next button, or close the section.
+   1. Open the Tests and Procedures section.
+   2. Using the autocomplete, begin typing Chlamydia, and select the appropriate screening.
+   3. Click the Add to Exam button.
+   4. After adding the new section, open the screening section and enter the results.
+   5. Click the Next button, or close the section.
 1. <strong>Option 2: Add Observation using Observations Chart Tab</strong>
-    1. Navigate to the patient chart.
-    2. Open the Observations tab of the Medical Records chart tab.
-    3. Click the Add Observation link in the upper-right corner.
-    4. Begin typing the name of the observation and select the appropriate one.
-    5. Enter the Date the screening was performed, its Result, and any relevant Comments.
-    6. Click the Submit button.
+   1. Navigate to the patient chart.
+   2. Open the Observations tab of the Medical Records chart tab.
+   3. Click the Add Observation link in the upper-right corner.
+   4. Begin typing the name of the observation and select the appropriate one.
+   5. Enter the Date the screening was performed, its Result, and any relevant Comments.
+   6. Click the Submit button.
 1. Continue documenting the encounter, as needed.
 2. When completed, Close and Archive the encounter
 

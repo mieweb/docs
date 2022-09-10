@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care'
   - 'https://system/?f=layout&s=pat&module=MIPS&name=Quality+of+Care+Status&t=Quality+of+Care&tabmodule=reports'
 source: 'https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Provider Quality of Care Status'
@@ -25,8 +25,8 @@ To begin reviewing your compliance data, perform the following:
 4. Select the [Provider Quality of Care Status](https://system/?f=layout&s=pat&module=MIPS&name=Quality+of+Care+Status&t=Quality+of+Care&tabmodule=reports) report.
 5. Select the <strong>Reporting Year</strong> from the drop-down.
 6. If the report is being run for a specific participant, or set of providers, use the <strong>Select Provider</strong> autocomplete to specify, as needed.
-   {{% tip %}}
+{{% tip %}}
    If running the report for <strong>ALL</strong> participants/providers, simply leave the <strong>Select Provider</strong> field blank.
-   {{% /tip %}}
+{{% /tip %}}
 7. With the fields set, click <strong>Run Report</strong>. All of the results will generate in the grid below the filter criteria. Use the grid to filter and sort the data, as needed.
 8. Users may also <strong>Print Enrollment</strong> or <strong>Delete Enrollment</strong>, as well.

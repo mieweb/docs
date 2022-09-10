@@ -37,34 +37,34 @@ links:
   - 'https://drive.google.com/open?id=17qKKNYDac683WteVba-75e1NIr2W9u2xcW52LhGMa2E'
   - 'https://docs.enterprisehealth.com/docs/eh/eh/working-in-a-dynamic-encounter-7344802.html'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 ---
 ## Agenda
 
 * <strong>Pre-requisites</strong>
 * <strong>Overview</strong>
 * <strong>Pre-placement workflow demonstration</strong>
-    * <strong>Applicant portal</strong>
-        * <strong>Registration</strong>
-        * <strong>Consents</strong>
-        * <strong>Questionnaires</strong>
-        * <strong>Document upload</strong>
-    * <strong>Tasking notification</strong>
-    * <strong>Pre-placement surveillance panel</strong>
-    * <strong>Pre-placement visit encounter</strong>
-    * <strong>Pre-placement worklist</strong>
+   * <strong>Applicant portal</strong>
+      * <strong>Registration</strong>
+      * <strong>Consents</strong>
+      * <strong>Questionnaires</strong>
+      * <strong>Document upload</strong>
+   * <strong>Tasking notification</strong>
+   * <strong>Pre-placement surveillance panel</strong>
+   * <strong>Pre-placement visit encounter</strong>
+   * <strong>Pre-placement worklist</strong>
 * <strong>Applicable reports</strong>
 * <strong>System Configuration</strong>
-    * <strong>Applicant partition</strong>
-    * <strong>Applicant portal setup</strong>
-    * <strong>Task rule and department setup</strong>
-    * <strong>Consent and questionnaire flowsheets</strong>
-    * <strong>Schedule job - auto-merging</strong>
+   * <strong>Applicant partition</strong>
+   * <strong>Applicant portal setup</strong>
+   * <strong>Task rule and department setup</strong>
+   * <strong>Consent and questionnaire flowsheets</strong>
+   * <strong>Schedule job - auto-merging</strong>
 * <strong>Key decision points </strong>
 * <strong>Action items/timelines</strong>
 * <strong>Resources</strong>
-    * <strong>Documentation</strong>
-    * <strong>LMS courses/videos</strong>
+   * <strong>Documentation</strong>
+   * <strong>LMS courses/videos</strong>
 
 ## Pre-requisites
 
@@ -184,64 +184,64 @@ Standard functionality for the pre-placement workflow includes:
 
 1. HR directs applicant to the applicant portal
 2. Applicant completes a mini registration and fills out consents, questionnaire(s) needed, and uploads documentation on the applicant portal and prints completed questionnaires
-    1. Pre-Placement (APP) partition chart is created in EH after they visit the applicant portal
-    2. Applicant charts are manually created if they did not visit applicant portal
-    3. Tasking notifications may be automatically triggered when pre-placement questionnaires are submitted on the portal or when documentation is uploaded
+   1. Pre-Placement (APP) partition chart is created in EH after they visit the applicant portal
+   2. Applicant charts are manually created if they did not visit applicant portal
+   3. Tasking notifications may be automatically triggered when pre-placement questionnaires are submitted on the portal or when documentation is uploaded
 3. Schedule Pre Placement Exam
-    1. Update demographics 
-        1. or manually register a chart if applicant hasn't visited the portal prior to calling to schedule appt
-    2. Merge all charts if applicable (if the applicant went and did multiple charts from portal) via the ‘Manual Merge' portlet found in Summary chart tab
-        1. Currently only a handful of users have merge rights.  Use the fast task ‘Merge Chart Request' to send a task to Admin dept to merge duplicate charts if needed
-    3. While in demographics, checkmark ‘Is Applicant' which marks chart as ‘temporary chart'
-    4. Due List portlet: Add applicant to "PrePlacement Entry" surveillance program (hint: search in the order field for <strong>entry</strong>) and ‘evaluate' to trigger for what needs done during the exam
-        1. Add any add-on testing programs needing done (ex: DOT, Crane, Hazmat, Hawoper, Vision, etc), but <em>DO NOT Put an Applicant/Preplacement in any entry with membership programs - make sure is just ‘entry' only.</em>
-        2. After evaluating the PrePlacement Entry program (and any add-on programs needed) on their due list, a waitlist appointment is created.
-    5. Create/schedule appointment for preplacement exam by going to Appointments portlet in Summary dashboard and clicking Appointment Needs Scheduled hyperlink next to the Preplacement waitlist appt displayed there.
-        1. Send an Apt Confirmation when scheduling appt in the Add Appt Screen
+   1. Update demographics 
+      1. or manually register a chart if applicant hasn't visited the portal prior to calling to schedule appt
+   2. Merge all charts if applicable (if the applicant went and did multiple charts from portal) via the ‘Manual Merge' portlet found in Summary chart tab
+      1. Currently only a handful of users have merge rights.  Use the fast task ‘Merge Chart Request' to send a task to Admin dept to merge duplicate charts if needed
+   3. While in demographics, checkmark ‘Is Applicant' which marks chart as ‘temporary chart'
+   4. Due List portlet: Add applicant to "PrePlacement Entry" surveillance program (hint: search in the order field for <strong>entry</strong>) and ‘evaluate' to trigger for what needs done during the exam
+      1. Add any add-on testing programs needing done (ex: DOT, Crane, Hazmat, Hawoper, Vision, etc), but <em>DO NOT Put an Applicant/Preplacement in any entry with membership programs - make sure is just ‘entry' only.</em>
+      2. After evaluating the PrePlacement Entry program (and any add-on programs needed) on their due list, a waitlist appointment is created.
+   5. Create/schedule appointment for preplacement exam by going to Appointments portlet in Summary dashboard and clicking Appointment Needs Scheduled hyperlink next to the Preplacement waitlist appt displayed there.
+      1. Send an Apt Confirmation when scheduling appt in the Add Appt Screen
 4. Applicant arrives at Clinic for scheduled appointment
-    1. Applicant visits the Front Desk, returns completed paperwork
-    2. Front Desk Staff Check-in Applicant for scheduled appointment
+   1. Applicant visits the Front Desk, returns completed paperwork
+   2. Front Desk Staff Check-in Applicant for scheduled appointment
 5. Clinician performs Intake
-    1. Pre-Placement Exam encounter
-    2. Create Medical Surveillance case (if visit is going to be split into a Part 1 and a Part 2)
-    3. View submitted questionnaires
-    4. Manage Due List (Tests & Procedures section) of preplacement testing
-        1. Create order to lab vendor (ie. LabCorp, Quest, etc.)
-        2. Perform due list items during today's visit
-            1. Audiogram - make sure to mark this test as<strong> baseline</strong> audiogram
+   1. Pre-Placement Exam encounter
+   2. Create Medical Surveillance case (if visit is going to be split into a Part 1 and a Part 2)
+   3. View submitted questionnaires
+   4. Manage Due List (Tests & Procedures section) of preplacement testing
+      1. Create order to lab vendor (ie. LabCorp, Quest, etc.)
+      2. Perform due list items during today's visit
+         1. Audiogram - make sure to mark this test as<strong> baseline</strong> audiogram
 6. Provider Evaluates Applicant
-    1. Physical Exam
-    2. Recommendations (clearance / written opinion)
-        1. Complete the Written Opinion-Preplacement
-        2. Complete any other add-on entry only (not with membership) program written opinions
-    3. Archive and Close Encounter
+   1. Physical Exam
+   2. Recommendations (clearance / written opinion)
+      1. Complete the Written Opinion-Preplacement
+      2. Complete any other add-on entry only (not with membership) program written opinions
+   3. Archive and Close Encounter
 7. Provider Check-out Applicant
 8. Provider E-Signs Completed Encounter Document (document is e-signed automatically if encounter is archive and closed by the performing provider)
-    1. Upon completing a Written Opinion - Preplacement and after closing & archiving the encounter, the system may be configured to email HR/Talent or the supervisor
+   1. Upon completing a Written Opinion - Preplacement and after closing & archiving the encounter, the system may be configured to email HR/Talent or the supervisor
 9. Staff may index in documents and link them to the encounter
 10. Pre-placement worklist on the Quick View shows open Pre-placement encounters
 11. Preplacement applicant goes to get Physical Agility Testing (when applicable)
 12. Clinician receives Physical Agility Testing results
-    1. Creates Results Encounter
-    2. Works encounter top to bottom including indicating overall Written Opinion determination
-    3. Archive and Close Encounter
-        1. Upon completing and closing & archiving the encounter, the system will auto email the HR/Talent or supervisor to give them notification of the Written Opinion determination
-    4. Staff may index in documents and link them to the encounter as needed
+   1. Creates Results Encounter
+   2. Works encounter top to bottom including indicating overall Written Opinion determination
+   3. Archive and Close Encounter
+      1. Upon completing and closing & archiving the encounter, the system will auto email the HR/Talent or supervisor to give them notification of the Written Opinion determination
+   4. Staff may index in documents and link them to the encounter as needed
 13. Once hired, an EH scheduled job will look for hired employee's chart (from HR interface) and merge this temporary APP (applicant) chart with the permanent employee chart
 
-    ## Applicable Reports
+   ## Applicable Reports
 
 
-    ## System Configuration
+   ## System Configuration
 
-    To more fully address preferred configurations and review available options and features, utilize the [Provider Management sidemenu](https://system/?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+) to access and edit the employee and supervisor portals. These configurations will be visible from the respective portal when accessed. To begin the initial setup and finalize configuring of the portal(s), there is additional information that is important to understand before getting started. Review the following, and work with the Deployment Consultant to ensure the portal(s) configurations are suited to the business needs.
+   To more fully address preferred configurations and review available options and features, utilize the [Provider Management sidemenu](https://system/?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+) to access and edit the employee and supervisor portals. These configurations will be visible from the respective portal when accessed. To begin the initial setup and finalize configuring of the portal(s), there is additional information that is important to understand before getting started. Review the following, and work with the Deployment Consultant to ensure the portal(s) configurations are suited to the business needs.
 
 
-    * <strong>Applicant partition</strong>
-    * <strong>Applicant portal setup</strong>
-    * <strong>Task rule and department setup</strong>
-    * <strong>Consent and questionnaire flowsheets</strong>
-    * <strong>Schedule job - auto-merging</strong>
+   * <strong>Applicant partition</strong>
+   * <strong>Applicant portal setup</strong>
+   * <strong>Task rule and department setup</strong>
+   * <strong>Consent and questionnaire flowsheets</strong>
+   * <strong>Schedule job - auto-merging</strong>
 
 
 ### Portal Setup
@@ -306,16 +306,16 @@ Applicant will visit the business applicant portal to key in their name, DOB and
 There may be an instance where an applicant does not visit the applicant portal prior to calling to make their appointment.  You can direct them to follow the directions to visit the applicant portal first and then call back to schedule the appointment.  If they refuse, you can manually create the chart in Enterprise Health. First search charts in EH to make sure a chart doesn't already exist for the individual.  If a chart doesn't exist, the staff can manually create the preplacement/applicant chart
 * To create a new chart go to e-chart sidemenu tab then click Patient Registration
 * Insert their name, DOB and search for the word <em>pre</em> in the organization field and select (from the auto-complete) <strong>Applicant/PrePlacement</strong> organization to relate the chart to. 
-    * This is what puts the chart in the specific partition of preplacement.
+   * This is what puts the chart in the specific partition of preplacement.
 
 ![](../review-session-pre-placement.assets/100002010000057300000169C03F3D7ADDDFFD85.png)
 
 * Click the ADD NEW button
 * The chart is created into the PRE partition and you will be taken to the edit demographics screen to continue keying in demographic information for this preplacement applicant.  You will see the PRE chart medical record # assigned in the top right corner.
-    * Only information on the left side of the demographics screen needs filled out.  The right side is for employee specific chart information when they are hired.  
-    * Make sure to checkmark <em>Is Applicant </em>on the left side
-        * Checkmarking <em>Is Applicant </em>flags the chart as temporary, which is needed for auto-chart merging rules that happen in the background for when/if the applicant is hired
-    * Click the SAVE button
+   * Only information on the left side of the demographics screen needs filled out.  The right side is for employee specific chart information when they are hired.  
+   * Make sure to checkmark <em>Is Applicant </em>on the left side
+      * Checkmarking <em>Is Applicant </em>flags the chart as temporary, which is needed for auto-chart merging rules that happen in the background for when/if the applicant is hired
+   * Click the SAVE button
 
 ![](../review-session-pre-placement.assets/10000201000003C3000003350A63331CB27617DC.png)
 
@@ -329,11 +329,11 @@ Applicant contacts clinic to schedule pre placement exam appointment.
 1. Navigate into the specific applicants chart via E-Chart search
 2. Verify in correct chart
 3. Merge any duplicate charts if the applicant went on the applicant portal multiple times
-    1. Currently only a handful of users have merge rights.  Use the fast task ‘Merge Chart Request' to send a task to Admin dept to merge duplicate charts if needed
+   1. Currently only a handful of users have merge rights.  Use the fast task ‘Merge Chart Request' to send a task to Admin dept to merge duplicate charts if needed
 4. Update any demographics information if needed
-    1. On the Summary dashboard tab of the applicant's chart, click the pencil icon (manage info) on Demographics portlet to get to edit demographics screen
-    2. Edit demographics to collect information (phone/address etc) and checkmark the <em>Is Applicant </em>box toward bottom left of the screen.
-        1. Checkmarking <em>Is Applicant </em>flags the chart as a temporary record, which is needed for auto-chart merging rules that happen in the background for when/if the applicant is hired
+   1. On the Summary dashboard tab of the applicant's chart, click the pencil icon (manage info) on Demographics portlet to get to edit demographics screen
+   2. Edit demographics to collect information (phone/address etc) and checkmark the <em>Is Applicant </em>box toward bottom left of the screen.
+      1. Checkmarking <em>Is Applicant </em>flags the chart as a temporary record, which is needed for auto-chart merging rules that happen in the background for when/if the applicant is hired
 
 #### Add Applicant to Initial PrePlacement Entry Program and any other Add On Programs
 
@@ -342,7 +342,7 @@ Applicant contacts clinic to schedule pre placement exam appointment.
 ![](../review-session-pre-placement.assets/1000020100000699000002801CA72D2EA5FE77FE.png)
 
 2. On the Due List portlet is a pencil icon (manage info), click that to get directly to the Due List chart tab
-    1. You can also go to Health Surveillance tab at the top, then to child tab Due List
+   1. You can also go to Health Surveillance tab at the top, then to child tab Due List
 3. Click <em>Add New Orders</em> button at the end of the Pending Items section of the list (top section)
 
 ![](../review-session-pre-placement.assets/10000201000006B200000296F5E26C35256278C4.png)
@@ -355,7 +355,7 @@ Applicant contacts clinic to schedule pre placement exam appointment.
 
 7. In the <strong>Order</strong> auto-complete field, if you need to also add on any other program testing for preplacement needs (ex: Crane, DOT, Hazmat, Hazwoper, FireB, Hearing Prot, Resp Prot, or Vision) begin typing in keyword <strong><em>Entry</em></strong> and auto-complete choices will display
 8. <strong>MAKE SURE TO SELECT THE NEEDED ADD-ON PROGRAM THAT </strong><strong>DOES NOT</strong><strong> SAY </strong><strong><em>WITH MEMBERSHIP</em></strong>
-    2. The <em>with membership </em>entry programs are for hired employees who get authorized to be put into the program.  Preplacement needs, make sure only to select the add-ons that do not say <em>with membership</em>
+   2. The <em>with membership </em>entry programs are for hired employees who get authorized to be put into the program.  Preplacement needs, make sure only to select the add-ons that do not say <em>with membership</em>
 
 ![](../review-session-pre-placement.assets/100002010000068E00000275AC81149EDB3457A6.png)
 
@@ -366,7 +366,7 @@ Applicant contacts clinic to schedule pre placement exam appointment.
 ![](../review-session-pre-placement.assets/10000201000005570000015FEC12DFAFCF2494DC.png)
 
 11. When a panel order is evaluated, the specific tests & procedures (action items) trigger on the chart's due list as to what needs done for the preplacement exam.
-    3. Click the red X on the pop-up after verifying successfully evaluated message
+   3. Click the red X on the pop-up after verifying successfully evaluated message
 
 ![](../review-session-pre-placement.assets/1000020100000683000002F64D21ED7CA4555982.png)
 
@@ -394,7 +394,7 @@ Applicant contacts clinic to schedule pre placement exam appointment.
 #### Staff Check-In Applicant
 
 1. Ask applicant for Pre-Employment Packet; confirm completed
-    1. Scan in PrePlacement documents per scanning protocol
+   1. Scan in PrePlacement documents per scanning protocol
 
 #### Check-in
 
@@ -405,7 +405,7 @@ Applicant presents to front desk for pre placement appointment. Staff member wil
 ![](../review-session-pre-placement.assets/10000201000006960000020C529B8CAA964E17FD.png)
 
 3. If the applicant is here for a scheduled appointment with today's date, the checkin screen will display that appointment date/time as a hyperlink.
-    1. Click the appointment date/time hyperlink since they are checking in for that scheduled appointment
+   1. Click the appointment date/time hyperlink since they are checking in for that scheduled appointment
 
 ![](../review-session-pre-placement.assets/10000201000006BB000001269888A4C268B1F93D.png)
 
@@ -415,51 +415,51 @@ Applicant presents to front desk for pre placement appointment. Staff member wil
 
 5. The applicant is checked in
 6. Applicant will now show on Check-in sidemenu tab module or in the Checkin portlet of Quick View
-    1. When the applicant checked in for a scheduled appointment, a Pre-Placement encounter is automatically initiated by the system and begins to track the time spent in the clinic for this visit. 
-        1. If the applicant was a walkin, staff will need to get into the applicant's chart and click the specific Pre-Placement encounter type to initiate via the Quick Links portlet.
-    2. The clinician and provider can see on the scheduler or the Check-in tab or Checkin portlet that the applicant is checked in.
+   1. When the applicant checked in for a scheduled appointment, a Pre-Placement encounter is automatically initiated by the system and begins to track the time spent in the clinic for this visit. 
+      1. If the applicant was a walkin, staff will need to get into the applicant's chart and click the specific Pre-Placement encounter type to initiate via the Quick Links portlet.
+   2. The clinician and provider can see on the scheduler or the Check-in tab or Checkin portlet that the applicant is checked in.
 
 ####  Clinician performs Intake - Pre Placement Exam
 
 1. Get into Preplacement Exam encounter on the applicant's chart, via the Open Encounters portlet on the Summary dashboard. 
-    1. Depending on the amount of columns on your Summary tab dashboard, you may need to scroll to the right to access thePrePlacement Exam link.
+   1. Depending on the amount of columns on your Summary tab dashboard, you may need to scroll to the right to access thePrePlacement Exam link.
 
 ![](../review-session-pre-placement.assets/10000201000006A8000002D6D191F293025F7093.png)
 
 
 1. Complete appropriate sections of the encounter
 Subjective
-    * <strong>Encounter Information - </strong>Displays the basic employee information that is associated with the current encounter being worked in.
-        * Make sure the <em>Provider</em> is the name and location of the correct final provider whose signature will be on the document as performing provider.
-    * <strong>Chief Complaint - </strong>Add/update Chief Complaint (this will pre-populate from the scheduler if checked in for a scheduled appointment).
-    * <strong>Case - </strong>Create Medical Surveillance case (if preplacement visit is going to be split into a Part 1 and Part 2).  If this is the Part 2 appointment, <strong>link</strong> the exam encounter to the Medical Surveillance case that exists for the applicant.
-    * <strong>Past medical history; Past Procedures</strong> - Confirm/update any past medical history for the applicant as appropriate.
-    * <strong>Presenting medication - </strong>Entry of the applicant's list of medications that they are currently taking at time of visit. Confirm/update presenting medications.
-    * <strong>Allergies / Intolerances - </strong>Confirm/update presenting allergies/Intolerances and family history as appropriate.
-    * <strong>Injections / Immunizations </strong>– Past/historical injections or immunization history collected.
-    * <strong>Social history - </strong>As appropriate.
-    * <strong>Linked Documents - </strong>Displays a list of documents linked to this encounter.
+   * <strong>Encounter Information - </strong>Displays the basic employee information that is associated with the current encounter being worked in.
+      * Make sure the <em>Provider</em> is the name and location of the correct final provider whose signature will be on the document as performing provider.
+   * <strong>Chief Complaint - </strong>Add/update Chief Complaint (this will pre-populate from the scheduler if checked in for a scheduled appointment).
+   * <strong>Case - </strong>Create Medical Surveillance case (if preplacement visit is going to be split into a Part 1 and Part 2).  If this is the Part 2 appointment, <strong>link</strong> the exam encounter to the Medical Surveillance case that exists for the applicant.
+   * <strong>Past medical history; Past Procedures</strong> - Confirm/update any past medical history for the applicant as appropriate.
+   * <strong>Presenting medication - </strong>Entry of the applicant's list of medications that they are currently taking at time of visit. Confirm/update presenting medications.
+   * <strong>Allergies / Intolerances - </strong>Confirm/update presenting allergies/Intolerances and family history as appropriate.
+   * <strong>Injections / Immunizations </strong>– Past/historical injections or immunization history collected.
+   * <strong>Social history - </strong>As appropriate.
+   * <strong>Linked Documents - </strong>Displays a list of documents linked to this encounter.
 2. Objective 
-    * <strong>Tests & procedures</strong> - User to select predefined order items with the purpose of performing them in-house. This section also contains the Due List which will help to define what services an employee may be due for at today's visit. 
-    * Review the list of items on the applicant's Due List. Check off any that you would like to perform at today's visit. You can also use this section to delete / decline any of the orders as well. 
-        * Complete - check mark and "Set Completed" any items already completed, and enter a "completed date" ex: questionnaires the applicant submitted via the applicant portal
+   * <strong>Tests & procedures</strong> - User to select predefined order items with the purpose of performing them in-house. This section also contains the Due List which will help to define what services an employee may be due for at today's visit. 
+   * Review the list of items on the applicant's Due List. Check off any that you would like to perform at today's visit. You can also use this section to delete / decline any of the orders as well. 
+      * Complete - check mark and "Set Completed" any items already completed, and enter a "completed date" ex: questionnaires the applicant submitted via the applicant portal
 
 ![](../review-session-pre-placement.assets/10000201000004510000027D0E7F32DB548CAB72.png)
 
 
 3. <strong>Performing In-House test/procedures: </strong>Checkmark the pending due list items you will be performing yourself during today's visit, then click <em>Add to Exam</em> button.
 
-    ![](../review-session-pre-placement.assets/100002010000068F0000037BA6926F28FB0A33D4.png)
+   ![](../review-session-pre-placement.assets/100002010000068F0000037BA6926F28FB0A33D4.png)
 
-    * The specific test / procedure(s) you checkmarked to <em>Add to Exam</em> will now be applied as individual sections to the encounter.
-    * Expand each test / procedure section to perform the test or procedure.
-        * Make sure to checkmark each individual test or procedure applied section ‘complete' so the system knows that component of the health surveillance is done
-        * <strong>Audiogram - </strong>Make sure to mark the audiogram performed for preplacement visit as the <strong>baseline</strong> on the audiogram test here in the encounter.
+   * The specific test / procedure(s) you checkmarked to <em>Add to Exam</em> will now be applied as individual sections to the encounter.
+   * Expand each test / procedure section to perform the test or procedure.
+      * Make sure to checkmark each individual test or procedure applied section ‘complete' so the system knows that component of the health surveillance is done
+      * <strong>Audiogram - </strong>Make sure to mark the audiogram performed for preplacement visit as the <strong>baseline</strong> on the audiogram test here in the encounter.
 
 ![](../review-session-pre-placement.assets/10000201000004DC000001D37BFEF45E2BF027FA.png)
 
 5. <strong>Generating Referral/Requisition Orders:</strong> Checkmark the ‘like' items listed on the due list (ex: Lab Work) that needs to be performed with an outside vendor, then click <em>Make Order </em>button to generate that order requisition. <em>Note: make sure to Make Orders based on type, meaning you would not checkmark a Chest Xray item to be in the same order as lab work that is going to a lab vendor to have performed.</em>
-    * If you would like to create an order requisition for any of the Due list items simply check them off and click Create Order. This will open a new tab in your browser and allow you to generate an order requisition. 
+   * If you would like to create an order requisition for any of the Due list items simply check them off and click Create Order. This will open a new tab in your browser and allow you to generate an order requisition. 
 
 ![](../review-session-pre-placement.assets/100002010000069F000003583A5648FB71AE0DA1.png)
 
@@ -493,27 +493,27 @@ vii. Once you've been in the open encounter (and it has not been archived & clos
 
 6. Complete the appropriate sections of the encounter while reviewing the information that your Clinician has already provided during Intake, including: 
 1. Subjective
-    * <strong>Encounter Information - </strong>Displays the basic employee information that is associated with the current encounter being worked in.
-        * Make sure the <em>Provider</em> is the name and location of the correct final provider whose signature will be on the document as performing provider.
-    * <strong>Chief Complaint - </strong>Add/update Chief Complaint (this will pre-populate from the scheduler if checked in for a scheduled appointment).
-    * <strong>Past medical history; Past Procedures</strong> - Confirm/update any past medical history for the employee as appropriate.
-    * <strong>Presenting medication - </strong>Entry of the employee's list of medications that they are currently taking at time of visit. Confirm/update presenting medications.
-    * <strong>Allergies / Intolerances - </strong>Confirm/update presenting allergies/Intolerances and family history as appropriate.
-    * <strong>Injections / Immunizations </strong>– Past/historical injections or immunization history collected.
-    * <strong>Social history - </strong>As appropriate.
-    * <strong>Linked Documents - </strong>Displays a list of documents linked to this encounter.
+   * <strong>Encounter Information - </strong>Displays the basic employee information that is associated with the current encounter being worked in.
+      * Make sure the <em>Provider</em> is the name and location of the correct final provider whose signature will be on the document as performing provider.
+   * <strong>Chief Complaint - </strong>Add/update Chief Complaint (this will pre-populate from the scheduler if checked in for a scheduled appointment).
+   * <strong>Past medical history; Past Procedures</strong> - Confirm/update any past medical history for the employee as appropriate.
+   * <strong>Presenting medication - </strong>Entry of the employee's list of medications that they are currently taking at time of visit. Confirm/update presenting medications.
+   * <strong>Allergies / Intolerances - </strong>Confirm/update presenting allergies/Intolerances and family history as appropriate.
+   * <strong>Injections / Immunizations </strong>– Past/historical injections or immunization history collected.
+   * <strong>Social history - </strong>As appropriate.
+   * <strong>Linked Documents - </strong>Displays a list of documents linked to this encounter.
 2. Objective 
-    * <strong>Vitals</strong> - Review employee's vitals. 
-    * <strong>Tests & Procedures: </strong>Checkmark the items you will be performing yourself during today's visit, then click <em>Add to Exam</em> button. (ex: Medical Exam / Physical Exam due list item that is due for surveillance)
-        * Refer to same workflow guide steps above in Clinician Intake section
+   * <strong>Vitals</strong> - Review employee's vitals. 
+   * <strong>Tests & Procedures: </strong>Checkmark the items you will be performing yourself during today's visit, then click <em>Add to Exam</em> button. (ex: Medical Exam / Physical Exam due list item that is due for surveillance)
+      * Refer to same workflow guide steps above in Clinician Intake section
 * <strong>Restriction/Accommodations</strong>
-    * Enter any applicable restrictions and/or accommodations
+   * Enter any applicable restrictions and/or accommodations
 
 ![](../review-session-pre-placement.assets/10000201000004F8000001B2A09A669BCA5B0736.png)
 
 * <strong>Recommendations - </strong>Generates a work status report 
-    * This section contains a link to add the Written Opinion-PrePlacement to the encounter.  You will use this section to document a written opinion to signify if they are fit, etc. To add the PrePlacement recommendation (written opinion) to the encounter to document, click <strong>Add to Exam</strong> link under the specific written opinion listed.
-    * IF there were any add-on programs to do for the preplacement applicant, those program written opinions will also be displayed to apply. Click <strong>Add to Exam</strong> link under the specific written opinion listed.
+   * This section contains a link to add the Written Opinion-PrePlacement to the encounter.  You will use this section to document a written opinion to signify if they are fit, etc. To add the PrePlacement recommendation (written opinion) to the encounter to document, click <strong>Add to Exam</strong> link under the specific written opinion listed.
+   * IF there were any add-on programs to do for the preplacement applicant, those program written opinions will also be displayed to apply. Click <strong>Add to Exam</strong> link under the specific written opinion listed.
 
 ![](../review-session-pre-placement.assets/10000201000005FF000002725BD5CEC292D9C4CF.png)
 
@@ -522,7 +522,7 @@ vii. Once you've been in the open encounter (and it has not been archived & clos
 ![](../review-session-pre-placement.assets/10000201000004CC00000107405C021B523DBFCC.png)
 
 * Make sure to document the written opinion template and the overall opinion of fit/not fit or significant findings/no significant findings, etc.
-    * In the Comments field, be sure to type in any add-on programs they were also cleared for, etc even though doing a separate written opinion for those programs.  Because the Due Diligence Team will only receive the Written Opinion-Preplacement document automatically to process and be able to see those comments.
+   * In the Comments field, be sure to type in any add-on programs they were also cleared for, etc even though doing a separate written opinion for those programs.  Because the Due Diligence Team will only receive the Written Opinion-Preplacement document automatically to process and be able to see those comments.
 * The Next Due Date field remains <strong>blank</strong> since a PrePlacement (and any add-on program testing) is not a routine testing that needs done as they have not been officially hired and not put into membership surveillance programs at this time.
 
 ![](../review-session-pre-placement.assets/100002010000056A0000029BB3F0CE005BEE5CF7.png)
@@ -537,8 +537,8 @@ vii. Once you've been in the open encounter (and it has not been archived & clos
 Complete the visit by scheduling any follow-up appointments, and checking out the applicant
 1. Schedule follow-up appointment if indicated.
 2. Check-out.
-    1. Click on check-in station found in chart various areas or in top grey encounter bar
-    2. Move station to Check-out and Save.
+   1. Click on check-in station found in chart various areas or in top grey encounter bar
+   2. Move station to Check-out and Save.
 
 ![](../review-session-pre-placement.assets/10000201000007580000017256E7770A7F8706C7.png)
 
@@ -675,7 +675,7 @@ The screen tells you to click the hyperlink for the found pre-hire appointment d
 
 The system will display the Checkin screen to you.  You only need to do 2 things here because the system will do the rest for you:
 1. Make sure the <strong>Station</strong> at the very bottom says ‘Waiting Room'
-    1. If it does not, select that drop-down, but you should be defaulted to that station
+   1. If it does not, select that drop-down, but you should be defaulted to that station
 2. Click the SAVE button to save the chart to station ‘Waiting Room'
 **Note:** you will see the appointment information on this screen since you indicated to check them in linked to the found appointment, and you will also see the HR/Talent Team scheduling notes in the Notes/Comments field.
 
@@ -787,7 +787,7 @@ You will see the **Checkin** hyperlink available at the top left under the dark 
 
 In the system (after clicking the Checkin hyperlink in steps above) you will see the Checkin screen and no option to checkin for any scheduled appointments, because this is a newly registered Applicant chart which doesn't have any appointments scheduled to it.   You only need to do 2 things here:
 1. Make sure the <strong>Station</strong> at the very bottom says ‘Waiting Room'
-    1. If it does not, select that drop-down, but you should be defaulted to that station
+   1. If it does not, select that drop-down, but you should be defaulted to that station
       2) Click the SAVE button to save the chart to station ‘Waiting Room'
 
 ![](../review-session-pre-placement.assets/10000201000006BF000003226C5884C1E060F37F.png)
@@ -838,38 +838,38 @@ The words PrePlacement, Candidate or Applicant are used interchangeably
 
 1. <em>The HR Portal is currently on HOLD</em><em>: Cargill Protein HR Recruiter visits the CARGILL PROTEIN HR INTERNAL HEALTH SERVICES PORTAL to submit the applicant information (which creates a temporary applicant flagged chart in EH for health services) and indicates the appointment detail of applicant to Cargill Protein Health Services</em>
 2. <em>Cargill Protein Health Services clinicians work task from HR Rep</em>
-    1. <em>Grabs Task</em>
-    2. <em>Schedule the appointment for preplacement exam in applicants chart</em>
-    3. <em>Mark task done</em>
+   1. <em>Grabs Task</em>
+   2. <em>Schedule the appointment for preplacement exam in applicants chart</em>
+   3. <em>Mark task done</em>
 3. Manually creating a chart in EH until HR portal is being used and/or Applicant Portal
-    1. Patient Registration, organization = Cargill Protein Applicants xxxxx (meaning, select the appropriate applicant clinic location group name  ex: Cargill Protein Applicants Albert Lea, MN)
-    2. Once in edit demographics screen checkmark <em>Is Applicant</em> box.
+   1. Patient Registration, organization = Cargill Protein Applicants xxxxx (meaning, select the appropriate applicant clinic location group name  ex: Cargill Protein Applicants Albert Lea, MN)
+   2. Once in edit demographics screen checkmark <em>Is Applicant</em> box.
 4. Applicant arrives at Clinic for scheduled appointment
-    1. Applicant visits the clinic
-    2. Clinic staff assist applicant to go to the Cargill Protein Applicant Portal to fill out questionnaire(s) needed and submit
-    3. This creates another separate temporary flagged applicant chart
+   1. Applicant visits the clinic
+   2. Clinic staff assist applicant to go to the Cargill Protein Applicant Portal to fill out questionnaire(s) needed and submit
+   3. This creates another separate temporary flagged applicant chart
 5. Merge all charts (the one HR created from their portal and the one the Applicant created from this portal) via the ‘Manual Merge' portlet found in Summary chart tab
-    1. Currently only Administrative and SuperUsers have merge rights.  Use the fast task ‘Merge Chart Request' to send a task to Admin dept to merge duplicate charts if needed
-    2. Or you can ‘move' questionnaire documents from one chart to the other via the document properties ‘move' functionality
+   1. Currently only Administrative and SuperUsers have merge rights.  Use the fast task ‘Merge Chart Request' to send a task to Admin dept to merge duplicate charts if needed
+   2. Or you can ‘move' questionnaire documents from one chart to the other via the document properties ‘move' functionality
 6. Clinician performs Intake
-    1. Pre-Placement Exam encounter
-    2. View submitted questionnaires
-    3. Manage Due List (Tests & Procedures section) of preplacement testing
-        1. Add applicant to "Initial PrePlacement Entry" Program (hint: search in the order field for <strong>entry</strong>) and ‘evaluate' to trigger for what needs done during the exam
-        2. Add any add-on testing programs needing testing for (ex: Hazmat, Hearing, etc) 
-        3. After evaluating the Initial PrePlacement Entry program (and any add-on programs needed) the testing components display in the tests & procedures section of the encounter
-        4. Create Drug and Alcohol Tracking encounter ([see other guide for Drug Screen Workflows](https://drive.google.com/open?id=17qKKNYDac683WteVba-75e1NIr2W9u2xcW52LhGMa2E))
-        5. Perform due list items during today's visit
-            1. Make sure to mark the applied items to <em>completed</em> status
+   1. Pre-Placement Exam encounter
+   2. View submitted questionnaires
+   3. Manage Due List (Tests & Procedures section) of preplacement testing
+      1. Add applicant to "Initial PrePlacement Entry" Program (hint: search in the order field for <strong>entry</strong>) and ‘evaluate' to trigger for what needs done during the exam
+      2. Add any add-on testing programs needing testing for (ex: Hazmat, Hearing, etc) 
+      3. After evaluating the Initial PrePlacement Entry program (and any add-on programs needed) the testing components display in the tests & procedures section of the encounter
+      4. Create Drug and Alcohol Tracking encounter ([see other guide for Drug Screen Workflows](https://drive.google.com/open?id=17qKKNYDac683WteVba-75e1NIr2W9u2xcW52LhGMa2E))
+      5. Perform due list items during today's visit
+         1. Make sure to mark the applied items to <em>completed</em> status
 7. Provider Evaluates Applicant
-    1. Physical Exam
-        1. Push to appropriate ‘stage' if need to leave PrePlacement encounter open
-    2. Recommendations (clearance / written opinion)
-        1. Complete the Written Opinion-Preplacement if not needing to wait for any other results to come back
-    3. Archive and Close Encounter
-    4. Staff Index in documents/Link to encounter
+   1. Physical Exam
+      1. Push to appropriate ‘stage' if need to leave PrePlacement encounter open
+   2. Recommendations (clearance / written opinion)
+      1. Complete the Written Opinion-Preplacement if not needing to wait for any other results to come back
+   3. Archive and Close Encounter
+   4. Staff Index in documents/Link to encounter
 8. Written Opinion-PrePlacement is automatically routed to appropriate health services clinical departments.
-    1. Health Service Clinic clinicians grab task and manually email the Written Opinion-PrePlacement document (in the task) to the appropriate HR Rep for the applicant
+   1. Health Service Clinic clinicians grab task and manually email the Written Opinion-PrePlacement document (in the task) to the appropriate HR Rep for the applicant
 9. Once hired, EH scheduled job will look for hired employee's chart (from HR interface) and merge this temporary Applicant partitioned chart with permanent employee chart
 10. Report for applicant partitioned charts not marked as ‘is applicant' box in demographics
 

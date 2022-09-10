@@ -43,7 +43,7 @@ links:
   - '../../functions/system-configuration/locations-management.md'
   - '../../functions/system-configuration/system-files-management.md'
 source: 'https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - System Configuration'
@@ -55,25 +55,25 @@ menu:
 
 * <strong>System Configuration Demonstration</strong>
 * <strong>System Configurations</strong>
-    * <strong>Corporate Branding</strong>
-    * <strong>Add/Update Locations</strong>
-    * <strong>Add Users</strong>
-        * <strong>Set Relationships</strong>
-        * <strong>Provider Setup</strong>
-            * <strong>Provider Signature Image</strong>
-    * <strong>Chart Types</strong>
-    * <strong>Chart Tabs</strong>
-    * <strong>Document Types</strong>
-    * <strong>Load Employer Organizations (if needed)</strong>
-    * <strong>Provider Management (if needed)</strong>
-    * <strong>CPT Codes (if needed)</strong>
-        * <strong>Picklists</strong>
-        * <strong>Modifiers</strong>
-    * <strong>Fee Schedules (if needed)</strong>
-    * <strong>Insurance Plans (if needed)</strong>
-        * <strong>Precertifications</strong>
-    * <strong>Cron/Scheduled Jobs</strong>
-    * <strong>My Settings</strong>
+   * <strong>Corporate Branding</strong>
+   * <strong>Add/Update Locations</strong>
+   * <strong>Add Users</strong>
+      * <strong>Set Relationships</strong>
+      * <strong>Provider Setup</strong>
+         * <strong>Provider Signature Image</strong>
+   * <strong>Chart Types</strong>
+   * <strong>Chart Tabs</strong>
+   * <strong>Document Types</strong>
+   * <strong>Load Employer Organizations (if needed)</strong>
+   * <strong>Provider Management (if needed)</strong>
+   * <strong>CPT Codes (if needed)</strong>
+      * <strong>Picklists</strong>
+      * <strong>Modifiers</strong>
+   * <strong>Fee Schedules (if needed)</strong>
+   * <strong>Insurance Plans (if needed)</strong>
+      * <strong>Precertifications</strong>
+   * <strong>Cron/Scheduled Jobs</strong>
+   * <strong>My Settings</strong>
 * <strong>Resources</strong>
 
 ## Overview
@@ -247,42 +247,42 @@ Users have the ability to manage specific settings for themselves, for others, o
 
 Some of the most commonly changed user preferences are:
 * <strong>WebChart</strong>:
-    * <strong>User Interface</strong>:
-        * <strong>Default Location</strong> - This sets the user's default location.
-        * <strong>Use Popups</strong> - This setting determines, when clicking a link or tab, if a new window will open (Yes) or the user will be taken away from the current screen (No).
-        * <strong>Default Page</strong> - Select a sidemenu option as the landing page, upon login (e.g., Default to the Quick View or E-Chart page).
-    * <strong>User Searching Default</strong>:
-        * <strong>Search By</strong> - To set the default search option, select either Name, MR#, DOB, or SSN, depending on the user's preference for chart lookups. This is usually set to Name by default.
-    * <strong>International Settings</strong>:
-        * <strong>Language</strong> - To specify a language for translations, begin typing the language name in the field. Contact the Deployment Consultant for information on making the system available in another language.
-        * <strong>English Translations on Hover</strong> - For multilingual systems, selecting <em>Show</em> will display English translations when hovering over translated items.
-        * <strong>Date Format</strong> - The system default is MM-DD-YYYY. Changing the default will refresh any date (i.e., dates of birth, document dates, revision dates, etc.) with the selected format. The separator for dates is standardized to use the hyphen ( - ).
-        * <strong>Preferred Unit System</strong> - Regardless of the selection, users can still enter observations and vitals with either unit system. This preference sets dropdowns and selections to the specified unit system.
+   * <strong>User Interface</strong>:
+      * <strong>Default Location</strong> - This sets the user's default location.
+      * <strong>Use Popups</strong> - This setting determines, when clicking a link or tab, if a new window will open (Yes) or the user will be taken away from the current screen (No).
+      * <strong>Default Page</strong> - Select a sidemenu option as the landing page, upon login (e.g., Default to the Quick View or E-Chart page).
+   * <strong>User Searching Default</strong>:
+      * <strong>Search By</strong> - To set the default search option, select either Name, MR#, DOB, or SSN, depending on the user's preference for chart lookups. This is usually set to Name by default.
+   * <strong>International Settings</strong>:
+      * <strong>Language</strong> - To specify a language for translations, begin typing the language name in the field. Contact the Deployment Consultant for information on making the system available in another language.
+      * <strong>English Translations on Hover</strong> - For multilingual systems, selecting <em>Show</em> will display English translations when hovering over translated items.
+      * <strong>Date Format</strong> - The system default is MM-DD-YYYY. Changing the default will refresh any date (i.e., dates of birth, document dates, revision dates, etc.) with the selected format. The separator for dates is standardized to use the hyphen ( - ).
+      * <strong>Preferred Unit System</strong> - Regardless of the selection, users can still enter observations and vitals with either unit system. This preference sets dropdowns and selections to the specified unit system.
 * <strong>E-Chart</strong>
-    * <strong>Faxing</strong>:
-        * <strong>Default CoverSheet</strong> - Select the default fax coversheet. The user can always select a different coversheet from the fax module, if necessary.
-    * <strong>Defaults</strong>:
-        * <strong>Number of Recent Patients</strong> - Pick the preferred number of patients to display in the recent patient list. This defaults to twenty (20).
-        * <strong>Starting Folder</strong> - This preference sets the default chart tab when going into a chart. Select the preferred starting folder (chart tab).
-        * <strong>Print Definition</strong> - Determines the default print definition when printing or faxing from Print Chart links.
-    * <strong>Esign</strong>:
-        * <strong>Number of Documents in Multi-Sign</strong> - Defaulted to 20, users may designate the number of documents pulled up for review when performing a Multi-Review from the E-Sign Pending queue. Choose from increments of 10.
-    * <strong>Encounters</strong>:
-        * <strong>Default Visit Type</strong> - This preference sets the default visit type when clicking Add Encounter links.
+   * <strong>Faxing</strong>:
+      * <strong>Default CoverSheet</strong> - Select the default fax coversheet. The user can always select a different coversheet from the fax module, if necessary.
+   * <strong>Defaults</strong>:
+      * <strong>Number of Recent Patients</strong> - Pick the preferred number of patients to display in the recent patient list. This defaults to twenty (20).
+      * <strong>Starting Folder</strong> - This preference sets the default chart tab when going into a chart. Select the preferred starting folder (chart tab).
+      * <strong>Print Definition</strong> - Determines the default print definition when printing or faxing from Print Chart links.
+   * <strong>Esign</strong>:
+      * <strong>Number of Documents in Multi-Sign</strong> - Defaulted to 20, users may designate the number of documents pulled up for review when performing a Multi-Review from the E-Sign Pending queue. Choose from increments of 10.
+   * <strong>Encounters</strong>:
+      * <strong>Default Visit Type</strong> - This preference sets the default visit type when clicking Add Encounter links.
 * <strong>Scheduler</strong>
-    * <strong>Defaults</strong>:
-        * <strong>Duration</strong> - Changes the appointment increments found in the Scheduler.
-        * <strong>Start Time</strong> - Use this option to specify the preferred start time for all schedules.
-        * <strong>End Time</strong> - Use this option to specify the preferred end time for all schedules.
+   * <strong>Defaults</strong>:
+      * <strong>Duration</strong> - Changes the appointment increments found in the Scheduler.
+      * <strong>Start Time</strong> - Use this option to specify the preferred start time for all schedules.
+      * <strong>End Time</strong> - Use this option to specify the preferred end time for all schedules.
 * <strong>EMR</strong>:
-    * <strong>Billing</strong>:
-        * <strong>CPT Picklist</strong> - When the system is set up to use CPT codes, this user preference allows users to select a default CPT picklist to display.
+   * <strong>Billing</strong>:
+      * <strong>CPT Picklist</strong> - When the system is set up to use CPT codes, this user preference allows users to select a default CPT picklist to display.
 * <strong>Orders</strong>:
-    * <strong>Defaults</strong>:
-        * <strong>Ordering Physician</strong> - Begin typing the first or last name of the preferred default ordering physician. Select the appropriate name from the autocomplete. The selected physician will default to the Ordering Physician field in order requests. The autocomplete pulls from the Physicians department and shows active and login-disabled users, in case there are ordering physicians that do not log into the system.
-        * <strong>Location</strong> - Choose the preferred default location for order requests. When adding an order, the default location is triggered by this setting.
-        * <strong>Default Order Set</strong> - Select the preferred default Order Set name. This specifies the Order Set that will automatically display when the user clicks the Orders tab to add an order. This is particularly helpful for users entering specific orders, regularly.
-        * <strong>Performing Facility</strong> - Systems configured to capture Facility on order requests can specify a preferred default with this setting preference.
+   * <strong>Defaults</strong>:
+      * <strong>Ordering Physician</strong> - Begin typing the first or last name of the preferred default ordering physician. Select the appropriate name from the autocomplete. The selected physician will default to the Ordering Physician field in order requests. The autocomplete pulls from the Physicians department and shows active and login-disabled users, in case there are ordering physicians that do not log into the system.
+      * <strong>Location</strong> - Choose the preferred default location for order requests. When adding an order, the default location is triggered by this setting.
+      * <strong>Default Order Set</strong> - Select the preferred default Order Set name. This specifies the Order Set that will automatically display when the user clicks the Orders tab to add an order. This is particularly helpful for users entering specific orders, regularly.
+      * <strong>Performing Facility</strong> - Systems configured to capture Facility on order requests can specify a preferred default with this setting preference.
 
 ## Resources
 

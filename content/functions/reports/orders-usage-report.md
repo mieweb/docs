@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1t7e9aucgiVOYrb6TxzA_fD1aG3VRWSNUcwJyNaENOd0'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Orders Usage Report'
@@ -34,8 +34,8 @@ Fields are optional to narrow down your search results:
 * <strong>Status:</strong> can use the drop-down to select the status of the order(s) in a search.
 * <strong>Required/Voluntary:</strong> this is used by occupational health clients and can use the drop-down to select.
 * <strong>Display Options:</strong> 2 choices:
-    * <em>Show detailed list</em> is automatically checked. This shows a detailed list of patients and order specifics, along with the overall results. If you uncheck-mark this, you will not see a patient specific listing and will only see the overall results for your criteria field search.
-    * <em>Show contents of panels</em> is automatically checked. This shows the order panel column and item contents of any panels that were ordered. These panel contents will render in your search results if checkmarked. If you uncheck-mark this, you will not see the specific panel contents in your results.
+   * <em>Show detailed list</em> is automatically checked. This shows a detailed list of patients and order specifics, along with the overall results. If you uncheck-mark this, you will not see a patient specific listing and will only see the overall results for your criteria field search.
+   * <em>Show contents of panels</em> is automatically checked. This shows the order panel column and item contents of any panels that were ordered. These panel contents will render in your search results if checkmarked. If you uncheck-mark this, you will not see the specific panel contents in your results.
 
 ![](../orders-usage-report.assets/100000000000037C0000011F7385ABF0E893EA00.png)
 

@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Allergies/Medications Tab Summary View'
@@ -139,13 +139,13 @@ If you see a printer icon next to the drug name, it is a quick link to the drug 
 
 * <strong>Start Date</strong>: Date that was entered when to start this drug or date prescription was given.
 * <strong>Options</strong>: Shows end date, discontinued, if drug is expired, changed or will discontinue. (If wish to see/hide the meds in this list that are discontinued, click the Show/Hide Discontinued option). Also gives you these options:
-    * <strong>Edit</strong>:<strong> </strong>Allows you to choose to change therapy of the drug or correct error
-      on the prescription. See directions on how to perform these options below in
-      How to Edit a Prescription Already Done
-    * <strong>Delete</strong>: Only delete a drug if it is entered in error or is on the wrong patient, etc. If a patient has stopped using this medication, you would choose discontinue. A warning box will appear when you click delete to specify this also. Type in the reason you are deleting the drug and click <strong>Submit</strong>.
-    * <strong>Discontinue</strong>: Only discontinue a drug if the patient is no longer taking the medication or you want to have the patient stop taking this med, etc. Type the date discontinued and reason for discontinue. Click Simply Discontinue, or Mark Intolerant, or Mark Allergic, or Cancel. Mark Intolerant or Allergy will automatically put it in the patient's Allergies/Intolerants summary. To discontinue multiple drugs at once, go to Quick Add and scroll down to check-mark boxes of drugs to discontinue with a reason. However, this will not allow you to mark it as intolerant or as an allergy and will not put that drug in the patient's Allergies/Intolerances summary if that is the reason for discontinuing the med.
-    * <strong>Refill</strong>: See directions above in Refills Due.
-    * <strong>Reprint</strong>: The "Reprint" link on the medication list will only be available for 5 days after the prescription is written.
+   * <strong>Edit</strong>:<strong> </strong>Allows you to choose to change therapy of the drug or correct error
+     on the prescription. See directions on how to perform these options below in
+     How to Edit a Prescription Already Done
+   * <strong>Delete</strong>: Only delete a drug if it is entered in error or is on the wrong patient, etc. If a patient has stopped using this medication, you would choose discontinue. A warning box will appear when you click delete to specify this also. Type in the reason you are deleting the drug and click <strong>Submit</strong>.
+   * <strong>Discontinue</strong>: Only discontinue a drug if the patient is no longer taking the medication or you want to have the patient stop taking this med, etc. Type the date discontinued and reason for discontinue. Click Simply Discontinue, or Mark Intolerant, or Mark Allergic, or Cancel. Mark Intolerant or Allergy will automatically put it in the patient's Allergies/Intolerants summary. To discontinue multiple drugs at once, go to Quick Add and scroll down to check-mark boxes of drugs to discontinue with a reason. However, this will not allow you to mark it as intolerant or as an allergy and will not put that drug in the patient's Allergies/Intolerances summary if that is the reason for discontinuing the med.
+   * <strong>Refill</strong>: See directions above in Refills Due.
+   * <strong>Reprint</strong>: The "Reprint" link on the medication list will only be available for 5 days after the prescription is written.
 In the options column, it will also show status of prescriptions. For example it will show if the prescription has been **Changed** or if the prescription has been **Discontinued** or if the prescription is **Expired**, etc.
 
 ![](../allergies-medications-tab-summary-view.assets/100000000000038A0000016B96897259F9D97866.png)
@@ -207,7 +207,7 @@ A summary of the prescription will appear in the center. You can *edit* a prescr
 Other categories found below the edit section are:
 * <strong>Refills:</strong> shows a list summary of when that med was refilled.
 * <strong>Medication Revisions:</strong> shows a list summary of all revisions done to this medication.
-    * When: When the change/revision/edit was made.
-    * By: Who made the change/revision/edit.
-    * The other categories display what the Drug Name/Prescriber/Sig/Start Date was prior to any edit/change/revision. Shows the history of revisions and what all was changed each time.
+   * When: When the change/revision/edit was made.
+   * By: Who made the change/revision/edit.
+   * The other categories display what the Drug Name/Prescriber/Sig/Start Date was prior to any edit/change/revision. Shows the history of revisions and what all was changed each time.
 * <strong>Printed/Faxed Dates:</strong> shows a list summary of all printed/faxed dates & information regarding this medication.

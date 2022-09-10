@@ -11,7 +11,7 @@ links:
   - 'https://www.urbandictionary.com/define.php?term=leet+speak'
   - '../system-administration/security.md'
 source: 'https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Security Best Practices'

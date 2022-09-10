@@ -8,7 +8,7 @@ links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html'
   - 'https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7'
 source: 'https://drive.google.com/open?id=1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Application Managed Service Summary'
@@ -19,7 +19,7 @@ menu:
 ## **Terms**
 
 * Remote Application Administrators (RAA) – A team of individuals who remotely manage on-premise instances of MySQL
-* {{% system-name %}} System – The software application that manages, stores and transmits employee data to and from web-enabled devices.
+{{% system-name %}}*  System – The software application that manages, stores and transmits employee data to and from web-enabled devices.
 * Average Response Time (ART) – The Average Response Time (ART) is the amount of time in seconds that the {{% system-name %}} application responds and completes a users request, note that this is not the amount of time the response takes to display on a user's device. {{% system-name %}} strives for an average target sub second response within {{% sys-name %}} , excluding reporting.
 * Severity 1 (Sev 1) – An issue is identified as Severity 1 only when supported databases are inaccessible, or if supported databases are slow to respond outside of targeted ART, and no workaround is immediately available.
 * Severity 2 (Sev 2) – An issue is identified as Severity 2 when supported databases are not severely impaired.
@@ -93,14 +93,14 @@ The Platinum MS level includes:
 
 For {{% system-name %}} to provide the managed service levels described, the following are server requirements of the customer:
 * Provide monitoring server:
-    * 64bit Linux OS, [Red Hat® Enterprise 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html) or [CentOS 7](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7)
-    * 4Gb Ram
-    * 4 CPUs
-    * Storage
-        * 15Gb root
-        * 50Gb storage
+   * 64bit Linux OS, [Red Hat® Enterprise 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html) or [CentOS 7](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7)
+   * 4Gb Ram
+   * 4 CPUs
+   * Storage
+      * 15Gb root
+      * 50Gb storage
 * Direct VPN access to monitoring server
-    * Web Service (HTTPS) enabled via VPN
+   * Web Service (HTTPS) enabled via VPN
 * SSH access from monitoring server managed database(s)
 * Web Accessible (not required)
 * Sudo privileges

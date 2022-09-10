@@ -8,7 +8,7 @@ links:
   - 'https://innovation.cms.gov/'
   - 'https://qpp.cms.gov/'
 source: 'https://drive.google.com/open?id=12p7Iy880e45Q2ET2g2wDFFRzSW5kUkrwhO8Y77UhkfQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'MACRA: Quality Payment Program (QPP)'
@@ -62,27 +62,27 @@ Though MIPS also pays out according to performance data, there are specific crit
 4. <strong>Improvement Activities (IA)</strong> - New category, expected to increase patient engagement
 **Quality Performance **-** 60% of Overall Score**
 * Requirements:
-    * Six (6) measures, including an outcome measure, weighted at 3-10 points each, for 90-day minimum.
-    * SCORE = (Points earned + bonus points) / max points [60]
+   * Six (6) measures, including an outcome measure, weighted at 3-10 points each, for 90-day minimum.
+   * SCORE = (Points earned + bonus points) / max points [60]
 **Cost Performance **-** Calculated, but not weighted for transition year (CY 2017)**
 * Assessed through claims data, with a maximum of 10 points per episode cost measure.
-    * SCORE = (Points assigned for scored measures) / (10 x [# of scored measures])
+   * SCORE = (Points assigned for scored measures) / (10 x [# of scored measures])
 **Advancing Care Information Performance - 25% of Overall Score**
 * Requirements:
-    * Submit up to 9 measures (5/4 required, based on EHR certification) for a 90-day minimum.
-        * There are two measure sets to choose from, based on Edition certification.
-    * Score is broken into three (3) parts, for a possible maximum score of 155%, capped at 100%:
-        * Base Score
-            * Accounts for half of the overall 25%, and MUST be met in order to score at all.
-        * Performance Score
-            * Accounts for up to 90% of the overall 25%.
-        * Bonus Score
-            * Accounts for up to 15% of the overall 25%.
-    * SCORE = Base Score + Performance Score + Bonus Score
+   * Submit up to 9 measures (5/4 required, based on EHR certification) for a 90-day minimum.
+      * There are two measure sets to choose from, based on Edition certification.
+   * Score is broken into three (3) parts, for a possible maximum score of 155%, capped at 100%:
+      * Base Score
+         * Accounts for half of the overall 25%, and MUST be met in order to score at all.
+      * Performance Score
+         * Accounts for up to 90% of the overall 25%.
+      * Bonus Score
+         * Accounts for up to 15% of the overall 25%.
+   * SCORE = Base Score + Performance Score + Bonus Score
 **Improvement Activities Performance - 15% of Overall Score**
 * Requirements:
-    * Up to four (4) improvement activities for a 90-day minimum.
-    * SCORE = ([Total # of points scored for completed activities] / [Total max # of points (40)]) x 100
+   * Up to four (4) improvement activities for a 90-day minimum.
+   * SCORE = ([Total # of points scored for completed activities] / [Total max # of points (40)]) x 100
 
 ### Pick Your Pace and Enroll
 

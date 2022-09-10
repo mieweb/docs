@@ -6,7 +6,7 @@ version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gRYfeUHGiLquKk9t2JdT7N9FB4E6usFStodhy2VLLUg'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Inventory Transaction Report'
@@ -43,13 +43,13 @@ These are the search and filter field choices currently available. You do not ne
 
 * <strong>Count by:</strong> Check-mark which of these that you wish to show a count for. It will display your results as a count only. This is possibly used to see how many (the count) of transactions by patient, by item or by user.
 * <strong>Transaction Types:</strong> All are defaulted to be check-marked to show all in the results search. You can un-checkmark any to leave those types out. These are transaction types for the inventoried medication. You can show inventory transactions that were:
-    * <strong>Received:</strong> These are transactions when a user entered an inventory from the add screen.
-    * <strong>Dispensed:</strong> These are transactions when a user dispensed inventoried meds from the patient's chart.
-    * <strong>Expired</strong>: These are transactions when a user used an expire med option and expired some inventoried meds.
-    * <strong>Transferred:</strong> These are transactions when a user used the transfer med option for an inventoried med.
-    * <strong>Returned:</strong> These are transactions when a user entered a return into the inventory.
-    * <strong>Edited:</strong> These are transactions when a user used options to edit an inventoried med.
-    * <strong>Corrected:</strong> This is the transaction when a user changed an inventory item name or sig.
+   * <strong>Received:</strong> These are transactions when a user entered an inventory from the add screen.
+   * <strong>Dispensed:</strong> These are transactions when a user dispensed inventoried meds from the patient's chart.
+   * <strong>Expired</strong>: These are transactions when a user used an expire med option and expired some inventoried meds.
+   * <strong>Transferred:</strong> These are transactions when a user used the transfer med option for an inventoried med.
+   * <strong>Returned:</strong> These are transactions when a user entered a return into the inventory.
+   * <strong>Edited:</strong> These are transactions when a user used options to edit an inventoried med.
+   * <strong>Corrected:</strong> This is the transaction when a user changed an inventory item name or sig.
 * <strong>Prescriber:</strong> You can limit the report to show results that are limited to a specific Prescriber/user in the system. Select using the auto-complete.
 * <strong>RXID:</strong> This is the specific dispense/fill id# that {{% system-name %}} assigns when a medication inventory item is dispensed.
 * <strong>Date Range:</strong> Enter a date range to limit the inventory transactions by.

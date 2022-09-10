@@ -6,7 +6,7 @@ version: 54
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Appointment Report'
@@ -26,7 +26,7 @@ It will open to the Appointment Reports search fields.
 * <strong>Appointments on waiting list</strong> checkbox: This option is to search for appointments on the waiting list. If this is checked, then the start and end dates are greyed out/disabled to indicate that they are not being used.
 To narrow down a search for appointments, simply select the fields you wish to narrow your search down by. These fields are: **Visible Date range, Due Date range, Resource, Date Range, Location, Appointment Types, Cancel Reason, Patient and/or Time of Day.**
 * <strong>Select the Resource:</strong> You can run an appointment report for a specific a resource or multiple resources by clicking in this <em>Select Resource(s)</em> field or clicking on the […] box at the end of that field.  It will open a drop-down selection of resources.  Check-mark the resource(s) you wish to run an appointment report for.  The default is set to <em>ALL</em>.
-    * When you check-mark the resource(s) you wish to run the report for, you can only checkmark up to 99 individual resources. If you need more than 100 resources for this report, you will need to use the SELECT ALL option in this field.
+   * When you check-mark the resource(s) you wish to run the report for, you can only checkmark up to 99 individual resources. If you need more than 100 resources for this report, you will need to use the SELECT ALL option in this field.
 
 ![](../appointment-report.assets/10000201000002580000006F53B238EB1B367C5C.png)
 
@@ -146,8 +146,8 @@ Once you have clicked *Email Selected*, it will open to the Email Options screen
 * <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
 * <strong>Send Me RSVP:</strong> when emailing from the scheduler, the attached ICS (meeting request) has the option to request an RSVP. If the auto reply email setting is setup with something that has ‘noreply' in it, it will not request an RSVP. It will otherwise.
 * <strong>Carbon Copy Email:</strong>
-    * <strong>Email Template:</strong> MIE can set up different email layouts (information you want to send in mass). This is where you would select a specific email template to be sent to all the patients. Default will just show your subject & comments as typed above.
-    * <strong>Users to email:</strong> You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
+   * <strong>Email Template:</strong> MIE can set up different email layouts (information you want to send in mass). This is where you would select a specific email template to be sent to all the patients. Default will just show your subject & comments as typed above.
+   * <strong>Users to email:</strong> You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
 * <strong>Patients to Email:</strong> It will display the patient's that have an email address entered into their demographics tab and be selected as a check-mark meaning this email will be sent to those patients that have valid email addresses entered in their demographics tab. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patient's with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
 
 ![](../appointment-report.assets/100000000000019C00000047CD57466ED1BA555D.png)

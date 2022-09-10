@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Adding an Appointment Using the Wizard Tab'
@@ -48,7 +48,7 @@ When the Appointment Wizard opens, it will show the *Patient* section. This is w
 If you chose Add Apt from a specific patient's e-chart, then it will automatically have populated this name field with the patient you are in. And any *patient alert comments* the patient may have on their chart will appear at the top left corner of the add/edit appointment screen.
 {{% /info %}}
 * <strong>Patient:</strong> Search for patient by typing in the patient's <em>last name</em>. The system will then attempt to auto-complete your typing and give you choices of patients that match that last name. You can also click the help icon to search for a patient by Date of Birth, SSN or MR#. Choose the correct patient by using the up/down arrow on the keyboard to the patient's name and then the tab key to get to the next field <strong>or</strong> use your mouse and click on the correct patient's name and proceed to the next field. If you selected the wrong patient name, simply clear the patient field and begin to type the last name of the patient you want.
-    * <strong>Add Patient:</strong> This is a link provided in the Patient field. If you search for the patient and do not get any auto-complete choices that are for the specific patient you need, click Add Patient link and you can load the patient into your {{% system-name %}} system manually. This will create a patient chart and MR# for that new patient. This is only to enter patients into the system that do not exist currently in {{% system-name %}} .
+   * <strong>Add Patient:</strong> This is a link provided in the Patient field. If you search for the patient and do not get any auto-complete choices that are for the specific patient you need, click Add Patient link and you can load the patient into your {{% system-name %}} system manually. This will create a patient chart and MR# for that new patient. This is only to enter patients into the system that do not exist currently in {{% system-name %}} .
 * <strong>Select Encounters:</strong> In the Appointment Wizard, it will show any existing <em>open</em> encounters at the time you are scheduling an appointment. You can link open encounter(s) to the appointment you are creating. The list of open encounters to link will display the encounter type name. When you are adding or editing an appointment, you can add multiple encounter links to that appointment. To get to the next field, simply use your tab key.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/1000020100000396000000C00F216917B53EC14E.png)
@@ -99,7 +99,7 @@ The next section is *Patient Visits*.
 * Resources are users preloaded in your {{% system-name %}} system. They must belong to a specified department to be considered a resource. In most systems, it is called a SysSched department. Some use the physicians department. If you want to add another physician/therapist, etc to this appointment for this patient, then after you initial selection, simply begin typing another last or first name in the resource field and choose it. Continue until you are done. If you selected a wrong resource, click the [-] minus sign to delete that selection.
 * <strong>Appt (Appointment) Types:</strong> Begin typing in the appointment type the patient is being seen for. The system will auto-complete to give you choices of active appt types. If you selected a wrong appt type, click the [-] minus sign on the appt type to remove it. To add another appointment type for this specific appointment, simply begin typing another appt type and choose it. Continue until you are done. <em>Hit your down arrow key on your keyboard here to see a complete list of appointment type choices your system has—instead of using the auto-complete if you wish.</em>
 * <strong>Location:</strong> The location automatically defaults to show the location you are set to in your default settings (MY SETTINGS). If you wish to change the location for this appointment, simply begin typing in the name of the location and it will auto-complete to give you choices. You can only make ONE location choice for the appointment.
-    * It does not show outside locations as choices in the auto-complete field. <em>Hit your down arrow key on your keyboard here to see a complete list of location choices your system has—instead of using the auto-complete if you wish.</em>
+   * It does not show outside locations as choices in the auto-complete field. <em>Hit your down arrow key on your keyboard here to see a complete list of location choices your system has—instead of using the auto-complete if you wish.</em>
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/10000201000003F30000003514041BA7C63FDAB6.png)
 

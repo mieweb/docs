@@ -27,7 +27,7 @@ links:
   - '../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.md'
   - '../../functions/e-chart/insurance-summary-in-demographics-tab.md'
 source: 'https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Document Management'
@@ -39,19 +39,19 @@ menu:
 
 * <strong>Document Management Demonstration</strong>
 * <strong>Overview</strong>
-    * <strong>WebScan - Scanning/Indexing</strong>
-    * <strong>Insurance Card/Driver's License Scanning</strong>
-    * <strong>Forms Library</strong>
-    * <strong>Print Definitions</strong>
+   * <strong>WebScan - Scanning/Indexing</strong>
+   * <strong>Insurance Card/Driver's License Scanning</strong>
+   * <strong>Forms Library</strong>
+   * <strong>Print Definitions</strong>
 * <strong>System Configuration</strong>
-    * <strong>Configure Scanners</strong>
-    * <strong>Add Document Types to Forms Library</strong>
-    * <strong>Setup Print Definitions</strong>
-    * <strong>Side Chart View</strong>
-    * <strong>Cut-Over Plan</strong>
-    * <strong>System Settings</strong>
-    * <strong>Security Role Permissions</strong>
-    * <strong>My Settings Preferences</strong>
+   * <strong>Configure Scanners</strong>
+   * <strong>Add Document Types to Forms Library</strong>
+   * <strong>Setup Print Definitions</strong>
+   * <strong>Side Chart View</strong>
+   * <strong>Cut-Over Plan</strong>
+   * <strong>System Settings</strong>
+   * <strong>Security Role Permissions</strong>
+   * <strong>My Settings Preferences</strong>
 
 ## Overview
 

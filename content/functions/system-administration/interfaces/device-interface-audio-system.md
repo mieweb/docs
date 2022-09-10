@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Device Interface - Audio System'
@@ -37,9 +37,9 @@ First ensure that a calibration has been performed for the day. If one has not b
 1. Put your initials in and select ok and then select cancel past the error.
 2. You can also select "Cancel" on the Operator screen without putting in initials and proceed.
 1. Performing a Calibration:
-    1. Run Calibration on the Audiometer using Serial Number of Device
-    2. When calibration is complete in OMI, select Receive Calibration on the main screen.
-    3. The following screen will appear:
+   1. Run Calibration on the Audiometer using Serial Number of Device
+   2. When calibration is complete in OMI, select Receive Calibration on the main screen.
+   3. The following screen will appear:
 
 ![](../device-interface-audio-system.assets/10000000000002F50000021B24E45FAC119D4A1B.png)
 
@@ -53,16 +53,16 @@ First ensure that a calibration has been performed for the day. If one has not b
 ![](../device-interface-audio-system.assets/100000000000012500000105322A135D4C9CE142.png)
 
 1. Performing an Audio Test:
-    1. Choose Select/Add Client
-    2. Choose correct patient from list and click the use selected match button; or
-    3. Choose New Client and enter patient information into the database and select ok.
+   1. Choose Select/Add Client
+   2. Choose correct patient from list and click the use selected match button; or
+   3. Choose New Client and enter patient information into the database and select ok.
 1. Next step is to perform the audiogram on the patient.
-    1. <strong>Most do not use the social security number</strong>, and instead use the patient's MR# number when entering info into audiometer box.
+   1. <strong>Most do not use the social security number</strong>, and instead use the patient's MR# number when entering info into audiometer box.
 1. Once audiogram is complete choose Receive Audiogram in OMI.
-    1. Verify that the correct patient is chosen.
-    2. Select receive data (<strong>occasionally this box may need to be clicked a second time</strong>)
-    3. You may receive a pop up regarding the ID used to perform the test and it will ask about adding zero's to the ID number. Select YES.
-    4. The data will upload from the audiometer to OMI (See Example)
+   1. Verify that the correct patient is chosen.
+   2. Select receive data (<strong>occasionally this box may need to be clicked a second time</strong>)
+   3. You may receive a pop up regarding the ID used to perform the test and it will ask about adding zero's to the ID number. Select YES.
+   4. The data will upload from the audiometer to OMI (See Example)
 
 ![](../device-interface-audio-system.assets/10000201000002A8000001DF7AA32C5421BE6F45.png)
 
@@ -123,9 +123,9 @@ First ensure that a calibration has been performed for the day. If one has not b
 
 Make sure the audiogram result files are showing up in the file box.
 1. If they are not, you may need to change the "smartcard" to point to the audiogram results.
-    1. Changing smartcard:
-        1. Right click on "filebox"
-        2. Choose set smartcard folder
+   1. Changing smartcard:
+      1. Right click on "filebox"
+      2. Choose set smartcard folder
 
 ![](../device-interface-audio-system.assets/10000000000000B600000104C4F84B3EB8F0AEB1.png)
 
@@ -139,8 +139,8 @@ Make sure the audiogram result files are showing up in the file box.
 
 1. Choose the correct audiogram file for your patient.
 2. Click the <em>upload file</em> button
-    1. If you have no additional comments, Select ok on the first box stating no comment has been entered, upload anyway.
-    2. Select <strong>YES</strong> on the second box asking if you want to delete as the folder should remain empty and only the current results should be showing. By deleting after each upload this will keep the folder clean and remove any confusion of selecting the incorrect file.
+   1. If you have no additional comments, Select ok on the first box stating no comment has been entered, upload anyway.
+   2. Select <strong>YES</strong> on the second box asking if you want to delete as the folder should remain empty and only the current results should be showing. By deleting after each upload this will keep the folder clean and remove any confusion of selecting the incorrect file.
 1. Audiogram results should populate in the Audio Tool.
 2. You can answer the additional questions via that button also at any time and they will save when you save the encounter.
 3. If working in an encounter, click the save button to save audiogram results to patients file.

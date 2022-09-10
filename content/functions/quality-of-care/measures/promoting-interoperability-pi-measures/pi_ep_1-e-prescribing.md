@@ -6,7 +6,7 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QQ_PCqt0R3IeEpLRUSPy4GkOJDqV93UCYzdqrWMEXbQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'PI_EP_1 -- e-Prescribing'
@@ -22,13 +22,13 @@ menu:
 ## Clinical Instructions
 
 1.  Required for Promoting Interoperability Performance Category Score: <strong>Yes</strong>
-    1. Measure Score: Up to 10 points
-    2. Eligible for Bonus Score: No
+   1. Measure Score: Up to 10 points
+   2. Eligible for Bonus Score: No
 1. MIPS eligible clinicians must:
-    1. Submit a "yes" to the Prevention of Information Blocking Attestations
-    2. Submit a "yes" to the ONC Direct Review Attestation, if applicable
-    3. Submit a "yes" that they have completed the Security Risk Analysis measure during the calendar year in which the MIPS performance period occurs
-    4. Must report the required measures from each of the four objectives in order to earn a score greater than zero for the Promoting Interoperability performance category
+   1. Submit a "yes" to the Prevention of Information Blocking Attestations
+   2. Submit a "yes" to the ONC Direct Review Attestation, if applicable
+   3. Submit a "yes" that they have completed the Security Risk Analysis measure during the calendar year in which the MIPS performance period occurs
+   4. Must report the required measures from each of the four objectives in order to earn a score greater than zero for the Promoting Interoperability performance category
 
 ## Source(s)
 

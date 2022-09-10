@@ -10,7 +10,7 @@ links:
   - 'single-sign-on-sso.md'
   - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'SAML-Based Single Sign-On'
@@ -27,9 +27,9 @@ The majority of this document was created for technical staff to utilize for SAM
 SAML assertions utilize most of the options detailed throughout the [SSO Login Trust](single-sign-on-login-trust.md) documentation. Note that in order to set up the  {{% system-name %}} system as a SAML service provider (SP), the following must be known about the identity provider (IDP):
 * <strong>The IDP Issuer</strong>: This goes in the Domain field of the Login Trust.
 * <strong>Public Key/Certificate</strong>: Used to authenticate the assertions.
-  {{% note %}}
+{{% note %}}
   SAML provides an option for including the public key in the assertion. This can pose a significant security vulnerability, so  {{% system-name %}}  does not support this functionality. The public key must be provided prior to processing assertions.
-  {{% /note %}}
+{{% /note %}}
 * <strong>IDP Sign On Service URL</strong>: This goes in the Login URL field.
 Also, identify any steps required to ensure the IDP-specified subjects will be present in the  {{% system-name %}} system. This may be an interface which creates users, a configuration allowing the IDP to create new users, on demand, or a manual process within the  {{% system-name %}} system.
 
@@ -40,10 +40,10 @@ The IDP must include the following information in the Assertion (shown in XPath 
 //Assertion/Issuer - This is the login trust Domain. Identifies the login_trusts entry (IDP) used for validating the assertion.
 * XMLDSig - The XML Signature. Must validate using the public key on file for the identified IDP.
 * If the Create New Users option has been enabled, the following are also required:
-    * //Assertion/AttributeStatement/Attribute[@Name="lastname"]/AttributeValue
-    * //Assertion/AttributeStatement/Attribute[@Name="firstname"]/AttributeValue
-    * Optional:
-        * //Assertion/AttributeStatement/Attribute[@Name="email"]/AttributeValue
+   * //Assertion/AttributeStatement/Attribute[@Name="lastname"]/AttributeValue
+   * //Assertion/AttributeStatement/Attribute[@Name="firstname"]/AttributeValue
+   * Optional:
+      * //Assertion/AttributeStatement/Attribute[@Name="email"]/AttributeValue
 
 ```
 

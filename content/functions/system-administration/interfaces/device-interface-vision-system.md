@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Device Interface - Vision System'
@@ -38,9 +38,9 @@ The following is referring to a Vision - Titmus i500 system. Contact your MIE Im
 5. Scroll down to Vision Screening section on page
 6. Scroll down to "filebox"
 7. Select the correct smartcard folder.
-    1. Changing smartcard:
-        1. Right click on filebox
-        2. Choose set smartcard folder
+   1. Changing smartcard:
+      1. Right click on filebox
+      2. Choose set smartcard folder
 
 ![](../device-interface-vision-system.assets/10000000000000B600000104C4F84B3EB8F0AEB1.png)
 
@@ -55,6 +55,6 @@ The following is referring to a Vision - Titmus i500 system. Contact your MIE Im
 1. Select the correct vision test for the correct patient. (Note: if the device is being kept clean your results should be the only ones listed)
 2. Select upload file and when prompted select YES to delete the record as the folder should remain empty and only the current results should be showing. By deleting after each upload this will keep the folder clean and remove any confusion regarding selecting the correct file.
 3. Titmus Vision Test results will populate the page on the encounter or Vision Tool chart tab.
-    1. Abnormal results will be highlighted.
+   1. Abnormal results will be highlighted.
 1. Scroll to bottom of encounter and choose save to ensure vision test is saved to this encounter.
 2. Done

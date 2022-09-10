@@ -10,7 +10,7 @@ links:
   - 'observation-codes-editor.md'
   - 'observation-code-merging.md'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Flowsheets Editor'
@@ -42,50 +42,50 @@ Any custom discrete values will not be interoperable when communicating with oth
 
 2. To begin, click the <strong> </strong>{{% syslink "Add Flowsheet" "f=admin&subfunc=obscodes_manager&view=flowsheet&opp=add" %}}<strong> </strong> link in the upper-right corner of the page.
 3. Begin filling in the fields and building the flowsheet, accordingly:
-    1. <strong>Flowsheet Name</strong>: This field is used to name the new Flowsheet. If the Flowsheet will be used within encounters, this field should match the order item name, exactly.
-    2. <strong>Active</strong>: Select or deselect to set the Flowsheet as active or inactive, respectively. Flowsheets cannot be deleted.
-    3. <strong>Observation</strong>: This autocomplete field is used to populate any necessary observations being captured for the Flowsheet in context. Users cannot text freely within this field. The observation must be a stored observation within the Observation Codes library.
-        1. <strong>Search By Name</strong>: Begin typing any observation name to locate the preferred observation to be included in the Flowsheet. Once selected, the observation will automatically populate in the list view at the bottom of the page.
-        2. <strong>Search By LOINC</strong>: To search by LOINC code, rather than name, begin the search with a question mark . For example, entering <strong>?2339-0</strong> will populate the observation associated with that LOINC code, to be added to the Flowsheet.
-    4. <strong>Order</strong>: In addition to adding observations for data capture, users may build Flowsheets with orders, as well. This autocomplete field allows users to populate any necessary orders being recorded within a Flowsheet.
-    5. <strong>All Flowsheets</strong>: All Flowsheets can have the included items (i.e., observations and orders) separated, grouped, and required, using the following buttons, as appropriate.
-        1. <strong>Add Line Break/Header</strong>: This button inserts a break, which can be used as a header or simply a line break. As a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the <strong>Edit</strong> (pencil) icon in the <em>Actions</em> column, and update the <strong>Description</strong> field. The text will display as a title for the line break, thus formatting it as a header in the Flowsheet.
-        2. <strong>Mark All Required</strong>: This button allows users to set all included observations as required. After all items have been added to the Flowsheet, clicking this button will display a verification: <em>All observations with empty required fields will be set to required</em>. Click <strong>Yes</strong> or <strong>No</strong>. Clicking Yes will set all empty required fields to <em>true</em>, making data entry required for those entry items.
-    6. <strong>Questionnaires Only</strong>: Flowsheets are often used as questionnaires. These questionnaires are available from the portal and may be configured as needed. The following buttons are only compatible with Flowsheets being used as questionnaires. To preview the style and format of the questionnaire, simply click the Questionnaires Only link at any time.
-        1. <strong>Add Page Break</strong>: This button will add a page break to the questionnaire, causing the content following the placement of the page break to continue on to a new page.
-        2. <strong>Add Section Break</strong>: Adding a section break will simply provide a segmented section for the contained content. These can be edited and titled, as needed.
-        3. <strong>Add Group Break</strong>: This button will break content into groups, which can be labeled, as needed. Section breaks can be used within group breaks.
-        4. <strong>Add Layout</strong>: Adding a layout can be done by MIE, whenever a layout is necessary for the questionnaire (e.g., Medications layout). This button can also be used when a 2-column layout is needed for a questionnaire.
+   1. <strong>Flowsheet Name</strong>: This field is used to name the new Flowsheet. If the Flowsheet will be used within encounters, this field should match the order item name, exactly.
+   2. <strong>Active</strong>: Select or deselect to set the Flowsheet as active or inactive, respectively. Flowsheets cannot be deleted.
+   3. <strong>Observation</strong>: This autocomplete field is used to populate any necessary observations being captured for the Flowsheet in context. Users cannot text freely within this field. The observation must be a stored observation within the Observation Codes library.
+      1. <strong>Search By Name</strong>: Begin typing any observation name to locate the preferred observation to be included in the Flowsheet. Once selected, the observation will automatically populate in the list view at the bottom of the page.
+      2. <strong>Search By LOINC</strong>: To search by LOINC code, rather than name, begin the search with a question mark . For example, entering <strong>?2339-0</strong> will populate the observation associated with that LOINC code, to be added to the Flowsheet.
+   4. <strong>Order</strong>: In addition to adding observations for data capture, users may build Flowsheets with orders, as well. This autocomplete field allows users to populate any necessary orders being recorded within a Flowsheet.
+   5. <strong>All Flowsheets</strong>: All Flowsheets can have the included items (i.e., observations and orders) separated, grouped, and required, using the following buttons, as appropriate.
+      1. <strong>Add Line Break/Header</strong>: This button inserts a break, which can be used as a header or simply a line break. As a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the <strong>Edit</strong> (pencil) icon in the <em>Actions</em> column, and update the <strong>Description</strong> field. The text will display as a title for the line break, thus formatting it as a header in the Flowsheet.
+      2. <strong>Mark All Required</strong>: This button allows users to set all included observations as required. After all items have been added to the Flowsheet, clicking this button will display a verification: <em>All observations with empty required fields will be set to required</em>. Click <strong>Yes</strong> or <strong>No</strong>. Clicking Yes will set all empty required fields to <em>true</em>, making data entry required for those entry items.
+   6. <strong>Questionnaires Only</strong>: Flowsheets are often used as questionnaires. These questionnaires are available from the portal and may be configured as needed. The following buttons are only compatible with Flowsheets being used as questionnaires. To preview the style and format of the questionnaire, simply click the Questionnaires Only link at any time.
+      1. <strong>Add Page Break</strong>: This button will add a page break to the questionnaire, causing the content following the placement of the page break to continue on to a new page.
+      2. <strong>Add Section Break</strong>: Adding a section break will simply provide a segmented section for the contained content. These can be edited and titled, as needed.
+      3. <strong>Add Group Break</strong>: This button will break content into groups, which can be labeled, as needed. Section breaks can be used within group breaks.
+      4. <strong>Add Layout</strong>: Adding a layout can be done by MIE, whenever a layout is necessary for the questionnaire (e.g., Medications layout). This button can also be used when a 2-column layout is needed for a questionnaire.
 4. Once all observations, orders, and components have been added, users can begin rearranging and configuring the observations, sections, and details, as needed. To do this, users must use the icons available under the <em>Actions</em> column. The available options are <strong>Edit</strong> (pencil), <strong>Move</strong> (vertical arrows), and <strong>Remove</strong> (trash). Additionally, the columns and options available within the list view are as follows:
-    1. <strong>Name</strong>: This field displays the observation name selected, which is coded in the Observation Codes Manager. This will appear as a hyperlink and can be clicked to see a view of the observation details.
-    2. <strong>Description</strong>: The Description field can be edited by clicking the Edit (pencil) icon in the <em>Actions</em> column. This field, when provided, will display to end users when using the Flowsheet. There is no limit to the number of characters allowed. Providing a description is not necessary and does not alter the coded observation or name. It is only used for simplified identification, whenever necessary.
+   1. <strong>Name</strong>: This field displays the observation name selected, which is coded in the Observation Codes Manager. This will appear as a hyperlink and can be clicked to see a view of the observation details.
+   2. <strong>Description</strong>: The Description field can be edited by clicking the Edit (pencil) icon in the <em>Actions</em> column. This field, when provided, will display to end users when using the Flowsheet. There is no limit to the number of characters allowed. Providing a description is not necessary and does not alter the coded observation or name. It is only used for simplified identification, whenever necessary.
 
-    {{% note %}}
-    Descriptions are not interoperable fields and will not carry over to devices or systems set up for interoperability.
-    {{% /note %}}
+{{% note %}}
+   Descriptions are not interoperable fields and will not carry over to devices or systems set up for interoperability.
+{{% /note %}}
 
-    3. <strong>Input Type</strong>: Every observation requires an input type. This drives how each datum, or observation value, will be captured while using the Flowsheet.
-        1. <strong>Text</strong>: This input allows users to key in any free text for the observation in context. The .macro functionality will work within text input types.
-        2. <strong>Text (large)</strong>: This input allows users to key in any free text for the observation in context using a larger text entry field. This does not affect the size of the display output.
-        3. <strong>AutoComplete</strong>: A free-text learning autocomplete that is designed as an autocomplete entry field with the ability to free text or use the available choices. Autocomplete choices are learned by frequency of free-text entries and can be managed using the in the Control Panel.
-        4. <strong>AutoComplete (large)</strong>: An autocomplete entry field that behaves the same way as the standard AutoComplete input type. However, AutoComplete (large) displays a larger (wider) entry field when inputting data. This does not affect the size of the display output.
-        5. <strong>AutoComplete (Discrete List)</strong>: This is an autocomplete entry field that pulls only the discrete values that were programmed into the observation code <em>Custom Discrete Values</em> section. This will limit users to selecting only those choices provided for the observation in context. Clicking the down arrow on the keyboard will display the available choices, if the user is unsure or the options are unknown.
-        6. <strong>Measurement</strong>: This input is designed to track measurements and will convert to specific preset units, whenever possible. For instance, when using a Measurement input type, an observation that is preset to a specific unit will be converted to the default unit when entering a value in a Flowsheet with a differing unit from the observation preset, so long as a conversion is available (e.g., lbs to g, cm to mm, etc.). Measurements will also be rounded to the nearest hundredth decimal place.
-        7. <strong>Date</strong>: A Date field will only allow users to key in a date as the value for the observation.
-        8. <strong>Datetime</strong>: A Datetime field will only allow users to key in date and time values for the observation.
-        9. <strong>Yes/No Answer List</strong>: A Yes/No input will allow users to select either a Yes or No radio button as the value for the observation.
-        10. <strong>Vertical Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options as vertical radio buttons.
-        11. <strong>Horizontal Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options as horizontal radio buttons.
-        12. <strong>Drop Down Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options in a dropdown selector.
-    4. <strong>Stage Prev Value</strong>: Observations can be set to have a previous value automatically staged, depending on the input type. The available options include: 
-        1. <strong>No</strong>: No previous observation value will be staged or pulled forward into the Flowsheet for the observation in context. 
-        2. <strong>Add to Macros</strong>: For any text input types, previous values can be staged using the system macro functionality. Previously recorded answers (values) for the observation will be shown as a macro, capable of being added to the input field by way of the angle bracket ( < ), if the value is the same. 
-        3. <strong>Prefill Input</strong>: This option will automatically prefill the entry field with the most recent value used for the respective observation, for that specific chart. 
-    5. <strong>Comments</strong>: When checkmarked, users will have a Comments field for providing additional information specific to the observation. 
-    6. <strong>Section</strong>: With the proper programming, this field will trigger section groupings for organizing the included observations into a specified arrangement. 
-    7. <strong>Required</strong>: Observations can be optional, recommended, or required, as needed. When configuring a flowsheet or questionnaire, simply leave this field blank for any optional entries. Recommended entries, or fields that are encouraged but not required, can be configured by inputting the numeral one (1) in this field. Otherwise, required fields can be checked against using a properly formatted formula. More about this to follow. 
-    8. <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. For example, a questionnaire with questions only relevant to a male (conditional) can be programmed to only display when the sex of the respondent is male. More information on this can be found below. 
-    9. <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and established criteria. Using this field, a calculation will be triggered, whenever a specific observation is programmed with the appropriate calculation criteria. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation with the BMI observation. Additional details can be found below. 
+   3. <strong>Input Type</strong>: Every observation requires an input type. This drives how each datum, or observation value, will be captured while using the Flowsheet.
+      1. <strong>Text</strong>: This input allows users to key in any free text for the observation in context. The .macro functionality will work within text input types.
+      2. <strong>Text (large)</strong>: This input allows users to key in any free text for the observation in context using a larger text entry field. This does not affect the size of the display output.
+      3. <strong>AutoComplete</strong>: A free-text learning autocomplete that is designed as an autocomplete entry field with the ability to free text or use the available choices. Autocomplete choices are learned by frequency of free-text entries and can be managed using the in the Control Panel.
+      4. <strong>AutoComplete (large)</strong>: An autocomplete entry field that behaves the same way as the standard AutoComplete input type. However, AutoComplete (large) displays a larger (wider) entry field when inputting data. This does not affect the size of the display output.
+      5. <strong>AutoComplete (Discrete List)</strong>: This is an autocomplete entry field that pulls only the discrete values that were programmed into the observation code <em>Custom Discrete Values</em> section. This will limit users to selecting only those choices provided for the observation in context. Clicking the down arrow on the keyboard will display the available choices, if the user is unsure or the options are unknown.
+      6. <strong>Measurement</strong>: This input is designed to track measurements and will convert to specific preset units, whenever possible. For instance, when using a Measurement input type, an observation that is preset to a specific unit will be converted to the default unit when entering a value in a Flowsheet with a differing unit from the observation preset, so long as a conversion is available (e.g., lbs to g, cm to mm, etc.). Measurements will also be rounded to the nearest hundredth decimal place.
+      7. <strong>Date</strong>: A Date field will only allow users to key in a date as the value for the observation.
+      8. <strong>Datetime</strong>: A Datetime field will only allow users to key in date and time values for the observation.
+      9. <strong>Yes/No Answer List</strong>: A Yes/No input will allow users to select either a Yes or No radio button as the value for the observation.
+      10. <strong>Vertical Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options as vertical radio buttons.
+      11. <strong>Horizontal Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options as horizontal radio buttons.
+      12. <strong>Drop Down Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options in a dropdown selector.
+   4. <strong>Stage Prev Value</strong>: Observations can be set to have a previous value automatically staged, depending on the input type. The available options include: 
+      1. <strong>No</strong>: No previous observation value will be staged or pulled forward into the Flowsheet for the observation in context. 
+      2. <strong>Add to Macros</strong>: For any text input types, previous values can be staged using the system macro functionality. Previously recorded answers (values) for the observation will be shown as a macro, capable of being added to the input field by way of the angle bracket ( < ), if the value is the same. 
+      3. <strong>Prefill Input</strong>: This option will automatically prefill the entry field with the most recent value used for the respective observation, for that specific chart. 
+   5. <strong>Comments</strong>: When checkmarked, users will have a Comments field for providing additional information specific to the observation. 
+   6. <strong>Section</strong>: With the proper programming, this field will trigger section groupings for organizing the included observations into a specified arrangement. 
+   7. <strong>Required</strong>: Observations can be optional, recommended, or required, as needed. When configuring a flowsheet or questionnaire, simply leave this field blank for any optional entries. Recommended entries, or fields that are encouraged but not required, can be configured by inputting the numeral one (1) in this field. Otherwise, required fields can be checked against using a properly formatted formula. More about this to follow. 
+   8. <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. For example, a questionnaire with questions only relevant to a male (conditional) can be programmed to only display when the sex of the respondent is male. More information on this can be found below. 
+   9. <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and established criteria. Using this field, a calculation will be triggered, whenever a specific observation is programmed with the appropriate calculation criteria. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation with the BMI observation. Additional details can be found below. 
 6. Once finished, click the <strong>Submit</strong> button to save all of the information.
 
 ## Configuring Flowsheets
@@ -119,9 +119,9 @@ To establish requirements on an observation, begin by clicking the Edit icon (pe
 * For no requirement - <strong><em>leave blank</em></strong>
 * For a soft requirement (recommended) - <strong>True</strong> or <strong>1</strong>
 * For hard requirements: There are varying hard requirements that can be configured, depending on the client's needs.
-    * Require anything - <strong>(observationValueByName(jQuery(this).data('obsname')) ? 1 : -1)</strong>
-    * Number only - TBD
-    * Date/Time Ranges - TBD
+   * Require anything - <strong>(observationValueByName(jQuery(this).data('obsname')) ? 1 : -1)</strong>
+   * Number only - TBD
+   * Date/Time Ranges - TBD
 
 ### **Conditional**
 

@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10'
 source: 'https://drive.google.com/open?id=1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 146 - Appropriate Testing for Children with Pharyngitis'
@@ -130,25 +130,25 @@ Track all children ages 3-18 who had an outpatient or ED visit with a diagnosis 
 Regardless of how the strep test observation is added to the chart, clients will need to ensure that the appropriate observation is configured with LOINC 6559-9.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the *Strep* observations to determine if multiple [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
 {{% /tip %}}
 * While documenting the Visit encounter, document the results of a Strep test one of two ways:
-    1. <strong>Option 1: Tests and Procedures Section</strong>
-        1. Open the Tests and Procedures section.
-        2. Using the autocomplete, begin typing Strep A Qual Throat Swab.
-        3. Click the Add to Exam button.
-        4. After adding the new section, open the Strep A Qual Throat Swab section and add the result.
-        5. Click the Next button, or close the section.
-    1. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
-        1. Click the Tools icon in the upper-right corner of the encounter.
-        2. Click the Lab Results - Set 2 header to add the section to the encounter template. Close the Tools window.
-        3. Click the Lab Results - Set 2 header to open the section and add the Rapid Strep result.
-        4. Click the Next button, or close the section.
-    1. Continue documenting the encounter, as needed.
-    2. When completed, Close and Archive the encounter
+   1. <strong>Option 1: Tests and Procedures Section</strong>
+      1. Open the Tests and Procedures section.
+      2. Using the autocomplete, begin typing Strep A Qual Throat Swab.
+      3. Click the Add to Exam button.
+      4. After adding the new section, open the Strep A Qual Throat Swab section and add the result.
+      5. Click the Next button, or close the section.
+   1. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
+      1. Click the Tools icon in the upper-right corner of the encounter.
+      2. Click the Lab Results - Set 2 header to add the section to the encounter template. Close the Tools window.
+      3. Click the Lab Results - Set 2 header to open the section and add the Rapid Strep result.
+      4. Click the Next button, or close the section.
+   1. Continue documenting the encounter, as needed.
+   2. When completed, Close and Archive the encounter
 * <strong>Option 3: Add Observation using Observations Chart Tab</strong>
-    1. Navigate to the patient chart.
-    2. Open the Observations tab of the Medical Records chart tab.
-    3. Click the Add Observation link in the upper-right corner.
-    4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
-    5. Click the Submit button.
+   1. Navigate to the patient chart.
+   2. Open the Observations tab of the Medical Records chart tab.
+   3. Click the Add Observation link in the upper-right corner.
+   4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
+   5. Click the Submit button.
 
 ## Evidence
 

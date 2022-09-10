@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Security Role Settings'
@@ -87,8 +87,8 @@ The Individual Security settings screen for that user will open. Select any secu
 ### **WebChart**
 
 * Revoke PHI Access:  This permission controls access for a user to view or edit any tabs that display patient or personal health information (PHI), including E-chart, Appointments, Orders, and Documents. The following settings are available:
-    * Yes: The user cannot view or edit tabs with PHI.
-    * No: The user has access to view and edit tabs with PHI, and can access all patients based on their remaining user restrictions.
+   * Yes: The user cannot view or edit tabs with PHI.
+   * No: The user has access to view and edit tabs with PHI, and can access all patients based on their remaining user restrictions.
 * Statistics: Allows users in a security role to access reports from the Reports Tab and System Reports.
 * View Transcription Stats: In Control, in Statistics, Tran Reports. Yes to this setting allows users in a security role to view transcription statistics report.
 * Limited to NMC area:  No or Yes if users should only be restricted to NoMoreClipboard area.
@@ -105,28 +105,28 @@ The Individual Security settings screen for that user will open. Select any secu
 ### **E-Chart**
 
 * Limited Access: This permission controls user access to specific patients. A user has access to a patient either through a direct relationship (such as provider to patient or supervisor to employee), or through the department they belong to (such as the nursing department to a patient). The following settings are available:
-    * Yes: The user can access only the specific patients they have a direct relationship with. Relationships are defined in the setting Edit Patients Linked to User under Access Control > Edit User. If the Limited Access field is set to "Yes," it overrides the Restrict Access By Partition setting, and partition restrictions are ignored.
-    * No: The user is not restricted to the relationships defined in Edit Patients Linked to User under Access Control > Edit User.
+   * Yes: The user can access only the specific patients they have a direct relationship with. Relationships are defined in the setting Edit Patients Linked to User under Access Control > Edit User. If the Limited Access field is set to "Yes," it overrides the Restrict Access By Partition setting, and partition restrictions are ignored.
+   * No: The user is not restricted to the relationships defined in Edit Patients Linked to User under Access Control > Edit User.
 * Restrict Access by Partition:  Partitions are created in the Partition Manager to group information in {{% system-name %}} (patients, documents, etc.). Restricted partitions are hidden from certain users. This field determines whether or not a user can see patients in restricted partitions. The following settings are available:
-    * Yes: The user can only access patients in unrestricted partitions or in restricted partitions to which their user or their department has access. Patients in hidden partitions do not display in search results and are not accessible. If the Limited Access field is set to "Yes," the Limited Access setting overrides the Restrict Access By Partition setting, so partition restrictions are ignored.
-    * No: The user is not limited in the patients that they can see based on any partition restrictions.
+   * Yes: The user can only access patients in unrestricted partitions or in restricted partitions to which their user or their department has access. Patients in hidden partitions do not display in search results and are not accessible. If the Limited Access field is set to "Yes," the Limited Access setting overrides the Restrict Access By Partition setting, so partition restrictions are ignored.
+   * No: The user is not limited in the patients that they can see based on any partition restrictions.
 * Allow Emergency Access to Charts: In emergency situations, a user may need access to patient information that is normally restricted. This field determines if a user can access a patient that they do not normally have access to for a limited time (the amount of time is configurable under System Settings). If either of the fields Limited Access or Restrict Access by Partition are set to "Yes," the Allow Emergency Access to Charts setting is used to search and access patients that are normally restricted to a user or department. Audit logs are stored for all patients accessed through this setting. Options:
-    * Yes: The user can view a restricted chart for a limited time after confirming that access is required for each patient that is requested.
-    * No: The user cannot access restricted patients.
+   * Yes: The user can view a restricted chart for a limited time after confirming that access is required for each patient that is requested.
+   * No: The user cannot access restricted patients.
 * Limited to Default Tab:  This restricts users in a security role to only be able to view the tab/module that is set as the ‘selecting folder' in My Settings for each user.  A user will not be able to access any other tabs/modules.
 * Patient Relationships: If set to View, users can only view patient relationships. If set to Edit, users can edit and end relationships. If set to Delete, users can do all the aforementioned and also delete patient relationships.
 * Limited to Restricted Items: Setting to ‘No' allows the user to access everything unless they (or dept) are specified to be restricted from a specific doc.type, document, chart tab, or encounter type. This also applies to adding documents, and Print definitions now.That is the default. Setting to ‘Yes' limits the user from accessing no doc.types, documents, chart tabs, or encounter types.  They (or dept) must be specifically "allowed" to a doc.type, chart tab, or encounter type in order to see it. This setting allows a user to be marked ‘restricted' and only enable the certain things they should be able to see (doc.type, chart tab or encounter type, visit types).
 * Limit DOB: Restricts the user from viewing a patient's DOB/Age Restricts in listviews and autocompletes, Document Queue, pocket mode, headers, etc.
 * Demographics: The Demo screen (1st tab) on a patient's E-chart shows summary info of that patient, address, etc.
-    * No Access: No access to the demo screen when a patient's chart is open.
-    * View: Can view demo screen on patient's chart, but can't modify it.
-    * Add: Can add/manually add a patient into the {{% system-name %}} system (if your system does not interface w/ {{% system-name %}} , or you manually add each patient)  Refers to patient registration. Can add only, not edit demo. info.
-    * Edit: Can manually add/edit/change information on demo screen on a patient's chart. Can edit/add alerts, etc.
+   * No Access: No access to the demo screen when a patient's chart is open.
+   * View: Can view demo screen on patient's chart, but can't modify it.
+   * Add: Can add/manually add a patient into the {{% system-name %}} system (if your system does not interface w/ {{% system-name %}} , or you manually add each patient)  Refers to patient registration. Can add only, not edit demo. info.
+   * Edit: Can manually add/edit/change information on demo screen on a patient's chart. Can edit/add alerts, etc.
 * Patient Insurance Policies:  This insurance screen shows on the patient demographics screen.
-    * No Access: No access to the patient insurance. Nothing insurance related to the patient shows on the demo. screen at all.  Keeps insurance info private.
-    * View: The demographics screen shows insurances and allows a scan of the card.  No editing, no adding options allowed.
-    * Add: Same as view but also gives you the add insurance option. Users can add Insurances, scan, view existing, but not change existing ones or delete, etc.
-    * Edit: Allows users to add insurances, view existing and new, edit existing, scan cards, delete etc. All options available.
+   * No Access: No access to the patient insurance. Nothing insurance related to the patient shows on the demo. screen at all.  Keeps insurance info private.
+   * View: The demographics screen shows insurances and allows a scan of the card.  No editing, no adding options allowed.
+   * Add: Same as view but also gives you the add insurance option. Users can add Insurances, scan, view existing, but not change existing ones or delete, etc.
+   * Edit: Allows users to add insurances, view existing and new, edit existing, scan cards, delete etc. All options available.
 * Checkin: Allows a role access to checkin patients if your practice is set up for this. You can checkin a patient from the scheduler or from the demographic tab. Also allows access to the Checkin tab on the left sidebar menu.
 * Station Manager:  If set to Yes, users can access the Station Manager tab in Checkin. This gives the permission for these users to add, edit, & delete check-in stations.
 * Chart Online: This is whether or not users in a role can mark a chart as online in {{% system-name %}} . This is how you can manually mark charts online full, partial or none with comments outside of the scanning software.
@@ -145,31 +145,31 @@ The Individual Security settings screen for that user will open. Select any secu
 * View Preliminary Documents: If set to YES, the users have the permission to view all preliminary documents and can un-request any preliminary e-sign request.  If it is set to NO, then only the owner or the transcriber of the document is able to view the preliminary document and un-request the preliminary e-sign request.
 * Author Documents: If set to No, this permission will restrict a user from being the authored by user on a document. The user will still have access to upload a document but the "Authored By" will be set to zero.
 * Document Permissions:
-    * No Access: No access/ no view to any type of document in a patient's chart.
-    * View: Can view the documents in a patient's chart tabs only.  Cannot have access to add documents link or edit existing documents.
-    * Add: Can add a document by scanning, word, text, or the add document link, etc. Also this setting allows the user to edit their own documents without having the ‘edit' permission set here.
-    * Append:  Can append a text document only if they are not the owner/creator of the original document. They cannot edit the original document; they can only make an appendage to the text document if they were not the creator (author) of the original document.
-    * Edit: Can append or edit any and all documents in a chart regardless if the user was the creator (author) of the original document or not.
+   * No Access: No access/ no view to any type of document in a patient's chart.
+   * View: Can view the documents in a patient's chart tabs only.  Cannot have access to add documents link or edit existing documents.
+   * Add: Can add a document by scanning, word, text, or the add document link, etc. Also this setting allows the user to edit their own documents without having the ‘edit' permission set here.
+   * Append:  Can append a text document only if they are not the owner/creator of the original document. They cannot edit the original document; they can only make an appendage to the text document if they were not the creator (author) of the original document.
+   * Edit: Can append or edit any and all documents in a chart regardless if the user was the creator (author) of the original document or not.
 * Create Document Rights for All Patients: In the {{% system-name %}} environment, this will be set to None.  This setting is only used currently for NoMoreClipboard and isn't applicable to {{% system-name %}} at this time.  For NoMoreClipboard users, the security level this is set to allows the user to view, add, edit, or delete a document for ANY patient, regardless of if they technically have "rights" to the patient by other means we check.  It doesn't allow them to do anything else with documents or anything else on patients they don't have rights to, just being able to upload a document to any patient's chart.
 * Restrict by Document Send:  If set to Yes, this permission restricts the users viewable documents to those that have been sent to them.
 * Transcribe for others: A person can enter/add documents into the system for someone else such as a doctor, etc.   When creating a document, the AUTHORED BY: will allow you to choose the physician, etc for the document if this is set to YES.  If NO, your name will always be in the AUTHORED BY field and you cannot create/add documents for others as their name. Also, make sure this is set to YES if indexer or transcriptionist.  
 * Sign Document: If set to Yes, this allows users within a security role the ability to sign documents.  You can sign ‘any' document in any patient's chart and also can sign documents from E-Sign tab.   If set to No, this limits users within a security role to only being able to sign their own documents sent to their specific username in the E-Sign tab. They can only sign their own E-sign requests.  The users would not be able to sign just any document in any patient's chart or for any other user's pending e-sign requests.
 * Manage Doc Types:
-    * None: No access to document types tab from a patient's E-Chart at all.
-    * View: Can only view the document types from that tab. Cannot edit, add types or inactivate.
-    * Add: Can view and add document types from that tab.  Cannot change/edit existing types or inactivate/delete types.
-    * Edit: Can view, add, and edit existing document types from that tab.  Cannot delete/inactivate a doc.type.
-    * Delete: Can view, add, edit and delete document types from that tab.
+   * None: No access to document types tab from a patient's E-Chart at all.
+   * View: Can only view the document types from that tab. Cannot edit, add types or inactivate.
+   * Add: Can view and add document types from that tab.  Cannot change/edit existing types or inactivate/delete types.
+   * Edit: Can view, add, and edit existing document types from that tab.  Cannot delete/inactivate a doc.type.
+   * Delete: Can view, add, edit and delete document types from that tab.
 * Manage Doc Type Text Templates:
-    * None: Only allows users to view/select a text template doc.types in that tab.
-    * Add: Allows users to add text & view a text template in doc. types tab.
-    * Edit: Allows users to view and edit/change an existing text template in doc. types tab.
-    * Delete: Allows users to add, view, edit, and delete/inactivate an existing text template in doc. types tab.
+   * None: Only allows users to view/select a text template doc.types in that tab.
+   * Add: Allows users to add text & view a text template in doc. types tab.
+   * Edit: Allows users to view and edit/change an existing text template in doc. types tab.
+   * Delete: Allows users to add, view, edit, and delete/inactivate an existing text template in doc. types tab.
 * Manage Doc Type Word Templates:
-    * None: Only allows users to view/select a word template doc. type in that tab.
-    * Add: Allows users to add a word template & view to a doc.type in that tab.
-    * Edit: Allows users to view and edit/change an existing word template in doc. types tab.
-    * Delete: Allows users to add, view, edit, and delete/inactivate an existing word template in doc. types tab.
+   * None: Only allows users to view/select a word template doc. type in that tab.
+   * Add: Allows users to add a word template & view to a doc.type in that tab.
+   * Edit: Allows users to view and edit/change an existing word template in doc. types tab.
+   * Delete: Allows users to add, view, edit, and delete/inactivate an existing word template in doc. types tab.
 * Manage Master Word Template: Allows or denies access to the master Word Template in the Doc Type Editor tab. It is commonly used for storing global AutoText that all the transcriptionists need.
 * Manage Doc Type Form Templates:  Allows or denies access to the Add and Edit feature of changing and adding forms to the forms library in the Doc Type Editor tab.
 * Manage Doc Type Restrictions: In the Document Type tab, and  select a doc. type, YES will allow users to checkmark the box to Restricted Viewing to only allow certain users/roles to access that doc. type information when adding/editing a doc. type. NO does not make this check-mark box available to users when they edit/add a doc. type.
@@ -177,10 +177,10 @@ The Individual Security settings screen for that user will open. Select any secu
 * Allow Doc.Type Declaration:  If set to Yes, users can specify the doc.type abbreviation when creating or editing a doc.type to the system. If set to No, users cannot name a doc.type.  The system will automatically assign a doc.type number to the doc.type created.
 * Manage User Roles:  Allows access to the User Role Editor tab in Control. This is mainly for MIE use/programming.
 * Manage Locations: Refers to the Loc Editor tab in E-Chart
-    * No Access: Click Loc Editor tab and have no access
-    * Add: Click Loc Editor tab and can add a location of your company/site. This affects indexing.
-    * Edit: Click Loc Editor tab and can add or edit or delete a location in your system.
-    * View: Click Loc Editor tab and can view the locations only. No changes can be made.
+   * No Access: Click Loc Editor tab and have no access
+   * Add: Click Loc Editor tab and can add a location of your company/site. This affects indexing.
+   * Edit: Click Loc Editor tab and can add or edit or delete a location in your system.
+   * View: Click Loc Editor tab and can view the locations only. No changes can be made.
 * Manage Chart Tabs: YES allows users full access to the Chart Tab. Meaning can view, edit, add, delete chart tab types.  NO does not allow users any access to this tab entirely.
 * Manage Chart Tab Restrictions:  If set to Yes, users are permitted to restrict chart tabs and maintain user access to those restricted chart tabs.  The link restrictions option in the chart tab column appears for these users that are allowed to manage the chart tabs that are restricted. They can also un-restrict Chart tabs that have been set to be Restricted Access. If this permission is set to No, the users will not be able to un-restrict chart tabs or edit (manage) any allowed users for a restricted tab. The restrictions option in the chart tab column will not be available to these users.
 * Manage Print Defs: YES allows users full access to the Print Definition Editor tab. Meaning can view, edit, add, delete print definitions.  NO keeps a role from accessing this tab entirely.
@@ -196,12 +196,12 @@ The Individual Security settings screen for that user will open. Select any secu
 * Allow Batch Printing: Choose Yes or No. Users can append print/fax jobs into a batch which allows for picking and choosing specific documents within a chart, or even between different patients. Also allow a user to create a batch if running a Document Report search found in the reports module.
 * Allow Print Without Headers:  Choose Yes or No. Users with yes permission will be given the checkmark box in the Print mode whether they want to print/fax the document with a patient summary header at the top of the document or not. The No permission will make the printing/faxing of any document for that user always have the patient summary header at the top of the document.  They do not have an option.
 * Document Queue: This queue is for documents that come from an outside source such as Parkview, that need to be manually linked to a patient in {{% system-name %}} .  Users can then look at the documents and send them to the correct patient if {{% system-name %}} could not figure it out (couldn't merge).
-    * View: Can view the document queue tab to see what's out there that needs to be merged.  If have right set to view, the users will also see the # of Doc Queue documents pending & the link at the top left of the screen.
-    * No Access: Cannot view the document queue tab to see what's out there to be merged. Users will not see the # of Doc Queue documents pending nor the link.
+   * View: Can view the document queue tab to see what's out there that needs to be merged.  If have right set to view, the users will also see the # of Doc Queue documents pending & the link at the top left of the screen.
+   * No Access: Cannot view the document queue tab to see what's out there to be merged. Users will not see the # of Doc Queue documents pending nor the link.
 * Print Chart:  
-    * None:  Users in the security role will not be able to print or fax any documents.  Can only view.
-    * Print: Users in the security role will have the option to print documents only.  No faxing option available.
-    * Fax: Users in the security role will have options available to fax and/or print documents.  Full access.
+   * None:  Users in the security role will not be able to print or fax any documents.  Can only view.
+   * Print: Users in the security role will have the option to print documents only.  No faxing option available.
+   * Fax: Users in the security role will have options available to fax and/or print documents.  Full access.
 * Print Dicom:  Allows or denies access for users to print Dicom documents between systems. Also allows or denies users the ability to burn DICOM images to a CD.
 * Securely Email Documents: Allows or denies access for users to setup and create auto routes and manual data routes for sending documents via routing. This must be set to 'yes' in order to use Send by AutoRoute security setting.
 * Send Patient Data:  Allows or denies access for users to setup and create auto routes and manual data routes for sending documents via routing.  This must be set to ‘yes' in order to use Send by AutoRoute security setting.
@@ -209,90 +209,90 @@ The Individual Security settings screen for that user will open. Select any secu
 * Unlock Sending Routes:  This is mainly for MIE/Techsupport use and specific admins allowed to this function. In some cases of a coding error, routes can become ‘stuck' in the ‘In Progress' status as ‘sending' status. This security allows MIE/Tech support (intended audience) to retry these stuck routes without reverting to a backend tool. This feature allows the unlocking of any 'stuck' route which has been stuck for more than an hour.
 * Chart Define Fax Number: Allows or denies access for users to setup fax numbers for faxing from {{% system-name %}} .
 * RX Manager: Allows users in a security role to access levels of the Meds Tab for any patient.  
-    * View: Can only view information in the Meds tab for a patient.  Can't edit/add or delete anything.
-    * Add/Append: Can add or append to drugs/prescriptions in the Meds tab, but cannot change or delete anything.
-    * Edit: Full access to the Meds tab. Can add, change, delete, etc.  
-    * No Access: Totally blocked from the Meds tab screen of a patient's chart, also blocked from the meds/allergies summary header in any tab of the patient's chart.
+   * View: Can only view information in the Meds tab for a patient.  Can't edit/add or delete anything.
+   * Add/Append: Can add or append to drugs/prescriptions in the Meds tab, but cannot change or delete anything.
+   * Edit: Full access to the Meds tab. Can add, change, delete, etc.  
+   * No Access: Totally blocked from the Meds tab screen of a patient's chart, also blocked from the meds/allergies summary header in any tab of the patient's chart.
 * RX Remember Freq:  Allows a role to save changed frequency values on meds.
 * RX Library Edit: Allows a user to edit the names of the Libraries in the system.
 * RX Search: Allows a user access to the Meds under the Reports tab, which gives a quick summary of all the meds on the system.
 * RX Change Therapy: Changing therapy permission of YES will allow the user to be able to change scripts and will set the script to be in the print/fax queue. Changing therapy automatically puts the med on the list to be printed/transmitted.  If your permission is set to NO, you can still edit it to fix mistakes, but you cannot cause it to be printed without the physician's approval.  
 * DICOM Push: This is to allow users to send DICOM images in the {{% system-name %}} system.
 * Conditions:  This allows users to manipulate the conditions seen in the Conditions Tab of a patient.  This could be existing conditions that the patient has or new conditions that you want to add.  Each condition is recognized by an ICD-9 code.
-    * No Access: No access to the patient's conditions tab;
-    * View:  Can view the patient's conditions tab only;
-    * Add: Can view and add patient & family conditions to the tab;
-    * Edit: Can view/add/and edit/delete to the patient's conditions tab.
+   * No Access: No access to the patient's conditions tab;
+   * View:  Can view the patient's conditions tab only;
+   * Add: Can view and add patient & family conditions to the tab;
+   * Edit: Can view/add/and edit/delete to the patient's conditions tab.
 * E-sign Template Editor: This allows users within a security role to access the tab in E-Sign called Esign Editor.  This is the tab that shows the e-signs set up to request automatically and can add a template from here.  
 * Storage Report Display:  Allows users in a role the ability to run the storage report or not.
 * Simple Add: Allows users in a security role to access Simple Add module/procedure in the Meds tab for each patient.
 * Prescribe: Allows users in a security role to access Prescribe module/procedure in the Meds tab for each patient.In Control category:
 * Manage E-Rx Refills for Others:  Allows user to be able to see all pending e-refill requests in the e-refills queue pending for all prescribers.  They can then work those e-refill requests for the prescriber (ex: physician goes on vacation and allows another physician to work his incoming requests because all requests need to be worked within the mandated 48 hour timeframe from SureScripts).
 * Drug Interaction Alerts:  Sets the severity of drug-drug interaction warnings shown to the user.
-    * Show All: All severity levels of warnings will be shown;
-    * Moderate: Moderate severity and higher warnings will be shown;
-    * Severe: Only severe, contraindicated and higher warnings will be shown;
-    * Hide All: No drug-drug interaction warnings will be shown.
+   * Show All: All severity levels of warnings will be shown;
+   * Moderate: Moderate severity and higher warnings will be shown;
+   * Severe: Only severe, contraindicated and higher warnings will be shown;
+   * Hide All: No drug-drug interaction warnings will be shown.
 * Dismiss Warnings:  This sets the level of permission for dismissing any warnings in the Meds tab program and other programs where warnings/alerts your system may be set up for.
-    * No:  will not allow users in the security role to dismiss warnings at any level.
-    * Yes: will allow users in the security role to dismiss warnings for your viewing only and for that patient only.
-    * Dismiss for all Patients:  Usually only the Physician has security rights to dismiss at this level. The physician can dismiss the warning for that specific patient only or also has the option to dismiss the specific warning for all patients for the physician's view.   If the physician dismisses a warning for "all patients' they would only have to dismiss once and never see it generated again.  We discourage this because it really defeats the purpose of showing warnings and affects all other patients and the warning won't pop-up again for any patient.
-    * Dismiss for All Users:  Usually only the Physician has security rights to dismiss at this level.  The physician can dismiss the warning for that specific patient or all patients and dismiss it from view for all users.  
+   * No:  will not allow users in the security role to dismiss warnings at any level.
+   * Yes: will allow users in the security role to dismiss warnings for your viewing only and for that patient only.
+   * Dismiss for all Patients:  Usually only the Physician has security rights to dismiss at this level. The physician can dismiss the warning for that specific patient only or also has the option to dismiss the specific warning for all patients for the physician's view.   If the physician dismisses a warning for "all patients' they would only have to dismiss once and never see it generated again.  We discourage this because it really defeats the purpose of showing warnings and affects all other patients and the warning won't pop-up again for any patient.
+   * Dismiss for All Users:  Usually only the Physician has security rights to dismiss at this level.  The physician can dismiss the warning for that specific patient or all patients and dismiss it from view for all users.  
 * MIEWebScan:  Sets the level of permission of access to MIE WebScan program.
-    * No Access: will not allow users in the security role to access MIE WebScan left sidebar menu tab program.
-    * View: will allow users in the security role to view batches in MIE WebScan left sidebar menu tab program only.  Cannot open or complete a batch in MIE WebScan.
-    * Edit: will allow users in the security role full access to MIE WebScan left sidebar menu tab program.  Users can view, open batches, index batches and upload batches.
+   * No Access: will not allow users in the security role to access MIE WebScan left sidebar menu tab program.
+   * View: will allow users in the security role to view batches in MIE WebScan left sidebar menu tab program only.  Cannot open or complete a batch in MIE WebScan.
+   * Edit: will allow users in the security role full access to MIE WebScan left sidebar menu tab program.  Users can view, open batches, index batches and upload batches.
 * Add Document to Locked Charts: If user has security as YES, the indexer can index documents into locked charts, but because the chart is locked, clicking on the links that normal indexing allows will not allow them to see the patient's chart. Therefore, they must simply click the Upload to Chart button.
 * Manage Baselines: It allows users to add and edit Audiogram baseline data.
 * Send Email to Patient: Yes allows users to utilize the email link and feature in {{% system-name %}} to email patients or email appointment reminders to patients from {{% system-name %}} .
 * Manage VarTree Entries:  Yes allows users to utilize the add new link to add new var-tree selection entries when in encounters and using the var-tree data entry method.  If set to No, users will not see the add new link in a var-tree selection in encounters.
 * Allow setting of FAX From:  If set to Yes (default is No) the user can choose the CSI value of a fax. The CSI value is the Call Station Identifier that is part of the FAX header - it is essentially the caller id of the FAX. If user is set to Yes permission, in the print chart module (fax mode) a drop-down field named From: will show and user can select from a drop-down of fax #'s to set the fax ‘from' on the header that the recipient receives.
 * Allow Unrestricted Pat Search: This permission enables a user to search for (but not necessarily access) any patient, regardless of Limited Access or Partition Restriction settings. The following settings are available:
-    * Yes: The user can search for any patient, regardless of Limited Access or Partition Restriction settings.
-    * No: The user can only search for patients that are accessible based on Limited Access or Partition Restriction settings.
+   * Yes: The user can search for any patient, regardless of Limited Access or Partition Restriction settings.
+   * No: The user can only search for patients that are accessible based on Limited Access or Partition Restriction settings.
 * Manage Saved Templates: Default is set to Self meaning the user can only delete their own saved templates in encounters, etc.  If set to ALL, the user can delete their own or anyone else's saved templates.
 * Allow Auto reconcile of XML Uploads: If set to Yes it allows user to import data from CCR/CDA documents without having a user-patient relationship.
 
 ### **Control**
 
 * Manage Settings:NONE: In the Control tab on the left sidebar menu, in My Settings, it denies user(s) access to view their settings/preferences in My Settings.
-    * Manage Own Settings: In My Settings, it allows the user(s) to view and edit/manage their own preferences/settings when they are logged in as that username.  Cannot view or change other user's settings/preferences.
-    * Manage Other Users Settings: In My Settings, it allows user(s) to view/edit their own settings/preferences and user can select other user(s) and manage/view/change the other user(s) preferences.
-    * Manage Default Settings: In My Settings, it allows user(s) to manage their own and other users settings for My Settings preferences.  This also allows user(s) to manage/edit/change/view system default settings and security role default preference settings.
+   * Manage Own Settings: In My Settings, it allows the user(s) to view and edit/manage their own preferences/settings when they are logged in as that username.  Cannot view or change other user's settings/preferences.
+   * Manage Other Users Settings: In My Settings, it allows user(s) to view/edit their own settings/preferences and user can select other user(s) and manage/view/change the other user(s) preferences.
+   * Manage Default Settings: In My Settings, it allows user(s) to manage their own and other users settings for My Settings preferences.  This also allows user(s) to manage/edit/change/view system default settings and security role default preference settings.
 * View Users:
-    * None: Denies access to users to the view departments in View Users Security. Also this level only shows minimal username information in the dictation module.
-    * View All Users: Allows access to the view departments in View Users Security for all depts.
-    * View Users in Realm: Allows access to the view departments in View Users Security for that department you are tied to only.
+   * None: Denies access to users to the view departments in View Users Security. Also this level only shows minimal username information in the dictation module.
+   * View All Users: Allows access to the view departments in View Users Security for all depts.
+   * View Users in Realm: Allows access to the view departments in View Users Security for that department you are tied to only.
 * AJAX User Add:  Allows users to use the Add New Physician link that displays in the demo header, or options to add users when faxing or setting a preferred pharmacy.  Also allows users to add pharmacies to the Add New Pharmacy link in e-meds fax/transmit mode. These are considered AJAX type modules. The Layouts need programmed by MIE Implementer.
 * Manage Users: Allows users different levels within "Access Control" tab.
-    * None: Users can get to Access Control and do searches on users only and view only.
-    * Edit Selt: Can only edit your own user information and own security if you have that right. Can't  edit or add or delete other users in the system. View only to others.
-    * Manage Realm: Can only manage (edit) users in your assigned department.
-    * Manage All: Can manage (edit/add/delete) all users in Access Control
+   * None: Users can get to Access Control and do searches on users only and view only.
+   * Edit Selt: Can only edit your own user information and own security if you have that right. Can't  edit or add or delete other users in the system. View only to others.
+   * Manage Realm: Can only manage (edit) users in your assigned department.
+   * Manage All: Can manage (edit/add/delete) all users in Access Control
 * Manage User Signatures:  Allows users to view, add, edit signatures for other users when you view a specific username screen.
-    * None:  Can view the signatures of users on their username screen only.  Cannot edit/add signatures for any user.
-    * Edit Self: Can edit/add signature for your username only.  Can view the signatures of other users on their username screen only.
-    * Manage Realm: Can edit/add signatures for users in your specific primary department only.  Can view the signatures of other department users on their username screen only.
-    * Manage All:  Can edit/add signatures for all users in the system in the username screen.
+   * None:  Can view the signatures of users on their username screen only.  Cannot edit/add signatures for any user.
+   * Edit Self: Can edit/add signature for your username only.  Can view the signatures of other users on their username screen only.
+   * Manage Realm: Can edit/add signatures for users in your specific primary department only.  Can view the signatures of other department users on their username screen only.
+   * Manage All:  Can edit/add signatures for all users in the system in the username screen.
 * Manage User Photographs:  Allows users to view, add, edit photographs for other users when you view a specific username screen.
-    * None:  Can view the photo of users on their username screen only.  Cannot edit/add photo for any user.
-    * Edit Self: Can edit/add photo for your username only.  Can view the photo of other users on their username screen only.
-    * Manage Realm: Can edit/add photos for users in your specific primary department only.  Can view the photos of other department users on their username screen only.
-    * Manage All:  Can edit/add photos for all users in the system in the username screen.
+   * None:  Can view the photo of users on their username screen only.  Cannot edit/add photo for any user.
+   * Edit Self: Can edit/add photo for your username only.  Can view the photo of other users on their username screen only.
+   * Manage Realm: Can edit/add photos for users in your specific primary department only.  Can view the photos of other department users on their username screen only.
+   * Manage All:  Can edit/add photos for all users in the system in the username screen.
 * Manage Access: Allows users to change the settings for other users in Security Role Settings (Control).
-    * None: Users have no access to Security Role Settings.
-    * Manage Realm Access: Users can access Security Role Settings and only change settings for their specified department users.
-    * Manage All Access: Users have access to Security Role Settings and can edit all users settings for departments.
+   * None: Users have no access to Security Role Settings.
+   * Manage Realm Access: Users can access Security Role Settings and only change settings for their specified department users.
+   * Manage All Access: Users have access to Security Role Settings and can edit all users settings for departments.
 * View User Watch:
-    * Yes: Allows users access to the User Watch tab in Control.
-    * No: Denies access to the User Watch tab in Control.
+   * Yes: Allows users access to the User Watch tab in Control.
+   * No: Denies access to the User Watch tab in Control.
 * Close Active Logins: If YES, can go to the User Watch tab in Control and delete a person's login.  Can close their active session so that they have to login again.
 * View Print Manager:
-    * No: Denies access to the Print Manager tab in Control.
-    * Yes: Allows users to access the Print Manager tab in Control.
+   * No: Denies access to the Print Manager tab in Control.
+   * Yes: Allows users to access the Print Manager tab in Control.
 * View Outgoing Faxes:
-    * Own: Restricts users to only seeing their own outgoing fax jobs that were sent.  
-    * All Users: Allows users to see all outgoing fax jobs sent by anyone.
+   * Own: Restricts users to only seeing their own outgoing fax jobs that were sent.  
+   * All Users: Allows users to see all outgoing fax jobs sent by anyone.
 * Manage Printers: Allows you to set up printers and change settings in the printer options of the Print Manager tab in Control.
 * View Translations: YES allows users to access the Tran Manager tab in Control to view only.
 * Add Translations: YES allows users to access the Tran Manager tab in Control to view and add only.
@@ -352,8 +352,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Add Schedules: Yes allows users in this security role to add schedules.
 * Edit Schedules: Yes allows users in this security role to edit schedules.
 * View Appointments:
-    * No: Users in this security role cannot view appointments in the scheduler tab.
-    * Yes: Users in this security role can view appointments in the scheduler tab.  ONLY OWNED: Users in this security role are only able to view appointments that he/she has created, no one else's. "Owning" an appointment also consists of being the resource of an appt.
+   * No: Users in this security role cannot view appointments in the scheduler tab.
+   * Yes: Users in this security role can view appointments in the scheduler tab.  ONLY OWNED: Users in this security role are only able to view appointments that he/she has created, no one else's. "Owning" an appointment also consists of being the resource of an appt.
 * Add Appointments: Yes allows users in this security role to add appointments.  Shows add apt option in {{% system-name %}} .
 * Edit Appointments: Yes allows users in this security role to edit existing appointments.
 * Add Apt Historically: Yes allows users in this security role to add appointments before the current day.
@@ -369,10 +369,10 @@ The Individual Security settings screen for that user will open. Select any secu
 ### **Dictation**
 
 * Dictation Access:
-    * None: The users will not have access to the left sidebar menu tab called Dictation.  
-    * Play: The users will have access to the left sidebar tab called Dictation and play any dictation. Cannot edit dictation, cannot grab or complete a dictation job, etc.  Only play dictation.
-    * Edit Own: Gives the users access to their own dictations for editing, completion, etc.
-    * Edit All:  Allows users to change/edit any dictation in the queue.
+   * None: The users will not have access to the left sidebar menu tab called Dictation.  
+   * Play: The users will have access to the left sidebar tab called Dictation and play any dictation. Cannot edit dictation, cannot grab or complete a dictation job, etc.  Only play dictation.
+   * Edit Own: Gives the users access to their own dictations for editing, completion, etc.
+   * Edit All:  Allows users to change/edit any dictation in the queue.
 * All Pending Tab Access: Yes allows this role to have a tab called ALL PENDING and can view all dictation that is pending.
 * In Progress Tab Access: Yes allows this role to have a tab called IN PROGRESS and can view all dictation that is in progress.
 * Completed Tab Access: Yes allows this role to have a tab called COMPLETED and can view all dictation that is completed.
@@ -395,9 +395,9 @@ The Individual Security settings screen for that user will open. Select any secu
 * View Access:  Allows users to get into the Esign left sidebar menu tab.
 * Esign Editor Access: Allows users within a security role to access the Esign Editor top tab in Esign. This is for MIE use. MIE can set up automatic e-sign tasks to happen in many situations/documents/functions, etc.
 * All Pending Access:  None, View or Delete.  
-    * None: Does not allow users to access the All Pending E-Sign tab.
-    * View: Allows users to the All Pending E-Sign tab to see who and how many e-signs are pending and can also preliminary sign others e-sign requests from here.
-    * Delete: Allows users to the All Pending E-sign tab with all the same permissions as view has, but also this level allows a user to clear e-sign queues for other users.
+   * None: Does not allow users to access the All Pending E-Sign tab.
+   * View: Allows users to the All Pending E-Sign tab to see who and how many e-signs are pending and can also preliminary sign others e-sign requests from here.
+   * Delete: Allows users to the All Pending E-sign tab with all the same permissions as view has, but also this level allows a user to clear e-sign queues for other users.
 * Proxy Signing:  Yes allows users security to the proxy sign link in the all pending e-sign tab. Another physician/user can replace that person's signature with his/her own (so that documents can be sent out without having to wait for that person to return to e-sign.) When that link is clicked, the multi-review queue will open and the user with rights will be able to choose the documents he/she wants to sign. His/her signature is added to the document(s) and the other person's signature/e-sign request for their signature is removed. This will remove that document from the person's document queue.
 
 ### **TaskList**
@@ -405,15 +405,15 @@ The Individual Security settings screen for that user will open. Select any secu
 * View Access:  This allows users to view the TaskList tab and tasks. Users who have View Access set to NO for tasklist will not appear in the user drop down when adding a task.  Those users set to NO view access will not be available in the drop-down for other users to select to task to. Those users will not be able to be tasked since their security is NO for View Access in tasking. Also, they will not be tasked when All Must Acknowledge is selected as the user for any department/practice wide, etc.
 * Add Tasks: This allows users within a security role to add/send/create tasks. Shows the add task option in {{% system-name %}} . You must also have access to this if you choose the E-sign options of Sign and Add Task, Reject and Add Task, or Add Task W/O Signing.  If you do not have this access and you click one of those options, you will get an error message and a task will not be sent.
 * Manage Tasks:
-    * OWN: Allows your tasks to be viewed and worked on, edited only.  Task would have to be specified to your username.
-    * REALM: Allows your department tasks to be viewed and worked on, edited.  Task would have to be specified to your department or department(s) if you belong to more than 1 dept.  
-    * ALL: Allows you to view, work on, edit all tasks that are assigned.
+   * OWN: Allows your tasks to be viewed and worked on, edited only.  Task would have to be specified to your username.
+   * REALM: Allows your department tasks to be viewed and worked on, edited.  Task would have to be specified to your department or department(s) if you belong to more than 1 dept.  
+   * ALL: Allows you to view, work on, edit all tasks that are assigned.
 * Manage Fast Tasks: Allows you to create/delete/edit fast-task templates.
 * View All Pending: Choose Yes or No. This will allow you to see the tab called ALL PENDING tab in the Task List tab.  This shows all the tasks that are still pending by users and by departments.
 * View All Completed: Choose Yes or No. A user can always view the Completed tab. It will only show their specific username completed tasks though if this is set to NO. It will not allow a user to see any other person's completed tasks or search for them. If this is set to YES, a user will be able to view their own username completed tasks in the Completed tab, and a search box will appear at the top. This allows users within a security role to search for another person's completed tasks, another department's completed tasks, specific owner or sender, and also allows a date range.
 * Task Search:  Choose Yes or No.
-    * Yes: Allows access to the Task Search tab found in the Task List sidemenu module.
-    * No: Will restrict a user from accessing the Task Search tab.
+   * Yes: Allows access to the Task Search tab found in the Task List sidemenu module.
+   * No: Will restrict a user from accessing the Task Search tab.
 * Edit Tasklist Events: Allows a user to view/edit/delete in the TaskList Events tab. Tasklist Events are how a task is triggered when a document is added/edited/signed if a TaskList Events is set up for that document.
 * Clear All Tasks:  Allows a user to see the Clear All Tasks option link in the All Pending Tasklist tab.  The user can then clear all tasks from a user's queue quickly and in mass if needed.
 
@@ -462,18 +462,18 @@ The Individual Security settings screen for that user will open. Select any secu
 ### **Explanation of Benefits**
 
 * EOB Permissions:  This is access to the EOB left sidebar tab.
-    * No Access:  No access to EOB left sidebar tab.
-    * View Access: Allows role to access EOB left sidebar tab.  Can search, print EOB's, print index pages, etc, but cannot edit an existing EOB batch.
-    * Add Access:  This is the same security level as View Access.  View Access and Add Access are the same thing for this permission.
-    * Edit Access: Allows role to access EOB left sidebar tab.  Can search, print EOB's, print index pages, etc and can also edit descriptions an existing EOB batch (Document type, Date, and Description).
+   * No Access:  No access to EOB left sidebar tab.
+   * View Access: Allows role to access EOB left sidebar tab.  Can search, print EOB's, print index pages, etc, but cannot edit an existing EOB batch.
+   * Add Access:  This is the same security level as View Access.  View Access and Add Access are the same thing for this permission.
+   * Edit Access: Allows role to access EOB left sidebar tab.  Can search, print EOB's, print index pages, etc and can also edit descriptions an existing EOB batch (Document type, Date, and Description).
 
 ### **Incoming File Queue**
 
 * Incoming File Queue:  This is access to the FaxQ left sidebar tab (these are incoming/received faxes.)
-    * No Access:  No access to FaxQ left sidebar tab.
-    * View: Allows role to access FaxQ left sidebar tab.  Can search, preview, print faxes but cannot edit, move, delete or categorize received faxes.
-    * Manage: Allows role to access FaxQ left sidebar tab.  Can search, preview, print, manage, move, categorize, batch, index received faxes.
-    * Permission Editor:  Yes allows users to access the FaxQ Perms tab found in control and access to the phone number permissions function button in the Fax Queue itself.  This is where incoming file queue phone number permissions are set. If set to no, the phone number permissions function button will not display in the Fax Queue itself and the user will also not have access to the FaxQ Perms tab from control.
+   * No Access:  No access to FaxQ left sidebar tab.
+   * View: Allows role to access FaxQ left sidebar tab.  Can search, preview, print faxes but cannot edit, move, delete or categorize received faxes.
+   * Manage: Allows role to access FaxQ left sidebar tab.  Can search, preview, print, manage, move, categorize, batch, index received faxes.
+   * Permission Editor:  Yes allows users to access the FaxQ Perms tab found in control and access to the phone number permissions function button in the Fax Queue itself.  This is where incoming file queue phone number permissions are set. If set to no, the phone number permissions function button will not display in the Fax Queue itself and the user will also not have access to the FaxQ Perms tab from control.
 
 ### **Health Surveillance**
 

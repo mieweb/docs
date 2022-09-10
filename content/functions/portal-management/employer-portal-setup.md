@@ -2,12 +2,12 @@
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Employer Portal Setup'
 date: '2021-08-27T18:32:47.675Z'
-version: 133
+version: 136
 lastAuthor: 'Aris Eracleous'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Employer Portal Setup'
@@ -73,9 +73,9 @@ Home Page
 * <strong>Welcome image ID</strong>: Using the link to the {{% syslink "System Files Manager" "f=admin&s=system_files&tabmodule=admin&tabselect=System+Files" %}} , upload an image to be seen on the portal Welcome screen. Click <strong>Add System File</strong>, select the preferred image, storing it as a <em>JPEG image file</em>, and set the alias as <strong>supervisor-landing-43</strong>. The desired dimensions are 650 x 412.
 * <strong>Message ticker</strong>: Use the message ticker to display important information, or messages, at the bottom of the portal Welcome page. The ticker will rotate through each message and scroll right to left, for long messages. Additional messages can be added, updated, or edited using the <strong>Add/Edit Messages</strong> links. A SuperUser security permission is required for adding or editing messages
 
-  {{% tip %}}
+{{% tip %}}
   Messages are constructed using a limited markup that allows bold, italic, and linking. For help with the markup, click the help icon in the top-right of the page. Click <strong>Provide Help</strong>, and then click the <strong>Get Editing Help</strong> link.
-  {{% /tip %}}
+{{% /tip %}}
 
 Message Center
 * <strong>Configuration</strong>: Clicking the <strong>Add messages types</strong> link will take users to the currently selected chart tab. The <strong>View Preliminary Documents</strong> security setting must be set to <strong>Yes</strong> for users to view documents.
@@ -97,17 +97,17 @@ The expanded Select Module section allows for configuration of each module, if n
 
 
 2. There are ten (10) modules that can be selected within the Employer Portal, as well as the ability to link to questionnaires/forms, as needed:
-    1. <strong>Case Review Status</strong>
-    2. <strong>EJTA</strong>
-    3. <strong>Health Surveillance</strong>
-    4. <strong>Order Status</strong>
-    5. <strong>Orders</strong>
-    6. <strong>Reports</strong>
-    7. <strong>Send a Message</strong>
-    8. <strong>Supervisor Scheduling</strong>
-    9. <strong>Support</strong>
-    10. <strong>Work Status</strong>
-    11. <strong>Questionnaires/Forms</strong>
+   1. <strong>Case Review Status</strong>
+   2. <strong>EJTA</strong>
+   3. <strong>Health Surveillance</strong>
+   4. <strong>Order Status</strong>
+   5. <strong>Orders</strong>
+   6. <strong>Reports</strong>
+   7. <strong>Send a Message</strong>
+   8. <strong>Supervisor Scheduling</strong>
+   9. <strong>Support</strong>
+   10. <strong>Work Status</strong>
+   11. <strong>Questionnaires/Forms</strong>
 3. All of the module names can be edited or renamed using the <strong>Custom Module Name</strong> field, under each section heading.
 {{% info %}}
 
@@ -136,8 +136,8 @@ The Send a Message module can have its name and header customized, the sending i
 3. <strong>Instruction text</strong>: Use this field to add any additional, optional instructions for the <em>Send a Message</em> page.
 4. <strong>Restrict employee autocomplete by partition</strong>: Use this field to add optional partition restrictions for the employee autocomplete available to Supervisor Contact users.
 5. <strong>Allowed message types for sending within portal</strong>: These message types determine what types of messages can/cannot be sent to/from the portal. The defaults are:
-    1. Incident Report
-    2. Incident Report Supervisor Review
+   1. Incident Report
+   2. Incident Report Supervisor Review
 {{% tip %}}
 
 Click the minus button to remove any message type, or click the Add message types link, to add an additional message type, as needed.
@@ -154,16 +154,16 @@ Every user intending to use the portal needs to be added by associating the user
 3. Using the <em>Search</em> field and filters, click <strong>Go!</strong> to locate the user needing access to the portal.
 4. Click the <strong>Edit</strong> link in the <em>Options</em> column.
 5. In the upper-right of the screen, locate and click the <strong>Edit Patients Linked to User</strong> link.
-   {{% note %}}
+{{% note %}}
    All users needing access to the portal will need an email on their profile, and the <strong>Def. User Role</strong> field set to <strong>User-Limited Access</strong>.
-   {{% /note %}}
+{{% /note %}}
 6. Once on the <em>Patients Linked to User</em> screen, ensure the user is listed in the table, twice:
-    1. The user should be listed with the role of <strong>Self</strong>; and
-    2. He/She should be listed with the role of <strong>No More Clipboard User</strong>.
+   1. The user should be listed with the role of <strong>Self</strong>; and
+   2. He/She should be listed with the role of <strong>No More Clipboard User</strong>.
 7. If the user is not listed in the table correctly:
-    1. Begin typing the user's last name, and using the autocomplete, select the user.
-    2. Use the drop-down to set the user's role to Self and/or No More Clipboard User.
-    3. Click the <strong>Add</strong> button, to add each necessary role.
+   1. Begin typing the user's last name, and using the autocomplete, select the user.
+   2. Use the drop-down to set the user's role to Self and/or No More Clipboard User.
+   3. Click the <strong>Add</strong> button, to add each necessary role.
 8. After all changes have been made, click the <strong>Submit</strong> button.
 
 {{% tip %}}
@@ -180,8 +180,8 @@ Linking users to a supervisor allows the managing user to log into the portal an
 4. Click the <strong>Edit</strong> link in the <em>Options</em> column.
 5. In the upper-right of the screen, locate and click the <strong>Edit Patients Linked to User</strong> link.
 6. Once on the <em>Patients Linked to User</em> screen, ensure the user in context is listed in the table, twice:
-    1. The user should be listed with the role of <strong>Self</strong>; and
-    2. He/She should be listed with the role of <strong>No More Clipboard User</strong>.
+   1. The user should be listed with the role of <strong>Self</strong>; and
+   2. He/She should be listed with the role of <strong>No More Clipboard User</strong>.
 7. Using the autocomplete, begin typing the last name of the subordinate, and select the user.
 8. Using the drop-down, select <strong>No More Clipboard User</strong> role.
 9. Click the <strong>Add</strong> button.

@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms002v11'
 source: 'https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan'
@@ -120,18 +120,18 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Preventive Care section
 3. Add the Depression Screening to the exam
-    1. For patients under 18, use the Adolescent Depression Screening
-    2. For patients 18+, use the Adult Depression Screening
+   1. For patients under 18, use the Adolescent Depression Screening
+   2. For patients 18+, use the Adult Depression Screening
 4. Click Add to Exam
 5. Open the Depression Screening section
 6. Complete the questions
 7. Close the section
 8. If the PHQ9 Calculation in the Depression Screening indicates the patient is positive for depression, order depression follow-up
-    1. Open the Preventive Care section
-    2. Open the Depression Follow-up picklist
-    3. Order the appropriate follow-up items(s) for the patient
-    OR
-    4. E-prescribe an antidepressant medication
+   1. Open the Preventive Care section
+   2. Open the Depression Follow-up picklist
+   3. Order the appropriate follow-up items(s) for the patient
+   OR
+   4. E-prescribe an antidepressant medication
 10. Continue documenting the encounter, as appropriate
 11. When completed, Close and Archive the encounter
 
@@ -140,16 +140,16 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Tests and Procedures section
 3. Search for Depression Screening in the autocomplete
-    1. For patients under 18, use the Adolescent Depression Screening
-    2. For patients 18+, use the Adult Depression Screening
+   1. For patients under 18, use the Adolescent Depression Screening
+   2. For patients 18+, use the Adult Depression Screening
 4. Click Add to Exam
 5. Open the Depression Screening section
 6. Complete the questions
 7. Close the section
 8. If the PHQ9 Calculation in the Depression Screening indicates the patient is positive for depression, order depression follow-up
-    1. Order the appropriate follow-up items(s) for the patient
-    OR
-    2. E-prescribe an antidepressant medication
+   1. Order the appropriate follow-up items(s) for the patient
+   OR
+   2. E-prescribe an antidepressant medication
 10. Continue documenting the encounter, as appropriate
 11. When completed, Close and Archive the encounter
 

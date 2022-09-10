@@ -6,7 +6,7 @@ version: 44
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Device Interface - EKG System'
@@ -102,8 +102,8 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 1. Scroll to the "filebox"
 2. Change the smartcard to point to the correct folder.
-    1. Changing smartcard:
-        1. Right click on filebox
+   1. Changing smartcard:
+      1. Right click on filebox
 
 ![](../device-interface-ekg-system.assets/10000000000000B600000104C4F84B3EB8F0AEB1.png)
 
@@ -112,13 +112,13 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 ![](../device-interface-ekg-system.assets/1000000000000140000001484533436908AD048D.png)
 
 1. Choose the correct location of the for files (-LCC EKG Results) and select ok
-    1. File should populate the filebox
+   1. File should populate the filebox
 1. Choose the EKG file.
 !Images^components_system_configuration_interfaces_device_device_interfaces_ekg_system_media_27.png!
 .
 
 1. Select the Get Interpretation button
-    1. Interpretation should populate the textbox.
+   1. Interpretation should populate the textbox.
 1. Select the upload button
 
 ![](../device-interface-ekg-system.assets/100000000000029C000000EB1F20D5BFCDFB84C0.png)

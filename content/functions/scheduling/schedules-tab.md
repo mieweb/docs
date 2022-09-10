@@ -2,11 +2,11 @@
 id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 title: 'Schedules Tab'
 date: '2020-02-27T19:48:23.179Z'
-version: 64
+version: 69
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Schedules Tab'
@@ -37,7 +37,7 @@ The Scheduler Editor screen opens.
 ![](../schedules-tab.assets/100000000000040F0000022877A8600826A62B7C.png)
 
 * <strong>Start/End time</strong>: This is a required field. Use today's date and the person's start time on their work day. Use today's date and the person's end time on their work day. OR use the specific date/time range you are blocking something for.
-    * <strong>Duration:</strong> Based on the start and end time you enter, the duration will be automatically calculated and filled in here. Or you can change the Duration and it will automatically calculate from the start time entered and change the end time to the duration you specified. Putting in an end time will set the duration. Choosing a duration will set the end time.
+   * <strong>Duration:</strong> Based on the start and end time you enter, the duration will be automatically calculated and filled in here. Or you can change the Duration and it will automatically calculate from the start time entered and change the end time to the duration you specified. Putting in an end time will set the duration. Choosing a duration will set the end time.
 * <strong>Resource</strong>: This is a required field. This is the Person(s) name for the schedule. Begin typing in the name of the resource for this schedule. You can also hit the ↓ down arrow button on your keyboard to see some selections. To set the schedule to any and ALL locations, simply leave this field blank. To set a schedule to multiple resources, you will need to create multiple schedules, one resource at a time by using the <em>save info and use again</em> link provided at the top of this <em>add schedules</em> screen.
 * <strong>Location:</strong> Shows on schedule and narrows down searching if select a location. Does not show outside locations. (This is on month/week schedule adding only). Specify a location by using the auto-complete or hitting the ↓ down arrow button on your keyboard to see some selections. To set the schedule to any and ALL locations, simply leave this field blank. To set a schedule to a few specific locations, you will need to create multiple schedules, one location at a time by using the <em>save info and use again</em> link provided at the top of this <em>add schedules</em> screen. When scheduling a resource at multiple locations, the setting "Warn on Resource Scheduled at Another Location" controls how to warn the user. If it is 1, the user gets a warning after saving in the systems ‘warning' color scheme. If the setting is 2, the user is told and the schedule is not saved. The message comes up in the ‘alert' color scheme and the user must ‘force' the action to proceed. The force option is only given if the user has the security permission of "Schedule Resource at Multiple Locations." For this feature, please contact your Implementer and they will activate.
 * <strong>Display Appointments Inside Schedule</strong> Some clients use this. It's like the old ‘absorb' button. If this is checkmarked, it takes all appointments that occur and make them comments. When displaying a schedule, this setting will cause basic appointment info to show up inside of the schedule. When a schedule is exported the appointment info is sent as comments on the schedule. It is a sort of a ‘Where am I for the day' view.
@@ -45,7 +45,7 @@ The Scheduler Editor screen opens.
 * <strong>Total Appointments Allowed:</strong> This is the number of Appointments allowed in this Schedule. Type in the number of appointments you want allowed/restricted to in a full day's schedule. Example: if you set it to 10, there can only be 10 appointments added in the time the schedule occupies. 0 (zero) mean unlimited appointments allowed. This is defaulted to blank, which is unlimited so you must specify the # of appts allowed for this schedule.
 * <strong>Schedule Color:</strong> You can select a color for the schedule. It does not affect/alter appointment type colors, etc.
 * <strong>Display ‘Add Appointment' Links:</strong> Use drop-down to specify at what increment for the appointments link to show up. It then puts a <em>link</em> to add/schedule an appointment inside of the scheduler instead of clicking on the yellow time link. This provides a quick way for adding appointments from the scheduler that uses this specific schedule.
-    * The selection NO from this drop-down will not display links for this schedule. YES will display the links at the user's default increment that is set in MY SETTINGS preference for this schedule. However, if you select a specific minute/hour increment, it will display the link with those specific increments for this schedule.
+   * The selection NO from this drop-down will not display links for this schedule. YES will display the links at the user's default increment that is set in MY SETTINGS preference for this schedule. However, if you select a specific minute/hour increment, it will display the link with those specific increments for this schedule.
 
 ![](../schedules-tab.assets/10000000000002C1000000B71C8C7A845FFC8B7A.png)
 
@@ -59,7 +59,7 @@ The Scheduler Editor screen opens.
 
 * <strong>Add All</strong> Link: You can use the <strong>Add All</strong> link provided to add all appt types to this schedule (instead of selecting each individually). You can also use the <strong>Add All</strong> link provided and then remove a specific appt type that you don't want to be included if it's easier to select all of them and just eliminate a few. The <strong>Add All</strong> link (if used) skips any that are already in the list so that any appt types already listed there and set to ‘required' will stay. Using the <strong>Add All</strong> link defaults the appt type as <em>not</em> required.
 * <strong>Recurrence</strong>
-    * Click the RECURRENCE button to set any recurrences to the schedule.
+   * Click the RECURRENCE button to set any recurrences to the schedule.
 
 ![](../schedules-tab.assets/100002010000026E000000D033B703FB60486FF7.png)
 

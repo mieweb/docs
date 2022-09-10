@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971'
   - 'https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y'
 source: 'https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Create PFT Data File for Import'
@@ -24,7 +24,7 @@ This document explains how to import your pulmonary function testing data into {
 What you will need:
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * PFT Data CSV File Example
-* {{% system-name %}} end user with administrative rights
+{{% system-name %}}*  end user with administrative rights
 
 ## Create PFT Data CSV File
 

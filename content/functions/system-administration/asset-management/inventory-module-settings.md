@@ -6,7 +6,7 @@ version: 57
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Inventory Module Settings'
@@ -126,7 +126,7 @@ Run a test Transaction Report in the {{% system-name %}} system to make these sy
 #### Supply Orders
 
 * <strong>Orders, Settings, Order From Inventory:</strong> Disabled (value 0) by default. Recommended to enable (value 1) if using inventory module for supply orders. This system setting then enables ability to order supply items from inventory using <em>orders</em> and makes the QTY# (quantity) show up on each order item when ordering supplies from inventory. This will allow the order item to decrement from inventory.
-    * So essentially to see QTY# (quantity) count of current inventory for order supplies tied to inventory, this system setting must be enabled.
+   * So essentially to see QTY# (quantity) count of current inventory for order supplies tied to inventory, this system setting must be enabled.
 
 ![](../inventory-module-settings.assets/100002010000016700000026EBAA81CC590968DC.png)
 

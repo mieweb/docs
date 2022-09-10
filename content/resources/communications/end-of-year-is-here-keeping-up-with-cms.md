@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/mips/mips-value-pathways'
   - '../communications.md'
 source: 'https://drive.google.com/open?id=1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'End-of-Year Is Here: Keeping Up with CMS'
@@ -32,18 +32,18 @@ It is that time of year, again! Quality reporting is upon us, and {{% system-nam
 With the 2019 performance year ending December 31st, it is important to ensure you are enrolled and ready for attestation, if necessary. Here's what you need to do to prepare for the new year!
 1. Using a National Provider Identifier (NPI), check the [participation status](https://qpp.cms.gov/participation-lookup) for each eligible clinician.
 2. Participants should ensure [enrollment has been completed successfully](../../functions/quality-of-care/quality-reporting-enrollment.md).
-    1. Deadline for submitting a PI Hardship Exception Application - <strong>December 31, 2019</strong>
-    2. Deadline for submitting a QPP Extreme and Uncontrollable Circumstance Exception Application - <strong>December 31, 2019</strong>
-    3. <strong>2019 Performance Data Submission window</strong> is <strong>January 2, 2020 - March 31, 2020</strong>
+   1. Deadline for submitting a PI Hardship Exception Application - <strong>December 31, 2019</strong>
+   2. Deadline for submitting a QPP Extreme and Uncontrollable Circumstance Exception Application - <strong>December 31, 2019</strong>
+   3. <strong>2019 Performance Data Submission window</strong> is <strong>January 2, 2020 - March 31, 2020</strong>
 1. Determine data submission method and submit performance data:
-    1. [Self-attestation via file submission](../../functions/quality-of-care/create-file-for-submission.md); or
-    2. Reach out for assistance and consulting, if necessary ($250/hr)
+   1. [Self-attestation via file submission](../../functions/quality-of-care/create-file-for-submission.md); or
+   2. Reach out for assistance and consulting, if necessary ($250/hr)
 
 ## Enrollment and Attestation
 
 As noted, enrollment is as simple as first checking your [participation status](https://qpp.cms.gov/participation-lookup). Once participation is confirmed, follow these [enrollment steps](../../functions/quality-of-care/quality-reporting-enrollment.md):
 1. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
-    1. If the Quality Reporting portlet is not enabled, click the <strong>Select Portlets</strong> link toward the top of the page. Select the <em>Quality Reporting</em> portlet, and click the <strong>Save</strong> button.
+   1. If the Quality Reporting portlet is not enabled, click the <strong>Select Portlets</strong> link toward the top of the page. Select the <em>Quality Reporting</em> portlet, and click the <strong>Save</strong> button.
 1. Click the {{% syslink "Enroll" "f=layout&module=MIPS&name=Advanced+Measure+Enrollment&user_id=50&redirect=f%3Domniscope&tabmodule=+" %}} hyperlink to begin the enrollment process.
 2. After the page loads, use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
 3. If enrolling in a specific program, or one of the sponsored incentive programs, specify the <strong>Start/End Dates</strong> of the intended performance period. Otherwise, leave blank.
@@ -61,9 +61,9 @@ To begin, perform the following:
 5. Use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
 6. Because MIPS requires particular reporting periods for its measure categories, be sure to specify the <strong>Period</strong> for each performance category. Understand that all users/providers specified will be enrolled for the same period and measures selected. If different measures and periods are required for different users/providers, perform this step with each user/provider, individually.
 7. When all of the measures have been selected for the performance category, click the <strong>Submit</strong> button.
-   {{% warning %}}
+{{% warning %}}
    <strong>Be sure to enroll in ONLY the measures for which supporting documentation can be provided, as outlined by the measure specification. DO NOT enroll in any measures for which supporting documentation cannot be provided in the event of an audit.</strong>
-   {{% /warning %}}
+{{% /warning %}}
 8. If there are any additional performance categories, the page will refresh and load the instructions and Opt-In block, again, as well as any measures offered under that category. Follow the provided instructions and select any and all appropriate measures. Click the <strong>Submit</strong> button when ready to continue.
 9. Continue until all categories of the program have been updated.
 10. Once all categories are addressed and measures are successfully selected and submitted, Status for All Providers (enrolled) will display in grid form.
@@ -103,13 +103,13 @@ Due to the ongoing changes and updates needed for 2020 compliance, {{% system-na
 * Data completeness threshold increased to 70%
 * Flat percentage benchmarks have been established in limited cases where CMS determines that the measure's otherwise applicable benchmark could potentially incentivize treatment that could be inappropriate for particular patients
 * Added new specialty sets:
-    * Speech Language Pathology
-    * Audiology
-    * Clinical Social Work
-    * Chiropractic Medicine
-    * Pulmonology
-    * Nutrition/Dietician
-    * Endocrinology
+   * Speech Language Pathology
+   * Audiology
+   * Clinical Social Work
+   * Chiropractic Medicine
+   * Pulmonology
+   * Nutrition/Dietician
+   * Endocrinology
 
 ### Cost Performance Category
 
@@ -121,15 +121,15 @@ Due to the ongoing changes and updates needed for 2020 compliance, {{% system-na
 * Updated the patient-centered medical home criteria, removing the reference to the four listed accreditation organizations to be recognized as patient-centered medical homes and removing the reference to the specific accrediting organization for comparable specialty practices
 * Added 2 new, and removed 15 existing, Improvement Activities; established factors for consideration for removal
 * Increased the participation threshold for group reporting from a single clinician to 50% of the clinicians in the practice needing to perform the same improvement activity.
-    * Groups must perform the same activity during any continuous 90-day period within the same performance year
+   * Groups must perform the same activity during any continuous 90-day period within the same performance year
 
 ### Promoting Interoperability Performance Category
 
 * Removed Verify Opioid Treatment Agreement measure
 * Included the Query of Prescription Drug Monitoring Program (PDMP) measure as an optional measure (available for bonus points)
-    * Beginning with PY 2019, a "yes/no" response is required for the optional Query of PDMP measure, instead of a numerator and denominator
+   * Beginning with PY 2019, a "yes/no" response is required for the optional Query of PDMP measure, instead of a numerator and denominator
 * Reduced the threshold for a group to be considered hospital-based
-    * Instead of 100% of clinicians, more than 75% of clinicians in a group must be a hospital-based individual MIPS-eligible clinician in order for the group to be excluded from reporting the measures under the PI performance category and to have this category reweighted to zero.
+   * Instead of 100% of clinicians, more than 75% of clinicians in a group must be a hospital-based individual MIPS-eligible clinician in order for the group to be excluded from reporting the measures under the PI performance category and to have this category reweighted to zero.
 
 ## Keeping On Keeping On
 

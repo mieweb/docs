@@ -9,7 +9,7 @@ links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Applicant Portal'
@@ -48,32 +48,32 @@ Following the instructions below, *add* these system settings:
 2. Click the <strong>Add System Setting</strong> link in the upper-right corner of the page.
 3. Begin typing the name of the setting in the <strong>System Settings</strong> autocomplete.
 4. Select the correct system setting from the autocomplete options, and type the appropriate value in the <strong>Value</strong> field.
-    1. NMC, Partition, Default on Signup = APP
-        1. Users will need to be assigned to the APP partition.
-    2. NMC, Signup, Limited User Realm = Applicant
-        1. <em>Applicant</em> is the name of the department to which users will be assigned.
+   1. NMC, Partition, Default on Signup = APP
+      1. Users will need to be assigned to the APP partition.
+   2. NMC, Signup, Limited User Realm = Applicant
+      1. <em>Applicant</em> is the name of the department to which users will be assigned.
 5. Click the <strong>Add</strong> button, when finished.
 
 Following the instructions below, *update* these system settings:
 * NMC, Registrations, Set New Patient at Temporary
 * NMC, User Security, Force Security Role
-    * The security role must match the security role of the value set in the Limited User Realm setting.
+   * The security role must match the security role of the value set in the Limited User Realm setting.
 * NMC, Pages, Client
 * NMC, Signup, Custom Site Realm
-    * The Value must match the Limited User Realm setting.
+   * The Value must match the Limited User Realm setting.
 * Webchart, Login, New Signups
-    * Allows new WebChart sign-ups.
+   * Allows new WebChart sign-ups.
 
 1. Navigate to <strong>System Settings</strong> in the Control Panel.
 2. Search for the appropriate system setting to be updated.
 3. Once located, click the <strong>Edit</strong> link in the Options column.
 4. Update the security setting by typing the appropriate value in the <strong>Value</strong> field.
-    1. NMC, Registrations, Set New Patient at Temporary = 1
-    2. NMC, User Security, Force Security Role = 1
-    3. NMC, Pages, Client = Applicant
-        1. Assigns <em>Applicant</em> as the layout module.
-    4. NMC, Signup, Custom Site Realm = Applicant
-    5. Webchart, Login, New Signups = 1
+   1. NMC, Registrations, Set New Patient at Temporary = 1
+   2. NMC, User Security, Force Security Role = 1
+   3. NMC, Pages, Client = Applicant
+      1. Assigns <em>Applicant</em> as the layout module.
+   4. NMC, Signup, Custom Site Realm = Applicant
+   5. Webchart, Login, New Signups = 1
 5. Click the <strong>Change</strong> button, when finished.
 
 
@@ -82,18 +82,18 @@ Following the instructions below, *update* these system settings:
 
 1. Navigate to the <strong>Partition Mgr</strong> tab of the Control Panel.
 2. If it is not already created, the APP partition needs added, accordingly:
-    1. <strong>Partition</strong>:  APP
-        1. The partition must match the <em>Default on Signup</em> system setting.
-    2. <strong>WC GUID</strong>:  Blank
-    3. <strong>Name</strong>:  APP
-    4. <strong>Description</strong>:  Applicant
-    5. <strong>MR Sequence</strong>:  Blank
-    6. <strong>Partition View</strong>:  Auto Increment
-    7. <strong>Required</strong>:  No
-    8. <strong>Active Types</strong>:  Active with Doc Queue
-    9. <strong>Part Order</strong>:  0
-    10. <strong>Allow Access to Restricted Users</strong>:  Unchecked
-    11. <strong>Identifier</strong>:  Medical Record Number
+   1. <strong>Partition</strong>:  APP
+      1. The partition must match the <em>Default on Signup</em> system setting.
+   2. <strong>WC GUID</strong>:  Blank
+   3. <strong>Name</strong>:  APP
+   4. <strong>Description</strong>:  Applicant
+   5. <strong>MR Sequence</strong>:  Blank
+   6. <strong>Partition View</strong>:  Auto Increment
+   7. <strong>Required</strong>:  No
+   8. <strong>Active Types</strong>:  Active with Doc Queue
+   9. <strong>Part Order</strong>:  0
+   10. <strong>Allow Access to Restricted Users</strong>:  Unchecked
+   11. <strong>Identifier</strong>:  Medical Record Number
 
 ## Create Applicant Department
 
@@ -139,18 +139,18 @@ These Security Requirements should always be followed for ensuring the proper se
 1. Navigate to the <strong>Chart Tabs</strong> tab of the Control Panel.
 2. Click the <strong>Add Chart Tab</strong> link in the upper-right corner of the page.
 3. Using the <strong>Basic Editor</strong>, create the Applicant Portal chart tab, accordingly:
-    1. <strong>Tab Name</strong>:  Applicant Portal
-    2. <strong>Description</strong>:  Blank
-    3. <strong>Open in new window?</strong>:  No
-    4. <strong>Default View</strong>:  Dashboard View
-    5. <strong>Tab Order</strong>:  No Change
-    6. <strong>Tab Color</strong>:  No Change
-    7. <strong>Restrict Access</strong>:  Unchecked
-    8. <strong>Show Tab in Pocket</strong>:  Unchecked
-    9. <strong>Show Link Header</strong>:  Checked
-    10. <strong>Chart Type</strong>:  Portal
-    11. <strong>Force Display</strong>:  Yes
-    12. <strong>Layout Name</strong>:  Applicant Portal
+   1. <strong>Tab Name</strong>:  Applicant Portal
+   2. <strong>Description</strong>:  Blank
+   3. <strong>Open in new window?</strong>:  No
+   4. <strong>Default View</strong>:  Dashboard View
+   5. <strong>Tab Order</strong>:  No Change
+   6. <strong>Tab Color</strong>:  No Change
+   7. <strong>Restrict Access</strong>:  Unchecked
+   8. <strong>Show Tab in Pocket</strong>:  Unchecked
+   9. <strong>Show Link Header</strong>:  Checked
+   10. <strong>Chart Type</strong>:  Portal
+   11. <strong>Force Display</strong>:  Yes
+   12. <strong>Layout Name</strong>:  Applicant Portal
 4. Click the <strong>Save</strong> button, when finished.
 
 ## Add Applicant Portal Questionnaires

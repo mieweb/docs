@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Create Language Translation File for Import'
@@ -19,7 +19,7 @@ menu:
 This document explains how to import your language translation data into  {{% system-name %}} .
 What you will need:
 * Spreadsheet software (Microsoft Excel or Google Sheets)
-* {{% system-name %}}  end user with administrative rights
+{{% system-name %}}*   end user with administrative rights
 
 ## Create Language Translation Text File
 

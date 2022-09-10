@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10'
 source: 'https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
@@ -119,11 +119,11 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 1. While documenting the Visit encounter, record the blood pressure, as appropriate
 2. Open the Vitals section and enter the systolic and diastolic pressures
 3. If the blood pressure is high and the patient is assessed prehypertensive or hypertensive, recommend a follow-up plan and document, accordingly
-    1. Open the Preventive Care section
-    2. Open the Hypertension Interventions picklist
-    3. Order the appropriate follow-up items(s) for the patient
-    OR
-    4. E-prescribe an appropriate hypertension medication
+   1. Open the Preventive Care section
+   2. Open the Hypertension Interventions picklist
+   3. Order the appropriate follow-up items(s) for the patient
+   OR
+   4. E-prescribe an appropriate hypertension medication
 5. Continue documenting the encounter, as needed
 6. When completed, Close and Archive the encounter
 

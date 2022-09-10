@@ -10,7 +10,7 @@ links:
   - 'mailto:noreplywebchart@med-web.com'
   - 'mailto:helpdesk@mieweb.com'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
@@ -45,10 +45,10 @@ The search field in Fax/File Q are fields you can fill out to narrow down a sear
 
 * <strong>Sender</strong> field: This is a <em>"starts as"</em> search. You can type in ex: 260459 to search and work only the incoming faxes from fax #'s that start with area code 260 and prefix 459. It is <em>not</em> a partial search, it's a "starts as" search. You can also type in the entire 10-digit fax number the fax is received from (the sender) to narrow down results to show only faxes sent from a specific sender (fax#). Or can enter the first characters of a name if stored as an identified name. A fax # can be stored as an identified name if the fax # is loaded in the Fax-Physician or other department in control.
 * <strong>Status</strong> drop-down field:
-    * <strong>"Pending"</strong> means these are incoming faxes which no user has looked at yet in the Fax/file Q. They are new faxes and need to be processed by a user.
-    * <strong>"Read"</strong> status means the faxes in this category were viewed, but nothing was done to these faxes/files yet by a user. It wasn't emailed, wasn't batched, wasn't deleted, wasn't uploaded into the patient's chart, etc. After viewing a file for 5 seconds it will be marked as "read" and appear un-bolded.
-    * <strong>"Batched"</strong> means the faxes in this status were sent as a batch to index in WebScan by a user in the Fax/file Q. These were batched and sent to WebScan to be indexed and uploaded into a patient's chart.
-    * <strong>"Deleted"</strong> means the faxes in this category were deleted by a user in the Fax/file Q. They were not needed for a chart; they are faxes of junk, etc. The system is usually set to purge these deleted faxes in 90 days, however contact your MIE Implementer to find out. They cannot be retrieved after that purged date. Your MIE Implementer can change the system setting to a different number of days to purge the deleted faxes if you wish.
+   * <strong>"Pending"</strong> means these are incoming faxes which no user has looked at yet in the Fax/file Q. They are new faxes and need to be processed by a user.
+   * <strong>"Read"</strong> status means the faxes in this category were viewed, but nothing was done to these faxes/files yet by a user. It wasn't emailed, wasn't batched, wasn't deleted, wasn't uploaded into the patient's chart, etc. After viewing a file for 5 seconds it will be marked as "read" and appear un-bolded.
+   * <strong>"Batched"</strong> means the faxes in this status were sent as a batch to index in WebScan by a user in the Fax/file Q. These were batched and sent to WebScan to be indexed and uploaded into a patient's chart.
+   * <strong>"Deleted"</strong> means the faxes in this category were deleted by a user in the Fax/file Q. They were not needed for a chart; they are faxes of junk, etc. The system is usually set to purge these deleted faxes in 90 days, however contact your MIE Implementer to find out. They cannot be retrieved after that purged date. Your MIE Implementer can change the system setting to a different number of days to purge the deleted faxes if you wish.
 
 ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/100000000000019000000016FB7FA32E9886CC39.png)
 

@@ -7,3 +7,4 @@ public*/
 .wgd-local-links.csv
 .wgd-local-log.csv
 *.debug.xml
+.tree.json

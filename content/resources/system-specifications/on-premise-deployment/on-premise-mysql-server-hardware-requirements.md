@@ -18,7 +18,7 @@ links:
   - 'http://dba.stackexchange.com/questions/15030/mysql-recommended-hardware'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'On-Premise MySQL Server Hardware Requirements'
@@ -34,8 +34,8 @@ Deployment of a dedicated MySQL instance for the {{% system-name %}} system requ
 
 The following required software/configuration may have other required dependencies:
 * 64-bit Linux OS
-    * [Red Hat® Enterprise Linux 6.7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/6.7_Release_Notes/) or [7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html)
-    * [CentOS 6.7](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.7) or [7](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7)
+   * [Red Hat® Enterprise Linux 6.7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/6.7_Release_Notes/) or [7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html)
+   * [CentOS 6.7](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.7) or [7](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7)
 * [Percona Server](https://www.percona.com/software/mysql-database/percona-server) latest version 5.5
 * [Percona Toolkit](https://www.percona.com/software/mysql-tools/percona-toolkit)
 * [Percona xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)

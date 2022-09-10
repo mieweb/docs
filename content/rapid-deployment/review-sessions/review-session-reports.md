@@ -43,7 +43,7 @@ links:
   - '../../functions/reports/to-restrict-report-access.md'
   - '../../functions/reports/panel-definition-report.md'
 source: 'https://drive.google.com/open?id=1HBDLPvHAyvO8K1g2gk8mlzBn76G84bBxUUiFlgbFzbQ'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Reports'
@@ -56,10 +56,10 @@ menu:
 * <strong>Reports Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>System Configuration</strong>
-    * <strong>Configure Reports</strong>
-    * <strong>Pivot Report Access</strong>
-    * <strong>Report Restrictions</strong>
-    * <strong>Open Database Connectivity (ODBC)</strong>
+   * <strong>Configure Reports</strong>
+   * <strong>Pivot Report Access</strong>
+   * <strong>Report Restrictions</strong>
+   * <strong>Open Database Connectivity (ODBC)</strong>
 
 ## Overview
 

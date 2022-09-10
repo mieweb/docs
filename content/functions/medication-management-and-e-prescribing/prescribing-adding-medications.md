@@ -2,12 +2,12 @@
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
 date: '2022-08-29T16:21:31.714Z'
-version: 118
+version: 119
 lastAuthor: 'Emily McComb'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Prescribing/Adding Medications'
@@ -48,8 +48,8 @@ Click this to prescribe **new** medications for the patient from your facility. 
    fields for this specific prescription. This is a quick way to clear the fields to start over if you realize that you made a mistake and want to start over (before clicking the ‘prescribe' function button).<img src="../prescribing-adding-medications.assets/100000000000002E00000017F968F82BAB5CD187.png" />
 
 * <strong>Medication</strong>: Type in name of medication. Use the auto-complete to select the active medication from the FDB knowledge base. <em>First DataBank announced in Sept 2010 of an enhancement to generically named medication concepts. To comply with the Institute for Safe Medical Practices (ISMP) standards, FDB has lowercased the first letter of each ingredient in the generically named medication descriptions</em>. <em>Obsolete drugs and forms/strengths will now be shown when prescribing, up to 3 years (according to First Databank's recommendation) after they are no longer being actively produced and marketed in the US. These drugs will appear in the autocomplete results with "OBSOLETE" because it is possible that the drug is no longer available.</em> You can free-text in a medication name if not recognized in the FDB database of choices, but it is limited to 105 characters. If you continue to free type, it will generate a message that it's an uncoded drug and won't interact with drug/drug interactions. If the drug you are trying to prescribe does <em>not</em> show in the auto-complete choices, please consider prescribing a generic or alternate choice, as the drug you have entered may no longer be available. But you can continue to free-text in an uncoded medication to prescribe.
-    * The medication field will auto-complete and you can select from the choices. The choices list is not alphabetical based on few characters.  It is supposed to be based on frequency of use. Type more characters to limit the list choices.
-    * {{% system-name %}} uses the First DataBank knowledge database. The circled-blue next to it will pop up the drug guide and information concerning this drug if you click on it.
+   * The medication field will auto-complete and you can select from the choices. The choices list is not alphabetical based on few characters.  It is supposed to be based on frequency of use. Type more characters to limit the list choices.
+{{% system-name %}}   *  uses the First DataBank knowledge database. The circled-blue next to it will pop up the drug guide and information concerning this drug if you click on it.
 
 ![](../prescribing-adding-medications.assets/10000000000000EA0000005E90FAC97DA7DDAA45.png)
 
@@ -133,27 +133,27 @@ The prescribe feature is not the most favorable place to prescribe DME or suppli
 * <strong>Print Drug Guide:</strong> Check-mark the box if you wish to print the drug guide for this prescription. It adds it to the print/fax queue if check-marked.
 * <strong>Special Instructions for Patient Education/Med Sheet:</strong> Type in the free-text box. This <strong>will not</strong> print on the script. But, this <strong>will</strong> appear in patient's Medication History under Sig column and in Pat.Ed sheet and Med Sheet. An example of something a physician would type in here might be example: Put 1 tablet under tongue as needed for chest pain. If chest pain continues, you may repeat 2 more times. Wait 5 minutes between each dose. If chest pain still persists call 911. Anything typed in here when using the <em>Remembered Script</em> feature will also be saved with the remembered script.
 * <strong>Office Comments:</strong> This is for comments for office use only.
-    * This will*
-      not*
-      print on the script.
-    * This*
-      will*
-      appear in a Comments column on the Medication History Summary Screen.
-    * This will*
-      not*
-      appear in the Pat.Ed sheet.
-    * This*
-      will*
-      appear in the Med Sheet in comments column.
+   * This will*
+     not*
+     print on the script.
+   * This*
+     will*
+     appear in a Comments column on the Medication History Summary Screen.
+   * This will*
+     not*
+     appear in the Pat.Ed sheet.
+   * This*
+     will*
+     appear in the Med Sheet in comments column.
 * <strong>Note to Pharmacist:</strong> You can free type in a note to the pharmacist. It will also be transmitted to the pharmacy and will print on the script when rendered. When you view or edit the med details, this will show there also. This field is limited to 210 characters by SureScripts. Anything typed in here when using the <em>Remembered Script</em> feature will also be saved with the remembered script. This Notes field should only include information to the pharmacist that does not already have structured fields designated for such information, so long as it does not conflict with information sent in other structured fields. Inappropriate use of this Notes field includes information that already has a structured and codified field within the e-prescription message. The most concerning inappropriate use of this field is for patient directions, either supplemental or conflicting. This can lead to critical information not being conveyed to the patient. However, <strong>patient instructions on medication use should be contained entirely within the Sig field.</strong>
-    * Instructions should not be split between the Sig and Notes fields. The Notes field should be reserved for information to assist the pharmacist in dispensing, benefits determination and other pharmacy staff activities.
-    * Populating multiple fields with patient instructions may result in some instructions being missed and not conveyed to the patient.
-    * Inconsistent patient information between the Sig and Notes can result in the patient being provided the wrong instructions.
-    * <strong>Examples of improper use:</strong>
-        * Sig field-"Take one tablet daily," Notes field-"Take only on Monday, Wednesday and Friday."
-        * Sig field-"Dissolve one tablet under the tongue every 10 minutes for chest pain," Notes field-"Call physician immediately if relief is not obtained after three doses."
-        * Sig field-"Apply and rub well into affected area twice a day," Notes field-"Discontinue use and call physician if rash worsens."
-        * Sig field-"One drop to eye having surgery three times daily," Notes field-"Start two days prior to surgery."
+   * Instructions should not be split between the Sig and Notes fields. The Notes field should be reserved for information to assist the pharmacist in dispensing, benefits determination and other pharmacy staff activities.
+   * Populating multiple fields with patient instructions may result in some instructions being missed and not conveyed to the patient.
+   * Inconsistent patient information between the Sig and Notes can result in the patient being provided the wrong instructions.
+   * <strong>Examples of improper use:</strong>
+      * Sig field-"Take one tablet daily," Notes field-"Take only on Monday, Wednesday and Friday."
+      * Sig field-"Dissolve one tablet under the tongue every 10 minutes for chest pain," Notes field-"Call physician immediately if relief is not obtained after three doses."
+      * Sig field-"Apply and rub well into affected area twice a day," Notes field-"Discontinue use and call physician if rash worsens."
+      * Sig field-"One drop to eye having surgery three times daily," Notes field-"Start two days prior to surgery."
 * <strong>Discontinue On:</strong> Can type a date this medication is to be stopped. If a date is typed here—it will <strong>not</strong> pop-up in the Refill Due section of the Medication History screen when prescription is out, according to the duration, etc. If you leave this Discontinue Date blank, then it assumes it is for a long-term drug and will automatically pop-up in the Refill Due section of the Medication History screen when the prescription is out, according to the duration, etc. Discontinue dates can be entered for antibiotics, controlled substances, etc.Click <strong>calculate</strong> if you wish to set the discontinue date for exactly when the duration is up. Example: if you typed in 3w for duration (3 weeks) then click <em>calculate</em> here and it will automatically figure out 3 weeks from the start-date and insert it.
 Fill out next Prescription Detail box with the next prescription details for this patient. Each separate prescription has its own CLEAR button if you wish to clear out the details before using the ‘prescribe' function button.
 When done entering prescriptions, click any **Prescribe** button. Those prescriptions you created will then show the *Unprinted Prescriptions* box and the screen will refresh you to the Medication History summary screen.

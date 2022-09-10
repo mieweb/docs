@@ -20,7 +20,7 @@ links:
   - '../../functions/patient-registration/medical-record-numbers.md'
   - '../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Review Session - Patient Registration'
@@ -33,12 +33,12 @@ menu:
 * <strong>Patient Registration Demonstration</strong>
 * <strong>E-Chart Overview</strong>
 * <strong>E-Chart</strong>
-    * <strong>Patient Registration (Manual)</strong>
-        * <strong>Demographics</strong>
-        * <strong>E-Chart Photos</strong>
-    * <strong>Relationships/User Roles</strong>
+   * <strong>Patient Registration (Manual)</strong>
+      * <strong>Demographics</strong>
+      * <strong>E-Chart Photos</strong>
+   * <strong>Relationships/User Roles</strong>
 * <strong>System Configuration</strong>
-    * <strong>Partitions and Partition Restrictions</strong>
+   * <strong>Partitions and Partition Restrictions</strong>
 * <strong>Resources</strong>
 
 ## Overview

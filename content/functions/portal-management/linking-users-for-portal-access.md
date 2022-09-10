@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Linking Users for Portal Access'
@@ -43,9 +43,9 @@ Once the page loads, ensure the user has two roles listed in their user account:
 {{% /note %}}
 
 1. If the user does not have two roles listed in their user account:
-    1. Begin typing the user's last name into the <strong>Patient Name</strong> field. Using the autocomplete, select the user.
-    2. Using the dropdown, set the user's role to <strong>Self</strong> and/or <strong>Portal/NoMoreClipboard User</strong>, depending on current configurations.
-    3. Click the <strong>Add</strong> button for each role added.
+   1. Begin typing the user's last name into the <strong>Patient Name</strong> field. Using the autocomplete, select the user.
+   2. Using the dropdown, set the user's role to <strong>Self</strong> and/or <strong>Portal/NoMoreClipboard User</strong>, depending on current configurations.
+   3. Click the <strong>Add</strong> button for each role added.
 2. After all changes have been made, click the <strong>Submit</strong> button.
 
 {{% tip %}}

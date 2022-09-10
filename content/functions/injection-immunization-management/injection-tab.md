@@ -9,7 +9,7 @@ links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
 source: 'https://drive.google.com/open?id=1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Injection Tab'
@@ -95,7 +95,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 
 * Administering Location: If your practice only has 1 location it will automatically populate this field.  If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered.  If you have a location selected here, it considers this injection an in-house injection.  Meaning, the injection was administered at your location.  If a location is selected here, you will be required then to fill out the Manufacturer and Expiration Date fields.  These are required fields if a location is specified.
-    * If the injection was given elsewhere and you are just documenting the injection for records, select No Location and it will not make those other fields required to fill out.
+   * If the injection was given elsewhere and you are just documenting the injection for records, select No Location and it will not make those other fields required to fill out.
 * Administering Date:  Automatically pops-up today's date and current time.  Change date or time to when the injection was given.
 * Administrator: This field will default to be your logged in username here as administrator. Otherwise, you can select the name of the person that gave the injection by typing in the first or last name in the auto-complete of the other administrator.  The document will reflect the name as Injection Administrator from this field.
 * Route:  Select the route of the injection, if you wish, from the drop-down of choices.
@@ -104,8 +104,8 @@ Certain immunizations are automatically programmed to look for specific allergie
 * Strength: Enter the strength of the injection.
 * Manufacturer:  Enter the manufacturer's name.  The system will attempt to auto-complete your typing.  It will give you choices that match and you can highlight and select if you wish.  Otherwise, you can continue to free-type in text. This is a required field if you have chosen a location.  If you leave the location field set to No Location, this will not be required.
 * Vial / Lot #:  Enter the vial and/or lot # of the serum. The Lot# field autocomplete references Vials/Lots as referenced in the Inventory module. If not administering from Inventory, then Vial/Lot should be added as a free text entry.
-    * Any vaccines documented that are administered from Inventory will automatically deduct from Inventory totals. Quantity is reduced by one for each vaccine administered from the Inventory module.
-    * Decrement is done in whole numbers. So in inventory you have a qty of 10 flu shots, then you document the immunization, the inventory decreases by one. It doesn't calculate that you have a 50cc multi injection vial. If the give 5cc's to Patient One and 10cc's to Patient Two, you have 35cc's left.
+   * Any vaccines documented that are administered from Inventory will automatically deduct from Inventory totals. Quantity is reduced by one for each vaccine administered from the Inventory module.
+   * Decrement is done in whole numbers. So in inventory you have a qty of 10 flu shots, then you document the immunization, the inventory decreases by one. It doesn't calculate that you have a 50cc multi injection vial. If the give 5cc's to Patient One and 10cc's to Patient Two, you have 35cc's left.
 * Series #:  Enter the number of the series for this injection record.  Example: Patient is here for 2nd Hepatitis B shot. You would enter a 2 in this field as it is the patient's 2nd shot in the Hepatitis B series.
 * Expiration Date: Enter expiration from the vial. This is a required field if you have chosen a location.  If you leave the location field set to No Location, this field will not be required.  A warning will display and not allow entry of immunizations with an expiration date in the past.
 
