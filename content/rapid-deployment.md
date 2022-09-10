@@ -2,11 +2,11 @@
 id: '1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
 title: 'Rapid Deployment'
 date: '2020-02-27T20:32:31.821Z'
-version: 41
+version: 43
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'Rapid Deployment'

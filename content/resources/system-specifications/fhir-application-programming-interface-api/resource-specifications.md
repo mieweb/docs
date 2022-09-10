@@ -2,8 +2,8 @@
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
 date: '2022-08-30T15:25:37.584Z'
-version: 498
-lastAuthor: 'Will Reiske'
+version: 501
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - 'http://hl7.org/fhir/R4/allergyintolerance.html'
@@ -53,7 +53,7 @@ links:
   - 'http://hl7.org/fhir/R4/provenance.html'
   - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 ---
 # Supported Resources
 

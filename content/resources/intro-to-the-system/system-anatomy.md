@@ -2,14 +2,14 @@
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
 date: '2020-02-27T21:28:42.966Z'
-version: 72
+version: 74
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../intro-to-the-system.md'
   - '../../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
-wikigdrive: '762e46ee0b866c028283dd665b3a8ee950fb436c'
+wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 menu:
   main:
     name: 'System Anatomy'
