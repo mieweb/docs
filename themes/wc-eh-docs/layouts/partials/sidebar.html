@@ -1,26 +1,23 @@
-<aside id="sidebar" class="sidebar c2ol-3 px-0 py-4">
-  <nav class="nav-sidebar px-5 py-1">
-    <ul class="navbar-nav sticky-top">
-      <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-          {{ if .HasChildren }}
-            <li><span class="nav-toggle" data-name="{{ .Identifier }}">&nbsp;</span>
-              <a href="{{ .URL }}">
-                {{ .Name }}
-              </a>
-              {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
-              {{ partial "sidebar-nav.html" $temp }}
-            </li>
-          {{ else }}
-            <li data-name="{{ .Identifier }}" class="root-level">
-              <a href="{{ .URL }}">
-                {{ .Name }}
-              </a>
-            </li>
-          {{ end }}
-        {{ end }}
-      </ul>
+<aside id="sidebar" class="sidebar col-md-3 col-lg-2 d-md-block sidebar collapse px-0">
+  <div class="flex-shrink-0 bg-white position-sticky sidebar-sticky">
+    <ul class="list-unstyled ps-0 pe-4 lh-1">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+
+      <li class="mb-2">
+        <a href="{{ .URL }}" class="btn btn-toggle text-left d-inline-flex align-items-center border-0 collapsed top-level-parent mb-2" data-bs-toggle="collapse" data-bs-target="#collapse-{{ .Identifier }}" aria-expanded="false" data-name="{{ .Identifier }}">
+          {{ .Name }}
+        </a>
+        {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
+        {{ partial "sidebar-nav.html" $temp }}
+      </li>
+      {{ else }}
+      <li  class="mb-2">
+        <a href="{{ .URL }}" data-name="{{ .Identifier }}" class="link-dark d-inline-flex text-decoration-none top-level-parent root-level seudo-btn">{{ .Name }}</a>
+      </li>
+      {{ end }}
+      {{ end }}
     </ul>
-  </nav>
+  </div>
 </aside>

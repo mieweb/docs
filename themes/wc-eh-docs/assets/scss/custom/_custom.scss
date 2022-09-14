@@ -1,0 +1,25 @@
+.top-level-parent {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+#TableOfContents {
+  li {
+    position: relative;
+    a:first-child {
+      // border: 1px solid purple;
+      display: flex;
+      width: 100%;
+      height: 21px;
+    }
+    a:nth-child(2) {
+      pointer-events: none;
+      position: absolute;
+      transform: translateY(-21px);
+    }
+  }
+}
+
+.copy-hash {
+  font-size: 10pt !important;
+}

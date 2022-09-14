@@ -8,3 +8,5 @@ public*/
 .wgd-local-log.csv
 *.debug.xml
 .tree.json
+node_modules
+wikigdrive.json

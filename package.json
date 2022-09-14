@@ -1,0 +1,31 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "If your are a non-techie looking to [contribute](content/contributing-to-this-documentation.md) to documentation, best use the website and author in Google Drive and make recommendations there.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.mieweb.com/webchart/docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@popperjs/core": "^2.11.5",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.2.0",
+    "copy-to-clipboard": "^3.3.2",
+    "email-validator": "^2.0.4",
+    "highlight.js": "^11.6.0",
+    "lunr": "^2.3.9",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "sweetalert2": "^11.4.26"
+  }
+}

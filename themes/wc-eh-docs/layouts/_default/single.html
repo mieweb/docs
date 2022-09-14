@@ -1,17 +1,53 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
-<main>
-  <div class="wrapper">
-      {{ partial "sidebar.html" . }}
-      <div id="content" class="content p-0">
-        {{ partial "page-toolbar.html" . }}
-        <div class="content-wrapper px-xl-5 py-xl-4">
-          <h1 id='{{ if .Params.url }}{{ replace .Params.url ".md" ""}}{{ end }}'>{{ if .Title }}{{ .Title }}{{ end }}</h1>
-          {{ partial "toc.html" . }}
-          {{ .Content }}
-        </div>
-
+<div class="container-fluid main-inner">
+  <div class="row">
+    {{ partial "sidebar.html" . }}
+    <main id="index-main" class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="row px-3 py-2">
+        {{ partial "breadcrumbs.html" . }}
       </div>
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1 id='{{ if .Params.url }}{{ replace .Params.url ".md" ""}}{{ end }}'>{{ if .Title }}{{ .Title }}{{ end }}
+        </h1>
+        <div class="btn-toolbar mb-2 mb-md-0 d-flex justify-content-end">
+          <div class="btn-group mb-0 mb-md-1" role="group">
+            <a class="btn btn-sm btn-outline-secondary" role="button" id="btn-share">Share</a>
+            {{ if .Params.source }}
+            <a href="{{ .Params.source}} " role="button" target="_blank" class="btn btn-sm btn-outline-secondary"><i
+                class="fa-solid fa-edit"></i></a>
+            {{ end }}
+          </div>
+          <!--
+            TODO: Make the settings button drop down the "System URL" and maybe some other preferences for docs?
+          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle ms-2 mb-0 mb-md-1">
+            <span data-feather="calendar" class="align-text-bottom"></span>
+            Settings
+          </button>
+          -->
+        </div>
+      </div>
+      {{ if gt (.TableOfContents | len) 32 }}
+      <div class="row flex-column-reverse flex-xl-row">
+        <div class="col-12 col-xl-8">
+          {{ .Content | safeHTML }}
+        </div>
+        <div class="col-12 col-xl-4">
+          <h2>Covered by this topic</h2>
+          <aside>
+            {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | safeHTML }}
+          </aside>
+        </div>
+      </div>
+      {{ else }}
+      {{ .Content | safeHTML}}
+      {{ end }}
+      {{ partial "footer-call-to-action.html" . }}
+      {{ partial "date-info.html" . }}
+    </main>
+    <div class="scroll-to-top">
+      <span class="btn btn-position btn-style btn-primary d-flex align-items-center"><i class="fa-solid fa-circle-arrow-up text-white"></i></span>
     </div>
-</main>
+  </div>
+</div>
 {{ partial "footer.html" . }}
