@@ -1,5 +1,10 @@
+echo "Install correct version of node..."
+npm install -g n
+n v16.13.2
+
 echo "npm ci"
 npm ci
+
 echo "Downloading hugo..."
 wget https://github.com/gohugoio/hugo/releases/download/v0.103.0/hugo_extended_0.103.0_Linux-64bit.tar.gz -O hugo.tar.gz
 tar xvf hugo.tar.gz
