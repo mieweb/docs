@@ -1,7 +1,5 @@
-echo "Install correct version of node..."
-sudo npm install -g n
-sudo n v16.13.2
-
+echo "Node version"
+node -v
 echo "npm ci"
 npm ci
 
