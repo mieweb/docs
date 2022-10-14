@@ -41,6 +41,5 @@ jobs:
         mention: 'here'
         channel: '#miedocs'
         url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
-        github_url: 'https://github.mieweb.com'
         commit: true
         token: ${{ github.token }}
