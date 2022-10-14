@@ -19,39 +19,42 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         token: ${{ github.token }}
-      
+        lfs: 'true'
+        clean: 'true'
+        fetch-depth: 0
+
     - name: Extract branch name
       shell: bash
       run: echo "##[set-output name=branch;]$(git branch --remote --verbose --no-abbrev --contains | sed -rne 's/^[^\/]*\/([^\ ]+).*$/\1/p' | sed 's@/@-@')"
       id: extract_branch
 
-    - name: LFS fetch
-      run: git lfs pull
-      
+    - name: Pull NPM Dependencies
+      run: |
+        npm ci
+
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc"
+      run: hugo --config 'config-wc.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh"
+      run: hugo --config 'config-eh.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh/" --minify
 
     - name: Build index.html
-      run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.mieweb.com/webchart/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
+      run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.com/mieweb/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
 
     - name: 'Deploy built documentation to www folder on docs-qa'
       run: rsync -ruva public/ "/www/mie-docs/public/${{ steps.extract_branch.outputs.branch }}/"
   
-    - name: Rocket.Chat Notification
-      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@master
+    - name: Rocket.Chat GitHub Enterprise Notification
+      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
       if: always()
       with:
         type: ${{ job.status }}
         job_name: '*CI* @${{github.actor}}, https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
         channel: '#miedocs'
         url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
-        github_url: 'https://github.mieweb.com'
         commit: true
         token: ${{ github.token }}
 
@@ -59,7 +62,7 @@ jobs:
       uses: actions/github-script@master
       with:
         script: |
-          github.issues.createComment({
+          github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,

@@ -1,0 +1,31 @@
+<div class="row mt-2">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{ $.Site.Title }} Documentation</h4>
+                <p class="card-text">
+                    <!-- Created Date -->
+                    {{- $pubdate := .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
+                    Page Created:
+                    <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
+                        {{ $pubdate }}
+                    </time>
+                    <br />
+                    <!-- Last Updated Date -->
+                    {{- if .Lastmod }}
+                    {{- $lastmod := .Lastmod.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
+                    {{- if ne $lastmod $pubdate }}
+                    Last Updated:
+                    <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
+                        {{ $lastmod }}
+                    </time>
+                    {{- end }}
+                    {{- end }}
+                    <br>Last Build:
+                    {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }} <a href="{{ replace $.Site.BaseURL "docs" "docs-legacy" }}">Legacy Documentation</a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,16 +1,24 @@
-// MIEDocs:
-@import 'fonts.scss';
-@import 'variables.scss';
-@import 'brand-wc.scss'; // Local Brand Overrides
-@import 'mixins.scss';
+$primary: #f7941e;
+$active-nav: #ffe0bb;
+$dark: #5f6062;
 
 
-// Theme:
-@import "theme.scss";
+@import 'style';
+// Import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap.scss";
 
+// Import fontawesome
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "./fontawesome/brands.scss";
+// @import "./fontawesome/regular.scss";
+// @import "./fontawesome/solid.scss";
 
-// Adjust Logo Size
-.navbar .navbar-brand img {
-  width: 126.19px;
-  height: 50px;
+@import "node_modules/animate.css/animate";
+
+@import "node_modules/sweetalert2/dist/sweetalert2.css";
+
+@import "node_modules/highlight.js/scss/a11y-light.scss";
+
+.hljs {
+    background: #f7f4f4 !important;
 }

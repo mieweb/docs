@@ -5,6 +5,11 @@ theme = "wc-eh-docs"
 publishDir = "public/eh"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [markup]
   [markup.tableOfContents]
     endLevel = 4
@@ -21,7 +26,46 @@ defaultContentLanguageInSubdir= true
     name = 'Enterprise Health'
     abbr = 'EH'
     code = 'eh' 
+
+[outputFormats.SearchIndex]
+baseName = "search"
+mediaType = "application/json"
+
 [outputs]
-  home = [ "HTML", "RSS", "JSON"]
+  home = [ "HTML", "RSS", "SearchIndex"]
+
 [markup.goldmark.renderer]
   unsafe= true
+
+[module]    
+  [[module.mounts]]
+    source = "./node_modules/@fortawesome/fontawesome-free/scss"
+    target = "assets/scss/fontawesome"
+
+  [[module.mounts]]
+    source = "./node_modules/@fortawesome/fontawesome-free/webfonts"
+    target = "static/webfonts"
+
+  [[module.mounts]]
+    source = "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    target = "assets/js/bootstrap/bootstrap.js"    
+
+  [[module.mounts]]
+    source = "./node_modules/@fortawesome/fontawesome-free/js/all.js"
+    target = "assets/js/fortawesome/fontawesome.js"    
+
+  [[module.mounts]]
+    source = "./node_modules/@popperjs/core/dist/umd/popper.js"
+    target = "assets/js/popper/popper.js"
+
+  [[module.mounts]]
+    source = "./node_modules/lunr/lunr.js"
+    target = "assets/js/lunr/lunr.js"
+
+  [[module.mounts]]
+    source = "./node_modules/sweetalert2/dist/sweetalert2.all.js"
+    target = "assets/js/sweetalert2/sweetalert2.js"
+
+  [[module.mounts]]
+    source = "./node_modules/copy-to-clipboard/index.js"
+    target = "assets/js/copy-to-clipboard/copy-to-clipboard.js"

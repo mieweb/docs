@@ -10,24 +10,30 @@ jobs:
     runs-on: [ self-hosted, docsqa ]
 
     steps:
-    - uses: actions/checkout@v2
-
-    - name: LFS pull
-      run: git lfs pull
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ github.token }}
+        lfs: 'true'
+        clean: 'true'
+        fetch-depth: 0
+        
+    - name: Pull NPM Dependencies
+      run: |
+        npm ci
       
     # Build the HTML versions of the md using hugo
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml' --baseURL https://docs.webchartnow.com/
+      run: hugo --config 'config-wc.toml' --minify --baseURL https://docs.webchartnow.com/
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml' --baseURL https://docs.enterprisehealth.com/
+      run: hugo --config 'config-eh.toml' --minify --baseURL https://docs.enterprisehealth.com/
 
     - name: 'Deploy built documentation to production folder'
       run: |
         rsync -ruva public deploy@wc-docs.med-web.com:/www/docrootssl/docs
 
     - name: Rocket.Chat Notification
-      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@master
+      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
       if: always()
       with:
         type: ${{ job.status }}
@@ -35,6 +41,5 @@ jobs:
         mention: 'here'
         channel: '#miedocs'
         url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
-        github_url: 'https://github.mieweb.com'
         commit: true
         token: ${{ github.token }}

@@ -5,34 +5,44 @@
   <!-- <base href="{{ $.Site.BaseURL }}"/> -->
   <title>{{ $.Site.Title }} :: {{ .Title }}</title>
 
-  
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="description" content="Occupational health and safety software in a purpose-built solution creates a comprehensive program to support employee health.">
   <meta name="keywords" content="occupational health and safety software, employee health, compliance software">
 
-  <link rel="icon" href="{{ $.Site.BaseURL }}/images/brand/{{ $.Site.Params.Brand.code }}/favicon.png"
-    type="image/png" />
-  <link rel="icon" type="image/png" href="{{ $.Site.BaseURL }}/images/brand/{{ $.Site.Params.Brand.code }}/icon-192.png"
-    sizes="192x192">
 
-  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="icon" href="{{ $.Site.BaseURL }}images/brand/{{ $.Site.Params.Brand.code }}/favicon.png" type="image/png" />
+  <link rel="icon" type="image/png" href="{{ $.Site.BaseURL }}images/brand/{{ $.Site.Params.Brand.code }}/icon-192.png" sizes="192x192">
 
   {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
 
   <!-- Should we need a custom stylesheet for a specific page -->
-  {{ $stylepath := printf "css/pages/%s.css" $.File.TranslationBaseName }}
+ 
+  <!-- {{ $stylepath := printf "css/pages/%s.css" $.File.TranslationBaseName }} -->
 
   {{ $themestylepath := printf "scss/%s.scss" $.Site.Params.Brand.code }}
 
-  {{ $styles := resources.Get $themestylepath | toCSS (dict "targetPath" "/css/style.css" "enableSourceMap" true) | postCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true "precision" 6 "includePaths" (slice "node_modules")) }}
+  {{ $style := resources.Get $themestylepath | resources.ToCSS $options | resources.PostCSS (dict "config" "postcss.config.js") | resources.Minify |  resources.Fingerprint "sha512" }}
 
+  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 
-
+  {{ if gt (len (split .RelPermalink "/") ) 2 }}
+  <!-- Breadcrumbs LD+JSON https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{{ $rellink := "" }}{{ range $index, $element := (split .RelPermalink "/") }}{{ if gt (len . ) 0 }}{{ $rellink = printf "%s/%s" $rellink . }}{{ if gt $index 1 }},{{ end }}{
+        "@type": "ListItem",
+        "position": {{ $index }},
+        "name": "{{ humanize . }}",
+        "item": "{{ $.Site.BaseURL }}{{ $rellink }}"
+      }{{ end }}{{ end }}]
+    }
+  </script>
+  {{ end }}
 </head>
 {{ $currentPage := . }}
 <body class="bg-base {{ $.Site.Params.Brand.code }}" data-page="{{ .Page.Params.Menu.Main.Identifier }}">
-
-

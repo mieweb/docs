@@ -2,24 +2,25 @@
 {{ $site := .site }}
 {{ $menu := .menu }}
 {{ $item := .entry }}
-<ul class="nested">
-  {{ $lvl := $item.Identifier }}
-  {{ range $item.Children }}
+
+<div class="collapse" id="collapse-{{ $item.Identifier }}">
+  <ul class="btn-toggle-nav list-unstyled pb-1 lh-1 nested">
+    {{ $lvl := $item.Identifier }}
+    {{ range $item.Children }}
     {{ if .HasChildren }}
-      <li>
-        <span class="nav-toggle" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">&nbsp;</span>
-        <a href="{{ .URL }}">
-          {{ .Name }}
-        </a>
-        {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
-        {{ partial "sidebar-nav.html" $temp }}
-      </li>
+    <li class="mb-2">
+      <a href="{{ .URL }}" class="btn btn-toggle text-left d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-{{ .Identifier }}" aria-expanded="false" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
+        {{ .Name }}
+      </a>
+    </li>
+
+    {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
+    {{ partial "sidebar-nav.html" $temp }}
     {{ else }}
-      <li data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
-        <a href="{{ .URL }}">
-          {{ .Name }}
-        </a>
-      </li>
+    <li class="mb-2 ps-4">
+      <a href="{{ .URL }}" class="link-dark d-inline-flex text-decoration-none rounded seudo-btn" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">{{ .Name }}</a>
+    </li>
     {{ end }}
-  {{ end }}
-</ul>
+    {{ end }}
+  </ul>
+</div>
