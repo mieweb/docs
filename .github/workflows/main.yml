@@ -55,7 +55,6 @@ jobs:
         job_name: '*CI* @${{github.actor}}, https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
         channel: '#miedocs'
         url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
-        github_url: 'https://github.mieweb.com'
         commit: true
         token: ${{ github.token }}
 
