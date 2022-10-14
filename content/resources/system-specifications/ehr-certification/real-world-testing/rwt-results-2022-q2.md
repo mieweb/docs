@@ -1,11 +1,12 @@
 ---
 id: '1Cqgy5lwUu6jZr8ta02aN69n1uWkM4InqJGdmE7w0JD8'
 title: 'RWT Results 2022 Q2'
-date: '2022-07-15T20:23:23.964Z'
-version: 201
-lastAuthor: 'Doug Horner'
+date: '2022-10-11T20:49:54.057Z'
+version: 231
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
   - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
   - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#test_procedure'
   - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
@@ -22,7 +23,7 @@ links:
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Cqgy5lwUu6jZr8ta02aN69n1uWkM4InqJGdmE7w0JD8'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '338662e3c07746b76ffe2582d6f3f02ce796a93a'
 ---
 # General Information
 
@@ -51,7 +52,7 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
-<td>https://docs.webchartnow.com/programs/ehr-certification/real-world-testing-plan-2021.html</td>
+<td><a href="https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/">https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/</a></td>
 </tr>
 <tr>
 <td><strong>Plan Submission Date</strong></td>
