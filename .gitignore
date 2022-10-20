@@ -10,3 +10,5 @@ public*/
 .tree.json
 node_modules
 wikigdrive.json
+.private
+git.json
