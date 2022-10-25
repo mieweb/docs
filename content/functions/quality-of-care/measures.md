@@ -10,7 +10,7 @@ links:
   - 'measures/improvement-activities-measures.md'
   - 'measures/quality-measures-list.md'
 source: 'https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '90d783358e1b82831acbfe98b06e08f02df56776'
 menu:
   main:
     name: 'Measures'

@@ -2,13 +2,13 @@
 id: '1jVx-TyKaSysXg-bHQxx-s-rUXXdPST_m4N2xs69HJNw'
 title: "Exporting information about expired fee schedules\_"
 date: '2021-02-18T16:47:05.726Z'
-version: 15
+version: 16
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-expired-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1jVx-TyKaSysXg-bHQxx-s-rUXXdPST_m4N2xs69HJNw'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '90d783358e1b82831acbfe98b06e08f02df56776'
 ---
 Export information about expired fee schedules as comma-separated value (CSV) or extensible markup language (XML) file formats for use in spreadsheet programs. The exported information about expired fee schedules contains the following:
 * Fee schedule name
