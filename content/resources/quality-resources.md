@@ -10,7 +10,7 @@ links:
   - '../functions.md'
   - '../functions/quality-of-care.md'
 source: 'https://drive.google.com/open?id=1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
-wikigdrive: 'ebfef5dd7aa0cda47c03b938eb2e842b37fe1a0f'
+wikigdrive: 'd3b75d1a4082afb1a1e55534b3c0d73d8fac84a7'
 menu:
   main:
     name: 'Quality Resources'

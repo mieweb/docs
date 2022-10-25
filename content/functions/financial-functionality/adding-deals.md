@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
-wikigdrive: 'ebfef5dd7aa0cda47c03b938eb2e842b37fe1a0f'
+wikigdrive: 'd3b75d1a4082afb1a1e55534b3c0d73d8fac84a7'
 ---
 1. [Find employer organizations](finding-employer-organizations.md).
 2. From the search results, select the <strong>name of the organization</strong> to which to add a deal. The system displays information about the organization.
