@@ -19,7 +19,7 @@ links:
   - 'https://drive.google.com/open?id=1-Yysu_PZNhCGl5mw0CRzwUZGcEffjqlP'
   - 'https://drive.google.com/open?id=1-cFqzKFkmMazalo5X912zP2HFTEflgnV'
 source: 'https://drive.google.com/open?id=1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
-wikigdrive: 'd3b75d1a4082afb1a1e55534b3c0d73d8fac84a7'
+wikigdrive: 'b9f5726a9e658d3f117d50f1fff638467b4fc02b'
 menu:
   main:
     name: 'Promoting Interoperability (PI) Measures'
