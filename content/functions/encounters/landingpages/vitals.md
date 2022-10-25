@@ -7,6 +7,6 @@ lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
-wikigdrive: '90d783358e1b82831acbfe98b06e08f02df56776'
+wikigdrive: 'ebfef5dd7aa0cda47c03b938eb2e842b37fe1a0f'
 ---
 Vitals
