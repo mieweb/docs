@@ -7,7 +7,7 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
-wikigdrive: 'b9f5726a9e658d3f117d50f1fff638467b4fc02b'
+wikigdrive: '196a5d922589ecec20b06c28445641a813a41718'
 menu:
   main:
     name: 'System Specifications'

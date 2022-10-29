@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-wikigdrive: 'b9f5726a9e658d3f117d50f1fff638467b4fc02b'
+wikigdrive: '196a5d922589ecec20b06c28445641a813a41718'
 menu:
   main:
     name: 'Data Migration'
