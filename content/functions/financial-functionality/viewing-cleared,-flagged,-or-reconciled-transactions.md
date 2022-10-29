@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1yGFA_7iHZBY2hTo4OadZcZE_EyZmN_6Om4XgLZZPudI'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. At the upper-right, select <strong>Registry View</strong>. The system displays the registry view.
-3. Above the list of transactions, select <strong>the link</strong>
-    of the status of transactions to view. The system displays transactions of that status and hides others.<img src="../viewing-cleared,-flagged,-or-reconciled-transactions.assets/100000000000025000000021D8121F70BFAB71CC.png" />
+3. Above the list of transactions, select <strong>the link</strong>  
+    of the status of transactions to view. The system displays transactions of that status and hides others.<img src="../viewing-cleared,-flagged,-or-reconciled-transactions.assets/100000000000025000000021D8121F70BFAB71CC.png" />  
 

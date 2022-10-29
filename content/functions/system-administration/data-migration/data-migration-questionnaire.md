@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Data Migration Questionnaire'
@@ -15,12 +15,12 @@ menu:
     parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
     weight: 4700
 ---
-## Abstract
-
+## Abstract  
+  
 This document is intended for those requesting data migration (DM) into  {{% system-name %}}  ( {{% sys-name %}} ), and should be used for surveying any and all requirements for that purpose. Data migration is defined as the movement, or transference of data from one system to another. For example, the moving of data from a legacy application (i.e. Medgate, UL/OHM, etc.) or spreadsheet, to a solution such as {{% system-name %}} , is understood as data migration.
-
-## I. Data Sources and Storage
-
+  
+## I. Data Sources and Storage  
+  
 This section is intended to provide an overview of the current state of data, its storage, and potential restrictions.
 1. Where do you store legacy data that is being considered for data migration?
    1. List and describe the purpose of all legacy EMRs or commercial applications in use.
@@ -31,9 +31,9 @@ This section is intended to provide an overview of the current state of data, it
 3. If the legacy data above is in a database, what database version is used for each data application or source (e.g. Oracle 12c, MSSQL 13.0, MySQL 5.7.17, etc.)?
 4. How will the data be delivered? For example, previous clients have performed their own backup or data extraction, and via SFTP, the data is then uploaded to our secure data center or, if applicable, to standalone hardware provided by {{% sys-name %}} .
 5. Are there any restrictive permissions with sharing your data? Most clients provide full database backups of the legacy system(s) requested for migration; however, we have had instances where the client was severely restricted in what could be released. Please verify what data restrictions, if any, may be present for each data source or application, prior to the data migration kickoff call.
-
-## II. Who's Who?
-
+  
+## II. Who's Who?  
+  
 We'd like to know everyone that has a voice in this project. Everyone with decision-making ability needs to be trained in our product. This will help them in decision-making when we have questions about what data is required and how it will be migrated.
 1. Identify key stakeholders in the data migration project and describe their role(s) in the project.
 2. Identify any relevant Subject Matter Experts (SMEs) and/or any key personnel and their titles/roles, if not already listed as a key stakeholder. Examples include:
@@ -47,8 +47,8 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
    1. Is there a user-acceptance process?
 5. Identify the SME for each data source, or the individual(s) best suited to address questions regarding the location and function of specific records or fields during the data migration.
    1. What is their availability for potential questions or concerns?
-
-## III. Client & Workflow-Specific Requirements
+  
+## III. Client & Workflow-Specific Requirements  
 
 {{% system-name %}}1.  typically encounters the following common data migrations from legacy data source(s). Which of the following data will your migration require? Also briefly describe any relevant reports for the legacy data, including the frequency of use and whether or not you analyze trends in historical data. When considering reports, please consider those used by not only clinical teams, but also caseworkers, medical directors, executives, and anyone else who may be accessing this data.
 
@@ -227,8 +227,8 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
 12. Are there any workflows that may be unique to your situation? Or do you have special input screens to facilitate a workflow in your legacy data systems?
 13. Will different employee/patient populations need to be restricted from certain clinical personnel? For example, would you want to restrict clinicians to work only with employees and personnel by country, person type (i.e. employee, applicant, contractor, etc), or employer organization (e.g. company, subsidiary, contractor, agency, prime, etc)?
 
-
-## IV. Next Steps
+  
+## IV. Next Steps  
 
 1. What documentation exists for the legacy data sources? Please provide any documentation available (e.g. diagrams, schemas, videos, tutorials, screenshots, specifications, third-party interface requirements, etc.).
 2. If Crystal Reports or similar database connections are used to extract or mine data, or the database has a custom front-end (e.g. MSSQL or Access often have these), please provide the queries for common reports and key screens on the front end. These queries are used to identify key discrete data in your systems and understand workflow.

@@ -10,7 +10,7 @@ links:
   - 'quality-of-care/measures.md'
   - '../programs/quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Quality of Care'
@@ -23,12 +23,12 @@ menu:
 
 
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures, designed for participation in various tracking and incentive programs available, today. These measures have been developed to help with understanding and excelling at tracking and providing quality care data. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
+  
+### [**See All Measures**](quality-of-care/measures.md)  
 
-### [**See All Measures**](quality-of-care/measures.md)
 
 
-
-Just the Basics
+Just the Basics  
 {{% contentbylabel showLabels="false" max="3" showSpace="false" sort="title" reverse="true" cql="label = 'basics'" %}}
 
 

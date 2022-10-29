@@ -13,7 +13,7 @@ links:
   - 'http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Data Import Standards'
@@ -38,23 +38,23 @@ The following columns display in standardized data import specifications:
 * <strong>MIE Notes</strong> - Open for MIE use to document questions.
 * <strong>MIE Wiki Link</strong> - URL to MIE Wiki page with related information.
 * <strong>MIE Legacy Field #</strong> - (Use if applicable.) Order of columns from older MIE spec.
-Older specifications may display different columns or a different order. The standard specification template is available [here.](https://docs.google.com/spreadsheets/d/1sSzJZ7izQBpfv1VL1vVQjNn8NUrbE2hUtqxvDj_bGus/edit#gid=0)
+Older specifications may display different columns or a different order. The standard specification template is available [here.](https://docs.google.com/spreadsheets/d/1sSzJZ7izQBpfv1VL1vVQjNn8NUrbE2hUtqxvDj_bGus/edit#gid=0)  
 CSV API wiki pages refer to data as it is named in the Field Name column of the specification, accompanied by the Data File Column Name Header in parentheses. This aides in tying together the details of the specification with the CSV template file used for the import. For example, *Name Value Pairs* (name_value.NAME)
-
-## **Specific Coded Values**
-
+  
+## **Specific Coded Values**  
+  
 The following fields require specific codes to represent specific values, and the data won't be displayed properly in a MIE system if the specific codes are not used.
-
-### **State**
-
+  
+### **State**  
+  
 ISO 2 letter state code (ISO 3166-2) - [https://www.iso.org/obp/ui/#iso:code:3166:US](https://www.iso.org/obp/ui/#iso:code:3166:US) *
-
-### **Country**
-
+  
+### **Country**  
+  
 ISO 2 letter country code (ISO 3166-1-alpha-2) - [http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements.htm](http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements.htm)
-
-### **Race**
-
+  
+### **Race**  
+  
 CDC Race codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf](http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf)
 
 <table>
@@ -94,7 +94,7 @@ CDC Race codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf](
 </table>
 
 
-**Ethnicity**
+**Ethnicity**  
 CDC Ethnicity codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf](http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf)
 
 <table>
@@ -269,15 +269,15 @@ CDC Ethnicity codes - [http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.
 </table>
 
 
-
-## Data Import User Instructions
-
-The following instructions detail how to import data into an EH system using a CSV file.
+  
+## Data Import User Instructions  
+  
+The following instructions detail how to import data into an EH system using a CSV file.  
 {{% note %}}
-These instructions apply only to a CSV file input. If the file you need to convert from is different, or if the client requests fields to be imported that are not covered by the generic data import format, the data must be imported differently.
+These instructions apply only to a CSV file input. If the file you need to convert from is different, or if the client requests fields to be imported that are not covered by the generic data import format, the data must be imported differently.  
 {{% /note %}}
-
-### **Accessing Data Import**
+  
+### **Accessing Data Import**  
 
 To access the data import template:
 1. Access the left side menu by clicking the menu icon.
@@ -285,13 +285,13 @@ To access the data import template:
 3. Click the Data Import tab.
 4. Select the appropriate from the drop-down menu. (Example displays generic data import).
 5. Click the Go button.
-
-#### **Template File**
+  
+#### **Template File**  
 
 Use the template file to establish the required columns and formats for the data import file. Click on the CSV Import Specification link for details about setting up the file.
 
-
-### **Import Testing**
+  
+### **Import Testing**  
 
 The import file must be stored as a CSV. If prompted by Excel to save as a different format, make sure the file is saved as a CSV. It is best to first test with only a few rows of data before importing an entire file. Then, if the data imports successfully, delete the rows you just loaded from the original file so that they are not duplicated. To complete a test import:
 1. Input the following information into corresponding fields to upload the form:
@@ -301,8 +301,8 @@ The import file must be stored as a CSV. If prompted by Excel to save as a diffe
    4. <strong>Choose/Upload File</strong>: Select the file you're importing.
    5. Click the <strong>Upload</strong> button.
 Any errors encountered during the import display on the import page. Click the Download Failed Generic Test Data File button to view the error file. This file is useful because it only contains the records from the data file that had issues. These issues can be identified and fixed and then the failed file can be uploaded to fill in the gap.
-
-## **CSV Header Options**
+  
+## **CSV Header Options**  
 
 [Chart Data CSV Header Options](chart-data-csv-header-options.md)
 

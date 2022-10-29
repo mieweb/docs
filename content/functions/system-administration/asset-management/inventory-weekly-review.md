@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Inventory Weekly Review'
@@ -14,31 +14,31 @@ menu:
     parent: '1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek'
     weight: 5750
 ---
-The Weekly Review Inventory Tab is located within the sidemenu tab named *Inventory*.
-Weekly Review tab shows you a worklist of problem inventory items that should be reviewed. These are inventory items that have a negative quantity that need attention or expired meds in the inventory that need worked on. We call it ‘weekly review' because this tab should be looked at weekly as meds expire regularly (depending on the expiration date that was entered) and inventory could get a negative quantity if items aren't dispense correctly or quantities modified correctly. Your practice can rename this tab as you wish. Items will appear on this list for one of two reasons: 1) They fall outside the PAR limits that are set on that inventory item and 2) They are about to expire.
+The Weekly Review Inventory Tab is located within the sidemenu tab named *Inventory*.  
+Weekly Review tab shows you a worklist of problem inventory items that should be reviewed. These are inventory items that have a negative quantity that need attention or expired meds in the inventory that need worked on. We call it ‘weekly review' because this tab should be looked at weekly as meds expire regularly (depending on the expiration date that was entered) and inventory could get a negative quantity if items aren't dispense correctly or quantities modified correctly. Your practice can rename this tab as you wish. Items will appear on this list for one of two reasons: 1) They fall outside the PAR limits that are set on that inventory item and 2) They are about to expire.  
 Your MIE Implementer can also set up an email cron job to email someone in your organization when inventory items hit a low Par level set or quantity specific. To narrow down the results, the Weekly Review report has several filters one can fill in to limit and reduce results at the top. When done entering in anything to filter by, simply click the Filter button to show the results limited to those filters.
-
-![](../inventory-weekly-review.assets/10000201000004FD0000019816E47338DB2D3E96.png)
+  
+![](../inventory-weekly-review.assets/10000201000004FD0000019816E47338DB2D3E96.png)  
 
 By default, the Weekly Review will open to show you 2 buckets. The *General Inventory Review* section and the *Patient Assistance Inventory* *Review* section.
-
-## General Inventory Review
-
+  
+## General Inventory Review  
+  
 The General Inventory Review section shows any inventory items that have a zero quantity (out of stock), have a negative quantity, items that have hit a min or max PAR level for it (this is the ‘Limit' column), and inventory items that are expired according to the expiration date entered for the item details.
+  
+![](../inventory-weekly-review.assets/10000201000004CE0000021F7F7FEF2CD75F0C94.png)  
 
-![](../inventory-weekly-review.assets/10000201000004CE0000021F7F7FEF2CD75F0C94.png)
-
-The item name and Lot number fields are hyperlinks. If you click an item name or lot number shown there, it will take you to the *Transaction Report* screen and automatically limit that report screen to the item/lot number you clicked. It prefills fields for you.
+The item name and Lot number fields are hyperlinks. If you click an item name or lot number shown there, it will take you to the *Transaction Report* screen and automatically limit that report screen to the item/lot number you clicked. It prefills fields for you.  
 In the Weekly Review, you have options to Edit Med, Expire Lot and Expire Med. Even though the hyperlinks have the word ‘med' in them, the functionality is used for immunization and supply order inventory items. For explanation on these options, please see the other help documentation named *Show Inventory*.*pdf*
+  
+![](../inventory-weekly-review.assets/10000201000004CA00000117ED87FB2D024D6FE0.png)  
 
-![](../inventory-weekly-review.assets/10000201000004CA00000117ED87FB2D024D6FE0.png)
-
-
-## Patient Assistance Inventory Review
-
-The Patient Assistance Inventory Review section in Weekly Review is patient specific. This is used for practice's that perhaps use drug company patient assistance programs and enter received meds into patient specific charts as inventory specific for them (instead of general inventory). This section shows any inventory items (along with the patient's name that has this inventory item) that have zero quantity, negative quantity or inventory items that are expired (it knows this from the expiration date that was entered when a user added the medication to the patient's specific inventory)
-You have options to Edit Med, Expire Med or Transfer Med to General Inventory.
+  
+## Patient Assistance Inventory Review  
+  
+The Patient Assistance Inventory Review section in Weekly Review is patient specific. This is used for practice's that perhaps use drug company patient assistance programs and enter received meds into patient specific charts as inventory specific for them (instead of general inventory). This section shows any inventory items (along with the patient's name that has this inventory item) that have zero quantity, negative quantity or inventory items that are expired (it knows this from the expiration date that was entered when a user added the medication to the patient's specific inventory)  
+You have options to Edit Med, Expire Med or Transfer Med to General Inventory.  
 For explanations on these options, please see the other help documentation named *Show Inventory.pdf*
-
-![](../inventory-weekly-review.assets/100000000000035500000140CF1AF063D8CFF4C8.png)
+  
+![](../inventory-weekly-review.assets/100000000000035500000140CF1AF063D8CFF4C8.png)  
 

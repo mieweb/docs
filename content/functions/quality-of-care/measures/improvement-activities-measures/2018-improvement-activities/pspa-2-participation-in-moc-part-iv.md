@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1TNvvo_OLsZXxD3TZq4LlK2OHNV_oeVPvmkfFjou_qyc'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'PSPA 2 - Participation in MOC Part IV'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Patient Safety and Practice Assessment
+**Activity Weighting**: Medium  
+**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: Participation in Maintenance of Certification (MOC) Part IV, such as the American Board of Internal Medicine (ABIM) Approved Quality Improvement (AQI) Program, National Cardiovascular Data Registry (NCDR) Clinical Quality Coach, Quality Practice Initiative Certification Program, American Board of Medical Specialties Practice Performance Improvement Module or ASA Simulation Education Network, for improving professional practice including participation in a local, regional or national outcomes registry or quality assessment program. Performance of monthly activities across practice to regularly assess performance in practice, by reviewing outcomes addressing identified areas for improvement and evaluating the results.
 
 
@@ -36,8 +36,8 @@ Supporting Documentation
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

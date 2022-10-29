@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTC&old_module=Email&old_name=Apt+Confirmation&active=0'
 source: 'https://drive.google.com/open?id=1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Apt Confirmation'
@@ -32,8 +32,8 @@ Cc:
 Subject: Appointment Confirmation - Location
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-
-## **Appointment Confirmation**
+  
+## **Appointment Confirmation**  
 
 
 TO: Frederick J Anderson

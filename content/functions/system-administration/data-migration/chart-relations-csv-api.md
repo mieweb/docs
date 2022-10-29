@@ -12,7 +12,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex2.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Chart Relations CSV API'
@@ -21,26 +21,26 @@ menu:
     weight: 4980
 ---
 The purpose of this page is to define data and fields that may be imported into MIE systems (i.e., WebChart, Enterprise Health) using the Chart Relations Import.
-
-### **Audience**
-
+  
+### **Audience**  
+  
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Relations CSV API. Technical details are provided in the remaining sections.
-
-### **Abstract**
-
-The Chart Relations CSV API is used to import various relationships between charts; between patients, users, organizations, or other entities.
+  
+### **Abstract**  
+  
+The Chart Relations CSV API is used to import various relationships between charts; between patients, users, organizations, or other entities.  
 A **chart** is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient. A chart can represent a person, organization, or other entity. Chart-to-chart relationships are used by {{% system-name %}} systems to connect a patient (employee) to another patient (employee), patient population (employee group), or non-employees.
 
 A **relation type** is used to define the type of connection between two charts. See the [Relation Types section](#gjdgxs) for more information. CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the  {{% sys-name %}} system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
-
-## **Specifications**
-
+  
+## **Specifications**  
+  
 The following detailed specifications are available for the Chart Relations CSV API:
 * [User instructions for importing data](#30j0zll).
-
-### **Column Definitions and Specific Coded Values**
-
-Definitions for the columns utilized in the specification information below. Commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
+  
+### **Column Definitions and Specific Coded Values**  
+  
+Definitions for the columns utilized in the specification information below. Commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.  
 High Level: Patient 2 is related to Patient 1 with Relation Type.
 * R = Required
 * O = Optional
@@ -165,32 +165,32 @@ The following table outlines default relation types.
 </table>
 These ID numbers vary from system to system, and because of this, a help bubble in the import tool describes the available relation types.
 
-
-## **Example**
+  
+## **Example**  
 
 In this example we are using William Hart's chart to establish a sibling relationship with Jane Doe.
 
-
-### **Examples of CSV**
+  
+### **Examples of CSV**  
 
 Adding a Credentialing Contact (RELATION_TYPE_ID: 20) relationship between two patients (MIE 10019 & MIE 10006)
 MIE 10006 is a Credentialing Contact for MIE 10019.
 
 
 ```
-
-
-{{% pre %}}
-
-
-PAT1_PARTITION,PAT1_MRN,PAT2_PARTITION,PAT2_MRN,RELATION_TYPE_ID
-MIE,10019,MIE,10006,20
-
-
-
-{{% /pre %}}
-
-
+  
+  
+{{% pre %}}  
+  
+  
+PAT1_PARTITION,PAT1_MRN,PAT2_PARTITION,PAT2_MRN,RELATION_TYPE_ID  
+MIE,10019,MIE,10006,20  
+  
+  
+  
+{{% /pre %}}  
+  
+  
 
 ```
 [Example file 1](https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex1.csv)
@@ -198,25 +198,25 @@ Adding multiple relations between patients:
 
 
 ```
-
-
-{{% pre %}}
-
-
-PAT1_PARTITION,PAT1_MRN,PAT2_PARTITION,PAT2_MRN,RELATION_TYPE_ID
-MIE,10019,MIE,10006,20
-MIE,10021,MIE,10020,3
-CCHIT,41205325,MIE,10019,8
-
-
-
-{{% /pre %}}
-
-
+  
+  
+{{% pre %}}  
+  
+  
+PAT1_PARTITION,PAT1_MRN,PAT2_PARTITION,PAT2_MRN,RELATION_TYPE_ID  
+MIE,10019,MIE,10006,20  
+MIE,10021,MIE,10020,3  
+CCHIT,41205325,MIE,10019,8  
+  
+  
+  
+{{% /pre %}}  
+  
+  
 
 ```
 [Example file 2](https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex2.csv)
-
-## **Related Pages**
+  
+## **Related Pages**  
 
 [Data Import Master List](data-import-master-list.md)

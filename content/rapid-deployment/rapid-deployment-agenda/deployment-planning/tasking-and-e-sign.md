@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-tasking.md'
   - '../../review-sessions/review-session-e-sign.md'
 source: 'https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Tasking & E-Sign'
@@ -17,15 +17,15 @@ menu:
     parent: '1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
     weight: 5910
 ---
-## Purpose
-
+## Purpose  
+  
 Cover the [Tasking Review Session](../../review-sessions/review-session-tasking.md) and the [Electronic Signature (E-Sign) Review Session](../../review-sessions/review-session-e-sign.md) to gather necessary information and identify any gaps.
-
-## Objective
-
+  
+## Objective  
+  
 Review the standard  {{% system-name %}} workflows and gather information needed for system setup of tasking and electronic signature.
-
-### Agenda - 1 Hour
+  
+### Agenda - 1 Hour  
 
 * Demonstrate Tasking
    * Overview
@@ -42,7 +42,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 * Demonstrate E-Sign Functionality
    * System Configuration
       * Esign Editor Rules
-
-## Afterward
-
+  
+## Afterward  
+  
 Document action items, distribute meeting minutes, create Jira tickets for configuration projects that are in scope, perform system configurations, update percentage complete and dates on project plan, and prepare for subsequent meetings.

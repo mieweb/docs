@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms117v10'
 source: 'https://drive.google.com/open?id=1MR0uCXDGLsP0rlSwgFdVRKCohi_d5Sfy_55wV1xV7nc'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CMS 117 - Childhood Immunization Status'
@@ -19,13 +19,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3860
 ---
-## Overview
-
-[CMS117v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v8&showresulttype=Measure) (2020)
-[CMS117v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS117v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v8&showresulttype=Measure) (2020)  
+[CMS117v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v9&showresulttype=Measure) (2021)  
 [CMS117v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -44,8 +44,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -80,8 +80,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -109,12 +109,12 @@ menu:
 </table>
 
 
-
-## Clinical Instructions
-
+  
+## Clinical Instructions  
+  
 Ensure all children turning 2 years of age during the measurement period have had a visit and received all of the necessary immunizations. Recording the receipt of the immunizations or the administration of the vaccines can be done within or outside of an encounter.
-
-### Workflow
+  
+### Workflow  
 
 1. <strong>Option 1: Record the Receipt of Immunizations (Historical)</strong>
    1. <strong>Within Encounter</strong>
@@ -144,11 +144,11 @@ Ensure all children turning 2 years of age during the measurement period have ha
       2. Click the Add Imm/Inj link in the upper-right of the page
       3. Fill in all required fields
       4. Click the Submit button
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -187,8 +187,8 @@ Ensure all children turning 2 years of age during the measurement period have ha
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -211,8 +211,8 @@ Ensure all children turning 2 years of age during the measurement period have ha
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 
@@ -464,7 +464,7 @@ Ensure all children turning 2 years of age during the measurement period have ha
 
 </table>
 
-
-## **Source(s)**
-
+  
+## **Source(s)**  
+  
 [eCQI CMS117](https://ecqi.healthit.gov/ecqm/ep/2022/cms117v10)

@@ -13,7 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
   - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
 source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Audiogram Validation Test Script'
@@ -22,15 +22,15 @@ menu:
     weight: 5210
 ---
 This document is intended to describe and assist users with the process to validate audiogram results imported from another system.
-
-## Requirements
+  
+## Requirements  
 
 * Compile a list of 8-10 different charts containing individual audiogram data from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data, such as multiple Standard Threshold Shifts (STSs) and multiple baselines, to address potential import discrepancies that could arise.
 * Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
-
-## Data Fields
-
-Validate the discrete values imported to {{% system-name %}} , listed in the table below. 
+  
+## Data Fields  
+  
+Validate the discrete values imported to {{% system-name %}} , listed in the table below.   
 {{% note %}}
 
 Some charts/records may not have all data elements, and in some circumstances, there may be additional data to validate. Check with the {{% system-name %}} superuser for details.
@@ -44,7 +44,8 @@ Some charts/records may not have all data elements, and in some circumstances, t
 </tr>
 <tr>
 <td><strong>Test Datetime</strong></td>
-<td>When the test was conducted (datetime).Must be in this date and time format: YYYY-MM-DD HH:MM:SS</td>
+<td>When the test was conducted (datetime).
+Must be in this date and time format: YYYY-MM-DD HH:MM:SS</td>
 <td>2019-02-15 13:30:00</td>
 </tr>
 <tr>
@@ -119,34 +120,43 @@ Some charts/records may not have all data elements, and in some circumstances, t
 </tr>
 <tr>
 <td><strong>Left STS</strong></td>
-<td>Standard threshold shift from last baseline test for the left ear.Options include:<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
+<td>Standard threshold shift from last baseline test for the left ear.
+Options include:
+<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
 <td>YES</td>
 </tr>
 <tr>
 <td><strong>Right STS</strong></td>
-<td>Standard threshold shift from last baseline test for the right ear.Options include:<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
+<td>Standard threshold shift from last baseline test for the right ear.
+Options include:
+<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
 <td>NO</td>
 </tr>
 <tr>
 <td><strong>Left Baseline</strong></td>
-<td>Flags the test as a baseline for the left ear.Options include:<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
+<td>Flags the test as a baseline for the left ear.
+Options include:
+<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
 <td>YES</td>
 </tr>
 <tr>
 <td><strong>Right Baseline</strong></td>
-<td>Flags the test as a baseline for the right ear.Options include:<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
+<td>Flags the test as a baseline for the right ear.
+Options include:
+<ul><li><p>YES</p></li><li><p>NO</p></li></ul></td>
 <td>NO</td>
 </tr>
 <tr>
 <td><strong>Calibration Date</strong></td>
-<td>Records the last date (datetime) the audiometer was calibrated.Must be in this date and time format: YYYY-MM-DD HH:MM:SS</td>
+<td>Records the last date (datetime) the audiometer was calibrated.
+Must be in this date and time format: YYYY-MM-DD HH:MM:SS</td>
 <td>2016-12-15 08:30:02</td>
 </tr>
 
 </table>
 Reference the [Audiogram Data Entry](../../document-management/documents-and-forms/audiogram-data-entry.md) online help for instructions on audiogram data entry.
-
-## Validation Instructions ([**video**](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-))
+  
+## Validation Instructions ([**video**](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-))  
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -175,7 +185,7 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 
 4. Clicking into the most recent audiogram will display all results that have been entered.
 
-   <img src="../audiogram-validation-test-script.assets/10000201000002D2000000948433627B36653995.png" />
+   <img src="../audiogram-validation-test-script.assets/10000201000002D2000000948433627B36653995.png" />  
 
 5. With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
 
@@ -187,8 +197,8 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
    1. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
    2. Contact {{% system-name %}} with the findings.
-
-## Reports ([**video**](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_))
+  
+## Reports ([**video**](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_))  
 
 The **Audiogram Report** and **Audiometric Testing** reports are particularly helpful in validating data between systems.
 **Audiogram Report:** Shows details based on search criteria.
@@ -198,7 +208,7 @@ To access and utilize these reports:
 1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
 2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.
 
-   <img src="../audiogram-validation-test-script.assets/10000201000000DA000000CFE328126D44CB0032.png" />
+   <img src="../audiogram-validation-test-script.assets/10000201000000DA000000CFE328126D44CB0032.png" />  
 
 3. Criteria may be added to filter or drill down data. 
    1. Audiogram Report
@@ -209,11 +219,11 @@ To access and utilize these reports:
 
    2. Audiometric Testing Report
 
-      <img src="../audiogram-validation-test-script.assets/10000201000002060000008E08D14DCAF85ECE98.png" />
+      <img src="../audiogram-validation-test-script.assets/10000201000002060000008E08D14DCAF85ECE98.png" />  
        
 
-
-## FAQs
+  
+## FAQs  
 
 **Q:** Why were age-adjusted shifts not included in the import?
 **A:** Because the Age Corrected Shift is a calculated field in {{% system-name %}} , this is not a stored field.

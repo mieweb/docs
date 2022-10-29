@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=17nTZZRqe8ofCm6bTCe4FAmPyZqREjkWRE7MwrZn_XOU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CC 2 - Implementation of Improvements that Contribute to More Timely Communication of Test Results'
@@ -22,21 +22,21 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Care Coordination
+**Activity Weighting**: Medium  
+**Subcategory Name**: Care Coordination  
 **Description**: Timely communication of test results defined as timely identification of abnormal test results with timely follow-up.
 
 
 
 
-Supporting Documentation
+Supporting Documentation  
 EHR reports or medical records demonstrating timely communication of abnormal test results to patient (capturing the communication rate and working toward improvement of that rate).
 
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

@@ -7,15 +7,15 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
-Use financial reports to view balances and details of accounts and pending billing and appointments. Also use financial reports to close out months.
-You can change the information displayed in reports and download it as comma-separated value (CSV) format files.
-This section discusses:
+Use financial reports to view balances and details of accounts and pending billing and appointments. Also use financial reports to close out months.  
+You can change the information displayed in reports and download it as comma-separated value (CSV) format files.  
+This section discusses:  
 {children }
-
-## Columns in financial reports
-
+  
+## Columns in financial reports  
+  
 Following are descriptions of the types of data contained in columns of financial reports. Columns for which the headings accurately describe their contents are not included here.
 
 <table>

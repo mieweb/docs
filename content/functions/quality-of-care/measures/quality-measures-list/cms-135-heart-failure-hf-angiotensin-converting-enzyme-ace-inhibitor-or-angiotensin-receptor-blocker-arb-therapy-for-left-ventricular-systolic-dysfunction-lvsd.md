@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms135v10'
 source: 'https://drive.google.com/open?id=1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
@@ -19,13 +19,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3930
 ---
-## Overview
-
-[CMS135v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v8&showresulttype=Measure) (2020)
-[CMS135v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS135v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v8&showresulttype=Measure) (2020)  
+[CMS135v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v9&showresulttype=Measure) (2021)  
 [CMS135v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -44,8 +44,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -80,8 +80,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -95,7 +95,10 @@ menu:
 </tr>
 <tr>
 <td><strong>Rate Aggregation</strong></td>
-<td>Population 1: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy within a 12-month period when seen in the outpatient setting Population 2: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy at each hospital dischargePerformance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Exceptions 1) + (Denominator 2 - Denominator Exceptions 2)]</td>
+<td>Population 1: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy within a 12-month period when seen in the outpatient setting 
+Population 2: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy at each hospital discharge
+
+Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Exceptions 1) + (Denominator 2 - Denominator Exceptions 2)]</td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -113,26 +116,26 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 12-month period of the diagnosis of heart failure with a current or prior left ventricular ejection fraction (LVEF) < 40%.
 1. Ensure patient has one of the following diagnoses:
    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109 
 1. Numerator will be populated with patients prescribed an ACE inhibitor or ARB therapy within the measurement period.  
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -175,8 +178,8 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 
 </table>
 
-
-### Denominator
+  
+### Denominator  
 
 
 <table>
@@ -195,8 +198,8 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -211,8 +214,8 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 
 </table>
 
-
-### Denominator Exceptions
+  
+### Denominator Exceptions  
 
 
 <table>
@@ -259,7 +262,7 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 
 </table>
 
-
-## **Source(s)**
-
+  
+## **Source(s)**  
+  
 [eCQI CMS135](https://ecqi.healthit.gov/ecqm/ep/2022/cms135v10)

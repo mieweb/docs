@@ -2,13 +2,13 @@
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
 date: '2020-03-10T14:14:41.266Z'
-version: 90
+version: 99
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Security Role Settings'
@@ -16,75 +16,75 @@ menu:
     parent: '15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY'
     weight: 5240
 ---
-The {{% system-name %}} system is HIPAA compliant and the role based access control security determines who can access the EHR system, and which features of the system the staff member may use. The {{% system-name %}} administrator can allow or limit staff access to patient information, lab results and {{% system-name %}} modification features. Security roles can be defined for an entire department such as physicians, reception, outside guests such as hospitals, or roles can be customized individually.
+The {{% system-name %}} system is HIPAA compliant and the role based access control security determines who can access the EHR system, and which features of the system the staff member may use. The {{% system-name %}} administrator can allow or limit staff access to patient information, lab results and {{% system-name %}} modification features. Security roles can be defined for an entire department such as physicians, reception, outside guests such as hospitals, or roles can be customized individually.  
 Review user security settings for individual users or role based needing access to the various functionality, and give permission, as appropriate. The feature on how to compare security role based permissions is available in the[ ](https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html)[Compare Security Roles](https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html) online help.
+  
+## **Editing Security Settings**  
 
-## **Editing Security Settings**
-
-
-### **For All Users in a specific Security Role**
-
-Click Control Panel tab from left sidebar menu.
-Click Security Role Editor tab from top menu.
+  
+### **For All Users in a specific Security Role**  
+  
+Click Control Panel tab from left sidebar menu.  
+Click Security Role Editor tab from top menu.  
 Select the security role that you wish to change security settings for by clicking edit to the right of the department security role name.
 
+  
+![](../security-role-settings.assets/100002010000054C0000015BDF3BA42AC17FB978.png)  
 
-![](../security-role-settings.assets/100002010000054C0000015BDF3BA42AC17FB978.png)
 
-
-At the top it will display which security role you are in for editing.  It also states the number of current users in this role. Click the view revision history for … to view revisions previously done to this security role.  This opens up a new window and you can search for revision details.  This is also the same link named Revisions that is provided in the prior listing of security roles options column.
-Change any security settings by using the drop-down arrow in the field(s).   
+At the top it will display which security role you are in for editing.  It also states the number of current users in this role. Click the view revision history for … to view revisions previously done to this security role.  This opens up a new window and you can search for revision details.  This is also the same link named Revisions that is provided in the prior listing of security roles options column.  
+Change any security settings by using the drop-down arrow in the field(s).     
 {{% note %}}
 
 Security setting changes being made to the security role here, affect every user that is tied to the security role being edited.
 {{% /note %}}
 
-
-![](../security-role-settings.assets/1000020100000473000000B6F671B607D8570074.png)
+  
+![](../security-role-settings.assets/1000020100000473000000B6F671B607D8570074.png)  
 
 
 When finished changing any security settings for the entire role, scroll down to the bottom of this security role edit screen.  At the very bottom there is a text field where you are required to type in the reason for the security permission change(s).  You have to type something in here or it will not save your edits.  Then, click the Update Individual Security button below that.  It then saves these security settings for this individual user only.  These changes do not affect the entire security role, just this individual user.
 
-
-![](../security-role-settings.assets/100002010000011D0000007F1965DD037B61A2B5.png)
+  
+![](../security-role-settings.assets/100002010000011D0000007F1965DD037B61A2B5.png)  
 
 
 You will then get a confirmation message that you successfully edited/updated that entire security role.   You can select another security role department to change or continue to work in {{% system-name %}} .
-
-### **For Individual Users**
+  
+### **For Individual Users**  
 
 Individual users can be configured to have specific levels of security settings edited without affecting all users in an entire security role.  This would be for individuals who need permission or restricted from certain things, whereas the rest of the users in the same security role do not.  The user has the default security settings for their security role department, but editing security permissions for individual users allows you to select exceptions to some security fields just for this individual user only.
 Select Control on left sidebar menu.
 Select Access Control from the top tab menu.
 Search for the specific user from Access Control using various search methods available.
 
-
-![](../security-role-settings.assets/10000201000004C2000000FF0CCA0D39E718B927.png)
+  
+![](../security-role-settings.assets/10000201000004C2000000FF0CCA0D39E718B927.png)  
 
 
 Once the specific user has been located, click Edit on their user line at the far right.
 
-
-![](../security-role-settings.assets/10000201000004C2000000FFCD79A05CADD1380F.png)
+  
+![](../security-role-settings.assets/10000201000004C2000000FFCD79A05CADD1380F.png)  
 
 
 After clicking Edit, the system takes you to the edit screen of their user details. Click Customize User Security hyperlink at the top right of the edit user screen.
 
-
-![](../security-role-settings.assets/10000201000004B1000000B1A7AC62CF2D546B33.png)
+  
+![](../security-role-settings.assets/10000201000004B1000000B1A7AC62CF2D546B33.png)  
 
 
 The Individual Security settings screen for that user will open. Select any security settings to change (for this specific user) by using the drop-downs in any security permission setting. When finished changing any security settings for the specific user, scroll down to the bottom of the individual security edit screen.  At the very bottom there is a text box field where you are required to type in the reason for the security permission change(s). You have to type something in here or it will not save your edits. Then, click the Update Individual Security button below that. System will then save these security settings for this individual user only.  The changes done here for individual user do not affect the entire security role, just this individual user.
 
-
-![](../security-role-settings.assets/100002010000046C000001DE3B7C1A85147F69AB.png)
-
-
-
-## **Summary of Security Role Settings**
+  
+![](../security-role-settings.assets/100002010000046C000001DE3B7C1A85147F69AB.png)  
 
 
-### **WebChart**
+  
+## **Summary of Security Role Settings**  
+
+  
+### **WebChart**  
 
 * Revoke PHI Access:  This permission controls access for a user to view or edit any tabs that display patient or personal health information (PHI), including E-chart, Appointments, Orders, and Documents. The following settings are available:
    * Yes: The user cannot view or edit tabs with PHI.
@@ -101,8 +101,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Ledger: Yes allows user access to the Ledger and transactions.
 * Manage Encounter Charges: This controls user access, view or to edit charges on an encounter. This is a specific charges section that is unique to ledgers, etc.
 * Set Grid Defaults: Yes allows user to set default grid preferences for all other users in the system.
-
-### **E-Chart**
+  
+### **E-Chart**  
 
 * Limited Access: This permission controls user access to specific patients. A user has access to a patient either through a direct relationship (such as provider to patient or supervisor to employee), or through the department they belong to (such as the nursing department to a patient). The following settings are available:
    * Yes: The user can access only the specific patients they have a direct relationship with. Relationships are defined in the setting Edit Patients Linked to User under Access Control > Edit User. If the Limited Access field is set to "Yes," it overrides the Restrict Access By Partition setting, and partition restrictions are ignored.
@@ -252,8 +252,8 @@ The Individual Security settings screen for that user will open. Select any secu
    * No: The user can only search for patients that are accessible based on Limited Access or Partition Restriction settings.
 * Manage Saved Templates: Default is set to Self meaning the user can only delete their own saved templates in encounters, etc.  If set to ALL, the user can delete their own or anyone else's saved templates.
 * Allow Auto reconcile of XML Uploads: If set to Yes it allows user to import data from CCR/CDA documents without having a user-patient relationship.
-
-### **Control**
+  
+### **Control**  
 
 * Manage Settings:NONE: In the Control tab on the left sidebar menu, in My Settings, it denies user(s) access to view their settings/preferences in My Settings.
    * Manage Own Settings: In My Settings, it allows the user(s) to view and edit/manage their own preferences/settings when they are logged in as that username.  Cannot view or change other user's settings/preferences.
@@ -345,8 +345,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Inv Trans Settings: Choose the departments that are allowed to manage inventory transactions
 * Manage Accounts: Allows users to add new accounts to the system and manage the information
 * Manage Contacts: Allows users to add new contacts to the system and manage the information
-
-### **Scheduler**
+  
+### **Scheduler**  
 
 * View Schedule: Yes allows users in this security role to view schedules.
 * Add Schedules: Yes allows users in this security role to add schedules.
@@ -365,8 +365,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Cancel Codes:  Yes allows users in this security role to create/edit/delete cancel/no show codes.
 * Schedule Resource at Multiple Locations: If yes, the user can schedule resources at multiple locations.
 * Manage Resource Restrictions: If yes, the user is allowed to add/delete users from a restricted resource's access.
-
-### **Dictation**
+  
+### **Dictation**  
 
 * Dictation Access:
    * None: The users will not have access to the left sidebar menu tab called Dictation.  
@@ -389,8 +389,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Search Dictation: Access to [Search] in Dictation menu.  If access, then can click on this to search for a specific dictation by using the parameters it asks for.
 * Held Tab Access: Yes allows this role to have access to the HELD tab in the dictation module.
 * Show/All Unassigned Jobs: Yes allows the users to see ALL pending dictation jobs in the system regardless if it's assigned or not. If set to No, the users can only see their assigned dictation and would be forced to click grab next job to get another dictation job to do. Some clients set their users to No so they cannot pick & choose which dictation jobs to complete.
-
-### **Esign**
+  
+### **Esign**  
 
 * View Access:  Allows users to get into the Esign left sidebar menu tab.
 * Esign Editor Access: Allows users within a security role to access the Esign Editor top tab in Esign. This is for MIE use. MIE can set up automatic e-sign tasks to happen in many situations/documents/functions, etc.
@@ -399,8 +399,8 @@ The Individual Security settings screen for that user will open. Select any secu
    * View: Allows users to the All Pending E-Sign tab to see who and how many e-signs are pending and can also preliminary sign others e-sign requests from here.
    * Delete: Allows users to the All Pending E-sign tab with all the same permissions as view has, but also this level allows a user to clear e-sign queues for other users.
 * Proxy Signing:  Yes allows users security to the proxy sign link in the all pending e-sign tab. Another physician/user can replace that person's signature with his/her own (so that documents can be sent out without having to wait for that person to return to e-sign.) When that link is clicked, the multi-review queue will open and the user with rights will be able to choose the documents he/she wants to sign. His/her signature is added to the document(s) and the other person's signature/e-sign request for their signature is removed. This will remove that document from the person's document queue.
-
-### **TaskList**
+  
+### **TaskList**  
 
 * View Access:  This allows users to view the TaskList tab and tasks. Users who have View Access set to NO for tasklist will not appear in the user drop down when adding a task.  Those users set to NO view access will not be available in the drop-down for other users to select to task to. Those users will not be able to be tasked since their security is NO for View Access in tasking. Also, they will not be tasked when All Must Acknowledge is selected as the user for any department/practice wide, etc.
 * Add Tasks: This allows users within a security role to add/send/create tasks. Shows the add task option in {{% system-name %}} . You must also have access to this if you choose the E-sign options of Sign and Add Task, Reject and Add Task, or Add Task W/O Signing.  If you do not have this access and you click one of those options, you will get an error message and a task will not be sent.
@@ -416,16 +416,16 @@ The Individual Security settings screen for that user will open. Select any secu
    * No: Will restrict a user from accessing the Task Search tab.
 * Edit Tasklist Events: Allows a user to view/edit/delete in the TaskList Events tab. Tasklist Events are how a task is triggered when a document is added/edited/signed if a TaskList Events is set up for that document.
 * Clear All Tasks:  Allows a user to see the Clear All Tasks option link in the All Pending Tasklist tab.  The user can then clear all tasks from a user's queue quickly and in mass if needed.
-
-### **EMR**
+  
+### **EMR**  
 
 * View Encounters: This allows access to view the side menu tab named Encounters. Some systems have this tab, others do not.  This is a worklist of encounters open. Some clients keep that worklist in Omniscope instead.
 * Delete Encounters:  Allows users in a role to delete a patient's encounters. The delete link will appear on a list of patient's encounters if they are allowed to have this permission.
 * Link Documents to Encounters: Allows users in a role to link stored documents to a specific encounter.
 * Reopen Closed Encounters:  Allows users in a role to reopen closed encounters.  If the encounter is closed and this permission is set to No, the user will not be able to view or edit any closed encounters.  They would have to edit the archived document of the encounter. An e-sign rule can be set up to notify physicians to sign again if an edit is done that way.  If this setting is set to Yes, the user will be able to reopen a closed encounter by clicking the set open link in the patient's list of encounters. If using this security setting (by restricting users to No for reopen closed encounters) then you must have the system setting turned on for Show Set Open Link by MIE so the allowed users can see the set open link.
 * Remove Encounter Sections: This setting allows users to remove sections from dynamic encounters.  Users need to have this set to "Any except locked" or "Any" to be able to hide or remove encounter sections in new encounter design. An encounter section can be defined as "locked" in the outline layout, and in that case, the user needs the higher "Any" privilege to be able to remove it.
-
-### **Orders**
+  
+### **Orders**  
 
 * View Access:  Allows access to add an order in the Orders tab or from any add order link.
 * Edit Order Pick Lists: No permission denies a user access to the Picklist tab in the Orders module. View Only allows users to view the Orders Picklist tab contents only.  Edit allows users to manage and edit the Orders Picklist tab.
@@ -433,8 +433,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage CPT Requirements: Allows access to the CPT Requirements tab in Orders. It's a listing of CPT codes that tie/required for certain diagnosis or insurances for Orders.  List of diagnosis good for CPT codes. Allows edit/view/delete/add.
 * Manage Order Panels: Allows access to the Order Panels tab in Orders.  A named panel can include many individual tests/orders and this tab provides the listing of them and allows edit/view/delete.
 * Manage Order Locations:  Allows role to access the Order Code Locations tab in Orders. CPT codes for Orders can be tagged to specific location(s). This tab provides the listing of them and allows edit/view/add/delete of this procedure.
-
-### **Inventory**
+  
+### **Inventory**  
 
 * View Inventory: Allows users access to the Inventory tab and modality on the left sidebar menu.
 * Receive Inventory: Allows users to access and use the Add Inventory and Add Donated tabs to add/receive meds into Inventory.
@@ -452,30 +452,30 @@ The Individual Security settings screen for that user will open. Select any secu
 * Merge Inventory Items: Allows users to merge two or more general inventory items into a single inventory item via the Control tab or Mappings tab of Inventory module.
 * Manage Stockpiles: Allows users to add and edit inventory stockpile sub-locations for main inventory locations via the Stockpiles tab of Inventory module.  MIE has to delete a stockpile if needed.
 * Manage Stock Warning Levels: Allows users to manage inventory warning levels via Par Levels tab of Inventory module.  Par Level minimums and maximums for general inventory items can be set or edited if users have this access.
-
-### **Mammogram Tracking**
+  
+### **Mammogram Tracking**  
 
 * Delete Mammogram: Allows role access to delete option in Mammogram left side bar tab or MamTrac tab in a patient's e-chart.
 * Mammogram Permissions: Allows role access to update, edit, delete options in Mammogram tab of left side bar or MamTrac tab in a patient's e-chart.
 * Copy Followup Forms to Other Users:  In the mammogram module, there is a ‘Set Preferences' link which allows the user to associate a birad/location with a form from the forms library. This association creates the rules for the default follow up forms selected for each patient.  This security item determines whether the user is allowed to copy their form default rules to another user's default rules.
-
-### **Explanation of Benefits**
+  
+### **Explanation of Benefits**  
 
 * EOB Permissions:  This is access to the EOB left sidebar tab.
    * No Access:  No access to EOB left sidebar tab.
    * View Access: Allows role to access EOB left sidebar tab.  Can search, print EOB's, print index pages, etc, but cannot edit an existing EOB batch.
    * Add Access:  This is the same security level as View Access.  View Access and Add Access are the same thing for this permission.
    * Edit Access: Allows role to access EOB left sidebar tab.  Can search, print EOB's, print index pages, etc and can also edit descriptions an existing EOB batch (Document type, Date, and Description).
-
-### **Incoming File Queue**
+  
+### **Incoming File Queue**  
 
 * Incoming File Queue:  This is access to the FaxQ left sidebar tab (these are incoming/received faxes.)
    * No Access:  No access to FaxQ left sidebar tab.
    * View: Allows role to access FaxQ left sidebar tab.  Can search, preview, print faxes but cannot edit, move, delete or categorize received faxes.
    * Manage: Allows role to access FaxQ left sidebar tab.  Can search, preview, print, manage, move, categorize, batch, index received faxes.
    * Permission Editor:  Yes allows users to access the FaxQ Perms tab found in control and access to the phone number permissions function button in the Fax Queue itself.  This is where incoming file queue phone number permissions are set. If set to no, the phone number permissions function button will not display in the Fax Queue itself and the user will also not have access to the FaxQ Perms tab from control.
-
-### **Health Surveillance**
+  
+### **Health Surveillance**  
 
 * Panels:  Access users to add/edit Health Surveillance panels in the Health Surveillance tab found in Control.
 * Membership: Access to add/edit membership roles.  Also Individual include & exclusive.
@@ -488,13 +488,13 @@ The Individual Security settings screen for that user will open. Select any secu
 * Panel Action Evaluator: Allows users to use the HS Test tab to run new health surveillance actions after changes are made.
 * Decertify:  Yes gives users the ability to manually decertify an employee for a given panel.  This privilege only needs to be given to the system user that effectively runs the automated health surveillance processes, as there is no user interface currently for creating a de-certification record.  
 * Manage Work Regions:  Yes gives users the ability to add and modify work regions.  Work regions can be associated with a panel for easy geographic differentiation of panels.
-
-### **Injury and Illness**
+  
+### **Injury and Illness**  
 
 * Case Manager:  In systems that use a legacy layout, Yes allows users to create Case Management Encounters.  These are the encounters that are used to manage an incident as it progresses.  When it's set to "Yes" on the legacy Incident report, there will be a new link that says "Create Case" that will create the encounter.  ‘Yes' allows user to have access to the case management module using legacy layouts.  The case manager user will only have access to view cases to which they are assigned. If newer system on newer layouts, this security permission is not used for any functionality and is being retired.
 * Delete:  Yes allows users to delete incidents.  When set to "Yes", a new "Delete" link will appear under the options column on the incident report as well as on any incident list views on a patient's chart. ‘Yes' allows user ability to delete an incident from the Incidents sidemenu tab in the injury/illness module.
-
-### **Time Tracking**
+  
+### **Time Tracking**  
 
 * Log Time:  Yes allows users to key in hours within the Time Tracking portlet of Quick View and within their provider chart.  
 * Delete Time: Yes allows users to delete a Time Tracking entry from their provider chart or any time tracking entries from a provider org (PO) chart via the Location Time Tracking tab.
@@ -502,8 +502,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Bill Time: Yes allows users to visibly see the Bill Time button and perform that function from the provider org (PO) chart in the Location Time Tracking tab.
 When done making changes to security permissions, you must type in a reason for the change.  You cannot update or save the changes without typing in the reason.
 
-
-![](../security-role-settings.assets/100002010000013C00000083C24DCBBA9E9D4918.png)
+  
+![](../security-role-settings.assets/100002010000013C00000083C24DCBBA9E9D4918.png)  
 
 
 To save the settings, click Update Role at bottom of the screen if editing settings for entire security role.

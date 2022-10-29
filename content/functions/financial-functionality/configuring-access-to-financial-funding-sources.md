@@ -8,9 +8,9 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1Nk51k7eFk7sbCADxwOlfsWb4sxLGdc6kkva5tWhS1GU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
-For each user security role or user account that needs to view or edit financial funding sources when working with charges or payments, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md). 
+For each user security role or user account that needs to view or edit financial funding sources when working with charges or payments, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md).   
 In the *Financials* section, in the *Funding Source* field, choose the level of access:
 * <strong>No Access</strong> (No access to financial funding sources.)
 * <strong>View</strong> (View financial funding sources when working with charges or payments.)

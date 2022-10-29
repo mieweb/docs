@@ -2,16 +2,16 @@
 id: '1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
 title: 'Creating and adding employees to employer organizations'
 date: '2021-02-18T16:06:30.420Z'
-version: 22
+version: 24
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
   - '../e-chart/editing-demographics.md'
 source: 'https://drive.google.com/open?id=1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
-Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.
+Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.  
 When creating and adding employees to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient chart for the employee and the process is completed from the patient demographics screen.
 1. [Find the employer organization](finding-employer-organizations.md) to which to add an employee.
 2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees of the employer organization.
@@ -22,7 +22,7 @@ When creating and adding employees to employer organizations, an employee's basi
 
 3. At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.
 
-   <img src="../creating-and-adding-employees-to-employer-organizations.assets/100000000000028800000139E19BD4B7A91806CE.png" />
+   <img src="../creating-and-adding-employees-to-employer-organizations.assets/100000000000028800000139E19BD4B7A91806CE.png" />  
 
 4. {info }
    The Social Security Number and email address are optional.{/info}

@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1LxXLwfac3ELRgwonRjyOhJuNjEQbyH0WkicGnYvwi28'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CC 16 - Primary Care Physician and Behavioral Health Bilateral Electronic Exchange of Information for Shared Patients'
@@ -22,15 +22,15 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Care Coordination
+**Activity Weighting**: Medium  
+**Subcategory Name**: Care Coordination  
 **Description**: The primary care and behavioral health practices use the same electronic health record system for shared patients or have an established bidirectional flow of primary care and behavioral health records.
 
 
 
 
-Supporting Documentation
-Documentation of established bidirectional flow between primary care and behavioral health practices that share common patients or use the same EHR systems
+Supporting Documentation  
+Documentation of established bidirectional flow between primary care and behavioral health practices that share common patients or use the same EHR systems  
 {{% note %}}
 
 A certified EHR may be used for documentation purposes, but is not required unless attesting for the Promoting Interoperability (formerly ACI) bonus.

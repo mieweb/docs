@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms134v10'
 source: 'https://drive.google.com/open?id=1w4VbzocSetahRwg8L0i1saJYqZLjfNnoq4pruRq-1cE'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
-## Overview
-
-[CMS134v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v8&showresulttype=Measure) (2020)
-[CMS134v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS134v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v8&showresulttype=Measure) (2020)  
+[CMS134v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v9&showresulttype=Measure) (2021)  
 [CMS134v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -74,8 +74,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -103,22 +103,22 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
-
-
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
+  
+### Original Visit Encounter  
 
-## Evidence
 
+  
+## Evidence  
 
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -165,8 +165,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 
@@ -254,8 +254,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -310,8 +310,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS134](https://ecqi.healthit.gov/ecqm/ep/2022/cms134v10)
 

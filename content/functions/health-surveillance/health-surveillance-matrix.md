@@ -8,11 +8,11 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1tOwhUxErru3-fsHKGUES0lVE8tr_p_RaWX8bEruCghQ/edit#gid=516694809'
 source: 'https://drive.google.com/open?id=1uE3JqvyP8KAbK2mO0sIrGUZa32BhgHULC3NdSyakf4M'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
 Please review and download the [Health Surveillance Matrix](https://docs.google.com/spreadsheets/d/1tOwhUxErru3-fsHKGUES0lVE8tr_p_RaWX8bEruCghQ/edit#gid=516694809). Utilize the descriptions below to address any questions that may arise while assessing the organization's needs and requirements of health surveillance panels.
-
-## Panels
+  
+## Panels  
 
 
 <table>
@@ -70,8 +70,8 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 </tr>
 
 </table>
-
-## Actions
+  
+## Actions  
 
 
 <table>
@@ -125,7 +125,8 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 </tr>
 <tr>
 <td>Trigger Date</td>
-<td>Define a specific event/date that triggers the completion of the action.<ul><li><p><strong>Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the starting age and frequency.</p></li><li><p><strong>Last Event</strong>: Completion of the action triggers on a specified time after the last time the action was performed</p></li><li><p><strong>Last Event - On Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the last time the action was performed and the frequency.</p></li><li><p><strong>Last Event - On Date of Hire</strong>: Triggers on the date of hire, on a schedule determined by the member's start date.</p></li><li><p><strong>Last Event - On Medical Anniversary</strong>: Due on the member's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.</p></li><li><p><strong>Other Action (Triggered)</strong>: Triggers at the same time as the specified action/event of the panel.</p></li><li><p><strong>Point in Time</strong>: Triggers on the same day and month, each year.</p></li><li><p><strong>Prior Action (Completed)</strong>: Triggers on the given amount of time specified in the Frequency field, once the specified action/procedure has been completed.</p></li><li><p><strong>Panel Expiration</strong>: Triggers on the expiration of the respective panel.</p></li></ul></td>
+<td>Define a specific event/date that triggers the completion of the action.
+<ul><li><p><strong>Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the starting age and frequency.</p></li><li><p><strong>Last Event</strong>: Completion of the action triggers on a specified time after the last time the action was performed</p></li><li><p><strong>Last Event - On Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the last time the action was performed and the frequency.</p></li><li><p><strong>Last Event - On Date of Hire</strong>: Triggers on the date of hire, on a schedule determined by the member's start date.</p></li><li><p><strong>Last Event - On Medical Anniversary</strong>: Due on the member's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.</p></li><li><p><strong>Other Action (Triggered)</strong>: Triggers at the same time as the specified action/event of the panel.</p></li><li><p><strong>Point in Time</strong>: Triggers on the same day and month, each year.</p></li><li><p><strong>Prior Action (Completed)</strong>: Triggers on the given amount of time specified in the Frequency field, once the specified action/procedure has been completed.</p></li><li><p><strong>Panel Expiration</strong>: Triggers on the expiration of the respective panel.</p></li></ul></td>
 </tr>
 <tr>
 <td>Trigger Others</td>
@@ -157,8 +158,8 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 </tr>
 
 </table>
-
-## Membership
+  
+## Membership  
 
 
 <table>

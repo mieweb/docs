@@ -6,7 +6,7 @@ version: 60
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Installing MIE Device App'
@@ -19,7 +19,7 @@ There are required applications that may be needed for some programs, as well as
 
 1. Go to the <strong>Control Panel</strong> and navigate to {{% syslink "Plugins" "f=admin&s=plugins" %}} .
 
-   <img src="../installing-mie-device-app.assets/10000201000004AF000001C029799A6B893AD5C4.png" />
+   <img src="../installing-mie-device-app.assets/10000201000004AF000001C029799A6B893AD5C4.png" />  
 
 2. Click the <strong>Download the MIE SSL App</strong> link in the upper-right corner of the page. 
 
@@ -29,11 +29,11 @@ There are required applications that may be needed for some programs, as well as
 
 3. The miesslappsetup.exe will download and be used to install the application. Click the downloaded file, and follow the prompts.
 
-   <img src="../installing-mie-device-app.assets/10000201000004AC00000215B1062DEACFB0B6DF.png" />
+   <img src="../installing-mie-device-app.assets/10000201000004AC00000215B1062DEACFB0B6DF.png" />  
 
 4. After installing the MIE SSL App, click the <strong>Download MIE Device App</strong> in the upper-right corner of the page.
 
-   <img src="../installing-mie-device-app.assets/10000201000004AF000001E4F1989D8410EE2C15.png" />
+   <img src="../installing-mie-device-app.assets/10000201000004AF000001E4F1989D8410EE2C15.png" />  
 
 5. The miedeviceappsetup.exe will download and be used to install the application. Click the downloaded file, and follow the prompts.
 
@@ -47,7 +47,7 @@ There are required applications that may be needed for some programs, as well as
 {{% /note %}}
 6. Once installed, two new icons will appear in the system tray.
 
-   <img src="../installing-mie-device-app.assets/10000201000000AE000000D3B94284AB5594FC71.png" />
+   <img src="../installing-mie-device-app.assets/10000201000000AE000000D3B94284AB5594FC71.png" />  
 
 7. With the necessary applications installed, navigate to the {{% syslink "Quick View" "func=omniscope" %}} page. Click the <strong>One-time setup</strong> link in the Device Interfaces portlet and follow the prompts.
 

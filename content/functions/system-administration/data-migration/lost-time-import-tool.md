@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203'
 source: 'https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Lost Time Import Tool'
@@ -18,38 +18,38 @@ menu:
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 
-
-![](../lost-time-import-tool.assets/10000000000000A70000002A707D3271ABC5312F.png)
+  
+![](../lost-time-import-tool.assets/10000000000000A70000002A707D3271ABC5312F.png)  
 
 
 If user(s) have security permission to allow .csv data import, then the user(s) can access the DATA IMPORT tab, this feature allows the user access to download a .csv template file and fill in patient demographic data using a spreadsheet application. If you have it set to NO, you can't view or access the Data Import tab at all.
 
-
-![](../lost-time-import-tool.assets/10000000000003800000009CC8F8282D62CB688B.jpg)
+  
+![](../lost-time-import-tool.assets/10000000000003800000009CC8F8282D62CB688B.jpg)  
 
 
 If your system does not have a Data Import tab, please contact your MIE Implementer to have the tab programmed on your system.
 
-
-![](../lost-time-import-tool.assets/10000000000001900000003DBFF4A8F37497C81B.jpg)
+  
+![](../lost-time-import-tool.assets/10000000000001900000003DBFF4A8F37497C81B.jpg)  
 
 
 Once in the Data Import tab, use the drop down to select the specific {{% system-name %}} data import type and click the GO button.
 
-
-## Lost Time Import
+  
+## Lost Time Import  
 
 
 In this help document we will be going through the {{% system-name %}} Lost Time import type.
 
-
-![](../lost-time-import-tool.assets/100002010000030600000112A1168367E79C0CB5.png)
+  
+![](../lost-time-import-tool.assets/100002010000030600000112A1168367E79C0CB5.png)  
 
 
 Once you've made the drop-down selection from the Data Import tool type and clicked the GO button for {{% system-name %}} Lost Time import, you can download the.csv template file [[Download Template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)]. From your own downloaded copy, fill in your Lost Time data using a spreadsheet application.
 
-
-![](../lost-time-import-tool.assets/10000201000003B50000018D654DD8BD571DD914.png)
+  
+![](../lost-time-import-tool.assets/10000201000003B50000018D654DD8BD571DD914.png)  
 
 
 This {{% system-name %}} import tool allows the creating of encounters and creation of cases/incidents in a patient's chart with the data provided in the import spreadsheet.
@@ -68,17 +68,17 @@ INTERFACE allows you to specify which interface to store to find the patient.
 
 VERBOSE mode will print out what the import is doing to the screen and the log file.
 
-
-## Template
+  
+## Template  
 
 You can view the [spreadsheet template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203) and download your own copy. Again, even though our template shows 5 tabs for each of the 5 types of Lost Time imports available, each must be on its own unique separate file when you go to import that type.
 
+  
+![](../lost-time-import-tool.assets/10000201000002E9000000E3C6DF7C88FC2CD360.png)  
 
-![](../lost-time-import-tool.assets/10000201000002E9000000E3C6DF7C88FC2CD360.png)
 
-
-
-## Data and Values for Encounters and Incidents
+  
+## Data and Values for Encounters and Incidents  
 
 An encounter documents a visit with a patient, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during a patient appointment.
 
@@ -106,7 +106,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>encounters.visit_type</td>
-<td><strong>Recommended Field </strong>Description from the ‘encounter_visit_types' table. _What encounter visit type you want to be created when you import Lost Time. Must be the specific visit type code from your {{% system-name %}} system</td>
+<td>
+<strong>Recommended Field </strong>Description from the ‘encounter_visit_types' table. _What encounter visit type you want to be created when you import Lost Time. Must be the specific visit type code from your {{% system-name %}} system</td>
 <td>10</td>
 <td>Visit</td>
 </tr>
@@ -148,7 +149,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>encounters.closed</td>
-<td><strong>Recommended Field</strong> Inserts the encounter visit type specified (when using <em>encounters.visit_type</em> field) as open or closed.Options include:<ul><li><p>0 (would be value Open)</p></li><li><p>1 (would be value Closed)</p></li></ul></td>
+<td><strong>Recommended Field</strong> Inserts the encounter visit type specified (when using <em>encounters.visit_type</em> field) as open or closed.Options include:
+<ul><li><p>0 (would be value Open)</p></li><li><p>1 (would be value Closed)</p></li></ul></td>
 <td>11</td>
 <td>1</td>
 </tr>
@@ -172,19 +174,23 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td><strong>incidents.inc_datetime</strong></td>
-<td><strong>Required Field</strong> Maps to {{% system-name %}} incident field "Date & time of injury or onset of illness". Incident datetime.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+<strong>Required Field</strong> Maps to {{% system-name %}} incident field "Date & time of injury or onset of illness". Incident datetime.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
 <tr>
 <td>incidents.case_number</td>
-<td>A string representing the incident. If a unique case id# from other system, indicate here. If not indicated, then {{% system-name %}} will not have a case # on the case/incident and will show "view" in that column.</td>
+<td>
+A string representing the incident. If a unique case id# from other system, indicate here. If not indicated, then {{% system-name %}} will not have a case # on the case/incident and will show "view" in that column.</td>
 <td>30</td>
 <td>ABC123 or 54321</td>
 </tr>
 <tr>
 <td>incidents.case_type</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field named "Case Type". The type of case the incident refers to.Options include:* Injury-OSHA (would be value Injury)<ul><li><p>Injury NON-OSHA (would be value Injury NO)</p></li><li><p>Hospital (would be value Hospital)</p></li><li><p>Billing (would be value Billing)</p></li><li><p>Absence management (would be value Absence management)</p></li><li><p>MSEA (would be value MSEA)</p></li></ul></td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field named "Case Type". The type of case the incident refers to.Options include:* Injury-OSHA (would be value Injury)
+<ul><li><p>Injury NON-OSHA (would be value Injury NO)</p></li><li><p>Hospital (would be value Hospital)</p></li><li><p>Billing (would be value Billing)</p></li><li><p>Absence management (would be value Absence management)</p></li><li><p>MSEA (would be value MSEA)</p></li></ul></td>
 <td>enumeration</td>
 <td>Injury</td>
 </tr>
@@ -196,25 +202,29 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.on_premises</td>
-<td>Flags the incident if it occurred on employer's premises. Options include:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>Flags the incident if it occurred on employer's premises. Options include:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>incidents.loc_description</td>
-<td><strong>Recommended Field</strong> Description for a location that does not appear on the {{% system-name %}} locations table.</td>
+<td>
+<strong>Recommended Field</strong> Description for a location that does not appear on the {{% system-name %}} locations table.</td>
 <td>Text</td>
 <td>CompanyABC Hospital</td>
 </tr>
 <tr>
 <td>incidents.loc_address1</td>
-<td>Address 1 for a location that does not appear on the {{% system-name %}} locations table.</td>
+<td>
+Address 1 for a location that does not appear on the {{% system-name %}} locations table.</td>
 <td>50</td>
 <td>123 Main Street</td>
 </tr>
 <tr>
 <td>incidents.loc_address2</td>
-<td>Address 2 for a location that does not appear on the {{% system-name %}} locations table.</td>
+<td>
+Address 2 for a location that does not appear on the {{% system-name %}} locations table.</td>
 <td>50</td>
 <td>Apt 23</td>
 </tr>
@@ -238,31 +248,37 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.loc_county</td>
-<td>County for a location that does not appear on the {{% system-name %}} locations table.</td>
+<td>
+County for a location that does not appear on the {{% system-name %}} locations table.</td>
 <td>50</td>
 <td>Pima</td>
 </tr>
 <tr>
 <td><em>incidents.loc_country</em></td>
-<td>Country for a location that does not appear on the {{% system-name %}} locations table.</td>
+<td>
+Country for a location that does not appear on the {{% system-name %}} locations table.</td>
 <td>30</td>
 <td>USA</td>
 </tr>
 <tr>
 <td>incidents.hospitalized</td>
-<td>Flag indicates if employee was hospitalized due to injury. Options include:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>Flag indicates if employee was hospitalized due to injury. Options include:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>incidents.emergency_room</td>
-<td>Indicates if injury included an emergency room visit:Options include:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>Indicates if injury included an emergency room visit:Options include:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>incidents.treatment_loc_type</td>
-<td>Maps to {{% system-name %}} field "Was treatment provided by". Location where employee/patient was treated. Options include:<ul><li><p>Onsite Health Services</p></li><li><p>ER</p></li><li><p>External Provider</p></li><li><p>Other</p></li></ul></td>
+<td>
+Maps to {{% system-name %}} field "Was treatment provided by". Location where employee/patient was treated. Options include:
+<ul><li><p>Onsite Health Services</p></li><li><p>ER</p></li><li><p>External Provider</p></li><li><p>Other</p></li></ul></td>
 <td>enumeration</td>
 <td>External Provider</td>
 </tr>
@@ -334,37 +350,47 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.osha_work_related</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Work Related". Flags injury as OSHA work-related. Options include:<ul><li><p>Yes</p></li><li><p>No</p></li><li><p>Undetermined</p></li><li><p>N/A</p></li></ul></td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Work Related". Flags injury as OSHA work-related. Options include:
+<ul><li><p>Yes</p></li><li><p>No</p></li><li><p>Undetermined</p></li><li><p>N/A</p></li></ul></td>
 <td>enumeration</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>incidents.osha_completed_dt</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Date determined recordable". Timestamp when incident was reported to OSHA.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Date determined recordable". Timestamp when incident was reported to OSHA.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
 <tr>
 <td>incidents.osha_itype</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Injury/illness type". Injury or illness type (OSHA list). Value choices: I=injury; S=skin disorder; R=respiratory condition; P=poisoning; H=hearing loss; A=all other illnesses</td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Injury/illness type". Injury or illness type (OSHA list). Value choices: I=injury; S=skin disorder; R=respiratory condition; P=poisoning; H=hearing loss; A=all other illnesses</td>
 <td>65</td>
 <td></td>
 </tr>
 <tr>
 <td>incidents.privacy_case</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Privacy Case" checkbox. Flag if incident is sensitive. Name of employee is hidden on OSHA log. Options include:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Privacy Case" checkbox. Flag if incident is sensitive. Name of employee is hidden on OSHA log. Options include:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>incidents.suppress_osha</td>
-<td>Flag indicates if a record should be sent over an interface for OSHA reporting.Options include:<ul><li><p>1 - do not send over interface</p></li><li><p>2 - send over interface</p></li><li><p>0 - send send over interface to safety system for OSHA reporting that is separate from {{% system-name %}}</p></li></ul></td>
+<td>
+Flag indicates if a record should be sent over an interface for OSHA reporting.Options include:
+<ul><li><p>1 - do not send over interface</p></li><li><p>2 - send over interface</p></li><li><p>0 - send send over interface to safety system for OSHA reporting that is separate from {{% system-name %}}</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>incidents.workcomp_related</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Workers' comp related". Indicates that the incident is compensable by a work comp provider.Options include:<ul><li><p>Yes</p></li><li><p>No</p></li><li><p>Undetermined</p></li><li><p>N/A</p></li></ul></td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Workers' comp related". Indicates that the incident is compensable by a work comp provider.Options include:
+<ul><li><p>Yes</p></li><li><p>No</p></li><li><p>Undetermined</p></li><li><p>N/A</p></li></ul></td>
 <td>enumeration</td>
 <td>Yes</td>
 </tr>
@@ -412,13 +438,15 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.return_to_work_dt</td>
-<td>Maps to {{% system-name %}} incident field "Actual return to work date". Datetime employee returned to work post-injury.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+Maps to {{% system-name %}} incident field "Actual return to work date". Datetime employee returned to work post-injury.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
 <tr>
 <td>incidents.target_return_to_work_dt</td>
-<td>Maps to {{% system-name %}} incident field "Expected return to work date". Goal datetime employee will return to work post-injury.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+Maps to {{% system-name %}} incident field "Expected return to work date". Goal datetime employee will return to work post-injury.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
@@ -442,7 +470,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.date_last_worked</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Last date of work". Datetime the employee last time worked before the incident.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Last date of work". Datetime the employee last time worked before the incident.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
@@ -460,19 +489,23 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.suppress_workcomp</td>
-<td>Flag indicates if a record should be sent over an interface for work comp reporting.Options include:<ul><li><p>1 - do not send over interface</p></li><li><p>2 - send over interface</p></li><li><p>0 - send send over interface to safety system for work comp reporting that is separate from {{% system-name %}}</p></li></ul></td>
+<td>
+Flag indicates if a record should be sent over an interface for work comp reporting.Options include:
+<ul><li><p>1 - do not send over interface</p></li><li><p>2 - send over interface</p></li><li><p>0 - send send over interface to safety system for work comp reporting that is separate from {{% system-name %}}</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>incidents.workcomp_claim_num</td>
-<td>Work comp claim number from client (can be thru interface or documented manually). This maps to the {{% system-name %}} field "Claim Number" found in the <strong>incident/case summary</strong> section of an encounter for work comp.</td>
+<td>
+Work comp claim number from client (can be thru interface or documented manually). This maps to the {{% system-name %}} field "Claim Number" found in the <strong>incident/case summary</strong> section of an encounter for work comp.</td>
 <td>255</td>
 <td>ABC12345</td>
 </tr>
 <tr>
 <td>incidents.workcomp_contact</td>
-<td>Name of work comp contact. Used for communicating with work comp provider. This maps to the {{% system-name %}} field "Adjuster/Examiner" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
+<td>
+Name of work comp contact. Used for communicating with work comp provider. This maps to the {{% system-name %}} field "Adjuster/Examiner" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
 <td>255</td>
 <td>John Sample</td>
 </tr>
@@ -484,25 +517,29 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.workcomp_fax</td>
-<td>Work comp provider fax number. This maps to the {{% system-name %}} field "Fax number" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
+<td>
+Work comp provider fax number. This maps to the {{% system-name %}} field "Fax number" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
 <td>30</td>
 <td>5558765310</td>
 </tr>
 <tr>
 <td>incidents.workcomp_addr1</td>
-<td>Work comp provider address. This maps to the {{% system-name %}} field "Address" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
+<td>
+Work comp provider address. This maps to the {{% system-name %}} field "Address" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
 <td>30</td>
 <td>123 Main Street</td>
 </tr>
 <tr>
 <td>incidents.workcomp_addr2</td>
-<td>Work comp provider address. This maps to the {{% system-name %}} field "Address2" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
+<td>
+Work comp provider address. This maps to the {{% system-name %}} field "Address2" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
 <td>30</td>
 <td>Apt 23</td>
 </tr>
 <tr>
 <td><em>incidents.workcomp_city</em></td>
-<td>Work comp provider address. This maps to the {{% system-name %}} field "City" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
+<td>
+Work comp provider address. This maps to the {{% system-name %}} field "City" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
 <td>30</td>
 <td>Smallville</td>
 </tr>
@@ -514,13 +551,16 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td><em>incidents.workcomp_zip</em></td>
-<td>Work comp provider address. This maps to the {{% system-name %}} field "Zip code" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
+<td>
+Work comp provider address. This maps to the {{% system-name %}} field "Zip code" found in the separate <strong>incident/case summary</strong> section of an encounter for work comp.</td>
 <td>11</td>
 <td>12345 or 12345-6789</td>
 </tr>
 <tr>
 <td>incidents.employee_starttime</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Time patient began work on day of injury/illness". Time employee began shift on day of injury.The following time formats are supported:<ul><li><p>HH:MM:SS</p></li><li><p>HH:MM:SSAM</p></li><li><p>HH:MM:SSPM</p></li></ul></td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Time patient began work on day of injury/illness". Time employee began shift on day of injury.The following time formats are supported:
+<ul><li><p>HH:MM:SS</p></li><li><p>HH:MM:SSAM</p></li><li><p>HH:MM:SSPM</p></li></ul></td>
 <td>8</td>
 <td>11:12:00AM</td>
 </tr>
@@ -544,7 +584,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.ppi</td>
-<td>Percent permanent impairment–a disability rating:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>Percent permanent impairment–a disability rating:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
@@ -556,7 +597,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.mmi</td>
-<td>Maximum medical improvement (plateau):<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>Maximum medical improvement (plateau):
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
@@ -568,13 +610,16 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.others_injured</td>
-<td>Indicates if another employee was injured. Options:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>Indicates if another employee was injured. Options:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>incidents.employee_died</td>
-<td>Maps to {{% system-name %}} incidents field "Patient died". Indicates if employed died.Options:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>
+Maps to {{% system-name %}} incidents field "Patient died". Indicates if employed died.Options:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>0</td>
 </tr>
@@ -586,7 +631,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.reported_super_datetime</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Date/time supervisor notified". Datetime incident was reported to the employee's supervisor.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "Date/time supervisor notified". Datetime incident was reported to the employee's supervisor.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
@@ -622,13 +668,15 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.reported_datetime</td>
-<td>Datetime incident was reported. When manually creating a new case in {{% system-name %}} via an encounter in an employee's chart, the reported date assumes "current date/time" as the reported date in the background and this is displayed in view only on encounter and a column in the Common Case Report. There is no editable field in front-end of {{% system-name %}} for this reported date. If client has ability for their employee's to report incidents via their portal, it would be the date they reported it via the portal.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+Datetime incident was reported. When manually creating a new case in {{% system-name %}} via an encounter in an employee's chart, the reported date assumes "current date/time" as the reported date in the background and this is displayed in view only on encounter and a column in the Common Case Report. There is no editable field in front-end of {{% system-name %}} for this reported date. If client has ability for their employee's to report incidents via their portal, it would be the date they reported it via the portal.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
 <tr>
 <td>incidents.comment_activity</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field "What was the employee doing just before the incident occurred?" Documents action employee was performing before incident happened. Corresponds to OSHA form.</td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field "What was the employee doing just before the incident occurred?" Documents action employee was performing before incident happened. Corresponds to OSHA form.</td>
 <td>Text</td>
 <td>Climbing a ladder</td>
 </tr>
@@ -640,7 +688,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.comment_cause</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "What object or substance directly harmed the employee?" Object or substance that harmed the employee. Corresponds to OSHA form.</td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incident field "What object or substance directly harmed the employee?" Object or substance that harmed the employee. Corresponds to OSHA form.</td>
 <td>Text</td>
 <td>concrete floor</td>
 </tr>
@@ -652,7 +701,9 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.status</td>
-<td><strong>Recommended Field</strong> Populates the "case/incident" in {{% system-name %}} as opened or closed. If bringing/importing in open cases, you want this value to be 1. Options include:<ul><li><p>1 - current</p></li><li><p>2 - closed</p></li><li><p>0 - created but not entered</p></li></ul></td>
+<td>
+<strong>Recommended Field</strong> Populates the "case/incident" in {{% system-name %}} as opened or closed. If bringing/importing in open cases, you want this value to be 1. Options include:
+<ul><li><p>1 - current</p></li><li><p>2 - closed</p></li><li><p>0 - created but not entered</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
@@ -664,13 +715,15 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incidents.outside_reported</td>
-<td>Indicates if an injury was reported via outside source such as employee portal or physical therapist. Options:<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
+<td>Indicates if an injury was reported via outside source such as employee portal or physical therapist. Options:
+<ul><li><p>1 - yes</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>0</td>
 </tr>
 <tr>
 <td>incidents.verified</td>
-<td>If the incident was reported from outside of the organization, and needs to be verified internally. Options include:<ul><li><p>No</p></li><li><p>Yes</p></li><li><p>Declined</p></li></ul></td>
+<td>If the incident was reported from outside of the organization, and needs to be verified internally. Options include:
+<ul><li><p>No</p></li><li><p>Yes</p></li><li><p>Declined</p></li></ul></td>
 <td>enumeration</td>
 <td>Yes</td>
 </tr>
@@ -748,7 +801,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incident_extended_fields.ca_dwc1_form</td>
-<td><strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field "Date/time workers comp forms were given". Work comp form in California.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+<td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field "Date/time workers comp forms were given". Work comp form in California.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
@@ -766,13 +820,15 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 </tr>
 <tr>
 <td>incident_extended_fields.cause_of_injury</td>
-<td>Maps to {{% system-name %}} incident field "CAUSE" dropdown. Object that caused injury (limited use).</td>
+<td>
+Maps to {{% system-name %}} incident field "CAUSE" dropdown. Object that caused injury (limited use).</td>
 <td>100</td>
 <td></td>
 </tr>
 <tr>
 <td>incident_extended_fields.nature_of_injury</td>
-<td>Maps to {{% system-name %}} incident field "EVENT" dropdown. Type of injury (limited use).</td>
+<td>
+Maps to {{% system-name %}} incident field "EVENT" dropdown. Type of injury (limited use).</td>
 <td>100</td>
 <td></td>
 </tr>
@@ -893,8 +949,8 @@ A case/incident contains a full report of a workplace injury, or incident, for a
 
 </table>
 
-
-## Data and Values for Patient Conditions
+  
+## Data and Values for Patient Conditions  
 
 This import tool file imports all details of a condition for a patient record. A condition is defined as a patient's health/medical problems, frequently coded using SNOMED or ICD-9/10 Diagnosis codes.
 
@@ -987,8 +1043,8 @@ This import tool file imports all details of a condition for a patient record. A
 
 </table>
 
-
-## Data and Values for Patient Clinical Restrictions
+  
+## Data and Values for Patient Clinical Restrictions  
 
 This import tool file imports restriction details. In occupational health, a restriction (clinical restriction) refers to an activity that an employee (patient) is not permitted to do after an injury (incident). An accommodation is a modification that allows an employee to continue working, or lost time (worker's comp plan) available for an employee who cannot work after an incident.
 
@@ -1008,7 +1064,8 @@ This import tool file imports restriction details. In occupational health, a res
 </tr>
 <tr>
 <td><em>patient_clinical_restriction.description</em></td>
-<td>This is the ‘description' column from the ‘clinical_restriction_types' {{% system-name %}} table. See the Specific Coded Values section for all specific options in the default product in the Lost Time CSV Import documentation.</td>
+<td>
+This is the ‘description' column from the ‘clinical_restriction_types' {{% system-name %}} table. See the Specific Coded Values section for all specific options in the default product in the Lost Time CSV Import documentation.</td>
 <td>Text</td>
 <td>Accommodation</td>
 </tr>
@@ -1038,7 +1095,8 @@ This import tool file imports restriction details. In occupational health, a res
 </tr>
 <tr>
 <td>patient_clinical_restriction.active</td>
-<td>Indicates if an entry is active:<ul><li><p>0 - no</p></li><li><p>1 - yes</p></li><li><p>2 - previously revised</p></li></ul></td>
+<td>Indicates if an entry is active:
+<ul><li><p>0 - no</p></li><li><p>1 - yes</p></li><li><p>2 - previously revised</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
@@ -1062,7 +1120,8 @@ This import tool file imports restriction details. In occupational health, a res
 </tr>
 <tr>
 <td><strong>patient_clinical_restriction.permanent</strong></td>
-<td><strong>Conditionally Required Field</strong> Flags restriction as permanent (Not needed if end_date is set):<ul><li><p>1 - yes or</p></li><li><p>0 - no  (no end date on restriction)</p></li></ul></td>
+<td><strong>Conditionally Required Field</strong> Flags restriction as permanent (Not needed if end_date is set):
+<ul><li><p>1 - yes or</p></li><li><p>0 - no  (no end date on restriction)</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
@@ -1074,19 +1133,22 @@ This import tool file imports restriction details. In occupational health, a res
 </tr>
 <tr>
 <td>patient_clinical_restriction.affect_work</td>
-<td>Flag indicates the restriction affects the employee's work:<ul><li><p>1 - yes or</p></li><li><p>0 - no</p></li></ul></td>
+<td>Flag indicates the restriction affects the employee's work:
+<ul><li><p>1 - yes or</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>patient_clinical_restriction.accommodated</td>
-<td>Indicates if a restriction was completely accommodated.Options include:<ul><li><p>0 - not accommodated</p></li><li><p>1 - fully accommodated</p></li><li><p>2 - currently accommodated</p></li></ul></td>
+<td>Indicates if a restriction was completely accommodated.Options include:
+<ul><li><p>0 - not accommodated</p></li><li><p>1 - fully accommodated</p></li><li><p>2 - currently accommodated</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
 <tr>
 <td>patient_clinical_restriction.occ_wc</td>
-<td>Flags a restriction as work comp related. Options are:<ul><li><p>1 - yes or</p></li><li><p>0 - no</p></li></ul></td>
+<td>Flags a restriction as work comp related. Options are:
+<ul><li><p>1 - yes or</p></li><li><p>0 - no</p></li></ul></td>
 <td>1</td>
 <td>1</td>
 </tr>
@@ -1117,8 +1179,8 @@ This import tool file imports restriction details. In occupational health, a res
 
 </table>
 
-
-## Data and Values for Accommodations
+  
+## Data and Values for Accommodations  
 
 An accommodation is a modification that allows an employee to continue working, or lost time (worker's comp plan) available for an employee who cannot work after an incident. This import tool file will import accommodation details for charts.
 
@@ -1138,7 +1200,8 @@ An accommodation is a modification that allows an employee to continue working, 
 </tr>
 <tr>
 <td><em>accommodations.accom_type</em></td>
-<td>A description of the accommodation type.These are the specific choices/values for Accommodation Types:<ul><li><p>Work Location</p></li><li><p>Transitional Duty</p></li><li><p>TDP-Work Area</p></li><li><p>Housing</p></li><li><p>Lost Time/Occ</p></li><li><p>Lost Time/Non-Occ</p></li><li><p>Lost Time/Maternity (CA)</p></li><li><p>Lost Time/ER LAT Approved</p></li><li><p>Lost Time</p></li></ul></td>
+<td>A description of the accommodation type.These are the specific choices/values for Accommodation Types:
+<ul><li><p>Work Location</p></li><li><p>Transitional Duty</p></li><li><p>TDP-Work Area</p></li><li><p>Housing</p></li><li><p>Lost Time/Occ</p></li><li><p>Lost Time/Non-Occ</p></li><li><p>Lost Time/Maternity (CA)</p></li><li><p>Lost Time/ER LAT Approved</p></li><li><p>Lost Time</p></li></ul></td>
 <td>255</td>
 <td>Work Location</td>
 </tr>
@@ -1180,7 +1243,8 @@ An accommodation is a modification that allows an employee to continue working, 
 </tr>
 <tr>
 <td>accommodations.status</td>
-<td>Status of accommodation.Options include:<ul><li><p>0 - deleted</p></li><li><p>1 - active</p></li><li><p>2 - revised</p></li></ul></td>
+<td>Status of accommodation.Options include:
+<ul><li><p>0 - deleted</p></li><li><p>1 - active</p></li><li><p>2 - revised</p></li></ul></td>
 <td>10</td>
 <td>1</td>
 </tr>
@@ -1205,8 +1269,8 @@ An accommodation is a modification that allows an employee to continue working, 
 
 </table>
 
-
-## Data and Values for Incident (Case) Body Parts
+  
+## Data and Values for Incident (Case) Body Parts  
 
 This imports (in the case/incident) the details for nature of injury, body parts, etc.
 
@@ -1256,7 +1320,8 @@ This imports (in the case/incident) the details for nature of injury, body parts
 </tr>
 <tr>
 <td>incident_nibp.laceration</td>
-<td>Used for needle sticks. Indicates if the stick was a laceration or puncture. Options include:<ul><li><p>Laceration</p></li><li><p>Puncture</p></li></ul></td>
+<td>Used for needle sticks. Indicates if the stick was a laceration or puncture. Options include:
+<ul><li><p>Laceration</p></li><li><p>Puncture</p></li></ul></td>
 <td>enumeration</td>
 <td>Laceration</td>
 </tr>

@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10'
 source: 'https://drive.google.com/open?id=1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CMS 146 - Appropriate Testing for Children with Pharyngitis'
@@ -20,13 +20,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3990
 ---
-## Overview
-
-[CMS146v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure) (2020)
-[CMS146v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS146v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure) (2020)  
+[CMS146v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v9&showresulttype=Measure) (2021)  
 [CMS146v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -45,8 +45,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -81,8 +81,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -114,17 +114,17 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
-Track all children ages 3-18 who had an outpatient or ED visit with a diagnosis of pharyngitis and an antibiotic ordered on or three (3) days after the visit. Compliance requires a group A streptococcus (strep) test be administered within the 7-day period from 3 days prior through 3 days after the initial diagnosis. Use either the Test and Procedures section of the encounter, or add the Lab Results - Set 2 to the encounter template; otherwise, enter the appropriate observation to the chart using the Observations chart tab.
+  
+### Original Visit Encounter  
+  
+Track all children ages 3-18 who had an outpatient or ED visit with a diagnosis of pharyngitis and an antibiotic ordered on or three (3) days after the visit. Compliance requires a group A streptococcus (strep) test be administered within the 7-day period from 3 days prior through 3 days after the initial diagnosis. Use either the Test and Procedures section of the encounter, or add the Lab Results - Set 2 to the encounter template; otherwise, enter the appropriate observation to the chart using the Observations chart tab.  
 {{% tip %}}
 
 Regardless of how the strep test observation is added to the chart, clients will need to ensure that the appropriate observation is configured with LOINC 6559-9.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the *Strep* observations to determine if multiple [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
@@ -149,11 +149,11 @@ Regardless of how the strep test observation is added to the chart, clients will
    3. Click the Add Observation link in the upper-right corner.
    4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
    5. Click the Submit button.
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -244,8 +244,8 @@ Regardless of how the strep test observation is added to the chart, clients will
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -280,8 +280,8 @@ Regardless of how the strep test observation is added to the chart, clients will
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -296,7 +296,7 @@ Regardless of how the strep test observation is added to the chart, clients will
 
 </table>
 
-
-## Source(s)
+  
+## Source(s)  
 
 [eCQI CMS146](https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10)

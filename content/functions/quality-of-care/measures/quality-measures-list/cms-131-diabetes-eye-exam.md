@@ -9,7 +9,7 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10'
 source: 'https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CMS 131 - Diabetes: Eye Exam'
@@ -17,13 +17,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3920
 ---
-## Overview
-
-CMS131v8 (2020)
-CMS131v9 (2021)
+## Overview  
+  
+CMS131v8 (2020)  
+CMS131v9 (2021)  
 CMS131v10 (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -42,8 +42,8 @@ CMS131v10 (2022)
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -65,7 +65,8 @@ CMS131v10 (2022)
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
-<td>Patients with an eye screening for diabetic retinal disease. This includes diabetics who had one of the following:<ul><li><p>Diabetic with a diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period</p></li><li><p>Diabetic with no diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period or the year prior to the measurement period</p></li></ul></td>
+<td>Patients with an eye screening for diabetic retinal disease. This includes diabetics who had one of the following:
+<ul><li><p>Diabetic with a diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period</p></li><li><p>Diabetic with no diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period or the year prior to the measurement period</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
@@ -78,8 +79,8 @@ CMS131v10 (2022)
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -107,15 +108,15 @@ CMS131v10 (2022)
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
+  
+### Original Visit Encounter  
 
 2. Ensure all diabetic patients aged 18-75 have been screened for diabetic retinal disease. Use the Past Procedures section of the encounter to record a previous dilated or negative retinal exam, or use the Preventive Care section of the encounter to document the last Retinal Screening; otherwise, document a recognized eye exam by scanning and indexing an established document type (e.g., RETINAL) configured with the appropriate Concept ID.
    1. <strong>Option 1: Document in the Past Procedures section</strong>
@@ -130,11 +131,11 @@ CMS131v10 (2022)
    * <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
 
       1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -177,8 +178,8 @@ CMS131v10 (2022)
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -265,8 +266,8 @@ CMS131v10 (2022)
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -285,7 +286,7 @@ CMS131v10 (2022)
 
 </table>
 
-
-## **Source(s)**
-
+  
+## **Source(s)**  
+  
 [eCQI CMS131](https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10)

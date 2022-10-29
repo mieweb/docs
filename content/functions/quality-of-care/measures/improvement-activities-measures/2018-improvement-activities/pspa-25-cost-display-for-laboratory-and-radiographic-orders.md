@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1cg9Con7c6Txy197OHZovd_qaRS6c8JaNDRbV6R3-UFU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'PSPA 25 - Cost Display for Laboratory and Radiographic Orders'
@@ -22,15 +22,15 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Patient Safety and Practice Assessment
+**Activity Weighting**: Medium  
+**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: Implementation of a cost display for laboratory and radiographic orders, such as costs that can be obtained through the Medicare clinical laboratory fee schedule.
 
 
 
 
-Supporting Documentation
-Documentation (screen shot, report from EHR, written display procedure) of laboratory and radiographic costs at the point-of-order.
+Supporting Documentation  
+Documentation (screen shot, report from EHR, written display procedure) of laboratory and radiographic costs at the point-of-order.  
 {{% note %}}
 
 A certified EHR may be used for documentation purposes, but is not required unless attesting for the Promoting Interoperability (formerly ACI) bonus.

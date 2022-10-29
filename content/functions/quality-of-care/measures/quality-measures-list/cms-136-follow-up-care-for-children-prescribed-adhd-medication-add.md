@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms136v11'
 source: 'https://drive.google.com/open?id=1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CMS 136 - Follow-Up Care for Children Prescribed ADHD Medication (ADD)'
@@ -19,13 +19,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3940
 ---
-## Overview
-
-[CMS136v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure) (2020)
-[CMS136v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS136v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure) (2020)  
+[CMS136v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure) (2021)  
 [CMS136v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -44,8 +44,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -87,8 +87,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -116,24 +116,24 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 Track children ages 6-12 that have been newly dispensed a medication for ADHD and ensure they receive appropriate follow-up care.
 1. Provide a follow-up with children prescribed ADHD medication during the 30-Day Initiation Phase
 2. For children remaining on the medication for 7+ months, provide two additional follow-up visits and ensure these are completed within 9 months of the Initiation Phase ending.
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -164,8 +164,8 @@ Track children ages 6-12 that have been newly dispensed a medication for ADHD an
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -192,8 +192,8 @@ Track children ages 6-12 that have been newly dispensed a medication for ADHD an
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -252,7 +252,7 @@ Track children ages 6-12 that have been newly dispensed a medication for ADHD an
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS136](https://ecqi.healthit.gov/ecqm/ep/2022/cms136v11)

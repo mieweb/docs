@@ -2,13 +2,13 @@
 id: '1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c'
 title: 'Order Question Import Tool'
 date: '2021-10-29T16:01:13.157Z'
-version: 37
+version: 39
 lastAuthor: 'Kate Barton'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1pCbkfLSSJUZo4Gs1YeGe9anLSpnyRrE9/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Order Question Import Tool'
@@ -21,9 +21,9 @@ This wiki page is to document how Order Questions (AOE) data needs to be constru
 * The first row of the file shall contain column header information.
 * Each subsequent row shall represent an order question.
 * The Order Type is specified on the upload file form. Each item in the list will be imported to the order item that matches with the specified type.
-
-## **Column Definition**
-
+  
+## **Column Definition**  
+  
 The order question column definition shall contain all columns listed below regardless if there is a value or not.
 * R = Required
 * O = Optional
@@ -73,29 +73,29 @@ The order question column definition shall contain all columns listed below rega
 </tr>
 
 </table>
+  
+## **Examples of CSV**  
 
-## **Examples of CSV**
-
-
-### Order Question** Example**
-
+  
+### Order Question** Example**  
+  
 This example shows how to import multiple order questions (AOE) into 1 order item with code 'LAB5725'.
 
 {{% pre %}}
 ```
-
-
-Order code,Question code,Question,Input Type,Answer List,Asking display order
-LAB5725,XN1,Type of Urine Collection,R,24 Hour|Random Specimen,1
-LAB5725,XN2,Patient Fasting?,Y,,2
-LAB5725,XN3,Source,T,,3
-
-{{% /pre %}}
-
+  
+  
+Order code,Question code,Question,Input Type,Answer List,Asking display order  
+LAB5725,XN1,Type of Urine Collection,R,24 Hour|Random Specimen,1  
+LAB5725,XN2,Patient Fasting?,Y,,2  
+LAB5725,XN3,Source,T,,3  
+  
+{{% /pre %}}  
+  
 
 ```
-
-## **Sample CSV files**
+  
+## **Sample CSV files**  
 
 Here is a sample CSV file to download and view in a text editor or a spreadsheet program.
 File:[Order questions.csv](https://drive.google.com/file/d/1pCbkfLSSJUZo4Gs1YeGe9anLSpnyRrE9/view?usp=sharing)

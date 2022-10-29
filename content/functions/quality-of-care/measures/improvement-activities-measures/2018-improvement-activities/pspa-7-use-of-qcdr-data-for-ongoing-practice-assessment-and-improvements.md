@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1paoOm5OXD3MEGCt8r-PQEYZ5Jd-OPLgWuvu2JMGkBbg'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'PSPA 7 - Use of QCDR Data for Ongoing Practice Assessment and Improvements'
@@ -22,21 +22,21 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Patient Safety and Practice Assessment
+**Activity Weighting**: Medium  
+**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: Use of QCDR data, for ongoing practice assessment and improvements in patient safety.
 
 
 
 
-Supporting Documentation
+Supporting Documentation  
 Participation in QCDR that promotes ongoing improvements in patient safety, e.g., regular feedback reports provided by the QCDR that promote ongoing practice assessment and improvements in patient safety.
 
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

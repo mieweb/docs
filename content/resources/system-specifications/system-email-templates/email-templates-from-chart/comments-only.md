@@ -6,7 +6,7 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10jlSsNidlxILcjDqaGmDZzEh5OWnyLtihy1s9fggdgI'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Comments Only'
@@ -14,9 +14,9 @@ menu:
     parent: '1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ'
     weight: 6330
 ---
-From: noreplywebchart@med-web.com
-To: fanderson@bettercorp.com
-Cc:
-Subject: (Provide a subject using the Subject field.)
+From: noreplywebchart@med-web.com  
+To: fanderson@bettercorp.com  
+Cc:  
+Subject: (Provide a subject using the Subject field.)  
 (Enter content using the Comments field.)
 

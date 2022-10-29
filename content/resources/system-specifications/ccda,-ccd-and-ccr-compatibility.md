@@ -26,7 +26,7 @@ links:
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
   - 'https://ttpedge.sitenv.org/ttp/#/validators'
 source: 'https://drive.google.com/open?id=1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CCDA, CCD and CCR Compatibility'
@@ -34,8 +34,8 @@ menu:
     parent: '1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
     weight: 6300
 ---
-## Comparison Grid
-
+## Comparison Grid  
+  
 CCD/CCR Sections, and our current Webchart storage capabilities
 
 <table>
@@ -211,7 +211,8 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 <td>Social History</td>
 <td>2.16.840.1.113883.10.20.1.15</td>
 <td>SocialHistory - Defined in CCR to hold these coded description types: (Marital Status, Race, Ethnicity, Religious Preference, Living Situation, Employment, Tobacco Use, Alcohol Use, Recreational Drug Use, Toxic Exposure, Treatment Restrictions.)</td>
-<td>100% In CCD.. if you mark observations as "Social History" template ID, they will flow into this section.<strong>For CCR, we dump everything in "Social History" for the most part.</strong><a href="https://miewiki.med-web.com/wiki/index.php/Social_History_Storage_and_Formatting">Social History Storage and Formatting</a></td>
+<td>100% In CCD.. if you mark observations as "Social History" template ID, they will flow into this section.
+<strong>For CCR, we dump everything in "Social History" for the most part.</strong><a href="https://miewiki.med-web.com/wiki/index.php/Social_History_Storage_and_Formatting">Social History Storage and Formatting</a></td>
 </tr>
 <tr>
 <td>Medical Equipment</td>
@@ -246,8 +247,8 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 
 </table>
 
-
-## **Links to External Documentation**
+  
+## **Links to External Documentation**  
 
 * [IHE_CDA_Information](https://miewiki.med-web.com/wiki/index.php/IHE_CDA_Information)
 * The NIST validator is used to test the validity of the CDA documents: [http://xreg2.nist.gov/cda-validation/index.html](http://xreg2.nist.gov/cda-validation/index.html)
@@ -260,22 +261,22 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 * [C-CDA Specifications](https://miewiki.med-web.com/wiki/index.php/C-CDA_Specifications)
 * [cdapro.com](http://www.cdapro.com/)
 * [ONC C-CDA Scorecard](https://sitenv.org/ccda-smart-scorecard/)
-
-## **CCDA Testing Protocols**
+  
+## **CCDA Testing Protocols**  
 
 * [https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard](https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard)
 * [https://ttpedge.sitenv.org/ttp/#/validators](https://ttpedge.sitenv.org/ttp/#/validators)
 
-
-## DS4P Document Policies
+  
+## DS4P Document Policies  
 
 * Webchart will include content when a CCDA document has a "restricted" level of data in the view of the CCDA document, as well as display the re-disclosure text provided in the CCDA document.
 * Webchart does not take any other steps in the handling of the DS4P marked documents, the operators of the system with the document can choose how they want to handle the document.
 
-
-## **Template ID Sections in Observation Codes**
-
-This is a list of Template ID sections available to put on observation codes in webchart, and where, if anywhere, they would appear in the CDA/CCDA:
+  
+## **Template ID Sections in Observation Codes**  
+  
+This is a list of Template ID sections available to put on observation codes in webchart, and where, if anywhere, they would appear in the CDA/CCDA:  
 Template ID Sections in Observation Codes
 
 <table>

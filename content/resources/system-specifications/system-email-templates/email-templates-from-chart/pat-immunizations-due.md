@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMUN&old_module=Email&old_name=Pat+Immunizations+Due&active=0'
 source: 'https://drive.google.com/open?id=18cyXlgTRUM7ANFk3Ho_NODVuaG2Ml5u3VSIxlflECHI'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Pat Immunizations Due'
@@ -33,16 +33,16 @@ Cc:
 Subject: Notification to Schedule Appointment for Immunizations Due
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-
-## **Notification to Schedule Appointment for Immunizations Due**
+  
+## **Notification to Schedule Appointment for Immunizations Due**  
 
 
 TO: Frederick J Anderson
 
 Our records indicate that you are due to receive the following immunizations:
 
-
-![](../pat-immunizations-due.assets/100002010000027C0000004A8DE9B4ADC5685605.png)
+  
+![](../pat-immunizations-due.assets/100002010000027C0000004A8DE9B4ADC5685605.png)  
 
 
 At your earliest convenience, please schedule an appointment using the electronic scheduling portal below.

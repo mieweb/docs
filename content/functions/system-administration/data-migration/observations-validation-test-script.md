@@ -16,7 +16,7 @@ links:
   - '../../reports/observations-report.md'
   - 'https://docs.enterprisehealth.com/observations-report-7345005.html'
 source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Observations Validation Test Script'
@@ -25,15 +25,15 @@ menu:
     weight: 5220
 ---
 This document is intended to describe and assist users with the process to validate discrete observations imported from another system.
-
-## Requirements
+  
+## Requirements  
 
 * Compile a list of 8-10 different charts containing individual observations from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data to address potential import discrepancies that could arise.
 * Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
-
-## Data Fields 
-
-Validate the discrete values imported to {{% system-name %}} , listed in the table below. 
+  
+## Data Fields   
+  
+Validate the discrete values imported to {{% system-name %}} , listed in the table below.   
 {{% note %}}
 
 Some charts/records may not have all data elements, and in some circumstances, there may be additional data to validate. Check with the {{% system-name %}} superuser for details.
@@ -63,8 +63,8 @@ Some charts/records may not have all data elements, and in some circumstances, t
 </tr>
 
 </table>
-
-## Validation Instructions ([**video**](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing))
+  
+## Validation Instructions ([**video**](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing))  
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -93,7 +93,7 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
 {{% tip %}}
 4. Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page.
-   <img src="../observations-validation-test-script.assets/10000201000001CC0000007B3CF06461C4F8A950.png" />
+   <img src="../observations-validation-test-script.assets/10000201000001CC0000007B3CF06461C4F8A950.png" />  
    <img src="../observations-validation-test-script.assets/1000020100000486000000C9B8AFEF8D7F48B22F.png" />
 
    1. To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
@@ -102,9 +102,9 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
    2. Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
-      <img src="../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png" />
+      <img src="../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png" />  
 
-{{% /tip %}}
+{{% /tip %}}  
 
 1. With the observations displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
 
@@ -121,19 +121,19 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
 2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.
 
-   <img src="../observations-validation-test-script.assets/1000020100000164000001E1D01E2A64EF54EF8C.png" />
+   <img src="../observations-validation-test-script.assets/1000020100000164000001E1D01E2A64EF54EF8C.png" />  
 
 3. Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen. 
 
-   <img src="../observations-validation-test-script.assets/1000020100000159000000ADFDB6517C2994CEB0.png" />
+   <img src="../observations-validation-test-script.assets/1000020100000159000000ADFDB6517C2994CEB0.png" />  
 
-
-## FAQs
+  
+## FAQs  
 
 **Q:** I am only validating specific observations. Is there a way to filter to just the ones I need?
 **A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/observations-report-7345005.html), described [above](#gjdgxs), to search specific observation values. Otherwise, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
-
-![](../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png)
+  
+![](../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png)  
 
 **Q:** Why are some observations only listed once, even though they apply across all dates (e.g., Race, Ethnicity, Email, etc.)?
 **A:** Once an observation is recorded, it is not repeated as a duplicate discrete value. If the observation changes, then a new observation will display with the observation history always available. WARNING: Users with proper security permissions may Delete observations, along with their history.

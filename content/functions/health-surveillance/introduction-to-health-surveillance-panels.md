@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Introduction to Health Surveillance Panels'
@@ -16,23 +16,23 @@ menu:
     weight: 1760
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
+  
+![](../introduction-to-health-surveillance-panels.assets/100002010000053F000001946B012D226089705B.png)  
 
-![](../introduction-to-health-surveillance-panels.assets/100002010000053F000001946B012D226089705B.png)
-
-
-## Security & Settings
-
+  
+## Security & Settings  
+  
 Review Security Settings for users who need access to Health Surveillance (and Case Management). Review Settings and give rights as needed by client.  This information is also available within the online help.
+  
+![](../introduction-to-health-surveillance-panels.assets/10000201000004BB000000D888084AE15D5A463C.png)  
 
-![](../introduction-to-health-surveillance-panels.assets/10000201000004BB000000D888084AE15D5A463C.png)
-
-
-## Health Surveillance Panels
-
+  
+## Health Surveillance Panels  
+  
 ‘Order' matters when configuring health surveillance panels for clients in {{% system-name %}} .  This document briefly describes the steps in that order. It matters what is done first before other portions when configuring Health Surveillance panels and all the functionality.
-
-### Configure Health Surveillance Panels
-
+  
+### Configure Health Surveillance Panels  
+  
 **Step 1 - Identify Matrix/Panels & Contents Needed**
 * Identify what panels are needed (may be one-off's may be surveillance/tracked ones, etc) A panel defines a group of events or actions that will take place on certain profiles of people on a regular schedule in the Health Surveillance module. Panels are sometimes referred to as exposure groups, as panels are used for groups exposed to certain hazards due to their job roles. The Health Surveillance module is also used to document regularly scheduled voluntary health screenings or checkups using panels. A panel action refers to a procedure that is completed for an employee as part of a panel. MIE Implementer has a matrix that can be used with gathering panel criteria.
 **Step 2 - Appointment Types for Panels**

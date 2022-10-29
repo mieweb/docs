@@ -8,19 +8,19 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=16AgcK4vJ6iK8GaD6OvbIGeLya65G1r1YJrCH6C1mTWE'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
 You can edit the text of the alert comment. You cannot change the color of the text, the color of the text background, nor where the comment appears.
 1. [Find the employer organization](finding-employer-organizations.md) to which to edit an alert comment.
-2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Documents</strong>
-   . The system displays a list of documents for the employer organization.<img src="../editing-alert-comments-of-employer-organizations.assets/10000201000000DF00000093E1CF0D26C7E6B899.png" />
-   <img src="../editing-alert-comments-of-employer-organizations.assets/1000020100000548000001D7B4B329EDB4C388E5.png" />
+2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Documents</strong>  
+   . The system displays a list of documents for the employer organization.<img src="../editing-alert-comments-of-employer-organizations.assets/10000201000000DF00000093E1CF0D26C7E6B899.png" />  
+   <img src="../editing-alert-comments-of-employer-organizations.assets/1000020100000548000001D7B4B329EDB4C388E5.png" />  
 
+  
+   Select the alert comment to modify. The system displays the document containing the alert comment. <img src="../editing-alert-comments-of-employer-organizations.assets/10000201000006AD000000D1514F11F303DF6C35.png" />  
 
-   Select the alert comment to modify. The system displays the document containing the alert comment. <img src="../editing-alert-comments-of-employer-organizations.assets/10000201000006AD000000D1514F11F303DF6C35.png" />
-
-4. At the top-right, select the <strong>Edit</strong>
-    link. The system displays the properties for the document.<img src="../editing-alert-comments-of-employer-organizations.assets/10000201000003B0000002D65B79403C2B1B44CA.png" />
+4. At the top-right, select the <strong>Edit</strong>  
+    link. The system displays the properties for the document.<img src="../editing-alert-comments-of-employer-organizations.assets/10000201000003B0000002D65B79403C2B1B44CA.png" />  
 
 5. Edit the text of the alert comment.
 6. Select the Edit <strong>Document</strong> button.The system indicates the document was updated successfully.

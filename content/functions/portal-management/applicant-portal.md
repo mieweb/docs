@@ -2,14 +2,14 @@
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
 date: '2021-03-31T21:08:57.956Z'
-version: 173
+version: 176
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Applicant Portal'
@@ -17,16 +17,16 @@ menu:
     parent: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
     weight: 1210
 ---
-
+  
 With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
 
-In order to effectively implement the Applicant Portal, clients will need to work with the Deployment Consultant(s) to determine any preferred configurations and needs required for pre-employment, hiring, and onboarding processes. Once the portal has been configured, the URL will be made available for marketing purposes. 
+In order to effectively implement the Applicant Portal, clients will need to work with the Deployment Consultant(s) to determine any preferred configurations and needs required for pre-employment, hiring, and onboarding processes. Once the portal has been configured, the URL will be made available for marketing purposes.   
 {{% info %}}
 
 Permitted users will have the ability to edit the title, color scheme, instructions, and available questionnaires from the Provider Management sidemenu, as needed. These configurations will then be visible within the portal accessed by the candidates.
 {{% /info %}}
-
-## Portal Setup
+  
+## Portal Setup  
 
 The following items are considerations to be discussed with the Deployment Consultant(s) in order to ensure a smooth implementation of the Applicant Portal:
 
@@ -37,8 +37,8 @@ The following items are considerations to be discussed with the Deployment Consu
 **Tasking**: It is important to discuss and determine any tasklist events needing triggered whenever applicants register and submit information via the Applicant Portal.
 **Merging**: Once an applicant is hired, it is important to merge the *applicant* chart with the *employee* chart. Applicant charts are created from the transmission of completed forms/questionnaires from the portal, and new employee charts are typically generated through an HR interface feed. Determine the best workflow for merging these charts, and ensure users who will be working merges have the necessary security permissions.
 The following steps will ensure the Applicant Portal is configured and functions properly.
-
-## Update/Add System Settings
+  
+## Update/Add System Settings  
 
 Following the instructions below, *add* these system settings:
 * NMC, Partition, Default on Signup
@@ -76,8 +76,8 @@ Following the instructions below, *update* these system settings:
    5. Webchart, Login, New Signups = 1
 5. Click the <strong>Change</strong> button, when finished.
 
-
-## Create APP Partition
+  
+## Create APP Partition  
 
 
 1. Navigate to the <strong>Partition Mgr</strong> tab of the Control Panel.
@@ -94,47 +94,47 @@ Following the instructions below, *update* these system settings:
    9. <strong>Part Order</strong>:  0
    10. <strong>Allow Access to Restricted Users</strong>:  Unchecked
    11. <strong>Identifier</strong>:  Medical Record Number
-
-## Create Applicant Department
+  
+## Create Applicant Department  
 
 1. Navigate to the <strong>Access Control</strong> tab of the Control Panel.
 2. Click the <strong>Add Department</strong> link in the upper-right corner of the page.
 3. Enter <em>Applicant</em> into the <strong>Name</strong> field.
 4. Click the <strong>Submit Dept.</strong> button.
-
-## Create Applicant Security Role
+  
+## Create Applicant Security Role  
 
 1. Navigate to the <strong>Security Roles</strong> tab of the Control Panel.
 2. Click the <strong>Add Role</strong> link in the upper-right corner of the page.
 3. Enter <em>Applicant</em> into the <strong>Security Role Name</strong> field.
 4. Click the <strong>Add Role</strong> button.
-
-## Update Applicant Security Role Permissions
+  
+## Update Applicant Security Role Permissions  
 
 1. Navigate to the [Provider Management](https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+) side menu.
 2. Type the name of the PO, and click the <strong>Search</strong> button. In this example, we will be using Better Corp.
 3. Locate the PO Name, and click the hyperlink.
 4. Locate and select the [Portal Setup](https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43) tab.
 5. Once there, click the <strong>Applicant Portal</strong> header, to expand the section. Click the <strong>Run Setup</strong> button.
-
-![](../applicant-portal.assets/100002010000049E00000153DCC4CF527A2CEDC1.png)
+  
+![](../applicant-portal.assets/100002010000049E00000153DCC4CF527A2CEDC1.png)  
 
 6. The Setup Wizard will run.
 
-
-![](../applicant-portal.assets/10000201000001CD000000ADD54404038DC69D56.png)
+  
+![](../applicant-portal.assets/10000201000001CD000000ADD54404038DC69D56.png)  
 
 7. After running the portal setup, review the <strong>Security Requirements</strong> and update, as necessary.
 
-
-![](../applicant-portal.assets/100002010000049D0000019FFCD213BA05E05B6E.png)
+  
+![](../applicant-portal.assets/100002010000049D0000019FFCD213BA05E05B6E.png)  
 
 
 {{% note %}}
 These Security Requirements should always be followed for ensuring the proper security role settings.
 {{% /note %}}
-
-## Add Applicant Portal Chart Tab
+  
+## Add Applicant Portal Chart Tab  
 
 1. Navigate to the <strong>Chart Tabs</strong> tab of the Control Panel.
 2. Click the <strong>Add Chart Tab</strong> link in the upper-right corner of the page.
@@ -152,8 +152,8 @@ These Security Requirements should always be followed for ensuring the proper se
    11. <strong>Force Display</strong>:  Yes
    12. <strong>Layout Name</strong>:  Applicant Portal
 4. Click the <strong>Save</strong> button, when finished.
-
-## Add Applicant Portal Questionnaires
+  
+## Add Applicant Portal Questionnaires  
 
 1. Navigate to the <strong>Orders-Pick Builder</strong> tab of the Control Panel.
 2. Click the <strong>Add New Set</strong> button.
@@ -164,10 +164,10 @@ These Security Requirements should always be followed for ensuring the proper se
 
 
 
-   <img src="../applicant-portal.assets/10000201000005A00000015882EE97168CBFAC82.png" />
+   <img src="../applicant-portal.assets/10000201000005A00000015882EE97168CBFAC82.png" />  
 
-
-## Configure Applicant Portal
+  
+## Configure Applicant Portal  
 
 1. Navigate to the <strong>Provider Management</strong> side menu.
 2. Locate and click the link to the portal with which the Applicant Portal is associated.

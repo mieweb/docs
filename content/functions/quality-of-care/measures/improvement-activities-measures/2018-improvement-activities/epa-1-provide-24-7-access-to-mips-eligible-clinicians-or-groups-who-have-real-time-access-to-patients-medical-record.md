@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=14YYUtmJ6WCuBnGjYhMI0KOd5zy3PhwAK2HsdGBjt1lQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'EPA 1 - Provide 24/7 Access to MIPS Eligible Clinicians or Groups Who Have Real-Time Access to Patient''s Medical Record'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: High
-**Subcategory Name**: Expanded Practice Access
+**Activity Weighting**: High  
+**Subcategory Name**: Expanded Practice Access  
 **Description**: Provide 24/7 access to MIPS eligible clinicians, groups, or care teams for advice about urgent and emergent care (e.g., MIPS eligible clinician and care team access to medical record, cross-coverage with access to medical record, or protocol-driven nurse line with access to medical record) that could include one or more of the following:
 * Expanded hours in evenings and weekends with access to the patient medical record (e.g., coordinate with small practices to provide alternate hour office visits and urgent care);
 * Use of alternatives to increase access to care team by MIPS eligible clinicians and groups, such as e-visits, phone visits, group visits, home visits and alternate locations (e.g., senior centers and assisted living centers); and/or
@@ -40,8 +40,8 @@ Supporting Documentation
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

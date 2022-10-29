@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms157v10'
 source: 'https://drive.google.com/open?id=1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
-## Overview
-
-[CMS157v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure) (2020)
-[CMS157v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS157v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure) (2020)  
+[CMS157v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure) (2021)  
 [CMS157v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -74,8 +74,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -89,7 +89,10 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </tr>
 <tr>
 <td><strong>Rate Aggregation</strong></td>
-<td>Population 1: Visits for patients with a diagnosis of cancer who are currently receiving chemotherapy Population 2: Visits for patients with a diagnosis of cancer who are currently receiving radiation therapyPerformance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)</td>
+<td>Population 1: Visits for patients with a diagnosis of cancer who are currently receiving chemotherapy 
+Population 2: Visits for patients with a diagnosis of cancer who are currently receiving radiation therapy
+
+Performance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)</td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -107,22 +110,22 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
-
-
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
+  
+### Original Visit Encounter  
 
-## Evidence
 
+  
+## Evidence  
 
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -149,8 +152,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -165,7 +168,7 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS157](https://ecqi.healthit.gov/ecqm/ep/2022/cms157v10)

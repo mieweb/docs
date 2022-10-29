@@ -12,7 +12,7 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms130v10'
 source: 'https://drive.google.com/open?id=17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'CMS 130 - Colorectal Cancer Screening'
@@ -20,13 +20,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3910
 ---
-## Overview
-
-[CMS130v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure) (2020)
-[CMS130v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS130v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure) (2020)  
+[CMS130v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v9&showresulttype=Measure) (2021)  
 [CMS130v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -45,8 +45,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -68,7 +68,8 @@ menu:
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
-<td>Patients with one or more screenings for colorectal cancer. Appropriate screenings are defined by any one of the following criteria:<ul><li><p>Fecal occult blood test (FOBT) during the measurement period</p></li><li><p>Flexible sigmoidoscopy during the measurement period or the four years prior to the measurement period</p></li><li><p>Colonoscopy during the measurement period or the nine years prior to the measurement period</p></li><li><p>FIT-DNA during the measurement period or the two years prior to the measurement period</p></li><li><p>CT Colonography during the measurement period or the four years prior to the measurement period</p></li></ul></td>
+<td>Patients with one or more screenings for colorectal cancer. Appropriate screenings are defined by any one of the following criteria:
+<ul><li><p>Fecal occult blood test (FOBT) during the measurement period</p></li><li><p>Flexible sigmoidoscopy during the measurement period or the four years prior to the measurement period</p></li><li><p>Colonoscopy during the measurement period or the nine years prior to the measurement period</p></li><li><p>FIT-DNA during the measurement period or the two years prior to the measurement period</p></li><li><p>CT Colonography during the measurement period or the four years prior to the measurement period</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
@@ -81,8 +82,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -110,16 +111,16 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Procedures section of the encounter to record a previous Fecal Occult Blood Test (FOBT), Flexible Sigmoidoscopy, Colonoscopy Screening, FIT-DNA, or CT Colonography; otherwise, use the Visit Orders section of the encounter to order/perform one of the recognized procedures at the time of the encounter.
 1. While documenting the Visit encounter, either record the previous procedure or the receipt of the colorectal screening, or order and perform the screening, as appropriate:
 
@@ -148,11 +149,11 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
       * Scan/Index or Upload the Flexible Sigmoidoscopy document type (FLEXSIG) configured with the necessary Concept ID (44441009).
       * Scan/Index or Upload the Computed Tomographic Colongraphy document type (CTC) configured with the necessary Concept ID (418714002).
       * Add the Fit DNA observation to the chart either manually, or via an established interface, and ensure the observation is configured with the 77354-9 LOIN-C.
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -191,8 +192,8 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -287,8 +288,8 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -319,7 +320,7 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS130](https://ecqi.healthit.gov/ecqm/ep/2022/cms130v10)

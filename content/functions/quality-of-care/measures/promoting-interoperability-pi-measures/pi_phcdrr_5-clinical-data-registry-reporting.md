@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'PI_PHCDRR_5 -- Clinical Data Registry Reporting'
@@ -14,16 +14,16 @@ menu:
     parent: '1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
     weight: 2560
 ---
-**Description**:  Clinical Data Registry Reporting
-**Participation**:  The MIPS eligible clinician is in the process of moving towards sending "production data" to a public health agency or clinical data registry, or is sending production data to a public health agency (PHA) or clinical data registry (CDR).
+**Description**:  Clinical Data Registry Reporting  
+**Participation**:  The MIPS eligible clinician is in the process of moving towards sending "production data" to a public health agency or clinical data registry, or is sending production data to a public health agency (PHA) or clinical data registry (CDR).  
 **Denominator**:  YES/NO
 * The MIPS eligible clinician must attest YES to being in active engagement to submit data to a clinical data registry.
 * For multiple registry engagement, report as YES if there is active engagement with more than one clinical data registry.
 **Numerator**: YES/NO
 * The MIPS eligible clinician must attest YES to being in active engagement to submit data to a clinical data registry.
 * For multiple registry engagement, report as YES if there is active engagement with more than one clinical data registry.
-
-## Clinical Instructions
+  
+## Clinical Instructions  
 
 1. Required for Promoting Interoperability Performance Category Score: <strong>Yes</strong>
 {{% note %}}
@@ -42,7 +42,7 @@ menu:
    2. Submit a "yes" to the ONC Direct Review Attestation, if applicable
    3. Submit a "yes" that they have completed the Security Risk Analysis measure during the calendar year in which the MIPS performance period occurs
    4. Must report the required measures from each of the four objectives in order to earn a score greater than zero for the Promoting Interoperability performance category
-
-## Source(s)
-
+  
+## Source(s)  
+  
 Clinical Data Registry Reporting

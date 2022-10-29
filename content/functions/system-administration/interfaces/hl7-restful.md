@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'HL7 - RESTful'
@@ -15,7 +15,7 @@ menu:
     parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
     weight: 5390
 ---
-## CGI Vars Explained
+## CGI Vars Explained  
 
 
 <table>
@@ -75,56 +75,56 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 </tr>
 
 </table>
-
-## **Sample Webform Post**
-
-
-```
+  
+## **Sample Webform Post**  
 
 
 ```
-<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">
-    Select file to upload: <input type="file" name="message" value="message" size="45" id="file"><BR>
-    Interface Name:<input size="40" type="text" name="interface" id="interface" value="Assigned Interface Name"><BR>
-    <input type='hidden' name='f' value='wchl7'>
-    <input type='hidden' name='login_user' value='username'>
-    <input type='hidden' name='login_passwd' value='password'>
-    <input type='submit' value='Submit'>
+  
+
+```
+<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">  
+    Select file to upload: <input type="file" name="message" value="message" size="45" id="file"><BR>  
+    Interface Name:<input size="40" type="text" name="interface" id="interface" value="Assigned Interface Name"><BR>  
+    <input type='hidden' name='f' value='wchl7'>  
+    <input type='hidden' name='login_user' value='username'>  
+    <input type='hidden' name='login_passwd' value='password'>  
+    <input type='submit' value='Submit'>  
 </FORM>
 
 ```
+  
+
+```
+  
+## **Sample Bash Script**  
 
 
 ```
-
-## **Sample Bash Script**
-
-
-```
-
-#!/bin/bash
-
-if [ $# -lt 5 ]; then
-	echo Usage: $0 interface message user password url
-	exit 1
-fi
-
-INTERFACE=$1
-MESSAGE=$2
-LOGINUSER=$3
-LOGINPASS=$4
-URL=$5
-
-curl -i \
--F "f=wchl7" \
--F "interface=$INTERFACE" \
--F "login_user=$LOGINUSER" \
--F "login_passwd=$LOGINPASS" \
--F "message=@$MESSAGE" \
-"$URL"
+  
+#!/bin/bash  
+  
+if [ $# -lt 5 ]; then  
+	echo Usage: $0 interface message user password url  
+	exit 1  
+fi  
+  
+INTERFACE=$1  
+MESSAGE=$2  
+LOGINUSER=$3  
+LOGINPASS=$4  
+URL=$5  
+  
+curl -i \  
+-F "f=wchl7" \  
+-F "interface=$INTERFACE" \  
+-F "login_user=$LOGINUSER" \  
+-F "login_passwd=$LOGINPASS" \  
+-F "message=@$MESSAGE" \  
+"$URL"  
 
 ```
-
-## **Supported Message Types**
-
+  
+## **Supported Message Types**  
+  
 [Accepted HL7 Message types](#gjdgxs)

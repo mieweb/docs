@@ -8,11 +8,11 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
-2. Select <strong>Add Transaction</strong> button. The <em>Add Transaction</em>
-    window appears.<img src="../adding-transactions-to-the-ledger.assets/1000000000000403000002088B90198DDC55D26D.png" />
+2. Select <strong>Add Transaction</strong> button. The <em>Add Transaction</em>  
+    window appears.<img src="../adding-transactions-to-the-ledger.assets/1000000000000403000002088B90198DDC55D26D.png" />  
 
 3. In the <em>Add Transaction</em> window, make entries and selections in the fields as appropriate for a credit or debit transaction. Choose the <strong>Add Entry</strong> button to add the entry to the transaction.
 4. Repeat step 3 to add a credit or debit transaction. 

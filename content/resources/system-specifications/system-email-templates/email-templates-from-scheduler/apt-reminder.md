@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=EAPTR&old_module=Email&old_name=Apt+Reminder&active=0'
 source: 'https://drive.google.com/open?id=1W1mMo6izbKfwcB2lcX52-SyU0UpjhB-MZHo9_9MXxDI'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Apt Reminder'
@@ -32,8 +32,8 @@ Cc:
 Subject: Reminder to Schedule Your Health Services Appointment
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-
-## **Reminder to Schedule Appointment**
+  
+## **Reminder to Schedule Appointment**  
 
 
 TO: Frederick J Anderson

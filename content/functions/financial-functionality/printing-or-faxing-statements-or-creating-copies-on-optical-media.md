@@ -12,9 +12,9 @@ links:
   - '../fax-manager/faxing-documents.md'
   - '../document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md'
 source: 'https://drive.google.com/open?id=1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
-[Create statements](creating-statements.md) before printing, faxing, or creating copies on optical media (burning).
+[Create statements](creating-statements.md) before printing, faxing, or creating copies on optical media (burning).  
 For example, to print three statements and fax another four, first select the three that need printed and print them, then repeat this process to find and select all that need faxed and fax those.
 1. Select the side menu. The side menu appears.
 2. Select <strong>E-Chart</strong>. The system displays charts. 
@@ -22,8 +22,8 @@ For example, to print three statements and fax another four, first select the th
 4. In the <em>Doc Type</em> field, select <strong>Invoice/Statement</strong>.
 5. To include only statements that have not yet been printed, faxed, or sent, select <strong>View Unprinted Only</strong>.
 6. Select the <strong>Search</strong> button. In the <em>Document Search Results</em> section, the system displays matching documents.
-7. In the <em>Document Search Results</em> section, for each invoice/statement to print, fax, or send, in the <em>PRINT</em> column, select <strong>Batch</strong>. At the top of the window, the number in parentheses following <em>Batch</em>
-    increases.<img src="../printing-or-faxing-statements-or-creating-copies-on-optical-media.assets/10000000000001C90000001B66BD2F570D0054FB.png" />
+7. In the <em>Document Search Results</em> section, for each invoice/statement to print, fax, or send, in the <em>PRINT</em> column, select <strong>Batch</strong>. At the top of the window, the number in parentheses following <em>Batch</em>  
+    increases.<img src="../printing-or-faxing-statements-or-creating-copies-on-optical-media.assets/10000000000001C90000001B66BD2F570D0054FB.png" />  
 
 8. To print the selected statements, to the right of <em>Batch</em>, select <strong>Print</strong>. See [P](https://drive.google.com/open?id=1YYYcufxMWZwTeCZYYSi4c9UIx25F0NsFjyqYR87KVjU)[rinting Documents](../document-management/printing-and-print-definitions/printing-documents.md).
 9. To fax the selected statements, to the right of <em>Batch</em>, select <strong>Fax</strong>. See [Faxing Documents](../fax-manager/faxing-documents.md).

@@ -2,7 +2,7 @@
 id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
 title: '_index'
 date: '2022-08-30T18:20:34.813Z'
-version: 690
+version: 694
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
@@ -11,44 +11,44 @@ links:
   - 'functions.md'
   - 'rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
 Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
-
-## [Video Library](videos-and-demonstrations.md)
-
+  
+## [Video Library](videos-and-demonstrations.md)  
+  
 A powerful resource for all users. Check out our various modules, standard functionality, and prescribed workflows designed to streamline all of your clinical and administrative needs.
-
-## Documentation
-
+  
+## Documentation  
+  
 This documentation is organized into two sections "Programs" and "Functions."  The "Functions" are the low level features for {{% system-name %}} and the "Programs" represent the combination of the functions to achieve a specific business purpose.  For example, Document Management is a Function and it is used across many Programs as the foundation of information management.  Another example Function would be EPCS (Electronic Prescribing of Controlled Substances) and would be in Clinical, Behavioral and Occupational Programs.
-
-### [Programs](programs.md)
-
+  
+### [Programs](programs.md)  
+  
 {{% only sys="eh" %}}
 
 {{% system-name %}} offers various solutions for Enterprise Management of Health and Wellness. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
-
-![](../_index.assets/1000020100000482000002ED513C81A8CD64A018.png)
+  
+![](../_index.assets/1000020100000482000002ED513C81A8CD64A018.png)  
 
 
 {{% /only %}}
 {{% only sys="wc" %}}
 {{% system-name %}} offers various solutions for Medical Practices. Check out our clinical and solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
-
-![](../_index.assets/100002010000029B00000213B32210E0A9A47A79.png)
+  
+![](../_index.assets/100002010000029B00000213B32210E0A9A47A79.png)  
 
 {{% /only %}}
 
-
-### [Functions](functions.md)
+  
+### [Functions](functions.md)  
 
 See an overview and detailed documentation of all our solutions.
 
-
-## [Rapid Install & Deployment](rapid-deployment.md)
+  
+## [Rapid Install & Deployment](rapid-deployment.md)  
 
 The {{% system-name %}} system allows for a non-invasive experience for deploying and implementing a standard product. By using streamlined agendas and a straight-forward project plan, users can get back to basics and feel at ease with their new solution.
 

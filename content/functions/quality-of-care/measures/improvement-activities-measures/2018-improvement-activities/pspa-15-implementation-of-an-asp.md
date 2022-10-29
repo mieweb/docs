@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1vG326yCjcL3n8aKuMNJ9Hn1Ya7CgoSTkkltYZyQNpoU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'PSPA 15 - Implementation of an ASP'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Patient Safety and Practice Assessment
+**Activity Weighting**: Medium  
+**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: Change Activity Description to: Leadership of an Antimicrobial Stewardship Program (ASP) that includes implementation of an ASP that measures the appropriate use of antibiotics for several different conditions (such as but not limited to upper respiratory infection treatment in children, diagnosis of pharyngitis, bronchitis treatment in adults) according to clinical guidelines for diagnostics and therapeutics. Specific activities may include:
 * Develop facility-specific antibiogram and prepare report of findings with specific action plan that aligns with overall facility or practice strategic plan.
 * Lead the development, implementation, and monitoring of patient care and patient safety protocols for the delivery of ASP including protocols pertaining to the most appropriate setting for such services (i.e., outpatient or inpatient).
@@ -39,14 +39,14 @@ menu:
 
 
 
-Supporting Documentation
+Supporting Documentation  
 Documentation of implementation of an antibiotic stewardship program that measures the appropriate use of antibiotics for several different conditions according to clinical guidelines for diagnostics and therapeutics and identifies improvement actions.
 
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

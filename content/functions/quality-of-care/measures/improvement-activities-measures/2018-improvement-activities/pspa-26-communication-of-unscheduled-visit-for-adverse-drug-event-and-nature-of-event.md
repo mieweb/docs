@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1mZEgHpEoUj0NBt1C3FrcdctLKOZZr51lUFg8wQvnhrU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'PSPA 26 - Communication of Unscheduled Visit for Adverse Drug Event and Nature of Event'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Patient Safety and Practice Assessment
+**Activity Weighting**: Medium  
+**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: A MIPS eligible clinician providing unscheduled care (such as an emergency room, urgent care, or other unplanned encounter) attests that, for greater than 75 percent of case visits that result from a clinically significant adverse drug event, the MIPS eligible clinician provides information, including through the use of health IT to the patients primary care clinician regarding both the unscheduled visit and the nature of the adverse drug event within 48 hours. A clinically significant adverse event is defined as a medication-related harm or injury such as side-effects, supratherapeutic effects, allergic reactions, laboratory abnormalities, or medication errors requiring urgent/emergent evaluation, treatment, or hospitalization.
 
 

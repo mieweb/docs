@@ -9,13 +9,13 @@ links:
   - 'accessing-the-ledger.md'
   - 'finding-ledger-transactions.md'
 source: 'https://drive.google.com/open?id=1Ue6lNKwOnv04L49jydrvYRs2xIHXHp8cmIA6WdCoCVM'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
 Update ledger transactions only correct entry errors. Make other adjustments by adding transactions.
 1. [Access the ledger](accessing-the-ledger.md).
 2. [Find ledger transactions](finding-ledger-transactions.md).
-3. Select the <strong>transaction number</strong> of the transaction to update. The <em>Update Transaction</em>
-    window appears.<img src="../updating-transactions.assets/100000000000053B0000026798872BBEA622DF44.png" />
+3. Select the <strong>transaction number</strong> of the transaction to update. The <em>Update Transaction</em>  
+    window appears.<img src="../updating-transactions.assets/100000000000053B0000026798872BBEA622DF44.png" />  
 
 4. In the <em>Update Transaction</em> window, change the transaction.
 5. Select <strong>Edit Transaction</strong>. The system saves the changes and closes the <em>Update Transaction</em> window.

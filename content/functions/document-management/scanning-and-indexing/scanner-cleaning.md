@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Scanner Cleaning'
@@ -15,8 +15,8 @@ menu:
     parent: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
     weight: 660
 ---
-## Recommended Cleaning
-
+## Recommended Cleaning  
+  
 Alcohol prep pads are used for all cleaning.
 1. Open the scanner.
 2. Clean the lenses (i.e., glass plates on the top and bottom of the inside of the scanner).

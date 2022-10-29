@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Device Interface - Tremetrics RA500'
@@ -17,13 +17,13 @@ menu:
     weight: 5590
 ---
 This page provides instructions for retrieving results from the Tremetrics RA500 audiometer with Enterprise Health (EH), and lists the fields that the interface retrieves.
-
-## **Instructions**
-
+  
+## **Instructions**  
+  
 To begin retrieving results from the audiometer, first perform the test instructed in the device's operation manual.
-
-### **Individual Mode**
-
+  
+### **Individual Mode**  
+  
 To retrieve results for an individual patient:
 1. Go to the patient's chart and start a new Audiogram encounter.
 2. Click the Perform Test button in the Tremetrics Audio section.
@@ -36,9 +36,9 @@ To retrieve results for an individual patient:
    1. If the patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
    2. Click the information icon (?) to see all the details of the test.
    3. If the wrong test was retrieved, close the new window; nothing is saved.
-
-### **Batch Mode**
-
+  
+### **Batch Mode**  
+  
 To retrieve results for multiple patients:
 1. Click the Import tab on the left side menu.
 2. Select "Tremetrics Data Import" from the dropdown.
@@ -51,9 +51,9 @@ To retrieve results for multiple patients:
    2. If some tests should not be uploaded uncheck the checkbox to the left of the patient.
    3. Click the information icon (?) to see all the details of a test.
    4. If no tests should be uploaded, close the new window; nothing is saved.
-
-## **Collected Fields**
-
+  
+## **Collected Fields**  
+  
 The following fields are collected in EH:
 * Left ear frequencies: 500Hz, 1kHz, 2kHz, 3kHz, 4kHz, 6kHz, 8kHz
 * Right ear frequencies: 500Hz, 1kHz, 2kHz, 3kHz, 4kHz, 6kHz, 8kHz
@@ -61,14 +61,14 @@ The following fields are collected in EH:
 * Test Date/Time
 * Audiometer Serial Number
 * Calibration Date/Time
-
-## **Installation Help**
-
+  
+## **Installation Help**  
+  
 To correctly install and use the audiometer with EH the following considerations are important to note:
 * The interface uses Java to interact with the device; Java must be installed on each PC that is connected to the audiometer.
 * The import menu is not installed on a default system, it must be added from the menu editor in the Control Panel.
    * To select the options that appear in the dropdown of the import page, add "?f=wc_import&s=edit" to the URL and select the desired options.
-
-## **Related Pages**
-
+  
+## **Related Pages**  
+  
 For a list of all supported devices see the [Devices List](../../../resources/system-specifications/interface-specifications.md)

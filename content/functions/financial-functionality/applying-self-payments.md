@@ -9,18 +9,18 @@ links:
   - '../encounters/working-in-a-visit-encounter.md'
   - '../document-management/printing-and-print-definitions/printing-documents.md'
 source: 'https://drive.google.com/open?id=1B7Df4vCyxBjC_iv5DUyiHU8fdRWlxsjp5OTx-D0W6YY'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 ---
 Apply self payments when a patient is paying for the services at the time they were received.
 1. [Start an encounter](../encounters/working-in-a-visit-encounter.md).
 2. In the <em>Encounter</em> section, in the <em>Employer</em> field, select the <strong>Self Pay</strong> button. The system changes the employer name to <em>Self Pay</em>.
 3. Select the <strong>Plan</strong> button. A menu appears. From the menu, select <strong>Financials</strong>. The system displays the <em>Financials</em> section of the encounter.
 
-   <img src="../applying-self-payments.assets/10000201000000F400000109A7EEABAD5FAB0F2C.png" />
+   <img src="../applying-self-payments.assets/10000201000000F400000109A7EEABAD5FAB0F2C.png" />  
 
 4. In the <em>Financials</em> section, select <strong>Show/Hide Quick Lists</strong>. The system displays a list of options.
 
-   <img src="../applying-self-payments.assets/10000000000000130000001CA420FF066CC71182.png" />
+   <img src="../applying-self-payments.assets/10000000000000130000001CA420FF066CC71182.png" />  
 
 5. From the list, select <strong>Payment</strong>. The <em>Add Payment</em> window appears.
 6. In the <strong>Price</strong> field, type the <strong>amount of the patient's payment</strong>.

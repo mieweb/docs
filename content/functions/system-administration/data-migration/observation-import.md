@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv'
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Observation Import'
@@ -21,9 +21,9 @@ This wiki page is to document how observation data needs to be constructed in or
 * File format: Data file shall be formated in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
 * Each subsequent row shall represent an observation.
-
-## **Column Definition**
-
+  
+## **Column Definition**  
+  
 The lab result column definition shall contain all columns listed below regardless if there is a value or not.
 * R = Required
 * O = Optional
@@ -145,130 +145,130 @@ The lab result column definition shall contain all columns listed below regardle
 </tr>
 
 </table>
-
-## **Name Validation**
-
+  
+## **Name Validation**  
+  
 If the patient's first or last name is given, then it will be compared to the name of the patient in the database.
-
-## **Examples of CSV**
-
+  
+## **Examples of CSV**  
+  
 Please note that because of the width of a csv file, the lines have been split up for ease of reading here. A real CSV file will need to be contained in one line per record.
-
-### **1 Observation**
-
+  
+### **1 Observation**  
+  
 This example shows how to import 1 observation for 1 patient.
 
 {{% pre %}}
 ```
-
-
-Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
-U111111,Doe,John,I,20110705,25,Systolic BP,
-
-{{% /pre %}}
-
-
-
-{{% pre %}}
-
-Observation Order,Observation Result,Observation Range,Observation Units,
-1,100,,mmhg,
-
-{{% /pre %}}
-
-
-
-{{% pre %}}
-
-Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
-,F,,Result looks good,Quest
-
-{{% /pre %}}
-
+  
+  
+Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,  
+U111111,Doe,John,I,20110705,25,Systolic BP,  
+  
+{{% /pre %}}  
+  
+  
+  
+{{% pre %}}  
+  
+Observation Order,Observation Result,Observation Range,Observation Units,  
+1,100,,mmhg,  
+  
+{{% /pre %}}  
+  
+  
+  
+{{% pre %}}  
+  
+Observation Flag,Observation Status,Observer Code,Comment,Performing Lab  
+,F,,Result looks good,Quest  
+  
+{{% /pre %}}  
+  
 
 ```
-
-### **2 Observations, same patient**
+  
+### **2 Observations, same patient**  
 
 This example shows how to import 2 observations for the same patient.
 
 {{% pre %}}
 ```
-
-
-Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
-U111111,Doe,John,I,20110705,25,Systolic BP,
-U111111,Doe,John,I,20110705,26,Diastolic BP,
-
-{{% /pre %}}
-
-
-
-{{% pre %}}
-
-Observation Order,Observation Result,Observation Range,Observation Units,
-1,100,,mmhg,
-2,70,,mmhg,
-
-{{% /pre %}}
-
-
-
-{{% pre %}}
-
-Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
-,F,,Results look good,Quest
-,F,,Results look good,Quest
-
-{{% /pre %}}
-
+  
+  
+Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,  
+U111111,Doe,John,I,20110705,25,Systolic BP,  
+U111111,Doe,John,I,20110705,26,Diastolic BP,  
+  
+{{% /pre %}}  
+  
+  
+  
+{{% pre %}}  
+  
+Observation Order,Observation Result,Observation Range,Observation Units,  
+1,100,,mmhg,  
+2,70,,mmhg,  
+  
+{{% /pre %}}  
+  
+  
+  
+{{% pre %}}  
+  
+Observation Flag,Observation Status,Observer Code,Comment,Performing Lab  
+,F,,Results look good,Quest  
+,F,,Results look good,Quest  
+  
+{{% /pre %}}  
+  
 
 ```
-
-### **2 Observations for 2 different patients**
+  
+### **2 Observations for 2 different patients**  
 
 This example shows how to import 2 lab orders with 2 observation results each.
 
 {{% pre %}}
 ```
-
-
-Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
-U111111,Doe,John,I,20110705,25,Systolic BP,
-U111111,Doe,John,I,20110705,26,Diastolic BP,
-U222222,Doe,Jane,I,20110705,30,URO,
-U222222,Doe,Jane,I,20110705,31,BLD,
-
-{{% /pre %}}
-
-
-
-{{% pre %}}
-
-Observation Order,Observation Result,Observation Range,Observation Units,
-1,100,,mmhg,
-2,70,,mmhg,
-1,Normal,,mg/dl,
-2,neg,,,
-
-{{% /pre %}}
-
-
-
-{{% pre %}}
-
-Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
-,F,,Test results are good,Labcorp
-,F,,Test results are good,Labcorp
-,F,,Test results are good,Labcorp
-,F,,Test results are good,Labcorp
-
-{{% /pre %}}
-
+  
+  
+Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,  
+U111111,Doe,John,I,20110705,25,Systolic BP,  
+U111111,Doe,John,I,20110705,26,Diastolic BP,  
+U222222,Doe,Jane,I,20110705,30,URO,  
+U222222,Doe,Jane,I,20110705,31,BLD,  
+  
+{{% /pre %}}  
+  
+  
+  
+{{% pre %}}  
+  
+Observation Order,Observation Result,Observation Range,Observation Units,  
+1,100,,mmhg,  
+2,70,,mmhg,  
+1,Normal,,mg/dl,  
+2,neg,,,  
+  
+{{% /pre %}}  
+  
+  
+  
+{{% pre %}}  
+  
+Observation Flag,Observation Status,Observer Code,Comment,Performing Lab  
+,F,,Test results are good,Labcorp  
+,F,,Test results are good,Labcorp  
+,F,,Test results are good,Labcorp  
+,F,,Test results are good,Labcorp  
+  
+{{% /pre %}}  
+  
 
 ```
-
-## **Sample CSV files**
+  
+## **Sample CSV files**  
 
 Here are sample CSV files to download and view in a text editor or a spreadsheet program.
 1 Observation - [File:Obsimportsample1.csv](https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample1.csv)

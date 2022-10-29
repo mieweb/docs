@@ -11,7 +11,7 @@ links:
   - 'document-management/printing-and-print-definitions.md'
   - 'document-management/imaging.md'
 source: 'https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
 menu:
   main:
     name: 'Document Management'
@@ -23,7 +23,7 @@ menu:
 
 
 
-Document Management is an essential component of the {{% system-name %}} EHR portfolio. With our document management solutions, clients will experience the conveniences of easy chart access, anywhere, anytime, as well as hassle-free interoperability and integrated workflows, intended to streamline operations and communication.
+Document Management is an essential component of the {{% system-name %}} EHR portfolio. With our document management solutions, clients will experience the conveniences of easy chart access, anywhere, anytime, as well as hassle-free interoperability and integrated workflows, intended to streamline operations and communication.  
 {{% system-name %}} supports both web-based remote scanning and high-speed scanning for items such as insurance cards or entire charts. WebScan also allows front desk staff to scan information directly into a patient's record, at the point of encounter, and is designed to automatically index the scanned document using barcode technology.
 
 
