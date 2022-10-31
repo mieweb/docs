@@ -2,7 +2,7 @@
 id: '1Lj82ShrYoYoT1mgHtJ4Kmk3DiKtKvYV1ql7MoPxy-2Y'
 title: 'RWT Results 2022 Q3'
 date: '2022-10-13T19:45:39.190Z'
-version: 244
+version: 245
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
