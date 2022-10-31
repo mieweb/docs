@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10'
 source: 'https://drive.google.com/open?id=1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
-wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
+wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 menu:
   main:
     name: 'CMS 50 - Closing the Referral Loop: Receipt of Specialist Report'

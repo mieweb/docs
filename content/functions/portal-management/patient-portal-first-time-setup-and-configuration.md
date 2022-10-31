@@ -9,7 +9,7 @@ links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist'
   - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
+wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 menu:
   main:
     name: 'Patient Portal Setup'

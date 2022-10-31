@@ -19,7 +19,7 @@ links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://system/'
 source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
-wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
+wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 menu:
   main:
     name: 'Super User Quick View Portlet'

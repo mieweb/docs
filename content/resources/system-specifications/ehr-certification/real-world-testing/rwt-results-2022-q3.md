@@ -2,7 +2,7 @@
 id: '1Lj82ShrYoYoT1mgHtJ4Kmk3DiKtKvYV1ql7MoPxy-2Y'
 title: 'RWT Results 2022 Q3'
 date: '2022-10-13T19:45:39.190Z'
-version: 243
+version: 244
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -23,7 +23,7 @@ links:
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Lj82ShrYoYoT1mgHtJ4Kmk3DiKtKvYV1ql7MoPxy-2Y'
-wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
+wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 ---
 # General Information  
 

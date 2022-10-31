@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'cancel-no-show-edit-appointments.md'
 source: 'https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
-wikigdrive: 'a61f512444631f29662815085800f0e066b316db'
+wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 menu:
   main:
     name: 'Waiting List Tab'
