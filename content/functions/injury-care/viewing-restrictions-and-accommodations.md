@@ -6,9 +6,9 @@ version: 49
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'adding-restrictions-and-accommodations.md'
+  - 'gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 source: 'https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Viewing Restrictions and Accommodations'
@@ -97,7 +97,7 @@ Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time. Â
 Once clicking the Show Inactive link, the summary view will show and incorporate all past inactive restrictions on the chart along with the current active restrictions. The "show inactive" also shows restrictions that did not have the entirety of the restriction accommodated.
 {{% tip %}}
 
-When clicking on the title bar, it also opens up the ability to edit, delete and add restrictions. Refer to our other guide on [adding restrictions and accomodations](adding-restrictions-and-accommodations.md).
+When clicking on the title bar, it also opens up the ability to edit, delete and add restrictions. Refer to our other guide on [adding restrictions and accomodations](gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg).
 {{% /tip %}}
 
   

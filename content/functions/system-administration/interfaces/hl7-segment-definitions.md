@@ -6,10 +6,10 @@ version: 41
 lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:
-  - 'sending-hl7-messages-to-system.md'
-  - 'sample-hl7-messages.md'
+  - 'gdoc:1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
+  - 'gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'HL7 Segment Definitions'
@@ -7962,5 +7962,5 @@ The TN Data Type is an MIE Extension designed for notifying a sending system of 
   
 ## **Related Pages**  
 
-[Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
-[Sample HL7 Messages](sample-hl7-messages.md)
+[Sending HL7 Messages to System](gdoc:1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw)
+[Sample HL7 Messages](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg)

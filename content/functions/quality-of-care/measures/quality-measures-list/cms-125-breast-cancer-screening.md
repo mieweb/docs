@@ -9,10 +9,10 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v8&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v9&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v10&showresulttype=Measure'
-  - '../../../document-management/scanning-and-indexing.md'
+  - 'gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms125v10'
 source: 'https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 125 - Breast Cancer Screening'
@@ -134,7 +134,7 @@ Use the Past Procedures section of the encounter to record a previous mammogram,
 1. Continue documenting the encounter, as needed.
 2. When completed, Close and Archive the encounter.
 * <strong>Option 3: Scan/Index or Upload a Mammogram document</strong>
-   * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the MAMMO document type configured with the necessary LOIN-C (24606-6).
+   * Using [WebScan](gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w), scan and index the MAMMO document type configured with the necessary LOIN-C (24606-6).
   
 ## Evidence  
 

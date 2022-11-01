@@ -9,7 +9,7 @@ links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
 source: 'https://drive.google.com/open?id=1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Injection Tab'

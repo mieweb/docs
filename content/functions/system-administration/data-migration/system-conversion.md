@@ -6,16 +6,16 @@ version: 68
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'data-migration-file-format-standard.md'
+  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-0'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-1'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0'
   - 'https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1'
   - 'https://docs.python.org/2/library/string.html#format-string-syntax'
-  - 'data-migration-overview.md'
+  - 'gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
 source: 'https://drive.google.com/open?id=12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'System Conversion'
@@ -31,7 +31,7 @@ menu:
 * Discrete Audiograms
 * Encounters
 There are a few stages involved in the conversion:
-1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](data-migration-file-format-standard.md) <strong><em>(see this page for data file requirements).</em></strong>
+1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg) <strong><em>(see this page for data file requirements).</em></strong>
 2. Legacy Data is loaded to development MySQL database using MIE's pysqlimport tool.
 3. Generate <em>Data Mapping Spreadsheet</em> (Google Spreadsheet exportable to Excel/CSV for client use).
 4. Perform data mapping and define WebChart components.
@@ -688,5 +688,5 @@ The newly generated Audiograms:
   
 ## **Related Pages**  
 
-* [Data Migration Overview](data-migration-overview.md)
-* [Data Requirements](data-migration-file-format-standard.md)
+* [Data Migration Overview](gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8)
+* [Data Requirements](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)

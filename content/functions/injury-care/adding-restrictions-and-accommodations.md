@@ -6,10 +6,10 @@ version: 97
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'viewing-restrictions-and-accommodations.md'
-  - 'editing-restriction-types.md'
+  - 'gdoc:1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
+  - 'gdoc:1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
 source: 'https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Adding Restrictions and Accommodations'
@@ -21,7 +21,7 @@ The restriction management function provides for the recording and documenting o
   
 ## **Adding a New Restriction**  
   
-While working in an encounter, the Plan area of the encounter offers a section named Restrictions and Accommodations. This is the section where new restrictions get entered in for visits. If you need to simply view current restrictions a patient has on their chart, please refer to [Viewing Restrictions and Accommodations](viewing-restrictions-and-accommodations.md) detailed document.
+While working in an encounter, the Plan area of the encounter offers a section named Restrictions and Accommodations. This is the section where new restrictions get entered in for visits. If you need to simply view current restrictions a patient has on their chart, please refer to [Viewing Restrictions and Accommodations](gdoc:1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A) detailed document.
 
   
 ![](../adding-restrictions-and-accommodations.assets/10000201000004960000017212671D1F2657FA42.png)  
@@ -49,14 +49,14 @@ To add a new restriction, simply click on the section title bar Restrictions and
 ![](../adding-restrictions-and-accommodations.assets/10000201000004A9000000A41960520252A92EC9.png)  
 
 
-Once you do that, you will see again a list of all current active restrictions and/or accommodations for the chart.  Below that summary, you will see the fields and the ability to add new restrictions and an accommodation (if needed) with that restriction.  For more information on how to show/hide inactive restrictions and accommodations, please refer to [Viewing Restrictions and Accommodations](viewing-restrictions-and-accommodations.md) help guide.
+Once you do that, you will see again a list of all current active restrictions and/or accommodations for the chart.  Below that summary, you will see the fields and the ability to add new restrictions and an accommodation (if needed) with that restriction.  For more information on how to show/hide inactive restrictions and accommodations, please refer to [Viewing Restrictions and Accommodations](gdoc:1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A) help guide.
 
   
 ![](../adding-restrictions-and-accommodations.assets/10000201000003410000019304545F9E4C1AF845.png)  
 
 
 Complete the Restriction fields to add a new restriction on the chart for this visit. Several fields are auto-completes that offer built in choices. The Restriction fields are described as:
-* Restriction Type: Begin typing in the name or type of restriction.  The system will autocomplete preformatted choices for you.  Restriction types are programmed by MIE or your Super Admin in the [Editing Restriction Types](editing-restriction-types.md) found in Control. If the person is restricted from working, use the restriction type of Lost Time.  Depending on the restriction type selected, more input fields may expand for more entry details about the specific restriction.
+* Restriction Type: Begin typing in the name or type of restriction.  The system will autocomplete preformatted choices for you.  Restriction types are programmed by MIE or your Super Admin in the [Editing Restriction Types](gdoc:1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE) found in Control. If the person is restricted from working, use the restriction type of Lost Time.  Depending on the restriction type selected, more input fields may expand for more entry details about the specific restriction.
 * Comment: This is a free text field to type in any comment regarding the restriction if needed or to add any more information regarding specifics to the restriction.
 * Problem: This is an autocomplete field but also allows free text.  You would most likely key in the patient's current condition from their problem list that this restriction may be related about.  If you push your down arrow key ↓on your keyboard it will display the patient's current problem list (conditions) you could select from.  Or you can free text in this field also. Anything typed here does not affect the patient's problem list.
 * Disability Criteria: This checkbox may be used for safety teams. The provider would write/add a new restriction here, but the safety team would come into this restriction and edit and mark the checkbox if applicable.
@@ -191,7 +191,7 @@ When you click the pencil icon (to edit) the restriction and accommodation field
   
 ## **Current Restrictions Visibility**  
 
-Current restrictions, that encompass today's date, are shown in various places when working in the chart.  Please read our other [Viewing Restrictions and Accommodations](viewing-restrictions-and-accommodations.md) documentation for specific details, but a couple areas are:
+Current restrictions, that encompass today's date, are shown in various places when working in the chart.  Please read our other [Viewing Restrictions and Accommodations](gdoc:1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A) documentation for specific details, but a couple areas are:
   
 ### **Dark Grey Demographic Bar**  
 

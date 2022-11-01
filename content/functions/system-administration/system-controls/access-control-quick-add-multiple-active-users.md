@@ -6,9 +6,9 @@ version: 47
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../../system-configuration/managing-departments.md'
+  - 'gdoc:1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 source: 'https://drive.google.com/open?id=1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Access Control - Quick Add Multiple Active Users'
@@ -74,7 +74,7 @@ When accessing the Quick Add Users screen, both sections will list to show the a
   
 ![](../access-control-quick-add-multiple-active-users.assets/1000020100000212000000D1E9351E41EF73B5C2.png)  
 
-You can quickly tag multiple users to a specific department by going to "View Department" and using the listedit & autocomplete feature there. See help documentation titled [Managing Departments](../../system-configuration/managing-departments.md) for more information.
+You can quickly tag multiple users to a specific department by going to "View Department" and using the listedit & autocomplete feature there. See help documentation titled [Managing Departments](gdoc:1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0) for more information.
   
 ![](../access-control-quick-add-multiple-active-users.assets/100002010000026F000000BC9B5A21A768BFF802.png)  
 

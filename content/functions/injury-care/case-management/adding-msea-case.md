@@ -6,9 +6,9 @@ version: 36
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../adding-restrictions-and-accommodations.md'
+  - 'gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 source: 'https://drive.google.com/open?id=1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Adding MSEA Case'
@@ -62,11 +62,11 @@ After selecting to create a MSEA case type, the only field that expands is the 
   
 ### **Work Status (or Lost Time) Section**  
 
-Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md) help documentation for more information.
+Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg) help documentation for more information.
   
 ### **Restrictions and Accommodations**  
 
-Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md).
+Refer to help documentation named [Restrictions and Accommodations](gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg).
   
 ## **Linking Documents to Cases**  
 

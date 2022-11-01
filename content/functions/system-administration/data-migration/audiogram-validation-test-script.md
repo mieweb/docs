@@ -6,14 +6,14 @@ version: 41
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../../document-management/documents-and-forms/audiogram-data-entry.md'
-  - 'https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-'
-  - '../../e-chart/basic-initial-system-information.md'
-  - '../../e-chart/detailed-searching-in-e-chart.md'
+  - 'gdoc:1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
+  - 'gdoc:1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-'
+  - 'gdoc:1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
+  - 'gdoc:1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
-  - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
+  - 'gdoc:1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
 source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Audiogram Validation Test Script'
@@ -154,9 +154,9 @@ Must be in this date and time format: YYYY-MM-DD HH:MM:SS</td>
 </tr>
 
 </table>
-Reference the [Audiogram Data Entry](../../document-management/documents-and-forms/audiogram-data-entry.md) online help for instructions on audiogram data entry.
+Reference the [Audiogram Data Entry](gdoc:1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA) online help for instructions on audiogram data entry.
   
-## Validation Instructions ([**video**](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-))  
+## Validation Instructions ([**video**](gdoc:1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-))  
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -165,7 +165,7 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 
 {{% tip %}}
    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](gdoc:1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8) or [Detailed Searching in E-Chart](gdoc:1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY).)
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
@@ -198,7 +198,7 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
    1. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
    2. Contact {{% system-name %}} with the findings.
   
-## Reports ([**video**](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_))  
+## Reports ([**video**](gdoc:1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_))  
 
 The **Audiogram Report** and **Audiometric Testing** reports are particularly helpful in validating data between systems.
 **Audiogram Report:** Shows details based on search criteria.

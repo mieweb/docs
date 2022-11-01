@@ -6,48 +6,48 @@ version: 116
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'data-import-overview.md'
+  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
   - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0'
-  - 'chart-data-csv-api.md'
+  - 'gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
   - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0//Patient/Chart'
-  - 'chart-relations-csv-api.md'
+  - 'gdoc:1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
   - 'https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit'
-  - 'clinical-encounter-csv-api.md'
+  - 'gdoc:1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk'
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pubhtml'
-  - 'lost-time-import-tool.md'
+  - 'gdoc:1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
   - 'https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit#gid=0'
-  - 'audiometric-data-csv-api.md'
+  - 'gdoc:14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA'
   - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit#gid=0'
-  - 'pft-data-csv-api.md'
+  - 'gdoc:1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
   - 'https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0'
-  - 'lab-result-csv-api.md'
+  - 'gdoc:1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?usp=sharing'
-  - 'observation-import.md'
-  - 'observation-codes-csv-api.md'
-  - 'panel-membership-import-tool.md'
-  - 'panel-status-import.md'
-  - 'completed-orders-import-tool.md'
-  - 'order-list-import-tool.md'
-  - 'custom-documents-csv-api.md'
+  - 'gdoc:1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
+  - 'gdoc:1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
+  - 'gdoc:1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
+  - 'gdoc:1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
+  - 'gdoc:1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
+  - 'gdoc:1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
+  - 'gdoc:1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing'
-  - 'summary-documents-csv-api.md'
+  - 'gdoc:1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
   - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit'
-  - 'injections-csv-api.md'
-  - 'mie-file-import.md'
+  - 'gdoc:1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
+  - 'gdoc:1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit#gid=0%7C'
-  - 'pharmacy-filter-import.md'
-  - 'appointments-import.md'
-  - 'fee-schedule-import-tool.md'
+  - 'gdoc:1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
+  - 'gdoc:1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
+  - 'gdoc:1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Asset_template_(4).xlsx'
-  - 'order-question-import-tool.md'
-  - '../../../resources/system-specifications/interface-specifications.md'
-  - 'data-migration-file-format-standard.md'
-  - 'data-migration-overview.md'
-  - 'system-conversion.md'
-  - 'https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI'
+  - 'gdoc:1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c'
+  - 'gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
+  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
+  - 'gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
+  - 'gdoc:12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
+  - 'gdoc:10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI'
   - 'https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries'
 source: 'https://drive.google.com/open?id=12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Data Import Master List'
@@ -56,7 +56,7 @@ menu:
     weight: 4960
 ---
 This page provides an overview of the ways MIE imports data from a client's legacy EMR (i.e., spreadsheets, custom databases, and other sources) into the  {{% system-name %}} ( {{% sys-name %}} ) system. Most information is imported using CSV files and an application program interface (API).  
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
   
 ### **Audience**  
   
@@ -86,7 +86,7 @@ Administrative demographic fields are in a separate table and store specific emp
 ![](../data-import-master-list.assets/1000020100000321000001094E094C6058E964D9.png)  
 
 * [Demographic Import Specification: Patient/Chart Demographics](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0)
-* [Chart Data CSV API](chart-data-csv-api.md)
+* [Chart Data CSV API](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs)
   
 ### **Organizational Hierarchy**  
   
@@ -103,7 +103,7 @@ The Chart Relations CSV API imports various relationships between charts.
 ![](../data-import-master-list.assets/100002010000031B000000D81F4875BEBC1CD7D6.png)  
 
 * [Administration Information Demographic Import Specification: Patient/Chart Administration Information](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0//Patient/Chart)
-* [Chart Relations CSV API](chart-relations-csv-api.md)
+* [Chart Relations CSV API](gdoc:1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k)
   
 ## **Encounters / Incidents / Cases**  
   
@@ -121,7 +121,7 @@ Related documents are included or linked to an encounter.
 ![](../data-import-master-list.assets/100002010000031C0000006B4B3956F6D0C87E1E.png)  
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit)
-* [Clinical Encounter CSV API](clinical-encounter-csv-api.md)
+* [Clinical Encounter CSV API](gdoc:1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk)
   
 ### **Restrictions and Accommodations**  
   
@@ -132,7 +132,7 @@ The Lost Time CSV API is used to import information related to an employee's (pa
 ![](../data-import-master-list.assets/100002010000031E000001AE5693B8B93C294EBB.png)  
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pubhtml)
-* [Lost Time CSV Import](lost-time-import-tool.md)
+* [Lost Time CSV Import](gdoc:1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk)
   
 ## **Discrete Chart Data**  
   
@@ -154,7 +154,7 @@ Audiogram questions are stored as observations in a flowsheet-like format ordere
 ![](../data-import-master-list.assets/1000020100000322000000CDAB6716C4D8F2A025.png)  
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit#gid=0)
-* [Audiometric Data CSV API](audiometric-data-csv-api.md)
+* [Audiometric Data CSV API](gdoc:14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA)
   
 ### **Respirator Fit Test**  
   
@@ -172,7 +172,7 @@ Spirometry, or pulmonary function tests (PFT), are stored for individual employe
 ![](../data-import-master-list.assets/10000201000002580000025A06F244B30CF047CC.png)  
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit#gid=0)
-* [PFT Data CSV API](pft-data-csv-api.md)
+* [PFT Data CSV API](gdoc:1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o)
   
 ### **Lab Data**  
   
@@ -190,7 +190,7 @@ The discrete lab results also display as a flowsheet.
 ![](../data-import-master-list.assets/100002010000032100000169D686916C11668935.png)  
 
 * [Lab Results CSV Specification](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
-* [Lab Results CSV API](lab-result-csv-api.md)
+* [Lab Results CSV API](gdoc:1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk)
   
 ### **Observations**  
   
@@ -207,8 +207,8 @@ Lab results store as a discrete data and display in a flowsheet format and as a 
 ![](../data-import-master-list.assets/100002010000031C000000E69A77CA434119F4B8.png)  
 
 * [Chart Data CSV Import Specification: Observations](https://docs.google.com/a/mieweb.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?usp=sharing)
-* [Observation Import](observation-import.md)
-* [Observation Codes CSV API](observation-codes-csv-api.md)
+* [Observation Import](gdoc:1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs)
+* [Observation Codes CSV API](gdoc:1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc)
   
 ### **Health Surveillance**  
 
@@ -242,12 +242,12 @@ There is an editor to automate business rules for which employees should be adde
 ![](../data-import-master-list.assets/100002010000031C00000153470F7C091FB72E0C.png)  
 
 * CSV import specification TBD
-* [Panel Membership CSV API](panel-membership-import-tool.md)
+* [Panel Membership CSV API](gdoc:1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y)
   
 #### **Panel Status**  
   
 The Panel Status CSV API is used for panels that use the "Panel Expiration" method of triggering orders. This method has the advantages that the import of previous completed order records is not necessary for HSP to function, and that only employees with status records provided will have new orders triggered. This allows for a phased roll-out of HSP programs. It also allows for fine-grained control of initial due dates, rather than relying on the system to calculate them.
-* [Panel Status CSV API](panel-status-import.md)
+* [Panel Status CSV API](gdoc:1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ)
   
 #### **Completed Orders**  
   
@@ -264,7 +264,7 @@ During the migration process additional surveillance notification documentation 
 ![](../data-import-master-list.assets/1000020100000322000001BB3EB43F7395AF784F.png)  
 
 * CSV import specification TBD
-* [Completed Orders CSV API](completed-orders-import-tool.md)
+* [Completed Orders CSV API](gdoc:1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI)
   
 #### **Orders Compendium**  
   
@@ -278,7 +278,7 @@ In addition, all orders for lab facilities can store the order code, CPT code, a
 ![](../data-import-master-list.assets/100002010000031F000001132A67A925D87202FB.png)  
 
 * CSV import specification TBD
-* [Order List Compendium CSV API](order-list-import-tool.md)
+* [Order List Compendium CSV API](gdoc:1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I)
   
 ## **Non-Discrete Documents**  
   
@@ -297,7 +297,7 @@ Text is stored as document during a data migration. A description of each type o
 ![](../data-import-master-list.assets/100002010000031F000001148AF73EF4EA04E4A3.png)  
 
 * CSV import specification TBD
-* [Custom Documents CSV API](custom-documents-csv-api.md)
+* [Custom Documents CSV API](gdoc:1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0)
   
 ### **Summary Documents Creating HTML Files**  
   
@@ -306,7 +306,7 @@ Case information may be stored as a document in a static 2-column format, which 
 ![](../data-import-master-list.assets/100002010000030F00000134BAD923DC9AEC7F27.png)  
 
 * [Summary Document Import CSV Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing)
-* [Summary Documents CSV API](summary-documents-csv-api.md)
+* [Summary Documents CSV API](gdoc:1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4)
   
 ### **Questionnaires**  
   
@@ -332,11 +332,11 @@ In addition, injections display within the Injections flowsheet chart tab as dis
 ![](../data-import-master-list.assets/10000201000003220000008BC33F2235F33F2350.png)  
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit)
-* [Injections CSV API](injections-csv-api.md)
+* [Injections CSV API](gdoc:1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE)
   
 ### **MIE File Import**  
   
-The [File Import CSV API](mie-file-import.md) imports and stores a set of files (an archive) into EH as a document. A document is then associated with a chart. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual.  
+The [File Import CSV API](gdoc:1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY) imports and stores a set of files (an archive) into EH as a document. A document is then associated with a chart. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual.  
 Along with the files that are imported into the MIE File System, a discrete document record is created to associate the file with the correct chart in the MIE system. Although the content of the file is not stored as discrete data, the document record is stored discretely and features data such as the service date, enter date, service location, author, and document type (a way to group and classify documents in MIE's system).
 * CSV import specification TBD
 * Wiki page TBD
@@ -365,7 +365,7 @@ Specific discrete data fields may also be viewed in a flowsheet format.
   
 ![](../data-import-master-list.assets/100002010000032000000139BAF6D1A8FB55E113.png)  
 
-* [MIE File Import](mie-file-import.md)
+* [MIE File Import](gdoc:1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY)
 * [MIE CSV File Import](https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit#gid=0%7C)
   
 ## **Other Flowsheets and Reports**  
@@ -399,7 +399,7 @@ The pharmacy import template allows for a batch upload to the inventory module. 
 ![](../data-import-master-list.assets/100002010000031E0000015510703F74F9C6F002.png)  
 
 * CSV import specification TBD
-* [Pharmacy Filter Import](pharmacy-filter-import.md)
+* [Pharmacy Filter Import](gdoc:1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A)
   
 ### **Schedules**  
   
@@ -408,7 +408,7 @@ There is an editor in the MIE system to manually add/edit schedules, appointment
 ![](../data-import-master-list.assets/100002010000031D00000175E03D49E43AB636C5.png)  
 
 * CSV import specification TBD
-* [Appointments CSV API](appointments-import.md)
+* [Appointments CSV API](gdoc:1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo)
   
 ### **Fee Schedules**  
   
@@ -417,7 +417,7 @@ Fee schedule information may be imported from a template. There is an editor wit
 ![](../data-import-master-list.assets/100002010000031C0000011C006D4667B2516AC3.png)  
 
 * CSV import specification TBD
-* [Fee Schedule CSV API](fee-schedule-import-tool.md)
+* [Fee Schedule CSV API](gdoc:1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0)
   
 ### **Assets**  
   
@@ -435,14 +435,14 @@ Orders questions may be added using a template. There is also an editor within t
 ![](../data-import-master-list.assets/100002010000031E000001235CB3CFB9E7FED43F.png)  
 
 * CSV import specification TBD
-* [Order Question CSV API](order-question-import-tool.md)
+* [Order Question CSV API](gdoc:1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c)
   
 ## **Related Pages**  
 
-* [Interface Specifications](../../../resources/system-specifications/interface-specifications.md)
-* [Data Migration File Format Standard](data-migration-file-format-standard.md)
-* [Data Migration Overview](data-migration-overview.md)
-* [MIE File Import](mie-file-import.md)
-* [System Conversion](system-conversion.md)
-* [Human Resources Interface](https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI)
+* [Interface Specifications](gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)
+* [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)
+* [Data Migration Overview](gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8)
+* [MIE File Import](gdoc:1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY)
+* [System Conversion](gdoc:12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE)
+* [Human Resources Interface](gdoc:10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI)
 * [Medgate Conversion Queries](https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries)

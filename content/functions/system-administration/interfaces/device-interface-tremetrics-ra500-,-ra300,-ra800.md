@@ -6,9 +6,9 @@ version: 48
 lastAuthor: 'Kyle Kocks'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - 'gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 source: 'https://drive.google.com/open?id=1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Device Interface - Tremetrics RA500'
@@ -71,4 +71,4 @@ To correctly install and use the audiometer with EH the following considerations
   
 ## **Related Pages**  
   
-For a list of all supported devices see the [Devices List](../../../resources/system-specifications/interface-specifications.md)
+For a list of all supported devices see the [Devices List](gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)

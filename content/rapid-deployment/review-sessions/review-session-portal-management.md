@@ -17,7 +17,7 @@ links:
   - '../../functions/portal-management/employer-portal-setup.md'
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
 source: 'https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Review Session - Portal Management'

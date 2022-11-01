@@ -6,9 +6,9 @@ version: 51
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'outbound-faxing-email-notifications-of-sent-failed-faxes.md'
+  - 'gdoc:1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
 source: 'https://drive.google.com/open?id=1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Faxing Documents'
@@ -178,7 +178,7 @@ You can view status of your fax on the Fax Manager Tab on the left sidebar menu 
 
 You can have  {{% system-name %}} send you an email upon each successful sent fax and/or each failed (unsuccessful) fax that was sent by you via {{% system-name %}} . This is a user preference and only affects you, the logged in user.
 Please make sure you have your email entered in your username screen (a superuser may need to verify this or add this for you within your practice). You can always view the Fax Manager tab to view failed and successful faxes, but the email notification sends you an email instantly to you when the fax has been sent or has a problem being sent.
-Please see other help documentation named [Email Notifications of Sent or Failed Faxes-Outbound Faxing](outbound-faxing-email-notifications-of-sent-failed-faxes.md) for more information.
+Please see other help documentation named [Email Notifications of Sent or Failed Faxes-Outbound Faxing](gdoc:1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k) for more information.
 
 ___
  

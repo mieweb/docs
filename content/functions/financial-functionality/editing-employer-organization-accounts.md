@@ -6,12 +6,12 @@ version: 23
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links:
-  - 'finding-employer-organizations.md'
+  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
 source: 'https://drive.google.com/open?id=1PzAcAguTcxDsfoxFIwdro80Mbtxql0QXRm45FBviNU8'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
 Edit employer organization accounts to add or change contacts, change associated insurance policies, or to change other properties.
-1. [F](finding-employer-organizations.md)[ind employer organizations](finding-employer-organizations.md).
+1. [F](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg)[ind employer organizations](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg).
 2. From the search results, select the <strong>name of the organization</strong> of which to edit accounts. The system displays information about the employer organization.
 3. In the <em>Accounts</em> section, select <strong>an account to edit</strong>. The system displays information about the account.
 4. In the section to edit, choose the <strong>Edit</strong> button. The system makes fields available. Change or make entries in those fields. Select the <strong>Next</strong> button. 

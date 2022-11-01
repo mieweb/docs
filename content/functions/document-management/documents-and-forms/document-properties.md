@@ -6,15 +6,15 @@ version: 52
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'link-documents-to-order-requests.md'
-  - 'adding-a-subject-to-documents.md'
-  - '../../injury-care/case-management/viewing-cases.md'
-  - 'link-documents-to-encounters.md'
-  - 'link-documents-to-other-documents.md'
-  - '../../e-chart/alerts,-errors,-failures-interactive-tab.md'
-  - 'delete-move-lock-documents.md'
+  - 'gdoc:1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o'
+  - 'gdoc:1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
+  - 'gdoc:1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
+  - 'gdoc:1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc'
+  - 'gdoc:1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
+  - 'gdoc:121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
+  - 'gdoc:1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
 source: 'https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Document Properties'
@@ -42,7 +42,7 @@ The following explains the various fields available in the document properties. 
 **Author**: This field indicates the user credited as authoring the document.  
 **Type**: The Type field specifies the document type. The drop-down choices are filtered based upon the available chart types designated for the chart in context.  
 **Location**: The Location field indicates the service location where the document was authored. The available drop menu includes *internal* locations, by default. By updating the System Setting (i.e., "E-Chart", "Documents", "Show Outside Locations"), the drop-down can be configured to show external, or *outside* locations, as well.  
-**Link to Orders**: This field is visible when on the *Edit Properties* screen. The field is an autocomplete, and when an order number is selected, this indicates a pending, incomplete order request is linked, or associated with the document. Using this field to link a pending order with a document will mark the pending, incomplete order as Complete, when the properties are saved. This functionality is also available when using the Add Document quick link. If a link needs to be removed, use the *Orders Linked to Document* section of the *Edit Properties* page. See [Link Document to Order](link-documents-to-order-requests.md) documentation for additional information and details.
+**Link to Orders**: This field is visible when on the *Edit Properties* screen. The field is an autocomplete, and when an order number is selected, this indicates a pending, incomplete order request is linked, or associated with the document. Using this field to link a pending order with a document will mark the pending, incomplete order as Complete, when the properties are saved. This functionality is also available when using the Add Document quick link. If a link needs to be removed, use the *Orders Linked to Document* section of the *Edit Properties* page. See [Link Document to Order](gdoc:1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o) documentation for additional information and details.
   
 ![](../document-properties.assets/10000201000005020000013FC9313EDF08FD7B01.png)  
 
@@ -53,8 +53,8 @@ The following explains the various fields available in the document properties. 
   
 ![](../document-properties.assets/10000201000004A8000000EABBCB251E20EEAA54.png)  
 
-**Subject**: The ability to add a subject to a document is a feature that is enabled by default. This field is designed for free-texted subjects, intended to assist with providing context on and searchability of multitudinous documents. To add a subject, simply click the **Add** link in the *Subject* field of the document properties. After free-texting the subject, click the **Save** button. Subjects cannot be added/edited for email documents, because email subjects are created when the email reminder is triggered from system modules. For more details, review the [Adding a Subject to Documents](adding-a-subject-to-documents.md) documentation.  
-**Case**: Like linking a document to an order, {{% system-name %}} allows users to link cases/incidents to documents, as needed. When on the *Edit Properties* screen, an autocomplete field is available for linking a case/incident to the document in context. If the document is linked to a case/incident, it will display the date and time, as well as the case number the document is linked to. Using the down arrow (↓) in the *Case* field will display all of the existing cases within the chart in context. Link to, or edit which case the document is linked to, by selecting the appropriate one from those available. Check out more information about [Viewing Cases](../../injury-care/case-management/viewing-cases.md), if interested.
+**Subject**: The ability to add a subject to a document is a feature that is enabled by default. This field is designed for free-texted subjects, intended to assist with providing context on and searchability of multitudinous documents. To add a subject, simply click the **Add** link in the *Subject* field of the document properties. After free-texting the subject, click the **Save** button. Subjects cannot be added/edited for email documents, because email subjects are created when the email reminder is triggered from system modules. For more details, review the [Adding a Subject to Documents](gdoc:1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk) documentation.  
+**Case**: Like linking a document to an order, {{% system-name %}} allows users to link cases/incidents to documents, as needed. When on the *Edit Properties* screen, an autocomplete field is available for linking a case/incident to the document in context. If the document is linked to a case/incident, it will display the date and time, as well as the case number the document is linked to. Using the down arrow (↓) in the *Case* field will display all of the existing cases within the chart in context. Link to, or edit which case the document is linked to, by selecting the appropriate one from those available. Check out more information about [Viewing Cases](gdoc:1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds), if interested.
   
 ![](../document-properties.assets/100002010000049B0000015160BCA1E944278BC0.png)  
 
@@ -97,7 +97,7 @@ This *Encounters Linked to Document* section details all encounters linked to th
   
 ![](../document-properties.assets/10000201000004A1000000B30E2EA4FB96D63051.png)  
 
-For more information on how to link documents to encounters, check out [Link Documents to Encounters](link-documents-to-encounters.md).
+For more information on how to link documents to encounters, check out [Link Documents to Encounters](gdoc:1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc).
   
 ### Orders Linked to Document  
 
@@ -105,12 +105,12 @@ Users can review the document properties to see whether a document is linked to 
   
 ![](../document-properties.assets/10000201000004A2000000644FEFF462155335A7.png)  
 
-For more information on how to link documents to orders, check out [Link Documents to Orders](link-documents-to-order-requests.md).
+For more information on how to link documents to orders, check out [Link Documents to Orders](gdoc:1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o).
   
 ### Document Is Linked To  
 
 The *Document is Linked To* section is particularly helpful to users, because it not only shows additional items the document in context is linked to, but it also allows additional documents to be linked to other documents by simply using a **Link Type** designation. For example a radiology report can be linked to the x-ray image that is stored within the chart.
-To link a document to another document, check out [Link a Document to Another Document](link-documents-to-other-documents.md).
+To link a document to another document, check out [Link a Document to Another Document](gdoc:1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak).
   
 ![](../document-properties.assets/10000201000003AB000000658386FE44A56BDEAE.png)  
 
@@ -128,7 +128,7 @@ For example, if the document route displays an error, or it shows as pending, th
 ![](../document-properties.assets/100000000000034E0000004C669DA1C3C88FD21F.png)  
 
 If the document routed successfully, the status will display *Complete* and the only available options would be to Resend or Deactivate in the event of any transmission or communication errors.
-For more information and to set up error and alert notifications, please see our [Alerts, Errors, Failures - Interactive Tab](../../e-chart/alerts,-errors,-failures-interactive-tab.md) documentation.
+For more information and to set up error and alert notifications, please see our [Alerts, Errors, Failures - Interactive Tab](gdoc:121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc) documentation.
   
 ### Routing History for Document  
 
@@ -143,7 +143,7 @@ With the appropriate security permissions, users can view and manage document lo
   
 ![](../document-properties.assets/100002010000031A0000006DE7FE4FB0B342EFCD.png)  
 
-For more information, see the [Delete/Move/Lock Documents](delete-move-lock-documents.md) documentation.
+For more information, see the [Delete/Move/Lock Documents](gdoc:1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4) documentation.
   
 ### Document Fax History  
 

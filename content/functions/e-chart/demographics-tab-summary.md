@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart'
   - 'https://system/'
-  - 'editing-demographics.md'
-  - 'insurance-summary-in-demographics-tab.md'
+  - 'gdoc:1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
+  - 'gdoc:1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 source: 'https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Demographics Tab Summary'
@@ -46,11 +46,11 @@ Following the medical header, users can utilize the remaining quick links to per
 
 {{% note %}}
 
-Users must have security permission to be able to edit demographics.  Users with the appropriate security permission will see the **Edit Demo** link.  Refer to our [Editing Patient Demographics](editing-demographics.md) help documentation for more information.
+Users must have security permission to be able to edit demographics.  Users with the appropriate security permission will see the **Edit Demo** link.  Refer to our [Editing Patient Demographics](gdoc:1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs) help documentation for more information.
 {{% /note %}}
 The demographics chart tab contains demographic information, marital/contact information, employment information, relationships information, provider information and insurance summary information. The demographics chart tab will also display the patient's photo if one exists.  This is to assist with patient identification. From here, users can click the **Add Photo** or **Retake Photo** link.  When users click the Retake Photo link, the Add Document screen will open/display, allowing users to upload a new photo using the picture-add method.
 Once the new photo is uploaded, it will replace the existing/previous photo. The existing/previous photo will be stored as a document in the patient chart. Users can scan drivers' licenses to use as patient photos, if desired.  Users will need to access the Add Document screen and select **E-Chart Scan** for the picture-add method, instead.
-The ability to edit relationships, set the chart to offline, partial or online along with adding chart comments, hide/display providers linked to the patient, add insurance, show or hide inactive insurance information is also provided in the demographics summary tab.  Please refer to [Insurance Summary-Demographics Tab](insurance-summary-in-demographics-tab.md) help documentation for more details.
+The ability to edit relationships, set the chart to offline, partial or online along with adding chart comments, hide/display providers linked to the patient, add insurance, show or hide inactive insurance information is also provided in the demographics summary tab.  Please refer to [Insurance Summary-Demographics Tab](gdoc:1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU) help documentation for more details.
 
   
 ![](../demographics-tab-summary.assets/1000020100000640000002257565D0EE3117685E.png)  

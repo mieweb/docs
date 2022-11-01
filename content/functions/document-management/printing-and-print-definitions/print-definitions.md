@@ -6,11 +6,11 @@ version: 103
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'print-chart.md'
+  - 'gdoc:10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
   - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
   - 'https://system/?f=chart&s=printdefedit&item=def&opp=add'
 source: 'https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Print Definitions'
@@ -20,7 +20,7 @@ menu:
 ---
 Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print (or fax) job. Print definitions can be accessed from either the Scheduler module or any patient chart by clicking the **Print Chart** link. Users are then given the ability to select the desired print definition and set a date range and printing options, such as printing without headers and printing one document per page. In addition, users can not only print and fax, but can send the print definition as a secure email, or even create a batch so that the print definition can be printed or faxed at a later time.
 
-The following information covers how to create and restrict print definitions, as well as how to configure and customize them. For more information on how to use print definitions, see the [Print Chart](print-chart.md) online help documentation.
+The following information covers how to create and restrict print definitions, as well as how to configure and customize them. For more information on how to use print definitions, see the [Print Chart](gdoc:10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8) online help documentation.
 
   
 ## Create a Print Definition   

@@ -6,18 +6,18 @@ version: 22
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'case-management-csv-api.md'
-  - 'accommodations-csv-api.md'
-  - 'conditions-csv-api.md'
-  - 'nature-of-injury-csv-api.md'
-  - 'data-import-overview.md'
+  - 'gdoc:1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'
+  - 'gdoc:1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
+  - 'gdoc:1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4'
+  - 'gdoc:1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU'
+  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
   - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=1771472836%7CThe'
-  - 'data-import-standards.md'
+  - 'gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=700124604&single=true&output=csv'
-  - 'data-import-master-list.md'
-  - 'clinical-encounter-csv-api.md'
+  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'gdoc:1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk'
 source: 'https://drive.google.com/open?id=1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Restrictions CSV API'
@@ -25,13 +25,13 @@ menu:
     parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
     weight: 5100
 ---
-The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for restrictions** using the [Case Management CSV API](case-management-csv-api.md).  
+The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for restrictions** using the [Case Management CSV API](gdoc:1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM).  
 The following CSV APIs import information used to build a case:
 * Encounters/Incidents
 * <strong>Restrictions Case Management CSV API</strong>
-* [Accommodations Case Management CSV API](accommodations-csv-api.md)
-* [Conditions Case Management CSV API](conditions-csv-api.md)
-* [Nature of Injury Case Management CSV API](nature-of-injury-csv-api.md)
+* [Accommodations Case Management CSV API](gdoc:1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc)
+* [Conditions Case Management CSV API](gdoc:1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4)
+* [Nature of Injury Case Management CSV API](gdoc:1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU)
 
   
 ### **Audience**  
@@ -51,7 +51,7 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * <strong>Lost time</strong> is the period of time that an employee (patient) is away from work due to an injury.
 * <strong>Nature of injury codes</strong> and <strong>body part codes</strong> are combined in a case to create the incident nature of injury body part ID (nibp_id) in an MIE system.
 * In occupational health, a <strong>restriction</strong> (clinical restriction) refers to an activity that an employee (patient) is not permitted to do after an injury (incident).
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
 
   
 ## **Workflow Considerations**  
@@ -80,7 +80,7 @@ Additionally, [user instructions](#gjdgxs) are available for importing data in
   
 ### **Column Definitions and Specific Coded Values**  
   
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M) page.
 
   
 ### **Field Requirements**  
@@ -110,9 +110,9 @@ The required IDs listed here serve to correctly identify the patient and link to
   
 ## **Related Pages**  
 
-* [Data Import Master List](data-import-master-list.md)
-* [Case Management CSV API](case-management-csv-api.md)
-* [Clinical Encounter CSV API](clinical-encounter-csv-api.md)
-* [Accommodations CSV API](accommodations-csv-api.md)
-* [Conditions CSV API](conditions-csv-api.md)
-* [Nature of Injury CSV API](nature-of-injury-csv-api.md)
+* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Case Management CSV API](gdoc:1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM)
+* [Clinical Encounter CSV API](gdoc:1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk)
+* [Accommodations CSV API](gdoc:1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc)
+* [Conditions CSV API](gdoc:1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4)
+* [Nature of Injury CSV API](gdoc:1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU)

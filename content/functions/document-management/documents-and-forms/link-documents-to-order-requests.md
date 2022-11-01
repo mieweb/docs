@@ -6,11 +6,11 @@ version: 59
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../../order-and-result-management/orders-view-recent.md'
-  - '../scanning-and-indexing/indexing.md'
-  - 'document-properties.md'
+  - 'gdoc:1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - 'gdoc:1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 source: 'https://drive.google.com/open?id=1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Link Documents to Order Requests'
@@ -18,7 +18,7 @@ menu:
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
     weight: 540
 ---
-The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding order request. Linking a document to an order request in a chart allows users to easily view the order request, results, and corresponding linked documents, all from one place. Orders can also be managed from within an encounter, as well as when scanning and indexing documents, as will be outlined below. For information on how to view an order and manually complete and enter results for the order request, see our [Order Requests Chart Tab](../../order-and-result-management/orders-view-recent.md) documentation.
+The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding order request. Linking a document to an order request in a chart allows users to easily view the order request, results, and corresponding linked documents, all from one place. Orders can also be managed from within an encounter, as well as when scanning and indexing documents, as will be outlined below. For information on how to view an order and manually complete and enter results for the order request, see our [Order Requests Chart Tab](gdoc:1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k) documentation.
   
 ## Link via Order Requests Tab  
   
@@ -73,7 +73,7 @@ As usual, once the document is indexed and uploaded into the chart, the pending 
   
 ![](../link-documents-to-order-requests.assets/10000201000004B30000024FE3FA9A7FDF28ADBF.png)  
 
-For more details on scanning, indexing, and linking while indexing, see our [Indexing](../scanning-and-indexing/indexing.md) documentation.
+For more details on scanning, indexing, and linking while indexing, see our [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documentation.
   
 ## View Results Linked to Orders  
 
@@ -109,4 +109,4 @@ After Remove Link is clicked, the page will refresh displaying something similar
 * <strong>Remove & Mark Order Incomplete</strong>: This option removes the document link and reopens the order, resetting the status to Pending.
 * <strong>Cancel</strong>: This option cancels the request to unlink the document from the order, and retains its current status.
 Once the document is unlinked from the order, a successful message will display on the page, confirming the removal of the link.
-To see full details on how document properties can provide alternative methods for linking/unlinking documents to orders, check out our [Document Properties](document-properties.md) documentation.
+To see full details on how document properties can provide alternative methods for linking/unlinking documents to orders, check out our [Document Properties](gdoc:1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s) documentation.

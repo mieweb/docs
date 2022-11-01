@@ -6,10 +6,10 @@ version: 60
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'patient-summary-interactive-chart-tab.md'
-  - '../fax-manager/fax-manager-tab-outbound-faxing.md'
+  - 'gdoc:1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk'
+  - 'gdoc:1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 source: 'https://drive.google.com/open?id=121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Alerts, Errors, Failures - Interactive Tab'
@@ -39,7 +39,7 @@ The Alerts summary module from the Quick View tab shows a summary of each failed
   
 ![](../alerts,-errors,-failures-interactive-tab.assets/10000000000003D6000000F95911C89247F9C029.png)  
 
-If you do not see the ALERTS module in the Quick View tab, simply click Select Modules from this tab and checkmark the section named *Alerts*, then save your Quick View tab modules. The modules you have check-marked will display on your Quick View screen and you can move them around in the order you wish to display for your view. This is similar to the Interactive Patient Summary tab. (See additional help on how to move modules around, set columns and collapse these modules on your screen view in our [Interactive Summary Patient Chart Tab](patient-summary-interactive-chart-tab.md) online help documentation).
+If you do not see the ALERTS module in the Quick View tab, simply click Select Modules from this tab and checkmark the section named *Alerts*, then save your Quick View tab modules. The modules you have check-marked will display on your Quick View screen and you can move them around in the order you wish to display for your view. This is similar to the Interactive Patient Summary tab. (See additional help on how to move modules around, set columns and collapse these modules on your screen view in our [Interactive Summary Patient Chart Tab](gdoc:1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk) online help documentation).
   
 ![](../alerts,-errors,-failures-interactive-tab.assets/100000000000015500000103F2FC6D9B8FF3C855.png)  
 
@@ -79,7 +79,7 @@ The fax alerts portlet shows any failed faxes, based on your preference that ren
   
 ![](../alerts,-errors,-failures-interactive-tab.assets/100000000000038A000001DA59B5B92AECC184AA.png)  
 
-If you click the *Manage Information* icon, it will take you to the Fax Manager tab. This is where you can then see the ERROR FAX SPOOL category and listing in full and other specific options to work the failed fax. For more information on this screen and how to work failed faxes, see our [Fax Manager Tab-Outbound Faxing](../fax-manager/fax-manager-tab-outbound-faxing.md) help documentation.
+If you click the *Manage Information* icon, it will take you to the Fax Manager tab. This is where you can then see the ERROR FAX SPOOL category and listing in full and other specific options to work the failed fax. For more information on this screen and how to work failed faxes, see our [Fax Manager Tab-Outbound Faxing](gdoc:1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk) help documentation.
   
 ![](../alerts,-errors,-failures-interactive-tab.assets/100000000000037A0000019BC08A762F20AD89A8.png)  
 

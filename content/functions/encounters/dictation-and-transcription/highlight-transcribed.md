@@ -6,9 +6,9 @@ version: 47
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
+  - 'gdoc:1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 source: 'https://drive.google.com/open?id=1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Highlight Transcribed'
@@ -36,5 +36,5 @@ When done reviewing the document, continue to esign the document as needed by us
 ![](../highlight-transcribed.assets/10000201000004750000003F27A1E3E6F4DD972C.png)  
 
 
-See [Pending Esign Reviews](../../e-sign-electronic-signature/pending-e-sign-reviews.md) documentation for additional information and details on how to esign a document along with the various function links.
+See [Pending Esign Reviews](gdoc:1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I) documentation for additional information and details on how to esign a document along with the various function links.
 

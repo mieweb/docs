@@ -5,10 +5,10 @@ date: '2020-05-11T12:19:36.982Z'
 version: 66
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
-  - 'https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
+  - 'gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
+  - 'gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
 source: 'https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Device Interface - Benson Audiometer'
@@ -69,8 +69,8 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
   
 ## **Related Pages**  
   
-[Devices List](../../../resources/system-specifications/interface-specifications.md)
+[Devices List](gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)
   
 ### Configuration File  
 
-* File: [Stxextract](https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[ ](https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[mie.mdb](https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)
+* File: [Stxextract](gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[ ](gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[mie.mdb](gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)

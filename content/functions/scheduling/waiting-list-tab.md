@@ -6,9 +6,9 @@ version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'cancel-no-show-edit-appointments.md'
+  - 'gdoc:1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
 source: 'https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Waiting List Tab'
@@ -92,7 +92,7 @@ Scroll down to the very bottom and there is a field named *Cancel*. Select a can
 
 {{% tip %}}
 
-If the reason is not in this drop-down choice you can add Cancellation Code Reason if you have security role permission. See other help documentation titled [COPY-EDIT-DELETE-CANCEL-NO SHOW APPOINTMENTS](cancel-no-show-edit-appointments.md).
+If the reason is not in this drop-down choice you can add Cancellation Code Reason if you have security role permission. See other help documentation titled [COPY-EDIT-DELETE-CANCEL-NO SHOW APPOINTMENTS](gdoc:1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous).
 {{% /tip %}}
 Click SAVE button. It will automatically take the patient off the waiting list by cancelling the appointment.
   

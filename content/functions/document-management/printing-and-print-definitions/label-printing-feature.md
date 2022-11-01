@@ -6,9 +6,9 @@ version: 64
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../../order-and-result-management/e-orders-chart-tab.md'
+  - 'gdoc:1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 source: 'https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Label Printing Feature'
@@ -107,4 +107,4 @@ At the end of the encounter view, a section is available for listing all encount
   
 ![](../label-printing-feature.assets/100002010000035600000066A4D38F3C2DABB6CE.png)  
 
-For more information, please review the [Order Requests Chart Tab](../../order-and-result-management/e-orders-chart-tab.md) documentation.
+For more information, please review the [Order Requests Chart Tab](gdoc:1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o) documentation.

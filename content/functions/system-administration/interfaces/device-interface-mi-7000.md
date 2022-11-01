@@ -6,9 +6,9 @@ version: 24
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - 'gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 source: 'https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Device Interface - MI 7000'
@@ -75,4 +75,4 @@ To correctly install and use the audiometer with EH the following considerations
   
 ## **Related Pages**  
   
-For a list of all supported devices see the [Devices List](../../../resources/system-specifications/interface-specifications.md)
+For a list of all supported devices see the [Devices List](gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)

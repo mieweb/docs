@@ -7,11 +7,11 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html#quick-add'
-  - 'https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ'
-  - '../../portal-management/linking-users-for-portal-access.md'
+  - 'gdoc:1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ'
+  - 'gdoc:1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'User/Provider & Department Management'
@@ -121,7 +121,7 @@ This field must be set for any Referring Physician being added to the  {{% syst
 {{% /note %}}
 
 **Electronic Prescriber**
-These fields are intended for physicians or users legally allowed to prescribe medications. Refer to [E-Prescribe Management](https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) before making any selections.
+These fields are intended for physicians or users legally allowed to prescribe medications. Refer to [E-Prescribe Management](gdoc:1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) before making any selections.
 **Meaningful Use**
 This field notes the Meaningful Use status of the user. Upon adding a new user, this field will show the status as **Inactive**. To opt-in for Meaningful Use reporting and incentives from CMS, refer to the Meaningful Use Documentation.
 **Title**
@@ -242,7 +242,7 @@ Depending on security permissions, when navigating the **Edit User** page, two
 * <strong>Customize User Security</strong>
 * <strong>Edit Patients Linked to User</strong>
 **Customize User Security** is used to change security options and role permissions for the user in context, *only*. Modifying a user's Security Role, here, will not impact the Security Role, as it is used by the organization. Review the Security Role Documentation, for further instructions on this feature and its uses.
-**Edit Patients Linked to User** is most often used with regard to Portal management and use. For further instructions on how to use this feature, review the [Linking Users portal documentation](../../portal-management/linking-users-for-portal-access.md).
+**Edit Patients Linked to User** is most often used with regard to Portal management and use. For further instructions on how to use this feature, review the [Linking Users portal documentation](gdoc:1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8).
 {{% /info %}}
 
 1. After all modifications have been made, click <strong>Submit Edit</strong> at the bottom of the page.
@@ -258,13 +258,13 @@ When a user is *deleted*, it is not deleted permanently. The user is marked as�
 3. When a user is deleted, a warning displays, confirming deletion. Click <strong>Yes</strong> to confirm and complete.
 
 {{% note %}}
-If a prescriber is being deleted, see [E-Prescribe Management](https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) documentation for the correct steps on how to disable.
+If a prescriber is being deleted, see [E-Prescribe Management](gdoc:1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) documentation for the correct steps on how to disable.
 {{% /note %}}
 
   
 #### Create Provider  
 
-Creating a provider or physician follows the same steps as adding a user; however, if the provider/physician intends to prescribe medication, review the required fields and necessary information for SureScripts verification in the [E-Prescribe Management](https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) documentation, or the **Set Up E-Prescriber** section, specifically.
+Creating a provider or physician follows the same steps as adding a user; however, if the provider/physician intends to prescribe medication, review the required fields and necessary information for SureScripts verification in the [E-Prescribe Management](gdoc:1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) documentation, or the **Set Up E-Prescriber** section, specifically.
 **Add a Referring Physician User**
 Just as if adding a user or provider, adding a referring physician requires the same two-step process:
 1. Verify the user is a not already built in the system.

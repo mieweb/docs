@@ -6,9 +6,9 @@ version: 31
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'installing-mie-device-app.md'
+  - 'gdoc:1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 source: 'https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Device Interface - Titmus V4'
@@ -19,7 +19,7 @@ menu:
 This page provides instructions for interfacing the Titmus V4 Vision Screener with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.   
 {{% note %}}
 
-Be sure to install the required applications for optimal functionality. The device interface uses the [MIE Device App](installing-mie-device-app.md) to communicate with {{% system-name %}} .
+Be sure to install the required applications for optimal functionality. The device interface uses the [MIE Device App](gdoc:1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE) to communicate with {{% system-name %}} .
 {{% /note %}}
   
 ## **Setup & Installation**  
@@ -51,7 +51,7 @@ The Titmus V4 Screener device interface uses the Titmus Software, which will nee
 
 
 
-6. Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](installing-mie-device-app.md).
+6. Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](gdoc:1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE).
 
    <img src="../device-interface-titmus-v4.assets/1000020100000272000000B2A738F13479EE77B2.png" />
 

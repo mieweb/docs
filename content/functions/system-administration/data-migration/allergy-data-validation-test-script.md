@@ -6,14 +6,14 @@ version: 29
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../../e-chart/basic-initial-system-information.md'
-  - '../../e-chart/detailed-searching-in-e-chart.md'
-  - 'https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw'
+  - 'gdoc:1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
+  - 'gdoc:1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
+  - 'gdoc:1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw'
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
-  - 'https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
-  - '../../reports/using-datavis-grids-data-tools.md'
+  - 'gdoc:1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
+  - 'gdoc:1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Allergy Data Validation Test Script'
@@ -108,7 +108,7 @@ Options include:
 
 {{% tip %}}
    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](gdoc:1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8) or [Detailed Searching in E-Chart](gdoc:1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY).)
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
@@ -122,15 +122,15 @@ Options include:
 
 
 
-3. Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
-   1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
+3. Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](gdoc:1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
+   1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](gdoc:1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
    2. Contact {{% system-name %}} with the findings.
   
 ## Reports  
 
 The **Allergy Report** and **Allergy Report - DV** can both be particularly helpful in validating data between systems.
 **Allergy Report:** A columnar list of allergies and/or intolerances, based on specific criteria entered. For data validation efforts, it may be helpful to use this report to compare to the legacy system versus bringing up each chart, individually.
-**Allergy Report - DV:** Lists allergies and/or intolerances with built-in DataVis (DV) tools, such as filtering, column selection, and the ability to save report perspectives. For more information, see the [DataVis](../../reports/using-datavis-grids-data-tools.md) online help documentation.
+**Allergy Report - DV:** Lists allergies and/or intolerances with built-in DataVis (DV) tools, such as filtering, column selection, and the ability to save report perspectives. For more information, see the [DataVis](gdoc:1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY) online help documentation.
 To access and utilize these reports:
 1. Navigate to the  {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}}  sidemenu.
 2. Select the  {{% syslink "Medications/Allergies/Scripts" "f=layout&module=reports&name=MedsAllergiesScripts&tabmodule=reports&tabmodule=reports&t=Medications%2FAllergies%2FScripts&tabselect=Medications%2FAllergies%2FScripts" %}}  report list.

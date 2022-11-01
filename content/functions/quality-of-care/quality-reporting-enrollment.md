@@ -6,10 +6,10 @@ version: 106
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'measures.md'
-  - '../reports/using-datavis-grids-data-tools.md'
+  - 'gdoc:1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
+  - 'gdoc:1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 source: 'https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Quality Reporting Enrollment'
@@ -19,7 +19,7 @@ menu:
 ---
 In order to better serve client needs, {{% system-name %}} has streamlined the concepts and efforts of quality reporting participation, in order to serve all interested entities. If, as a standard, a business would like to track ongoing quality of care initiatives, or even participate in sponsored quality programs, {{% system-name %}} systems now offer a plethora of quantifiable and reportable measures, designed to track and improve overall care delivery.
 
-The following information is intended to walk users through the basic enrollment process, which will in turn allow for ongoing tracking of relevant care-specific data, processes, and outcomes. For detailed specifications regarding the available measures, please feel free to navigate to our [Measures Specifications](measures.md) documentation.
+The following information is intended to walk users through the basic enrollment process, which will in turn allow for ongoing tracking of relevant care-specific data, processes, and outcomes. For detailed specifications regarding the available measures, please feel free to navigate to our [Measures Specifications](gdoc:1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ) documentation.
   
 ## Enroll via Quality Reporting Portlet  
 
@@ -52,7 +52,7 @@ The following information is intended to walk users through the basic enrollment
 5. Next, from the <strong>Available Measures</strong> table, select <strong>all measures needing to be tracked</strong>, specific to the relevant program(s) opted into by the enrolled provider(s). Filter the columns, as needed. 
    <img src="../quality-reporting-enrollment.assets/10000201000004BE00000298241BF625923C2998.png" />
 {{% info %}}
-   For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](../reports/using-datavis-grids-data-tools.md) help documentation.
+   For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](gdoc:1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY) help documentation.
 {{% /info %}}
   
 {{% warning %}}  

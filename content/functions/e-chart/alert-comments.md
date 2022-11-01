@@ -8,11 +8,11 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtview&dtsopp=dt_val&doc_type=WCALERT'
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - '../document-management/documents-and-forms/text-documents.md'
-  - '../document-management/documents-and-forms/document-properties.md'
-  - '../document-management/documents-and-forms/delete-move-lock-documents.md'
+  - 'gdoc:1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
+  - 'gdoc:1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
+  - 'gdoc:1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
 source: 'https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Alert Comments'
@@ -39,7 +39,7 @@ If there is more than one alert comment in a patient's chart, they will be shown
 
 
 To add an alert comment, go to **Add Document** from the patient's chart and filter by **Text**.  
-Select **Alert Comment**.  (For more information, see our [Text Documents](../document-management/documents-and-forms/text-documents.md) online help.)
+Select **Alert Comment**.  (For more information, see our [Text Documents](gdoc:1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc) online help.)
 
   
 ![](../alert-comments.assets/100002010000039A000001438C8F8B5F6EC0F765.png)  
@@ -79,7 +79,7 @@ From there, with the proper security permissions, the user will be able to selec
 ![](../alert-comments.assets/10000201000005550000009DDA1B84614ACD3D09.png)  
 
 
- See additional information in our [Document Properties](../document-management/documents-and-forms/document-properties.md) and [Delete-Move-Lock Documents](../document-management/documents-and-forms/delete-move-lock-documents.md) online help content.  
+ See additional information in our [Document Properties](gdoc:1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s) and [Delete-Move-Lock Documents](gdoc:1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4) online help content.  
 {{% tip %}}
 
 The system setting E-Chart, Defaults, Alert Comment Cutoff can be set with a numerical value.  The number set here as the value will be the number of characters an alert comment will cut off within the Warnings & Alerts portlet of the Patient Summary chart tab.  This system setting does not affect or cut any alert text off the patient header where alerts show or the sidechart feature.

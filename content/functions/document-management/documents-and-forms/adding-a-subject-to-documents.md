@@ -6,9 +6,9 @@ version: 37
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../../reports/documents-report-super-document-type-search.md'
+  - 'gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 source: 'https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Adding a Subject to Documents'
@@ -54,7 +54,7 @@ A Subject column will display in any List View system-wide, if the System Settin
   
 ![](../adding-a-subject-to-documents.assets/10000201000004F7000001E8023A4C2FFCBB43FA.png)  
 
-There is also a means to search the system by subject criteria using the Document Search feature. Please see the additional help documentation [Documents Report-Super DocSearch](../../reports/documents-report-super-document-type-search.md).  
+There is also a means to search the system by subject criteria using the Document Search feature. Please see the additional help documentation [Documents Report-Super DocSearch](gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0).  
 {{% info %}}
 
 The Subject field of any stored *email* documents cannot be added or edited, because the subject is taken from the email's original subject. The subject is created when the email reminders are triggered from the {{% system-name %}} modules.

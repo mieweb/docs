@@ -8,17 +8,17 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/'
   - 'https://system'
-  - 'quick-view-sidemenu.md'
+  - 'gdoc:1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
   - 'https://system/?f=layout&module=Warnings&name=AlertsPage&tabmodule=none'
   - 'https://system/?f=admin&t=faxman'
-  - '../fax-manager/fax-manager-tab-outbound-faxing.md'
+  - 'gdoc:1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
   - 'https://system/?m=admin&t=printman&tabmodule=admin&tabselect=Print+Mgr'
-  - '../system-administration/system-controls/print-manager.md'
+  - 'gdoc:1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
   - 'https://system/?m'
   - 'https://system/?func=dicom&dcfunc=queue'
-  - '../document-management/imaging/dicom-setup-tab.md'
+  - 'gdoc:1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
 source: 'https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Quick View - Alerts Portlet'
@@ -39,7 +39,7 @@ The **Alerts** portlet of the [Quick View](https://system/) shows a summary of e
   
 ![](../quick-view-alerts-portlet.assets/100002010000052E000001604CF50B0D0734CD93.png)  
 
-If you do not see the Alerts portlet in the Quick View tab, simply click the **Select Portlets** and select the **Alerts** portlet, then save. The selected portlets will display on the Quick View screen ,and you can move them around in the order you wish them to display.  Refer to other [Quick View Sidemenu](quick-view-sidemenu.md) help guide for more information regarding the {{% system-name %}} Quick View.
+If you do not see the Alerts portlet in the Quick View tab, simply click the **Select Portlets** and select the **Alerts** portlet, then save. The selected portlets will display on the Quick View screen ,and you can move them around in the order you wish them to display.  Refer to other [Quick View Sidemenu](gdoc:1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY) help guide for more information regarding the {{% system-name %}} Quick View.
   
 ![](../quick-view-alerts-portlet.assets/10000201000001DD0000008A67B840C273528C64.png)  
 
@@ -96,7 +96,7 @@ The **Fax Alerts** portlet shows any failed faxes for the logged in user, or sys
   
 ![](../quick-view-alerts-portlet.assets/100002010000032A0000017BD887B270B146D81D.png)  
 
-Clicking the [Manage Information](https://system/?f=admin&t=faxman) icon will take you to the **Fax Manager** tab of the sidemenu. This is where usres can see the **Error Fax Spool**, with the specific details of the failed fax jobs and all the specific options available for working failed faxes.  For more information on this screen and how to work failed faxes, reference the [Fax Manager Tab](../fax-manager/fax-manager-tab-outbound-faxing.md) documentation.
+Clicking the [Manage Information](https://system/?f=admin&t=faxman) icon will take you to the **Fax Manager** tab of the sidemenu. This is where usres can see the **Error Fax Spool**, with the specific details of the failed fax jobs and all the specific options available for working failed faxes.  For more information on this screen and how to work failed faxes, reference the [Fax Manager Tab](gdoc:1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk) documentation.
   
 ![](../quick-view-alerts-portlet.assets/100002010000037A0000019B85A278602624314D.png)  
 
@@ -112,7 +112,7 @@ The **Print Alerts** portlet shows failed print jobs for the logged-in user or s
  ![](../quick-view-alerts-portlet.assets/100002010000048400000105D2666B86445F5858.png)  
 
 
-Clicking the [Manage Information](https://system/?m=admin&t=printman&tabmodule=admin&tabselect=Print+Mgr) icon will take you to the **Print Manager** tab of the sidemenu. This is where users can see the **Error Print Spool**, with specific details of the failed print jobs, along with the option to delete the failed print jobs, as needed. When viewing a specific print job from the Job ID, users can reprint so that a view of what was to print will be generated. For more information on this screen and how to work failed print jobs, reference the [Print Manager](../system-administration/system-controls/print-manager.md) documentation.
+Clicking the [Manage Information](https://system/?m=admin&t=printman&tabmodule=admin&tabselect=Print+Mgr) icon will take you to the **Print Manager** tab of the sidemenu. This is where users can see the **Error Print Spool**, with specific details of the failed print jobs, along with the option to delete the failed print jobs, as needed. When viewing a specific print job from the Job ID, users can reprint so that a view of what was to print will be generated. For more information on this screen and how to work failed print jobs, reference the [Print Manager](gdoc:1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0) documentation.
   
 ![](../quick-view-alerts-portlet.assets/10000201000004420000019DA378122F546DDA86.png)  
 
@@ -127,7 +127,7 @@ The **DICOM Alerts** portlet shows failed DICOM jobs for the logged-in user or s
   
 ![](../quick-view-alerts-portlet.assets/100002010000048400000105CDB72443B11367FA.png)  
 
-Clicking the [Manage Information](https://system/?func=dicom&dcfunc=queue) icon will take you to the **DICOM Setup** tab. This is where users can see the **Failed** category, with specific details of the failed DICOM jobs and their respective **Request ID**s. For more information on this screen and how to work failed DICOM jobs, reference the [Dicom Setup Tab](../document-management/imaging/dicom-setup-tab.md) documentation.
+Clicking the [Manage Information](https://system/?func=dicom&dcfunc=queue) icon will take you to the **DICOM Setup** tab. This is where users can see the **Failed** category, with specific details of the failed DICOM jobs and their respective **Request ID**s. For more information on this screen and how to work failed DICOM jobs, reference the [Dicom Setup Tab](gdoc:1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg) documentation.
   
 ![](../quick-view-alerts-portlet.assets/1000020100000400000001BE4FC6602DC649C039.png)  
 

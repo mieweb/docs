@@ -7,18 +7,18 @@ lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing'
-  - 'https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU'
+  - 'gdoc:1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU'
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
-  - 'telehealth-pricing.md'
+  - 'gdoc:1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.  
   
 ## About   
 
 * Video [demo](https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing)
-* [Press release](https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
+* [Press release](gdoc:1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
   
 ### Features  
 
@@ -91,7 +91,7 @@ wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 ![](../introducing-telehealth.assets/10000201000003AE0000023380350CD1C9F6F514.png)  
 
 **What does it cost?**
-* See [Telehealth Pricing](telehealth-pricing.md)
+* See [Telehealth Pricing](gdoc:1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM)
 **Are there minimum commitments?**
 * No
 **Can I cancel at any time?**

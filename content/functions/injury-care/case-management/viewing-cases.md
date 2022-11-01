@@ -6,11 +6,11 @@ version: 47
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../../system-configuration/side-chart-configuration.md'
-  - 'deleting-an-existing-case.md'
-  - 'closing-an-existing-case.md'
+  - 'gdoc:1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
+  - 'gdoc:1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
+  - 'gdoc:1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
 source: 'https://drive.google.com/open?id=1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Viewing Cases'
@@ -50,7 +50,7 @@ Open existing cases on a chart will be displayed on the side chart feature.  To
 ![](../viewing-cases.assets/1000020100000162000001D6E8C032903B402397.png)  
 
 
-Refer to [Side Chart Configuration](../../system-configuration/side-chart-configuration.md) documentation for more detailed help regarding the side chart feature.
+Refer to [Side Chart Configuration](gdoc:1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng) documentation for more detailed help regarding the side chart feature.
   
 ## **Case Chart Tab**  
   
@@ -90,7 +90,7 @@ From this listing of current, previous incidents; in the options column you can 
   
 ### **Delete**  
 
-To delete a Case you can do it while working in an encounter or from the Case chart tab via the Delete hyperlink. Only users with security permission can delete cases from charts.  Refer to [Deleting an Existing Case](deleting-an-existing-case.md) help documentation for more detail.
+To delete a Case you can do it while working in an encounter or from the Case chart tab via the Delete hyperlink. Only users with security permission can delete cases from charts.  Refer to [Deleting an Existing Case](gdoc:1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk) help documentation for more detail.
 
   
 ![](../viewing-cases.assets/100002010000047E0000009B376D26D7DB40E9DF.png)  
@@ -126,7 +126,7 @@ Case details appear in the grey encounter info bar area if your current encounte
 
 A case (incident) would be closed if the case is entirely completed and considered closed by your work comp carrier or TPA.  If you have a bidirectional interface to your carrier, they may send a flag in the message that automatically closes the case on the {{% system-name %}} side if a carrier is involved in that case type.  Otherwise, it is a manual process.
 Closing a case is separate/different than closing & archiving an encounter.  A Case can be open for weeks to months to years.  It's the one case/incident that multiple documents and encounters may be linked to.
-To close a Case, you can do it while working in an encounter or from the Case chart tab via the Close hyperlink found in the options column.  Please refer to [Closing an Existing Case](closing-an-existing-case.md) help documentation for detail.
+To close a Case, you can do it while working in an encounter or from the Case chart tab via the Close hyperlink found in the options column.  Please refer to [Closing an Existing Case](gdoc:1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw) help documentation for detail.
 
   
 ![](../viewing-cases.assets/100002010000047E0000009B8D28EC8C0F390418.png)  

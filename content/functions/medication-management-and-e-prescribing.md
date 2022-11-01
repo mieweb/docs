@@ -6,9 +6,9 @@ version: 32
 lastAuthor: 'Gavin Roudebush'
 mimeType: 'text/x-markdown'
 links:
-  - 'system-administration/system-controls/setting-up-e-prescribers.md'
+  - 'gdoc:12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
 source: 'https://drive.google.com/open?id=1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Medication Management & E-Prescribing'
@@ -27,7 +27,7 @@ The {{% system-name %}} solution provides a sophisticated yet easy-to-use medica
 {{% children %}}
 
 
-Note: In order to use E-Prescribing you must [set up a prescriber first](system-administration/system-controls/setting-up-e-prescribers.md). 
+Note: In order to use E-Prescribing you must [set up a prescriber first](gdoc:12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw). 
 
 
 

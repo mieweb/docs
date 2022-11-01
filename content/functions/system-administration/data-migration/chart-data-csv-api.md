@@ -6,20 +6,20 @@ version: 77
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'data-import-overview.md'
+  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
   - 'https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface'
   - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0'
-  - 'data-import-standards.md'
-  - 'chart-medical-record-number-mrn-import-options.md'
-  - 'chart-observations-import-options.md'
+  - 'gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
+  - 'gdoc:1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
+  - 'gdoc:179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
   - 'https://miewiki.med-web.com/wiki/index.php/Chart_Observations_Default_Values'
   - 'https://www.lucidchart.com/documents/view/8b1c6c06-6b16-40a0-afe7-a576d804854d'
   - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/pubhtml'
   - 'https://miewiki.med-web.com/wiki/index.php/Troubleshooting_APIs'
   - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
-  - 'data-import-master-list.md'
+  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Chart Data CSV API'
@@ -41,7 +41,7 @@ The Chart Data CSV API is used to import data related to patients or charts. It 
 * A <strong>user</strong> is an individual who uses an Enterprise Health system as part of their job.
 * <strong>Partitions</strong> organize groups of charts. Partitions are often used to restrict which charts a user can access.
 
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.  
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.  
 This API may also be used to set up relationships between charts. It is part of MIE's standard [Human Resources Interface](https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface), but it may also be used for single imports of new charts or updates to charts.
 
   
@@ -57,7 +57,7 @@ Additionally, [user instructions](#gjdgxs) are available for importing data in
   
 ### **Column Definitions and Specific Coded Values**  
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M) page.
   
 ### **Field Definitions by Table**  
 
@@ -78,7 +78,7 @@ A Medical Record Number (MRN) is a unique identifier of the patient. A MRN is re
 
 A partition is a means of organizing groups of charts. Partitions are often used to restrict which charts a user can access. This column identifies the partition the medical record appears in (ex: hospital). The value of this field will be the MRN in the partition defined by the column name.
 The field @patient_mrns. is required for a demographics import.
-[Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.md) can be used to modify how patient mrns are processed as the file is loaded.
+[Chart MRNumber Import Options](gdoc:1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E) can be used to modify how patient mrns are processed as the file is loaded.
   
 #### **patient_admin**  
 
@@ -102,7 +102,7 @@ Both of the following fields are needed to link the observation to a patient enc
 * encounter interface
 
 Including the field encounter order_id will also create an encounter order.
-[Chart Observations Import Options](chart-observations-import-options.md) can be used to modify how observations are processed as the file is loaded.
+[Chart Observations Import Options](gdoc:179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A) can be used to modify how observations are processed as the file is loaded.
 
 [Chart Observations Default Values](https://miewiki.med-web.com/wiki/index.php/Chart_Observations_Default_Values) can be used to simplify the import file.
   
@@ -138,4 +138,4 @@ See [Troubleshooting APIs](https://miewiki.med-web.com/wiki/index.php/Troublesh
   
 ## **Related Pages**  
 
-* [Data Import Master List](data-import-master-list.md)
+* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)

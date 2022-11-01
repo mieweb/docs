@@ -6,10 +6,10 @@ version: 57
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
-  - 'https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
+  - 'gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
+  - 'gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
 source: 'https://drive.google.com/open?id=1-zMW9ExOCYDHLPw9kwKqj79QuTJjxXOFU-gHPGw6o_Y'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
 This page provides instructions for retrieving results from the Benson software with {{% system-name %}} , and lists the fields that the interface retrieves.
   
@@ -64,8 +64,8 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
   
 ## **Related Pages**  
   
-[Devices List](../../../resources/system-specifications/interface-specifications.md)
+[Devices List](gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)
   
 ### Configuration File  
 
-* File: [Stxextract](https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[ ](https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[mie.mdb](https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)
+* File: [Stxextract](gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[ ](gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)[mie.mdb](gdoc:1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ)

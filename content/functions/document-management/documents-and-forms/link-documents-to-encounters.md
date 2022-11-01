@@ -6,10 +6,10 @@ version: 78
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../scanning-and-indexing/indexing.md'
-  - '../../document-management.md'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - 'gdoc:1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
 source: 'https://drive.google.com/open?id=1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Link Documents to Encounters'
@@ -92,11 +92,11 @@ If the exact encounter ID is known, users may begin typing to autocomplete the a
 
 To search further out than 3 days, simply click the **Search Within x Days** link within the *Select Encounter* window. This will search additional 3-day increments, until the necessary encounter ID is found.
 {{% /tip %}}
-For more details on scanning, indexing, and linking while indexing, see our [Indexing](../scanning-and-indexing/indexing.md) documentation.
+For more details on scanning, indexing, and linking while indexing, see our [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documentation.
   
 ### Link from Add Document  
 
-Using the **Add Document** link provides users the ability to open or create new documents in a chart. This function also allows users to specify an encounter to link to the new document, if necessary. For additional information on how to add documents, link documents, or access pre-configured or pre-templated documents, check out our documentation on [Document Management](../../document-management.md).
+Using the **Add Document** link provides users the ability to open or create new documents in a chart. This function also allows users to specify an encounter to link to the new document, if necessary. For additional information on how to add documents, link documents, or access pre-configured or pre-templated documents, check out our documentation on [Document Management](gdoc:1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ).
 First, to begin adding a new document for linking an encounter to, click the **Add Document** link, while in the appropriate chart.
   
 ![](../link-documents-to-encounters.assets/10000201000004A50000015AE34E9EA73E78C754.png)  

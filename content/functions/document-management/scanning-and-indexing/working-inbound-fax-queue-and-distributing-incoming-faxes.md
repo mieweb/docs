@@ -6,11 +6,11 @@ version: 86
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'indexing.md'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
   - 'mailto:noreplywebchart@med-web.com'
   - 'mailto:helpdesk@mieweb.com'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
@@ -114,7 +114,7 @@ If you click **Create Batch & Index** all those faxes/files you check-marked wil
 
 {{% info %}}
 
-If you need instructions on how to index batches in WebScan, please see the [Indexing](indexing.md) help documentation.
+If you need instructions on how to index batches in WebScan, please see the [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) help documentation.
 {{% /info %}}
 * <strong>Delete:</strong> When you have determined that this faxed document or file needs to be deleted out of the queue, it doesn't to be emailed to anyone, doesn't to be indexed into a patient's chart, etc. simply mark the file/fax you wish to delete, then click the "delete" button at the top and it will delete the files you have marked to (in options column).
   

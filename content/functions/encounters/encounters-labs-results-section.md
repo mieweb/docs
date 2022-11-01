@@ -6,9 +6,9 @@ version: 64
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../order-and-result-management/observations-tab.md'
+  - 'gdoc:13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
 source: 'https://drive.google.com/open?id=14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Encounters Labs Results Section'
@@ -74,4 +74,4 @@ Once you are in the edit mode, you can remove the fields you don't want shown in
   
 ![](../encounters-labs-results-section.assets/10000201000004C3000001D89CDAC6A5A9DE8373.png)  
 
-See separate help documentation named [Observations Tab](../order-and-result-management/observations-tab.md), page 11 for more specific detail on how to edit flowsheets and ordering.
+See separate help documentation named [Observations Tab](gdoc:13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw), page 11 for more specific detail on how to edit flowsheets and ordering.

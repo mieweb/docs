@@ -6,9 +6,9 @@ version: 30
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'tests-and-procedures-section-applying-adding,-completing,-resulting.md'
+  - 'gdoc:1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
 source: 'https://drive.google.com/open?id=1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Tests & Procedures Section - Remove, Delete, Edit'
@@ -16,7 +16,7 @@ menu:
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
     weight: 1480
 ---
-Before learning how to edit or delete or remove Tests or Procedures from an encounter visit, please see other help documentation [Tests & Procedures-Adding and Applying](tests-and-procedures-section-applying-adding,-completing,-resulting.md) so you are familiar with the Tests & Procedures section (pending Due List items) of the encounter and how procedures are displayed there and/or manually added to an encounter visit.
+Before learning how to edit or delete or remove Tests or Procedures from an encounter visit, please see other help documentation [Tests & Procedures-Adding and Applying](gdoc:1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA) so you are familiar with the Tests & Procedures section (pending Due List items) of the encounter and how procedures are displayed there and/or manually added to an encounter visit.
   
 ## Remove  
   

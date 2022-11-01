@@ -6,10 +6,10 @@ version: 32
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../document-management/scanning-and-indexing.md'
+  - 'gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10'
 source: 'https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 131 - Diabetes: Eye Exam'
@@ -130,7 +130,7 @@ CMS131v10 (2022)
       3. Click the Next button, or close the section
    * <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
 
-      1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
+      1. Using [WebScan](gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w), scan and index the appropriate document type configured with the necessary LOINC.
   
 ## Evidence  
 

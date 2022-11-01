@@ -6,14 +6,14 @@ version: 40
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../scanning-and-indexing/indexing-bubble-forms.md'
-  - '../scanning-and-indexing/indexing.md'
-  - '../imaging/dicom-setup-tab.md'
-  - '../imaging/dicom-viewer.md'
-  - '../imaging/burning-dicom-images-onto-cd-dvd.md'
+  - 'gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - 'gdoc:1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
+  - 'gdoc:1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'
+  - 'gdoc:1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'X-Ray Results Data Entry'
@@ -29,7 +29,7 @@ Bubble forms also work well added to Print Definitions, particularly for provide
   
 There is a standard x-ray results bubble form that is available in the {{% system-name %}} system. This bubble form collects x-ray result data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discretely, in the appropriate chart.
 
-To access and utilize a bubble form for recording information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../scanning-and-indexing/indexing.md) documentation.
+To access and utilize a bubble form for recording information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c) and [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documentation.
 1. While in the appropriate chart, access and print the x-ray results bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
   
@@ -66,7 +66,7 @@ Alternatively, the x-ray order may be selected using the **Picklist** icon, by s
   
 ### Import Data From Device  
 
-Though not the typical type of device interface, the {{% system-name %}} solution offers users the ability to establish open connections with DICOM application entities. This means Digital Imaging and Communications in Medicine (DICOM) can be handled, stored, printed, and transmitted/exchanged quickly and easily. For more information, check out our documentation on the [DICOM Setup Tab](../imaging/dicom-setup-tab.md), [DICOM Viewer](../imaging/dicom-viewer.md), and [Burning DICOM Images to Disc](../imaging/burning-dicom-images-onto-cd-dvd.md).
+Though not the typical type of device interface, the {{% system-name %}} solution offers users the ability to establish open connections with DICOM application entities. This means Digital Imaging and Communications in Medicine (DICOM) can be handled, stored, printed, and transmitted/exchanged quickly and easily. For more information, check out our documentation on the [DICOM Setup Tab](gdoc:1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg), [DICOM Viewer](gdoc:1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0), and [Burning DICOM Images to Disc](gdoc:1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw).
   
 ## Reporting  
 

@@ -6,11 +6,11 @@ version: 242
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links:
-  - 'observations-tab.md'
-  - 'observation-codes-editor.md'
-  - 'observation-code-merging.md'
+  - 'gdoc:13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
+  - 'gdoc:1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
+  - 'gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Flowsheets Editor'
@@ -18,7 +18,7 @@ menu:
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
     weight: 1990
 ---
-The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](observations-tab.md) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](observation-codes-editor.md) and [Observation Code Merging](observation-code-merging.md) documentation.
+The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](gdoc:13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](gdoc:1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU) and [Observation Code Merging](gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c) documentation.
   
 ## Overview  
 

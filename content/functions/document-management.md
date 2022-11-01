@@ -6,12 +6,12 @@ version: 30
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'document-management/documents-and-forms.md'
-  - 'document-management/scanning-and-indexing.md'
-  - 'document-management/printing-and-print-definitions.md'
-  - 'document-management/imaging.md'
+  - 'gdoc:1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
+  - 'gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
+  - 'gdoc:1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY'
+  - 'gdoc:1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U'
 source: 'https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Document Management'
@@ -33,12 +33,12 @@ Document Management is an essential component of the {{% system-name %}} EHR por
 
 {{% column width="50" %}}
 
-[**Documents & Forms**](document-management/documents-and-forms.md):
+[**Documents & Forms**](gdoc:1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI):
 {{% system-name %}} comes preloaded with various document types (e.g., Forms, Word, Sketch, Text, etc.). Clients will want to review all preloaded items of the Forms Library, in order to determine which forms will not be needed. Any items not being utilized from the Forms Library can easily be inactivated.
 {{% /column %}}
 {{% column width="50" %}}
 
-[**Scanning & Indexing**](document-management/scanning-and-indexing.md):
+[**Scanning & Indexing**](gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w):
 WebScan offers unsurpassed scanning and indexing flexibility for any practice or medical records department. Transitioning from a paper-based system to an electronic system is easier with this high-speed scanning tool.
 {{% /column %}}
 {{% /section %}}
@@ -47,12 +47,12 @@ WebScan offers unsurpassed scanning and indexing flexibility for any practice or
 
 {{% column width="50" %}}
 
-[**Printing & Print Definitions**](document-management/printing-and-print-definitions.md):
+[**Printing & Print Definitions**](gdoc:1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY):
 Users can not only print individual documents, but they can also print groups of documents, or definitions. Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print or fax job. These jobs can also be sent as a secure email, or even created as a batch, so that the print definition(s) can be printed or faxed, at a later time.
 {{% /column %}}
 {{% column width="50" %}}
 
-[**Imaging**](document-management/imaging.md):
+[**Imaging**](gdoc:1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U):
 The ability to access diagnostic radiological images from anywhere has become an absolute necessity. Teleradiology has expanded the virtual workplace into remote locations such as the physician's home, or even vacation locations. {{% system-name %}} allows clinicians easy access to view and manipulate DICOM images within the web browser, from anywhere, without the need to install a client application.
 {{% /column %}}
 {{% /section %}}

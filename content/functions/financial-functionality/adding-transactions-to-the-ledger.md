@@ -6,11 +6,11 @@ version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'accessing-the-ledger.md'
+  - 'gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew'
 source: 'https://drive.google.com/open?id=1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-1. [Access the ledger](accessing-the-ledger.md).
+1. [Access the ledger](gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew).
 2. Select <strong>Add Transaction</strong> button. The <em>Add Transaction</em>  
     window appears.<img src="../adding-transactions-to-the-ledger.assets/1000000000000403000002088B90198DDC55D26D.png" />  
 

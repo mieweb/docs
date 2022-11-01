@@ -6,12 +6,12 @@ version: 46
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'data-import-tab.md'
-  - '../../health-surveillance/health-surveillance-panels-add-memberships-manually.md'
+  - 'gdoc:1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
+  - 'gdoc:1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
   - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Panel Membership Import Tool'
@@ -19,13 +19,13 @@ menu:
     parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
     weight: 4840
 ---
-This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.md) help documentation for more information regarding its many uses.
+This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](gdoc:1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y) help documentation for more information regarding its many uses.
 
 The Panel Membership Import Tool uses partitions and medical record numbers (MRNs) to match patients' panel information to their charts. Therefore, work with your MIE Implementer, as needed, to import panel memberships, so that all data and columns are captured correctly, before importing via this tool.
 
 {{% warning %}}
 
-Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.md); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
+Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](gdoc:1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
   
 ![](../panel-membership-import-tool.assets/10000201000004CE000000EC29DF5F2EE52CA60C.png)  
 

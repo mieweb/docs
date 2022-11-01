@@ -1,9 +1,9 @@
 ---
 id: '1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
 title: 'Real World Testing Plan 2023'
-date: '2022-10-27T16:17:16.263Z'
-version: 352
-lastAuthor: 'Dave Carlson'
+date: '2022-10-31T17:14:23.248Z'
+version: 423
+lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -34,7 +34,7 @@ links:
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
 source: 'https://drive.google.com/open?id=1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
 # General Information  
 
@@ -55,11 +55,11 @@ wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 </tr>
 <tr>
 <td><strong>Version Number(s)</strong></td>
-<td>8.4</td>
+<td>8.4*</td>
 </tr>
 <tr>
 <td><strong>Certified Health IT Product List ID(s)</strong></td>
-<td>15.04.04.1932.WebC.74.00.0.181219</td>
+<td>TBD*</td>
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
@@ -72,6 +72,7 @@ wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 
 </table>
 
+* WebChart EHR v7.4 is currently certified on the CHPL with ID: 15.04.04.1932.WebC.74.00.0.181219.  MIE will be completing Cures Update certification of WebChart EHR v8.4 on 11/03/2022 at which time v7.4 will be withdrawn and we expect a new ID will be issued.  Once the new CHPL listing is available for 8.4, this plan will be updated accordingly.
   
 # Certification Criteria to be Tested  
 
@@ -493,35 +494,35 @@ wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
 <tr>
 <td><a href="https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure">§170.315(g)(10): Standardized API for patient and population services</a></td>
 <td>(g)(10)(i) - Data response: USCDI v1 + US Core STU v3.1.1</td>
-<td></td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(ii) - Supported search operations</td>
-<td></td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(iii) - Application registration</td>
-<td></td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(iv) - Secure connection</td>
-<td></td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(v)(A) - Authentication and authorization for patient and user scopes: SMART 1.0.0</td>
-<td></td>
+<td>29, 30</td>
 </tr>
 <tr>
 <td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
-<td></td>
+<td>29, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(vi) - Patient authorization revocation</td>
-<td></td>
+<td>29, 30</td>
 </tr>
 <tr>
 <td>(g)(10)(vii) - Token introspection</td>
-<td></td>
+<td>30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(vii) - Documentation</td>
@@ -586,7 +587,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 </tr>
 <tr>
 <td><strong>Health IT Module CHPL ID</strong></td>
-<td>15.04.04.1932.WebC.74.00.0.181219</td>
+<td>TBD</td>
 </tr>
 <tr>
 <td><strong>Method used for standard update</strong></td>
@@ -603,6 +604,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 
 </table>
 
+* WebChart EHR v7.4 is currently certified on the CHPL with ID: 15.04.04.1932.WebC.74.00.0.181219.  MIE will be completing Cures Update certification of WebChart EHR v8.4 on 11/03/2022 at which time v7.4 will be withdrawn and we expect a new ID will be issued.  Once the new CHPL listing is available for 8.4, this plan will be updated accordingly.
   
 ## USCDI SVAP - Planned  
 
@@ -1982,12 +1984,12 @@ From discussions with others around the industry who interact with large usage o
 Applicable care settings, choose from: Primary care, specialties, pediatrics, small, large
 
   
-## Measure XX: Title  
+## Measure 29: Sandbox Testing  
 
   
 ### Description  
   
-Overview of the measure
+This measure will use the Inferno Test suite to validate all types of secure connections and search operations supported by the FHIR API within a publicly available production sandbox system.
   
 ### Associated Certification Criteria  
 
@@ -1998,15 +2000,87 @@ Overview of the measure
 <td><strong>Requirement(s)</strong></td>
 </tr>
 <tr>
-<td>Criteria from matrix</td>
-<td>Requirement from matrix</td>
+<td><a href="https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure">§170.315(g)(10): Standardized API for patient and population services</a></td>
+<td>(g)(10)(i) - Data response: USCDI v1 + US Core STU v3.1.1</td>
+</tr>
+<tr>
+<td>(g)(10)(ii) - Supported search operations</td>
+</tr>
+<tr>
+<td>(g)(10)(iii) - Application registration</td>
+</tr>
+<tr>
+<td>(g)(10)(iv) - Secure connection</td>
+</tr>
+<tr>
+<td>(g)(10)(v)(A) - Authentication and authorization for patient and user scopes: SMART 1.0.0</td>
+</tr>
+<tr>
+<td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
+</tr>
+<tr>
+<td>(g)(10)(vi) - Patient authorization revocation</td>
 </tr>
 
 </table>
   
 ### Justification  
   
-Justification of the measure and test methods
+WebChart EHR's FHIR API is still newly available to clients and has no adoption as of writing this plan.  Therefore to cover testing prior to live clients actively using the API, a publicly available production sandbox will be tested using Inferno.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available, at which time, Measures 30 and 31 will provide a more complete view of the production FHIR capabilities.
+  
+### Test Methodology  
+  
+MIE will run nightly automated testing on the public FHIR R4 sandbox system using Inferno, and using log files stored in a QA database, MIE will report the success rate of the full (g)(10) test suite.  Any errors will be tracked, reported, and addressed.
+  
+### Expected Outcome(s)  
+  
+It is expected that test failures will be rare and that the automated tests will pass successfully in a minimum of 95% of nightly runs.  Any failures are expected to be due to a failure in the testing infrastructure rather than in the functionality of the API. 
+  
+### Care Setting(s)  
+  
+Primary care, specialties, pediatrics, small, large
+
+  
+## Measure 30: FHIR Patient Scope  
+
+  
+### Description  
+  
+This measure will review WebChart EHR's ability to connect to an app within a patient scope and provide the user with the requested data.
+  
+### Associated Certification Criteria  
+
+
+<table>
+<tr>
+<td><strong>Certification Criteria</strong></td>
+<td><strong>Requirement(s)</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure">§170.315(g)(10): Standardized API for patient and population services</a></td>
+<td>(g)(10)(i) - Data response: USCDI v1 + US Core STU v3.1.1</td>
+</tr>
+<tr>
+<td>(g)(10)(ii) - Supported search operations</td>
+</tr>
+<tr>
+<td>(g)(10)(iii) - Application registration</td>
+</tr>
+<tr>
+<td>(g)(10)(iv) - Secure connection</td>
+</tr>
+<tr>
+<td>(g)(10)(v)(A) - Authentication and authorization for patient and user scopes: SMART 1.0.0</td>
+</tr>
+<tr>
+<td>(g)(10)(vi) - Patient authorization revocation</td>
+</tr>
+
+</table>
+  
+### Justification  
+  
+WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
   
 ### Test Methodology  
   
@@ -2018,7 +2092,58 @@ Expected outcomes
   
 ### Care Setting(s)  
   
-Applicable care settings, choose from: Primary care, specialties, pediatrics, small, large
+Primary care, specialties, pediatrics, small, large
+
+  
+## Measure 31: FHIR EHR Provider Scope  
+
+  
+### Description  
+  
+This measure will review WebChart EHR's ability to connect to an app within an EHR provider scope and provide the user with the requested data.
+  
+### Associated Certification Criteria  
+
+
+<table>
+<tr>
+<td><strong>Certification Criteria</strong></td>
+<td><strong>Requirement(s)</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure">§170.315(g)(10): Standardized API for patient and population services</a></td>
+<td>(g)(10)(i) - Data response: USCDI v1 + US Core STU v3.1.1</td>
+</tr>
+<tr>
+<td>(g)(10)(ii) - Supported search operations</td>
+</tr>
+<tr>
+<td>(g)(10)(iii) - Application registration</td>
+</tr>
+<tr>
+<td>(g)(10)(iv) - Secure connection</td>
+</tr>
+<tr>
+<td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
+</tr>
+
+</table>
+  
+### Justification  
+  
+WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a clinician app recommended to our clients.  As clients continue adoption of the FHIR API, real clinician use of the clinician app will be reported. 
+  
+### Test Methodology  
+  
+Test methods
+  
+### Expected Outcome(s)  
+  
+Expected outcomes
+  
+### Care Setting(s)  
+  
+Primary care, specialties, pediatrics, small, large
 
 
   

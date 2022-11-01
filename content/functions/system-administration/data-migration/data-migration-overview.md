@@ -6,16 +6,16 @@ version: 41
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'data-migration-file-format-standard.md'
+  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
   - 'http://www.mysql.com/products/workbench/migrate/'
   - 'https://csvkit.readthedocs.io/'
   - 'https://docs.google.com/a/mieweb.com/document/d/1Gi7Fv7P9de_CoRfDoZT85hrg89PAk65zQKGyBjS-DLQ/edit?usp=sharing'
   - 'https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries'
-  - 'data-import-master-list.md'
+  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion'
-  - 'mie-file-import.md'
+  - 'gdoc:1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
 source: 'https://drive.google.com/open?id=1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Data Migration Overview'
@@ -35,7 +35,7 @@ The client should weigh the cost of users or clinicians manually adding discrete
   
 #### **Data Acquisition and Analysis**  
 
-The client must provide a backup or snapshot of their legacy database (DB). Including a mysqldump database backup is ideal. MS Access Database files, CSV, or other delimited text (UTF-8) backup files are also acceptable. Text files of legacy data must follow MIE's [data requirements](data-migration-file-format-standard.md) for formatting.
+The client must provide a backup or snapshot of their legacy database (DB). Including a mysqldump database backup is ideal. MS Access Database files, CSV, or other delimited text (UTF-8) backup files are also acceptable. Text files of legacy data must follow MIE's [data requirements](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg) for formatting.
 {{% note %}}
 
 Data acquisition must be completed correctly and must be repeatable for "final dress rehearsal" testing and at go-live. Timing is critical for the go-live process, as we have found that both clients and {{% system-name %}} are typically trying to expedite the export, acquisition, conversion, and validation of the legacy data to determine a "go" or "no-go" for the conversion.
@@ -180,8 +180,8 @@ See [Medgate Conversion Queries](https://confluence.mieweb.com/display/DOCS10/M
   
 ### **Related Pages**  
 
-* [Data Import Master List](data-import-master-list.md)
-* [Data Requirements](data-migration-file-format-standard.md)
+* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Requirements](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)
 * [WebChart Conversion](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion)
-* [WebChart Filesystem Import](mie-file-import.md)
+* [WebChart Filesystem Import](gdoc:1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY)
 * [Medgate Conversion Queries](https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries)

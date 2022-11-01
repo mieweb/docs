@@ -6,9 +6,9 @@ version: 44
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'word-documents-cc-physicians-feature.md'
+  - 'gdoc:1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'File Documents'
@@ -64,6 +64,6 @@ If the user has a current encounter set in the chart, the **Encounter** field 
 
 **Link to Orders:** Like linking to encounters, file documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders to link the file document to, and once the file is uploaded, the order will automatically be marked as Complete status.
 **Case:** Use this field to link a file document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
-**CC** (**Physicians**)**:** Using this field allows users to attach any relevant clinicians/physicians as being carbon copied, immediately faxing or routing the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md).
+**CC** (**Physicians**)**:** Using this field allows users to attach any relevant clinicians/physicians as being carbon copied, immediately faxing or routing the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in [Word Documents - CC Physicians Feature](gdoc:1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ).
 **File:** The *Browse/Choose File* button allows users to browse to their local hard drive to select the file document for upload.
 After the file is selected, click the **Add Document** button. The page will refresh and display a confirmation message that the document was uploaded successfully, along with visibility to the uploaded document.

@@ -9,9 +9,9 @@ links:
   - 'https://system/'
   - 'https://system/?f=orders&s=list_editor&t=List+Editor&tabmodule=admin&tabselect=Orders-List+Editor'
   - 'https://system/?func=scheduler&s=wait_list'
-  - '../scheduling/waiting-list-tab.md'
+  - 'gdoc:17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 source: 'https://drive.google.com/open?id=10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Quick View - Due List Portlet'
@@ -107,5 +107,5 @@ The Due List grid will display a hyperlink to access the waitlist module.  Clic
 ![](../quick-view-due-list-portlet.assets/100002010000049C000001A27A7F210DD0FEB269.png)  
 
 
-Upon clicking [Go To The Waitlist](https://system/?func=scheduler&s=wait_list), you will be taken to the Waitlist module within the **Scheduler**. This is a list of all waitlist appointments in the system. There are filter criteria at the top, to limit search results, if needed. A waitlist appointment can be scheduled with a specific resource, date, time, location, etc. by clicking **Edit** next to the specific waitlist appointment line item.  Please refer to other help documentation named [Waiting List Tab](../scheduling/waiting-list-tab.md) for more information.
+Upon clicking [Go To The Waitlist](https://system/?func=scheduler&s=wait_list), you will be taken to the Waitlist module within the **Scheduler**. This is a list of all waitlist appointments in the system. There are filter criteria at the top, to limit search results, if needed. A waitlist appointment can be scheduled with a specific resource, date, time, location, etc. by clicking **Edit** next to the specific waitlist appointment line item.  Please refer to other help documentation named [Waiting List Tab](gdoc:17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM) for more information.
 

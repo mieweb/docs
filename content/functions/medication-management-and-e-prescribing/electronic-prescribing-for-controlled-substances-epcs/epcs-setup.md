@@ -10,27 +10,27 @@ links:
   - 'https://www.healthit.gov/topic/certification-ehrs/about-onc-health-it-certification-program'
   - 'https://www.cms.gov/regulations-and-guidance/legislation/ehrincentiveprograms/certification.html'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#105'
-  - 'identrust-certificate-registration-step-by-step.md'
+  - 'gdoc:1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
   - 'https://www.identrust.com/partners/mie-medical-informatics-engineering'
   - 'https://www.identrust.com/contact'
   - 'https://www.identrust.com/support/faq/25'
-  - 'https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0'
-  - '../../system-administration/system-controls/user-provider-and-department-management.md'
-  - '../prescribing-adding-medications.md'
-  - '../../medication-management-and-e-prescribing.md'
-  - '../edit-change-medications.md'
-  - '../e-refills-e-scripts-tab.md'
-  - '../e-refills-all-e-refills-tab.md'
-  - '../refill-all.md'
-  - '../e-refills-my-e-rx-errors-tab.md'
-  - '../e-refills-my-pending-refills-tab.md'
-  - 'prescriber-responsibilities-and-transmission-requirements.md'
+  - 'gdoc:1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0'
+  - 'gdoc:1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
+  - 'gdoc:1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
+  - 'gdoc:1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
+  - 'gdoc:1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
+  - 'gdoc:1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
+  - 'gdoc:1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
+  - 'gdoc:10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA'
+  - 'gdoc:14D4jugRUV60ZlpKzbFhIJtsqz_dnwy15jlyn66sUvxM'
+  - 'gdoc:1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
+  - 'gdoc:1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
   - 'https://www.deadiversion.usdoj.gov/Inside.html#contact_us'
-  - '../print-fax-transmit-prescriptions.md'
-  - '../../reports/e-meds-report.md'
-  - '../../system-administration/system-controls/view-user-audit-log.md'
+  - 'gdoc:1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
+  - 'gdoc:1fNg0sAfSa--FDnU7IhltWryuzjmLbiqj7K7tEymrRSA'
+  - 'gdoc:1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
 source: 'https://drive.google.com/open?id=1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'EPCS Setup'
@@ -56,7 +56,7 @@ In addition, {{% system-name %}} is EPCS certified — ensuring e-prescribing of
 
 
 Before you begin
-Physicians who wish to electronically prescribe controlled medications must first obtain the required level of identity proofing and digital certificate token, used for digitally signing and transmitting controlled substances. Before EPCS can be set up within {{% system-name %}} , the following must be completed through IdenTrust, our partner and certification authority (CA) that is cross certified with the Federal Bridge Certification Authority and operates at a Federal Bridge Certification Authority basic assurance level or above ([1311.105](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#105)(a)(2)). For detailed instructions and guidance on the registration and certification process, see our [IdenTrust Registration & Certification Help Guide](identrust-certificate-registration-step-by-step.md):
+Physicians who wish to electronically prescribe controlled medications must first obtain the required level of identity proofing and digital certificate token, used for digitally signing and transmitting controlled substances. Before EPCS can be set up within {{% system-name %}} , the following must be completed through IdenTrust, our partner and certification authority (CA) that is cross certified with the Federal Bridge Certification Authority and operates at a Federal Bridge Certification Authority basic assurance level or above ([1311.105](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#105)(a)(2)). For detailed instructions and guidance on the registration and certification process, see our [IdenTrust Registration & Certification Help Guide](gdoc:1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY):
 * Begin the IdenTrust certification selection process by navigating to our customized [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering). Review the information and click the <strong>Buy Now</strong> button to initiate the Certification Selection Wizard. Purchase the IdenTrust Global Common (IGC) USB Token. Create the two (2) required passwords (through the [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering)):
    * Account password
    * Token passcode
@@ -102,13 +102,13 @@ Similarly, before being able to fully utilize the prescription application, the 
   
 ### EPCS Setup  
 
-In order to be able to electronically prescribe from the {{% system-name %}} system, MIE must first [enroll and verify providers through SureScripts](https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0). To complete the verification process, ensure the prescribing user is created within the {{% system-name %}} system by performing the following:
+In order to be able to electronically prescribe from the {{% system-name %}} system, MIE must first [enroll and verify providers through SureScripts](gdoc:1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0). To complete the verification process, ensure the prescribing user is created within the {{% system-name %}} system by performing the following:
 1. Navigate to the <strong>Access Control</strong> menu of the Control Panel.
 2. Search for and find the prescribing clinician needing e-prescribing privileges.
 3. Simply click the <strong>Edit</strong> link in the <em>Options</em> column.
 
 {{% tip %}}  
-If the prescribing clinician is new to {{% system-name %}} , click the **Add User** link, to add the user/provider to the {{% system-name %}} solution. See [User/Provider & Department Management](../../system-administration/system-controls/user-provider-and-department-management.md) for more information on adding users/providers.  
+If the prescribing clinician is new to {{% system-name %}} , click the **Add User** link, to add the user/provider to the {{% system-name %}} solution. See [User/Provider & Department Management](gdoc:1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk) for more information on adding users/providers.  
 {{% /tip %}}
 
 4. Ensure these required fields are completed and up-to-date for SureScripts' verification:
@@ -175,7 +175,7 @@ Even though providers are capable of electronically prescribing controlled subst
 ![](../epcs-setup.assets/1000020100000191000000A34C6904ED1C56B923.png)  
 
 {{% /tip %}}
-For more detailed information on how to add and prescribe medications, see our [Prescribing/Adding Medications](../prescribing-adding-medications.md) help documentation.
+For more detailed information on how to add and prescribe medications, see our [Prescribing/Adding Medications](gdoc:1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI) help documentation.
   
 ### Marking Prescriptions **_Ready to Sign_**/Digitally Signing Prescriptions  
 
@@ -200,7 +200,7 @@ Authorized EPCS prescribers are not authorized to use their tokens to sign a pre
 ![](../epcs-setup.assets/10000201000001D4000000CCF4F7473191D498B5.png)  
 
 {{% /warning %}}
-For more information on e-prescribing, see our [Medication Management & E-Prescribing](../../medication-management-and-e-prescribing.md) help documentation.
+For more information on e-prescribing, see our [Medication Management & E-Prescribing](gdoc:1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA) help documentation.
   
 #### Batching Unsigned Prescriptions  
 
@@ -222,7 +222,7 @@ Batching prescriptions is available; however, batching can only be preformed for
 ### Prescription Modifications  
 
 Editing or correcting a prescription AFTER a prescription has been signed (but before transmission) clears the Ready to Sign indication. **This will require the prescriber to digitally sign the prescription, again**.
-For more detailed information editing medications, see our [Edit/Change Medications](../edit-change-medications.md) help documentation.
+For more detailed information editing medications, see our [Edit/Change Medications](gdoc:1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk) help documentation.
   
 ### EPCS Refill Requests  
 
@@ -240,7 +240,7 @@ Approving any of the following EPCS refill requests will require the indication 
   
 ![](../epcs-setup.assets/100002010000017E000001424C360BAB216A936F.png)  
 
-For more information on managing refill requests, see our documentation on the [E-Scripts tab](../e-refills-e-scripts-tab.md), [All E-Refills tab](../e-refills-all-e-refills-tab.md), [Refill All](../refill-all.md), [My E-Rx Errors tab](../e-refills-my-e-rx-errors-tab.md), and [My Pending Refills tab](../e-refills-my-pending-refills-tab.md).
+For more information on managing refill requests, see our documentation on the [E-Scripts tab](gdoc:1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc), [All E-Refills tab](gdoc:1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE), [Refill All](gdoc:10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA), [My E-Rx Errors tab](gdoc:14D4jugRUV60ZlpKzbFhIJtsqz_dnwy15jlyn66sUvxM), and [My Pending Refills tab](gdoc:1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k).
   
 ### Printing Controlled Substances  
 
@@ -261,7 +261,7 @@ In the event of a failed electronic transmission of a controlled prescription, {
 
 {{% info %}}
 
-Remember to review the [Practitioner Responsibilities](prescriber-responsibilities-and-transmission-requirements.md) for unsuccessfully delivered electronic prescriptions.
+Remember to review the [Practitioner Responsibilities](gdoc:1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg) for unsuccessfully delivered electronic prescriptions.
 {{% /info %}}
   
 ## Disabling a Token  
@@ -286,10 +286,10 @@ The practitioner's EPCS privileges will need to be disabled by the Designated Ad
 There are four reports that are of particular interest when managing and auditing EPCS usage in the {{% system-name %}} system:
 **E-Meds Report**
 * This report will assist the Administrator in auditing all medications printed, faxed, or electronically transmitted. 
-* For more information, refer to our [Print/Fax/Transmit Prescriptions](../print-fax-transmit-prescriptions.md) and [E-Meds Report](../../reports/e-meds-report.md) help documentation. 
+* For more information, refer to our [Print/Fax/Transmit Prescriptions](gdoc:1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc) and [E-Meds Report](gdoc:1fNg0sAfSa--FDnU7IhltWryuzjmLbiqj7K7tEymrRSA) help documentation. 
 **Audit Event Log**
 * All EPCS-related activity displays under <strong>EPCS Event Description</strong>.
-* For more information, refer to our [View User Audit Log](../../system-administration/system-controls/view-user-audit-log.md) help documentation.
+* For more information, refer to our [View User Audit Log](gdoc:1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo) help documentation.
 **EPCS Incident System Report**
 * Client is responsible to review the EPCS Incident Report on a daily basis. Clients are responsible to report unauthorized incidents to MIE, IdenTrust, and the DEA, within 1 business day.
 * This report is designed to assist the Administrator in auditing any <em>unscheduled</em> EPCS activity.

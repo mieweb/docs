@@ -6,12 +6,12 @@ version: 41
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'data-import-overview.md'
+  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
   - 'https://docs.google.com/spreadsheets/d/1ouZFU3lVQWSrvR1G3J9d7YLz-S3S0whUEEC_bIOrIHY/edit#gid=0'
-  - 'data-import-standards.md'
-  - 'data-import-master-list.md'
+  - 'gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
+  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 source: 'https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Observation Codes CSV API'
@@ -28,7 +28,7 @@ The abstract that follows should be presented to decision-makers or stakeholders
 ### **Abstract**  
   
 The Observation Codes CSV API imports the details that comprise how observations are classified in the system.  
-CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
   
 #### **Screenshots**  
   
@@ -62,7 +62,7 @@ Additionally, user instructions are available for importing data into the {{% 
   
 ### **Column Definitions and Specific Coded Values**  
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M) page.
   
 ### **Field Requirements**  
 
@@ -91,4 +91,4 @@ Example using sample data is provided on [Example tab in the specification.](ht
   
 ## **Related Pages**  
 
-* [Data Import Master List](data-import-master-list.md)
+* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)

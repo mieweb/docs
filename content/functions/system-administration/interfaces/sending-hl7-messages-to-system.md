@@ -6,12 +6,12 @@ version: 130
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'hl7-restful.md'
-  - 'sample-hl7-messages.md'
-  - 'hl7-segment-definitions.md'
+  - 'gdoc:1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
+  - 'gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
+  - 'gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/hl7-segment-definitions.html'
 source: 'https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Sending HL7 Messages to System'
@@ -61,7 +61,7 @@ When the HL7 Interface processes an inbound message, it sends back an acknowledg
 #### **HL7 RESTful POST**  
 
 It is possible to send HL7 messages over a restful web service post using HTTPS. It is recommended to use a multi-part/form POST content type to properly encode the variables and the message itself. The webservice requires specific variables to exist within the POST, included are unique login credentials provided at the start of the interface project.
-[HL7 - RESTful](hl7-restful.md)
+[HL7 - RESTful](gdoc:1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg)
   
 #### **HL7 Standard Acknowledgments**  
 
@@ -77,49 +77,49 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
   
 ### **Scheduling (SIU)**  
 
-* [SIU^S12](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [SCH](hl7-segment-definitions.md) [ [PID](hl7-segment-definitions.md) ] [ [NTE](hl7-segment-definitions.md) ] [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [RGS](hl7-segment-definitions.md) ] [ [AIG](hl7-segment-definitions.md) ] [AIL](hl7-segment-definitions.md) [ [AIP](hl7-segment-definitions.md) ]
-* [SIU^S14](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [SCH](hl7-segment-definitions.md) [ [PID](hl7-segment-definitions.md) ] [ [NTE](hl7-segment-definitions.md) ] [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [RGS](hl7-segment-definitions.md) ] [ [AIG](hl7-segment-definitions.md) ] [AIL](hl7-segment-definitions.md) [ [AIP](hl7-segment-definitions.md) ]
-* [SIU^S15](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [SCH](hl7-segment-definitions.md) [ [PID](hl7-segment-definitions.md) ] [ [NTE](hl7-segment-definitions.md) ] [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [RGS](hl7-segment-definitions.md) ] [ [AIG](hl7-segment-definitions.md) ] [ [AIL](hl7-segment-definitions.md) ] [ [AIP](hl7-segment-definitions.md) ]
+* [SIU^S12](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [SCH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [NTE](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [DG1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [RGS](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [AIG](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [AIL](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [AIP](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ]
+* [SIU^S14](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [SCH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [NTE](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [DG1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [RGS](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [AIG](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [AIL](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [AIP](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ]
+* [SIU^S15](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [SCH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [NTE](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [DG1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [RGS](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [AIG](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [AIL](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [AIP](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ]
 {{% anchor sys="patient_registration" %}}
 
   
 ### Patient Registration (ADT)  
 
-* [ADT^A01](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] < [PV2](hl7-segment-definitions.md) > < [IN1](hl7-segment-definitions.md) >
-* [ADT^A04](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [GT1](hl7-segment-definitions.md) ] < [IN1](hl7-segment-definitions.md) < [IN2](hl7-segment-definitions.md) > >
-* [ADT^A08](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [GT1](hl7-segment-definitions.md) ] < [IN1](hl7-segment-definitions.md) < [IN2](hl7-segment-definitions.md) > >
-* [ADT^A40](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [EVN](hl7-segment-definitions.md) { [PID](hl7-segment-definitions.md) [ [PD1](hl7-segment-definitions.md) ] [MRG](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] }
+* [ADT^A01](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [EVN](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] < [PV2](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > < [IN1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) >
+* [ADT^A04](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [EVN](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [DG1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [GT1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] < [IN1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) < [IN2](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > >
+* [ADT^A08](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [EVN](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [DG1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [GT1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] < [IN1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) < [IN2](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > >
+* [ADT^A40](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [EVN](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) { [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PD1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [MRG](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] }
 {{% anchor sys="lab_results" %}}
 
   
 ### Lab Results (ORU)  
 
-* [ORU^R01](sample-hl7-messages.md): [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] {[ORC](hl7-segment-definitions.md) { [OBR](hl7-segment-definitions.md) { [OBX](hl7-segment-definitions.md) < [NTE](hl7-segment-definitions.md) > } }}
-* [ORU^R03](sample-hl7-messages.md): [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] {[ORC](hl7-segment-definitions.md) { [OBR](hl7-segment-definitions.md) { [OBX](hl7-segment-definitions.md) < [NTE](hl7-segment-definitions.md) > } }}
+* [ORU^R01](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg): [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] {[ORC](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) { [OBR](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) { [OBX](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) < [NTE](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > } }}
+* [ORU^R03](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg): [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] {[ORC](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) { [OBR](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) { [OBX](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) < [NTE](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > } }}
 {{% anchor sys="lab_orders" %}}
 
   
 ### Lab Orders (ORM)  
 
-* [ORM^O01](sample-hl7-messages.md): [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) <[NTE](hl7-segment-definitions.md)> [ [PV1](hl7-segment-definitions.md) ] [ [PV2](hl7-segment-definitions.md) ] <[IN1](hl7-segment-definitions.md)> [ [GT1](hl7-segment-definitions.md) ] { [ORC](hl7-segment-definitions.md) { [OBR](hl7-segment-definitions.md) <[NTE](hl7-segment-definitions.md)> <[DG1](hl7-segment-definitions.md)> <[OBX](hl7-segment-definitions.md)> } } [ [ZPA](hl7-segment-definitions.md) ] [ [ZIL](hl7-segment-definitions.md) ]
+* [ORM^O01](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg): [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) <[NTE](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)> [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [PV2](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] <[IN1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)> [ [GT1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] { [ORC](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) { [OBR](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) <[NTE](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)> <[DG1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)> <[OBX](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)> } } [ [ZPA](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [ [ZIL](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ]
   
 ### **Documents (MDM)**  
 
-* [MDM^T02](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] [TXA](hl7-segment-definitions.md) { [OBX](hl7-segment-definitions.md) }
+* [MDM^T02](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [EVN](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [TXA](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) { [OBX](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) }
 {{% anchor sys="financial_transactions" %}}
 
   
 ### Financial Transactions (DFT)  
 
-* [DFT^P03](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] <[OBX](hl7-segment-definitions.md)> { [FT1](hl7-segment-definitions.md) < [PR1](hl7-segment-definitions.md) >} < [DG1](hl7-segment-definitions.md) > [ [GT1](hl7-segment-definitions.md) ] < [IN1](hl7-segment-definitions.md) < [IN2](hl7-segment-definitions.md) > >
+* [DFT^P03](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [EVN](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [PV1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] <[OBX](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)> { [FT1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) < [PR1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) >} < [DG1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > [ [GT1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] < [IN1](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) < [IN2](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > >
   
 ### Immunizations (VXU)  
 
-* [VXU^V04](https://docs.enterprisehealth.com/functions/system-administration/interfaces/hl7-segment-definitions.html) : [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) [ORC](hl7-segment-definitions.md) [RXA](hl7-segment-definitions.md) [RXR](hl7-segment-definitions.md)
+* [VXU^V04](https://docs.enterprisehealth.com/functions/system-administration/interfaces/hl7-segment-definitions.html) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [PID](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ORC](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [RXA](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [RXR](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)
   
 ### **Acknowledgement (ACK) message**  
 
-* [ACK](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [MSA](hl7-segment-definitions.md) [ [ERR](hl7-segment-definitions.md) ] < [ZTN](hl7-segment-definitions.md) > < [ZDG](hl7-segment-definitions.md) >
+* [ACK](gdoc:1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg) : [MSH](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [MSA](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) [ [ERR](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) ] < [ZTN](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) > < [ZDG](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80) >
   
 ## **Field Definitions**  
 

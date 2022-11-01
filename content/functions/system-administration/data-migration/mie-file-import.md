@@ -6,14 +6,14 @@ version: 58
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'data-migration-file-format-standard.md'
+  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'MIE File Import'
@@ -65,7 +65,7 @@ The following characters are used to generate a CSV for data import:
 * Delimiter - In order of preference, a comma (,) or pipe (|) is acceptable.
 * Quote Character - Use a quote (") to surround fields that contain the delimiter or contain newlines.
 * Escape Character - Use a quote (") to escape a quote within quoted fields. E.g. <strong>"This quoted field ""contains"" quotes"</strong>
-See also: [Data Migration File Format Standard](data-migration-file-format-standard.md)
+See also: [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)
   
 ### Required Fields  
 
@@ -231,4 +231,4 @@ Empty files, or files with zero (0) bytes, contain no data and will automaticall
   
 ## Related Pages  
 
-* [Data Migration File Format Standard](data-migration-file-format-standard.md)
+* [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)

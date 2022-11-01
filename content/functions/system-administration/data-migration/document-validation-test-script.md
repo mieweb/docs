@@ -6,14 +6,14 @@ version: 37
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://drive.google.com/open?id=1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l'
-  - '../../e-chart/basic-initial-system-information.md'
-  - '../../e-chart/detailed-searching-in-e-chart.md'
+  - 'gdoc:1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l'
+  - 'gdoc:1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
+  - 'gdoc:1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
-  - 'https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7'
-  - '../../reports/documents-report-super-document-type-search.md'
+  - 'gdoc:1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7'
+  - 'gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 source: 'https://drive.google.com/open?id=1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Document Validation Test Script'
@@ -36,7 +36,7 @@ Validation may also be performed on imported scanned documents.
 
 The {{% system-name %}} system can display another system's data as documents. These documents typically contain data that is either not required to be discreet, or to be reported on, must be retrievable from specifically-named documents. All of these documents will be found under the **Documents** chart tab; however, document types (e.g., Legacy (or historic) Medications, Consents, Clinic Visits, Injury & Illness Cases, etc.) can be configured to display under specific chart tabs, as needed.
   
-## Validation Instructions ([**video**](https://drive.google.com/open?id=1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l))  
+## Validation Instructions ([**video**](gdoc:1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l))  
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -45,7 +45,7 @@ The {{% system-name %}} system can display another system's data as documents. T
 
 {{% tip %}}
    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+   2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](gdoc:1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8) or [Detailed Searching in E-Chart](gdoc:1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY).)
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
@@ -75,9 +75,9 @@ The {{% system-name %}} system can display another system's data as documents. T
    2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
    3. Contact {{% system-name %}} with the findings.
   
-## Reports ([**video**](https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7))  
+## Reports ([**video**](gdoc:1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7))  
 
-The [Super Document Search and Document Reports](../../reports/documents-report-super-document-type-search.md) are particularly helpful in validating documents. 
+The [Super Document Search and Document Reports](gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0) are particularly helpful in validating documents. 
   
 ### Super Document Search Report  
 
@@ -91,7 +91,7 @@ The [Super Document Search and Document Reports](../../reports/documents-report-
 
    <img src="../document-validation-test-script.assets/1000020100000543000002558E4D6EAEB0E0C340.png" />
 
-See the online help documentation for more information on the [Super Document Search](../../reports/documents-report-super-document-type-search.md).
+See the online help documentation for more information on the [Super Document Search](gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0).
   
 ### Document Reports   
 
@@ -104,7 +104,7 @@ See the online help documentation for more information on the [Super Document Se
 
    <img src="../document-validation-test-script.assets/1000020100000145000000E5D3D474E0D196AAC0.png" />  
 
-See the online help documentation for more information on using the [Documents Report](../../reports/documents-report-super-document-type-search.md).
+See the online help documentation for more information on using the [Documents Report](gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0).
   
 ## FAQs  
 

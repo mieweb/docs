@@ -9,10 +9,10 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v8&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v9&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v10&showresulttype=Measure'
-  - '../../../order-and-result-management/observation-code-merging.md'
+  - 'gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms153v10'
 source: 'https://drive.google.com/open?id=1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 153 - Chlamydia Screening for Women'
@@ -128,7 +128,7 @@ Stratum 2: Patients age 21-24</td>
 Ensure all sexually active women aged 16-24 are screened for chlamydia at least once within the measurement period. Use either the Test and Procedures section of the encounter, or enter the appropriate observation to the chart using the Observations chart tab.  
 {{% tip %}}
 
-Regardless of how the chlamydia screening observation is added to the chart, clients will need to ensure the appropriate observation is configured with the required LOINC. Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the *chlamydia* observations to determine if multiple [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
+Regardless of how the chlamydia screening observation is added to the chart, clients will need to ensure the appropriate observation is configured with the required LOINC. Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the *chlamydia* observations to determine if multiple [observations need to be merged](gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c).
 {{% /tip %}}
 1. While documenting the Visit encounter, document the results of a chlamydia screening one of two ways:
 2. <strong>Option 1: Tests and Procedures Section</strong>

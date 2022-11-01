@@ -9,9 +9,9 @@ links:
   - 'https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html'
   - 'https://pages.nist.gov/800-63-3/'
   - 'https://www.urbandictionary.com/define.php?term=leet+speak'
-  - '../system-administration/security.md'
+  - 'gdoc:15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY'
 source: 'https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Security Best Practices'
@@ -81,4 +81,4 @@ Using two (or more) methods of authentication in tandem, to verify a user's iden
 
 As mentioned earlier, an important guideline for strong passwords is to have a unique password for each application you access. In addition to using passphrases to remember login credentials, there are other tools that can help. Single sign-on (SSO) is an authentication service, for example, that allows an end user to input their login credentials once and be able to access multiple applications.
 
-{{% system-name %}} recommends that our clients use SSO with the security assertion markup language (SAML). For more information, please refer to the [Online Product Documentation](../system-administration/security.md).
+{{% system-name %}} recommends that our clients use SSO with the security assertion markup language (SAML). For more information, please refer to the [Online Product Documentation](gdoc:15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY).

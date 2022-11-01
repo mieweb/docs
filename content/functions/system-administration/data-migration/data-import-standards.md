@@ -11,9 +11,9 @@ links:
   - 'https://www.iso.org/obp/ui/#iso:code:3166:US'
   - 'http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements.htm'
   - 'http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf'
-  - 'chart-data-csv-header-options.md'
+  - 'gdoc:1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Data Import Standards'
@@ -304,7 +304,7 @@ Any errors encountered during the import display on the import page. Click the D
   
 ## **CSV Header Options**  
 
-[Chart Data CSV Header Options](chart-data-csv-header-options.md)
+[Chart Data CSV Header Options](gdoc:1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho)
 
 {{% anchor sys="data-import-user-instructions" %}}
 

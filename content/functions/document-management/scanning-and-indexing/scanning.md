@@ -8,9 +8,9 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs'
-  - 'indexing.md'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Scanning'
@@ -126,7 +126,7 @@ To save a batch for later, users may use the **Upload** button. Clicking the U
   
 ### Upload and Index a Batch  
 
-To upload and index the scanned documents, click the **Upload & Index** button. This will upload the batch and allow the user to index each document, accordingly. For detailed information on how to index scanned documents, see our [Indexing](indexing.md) online help documentation.
+To upload and index the scanned documents, click the **Upload & Index** button. This will upload the batch and allow the user to index each document, accordingly. For detailed information on how to index scanned documents, see our [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) online help documentation.
 {{% tip %}}
 
 If a user must index the documents at a later time, after clicking the Upload & Index button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan Checked-In queue for indexing later.

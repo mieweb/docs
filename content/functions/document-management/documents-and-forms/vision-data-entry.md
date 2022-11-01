@@ -6,11 +6,11 @@ version: 59
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../scanning-and-indexing/indexing-bubble-forms.md'
-  - '../scanning-and-indexing/indexing.md'
-  - 'https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
+  - 'gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - 'gdoc:112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
 source: 'https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Vision Data Entry'
@@ -26,7 +26,7 @@ Bubble forms also work well added to Print Definitions, particularly for provide
   
 There is a standard vision bubble form that is available in the {{% system-name %}} system. This bubble form collects vision data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discretely, in the appropriate chart.
 
-To access and utilize a bubble form to record information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../scanning-and-indexing/indexing.md) documentation.
+To access and utilize a bubble form to record information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c) and [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documentation.
 1. While in the appropriate chart, access and print the vision bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
   
@@ -81,7 +81,7 @@ When accessing the Test Results chart tab after adding a new vision screening, t
   
 ![](../vision-data-entry.assets/10000201000002EC000001D2B7D4CBDB9A740C4F.png)  
 
-For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs).
+For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](gdoc:112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs).
   
 ## Reporting  
 

@@ -7,14 +7,14 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
-  - 'print-definitions.md'
+  - 'gdoc:1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
   - 'https://system/?f=chart'
-  - 'printing-documents.md'
-  - '../../fax-manager/faxing-documents.md'
+  - 'gdoc:1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
+  - 'gdoc:1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g'
   - 'https://system/?func=scheduler&s=apttypes'
   - 'https://system/?func=scheduler#Now'
 source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Print Chart'
@@ -26,7 +26,7 @@ Within every chart, there are several quick links available. One of these quick 
 
 The print definitions used for the Print Chart functionality can be set up using the [Print Definition editor](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions) of the **Control Panel**. Here, users with the appropriate security permissions may define the necessary print definitions and group the various types of documents, forms, and/or chart information needed for intake workflows, scheduled appointments, specific procedures, etc. These print definitions, can then be used to reduce costs and streamline workflows and communication, all by way of reducing unnecessary printing and simplifying the processes involved with potentially necessary printing.
 
-For more information on how print definitions can be configured, see the [Print Definitions](print-definitions.md) help documentation.
+For more information on how print definitions can be configured, see the [Print Definitions](gdoc:1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok) help documentation.
   
 ## Print Chart from E-Chart   
   
@@ -84,7 +84,7 @@ When the Use WebKit system setting is enabled, printed html documents will have 
 {{% /tip %}}
 
 **Send To/Create New Batch**: The Send To section of the Print Chart dialog window allows users to choose how the selected print definition is to be handled. In other words, users may use the same dialog window to send the print definition to the printer, to the fax machine, through secure email, or if the documents being rendered are not being added to an existing batch, a new batch can be created. If an existing batch is being added to, simply select the **Add To** radio button and proceed. This will add the document(s) of the print definition into the pending batch selected. Otherwise, select the *Printer*, *Fax*, *Secure Email*, or *Create New Batch* radio button to proceed. If a new batch is needed for the print definition, for example, simply select the *Create New Batch* radio button and proceed by adding any necessary batch comment at the top of the dialog window and clicking the **Create Batch** button at the bottom. The print definition will then be housed in a batch until faxed/printed. When simply printing or faxing a print definition outside of a batch, users may skip this section and continue by clicking either the **Print** or **Fax** button, accordingly.
-For more detailed information on general faxing and printing, see our [Printing Documents](printing-documents.md) or [Faxing Documents](../../fax-manager/faxing-documents.md) help documentation.
+For more detailed information on general faxing and printing, see our [Printing Documents](gdoc:1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q) or [Faxing Documents](gdoc:1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g) help documentation.
   
 ### Print Chart from Appointments Chart Tab   
 

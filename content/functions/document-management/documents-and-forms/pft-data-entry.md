@@ -6,12 +6,12 @@ version: 46
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../scanning-and-indexing/indexing-bubble-forms.md'
-  - '../scanning-and-indexing/indexing.md'
-  - '../../system-administration/interfaces/device-interface-pft-system.md'
+  - 'gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - 'gdoc:15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'PFT Data Entry'
@@ -26,7 +26,7 @@ Bubble forms also work well added to Print Definitions, particularly for provide
 ## Bubble Form  
   
 There is a standard PFT bubble form that is available in the {{% system-name %}} system. To ease data collection, the PFT bubble form mimics the PFT electronic screen data inputs. This bubble form collects PFT data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discretely, in the appropriate chart.  
-To access and utilize a bubble form for recording information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../scanning-and-indexing/indexing.md) documentation.
+To access and utilize a bubble form for recording information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c) and [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documentation.
 1. While in the appropriate chart, access and print the PFT bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
   
@@ -90,7 +90,7 @@ Alternatively, the PFT may be selected using the **Picklist** icon by selecting 
   
 ### Import PFT Data From Device  
 
-When accessing the the Test Results chart tab after adding a new PFT, there is the ability to enter data manually, or upload results from a device if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load From Device** import button, select the appropriate file, and click **Upload File** (see other help documentation named [Device Interface – PFT System](../../system-administration/interfaces/device-interface-pft-system.md), for more information).
+When accessing the the Test Results chart tab after adding a new PFT, there is the ability to enter data manually, or upload results from a device if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load From Device** import button, select the appropriate file, and click **Upload File** (see other help documentation named [Device Interface – PFT System](gdoc:15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA), for more information).
   
 ![](../pft-data-entry.assets/1000020100000329000002E6A99782FE00A241D1.png)  
 

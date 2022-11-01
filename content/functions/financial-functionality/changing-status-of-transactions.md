@@ -6,11 +6,11 @@ version: 17
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'accessing-the-ledger.md'
+  - 'gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew'
 source: 'https://drive.google.com/open?id=1pISPoaGjFEUXJIn4L596IzcvvNexhYS3IoxcKs1hBxU'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-1. [Access the ledger](accessing-the-ledger.md).
+1. [Access the ledger](gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew).
 2. At the upper-right, select <strong>Registry View</strong>. The system displays the registry view.
 3. Above the list of transactions, select the <strong>Show All</strong> link. The system displays all transactions regardless of status.
 4. To change the status of transactions:

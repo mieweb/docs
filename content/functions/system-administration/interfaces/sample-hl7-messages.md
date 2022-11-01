@@ -6,10 +6,10 @@ version: 111
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'sending-hl7-messages-to-system.md'
-  - 'hl7-segment-definitions.md'
+  - 'gdoc:1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
+  - 'gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 source: 'https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Sample HL7 Messages'
@@ -474,5 +474,5 @@ MSA|AE|1407511|Error processing record!||
   
 # Related Pages  
 
-[Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
-[HL7 Segment Definitions](hl7-segment-definitions.md)
+[Sending HL7 Messages to System](gdoc:1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw)
+[HL7 Segment Definitions](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)

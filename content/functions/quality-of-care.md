@@ -6,11 +6,11 @@ version: 23
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'quality-of-care/quality-reporting-enrollment.md'
-  - 'quality-of-care/measures.md'
-  - '../programs/quality-reporting/brief-introduction-to-quality-reporting.md'
+  - 'gdoc:1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
+  - 'gdoc:1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
+  - 'gdoc:1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o'
 source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Quality of Care'
@@ -22,9 +22,9 @@ menu:
 
 
 
-{{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures, designed for participation in various tracking and incentive programs available, today. These measures have been developed to help with understanding and excelling at tracking and providing quality care data. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
+{{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures, designed for participation in various tracking and incentive programs available, today. These measures have been developed to help with understanding and excelling at tracking and providing quality care data. [Learn how to enroll here](gdoc:1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk)!
   
-### [**See All Measures**](quality-of-care/measures.md)  
+### [**See All Measures**](gdoc:1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ)  
 
 
 
@@ -40,7 +40,7 @@ Just the Basics
 
 
 
-[**CMS Programs**](../programs/quality-reporting/brief-introduction-to-quality-reporting.md)
+[**CMS Programs**](gdoc:1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o)
 Participants can utilize the  {{% system-name %}} system to track and report on the various health IT and healthcare standards, as laid out by the Centers for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Heath Information Technology (ONC).
 
 

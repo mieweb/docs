@@ -6,9 +6,9 @@ version: 50
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'closing-an-existing-case.md'
+  - 'gdoc:1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
 source: 'https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Deleting an Existing Case'
@@ -34,7 +34,7 @@ The dynamic encounters offer a Case section.  To see the listing of cases/incid
 
 
 When expanded, the Case section lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient. From this listing of cases, in the options column you can close a case.  
-Closing a case is different than deleting a case.  To close a case, please refer to [Cases-Closing an Existing Case](closing-an-existing-case.md) help documentation.
+Closing a case is different than deleting a case.  To close a case, please refer to [Cases-Closing an Existing Case](gdoc:1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw) help documentation.
 
   
 ![](../deleting-an-existing-case.assets/100002010000047D000000FE3696E209AB9D9768.png)  

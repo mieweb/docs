@@ -6,14 +6,14 @@ version: 69
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../scanning-and-indexing/indexing-bubble-forms.md'
-  - '../scanning-and-indexing/indexing.md'
-  - '../../system-administration/interfaces/audio-tool-tab.md'
-  - '../../system-administration/interfaces/device-interface-audio-system.md'
-  - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
+  - 'gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
+  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - 'gdoc:1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
+  - 'gdoc:1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
+  - 'gdoc:1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Audiogram Data Entry'
@@ -29,7 +29,7 @@ Bubble forms also work well added to Print Definitions, particularly for provide
   
 There is a standard audiogram bubble form that is available in the {{% system-name %}} system. This bubble form collects audiogram data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discretely, within the appropriate chart.
 
-To access and utilize a bubble form to record information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../scanning-and-indexing/indexing.md) documentation.
+To access and utilize a bubble form to record information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c) and [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documentation.
 1. While in the appropriate chart, access and print the vision bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
   
@@ -70,7 +70,7 @@ In RC201812 and newer, the Add Audiogram link has been removed in favor of using
   
 ![](../audiogram-data-entry.assets/10000201000004F500000429B0D695F181B52DC3.png)  
 
-3. Key in the audiogram data for both ears in the Active row. For more information on the other audiogram data fields, please refer to the [Audio Tool Tab](../../system-administration/interfaces/audio-tool-tab.md) documentation.
+3. Key in the audiogram data for both ears in the Active row. For more information on the other audiogram data fields, please refer to the [Audio Tool Tab](gdoc:1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk) documentation.
 4. Test Date is a required field for audiograms. The audiogram data will not save until there is a test date/time noted.
   
 ![](../audiogram-data-entry.assets/10000201000004F8000002DBC48C453EF42F4B1A.png)  
@@ -102,7 +102,7 @@ Alternatively, the audiogram may be selected using the **Picklist** icon by sele
   
 ![](../audiogram-data-entry.assets/10000201000004AA0000022EECB65DE11AF176DC.png)  
 
-For additional information on how to proceed keying in audiogram data, refer to the [Audio Tool Tab](../../system-administration/interfaces/audio-tool-tab.md) documentation.
+For additional information on how to proceed keying in audiogram data, refer to the [Audio Tool Tab](gdoc:1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk) documentation.
   
 ### Import Audio Data From Device  
 
@@ -114,7 +114,7 @@ From the Test Results Audiogram encounter, or from the applied Audiogram section
 
 The interfacing options are also available from the visit encounter, so that audiogram data can be imported from a device, directly into the visit encounter.
 {{% /info %}}
-Users may perform an audiogram in real time, via an established device interface. For more information on device interfaces and file uploads, see the help documentation [Device Interface – Audio System](../../system-administration/interfaces/device-interface-audio-system.md) and [Device Interface – Audio-Tremetrics-Maico](../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md).
+Users may perform an audiogram in real time, via an established device interface. For more information on device interfaces and file uploads, see the help documentation [Device Interface – Audio System](gdoc:1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c) and [Device Interface – Audio-Tremetrics-Maico](gdoc:1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I).
   
 ![](../audiogram-data-entry.assets/1000020100000541000004B9B570280828EDBA39.png)  
 

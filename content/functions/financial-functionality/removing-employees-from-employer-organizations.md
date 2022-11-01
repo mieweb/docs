@@ -6,12 +6,12 @@ version: 23
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'finding-employer-organizations.md'
+  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
 source: 'https://drive.google.com/open?id=1jTjf5dzqvReObpzAIGWWv94YQnJVu8EE45xUmPdU-rg'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
 Removing employees from employer organizations leaves the patient chart in the system but removes the link between the employer organization and the chart.
-1. [Find the employer organization](finding-employer-organizations.md) from which to remove an employee.
+1. [Find the employer organization](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg) from which to remove an employee.
 2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees.
 
    <img src="../removing-employees-from-employer-organizations.assets/10000000000000E0000000939AB53CC97E68DAFB.png" />  

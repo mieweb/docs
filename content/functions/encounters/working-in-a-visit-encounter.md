@@ -6,9 +6,9 @@ version: 143
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'working-in-a-legacy-encounter.md'
+  - 'gdoc:16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Working in a Visit Encounter'
@@ -16,7 +16,7 @@ menu:
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
     weight: 1460
 ---
-The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.md) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
+The separate help documentation named [Working in a Legacy Encounter](gdoc:16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
   
 ## Chart Tabs  
   

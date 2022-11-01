@@ -6,9 +6,9 @@ version: 42
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'merging-accounts-charts-in-system.md'
+  - 'gdoc:1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
 source: 'https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
-wikigdrive: 'a3f05807f0c9b9af2c79d6ec32e61b6933caadae'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Merge Manager Tab'
@@ -76,4 +76,4 @@ Then in the Patient Merge Log listing below the search criteria fields, it shows
   
 ![](../merge-manager-tab.assets/1000020100000272000000F88C4068FBCC5D2E60.png)  
 
-To merge patient accounts, please see other help documentation named [Merging Accounts-Charts](merging-accounts-charts-in-system.md)*.*
+To merge patient accounts, please see other help documentation named [Merging Accounts-Charts](gdoc:1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY)*.*
