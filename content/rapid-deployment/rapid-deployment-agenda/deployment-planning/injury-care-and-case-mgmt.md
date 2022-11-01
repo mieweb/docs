@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-injury-care.md'
   - '../../review-sessions/review-session-case-management.md'
 source: 'https://drive.google.com/open?id=1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Injury Care & Case Mgmt'
@@ -17,15 +17,15 @@ menu:
     parent: '1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
     weight: 5860
 ---
-## Purpose
-
+## Purpose  
+  
 Cover the [Injury Care Review Session](../../review-sessions/review-session-injury-care.md) and [Case Management Review Session](../../review-sessions/review-session-case-management.md) to gather necessary information and identify any gaps.
-
-## Objective
-
+  
+## Objective  
+  
 Review the standard  {{% system-name %}} workflows and gather information needed for system setup of injury care and case management functionalities.
-
-### Agenda - 2 Hours
+  
+### Agenda - 2 Hours  
 
 * Demonstrate Injury Care
    * Overview
@@ -56,7 +56,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
       * Work-Related Case Management
       * Reporting
       * Resources
-
-## Afterward
-
+  
+## Afterward  
+  
 Document action items, distribute meeting minutes, create Jira tickets for configuration projects that are in scope, perform system configuration, update percentage complete and dates on project plan, and prepare for subsequent meetings.

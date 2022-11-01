@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1lh9WJDKO6n_jofjt1b7NA8ALMcYEEr7LVi7J_S9gdss'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'PSPA 29 - Consulting AUC Using Clinical Decision Support when Ordering Advanced'
@@ -22,15 +22,15 @@ menu:
 
 
 
-**Activity Weighting**: High
-**Subcategory Name**: Patient Safety and Practice Assessment
+**Activity Weighting**: High  
+**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: Clinicians attest that they are consulting specified applicable AUC through a qualified clinical decision support mechanism for all applicable imaging services furnished in an applicable setting, paid for under an applicable payment system, and ordered on or after January 1, 2018. This activity is for clinicians that are early adopters of the Medicare AUC program (2018 performance year) and for clinicians that begin the Medicare AUC program in future years as specified in our regulation at 414.94. The AUC program is required under section 218 of the Protecting Access to Medicare Act of 2014. Qualified mechanisms will be able to provide a report to the ordering clinician that can be used to assess patterns of image-ordering and improve upon those patterns to ensure that patients are receiving the most appropriate imaging for their individual condition.
 
 
 
 
-Supporting Documentation
-Documentation of consulting specified applicable appropriate use criteria (AUC) through a qualified clinical decision support mechanism for all applicable imaging services furnished in an applicable setting, paid for under an applicable payment system, and ordered on or after January 1, 2018: • Evidence of early adoption of the Medicare AUC program (PY2018 Performance Year); or • Copies of reports (paper copy, screen shots, etc.) to the ordering clinician that can be used to assess patterns of image-ordering and improve upon those patterns to ensure that patients are receiving the most appropriate imaging for their individual condition. 
+Supporting Documentation  
+Documentation of consulting specified applicable appropriate use criteria (AUC) through a qualified clinical decision support mechanism for all applicable imaging services furnished in an applicable setting, paid for under an applicable payment system, and ordered on or after January 1, 2018: • Evidence of early adoption of the Medicare AUC program (PY2018 Performance Year); or • Copies of reports (paper copy, screen shots, etc.) to the ordering clinician that can be used to assess patterns of image-ordering and improve upon those patterns to ensure that patients are receiving the most appropriate imaging for their individual condition.   
 {{% note %}}
 
 A certified EHR may be used for documentation purposes, but is not required unless attesting for the Promoting Interoperability (formerly ACI) bonus.

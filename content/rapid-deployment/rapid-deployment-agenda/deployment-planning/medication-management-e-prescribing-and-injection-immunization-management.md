@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-medication-management-electronic-prescribing.md'
   - '../../review-sessions/review-session-injection-immunization-management.md'
 source: 'https://drive.google.com/open?id=1-lISyynsVEL9vuPGAfFFS021RJmb6d37Y-yiasjxLf4'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Medication Management/E-Prescribing & Injection/Immunization Management'
@@ -17,15 +17,15 @@ menu:
     parent: '1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
     weight: 5870
 ---
-## Purpose
-
+## Purpose  
+  
 Cover the [Medication Management/Electronic Prescribing Review Session](../../review-sessions/review-session-medication-management-electronic-prescribing.md) and the [Injection/Immunization Management Review Session](../../review-sessions/review-session-injection-immunization-management.md) to gather necessary information and identify any gaps.
-
-## Objective
-
+  
+## Objective  
+  
 Review the standard  {{% system-name %}} workflows and gather information needed for system setup of electronic prescribing and medication/injection/immunization management.
-
-### Agenda - 2 Hours
+  
+### Agenda - 2 Hours  
 
 * Medication Management/E-Prescribing Demonstration
    * Overview
@@ -56,7 +56,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
          * Interface to Registry
          * Security Permissions
       * Resources
-
-## Afterward
-
+  
+## Afterward  
+  
 Document action items, distribute meeting minutes, create Jira tickets for configuration projects that are in scope, perform system configurations, update percentage complete and dates on project plan, and prepare for subsequent meetings.

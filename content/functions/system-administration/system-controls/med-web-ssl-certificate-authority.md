@@ -1,14 +1,14 @@
 ---
 id: '1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
 title: 'Med-Web SSL Certificate Authority'
-date: '2021-10-06T02:38:47.400Z'
-version: 37
-lastAuthor: 'Dave Cornewell'
+date: '2022-10-05T17:42:38.445Z'
+version: 62
+lastAuthor: 'Dawn Case'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/mie-ca2.crt'
 source: 'https://drive.google.com/open?id=1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Med-Web SSL Certificate Authority'
@@ -16,28 +16,28 @@ menu:
     parent: '1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
     weight: 4680
 ---
-For SSL encrypted web pages, a certificate is used. MIE has created it's own Certificate Authority (CA) for generating certificates. In order to NOT get a warning, you need to install the CA into your web browsers.
-The CA can be found here: [CA](http://www.mieweb.com/mie-ca2.crt)
+For SSL encrypted web pages, a certificate is used. MIE has created it's own Certificate Authority (CA) for generating certificates. In order to NOT get a warning, you need to install the CA into your web browsers.  
+The CA can be found here: [CA](http://www.mieweb.com/mie-ca2.crt)  
 This method varies, depending on the browser you are using:
-
-## **Internet Explorer**
-
+  
+## **Internet Explorer**  
+  
 Click the above link -> Open -> "Install Certificate" -> Next -> Next -> Finish -> [Verify that Thumbprint(sha1) is "46 a2 53 95 5c 65 bf c0 67 c2 58 bb 03 d2 17 d5 ba c6 16 46"] -> Yes.
 
-
-## **Firefox**
-
+  
+## **Firefox**  
+  
 Click the above link -> Check off all three boxes (Trust this CA...) -> OK
 
-
-## **Opera**
-
+  
+## **Opera**  
+  
 Click the above link -> Install -> OK
 
-
-## **Additional Notes about the Installation Process**
-
-For the sake of simplicity these instructions only apply to IE on a Windows PC.
+  
+## **Additional Notes about the Installation Process**  
+  
+For the sake of simplicity these instructions only apply to IE on a Windows PC.  
 Before we begin consider skipping to step 44 and request that someone from Tech Support properly install this certificate for you.
 1. Access the CA from here: [CA](http://www.mieweb.com/mie-ca2.crt)
 2. Click on the CA link and then click Open

@@ -1,26 +1,26 @@
 ---
 id: '1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
 title: 'Introducing TeleHealth'
-date: '2020-03-31T16:54:54.418Z'
-version: 102
-lastAuthor: ''
+date: '2022-09-22T16:29:19.835Z'
+version: 151
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing'
-  - 'https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU'
+  - 'gdoc:1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU'
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
-  - 'telehealth-pricing.md'
+  - 'gdoc:1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.  
-
-## About 
+  
+## About   
 
 * Video [demo](https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing)
-* [Press release](https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
-
-### Features
+* [Press release](gdoc:1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
+  
+### Features  
 
 * Zero software to install. All browser-based. 
 * Invite patients to join via text/sms and email
@@ -71,13 +71,13 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </tr>
 
 </table>
-* Chrome and Firefox for iOS will not work. iOS users will need to use Safari.
-** WebRTC support in Safari started with Safari version 11
+* Chrome and Firefox for iOS will not work. iOS users will need to use Safari.  
+** WebRTC support in Safari started with Safari version 11  
 *** We recommend migrating to the new Chromium Edge as soon as possible as we will stop supporting ORTC in the near future
 
-
-## FAQ
-
+  
+## FAQ  
+  
 **What hardware is required?**
 * iPhone (iOS 11+), Android (KitKat+), Windows 10 with Edge or Chrome or Firefox, MacBook (OS X El Capitan).
 **Why not use FaceTime, Google Duo, or Skype?**
@@ -87,11 +87,11 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 * Under this new waiver, Medicare will pay for office, hospital, and other visits furnished via telehealth across the country, including in patient's places of residence starting March 6, 2020.  A range of providers, such as doctors, nurse practitioners, clinical psychologists, and licensed clinical social workers, will be able to offer telehealth to their patients.  Additionally, the HHS Office of Inspector General (OIG) is providing flexibility for healthcare providers to reduce or waive cost-sharing for telehealth visits paid by federal healthcare programs. The [CMS fact sheet](https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet) outlines the waiver. 
 **How do I bill for TeleHealth?**
 * Place of Service (POS) code 02
-
-![](../introducing-telehealth.assets/10000201000003AE0000023380350CD1C9F6F514.png)
+  
+![](../introducing-telehealth.assets/10000201000003AE0000023380350CD1C9F6F514.png)  
 
 **What does it cost?**
-* See [Telehealth Pricing](telehealth-pricing.md)
+* See [Telehealth Pricing](gdoc:1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM)
 **Are there minimum commitments?**
 * No
 **Can I cancel at any time?**
@@ -101,27 +101,27 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 **Are sessions recorded?**
 * Recording is an option and has additional cost but is not enabled by default. See [Pricing](#_r8pf4oszsrdj) for details. 
 * Audio recordings can be routed to a scribe or transcriptionist to complete documentation as an optional feature. 
+  
+## Screenshots   
 
-## Screenshots 
+  
+### Patient initiated (iOS)  
 
-
-### Patient initiated (iOS)
-
-
-![](../introducing-telehealth.assets/1000000000000483000009C4403BC830FA9C1D0B.png)
-![](../introducing-telehealth.assets/1000000000000483000009C4989134D19570E960.png)
-![](../introducing-telehealth.assets/1000000000000483000009C4DA24093AA6B79008.png)
-![](../introducing-telehealth.assets/1000000000000483000009C4DEE39A80B80299C9.png)
-
-
-
-### Provider
+  
+![](../introducing-telehealth.assets/1000000000000483000009C4403BC830FA9C1D0B.png)  
+![](../introducing-telehealth.assets/1000000000000483000009C4989134D19570E960.png)  
+![](../introducing-telehealth.assets/1000000000000483000009C4DA24093AA6B79008.png)  
+![](../introducing-telehealth.assets/1000000000000483000009C4DEE39A80B80299C9.png)  
 
 
-![](../introducing-telehealth.assets/1000000000000887000004DA81904015DABC4022.jpg)
+  
+### Provider  
+
+  
+![](../introducing-telehealth.assets/1000000000000887000004DA81904015DABC4022.jpg)  
 
 
-
-![](../introducing-telehealth.assets/1000000000000899000004DA5994662A7BAD60AC.jpg)
+  
+![](../introducing-telehealth.assets/1000000000000899000004DA5994662A7BAD60AC.jpg)  
 
 

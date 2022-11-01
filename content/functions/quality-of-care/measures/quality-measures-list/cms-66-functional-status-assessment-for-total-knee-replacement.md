@@ -12,15 +12,15 @@ links:
   - 'https://ecqi.healthit.gov/glossary/pro'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10'
 source: 'https://drive.google.com/open?id=14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-## Overview
-
-[CMS66v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure) (2020)
-[CMS66v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS66v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure) (2020)  
+[CMS66v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v9&showresulttype=Measure) (2021)  
 [CMS66v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -39,8 +39,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -75,8 +75,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -104,19 +104,19 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </table>
 
 
-
-## Clinical Instructions
-
+  
+## Clinical Instructions  
+  
 Ensure all 18+ year-old patients with a total knee replacement in the year prior to the measurement period have a functional status assessment during the measurement period. 
-
-### Workflow
-
+  
+### Workflow  
+  
 Coming soon.
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -151,8 +151,8 @@ Coming soon.
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -183,8 +183,8 @@ Coming soon.
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -243,7 +243,7 @@ Coming soon.
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS66](https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10)

@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10'
 source: 'https://drive.google.com/open?id=1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)'
@@ -19,13 +19,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3980
 ---
-## Overview
-
-[CMS145v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v8&showresulttype=Measure) (2020)
-[CMS145v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS145v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v8&showresulttype=Measure) (2020)  
+[CMS145v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v9&showresulttype=Measure) (2021)  
 [CMS145v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -44,8 +44,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -80,8 +80,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -95,7 +95,10 @@ menu:
 </tr>
 <tr>
 <td><strong>Rate Aggregation</strong></td>
-<td>Population 1: Patients with left ventricular systolic dysfunction (LVEF <40%)Population 2: Patients with a prior (within the past 3 years) myocardial infarctionPerformance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Exceptions 1) + (Denominator 2 - Denominator Exceptions 2)]</td>
+<td>Population 1: Patients with left ventricular systolic dysfunction (LVEF <40%)
+Population 2: Patients with a prior (within the past 3 years) myocardial infarction
+
+Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Exceptions 1) + (Denominator 2 - Denominator Exceptions 2)]</td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -113,26 +116,26 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month period of the diagnosis of coronary artery disease with prior myocardial infarction (MI) or a current or prior LVEF < 40%.
 1. Ensure patient has one of the following diagnoses:
    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
 1. Numerator will be populated with patients prescribed a beta-blocker therapy within the measure period.
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -171,8 +174,8 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 
 </table>
 
-
-### Denominator
+  
+### Denominator  
 
 
 <table>
@@ -199,8 +202,8 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -219,8 +222,8 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 
 </table>
 
-
-### Denominator Exceptions
+  
+### Denominator Exceptions  
 
 
 <table>
@@ -283,7 +286,7 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 
 </table>
 
-
-## **Source(s)**
-
+  
+## **Source(s)**  
+  
 [eCQI CMS145](https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10)

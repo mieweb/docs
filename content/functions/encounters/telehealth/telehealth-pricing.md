@@ -2,16 +2,16 @@
 id: '1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
 title: 'TeleHealth Pricing'
 date: '2020-03-31T14:37:42.416Z'
-version: 59
+version: 70
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'mailto:kari@mieweb.com'
 source: 'https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-## TeleHealth Video
-
+## TeleHealth Video  
+  
 Video Pricing is based on the number of minutes your participants are connected to a Room.
 
 
@@ -34,8 +34,8 @@ Video Pricing is based on the number of minutes your participants are connected 
 </tr>
 
 </table>
-
-## SMS Pricing
+  
+## SMS Pricing  
 
 
 <table>
@@ -53,9 +53,9 @@ Video Pricing is based on the number of minutes your participants are connected 
 </tr>
 
 </table>
-
-## Recorded Visits
-
+  
+## Recorded Visits  
+  
 In order to record visits, you must use the small room or larger video options. Peer to Peer video can not be recorded at this time. 
 
 
@@ -70,15 +70,15 @@ In order to record visits, you must use the small room or larger video options. 
 </tr>
 
 </table>
-
-## Initial Setup
+  
+## Initial Setup  
 
 * Setup fees are waived during COVID-19 Response.
 * Credit Card required to set up monthly billing.
 * Consulting and configuration changes will be charged at $225/hr if requested.
 
 
-**_Example cost:_**
+**_Example cost:_**  
 *1 Physician using Telehealth for 8 hours a day, 5 days a week monthly would be approximately $57.60 per month (non-recorded peer to peer room)*
 
 For additional information contact [kari@mieweb.com](mailto:kari@mieweb.com)

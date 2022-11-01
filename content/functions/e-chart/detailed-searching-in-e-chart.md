@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch'
   - 'https://system/?f=chart&s=pat&s=search&search_method=simple&tabmodule=patsearch'
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Detailed Searching in E-Chart'
@@ -21,12 +21,12 @@ menu:
 When in the {{% system-name %}} system, the [E-Chart](https://system/?f=chart) sidemenu tab displays recent charts you've accessed, along with ability to search charts by different methods.  E-Chart automatically defaults to search in **Simple** search.
 
 To do a more detailed search, click the [Detailed](https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch) link from the list of Search Types.
-
-![](../detailed-searching-in-e-chart.assets/1000020100000387000000E123C152E7AA8A7D01.png)
+  
+![](../detailed-searching-in-e-chart.assets/1000020100000387000000E123C152E7AA8A7D01.png)  
 
 The detailed search filter screen will open with various filter fields to help narrow down a search for a chart by more detail.
-
-![](../detailed-searching-in-e-chart.assets/10000201000003760000019CC7260E19EC619928.png)
+  
+![](../detailed-searching-in-e-chart.assets/10000201000003760000019CC7260E19EC619928.png)  
 
 {{% tip %}}
 
@@ -37,8 +37,8 @@ Within the [Detailed](https://system/?f=chart&s=pat&s=search&search_method=detai
 {{% tip %}}
 
 The percent sign (%) is a hotkey to perform a CONTAINS search, followed by the letters you wish to search. In this example, we typed %art in the name field and clicked the **Search** button.  The system resulted matching charts with names of the letters ‘art' in them.
-
-![](../detailed-searching-in-e-chart.assets/100002010000046C000001D82D4631785E6FD2F9.png)
+  
+![](../detailed-searching-in-e-chart.assets/100002010000046C000001D82D4631785E6FD2F9.png)  
 
 {{% /tip %}}
 
@@ -48,19 +48,19 @@ MIE can change a system setting to turn off the *Search for SSN* feature from si
 
 Disabling the SSN search does not turn off the ability to search by SSN in other modules or layouts. An example of this is searching in the Super Doc Search of the Reports Tab. Those would have to be turned off/reprogrammed individually.  Contact your MIE Implementer if you wish SSN search to be turned off in other modules/layouts of  {{% system-name %}} or if just in patient simple/detailed/doc.queue searching.
 {{% /note %}}
+  
+## **SSN Search On/Off Views**  
 
-## **SSN Search On/Off Views**
+  
+### **Enabled**  
+
+  
+![](../detailed-searching-in-e-chart.assets/10000201000004490000011017F2BD4AC25BA837.png)  
+
+  
+### **Disabled**  
 
 
-### **Enabled**
-
-
-![](../detailed-searching-in-e-chart.assets/10000201000004490000011017F2BD4AC25BA837.png)
-
-
-### **Disabled**
-
-
-
-![](../detailed-searching-in-e-chart.assets/100002010000047C0000012AC4C40934699BFF44.png)
+  
+![](../detailed-searching-in-e-chart.assets/100002010000047C0000012AC4C40934699BFF44.png)  
 

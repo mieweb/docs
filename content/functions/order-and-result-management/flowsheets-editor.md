@@ -2,15 +2,15 @@
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
 date: '2021-12-17T15:27:04.732Z'
-version: 238
+version: 242
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links:
-  - 'observations-tab.md'
-  - 'observation-codes-editor.md'
-  - 'observation-code-merging.md'
+  - 'gdoc:13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
+  - 'gdoc:1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
+  - 'gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Flowsheets Editor'
@@ -18,9 +18,9 @@ menu:
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
     weight: 1990
 ---
-The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](observations-tab.md) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](observation-codes-editor.md) and [Observation Code Merging](observation-code-merging.md) documentation.
-
-## Overview
+The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](gdoc:13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](gdoc:1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU) and [Observation Code Merging](gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c) documentation.
+  
+## Overview  
 
 1. Navigate to the <strong>Control Panel</strong> using the link on the side menu.
 2. Locate and select the <strong>Flowsheets</strong> tab.
@@ -29,15 +29,15 @@ The following information provides details on how to add and configure flowsheet
 5. Click a column header to sort the list by ascending/descending order.
 6. Hover the cursor over the value in the <strong>Items</strong> column to see a list of all observations associated with the respective flowsheet.
 7. When making flowsheets users may copy an existing flowsheet by using the <strong>Copy</strong> link, to save time. Otherwise, they can simply edit a flowsheet by clicking the <strong>Edit</strong> link.
-
-## Add a New Flowsheet
+  
+## Add a New Flowsheet  
 
 1. Verify all observations needed for the new flowsheet are already created and available within the  {{% system-name %}} system.
 
-
-![](../flowsheets-editor.assets/100002010000050A0000018F585EE53038EDF00E.png)
-{{% note %}}
-Any custom discrete values will not be interoperable when communicating with other systems.
+  
+![](../flowsheets-editor.assets/100002010000050A0000018F585EE53038EDF00E.png)  
+{{% note %}}  
+Any custom discrete values will not be interoperable when communicating with other systems.  
 {{% /note %}}
 
 2. To begin, click the <strong> </strong>{{% syslink "Add Flowsheet" "f=admin&subfunc=obscodes_manager&view=flowsheet&opp=add" %}}<strong> </strong> link in the upper-right corner of the page.
@@ -60,8 +60,8 @@ Any custom discrete values will not be interoperable when communicating with oth
    1. <strong>Name</strong>: This field displays the observation name selected, which is coded in the Observation Codes Manager. This will appear as a hyperlink and can be clicked to see a view of the observation details.
    2. <strong>Description</strong>: The Description field can be edited by clicking the Edit (pencil) icon in the <em>Actions</em> column. This field, when provided, will display to end users when using the Flowsheet. There is no limit to the number of characters allowed. Providing a description is not necessary and does not alter the coded observation or name. It is only used for simplified identification, whenever necessary.
 
-{{% note %}}
-   Descriptions are not interoperable fields and will not carry over to devices or systems set up for interoperability.
+{{% note %}}  
+   Descriptions are not interoperable fields and will not carry over to devices or systems set up for interoperability.  
 {{% /note %}}
 
    3. <strong>Input Type</strong>: Every observation requires an input type. This drives how each datum, or observation value, will be captured while using the Flowsheet.
@@ -87,12 +87,12 @@ Any custom discrete values will not be interoperable when communicating with oth
    8. <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. For example, a questionnaire with questions only relevant to a male (conditional) can be programmed to only display when the sex of the respondent is male. More information on this can be found below. 
    9. <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and established criteria. Using this field, a calculation will be triggered, whenever a specific observation is programmed with the appropriate calculation criteria. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation with the BMI observation. Additional details can be found below. 
 6. Once finished, click the <strong>Submit</strong> button to save all of the information.
-
-## Configuring Flowsheets
+  
+## Configuring Flowsheets  
 
 The following options allow for greater configuration and require a more advanced understanding of flowsheet programmability. These options can only be edited using the Edit (pencil) link in the *Actions* column of the Flowsheets editor.
-
-### **Section**
+  
+### **Section**  
 
 As explained previously, all flowsheets can have line breaks/headers added, as needed. With a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the **Edit** (pencil) icon in the *Actions* column, and update the **Description** field. The text will display as a title for the line break, thus formatting it as a header in the flowsheet.
 
@@ -104,15 +104,15 @@ To avoid the default behavior of automatically displaying line breaks/headers, u
 1. Click the Edit icon (pencil) to edit the line break/header, and update the <strong>Section</strong> field with a category, label, term, or generic freetext (e.g., lungs, bsa, etc.).
 2. Once the line break/header has been updated with a section name, edit each line item or observation belonging to that section with the same section name.
 
-
-![](../flowsheets-editor.assets/100002010000058F000002D6A3D3D217F2118846.png)
+  
+![](../flowsheets-editor.assets/100002010000058F000002D6A3D3D217F2118846.png)  
 
 
 3. Click the <strong>Submit</strong> button to save all changes.
-
+  
 Now, any time data have been added to a flowsheet, the headers and/or line breaks configured for sections will not automatically display. The headers/breaks will only display when values have been added.
-
-### **Required**
+  
+### **Required**  
 
 The Required field allows users to set certain line items or observations as optional, recommended, or required. By default, all flowsheet and questionnaire entries are optional. However, if certain information is *needed*, flowsheets and questionnaires can be set up with either *soft* requirements or *hard* requirements. When an observation is programmed as a soft requirement, users are recommended and strongly encouraged to provide a value. However, if an observation is programmed as a hard requirement, users are unable to proceed until a value is given. 
 To establish requirements on an observation, begin by clicking the Edit icon (pencil) to edit the **Required** field, and enter one of the following:
@@ -122,93 +122,93 @@ To establish requirements on an observation, begin by clicking the Edit icon (pe
    * Require anything - <strong>(observationValueByName(jQuery(this).data('obsname')) ? 1 : -1)</strong>
    * Number only - TBD
    * Date/Time Ranges - TBD
-
-### **Conditional**
+  
+### **Conditional**  
 
 This field is used for conditionally displaying specific observations. For example, a questionnaire with questions/observations only relevant to a male (condition) can be programmed to only display when the sex of the respondent is male. All question types and layouts support conditional logic, and page breaks are the only type of break that do not currently support this feature.
 To use conditional logic, the appropriate script must be added to the **Conditional** field of the observation/question. However, the conditional circumstances will drive the type of script that will be needed, so be sure to consider the various options.
-
-#### Based on Previous Answer
+  
+#### Based on Previous Answer  
 
 A common use for conditional logic is to display or hide a row, depending on a previous value given. In other words, if a question (observation) has a specific answer (value), the line item programmed with the conditional script will display only if the expected answer is matched. The syntax for accomplishing this is as follows: 
 
 ```
-
-
-observationDisplay('OBSERVATION NAME','EXPECTED ANSWER')
-
-
+  
+  
+observationDisplay('OBSERVATION NAME','EXPECTED ANSWER')  
+  
+  
 
 ```
 For example, if a follow-up question (e.g., Is this a new symptom) is needed, due to a patient's reaction (e.g., rhinitis - runny or stuffy nose) to specified allergens (e.g., animals or their bedding), the follow-up question will be configured as an observation in the  {{% system-name %}}  system, and the conditional logic will be added to its Conditional field. This will cause the follow-up question to display only when the respondent answers with *Yes*.
 
 ```
-
-
-observationDisplay('Since your last exam, have you experienced rhinitis, a runny or stuffy nose?','Yes')
-
-
+  
+  
+observationDisplay('Since your last exam, have you experienced rhinitis, a runny or stuffy nose?','Yes')  
+  
+  
 
 ```
+  
+![](../flowsheets-editor.assets/100002010000058E000002202E0B1263B2E85593.png)  
 
-![](../flowsheets-editor.assets/100002010000058E000002202E0B1263B2E85593.png)
-
-
-#### Based on Patient Sex
+  
+#### Based on Patient Sex  
 
 Anytime an observation or question is intended for men or women, exclusively, simply enter one of the following in the **Conditional** field of the observation:
 * Only women: <strong>dashjs_patient.sex == 'F'abnormal</strong>
 * Only men: <strong>dashjs_patient.sex == 'M'</strong>
-
-#### Based on Multiple Conditionals
+  
+#### Based on Multiple Conditionals  
 
 Conditionals can be stacked and used with multiple observations or conditionals, as needed. For instance, an observation can be set to display only if the respondent answers yes to working on a specific floor of a specified building. To perform AND functions, simply use two ampersand symbols (**&&**) between the conditional statements, as follows:
 ```
-
-
-
-observationDisplay('Patient works at MMA building','Yes') && observationDisplay('Patient works on level 3','Yes')
-
-
-
-
+  
+  
+  
+observationDisplay('Patient works at MMA building','Yes') && observationDisplay('Patient works on level 3','Yes')  
+  
+  
+  
+  
 
 ```
-
-#### Based on Either/Or
+  
+#### Based on Either/Or  
 
 Similar to performing AND functions, conditionals can be programmed to respect OR functions, as well. For instance, a follow-up may be needed if a respondent notes they *either* have had an abnormal musculoskeletal examination OR they have a history of musculoskeletal disorders. To accomplish this, simply use two pipes (**||**) between the conditional statements, as follows:
 
 ```
-
-
-observationDisplay('PE:Musculoskeletal Examination','Abnormal') || observationDisplay('Did the applicant relate a history of musculoskeletal disorder?','Yes')
-
+  
+  
+observationDisplay('PE:Musculoskeletal Examination','Abnormal') || observationDisplay('Did the applicant relate a history of musculoskeletal disorder?','Yes')  
+  
 
 ```
-
-#### Based on Any Value Except
+  
+#### Based on Any Value Except  
 
 The last type of conditional to consider is one where an observation/line item will appear only when any value EXCEPT the one specified is entered. For example, if a respondent answers with anything other than a zero for their pain assessment, then an additional question will display. This example is achieved with the following syntax:
 
 ```
-
-
-observationValueByName('HPI Pain Assessment') !==0 && typeof(observationValueByName('HPI Pain Assessment')) !=='undefined'
-
+  
+  
+observationValueByName('HPI Pain Assessment') !==0 && typeof(observationValueByName('HPI Pain Assessment')) !=='undefined'  
+  
 
 ```
-
-### **Calculation**
+  
+### **Calculation**  
 
 Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation for the BMI whenever values for height and weight are entered. There is no limit to the number of calculations a script can do, and any of the standard mathematical notations can be used (i.e., **+**, **-**, *****, **/**).
 
 ```
-
-
-observationValueByName('Number of Days') + observationValueByName('Number of Drinks')
-
-
+  
+  
+observationValueByName('Number of Days') + observationValueByName('Number of Drinks')  
+  
+  
 
 ```
 With the script ready, create a Total or Total Score observation, as needed. Edit the observation and add the calculation script and save.

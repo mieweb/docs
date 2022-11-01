@@ -2,7 +2,7 @@
 id: '1MtI7CYHbe1w9l0HVUD_7dUbDqv-l5qxPPZs3MfZuhBM'
 title: 'BE 20 - Implementation of Condition-specific Chronic Disease Self-management Support Programs'
 date: '2020-02-27T20:50:11.862Z'
-version: 15
+version: 16
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1MtI7CYHbe1w9l0HVUD_7dUbDqv-l5qxPPZs3MfZuhBM'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'BE 20 - Implementation of Condition-specific Chronic Disease Self-management Support Programs'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Beneficiary Engagement
+**Activity Weighting**: Medium  
+**Subcategory Name**: Beneficiary Engagement  
 **Description**: Provide condition-specific chronic disease self-management support programs or coaching or link patients to those programs in the community.
 
 
@@ -36,8 +36,8 @@ Supporting Documentation
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

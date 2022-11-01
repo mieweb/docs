@@ -6,7 +6,7 @@ version: 20
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'E-Refills - E-Scripts Tab'
@@ -14,7 +14,7 @@ menu:
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
     weight: 2110
 ---
-![](../e-refills-e-scripts-tab.assets/1000020100000263000000CFC1AF416F06CC8E72.png)
+![](../e-refills-e-scripts-tab.assets/1000020100000263000000CFC1AF416F06CC8E72.png)  
 
 * <strong>New Scripts – Sent:</strong> Shows all the scripts that were transmitted successfully.
 * <strong>New Scripts – Error:</strong> Shows any scripts that have an error. Sometimes the error message makes sense, others are blank. Would need to contact George at MIE if need specifics on one.

@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1dOhB5E8UNaECKEDJR1ZwL0isMZCSdEHuIcnyC7OAmhU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'PM 17 - Participation in Population Health Research'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Population Management
+**Activity Weighting**: Medium  
+**Subcategory Name**: Population Management  
 **Description**: Participation in federally and/or privately funded research that identifies interventions, tools, or processes that can improve a targeted patient population.
 
 

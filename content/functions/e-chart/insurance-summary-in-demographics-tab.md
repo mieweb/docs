@@ -6,9 +6,9 @@ version: 74
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../system-administration/security/security-role-settings.md'
+  - 'gdoc:1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Insurance Summary in Demographics Tab'
@@ -16,31 +16,31 @@ menu:
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
     weight: 1060
 ---
-Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.
+Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.  
 When in demographics tab or if click manage information within the insurance portlet, you can review patient demographics.  However, down towards the bottom of the demographics summary is the section named** Insurance Summary**.
 
-
-![](../insurance-summary-in-demographics-tab.assets/10000201000004A90000024DF4140F1C355345E5.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/10000201000004A90000024DF4140F1C355345E5.png)  
 
 
 {{% tip %}}
 
 The Insurance Summary section does not display when in Edit Demographics mode.  Must be in the demographics summary tab or access this via the Insurance portlet by clicking the ‘manage info' icon in the portlet.
 {{% /tip %}}
-Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for** Patient Insurance Policies** in {{% system-name %}} or refer to [Security Role Settings](../system-administration/security/security-role-settings.md) documentation for more information.
-
-## **Add an Insurance Policy to a Chart**
+Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for** Patient Insurance Policies** in {{% system-name %}} or refer to [Security Role Settings](gdoc:1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM) documentation for more information.
+  
+## **Add an Insurance Policy to a Chart**  
 
 To add an insurance for the chart, when in the Insurance Summary area, click the **Add Insurance** link at the top right.
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000049F0000007A9BBF06B90546D0F0.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000049F0000007A9BBF06B90546D0F0.png)  
 
 
 The **Add Insurance Policy** screen and fields display.  The fields are described below:
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000036E0000018D6D4F0237D6AAB948.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000036E0000018D6D4F0237D6AAB948.png)  
 
 
 * <strong>Insurance Plan</strong>: Begin typing the name of the insurance.  The system will auto-complete choices from a master list of insurances.  Select the one you want and use the tab key to go to the next field. If you type in an unrecognized plan (free-text in something) you will receive a pop-up warning that it is an unknown plan (not found in the master listing) and if you still want to continue to add this plan as you named it.
@@ -57,7 +57,7 @@ The **Add Insurance Policy** screen and fields display.  The fields are describ
 * <strong>Policy Comments</strong>: Type any comments related to the insurance policy here.
 * <strong>Insurance Pre-Certifications</strong>: When insurances are entered in the patient's demographics tab, there are fields to enter any pre-certification details.  Example would be a patient coming in for physical therapy is pre-certified for 10 visits from Oct 2007 through Dec 2007. You can detail that when adding or editing the insurance from the patient's demographics tab.  If there are any pre-certification details entered in for a patient's insurance, this precert information will appear in the checkin module also when you checkin the patient. This information also shows if you hover your mouse over the patient's insurance name(s) in the scheduler view in the appointment detail. If you have insurance messages coming in from your interface/PM system, you can still enter Pre-certification information here in {{% system-name %}} and it will save.
 
-  <img src="../insurance-summary-in-demographics-tab.assets/1000020100000347000000C46D78352DC88BF33E.png" />
+  <img src="../insurance-summary-in-demographics-tab.assets/1000020100000347000000C46D78352DC88BF33E.png" />  
 
 
 * <strong>Certification Number</strong>: Enter the certification number for the pre-certification.
@@ -67,51 +67,51 @@ The **Add Insurance Policy** screen and fields display.  The fields are describ
 * <strong>Add</strong>: Click the ADD button to add this certification to that insurance you are entering. You can enter more pre-certifications if the patient is seen for multiple physical therapy modules, etc.  Click CLEAR to start over.
 At the bottom, click the **Save** button to add this insurance to the chart.  If you want to save and add another ex: secondary insurance, click **Save & Add Another**.  Clicking Cancel will get out completely and the option **Reset** will not save the insurance data and will clear the fields to start over.
 After you have entered the insurances, you will be taken back to the Demographics Information summary tab of the chart.  You can scroll back down to see the insurances entered in the Insurance Summary section.
-
-## **Editing an Insurance Policy in a Chart**
+  
+## **Editing an Insurance Policy in a Chart**  
 
 Insurance policy details can be edited in a chart by clicking the Edit link on the specific listed active insurance.  Inactive insurances can also be edited, but to access inactive insurances in a chart one must click the show inactive link provided.
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000049F0000007AA355402986EE49E9.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000049F0000007AA355402986EE49E9.png)  
 
 
 After clicking edit on a specific insurance listed, the **Edit Insurance Policy** screen will expand where edits to any of the detailed fields can be made.  Click the Save button to save any modifications. Any existing insurance card image/document that is linked to the policy you are editing will also show in detail at the bottom of the edit screen after the policy details.
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000035D000001D0640E2209A3184827.png)
-
-
-
-![](../insurance-summary-in-demographics-tab.assets/1000020100000353000000E722C9C733546799D9.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000035D000001D0640E2209A3184827.png)  
 
 
+  
+![](../insurance-summary-in-demographics-tab.assets/1000020100000353000000E722C9C733546799D9.png)  
 
-## **Inactivate an Insurance Policy in a Chart**
+
+  
+## **Inactivate an Insurance Policy in a Chart**  
 
 An insurance cannot be deleted from the chart, but it can be marked **inactive** if the patient/chart no longer has that insurance.  To inactivate, get into the insurance policy via the **edit** link.  Once in the Edit Insurance Policy fields, simply uncheckmark the insurance as active.  After clicking the Save button, the insurance will be saved in the chart as an inactive insurance policy.
 
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000035100000187FC4D42F5A08328D7.png)  
 
-![](../insurance-summary-in-demographics-tab.assets/100002010000035100000187FC4D42F5A08328D7.png)
-
-
-## **Card Options**
+  
+## **Card Options**  
 
 Depending on your security permissions, when looking at the Insurance Summary section of demographics, you will see the **Card-Options** link in the options column next to each specific insurance policy.  
 
-
-![](../insurance-summary-in-demographics-tab.assets/10000201000004B10000007CA519A899ADBD4112.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/10000201000004B10000007CA519A899ADBD4112.png)  
 
 
 Clicking on **Card-Options** will to allow you to view card images linked to the specific insurance policy, scan in new images of an insurance card, and also link/unlink card images to a specific policy. Please contact your MIE Implementer or the MIE help desk if you need help regarding any security privileges to perform actions within this feature, but more detail is below.
 If you only have ‘view' security level for patient insurance policies, you can still click Card-Options to view any linked card on a policy, but cannot scan to add insurance card images nor link/unlink card images to a listed insurance policy.
-
-### **Linking an Insurance Card (Scanned Image)**
+  
+### **Linking an Insurance Card (Scanned Image)**  
 
 If an insurance card has already been scanned in as an image/document into the chart, you can link the stored document image (already in the chart) to a specific insurance policy listed in the chart's demographics tab here in the Insurance Summary section.  Simply click the **Card-Options** on the specific insurance policy and then select **Link Existing Insurance Card**.
 
-
-![](../insurance-summary-in-demographics-tab.assets/1000020100000493000000CFB81CD25378AF9A57.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/1000020100000493000000CFB81CD25378AF9A57.png)  
 
 
 A pop-up window will display to indicate which stored insurance card document/image you wish to link to that specific patient's insurance policy.  In the **Choose an Insurance Card to Link to Policy** pop-up window, the Doc IDs listed in the pop-up look at any document that was previously scanned in/stored as an e-scan document (which will include photo's, etc).  It is recommended to have separate document types for insurance card-primary, insurance card-secondary and insurance card-tertiary to help distinguish them. Stored chart e-scan documents already linked to an insurance policy will not show up to be chosen.  Once a document (insurance card) has been linked, it will not be available to link to any other policy.  Each policy should have its own insurance card image linked to it.
@@ -121,47 +121,47 @@ To preview what the insurance card image/document looks like before selecting 
 {{% /tip %}}
 Select the radio button for the document (insurance card) you wish to link to the patient's specified insurance policy.  When you've selected the document to link to the policy by selecting the appropriate radio button, click the **Link** button to link the selected stored document to the specified insurance policy for the chart.
 
-
-![](../insurance-summary-in-demographics-tab.assets/10000201000001A10000008068C41729768E1D43.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/10000201000001A10000008068C41729768E1D43.png)  
 
 
 Once you click the Link button to link an existing insurance card scanned document to the policy, you will see a Linked Successfully message and this message will disappear off screen after a few seconds.
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000014E0000003B863850D20C449002.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000014E0000003B863850D20C449002.png)  
 
 
 
 If there are no existing e-scan documents (insurance card documents, etc) in the chart, or insurance card e-scan document images have already been linked to a policy, you will see the message in the window stating there are No Documents Available to link to this specific insurance policy. That means either stored insurance card documents are already linked to an existing policy, or there is not a stored insurance card document image in the chart yet.
 
+  
+![](../insurance-summary-in-demographics-tab.assets/10000201000001A1000000755F93A95B6E6FCD57.png)  
 
-![](../insurance-summary-in-demographics-tab.assets/10000201000001A1000000755F93A95B6E6FCD57.png)
 
-
-
-### **Unlinking an Insurance Card (Scanned Image)**
+  
+### **Unlinking an Insurance Card (Scanned Image)**  
 
 If an insurance card document image is already linked to the chart's specified insurance policy, you can unlink it. Unlinking an existing insurance card would be done if perhaps the insurance card changed and you needed to unlink the existing card from the policy and scan in a new card.  Or perhaps unlinking needs performs because an existing insurance card document was scanned and stored into the wrong chart. If that were the case, one would unlink it, then either delete the insurance card scanned document image, or move it to the correct chart.
 To unlink a stored document image from a specific insurance policy in the chart, simply click the** Card-Options** link, and then click** Unlink Existing Insurance Card**.    If you instead need to simply view the insurance card that is linked to this policy, you can click **View Linked Insurance Card** instead to view it or preview it before you unlink it.
 
-
-![](../insurance-summary-in-demographics-tab.assets/10000201000004A0000000D623D7898AAFA63913.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/10000201000004A0000000D623D7898AAFA63913.png)  
 
 
 Once you select **Unlink Existing Insurance Card** from a specific listed insurance policy, the system will display a pop-up to confirm you wish to unlink the current insurance card image from the selected insurance policy.  Click **OK** to proceed to unlink.
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000012C00000098CF65A940A83FFE61.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000012C00000098CF65A940A83FFE61.png)  
 
 
 Once you have confirmed and unlinked the document from the insurance policy, the system will display an unlined successfully message and this message will disappear off screen after a few seconds.
 
+  
+![](../insurance-summary-in-demographics-tab.assets/10000201000000E700000027444AEE43BB1C0CCD.png)  
 
-![](../insurance-summary-in-demographics-tab.assets/10000201000000E700000027444AEE43BB1C0CCD.png)
 
-
-
-### **Scanning an Insurance Card from Insurance Summary**
+  
+### **Scanning an Insurance Card from Insurance Summary**  
 
 It is recommended to have separate document types for insurance card-primary, insurance card-secondary and insurance card-tertiary to distinguish them.  Then chart tabs can be set up with rules to show the most recent, and another tab to display all of the older copies or your MIE implementer can set up the insurance card chart tab to only show the most recent insurance card(s) according to date scanned in.  
 {{% note %}}
@@ -171,15 +171,15 @@ For the **Scan Insurance Card** link to function when you click Card-Options�
 
 You can scan in an insurance card via **Add Document** method and select the filter E-Chart Scan to upload/scan in an insurance card to the insurance card document(s) that way.  The other option is to click** Card-Options** next to the specific policy listed in the Insurance Summary of demographics, then select **Scan New Insurance Card**.  
 
-
-![](../insurance-summary-in-demographics-tab.assets/1000020100000493000000CF0419579C6635F6D8.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/1000020100000493000000CF0419579C6635F6D8.png)  
 
 
 When **Scan New Insurance Card** is clicked, the document properties & scan control screen will open.  Most likely your scanner may automatically start scanning.  If not, click the **SCAN IMAGE** button to make it start scanning. Make sure the correct scanner (flatbed or shell scanner, etc) is selected as your source scanner.  Your scanner will now scan the insurance card.  
 The document you scanned will appear in the document scan control box now. If you have another side (back side) of the document to scan, flip the document over, click **Scan Image** button again and it will scan the backside while you remain in this specific document.  It will not upload anything until you click the **Upload** button.  You can scan in as many sides/pages as you want for this single document.
 
-
-![](../insurance-summary-in-demographics-tab.assets/10000201000002640000019130563CFA7C3EC51D.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/10000201000002640000019130563CFA7C3EC51D.png)  
 
 
 
@@ -191,8 +191,8 @@ There are also additional system settings that your MIE Implementer can set for 
 You can now select and complete some additional options to the document properties.
 The Document Scan Control box and the scanned image is followed by the **Add Document Properties** section of the screen.  The fields are described below:
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000020A0000017DB5DF12A1350A53AF.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000020A0000017DB5DF12A1350A53AF.png)  
 
 
 * <strong>Authored By</strong>:  You must have security permission for ‘Transcribe For Others' in order to change this field.  Select who is creating this text document. If you are creating this scanned document for a physician or someone else, choose their name.  You can start typing the last name in the first blank field and click SEARCH to pull up a list of users that match and select from there.  If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search).  If you are creating this scanned document yourself (not for anyone else) then choose ME box here. The document will reflect your name as created by: and also within the template if it asks for the dictator name.  The name you choose/select, will then appear at the top of these fields. Confirm and make a change if need to. If you do not have security permission to create documents for other users, this field will not be an option.  It will automatically put your name on the document you are about to create.
@@ -208,13 +208,13 @@ Add a Backside of the Card. If you have another side (back side) of the documen
 {{% /tip %}}
 When done scanning the card, making any edits or cropping, added the backside of the card, etc and have completed the add document properties click the Upload button at the bottom or the top.  
 It will upload the scanned image directly into the chart according to the document properties specified.  The scanned document is also automatically linked to that policy. No additional linking is then necessary when scanning in an insurance card using the Card-Options link from the specified insurance policy listed.
-
-## **Scan Control Options**
+  
+## **Scan Control Options**  
 
 
 * <strong>Crop</strong>: on the image, place your mouse (which will appear as a cross + ) at the point where you want to start cropping, click and hold the mouse down and drag to highlight in BLACK over the image part that you want to keep. Release your mouse.  If you want to re-do the crop, just click the mouse and do this again. When you have what you want to save/keep highlighted in BLACK, click the <strong>CROP</strong> button. It will refresh and show your cropped document in the upper left corner.  This is what will be uploaded & stored into the chart. If you wish to crop more, repeat the steps.
 
-  <img src="../insurance-summary-in-demographics-tab.assets/1000020100000265000001463D89D5133BB510F0.png" />
+  <img src="../insurance-summary-in-demographics-tab.assets/1000020100000265000001463D89D5133BB510F0.png" />  
 
 
 
@@ -225,6 +225,6 @@ It will upload the scanned image directly into the chart according to the docume
 * <strong>Prev/Next  #/#</strong>: The buttons toggle you between pages of the scanned image (if there is more than one page scanned at a time).  The #/# box represents what page number is being viewed and out of how many total pages there are scanned in so far for this specific scan.
 
 
-
-![](../insurance-summary-in-demographics-tab.assets/100002010000027E00000114785CF5E6AF609562.png)
+  
+![](../insurance-summary-in-demographics-tab.assets/100002010000027E00000114785CF5E6AF609562.png)  
 

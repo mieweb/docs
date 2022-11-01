@@ -2,15 +2,15 @@
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding deals'
 date: '2021-02-17T22:41:51.144Z'
-version: 21
+version: 22
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'finding-employer-organizations.md'
+  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
 source: 'https://drive.google.com/open?id=1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-1. [Find employer organizations](finding-employer-organizations.md).
+1. [Find employer organizations](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg).
 2. From the search results, select the <strong>name of the organization</strong> to which to add a deal. The system displays information about the organization.
 3. Select the <strong>Overview (EO)</strong> tab.
 4. At the top right, select <strong>Add Deal</strong>. The system displays an empty deal.

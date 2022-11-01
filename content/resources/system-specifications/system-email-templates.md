@@ -9,7 +9,7 @@ links:
   - 'system-email-templates/email-templates-from-chart.md'
   - 'system-email-templates/email-templates-from-scheduler.md'
 source: 'https://drive.google.com/open?id=1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'System Email Templates'
@@ -21,7 +21,7 @@ menu:
 
 
 
-[**Email Templates from Chart**](system-email-templates/email-templates-from-chart.md)
+[**Email Templates from Chart**](system-email-templates/email-templates-from-chart.md)  
 {{% children page="Email Templates from Chart" sort="creation" %}}
 
 

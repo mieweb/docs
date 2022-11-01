@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/denominator'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10'
 source: 'https://drive.google.com/open?id=1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 156 - Use of High-Risk Medications in the Elderly'
@@ -20,13 +20,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 4040
 ---
-## Overview
-
-[CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)
-[CMS156v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)  
+[CMS156v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure) (2021)  
 [CMS156v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -45,8 +45,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -80,7 +80,8 @@ menu:
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
 <td>–</td>
-<td>For patients with two or more antipsychotic prescriptions ordered, exclude patients who have a diagnosis of schizophrenia, schizoaffective disorder, or bipolar disorder on or between January 1 of the year prior to the measurement period and the Index Prescription Start Date (IPSD) for antipsychotics.For patients with two or more benzodiazepine prescriptions ordered, exclude patients who have a diagnosis of seizure disorders, rapid eye movement sleep behavior disorder, benzodiazepine withdrawal, ethanol withdrawal, or severe generalized anxiety disorder on or between January 1 of the year prior to the measurement period and the IPSD for benzodiazepines.</td>
+<td>For patients with two or more antipsychotic prescriptions ordered, exclude patients who have a diagnosis of schizophrenia, schizoaffective disorder, or bipolar disorder on or between January 1 of the year prior to the measurement period and the Index Prescription Start Date (IPSD) for antipsychotics.
+For patients with two or more benzodiazepine prescriptions ordered, exclude patients who have a diagnosis of seizure disorders, rapid eye movement sleep behavior disorder, benzodiazepine withdrawal, ethanol withdrawal, or severe generalized anxiety disorder on or between January 1 of the year prior to the measurement period and the IPSD for benzodiazepines.</td>
 <td>–</td>
 </tr>
 <tr>
@@ -90,8 +91,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -119,16 +120,16 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 {{% note %}}
 
 This is an inverse measure. The goal is to have a 0 in the numerator.  When e-prescribing, avoid prescribing any of the medications listed below, to the specified population, whenever possible.
@@ -138,11 +139,11 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 2. Prescribe medications, as needed.
 3. Continue documenting the encounter, as appropriate.
 4. When complete, Close and Archive the encounter.
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -201,8 +202,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -237,8 +238,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 
@@ -514,8 +515,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-
-### Numerator Exclusions
+  
+### Numerator Exclusions  
 
 
 <table>
@@ -558,8 +559,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-
-## Source(s)
+  
+## Source(s)  
 
 [eCQI CMS156](https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10)
 

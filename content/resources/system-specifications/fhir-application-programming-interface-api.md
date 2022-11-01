@@ -11,9 +11,9 @@ links:
   - 'fhir-application-programming-interface-api/terms-of-use.md'
   - 'fhir-application-programming-interface-api/endpoints.md'
 source: 'https://drive.google.com/open?id=14vy3k0f0EWCGaXu__JfC9ZtWZSsVFxInvTev8gQssbQ'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-[Resource Specifications](fhir-application-programming-interface-api/resource-specifications.md)
-[OAuth 2.0 Tutorial](fhir-application-programming-interface-api/oauth-2.0-tutorial.md)
-[Terms of Use](fhir-application-programming-interface-api/terms-of-use.md)
+[Resource Specifications](fhir-application-programming-interface-api/resource-specifications.md)  
+[OAuth 2.0 Tutorial](fhir-application-programming-interface-api/oauth-2.0-tutorial.md)  
+[Terms of Use](fhir-application-programming-interface-api/terms-of-use.md)  
 [Endpoints](fhir-application-programming-interface-api/endpoints.md)

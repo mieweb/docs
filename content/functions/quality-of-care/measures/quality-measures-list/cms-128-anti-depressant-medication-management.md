@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms128v10'
 source: 'https://drive.google.com/open?id=1FuuAMczkTt8tFHJuRu6eIdGj_lbbafeyahIjsQ9QzWE'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-## Overview
-
-[CMS128v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v8&showresulttype=Measure) (2020)
-[CMS128v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS128v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v8&showresulttype=Measure) (2020)  
+[CMS128v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v9&showresulttype=Measure) (2021)  
 [CMS128v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -61,7 +61,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td>Patients who were actively on an antidepressant medication in the 105 days prior to the Index Prescription Start Date.Exclude patients who are in hospice care for any part of the measurement period.</td>
+<td>Patients who were actively on an antidepressant medication in the 105 days prior to the Index Prescription Start Date.
+Exclude patients who are in hospice care for any part of the measurement period.</td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -79,8 +80,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -108,22 +109,22 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
-
-
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
+  
+### Original Visit Encounter  
 
-## Evidence
 
+  
+## Evidence  
 
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -178,8 +179,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -206,8 +207,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -222,7 +223,7 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS128](https://ecqi.healthit.gov/ecqm/ep/2022/cms128v10)

@@ -2,7 +2,7 @@
 id: '1r345knczilBhSJsSnKbhV-goCPdZe9VcoQk0Y3kss6I'
 title: 'Employer Portal Voluntary Product Accessibility Template (VPAT) '
 date: '2021-09-24T17:59:23.773Z'
-version: 17
+version: 19
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
@@ -90,20 +90,20 @@ links:
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-context-help'
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all'
 source: 'https://drive.google.com/open?id=1r345knczilBhSJsSnKbhV-goCPdZe9VcoQk0Y3kss6I'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-**Medical Informatics Engineering, Inc. Accessibility Conformance Report** 
-**WCAG Edition**
-**(Based on VPAT**®** Version 2.4)**
-**Name of Product/Version:** [**WebChart EHR Employer Portal**](../../../_index.md)
-**Report Date: Sep 9, 2021**
-**Product Description:** [**WebChart Employer Portal**](../../../functions/portal-management.md)
-**Notes: This document only applies to the Employer Portal of** [**WebChart**](../../../_index.md)**.  A separate template has been completed for the public web-facing components.**
+**Medical Informatics Engineering, Inc. Accessibility Conformance Report**   
+**WCAG Edition**  
+**(Based on VPAT**®** Version 2.4)**  
+**Name of Product/Version:** [**WebChart EHR Employer Portal**](../../../_index.md)  
+**Report Date: Sep 9, 2021**  
+**Product Description:** [**WebChart Employer Portal**](../../../functions/portal-management.md)  
+**Notes: This document only applies to the Employer Portal of** [**WebChart**](../../../_index.md)**.  A separate template has been completed for the public web-facing components.**  
 **Evaluation Methods Used:** 
 * Testing is based on general product knowledge
 * Testing is based on similarity to other evaluated products (Webchart EHR - Patient and Agency Portal)
 * Other testing methods: (a11y)
-**Applicable Standards/Guidelines**
+**Applicable Standards/Guidelines**  
 This report covers the degree of conformance for the following accessibility standard/guidelines:
 
 <table>
@@ -113,15 +113,19 @@ This report covers the degree of conformance for the following accessibility sta
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211">Web Content Accessibility Guidelines 2.0</a></td>
-<td>Level A - YesLevel AA - YesLevel AAA - Yes</td>
+<td>Level A - Yes
+Level AA - Yes
+Level AAA - Yes</td>
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21">Web Content Accessibility Guidelines 2.1</a></td>
-<td>Level A - YesLevel AA - YesLevel AAA - Yes</td>
+<td>Level A - Yes
+Level AA - Yes
+Level AAA - Yes</td>
 </tr>
 
 </table>
-**Terms**
+**Terms**  
 The terms used in the Conformance Level information are defined as follows:
 * <strong>Supports</strong>: The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.
 * <strong>Partially Supports</strong>: Some functionality of the product does not meet the criterion.
@@ -129,10 +133,10 @@ The terms used in the Conformance Level information are defined as follows:
 * <strong>Not Applicable</strong>: The criterion is not relevant to the product.
 * <strong>Not Evaluated</strong>: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
 
-**WCAG 2.1 Report**
+**WCAG 2.1 Report**  
 Note: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the[ ](https://www.w3.org/TR/WCAG20/#conformance-reqs)[WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
 
-**Table 1: Success Criteria, Level A**
+**Table 1: Success Criteria, Level A**  
 Notes:
 
 <table>
@@ -294,7 +298,7 @@ Notes:
 
 </table>
 
-**Table 2: Success Criteria, Level AA**
+**Table 2: Success Criteria, Level AA**  
 Notes:
 
 <table>
@@ -406,7 +410,7 @@ Notes:
 
 </table>
 
-**Table 3: Success Criteria, Level AAA**
+**Table 3: Success Criteria, Level AAA**  
 Notes:
 
 <table>
@@ -558,6 +562,6 @@ Notes:
 
 </table>
 
-**Legal Disclaimer (Medical Informatics Engineering, Inc.)**
+**Legal Disclaimer (Medical Informatics Engineering, Inc.)**  
 *Include your company legal disclaimer here, if needed*
 

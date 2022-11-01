@@ -7,10 +7,10 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities'
-  - 'improvement-activities-measures/2018-improvement-activities.md'
-  - 'improvement-activities-measures/2019-improvement-activities.md'
+  - 'gdoc:1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
+  - 'gdoc:1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
 source: 'https://drive.google.com/open?id=1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Improvement Activities Measures'
@@ -27,10 +27,10 @@ Improvement activities allow practices to participate in meaningful ways to bett
 
 
 
-[**2018 Improvement Activities**](improvement-activities-measures/2018-improvement-activities.md)
+[**2018 Improvement Activities**](gdoc:1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI)
 
 
 
 
-[**2019 Improvement Activities**](improvement-activities-measures/2019-improvement-activities.md)
+[**2019 Improvement Activities**](gdoc:1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU)
 

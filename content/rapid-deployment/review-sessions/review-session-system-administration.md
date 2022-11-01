@@ -2,7 +2,7 @@
 id: '1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
 title: 'Review Session - System Administration'
 date: '2020-02-27T21:26:12.492Z'
-version: 43
+version: 53
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -28,7 +28,7 @@ links:
   - '../../functions/system-administration/system-controls/user-provider-and-department-management.md'
   - '../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md'
 source: 'https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Review Session - System Administration'
@@ -36,7 +36,7 @@ menu:
     parent: '1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM'
     weight: 6180
 ---
-## Agenda
+## Agenda  
 
 * <strong>System Administration Demonstration</strong>
 * <strong>Overview</strong>
@@ -52,28 +52,28 @@ menu:
       * <strong>Security Role Settings</strong>
       * <strong>System Settings</strong>
 * <strong>Resources</strong>
-
-## Overview
-
-The System Administration module is designed to help medical practices control and monitor what happens behind the scenes of their EHR. With it comes essential tools for managing and overseeing user access, system setup, and general operations of the {{% system-name %}} system. Users are also given some autonomy with the ability to customize any personal preferences from their [My Settings tab](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) of the **Control Panel**. This allows each user to personalize their views, schedules, and overall organization to align with their role or workflow.
-As a matter of principle, {{% system-name %}} ensures its products meet the national security and privacy standards, making them HIPAA compliant and secure. In other words, system administrators can control access to the various components of the system, as well as user abilities, such as adding/modifying data, prescribing medications, or documenting exams, for example. With role-based access control, the system administrator can easily allow or limit access to provider schedules, PHI, chart data and results, as well as to various other system features.
-Security role permissions can be established and customized for an entire department (e.g., Physicians, Scheduling, Medical Records) or individual users. Additionally, user activity can be easily monitored using the tools of the System Administration module. Custom reports can be created based on chart name, document ID, date, user or event, and server activity logs are also available and kept in real-time, if necessary. Important activities such as user login, access to patient charts, creation or deletion of charts or encounters, and user logout are all displayed as they happen.
-For added security, any repeated failed attempts by a user to log into the {{% system-name %}} system will lock the user out of the system until the account is reset by the system administrator. Additional EHR security measures include username/password requirements and an application timeout setting, logging any user out after a period of inactivity.
+  
+## Overview  
+  
+The System Administration module is designed to help medical practices control and monitor what happens behind the scenes of their EHR. With it comes essential tools for managing and overseeing user access, system setup, and general operations of the {{% system-name %}} system. Users are also given some autonomy with the ability to customize any personal preferences from their [My Settings tab](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) of the **Control Panel**. This allows each user to personalize their views, schedules, and overall organization to align with their role or workflow.  
+As a matter of principle, {{% system-name %}} ensures its products meet the national security and privacy standards, making them HIPAA compliant and secure. In other words, system administrators can control access to the various components of the system, as well as user abilities, such as adding/modifying data, prescribing medications, or documenting exams, for example. With role-based access control, the system administrator can easily allow or limit access to provider schedules, PHI, chart data and results, as well as to various other system features.  
+Security role permissions can be established and customized for an entire department (e.g., Physicians, Scheduling, Medical Records) or individual users. Additionally, user activity can be easily monitored using the tools of the System Administration module. Custom reports can be created based on chart name, document ID, date, user or event, and server activity logs are also available and kept in real-time, if necessary. Important activities such as user login, access to patient charts, creation or deletion of charts or encounters, and user logout are all displayed as they happen.  
+For added security, any repeated failed attempts by a user to log into the {{% system-name %}} system will lock the user out of the system until the account is reset by the system administrator. Additional EHR security measures include username/password requirements and an application timeout setting, logging any user out after a period of inactivity.  
 {{% info %}}
 
 If an error should occur within a custom interface of the {{% system-name %}} system, an email is automatically sent to the {{% system-name %}} technical support department reporting the error.
 {{% /info %}}
+  
+## System Configuration  
 
-## System Configuration
-
-
-### Browser Requirements
+  
+### Browser Requirements  
 
 All up-to-date browsers with strong TLS cipher strength (at least 1.2) and continued manufacturer support are supported when using the {{% system-name %}} system. If unsure of the browser being used, visit [https://whatsmybrowser.org](https://whatsmybrowser.org), or if the browser is known, but the current SSL/TLS capabilities are unknown, visit the [Qualys SSL Client Test](https://www.ssllabs.com/ssltest/viewMyClient.html). Otherwise, feel free to contact the MIE Helpdesk with any questions or concerns.
 Also important to consider is the use of ActiveX controls, used exclusively in Internet Explorer (IE) browsers. When using an IE platform, ActiveX controls must remain up-to-date. These controls are not only used for many things (e.g., uploading dictations, controlling scanners, interfacing with Microsoft Word, uploading/viewing DICOM files, controlling camera and video capture), but without current and updated ActiveX controls, users of IE browsers may become easy targets of security breaches. With that said, IE 10 or higher (IE 11 recommended) is required for all ActiveX components. However, the vast majority of {{% system-name %}} content is viewable without the need to load software or even ActiveX controls onto a PC.
 Lastly, do not forget to update the trusted sites list for each workstation expecting to access {{% system-name %}} help documentation. In order to ensure all documentation will display correctly and be available for viewing, add either [http://docs.enterprisehealth.com](http://docs.enterprisehealth.com) or [http://docs.webchartnow.com](http://docs.webchartnow.com), depending on your system build. This can be done using the browser's Internet Options menu.
-
-### ActiveX Controls
+  
+### ActiveX Controls  
 
 As noted, certain modules, load screens, and functionalities require ActiveX controls, or additional plugins, in order to operate and perform correctly. Therefore, those interested in using the scanning and indexing functionality, dictation controls, video and camera capture, or the like, must use IE 10 or higher, with ActiveX controls installed. These plugins need installed, because they are necessary extensions to the associated programs.
 When in the **Control Panel**, a [Plugins tab](https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins) is available, to help guide the installation process along. Here, administrators may access the necessary plugins and installation files. This page can also be used to determine if a specific control is supported in the current browser, or to access and install the relevant plugins, directly. This can be performed individually, or all at once, using a CAB file.
@@ -100,8 +100,8 @@ It is important to determine who is expected to maintain the network. Verify the
 
 When logged into the {{% system-name %}} system, copying and pasting ?f=wcversion to the end of the URL and hitting the Enter key will load a page displaying all of the plugin versions available from the {{% system-name %}} system. These are **NOT** the versions installed on the workstation.
 {{% /tip %}}
-
-### Language Translations
+  
+### Language Translations  
 
 {{% system-name %}} currently supports translations of nine (9) different languages: English, Chinese (simplified), Dutch, Indonesian, Portuguese, Russian, Spanish, Thai, and Vietnamese. Available translations are not complete, and user input is required for custom layouts and any changes made to the {{% system-name %}} system. Furthermore, MIE cannot attest to the full accuracy of translations, as differing interpretations and vocabulary are used across the various countries.
 {{% info %}}
@@ -114,12 +114,12 @@ After defining the list of countries and languages the {{% system-name %}} syste
 To assist with translation efforts, MIE can provide an export of all observations in the database, allowing for translations to be paired and easily updated, accordingly.
 {{% /tip %}}
 Additionally, any clients anticipating the use of the {{% system-name %}} system across multiple countries and languages will want to ensure discovery around all workflows, according to the locality and language. Not to mention, time zones will need to be discussed and configured, which can be done from either the [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) or the individual [Access Control](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control) settings.
-
-### Scheduled Jobs
+  
+### Scheduled Jobs  
 
 As a means to automate varying types of system maintenance and necessary workflows, {{% system-name %}} often has recurring scheduled (or cron) jobs that are set to run periodically, on set dates, times, or intervals. It is important that any necessary scheduled/cron jobs are established and set up, prior to any Go-Live dates. Review any possible scheduled jobs needed for performing, reporting, or auditing requirements and ensure all are set up in the {{% system-name %}} system.
-
-### Secure Email Setup
+  
+### Secure Email Setup  
 
 Email notifications can be generated a couple of different ways in the {{% system-name %}} system, including manually (by a user) or automatically, through programmed, time-based cron jobs. These scheduled jobs not only trigger various processes, but they can also be programmed to generate and send specific emails, as needed. That said, much of this available email functionality is controlled by system settings, custom reports, and scheduled jobs. Therefore, functionality will vary by client.
 Secure emails can be sent to specific employees/patients, or supervisors/staff, to notify of pending appointments, health-related needs, or follow-ups. Additionally, emailing can be configured for emailing other, outside domains, if necessary. This would require an established secure connection (e.g., VPN, TLS, etc.). Please contact your Deployment Specialist for more information regarding set up, or for more general information, see the [Secure Email to Whitelisted Domains](../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md) documentation.
@@ -139,38 +139,38 @@ TLS is a tedious configuration prone to failure, and when failure occurs, there 
 Only a base set of storage types are supported for use with the secure email functionality. For example, lab results, injection records, and the like are not supported storage types, at this time.
 {{% /info %}}
 For clients interested in using the {{% system-name %}} secure email functionality, first review the list of current email templates and scheduled jobs. Determine which email layouts, alerts, reminders and notifications need customized, edited, or disabled based on requirements, workflow needs, and content of the text. Time will also need provided for discussing and verifying the host of the email server.
-
-### Single Sign-On (SSO)
+  
+### Single Sign-On (SSO)  
 
 Single Sign-On (SSO) is the industry standard being used to access sensitive data and protected health information. SSO enables users to access all {{% system-name %}} services by simply signing in one time and granting access through an established login trust. To take advantage of the SSO benefits and expedite the implementation process, various discussions between the client, MIE, and the established network contacts will be needed to determine what environments require SSO (e.g., production database, the migration database, QA database, etc.), as well as to review the associated details and requirements involved.
 SSO is a requirement for clients that have purchased an HR Interface. Details pertaining to the interface, particularly the anticipated timeline/frequency (e.g., real-time, hourly, nightly, weekly, etc.) of running scheduled jobs for chart and user creation, will need discussed, and any excluded users (e.g., executives, pre-placement, department-specific roles, etc.) from the HR feed will need to be noted, to ensure SSO access to the {{% system-name %}} system and/or portal(s).
 For clients managing individual user logins and passwords, it is important to review the applicable system settings for logins and passwords, so the appropriate system settings can be configured, as needed. Simply navigate to the [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) of the **Control Panel**, and search separately for the keywords **password** and **login**, configuring the system settings, as appropriate.
-
-### Audit & Activity Logs
+  
+### Audit & Activity Logs  
 
 The System Administration module tracks user activity and movement throughout the {{% system-name %}} system. Server activity logs are kept in real-time, and custom reports can be created based on chart name, document ID, date, user, or event. Sensitive, or important, activities such as user login, accessing charts, creation/deletion of charts or encounters, and user logouts are all displayed as they happen. For added security, any repeated failed attempts by a user to log into the {{% system-name %}} system will lock the user out of the system until the account is reset by the system administrator.
 For some of the best results, spend time reviewing the **Activity Log** chart tab within a chart, and determine if visibility needs restricted from specific users. Also, navigate to the **Reports** sidemenu, and run the [Activity Log Report](https://system/?f=admin&s=pat&subfunc=activity_log&tabmodule=reports&t=Utilization), found under the **Utilization** tab. Once satisfied, spend time considering if an emergency access, or Break The Glass, feature is needed for any specific users, and whether or not a Break The Glass reporting tool will be necessary.
-
-### Settings/Preferences
+  
+### Settings/Preferences  
 
 Depending on the security permissions granted, specific users can have the ability to manage settings and preferences system-wide, for others, or just for themselves. To edit these settings and preferences, users with the necessary permissions, may navigate to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the **Control Panel**, and manage the options, as needed. Be sure to review all security roles and individual settings, to ensure only those needing access to the System Admin functionality have access.
 For more information, see the [My Settings](../../functions/system-administration/security/my-settings.md) help documentation.
-
-#### Security Role Settings
+  
+#### Security Role Settings  
 
 As noted, the {{% system-name %}} system is equipped with role-based access control security features, allowing system administrators to determine what access is available to which users. This means system administrators can allow or limit staff access to many things, such as charts, patient information, lab results, as well as the various {{% system-name %}} security functions and configuration features.
 Security roles can be defined for an entire department (e.g., Physicians, Medical Records, Billing, etc.) or individually. For this reason, it is important to review all user security settings for individual users, as well as role-based positions and departments, needing access to the varying functionality, as needed.
 For more detailed information, check out the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) and [Compare Security Roles](../../functions/system-administration/security/compare-security-roles.md) help documentation.
-
-#### System Settings
+  
+#### System Settings  
 
 There are several system settings available for system administrators. It is recommended that a review of all of the relevant system settings occur with the Deployment Specialist, so any questions pertaining to workflows and system configuration can be addressed. To begin viewing all of the system settings pertaining to system administration, simply perform keyword searches from the [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) tab of the **Control Panel**. This provides a view of all the available system settings that may need enabled, disabled, edited, or set with a specific value, according to the client workflows. Most system settings are enabled or disabled, by default; however, other system settings can be added by the Implementation department as needs arise.
-
-## Resources
+  
+## Resources  
 
 [System Administration Public Wiki](https://www.mieweb.com/wiki/System_Administration)
-
-### Help Documentation
+  
+### Help Documentation  
 
 * [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.md)
 * [System Plugins](../../functions/system-administration/system-controls/system-plugins.md)

@@ -7,14 +7,14 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PleeV1Z7fxATGu1yowdD2s_fPffeoRkLVlFzNyCYPQw'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
 Edit employer organizations to change information about an organization, such as address, search name, or fax number.
 1. Find employer organization.
 2. From the search results, select the <strong>name of the organization</strong> to edit. The system displays information about the organization.
 3. In the <em>Employer Organization</em> section, select the <strong>Edit</strong> button. The system makes information about the employer organization available to edit.
 
-   <img src="../editing-employer-organizations.assets/10000000000000340000003076FFC6355C947296.png" />
+   <img src="../editing-employer-organizations.assets/10000000000000340000003076FFC6355C947296.png" />  
 
 4. Type or make selections in the fields in the section.
 5. At the bottom of the page, select the <strong>Submit</strong> button. The system applies the changes to the employer organization and displays information about it.

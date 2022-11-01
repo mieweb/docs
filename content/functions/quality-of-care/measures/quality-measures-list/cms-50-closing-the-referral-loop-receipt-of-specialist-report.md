@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10'
 source: 'https://drive.google.com/open?id=1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 50 - Closing the Referral Loop: Receipt of Specialist Report'
@@ -19,13 +19,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3810
 ---
-## Overview
-
-[CMS50v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v8&showresulttype=Measure) (2020)
-[CMS50v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS50v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v8&showresulttype=Measure) (2020)  
+[CMS50v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v9&showresulttype=Measure) (2021)  
 [CMS50v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -44,8 +44,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -80,8 +80,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -108,16 +108,16 @@ menu:
 
 </table>
 
-
-## Clinical Instructions
-
+  
+## Clinical Instructions  
+  
 Ensure the system is configured to order, track, and archive referrals appropriately creating documents with allowable SNOMED Concept IDs. This includes configuration for scanning and indexing functionality, so that reports, consultations, referral letters, or the like can be scanned into and indexed within the system and be tracked appropriately. With configurations in place, use the encounter visit orders to refer a patient out, and when the receipt of the appropriate report/consultation is received, link to the referral order and complete.
-
-### Workflow
-
-In an encounter
-Open Visit orders section
-Make referral order
+  
+### Workflow  
+  
+In an encounter  
+Open Visit orders section  
+Make referral order  
 Refer to outside provider
 
 
@@ -140,11 +140,11 @@ Refer to outside provider
    * The consult note needs to be received after the referral order is created.
    * The consult report cannot be from the same provider that sent the referral order.
 {{% /note %}}
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -187,8 +187,8 @@ Refer to outside provider
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -203,7 +203,7 @@ Refer to outside provider
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS50](https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10)

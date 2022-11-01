@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care'
   - 'https://system/?f=layout&s=pat&module=MIPS&name=Quality+of+Care+Status&t=Quality+of+Care&tabmodule=reports'
 source: 'https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Provider Quality of Care Status'
@@ -17,7 +17,7 @@ menu:
     parent: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
     weight: 2510
 ---
-Often, it is necessary to review compliance data and ensure participants are aligned with quarterly benchmarks and overall outcomes. The Provider Quality of Care Status report allows administrators to review individual, or all, participants, enrolled measures and their details, initial populations, numerators and denominators, etc.  
+Often, it is necessary to review compliance data and ensure participants are aligned with quarterly benchmarks and overall outcomes. The Provider Quality of Care Status report allows administrators to review individual, or all, participants, enrolled measures and their details, initial populations, numerators and denominators, etc.    
 To begin reviewing your compliance data, perform the following:
 1. Log into the {{% system-name %}} system.
 2. Navigate to the [Reports](https://system/?f=layout&module=reports&name=reports&tabmodule=reports) side menu.

@@ -6,9 +6,9 @@ version: 31
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'installing-mie-device-app.md'
+  - 'gdoc:1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 source: 'https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Device Interface - Titmus V4'
@@ -16,13 +16,13 @@ menu:
     parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
     weight: 5610
 ---
-This page provides instructions for interfacing the Titmus V4 Vision Screener with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable. 
+This page provides instructions for interfacing the Titmus V4 Vision Screener with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.   
 {{% note %}}
 
-Be sure to install the required applications for optimal functionality. The device interface uses the [MIE Device App](installing-mie-device-app.md) to communicate with {{% system-name %}} .
+Be sure to install the required applications for optimal functionality. The device interface uses the [MIE Device App](gdoc:1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE) to communicate with {{% system-name %}} .
 {{% /note %}}
-
-## **Setup & Installation**
+  
+## **Setup & Installation**  
 
 The Titmus V4 Screener device interface uses the Titmus Software, which will need to be configured to save a file upon completion of each vision test. To configure the software, perform the following:
 1. Open the Titmus Software.
@@ -51,7 +51,7 @@ The Titmus V4 Screener device interface uses the Titmus Software, which will nee
 
 
 
-6. Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](installing-mie-device-app.md).
+6. Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](gdoc:1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE).
 
    <img src="../device-interface-titmus-v4.assets/1000020100000272000000B2A738F13479EE77B2.png" />
 
@@ -62,8 +62,8 @@ The Titmus V4 Screener device interface uses the Titmus Software, which will nee
 
 
 8. Click <strong>Close</strong>.
-
-## **Collected Data Fields**
+  
+## **Collected Data Fields**  
 
 The following data fields are collected in {{% system-name %}} using the Titmus V4 Vision Screener:
 
@@ -137,8 +137,8 @@ The following data fields are collected in {{% system-name %}} using the Titmus
 </tr>
 
 </table>
-
-## **Using the Device Interface**
+  
+## **Using the Device Interface**  
 
 1. While in a chart, add a <strong>Vision Screening</strong> order to the Due List.
 
@@ -168,5 +168,5 @@ The following data fields are collected in {{% system-name %}} using the Titmus
 
 6. After completed, the results will be automatically uploaded to {{% system-name %}} and the Vision Screening section will update with the results.
 
-   <img src="../device-interface-titmus-v4.assets/10000000000004DF0000011A58E1C501F4858C5C.png" />
+   <img src="../device-interface-titmus-v4.assets/10000000000004DF0000011A58E1C501F4858C5C.png" />  
 

@@ -6,16 +6,16 @@ version: 68
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'data-migration-file-format-standard.md'
+  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-0'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-1'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0'
   - 'https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1'
   - 'https://docs.python.org/2/library/string.html#format-string-syntax'
-  - 'data-migration-overview.md'
+  - 'gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
 source: 'https://drive.google.com/open?id=12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'System Conversion'
@@ -31,19 +31,19 @@ menu:
 * Discrete Audiograms
 * Encounters
 There are a few stages involved in the conversion:
-1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](data-migration-file-format-standard.md) <strong><em>(see this page for data file requirements).</em></strong>
+1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg) <strong><em>(see this page for data file requirements).</em></strong>
 2. Legacy Data is loaded to development MySQL database using MIE's pysqlimport tool.
 3. Generate <em>Data Mapping Spreadsheet</em> (Google Spreadsheet exportable to Excel/CSV for client use).
 4. Perform data mapping and define WebChart components.
 5. Define metadata for WebChart components.
 6. Export data mapping and convert data using MIE's legacy data conversion tool.
-This guide focuses on the Data Mapping Spreadsheet and how to define components to create in WebChart.
+This guide focuses on the Data Mapping Spreadsheet and how to define components to create in WebChart.  
 The Data Mapping Spreadsheet is a Google Spreadsheet generated from the legacy database. The following worksheets appear in the spreadsheet:
 1. Data Mapping: a full list of every table and every field along with details about the data type, contents, and usage. The Data Mapping worksheet contains columns for mapping legacy fields to WebChart components and defining discrete data.
 2. Module Summary: used in conjunction with Data Mapping to define various metadata for the summary documents and discrete components. Examples of metadata include patient ID, user ID, doc type, location, and many other pieces of data that would apply to all of the items in a summary document or discrete component.
 
-
-### **Data Mapping Worksheet**
+  
+### **Data Mapping Worksheet**  
 
 * Columns A-C, R-Y: details about legacy database.
    * <strong>A. Legacy DB</strong>: The name of the legacy database.
@@ -64,12 +64,12 @@ The Data Mapping Spreadsheet is a Google Spreadsheet generated from the legacy d
 * <strong>Column F: Module</strong>: Handle used to refer to a WebChart component to be created. This must match a line in Module Summary to be created.
 * <strong>Column G: Order</strong>: Defines the order of component items.
 
+  
+### **Module Summary Worksheet**  
 
-### **Module Summary Worksheet**
 
-
-
-#### **Columns**
+  
+#### **Columns**  
 
 * <strong>Column A: Module</strong>: Name of module used in Data Mapping.
 * <strong>Column B: Component</strong>: Name of WebChart component. e.g. Summary Document, Observation, PFT, Fit Test, Audiogram.
@@ -77,10 +77,10 @@ The Data Mapping Spreadsheet is a Google Spreadsheet generated from the legacy d
 * <strong>Columns E-G</strong>: Reserved for developer use.
 * <strong>Columns J-P</strong>: Define component metadata. See next section for documentation of options.
 
-
-#### **Metadata options**
-
-These are a set of functions that can dynamically define component metadata per row or have a static value defined. Whether these functions are used depends on the component.
+  
+#### **Metadata options**  
+  
+These are a set of functions that can dynamically define component metadata per row or have a static value defined. Whether these functions are used depends on the component.  
 **TODO:** Insert table here.
 * get_pat_id -
 * get_user_id -
@@ -90,24 +90,24 @@ These are a set of functions that can dynamically define component metadata per 
 * get_location -
 * get_encounter_id - Link component to an Encounter.
 
-
-#### **Updating**
-
+  
+#### **Updating**  
+  
 When entering data into the Google Spreadsheet, a menu item is available (WebChart Conversion>Update Module) to assist with completing the needed Module Summary lines. Click this at any point to update the module lines in this tab.
+  
+![](../system-conversion.assets/100002010000030800000061E1D52E0ED3DDCC27.png)  
 
-![](../system-conversion.assets/100002010000030800000061E1D52E0ED3DDCC27.png)
 
-
-
-## **Migration Mapping**
-
+  
+## **Migration Mapping**  
+  
 Components require two parts to complete. First are the **Data Mapping** rows that share the same value for Column E, **Module**. Second, the component needs a matching line (Column A, **Module**) in the **Module Summary** that defines the rest of the metadata.
 
-
-### **Encounters**
-
-An encounter documents a visit with a patient, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during a patient appointment. This is a tool used for recording information collected during a patient appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note.
-All aspects of the visit are covered in the encounter, such as the appointment type and time (apt_id), and when the patient checked in and out (pat_location table). Medications, allergies, and related documents are included or linked to an encounter with the encounters_link table.
+  
+### **Encounters**  
+  
+An encounter documents a visit with a patient, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during a patient appointment. This is a tool used for recording information collected during a patient appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note.  
+All aspects of the visit are covered in the encounter, such as the appointment type and time (apt_id), and when the patient checked in and out (pat_location table). Medications, allergies, and related documents are included or linked to an encounter with the encounters_link table.  
 Data Mapping:
 * Column F, Module: <em>My Encounter Module</em>
 * Column K, Encounter Options
@@ -139,35 +139,35 @@ Module Summary:
    * get_ext_id
    * get_location
 
-
-#### **Example**
-
+  
+#### **Example**  
+  
 The following table **encounters** is used for the Encounter example.
-
-![](../system-conversion.assets/1000020100000304000001DAB83754C21AD9AC57.png)
+  
+![](../system-conversion.assets/1000020100000304000001DAB83754C21AD9AC57.png)  
 
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>encounters</strong> and it's columns have been located.
 3. <strong>Sample Encounter</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Encounter Options* listed above, determine the mapping to legacy columns and complete the column **Encounter Options**.
-
-![](../system-conversion.assets/1000020100000321000001E36FDA38CC537D14BF.png)
+  
+![](../system-conversion.assets/1000020100000321000001E36FDA38CC537D14BF.png)  
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-
-![](../system-conversion.assets/10000201000003090000005FDD3C522DB81FDCB2.png)
+  
+![](../system-conversion.assets/10000201000003090000005FDD3C522DB81FDCB2.png)  
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Encounter** module.
-
-![](../system-conversion.assets/10000201000002E20000011E2C8FDA7E2CF029DE.png)
+  
+![](../system-conversion.assets/10000201000002E20000011E2C8FDA7E2CF029DE.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-
-![](../system-conversion.assets/1000020100000321000000B04BAF1C4DAB93A81D.png)
+  
+![](../system-conversion.assets/1000020100000321000000B04BAF1C4DAB93A81D.png)  
 
 Notice:
 1. The "Module Summary" tab is still selected.
@@ -185,25 +185,25 @@ Notice:
    1. get_location - Define the location where the encounter took place.
       1. default=OFFICE - Use OFFICE for the location code for all encounters created.
 The example Encounters (Visits>Encounters) were crafted to be created for the patient William Hart.
-
-![](../system-conversion.assets/10000201000002B8000001EEA7789543891A1C91.png)
+  
+![](../system-conversion.assets/10000201000002B8000001EEA7789543891A1C91.png)  
 
 The newly generated Encounters:
+  
+![](../system-conversion.assets/1000020100000322000001B60326BE4EE8ADEC67.png)  
 
-![](../system-conversion.assets/1000020100000322000001B60326BE4EE8ADEC67.png)
 
-
-
-### **Summary Documents**
-
+  
+### **Summary Documents**  
+  
 A Document is defined as a piece of electronic matter that that serves as an official record in WebChart. A Document has a "document ID" and has the following properties:
 * Persistence
 * Stewardship
 * Potential for authentication
 * Context
 * Human readability
-Documents store a wide variety of information pertaining to patient charts in WebChart. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, physician tasks for a patient, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data. Aside from encounters, incidents, observations, and other types of discrete chart data, documents represent the primary mode of storing information on a chart. The doc_type column identifies the category of the document, such as those previously mentioned.
-There are several doc_types that are included as part of the default installation of WebChart, but they may be added and deleted to customize the system using the DocType Editor in WebChart. The storage_type identifies what kind of file is represented by the document. Examples of storage types include plain text documents, HTML files, PDF files, JPEG images, injections, audiograms, PFTs, and many others. Storage types are stored in the storage_types table. Each document in the documents table has a foreign key called storage_type, but these storage types may not be edited or customized in WebChart. Using the doc_type and storage_type of a document in the documents table, one can tell what sort of document it is and see how the document is stored and what other tables may be related to the document.
+Documents store a wide variety of information pertaining to patient charts in WebChart. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, physician tasks for a patient, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data. Aside from encounters, incidents, observations, and other types of discrete chart data, documents represent the primary mode of storing information on a chart. The doc_type column identifies the category of the document, such as those previously mentioned.  
+There are several doc_types that are included as part of the default installation of WebChart, but they may be added and deleted to customize the system using the DocType Editor in WebChart. The storage_type identifies what kind of file is represented by the document. Examples of storage types include plain text documents, HTML files, PDF files, JPEG images, injections, audiograms, PFTs, and many others. Storage types are stored in the storage_types table. Each document in the documents table has a foreign key called storage_type, but these storage types may not be edited or customized in WebChart. Using the doc_type and storage_type of a document in the documents table, one can tell what sort of document it is and see how the document is stored and what other tables may be related to the document.  
 Data Mapping:
 * Column E, Module: My Document Module
 * Column D, Description: Used for left column value
@@ -230,35 +230,35 @@ Module Summary:
    * get_ext_id
    * get_interface_name
 
-
-#### **Example**
-
+  
+#### **Example**  
+  
 The following table **documents** is used for the Summary Documents example.
-
-![](../system-conversion.assets/1000020100000322000001D5A38EFE4BAD3A34B3.png)
+  
+![](../system-conversion.assets/1000020100000322000001D5A38EFE4BAD3A34B3.png)  
 
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>documents</strong> and it's columns have been located.
 3. <strong>Sample Summary Document</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Document Options* and *Element Types* listed above, determine the mapping to legacy columns and complete the columns. The **Description** and **Order** has also been filled to demonstrate their effect on the created document.
-
-![](../system-conversion.assets/100002010000032100000125090A706A96F1DB6F.png)
+  
+![](../system-conversion.assets/100002010000032100000125090A706A96F1DB6F.png)  
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-
-![](../system-conversion.assets/100002010000030B0000006030AFDDFBE4213860.png)
+  
+![](../system-conversion.assets/100002010000030B0000006030AFDDFBE4213860.png)  
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Summary Document** module.
-
-![](../system-conversion.assets/10000201000002B5000001166C5042B1A0CC4A72.png)
+  
+![](../system-conversion.assets/10000201000002B5000001166C5042B1A0CC4A72.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-
-![](../system-conversion.assets/100002010000032200000094EF024611D9973E93.png)
+  
+![](../system-conversion.assets/100002010000032200000094EF024611D9973E93.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
@@ -278,26 +278,26 @@ Notice:
    1. get_location - Define the location where the document was created.
       1. default=OFFICE - Use OFFICE for the location code for all documents created.
 The example Summary Documents (Document Summary) were crafted to be created for the patient William Hart.
-
-![](../system-conversion.assets/10000201000003010000021D05760394994B915F.png)
+  
+![](../system-conversion.assets/10000201000003010000021D05760394994B915F.png)  
 
 The newly generated Summary Documents:
-
-![](../system-conversion.assets/100002010000031F000001A5BB058EB1559B9660.png)
+  
+![](../system-conversion.assets/100002010000031F000001A5BB058EB1559B9660.png)  
 
 Here is an example Summary Document. Descriptions appear on the left column, while database values appear on the right. At the bottom containing comments is the *narrative*. Both sections are sorted according to the order specified in the **Data Mapping**.
+  
+![](../system-conversion.assets/100002010000026A00000259EC7188983026D894.png)  
 
-![](../system-conversion.assets/100002010000026A00000259EC7188983026D894.png)
 
-
-
-### **Observations**
-
-An observation in WebChart is a means of storing repeated historic data, such as vital signs, lab results, measurements, and other discrete data. Any discrete data can be stored as an observation, but some is stored on other custom tables, such as audiograms, demographics information, injections, medications, prescriptions, and allergies. The data in these other custom tables may also be stored as observations. A number of related tables define, store, and group observations in WebChart so that they can be collected and displayed in a patient's chart, including: observation_codes, obs_forms, observation_ranges, observations_current, translate, observation_codes_list, and lab_requests.
-The observations table stores discreet data related to an observation code (obs_code). The data defines where an observation appears in a WebChart system by relating the observation code to a patient (pat_id), the user who entered the observation (observer_id), when it was recorded (observed_datetime) and when it was revised (revision_number). Details in the observations table can override details stored on the observation_codes table, such as range, name, and units (obs_range, obs_name, obs_units).
-Observations are linked to users through the user ID (user_id). The users table stores information on providers and WebChart users.
-The translate table is used throughout WebChart for translations of all kinds, but is used specifically with observations to map an interface's own observation code to an obs_code in WebChart.
-Multiple observations can be created for a single module. Each observation is a module **component**, and uses the **handle**, **obs_name**, or **obs_code** to match the Data Mapping to Module Summary.
+  
+### **Observations**  
+  
+An observation in WebChart is a means of storing repeated historic data, such as vital signs, lab results, measurements, and other discrete data. Any discrete data can be stored as an observation, but some is stored on other custom tables, such as audiograms, demographics information, injections, medications, prescriptions, and allergies. The data in these other custom tables may also be stored as observations. A number of related tables define, store, and group observations in WebChart so that they can be collected and displayed in a patient's chart, including: observation_codes, obs_forms, observation_ranges, observations_current, translate, observation_codes_list, and lab_requests.  
+The observations table stores discreet data related to an observation code (obs_code). The data defines where an observation appears in a WebChart system by relating the observation code to a patient (pat_id), the user who entered the observation (observer_id), when it was recorded (observed_datetime) and when it was revised (revision_number). Details in the observations table can override details stored on the observation_codes table, such as range, name, and units (obs_range, obs_name, obs_units).  
+Observations are linked to users through the user ID (user_id). The users table stores information on providers and WebChart users.  
+The translate table is used throughout WebChart for translations of all kinds, but is used specifically with observations to map an interface's own observation code to an obs_code in WebChart.  
+Multiple observations can be created for a single module. Each observation is a module **component**, and uses the **handle**, **obs_name**, or **obs_code** to match the Data Mapping to Module Summary.  
 Data Mapping:
 * Column E, Module: <em>My Observations Module</em>
 * Column K, Observation Options: Reserved for future use. Likely to combine L-N and also store handle here.
@@ -321,39 +321,39 @@ Module Summary (one line per Observation):
    * get_ext_id
    * get_interface_name
 
-
-#### **Example**
-
+  
+#### **Example**  
+  
 The following table **observations** is used for the Observations example.
-
-![](../system-conversion.assets/100002010000031E000001B4ED5E151680D1990C.png)
+  
+![](../system-conversion.assets/100002010000031E000001B4ED5E151680D1990C.png)  
 
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>observations</strong> and it's columns have been located.
 3. <strong>Sample Observations</strong> has been entered for the Module column for each row of the table.
 Based on the Observation Options, get_obs_name, and get_obs_test_comments options listed above, determine the mapping to legacy columns and complete the columns.
-
-![](../system-conversion.assets/1000020100000323000000F9D4473772F15E2C5F.png)
+  
+![](../system-conversion.assets/1000020100000323000000F9D4473772F15E2C5F.png)  
 
 Three observations have been identified here. All are using the value of "test_date" for the observed date. They are also using the values of "comments1-4" for the observation comments.
 1. obs_name BODY HEIGHT - The observation code is specified by name.
 2. obs_code 2053 - The observation code is listed directly.
 3. obs_name BMI - The observation code is specified by name. An optional handle of "body mass index" has been applied (to be used on the Module Summary).
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-
-![](../system-conversion.assets/100002010000030B0000006117778B6A353DA5A6.png)
+  
+![](../system-conversion.assets/100002010000030B0000006117778B6A353DA5A6.png)  
 
 Click on the **Module Summary** tab to see a row automatically created for each **Sample Observations** component.
-
-![](../system-conversion.assets/100002010000029A00000169BCE6011E72D12517.png)
+  
+![](../system-conversion.assets/100002010000029A00000169BCE6011E72D12517.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module rows have minimal information and will need to be completed.
 The completed rows:
-
-![](../system-conversion.assets/1000020100000324000000E5D61ADBAA15323ED7.png)
+  
+![](../system-conversion.assets/1000020100000324000000E5D61ADBAA15323ED7.png)  
 
 Notice:
 1. The Module Summary tab is still selected.
@@ -369,24 +369,24 @@ Notice:
    1. get_ext_id - Define an external identifier (identifies the individual record in the source data).
       1. db_cols=id - In the "observations" table, the column "id" is used for an external identifier.
 The example Observations (Medical Record>Observations/Flowsheets) were crafted to be created for the patient William Hart.
-
-![](../system-conversion.assets/1000020100000293000001E4DE39A0A1ACF9BA2E.png)
+  
+![](../system-conversion.assets/1000020100000293000001E4DE39A0A1ACF9BA2E.png)  
 
 To see the results:
 1. Select a date range that is limited to the results you need.
 2. For the example, which contains vitals, select the <strong>Vitals</strong> flowsheet. Depending on the observations you select, you may need to view them on a custom or different flowsheet.
 
-   <img src="../system-conversion.assets/10000201000002F1000002597AA63656BEF53CFF.png" />
+   <img src="../system-conversion.assets/10000201000002F1000002597AA63656BEF53CFF.png" />  
 
 The newly generated Observations:
+  
+![](../system-conversion.assets/10000201000002B900000257C1934D26261F141F.png)  
 
-![](../system-conversion.assets/10000201000002B900000257C1934D26261F141F.png)
 
-
-
-### **Respirator Fit Test**
-
-Respirator fit details are stored on a custom table. The patient_respiratordetails table is a record of all respirator masks a patient/employee is tested on for use. This table records fit tests for a single patient and links to the patients table through the patient ID (pat_id).
+  
+### **Respirator Fit Test**  
+  
+Respirator fit details are stored on a custom table. The patient_respiratordetails table is a record of all respirator masks a patient/employee is tested on for use. This table records fit tests for a single patient and links to the patients table through the patient ID (pat_id).  
 Data Mapping:
 * Column E, Module: <em>My Fit Test Module</em>
 * Column F, Order: Order comment is combined.
@@ -405,35 +405,35 @@ Module Summary:
 * Columns J-P: Metadata fields.
    * get_pat_id
 
-
-#### **Example**
-
+  
+#### **Example**  
+  
 The following table **fit_test** is used for the Respirator Fit Test example.
-
-![](../system-conversion.assets/1000020100000309000001DD63ECDDB774B71E74.png)
+  
+![](../system-conversion.assets/1000020100000309000001DD63ECDDB774B71E74.png)  
 
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>fit_test</strong> and its columns have been located.
 3. <strong>Sample Fit Test</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Fit Test Options* listed above, determine the mapping to legacy columns and complete the columns. The **Order** has also been filled to demonstrate its effect on the comments.
-
-![](../system-conversion.assets/1000020100000321000001557FAF5CD701023497.png)
+  
+![](../system-conversion.assets/1000020100000321000001557FAF5CD701023497.png)  
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-
-![](../system-conversion.assets/100002010000030900000061CEB56377CE23B3F5.png)
+  
+![](../system-conversion.assets/100002010000030900000061CEB56377CE23B3F5.png)  
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Fit Test** module.
-
-![](../system-conversion.assets/100002010000029A000000F78ECB92B9B4582390.png)
+  
+![](../system-conversion.assets/100002010000029A000000F78ECB92B9B4582390.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-
-![](../system-conversion.assets/10000201000003240000016351621D22BE491BF7.png)
+  
+![](../system-conversion.assets/10000201000003240000016351621D22BE491BF7.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
@@ -443,18 +443,18 @@ Notice:
       1. partition=MIE - Look in the MIE partition for the patient.
       2. db_cols=mrnumber - In the "fit_test" table, the column "mrnumber" matches a Medical Record Number.
 The example Respirator Fit Tests (Test Results>Respirator Info) were crafted to be created for the patient William Hart.
-
-![](../system-conversion.assets/100002010000028E000001DFBCA948322A5ECF7C.png)
+  
+![](../system-conversion.assets/100002010000028E000001DFBCA948322A5ECF7C.png)  
 
 The newly generated Respirator Fit Tests:
+  
+![](../system-conversion.assets/100002010000032100000191ED2BA9DF084A000F.png)  
 
-![](../system-conversion.assets/100002010000032100000191ED2BA9DF084A000F.png)
 
-
-
-### **Pulmonary Function Tests**
-
-Pulmonary function test (PFT) data is stored in a custom table. The pft table records details for PFT/spirometry for a patient. PFTs are linked to a patient through the documents table, using the foreign key doc_id, which contains the patient ID (pat_id). Additional information on the patient's height and weight is recorded on the pft table to compare to predicted results. Revisions to PFTs are recorded on the pft_revisions table.
+  
+### **Pulmonary Function Tests**  
+  
+Pulmonary function test (PFT) data is stored in a custom table. The pft table records details for PFT/spirometry for a patient. PFTs are linked to a patient through the documents table, using the foreign key doc_id, which contains the patient ID (pat_id). Additional information on the patient's height and weight is recorded on the pft table to compare to predicted results. Revisions to PFTs are recorded on the pft_revisions table.  
 Data Mapping:
 * Column E, Module: <em>My PFT Module</em>
 * Column O, PFT Options
@@ -523,28 +523,28 @@ Module Summary:
    * get_subject
    * get_location
 
-
-#### **Example**
-
+  
+#### **Example**  
+  
 The following table **pft** is used for the PFT example.
-
-![](../system-conversion.assets/1000020100000307000001AB7BDEE6C6D8913D1D.png)
+  
+![](../system-conversion.assets/1000020100000307000001AB7BDEE6C6D8913D1D.png)  
 
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>pft</strong> and it's columns have been located.
 3. <strong>Sample PFT</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the PFT Options listed above, determine the mapping to legacy columns and complete the column **PFT Options**.
-
-![](../system-conversion.assets/100002010000031F00000183FE90C030DC9DA6A9.png)
+  
+![](../system-conversion.assets/100002010000031F00000183FE90C030DC9DA6A9.png)  
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-
-![](../system-conversion.assets/100002010000030A00000063868F04B03A04D1D6.png)
+  
+![](../system-conversion.assets/100002010000030A00000063868F04B03A04D1D6.png)  
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample PFT** module.
-
-![](../system-conversion.assets/100002010000026D000001040B64D6091518951A.png)
+  
+![](../system-conversion.assets/100002010000026D000001040B64D6091518951A.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
@@ -567,18 +567,18 @@ Notice:
    1. get_location - Define the location where the test took place.
       1. default=OFFICE - Use OFFICE for the location code for all tests created.
 The example PFTs (Test Results>PFT) were crafted to be created for the patient William Hart.
-
-![](../system-conversion.assets/1000020100000265000001DA86C3C38F4427C600.png)
+  
+![](../system-conversion.assets/1000020100000265000001DA86C3C38F4427C600.png)  
 
 The newly generated PFTs:
+  
+![](../system-conversion.assets/10000201000001F60000025A689E22FB7719C2AD.png)  
 
-![](../system-conversion.assets/10000201000001F60000025A689E22FB7719C2AD.png)
 
-
-
-### **Audiometric Data**
-
-The audio table stores discrete data for occupational audiogram tests. Audio tests are linked to a patient through the documents table, using the foreign key doc_id, which contains the patient ID (pat_id). Like many of the other testing-related tables, the documents generated by data from the audio table contain a number of specific tests and baselines aggregated into a single document or view. Revisions to audio data are recorded on the audio_revisions table.
+  
+### **Audiometric Data**  
+  
+The audio table stores discrete data for occupational audiogram tests. Audio tests are linked to a patient through the documents table, using the foreign key doc_id, which contains the patient ID (pat_id). Like many of the other testing-related tables, the documents generated by data from the audio table contain a number of specific tests and baselines aggregated into a single document or view. Revisions to audio data are recorded on the audio_revisions table.  
 Data Mapping:
 * Column E, Module: <em>My Audiogram Module</em>
 * Column O, Audiogram Options
@@ -623,35 +623,35 @@ Module Summary:
    * get_subject
    * get_location
 
-
-#### **Example**
-
+  
+#### **Example**  
+  
 The following table **audio** is used for the Audiograms example.
-
-![](../system-conversion.assets/10000201000002FB00000216F08229F9C6F78AD3.png)
+  
+![](../system-conversion.assets/10000201000002FB00000216F08229F9C6F78AD3.png)  
 
 Notice:
 1. The <strong>Data Mapping</strong> tab is selected.
 2. The table <strong>audio</strong> and it's columns have been located.
 3. <strong>Sample Audiogram</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 Based on the *Audio Options* listed above, determine the mapping to legacy columns and complete the columns. The **Order** has also been filled to demonstrate its effect on the comments.
-
-![](../system-conversion.assets/1000020100000320000001F7A6BB626931F1030E.png)
+  
+![](../system-conversion.assets/1000020100000320000001F7A6BB626931F1030E.png)  
 
 Now that the **Data Mapping** tab has been filled, update the **Module Summary**.
-
-![](../system-conversion.assets/10000201000003070000006033B4A0A41AC2043C.png)
+  
+![](../system-conversion.assets/10000201000003070000006033B4A0A41AC2043C.png)  
 
 Click on the **Module Summary** tab to see a row automatically created for the **Sample Audiogram** module.
-
-![](../system-conversion.assets/10000201000002C00000011451EBE90935E5243E.png)
+  
+![](../system-conversion.assets/10000201000002C00000011451EBE90935E5243E.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is selected.
 2. The module row has minimal information and will need to be completed.
 The completed row:
-
-![](../system-conversion.assets/10000201000003220000009E043B5B19EB43E982.png)
+  
+![](../system-conversion.assets/10000201000003220000009E043B5B19EB43E982.png)  
 
 Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
@@ -671,22 +671,22 @@ Notice:
    1. get_location - Define the location where the test took place.
       1. default=OFFICE - Use OFFICE for the location code for all tests created.
 The example Audiograms (Test Results>Audio) were crafted to be created for the patient William Hart.
-
-![](../system-conversion.assets/1000020100000298000001E1C733D4E9C46C3654.png)
+  
+![](../system-conversion.assets/1000020100000298000001E1C733D4E9C46C3654.png)  
 
 The newly generated Audiograms:
+  
+![](../system-conversion.assets/1000020100000321000001F1762DB8B0EFA836B6.png)  
 
-![](../system-conversion.assets/1000020100000321000001F1762DB8B0EFA836B6.png)
 
-
-
-## **References**
+  
+## **References**  
 
 1. [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0)[https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior](https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior)
 2. [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1)[https://docs.python.org/2/library/string.html#format-string-syntax](https://docs.python.org/2/library/string.html#format-string-syntax)
 
+  
+## **Related Pages**  
 
-## **Related Pages**
-
-* [Data Migration Overview](data-migration-overview.md)
-* [Data Requirements](data-migration-file-format-standard.md)
+* [Data Migration Overview](gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8)
+* [Data Requirements](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)

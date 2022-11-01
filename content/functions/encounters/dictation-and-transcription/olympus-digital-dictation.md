@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Olympus Digital Dictation'
@@ -16,8 +16,8 @@ menu:
     weight: 1420
 ---
 MIE must first turn on the ability to transfer Olympus DS-330 dictation if you are using Olympus mikes. If you are using SpeechMikes, please see other help documentation named *SpeechMike Dictation*.
-
-![](../olympus-digital-dictation.assets/10000000000001520000002C8D263AC66100C1BE.png)
+  
+![](../olympus-digital-dictation.assets/10000000000001520000002C8D263AC66100C1BE.png)  
 
 {{% note %}}
 
@@ -25,8 +25,8 @@ MIE must first turn on the ability to transfer Olympus DS-330 dictation if you a
 {{% /note %}}
 Most common Olympus Recorder our clients use:
 DS-3300 Digital Voice Recorder Product Information:
-
-## Features
+  
+## Features  
 
 * Easy push-button operation.
 * Records up to 11 hours of high-quality DSS sound.
@@ -45,8 +45,8 @@ DS-3300 Digital Voice Recorder Product Information:
 * SP and LP recording modes.
 * 1 to 5 folders/199 files per folder (up to 7 folders if customized).
 * Adjustable microphone sensitivity means you can set it to Conference mode or Dictation mode.
-
-## Olympus Digital Dictation
+  
+## Olympus Digital Dictation  
 
 The Olympus software has to be installed on the computer that they have the docking station hooked up to. You can do this yourself, or call our Help Desk for assistance.
 **We recommend also having a SpeechMike as a backup to use for urgent or STAT or backup dictations.**
@@ -60,38 +60,38 @@ We recommend each physician have their own Olympus mike. If that is not possible
 3. Click on the <em>Dictation</em> tab on the left sidebar menu of {{% system-name %}} .
 4. Click the <strong>Olympus Transfer</strong> link at the top of the Dictation screen.
 
-
-![](../olympus-digital-dictation.assets/10000000000003F700000114962BD7450B885E79.png)
+  
+![](../olympus-digital-dictation.assets/10000000000003F700000114962BD7450B885E79.png)  
 
 
 5. An Upload screen will open. Click Upload to Select the folder to upload from. Select Folder A.
 
-
-![](../olympus-digital-dictation.assets/10000000000001860000012ECFD6B243F637CF02.png)
+  
+![](../olympus-digital-dictation.assets/10000000000001860000012ECFD6B243F637CF02.png)  
 
 
 6. <strong>You will only do this step the first time</strong>. Select the drive of the recorder (you will only select the drive the first time you connect to a computer.  The computer will remember what drive this is the next time you connect.) Browse and <strong>Select DSS_FDA</strong> drive. Click OK.
 
-
-![](../olympus-digital-dictation.assets/10000000000001840000018ABB10FF55225C8323.png)
+  
+![](../olympus-digital-dictation.assets/10000000000001840000018ABB10FF55225C8323.png)  
 
 
 7. The screen will open a <em>Delete Confirm</em> dialog box and it will ask if you "Do you wish to delete files after upload?"  Click <strong>yes</strong> to remove the voice file off of the recorder.
 
-
-![](../olympus-digital-dictation.assets/10000000000000DA0000006AC3F6E54CF470E6E3.png)
+  
+![](../olympus-digital-dictation.assets/10000000000000DA0000006AC3F6E54CF470E6E3.png)  
 
 
 8. You will see that you successfully uploaded the files.
 
-
-![](../olympus-digital-dictation.assets/100000000000019B0000013D01A5F51E8B4E27A1.png)
+  
+![](../olympus-digital-dictation.assets/100000000000019B0000013D01A5F51E8B4E27A1.png)  
 
 
 9. Click <strong>[ Close Window ]</strong>
 
-
-![](../olympus-digital-dictation.assets/1000000000000194000000E0F5BAF252BAAB6153.png)
+  
+![](../olympus-digital-dictation.assets/1000000000000194000000E0F5BAF252BAAB6153.png)  
 
 
 
@@ -105,11 +105,11 @@ You should double check that the users who log in to upload dictations from olym
 * <strong>Job Type</strong>: Most do not have specific job types entered since you are transferring a variety of different types of dictations.
 * <strong>Location</strong>: Select the location where these dictations were done.
 * <strong>Service Date</strong>: Select the date these dictations were done.
+  
+## After Transferring Olympus Dictations  
 
-## After Transferring Olympus Dictations
-
-
-![](../olympus-digital-dictation.assets/1000000000000483000000B4F96EEB8A3F14B576.png)
+  
+![](../olympus-digital-dictation.assets/1000000000000483000000B4F96EEB8A3F14B576.png)  
 
 After uploading your transfers, you will see them listed in the Dictation pending queue of the Dictation tab.
 There will not be any patient names associated with them using Olympus mics. This is why it is important to do a hard stop/hard start after each patient so they transfer over individually into individual dictated files.

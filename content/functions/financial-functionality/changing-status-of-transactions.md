@@ -6,17 +6,17 @@ version: 17
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'accessing-the-ledger.md'
+  - 'gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew'
 source: 'https://drive.google.com/open?id=1pISPoaGjFEUXJIn4L596IzcvvNexhYS3IoxcKs1hBxU'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-1. [Access the ledger](accessing-the-ledger.md).
+1. [Access the ledger](gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew).
 2. At the upper-right, select <strong>Registry View</strong>. The system displays the registry view.
 3. Above the list of transactions, select the <strong>Show All</strong> link. The system displays all transactions regardless of status.
 4. To change the status of transactions:
    1. Select the <strong>check box</strong> to the left of the transaction number. A check mark appears in the box indicating the transaction is selected. Repeat for all of the appropriate transactions.
-   2. To change the status of the selected transactions to "cleared," select the <strong>Set Cleared</strong> button. The system displays "cleared" in the <em>STATUS</em>
-       column of the transactions.<img src="../changing-status-of-transactions.assets/100000000000017200000025CAB39488E0602DFF.png" />
+   2. To change the status of the selected transactions to "cleared," select the <strong>Set Cleared</strong> button. The system displays "cleared" in the <em>STATUS</em>  
+       column of the transactions.<img src="../changing-status-of-transactions.assets/100000000000017200000025CAB39488E0602DFF.png" />  
 
    1. To change the status of the selected transactions to "reconciled," select the <strong>Set</strong> <strong>Reconciled</strong> button. The system displays "reconciled" in the <em>STATUS</em> column of the transactions.
 1. To change the status of the selected transactions to "flagged," select the <strong>Set Flagged</strong> button. The system displays "flagged" in the <em>STATUS</em> column of the transactions.

@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1sj8ApUZJ56PoTskiKPBBHtxTbA7yMTiqkqUHK0fuMGo'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'EPA 4 - Additional Improvements in Access as a Result of QIN/QIO TA'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Expanded Practice Access
+**Activity Weighting**: Medium  
+**Subcategory Name**: Expanded Practice Access  
 **Description**: As a result of Quality Innovation Network-Quality Improvement Organization technical assistance, performance of additional activities that improve access to services (e.g., investment of on-site diabetes educator).
 
 
@@ -36,8 +36,8 @@ Supporting Documentation
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

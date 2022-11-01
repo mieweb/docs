@@ -9,10 +9,10 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v8&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v9&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v10&showresulttype=Measure'
-  - '../../../document-management/scanning-and-indexing.md'
+  - 'gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms124v10'
 source: 'https://drive.google.com/open?id=1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 124 - Cervical Cancer Screening'
@@ -20,13 +20,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3880
 ---
-## Overview
-
-[CMS124v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v8&showresulttype=Measure) (2020)
-[CMS124v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS124v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v8&showresulttype=Measure) (2020)  
+[CMS124v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v9&showresulttype=Measure) (2021)  
 [CMS124v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -45,14 +45,15 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
 <tr>
 <td><strong>Description</strong></td>
-<td>Percentage of women 21-64 years of age who were screened for cervical cancer using either of the following criteria:<ul><li><p>Women age 21-64 who had cervical cytology performed within the last 3 years</p></li><li><p>Women age 30-64 who had cervical human papillomavirus (HPV) testing performed within the last 5 years</p></li></ul></td>
+<td>Percentage of women 21-64 years of age who were screened for cervical cancer using either of the following criteria:
+<ul><li><p>Women age 21-64 who had cervical cytology performed within the last 3 years</p></li><li><p>Women age 30-64 who had cervical human papillomavirus (HPV) testing performed within the last 5 years</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Initial Patient Population</strong></td>
@@ -68,7 +69,8 @@ menu:
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
-<td>Women with one or more screenings for cervical cancer. Appropriate screenings are defined by any one of the following criteria:<ul><li><p>Cervical cytology performed during the measurement period or the two years prior to the measurement period for women who are at least 21 years old at the time of the test</p></li><li><p>Cervical human papillomavirus (HPV) testing performed during the measurement period or the four years prior to the measurement period for women who are 30 years or older at the time of the test</p></li></ul></td>
+<td>Women with one or more screenings for cervical cancer. Appropriate screenings are defined by any one of the following criteria:
+<ul><li><p>Cervical cytology performed during the measurement period or the two years prior to the measurement period for women who are at least 21 years old at the time of the test</p></li><li><p>Cervical human papillomavirus (HPV) testing performed during the measurement period or the four years prior to the measurement period for women who are 30 years or older at the time of the test</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
@@ -81,8 +83,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -110,16 +112,16 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 Ensure all women aged 23-64 are screened for cervical cancer, at least once within the measurement period. Use the Past Procedures section of the encounter to record a previous HPV or Pap test; otherwise, use the Visit Orders section of the encounter to order/perform one of the recognized procedures (i.e., HPV Test or Pap Test) at the time of the encounter. While documenting the Visit encounter, either record the previous procedure or the receipt of the recognized procedure, or order and perform the test, as appropriate.
 1. <strong>Option 1: Document in the Past Procedures section</strong>
    1. Open the Past Procedures section
@@ -140,12 +142,12 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 2. When completed, Close and Archive the encounter
 * <strong>Option 4: Scan/Index or Upload an accepted Document</strong>
 
-   1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C (e.g., 33717-0).
+   1. Using [WebScan](gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w), scan and index the appropriate document type configured with the necessary LOIN-C (e.g., 33717-0).
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -180,8 +182,8 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -224,8 +226,8 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -244,7 +246,7 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS124](https://ecqi.healthit.gov/ecqm/ep/2022/cms124v10)

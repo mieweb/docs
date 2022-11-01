@@ -9,10 +9,10 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v8&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v9&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v10&showresulttype=Measure'
-  - '../../../document-management/scanning-and-indexing.md'
+  - 'gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms125v10'
 source: 'https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 125 - Breast Cancer Screening'
@@ -20,13 +20,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3890
 ---
-## Overview
-
-[CMS125v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v8&showresulttype=Measure) (2020)
-[CMS125v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS125v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v8&showresulttype=Measure) (2020)  
+[CMS125v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v9&showresulttype=Measure) (2021)  
 [CMS125v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -45,8 +45,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -81,8 +81,8 @@ menu:
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -110,16 +110,16 @@ menu:
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 Use the Past Procedures section of the encounter to record a previous mammogram, in order to track all 50-74 year-old women with one or more mammograms recorded (15 months prior to or during the measurement period). Otherwise, the procedure can be recorded in the Preventive Care section of the encounter, or a mammogram can be scanned and indexed, to record the screening was completed.
 1. While documenting the Visit encounter, either record the previous procedure or the receipt of the mammogram, or scan and index the mammogram, as appropriate:
    1. <strong>Option 1:</strong> <strong>Document in Past Procedures section</strong>
@@ -134,12 +134,12 @@ Use the Past Procedures section of the encounter to record a previous mammogram,
 1. Continue documenting the encounter, as needed.
 2. When completed, Close and Archive the encounter.
 * <strong>Option 3: Scan/Index or Upload a Mammogram document</strong>
-   * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the MAMMO document type configured with the necessary LOIN-C (24606-6).
+   * Using [WebScan](gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w), scan and index the MAMMO document type configured with the necessary LOIN-C (24606-6).
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -178,8 +178,8 @@ Use the Past Procedures section of the encounter to record a previous mammogram,
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -294,8 +294,8 @@ Use the Past Procedures section of the encounter to record a previous mammogram,
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -310,7 +310,7 @@ Use the Past Procedures section of the encounter to record a previous mammogram,
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS125](https://ecqi.healthit.gov/ecqm/ep/2022/cms125v10)

@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms137v10'
 source: 'https://drive.google.com/open?id=1OMZEtOiKag63xhZX7gZ60Kp8E_9MHAiDpI_9Epz-rK4'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 ---
-## Overview
-
-[CMS137v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v8&showresulttype=Measure) (2020)
-[CMS137v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v9&showresulttype=Measure) (2021)
+## Overview  
+  
+[CMS137v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v8&showresulttype=Measure) (2020)  
+[CMS137v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v9&showresulttype=Measure) (2021)  
 [CMS137v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v10&showresulttype=Measure) (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -66,7 +66,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 <tr>
 <td><strong>Numerator</strong></td>
 <td>Initiation of treatment includes either an intervention or medication for the treatment of AOD abuse or dependence within 14 days of the diagnosis.</td>
-<td>Engagement in ongoing treatment within 34 days of initiation includes:<ul><li><p>Patients that initiated treatment with a psychosocial visit, and whose engagement criteria was fulfilled by a dispensed medication.</p></li><li><p>Patients that initiated treatment with a psychosocial visit, and whose engagement criteria was fulfilled by two further psychosocial visits.</p></li><li><p>Patients that initiated treatment with a dispensed medication, and whose engagement criteria was fulfilled by both a further medication dispense and a psychosocial visit.</p></li><li><p>Patients that initiated treatment with a dispensed medication, and whose engagement criteria was fulfilled by two psychosocial visits.</p></li></ul></td>
+<td>Engagement in ongoing treatment within 34 days of initiation includes:
+<ul><li><p>Patients that initiated treatment with a psychosocial visit, and whose engagement criteria was fulfilled by a dispensed medication.</p></li><li><p>Patients that initiated treatment with a psychosocial visit, and whose engagement criteria was fulfilled by two further psychosocial visits.</p></li><li><p>Patients that initiated treatment with a dispensed medication, and whose engagement criteria was fulfilled by both a further medication dispense and a psychosocial visit.</p></li><li><p>Patients that initiated treatment with a dispensed medication, and whose engagement criteria was fulfilled by two psychosocial visits.</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
@@ -79,8 +80,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -112,22 +113,22 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
-
-
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
+  
+### Original Visit Encounter  
 
-## Evidence
 
+  
+## Evidence  
 
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -174,8 +175,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Denominator Exclusions
+  
+### Denominator Exclusions  
 
 
 <table>
@@ -198,8 +199,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -226,8 +227,8 @@ wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [eCQI CMS137](https://ecqi.healthit.gov/ecqm/ep/2022/cms137v10)
 

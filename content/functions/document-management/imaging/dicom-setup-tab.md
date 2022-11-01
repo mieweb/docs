@@ -12,7 +12,7 @@ links:
   - 'https://system/?f=dicom&s=app_entities&opp=add'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
 source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'DICOM Setup Tab'
@@ -21,30 +21,30 @@ menu:
     weight: 800
 ---
 Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and exchanging image information in and between medical imaging software.
-
-## **DICOM Setup Tab**
-
-Access to the [Dicom Setup tab](https://system/?f=dicom&dcfunc=aeedit) requires the DICOM Queue security permission.  DICOM Queue security permission allows access to the DICOM Image Queue and all the settings that go with it.  
+  
+## **DICOM Setup Tab**  
+  
+Access to the [Dicom Setup tab](https://system/?f=dicom&dcfunc=aeedit) requires the DICOM Queue security permission.  DICOM Queue security permission allows access to the DICOM Image Queue and all the settings that go with it.    
 The [DICOM Setup tab](https://system/?f=dicom&dcfunc=aeedit) is both a dashboard with search functionality, as well as a link to add or edit the Application Entities information. There is also a "basic" or "advanced" search capability at the top left corner of this screen to search for DICOM routes in the categories of the dashboard.
 
+  
+![](../dicom-setup-tab.assets/10000201000004AD0000020CEE38906D495EAD5C.png)  
 
-![](../dicom-setup-tab.assets/10000201000004AD0000020CEE38906D495EAD5C.png)
 
-
-
-## **Application Entities Editor**
-
-Access to view and manage Application Entities requires the Application Entities Editor security permission.  The Application Entities Editor security permission allows access to add, edit, or delete DICOM Application Entities, however this editor is mainly for MIE programming staff.
+  
+## **Application Entities Editor**  
+  
+Access to view and manage Application Entities requires the Application Entities Editor security permission.  The Application Entities Editor security permission allows access to add, edit, or delete DICOM Application Entities, however this editor is mainly for MIE programming staff.  
 To view application entities, simply click the [View Application Entities](https://system/?f=dicom&s=app_entities) hyperlink in the [DICOM Setup](https://system/?f=dicom&dcfunc=aeedit&tabmodule=admin&tabselect=Dicom+Setup) tab found within the **Control Panel** sidemenu.
 
-
-![](../dicom-setup-tab.assets/10000201000004AD0000020C5FBC1088FBEF7955.png)
+  
+![](../dicom-setup-tab.assets/10000201000004AD0000020C5FBC1088FBEF7955.png)  
 
 
 To add an Application Entity, once in the Application Entities, simply select the [Add Entity](https://system/?f=dicom&s=app_entities&opp=add) link.
 
-
-![](../dicom-setup-tab.assets/10000201000004AF000000B06D998E6B02BF543D.png)
+  
+![](../dicom-setup-tab.assets/10000201000004AF000000B06D998E6B02BF543D.png)  
 
 
 The following information is displayed on the application entities screen:

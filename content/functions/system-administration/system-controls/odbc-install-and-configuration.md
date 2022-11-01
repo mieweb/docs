@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://dev.mysql.com/downloads/connector/odbc/'
   - 'http://dev.mysql.com/doc/connector-odbc/en/connector-odbc-installation-binary-windows.html#connector-odbc-installation-binary-windows-installer'
-  - 'med-web-ssl-certificate-authority.md'
+  - 'gdoc:1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
   - 'https://miewiki.med-web.com/wiki/images/7/72/Crystal10TurnOffSmartLinking.reg'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'ODBC Install & Configuration'
@@ -19,13 +19,13 @@ menu:
     parent: '1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
     weight: 4650
 ---
-### **MySQL 5.3.6 ODBC Driver Install**
+### **MySQL 5.3.6 ODBC Driver Install**  
 
 1. Download the MySQL ODBC 5.3.6 Driver for your OS from [here](http://dev.mysql.com/downloads/connector/odbc/)
 2. Install the Driver, follow the instructions provide by MySQL found [here](http://dev.mysql.com/doc/connector-odbc/en/connector-odbc-installation-binary-windows.html#connector-odbc-installation-binary-windows-installer)
-
-### **Adding MySQL 5.3.6 ODBC Driver as a Data Source**
-
+  
+### **Adding MySQL 5.3.6 ODBC Driver as a Data Source**  
+  
 {{% note %}}
 
 These directions are from Windows XP, if you are running Vista or Windows 7 they could be slightly different.
@@ -37,19 +37,19 @@ From the Windows Desktop:
 2. Search for "ODBC"
 3. Under Programs you should see "Data Sources (ODBC)"
 
-
-![](../odbc-install-and-configuration.assets/100002010000019F000001E5254D7F96C517E804.png)
+  
+![](../odbc-install-and-configuration.assets/100002010000019F000001E5254D7F96C517E804.png)  
 
 
 4. From there click, "System DSN"
 5. Click "Add"
 6. Choose "MySQL ODBC 5.2 Unicode Driver"
 7. Click "Finish"
-
-### **MySQL ODBC Data Source Configuration**
+  
+### **MySQL ODBC Data Source Configuration**  
 
 Now that you have the driver installed successfully, you will need to configure it.
-1. You will need MIE's CA, you can download from here: [Med-Web SSL CA](med-web-ssl-certificate-authority.md)
+1. You will need MIE's CA, you can download from here: [Med-Web SSL CA](gdoc:1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58)
 2. You should have received an e-mail containing information on how to obtain the follow elements for configuration:
    1. Hostname
    2. Port: 3306
@@ -64,19 +64,19 @@ From the MySQL ODBC Configuration Screen
 1. Click "Details >>" for advanced options.
 2. Click "SSL Settings"
 
-
-![](../odbc-install-and-configuration.assets/100002010000018A00000273AF3264DC9E85A2EF.png)
+  
+![](../odbc-install-and-configuration.assets/100002010000018A00000273AF3264DC9E85A2EF.png)  
 
 
 3. Fill in all fields provided from the configuration e-mail sent to you.
 4. Test connection by clicking "Test".
    1. Insure that your certificates and keys are in the correct inputs.
-
-### **3rd Party Tools**
+  
+### **3rd Party Tools**  
 
 There are many tools out there that can utilize an ODBC connection. This section is to help configure the most common ones.
-
-### **Crystal Reports 2008**
+  
+### **Crystal Reports 2008**  
 
 Crystal Reports is a very powerful report tool that can be used in conjunction with the {{% system-name %}} ODBC connection to generate complex reports. This section is to help you configure Crystal Reports 2008 and fix a performance problem that will help speed up the mapping of tables and their relations.
 * Install Crystal Reports 2008
@@ -84,8 +84,8 @@ Crystal Reports is a very powerful report tool that can be used in conjunction w
 
 Installing and using Crystal Reports is outside the scope of this wiki. Please consult Crystal's manual for help.
 {{% /info %}}
-
-#### **Turn Off Crystal's Smart Linking**
+  
+#### **Turn Off Crystal's Smart Linking**  
 
 **Before you run Crystal Reports 2008**, simply download the registry fix to turn off Crystal's Smart Linking.
 {{% note %}}
@@ -97,23 +97,23 @@ If you already launched Crystal Reports 2008, simply close the application befor
 3. Click "Start"
 4. Click "Run..."
 
-
-![](../odbc-install-and-configuration.assets/1000020100000178000000F3EAD4DE7F33F33DBE.png)
+  
+![](../odbc-install-and-configuration.assets/1000020100000178000000F3EAD4DE7F33F33DBE.png)  
 
 
 5. Type "regedit" in the Open input box.
 6. Click "Ok"
 
-
-![](../odbc-install-and-configuration.assets/100002010000015C000000BB86F4BBDEF6A2CE56.png)
+  
+![](../odbc-install-and-configuration.assets/100002010000015C000000BB86F4BBDEF6A2CE56.png)  
 
 
 7. The Registry Editor will launch
 8. Click "File"
 9. Click "Import"
 
-
-![](../odbc-install-and-configuration.assets/10000201000002C10000019D0A9A5C601442720A.png)
+  
+![](../odbc-install-and-configuration.assets/10000201000002C10000019D0A9A5C601442720A.png)  
 
 
 10. "Import Registry File" dialog will pop.
@@ -121,14 +121,14 @@ If you already launched Crystal Reports 2008, simply close the application befor
 12. Choose "Crystal10TurnOffSmartLinking.reg"
 13. Click "Open"
 
-
-![](../odbc-install-and-configuration.assets/1000020100000236000001A69FF99C194FE13D67.png)
+  
+![](../odbc-install-and-configuration.assets/1000020100000236000001A69FF99C194FE13D67.png)  
 
 
 14. An information prompt will pop stating that the reg file was imported successfully. If you did not get this, something went wrong. Make sure you choose the right file.
 
-
-![](../odbc-install-and-configuration.assets/100002010000036F00000080F8AFB36BA4672054.png)
+  
+![](../odbc-install-and-configuration.assets/100002010000036F00000080F8AFB36BA4672054.png)  
 
 
 15. Done, you have successfully turned off Crystal's Smart Linking.

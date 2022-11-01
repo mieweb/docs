@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1kXzAtCGnVOjTwXtyAnniL9FZYw0vs3UsPqdBWRzTvug'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'BMH 7 - Implementation of Integrated Patient Centered Behavioral Health Model'
@@ -22,8 +22,8 @@ menu:
 
 
 
-**Activity Weighting**: High
-**Subcategory Name**: Behavior and Mental Health
+**Activity Weighting**: High  
+**Subcategory Name**: Behavior and Mental Health  
 **Description**: Offer integrated behavioral health services to support patients with behavioral health needs who also have conditions such as dementia or other poorly controlled chronic illnesses. The services could include one or more of the following:
 * Use evidence-based treatment protocols and treatment to goal where appropriate;
 * Use evidence-based screening and case finding strategies to identify individuals at risk and in need of services;
@@ -36,14 +36,14 @@ menu:
 
 
 
-Supporting Documentation
+Supporting Documentation  
 Documented integration of behavioral health services with primary care to support patients with behavioral health needs, dementia, and poorly controlled chronic conditions program and services including one or more of the six activities described in the activity description.
 
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

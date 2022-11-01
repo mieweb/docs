@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1OhBnjNN2Prb5XVOBzBxm9qiYmJt67po4lJS7M7Lj7rc'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'PSPA 22 - CDC Training on CDCs Guideline for Prescribing Opioids for Chronic Pain'
@@ -22,9 +22,9 @@ menu:
 
 
 
-**Activity Weighting**: High
-**Subcategory Name**: Patient Safety and Practice Assessment
-**Description**: Completion of all the modules of the Centers for Disease Control and Prevention (CDC) course "Applying CDC's Guideline for Prescribing Opioids" that reviews the 2016** Guideline for Prescribing Opioids for Chronic Pain**.
+**Activity Weighting**: High  
+**Subcategory Name**: Patient Safety and Practice Assessment  
+**Description**: Completion of all the modules of the Centers for Disease Control and Prevention (CDC) course "Applying CDC's Guideline for Prescribing Opioids" that reviews the 2016** Guideline for Prescribing Opioids for Chronic Pain**.  
 {{% note %}}
 
 This activity may be selected once every 4 years, to avoid duplicative information given that some of the modules may change on a year by year basis but over 4 years there would be a reasonable expectation for the set of modules to have undergone substantive change, for the improvement activities performance category score.

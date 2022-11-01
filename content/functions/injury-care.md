@@ -7,7 +7,7 @@ lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Injury Care'
@@ -22,13 +22,13 @@ menu:
 
 {{% system-name %}} can be used for treating, documenting, managing, *and* reporting injuries and illnesses, which can be initiated from a visit to the clinic, or in advance, via an employee portal. This allows incidents to be reported anytime, day or night. And regardless of how the information is captured, {{% system-name %}} can compile the recorded data into form overlays, minimizing the need for redundant data entry, while also easing reporting burdens. Overall, {{% system-name %}} not only incorporates streamlined processes for recording and treating injuries and illnesses, it also provides tools for easy tracking and follow-up through the use of its integrated worklists and tasking module.
 
+  
+![](gdoc:12-5serCmLHEvhL0ccUoa8kB38Rkkiqya3xCmclI26hs)  
 
-![](../diagrams/injury-care.svg)
 
-
-
-## Case Management
-
+  
+## Case Management  
+  
 In addition to the ongoing assessment, planning, and evaluation of incidents, implementing preventive systems and appropriating all necessary resources are key factors of successful case management. Ensuring the worker a timely and cost effective return to work has never been easier, thanks to the {{% system-name %}} platform incorporating design and functionality intended to streamline these processes and provide workers the quality care they deserve.
 
 

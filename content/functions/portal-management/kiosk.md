@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'Kiosk'
@@ -16,27 +16,27 @@ menu:
     weight: 1240
 ---
 The  {{% system-name %}}  Kiosk is a portal integration designed for streamlining things such as check-in and intake processes. For example, users may electronically access questionnaires or paperwork required by the clinic upon check-in, so then all of the necessary information can be recorded and automatically uploaded into the appropriate chart. With the  {{% system-name %}}  Kiosk, clients can easily maintain traffic flow, while also managing their check-in and intake processes. Below, users will find the information needed for initially setting up and utilizing the kiosk functionality.
-
-## Initial Setup
+  
+## Initial Setup  
 
 1. Navigate to the <strong>System Settings</strong> tab of the Control Panel.
 2. Locate the <strong>E-Chart</strong>, <strong>Defaults</strong>, <strong>Use Checkin</strong> system setting.
 
-
-![](../kiosk.assets/100002010000059E000001CEFAEF875933425A01.png)
+  
+![](../kiosk.assets/100002010000059E000001CEFAEF875933425A01.png)  
 
 
 3. Click the <strong>Edit</strong> link in the <em>Options</em> column.
 4. Change the <strong>Value</strong> field to <strong>1</strong>, and click the <strong>Change</strong> button after providing a reason for the change.
 
-
-![](../kiosk.assets/100002010000059F000001F6FF285D24307F3C7C.png)
+  
+![](../kiosk.assets/100002010000059F000001F6FF285D24307F3C7C.png)  
 
 
 5. With the system setting enabled, navigate to the Provider Management side menu and locate and click the portal link from the <strong>Name</strong> column.
 
-
-![](../kiosk.assets/100002010000059C000001EF1D47D74278C76D71.png)
+  
+![](../kiosk.assets/100002010000059C000001EF1D47D74278C76D71.png)  
 
 
 6. After the page loads, click the <strong>Portal Setup</strong> tab.

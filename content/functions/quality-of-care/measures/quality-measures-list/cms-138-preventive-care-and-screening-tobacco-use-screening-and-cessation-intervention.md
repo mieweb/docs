@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS138&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet'
 source: 'https://drive.google.com/open?id=1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
-wikigdrive: 'b7222904e37143b515987f6e0f083f595990e37a'
+wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 menu:
   main:
     name: 'CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention'
@@ -16,13 +16,13 @@ menu:
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     weight: 3950
 ---
-## Overview
-
-CMS138v8 (2020)
-CMS138v9 (2021)
+## Overview  
+  
+CMS138v8 (2020)  
+CMS138v9 (2021)  
 CMS138v10 (2022)
-
-### Identifiers
+  
+### Identifiers  
 
 
 <table>
@@ -41,8 +41,8 @@ CMS138v10 (2022)
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-
-### Definitions
+  
+### Definitions  
 
 
 <table>
@@ -88,8 +88,8 @@ CMS138v10 (2022)
 
 </table>
 
-
-### Additional Information
+  
+### Additional Information  
 
 
 <table>
@@ -117,16 +117,16 @@ CMS138v10 (2022)
 </table>
 
 
+  
+## Clinical Instructions  
 
-## Clinical Instructions
+  
+### New UI Visit Encounter (valid RC202109+)  
 
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-
-### Original Visit Encounter
-
+  
+### Original Visit Encounter  
+  
 Using the Social History section of the encounter, ensure smoking status is documented and additional details are noted with the respective status (i.e., current smoker, former smoker, etc.). Cessation counseling or medications should be noted, when applicable, in order to populate the numerator appropriately.
 1. While documenting the Visit Encounter, open the Social History section.
 2. Assess Smoking Status: (select one)
@@ -145,11 +145,11 @@ Using the Social History section of the encounter, ensure smoking status is docu
      
 2. Continue documenting the encounter as appropriate
 3. When complete, Close and Archive the encounter
+  
+## Evidence  
 
-## Evidence
-
-
-### Initial Patient Population
+  
+### Initial Patient Population  
 
 
 <table>
@@ -232,8 +232,8 @@ Using the Social History section of the encounter, ensure smoking status is docu
 
 </table>
 
-
-### Denominator
+  
+### Denominator  
 
 
 <table>
@@ -248,8 +248,8 @@ Using the Social History section of the encounter, ensure smoking status is docu
 
 </table>
 
-
-### Numerator
+  
+### Numerator  
 
 
 <table>
@@ -272,8 +272,8 @@ Using the Social History section of the encounter, ensure smoking status is docu
 
 </table>
 
-
-### Denominator Exceptions
+  
+### Denominator Exceptions  
 
 
 <table>
@@ -292,8 +292,8 @@ Using the Social History section of the encounter, ensure smoking status is docu
 
 </table>
 
-
-## Source(s)
-
+  
+## Source(s)  
+  
 [Medical Codify](https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS138&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet)
 
