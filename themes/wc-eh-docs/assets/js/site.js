@@ -5,6 +5,15 @@ import * as EmailValidator from 'email-validator';
 
 // FUNCTIONS
 
+function padTocLinks () {
+  const tocListItem = Array.from(document.querySelectorAll('#TableOfContents ul li'));
+  tocListItem.forEach(item => {
+    if (item.children[1] && item.children[1].nodeName === 'A') {
+      item.children[0].setAttribute('style', 'position: absolute; top: 0; bottom:0; right: 0; left: 0;');
+    }
+  })
+}
+
 function getUrlParameter(sParam) {
   const sPageURL = decodeURIComponent(window.location.search.substring(1));
   const sURLVariables = sPageURL.split('&');
@@ -562,6 +571,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
       return popover;
     })
   }
+  padTocLinks();
 }, {
   once: true
 });
