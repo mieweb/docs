@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
+wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
 menu:
   main:
     name: 'Create Language Translation File for Import'

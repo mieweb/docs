@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1PzAcAguTcxDsfoxFIwdro80Mbtxql0QXRm45FBviNU8'
-wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
+wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
 ---
 Edit employer organization accounts to add or change contacts, change associated insurance policies, or to change other properties.
 1. [F](finding-employer-organizations.md)[ind employer organizations](finding-employer-organizations.md).

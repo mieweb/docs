@@ -11,7 +11,7 @@ links:
   - '../../portal-management/linking-users-for-portal-access.md'
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
-wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
+wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
 menu:
   main:
     name: 'User/Provider & Department Management'

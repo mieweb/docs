@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms153v10'
 source: 'https://drive.google.com/open?id=1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
-wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
+wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
 menu:
   main:
     name: 'CMS 153 - Chlamydia Screening for Women'

@@ -8,7 +8,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample1.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample2.csv'
 source: 'https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
-wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
+wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
 menu:
   main:
     name: 'Appointments Import'

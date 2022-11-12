@@ -22,7 +22,7 @@ links:
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
   - 'https://mie.talentlms.com/unit/view/id:2687'
 source: 'https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
-wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
+wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
 menu:
   main:
     name: 'Review Session - Portal Management'
