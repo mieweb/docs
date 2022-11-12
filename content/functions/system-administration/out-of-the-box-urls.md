@@ -20,7 +20,7 @@ links:
   - 'data-migration/create-pft-data-file-for-import.md'
   - 'data-migration/summary-documents-csv-api.md'
 source: 'https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 menu:
   main:
     name: 'Out-of-the-Box Urls'

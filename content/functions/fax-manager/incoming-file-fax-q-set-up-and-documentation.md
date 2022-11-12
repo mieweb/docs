@@ -7,7 +7,7 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 ---
 Incoming File/Fax Queue Set-Up and Documentation
 

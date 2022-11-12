@@ -47,7 +47,7 @@ links:
   - 'http://stchome.com/'
   - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 menu:
   main:
     name: 'Interface Specifications'

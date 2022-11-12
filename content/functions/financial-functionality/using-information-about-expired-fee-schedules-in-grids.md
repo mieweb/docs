@@ -9,7 +9,7 @@ links:
   - 'viewing-expired-fee-schedules.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1p7wZkQtojxLvxtFtLCsGHUlWBFkAgh3Mxay-pZ3sws4'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 ---
 Use the following information about expired fee schedules in a grid:
 * Fee schedule name

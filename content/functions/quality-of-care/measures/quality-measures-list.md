@@ -50,7 +50,7 @@ links:
   - 'quality-measures-list/cms-177-child-and-adolescent-major-depressive-disorder-mdd-suicide-risk-assessment.md'
   - 'quality-measures-list/cms-347-statin-therapy-for-the-prevention-and-treatment-of-cardiovascular-disease.md'
 source: 'https://drive.google.com/open?id=14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 menu:
   main:
     name: 'Quality Measures List'

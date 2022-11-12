@@ -8,7 +8,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=1502636095'
   - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=2105581120'
 source: 'https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 menu:
   main:
     name: 'Chart Observations Default Values'

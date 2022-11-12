@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://oauth.net/2/'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 ---
 # OAuth 2.0 Overview  
   

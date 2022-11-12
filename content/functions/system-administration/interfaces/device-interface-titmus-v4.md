@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'installing-mie-device-app.md'
 source: 'https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
-wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
+wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
 menu:
   main:
     name: 'Device Interface - Titmus V4'
