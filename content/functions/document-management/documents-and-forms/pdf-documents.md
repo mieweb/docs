@@ -1,15 +1,15 @@
 ---
 id: '153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
 title: 'PDF Documents'
-date: '2020-03-05T20:46:46.117Z'
-version: 52
-lastAuthor: ''
+date: '2022-11-11T13:17:09.076Z'
+version: 63
+lastAuthor: 'Ami Cook'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
-wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
+wikigdrive: 'cdf86add37ed1176d1b597bba2510b2fde33d444'
 menu:
   main:
     name: 'PDF Documents'
