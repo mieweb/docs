@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
-wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
+wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
 menu:
   main:
     name: 'Viewing Restrictions and Accommodations'

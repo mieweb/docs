@@ -9,7 +9,7 @@ links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
   - 'https://docs.google.com/document/u/0/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY/edit'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
-wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
+wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
 menu:
   main:
     name: 'Appt Types Tab'

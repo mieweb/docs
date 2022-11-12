@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms154v10'
 source: 'https://drive.google.com/open?id=1W0FANlgAIXUMqpKPJK6j0CUcGtHkY_-tbJsNQ_RkkcQ'
-wikigdrive: 'cabd81c2148adf2f2b82ccf2d7cca8fcca5deb78'
+wikigdrive: '157919b64f9a467c6d0b4a7a3b2d494ae2131526'
 menu:
   main:
     name: 'CMS 154 - Appropriate Treatment for Children with Upper Respiratory Infection (URI)'
