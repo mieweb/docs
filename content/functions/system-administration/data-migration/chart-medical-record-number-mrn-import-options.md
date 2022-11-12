@@ -6,11 +6,11 @@ version: 37
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
+  - 'chart-data-csv-api.md'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Di_mrn_opts.csv'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Chart Medical Record Number (MRN) Import Options'
@@ -18,7 +18,7 @@ menu:
     parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
     weight: 5060
 ---
-The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing medical record numbers (MRNs) using the [Chart Data CSV API](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs). These options give the import the ability to process MRNs in a number of ways. This is especially useful for systems where the MRNs may change or need to be removed entirely. Although the default process of simply adding MRNs works in most situations, the options that follow a user to fine tune how processed charts are identified.  
+The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing medical record numbers (MRNs) using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process MRNs in a number of ways. This is especially useful for systems where the MRNs may change or need to be removed entirely. Although the default process of simply adding MRNs works in most situations, the options that follow a user to fine tune how processed charts are identified.  
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
   
@@ -27,7 +27,7 @@ The processes discussed on this page should only be performed with the guidance 
 * An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
 * An <strong>update</strong> occurs when a record is replaced with the new information.
 * A <strong>deletion</strong> occurs when a record is removed from the database.
-Related terminology is discussed on the [Chart Data CSV API](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs) page.
+Related terminology is discussed on the [Chart Data CSV API](chart-data-csv-api.md) page.
 
   
 ## **Processing Medical Record Numbers**  
@@ -212,5 +212,5 @@ Here is an example of using the Translation Manager to add a translation.
   
 ## **Related Pages**  
 
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
-* [Chart Data CSV API](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs)
+* [Data Import Master List](data-import-master-list.md)
+* [Chart Data CSV API](chart-data-csv-api.md)

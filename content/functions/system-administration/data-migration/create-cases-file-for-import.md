@@ -10,9 +10,9 @@ links:
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
-  - 'gdoc:1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
+  - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Create Cases File for Import'
@@ -168,7 +168,7 @@ What you will need:
 
 * [Simplified Case Management CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/)
 * [Injury Cases CSV File Example](https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864)
-* [Validation Script for Cases](gdoc:1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI)
+* [Validation Script for Cases](https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI)
   
 ## Troubleshooting  
 

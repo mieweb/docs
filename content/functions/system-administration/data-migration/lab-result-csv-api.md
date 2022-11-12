@@ -6,16 +6,16 @@ version: 31
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
+  - 'data-import-overview.md'
   - 'https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0'
   - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample2.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample3.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample4.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample5.csv'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Lab Result CSV API'
@@ -31,7 +31,7 @@ The abstract that follows should be presented to decision-makers or stakeholders
   
 ### **Abstract**  
   
-The Lab Results CSV API imports data related to lab data. CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.  
+The Lab Results CSV API imports data related to lab data. CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.  
 Lab results are stored in a chart as a document. A **document** in an EH system is used to record and store many forms data. HL7 messages send all of the information used to create a lab document. The common order segment (ORC) message with visit information (DOS) creates the document in the EH database. The observation request (OBR) message includes the order number and panel or test name to create the lab request. The observation segment (OBX) transmits the observed date, results, units, and range to create the observation. Revisions are stored as well as the date/time the results were received.  
 All lab results are stored both as discrete data. Discrete data can be displayed in EH as a **flowsheet,**or collection of results.
   
@@ -59,4 +59,4 @@ The following examples are available in CSV format:
   
 ## **Related Pages**  
 
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.md)

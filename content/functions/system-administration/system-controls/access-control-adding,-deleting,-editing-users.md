@@ -2,14 +2,14 @@
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
 date: '2022-07-18T18:55:35.781Z'
-version: 82
+version: 84
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
-  - 'gdoc:12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
+  - 'access-control-quick-add-multiple-active-users.md'
+  - 'setting-up-e-prescribers.md'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Access Control - Adding, Deleting, Editing Users'
@@ -45,7 +45,7 @@ Per Medical Informatics Engineering, Inc. policy, all *new* *providers* should b
   
 Click *Control* on the left sidebar menu.  
 Click *Access Control* tab at the top  
-Click the Add User link on the far right side. (To add multiple active users quickly at a time, see other help documentation named [Access Control-Quick Add Multiple Users](gdoc:1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg))
+Click the Add User link on the far right side. (To add multiple active users quickly at a time, see other help documentation named [Access Control-Quick Add Multiple Users](access-control-quick-add-multiple-active-users.md))
   
 ![](../access-control-adding,-deleting,-editing-users.assets/10000201000002B300000097C3416204497BC12C.png)  
 
@@ -66,7 +66,7 @@ When adding a user, fill out all the fields you can:
 * <strong>Current Status:</strong> Should be default to <em>Active</em> when adding a new user. If the user is considered active, then a username and login password must be entered. Users that will not access the system (example: Pharmacy names/fax #'s, etc) would be status of Login Disabled. No password would need to be entered for non-accessing (disabled) users.
 * <strong>Security Role:</strong> Message: <em>Warning, No Security Role for User</em> will appear. Select security role by using the drop-down arrow. Highlight and select the security role this user is to be in. You <em>must</em> select a security role for the user. It will give you an error at the top if you try to submit a new user without making a selection in this field.
 * <strong>Def. User Role:</strong> Message: <em>Warning, No Default User Role for User!</em> This <strong>must</strong> be set for any <em>Referring Physician</em> user adds. For any other types of users, you can leave this/skip it. If you leave it blank/skip it, it automatically defaults and saves to <em>User-Limited Access</em> role. If adding a Referring Physician user, set this to Referring Physician.
-* <strong>Electronic Prescriber:</strong> These fields are <em>only</em> for physicians/users who can legally prescribe medications and what to be a verified/certified SureScripts electronic prescriber. Please make sure to read the other help documentation named [Setting Up E-Prescribers](gdoc:12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw) before check-marking any of these selections.
+* <strong>Electronic Prescriber:</strong> These fields are <em>only</em> for physicians/users who can legally prescribe medications and what to be a verified/certified SureScripts electronic prescriber. Please make sure to read the other help documentation named [Setting Up E-Prescribers](setting-up-e-prescribers.md) before check-marking any of these selections.
 * <strong>Meaningful Use:</strong> checkmark Eligible Provider if the user wishes to opt-in for the Meaningful Use incentive from CMS to track meaningful use criteria for this user/provider. Enter the start date to start tracking. Click the Meaningful Use verbiage link on the left and it will open up the Meaningful Use criteria to checkmark which reporting measures the user wishes to report on.
 * <strong>Title:</strong> Usually left blank.
 * <strong>First Name:</strong> This is a required field. You cannot add a user without entering a first name here.
@@ -165,7 +165,7 @@ In order to get to this *Customize User Security* section, you must click Edit
 When you *delete* a user or a realm, it does not permanently delete it. It marks it as "deleted", but you can reactivate any user. If you need to put them back in as a user, you click on *Show Deleted* and on the username you want to reactivate, click *Activate* to reactivate them in the options column.  
 When you *delete* a user or a realm (department) you will get a warning that asks you if you really want to delete before actually deleting either of them. Click Yes to confirm and complete.  
 If you need a user completely deleted, you need to call MIE to have that done. Otherwise, delete them as inactive and they will show up in the users, but under ‘deleted' users.  
-If you are deleting a physician who was certified by SureScripts as an electronic prescriber in {{% system-name %}} , please see other help documentation named [Setting Up E-Prescribers](gdoc:12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw) for the correct steps on how to disable those specific users so SureScripts is notified **before** you can delete them as a user from your  {{% system-name %}} system.
+If you are deleting a physician who was certified by SureScripts as an electronic prescriber in {{% system-name %}} , please see other help documentation named [Setting Up E-Prescribers](setting-up-e-prescribers.md) for the correct steps on how to disable those specific users so SureScripts is notified **before** you can delete them as a user from your  {{% system-name %}} system.
   
 #### View Audit Log  
   

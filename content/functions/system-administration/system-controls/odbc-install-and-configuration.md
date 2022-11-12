@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://dev.mysql.com/downloads/connector/odbc/'
   - 'http://dev.mysql.com/doc/connector-odbc/en/connector-odbc-installation-binary-windows.html#connector-odbc-installation-binary-windows-installer'
-  - 'gdoc:1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
+  - 'med-web-ssl-certificate-authority.md'
   - 'https://miewiki.med-web.com/wiki/images/7/72/Crystal10TurnOffSmartLinking.reg'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'ODBC Install & Configuration'
@@ -49,7 +49,7 @@ From the Windows Desktop:
 ### **MySQL ODBC Data Source Configuration**  
 
 Now that you have the driver installed successfully, you will need to configure it.
-1. You will need MIE's CA, you can download from here: [Med-Web SSL CA](gdoc:1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58)
+1. You will need MIE's CA, you can download from here: [Med-Web SSL CA](med-web-ssl-certificate-authority.md)
 2. You should have received an e-mail containing information on how to obtain the follow elements for configuration:
    1. Hostname
    2. Port: 3306

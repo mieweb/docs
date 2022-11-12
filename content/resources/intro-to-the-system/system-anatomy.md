@@ -1,15 +1,15 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2020-02-27T21:28:42.966Z'
-version: 79
-lastAuthor: 'aquandt'
+date: '2022-11-02T12:53:42.362Z'
+version: 84
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - '../intro-to-the-system.md'
   - '../../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'System Anatomy'
@@ -20,11 +20,11 @@ menu:
 The following page provides details on the correct terminology for screens and items that appear in an MIE (WebChart, Enterprise Health) system.  
 For an overview on basic {{% system-name %}} navigation and functionality, see [Intro to the System](../intro-to-the-system.md).
   
-## **Header and Side Navigation**  
+## Header and Side Navigation  
   
 MIE system navigation is driven through a number of toolbars and menus accessible at the top and sides of the system.
   
-### **Header Toolbars**  
+### Header Toolbars  
   
 Layered toolbars appear throughout the MIE system at the top of the page to provide navigation, patient details, and encounter details. The number of toolbars change depending on the page. Additionally, the toolbars collapse as you navigate some pages to maximize space for data entry.
   
@@ -63,7 +63,7 @@ H. Encounter links: Links related to an open encounter, as well as a number of t
    <img src="../system-anatomy.assets/100002010000041D000000430D43ED05B4562DFD.png" />  
 
   
-### **Menus and Tabs**  
+### Menus and Tabs  
   
 The left side menu is accessible throughout the system from the show/hide menu icon in the upper left. The following terminology is applied to menus on the top and sides of an MIE system.
   
@@ -75,7 +75,7 @@ The left side menu is accessible throughout the system from the show/hide menu i
 4. <strong>Subtabs</strong>: An extended tab that further organizes related information. Sub-tabs drop down from some tabs. A small, downward facing triangular shape at the corner of a tab indicates that subtabs are available.
 5. <strong>Pop-out icon</strong>: A circular icon with an upward facing arrow is called a pop-out icon. This icon opens a new browser window or tab from the tab or sub-tab.
   
-## **Chart**  
+## Chart  
   
 The following items can be seen throughout MIE systems. Here, a patient chart is used for identification.
   
@@ -86,7 +86,7 @@ The following items can be seen throughout MIE systems. Here, a patient chart is
 3. <strong>Icon</strong>: A small descriptive figure (such as those that appear on a portlet heading) is identified as an icon. Icons allow a user to perform an action or links to other information when clicked. This example displays portlet icons.
 4. <strong>Link</strong>: Any underlined text (including text that displays an underline when the cursor hovers over it) that links to another page is identified as a link.
   
-## **Encounter**  
+## Encounter  
   
 The following items can be seen throughout MIE systems. Here, an encounter is used for identification.
   
@@ -110,7 +110,7 @@ The following items can be seen throughout MIE systems. Here, an encounter is us
 5. <strong>Column</strong>: The heading that displays at the top of a set of information that displays as a table is identified as a column heading. Refer to the heading in writing as the column name (Description, Date, or Options in this example) heading.
 6. <strong>Drop-down</strong>: A field with a small, square, down-facing arrow icon in the right corner that allows users to select from a number of options to populate the field is identified as a drop-down.
   
-## **Related Pages**  
+## Related Pages  
 
 * [Intro to the System](../intro-to-the-system.md)
 * [Dynamic Encounter](../../functions/encounters/working-in-a-visit-encounter.md)

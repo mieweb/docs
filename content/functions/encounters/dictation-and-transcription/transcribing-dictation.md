@@ -6,9 +6,9 @@ version: 66
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
+  - 'closing-encounters-from-the-dictation-module.md'
 source: 'https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Transcribing Dictation'
@@ -89,7 +89,7 @@ When this box appears, you **MUST** click the underlined **Close link** to close
 Do not click the Red X box in the upper right hand corner of your screen to close out. This will not properly close the dictation and will not place it in the appropriate dictation tab. If you click the red X box by mistake, the dictation will remain in the Pending or Incomplete tab instead of being properly closed and put in the Completed tab.
 {{% info %}}
 
-If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you will see other options here besides Close. See other help documentation named [*Encounters-Closing Dictation*](gdoc:1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A)*.*
+If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you will see other options here besides Close. See other help documentation named [*Encounters-Closing Dictation*](closing-encounters-from-the-dictation-module.md)*.*
 {{% /info %}}
   
 ## Inaudible Transcriptions  
@@ -158,7 +158,7 @@ The patient's encounter with the section free-text fields will still be open on 
 
 {{% info %}}
 
-If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you should see the option and archive & close encounter. See other help documentation named [*Encounters-Closing Dictation*](gdoc:1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A)*.*
+If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you should see the option and archive & close encounter. See other help documentation named [*Encounters-Closing Dictation*](closing-encounters-from-the-dictation-module.md)*.*
 {{% /info %}}
   
 ![](../transcribing-dictation.assets/10000201000003B2000000D2913534C2F9979F9F.png)  

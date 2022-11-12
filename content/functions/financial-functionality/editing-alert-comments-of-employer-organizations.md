@@ -6,12 +6,12 @@ version: 27
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
+  - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=16AgcK4vJ6iK8GaD6OvbIGeLya65G1r1YJrCH6C1mTWE'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 You can edit the text of the alert comment. You cannot change the color of the text, the color of the text background, nor where the comment appears.
-1. [Find the employer organization](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg) to which to edit an alert comment.
+1. [Find the employer organization](finding-employer-organizations.md) to which to edit an alert comment.
 2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Documents</strong>  
    . The system displays a list of documents for the employer organization.<img src="../editing-alert-comments-of-employer-organizations.assets/10000201000000DF00000093E1CF0D26C7E6B899.png" />  
    <img src="../editing-alert-comments-of-employer-organizations.assets/1000020100000548000001D7B4B329EDB4C388E5.png" />  

@@ -7,9 +7,9 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
-  - 'gdoc:1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
+  - 'scanning.md'
 source: 'https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Batch Search in WebScan'
@@ -17,7 +17,7 @@ menu:
     parent: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
     weight: 710
 ---
-In order to access the [WebScan](https://system/?f=miewebscan) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](gdoc:1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0) help documentation.  
+In order to access the [WebScan](https://system/?f=miewebscan) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](scanning.md) help documentation.  
 To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any Checked-In batches will be listed under the Batch list view, by default. The Checked-in batches are various scanned documents ready to be indexed into the system.
   
 ![](../batch-search-in-webscan.assets/10000201000005480000013E8ED32FF6F874C0FC.png)  

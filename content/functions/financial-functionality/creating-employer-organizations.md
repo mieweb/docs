@@ -6,15 +6,15 @@ version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg'
-  - 'gdoc:1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
-  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
+  - 'changing-organizations-to-employer-organizations.md'
+  - 'adding-contacts-to-employer-organizations.md'
+  - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
-An employer organization to be added as a sub-employer organization must already be in the system and an employer organization. If it is not, first create the employer organization that will be subordinate or [change an organization to an employer organization](gdoc:1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg).  
-Before persons can be added as contacts of the employer organization, their information must be in the system in contact charts. See [Adding contacts to accounts](gdoc:1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA).
-1. [Find employer organizations](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg) to ensure the employer organization to create is not already in the system. If it exists as an organization rather than an employer organization, stop here and see [Changing organizations to employer organizations](gdoc:1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg).
+An employer organization to be added as a sub-employer organization must already be in the system and an employer organization. If it is not, first create the employer organization that will be subordinate or [change an organization to an employer organization](changing-organizations-to-employer-organizations.md).  
+Before persons can be added as contacts of the employer organization, their information must be in the system in contact charts. See [Adding contacts to accounts](adding-contacts-to-employer-organizations.md).
+1. [Find employer organizations](finding-employer-organizations.md) to ensure the employer organization to create is not already in the system. If it exists as an organization rather than an employer organization, stop here and see [Changing organizations to employer organizations](changing-organizations-to-employer-organizations.md).
 2. Select <strong>Add New</strong>. The <em>Enter Information</em> page appears.
 3. On <em>Enter Information</em> page, in <strong>Name</strong> field, type name of employer organization.
 4. Select <strong>Add New</strong> button. The employer organization account page appears.

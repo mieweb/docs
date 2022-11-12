@@ -6,10 +6,10 @@ version: 40
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
-  - 'gdoc:1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
+  - '../system-administration/system-controls/setting-up-e-prescribers.md'
+  - 'e-refills-my-pending-refills-tab.md'
 source: 'https://drive.google.com/open?id=1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'E-Refills - All E-Refills Tab'
@@ -31,14 +31,14 @@ If this tab shows all zero, then it is because you are not an e-prescriber and a
 
 {{% tip %}}
 
-If you are receiving e-refill requests from pharmacies for a physician who has left your practice, please see other help documentation named [*Setting Up E-Prescribers*](gdoc:12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw). That help documentation will guide you to make sure to follow the steps on how to correctly edit the username screen for that physician from {{% system-name %}} and terminate them from being certified with SureScripts from your practice and so SureScripts will know to disable them and pharmacies will remove them from sending refill requests to your practice.
+If you are receiving e-refill requests from pharmacies for a physician who has left your practice, please see other help documentation named [*Setting Up E-Prescribers*](../system-administration/system-controls/setting-up-e-prescribers.md). That help documentation will guide you to make sure to follow the steps on how to correctly edit the username screen for that physician from {{% system-name %}} and terminate them from being certified with SureScripts from your practice and so SureScripts will know to disable them and pharmacies will remove them from sending refill requests to your practice.
 {{% /tip %}}
 If you **do** have security to manage e-rx refills for others, then this tab will show all categorized e-refill requests for all certified e-Prescribers. A quick way to know this is that you **do** see the *prescriber* name column in the summaries which distinguishes which e-refill request was whose.
   
 ![](../e-refills-all-e-refills-tab.assets/1000000000000382000001BE9D9F82A415C9B4B1.png)  
 
 If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will *not* see the e-refills alert at the top of your screen. You would work those e-refill requests from this tab. You would work them from the PENDING REFILLS REQUESTS category listed at the top of the summary of this tab. Please make sure to only work the refill requests for the prescriber you are designated to.
-To work an e-refill request, please see other help documentation named [*E-Refills-MY PENDING REFILLS*](gdoc:1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k)*.*
+To work an e-refill request, please see other help documentation named [*E-Refills-MY PENDING REFILLS*](e-refills-my-pending-refills-tab.md)*.*
   
 ![](../e-refills-all-e-refills-tab.assets/1000000000000382000001BE9D9F82A415C9B4B1.png)  
 

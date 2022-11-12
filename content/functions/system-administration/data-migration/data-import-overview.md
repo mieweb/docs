@@ -6,11 +6,11 @@ version: 24
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
-  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'data-migration-overview.md'
+  - 'data-migration-file-format-standard.md'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Data Import Overview'
@@ -22,7 +22,7 @@ This page provides an explanation of terminology related to importing data from 
   
 ### **Data Migration**  
   
-Clients replacing an existing EHR with an {{% system-name %}} system undertake what is referred to as [data migration.](gdoc:1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8) Multiple sets of data may be involved in a data migration, but the migration is a one-time event.
+Clients replacing an existing EHR with an {{% system-name %}} system undertake what is referred to as [data migration.](data-migration-overview.md) Multiple sets of data may be involved in a data migration, but the migration is a one-time event.
   
 ### **Data Imports**  
   
@@ -34,7 +34,7 @@ An application program interface (API), as utilized by MIE, is a specification t
   
 ### **CSV**  
   
-Comma separated values (CSV) files are used to transfer data through an API. To simplify, CSV files are simply text files with data fields separated by commas (or another supported character/delimiter) . For more on file formatting standards, see [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg).
+Comma separated values (CSV) files are used to transfer data through an API. To simplify, CSV files are simply text files with data fields separated by commas (or another supported character/delimiter) . For more on file formatting standards, see [Data Migration File Format Standard](data-migration-file-format-standard.md).
   
 ### **Import Tools**  
   
@@ -42,4 +42,4 @@ A number of developer tools have been designed to aide data import efforts. Thes
   
 ## **Related Pages**  
 
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.md)

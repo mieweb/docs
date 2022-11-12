@@ -6,9 +6,9 @@ version: 76
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
+  - '../../e-chart/alerts,-errors,-failures-interactive-tab.md'
 source: 'https://drive.google.com/open?id=1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Word Documents - CC Physicians Feature'
@@ -122,7 +122,7 @@ Simply find the stored/uploaded document in the patient's chart (doc id). Then c
   
 ![](../word-documents-cc-physicians-feature.assets/100000000000039A00000199FF09E5214E662803.png)  
 
-The document properties will show various sections and scroll down to the sections named **Current Routes for Document** and **Routing History for Document**. There you will see which cc'd user/physician this document went to, how it was sent (printed, faxed, etc), date/time sent and if the datasend was successful or pending or has an error you need to acknowledge or you can resend a document via this route from here also. For other specific information on document properties and routes, please see other help documentation named *Document Properties.pdf*. For other specific information on how to be notified of a datasend error, please see other help documentation named [*Alert-Errors-Failures-Interactive Tab*](gdoc:121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc)*.*
+The document properties will show various sections and scroll down to the sections named **Current Routes for Document** and **Routing History for Document**. There you will see which cc'd user/physician this document went to, how it was sent (printed, faxed, etc), date/time sent and if the datasend was successful or pending or has an error you need to acknowledge or you can resend a document via this route from here also. For other specific information on document properties and routes, please see other help documentation named *Document Properties.pdf*. For other specific information on how to be notified of a datasend error, please see other help documentation named [*Alert-Errors-Failures-Interactive Tab*](../../e-chart/alerts,-errors,-failures-interactive-tab.md)*.*
   
 ![](../word-documents-cc-physicians-feature.assets/10000000000003860000019C9F1EA1043944C576.png)  
 

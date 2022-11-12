@@ -8,23 +8,23 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/recordkeeping/RKforms.html'
   - 'https://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&p_part_number=1904'
-  - 'gdoc:1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'
-  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
+  - 'case-management-csv-api.md'
+  - 'data-import-overview.md'
   - 'https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit'
-  - 'gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-  - 'gdoc:179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
-  - 'gdoc:1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
+  - 'data-import-standards.md'
+  - 'chart-observations-import-options.md'
+  - 'chart-observations-default-values.md'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1ogOQ9KbjW2Fq6L1nWBb_KLpbbn0ylNcWB5nuRYIewzM/edit?usp=sharing'
   - 'https://docs.google.com/spreadsheets/u/1/d/1EfNyS8Dmk2eS4NX5F9AIOqfFWVgmO1rvrrXIs03EXXg/pubhtml'
   - 'https://docs.google.com/spreadsheets/d/1EfNyS8Dmk2eS4NX5F9AIOqfFWVgmO1rvrrXIs03EXXg/pub?gid=503618203&single=true&output=csv'
-  - 'gdoc:1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
-  - 'gdoc:1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
-  - 'gdoc:1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4'
-  - 'gdoc:1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
-  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
+  - 'restrictions-csv-api.md'
+  - 'accommodations-csv-api.md'
+  - 'conditions-csv-api.md'
+  - 'nature-of-injury-csv-api.md'
+  - 'data-import-master-list.md'
+  - 'data-migration-file-format-standard.md'
 source: 'https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Clinical Encounter CSV API'
@@ -35,7 +35,7 @@ menu:
 ## **Introduction**  
   
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) using the Clinical Encounter CSV API.  
-A **case** encompasses a variety of data that is ultimately meant to generate an [OSHA 300 log](https://www.osha.gov/recordkeeping/RKforms.html) for [occupational injuries and illness.](https://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&p_part_number=1904) The [Case Management CSV API](gdoc:1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM) includes encounter information, and is used when encounters are imported as a part of a case.
+A **case** encompasses a variety of data that is ultimately meant to generate an [OSHA 300 log](https://www.osha.gov/recordkeeping/RKforms.html) for [occupational injuries and illness.](https://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&p_part_number=1904) The [Case Management CSV API](case-management-csv-api.md) includes encounter information, and is used when encounters are imported as a part of a case.
 
   
 ### **Audience**  
@@ -55,13 +55,13 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * <strong>Lost time</strong> is the period of time that an employee (patient) is away from work due to an injury.
 * <strong>Nature of injury codes</strong> and <strong>body part codes</strong> are combined in a case to create the incident nature of injury body part ID (nibp_id) in an MIE system.
 * In occupational health, a <strong>restriction</strong> (clinical restriction) refers to an activity that an employee (patient) is not permitted to do after an injury (incident).
-CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the {{% sys-name %}} system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
 
   
 ## **Workflow Considerations**  
   
 The Clinical Encounter CSV API is useful for clients importing encounter-related data such as annual tests for clearance. Each encounter includes a chief complaint and documents separate visits with an employee/patient. Additional information is included in the encounter via documents. A **document** in {{% sys-name %}} is a way of storing information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, physician tasks for a patient, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.  
-The related [Case Management CSV API](gdoc:1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM) imports encounter, restriction, accommodation, condition, or nature of injury information for a patient, and is used to generate an OSHA 300 log. Clients who do not submit OSHA 300 logs may find the Clinical Encounter CSV API more appropriate for their needs.
+The related [Case Management CSV API](case-management-csv-api.md) imports encounter, restriction, accommodation, condition, or nature of injury information for a patient, and is used to generate an OSHA 300 log. Clients who do not submit OSHA 300 logs may find the Clinical Encounter CSV API more appropriate for their needs.
 
   
 ## **Specifications**  
@@ -77,7 +77,7 @@ Additionally, user instructions are available for importing data in {{% sys-na
   
 ### **Column Definitions and Specific Coded Values**  
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
 
   
 ### **Field Requirements**  
@@ -98,8 +98,8 @@ The following fields are required:
 
 Observations can be added to the encounter by adding the observation columns to the import file.
 The field obs_result is required to create an observation.
-[Chart Observations Import Options](gdoc:179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A) can be used to modify how observations are processed as the file is loaded.
-[Chart Observations Default Values](gdoc:1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM) can be used to simplify the import file.
+[Chart Observations Import Options](chart-observations-import-options.md) can be used to modify how observations are processed as the file is loaded.
+[Chart Observations Default Values](chart-observations-default-values.md) can be used to simplify the import file.
 
   
 #### **Best Practice**  
@@ -140,11 +140,11 @@ The following examples are available:
   
 ## **Related Pages**  
 
-* [Case Management CSV API](gdoc:1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM)
-* [Restrictions CSV API](gdoc:1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU)
-* [Accommodations CSV API](gdoc:1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc)
-* [Conditions CSV API](gdoc:1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4)
-* [Nature of Injury CSV API](gdoc:1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU)
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
-* [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk)
-* [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)
+* [Case Management CSV API](case-management-csv-api.md)
+* [Restrictions CSV API](restrictions-csv-api.md)
+* [Accommodations CSV API](accommodations-csv-api.md)
+* [Conditions CSV API](conditions-csv-api.md)
+* [Nature of Injury CSV API](nature-of-injury-csv-api.md)
+* [Data Import Master List](data-import-master-list.md)
+* [Import Overview](data-import-overview.md)
+* [Data Migration File Format Standard](data-migration-file-format-standard.md)

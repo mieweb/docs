@@ -6,12 +6,12 @@ version: 25
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98'
-  - 'gdoc:1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
+  - 'creating-statements.md'
+  - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1HRu6JJaf7bNjxyg4u0saJ5lNnc338GczKp_pS00cNts'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
-Use the pending billing report to close and post transactions. Typically, [create statements](gdoc:1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98) after closing and posting transactions.
+Use the pending billing report to close and post transactions. Typically, [create statements](creating-statements.md) after closing and posting transactions.
 1. Select the side menu. The side menu appears.
 2. Select <strong>Reports</strong>. The system displays a list of reports.
 3. From the list, select <strong>Financials</strong>. The system displays a list of financial reports.
@@ -24,7 +24,7 @@ Use the pending billing report to close and post transactions. Typically, [creat
    1. Type in the <strong>Month</strong>, <strong>Day</strong>, and <strong>Year</strong> fields.
    2. Select <strong>Calendar</strong>. Select the posting date.
 1. Select the <strong>OK</strong> button.
-2. If necessary, work with the information in the report as described in [Using DataVis Grids - Data Tools](gdoc:1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY).
+2. If necessary, work with the information in the report as described in [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.md).
 3. For each service to close and post, in the leftmost column, select its <strong>checkbox</strong>.
 4. At the bottom of the report, select <strong>Close</strong>. The <em>Close Transactions</em> window appears.
 

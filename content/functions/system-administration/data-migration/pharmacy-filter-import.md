@@ -7,9 +7,9 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Pharmacy_Filter_Example.csv'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Pharmacy Filter Import'
@@ -143,4 +143,4 @@ FilterWithBoth,1234212, 1251254150
   
 ## **Related Pages**  
 
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.md)

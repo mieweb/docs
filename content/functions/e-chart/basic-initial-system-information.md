@@ -8,12 +8,12 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart'
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
-  - 'gdoc:1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
+  - '../system-administration/security/my-settings.md'
   - 'https://system/'
   - 'https://system/?func=omniscope'
   - 'https://system/?func=logout'
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Basic Initial System Information'
@@ -38,7 +38,7 @@ menu:
 
 * Users who have security access to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) of the Control Panel are able to set their own system defaults and preferences as well as change settings for other users, individually or system-wide.  
 * The [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) screen will default to the logged-in user's settings.  This can be changed by clicking the dropdown option in the upper-right corner of the screen.
-* Users can view the help document named [My Settings](gdoc:1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc) that will explain every setting present on the screen.
+* Users can view the help document named [My Settings](../system-administration/security/my-settings.md) that will explain every setting present on the screen.
 * The following are some basic settings that can be changed for each user or could be changed for the entire system default.
    * <strong>Default Location</strong> (found in the WebChart User Interface section)- this is to designate the location that a user is associated with if more than one location is entered in the system. If more than one location exists, users should set the location where they work at most frequently with this setting.
    * <strong>Search By</strong> (found in the E-Chart Patient Search Criteria section) - this is to set the user's preferred patient search method by name, MR number, SSN, birth date, home phone number or document id.  

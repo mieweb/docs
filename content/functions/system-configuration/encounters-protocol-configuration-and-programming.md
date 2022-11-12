@@ -6,9 +6,9 @@ version: 169
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
+  - '../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Encounters Protocol Configuration & Programming'
@@ -215,7 +215,7 @@ Once the save button is clicked in the edit of that individual flowsheet observa
 Once the flowsheet is compiled and each is set to a specific input type and description edited, click the *SUBMIT* button to save all work.
 {{% info %}}
 
-More help regarding other details of flowsheet module programming is found in [Observation Flowsheets](gdoc:15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY) help guide in the {{% system-name %}} online help.
+More help regarding other details of flowsheet module programming is found in [Observation Flowsheets](../order-and-result-management/observation-flowsheets.md) help guide in the {{% system-name %}} online help.
 {{% /info %}}
 Continue to create separate flowsheet and set input type and edit description entries (using previous steps above) for Review of Systems (ROS) encounter section if needed for the protocol. Here is an example of an ROS FLOWSHEET to be used in the Cardiovascular protocol example:
   

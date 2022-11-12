@@ -9,10 +9,10 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v8&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v9&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v10&showresulttype=Measure'
-  - 'gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
+  - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms122v10'
 source: 'https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)'
@@ -115,7 +115,7 @@ menu:
   
 Track the HbA1c of all diabetic patients between the ages of 18-75.  The most recently performed HbA1c during the measurement period should be <=9.0%.  Any patients with an HbA1c >9% will be included in the numerator and count against quality. Use either the preferred Preventive Care section or the alternate Test and Procedures or Lab Results - Set 1 sections of the encounter. 
 
-Regardless of how the HbA1c observation is added to the chart, clients will need to ensure that the appropriate observation is configured with one of the following LOINC codes: 4548-4, 4549-2, or 17856-6.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the Hemoglobin A1c observation to determine if multiple HbA1c [observations need to be merged](gdoc:17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c).
+Regardless of how the HbA1c observation is added to the chart, clients will need to ensure that the appropriate observation is configured with one of the following LOINC codes: 4548-4, 4549-2, or 17856-6.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the Hemoglobin A1c observation to determine if multiple HbA1c [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
   
 ### Preferred Workflow  
 

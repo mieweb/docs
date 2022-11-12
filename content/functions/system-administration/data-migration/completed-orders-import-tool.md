@@ -2,18 +2,18 @@
 id: '1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
 title: 'Completed Orders Import Tool'
 date: '2020-03-17T02:25:23.687Z'
-version: 43
+version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-  - 'gdoc:1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
+  - 'data-import-overview.md'
+  - 'data-import-tab.md'
   - 'https://docs.google.com/spreadsheets/d/1OyCm9CuBEdQIlkXb7OtLIbnXB47UIFgnDzmR7J8j2Cw/edit#gid=0'
-  - 'gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
+  - 'data-import-standards.md'
   - 'https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Completed Orders Import Tool'
@@ -34,12 +34,12 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
 * A <strong>panel</strong> is a group of one-time or recurring testing items to performed for a person.
 * An <strong>order</strong> is a specific procedure that has been completed for a patient, such as an EKG.
-CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
   
 ## **Workflow Considerations**  
   
 If you have panels with action items set to trigger on *prior action (completed)* (see other help documentation named *Health Surveillance Panels-Actions.pdf*) then it's important to have specific order items in the employee's history to have the ‘last completed' date so the system knows when the last specific order item was marked complete in order to trigger other action items dependent on it. The *last completed date* is imported during the migration process to ensure that surveillance actions trigger with the appropriate due date.  This is needed for manual and/or {{% system-name %}} automated panel membership needs before the HR feed is turned on and before panel membership automation (if there is any) gets turned on and processes via the scheduled job.  
-Access the Data Import tab found in Control. See the [Data Import Tab](gdoc:1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y) help documentation.  
+Access the Data Import tab found in Control. See the [Data Import Tab](data-import-tab.md) help documentation.  
 Make sure all order items are listed in the import template tool that are part of the panel w/ a completion date, along w/ the representative event order item. Work with your MIE Implementer to import completed orders for Health Surveillance Panel needs.
   
 ![](../completed-orders-import-tool.assets/100002010000034E0000011622D90AD0535559E0.png)  
@@ -61,7 +61,7 @@ Additionally, user instructions are available for importing data in {{% sys-na
   
 ### **Column Definitions and Specific Coded Values**  
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
   
 ### **Field Requirements**  
 
@@ -131,5 +131,5 @@ Example file with multiple order_id columns for four patients. Two of the patien
   
 ## **Related Pages**  
 
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.md)
 

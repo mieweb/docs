@@ -1,11 +1,14 @@
 ---
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
-date: '2022-10-17T16:00:26.909Z'
-version: 331
-lastAuthor: 'Jenna Anderson'
+date: '2022-11-02T11:35:05.491Z'
+version: 395
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://mie.talentlms.com/unit/view/id:2703'
+  - 'https://mie.talentlms.com/learner/courseinfo/id:148'
+  - 'https://drive.google.com/open?id=1vIUkrnk45wKAgO5_k_shVp7N3OtDcn62EeSsVt9tAnw'
   - 'https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types'
   - 'https://system/?f=admin&s=fee_schedule&tabmodule=admin&tabselect=Fee+Schedule'
   - 'https://system/?f=admin&s=fee_schedule&profile_id=0'
@@ -44,8 +47,9 @@ links:
   - '../../functions/encounters/e-m-calculator.md'
   - '../../functions/encounters/encounter-summary-toolbar.md'
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
+  - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Review Session - Encounter Workflow'
@@ -55,24 +59,43 @@ menu:
 ---
 ## Agenda  
 
-* <strong>Encounter Workflow Demonstration</strong>
+* <strong>Pre-Requisites</strong>
 * <strong>Overview</strong>
+* <strong>Encounter Workflow Demonstration</strong>
 * <strong>System Configuration</strong>
    * <strong>Encounter Types</strong>
    * <strong>Appointment Type Default Encounter Type</strong>
    * <strong>Protocols</strong>
    * <strong>Encounter Templates</strong>
    * <strong>Encounter Info Section</strong>
+      * <strong>Performing Provider</strong>
+      * <strong>Archive As</strong>
    * <strong>Encounter Checkout Tab</strong>
    * <strong>Macros</strong>
    * <strong>Worklists</strong>
-   * <strong>Esign/Tasking</strong>
-   * <strong>Clinical Decision Support/Scripted Rules</strong>
+   * <strong>Clinical Decision Support / Scripted Rules</strong>
+   * <strong>Esign / Tasking</strong>
+   **Clinical Decision Support/Scripted Rules**
    * <strong>System Settings</strong>
    * <strong>Security Role Permissions</strong>
    * <strong>My Settings Preferences</strong>
+* <strong>Smart Plan</strong>
 * <strong>Reporting</strong>
+* <strong>Key Decision Points</strong>
+* <strong>Action Items / Timelines</strong>
+
 * <strong>Resources</strong>
+   * <strong>Documentation</strong>
+   * <strong>LMS Courses / Videos</strong>
+  
+## Pre-Requisites  
+  
+Prior to the review session, please provide corresponding documentation: 
+
+1. Listing of current appointment types/services offered/exams
+2. List of Providers
+3. List of servicing locations
+4. LMS Course: [Encounters](https://mie.talentlms.com/unit/view/id:2703) and [Encounter Templates and Visit Notes](https://mie.talentlms.com/learner/courseinfo/id:148)
   
 ## Overview  
   
@@ -88,19 +111,43 @@ Multiple users can be in a dynamic encounter at the same time. A message will di
 {{% /info %}}
 Once all documentation is finalized, it is important to always remember to close and archive encounters. Not only will this produce a chart document, but closing and archiving encounters ensures all worklist items are current and accurate. {{% system-name %}} provides worklists for tracking open encounters, open encounters assigned to specific providers, as well as for open encounters in specific stages. Ensuring completed encounters are archived and closed helps keep clinical documentation organized and well-maintained.
 Standard visit encounters vary by system type, but may include:
-* Billing Encounter
+* Checkin
 * Biometric Exam
 * Brief Note
 * Case Management – Work-related
 * Driver Fitness Determination
-* Health Surveillance Testing
-* Office Visit-Initial
-* Office Visit-Follow up
+* Travel Consult
+* OB Flow
+
 * Pediatric Exam
 * Pre-placement Exam
 * Results
 * Visit
+Standard protocols may vary by system type, but may include:
+* Occupational Injury
+* Absence Management
+* Cardiovascular
+* Case Management
+* COVID
+* Endocrine
+* EENTD
+* Exposure
+* Gastrointestinal
+* General Assessment
+* Gynecological
+* Low Back Pain
+* Musculoskeletal
+* Neurological
+* Psychiatric
+* Respiratory
+* Skin
+* BHS
+
 Custom configuration of encounter templates by MIE is available, along with protocol-driven Chief Complaint templates, if necessary.
+**Encounter Workflow Review Session Demonstration**
+
+* [Encounter Demonstration](https://drive.google.com/open?id=1vIUkrnk45wKAgO5_k_shVp7N3OtDcn62EeSsVt9tAnw)
+
   
 ## System Configuration  
 
@@ -122,13 +169,13 @@ If using the Checkin module, it is suggested to always set the Default Encounter
   
 ### Protocols  
 
-Dependant upon the nature of the encounter or the condition being assessed, protocols are designed to automate configurations meant to guide clinician documentation of visits based on specific issues or conditions (e.g, headache, burn, fall, bite, etc.). Protocols can be configured to use various encounter sections, as well as observations, flowsheets, macros, and orders.
+Depending upon the nature of the encounter or the condition being assessed, protocols are designed to automate configurations meant to guide clinician documentation of visits based on specific issues or conditions (e.g, headache, burn, fall, bite, etc.). Protocols can be configured to use various encounter sections, as well as observations, flowsheets, macros, and orders.
 Several protocols come preloaded as part of the the standard {{% system-name %}} system. To review each protocol and the associated configurations, navigate to the Chief Complaint section of a dynamic encounter. Begin by selecting a protocol from the autocomplete field. After clicking the **Next** button, or collapsing the section, the encounter will refresh with the necessary encounter components defined by the protocol (i.e., History of Present Illness [HPI], Review of Systems [ROS], Physical Exam [PE], Tests and Procedures, Symptoms/Diagnosis, Quality, Plan Narrative, Patient Education, and Depart Instructions).
 Be sure to review all protocols, and edit, remove, or add specific protocol section flowsheets from the [Flowsheets editor](https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet&tabmodule=admin&tabselect=Flowsheets), as needed.
   
 ### Encounter Templates  
 
-In addition to protocols, {{% system-name %}} offers the ability to create encounter templates in a dynamic encounter. These are different than protocols in that encounter templates only specify the sections needed, according to the predefined template format. Protocols, on the other hand, incorporate the use or need of observations, flowsheets, macros, and orders. Because encounters are divided into major categories, with sections falling under each major category, templates are used to simply configure encounters to load only those sections needed for documentation, based on the type of visit being documented.
+In addition to protocols, {{% system-name %}} offers the ability to create encounter templates in a dynamic encounter. These are different from protocols in that encounter templates only specify the sections needed, according to the predefined template format. Protocols, on the other hand, incorporate the use or need of observations, flowsheets, macros, and orders. Because encounters are divided into major categories, with sections falling under each major category, templates are used to simply configure encounters to load only those sections needed for documentation, based on the type of visit being documented.
 For instance, the {{% system-name %}} Visit encounter offers over 50 different sections, many of which are hidden by default, but can be brought in manually, if necessary. Likewise, any sections displayed by default can be manually removed. However, what this means is that specific encounters requiring minimal or specific documentation can be established as a template, or sections not needed for certain encounter types can be removed or hidden.
 Consider an example of an allergy injection visit. First, let it be assumed that Practice A is interested in using the standard Visit encounter to document all allergy injection visits. After several uses of the Visit encounter, the practice has come to realize that only a few of the sections (i.e., Encounter Info, Tests and Procedures, and Notes) are needed when documenting their allergy injection visits. Because of this, it would be beneficial for the practice to create an encounter template with only the few sections necessary for documenting the visit. The template, then, can be named accordingly (e.g., Allergy Inj Visit). Once created, any time the Allergy Inj Visit template is applied to the visit, the system will refresh the encounter, removing all non-templated sections from view.
 With this in mind, be sure to discuss any encounter templates potentially needed for clinicians or any common encounter types. For each possible template, determine which sections need to be visible, as well as any expected template name, or naming convention. Remember, the system will only display specific sections of the dynamic encounter noted in the applied saved template.
@@ -187,7 +234,7 @@ It is important to remember to check the *Display Stage Column* system setting w
   
 ### Clinical Decision Support/Scripted Rules  
 
-{{% system-name %}} can be set up with scripted rules, or clinical decision support, to assist clinicians, staff, and users, in general, with making informed decisions at the point of care. These scripted rules can be used to suggest pathways to care, making all relevant information easily accessible and specific to the patient's/employee's given circumstances. Scripted rules can be used to specify message types, as well as the severity level at which warnings should be triggered. An added usability feature allows clinicians the ability to dismiss messages for individual patients, for all of their patients, or for all patents within the practice, given the appropriate security level. A set of default pre-configured [Scripted Rules](https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing) are available in the standard {{% system-name %}} deployment. Review with the Deployment Consultant, and determine which scripted rules will need disabled and/or configured for the overall business needs.
+{{% system-name %}} can be set up with scripted rules, or clinical decision support, to assist clinicians, staff, and users, in general, with making informed decisions at the point of care. These scripted rules can be used to suggest pathways to care, making all relevant information easily accessible and specific to the patient's/employee's given circumstances. Scripted rules can be used to specify message types, as well as the severity level at which warnings should be triggered. An added usability feature allows clinicians the ability to dismiss messages for individual patients, for all of their patients, or for all patients within the practice, given the appropriate security level. A set of default pre-configured [Scripted Rules](https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing) are available in the standard {{% system-name %}} deployment. Review with the Deployment Consultant, and determine which scripted rules will need disabled and/or configured for the overall business needs.
   
 ### Esign/Tasking Rules  
 
@@ -220,11 +267,48 @@ My Settings preferences also need considered when providing access to the Encoun
    * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
    * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
    * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
+   * will need set to N/A when using this setting.
+* PMH Linked as Active: This setting will determine if Past Medical History is linked as active from the Encounter. 
+   * If yes is selected, then it will include the items as active medical conditions. 
+   * If yes (incl. concluded) is selected, concluded past medical items will be considered active
+   * If no is selected, no past medical history items will be considered active
+   * If problem list only is selected, only the problem list will be considered active. 
+* Audiogram STS display: This setting will determine if the age corrected, non age corrected or both audiogram results will be displayed.
+* Assessment Entry in Orders: This setting will determine if the assessment entry will be available in the Order
+* Remember provider and location: This setting will remember the provider and location in future encounters. 
+
 Any additional details can be found in the [My Settings](../../functions/system-administration/security/my-settings.md) online help documentation, if necessary.
+**Smart Plan**
+
+The Smart Plan is an optional section that displays at the top of the Visit Encounter. The Smart Plan is similar to the Assessment, however it is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections. This section is ideal for providers who prefer to drive the encounter based on patient conditions.
+
+Providers will use the Smart Plan quicklist (right side of the blue vertical bar) to populate a Smart Plan for today's visit (left side of the blue vertical bar). The provider can leverage a combination of features, such pre configured libraries, pre-populated data based on existing data in the patient chart, organize conditions, as well as quickly order and perform tests, procedures and medications from the Smart Plan.
+
   
 ## Reporting  
 
 Encounters are the basis on which all visits hinge, and because of this, there are various downstream implications of documentation, as well as many aspects of the chart and EHR to consider. Data collected within encounters are available from a plethora of reporting tools in {{% system-name %}} . To see the available encounter reports, navigate to the **Reports** sidemenu and select the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) group of reports.
+**System Configuration/Key Decision Points**
+
+1. What encounter types need to be configured?
+   1. What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
+   2. Which encounter types need to be tied to the appointment types?
+   3. What should the encounter be archived as?
+2. What encounter templates need to be configured?
+3. What protocols need to be configured?
+4. What flowsheets need to be configured?
+   1. Which protocols will drive the flowsheets?
+   2. What area within the encounter will that flowsheet belong to?
+5. What in-house testing can be performed?
+6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists?  Decision on what to track or not
+7. Need list/address of vendors commonly refer to
+8. What macros will need to be configured?
+9. What encounters need e-sign rules set up for signature?
+10. What reports need to be configured for encounters?
+11. What libraries will need to be configured?
+12. Will the Smart Plan be utilized?
+
+**Action Items/Timelines**
   
 ## Resources  
 
@@ -256,3 +340,9 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 * [Encounter-Summary Toolbar](../../functions/encounters/encounter-summary-toolbar.md)
 * [Encounter Checkout Chart Tab](../../functions/encounters/encounter-checkout-chart-tab.md)
 * [Scripted Rules](https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing)
+
+**LMS Courses/Videos**
+
+* [Encounters](https://mie.talentlms.com/unit/view/id:2703)
+* [Encounter Templates/Visit Notes](https://mie.talentlms.com/shared/start/key:LABIDNHR)
+

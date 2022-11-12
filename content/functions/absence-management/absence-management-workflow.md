@@ -6,9 +6,9 @@ version: 130
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
+  - '../injury-care/adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information.  All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -100,11 +100,11 @@ This section can be used to make daily notes on the case. This section also prov
   
 ### **Work Status (or Lost Time) Section**  
   
-Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg) help documentation for more information.
+Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../injury-care/adding-restrictions-and-accommodations.md) help documentation for more information.
   
 ### **Restrictions and Accommodations**  
   
-Refer to help documentation named [Restrictions and Accommodations](gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg).
+Refer to help documentation named [Restrictions and Accommodations](../injury-care/adding-restrictions-and-accommodations.md).
   
 ## **Linking Documents to Cases**  
   

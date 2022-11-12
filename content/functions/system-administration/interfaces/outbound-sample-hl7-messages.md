@@ -6,11 +6,11 @@ version: 59
 lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
-  - 'gdoc:1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
-  - 'gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
+  - 'receiving-hl7-messages-from-system.md'
+  - 'sending-hl7-messages-to-system.md'
+  - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 # SIU, Scheduling  
   
@@ -282,6 +282,6 @@ RXA|0|999|20210722000000|20210722000000|115^Tdap^CVX|999|||01^Historical immuniz
   
 # Related Pages  
 
-[Receiving HL7 Messages from System](gdoc:1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs)
-[Sending HL7 Messages to System](gdoc:1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw)
-[HL7 Segment Definitions](gdoc:1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80)
+[Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md)
+[Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
+[HL7 Segment Definitions](hl7-segment-definitions.md)

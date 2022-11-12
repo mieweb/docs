@@ -2,17 +2,17 @@
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
 date: '2022-03-02T21:42:17.031Z'
-version: 241
+version: 250
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.identrust.com/igc/mie/'
-  - 'gdoc:1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG'
+  - 'https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG'
   - 'mailto:trustsource@identrust.com'
   - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'IdenTrust Certificate Registration Step-by-Step'
@@ -52,7 +52,7 @@ It's as Easy as 1 - 2 - 3!
 ### Apply  
   
 When prescribers are ready to purchase the certificate and/or token, there is a simple 3-step process provided through IdenTrust. Simply fill out the application, verify your information, and receive your certificate and generate its key for use.  
-There is a recording walking to watch someone walk through all the steps (the video has no sound).  If you start at about 3:30 on the normal speed video in this folder:[](gdoc:1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)[https://drive.google.com/drive/folders/1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG?usp=sharing](gdoc:1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)
+There is a recording walking to watch someone walk through all the steps (the video has no sound).  If you start at about 3:30 on the normal speed video in this folder:[](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)[https://drive.google.com/drive/folders/1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG?usp=sharing](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)
   
 #### Select a Certificate  
   

@@ -6,9 +6,9 @@ version: 74
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
+  - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Insurance Summary in Demographics Tab'
@@ -27,7 +27,7 @@ When in demographics tab or if click manage information within the insurance por
 
 The Insurance Summary section does not display when in Edit Demographics mode.  Must be in the demographics summary tab or access this via the Insurance portlet by clicking the ‘manage info' icon in the portlet.
 {{% /tip %}}
-Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for** Patient Insurance Policies** in {{% system-name %}} or refer to [Security Role Settings](gdoc:1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM) documentation for more information.
+Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for** Patient Insurance Policies** in {{% system-name %}} or refer to [Security Role Settings](../system-administration/security/security-role-settings.md) documentation for more information.
   
 ## **Add an Insurance Policy to a Chart**  
 

@@ -6,13 +6,13 @@ version: 21
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1HRu6JJaf7bNjxyg4u0saJ5lNnc338GczKp_pS00cNts'
-  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
+  - 'closing-and-posting-transactions.md'
+  - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
-Before creating statements, [close and post transactions](gdoc:1HRu6JJaf7bNjxyg4u0saJ5lNnc338GczKp_pS00cNts).
-1. [Find the employer organization](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg) for which to create statements.
+Before creating statements, [close and post transactions](closing-and-posting-transactions.md).
+1. [Find the employer organization](finding-employer-organizations.md) for which to create statements.
 2. Select the <strong>Accounting</strong> tab. A menu appears. From the menu, select <strong>Invoices/Statements</strong>. The system displays invoices/statements.
 3. The system shows invoices/statements from the previous month. To include invoices/statements from a different period of time:
    1. In the <em>Dates</em> area, in the left month, date, and year fields, type a month, date, and year or select <strong>Today</strong> to use today's month, date, and year or select <strong>Calendar</strong> to select a month, date, and year from a calendar.

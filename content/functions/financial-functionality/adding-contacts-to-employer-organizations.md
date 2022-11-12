@@ -6,11 +6,11 @@ version: 20
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
+  - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
-1. [Find employer organizations](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg).
+1. [Find employer organizations](finding-employer-organizations.md).
 2. From the search results, select the <strong>name of the organization</strong> to which to add contacts. The system displays information about the organization.
 3. Select the <strong>Overview (EO)</strong> tab.
 4. In the <em>Contacts</em> section, select <strong>Add New Contact</strong>. The <em>Enter Information</em> page appears.

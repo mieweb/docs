@@ -6,11 +6,11 @@ version: 33
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
-  - 'gdoc:1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-  - 'gdoc:14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
+  - 'measures/promoting-interoperability-pi-measures.md'
+  - 'measures/improvement-activities-measures.md'
+  - 'measures/quality-measures-list.md'
 source: 'https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Measures'
@@ -31,13 +31,13 @@ menu:
 
 
 
-[**Promoting Interoperability (PI) Measures**](gdoc:1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw)
+[**Promoting Interoperability (PI) Measures**](measures/promoting-interoperability-pi-measures.md)
 
 
 
-[**Improvement Activities Measures**](gdoc:1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE)
+[**Improvement Activities Measures**](measures/improvement-activities-measures.md)
 
 
 
-[**Quality Measures**](gdoc:14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y)
+[**Quality Measures**](measures/quality-measures-list.md)
 

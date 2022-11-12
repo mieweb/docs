@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?func=esign'
   - 'https://system/?f=esign&t=Pending+Reviews&tabmodule=esign&tabselect=Pending+Reviews'
-  - 'gdoc:1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
-  - 'gdoc:1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854'
+  - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
+  - '../../e-sign-electronic-signature.md'
 source: 'https://drive.google.com/open?id=1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Link Documents to Other Documents'
@@ -76,7 +76,7 @@ Users may continue to other areas of the chart as needed, or they may click the 
 ## Link via E-Sign  
 
 When a user has documents in the [Pending Reviews](https://system/?f=esign&t=Pending+Reviews&tabmodule=esign&tabselect=Pending+Reviews) tab of the E-Sign module, the document being electronically signed can be linked to another document, if needed. Sometimes, it may also be necessary to add another document to the chart, when e-signing a document. For example, an MRI Report is pending a review and e-sign, however, the user wishes to create a note in the chart, regarding that MRI Report being e-signed. Instances like these can be easily addressed from the [E-Sign](https://system/?func=esign) module, as well.
-When addressing Pending Reviews, users can go directly into the document to e-sign, or if multiple documents need reviewed, users may use the Multi-Review feature. For a refresher on working the e-sign queue, check out the [Pending E-Sign Reviews](gdoc:1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I) help documentation.
+When addressing Pending Reviews, users can go directly into the document to e-sign, or if multiple documents need reviewed, users may use the Multi-Review feature. For a refresher on working the e-sign queue, check out the [Pending E-Sign Reviews](../../e-sign-electronic-signature/pending-e-sign-reviews.md) help documentation.
 Regardless of the method used, the ability to add a document to the chart while reviewing and e-signing documents can be done using the quick links found at the bottom of each document being reviewed. Click the **Add Document** link to add a new document into the chart before signing the marked document.
 {{% note %}}
 
@@ -94,7 +94,7 @@ After selecting the new document type to add (e.g., Doctor Note text document), 
   
 ![](../link-documents-to-other-documents.assets/10000201000004BD000001F4D867C8CC56633119.png)  
 
-For more information on the E-Sign module and working the queue, please visit our directory of [E-Sign](gdoc:1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854) help documentation.
+For more information on the E-Sign module and working the queue, please visit our directory of [E-Sign](../../e-sign-electronic-signature.md) help documentation.
   
 ## Unlink a Document  
 

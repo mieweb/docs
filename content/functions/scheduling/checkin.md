@@ -6,7 +6,7 @@ version: 79
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
+  - '../e-chart/insurance-summary-in-demographics-tab.md'
   - 'https://system/?f=chart&s=checkin'
   - 'https://system/?func=scheduler#Now'
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
@@ -14,9 +14,9 @@ links:
   - 'https://system/?f=chart&s=checkin&t=station_manager&tabmodule=checkin&tabselect=Station+Manager'
   - 'https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control'
   - 'https://system/?f=chart&s=checkin&t=station_manager&opp=add'
-  - 'gdoc:1wiiDtA6Dlmbqe65Sx1tJh-cDj-Ld7D5GmICs6-qXoNU'
+  - '../reports/checkin-reports.md'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Checkin'
@@ -44,7 +44,7 @@ Clicking the **Checkin With New Encounter** button will load the *Encounter (new
 
 The available fields are as follows:  
 **Visit Type:** The Visit Type dropdown establishes the encounter that will be created upon checking in. The default is typically Checkin, which simply creates a background encounter used for tracking the patient's location and time in the office. This can be manually updated by staff, so that an encounter can be selected for documenting the visit information and patient status elsewhere in the system. The default Visit Type is driven by the *My Settings* **Default Visit Type**, which can be changed anytime, according to the needs of the user.  
-**Insurance Pre-Certification:** The Insurance Pre-Certification section tracks specific insurance information. Insurances can be loaded into the chart through the *Demographics* chart tab, where specific pre-certification details can be provided. If checking in a patient with no need for a pre-certification to be applied, simply select the radio button with Plan Name (none). Otherwise, with the appropriate insurance plan selected, the {{% system-name %}} system will reduce the pre-certification count by one, when saved. For more information on entering insurances, see the [Insurance Summary in Demographics Tab](gdoc:1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU) documentation.  
+**Insurance Pre-Certification:** The Insurance Pre-Certification section tracks specific insurance information. Insurances can be loaded into the chart through the *Demographics* chart tab, where specific pre-certification details can be provided. If checking in a patient with no need for a pre-certification to be applied, simply select the radio button with Plan Name (none). Otherwise, with the appropriate insurance plan selected, the {{% system-name %}} system will reduce the pre-certification count by one, when saved. For more information on entering insurances, see the [Insurance Summary in Demographics Tab](../e-chart/insurance-summary-in-demographics-tab.md) documentation.  
 **Service Date:** The date of service. Defaults to today's date.  
 **Location:** Use this dropdown to select the location the patient is being checked into. This location selection will default to the user's *My Settings* **Default Location**.  
 **Performing Provider:** The Performing Provider field will automatically populate the name of the clinician listed as Attending Physician on the *Demographics* chart tab. Otherwise, when scheduled with a specified clinician, that physician's name will populate the Performing Provider. This field can be changed by simply typing in the beginning of the physician's last name and clicking the **Search** button. When found, select the physician by clicking their name, and it will populate the field. Alternatively, staff may instead set the Performing Provider within the encounter when documenting the patient's visit, if preferred.  
@@ -129,7 +129,7 @@ As noted above, insurances can be loaded into a chart through the *Demographics*
   
 ![](../checkin.assets/10000201000004290000012556D8ABE2636B9EDD.png)  
 
-If checking in a patient with no need for a pre-certification to be applied, simply select the radio button with Plan Name (none). Otherwise, with the appropriate insurance plan selected, the {{% system-name %}} system will reduce the pre-certification count by one, when saved. For more information on entering insurances, see the [Insurance Summary in Demographics Tab](gdoc:1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU) documentation.
+If checking in a patient with no need for a pre-certification to be applied, simply select the radio button with Plan Name (none). Otherwise, with the appropriate insurance plan selected, the {{% system-name %}} system will reduce the pre-certification count by one, when saved. For more information on entering insurances, see the [Insurance Summary in Demographics Tab](../e-chart/insurance-summary-in-demographics-tab.md) documentation.
   
 ## Station Manager Tab  
 
@@ -193,7 +193,7 @@ The Checkin-Public dashboard only shows the Waiting Room station. Once the patie
   
 ## Checkin Reports  
 
-A report is available for auditing check-in statistics. This can be used to review statistics from each station within {{% system-name %}} . Refer to separate [Checkin Reports](gdoc:1wiiDtA6Dlmbqe65Sx1tJh-cDj-Ld7D5GmICs6-qXoNU) documentation.
+A report is available for auditing check-in statistics. This can be used to review statistics from each station within {{% system-name %}} . Refer to separate [Checkin Reports](../reports/checkin-reports.md) documentation.
 {{% note %}}
 
 After hours, {{% system-name %}} can perform automated jobs/routines to clear the system of any patients that were missed during the checkout procedure. The system can be configured with an automatic function that checks out any patients not checked out by staff that day. Contact the Deployment Consultant for more information.

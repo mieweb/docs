@@ -1,9 +1,9 @@
 ---
 id: '1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
 title: 'Review Session - Injury Care'
-date: '2022-09-28T17:23:01.414Z'
-version: 38
-lastAuthor: 'Bridget Hamm'
+date: '2022-11-07T21:28:20.698Z'
+version: 50
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting/osha_ita_api_documentation.pdf'
@@ -23,7 +23,7 @@ links:
   - '../../functions/reports/osha-300-log-report.md'
   - '../../functions/reports/incidents-report.md'
 source: 'https://drive.google.com/open?id=1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Review Session - Injury Care'

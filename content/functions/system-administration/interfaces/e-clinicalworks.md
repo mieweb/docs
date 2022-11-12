@@ -7,9 +7,9 @@ lastAuthor: 'Kate Barton'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.eclinicalworks.com/'
-  - 'gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
+  - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 **E-ClinicalWorks**  
 This page details how interfaces with e-ClinicalWorks (ecw) are installed.
@@ -161,5 +161,5 @@ Dennis Jah Project Manager –Integration eClinicalWorks 555 North Point Center 
   
 ## Related Pages  
   
-[Interface Specifications](gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)
+[Interface Specifications](../../../resources/system-specifications/interface-specifications.md)
 

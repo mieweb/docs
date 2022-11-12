@@ -8,9 +8,9 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - 'gdoc:1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ'
+  - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'E-Chart Scan Documents'
@@ -95,7 +95,7 @@ If the user has a current encounter set in the chart, the *Encounter* field will
 
 **Link to Orders**: Like linking to encounters, Text documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
 **Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
-**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](gdoc:1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ) help documentation.
+**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md) help documentation.
 **Textbox:** For E-Chart Scan documents, a textbox will be available for entering relevant information as it pertains to the scanned document(s). The **Spell Check** button may be utilized to check the spelling of the entered information.
 
 Once the necessary fields and content have been added, the document(s) can be uploaded to the chart by simply clicking the **Upload** button. The scanned document(s) will be uploaded to the chart with the specified details, and a confirmation message will display, notifying the user that upload was successful. If the Upload button is not clicked, the document(s) will not be uploaded to the chart.

@@ -2,15 +2,15 @@
 id: '1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
 title: 'Biometric Data Entry'
 date: '2022-10-19T11:51:58.503Z'
-version: 64
+version: 66
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
-  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - '../scanning-and-indexing/indexing-bubble-forms.md'
+  - '../scanning-and-indexing/indexing.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Biometric Data Entry'
@@ -26,7 +26,7 @@ Bubble forms also work well added to Print Definitions, particularly for provide
   
 There is a standard biometric bubble form that is available in the {{% system-name %}} system. This bubble form collects biometric data (e.g., blood pressure, pulse, temp, height, weight, waist circumference, hip circumference). Once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discretely, in the appropriate chart.
 
-To access and utilize a bubble form for recording information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](gdoc:16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c) and [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documentation.
+To access and utilize a bubble form for recording information, simply navigate to the Forms Library and print the preferred form. After the form has been completed, scan the form into the system and index it, accordingly. If any of the indexed information needs edited immediately after scanning, simply use the confirmation window to verify all values were read correctly, prior to validating. Once the scan and values are confirmed, the data will index into the chart in context, as appropriate. To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../scanning-and-indexing/indexing.md) documentation.
 1. While in the appropriate chart, access and print the bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
   

@@ -6,9 +6,9 @@ version: 131
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
+  - 'fast-task-templates.md'
 source: 'https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Task List'
@@ -294,5 +294,5 @@ The Fast Tasks taab is also only accessible if the user has security permission.
 ![](../task-list.assets/10000201000004A2000001D62A129926C4B3F217.png)  
 
 
-Permitted users can add and create a new fast task template into the system here. Fast task templates can also be edited or deleted from her if have security permission. See other documentation titled [Fast Task Templates](gdoc:1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw).
+Permitted users can add and create a new fast task template into the system here. Fast task templates can also be edited or deleted from her if have security permission. See other documentation titled [Fast Task Templates](fast-task-templates.md).
 

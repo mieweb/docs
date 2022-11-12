@@ -7,10 +7,10 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.fmcsa.dot.gov/medical/driver-medical-requirements/driver-medical-fitness-duty'
-  - 'gdoc:1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
+  - '../../injury-care/work-status.md'
   - 'https://www.fmcsa.dot.gov/regulations/medical'
 source: 'https://drive.google.com/open?id=1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Driver Fitness Determination Exam (DOT)'
@@ -167,7 +167,7 @@ Users will have the ability to specify whether the Medical Examiner Determinatio
 
 Any recommendations or information for a Work Status Report can be addressed using the Recommendations section. To generate a Work Status Report, simply click the Recommendations section header to expand the section, and below the grid displaying recommendation(s) (i.e., medical opinion) there is a checkbox to **Generate work status report**. Placing a checkmark in this field will trigger the creation of a Work Status Report as an Additional View, upon archive and close of the encounter. The Work Status Introduction free text field is designed to allow for an introduction, or a place where the report can be personalized or expanded content can be provided, if necessary.
 
-For more information on adding recommendations or generating a Work Status Report, see the [Work Status](gdoc:1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0) online help documentation.
+For more information on adding recommendations or generating a Work Status Report, see the [Work Status](../../injury-care/work-status.md) online help documentation.
   
 #### **Printing DOT Forms**  
 

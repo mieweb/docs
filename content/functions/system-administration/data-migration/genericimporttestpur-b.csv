@@ -1,0 +1,10 @@
+@patient_mrns.MR,patients.first_name,patients.last_name,patients.birth_date,patients.username,@pur.Supervisor.id,@pur.Supervisor.id_type,DELETE_THEN_INSERT @pur.Administrative Assistant.1.id,@pur.Administrative Assistant.1.id_type,INSERT IGNORE_BLANK @pur.Administrative Assistant.2.id,@pur.Administrative Assistant.2.id_type,users.universal_id
+1111,Test1,Employee,01/01/2001,user1,,,,,,,11
+2222,Test2,Employee,02#02#2002,user2,user3,id:username,user9,id:username,,,22
+3333,Test3,Employee,03/03/2003,user3,,,user8,id:username,user4,id:username,33
+4444,Test4,Employee,04-04-2004,user4,user3,id:username,,,,,44
+5555,Test5,Employee,05/05/2005,user5,user2,id:username,,,,,55
+6666,Test6,Employee,06/06/2006,user6,user4,id:username,,,,,66
+7777,Test7,Employee,07/07/2007,user7,user4,id:username,,,,,77
+8888,Test8,Employee,08/08/2008,user8,user2,id:username,,,,,88
+9999,Test9,Employee,09/09/2009,user9,user2,id:username,,,,,99

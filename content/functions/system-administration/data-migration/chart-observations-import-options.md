@@ -8,9 +8,9 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_A.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv'
-  - 'gdoc:1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
+  - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Chart Observations Import Options'
@@ -167,4 +167,4 @@ The imported file is processed as follows:
   
 ## **Related Pages**  
 
-[Chart Data CSV Header Options](gdoc:1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho)
+[Chart Data CSV Header Options](chart-data-csv-header-options.md)

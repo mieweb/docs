@@ -6,10 +6,10 @@ version: 44
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
-  - 'gdoc:15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
+  - '../../system-configuration/document-type-tab.md'
+  - '../../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Document Details'
@@ -21,10 +21,10 @@ Document details can be added in multiple ways to many types of documents within
   
 ## Initial Setup  
 
-1. First, in order to capture discrete observation data, the appropriate document type must already exist within {{% system-name %}} . If it does not, review the [Document Type Tab](gdoc:1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q) documentation.
+1. First, in order to capture discrete observation data, the appropriate document type must already exist within {{% system-name %}} . If it does not, review the [Document Type Tab](../../system-configuration/document-type-tab.md) documentation.
 2. Next, create a flowsheet with the same name as the document type (e.g., Document Type Code = 2DECHO, Flowsheet Name = 2DECHO). Be sure to match the Flowsheet name to the Document Type <em>Code</em> and not the Description.
 3. To finish creating the flowsheet, add all of the preferred observations, so that the information can be captured, accordingly. If an observation does not exist within {{% system-name %}} , it must be added before attempting to configure any flowsheet.
-For detailed information regarding the adding of flowsheets to {{% system-name %}} , check out the [Observation Flowsheets](gdoc:15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY) documentation.
+For detailed information regarding the adding of flowsheets to {{% system-name %}} , check out the [Observation Flowsheets](../../order-and-result-management/observation-flowsheets.md) documentation.
   
 ## Adding Document Details  
   

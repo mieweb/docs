@@ -6,11 +6,11 @@ version: 28
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
+  - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
-1. [Find the employer organization](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg) of the ledger to access.
+1. [Find the employer organization](finding-employer-organizations.md) of the ledger to access.
 2. Select the <strong>Accounting</strong> tab. A menu appears. From the menu, select <strong>Ledger</strong>. The ledger appears.
 
   

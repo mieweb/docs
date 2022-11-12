@@ -6,14 +6,14 @@ version: 74
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
-  - 'gdoc:16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
-  - 'gdoc:1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
-  - 'gdoc:17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
+  - '../../scheduling/scheduler-views.md'
+  - '../../reports/appointment-report.md'
+  - '../../scheduling/adding-an-appointment-using-the-wizard-tab.md'
+  - '../../scheduling/waiting-list-tab.md'
   - 'about:blank'
-  - 'gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
+  - '../../reports/documents-report-super-document-type-search.md'
 source: 'https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Email Reminders from System'
@@ -26,19 +26,19 @@ Sending Email Reminders to patients are available in many modules within {{% sys
   
 ![](../email-reminders-from-system.assets/10000201000001E2000000B648169C2AEA17E4FA.png)  
 
-The email link is also available in the scheduler views to send mass email reminders for the appointments scheduled for the day/view you are viewing. This is a user preference if Scheduler Preference *Show Email Link* is set to Yes. See other help documentation named [Scheduler Views-List-Multi-Week](gdoc:1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I) for specifics on how to email from the scheduler views. Also from the scheduler view you can send an individual patient email reminder on the specific appointment scheduled on the view.
+The email link is also available in the scheduler views to send mass email reminders for the appointments scheduled for the day/view you are viewing. This is a user preference if Scheduler Preference *Show Email Link* is set to Yes. See other help documentation named [Scheduler Views-List-Multi-Week](../../scheduling/scheduler-views.md) for specifics on how to email from the scheduler views. Also from the scheduler view you can send an individual patient email reminder on the specific appointment scheduled on the view.
   
 ![](../email-reminders-from-system.assets/10000201000002A9000000B438E506D4948BCC52.png)  
 
-The email link is also available to send mass email reminders within the Appointment Report in the reports tab. See other help documentation named [Appointment Report](gdoc:16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30) for specifics on how to email from the Appointment Report screen.
+The email link is also available to send mass email reminders within the Appointment Report in the reports tab. See other help documentation named [Appointment Report](../../reports/appointment-report.md) for specifics on how to email from the Appointment Report screen.
   
 ![](../email-reminders-from-system.assets/1000020100000258000000D52404F20D0BFAA393.png)  
 
-The email link is also available in the Wizard tab to send an email reminder for new appointments being scheduled. See other help documentation named [Adding An Appt Using Wizard Tab](gdoc:1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw) for specifics on how to email from the Wizard (adding appointment) screen.
+The email link is also available in the Wizard tab to send an email reminder for new appointments being scheduled. See other help documentation named [Adding An Appt Using Wizard Tab](../../scheduling/adding-an-appointment-using-the-wizard-tab.md) for specifics on how to email from the Wizard (adding appointment) screen.
   
 ![](../email-reminders-from-system.assets/10000201000001CF000000D455CF0F6C60131510.png)  
 
-The email link is also available to send email reminders within the Waiting List tab of the scheduler. See other help documentation named [Waiting List Tab](gdoc:17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM) for specifics on how to email from the Waiting List screen.
+The email link is also available to send email reminders within the Waiting List tab of the scheduler. See other help documentation named [Waiting List Tab](../../scheduling/waiting-list-tab.md) for specifics on how to email from the Waiting List screen.
   
 ![](../email-reminders-from-system.assets/1000020100000295000000F5D1F5CECAB7CCBD79.png)  
 
@@ -158,7 +158,7 @@ Emails are stored as documents (usually doc.type named Email) in the chart. If a
   
 ![](../email-reminders-from-system.assets/10000201000002950000002B87014EB7371D9435.png)  
 
-These email documents can also be found using the Doc Report (Document Report). This Document Report is found in the Reports sidemenu tab. You can search for emails using that report. *See other help documentation named* [Documents Report-Super Doc Search](gdoc:1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0).
+These email documents can also be found using the Doc Report (Document Report). This Document Report is found in the Reports sidemenu tab. You can search for emails using that report. *See other help documentation named* [Documents Report-Super Doc Search](../../reports/documents-report-super-document-type-search.md).
 Emails are also stored as their own storage type of Email. Meaning, emails are not stored as word documents, not as text documents, not as html formatted…they are stored as their own storage type of Email.
   
 ![](../email-reminders-from-system.assets/1000020100000206000000C569F377FF638B052E.png)  

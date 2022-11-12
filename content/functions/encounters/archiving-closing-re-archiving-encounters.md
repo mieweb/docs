@@ -6,12 +6,12 @@ version: 58
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-  - 'gdoc:16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
-  - 'gdoc:1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
-  - 'gdoc:1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
+  - 'working-in-a-visit-encounter.md'
+  - 'working-in-a-legacy-encounter.md'
+  - '../../resources/intro-to-the-system.md'
+  - '../../resources/intro-to-the-system/system-anatomy.md'
 source: 'https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Archiving/Closing/Re-archiving Encounters'
@@ -27,7 +27,7 @@ To archive or re-archive encounters, users must have the necessary security perm
   
 ## **Standard Toolbars and Buttons**  
   
-Layered toolbars appear at the top of the [dynamic encounter](gdoc:1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M) to assist with navigation, as well as to provide patient and [encounter](gdoc:16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI) details. The toolbar display is responsive and changes with scrolling and movement on the page, collapsing as users navigate the encounter. For a basic [introduction to the system](gdoc:1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc) or a more detailed description of working in a chart and an encounter, be sure to check out the [System Anatomy](gdoc:1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8); however, here are some of the more important tools and functions that are *specific to the encounter*:  
+Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit-encounter.md) to assist with navigation, as well as to provide patient and [encounter](working-in-a-legacy-encounter.md) details. The toolbar display is responsive and changes with scrolling and movement on the page, collapsing as users navigate the encounter. For a basic [introduction to the system](../../resources/intro-to-the-system.md) or a more detailed description of working in a chart and an encounter, be sure to check out the [System Anatomy](../../resources/intro-to-the-system/system-anatomy.md); however, here are some of the more important tools and functions that are *specific to the encounter*:  
 **Encounter Info Toolbar** - Provides quick links to the current encounter, allowing users quick access to the encounter while working from within an E-chart or another encounter.
 
 

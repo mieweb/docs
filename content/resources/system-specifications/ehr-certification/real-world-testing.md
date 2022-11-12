@@ -1,8 +1,8 @@
 ---
 id: '181WNaOF2YKqpFmbb4SSXEOUxGi4vdCfN6xyCaYV7S3s'
 title: 'Real World Testing'
-date: '2022-10-17T13:06:36.930Z'
-version: 113
+date: '2022-11-01T13:46:53.271Z'
+version: 133
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,8 +11,9 @@ links:
   - 'real-world-testing/rwt-results-2022-q1.md'
   - 'real-world-testing/rwt-results-2022-q2.md'
   - 'real-world-testing/rwt-results-2022-q3.md'
+  - 'real-world-testing/rwt-results-2022-q4.md'
 source: 'https://drive.google.com/open?id=181WNaOF2YKqpFmbb4SSXEOUxGi4vdCfN6xyCaYV7S3s'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 ## RWT Plans  
 
@@ -31,5 +32,5 @@ wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
 * [Q1](real-world-testing/rwt-results-2022-q1.md)
 * [Q2](real-world-testing/rwt-results-2022-q2.md)
 * [Q3](real-world-testing/rwt-results-2022-q3.md)
-* Q4 - Available by 01/13/2023
+* [Q4](real-world-testing/rwt-results-2022-q4.md)
 

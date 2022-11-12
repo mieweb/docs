@@ -6,13 +6,13 @@ version: 17
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew'
-  - 'gdoc:1-tfONkRUSjg4mxAfE1pcRYwgRK2t1LN-Vw9qorSz9U8'
+  - 'accessing-the-ledger.md'
+  - 'finding-ledger-transactions.md'
 source: 'https://drive.google.com/open?id=1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 Only transactions that have not been closed can be voided.
-1. [Access the ledger](gdoc:1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew).
-2. [Find ledger transactions](gdoc:1-tfONkRUSjg4mxAfE1pcRYwgRK2t1LN-Vw9qorSz9U8).
+1. [Access the ledger](accessing-the-ledger.md).
+2. [Find ledger transactions](finding-ledger-transactions.md).
 3. Select the transaction number of the transaction to void. The <em>Update Transaction</em> window appears.
 4. In the <em>Update Transaction</em> window, select <strong>Void Transaction</strong>. The system voids the transaction and closes the <em>Update Transaction</em> window.

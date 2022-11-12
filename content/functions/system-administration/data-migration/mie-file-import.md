@@ -2,18 +2,18 @@
 id: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
 title: 'MIE File Import'
 date: '2020-03-17T02:05:30.422Z'
-version: 58
+version: 64
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
+  - 'data-migration-file-format-standard.md'
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'MIE File Import'
@@ -65,7 +65,7 @@ The following characters are used to generate a CSV for data import:
 * Delimiter - In order of preference, a comma (,) or pipe (|) is acceptable.
 * Quote Character - Use a quote (") to surround fields that contain the delimiter or contain newlines.
 * Escape Character - Use a quote (") to escape a quote within quoted fields. E.g. <strong>"This quoted field ""contains"" quotes"</strong>
-See also: [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)
+See also: [Data Migration File Format Standard](data-migration-file-format-standard.md)
   
 ### Required Fields  
 
@@ -231,4 +231,4 @@ Empty files, or files with zero (0) bytes, contain no data and will automaticall
   
 ## Related Pages  
 
-* [Data Migration File Format Standard](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)
+* [Data Migration File Format Standard](data-migration-file-format-standard.md)

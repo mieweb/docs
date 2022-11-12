@@ -6,15 +6,15 @@ version: 90
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-  - 'gdoc:1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
+  - '../printing-and-print-definitions/print-chart.md'
+  - '../printing-and-print-definitions/print-definitions.md'
   - 'https://system/?f=chart'
   - 'https://system/?func=scheduler#Now'
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
-  - 'gdoc:1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-  - 'gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
+  - '../scanning-and-indexing/scanning.md'
+  - '../scanning-and-indexing/indexing.md'
 source: 'https://drive.google.com/open?id=1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Form Documents'
@@ -26,7 +26,7 @@ Forms are found in the Forms Library of the {{% system-name %}} system. The Form
   
 ## Add Document  
   
-There are various places from within {{% system-name %}} to print an *individual* form. To print a form document from the respective chart, find the **Add Document** link. This is found in various places, such as the chart Summary tab, the Scheduler, or within an encounter, among other places. Users can also use the **Print Chart** link to print packets of forms, depending on the established Print Definitions and/or appointment definitions. See the [Print Chart](gdoc:10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8) and [Print Definition](gdoc:1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok) documentation for more detailed information.  
+There are various places from within {{% system-name %}} to print an *individual* form. To print a form document from the respective chart, find the **Add Document** link. This is found in various places, such as the chart Summary tab, the Scheduler, or within an encounter, among other places. Users can also use the **Print Chart** link to print packets of forms, depending on the established Print Definitions and/or appointment definitions. See the [Print Chart](../printing-and-print-definitions/print-chart.md) and [Print Definition](../printing-and-print-definitions/print-definitions.md) documentation for more detailed information.  
 Additionally, forms can be programmed to print specific information, automatically. This can improve speed and efficiency. Contact the Helpdesk for information and assistance with uploading forms and programming form variables.  
 To access a form from a chart, click the [E-Chart sidemenu](https://system/?f=chart), navigate to the necessary chart, and when the *Summary* tab loads, click the **Add Document** link.
   
@@ -71,7 +71,7 @@ Once the appropriate form document has been rendered, simply click the printer i
 
 {{% note %}}
 
-Users should always scan and index printed forms back into {{% system-name %}} to ensure the documents are included in the respective charts. See the [Scanning](gdoc:1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0) and [Indexing](gdoc:1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8) documents for assistance with scanning and indexing in {{% system-name %}} .
+Users should always scan and index printed forms back into {{% system-name %}} to ensure the documents are included in the respective charts. See the [Scanning](../scanning-and-indexing/scanning.md) and [Indexing](../scanning-and-indexing/indexing.md) documents for assistance with scanning and indexing in {{% system-name %}} .
 {{% /note %}}
   
 ## Automatic Upload and Pen Feature  

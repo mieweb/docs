@@ -7,20 +7,20 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC'
-  - 'gdoc:1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4'
-  - 'gdoc:1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
-  - 'gdoc:1lWY5sUx7y3qgIdu5wKcXkK8tzEAAN9fQa0IXwU_40gw'
-  - 'gdoc:1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk'
-  - 'gdoc:1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-  - 'gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
-  - 'gdoc:1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
-  - 'gdoc:1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-  - 'gdoc:1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
-  - 'gdoc:1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
-  - 'gdoc:16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
-  - 'gdoc:1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
+  - 'data-migration/create-audiometric-data-file-for-import.md'
+  - 'data-migration/lost-time-import-tool.md'
+  - 'https://drive.google.com/open?id=1lWY5sUx7y3qgIdu5wKcXkK8tzEAAN9fQa0IXwU_40gw'
+  - 'data-migration/clinical-encounter-csv-api.md'
+  - 'data-migration/completed-orders-import-tool.md'
+  - 'data-migration/data-migration-file-format-standard.md'
+  - 'data-migration/injections-csv-api.md'
+  - 'data-migration/create-language-translation-file-for-import.md'
+  - 'data-migration/observation-codes-csv-api.md'
+  - 'data-migration/panel-status-import.md'
+  - 'data-migration/create-pft-data-file-for-import.md'
+  - 'data-migration/summary-documents-csv-api.md'
 source: 'https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Out-of-the-Box Urls'
@@ -364,15 +364,15 @@ https://docs.webchartnow.com (for WebChart clients)
 ## Data Import   
 
 The following documents are available for additional information and specifications on data importation.
-[Audiometric Data CSV API](gdoc:1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4) 
-[Cases (Illness and Injury) CSV API](gdoc:1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk)
-[Chart Data CSV API](gdoc:1lWY5sUx7y3qgIdu5wKcXkK8tzEAAN9fQa0IXwU_40gw)
-[Clinical Encounter CSV API](gdoc:1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk)
-[Completed Orders CSV API](gdoc:1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI)
-[Custom Data CSV Import](gdoc:1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg)
-[Injections CSV API](gdoc:1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE)
-[Language Translation CSV API](gdoc:1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A)
-[Observation Codes CSV API](gdoc:1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc)
-[Patient Panel Status CSV API](gdoc:1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ)
-[PFT Data CSV API](gdoc:16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw)
-[Summary Documents CSV API](gdoc:1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4)
+[Audiometric Data CSV API](data-migration/create-audiometric-data-file-for-import.md) 
+[Cases (Illness and Injury) CSV API](data-migration/lost-time-import-tool.md)
+[Chart Data CSV API](https://drive.google.com/open?id=1lWY5sUx7y3qgIdu5wKcXkK8tzEAAN9fQa0IXwU_40gw)
+[Clinical Encounter CSV API](data-migration/clinical-encounter-csv-api.md)
+[Completed Orders CSV API](data-migration/completed-orders-import-tool.md)
+[Custom Data CSV Import](data-migration/data-migration-file-format-standard.md)
+[Injections CSV API](data-migration/injections-csv-api.md)
+[Language Translation CSV API](data-migration/create-language-translation-file-for-import.md)
+[Observation Codes CSV API](data-migration/observation-codes-csv-api.md)
+[Patient Panel Status CSV API](data-migration/panel-status-import.md)
+[PFT Data CSV API](data-migration/create-pft-data-file-for-import.md)
+[Summary Documents CSV API](data-migration/summary-documents-csv-api.md)

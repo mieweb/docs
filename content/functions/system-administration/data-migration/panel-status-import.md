@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/Import_Overview'
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/edit?usp=sharing'
-  - 'gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'data-import-standards.md'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Panel Status Import'
@@ -44,7 +44,7 @@ Additionally, [user instructions](#gjdgxs) are available for importing data in
   
 ### **Column Definitions and Specific Coded Values**  
   
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
   
 ### **Field Requirements**  
   
@@ -74,4 +74,4 @@ Unless otherwise specified, validation between the previous system and the new E
   
 ## **Related Pages**  
 
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+* [Data Import Master List](data-import-master-list.md)

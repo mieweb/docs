@@ -6,12 +6,12 @@ version: 18
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
+  - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 If an organization exists in the system and is not an employer organization but needs to be, do the following to change it to an employer organization rather than creating one.
-1. [Find employer organizations](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg).
+1. [Find employer organizations](finding-employer-organizations.md).
 2. From the search results, select the name of the organization to change. The system displays information about the organization.
 3. In the <em>Charts Types</em> section, select the <strong>edit</strong> button.
 

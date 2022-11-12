@@ -6,9 +6,9 @@ version: 38
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
+  - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Adding Hospital Case'
@@ -60,11 +60,11 @@ After selecting to create a Hospital case type, the only field that expands is t
   
 ### **Work Status (or Lost Time) Section**  
 
-Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg) help documentation for more information.
+Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md) help documentation for more information.
   
 ### **Restrictions and Accommodations**  
 
-Refer to help documentation named [Restrictions and Accommodations](gdoc:1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg).
+Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md).
   
 ## **Linking Documents to Cases**  
 

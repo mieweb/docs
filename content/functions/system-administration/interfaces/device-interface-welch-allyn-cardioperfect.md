@@ -6,9 +6,9 @@ version: 81
 lastAuthor: 'Kyle Kocks'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
+  - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Device Interface - Welch Allyn CardioPerfect'
@@ -74,5 +74,5 @@ George Jones, Aaron Capriglione
   
 ## **Related Pages**  
   
-For a list of all supported devices see the [Devices List](gdoc:1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4)
+For a list of all supported devices see the [Devices List](../../../resources/system-specifications/interface-specifications.md)
 

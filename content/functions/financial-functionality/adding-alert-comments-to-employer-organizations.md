@@ -6,16 +6,16 @@ version: 26
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
+  - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1vV9ZAwk3eHys6SHAKLCBXPZpgiiuyilqQHifr7OEPkk'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 An alert comment is text which appears at the top of all screens about the employer organization, such as the employer organization overview tab, the ledger, and financial account overview.
   
 ![](../adding-alert-comments-to-employer-organizations.assets/1000000000000241000000BC7B7CEED2138CF8C6.png)  
 
 You can change the text of the comment and more than one comment can appear at once. You cannot change the color of the text, the color of the text background, nor where the comment appears.
-1. [Find the employer organization](gdoc:1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg) to which to add an alert.
+1. [Find the employer organization](finding-employer-organizations.md) to which to add an alert.
 2. Select the <strong>Overview</strong> tab.
 3. At the top-right, select <strong>Add Document</strong>.
 4. In the <em>Add Documents</em> section, in the <em>All Types</em> section, to the right of <em>Alert Comment</em>, select <strong>Text</strong>. The <em>Add Document Properties</em>  

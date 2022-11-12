@@ -6,10 +6,10 @@ version: 44
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c'
-  - 'gdoc:1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
+  - 'request-e-signature.md'
+  - 'e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Un-Request/Unassign an E-Signature'
@@ -84,6 +84,6 @@ After clicking View Document, the document will open with options at the top rig
 ![](../un-request-unassign-an-e-signature.assets/10000201000004B4000000B2F50015FD3CCCB6B5.png)  
 
 
-Proceed to request a signature by following the steps outlined in the [Request E-Signature](gdoc:1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c) help guide.  
-If need to un-request all documents in a user's queue, please refer to the [E-Sign All Pending Tab](gdoc:1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4) help guide.
+Proceed to request a signature by following the steps outlined in the [Request E-Signature](request-e-signature.md) help guide.  
+If need to un-request all documents in a user's queue, please refer to the [E-Sign All Pending Tab](e-sign-all-pending-tab.md) help guide.
 

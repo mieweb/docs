@@ -6,9 +6,9 @@ version: 64
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
+  - 'un-request-unassign-an-e-signature.md'
 source: 'https://drive.google.com/open?id=1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Request E-Signature'
@@ -67,7 +67,7 @@ When a signature is requested, {{% system-name %}} stores ‘who' requested it i
 ![](../request-e-signature.assets/1000020100000497000000F2D8E6D233C5E41FE1.png)  
 
 
-If a request was sent to an incorrect user, a request can be un-requested.  Please refer to [Un-Request E-signature](gdoc:1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I) help guide.  
+If a request was sent to an incorrect user, a request can be un-requested.  Please refer to [Un-Request E-signature](un-request-unassign-an-e-signature.md) help guide.  
 {{% tip %}}
 
 You can manually request another signature for the same document by clicking Request Signature at the top right of the document header again.  This allows the document to be signed by multiple users if needed.  

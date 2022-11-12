@@ -6,9 +6,9 @@ version: 42
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
+  - 'locking-individual-or-specific-charts.md'
 source: 'https://drive.google.com/open?id=1gna_b2P4oKkvDN3s9XIHm9jIWxWXfK6fpQxbjamyJ9g'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Limited Access Users'
@@ -38,7 +38,7 @@ When you link patients to the specific restricted user, those are the patients t
 You would type in the patient's name and select the patient from the auto-complete. You would set the Role to be *Limited Access User* because that's the role of this user to this patient. Then click the ADD button. Continue to add another patient that this user is allowed to access. When done, click the SUBMIT button to save your work. Any patient listed in this screen that is linked to this specific user is permitted access to their chart. Any patient not listed on this screen for a specific user is restricted from viewing or searching by this limited access user.  
 {{% info %}}
 
-If the patient's chart is "locked", you cannot link that patient to a user that doesn't have permission to that locked chart. (See other help documentation named [Locking Individual or Specific Charts ](gdoc:15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA))
+If the patient's chart is "locked", you cannot link that patient to a user that doesn't have permission to that locked chart. (See other help documentation named [Locking Individual or Specific Charts ](locking-individual-or-specific-charts.md))
 {{% /info %}}
   
 ![](../limited-access-users.assets/1000020100000316000000970B1A35F0B670C700.png)  

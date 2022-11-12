@@ -6,9 +6,9 @@ version: 73
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
+  - '../portal-management.md'
 source: 'https://drive.google.com/open?id=1faeAEwfFOMCYV4zh0yko4gGtLwhgypG1ZtcSZXAbAn4'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'System Files Management'
@@ -16,7 +16,7 @@ menu:
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
     weight: 230
 ---
-Given the {{% system-name %}} solution's foundation, modifications and customizations are a simple process that merely involve uploading the appropriate file(s), as needed. These simple types of customizations can be seen throughout various parts of the solution. For example, review the [Portal Management documentation](gdoc:1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94) for branding needs and customizations, as they relate to associated available portals. Overall, and as a general practice, customizations are a user-friendly, easy process, which can be seen throughout the solution.
+Given the {{% system-name %}} solution's foundation, modifications and customizations are a simple process that merely involve uploading the appropriate file(s), as needed. These simple types of customizations can be seen throughout various parts of the solution. For example, review the [Portal Management documentation](../portal-management.md) for branding needs and customizations, as they relate to associated available portals. Overall, and as a general practice, customizations are a user-friendly, easy process, which can be seen throughout the solution.
   
 ## Managing System Files  
   

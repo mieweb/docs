@@ -6,11 +6,11 @@ version: 68
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI'
-  - 'gdoc:1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-  - 'gdoc:1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
+  - 'encounter-summary-toolbar.md'
+  - 'working-in-a-visit-encounter.md'
+  - 'archiving-closing-re-archiving-encounters.md'
 source: 'https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Creating or Adding Encounters'
@@ -44,7 +44,7 @@ The opened encounter is automatically set to **Current** after being created. 
   
 ![](../creating-or-adding-encounters.assets/1000020100000546000001E43FDB73BDC51F1AB9.png)  
 
-For more information on accessing encounters, see our [Encounter Summary Toolbar](gdoc:1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI) documentation.
+For more information on accessing encounters, see our [Encounter Summary Toolbar](encounter-summary-toolbar.md) documentation.
 {{% /info %}}
   
 ### Creating/Adding Encounters from E-Chart  
@@ -128,7 +128,7 @@ Simply click the Quick Add Encounter Link. This is any link displayed after the 
 ![](../creating-or-adding-encounters.assets/100002010000044500000032CBFC0C443C5253A4.png)  
 
 Only adding a new encounter will sign the document and link the document to the encounter. When the Quick Add Encounter Link is clicked, the user will be taken to the encounter, and when the encounter is closed and archived, the user will be taken back to the E-Sign module. 
-For information on using and navigating the encounter, be sure to check out [Working in a Visit Encounter](gdoc:1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M). And to learn more about closing, archiving, or rearchiving encounters, be sure to review our [Archiving/Closing/Rearchiving Encounters](gdoc:1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo) help documentation.
+For information on using and navigating the encounter, be sure to check out [Working in a Visit Encounter](working-in-a-visit-encounter.md). And to learn more about closing, archiving, or rearchiving encounters, be sure to review our [Archiving/Closing/Rearchiving Encounters](archiving-closing-re-archiving-encounters.md) help documentation.
 
 
 

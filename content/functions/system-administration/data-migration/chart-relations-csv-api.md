@@ -6,13 +6,13 @@ version: 34
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-  - 'gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
+  - 'data-import-overview.md'
+  - 'data-import-standards.md'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex1.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex2.csv'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Chart Relations CSV API'
@@ -31,7 +31,7 @@ The abstract that follows should be presented to decision-makers or stakeholders
 The Chart Relations CSV API is used to import various relationships between charts; between patients, users, organizations, or other entities.  
 A **chart** is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient. A chart can represent a person, organization, or other entity. Chart-to-chart relationships are used by {{% system-name %}} systems to connect a patient (employee) to another patient (employee), patient population (employee group), or non-employees.
 
-A **relation type** is used to define the type of connection between two charts. See the [Relation Types section](#gjdgxs) for more information. CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the  {{% sys-name %}} system. See the [Import Overview](gdoc:1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk) page for a more detailed explanation of terminology.
+A **relation type** is used to define the type of connection between two charts. See the [Relation Types section](#gjdgxs) for more information. CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the  {{% sys-name %}} system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
   
 ## **Specifications**  
   
@@ -40,7 +40,7 @@ The following detailed specifications are available for the Chart Relations CSV 
   
 ### **Column Definitions and Specific Coded Values**  
   
-Definitions for the columns utilized in the specification information below. Commonly used specific coded values appear on the [Data Import Standards](gdoc:1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M) page.  
+Definitions for the columns utilized in the specification information below. Commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.  
 High Level: Patient 2 is related to Patient 1 with Relation Type.
 * R = Required
 * O = Optional
@@ -219,4 +219,4 @@ CCHIT,41205325,MIE,10019,8
   
 ## **Related Pages**  
 
-[Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
+[Data Import Master List](data-import-master-list.md)

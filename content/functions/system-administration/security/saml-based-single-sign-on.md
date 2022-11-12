@@ -7,10 +7,10 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'
-  - 'gdoc:1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
-  - 'gdoc:1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
+  - 'single-sign-on-sso.md'
+  - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'SAML-Based Single Sign-On'
@@ -20,11 +20,11 @@ menu:
 ---
 SSO access is a standard for users accessing protected information, such as patient data. Access is provided by creating and enabling a login trust. This allows users to access all  {{% system-name %}} services by signing in *one time*. When properly configured, users are redirected to the SSO login page to access the system, accordingly.  
 The following document provides details and considerations for using Security Assertion Markup Language (SAML)-based single sign-on (SSO) with the  {{% system-name %}} systems.  {{% system-name %}} currently supports SAML 2.0 SP-initiated or IDP-initiated workflows with the HTTP-POST binding.  {{% system-name %}} provides a SAML-based SSO application program interface (API). For an in-depth review of SAML, see the public Wikipedia page: [https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)  
-The majority of this document was created for technical staff to utilize for SAML SSO configuration. The sections that follow are technical in nature. For a list of terminology commonly encountered as part of this topic, please see our [SSO Documentation](gdoc:1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA).
+The majority of this document was created for technical staff to utilize for SAML SSO configuration. The sections that follow are technical in nature. For a list of terminology commonly encountered as part of this topic, please see our [SSO Documentation](single-sign-on-sso.md).
   
 ## SAML in  **_{{% system-name %}}_**  
 
-SAML assertions utilize most of the options detailed throughout the [SSO Login Trust](gdoc:1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM) documentation. Note that in order to set up the  {{% system-name %}} system as a SAML service provider (SP), the following must be known about the identity provider (IDP):
+SAML assertions utilize most of the options detailed throughout the [SSO Login Trust](single-sign-on-login-trust.md) documentation. Note that in order to set up the  {{% system-name %}} system as a SAML service provider (SP), the following must be known about the identity provider (IDP):
 * <strong>The IDP Issuer</strong>: This goes in the Domain field of the Login Trust.
 * <strong>Public Key/Certificate</strong>: Used to authenticate the assertions.
 {{% note %}}

@@ -6,13 +6,13 @@ version: 594
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-  - 'gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
-  - 'gdoc:1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
-  - 'gdoc:179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
+  - 'chart-data-csv-api.md'
+  - 'data-import-master-list.md'
+  - 'chart-medical-record-number-mrn-import-options.md'
+  - 'chart-observations-import-options.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options'
 source: 'https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Chart Data CSV Header Options'
@@ -20,7 +20,7 @@ menu:
     parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
     weight: 5050
 ---
-The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing specific fields with processing options using the [Chart Data CSV API](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs). These options give the import the ability to process the field in a number of ways. This is especially useful for systems where the values may change or need to be removed entirely. Although the default process works in most situations, the options that follow allow a user to fine tune how the data is processed.  
+The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing specific fields with processing options using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process the field in a number of ways. This is especially useful for systems where the values may change or need to be removed entirely. Although the default process works in most situations, the options that follow allow a user to fine tune how the data is processed.  
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
   
@@ -29,12 +29,12 @@ The processes discussed on this page should only be performed with the guidance 
 * An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
 * An <strong>update</strong> occurs when a record is replaced with the new information.
 * A <strong>deletion</strong> occurs when a record is removed from the database.
-Related terminology is discussed on the [Chart Data CSV API](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs) page.
+Related terminology is discussed on the [Chart Data CSV API](chart-data-csv-api.md) page.
 
   
 ## **Processing Fields with Options**  
   
-To use these options, the values described below as 'INSERT Options', 'Blank Handling Options', and 'Distinct Options' need to be within the header row of the data file for them to take effect on a per-column basis. You can also utilize the checkboxes and dropdown lists in the CSV API user interface to enable for all columns in the CSV file. The options can be linked together to allow for both types of options. When linking them together, the options need to be separated by a 'space' if you're submitting them in the header row of the CSV file. If you're using the interface you need only select the desired options before submission of the file. Regardless, when using options, a space must always follow the option. Not all options are available for all fields. Please refer to specific pages for what is supported for each field, under the [Related Pages](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs) section. If using the controls within the user interface the system will apply the options to all applicable columns automatically.  
+To use these options, the values described below as 'INSERT Options', 'Blank Handling Options', and 'Distinct Options' need to be within the header row of the data file for them to take effect on a per-column basis. You can also utilize the checkboxes and dropdown lists in the CSV API user interface to enable for all columns in the CSV file. The options can be linked together to allow for both types of options. When linking them together, the options need to be separated by a 'space' if you're submitting them in the header row of the CSV file. If you're using the interface you need only select the desired options before submission of the file. Regardless, when using options, a space must always follow the option. Not all options are available for all fields. Please refer to specific pages for what is supported for each field, under the [Related Pages](chart-data-csv-api.md) section. If using the controls within the user interface the system will apply the options to all applicable columns automatically.  
 Example:
 
 
@@ -123,8 +123,8 @@ Here is an example of using the Translation Manager to add a translation.
 
 {{% anchor sys="related-pages" %}}
 Related Pages
-* [Data Import Master List](gdoc:12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y)
-* [Chart Data CSV API](gdoc:1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs)
-* [Chart MRNumber Import Options](gdoc:1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E)
-* [Chart Observations Import Options](gdoc:179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A)
+* [Data Import Master List](data-import-master-list.md)
+* [Chart Data CSV API](chart-data-csv-api.md)
+* [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.md)
+* [Chart Observations Import Options](chart-observations-import-options.md)
 * [Chart PUR Import Options](https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options)

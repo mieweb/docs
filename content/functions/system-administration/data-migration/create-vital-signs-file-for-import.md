@@ -10,9 +10,9 @@ links:
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
   - 'https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641'
-  - 'gdoc:1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
+  - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
 source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Create Vital Signs File for Import'
@@ -221,7 +221,7 @@ Do not provide the percentage sign (%).
 
 * [Vital Signs CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)
 * [Vital Signs CSV File Example](https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641)
-* [Validation script for Vital Signs data](gdoc:1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo)
+* [Validation script for Vital Signs data](https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo)
   
 ## Troubleshooting  
 

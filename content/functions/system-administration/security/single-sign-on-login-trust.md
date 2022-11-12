@@ -2,15 +2,15 @@
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
 date: '2020-02-27T21:22:18.806Z'
-version: 42
+version: 44
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'
-  - 'gdoc:1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
-  - 'gdoc:1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
+  - 'single-sign-on-sso.md'
+  - 'saml-based-single-sign-on.md'
 source: 'https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Single Sign-On Login Trust'
@@ -19,7 +19,7 @@ menu:
     weight: 5300
 ---
 The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.  
-For more information on login trust terminology, see our [SSO Documentation](gdoc:1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA).
+For more information on login trust terminology, see our [SSO Documentation](single-sign-on-sso.md).
   
 ## **_{{% system-name %}}_** and SAML Metadata  
 
@@ -30,7 +30,7 @@ The first step is an exchange of metadata files. The Login Trusts editor under C
 ## Client-Provided Metadata  
 
 The information used to populate a new login trust is found in the IDP's SAML metadata file from the client. The client should provide a copy of this file to the {{% system-name %}} Implementation Specialist.  This file may be in the form of an internet URL, email attached file, or a block of text shared with the Specialist.
-For additional client requirements information, see our [SAML-based SSO documentation](gdoc:1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc).
+For additional client requirements information, see our [SAML-based SSO documentation](saml-based-single-sign-on.md).
   
 ## **_{{% system-name %}}_** -Provided Metadata  
 

@@ -6,12 +6,12 @@ version: 20
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s'
-  - 'gdoc:1nad6bnJlNKZcV7TI6aSKIG4J2twAgP_Damj7nU-nGkI'
+  - 'finding-fee-schedules.md'
+  - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1cOmkqlSjVkfZtpNOOYSyGMM6K3pE26qzEDVZXOeM04M'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
-1. [Find the fee schedule](gdoc:1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s) to which to add items or [view all fee schedules](gdoc:1nad6bnJlNKZcV7TI6aSKIG4J2twAgP_Damj7nU-nGkI). Select the name of the one to which to add items. Items already in the fee schedule, if any, appear in the <em>Fee Schedule Items</em> section.
+1. [Find the fee schedule](finding-fee-schedules.md) to which to add items or [view all fee schedules](viewing-all-fee-schedules.md). Select the name of the one to which to add items. Items already in the fee schedule, if any, appear in the <em>Fee Schedule Items</em> section.
 2. At the right of the <em>Fee Schedule Items</em> area, select the <strong>Add Fee Schedule Item</strong> button. The <em>Add/Edit Fee Schedule Item</em> window appears.
 
    <img src="../adding-items-to-fee-schedules.assets/10000000000001DA0000017F9C13416E2C67B967.png" />  

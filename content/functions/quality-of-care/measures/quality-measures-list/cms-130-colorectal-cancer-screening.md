@@ -9,10 +9,10 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v9&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v10&showresulttype=Measure'
-  - 'gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
+  - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms130v10'
 source: 'https://drive.google.com/open?id=17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'CMS 130 - Colorectal Cancer Screening'
@@ -143,7 +143,7 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
 1. Continue documenting the encounter, as needed.
 2. When completed, Close and Archive the encounter.
 * <strong>Option 4: Scan/Index or Upload an accepted screening document</strong>
-   * Using [WebScan](gdoc:1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w), scan and index the appropriate document type configured with the necessary LOIN-C.
+   * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C.
       * Scan/Index or Upload the Colonoscopy Screening document type (COLON) configured with the necessary Concept ID (73761001).
       * Scan/Index or Upload the Fecal Occult Blood Test document type (FOBT) configured with the necessary LOIN-C (2335-8); otherwise, add the FOBT observation and ensure it is configured with the 2335-8 LOIN-C.
       * Scan/Index or Upload the Flexible Sigmoidoscopy document type (FLEXSIG) configured with the necessary Concept ID (44441009).

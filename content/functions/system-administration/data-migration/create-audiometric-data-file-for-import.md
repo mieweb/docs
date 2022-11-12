@@ -10,9 +10,9 @@ links:
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
   - 'https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365'
-  - 'gdoc:1eUZciZBJx6E4HZ61k9sBS1T1WKU9-6DT2O0mch4K6DU'
+  - 'https://drive.google.com/open?id=1eUZciZBJx6E4HZ61k9sBS1T1WKU9-6DT2O0mch4K6DU'
 source: 'https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Create Audiometric Data File for Import'
@@ -229,7 +229,7 @@ What you will need:
 
 * [Audiometric Data CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/)
 * [Audiometric Data CSV File Example](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365)
-* [Validation Script for Audiometric Data](gdoc:1eUZciZBJx6E4HZ61k9sBS1T1WKU9-6DT2O0mch4K6DU)
+* [Validation Script for Audiometric Data](https://drive.google.com/open?id=1eUZciZBJx6E4HZ61k9sBS1T1WKU9-6DT2O0mch4K6DU)
   
 ## Troubleshooting  
 

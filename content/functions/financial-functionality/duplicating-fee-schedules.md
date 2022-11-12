@@ -6,14 +6,14 @@ version: 18
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
-  - 'gdoc:1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s'
-  - 'gdoc:1nad6bnJlNKZcV7TI6aSKIG4J2twAgP_Damj7nU-nGkI'
+  - 'finding-fee-schedules.md'
+  - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 ---
 Duplicate fee schedules to create a new fee schedule with the same fee schedule items and a different fee schedule name.   
 When duplicating a fee schedule, you can also set the prices of all items in the duplicate fee schedule to be a percentage of those in the original fee schedule. The costs of items in the duplicate fee schedule can also be set to a percentage of those in the original fee schedule. This is optional.
-1. [Find the fee schedule](gdoc:1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s) to which to duplicate or [view all fee schedules](gdoc:1nad6bnJlNKZcV7TI6aSKIG4J2twAgP_Damj7nU-nGkI).
+1. [Find the fee schedule](finding-fee-schedules.md) to which to duplicate or [view all fee schedules](viewing-all-fee-schedules.md).
 2. In the <em>Fee Schedule</em> section, in the <em>OPTIONS</em> column of the fee schedule to duplicate, select <strong>duplicate</strong>. The <em>Add New Fee Schedule</em> window appears.
 3. In the <em>Add New Fee Schedule</em> window, in the <em>Fee Schedule</em> Name field, enter a <strong>name for the new fee schedule</strong>.
 

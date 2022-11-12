@@ -1,14 +1,14 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2022-08-29T19:12:07.344Z'
-version: 163
-lastAuthor: 'Grzegorz Godlewski'
+date: '2022-11-07T21:17:39.047Z'
+version: 176
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Chart Tabs'
@@ -18,7 +18,7 @@ menu:
 ---
 {{% system-name %}} uses what are known as **chart tabs** within each chart. These are similar to chart dividers, or chart tabs, found within paper charts. They are simply an easy means to organize and track all of the documentation within a chart. Users interested in configuring or maintaining chart tabs throughout the system will need the appropriate security permissions and may access the [Chart Tabs editor](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) from the Control Panel to update and maintain, as necessary.
   
-## **Summary**  
+## Summary  
   
 When you click [Chart Tabs](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) at the top, the entire listing of all chart tabs created in your system appears.  
 Users can click on any underlined column to sort the listing alphabetically, or by way of any of the other columns, as needed.
@@ -28,13 +28,9 @@ Users can click on any underlined column to sort the listing alphabetically, or 
 
 Available columns include:
 * <strong>Tab Name</strong>: This is the name of the chart tab. This is how it appears in each patient's chart.
-
 * <strong>Target</strong>: This is usually blank which means this tab won't open in a new window on your computer screen. If this chart tab is set to open in a new window on your screen, it will say as such.
-
 * <strong>Default View</strong>: This is the view (e.g., detailed, dashboard, thumb-view, etc.) to which the chart tab in context defaults.
-
 * <strong>Def Doc Type</strong>: Lists the document default type(s) (if any) for the chart tab in context. If a Default Document Type is designated for this chart tab, only that document type will be displayed as the primary Default Document Add Type when the Add Document link is clicked from within the chart. Leave this field blank if a default document add type is not needed for the chart tab. 
-
 * <strong>Description</strong>: If documented, this is the purpose of each chart tab. The first 60 characters of the description display here. If the description exceeds 60 characters, the entirety of the description will be displayed in a help bubble following the truncated version
   
 ![](../chart-tabs.assets/10000201000006400000021955484C3B32217EE0.png)  
@@ -52,7 +48,7 @@ Available columns include:
 
 * <strong>Options</strong>: `Edit` and/or `Delete` links will be available for editing and deleting chart tabs, as needed. If a chart tab is restricted, users with the appropriate security permissions to view restricted charts will also have a `Restrictions` link available here.
   
-### **Search Engine (At Top of Screen)**  
+### Search Engine (At Top of Screen)  
   
 There is a search engine at the top of the screen.  You can use the dropdowns to do a BEGINS WITH, CONTAINS, or EXACT criteria search, along with searching by chart tab name or can do a reverse search by searching for the document type name/description (or doc.type) and it will display the chart tab(s) that document type is housed in.  Using the search fields will narrow down your results and display them, instead of scrolling through the entire/complete listing of chart tabs with included document types.  
 There are also checkboxes available to change your search results to find what you are looking for.  The system will remember what you checkmarked and next time you come back to do a search, it will remember and prefill those checkboxes of what you were at last time you rendered a search.  There are also check all and uncheck all buttons to quickly perform those on the checkboxes.  
@@ -60,9 +56,8 @@ Click the SEARCH button when ready to show the results of the search criteria yo
   
 ![](../chart-tabs.assets/10000201000003FF0000009A36A15EBE6FD34B0F.png)  
 
-
   
-## **Add a New Chart Tab (Basic Editor Option)**  
+## Add a New Chart Tab (Basic Editor Option)  
   
 You must have security role permissions to access Chart Tab.  
 Click Control tab from left sidebar menu.  
@@ -151,7 +146,7 @@ A list of document types not tagged to any inclusive tab will display.  It will
 Unfortunately, you cannot select the document type from here to add to the chart tab. This is for viewing only. If you click the document type name in this screen, it will take you to the document type details for that document. To get out of this screen you can simply click the X at the top right of this opened screen.  Then you will be back at your Chart Tab and can add that document type you found wasn't tagged to any chart tab yet.
 Click Save button when done creating your Chart Tab. Your chart tab has been added to the system.  If you restricted the chart tab, you need to go back into the chart tab and set the allowed users and/or departments (see page 6 of this help documentation regarding restrictions).
   
-### **Advanced Editor**  
+### Advanced Editor  
 
 This is for MIE syntax programmer use to program instructions for specific client needs. Only MIE will be using this entry method. However, if setting restrictions to the chart tab, it will automatically set you to this Advanced Editor mode so you can enter in any allowed users/departments to the chart tab you are creating.
 
@@ -159,7 +154,7 @@ This is for MIE syntax programmer use to program instructions for specific clien
 ![](../chart-tabs.assets/1000020100000640000001E7FB06B3E655D5E772.png)  
 
   
-### **Edit or Delete/Inactivate an Existing Chart Tab**  
+### Edit or Delete/Inactivate an Existing Chart Tab  
 
 You must have security role permissions to access Chart Tab.
 Click Control tab from left sidebar menu.
@@ -202,7 +197,7 @@ To "reactivate/undelete" a chart tab, you can click the UnDelete link in its opt
 
 
   
-## **Restricted Chart Tabs**  
+## Restricted Chart Tabs  
 
 If you check-mark a chart tab to be restricted and have security to manage chart tab restrictions, you can add any allowed users/departments to that chart tab while you are adding/creating the chart tab.  OR at any time you can add/edit/delete any allowed users and allowed departments that are allowed to view this chart tab by going to the Restrictions link provided from the chart tab list summary screen.
 Find the chart tab that is restricted from the Chart Tab summary screen.  Chart tabs that are restricted will have the option link Restrictions next to it.  If that option link does not appear, then that chart tab is not restricted.
@@ -220,15 +215,15 @@ The Allowed Users / Allowed Departments to the restricted chart tab will display
 
 
   
-### **Allowed Users**  
+### Allowed Users  
 
 You can search and add a specific user in Add User and add them to the chart tab.  Type in their last name (or first name) and the system will give you any auto-complete selections that match. When you find the specific user you want to allow to this chart tab, click on their name, then go over to the PERMISSION LEVEL and it's default to Yes, but you can change it to No. Then click the ADD button. It will then insert that user above it in the list edit.  No user is submitted or access changed until you are done and click the SAVE button at the bottom of the screen. You can continue to add another user to be allowed to this restricted chart tab. Click SAVE button when done. Any user with NO permission on this list or not on the ‘allowed' list at all on this screen is not allowed into this restricted chart tab.
   
-### **Allowed Departments**  
+### Allowed Departments  
 
 You can select an entire department to be allowed to this restricted chart tab. Simply find the department using the drop-down and then at the PERMISSION LEVEL its default is Yes. This will allow all users within that department permission to this restricted chart tab. Then click the ADD button. It will then insert that department above it in the list edit.  No department is submitted or access changed until you are done and click the SAVE button at the bottom of the screen. You can continue to add another user to be allowed to this restricted chart tab.  Click SAVE button when done. Any department with NO permission on this list or not on the ‘allowed' list at all on this screen is not allowed into this restricted chart tab.
   
-## **Edit Permission or Remove User/Department From Allowed List**  
+## Edit Permission or Remove User/Department From Allowed List  
 
 If you want to deny permission to a user and/or department or need to edit a permission level for an allowed user/department on the list for the restricted tab, simply get into the chart tab by clicking the EDIT link or get into just the restrictions by clicking the Restrictions link provided in the options column of the chart tab listing screen.
 
