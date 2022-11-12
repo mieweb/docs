@@ -2,12 +2,12 @@
 id: '1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c'
 title: 'Medical Clearance'
 date: '2022-08-13T16:59:12.301Z'
-version: 48
+version: 50
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Medical Clearance'

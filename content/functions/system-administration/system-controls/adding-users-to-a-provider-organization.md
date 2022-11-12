@@ -2,11 +2,11 @@
 id: '1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U'
 title: 'Adding Users to a Provider Organization'
 date: '2020-02-27T20:18:45.794Z'
-version: 39
+version: 41
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Adding Users to a Provider Organization'

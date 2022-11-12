@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS144v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms144v10'
 source: 'https://drive.google.com/open?id=1mjaSrGAH3j_mNUIhsJT4neLhoquPAcUP2VKpHrCaKUI'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'CMS 144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)'

@@ -6,7 +6,7 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1BjF6NXvvzRfQtf-G77s_gu5FwvVtNl2x8RSz4cNIU3g'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'NoMoreClipboard'

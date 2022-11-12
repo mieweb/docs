@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'PSPA 8 - Use of Patient Safety Tools'

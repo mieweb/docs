@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
 source: 'https://drive.google.com/open?id=1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Add Document - Legacy View vs. Current View'

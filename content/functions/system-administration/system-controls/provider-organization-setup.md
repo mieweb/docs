@@ -2,13 +2,13 @@
 id: '1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY'
 title: 'Provider Organization Setup'
 date: '2020-03-16T22:35:38.380Z'
-version: 62
+version: 64
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'about:blank'
 source: 'https://drive.google.com/open?id=1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Provider Organization Setup'

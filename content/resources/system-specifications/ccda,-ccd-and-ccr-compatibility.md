@@ -26,7 +26,7 @@ links:
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
   - 'https://ttpedge.sitenv.org/ttp/#/validators'
 source: 'https://drive.google.com/open?id=1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'CCDA, CCD and CCR Compatibility'

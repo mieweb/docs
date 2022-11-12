@@ -20,7 +20,7 @@ links:
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/2106cfrt.htm'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#305'
 source: 'https://drive.google.com/open?id=1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Prescriber Responsibilities & Transmission Requirements'

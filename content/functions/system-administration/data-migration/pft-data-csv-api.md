@@ -14,7 +14,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub?output=csv'
   - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
 source: 'https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'PFT Data CSV API'

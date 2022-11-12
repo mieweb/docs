@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1lh9WJDKO6n_jofjt1b7NA8ALMcYEEr7LVi7J_S9gdss'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'PSPA 29 - Consulting AUC Using Clinical Decision Support when Ordering Advanced'

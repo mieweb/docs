@@ -16,7 +16,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1973161138'
   - 'https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1682651183'
 source: 'https://drive.google.com/open?id=1pNelE3B-olct_hrbdA-rgvh2GpACme1hjf7QBz9Bf_w'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Getting Down to Basics'

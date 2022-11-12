@@ -2,11 +2,11 @@
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
 date: '2020-02-27T20:04:28.276Z'
-version: 56
+version: 58
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
-wikigdrive: '8799ccfd58b47ed721e42eeadb589071776ed64f'
+wikigdrive: '8934ab392b82c3a1d5a8ae9fb7795d99e93c12ca'
 menu:
   main:
     name: 'Print/Fax/Transmit Prescriptions'
