@@ -1,5 +1,6 @@
 echo "Node version"
 node -v
+npm config set color false
 echo "npm i"
 npm i
 npm -g i  hugo-extended
