@@ -3,7 +3,7 @@ $active-nav: #bdeaff;
 $dark: #505050;
 
 
-
+@import 'print';
 @import 'style';
 // Import Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap.scss";
@@ -19,7 +19,6 @@ $dark: #505050;
 @import "node_modules/sweetalert2/dist/sweetalert2.css";
 
 @import "node_modules/highlight.js/scss/a11y-light.scss";
-
 .hljs {
     background: #f7f4f4 !important;
 }
