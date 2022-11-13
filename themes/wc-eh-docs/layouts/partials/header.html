@@ -3,7 +3,13 @@
 
 <head>
   <!-- <base href="{{ $.Site.BaseURL }}"/> -->
+
+  {{ if eq .Title "_index" }}
+  <title>{{ $.Site.Title }} :: Documentation Home</title>
+  {{ else }}
   <title>{{ $.Site.Title }} :: {{ .Title }}</title>
+  {{ end }}
+
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
