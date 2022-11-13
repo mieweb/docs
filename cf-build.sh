@@ -13,10 +13,10 @@ echo "Building $1"
 
 if [ "$1" = "wc" ]; then
     echo "Building docs.webchartnow.com"
-    ./hugo --config 'config-wc.toml' --baseURL "" --verbose --minify
+    ./hugo --config 'config-wc.toml' --baseURL "/" --verbose --minify
 elif [ "$1" = "eh" ]; then
     echo "Building docs.enterprisehealth.com"
-    ./hugo --config 'config-eh.toml' --baseURL "" --verbose --minify
+    ./hugo --config 'config-eh.toml' --baseURL "/" --verbose --minify
 else
     echo "Invalid argument. Please specify wc or eh"
     exit 1
