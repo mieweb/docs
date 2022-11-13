@@ -21,8 +21,12 @@
                     </time>
                     {{- end }}
                     {{- end }}
-                    <br>Last Build:
-                    {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }} <a href="{{ replace $.Site.BaseURL "docs" "docs-legacy" }}">Legacy Documentation</a>
+                    <br />Last Build:
+                    {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
+
+                    {{ if .Params.wikigdrive }}
+                    <br />WikiGDrive Version: <a href="https://github.com/mieweb/wikiGDrive/commit/{{ .Params.wikigdrive}} " target="_blank">{{ .Params.wikigdrive}}</a>
+                    {{ end }}
 
                 </p>
             </div>
