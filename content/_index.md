@@ -30,7 +30,7 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 {{% system-name %}} offers various solutions for Enterprise Management of Health and Wellness. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
   
-![](../_index.assets/1000020100000482000002ED513C81A8CD64A018.png)  
+![](_index.assets/1000020100000482000002ED513C81A8CD64A018.png)  
 
 
 {{% /only %}}
@@ -38,7 +38,7 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 {{% system-name %}} offers various solutions for Medical Practices. Check out our clinical and solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
   
-![](../_index.assets/100002010000029B00000213B32210E0A9A47A79.png)  
+![](_index.assets/100002010000029B00000213B32210E0A9A47A79.png)  
 
 {{% /only %}}
 
