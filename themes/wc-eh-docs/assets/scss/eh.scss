@@ -1,8 +1,13 @@
 $primary: #007ab3;
 $active-nav: #bdeaff;
 $dark: #505050;
+$dark-mode-dark: #272727; 
+$dark-mode-secondary: #3e4347;
+
+$alert-bg-scale: -95%;
 
 
+@import 'dark';
 @import 'print';
 @import 'style';
 // Import Bootstrap
