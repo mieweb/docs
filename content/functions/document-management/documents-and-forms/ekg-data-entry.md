@@ -11,7 +11,7 @@ links:
   - '../../system-administration/interfaces/device-interface-ekg-system.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'EKG Data Entry'

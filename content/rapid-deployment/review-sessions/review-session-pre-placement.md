@@ -2,7 +2,7 @@
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
 date: '2022-10-27T12:20:34.115Z'
-version: 558
+version: 560
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 ---
 ## Agenda  
 

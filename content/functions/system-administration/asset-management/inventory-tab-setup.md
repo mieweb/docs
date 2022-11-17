@@ -2,12 +2,12 @@
 id: '1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
 title: 'Inventory Tab Setup'
 date: '2020-02-27T20:31:20.847Z'
-version: 41
+version: 43
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'Inventory Tab Setup'

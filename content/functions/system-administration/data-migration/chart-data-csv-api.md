@@ -19,7 +19,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'Chart Data CSV API'

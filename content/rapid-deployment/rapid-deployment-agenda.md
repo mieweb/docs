@@ -11,7 +11,7 @@ links:
   - 'rapid-deployment-agenda/high-level-demonstration-for-core-team.md'
   - 'rapid-deployment-agenda/deployment-planning.md'
 source: 'https://drive.google.com/open?id=1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'Rapid Deployment Agenda'

@@ -9,7 +9,7 @@ links:
   - 'viewing-financial-reports.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 ---
 The system generates reports in comma-separated value format for download. After downloading, open in a spreadsheet program.
 1. [View a financial report](viewing-financial-reports.md). 

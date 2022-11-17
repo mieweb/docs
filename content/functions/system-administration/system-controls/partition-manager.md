@@ -2,12 +2,12 @@
 id: '1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
 title: 'Partition Manager'
 date: '2021-11-11T15:00:57.459Z'
-version: 83
+version: 84
 lastAuthor: 'jvaldez'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'Partition Manager'

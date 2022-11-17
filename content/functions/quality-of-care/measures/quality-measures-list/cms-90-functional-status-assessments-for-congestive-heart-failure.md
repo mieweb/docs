@@ -13,7 +13,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/ehr'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11'
 source: 'https://drive.google.com/open?id=18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'CMS 90 - Functional Status Assessments for Congestive Heart Failure'

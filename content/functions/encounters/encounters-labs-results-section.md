@@ -2,13 +2,13 @@
 id: '14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
 title: 'Encounters Labs Results Section'
 date: '2020-03-26T17:39:27.991Z'
-version: 64
+version: 65
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'Encounters Labs Results Section'

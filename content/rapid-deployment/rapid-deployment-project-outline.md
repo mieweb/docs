@@ -2,7 +2,7 @@
 id: '1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
 title: 'Rapid Deployment Project Outline'
 date: '2020-02-27T21:24:04.139Z'
-version: 20
+version: 21
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -73,7 +73,7 @@ links:
   - '../functions/system-administration/security/security-role-settings.md'
   - '../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
 source: 'https://drive.google.com/open?id=1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 menu:
   main:
     name: 'Rapid Deployment Project Outline'
