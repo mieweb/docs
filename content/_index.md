@@ -1,9 +1,9 @@
 ---
 id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
 title: '_index'
-date: '2022-11-02T13:00:49.543Z'
-version: 701
-lastAuthor: 'Will Reiske (MIE)'
+date: '2022-11-12T21:13:27.033Z'
+version: 714
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'videos-and-demonstrations.md'
@@ -11,7 +11,7 @@ links:
   - 'functions.md'
   - 'rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
 ---
 Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
   
@@ -30,7 +30,7 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 {{% system-name %}} offers various solutions for Enterprise Management of Health and Wellness. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
   
-![](_index.assets/1000020100000482000002ED513C81A8CD64A018.png)  
+![](./_index.assets/1000020100000482000002ED513C81A8CD64A018.png)  
 
 
 {{% /only %}}
@@ -38,7 +38,7 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 {{% system-name %}} offers various solutions for Medical Practices. Check out our clinical and solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
   
-![](_index.assets/100002010000029B00000213B32210E0A9A47A79.png)  
+![](./_index.assets/100002010000029B00000213B32210E0A9A47A79.png)  
 
 {{% /only %}}
 
