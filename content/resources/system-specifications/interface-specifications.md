@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2022-10-28T22:01:31.719Z'
-version: 1457
-lastAuthor: 'Bridget Hamm'
+date: '2022-11-14T17:48:01.272Z'
+version: 1489
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -292,6 +292,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Ohio Immunization Registry (ImpactSIIS)
 * Oklahoma - in progress
 * Oregon
+* Rhode Island Child and Adult Immunization Registry (RICAIR)
 * Tennessee (TENNIIS) (unidirectional)
 * Texas - in the pipeline
 * West Virginia thru Scientific Technologies Corp (STC)
@@ -463,5 +464,4 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Brentwood
 * Disney CARS (a Disney system)
 * Liberty Mutual
-* Sedgewick
-* Zurich
+* Sedgwick
