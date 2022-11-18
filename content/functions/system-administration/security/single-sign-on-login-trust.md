@@ -1,9 +1,9 @@
 ---
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
-date: '2020-02-27T21:22:18.806Z'
-version: 44
-lastAuthor: 'aquandt'
+date: '2022-11-17T16:58:16.532Z'
+version: 57
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'
@@ -21,27 +21,27 @@ menu:
 The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.  
 For more information on login trust terminology, see our [SSO Documentation](single-sign-on-sso.md).
   
-## **_{{% system-name %}}_** and SAML Metadata  
-
-Beginning with RC201906, {{% system-name %}} can natively import and export SAML metadata files commonly used for setup between IDPs and SPs.
-Older systems can utilize the *Manually Creating the Login Trust from SAML Metadata* instructions found below.
+## SAML Metadata  
+  
+Beginning with RC201906, {{% system-name %}} can natively import and export SAML metadata files commonly used for setup between IDPs and SPs.  
+Older systems can utilize the *Manually Creating the Login Trust from SAML Metadata* instructions found below.  
 The first step is an exchange of metadata files. The Login Trusts editor under Control Panel → SuperUser is the access point for importing and exporting these files.
   
 ## Client-Provided Metadata  
-
-The information used to populate a new login trust is found in the IDP's SAML metadata file from the client. The client should provide a copy of this file to the {{% system-name %}} Implementation Specialist.  This file may be in the form of an internet URL, email attached file, or a block of text shared with the Specialist.
+  
+The information used to populate a new login trust is found in the IDP's SAML metadata file from the client. The client should provide a copy of this file to the {{% system-name %}} Implementation Specialist.  This file may be in the form of an internet URL, email attached file, or a block of text shared with the Specialist.  
 For additional client requirements information, see our [SAML-based SSO documentation](saml-based-single-sign-on.md).
   
-## **_{{% system-name %}}_** -Provided Metadata  
-
+## Provided Metadata  
+  
 {{% system-name %}} is able to publish it's SAML SP metadata in three ways: an Internet URL, a file download which may be emailed to the client or block of text which may be copy/pasted in communications to the client.
   
 ![](../single-sign-on-login-trust.assets/10000201000001F900000089BAF1B66FA04DBC90.png)  
 
 Once this metadata has been shared with them, most IDPs will then share their metadata with us.
   
-## Setting up SAML in **_{{% system-name %}}_**  
-
+## Setting up SAML  
+  
 The IDP metadata file will be imported into the {{% system-name %}} system via the Import Metadata link in the Login Trusts editor.
   
 ![](../single-sign-on-login-trust.assets/100002010000024D0000009E3A300C34F31B6AFD.png)  
@@ -60,20 +60,20 @@ The SAML IDP will now be available on the system's Login page under the Remote L
 
   
 ## Removing the Login page  
-
-Once an SSO connection has been configured and tested, the  login page can now be disabled. This is accomplished by making an SSO server the system Default authentication mechanism.
+  
+Once an SSO connection has been configured and tested, the  login page can now be disabled. This is accomplished by making an SSO server the system Default authentication mechanism.  
 In the listing of the Login Trusts editor, there is an option for "Make Default". This link is used to disable the login page and direct all authentication requests to that specific SSO server.
   
 ![](../single-sign-on-login-trust.assets/100002010000005E0000005B367E7CD9D0CAE0E1.png)  
 
   
 ## Login Trust Fields  
-
+  
 The {{% system-name %}} **Add Login Trust** screen displays the following options:
   
 ![](../single-sign-on-login-trust.assets/100002010000021A0000026F6B316E38492A1461.png)  
 
-The following list provides details and insight on using the fields available on the Add Login Trust screen:
+The following list provides details and insight on using the fields available on the Add Login Trust screen:  
 **Domain** – **Required Field**: URL for single sign-on service domain.
 * Found in the SAML metadata file with label <strong>entityID</strong>.
 * This string must be alphanumeric and no more than 255 characters in length.
@@ -97,6 +97,7 @@ The following list provides details and insight on using the fields available on
 * <strong>Remove the question mark ( ? ) character from the target resource</strong>: For IDPs that require state variables be passed as part of the URL instead of as CGI variables to the URL. This is not common.
 * <strong>Put a link to the domain on the login page</strong>: The login page will have a list of links to these IDPs, in addition to the standard non-SSO login form.
 * <strong>Use RelayState instead of TargetResource in SAML requests</strong>: Some IDPs require a RelayState variable instead of a TargetResource variable.
+   * Known IDPs requiring this to be checked include <strong>ADFS</strong>.  If you do not check this box, users will lose their place when their session expires.
 * <strong>Use Shibboleth specific ‘target' instead of TargetResource in SAML Requests</strong>: Use with Shibboleth systems.
 **Login URL**: The URL that users are redirected to for obtaining a new session when they do not have one, or when an existing session becomes invalid.
 * If this URL forwards any additional CGI variables sent to it, make sure the <em>Pass current page's CGI Variables</em> option is checked. This will present a more seamless experience to the user.
