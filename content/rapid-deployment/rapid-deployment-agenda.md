@@ -1,8 +1,8 @@
 ---
 id: '1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
 title: 'Rapid Deployment Agenda'
-date: '2021-01-29T22:11:51.106Z'
-version: 40
+date: '2022-11-14T13:54:20.113Z'
+version: 53
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
