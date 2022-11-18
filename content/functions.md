@@ -1,9 +1,9 @@
 ---
 id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
 title: 'Functions'
-date: '2022-08-29T14:36:49.728Z'
-version: 102
-lastAuthor: 'Will Reiske (MIE)'
+date: '2022-11-18T17:33:54.557Z'
+version: 106
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
