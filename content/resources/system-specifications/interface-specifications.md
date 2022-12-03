@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2022-11-14T17:48:01.272Z'
-version: 1499
-lastAuthor: 'Angie Nichols'
+date: '2022-12-02T16:59:08.706Z'
+version: 1523
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -294,7 +294,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Oregon
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
 * Tennessee (TENNIIS) (unidirectional)
-* Texas - in the pipeline
+* Texas - in progress
 * West Virginia thru Scientific Technologies Corp (STC)
 * Washington State thru Scientific Technologies Corp (STC)
 * Wyoming Immunization Registry (WYIIS) bi-directional HL7 via ACS HIE
