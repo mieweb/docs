@@ -2,7 +2,7 @@
 id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 title: 'Insurance Summary in Demographics Tab'
 date: '2020-03-25T16:48:24.618Z'
-version: 74
+version: 76
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

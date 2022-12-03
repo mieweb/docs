@@ -1,9 +1,9 @@
 ---
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
-date: '2022-10-27T12:20:34.115Z'
-version: 562
-lastAuthor: 'Bridget Hamm'
+date: '2022-12-01T15:01:50.590Z'
+version: 594
+lastAuthor: 'Heather Drexler'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'

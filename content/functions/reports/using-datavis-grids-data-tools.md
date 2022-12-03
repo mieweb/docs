@@ -2,7 +2,7 @@
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
 date: '2020-03-16T16:31:49.734Z'
-version: 50
+version: 53
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
