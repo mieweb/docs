@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App'
 source: 'https://drive.google.com/open?id=10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 ---
 This page provides instructions for interfacing the Depisteo VT1 with the *{{% system-name%}}* system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.   
 {{% note %}}  

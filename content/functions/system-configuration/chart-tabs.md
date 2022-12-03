@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'Chart Tabs'

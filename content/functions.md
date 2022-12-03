@@ -1,13 +1,13 @@
 ---
 id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
 title: 'Functions'
-date: '2022-11-18T17:33:54.557Z'
-version: 106
+date: '2022-11-18T17:34:08.744Z'
+version: 107
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'Functions'

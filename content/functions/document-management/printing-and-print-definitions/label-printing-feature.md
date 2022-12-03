@@ -2,13 +2,13 @@
 id: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
 title: 'Label Printing Feature'
 date: '2020-03-24T15:23:57.818Z'
-version: 71
+version: 77
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../../order-and-result-management/e-orders-chart-tab.md'
 source: 'https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'Label Printing Feature'

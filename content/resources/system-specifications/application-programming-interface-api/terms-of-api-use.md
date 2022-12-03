@@ -2,13 +2,13 @@
 id: '1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY'
 title: 'Terms of API Use'
 date: '2021-04-06T13:28:47.741Z'
-version: 67
+version: 69
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'Terms of API Use'

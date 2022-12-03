@@ -11,7 +11,7 @@ links:
   - 'hl7-segment-definitions.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/hl7-segment-definitions.html'
 source: 'https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'Sending HL7 Messages to System'

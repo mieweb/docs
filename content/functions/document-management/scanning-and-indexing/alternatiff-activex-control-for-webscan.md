@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://www.alternatiff.com/install/reinstall.html'
 source: 'https://drive.google.com/open?id=1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'AlternaTIFF ActiveX Control for WebScan'

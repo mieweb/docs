@@ -2,12 +2,12 @@
 id: '1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
 title: 'Client Hardware and Software Specifications'
 date: '2022-08-30T20:38:36.509Z'
-version: 34
+version: 38
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'Client Hardware and Software Specifications'

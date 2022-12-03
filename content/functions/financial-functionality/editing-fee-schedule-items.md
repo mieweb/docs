@@ -9,7 +9,7 @@ links:
   - 'finding-fee-schedules.md'
   - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1cpxFuKA3udQG8pkj7pt_2RjASRslJiyB4hnn-5m_QK0'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 ---
 1. [Find the fee schedule](finding-fee-schedules.md) to which to edit items or [view all fee schedules](viewing-all-fee-schedules.md). Select the name of the one to which to edit items. Items in the fee schedule appear in the <em>Fee Schedule Items</em> section.
 2. In the Fee Schedule Items section, to the right of the item to edit, select the <strong>pencil</strong>. The <em>Add/Edit Fee Schedule</em> Item window appears.

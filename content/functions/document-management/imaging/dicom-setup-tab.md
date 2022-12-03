@@ -12,7 +12,7 @@ links:
   - 'https://system/?f=dicom&s=app_entities&opp=add'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
 source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-wikigdrive: '39bb83db6f8c4d7510a0836e889fb3cc29e60870'
+wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
 menu:
   main:
     name: 'DICOM Setup Tab'
