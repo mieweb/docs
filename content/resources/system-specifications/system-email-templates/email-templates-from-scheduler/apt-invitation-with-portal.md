@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTI&old_module=Email&old_name=Apt+Invitation+with+Portal&active=0'
 source: 'https://drive.google.com/open?id=1_9KLm_UcpM0vQsGlOxZaccnQouL1lLgfn-KU5PeP_DI'
-wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Apt Invitation with Portal'

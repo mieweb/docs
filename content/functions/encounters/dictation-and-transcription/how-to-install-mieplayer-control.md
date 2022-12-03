@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mywebchart.com/plugins/'
 source: 'https://drive.google.com/open?id=1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM'
-wikigdrive: '5bf4a745d7ffbddde9a890fc55e6d5d807554182'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'How to Install MIEPlayer Control'
