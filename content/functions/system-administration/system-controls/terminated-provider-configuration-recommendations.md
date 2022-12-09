@@ -9,7 +9,7 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - 'https://docs.webchartnow.com/rapid-deployment/review-sessions/review-session-e-sign.html'
 source: 'https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 ---
 ## Terminated Provider Configuration Recommendations  
 

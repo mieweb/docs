@@ -13,7 +13,7 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1l64IjN7y0I0QHoM7e8hyy80El5GBEv4DC_WN8zFGt1Q'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'What You Need to Know'

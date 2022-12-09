@@ -10,7 +10,7 @@ links:
   - 'single-sign-on-sso.md'
   - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'SAML-Based Single Sign-On'

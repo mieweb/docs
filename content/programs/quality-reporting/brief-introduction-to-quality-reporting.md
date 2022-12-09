@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/mips/overview'
   - '../../functions/quality-of-care/measures.md'
 source: 'https://drive.google.com/open?id=1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Brief Introduction to Quality Reporting'

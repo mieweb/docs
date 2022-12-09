@@ -11,7 +11,7 @@ links:
   - 'document-management/printing-and-print-definitions.md'
   - 'document-management/imaging.md'
 source: 'https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Document Management'

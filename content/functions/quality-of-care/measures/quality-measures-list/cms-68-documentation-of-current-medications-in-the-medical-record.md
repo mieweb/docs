@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/eligible-clinician'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11'
 source: 'https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'CMS 68 - Documentation of Current Medications in the Medical Record'

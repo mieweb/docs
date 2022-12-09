@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Order List Import Tool'

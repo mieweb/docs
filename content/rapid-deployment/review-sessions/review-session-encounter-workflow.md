@@ -49,7 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Review Session - Encounter Workflow'

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Terms of API Use'

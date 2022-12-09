@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv'
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Observation Import'

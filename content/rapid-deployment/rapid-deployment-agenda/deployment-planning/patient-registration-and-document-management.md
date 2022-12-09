@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-patient-registration.md'
   - '../../review-sessions/review-session-document-management.md'
 source: 'https://drive.google.com/open?id=1i-O15wMVtd1z-_3p7cFpA9pTPSVWtSHotxi2wKwJXek'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Patient Registration & Document Management'

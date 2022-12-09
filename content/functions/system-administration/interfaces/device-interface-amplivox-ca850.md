@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Device Interface - Amplivox CA850'

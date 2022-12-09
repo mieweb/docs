@@ -2,12 +2,12 @@
 id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
 title: 'Functions'
 date: '2022-11-18T17:34:08.744Z'
-version: 114
+version: 116
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
 menu:
   main:
     name: 'Functions'
