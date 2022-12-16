@@ -100,7 +100,11 @@ $dark-mode-active-nav: darken($active-nav, 40%);
   }
 
   .summary {
-    color: $dark;
+    color: $white;
+  }
+
+  article.content.post .card{
+    background-color: rgba(250,250,250, 0.2);
   }
 
 }
