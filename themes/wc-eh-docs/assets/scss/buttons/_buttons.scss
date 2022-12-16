@@ -42,7 +42,7 @@
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus,
 .active-nav, a[aria-expanded="true"] {
-  background-color: $active-nav !important;
+  background-color: $active-nav;
 }
 
 .btn-close.white {
