@@ -2,13 +2,13 @@
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
 date: '2021-12-06T16:40:10.096Z'
-version: 143
+version: 144
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Working in a Visit Encounter'

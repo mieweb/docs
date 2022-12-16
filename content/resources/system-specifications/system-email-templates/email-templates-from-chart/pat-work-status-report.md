@@ -1,14 +1,14 @@
 ---
 id: '1-uWUd3qtMjl7jbVj2WOl_XdUABpr_akxuKvuMtqiLqs'
 title: 'Pat Work Status Report'
-date: '2020-03-10T14:08:57.272Z'
-version: 27
-lastAuthor: 'aquandt'
+date: '2022-12-03T17:12:40.241Z'
+version: 36
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EWORKS&old_module=Email&old_name=Pat+Work+Status+Report&active=0'
 source: 'https://drive.google.com/open?id=1-uWUd3qtMjl7jbVj2WOl_XdUABpr_akxuKvuMtqiLqs'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Pat Work Status Report'
@@ -22,7 +22,7 @@ menu:
 
 {{% info %}}
 
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EWORKS&old_module=Email&old_name=Pat+Work+Status+Report&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EWORKS&old_module=Email&old_name=Pat+Work+Status+Report&active=0), as needed. 
 {{% /info %}}
 
 
@@ -35,7 +35,7 @@ Subject: Notification to Schedule Appointment for Travel Immunizations Due
 ### ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****  
 
   
-![](../pat-work-status-report.assets/1000020100000001000000014C77D75F6DC67A52.png)  
+![](../pat-work-status-report.assets/100002010000031400000019318168791DAC8042.png)  
 
 Patient : **Frederick Anderson** 
 Patient ID: **MIE-10025**

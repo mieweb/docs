@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2022-10-28T22:01:31.719Z'
-version: 1457
+date: '2022-12-02T16:59:08.706Z'
+version: 1523
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -47,7 +47,7 @@ links:
   - 'http://stchome.com/'
   - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Interface Specifications'
@@ -292,8 +292,9 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Ohio Immunization Registry (ImpactSIIS)
 * Oklahoma - in progress
 * Oregon
+* Rhode Island Child and Adult Immunization Registry (RICAIR)
 * Tennessee (TENNIIS) (unidirectional)
-* Texas - in the pipeline
+* Texas - in progress
 * West Virginia thru Scientific Technologies Corp (STC)
 * Washington State thru Scientific Technologies Corp (STC)
 * Wyoming Immunization Registry (WYIIS) bi-directional HL7 via ACS HIE
@@ -463,5 +464,4 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Brentwood
 * Disney CARS (a Disney system)
 * Liberty Mutual
-* Sedgewick
-* Zurich
+* Sedgwick

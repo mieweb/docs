@@ -2,13 +2,13 @@
 id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 title: 'Insurance Summary in Demographics Tab'
 date: '2020-03-25T16:48:24.618Z'
-version: 74
+version: 76
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Insurance Summary in Demographics Tab'
