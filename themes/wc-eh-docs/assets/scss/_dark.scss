@@ -67,6 +67,7 @@ $dark-mode-active-nav: darken($active-nav, 40%);
     color: rgba(250, 250, 250, 1) !important;
   }
 
+  a.btn.btn-toggle:hover,
   .btn-toggle-nav a:hover,
   .btn-toggle-nav a:focus,
   .active-nav,
