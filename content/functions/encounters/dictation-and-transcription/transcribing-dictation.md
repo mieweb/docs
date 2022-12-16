@@ -2,13 +2,13 @@
 id: '1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
 title: 'Transcribing Dictation'
 date: '2020-03-13T11:15:15.186Z'
-version: 66
+version: 67
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'closing-encounters-from-the-dictation-module.md'
 source: 'https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Transcribing Dictation'

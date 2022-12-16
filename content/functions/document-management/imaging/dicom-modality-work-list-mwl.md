@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'DICOM Modality Work List (MWL)'

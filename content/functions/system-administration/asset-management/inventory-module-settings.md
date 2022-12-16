@@ -2,11 +2,11 @@
 id: '1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
 title: 'Inventory Module Settings'
 date: '2020-02-27T20:31:40.529Z'
-version: 57
+version: 59
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Inventory Module Settings'

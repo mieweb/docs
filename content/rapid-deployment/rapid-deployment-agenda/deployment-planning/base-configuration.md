@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-system-configuration.md'
 source: 'https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Base Configuration'

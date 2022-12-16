@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&opp=edit&old_module=Email&old_name=Apt+Invite+Reminder'
 source: 'https://drive.google.com/open?id=1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Apt Invite Reminder'

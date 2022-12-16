@@ -2,7 +2,7 @@
 id: '17nTZZRqe8ofCm6bTCe4FAmPyZqREjkWRE7MwrZn_XOU'
 title: 'CC 2 - Implementation of Improvements that Contribute to More Timely Communication of Test Results'
 date: '2020-02-27T20:52:05.062Z'
-version: 16
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=17nTZZRqe8ofCm6bTCe4FAmPyZqREjkWRE7MwrZn_XOU'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'CC 2 - Implementation of Improvements that Contribute to More Timely Communication of Test Results'

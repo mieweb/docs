@@ -2,11 +2,11 @@
 id: '1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
 title: 'Secure Email to Whitelisted Domain(s)'
 date: '2020-02-27T20:21:13.177Z'
-version: 58
+version: 61
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Secure Email to Whitelisted Domain(s)'

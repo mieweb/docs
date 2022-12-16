@@ -1,9 +1,9 @@
 ---
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
-date: '2022-10-27T12:20:34.115Z'
-version: 558
-lastAuthor: 'Bridget Hamm'
+date: '2022-12-01T15:01:50.590Z'
+version: 594
+lastAuthor: 'Heather Drexler'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
@@ -17,7 +17,7 @@ links:
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 ---
 ## Agenda  
 

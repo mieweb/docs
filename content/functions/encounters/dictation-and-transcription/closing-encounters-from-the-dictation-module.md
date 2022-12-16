@@ -2,12 +2,12 @@
 id: '1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
 title: 'Closing Encounters from the Dictation Module'
 date: '2020-03-12T21:01:32.907Z'
-version: 37
+version: 38
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Closing Encounters from the Dictation Module'

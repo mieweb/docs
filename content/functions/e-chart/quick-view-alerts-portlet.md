@@ -18,7 +18,7 @@ links:
   - 'https://system/?func=dicom&dcfunc=queue'
   - '../document-management/imaging/dicom-setup-tab.md'
 source: 'https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Quick View - Alerts Portlet'

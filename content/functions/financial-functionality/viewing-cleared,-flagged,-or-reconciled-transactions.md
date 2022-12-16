@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1yGFA_7iHZBY2hTo4OadZcZE_EyZmN_6Om4XgLZZPudI'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. At the upper-right, select <strong>Registry View</strong>. The system displays the registry view.

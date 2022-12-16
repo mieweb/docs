@@ -2,7 +2,7 @@
 id: '1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
 title: 'Creating or Adding Encounters'
 date: '2020-03-13T15:01:30.440Z'
-version: 68
+version: 69
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'working-in-a-visit-encounter.md'
   - 'archiving-closing-re-archiving-encounters.md'
 source: 'https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Creating or Adding Encounters'

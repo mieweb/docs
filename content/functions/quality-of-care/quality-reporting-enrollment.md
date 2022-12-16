@@ -2,14 +2,14 @@
 id: '1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
 title: 'Quality Reporting Enrollment'
 date: '2020-03-20T17:33:15.915Z'
-version: 106
+version: 110
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'measures.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Quality Reporting Enrollment'

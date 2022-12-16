@@ -2,14 +2,14 @@
 id: '1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
 title: 'Terminated Provider Configuration Recommendations'
 date: '2022-11-04T18:44:37.211Z'
-version: 186
+version: 188
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - 'https://docs.webchartnow.com/rapid-deployment/review-sessions/review-session-e-sign.html'
 source: 'https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 ---
 ## Terminated Provider Configuration Recommendations  
 

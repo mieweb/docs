@@ -21,7 +21,7 @@ links:
   - 'https://system/?f=admin&s=work_locations&opp=work_regions&work_regions_show_active=1'
   - 'https://system/?f=admin&s=work_locations&opp=work_sites&work_sites_show_active=1'
 source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Locations Management'

@@ -43,7 +43,7 @@ links:
   - '../../functions/health-surveillance/respirator-info-chart-tab.md'
   - '../../functions/system-configuration/locations-management.md'
 source: 'https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
-wikigdrive: '64fa77a2dd4586094b6074a78ed6769886b60894'
+wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 menu:
   main:
     name: 'Review Session - Health Surveillance'
