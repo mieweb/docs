@@ -6,7 +6,7 @@ version: 25
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1D2Tr1fpF7oqAx0hsXkwT5D2RA1epjcGuNFVNv87bXEM'
-wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
+wikigdrive: '9aa22efbf239d13b6bed97b4271001468ab4aa59'
 menu:
   main:
     name: 'Clinical Medicine'

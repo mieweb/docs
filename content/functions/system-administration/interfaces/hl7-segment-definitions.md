@@ -9,7 +9,7 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'sample-hl7-messages.md'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
+wikigdrive: '9aa22efbf239d13b6bed97b4271001468ab4aa59'
 menu:
   main:
     name: 'HL7 Segment Definitions'

@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cgHitbsGGsBCtSaH5CsbHIPK9r9TXE8Bv746Xzk6mZ0'
-wikigdrive: 'b9d2baadae607292cb6b10ea9eebdbdd9bbdfc9b'
+wikigdrive: '9aa22efbf239d13b6bed97b4271001468ab4aa59'
 ---
 Configure access to encounter charges, the ledger, financial funding sources, prices, and financial modifiers to allow user security roles or user accounts to view, add, or edit some financial information.  
 This section discusses:  
