@@ -12,7 +12,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex2.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
-wikigdrive: '9aa22efbf239d13b6bed97b4271001468ab4aa59'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Chart Relations CSV API'
