@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'closing-encounters-from-the-dictation-module.md'
 source: 'https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Transcribing Dictation'

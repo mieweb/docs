@@ -15,7 +15,7 @@ links:
   - '../../functions/injection-immunization-management/injection-tab-with-chirp-interface.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45'
 source: 'https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Review Session - Injection/Immunization Management'

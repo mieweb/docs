@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Encounters Labs Results Section'

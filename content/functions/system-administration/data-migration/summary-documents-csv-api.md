@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1Z2HbO8vuW4wiId1PS_Fk39xGbDJC5el-xBmBvvnLzNY/edit?usp=sharing'
   - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
 source: 'https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Summary Documents CSV API'

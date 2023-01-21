@@ -10,7 +10,7 @@ links:
   - 'word-documents-cc-physicians-feature.md'
   - 'document-properties.md'
 source: 'https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Text Documents'

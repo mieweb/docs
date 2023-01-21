@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms002v11'
 source: 'https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan'

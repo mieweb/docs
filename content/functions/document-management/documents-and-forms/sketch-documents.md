@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Sketch Documents'

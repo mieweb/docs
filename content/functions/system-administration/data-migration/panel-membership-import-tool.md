@@ -11,7 +11,7 @@ links:
   - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Panel Membership Import Tool'

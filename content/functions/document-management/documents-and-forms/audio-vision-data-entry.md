@@ -13,7 +13,7 @@ links:
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1_7hqvXyUU3mbM8rCJ8GvthD6asStMJ5d9pbZkBQv4FM'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Audio-Vision Data Entry'

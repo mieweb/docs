@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Merge Manager Tab'

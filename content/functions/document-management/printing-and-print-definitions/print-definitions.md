@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
   - 'https://system/?f=chart&s=printdefedit&item=def&opp=add'
 source: 'https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Print Definitions'

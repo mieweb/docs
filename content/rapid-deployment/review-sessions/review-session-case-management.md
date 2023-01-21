@@ -36,7 +36,7 @@ links:
   - 'https://mie.talentlms.com/learner/courseinfo/id:448'
   - 'https://mie.talentlms.com/learner/courseinfo/id:197'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Review Session - Case Management'

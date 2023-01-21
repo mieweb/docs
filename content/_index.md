@@ -1,9 +1,9 @@
 ---
 id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
 title: '_index'
-date: '2022-11-12T21:13:27.033Z'
-version: 722
-lastAuthor: 'Doug Horner'
+date: '2023-01-21T14:54:27.018Z'
+version: 737
+lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links:
   - 'videos-and-demonstrations.md'
@@ -30,7 +30,7 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 {{% system-name %}} offers various solutions for Enterprise Management of Health and Wellness. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
   
-![](./_index.assets/208c6d51d001b024c65df558795b927b.png)  
+![](diagrams/eh-positioning.svg)  
 
 
 {{% /only %}}

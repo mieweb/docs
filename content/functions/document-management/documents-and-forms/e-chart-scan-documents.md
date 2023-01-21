@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'E-Chart Scan Documents'

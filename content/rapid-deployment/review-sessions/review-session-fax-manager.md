@@ -17,7 +17,7 @@ links:
   - '../../functions/fax-manager/faxing-documents.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=512d4a650f5972363795065eb10926cb'
 source: 'https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Review Session - Fax Manager'

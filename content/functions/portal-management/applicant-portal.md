@@ -9,7 +9,7 @@ links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Applicant Portal'

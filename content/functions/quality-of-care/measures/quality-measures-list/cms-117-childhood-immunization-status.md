@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms117v10'
 source: 'https://drive.google.com/open?id=1MR0uCXDGLsP0rlSwgFdVRKCohi_d5Sfy_55wV1xV7nc'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'CMS 117 - Childhood Immunization Status'

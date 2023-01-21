@@ -13,7 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'MIE File Import'

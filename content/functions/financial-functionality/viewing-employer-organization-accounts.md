@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1uSpG45pzytlu3fKcKN3qkVS_de74FqsYorRpcXXSONs'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 ---
 View accounts of employer organizations to see information about them, such as balance, contacts, associated insurance policies, and subordinate accounts.
 1. [F](finding-employer-organizations.md)[ind employer organizations](finding-employer-organizations.md).

@@ -9,7 +9,7 @@ links:
   - 'accessing-the-ledger.md'
   - 'finding-ledger-transactions.md'
 source: 'https://drive.google.com/open?id=1Ue6lNKwOnv04L49jydrvYRs2xIHXHp8cmIA6WdCoCVM'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 ---
 Update ledger transactions only correct entry errors. Make other adjustments by adding transactions.
 1. [Access the ledger](accessing-the-ledger.md).

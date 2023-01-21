@@ -46,7 +46,7 @@ links:
   - 'https://drive.google.com/open?id=1Hh-Up6MnYTqvnc2vEx38lXyRG5rbm4ln3jnd8Qy_G7Q'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=b79e8477f8cdb0cabd019dcd7f998b16'
 source: 'https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Review Session - Medication Management/Electronic Prescribing'

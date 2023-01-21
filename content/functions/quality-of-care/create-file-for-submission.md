@@ -24,7 +24,7 @@ links:
   - 'https://www.youtube.com/watch?v=iGFYslxit-U&feature=youtu.be'
   - 'https://www.youtube.com/watch?v=yd6EBtEGX1w&feature=youtu.be'
 source: 'https://drive.google.com/open?id=1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Create File for Submission'

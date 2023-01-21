@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtpurgerules'
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&dtopp=dtpurgerules&opp=add'
 source: 'https://drive.google.com/open?id=1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Document Type Purge Rules'

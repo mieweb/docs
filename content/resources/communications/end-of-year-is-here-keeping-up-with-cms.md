@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/mips/mips-value-pathways'
   - '../communications.md'
 source: 'https://drive.google.com/open?id=1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'End-of-Year Is Here: Keeping Up with CMS'

@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v5&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms347v5'
 source: 'https://drive.google.com/open?id=1frOmVEMtMqMmrc_ztH4hM1mlEYzvgyrNU4qZZjuW9LU'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 ---
 ## Overview  
   

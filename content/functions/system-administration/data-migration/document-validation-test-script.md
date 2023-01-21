@@ -13,7 +13,7 @@ links:
   - 'https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7'
   - '../../reports/documents-report-super-document-type-search.md'
 source: 'https://drive.google.com/open?id=1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
-wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Document Validation Test Script'
