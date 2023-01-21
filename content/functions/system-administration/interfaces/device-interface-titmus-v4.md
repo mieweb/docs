@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'installing-mie-device-app.md'
 source: 'https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Device Interface - Titmus V4'
@@ -35,25 +35,25 @@ The Titmus V4 Screener device interface uses the Titmus Software, which will nee
 
 3. Click <strong>Integration</strong>.
 
-   <img src="../device-interface-titmus-v4.assets/10000201000000CE000000757D326B7F6BC2F739.png" />
+   <img src="../device-interface-titmus-v4.assets/8a758c8584409246dba9adbddffe4871.png" />
 
 
 
 4. Select <strong>Vision (out)</strong> by placing a check in the corresponding box.
 
-   <img src="../device-interface-titmus-v4.assets/1000020100000275000000E92508D3A33921B216.png" />
+   <img src="../device-interface-titmus-v4.assets/a75837f5c3012c29cbfdfee849b239e3.png" />
 
 
 
 5. Expand the list under Integration and select <strong>File</strong>.
 
-   <img src="../device-interface-titmus-v4.assets/10000201000000600000003B654308811D757B2A.png" />
+   <img src="../device-interface-titmus-v4.assets/115d882247d17291e2fdd6d240c6b133.png" />
 
 
 
 6. Provide the location where the vision export files will be saved (e.g., C:/Users/Public/Test/vision-.csv). This location will also need to be configured in the [MIE Device App](installing-mie-device-app.md).
 
-   <img src="../device-interface-titmus-v4.assets/1000020100000272000000B2A738F13479EE77B2.png" />
+   <img src="../device-interface-titmus-v4.assets/0f43ae8d7fe3415c3db5d4df68d8f1d6.png" />
 
 
 
@@ -142,19 +142,19 @@ The following data fields are collected in {{% system-name %}} using the Titmus
 
 1. While in a chart, add a <strong>Vision Screening</strong> order to the Due List.
 
-   <img src="../device-interface-titmus-v4.assets/10000201000004F20000028C9E796BAFEFAE8C2A.png" />
+   <img src="../device-interface-titmus-v4.assets/117b52c34295a675575015f074bf254b.png" />
 
 
 
 2. While in the encounter, add the <strong>Vision Screening</strong> order to the exam from the Tests & Procedures section.
 
-   <img src="../device-interface-titmus-v4.assets/10000000000004F3000002E28602EAC9A8666CCC.png" />
+   <img src="../device-interface-titmus-v4.assets/cfbb0bdd7b358c3623ab484c11503764.png" />
 
 
 
 3. In the Vision Screening section, click the <strong>Automatic</strong> link.
 
-   <img src="../device-interface-titmus-v4.assets/10000000000004F70000025F1EE7EE0304C425C6.png" />
+   <img src="../device-interface-titmus-v4.assets/083fe93049f76fead26ea21eea4bf8d4.png" />
 
 
 
@@ -168,5 +168,5 @@ The following data fields are collected in {{% system-name %}} using the Titmus
 
 6. After completed, the results will be automatically uploaded to {{% system-name %}} and the Vision Screening section will update with the results.
 
-   <img src="../device-interface-titmus-v4.assets/10000000000004DF0000011A58E1C501F4858C5C.png" />  
+   <img src="../device-interface-titmus-v4.assets/171deb438bf9d92651ffd14d8369021f.png" />  
 

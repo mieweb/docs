@@ -6,7 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1R15V9vD7TWaOwf81dKXw0Fw4EfTL6gIJGJY1o8uVwbk'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Medication Report'
@@ -20,7 +20,7 @@ Find the *Med Reports* tab from the top tab menu or within the Medications/Aller
 You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.  
 This is a report you can run to get result different statuses of medications tied to a patient.
   
-![](../medication-report.assets/100002010000034B000000DCF76DE88C32C4C03B.png)  
+![](../medication-report.assets/6bf4910f3f635f8dff4f4b7288eb2ff8.png)  
 
 * <strong>Name:</strong> Begin to type in the name of the medication you want run the report for. It will auto-complete and give you choices for what you typed. Select from the auto-complete choices. It will still search by free text in the case of entering something that's not matching an auto-complete choice.
 * <strong>Drug Class:</strong> Select a specific drug class to narrow down the results, or leave as <em>All Classes.</em>
@@ -33,10 +33,10 @@ This is a report you can run to get result different statuses of medications tie
 Click *Search Meds* button to show your search results.  
 Your report will display on the screen with totals at the bottom.
   
-![](../medication-report.assets/10000000000003BF00000143D51AC07ED3692CA2.png)  
+![](../medication-report.assets/81eabd3082eb9296e7a78550eef7fb4f.png)  
 
 You can export the results to a CSV (spreadsheet). Simply click on the **Show CSV** link in the results.
   
-![](../medication-report.assets/100002010000046C0000006A2698343953E97BFB.png)  
+![](../medication-report.assets/3be04cde573e2e63e664332ec7f32080.png)  
 
 This will put all the data into an excel spreadsheet which you can save, sort, etc. in spreadsheet form.

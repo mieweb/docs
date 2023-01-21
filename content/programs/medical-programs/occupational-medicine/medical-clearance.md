@@ -7,7 +7,7 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Medical Clearance'
@@ -22,7 +22,7 @@ menu:
 According to the U.S. Department of Health and Human Services, Medical Surveillance is "the systematic assessment of employees exposed or potentially exposed to occupational hazards." Through the use of regular, ongoing screenings and examinations, reducing and preventing occupational injury and illness is streamlined, allowing for more effective exposure prevention strategies and better recordkeeping. The {{% system-name %}} system is designed with an emphasis on these exact components, providing easy-to-use, non-invasive processes when addressing medical clearance needs.
 
   
-![](../medical-clearance.assets/1000020100000467000002350B8304D5A6748E44.png)  
+![](../medical-clearance.assets/375044a308922ef05cd46ed79e6166d5.png)  
 
         
 

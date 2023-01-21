@@ -9,7 +9,7 @@ links:
   - 'radomni.md'
   - '../../system-administration/data-migration/import-export-json-files.md'
 source: 'https://drive.google.com/open?id=1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'TechOmni'
@@ -21,7 +21,7 @@ The necessary setup for accessing and utilizing TechOmni is fairly simple and st
 In populating the form, users will be able to input the Order Number, which can be used to tie back to the Transcribed Report (where available).
 
   
-![](../techomni.assets/100002010000046100000326638321BB649A6EF4.png)  
+![](../techomni.assets/1a3c7b3f92179263c4921ac92a38c131.png)  
 
 
 TechOmni functions off of a simple process where images that are sent over as DICOM files to {{% sys-name %}} can be linked to the necessary encounter, created using the TechOmni functionality. Once ready, the transcriber can pull up any encounter and review the images from the TechOmni worklist, transcribing as needed. Once the transcribed report exists, the encounter will close.  
@@ -39,7 +39,7 @@ TechOmni is a powerful tool that can be used in conjunction with the [RadOmni](r
          * Imaging = IF
          * Labs = L
          * Referrals = RF
-           <img src="../techomni.assets/100002010000010B000000DFB11E9F386043B2EB.png" />  
+           <img src="../techomni.assets/e7918a6fd2d99395f82e1d6995176c3c.png" />  
 
 {{% tip %}}
 

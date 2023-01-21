@@ -11,7 +11,7 @@ links:
   - 'med-web-ssl-certificate-authority.md'
   - 'https://miewiki.med-web.com/wiki/images/7/72/Crystal10TurnOffSmartLinking.reg'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'ODBC Install & Configuration'
@@ -38,7 +38,7 @@ From the Windows Desktop:
 3. Under Programs you should see "Data Sources (ODBC)"
 
   
-![](../odbc-install-and-configuration.assets/100002010000019F000001E5254D7F96C517E804.png)  
+![](../odbc-install-and-configuration.assets/b27876f8434f9fc0876169edd2d38d5f.png)  
 
 
 4. From there click, "System DSN"
@@ -65,7 +65,7 @@ From the MySQL ODBC Configuration Screen
 2. Click "SSL Settings"
 
   
-![](../odbc-install-and-configuration.assets/100002010000018A00000273AF3264DC9E85A2EF.png)  
+![](../odbc-install-and-configuration.assets/3be6847ee4964dadfb20e11b00274ffd.png)  
 
 
 3. Fill in all fields provided from the configuration e-mail sent to you.
@@ -98,14 +98,14 @@ If you already launched Crystal Reports 2008, simply close the application befor
 4. Click "Run..."
 
   
-![](../odbc-install-and-configuration.assets/1000020100000178000000F3EAD4DE7F33F33DBE.png)  
+![](../odbc-install-and-configuration.assets/6292b01957c8d926ab5bb9d37cd33f36.png)  
 
 
 5. Type "regedit" in the Open input box.
 6. Click "Ok"
 
   
-![](../odbc-install-and-configuration.assets/100002010000015C000000BB86F4BBDEF6A2CE56.png)  
+![](../odbc-install-and-configuration.assets/c7f4f7221b31f65a234a44507dbb214d.png)  
 
 
 7. The Registry Editor will launch
@@ -113,7 +113,7 @@ If you already launched Crystal Reports 2008, simply close the application befor
 9. Click "Import"
 
   
-![](../odbc-install-and-configuration.assets/10000201000002C10000019D0A9A5C601442720A.png)  
+![](../odbc-install-and-configuration.assets/770694f23d4524149597217068fc9457.png)  
 
 
 10. "Import Registry File" dialog will pop.
@@ -122,13 +122,13 @@ If you already launched Crystal Reports 2008, simply close the application befor
 13. Click "Open"
 
   
-![](../odbc-install-and-configuration.assets/1000020100000236000001A69FF99C194FE13D67.png)  
+![](../odbc-install-and-configuration.assets/b5c0ee4fb236089f5f29ac89a59aea32.png)  
 
 
 14. An information prompt will pop stating that the reg file was imported successfully. If you did not get this, something went wrong. Make sure you choose the right file.
 
   
-![](../odbc-install-and-configuration.assets/100002010000036F00000080F8AFB36BA4672054.png)  
+![](../odbc-install-and-configuration.assets/4bd6b722ae16260ff54a402627cd0763.png)  
 
 
 15. Done, you have successfully turned off Crystal's Smart Linking.

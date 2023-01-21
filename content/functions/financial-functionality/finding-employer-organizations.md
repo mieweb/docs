@@ -7,14 +7,14 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Al_53cJIgXetnbNLD0FLUXjIy7Gul0aHAPQJGPHwNdg'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 ---
 1. Select the side menu. The side menu appears.
 2. Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens. 
 3. From <em>Modules</em> list, choose <strong>Employer Organizations</strong>.
 4. Do one:
    1. To see all employer organizations, at top right, select the <strong>All Employers</strong>  
-       link. A list of employer organizations appears.<img src="../finding-employer-organizations.assets/100000000000028E0000003EC5D42F373B79A654.png" />  
+       link. A list of employer organizations appears.<img src="../finding-employer-organizations.assets/3d959dd6aba3c9c9e08f1001cd0527b5.png" />  
 
    2. To search for an employer organization, in the <em>Name</em> field, type <strong>all or part of the name of an employer organization</strong>. Select <strong>Search</strong>. A list of matching employer organizations appears.
 1. In the <em>Search Name</em> column, select <strong>the name</strong> of the employer organization. The system displays information about the employer organization.

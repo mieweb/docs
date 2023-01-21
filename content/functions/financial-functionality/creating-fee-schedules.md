@@ -7,16 +7,16 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 ---
 1. Select the side menu. The side menu appears.
 2. Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens. 
 3. From the <em>Module</em> list, select <strong>Fee Schedule</strong>. The <em>Fee Schedules</em>  
-    page appears.<img src="../creating-fee-schedules.assets/100000000000077F00000155441604585E9D1193.png" />  
+    page appears.<img src="../creating-fee-schedules.assets/36b38315b0c61269cee9bc07376ad7d7.png" />  
 
 4. Select <strong>Add New Fee Schedule</strong>. The <em>Add New Fee Schedule</em> window appears. 
 
-   <img src="../creating-fee-schedules.assets/10000000000001ED000000D8977B07B28DDC6CE7.png" />  
+   <img src="../creating-fee-schedules.assets/7292545162935220ef55147bb951630b.png" />  
 
 5. In <strong>Fee Schedule Name</strong>, type the name of the fee schedule.
 6. In <em>Begin Date</em>, do one:

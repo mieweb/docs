@@ -9,7 +9,7 @@ links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Applicant Portal'
@@ -117,17 +117,17 @@ Following the instructions below, *update* these system settings:
 4. Locate and select the [Portal Setup](https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43) tab.
 5. Once there, click the <strong>Applicant Portal</strong> header, to expand the section. Click the <strong>Run Setup</strong> button.
   
-![](../applicant-portal.assets/100002010000049E00000153DCC4CF527A2CEDC1.png)  
+![](../applicant-portal.assets/29d4e5695d2713714eff548176adfbd5.png)  
 
 6. The Setup Wizard will run.
 
   
-![](../applicant-portal.assets/10000201000001CD000000ADD54404038DC69D56.png)  
+![](../applicant-portal.assets/8906c3043ebd71669874a941070b0bc7.png)  
 
 7. After running the portal setup, review the <strong>Security Requirements</strong> and update, as necessary.
 
   
-![](../applicant-portal.assets/100002010000049D0000019FFCD213BA05E05B6E.png)  
+![](../applicant-portal.assets/d5734a4f26ad1e498b4fa3925958040a.png)  
 
 
 {{% note %}}
@@ -164,7 +164,7 @@ These Security Requirements should always be followed for ensuring the proper se
 
 
 
-   <img src="../applicant-portal.assets/10000201000005A00000015882EE97168CBFAC82.png" />  
+   <img src="../applicant-portal.assets/175999ab5422e9b434186d6bb9e880e9.png" />  
 
   
 ## Configure Applicant Portal  

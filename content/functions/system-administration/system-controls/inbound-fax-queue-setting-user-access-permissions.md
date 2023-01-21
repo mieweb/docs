@@ -7,7 +7,7 @@ lastAuthor: 'Spenser Smith'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Inbound Fax Queue - Setting User Access Permissions'
@@ -25,12 +25,12 @@ This is done in *Access Control* then *Customize User Security.*
 In Access Control, search and find the user you wish to set security privileges for Incoming Fax Queue.  
 When you find the user, click edit so you can get into the edit user ( ) screen. Once there, click *Customize User Security* link to set security for this specific user only.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/1000000000000482000000C35045C8E88D8EFBEB.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/69694e4c420117bf433d9322ecdefd34.png)  
 
 Next, you need to customize user security by setting the security permission for the user to have access to the **Incoming File Queue**. The security settings to change for a user are *Incoming File Queue and Permission Editor.*  
 Set these 2 security permissions for that user:
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/10000000000002570000003A2960AD5C128758EF.jpg)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/9a833ed1f4a2ad411adf69b9ad342811.jpg)  
 
 * <strong>Incoming File Queue:</strong>
    * <strong>No Access:</strong> Users cannot access the side-menu tab named Fax Q (cannot access Inbound Fax Queue)
@@ -44,16 +44,16 @@ The super-user must now give permission to that user to access each fax number w
 From the Fax/file Q side-menu tab (or whatever your practice has this tab named as), you will need to setup *Phone Number Permissions* for the user.  
 Once in the Fax Q side-menu tab, click the Recipient Permissions button.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/1000020100000401000000B0335A929B4E6E3265.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/a1af3687034a259b300d3bd565eaf12f.png)  
 
 This displays all the users with phone number permissions.  
 To add a user to an incoming fax#, click Add link at the top right corner.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/10000201000004D80000006A5D197F5B63E663CB.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/0c02525bfd3013354ebebe0649ae2f8a.png)  
 
 The IFQ (Incoming File Queue) Permission screen will display. The super-user will fill out this section to allow a user to a practice's fax number so they can process faxes coming into that specific fax # for their practice. Users need to be set there to even be able to see the file if they are emailed or tasked.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/10000201000001A70000007A78702AEED43D0B35.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/45b13b245241f5ae5c73ed70188cc20f.png)  
 
 * <strong>Recipient:</strong> Select the fax number for your practice that you want this new user to have access to. It should display in the drop-down. If the fax number does not show in the drop-down, then you need to manually type the entire 10-digit fax number in the field to the right of the drop-down.
 * <strong>User:</strong> Begin to type in the user's <strong>last name</strong> and it will auto-complete to give you choices. You must select the user from the auto-complete.
@@ -75,17 +75,17 @@ If a user terminates from the practice, you must delete that user from this Inco
 From the Fax Q side-menu tab (or whatever your practice has this tab named as), you will need to delete *Phone Number Permissions* for the user you want to delete/restrict now.
 Once in the Fax/file Q side-menu tab, click the Recipient Permissions button.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/1000020100000401000000B0335A929B4E6E3265.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/a1af3687034a259b300d3bd565eaf12f.png)  
 
 This displays all the users with phone number permissions.
 To find out which fax numbers the user you need to delete has access to, click on the **Last Name** column title. This will sort the list alphabetically by last name. Find your user in that list and see which fax numbers they are tied to.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/1000000000000484000000F01E0BAE24D7DB06FA.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/b4203570072c17a7f533551df19401ab.png)  
 
 Click the Delete link in the options column to delete that user from that recipient fax number. You must delete each one at a time if the user is tied to multiple fax recipient numbers.
 Once you click delete, it will ask you if you are sure you want to delete that user from the recipient fax number.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/100000000000017D000000AAD6686FAE7EF40609.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/a4cfebec1d9e111c9eea2aa322cbefd9.png)  
 
 Click the SAVE button to delete that user from that fax recipient number you selected. It will delete the user from being permitted to that incoming fax number. If the user is permitted on another fax number you have at your practice, you must delete each one at a time. Search again by last name and delete that user when found on the next one.
   
@@ -97,14 +97,14 @@ If you need to see which users have access to a specific incoming fax number for
 From the Fax Q side-menu tab (or whatever your practice has this tab named as), you will need to delete *Phone Number Permissions* for the user you want to delete/restrict now.
 Once in the Fax/file Q side-menu tab, click the Recipient Permissions button.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/1000020100000401000000B0335A929B4E6E3265.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/a1af3687034a259b300d3bd565eaf12f.png)  
 
 This displays all the users with phone number permissions to all recipient fax numbers.
 To search by user and see which fax numbers the user has access to, click on the **Last Name** column title. This will sort the list alphabetically by last name. Find your user in that list and see which fax numbers they are tied to.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/1000000000000484000000F01E0BAE24D7DB06FA.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/b4203570072c17a7f533551df19401ab.png)  
 
 To search by specific fax number and see all users that have access to that specific fax number, use the drop-down at the top left. Select the specific fax number from the drop-down. This will sort the list of users tied to that specific recipient fax number only. See how many and which users are permitted to that fax number.
   
-![](../inbound-fax-queue-setting-user-access-permissions.assets/100000000000048D000000AF6E6A0E7EE38DD6FA.png)  
+![](../inbound-fax-queue-setting-user-access-permissions.assets/74a705db74c814c4e47448bef1ee876d.png)  
 

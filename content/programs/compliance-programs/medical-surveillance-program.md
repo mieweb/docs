@@ -7,7 +7,7 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=161HYbm5aR9SRHIzLUExrLxy-5oT0_OEABIdSSsRPVLg'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Medical Surveillance'
@@ -22,7 +22,7 @@ menu:
 To assist in the recordkeeping requirements for occupational health surveillance, the  {{% system-name %}}  system provides many time-saving features and functionalities. With regular medical surveillance, the necessary documentation and compliance reporting can easily be generated and automated through data overlay technology on necessary forms, as well as through encounter protocols and configured print definitions.
 
   
-![](../medical-surveillance-program.assets/1000020100000467000002350B8304D5A6748E44.png)  
+![](../medical-surveillance-program.assets/375044a308922ef05cd46ed79e6166d5.png)  
 
 
 

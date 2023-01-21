@@ -8,7 +8,7 @@ links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html'
   - 'https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7'
 source: 'https://drive.google.com/open?id=1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Application Managed Service Summary'
@@ -110,5 +110,5 @@ For {{% system-name %}} to provide the managed service levels described, the fol
 ### **Access to Network**  
 
   
-![](../application-managed-service-summary.assets/10000201000002650000016A50AE4C582C36A23C.png)  
+![](../application-managed-service-summary.assets/5435dad1898d9a7c925ab725e2970f57.png)  
 

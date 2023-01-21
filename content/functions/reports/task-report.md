@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uViuWqtilTHglw0nchgu3VvxMT0Ne6OpoiyUZNe_Px4'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Task Report'
@@ -19,16 +19,16 @@ Click *Reports* tab on the left side-bar menu.
 Click *Utilizations* tab from the top tab menu to find tasking reports.  
 The Task Summary report automatically pops up at All Departments and lists all tasks for All Departments. There are also date filters one could use.
   
-![](../task-report.assets/100002010000036E000001E6DAFA422600C08EA5.png)  
+![](../task-report.assets/4ff1303c8a925d315849a619e1b56dbe.png)  
 
 By default, the report opens (defaults) to show all department task stats for the lifetime of the database. More filters are available such as date specific fields and by selecting a specific department to run task statistics on.
   
-![](../task-report.assets/1000020100000422000001862B6D9A915D0EC861.png)  
+![](../task-report.assets/003c63e01ed0e3b82ce55c4685aa8444.png)  
 
 Results (based on filter criteria entered) will result below the filter search fields on the screen.  
 Depending on filter criteria entered, it may also result to show as many as 3 categories of results: Department Stats, User Stats, and/or Patient Stats. Use the show/hide hyperlink to expand that detail on the statistics.
   
-![](../task-report.assets/10000201000004220000018643574E62957B2996.png)  
+![](../task-report.assets/fa665ed8bc0f68e24a1e7b607aa2be5f.png)  
 
   
 ## Categories within the Task Report  

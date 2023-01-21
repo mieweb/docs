@@ -30,7 +30,7 @@ links:
   - '../../functions/scheduling/schedule-management.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447'
 source: 'https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Review Session - Scheduler'
@@ -170,14 +170,14 @@ There are a large number of system settings available for the Scheduler module. 
   
 In additional to system settings, it is important to review the security settings for each user or security role needing access to the scheduler functions. There is additional information available within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help documentation, if needed.
   
-![](../review-session-scheduler.assets/10000201000004210000009C369FC564E29995AA.png)  
+![](../review-session-scheduler.assets/0e7eacfbd58ff2bcae82ca091bd69fd0.png)  
 
   
 ### My Settings Preferences  
   
 Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../functions/system-administration/security/my-settings.md) online help documentation.
   
-![](../review-session-scheduler.assets/10000201000004960000022C7562ED81FE4D373A.png)  
+![](../review-session-scheduler.assets/3440485d36fc57f2dfe8f3cb658cb024.png)  
 
   
 ## Resources  

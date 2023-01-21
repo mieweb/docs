@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1WXvPYGq4hqG02LDQYHH7epqUgWwPDfB_1BVYf3121SU'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'CCR Document Import'
@@ -21,11 +21,11 @@ Click the left sidebar tab called *E-Chart.* Find and open a specific patient's 
 Click Add Document near the top right corner in any tab for the patient (or from scheduler).  
 Click the filter of File. This will open a document properties screen where you can browse for a generic file & upload into the patient's chart.
   
-![](../ccr-document-import.assets/1000000000000389000000B64916D592AE4A7E76.png)  
+![](../ccr-document-import.assets/6af28bea31bbe8e9f86e06ceef81a085.png)  
 
 Once you click the File filter from the Add Document link, the Add Document Properties screen opens.
   
-![](../ccr-document-import.assets/10000000000001F2000001168B6A9357D2173624.png)  
+![](../ccr-document-import.assets/a4c27f9e4deed3e583d0a767d3346513.png)  
 
 * <strong>Authored By:</strong> Authored By: (You must have security access to this. The security permission is called ‘Transcribe for Others'.) Select who is uploading this generic file document. If you are uploading this file for a physician or someone else, choose their name. You can start typing the last name or first name in the first blank field and the system will auto-complete your typing and display a list of users that match and you can select from there. If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search). If you are uploading the file/document yourself (not for anyone else) then choose ME box here. The document will reflect your name as created by. The name you choose/select, will then appear at the top of these fields. Confirm and make a change if need to. If you do not have security permission to create documents for other users, this field will not be an option. It will automatically put your name on the document you are about to create.
 * <strong>Document Type:</strong> Use the drop down arrow here to choose the name of the document you are uploading & storing into the patient's chart. Choose <em>Continuity of Care Record</em> or <em>CCR Document</em>, however it is named in your system.
@@ -34,13 +34,13 @@ Once you click the File filter from the Add Document link, the Add Document Prop
 * <strong>Service Location:</strong> Choose the location.
 * <strong>Encounter:</strong> You can choose to link this new document to an encounter for the patient. This will auto-fill with the current encounter number by default, but you can also click the search button and it will pop a select & search patient encounter window to show you all encounters for this patient.  If you click the <em>Search within xx days</em> it will search for encounters out in 3 day increments. Once you've found the encounter you wish to attach this new document to, click the Select Encounter link & it will place the encounter data information in the encounter field. If you do not want to link this to an encounter, simply delete any encounter number in the encounter field.
   
-![](../ccr-document-import.assets/100000000000012200000076C3988A84DF7F0A03.png)  
+![](../ccr-document-import.assets/675815048f57b124573cc07ab418b4fb.png)  
 
 * <strong>CC Physicians</strong> Please ignore this field for CCR Documents.
 * <strong>File:</strong> Click the <em>Browse</em> button to browse out to your hard-drive & find the CCR document file to upload for the patient. Double click on the file you're searching for. It will then place that file into the File field.
 Once you have selected the file that you wish to upload, click the ADD DOCUMENT button.
   
-![](../ccr-document-import.assets/10000000000001BE00000119A7E3F18D11BC391B.png)  
+![](../ccr-document-import.assets/7ff87ca9baaf9f62c9e8b2b3a8dbf28a.png)  
 
 It will upload the document into the patient's chart. It will state a *Successfully Uploaded* message and should display the document on the screen with the document identification.  
 *You can then upload & store any type of file into a patient's chart. However, |system| does not support or have the ability to print/fax or even view certain stored file types.*
@@ -52,11 +52,11 @@ Find the document in the patient's chart you just uploaded (usually found in Doc
 Click the Doc.ID to get into the CCR Document.  
 The CCR document will open on your screen as such:
   
-![](../ccr-document-import.assets/10000000000003750000013A706B4C0EA07937EF.png)  
+![](../ccr-document-import.assets/13fdf188d689b1d97828e0f99205bbac.png)  
 
 Click on the **Reconcile** link to get into the FroozHIE method to reconcile this data into {{% system-name %}} . (System setting to *reconcile* must be turned on for this link to show).
   
-![](../ccr-document-import.assets/10000000000003750000013A706B4C0EA07937EF.png)  
+![](../ccr-document-import.assets/13fdf188d689b1d97828e0f99205bbac.png)  
 
 Once you've clicked *reconcile*, a separate window on your screen which is the FroozHIE module. There are instructions at the top to explain the FroozHIE tool and how to bring data over into {{% system-name %}} .  
 Whatever you want brought over, click the >> button next to it. The LEFT side is the patient's CCR record you imported. The RIGHT side is what you have in {{% system-name %}} for that patient currently.  
@@ -65,12 +65,12 @@ Whatever you want brought over, click the >> button next to it. The LEFT side is
 The CCR shows all the section like Family History, Procedures, Injections, Social History, Illnesses, etc. However, the FroozHIE tool only shows certain sections like Demographics, Meds, Allergies, etc. Even though you do not see the injections, family history, procedures and observation sections in the FroozHIE, they will come over automatically into the patient's {{% system-name %}} as soon as you click the SEND CHANGES button. They are automatic in the background at this point in time. Therefore, it's important to click the SEND CHANGES button even though the left side and right side of the FroozHIE tool may already match from what you've brought in before. The update/change from the patient may be in the other ‘automatic' sections that you don't see on the FroozHIE tool.
 {{% /note %}}
   
-![](../ccr-document-import.assets/10000000000002DC00000163AB06B40ACF594A68.png)  
+![](../ccr-document-import.assets/ede70f5e586b501f27519df04a68b4bd.png)  
 
 If you want to bring over individual line items from the left side to the right side, use the >> button on each line item. If you want to bring over the entire section/category, click the >> button between *incoming* and *destination* towards the top title of each category. This will bring over all items from the left to the right side in mass (instead of clicking individual line items).
 When done selecting which items or sections to bring over, click the SEND CHANGES button at the very bottom of the FroozHIE screen.
   
-![](../ccr-document-import.assets/10000000000002AD000001E8493061F01AC964EC.png)  
+![](../ccr-document-import.assets/fd5c7827fd69a49b64b868eb7e9bde27.png)  
 
 Once done bringing over the items in the FroozHIE tool, it will refresh that separate screen back to the patient's chart. Simply click the X at the top right to close out that screen.
 {{% note %}}
@@ -83,13 +83,13 @@ The other sections that are ‘automatic' to come into {{% system-name %}} from 
 In the above steps/pages of this document, it describes the manual method of using reconcile and the Froozhie tool.
 The system setting *Reconcile Link* can be set with a value of 2 which means {{% system-name %}} will show an "Auto" option in the Reconcile method of the document you are wanting to reconcile into {{% system-name %}} .
   
-![](../ccr-document-import.assets/100002010000015F0000003C103547793535B231.png)  
+![](../ccr-document-import.assets/6aad113474d4daddbe03659d2e8dd95f.png)  
 
 If this system setting is set to "2" as the value, you are turning on the option for Auto-Reconciling. In the document you will see reconcile options for manual or auto and you can select which you want to do. Manual will continue through the same steps as the above pages.
   
-![](../ccr-document-import.assets/10000201000004E2000001037CE91CF38C0AAABB.png)  
+![](../ccr-document-import.assets/cb5d8815fb4e9a12d7651c22f5257037.png)  
 
 Selecting auto will bypass the froozhie and automatically import/reconcile everything from the document into this patient's electronic chart. You will get a confirmation screen if you are sure you want to auto-reconcile and the message that it will *delete* all existing medications, allergies, conditions & procedures you have currently for the patient and will import this document's information. Once you click OK, the reconciling is automatically done and the page refreshes. All of the information is reconciled into the patient's electronic chart.
   
-![](../ccr-document-import.assets/1000020100000297000000BDCDDC12E4944B7716.png)  
+![](../ccr-document-import.assets/b725672442304145c8a86ba0ae248e1d.png)  
 

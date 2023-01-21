@@ -19,7 +19,7 @@ links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://system/'
 source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Super User Quick View Portlet'
@@ -39,7 +39,7 @@ If you are a superuser and need access to view or edit the following areas of th
 When trying to access any of the areas listed above and you do not have additional SuperUser access, an error message will display.
 
   
-![](../super-user-quick-view-portlet.assets/100002010000020500000088ABE29E37A7719BFA.png)  
+![](../super-user-quick-view-portlet.assets/a4fba68e4425b66809e3f3e6a6e419b5.png)  
 
 
 {{% note %}}
@@ -50,20 +50,20 @@ Any SuperUser that requires a password to access those areas above should consul
 To access and activate the SuperUser access required, the user must:
 1. Add the<strong> SuperUser portlet</strong> to the [Quick View](https://system/) sidemenu.
   
-![](../super-user-quick-view-portlet.assets/10000201000001E400000208A11E02B46876EF30.png)  
+![](../super-user-quick-view-portlet.assets/c5610c005797da5a621b3bcdb2fd56a7.png)  
 
 2. Next, locate the Super User portlet and click the <strong>Unlock for this Session</strong> button.
   
-![](../super-user-quick-view-portlet.assets/100002010000024A0000005A36B8B5FC8CE891BA.png)  
+![](../super-user-quick-view-portlet.assets/61ad5e0ce1996c4bf2e93b729b75b55e.png)  
 
 3. Enter the password provided by your MIE Implementer.
   
-![](../super-user-quick-view-portlet.assets/10000201000001DB00000091851FE5B9516687B3.png)  
+![](../super-user-quick-view-portlet.assets/347c43109f714392da859fdfb80fab96.png)  
 
 4. Click the <strong>Enable</strong> button after keying in the password.
 5. If successful, the button in the Super User portlet will display <strong>Super user access enabled</strong>. The super user can now go to those areas above, that were previously restricted.  
   
-![](../super-user-quick-view-portlet.assets/100002010000024A000000592B5722B0C383B388.png)  
+![](../super-user-quick-view-portlet.assets/9e8dd2e78e50370e817a18587c444429.png)  
 
 6. If the system did not recognize the correct password, it will alert you to try again.
 

@@ -15,7 +15,7 @@ links:
   - '../../functions/injection-immunization-management/injection-tab-with-chirp-interface.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45'
 source: 'https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Review Session - Injection/Immunization Management'
@@ -62,7 +62,7 @@ The **MAR/Injections** chart tab is also known, simply, as the Injection tab. Th
   
 A common feature found throughout the {{% system-name %}} system are the quick links, typically seen at the top of a page. The Injection/Immunization module is no exception. At the top of the module, there are a series of links that offer the ability to add new or historical injections/immunizations, to add vials, from which injections can be administered, or even a means to quickly review the recorded injection/immunization information.
   
-![](../review-session-injection-immunization-management.assets/10000201000004BE000000C2D355B666950CD3D3.png)  
+![](../review-session-injection-immunization-management.assets/057a3dbcc03fb03399eb6dfbf9e66e80.png)  
 
   
 #### Add Inj/Imm  
@@ -127,7 +127,7 @@ Some practices are concerned with specific injections, so they may utilize the e
 
 There are several system settings that drive the fields and available choices found in the Injection/Immunization module. With the appropriate security permissions, users can navigate to the System Settings tab, found in the Control Panel, and edit/update with the appropriate information or values. The available system settings are multitudinous, but they are intended to control functions ranging from autocompletes and dropdowns to defaults and alerts. Be sure to use caution whenever editing system settings.
   
-![](../review-session-injection-immunization-management.assets/10000201000001B9000002A6D3B9BC84BBF62AF8.png)  
+![](../review-session-injection-immunization-management.assets/8275b7d80a791b1fe2a10e35e7f274bc.png)  
 
   
 #### &implement  

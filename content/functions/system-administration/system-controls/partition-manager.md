@@ -7,7 +7,7 @@ lastAuthor: 'jvaldez'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Partition Manager'
@@ -22,11 +22,11 @@ Usually the billing TIN drives how the chart is sectioned off.  Whoever is bill
 In the Control sidemenu tab is a tab called Partition Manager.  
 You can add a partition by selecting *Add Partition* link from the top right corner.
   
-![](../partition-manager.assets/10000201000004F1000001D02CD87C31F43E3FE4.png)  
+![](../partition-manager.assets/bb6b73813f87d3cc1b9dfbfa4780fe3a.png)  
 
 It will open to the Partition Add screen:
   
-![](../partition-manager.assets/100002010000026A00000167BBCB6FD9763601C8.png)  
+![](../partition-manager.assets/221bdd23d0cadd0b6c2a39b3562eb88e.png)  
 
 * <strong>Partition:</strong> Enter the abbreviation for the partition. <strong>Must</strong> be in uppercase letters. This is a coded name for the partition. This is what will be stored in the DB. Preferred format is no spaces and in all CAPS. Maximum 15 characters.
 * <strong>WC GUID:</strong> This is a Globally Unique IDentifier. This is only needed if patients in this partition will be sent out of the system via Data Send Interface. Data send interface requires a unique identifier for each partition so that it's easy to understand which system it comes from. Technically, this field just has to be unique; but for sending data between {{% system-name %}} or NMC systems, this field needs to be the system OID (Object Identifier) followed by the next numeric value. For example: System OID = 1.2.840.114398.1.710; WC GUID (partition 1) = 1.2.840.114398.1.710.1; WC GUID (partition 2) = 1.2.840.114398.1.710.2
@@ -35,7 +35,7 @@ It will open to the Partition Add screen:
 * <strong>MR Sequence:</strong> This is used for Auto Assigned MR Numbers to set where the numbers will begin numerically. See View Type below on how to make a partition Auto Assigned. You can edit within the particular partition, but if the client has a PM system we are interfacing w/ than they would want to make the edit in that system so the edit will come across the feed and update {{% system-name %}} .  For example: MR Sequence = 10000 - Next patient registered into that partition will have the MRN=10001 The next patient after that registered into that partition will have the MRN=10002, the next 10003, etc…
 * <strong>Partition View:</strong> This determines how the MRNs in this partition will be assigned. There are several options in an attempt to meet all client needs. How a user will be able to see, view or search for a partition. View Types:
   
-![](../partition-manager.assets/1000000000000148000000719A73F0E1A8E80E5D.png)  
+![](../partition-manager.assets/f28fa8400b4c5121b99d3481cf3fc00a.png)  
 
 * <strong>View Only</strong>: This partition has no way of assignment inside of the system. The partition is likely populated by an interface and the value of the MRN should not be editable or removed.
 * <strong>Auto Increment</strong>: All MRNs in this partition are sequential starting at the value in MR Sequence. The assignment of a MRN in this partition is optional via checkbox inside of the system's patient registration and edit demographic screens by default.
@@ -55,7 +55,7 @@ It will open to the Partition Add screen:
    * <strong>Active:</strong> This is an active partition. The partition can be assigned new MRNs. It is viewable and searchable. Active partitions also show up in E-orders to select from.
    * <strong>Active with Doc Queue</strong>: This allows this partition to show up in the dropdown in the Document Queue for Merging. This is important to select if this partition will be sending in documents into the {{% system-name %}} system via an interface (ex: NoMoreClipboard or lab partitions or hospital document partitions). This partition type doesn't show up in E-Orders to select from. This option is the same as ‘Active', but also includes the ability to place temporary charts into the Document Queue. This is needed for any inbound interface that does not maintain patient demographics inside {{% system-name %}} . Common: Lab results, Encounter orders, Reports. If you select <em>Active with Doc Queue Merging</em>, then another field named <em>Auto Merge Type</em> will open up. This is to set the merge chart options.
   
-![](../partition-manager.assets/10000201000002CB000001A1828DDEBF1DDD7067.png)  
+![](../partition-manager.assets/62efabc5606e4d9bfaaf0479079b80c4.png)  
 
 * <strong>Auto Merge Type:</strong> This option is only available when the ‘Active Type' is ‘Active with Doc Queue'. It sets what type of merge to perform when ‘Auto Merging' charts in this partition in the Document Queue. Allows selection for what type of "merging" option will be automatically done if you are mass merging documents in the queue from this partition at a 9 rating. When you do a mass merge based on ratings from the document queue tab/module, that mass merge automation will default to the option you choose on the partition here for Auto Merge Type. Merge Type options:
    * <strong>Merge Chart only and ignore this partition's demographics</strong>: This option will merge and only keep the MR number of the chart the documents & chart are being merged to (regardless of partitions being merged).

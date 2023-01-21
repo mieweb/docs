@@ -11,7 +11,7 @@ links:
   - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Panel Membership Import Tool'
@@ -27,7 +27,7 @@ The Panel Membership Import Tool uses partitions and medical record numbers (MRN
 
 Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.md); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
   
-![](../panel-membership-import-tool.assets/10000201000004CE000000EC29DF5F2EE52CA60C.png)  
+![](../panel-membership-import-tool.assets/5cab3522106766df005f29e69b6fc35d.png)  
 
 {{% /warning %}}
 
@@ -108,7 +108,7 @@ The following page defines data and fields that may be imported using the panel 
 1. Using the table, above, determine the data to be imported. Starting with the PARTITION field, enter all required and desired data, verifying required data is present. Note that each row represents a panel membership record. Below is a screenshot of the Panel Membership Data File Example for guidance.
 
   
-![](../panel-membership-import-tool.assets/100002010000038B0000008FCB58924ACD751B4F.png)  
+![](../panel-membership-import-tool.assets/3fd82738893d6be993e61af6beb2add7.png)  
 
 
 2. Save the file as CSV format.
@@ -119,34 +119,34 @@ The following page defines data and fields that may be imported using the panel 
 2. Navigate to the [Control Panel](https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
   
-![](../panel-membership-import-tool.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)  
+![](../panel-membership-import-tool.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)  
 
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
   
-![](../panel-membership-import-tool.assets/10000201000001100000006549C20A8099BBAE2C.png)  
+![](../panel-membership-import-tool.assets/197af282190b350e97494ffba0636d29.png)  
 
 
 4. Select <strong>Panel Membership CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
   
-![](../panel-membership-import-tool.assets/100002010000039F000000A1A6BEAF718C1A925F.png)  
+![](../panel-membership-import-tool.assets/54682425d132f1d1efa93de9f3f35eee.png)  
 
 
 5. Using the provided link, download the template and fill in the spreadsheet data. Save the file as CSV format.
 
   
-![](../panel-membership-import-tool.assets/10000201000004B1000001A03110997105B0FC60.png)  
+![](../panel-membership-import-tool.assets/7cd2d5ac9362a60912c63a7f6154c069.png)  
 
 {{% tip %}}  
 Use the help bubble to see what panel IDs your {{% system-name %}} system has to populate into the spreadsheet template for import. *This screenshot is an example. Do not use this Panel ID ordering for your system.*  
-![](../panel-membership-import-tool.assets/10000201000004BF000002714A2D003ABA46731A.png)  
+![](../panel-membership-import-tool.assets/4abf1c02d7137491533e63bef4127265.png)  
 {{% /tip %}}
 
 6. Click the <strong>Choose File</strong> button, and select the panel membership data CSV file (from Step 5) and click <strong>Upload</strong>.
 
-   <img src="../panel-membership-import-tool.assets/1000020100000152000000AD1E1A99801FD9437A.png" />  
+   <img src="../panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png" />  
 
 
 {{% tip %}}

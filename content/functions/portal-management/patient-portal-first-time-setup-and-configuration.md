@@ -9,7 +9,7 @@ links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist'
   - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Patient Portal Setup'
@@ -34,11 +34,11 @@ Many WebChart databases, especially legacy systems, may lack the necessary compo
 
 Configuration of a patient portal is done within a provider organization (PO) chart. To add or modify provider organization charts, click the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} sidemenu option. In order to configure the portal from the PO, the **Portal** chart type must be associated with the chart. The chart type(s) can be viewed and edited from the **Overview (PO)** chart tab within the respective chart.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000004AE00000270C35911F7530F13D7.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/888c4f9cdaecc3be851eb0d1580a522f.png)  
 
 In order to begin configuring the Patient Portal, it first must be enabled from the **General Configuration** section of the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}} tab.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000004AF0000025A8E0EFF923F0AE48F.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/a10c2129b98c04b32bac7c8890433637.png)  
 
 Utilize the Provider Management menu search to locate the Provider Organization (PO) *chart* that will house the portal configurations. By default, a {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} provider organization will exist in the {{% system-name %}} system. This default provider organization can be used to setup/configure the patient portal; otherwise, a new provider organization can be created. 
 {{% tip %}}
@@ -51,17 +51,17 @@ Complete the following steps to setup the patient portal within the provider org
 3. Locate the PO Name, and click the hyperlink.
 4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}}  tab.
 5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information.
-   <img src="../patient-portal-first-time-setup-and-configuration.assets/10000201000004AF000002039E919C4F4FF3F0C0.png" />  
+   <img src="../patient-portal-first-time-setup-and-configuration.assets/11edec3c3df31e71caad76ea63099aa8.png" />  
 
 6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.  
-   <img src="../patient-portal-first-time-setup-and-configuration.assets/10000201000001B70000008437681923821E3F2D.png" />
+   <img src="../patient-portal-first-time-setup-and-configuration.assets/14dd3f1dada326d854043c703f29294a.png" />
    {{% only sys="wc" %}}
 
 {{% info %}}
   
    WebChart portals should use a **Patients** role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.  
   
-   ![](../patient-portal-first-time-setup-and-configuration.assets/10000201000004AD0000026429179400D2BA0E58.png)  
+   ![](../patient-portal-first-time-setup-and-configuration.assets/203499a3587105c8140b61a5129e6057.png)  
 
    The security role(s) that are chosen must have the following security settings set in place:
    1. <strong>Limited Access</strong> = Yes
@@ -88,7 +88,7 @@ Complete the following steps to setup the patient portal within the provider org
 
 After running the portal setup, click the **General Configuration/Portal** header to expand and begin customizing and updating the portal information, accordingly.  
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000004AD0000026ED327337CDE243520.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/e6339712b2619726d634ab29b8b4a7e3.png)  
 
 
 **Branding**  
@@ -137,10 +137,10 @@ There is also a system setting that needs added and reviewed when utilizing the 
 **User Link Warning**
 
 **View Sample**  
- (![](../patient-portal-first-time-setup-and-configuration.assets/10000201000000130000000F79AC258067C48B47.png)  
+ (![](../patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)  
 ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000002B8000002123C81657313425D9E.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/67b5ef8147665c28980e597991cfdc80.png)  
 
 **Custom Heading**: Use this field to customize the warning heading displayed to those users without a default portal or lacking the appropriate setup.
 **Custom Message**: Use this field to customize the warning message displayed to those users without a default portal or lacking the appropriate setup.
@@ -148,7 +148,7 @@ There is also a system setting that needs added and reviewed when utilizing the 
 **Permission Check Warning**  
 
 **View Sample**  
- (![](../patient-portal-first-time-setup-and-configuration.assets/10000201000000130000000F79AC258067C48B47.png)  
+ (![](../patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)  
 ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
 **Custom Heading**: Use this field to customize the warning heading displayed to those lacking access to the portal environment.
 **Custom Message**: Use this field to customize the warning message displayed to those lacking access to the portal environment.
@@ -200,7 +200,7 @@ With the initial setup complete, navigate to the {{% syslink "Patient Portal" "f
 While on the *Patient Portal* tab, click the **Configuration** header to expand and review the available options. Fill out the appropriate fields, as needed.  
   
   
-![](../patient-portal-first-time-setup-and-configuration.assets/1000020100000541000002663CCFDF2568F002BA.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/a19dc361ee8afd28dc01c3a7c1c61210.png)  
 
 
 **Features**
@@ -217,10 +217,10 @@ While on the *Patient Portal* tab, click the **Configuration** header to expa
 **Home Page**
 
 **View Sample**  
- (![](../patient-portal-first-time-setup-and-configuration.assets/10000201000000130000000F79AC258067C48B47.png)  
+ (![](../patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)  
 ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.  
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000002B8000002123C81657313425D9E.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/67b5ef8147665c28980e597991cfdc80.png)  
 
 **Brand for Welcome Message**: The name or brand to be used in the Welcome Message. By default, the word NoMoreClipboard will be populated, but this field can be updated with up to 25 characters. Click Show Sample to see where this occurs.
 **Description for Welcome Message**: The description provided for the Portal Welcome Message. Click Show Sample to see where this occurs.
@@ -390,14 +390,14 @@ Any layouts that list the MIE helpdesk number for portal assistance must be chan
 
 When an activation code is generated from the Portal portlet from the patient summary screen, a layout is triggered with an available link designed to create a Portal Activation Code Instructions document. Once the Portal Activation Code Instruction document is generated from the patient summary screen, it will store in the Document Summary chart tab by default. The document can also be mapped to additional chart tabs if desired.  A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000002D30000021A8F90749B53949FB2.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/4bc8ea2d5ba0d0bddfa5df790c7bb660.png)  
 
   
 #### Welcome to the Portal Email Layout  
 
 When a patient/employee signs up for the portal successfully, the following layout will be triggered, sending out the email below. A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000003E70000025A312A62FBCCC5D55A.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/fb2e8e453d660f5226053c6d78dc29b7.png)  
 
   
 #### Password Reset Email Notification Layout  
@@ -405,21 +405,21 @@ When a patient/employee signs up for the portal successfully, the following layo
 To enable automation of resetting portal passwords, the system setting of ‘Reset PinCode Call URL' should be set as follows: [https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true](https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true) 
 Whenever a portal user attempts to reset their portal password, an email notification will be sent to the portal user. This email is sent as soon as the portal user clicks the Forget Password link and enters their username and security question.  The verbiage in this screen is C code and the phone number listed pulls from the value in the system setting of System>Tech Support>Phone Number
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000003EC000000D4C4842B58F67C8E4A.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/6ca78e460bbc731d865ebbff0a965848.png)  
 
   
 #### Resetting Portal Password via Email Layout  
 
 When portal users want to reset their password using the email option, versus other options, such as cell or home phone, this is the email users will receive. This screen is layout driven and may need to be added if it doesn't exist in the database.  The layout name is ‘Password Reset PinCode Email'. A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000002DC000001F3A2BA54EC8CCDF21E.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/0821f4b1b4b1e42345f9f2035ef58da6.png)  
 
   
 #### Identity Verification Layout  
 
 When users click the Forget Password link and provide their username and security question answer, the following dialogue box displays. Users will be asked how they wish to reset their password (i.e., email, cell phone, home phone, work phone). The MIE technical support number should be replaced with the client's phone number and that is controlled from the value entered in the System>Tech Support>Phone Number system setting.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000003020000012629187DB63C270D90.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/7173443336ac2697d6e40a6533f6a42b.png)  
 
   
 ### **Help Bubble Icons**  
@@ -433,7 +433,7 @@ Every page or screen of a portal can have a help bubble available in the top bar
 
 All of the portal help bubbles and help documentation and verbiage is managed from the {{% syslink "Layout Manager" "f=admin&subfunc=layout_manager&t=Layout+Manager" %}} of the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}} . To see a list of existing help bubble layouts, simply search for MIEHELP.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/1000020100000556000001990297A2C2F9F64246.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/239857ccbce689cf1d890668f9e36350.png)  
 
 To make edits to any of the existing layouts:
 1. Click the <strong>Edit</strong> link next to the respective module, and modify the verbiage, where needed.
@@ -449,21 +449,21 @@ To add a new layout for the Message Center/My Medical Information screen:
 4. Enter <strong>==Message Center/My Medical Information==</strong> in line 1, and hit Enter to add the new help documentation verbiage.
 
   
-![](../patient-portal-first-time-setup-and-configuration.assets/1000020100000771000001AB0BF552B8A69E5007.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/fca0151db137919dc87535fb98c09d9d.png)  
 
   
 ### **Toggle Between Multiple Portals**  
 
 In some cases, portal users may have access to more than one portal that has been setup/configured in the same WebChart database. In such cases, users who have access to more than one portal will see **Portal Selection** from the menu options. Once the user has established their username and password for one portal, that same username and password can be used to gain access to any of the additional portals that are set up in the database. There is no need to generate a new activation code for each additional portal a portal user accesses.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000001A0000003367342099268498075.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/8d168f72cd3be66d15d81af9b1463d9e.png)  
 
   
 ### **Portal Activation Code Report**  
 
 The Portal Activation Code report will display the date an activation code was generated for a patient chart along with the date (if applicable) that the activation code was used to create a portal account. The users listed on this report are only those users who have actually created their portal account. The report columns include MRN, patient name, DOB, Sex, Code Creation Date, Activation Date, Portal Name (i.e., the name of the provider organization). This report can be found by going to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} side menu tab and then selecting the {{% syslink "Utilization" "f=layout&module=reports&name=Utilization&tabmodule=reports&tabmodule=reports&t=Utilization&tabselect=Utilization" %}} chart tab. This report can be filtered by a date range, partition, and provider organization (portal). 
   
-![](../patient-portal-first-time-setup-and-configuration.assets/100002010000076700000176D66EED9A7913DB6C.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/0f5aef5dcb513d20cb907a240bff2129.png)  
 
 {{% only sys="wc" %}}
 
@@ -479,7 +479,7 @@ WebChart databases may or may not have all the needed chart types, chart tabs, o
 {{% info %}}
 A provider Organization partition needs added if it does not already exist, using the Partition Manager.
   
-![](../patient-portal-first-time-setup-and-configuration.assets/10000201000003F50000029D68BFFA834EE8A4A3.png)  
+![](../patient-portal-first-time-setup-and-configuration.assets/a5ca45226e1064f1ac5edad2048f3e61.png)  
 
 {{% /info %}}
 3. Ensure that there is a <strong>Portal Setup</strong> and <strong>Patient Portal</strong> chart tab.

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Adding Absence Management Case'
@@ -34,13 +34,13 @@ By default, the Case section of encounters will display the following case types
 * Medical Surveillance
 
   
-![](../adding-absence-management-case.assets/10000201000004A400000102E8549FDCA2FE867C.png)  
+![](../adding-absence-management-case.assets/895ee8d7d82d2149015041165ef84d4f.png)  
 
 
 If you wish to document a new case, click the header or **Edit** (Pencil) icon of the **Case** section in the dynamic encounter.
 
   
-![](../adding-absence-management-case.assets/10000201000004A400000102E5623BD7A1337E27.png)  
+![](../adding-absence-management-case.assets/b634f8f1f09f299c7719210dd5a6b587.png)  
 
 
 Once the **Case** section is expanded, indicate which type of case to create on the chart by selecting the appropriate radio button. The type of case selected will determine other fields or radio button data to complete. Once you open/create a case, any documentation, encounter visit documentations, or the like can be linked to a specific case/incident the chart has had previously documented.
@@ -50,7 +50,7 @@ Once the **Case** section is expanded, indicate which type of case to create on 
 After selecting to create an Absence Management case type, subsequent data fields branch open for documenting.  There are 2 required fields to capture before the system will save an Absence Management case to the chart. These are indicated by red asterisks. The other fields are optional and will most likely be keyed in at a later time, when managing the case throughout its life cycle.
 
   
-![](../adding-absence-management-case.assets/1000020100000435000000F2A2F63798DDC1E820.png)  
+![](../adding-absence-management-case.assets/2f348c078fc457639ae3a74cb2635d11.png)  
 
   
 ### **Work Status (or Lost Time) Section**  

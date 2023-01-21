@@ -9,7 +9,7 @@ links:
   - 'viewing-restrictions-and-accommodations.md'
   - 'editing-restriction-types.md'
 source: 'https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Adding Restrictions and Accommodations'
@@ -24,7 +24,7 @@ The restriction management function provides for the recording and documenting o
 While working in an encounter, the Plan area of the encounter offers a section named Restrictions and Accommodations. This is the section where new restrictions get entered in for visits. If you need to simply view current restrictions a patient has on their chart, please refer to [Viewing Restrictions and Accommodations](viewing-restrictions-and-accommodations.md) detailed document.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004960000017212671D1F2657FA42.png)  
+![](../adding-restrictions-and-accommodations.assets/e486e72b8f2fe3809b0888e0aea7d780.png)  
 
 
 Expand the Restrictions and Accommodations section in the encounter to document new or update/revise current active restrictions. When expanded, all active restrictions will display.    
@@ -34,25 +34,25 @@ Accommodations on a restriction will be indented underneath the restriction.  I
 {{% /info %}}
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004B0000001D4637A37AF38E97B04.png)  
+![](../adding-restrictions-and-accommodations.assets/66059b12389f8960bbb9a1ca40960e1d.png)  
 
 
 If you are in "detailed" view for the Restrictions and Accommodations encounter section, any accommodation related to a restriction is in a separate column on the same restriction line item.  It is possible for accommodations not to be tied to a restriction and for restrictions not to have accommodations and those would be listed separately.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004A3000001132FDCF30284EF90AE.png)  
+![](../adding-restrictions-and-accommodations.assets/3d76b14831e4d9b85a5f9310d73e19ec.png)  
 
 
 To add a new restriction, simply click on the section title bar Restrictions and accommodations to expand and open that encounter section.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004A9000000A41960520252A92EC9.png)  
+![](../adding-restrictions-and-accommodations.assets/f17a99e3d7e976516aa321e1eb65b843.png)  
 
 
 Once you do that, you will see again a list of all current active restrictions and/or accommodations for the chart.  Below that summary, you will see the fields and the ability to add new restrictions and an accommodation (if needed) with that restriction.  For more information on how to show/hide inactive restrictions and accommodations, please refer to [Viewing Restrictions and Accommodations](viewing-restrictions-and-accommodations.md) help guide.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000003410000019304545F9E4C1AF845.png)  
+![](../adding-restrictions-and-accommodations.assets/64d90914f5f89ff7be46467314e99d2a.png)  
 
 
 Complete the Restriction fields to add a new restriction on the chart for this visit. Several fields are auto-completes that offer built in choices. The Restriction fields are described as:
@@ -69,13 +69,13 @@ Complete the Restriction fields to add a new restriction on the chart for this v
 Continue to add an accommodation to this restriction if you have accommodations known for the restriction.  Workflow may be for a case manager to determine accommodation and document the accommodation later. Accommodation fields are described further down in this guide.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000003E7000001C5910782BCD3C55628.png)  
+![](../adding-restrictions-and-accommodations.assets/f1e1baaa4977731a9463b5c76695042b.png)  
 
 
 If you do not have any known accommodations to tie to this restriction yet, simply click the Save button to save and apply this restriction to the chart.  You or a case manager, etc can later add an accommodation to the new restriction when you know what the accommodation will be.  However, if you know (while you are entering in the new restriction) what the accommodation will be for this chart, then you can fill out the accommodation fields on the right side column next to the new restriction.
 
   
-![](../adding-restrictions-and-accommodations.assets/100002010000041F000001304FB5A3C0AF5AF70A.png)  
+![](../adding-restrictions-and-accommodations.assets/ee6b3a6059488af898c3adff22621ada.png)  
 
 
 If you did not / could not enter in accommodations for that restriction yet, the restriction will show in the next encounter section titled Restrictions pending accommodation.  You or other staff, who makes accommodations on restrictions, can at some point enter the accommodations here or via the separate chart tab Restrictions/Lost Time.  You can also access to add accommodations from the encounter section Restrictions and Accommodations and clicking on the edit link on that restriction.
@@ -90,7 +90,7 @@ When the user is done with the entire encounter and other sections, when this en
 While you are entering in a restriction, you can enter in the corresponding accommodation if known.  Otherwise, someone else can enter in an accommodation later within the same encounter via the section Restrictions pending accommodations or via the separate chart tab named Restrictions/Lost Time.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000003BC0000016DB213AB64C0CC2DE8.png)  
+![](../adding-restrictions-and-accommodations.assets/6b576c0fc2c4894a0f1d6ce286c5799d.png)  
 
 
 * Where Accommodated: The drop-down list of selections here are pre-configured.  These choices are not recommended to be changed as they are used in the OSHA log. The Lost Time choices will count on the OSHA Log for lost time days whereas the others count as restricted days.
@@ -104,14 +104,14 @@ Once you have entered in an accommodation, click the Save button or the Next but
 If a provider has entered in a restriction and does not know the accommodation yet, it will place that restriction in the Restriction pending Accommodation section of the encounter.  Here, once an accommodation is known or received, a staff member can add that accommodation to the restriction.  Simply click on the section title bar Restrictions pending accommodation to open and expand that section.
 
   
-![](../adding-restrictions-and-accommodations.assets/100002010000053B000000E34479C2CBDA5AB9D9.png)  
+![](../adding-restrictions-and-accommodations.assets/57d28edd365fae2111bf96aeb5e31a1b.png)  
 
 
 Again, you have checkboxes on the far right to "apply all" a checkmark or pick and choose which listed restrictions need the accommodation details you are about to set.  You can set one accommodation detail to many restrictions using those checkboxes, but if each restriction has a different accommodation, then you will need to do them individually.
 Checkmark which restriction to apply an accommodation to.  Then go down to the Accommodation fields and fill out the detail. Click Save to save your work and continue with to select another restriction to apply an accommodation to. Or click Next button to save your work, collapse the section and continue working in the encounter.
 
   
-![](../adding-restrictions-and-accommodations.assets/1000020100000497000001B4EB41801A3DB24063.png)  
+![](../adding-restrictions-and-accommodations.assets/c24962309e30ac949dd88040a8413f77.png)  
 
 
   
@@ -120,7 +120,7 @@ Checkmark which restriction to apply an accommodation to.  Then go down to the 
 You can also add an accommodation to a restriction via the "edit" icon on the restriction.  The icon looks like a pencil. Clicking edit will open the restriction details and provide the accommodation section to document an accommodation if needed.
 
   
-![](../adding-restrictions-and-accommodations.assets/100002010000047E000000A2DFBF7E91A35F8C16.png)  
+![](../adding-restrictions-and-accommodations.assets/eba3625f7a6e4cbcbfeab00d312a0ee4.png)  
 
 
   
@@ -129,20 +129,20 @@ You can also add an accommodation to a restriction via the "edit" icon on the re
 You have the opportunity to repeat, extend, or end past (active or inactive) restrictions in the chart.  This is to help with efficiency by not having to key in the same restriction the patient has had in the past.  Click the Extend/Repeat/End Past Restrictions hyperlink to see a list of past restrictions (active or inactive) on that patient.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004A5000001B6079246FFF1E4DB17.png)  
+![](../adding-restrictions-and-accommodations.assets/e5f014c3ff24141b1ab3c46a6fc1dfda.png)  
 
 
 You will see the list of past restrictions (active or inactive) on that chart.  It lists them in a line with detail. At the end of each listed restriction & accommodation section, there is a checkbox.  At the very top in the title column, there is a checkbox also. The very top column checkbox is an "apply all", meaning it will apply a check on every listed restriction it displays.  Otherwise you can pick and choose by checking which past restrictions you wish to repeat, extend or end. Do the same for any accommodations you wish to extend, end or repeat.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004A6000001C751DDFF08A2C1B7AB.png)  
+![](../adding-restrictions-and-accommodations.assets/63f88a911f2bd508b54960fdf2b7e4e3.png)  
 
 
 Whatever restrictions and/or accommodations listed here that are checkmarked, can be applied quickly to today's encounter visit on the chart without having to rekey in all those fields.  You would then just set the start & end/permanent dates for that restriction and/or accommodation and apply it to today's visit on the patient. Click the SAVE or NEXT button to save your work.
 There is an END ALL button in the restrictions and also accommodations sub sections.  Performing End All button in the restrictions subsection means it will automatically apply an end date of "today" on all restrictions listed.  If you click End All in the accommodations subsection, it will apply an end date of "today" on all accommodations listed.  It will automatically refresh your screen and show you that in the summary.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004A6000001C71831747EE02C1EE8.png)  
+![](../adding-restrictions-and-accommodations.assets/51c6687ad09031fc6c48fe5a002133b5.png)  
 
   
 ### **Edit Form Quick Link**  
@@ -150,7 +150,7 @@ There is an END ALL button in the restrictions and also accommodations sub secti
 The Edit Form hyperlink is simply a quick way to get to the fields to add a brand new restriction and/or accommodation if you decided not to extend/repeat/end any past ones. This hyperlink gets you back quickly to enter in a new one without having to collapse the section and get back in.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004A6000001C77B9ED1D37780A8DD.png)  
+![](../adding-restrictions-and-accommodations.assets/bb09cf030857ea329ad18ae96bf07faa.png)  
 
 
 {{% note %}}
@@ -164,7 +164,7 @@ If the chart didn't have any past restrictions (active or inactive) then you wou
 If you entered in an incorrect restriction and/or accommodation, you can click the trash can icon next to which item you wish to delete.  Upon clicking the trash can icon, a pop-up will appear to ask you to confirm deletion. Once it's deleted it cannot be un-deleted.
 
   
-![](../adding-restrictions-and-accommodations.assets/100002010000046C000000D15C93BF8465138913.png)  
+![](../adding-restrictions-and-accommodations.assets/979c7b19c9789694f3ad968a30382acc.png)  
 
 
 {{% warning %}}
@@ -185,7 +185,7 @@ When you click the pencil icon (to edit) the restriction and accommodation field
 * Update is used when you are changing information to something new that had been in effect for this restriction.  
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000003EE000001C0CB5CEC259CDD4C15.png)  
+![](../adding-restrictions-and-accommodations.assets/3110af502ffb07a6a0fc90914beafcef.png)  
 
 
   
@@ -198,7 +198,7 @@ Current restrictions, that encompass today's date, are shown in various places w
 Current restrictions, that encompass today's date, are always shown in the dark grey chart demographic information bar.  This provides quick visibility to current restrictions for the chart while working in it.
 
   
-![](../adding-restrictions-and-accommodations.assets/100002010000049E00000165E3FD893410D3A894.png)  
+![](../adding-restrictions-and-accommodations.assets/a9940e08aa952c5211cf23b62776ee6e.png)  
 
 
   
@@ -207,5 +207,5 @@ Current restrictions, that encompass today's date, are always shown in the dark 
 Any active current restrictions that are specifically linked to a case/incident are also shown on the side chart.  When you open the side chart, open cases/incidents are shown and when you expand it, the linked restrictions & accommodations will be visible there also.
 
   
-![](../adding-restrictions-and-accommodations.assets/10000201000004A00000025473DE5FCF9A6AE50E.png)  
+![](../adding-restrictions-and-accommodations.assets/84e3a30309fbefe694909dd84db6e6e3.png)  
 

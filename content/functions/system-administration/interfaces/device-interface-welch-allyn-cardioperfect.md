@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Device Interface - Welch Allyn CardioPerfect'
@@ -59,7 +59,7 @@ A list of devices known to work with this interface:
          * Image Type = TIF
          * Check all boxes under Image and XML
 
-           <img src="../device-interface-welch-allyn-cardioperfect.assets/1000020100000255000001E4B0ED6B7B58F68191.png" />  
+           <img src="../device-interface-welch-allyn-cardioperfect.assets/8ddbad35e0aa4f9ea75aa7354c83adc3.png" />  
 
 * CardioPerfect runs MSSQL on the PC. Some implementations may be talking to a database remotely and multiple machines sharing the same DB.
   

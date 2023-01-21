@@ -2,12 +2,12 @@
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q Set-Up and Documentation'
 date: '2022-10-26T20:27:32.328Z'
-version: 299
+version: 301
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 ---
 Incoming File/Fax Queue Set-Up and Documentation
 
@@ -17,12 +17,12 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. From the <em>Control Panel</em> on the left side menu, click on the <em>System</em> chart tab and then click on the <em>Menu Editor</em> sub-tab
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000055B00000377DACF73DA75AD7C15.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/590cf07f3aeadbac15b78a4c3f21cc71.png)  
 
 
 2. Click the <em>Add Menu Item</em> link in the right corner
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000074E000000F237FF582817A275CF.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/5bdfb072cc35856acc61465c9f720ac0.png)  
 
 
 
@@ -30,12 +30,12 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 3. Click on the drop-down for <em>Module</em> and select <em>sidemenu</em>
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000037C000001DBA98F5E815717FE66.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/2cc4011603178e0a987170e217794100.png)  
 
 
 4. Add the <em>Name</em> for the sidemenu item (<em>File Queue</em>)
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000034E000001B608968BE0FBBD96B1.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/92c45086775fb93a911771403a4947d5.png)  
 
 
 
@@ -45,12 +45,12 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 5. Add the <em>URL</em> - ?f=layout&module=SystemReport&name=IncomingFileQueue&tabmodule=+ 
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000034C000001B48D960F7ADA98110F.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/3cc50680a55acb2c59639a93aa740a1f.png)  
 
 
 6. Add the <em>Target</em> of <em>mainwindow</em>
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/1000020100000351000001B17C8AB188FD58038E.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/460d939aa2d2e01cf6ddc0750008778f.png)  
 
 
 
@@ -59,12 +59,12 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 7. Click on the <em>Tab Order</em> drop downs to set where the New File Q option will be located on the sidemenu
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000034B000001B3CA8BF07566BD6C53.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/3e83cb64ec006f3d7cfbee3f371d8025.png)  
 
 
 8. Click the checkbox for <em>Show in Webchart</em>
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000034B000001B343833ED3524385C2.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/018bd26f7fb2f80b47298f23215ca594.png)  
 
 
 
@@ -75,12 +75,12 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 9. Click the "Add" button
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000034B000001B36C69DECE77938598.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/377873a5c08a3f860445e3aaad81b7c3.png)  
 
 
 10. After a screen refresh, the new sidemenu tab for the File Queue will display
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000201000000BC0000023C24BDA42830169E76.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/e2a788e41e91000aea54383ae7b762df.png)  
 
 
 
@@ -95,12 +95,12 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click the <em>Search</em> link in the top right corner of the File Queue sidemenu tab
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000201000006AC00000151E95299222CC40ECA.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/aaaac2ffa74baae83fdbd4432edd32d6.png)  
 
 
 2. Additional filters display for a user to narrow the search by the available categories
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/1000020100000341000000C4D4537F70FF195C5E.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/d7ef1b779890294953fdfd6407f2439b.png)  
 
 
   
@@ -109,17 +109,17 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click the <em>Categories</em> link in the top right corner
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000201000006AC000001511775D8B3B87C7D04.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/3e6def88db56ed4b70688496a9b0cc6c.png)  
 
 
 2. Click the <em>Add Category</em> link in the top right corner
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000201000006B9000001408A7CCB4164DDE7F4.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/35cb892f2c64c51054961953489ab6c2.png)  
 
 
 3. Add a <em>Category</em> description to group by a recipient group/department or other identifier (which allows for filtering within the file queue), instead of remembering a specific number to filter by. Select the <em>Recipient</em> from the drop down and click the "Save" button.
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000018A000001188C5AFE5AAF3945EA.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/e75f5c175ae10f37b82cd18c193fa997.png)  
 
 
   
@@ -128,17 +128,17 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click the <em>Mappings</em> link in the top right corner
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000201000006AC00000151B4AC0B0498F80CFC.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/6124a3569cc710dec20668538e05554e.png)  
 
 
 2. Click the <em>Mapping</em> link in the top right corner
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000201000006B40000019082A6F3661475F56B.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/ce988b528801cf520a259860ff9a699c.png)  
 
 
 3. Select a <em>Recipient </em>or add a recipient and then select the department that will be mapped. Click the "Save" button.
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000020C0000014F213F7A7AC553948F.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/5949f46e950bd28fad5787273297cf2c.png)  
  
 
   
@@ -151,7 +151,7 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click "Edit" button
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/1000020100000305000001C103FC011B8A830974.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/36120375423f66a076aa7e1410b05e3b.png)  
 
 
 
@@ -161,7 +161,7 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 2. Select a Category and Existing Recipients (file) to move between the two areas, if one needs to be updated. The Subject can also be added/changed. Click the "Save" button.
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000201000001A900000125CA0F495DB695B45E.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/90561ecf9e399dc4997eb08b7a003f2b.png)  
 
 
   
@@ -170,7 +170,7 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click "Delete" button or "Undelete" button to change the status of a file item to delete/undelete. Utilize Search to locate any previously deleted files to undelete. 
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/1000020100000305000001C1B0A7A8DD01CEE753.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/8d6e5e447093fcc09da4b7aea9bf82e2.png)  
 
 
 
@@ -179,14 +179,14 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click <em>Open</em> and the file will open in a new window
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/1000000000000780000004109C77F108FDC7BF3B.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/f7a3e5787e2644b65bd773fb1c164ae8.png)  
 
   
 ## Preview File  
 
 1. Click <em>Preview</em> and the file will display below
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100000000000078000000410919332CFDD92965E.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/48eee35e2318fc3fb5432cc6ad7f3591.png)  
 
 
   
@@ -195,12 +195,12 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click "Create Batch" button
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/10000000000007800000040603D7ABA86F8B1ECB.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/dfe7bb9c878b6f0a702f5ea359eff47a.png)  
 
 
 2. Click "Confirm" button
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100002010000015C000000C496E24F39CAEF874B.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/a9414aace9224bc3e35d8ae80b790298.png)  
 
 
 
@@ -217,7 +217,7 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 3. Go to Webscan to then index the batch
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100000000000078000000410D3853EAAF0478AC3.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/1cc716b44ecb86afd817af694eeae6d9.png)  
 
 
   
@@ -226,14 +226,14 @@ Incoming File/Fax Queue Set-Up and Documentation
 
 1. Click "Create Batch & Index" button
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/100000000000078000000406B448EC07ECB4A412.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/fab35ddefaf572bf01adc49aad0a48b7.png)  
 
 
 
 
 2. The batch is created and instead of going to Webscan, the index page automatically pops up.
   
-![](../incoming-file-fax-q-set-up-and-documentation.assets/1000000000000780000004065CC75CA94FE8F93F.png)  
+![](../incoming-file-fax-q-set-up-and-documentation.assets/87bed39d6e654d36e718f2d726a7d116.png)  
 
 
 

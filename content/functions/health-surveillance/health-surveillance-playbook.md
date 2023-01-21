@@ -18,7 +18,7 @@ links:
   - 'health-surveillance-panels-action-rules.md'
   - '../health-surveillance.md'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Health Surveillance Playbook'
@@ -31,7 +31,7 @@ menu:
 The way {{% system-name %}} does it is through highly configurable, easily manageable health surveillance (HS) panels. HS panels are simply groups of tests that need to be done on a periodic basis, or when starting or ending a position with exposure to a particular environmental or other risk, such as noise, lead, etc. To assist with initial configurations, several HS panels are set up by default in each {{% system-name %}} system. All clients will work with a deployment consultant to identify and assist with the setup of additional panels, as well as the configuration of the existing panels.
 
   
-![](../health-surveillance-playbook.assets/1000020100000467000002350B8304D5A6748E44.png)  
+![](../health-surveillance-playbook.assets/375044a308922ef05cd46ed79e6166d5.png)  
 
   
 ## Overview  
@@ -122,13 +122,13 @@ Again, the **initial** steps to consider prior to configuring HS panels are as f
 Once all of the preliminary scoping and determinations have been finalized, ensure all necessary users are established with the appropriate security. In order for users to be able to configure health surveillance panels, they must be provided access to the Health Surveillance menu of the Control Panel, which is found under the HSP tab. It is important to review the security settings for all users needing access to the Health Surveillance and/or Case Management modules.  
 
   
-![](../health-surveillance-playbook.assets/10000201000004BB000000D800C87702F307FB26.png)  
+![](../health-surveillance-playbook.assets/cd0a6135a48f421a9fe778ad84529190.png)  
 
 
 When access has been provided, designated users may utilize the Health Surveillance menu to peruse, configure, and maintain HS panels, panel actions, and action rules. Navigate to the Health Surveillance menu, and the listing of current active panels will display automatically on the screen, below the Panel Search criteria fields. 
 
   
-![](../health-surveillance-playbook.assets/1000020100000488000001CAFDD457F8F693D8D1.png)  
+![](../health-surveillance-playbook.assets/e71d998fba8033dda4b142b3918d6bdf.png)  
 
 
 The current active panels, or the search results, will display below the following columns:
@@ -162,7 +162,7 @@ Otherwise, users may add panels manually, completing the following fields, accor
 * <strong>Representative Event Type</strong>: Choose Procedure or Encounter. A representative event type is either a procedure or encounter that represents the panel as a whole, if applicable. Unless the HS panel is expected to open an encounter when the orders populate the Due List, then the event type will always be Procedure. Otherwise, the encounter would be opened when the patient checks in for their appointment.
 * <strong>Representative Event</strong>: Utilize the drop-down to the right of the chosen Event Type to select the order item that was added to the system and intended to be the representative event. Usually the order and the panel will share the same name. Remember, this is how to manually add panels. More information regarding [representative events](#2et92p0) can be found below.
   
-![](../health-surveillance-playbook.assets/10000201000003180000022C6C63534ED5F9BF51.png)  
+![](../health-surveillance-playbook.assets/4b7dd451cc8c43b77b35bbf9c3d4dddd.png)  
 
 * <strong>Comments</strong>: This field is for providing comments on the panel. These comments may include instructions on the panel level that may be useful for staff. The comments display as health surveillance comments in a section of the Due List, as well as in the Tests and Procedures section of dynamic encounters. 
 * <strong>Owner</strong>:  This is an optional entry. The auto-complete field looks for any user within the system, and the individual selected denotes the point of contact for managing this panel.
@@ -172,7 +172,7 @@ Otherwise, users may add panels manually, completing the following fields, accor
    * Set to 0 to disallow shifting
 * <strong>Exit Alert</strong>:  Utilize this field to customize an alert message to display whenever a member is to be removed from the panel, manually.
   
-![](../health-surveillance-playbook.assets/1000020100000208000000AD623FB7B35466386D.png)  
+![](../health-surveillance-playbook.assets/aef461f042eea2b0afe0d23d13c928d8.png)  
 
 * <strong>Created/Modified/Change Reason</strong>: When a panel is created, {{% system-name %}} displays the initials of the user who created the panel and the date the panel was created. If a panel is edited/modified, the system stores the initials of the user who last modified the panel and the date the panel was modified. When a panel is edited, the user must provide a reason for the change, and it will display here.
 Once all of the fields have been completed, as necessary, click the **Submit** button to add the panel. These instructions simply provide the manual means for creating the panel "shell". It is simply a panel with no components or panel actions, at this time.
@@ -182,17 +182,17 @@ Once all of the fields have been completed, as necessary, click the **Submit** 
 Users may edit an existing panel by clicking the **Edit** link from the Options column of the Health Surveillance menu Panels list.
 
   
-![](../health-surveillance-playbook.assets/100002010000030D000000640CE38E7D842584AA.png)  
+![](../health-surveillance-playbook.assets/8f1421e6787756ae0f61d56d01c7891d.png)  
 
 
 Once clicked, the Panel Editor will load with all available fields open for editing. Toward the bottom of the editor there are two fields showing; when the panel was Created and last Modified.
   
-![](../health-surveillance-playbook.assets/10000201000003D700000090B20940ECB802544B.png)  
+![](../health-surveillance-playbook.assets/89a5139e4df0ff831984064a1a2b62cf.png)  
 
 Prior to submitting any changes, a **Change Reason** must be provided. After typing the reason, click the **Submit** button. 
 
   
-![](../health-surveillance-playbook.assets/100002010000019800000051A52113A5609DAFAE.png)  
+![](../health-surveillance-playbook.assets/22e49dfdd4cae7765ec734a8d57fc9ef.png)  
 
 
   
@@ -216,19 +216,19 @@ Action items that are configured with a Trigger Date of **Prior Action (Complet
 2. To begin adding actions to the respective panels, simply click the <strong>Actions</strong> link in the Options column of the panel being configured. A list of any existing panel actions already in the panel will display onscreen. Ensure the panel action being added does not already exist in the panel.
 
   
-![](../health-surveillance-playbook.assets/10000201000004AF0000013137E3F1CA1A7C6091.png)  
+![](../health-surveillance-playbook.assets/1cf3cc6bde6ae73115e7ddab92d9bb0f.png)  
 
 
 3. Using the information acquired in the Health Surveillance Matrix, begin entering the appropriate actions to each of the respective panels, as needed, clicking <strong>Add Panel</strong>. Otherwise, click <strong>Edit</strong> on an existing panel action to make any necessary changes.
 
   
-![](../health-surveillance-playbook.assets/10000201000004BE0000011D6DC5E6151592DF2A.png)  
+![](../health-surveillance-playbook.assets/343d745c1cda4ff6008caf518e29818b.png)  
 
 
 4. Confirm you are in the Panel Action editor and ensure the name of the panel being updated is listed in the header (e.g., FLU).
 
   
-![](../health-surveillance-playbook.assets/10000201000003CD0000022A12D469588F40FF48.png)  
+![](../health-surveillance-playbook.assets/e6c8781a08fdea85adeff104ca6188b9.png)  
 
 
 5. When adding action items to panels, the [Representative Event panel action](#tyjcwt) is usually added to the panel first. Fill out all of the necessary fields according to the information acquired in the Health Surveillance matrix, and click <strong>Submit</strong> to save the panel action to the panel.
@@ -241,7 +241,7 @@ Action items that are configured with a Trigger Date of **Prior Action (Complet
 
 {{% tip %}}  
    If the panel action is for a type of exposure, users will not want to set any Lead Time days. Lead Time is not needed for an exposure type panel action.  
-   ![](../health-surveillance-playbook.assets/1000020100000311000001825BB4A8F35DFEF8C8.png)  
+   ![](../health-surveillance-playbook.assets/51346842ae3ed5bbc3af6ca74f53daaa.png)  
 {{% /tip %}}
 
    7. <strong>Required for Certification</strong>: Select this to indicate the panel action is required for members of the panel. Leave unchecked if the panel action is voluntary. If checked, a panel member failing or becoming overdue for the action will become de-certified from the panel.
@@ -258,7 +258,7 @@ Action items that are configured with a Trigger Date of **Prior Action (Complet
       6. <strong>Other Action (Triggered)</strong>: The Other Action (Triggered) trigger date allows users to trigger a panel action at the same time as another action item, indicated in this panel action. For example, an action to trigger an Audiogram may be for Entry, Routine, or Exit actions; if checked, other actions may use this panel action as a trigger. This option must be selected for the action to display in the Related Action list. The Related Action list displays when then Trigger Date is set to Other Action (Triggered) or Prior Action (Completed). Additionally, action items can be configured to trigger with the Representative Events, as needed, if that programming is utilized. This allows all action items to trigger together for a panel. Triggers with all the same date are usually tied to representative event.
 
   
-      ![](../health-surveillance-playbook.assets/100002010000033B00000036D7BEACDDB7790778.png)  
+      ![](../health-surveillance-playbook.assets/f9fb610cceb0e770e1ad194097c69a96.png)  
 
 
       7. <strong>Point in Time</strong>: The Point in Time trigger date allows users to trigger an action item on the same day and month, each year (must be MM/DD format).
@@ -290,7 +290,7 @@ Representative Events are simply panel action items that serve as entry, routine
 
 The representative panel action and panel name are usually the same. In this example, there is an Entry panel action and Routine panel action, which serve as the representative event.
   
-![](../health-surveillance-playbook.assets/10000201000004BF0000023BAB1C50F0B8D84041.png)  
+![](../health-surveillance-playbook.assets/1c413b530b3b4bbfdb77c8f7e11beefd.png)  
 
 More information is provided below, outlining how to set up panels with representative events; however, for now, simply note that representative events are panel actions and can be entered similarly, with a few minor adjustments to the configuration in order to trigger the additional events more efficiently. 
 
@@ -307,7 +307,7 @@ Action items to be used for the Trigger Date must be entered into the panel, fir
 {{% /note %}}  
 
   
-![](../health-surveillance-playbook.assets/10000201000002F00000016FDD256A4785B176B8.png)  
+![](../health-surveillance-playbook.assets/9668dad349f0c9103de43ec3ef3dfc93.png)  
 
 
   
@@ -323,15 +323,15 @@ Looking back to the 10-step process in order to stay on track, users should *sti
 
 Action Rules can be very important for some health surveillance needs. The {{% system-name %}} system offers the ability to configure and apply **Indication** and **Contraindication** **Rules** that are then applied to panel actions. These rules need to evaluate as either true (Indication Rule) or false (Contraindication Rule), in order for the panel action to trigger, as needed. For a brief explanation of each rule, see the [Indication Rule](#3dy6vkm) and [Contraindication Rule](#1t3h5sf), above. To access Action Rules navigate to the Health Surveillance tab in the {{% system-name %}} system, where there is a link to the **Action Rules** editor in the top-right corner of the page.
   
-![](../health-surveillance-playbook.assets/10000201000004AF000001619140E25EE382BA7D.png)  
+![](../health-surveillance-playbook.assets/659377282c516c0149c81ee3064a4574.png)  
 
 Upon clicking into the Action Rules editor, a list of all existing indication and contraindication rules will display. Inactive indication/contraindication rules can be viewed by clicking the **Show Inactive** link, in the upper-left corner of the page. And to begin editing an existing rule, simply click the Edit button to the right of the rule needing changed.
   
-![](../health-surveillance-playbook.assets/10000201000004BF0000017A82F90E08B98C3199.png)  
+![](../health-surveillance-playbook.assets/6d34c53a615f33fb77950814267fef06.png)  
 
 Action rules can be added to the system using the Action Rules editor, by simply providing a Name, the Script, and clicking the Add button; however, indication/contraindication rules are usually configured by an MIE developer. Clients would contact the MIE implementer to provide all of the action rule criteria needed for the system panel(s), and that information would then be considered for any necessary script(s).
   
-![](../health-surveillance-playbook.assets/10000201000004BE0000017EFA7326C038711C4B.png)  
+![](../health-surveillance-playbook.assets/4e0f6a8c5358d97a10262ae3bb7e257f.png)  
 
 {{% note %}}
 
@@ -339,7 +339,7 @@ Once any action rules are programmed into the {{% system-name %}} system, they s
 {{% /note %}}
 With the action rules configured and tested, they can be selected from the Panel Action editor, as drop-down options in the Indication Rule and Contraindication Rule fields. These action rules can be linked to panel actions, as needed.
   
-![](../health-surveillance-playbook.assets/10000201000004B1000001B87975CBABEF4C6351.png)  
+![](../health-surveillance-playbook.assets/bc4b606d5641d3da282487e7585c9198.png)  
 
 
   
@@ -349,15 +349,15 @@ Once action rules have been created, it is important to test each one, to ensure
 
 From the Action Rules editor, users may click the Test button, once all criteria has been entered. This allows for testing existing action rules, as well as rules being added or edited. With the action rule being edited or being added, click the **Test** button.
   
-![](../health-surveillance-playbook.assets/10000201000004BD00000185C43D388B0853D157.png)  
+![](../health-surveillance-playbook.assets/0329f44a4d8afdbe941351d6fbecfeaf.png)  
 
 A Test Rule pop-up will display, where a chart can be selected to test the action rule against. In this example, the selection will be Harris, Christine (DOB: 03/11/1975). 
   
-![](../health-surveillance-playbook.assets/10000201000004BF0000018FA4658B7BEF29FBAC.png)  
+![](../health-surveillance-playbook.assets/e2325c70e55d681ae71c9fc6a3dc8021.png)  
 
 After selecting the chart, the test rule result will display as True or False, and additional information will be provided directly below that. This information tells users if an action rule is an Indication Rule or Contraindication Rule.
   
-![](../health-surveillance-playbook.assets/10000201000001AD000000BE5CF3920024D13299.png)  
+![](../health-surveillance-playbook.assets/8b810077324b73d904ca2db741d6ffb0.png)  
 
 For more information on Action Rules, be sure to check out our [Health Surveillance Action Rules](health-surveillance-panels-action-rules.md) documentation.
   
@@ -387,11 +387,11 @@ Next in the 10-step process, is panel membership. Out of the box, panel membersh
 When reviewing panel membership, it is important to understand the different types of membership available in the {{% system-name %}} system, as well as how membership can be configured and maintained. The most basic breakdown looks at automated membership ([Implicit](#4d34og8)) versus manual membership ([Explicit](#2s8eyo1)). More on that below.
 In order to review, configure, and maintain panel membership, users will need to navigate to the **Health Surveillance** menu of the **Control Panel**. Clicking the Membership link from a specific panel on the panel list will take users with the appropriate permissions to the Panel Membership editor.
   
-![](../health-surveillance-playbook.assets/10000201000004AE000001C20E5A00C49B2CB4CE.png)  
+![](../health-surveillance-playbook.assets/102aa223716f6f34e1e817959b083e35.png)  
 
 In the above example, the Animal Hand panel membership is being edited. When the page loads, the panel name will display in parenthesis, with the title, at the top of the page, as well as a listing of any associated membership rules and any established individual includes/excludes.
   
-![](../health-surveillance-playbook.assets/10000201000004BE0000017AD5A15FDF13FC7332.png)  
+![](../health-surveillance-playbook.assets/54052f450743dcb42ea0799a9bf20ff0.png)  
 
 The **Membership Rules** section shows all membership rules that are automated, intended to place charts into a panel as members, based on specified criteria, automatically. Automated panel membership rules are *implicit*. 
 The **Individual Include/Exclude** section shows all charts that are included/excluded at the panel level of the selected panel.
@@ -405,18 +405,18 @@ If any automated membership rules exist for the specific panel being viewed, the
 
 Automating membership rules can only be done once the HR interface has been established and is functioning. Automated membership rules also look at what charts are considered *active*, so it is important to work with the MIE Implementer on what an active chart is considered in the system, based on the HR interface fields being received.
   
-![](../health-surveillance-playbook.assets/100002010000025700000054713C3343376FDD83.png)  
+![](../health-surveillance-playbook.assets/da1675830a03fdbfb585387a87f5d283.png)  
 
 Also, whenever the Panel Action Evaluator runs, any pending orders for patients with explicit panel memberships will be deleted if that patient fails the Active Patients Clause criteria.
 {{% /note %}}
 **Add Automated Membership Rule**
 MIE developers are likely going to program automated membership rules on any panels needed, but to add an automatic implicit membership rule to a specific panel, click the **Add Membership Rule** hyperlink from the membership screen.
   
-![](../health-surveillance-playbook.assets/10000201000004BE0000018DD65F03C6CBA35649.png)  
+![](../health-surveillance-playbook.assets/01e08dfb4769ae5d27183d2c5ba2de58.png)  
 
 Once the Panel Membership editor loads, users may add inclusion rules and/or exclusion rules, as needed, based on the default four options. Otherwise, additional scripting can be utilized in the Additional Criteria field, as needed. 
   
-![](../health-surveillance-playbook.assets/10000201000004AF0000024BAEE9D60C779EE308.png)  
+![](../health-surveillance-playbook.assets/7d11d768c59192ca4ee9e8eba467e039.png)  
 
 It is recommended that configuring and testing surveillance panels be done in a DEV/QA system, first. Simply [export/import the panels to the system](#17dp8vu), set up the necessary rules, and test to validate. Utilize the [Panel Action Evaluator](panel-action-evaluator.md) to perform a spot-check.
 {{% note %}}
@@ -425,7 +425,7 @@ It is important for the MIE implementer to have the scheduled job enabled for th
 {{% /note %}}
 
   
-![](../health-surveillance-playbook.assets/10000201000004A000000099731280BC87279565.png)  
+![](../health-surveillance-playbook.assets/99315d925b8db2969a4d762532552fa6.png)  
 
   
 #### Explicit (Manual) Membership  
@@ -433,53 +433,53 @@ It is important for the MIE implementer to have the scheduled job enabled for th
 Explicit, or manual, membership rules allow for charts to be placed into panels individually via panel or chart, as needed. In other words, membership can be managed by adding any explicit rules calling to include and/or exclude charts. This can be done directly from within the panel editor, or from within the chart's **Panel Overview**.
 If any manual membership rules exist for the specific panel being viewed from the Health Surveillance menu of the Control Panel, they will be listed under the **Individual Include/Exclude** section. The explicit memberships display the chart that is being included or excluded, as well as when the rule was added and started. 
   
-![](../health-surveillance-playbook.assets/10000201000004BD0000019608BDE8878CF398CB.png)  
+![](../health-surveillance-playbook.assets/be53905b9a8c4c7ecef9acfdc4b85e74.png)  
 
 Add Memberships Individually and Manually via Panel
 Users may add individual charts to specific panels for membership, as needed. To add an automatic implicit membership rule to a specific panel, from the Health Surveillance menu of the Control Panel, click the **Add Explicit Membership** hyperlink from the Membership editor. 
   
-![](../health-surveillance-playbook.assets/10000201000004BD000001962472C5A2DF48BA62.png)  
+![](../health-surveillance-playbook.assets/cf2f8d6c52dc99aa5d422f433a8e0518.png)  
 
 Once the Panel Membership editor loads, users may select charts to be added as inclusion or exclusion rules, as needed. Simply select the chart name, type in a reason for adding this chart to the panel explicitly, and select what type of membership is required (i.e., include or exclude). Usually the Trigger Entry/Exit Actions option will remain selected as to ensure the chart will be triggered for inclusion/exclusion upon submission. Any panel action items will then trigger on the Due List.
   
-![](../health-surveillance-playbook.assets/10000201000004BE0000019D94CF6743F01D1FA2.png)  
+![](../health-surveillance-playbook.assets/b0cb849e738aa710d5f7aea4c5374378.png)  
 
 {{% tip %}}
 
 Users can add multiple charts using the Employee autocomplete to build a list of charts and do more than one at a time, *for the same panel, reason, and type*.
   
-![](../health-surveillance-playbook.assets/100000000000036C00000188FB1FB6DEFE8D7628.png)  
+![](../health-surveillance-playbook.assets/56e223c565054cc9ed86db25ebcc714e.png)  
 
 {{% /tip %}}
 Placing employees as members into a specific panel from this screen is the same as going into the chart's Panel Membership Overview chart tab and manually addressing membership needs there. Users may put employees, individually into panel(s), using either method.
 Add Memberships Individually and Manually via Chart
 While in a chart, users may add the employee/patient to a specific panel, as needed. Adding charts to panels in this way is manually adding the employee/patient as an explicit membership of the specified panel, therefore requiring manual maintenance for upkeep, going forward. Navigate to the **Panel Membership Overview**.
   
-![](../health-surveillance-playbook.assets/10000201000004B1000001BD83DF4EBCCFF844B0.png)  
+![](../health-surveillance-playbook.assets/a113bdaf92a0da0d396360116437f339.png)  
 
 Once the Panel Membership Overview loads, users will see an assortment of options available for adding, tracking, and maintaining surveillance panels. Users can Add Panels, view and manage Current Panel Membership, and view Panel Membership and Employer Organization History.
   
-![](../health-surveillance-playbook.assets/10000201000004B0000002460466CFFC928CF599.png)  
+![](../health-surveillance-playbook.assets/9da40c31b958be891e88f723fab951e0.png)  
 
 When manually adding charts to a panel, it is important to verify the chart is not already a member of the panel. Review the listed panels under the Current Panel Membership section. To add the chart to a panel, use the drop-down available under the **Add Panel** section. Select the appropriate panel and click the **Submit** button.
   
-![](../health-surveillance-playbook.assets/10000201000004B000000114CA354A2119837D67.png)  
+![](../health-surveillance-playbook.assets/cd8823faf9a1298092cbb8e9d0cc895f.png)  
 
 After clicking Submit, the page will refresh and display the panels alphabetically, as individual columns. Additional panels can be added, as needed; however, this is not saving, and further steps are needed to complete enrolling charts into the necessary panels.
   
-![](../health-surveillance-playbook.assets/10000201000004A900000173860C53E05252A388.png)  
+![](../health-surveillance-playbook.assets/f4ba13ac2952ca5a4261ba225b8837ac.png)  
 
 Once all necessary panels have been submitted, users will need to select each panel the chart should belong to by check-marking the appropriate boxes. This will indicate manual (explicit) membership. When indicating a chart is a member of a panel, using the selection boxes will open a Change Reason field, which can be configured to be required before submission. Provide a reason for changing or adding a chart to the panel(s).
   
-![](../health-surveillance-playbook.assets/10000201000004AA00000149E3EFCC959B7294AE.png)  
+![](../health-surveillance-playbook.assets/a6749ba8a9378ccdb72b1d3683109032.png)  
 
 Once all of the necessary panels have been selected and the change reasons have been provided, users may click the **Submit** button at the bottom of the page to save all changes. Nothing is saved until the Submit button at the bottom of the page is selected. The panel action items are evaluated on the chart, once this Submit button is selected. In other words, the Submit button serves as a force/evaluate of the panel(s).
   
-![](../health-surveillance-playbook.assets/10000201000004B1000001B7CA70C2ACDFA64E48.png)  
+![](../health-surveillance-playbook.assets/3b8a3e0cc9a216fc8890492f9d3213ed.png)  
 
 The panel action items will also trigger on the chart **Due List**, as soon as the chart is updated with panel membership. 
   
-![](../health-surveillance-playbook.assets/10000201000004AF00000232CE2DAB6310AE981E.png)  
+![](../health-surveillance-playbook.assets/53080d1e62a1dc2a09139c03e502d759.png)  
 
 Administrators needing additional information on checking or viewing panel membership, please see our [Health Surveillance](../health-surveillance.md) documentation for the relevant pages.
   
@@ -608,7 +608,7 @@ In other words, a typical data migration for OHM will consist of the modules lis
 The {{% system-name %}} system also has a unique chart tab that resides within the Health Surveillance module. This chart tab displays all respirator-like panels, as well as the results of fit testing, so be sure to consider this when scoping data migration needs.
 
   
-![](../health-surveillance-playbook.assets/10000201000006400000017B32635229E13EFA2E.png)  
+![](../health-surveillance-playbook.assets/0056a5262bad2745cae1b5813b2c9d49.png)  
 
 
 {{% /note %}}
@@ -616,7 +616,7 @@ The {{% system-name %}} system also has a unique chart tab that resides within t
 Migrating completed orders from exams is one strategy, but that requires mapping hundreds of orders, and adds additional complexity, fees, and timeline. A slightly quicker strategy is to identify the legacy representative event for the exposure panel, and use the Next Due Date for the panel status Next Due. This screenshot shows the audio test (92551) as the representative event for the Hearing Protection (HCP) exposure panel.
 
   
-![](../health-surveillance-playbook.assets/10000201000004B500000101B721102A0D7A6466.png)  
+![](../health-surveillance-playbook.assets/16e4dc9ff55106aec5249061929732a6.png)  
 
 
 {{% note %}}
@@ -671,7 +671,7 @@ Whether the legacy data is bad or if the overdue employees are actually out of c
 In order to review and export/import HS panels, users will need to navigate to the Health Surveillance menu of the Control Panel. Scroll to the bottom of the list of panels, and clicking the appropriate link, **Export Panels** or **Import Panels**. Because action items that are configured with a Trigger Date of Prior Action (Completed), these links allow users to migrate information between {{% sys-name %}} systems, quickly and easily.
 
   
-![](../health-surveillance-playbook.assets/100002010000042D00000216ECC8001735CB43C9.png)  
+![](../health-surveillance-playbook.assets/f8a1beba19aefa30eb579f735ec9b24a.png)  
 
 
 An MIE Implementer will most likely be utilizing this functionality the most; however, clients with a Development (DEV) or Test (QA) system may utilize this functionality to export/import panels into the respective systems, as needed. For more information on how to export and import panels, see the instructions below.
@@ -682,11 +682,11 @@ Similar to a copy/paste function, users will want to be in the system from which
 
 Navigate to the Health Surveillance tab of the Control Panel, and click the **Export Panels** link, found at the bottom of the page below the listed panels. Select all panels needing to be exported by placing a check in the box of each needed panel
   
-![](../health-surveillance-playbook.assets/100002010000019C0000021AA26D3AB3154D45F2.png)  
+![](../health-surveillance-playbook.assets/2f67b541ef325a857aa1255d6fddea65.png)  
 
 With the panel(s) selected, click the **Show Data** button. This renders the HTML necessary for importing the panel(s) into the other system.
   
-![](../health-surveillance-playbook.assets/10000201000001840000011DBAA2249D552AB1FD.png)  
+![](../health-surveillance-playbook.assets/f7c1a0f25c51f8f3b2a62b20da5f4f9c.png)  
 
 {{% tip %}}
 
@@ -694,12 +694,12 @@ Because the Export Panels link only pulls panels that are displayed on the scree
 1. Want to perform a panel search by keyword, clicking Search when ready.
 2. Click the Export Panels link.
   
-   Make sure only the desired panel to be exported is selected. This ensures all other panels do not copy, avoiding the extra work of having to de-select any unwanted panels. <img src="../health-surveillance-playbook.assets/100002010000042800000183B729414FD169A05C.png" />  
+   Make sure only the desired panel to be exported is selected. This ensures all other panels do not copy, avoiding the extra work of having to de-select any unwanted panels. <img src="../health-surveillance-playbook.assets/55eec80228b6a0a266a36eab7055df62.png" />  
 
 {{% /tip %}}
 After clicking the Show Data button, click the mouse within the HTML programming text box. This places the cursor in the text box. Using the keyboard, press Control + A key. This will highlight all of the text. Right click and select copy, or using the keyboard, press Control + C key. When finished copying, close the window. Users may use this to import the panel(s), now.
   
-![](../health-surveillance-playbook.assets/100002010000018700000130DA25C92CEB0586FF.png)  
+![](../health-surveillance-playbook.assets/1e314089c7db163bf92e1f80c184d2cd.png)  
 
   
 ### Import Panels  
@@ -707,19 +707,19 @@ After clicking the Show Data button, click the mouse within the HTML programming
 In order to import panels into another system, users must have already completed the Export process, [described above](#26in1rg).
 To import a panel, take the data that was copied from the Export process, then go to the system into which the panels are being imported. Navigate to the Health Surveillance tab of the Control Panel, and click the **Import Panels** link, found at the bottom of the page below the listed panels. A blank text field will appear with the title *Import Panels*.
   
-![](../health-surveillance-playbook.assets/10000201000001E70000012F3A952EC97D8988AC.png)  
+![](../health-surveillance-playbook.assets/1ea780baf9000b08ac8feabdf62106f4.png)  
 
 Click the mouse within the text field. Right click and select **Paste**, or simply click the Control + V on the keyboard.
   
-![](../health-surveillance-playbook.assets/1000020100000186000001067E4DED0423BA2F50.png)  
+![](../health-surveillance-playbook.assets/90c1f14b412b53c0242ee3f2849c3ab2.png)  
 
 After pasting the export data into the text field, click the Import Data button, to submit and import the panel(s) previously selected for export. 
   
-![](../health-surveillance-playbook.assets/1000020100000186000001006C48D28CE5550408.png)  
+![](../health-surveillance-playbook.assets/462d6988b3b3860175de24bf7d73dd31.png)  
 
 After importing the data, a pop-up will display all statuses.
   
-![](../health-surveillance-playbook.assets/10000201000000E3000000D4DB14CBFEC14AADA9.png)  
+![](../health-surveillance-playbook.assets/97f3c4c45fc0508f013ce090cf42af10.png)  
 
 {{% note %}}
 

@@ -21,7 +21,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Application Programming Interface (API)'
@@ -438,7 +438,7 @@ if __name__ == '__main__':
 {{% system-name %}}  has functional tools for importing and exporting documents to the system. The Export Tool is written in Python and can be run on Windows, Mac, or Linux. Conversely, importing documents is done with the [MIE File Import](https://www.mieweb.com/wiki/MIE_File_Import) utility.
 
   
-![](../application-programming-interface-api.assets/10000201000002D70000013F2A25AC14B0AD48B7.png)  
+![](../application-programming-interface-api.assets/e2b6a93dd8fecf5478d5122ba16e713d.png)  
 
   
 ### Requirements  

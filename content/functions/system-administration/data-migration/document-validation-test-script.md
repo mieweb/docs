@@ -13,7 +13,7 @@ links:
   - 'https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7'
   - '../../reports/documents-report-super-document-type-search.md'
 source: 'https://drive.google.com/open?id=1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Document Validation Test Script'
@@ -41,7 +41,7 @@ The {{% system-name %}} system can display another system's data as documents. T
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-   <img src="../document-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
+   <img src="../document-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png" />
 
 {{% tip %}}
    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
@@ -49,23 +49,23 @@ The {{% system-name %}} system can display another system's data as documents. T
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-   <img src="../document-validation-test-script.assets/10000201000003EE0000005E5A4755F56EC0CF16.png" />
+   <img src="../document-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png" />
 
 
 
 2. As noted, the Documents chart tab displays <strong>all</strong> documents related to the chart. The documents in this tab may also appear in other, more specific tabs, such as Labs or Encounters chart tabs. Change the view of the results using the drop-down in the upper-right corner of the page. 
 
-   <img src="../document-validation-test-script.assets/1000020100000547000001C5DFC74BBD81AC313B.png" />
+   <img src="../document-validation-test-script.assets/674c73ec2444bbd1a0f365ba02a10a0a.png" />
 
 
 
 {{% tip %}}
    <strong>Detail View</strong>  
-    may be better suited for validating documents. Changing views does not change views across chart tabs, but will change the respective view across different charts. Using the drop-down makes it easy to change between views and can be updated, as needed. <img src="../document-validation-test-script.assets/100002010000009400000079E384A1EEDFED951F.png" />
+    may be better suited for validating documents. Changing views does not change views across chart tabs, but will change the respective view across different charts. Using the drop-down makes it easy to change between views and can be updated, as needed. <img src="../document-validation-test-script.assets/9ec7ddee5878fb47b312fa81e02ae275.png" />
 {{% /tip %}}
 3. Select the document being validated from the list. 
 
-   <img src="../document-validation-test-script.assets/1000020100000545000001BF886C8D9B5F93EE9F.png" />
+   <img src="../document-validation-test-script.assets/f8cf83dfe7a8f3f5f2e778418daaf3eb.png" />
 
 {{% tip %}}
    To return to the list of documents, click the Documents chart tab.
@@ -83,13 +83,13 @@ The [Super Document Search and Document Reports](../../reports/documents-report-
 
 1. Using the Chart Search Quick View portlet, or navigating to {{% syslink "E-Chart" "f=chart" %}} , click the <strong>Documents</strong> link to open the Super Document Search Report.
 
-   <img src="../document-validation-test-script.assets/10000201000000F20000005549B3DD99F1997160.png" />
+   <img src="../document-validation-test-script.assets/34d4d957441993d4f8584e03b93e945a.png" />
 
 
 
 2. Select criteria to search by. Typically <strong>Doc Type</strong> and <strong>Service Date</strong> ranges are used to limit results. Use the Detail View and Modify Search links to manipulate the search results, as needed.
 
-   <img src="../document-validation-test-script.assets/1000020100000543000002558E4D6EAEB0E0C340.png" />
+   <img src="../document-validation-test-script.assets/52d59b62e08cbb0734d74572d2068ad6.png" />
 
 See the online help documentation for more information on the [Super Document Search](../../reports/documents-report-super-document-type-search.md).
   
@@ -98,11 +98,11 @@ See the online help documentation for more information on the [Super Document Se
 1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
 2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list and select the {{% syslink "Document Reports" "f=reports&s=docrp&tabmodule=reports&t=Visits" %}} .
 
-   <img src="../document-validation-test-script.assets/10000201000000CC000000C9B2CF56CE6DAB6AD3.png" />
+   <img src="../document-validation-test-script.assets/2ed1e077f8f83a0c2a6135ab5c232ce7.png" />
 
 3. Similar to the Super Document Search Report, the Document Report performs a document search based on provided criteria. This report has less criteria available for searching.
 
-   <img src="../document-validation-test-script.assets/1000020100000145000000E5D3D474E0D196AAC0.png" />  
+   <img src="../document-validation-test-script.assets/3ba190c6d0373106a29edd225fec11b7.png" />  
 
 See the online help documentation for more information on using the [Documents Report](../../reports/documents-report-super-document-type-search.md).
   

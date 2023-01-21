@@ -8,12 +8,12 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1-tfONkRUSjg4mxAfE1pcRYwgRK2t1LN-Vw9qorSz9U8'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. To find transactions by payee:
    1. In the <em>Ledger Search</em> section, in the <em>Payee</em>  
-       field, enter some or all of the name of the payee.<img src="../finding-ledger-transactions.assets/100000000000029F00000098197A804FAA0B53CD.png" />  
+       field, enter some or all of the name of the payee.<img src="../finding-ledger-transactions.assets/835abc25f14a89c88903f1b0841516f5.png" />  
 
 1. To find transactions entered after a date:
    1. In the <em>Ledger Search</em> section, in the leftmost series of three fields, enter the month number, date, and year or select the <strong>Calendar</strong> button to choose a month, date, and year.

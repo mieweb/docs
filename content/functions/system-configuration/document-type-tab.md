@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Document Type Tab'
@@ -19,20 +19,20 @@ Click *Control* on the left sidebar menu.
 Click *Document Types* tab at the top. (You must have security role permission to access the Document Types tab)  
 It will then pop-up the entire listing of all **active** document types that have been entered for your system. Document types are names of documents for any patient's medical records.
   
-![](../document-type-tab.assets/1000020100000554000001C97F472DDF90BBE02F.png)  
+![](../document-type-tab.assets/0e354abe911134a0ee8589299ab9274b.png)  
 
   
 ## Search for a Document Type  
   
 You can scroll the page up and down to search/find the document type you want to look at, edit, inactivate, etc. However, if your system has a lot of document types, then you may want to search for the specific document type by using the search engine at the top left of the screen.
   
-![](../document-type-tab.assets/100002010000049D000000B34FF24C53DE4709CB.png)  
+![](../document-type-tab.assets/f811bc00036766a702665efc6eea54c9.png)  
 
 In *Search* field, type in either the document type abbreviation **or** the document type description name and click *Search*. It will search by both. It will then display any matches. You do not have to type the complete entire abbreviation or description. You can type in a few letters of the document type abbreviation or document type description name and it will display any matches. This is a "contains as" search so any doc.types that contain what your search it, will result.  
 If your match choices did not display what you wanted to find, type in another search. If you want to get back to the main, full document type tab listing, click the *Clear* button and it will bring you back to the full document type listing and you can search again.  
 You can also search by *Chart Type*. Some documents are only utilized in specific types of charts. {{% system-name %}} houses many things as "charts" besides patients. You can use the drop-down arrow to select a specific chart type to filter your search results on.
   
-![](../document-type-tab.assets/10000201000004B50000009929A818A3BAB38FB2.png)  
+![](../document-type-tab.assets/dd3d1f66f19119de8c01b7f73e4d6f92.png)  
 
   
 ## Navigation Links  
@@ -42,14 +42,14 @@ You can also search by *Chart Type*. Some documents are only utilized in specifi
   
 At the top right side are links that say SHOW: and has options called **Active**, **Inactive**, **Both**. Here are the descriptions of each option/link:
   
-![](../document-type-tab.assets/100000000000048A000000934B14B02698CE129A.png)  
+![](../document-type-tab.assets/dd3edf152d2a624778f29d1ee6a0ccda.png)  
 
   
 #### Active (Document Types)  
   
 When you click Document Types tab, it automatically pops-up this listing of the entire active document types for your system. (At the top right of the screen says SHOW: click Active to view this listing). Click an underlined category title to sort alphabetically, or by category, etc.
   
-![](../document-type-tab.assets/10000201000004BD00000142012E88F44983F726.png)  
+![](../document-type-tab.assets/95d80736edf9f71f0025ca25f41f7d46.png)  
 
 The description of columns are as follows:
 * <strong>Document Type</strong>: This is the abbreviation created for this document type. Other modules in {{% system-name %}} work off of this abbreviation code. This cannot be changed once created.
@@ -76,11 +76,11 @@ At the top right of screen says SHOW: click Inactive to view the inactive docume
 Click an underlined category title to sort alphabetically, or by category, etc.  
 These inactive document types listed are inactive in the system.
   
-![](../document-type-tab.assets/10000201000004A8000000C859BDA625B7B587D6.png)  
+![](../document-type-tab.assets/d36459c9ae5c5af6825319a69139d9f0.png)  
 
 You can activate any inactive document types if you wish. Simply click the option to Activate this document type. The system will automatically set this document type to active and give you a confirmation message at the top. The document type can now be found in the *active* listing.
   
-![](../document-type-tab.assets/100000000000011200000021C9BB76BD4045FBC4.png)  
+![](../document-type-tab.assets/59051b4c3abfb0c790053ac07cc8ad07.png)  
 
 If you made a mistake, simply find it in the *active* listing, and click deactivate in the options column.
   
@@ -89,22 +89,22 @@ If you made a mistake, simply find it in the *active* listing, and click deactiv
 At the top right of the screen says SHOW: click Both to view both active and inactive document types merged together in the listing. Click an underlined category title to sort alphabetically, or by category, etc.  
 The only way you will know if it's inactive or active is by the Options column where it will give the opposite option activate it or de-activate it.
   
-![](../document-type-tab.assets/10000201000004A5000000BAF2C45BAFF94AA1C9.png)  
+![](../document-type-tab.assets/4f2c9e255be97614d3cdf4dc12b3594c.png)  
 
   
 ### View Purge Rules  
   
 This is for MIE programming use only. You must have security role permission to view/access this.
   
-![](../document-type-tab.assets/10000201000004A5000000BAD69A06477303555E.png)  
+![](../document-type-tab.assets/cbcadb44ec3a83dafdc05677646b084e.png)  
 
 Clients may want to get rid of documents after the governing bodies will allow those documents to be purged.  This is an interface to provide that feature. Custom SQL statements can be crafted so that different document types can be singled out based on patient information (when the patient died, when they were terminated from the company, whether the patient is involved in litigation, etc) and purge documents that are allowed.
   
-![](../document-type-tab.assets/10000000000004800000006CB02A523121F49680.png)  
+![](../document-type-tab.assets/3c4c78dcbb225e78efd1b8864ba20ed6.png)  
 
 Purge rules may be created to specify which documents should be purged after what amount of time.  They may be specified by the document type, or more typically, customized using an SQL statement by one of MIE's engineers to do more elaborate document selection. The document purge rules must be run manually by a user at this time.  When the user runs the document purge rules, they will be presented with a list of files that match the purge rule, and may select via a checkbox to proceed with the purge.  Files that are selected to be purged will be placed in a table of documents-to-be-purged. Those files may be unmarked at any time up to the point when they are deleted by evaluating the same purge rule a second time and unchecking the already-checked documents that are brought up and submitting the new list of "approved" files-to-be-purged.
   
-![](../document-type-tab.assets/10000000000002020000010A2901F24968D1840D.png)  
+![](../document-type-tab.assets/c43ba0cb9636ba7c16cb5b81be19f6c6.png)  
 
 At a specified interval (weekly, monthly, years, or whatever is specified), rmdoc will be called to run via a cron job. Rmdoc will read that table and permanently delete the files that were marked to be purged.  Once files have been deleted, they may no longer be unmarked for deletion and restoring them from our dvd archives will not be possible.
   
@@ -112,7 +112,7 @@ At a specified interval (weekly, monthly, years, or whatever is specified), rmdo
   
 This is for MIE programming use only or if you are trained as a Super-User and have permission to access this.
   
-![](../document-type-tab.assets/10000201000004A5000000BA08FD504AE40FEF8C.png)  
+![](../document-type-tab.assets/7cc073c75d319f1cec1d28a60defaf9f.png)  
 
   
 ### Add Document Type  
@@ -122,11 +122,11 @@ Click *Document Types* tab at the top. (You must have security role permission t
 It will then display the entire listing of all **active** document types that have been entered for your system.  
 Document types are names of documents for any patient's medical records. At the top right of the screen says SHOW: click Add Document Type to create a new document type for your system. Click Add Document Type to add a new document type to your system.
   
-![](../document-type-tab.assets/10000201000004A5000000BA7F65B510F1B3AA7F.png)  
+![](../document-type-tab.assets/1052e4828d2398917b72329572ab5ebb.png)  
 
 After you have clicked Add Document Type, the Add a Document Type screen will open where you need to enter information into the fields.
   
-![](../document-type-tab.assets/10000201000002B1000002292ABAB7FD41C0E299.png)  
+![](../document-type-tab.assets/7d0c2e071c86d05a5f7b485aaa3e1f81.png)  
 
 * <strong>Document Type</strong>: If you have security permission, you can type the abbreviation for your document (this doesn't appear anywhere on e-chart but is used for internal programming that other {{% system-name %}} modules may have programming pointed to). If you do not have security permission, a Document Type will be automatically assigned (as a number). This cannot be changed once created.
 * <strong>Active</strong>: always check-marked. If you edit it and uncheck-mark this, it will not allow any more documents to be inserted into this doc.type and will consider it <em>inactive</em>.
@@ -135,7 +135,7 @@ After you have clicked Add Document Type, the Add a Document Type screen will op
 * <strong>LOINC:</strong> Document Types can have a LOINC code associated to them. This field is available to tie a LOINC code to the document type. The hyperlink View LOINC codes for documents takes you to a LOINC report that opens in a new window and provides a list of the relevant document LOINC codes as reference material.
 * <strong>Used in Chart Tabs</strong>: If you have security to "Manage Chart Tabs" you will see this section with a drop-down field. From this section you can tag this document you are adding/creating in your system to any chart tab(s) you want that document to be housed in. Doc.Sum tab is always there by default unless your Doc.Sum tab is set to ‘exclude' instead of ‘include' all documents. From the drop-down select the Chart Tab you want this document to be housed in. Click the ADD button. You can select another chart tab to store this document in and continue again by clicking the ADD button.
   
-![](../document-type-tab.assets/100000000000032A000000CE6D1A15EF30106A1F.png)  
+![](../document-type-tab.assets/cbc09ab928b175ce15046fec9c495d2f.png)  
 
 {{% info %}}
 
@@ -144,7 +144,7 @@ The drop-down choices of Chart Tabs available to tag the document type to are th
 * <strong>Style</strong>: type the style that you want this document to show as when looking in a patient's chart. You can make it a colored background for this specific document type, can change the font, font size, color of font, etc. This does <strong>not</strong> affect the way it prints. This is strictly styles for viewing in documents in {{% system-name %}} only.
    * <strong>Sample Text</strong>: Will show a sample of what the text/background, etc looks like while you are programming the style.
       * <strong>Click the</strong>  
-         <img src="../document-type-tab.assets/100002000000000E0000000E8FB1CC7D144D6E97.png" />  
+         <img src="../document-type-tab.assets/59f169f5ba600ee1ceb8f7dbfc56f6c6.png" />  
          <strong>next to Sample Text to get a complete help listing of these programming options.</strong>
 {{% note %}}
 
@@ -213,40 +213,40 @@ Below, where it says :value; is where you type in a value choice (do not type th
 </table>
 * <strong>Auto-Merge:</strong> this is left unchecked. If you check-mark this, when viewing a document(s) in detail view and the doc.type is set to auto-merge, you will see all those documents stored as that doc.type merged together on your screen. Currently, not very many clients use this. Some use for lab results, etc. <em>If you hover your mouse over this title, it will show you the help explanation for this selection:</em>
   
-![](../document-type-tab.assets/100000000000017700000035167759C0CE48DEBF.png)  
+![](../document-type-tab.assets/febf21ccfe175b5444dc60e3d96c94c3.png)  
 
 * <strong>Print with Patient Header:</strong> Will automatically be defaulted to check-marked. The patient header will appear on this document type when faxed or printed. It prints above the document at the top (header). A user can always over-ride this by check-marking <em>print without headers</em> when in print/fax mode <em>if</em> they have security permission to override. If not, this header will always print at the top of the document if this selection is check-marked here in add document when setting up the document. <em>If you hover your mouse over this title, it will show you the help explanation for this selection:</em>
   
-![](../document-type-tab.assets/100000000000013100000072D0442B173EC93319.png)  
+![](../document-type-tab.assets/1cd42fc0e1aa86d7e4e714e2adc83679.png)  
 
 * <strong>Print with Document Header:</strong> Will automatically be defaulted to check-marked. The document header will appear on this document type when faxed or printed. It prints above the document at the top (header). A user can always over-ride this by check-marking <em>print without headers</em> when in print/fax mode <em>if</em> they have security permission to override. If not, this header will always print at the top of the document if this selection is check-marked here in add document when setting up the document. <em>If you hover your mouse over this title, it will show you the help explanation for this selection:</em>
   
-![](../document-type-tab.assets/100000000000012E0000006F85895B8FE00FA345.png)  
+![](../document-type-tab.assets/a7cdf71ee16ee8d751acaa7db2b3c28f.png)  
 
   
-![](../document-type-tab.assets/10000000000001D2000001075E86BABABB95551C.png)  
+![](../document-type-tab.assets/e276118b383c570e22d8bf84ca7abce3.png)  
 
 * <strong>Display plain text</strong>: leave blank
 * <strong>Restricted viewing</strong>: If you checkmark this, you will restrict this doc.type from viewing and have to designate <em>allowed users and/or departments</em> that are allowed to view this restricted document (doc.type). An example of this would be perhaps drug screen results, which the drug screen doc.type is to be viewed/restricted to certain users or departments.
 If you check-mark a doc.type (document) to be restricted viewing, the *Allowed Users and Allowed Departments* section will open up on your screen. You must now set the allowed user(s) and/or allowed department(s) that are allowed to view this type of document for any patient. Remember, nothing is saved until the SUBMIT button has been clicked at the end of the doc.type screen.
   
-![](../document-type-tab.assets/10000000000002D9000000BD7F985841AD1A114A.png)  
+![](../document-type-tab.assets/b8c0f53c75eeb87c46a0a98bf543619d.png)  
 
 If you do not have security rights to manager document type restrictions, then you will not be able to checkmark that section nor set allowed users. Only users with security rights to Manage Document Type Restrictions can set the document to be restricted and set the allowed users/departments.
 If you are editing a doc.type and you do not have security rights and the document type **is** set as restricted, you will see that field says YES.
   
-![](../document-type-tab.assets/100000000000015100000023CAAC3EF475D90534.png)  
+![](../document-type-tab.assets/4d25ddc3980a1fcf77ffa4e95c6aa466.png)  
 
 This means the document type is restricted, but you don't have security to change or edit those allowed users/departments.
 If you are editing or adding a doc.type and you do not have security rights and the document type **is not** set as restricted, you will see that field says NO.
   
-![](../document-type-tab.assets/100000000000014B00000024FDD270E3976A145E.png)  
+![](../document-type-tab.assets/e0d4f096a156d0dc5cd9a78e7bae0e2f.png)  
 
 It means the document type is not restricted from view of anyone or department. However, since you don't have security, you cannot change that to be restricted and set users/departments.
 * <strong>Background Form</strong>: If this document is just text & you want it to print on a specific background form, you can set it here.
 * <strong>Document Addition Methods</strong>: check-mark the type/method of how this document will enter {{% system-name %}} . You can check-mark as many methods as you want.
   
-![](../document-type-tab.assets/100000000000022000000150F7A6F6E527B09AB3.png)  
+![](../document-type-tab.assets/b6da6d4f8f364e8513d059d6e3879671.png)  
 
 * <strong>Allow High Speed Scanning in WebScan</strong>: document would be scanned using a regular high-speed scanner and then indexed into {{% system-name %}} . Check-marking this allows the document name/doc.type to appear in the indexing module and allows a user to choose the document type/name and index it into a patient's chart.
 * <strong>Allow Scanning in E-Chart</strong>: Checkmark this to allow the ability to scan in a document with this name directly into a patient's E-Chart and bypassing regular scanning/indexing methods. This is mainly used it you have a flat-bed scanner and is mainly for insurance cards, drivers license type of doc.types. This is used for types of papers/cards etc that can't be fed through a regular high-speed scanner and indexed that way. When you select a doc.type that has this feature, then it will open the Document Scan Control and allow you to scan the document/card etc using the flatbed scanner and will upload it directly into the patient's chart as this document name. (See other instructions called WebScan).
@@ -267,9 +267,9 @@ Click the SUBMIT button at the bottom of the screen to save and add the document
 
 If you want to deny permission to a user and/or department or maybe you made a mistake and chose the wrong department or user, simply click Remove next to the user or department name from the left side (the allowed list side) and it will take them off the allowed list.
   
-![](../document-type-tab.assets/1000000000000469000002031B5C30AD79B55EDC.png)  
+![](../document-type-tab.assets/c247c3afbcd93800f5a942bb8deb59dc.png)  
 
 It will say at the top that the user has been removed.
   
-![](../document-type-tab.assets/100000000000014800000030527B74F08912C059.png)  
+![](../document-type-tab.assets/f65f3f8cb01e3235cfd86f1a0e6a0099.png)  
 

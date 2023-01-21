@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888'
   - 'https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU'
 source: 'https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Create Health Surveillance File for Import'
@@ -106,7 +106,7 @@ failcomply: Failure to comply</td>
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Health Surveillance CSV File Example for guidance.
 
   
-![](../create-health-surveillance-file-for-import.assets/10000201000003CF000000782016957EAB0E834F.png)  
+![](../create-health-surveillance-file-for-import.assets/32e4d7c298d82e3ac0113d078ee7827f.png)  
 
 
 3. Save the file as CSV format.
@@ -117,25 +117,25 @@ failcomply: Failure to comply</td>
 2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
   
-![](../create-health-surveillance-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)  
+![](../create-health-surveillance-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)  
 
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
   
-![](../create-health-surveillance-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)  
+![](../create-health-surveillance-file-for-import.assets/197af282190b350e97494ffba0636d29.png)  
 
 
 4. Select <strong>Patient Panel Status CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
   
-![](../create-health-surveillance-file-for-import.assets/10000201000001530000007C5E57984C7C960DED.png)  
+![](../create-health-surveillance-file-for-import.assets/184adff065510b3014a3b5f0a44c0f4b.png)  
 
 
 5. Select the Health Surveillance CSV File and click <strong>Upload</strong>.
 
   
-![](../create-health-surveillance-file-for-import.assets/1000020100000144000000B8D55B5D24C2DED099.png)  
+![](../create-health-surveillance-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)  
 
 {{% tip %}}
 

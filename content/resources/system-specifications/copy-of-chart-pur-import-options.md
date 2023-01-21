@@ -10,7 +10,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestPUR_B.csv'
   - '../../functions/system-administration/data-migration/chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 ---
 **Chart PUR Import Options**  
 The following options are allowed. Any other options are unsupported and will be rejected.
@@ -53,19 +53,19 @@ We will start with the contents of [File:GenericImportTestPUR A.csv](https://mie
 9999,Test9,Employee,09/09/2009,user9,user3,id:username,,,99  
 After this file is loaded:
   
-  user1 is the supervisor of user2 and user3 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB0000009F13CE25A39E59A40A.png" />  
+  user1 is the supervisor of user2 and user3 <img src="../copy-of-chart-pur-import-options.assets/3171c8e3ee59304f67f6e60829e359df.png" />  
 
   
-  user2 is the supervisor of user4, user5, and user8 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB000000BA1E7745D841B11C74.png" />  
+  user2 is the supervisor of user4, user5, and user8 <img src="../copy-of-chart-pur-import-options.assets/6ae80f3bfdf8f898f1c2427784b1a093.png" />  
 
   
-  user3 is the supervisor of user6, user7, and user9 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB000000C094A464D0B70D66E3.png" />  
+  user3 is the supervisor of user6, user7, and user9 <img src="../copy-of-chart-pur-import-options.assets/a49e45814858557f3a79bdc91302175d.png" />  
 
   
-  user8 is the administrative assistant of user1 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB00000091BB4BA2B6AAF89086.png" />  
+  user8 is the administrative assistant of user1 <img src="../copy-of-chart-pur-import-options.assets/09809a31ce8f0500ecb02a1a6c1283d3.png" />  
 
   
-  user9 is the administrative assistant of user2 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB0000008BEA2347B861170B13.png" />  
+  user9 is the administrative assistant of user2 <img src="../copy-of-chart-pur-import-options.assets/5398c38fd1685657853f78a41c301520.png" />  
 
   
 ### Import Updated Data  
@@ -90,33 +90,33 @@ The imported file is processed as follows:
   
 No options are specified, so the default options of REVISE and DELETE_BLANK are used. Changes to the Supervisor role are as follows:
   
-  user1 is not a supervisor anymore <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB00000077FFC1401BDA3967AD.png" />  
+  user1 is not a supervisor anymore <img src="../copy-of-chart-pur-import-options.assets/6989e90e60202162e8aa026477d17342.png" />  
 
   
-  user2 is the supervisor for user5, user8, and user9 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB000000BF754A6BF495ED0992.png" />  
+  user2 is the supervisor for user5, user8, and user9 <img src="../copy-of-chart-pur-import-options.assets/add60e64ec554dc53b46da036a5f1c74.png" />  
 
   
-  user3 is the supervisor for user2 and user4 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB000000A4546E8BFB1756FB92.png" />  
+  user3 is the supervisor for user2 and user4 <img src="../copy-of-chart-pur-import-options.assets/475dd523b3e202bee3df41e59107a10e.png" />  
 
   
-  user4 is the supervisor for user6 and user7 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB000000BCD44FB293A0E23E10.png" />  
+  user4 is the supervisor for user6 and user7 <img src="../copy-of-chart-pur-import-options.assets/3d4b256b35e3b53c8ef0dc441f454628.png" />  
 
   
 #### Administrative Assistant (1)  
   
 The DELETE_THEN_INSERT option is used. Changes to the the Administrative Assistant role are as follows:
   
-  user8 is the administrative assistant for user3 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB0000008E5AB0CF4362710142.png" />  
+  user8 is the administrative assistant for user3 <img src="../copy-of-chart-pur-import-options.assets/ee8c950d8467cef921b10800df9d76da.png" />  
 
   
-  user9 is the administrative assistant for user2 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB000000910C92E0BE7B938A52.png" />  
+  user9 is the administrative assistant for user2 <img src="../copy-of-chart-pur-import-options.assets/344fbdc63dcd779463a55bc14edfeedc.png" />  
 
   
 #### Administrative Assistant (2)  
   
 The INSERT and IGNORE_BLANK options are used. Changes to the Administrative Assistant role are as follows:
   
-  user4 is also an administrative assistant for user3 <img src="../copy-of-chart-pur-import-options.assets/10000201000002DB000000BC8C402C4D4FD9A999.png" />  
+  user4 is also an administrative assistant for user3 <img src="../copy-of-chart-pur-import-options.assets/76a89d073e58371717549e913ef8864a.png" />  
 
   
 ## Related Pages  

@@ -10,7 +10,7 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - 'https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
 source: 'https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Vision Data Entry'
@@ -30,7 +30,7 @@ To access and utilize a bubble form to record information, simply navigate to th
 1. While in the appropriate chart, access and print the vision bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
   
-![](../vision-data-entry.assets/10000201000004AF0000013CF302E3F8EDECDEA0.png)  
+![](../vision-data-entry.assets/bfebe1e7a6b81197fa3e531248a1bb90.png)  
 
 3. Print out the bubble form. Once the results have been recorded by coloring in the respective bubbles, scan and index the form(s) back into the appropriate chart(s).
 {{% info %}}
@@ -47,30 +47,30 @@ There are alternative, manual processes outside of using and scanning in bubble 
 An alternative to the bubble form is the manual process of entering results through an encounter.
 Vision data may be added to an encounter in multiple ways. One method is by checking the appropriate vision screening/test/order from the **Due List**, found in the *Tests & Procedures* section of the encounter, then using the **Add to Exam** button to allow for manual entry or device import.
   
-![](../vision-data-entry.assets/100002010000047F000001B8CB7F05E0F1685291.png)  
+![](../vision-data-entry.assets/e64f54eecdefef092bc7b676967c0b39.png)  
 
 If the vision order is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter.
   
-![](../vision-data-entry.assets/10000201000001DA000000CBE43E7A2AFD9224FB.png)  
+![](../vision-data-entry.assets/f7aeb61fce920c42da70d8b2fe0b7381.png)  
 
 Alternatively, the vision screening/order may be selected using the **Picklist** icon by selecting the order from the list and adding it to the encounter.
   
-![](../vision-data-entry.assets/10000201000004AD000002481CE8BF8C27B156FD.png)  
+![](../vision-data-entry.assets/4e4af05114dfdb8756cd510c5ce68d92.png)  
 
   
 ### Add From Chart Tab  
 
 Navigating to the **Test Results** chart tab allows users to select what type of results need to be entered or reviewed. One of the types of results is **Vision** results. When selected, the screen will display a **List View** of all of the vision encounters that are archived/closed (i.e., stored encounter documents). Below that, it will show a **Summary** of the observations in the chart.
   
-![](../vision-data-entry.assets/1000020100000556000001DB37537A43001DD0B0.png)  
+![](../vision-data-entry.assets/87f6f4d68ae4d8aa8000e9d17e56c042.png)  
 
 1. Click the <strong>Add Vision Screening</strong> link, in the upper-right corner. This will open the Vision Screening data fields for input.
   
-![](../vision-data-entry.assets/10000201000005560000013E995D2522E90A5C38.png)  
+![](../vision-data-entry.assets/25b32e9c45d52419e614c572927bdcd5.png)  
 
 2. If the Vision Screening input fields do not display, verify the <strong>Manual Vision Process</strong> link is selected.
   
-![](../vision-data-entry.assets/10000201000002FD0000024F05B82F79847ABBFB.png)  
+![](../vision-data-entry.assets/8d50c2002ae37ee94b04621a7f0535e6.png)  
 
 3. When finished, click the <strong>Submit</strong> button.
 The data will be stored in the system as observations, found in the **Observations/Flowsheets** and **Test Results** chart tabs. If the recorded data is preferred elsewhere in the system, do not hesitate to reach out to us. We are happy to work with clients to develop ways to address any specific business needs.
@@ -79,7 +79,7 @@ The data will be stored in the system as observations, found in the **Observatio
 
 When accessing the Test Results chart tab after adding a new vision screening, there is the ability to upload results from a device or enter data manually. To utilize the semi-automatic process of uploading results from a file, simply use the **Automatic** link, when determining the **Vision Process** for inputting the results.
   
-![](../vision-data-entry.assets/10000201000002EC000001D2B7D4CBDB9A740C4F.png)  
+![](../vision-data-entry.assets/1729a184abfd46d775fdece5a9ff5a01.png)  
 
 For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs).
   
@@ -87,5 +87,5 @@ For more information on device interfaces and file uploads, see the help documen
 
 These types of report links are generally found in the sidemenu tab, under the grouping of reports. These reports enable a client to review the various data captured during a visit, or encounter. The Vision Screenings report is available here, for example.
   
-![](../vision-data-entry.assets/100002010000044D0000024A369DE7AC58B4BCA7.png)  
+![](../vision-data-entry.assets/04f5c30a649a36abbd640bf475de447e.png)  
 

@@ -7,7 +7,7 @@ lastAuthor: 'Aris Eracleous'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Employer Portal Setup'
@@ -30,19 +30,19 @@ Again, before configuring the Employer Portal, it must be enabled within the sys
 4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43" %}}  tab.
 5. Click on the <strong>General Configuration</strong> section header to open and select the appropriate features to enable all portals that are necessary.
 
-   <img src="../employer-portal-setup.assets/10000201000004BE0000023A9109D115F01483C6.png" />  
+   <img src="../employer-portal-setup.assets/1944d98e352760503335666f8275eb27.png" />  
 
 
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
 7. With the portal setup completed, locate the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} tab of the PO, to begin work on that portal's configurations.
 
-   <img src="../employer-portal-setup.assets/10000201000004C10000019A39195F0C2908C259.png" />  
+   <img src="../employer-portal-setup.assets/912806c78f3c4942295109fde265a732.png" />  
 
 
 8. Any permissions or settings that need to be addressed can be found under the Security Requirements section near the top of the page, and the configuration and modules can be adjusted, using the remaining sections, as needed.
 
   
-![](../employer-portal-setup.assets/10000201000004BE0000026F346134F9B8E8EFEB.png)  
+![](../employer-portal-setup.assets/b9bd061944738fc2da43103f05cdc6cf.png)  
 
 
 9. To begin the customization, click the <strong>Configuration</strong> section header to open and begin editing.
@@ -61,11 +61,11 @@ Miscellaneous
 
 Home Page
 * <strong>View Sample</strong>  
-   (<img src="../employer-portal-setup.assets/10000201000000130000000F79AC258067C48B47.png" />  
+   (<img src="../employer-portal-setup.assets/e90ca94852bca1255ff5a0074613a42c.png" />  
   ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
 
   
-![](../employer-portal-setup.assets/10000201000002B8000002123C81657313425D9E.png)  
+![](../employer-portal-setup.assets/67b5ef8147665c28980e597991cfdc80.png)  
 
 
 * <strong>Brand for portal welcome message</strong>: The name or brand to be used in the Welcome Message. By default, the word NoMoreClipboard will be populated, but this field can be updated with up to 25 characters. Click Show Sample to see where this occurs.
@@ -93,7 +93,7 @@ The expanded Select Module section allows for configuration of each module, if n
 1. Clicking on the <strong>Select Modules</strong> header will open a window with all of the default-enabled modules of the Employer Portal checked. Add or remove modules, as needed, and click the <strong>Save</strong> button.
 
   
-![](../employer-portal-setup.assets/10000201000004C10000026C04E6CB40FE50B58B.png)  
+![](../employer-portal-setup.assets/2cb219d178f197f5e72c2b5e5ab15c8b.png)  
 
 
 2. There are ten (10) modules that can be selected within the Employer Portal, as well as the ability to link to questionnaires/forms, as needed:

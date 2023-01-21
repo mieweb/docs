@@ -1,9 +1,9 @@
 ---
 id: '1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
 title: 'Real World Testing Plan 2023'
-date: '2022-12-01T16:38:08.082Z'
-version: 602
-lastAuthor: 'Dave Carlson'
+date: '2022-12-09T16:42:47.209Z'
+version: 708
+lastAuthor: 'Theresa Juillerat'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -33,7 +33,7 @@ links:
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
 source: 'https://drive.google.com/open?id=1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 ---
 ## General Information  
 
@@ -58,7 +58,7 @@ wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 </tr>
 <tr>
 <td><strong>Certified Health IT Product List ID(s)</strong></td>
-<td>TBD*</td>
+<td><strong>0015E8UJ8KHX8QL</strong></td>
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
@@ -615,7 +615,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 </tr>
 <tr>
 <td><strong>Health IT Module CHPL ID</strong></td>
-<td>TBD*</td>
+<td><strong>0015E8UJ8KHX8QL</strong></td>
 </tr>
 <tr>
 <td><strong>Method used for standard update</strong></td>
@@ -699,6 +699,9 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 <tr>
 <td><a href="https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure">§170.315(c)(1): CQMs – record and export</a></td>
 <td>(c )(1)(i) - Record</td>
+</tr>
+<tr>
+<td></td>
 </tr>
 <tr>
 <td>(c )(1)(ii) - Export</td>
@@ -1582,6 +1585,7 @@ Any formatting or stylesheet errors identified by the CDA validator will be trac
 #### Care Setting(s)  
   
 Primary, specialties, small, large
+
   
 ### Measure 20: Patient Data requests VIA API  
 
@@ -1792,7 +1796,7 @@ We will report on the following data elements being created or edited in patient
 * Goals
 * Health concerns
 * Health status evaluations and outcomes
-* interventions
+* Interventions
   
 #### Expected Outcome(s)  
   

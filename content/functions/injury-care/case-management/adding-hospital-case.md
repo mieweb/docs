@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Adding Hospital Case'
@@ -35,19 +35,19 @@ By default, the Case section of encounters will display the following case types
 * Medical Surveillance
 
   
-![](../adding-hospital-case.assets/10000201000004A400000102E8549FDCA2FE867C.png)  
+![](../adding-hospital-case.assets/895ee8d7d82d2149015041165ef84d4f.png)  
 
 
 If you wish to document a new case, click the header or **Edit** (Pencil) icon of the **Case** section in the dynamic encounter.
 
   
-![](../adding-hospital-case.assets/10000201000004A400000102E5623BD7A1337E27.png)  
+![](../adding-hospital-case.assets/b634f8f1f09f299c7719210dd5a6b587.png)  
 
 
 Once the **Case** section is expanded, indicate which type of case to create on the chart by selecting the appropriate radio button. The type of case selected will determine other fields or radio button data to complete. Once you open/create a case, any documentation, encounter visit documentations, or the like can be linked to a specific case/incident the chart has had previously documented.
 
   
-![](../adding-hospital-case.assets/10000201000004A7000000D039287E81C426AB92.png)  
+![](../adding-hospital-case.assets/eba3696bba6cba90171e2fe3648265e7.png)  
 
   
 ## **Hospital Case Details**  
@@ -55,7 +55,7 @@ Once the **Case** section is expanded, indicate which type of case to create on 
 After selecting to create a Hospital case type, the only field that expands is the **Date and time** field, which is required as noted by the red asterisk, and is meant for documenting the onset date and time of the Hospital case/incident.
 
   
-![](../adding-hospital-case.assets/10000201000004A7000000D02E41CC6A50E4DEC3.png)  
+![](../adding-hospital-case.assets/d4529968221e52436b144bb45cf46814.png)  
 
   
 ### **Work Status (or Lost Time) Section**  

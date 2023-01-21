@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0'
   - 'mailto:support@nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Pat NMC Invitation'
@@ -48,7 +48,7 @@ To create a NoMoreClipboard.com Online Personal Health Record please follow the 
 2. In the create a new account section enter a username, email address, and secure password.
 3. Review and Accept the Terms and Conditions. Then click the "Create Account" button to proceed.
 4. In the "Member Activation Code" field enter L9SYXUSCS6CY .
-   <img src="../pat-nmc-invitation.assets/100002010000015E0000007768431EF9E948BF18.png" />  
+   <img src="../pat-nmc-invitation.assets/916f864aede06dde73af55788aae7eb0.png" />  
 
 5. Complete any remaining fields on the account registration screen and click on the "Submit" button to proceed to your personal health record.
 If you have any questions regarding your NoMoreClipboard account please contact us toll free at (877) 643-3463 or by email at [support@nomoreclipboard.com](mailto:support@nomoreclipboard.com).

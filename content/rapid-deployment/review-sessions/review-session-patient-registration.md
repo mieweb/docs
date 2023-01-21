@@ -20,7 +20,7 @@ links:
   - '../../functions/patient-registration/medical-record-numbers.md'
   - '../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '75ce6caac9758dd5c192aa0655418de357318c8a'
 menu:
   main:
     name: 'Review Session - Patient Registration'
@@ -55,7 +55,7 @@ Depending on the needs of the organization, entering and loading demographics ca
   
 As noted, a standard chart is typically created through an established HR interface; however, the customer may manually register new patients by navigating to the **E-Chart** sidemenu and selecting the [Patient Registration tab](https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration) at the top of the page.  
   
- ![](../review-session-patient-registration.assets/10000201000001A0000000B9366430DAA1F670E1.png)  
+ ![](../review-session-patient-registration.assets/ab1beee22b2e7404f4e4999814dc85f8.png)  
   
 Begin by entering some of the individual's information:
 * Last Name (required)
@@ -74,7 +74,7 @@ The Postal Code field will accommodate international postal codes and will displ
 
 To view any of the demographic information entered upon registration, navigate to the **Admin** chart tab of the individual's chart. The **Demographics** menu option is available from the Admin chart tab. When Demographics is selected, the page will load all of the information captured upon registration. Quick links are available for modifying or updating this information, as needed.
   
-![](../review-session-patient-registration.assets/10000201000004FA000002FF0FCDB3A2E48D2BEF.png)  
+![](../review-session-patient-registration.assets/94ae9e6d26b6be8e1a1fbceb548ae4c4.png)  
 
   
 #### E-Chart Photos  
