@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://oauth.net/2/'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 ---
 # OAuth 2.0 Overview  
   
@@ -27,7 +27,7 @@ Utilizing applications conforming to the SMART launch workflow, users will be di
 
 On this page, individual accesses may be customized or denied altogether.
   
-![](../oauth-2.0-tutorial.assets/100000000000024D000003A9E512DDE35DF1AC55.png)  
+![](../oauth-2.0-tutorial.assets/9342a1b459cf31ae58c01edf74094894.png)  
 
 If allowed, the application will then be permitted to access the user's data via the FHIR API.
   
@@ -37,27 +37,27 @@ The Quickview contains a FHIR Launch portlet which allows launching configured a
 
 Navigate to the Quickview sidemenu tab
   
-![](../oauth-2.0-tutorial.assets/10000000000003DB000001C70C0E56B3DBAD3017.png)  
+![](../oauth-2.0-tutorial.assets/96badb5c6f9b75b63741a94bb9c552f2.png)  
 
 
 Open the Select Portlets manager
   
-![](../oauth-2.0-tutorial.assets/10000000000003DB000001C70E6B9C263A13A149.png)  
+![](../oauth-2.0-tutorial.assets/c1629683b0a19ba5d8c3a9b36295fa1c.png)  
 
 Select the FHIR Launch portlet
   
-![](../oauth-2.0-tutorial.assets/10000000000001F300000244AD6BDD366A9426B8.png)  
+![](../oauth-2.0-tutorial.assets/04d97094b29274c805888eb83963ad69.png)  
 
 Utilizing the links to the configured applications present in the FHIR Launch portlet will allow EHR Practitioner access to those applications.
   
-![](../oauth-2.0-tutorial.assets/1000000000000259000001B92CBF914EFE4B3ECB.png)  
+![](../oauth-2.0-tutorial.assets/758ff21d8af26d1e930bcb8aed3706e4.png)  
 
   
 ## Revocation of Access  
   
 Users may revoke access to any applications previously granted access via the Token Administration tool.
   
-![](../oauth-2.0-tutorial.assets/1000000000000741000003C39F434CC820EAC450.png)  
+![](../oauth-2.0-tutorial.assets/1c635a0c5501b22f3688af9a5ba043cd.png)  
 
   
 ## SMART Backend Services  

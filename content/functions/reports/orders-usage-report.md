@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1t7e9aucgiVOYrb6TxzA_fD1aG3VRWSNUcwJyNaENOd0'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Orders Usage Report'
@@ -20,7 +20,7 @@ Click *Reports* tab on the left sidebar menu.
 Click *Order Usage Report* tab.  
 The orders usage report filters screen will open. Enter any criteria fields you wish to narrow down your results for.
   
-![](../orders-usage-report.assets/10000201000001C80000017B0EBC3C1BFDAD1706.png)  
+![](../orders-usage-report.assets/3e902fb52705f8a16c0db46f1794efa9.png)  
 
 Fields are optional to narrow down your search results:
 * <strong>Ordered Dates:</strong> Type in a specific date range to view results for.
@@ -37,10 +37,10 @@ Fields are optional to narrow down your search results:
    * <em>Show detailed list</em> is automatically checked. This shows a detailed list of patients and order specifics, along with the overall results. If you uncheck-mark this, you will not see a patient specific listing and will only see the overall results for your criteria field search.
    * <em>Show contents of panels</em> is automatically checked. This shows the order panel column and item contents of any panels that were ordered. These panel contents will render in your search results if checkmarked. If you uncheck-mark this, you will not see the specific panel contents in your results.
   
-![](../orders-usage-report.assets/100000000000037C0000011F7385ABF0E893EA00.png)  
+![](../orders-usage-report.assets/fbceade325d80bea3994cbdbc0e21c47.png)  
 
 Click the SEARCH button to render your results. It reports on how many of specific orders are ordered by location, by provider, and can output details of the orders.  
 If you wish to print your report results, simply click view printable link at the top right of your search results screen. To modify your search without having to start all over, click the modify search link. The Save Printable View link saves the printable view as a time stamped html file.
   
-![](../orders-usage-report.assets/10000201000002DA000001148CCC0CEDE34302B2.png)  
+![](../orders-usage-report.assets/ef16360e7ddb52eeb1e1eb8e77da6ed0.png)  
 

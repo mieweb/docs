@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Closing an Existing Case'
@@ -24,7 +24,7 @@ A Case is a full report of a workplace injury, or incident, for an employee (pat
 The dynamic encounters offer a Case section.  To see the listing of cases/incidents a chart has while working in an encounter, you must expand the Case section in the encounter.  
 
   
-![](../closing-an-existing-case.assets/10000201000004830000008D7B5A803F023346F2.png)  
+![](../closing-an-existing-case.assets/53634e10054f1002bb6009bf2c547b91.png)  
 
 
 When expanded, the Case section lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient. From this listing of cases, in the options column you can close a case.  
@@ -33,7 +33,7 @@ Closing a case is separate/different than closing & archiving an encounter.  A 
 To close a case when working in an encounter is done by clicking the Close hyperlink found in the options column of the listed cases the chart has on it.
 
   
-![](../closing-an-existing-case.assets/1000020100000482000000F37D5096FAC6090237.png)  
+![](../closing-an-existing-case.assets/860813d300e806d443b5c4b09e1218ba.png)  
 
 
 {{% note %}}
@@ -44,13 +44,13 @@ If your preference to show closed cases is enabled, closed cases will also be li
 A pop-up window will display to key in the date this case is considered closed entirely. Then click the Close button.
 
   
-![](../closing-an-existing-case.assets/10000201000001610000006F4DA9D9AEBB01E429.png)  
+![](../closing-an-existing-case.assets/320dba5860432224ff0d3311266661de.png)  
 
 
 The date indicated as the close date will be displayed in the case section listing in the Conculsion Date column.  Notice also, that the close hyperlink is no longer available since you have already closed a specified case.
 
   
-![](../closing-an-existing-case.assets/1000020100000483000000CF06538B40C7166D29.png)  
+![](../closing-an-existing-case.assets/245c712d3a6b291a124847c942ea7288.png)  
 
   
 ### **Closing a Case from the Cases Chart Tab**  
@@ -58,25 +58,25 @@ The date indicated as the close date will be displayed in the case section listi
 You can also close a case from the Cases chart tab when working in a chart.  The Cases chart tab lists all cases for the chart.  This chart tab shows any and all open and closed cases.  It does not show any deleted cases. There is a "show/hide closed" button that will show or hide closed cases from your view based on your preference.
 
   
-![](../closing-an-existing-case.assets/10000201000004BE0000014DA46FE6D8D269508C.png)  
+![](../closing-an-existing-case.assets/99ca7c2d5471e766e207d4b30a10f00d.png)  
 
 
 To close an open case from the Cases chart tab, simply click the Close link found in the options column on the specified case.
 
   
-![](../closing-an-existing-case.assets/10000201000004BE0000014D2A4C2E5710DA9208.png)  
+![](../closing-an-existing-case.assets/01c78062bce038cf6f229046b233c8d4.png)  
 
 
 A pop-up window will display to key in the date this case is considered closed entirely. Then click the Close button.
 
   
-![](../closing-an-existing-case.assets/10000201000001610000006F4DA9D9AEBB01E429.png)  
+![](../closing-an-existing-case.assets/320dba5860432224ff0d3311266661de.png)  
 
 
 The date indicated as the close date will be displayed in the case section listing in the Conculsion Date column.  Notice also, that the close hyperlink is no longer available since you have already closed a specified case.
 
   
-![](../closing-an-existing-case.assets/1000020100000483000000CF06538B40C7166D29.png)  
+![](../closing-an-existing-case.assets/245c712d3a6b291a124847c942ea7288.png)  
 
 
 {{% info %}}

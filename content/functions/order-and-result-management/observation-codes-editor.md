@@ -9,7 +9,7 @@ links:
   - 'flowsheets-editor.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager'
 source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Observation Codes Editor'
@@ -58,25 +58,25 @@ If an observation code is not available, or a new observation needs to be added,
 As noted, when users navigate to the , the page loads a summary list view of all available observation codes. If additional details are needed for a specific observation, users may click the **View** link from the *Options* column of the respective observation code. Clicking the **Obs Code** or **Obs Name** values will open the Observation Code View, as well.
 
   
-![](../observation-codes-editor.assets/10000201000004FB000001FDE8302E25C33BD1DB.png)  
+![](../observation-codes-editor.assets/1c06defe5766a2c403df92b4881ce734.png)  
 
 
 Viewing an observation code will provide additional details, such as HL7 Translations, Flowsheets containing the observation, specified ranges, custom discrete values, and charts matching a specified target.
 
   
-![](../observation-codes-editor.assets/100002010000050A000002AC29E155B5787438B9.png)  
+![](../observation-codes-editor.assets/08a9272c43a1de33bbdb23070043e9e4.png)  
 
 
 The number of times the respective observation code has been used within charts throughout the system is also available, listed as the **Observation Count**. This is particularly useful when merging or maintaining observation codes.
 
   
-![](../observation-codes-editor.assets/10000201000004F4000001AAF7F94E3FBA929D64.png)  
+![](../observation-codes-editor.assets/00bb67ae17ea3ef22ad9ec6fbc3698ef.png)  
 
 
 The Observation Count value is a hyperlink. When clicked, a detailed list of all associated charts with the respective observation code will display, along with the result, observation data/time, etc.
 
   
-![](../observation-codes-editor.assets/10000201000004FA000002DA896ABB0BC7448D82.png)  
+![](../observation-codes-editor.assets/08efea25cd79bb1b316a645d57d2dc15.png)  
 
 
   
@@ -85,7 +85,7 @@ The Observation Count value is a hyperlink. When clicked, a detailed list of all
 To edit an existing observation code, users with the necessary security permission may click the **Edit** link from the *Options* column of the respective observation code. This will open the Observation Code Editor. Make any and all necessary changes, and click the **Save** button to submit the edits.
 
   
-![](../observation-codes-editor.assets/10000201000005A00000024FA73B57A8D6848515.png)  
+![](../observation-codes-editor.assets/b61b1a5a51b14159a22e93043f4271cf.png)  
 
 
 
@@ -97,7 +97,7 @@ When maintaining observation codes, there will be times when observation codes a
 To delete an existing observation code, simply click the **Delete** link from the *Options* column of the respective observation code. This will present a confirmation of the deletion. Click the **Delete** button to continue with the removal.
 
   
-![](../observation-codes-editor.assets/100002010000050A000001A693510738A2965B1B.png)  
+![](../observation-codes-editor.assets/90881575de3a975a3553212da0202236.png)  
 
   
 ### Merge  
@@ -107,13 +107,13 @@ Whenever merging observation codes, it is important to understand that the code 
 To merge an observation code, locate the observation being removed and click the **Merge** link from the *Options* column.
 
   
-![](../observation-codes-editor.assets/10000201000004FB000002323537A92A6B55FFD7.png)  
+![](../observation-codes-editor.assets/512ce94ca5014498c2a8809898ac6266.png)  
 
 
 When the Observation Code Merge page loads, **Enter Observation Code** will be the stored observation code retained within the system. Click the **Continue** button to save.
 
   
-![](../observation-codes-editor.assets/100002010000050A000001D5698DB98DCB1C1C04.png)  
+![](../observation-codes-editor.assets/6afe70381a50458b7223d94edd20628c.png)  
 
 
 
@@ -124,7 +124,7 @@ Once an observation code has been merged, it cannot be *unmerged*.
 After continuing, users will be prompted with a verification page. Before the Merge button is available, the verification must be checked. After the box has been checked, click the **Merge** button.
 
   
-![](../observation-codes-editor.assets/100002010000050A000002C8DC321B30BF3DD24B.png)  
+![](../observation-codes-editor.assets/cc4d55a9f205b3e8ddb1c04e4147e312.png)  
 
 
   

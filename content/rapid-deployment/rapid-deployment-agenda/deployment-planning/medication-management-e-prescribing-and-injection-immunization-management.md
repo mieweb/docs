@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-medication-management-electronic-prescribing.md'
   - '../../review-sessions/review-session-injection-immunization-management.md'
 source: 'https://drive.google.com/open?id=1-lISyynsVEL9vuPGAfFFS021RJmb6d37Y-yiasjxLf4'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Medication Management/E-Prescribing & Injection/Immunization Management'

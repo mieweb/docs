@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'File Documents'
@@ -30,7 +30,7 @@ To begin adding a file to a chart, navigate into the specific chart and click th
 Once the document/form library loads, select the **File** link, to filter the options. This will load an *Add Document Properties* screen, where users can browse for a file and upload it into the chart.
 
   
-![](../file-documents.assets/100002010000039C000001BCF170C28923766D54.png)  
+![](../file-documents.assets/a68c9fbb18e17cc2071f8935c8c25d96.png)  
 
 
 Once the *Add Document Properties* screen opens, begin filling in the necessary fields:
@@ -42,7 +42,7 @@ Users must have **Transcribe for Others** security access to author documents 
 **Storage Type:** This dropdown allows users to specify the storage type of the file being uploaded. If the wrong storage type is selected, the document will not display correctly, and an error may present when the **Add Document** button is clicked. For example, an email is stored as an Email storage type, or an XML file is a CCD or CCR Document, etc. For help determining and selecting a specific storage type, do not hesitate to contact Helpdesk.
 
   
-![](../file-documents.assets/10000201000001BD000003934C958E037A65DCF4.png)  
+![](../file-documents.assets/0ec7505ae4472d4093a7966af322eb07.png)  
 
 
 **Date of Service:** Provide the date of service for the document.
@@ -53,7 +53,7 @@ Users must have **Transcribe for Others** security access to author documents 
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters to assist with linking. If an encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and it will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out. If an encounter does not need to be linked, simply leave the encounter field blank.
   
-![](../file-documents.assets/10000201000003C1000000F1F4892718266B5DC3.png)  
+![](../file-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)  
 
 
 {{% info %}}

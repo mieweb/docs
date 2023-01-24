@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Sketch Documents'
@@ -23,7 +23,7 @@ The  {{% system-name %}} system is designed to allow sketches to be uploaded as
   
 To create a sketch document in a chart, first navigate to the Document Library by clicking any of the **Add Document** links, found throughout the chart. Once clicked, the library will load, and the **Sketch** filter link can be selected to reduce the available documents. Selecting the Sketch filter link will show only document types that can be drawn on and uploaded as a sketch files.
   
-![](../sketch-documents.assets/10000201000004AC00000141AF0A55C4B8C0B34E.png)  
+![](../sketch-documents.assets/69ff24483ba3307c961733b0174e955c.png)  
 
 
 {{% note %}}
@@ -32,11 +32,11 @@ If a specific document type is not listed, contact the system administrator to s
 {{% /note %}}
 Select the document type needing attached and uploaded to the chart by simply clicking the Sketch link following the appropriate document name.
   
-![](../sketch-documents.assets/10000201000004AC000001411F348640684EFDC3.png)  
+![](../sketch-documents.assets/c746bccf44af7baebf1c8da54deb9495.png)  
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
   
-![](../sketch-documents.assets/1000020100000264000002287962CD3F086FB730.png)  
+![](../sketch-documents.assets/adcbb429ab9e043d2e8dfa3192d20993.png)  
 
 **Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 {{% note %}}
@@ -54,7 +54,7 @@ In order to author documents for others, the user must have the Access Control 
 
 
 
-  <img src="../sketch-documents.assets/10000201000003C1000000F1F4892718266B5DC3.png" />  
+  <img src="../sketch-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png" />  
 
 
 {{% info %}}
@@ -75,7 +75,7 @@ The MIE Sketch Control plugin will need to be installed for first-time use. This
 The sketch control comes equipped with a toolbar for providing additional features designed to help with detailing sketches, as needed. The left toolbar, for instance, allows users to draw with various shapes, easily annotate, erase specific areas, as well as change the color of the pen. There are also undo and redo buttons available, a zoom feature, and an option to clear all. The toolbar across the top, on the other hand, is available for changing the pen width, as needed.
 
   
-![](../sketch-documents.assets/100002010000023F000001B000DF014DC3C3C04C.png)  
+![](../sketch-documents.assets/86c6839d102b3b916f5429d290f53b98.png)  
 
 
   
@@ -84,7 +84,7 @@ The sketch control comes equipped with a toolbar for providing additional featur
 As noted, the default pen color for sketches is black, but can be changed, as needed. It is important to note that regardless of the color used, the  {{% system-name %}} system will upload and save sketch documents so the preferred colors are displayed when viewed. As for printing sketches, however, only if the printer and  {{% system-name %}} system setting is enabled to allow color printing, will the sketch actually print in color. Otherwise, with color printing disabled in the system and on the printer, the sketch will print in black/white/grayscale format, regardless of the colors used on the sketch.
 To change the color of the pen, simply click the **stroke** button on the left toolbar, and a grid of color options will display. Click the preferred color on the grid and mouse over the sketch area to allow the color grid to collapse. Sketching can be performed, as needed.
   
-![](../sketch-documents.assets/1000020100000235000001ADC54AAD98FA37CA20.png)  
+![](../sketch-documents.assets/d8e44c34a21a7921080f64f9f134b33c.png)  
 
 
   
@@ -94,7 +94,7 @@ An additional feature on the left toolbar is the ability to add text annotations
 
 The text will display in the selected pen color.
   
-![](../sketch-documents.assets/10000201000002AC000001F318BFA0602B6FB348.png)  
+![](../sketch-documents.assets/3009977190c073233f8c9e34e72f6c08.png)  
 
 
   
@@ -110,11 +110,11 @@ Sketching is also available from within the encounter. Contact your Deployment C
 
 The sketch control functionality can be made available in the Tests & Procedures section of an encounter, if preferred. Configuration of the necessary sketch image document type must be completed, and MIE can configure an order item sharing the same name as the document type description. When a sketch order item is configured, it utilizes a special layout to pull in the sketch image of the matching document type of the forms library.
   
-![](../sketch-documents.assets/10000201000001C70000019E01A7737521EFBA95.png)  
+![](../sketch-documents.assets/619cb2e5d49e4137419cd4fb8c0946eb.png)  
 
 Once the sketch is configured in the system as an order item, users can quickly select the sketch image to drop into the encounter for documenting. From the Tests & Procedures encounter section, select the appropriate sketch order item and click the **Add To Exam** button.
   
-![](../sketch-documents.assets/10000201000002520000013459168085E8CD6DB3.png)  
+![](../sketch-documents.assets/2f864cdc1f5ef2c8b0feddbabc384b6a.png)  
 
 The sketch will be inserted into the encounter for drawing on as its own section.
 {{% tip %}}
@@ -123,7 +123,7 @@ Mark the sketch order item as Completed, so the order does not stay on the Due L
 {{% /tip %}}
 
   
-![](../sketch-documents.assets/100002010000048D000002517520146BDEA016D1.png)  
+![](../sketch-documents.assets/92fd2eca4c4e45651d96e99d81e712e9.png)  
 
   
 ## Edit/Delete a Sketch Document  

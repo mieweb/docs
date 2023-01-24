@@ -2,7 +2,7 @@
 id: '1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
 title: 'Review Session - Injury Care'
 date: '2022-11-07T21:28:20.698Z'
-version: 50
+version: 52
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
@@ -23,7 +23,7 @@ links:
   - '../../functions/reports/osha-300-log-report.md'
   - '../../functions/reports/incidents-report.md'
 source: 'https://drive.google.com/open?id=1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Review Session - Injury Care'

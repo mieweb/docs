@@ -2,7 +2,7 @@
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
 date: '2022-12-01T15:01:50.590Z'
-version: 594
+version: 599
 lastAuthor: 'Heather Drexler'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 ---
 ## Agenda  
 
@@ -172,7 +172,7 @@ To begin using the **First Time Setup**, click the section header to expand and 
 By default, any {{% system-name %}} user with the necessary user-patient relationships established can access the portal. This means that as long as the user-patient relationship is set correctly, the portal will be enabled for all security roles.
 {{% /info %}}
   
-![](../review-session-pre-placement.assets/10000201000002E0000001EF12720DA96B226995.png)  
+![](../review-session-pre-placement.assets/32b701192f2cfae38545b9644e67639a.png)  
 
 The **Portal** section includes options to make label and verbiage changes, to update the logo, to disable either the employee or supervisor portal, and to add a consent form that would need to be electronically signed before being granted access to the portal.
 
@@ -192,7 +192,7 @@ All other options are part of the standard configuration and are enabled by defa
 
 The applicant portal is a web-based platform available for screening new employees and streamlining the hiring process. The applicant portal is an optional module designed as a login terminal for increased usability. With it, employers have the ability to simplify the onboarding process and ensure all pre-employment needs are addressed early and accurately. This portal is configured so that candidates can be directed to the portal to complete forms and/or questionnaires, according to the hiring and pre-employment needs of the business. Candidates simply need to begin the portal session by entering their first and last name. Once the applicant has completed the forms/questionnaires, all of the information is submitted to the employer electronically. From here, a login-disabled user account will be drafted and linked to the pre-configured Applicant department, so if hired, the information can be easily merged into the employee user account.
   
-![](../review-session-pre-placement.assets/10000201000002EB00000172C0ED59A4F96E5894.png)  
+![](../review-session-pre-placement.assets/f9b755fa438b719330f844cf4a1ddea0.png)  
 
   
 ### System Configuration and Setup  
@@ -219,21 +219,21 @@ In {{% system-name %}} systems, workflows *use charts* for every patient, as wel
 
 There is a report available to list applicant partitioned charts that do not have the **_Is Applicant_** checkbox marked.  This checkbox indicates the chart is not flagged as temporary and wouldn't be able to be merged with a permanent employee record once they are hired.
   
-![](../review-session-pre-placement.assets/10000201000004E7000001C6C9284AD889B7EB13.png)  
+![](../review-session-pre-placement.assets/82df001feaa8291953454422aa781f62.png)  
 
 Clicking on that report will list any applicant partitioned charts without the *Is Applicant* box being checked in their chart. 
   
-![](../review-session-pre-placement.assets/10000201000006B4000000EDE34F9A6CD3C86E1A.png)  
+![](../review-session-pre-placement.assets/ed0682ed5931119e1a09629aab0dd024.png)  
 
 
  This is the opportunity to go into the listed chart(s) and fix that via edit demographics.
   
-![](../review-session-pre-placement.assets/1000020100000691000000C49BCAAA5A5B24A8AD.png)  
+![](../review-session-pre-placement.assets/6238ce4791c029a3ae959468bd02e54a.png)  
 
 
 In the the edit demographics screen, checkmark the *Is Applicant* box and click Save to save your work.
   
-![](../review-session-pre-placement.assets/10000201000006AD000003308E87F951CFCCE616.png)  
+![](../review-session-pre-placement.assets/4a84dee27538245b46dc8dc6266bf621.png)  
 
 
   

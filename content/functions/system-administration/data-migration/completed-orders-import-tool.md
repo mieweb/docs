@@ -13,7 +13,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Completed Orders Import Tool'
@@ -42,11 +42,11 @@ If you have panels with action items set to trigger on *prior action (completed
 Access the Data Import tab found in Control. See the [Data Import Tab](data-import-tab.md) help documentation.  
 Make sure all order items are listed in the import template tool that are part of the panel w/ a completion date, along w/ the representative event order item. Work with your MIE Implementer to import completed orders for Health Surveillance Panel needs.
   
-![](../completed-orders-import-tool.assets/100002010000034E0000011622D90AD0535559E0.png)  
+![](../completed-orders-import-tool.assets/b0bffbd5c9285eafb567f3850be952d3.png)  
 
 Importing prior order id's as ‘completed' will show them as completed along w/ the date in the Due List View along w/ the comment from the import tool spreadsheet.
   
-![](../completed-orders-import-tool.assets/100002010000048F000000705102DDAE5ECF3FA9.png)  
+![](../completed-orders-import-tool.assets/ed1c588f98b3f68c001e36251d2d9f8c.png)  
 
   
 ## **Specifications**  

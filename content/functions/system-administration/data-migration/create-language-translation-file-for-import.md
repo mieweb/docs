@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Create Language Translation File for Import'
@@ -63,7 +63,7 @@ See: <a href="https://www.iana.org/assignments/language-subtag-registry/language
 
 In Excel, save the sheet as Unicode Text.  This is important because **saving as CSV will NOT work** for many languages.
   
-![](../create-language-translation-file-for-import.assets/100002010000035A000001EB7DB7BBDA22DC90CF.png)  
+![](../create-language-translation-file-for-import.assets/25dc2afd0528e1c7a27167edd30ed8d1.png)  
 
   
 ## Upload Language Translation Text File  
@@ -72,24 +72,24 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 2. Navigate to the Control Panel from the side menu.
 
   
-![](../create-language-translation-file-for-import.assets/10000201000000BC00000116A7BD67E0C474E6E6.png)  
+![](../create-language-translation-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)  
 
 
 3. Select the Data Import tab.
 
   
-![](../create-language-translation-file-for-import.assets/10000201000001100000006549C20A8099BBAE2C.png)  
+![](../create-language-translation-file-for-import.assets/197af282190b350e97494ffba0636d29.png)  
 
 
 4. Select the Language Translation CSV API from the drop-down menu and click Go.
 
   
-![](../create-language-translation-file-for-import.assets/1000020100000186000000AB01EF93204CD6B60B.png)  
+![](../create-language-translation-file-for-import.assets/54cd31630e4b044a2caeb7278c721a22.png)  
 
 
 5. Choose Delimiter: (tab), select the Language Translation Text File and click Upload.
   
-![](../create-language-translation-file-for-import.assets/1000020100000343000001AADF058A603ACD0197.png)  
+![](../create-language-translation-file-for-import.assets/a20e7b30d9fd81f1bcb85dc70d3b93ec.png)  
 
 
   

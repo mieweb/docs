@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=miewebscan'
   - 'scanning.md'
 source: 'https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Batch Search in WebScan'
@@ -20,7 +20,7 @@ menu:
 In order to access the [WebScan](https://system/?f=miewebscan) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](scanning.md) help documentation.  
 To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any Checked-In batches will be listed under the Batch list view, by default. The Checked-in batches are various scanned documents ready to be indexed into the system.
   
-![](../batch-search-in-webscan.assets/10000201000005480000013E8ED32FF6F874C0FC.png)  
+![](../batch-search-in-webscan.assets/4dd8e397d14f595a6b41e9b49f7681cc.png)  
 
 To search for a scan batch, use the Batch Search Criteria search fields at the top of the page. Fill in the available fields to narrow the search, as appropriate.  
 **Batch ID**: These fields allow users to search a range of batches in the system. When entering a range, the lower batch number must be accompanied by a valid upper batch number. If only a lower batch number is provided, the upper batch number will be set to the same lower batch number value, meaning only the one batch will be searched. Likewise, if the upper batch number is invalid (e.g., non-numeric value or lower than the lower batch number), only the batch matching the lower batch number will be searched. If only an upper batch number is provided, the system will search all batches from zero up through the upper batch number specified.  
@@ -31,14 +31,14 @@ Completed and Deleted batches are purged from the system every 90 days. The Depl
 {{% /warning %}}
 **Comment**: This field is intended to allow users the ability to search comments provided on batches, and can be limited by a BEGINS WITH search, or an EXACT search, as needed.
 **Patient**  
-: Searching can be narrowed down to a specific patient/chart, MRN, Date of Birth, or SSN. For more information on how to utilize the autocomplete search, click the help bubble ![](../batch-search-in-webscan.assets/1000020100000001000000014C77D75F6DC67A52.png)  
+: Searching can be narrowed down to a specific patient/chart, MRN, Date of Birth, or SSN. For more information on how to utilize the autocomplete search, click the help bubble ![](../batch-search-in-webscan.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)  
  to the right of the field.
 **User**: Searching can be narrowed down to a specific user, if necessary. Simply type the first or last name of the user, and select the name from the autocomplete list of choices. Leaving this field blank will search by all users.
 **Account**: This field is intended for the account number created from the encounter. This is mostly used by hospital clients. The account number should not be confused for the encounter ID or the MRN.
 **Batch Date**: A provided date range will search for all batches created within the specified range.
 With the limiting criteria provided, simply click the **Search** button to show any applicable search results. The search results will display in the Batch list view, found below the search criteria fields. To perform another search, modify the fields as necessary, or click the **Clear** button to begin again.
   
-![](../batch-search-in-webscan.assets/10000201000005080000016BD2E064E4884B5C07.png)  
+![](../batch-search-in-webscan.assets/83b4d654af20d61517918e552da581dc.png)  
 
 {{% warning %}}
 

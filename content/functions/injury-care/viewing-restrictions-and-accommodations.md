@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Viewing Restrictions and Accommodations'
@@ -23,31 +23,31 @@ The restriction management function provides for the recording and documenting o
 From anywhere while working in the chart, if the chart has current active restrictions, they will display in the dark grey chart information bar. The restriction with the earliest start date that is still currently active (an active restriction) will display here in the grey chart information bar.
 
   
-![](../viewing-restrictions-and-accommodations.assets/100002010000049E0000015087D7EE5E13B03036.png)  
+![](../viewing-restrictions-and-accommodations.assets/98538ed5c9267f9add3b7a3252f54c69.png)  
 
 
 If the chart has any current active Lost Time accommodation, the lost time brief info will also display in the dark grey chart info bar.
 
   
-![](../viewing-restrictions-and-accommodations.assets/10000201000004A9000001578380A2D0BC2B3663.png)  
+![](../viewing-restrictions-and-accommodations.assets/f89438eae8a9dd2fd2fa22b3de2e97de.png)  
 
 
 From the lost time or the restrictions brief info in the chart info bar, there is a link Show More available in the chart information bar that takes you to the Restrictions/Lost Time chart tab to see a complete summary of the all current restrictions on the chart.
 
   
-![](../viewing-restrictions-and-accommodations.assets/100002010000049E000001507A473C41985B008E.png)  
+![](../viewing-restrictions-and-accommodations.assets/2baa47dca28f167ae50d5026e13a3478.png)  
 
 
 The Show More link will take you to the Restrictions/Lost Time chart tab summary view in a separate window.  Here you can view the chart's current active restrictions occupational and non-occupational, lost time summary along with other details.  Accommodations on a restriction will be indented underneath the corresponding restriction. It is possible for accommodations to be listed without a restriction tied to it, so in that case, those accommodations are not indented.
 
   
-![](../viewing-restrictions-and-accommodations.assets/10000201000004BA0000013E72E671D89E9C3D96.png)  
+![](../viewing-restrictions-and-accommodations.assets/07174f4f71dfe0139b7cd7ede640bc57.png)  
 
 
 To go to the detailed view, simply go to the right side and click the detail view icon.
 
   
-![](../viewing-restrictions-and-accommodations.assets/10000201000004BA0000013E8F5770E0D2D194EE.png)  
+![](../viewing-restrictions-and-accommodations.assets/d933a05eb44245815536cc442014d4a2.png)  
 
 
 This will open up a very detailed grid view of the chart's current active restrictions and accommodations or lost time.  Use the scroll bars to see more details. If you are in detailed view, any accommodation related to a restriction is in a separate column on the corresponding restriction line it's accommodating. It is possible for accommodations not to be tied to a restriction and for restrictions not to have accommodations and those would be listed separately.
@@ -55,7 +55,7 @@ This will open up a very detailed grid view of the chart's current active restri
 To go back to the bulleted summary view, simply click the summary view icon at the top right side just like how you got to detailed view.
 
   
-![](../viewing-restrictions-and-accommodations.assets/10000201000005460000018FD60A46A6101DF28C.png)  
+![](../viewing-restrictions-and-accommodations.assets/d97975dddf9fdd1aabe00628e4eb6b38.png)  
 
 
   
@@ -64,7 +64,7 @@ To go back to the bulleted summary view, simply click the summary view icon at t
 While working in an encounter, there is a Subjective section that you can jump to named Presenting Restrictions.  When you jump to that section, it will show you all presenting restrictions along with any accommodations in a summary format. The presenting restrictions displayed are active, current restrictions along with any accommodations that are current.  This section is for visibility purposes to quickly see any active restrictions a chart has when beginning an encounter exam.
 
   
-![](../viewing-restrictions-and-accommodations.assets/10000201000004960000021E5BF76A5269C8DE1B.png)  
+![](../viewing-restrictions-and-accommodations.assets/929b2a9a3513faf642629c8c062b9cf4.png)  
 
 
 {{% note %}}
@@ -78,7 +78,7 @@ Restrictions or accommodations cannot be added from the Presenting Restrictions 
 Any active current restrictions that are specifically linked to a case/incident are also displayed on the side chart.  When you open the side chart, any open cases/incidents for the chart are listed. When you expand a specific case, any linked restrictions and accommodations will be visible there also.
 
   
-![](../viewing-restrictions-and-accommodations.assets/10000201000004BC00000257C0C488D40009E6E6.png)  
+![](../viewing-restrictions-and-accommodations.assets/e0c6d6cb0809ea952e550a2a74c2e398.png)  
 
 
   
@@ -91,7 +91,7 @@ Inactive restrictions are restrictions that have passed their end date.
 Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time.  In order to view inactive restrictions within the Restrictions/Lost Time chart tab of the patient, simply click the section title bar Restrictions, Accommodations and Lost Time Summary to expand it.  Whether you are in summary view or detail view, when you click on the title bar that will open up the section to provide the Show Inactive hyperlink to view inactive restrictions on the chart.
 
   
-![](../viewing-restrictions-and-accommodations.assets/10000201000004950000022EA977276F84ADFDDE.png)  
+![](../viewing-restrictions-and-accommodations.assets/7a53b3502758e5b7808db0f772abb72b.png)  
 
 
 Once clicking the Show Inactive link, the summary view will show and incorporate all past inactive restrictions on the chart along with the current active restrictions. The "show inactive" also shows restrictions that did not have the entirety of the restriction accommodated.
@@ -106,7 +106,7 @@ When clicking on the title bar, it also opens up the ability to edit, delete and
 In order to view inactive restrictions within an encounter, simply click the encounter section Restrictions and Accommodations found in the Plan.  Inactive restrictions are restrictions that have passed their end date.  Whether you are in summary view or detail view, when you click on the section title bar that will open up the section to provide the Show Inactive hyperlink to view inactive restrictions on the patient.  Once clicking the Show Inactive link, the summary view will show all past inactive restrictions on the chart along with the current active restrictions if there are any.
 
   
-![](../viewing-restrictions-and-accommodations.assets/100002010000049D000001E82403F31F07A001B1.png)  
+![](../viewing-restrictions-and-accommodations.assets/1b9a456da19846fb188a00d41551cf47.png)  
 
 
 

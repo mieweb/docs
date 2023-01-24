@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Patient Assistance Inventory'
@@ -18,11 +18,11 @@ menu:
   
 If you need to add inventory specifically tied to an individual patient because your practice uses patient assistance programs, you have to enter add the specific inventory item into the specific patient's chart via their *Dispense* chart tab.
   
-![](../patient-assistance-inventory.assets/10000201000004F6000000D32E3297CC14E5A316.png)  
+![](../patient-assistance-inventory.assets/6fe000078833b450247b21a1cb5f1560.png)  
 
 Depending on how your practice is set up and what all you track for Inventory, your *Receive Patient Meds* (adding patient specific inventory) entry fields may be different.
   
-![](../patient-assistance-inventory.assets/10000201000004C10000009492F75C3AFE136BD2.png)  
+![](../patient-assistance-inventory.assets/a623c4e138da4b46ae17135bf7614313.png)  
 
 To add a quantity of received meds into this specific patient's assistance (patient inventory) fill out the fields in the *Receive Patient Meds* screen. Use your tab key to advance to each field.
 * <strong>Site</strong>: Is which site the meds till be available at.
@@ -45,7 +45,7 @@ You will get a confirmation at the top stating the system received the medicatio
 
 When you go back into the patient's Dispense chart tab, you will see their received medications you entered into the patient's assistance inventory (for that specific patient) using the Receive Patient Assistance feature. It is the last bucket in the Dispense chart tab named *Patient Assistance Inventory*.
   
-![](../patient-assistance-inventory.assets/10000201000004DE000001A7210978ED0FC045E5.png)  
+![](../patient-assistance-inventory.assets/db0810fe9991713e25b2b8fd92609b33.png)  
 
 If you need to add inventory as donated or as general inventory, you need to do that through the Add Donated tab or the Add Inventory tab which is separate from the specific patient's assistance inventory. (See other help documentation named *Add Inventory* and *Add Donated*).
   
@@ -56,6 +56,6 @@ If you need to add inventory as donated or as general inventory, you need to do 
 
   
   
-## ![](../patient-assistance-inventory.assets/100002010000054E00000192632B6109DA3B44D0.png)  
+## ![](../patient-assistance-inventory.assets/11c9731ea800197db82a309a280f6a45.png)  
   
 

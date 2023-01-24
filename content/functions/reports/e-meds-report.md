@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1fNg0sAfSa--FDnU7IhltWryuzjmLbiqj7K7tEymrRSA'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'E-Meds Report'
@@ -20,22 +20,22 @@ Click *Reports* tab on the left side-bar menu.
 Click *E-Meds Printed/Faxed/E-Sent* tab from the top tab menu.  
 A search engine shows on the screen.
   
-![](../e-meds-report.assets/1000000000000395000001817CBAA0F044F95BF7.png)  
+![](../e-meds-report.assets/dccec6520c8b9ec60c321231543901f4.png)  
 
 * <strong>Start/End Date:</strong> You must enter a date range. Both dates must be entered.
 * <strong>Prescriber:</strong> This is optional and you do not need to enter anything here. If you do wish to only show results limited to a specific prescriber, please begin typing the <em>last name</em> of the user and the system will auto-complete your choices.
    * You must select from one of these choices. It will not accept free-text.
   
-![](../e-meds-report.assets/10000000000001F7000000981861EC8FE2550F98.png)  
+![](../e-meds-report.assets/3205306a5c31dbc453ffd85389c97d7f.png)  
 
 Click the SEARCH button to show your search results.  
 When you click SEARCH, it will show your results below it.  
 This report shows total # at the bottom, then lists individual mr#, patient full name, the medication name that was prescribed, the date/time it was printed or faxed or e-sent (electronically transmitted via SureScripts), the patient's appt date, and the name of the prescribing physician.
   
-![](../e-meds-report.assets/10000000000003920000002ABD1E6BF23CAF24F3.jpg)  
+![](../e-meds-report.assets/d6d2e1d7029e2ceb1123d783f7bb353d.jpg)  
 
 The Method column tells you if that prescription was printed or faxed.
   
-![](../e-meds-report.assets/100000000000038C00000129BACA202DFC9D051A.png)  
+![](../e-meds-report.assets/2f791fca3c810b42a9a10c5b05332620.png)  
 
 This log/report shows *all* patients who had prescriptions printed or faxed or e-sent through E-Meds module.

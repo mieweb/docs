@@ -8,7 +8,7 @@ links:
   - 'https://innovation.cms.gov/'
   - 'https://qpp.cms.gov/'
 source: 'https://drive.google.com/open?id=12p7Iy880e45Q2ET2g2wDFFRzSW5kUkrwhO8Y77UhkfQ'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'MACRA: Quality Payment Program (QPP)'
@@ -18,7 +18,7 @@ menu:
 ---
 Keeping You Ahead of the Game
   
-![](../macra-quality-payment-program-qpp.assets/100000000000012C000000FA4CA2050AE269E960.jpg)  
+![](../macra-quality-payment-program-qpp.assets/35b3ede081fc9fe9b8e9fb392e100ed4.jpg)  
 
   
 ## MACRA  
@@ -32,14 +32,14 @@ The Medicare Access and CHIP Reauthorization Act of 2015 (MACRA) was signed into
 The Centers for Medicare & Medicaid Services (CMS) has designed flexibility and tractability into the initial performance period (CY 2017), calling it the *transition year*.  
 For MIPS, the transition year comes with a *Pick-Your-Pace* method, or for APM participants, an opportunity with Advanced APMs. For MIPS, the performance threshold has been lowered, so only those uninterested in submitting any data will see a negative payment adjustment in 2019. Otherwise, the potential for positive adjustments is great, given potential maximum adjustments will increase each year, from 2019-2022.
   
-![](../macra-quality-payment-program-qpp.assets/10000201000002BC000001904C626D4B7CFF8D26.png)  
+![](../macra-quality-payment-program-qpp.assets/fdc36614e6040324e87099380290dffc.png)  
 
   
 #### Eligibility  
   
 Depending on the direction of an entity, given its resources and patient population, qualification in the QPP may vary. Meet the various criteria for APM participants, to take part in Advanced APMs, or meet the Medicare Part B billing and patient thresholds, to participate in MIPS. For more information on eligibility for MIPS or APMs, visit CMS' [Innovation Center](https://innovation.cms.gov/), Quality Payment Program [site](https://qpp.cms.gov/), or reach out to MIE.
   
-![](../macra-quality-payment-program-qpp.assets/1000020100000320000004B098C0D4DA8A9F3722.png)  
+![](../macra-quality-payment-program-qpp.assets/734099129fcf942b3de8a8ca31b4c2b8.png)  
 
   
 ### Incentivizing Performance  
@@ -54,7 +54,7 @@ When participating in traditional APMs, entities receive the potential MIPS adju
   
 Though MIPS also pays out according to performance data, there are specific criteria outlined within four performance categories. These categories are weighted according to the criteria of their respective measures, as determined by the Measurement Development Plan (MDP). The measured categories are as follows:
   
-![](../macra-quality-payment-program-qpp.assets/100002010000024000000150C0FE751F3F66CD55.png)  
+![](../macra-quality-payment-program-qpp.assets/5712451dd441e67efa0f54a2ce7bcc4e.png)  
 
 1. <strong>Quality</strong> - Replaces the legacy program PQRS
 2. <strong>Cost</strong> - Replaces the Value-based Modifier
@@ -87,7 +87,7 @@ Though MIPS also pays out according to performance data, there are specific crit
 ### Pick Your Pace and Enroll  
 
   
-![](../macra-quality-payment-program-qpp.assets/1000020100000001000000014C77D75F6DC67A52.png)  
+![](../macra-quality-payment-program-qpp.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)  
 
 Given the built-in leniency of 2017 reporting requirements and the ability to *Pick Your Pace*, MIE wants to ensure all options are available to our clients, from the onset. The first step in determining your pace is knowing what type of payment adjustment you want. With that, you determine your participation rate, and leave the rest to MIE.
   
@@ -97,13 +97,13 @@ Enrolling, or opting in, is *currently* no different than previous years and tho
 If you are planning a full-year performance period, and want to get ahead of the game and opt into MIPS by January 1, follow the steps below :
 1. Click <strong>Opt-in</strong> from within the Meaningful Use portlet.
   
-![](../macra-quality-payment-program-qpp.assets/10000201000003F6000000E6726089EFE15EE356.png)  
+![](../macra-quality-payment-program-qpp.assets/47cd2e1ba3258cceb8c44c32520c7f45.png)  
 
 1. Change the Enrollment Year to <strong>2017</strong>.
 2. Checkmark the Opt-in box.
 3. Click <strong>Submit</strong>.
   
-![](../macra-quality-payment-program-qpp.assets/10000201000007CF000003FF9565C2857C96DAED.png)  
+![](../macra-quality-payment-program-qpp.assets/ddb53c0992cf8480c29efc0140867fcb.png)  
 
   
 #### Questions  

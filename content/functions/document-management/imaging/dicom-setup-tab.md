@@ -12,7 +12,7 @@ links:
   - 'https://system/?f=dicom&s=app_entities&opp=add'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
 source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'DICOM Setup Tab'
@@ -28,7 +28,7 @@ Access to the [Dicom Setup tab](https://system/?f=dicom&dcfunc=aeedit) requires 
 The [DICOM Setup tab](https://system/?f=dicom&dcfunc=aeedit) is both a dashboard with search functionality, as well as a link to add or edit the Application Entities information. There is also a "basic" or "advanced" search capability at the top left corner of this screen to search for DICOM routes in the categories of the dashboard.
 
   
-![](../dicom-setup-tab.assets/10000201000004AD0000020CEE38906D495EAD5C.png)  
+![](../dicom-setup-tab.assets/3a9929a7b2969bf21b78ea458e99a58a.png)  
 
 
   
@@ -38,13 +38,13 @@ Access to view and manage Application Entities requires the Application Entities
 To view application entities, simply click the [View Application Entities](https://system/?f=dicom&s=app_entities) hyperlink in the [DICOM Setup](https://system/?f=dicom&dcfunc=aeedit&tabmodule=admin&tabselect=Dicom+Setup) tab found within the **Control Panel** sidemenu.
 
   
-![](../dicom-setup-tab.assets/10000201000004AD0000020C5FBC1088FBEF7955.png)  
+![](../dicom-setup-tab.assets/f81a935d569d0fc54de08d08675b6c17.png)  
 
 
 To add an Application Entity, once in the Application Entities, simply select the [Add Entity](https://system/?f=dicom&s=app_entities&opp=add) link.
 
   
-![](../dicom-setup-tab.assets/10000201000004AF000000B06D998E6B02BF543D.png)  
+![](../dicom-setup-tab.assets/c33f7e26d651e164cb8ed64ee9efd635.png)  
 
 
 The following information is displayed on the application entities screen:

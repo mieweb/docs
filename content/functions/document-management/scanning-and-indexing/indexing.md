@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=miewebscan'
   - 'indexing-bubble-forms.md'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Indexing'
@@ -32,7 +32,7 @@ The WebScan module will load, displaying the landing page, where existing scan b
 Additionally, the ListView of the checked-in scanned batches will only show batches from partitions the logged-in user is able to access. There is a system setting that allows clients to specify chart partitions, therefore restricting storage of and access to document types according to specific business needs, consequently limiting a user's accessibility to specific document types, whenever appropriate. If the **Show Partition Restrict** system setting is enabled, batches can be scanned into specific partitions, as needed. If a batch is scanned into a specific partition, only indexers with access to that partition will see the batch in the ListView. The *Partition* column in the ListView displays the partition of the batch.
 
   
-![](../indexing.assets/10000201000004AF00000170661001D24E4F36C5.png)  
+![](../indexing.assets/6979d26c3e8d3593d864941035252d90.png)  
 
 
   
@@ -42,7 +42,7 @@ Additionally, the ListView of the checked-in scanned batches will only show batc
 There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *checked-in* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function. Both *Checked In* and *Checked Out* batches will need to be indexed in order to be be removed from the queue.
 
   
-![](../indexing.assets/10000201000003BB000000CAFCB69C69F0953824.png)  
+![](../indexing.assets/67f35f705bf636a93cc042fd29f7aa97.png)  
 
 
 * <strong>Checked In</strong>: Batches that have been scanned into {{% system-name %}} requiring indexing. These batches have not been viewed, opened, or completed. Once viewed or opened, the batch status will become <em>Checked Out</em>.
@@ -73,7 +73,7 @@ By default, Completed batches are purged from the {{% system-name %}} system aft
 As explained, the WebScan module will display all *Checked In* batches, by default. However, a user may search for a batch by its batch ID number, its comments, a specific patient or user, or the batch date. Use the search filters to narrow search results, and after clicking the **Search** button, matching results will populate below the search in a ListView.
 
   
-![](../indexing.assets/100002010000036E000000D2A671F485739682DA.png)  
+![](../indexing.assets/763e37400bb93c453ff8701a08b58cdf.png)  
 
   
 #### Columns in Batch ListView  
@@ -81,7 +81,7 @@ As explained, the WebScan module will display all *Checked In* batches, by defau
 The **Batch** ListView shows various columns of information. Click any of the column headers to sort in ascending/descending alphabetical or numerical order.
 
   
-![](../indexing.assets/10000201000004AA00000046A0D7EAC66E69A864.png)  
+![](../indexing.assets/4d7df124f149dd26d66b847c4c9149bf.png)  
 
 
 The columns include:
@@ -102,7 +102,7 @@ The columns include:
 In the **Options** column of the Batch ListView are the functions that can be done to a batch. A scanned batch can be opened, viewed, or deleted from any of the status categories.
 
   
-![](../indexing.assets/10000201000004B70000015DFE5C72A8DC1C03E1.png)  
+![](../indexing.assets/31f90445fab2bff714ddfbddc0cb95f6.png)  
 
 
 **Open**: Opens the batch for indexing. Opening a batch allows the user to begin indexing the items of the batch. Any batch, regardless of status, can be opened.
@@ -113,19 +113,19 @@ Once a batch is in the status of *Checked Out, Completed,* or *Deleted*, users m
 {{% /tip %}}
 
   
-![](../indexing.assets/10000201000001C80000003EE4B8D8A3BDF9A32C.png)  
+![](../indexing.assets/efe2e3fd8104bb97f8ac4fb78f9da0b6.png)  
 
 
 **View**: Allows users to only view the pages of the batch. Clicking the *View* link opens batch pages in a TIFF file format. The AlternaTIFF toolbar is visible at the top of the page and allows the contents of the batch to be navigated and reviewed using the available toolbar buttons. Indexing cannot be done from this view. After viewing, simply close the window by clicking the red X in the top-right corner of the window. The batch remains set to the status it was in when the *View* option was clicked.
 
   
-![](../indexing.assets/100000000000022B0000002BAB1DD7C9A4958A27.png)  
+![](../indexing.assets/6c194b1986324394c6b3cce0877399d6.png)  
 
 
 **Delete**: Allows user to mark batch(es) as deleted. If a batch is scanned in accidentally, or perhaps scanned in twice, simply clicking the Delete link will mark the batch for deletion. Before deleting, {{% system-name %}} will ask to confirm. Comments can be entered or edited before confirming the deletion. Clicking **Yes** will delete the batch. Once confirmed, {{% system-name %}} will set the batch to Deleted and display a confirmation message of *Successfully deleted Batch #*.
 
   
-![](../indexing.assets/10000201000001920000004979A5C27CC072C234.png)  
+![](../indexing.assets/d386106868f46c10f1bf2489f0de4943.png)  
 
 
 {{% tip %}}
@@ -138,13 +138,13 @@ A deleted batch can be retrieved, if necessary. From the WebScan module, filter 
 To begin indexing a batch, users must click the **Open** link from the *Options* column of the specific batch being indexed. This will open the batch in a separate Indexing window.
 
   
-![](../indexing.assets/10000201000004B60000008953E35AA9A8E530BD.png)  
+![](../indexing.assets/bebf8b9cfd8800364ed275565e467e75.png)  
 
 
 The first page of the batch will display on the right side of the window. The fields on the left are used while indexing, and the toolbar at the top will provide tools for navigating and indexing.
 
   
-![](../indexing.assets/1000020100000528000001FD109006016ECBE9A3.png)  
+![](../indexing.assets/c0486ea8a6a788cb6b762656e277eb84.png)  
 
 
   
@@ -152,7 +152,7 @@ The first page of the batch will display on the right side of the window. The fi
 
 
   
-![](../indexing.assets/1000000000000101000000318DFC2681473C2998.png)  
+![](../indexing.assets/b1944f4f2b6ee90bc57fc36cefa0e294.png)  
 
 
 **Upload to Chart**: Uploads pages into the specified charts for indexing.
@@ -164,7 +164,7 @@ The first page of the batch will display on the right side of the window. The fi
 There are keyboard hotkeys to help users perform functions quicker than when using a mouse. Some hotkeys perform options that are not available by mouse. Hover the cursor over the help bubble, or the circled question mark icon, next to the Close button, to access the MIEWebScan Hot Keys menu.
 
   
-![](../indexing.assets/1000000000000218000001BF188D90BB02843349.png)  
+![](../indexing.assets/b8dc225af8997cefdc29b889cd7fb321.png)  
 
 
 
@@ -265,7 +265,7 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 
 
   
-![](../indexing.assets/10000000000003140000004CF1F6517083028121.png)  
+![](../indexing.assets/748051abc98d19e6689d90de7dc781ba.png)  
 
 
 **Bubble**: This button is for clients using bubble forms in the {{% system-name %}} system. This triggers the reading of the bubble form optical marks and indexes and uploads the document. If a batch has bubble forms to index, first click the **Process Barcodes** button, and then click the **Scan Bubbles** button. {{% system-name %}} can be programmed to set required entry fields on bubble forms, as well as display expected result criteria, ultimately warning users if a value is not provided or out of range. If any errors are detected, a pop-up window will appear for making changes to the errored values. Clicking Submit at the bottom of the pop-up window will save the data. Continue indexing any additional pages of the batch and click the **Upload** button. Refer to [Indexing Bubble Forms](indexing-bubble-forms.md) for more details.
@@ -273,7 +273,7 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 **Preferences**: Accesses the MIEWebScan Preferences. Changing these preferences will only change the preferences for the logged-in user.
 
   
-![](../indexing.assets/10000000000002C7000000E93364C00733B5B5E6.png)  
+![](../indexing.assets/747164d3f8be461262595d7f88b9e4aa.png)  
 
 
 Indexing preferences include:
@@ -299,7 +299,7 @@ The highlighted yellow bar in **Image Info** section indicates the page number a
 {{% /info %}}
 
   
-![](../indexing.assets/1000020100000209000001785217894747C9626F.png)  
+![](../indexing.assets/eaab6d9b80bbce2854078d789edb39e4.png)  
 
 
 **FillField**: The FillField button provides users a type of autofill feature, similar to the Shift + Enter hotkey, or the *Fill Down* feature of spreadsheets. Clicking FillField will prompt the user to select which field of the Index Information section the user would like repeated for the remaining documents in the batch. Once selected, click the **Apply** button, and the remaining documents will have the selected field populated with the same data currently entered. This saves users time by eliminating the need to enter the same field information, repeatedly.
@@ -333,7 +333,7 @@ Exiting the WebScan module is possible by clicking the X, found in the upper-rig
 
 
   
-![](../indexing.assets/100002010000022C000001FF71374E691D4DA4D2.png)  
+![](../indexing.assets/1cc5ecb681f297268f39a4167d0ff194.png)  
 
 
 **Service Date**: The service date of the document being displayed. The clock icon will insert today's date, when clicked. The calendar icon can be used to select a specific date. Future dates will produce an alert when entered; however, there is the option to disable this feature, if preferred. Contact the Helpdesk for more details.
@@ -359,7 +359,7 @@ If a user is restricted to certain chart types, the indexing module will only re
 **Link to Order**: The Link to Order field is optional. This field is designed to allow users the ability to link pending orders from the chart in context to the item being indexed. When the field is selected, an ellipsis (…) button will appear to the right of the field. Clicking this button will display a list of pending order items to choose from. Placing a checkmark next to a specific order item indicates that the document is to be linked to the order and will automatically mark the pending order as Complete.
 
   
-![](../indexing.assets/1000020100000187000000564620C1E8AEBCDE2F.png)  
+![](../indexing.assets/35e5381655d253edb692a2689117eaf3.png)  
 
 
 {{% note %}}
@@ -368,7 +368,7 @@ The *Link to Order* field will not activate until the *Chart* field has been ent
 {{% /note %}}
 
   
-![](../indexing.assets/10000000000000FF00000018E72713EDAEE46186.png)  
+![](../indexing.assets/92ab0ed2b1769ac5f1cd0930136ea92e.png)  
 
 
 **Service Location**: The Service Location field is optional. It is an autocomplete, so simply begin typing the name of the service location and {{% system-name %}} will initiate the search on the database. All possible matches will be driven by those locations configured in the system. The Service Location field will not accept free text.
@@ -389,7 +389,7 @@ Hit the [Enter] key when all applicable fields have been entered. This applies a
 The Batch Info section shows the Batch ID number, the number of pages scanned into the batch, the batch priority, as well as the batch partition and any associated comments. The Partition can be edited using the available drop-down. There are also system settings that can be turned on to make the partition required and/or displayed, by default.
 
   
-![](../indexing.assets/1000000000000231000000A1032BB6BF2DE711EA.png)  
+![](../indexing.assets/a0fd8beeabd13f8b2b3e1d33accaeb3d.png)  
 
 
   
@@ -399,7 +399,7 @@ The Batch Info section shows the Batch ID number, the number of pages scanned in
 The Image Info section displays columns aligned with the fields of the Index Information section. There is additional functionality available from within this section of the WebScan module. These options are applicable to each page of the batch, or each line. To access and utilize these functions, simply highlight a page of the batch by clicking on the appropriate line. Once highlighted, right-click to open the WebScan context menu.
 
   
-![](../indexing.assets/100000000000023000000103C28B09F05302F10A.png)  
+![](../indexing.assets/41309425979f46962bfc554b4d1575b8.png)  
 
 
 **Rotate**: This option allows users to rotate the document 90, 180, or 270 degrees. Simply select Rotate and then the degrees to be rotated. After selecting a degree, {{% system-name %}} will automatically rotate the document.
@@ -412,7 +412,7 @@ The Image Info section displays columns aligned with the fields of the Index Inf
 * <strong>Link to Prev</strong> (<strong>checkbox</strong>): Place a checkmark in this box to link the page being moved to the previous page, relative to the location it is being moved to. Ensure all linked documents are in the correct page order.
 
   
-![](../indexing.assets/100002010000023700000102B20776F6F6EEB670.png)  
+![](../indexing.assets/04df25841dbb8df7069fc729809b1442.png)  
 
 
 **Link to Prev**: This option allows users to link pages that are intended to remain grouped together, where a page is linked to the previous page in the batch. Linking pages simply attaches subsequent pages to the initial page. The linked page will not be inserted into the chart as a separate document; but rather, a linked document will be considered the subsequent page (e.g., 2nd, 3rd, 4th, 5th, etc.) of the page listed before it. For example, if a 5-page document is scanned into a batch, page 1 would be indexed with all of the applicable field information, and pages 2-5 would be linked using the Link to Prev function. The document would then be stored in the chart as one document with 5 pages. There is no limit to the number of possible linked pages. Once a page is linked, the system displays the line as *Linked to Prev* in a pink highlight.
@@ -423,13 +423,13 @@ To *un-link* a page, simply **right-click** the line item and select the **Un-Li
 {{% /tip %}}
 
   
-![](../indexing.assets/100002010000021400000099423DE5701F691C89.png)  
+![](../indexing.assets/2755ef874e3fdcbcf2dc194f8dedeea1.png)  
 
 
 **Copy Down One**: The Copy Down One option allows users to copy the same index field information from the current page to the line below it. This will only copy the index fields to the next page; it will not duplicate the document/image. Often, when the Copy Down One function is used, a **Dup** alert will appear in the *Status* column. This means the system detects the same information being indexed on a separate item. It can also signify that a document with the same index field information already exists in the respective chart. Modifying some index fields for the document may eliminate some Dup alerts; however, they do not need to be corrected if the intention is to upload the document.
 
   
-![](../indexing.assets/100002010000021D0000006FF3AF17F5B7B48F78.png)  
+![](../indexing.assets/c60e47037fe0b8f83899cd1c519870ae.png)  
 
 
 {{% tip %}}
@@ -440,7 +440,7 @@ Click on the red **Dup** hyperlink to open the view of the duplicate page/image.
 **Find Document**: The *Find Document* option opens another window where users open the chart in context (i.e., where the document is being uploaded). The *Find Document* option simply provides a quick means to access the chart, so that the user may look for any needed information, rather than leaving WebScan or opening a new session to retrieve the information.
 
   
-![](../indexing.assets/1000020100000212000000B82A7937644DFC75F3.png)  
+![](../indexing.assets/5b5153d60af7218c5a9bd43bcaee3d19.png)  
 
 
 {{% note %}}
@@ -455,13 +455,13 @@ To index documents into a locked chart, the indexer must have the**_ _****Add Do
 Once all applicable fields have been filled, linking has been completed, and necessary deletions made, the batch is ready to be uploaded and indexed into the respective charts. Simply click the **Upload to Chart** button in the upper-left of the toolbar. Uploading processes each page of the batch and indexes the documents according to the index details provided. This is typically a fast process.
 
   
-![](../indexing.assets/100002010000021D000001B7017FCCCC5F905A83.png)  
+![](../indexing.assets/26ec1d9f2eaf2d1c4f3d77c712ca9d6e.png)  
 
 
 Once complete, the batch will remain opened. To confirm the batch is finished uploading, ensure the Status column for each document displays *Uploaded*.
 
   
-![](../indexing.assets/100002010000022F000000A6C881BB874DF3AC63.png)  
+![](../indexing.assets/d7458c768293c96dec3a8d266aefeebb.png)  
 
 
 If a line does not display *Uploaded* in the Status column, then there is likely an index field missing, keeping the system from being able to upload the page into the chart. Simply click the line item and key in any missing information needed, and click the **Upload to Chart** button, again. The system will then repeat the upload process, indexing any missed items.
@@ -472,7 +472,7 @@ In cases where the entire batch cannot be completed and indexed in one sitting, 
 {{% /info %}}
 
   
-![](../indexing.assets/100002010000018500000099E7C021E773BC5F4C.png)  
+![](../indexing.assets/74e25a6a9ec31d7ee7fdcb9381cfca0f.png)  
 
 
   
@@ -484,7 +484,7 @@ After successfully uploading and indexing all pages of a batch, the batch must b
 First, to close the batch, click the **Close** button, near the top-left of the toolbar.
 
   
-![](../indexing.assets/100002010000021D000001B70DBED9AD99452608.png)  
+![](../indexing.assets/35463ffea1425cd568dfacaa149225b8.png)  
 
 
 {{% note %}}
@@ -495,7 +495,7 @@ After clicking the **Close** button, it is important to follow the prompts. Do n
 Once the **Close Batch** window opens, continue filling out the necessary information. Fields and options displayed on the Close Batch window are as follows:
 
   
-![](../indexing.assets/100002010000018800000132EBC5E65F923736A1.png)  
+![](../indexing.assets/58aa6f357694892b17f1cc95338d1b15.png)  
 
 
 * <strong>Comments</strong>: Any previous comments or text attributed to the batch will display in this field. These comments can be left as-is, or they may be modified, removed, or added to, if necessary. Comments on a batch provide helpful information that will display in the ListView when users are working batches.

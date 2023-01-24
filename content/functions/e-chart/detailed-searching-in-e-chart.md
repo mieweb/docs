@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch'
   - 'https://system/?f=chart&s=pat&s=search&search_method=simple&tabmodule=patsearch'
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Detailed Searching in E-Chart'
@@ -22,11 +22,11 @@ When in the {{% system-name %}} system, the [E-Chart](https://system/?f=chart) s
 
 To do a more detailed search, click the [Detailed](https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch) link from the list of Search Types.
   
-![](../detailed-searching-in-e-chart.assets/1000020100000387000000E123C152E7AA8A7D01.png)  
+![](../detailed-searching-in-e-chart.assets/452b167a48477953a87c63dea00f4620.png)  
 
 The detailed search filter screen will open with various filter fields to help narrow down a search for a chart by more detail.
   
-![](../detailed-searching-in-e-chart.assets/10000201000003760000019CC7260E19EC619928.png)  
+![](../detailed-searching-in-e-chart.assets/c5cc193ac98ae884de4798c269535c6e.png)  
 
 {{% tip %}}
 
@@ -38,7 +38,7 @@ Within the [Detailed](https://system/?f=chart&s=pat&s=search&search_method=detai
 
 The percent sign (%) is a hotkey to perform a CONTAINS search, followed by the letters you wish to search. In this example, we typed %art in the name field and clicked the **Search** button.  The system resulted matching charts with names of the letters ‘art' in them.
   
-![](../detailed-searching-in-e-chart.assets/100002010000046C000001D82D4631785E6FD2F9.png)  
+![](../detailed-searching-in-e-chart.assets/fb924bafc905a7232be2fac947d293c7.png)  
 
 {{% /tip %}}
 
@@ -55,12 +55,12 @@ Disabling the SSN search does not turn off the ability to search by SSN in other
 ### **Enabled**  
 
   
-![](../detailed-searching-in-e-chart.assets/10000201000004490000011017F2BD4AC25BA837.png)  
+![](../detailed-searching-in-e-chart.assets/9d92d359d96be2c5cb80b8de81df07dc.png)  
 
   
 ### **Disabled**  
 
 
   
-![](../detailed-searching-in-e-chart.assets/100002010000047C0000012AC4C40934699BFF44.png)  
+![](../detailed-searching-in-e-chart.assets/97b91595a98cf05b678244d390993ead.png)  
 

@@ -37,7 +37,7 @@ links:
   - 'https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/'
   - 'http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices'
 source: 'https://drive.google.com/open?id=15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Encryption Statement'
@@ -74,7 +74,7 @@ Because of this, HHS looks to the National Institute of Standards and Technology
 Also available for information regarding encryption processes of data in motion and data at rest is NIST Special Publication 800-175B, [Guideline for Using Cryptographic Standards in the Federal Government: Cryptographic Mechanisms.](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175B.pdf)  
 As a resource for encryption technologies that mitigate potential threats, NIST has also developed 800-111, [Guide to Storage Encryption Technologies for End User Devices](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-111.pdf), where the information provided is summarized in a useful grid seen below.
   
-![](../encryption-statement.assets/100002010000029600000244DB949C4E9D904517.png)  
+![](../encryption-statement.assets/1f745477860bb16c6fc999eb767ae2f8.png)  
 
   
 ## Overhead  
@@ -91,14 +91,14 @@ Benchmarking can be seen below, where we have utilized the Sysbench tool for Fil
 * <strong>sdased</strong> - SDA / SED is a Spinning 15K disk with Self Encryption
 * <strong>ssd-r10wbLUKSc7</strong> - SSD RAID 1+0 LUKS / CentOS 7 AES-IN encryption
   
-![](../encryption-statement.assets/1000020100000322000001C6691AF2872C8EC77F.png)  
+![](../encryption-statement.assets/b63673422b4cf082965426a736310adc.png)  
 
   
 ### Comparison  
   
 Based on benchmarking findings, it is clear that SSD is faster than a 7200 RPM hard disk with SED. At 128 threads, the SSD with LUKS AES-IN is 261 times faster.
   
-![](../encryption-statement.assets/10000201000001DA00000058087669BCF1CC6A5F.png)  
+![](../encryption-statement.assets/4db7653485e198114cbc7e2abc231717.png)  
 
   
 ## Encryption is NOT a panacea  

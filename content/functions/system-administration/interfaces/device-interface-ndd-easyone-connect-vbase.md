@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.nddmed.com/en-us/product/easy-on-pc.html'
 source: 'https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Device Interface - NDD EasyOne Connect vbase'
@@ -28,7 +28,7 @@ NDD's EasyOne Connect software employs a plugin system that EMR vendors can use 
 2. If Internet Explorer was used to download the file, rename the file from "nddplugin_mie.zip" to "nddplugin_mie.zemr"
 3. Run the EasyOne Connect software as an administrator.
    1. {{% anchor sys="_GoBack" %}}
-      <img src="../device-interface-ndd-easyone-connect-vbase.assets/10000201000001870000013AB14B0C3CBE719AAE.png" />  
+      <img src="../device-interface-ndd-easyone-connect-vbase.assets/edc640920d7f08dcbee0e036662e26d4.png" />  
 
 1. Click Utilities > Configuration.
 2. Click the EMR tab.
@@ -47,7 +47,7 @@ The plugin will get and send data under the authority of a  SYSTEM  user.  Ea
 3. Once per user (not on every workstation), click the One-Time setup link.  This creates a public/private key pair and a login trust record.
 4. On each workstation, the user should click the Get client credentials link then click in the box to copy their credentials to the clipboard.
   
-   1. <img src="../device-interface-ndd-easyone-connect-vbase.assets/1000020100000242000001BD360D3368575AFEF3.png" />  
+   1. <img src="../device-interface-ndd-easyone-connect-vbase.assets/05a5daf036f48e6857358e0425f6323e.png" />  
 
    2. Be sure all of the text is copied.  It should should:
       1. Start with "----BEGIN RSA PRIVATE KEY----"
@@ -57,7 +57,7 @@ The plugin will get and send data under the authority of a  SYSTEM  user.  Ea
 3. Click "Search EMR" again.  This time you will be prompted to enter your  SYSTEM  username.
 4. Click in the "Credential Data" text box and Ctrl+V or Right mouse click and Paste.
   
-   1. <img src="../device-interface-ndd-easyone-connect-vbase.assets/1000020100000257000001D42AC40E0CA5B0EE4A.png" />  
+   1. <img src="../device-interface-ndd-easyone-connect-vbase.assets/3f35a6938a0ac12c78504fc2c9d9c81e.png" />  
 
 1. If successful, this setup should only need to be done once per user per PC.
   
@@ -88,11 +88,11 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
    * Click "Add New Asset"
    * The name field is how we uniquely identify devices, so this must be entered exactly.
   
-      * <img src="../device-interface-ndd-easyone-connect-vbase.assets/100002010000023B000000822C9E0BFC5CFFA492.png" />  
+      * <img src="../device-interface-ndd-easyone-connect-vbase.assets/509bbe187b3e4f91dfed13b94d2a6132.png" />  
 
       * This name can be found in a PFT document that was created using the device.
   
-      * <img src="../device-interface-ndd-easyone-connect-vbase.assets/100002010000030C000000E45B808411CEAC98BF.png" />  
+      * <img src="../device-interface-ndd-easyone-connect-vbase.assets/6d1b93eb1c867ec8ef3087e694e6a8f8.png" />  
 
       * If you use all the same kind of device, then you can assume they will follow the same pattern, with just the serial number being different.
 * To perform calibration in the NDD software, go to Utilities > Check Calibration
@@ -102,16 +102,16 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
 * Click the double-right arrow in the middle of the row of icons to expand options.
 * Click the EMR button.
   
-   * <img src="../device-interface-ndd-easyone-connect-vbase.assets/1000020100000384000000DA35D1452638C97EE0.png" />  
+   * <img src="../device-interface-ndd-easyone-connect-vbase.assets/db0ed2e473aa55e7184fa81615c677b7.png" />  
 
    * The Doc ID is the unique ID of the calibration document and you can find it in the device's asset chart, or by searching for it by ID.
    * The calibration document will be a PFT document, and the result of calibration will be shown as the Interpretation.
   
-      * <img src="../device-interface-ndd-easyone-connect-vbase.assets/100002010000038400000087397183EC86949CD0.png" />  
+      * <img src="../device-interface-ndd-easyone-connect-vbase.assets/b23d2713843117aad11707a8429ccb21.png" />  
 
 * If you try to upload calibration for a device that hasn't yet been entered as an asset, you will see an error like this displayed:
   
-   * <img src="../device-interface-ndd-easyone-connect-vbase.assets/10000201000001AE000000B4F04158985F84C76D.png" />  
+   * <img src="../device-interface-ndd-easyone-connect-vbase.assets/7be4f7f2ea7ce5c5ea7f812ff5877cc9.png" />  
 
    * After registering a chart with that name, you should be able to upload the calibration.
   

@@ -11,7 +11,7 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.  
   
@@ -88,7 +88,7 @@ wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 **How do I bill for TeleHealth?**
 * Place of Service (POS) code 02
   
-![](../introducing-telehealth.assets/10000201000003AE0000023380350CD1C9F6F514.png)  
+![](../introducing-telehealth.assets/3991b2dc171da84294d04ad876f52e72.png)  
 
 **What does it cost?**
 * See [Telehealth Pricing](telehealth-pricing.md)
@@ -108,20 +108,20 @@ wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
 ### Patient initiated (iOS)  
 
   
-![](../introducing-telehealth.assets/1000000000000483000009C4403BC830FA9C1D0B.png)  
-![](../introducing-telehealth.assets/1000000000000483000009C4989134D19570E960.png)  
-![](../introducing-telehealth.assets/1000000000000483000009C4DA24093AA6B79008.png)  
-![](../introducing-telehealth.assets/1000000000000483000009C4DEE39A80B80299C9.png)  
+![](../introducing-telehealth.assets/d4b691a7dc423f9018e15c72d6bc6b78.png)  
+![](../introducing-telehealth.assets/45010f3dacfeda4c03babb61e09333e6.png)  
+![](../introducing-telehealth.assets/5ad5af1355459e0fcf011e6d1c3728d8.png)  
+![](../introducing-telehealth.assets/9ac528ce9d80a1522afd75e314c6d986.png)  
 
 
   
 ### Provider  
 
   
-![](../introducing-telehealth.assets/1000000000000887000004DA81904015DABC4022.jpg)  
+![](../introducing-telehealth.assets/d8d695db6dcdd871a38ba8d0d483fdb3.jpg)  
 
 
   
-![](../introducing-telehealth.assets/1000000000000899000004DA5994662A7BAD60AC.jpg)  
+![](../introducing-telehealth.assets/b81e1c05d35c04b4495433b7c5a433be.jpg)  
 
 

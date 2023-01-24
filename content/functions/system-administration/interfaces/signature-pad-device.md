@@ -6,7 +6,7 @@ version: 52
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Signature Pad Device'
@@ -20,12 +20,12 @@ On the left sidebar menu may be a tab named SIGNATURE if your practice is set up
 The example below shows the signature program utilized in an Immunization Consent form. Depending on what type of injection consent they pick a different canned statement will appear both on the signature pad device and on the screen in {{% system-name %}} that captures the signature and stores it as a document.  
 This Signature program can be customized to be titled/labeled as you wish. In this example below, it uses the signature pad device for various immunization consents, travel pickup and prescription pickup requests. Upon the patient's electronic signature, the document (and electronic signature) is uploaded and stored directly into the patient's chart.
   
-![](../signature-pad-device.assets/100002010000029B00000188C652C8E5EE591AA9.png)  
+![](../signature-pad-device.assets/a747c9d3c50cdfa77dc41836b242cb82.png)  
 
 The above screenshot example allows you to enter in the patient's name that need to sign the consent. Then the specific consent radio button is selected. A canned statement appears both on the signature pad device and on the {{% system-name %}} screen. It is ready for the patient to sign.  
 Click the START SIGNATURE button and the patient would sign the signature pad using the electronic pen. When the patient is done signing, click the SAVE SIGNATURE button to save the signature image and upload it into the patient's chart. Or you can click the RESET button to clear the signature image and/or change the patient or immunization/consent type if had previously selected the wrong one.  
 This is an example of what the uploaded and stored document would look like, along with the electronic signature and date/time stamp on the document.
   
-![](../signature-pad-device.assets/10000000000003870000015295082794EEFF431C.jpg)  
+![](../signature-pad-device.assets/6e193069f2b733c5db0f63b5f6113fc4.jpg)  
 
 Signature pad devices can also be used in conjunction with the mass immunization record tab. See other help documentation named *Mass Immunization Record Tab.pdf*.

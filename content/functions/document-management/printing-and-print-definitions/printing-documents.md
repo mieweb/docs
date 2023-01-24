@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
 source: 'https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Printing Documents'
@@ -22,11 +22,11 @@ Printing documents from the {{% system-name %}} system is a simple process. The 
   
 While in the appropriate chart, locate and open the document needing printed. Click the **Print** link, found in the upper-right corner of the document header.
   
-![](../printing-documents.assets/10000201000004F90000018986AD78C5357A5C96.png)  
+![](../printing-documents.assets/9ebee05891b9e75c4a66e281ad6af394.png)  
 
 Once clicked, the Print Dialog window will open, with **Send To** *Printer* marked, by default.
   
-![](../printing-documents.assets/100002010000027E000001D51737C7D302D26C86.png)  
+![](../printing-documents.assets/48cf39f44fef0b120d4955c6345c6941.png)  
 
 Users may choose to **Print without headers** or **Use legacy print formatting**, if preferred.  
 **Print without headers**: This option allows users to print the contents of the document, only. No header information will be included on the printout, meaning the Doc ID, Author, Revised By, Document Type, DOS, Location, Revised Date, and Signed By information will not be displayed on the printed document. This option is only available to users with the Allow Printing Without Headers security permission set to Yes. This option is particularly useful when printing Word documents, forms, sketches, or the like.
@@ -48,16 +48,16 @@ Users may set the format of print documents to either PDF or TIFF, by way of the
 
 Printing full-size scanned documents requires a simple adjustment in the default printing settings. To begin, locate and open the specific scanned document needing printed.
   
-![](../printing-documents.assets/10000201000004AD000002129C649E510922278C.png)  
+![](../printing-documents.assets/f7b776194c27e97a3dec66acd6704166.png)  
 
 Depending on the web browser used, when the document is opened, the scanned image will either appear within an AlternaTIFF workspace (e.g., IE), or when clicked, the image will appear in a viewer of a new tab/window (e.g., Chrome). The focus here is on Internet Explorer web browsers, using the AlternaTIFF control.
 Right-click the grey toolbar area, just above the scanned image. Select **More Settings**.
   
-![](../printing-documents.assets/10000201000004A500000251A6B3A5FDE2BFCC4E.png)  
+![](../printing-documents.assets/8cb30ac3ae60bc0c004966263c6f704e.png)  
 
 Once clicked, the AltneraTIFF: More Settings dialog window will open. Ensure the **Always print full page** option is selected, and click the **OK** button.
   
-![](../printing-documents.assets/10000201000004AD0000024FCB041E8AC1F59FFF.png)  
+![](../printing-documents.assets/3729042e8f57b6b6c755dcce0f4f626b.png)  
 
 {{% note %}}
 

@@ -8,21 +8,21 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1YSZ1Ga02PL84P1G-aXE9I5RjrmjXctIFBilF4dJ0RH4'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) from which to remove an alert comment.
 2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Documents</strong>  
-   . The system displays a list of documents for the employer organization.<img src="../removing-alert-comments-from-employer-organizations.assets/10000201000000DF00000093E1CF0D26C7E6B899.png" />  
-   <img src="../removing-alert-comments-from-employer-organizations.assets/1000020100000548000001D7B4B329EDB4C388E5.png" />  
+   . The system displays a list of documents for the employer organization.<img src="../removing-alert-comments-from-employer-organizations.assets/84c718cfb3c5521948c3838e65cee14d.png" />  
+   <img src="../removing-alert-comments-from-employer-organizations.assets/48af9386124dba839aa0d41027f3fe34.png" />  
 
   
-   Select the alert comment to remove. The system displays the document containing the alert comment. <img src="../removing-alert-comments-from-employer-organizations.assets/10000201000006AD000000D1514F11F303DF6C35.png" />  
+   Select the alert comment to remove. The system displays the document containing the alert comment. <img src="../removing-alert-comments-from-employer-organizations.assets/f16be71e8a46d52f8d698705940e9035.png" />  
 
 4. At the top-right, select the <strong>Properties</strong>  
-    link. The system displays the properties for the document.<img src="../removing-alert-comments-from-employer-organizations.assets/100002010000069C0000013A8B974DC0BF5AF447.png" />  
+    link. The system displays the properties for the document.<img src="../removing-alert-comments-from-employer-organizations.assets/2c502114e08d8ac645720bca39c28b36.png" />  
 
 5. At the top-right, select the <strong>Delete</strong>  
-    link. The system prompts for a reason to delete the document.<img src="../removing-alert-comments-from-employer-organizations.assets/10000201000002160000005A454CB5707ABAF223.png" />  
+    link. The system prompts for a reason to delete the document.<img src="../removing-alert-comments-from-employer-organizations.assets/88ff2adba7de00d83607920540c45b5b.png" />  
 
 6. Type a reason. Select <strong>Delete Document</strong>. The system deletes the document.
 7. Select the <strong>Overview (EO)</strong> tab. The alert comment no longer appears.

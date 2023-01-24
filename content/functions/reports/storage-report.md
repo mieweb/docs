@@ -6,7 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Storage Report'
@@ -20,9 +20,9 @@ Click *Reports* tab on the left sidebar menu.
 Click *Storage Report* tab from the top tab menu.  
 The Document Storage Report search screen will open.
   
-![](../storage-report.assets/100000000000021C0000017CE49010E8053F60AF.png)  
+![](../storage-report.assets/67c421b93789d341678033f716d24949.png)  
 
 Select and enter the specific fields you wish to narrow your search down by.
   
-![](../storage-report.assets/10000000000003850000019BF42EF4A28225EB5E.png)  
+![](../storage-report.assets/756c0759c5fe2705d560720fe2723cae.png)  
 

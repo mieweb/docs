@@ -16,7 +16,7 @@ links:
   - '../../reports/observations-report.md'
   - 'https://docs.enterprisehealth.com/observations-report-7345005.html'
 source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Observations Validation Test Script'
@@ -69,7 +69,7 @@ Some charts/records may not have all data elements, and in some circumstances, t
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-   <img src="../observations-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
+   <img src="../observations-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png" />
 
 {{% tip %}}
    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
@@ -77,11 +77,11 @@ Some charts/records may not have all data elements, and in some circumstances, t
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-   <img src="../observations-validation-test-script.assets/10000201000003EE0000005E5A4755F56EC0CF16.png" />
+   <img src="../observations-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png" />
 
 2. Select <strong>Observations/Flowsheets</strong> from the Medical Record chart tab.
 
-   <img src="../observations-validation-test-script.assets/1000020100000484000001525DE96F9AB6BF6B91.png" />
+   <img src="../observations-validation-test-script.assets/e423e14102b231b3461d21cee6d2e4e7.png" />
 
 
 {{% tip %}}
@@ -89,20 +89,20 @@ Some charts/records may not have all data elements, and in some circumstances, t
 {{% /tip %}}
 3. The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.
 
-   <img src="../observations-validation-test-script.assets/100002010000049200000137BB40A2317D8F974E.png" />
+   <img src="../observations-validation-test-script.assets/235fe960ff2ed0d194fd447cbe4b4df6.png" />
 
 {{% tip %}}
 4. Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page.
-   <img src="../observations-validation-test-script.assets/10000201000001CC0000007B3CF06461C4F8A950.png" />  
-   <img src="../observations-validation-test-script.assets/1000020100000486000000C9B8AFEF8D7F48B22F.png" />
+   <img src="../observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png" />  
+   <img src="../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png" />
 
    1. To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
 
-      <img src="../observations-validation-test-script.assets/10000201000004810000007D3795F0ECC6025E70.png" />
+      <img src="../observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png" />
 
    2. Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
-      <img src="../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png" />  
+      <img src="../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png" />  
 
 {{% /tip %}}  
 
@@ -121,11 +121,11 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
 2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.
 
-   <img src="../observations-validation-test-script.assets/1000020100000164000001E1D01E2A64EF54EF8C.png" />  
+   <img src="../observations-validation-test-script.assets/ec2ab6d6a4b70fc56ac700c653eeca68.png" />  
 
 3. Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen. 
 
-   <img src="../observations-validation-test-script.assets/1000020100000159000000ADFDB6517C2994CEB0.png" />  
+   <img src="../observations-validation-test-script.assets/f958f0553b53bc389064f532fa9d8b33.png" />  
 
   
 ## FAQs  
@@ -133,7 +133,7 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 **Q:** I am only validating specific observations. Is there a way to filter to just the ones I need?
 **A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/observations-report-7345005.html), described [above](#gjdgxs), to search specific observation values. Otherwise, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
   
-![](../observations-validation-test-script.assets/10000201000002F1000001323D550DF6047F71FF.png)  
+![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)  
 
 **Q:** Why are some observations only listed once, even though they apply across all dates (e.g., Race, Ethnicity, Email, etc.)?
 **A:** Once an observation is recorded, it is not repeated as a duplicate discrete value. If the observation changes, then a new observation will display with the observation history always available. WARNING: Users with proper security permissions may Delete observations, along with their history.

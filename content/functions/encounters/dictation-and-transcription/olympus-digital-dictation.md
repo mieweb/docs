@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Olympus Digital Dictation'
@@ -17,7 +17,7 @@ menu:
 ---
 MIE must first turn on the ability to transfer Olympus DS-330 dictation if you are using Olympus mikes. If you are using SpeechMikes, please see other help documentation named *SpeechMike Dictation*.
   
-![](../olympus-digital-dictation.assets/10000000000001520000002C8D263AC66100C1BE.png)  
+![](../olympus-digital-dictation.assets/c0b7f69adc7e6743d4e95990b62963c3.png)  
 
 {{% note %}}
 
@@ -61,37 +61,37 @@ We recommend each physician have their own Olympus mike. If that is not possible
 4. Click the <strong>Olympus Transfer</strong> link at the top of the Dictation screen.
 
   
-![](../olympus-digital-dictation.assets/10000000000003F700000114962BD7450B885E79.png)  
+![](../olympus-digital-dictation.assets/5f2e3842b6d9d33eca3ebd6b5e14d715.png)  
 
 
 5. An Upload screen will open. Click Upload to Select the folder to upload from. Select Folder A.
 
   
-![](../olympus-digital-dictation.assets/10000000000001860000012ECFD6B243F637CF02.png)  
+![](../olympus-digital-dictation.assets/73be7c8f0fe494f9266628bfc0c4a939.png)  
 
 
 6. <strong>You will only do this step the first time</strong>. Select the drive of the recorder (you will only select the drive the first time you connect to a computer.  The computer will remember what drive this is the next time you connect.) Browse and <strong>Select DSS_FDA</strong> drive. Click OK.
 
   
-![](../olympus-digital-dictation.assets/10000000000001840000018ABB10FF55225C8323.png)  
+![](../olympus-digital-dictation.assets/67b7e0c4f73700c31f2be249ded7fd3f.png)  
 
 
 7. The screen will open a <em>Delete Confirm</em> dialog box and it will ask if you "Do you wish to delete files after upload?"  Click <strong>yes</strong> to remove the voice file off of the recorder.
 
   
-![](../olympus-digital-dictation.assets/10000000000000DA0000006AC3F6E54CF470E6E3.png)  
+![](../olympus-digital-dictation.assets/87f2c6c4744ee3157dc4eb9c83ca02fa.png)  
 
 
 8. You will see that you successfully uploaded the files.
 
   
-![](../olympus-digital-dictation.assets/100000000000019B0000013D01A5F51E8B4E27A1.png)  
+![](../olympus-digital-dictation.assets/54a208c778bfad128595835365bdd035.png)  
 
 
 9. Click <strong>[ Close Window ]</strong>
 
   
-![](../olympus-digital-dictation.assets/1000000000000194000000E0F5BAF252BAAB6153.png)  
+![](../olympus-digital-dictation.assets/358d67b3f22aa98bbe5b3699dde99d52.png)  
 
 
 
@@ -109,7 +109,7 @@ You should double check that the users who log in to upload dictations from olym
 ## After Transferring Olympus Dictations  
 
   
-![](../olympus-digital-dictation.assets/1000000000000483000000B4F96EEB8A3F14B576.png)  
+![](../olympus-digital-dictation.assets/12888676aa4fb5e7c295fa663a19bb97.png)  
 
 After uploading your transfers, you will see them listed in the Dictation pending queue of the Dictation tab.
 There will not be any patient names associated with them using Olympus mics. This is why it is important to do a hard stop/hard start after each patient so they transfer over individually into individual dictated files.

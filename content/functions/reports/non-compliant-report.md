@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Non-Compliant Report'
@@ -20,7 +20,7 @@ Click *Reports* tab on the left side-bar menu.
 Click *Non-Compliant Report* tab from the top tab menu.  
 The Non-Compliant Patients List Options screen will open.
   
-![](../non-compliant-report.assets/10000000000001420000014FE648DA0C3D6C69FB.png)  
+![](../non-compliant-report.assets/99399b201675f52bf5cba59d53aa716e.png)  
 
 * <strong>Physician:</strong> Can select all physicians or a specific physician from the drop-down arrow.
 * <strong>Evaluation Date:</strong> Select the Evaluation Date. This is for historical purposes.  You can see how the non-compliance percentages change over time.  Usually you will want to use today's date.
@@ -31,9 +31,9 @@ The Non-Compliant Patients List Options screen will open.
 Click SUBMIT to show search results.  
 The results show the compliance report card for the physician(s) you selected if you did *not* check-mark to list the patients.
   
-![](../non-compliant-report.assets/100000000000017F000000CC68BED348A811D939.png)  
+![](../non-compliant-report.assets/b72ed5e1f60d31d195dc22b38849371f.png)  
 
 If you check-marked to list the patients, it will then list the specific patients that are non-compliant according to the fields you entered for the report.
   
-![](../non-compliant-report.assets/1000000000000244000000473BDDC96D50C9747C.png)  
+![](../non-compliant-report.assets/9c70931a8b3134b6b5749a2e35ce59a1.png)  
 

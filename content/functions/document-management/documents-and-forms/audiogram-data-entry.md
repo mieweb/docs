@@ -13,7 +13,7 @@ links:
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Audiogram Data Entry'
@@ -33,12 +33,12 @@ To access and utilize a bubble form to record information, simply navigate to th
 1. While in the appropriate chart, access and print the vision bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
   
-![](../audiogram-data-entry.assets/10000201000004A80000013622E52507478E9CA3.png)  
+![](../audiogram-data-entry.assets/3ccbe73dd79d0d0eb7bfa330b4cfade6.png)  
 
 3. Print out the bubble form.
 4. Record the results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-   <img src="../audiogram-data-entry.assets/100002010000041700000211C0C1211FA7BD8002.png" />
+   <img src="../audiogram-data-entry.assets/96ef6999eb9caae450f1a81a5a1a0c54.png" />
 
 
 
@@ -55,11 +55,11 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 Navigating to the **Test Results** chart tab allows users to select what type of results need to be entered or reviewed. One of the types of results is **Audiogram** results. When selected, the screen will display a **List View** of all of the existing audiogram data from encounters that are archived/closed (i.e., stored documents) within the system.
   
-![](../audiogram-data-entry.assets/10000201000005080000015F639BB942FDA8BF00.png)  
+![](../audiogram-data-entry.assets/a2fc520e75370064ed0cd528e5e533b6.png)  
 
 1. Click the <strong>Add Audiogram</strong> link, in the upper-right corner.
   
-![](../audiogram-data-entry.assets/10000201000005080000015F7BC0BB2BE96C8A31.png)  
+![](../audiogram-data-entry.assets/fb15c0ee7519fb50705e7ec9f14df8c8.png)  
 
   
 {{% note %}}  
@@ -68,18 +68,18 @@ In RC201812 and newer, the Add Audiogram link has been removed in favor of using
 
 2. This will create an Audiogram encounter in the chart and make available the Audiogram data fields. To begin manually entering data into the fields, click the <strong>New</strong> button. The Left Ear/Right Ear grid entry fields are protected until users click the <em>New</em> button, below the grid.
   
-![](../audiogram-data-entry.assets/10000201000004F500000429B0D695F181B52DC3.png)  
+![](../audiogram-data-entry.assets/60b612b692378c08d8d5058361c0849d.png)  
 
 3. Key in the audiogram data for both ears in the Active row. For more information on the other audiogram data fields, please refer to the [Audio Tool Tab](../../system-administration/interfaces/audio-tool-tab.md) documentation.
 4. Test Date is a required field for audiograms. The audiogram data will not save until there is a test date/time noted.
   
-![](../audiogram-data-entry.assets/10000201000004F8000002DBC48C453EF42F4B1A.png)  
+![](../audiogram-data-entry.assets/50c6eddba614a30ad5b1e564109beafb.png)  
 
 5. When finished, click the <strong>Save</strong> button.
 
 
 
-   <img src="../audiogram-data-entry.assets/10000201000004F8000002DB0F84BEDFD9D7C203.png" />  
+   <img src="../audiogram-data-entry.assets/6df077e6afe29d9e7a339d0d1a639041.png" />  
 
 The data will be stored in the **Test Results** chart tab. If the recorded data is preferred elsewhere in the system, do not hesitate to reach out to Helpdesk. They are happy to work with clients to develop ways to address any specific business needs.
   
@@ -88,19 +88,19 @@ The data will be stored in the **Test Results** chart tab. If the recorded data 
 Another alternative to the bubble form is using a manual process of entering results is through the **Tests & Procedures** section of a visit encounter.
 The audiogram may be added to a visit encounter in multiple ways. One method is by selecting the audiogram order on the **Due List**, found within the *Tests & Procedures* section of the encounter, and using the **Add to Exam** button, to allow for manual entry or device import.
   
-![](../audiogram-data-entry.assets/100002010000058D000001B92EBC1A9B2950D410.png)  
+![](../audiogram-data-entry.assets/51677f951a845f9486a08cad15587f32.png)  
 
 There is also an **Answer Questions** button available, which allows clinicians to ask and record answers to audiometric questions at the time of the visit; or if a Check-in Kiosk is used, the questions may be answered by the patient, upon check-in.
   
-![](../audiogram-data-entry.assets/1000020100000597000001823E222F21FD7482F8.png)  
+![](../audiogram-data-entry.assets/30ab5e05d901bbbcaac044afe48d15b7.png)  
 
 If the audiogram is not found on the Due List, the order can be autocompleted in the Tests & Procedures section and added to the visit encounter using the **Add to Exam** button.
   
-![](../audiogram-data-entry.assets/10000201000001BA000000E0930F670701EE15F4.png)  
+![](../audiogram-data-entry.assets/18e56e7cd3345aaec480f6aa108579c4.png)  
 
 Alternatively, the audiogram may be selected using the **Picklist** icon by selecting the order from the list and adding it to the visit encounter.
   
-![](../audiogram-data-entry.assets/10000201000004AA0000022EECB65DE11AF176DC.png)  
+![](../audiogram-data-entry.assets/d8c377dcce5f8eb5a9cca14cfc5df47c.png)  
 
 For additional information on how to proceed keying in audiogram data, refer to the [Audio Tool Tab](../../system-administration/interfaces/audio-tool-tab.md) documentation.
   
@@ -108,7 +108,7 @@ For additional information on how to proceed keying in audiogram data, refer to 
 
 From the Test Results Audiogram encounter, or from the applied Audiogram section of the visit encounter, users have the ability to import audiogram results from a device, instead of the manually entering all of the data. To utilize the semi-automatic process of uploading results from the device interface, simply scroll down to below the data entry fields of the Audiogram encounter, or section. If a device interface has been established, there will be the option to choose the interface and select the appropriate file for upload. Select the appropriate file, and click **Upload File**.
   
-![](../audiogram-data-entry.assets/100002010000053C0000040190C8A5DDF968CFEA.png)  
+![](../audiogram-data-entry.assets/3041ac10f25ac740250150c978e88f9f.png)  
 
 {{% info %}}
 
@@ -116,12 +116,12 @@ The interfacing options are also available from the visit encounter, so that aud
 {{% /info %}}
 Users may perform an audiogram in real time, via an established device interface. For more information on device interfaces and file uploads, see the help documentation [Device Interface – Audio System](../../system-administration/interfaces/device-interface-audio-system.md) and [Device Interface – Audio-Tremetrics-Maico](../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md).
   
-![](../audiogram-data-entry.assets/1000020100000541000004B9B570280828EDBA39.png)  
+![](../audiogram-data-entry.assets/a42d9a2d582594acd80e6419233bef66.png)  
 
   
 ## Reporting  
 
 These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The Audiogram Report is available here, for example.
   
-![](../audiogram-data-entry.assets/100002010000059E000002672D6D1FC4E9843159.png)  
+![](../audiogram-data-entry.assets/f1c053f26407df4450abbf2c165944ec.png)  
 

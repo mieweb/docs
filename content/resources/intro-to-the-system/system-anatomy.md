@@ -9,7 +9,7 @@ links:
   - '../intro-to-the-system.md'
   - '../../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'System Anatomy'
@@ -28,7 +28,7 @@ MIE system navigation is driven through a number of toolbars and menus accessibl
   
 Layered toolbars appear throughout the MIE system at the top of the page to provide navigation, patient details, and encounter details. The number of toolbars change depending on the page. Additionally, the toolbars collapse as you navigate some pages to maximize space for data entry.
   
-![](../system-anatomy.assets/1000020100000420000000CE87F859CAAC447857.png)  
+![](../system-anatomy.assets/f801232756e795be4e4d6caaab141acf.png)  
 
 When fully expanded, the toolbars appear from the very top of the MIE system as follows:  
 A. Application toolbar: Displays application ( {{% system-name %}} ) navigation:
@@ -38,13 +38,13 @@ A. Application toolbar: Displays application ( {{% system-name %}} ) navigation:
 4. Subscription status icon: Chain links icon indicates whether or not the signed in user is connected to the database. This connection also displays messages to notify a user if another user is working in a document that is currently open.
 5. Help bubble: Links to available help documentation.
 
-   <img src="../system-anatomy.assets/100002010000041D000000333C3717864716C1A5.png" />  
+   <img src="../system-anatomy.assets/9e013b714cc8409722c8257f383bbc31.png" />  
 
 B. Tab toolbar: Displays any tabs that pertain to the page that is currently open. Tabs in this toolbar are sometimes referred to as "chart tabs."  
 C. Patient info toolbar: Displays patient name and MR # when working in an E-chart.
 1. Side chart icon: Opens the side chart when working in an encounter. Displays pertinent patient information (demographics, notes, medical records, orders/tests, comments) on the right side of the page.
 
-   <img src="../system-anatomy.assets/100002010000041D000000387641FF1ED8B14569.png" />  
+   <img src="../system-anatomy.assets/bd97d467d82a6d81f00bc02a2cab0eb0.png" />  
 
 D. Patient Extended toolbar: Displays demographic, encounter, and other related information (such as incidents) while working in an E-chart or an encounter.  
 E. Alerts toolbar: Displays available alert information for patient while working in an E-chart or encounter.  
@@ -60,14 +60,14 @@ H. Encounter links: Links related to an open encounter, as well as a number of t
 7. Edit all sections button: Opens all sections of the encounter for editing.
 8. Show hidden section list button: Displays the list of all additional encounter sections that are not displayed. Click a section to add it to the encounter.
 
-   <img src="../system-anatomy.assets/100002010000041D000000430D43ED05B4562DFD.png" />  
+   <img src="../system-anatomy.assets/ff661c073f6a045ad0591b820299c861.png" />  
 
   
 ### Menus and Tabs  
   
 The left side menu is accessible throughout the system from the show/hide menu icon in the upper left. The following terminology is applied to menus on the top and sides of an MIE system.
   
-![](../system-anatomy.assets/10000201000003FE00000237C92102CAC82F2CBC.png)  
+![](../system-anatomy.assets/3bff6b576461e7efe8c1c2e773ad538c.png)  
 
 1. <strong>Left side menu</strong>: The navigational menu on the left side of the system. The left side menu is comprised of a number of customizable <strong>tabs</strong> The left side menu is accessed through the show/hide menu icon.
 2. <strong>Side chart</strong>: The side chart displays information from a patient's chart. It is accessed only in an encounter by clicking the side chart icon.
@@ -79,7 +79,7 @@ The left side menu is accessible throughout the system from the show/hide menu i
   
 The following items can be seen throughout MIE systems. Here, a patient chart is used for identification.
   
-![](../system-anatomy.assets/10000201000003FE000002806AA8C2E0AB3A545D.png)  
+![](../system-anatomy.assets/3b0ca617252aa223a71b3e76972b0b64.png)  
 
 1. <strong>Quick link</strong>: Any underlined text (including text that displays an underline when the cursor hovers over it) that links to another page is identified as a link. The links on the left side of the header are identified as quick links.
 2. <strong>Portlet</strong>: A movable customizable box that displays a summary of information or links is identified as a portlet. Portlets are displayed on the Quick View or on a patient's E-chart.
@@ -90,7 +90,7 @@ The following items can be seen throughout MIE systems. Here, a patient chart is
   
 The following items can be seen throughout MIE systems. Here, an encounter is used for identification.
   
-![](../system-anatomy.assets/10000201000003FE00000280A44BF177DE240817.png)  
+![](../system-anatomy.assets/f4debfe97b8d63d668563d73dbb863a0.png)  
 
 1. <strong>Section</strong>: A line of text that is obviously used to divide a longer page into distinct parts is identified as a section.
 2. <strong>Button</strong>: A grey, labeled rectangle that enables the system to perform an action is identified as a button. Buttons are often squared and raised, but are sometimes smaller and rounded to fit in a smaller space.
@@ -101,7 +101,7 @@ The following items can be seen throughout MIE systems. Here, an encounter is us
 7. <strong>Autocomplete field</strong>: A field with a small triangle in the bottom right edge is identified as an autocomplete field. Autocomplete uses the text a user types to generate a number of options for them to select from.
 8. <strong>Date Picker</strong>: A small icon that looks like a calendar and allows users to select a date is identified as a date picker.
   
-![](../system-anatomy.assets/10000201000002F9000002874566DEE044E78A20.png)  
+![](../system-anatomy.assets/e268c17310a58bf38b45355eaab303ef.png)  
 
 1. <strong>Radio button</strong>: A circular icon that displays a darker circle in the center indicating that something (most often in a list) is selected is identified as a radio button.
 2. <strong>Variable tree</strong>: Linked text that drops into a list from which a number of items can be selected by using a + icon is identified as a variable tree.

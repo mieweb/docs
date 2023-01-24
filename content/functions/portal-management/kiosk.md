@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Kiosk'
@@ -23,20 +23,20 @@ The  {{% system-name %}}  Kiosk is a portal integration designed for streamlin
 2. Locate the <strong>E-Chart</strong>, <strong>Defaults</strong>, <strong>Use Checkin</strong> system setting.
 
   
-![](../kiosk.assets/100002010000059E000001CEFAEF875933425A01.png)  
+![](../kiosk.assets/273d6915fe0fa0117e5365a01bb340f2.png)  
 
 
 3. Click the <strong>Edit</strong> link in the <em>Options</em> column.
 4. Change the <strong>Value</strong> field to <strong>1</strong>, and click the <strong>Change</strong> button after providing a reason for the change.
 
   
-![](../kiosk.assets/100002010000059F000001F6FF285D24307F3C7C.png)  
+![](../kiosk.assets/b8bc8d9e114e45c37aec240cea06343b.png)  
 
 
 5. With the system setting enabled, navigate to the Provider Management side menu and locate and click the portal link from the <strong>Name</strong> column.
 
   
-![](../kiosk.assets/100002010000059C000001EF1D47D74278C76D71.png)  
+![](../kiosk.assets/2a954f9a78056169abd3c6d3f3fc2264.png)  
 
 
 6. After the page loads, click the <strong>Portal Setup</strong> tab.

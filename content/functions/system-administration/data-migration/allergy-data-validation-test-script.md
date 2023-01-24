@@ -13,7 +13,7 @@ links:
   - 'https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
   - '../../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Allergy Data Validation Test Script'
@@ -104,7 +104,7 @@ Options include:
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-   <img src="../allergy-data-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
+   <img src="../allergy-data-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png" />
 
 {{% tip %}}
    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
@@ -112,13 +112,13 @@ Options include:
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-   <img src="../allergy-data-validation-test-script.assets/10000201000003EE0000005E5A4755F56EC0CF16.png" />
+   <img src="../allergy-data-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png" />
 
 
 
 2. Select <strong>Allergies/Medications</strong> from the Medical Record chart tab.
 
-   <img src="../allergy-data-validation-test-script.assets/100002010000054500000102A4C5C124157EDD8D.png" />
+   <img src="../allergy-data-validation-test-script.assets/3e3a569788287f0ab5e976e5bc3610a2.png" />
 
 
 
@@ -135,11 +135,11 @@ To access and utilize these reports:
 1. Navigate to the  {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}}  sidemenu.
 2. Select the  {{% syslink "Medications/Allergies/Scripts" "f=layout&module=reports&name=MedsAllergiesScripts&tabmodule=reports&tabmodule=reports&t=Medications%2FAllergies%2FScripts&tabselect=Medications%2FAllergies%2FScripts" %}}  report list.
 
-   <img src="../allergy-data-validation-test-script.assets/100002010000055600000168DDD7D0D2AAEA79D8.png" />
+   <img src="../allergy-data-validation-test-script.assets/900ac3a98042d7338093aa2698c33d88.png" />
 
 
 
 3. Criteria may be added to filter or drill down data.
 
-   <img src="../allergy-data-validation-test-script.assets/10000201000005530000010C4105DC424739EF62.png" />  
+   <img src="../allergy-data-validation-test-script.assets/676d1259f36139c0656a87e5dad00edb.png" />  
 

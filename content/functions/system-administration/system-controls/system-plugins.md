@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'System Plugins'
@@ -20,6 +20,6 @@ There is support in the Plugins page for Opera and Safari. The plugins for Alter
 There is support for Firefox in the Plugins page. The three plugins that are supported in Firefox are Alternatiff, MIEPlayer and ScanControl. These will be packaged as an xpi file and served from {{% system-name %}} . {{% system-name %}} will also provide the resources for updating these plugins so when Firefox's plugin manager looks for an update it will not need to look up any external sites.  
 There is support for Chrome in the Plugins page. Newer versions of Chrome have tighter restrictions on installing third party extensions. To give {{% system-name %}} permission to use its own plugins, the plugin manager displays an "Import To Registry to Allow Plugins" link. Downloading and executing that link's file will give Chrome permission to run any plugin coming from the {{% system-name %}} system's domain.
   
-![](../system-plugins.assets/10000201000004CD0000020D353B7CC25AD7D3A2.png)  
+![](../system-plugins.assets/ad9bbeb6ba8baa8940739e14a9516f47.png)  
 
 At the top right corner of the Plugins page, there is a link Download all controls in a single CAB file that will perform that download to your system in CAB file format.

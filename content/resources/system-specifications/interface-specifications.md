@@ -2,7 +2,7 @@
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
 date: '2022-12-02T16:59:08.706Z'
-version: 1523
+version: 1532
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -15,7 +15,7 @@ links:
   - 'https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view'
   - '../../functions/system-administration/interfaces/e-clinicalworks.md'
   - '../../functions/system-administration/interfaces/device-interface-amplivox-ca850.md'
-  - '../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md'
+  - '../../functions/system-administration/interfaces/device-interface-benson-audiometer.md'
   - 'https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM'
   - '../../functions/system-administration/interfaces/device-interface-maico-ma800.md'
   - '../../functions/system-administration/interfaces/device-interface-mi-7000.md'
@@ -47,7 +47,7 @@ links:
   - 'http://stchome.com/'
   - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Interface Specifications'
@@ -60,7 +60,7 @@ menu:
 
 
   
-![](../interface-specifications.assets/10000201000003980000023031C82A72BF45DD1A.png)  
+![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)  
 
 Please see the list below for a complete listing of all vendors/devices that we have integrated with. Any vendor/device not listed would need to be researched for compatibility with our product. Check out our [additional documentation](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md) that explains how to send HL7 messages to us.
 
@@ -141,9 +141,9 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 
 * Audiometer 
    * [Amplivox CA850 & PC850 USB](../../functions/system-administration/interfaces/device-interface-amplivox-ca850.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
-   * [Benson CCA-100mini Plus Industrial Audiometer with a BAS-200 Bio-Acoustic Simulator](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md), [Benson Mini CCA-200mini](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md) (requires Plus Package software) (File Bi-directional)
+   * [Benson CCA-100mini Plus Industrial Audiometer with a BAS-200 Bio-Acoustic Simulator](../../functions/system-administration/interfaces/device-interface-benson-audiometer.md), [Benson Mini CCA-200mini](../../functions/system-administration/interfaces/device-interface-benson-audiometer.md) (requires Plus Package software) (File Bi-directional)
       * Export file from WebChart into Benson software and then Benson software exports report to upload to WebChart, requires specific report format that needs to be added to Benson software.  Importing report format requires the PLUS package.  Requires manual downloading of file to Benson for demographic information
-   * [Benson 200](../../functions/system-administration/interfaces/device-interface-benson-audiometer@2.md) Audiometer Device - requires the PLUS package
+   * [Benson 200](../../functions/system-administration/interfaces/device-interface-benson-audiometer.md) Audiometer Device - requires the PLUS package
    * [Everest Audio](https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM) (no model # on device) (File Uni-directional)
    * [Maico MA800](../../functions/system-administration/interfaces/device-interface-maico-ma800.md) (Serial Uni-directional)
    * Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)

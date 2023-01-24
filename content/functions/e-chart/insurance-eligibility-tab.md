@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Insurance Eligibility Tab'
@@ -19,7 +19,7 @@ menu:
 From the **Insurance Eligibility** chart tab, the **Insurance Eligibility Request** screen will display. Users must have the *Patient Insurance Policies* security permission set to at least View, in order to run the individual eligibility inquiries.
 
   
-![](../insurance-eligibility-tab.assets/100002010000040500000149A60AC93C86FC6789.png)  
+![](../insurance-eligibility-tab.assets/f06138c371e652701d22fcdfed0fac0f.png)  
 
 
 The chart's information will populate on the screen along with the primary insurance policy number that is stored in the chart's insurance section of the demographics. You can change the **Policy Number** field if you wish to search for a policy on the chart besides what is defaulted.  
@@ -28,7 +28,7 @@ In the **Payer** field, begin typing in the name of the payer (patient's insuran
 When you click the Send Request button, the request will be sent and eligibility information will be received in real-time. The **Eligibility Information** screen will appear with the subscriber information and eligibility information sections.
 
   
-![](../insurance-eligibility-tab.assets/1000020100000303000001F233BEC2904BB80E7B.png)  
+![](../insurance-eligibility-tab.assets/f87c22b33d8223b4c2c240af66331c79.png)  
 
 
 You can gather the information you need from that screen, you can scroll down to the bottom and click the **Save as Document** button.  This will save the entire page of information as a stored document in the patient's chart.    

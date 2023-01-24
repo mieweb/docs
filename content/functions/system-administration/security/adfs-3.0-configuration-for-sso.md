@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization'
 source: 'https://drive.google.com/open?id=15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'ADFS 3.0 Configuration for SSO'
@@ -30,7 +30,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000270000001E4BA4E543A543A7A49.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/cdb5b54598e2be5180502bcdf0f15591.png" />
 
 
 
@@ -39,7 +39,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/100002010000027000000150AD0BE38092D13A78.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/5e5e130f7024996d675d7f21ce2cd008.png" />
 
 
 
@@ -47,7 +47,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/100002010000027100000200A7458089EAB91794.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/c5975d39aba92d59c638b4f70939c156.png" />
 
 
 
@@ -57,7 +57,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000271000001E84A29F4C5B6D7C639.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/4fcf78b0e164376d55864fa47ab23810.png" />
 
 
 
@@ -67,7 +67,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000272000002028A77C0B994952D73.png" />
+    <img src="../adfs-3.0-configuration-for-sso.assets/72352bf53e77e9ab0a757228b733e543.png" />
 
 
 
@@ -75,7 +75,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000272000001FB44A5EA907A1CC3AB.png" />
+    <img src="../adfs-3.0-configuration-for-sso.assets/f40433ef31122ccfb448911a77df5617.png" />
 
 
 
@@ -83,7 +83,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000270000001F73B25AA6A416662D2.png" />  
+    <img src="../adfs-3.0-configuration-for-sso.assets/62ee7e6bab7edeece7b3e67c3a1fb555.png" />  
 
   
 ## Edit Claim Rules  
@@ -93,7 +93,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000271000001DCD3E7DE9A2F970D27.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/0ee71feaaef75146c99951f6ecd85be8.png" />
 
 
 
@@ -103,7 +103,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/100002010000027000000165E43D6EA5924FCF90.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/0ef30a26b1b79bf619e10db16e767142.png" />
 
 
 
@@ -115,7 +115,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000271000001E4C799DCE7B88B4793.png" />  
+    <img src="../adfs-3.0-configuration-for-sso.assets/d619bb330d23d53aa494a17bec8ec44b.png" />  
 
 11. Click <strong>Add Rule…</strong>, again.
 12. Select <em>Transform an Incoming Claim</em> from the <strong>Claim rule template</strong> dropdown list.
@@ -123,7 +123,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/10000201000002700000019CC9DB90E8BBF6E09C.png" />
+    <img src="../adfs-3.0-configuration-for-sso.assets/5fe74a646c8c0c1ed43bc1c8740f7549.png" />
 
 
 
@@ -135,7 +135,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000270000001EB81FA22856A13DEBC.png" />
+    <img src="../adfs-3.0-configuration-for-sso.assets/2034faad7b3eeff8e17ec3180795e3e7.png" />
 
 
 
@@ -143,7 +143,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000269000002368B151A447B3E8F18.png" />  
+    <img src="../adfs-3.0-configuration-for-sso.assets/fd2dc373726b5ae61f94fc73b9e4adaa.png" />  
 
   
 ## Set Relying Partying SAML Logout Endpoint & Secure Hash Algorithm  
@@ -159,7 +159,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/100002010000026D0000022BD87FB9C1FEDA5151.png" />  
+   <img src="../adfs-3.0-configuration-for-sso.assets/0d5e33ed652fa3902e869e757265f316.png" />  
 
 
   
@@ -172,7 +172,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000246000001F3DC78A7AF1087D34D.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/82ca00be6ff65ed92063ac0bddad78bd.png" />
 
 
 
@@ -180,7 +180,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000205000001A0B380E2CB31D19C9E.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/6c54c406098dfea845b6951927821c60.png" />
 
 
 
@@ -189,7 +189,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000270000001FC44DF349B5FB41F62.png" />  
+   <img src="../adfs-3.0-configuration-for-sso.assets/7096c8e36e295e6505387671615c8ff4.png" />  
 
   
 ## Restart the ADFS Service  
@@ -199,7 +199,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/1000020100000270000001DFF3F0E8C2AEED6587.png" />
+   <img src="../adfs-3.0-configuration-for-sso.assets/7f6f89c901e09de6ab25572598e1de1f.png" />
 
 
 
@@ -208,7 +208,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/100002010000027100000142AA69866E3997E6A7.png" />  
+   <img src="../adfs-3.0-configuration-for-sso.assets/be0bc532c5901e9c27c8d0c60b22e0b8.png" />  
 
   
 ## Customize ADFS User Sign-in Page (Optional)  

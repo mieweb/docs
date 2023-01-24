@@ -13,7 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
   - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
 source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Audiogram Validation Test Script'
@@ -161,7 +161,7 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-   <img src="../audiogram-validation-test-script.assets/10000201000000E90000008428F41BCA52594CC8.png" />
+   <img src="../audiogram-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png" />
 
 {{% tip %}}
    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
@@ -169,10 +169,10 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 {{% /tip %}}
 1. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-   <img src="../audiogram-validation-test-script.assets/10000201000003EE0000005E5A4755F56EC0CF16.png" />
+   <img src="../audiogram-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png" />
 
 2. Select <strong>Audiogram</strong> from the Test Results chart tab.
-   <img src="../audiogram-validation-test-script.assets/100002010000048400000108F0A13D489D7C5EAB.png" />
+   <img src="../audiogram-validation-test-script.assets/9a7bb8b77bad67853b399785d15be97e.png" />
 
 {{% tip %}}
    The number in parenthesis indicates the number of items in each tab. 
@@ -181,11 +181,11 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 
 3. The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.
 
-   <img src="../audiogram-validation-test-script.assets/10000201000002D000000040E446B1F04AEC2DFE.png" />
+   <img src="../audiogram-validation-test-script.assets/e1a18f959d442492081dac7e73ecccce.png" />
 
 4. Clicking into the most recent audiogram will display all results that have been entered.
 
-   <img src="../audiogram-validation-test-script.assets/10000201000002D2000000948433627B36653995.png" />  
+   <img src="../audiogram-validation-test-script.assets/b3818d187cff450d6fdcc26b4727f4bd.png" />  
 
 5. With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
 
@@ -208,18 +208,18 @@ To access and utilize these reports:
 1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
 2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.
 
-   <img src="../audiogram-validation-test-script.assets/10000201000000DA000000CFE328126D44CB0032.png" />  
+   <img src="../audiogram-validation-test-script.assets/403e427a3920d588507800435afefaf9.png" />  
 
 3. Criteria may be added to filter or drill down data. 
    1. Audiogram Report
 
-      <img src="../audiogram-validation-test-script.assets/10000201000001FC000000C48CD81B0B90A5E378.png" />
+      <img src="../audiogram-validation-test-script.assets/f72feceaf3162050b77cacab2502b281.png" />
 
 
 
    2. Audiometric Testing Report
 
-      <img src="../audiogram-validation-test-script.assets/10000201000002060000008E08D14DCAF85ECE98.png" />  
+      <img src="../audiogram-validation-test-script.assets/f34ef1cc466e770880e198bddce5af52.png" />  
        
 
   

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'My Settings'
@@ -21,7 +21,7 @@ Changes to any of the My Setting preferences will only affect you, the logged in
 Click Control from left sidebar menu. Click My Settings tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click Submit Settings box at the top or bottom of the screen.
 
   
-![](../my-settings.assets/10000201000004C000000101C6B7F2382E89736C.png)  
+![](../my-settings.assets/025ce3b3ca6afbacfc7625975bcb82df.png)  
 
 
   
@@ -30,7 +30,7 @@ Click Control from left sidebar menu. Click My Settings tab at top. Use drop-dow
 If you have security rights, you can view other user's preference settings and/or edit them.  Alternatively, you can view the System Default settings or you can view specific Security Role Default settings.  
 
   
-![](../my-settings.assets/100002010000018D000000546173914EB6A80D21.png)  
+![](../my-settings.assets/270868e9e5770a7a81bfa13d9f62a8e1.png)  
 
 
   
@@ -43,7 +43,7 @@ This field at the top right of My Settings defaults to you (yourself – the log
 If you have security permission and want to edit preferences for another user in your system, simply select OTHER USER from the drop-down. A second field named Choose a user: will appear where you are to start typing in the name of the other user. It will auto-complete and give you choices/matches of users in your system.  
 
   
-![](../my-settings.assets/10000201000002E30000005764DA2CAAFBBC3955.png)  
+![](../my-settings.assets/ffeba9e18aa9f19c9d9a9657454c5953.png)  
 
 
 Once you have selected the other user, the screen will refresh and show that user's preferences/settings your screen. Make changes to their preferences and click SUBMIT CHANGES button when done. This changes preferences for that specific other user only.
@@ -53,13 +53,13 @@ Once you have selected the other user, the screen will refresh and show that use
 This is usually maintained by your MIE Implementer. Viewing the System Default preferences shows what the defaults for your entire {{% system-name %}} system are set to. Of course, individual users though can change their individual preferences. You or your MIE Implementer can change preferences for all users in your system in mass by changing defaults here that change all users system wide instead of individually by user.
 
   
-![](../my-settings.assets/10000201000004B0000000FFA923F9D94EB3ECB6.png)  
+![](../my-settings.assets/ae0ea4b87b5c56ce9817d05fc45a2048.png)  
 
 
 To change a system default preference as a means of applying that change in mass to all users in {{% system-name %}} is a two step process and is a bit different than changing an individual preference setting. When changing a System Default preference, find the My Setting preference you wish to change for the entire system. The name of the preference (when viewing preferences for System Default) should be underlined. the underline is really a link.   Example:
 
   
-![](../my-settings.assets/10000201000000960000003A920A96C1A5D67721.png)  
+![](../my-settings.assets/e056f7394efc669eb2fe94b0a435f49f.png)  
 
 
 The specific preference field with the drop-down arrow tells you what the system default is already set to. If you need to change the ‘system default' (you are not changing it in mass for all users yet—you are just changing the system default setting) then you use the drop-down arrow to change your selection. Click SUBMIT CHANGES button at the bottom when done. This saves that setting/preference for the system default only. This does not apply it to everyone in mass yet.  
@@ -67,13 +67,13 @@ Once you have the system default set to what you want or it is already set to wh
 For instance, in this example, I want everyone in the entire {{% system-name %}} system to be preference set to Number of Recent Patients: 10. After I have the system default setting set to 10 and saved, I now need to go back in and apply this to all users in the {{% system-name %}} system. So, I click on the underlined name Number of Recent Patients setting. It then pops up a warning message on my screen that I am about to change this specific setting for all {{% system-name %}} users.
 
   
-![](../my-settings.assets/1000020100000293000000A0061684F922E77CBA.png)  
+![](../my-settings.assets/bfc99a29796679549dd3af28f05e9698.png)  
 
 
 Click SET TO DEFAULT button to apply that setting and its value to all users in your {{% system-name %}} system or cancel to get out. You will get a confirmation message at the top stating you updated that setting for all users in your system.
 
   
-![](../my-settings.assets/10000201000001A40000006E83B5248A33139AC3.png)  
+![](../my-settings.assets/c0fcb9263d64ca75bb570f91ba27220a.png)  
 
 
 Continue to another system default if you wish. If you are changing preferences for all users in mass to be the system default setting, each change has to be done individually.
@@ -83,7 +83,7 @@ Continue to another system default if you wish. If you are changing preferences 
 If you have security permission and want to edit preferences for users tied to a specific security role, simply select SECURITY ROLE DEFAULTS from the drop-down. A second field named Choose a security role: will appear. Use the drop-down arrow to select the specific security role that you wish to edit preferences on. Any changes to preferences (My Settings) will affect all users tied to that security role.
 
   
-![](../my-settings.assets/10000201000002CC000000D96324FFF95087EBF1.png)  
+![](../my-settings.assets/d0226683a69e1316c905580ca430fb76.png)  
 
 
 Changing security role preferences and then applying them to all users within that security is the same process as above in the System Default section. Please see above section for steps on how to apply security role default preference to all users within that security role in mass.  
@@ -92,7 +92,7 @@ When looking at preference choices available in the drop-down:
 * Three Asterisks denotes the preference as both the Security Role and System defaults.
 
   
-![](../my-settings.assets/100002010000046E0000008C9851F2F0EA3ED71C.png)  
+![](../my-settings.assets/df23d503b005d4feefb9a17254e70bbc.png)  
 
 
   
@@ -145,7 +145,7 @@ When looking at preference choices available in the drop-down:
 * Date Format: There are 3 choices (MM-DD-YYYY, DD-MM-YYYY or YYYY-MM-DD) It is defaulted to MM-DD-YYYY however if you change, any date (date of birth, document date, revision dates, etc) will then display as your selected format in {{% system-name %}} .  The entry fields for the dates follow the same ordering as the displaying selection also. The separator for dates is standardized to use the dash ( - ).
 * 24 Hour Clock:  Choose Yes or No.  If Yes, times displayed for your view will be 24 hour military time. Field entry is still in normal 12 hr time with am/pm on it, yet summary view shows military time. If set to No, the times displayed for your view will be normal 12-hour clock times with pm or am after it.
 * Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format.
-  <img src="../my-settings.assets/10000201000000F3000000190CBE8CB3E0404774.png" />  
+  <img src="../my-settings.assets/bd1b2c70e9734445f143ab7232c5a6cf.png" />  
 
 * Preferred Unit System: Choose Default, English or Metric.  You can still enter vitals, etc w/ either unit system; this just makes the drop-down choice units start at the system you choose. (ex: units for weight lbs vs kg, height  units inches vs. cm, etc).
   
@@ -475,7 +475,7 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 To save settings, click Submit Settings at the top or bottom of the screen.
 
   
-![](../my-settings.assets/10000201000003830000006E51006394C4AD3055.png)  
+![](../my-settings.assets/0fc93c112700ae66f62de10604dd585d.png)  
 
   
 ### **Password/PIN Control**  

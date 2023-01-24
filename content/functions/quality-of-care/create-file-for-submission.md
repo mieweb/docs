@@ -24,7 +24,7 @@ links:
   - 'https://www.youtube.com/watch?v=iGFYslxit-U&feature=youtu.be'
   - 'https://www.youtube.com/watch?v=yd6EBtEGX1w&feature=youtu.be'
 source: 'https://drive.google.com/open?id=1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Create File for Submission'
@@ -44,14 +44,14 @@ The following instructions outline the general process for generating a file fro
 2. Navigate to the [Reports](https://system/?f=layout&module=reports&name=reports&tabmodule=reports) sidemenu.
 3. Go to the [Quality of Care](https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care) reports and tools.
 
-   <img src="../create-file-for-submission.assets/10000201000004AF00000238986AB01186B40B3F.png" />  
+   <img src="../create-file-for-submission.assets/18db19fee9484382067fc4a890a6076b.png" />  
 
 4. Under <strong>Tools</strong>, select the appropriate file generator for submission. In this example, we will use [QPP JSON File Generator.](https://system/?f=layout&s=pat&module=MIPS&name=QPPJSON-Generation&t=Quality+of+Care&tabmodule=reports)
 {{% info %}}
    The QPP JSON File Generator allows QPP participants the ability to generate the necessary JSON file used for submission on the [QPP portal](https://qpp.cms.gov/login).
 {{% /info %}}
 5. The generator allows users to specify reporting years, select specific participants/providers, or limit individual categories from the report, as appropriate. After selecting the appropriate values, click the <strong>Download Reporting Document(s)</strong> button.
-   <img src="../create-file-for-submission.assets/10000201000004BD0000011EB8AB9136AF9EDD2D.png" />  
+   <img src="../create-file-for-submission.assets/19d7798c4ae6265e40b9bb1f471b1640.png" />  
 
 6. When <strong>Download Reporting Document(s)</strong> is clicked, the page will automatically download the appropriate number of files, based on the number of participants specified in the file criteria. If multiple participants are selected, an individual file will be generated for each participant, appending the Provider ID to the filename.
 7. Be sure to <strong>Save</strong> the file(s) to your device.

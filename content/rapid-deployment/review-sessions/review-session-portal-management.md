@@ -22,7 +22,7 @@ links:
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
   - 'https://mie.talentlms.com/unit/view/id:2687'
 source: 'https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Review Session - Portal Management'
@@ -99,11 +99,11 @@ To begin the initial setup and finalize configuring of the portal(s), there is a
   
 To begin utilizing any of the portal features and functionality, users must have their role and relationship established, so that appropriate access can be granted. Employees and supervisors must first be listed as employees in the [Portal](https://system/?f=chart&s=pat&pat_id=41) Provider Organization, in order to have access to their respective portals.
   
-![](../review-session-portal-management.assets/10000201000002FD00000141E961AADEF5C76B50.png)  
+![](../review-session-portal-management.assets/8abe2356b792f153136c771c1cdbb914.png)  
 
 They must also have established relationships, consisting of *Self* and *No More Clipboard User* roles, and employees that the supervisor manages should be listed with a *Supervisor* role. To set these relationships, navigate to the employee's Summary chart tab and edit the Contacts portlet. Otherwise, relationships can be established by editing user account information from [Access Control](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control).
   
-![](../review-session-portal-management.assets/1000020100000686000001C401A419C3B2D99AC9.png)  
+![](../review-session-portal-management.assets/8ea60737fa225bdf1ea49a2c388811cd.png)  
 
 {{% info %}}
 
@@ -119,11 +119,11 @@ To begin using the **First Time Setup**, click the section header to expand and 
 By default, any {{% system-name %}} user with the necessary user-patient relationships established can access the portal. This means that as long as the user-patient relationship is set correctly, the portal will be enabled for all security roles.
 {{% /info %}}
   
-![](../review-session-portal-management.assets/10000201000002E0000001EF12720DA96B226995.png)  
+![](../review-session-portal-management.assets/32b701192f2cfae38545b9644e67639a.png)  
 
 The **Portal** section, on the other hand, includes options to make label and verbiage changes, to update the logo, to disable either the employee or supervisor portal, and to add a consent form that would need to be electronically signed before being granted access to the portal.
   
-![](../review-session-portal-management.assets/100002010000032E0000032C24A5C4CC68F926B1.png)  
+![](../review-session-portal-management.assets/86d079f40037817f8281d45171ee6315.png)  
 
 Some of the options needing customized or addressed, include:
 * <strong>Replacement text for Enterprise Health</strong>: This field is used to replace the <em>Enterprise Health</em> label with the provided text. The replacement text should be the business name.
@@ -140,12 +140,12 @@ All other options are part of the standard configuration and are enabled by defa
 
 In order to access the portal as an employee, users must be established in the {{% system-name %}} system and have the appropriate role affiliation (i.e., an established *Self* role and *No More Clipboard User* role). To customize and configure each portal individually, users may navigate to the respective tab of the Provider Organization. For instance, the [Patient Portal tab](https://system/?f=chart&s=pat&t=Patient+Portal&v=dashboard&pat_id=41) contains configuration options for the employee portal, exclusively. Under this tab, there is an **Employee Portal Options** section, which addresses things such as the ability to disable the message center or configure document types needed for display in the portal, or the ability to add or modify replacement text, labels, tab colors, the landing page image, or even the message ticker.
   
-![](../review-session-portal-management.assets/10000201000002E60000023B5FF8E89749C462E6.png)  
+![](../review-session-portal-management.assets/0993ff48068a839342c3ad608d08eb9b.png)  
 
 Utilize the following options to customize the employee portal, as needed:
 **Patient Portal Configuration - Show Sample**: Click the *Show Sample* button to view a sample page designed to show the customizable fields available. This will show a sample of the portal welcome screen.
   
-![](../review-session-portal-management.assets/100002010000033B0000025AD8C94DC4E96259E4.png)  
+![](../review-session-portal-management.assets/2f9a3c566cc1e343152a3df36224770c.png)  
 
 **Single function portal**: When the Message Center is disabled and this option is selected, the portal will automatically be forwarded to the first module in the Module List.
 **Disable Message Center**: Selecting this option will force the Message Center to be hidden for this portal. (By default, the Message Center will be displayed, so long as the chart tab is configured.)
@@ -168,7 +168,7 @@ The *My Medical Information*, *Report a Work Injury or Illness*, *Work Status* m
 **My Appointments**
 The My Appointments module can be updated to allow specific options for functionality, as well as for displaying warnings or specified text, as needed.
   
-![](../review-session-portal-management.assets/10000201000003B10000021B6D2BA9E4ACDF5856.png)  
+![](../review-session-portal-management.assets/e6271c2c03911052c7572f94e09e6810.png)  
 
 * <strong>Custom Module Name</strong>: The name defaults to <em>My Appointments</em>. Customize up to 60 characters.
 * <strong>Schedule an Appointment</strong>: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system.
@@ -192,7 +192,7 @@ This field will display only if *Allow scheduling past due appointments* IS NOT 
 **Send a Message**
 The Send a Message module can have its name and header customized, the sending instructions modified, or the message types configured, to determine what can/cannot be sent to and from the portal.
   
-![](../review-session-portal-management.assets/100002010000047F0000019C8B14EDC4437659CE.png)  
+![](../review-session-portal-management.assets/6f4263cc05270a5d1f50145e4a6a2b2f.png)  
 
 * <strong>Custom Module Name</strong>: The name defaults to <em>Send a Message</em>. Customize up to 60 characters.
 * <strong>Replacement text for header bar</strong>: The header found on the Send a Message portal page defaults to <em>Send a Message</em>. Use this field to customize this header, as needed.
@@ -211,7 +211,7 @@ Click the minus button to remove any message type, or click the button or *Add m
 **Other Health Resources**
 The Other Health Resources module allows for additional resources to be added to the portal, as needed. These resources can be internet or intranet resources, and there is no limit to the number of resources that can be added.
   
-![](../review-session-portal-management.assets/10000201000004DA0000032F003FE9BCD18FCA33.png)  
+![](../review-session-portal-management.assets/3d012c575bff480ff6a49aeb8765a1ae.png)  
 
 * <strong>Custom Module Name</strong>: The name defaults to <em>Other Health Resources</em>. Customize up to 60 characters.
 * <strong>Add additional health resources</strong>: To add additional health resources, simply click the <strong>Add Health Resource</strong> button. This will place a templated NoMoreClipboard health resource panel at the bottom of the list of resources.
@@ -228,12 +228,12 @@ The Other Health Resources module allows for additional resources to be added to
 
 In order to access the portal as a supervisor, users must be established in the {{% system-name %}} system and have a user-patient relationship set up (i.e., supervisor-employee relationship with each employee chart). To customize and configure each portal individually, users may navigate to the respective tab of the Provider Organization sidemenu. For instance, the [Employer Portal tab](https://system/?f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=41) contains configuration options for the supervisor portal, exclusively. Under this tab, there is an **Supervisor Portal Options** section, which addresses things such as the ability to disable the message center or configure document types needed for display in the portal, or the ability to add or modify replacement text, labels, tab colors, the landing page image, or even the message ticker.
   
-![](../review-session-portal-management.assets/10000201000002E5000001FBAB4272EB4F89AD34.png)  
+![](../review-session-portal-management.assets/52e62d3727308e6d3b5b01a4e11ffc8a.png)  
 
 Utilize the following options to customize the employee portal, as needed:
 **Patient Portal Configuration - Show Sample**: Click the *Show Sample* button to view a sample page designed to show the customizable fields available. This will show a sample of the portal welcome screen.
   
-![](../review-session-portal-management.assets/100002010000033B0000025AD8C94DC4E96259E4.png)  
+![](../review-session-portal-management.assets/2f9a3c566cc1e343152a3df36224770c.png)  
 
 **Single function portal**: When the Message Center is disabled and this option is selected, the portal will automatically be forwarded to the first module in the Module List.
 **Disable Message Center**: Selecting this option will force the Message Center to be hidden for this portal. (By default, the Message Center will be displayed, so long as the chart tab is configured.)
@@ -275,7 +275,7 @@ The Reports module displays a list of reports based on the configuration below:
 **Send a Message**
 The Send a Message module can have its name and header customized, the sending instructions modified, or the message types configured, to determine what can/cannot be sent to and from the portal:
   
-![](../review-session-portal-management.assets/10000201000004410000015A2A083846462DBD20.png)  
+![](../review-session-portal-management.assets/bce50e5025cd16022001ddb34fc69840.png)  
 
 * <strong>Custom Module Name</strong>: The name defaults to <em>Send a Message</em>. Customize up to 60 characters.
 * <strong>Replacement text for header bar</strong>: The header found on the Send a Message portal page defaults to <em>Send a Message</em>. Use this field to customize this header, as needed.
@@ -296,7 +296,7 @@ Click the minus button to remove any message type, or click the button or *Add m
 The applicant portal is a web-based platform available for screening new employees and streamlining the hiring process. The applicant portal is an optional module designed as a login terminal for increased usability. With it, employers have the ability to simplify the onboarding process and ensure all pre-employment needs are addressed early and accurately.
 This portal is configured so that candidates can be directed to the portal to complete forms and/or questionnaires, according to the hiring and pre-employment needs of the business. Candidates simply need to begin the portal session by entering their first and last name. Once the applicant has completed the forms/questionnaires, all of the information is submitted to the employer electronically. From here, a login-disabled user account will be drafted and linked to the pre-configured Applicant department, so if hired, the information can be easily merged into the employee user account.
   
-![](../review-session-portal-management.assets/10000201000002EB00000172C0ED59A4F96E5894.png)  
+![](../review-session-portal-management.assets/f9b755fa438b719330f844cf4a1ddea0.png)  
 
   
 #### System Configuration and Setup  

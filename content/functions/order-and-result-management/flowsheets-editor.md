@@ -10,7 +10,7 @@ links:
   - 'observation-codes-editor.md'
   - 'observation-code-merging.md'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Flowsheets Editor'
@@ -35,7 +35,7 @@ The following information provides details on how to add and configure flowsheet
 1. Verify all observations needed for the new flowsheet are already created and available within the  {{% system-name %}} system.
 
   
-![](../flowsheets-editor.assets/100002010000050A0000018F585EE53038EDF00E.png)  
+![](../flowsheets-editor.assets/65a295e2a6501c771387d62500402087.png)  
 {{% note %}}  
 Any custom discrete values will not be interoperable when communicating with other systems.  
 {{% /note %}}
@@ -105,7 +105,7 @@ To avoid the default behavior of automatically displaying line breaks/headers, u
 2. Once the line break/header has been updated with a section name, edit each line item or observation belonging to that section with the same section name.
 
   
-![](../flowsheets-editor.assets/100002010000058F000002D6A3D3D217F2118846.png)  
+![](../flowsheets-editor.assets/591bacdca5ac83d33e36be4a864fcf22.png)  
 
 
 3. Click the <strong>Submit</strong> button to save all changes.
@@ -151,7 +151,7 @@ observationDisplay('Since your last exam, have you experienced rhinitis, a runny
 
 ```
   
-![](../flowsheets-editor.assets/100002010000058E000002202E0B1263B2E85593.png)  
+![](../flowsheets-editor.assets/fc9e52795cc011112b1b482a6ed0081b.png)  
 
   
 #### Based on Patient Sex  

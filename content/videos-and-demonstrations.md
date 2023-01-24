@@ -2,7 +2,7 @@
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
 date: '2022-09-09T13:14:27.246Z'
-version: 478
+version: 479
 lastAuthor: 'Emily McComb'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ links:
   - 'https://blog.enterprisehealth.com/videos/standard-reporting-demo-video'
   - 'https://blog.enterprisehealth.com/videos/osha-recordkeeping-and-reporting-demo-video'
 source: 'https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
-wikigdrive: '2abeb591fccd09f9dcebef69bca681875d9cdcb0'
+wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 menu:
   main:
     name: 'Videos & Demonstrations'
@@ -58,7 +58,7 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 {{% column %}}
 
   
-![](../videos-and-demonstrations.assets/10000201000001BD0000013317972096890C0126.png)  
+![](../videos-and-demonstrations.assets/e6f9431ad83fc70ead4f3905698728d0.png)  
 
 {{% /column %}}
 {{% /section %}}
