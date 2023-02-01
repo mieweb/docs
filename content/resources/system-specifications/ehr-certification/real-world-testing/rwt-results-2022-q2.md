@@ -1,9 +1,9 @@
 ---
 id: '1Cqgy5lwUu6jZr8ta02aN69n1uWkM4InqJGdmE7w0JD8'
 title: 'RWT Results 2022 Q2'
-date: '2022-11-07T20:17:36.909Z'
-version: 263
-lastAuthor: 'Nicole Richardson'
+date: '2023-01-24T15:59:24.264Z'
+version: 294
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -23,7 +23,7 @@ links:
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Cqgy5lwUu6jZr8ta02aN69n1uWkM4InqJGdmE7w0JD8'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '4b27b68ceb73077c2c97cc4401b26318e8e459d1'
 ---
 ## General Information  
 
@@ -1144,7 +1144,7 @@ MIE will report on the number of CDA formatted documents uploaded into tracked W
 MIE will report on the number of requests to view a CDA document within the system, and the number of times it displayed correctly, and when there were errors in display.  
 Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.  These test assumptions for customer reporting align with the "visual inspection" aspects of the test lab tests.
   
-#### Results  
+#### 117Results  
 
 
 <table>

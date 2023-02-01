@@ -1,9 +1,9 @@
 ---
 id: '1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
 title: 'Real World Testing Plan 2023'
-date: '2022-12-09T16:42:47.209Z'
-version: 708
-lastAuthor: 'Theresa Juillerat'
+date: '2023-01-17T02:31:30.688Z'
+version: 847
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -33,7 +33,7 @@ links:
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
 source: 'https://drive.google.com/open?id=1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '4b27b68ceb73077c2c97cc4401b26318e8e459d1'
 ---
 ## General Information  
 
@@ -54,7 +54,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 </tr>
 <tr>
 <td><strong>Version Number(s)</strong></td>
-<td>8.4*</td>
+<td>8.4</td>
 </tr>
 <tr>
 <td><strong>Certified Health IT Product List ID(s)</strong></td>

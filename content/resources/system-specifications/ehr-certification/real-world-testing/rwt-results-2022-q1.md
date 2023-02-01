@@ -1,9 +1,9 @@
 ---
 id: '1RSYz8E5xgXRhFy92EamMI501C7vV0mSHrqtTB51vwY0'
 title: 'RWT Results 2022 Q1'
-date: '2022-11-07T16:57:15.123Z'
-version: 481
-lastAuthor: 'Nicole Richardson'
+date: '2023-01-30T17:19:52.772Z'
+version: 520
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -22,7 +22,7 @@ links:
   - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1RSYz8E5xgXRhFy92EamMI501C7vV0mSHrqtTB51vwY0'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '4b27b68ceb73077c2c97cc4401b26318e8e459d1'
 ---
 ## General Information  
 
@@ -556,7 +556,7 @@ Additionally, WebChart EHR has two customers that participate in quarterly attes
   
 #### Discussion  
   
-As expected, no errors were found in formatting or coding of the certified measures.  One warning was reported by a client where a provider NPI was included in the QRDA III file, but the provider had been removed from the client reported roster.  The provider producing the warning departed the practice mid-year causing data to be tracked in WebChart EHR for encounters that the provider performed prior to their departure.  This warning was determined to be of no impact to the eCQM certified functionality. 
+As expected, no errors were found in formatting or coding of the certified measures.  One warning was reported by a client where a provider NPI was included in the QRDA III file, but the provider had been removed from the client reported roster.  The provider producing the warning departed the practice mid-year causing data to be tracked in WebChart EHR for encounters that the provider performed prior to their departure.  This warning was determined to be of no impact to the eCQM certified functionality.
   
 ### Measure 2: Clinical Quality Measures Incoming  
 
@@ -617,6 +617,7 @@ MIE will install an instance of Cypress 6+ on our production servers following a
 #### Discussion  
   
 As expected, no errors were found in formatting or coding of the certified measures.
+
   
 ### Measure 3: E-Prescribing Messages Sent and Received  
 

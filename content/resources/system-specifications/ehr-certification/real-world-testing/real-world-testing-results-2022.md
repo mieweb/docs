@@ -1,11 +1,12 @@
 ---
 id: '1JqO9WpTRHcNZrB65zx7dqQ-DXlsaWGfHS_qMkp-bCJs'
 title: 'Real World Testing Results 2022'
-date: '2022-11-07T21:53:16.086Z'
-version: 172
-lastAuthor: 'Nicole Richardson'
+date: '2023-02-01T19:26:55.603Z'
+version: 370
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://drive.google.com/file/d/1jodfHoSV12rtcGQyQPHL42mRBtZHtpqw'
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
   - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
   - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#test_procedure'
@@ -22,9 +23,12 @@ links:
   - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
+  - 'https://github.mieweb.com/webchart/wcexport'
 source: 'https://drive.google.com/open?id=1JqO9WpTRHcNZrB65zx7dqQ-DXlsaWGfHS_qMkp-bCJs'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '4b27b68ceb73077c2c97cc4401b26318e8e459d1'
 ---
+[Executed Real World Testing Results 2022 PDF Version](https://drive.google.com/file/d/1jodfHoSV12rtcGQyQPHL42mRBtZHtpqw) 
+  
 ## General Information  
 
 
@@ -48,7 +52,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 </tr>
 <tr>
 <td><strong>Certified Health IT Product List ID(s)</strong></td>
-<td>15.04.04.1932.WebC.74.00.0.181219</td>
+<td>15.04.04.1932.WebC.84.01.0.221117</td>
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
@@ -111,7 +115,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
 </tr>
 <tr>
 <td><strong>Date(s) Withdrawn</strong></td>
-<td>After 10/26/2022</td>
+<td>12/31/2022</td>
 </tr>
 <tr>
 <td><strong>Inclusion of Data in Results Report</strong></td>
@@ -750,120 +754,120 @@ The report will also include a count of outbound messages unable to be transmitt
 </tr>
 <tr>
 <td>NewRx</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>48926</td>
+<td>223627</td>
+<td>120724</td>
+<td>34765</td>
+<td>9517</td>
+<td>437559</td>
 </tr>
 <tr>
 <td>RxChangeRequest</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>22</td>
+<td>407</td>
+<td>2665</td>
+<td>880</td>
+<td>0</td>
+<td>3974</td>
 </tr>
 <tr>
 <td>RxChangeResponse</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>4</td>
+<td>412</td>
+<td>2420</td>
+<td>882</td>
+<td>0</td>
+<td>3718</td>
 </tr>
 <tr>
 <td>CancelRx</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>195</td>
+<td>372</td>
+<td>3</td>
+<td>7</td>
+<td>6</td>
+<td>583</td>
 </tr>
 <tr>
 <td>CancelRxReponse</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>164</td>
+<td>307</td>
+<td>2</td>
+<td>6</td>
+<td>6</td>
+<td>485</td>
 </tr>
 <tr>
 <td>RxRenewalRequest</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>12260</td>
+<td>11711</td>
+<td>58090</td>
+<td>6261</td>
+<td>0</td>
+<td>88322</td>
 </tr>
 <tr>
 <td>RxRenewalResponse</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>11943</td>
+<td>11756</td>
+<td>55118</td>
+<td>6261</td>
+<td>0</td>
+<td>85078</td>
 </tr>
 <tr>
 <td>RxFill</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1304</td>
+<td>0</td>
+<td>1304</td>
 </tr>
 <tr>
 <td>RxHistoryRequest</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>11</td>
+<td>0</td>
+<td>9</td>
+<td>2</td>
+<td>1</td>
+<td>23</td>
 </tr>
 <tr>
 <td>RxHistoryResponse</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>8</td>
+<td>0</td>
+<td>4</td>
+<td>1</td>
+<td>0</td>
+<td>13</td>
 </tr>
 <tr>
 <td>Status</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>123697</td>
+<td>432586</td>
+<td>385387</td>
+<td>84808</td>
+<td>17723</td>
+<td>1044201</td>
 </tr>
 <tr>
 <td>Error</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>563</td>
+<td>1118</td>
+<td>3206</td>
+<td>217</td>
+<td>25</td>
+<td>5129</td>
 </tr>
 <tr>
 <td>Verify</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>50418</td>
+<td>184894</td>
+<td>145576</td>
+<td>34552</td>
+<td>8233</td>
+<td>423673</td>
 </tr>
 
 </table>
@@ -875,133 +879,410 @@ The report will also include a count of outbound messages unable to be transmitt
 <td><strong>Total Count</strong></td>
 </tr>
 <tr>
+<td>(Error Code: 600)</td>
+<td>3</td>
+</tr>
+<tr>
 <td>(Error Code: 601) (Desc. Code: 008)</td>
-<td></td>
+<td>1334</td>
+</tr>
+<tr>
+<td>(Error Code: 602)</td>
+<td>3</td>
 </tr>
 <tr>
 <td>(Error Code: 900)</td>
-<td></td>
+<td>94</td>
 </tr>
 <tr>
-<td>1 errors validating against transport.xsd </td>
-<td></td>
+<td>1 errors validating against transport.xsd</td>
+<td>362</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'Address' has invalid child element 'City'. List of possible elements expected: 'AddressLine1'. (Error Code: 900)</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'Address' has invalid child element 'PostalCode'. List of possible elements expected: 'StateProvince'. (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'Address' has invalid child element 'StateProvince'. List of possible elements expected: 'AddressLine1'. (Error Code: 900)</td>
+<td>12</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'Address' has invalid child element 'StateProvince'. List of possible elements expected: 'AddressLine2, City'. (Error Code: 900)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'MedicationPrescribed' has incomplete content. List of possible elements expected: 'DrugUseEvaluation, DrugCoverageStatusCode, PriorAuthorizationStatus, Sig'. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'MedicationPrescribed' has invalid child element 'DaysSupply'. List of possible elements expected: 'Quantity'. (Error Code: 900)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'MedicationPrescribed' has invalid child element 'WrittenDate'. List of possible elements expected: 'Quantity'. (Error Code: 900)</td>
+<td>29</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd 'Sig' has incomplete content. List of possible elements expected: 'SigText'. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'AddressLine1' element is invalid - The value '5633 SOUTH WAYNE AVE APT D' is invalid according to its datatype 'an1..40' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'AddressLine1' element is invalid - The value '5633 SOUTH WAYNE AVE APT. D' is invalid according to its datatype 'an1..40' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'DaysSupply' element is invalid - The value '2970' is invalid according to its datatype 'n1..3' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'DrugDescription' element is invalid - The value '' is invalid according to its datatype 'an1..105' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Extension' element is invalid - The value '2606735445' is invalid according to its datatype 'n1..8' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Note' element is invalid - The value ' 3 3 @' is invalid according to its datatype 'an1..210' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Note' element is invalid - The value ' Information regarding your request; Drug is covered by current benefit plan. No further PA activity needed' is invalid according to its datatype 'an1..210' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Note' element is invalid - The value 'G ; 2 ; W ; ; { ; ; ; ; $ ;' is invalid according to its datatype 'an1..210' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Note' element is invalid - The value 'Per UpToDate Guidance: Infants 9 months: Oral: 3.5 mg/kg/dose twice daily' is invalid according to its datatype 'an1..210' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Note' element is invalid - The value 'Type 2 diabetes mellitus with hyperglycemia, without long-term current use of insulin E11.65' is invalid according to its datatype 'an1..70' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Note' element is invalid - The value 'this was sent to Longs 6/7:; ID 619a21f6897247a9-abe8709427acd660; Date 06-07-2021 by Sarah R Kaplan; Prescriber Sarah R Kaplan; To Longs Drug Store #9663 - 70 E Kaahumanu Ave Kahului HI (808) 877-0068 f: (808)' is invalid according to its datatype 'an1..210' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Number' element is invalid - The value '12605873288' is invalid according to its datatype 'n1..10' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Number' element is invalid - The value '26022339862' is invalid according to its datatype 'n1..10' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Number' element is invalid - The value '26086711166' is invalid according to its datatype 'n1..10' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Number' element is invalid - The value '41923800944' is invalid according to its datatype 'n1..10' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>7</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'Number' element is invalid - The value '41963396028' is invalid according to its datatype 'n1..10' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'NumberOfRefills' element is invalid - The value '180' is invalid according to its datatype 'n1..2' - The actual length is greater than the MaxLength value. (Error Code: 900)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>1 errors validating against transport.xsd The 'StateProvince' element is invalid - The value '' is invalid according to its datatype 'an' - The Pattern constraint failed. (Error Code: 900)</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Cannot get endpoint</td>
+<td>5</td>
 </tr>
 <tr>
 <td>Cannot get endpoint (Error Code: 900)</td>
-<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>Cannot get endpoint (id = 6505404965001 uid = 1), please contact support (Error Code: 602)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cannot get endpoint (id = 6888514521004 uid = 1), please contact support (Error Code: 602)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cannot get endpoint (id = 6989612455001 uid = 1), please contact support (Error Code: 602)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cannot get portal (id = 422345), please contact support (Error Code: 602)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Controlled Substance Cannot Be Faxed (Error Code: 900)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Controlled substance must be signed or Digital Signature Indicator must be true. (Error Code: 900)</td>
+<td>6</td>
 </tr>
 <tr>
 <td>Controlled substance must have a DEASchedule populated in Medication Prescribed (Error Code: 900)</td>
-<td></td>
+<td>43</td>
 </tr>
 <tr>
 <td>DEA or SSN not found in the message (Error Code: 900)</td>
-<td></td>
+<td>80</td>
 </tr>
 <tr>
-<td>Effective November 19, 2021, Walmart and Sams Club no longer stocks this medication. Please contact your pharmacist to discuss alternatives. (Error Code: 900)</td>
-<td></td>
+<td>Duplicate Prescription, original message has been processed (Error Code: 900) (Desc. Code: 220)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ERROR FORWARDING XML MESSAGE (Error Code: 900)</td>
+<td>13</td>
 </tr>
 <tr>
 <td>ERX611 ERROR PROCESSING MESSAGE TO RECIPIENT (Error Code: 600) (Desc. Code: 4000)</td>
-<td></td>
+<td>4</td>
+</tr>
+<tr>
+<td>Effective November 19, 2021, Walmart and Sams Club no longer stocks this medication. Please contact your pharmacist to discuss alternatives. (Error Code: 900)</td>
+<td>2</td>
 </tr>
 <tr>
 <td>Fax receipt could not be confirmed (Error Code: 600)</td>
-<td></td>
+<td>47</td>
 </tr>
 <tr>
 <td>Intermediary system error. (Error Code: 900) (Desc. Code: 4020)</td>
-<td></td>
+<td>43</td>
+</tr>
+<tr>
+<td>Internal Processing Error Occurred (Error Code: 602)</td>
+<td>31</td>
 </tr>
 <tr>
 <td>Internal error.Contact pharmacy by other means. (Error Code: 600) (Desc. Code: 008)</td>
-<td></td>
+<td>38</td>
+</tr>
+<tr>
+<td>Invalid MedicationPrescribed WrittenDate (Error Code: 900)</td>
+<td>1</td>
 </tr>
 <tr>
 <td>MAIL-PREVIOUS RESPONSE HAS BEEN PROCESSED. THIS WILL NOT BE ACCEPTED (Error Code: 602)</td>
-<td></td>
+<td>8</td>
 </tr>
 <tr>
 <td>Mailboxed message could not be confirmed after three tries (Error Code: 602)</td>
-<td></td>
+<td>3</td>
 </tr>
 <tr>
 <td>Message is a duplicate.</td>
-<td></td>
+<td>327</td>
+</tr>
+<tr>
+<td>Message type not supported by sender (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>NON PARTICIPATING PHARMACY for C19 ANTIVIRAL REFER TO STATE HEALTH DEPT FOR PARTICIPATING PHARMACY (Error Code: 900)</td>
+<td>4</td>
 </tr>
 <tr>
 <td>NewRx MedicationPrescribed Quantity must be a non-zero value (Error Code: 900)</td>
-<td></td>
+<td>91</td>
 </tr>
 <tr>
 <td>No NDC or compound or supply code in message for MedicationPrescribed (Error Code: 900)</td>
-<td></td>
+<td>41</td>
 </tr>
 <tr>
 <td>No NDC or compound or supply code in message for MedicationResponse (Error Code: 900)</td>
-<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>Not able to connect to Backend[DMZ Error] (Error Code: 900)</td>
+<td>7</td>
 </tr>
 <tr>
 <td>Partner rejected transaction with an error (Error Code: 900) (Desc. Code: 220)</td>
-<td></td>
+<td>620</td>
 </tr>
 <tr>
 <td>Patient DOB does not match with the request (Error Code: 900)</td>
-<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>Patient address required for controlled substance (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Pharmacy does not dispense class I or class II controlled substances (Error Code: 900)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Pharmacy is Temporarily Unavailable (Error Code: 900)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Pharmacy is temporarily down. Please retry. (Error Code: 601)</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Pharmacy is temporarily down. Please retry. (Error Code: 900) (Desc. Code: 2000)</td>
-<td></td>
+<td>43</td>
 </tr>
 <tr>
 <td>Pharmacy record inactive, may have new active location (Error Code: 900)</td>
-<td></td>
+<td>77</td>
 </tr>
 <tr>
 <td>Prescriber address required for controlled substance (Error Code: 900)</td>
-<td></td>
+<td>5</td>
 </tr>
 <tr>
 <td>PrescriberOrderNumber must be present and populated (Error Code: 900)</td>
-<td></td>
+<td>19</td>
 </tr>
 <tr>
 <td>Prescription no longer active (Error Code: 601)</td>
-<td></td>
+<td>464</td>
 </tr>
 <tr>
 <td>QS1: Transaction unable to be processed (Error Code: 900)</td>
-<td></td>
+<td>1</td>
 </tr>
 <tr>
 <td>Receiving partner does not support this type of message (Error Code: 900)</td>
-<td></td>
+<td>86</td>
 </tr>
 <tr>
 <td>Refill request has been canceled (Error Code: 900) (Desc. Code: 4020)</td>
-<td></td>
+<td>34</td>
 </tr>
 <tr>
 <td>Request has been canceled prior to response. Response not processed. (Error Code: 601) (Desc. Code: 008)</td>
-<td></td>
+<td>346</td>
+</tr>
+<tr>
+<td>Rx Outreach pharmacy does not currently offer this product. (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>SCRIPT Validation Error: See free text for description (Error Code: 900)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Storage error. (Error Code: 602)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C16830 is invalid (Error Code: 900)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C28253 is invalid (Error Code: 900)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48477 is invalid (Error Code: 900)</td>
+<td>6</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48478 is invalid (Error Code: 900)</td>
+<td>8</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48481 is invalid (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48519 is invalid (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48537 is invalid (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48540 is invalid (Error Code: 900)</td>
+<td>110</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48549 is invalid (Error Code: 900)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C48551 is invalid (Error Code: 900)</td>
+<td>403</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C62275 is invalid (Error Code: 900)</td>
+<td>48</td>
+</tr>
+<tr>
+<td>The MedicationPrescribed QuantityUnitOfMeasure Code: C97717 is invalid (Error Code: 900)</td>
+<td>6</td>
+</tr>
+<tr>
+<td>This pharmacy dispenses oxybate products only. Please select different pharmacy (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>TrackingID service error (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Transaction is a duplicate. (Error Code: 601) (Desc. Code: 220)</td>
+<td>2</td>
 </tr>
 <tr>
 <td>Transaction rejected. Does not follow NCPDP standard or implementation guide rules. Duplicate Message (Error Code: 900)</td>
-<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>UIB Trace Number is Invalid (Error Code: 900)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Unable To Process (Error Code: 601) (Desc. Code: 210)</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Unable to associate Response to Request (Error Code: 601)</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Unable to store the incoming request/image. Error:Unable to locate the NCPDPID: 5710098 (Error Code: 601) (Desc. Code: 4020)</td>
-<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td>Unexpected Exception occured while processing the request. (Error Code: 900)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Unexpected Exception occurred while processing the request. (Error Code: 900)</td>
+<td>19</td>
 </tr>
 
 </table>
 
-Total error rate: 
+
+Total error rate: 5129 / 2094062 * 100 = 0.24%
   
 #### Discussion  
   
-As expected, all supported message types have a greater than zero total message count, and the total number of messages far exceeds the number of errored messages with a total error rate of XX%.  Add a brief summary of how data changed across quarters.  Additionally, the number of NewRx messages is significantly greater than the number of RxChangeResponse, CancelRx, and RxRenewalResponse messages.
+As expected, all supported message types have a greater than zero total message count, and the total number of messages far exceeds the number of errored messages with a total error rate of 0.24%.  Over the four quarters the error rate fluctuated from a low of 0.22% in Q2 to a high of 0.26% in Q3. This shows an overall low error rate for the whole year of 2022.  Additionally, the number of NewRx messages is significantly greater than the number of RxChangeResponse, CancelRx, and RxRenewalResponse messages.
   
 ### Measure 4: E-Prescribing Diagnosis Codes  
 
@@ -1038,8 +1319,8 @@ MIE will report the contents of each stored message in a client's local database
 <td><strong>NewRx Messages with Diagnosis Included</strong></td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td>437559</td>
+<td>126844</td>
 </tr>
 
 </table>
@@ -1047,7 +1328,7 @@ MIE will report the contents of each stored message in a client's local database
   
 #### Discussion  
   
-Since the Diagnosis elements are not a required component of a NewRx message, as anticipated, only a subset (XX%) of the NewRx messages included a diagnosis. Add a brief summary of how data changed across quarters.
+Since the Diagnosis elements are not a required component of a NewRx message, as anticipated, only a subset (28.99%) of the NewRx messages included a diagnosis. The rate of NewRx messages with a diagnosis included fluctuated from 26.53% in Q1 to 31.16% in Q4 showing an increasing rate of using the diagnosis element.
   
 ### Measure 5: E-Prescribing Oral Liquid Units  
 
@@ -1078,6 +1359,7 @@ MIE will create a system report that examines the contents of each stored NewRx 
 #### Results  
 
 
+
 <table>
 <tr>
 <td><strong>Unit Code</strong></td>
@@ -1087,27 +1369,37 @@ MIE will create a system report that examines the contents of each stored NewRx 
 <tr>
 <td>C28254</td>
 <td>Milliliter (ml)</td>
-<td></td>
+<td>13891</td>
 </tr>
 <tr>
-<td>C64933</td>
-<td>Each</td>
-<td></td>
+<td>C48155</td>
+<td>Gram (g)</td>
+<td>4</td>
 </tr>
 <tr>
 <td>C48477</td>
 <td>Bottle</td>
-<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>C48480</td>
+<td>Capsule</td>
+<td>1</td>
 </tr>
 <tr>
 <td>C48521</td>
 <td>Packet</td>
-<td></td>
+<td>4</td>
 </tr>
 <tr>
 <td>C48542</td>
 <td>Tablet</td>
-<td></td>
+<td>3</td>
+</tr>
+<tr>
+<td>C64933</td>
+<td>Each</td>
+<td>20</td>
 </tr>
 
 </table>
@@ -1115,7 +1407,7 @@ MIE will create a system report that examines the contents of each stored NewRx 
   
 #### Discussion  
   
-As expected, C28254 (milliliters) is the most commonly sent unit of measure for oral liquid medications.  Non-C28254 units were only sent in XX% of oral liquid medication messages. Add a brief summary of how data changed across quarters.
+As expected, C28254 (milliliters) is the most commonly sent unit of measure for oral liquid medications.  Non-C28254 units were only sent in 0.24% of oral liquid medication messages. This rate fluctuated from 0.03% in Q3 to 0.55% in Q1.
   
 ### Measure 6: E-Prescribing Decimal Format  
 
@@ -1152,8 +1444,8 @@ MIE will create a system report that examines the contents of each stored NewRx 
 <td><strong>NewRx Messages with Improper Decimal Format</strong></td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td>437559</td>
+<td>1895</td>
 </tr>
 
 </table>
@@ -1161,7 +1453,7 @@ MIE will create a system report that examines the contents of each stored NewRx 
   
 #### Discussion  
   
-As expected, the number of NewRx messages sent with inappropriate trailing zeros, or missing leading zeros, occurs rarely in only XX% of messages. Add a brief summary of how data changed across quarters
+As expected, the number of NewRx messages sent with inappropriate trailing zeros, or missing leading zeros, occurs rarely in only 0.43% of messages. This rate increased over the four quarters from 0.35% to 0.53%.
   
 ### Measure 7: CDA Download  
 
@@ -1204,30 +1496,32 @@ Any errors reported by customers or the recipients of their quarterly attestatio
 <table>
 <tr>
 <td><strong>Total CDA Documents Uploaded</strong></td>
-<td></td>
+<td>43,354</td>
 </tr>
 <tr>
 <td><strong>Total CDA Document Upload Failures</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Total CDA Document Views</strong></td>
-<td></td>
+<td>8,006</td>
 </tr>
 <tr>
 <td><strong>Total CDA Document View Reported Errors</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Total Successful CDA Views </strong></td>
-<td></td>
+<td>8,006</td>
 </tr>
 
 </table>
   
 #### Discussion  
   
-As anticipated, there were no errors in being able to upload and view valid CCDA documents.  Add a brief summary of how data changed across quarters.
+As anticipated, there were no errors in being able to upload and view valid CCDA documents.  
+Usage increased throughout the year, with the final quarter accounting for more than half of the numbers above (23,760 uploaded CDAs and 5,066 document views).
+
   
 ### Measure 8: Application Access Documentation  
 
@@ -1291,11 +1585,19 @@ An external uptime monitor will check the availability of all documentation avai
   
 #### Results  
   
-The MIE API documentation was available 99.902%.  Describe any downtime events.  
+The MIE API documentation was available 99.967% of the time. 
+
+The MIE API documentation was available 99.997% of Q1.  There was a 3 minute down period on March 17, 2022 due to a connection timeout.
+
+The MIE API documentation was available 100% of Q2. 
+
+The MIE API documentation was available 99.902% of Q3.  There were several short down-time events during July averaging 17.29 minutes per event all due to Cloudflare timeouts.
+
+The MIE API documentation was available 99.967% of Q4.  Three instances of prolonged downtime occurred (10/14/2022: 13 minutes  -unannounced US Signal downtime issue , 10/27/2022: 5 minutes - unannounced US Signal downtime issue, 12/6/2022: 25 minutes - **** US Signal HRN Maintenance Window). 
   
 #### Discussion  
   
-As expected, the documentation maintained an uptime of greater than 99.9% at XX% for the year.  Describe the cause and impact of any downtime events.  
+As expected, the documentation maintained an uptime of greater than 99.9% at 99.967% for the year.  During any down time the API documentation would not have been available, but, no effect to end user requests for the information was reported.
   
 ### Measure 9: Clinical Information Reconciliation and Incorporation  
 
@@ -1334,15 +1636,15 @@ Following each reconcile, a temporary CDA for the chart will be created and vali
 <table>
 <tr>
 <td><strong>CDA Documents Reconciled</strong></td>
-<td></td>
+<td>1,238</td>
 </tr>
 <tr>
 <td><strong>CDA Documents Generated on a Chart  after a Reconcile that had an invalid Validation</strong></td>
-<td></td>
+<td>87</td>
 </tr>
 <tr>
 <td><strong>Client reported Issues with CDA reconciliation</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 
 </table>
@@ -1350,9 +1652,9 @@ Following each reconcile, a temporary CDA for the chart will be created and vali
   
 #### Discussion  
   
-The use of CDA reconciliation in systems was relatively low, and no issues with the reconciliation of the documents were reported.  Add a brief summary of how data changed across quarters
+The use of CDA reconciliation in systems was relatively low, and no issues with the reconciliation of the documents were reported.  In the 4th quarter there was a steep decline in reconciliations because of issues with workflow from the main client using the feature.  This has been addressed and we plan to see higher numbers in the beginning of 2023 again.
 
-The number of invalid validations were higher than anticipated.  Work is being done to rectify the issues with the CDA generation in these systems, and to put in place a more immediate notification process when invalid CDAs are generated.
+The number of invalid validations were higher than anticipated.  Work is continuing to be done to rectify the issues with the CDA generation in these systems, and to put in place a more immediate notification process when invalid CDAs are generated.  Many of the issues with invalid CCDAs were because of data missing in the CCDA requests that were not handled well (empty quotes, etc) and those issues have been addressed and should not result in failures going forward.
   
 ### Measure 10: Transmission to Immunization Registry: Create Content  
 
@@ -1387,15 +1689,15 @@ MIE will report from the database the number of successfully sent VXU messages a
 <table>
 <tr>
 <td><strong>Successful transmission to registry</strong></td>
-<td></td>
+<td>8766</td>
 </tr>
 <tr>
 <td><strong>Rejected by the registry</strong></td>
-<td></td>
+<td>72</td>
 </tr>
 <tr>
 <td><strong>Declined to generate</strong></td>
-<td></td>
+<td>41</td>
 </tr>
 
 </table>
@@ -1403,7 +1705,7 @@ MIE will report from the database the number of successfully sent VXU messages a
   
 #### Discussion  
   
-As expected, very few messages were rejected by the state registry. There is a small portion of the entered injections which were not able to be transmitted to the state registry due to user data entry issues.  The overall error rate for the year (rejected and declined) was XX%.  Add a brief summary of how data changed across quarters
+As expected, very few messages were rejected by the state registry. There is a small portion of the entered injections which were not able to be transmitted to the state registry due to user data entry issues.  The overall error rate for the year (rejected and declined) was 1.2%. The rate of Vaccination submission tended to be lighter during the first half of the year and ramped up substantially for the second half.
 
   
 ### Measure 11: Transmission to Immunization Registries: Query Records  
@@ -1439,11 +1741,11 @@ MIE will report the number of successful retrievals of evaluated history and for
 <table>
 <tr>
 <td><strong>Successful retrievals</strong></td>
-<td></td>
+<td>31417</td>
 </tr>
 <tr>
 <td><strong>Failed retrievals</strong></td>
-<td></td>
+<td>597</td>
 </tr>
 
 </table>
@@ -1451,7 +1753,7 @@ MIE will report the number of successful retrievals of evaluated history and for
   
 #### Discussion  
   
-The overall error rate for the year was XX%.  Add a brief summary of how data changed across quarters
+The rate of queries remained fairly consistent with a slight trend upwards as the year progressed. The overall error rate for the year was 1.9%.
   
 ### Measure 12: Direct Project: Send  
 
@@ -1492,15 +1794,15 @@ MIE will report from log files the number of messages transmitted. MIE will repo
 <table>
 <tr>
 <td><strong>Messages Transmitted</strong></td>
-<td></td>
+<td>7</td>
 </tr>
 <tr>
 <td><strong>Failed to transmit</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Failed MDNs received</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 
 </table>
@@ -1508,7 +1810,7 @@ MIE will report from log files the number of messages transmitted. MIE will repo
   
 #### Discussion  
   
-Discuss causes of low data on the year, lessons learned, and what we plan to do differently during 2023 to improve testing.
+The rate of transmission was very low for this year. In the coming year, we are looking into ways to increase the usage of Direct Messaging transmissions by the end users.
 
   
 ### Measure 13: Direct Project: Receive  
@@ -1543,15 +1845,15 @@ MIE will report from logs the number of messages transmitted to the HISP.  MIE w
 <table>
 <tr>
 <td><strong>Messages received by HISP</strong></td>
-<td></td>
+<td>5</td>
 </tr>
 <tr>
 <td><strong>Messages failing to conform</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Messages successfully delivered</strong></td>
-<td></td>
+<td>5</td>
 </tr>
 
 </table>
@@ -1559,7 +1861,8 @@ MIE will report from logs the number of messages transmitted to the HISP.  MIE w
   
 #### Discussion  
   
-Discuss causes of low data on the year, lessons learned, and what we plan to do differently during 2023 to improve testing
+Receipt of Direct Messages for this year was very limited. In 2023 we are looking into ways to increase the ability of outside practitioners to utilize our client endpoints.
+
   
 ### Measure 14: Patient Portal View  
 
@@ -1605,19 +1908,19 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 <table>
 <tr>
 <td><strong>CDA Documents Sent to the patient portal</strong></td>
-<td></td>
+<td>21</td>
 </tr>
 <tr>
-<td><strong>CDA Documents Unsuccessfully Sent to the patient portal</strong></td>
-<td></td>
+<td><strong>CDA  Documents Unsuccessfully Sent to the patient portal</strong></td>
+<td>0</td>
 </tr>
 <tr>
-<td><strong>CDA Documents Read by Patients in the Patient Portal</strong></td>
-<td></td>
+<td><strong>CDA  Documents Read by Patients in the Patient Portal</strong></td>
+<td>8</td>
 </tr>
 <tr>
-<td><strong>CDA Documents Failed to be read in the Patient Portal</strong></td>
-<td></td>
+<td><strong>CDA  Documents Failed to be read in the Patient Portal</strong></td>
+<td>0</td>
 </tr>
 
 </table>
@@ -1625,7 +1928,8 @@ Results will be retrieved from database tables and aggregated for reporting.  An
   
 #### Discussion  
   
-Discuss causes of low data on the year, lessons learned, and what we plan to do differently during 2023 to improve testing 
+The low number of CDA documents in the NMC patient portal was because workflows were still sending other document types instead of CDA to the patient portal.   Client workflows in 2023 are anticipated to greatly increase the number of C-CDA documents being consumed in Patient Portals in 2023.   We did not report any known failures to read a CCDA document in the NMC portal in 2023.
+
   
 ### Measure 15: Patient Portal Download  
 
@@ -1671,19 +1975,19 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 <table>
 <tr>
 <td><strong>CDA Documents Sent to the patient portal</strong></td>
-<td></td>
+<td>21</td>
 </tr>
 <tr>
 <td><strong>CDA Documents Unsuccessfully Sent to the patient portal</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>CDA Documents Downloaded by Patients in the Patient Portal</strong></td>
-<td></td>
+<td>4</td>
 </tr>
 <tr>
 <td><strong>CDA Documents Failed to be downloaded in the Patient Portal</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 
 </table>
@@ -1691,7 +1995,7 @@ Results will be retrieved from database tables and aggregated for reporting.  An
   
 #### Discussion  
   
-Discuss causes of low data on the year, lessons learned, and what we plan to do differently during 2023 to improve testing. 
+The low number of CDA documents in the NMC patient portal was because workflows were still sending other document types instead of CDA to the patient portal.   Client workflows in 2023 are anticipated to greatly increase the number of C-CDA documents being consumed in Patient Portals in 2023.  4 documents that were in the portal were exported/downloaded.
 
   
 ### Measure 16: Patient Portal CCDA Transmit  
@@ -1737,26 +2041,26 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 <table>
 <tr>
 <td><strong>CDA Documents Sent to the patient portal</strong></td>
-<td></td>
+<td>21</td>
 </tr>
 <tr>
 <td><strong>CDA Documents Unsuccessfully Sent to the patient portal</strong></td>
-<td></td>
+<td>0</td>
 </tr>
 <tr>
-<td><strong>CDA Documents Sent by Patients in the Patient Portal</strong></td>
-<td></td>
+<td><strong>CDA Documents Transmitted by Patients in the Patient Portal</strong></td>
+<td>0</td>
 </tr>
 <tr>
-<td><strong>CDA Documents Failed to be sent in the Patient Portal</strong></td>
-<td></td>
+<td><strong>CDA Documents Failed to be transmitted in the Patient Portal</strong></td>
+<td>0</td>
 </tr>
 
 </table>
   
 #### Discussion  
   
-Discuss causes of low data on the year, lessons learned, and what we plan to do differently during 2023 to improve testing
+The low number of CDA documents in the NMC patient portal was because workflows were still sending other document types instead of CDA to the patient portal.   Client workflows in 2023 are anticipated to greatly increase the number of C-CDA documents being consumed in Patient Portals in 2023.  With the low number of CDA documents in the portal, there were no reported transmission attempts of CDA documents out of the portal.  If transmissions are low, even with the increase in CCDA portal documents in 2023, we will have automated tests of transmissions of test chart documents scheduled in 2023.
 
   
 ### Measure 17: Send Using Edge Protocol for SMTP / XDM  
@@ -1798,11 +2102,11 @@ MIE will report from logs the number of messages transmitted to the HISP by SMTP
 <table>
 <tr>
 <td><strong>Messages submitted to HISP via SMTP</strong></td>
-<td></td>
+<td>7</td>
 </tr>
 <tr>
 <td><strong>Number of XDM packages processed</strong></td>
-<td></td>
+<td>346</td>
 </tr>
 
 </table>
@@ -1810,7 +2114,8 @@ MIE will report from logs the number of messages transmitted to the HISP by SMTP
   
 #### Discussion  
   
-As expected, there was very low usage.  XDM packages that were processed included packages from standard regular testing. Add a brief summary of how data changed across quarters.
+As expected, there was very low usage.  XDM packages that were processed included packages from standard regular testing.
+
   
 ### Measure 18: Data Export  
 
@@ -1853,11 +2158,11 @@ MIE will track customer reports of data expected to be in mass data export downl
   
 #### Results  
   
-Number of times EHR Data Export Tool was used: 
+Number of times EHR Data Export Tool was used: 0
   
 #### Discussion  
   
-Discuss causes of low data on the year, lessons learned, and what we plan to do differently during 2023 to improve testing.
+We did not have any incidents of clients using the EHR Data Export Tool available at [https://github.mieweb.com/webchart/wcexport](https://github.mieweb.com/webchart/wcexport) .  We will be adding some automated tests to test the usage of the export tool during the 2023 calendar year.
 
   
 ### Measure 19: CDA Validation  
@@ -1893,27 +2198,48 @@ All CDAs stored within a Webchart EHR will be run through schema validation rega
 The number of valid vs. invalid CDAs and their sources will be reported.
   
 #### Results  
-
+  
+All CDAs
 
 <table>
 <tr>
 <td><strong>CDA Documents Marked Valid in Period</strong></td>
-<td></td>
+<td>2628</td>
 </tr>
 <tr>
 <td><strong>CDA Documents Marked Invalid in Period</strong></td>
-<td></td>
+<td>1589</td>
 </tr>
 <tr>
 <td><strong>% Marked Invalid In Period</strong></td>
-<td></td>
+<td>38%</td>
 </tr>
 
 </table>
+Webchart Generated CDAs Only
+
+<table>
+<tr>
+<td><strong>CDA Documents Marked Valid in Period</strong></td>
+<td>26</td>
+</tr>
+<tr>
+<td><strong>CDA Documents Marked Invalid in Period</strong></td>
+<td>39</td>
+</tr>
+<tr>
+<td><strong>% Marked Invalid In Period</strong></td>
+<td>60%</td>
+</tr>
+
+</table>
+
   
 #### Discussion  
   
-Add a brief summary of how data changed across quarters.  Discuss causes of unexpected results on the year, lessons learned, and what we plan to do differently during 2023 to improve testing and client experience
+The high percentage of invalid validation documents were caused by a few factors.   From the majority of CDAs that came from outside 3rd party vendors, these were issues with the content that they sent in.  We have been working with these vendors to establish getting alerts to them when CDAs are not passing validation, and we expect to see improvements in those numbers in 2023.  For the Webchart generated documents, the documents generated were low, and mostly generated manually.  The issues seen were from workflow issues within various systems that generated missing data.  We've improved the CCDA generation throughout the year to display the data properly for validation when missing.  We are also anticipating more automated CCDA generation being implemented as part of workflows in 2023.  
+  
+It should also be noted that none of the invalid documents caused any noted problems for viewing or ingesting documents during the year.  The errors were of a nature such as "non-conformant" empty fields in attributes that did not cause any issues with viewing/importing data.
   
 ### Measure 20: Patient Data requests VIA API  
 
@@ -1968,22 +2294,23 @@ All API requests made in production systems are recorded in log files.  The numb
 <table>
 <tr>
 <td><strong>Production Exports</strong></td>
-<td></td>
+<td>3</td>
 </tr>
 <tr>
 <td><strong>Total Charts Exported</strong></td>
-<td></td>
+<td>167268</td>
 </tr>
 <tr>
 <td><strong>Total Export Errors</strong></td>
-<td></td>
+<td>26</td>
 </tr>
 
 </table>
   
 #### Discussion  
   
-As expected, the production use of the API was rare, but the total number of export errors was minimal.  Patient chart exports were successful in XX% of cases.  Add a brief summary of how data changed across quarters.
+As expected, the production use of the API was rare, but the total number of export errors was minimal.  Patient chart exports were successful in 99.9% of cases. 
+
   
 ### Measure 21: Web Content Accessibility  
 

@@ -1,8 +1,8 @@
 ---
 id: '1Z-ZF_j25e83MEB6vCWtbYpWehA8TR7gdnEZife6oZVU'
 title: 'RWT Results 2022 Q4'
-date: '2023-01-13T18:01:05.889Z'
-version: 348
+date: '2023-01-30T15:10:17.882Z'
+version: 381
 lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
@@ -23,7 +23,7 @@ links:
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Z-ZF_j25e83MEB6vCWtbYpWehA8TR7gdnEZife6oZVU'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '4b27b68ceb73077c2c97cc4401b26318e8e459d1'
 ---
 ## General Information  
 

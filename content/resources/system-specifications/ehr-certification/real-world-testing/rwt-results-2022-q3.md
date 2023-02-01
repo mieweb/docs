@@ -1,9 +1,9 @@
 ---
 id: '1Lj82ShrYoYoT1mgHtJ4Kmk3DiKtKvYV1ql7MoPxy-2Y'
 title: 'RWT Results 2022 Q3'
-date: '2022-11-07T21:03:54.300Z'
-version: 277
-lastAuthor: 'Nicole Richardson'
+date: '2023-01-23T21:19:10.397Z'
+version: 339
+lastAuthor: 'Dave Cornewell'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -23,7 +23,7 @@ links:
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Lj82ShrYoYoT1mgHtJ4Kmk3DiKtKvYV1ql7MoPxy-2Y'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '4b27b68ceb73077c2c97cc4401b26318e8e459d1'
 ---
 ## General Information  
 
@@ -558,6 +558,7 @@ Additionally, WebChart EHR has two customers that participate in quarterly attes
 #### Discussion  
   
 As expected, no errors were found in formatting or coding of the certified measures.  
+
   
 ### Measure 2: Clinical Quality Measures Incoming  
 
@@ -1259,6 +1260,7 @@ The MIE API documentation was available 99.902% of Q3.  There were several short
 #### Discussion  
   
 As expected, the documentation maintained an uptime of greater than 99.9% at 99.902% for the quarter.  Three of the seven down-time events were longer than the acceptable 10 minute duration at 81 minutes on 07/12/2022, 12 minutes on 07/15/2022, and 11 minutes on 07/16/2022.  Since all down-time events were caused by Cloudflare timeouts, the root cause of this will be investigated to mitigate future extended down-time events.
+
   
 ### Measure 9: Clinical Information Reconciliation and Incorporation  
 
