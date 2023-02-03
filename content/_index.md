@@ -29,8 +29,8 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 
 {{% system-name %}} offers various solutions for Enterprise Management of Health and Wellness. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
-  
-<object type="image/svg+xml" data="diagrams/eh-positioning.svg" />  
+<!-- There is a parsing error with <object ...> tags, which had been used here, for now image markdown must be used or things will break on the main landing route -->
+![](diagrams/eh-positioning.svg)
 
 
 {{% /only %}}

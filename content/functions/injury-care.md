@@ -22,8 +22,8 @@ menu:
 
 {{% system-name %}} can be used for treating, documenting, managing, *and* reporting injuries and illnesses, which can be initiated from a visit to the clinic, or in advance, via an employee portal. This allows incidents to be reported anytime, day or night. And regardless of how the information is captured, {{% system-name %}} can compile the recorded data into form overlays, minimizing the need for redundant data entry, while also easing reporting burdens. Overall, {{% system-name %}} not only incorporates streamlined processes for recording and treating injuries and illnesses, it also provides tools for easy tracking and follow-up through the use of its integrated worklists and tasking module.
 
-  
-<object type="image/svg+xml" data="../diagrams/injury-care.svg" />  
+<!-- injury-care.svg does not exist at this path! -->
+<!-- ![](../diagrams/injury-care.svg)   -->
 
 
   
