@@ -276,6 +276,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
   const form = document.getElementById("search");
   const input = document.getElementById("search-input");
   const searchButton = document.getElementById("search-button");
+  const mainInnerContainer = document.getElementById("index-main");
   const navbarCollapse = document.getElementById("navbarCollapse");
   const pagebody = document.querySelector('body');
   const pagename = pagebody.dataset.page;
@@ -328,8 +329,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
   function startSearch(term, doNotAddState) {
     input.value = term;
     form.setAttribute("data-running", "true");
-    searchButton.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+    searchButton.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';    
     searchButton.disabled = true;
+    mainInnerContainer.innerHTML = '<div class="container d-flex align-items-center text-center justify-content-center p-5 h3"><i class="fa-solid fa-spinner fa-spin me-3"></i> Searching...</div>';
 
     setTimeout(function () {
       if (index) {
