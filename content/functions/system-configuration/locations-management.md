@@ -2,7 +2,7 @@
 id: '1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
 title: 'Locations Management'
 date: '2020-03-05T17:06:16.370Z'
-version: 77
+version: 79
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

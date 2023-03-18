@@ -2,7 +2,7 @@
 id: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
 title: 'Label Printing Feature'
 date: '2020-03-24T15:23:57.818Z'
-version: 84
+version: 86
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

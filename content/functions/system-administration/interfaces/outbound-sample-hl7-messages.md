@@ -1,9 +1,9 @@
 ---
 id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
 title: 'Outbound Sample HL7 Messages'
-date: '2022-06-13T19:32:37.257Z'
-version: 59
-lastAuthor: 'Nick Wallace'
+date: '2023-02-24T18:19:31.380Z'
+version: 96
+lastAuthor: 'Zack Barrell'
 mimeType: 'text/x-markdown'
 links:
   - 'receiving-hl7-messages-from-system.md'

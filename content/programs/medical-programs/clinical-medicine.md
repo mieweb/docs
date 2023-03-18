@@ -2,7 +2,7 @@
 id: '1D2Tr1fpF7oqAx0hsXkwT5D2RA1epjcGuNFVNv87bXEM'
 title: 'Clinical Medicine'
 date: '2020-02-27T19:30:05.023Z'
-version: 26
+version: 28
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1D2Tr1fpF7oqAx0hsXkwT5D2RA1epjcGuNFVNv87bXEM'

@@ -2,7 +2,7 @@
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
 date: '2023-01-17T12:07:15.001Z'
-version: 288
+version: 303
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:

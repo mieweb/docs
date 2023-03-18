@@ -1,9 +1,9 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2021-03-30T13:46:32.498Z'
-version: 463
-lastAuthor: 'Dawn Case'
+date: '2023-02-03T12:39:14.599Z'
+version: 484
+lastAuthor: 'tmitchell'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist'

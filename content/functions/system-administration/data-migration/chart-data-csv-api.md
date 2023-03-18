@@ -1,9 +1,9 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
-date: '2022-06-25T15:23:12.195Z'
-version: 77
-lastAuthor: 'Bridget Hamm'
+date: '2023-02-23T15:56:02.854Z'
+version: 87
+lastAuthor: 'Zack Barrell'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'

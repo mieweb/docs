@@ -1,9 +1,9 @@
 ---
 id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 title: 'Sample HL7 Messages'
-date: '2022-03-10T19:03:57.467Z'
-version: 111
-lastAuthor: 'Angie Nichols'
+date: '2023-02-21T21:14:54.696Z'
+version: 172
+lastAuthor: 'Zack Barrell'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
