@@ -1,11 +1,12 @@
 ---
 id: '1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
 title: 'Word Documents'
-date: '2020-03-23T16:26:17.055Z'
-version: 100
-lastAuthor: ''
+date: '2023-02-08T15:46:40.973Z'
+version: 121
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://drive.google.com/file/d/19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN/view'
 source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
 wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
@@ -16,7 +17,10 @@ menu:
     weight: 410
 ---
 ## Add/Upload Word Document to Chart  
-  
+
+
+Watch a Video: [Doc Management](https://drive.google.com/file/d/19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN/view) at 15:34 the word demo begins.
+
 Click the left sidebar tab called *E-Chart.* Find and open a specific patient's chart.  
 Click the Add Document link near the top right corner of the screen (or from scheduler) for the patient.  
 Click the filter of Word. This will filter/pop-up only documents that are available in Word templates/format.  
