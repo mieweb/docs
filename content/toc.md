@@ -496,6 +496,7 @@ wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
          * [Documents Report / Super Document Type Search](functions/reports/documents-report-super-document-type-search.md)
          * [E-Meds Report](functions/reports/e-meds-report.md)
          * [Encounter Report](functions/reports/encounter-report.md)
+         * [Executive Dashboard Report](functions/reports/executive-dashboard-report.md)
          * [Exporting Report Data](functions/reports/exporting-report-data.md)
          * [Fill Reports](functions/reports/fill-reports.md)
          * [Guideline Report](functions/reports/guideline-report.md)
