@@ -1,8 +1,9 @@
 ---
 id: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 title: 'Signature Pad Device'
-date: '2020-02-27T20:26:18.438Z'
-version: 52
+date: '2023-03-13T19:56:33.263Z'
+version: 88
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
@@ -14,18 +15,47 @@ menu:
     parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
     weight: 5580
 ---
-In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and you should install the CD prior to using. We recommend the Topaz Signature Pad Device.  
-{{% system-name %}} is e-signature compatible and allows patients to sign their immunization consent forms electronically or any other document the practice wishes to use this for. The signed consent statement and image of the patient signature is uploaded into the patient's chart (instead of using paper consent forms). Your MIE Implementer would configure a sidemenu tab with a layout for which signature canned statement choices you want on that tab. The consent verbiage only holds so many characters and after they sign and upload it stores as a document. Topaz device is used with that sidemenu tab and it's text verbiage that a patient reads and signs using the topaz signature device, which then uploads and stores as a document in the chart. Paper consent forms can still be used and scanned into the patient chart with a patient's hand-signature.  
-On the left sidebar menu may be a tab named SIGNATURE if your practice is set up to allow patients to electronically sign canned text statements using a Topaz Signature Pad Device that then store as a document in the chart. Examples: canned consent statements to pick up meds, travel kits or sign canned statements for consenting to an injection.  This side menu tab can be named anything your practice wants.  
-The example below shows the signature program utilized in an Immunization Consent form. Depending on what type of injection consent they pick a different canned statement will appear both on the signature pad device and on the screen in {{% system-name %}} that captures the signature and stores it as a document.  
-This Signature program can be customized to be titled/labeled as you wish. In this example below, it uses the signature pad device for various immunization consents, travel pickup and prescription pickup requests. Upon the patient's electronic signature, the document (and electronic signature) is uploaded and stored directly into the patient's chart.
-  
-![](../signature-pad-device.assets/a747c9d3c50cdfa77dc41836b242cb82.png)  
+The  {{% system-name %}} interoperates with Topaz Signature Pad Devices.  In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and you had to install the Topaz software for the SigPlus device.  
+{{% system-name %}} is signature compatible with a pad device to allow patients to acknowledge a consent or declination (or any other document) by capturing an electronic signature from a pad device. The signature screen displays a brief canned statement and the patient uses the device pen to capture a signature that is uploaded as a specific document type into their chart. This helps eliminate the need for paper printing, pen signature capturing, clipboards, pens, and eliminates the need to scan & index the paper back in as an image into the chart.   
+Your Deployment Consultant or Implementer would configure a sidemenu Signature tab that interoperates with a Topaz signature pad device.  The {{% system-name %}} Signature module points to a specific layout where radio button consent or declination choices are programmed, as well as each applicable canned statement. The canned statement verbiage only holds so many characters and after they sign using the Topaz signature device, the canned statement with electronic signature auto-stores as a document in the patient's chart.   
+Paper consent forms can still be used and scanned into the patient chart with a patient's hand-signature as well as the on screen touch forms that *{{% system-name %}}* offers.
 
-The above screenshot example allows you to enter in the patient's name that need to sign the consent. Then the specific consent radio button is selected. A canned statement appears both on the signature pad device and on the {{% system-name %}} screen. It is ready for the patient to sign.  
-Click the START SIGNATURE button and the patient would sign the signature pad using the electronic pen. When the patient is done signing, click the SAVE SIGNATURE button to save the signature image and upload it into the patient's chart. Or you can click the RESET button to clear the signature image and/or change the patient or immunization/consent type if had previously selected the wrong one.  
-This is an example of what the uploaded and stored document would look like, along with the electronic signature and date/time stamp on the document.
+The example below shows the signature program utilized in an Immunization Consent form. 
   
-![](../signature-pad-device.assets/6e193069f2b733c5db0f63b5f6113fc4.jpg)  
+![](../signature-pad-device.assets/a5c60a8a1634c8473132665402b9f8fe.png)  
 
-Signature pad devices can also be used in conjunction with the mass immunization record tab. See other help documentation named *Mass Immunization Record Tab.pdf*.
+
+The Signature module opens and you enter in the patient's name that needs to sign the acknowledgement. Then the clinician would select the specific radio button consent or declination that is needing to be captured by the patient.  A predefined canned statement, based on which radio button option that was selected, appears both on the signature pad device and on the {{% system-name %}} screen. It is ready for the patient to sign.
+Click the START SIGNATURE button on the {{% system-name %}} screen, and that sends the canned statement to the Topaz signature device screen.
+  
+![](../signature-pad-device.assets/e138e7a64dec9093565350b916aeaa86.png)  
+
+
+The patient can view the corresponding canned statement on the Topaz device screen and clicks *Tap to Continue*.
+  
+![](../signature-pad-device.assets/1c140a296726a58014aa22ed39cc2634.png)  
+
+
+The patient would use the electronic device to pen their signature on the pad using the electronic pen.
+  
+![](../signature-pad-device.assets/12bc33dfd5c4721e6326cbdfc860d6b6.png)  
+
+When the patient is done signing, they will click the OK button on the device pad.
+The signature is captured and considered complete.  If the patient forgot to do this, the clinician can click the *Save Signature* button on the {{% system-name %}} screen to save/upload it.
+  
+![](../signature-pad-device.assets/3658b26c92ab409305e4afcab63421ea.png)  
+
+
+What is seen on the clinician side:
+  
+![](../signature-pad-device.assets/28a780f464f76d223b19356814c00ce0.png)  
+
+
+
+Once the patient clicked OK after signing, or the clinician clicked *Save Signature*, the document is stored to the appropriate selected chart.
+
+  
+The document is saved using document type ESIG. ![](../signature-pad-device.assets/abe990adfbc706dc1e0dff6ec786952d.png)  
+
+
+Signature pad devices can also be used in conjunction with the mass immunization record tab. See other help documentation named *Mass Immunization Record Tab.pdf*
