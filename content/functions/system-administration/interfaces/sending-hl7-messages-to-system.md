@@ -1,17 +1,16 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2022-03-10T19:03:36.783Z'
-version: 130
-lastAuthor: 'Angie Nichols'
+date: '2023-03-17T16:15:02.954Z'
+version: 275
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'
   - 'sample-hl7-messages.md'
   - 'hl7-segment-definitions.md'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/hl7-segment-definitions.html'
 source: 'https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Sending HL7 Messages to System'
@@ -19,7 +18,8 @@ menu:
     parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
     weight: 5380
 ---
-The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.  
+The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
+
 {{% anchor sys="assumptions" %}}
 
   
@@ -115,7 +115,7 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
   
 ### Immunizations (VXU)  
 
-* [VXU^V04](https://docs.enterprisehealth.com/functions/system-administration/interfaces/hl7-segment-definitions.html) : [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) [ORC](hl7-segment-definitions.md) [RXA](hl7-segment-definitions.md) [RXR](hl7-segment-definitions.md)
+* [VXU^](sample-hl7-messages.md)[V04](sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) [ORC](hl7-segment-definitions.md) [RXA](hl7-segment-definitions.md) [RXR](hl7-segment-definitions.md)
   
 ### **Acknowledgement (ACK) message**  
 

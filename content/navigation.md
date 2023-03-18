@@ -2,7 +2,7 @@
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
 date: '2022-10-08T14:30:07.728Z'
-version: 243
+version: 247
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
@@ -37,7 +37,7 @@ links:
   - 'functions/system-configuration/fee-schedules.md'
   - 'functions/patient-registration.md'
   - 'functions/patient-registration/patient-registration-tab-manual-patient-entry.md'
-  - 'functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md'
+  - 'functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
   - 'functions/patient-registration/medical-record-numbers.md'
   - 'functions/document-management.md'
   - 'functions/document-management/documents-and-forms.md'
@@ -73,7 +73,7 @@ links:
   - 'functions/document-management/scanning-and-indexing/scanning.md'
   - 'functions/document-management/scanning-and-indexing/indexing.md'
   - 'functions/document-management/scanning-and-indexing/indexing-bubble-forms.md'
-  - 'functions/document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md'
+  - 'functions/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md'
   - 'functions/document-management/scanning-and-indexing/batch-search-in-webscan.md'
   - 'functions/document-management/scanning-and-indexing/working-inbound-fax-queue-and-distributing-incoming-faxes.md'
   - 'functions/document-management/printing-and-print-definitions.md'
@@ -103,7 +103,7 @@ links:
   - 'functions/e-chart/super-user-quick-view-portlet.md'
   - 'functions/e-chart/conditions.md'
   - 'functions/e-chart/preventive-care-portlet.md'
-  - 'functions/e-chart/alerts,-errors,-failures-interactive-tab.md'
+  - 'functions/e-chart/alerts-errors-failures-interactive-tab.md'
   - 'functions/e-chart/alerts-tab-warnings.md'
   - 'functions/e-chart/alert-comments.md'
   - 'functions/e-chart/demographics-tab-summary.md'
@@ -150,8 +150,8 @@ links:
   - 'functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md'
   - 'functions/encounters/working-in-a-legacy-encounter.md'
   - 'functions/encounters/working-in-a-visit-encounter.md'
-  - 'functions/encounters/tests-and-procedures-section-applying-adding,-completing,-resulting.md'
-  - 'functions/encounters/tests-and-procedures-section-remove,-delete,-edit.md'
+  - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
+  - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - 'functions/encounters/make-order-feature-encounter-plan-section.md'
   - 'functions/encounters/encounters-labs-results-section.md'
   - 'functions/encounters/encounter-plan-section-medications.md'
@@ -228,7 +228,7 @@ links:
   - 'functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.md'
   - 'functions/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.md'
   - 'functions/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.md'
-  - 'functions/medication-management-and-e-prescribing/setting-preferred-pharmacy,-days-supply,-and-current-library-and-med-history-verification.md'
+  - 'functions/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.md'
   - 'functions/medication-management-and-e-prescribing/travel-kits.md'
   - 'functions/injection-immunization-management.md'
   - 'functions/injection-immunization-management/injection-tab.md'
@@ -274,19 +274,19 @@ links:
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-4-engagement-of-patients-through-implementation-of-improvements-in-patient-portal.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-5-enhancements-regular-updates-to-practice-websites-tools-that-also-include-considerations-for-patients-with-cognitive-disabilities.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-6-collection-and-follow-up-on-patient-experience-and-satisfaction-data-on-beneficiary-engagement.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-7-participation-in-a-qcdr,-that-promotes-use-of-patient-engagement-tools.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-8-participation-in-a-qcdr,-that-promotes-collaborative-learning-network-opportunities-that-are-interactive.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-7-participation-in-a-qcdr-that-promotes-use-of-patient-engagement-tools.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-8-participation-in-a-qcdr-that-promotes-collaborative-learning-network-opportunities-that-are-interactive.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-9-use-of-qcdr-patient-experience-data-to-inform-and-advance-improvements-in-beneficiary-engagement.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-10-participation-in-a-qcdr,-that-promotes-implementation-of-patient-self-action-plans..md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-11-participation-in-a-qcdr,-that-promotes-use-of-processes-and-tools-that-engage-patients-for-adherence-to-treatment-plan.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-10-participation-in-a-qcdr-that-promotes-implementation-of-patient-self-action-plans..md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-11-participation-in-a-qcdr-that-promotes-use-of-processes-and-tools-that-engage-patients-for-adherence-to-treatment-plan.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-12-use-evidence-based-decision-aids-to-support-shared-decision-making.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-13-regularly-assess-the-patient-experience-of-care-through-surveys,-advisory-councils-and-or-other-mechanisms.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-13-regularly-assess-the-patient-experience-of-care-through-surveys-advisory-councils-and-or-other-mechanisms.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-14-engage-patients-and-families-to-guide-improvement-in-the-system-of-care.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-15-engagement-of-patients,-family,-and-caregivers-in-developing-a-plan-of-care.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-15-engagement-of-patients-family-and-caregivers-in-developing-a-plan-of-care.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-16-evidenced-based-techniques-to-promote-self-management-into-usual-care.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-17-use-of-tools-to-assist-patient-self-management.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-18-provide-peer-led-support-for-self-management.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-19-use-group-visits-for-common-chronic-conditions-e.g.,-diabetes.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-19-use-group-visits-for-common-chronic-conditions-e.g.-diabetes.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-20-implementation-of-condition-specific-chronic-disease-self-management-support-programs.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-21-improved-practices-that-disseminate-appropriate-self-management-materials.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-22-improved-practices-that-engage-patients-pre-visit.md'
@@ -305,7 +305,7 @@ links:
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-3-implementation-of-additional-activity-as-a-result-of-ta-for-improving-care-coordination.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-4-tcpi-participation.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-5-cms-partner-in-patients-hospital-engagement-network.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-6-use-of-qcdr-to-promote-standard-practices,-tools-and-processes-in-practice-for-improvement-in-care-coordination.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-6-use-of-qcdr-to-promote-standard-practices-tools-and-processes-in-practice-for-improvement-in-care-coordination.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-7-regular-training-in-care-coordination.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-8-implementation-of-documentation-improvements-for-practice-process-improvements.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-9-implementation-of-practices-processes-for-developing-regular-individual-care-plans.md'
@@ -322,11 +322,11 @@ links:
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-3-collection-and-use-of-patient-experience-and-satisfaction-data-on-access.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-4-additional-improvements-in-access-as-a-result-of-qin-qio-ta.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-5-participation-in-user-testing-of-the-quality-payment-program-website-https-qpp.cms.gov.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-1-participation-on-disaster-medical-assistance-team,-registered-for-6-months.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-1-participation-on-disaster-medical-assistance-team-registered-for-6-months.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-2-participation-in-a-60-day-or-greater-effort-to-support-domestic-or-international-humanitarian-needs.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-1-participation-in-systematic-anticoagulation-program.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-2-anticoagulant-management-improvements.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-3-rhc,-ihs,-or-fqhc-quality-improvement-activities.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-3-rhc-ihs-or-fqhc-quality-improvement-activities.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-4-glycemic-management-services.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-5-engagement-of-community-for-health-status-improvement.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-6-use-of-toolsets-or-other-resources-to-close-healthcare-disparities-across-communities.md'
@@ -345,7 +345,7 @@ links:
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-21-advance-care-planning.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-1-participation-in-an-ahrq-listed-patient-safety-organization.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-2-participation-in-moc-part-iv.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-3-participate-in-ihi-training-forum-event-national-academy-of-medicine,-ahrq-team-stepps-or-other-similar-activity.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-3-participate-in-ihi-training-forum-event-national-academy-of-medicine-ahrq-team-stepps-or-other-similar-activity.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-4-administration-of-the-ahrq-survey-of-patient-safety-culture.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-5-annual-registration-in-the-prescription-drug-monitoring-program.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-6-consultation-of-the-prescription-drug-monitoring-program.md'
@@ -361,7 +361,7 @@ links:
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-16-use-of-decision-support-and-standardized-treatment-protocols.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-17-implementation-of-analytic-capabilities-to-manage-total-cost-of-care-for-practice-population.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-18-measurement-and-improvement-at-the-practice-and-panel-level.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-19-implementation-of-formal-quality-improvement-methods,-practice-changes,-or-other-practice-improvement-processes.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-19-implementation-of-formal-quality-improvement-methods-practice-changes-or-other-practice-improvement-processes.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-20-leadership-engagement-in-regular-guidance-and-demonstrated-commitment-for-implementing-practice-improvement-changes.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-21-implementation-of-fall-screening-and-assessment-programs.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-22-cdc-training-on-cdcs-guideline-for-prescribing-opioids-for-chronic-pain.md'
@@ -446,7 +446,7 @@ links:
   - 'functions/system-administration/system-controls.md'
   - 'functions/system-administration/system-controls/system-plugins.md'
   - 'functions/system-administration/system-controls/user-provider-and-department-management.md'
-  - 'functions/system-administration/system-controls/access-control-adding,-deleting,-editing-users.md'
+  - 'functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md'
   - 'functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.md'
   - 'functions/system-administration/system-controls/setting-up-e-prescribers.md'
   - 'functions/system-administration/system-controls/add-referring-physician-users.md'
@@ -562,7 +562,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-maico-ma800.md'
   - 'functions/system-administration/interfaces/device-interface-mi-7000.md'
   - 'functions/system-administration/interfaces/signature-pad-device.md'
-  - 'functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md'
+  - 'functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md'
   - 'functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md'
   - 'functions/system-administration/interfaces/device-interface-titmus-v4.md'
   - 'functions/system-administration/interfaces/installing-mie-device-app.md'
@@ -633,7 +633,7 @@ links:
   - 'resources/system-specifications/on-premise-deployment/on-premise-mysql-server-hardware-requirements.md'
   - 'resources/system-specifications/on-premise-deployment/application-managed-service-summary.md'
   - 'resources/system-specifications/interface-specifications.md'
-  - 'resources/system-specifications/ccda,-ccd-and-ccr-compatibility.md'
+  - 'resources/system-specifications/ccda-ccd-and-ccr-compatibility.md'
   - 'resources/system-specifications/system-email-templates.md'
   - 'resources/system-specifications/system-email-templates/email-templates-from-chart.md'
   - 'resources/system-specifications/system-email-templates/email-templates-from-chart/comments-only.md'
@@ -686,7 +686,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 ---
 * [Programs](programs.md)
    * [Medical Programs](programs/medical-programs.md)
@@ -719,7 +719,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
       * [Fee Schedules](functions/system-configuration/fee-schedules.md)
    * [Patient Registration](functions/patient-registration.md)
       * [Patient Registration Tab - Manual Patient Entry](functions/patient-registration/patient-registration-tab-manual-patient-entry.md)
-      * [Medical Contacts - Contacts, Relationships, and User-Patient Relationships](functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md)
+      * [Medical Contacts - Contacts, Relationships, and User-Patient Relationships](functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
       * [Medical Record Numbers](functions/patient-registration/medical-record-numbers.md)
    * [Document Management](functions/document-management.md)
       * [Documents & Forms](functions/document-management/documents-and-forms.md)
@@ -755,7 +755,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
          * [Scanning](functions/document-management/scanning-and-indexing/scanning.md)
          * [Indexing](functions/document-management/scanning-and-indexing/indexing.md)
          * [Indexing Bubble Forms](functions/document-management/scanning-and-indexing/indexing-bubble-forms.md)
-         * [Batched Documents - Printing, Faxing, Burning](functions/document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md)
+         * [Batched Documents - Printing, Faxing, Burning](functions/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md)
          * [Batch Search in WebScan](functions/document-management/scanning-and-indexing/batch-search-in-webscan.md)
          * [Working Inbound Fax Queue & Distributing Incoming Faxes](functions/document-management/scanning-and-indexing/working-inbound-fax-queue-and-distributing-incoming-faxes.md)
       * [Printing & Print Definitions](functions/document-management/printing-and-print-definitions.md)
@@ -785,7 +785,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
       * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
       * [Conditions](functions/e-chart/conditions.md)
       * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
-      * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts,-errors,-failures-interactive-tab.md)
+      * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts-errors-failures-interactive-tab.md)
       * [Alerts Tab - Warnings](functions/e-chart/alerts-tab-warnings.md)
       * [Alert Comments](functions/e-chart/alert-comments.md)
       * [Demographics Tab Summary](functions/e-chart/demographics-tab-summary.md)
@@ -832,8 +832,8 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
          * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
       * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
       * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
-      * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding,-completing,-resulting.md)
-      * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove,-delete,-edit.md)
+      * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
+      * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
       * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
       * [Encounters Labs Results Section](functions/encounters/encounters-labs-results-section.md)
       * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
@@ -910,7 +910,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
       * [SureScripts Advanced - Medication History Reconciliation](functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.md)
       * [SureScripts Advanced - Prescription and Insurance Eligibility Requests](functions/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.md)
       * [Remembered Prescriptions & Meds Library](functions/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.md)
-      * [Setting Preferred Pharmacy, Days Supply, and Current Library & Med History Verification](functions/medication-management-and-e-prescribing/setting-preferred-pharmacy,-days-supply,-and-current-library-and-med-history-verification.md)
+      * [Setting Preferred Pharmacy, Days Supply, and Current Library & Med History Verification](functions/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.md)
       * [Travel Kits](functions/medication-management-and-e-prescribing/travel-kits.md)
    * [Injection/Immunization Management](functions/injection-immunization-management.md)
       * [Injection Tab](functions/injection-immunization-management/injection-tab.md)
@@ -956,19 +956,19 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
                * [BE 4 - Engagement of Patients through Implementation of Improvements in Patient Portal](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-4-engagement-of-patients-through-implementation-of-improvements-in-patient-portal.md)
                * [BE 5 - Enhancements/Regular Updates to Practice Websites/Tools that Also Include Considerations for Patients with Cognitive Disabilities](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-5-enhancements-regular-updates-to-practice-websites-tools-that-also-include-considerations-for-patients-with-cognitive-disabilities.md)
                * [BE 6 - Collection and Follow-up on Patient Experience and Satisfaction Data on Beneficiary Engagement](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-6-collection-and-follow-up-on-patient-experience-and-satisfaction-data-on-beneficiary-engagement.md)
-               * [BE 7 - Participation in a QCDR, that Promotes Use of Patient Engagement Tools](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-7-participation-in-a-qcdr,-that-promotes-use-of-patient-engagement-tools.md)
-               * [BE 8 - Participation in a QCDR, that Promotes Collaborative Learning Network Opportunities that are Interactive](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-8-participation-in-a-qcdr,-that-promotes-collaborative-learning-network-opportunities-that-are-interactive.md)
+               * [BE 7 - Participation in a QCDR, that Promotes Use of Patient Engagement Tools](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-7-participation-in-a-qcdr-that-promotes-use-of-patient-engagement-tools.md)
+               * [BE 8 - Participation in a QCDR, that Promotes Collaborative Learning Network Opportunities that are Interactive](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-8-participation-in-a-qcdr-that-promotes-collaborative-learning-network-opportunities-that-are-interactive.md)
                * [BE 9 - Use of QCDR Patient Experience Data to Inform and Advance Improvements in Beneficiary Engagement](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-9-use-of-qcdr-patient-experience-data-to-inform-and-advance-improvements-in-beneficiary-engagement.md)
-               * [BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-10-participation-in-a-qcdr,-that-promotes-implementation-of-patient-self-action-plans..md)
-               * [BE 11 - Participation in a QCDR, that Promotes Use of Processes and Tools that Engage Patients for Adherence to Treatment Plan](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-11-participation-in-a-qcdr,-that-promotes-use-of-processes-and-tools-that-engage-patients-for-adherence-to-treatment-plan.md)
+               * [BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-10-participation-in-a-qcdr-that-promotes-implementation-of-patient-self-action-plans..md)
+               * [BE 11 - Participation in a QCDR, that Promotes Use of Processes and Tools that Engage Patients for Adherence to Treatment Plan](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-11-participation-in-a-qcdr-that-promotes-use-of-processes-and-tools-that-engage-patients-for-adherence-to-treatment-plan.md)
                * [BE 12 - Use Evidence-based Decision Aids to Support Shared Decision-making](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-12-use-evidence-based-decision-aids-to-support-shared-decision-making.md)
-               * [BE 13 - Regularly Assess the Patient Experience of Care Through Surveys, Advisory Councils and/or Other Mechanisms](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-13-regularly-assess-the-patient-experience-of-care-through-surveys,-advisory-councils-and-or-other-mechanisms.md)
+               * [BE 13 - Regularly Assess the Patient Experience of Care Through Surveys, Advisory Councils and/or Other Mechanisms](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-13-regularly-assess-the-patient-experience-of-care-through-surveys-advisory-councils-and-or-other-mechanisms.md)
                * [BE 14 - Engage Patients and Families to Guide Improvement in the System of Care](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-14-engage-patients-and-families-to-guide-improvement-in-the-system-of-care.md)
-               * [BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-15-engagement-of-patients,-family,-and-caregivers-in-developing-a-plan-of-care.md)
+               * [BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-15-engagement-of-patients-family-and-caregivers-in-developing-a-plan-of-care.md)
                * [BE 16 - Evidenced-based Techniques to Promote Self-management into Usual Care](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-16-evidenced-based-techniques-to-promote-self-management-into-usual-care.md)
                * [BE 17 - Use of Tools to Assist Patient Self-management](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-17-use-of-tools-to-assist-patient-self-management.md)
                * [BE 18 - Provide Peer-led Support for Self-management](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-18-provide-peer-led-support-for-self-management.md)
-               * [BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-19-use-group-visits-for-common-chronic-conditions-e.g.,-diabetes.md)
+               * [BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-19-use-group-visits-for-common-chronic-conditions-e.g.-diabetes.md)
                * [BE 20 - Implementation of Condition-specific Chronic Disease Self-management Support Programs](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-20-implementation-of-condition-specific-chronic-disease-self-management-support-programs.md)
                * [BE 21 - Improved Practices that Disseminate Appropriate Self-Management Materials](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-21-improved-practices-that-disseminate-appropriate-self-management-materials.md)
                * [BE 22 - Improved Practices that Engage Patients Pre-Visit](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-22-improved-practices-that-engage-patients-pre-visit.md)
@@ -987,7 +987,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
                * [CC 3 - Implementation of Additional Activity as a Result of TA for Improving Care Coordination](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-3-implementation-of-additional-activity-as-a-result-of-ta-for-improving-care-coordination.md)
                * [CC 4 - TCPI Participation](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-4-tcpi-participation.md)
                * [CC 5 - CMS Partner in Patients Hospital Engagement Network](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-5-cms-partner-in-patients-hospital-engagement-network.md)
-               * [CC 6 - Use of QCDR to Promote Standard Practices, Tools and Processes in Practice for Improvement in Care Coordination](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-6-use-of-qcdr-to-promote-standard-practices,-tools-and-processes-in-practice-for-improvement-in-care-coordination.md)
+               * [CC 6 - Use of QCDR to Promote Standard Practices, Tools and Processes in Practice for Improvement in Care Coordination](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-6-use-of-qcdr-to-promote-standard-practices-tools-and-processes-in-practice-for-improvement-in-care-coordination.md)
                * [CC 7 - Regular Training in Care Coordination](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-7-regular-training-in-care-coordination.md)
                * [CC 8 - Implementation of Documentation Improvements for Practice/Process Improvements](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-8-implementation-of-documentation-improvements-for-practice-process-improvements.md)
                * [CC 9 - Implementation of Practices/Processes for Developing Regular Individual Care Plans](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-9-implementation-of-practices-processes-for-developing-regular-individual-care-plans.md)
@@ -1004,11 +1004,11 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
                * [EPA 3 - Collection and Use of Patient Experience and Satisfaction Data on Access](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-3-collection-and-use-of-patient-experience-and-satisfaction-data-on-access.md)
                * [EPA 4 - Additional Improvements in Access as a Result of QIN/QIO TA](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-4-additional-improvements-in-access-as-a-result-of-qin-qio-ta.md)
                * [EPA 5 - Participation in User Testing of the Quality Payment Program Website (https://qpp.cms.gov/)](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-5-participation-in-user-testing-of-the-quality-payment-program-website-https-qpp.cms.gov.md)
-               * [ERP 1 - Participation on Disaster Medical Assistance Team, Registered for 6 Months](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-1-participation-on-disaster-medical-assistance-team,-registered-for-6-months.md)
+               * [ERP 1 - Participation on Disaster Medical Assistance Team, Registered for 6 Months](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-1-participation-on-disaster-medical-assistance-team-registered-for-6-months.md)
                * [ERP 2 - Participation in a 60-day or Greater Effort to Support Domestic or International Humanitarian Needs](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-2-participation-in-a-60-day-or-greater-effort-to-support-domestic-or-international-humanitarian-needs.md)
                * [PM 1 - Participation in Systematic Anticoagulation Program](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-1-participation-in-systematic-anticoagulation-program.md)
                * [PM 2 - Anticoagulant Management Improvements](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-2-anticoagulant-management-improvements.md)
-               * [PM 3 - RHC, IHS, or FQHC Quality Improvement Activities](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-3-rhc,-ihs,-or-fqhc-quality-improvement-activities.md)
+               * [PM 3 - RHC, IHS, or FQHC Quality Improvement Activities](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-3-rhc-ihs-or-fqhc-quality-improvement-activities.md)
                * [PM 4 - Glycemic Management Services](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-4-glycemic-management-services.md)
                * [PM 5 - Engagement of Community for Health Status Improvement](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-5-engagement-of-community-for-health-status-improvement.md)
                * [PM 6 - Use of Toolsets or Other Resources to Close Healthcare Disparities Across Communities](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-6-use-of-toolsets-or-other-resources-to-close-healthcare-disparities-across-communities.md)
@@ -1027,7 +1027,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
                * [PM 21 - Advance Care Planning](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-21-advance-care-planning.md)
                * [PSPA 1 - Participation in an AHRQ-listed Patient Safety Organization](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-1-participation-in-an-ahrq-listed-patient-safety-organization.md)
                * [PSPA 2 - Participation in MOC Part IV](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-2-participation-in-moc-part-iv.md)
-               * [PSPA 3 - Participate in IHI Training/Forum Event: National Academy of Medicine, AHRQ Team STEPPS or Other Similar Activity](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-3-participate-in-ihi-training-forum-event-national-academy-of-medicine,-ahrq-team-stepps-or-other-similar-activity.md)
+               * [PSPA 3 - Participate in IHI Training/Forum Event: National Academy of Medicine, AHRQ Team STEPPS or Other Similar Activity](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-3-participate-in-ihi-training-forum-event-national-academy-of-medicine-ahrq-team-stepps-or-other-similar-activity.md)
                * [PSPA 4 - Administration of the AHRQ Survey of Patient Safety Culture](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-4-administration-of-the-ahrq-survey-of-patient-safety-culture.md)
                * [PSPA 5 - Annual registration in the Prescription Drug Monitoring Program](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-5-annual-registration-in-the-prescription-drug-monitoring-program.md)
                * [PSPA 6 - Consultation of the Prescription Drug Monitoring Program](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-6-consultation-of-the-prescription-drug-monitoring-program.md)
@@ -1043,7 +1043,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
                * [PSPA 16 - Use of Decision Support and Standardized Treatment Protocols](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-16-use-of-decision-support-and-standardized-treatment-protocols.md)
                * [PSPA 17 - Implementation of Analytic Capabilities to Manage Total Cost of Care for Practice Population](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-17-implementation-of-analytic-capabilities-to-manage-total-cost-of-care-for-practice-population.md)
                * [PSPA 18 - Measurement and Improvement at the Practice and Panel Level](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-18-measurement-and-improvement-at-the-practice-and-panel-level.md)
-               * [PSPA 19 - Implementation of Formal Quality Improvement Methods, Practice Changes, or Other Practice Improvement Processes](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-19-implementation-of-formal-quality-improvement-methods,-practice-changes,-or-other-practice-improvement-processes.md)
+               * [PSPA 19 - Implementation of Formal Quality Improvement Methods, Practice Changes, or Other Practice Improvement Processes](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-19-implementation-of-formal-quality-improvement-methods-practice-changes-or-other-practice-improvement-processes.md)
                * [PSPA 20 - Leadership Engagement in Regular Guidance and Demonstrated Commitment for Implementing Practice Improvement Changes](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-20-leadership-engagement-in-regular-guidance-and-demonstrated-commitment-for-implementing-practice-improvement-changes.md)
                * [PSPA 21 - Implementation of Fall Screening and Assessment Programs](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-21-implementation-of-fall-screening-and-assessment-programs.md)
                * [PSPA 22 - CDC Training on CDCs Guideline for Prescribing Opioids for Chronic Pain](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-22-cdc-training-on-cdcs-guideline-for-prescribing-opioids-for-chronic-pain.md)
@@ -1128,7 +1128,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
       * [System Controls](functions/system-administration/system-controls.md)
          * [System Plugins](functions/system-administration/system-controls/system-plugins.md)
          * [User/Provider & Department Management](functions/system-administration/system-controls/user-provider-and-department-management.md)
-         * [Access Control - Adding, Deleting, Editing Users](functions/system-administration/system-controls/access-control-adding,-deleting,-editing-users.md)
+         * [Access Control - Adding, Deleting, Editing Users](functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md)
          * [Access Control - Quick Add Multiple Active Users](functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.md)
          * [Setting Up E-Prescribers](functions/system-administration/system-controls/setting-up-e-prescribers.md)
          * [Add Referring Physician Users](functions/system-administration/system-controls/add-referring-physician-users.md)
@@ -1244,7 +1244,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
          * [Device Interface - Maico MA800](functions/system-administration/interfaces/device-interface-maico-ma800.md)
          * [Device Interface - MI 7000](functions/system-administration/interfaces/device-interface-mi-7000.md)
          * [Signature Pad Device](functions/system-administration/interfaces/signature-pad-device.md)
-         * [Device Interface - Tremetrics RA500](functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md)
+         * [Device Interface - Tremetrics RA500](functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md)
          * [Device Interface - Welch Allyn CardioPerfect](functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md)
          * [Device Interface - Titmus V4](functions/system-administration/interfaces/device-interface-titmus-v4.md)
          * [Installing MIE Device App](functions/system-administration/interfaces/installing-mie-device-app.md)
@@ -1316,7 +1316,7 @@ wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
          * [On-Premise MySQL Server Hardware Requirements](resources/system-specifications/on-premise-deployment/on-premise-mysql-server-hardware-requirements.md)
          * [Application Managed Service Summary](resources/system-specifications/on-premise-deployment/application-managed-service-summary.md)
       * [Interface Specifications](resources/system-specifications/interface-specifications.md)
-      * [CCDA, CCD and CCR Compatibility](resources/system-specifications/ccda,-ccd-and-ccr-compatibility.md)
+      * [CCDA, CCD and CCR Compatibility](resources/system-specifications/ccda-ccd-and-ccr-compatibility.md)
       * [System Email Templates](resources/system-specifications/system-email-templates.md)
          * [Email Templates from Chart](resources/system-specifications/system-email-templates/email-templates-from-chart.md)
             * [Comments Only](resources/system-specifications/system-email-templates/email-templates-from-chart/comments-only.md)

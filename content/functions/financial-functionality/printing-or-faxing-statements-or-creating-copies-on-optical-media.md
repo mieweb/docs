@@ -10,9 +10,9 @@ links:
   - 'https://drive.google.com/open?id=1YYYcufxMWZwTeCZYYSi4c9UIx25F0NsFjyqYR87KVjU'
   - '../document-management/printing-and-print-definitions/printing-documents.md'
   - '../fax-manager/faxing-documents.md'
-  - '../document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md'
+  - '../document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md'
 source: 'https://drive.google.com/open?id=1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 ---
 [Create statements](creating-statements.md) before printing, faxing, or creating copies on optical media (burning).  
 For example, to print three statements and fax another four, first select the three that need printed and print them, then repeat this process to find and select all that need faxed and fax those.
@@ -27,4 +27,4 @@ For example, to print three statements and fax another four, first select the th
 
 8. To print the selected statements, to the right of <em>Batch</em>, select <strong>Print</strong>. See [P](https://drive.google.com/open?id=1YYYcufxMWZwTeCZYYSi4c9UIx25F0NsFjyqYR87KVjU)[rinting Documents](../document-management/printing-and-print-definitions/printing-documents.md).
 9. To fax the selected statements, to the right of <em>Batch</em>, select <strong>Fax</strong>. See [Faxing Documents](../fax-manager/faxing-documents.md).
-10. To burn the selected statements to optical media, to the right of <em>Batch</em>, select <strong>Burn</strong>. See <em>Burning a Batch</em> at [Batched Documents - Printing, Faxing, Burning](../document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md).
+10. To burn the selected statements to optical media, to the right of <em>Batch</em>, select <strong>Burn</strong>. See <em>Burning a Batch</em> at [Batched Documents - Printing, Faxing, Burning](../document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md).

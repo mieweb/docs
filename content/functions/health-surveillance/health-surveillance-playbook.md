@@ -1,9 +1,9 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2022-11-07T21:41:17.279Z'
-version: 318
-lastAuthor: 'Alice Uhrick'
+date: '2023-02-24T20:12:34.725Z'
+version: 338
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'health-surveillance-matrix.md'
@@ -18,7 +18,7 @@ links:
   - 'health-surveillance-panels-action-rules.md'
   - '../health-surveillance.md'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Health Surveillance Playbook'
@@ -26,7 +26,7 @@ menu:
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
     weight: 1870
 ---
-{*{% system-name %}}* offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
+{{% system-name %}} offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
 
 The way {{% system-name %}} does it is through highly configurable, easily manageable health surveillance (HS) panels. HS panels are simply groups of tests that need to be done on a periodic basis, or when starting or ending a position with exposure to a particular environmental or other risk, such as noise, lead, etc. To assist with initial configurations, several HS panels are set up by default in each {{% system-name %}} system. All clients will work with a deployment consultant to identify and assist with the setup of additional panels, as well as the configuration of the existing panels.
 

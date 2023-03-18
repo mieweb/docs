@@ -13,7 +13,7 @@ links:
   - 'quality-measures-list/cms-66-functional-status-assessment-for-total-knee-replacement.md'
   - 'quality-measures-list/cms-68-documentation-of-current-medications-in-the-medical-record.md'
   - 'quality-measures-list/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md'
-  - 'quality-measures-list/cms-74-primary-caries-prevention-intervention-as-offered-by-primary-care-providers,-including-dentists.md'
+  - 'quality-measures-list/cms-74-primary-caries-prevention-intervention-as-offered-by-primary-care-providers-including-dentists.md'
   - 'quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md'
   - 'quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md'
   - 'quality-measures-list/cms-117-childhood-immunization-status.md'
@@ -50,7 +50,7 @@ links:
   - 'quality-measures-list/cms-177-child-and-adolescent-major-depressive-disorder-mdd-suicide-risk-assessment.md'
   - 'quality-measures-list/cms-347-statin-therapy-for-the-prevention-and-treatment-of-cardiovascular-disease.md'
 source: 'https://drive.google.com/open?id=14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Quality Measures List'
@@ -65,7 +65,7 @@ menu:
 [CMS66 - Functional Status Assessment for Total Knee Replacement](quality-measures-list/cms-66-functional-status-assessment-for-total-knee-replacement.md)  
 [CMS68 - Documentation of Current Medications in the Medical Record](quality-measures-list/cms-68-documentation-of-current-medications-in-the-medical-record.md)  
 [CMS69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan](quality-measures-list/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md)  
-[CMS74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists](quality-measures-list/cms-74-primary-caries-prevention-intervention-as-offered-by-primary-care-providers,-including-dentists.md)  
+[CMS74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists](quality-measures-list/cms-74-primary-caries-prevention-intervention-as-offered-by-primary-care-providers-including-dentists.md)  
 [CMS75 - Children Who Have Dental Decay or Cavities](quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md)  
 [CMS90 - Functional Status Assessments for Heart Failure](quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md)  
 [CMS117 - Childhood Immunization Status](quality-measures-list/cms-117-childhood-immunization-status.md)  

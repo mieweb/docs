@@ -11,10 +11,10 @@ links:
   - '../../injury-care/case-management/viewing-cases.md'
   - 'link-documents-to-encounters.md'
   - 'link-documents-to-other-documents.md'
-  - '../../e-chart/alerts,-errors,-failures-interactive-tab.md'
+  - '../../e-chart/alerts-errors-failures-interactive-tab.md'
   - 'delete-move-lock-documents.md'
 source: 'https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Document Properties'
@@ -128,7 +128,7 @@ For example, if the document route displays an error, or it shows as pending, th
 ![](../document-properties.assets/af3bf511862709f7399064257d79f6a6.png)  
 
 If the document routed successfully, the status will display *Complete* and the only available options would be to Resend or Deactivate in the event of any transmission or communication errors.
-For more information and to set up error and alert notifications, please see our [Alerts, Errors, Failures - Interactive Tab](../../e-chart/alerts,-errors,-failures-interactive-tab.md) documentation.
+For more information and to set up error and alert notifications, please see our [Alerts, Errors, Failures - Interactive Tab](../../e-chart/alerts-errors-failures-interactive-tab.md) documentation.
   
 ### Routing History for Document  
 

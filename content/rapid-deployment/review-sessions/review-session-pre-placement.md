@@ -2,12 +2,12 @@
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
 date: '2022-12-01T15:01:50.590Z'
-version: 599
+version: 605
 lastAuthor: 'Heather Drexler'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
-  - 'pre-placement-workflow-demonstration.md'
+  - 'https://drive.google.com/open?id=1kdoY2-_e0I-ST4fa9LVuAdTRmAZ9nByq8vs3JFb5w4s'
   - '../../functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
   - '../../functions/portal-management/linking-users-for-portal-access.md'
   - '../../functions/portal-management/employer-portal-setup.md'
@@ -17,7 +17,7 @@ links:
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 ---
 ## Agenda  
 
@@ -72,7 +72,7 @@ Standard functionality for the pre-placement workflow includes
 * Purge editor is available for customer use to purge documents for applicants that aren't hired after a predetermined time
 
   
-## [Pre-placement Workflow Demonstration](pre-placement-workflow-demonstration.md)  
+## [Pre-placement Workflow Demonstration](https://drive.google.com/open?id=1kdoY2-_e0I-ST4fa9LVuAdTRmAZ9nByq8vs3JFb5w4s)  
 
   
 #### Talent Team Communication  

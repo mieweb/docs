@@ -12,7 +12,7 @@ links:
   - '../functions/system-configuration/locations-management.md'
   - '../functions/system-configuration/managing-departments.md'
   - '../functions/system-administration/system-controls/setting-up-e-prescribers.md'
-  - '../functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md'
+  - '../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
   - '../functions/system-configuration/document-type-tab.md'
   - '../functions/system-configuration/chart-types-editor.md'
   - '../functions/system-configuration/chart-tabs.md'
@@ -73,7 +73,7 @@ links:
   - '../functions/system-administration/security/security-role-settings.md'
   - '../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
 source: 'https://drive.google.com/open?id=1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Rapid Deployment Project Outline'
@@ -145,7 +145,7 @@ menu:
       * Add Users
       * [Add Departments](../functions/system-configuration/managing-departments.md)
       * [Prescriber Setup](../functions/system-administration/system-controls/setting-up-e-prescribers.md)
-      * [User/Patient Relationship Setup](../functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md)
+      * [User/Patient Relationship Setup](../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
    * Chart Configuration
       * [Document Types](../functions/system-configuration/document-type-tab.md)
       * [Chart Types](../functions/system-configuration/chart-types-editor.md)
@@ -158,7 +158,7 @@ menu:
    * Review Session Demonstration
    * Manual Registration - [Demographics](../functions/e-chart/demographics-tab-summary.md)
    * [Chart Photos](../functions/document-management/documents-and-forms/picture-photo-documents.md)
-   * [User Roles/Relationships](../functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md)
+   * [User Roles/Relationships](../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
    * [Partition Restrictions](../functions/system-administration/system-controls/partition-manager.md)
 * [Document Management](review-sessions/review-session-document-management.md)
    * Review Session Demonstration

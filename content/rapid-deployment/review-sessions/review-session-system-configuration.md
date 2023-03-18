@@ -28,7 +28,7 @@ links:
   - '../../functions/system-administration/security/security-role-settings.md'
   - '../../functions/system-configuration/locations-manager-tab.md'
   - '../../functions/system-configuration/managing-departments.md'
-  - '../../functions/system-administration/system-controls/access-control-adding,-deleting,-editing-users.md'
+  - '../../functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md'
   - '../../functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.md'
   - '../../functions/system-administration/system-controls/reset-user-passwords.md'
   - '../../functions/system-configuration/chart-types-editor.md'
@@ -43,7 +43,7 @@ links:
   - '../../functions/system-configuration/locations-management.md'
   - '../../functions/system-configuration/system-files-management.md'
 source: 'https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Review Session - System Configuration'
@@ -291,7 +291,7 @@ Some of the most commonly changed user preferences are:
 
 * [Locations Manager Tab](../../functions/system-configuration/locations-manager-tab.md)
 * [Adding a Department](../../functions/system-configuration/managing-departments.md)
-* [Access Control - Adding/Deleting/Editing Users](../../functions/system-administration/system-controls/access-control-adding,-deleting,-editing-users.md)
+* [Access Control - Adding/Deleting/Editing Users](../../functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md)
 * [Access Control - Quick-Add Multiple Active Users](../../functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.md)
 * [Reset Users Password](../../functions/system-administration/system-controls/reset-user-passwords.md)
 * [Chart Types Editor](../../functions/system-configuration/chart-types-editor.md)

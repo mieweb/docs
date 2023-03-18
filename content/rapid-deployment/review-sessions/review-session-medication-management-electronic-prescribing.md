@@ -34,7 +34,7 @@ links:
   - '../../functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.md'
   - '../../functions/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.md'
   - '../../functions/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.md'
-  - '../../functions/medication-management-and-e-prescribing/setting-preferred-pharmacy,-days-supply,-and-current-library-and-med-history-verification.md'
+  - '../../functions/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.md'
   - '../../functions/medication-management-and-e-prescribing/prescribing-adding-medications.md'
   - '../../functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.md'
   - '../../functions/medication-management-and-e-prescribing/refill-all.md'
@@ -46,7 +46,7 @@ links:
   - 'https://drive.google.com/open?id=1Hh-Up6MnYTqvnc2vEx38lXyRG5rbm4ln3jnd8Qy_G7Q'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=b79e8477f8cdb0cabd019dcd7f998b16'
 source: 'https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Review Session - Medication Management/Electronic Prescribing'
@@ -340,7 +340,7 @@ Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Se
 * [Medication History Reconciliation-SureScripts Advanced](../../functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.md)
 * [Meds Library-Remembered Scripts](../../functions/medication-management-and-e-prescribing/remembered-prescriptions-and-meds-library.md)
 * [Meds Tab Summary View](../../functions/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.md)
-* [Preferred Pharmacy-Supply-Verification-Current Library](../../functions/medication-management-and-e-prescribing/setting-preferred-pharmacy,-days-supply,-and-current-library-and-med-history-verification.md)
+* [Preferred Pharmacy-Supply-Verification-Current Library](../../functions/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.md)
 * [Prescribing and Adding Meds](../../functions/medication-management-and-e-prescribing/prescribing-adding-medications.md)
 * [Prescription and Insurance Eligibility Requests-SureScripts Advanced](../../functions/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests.md)
 * [Print-Fax-Transmit Prescriptions](../../functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.md)

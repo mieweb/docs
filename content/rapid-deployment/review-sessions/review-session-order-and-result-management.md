@@ -27,8 +27,8 @@ links:
   - '../../functions/order-and-result-management/e-orders-chart-tab.md'
   - '../../functions/order-and-result-management/orders-view-recent.md'
   - '../../functions/document-management/documents-and-forms/link-documents-to-order-requests.md'
-  - '../../functions/encounters/tests-and-procedures-section-applying-adding,-completing,-resulting.md'
-  - '../../functions/encounters/tests-and-procedures-section-remove,-delete,-edit.md'
+  - '../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
+  - '../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - '../../functions/health-surveillance/due-list.md'
   - 'https://www.mieweb.com/wiki/Orders_(ORM%5EO01)_Inbound_and_Outbound'
   - 'https://www.mieweb.com/wiki/Lab_Result_CSV_API'
@@ -39,7 +39,7 @@ links:
   - '../../functions/order-and-result-management/observation-code-merging.md'
   - '../../functions/order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Review Session - Order and Result Management'
@@ -239,8 +239,8 @@ A *Referred Orders* grid report is available in the referrable entity's Provider
 * [E-Orders Chart Tab](../../functions/order-and-result-management/e-orders-chart-tab.md)
 * [E-Orders View Recent](../../functions/order-and-result-management/orders-view-recent.md)
 * [Link Document to E-Order](../../functions/document-management/documents-and-forms/link-documents-to-order-requests.md)
-* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding,-completing,-resulting.md)
-* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove,-delete,-edit.md)
+* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
+* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
 * [Due List Chart Tab](../../functions/health-surveillance/due-list.md)
 * [Public - Orders Inbound and Outbound Interface Specs](https://www.mieweb.com/wiki/Orders_(ORM%5EO01)_Inbound_and_Outbound)
 * [Public - Lab Result CSV API](https://www.mieweb.com/wiki/Lab_Result_CSV_API)

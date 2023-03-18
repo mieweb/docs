@@ -1,9 +1,9 @@
 ---
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
-date: '2022-03-02T13:25:35.598Z'
-version: 461
-lastAuthor: 'Theresa Juillerat'
+date: '2023-01-17T12:11:49.369Z'
+version: 467
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.healthit.gov/'
@@ -30,7 +30,7 @@ links:
   - '../../reports/e-meds-report.md'
   - '../../system-administration/system-controls/view-user-audit-log.md'
 source: 'https://drive.google.com/open?id=1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'EPCS Setup'
@@ -57,7 +57,7 @@ In addition, {{% system-name %}} is EPCS certified — ensuring e-prescribing of
 
 Before you begin
 Physicians who wish to electronically prescribe controlled medications must first obtain the required level of identity proofing and digital certificate token, used for digitally signing and transmitting controlled substances. Before EPCS can be set up within {{% system-name %}} , the following must be completed through IdenTrust, our partner and certification authority (CA) that is cross certified with the Federal Bridge Certification Authority and operates at a Federal Bridge Certification Authority basic assurance level or above ([1311.105](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#105)(a)(2)). For detailed instructions and guidance on the registration and certification process, see our [IdenTrust Registration & Certification Help Guide](identrust-certificate-registration-step-by-step.md):
-* Begin the IdenTrust certification selection process by navigating to our customized [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering). Review the information and click the <strong>Buy Now</strong> button to initiate the Certification Selection Wizard. Purchase the IdenTrust Global Common (IGC) USB Token. Create the two (2) required passwords (through the [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering)):
+* Begin the IdenTrust certification selection process by navigating to our customized [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering). Review the information and click the blue <strong>Buy Now</strong> button to initiate the Certification Selection Wizard. Purchase the IdenTrust Global Common (IGC) USB Token. Create the two (2) required passwords (through the [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering)):
    * Account password
    * Token passcode
 {{% note %}}

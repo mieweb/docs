@@ -39,8 +39,8 @@ links:
   - '../../functions/encounters/encounter-plan-section-medications.md'
   - '../../functions/encounters/encounters-tab-search-and-list-view.md'
   - '../../functions/document-management/documents-and-forms/link-documents-to-encounters.md'
-  - '../../functions/encounters/tests-and-procedures-section-applying-adding,-completing,-resulting.md'
-  - '../../functions/encounters/tests-and-procedures-section-remove,-delete,-edit.md'
+  - '../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
+  - '../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - '../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md'
   - '../../functions/reports/encounter-report.md'
   - '../../functions/reports/open-encounters-report.md'
@@ -49,7 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Review Session - Encounter Workflow'
@@ -331,8 +331,8 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 * [Encounters Plan Section-Meds](../../functions/encounters/encounter-plan-section-medications.md)
 * [Encounters Tab-Search and ListView](../../functions/encounters/encounters-tab-search-and-list-view.md)
 * [Link Documents to Encounters](../../functions/document-management/documents-and-forms/link-documents-to-encounters.md)
-* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding,-completing,-resulting.md)
-* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove,-delete,-edit.md)
+* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
+* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
 * [Due List-Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
 * [Encounter Report](../../functions/reports/encounter-report.md)
 * [Encounters Open Exam Report](../../functions/reports/open-encounters-report.md)

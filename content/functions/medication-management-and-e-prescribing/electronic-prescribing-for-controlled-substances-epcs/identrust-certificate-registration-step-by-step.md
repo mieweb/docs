@@ -1,8 +1,8 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2022-03-02T21:42:17.031Z'
-version: 260
+date: '2023-01-17T12:07:15.001Z'
+version: 288
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'IdenTrust Certificate Registration Step-by-Step'
@@ -58,28 +58,39 @@ There is a recording walking to watch someone walk through all the steps (the vi
   
 The first step requires the selection of the certificate. There are 3 types of Certificates that MIE/IdenTrust will offer to prescribers.
 
-1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $109.00 (Prices subject to change by IdenTrust)</strong>
+1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $96.00-$232.00 (Prices subject to change by IdenTrust)</strong>
    1. Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
-2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $197.00 (Pricing subject to change by IdenTrust)</strong>
+2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $258.00 (Pricing subject to change by IdenTrust)</strong>
    1. Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
-3. Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $99.00
+3. <strong>Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $84.00-$198.00</strong>
 
   
-![](../identrust-certificate-registration-step-by-step.assets/4f01252bfb2d4623eb4dfa04b2c48c8f.png)  
-
-
-  
-#### Select the Storage Device  
+![](../identrust-certificate-registration-step-by-step.assets/1267da7bd410bb66b035e0c6d917348d.png)  
 
   
+#### Select the Storage Device (pricing shown is for Mobile Authentication)  
+
   
-#### ![](../identrust-certificate-registration-step-by-step.assets/21a35f8256090f34e78f827d7bc4958e.png)  
+  
+#### ![](../identrust-certificate-registration-step-by-step.assets/dfc940f087ea58d274b38d9c862e666c.png)  
   
 
-1. Every certificate provided through IdenTrust for EPCS has a 2-year validity period. This will automatically be selected.
-2. Following the Validity Period selection is the selection for the SafeNet USB Token, used to store the digital certificate.
-   1. <strong>HID USB Token - $68.00</strong>
-      1. This option is for EPCS Two Factor Authentication Certificates and Tokens. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers may use their existing token.
+  
+#### Select the Storage Device (pricing shown is for USB Token)  
+
+  
+![](../identrust-certificate-registration-step-by-step.assets/f20b181b78fbd07ad90e11f3593c5d65.png)  
+
+  
+#### Select the Storage Device (pricing shown is for Identity Proofing only)  
+
+  
+![](../identrust-certificate-registration-step-by-step.assets/1f64f07128b523dc2c4d82c6044419a3.png)  
+
+1. Every certificate provided through IdenTrust for EPCS has different year options for the validity period. The 2-year option is automatically selected for mobile authentication.
+2. The USB Token option requires the purchase of the HID USB Token, used to store the digital certificate.
+   1. <strong>HID USB Token - $92.00</strong>
+      1. This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
    2. SafeNet USB Token use existing - $0.00
 3. Make your selection, and click the <strong>Next</strong> button.
 4. Verify your selections, and click <strong>Buy Now</strong>.

@@ -16,11 +16,11 @@ links:
   - '../../functions/document-management/documents-and-forms/picture-photo-documents.md'
   - '../../functions/system-administration/system-controls/partition-manager.md'
   - '../../functions/e-chart/insurance-summary-in-demographics-tab.md'
-  - '../../functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md'
+  - '../../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
   - '../../functions/patient-registration/medical-record-numbers.md'
   - '../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Review Session - Patient Registration'
@@ -107,6 +107,6 @@ The [Partition Manager](https://system/?f=admin&s=partmanager&tabmodule=admin&ta
 * [Picture-Photo Documents](../../functions/document-management/documents-and-forms/picture-photo-documents.md)
 * [Partition Manager](../../functions/system-administration/system-controls/partition-manager.md)
 * [Insurance Summary-Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.md)
-* [Medical Contacts-Relationships and User-Patient Relationships](../../functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md)
+* [Medical Contacts-Relationships and User-Patient Relationships](../../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
 * [Medical Record Numbers](../../functions/patient-registration/medical-record-numbers.md)
 * [Merging Charts in System](../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md)

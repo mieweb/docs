@@ -2,7 +2,7 @@
 id: '19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
 title: 'Review Session - Fax Manager'
 date: '2020-02-27T21:25:58.999Z'
-version: 32
+version: 34
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -12,12 +12,12 @@ links:
   - '../../functions/fax-manager/fax-manager-tab-outbound-faxing.md'
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
   - '../../functions/system-administration/security/my-settings.md'
-  - '../../functions/document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md'
+  - '../../functions/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md'
   - '../../functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md'
   - '../../functions/fax-manager/faxing-documents.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=512d4a650f5972363795065eb10926cb'
 source: 'https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Review Session - Fax Manager'
@@ -142,7 +142,7 @@ For more information, see the [My Settings](../../functions/system-administratio
   
 ### Help Documentation  
 
-* [Batched Documents-Printing or Faxing or Burning](../../functions/document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md)
+* [Batched Documents-Printing or Faxing or Burning](../../functions/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md)
 * [Email Notification of Sent or Failed Faxes](../../functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md)
 * [Fax Manager Tab](../../functions/fax-manager/fax-manager-tab-outbound-faxing.md)
 * [Faxing Documents](../../functions/fax-manager/faxing-documents.md)

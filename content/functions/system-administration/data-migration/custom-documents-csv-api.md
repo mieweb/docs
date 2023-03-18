@@ -1,8 +1,9 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2020-02-27T21:00:26.519Z'
-version: 22
+date: '2023-01-11T15:14:40.654Z'
+version: 44
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/images/3/32/Storage_Type_13.txt'
@@ -10,7 +11,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/images/6/69/Storage_Type_Header_13.txt'
   - 'https://miewiki.med-web.com/wiki/images/c/c3/Storage_type_1001_example.pdf'
 source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Custom Documents CSV API'
@@ -34,10 +35,190 @@ To view the storage types in MySQL run the following query:
 {{% pre %}}
 ```
   
-  
 SELECT * FROM storage_types;  
-  
 {{% /pre %}}  
+
+```
+
+<table>
+<tr>
+<td>STORAGE_TYPE</td>
+<td>FILE_EXT</td>
+<td>CONTENT_TYPE</td>
+<td>DESCRIPTION</td>
+</tr>
+<tr>
+<td>0</td>
+<td>txt</td>
+<td>text/plain</td>
+<td>Delete doc</td>
+</tr>
+<tr>
+<td>1</td>
+<td>txt</td>
+<td>text/plain</td>
+<td>Plain Text Document</td>
+</tr>
+<tr>
+<td>2</td>
+<td>rtf</td>
+<td>text/richtext</td>
+<td>RTF Document</td>
+</tr>
+<tr>
+<td>3</td>
+<td>png</td>
+<td>image/png</td>
+<td>PNG file</td>
+</tr>
+<tr>
+<td>4</td>
+<td>html</td>
+<td>text/html</td>
+<td>HTML file</td>
+</tr>
+<tr>
+<td>5</td>
+<td>html</td>
+<td>text/html</td>
+<td>IMG & TEXT/HTML file</td>
+</tr>
+<tr>
+<td>6</td>
+<td>doc</td>
+<td>application/msword</td>
+<td>WORD Document</td>
+</tr>
+<tr>
+<td>7</td>
+<td>tif</td>
+<td>image/tiff</td>
+<td>TIFF Documents</td>
+</tr>
+<tr>
+<td>8</td>
+<td>jpg</td>
+<td>image/jpeg</td>
+<td>JPEG Documents</td>
+</tr>
+<tr>
+<td>9</td>
+<td>bin</td>
+<td>application/octet-stream</td>
+<td>Binary Documents</td>
+</tr>
+<tr>
+<td>10</td>
+<td>dcm</td>
+<td>application/dicom</td>
+<td>DICOM Documents</td>
+</tr>
+<tr>
+<td>11</td>
+<td>htm</td>
+<td>text/html</td>
+<td>TASK</td>
+</tr>
+<tr>
+<td>12</td>
+<td>htm</td>
+<td>text/html</td>
+<td>Injection</td>
+</tr>
+<tr>
+<td>13</td>
+<td>htm</td>
+<td>text/html</td>
+<td>Lab Request</td>
+</tr>
+<tr>
+<td>14</td>
+<td>txt</td>
+<td>text/plain</td>
+<td>Pre-Formated Text</td>
+</tr>
+<tr>
+<td>15</td>
+<td>htm</td>
+<td>text/html</td>
+<td>Orders</td>
+</tr>
+<tr>
+<td>16</td>
+<td>htm</td>
+<td>text/html</td>
+<td>Mammo Tracking</td>
+</tr>
+<tr>
+<td>17</td>
+<td>pdf</td>
+<td>application/pdf</td>
+<td>PDF file</td>
+</tr>
+<tr>
+<td>18</td>
+<td>xls</td>
+<td>application/vnd.ms-excel</td>
+<td>MS Excel</td>
+</tr>
+<tr>
+<td>19</td>
+<td>cda</td>
+<td>application/x-hl7-cda</td>
+<td>CDA Document</td>
+</tr>
+<tr>
+<td>20</td>
+<td>avi</td>
+<td>video/x-msvideo</td>
+<td>AVI Video Document</td>
+</tr>
+<tr>
+<td>21</td>
+<td>ccr</td>
+<td>text/xml</td>
+<td>CCR Document</td>
+</tr>
+<tr>
+<td>22</td>
+<td>mime</td>
+<td>multipart/mixed</td>
+<td>Email</td>
+</tr>
+<tr>
+<td>23</td>
+<td>htm</td>
+<td>text/html</td>
+<td>OCP Audio</td>
+</tr>
+<tr>
+<td>24</td>
+<td>htm</td>
+<td>text/html</td>
+<td>Pulmonary Function Test</td>
+</tr>
+<tr>
+<td>25</td>
+<td>bmp</td>
+<td>image/x-bmp</td>
+<td>BMP</td>
+</tr>
+<tr>
+<td>26</td>
+<td>x12</td>
+<td>application/edi-x12</td>
+<td>X12 Messages</td>
+</tr>
+<tr>
+<td>27</td>
+<td>xml</td>
+<td>text/xml</td>
+<td>XML</td>
+</tr>
+
+</table>
+
+```
   
 
 ```

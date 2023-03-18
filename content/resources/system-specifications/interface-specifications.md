@@ -2,7 +2,7 @@
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
 date: '2022-12-02T16:59:08.706Z'
-version: 1532
+version: 1621
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -20,7 +20,7 @@ links:
   - '../../functions/system-administration/interfaces/device-interface-maico-ma800.md'
   - '../../functions/system-administration/interfaces/device-interface-mi-7000.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html'
-  - '../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md'
+  - '../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md'
   - 'http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html'
   - '../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md'
@@ -47,7 +47,7 @@ links:
   - 'http://stchome.com/'
   - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Interface Specifications'
@@ -149,8 +149,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
    * Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
    * [OMI Sensormedics ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html) (File Uni-directional)
    * Shoebox *Not Supported
-   * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md) (Serial Uni-directional)
-   * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
+   * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (Serial Uni-directional)
+   * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
    * Xeta Otometrics (no model # on device) (File Uni-directional)
 * Barcode Inventory scanner 
    * Datalogic Motorola ES46080 QuickScan 6000; Class # 668112-014001-0000 - Acts like a keyboard
