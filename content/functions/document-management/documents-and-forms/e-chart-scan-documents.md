@@ -1,9 +1,9 @@
 ---
 id: '1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 title: 'E-Chart Scan Documents'
-date: '2020-03-09T19:33:19.747Z'
-version: 78
-lastAuthor: 'aquandt'
+date: '2023-03-18T19:03:17.100Z'
+version: 84
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
@@ -20,7 +20,7 @@ menu:
 ---
 With {{% system-name %}} , users have the ability to scan individual documents into a chart using a flatbed or shell scanner. This should not be confused with the high-speed scanning functionality of the [WebScan](https://system/?f=miewebscan) module. Rather, navigating to the documents library by clicking any of the Add Document links throughout the chart, and filtering down to scan document types by clicking the **E-Chart Scan** filter link, allows users to upload any of the relevant documents necessary. This can include any full-sized documents, or even smaller (e.g. card-sized) items, such as photo IDs or insurance cards.
 
-Scanning can be performed directly from the user's workstation, and any flatbed scanner can be used. However, MIE recommends ScanShell 800NR or 800DXN card scanners for the smaller items. This removes the need for any additional cropping or resizing of images going into the chart.
+Scanning can be performed directly from the user's workstation with any flatbed scanner. However, MIE recommends ScanShell 800NR or 800DXN card scanners for the smaller items. This removes the need for any additional cropping or resizing of images going into the chart.
 
 {{% info %}}
 
