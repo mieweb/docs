@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2022-12-02T16:59:08.706Z'
-version: 1621
-lastAuthor: 'Bridget Hamm'
+date: '2023-03-15T16:25:02.969Z'
+version: 1734
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -191,7 +191,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Microcoagulation System - [ITC Hemochron Jr.](http://www.hemochronusersforum.co.uk/microcoagulation.html)
 * Monitor and Defibrillator - [Phillips HeartStart MRx](http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q)
 * Respirator Fit 
-   * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file uplad
+   * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file upload
    * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file uplad
 * Signature Pad 
    * [Topaz GemView](https://drive.google.com/open?id=1JkqBeFPTOZU6t-VgVUMy05zNg1-xHcOeEwWlQhrUNnM) (File Bi-directional) - Our device is not only capturing a signature image but a secure biometric (this biometric data is comprised of speed, pace, and acceleration as well as pressure) This biometric data ties the signer to the document and can be reviewed forensically by a court-appointed handwriting expert with special software we only make available to the court system upon request. Our patented biometric signature technology has been called in to question in Federal Court and was upheld (please see details Here ).  A form can be automatically sent from Enterprise Health to the pad and then returned automatically to the chart.  Requires vendor software to function
