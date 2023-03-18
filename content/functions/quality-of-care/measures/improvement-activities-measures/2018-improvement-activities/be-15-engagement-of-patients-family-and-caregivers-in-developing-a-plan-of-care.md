@@ -1,7 +1,7 @@
 ---
-id: '1BZ2MbvXj2wCPGlci4j-u8ophytUvzFnk5oQlKWqdaa0'
-title: 'BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.'
-date: '2020-02-27T20:49:27.297Z'
+id: '1kCuPtPP5z_mmvgci5LjvEWVraB0MhtL5InFLxqanX1k'
+title: 'BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care'
+date: '2020-02-27T20:49:46.111Z'
 version: 16
 mimeType: 'text/x-markdown'
 links:
@@ -9,14 +9,14 @@ links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1BZ2MbvXj2wCPGlci4j-u8ophytUvzFnk5oQlKWqdaa0'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+source: 'https://drive.google.com/open?id=1kCuPtPP5z_mmvgci5LjvEWVraB0MhtL5InFLxqanX1k'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
-    name: 'BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.'
-    identifier: '1BZ2MbvXj2wCPGlci4j-u8ophytUvzFnk5oQlKWqdaa0'
+    name: 'BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care'
+    identifier: '1kCuPtPP5z_mmvgci5LjvEWVraB0MhtL5InFLxqanX1k'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2740
+    weight: 2790
 ---
 
 
@@ -24,12 +24,13 @@ menu:
 
 **Activity Weighting**: Medium  
 **Subcategory Name**: Beneficiary Engagement  
-**Description**: Participation in a QCDR, that promotes implementation of patient self-action plans.
+**Description**: Engage patients, family, and caregivers in developing a plan of care and prioritizing their goals for action, documented in the electronic health record (EHR) technology.
+
 
 
 
 Supporting Documentation  
-Participation in QCDR that promotes implementation of patient self-action plans, e.g., regular feedback reports provided by the QCDR that show the promotion and use of patient self action plans
+Report from the certified EHR, showing the plan of care and prioritized goals for action with engagement of the patient, family and caregivers, if applicable.
 
 
 

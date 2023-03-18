@@ -2,12 +2,12 @@
 id: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
 title: 'Scheduling'
 date: '2020-02-27T19:47:19.396Z'
-version: 20
+version: 21
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?func=scheduler#Now'
 source: 'https://drive.google.com/open?id=1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Scheduling'

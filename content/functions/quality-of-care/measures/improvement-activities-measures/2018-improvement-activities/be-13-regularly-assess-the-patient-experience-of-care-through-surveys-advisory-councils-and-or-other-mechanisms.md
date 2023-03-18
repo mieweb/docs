@@ -1,22 +1,22 @@
 ---
-id: '1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
-title: 'BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)'
-date: '2020-02-27T20:50:03.466Z'
-version: 16
+id: '1aEmMuVrPrxuKsaa88K3LktMRLcN8lqNS19Z8gR5SXzA'
+title: 'BE 13 - Regularly Assess the Patient Experience of Care Through Surveys, Advisory Councils and/or Other Mechanisms'
+date: '2020-02-27T20:49:42.151Z'
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+source: 'https://drive.google.com/open?id=1aEmMuVrPrxuKsaa88K3LktMRLcN8lqNS19Z8gR5SXzA'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
-    name: 'BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)'
-    identifier: '1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
+    name: 'BE 13 - Regularly Assess the Patient Experience of Care Through Surveys, Advisory Councils and/or Other Mechanisms'
+    identifier: '1aEmMuVrPrxuKsaa88K3LktMRLcN8lqNS19Z8gR5SXzA'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2830
+    weight: 2770
 ---
 
 
@@ -24,13 +24,13 @@ menu:
 
 **Activity Weighting**: Medium  
 **Subcategory Name**: Beneficiary Engagement  
-**Description**: Use group visits for common chronic conditions (e.g., diabetes).
+**Description**: Regularly assess the patient experience of care through surveys, advisory councils and/or other mechanisms.
 
 
 
 
 Supporting Documentation  
-Medical claims or referrals showing group visit and chronic condition codes in conjunction with care provided.
+Documentation (e.g. survey results, advisory council notes and/or other methods) showing regular assessments of the patient care experience to improve the experience.
 
 
 

@@ -1,13 +1,13 @@
 ---
 id: '1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
 title: 'Endpoints'
-date: '2022-08-03T13:55:34.734Z'
-version: 24
-lastAuthor: 'Nicole Richardson'
+date: '2023-01-19T20:01:24.657Z'
+version: 48
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 ---
 
 

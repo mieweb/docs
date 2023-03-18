@@ -1,7 +1,7 @@
 ---
-id: '1h2TG1rZF9XrNxl4KcK_A7Q3dLSAHFRo5U4CqAthQsPE'
-title: 'BE 11 - Participation in a QCDR, that Promotes Use of Processes and Tools that Engage Patients for Adherence to Treatment Plan'
-date: '2020-02-27T20:49:33.924Z'
+id: '1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
+title: 'BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)'
+date: '2020-02-27T20:50:03.466Z'
 version: 16
 mimeType: 'text/x-markdown'
 links:
@@ -9,14 +9,14 @@ links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1h2TG1rZF9XrNxl4KcK_A7Q3dLSAHFRo5U4CqAthQsPE'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+source: 'https://drive.google.com/open?id=1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
-    name: 'BE 11 - Participation in a QCDR, that Promotes Use of Processes and Tools that Engage Patients for Adherence to Treatment Plan'
-    identifier: '1h2TG1rZF9XrNxl4KcK_A7Q3dLSAHFRo5U4CqAthQsPE'
+    name: 'BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)'
+    identifier: '1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2750
+    weight: 2830
 ---
 
 
@@ -24,13 +24,13 @@ menu:
 
 **Activity Weighting**: Medium  
 **Subcategory Name**: Beneficiary Engagement  
-**Description**: Participation in a QCDR, that promotes use of processes and tools that engage patients for adherence to treatment plan.
+**Description**: Use group visits for common chronic conditions (e.g., diabetes).
 
 
 
 
 Supporting Documentation  
-Participation in QCDR promoting engagement of patients for adherence to treatment plans, e.g., regular feedback reports provided by the QCDR showing the promotion of processes and tools that engage patients for adherence to treatment plans.
+Medical claims or referrals showing group visit and chronic condition codes in conjunction with care provided.
 
 
 

@@ -2,7 +2,7 @@
 id: '15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
 title: 'Encryption Statement'
 date: '2020-02-27T20:35:59.932Z'
-version: 26
+version: 27
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Encryption'
@@ -37,7 +37,7 @@ links:
   - 'https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/'
   - 'http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices'
 source: 'https://drive.google.com/open?id=15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
-wikigdrive: '6c6f21d9d0a63cb86fd32dec4cec30d4b470cbf5'
+wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
 menu:
   main:
     name: 'Encryption Statement'
