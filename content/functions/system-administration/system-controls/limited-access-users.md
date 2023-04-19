@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'locking-individual-or-specific-charts.md'
 source: 'https://drive.google.com/open?id=1gna_b2P4oKkvDN3s9XIHm9jIWxWXfK6fpQxbjamyJ9g'
-wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
+wikigdrive: 'd3e22db37cfdd4a4e5d0d1fe46fc320e82e79136'
 menu:
   main:
     name: 'Limited Access Users'
