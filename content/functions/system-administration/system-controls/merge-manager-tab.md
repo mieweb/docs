@@ -1,9 +1,9 @@
 ---
 id: '1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
 title: 'Merge Manager Tab'
-date: '2023-04-19T13:20:46.713Z'
-version: 129
-lastAuthor: 'Grzegorz Godlewski'
+date: '2023-04-19T14:05:27.678Z'
+version: 135
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../document-management/documents-and-forms/document-properties.md'
@@ -132,4 +132,4 @@ When performing another search in the Merge Manager Log screen, the unmerged cha
   
 ## How to Merge Charts  
   
-There is additional information on how to merge charts together may be found under separate help documentation named [Merging Accounts-Charts](merging-accounts-charts-in-system.md)*.*
+Additional information on how to merge charts together may be found under separate help documentation named [Merging Accounts-Charts](merging-accounts-charts-in-system.md)*.*
