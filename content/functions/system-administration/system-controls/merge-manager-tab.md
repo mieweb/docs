@@ -1,8 +1,8 @@
 ---
 id: '1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
 title: 'Merge Manager Tab'
-date: '2023-04-19T14:05:27.678Z'
-version: 135
+date: '2023-04-19T16:47:06.703Z'
+version: 139
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -75,7 +75,8 @@ You will need the security setting of *Manage Patient Merge Log* set to **Edi
   
 ![](../merge-manager-tab.assets/23cf84c87703a000b27465784ac62976.png)  
 
-If you have security permission *Manage Patient Merge Log* set to Edit, then you will see the **options column** that has the UnMerge hyperlink available.  
+If you have security permission *Manage Patient Merge Log* set to Edit, then you will see the **options column** that has the UnMerge hyperlink available.
+
 If your security is set to No, you will not be able to access this Merge Manager tab at all. If your security is set to View, you can view the merges that have been done and/or do search filter, but you cannot unmerge.
   
 ![](../merge-manager-tab.assets/e8d6ce0be5a7b3e18204e713b52caec5.png)  
