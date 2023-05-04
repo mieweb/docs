@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-03-21T18:42:13.990Z'
-version: 1746
+date: '2023-05-03T11:40:34.113Z'
+version: 1909
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -30,6 +30,8 @@ links:
   - 'http://www.hemochronusersforum.co.uk/microcoagulation.html'
   - 'http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q'
   - 'https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer'
+  - 'https://pm.mieweb.com/issues/113505'
+  - 'https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM'
   - 'https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868'
   - 'https://drive.google.com/open?id=1JkqBeFPTOZU6t-VgVUMy05zNg1-xHcOeEwWlQhrUNnM'
   - '../../functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
@@ -173,6 +175,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Cholesterol 
    * Abbott LDX Analyzer (Serial Uni-directional) - Still requires Java Applet to interface
 * ECG/EKG 
+   * Burdick ELI 280 - has a proprietary format that is not compatible
    * Esaote 3/12 Channel ECG Unit P8000
    * Phillips TC70 Pagewriter - Read every 30 minutes 
    * Welch Allyn Connex Cardio (ActiveX/File) - New software replacement for CardioPerfect, only does EKG, not Spirometry.  Uses an ActiveX control to send demographic information and read the interpretation
@@ -192,6 +195,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Monitor and Defibrillator - [Phillips HeartStart MRx](http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q)
 * Respirator Fit 
    * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file upload
+   * [Quantifit2](https://pm.mieweb.com/issues/113505) [Respirator Fit Testing Interface](https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM)
    * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file uplad
 * Scale
    * Healthometer 349KLX 400 lb scale
@@ -280,6 +284,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Illinois I-Care (bi-directional via sFTP)
 * Indiana Children's Healthcare Immunization Registry Program (CHIRP) bi-directional HL7 via HTTPS
 * Kansas
+* Kentucky (KYIR) - in progress
 * Louisiana thru Scientific Technologies Corp (STC)
 * Maryland MDHD Crisp Immunization or ImmuNet
 * Massachusetts Immunization Information System (MIIS) via HTTPS
@@ -429,7 +434,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 
 * Benchmark ESG (Gensuite)
 * Enablon
-* Origami Risk (in progress)
+* Origami Risk
 * SciShield (formerly BioRAFT)
 * Velocity EHS
 * Workplace Integra (Hearing Conservation Management)
