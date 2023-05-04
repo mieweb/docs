@@ -7,7 +7,7 @@ lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-wikigdrive: 'd3e22db37cfdd4a4e5d0d1fe46fc320e82e79136'
+wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
 menu:
   main:
     name: 'Injury Care'
@@ -23,7 +23,7 @@ menu:
 {{% system-name %}} can be used for treating, documenting, managing, *and* reporting injuries and illnesses, which can be initiated from a visit to the clinic, or in advance, via an employee portal. This allows incidents to be reported anytime, day or night. And regardless of how the information is captured, {{% system-name %}} can compile the recorded data into form overlays, minimizing the need for redundant data entry, while also easing reporting burdens. Overall, {{% system-name %}} not only incorporates streamlined processes for recording and treating injuries and illnesses, it also provides tools for easy tracking and follow-up through the use of its integrated worklists and tasking module.
 
   
-<object type="image/svg+xml" data="../diagrams/injury-care.svg" />  
+<object type="image/svg+xml" data="../diagrams/injury-care.svg" ></object>  
 
 
   

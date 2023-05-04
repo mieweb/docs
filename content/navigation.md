@@ -317,7 +317,7 @@ links:
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-15-psh-care-coordination.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-16-primary-care-physician-and-behavioral-health-bilateral-electronic-exchange-of-information-for-shared-patients.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-17-patient-navigator-program.md'
-  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-1-provide-24-7-access-to-mips-eligible-clinicians-or-groups-who-have-real-time-access-to-patients-medical-record.md'
+  - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-1-provide-24-7-access-to-mips-eligible-clinicians-or-groups-who-have-real-time-access-to-patient-s-medical-record.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-2-use-of-telehealth-services-that-expand-practice-access.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-3-collection-and-use-of-patient-experience-and-satisfaction-data-on-access.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-4-additional-improvements-in-access-as-a-result-of-qin-qio-ta.md'
@@ -390,7 +390,7 @@ links:
   - 'functions/quality-of-care/measures/quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-117-childhood-immunization-status.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9percent.md'
+  - 'functions/quality-of-care/measures/quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-124-cervical-cancer-screening.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-125-breast-cancer-screening.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-127-pneumococcal-vaccination-status-for-older-adults.md'
@@ -401,7 +401,7 @@ links:
   - 'functions/quality-of-care/measures/quality-measures-list/cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-139-falls-screening-for-future-fall-risk.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40percent.md'
+  - 'functions/quality-of-care/measures/quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-146-appropriate-testing-for-children-with-pharyngitis.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-147-preventive-care-and-screening-influenza-immunization.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-153-chlamydia-screening-for-women.md'
@@ -686,7 +686,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
+wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
 ---
 * [Programs](programs.md)
    * [Medical Programs](programs/medical-programs.md)
@@ -999,7 +999,7 @@ wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
                * [CC 15 - PSH Care Coordination](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-15-psh-care-coordination.md)
                * [CC 16 - Primary Care Physician and Behavioral Health Bilateral Electronic Exchange of Information for Shared Patients](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-16-primary-care-physician-and-behavioral-health-bilateral-electronic-exchange-of-information-for-shared-patients.md)
                * [CC 17 - Patient Navigator Program](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-17-patient-navigator-program.md)
-               * [EPA 1 - Provide 24/7 Access to MIPS Eligible Clinicians or Groups Who Have Real-Time Access to Patient's Medical Record](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-1-provide-24-7-access-to-mips-eligible-clinicians-or-groups-who-have-real-time-access-to-patients-medical-record.md)
+               * [EPA 1 - Provide 24/7 Access to MIPS Eligible Clinicians or Groups Who Have Real-Time Access to Patient's Medical Record](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-1-provide-24-7-access-to-mips-eligible-clinicians-or-groups-who-have-real-time-access-to-patient-s-medical-record.md)
                * [EPA 2 - Use of Telehealth Services that Expand Practice Access](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-2-use-of-telehealth-services-that-expand-practice-access.md)
                * [EPA 3 - Collection and Use of Patient Experience and Satisfaction Data on Access](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-3-collection-and-use-of-patient-experience-and-satisfaction-data-on-access.md)
                * [EPA 4 - Additional Improvements in Access as a Result of QIN/QIO TA](functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/epa-4-additional-improvements-in-access-as-a-result-of-qin-qio-ta.md)
@@ -1072,7 +1072,7 @@ wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
             * [CMS 75 - Children Who Have Dental Decay or Cavities](functions/quality-of-care/measures/quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md)
             * [CMS 90 - Functional Status Assessments for Congestive Heart Failure](functions/quality-of-care/measures/quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md)
             * [CMS 117 - Childhood Immunization Status](functions/quality-of-care/measures/quality-measures-list/cms-117-childhood-immunization-status.md)
-            * [CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)](functions/quality-of-care/measures/quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9percent.md)
+            * [CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)](functions/quality-of-care/measures/quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md)
             * [CMS 124 - Cervical Cancer Screening](functions/quality-of-care/measures/quality-measures-list/cms-124-cervical-cancer-screening.md)
             * [CMS 125 - Breast Cancer Screening](functions/quality-of-care/measures/quality-measures-list/cms-125-breast-cancer-screening.md)
             * [CMS 127 - Pneumococcal Vaccination Status for Older Adults](functions/quality-of-care/measures/quality-measures-list/cms-127-pneumococcal-vaccination-status-for-older-adults.md)
@@ -1083,7 +1083,7 @@ wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
             * [CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention](functions/quality-of-care/measures/quality-measures-list/cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md)
             * [CMS 139 - Falls: Screening for Future Fall Risk](functions/quality-of-care/measures/quality-measures-list/cms-139-falls-screening-for-future-fall-risk.md)
             * [CMS 144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)](functions/quality-of-care/measures/quality-measures-list/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md)
-            * [CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)](functions/quality-of-care/measures/quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40percent.md)
+            * [CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)](functions/quality-of-care/measures/quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md)
             * [CMS 146 - Appropriate Testing for Children with Pharyngitis](functions/quality-of-care/measures/quality-measures-list/cms-146-appropriate-testing-for-children-with-pharyngitis.md)
             * [CMS 147 - Preventive Care and Screening: Influenza Immunization](functions/quality-of-care/measures/quality-measures-list/cms-147-preventive-care-and-screening-influenza-immunization.md)
             * [CMS 153 - Chlamydia Screening for Women](functions/quality-of-care/measures/quality-measures-list/cms-153-chlamydia-screening-for-women.md)

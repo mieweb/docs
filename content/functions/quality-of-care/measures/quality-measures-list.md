@@ -17,7 +17,7 @@ links:
   - 'quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md'
   - 'quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md'
   - 'quality-measures-list/cms-117-childhood-immunization-status.md'
-  - 'quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9percent.md'
+  - 'quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md'
   - 'quality-measures-list/cms-124-cervical-cancer-screening.md'
   - 'quality-measures-list/cms-125-breast-cancer-screening.md'
   - 'quality-measures-list/cms-127-pneumococcal-vaccination-status-for-older-adults.md'
@@ -35,7 +35,7 @@ links:
   - 'quality-measures-list/cms-142-diabetic-retinopathy-communication-with-the-physician-managing-ongoing-diabetes-care.md'
   - 'quality-measures-list/cms-143-primary-open-angle-glaucoma-poag-optic-nerve-evaluation.md'
   - 'quality-measures-list/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
-  - 'quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40percent.md'
+  - 'quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md'
   - 'quality-measures-list/cms-146-appropriate-testing-for-children-with-pharyngitis.md'
   - 'quality-measures-list/cms-147-preventive-care-and-screening-influenza-immunization.md'
   - 'quality-measures-list/cms-149-dementia-cognitive-assessment.md'
@@ -50,7 +50,7 @@ links:
   - 'quality-measures-list/cms-177-child-and-adolescent-major-depressive-disorder-mdd-suicide-risk-assessment.md'
   - 'quality-measures-list/cms-347-statin-therapy-for-the-prevention-and-treatment-of-cardiovascular-disease.md'
 source: 'https://drive.google.com/open?id=14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-wikigdrive: '2170bf47fa5a6c78b65673f5062de64818a1f71c'
+wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
 menu:
   main:
     name: 'Quality Measures List'
@@ -69,7 +69,7 @@ menu:
 [CMS75 - Children Who Have Dental Decay or Cavities](quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md)  
 [CMS90 - Functional Status Assessments for Heart Failure](quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md)  
 [CMS117 - Childhood Immunization Status](quality-measures-list/cms-117-childhood-immunization-status.md)  
-[CMS122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (> 9%)](quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9percent.md)  
+[CMS122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (> 9%)](quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md)  
 [CMS124 - Cervical Cancer Screening](quality-measures-list/cms-124-cervical-cancer-screening.md)  
 [CMS125 - Breast Cancer Screening](quality-measures-list/cms-125-breast-cancer-screening.md)  
 [CMS127 - Pneumococcal Vaccination Status for Older Adults](quality-measures-list/cms-127-pneumococcal-vaccination-status-for-older-adults.md)  
@@ -87,7 +87,7 @@ menu:
 [CMS142 - Diabetic Retinopathy: Communication with the Physician Managing Ongoing Diabetes Care](quality-measures-list/cms-142-diabetic-retinopathy-communication-with-the-physician-managing-ongoing-diabetes-care.md)  
 [CMS143 - Primary Open-Angle Glaucoma (POAG): Optic Nerve Evaluation](quality-measures-list/cms-143-primary-open-angle-glaucoma-poag-optic-nerve-evaluation.md)  
 [CMS144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)](quality-measures-list/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md)  
-[CMS145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF less than 40%)](quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40percent.md)  
+[CMS145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF less than 40%)](quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md)  
 [CMS146 - Appropriate Testing for Pharyngitis](quality-measures-list/cms-146-appropriate-testing-for-children-with-pharyngitis.md)  
 [CMS147 - Preventive Care and Screening: Influenza Immunization](quality-measures-list/cms-147-preventive-care-and-screening-influenza-immunization.md)  
 [CMS149 - Dementia: Cognitive Assessment](quality-measures-list/cms-149-dementia-cognitive-assessment.md)  

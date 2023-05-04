@@ -11,7 +11,7 @@ links:
   - 'functions.md'
   - 'rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
-wikigdrive: 'd3e22db37cfdd4a4e5d0d1fe46fc320e82e79136'
+wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
 ---
 Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
   
@@ -30,7 +30,7 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 {{% system-name %}} offers various solutions for Enterprise Management of Health and Wellness. Check out our clinical and corporate solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
   
-<object type="image/svg+xml" data="diagrams/eh-positioning.svg" />  
+<object type="image/svg+xml" data="diagrams/eh-positioning.svg" ></object>  
 
 
 {{% /only %}}
