@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10'
 source: 'https://drive.google.com/open?id=14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'CMS 127 - Pneumococcal Vaccination Status for Older Adults'

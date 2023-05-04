@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization'
 source: 'https://drive.google.com/open?id=15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'ADFS 3.0 Configuration for SSO'

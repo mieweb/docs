@@ -6,7 +6,7 @@ version: 44
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Device Interface - EKG System'

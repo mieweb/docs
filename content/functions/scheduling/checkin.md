@@ -16,7 +16,7 @@ links:
   - 'https://system/?f=chart&s=checkin&t=station_manager&opp=add'
   - '../reports/checkin-reports.md'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Checkin'

@@ -12,7 +12,7 @@ links:
   - '../document-management/documents-and-forms/document-properties.md'
   - '../document-management/documents-and-forms/delete-move-lock-documents.md'
 source: 'https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Alert Comments'

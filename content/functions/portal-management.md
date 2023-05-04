@@ -15,7 +15,7 @@ links:
   - 'portal-management/employer-employee-second-portal-setup.md'
   - 'portal-management/messages-from-nmc-user.md'
 source: 'https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Portal Management'

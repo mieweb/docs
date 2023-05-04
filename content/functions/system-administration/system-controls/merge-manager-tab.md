@@ -9,7 +9,7 @@ links:
   - '../../document-management/documents-and-forms/document-properties.md'
   - 'merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Merge Manager Tab'

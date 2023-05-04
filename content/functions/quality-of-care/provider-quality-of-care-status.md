@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care'
   - 'https://system/?f=layout&s=pat&module=MIPS&name=Quality+of+Care+Status&t=Quality+of+Care&tabmodule=reports'
 source: 'https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Provider Quality of Care Status'

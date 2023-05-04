@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Security Role Settings'

@@ -7,7 +7,7 @@ lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 ---
 Dynamic encounter landing page example  
 This is a description of the system functionality which is the subject of this landing page.  

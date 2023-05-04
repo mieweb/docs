@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/managing-departments.md'
 source: 'https://drive.google.com/open?id=1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'Access Control - Quick Add Multiple Active Users'

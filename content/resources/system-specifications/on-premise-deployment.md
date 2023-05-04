@@ -20,7 +20,7 @@ links:
   - 'on-premise-deployment/application-managed-service-summary.md'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
   main:
     name: 'On-Premise Deployment'

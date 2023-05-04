@@ -1,8 +1,8 @@
 ---
 id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
 title: '_index'
-date: '2023-03-18T16:53:15.981Z'
-version: 758
+date: '2023-04-30T14:14:19.162Z'
+version: 791
 lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'functions.md'
   - 'rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 ---
 Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
   

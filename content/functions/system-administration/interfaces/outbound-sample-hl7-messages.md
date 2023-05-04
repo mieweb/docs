@@ -10,7 +10,7 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 ---
 # SIU, Scheduling  
   

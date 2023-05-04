@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1jTjf5dzqvReObpzAIGWWv94YQnJVu8EE45xUmPdU-rg'
-wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
+wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 ---
 Removing employees from employer organizations leaves the patient chart in the system but removes the link between the employer organization and the chart.
 1. [Find the employer organization](finding-employer-organizations.md) from which to remove an employee.
