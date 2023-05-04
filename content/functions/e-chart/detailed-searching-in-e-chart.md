@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch'
   - 'https://system/?f=chart&s=pat&s=search&search_method=simple&tabmodule=patsearch'
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
-wikigdrive: 'd3e22db37cfdd4a4e5d0d1fe46fc320e82e79136'
+wikigdrive: 'd8a86bc3f5d9b31e29ff6ae40e33914614d8b9ec'
 menu:
   main:
     name: 'Detailed Searching in E-Chart'
