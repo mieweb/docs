@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-05-03T11:40:34.113Z'
-version: 1909
+date: '2023-05-10T13:18:04.716Z'
+version: 1934
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -45,9 +45,9 @@ links:
   - 'https://www.khinonline.org/Home.aspx'
   - 'https://khie.ky.gov/Pages/index.aspx'
   - 'https://mcir.org/'
+  - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
-  - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
@@ -80,7 +80,6 @@ Please see the list below for a complete listing of all vendors/devices that we 
 
 * Relatient
 * [Televox](https://docs.google.com/spreadsheets/d/1_14Wbq-aCtMDwoq4eZ1twz0NYNVSEIX5tpHgcXKxP44/edit#gid=0)
-
 
   
 ## Billing/Practice Management Interfaces  
@@ -267,9 +266,40 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Michiana Health Information Network (MHIN)
 * Wait Time Information System (WTIS) Level 2 Surgery (OR) Specification Outbound to Canadian Ministry
 * Xerox (State of Wyoming HIE bi-directional and Kentucky uni-directional)
+  
+## **Hospital Systems**  
+
+* Beaumont Hospital (results only)
+* Botsford Hospital (results only)
+* Cameron Hospital (results only)
+* St. Joseph Mercy Hospital Oakland, MI - Lab, Radiology, and Reports/Consults
+* Lutheran Hospital (results only)
+* Memorial Hospital of Sandusky County - (results only) Paragon Labs/SunQuest
+* Parkview Hospital (results only)
+* St. Dominic's Hospital (results only)
+* St. Francis Hospital (results only)
+* Terneuzen Hospital (results only)
+  
+## [HR Systems](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)  
+
+* ADP
+* Concentra HR
+* GDW
+* Kronos
+* Peoplecore
+* Peoplefluent - previously known as PeopleClick
+* Peoplesoft - Oracle GHRIS v9.1
+* SAD
+* SAP
+* SHRM (LLNL)
+* Spillman
+* Stanford Registry
+* Ultipro
+* Workday
+{{% anchor sys="lab_system_interfaces" %}}
 
   
-## **State Immunization Registries**  
+## Immunization Registries  
 
 Our preferred methods of transport are HTTP Post and MLLP (secure socket communication). We can also support (but prefer not to) sFTP, SCP, and FTPs connection for unidirectional messaging.
 * Alabama ImmPrint bi-directional HL7 via HTTPS
@@ -307,38 +337,6 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Wyoming Immunization Registry (WYIIS) bi-directional HL7 via ACS HIE
 * **Most [registries](http://stchome.com/immunization_registry_initiatives.aspx) managed by [STC](http://stchome.com/) will interface with WebChart.
 * **Nationwide Immunization Gateway Initiative with STC
-  
-## **Hospital Systems**  
-
-* Beaumont Hospital (results only)
-* Botsford Hospital (results only)
-* Cameron Hospital (results only)
-* St. Joseph Mercy Hospital Oakland, MI - Lab, Radiology, and Reports/Consults
-* Lutheran Hospital (results only)
-* Memorial Hospital of Sandusky County - (results only) Paragon Labs/SunQuest
-* Parkview Hospital (results only)
-* St. Dominic's Hospital (results only)
-* St. Francis Hospital (results only)
-* Terneuzen Hospital (results only)
-  
-## [**HR Systems**](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)  
-
-* ADP
-* Concentra HR
-* GDW
-* Kronos
-* Peoplecore
-* Peoplefluent - previously known as PeopleClick
-* Peoplesoft - Oracle GHRIS v9.1
-* SAD
-* SAP
-* SHRM (LLNL)
-* Spillman
-* Stanford Registry
-* Ultipro
-* Workday
-{{% anchor sys="lab_system_interfaces" %}}
-
   
 ## Lab System Interfaces  
 
