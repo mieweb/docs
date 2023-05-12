@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-05-10T13:18:04.716Z'
-version: 1934
+date: '2023-05-11T15:20:45.152Z'
+version: 1951
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
