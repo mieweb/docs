@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-05-17T16:15:01.955Z'
-version: 1981
+date: '2023-05-19T11:29:52.716Z'
+version: 1990
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -410,7 +410,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * IdenTrust for EPCS
 * INSPECT
 * InstyMeds
-* PDMP
+* PDMP (Prescription Drug Monitoring Program) Apriss
 * RxNT
 * SureScripts
 * VitalPath (ADT and SIU, Unidirectional: WebChart to VitalPath)
