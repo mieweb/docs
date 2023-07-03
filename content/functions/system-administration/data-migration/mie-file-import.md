@@ -1,9 +1,9 @@
 ---
 id: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
 title: 'MIE File Import'
-date: '2020-03-17T02:05:30.422Z'
-version: 64
-lastAuthor: ''
+date: '2023-04-06T15:39:01.966Z'
+version: 88
+lastAuthor: 'Sam Stuck'
 mimeType: 'text/x-markdown'
 links:
   - 'data-migration-file-format-standard.md'
