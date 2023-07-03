@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-05-19T11:29:52.716Z'
-version: 1990
+date: '2023-07-03T18:40:04.754Z'
+version: 2120
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -97,7 +97,6 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Groupcast
 * Health Nautica
 * Ideal
-
 * Medevolve
 * Medic version 7.10a
 * MediSys
@@ -134,6 +133,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Medgate/Cority
 * MUMPS (home grown Dow system)
 * OHM
+* ReadySet
 * Sentry (home grown Lilly system)
 * Systoc
 * SportsWare
@@ -149,7 +149,6 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
    * [Maico MA800](../../functions/system-administration/interfaces/device-interface-maico-ma800.md) (Serial Uni-directional)
    * Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
    * [OMI Sensormedics ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html) (File Uni-directional)
-   * Shoebox *Not Supported
    * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (Serial Uni-directional)
    * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
    * Xeta Otometrics (no model # on device) (File Uni-directional)
@@ -193,6 +192,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Microcoagulation System - [ITC Hemochron Jr.](http://www.hemochronusersforum.co.uk/microcoagulation.html)
 * Monitor and Defibrillator - [Phillips HeartStart MRx](http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q)
 * Respirator Fit 
+   * Caraflow
    * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file upload
    * [Quantifit2](https://pm.mieweb.com/issues/113505) [Respirator Fit Testing Interface](https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM)
    * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file uplad
@@ -216,6 +216,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Urinalysis
    * OneStep (Serial Uni-directional) - Uses the Java Applet to interface
    * Siemens Clinitek Status (Serial Uni-directional) - Uses the Java Applet to interface
+* Vaccination
+   * Caraflow
 * Vision 
    * Depisteo VT1 (File Bi-directional) - Uses a .ini type file format to send demographic data to the device and then receive the data back PDF of file formats
    * Titmus Honeywell V4 - Can do either file export or a bi-directional interface using MS Access or MS SQL Server
@@ -285,7 +287,9 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * ADP
 * Concentra HR
 * GDW
+* Infor/Lifeworks People
 * Kronos
+* Oracle Core Connect
 * Peoplecore
 * Peoplefluent - previously known as PeopleClick
 * Peoplesoft - Oracle GHRIS v9.1
@@ -307,6 +311,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Arizona thru Scientific Technologies Corp (STC)
 * California CAIR unidirectional (bidirectional is possible, but no clients have requested)
 * Colorado (CDPHE CIIS) Immunization Information System
+* Connecticut
 * Florida Shots (unidirectional nightly FTP to send matching injections)
 * Georgia GRITS uni-directional HL7 via HTTPS
 * Hawaii HIR uni-directional 
@@ -357,7 +362,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Cayuga Lab (Bi-directional)
 * CareEvolve (Bi-Directional) (an ELLKAY company)
 * Central States Lab
-* Cerner
+* Cerner Lab (Bi-directional)
 * CGM LABDAQ
 * Clinical laboratories of HI bi-directional interface (orders and results)
 * Color Lab (Bi-Directional)
@@ -381,6 +386,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Medical Diagnostics Laboratory - A OB-GYN specialty lab (Bi-directional)
 * Meditech Lab Interface (Results only)
 * Med Labs of Arkansas (Bi-directional orders and results-including pathology)
+* Natera Lab (Bi-directional)
 * Orchard Lab
 * Paragon_Atlas Labs (results only)
 * Parkview Hospital Lab/Path-Soft Lab Inbound
@@ -469,6 +475,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 
 * AmTrust
 * Brentwood
+* Corvel
 * Disney CARS (a Disney system)
 * Liberty Mutual
+* PMA (uni-directional)
 * Sedgwick
