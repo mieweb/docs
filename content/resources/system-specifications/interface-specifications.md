@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-07-03T18:40:04.754Z'
-version: 2122
+date: '2023-07-07T14:49:34.080Z'
+version: 2133
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -78,6 +78,7 @@ Please see the list below for a complete listing of all vendors/devices that we 
   
 ## **Appointment Reminder Interfaces**  
 
+* HouseCalls Pro
 * Relatient
 * [Televox](https://docs.google.com/spreadsheets/d/1_14Wbq-aCtMDwoq4eZ1twz0NYNVSEIX5tpHgcXKxP44/edit#gid=0)
 
@@ -256,6 +257,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * [CRISP HIE (State of Maryland)](https://www.crisphealth.org/)
 * [Docs4Docs Regenstrief](https://www.ihie.org/docs4docs/) uni-directional (State of Indiana) from D4D into WebChart
 * GLHC
+* Hawaii Health Information Exchange
 * HealthBridge
 * [HealthLINC](https://healthlincchc.org/)
 * [Indiana Health Information Exchange](https://www.ihie.org/) (IHIE/INPC) uni-directional from WebChart to IHIE
