@@ -1,8 +1,8 @@
 ---
 id: '1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
 title: 'Merge Manager Tab'
-date: '2023-06-21T13:09:41.591Z'
-version: 168
+date: '2023-08-10T16:30:48.583Z'
+version: 176
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -54,12 +54,12 @@ Once you are in the Merge Manager Log tab, it will show the search criteria filt
 ![](../merge-manager-tab.assets/9ce72827cfadcec8cf240c6768066a3b.png)  
 
 * <strong>Merge Status:</strong> Select All, Merged or Un-Merged as the status you wish to show results for. Merged means you are just searching Merge Logs of merged patient accounts. Un-Merged means you are searching Merge Logs for patient accounts that were un-merged by a user. All means your results will show both merged and unmerged logs.
-* <strong>Show Details:</strong> Checkmark this if you wish it to break the details down into line by line details of each specific merge or unmerge in the Merge Log results.
+* <strong>Show Details:</strong> Checkmark this if you wish it to break the details down into line by line details of each specific merge or unmerge in the Merge Log results. 
 * <strong>Show Queries:</strong> Checkmark this if you wish to show the SQL Query column in the Merge Log results. This shows the specific SQL query of the merge or unmerge.
   
 ![](../merge-manager-tab.assets/401443c569f8bff9b0b2948b9fc9fbea.png)  
 
-Click SEARCH button to render your results.  
+Click the SEARCH button to render your results.  
 You will see the various columns (Status, Merged From, Merged, To, Merge Type, Details, Merged By and Merge Date) and specific line details and queries if you check-marked to display those in your search results.  
    
 No results will render below it in the *Patient Merge Log listing* until a search has been rendered using any search criteria fields at the top.  **Note:** clicking the SEARCH button without any search criteria, will display a listing of all charts that have been merged in the system.
