@@ -1,10 +1,12 @@
 ---
 id: '1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
 title: 'OSHA 300 Log Report'
-date: '2020-02-27T20:15:26.983Z'
-version: 84
+date: '2023-08-14T15:23:46.286Z'
+version: 92
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://www.osha.gov/sites/default/files/OSHA-RK-Forms-Package.pdf'
 source: 'https://drive.google.com/open?id=1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
 wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
 menu:
@@ -48,6 +50,8 @@ However, most staff run OSHA 300 Log by incident date range filter. After any se
 
   
 ## Columns of Cases Results in OSHA 300 Log Report  
+  
+Our OSHA 300 Log report form displays data according to the data collected in the case/incident.  Official OSHA explanation of log report & form: [https://www.osha.gov/sites/default/files/OSHA-RK-Forms-Package.pdf](https://www.osha.gov/sites/default/files/OSHA-RK-Forms-Package.pdf) 
 
 * <strong>Case Number:</strong> This displays the specific assigned number to the case/incident.
 * <strong>Name:</strong> This displays the last name,first name of the patient/employee on the OSHA recordable case/incident. If the case/incident were marked as a <em>privacy case</em> in that checkbox field, then the OSHA 300 Log will result the name as <em>Privacy Case</em>.
@@ -87,7 +91,7 @@ However, most staff run OSHA 300 Log by incident date range filter. After any se
   
 ![](../osha-300-log-report.assets/9f85618aa44eb8dcdd7cf7936689f951.png)  
 
-* <strong>Other Recordable Cases:</strong> If the employee had other cases/incidents in their chart record that were OSHA recordable, then this column will display Y (for Yes). If the employee had no other OSHA recordable cases/incidents in their record, then this column will display N (for No). Again, a case/incident is deemed OSHA recordable if the field <em>date determined recordable</em> is populated with a date.
+* <strong>Other Recordable Cases:</strong> OSHA form defines 'other recordable cases' as: "<em>Classify the seriousness of the case by recording the most serious outcome associated with the case, with column G (Death) being the most serious and column J (Other recordable cases) being the least serious</em>." Again, a case/incident is deemed OSHA recordable if the field <em>date determined recordable</em> is populated with a date.
 * <strong>Days Away from Work:</strong> If the employee had any Lost Time documented in the restrictions & accommodations section of the encounter that is linked to the OSHA recordable case, the number of days of Lost Time will be calculated here and displays a total number.
    * If Lost time is documented in the Restrictions & Accommodations section of an encounter that is linked to an OSHA reportable case even for partial day, it counts as a full day in this calculated column.
    * If Lost time is documented in the Restrictions & Accommodations section of an encounter that is linked to an OSHA reportable case, the start day of the lost time counts as a full day.
