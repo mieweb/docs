@@ -1,8 +1,8 @@
 ---
 id: '1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
 title: 'Merge Manager Tab'
-date: '2023-08-10T16:30:48.583Z'
-version: 176
+date: '2023-08-18T15:45:58.845Z'
+version: 183
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -44,7 +44,7 @@ Once you are in the Merge Manager Log tab, it will show the search criteria filt
 **Search criteria fields to help narrow down your search for a specific Patient Merge Log:**
 * <strong>Merged To Chart:</strong> Begin typing the last name of the patient you want to search a merge log for. The system will auto-complete to give you matching patient names to select from.
 * <strong>Merged By User:</strong> Begin typing the last or first name of the  {{% system-name %}} user you want to search for merges done by that specific user. The system will auto-complete to give you matching usernames to select from.
-* <strong>Merge From Chart ID:</strong> This field allows the ability to search for a chart that was merged "From" the old into the new chart.  Chart ID is the pat_id of the original chart, which was merged into a different chart.  You must know the specific old pat_id (chart_id) to key in here to perform a search
+* <strong>Merge From Chart ID:</strong> This field allows the ability to search for a chart that was merged "From" the old into the new chart.  Chart ID is the pat_id of the original chart, which was merged into a different chart.  You must know the specific old pat_id (chart_id) to key in here to perform a search.
   
 ![](../merge-manager-tab.assets/8ee2eb9b6952fd8fd348dd3e4535d60a.png)  
 
