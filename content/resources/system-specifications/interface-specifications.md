@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-08-25T15:36:03.751Z'
-version: 2219
+date: '2023-08-25T16:03:49.498Z'
+version: 2225
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -438,13 +438,13 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
   
 ## Safety Systems  
 
-* Agile-Redshift for IH
+* Agile-Redshift (IH)
 * Benchmark ESG (Gensuite)
 * Enablon
-* Intelex
+* Intelex (Safety and IH) - in progress
 * Origami Risk
 * SciShield (formerly BioRAFT)
-* Sphera (in progress)
+* Sphera - in progress
 * Velocity EHS
 * Workplace Integra (Hearing Conservation Management)
   
