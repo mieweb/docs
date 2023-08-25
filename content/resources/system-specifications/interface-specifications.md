@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-07-07T14:49:34.080Z'
-version: 2133
+date: '2023-08-25T15:36:03.751Z'
+version: 2219
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -64,7 +64,7 @@ menu:
   
 ![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)  
 
-Please see the list below for a complete listing of all vendors/devices that we have integrated with. Any vendor/device not listed would need to be researched for compatibility with our product. Check out our [additional documentation](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md) that explains how to send HL7 messages to us.
+The list below represents a complete listing of all vendors/devices that we have integrated with. Any vendor/device not listed would need to be researched for compatibility with our product. Check out our [additional documentation](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md) that explains how to send HL7 messages to us.
 
   
 ## Standard Interfaces  
@@ -83,7 +83,7 @@ Please see the list below for a complete listing of all vendors/devices that we 
 * [Televox](https://docs.google.com/spreadsheets/d/1_14Wbq-aCtMDwoq4eZ1twz0NYNVSEIX5tpHgcXKxP44/edit#gid=0)
 
   
-## Billing/Practice Management Interfaces  
+## Billing/EMR/Practice Management Interfaces  
   
 MIE supports bidirectional and unidirectional Practice Management systems using ADT (demographics), SIU (scheduling), and DFT (billing) HL7 (2.x) messages. Information about supported connection-types can be found [here](#gjdgxs).
 * [OpenPM](https://drive.google.com/open?id=1egb4flCHJ6rnKMxQjkHBWini36q8XBIc) (bi-directional) (Preferred)
@@ -441,6 +441,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Agile-Redshift for IH
 * Benchmark ESG (Gensuite)
 * Enablon
+* Intelex
 * Origami Risk
 * SciShield (formerly BioRAFT)
 * Sphera (in progress)
