@@ -2,7 +2,7 @@
 id: '1Cqgy5lwUu6jZr8ta02aN69n1uWkM4InqJGdmE7w0JD8'
 title: 'RWT Results 2022 Q2'
 date: '2023-01-24T15:59:24.264Z'
-version: 294
+version: 307
 lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:

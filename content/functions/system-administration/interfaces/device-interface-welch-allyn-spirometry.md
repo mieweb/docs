@@ -2,7 +2,7 @@
 id: '1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0'
 title: 'Device Interface - Welch Allyn Spirometry'
 date: '2020-02-27T20:28:56.204Z'
-version: 35
+version: 37
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0'

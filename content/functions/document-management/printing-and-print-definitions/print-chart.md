@@ -2,7 +2,7 @@
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
 date: '2020-03-09T17:46:39.608Z'
-version: 47
+version: 50
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

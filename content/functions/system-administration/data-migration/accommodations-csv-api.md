@@ -2,7 +2,7 @@
 id: '1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
 title: 'Accommodations CSV API'
 date: '2020-02-27T21:32:16.770Z'
-version: 20
+version: 23
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
 date: '2021-12-29T13:08:55.701Z'
-version: 94
+version: 96
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links:

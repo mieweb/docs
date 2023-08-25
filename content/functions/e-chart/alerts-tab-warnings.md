@@ -2,7 +2,7 @@
 id: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
 title: 'Alerts Tab - Warnings'
 date: '2022-06-10T16:29:02.358Z'
-version: 69
+version: 71
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:

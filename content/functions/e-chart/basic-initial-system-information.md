@@ -2,7 +2,7 @@
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
 date: '2022-09-13T18:09:46.268Z'
-version: 62
+version: 68
 lastAuthor: 'Kelly Volz'
 mimeType: 'text/x-markdown'
 links:

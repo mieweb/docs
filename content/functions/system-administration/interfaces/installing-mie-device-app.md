@@ -2,7 +2,7 @@
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
 date: '2020-02-27T21:06:51.908Z'
-version: 68
+version: 70
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'

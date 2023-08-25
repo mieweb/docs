@@ -2,7 +2,7 @@
 id: '1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY'
 title: 'Device Interface - Maico MA800'
 date: '2020-02-27T21:28:06.013Z'
-version: 22
+version: 24
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

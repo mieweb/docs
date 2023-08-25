@@ -1,8 +1,8 @@
 ---
 id: '1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
 title: 'CCDA, CCD and CCR Compatibility'
-date: '2022-08-17T01:10:54.726Z'
-version: 48
+date: '2023-06-27T17:53:22.221Z'
+version: 55
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:

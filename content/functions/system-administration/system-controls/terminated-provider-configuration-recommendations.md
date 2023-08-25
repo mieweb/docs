@@ -2,7 +2,7 @@
 id: '1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
 title: 'Terminated Provider Configuration Recommendations'
 date: '2022-11-04T18:44:37.211Z'
-version: 189
+version: 230
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:

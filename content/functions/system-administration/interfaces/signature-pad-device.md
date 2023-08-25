@@ -2,7 +2,7 @@
 id: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 title: 'Signature Pad Device'
 date: '2023-03-13T19:56:33.263Z'
-version: 88
+version: 90
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
