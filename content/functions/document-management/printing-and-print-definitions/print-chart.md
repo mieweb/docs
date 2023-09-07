@@ -14,7 +14,7 @@ links:
   - 'https://system/?func=scheduler&s=apttypes'
   - 'https://system/?func=scheduler#Now'
 source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'Print Chart'

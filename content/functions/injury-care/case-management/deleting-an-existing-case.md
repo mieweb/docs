@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'closing-an-existing-case.md'
 source: 'https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'Deleting an Existing Case'

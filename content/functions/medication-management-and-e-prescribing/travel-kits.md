@@ -6,7 +6,7 @@ version: 57
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'Travel Kits'
