@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-08-25T16:03:49.498Z'
-version: 2225
-lastAuthor: 'Bridget Hamm'
+date: '2023-09-12T14:23:59.037Z'
+version: 2269
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -17,10 +17,14 @@ links:
   - '../../functions/system-administration/interfaces/device-interface-amplivox-ca850.md'
   - '../../functions/system-administration/interfaces/device-interface-benson-audiometer.md'
   - 'https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM'
+  - 'https://sps.honeywell.com/us/en/products/safety/hearing-protection/fit-testing/veripro-fit-testing-system'
+  - 'https://pm.mieweb.com/issues/121874'
   - '../../functions/system-administration/interfaces/device-interface-maico-ma800.md'
   - '../../functions/system-administration/interfaces/device-interface-mi-7000.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html'
   - '../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md'
+  - 'https://www.e3diagnostics.com/products/occupational-health---industrial/tremetrics-ra360'
+  - 'https://pm.mieweb.com/issues/118062'
   - 'http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html'
   - '../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md'
@@ -147,10 +151,12 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
       * Export file from WebChart into Benson software and then Benson software exports report to upload to WebChart, requires specific report format that needs to be added to Benson software.  Importing report format requires the PLUS package.  Requires manual downloading of file to Benson for demographic information
    * [Benson 200](../../functions/system-administration/interfaces/device-interface-benson-audiometer.md) Audiometer Device - requires the PLUS package
    * [Everest Audio](https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM) (no model # on device) (File Uni-directional)
+   * [Honeywell VeriPRO Hearing Fit-Testing System](https://sps.honeywell.com/us/en/products/safety/hearing-protection/fit-testing/veripro-fit-testing-system) (Pending [RM#121874](https://pm.mieweb.com/issues/121874))
    * [Maico MA800](../../functions/system-administration/interfaces/device-interface-maico-ma800.md) (Serial Uni-directional)
    * Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
    * [OMI Sensormedics ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html) (File Uni-directional)
    * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (Serial Uni-directional)
+   * [Tremetrics RA360](https://www.e3diagnostics.com/products/occupational-health---industrial/tremetrics-ra360) (Pending) ([RM#118062](https://pm.mieweb.com/issues/118062))
    * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
    * Xeta Otometrics (no model # on device) (File Uni-directional)
 * Barcode Inventory scanner 
