@@ -1,13 +1,13 @@
 ---
 id: '1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
 title: 'Terminated Provider Configuration Recommendations'
-date: '2022-11-04T18:44:37.211Z'
-version: 230
+date: '2023-09-12T15:14:39.994Z'
+version: 267
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
-  - 'https://docs.webchartnow.com/rapid-deployment/review-sessions/review-session-e-sign.html'
+  - '../../e-sign-electronic-signature/e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
 wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 ---
@@ -20,7 +20,7 @@ Per Medical Informatics Engineering, Inc. policy, terminated employee charts, an
    1. If a client has SSO, the SSO will stop the user from being able to log in.
 2. Remove departments at the bottom of the user profile screen (in access control). For example, the prescribers department.
 3. Ensure [SureScripts](https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html) is terminated (uncheck checkboxes in user screen of access control)
-4. Determine who at the client practice will proxy sign any unsigned documents for the terminated provider. If this individual does not currently have [proxy sign](https://docs.webchartnow.com/rapid-deployment/review-sessions/review-session-e-sign.html) rights, temporarily grant proxy sign security access and remove the access once unsigned documents have been esigned.
+4. Determine who at the client practice will proxy sign any unsigned documents for the terminated provider. If this individual does not currently have [proxy sign](../../e-sign-electronic-signature/e-sign-all-pending-tab.md) rights, temporarily grant proxy sign security access and remove the access once unsigned documents have been esigned.
 5. Disable EPCS, if applicable.
 6. Un-Enroll in MIPS, if applicable.
 7. Remove user from any E-sign rules no longer needed.
