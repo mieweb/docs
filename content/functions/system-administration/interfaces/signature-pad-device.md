@@ -1,11 +1,15 @@
 ---
 id: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 title: 'Signature Pad Device'
-date: '2023-03-13T19:56:33.263Z'
-version: 90
-lastAuthor: 'Angie Nichols'
+date: '2023-09-12T20:16:48.458Z'
+version: 123
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://www.sigpluspro.com/sigplus.html'
+  - 'https://www.sigpluspro.com/sigplus-bsb.html'
+  - 'https://www.topazsystems.com/sdks/sigweb.html'
+  - 'https://docs.webchartnow.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/'
 source: 'https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
@@ -15,18 +19,21 @@ menu:
     parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
     weight: 5580
 ---
-The  {{% system-name %}} interoperates with Topaz Signature Pad Devices.  In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and you had to install the Topaz software for the SigPlus device.  
-{{% system-name %}} is signature compatible with a pad device to allow patients to acknowledge a consent or declination (or any other document) by capturing an electronic signature from a pad device. The signature screen displays a brief canned statement and the patient uses the device pen to capture a signature that is uploaded as a specific document type into their chart. This helps eliminate the need for paper printing, pen signature capturing, clipboards, pens, and eliminates the need to scan & index the paper back in as an image into the chart.   
-Your Deployment Consultant or Implementer would configure a sidemenu Signature tab that interoperates with a Topaz signature pad device.  The {{% system-name %}} Signature module points to a specific layout where radio button consent or declination choices are programmed, as well as each applicable canned statement. The canned statement verbiage only holds so many characters and after they sign using the Topaz signature device, the canned statement with electronic signature auto-stores as a document in the patient's chart.   
-Paper consent forms can still be used and scanned into the patient chart with a patient's hand-signature as well as the on screen touch forms that *{{% system-name %}}* offers.
+{{% system-name %}} interoperates with Topaz Signature Pad Devices.  In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and installed using the Topaz software, [SigPlus](https://www.sigpluspro.com/sigplus.html) or [SigPlus BSB](https://www.sigpluspro.com/sigplus-bsb.html) and [SigWeb](https://www.topazsystems.com/sdks/sigweb.html).
+
+The signature pad device allows patients to acknowledge a consent or declination (or any other document) by capturing an electronic signature on the pad device. The signature screen displays a brief canned statement and the patient uses the device pen to capture a signature. Once the signature is captured, it is uploaded as a specific document type into their chart. This helps eliminate the need for paper printing, clipboards, pens, and the need to scan & index the paper back into the chart. 
+
+Your Deployment Consultant or Implementer will help configure a sidemenu Signature tab that interoperates with a Topaz signature pad device.  The {{% system-name %}} Signature module points to a specific layout where radio button consent or declination choices are programmed, as well as each applicable canned statement. The canned statement verbiage is limited to a specific number of characters, depending on the Topaz device model.  After the signature is captured using the Topaz signature device, the canned statement along with electronic signature auto-stores as a document in the patient's chart. 
+
+Paper consent forms can still be used and scanned into the patient chart with a patient's hand-signature, as well as the on screen touch form options.
 
 The example below shows the signature program utilized in an Immunization Consent form. 
   
 ![](../signature-pad-device.assets/a5c60a8a1634c8473132665402b9f8fe.png)  
 
 
-The Signature module opens and you enter in the patient's name that needs to sign the acknowledgement. Then the clinician would select the specific radio button consent or declination that is needing to be captured by the patient.  A predefined canned statement, based on which radio button option that was selected, appears both on the signature pad device and on the {{% system-name %}} screen. It is ready for the patient to sign.
-Click the START SIGNATURE button on the {{% system-name %}} screen, and that sends the canned statement to the Topaz signature device screen.
+When the Signature module is opened, the clinician/administrative user may search for the individuals' chart that needs to sign the acknowledgement. Then, select the specific radio button consent or declination for which the electronic signature is needed.  The predefined canned statement, based on which radio button option that was selected, appears on the {{% system-name %}} screen. Click the START SIGNATURE button on the {{% system-name %}} screen, to send the canned statement to the Topaz signature device screen. It is ready for the patient to sign.
+
   
 ![](../signature-pad-device.assets/e138e7a64dec9093565350b916aeaa86.png)  
 
@@ -40,8 +47,8 @@ The patient would use the electronic device to pen their signature on the pad us
   
 ![](../signature-pad-device.assets/12bc33dfd5c4721e6326cbdfc860d6b6.png)  
 
-When the patient is done signing, they will click the OK button on the device pad.
-The signature is captured and considered complete.  If the patient forgot to do this, the clinician can click the *Save Signature* button on the {{% system-name %}} screen to save/upload it.
+When the patient is done signing, they will click the OK button on the device pad.  
+The signature is captured and considered complete.  If the patient forgot to do this, the clinician or administrative user can click the *Save Signature* button on the {{% system-name %}} screen to save/upload it.
   
 ![](../signature-pad-device.assets/3658b26c92ab409305e4afcab63421ea.png)  
 
@@ -58,4 +65,4 @@ Once the patient clicked OK after signing, or the clinician clicked *Save Signat
 The document is saved using document type ESIG. ![](../signature-pad-device.assets/abe990adfbc706dc1e0dff6ec786952d.png)  
 
 
-Signature pad devices can also be used in conjunction with the mass immunization record tab. See other help documentation named *Mass Immunization Record Tab.pdf*
+Signature pad devices can also be used in conjunction with the mass immunization record tab. See additional information regarding the [Mass Injection module](https://docs.webchartnow.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/).
