@@ -1,8 +1,8 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2023-09-20T14:35:35.403Z'
-version: 157
+date: '2023-09-29T16:21:25.719Z'
+version: 161
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -49,7 +49,8 @@ Once the drivers have been downloaded and installed, users will need to set up a
    5. SSL Key
    6. SSL Cert
    7. SSL CA
-   8. SSL Cipher
+   8. SSL Cipher 
+
 
   
 ![](../odbc-install-and-configuration.assets/656f758b59bf8a742b7b69957828a0c9.png)  
