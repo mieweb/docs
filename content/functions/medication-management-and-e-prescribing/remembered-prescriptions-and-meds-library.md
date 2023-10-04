@@ -13,7 +13,7 @@ menu:
     name: 'Remembered Prescriptions & Meds Library'
     identifier: '1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2240
+    weight: 2080
 ---
 ## Create Remembered Prescription from Quick Prescribe  
   

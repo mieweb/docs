@@ -18,7 +18,7 @@ menu:
     name: 'CMS 146 - Appropriate Testing for Children with Pharyngitis'
     identifier: '1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3990
+    weight: 3980
 ---
 ## Overview  
   

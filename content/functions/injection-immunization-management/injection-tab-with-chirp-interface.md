@@ -14,7 +14,7 @@ menu:
     name: 'Injection Tab with CHIRP Interface'
     identifier: '1cVM6kOokD8qoZ7i7IdJY4lVB2RIXhgOoDG1fNBPY5kQ'
     parent: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
-    weight: 2310
+    weight: 2150
 ---
 ## View Injections/Immunizations Record  
   

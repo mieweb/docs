@@ -13,7 +13,7 @@ menu:
     name: 'E-Orders - Add Order Requests'
     identifier: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-    weight: 1910
+    weight: 1750
 ---
 You can create orders for a patient outside of being in an *encounter exam*.  
 Click *E-Chart* on the left sidebar menu.  

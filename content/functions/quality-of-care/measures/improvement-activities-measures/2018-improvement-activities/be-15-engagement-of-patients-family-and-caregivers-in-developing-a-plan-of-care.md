@@ -16,7 +16,7 @@ menu:
     name: 'BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care'
     identifier: '1kCuPtPP5z_mmvgci5LjvEWVraB0MhtL5InFLxqanX1k'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2790
+    weight: 2780
 ---
 
 

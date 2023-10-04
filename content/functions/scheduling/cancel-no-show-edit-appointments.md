@@ -13,7 +13,7 @@ menu:
     name: 'Cancel/No-Show/Edit Appointments'
     identifier: '1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1130
+    weight: 970
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

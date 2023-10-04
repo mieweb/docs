@@ -14,7 +14,7 @@ menu:
     name: 'CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention'
     identifier: '1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3950
+    weight: 3940
 ---
 ## Overview  
   

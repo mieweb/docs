@@ -1,9 +1,9 @@
 ---
 id: '1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
 title: 'Real World Testing Plan 2023'
-date: '2023-01-17T02:31:30.688Z'
-version: 853
-lastAuthor: 'Will Reiske (MIE)'
+date: '2023-04-26T15:38:11.049Z'
+version: 933
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -29,11 +29,12 @@ links:
   - 'https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf'
   - 'https://www.w3.org/WAI/WCAG2-Conformance#level-AA'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
+  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
 source: 'https://drive.google.com/open?id=1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 ---
 ## General Information  
 
@@ -1313,7 +1314,7 @@ This measure will verify that a patient can view various document types within t
 <td><strong>Requirement(s)</strong></td>
 </tr>
 <tr>
-<td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
+<td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
 <td>(e)(1)(i)(A)(1),(2),(3),(4),(5)</td>
 </tr>
 <tr>
@@ -1361,7 +1362,7 @@ This measure will verify that a patient can download various document types with
 <td><strong>Requirement(s)</strong></td>
 </tr>
 <tr>
-<td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
+<td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
 <td>(e)(1)(i)(B)(1), (2), (3)</td>
 </tr>
 <tr>
@@ -1411,7 +1412,7 @@ This measure will verify that a patient can transmit various document types with
 <td><strong>Requirement(s)</strong></td>
 </tr>
 <tr>
-<td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
+<td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
 <td>(e)(1)(i)(C)(1), (2)</td>
 </tr>
 <tr>

@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2022-08-30T20:43:59.305Z'
-version: 46
-lastAuthor: 'Will Reiske (MIE)'
+date: '2023-07-17T14:16:32.455Z'
+version: 61
+lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
@@ -21,7 +21,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'Application Programming Interface (API)'
@@ -100,6 +100,13 @@ Overall, this document is intended to comply with the established criteria laid 
 </tr>
 <tr>
 <td>§ 170.315(g)(9)</td>
+<td>Application Access – All Data Request</td>
+<td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf">(g)(9) Guide</a>
+<a href="https://www.healthit.gov/sites/default/2015Ed_CCG_CCDS.pdf">CCDS Guide</a></td>
+<td><a href="https://www.healthit.gov/sites/default/files/170_315g9_application_access_all_data_request_v1_1_1.pdf">Test Procedure (PDF - 236 KB)</a></td>
+</tr>
+<tr>
+<td>§ 170.315(g)(10)</td>
 <td>Application Access – All Data Request</td>
 <td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf">(g)(9) Guide</a>
 <a href="https://www.healthit.gov/sites/default/2015Ed_CCG_CCDS.pdf">CCDS Guide</a></td>

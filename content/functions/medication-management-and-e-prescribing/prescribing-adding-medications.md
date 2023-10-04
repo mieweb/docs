@@ -2,7 +2,7 @@
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
 date: '2022-08-29T16:21:31.714Z'
-version: 131
+version: 133
 lastAuthor: 'Emily McComb'
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ menu:
     name: 'Prescribing/Adding Medications'
     identifier: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2050
+    weight: 1890
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view.  

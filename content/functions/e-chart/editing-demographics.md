@@ -15,7 +15,7 @@ menu:
     name: 'Editing Demographics'
     identifier: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 1040
+    weight: 340
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.    
 {{% note %}}

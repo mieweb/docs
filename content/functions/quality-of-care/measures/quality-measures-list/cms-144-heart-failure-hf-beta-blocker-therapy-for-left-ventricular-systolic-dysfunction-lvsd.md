@@ -17,7 +17,7 @@ menu:
     name: 'CMS 144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
     identifier: '1mjaSrGAH3j_mNUIhsJT4neLhoquPAcUP2VKpHrCaKUI'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3970
+    weight: 3960
 ---
 ## Overview  
   

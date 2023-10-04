@@ -12,7 +12,7 @@ menu:
     name: 'Health Surveillance Panels - Add Memberships Manually'
     identifier: '1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-    weight: 1800
+    weight: 1640
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance).
   

@@ -16,7 +16,7 @@ menu:
     name: 'PM 7 - Use of QCDR for Feedback Reports that Incorporate Population Health'
     identifier: '1JSTN57RI8EpjMP8v4tYg3rLUPQnpk5CYSY6HP-4ILEg'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3270
+    weight: 3260
 ---
 
 

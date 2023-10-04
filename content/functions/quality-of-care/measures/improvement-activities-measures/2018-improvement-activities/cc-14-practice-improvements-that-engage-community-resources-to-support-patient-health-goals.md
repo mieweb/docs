@@ -16,7 +16,7 @@ menu:
     name: 'CC 14 - Practice Improvements that Engage Community Resources to Support Patient Health Goals'
     identifier: '1Hxs7f9GCBtt0Cj_mH5Nf8L5_QLnE0W8a-Or2Tfg8TQs'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3100
+    weight: 3090
 ---
 
 

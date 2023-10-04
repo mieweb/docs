@@ -13,7 +13,7 @@ menu:
     name: 'How to Adjust Voice Recording Volume'
     identifier: '1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1330
+    weight: 1170
 ---
 1. From the desktop of your computer, click START from the bottom left corner. Depending on what style you are displaying the start menu (classic or start view), you may then need to go to SETTINGS, then to CONTROL PANEL. Otherwise, click START and click CONTROL PANEL.
 

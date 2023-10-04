@@ -1,9 +1,9 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2023-01-17T12:07:15.001Z'
-version: 303
-lastAuthor: 'Bridget Hamm'
+date: '2023-06-07T16:54:48.490Z'
+version: 330
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.identrust.com/igc/mie/'
@@ -12,15 +12,14 @@ links:
   - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'IdenTrust Certificate Registration Step-by-Step'
     identifier: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
     parent: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
-    weight: 2020
+    weight: 1860
 ---
-
 
 
 
@@ -30,9 +29,9 @@ menu:
 
 
 
-Physicians who wish to electronically prescribe controlled medications must employ two-factor authentication as required by the DEA. Medical Informatics Engineering (MIE) works with IdenTrust to provide the required level of identity proofing needed for Electronic Prescribing for Controlled Substances (EPCS). IdenTrust will issue digital certificate tokens that can be used to digitally sign and electronically transmit prescriptions for controlled substances. By providing required information to IdenTrust, physicians can complete identity proofing and establish two-factor authentication for two years. Physicians will receive a USB device that will generate a digital signature.
+Providers who wish to electronically prescribe controlled medications must employ two-factor authentication as required by the DEA. Medical Informatics Engineering (MIE) works with IdenTrust to provide the required level of identity proofing needed for Electronic Prescribing for Controlled Substances (EPCS). IdenTrust will issue digital certificate tokens that can be used to digitally sign and electronically transmit prescriptions for controlled substances. By providing required information to IdenTrust, providers can complete identity proofing and establish two-factor authentication for two years. Providers will receive a USB device that will generate a digital signature.
 
-To obtain a USB Token, physicians must register with IdenTrust, and verify their identity. Only the subscriber of the certificate shall use the token. The digital certificate is solely that of the registering prescriber and should be treated as a form of identification, similar to a passport or driver's license.
+To obtain a USB Token, providers must register with IdenTrust, and verify their identity. Only the subscriber of the certificate shall use the token. The digital certificate is solely that of the registering prescriber and should be treated as a form of identification, similar to a passport or driver's license.
 
 THE APPLICATION AND IDENTITY VERIFICATION PROCESS MUST BE COMPLETED AND SUBMITTED BY THE REGISTRANT AND SUBSCRIBER OF THE CERTIFICATE. THIS CANNOT BE COMPLETED BY PROXY, OR BY ANY OTHER INDIVIDUAL ON BEHALF OF THE PRESCRIBER. FAILURE TO COMPLY COULD RESULT IN REVOCATION OR SUSPENSION OF THE DIGITAL CERTIFICATE.
 

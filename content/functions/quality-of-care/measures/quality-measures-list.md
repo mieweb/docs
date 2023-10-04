@@ -56,7 +56,7 @@ menu:
     name: 'Quality Measures List'
     identifier: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
     parent: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-    weight: 3780
+    weight: 3770
 ---
 [CMS2 - Preventive Care and Screening: Screening for Depression and Follow-Up Plan](quality-measures-list/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.md)  
 [CMS22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-Up Documented](quality-measures-list/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md)  

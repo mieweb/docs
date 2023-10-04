@@ -12,7 +12,7 @@ menu:
     name: 'Work Locations Tab - Work Regions'
     identifier: '15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc'
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-    weight: 260
+    weight: 2410
 ---
 Panels can be assigned to work regions to limit the selection for what is appropriate for that region.  Panels displayed in the panel membership page for selection are based on work region and filters out panels not tied to the employee's work region.  
 The system setting *Use Work Regions* must be enabled if want to utilize work regions for health surveillance panels.

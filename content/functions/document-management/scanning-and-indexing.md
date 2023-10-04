@@ -12,7 +12,7 @@ menu:
     name: 'Scanning & Indexing'
     identifier: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
     parent: '1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-    weight: 640
+    weight: 700
 ---
 
 

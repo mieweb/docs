@@ -16,7 +16,7 @@ menu:
     name: 'CC 16 - Primary Care Physician and Behavioral Health Bilateral Electronic Exchange of Information for Shared Patients'
     identifier: '1LxXLwfac3ELRgwonRjyOhJuNjEQbyH0WkicGnYvwi28'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3120
+    weight: 3110
 ---
 
 

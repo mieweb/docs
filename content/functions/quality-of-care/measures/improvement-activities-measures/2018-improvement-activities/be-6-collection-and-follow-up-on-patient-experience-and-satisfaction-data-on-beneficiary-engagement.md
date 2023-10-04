@@ -16,7 +16,7 @@ menu:
     name: 'BE 6 - Collection and Follow-up on Patient Experience and Satisfaction Data on Beneficiary Engagement'
     identifier: '1f6W6oJeJeuzCDBTWnQWvfLvFLhW1Navp8kDuWabKWrM'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2700
+    weight: 2690
 ---
 
 

@@ -13,7 +13,7 @@ menu:
     name: 'PACS SpeechMike Driver Utility Setup'
     identifier: '1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1410
+    weight: 1250
 ---
 To begin, install and run the Philips Device Control Center application
   

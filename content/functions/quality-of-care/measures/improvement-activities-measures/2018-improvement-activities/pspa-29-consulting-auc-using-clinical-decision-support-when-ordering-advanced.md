@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 29 - Consulting AUC Using Clinical Decision Support when Ordering Advanced'
     identifier: '1lh9WJDKO6n_jofjt1b7NA8ALMcYEEr7LVi7J_S9gdss'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3680
+    weight: 3670
 ---
 
 

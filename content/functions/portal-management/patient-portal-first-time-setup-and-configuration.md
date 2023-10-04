@@ -2,7 +2,7 @@
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
 date: '2023-02-03T12:39:14.599Z'
-version: 487
+version: 504
 lastAuthor: 'tmitchell'
 mimeType: 'text/x-markdown'
 links:
@@ -15,7 +15,7 @@ menu:
     name: 'Patient Portal Setup'
     identifier: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
     parent: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-    weight: 1280
+    weight: 1120
 ---
   
 With the **Patient Portal**, sometimes used and referred to as an **Employee Portal**, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!

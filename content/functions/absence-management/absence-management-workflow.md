@@ -1,14 +1,14 @@
 ---
 id: '1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
 title: 'Absence Management Workflow'
-date: '2022-12-02T18:09:39.861Z'
-version: 166
-lastAuthor: 'Doug Horner'
+date: '2023-07-12T15:51:00.392Z'
+version: 261
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../injury-care/adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information.  All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -40,7 +40,8 @@ Some workflows use various documents or various encounters and may need to be li
 By default, the Case section of encounters will display the following case types:
 * Injury (OSHA Standard) 
 * Injury (Non-OSHA Standard) 
-* Hospital, Absence Management 
+* Hospital
+* Absence Management 
 * Medical Suitability for Expatriate Assignment (MSEA)
 * Medical Surveillance
 

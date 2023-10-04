@@ -12,7 +12,7 @@ menu:
     name: 'Dictation and Transcription'
     identifier: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1300
+    weight: 1140
 ---
 
 

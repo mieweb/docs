@@ -17,7 +17,7 @@ menu:
     name: 'CMS 50 - Closing the Referral Loop: Receipt of Specialist Report'
     identifier: '1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3810
+    weight: 3800
 ---
 ## Overview  
   

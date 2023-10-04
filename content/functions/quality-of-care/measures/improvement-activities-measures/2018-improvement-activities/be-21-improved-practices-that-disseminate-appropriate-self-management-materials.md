@@ -16,7 +16,7 @@ menu:
     name: 'BE 21 - Improved Practices that Disseminate Appropriate Self-Management Materials'
     identifier: '1ap8_kNFUzArgcno2mwgQBJ2R1CeCAaM3Lf5rbRgdrko'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2850
+    weight: 2840
 ---
 
 

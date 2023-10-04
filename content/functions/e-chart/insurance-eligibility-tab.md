@@ -13,7 +13,7 @@ menu:
     name: 'Insurance Eligibility Tab'
     identifier: '1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 1050
+    weight: 350
 ---
 {{% system-name %}} can interface with RealMed insurance eligibility to provide real-time insurance eligibility information on a patient chart. Contact your MIE Implementer to inquire about this optional feature and setup.  
 From the **Insurance Eligibility** chart tab, the **Insurance Eligibility Request** screen will display. Users must have the *Patient Insurance Policies* security permission set to at least View, in order to run the individual eligibility inquiries.

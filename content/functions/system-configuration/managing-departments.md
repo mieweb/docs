@@ -12,7 +12,7 @@ menu:
     name: 'Managing Departments'
     identifier: '1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-    weight: 270
+    weight: 2420
 ---
 ## View Departments  
   

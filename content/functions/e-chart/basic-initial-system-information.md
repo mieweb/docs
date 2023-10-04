@@ -2,7 +2,7 @@
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
 date: '2022-09-13T18:09:46.268Z'
-version: 68
+version: 70
 lastAuthor: 'Kelly Volz'
 mimeType: 'text/x-markdown'
 links:
@@ -19,7 +19,7 @@ menu:
     name: 'Basic Initial System Information'
     identifier: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 890
+    weight: 190
 ---
 ## **Patient/Employee/Chart Simple Search Screen**  
 

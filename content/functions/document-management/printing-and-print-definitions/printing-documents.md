@@ -14,7 +14,7 @@ menu:
     name: 'Printing Documents'
     identifier: '1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
     parent: '1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY'
-    weight: 740
+    weight: 800
 ---
 Printing documents from the {{% system-name %}} system is a simple process. The intent of this help documentation is to go over the steps for printing individual documents and full-size scanned documents, as well as some additional details, as they relate to the printing processes.
   

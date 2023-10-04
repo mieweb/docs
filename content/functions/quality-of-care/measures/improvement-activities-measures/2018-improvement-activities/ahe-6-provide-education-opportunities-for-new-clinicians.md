@@ -16,7 +16,7 @@ menu:
     name: 'AHE 6 - Provide Education Opportunities for New Clinicians'
     identifier: '1SK7EKbmFSxhVveIiR-xLxJ17bRs31KIc0LbV-_yS2Ps'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2640
+    weight: 2630
 ---
 
 

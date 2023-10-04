@@ -18,7 +18,7 @@ menu:
     name: 'Electronic Prescribing for Controlled Substances (EPCS)'
     identifier: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2010
+    weight: 1850
 ---
   
 The {{% system-name %}} system is not only certified for electronic prescribing, it reduces even more interruptions in the way of allowing electronic prescribing for controlled substances (EPCS). Here, users will find the EPCS User Guide, which consists of step-by-step instructions on the IdentTrust Certification Registration process, as well as the EPCS Setup in {{% system-name %}} .  

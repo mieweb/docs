@@ -12,7 +12,7 @@ menu:
     name: 'Task Management'
     identifier: '1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 2340
+    weight: 2180
 ---
 
 

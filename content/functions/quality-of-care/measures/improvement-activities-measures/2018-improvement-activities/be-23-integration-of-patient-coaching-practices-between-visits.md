@@ -16,7 +16,7 @@ menu:
     name: 'BE 23 - Integration of Patient Coaching Practices Between Visits'
     identifier: '1IePmbl3rEB2qp-rlPnXq-zmujVpGMrAYI0oqE2H1MA4'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2870
+    weight: 2860
 ---
 
 

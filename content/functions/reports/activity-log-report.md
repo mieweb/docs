@@ -12,7 +12,7 @@ menu:
     name: 'Activity Log Report'
     identifier: '1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4080
+    weight: 4070
 ---
 Must have security permission to access the Activity Log in the Control tab.
   

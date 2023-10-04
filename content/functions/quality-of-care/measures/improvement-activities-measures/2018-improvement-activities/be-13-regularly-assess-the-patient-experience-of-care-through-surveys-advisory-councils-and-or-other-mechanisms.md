@@ -16,7 +16,7 @@ menu:
     name: 'BE 13 - Regularly Assess the Patient Experience of Care Through Surveys, Advisory Councils and/or Other Mechanisms'
     identifier: '1aEmMuVrPrxuKsaa88K3LktMRLcN8lqNS19Z8gR5SXzA'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2770
+    weight: 2760
 ---
 
 

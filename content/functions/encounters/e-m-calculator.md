@@ -13,7 +13,7 @@ menu:
     name: 'E/M Calculator'
     identifier: '1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1530
+    weight: 1370
 ---
 An encounter can have a section named Billing. This can include items like Time Factor, Charge Capture and also an EM Calculator (Evaluation & Management Codes).
   

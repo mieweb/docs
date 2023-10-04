@@ -13,7 +13,7 @@ menu:
     name: 'Chart Types Editor'
     identifier: '1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE'
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-    weight: 190
+    weight: 2340
 ---
 ## Overview  
   

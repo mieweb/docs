@@ -12,7 +12,7 @@ menu:
     name: 'Edit/Change Medications'
     identifier: '1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2060
+    weight: 1900
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view.  

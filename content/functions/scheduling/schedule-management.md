@@ -13,7 +13,7 @@ menu:
     name: 'Schedule Management'
     identifier: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1100
+    weight: 940
 ---
 ## Overview  
   

@@ -12,6 +12,6 @@ menu:
     name: '2018 Improvement Activities'
     identifier: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
     parent: '1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-    weight: 2580
+    weight: 2570
 ---
 {{% children %}}

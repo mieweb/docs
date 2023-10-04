@@ -15,7 +15,7 @@ menu:
     name: 'Provider Quality of Care Status'
     identifier: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
     parent: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-    weight: 2510
+    weight: 2500
 ---
 Often, it is necessary to review compliance data and ensure participants are aligned with quarterly benchmarks and overall outcomes. The Provider Quality of Care Status report allows administrators to review individual, or all, participants, enrolled measures and their details, initial populations, numerators and denominators, etc.    
 To begin reviewing your compliance data, perform the following:

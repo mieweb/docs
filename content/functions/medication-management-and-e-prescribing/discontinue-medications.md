@@ -12,7 +12,7 @@ menu:
     name: 'Discontinue Medications'
     identifier: '1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2200
+    weight: 2040
 ---
 ## Discontinue Medications, Individually  
   

@@ -13,7 +13,7 @@ menu:
     name: 'Sidemenu Thumbtack Feature'
     identifier: '1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 930
+    weight: 230
 ---
 On the left sidemenu, at the very bottom, is a small thumbtack icon.
   

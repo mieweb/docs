@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 31 - Patient Medication Risk Education'
     identifier: '1QPm-3oew_1L-aVTYue5l3m5S0-OZ2j-X4CtkhCejJT0'
     parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3760
+    weight: 3750
 ---
 
 

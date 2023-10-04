@@ -16,7 +16,7 @@ menu:
     name: 'BE 11 - Participation in a QCDR, that Promotes Use of Processes and Tools that Engage Patients for Adherence to Treatment Plan'
     identifier: '1h2TG1rZF9XrNxl4KcK_A7Q3dLSAHFRo5U4CqAthQsPE'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2750
+    weight: 2740
 ---
 
 

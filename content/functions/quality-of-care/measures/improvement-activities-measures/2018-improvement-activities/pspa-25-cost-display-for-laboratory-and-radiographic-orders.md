@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 25 - Cost Display for Laboratory and Radiographic Orders'
     identifier: '1cg9Con7c6Txy197OHZovd_qaRS6c8JaNDRbV6R3-UFU'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3640
+    weight: 3630
 ---
 
 

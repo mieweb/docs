@@ -15,7 +15,7 @@ menu:
     name: 'Sketch Documents'
     identifier: '1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 450
+    weight: 510
 ---
 The  {{% system-name %}} system is designed to allow sketches to be uploaded as documents into charts, as needed. A user can sketch on a blank background or over a templated background image, and then immediately upload the image to the chart. This is particularly useful when documenting an area of an injury and a visual representation provides added context to the documentation.
   

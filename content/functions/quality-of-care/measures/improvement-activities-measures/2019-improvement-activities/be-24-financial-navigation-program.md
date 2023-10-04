@@ -16,7 +16,7 @@ menu:
     name: 'BE 24 - Financial Navigation Program'
     identifier: '1IpJ9DhjK1gavyMQoV7q-_KPlfcAiUMr-dWbb50jFqdI'
     parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3720
+    weight: 3710
 ---
 
 

@@ -17,7 +17,7 @@ menu:
     name: 'Encounters'
     identifier: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 1290
+    weight: 1130
 ---
 The {{% system-name %}} system creates customized, programmable encounter forms, with important demographic and clinical data presenting to the clinician at the point-of-care, facilitating more comprehensive encounter documentation. With the {{% system-name %}} Dynamic Encounter, data is easily captured at the time of the visit, allowing clinical staff and providers to streamline all necessary clinic operations.
   

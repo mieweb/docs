@@ -12,7 +12,7 @@ menu:
     name: 'Allergies and Intolerances'
     identifier: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2160
+    weight: 2000
 ---
 ## Viewing an Allergy or Intolerance  
   

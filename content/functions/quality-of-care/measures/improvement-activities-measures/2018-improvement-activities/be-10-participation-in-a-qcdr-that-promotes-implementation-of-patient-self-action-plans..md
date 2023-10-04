@@ -16,7 +16,7 @@ menu:
     name: 'BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.'
     identifier: '1BZ2MbvXj2wCPGlci4j-u8ophytUvzFnk5oQlKWqdaa0'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2740
+    weight: 2730
 ---
 
 

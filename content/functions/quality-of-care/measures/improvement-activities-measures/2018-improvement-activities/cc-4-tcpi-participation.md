@@ -16,7 +16,7 @@ menu:
     name: 'CC 4 - TCPI Participation'
     identifier: '1Yh_1VeydU5_9Bc-tHskTRmCU4GIbSYSxzz3OxW6nkc0'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3000
+    weight: 2990
 ---
 
 

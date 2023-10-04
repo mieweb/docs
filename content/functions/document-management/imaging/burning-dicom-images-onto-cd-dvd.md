@@ -13,7 +13,7 @@ menu:
     name: 'Burning DICOM Images onto CD/DVD'
     identifier: '1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
     parent: '1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U'
-    weight: 820
+    weight: 880
 ---
 If you wish to burn the DICOM images onto a CD, log into {{% system-name %}} and get into the patient's chart.  Select the specific chart tab that stores the DICOM images being burned to a CD.  
 When you are on the appropriate chart tab, it will display the List View For Images. This lists all the DICOM images this patient has stored in {{% system-name %}} .    

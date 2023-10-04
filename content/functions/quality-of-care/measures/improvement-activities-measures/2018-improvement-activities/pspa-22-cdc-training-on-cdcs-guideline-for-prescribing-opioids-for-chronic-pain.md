@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 22 - CDC Training on CDCs Guideline for Prescribing Opioids for Chronic Pain'
     identifier: '1OhBnjNN2Prb5XVOBzBxm9qiYmJt67po4lJS7M7Lj7rc'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3610
+    weight: 3600
 ---
 
 

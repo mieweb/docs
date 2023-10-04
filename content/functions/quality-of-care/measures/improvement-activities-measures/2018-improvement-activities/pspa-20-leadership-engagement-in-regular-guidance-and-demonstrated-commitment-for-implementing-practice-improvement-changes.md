@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 20 - Leadership Engagement in Regular Guidance and Demonstrated Commitment for Implementing Practice Improvement Changes'
     identifier: '1XJaIz-xHIJbNfDf0Jgdh1GIdXJYzKJGPGujFrCQxTCI'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3590
+    weight: 3580
 ---
 
 

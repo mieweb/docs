@@ -1,9 +1,9 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2023-01-09T19:04:10.952Z'
-version: 383
-lastAuthor: 'June Matzke'
+date: '2023-09-13T17:43:15.491Z'
+version: 402
+lastAuthor: 'Spenser Smith'
 mimeType: 'text/x-markdown'
 links:
   - 'https://developer.mozilla.org/en-US/docs/Glossary/Truthy'
@@ -15,7 +15,7 @@ menu:
     name: 'Observation Flowsheets'
     identifier: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-    weight: 1980
+    weight: 1820
 ---
 Observation flowsheets are used throughout {{% system-name %}} . They are methods of entering in results and values to stored observations in a quick flowsheet manner. This could be used for specific lab panels that have a lot of individual lab test results that make up that one panel or even patient questionnaires as a way to get the data in quickly in a flowsheet type method. Observation flowsheets are used in the observation chart tab, flowsheets are used in encounters and applied in dynamic encounters from the tests/procedures section, flowsheets are used with *complete with results* or *complete with encounter* functionality and various other {{% system-name %}} modules.  
 Observation Flowsheets can be accessed via the patient's chart tab named *Observations* or via the Control sidemenu tab and by getting into the *Observation Codes* manager tab. Observation Flowsheets require security permission to access. Please see additional help documentation titled *Observations Tab.pdf*

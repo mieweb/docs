@@ -13,7 +13,7 @@ menu:
     name: 'Side Chart Configuration'
     identifier: '1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-    weight: 290
+    weight: 2440
 ---
 ## Side Chart Access  
   

@@ -1,12 +1,12 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2023-02-24T20:12:34.725Z'
-version: 346
+date: '2023-06-26T19:23:46.066Z'
+version: 378
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'health-surveillance-matrix.md'
+  - 'health-surveillance-matrix-descriptions.md'
   - '../system-administration/data-migration/completed-orders-import-tool.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
   - 'viewing-health-surveillance-panels-and-membership.md'
@@ -18,13 +18,13 @@ links:
   - 'health-surveillance-panels-action-rules.md'
   - '../health-surveillance.md'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'Health Surveillance Playbook'
     identifier: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-    weight: 1870
+    weight: 1710
 ---
 {{% system-name %}} offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
 
@@ -39,7 +39,7 @@ The way {{% system-name %}} does it is through highly configurable, easily manag
 It is important to remember that the order in which health surveillance panels are configured matters, and what is done first, before other portions, will affect overall functionality. With that in mind, the following provides a very basic overview of health surveillance considerations and configuration, as seen in 10 steps.
 
   
-### [Step One: Utilize Matrix to Identify Panels and Needed Contents](health-surveillance-matrix.md)  
+### [Step One: Utilize Matrix to Identify Panels and Needed Contents](health-surveillance-matrix-descriptions.md)  
   
 Identify all necessary panels and what will be necessary for configuration. HS panels can be configured for tracking and managing the health and wellness of specific patient populations, exposure groups, etc. A panel defines a group of events or actions that will take place on specific charts on a regular/recurring schedule. A panel action can refer to a procedure that is completed for a chart, as part of a panel, for example. Utilize the matrix provided by the MIE Implementer to gather all necessary panel criteria. The Health Surveillance module is also used to document regularly scheduled voluntary health screenings or checkups using panels.  
   
@@ -115,7 +115,7 @@ Clicking the **Panel Action Evaluator** link (found under the Health Surveillan
 ## Configuring Health Surveillance Panels  
 
 Again, the **initial** steps to consider prior to configuring HS panels are as follows:
-1. <strong>Utilize the </strong>[<strong>Health Surveillance Matrix</strong>](health-surveillance-matrix.md)<strong> to identify all necessary panels and their respective configurations.</strong>
+1. <strong>Utilize the </strong>[<strong>Health Surveillance Matrix</strong>](health-surveillance-matrix-descriptions.md)<strong> to identify all necessary panels and their respective configurations.</strong>
 2. <strong>Add any necessary Appointment Types to the </strong><strong><em>{{% system-name %}}</em></strong><strong> system for the HS panels.</strong>
 3. <strong>Add any necessary order items for the respective panel actions of the HS panels.</strong>
 
@@ -143,11 +143,11 @@ The current active panels, or the search results, will display below the followi
 ### Add HS Panels  
 
 Looking at the 10 steps outlined at the beginning, users should now be able to begin adding panels, since all appointment types and order items have been added.
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. <strong>Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel. However, if a panel has a Representative Event and needs configured accordingly, see the instructions, below</strong>.
-Utilizing the information acquired with the [Health Surveillance Matrix](health-surveillance-matrix.md), begin adding the specific HS panels needed. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md), to ease the burden of initial setup and configuration. This allows users to export from other systems and import to the {{% system-name %}} system, requiring just minimal review and potential tweaking to ensure all imported components still fit the triggers and action rules. When using this tool, order items will be created on the fly, rather than putting the burden of creating the orders on the user. 
+Utilizing the information acquired with the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md), begin adding the specific HS panels needed. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md), to ease the burden of initial setup and configuration. This allows users to export from other systems and import to the {{% system-name %}} system, requiring just minimal review and potential tweaking to ensure all imported components still fit the triggers and action rules. When using this tool, order items will be created on the fly, rather than putting the burden of creating the orders on the user. 
 Otherwise, users may add panels manually, completing the following fields, accordingly:
 * <strong>Panel</strong>: Required. This is the abbreviated, unique name of the panel. This field cannot be modified once saved.
 * <strong>Full name</strong>: Required. This is the full name/description of the panel; usually the same as the Panel field, but it may be different. The full name will be displayed for this panel in listings and dialogues throughout the system.
@@ -200,7 +200,7 @@ Prior to submitting any changes, a **Change Reason** must be provided. After typ
 
 
 Remembering the 10 steps outlined at the beginning, users should be able to begin working on step 5:
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
@@ -315,7 +315,7 @@ Action items to be used for the Trigger Date must be entered into the panel, fir
 
 
 Looking back to the 10-step process in order to stay on track, users should *still* be on Step 5:
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
@@ -364,7 +364,7 @@ For more information on Action Rules, be sure to check out our [Health Surveill
 ### Completed Order Import Tool  
 
 Looking back on the 10 steps outlined at the beginning, users should be considering step 6:
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
@@ -376,7 +376,7 @@ Action items that are configured with a Trigger Date of **Prior Action (Complet
 ### Panel Membership  
 
 Next in the 10-step process, is panel membership. Out of the box, panel memberships will be maintained by staff, manually, unless there are panel membership rules programmed using the default fields (i.e., Location, Building, Cost Center, or Job Class).
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
@@ -486,7 +486,7 @@ Administrators needing additional information on checking or viewing panel membe
 ### Scheduled Jobs, Notifications, and Panel Action Evaluator  
 
 With the HS panels configured and ready for final testing and implementation, the last few steps of the process involve automation, notification, and ongoing maintenance needs:
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.

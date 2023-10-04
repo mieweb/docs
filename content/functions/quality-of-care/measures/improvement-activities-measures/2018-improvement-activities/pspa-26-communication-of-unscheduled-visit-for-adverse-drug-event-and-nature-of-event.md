@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 26 - Communication of Unscheduled Visit for Adverse Drug Event and Nature of Event'
     identifier: '1mZEgHpEoUj0NBt1C3FrcdctLKOZZr51lUFg8wQvnhrU'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3650
+    weight: 3640
 ---
 
 

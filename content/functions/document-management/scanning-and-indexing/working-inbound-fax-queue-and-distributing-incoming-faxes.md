@@ -16,7 +16,7 @@ menu:
     name: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
     identifier: '1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
     parent: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-    weight: 720
+    weight: 780
 ---
 ## Incoming/Pending Faxes  
   

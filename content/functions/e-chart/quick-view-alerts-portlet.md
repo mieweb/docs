@@ -24,7 +24,7 @@ menu:
     name: 'Quick View - Alerts Portlet'
     identifier: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 940
+    weight: 240
 ---
 There is an interactive [Quick View](https://system/) available to end users. The Quick View offers various summary portlets that are used as quick references for viewing modules and data in {{% system-name %}} .  For example, your pending tasks, the appointment schedule, worklists, dashboards, and the like are types of portlets available for quick access and management. You can select which specific portlets to show on your view. One of the portlets is **Alerts**.  
 When logged into {{% system-name %}} , click on the [Quick View](https://system) sidemenu option.

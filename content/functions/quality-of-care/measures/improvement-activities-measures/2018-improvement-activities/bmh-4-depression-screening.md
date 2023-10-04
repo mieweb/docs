@@ -17,7 +17,7 @@ menu:
     name: 'BMH 4 - Depression Screening'
     identifier: '10ptzI8fTrowVdDWV1_tXy1HInqvnKjwxBVMASgDj0qs'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2910
+    weight: 2900
 ---
 
 

@@ -16,7 +16,7 @@ menu:
     name: 'BE 14 - Engage Patients and Families to Guide Improvement in the System of Care'
     identifier: '1dlX8gcySmREFgF3cjpSIXwuKvYZWnNiN9pZiJPwJDDY'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2780
+    weight: 2770
 ---
 
 

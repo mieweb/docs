@@ -14,7 +14,7 @@ menu:
     name: 'AlternaTIFF ActiveX Control for WebScan'
     identifier: '1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
     parent: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-    weight: 650
+    weight: 710
 ---
 The {{% system-name %}} system can efficiently scan and index the paper charts a practice currently has, as well as paper reports that most medical practices continue to receive. Further, {{% system-name %}} facilitates the reception of digital documents sent via HL7 interfaces, or using such standards as LOINC. The AlternaTIFF ActiveX Control and MIEScanner Plug-in must to be installed in order for WebScan, as well as for other features, to function properly.
   

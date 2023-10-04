@@ -16,7 +16,7 @@ menu:
     name: 'CC 12 - Care Coordination Agreements that Promote Improvements in Patient Tracking Across Settings'
     identifier: '1cjeLFxh3nnUTHtGy9BTOXeU8ji8uqdDy8Z2u5kSv_tM'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3080
+    weight: 3070
 ---
 
 

@@ -13,7 +13,7 @@ menu:
     name: 'Conditions'
     identifier: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 980
+    weight: 280
 ---
 ## Viewing a Patient's Conditions  
   

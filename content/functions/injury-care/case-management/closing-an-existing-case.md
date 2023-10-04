@@ -13,7 +13,7 @@ menu:
     name: 'Closing an Existing Case'
     identifier: '1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
     parent: '16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8'
-    weight: 1680
+    weight: 1520
 ---
 ## **Cases**  
   

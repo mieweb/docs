@@ -14,7 +14,7 @@ menu:
     name: 'Deleting an Existing Case'
     identifier: '1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
     parent: '16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8'
-    weight: 1690
+    weight: 1530
 ---
 ## **Cases**  
   

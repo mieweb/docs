@@ -16,7 +16,7 @@ menu:
     name: 'CC 13 - Practice Improvements for Bilateral Exchange of Patient Information'
     identifier: '1iCl2VuY77s7ruey2X61ziYnmMhsL9w4wI-KZBz0ElDg'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3090
+    weight: 3080
 ---
 
 

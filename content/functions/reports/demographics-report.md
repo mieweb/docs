@@ -13,7 +13,7 @@ menu:
     name: 'Demographics Report'
     identifier: '1xV8LjYenQ4Ypmbno3hav_Iz_VNKt2q_ZUhuf-iV1FUg'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4140
+    weight: 4130
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Demographic Report shows all patient demographics by criteria for label printing or for demographic reporting purposes.  

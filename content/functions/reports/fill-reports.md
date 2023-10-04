@@ -12,7 +12,7 @@ menu:
     name: 'Fill Reports'
     identifier: '14wwTc74KWcRO1SQtDG0L14yjfNTGM5pNgfFZy8_6Jko'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4200
+    weight: 4190
 ---
 The Fill Reports tab is located within the sidemenu tab named *Inventory*.  
 The Fill Report is like a transaction report but a report specific to medication fills only (medication fills done in the patient's dispense chart tab).

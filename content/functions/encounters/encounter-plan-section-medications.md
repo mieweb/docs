@@ -13,7 +13,7 @@ menu:
     name: 'Encounter Plan Section - Medications'
     identifier: '1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1510
+    weight: 1350
 ---
 **Toward the bottom of an Encounter Exam is a section called Plan.**  
   

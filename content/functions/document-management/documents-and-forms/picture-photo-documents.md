@@ -15,7 +15,7 @@ menu:
     name: 'Picture-Photo Documents'
     identifier: '1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 440
+    weight: 500
 ---
 The {{% system-name %}} system is designed to allow photos/pictures to be uploaded as documents into charts, as needed. Currently, only JPG, TIFF, and PNG file types are supported for uploading to charts, so it is important to ensure the photos being uploaded are one of these acceptable file formats prior to adding any photo documents to a chart.
 

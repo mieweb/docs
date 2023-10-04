@@ -18,7 +18,7 @@ menu:
     name: 'CMS 153 - Chlamydia Screening for Women'
     identifier: '1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 4010
+    weight: 4000
 ---
 ## Overview  
   

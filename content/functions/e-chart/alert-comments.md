@@ -18,7 +18,7 @@ menu:
     name: 'Alert Comments'
     identifier: '1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 1020
+    weight: 320
 ---
 The **Alert Comments** document ([WCALERT document type](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtview&dtsopp=dt_val&doc_type=WCALERT)) is found in the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the  {{% system-name %}} system.  It is an alert comment document you can add to a patient's chart via text method. You can add multiple alert comments to a patient's chart, as needed.
 

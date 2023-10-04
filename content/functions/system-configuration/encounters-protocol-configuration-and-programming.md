@@ -2,7 +2,7 @@
 id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 title: 'Encounters Protocol Configuration & Programming'
 date: '2021-12-08T15:28:41.216Z'
-version: 174
+version: 176
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ menu:
     name: 'Encounters Protocol Configuration & Programming'
     identifier: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-    weight: 280
+    weight: 2430
 ---
 *rfdThis help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
 

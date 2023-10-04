@@ -16,7 +16,7 @@ menu:
     name: 'AHE 5 - MIPS Eligible Clinician Leadership in Clinical Trials or CBPR'
     identifier: '1Qqk_-Jpcrx0Oz9Ae02-KID0PJ3BfuM2NroOZCA3JF4w'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2630
+    weight: 2620
 ---
 
 

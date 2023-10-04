@@ -16,7 +16,7 @@ menu:
     name: 'BE 1 - Use of Certified EHR to Capture Patient Reported Outcomes'
     identifier: '1_bqwatL6MvTU7CjgmDgyWE8LILKlnChfpIw3T9_Ro8M'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2650
+    weight: 2640
 ---
 
 

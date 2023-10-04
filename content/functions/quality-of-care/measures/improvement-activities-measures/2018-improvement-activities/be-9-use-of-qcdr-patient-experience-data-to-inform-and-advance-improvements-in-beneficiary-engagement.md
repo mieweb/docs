@@ -16,7 +16,7 @@ menu:
     name: 'BE 9 - Use of QCDR Patient Experience Data to Inform and Advance Improvements in Beneficiary Engagement'
     identifier: '1GdlE0R7E_rmuJzjesPftlvEXbJ1k9Ji4HfwLWtsly9M'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2730
+    weight: 2720
 ---
 
 

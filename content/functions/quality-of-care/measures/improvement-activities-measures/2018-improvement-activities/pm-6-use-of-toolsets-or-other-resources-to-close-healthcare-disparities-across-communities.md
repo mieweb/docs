@@ -16,7 +16,7 @@ menu:
     name: 'PM 6 - Use of Toolsets or Other Resources to Close Healthcare Disparities Across Communities'
     identifier: '1ItMLcQN5Tn-2om-WDb2vDBGfgnpVisATRfpzp8MUhLc'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3260
+    weight: 3250
 ---
 
 

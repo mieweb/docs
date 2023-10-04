@@ -2,7 +2,7 @@
 id: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
 title: 'Label Printing Feature'
 date: '2020-03-24T15:23:57.818Z'
-version: 86
+version: 88
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ menu:
     name: 'Label Printing Feature'
     identifier: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
     parent: '1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY'
-    weight: 780
+    weight: 840
 ---
 {{% system-name %}} offers a label generating feature that generates labels with predefined chart information. The data and information printed on the labels is provided as part of the system standard; however, label layouts can be customized for clients, as needed.  
 {{% note %}}

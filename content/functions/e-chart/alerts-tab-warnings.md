@@ -1,9 +1,9 @@
 ---
 id: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
 title: 'Alerts Tab - Warnings'
-date: '2022-06-10T16:29:02.358Z'
-version: 71
-lastAuthor: 'Doug Horner'
+date: '2023-10-04T16:20:58.902Z'
+version: 78
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - '../medication-management-and-e-prescribing/drug-guide-search.md'
@@ -14,9 +14,9 @@ menu:
     name: 'Alerts Tab - Warnings'
     identifier: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 1010
+    weight: 310
 ---
-In the patient's ‘Summary' chart tab is a portlet named *Warnings/Alerts* where you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, guidelines (scripted rules) etc. for the patient.
+In the patient's ‘Summary' chart tab is a portlet named *Warnings/Alerts* where you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, guidelines (scripted rules) etc. for the patient. 
   
 ![](../alerts-tab-warnings.assets/503c79c53d5861763368c035933f05ea.png)  
 

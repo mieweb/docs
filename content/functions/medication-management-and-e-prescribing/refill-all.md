@@ -13,7 +13,7 @@ menu:
     name: 'Refill All'
     identifier: '10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2120
+    weight: 1960
 ---
 Refill All Quick Link  
 Make sure system setting *Use Fill Requests* is set to zero if you wish to use the Refill All feature (unless using Inventory module)

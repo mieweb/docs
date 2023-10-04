@@ -12,7 +12,7 @@ menu:
     name: 'Case Management'
     identifier: '16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8'
     parent: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-    weight: 1620
+    weight: 1460
 ---
 
 

@@ -30,7 +30,7 @@ menu:
     name: 'Create File for Submission'
     identifier: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
     parent: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-    weight: 2520
+    weight: 2510
 ---
 Health IT and data collection is integral in assisting the various arms of the healthcare industry to reduce costs while consistently improving patient care and outcomes. Organizations such as the [U.S. Centers for Medicare and Medicaid Services](https://www.cms.gov/) (CMS), the [Agency for Healthcare Research & Quality](https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html) (AHRQ), or even the [National Committee of Quality Assurance](https://www.ncqa.org/) (NCQA), offer many tools and various programs designed to assist health IT vendors, clinical practices, and the like to ensure accurate data collection for analysis and critical decision making of value-based contract arrangements.
 

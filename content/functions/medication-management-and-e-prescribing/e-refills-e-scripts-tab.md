@@ -12,7 +12,7 @@ menu:
     name: 'E-Refills - E-Scripts Tab'
     identifier: '1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2110
+    weight: 1950
 ---
 ![](../e-refills-e-scripts-tab.assets/6ec8e5bb34b8d887e282a975df44954d.png)  
 

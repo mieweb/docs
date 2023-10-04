@@ -15,7 +15,7 @@ menu:
     name: 'Observation Codes Editor'
     identifier: '1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-    weight: 1970
+    weight: 1810
 ---
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
 

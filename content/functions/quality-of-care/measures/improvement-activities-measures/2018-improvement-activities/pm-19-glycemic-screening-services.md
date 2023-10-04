@@ -16,7 +16,7 @@ menu:
     name: 'PM 19 - Glycemic Screening Services'
     identifier: '1q7esKo33sD5NLfGpULquOiy20ZPjfBnahEPH0YaZVoY'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3380
+    weight: 3370
 ---
 
 

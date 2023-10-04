@@ -16,7 +16,7 @@ menu:
     name: 'EPA 1 - Provide 24/7 Access to MIPS Eligible Clinicians or Groups Who Have Real-Time Access to Patient''s Medical Record'
     identifier: '14YYUtmJ6WCuBnGjYhMI0KOd5zy3PhwAK2HsdGBjt1lQ'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3140
+    weight: 3130
 ---
 
 

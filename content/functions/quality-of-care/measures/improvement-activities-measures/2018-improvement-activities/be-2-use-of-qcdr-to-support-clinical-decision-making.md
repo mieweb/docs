@@ -16,7 +16,7 @@ menu:
     name: 'BE 2 - Use of QCDR to Support Clinical Decision Making'
     identifier: '1AACKkzzNLsNeOt96WQPz0ejOpnaeIdl_tj19mae23SE'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2660
+    weight: 2650
 ---
 
 

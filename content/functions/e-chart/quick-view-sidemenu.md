@@ -16,7 +16,7 @@ menu:
     name: 'Quick View Sidemenu'
     identifier: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 920
+    weight: 220
 ---
 There is an interactive [Quick View](https://system/?func=omniscope) sidemenu option available. The Quick View sidemenu offers various summary portlets that are used as a quick reference, to view modules and data in the   {{% system-name %}}  system.  Examples of references include your pending tasks, the appointment schedule, worklists, dashboards, etc. You can select which specific portlets to show on your view.  
 When logged into {{% system-name %}} , click on the [Quick View](https://system/?func=omniscope) sidemenu.

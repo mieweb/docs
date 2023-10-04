@@ -2,7 +2,7 @@
 id: '1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g'
 title: 'Panel Action Evaluator'
 date: '2020-03-13T15:20:58.197Z'
-version: 62
+version: 66
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ menu:
     name: 'Panel Action Evaluator'
     identifier: '1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g'
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-    weight: 1820
+    weight: 1660
 ---
 The Health Surveillance tab is found in the Control sidemenu tab. To access the Panel Action Evaluator, click the hyperlink named as such at the top right corner of the Health Surveillance tab.
   

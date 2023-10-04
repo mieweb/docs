@@ -15,7 +15,7 @@ menu:
     name: 'Due List'
     identifier: '1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-    weight: 1840
+    weight: 1680
 ---
 Tests or Procedures items that are "due" (pending) are displayed in dynamic encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
   

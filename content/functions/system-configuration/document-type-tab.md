@@ -13,7 +13,7 @@ menu:
     name: 'Document Type Tab'
     identifier: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-    weight: 220
+    weight: 2370
 ---
 Click *Control* on the left sidebar menu.  
 Click *Document Types* tab at the top. (You must have security role permission to access the Document Types tab)  

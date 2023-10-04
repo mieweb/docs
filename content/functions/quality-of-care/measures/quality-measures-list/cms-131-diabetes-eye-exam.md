@@ -15,7 +15,7 @@ menu:
     name: 'CMS 131 - Diabetes: Eye Exam'
     identifier: '1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3920
+    weight: 3910
 ---
 ## Overview  
   

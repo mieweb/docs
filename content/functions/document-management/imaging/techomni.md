@@ -15,7 +15,7 @@ menu:
     name: 'TechOmni'
     identifier: '1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
     parent: '1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U'
-    weight: 860
+    weight: 920
 ---
 The necessary setup for accessing and utilizing TechOmni is fairly simple and straightforward, requiring just a basic install of a layout that is then viewable as a sidemenu option in the {{% system-name %}} system ( {{% sys-name %}} ). When accessed, the TechOmni form and all open encounters (filtered by the determined criteria) will display.  
 In populating the form, users will be able to input the Order Number, which can be used to tie back to the Transcribed Report (where available).

@@ -13,7 +13,7 @@ menu:
     name: 'How to Remove MIEPlayer Control'
     identifier: '1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1320
+    weight: 1160
 ---
 1. Open Internet Explorer on your desktop.
 2. At the top toolbar, select TOOLS, then the option called INTERNET OPTIONS.

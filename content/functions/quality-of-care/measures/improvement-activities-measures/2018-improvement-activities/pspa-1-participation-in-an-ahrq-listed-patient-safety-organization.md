@@ -17,7 +17,7 @@ menu:
     name: 'PSPA 1 - Participation in an AHRQ-listed Patient Safety Organization'
     identifier: '1sLKjtuVqRzZXldr6YuRzGOTd7ICndIJIaSzld3cx0ng'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3400
+    weight: 3390
 ---
 
 

@@ -17,7 +17,7 @@ menu:
     name: 'Archiving/Closing/Re-archiving Encounters'
     identifier: '1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1590
+    weight: 1430
 ---
 In order to archive, close, or re-archive an encounter, users must be familiar with the security settings, buttons, toolbars, and links associated with the encounter. The buttons found in the encounter are customizable and may have different functions per practice, or per encounter, depending on the preferred workflows. Contact an Implementation Specialist to have the buttons renamed or functionality reconfigured, as needed.  
 To archive or re-archive encounters, users must have the necessary security permissions set. Customize the user security by updating the following settings, accordingly:  

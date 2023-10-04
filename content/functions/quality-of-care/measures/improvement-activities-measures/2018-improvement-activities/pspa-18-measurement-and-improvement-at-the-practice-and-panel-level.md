@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 18 - Measurement and Improvement at the Practice and Panel Level'
     identifier: '1aYCBEvN-Vdk7ZgWv7OkCCTOnJkiGpXbKTfVjnjOsaFo'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3570
+    weight: 3560
 ---
 
 

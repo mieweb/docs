@@ -16,7 +16,7 @@ menu:
     name: 'BE 12 - Use Evidence-based Decision Aids to Support Shared Decision-making'
     identifier: '19eZCdwFGIeRGfT0BkhPoum2aYfCVegyIbkTPw9nctx8'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2760
+    weight: 2750
 ---
 
 

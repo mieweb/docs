@@ -16,7 +16,7 @@ menu:
     name: 'BE 18 - Provide Peer-led Support for Self-management'
     identifier: '1bC41bFs0HAtXY3bdrWDajpfRa-aD4BOohmc2R6g2wOo'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2820
+    weight: 2810
 ---
 
 

@@ -17,7 +17,7 @@ menu:
     name: 'CMS 69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-up Plan'
     identifier: '1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3830
+    weight: 3820
 ---
 ## Overview  
   

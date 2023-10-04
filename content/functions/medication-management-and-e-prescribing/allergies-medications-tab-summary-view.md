@@ -13,7 +13,7 @@ menu:
     name: 'Allergies/Medications Tab Summary View'
     identifier: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2170
+    weight: 2010
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view. Get into the patient's file.  

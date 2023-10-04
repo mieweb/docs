@@ -16,7 +16,7 @@ menu:
     name: 'Text Documents'
     identifier: '1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 400
+    weight: 460
 ---
 The  {{% system-name %}} system is designed to allow free-text notes to be uploaded as documents into charts, as needed.
   

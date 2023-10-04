@@ -12,7 +12,7 @@ menu:
     name: 'Common Case Search Report'
     identifier: '1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4120
+    weight: 4110
 ---
 Capturing case (incident) detail on a patient or employee is done through encounters using the dynamic *Case* section.
   

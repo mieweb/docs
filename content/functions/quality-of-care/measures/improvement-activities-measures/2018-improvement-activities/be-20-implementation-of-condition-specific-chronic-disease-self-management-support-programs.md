@@ -16,7 +16,7 @@ menu:
     name: 'BE 20 - Implementation of Condition-specific Chronic Disease Self-management Support Programs'
     identifier: '1MtI7CYHbe1w9l0HVUD_7dUbDqv-l5qxPPZs3MfZuhBM'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2840
+    weight: 2830
 ---
 
 

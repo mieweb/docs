@@ -18,7 +18,7 @@ menu:
     name: 'CMS 124 - Cervical Cancer Screening'
     identifier: '1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3880
+    weight: 3870
 ---
 ## Overview  
   

@@ -2,7 +2,7 @@
 id: '1abTr620F-FY9LuKaPmqQomdsG1YOnha2ZSzP3PVcsQE'
 title: 'Encounter Worklists'
 date: '2022-07-07T16:16:09.473Z'
-version: 69
+version: 75
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ menu:
     name: 'Encounter Worklists'
     identifier: '1abTr620F-FY9LuKaPmqQomdsG1YOnha2ZSzP3PVcsQE'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1570
+    weight: 1410
 ---
 Worklists can be programmed as a separate sidemenu tab for your practice or to be shown within the Omniscope tab. If you use encounters, it is suggested to have this worklist tab set up. Contact your MIE Implementer if you wish to have such a worklist programmed. Worklists show ‘open' encounters that need to be worked on or marked closed or are still pending transcription to be done, etc.
   

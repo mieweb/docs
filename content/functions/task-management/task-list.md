@@ -14,7 +14,7 @@ menu:
     name: 'Task List'
     identifier: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
     parent: '1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
-    weight: 2350
+    weight: 2190
 ---
 ## **Viewing Your Task & Department Task Alerts**  
   

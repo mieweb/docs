@@ -14,7 +14,7 @@ menu:
     name: 'How to Install MIEPlayer Control'
     identifier: '1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1310
+    weight: 1150
 ---
 There is also added support to {{% system-name %}} for the MIEplayer plugin to be used in alternative browsers such as Firefox or Chrome. Firefox will open a plugin downloader and manually installing the plugin will get a user up and running. Chrome and other browsers require more work. [https://mywebchart.com/plugins/](https://mywebchart.com/plugins/) will host details. If user is on a Macintosh, a java plugin can be optionally setup to be used. It is not as feature rich but functional. The steps described below are for Internet Explorer.
 1. Log into your {{% system-name %}} system.

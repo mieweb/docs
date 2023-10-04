@@ -15,7 +15,7 @@ menu:
     name: 'Adding Restrictions and Accommodations'
     identifier: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
     parent: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-    weight: 1710
+    weight: 1550
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout {{% system-name %}} from a header, or from its own chart tab outside of an encounter exam.
   

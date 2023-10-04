@@ -1,14 +1,14 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2023-01-02T19:17:15.652Z'
-version: 151
-lastAuthor: 'Alice Uhrick'
+date: '2023-04-24T17:10:27.597Z'
+version: 172
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'My Settings'
@@ -419,8 +419,11 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 
 * Ordering Physician: Begin typing in the first or last name of the physician you want the Orders ‘ordering physician' name to default to. It will auto-complete your typing and give you matching choices to select. The physician selected here will be the default physician name in the ordering physician field when you are in add order (e-orders module). This list pulls the physicians department. This list also shows active and login disabled users in case there are ordering physicians that don't actually log in to the system.
 * Location: Choose the location you want the Orders ‘location' name to default to. When you add an order for a patient, this field will pop up your default location name in the location field.
-* Default Lab Order Set: Select Order name. This determines the specific order that will automatically pop up when click Orders tab in a patient's chart and add an order. This order fills in the Order Set name. You would want to set the default if you usually enter a certain order all the time.
+* Default Order Set: Select Order name. This determines the specific order that will automatically pop up when click Orders tab in a patient's chart and add an order. This order fills in the Order Set name. You would want to set the default if you usually enter a certain order all the time.
 * Performing Facility: If system has field in e-orders to capture Facility, then that field will be prefilled with this selected preference default if any is set here.
+* Tests and Procedures Picklist: Sets the default picklist to branch open when using the Picklist icon/pop-up window from the encounter Tests & Procedures section. One can still select a different picklist within that section, this just defines the default one to open.
+* Bill Type: This determines what bill type to default (if any) when creating an order requisition.
+* Use New Requisition Screen: This new preference allows users to see the new Order "Requisition" screen, when users click on the Add Order hyperlink from lightning bolt or from the chart's Quick Links portlet. Also, when creating an order using the new Order Requisition screen within an encounter, when this preference is set to ‘yes', it offers an ability to "Clone" a requisition document, using the same requisition method screen.  To then edit an open order request, you could ‘clone' it to be whatever you want/fixing/updating anything and that essentially ‘overwrites' the original requisition done in this manner.
   
 ### **Inventory**  
 

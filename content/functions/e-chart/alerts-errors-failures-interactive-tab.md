@@ -15,7 +15,7 @@ menu:
     name: 'Alerts, Errors, Failures - Interactive Tab'
     identifier: '121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 1000
+    weight: 300
 ---
 An Alerts link and counter is shown at the top summary toolbar. It gives a count of the errors from the Print, Fax, Dicom and DataSend modules for the logged in user or for users in the entire system. The alert count link in this top toolbar disappears when the count is zero and reappears when the count is greater than zero. Two user preferences manage this error alert feature.  
 An alert shows at the top when there is a print, fax, data-send (auto-routes) or Dicom failure/error based on your preferences.

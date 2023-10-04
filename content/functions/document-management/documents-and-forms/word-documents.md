@@ -14,7 +14,7 @@ menu:
     name: 'Word Documents'
     identifier: '1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 410
+    weight: 470
 ---
 ## Add/Upload Word Document to Chart  
 

@@ -13,7 +13,7 @@ menu:
     name: 'Encounters Impression Section'
     identifier: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1520
+    weight: 1360
 ---
 The Impression area of the encounter is where you select your diagnosis/findings. This is where you are documenting reasons/diagnoses for *today's* visit. This section may also be named *Assessment* in your encounters.
   

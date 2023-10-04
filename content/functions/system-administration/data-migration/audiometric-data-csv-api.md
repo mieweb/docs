@@ -1,20 +1,17 @@
 ---
 id: '14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA'
 title: 'Audiometric Data CSV API'
-date: '2020-02-27T20:45:01.208Z'
-version: 19
+date: '2023-06-27T17:45:33.990Z'
+version: 27
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/Import_Overview'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit?usp=sharing'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards#Data_Import_User_Instructions'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards'
   - 'https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub'
   - 'https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub?output=csv'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1gtMinRE8kX9znznYtIHlU15qT3P_yET9hAD06JHfOzg/edit?usp=sharing'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
 source: 'https://drive.google.com/open?id=14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 menu:
   main:
     name: 'Audiometric Data CSV API'
@@ -37,7 +34,7 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * A <strong>chart</strong> is an employee's (patient's) electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual. Audio tests are linked to a chart through a document.
 * A <strong>document</strong> in EH is a way of storing non-discrete information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
 * An <strong>encounter</strong> documents a visit with a employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://miewiki.med-web.com/wiki/index.php/Import_Overview) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. 
 
 
   
@@ -73,13 +70,9 @@ The age corrected shift is the average shift from the most recent baseline at th
   
 The following sections provide insight for technical personnel working with the provided import specifications. Although the specifications provided include details on each field utilized in the import, the sections below include further discussion on best practices for imported data to provide the best functionality in Enterprise Health.  
 [The Audiometric Data CSV API specifications are available here.](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit?usp=sharing)  
-Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.  
-Additionally, [user instructions](https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards#Data_Import_User_Instructions) are available for importing data in EH.
+Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
 
-  
-### **Column Definitions and Specific Coded Values**  
-  
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards) page.
+
 
   
 ### **Field Requirements**  
@@ -127,7 +120,4 @@ The following examples are available:
   
 Validation between the previous system and the new EH system requires the client to provide a number of test patients. This data can be compared in the previous system and EH using the [validation test script.](https://docs.google.com/a/mieweb.com/spreadsheets/d/1gtMinRE8kX9znznYtIHlU15qT3P_yET9hAD06JHfOzg/edit?usp=sharing)
 
-  
-## **Related Pages**  
 
-* [Data Import Master List](https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List)

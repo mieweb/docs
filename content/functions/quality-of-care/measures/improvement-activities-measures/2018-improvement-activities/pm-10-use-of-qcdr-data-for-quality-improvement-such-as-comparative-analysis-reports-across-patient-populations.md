@@ -16,7 +16,7 @@ menu:
     name: 'PM 10 - Use of QCDR Data for Quality Improvement such as Comparative Analysis Reports across Patient Populations'
     identifier: '1ipUY_JhDpAVupF11P3IE9Db4prZFIP84A93x8gAZj2A'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3290
+    weight: 3280
 ---
 
 

@@ -14,7 +14,7 @@ menu:
     name: 'Highlight Transcribed'
     identifier: '1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1390
+    weight: 1230
 ---
 If dictation is enabled on your system, and a user enters in an encounter, the Add Dictation option is offered throughout.  If the user adds dictation, the encounter dictation(s) goes to the Dictation queue for a transcriptionist to type up.  Then the transcriptionist either archives & closes the encounter themselves (depending on how the system has been requested to be set up), or the physician can close it from their encounter worklist when there is no transcription left pending for it.  
 Most clients then have automated esign rules set up for the archived & closed encounter document to go to the provider's esign queue to sign and review the encounter document as to what has been transcribed on it.  

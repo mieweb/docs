@@ -16,7 +16,7 @@ menu:
     name: 'Improvement Activities Measures'
     identifier: '1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
     parent: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-    weight: 2570
+    weight: 2560
 ---
 
 

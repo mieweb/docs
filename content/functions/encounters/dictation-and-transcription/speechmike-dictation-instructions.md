@@ -13,7 +13,7 @@ menu:
     name: 'SpeechMike Dictation Instructions'
     identifier: '1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1340
+    weight: 1180
 ---
 ## Using the Phone to Call in Dictation  
 

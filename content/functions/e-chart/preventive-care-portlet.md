@@ -12,7 +12,7 @@ menu:
     name: 'Preventive Care Portlet'
     identifier: '1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 990
+    weight: 290
 ---
 You can select the *Preventative Care* portlet for your view on the Patient Summary chart tab view.
   

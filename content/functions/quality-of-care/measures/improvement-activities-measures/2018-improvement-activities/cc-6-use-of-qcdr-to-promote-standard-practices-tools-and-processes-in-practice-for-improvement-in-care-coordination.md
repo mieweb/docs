@@ -16,7 +16,7 @@ menu:
     name: 'CC 6 - Use of QCDR to Promote Standard Practices, Tools and Processes in Practice for Improvement in Care Coordination'
     identifier: '1Itv6jrGg1O3hHlVmi-FDNtdsztdVtBi_xThflKLo2uQ'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3020
+    weight: 3010
 ---
 
 

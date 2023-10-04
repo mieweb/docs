@@ -17,7 +17,7 @@ menu:
     name: 'AHE 3 - Promote Use of Patient-Reported Outcome Tools'
     identifier: '1Q6PiO0lpOuWBVKOqwLEDkJZyRUUAMDg-wWCjZEWcV9Q'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2610
+    weight: 2600
 ---
 
 

@@ -16,7 +16,7 @@ menu:
     name: 'Creating or Adding Encounters'
     identifier: '1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1600
+    weight: 1440
 ---
 ## Creating or Adding Encounters  
   

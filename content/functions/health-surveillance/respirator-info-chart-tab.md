@@ -12,7 +12,7 @@ menu:
     name: 'Respirator Info Chart Tab'
     identifier: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-    weight: 1860
+    weight: 1700
 ---
 The Respirator Info is a chart tab found in the employee's E-Chart. Click this tab to see only the specific respirator panel memberships the employee belongs to.
   

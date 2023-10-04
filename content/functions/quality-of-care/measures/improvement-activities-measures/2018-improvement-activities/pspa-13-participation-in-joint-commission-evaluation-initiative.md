@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 13 - Participation in Joint Commission Evaluation Initiative'
     identifier: '1-N5tV9iyaB7v7DI0HqQFBvePIZWXAsmvU80Grg1mO8c'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3520
+    weight: 3510
 ---
 
 

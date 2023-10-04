@@ -22,7 +22,7 @@ menu:
     name: 'Checkin'
     identifier: '19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1190
+    weight: 1030
 ---
 The {{% system-name %}} Checkin module significantly improves patient flow by ensuring communication lines between the front office and clinicians are always open. The Checkin module will function in a patient kiosk setting, or within {{% system-name %}} as used by the clinical staff.  
 The module allows for initiation of patient encounters, notifications for clinical staff of the patients' locations, as well as tracking of patient wait times. An additional feature is the Station Manager, which allows staff to move patients between varying stations, or locations, through to checkout. Color-coded station alerts let users know when a patient has remained at a station for an extended period of time.

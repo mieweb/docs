@@ -16,7 +16,7 @@ menu:
     name: 'BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)'
     identifier: '1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2830
+    weight: 2820
 ---
 
 

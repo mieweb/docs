@@ -13,7 +13,7 @@ menu:
     name: 'Edit/Delete Injections/Immunizations'
     identifier: '1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
     parent: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
-    weight: 2290
+    weight: 2130
 ---
 To make an edit or modify a specific immunization or injection record, get into the patient's injections tab to show the list of active immunizations/injections.  Find the specific injection or immunization that you wish to edit and click on the underlined injection/immunization name to get into the edit mode.
 

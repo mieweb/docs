@@ -16,7 +16,7 @@ menu:
     name: 'PM 2 - Anticoagulant Management Improvements'
     identifier: '1NqK56yZC60ve75qYEgsYQRuMsi4r3t1YtSfjqpQdsho'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3220
+    weight: 3210
 ---
 
 

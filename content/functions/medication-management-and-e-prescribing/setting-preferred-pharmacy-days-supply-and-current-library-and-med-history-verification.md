@@ -12,7 +12,7 @@ menu:
     name: 'Setting Preferred Pharmacy, Days Supply, and Current Library & Med History Verification'
     identifier: '1M34Pr2z2Qc-Z1I0PuQYKCB50vurvtKddEMd7fHRQX6Q'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2250
+    weight: 2090
 ---
 ## Set Preferred Pharmacy  
   

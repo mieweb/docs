@@ -16,7 +16,7 @@ menu:
     name: 'BMH 10 - Completion of Collaborative Care Management Training Program'
     identifier: '1K3GNql1BX7DW5zwok31Dvb4R70WIwwmHrY4zhFOYSI0'
     parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3730
+    weight: 3720
 ---
 
 

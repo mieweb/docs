@@ -16,7 +16,7 @@ menu:
     name: 'BMH 8 - Electronic Health Record Enhancements for BH Data Capture'
     identifier: '1prwEQFANInsJgwjmp1c3zxO7rkUs8-fqJ1STBl6SRUQ'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2950
+    weight: 2940
 ---
 
 

@@ -15,7 +15,7 @@ menu:
     name: 'PDF Documents'
     identifier: '153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 430
+    weight: 490
 ---
 The {{% system-name %}} system provides the ability to browse to and upload PDF file types, if necessary. This is driven by a system setting ("E-Chart", "PDF Upload", "Enable"), which is enabled by default.  
 {{% note %}}

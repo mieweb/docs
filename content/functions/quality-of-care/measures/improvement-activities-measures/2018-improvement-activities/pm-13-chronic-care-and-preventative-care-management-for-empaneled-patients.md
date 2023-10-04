@@ -16,7 +16,7 @@ menu:
     name: 'PM 13 - Chronic Care and Preventative Care Management for Empaneled Patients'
     identifier: '1le-_NZkzK_bBYchn7v2WUcRYosryUgpLDBeyHlh_Ays'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3320
+    weight: 3310
 ---
 
 

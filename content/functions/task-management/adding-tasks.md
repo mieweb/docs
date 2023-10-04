@@ -13,7 +13,7 @@ menu:
     name: 'Adding Tasks'
     identifier: '1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
     parent: '1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
-    weight: 2360
+    weight: 2200
 ---
 ## **Types of Tasks**  
   

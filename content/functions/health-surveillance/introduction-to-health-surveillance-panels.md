@@ -13,7 +13,7 @@ menu:
     name: 'Introduction to Health Surveillance Panels'
     identifier: '1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik'
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-    weight: 1760
+    weight: 1600
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
   

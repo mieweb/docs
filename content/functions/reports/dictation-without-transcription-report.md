@@ -12,7 +12,7 @@ menu:
     name: 'Dictation without Transcription Report'
     identifier: '1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4150
+    weight: 4140
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 This is a report to show dictation that does not have matching transcription. This reports the dictation that has not been transcribed for yet. It tries to find a word document in the patient's chart with the same date of service. The list is dictation that didn't have a matching word file.  

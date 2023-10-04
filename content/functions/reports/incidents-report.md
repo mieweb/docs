@@ -13,7 +13,7 @@ menu:
     name: 'Incidents Report'
     identifier: '1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4220
+    weight: 4210
 ---
 Capturing incident detail on a patient is done through the office visit encounter or though the Incidents chart tab. There is reporting available based on patient incident data.  
 From the Reports sidemenu, your MIE Implementer can program the Incidents report tab.

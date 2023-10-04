@@ -2,7 +2,7 @@
 id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 title: 'Schedules Tab'
 date: '2020-02-27T19:48:23.179Z'
-version: 96
+version: 102
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
@@ -12,7 +12,7 @@ menu:
     name: 'Schedules Tab'
     identifier: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1150
+    weight: 990
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

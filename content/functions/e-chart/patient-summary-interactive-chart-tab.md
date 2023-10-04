@@ -12,7 +12,7 @@ menu:
     name: 'Patient Summary - Interactive Chart Tab'
     identifier: '1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 1070
+    weight: 370
 ---
 ## Patient Summary Chart Tab  
   

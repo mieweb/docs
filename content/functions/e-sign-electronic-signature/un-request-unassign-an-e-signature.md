@@ -15,7 +15,7 @@ menu:
     name: 'Un-Request/Unassign an E-Signature'
     identifier: '1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
     parent: '1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854'
-    weight: 2420
+    weight: 2260
 ---
 From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission. It is also helpful to know who the document was requested to and the document id number, or document type and date of service.  
 In the All Pending tab, it lists all users who have pending e-sign requests assigned to them.  Click on the user that you need to unrequest an e-sign from.

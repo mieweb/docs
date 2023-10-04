@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 2 - Participation in MOC Part IV'
     identifier: '1TNvvo_OLsZXxD3TZq4LlK2OHNV_oeVPvmkfFjou_qyc'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3410
+    weight: 3400
 ---
 
 

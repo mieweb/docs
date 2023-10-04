@@ -13,7 +13,7 @@ menu:
     name: 'Messages from NMC User'
     identifier: '1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
     parent: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-    weight: 1260
+    weight: 1100
 ---
 Portal Integration with {{% system-name %}}  
 NoMoreClipboard offers NMC-MD – a patient portal that combines personal health record functionality with an administrative portal that enables a practice using {{% system-name %}} to receive and reply to patient-generated messages within a practice's {{% system-name %}} system. This is considered a data-send/auto-route document interface.  

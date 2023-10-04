@@ -16,7 +16,7 @@ menu:
     name: 'CC 2 - Implementation of Improvements that Contribute to More Timely Communication of Test Results'
     identifier: '17nTZZRqe8ofCm6bTCe4FAmPyZqREjkWRE7MwrZn_XOU'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2980
+    weight: 2970
 ---
 
 

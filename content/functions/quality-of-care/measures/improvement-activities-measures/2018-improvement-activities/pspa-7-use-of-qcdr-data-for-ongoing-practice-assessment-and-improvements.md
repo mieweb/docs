@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 7 - Use of QCDR Data for Ongoing Practice Assessment and Improvements'
     identifier: '1paoOm5OXD3MEGCt8r-PQEYZ5Jd-OPLgWuvu2JMGkBbg'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3460
+    weight: 3450
 ---
 
 

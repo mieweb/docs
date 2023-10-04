@@ -16,7 +16,7 @@ menu:
     name: 'ERP 1 - Participation on Disaster Medical Assistance Team, Registered for 6 Months'
     identifier: '1TH8wiTO1sTTHQqekvfFXPk2EUmfHfspaGzVI7UiwLMA'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3190
+    weight: 3180
 ---
 
 

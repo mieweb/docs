@@ -14,7 +14,7 @@ menu:
     name: 'Waiting List Tab'
     identifier: '17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1170
+    weight: 1010
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

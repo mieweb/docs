@@ -18,7 +18,7 @@ menu:
     name: 'DICOM Setup Tab'
     identifier: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
     parent: '1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U'
-    weight: 800
+    weight: 860
 ---
 Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and exchanging image information in and between medical imaging software.
   

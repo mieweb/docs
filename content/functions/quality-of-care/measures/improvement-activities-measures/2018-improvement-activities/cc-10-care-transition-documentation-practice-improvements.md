@@ -16,7 +16,7 @@ menu:
     name: 'CC 10 - Care Transition Documentation Practice Improvements'
     identifier: '1w1e6ZoISoS0KU-eo4I6cCBO-8N6x86xqEmpve_GomOY'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3060
+    weight: 3050
 ---
 
 

@@ -16,7 +16,7 @@ menu:
     name: 'PM 4 - Glycemic Management Services'
     identifier: '1QLvQHkwFRyEF28Fv9E6EsJETKvB-xE2KSqws4laQ0ME'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3240
+    weight: 3230
 ---
 
 

@@ -16,7 +16,7 @@ menu:
     name: 'BMH 1 - Diabetes Screening'
     identifier: '1OTz01USKEmyW--iK2VgT6YBaZH8RjkUuDLGH8-tPLYI'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2880
+    weight: 2870
 ---
 
 

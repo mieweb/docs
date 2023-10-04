@@ -16,7 +16,7 @@ menu:
     name: 'BMH 9 - Unhealthy Alcohol Use for Patients with Co-occurring Conditions of Mental Health and Substance Abuse and Ambulatory Care Patients'
     identifier: '1Ptw6NFGpsWczzpbsXAqO18N3cRW__-ySpKuY4tJiye4'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2960
+    weight: 2950
 ---
 
 

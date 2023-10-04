@@ -12,7 +12,7 @@ menu:
     name: 'Inventory Transaction Report'
     identifier: '1gRYfeUHGiLquKk9t2JdT7N9FB4E6usFStodhy2VLLUg'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4230
+    weight: 4220
 ---
 Show Transaction Report tab is located within the sidemenu tab named *Inventory*.  
 You can get to the Transaction Report and search fields by clicking this specific tab, or you can get to the Transaction Report by clicking on a specific medication item name or Lot Number hyperlink from the Show Inventory module and it will take you to this Transaction Report with fields prepopulate with that specific inventory item details to run the report by. This Transaction Report is a report of any and all transactions related to the inventory module.

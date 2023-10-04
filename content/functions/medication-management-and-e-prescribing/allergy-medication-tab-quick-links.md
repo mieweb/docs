@@ -12,7 +12,7 @@ menu:
     name: 'Allergy/Medication Tab - Quick Links'
     identifier: '1UjHeKBG_-NqC_E63USzFXrmo9BOyG9WuZ5yNv5ZXFkQ'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2180
+    weight: 2020
 ---
 ## Flow Link  
   

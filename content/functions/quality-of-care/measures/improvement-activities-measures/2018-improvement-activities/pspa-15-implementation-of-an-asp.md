@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 15 - Implementation of an ASP'
     identifier: '1vG326yCjcL3n8aKuMNJ9Hn1Ya7CgoSTkkltYZyQNpoU'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3540
+    weight: 3530
 ---
 
 

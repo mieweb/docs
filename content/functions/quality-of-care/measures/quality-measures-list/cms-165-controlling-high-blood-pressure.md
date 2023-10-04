@@ -17,7 +17,7 @@ menu:
     name: 'CMS 165 - Controlling High Blood Pressure'
     identifier: '1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 4050
+    weight: 4040
 ---
 ## Overview  
   

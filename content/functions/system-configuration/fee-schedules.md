@@ -12,7 +12,7 @@ menu:
     name: 'Fee Schedules'
     identifier: '1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
     parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-    weight: 310
+    weight: 2460
 ---
 In order to change or add any Fee Schedules, you must have security permission to Manage Fee Schedules. In order to change or add fee schedules to Insurance Plans, you must have security permission to Manage Insurance Plans. In order to utilize Fee Schedules, you must have CPT codes and picklists entered via the CPT codes module & tab. See other help instructions named *CPT Codes tab.pdf*
   

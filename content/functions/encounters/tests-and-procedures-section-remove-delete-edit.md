@@ -14,7 +14,7 @@ menu:
     name: 'Tests & Procedures Section - Remove, Delete, Edit'
     identifier: '1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1480
+    weight: 1320
 ---
 Before learning how to edit or delete or remove Tests or Procedures from an encounter visit, please see other help documentation [Tests & Procedures-Adding and Applying](tests-and-procedures-section-applying-adding-completing-resulting.md) so you are familiar with the Tests & Procedures section (pending Due List items) of the encounter and how procedures are displayed there and/or manually added to an encounter visit.
   

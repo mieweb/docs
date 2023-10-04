@@ -1,9 +1,9 @@
 ---
 id: '1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
 title: '_index'
-date: '2023-04-30T14:14:19.162Z'
-version: 791
-lastAuthor: 'Grzegorz Godlewski'
+date: '2023-08-09T01:47:53.787Z'
+version: 821
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'videos-and-demonstrations.md'
@@ -11,7 +11,7 @@ links:
   - 'functions.md'
   - 'rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
-wikigdrive: 'b491a582da59717ee958da4919ee86a43fce25fb'
+wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 ---
 Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
   
@@ -38,7 +38,7 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 {{% system-name %}} offers various solutions for Medical Practices. Check out our clinical and solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
   
-![](./_index.assets/583011e617445e23b65e649a61f094f7.png)  
+![](./_index.assets/8d791d120b53291e5596808c5ca0190c.png)  
 
 {{% /only %}}
 

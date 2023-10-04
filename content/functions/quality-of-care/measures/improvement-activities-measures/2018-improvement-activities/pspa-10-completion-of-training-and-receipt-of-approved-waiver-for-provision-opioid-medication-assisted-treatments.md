@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 10 - Completion of training and receipt of approved waiver for provision opioid medication-assisted treatments'
     identifier: '1ZTDXpMq4ui1ENOvtAmWca-hLbPYJi-S3AKfyl66HFy0'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3490
+    weight: 3480
 ---
 
 

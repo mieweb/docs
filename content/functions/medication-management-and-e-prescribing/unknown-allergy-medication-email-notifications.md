@@ -1,8 +1,9 @@
 ---
 id: '1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8'
 title: 'Unknown Allergy/Medication Email Notifications'
-date: '2020-02-27T20:05:47.758Z'
-version: 32
+date: '2023-09-26T20:41:34.117Z'
+version: 53
+lastAuthor: 'Ami Cook'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8'
@@ -12,7 +13,7 @@ menu:
     name: 'Unknown Allergy/Medication Email Notifications'
     identifier: '1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2190
+    weight: 2030
 ---
 As a superuser for your practice, your email may be programmed into a system setting to notify you of any one in your system that adds an unrecognized allergy or unrecognized medication/prescription. This email notification feature *can* be turned off entirely. Contact your MIE Implementer.
   

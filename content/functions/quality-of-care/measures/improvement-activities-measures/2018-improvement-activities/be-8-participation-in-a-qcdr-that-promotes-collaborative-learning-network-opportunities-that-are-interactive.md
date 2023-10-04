@@ -16,7 +16,7 @@ menu:
     name: 'BE 8 - Participation in a QCDR, that Promotes Collaborative Learning Network Opportunities that are Interactive'
     identifier: '1qMkrcRWeiGRDtj64PuT-a2jaoIxnHEblJNon5J6btnk'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2720
+    weight: 2710
 ---
 
 

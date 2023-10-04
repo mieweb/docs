@@ -13,7 +13,7 @@ menu:
     name: 'Basic Transcription - All Users'
     identifier: '19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1380
+    weight: 1220
 ---
 In the *Dictation* tab pending screen:  
 If the Physician used the phone to dictate or the general add dict link in the *Dictation* module (and not in a specific patient's E-Chart), it will **not** show patient's name or DOB.  

@@ -15,7 +15,7 @@ menu:
     name: 'Injection Tab'
     identifier: '1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
     parent: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
-    weight: 2280
+    weight: 2120
 ---
 ## **View Injections/Immunizations**  
   

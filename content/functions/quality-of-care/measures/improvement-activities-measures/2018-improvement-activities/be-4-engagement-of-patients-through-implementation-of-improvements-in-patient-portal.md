@@ -16,7 +16,7 @@ menu:
     name: 'BE 4 - Engagement of Patients through Implementation of Improvements in Patient Portal'
     identifier: '1H4PkE0e1TAk9tFpwJKp6h80svnTj9xzdV5vphnZDzN8'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2680
+    weight: 2670
 ---
 
 

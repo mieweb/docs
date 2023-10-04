@@ -13,7 +13,7 @@ menu:
     name: 'Printing TIFFs'
     identifier: '174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
     parent: '1NHBPyY_YvI92JSil-rc3O0Kpu5qYLkdKWZTNjlzQpNY'
-    weight: 750
+    weight: 810
 ---
 ## Printing Documents from a Tiff Printer  
 

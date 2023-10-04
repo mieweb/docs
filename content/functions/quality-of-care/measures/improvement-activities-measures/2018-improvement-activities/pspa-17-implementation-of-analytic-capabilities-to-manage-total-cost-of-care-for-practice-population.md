@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 17 - Implementation of Analytic Capabilities to Manage Total Cost of Care for Practice Population'
     identifier: '1jzQHdtDlyEubKE4gVUnA0H6H-UoSrbbwEkdrfquOK6I'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3560
+    weight: 3550
 ---
 
 

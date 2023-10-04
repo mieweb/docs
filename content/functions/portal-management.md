@@ -21,7 +21,7 @@ menu:
     name: 'Portal Management'
     identifier: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 1200
+    weight: 1040
 ---
 
 

@@ -17,7 +17,7 @@ menu:
     name: 'Document Management'
     identifier: '1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 360
+    weight: 420
 ---
 
 

@@ -16,7 +16,7 @@ menu:
     name: 'BE 7 - Participation in a QCDR, that Promotes Use of Patient Engagement Tools'
     identifier: '1iq0qdKePDblc3KH_IB-mi9YQozyNfAZ0aTnETFZS0Mg'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2710
+    weight: 2700
 ---
 
 

@@ -12,7 +12,7 @@ menu:
     name: 'Observations Tab'
     identifier: '13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-    weight: 1950
+    weight: 1790
 ---
 Click *E-Chart* on the left sidebar menu.  
 Search and select the patient.  

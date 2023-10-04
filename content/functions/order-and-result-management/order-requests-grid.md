@@ -13,7 +13,7 @@ menu:
     name: 'Order Requests Grid'
     identifier: '199nDYD4Cbf7b43xTuYJNIEVtTkRYV9TVPWdD6JKZQnQ'
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-    weight: 1930
+    weight: 1770
 ---
 ## Order Requests  
   

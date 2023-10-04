@@ -14,7 +14,7 @@ menu:
     name: 'Medication Management & E-Prescribing'
     identifier: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 2000
+    weight: 1840
 ---
 
 

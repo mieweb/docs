@@ -13,7 +13,7 @@ menu:
     name: 'Drug Plan and Formularies'
     identifier: '1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2140
+    weight: 1980
 ---
 {{% note %}}
 

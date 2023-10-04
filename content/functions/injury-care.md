@@ -2,7 +2,7 @@
 id: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
 title: 'Injury Care'
 date: '2022-08-25T08:42:18.937Z'
-version: 69
+version: 74
 lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ menu:
     name: 'Injury Care'
     identifier: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 1610
+    weight: 1450
 ---
 
 

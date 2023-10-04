@@ -16,7 +16,7 @@ menu:
     name: 'BE 16 - Evidenced-based Techniques to Promote Self-management into Usual Care'
     identifier: '11h3KmdVGHkRPhrVuoIuYvCGxKT3q_8KBPXG1_4uOou4'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2800
+    weight: 2790
 ---
 
 

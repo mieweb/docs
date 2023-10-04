@@ -17,7 +17,7 @@ menu:
     name: 'PSPA 4 - Administration of the AHRQ Survey of Patient Safety Culture'
     identifier: '1lriNLCP62tQRh1kYqbbtOCcwJS-mEd2j_d2dTVohfnE'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3430
+    weight: 3420
 ---
 
 

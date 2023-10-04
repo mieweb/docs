@@ -2,7 +2,7 @@
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
 date: '2023-07-14T20:17:06.055Z'
-version: 88
+version: 90
 lastAuthor: 'Smith Drupa'
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ menu:
     name: 'Using DataVis Grids - Data Tools'
     identifier: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4070
+    weight: 4060
 ---
 *The actual grid you use may differ slightly in appearance from the examples below. Some grids may be configured specifically to disallow certain features.*
   

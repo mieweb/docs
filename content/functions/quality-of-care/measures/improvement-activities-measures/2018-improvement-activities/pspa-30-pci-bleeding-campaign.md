@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 30 - PCI Bleeding Campaign'
     identifier: '1aNkKQqFYdNB0uTh8RC96vStGxXdS4644mTxV_x24gF4'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3690
+    weight: 3680
 ---
 
 

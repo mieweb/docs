@@ -12,7 +12,7 @@ menu:
     name: 'Encounter Summary Toolbar'
     identifier: '1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1540
+    weight: 1380
 ---
 At the top of the patient's chart is a VIS.TYPE: summary line. VIS.TYPE stands for the encounter visit type that is set as current on your view.  
 This is a summary line of the current encounter opened / closed or set as current for the patient.  

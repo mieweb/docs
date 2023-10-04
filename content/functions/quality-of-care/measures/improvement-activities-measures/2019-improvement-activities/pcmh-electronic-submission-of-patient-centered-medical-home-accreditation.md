@@ -16,7 +16,7 @@ menu:
     name: 'PCMH - Electronic Submission of Patient Centered Medical Home Accreditation'
     identifier: '1XjBcfnKg2XIIpISVnvHkHBHuOCLQP9gKrJGJx_QHNNA'
     parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3750
+    weight: 3740
 ---
 
 

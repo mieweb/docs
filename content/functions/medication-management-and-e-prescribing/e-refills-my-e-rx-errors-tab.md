@@ -12,7 +12,7 @@ menu:
     name: 'E-Refills - My E-Rx Errors Tab'
     identifier: '14D4jugRUV60ZlpKzbFhIJtsqz_dnwy15jlyn66sUvxM'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2090
+    weight: 1930
 ---
 You can get to this tab by clicking on the E-Refills link in the alert taskbar at the top (if you have pending e-refills that need done) OR you can access this tab by going into E-Chart sidemenu tab, then selecting the E-Rx tab at the top.  
 The MY E-RX ERRORS tab is where to go to view and work your (the logged in e-Prescriber) specific e-script errors.  

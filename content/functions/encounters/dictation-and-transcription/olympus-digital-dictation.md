@@ -13,7 +13,7 @@ menu:
     name: 'Olympus Digital Dictation'
     identifier: '1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1420
+    weight: 1260
 ---
 MIE must first turn on the ability to transfer Olympus DS-330 dictation if you are using Olympus mikes. If you are using SpeechMikes, please see other help documentation named *SpeechMike Dictation*.
   

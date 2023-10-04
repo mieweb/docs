@@ -2,7 +2,7 @@
 id: '1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
 title: 'Editing Encounter Dictations'
 date: '2020-03-12T20:59:42.218Z'
-version: 45
+version: 55
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ menu:
     name: 'Editing Encounter Dictations'
     identifier: '1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1350
+    weight: 1190
 ---
 Log into {{% system-name %}} and click on the left sidebar menu tab called DICTATION.  
 You will open to the ALL PENDING tab of the dictation module.  

@@ -13,7 +13,7 @@ menu:
     name: 'Guideline Report'
     identifier: '1RWPdiF4m082Uy3ENvU-4lRS_edV78dltrktYW6cA70s'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4210
+    weight: 4200
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Guideline Report displays results/list showing all patients that are past due (non compliant) for a clinical guideline, which the criteria for being considered "past due" or "non-compliant" is programmed as a Scripted Rule in {{% system-name %}} . If the patient is "past due" or "non compliant" with the criteria you've asked MIE to program for a specific guideline, those will appear as "Guideline Alerts" in the patient's chart wherever *Warnings* are shown. Ex: diabetic patient past due for a foot exam, pregnancy patient past due for a Glucose test, patient's doe for a DTaP Injection, etc.

@@ -1,9 +1,9 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2021-12-17T15:27:04.732Z'
-version: 272
-lastAuthor: 'sriecke'
+date: '2023-08-23T21:41:58.786Z'
+version: 304
+lastAuthor: 'Lindsay Riggle'
 mimeType: 'text/x-markdown'
 links:
   - 'observations-tab.md'
@@ -16,7 +16,7 @@ menu:
     name: 'Flowsheets Editor'
     identifier: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-    weight: 1990
+    weight: 1830
 ---
 The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](observations-tab.md) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](observation-codes-editor.md) and [Observation Code Merging](observation-code-merging.md) documentation.
   

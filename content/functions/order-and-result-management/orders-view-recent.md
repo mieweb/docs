@@ -13,7 +13,7 @@ menu:
     name: 'Orders - View Recent'
     identifier: '1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k'
     parent: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-    weight: 1940
+    weight: 1780
 ---
 To view recent orders (existing orders) that the patient has had created/ordered for them, click View Recent at the top right of the screen.
   

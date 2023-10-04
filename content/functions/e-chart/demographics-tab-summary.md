@@ -17,7 +17,7 @@ menu:
     name: 'Demographics Tab Summary'
     identifier: '1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 1030
+    weight: 330
 ---
 To navigate to the patient **Demographics** chart tab, search for the chart from the [E-Chart](https://system/?f=chart) sidemenu. Get into the chart, and click on the **Admin** chart tab. Demographics is available as a subtab of the Admin chart tab.
 

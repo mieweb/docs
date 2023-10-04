@@ -16,7 +16,7 @@ menu:
     name: 'CC 11 - Care Transition Standard Operational Improvements'
     identifier: '1fBBZoVKj65j4pAZvv0Qc-ihM7uWVzUJCaoaMS_snMX0'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3070
+    weight: 3060
 ---
 
 

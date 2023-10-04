@@ -16,7 +16,7 @@ menu:
     name: 'CC 5 - CMS Partner in Patients Hospital Engagement Network'
     identifier: '1I6gw0h_zhrHSC7KDRuSI3CxlgMfd42qWAZjLBbjUT9s'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3010
+    weight: 3000
 ---
 
 

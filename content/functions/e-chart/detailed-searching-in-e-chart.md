@@ -16,7 +16,7 @@ menu:
     name: 'Detailed Searching in E-Chart'
     identifier: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
     parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 910
+    weight: 210
 ---
 When in the {{% system-name %}} system, the [E-Chart](https://system/?f=chart) sidemenu tab displays recent charts you've accessed, along with ability to search charts by different methods.  E-Chart automatically defaults to search in **Simple** search.
 

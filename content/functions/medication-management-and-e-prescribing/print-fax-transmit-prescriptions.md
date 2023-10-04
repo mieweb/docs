@@ -12,7 +12,7 @@ menu:
     name: 'Print/Fax/Transmit Prescriptions'
     identifier: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2070
+    weight: 1910
 ---
 Printing a prescription will render the prescription on paper from your printer you are hooked up to.  
 Transmit will send the prescription by a SureScripts electronic transmission (if the receiving pharmacy is SureScripts capable). If the pharmacy is not capable of receiving electronic transmissions, your prescription will automatically default to a manual fax to that pharmacy.

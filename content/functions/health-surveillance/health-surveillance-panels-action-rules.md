@@ -13,7 +13,7 @@ menu:
     name: 'Health Surveillance Panels - Action Rules'
     identifier: '10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc'
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-    weight: 1790
+    weight: 1630
 ---
 Users must have security access to be in Health Surveillance Management control tab.  
 On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)

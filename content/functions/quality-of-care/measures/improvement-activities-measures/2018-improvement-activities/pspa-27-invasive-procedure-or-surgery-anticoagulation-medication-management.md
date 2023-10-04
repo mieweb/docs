@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 27 - Invasive Procedure or Surgery Anticoagulation Medication Management'
     identifier: '1H4V-7zWMBH0I5hpKrgkNt7LeDhKI-YeWOhocBbYlkBI'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3660
+    weight: 3650
 ---
 
 

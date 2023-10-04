@@ -2,7 +2,7 @@
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
 date: '2021-02-24T15:17:03.005Z'
-version: 122
+version: 126
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
@@ -15,7 +15,7 @@ menu:
     name: 'Appt Types Tab'
     identifier: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1160
+    weight: 1000
 ---
 # About *Appt Types* tab  
   

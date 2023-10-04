@@ -16,7 +16,7 @@ menu:
     name: 'AHE 7 - Comprehensive Eye Exams'
     identifier: '1tkvB5yBrfJpbD-kickGvXtml11DdU0LztIsCsJogECU'
     parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3710
+    weight: 3700
 ---
 
 

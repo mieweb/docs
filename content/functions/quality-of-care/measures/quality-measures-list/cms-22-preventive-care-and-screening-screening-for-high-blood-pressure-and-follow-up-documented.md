@@ -17,7 +17,7 @@ menu:
     name: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
     identifier: '1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3800
+    weight: 3790
 ---
 ## Overview  
   

@@ -13,7 +13,7 @@ menu:
     name: 'Scheduler Views'
     identifier: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1140
+    weight: 980
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

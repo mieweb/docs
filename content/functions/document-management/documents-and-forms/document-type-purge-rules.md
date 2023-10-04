@@ -16,7 +16,7 @@ menu:
     name: 'Document Type Purge Rules'
     identifier: '1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 630
+    weight: 690
 ---
 Removing items from a {{% system-name %}} system requires establishing what are called *purge rules*. Purge rules are used for deleting an assortment of file types. Deleting documents in {{% system-name %}} is somewhat different than purging DICOM images, dictations, or batches. For instance, when DICOM images are purged, their database record is retained. Therefore, if a purged DICOM image was archived before purging, the purged image would be able to be restored.
 

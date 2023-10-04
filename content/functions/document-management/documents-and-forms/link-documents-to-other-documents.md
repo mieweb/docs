@@ -17,7 +17,7 @@ menu:
     name: 'Link Documents to Other Documents'
     identifier: '1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 530
+    weight: 590
 ---
 The {{% system-name %}} system has the ability to link one document to another document, whenever necessary. For example, a radiology report may be linked to an x-ray image. Performing this type of link can be done from either the document properties or multi-review screen of the [E-Sign](https://system/?func=esign) module.  
 {{% note %}}

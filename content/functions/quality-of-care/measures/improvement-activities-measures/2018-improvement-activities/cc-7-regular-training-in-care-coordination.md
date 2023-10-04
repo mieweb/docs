@@ -16,7 +16,7 @@ menu:
     name: 'CC 7 - Regular Training in Care Coordination'
     identifier: '123EvV_ti8DIBvPfVtqjpZ_DUXWvNnPNefC-TOqFoch0'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3030
+    weight: 3020
 ---
 
 

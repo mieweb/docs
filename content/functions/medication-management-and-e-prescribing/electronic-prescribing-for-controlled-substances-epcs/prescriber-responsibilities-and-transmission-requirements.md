@@ -26,7 +26,7 @@ menu:
     name: 'Prescriber Responsibilities & Transmission Requirements'
     identifier: '1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
     parent: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
-    weight: 2040
+    weight: 1880
 ---
 
 

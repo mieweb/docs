@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 21 - Implementation of Fall Screening and Assessment Programs'
     identifier: '1GQU6K0OpGc9Mo9S8Bt6ywQN6s8oJa9E9SbQhoJKnfXo'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3600
+    weight: 3590
 ---
 
 

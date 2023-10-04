@@ -15,7 +15,7 @@ menu:
     name: 'Batch Search in WebScan'
     identifier: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
     parent: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-    weight: 710
+    weight: 770
 ---
 In order to access the [WebScan](https://system/?f=miewebscan) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](scanning.md) help documentation.  
 To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any Checked-In batches will be listed under the Batch list view, by default. The Checked-in batches are various scanned documents ready to be indexed into the system.

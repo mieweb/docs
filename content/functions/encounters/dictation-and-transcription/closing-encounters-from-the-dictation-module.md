@@ -13,7 +13,7 @@ menu:
     name: 'Closing Encounters from the Dictation Module'
     identifier: '1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1370
+    weight: 1210
 ---
 Transcriptionists can have the right to close & archive encounters after they are done with the dictation attached to the encounter. This is a system setting that is off by default and must be turned on by your system administrator. Transcriptionists can archive & close encounters when done so that it helps the workflow or work load for the physician and the physician doesn't have to go back in and archive/close it when transcription is done.  
 Physicians and other users cannot archive & close an encounter if dictation is attached to the encounter. The dictation has to be completed by the transcriptionists before any encounter can be closed & archived. A preliminary archive *can* be done, but after transcription is done, the transcriptionist can close/archive the encounter, or leave as is and the physician/user can close & archive it from their open encounters worklist (usually found in Omniscope tab).  

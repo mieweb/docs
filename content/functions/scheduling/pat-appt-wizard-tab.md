@@ -12,7 +12,7 @@ menu:
     name: 'Pat/Appt Wizard Tab'
     identifier: '12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1110
+    weight: 950
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

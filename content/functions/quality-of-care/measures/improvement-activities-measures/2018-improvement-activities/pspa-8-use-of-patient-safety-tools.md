@@ -17,7 +17,7 @@ menu:
     name: 'PSPA 8 - Use of Patient Safety Tools'
     identifier: '1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3470
+    weight: 3460
 ---
 
 

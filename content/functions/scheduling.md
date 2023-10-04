@@ -13,7 +13,7 @@ menu:
     name: 'Scheduling'
     identifier: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 1090
+    weight: 930
 ---
 
 

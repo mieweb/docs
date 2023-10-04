@@ -2,7 +2,7 @@
 id: '1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8'
 title: 'Routing Dictation'
 date: '2020-02-27T19:51:41.120Z'
-version: 36
+version: 39
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8'
@@ -12,7 +12,7 @@ menu:
     name: 'Routing Dictation'
     identifier: '1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8'
     parent: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    weight: 1360
+    weight: 1200
 ---
 Dictation uploaded can be routed with special rules. Contact your MIE Implementer if you wish any dictation that uploads to be routed to a specific user (transcriptionist), for a specific job type, etc. Many different routes (rules) can be programmed to look at uploaded/incoming dictation. Please contact your MIE Implementer for help.  
 You must have security access to *Routing Tab Access* set to Yes. If you are set to no, you will not even see the Routing tab in the Dictation sidemenu tab. If you have security access to the Routing tab, you will see the Routing tab at the top of the Dictation sidemenu tab feature.

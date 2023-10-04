@@ -14,7 +14,7 @@ menu:
     name: 'Delete/Move/Lock Documents'
     identifier: '1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 480
+    weight: 540
 ---
 In order to delete, move, or lock documents found within a chart, users must have the proper security permissions granted. There are a few specific security permissions that control what can be done with documents within a chart. These security permission settings are: *Document Move*, *Document Lock*, *Document Delete*, and *Document Un-Delete*.
   

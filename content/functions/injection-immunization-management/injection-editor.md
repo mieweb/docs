@@ -13,7 +13,7 @@ menu:
     name: 'Injection Editor'
     identifier: '184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
     parent: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
-    weight: 2330
+    weight: 2170
 ---
 If you have security to manage injection codes, you will be able to access the Injections Editor tab.  
 The Injections Editor tab is located in the sidemenu tab named Control.  

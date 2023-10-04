@@ -12,7 +12,7 @@ menu:
     name: 'PI_EP_1 -- e-Prescribing'
     identifier: '1QQ_PCqt0R3IeEpLRUSPy4GkOJDqV93UCYzdqrWMEXbQ'
     parent: '1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
-    weight: 2550
+    weight: 2540
 ---
 **Description**:  At least one permissible prescription written by the MIPS eligible clinician is queried for a drug formulary and transmitted electronically using CEHRT.  
 **Participation**:  The authorization by a MIPS eligible clinician to a pharmacist to dispense a drug that the pharmacist would not dispense to the patient without such authorization. Permissible Prescriptions – All drugs meeting the current definition of a prescription as the authorization by a clinician to dispense a drug that would not be dispensed without such authorization and may include electronic prescriptions of controlled substances where creation of an electronic prescription for the medication is feasible using CEHRT and where allowable by state and local law.   

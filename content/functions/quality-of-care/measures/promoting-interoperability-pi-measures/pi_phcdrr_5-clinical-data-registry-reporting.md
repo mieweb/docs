@@ -12,7 +12,7 @@ menu:
     name: 'PI_PHCDRR_5 -- Clinical Data Registry Reporting'
     identifier: '1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
     parent: '1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
-    weight: 2560
+    weight: 2550
 ---
 **Description**:  Clinical Data Registry Reporting  
 **Participation**:  The MIPS eligible clinician is in the process of moving towards sending "production data" to a public health agency or clinical data registry, or is sending production data to a public health agency (PHA) or clinical data registry (CDR).  

@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 19 - Implementation of Formal Quality Improvement Methods, Practice Changes, or Other Practice Improvement Processes'
     identifier: '1Ks168BJn6m2SMUbB3tKUpGbluxd780aWFCPPbq2gzdU'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3580
+    weight: 3570
 ---
 
 

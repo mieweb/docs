@@ -19,7 +19,7 @@ menu:
     name: 'CMS 90 - Functional Status Assessments for Congestive Heart Failure'
     identifier: '18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3850
+    weight: 3840
 ---
 ## Overview  
   

@@ -12,7 +12,7 @@ menu:
     name: 'Work-Related Exams'
     identifier: '15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1430
+    weight: 1270
 ---
 
 

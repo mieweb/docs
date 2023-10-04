@@ -13,7 +13,7 @@ menu:
     name: 'Encounter Checkout Chart Tab'
     identifier: '16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1560
+    weight: 1400
 ---
 When working in an encounter and when on the "view" of the encounter, down at the bottom of that encounter "view" you will see *Encounter Options*. This same *Encounter Options* section can be accessed by the *Encounter Checkout* chart tab in your system.  
 When working in {{% system-name %}} , you can have an *Encounter Checkout* chart tab programmed. If it's not programmed already, please contact your MIE Implementer.  

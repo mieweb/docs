@@ -1,9 +1,9 @@
 ---
 id: '1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
 title: 'Security Best Practices'
-date: '2020-03-09T18:45:50.193Z'
-version: 39
-lastAuthor: ''
+date: '2023-10-04T18:40:22.514Z'
+version: 49
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html'
@@ -16,8 +16,8 @@ menu:
   main:
     name: 'Security Best Practices'
     identifier: '1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-    parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 880
+    parent: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
+    weight: 2470
 ---
   
 {{% system-name %}} strives to maintain the highest standards of security with various guidelines and technical requirements intended to safeguard against outside threats and ensure secure and private interactions between the various systems across its networks. Below are various concepts important to understanding the significance of registration, identity proofing, authentication protocols, and the like. This information is in no way intended to replace or supersede any existing organization's policies and procedures regarding information technology and security; this information is simply intended to offer best practices. Clients shall always comply with their organization's policies and procedures. 
@@ -31,6 +31,7 @@ Passwords are an important part of the [login credentials](#gjdgxs) and a criti
 
 {{% /column %}}
 {{% column %}}
+
   
 ## NIST's Digital Identity Guidelines  
 
@@ -39,6 +40,7 @@ The National Institute of Standards and Technology (NIST) develops Federal Infor
 As part of the catalog of guidelines, NIST has developed [Digital Identity Guidelines](https://pages.nist.gov/800-63-3/).
 
 {{% /column %}}
+{{% /section %}}
   
 ## Tips & Key Concepts  
 

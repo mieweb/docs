@@ -13,7 +13,7 @@ menu:
     name: 'Scanner Cleaning'
     identifier: '181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ'
     parent: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-    weight: 660
+    weight: 720
 ---
 ## Recommended Cleaning  
   

@@ -18,7 +18,7 @@ menu:
     name: 'CMS 68 - Documentation of Current Medications in the Medical Record'
     identifier: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3820
+    weight: 3810
 ---
 ## Overview  
   

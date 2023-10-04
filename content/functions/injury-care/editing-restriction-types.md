@@ -13,7 +13,7 @@ menu:
     name: 'Editing Restriction Types'
     identifier: '1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
     parent: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-    weight: 1730
+    weight: 1570
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related) when working in charts. Personnel may initiate an encounter to document and authorize work restrictions. The types of clinical restrictions choices available for staff to document, when working in charts, is customizable for the {{% system-name %}} system.  
 From the Control sidemenu tab, find and click the Restrictions Type tab.  A list of all clinical restriction types that are offered will display on the screen in alphabetical order.

@@ -12,7 +12,7 @@ menu:
     name: 'Injection/Immunization Management'
     identifier: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 2270
+    weight: 2110
 ---
 
 

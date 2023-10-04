@@ -19,7 +19,7 @@ menu:
     name: 'X-Ray Results Data Entry'
     identifier: '1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 620
+    weight: 680
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 

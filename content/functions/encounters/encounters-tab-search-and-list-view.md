@@ -13,7 +13,7 @@ menu:
     name: 'Encounters Tab - Search and List View'
     identifier: '1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
     parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1550
+    weight: 1390
 ---
 When you are in the patient's chart, you can click the VISITS chart tab and then get into the ENCOUNTERS sub-tab.  
 The encounters sub-tab shows an Encounter Search at the top, and then lists all encounters the patient has ever had. You must have security to view encounters to see this tab. This tab lists all the patient's encounters and you can view details of the encounter(s). Above this listing is the Encounter Search tool if you wish to use a search tool to narrow down results and find a specific encounter for the patient.

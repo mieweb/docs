@@ -16,7 +16,7 @@ menu:
     name: 'BE 17 - Use of Tools to Assist Patient Self-management'
     identifier: '1mcUrR3My2x_ALQTMoyVlHNRim_G3K0D5TAGe5yy8Css'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2810
+    weight: 2800
 ---
 
 

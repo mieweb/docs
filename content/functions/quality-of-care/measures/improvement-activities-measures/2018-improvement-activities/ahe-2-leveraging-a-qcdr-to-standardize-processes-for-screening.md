@@ -16,7 +16,7 @@ menu:
     name: 'AHE 2 - Leveraging a QCDR to Standardize Processes for Screening'
     identifier: '198p0hKvAsQuP1TewGw6uj4mIQH2xIXLAWTBnw65E3e0'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2600
+    weight: 2590
 ---
 
 

@@ -16,7 +16,7 @@ menu:
     name: 'BMH 7 - Implementation of Integrated Patient Centered Behavioral Health Model'
     identifier: '1kXzAtCGnVOjTwXtyAnniL9FZYw0vs3UsPqdBWRzTvug'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2940
+    weight: 2930
 ---
 
 

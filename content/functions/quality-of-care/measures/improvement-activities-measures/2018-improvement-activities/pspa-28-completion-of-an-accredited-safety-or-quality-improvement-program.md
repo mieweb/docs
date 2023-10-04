@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 28 - Completion of an Accredited Safety or Quality Improvement Program'
     identifier: '1kLDyLHjgKcskz4gdmvmRIhZ7BviTbOp36huUukFg0V4'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3670
+    weight: 3660
 ---
 
 

@@ -2,7 +2,7 @@
 id: '1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
 title: 'Inbound Application Installation: dicomd'
 date: '2020-03-24T15:49:30.238Z'
-version: 42
+version: 45
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ menu:
     name: 'Inbound Application Installation: dicomd'
     identifier: '1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
     parent: '1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U'
-    weight: 830
+    weight: 890
 ---
 The following will assist users with installing the dicom inbound application. To begin, simply initiate the installation of the webchart-dicom RPM.
 

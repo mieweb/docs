@@ -12,7 +12,7 @@ menu:
     name: 'Drug Interaction/Allergy Warnings'
     identifier: '1m0qyUJ0gzjNW32y7tnUzzTuwj0Fkv-wLTk6agxc8k-8'
     parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 2150
+    weight: 1990
 ---
 Drug interaction warnings and Allergy warnings will appear in E-Meds module when adding an allergy/intolerance or prescribing a med, or in the patient's medication history. {{% system-name %}} can generate a warning stating contraindications and duplicate therapies, so we encourage entering allergies for patients and current meds the patient is taking.  
 {{% system-name %}} currently imports the First DataBank (FDB) update files on a weekly basis on Saturday mornings at 2 am. MIE then does a complete dump and reload of our databases based on these files. At the end of this process, we update a table in the database that keeps track of changes in the database. A nightly job on each of the client servers checks for updates in the database file, and updates the rxdb database on the server from our "home" version of the database if necessary.  

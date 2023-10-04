@@ -2,7 +2,7 @@
 id: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
 title: 'E-Chart'
 date: '2020-02-27T19:44:20.933Z'
-version: 18
+version: 20
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
@@ -12,7 +12,7 @@ menu:
     name: 'E-Chart'
     identifier: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 870
+    weight: 180
 ---
 
 

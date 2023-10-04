@@ -16,7 +16,7 @@ menu:
     name: 'Measures'
     identifier: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
     parent: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-    weight: 2530
+    weight: 2520
 ---
 
 

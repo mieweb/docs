@@ -16,7 +16,7 @@ menu:
     name: 'PSPA 32 - Use of CDC Guideline for Clinical Decision Support to Prescribe Opioids for Chronic Pain via Clinical Decision Support'
     identifier: '1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo'
     parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3770
+    weight: 3760
 ---
 
 

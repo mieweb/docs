@@ -13,7 +13,7 @@ menu:
     name: 'Injection Tab - Vials'
     identifier: '11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
     parent: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
-    weight: 2300
+    weight: 2140
 ---
 ## **Add Vials**  
   

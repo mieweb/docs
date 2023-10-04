@@ -13,7 +13,7 @@ menu:
     name: 'Task Search'
     identifier: '1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
     parent: '1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
-    weight: 2370
+    weight: 2210
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 

@@ -17,7 +17,7 @@ menu:
     name: 'CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)'
     identifier: '1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
     parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3980
+    weight: 3970
 ---
 ## Overview  
   

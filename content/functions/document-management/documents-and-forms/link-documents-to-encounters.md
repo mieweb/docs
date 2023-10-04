@@ -15,7 +15,7 @@ menu:
     name: 'Link Documents to Encounters'
     identifier: '1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 520
+    weight: 580
 ---
 The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding encounter whether the encounter is open or closed. Linking a document to an encounter in a chart allows users to easily view the encounter and corresponding linked documents, all from one place. Security permission of *Link Documents to Encounters* must be permitted to users that need to link documents to encounters.
   

@@ -12,7 +12,7 @@ menu:
     name: 'Order & Result Management'
     identifier: '103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
     parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 1880
+    weight: 1720
 ---
 
 

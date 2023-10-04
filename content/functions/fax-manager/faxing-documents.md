@@ -14,7 +14,7 @@ menu:
     name: 'Faxing Documents'
     identifier: '1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g'
     parent: '1h4WYryKs4DeyPgg4oCW6NTLGr5yOYsEgUz8h7dkJXjg'
-    weight: 2460
+    weight: 2300
 ---
 ## Fax or Print an Individual Document from Chart  
   

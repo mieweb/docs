@@ -16,7 +16,7 @@ menu:
     name: 'BE 3 - Engagement with QIN-QIO to Implement Self-management Training Programs'
     identifier: '1-fqAMwYEz4o1hm0StnjrRGVTCmc1uhdUVscrM604G_o'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2670
+    weight: 2660
 ---
 
 

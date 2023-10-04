@@ -16,7 +16,7 @@ menu:
     name: 'CC 8 - Implementation of Documentation Improvements for Practice/Process Improvements'
     identifier: '15xY5e_Med4ieaB2h3muXWUPM3PYlHSz7GJl1X0FnNx4'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3040
+    weight: 3030
 ---
 
 

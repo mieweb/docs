@@ -13,7 +13,7 @@ menu:
     name: 'Adding an Appointment Using the Wizard Tab'
     identifier: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
     parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 1120
+    weight: 960
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

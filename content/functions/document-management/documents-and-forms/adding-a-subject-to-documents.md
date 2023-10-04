@@ -14,7 +14,7 @@ menu:
     name: 'Adding a Subject to Documents'
     identifier: '1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
     parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 510
+    weight: 570
 ---
 A **Subject** field is available when adding documents to the {{% system-name %}} system. This allows sketches, Word documents, PDF documents, text files, and others to have a subject associated with them at the time of creation, rather than having users edit the document properties after the file has been created, imported, or uploaded.
   

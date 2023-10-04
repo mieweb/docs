@@ -16,7 +16,7 @@ menu:
     name: 'CC 18 - Relationship-Centered Communication'
     identifier: '1j4d0DYyVAFMje4IttC5jVL87O9hga0httdk924b2R7A'
     parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3740
+    weight: 3730
 ---
 
 

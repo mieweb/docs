@@ -17,7 +17,7 @@ menu:
     name: 'PSPA 23 - Completion of CDC Training on Antibiotic Stewardship'
     identifier: '1agijzK1k4UmLLBHTmrIXY_afWkLtQOz-JAIxgiAkvz8'
     parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3620
+    weight: 3610
 ---
 
 

@@ -1,8 +1,9 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2020-02-27T20:12:25.056Z'
-version: 59
+date: '2023-10-04T16:18:31.429Z'
+version: 65
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
@@ -12,13 +13,13 @@ menu:
     name: 'Appointment Report'
     identifier: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
     parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4100
+    weight: 4090
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 The Appointment Report displays a report of found appointments  
 Click *Reports* tab on the left side-bar menu.  
 Click *Appt Report* tab from the top tab menu.  
-It will open to the Appointment Reports search fields.
+It will open to the Appointment Reports search fields. 
   
 ![](../appointment-report.assets/acd58d743fd0fab6a4248bc0ace84dc0.png)  
 
