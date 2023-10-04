@@ -1,8 +1,8 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2023-09-29T16:21:25.719Z'
-version: 161
+date: '2023-09-29T16:21:27.559Z'
+version: 163
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:

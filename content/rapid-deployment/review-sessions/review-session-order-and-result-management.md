@@ -2,7 +2,7 @@
 id: '1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
 title: 'Review Session - Order and Result Management'
 date: '2020-02-27T21:25:30.979Z'
-version: 26
+version: 28
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

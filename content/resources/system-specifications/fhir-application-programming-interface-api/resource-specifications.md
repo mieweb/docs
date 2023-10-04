@@ -2,7 +2,7 @@
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
 date: '2022-08-30T15:25:37.584Z'
-version: 503
+version: 514
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:

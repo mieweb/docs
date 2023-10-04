@@ -1,8 +1,8 @@
 ---
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
-date: '2021-09-24T19:55:27.332Z'
-version: 265
+date: '2023-09-07T20:03:38.610Z'
+version: 282
 lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:

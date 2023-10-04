@@ -2,7 +2,7 @@
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
 date: '2023-03-17T16:15:02.954Z'
-version: 292
+version: 294
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
