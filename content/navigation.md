@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2022-10-08T14:30:07.728Z'
-version: 253
-lastAuthor: 'Doug Horner'
+date: '2023-10-04T16:43:32.172Z'
+version: 271
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -21,20 +21,27 @@ links:
   - 'programs/quality-reporting.md'
   - 'programs/quality-reporting/brief-introduction-to-quality-reporting.md'
   - 'functions.md'
-  - 'functions/system-configuration.md'
-  - 'functions/system-configuration/chart-types-editor.md'
-  - 'functions/system-configuration/chart-tabs.md'
-  - 'functions/system-configuration/colors.md'
-  - 'functions/system-configuration/document-type-tab.md'
-  - 'functions/system-configuration/system-files-management.md'
-  - 'functions/system-configuration/locations-management.md'
-  - 'functions/system-configuration/locations-manager-tab.md'
-  - 'functions/system-configuration/work-locations-tab-work-regions.md'
-  - 'functions/system-configuration/managing-departments.md'
-  - 'functions/system-configuration/encounters-protocol-configuration-and-programming.md'
-  - 'functions/system-configuration/side-chart-configuration.md'
-  - 'functions/system-configuration/autocomplete-editor.md'
-  - 'functions/system-configuration/fee-schedules.md'
+  - 'functions/e-chart.md'
+  - 'functions/e-chart/basic-initial-system-information.md'
+  - 'functions/e-chart/online-help-and-notifications.md'
+  - 'functions/e-chart/detailed-searching-in-e-chart.md'
+  - 'functions/e-chart/quick-view-sidemenu.md'
+  - 'functions/e-chart/sidemenu-thumbtack-feature.md'
+  - 'functions/e-chart/quick-view-alerts-portlet.md'
+  - 'functions/e-chart/quick-view-due-list-portlet.md'
+  - 'https://drive.google.com/open?id=1a0lhtrZhc779kzoHYnLkvzdpKikN_gpKwkchW4HLgFA'
+  - 'functions/e-chart/super-user-quick-view-portlet.md'
+  - 'functions/e-chart/conditions.md'
+  - 'functions/e-chart/preventive-care-portlet.md'
+  - 'functions/e-chart/alerts-errors-failures-interactive-tab.md'
+  - 'functions/e-chart/alerts-tab-warnings.md'
+  - 'functions/e-chart/alert-comments.md'
+  - 'functions/e-chart/demographics-tab-summary.md'
+  - 'functions/e-chart/editing-demographics.md'
+  - 'functions/e-chart/insurance-eligibility-tab.md'
+  - 'functions/e-chart/insurance-summary-in-demographics-tab.md'
+  - 'functions/e-chart/patient-summary-interactive-chart-tab.md'
+  - 'https://drive.google.com/open?id=14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok'
   - 'functions/patient-registration.md'
   - 'functions/patient-registration/patient-registration-tab-manual-patient-entry.md'
   - 'functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
@@ -90,28 +97,6 @@ links:
   - 'functions/document-management/imaging/radomni.md'
   - 'functions/document-management/imaging/dicom-modality-work-list-mwl.md'
   - 'functions/document-management/imaging/techomni.md'
-  - 'functions/e-chart.md'
-  - 'functions/e-chart/security-best-practices.md'
-  - 'functions/e-chart/basic-initial-system-information.md'
-  - 'functions/e-chart/online-help-and-notifications.md'
-  - 'functions/e-chart/detailed-searching-in-e-chart.md'
-  - 'functions/e-chart/quick-view-sidemenu.md'
-  - 'functions/e-chart/sidemenu-thumbtack-feature.md'
-  - 'functions/e-chart/quick-view-alerts-portlet.md'
-  - 'functions/e-chart/quick-view-due-list-portlet.md'
-  - 'https://drive.google.com/open?id=1a0lhtrZhc779kzoHYnLkvzdpKikN_gpKwkchW4HLgFA'
-  - 'functions/e-chart/super-user-quick-view-portlet.md'
-  - 'functions/e-chart/conditions.md'
-  - 'functions/e-chart/preventive-care-portlet.md'
-  - 'functions/e-chart/alerts-errors-failures-interactive-tab.md'
-  - 'functions/e-chart/alerts-tab-warnings.md'
-  - 'functions/e-chart/alert-comments.md'
-  - 'functions/e-chart/demographics-tab-summary.md'
-  - 'functions/e-chart/editing-demographics.md'
-  - 'functions/e-chart/insurance-eligibility-tab.md'
-  - 'functions/e-chart/insurance-summary-in-demographics-tab.md'
-  - 'functions/e-chart/patient-summary-interactive-chart-tab.md'
-  - 'https://drive.google.com/open?id=14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok'
   - 'functions/scheduling.md'
   - 'functions/scheduling/schedule-management.md'
   - 'functions/scheduling/pat-appt-wizard-tab.md'
@@ -252,6 +237,21 @@ links:
   - 'functions/fax-manager/faxing-documents.md'
   - 'functions/fax-manager/fax-manager-tab-outbound-faxing.md'
   - 'functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md'
+  - 'functions/system-configuration.md'
+  - 'functions/system-configuration/chart-types-editor.md'
+  - 'functions/system-configuration/chart-tabs.md'
+  - 'functions/system-configuration/colors.md'
+  - 'functions/system-configuration/document-type-tab.md'
+  - 'functions/system-configuration/system-files-management.md'
+  - 'functions/system-configuration/locations-management.md'
+  - 'functions/system-configuration/locations-manager-tab.md'
+  - 'functions/system-configuration/work-locations-tab-work-regions.md'
+  - 'functions/system-configuration/managing-departments.md'
+  - 'functions/system-configuration/encounters-protocol-configuration-and-programming.md'
+  - 'functions/system-configuration/side-chart-configuration.md'
+  - 'functions/system-configuration/autocomplete-editor.md'
+  - 'functions/system-configuration/fee-schedules.md'
+  - 'functions/e-chart/security-best-practices.md'
   - 'functions/quality-of-care.md'
   - 'functions/quality-of-care/quality-reporting-enrollment.md'
   - 'functions/quality-of-care/provider-quality-of-care-status.md'
@@ -431,6 +431,7 @@ links:
   - 'functions/reports/medication-report.md'
   - 'functions/reports/non-compliant-report.md'
   - 'functions/reports/open-encounters-report.md'
+  - 'https://drive.google.com/open?id=1a1tJA-GG4ImSovy154uFVTiIvCWOfBHwZcjXuMV0Fuk'
   - 'functions/reports/osha-300-log-report.md'
   - 'functions/reports/orders-due-report.md'
   - 'functions/reports/orders-usage-report.md'
@@ -703,21 +704,28 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
    * [Quality Reporting](programs/quality-reporting.md)
       * [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
 * [Functions](functions.md)
-   * [System Configuration](functions/system-configuration.md)
-      * [Chart Types Editor](functions/system-configuration/chart-types-editor.md)
-      * [Chart Tabs](functions/system-configuration/chart-tabs.md)
-      * [Colors](functions/system-configuration/colors.md)
-      * [Document Type Tab](functions/system-configuration/document-type-tab.md)
-      * [System Files Management](functions/system-configuration/system-files-management.md)
-      * [Locations Management](functions/system-configuration/locations-management.md)
-      * [Locations Manager Tab](functions/system-configuration/locations-manager-tab.md)
-      * [Work Locations Tab - Work Regions](functions/system-configuration/work-locations-tab-work-regions.md)
-      * [Managing Departments](functions/system-configuration/managing-departments.md)
-      * [Encounters Protocol Configuration & Programming](functions/system-configuration/encounters-protocol-configuration-and-programming.md)
-      * [Side Chart Configuration](functions/system-configuration/side-chart-configuration.md)
-      * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
-      * [Fee Schedules](functions/system-configuration/fee-schedules.md)
-   * [Patient Registration](functions/patient-registration.md)
+   * QuickView
+   * [E-Chart](functions/e-chart.md)
+      * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
+      * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
+      * [Detailed Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
+      * [Quick View Sidemenu](functions/e-chart/quick-view-sidemenu.md)
+      * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
+      * [Quick View - Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
+      * [Quick View - Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
+      * [Quick View - Meaningful Use Portlet](https://drive.google.com/open?id=1a0lhtrZhc779kzoHYnLkvzdpKikN_gpKwkchW4HLgFA)
+      * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
+      * [Conditions](functions/e-chart/conditions.md)
+      * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
+      * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts-errors-failures-interactive-tab.md)
+      * [Alerts Tab - Warnings](functions/e-chart/alerts-tab-warnings.md)
+      * [Alert Comments](functions/e-chart/alert-comments.md)
+      * [Demographics Tab Summary](functions/e-chart/demographics-tab-summary.md)
+      * [Editing Demographics](functions/e-chart/editing-demographics.md)
+      * [Insurance Eligibility Tab](functions/e-chart/insurance-eligibility-tab.md)
+      * [Insurance Summary in Demographics Tab](functions/e-chart/insurance-summary-in-demographics-tab.md)
+      * [Patient Summary - Interactive Chart Tab](functions/e-chart/patient-summary-interactive-chart-tab.md)
+   * [Pocket System](https://drive.google.com/open?id=14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok)[Patient Registration](functions/patient-registration.md)
       * [Patient Registration Tab - Manual Patient Entry](functions/patient-registration/patient-registration-tab-manual-patient-entry.md)
       * [Medical Contacts - Contacts, Relationships, and User-Patient Relationships](functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
       * [Medical Record Numbers](functions/patient-registration/medical-record-numbers.md)
@@ -772,28 +780,6 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
          * [RadOmni](functions/document-management/imaging/radomni.md)
          * [DICOM Modality Work List (MWL)](functions/document-management/imaging/dicom-modality-work-list-mwl.md)
          * [TechOmni](functions/document-management/imaging/techomni.md)
-   * [E-Chart](functions/e-chart.md)
-      * [Security Best Practices](functions/e-chart/security-best-practices.md)
-      * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
-      * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
-      * [Detailed Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
-      * [Quick View Sidemenu](functions/e-chart/quick-view-sidemenu.md)
-      * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
-      * [Quick View - Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
-      * [Quick View - Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
-      * [Quick View - Meaningful Use Portlet](https://drive.google.com/open?id=1a0lhtrZhc779kzoHYnLkvzdpKikN_gpKwkchW4HLgFA)
-      * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
-      * [Conditions](functions/e-chart/conditions.md)
-      * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
-      * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts-errors-failures-interactive-tab.md)
-      * [Alerts Tab - Warnings](functions/e-chart/alerts-tab-warnings.md)
-      * [Alert Comments](functions/e-chart/alert-comments.md)
-      * [Demographics Tab Summary](functions/e-chart/demographics-tab-summary.md)
-      * [Editing Demographics](functions/e-chart/editing-demographics.md)
-      * [Insurance Eligibility Tab](functions/e-chart/insurance-eligibility-tab.md)
-      * [Insurance Summary in Demographics Tab](functions/e-chart/insurance-summary-in-demographics-tab.md)
-      * [Patient Summary - Interactive Chart Tab](functions/e-chart/patient-summary-interactive-chart-tab.md)
-      * [Pocket System](https://drive.google.com/open?id=14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok)
    * [Scheduling](functions/scheduling.md)
       * [Schedule Management](functions/scheduling/schedule-management.md)
       * [Pat/Appt Wizard Tab](functions/scheduling/pat-appt-wizard-tab.md)
@@ -934,6 +920,21 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
       * [Faxing Documents](functions/fax-manager/faxing-documents.md)
       * [Fax Manager Tab - Outbound Faxing](functions/fax-manager/fax-manager-tab-outbound-faxing.md)
       * [Outbound Faxing Email Notifications of Sent/Failed Faxes](functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md)
+   * [System Configuration](functions/system-configuration.md)
+      * [Chart Types Editor](functions/system-configuration/chart-types-editor.md)
+      * [Chart Tabs](functions/system-configuration/chart-tabs.md)
+      * [Colors](functions/system-configuration/colors.md)
+      * [Document Type Tab](functions/system-configuration/document-type-tab.md)
+      * [System Files Management](functions/system-configuration/system-files-management.md)
+      * [Locations Management](functions/system-configuration/locations-management.md)
+      * [Locations Manager Tab](functions/system-configuration/locations-manager-tab.md)
+      * [Work Locations Tab - Work Regions](functions/system-configuration/work-locations-tab-work-regions.md)
+      * [Managing Departments](functions/system-configuration/managing-departments.md)
+      * [Encounters Protocol Configuration & Programming](functions/system-configuration/encounters-protocol-configuration-and-programming.md)
+      * [Side Chart Configuration](functions/system-configuration/side-chart-configuration.md)
+      * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
+      * [Fee Schedules](functions/system-configuration/fee-schedules.md)
+      * [Security Best Practices](functions/e-chart/security-best-practices.md)
    * [Quality of Care](functions/quality-of-care.md)
       * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
       * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
@@ -1113,6 +1114,7 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
       * [Medication Report](functions/reports/medication-report.md)
       * [Non-Compliant Report](functions/reports/non-compliant-report.md)
       * [Open Encounters Report](functions/reports/open-encounters-report.md)
+      * [OSHA 300 Form Log Overlay](https://drive.google.com/open?id=1a1tJA-GG4ImSovy154uFVTiIvCWOfBHwZcjXuMV0Fuk)
       * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
       * [Orders Due Report](functions/reports/orders-due-report.md)
       * [Orders Usage Report](functions/reports/orders-usage-report.md)
