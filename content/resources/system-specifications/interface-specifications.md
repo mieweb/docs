@@ -2,7 +2,7 @@
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
 date: '2023-09-12T14:23:59.037Z'
-version: 2306
+version: 2320
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:

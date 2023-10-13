@@ -2,7 +2,7 @@
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
 date: '2022-11-02T12:53:42.362Z'
-version: 93
+version: 95
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
