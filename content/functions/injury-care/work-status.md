@@ -1,9 +1,9 @@
 ---
 id: '1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
 title: 'Work Status'
-date: '2022-02-28T13:19:38.720Z'
-version: 90
-lastAuthor: 'sriecke'
+date: '2023-10-16T17:47:07.508Z'
+version: 101
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
@@ -28,13 +28,13 @@ Under the grid showing any recommendations (medical opinions) that are on the pa
   
 ![](../work-status.assets/189e784163d07c7fbbcc550856a8b531.png)  
 
-The free text box for *Work Status Introductions* is an optional are to free type an introduction if this work status document is going to go to someone specific (ie: shared to a supervisor) and you want to type in some free text for an introduction making it more personal or offering expanded content.  
+The free text box for *Work Status Introductions* is an optional area to free type an introduction if this work status document is going to go to someone specific (ie: shared to a supervisor) and you want to type in some free text for an introduction making it more personal or offering expanded content.  
 Then apply the specific recommendation to the encounter exam that an opinion will be generated on. See separate help documentation titled *Encounters-Recommendations Section.*  
 When done working in the Recommendations section of the encounter, when you go to the encounter ‘view', the Recommendations section is shown along with any work status report generated introduction verbiage.
   
 ![](../work-status.assets/efaf94016f2b25c804c74e0c9a88d972.png)  
 
-If the *generate a work status* checkbox was checkmarked in the Recommendations section of the encounter, upon close/archive of the encounter, it will produce a separate (additional view) document stored to the patients' chart named *Work Status Report* which you can see on the encounter ‘view' of all documents archived from the encounter.
+If the *generate a work status* checkbox was checkmarked in the Recommendations section of the encounter, upon close/archive of the encounter, it will produce a separate (additional view) document stored to the patients' chart named *Work Status Report* which you can see on the encounter ‘view' of all documents archived from the encounter.  The additional encounter view *Work Status Report* document is created if the encounter exam has an additional layout view programmed on it to support Work Status Report.
   
 ![](../work-status.assets/ceb296a3a46040ea528b6b00899a2ae0.png)  
 
@@ -87,11 +87,11 @@ The Work Status portlet (in the Summary chart tab) of a patient/employee chart d
   
 ## Work Status Changes  
 
-Surveillance Changes section of displayed work status information (or in a generated work status report) will show data if the patient has previous status updates. If the patient had a previous health surveillance panel status and you had to re-enter recommendations on an existing current encounter, you will get the "Changes" section.
+Surveillance Changes section of displayed work status information (or in a generated work status report) will show data if the patient has previous status updates. If the patient had a previous health surveillance panel status and you had to re-enter recommendations on an existing current encounter, you will get the "Changes" section.  If the status changed in any way, this section will display.
   
 ![](../work-status.assets/ef0e7f159631fd17e9d2c45fe89928ed.png)  
 
-Whereas the "Status" section just lists all current surveillance panel statuses.
+Whereas the "Status" section just lists all current completed surveillance panel statuses.
   
 ![](../work-status.assets/3b94410ee5c373207078a2d5d7c00f8e.png)  
 
@@ -102,10 +102,6 @@ An email template named *Pat Work Status Report* can be utilized to email and sh
   
 ![](../work-status.assets/09b5990d5060fd98d8a8707949e79ab1.png)  
 
-  
-![](../work-status.assets/09b5990d5060fd98d8a8707949e79ab1.png)  
-  
- ![](../work-status.assets/09b5990d5060fd98d8a8707949e79ab1.png)  
 
   
 ## Portal  
