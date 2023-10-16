@@ -1,9 +1,9 @@
 ---
 id: '1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
 title: 'Due List'
-date: '2020-03-30T17:02:56.352Z'
-version: 95
-lastAuthor: ''
+date: '2023-10-16T19:15:07.134Z'
+version: 128
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/patient-summary-interactive-chart-tab.md'
@@ -17,11 +17,11 @@ menu:
     parent: '13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
     weight: 1680
 ---
-Tests or Procedures items that are "due" (pending) are displayed in dynamic encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
+Tests or Procedures items that are "due" (pending) are displayed in encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
   
 ## **Due List Portlet**  
   
-When viewing the Summary chart tab, there is a portlet available for display named Due List.  This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed, or marked declined/waived, etc. This list is managed in the Due List chart tab and/or from within dynamic encounters.  For more information on how portlets work in this chart tab, please see help guide named [Patient Summary-Interactive Chart Tab](../e-chart/patient-summary-interactive-chart-tab.md).
+When viewing the Summary chart tab, there is a portlet available for display named Due List.  This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed, or marked declined/waived, etc. This list is managed in the Due List chart tab and/or from within encounters.  For more information on how portlets work in this chart tab, please see help guide named [Patient Summary-Interactive Chart Tab](../e-chart/patient-summary-interactive-chart-tab.md).
 
   
 ![](../due-list.assets/077208948a72137467804504df849347.png)  
@@ -37,7 +37,7 @@ If a Health Surveillance Panel, the chart is a member of, has any comments (on t
 ![](../due-list.assets/39bb4d2750a2633317c5ee7e65db538e.png)  
 
 
-A Due List is a list of pending orders with due dates for a chart.  These can be managed in dynamic encounters, but also from the Due List chart tab. The list serves as a reminder for what is due or what is coming due or what is past due when working in the chart.  The Due List is separated into 3 different sections that are sortable, filterable lists in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to the [DataVis Grids-Data Tool](../reports/using-datavis-grids-data-tools.md) documentation.  
+A Due List is a list of pending orders with due dates for a chart.  These can be managed in encounters, but also from the Due List chart tab. The list serves as a reminder for what is due or what is coming due or what is past due when working in the chart.  The Due List is separated into 3 different sections that are sortable, filterable lists in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to the [DataVis Grids-Data Tool](../reports/using-datavis-grids-data-tools.md) documentation.  
 
   
 ![](../due-list.assets/8e99b87a4b386a6206418b5ebaad6ced.png)  
@@ -47,7 +47,25 @@ The Due List chart tab is comprised of 3 sections.  Pending Items, In Progress 
   
 ### **Pending Items Section**  
   
-Due List items in this section are pending tests or procedures on the chart that are pending to be done/completed.  Items could have been placed on here manually or the system could have automatically generated them based on Health Surveillance membership and automation to indicate what they are due for.  Managing Due List items along with Due Dates and Completed Dates are important as future Health Surveillance triggers off of those. Select the specific pending tests/procedures to work using the checkbox on the far left. Due Lists items can be managed individually or in mass utilizing the checkbox option.
+Due List items in this section are pending tests or procedures on the chart that are pending to be done/completed.  Items could have been placed on here manually or the system could have automatically generated them based on Health Surveillance membership and automation to indicate what they are due for.  Managing Due List items along with Due Dates and Completed Dates are important as future Health Surveillance triggers off of those.
+
+The datavis listing of Pending Due List items show columns of information.  
+* Options: The View Details hyperlink provides detailed revision information about the specific due list item
+* OrderName: is the name of the order item.  Order items are configured in the Order List Editor as well as applicable Health Surveillance Panels
+* Type: is the Order Item type that is configured to in the Order List Editor.  Type is ‘grouping' specific items into a general category ‘type'
+* Instructions: Instructions shown to a provider for orders triggered by this action.
+* Encounter: will populate the encounter visit type (and encounter ID number) if the due list item is in-progress or completed in any specific encounter
+* Panel: is the name of the Health Surveillance panel that the order item triggered from.  A Panel name here will show <strong>Req.</strong> in bold if that Health Surveillance Panel has any action item configured as Required for Certification.  If Panel column contents is blank, then the pending order item was not triggered as any part of Health Surveillance Panel needs and was placed on-demand or automated by other needs
+* Comments: will display any comments on the due list item when/if the item itself is edited
+* Due Date: is the date this pending order item is set to being due (typically configured at Health Surveillance Panel component level, but can be manually edited)
+* Visible Date: is the date this pending order item is set to being visible (typically configured at Health Surveillance Panel component level, but can be manually edited)
+* Create Date: is the date this pending order item was created on the chart
+* Appt Type: will display the waitlist appointment type that the pending order item (if triggered from Health Surveillance Panel needs) is set to in configuration
+* Scheduled: is the scheduled date of the associated waitlist Appt Type when/if scheduled (if triggered from Health Surveillance Panel needs)
+* Required: This will display <em>Yes, No, or Yes(*)</em>.  Yes if all of the order items/action items of the panel are configured as required for certification, No when none of the action items/Order items for the panel are required for certification, and Yes(*) when at least one order item/action item of the panel is configured as required for certification, but not all.
+* Passed: will display Pass, Fail, Permanent Fail, or Review for any due list item that is configured as Required for Certification, and where the due list item's pass/fail criteria has been indicated
+
+Select the specific pending tests/procedures to work using the checkbox on the far left. Due Lists items can be managed individually or in mass utilizing the checkbox option.
 
   
 ![](../due-list.assets/f18b8a0b3bab403834e29cd39e387423.png)  
@@ -145,7 +163,7 @@ When the screen refreshes, the waived item is moved from the Pending Items secti
   
 #### Add to Waitlist  
 
-This is an easy way for a user to generate waitlist appointments from the chart's due list.  These pending due list items will remain on the pending items section, but a waitlist appointment is generated to indicate that due list item test/procedure needs scheduled.  To do so, check-mark the specific pending due list item and click the Add to Waitlist button.
+This is an easy way for a user to generate waitlist appointments from the chart's due list.  These pending due list items will remain on the pending items section, but a waitlist appointment is generated to indicate that the due list item test/procedure needs to be scheduled.  To do so, check-mark the specific pending due list item and click the Add to Waitlist button.
 
   
 ![](../due-list.assets/44685967e1043b60f0a59829370fa485.png)  
