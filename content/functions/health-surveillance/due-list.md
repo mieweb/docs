@@ -1,8 +1,8 @@
 ---
 id: '1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
 title: 'Due List'
-date: '2023-10-16T19:15:07.134Z'
-version: 128
+date: '2023-10-16T19:26:24.989Z'
+version: 132
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -62,7 +62,7 @@ The datavis listing of Pending Due List items show columns of information.
 * Create Date: is the date this pending order item was created on the chart
 * Appt Type: will display the waitlist appointment type that the pending order item (if triggered from Health Surveillance Panel needs) is set to in configuration
 * Scheduled: is the scheduled date of the associated waitlist Appt Type when/if scheduled (if triggered from Health Surveillance Panel needs)
-* Required: This will display <em>Yes, No, or Yes(*)</em>.  Yes if all of the order items/action items of the panel are configured as required for certification, No when none of the action items/Order items for the panel are required for certification, and Yes(*) when at least one order item/action item of the panel is configured as required for certification, but not all.
+* Required: This will display <em>Yes, No, or Yes(</em><em>✹</em><em>)</em>.  Yes if all of the order items/action items of the panel are configured as required for certification, No when none of the action items/Order items for the panel are required for certification, and Yes(<em>✹</em>) when at least one order item/action item of the panel is configured as required for certification, but not all.
 * Passed: will display Pass, Fail, Permanent Fail, or Review for any due list item that is configured as Required for Certification, and where the due list item's pass/fail criteria has been indicated
 
 Select the specific pending tests/procedures to work using the checkbox on the far left. Due Lists items can be managed individually or in mass utilizing the checkbox option.
