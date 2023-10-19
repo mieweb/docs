@@ -1,13 +1,14 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2023-07-17T14:16:32.455Z'
-version: 61
-lastAuthor: 'Nicole Richardson'
+date: '2023-10-17T21:46:15.135Z'
+version: 68
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
   - 'https://github.com/mieweb/wcexport/blob/master/wcjson.py'
+  - 'https://github.com/mieweb/webchart-interface-examples'
   - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g7-Application-access-patient-selection.pdf'
   - 'https://www.healthit.gov/sites/default/files/170_315g7_application_access_patient_selection_v1_0_1_1.pdf'
   - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g8-Application-access-data-category-request.pdf'
@@ -41,6 +42,9 @@ Explore the {{% system-name %}} API, below.
 
 Though any coding language may be used, the following example is written in python:  
 [https://github.com/mieweb/wcexport/blob/master/wcjson.py](https://github.com/mieweb/wcexport/blob/master/wcjson.py)
+
+
+Other examples can be found here: [https://github.com/mieweb/webchart-interface-examples](https://github.com/mieweb/webchart-interface-examples)
 
 Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel for full visibility of the various objects and their APIs.
   
