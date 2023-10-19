@@ -2,7 +2,7 @@
 id: '1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
 title: 'Partition Manager'
 date: '2021-11-11T15:00:57.459Z'
-version: 101
+version: 104
 lastAuthor: 'jvaldez'
 mimeType: 'text/x-markdown'
 links: []

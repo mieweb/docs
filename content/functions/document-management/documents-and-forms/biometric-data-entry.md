@@ -2,7 +2,7 @@
 id: '1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
 title: 'Biometric Data Entry'
 date: '2022-10-19T11:51:58.503Z'
-version: 68
+version: 70
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
