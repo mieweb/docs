@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2023-10-04T16:43:32.172Z'
-version: 276
-lastAuthor: 'Bridget Hamm'
+date: '2023-10-13T16:23:33.741Z'
+version: 298
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -41,7 +41,6 @@ links:
   - 'functions/e-chart/insurance-eligibility-tab.md'
   - 'functions/e-chart/insurance-summary-in-demographics-tab.md'
   - 'functions/e-chart/patient-summary-interactive-chart-tab.md'
-  - 'https://drive.google.com/open?id=14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok'
   - 'functions/patient-registration.md'
   - 'functions/patient-registration/patient-registration-tab-manual-patient-entry.md'
   - 'functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
@@ -725,7 +724,7 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
       * [Insurance Eligibility Tab](functions/e-chart/insurance-eligibility-tab.md)
       * [Insurance Summary in Demographics Tab](functions/e-chart/insurance-summary-in-demographics-tab.md)
       * [Patient Summary - Interactive Chart Tab](functions/e-chart/patient-summary-interactive-chart-tab.md)
-   * [Pocket System](https://drive.google.com/open?id=14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok)[Patient Registration](functions/patient-registration.md)
+   * [Patient Registration](functions/patient-registration.md)
       * [Patient Registration Tab - Manual Patient Entry](functions/patient-registration/patient-registration-tab-manual-patient-entry.md)
       * [Medical Contacts - Contacts, Relationships, and User-Patient Relationships](functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
       * [Medical Record Numbers](functions/patient-registration/medical-record-numbers.md)
