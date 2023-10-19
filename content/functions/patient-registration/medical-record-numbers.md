@@ -11,7 +11,7 @@ menu:
   main:
     name: 'Medical Record Numbers'
     identifier: '1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg'
-    parent: '14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok'
+    parent: '1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
     weight: 410
 ---
 ## Deleting Medical Record Numbers (MRNs)  

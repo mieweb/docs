@@ -2,11 +2,17 @@
 id: '1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
 title: 'Patient Registration'
 date: '2020-02-27T19:34:21.430Z'
-version: 18
+version: 20
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
 wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+menu:
+  main:
+    name: 'Patient Registration'
+    identifier: '1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
+    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
+    weight: 380
 ---
 
 

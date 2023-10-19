@@ -12,7 +12,7 @@ menu:
   main:
     name: 'Patient Registration Tab - Manual Patient Entry'
     identifier: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
-    parent: '14gK-qIEJXjrh9CY09MHrlSYZpqzKdI_30crYIFjMFok'
+    parent: '1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
     weight: 390
 ---
 ## Manual Patient Registration  

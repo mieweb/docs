@@ -511,6 +511,7 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
          * [Orders Usage Report](functions/reports/orders-usage-report.md)
          * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md)
          * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
+         * [OSHA 300A Form Log Overlay](functions/reports/osha-300a-form-log-overlay.md)
          * [Panel Definition Report](functions/reports/panel-definition-report.md)
          * [Storage Report](functions/reports/storage-report.md)
          * [Task Report](functions/reports/task-report.md)
