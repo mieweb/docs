@@ -1,9 +1,9 @@
 ---
 id: '1a1tJA-GG4ImSovy154uFVTiIvCWOfBHwZcjXuMV0Fuk'
 title: 'OSHA 300 Form Log Overlay'
-date: '2023-10-04T20:23:20.858Z'
-version: 93
-lastAuthor: 'Alice Uhrick'
+date: '2023-10-23T16:25:49.913Z'
+version: 121
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1a1tJA-GG4ImSovy154uFVTiIvCWOfBHwZcjXuMV0Fuk'
@@ -35,7 +35,8 @@ To utilize the OSHA 300 form chart tab overlay functionality, found on an Employ
 * Utilize the Case section on specific encounter types deemed appropriate
 * Utilize OSHA Recordable (date determined recordable) within the case when applicable
 * Utilize Onsite injury/illness locations within the case when applicable
-   * Onsite injury/illness location selections are configured using the Location Hierarchy system editor.  See other help documentation titled <em>Locations Hierarchy</em> for detailed information on configuration.
+   * Onsite injury/illness location selections are configured using the Location Hierarchy system editor.  See other help documentation titled <em>Locations Hierarchy</em> for detailed information on configuration
+* Utilize Restrictions and Accommodation sections on specific encounter types deemed appropriate
 
    Capturing case (incident) detail on a patient or employee is done through encounters using the *Case* encounter section.  
   
@@ -52,7 +53,7 @@ To utilize the OSHA 300 form chart tab overlay functionality, found on an Employ
    You can also tell if the case (linked to the encounter you are working in) is OSHA recordable by seeing it displayed in the light grey bar in the header.
 
   
-   ![](../osha-300-form-log-overlay.assets/57677af2c372915d460b6150fd6694ac.png)  
+   ![](../osha-300-form-log-overlay.assets/b8777e234f04a6aa23f45aa35d5aedae.png)  
 
 
    Lastly, specific onsite location choices of where the onsite injury/illness occurred is within the Case encounter section.  Those auto-complete choices are configured in the Locations Hierarchy of the system editor and may be locations on a broad/vast level, or may have granular location choices that follow a location hierarchy within the company.
@@ -73,7 +74,12 @@ To utilize the OSHA 300 form chart tab overlay functionality, found on an Employ
    ## Overlaid Data on the OSHA 300 Form Log  
 
 
-   The **Year** overlaid on the form log will respect the year you've keyed into the search filter (or current logged in session Year will be the default if nothing indicated there). Note: the year **must** be in a 4 digit YYYY format. 
+   The **Year** overlaid on the form log will respect the year you've keyed into the search filter (or current logged in session Year will be the default if nothing indicated there). 
+
+{{% note %}}
+
+   Note: the year **must** be in a 4 digit YYYY format. 
+{{% /note %}}
   
    ![](../osha-300-form-log-overlay.assets/16e3e1717803c84a57f30f26a8850cc4.png)  
 
@@ -91,13 +97,13 @@ To utilize the OSHA 300 form chart tab overlay functionality, found on an Employ
 
   
    ## Step 1-2 side of the OSHA 300 Form log  
-  
+
    The OSHA 300 Form log is broken into steps and alpha identified columns.  We overlay the data and information to create this OSHA 300 Form log for the respected Employer Organization/onsite injury/illness location and/or hierarchy of locations.
 
    The following describes the Step 1 and Step 2 side of the Form log, which is columns A-F.
   
    ![](../osha-300-form-log-overlay.assets/895d65eaaf82e7984b2447889908988e.png)  
-  
+
    **A) Case No:** This is the unique case number identifier that the system assigns
 
    **B) Name:** This displays the last name,first name of the Employee's OSHA recordable case/incident.  If the case/incident were marked as a *privacy case* in that checkbox field, then the OSHA 300 Form log will say *Privacy Case* as the Employee's name.
@@ -130,7 +136,7 @@ To utilize the OSHA 300 form chart tab overlay functionality, found on an Employ
 
   
    ## Step 3-5 side of the OSHA 300 Form log  
-  
+
    The OSHA 300 Form log is broken into steps and alpha identified columns.  We overlay the data and information to create this OSHA 300 Form log for the respected Employer Organization/onsite injury/illness location and/or hierarchy of locations.
 
    The following describes the Step 1 and Step 2 side of the Form log, which is columns G-M.
@@ -149,12 +155,12 @@ To utilize the OSHA 300 form chart tab overlay functionality, found on an Employ
    Lost Time accommodation types are any of the 5** Lost Time** accommodation options. 
   
    ![](../osha-300-form-log-overlay.assets/f8f6f5f8706d5750c4ec2c11b7592406.png)  
-  
+
    The accommodation drop-down choices deemed *lost time* are looked at in the system setting *Lost Time Type*.  By default the 5 Lost Time accommodation choices are counted for this, but the system setting controls that.  
   
    ![](../osha-300-form-log-overlay.assets/500c0eeded3e6676744c04238b6813c1.png)  
-  
-   ****    
+
+   ****  
    **I) Job Transfer or Restriction:** If the employee has any restrictions linked to the OSHA recordable case/incident, then the column will display an X.  If the employee had no restrictions linked nor documented to the OSHA recordable case, then the column will be blank on the overlay.
   
    ![](../osha-300-form-log-overlay.assets/57d05bc039766755fafcb0f463ff46d2.png)  
@@ -182,7 +188,7 @@ To utilize the OSHA 300 form chart tab overlay functionality, found on an Employ
 
   
 ## Page Totals  
-  
+
 The OSHA 300 Form log overlay also has a **Page Totals** line, that adds up all the totals for all OSHA recordable listed cases (that have an onsite injury/illness location (or hierarchy) employer organization level) to the EO chart this is generated from.
 
   
@@ -190,13 +196,13 @@ The OSHA 300 Form log overlay also has a **Page Totals** line, that adds up all 
 
   
 ## Create OSHA 300 Log document  
-  
+
 At the very bottom of the OSHA 300 form/log chart tab output, there is a button *Create OSHA 300 Log*.
   
 ![](../osha-300-form-log-overlay.assets/d7517957c229abb55288a919c7be3cb8.png)  
 
 
-Clicking on that tab will automatically create and store a document of the output. This is ability to create the OSHA 300 Form as a snapshot in time and it stores as a document, within that EO's chart. The screen will refresh to show you the on-screen output still, but when you scroll back down to the bottom, you will see the stored OSHA 300 document (doc.type OSHA300).
+Clicking on that tab will automatically create and store a document of the output. This is the ability to create the OSHA 300 Form as a snapshot in time and it stores as a document, within that EO's chart. The screen will refresh to show you the on-screen output still, but when you scroll back down to the bottom, you will see the stored OSHA 300 document (doc.type OSHA300).
   
 ![](../osha-300-form-log-overlay.assets/edcf943ff45f6b246c9bcba62f964f11.png)  
 
@@ -208,8 +214,8 @@ This stored document is accessible from this OSHA 300 chart tab, and from any ot
 
   
 ## OSHA 300 Log Report  
-  
-When you access the OSHA 300 Log from the Safety reports tab, you will be taken to the *Common CaseSearch* report search criteria filters. 
+
+When you access the OSHA 300 Log from the Safety reports tab, you will be taken to the *Common Case Search* report search criteria filters. 
   
 ![](../osha-300-form-log-overlay.assets/037309dd4a6730c5dcea1d8453e3d5d4.png)  
 
