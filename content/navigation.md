@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2023-10-13T16:23:33.741Z'
-version: 298
-lastAuthor: 'Doug Horner'
+date: '2023-10-23T16:41:38.083Z'
+version: 308
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -432,6 +432,7 @@ links:
   - 'functions/reports/open-encounters-report.md'
   - 'functions/reports/osha-300-form-log-overlay.md'
   - 'functions/reports/osha-300-log-report.md'
+  - 'functions/reports/osha-300a-form-log-overlay.md'
   - 'functions/reports/orders-due-report.md'
   - 'functions/reports/orders-usage-report.md'
   - 'functions/reports/observations-report.md'
@@ -1115,6 +1116,7 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
       * [Open Encounters Report](functions/reports/open-encounters-report.md)
       * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md)
       * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
+      * [OSHA 300A Form Log Overlay](functions/reports/osha-300a-form-log-overlay.md)
       * [Orders Due Report](functions/reports/orders-due-report.md)
       * [Orders Usage Report](functions/reports/orders-usage-report.md)
       * [Observations Report](functions/reports/observations-report.md)
