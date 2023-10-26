@@ -1,9 +1,9 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2021-12-06T16:40:10.096Z'
-version: 148
-lastAuthor: ''
+date: '2023-10-19T15:44:45.060Z'
+version: 191
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
@@ -20,7 +20,7 @@ The separate help documentation named [Working in a Legacy Encounter](working-i
   
 ## Chart Tabs  
   
-When working in a dynamic encounter, you will notice the tabs are the very top. Those are the patient chart tabs (chart tabs in the patient record). Browsing out to other chart tabs and  documents within the patients chart while working in an encounter is easy by accessing those tabs. The dynamic encounter auto-saves your work in real-time so there is no need to click the "save" button to save your work on an encounter before browsing out unless so desired on demand.  
+When working in a dynamic encounter, you will notice the tabs are the very top. Those are the patient chart tabs (chart tabs in the patient record). Browsing out to other chart tabs and  documents within the patient's chart while working in an encounter is easy by accessing those tabs. The dynamic encounter auto-saves your work in real-time so there is no need to click the "save" button to save your work on an encounter before browsing out unless so desired on demand.  
 When you scroll up in the encounter, these chart tabs will collapse and hide to help with real-estate on your screen. To access the chart tabs, simply scroll up just a bit with your mouse or finger (if using a touchscreen device). The chart tabs will reappear for accessibility.
 
   
@@ -60,7 +60,7 @@ The ‘stage' buttons are also available at the very bottom of the encounter.
 When working in a dynamic encounter, you will see function buttons on the far right top side. These are the same function buttons found at the bottom of the encounter, just presented in an image icon form. If you do not have security permission to *add dictation*, then you will not see the *Note Complete* function button since it's only related to dictation.
 
   
-![](../working-in-a-visit-encounter.assets/f4d6ff0078a8fbe0ccd2db309b0b7c63.png)  
+![](../working-in-a-visit-encounter.assets/09e1cd13a8beaf529926f3117f780a59.png)  
 
   
 ### Release  
@@ -197,31 +197,42 @@ So for example, if I wanted to key in another allergy that the patient states th
 When you click on a section title bar, the section will expand open to enable you to key in data. You can also edit existing data that lists in that section if you have security permissions.
 
   
-![](../working-in-a-visit-encounter.assets/ab15d1638a15c9075358bf0374ab04a7.png)  
+![](../working-in-a-visit-encounter.assets/1de8bdf3e80e7672011d78bb8460946d.png)  
 
-
-Clicking the ?Next button will save and close that section and expand open the section that is next for you to key in data. The ? icon at the top right of the section also performs as a "next" button.
 
   
-![](../working-in-a-visit-encounter.assets/d8d941964b74769995ef6cb365483cc4.png)  
+Clicking the ![](../working-in-a-visit-encounter.assets/a3d443ace87dc0342cac6046625439a6.png)  
+   
+button will save and close that section and expand open the section that is next for you to key in data. The ![](../working-in-a-visit-encounter.assets/a3d443ace87dc0342cac6046625439a6.png)  
+ at the top right of the section also performs as a "next" button.
+
+  
+![](../working-in-a-visit-encounter.assets/a64ce62c77cf52d950ddab5ed7181201.png)  
 
 
 If you expanded a section but didn't want or need to key any data into that section, you can click the cancel icon to collapse the section back to summary or detail view.
 
   
-![](../working-in-a-visit-encounter.assets/ea6fef6aeb5416b704d905b5234257ba.png)  
+![](../working-in-a-visit-encounter.assets/4ec460e03a02336cf38b25745225d5eb.png)  
 
 
   
-### Edit All Sections  
+### Quick Lists  
   
-You can click one button to have *all* sections of the encounter expanded to key in data, instead of clicking on each individual section title bar. The icon at the top of the encounter named *Edit All Sections* will expand every section in the encounter to be open to see the data entry fields.
+Quick Lists can optionally display on the right hand side of the encounter section. Quick Lists will display items in the system default library, although providers can create custom Library charts to populate Quick Lists.
+
+By default, Quick Lists do not display in the encounter. Click the ribbon icon on individual sections or click the ribbon in the upper right hand corner of the encounter to display Quick Lists for all encounter sections.
 
   
-![](../working-in-a-visit-encounter.assets/ebce3a49ad424fa73cf650e89eeadba3.png)  
+![](../working-in-a-visit-encounter.assets/df1f1cdc14d21f7c694760fa7d0b996b.png)  
 
 
-Most of the other sections work the same way as the non-dynamic and custom encounters you currently have. The same existing help documentation applies to those sections that we have on the help (?) documentation access.
+Users may update their user preference in *My Settings*, to always display Quick Lists, rather than manually clicking to display them.
+
+  
+![](../working-in-a-visit-encounter.assets/62dd60b0530c46594ba88e340e3e04be.png)  
+
+
   
 ### Encounter Info  
   
