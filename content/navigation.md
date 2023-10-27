@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2023-10-23T16:41:38.083Z'
-version: 308
-lastAuthor: 'Angie Nichols'
+date: '2023-10-27T14:11:37.387Z'
+version: 326
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -935,6 +935,7 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
       * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
       * [Fee Schedules](functions/system-configuration/fee-schedules.md)
       * [Security Best Practices](functions/e-chart/security-best-practices.md)
+      * AOE (Ask at Order Entry) Editor
    * [Quality of Care](functions/quality-of-care.md)
       * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
       * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
