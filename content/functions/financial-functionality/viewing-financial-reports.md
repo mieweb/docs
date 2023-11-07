@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'ab26ac904f172ae8d98c75da26d25c2ab80564d9'
 ---
 If you customize a report using DataVis Grids Data Tools, the customized report will only be available to you.  
 1. Select the side menu. The side menu appears.

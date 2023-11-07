@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nh4HHOr1akWGgol1SR1uC4beRIMW1yEk4pBa-nGMBn0'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'ab26ac904f172ae8d98c75da26d25c2ab80564d9'
 ---
 The financial functionality of the system allows you to:
 * Track relationships between your organization and service providers, including recording and managing contractual details and controlling which services those providers can provide.
