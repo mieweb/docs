@@ -6,12 +6,7 @@ version: 47
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Programs'
-    identifier: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
-    weight: 30
+wikigdrive: 'dev'
 ---
 
 
