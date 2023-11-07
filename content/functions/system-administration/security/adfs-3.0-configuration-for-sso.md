@@ -7,23 +7,17 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization'
 source: 'https://drive.google.com/open?id=15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'ADFS 3.0 Configuration for SSO'
-    identifier: '15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
-    parent: '15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY'
-    weight: 5290
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 This document assumes that the ADFS 3.0 software component is properly configured in the Active Directory domain.
-  
-## Exchange XML Metadata Files  
+
+## Exchange XML Metadata Files
 
 1. Locate your ADFS XML metadata. This information can be found at this address: https://[SERVER_FQDN]/FederationMetadata/2007-06/FederationMetadata.xml
 2. Download the XML file, or copy and paste the text into a text document, and send this to MIE.
 3. MIE will send back an XML metadata file. Save this file on the ADFS server and be sure the file extension is XML.
-  
-## Add Relying Party Trust  
+
+## Add Relying Party Trust
 
 1. On the ADFS server, open the Server Manager.
 2. Click <strong>Tools</strong>, and select <strong>AD FS Management</strong>
@@ -83,10 +77,10 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/62ee7e6bab7edeece7b3e67c3a1fb555.png" />  
+    <img src="../adfs-3.0-configuration-for-sso.assets/62ee7e6bab7edeece7b3e67c3a1fb555.png" />
 
-  
-## Edit Claim Rules  
+
+## Edit Claim Rules
 
 1. In the AD FS MMC, expand the Trust Relationships and click on Relying Parties Trusts.
 2. Right-click the new Relying Party that was just created, and select <strong>Edit Claim Rules…</strong>
@@ -115,7 +109,7 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/d619bb330d23d53aa494a17bec8ec44b.png" />  
+    <img src="../adfs-3.0-configuration-for-sso.assets/d619bb330d23d53aa494a17bec8ec44b.png" />
 
 11. Click <strong>Add Rule…</strong>, again.
 12. Select <em>Transform an Incoming Claim</em> from the <strong>Claim rule template</strong> dropdown list.
@@ -143,10 +137,10 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-    <img src="../adfs-3.0-configuration-for-sso.assets/fd2dc373726b5ae61f94fc73b9e4adaa.png" />  
+    <img src="../adfs-3.0-configuration-for-sso.assets/fd2dc373726b5ae61f94fc73b9e4adaa.png" />
 
-  
-## Set Relying Partying SAML Logout Endpoint & Secure Hash Algorithm  
+
+## Set Relying Partying SAML Logout Endpoint & Secure Hash Algorithm
 
 1. In the AD FS MMC, expand the Trust Relationships and click on Relying Parties Trusts.
 2. Double-click the new Relying Party Trust (or right-click and select Properties).
@@ -159,11 +153,11 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/0d5e33ed652fa3902e869e757265f316.png" />  
+   <img src="../adfs-3.0-configuration-for-sso.assets/0d5e33ed652fa3902e869e757265f316.png" />
 
 
-  
-## Configure AD Access Groups (Optional)  
+
+## Configure AD Access Groups (Optional)
 
 1. In the AD FS MMC, expand the Trust Relationships and click on Relying Parties Trusts.
 2. Right-click the new Relying Party just created, and select <strong>Edit Claim Rules…</strong>
@@ -189,10 +183,10 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/7096c8e36e295e6505387671615c8ff4.png" />  
+   <img src="../adfs-3.0-configuration-for-sso.assets/7096c8e36e295e6505387671615c8ff4.png" />
 
-  
-## Restart the ADFS Service  
+
+## Restart the ADFS Service
 
 1. On your ADFS server, open the Server Manager.
 2. Click <strong>Tools</strong>, and select <strong>Services</strong>.
@@ -208,10 +202,10 @@ This document assumes that the ADFS 3.0 software component is properly configure
 
 
 
-   <img src="../adfs-3.0-configuration-for-sso.assets/be0bc532c5901e9c27c8d0c60b22e0b8.png" />  
+   <img src="../adfs-3.0-configuration-for-sso.assets/be0bc532c5901e9c27c8d0c60b22e0b8.png" />
 
-  
-## Customize ADFS User Sign-in Page (Optional)  
-  
+
+## Customize ADFS User Sign-in Page (Optional)
+
 Options for changing the way your user sign-in page looks and behaves can be found here:  
 [https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization)

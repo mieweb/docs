@@ -6,24 +6,18 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Tracking Donated Inventory'
-    identifier: '1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
-    parent: '1aHv0u59NGVLFrvGN1I8FETs0j2WrIH_elfLoJjkL-ek'
-    weight: 5650
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Add Donated Tab  
-  
+## Add Donated Tab
+
 This tab looks and performs just like the *Add Inventory* tab. However, when you add inventory items here thru the *Add Donated* tab, it tracks the transaction comment as *donated* if your system is set up to add/receive donated inventory items. Note: If you will not be tracking inventory items as separate ‘donated' items instead of general received inventory, then you can have your MIE Implementer remove this tab.
-  
-![](../tracking-donated-inventory.assets/196fd94ac4a62ad48d4e688ae9a72bd8.png)  
+
+![](../tracking-donated-inventory.assets/196fd94ac4a62ad48d4e688ae9a72bd8.png)
 
 If you need to add inventory specific to a patient because your practice uses patient assistance programs, you have to enter the patient's specific inventory from their e-chart using the Dispense chart tab (See other help documentation named *Receive Patient Assistance*).  
 Depending on how your practice is set up and what all inventory details you track for Inventory, your *Add Inventory* data entry fields may be different.
-  
-![](../tracking-donated-inventory.assets/c4a53d4ad1051a958ee3c25802b2514c.png)  
+
+![](../tracking-donated-inventory.assets/c4a53d4ad1051a958ee3c25802b2514c.png)
 
 To add donated inventory quantity and detail information to be tied to your inventory master item, fill out the fields in this Add Donated screen. Use your tab key to advance to each field.
 * <strong>Site</strong>: Designate which site the meds will be available at.

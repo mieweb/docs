@@ -11,16 +11,16 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-{{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.  
-  
+{{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
+
 ## About   
 
 * Video [demo](https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing)
 * [Press release](https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
-  
-### Features  
+
+### Features
 
 * Zero software to install. All browser-based. 
 * Invite patients to join via text/sms and email
@@ -75,9 +75,9 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 ** WebRTC support in Safari started with Safari version 11  
 *** We recommend migrating to the new Chromium Edge as soon as possible as we will stop supporting ORTC in the near future
 
-  
-## FAQ  
-  
+
+## FAQ
+
 **What hardware is required?**
 * iPhone (iOS 11+), Android (KitKat+), Windows 10 with Edge or Chrome or Firefox, MacBook (OS X El Capitan).
 **Why not use FaceTime, Google Duo, or Skype?**
@@ -87,8 +87,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 * Under this new waiver, Medicare will pay for office, hospital, and other visits furnished via telehealth across the country, including in patient's places of residence starting March 6, 2020.  A range of providers, such as doctors, nurse practitioners, clinical psychologists, and licensed clinical social workers, will be able to offer telehealth to their patients.  Additionally, the HHS Office of Inspector General (OIG) is providing flexibility for healthcare providers to reduce or waive cost-sharing for telehealth visits paid by federal healthcare programs. The [CMS fact sheet](https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet) outlines the waiver. 
 **How do I bill for TeleHealth?**
 * Place of Service (POS) code 02
-  
-![](../introducing-telehealth.assets/3991b2dc171da84294d04ad876f52e72.png)  
+
+![](../introducing-telehealth.assets/3991b2dc171da84294d04ad876f52e72.png)
 
 **What does it cost?**
 * See [Telehealth Pricing](telehealth-pricing.md)
@@ -101,27 +101,27 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 **Are sessions recorded?**
 * Recording is an option and has additional cost but is not enabled by default. See [Pricing](#_r8pf4oszsrdj) for details. 
 * Audio recordings can be routed to a scribe or transcriptionist to complete documentation as an optional feature. 
-  
+
 ## Screenshots   
 
-  
-### Patient initiated (iOS)  
 
-  
+### Patient initiated (iOS)
+
+
 ![](../introducing-telehealth.assets/d4b691a7dc423f9018e15c72d6bc6b78.png)  
 ![](../introducing-telehealth.assets/45010f3dacfeda4c03babb61e09333e6.png)  
 ![](../introducing-telehealth.assets/5ad5af1355459e0fcf011e6d1c3728d8.png)  
-![](../introducing-telehealth.assets/9ac528ce9d80a1522afd75e314c6d986.png)  
+![](../introducing-telehealth.assets/9ac528ce9d80a1522afd75e314c6d986.png)
 
 
-  
-### Provider  
 
-  
-![](../introducing-telehealth.assets/d8d695db6dcdd871a38ba8d0d483fdb3.jpg)  
+### Provider
 
 
-  
-![](../introducing-telehealth.assets/b81e1c05d35c04b4495433b7c5a433be.jpg)  
+![](../introducing-telehealth.assets/d8d695db6dcdd871a38ba8d0d483fdb3.jpg)
+
+
+
+![](../introducing-telehealth.assets/b81e1c05d35c04b4495433b7c5a433be.jpg)
 
 

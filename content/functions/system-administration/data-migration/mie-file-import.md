@@ -13,13 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'MIE File Import'
-    identifier: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    weight: 4720
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 
@@ -49,25 +43,25 @@ Along with the files that are imported into the MIE File System, a discrete docu
 * Service location
 * Author
 * Document type (i.e., what kind of data does the document have)
-  
-## **Overview of the Process**  
-  
+
+## **Overview of the Process**
+
 Due to the typical size of these types of archives, this import is not currently available to clients without assistance from MIE. The general process is as follows:
 1. Client generates a CSV file containing a single row of metadata for each file to be imported.
 2. Client creates an archive of files corresponding to the CSV metadata. For some legacy systems like Medgate, BLOBs may be stored in a database that will need to be extracted to disk as individual files and added to an archive.
 3. Client sends MIE the CSV file and an archive of the files to be uploaded.
 4. MIE runs the import process. This is a command-line script that runs on the same system where the data is located, and it needs access to the client's DB.
 5. MIE informs client when the import process is completed; a status (success or error) of each row of the CSV is available via a system report in the client's MIE system.
-  
-## **CSV File Format**  
-  
+
+## **CSV File Format**
+
 The following characters are used to generate a CSV for data import:
 * Delimiter - In order of preference, a comma (,) or pipe (|) is acceptable.
 * Quote Character - Use a quote (") to surround fields that contain the delimiter or contain newlines.
 * Escape Character - Use a quote (") to escape a quote within quoted fields. E.g. <strong>"This quoted field ""contains"" quotes"</strong>
 See also: [Data Migration File Format Standard](data-migration-file-format-standard.md)
-  
-### Required Fields  
+
+### Required Fields
 
 * <strong>Patient ID</strong> - Specifies the patient's chart in which the document will be stored.
 * <strong>Patient ID Type</strong> - See the [Patient ID Types section](#gjdgxs).
@@ -75,8 +69,8 @@ See also: [Data Migration File Format Standard](data-migration-file-format-stan
 * <strong>Interface Name</strong> - A unique identifier from a foreign system (such as an interface) that the document came from. Maximum 100 characters length.
 * <strong>External ID</strong> - An external identifier for this document. Maximum 128 characters length.
 * <strong>File Name</strong> - The relative path of the file.
-  
-### Optional Fields  
+
+### Optional Fields
 
 * <strong>Storage Type</strong> - See the Supported Storage Types section. It is highly recommended to include this data. Without this field, the tool will do its best to determine the contents.
 * <strong>Encounter ID</strong> - Links a specific encounter (patient visit) to the document.
@@ -93,9 +87,9 @@ See also: [Data Migration File Format Standard](data-migration-file-format-stan
 * <strong>Subject</strong> - The document subject that appears on the document header in the MIE system. Maximum 255 characters length.
 * <strong>Comments</strong> - The complete text narrative for the corresponding document.
 * <strong>File Extension</strong> - Suffix from the file name that indicates file type.
-  
-## Supported Storage Types  
-  
+
+## Supported Storage Types
+
 Listed below are the file/storage types that are supported by this tool. Use the values from the Storage Type column.
 
 <table>
@@ -173,62 +167,62 @@ Listed below are the file/storage types that are supported by this tool. Use the
 </table>
 
 
-  
-## Patient ID Types  
-  
+
+## Patient ID Types
+
 Patient ID types specify the patient chart. Although more patient ID types are planned, there is only one currently available.
 * <strong>part:</strong> - Set this to the partition name of the patient. Enter the MR# into Patient ID.
 
-  
-## Encounter ID Types  
-  
+
+## Encounter ID Types
+
 Encounter ID types specify the linked encounter.
 * <strong>id:encounter_id</strong> - Encounter ID points directly to the encounter's ID.
 * <strong>id:encounter_ext_id</strong> - Encounter ID is the encounter's external ID.
 
-  
-## User ID Types  
-  
+
+## User ID Types
+
 User ID types specify the user.
 * <strong>id:username</strong> - Look up a user ID by username.
 * <strong>id:email</strong> - Look up a user ID by email.
 * <strong>part:</strong> - Look up a user ID with a self-relation to the patient specified. Set this to the partition name of the patient. Enter the MR# into Author/Origin ID.
-  
-## **CSV File Template**  
-  
+
+## **CSV File Template**
+
 Here are a couple of files containing both the required and optional fields defined above. A few example rows are pre-populated to give an idea of what is expected.  
 [MIE File Import CSV Specification & Template](https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing)  
 [File Import Upload Template](https://www.ietf.org/rfc/rfc4180.txt)
-  
-## **Troubleshooting**  
-  
+
+## **Troubleshooting**
+
 Use the system report to see the results of the import. Records from the CSV file are displayed along with a status and description for each. If a document was created, the last columns will contain links to the document and chart. Totals for each status are displayed at the bottom of the page.
-  
-### **Document Rendering Issues**  
-  
+
+### **Document Rendering Issues**
+
 There are a couple problems that could cause files and images not to display properly in the chart. Here are some possible solutions that may be checked:
 1. Find the file in the archive that was provided to MIE and try to open it with a viewer on your computer. It is possible that a legacy image, Word document, or whatever the file is may have been corrupt in the legacy system and no one noticed. If you either cannot extract the file from the archive sent to MIE or cannot view it on your computer, then the file is bad and will not display in {{% sys-name %}} .
 2. If the file is not corrupt, double-check what kind of file it is and make sure the Storage Type provided in the CSV matches the file type on disk. We have seen several Rich Text Files (RTFs) labelled as Word Documents (DOCs) (and vice versa) and various images being mislabeled, as well. Many times Word or Image viewers will actually scan the first few bytes of the file to see what kind of file type it is before rendering it.  {{% sys-name %}} relies on the Storage Type provided in the CSV to specify the file type. If the Storage Type provided in the CSV is not correct, the file will not render properly in {{% sys-name %}} . To try to determine the file type, open the file with a text editor and view the raw contents of the file. A text editor will help determine plain-text ASCII files (like RTF, HTML, XML, and a few others). If the file contents are binary, then you may need to use a special tool to determine the file type. 
-  
-### **Errors**  
-  
+
+### **Errors**
+
 A description is stored for each error that occurs. Check the following sections for tips on how to address each individual error.
-  
-#### **no patient**  
-  
+
+#### **no patient**
+
 No patient was found in the system. Without an existing chart, there is no place to store a document. If the chart exists but is not being found, check the contents of Patient ID and Patient ID Type and make the needed corrections. See [Patient ID Types](#gjdgxs).
-  
-#### **no file**  
-  
+
+#### **no file**
+
 This error means that the program was unable to locate the file on disk. This could mean a few things:
 1. The path containing the files provided to the program was incorrect. Double-check that the correct path was provided and used.
 2. The contents of the CSV file for the File Name field may be incorrect. Ensure that Unicode characters in File Name have been extracted correctly.
 3. The filenames on disk may not match the contents of File Name in the CSV file. Ensure that files with Unicode characters are named appropriately.
-  
-#### **File was empty or name/type did not match specified storage type**  
-  
+
+#### **File was empty or name/type did not match specified storage type**
+
 Empty files, or files with zero (0) bytes, contain no data and will automatically be rejected without creating a document. Check the directory listing for file sizes. If the file appears to have a file size greater than zero bytes, double-check the Storage Type provided for the record. If an image is uploaded, but the CSV file specifies a PDF Storage Type, the system will reject the file without creating a document.
-  
-## Related Pages  
+
+## Related Pages
 
 * [Data Migration File Format Standard](data-migration-file-format-standard.md)

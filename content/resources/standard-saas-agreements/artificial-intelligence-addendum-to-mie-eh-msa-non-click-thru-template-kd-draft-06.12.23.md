@@ -10,7 +10,7 @@ links:
   - 'https://openai.com/api/policies/service-terms/'
   - 'https://openai.com/policies/terms-of-use'
 source: 'https://drive.google.com/open?id=1o-_QCbylnBkhANb0lhkFiQJsyRwuRAX2rfV5wR-0uw8'
-wikigdrive: 'ab26ac904f172ae8d98c75da26d25c2ab80564d9'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 **Artificial Intelligence Addendum** 
 

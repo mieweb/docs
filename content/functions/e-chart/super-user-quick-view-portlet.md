@@ -19,13 +19,7 @@ links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://system/'
 source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Super User Quick View Portlet'
-    identifier: '1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
-    parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 270
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 If you are a superuser and need access to view or edit the following areas of the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) sidemenu, you will need additional security access to do so.
 * [Layout Manager](https://system/?f=admin&subfunc=layout_manager&t=Layout+Manager&tabmodule=admin&tabselect=Layout+Manager)
@@ -38,8 +32,8 @@ If you are a superuser and need access to view or edit the following areas of th
 * Portions of the [Chart Tabs](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) editor
 When trying to access any of the areas listed above and you do not have additional SuperUser access, an error message will display.
 
-  
-![](../super-user-quick-view-portlet.assets/a4fba68e4425b66809e3f3e6a6e419b5.png)  
+
+![](../super-user-quick-view-portlet.assets/a4fba68e4425b66809e3f3e6a6e419b5.png)
 
 
 {{% note %}}
@@ -49,21 +43,21 @@ Any SuperUser that requires a password to access those areas above should consul
 
 To access and activate the SuperUser access required, the user must:
 1. Add the<strong> SuperUser portlet</strong> to the [Quick View](https://system/) sidemenu.
-  
-![](../super-user-quick-view-portlet.assets/c5610c005797da5a621b3bcdb2fd56a7.png)  
+
+![](../super-user-quick-view-portlet.assets/c5610c005797da5a621b3bcdb2fd56a7.png)
 
 2. Next, locate the Super User portlet and click the <strong>Unlock for this Session</strong> button.
-  
-![](../super-user-quick-view-portlet.assets/61ad5e0ce1996c4bf2e93b729b75b55e.png)  
+
+![](../super-user-quick-view-portlet.assets/61ad5e0ce1996c4bf2e93b729b75b55e.png)
 
 3. Enter the password provided by your MIE Implementer.
-  
-![](../super-user-quick-view-portlet.assets/347c43109f714392da859fdfb80fab96.png)  
+
+![](../super-user-quick-view-portlet.assets/347c43109f714392da859fdfb80fab96.png)
 
 4. Click the <strong>Enable</strong> button after keying in the password.
 5. If successful, the button in the Super User portlet will display <strong>Super user access enabled</strong>. The super user can now go to those areas above, that were previously restricted.  
-  
-![](../super-user-quick-view-portlet.assets/9e8dd2e78e50370e817a18587c444429.png)  
+
+![](../super-user-quick-view-portlet.assets/9e8dd2e78e50370e817a18587c444429.png)
 
 6. If the system did not recognize the correct password, it will alert you to try again.
 

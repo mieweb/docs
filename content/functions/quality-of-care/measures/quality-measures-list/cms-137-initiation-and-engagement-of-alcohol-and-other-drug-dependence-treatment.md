@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms137v10'
 source: 'https://drive.google.com/open?id=1OMZEtOiKag63xhZX7gZ60Kp8E_9MHAiDpI_9Epz-rK4'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 [CMS137v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v8&showresulttype=Measure) (2020)  
 [CMS137v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v9&showresulttype=Measure) (2021)  
 [CMS137v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS137v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -80,8 +80,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -113,22 +113,22 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
+### New UI Visit Encounter (valid RC202109+)
 
 
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+### Original Visit Encounter
+
+
+
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -175,8 +175,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -199,8 +199,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -227,8 +227,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS137](https://ecqi.healthit.gov/ecqm/ep/2022/cms137v10)
 

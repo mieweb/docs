@@ -6,12 +6,7 @@ version: 47
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Rapid Deployment'
-    identifier: '1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-    weight: 5770
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

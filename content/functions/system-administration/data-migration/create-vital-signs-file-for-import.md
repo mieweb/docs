@@ -12,21 +12,15 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641'
   - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
 source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Create Vital Signs File for Import'
-    identifier: '1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
-    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    weight: 4780
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 This document explains how to import historical vital signs for employees into {{% system-name %}} .  
 What you will need:
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Vital Signs CSV File Example
 {{% system-name %}}*  end user with administrative rights
-  
-## Create Vital Signs CSV File  
+
+## Create Vital Signs CSV File
 
 1. The following table provides optional or required <strong>Field Names</strong> and <strong>Descriptions</strong>, as indicated by the <strong>Requirement</strong> column. Items marked as <em>Best Practice</em> or <em>Optional</em> are not required and may be left blank or omitted entirely. Employee ID must be the first column in the CSV file. The order of the remaining fields does not matter.
 
@@ -181,31 +175,31 @@ Do not provide the percentage sign (%).
 
 1. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Vital Signs CSV File Example for guidance.
 
-  
-![](../create-vital-signs-file-for-import.assets/220c6cd9fc584a66eedbaa12c67d0238.png)  
+
+![](../create-vital-signs-file-for-import.assets/220c6cd9fc584a66eedbaa12c67d0238.png)
 
 
 2. Save the file as CSV format.
-  
-## Upload Vital Signs CSV File  
+
+## Upload Vital Signs CSV File
 
 1. Login as a user with administrator rights.
 2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
-  
-![](../create-vital-signs-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)  
+
+![](../create-vital-signs-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
-  
-![](../create-vital-signs-file-for-import.assets/197af282190b350e97494ffba0636d29.png)  
+
+![](../create-vital-signs-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
 
 4. Select <strong>Chart Data CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-  
-![](../create-vital-signs-file-for-import.assets/184adff065510b3014a3b5f0a44c0f4b.png)  
+
+![](../create-vital-signs-file-for-import.assets/184adff065510b3014a3b5f0a44c0f4b.png)
 
 
 5. Select the Vital Signs CSV File and click <strong>Upload</strong>.
@@ -216,13 +210,13 @@ Do not provide the percentage sign (%).
 
 *For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
 {{% /tip %}}
-  
-## Resources  
+
+## Resources
 
 * [Vital Signs CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)
 * [Vital Signs CSV File Example](https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641)
 * [Validation script for Vital Signs data](https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo)
-  
-## Troubleshooting  
+
+## Troubleshooting
 
 Ensure that all of the fields marked as **Required** have valid content. The file uploaded must be saved as a CSV formatted file. In case of any errors, contact Technical Support.

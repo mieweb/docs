@@ -10,13 +10,7 @@ links:
   - 'improvement-activities-measures/2018-improvement-activities.md'
   - 'improvement-activities-measures/2019-improvement-activities.md'
 source: 'https://drive.google.com/open?id=1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Improvement Activities Measures'
-    identifier: '1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-    parent: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-    weight: 2560
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

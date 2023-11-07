@@ -6,22 +6,16 @@ version: 45
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Activity Log Report'
-    identifier: '1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
-    parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4070
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 Must have security permission to access the Activity Log in the Control tab.
-  
-## Activity Log  
-  
+
+## Activity Log
+
 Click on the side menu tab named *Control.*  
 Click on the top tab named *Activity Log* (or can access it from the Reports tab).
-  
-![](../activity-log-report.assets/1c40d2e672d4c69223928f9b56dd1fa3.png)  
+
+![](../activity-log-report.assets/1c40d2e672d4c69223928f9b56dd1fa3.png)
 
 The Activity Log Search Criteria fields will appear on the screen. You can narrow down your search results by entering any information in the following fields:  
 Please click the help icons for explanations on each field also.
@@ -37,40 +31,40 @@ Please click the help icons for explanations on each field also.
 Click SEARCH to show the search results according to the fields you entered data for.  
 If the user supplies either a session_id or BOTH the start and end dates, they can view the activity log, regardless of any other search criteria they have supplied.  
 The Activity Log search results will display below the search criteria fields you filled out.
-  
-![](../activity-log-report.assets/0bffb31fc98a9d3625de68868d10bdce.png)  
+
+![](../activity-log-report.assets/0bffb31fc98a9d3625de68868d10bdce.png)
 
 There is a lot of audit information given and takes time to understand and read the results. {{% system-name %}} records every click. Please call our helpdesk with any assistance needed.  
 Continue to search by modifying the search fields, or by clicking CLEAR ALL to start another search.  
 If you wish to view a specific activity from the results, click **View CGI Data** link in the CGI Data column. When you click View CGI Data it will open the CGI data window on your screen.
-  
-![](../activity-log-report.assets/683d3a385cffcda8491218211e6615de.png)  
+
+![](../activity-log-report.assets/683d3a385cffcda8491218211e6615de.png)
 
 This shows the CGI Data. F is for Function, S is for Subfunction, then it proceeds to state which module and additional details.  
 The **Hide/Show CGI Query String** link the top will open the cgi query string. You can highlight this string and right click to copy this with your mouse.
-  
-![](../activity-log-report.assets/36f4d9aa88a3c6809dcfb22d01f40320.png)  
+
+![](../activity-log-report.assets/36f4d9aa88a3c6809dcfb22d01f40320.png)
 
 After you copy the entire string with your mouse, click CONTROL and N keys on your keyboard to open a *new window* on your computer screen. At the top of the new window that opened up on your computer, type in a question mark **?** at the **end** of the url that shows there. Then after the **?** question mark, right click and *paste* in the cgi query string you copied.
-  
-![](../activity-log-report.assets/b0664c14d439c7c6efec6e5394095919.png)  
+
+![](../activity-log-report.assets/b0664c14d439c7c6efec6e5394095919.png)
 
 When the cgi string is pasted in the url (don't forget the ? question mark) then hit ENTER on your keyboard.  
 That new window will then take you to that exact activity, that exact screen that the user was in.  
 When you copy/paste that CGI data into the other new browser window url, you can see exactly what the screen (that the user was on) looked like.  
 Click the red X at the top right corner to get out of this new opened window and return to your activity log.
-  
-### Failed Logins  
-  
+
+### Failed Logins
+
 You can view failed logins from the Activity Log module.  
 Simply click View Failed Logins link from the top right corner of the Activity Log Search Criteria screen.
-  
-![](../activity-log-report.assets/dd62d6b3ec60bcdbd376ea6277e8421d.png)  
+
+![](../activity-log-report.assets/dd62d6b3ec60bcdbd376ea6277e8421d.png)
 
 The Failed Logins Search Criteria fields will display on the screen and below that is all the failed logins.  
 To narrow down the search, simply enter in information into any of the search criteria fields.
-  
-![](../activity-log-report.assets/a5cad488b3436ca94dd43be00cd8338d.png)  
+
+![](../activity-log-report.assets/a5cad488b3436ca94dd43be00cd8338d.png)
 
 * <strong>Date:</strong> Must enter a date range to show results for.
 * <strong>IP Address:</strong> Can enter any part of the users IP address by specifying the method from the drop-down.
@@ -79,10 +73,10 @@ To narrow down the search, simply enter in information into any of the search cr
 Click SEARCH to show the specific search results according to the fields you entered data for.  
 The Failed Logins will display below the search criteria fields.  
 Continue to search by modifying the search fields, or by clicking CLEAR ALL to start another search.
-  
-## User Watch  
-  
+
+## User Watch
+
 User Watch tab is found in Control sidemenu. Users (with security privilege) can view the activity log with a session_id (e.g. via the ‘View Click Log' link on the user watch page).
-  
-![](../activity-log-report.assets/9a51491ec37f97f8b9ee4d9a6cf76612.png)  
+
+![](../activity-log-report.assets/9a51491ec37f97f8b9ee4d9a6cf76612.png)
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://www.webchartnow.com'
 source: 'https://drive.google.com/open?id=1gqUkQvl5rLf5tbD0avlLfKSn0uy3tqcqqoY3U5XNQK8'
-wikigdrive: 'ab26ac904f172ae8d98c75da26d25c2ab80564d9'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% system-name %}} has announced the launch of embedded video visit capabilities to support clinics and practices that are rapidly moving to telehealth, as they respond to the COVID-19 pandemic.
 

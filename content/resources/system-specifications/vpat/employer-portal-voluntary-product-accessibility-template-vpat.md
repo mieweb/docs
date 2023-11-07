@@ -90,7 +90,7 @@ links:
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-context-help'
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all'
 source: 'https://drive.google.com/open?id=1r345knczilBhSJsSnKbhV-goCPdZe9VcoQk0Y3kss6I'
-wikigdrive: 'ab26ac904f172ae8d98c75da26d25c2ab80564d9'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 **Medical Informatics Engineering, Inc. Accessibility Conformance Report**   
 **WCAG Edition**  

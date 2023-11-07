@@ -7,20 +7,14 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1wiiDtA6Dlmbqe65Sx1tJh-cDj-Ld7D5GmICs6-qXoNU'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Checkin Reports'
-    identifier: '1wiiDtA6Dlmbqe65Sx1tJh-cDj-Ld7D5GmICs6-qXoNU'
-    parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4100
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 Practices and organizations can evaluate patient flow through check-in and appointment statistics and reports. These reports support filtering, by resource, station, location, and patient or date range, and they may be printed or tasked to administrators for review.
-  
-## Checkin Report  
-  
+
+## Checkin Report
+
 To access and utilize the Checkin Report:
 1. Navigate to the sidemenu.
 2. Click the link, or tab.
@@ -38,8 +32,8 @@ Once the report has been run, additional features come available to print, commu
 * <strong>Show CSV</strong>: This link is available to provide the data in a CSV format. To render the CSV format, click the <strong>Show CSV</strong> link in the header of the table.
 * <strong>Add Task</strong>: This link, in the upper-right corner, allows users to task other users to review the report. When the task is generated, the <em>perform</em> link on the task will point to the original report.
 * <strong>View Printable</strong>: This link, in the upper-right corner, opens a printable version of the report, allowing the report to be printed locally in a black and white format.
-  
-## Appointment Reports  
-  
+
+## Appointment Reports
+
 In addition to the Checkin Report, there is also the Appointment Report users may choose.  
 For a particular encounter, one can run an Appointment Report based on time the patient was checked in and what time they were checked out. Via Appointment Report, in the Optional Columns section, there is an "Arrival/Departure" selection, and then you could also specify the Linked Encounters. When using the Checkin functionality, the "checkin" type of encounter is always triggered and tracks checkin and checkout.

@@ -10,13 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1-fqAMwYEz4o1hm0StnjrRGVTCmc1uhdUVscrM604G_o'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'BE 3 - Engagement with QIN-QIO to Implement Self-management Training Programs'
-    identifier: '1-fqAMwYEz4o1hm0StnjrRGVTCmc1uhdUVscrM604G_o'
-    parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 2660
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

@@ -7,22 +7,16 @@ lastAuthor: 'Aris Eracleous'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Employer Portal Setup'
-    identifier: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
-    parent: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-    weight: 1070
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% system-name %}} offers various portal options, depending on the needs of the client. The **Employer Portal**, often referred to as the **Supervisor Portal**, **Agency Portal**, or **Leadership Portal**, streamlines employee engagement and tracking, offering easy access to due lists, employee work statuses, as well as health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, or any additional information custom to the business needs. To more fully address preferred configurations and review available options and features, utilize the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} side menu to access and edit the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} , as needed.
-  
-## Employer Portal  
-  
+
+## Employer Portal
+
 To begin configuring the Employer Portal, it first needs to be enabled from the **General Configuration** section of the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43" %}} tab. Utilize the Provider Management search to locate the Provider Organization (PO) *chart* that will house the portal configurations. 
-  
-### Initial Setup  
-  
+
+### Initial Setup
+
 Again, before configuring the Employer Portal, it must be enabled within the system. To do this, perform the following: 
 1. Navigate to the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} side menu.
 2. Type the name of the PO, and click the <strong>Search</strong> button.
@@ -30,26 +24,26 @@ Again, before configuring the Employer Portal, it must be enabled within the sys
 4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43" %}}  tab.
 5. Click on the <strong>General Configuration</strong> section header to open and select the appropriate features to enable all portals that are necessary.
 
-   <img src="../employer-portal-setup.assets/1944d98e352760503335666f8275eb27.png" />  
+   <img src="../employer-portal-setup.assets/1944d98e352760503335666f8275eb27.png" />
 
 
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
 7. With the portal setup completed, locate the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} tab of the PO, to begin work on that portal's configurations.
 
-   <img src="../employer-portal-setup.assets/912806c78f3c4942295109fde265a732.png" />  
+   <img src="../employer-portal-setup.assets/912806c78f3c4942295109fde265a732.png" />
 
 
 8. Any permissions or settings that need to be addressed can be found under the Security Requirements section near the top of the page, and the configuration and modules can be adjusted, using the remaining sections, as needed.
 
-  
-![](../employer-portal-setup.assets/b9bd061944738fc2da43103f05cdc6cf.png)  
+
+![](../employer-portal-setup.assets/b9bd061944738fc2da43103f05cdc6cf.png)
 
 
 9. To begin the customization, click the <strong>Configuration</strong> section header to open and begin editing.
 
-  
-### Configuration  
-  
+
+### Configuration
+
 Features
 * <strong>Single function portal</strong>: When this option is selected, the portal will not default to the Message Center, but rather automatically forward to the first module in the Module List. Unless the Message Center is the desired function, Disable Message Center must be selected, below.
 * <strong>Disable Message Center</strong>: By default, the Message Center will be displayed if the chart tab is configured; however, check this option to force the Message Center to be hidden for this portal.
@@ -64,8 +58,8 @@ Home Page
    (<img src="../employer-portal-setup.assets/e90ca94852bca1255ff5a0074613a42c.png" />  
   ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
 
-  
-![](../employer-portal-setup.assets/67b5ef8147665c28980e597991cfdc80.png)  
+
+![](../employer-portal-setup.assets/67b5ef8147665c28980e597991cfdc80.png)
 
 
 * <strong>Brand for portal welcome message</strong>: The name or brand to be used in the Welcome Message. By default, the word NoMoreClipboard will be populated, but this field can be updated with up to 25 characters. Click Show Sample to see where this occurs.
@@ -86,14 +80,14 @@ Message Center
 * <strong>Custom Message Center header</strong>: The text placed in this field will update and replace the Message Center header. Limit 60 characters.
 
 When finished configuring the portal, click the **Next** button to save and close the section, and proceed to the **Select Modules** section.
-  
-### Select Modules  
-  
+
+### Select Modules
+
 The expanded Select Module section allows for configuration of each module, if necessary, and deactivation of specific modules, if preferred.
 1. Clicking on the <strong>Select Modules</strong> header will open a window with all of the default-enabled modules of the Employer Portal checked. Add or remove modules, as needed, and click the <strong>Save</strong> button.
 
-  
-![](../employer-portal-setup.assets/2cb219d178f197f5e72c2b5e5ab15c8b.png)  
+
+![](../employer-portal-setup.assets/2cb219d178f197f5e72c2b5e5ab15c8b.png)
 
 
 2. There are ten (10) modules that can be selected within the Employer Portal, as well as the ability to link to questionnaires/forms, as needed:
@@ -113,22 +107,22 @@ The expanded Select Module section allows for configuration of each module, if n
 
 Below is a list of all of the modules *which allow more than simply a module name change*, along with their available configurations (i.e., EJTA, Reports, and Send a Message.
 {{% /info %}}
-  
-#### Employee Job Task Analysis (EJTA)  
+
+#### Employee Job Task Analysis (EJTA)
 
 The EJTA module can be updated with a more specific name, as well as any employee-approved task template needed for EJTA.
 1. <strong>Custom Module Name</strong>: The name defaults to <em>EJTA</em>. Customize up to 60 characters.
 2. <strong>Specify EJTA document type</strong>: Specify the document type to be used for EJTA.
 3. <strong>Specify EJTA employee approved task template name</strong>: Use the drop-down to select the appropriate employee-approved task template to be associated with the module.
-  
-#### Reports  
+
+#### Reports
 
 The Reports module
 1. <strong>Custom Module Name</strong>: The name defaults to <em>Reports</em>. Customize up to 60 characters.
 2. <strong>Instruction text</strong>: This field may be used to supply optional instructions for utilizing the Employer Reports page.
 3. <strong>Available reports</strong>: Use the selector to choose all reports to be displayed on the Reports page. Reports with the Employer Portal Report category will display in the list for selection.
-  
-#### Send a Message  
+
+#### Send a Message
 
 The Send a Message module can have its name and header customized, the sending instructions modified, or the message types configured, to determine what can/cannot be sent to and from the portal:
 1. <strong>Custom Module Name</strong>: The name defaults to <em>Send a Message</em>. Customize up to 60 characters.
@@ -142,12 +136,12 @@ The Send a Message module can have its name and header customized, the sending i
 
 Click the minus button to remove any message type, or click the Add message types link, to add an additional message type, as needed.
 {{% /tip %}}
-  
-## Adding Users & Linking to Supervisors  
+
+## Adding Users & Linking to Supervisors
 
 Every user intending to use the portal needs to be added by associating the user and their username with the necessary role. To review and edit roles and portal access, perform the following:
-  
-### Adding Users  
+
+### Adding Users
 
 1. Navigate to the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}}  side menu.
 2. Click the {{% syslink "Access Control" "f=admin&t=security&tabmodule=admin&tabselect=Access&ts_caption=Access+Control" %}}  tab.
@@ -170,8 +164,8 @@ Every user intending to use the portal needs to be added by associating the user
 
 To remove a role from the table, simply click the minus button. After all changes are made, click the **Submit** button.
 {{% /tip %}}
-  
-### Linking to Supervisor  
+
+### Linking to Supervisor
 
 Linking users to a supervisor allows the managing user to log into the portal and see the subordinates' restrictions, lost time, work status, as well as their own information. To link users to a supervisor:
 1. Navigate to the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}}  side menu.

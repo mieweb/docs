@@ -9,13 +9,7 @@ links:
   - '../../functions/system-administration/data-migration/create-cases-file-for-import.md'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=1nXrFjzTbyMi_As_lbDc5OIGFCsqmfTNLYVEQ5UDffYo'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Injury & Illness Data Imports'
-    identifier: '1nXrFjzTbyMi_As_lbDc5OIGFCsqmfTNLYVEQ5UDffYo'
-    parent: '1OQWE20b-U3zYvhTtkJW-fE_3Vh_8tTBfwhRr2Mqcjvg'
-    weight: 5970
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

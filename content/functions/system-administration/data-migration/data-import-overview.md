@@ -10,36 +10,30 @@ links:
   - 'data-migration-file-format-standard.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Data Import Overview'
-    identifier: '1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    weight: 4940
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 This page provides an explanation of terminology related to importing data from an existing system to the {{% system-name %}} system.
-  
-### **Data Migration**  
-  
+
+### **Data Migration**
+
 Clients replacing an existing EHR with an {{% system-name %}} system undertake what is referred to as [data migration.](data-migration-overview.md) Multiple sets of data may be involved in a data migration, but the migration is a one-time event.
-  
-### **Data Imports**  
-  
+
+### **Data Imports**
+
 Imports essentially move data from one place to another, can be repeated at regular intervals, and may be an ongoing process. Imports may be part of the migration process, while data migration is considered to be a single event.
-  
-### **APIs**  
-  
+
+### **APIs**
+
 An application program interface (API), as utilized by MIE, is a specification that directs how the {{% sys-name %}} system interacts with data that is being imported from another system. CSV APIs have been developed to allow client users to import information into their own system.
-  
-### **CSV**  
-  
+
+### **CSV**
+
 Comma separated values (CSV) files are used to transfer data through an API. To simplify, CSV files are simply text files with data fields separated by commas (or another supported character/delimiter) . For more on file formatting standards, see [Data Migration File Format Standard](data-migration-file-format-standard.md).
-  
-### **Import Tools**  
-  
+
+### **Import Tools**
+
 A number of developer tools have been designed to aide data import efforts. These tools require a developer to operate.
-  
-## **Related Pages**  
+
+## **Related Pages**
 
 * [Data Import Master List](data-import-master-list.md)

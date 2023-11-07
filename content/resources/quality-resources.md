@@ -10,13 +10,7 @@ links:
   - '../functions.md'
   - '../functions/quality-of-care.md'
 source: 'https://drive.google.com/open?id=1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Quality Resources'
-    identifier: '1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
-    parent: '1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
-    weight: 6730
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% note %}}
 

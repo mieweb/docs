@@ -10,18 +10,12 @@ links:
   - 'https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs'
   - 'indexing.md'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Scanning'
-    identifier: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-    parent: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-    weight: 730
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 The  {{% system-name %}} system has integrated scanning functionality designed to streamline all scanning and indexing needs. The following information provides a basic introduction to these scanning and indexing capabilities, along with details on how to access and utilize these features.
-  
-## Scanning Using WebScan  
-  
+
+## Scanning Using WebScan
+
 In order to access and use WebScan, users must have the appropriate security permission granted. If users experience any issues accessing or using WebScan, ensure their *MIEWebScan*security setting is set to **Edit**.  
 {{% note %}}
 
@@ -29,12 +23,12 @@ Scanning to and appending a batch is currently supported in Internet Explorer br
 {{% /note %}}
 To begin using the WebScan capabilities, first click the [WebScan](https://system/?f=miewebscan) sidemenu option.
 Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *checked-in* batches shown below, in the list view. Checked-in batches are simply batches of scanned documents that need indexed into the appropriate charts.
-  
-![](../scanning.assets/8d986ebaa4d76ccc9130774bb4b89e30.png)  
+
+![](../scanning.assets/8d986ebaa4d76ccc9130774bb4b89e30.png)
 
 To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs) link found in the upper-right corner of the screen. Once clicked, a new window will open. Here, users may scan and index documents, accordingly.
-  
-![](../scanning.assets/55f79a84914e1c2bc2986cd190ffb9e8.png)  
+
+![](../scanning.assets/55f79a84914e1c2bc2986cd190ffb9e8.png)
 
 1. Align and insert the document(s) into the scanner tray according to the scanner specifications. Scanning can be done in portrait or landscape orientation.
 2. Using the <strong>Priority</strong> dropdown, set the priority of the batch. Select Low, Med, or High.
@@ -42,8 +36,8 @@ To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=
 4. Use the <strong>Select Partition</strong> dropdown to specify the partition to which the scanned document(s) need assigned. This field displays if the <em>Show Partition Restrict</em> system setting is enabled. Once a batch is assigned to a specific partition and scanned, only users with access to that partition will be able to see the scanned batch in WebScan.
 5. To review and ensure the scanner settings and preferences are enabled, click the <strong>Settings</strong> button. Users may change these settings, as needed. For instance, barcodes on form documents will be read regardless of page orientation if the <em>Auto-Rotate to Find Barcodes</em> preference is set to <strong>Yes</strong>.
 
-  
-   ![](../scanning.assets/fc795336f0e1a47c2cbe0a7f20082782.png)  
+
+   ![](../scanning.assets/fc795336f0e1a47c2cbe0a7f20082782.png)
 
 
    1. <strong>Resolution</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
@@ -52,23 +46,23 @@ To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=
 7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Select Scanner</strong> button and viewing the listed scanner is correct and highlighted for use.
 8. When ready, click the <strong>Scan Image</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan Image button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
 9. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong>buttons, users may view the documents of the batch.
-  
-![](../scanning.assets/ef2747e2856502c3a8482de921c6a089.png)  
 
-  
-### Hotkeys in WebScan  
+![](../scanning.assets/ef2747e2856502c3a8482de921c6a089.png)
+
+
+### Hotkeys in WebScan
 
 Users may use hotkeys for certain functions within WebScan. To see the list of available hotkeys for WebScan, click the help bubble (encircled question mark) next to the Close button.
-  
-![](../scanning.assets/3d176238083c3c6ec78978e340031f34.png)  
+
+![](../scanning.assets/3d176238083c3c6ec78978e340031f34.png)
 
 
 **Acquire** ([Ctrl] + a): Performs the same function as the Scan Image button on the toolbar.
 **Upload & Index** ([Ctrl] + i): Performs the same function as the Upload & Index button on the toolbar.
 **Upload** ([Ctrl] + u): Performs the same function as the Upload button on the toolbar.
 **Delete** ([Delete]): Perform the same function as the Delete Page button on the toolbar.
-  
-## Editing Scanned Batches  
+
+## Editing Scanned Batches
 
 Once documents have been scanned into the WebScan module, users may make any necessary edits to the batch, before uploading the scanned documents into the respective charts.
 {{% info %}}
@@ -77,8 +71,8 @@ Indexing can be done immediately following scanning, or saved for a later time.
 {{% /info %}}
 **Move Left** or **Move Right**: Users can use the Move Left or Move Right button to rearrange the pages of a batch. After using the Prev and Next buttons to navigate through the pages, users can then use the Move Left button to place the current page being displayed ahead (i.e., to the left) of the next page. Clicking the Move Right button will place the current page after (i.e., to the right) one page.
 **Crop**: Users may Crop a document prior to indexing it to a chart. First, navigate to the page needing cropped, using the Prev or Next button, accordingly. To utilize the Crop feature, simply hover the mouse over the scanned image and place the cross cursor (+) at the starting point of the intended crop. Left-click and hold the mouse button, dragging the cursor over the scanned image, highlighting (in black) the area intended to be cropped and kept. Release the mouse. If the highlighted field needs redone, simply left-click the mouse again, and resize the crop field. When ready, click the **Crop** button. The area highlighted in black will be saved. After clicking the Crop button, the image will refresh, showing the cropped document in the upper-left corner. The cropped image will be stored in the chart, once uploaded. If more of the document requires cropping, simply continue by repeating the steps, above.
-  
-![](../scanning.assets/0f17c3d684f8f5b59661d4e9adb831b2.png)  
+
+![](../scanning.assets/0f17c3d684f8f5b59661d4e9adb831b2.png)
 
 {{% warning %}}
 
@@ -95,8 +89,8 @@ If this is the first time uploading a file, the MIE VidCap Control plugin will n
 {{% /note %}}
 Use the mouse to select a file for upload. When the file is selected it will be highlighted with a blue border. If multiple files are being uploaded and need selected at the same time, hold the **Ctrl** button on the keyboard while selecting any additional files for upload. All selected files will have a blue border notating the selection. The file(s) selected must be in TIFF format, otherwise the user will receive an error message.
 
-  
-![](../scanning.assets/c5ce6dc03ae4069f78850e68d673f4d5.png)  
+
+![](../scanning.assets/c5ce6dc03ae4069f78850e68d673f4d5.png)
 
 {{% tip %}}
 
@@ -108,30 +102,30 @@ Once the desired TIFF files have been selected, click **Upload** or **Upload 
 With some computers, upon uploading photos, a pop-up message may display asking the user if he/she wishes to delete the uploaded image(s) from the source or smartcard folder. Answering *Yes* will delete the photo(s) in the SmartCard folder from the hard drive, making them irretrievable for future use.
 {{% /warning %}}
 Users will receive a confirmation message showing the upload was successful, giving the user the batch ID number. Users can click the OK button to continue and select additional files, or click the Close button from the toolbar to quit.
-  
-![](../scanning.assets/6cde8aeccb27ed6e71f53c087e3cadde.png)  
 
-  
-## Uploading/Closing the Batch  
+![](../scanning.assets/6cde8aeccb27ed6e71f53c087e3cadde.png)
+
+
+## Uploading/Closing the Batch
 
 Once scanning and editing is finished, users may choose to upload, upload and index, or close the batch. The following information provides details regarding each of these processes.
-  
-### Close a Batch  
+
+### Close a Batch
 
 Users may close a batch by clicking the **Close** button from the toolbar. Performing this action will close the entire batch, not saving any of the work, and the user will be exited out of the Add Batch screen. Users will not be warned of losing the batch when the Close button or the X (from the corner of the window) is clicked.
-  
-### Upload a Batch  
+
+### Upload a Batch
 
 To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch to the Checked-In queue. A checked-in batch contains documents needing indexed into the respective charts. Once a batch is successfully uploaded, a confirmation message will display, along with the batch ID number. Users can click the OK button to proceed scanning additional documents, or close out of the Add Batch screen.
-  
-### Upload and Index a Batch  
+
+### Upload and Index a Batch
 
 To upload and index the scanned documents, click the **Upload & Index** button. This will upload the batch and allow the user to index each document, accordingly. For detailed information on how to index scanned documents, see our [Indexing](indexing.md) online help documentation.
 {{% tip %}}
 
 If a user must index the documents at a later time, after clicking the Upload & Index button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan Checked-In queue for indexing later.
-  
-![](../scanning.assets/e4fac17daba1c45818e830f03272e7d9.png)  
+
+![](../scanning.assets/e4fac17daba1c45818e830f03272e7d9.png)
 
 {{% /tip %}}
 

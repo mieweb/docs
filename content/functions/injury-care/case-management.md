@@ -6,13 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Case Management'
-    identifier: '16-7poNmo_A35wJg_Sxb-bc-fbNHrEfSfMrlJjzpvmq8'
-    parent: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-    weight: 1460
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

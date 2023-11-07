@@ -6,13 +6,7 @@ version: 20
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'E-Chart'
-    identifier: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 180
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

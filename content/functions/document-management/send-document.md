@@ -7,12 +7,12 @@ lastAuthor: 'Aris Eracleous'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 Send Document
-  
-# Overview  
-  
+
+# Overview
+
 Users are able to send a document to specific recipients.  
 Depending on the recipient of the document and what their email address is, we have the following pathways:
 1. If the recipient's email domain is "white listed" (System setting "Whitelist Domains"), then we attach the document to an email.
@@ -26,8 +26,8 @@ Depending on the recipient of the document and what their email address is, we h
 
 Users are also able to select an "Employer" and perform the above actions on the related contacts.  Related contacts are found under the employer's Overview (EO) chart tab in the Contacts section.  These contacts have to be active users in the system, which means they need to be Login Enabled and have credentials to access the system.
 
-  
-# Setup involved  
+
+# Setup involved
 
 1. User Permissions
    1. "Securely Email Documents" - This is used when send documents as attachments
@@ -36,32 +36,32 @@ Users are also able to select an "Employer" and perform the above actions on the
    2. "Default Portal" - This is used when we try to send activation codes to users, so that they can get access to the system
 3. Other Configuration
    1. "Portal Setup" chart tab - "Enable Activation Code Redemption"
-  
-![](../send-document.assets/da668975187ff27da42b8517a5c343cd.png)  
+
+![](../send-document.assets/da668975187ff27da42b8517a5c343cd.png)
 
 
 
-  
-# Workflow  
+
+# Workflow
 
 
-  
-## Begin with  
+
+## Begin with
 
 
 First you have to find a document and hover over the top section like so:
-  
-![](../send-document.assets/fab46b7132d46e5b670d2f0d2959f818.png)  
+
+![](../send-document.assets/fab46b7132d46e5b670d2f0d2959f818.png)
 
 
 Then click the icon like so:
-  
-![](../send-document.assets/daf18bf0c4e782a6a0c9e63b23d95a59.png)  
+
+![](../send-document.assets/daf18bf0c4e782a6a0c9e63b23d95a59.png)
 
 
 The "Send Document" window will pop up:
-  
-![](../send-document.assets/ec1c3d5d99d9dfb1f23e30cfce6875f1.png)  
+
+![](../send-document.assets/ec1c3d5d99d9dfb1f23e30cfce6875f1.png)
 
 1. "Subject" will be what is used on the email subject or the new received document.
    1. Users are able to customize it
@@ -72,31 +72,31 @@ The "Send Document" window will pop up:
 4. "Employer" is an autocomplete input for all Employer Organizations
 
 
-  
-## Add new Contact  
+
+## Add new Contact
 
 
 The following screenshot explain how you can add a new contact
 
 
-  
-![](../send-document.assets/3d3684456761db64d0f0756febe8ee75.png)  
+
+![](../send-document.assets/3d3684456761db64d0f0756febe8ee75.png)
 
 
 
 "Add Contact" window
-  
-![](../send-document.assets/49323c26fe71d0e02dd116fe0ed31bbb.png)  
 
-  
-## Send the document  
+![](../send-document.assets/49323c26fe71d0e02dd116fe0ed31bbb.png)
+
+
+## Send the document
 
 
 On the above screen, users can create a new contact chart and link a specific employer if needed.  
 After the screen is saved, it will populate the new information into the "Recipient" input on the "Send Document" window
 
-  
-![](../send-document.assets/ef20a4a2ecf8d85798b7bc8dce38c245.png)  
+
+![](../send-document.assets/ef20a4a2ecf8d85798b7bc8dce38c245.png)
 
 
 In the screenshot above, you can see how the newly created contact is populating the "Recipient".  
@@ -106,29 +106,29 @@ The "Enable Activation Code Redemption" method is advised, so that the users tha
 
 After the "Send" button is clicked the "Send Document" window will change to this
 
-  
-![](../send-document.assets/970c3620cb821acaf71673f9529863bb.png)  
+
+![](../send-document.assets/970c3620cb821acaf71673f9529863bb.png)
 
 Notice the "Previously sent to" section lists the recipient information with links to the chart and the new "Received Document" (Doc ID 733).  We also display the "Activation code" that was used.
 
 If I choose the send the same document to someone using mieweb domain (whitelisted domain), this is how the "Send Document" window changes
-  
-![](../send-document.assets/8f7d1bdf0b75201380ff3c966cf85695.png)  
+
+![](../send-document.assets/8f7d1bdf0b75201380ff3c966cf85695.png)
 
 Notice the "Previously emailed to" section shows up, and lists the email address that was used.
 
 This is what the email looks on my email application
-  
-![](../send-document.assets/8647a2b13493cfb0c39ac928a023ff17.png)  
+
+![](../send-document.assets/8647a2b13493cfb0c39ac928a023ff17.png)
 
 
-  
-## Employer Contacts  
+
+## Employer Contacts
 
 
 On the other hand, if I enter "Better Corp" in the Employers autocomplete input, get the following screen:
-  
-![](../send-document.assets/7456da0813b6a29a1ad5ef8307de5acf.png)  
+
+![](../send-document.assets/7456da0813b6a29a1ad5ef8307de5acf.png)
 
 Notice all the checkboxes shown in the "Employer Contacts" section.    
 These contacts are: 
@@ -137,13 +137,13 @@ These contacts are:
 3. They have an email address.
 
 Notice in the screen below, one of those contacts does not have an email address and that's why he/she does not show up in the "Encounter Contacts" section above.
-  
-![](../send-document.assets/cb97d99b92c6b11d1bebdc3b3ce404ae.png)  
+
+![](../send-document.assets/cb97d99b92c6b11d1bebdc3b3ce404ae.png)
 
 
 You can then select the ones that they want to send the document to.  The actions that happen next, depend on the user's email address and whether it's white listed, or not.  We DO NOT generate activation codes on "Employer Contacts".  The assumption is that these contacts are already active users and do not need to create an account.
 
 After you select contacts and click the "Send" button the window might look something like this:
-  
-![](../send-document.assets/e357d249f5d5f2027d0149d1ed9f7f9b.png)  
+
+![](../send-document.assets/e357d249f5d5f2027d0149d1ed9f7f9b.png)
 

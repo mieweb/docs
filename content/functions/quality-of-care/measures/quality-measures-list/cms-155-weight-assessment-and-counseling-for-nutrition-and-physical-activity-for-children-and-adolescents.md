@@ -11,21 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms155v10'
 source: 'https://drive.google.com/open?id=16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents'
-    identifier: '16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 4020
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 [CMS155v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v8&showresulttype=Measure) (2020)  
 [CMS155v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v9&showresulttype=Measure) (2021)  
 [CMS155v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -44,8 +38,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -87,8 +81,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -120,22 +114,22 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
+### New UI Visit Encounter (valid RC202109+)
+
+
+
+### Original Visit Encounter
 
 2.  Height, weight and BMI observations will need to be documented for the patient within the Visit encounter.  If the patient's BMI is out of range, a warning message will display asking if a dietary consult order should be created.  User should click Ok to have the Dietary Consult order ordered within the Plan section of the Visit encounter.  An order item of Physical Activity consult should also be ordered as well.
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -174,8 +168,8 @@ menu:
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -202,8 +196,8 @@ menu:
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -234,7 +228,7 @@ menu:
 
 </table>
 
-  
-## **Source(s)**  
-  
+
+## **Source(s)**
+
 [eCQI CMS155](https://ecqi.healthit.gov/ecqm/ep/2022/cms155v10)

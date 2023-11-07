@@ -8,13 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'File Documents'
-    identifier: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
-    parent: '1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI'
-    weight: 530
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 The  {{% system-name %}} solution has a system setting that allows users to browse and upload any local file types into a specific chart. This setting is known as the **Generic File Upload** setting, and it is enabled by default.
 
@@ -23,14 +17,14 @@ The  {{% system-name %}} solution has a system setting that allows users to bro
 Though users may upload and store any type of file into a chart,  {{% system-name %}}  does not support, nor has the ability to print, fax, or view, certain file types. For more information on this, please reach out to our Helpdesk.
 {{% /note %}}
 
-  
-## Add a File to a Chart  
+
+## Add a File to a Chart
 
 To begin adding a file to a chart, navigate into the specific chart and click the **Add Document** link accessible throughout the chart.
 Once the document/form library loads, select the **File** link, to filter the options. This will load an *Add Document Properties* screen, where users can browse for a file and upload it into the chart.
 
-  
-![](../file-documents.assets/a68c9fbb18e17cc2071f8935c8c25d96.png)  
+
+![](../file-documents.assets/a68c9fbb18e17cc2071f8935c8c25d96.png)
 
 
 Once the *Add Document Properties* screen opens, begin filling in the necessary fields:
@@ -41,8 +35,8 @@ Users must have **Transcribe for Others** security access to author documents 
 **Document Type:** Select the document type being uploaded and stored in the patient chart.
 **Storage Type:** This dropdown allows users to specify the storage type of the file being uploaded. If the wrong storage type is selected, the document will not display correctly, and an error may present when the **Add Document** button is clicked. For example, an email is stored as an Email storage type, or an XML file is a CCD or CCR Document, etc. For help determining and selecting a specific storage type, do not hesitate to contact Helpdesk.
 
-  
-![](../file-documents.assets/0ec7505ae4472d4093a7966af322eb07.png)  
+
+![](../file-documents.assets/0ec7505ae4472d4093a7966af322eb07.png)
 
 
 **Date of Service:** Provide the date of service for the document.
@@ -52,8 +46,8 @@ Users must have **Transcribe for Others** security access to author documents 
 * For the Encounter field, a <strong>Search</strong> button is provided to allow for searching specific encounters to obtain the ID for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters to assist with linking. If an encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and it will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out. If an encounter does not need to be linked, simply leave the encounter field blank.
-  
-![](../file-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)  
+
+![](../file-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
 
 {{% info %}}

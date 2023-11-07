@@ -13,19 +13,13 @@ links:
   - 'https://system/?func=omniscope'
   - 'https://system/?func=logout'
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Basic Initial System Information'
-    identifier: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-    parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 190
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## **Patient/Employee/Chart Simple Search Screen**  
+## **Patient/Employee/Chart Simple Search Screen**
 
 * When logging into {{% system-name %}} , most users will navigate to the [E-Chart sidemenu](https://system/?f=chart).  The E-Chart side menu tab is the patient/employee search screen. By default, users will be directed to the <strong>Simple</strong> search screen. Users can change their default landing page upon login of the system by accessing [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the <strong>Control Panel</strong> and changing the <em>Default Page</em> setting.
-  
-![](../basic-initial-system-information.assets/de26608ecff76dd9b380a7723208f481.png)  
+
+![](../basic-initial-system-information.assets/de26608ecff76dd9b380a7723208f481.png)
 
 * The patient/employee search screen is usually defaulted to search by <strong>Name</strong>.  When searching by name, users should enter the last name followed by a comma and then first name.  Users can enter the full first and last name or a few characters of each to render results.
 * Users can also search for patients/employees by Employee/Medical Record Number, Social Security Number (entered with no dashes), DOB, Home Phone number (clicking the Home Phone number hyperlink allows users to search by alternate phone number, cell phone number and work phone number as well) or Doc ID.
@@ -33,8 +27,8 @@ menu:
 * If it is an exact match, it will go directly into the patient's chart. Otherwise, it will give you a list of choices that match the search you typed in.  You can select the patient or search again.
 * Users can specify their default patient/employee search criteria by accessing the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in Control Panel and editing the <em>Search By</em> setting.
 * If desired, MIE can edit the system setting to turn off the <em>Search by Social Security Number</em> option.  This will remove the search ability from the Simple and Detailed search screens in E-Chart. It will also remove the Social Security column from the Recent Employees/Patients screen.   To turn off the social security search option in other modules or layouts, please contact MIE for assistance.
-  
-## **Changing System Settings Per User**  
+
+## **Changing System Settings Per User**
 
 * Users who have security access to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) of the Control Panel are able to set their own system defaults and preferences as well as change settings for other users, individually or system-wide.  
 * The [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) screen will default to the logged-in user's settings.  This can be changed by clicking the dropdown option in the upper-right corner of the screen.
@@ -45,11 +39,11 @@ menu:
    * <strong>Starting Folder</strong> (found in the E-Chart Defaults section) - this will designate which chart tab the user will navigate to when accessing a chart.  
    * <strong>Number of Recent Patients</strong> (found in the E-Chart Defaults section) - this will determine the maximum number of employees/patients that will display in the <em>Your Recent Employees</em> section of the [E-Chart](https://system/?f=chart) screen.
 * To save changes to the [My Settings](https://system/) screen, users should click on the <strong>Submit Settings</strong> button located at the top or the bottom of this screen. Once the changes have been saved, the user will receive a message to indicate that the setting updates were successful.
-  
-![](../basic-initial-system-information.assets/28d67e625ec307688fa90263badcce1c.png)  
 
-  
-### **Document Summary Tab**  
+![](../basic-initial-system-information.assets/28d67e625ec307688fa90263badcce1c.png)
+
+
+### **Document Summary Tab**
 
 * By default, {{% system-name %}}  will include a <strong>Document Summary</strong> (or Documents) chart tab in the chart.  By design, all documents stored in the chart will be mapped to the Document Summary chart tab unless otherwise changed by a user.
 * The number in parenthesis next to the title of a chart tab, in this case the Documents tab, indicates how many documents exist in that chart tab. If no number exists, no documents exist in that chart tab.
@@ -60,29 +54,29 @@ menu:
 * Users can click on the Doc ID to open/display the selected document.
 * Users can change the default document view when in any chart tab.  This is done by using the dropdown located in the top-right corner of the Documents chart tab.
 
-  
+
   ![](../basic-initial-system-information.assets/a6ed814cf8a4f4b6a4750c6be8e32a0c.png)  
-![](../basic-initial-system-information.assets/72c92939eb810e1f1f0ec622de946023.png)  
+![](../basic-initial-system-information.assets/72c92939eb810e1f1f0ec622de946023.png)
 
 
-  
-## **Other Chart Tabs Within a Chart**  
-  
+
+## **Other Chart Tabs Within a Chart**
+
 Users can click on any chart tab located at the top of the charts to view or enter information, depending on the information needing recorded and the layout of the chart tab. Some chart tabs are made up of sub-tabs.  Clicking on the main parent tab will expand the listing of sub-tabs available to access from that parent. Chart tabs that store documents will display a number in parentheses next to the chart tab name, indicating how many documents exist in that specific chart.  If no number exists, this indicates that no documents are stored in that particular chart tab or the chart tab layout is not setup to store documents, but rather is setup to enter information such as medications/allergies, conditions, demographics, etc.
 
-  
-![](../basic-initial-system-information.assets/a6ed814cf8a4f4b6a4750c6be8e32a0c.png)  
+
+![](../basic-initial-system-information.assets/a6ed814cf8a4f4b6a4750c6be8e32a0c.png)
 
 
 Clicking the [Home](https://system/?func=omniscope) icon located towards the top-left corner of the screen will navigate the user back to their default landing screen.  The default landing page is defined per user in the [My Settings](https://system/) chart tab of the **Control Panel**. The *Default Page* setting drives this navigation.
-  
-![](../basic-initial-system-information.assets/1a43a1b3ca94a43327655d4f95d4927e.png)  
 
-  
-## **Logging Out**  
-  
+![](../basic-initial-system-information.assets/1a43a1b3ca94a43327655d4f95d4927e.png)
+
+
+## **Logging Out**
+
 To log out of the system, click the [Logout](https://system/?func=logout) sidemenu option.
 
-  
-![](../basic-initial-system-information.assets/e58d96d340fb61f57c56a31be3482872.png)  
+
+![](../basic-initial-system-information.assets/e58d96d340fb61f57c56a31be3482872.png)
 

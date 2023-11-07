@@ -9,7 +9,7 @@ links:
   - 'finding-employer-organizations.md'
   - '../e-chart/editing-demographics.md'
 source: 'https://drive.google.com/open?id=1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.  
 When creating and adding employees to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient chart for the employee and the process is completed from the patient demographics screen.
@@ -22,7 +22,7 @@ When creating and adding employees to employer organizations, an employee's basi
 
 3. At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.
 
-   <img src="../creating-and-adding-employees-to-employer-organizations.assets/2e30635865c6d3532f242a9295a116d3.png" />  
+   <img src="../creating-and-adding-employees-to-employer-organizations.assets/2e30635865c6d3532f242a9295a116d3.png" />
 
 4. {info }
    The Social Security Number and email address are optional.{/info}

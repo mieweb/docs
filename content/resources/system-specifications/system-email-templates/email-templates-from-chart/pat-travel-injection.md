@@ -7,13 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMDUE&old_module=Email&old_name=Pat+Travel+Injection&active=0'
 source: 'https://drive.google.com/open?id=1ER03JgPAczSj0UNEgRoAGhifQAsz-YXN7Xx-nu0OP7w'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Pat Travel Injection'
-    identifier: '1ER03JgPAczSj0UNEgRoAGhifQAsz-YXN7Xx-nu0OP7w'
-    parent: '1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ'
-    weight: 6530
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 
@@ -32,8 +26,8 @@ Cc:
 Subject: Notification to Schedule Appointment for Travel Immunizations Due
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-  
-## **Notification to Schedule Appointment for Travel Immunizations Due**  
+
+## **Notification to Schedule Appointment for Travel Immunizations Due**
 
 
 TO: Frederick J Anderson

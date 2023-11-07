@@ -11,21 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10'
 source: 'https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
-    identifier: '1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3790
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 [CMS22v8 ](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure)(2020)  
 [CMS22v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v9&showresulttype=Measure) (2021)  
 [CMS22v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -44,8 +38,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -80,8 +74,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 
@@ -109,12 +103,12 @@ menu:
 
 </table>
 
-  
-## Clinical Instructions  
-  
+
+## Clinical Instructions
+
 Track all 18+ year-old patients screened for high blood pressure, and ensure those with a pre-hypertensive or hypertensive blood pressure reading have a follow-up plan recommended and documented. Pre-hypertension is defined by blood pressure readings with a systolic pressure from 120 to 139 mm/Hg or a diastolic pressure from 80 to 89 mm/Hg. Hypertension is defined by readings greater than or equal to 140/90 mm/Hg.
-  
-### Preferred Workflow  
+
+### Preferred Workflow
 
 1. While documenting the Visit encounter, record the blood pressure, as appropriate
 2. Open the Vitals section and enter the systolic and diastolic pressures
@@ -126,8 +120,8 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
    4. E-prescribe an appropriate hypertension medication
 5. Continue documenting the encounter, as needed
 6. When completed, Close and Archive the encounter
-  
-### Alternate Workflow  
+
+### Alternate Workflow
 
 1. While documenting the Visit encounter, record the blood pressure, as appropriate
 2. Open the Vitals section and enter the systolic and diastolic pressures
@@ -135,11 +129,11 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 4. Complete and provide the follow-up plan, as appropriate
 5. Continue documenting the encounter, as needed
 6. When completed, Close and Archive the encounter
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -154,8 +148,8 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -170,8 +164,8 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -242,7 +236,7 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 
 </table>
 
-  
-## **Source(s)**  
-  
+
+## **Source(s)**
+
 [eCQI CMS22](https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10)

@@ -7,13 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFMC&old_module=Email&old_name=Pat+FMLA+Med+Cert+Missing+Info&active=0'
 source: 'https://drive.google.com/open?id=16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Pat FMLA Med Cert Missing Info'
-    identifier: '16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug'
-    parent: '1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ'
-    weight: 6410
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 
@@ -32,8 +26,8 @@ Cc:
 Subject: FMLA Medical Certification for Frederick Anderson
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-  
-## **FMLA Medical Certification Missing Information**  
+
+## **FMLA Medical Certification Missing Information**
 
 RE: Frederick J Anderson
 Date: 08-22-2017

@@ -11,21 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10'
 source: 'https://drive.google.com/open?id=1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 75 - Children Who Have Dental Decay or Cavities'
-    identifier: '1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3830
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 [CMS75v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v8&showresulttype=Measure) (2020)  
 [CMS75v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v9&showresulttype=Measure) (2021)  
 [CMS75v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -44,8 +38,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -80,8 +74,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -109,23 +103,23 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
-  
+
+## Clinical Instructions
+
 Track all patients 6 months to 20 years of age diagnosed with tooth decay or cavities.
-  
-### Workflow  
+
+### Workflow
 
 1. While documenting the Visit encounter, record the diagnosis, as appropriate
 2. Open the Symptoms/Diagnosis section
 3. Ensure the patient has a diagnosis of tooth or dental decay, as applicable
 4. Continue documenting the encounter, as appropriate
 5. When completed, Close and Archive the encounter
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -140,8 +134,8 @@ Track all patients 6 months to 20 years of age diagnosed with tooth decay or cav
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -164,8 +158,8 @@ Track all patients 6 months to 20 years of age diagnosed with tooth decay or cav
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -180,7 +174,7 @@ Track all patients 6 months to 20 years of age diagnosed with tooth decay or cav
 
 </table>
 
-  
-## **Source(s)**  
-  
+
+## **Source(s)**
+
 [eCQI CMS75](https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10)

@@ -9,21 +9,15 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10'
 source: 'https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 131 - Diabetes: Eye Exam'
-    identifier: '1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3910
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 CMS131v8 (2020)  
 CMS131v9 (2021)  
 CMS131v10 (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -42,8 +36,8 @@ CMS131v10 (2022)
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -79,8 +73,8 @@ CMS131v10 (2022)
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -108,15 +102,15 @@ CMS131v10 (2022)
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
+### New UI Visit Encounter (valid RC202109+)
+
+
+
+### Original Visit Encounter
 
 2. Ensure all diabetic patients aged 18-75 have been screened for diabetic retinal disease. Use the Past Procedures section of the encounter to record a previous dilated or negative retinal exam, or use the Preventive Care section of the encounter to document the last Retinal Screening; otherwise, document a recognized eye exam by scanning and indexing an established document type (e.g., RETINAL) configured with the appropriate Concept ID.
    1. <strong>Option 1: Document in the Past Procedures section</strong>
@@ -131,11 +125,11 @@ CMS131v10 (2022)
    * <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
 
       1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -178,8 +172,8 @@ CMS131v10 (2022)
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -266,8 +260,8 @@ CMS131v10 (2022)
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -286,7 +280,7 @@ CMS131v10 (2022)
 
 </table>
 
-  
-## **Source(s)**  
-  
+
+## **Source(s)**
+
 [eCQI CMS131](https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10)

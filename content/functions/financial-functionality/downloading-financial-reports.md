@@ -9,17 +9,17 @@ links:
   - 'viewing-financial-reports.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 The system generates reports in comma-separated value format for download. After downloading, open in a spreadsheet program.
 1. [View a financial report](viewing-financial-reports.md). 
 2. [Work with the information in the report](../reports/using-datavis-grids-data-tools.md) as appropriate to include the information to download.
 3. Select <strong>Generate CSV</strong>. The system generates a CSV file of the information as displayed.
 
-   <img src="../downloading-financial-reports.assets/078d8b4976fe68deb28a7d65699dced5.png" />  
+   <img src="../downloading-financial-reports.assets/078d8b4976fe68deb28a7d65699dced5.png" />
 
 4. When the file is ready to download, the <em>Generate CSV</em> icon changes to <em>Download CSV</em>. Select <strong>Download CSV</strong>. Your device downloads the file.
 
-  
-    <img src="../downloading-financial-reports.assets/9052ffd2f82da052666d33190bd890f6.png" />  
+
+    <img src="../downloading-financial-reports.assets/9052ffd2f82da052666d33190bd890f6.png" />
 

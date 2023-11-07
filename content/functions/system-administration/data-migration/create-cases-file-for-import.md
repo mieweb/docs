@@ -12,21 +12,15 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Create Cases File for Import'
-    identifier: '12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
-    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    weight: 4790
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 This document explains how to import your cases into {{% system-name %}} .  
 What you will need:
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Cases CSV File Example
 {{% system-name %}}*  end user with administrative rights
-  
-## Create Cases CSV File  
+
+## Create Cases CSV File
 
 1. The following table provides optional or required <strong>Field Names</strong> and <strong>Descriptions</strong>, as indicated by the <strong>Requirement</strong> column. Items marked as <em>Best Practice</em> or <em>Optional</em> are not required and may be left blank, or omitted entirely. Employee ID must be the first column in the CSV file. The order of the remaining fields does not matter.
 
@@ -128,31 +122,31 @@ What you will need:
 
 1. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents a case record. Below is a screenshot of the Cases CSV File Example for guidance.
 
-  
-![](../create-cases-file-for-import.assets/220c6cd9fc584a66eedbaa12c67d0238.png)  
+
+![](../create-cases-file-for-import.assets/220c6cd9fc584a66eedbaa12c67d0238.png)
 
 
 2. Save the file as CSV format.
-  
-## Upload Injury Cases CSV File  
+
+## Upload Injury Cases CSV File
 
 1. Login as a user with administrator rights.
 2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
-  
-![](../create-cases-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)  
+
+![](../create-cases-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
-  
-![](../create-cases-file-for-import.assets/197af282190b350e97494ffba0636d29.png)  
+
+![](../create-cases-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
 
 4. Select <strong>Clinical Encounter CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-  
-![](../create-cases-file-for-import.assets/1d4d4739ec6ba592652489a56d8dd48f.png)  
+
+![](../create-cases-file-for-import.assets/1d4d4739ec6ba592652489a56d8dd48f.png)
 
 
 5. Select the Cases CSV File and click <strong>Upload</strong>.
@@ -163,13 +157,13 @@ What you will need:
 
 *For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
 {{% /tip %}}
-  
-## Resources  
+
+## Resources
 
 * [Simplified Case Management CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/)
 * [Injury Cases CSV File Example](https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864)
 * [Validation Script for Cases](https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI)
-  
-## Troubleshooting  
+
+## Troubleshooting
 
 Ensure that all of the fields marked as **Required** have valid content. The file uploaded must be saved as a CSV formatted file. In case of any errors, contact Technical Support.

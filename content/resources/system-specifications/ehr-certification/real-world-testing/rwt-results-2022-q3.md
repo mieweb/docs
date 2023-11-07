@@ -23,9 +23,9 @@ links:
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Lj82ShrYoYoT1mgHtJ4Kmk3DiKtKvYV1ql7MoPxy-2Y'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## General Information  
+## General Information
 
 
 
@@ -65,8 +65,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-## Certification Criteria to be Tested  
+
+## Certification Criteria to be Tested
 
 * ‘‘Transitions of care" (§ 170.315(b)(1) Cures Update); 
 * "Clinical information reconciliation and incorporation" (§ 170.315(b)(2)); 
@@ -81,8 +81,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 * "Application access – data category request" (§ 170.315(g)(8)); 
 * "Application access—all data request" (§ 170.315(g)(9) Cures Update); 
 * "Direct Project" (§ 170.315(h)(1)) 
-  
-## Criteria-Measure Matrix  
+
+## Criteria-Measure Matrix
 
 
 
@@ -461,24 +461,24 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 </table>
 
 
-  
-## Justification for Real World Testing Approach  
-  
+
+## Justification for Real World Testing Approach
+
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
-  
-## Measures Used in Overall Approach  
-  
+
+## Measures Used in Overall Approach
+
 The following measures outline and justify how each requirement of all criteria to which WebChart EHR is certified will be tested during the 2022 Real World Testing year.  Please review the Criteria-Measure Matrix above to review which measure(s) will cover a specific requirement.
 
-  
-### Measure 1: Clinical Quality Measures Outgoing  
 
-  
-#### Description  
-  
+### Measure 1: Clinical Quality Measures Outgoing
+
+
+#### Description
+
 This measure will review WebChart EHR's ability to measure clinical quality and export the required information.  Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -504,14 +504,14 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 First, MIE will install an instance of Cypress 6+ on our production servers following all of our protocols for maintaining the security of PHI.  Cypress CUV+ supports the validation of QRDA reports containing PHI and will be used monthly to validate a random selection of QRDAs from the care settings identified.  Any errors identified by Cypress CUV+ will be tracked, reported, and addressed, then followed with testing of a larger sample of files.  
 Additionally, WebChart EHR has two customers that participate in quarterly attestations using both QRDA I and QRDA III reports.  These customers regularly inspect their CQM compliance numbers and will alert MIE to any perceived errors.  MIE will then collect and track the attestation results from the reporting bodies including any errors so as to report a success/failure rate.
 
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -554,20 +554,20 @@ Additionally, WebChart EHR has two customers that participate in quarterly attes
 
 </table>
 
-  
-#### Discussion  
-  
-As expected, no errors were found in formatting or coding of the certified measures.  
 
-  
-### Measure 2: Clinical Quality Measures Incoming  
+#### Discussion
 
-  
-#### Description  
-  
+As expected, no errors were found in formatting or coding of the certified measures.
+
+
+### Measure 2: Clinical Quality Measures Incoming
+
+
+#### Description
+
 This measure will review WebChart EHR's ability to measure clinical quality and export the required information.  Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -588,12 +588,12 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will install an instance of Cypress 6+ on our production servers following all of our protocols for maintaining the security of PHI.  Automated testing will download QRDA I files from Cypress for each certified CQM, import the files to WebChart EHR, calculate the CQMs, and export the QRDA files for Cypress validation of both the content and calculations to verify that the import was successful.  Any errors identified by Cypress will be tracked, reported, and addressed.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -615,19 +615,19 @@ MIE will install an instance of Cypress 6+ on our production servers following a
 
 </table>
 
-  
-#### Discussion  
-  
-As expected, no errors were found in formatting or coding of the certified measures.
-  
-### Measure 3: E-Prescribing Messages Sent and Received  
 
-  
-#### Description  
-  
+#### Discussion
+
+As expected, no errors were found in formatting or coding of the certified measures.
+
+### Measure 3: E-Prescribing Messages Sent and Received
+
+
+#### Description
+
 This measure will verify that all supported e-prescribing message types are in use in WebChart EHR, including inbound and outbound message types.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -666,9 +666,9 @@ This measure will verify that all supported e-prescribing message types are in u
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report a count of messages for each supported message type:
 * NewRx
 * RxChangeRequest
@@ -684,8 +684,8 @@ MIE will report a count of messages for each supported message type:
 * Error
 * Verify
 The report will also include a count of outbound messages unable to be transmitted due to connectivity issues or other errors, for each message type. This report will be based on the contents of each client's local database table of stored messages. MIE will run the report for each client under consideration and aggregate the results.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -961,19 +961,19 @@ The report will also include a count of outbound messages unable to be transmitt
 </table>
 
 Total error rate: 1351/522809*100 = 0.26%
-  
-#### Discussion  
-  
-As expected, all supported message types have a greater than zero total message count, and the total number of messages far exceeds the number of errored messages with a total error rate of 0.26%. This represents an increase in both the total number or errored messages and overall error rate from Q2.
-  
-### Measure 4: E-Prescribing Diagnosis Codes  
 
-  
-#### Description  
-  
+#### Discussion
+
+As expected, all supported message types have a greater than zero total message count, and the total number of messages far exceeds the number of errored messages with a total error rate of 0.26%. This represents an increase in both the total number or errored messages and overall error rate from Q2.
+
+### Measure 4: E-Prescribing Diagnosis Codes
+
+
+#### Description
+
 This measure will verify that all diagnosis elements are present in some e-prescribing messages as required by §170.315(b)(3), including inbound and outbound message types.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -987,12 +987,12 @@ This measure will verify that all diagnosis elements are present in some e-presc
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report the contents of each stored message in a client's local database table of stored messages, and counts the inbound and outbound messages that include Diagnosis elements. MIE will run the report for each client under consideration and aggregate the results.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1007,19 +1007,19 @@ MIE will report the contents of each stored message in a client's local database
 
 </table>
 
-  
-#### Discussion  
-  
-Since the Diagnosis elements are not a required component of a NewRx message, as anticipated, only a subset (29.65%) of the NewRx messages included a diagnosis; however, this is an increase in diagnosis usage over the 28.61% of Q2.
-  
-### Measure 5: E-Prescribing Oral Liquid Units  
 
-  
-#### Description  
-  
+#### Discussion
+
+Since the Diagnosis elements are not a required component of a NewRx message, as anticipated, only a subset (29.65%) of the NewRx messages included a diagnosis; however, this is an increase in diagnosis usage over the 28.61% of Q2.
+
+### Measure 5: E-Prescribing Oral Liquid Units
+
+
+#### Description
+
 This measure will verify that prescriptions for medications with an oral liquid form will have a quantity unit of measurement of mL, not cc or English units as outlined in §170.315(b)(3).
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1033,12 +1033,12 @@ This measure will verify that prescriptions for medications with an oral liquid 
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will create a system report that examines the contents of each stored NewRx message in a client's local database table of stored messages, limiting to oral liquid medications, and provides a count of each distinct quantity unit of measure used. MIE will run the report for each client under consideration and aggregate the results.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1075,19 +1075,19 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 </table>
 [Units of Presentation](https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation)
-  
-#### Discussion  
-  
-As expected, C28254 (milliliters) is the most commonly sent unit of measure for oral liquid medications.  Non-C28254 units were only sent in 0.03% of oral liquid medication messages. This represents a decrease in incorrect code usage from Q2.
-  
-### Measure 6: E-Prescribing Decimal Format  
 
-  
-#### Description  
-  
+#### Discussion
+
+As expected, C28254 (milliliters) is the most commonly sent unit of measure for oral liquid medications.  Non-C28254 units were only sent in 0.03% of oral liquid medication messages. This represents a decrease in incorrect code usage from Q2.
+
+### Measure 6: E-Prescribing Decimal Format
+
+
+#### Description
+
 This measure will verify that numeric amounts in prescriptions include leading zeros before decimal points and do not allow trailing zeros after a decimal point.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1101,12 +1101,12 @@ This measure will verify that numeric amounts in prescriptions include leading z
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will create a system report that examines the contents of each stored NewRx message in a client's local database table of stored messages, and provides a count of prescription messages that include inappropriate trailing zeros, and a count of those missing leading zeros. MIE will run the report for each client under consideration and aggregate the results.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1121,20 +1121,20 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 </table>
 
-  
-#### Discussion  
-  
+
+#### Discussion
+
 As expected, the number of NewRx messages sent with inappropriate trailing zeros, or missing leading zeros, occurs rarely in only 0.49% of messages; however, this represents an increase from Q2 which indicates the need for either client education or coded validation in the software.
 
-  
-### Measure 7: CDA Download  
 
-  
-#### Description  
-  
+### Measure 7: CDA Download
+
+
+#### Description
+
 This measure will verify that the system can accept a CDA document uploaded into the system, assign it to the appropriate chart in the system as appropriate, and display the document with a standard stylesheet with all sections being accepted and visible.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1155,15 +1155,15 @@ This measure will verify that the system can accept a CDA document uploaded into
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report on the number of CDA formatted documents uploaded into tracked Webchart systems and the number of upload attempts that failed as stored in client databases and error log files.  
 MIE will report on the number of requests to view a CDA document within the system, and the number of times it displayed correctly, and when there were errors in display.  
 Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.  These test assumptions for customer reporting align with the "visual inspection" aspects of the test lab tests.
 
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1189,19 +1189,19 @@ Any errors reported by customers or the recipients of their quarterly attestatio
 </tr>
 
 </table>
-  
-#### Discussion  
-  
-As anticipated, there were no errors in being able to upload and view valid CCDA documents.  The number of CDA documents has increased dramatically from Q2 to Q3, mainly from one client.  The number of views more than doubled, because of that client's upload increase, although most CDA documents generated were not being subsequently viewed.
-  
-### Measure 8: Application Access Documentation  
 
-  
-#### Description  
-  
+#### Discussion
+
+As anticipated, there were no errors in being able to upload and view valid CCDA documents.  The number of CDA documents has increased dramatically from Q2 to Q3, mainly from one client.  The number of views more than doubled, because of that client's upload increase, although most CDA documents generated were not being subsequently viewed.
+
+### Measure 8: Application Access Documentation
+
+
+#### Description
+
 This measure will verify that WebChart EHR's API documentation is publicly and perpetually available.  Compliance will be recorded by an external uptime monitor and reported quarterly.  Upon request, or in the event of downtime, data can additionally be reported in daily, weekly, or monthly increments.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1248,28 +1248,28 @@ This measure will verify that WebChart EHR's API documentation is publicly and p
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 An external uptime monitor will check the availability of all documentation available at [https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html](https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html).  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
-  
-#### Results  
-  
-The MIE API documentation was available 99.902% of Q3.  There were several short down-time events during July averaging 17.29 minutes per event all due to Cloudflare timeouts.  
-  
-#### Discussion  
-  
+
+#### Results
+
+The MIE API documentation was available 99.902% of Q3.  There were several short down-time events during July averaging 17.29 minutes per event all due to Cloudflare timeouts.
+
+#### Discussion
+
 As expected, the documentation maintained an uptime of greater than 99.9% at 99.902% for the quarter.  Three of the seven down-time events were longer than the acceptable 10 minute duration at 81 minutes on 07/12/2022, 12 minutes on 07/15/2022, and 11 minutes on 07/16/2022.  Since all down-time events were caused by Cloudflare timeouts, the root cause of this will be investigated to mitigate future extended down-time events.
 
-  
-### Measure 9: Clinical Information Reconciliation and Incorporation  
 
-  
-#### Description  
-  
+### Measure 9: Clinical Information Reconciliation and Incorporation
+
+
+#### Description
+
 This measure will verify that the system can take a CCDA transition of care/referral summary formatted according to the standards adopted §170.205(a)(3) and §170.205(a)(4) and read the data for medications, allergies, and conditions from the document, reconcile those into the chart, and that the data is fully incorporated into the chart.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1287,13 +1287,13 @@ This measure will verify that the system can take a CCDA transition of care/refe
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report on the number of CDA formatted documents reconciled via the "Froozhie" tool.  
 Following each reconcile, a temporary CDA for the chart will be created and validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will *NOT* be kept, only the result of the validation).  Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1312,21 +1312,21 @@ Following each reconcile, a temporary CDA for the chart will be created and vali
 
 </table>
 
-  
-#### Discussion  
-  
+
+#### Discussion
+
 The use of CDA reconciliation in systems was relatively low, and no issues with the reconciliation of the documents were reported.
 
 The number of invalid validations were higher than anticipated, but lower than Q2 (6.2% from 11.1%).  Work is being done to rectify the remaining issues with the CDA generation in these systems, and to put in place a more immediate notification process when invalid CDAs are generated.
-  
-### Measure 10: Transmission to Immunization Registry: Create Content  
 
-  
-#### Description  
-  
+### Measure 10: Transmission to Immunization Registry: Create Content
+
+
+#### Description
+
 This measure will verify that the system can generate a VXU conforming to the HL7 v2.5.1 standard, CDC guidance for communication to Immunization Registries and state/local guidance. The VXU messages shall contain information related to the demographics and vaccination administration record. 
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1341,12 +1341,12 @@ This measure will verify that the system can generate a VXU conforming to the HL
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report from the database the number of successfully sent VXU messages acknowledged as received by the state immunization registry. MIE will also report from the database on the number of records rejected by the state registry due to error, whether the failure was due to registry internal errors, clinical data entry issues or a not well-formed message. Finally, MIE will report from the database the number of messages which declined to be generated due to data entry issues failing message pre-validation.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1365,20 +1365,20 @@ MIE will report from the database the number of successfully sent VXU messages a
 
 </table>
 
-  
-#### Discussion  
-  
+
+#### Discussion
+
 As expected, very few messages were rejected by the state registry. There is a small portion of the entered injections which were not able to be transmitted to the state registry due to user data entry issues.
 
-  
-### Measure 11: Transmission to Immunization Registries: Query Records  
 
-  
-#### Description  
-  
+### Measure 11: Transmission to Immunization Registries: Query Records
+
+
+#### Description
+
 This measure will verify that the system can generate a QBP conforming to the HL7 v2.5.1 standard, CDC guidance for communication to Immunization Registries and state/local guidance. Furthermore, the system shall be able to retrieve, consume and display to the end user the results of any such query.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1393,12 +1393,12 @@ This measure will verify that the system can generate a QBP conforming to the HL
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report the number of successful retrievals of evaluated history and forecasting operations from the database. MIE will report the number of failed retrievals, including those resulting from an internal error in the registry resulting in an inability to consume a response from the database. MIE will manually track, resolve and report issues resulting from WebChart EHR application errors as reported by end users.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1413,20 +1413,20 @@ MIE will report the number of successful retrievals of evaluated history and for
 
 </table>
 
-  
-#### Discussion  
-  
+
+#### Discussion
+
 The overall error rate increased slightly between Q2 and Q3, increasing from 1% to 1.4%; however, this still represents a decrease in overall error rate from 4.2% in Q1.
 
-  
-### Measure 12: Direct Project: Send  
 
-  
-#### Description  
-  
+### Measure 12: Direct Project: Send
+
+
+#### Description
+
 This measure will verify that the system can transmit a Direct project conforming S/MIME to a HISP. The measure will also verify the receipt of those transmissions by verifying the status of the resultant MDN messages.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1447,12 +1447,12 @@ This measure will verify that the system can transmit a Direct project conformin
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report from log files the number of messages transmitted. MIE will report from logs the number of messages which failed to be transmitted whether due to internal error, external failures or inability to verify trust of the recipient. MIE will report from logs the number of Processed MDN messages received. MIE will report from logs the number of Failed MDN messages received.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1471,19 +1471,19 @@ MIE will report from log files the number of messages transmitted. MIE will repo
 
 </table>
 
-  
-#### Discussion  
-  
-While very few outgoing messages were processed, all messages were successful.
-  
-### Measure 13: Direct Project: Receive  
 
-  
-#### Description  
-  
+#### Discussion
+
+While very few outgoing messages were processed, all messages were successful.
+
+### Measure 13: Direct Project: Receive
+
+
+#### Description
+
 This measure will verify that the system conforms to Direct Project message receipt requirements for validation.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1497,12 +1497,12 @@ This measure will verify that the system conforms to Direct Project message rece
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report from logs the number of messages transmitted to the HISP.  MIE will report from logs the number of messages failing to conform to Direct Project specifications.  MIE will report from logs the number of messages which are successfully delivered to recipients. 
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1521,20 +1521,20 @@ MIE will report from logs the number of messages transmitted to the HISP.  MIE w
 
 </table>
 
-  
-#### Discussion  
-  
-As expected, the received messages were successfully processed and delivered.
-  
-### Measure 14: Patient Portal View  
 
-  
-#### Description  
-  
+#### Discussion
+
+As expected, the received messages were successfully processed and delivered.
+
+### Measure 14: Patient Portal View
+
+
+#### Description
+
 This measure will verify that a patient can view various document types within the patient portal. 
 
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1554,17 +1554,17 @@ This measure will verify that a patient can view various document types within t
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report a number of measurements surrounding documents, including:
 * Number of documents sent successfully to patients in the patient portal
 * Number of documents unsuccessfully sent to the patient portal
 * Number of documents read by patients in the patient portal 
 * Number of failures in the ability to read messages in the patient portal 
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files as well as any client reported issues tracked during the testing period.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1587,21 +1587,21 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 </table>
 
-  
-#### Discussion  
-  
+
+#### Discussion
+
 During the third quarter, no tracked clients were sending CDA documents into the patient portal.  Additional testing as well as client education will be investigated to provide more robust data in future quarters. 
 
 
-  
-### Measure 15: Patient Portal Download  
 
-  
-#### Description  
-  
+### Measure 15: Patient Portal Download
+
+
+#### Description
+
 This measure will verify that a patient can download various document types within the patient portal. 
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1622,17 +1622,17 @@ This measure will verify that a patient can download various document types with
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report a number of measurements surrounding documents, including:
 * Number of documents sent successfully to patients in the patient portal
 * Number of documents unsuccessfully sent to the patient portal
 * Number of documents successfully downloaded from the patient portal 
 * Number of documents unsuccessful in being downloaded from the patient portal. 
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1655,20 +1655,20 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 </table>
 
-  
-#### Discussion  
-  
+
+#### Discussion
+
 During the third quarter, no tracked clients were sending CDA documents into the patient portal.  Additional testing as well as client education will be investigated to provide more robust data in future quarters. 
 
-  
-### Measure 16: Patient Portal CCDA Transmit  
 
-  
-#### Description  
-  
+### Measure 16: Patient Portal CCDA Transmit
+
+
+#### Description
+
 This measure will verify that a patient can transmit various document types within the patient portal to other entities.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1688,17 +1688,17 @@ This measure will verify that a patient can transmit various document types with
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report a number of measurements surrounding documents, including:
 * Number of documents sent successfully to patients in the patient portal
 * Number of documents unsuccessfully sent to the patient portal
 * Number of documents successfully transmitted from the patient portal 
 * Number of documents unsuccessful in being transmitted from the patient portal. 
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1720,20 +1720,20 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 </tr>
 
 </table>
-  
-#### Discussion  
-  
+
+#### Discussion
+
 During the third quarter, no tracked clients were sending CDA documents into the patient portal.  Additional testing as well as client education will be investigated to provide more robust data in future quarters. 
 
-  
-### Measure 17: Send Using Edge Protocol for SMTP / XDM  
 
-  
-#### Description  
-  
+### Measure 17: Send Using Edge Protocol for SMTP / XDM
+
+
+#### Description
+
 This measure will verify that the system is able to utilize a SMTP edge protocol for sending and receiving Direct Project messages. As part of receiving messages, XDM shall be handled when applicable.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1754,12 +1754,12 @@ This measure will verify that the system is able to utilize a SMTP edge protocol
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report from logs the number of messages transmitted to the HISP by SMTP.  MIE will report from logs the number of messages received from the HISP by SMTP.  MIE will report from logs the number of XDM packages processed.  In the case where insufficient real-world data is available, data resulting from regular testing with DirectTrust shall be included in the reporting.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1774,19 +1774,19 @@ MIE will report from logs the number of messages transmitted to the HISP by SMTP
 
 </table>
 
-  
-#### Discussion  
-  
-As expected, there was very low usage.  XDM packages that were processed included packages from standard regular testing.
-  
-### Measure 18: Data Export  
 
-  
-#### Description  
-  
+#### Discussion
+
+As expected, there was very low usage.  XDM packages that were processed included packages from standard regular testing.
+
+### Measure 18: Data Export
+
+
+#### Description
+
 This measure will verify that a user can use WebChart EHR's Data Export Tool to pull down groups of patient data from a Webchart EHR system.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1810,30 +1810,30 @@ This measure will verify that a user can use WebChart EHR's Data Export Tool to 
 
 </table>
 
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will report from the event log database tables a series of occurrences that indicates use of the WebChart EHR Data Export Tool:
 * Event logs of the report to find all patients for Document Export being called.
 * Event logs of CDA documents being generated within a certain short time period following the report. 
 MIE will track customer reports of data expected to be in mass data export downloads that did not download as failures.
-  
-#### Results  
-  
-Number of times EHR Data Export Tool was used: 0
-  
-#### Discussion  
-  
-During the third quarter, no clients used the EHR Data Export Tool.  Additional testing will be investigated to provide more robust data in future quarters.
-  
-### Measure 19: CDA Validation  
 
-  
-#### Description  
-  
+#### Results
+
+Number of times EHR Data Export Tool was used: 0
+
+#### Discussion
+
+During the third quarter, no clients used the EHR Data Export Tool.  Additional testing will be investigated to provide more robust data in future quarters.
+
+### Measure 19: CDA Validation
+
+
+#### Description
+
 This measure will verify that CDAs both created by and received by a Webchart EHR system pass basic CDA validation.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1851,15 +1851,15 @@ This measure will verify that CDAs both created by and received by a Webchart EH
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 All CDAs stored within a Webchart EHR will be run through schema validation regardless of the document's origin.  Documents may originate within the WebChart EHR system or be imported from a third party application of manual upload.  The schema validator will be installed within the MIE production environment to ensure the security of all PHI contained in the documents.  Only results of the validation will be made available, document content will not be revealed to developers during testing.
 
 The number of valid vs. invalid CDAs and their sources will be reported.
-  
+
 #### Results   
-  
+
 All CDAs
 
 <table>
@@ -1894,26 +1894,26 @@ Webchart Generated CDAs Only
 </tr>
 
 </table>
-  
-#### Discussion  
-  
+
+#### Discussion
+
 The percentage of CCDAs marked invalid was extremely high this period.  As stated in Measure 9, "Work is being done to rectify the issues with the CDA generation in these systems, and to put in place a more immediate notification process when invalid CDAs are generated."
 
-Most of these documents were also NOT created by WebChart EHR systems, but came in from third party providers.  Where possible, these third parties will be informed of issues with their CCDAs.  
-  
+Most of these documents were also NOT created by WebChart EHR systems, but came in from third party providers.  Where possible, these third parties will be informed of issues with their CCDAs.
+
 WebChart EHR generated documents with errors were determined to have an issue with a performer element getting generated in the wrong spot, this is currently being rectified.  Overall these issues would not inhibit usage of the CCDA by another system.
 
 WebChart EHR Generated CDAs were not evaluated directly in Q1 or Q2, but it suspected that the majority of CDAs were again coming from third parties.
 
-  
-### Measure 20: Patient Data requests VIA API  
 
-  
-#### Description  
-  
+### Measure 20: Patient Data requests VIA API
+
+
+#### Description
+
 This measure will verify that the API as outlined in WebChart EHR's documentation is functional. A valid request for patient information must provide that information.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1944,16 +1944,16 @@ This measure will verify that the API as outlined in WebChart EHR's documentatio
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 To address the overall automated testing, the following test requests will be made daily against a test system in a production environment.
 * Issue a request in the browser to search for a patient (patient selection)
 * Issue a request in the browser to request demographics of a patient (data category request)
 * Issue a request using the export tool described in the documentation.
 All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
-  
-#### Results  
+
+#### Results
 
 
 <table>
@@ -1971,19 +1971,19 @@ All API requests made in production systems are recorded in log files.  The numb
 </tr>
 
 </table>
-  
-#### Discussion  
-  
-As expected, the production use of the API was rare, but the total number of export errors was minimal.  Patient chart exports were successful in 99.99% of cases.
-  
-### Measure 21: Web Content Accessibility  
 
-  
-#### Description  
-  
+#### Discussion
+
+As expected, the production use of the API was rare, but the total number of export errors was minimal.  Patient chart exports were successful in 99.99% of cases.
+
+### Measure 21: Web Content Accessibility
+
+
+#### Description
+
 This measure will verify that all certified content in the patient portal will maintain accessibility conformance as outlined in the Web Content Accessibility Guidelines (WCAG) 2.0.
-  
-#### Associated Certification Criteria  
+
+#### Associated Certification Criteria
 
 
 <table>
@@ -1997,21 +1997,21 @@ This measure will verify that all certified content in the patient portal will m
 </tr>
 
 </table>
-  
-#### Test Methodology  
-  
+
+#### Test Methodology
+
 MIE will conduct monthly third-party production accessibility scanning as well as automated nightly internal accessibility scanning of a test system in a production environment.
-  
-#### Results  
-  
+
+#### Results
+
 The internal accessibility scanning of a pre-production test system identified 0 urgent and 0 secondary non-conformance issues in 100% of nightly and ad-hoc scans.  Production accessibility scanning identified 0 urgent and 0 secondary non-conformance issues for the entire quarter.
-  
-#### Discussion  
-  
+
+#### Discussion
+
 As expected no urgent non-conformance issues were identified in either live production or pre-production test systems.  Also, this quarter, no secondary non-conformance issues were identified.
 
-  
-## Schedule of Key Milestones  
+
+## Schedule of Key Milestones
 
 
 
@@ -2093,9 +2093,9 @@ B.10 planned for 2023</td>
 </table>
 
 
-  
-## Attestation  
-  
+
+## Attestation
+
 This Real World Testing plan is complete with all required elements, including measures that address all certification criteria and care settings. All information in this plan is up to date and fully addresses the health IT developer's Real World Testing requirements. 
 
 

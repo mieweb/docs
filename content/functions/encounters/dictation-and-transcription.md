@@ -6,13 +6,7 @@ version: 35
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Dictation and Transcription'
-    identifier: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-    parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1140
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

@@ -53,25 +53,19 @@ links:
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Interface Specifications'
-    identifier: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-    parent: '1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU'
-    weight: 6290
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 
 
 
-  
-![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)  
+
+![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)
 
 The list below represents a complete listing of all vendors/devices that we have integrated with. Any vendor/device not listed would need to be researched for compatibility with our product. Check out our [additional documentation](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md) that explains how to send HL7 messages to us.
 
-  
-## Standard Interfaces  
+
+## Standard Interfaces
 
 * [Direct Project](http://wiki.directproject.org/) and S/MIME
 * [HL7](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md)
@@ -79,16 +73,16 @@ The list below represents a complete listing of all vendors/devices that we have
 * XDS
 * [NCPDP Script 8.1/10.6](https://drive.google.com/open?id=0B1jNa-hAYBL2VTFuNFBkY2V4UDA)
 * SureScripts Net2Net
-  
-## **Appointment Reminder Interfaces**  
+
+## **Appointment Reminder Interfaces**
 
 * HouseCalls Pro
 * Relatient
 * [Televox](https://docs.google.com/spreadsheets/d/1_14Wbq-aCtMDwoq4eZ1twz0NYNVSEIX5tpHgcXKxP44/edit#gid=0)
 
-  
-## Billing/EMR/Practice Management Interfaces  
-  
+
+## Billing/EMR/Practice Management Interfaces
+
 MIE supports bidirectional and unidirectional Practice Management systems using ADT (demographics), SIU (scheduling), and DFT (billing) HL7 (2.x) messages. Information about supported connection-types can be found [here](#gjdgxs).
 * [OpenPM](https://drive.google.com/open?id=1egb4flCHJ6rnKMxQjkHBWini36q8XBIc) (bi-directional) (Preferred)
 * [ADP (Advanced MD)](https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view) (non HL7 webservice)
@@ -124,14 +118,14 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * TriMed
 {{% anchor sys="devices" %}}
 
-  
-## CRM  
+
+## CRM
 
 * HubSpot
 * ServiceNow
 
-  
-## Data Migration  
+
+## Data Migration
 
 * Agility
 * Dr. Chrono
@@ -142,8 +136,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Sentry (home grown Lilly system)
 * Systoc
 * SportsWare
-  
-## Devices  
+
+## Devices
 
 * Audiometer 
    * [Amplivox CA850 & PC850 USB](../../functions/system-administration/interfaces/device-interface-amplivox-ca850.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
@@ -234,8 +228,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
    * Welch Allyn Spot Vital Signs LXi (USB connection)
    * [Welch Allyn Vital signs 300 Series](http://www.welchallyn.com/documents/Patient%20Monitoring/Continuous%20Monitoring/Vital%20Signs%20Monitor%20300%20Series/SM2615EU%20RevD%20072808%20VSM300%20Sales.pdf)
 * X-Ray image import from a CD or option of DICOM interface
-  
-## **DICOM/PACS**  
+
+## **DICOM/PACS**
 
 * AMICAS
 * Carestream PACS
@@ -250,14 +244,14 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * McKesson PACS
 * Nuance Powerscribe
 * Philips iSite
-  
-## **Eligibility Interfaces**  
+
+## **Eligibility Interfaces**
 
 * Availity
 * Surescripts Advanced
 * ZirMed
-  
-## **Health Information Exchange (HIE) Interfaces**  
+
+## **Health Information Exchange (HIE) Interfaces**
 
 * Affiliated Computer Services (ACS) – Medicare and Medicaid processing in 28 states
 * [CRISP HIE (State of Maryland)](https://www.crisphealth.org/)
@@ -276,8 +270,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Michiana Health Information Network (MHIN)
 * Wait Time Information System (WTIS) Level 2 Surgery (OR) Specification Outbound to Canadian Ministry
 * Xerox (State of Wyoming HIE bi-directional and Kentucky uni-directional)
-  
-## **Hospital Systems**  
+
+## **Hospital Systems**
 
 * Beaumont Hospital (results only)
 * Botsford Hospital (results only)
@@ -289,8 +283,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * St. Dominic's Hospital (results only)
 * St. Francis Hospital (results only)
 * Terneuzen Hospital (results only)
-  
-## [HR Systems](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)  
+
+## [HR Systems](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)
 
 * ADP
 * Concentra HR
@@ -310,8 +304,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Workday
 {{% anchor sys="lab_system_interfaces" %}}
 
-  
-## Immunization Registries  
+
+## Immunization Registries
 
 Our preferred methods of transport are HTTP Post and MLLP (secure socket communication). We can also support (but prefer not to) sFTP, SCP, and FTPs connection for unidirectional messaging.
 * Alabama ImmPrint bi-directional HL7 via HTTPS
@@ -350,8 +344,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Wyoming Immunization Registry (WYIIS) bi-directional HL7 via ACS HIE
 * **Most [registries](http://stchome.com/immunization_registry_initiatives.aspx) managed by [STC](http://stchome.com/) will interface with WebChart.
 * **Nationwide Immunization Gateway Initiative with STC
-  
-## Lab System Interfaces  
+
+## Lab System Interfaces
 
 * Abbott Alere
 * American Esoteric Laboratories (a.k.a. AEL) (Bi-Directional)
@@ -411,12 +405,12 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Satellite Laboratory Services
 * Southeast Clinical Labs (bi-directional)
 * University of Nebraska Medical Center -- UNMC (Bi-directional orders and results)
-  
-## **Outbound CCD Transmission**  
+
+## **Outbound CCD Transmission**
 
 * SIPAK - Wellcentive (CCOK - using xds.b / autoroute)
-  
-## **Med/RX System Interfaces**  
+
+## **Med/RX System Interfaces**
 
 * Allscripts (we have no HL7, but can do a conversion of existing data)
 * Emdeon Medication Import
@@ -428,21 +422,21 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * RxNT
 * SureScripts
 * VitalPath (ADT and SIU, Unidirectional: WebChart to VitalPath)
-  
-## **Patient Education**  
+
+## **Patient Education**
 
 * Ergonomic Scoring
 * Healthwise
 * Insignia PAM Scoring
 * MedStat PSS4 Scoring
-  
-## **Personal Health Records**  
+
+## **Personal Health Records**
 
 * Google Health
 * Microsoft Health Vault
 * NoMoreClipboard
-  
-## Safety Systems  
+
+## Safety Systems
 
 * Agile-Redshift (IH)
 * Benchmark ESG (Gensuite)
@@ -453,14 +447,14 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Sphera - in progress
 * Velocity EHS
 * Workplace Integra (Hearing Conservation Management)
-  
-## **Scanning/Indexing Services**  
+
+## **Scanning/Indexing Services**
 
 * Imaging Documents
 * Innovative Scan Technologies
 * Smart Document Solutions
-  
-## **Transcription Interfaces**  
+
+## **Transcription Interfaces**
 
 * BlueWare
 * Emdat (receive TEXT documents)
@@ -469,8 +463,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Medical Review of Illinois
 * Parkview Hospital
 * St. Dominics Hospital
-  
-## **Transcription Services**  
+
+## **Transcription Services**
 
 * AccuMed
 * CareCast (Transcription)
@@ -479,8 +473,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Logician
 * Medical Review of Illinois
 * TransText
-  
-## **Worker's Compensation**  
+
+## **Worker's Compensation**
 
 * AmTrust
 * Brentwood

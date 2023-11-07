@@ -11,22 +11,16 @@ links:
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
   - 'http://www.mieweb.com/mie-ca2.crt'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'ODBC Install & Configuration'
-    identifier: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-    parent: '1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
-    weight: 4650
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
-  
-### 3rd Party Tools  
-  
+
+### 3rd Party Tools
+
 There are several data visualization software products that clients can utilize with an {{% system-name %}} ODBC connection. Examples of recommended products include Tableau, Power BI/Power Query and Informatica.
-  
-### Installation of the MySQL ODBC Driver  
-  
+
+### Installation of the MySQL ODBC Driver
+
 Navigate to the data visualization software products website and follow the on screen instructions to download and install the applicable MySQL ODBC drivers. 
 
 [Tableau](https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm)
@@ -35,9 +29,9 @@ Navigate to the data visualization software products website and follow the on s
 
 [Informatica Documentation](https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html)
 
-  
-### **ODBC Data Source Configuration**  
-  
+
+### **ODBC Data Source Configuration**
+
 Once the drivers have been downloaded and installed, users will need to set up a connection and set up the data source. Your {{% system-name %}} deployment consultant or support contact will work with our development team to send you additional information for this step of the installation process.
 
 1. You may download the {{% system-name %}} CA (Certificate Authority) from here: [Med-Web SSL CA](http://www.mieweb.com/mie-ca2.crt)[2](http://www.mieweb.com/mie-ca2.crt)
@@ -52,8 +46,8 @@ Once the drivers have been downloaded and installed, users will need to set up a
    8. SSL Cipher 
 
 
-  
-![](../odbc-install-and-configuration.assets/656f758b59bf8a742b7b69957828a0c9.png)  
+
+![](../odbc-install-and-configuration.assets/656f758b59bf8a742b7b69957828a0c9.png)
 
 
 Instructions on connecting and setting up the data source will vary depending on the 3rd party report data visualization software utilized. If you are having trouble connecting via ODBC, your {{% system-name %}} deployment consultant or support contact will facilitate a meeting with the {{% system-name %}} database administrator. 

@@ -12,21 +12,15 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms153v10'
 source: 'https://drive.google.com/open?id=1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 153 - Chlamydia Screening for Women'
-    identifier: '1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 4000
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 [CMS153v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v8&showresulttype=Measure) (2020)  
 [CMS153v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v9&showresulttype=Measure) (2021)  
 [CMS153v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -45,8 +39,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -81,8 +75,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -115,16 +109,16 @@ Stratum 2: Patients age 21-24</td>
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
-  
+### New UI Visit Encounter (valid RC202109+)
+
+
+
+### Original Visit Encounter
+
 Ensure all sexually active women aged 16-24 are screened for chlamydia at least once within the measurement period. Use either the Test and Procedures section of the encounter, or enter the appropriate observation to the chart using the Observations chart tab.  
 {{% tip %}}
 
@@ -146,11 +140,11 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
    6. Click the Submit button.
 1. Continue documenting the encounter, as needed.
 2. When completed, Close and Archive the encounter
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -245,8 +239,8 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -273,8 +267,8 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -289,7 +283,7 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 
 </table>
 
-  
-## **Source(s)**  
+
+## **Source(s)**
 
 [eCQI CMS153](https://ecqi.healthit.gov/ecqm/ep/2022/cms153v10)

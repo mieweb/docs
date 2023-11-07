@@ -73,15 +73,9 @@ links:
   - '../functions/system-administration/security/security-role-settings.md'
   - '../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
 source: 'https://drive.google.com/open?id=1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Rapid Deployment Project Outline'
-    identifier: '1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
-    parent: '1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-    weight: 5930
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Project Initiation  
+## Project Initiation
 
 * <strong>Account Management</strong>
    * Forward Executed Agreement and SOW to Accounting
@@ -92,8 +86,8 @@ menu:
    * Project Charter
    * [Project Schedule](rapid-deployment-agenda.md)
    * Vendor Governance
-  
-## System Integration  
+
+## System Integration
 
 * <strong>Build and Sync EHS Environments</strong>
 * <strong>Connectivity</strong> (<em>if applicable</em>)
@@ -116,8 +110,8 @@ menu:
 * <strong>HR Interface/Employee Data Import</strong>
    * Data Mapping
    * Build Interface
-  
-## Data Migration  
+
+## Data Migration
 
 * <strong>Kick-Off</strong>
    * Scope Agreement
@@ -134,8 +128,8 @@ menu:
       * Acceptance of Data Migration Results
 * <strong>Cutover</strong>
    * Schedule Cutover Date
-  
-## Deployment & Configuration  
+
+## Deployment & Configuration
 
 * Base [System Configuration](review-sessions/review-session-system-configuration.md)
    * Review Session Demonstration
@@ -268,30 +262,30 @@ menu:
    * [Security Role Settings](../functions/system-administration/security/security-role-settings.md)
    * System Settings
    * [Secure Email Setup](../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)
-  
-## Formal User Acceptance Testing (UAT)  
+
+## Formal User Acceptance Testing (UAT)
 
 * Approve Test Plan
 * Load Data
 * Update Test Scripts
 * Formal System Testing
 * Data Migration Verification Report
-  
-## Training  
+
+## Training
 
 * Approve Training Plan
 * Conduct Training
 * Follow-up Q&A Session
-  
-## Deployment Planning  
+
+## Deployment Planning
 
 * Validation Report
 * Security Admin Standard Operating Procedures (SOP)
 * Support Matrix
 * Business Continuity Plan (BCP)
 * Vendor Management Plan
-  
-## Go-Live/Rollout  
+
+## Go-Live/Rollout
 
 * Conversion
 * Data Load

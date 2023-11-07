@@ -10,24 +10,18 @@ links:
   - 'quality-of-care/measures.md'
   - '../programs/quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Quality of Care'
-    identifier: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 2480
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures, designed for participation in various tracking and incentive programs available, today. These measures have been developed to help with understanding and excelling at tracking and providing quality care data. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
-  
-### [**See All Measures**](quality-of-care/measures.md)  
-  
+
+### [**See All Measures**](quality-of-care/measures.md)
+
 Just the Basics  
 {{% contentbylabel showLabels="false" max="3" showSpace="false" sort="title" reverse="true" cql="label = 'basics'" %}}
 {{% /contentbylabel %}}
 
-  
-## [CMS Programs](../programs/quality-reporting/brief-introduction-to-quality-reporting.md)  
+
+## [CMS Programs](../programs/quality-reporting/brief-introduction-to-quality-reporting.md)
 
 Participants can utilize the  {{% system-name %}} system to track and report on the various health IT and healthcare standards, as laid out by the Centers for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Heath Information Technology (ONC).
 Non-CMS Programs
@@ -35,9 +29,9 @@ The {{% system-name %}} system also caters to those practices interested in purs
 
 **Running QRDA Reports**
 
-  
+
 ![](../quality-of-care.assets/762b02c4bcd4575b614499ecd8143bf5.png)  
-![](../quality-of-care.assets/e51c5ce3f45f5a5a1eb791c70837794a.png)  
+![](../quality-of-care.assets/e51c5ce3f45f5a5a1eb791c70837794a.png)
 
 
 

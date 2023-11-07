@@ -7,12 +7,6 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: '2019 Improvement Activities'
-    identifier: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    parent: '1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-    weight: 3690
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% children sort="creation" %}}

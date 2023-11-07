@@ -6,13 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Email Templates from Scheduler'
-    identifier: '1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E'
-    parent: '1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
-    weight: 6560
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% children sort="creation" %}}
 

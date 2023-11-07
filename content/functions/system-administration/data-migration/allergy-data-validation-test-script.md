@@ -13,26 +13,20 @@ links:
   - 'https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
   - '../../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Allergy Data Validation Test Script'
-    identifier: '1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    weight: 5200
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 This document is intended to describe and assist users with the process to validate medication allergies imported from another system. The {{% system-name %}} system uses the Visit encounter to display the details related to a visit.   
 {{% tip %}}
 
 Within each chart, the encounter has separate sections that show the allergies, intolerances, and medications on one page.
 {{% /tip %}}
-  
-## Requirements  
+
+## Requirements
 
 * Compile a list of 5-10 different charts containing multiple allergies/intolerances data from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data, to address potential import discrepancies that could arise. 
 * Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} . 
-  
-## Data Fields  
+
+## Data Fields
 
 Validate the discrete values imported to {{% system-name %}} , listed in the table below. 
 {{% note %}}
@@ -98,8 +92,8 @@ Options include:
 </tr>
 
 </table>
-  
-## Validation Instructions  
+
+## Validation Instructions
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -125,8 +119,8 @@ Options include:
 3. Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
    1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
    2. Contact {{% system-name %}} with the findings.
-  
-## Reports  
+
+## Reports
 
 The **Allergy Report** and **Allergy Report - DV** can both be particularly helpful in validating data between systems.
 **Allergy Report:** A columnar list of allergies and/or intolerances, based on specific criteria entered. For data validation efforts, it may be helpful to use this report to compare to the legacy system versus bringing up each chart, individually.
@@ -141,5 +135,5 @@ To access and utilize these reports:
 
 3. Criteria may be added to filter or drill down data.
 
-   <img src="../allergy-data-validation-test-script.assets/676d1259f36139c0656a87e5dad00edb.png" />  
+   <img src="../allergy-data-validation-test-script.assets/676d1259f36139c0656a87e5dad00edb.png" />
 

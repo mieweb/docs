@@ -11,22 +11,16 @@ links:
   - 'rapid-deployment-agenda/high-level-demonstration-for-core-team.md'
   - 'rapid-deployment-agenda/deployment-planning.md'
 source: 'https://drive.google.com/open?id=1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Rapid Deployment Agenda'
-    identifier: '1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
-    parent: '1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-    weight: 5780
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 Our Rapid Deployment Agenda provides clients with an outline of the high-level expectations and milestones of a successful deployment. The contents of this outline are based on the more-detailed [standard project plan](rapid-deployment-project-outline.md). For a look at the potential timeline, time estimates, and agenda topics, be sure to check out the [Project Kick-Off](rapid-deployment-agenda/project-kick-off-meeting.md), the [Core Team Demonstration](rapid-deployment-agenda/high-level-demonstration-for-core-team.md), and the various [Deployment Meetings](rapid-deployment-agenda/deployment-planning.md). Note that many of the objectives and milestones can be executed concurrently, utilizing all available resources more effectively and efficiently, thus shortening deployment times.
 
 {{% drawio border="true" viewerToolbar="true" fitWindow="false" diagramName="Discovery to Rapid Deployment" simpleViewer="false" width="" diagramWidth="1148" revision="4" sys="" %}}
-  
-## Agenda Outline  
 
-  
-### Sales  
+## Agenda Outline
+
+
+### Sales
 
 **Account Management**
 * Assess client needs and determine goals
@@ -36,16 +30,16 @@ Our Rapid Deployment Agenda provides clients with an outline of the high-level e
 **Internal Meetings**
 * Sales, Implementation, and Development to meet and discuss considerations and gaps
 * Sales presents any outstanding questions to client and confirms understood goals and objectives
-  
-### System Integration  
+
+### System Integration
 
 * Build and sync environments
 * Connectivity
 * Single Sign-On (SSO)
 * Interfacing
 * Data Migration
-  
-### Project Initiation  
+
+### Project Initiation
 
 **Setting the Pace**
 * Administration will sign-off and execute hand-off to Project Manager and Deployment Consultant(s).
@@ -67,16 +61,16 @@ Our Rapid Deployment Agenda provides clients with an outline of the high-level e
    * Frequency of status meetings
    * Agree to the roadmap, timeline, and schedule
 * Q&A
-  
-### Base Configurations  
+
+### Base Configurations
 
 * Review Sessions
 * Foundational Training
 * Checkpoints
    * Use these meetings to assess status, progress, and next steps.
 * Reviews
-  
-### Wrap-up  
+
+### Wrap-up
 
 * Finalize
 * UAT

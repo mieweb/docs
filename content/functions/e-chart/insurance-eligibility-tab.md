@@ -7,19 +7,13 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Insurance Eligibility Tab'
-    identifier: '1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
-    parent: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-    weight: 350
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% system-name %}} can interface with RealMed insurance eligibility to provide real-time insurance eligibility information on a patient chart. Contact your MIE Implementer to inquire about this optional feature and setup.  
 From the **Insurance Eligibility** chart tab, the **Insurance Eligibility Request** screen will display. Users must have the *Patient Insurance Policies* security permission set to at least View, in order to run the individual eligibility inquiries.
 
-  
-![](../insurance-eligibility-tab.assets/f06138c371e652701d22fcdfed0fac0f.png)  
+
+![](../insurance-eligibility-tab.assets/f06138c371e652701d22fcdfed0fac0f.png)
 
 
 The chart's information will populate on the screen along with the primary insurance policy number that is stored in the chart's insurance section of the demographics. You can change the **Policy Number** field if you wish to search for a policy on the chart besides what is defaulted.  
@@ -27,8 +21,8 @@ In the **Service Provider** field, begin typing in the name of the provider who 
 In the **Payer** field, begin typing in the name of the payer (patient's insurance) you wish to process and gather an insurance eligibility request from.  Click the **Send Request** button when ready.  The system will give you an error message if you do not have the fields properly filled out.  
 When you click the Send Request button, the request will be sent and eligibility information will be received in real-time. The **Eligibility Information** screen will appear with the subscriber information and eligibility information sections.
 
-  
-![](../insurance-eligibility-tab.assets/f87c22b33d8223b4c2c240af66331c79.png)  
+
+![](../insurance-eligibility-tab.assets/f87c22b33d8223b4c2c240af66331c79.png)
 
 
 You can gather the information you need from that screen, you can scroll down to the bottom and click the **Save as Document** button.  This will save the entire page of information as a stored document in the patient's chart.    

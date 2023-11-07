@@ -12,21 +12,15 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms122v10'
 source: 'https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)'
-    identifier: '1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3860
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 [CMS122v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v8&showresulttype=Measure) (2020)  
 [CMS122v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v9&showresulttype=Measure) (2021)  
 [CMS122v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -45,8 +39,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -81,8 +75,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -110,14 +104,14 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
-  
+
+## Clinical Instructions
+
 Track the HbA1c of all diabetic patients between the ages of 18-75.  The most recently performed HbA1c during the measurement period should be <=9.0%.  Any patients with an HbA1c >9% will be included in the numerator and count against quality. Use either the preferred Preventive Care section or the alternate Test and Procedures or Lab Results - Set 1 sections of the encounter. 
 
 Regardless of how the HbA1c observation is added to the chart, clients will need to ensure that the appropriate observation is configured with one of the following LOINC codes: 4548-4, 4549-2, or 17856-6.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the Hemoglobin A1c observation to determine if multiple HbA1c [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
-  
-### Preferred Workflow  
+
+### Preferred Workflow
 
 1. Preventive Care
 2. Order A1c
@@ -125,8 +119,8 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
    2. Interfaced result completes the order
    3. Manually result
       1. Ordering doc->Add result->complete results encounter
-  
-### Alternate Workflow  
+
+### Alternate Workflow
 
 1. While documenting the Visit encounter, document the results of the HbA1c one of two ways:
    1. <strong>Option 1: Test and Procedures Section</strong>
@@ -142,11 +136,11 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
       4. Click the Next button, or close the section.
 1. Continue documenting the encounter, as needed.
 2. When completed, Close and Archive the encounter.
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -185,8 +179,8 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -273,8 +267,8 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -289,7 +283,7 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 
 </table>
 
-  
-### Source(s)  
-  
+
+### Source(s)
+
 [eCQI CMS122](https://ecqi.healthit.gov/ecqm/ep/2022/cms122v10)

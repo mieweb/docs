@@ -8,13 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Data Migration'
-    identifier: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    parent: '1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
-    weight: 4690
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

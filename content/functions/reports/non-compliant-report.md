@@ -7,21 +7,15 @@ lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Non-Compliant Report'
-    identifier: '1QaQQxJirP8pjxLBGGUDdiJnkcBYeMGC9uvK5TwME2po'
-    parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4250
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Non-Compliant Report lists patients that are not taking the proper medications (by drug class) for their condition (ex: CHF patients)  
 Click *Reports* tab on the left side-bar menu.  
 Click *Non-Compliant Report* tab from the top tab menu.  
 The Non-Compliant Patients List Options screen will open.
-  
-![](../non-compliant-report.assets/99399b201675f52bf5cba59d53aa716e.png)  
+
+![](../non-compliant-report.assets/99399b201675f52bf5cba59d53aa716e.png)
 
 * <strong>Physician:</strong> Can select all physicians or a specific physician from the drop-down arrow.
 * <strong>Evaluation Date:</strong> Select the Evaluation Date. This is for historical purposes.  You can see how the non-compliance percentages change over time.  Usually you will want to use today's date.
@@ -31,10 +25,10 @@ The Non-Compliant Patients List Options screen will open.
 * <strong>Drug Classes:</strong> Select any or all of the Drug Classes you wish to report on.
 Click SUBMIT to show search results.  
 The results show the compliance report card for the physician(s) you selected if you did *not* check-mark to list the patients.
-  
-![](../non-compliant-report.assets/b72ed5e1f60d31d195dc22b38849371f.png)  
+
+![](../non-compliant-report.assets/b72ed5e1f60d31d195dc22b38849371f.png)
 
 If you check-marked to list the patients, it will then list the specific patients that are non-compliant according to the fields you entered for the report.
-  
-![](../non-compliant-report.assets/9c70931a8b3134b6b5749a2e35ce59a1.png)  
+
+![](../non-compliant-report.assets/9c70931a8b3134b6b5749a2e35ce59a1.png)
 

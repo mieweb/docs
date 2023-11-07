@@ -6,13 +6,7 @@ version: 29
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Work-Related Exams'
-    identifier: '15pWIFxaE93N1qz8om7mlP9CbHHTIpe3uFCLdB5FQeRg'
-    parent: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-    weight: 1270
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

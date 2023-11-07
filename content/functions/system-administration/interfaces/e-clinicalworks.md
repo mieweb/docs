@@ -9,28 +9,28 @@ links:
   - 'http://www.eclinicalworks.com/'
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 **E-ClinicalWorks**  
 This page details how interfaces with e-ClinicalWorks (ecw) are installed.
-  
-## Overview  
-  
-ecw is a practice management vendor.
-  
-### Process Workflow  
-  
-We receive demographics (ADT) and scheduling (SIU) messages through this interface.
-  
-## Mapping File  
-  
-We may be required to load a mapping file for insurance plans.
-  
-## Technical Specs  
 
-  
-### Config  
-  
+## Overview
+
+ecw is a practice management vendor.
+
+### Process Workflow
+
+We receive demographics (ADT) and scheduling (SIU) messages through this interface.
+
+## Mapping File
+
+We may be required to load a mapping file for insurance plans.
+
+## Technical Specs
+
+
+### Config
+
 **Command Line**  Expand source  
 <profile name="COMMAND_LINE">  
 <item name="x" value="3" />  
@@ -126,16 +126,16 @@ We may be required to load a mapping file for insurance plans.
 <item name="OPTIONS" value="0" />  
 </profile>  
 </interface>
-  
-### Connectivity  
-  
-This is a uni-directional over VPN. ecw may require that new VPNs are set up for future interfaces. This was the case when we set up the ecw interface for The Heart Institure of Venice.
-  
-## Application Information  
 
-  
-### Installation  
-  
+### Connectivity
+
+This is a uni-directional over VPN. ecw may require that new VPNs are set up for future interfaces. This was the case when we set up the ecw interface for The Heart Institure of Venice.
+
+## Application Information
+
+
+### Installation
+
 Currently we use a standard hl7_interlocutor setup to post the hl7 messages to the client system.  
 /usr/local/webchart/hl7/pip_thiv/ecw]$ l  
 total 80  
@@ -147,19 +147,19 @@ lrwxrwxrwx 1 root root	24 Jun 20 11:10 logs -> ../../logs/pip_thiv/ecw/
 lrwxrwxrwx 1 root root	24 Jun 20 11:10 msgs -> ../../msgs/pip_thiv/ecw/  
 -rwxr-xr-x 1 root root  1497 Jun 20 11:10 run_hl7d  
 -rwxr-xr-x 1 root root 62558 Jun 20 11:08 segDefs.v25
-  
-### Deinstallation  
-  
-To deinstall, edit run_hl7d to comment out the command to run hl7_interlocutor. Kill the process id in hl7d.pid and comment out the interface from the start script. The interface should be removed from the daemon monitor, also.
-  
-## Client Information  
 
-  
-### Contacts  
-  
+### Deinstallation
+
+To deinstall, edit run_hl7d to comment out the command to run hl7_interlocutor. Kill the process id in hl7d.pid and comment out the interface from the start script. The interface should be removed from the daemon monitor, also.
+
+## Client Information
+
+
+### Contacts
+
 Dennis Jah Project Manager –Integration eClinicalWorks 555 North Point Center East, Suite 515 | Alpharetta, GA 30022 T: 508-475-0450 x11227 | M: 508-523-1634 F: 678-387-6950 dennis.jah@eclinicalworks.com |[ ](http://www.eclinicalworks.com/)[www.eclinicalworks.com](http://www.eclinicalworks.com/)
-  
-## Related Pages  
-  
+
+## Related Pages
+
 [Interface Specifications](../../../resources/system-specifications/interface-specifications.md)
 

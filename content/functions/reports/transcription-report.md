@@ -8,13 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Transcription Report'
-    identifier: '1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-    parent: '1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-    weight: 4360
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {note}The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {system-name} and not performance metrics.{/note}  
 Use transcription reports to view statistics on transcription output. The report can present information based on department, provider, user, document type, and ranges of dates. A transcription report includes the following information:
@@ -40,7 +34,7 @@ You must have security role access to reports and to viewing transcription stati
 2. From the side menu, select <strong>Reports</strong>.
 3. Select <strong>Dictation/Transcription</strong>. The <em>Dictation/Transcription</em> section appears.
 4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears.
-   <img src="../transcription-report.assets/5c45747f7d714ae4bad81f4648f087d0.png" />  
+   <img src="../transcription-report.assets/5c45747f7d714ae4bad81f4648f087d0.png" />
 
 5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report: 
    1. <em>Select </em> <em>Department</em>: Select department for which to view transcription statistics.
@@ -61,10 +55,10 @@ You must have security role access to reports and to viewing transcription stati
       3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
       4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
-  
-![](../transcription-report.assets/3ec061de705cbefe3d0aa4b0af22eda8.png)  
 
-  
-![](../transcription-report.assets/0b2fe6fa5b7f58761d4fadcfc6609b40.png)  
+![](../transcription-report.assets/3ec061de705cbefe3d0aa4b0af22eda8.png)
+
+
+![](../transcription-report.assets/0b2fe6fa5b7f58761d4fadcfc6609b40.png)
 
 

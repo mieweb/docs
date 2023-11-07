@@ -7,11 +7,6 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Resources'
-    identifier: '1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
-    weight: 6190
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 {{% children %}}

@@ -9,13 +9,7 @@ links:
   - '../functions/quality-of-care/quality-reporting-enrollment.md'
   - 'quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Quality Reporting'
-    identifier: '1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
-    parent: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
-    weight: 150
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 
 

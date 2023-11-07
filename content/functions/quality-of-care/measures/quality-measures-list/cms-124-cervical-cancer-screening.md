@@ -12,21 +12,15 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms124v10'
 source: 'https://drive.google.com/open?id=1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 124 - Cervical Cancer Screening'
-    identifier: '1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3870
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 [CMS124v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v8&showresulttype=Measure) (2020)  
 [CMS124v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v9&showresulttype=Measure) (2021)  
 [CMS124v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -45,8 +39,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -83,8 +77,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -112,16 +106,16 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
-  
+### New UI Visit Encounter (valid RC202109+)
+
+
+
+### Original Visit Encounter
+
 Ensure all women aged 23-64 are screened for cervical cancer, at least once within the measurement period. Use the Past Procedures section of the encounter to record a previous HPV or Pap test; otherwise, use the Visit Orders section of the encounter to order/perform one of the recognized procedures (i.e., HPV Test or Pap Test) at the time of the encounter. While documenting the Visit encounter, either record the previous procedure or the receipt of the recognized procedure, or order and perform the test, as appropriate.
 1. <strong>Option 1: Document in the Past Procedures section</strong>
    1. Open the Past Procedures section
@@ -143,11 +137,11 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 * <strong>Option 4: Scan/Index or Upload an accepted Document</strong>
 
    1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C (e.g., 33717-0).
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -182,8 +176,8 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -226,8 +220,8 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -246,7 +240,7 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS124](https://ecqi.healthit.gov/ecqm/ep/2022/cms124v10)

@@ -9,23 +9,17 @@ links:
   - '../../review-sessions/review-session-health-surveillance.md'
   - '../../review-sessions/review-session-order-and-result-management.md'
 source: 'https://drive.google.com/open?id=1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Health Surveillance & Order/Result Management'
-    identifier: '1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
-    parent: '1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
-    weight: 5850
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Purpose  
-  
+## Purpose
+
 Cover the [Health Surveillance Review Session](../../review-sessions/review-session-health-surveillance.md) and [Order and Result Management Review Session](../../review-sessions/review-session-order-and-result-management.md), to gather necessary information and identify any gaps.
-  
-## Objective  
-  
+
+## Objective
+
 Review the standard  {{% system-name %}} workflows and gather information needed for system setup of health surveillance and order/result management.
-  
-### Agenda - 2 Hours  
+
+### Agenda - 2 Hours
 
 * Health Surveillance Demonstration
    * Overview
@@ -53,7 +47,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
       * Vision Testing
       * Vitals
       * Drug Screen Results
-  
-## Afterward  
-  
+
+## Afterward
+
 Document action items, distribute meeting minutes, create Jira tickets for configuration projects that are in scope, perform system configuration, update percentage complete and dates on project plan, and prepare for subsequent meetings.

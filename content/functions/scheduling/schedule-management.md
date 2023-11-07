@@ -7,24 +7,18 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Schedule Management'
-    identifier: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
-    parent: '1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-    weight: 940
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
-## Overview  
-  
+## Overview
+
 Resource schedules can be easily maintained in {{% system-name %}} systems. Adding, editing, and deleting schedules is a simple process, which also allows for copying or templating for fast and efficient onboarding. Additionally, scheduling resources can be limited, or restricted, if necessary, to assist with efficiency and security purposes. For information on general uses and available views within the Scheduler module, review the Scheduler documentation. Following is a breakdown of the available configurations for scheduling functionality.
-  
-## Managing Schedules  
-  
+
+## Managing Schedules
+
 Review the following information for adding schedules to the system. For information on how to edit or delete existing schedules, see the following section, Editing/Deleting Schedules.
-  
-### Adding Schedules  
-  
+
+### Adding Schedules
+
 To add a schedule:
 1. Navigate to the Scheduler side menu.
 2. Click the Schedules tab.
@@ -89,8 +83,8 @@ Use the field to add a comment to the schedule for other users to see when viewi
 
 If this schedule detail is needing to be used again, perhaps at a later time, scroll to the top of the screen **before clicking the Save button**, and click the **Save info to use again** link and it will save the information as a template to be named and used at a later time. This allows the information to be used again, edited as needed, all without having to rekey each field, from scratch. It is a way to *copy* a schedule and save it as a template.
 {{% /tip %}}
-  
-### Editing/Deleting Schedules  
+
+### Editing/Deleting Schedules
 
 To edit or delete a schedule:
 1. Navigate to the side menu.
@@ -108,8 +102,8 @@ Editing or deleting options are only available if the appropriate security permi
 A link is available to navigate to an appointment report, which allows appointments to be rescheduled or moved, as necessary. This link loads the Appointments Report and Found Appointments, allowing block moving, as well, so if multiple, or a block of appointments need moved, they can be rescheduled, en masse. For more information, see Reports documentation.
 {{% /info %}}
 7. When the necessary edits are completed, click the <strong>Save</strong> button.
-  
-#### Moving Appointment(s)  
+
+#### Moving Appointment(s)
 
 Moving appointments can be done by clicking the available link found when editing an already established schedule; however, if a block of appointments, or several confirmed appointments, need to be moved without editing the schedule, the Appointments Report will also provide the same functionality, seen below:
 1. When the Found Appointments display, place a check mark in the <strong>Select</strong> column to select any/all appointments that need moved.
@@ -123,13 +117,13 @@ Moving appointments can be done by clicking the available link found when editin
 If moving the appointment to a different resource/location, the date/time of the appointment will be retained, so cancelling or placing on a waiting list are available options.
 {{% /info %}}
 7. Click the <strong>Update</strong> button, when completed.
-  
-## Resource Restrictions  
+
+## Resource Restrictions
 
 The found in the Control Panel allows restrictions of a scheduling resource. A restriction prohibits specific users from viewing or scheduling on a specific resource's schedule.
 Resource Restrictions can be used to prohibit staff or clinicians from accessing sensitive schedules, ensure partitioned population separation, or simply shorten a large list of resources in systems with multiple locations and users. Another use for the Resource Restriction functionality is when multiple resources have same/similar names and practice in different clinics or countries. This feature can help staff to schedule the correct resource, consistently. A resource can be limited to individual users or entire departments. The restriction applies only to the specified resource, and resources not listed in the Resource Restriction tab are not restricted from any users.
-  
-### Add Resource Restriction(s)  
+
+### Add Resource Restriction(s)
 
 To add restrictions to any schedule:
 1. Navigate to the .
@@ -148,8 +142,8 @@ If a resource is not listed in the autocomplete choices, check the tab and ensur
    4. <strong>Revision History</strong> – A view of all revision histories.
 7. After all allowed users/departments have been added, provide the <strong>Reason For Change</strong>, and click the <strong>Submit Changes</strong> button to create the restrictions.
 Once the restriction is submitted, the screen will refresh and the list of allowed users will display the user by whom they were added, as well as the date and time of the addition. The same information will display in the Revision History section.
-  
-### Edit Resource Restriction(s)  
+
+### Edit Resource Restriction(s)
 
 To edit existing restrictions, removing or adding allowed users/departments:
 1. Navigate to the .

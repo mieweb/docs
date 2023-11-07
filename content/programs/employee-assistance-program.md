@@ -6,13 +6,7 @@ version: 39
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j0P-A7K9-lWMUiN-sX5Ez7XPFEDX-FKlFNzfNC5rBy8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Employee Assistance Program'
-    identifier: '1j0P-A7K9-lWMUiN-sX5Ez7XPFEDX-FKlFNzfNC5rBy8'
-    parent: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
-    weight: 140
+wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
 ---
 The {{% system-name %}} system includes an Employee Assistance Program (EAP) encounter to document cases for an individual/dependent or an organized event. Cases are organized on a worklist by follow-up date, with detailed EAP reports available. EAP staff document case notes in a secure partition. Access is limited to authorized users and is not accessible by the Health and Medical staff.   
 Functionality includes:
