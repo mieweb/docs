@@ -1,7 +1,7 @@
 ---
 id: '14YYUtmJ6WCuBnGjYhMI0KOd5zy3PhwAK2HsdGBjt1lQ'
 title: 'Redirect to: EPA 1 - Provide 24/7 Access to MIPS Eligible Clinicians or Groups Who Have Real-Time Access to Patient''s Medical Record'
-date: '2023-03-22T13:01:52.071Z'
+date: '2023-11-10T17:18:25.784Z'
 source: 'https://drive.google.com/open?id=14YYUtmJ6WCuBnGjYhMI0KOd5zy3PhwAK2HsdGBjt1lQ'
 mimeType: 'text/x-markdown'
 url: 'epa-1-provide-24-7-access-to-mips-eligible-clinicians-or-groups-who-have-real-time-access-to-patient-s-medical-record.md'
