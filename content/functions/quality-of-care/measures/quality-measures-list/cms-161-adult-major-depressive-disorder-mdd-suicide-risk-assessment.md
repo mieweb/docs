@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS161v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms161v10'
 source: 'https://drive.google.com/open?id=1XwNvJ7ebSrbOOgbbpqhpcV18eyKUCssMCmpdZPFCwzk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS161v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS161v8&showresulttype=Measure) (2020)  
 [CMS161v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS161v9&showresulttype=Measure) (2021)  
 [CMS161v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS161v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -74,8 +74,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -103,22 +103,22 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
+### New UI Visit Encounter (valid RC202109+)
 
 
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+### Original Visit Encounter
+
+
+
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -161,8 +161,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -177,7 +177,7 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS161](https://ecqi.healthit.gov/ecqm/ep/2022/cms161v10)

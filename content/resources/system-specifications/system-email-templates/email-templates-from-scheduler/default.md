@@ -6,13 +6,7 @@ version: 19
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iPbgcQmlPVcCIVf0tAh4S1_Bna3rng0FmKsDK2Bcy1A'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Default'
-    identifier: '1iPbgcQmlPVcCIVf0tAh4S1_Bna3rng0FmKsDK2Bcy1A'
-    parent: '1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E'
-    weight: 6710
+wikigdrive: 'dev'
 ---
 From: noreplywebchart@med-web.com  
 To: fanderson@bettercorp.com,  

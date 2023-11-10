@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms074v11'
 source: 'https://drive.google.com/open?id=1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS74v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure) (2020)  
 [CMS74v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v10&showresulttype=Measure) (2021)  
 [CMS74v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -74,8 +74,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -107,12 +107,12 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 </table>
 
 
-  
-## Clinical Instructions  
-  
+
+## Clinical Instructions
+
 Track reports of dental fluoride application for all patients 6 months to 20 years of age.
-  
-### Workflow  
+
+### Workflow
 
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Preventive Care section
@@ -120,11 +120,11 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 4. Enter the nearest completed date and save the order as completed
 5. Continue documenting the encounter, as appropriate
 6. When completed, Close and Archive the encounter
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -167,8 +167,8 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -191,8 +191,8 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -207,8 +207,8 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS74](https://ecqi.healthit.gov/ecqm/ep/2022/cms074v11)
 

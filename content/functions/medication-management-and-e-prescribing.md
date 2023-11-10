@@ -8,13 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'system-administration/system-controls/setting-up-e-prescribers.md'
 source: 'https://drive.google.com/open?id=1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Medication Management & E-Prescribing'
-    identifier: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 1840
+wikigdrive: 'dev'
 ---
 
 

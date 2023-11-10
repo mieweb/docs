@@ -11,21 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10'
 source: 'https://drive.google.com/open?id=14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 127 - Pneumococcal Vaccination Status for Older Adults'
-    identifier: '14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3890
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS127v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v8&showresulttype=Measure) (2020)  
 [CMS127v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v9&showresulttype=Measure) (2021)  
 [CMS127v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -44,8 +38,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -80,8 +74,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -109,19 +103,19 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
+### New UI Visit Encounter (valid RC202109+)
 
-  
-## Clinical Instructions  
-  
+
+
+### Original Visit Encounter
+
+
+## Clinical Instructions
+
 Ensure all patients that are 65 years of age or older have received a pneumococcal vaccine or report having received a vaccine. Recording the receipt of the immunization or the administration of the vaccine can be done within or outside of the encounter:
 1. <strong>Option 1: Record the Receipt of Pneumococcal Vaccination (Historical)</strong>
    1. <strong>Within Encounter</strong>
@@ -151,11 +145,11 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
       2. Click the Add Imm/Inj link in the upper-right of the page
       3. Fill in all required fields
       4. Click the Submit button
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -198,8 +192,8 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -234,8 +228,8 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -258,7 +252,7 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
 
 </table>
 
-  
-## **Source(s)**  
-  
+
+## **Source(s)**
+
 [eCQI CMS127](https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10)

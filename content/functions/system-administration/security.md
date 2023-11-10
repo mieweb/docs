@@ -6,13 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Security'
-    identifier: '15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY'
-    parent: '1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
-    weight: 5230
+wikigdrive: 'dev'
 ---
 
 

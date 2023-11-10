@@ -8,13 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../functions/order-and-result-management.md'
 source: 'https://drive.google.com/open?id=1ZazV-O1C7sT_Alm_cVaPWxbLBLpUz9wBXsR_-P3_uEs'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Surveillance Procedures'
-    identifier: '1ZazV-O1C7sT_Alm_cVaPWxbLBLpUz9wBXsR_-P3_uEs'
-    parent: '1VhdbTx-CN21VofK5OI8hM7_t8ZE931BH-CjqQsi0-B0'
-    weight: 70
+wikigdrive: 'dev'
 ---
 
 

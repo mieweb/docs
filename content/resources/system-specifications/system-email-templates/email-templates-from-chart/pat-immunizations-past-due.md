@@ -8,13 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMPAST&old_module=Email&old_name=Pat+Immunizations+Past+Due&active=0'
 source: 'https://drive.google.com/open?id=1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Pat Immunizations Past Due'
-    identifier: '1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
-    parent: '1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ'
-    weight: 6450
+wikigdrive: 'dev'
 ---
 
 
@@ -33,15 +27,15 @@ Cc:
 Subject: Notification to Schedule Appointment for Immunizations Past Due
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-  
-## **Notification to Schedule Appointment for Immunizations Past Due**  
+
+## **Notification to Schedule Appointment for Immunizations Past Due**
 
 
 TO: Frederick J Anderson
 
 Our records indicate that you are past due to receive the following immunizations:
-  
-![](../pat-immunizations-past-due.assets/3dbaa8ede73445a77dc355cdd6d021e5.png)  
+
+![](../pat-immunizations-past-due.assets/3dbaa8ede73445a77dc355cdd6d021e5.png)
 
 
 At your earliest convenience, please schedule an appointment using the electronic scheduling portal below.

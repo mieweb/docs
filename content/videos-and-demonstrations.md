@@ -18,12 +18,7 @@ links:
   - 'https://blog.enterprisehealth.com/videos/standard-reporting-demo-video'
   - 'https://blog.enterprisehealth.com/videos/osha-recordkeeping-and-reporting-demo-video'
 source: 'https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Videos & Demonstrations'
-    identifier: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
-    weight: 6810
+wikigdrive: 'dev'
 ---
 All {{% system-name %}} training videos and demonstrations can be found below. Peruse the various overviews, and spend some time with the in-depth looks at the available functionality within the product, or even get acquainted with some of the more common workflows used. 
 
@@ -35,16 +30,16 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% section %}}
 {{% column width="50" %}}
-  
-## Meet the Product  
+
+## Meet the Product
 
 * [A Complete Employee Health Solution](https://blog.enterprisehealth.com/videos/a-complete-employee-health-solution)
 * [Welcome To Enterprise Health](https://blog.enterprisehealth.com/videos/welcome-to-enterprise-health)
 * [Intro to Medical Surveillance](https://blog.enterprisehealth.com/videos/medical-surveillance-intro)
 * [Intro to Occupational Injury and Illness](https://blog.enterprisehealth.com/videos/occupational-injury-and-illness-intro)
 * [Intro to Clinical Care](https://blog.enterprisehealth.com/videos/clinical-care-intro)
-  
-## Product Demonstrations  
+
+## Product Demonstrations
 
 * [Health Surveillance](https://blog.enterprisehealth.com/videos/health-surveillance-demo-video)
 * [Clinical Care](https://blog.enterprisehealth.com/videos/clinical-care-demo-video)
@@ -57,37 +52,37 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% column %}}
 
-  
-![](../videos-and-demonstrations.assets/e6f9431ad83fc70ead4f3905698728d0.png)  
+
+![](../videos-and-demonstrations.assets/e6f9431ad83fc70ead4f3905698728d0.png)
 
 {{% /column %}}
 {{% /section %}}
 
 {{% /only %}}
 {{% only sys="wc" type="INLINE" %}}
-  
-### Build a Free Trial  
+
+### Build a Free Trial
 
 {{% gvideo  id="1yDOYEjeIbwyvd75jjit0zYC3boxmBPoR" %}}
 
 
-  
-### Welcome to WebChart  
+
+### Welcome to WebChart
 
 {{% gvideo  id="0B8Z_aVeCkgoTSThYOVV5REYwMFE" %}}
 
-  
-### E-Chart Overview  
+
+### E-Chart Overview
 
 {{% gvideo  id="0B8Z_aVeCkgoTM2J5UzVoTUhfWVE" %}}
 
-  
-### Visit Overview  
+
+### Visit Overview
 
 {{% gvideo  id="0B8Z_aVeCkgoTTGV5Q3JQczM2VkU" %}}
 
-  
-### Deep Dive Into Visits  
+
+### Deep Dive Into Visits
 
 {{% gvideo  id="17CXSdLmZbLIDXyoYZkuB091pE3vUnPiP" %}}
 
@@ -98,105 +93,105 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 
 {{% only sys="eh" type="INLINE" %}}
-  
-### Visit Overview  
+
+### Visit Overview
 
 {{% gvideo  id="0B8Z_aVeCkgoTTGV5Q3JQczM2VkU" %}}
-  
-### Deep Dive Into Visits  
+
+### Deep Dive Into Visits
 
 {{% gvideo  id="17CXSdLmZbLIDXyoYZkuB091pE3vUnPiP" %}}
 
-  
-### Document Management, Forms Library  
+
+### Document Management, Forms Library
 
 {{% gvideo  id="19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN" %}}
 
-  
-### Orders, Flowsheets, Medical Codify, Procedures  
+
+### Orders, Flowsheets, Medical Codify, Procedures
 
 {{% gvideo  id="1_wWIfb_7hYxADvhAgD6ZPU4h7xOHnzR3" %}}
 
-  
-### EOs/POs/Locations  
+
+### EOs/POs/Locations
 
 {{% gvideo  id="1rS9x2j1Ar7-D_oRIB1HjpHrghPqNDyMk" %}}
 
-  
-### Health Surveillance & Reports  
+
+### Health Surveillance & Reports
 
 {{% gvideo  id="1bJTGlPduxkAYpprlpXEU5rsOmzCvCAHH" %}}
 
-  
-### Portals  
+
+### Portals
 
 {{% gvideo  id="1mtwQ4Rct-OFNMwFGGOILNqKYnz8whUYU" %}}
 
-  
-### Injury/Illness, OSHA Reports  
+
+### Injury/Illness, OSHA Reports
 
 {{% gvideo  id="146dgZ94s45oa_ZyWvGyoiPLmcEJthqDb" %}}
 
-  
-### Scheduled Jobs  
+
+### Scheduled Jobs
 
 {{% gvideo  id="1yaSvFFNqhoQM1wKQlF3V6AupaZFb3FO5" %}}
 
-  
-### Reports - DataVis, Grid, Pivot Tables  
+
+### Reports - DataVis, Grid, Pivot Tables
 
 {{% gvideo  id="1w1VGRYZbJ0Qyn8tUjQB9181lKfbeveQw" %}}
 
-  
-### Quality, Wellness Measures  
+
+### Quality, Wellness Measures
 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
 
 {{% /only %}}
 {{% only sys="wc" type="INLINE" %}}
 
-  
-### Document Management, Forms Library  
+
+### Document Management, Forms Library
 
 {{% gvideo  id="19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN" %}}
 
-  
-### Orders, Flowsheets, Medical Codify, Procedures  
+
+### Orders, Flowsheets, Medical Codify, Procedures
 
 {{% gvideo  id="1_wWIfb_7hYxADvhAgD6ZPU4h7xOHnzR3" %}}
 
-  
-### EOs/POs/Locations  
+
+### EOs/POs/Locations
 
 {{% gvideo  id="1rS9x2j1Ar7-D_oRIB1HjpHrghPqNDyMk" %}}
 
-  
-### Health Surveillance & Reports  
+
+### Health Surveillance & Reports
 
 {{% gvideo  id="1bJTGlPduxkAYpprlpXEU5rsOmzCvCAHH" %}}
 
-  
-### Portals  
+
+### Portals
 
 {{% gvideo  id="1mtwQ4Rct-OFNMwFGGOILNqKYnz8whUYU" %}}
 
-  
-### Injury/Illness, OSHA Reports  
+
+### Injury/Illness, OSHA Reports
 
 {{% gvideo  id="146dgZ94s45oa_ZyWvGyoiPLmcEJthqDb" %}}
 
-  
-### Scheduled Jobs  
+
+### Scheduled Jobs
 
 {{% gvideo  id="1yaSvFFNqhoQM1wKQlF3V6AupaZFb3FO5" %}}
 
-  
-### Reports - DataVis, Grid, Pivot Tables  
+
+### Reports - DataVis, Grid, Pivot Tables
 
 {{% gvideo  id="1w1VGRYZbJ0Qyn8tUjQB9181lKfbeveQw" %}}
 
-  
-### Quality, Wellness Measures  
+
+### Quality, Wellness Measures
 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
 

@@ -7,24 +7,18 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Device Interface - Vital Signs'
-    identifier: '1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
-    parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
-    weight: 5540
+wikigdrive: 'dev'
 ---
 The following is referring to a Welch Allyn Spot Vital Signs monitor system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
-  
-## Vital Signs  
+
+## Vital Signs
 
 1. Open {{% system-name %}} .
 2. Pull up the correct patient.
 3. Add encounter for patient or add vitals by choosing the Vitals chart tab
 4. Once Encounter has been added scroll down to Vitals section or enter in via Vitals chart tab. Make sure <em>device</em> mode is selected.
-  
-![](../device-interface-vital-signs.assets/6df787e03e853bc8427d84a6e7c5ee43.png)  
+
+![](../device-interface-vital-signs.assets/6df787e03e853bc8427d84a6e7c5ee43.png)
 
 1. Select the Get readings button in {{% system-name %}}
    1. Vital signs will appear on page.
@@ -34,8 +28,8 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
 4. Scroll to the bottom of the page and select submit to save vital signs to chart.
 5. Please note that for metrics the process above is the preferred method for entering vital signs
 6. Take patient's vital signs.
-  
-![](../device-interface-vital-signs.assets/f6584808957858c2fc350ab898e32c1e.png)  
+
+![](../device-interface-vital-signs.assets/f6584808957858c2fc350ab898e32c1e.png)
 
 1. Select the Get readings button.
    1. Vital signs will appear on page.

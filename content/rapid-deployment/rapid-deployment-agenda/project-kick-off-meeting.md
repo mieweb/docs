@@ -6,23 +6,17 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Project Kick-off Meeting'
-    identifier: '1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI'
-    parent: '1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
-    weight: 5790
+wikigdrive: 'dev'
 ---
-## Purpose  
-  
+## Purpose
+
 Kick off the project, introduce teams/roles, understand organizational structure, document strategic objectives, project overview, deployment approach, account management approach, and support structure.
-  
-## Objective  
-  
+
+## Objective
+
 Present the EH Kick-off Meeting Powerpoint, Statement of Work (SOW), Project Plan, Deployment Approach, and schedule recurring project and integration meetings.
-  
-### Agenda - 1 Hour  
+
+### Agenda - 1 Hour
 
 * Introductions - Project Teams
 * Project Objectives
@@ -41,7 +35,7 @@ Present the EH Kick-off Meeting Powerpoint, Statement of Work (SOW), Project Pla
 * Account Management Approach
 * Critical Path Items
 * Lessons Learned
-  
-## Afterward  
-  
+
+## Afterward
+
 Document action items, distribute meeting minutes, open Jira project (link project to charter and SOW), create Jira tickets for integration projects that are in scope, schedule recurring project and integration meetings, update percentage complete and dates on project plan, work on finalizing project charter and the project plan, send out access to the database, and prepare for the subsequent meetings.

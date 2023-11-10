@@ -7,13 +7,7 @@ lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Medical Programs'
-    identifier: '1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU'
-    parent: '1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
-    weight: 40
+wikigdrive: 'dev'
 ---
 
 

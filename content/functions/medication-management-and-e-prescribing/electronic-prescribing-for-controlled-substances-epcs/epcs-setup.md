@@ -30,13 +30,7 @@ links:
   - '../../reports/e-meds-report.md'
   - '../../system-administration/system-controls/view-user-audit-log.md'
 source: 'https://drive.google.com/open?id=1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'EPCS Setup'
-    identifier: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
-    parent: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
-    weight: 1870
+wikigdrive: 'dev'
 ---
 
 
@@ -69,8 +63,8 @@ Providers who wish to electronically prescribe controlled medications must first
 * Test the certificate (following the instructions included in the retrieval kit). 
 * Review the Prescriber Responsibilities and Transmission Requirements prior to creating, signing, or transmitting controlled substance prescriptions.
 {{% warning %}}EPCS prescribers must retain sole possession of the hard token. This hard token and password must not be shared with any other person. The prescriber must not allow any other individual use of the token, or to perform EPCS signing in the {{% system-name %}} system. Failure to secure the two-factor authentication credential may provide a basis for revocation or suspension.{{% /warning %}}
-  
-### Access Control  
+
+### Access Control
 
 According to the [Requirements for Establishing Logical Access Control](#gjdgxs), the prescriber must designate at least two (2) individuals to manage access control to the prescription application, with one required to be a DEA registrant with a two-factor authentication credential. What this means is there needs to be at least one (1) Designated Administrator and one (1) Designated DEA Registrant, for each location the prescriber is registered.
 **Designated Administrator** - This individual is expected to assist the prescriber(s) with establishing access control to the prescription application, as well as verify DEA registration and State authorization(s) to practice and dispense controlled substances are current and in good standing. The Designated Administrator will enter the data to grant permission or revoke authorization for prescribing controlled substances.
@@ -79,8 +73,8 @@ According to the [Requirements for Establishing Logical Access Control](#gjdgxs)
 The Designated Administrator is the ONLY user with the ability to enable/disable EPCS prescribers. This process requires the Designated DEA Registrant to be completed. MIE cannot be involved in the process of enabling EPCS prescribers.
 {{% /note %}}
 **Designated DEA Registrant** - This can be the only prescriber at a location, or it can simply be a designated DEA registrant with a two-factor authentication credential and the ability to issue controlled substance prescriptions. The Designated DEA Registrant will use the two-factor authentication credential to satisfy the logical access controls.
-  
-## User & System Setup   
+
+## User & System Setup 
 
 Before addressing any of the system and user setup, it is important that the designated System Administrator has all of the necessary permissions and security settings updated, as needed. 
 1. Navigate to the <strong>Access Control</strong> menu of the Control Panel.
@@ -92,15 +86,15 @@ Before addressing any of the system and user setup, it is important that the des
 Similarly, before being able to fully utilize the prescription application, the E-Token Signature App will need to be installed to each Windows workstation being used for EPCS digital signing, along with any associated or supporting applications, found under the **Plugins** Control tab.
 1. Navigate to the <strong>Plugins</strong> menu of the Control Panel.
 2. In the upper-right corner, notice the three options available for EPCS:
-  
-   ![](../epcs-setup.assets/c94ad2321444b7c36ff35d8a5c5b4fb5.png)  
+
+   ![](../epcs-setup.assets/c94ad2321444b7c36ff35d8a5c5b4fb5.png)
 
    1. <strong>Download MIE SSL App</strong> - This application should only be downloaded and installed if using the Cross-Browser E-Token Signature App.
    2. <strong>Download IE-Only E-Token Signature App</strong> - If using an Internet Explorer (IE) browser, download and install the IE-Only signature app. There is no need to install anything else with this.
    3. <strong>Download Cross-Browser E-Token Signature App</strong> - This application should be downloaded and installed if using an alternative web browser to IE (e.g., Chrome, Firefox, etc.). If using the Cross-Browser E-Token Signature App, be sure to also download and install the supporting MIE SSL App.
 4. Download and install the application(s) to each Windows workstation being used for EPCS digital signing.
-  
-### EPCS Setup  
+
+### EPCS Setup
 
 In order to be able to electronically prescribe from the {{% system-name %}} system, MIE must first [enroll and verify providers through SureScripts](https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0). To complete the verification process, ensure the prescribing user is created within the {{% system-name %}} system by performing the following:
 1. Navigate to the <strong>Access Control</strong> menu of the Control Panel.
@@ -140,8 +134,8 @@ Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use
 
 6. Verify the prescriber is a member of the appropriate department.
 7. When all required fields are entered and the appropriate electronic prescriber boxes checked, click the <strong>Submit Edit</strong> button (or <em>Submit Insert</em> button, if a new user is being created).
-  
-## Prescriptions, Refill Requests, and Transmission Failures  
+
+## Prescriptions, Refill Requests, and Transmission Failures
 
 The first thing to understand when prescribing from {{% system-name %}} is that a prescription record can be created and entered by certain clinical staff, office administrators, and prescribers, based on their established permissions and licensing. 
 **As Clinical Staff, or Office Administrator** - Can create and enter the prescription record; however, clinical staff and administrators are not permitted to mark controlled prescriptions Ready to Sign, nor are they allowed to digitally sign a controlled prescription, to transmit electronically.
@@ -150,8 +144,8 @@ Another important aspect of EPCS functionality is understanding the limitations 
 * The {{% system-name %}} system does not support EPCS transmission of detoxification/maintenance treatment.
 * Schedule II prescriptions cannot exceed a 90-day supply in one single session for a medication with the same Name, Form, and Strength.
 * Schedule III and IV prescription refills cannot exceed 5 refills, cannot process refill requests older than 6 months, and the Start Date must be today. Schedule III and IV prescriptions cannot be written for future dispense.
-  
-### Creating Prescriptions  
+
+### Creating Prescriptions
 
 All controlled substance prescriptions are dated and signed on the date they are issued. The prescription must contain:
 
@@ -171,60 +165,60 @@ All controlled substance prescriptions are dated and signed on the date they are
 {{% tip %}}
 
 Even though providers are capable of electronically prescribing controlled substances, not all pharmacies are capable of receiving these electronic requests. {{% system-name %}} displays which pharmacies are EPCS-enabled when a pharmacy is selected for a patient. This is why we encourage all staff to review the **Preferred Pharmacy** and the **Mail-In Pharmacy** with the patient PRIOR to creating a prescription. When reviewing with the patient, use the help bubble to see the pharmacy types.
-  
-![](../epcs-setup.assets/a51079a0ee86a362d06554219f0c4442.png)  
+
+![](../epcs-setup.assets/a51079a0ee86a362d06554219f0c4442.png)
 
 {{% /tip %}}
 For more detailed information on how to add and prescribe medications, see our [Prescribing/Adding Medications](../prescribing-adding-medications.md) help documentation.
-  
-### Marking Prescriptions **_Ready to Sign_**/Digitally Signing Prescriptions  
+
+### Marking Prescriptions **_Ready to Sign_**/Digitally Signing Prescriptions
 
 As a part of EPCS certification, the CEHRT requires the practitioner to indicate each prescription is ready for signing. Because of this, a prescriber must review the prescriptions and mark each as Ready to Sign by checking the box(es). Digitally sign the prescription by clicking your (the prescriber's) name/link. **Be sure to read the legal statement before marking and signing**. 
-  
-![](../epcs-setup.assets/196b780c58021b3587de417ba3a3a290.png)  
 
-  
-![](../epcs-setup.assets/209fdba9c644e1eb3504711dbe2cd5b9.png)  
+![](../epcs-setup.assets/196b780c58021b3587de417ba3a3a290.png)
+
+
+![](../epcs-setup.assets/209fdba9c644e1eb3504711dbe2cd5b9.png)
 
 An electronic controlled prescription will not transmit without the prescriber's token AND password. Ensure the token is inserted into the device, and provide the Token Passcode, when prompted. Failure to provide both will result in the medication(s) being placed in Unsigned Prescription Queue.
-  
-![](../epcs-setup.assets/cbb3c137f38e814597d6c24809f44298.png)  
+
+![](../epcs-setup.assets/cbb3c137f38e814597d6c24809f44298.png)
 
 {{% warning %}}
 
 Authorized EPCS prescribers are not authorized to use their tokens to sign a prescription for a different prescribing provider. The prescriber must not allow any other individual use of the token, or to perform EPCS signing in the {{% system-name %}} system.
-  
-![](../epcs-setup.assets/4e512fea8e2a34511ba8ea85dc123bb4.png)  
 
-  
-![](../epcs-setup.assets/2a583c482e1509b55b040ea81cce23d0.png)  
+![](../epcs-setup.assets/4e512fea8e2a34511ba8ea85dc123bb4.png)
+
+
+![](../epcs-setup.assets/2a583c482e1509b55b040ea81cce23d0.png)
 
 {{% /warning %}}
 For more information on e-prescribing, see our [Medication Management & E-Prescribing](../../medication-management-and-e-prescribing.md) help documentation.
-  
-#### Batching Unsigned Prescriptions  
+
+#### Batching Unsigned Prescriptions
 
 Batching prescriptions is available; however, batching can only be preformed for one (1) single patient, at a time. Batching of multiple patients' prescriptions is prohibited. Furthermore, as a certified EPCS application, it is necessary for prescribers to individually sign EACH prescription. Therefore, we are unable to shortcut the authentication process (signing) of batched prescriptions, due to current DEA regulations.
 1. When prescriptions are batched for a patient, the prescriber is able to mark all prescriptions as Ready to Sign. Note they are all for the same patient.
 
-  
-![](../epcs-setup.assets/0718f3e2277e6feea9f1a4306b0bc8d6.png)  
+
+![](../epcs-setup.assets/0718f3e2277e6feea9f1a4306b0bc8d6.png)
 
 
 2. Upon hitting the <strong>Sign</strong> button, the following Token Logon window will display. The prescriber will see this pop-up once for EACH medication that is batched. 
 
-  
-![](../epcs-setup.assets/cbb3c137f38e814597d6c24809f44298.png)  
+
+![](../epcs-setup.assets/cbb3c137f38e814597d6c24809f44298.png)
 
 
 3. Follow the process of signing and clicking <strong>OK</strong>, until all prescriptions have been authenticated.
-  
-### Prescription Modifications  
+
+### Prescription Modifications
 
 Editing or correcting a prescription AFTER a prescription has been signed (but before transmission) clears the Ready to Sign indication. **This will require the prescriber to digitally sign the prescription, again**.
 For more detailed information editing medications, see our [Edit/Change Medications](../edit-change-medications.md) help documentation.
-  
-### EPCS Refill Requests  
+
+### EPCS Refill Requests
 
 {{% note %}}
 
@@ -237,34 +231,34 @@ Approving any of the following EPCS refill requests will require the indication 
 * Refill Request
 * Approve w/Edit
 * Changing a Refill Request
-  
-![](../epcs-setup.assets/285393e8e0f49dc9a4e9333e442a964c.png)  
+
+![](../epcs-setup.assets/285393e8e0f49dc9a4e9333e442a964c.png)
 
 For more information on managing refill requests, see our documentation on the [E-Scripts tab](../e-refills-e-scripts-tab.md), [All E-Refills tab](../e-refills-all-e-refills-tab.md), [Refill All](../refill-all.md), [My E-Rx Errors tab](../e-refills-my-e-rx-errors-tab.md), and [My Pending Refills tab](../e-refills-my-pending-refills-tab.md).
-  
-### Printing Controlled Substances  
+
+### Printing Controlled Substances
 
 As an EPCS-certified application, {{% system-name %}} cannot allow the transmission of a prescription that has previously been printed.
-  
-![](../epcs-setup.assets/860eda4668674ef2c15a43c2e3a5a857.png)  
+
+![](../epcs-setup.assets/860eda4668674ef2c15a43c2e3a5a857.png)
 
 Similarly, any controlled prescription that has previously been electronically transmitted can only be printed as a COPY, not intended for dispensing. The prescription will print with a Note to Pharmacist reading **COPY - not for dispensing. Sent on: (date/time)**.
-  
-![](../epcs-setup.assets/45a46df7dbe8b9836b66977a64eabaf5.png)  
 
-  
-### EPCS Transmission Failures  
+![](../epcs-setup.assets/45a46df7dbe8b9836b66977a64eabaf5.png)
+
+
+### EPCS Transmission Failures
 
 In the event of a failed electronic transmission of a controlled prescription, {{% system-name %}} allows permitted users to PRINT the prescription (if allowed in your state). The prescription will print with a Note to Pharmacist reading **Failed on: (date/time)**.
-  
-![](../epcs-setup.assets/a54634ee6aadda0d8f8efea8d4cc4c10.png)  
+
+![](../epcs-setup.assets/a54634ee6aadda0d8f8efea8d4cc4c10.png)
 
 {{% info %}}
 
 Remember to review the [Practitioner Responsibilities](prescriber-responsibilities-and-transmission-requirements.md) for unsuccessfully delivered electronic prescriptions.
 {{% /info %}}
-  
-## Disabling a Token  
+
+## Disabling a Token
 
 It is important to understand the [Requirements for Establishing Access Control as an Individual Practitioner](#gjdgxs), because it is the responsibility of the prescriber to notify IdenTrust AND Medical Informatics Engineering, in the event that the token is compromised in any way, within 1 business day, to be added to the Certificate Revocation List. **The practitioner's ability to prescribe controlled substances will be revoked**. A practitioner whose token has been compromised and used by another individual must also contact the DEA - Office of Diversion Control.
 
@@ -275,13 +269,13 @@ Medical Informatics Engineering Customer Support
 * 888-498-3484, Option 1
 U.S. Department of Justice - Drug Enforcement Administration (DEA) — Office of Diversion Control
 * [https://www.deadiversion.usdoj.gov/Inside.html#contact_us](https://www.deadiversion.usdoj.gov/Inside.html#contact_us)
-  
-### Terminated Practitioners  
+
+### Terminated Practitioners
 
 If a practitioner leaves the practice, IdenTrust does not need to be notified.
 The practitioner's EPCS privileges will need to be disabled by the Designated Administrator in the {{% system-name %}} system. The Designated Administrator is responsible for notifying their MIE Implementer, providing the Termination Date to be submitted to Accounting, per standard protocol.
-  
-## Reports  
+
+## Reports
 
 There are four reports that are of particular interest when managing and auditing EPCS usage in the {{% system-name %}} system:
 **E-Meds Report**

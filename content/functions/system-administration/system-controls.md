@@ -6,13 +6,7 @@ version: 20
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'System Controls'
-    identifier: '1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
-    parent: '1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
-    weight: 4400
+wikigdrive: 'dev'
 ---
 
 

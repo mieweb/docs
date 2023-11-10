@@ -6,13 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Portal Message Notification'
-    identifier: '13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
-    parent: '1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ'
-    weight: 6550
+wikigdrive: 'dev'
 ---
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****  
 From: noreplywebchart@med-web.com  

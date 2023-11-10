@@ -13,21 +13,15 @@ links:
   - 'https://ecqi.healthit.gov/glossary/ehr'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11'
 source: 'https://drive.google.com/open?id=18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 90 - Functional Status Assessments for Congestive Heart Failure'
-    identifier: '18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3840
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS90v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v9&showresulttype=Measure) (2020)  
 [CMS90v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v10&showresulttype=Measure) (2021)  
 [CMS90v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v11&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -46,8 +40,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -82,8 +76,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -111,19 +105,19 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
-  
-Ensure all 18+ year-old patients with heart failure beginning  prior to and continuing into the measurement period have a functional status assessment during the measurement period. 
-  
-### Workflow  
-  
-Coming soon.
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Clinical Instructions
+
+Ensure all 18+ year-old patients with heart failure beginning  prior to and continuing into the measurement period have a functional status assessment during the measurement period. 
+
+### Workflow
+
+Coming soon.
+
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -150,8 +144,8 @@ Coming soon.
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -174,8 +168,8 @@ Coming soon.
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -298,7 +292,7 @@ Coming soon.
 
 </table>
 
-  
-## **Source(s)**  
-  
+
+## **Source(s)**
+
 [eCQI CMS90](https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11)

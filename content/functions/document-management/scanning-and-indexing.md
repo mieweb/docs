@@ -6,13 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Scanning & Indexing'
-    identifier: '1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-    parent: '1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-    weight: 700
+wikigdrive: 'dev'
 ---
 
 

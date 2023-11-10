@@ -11,15 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms134v10'
 source: 'https://drive.google.com/open?id=1w4VbzocSetahRwg8L0i1saJYqZLjfNnoq4pruRq-1cE'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS134v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v8&showresulttype=Measure) (2020)  
 [CMS134v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v9&showresulttype=Measure) (2021)  
 [CMS134v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -38,8 +38,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -74,8 +74,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -103,22 +103,22 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
+### New UI Visit Encounter (valid RC202109+)
 
 
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+### Original Visit Encounter
+
+
+
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -165,8 +165,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 
@@ -254,8 +254,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -310,8 +310,8 @@ wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS134](https://ecqi.healthit.gov/ecqm/ep/2022/cms134v10)
 

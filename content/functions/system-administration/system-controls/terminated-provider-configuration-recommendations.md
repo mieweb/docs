@@ -2,16 +2,16 @@
 id: '1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
 title: 'Terminated Provider Configuration Recommendations'
 date: '2023-09-12T15:14:39.994Z'
-version: 334
+version: 343
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - '../../e-sign-electronic-signature/e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'dev'
 ---
-## Terminated Provider Configuration Recommendations  
+## Terminated Provider Configuration Recommendations
 
 
 Per Medical Informatics Engineering, Inc. policy, terminated employee charts, and/or provider charts and user profiles (in access control) should NEVER be reused or recycled. User profiles should be disabled upon employment termination.

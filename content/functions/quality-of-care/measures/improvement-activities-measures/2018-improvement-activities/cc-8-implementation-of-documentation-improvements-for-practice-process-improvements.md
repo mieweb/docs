@@ -10,13 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=15xY5e_Med4ieaB2h3muXWUPM3PYlHSz7GJl1X0FnNx4'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CC 8 - Implementation of Documentation Improvements for Practice/Process Improvements'
-    identifier: '15xY5e_Med4ieaB2h3muXWUPM3PYlHSz7GJl1X0FnNx4'
-    parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3030
+wikigdrive: 'dev'
 ---
 
 

@@ -11,21 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms147v11'
 source: 'https://drive.google.com/open?id=1bktV0BYSKkWBzLv0AMyxNlGX_3BH4lXBMzqSjQk7WQ8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 147 - Preventive Care and Screening: Influenza Immunization'
-    identifier: '1bktV0BYSKkWBzLv0AMyxNlGX_3BH4lXBMzqSjQk7WQ8'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3990
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS147v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v9&showresulttype=Measure) (2020)  
 [CMS147v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v10&showresulttype=Measure) (2021)  
 [CMS147v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v11&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -44,8 +38,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -80,8 +74,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -109,16 +103,16 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
-  
+### New UI Visit Encounter (valid RC202109+)
+
+
+
+### Original Visit Encounter
+
 Ensure all patients that are 6 months old or older have received a flu vaccination or reports having received a flu vaccine. Recording the receipt of the flu immunization or the administration of the vaccine can be done within or outside of the encounter:
 1. <strong>Option 1: Record the Receipt of Flu Immunization (Historical)</strong>
    * <strong>Within Encounter</strong>
@@ -148,11 +142,11 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
       2. Click the Add Imm/Inj link in the upper-right of the page
       3. Fill in all required fields
       4. Click the Submit button
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -247,8 +241,8 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -267,8 +261,8 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
 
 </table>
 
-  
-### Denominator Exceptions  
+
+### Denominator Exceptions
 
 
 <table>
@@ -303,7 +297,7 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS147](https://ecqi.healthit.gov/ecqm/ep/2022/cms147v11)

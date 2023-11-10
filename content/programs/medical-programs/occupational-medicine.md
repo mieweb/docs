@@ -6,13 +6,7 @@ version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VhdbTx-CN21VofK5OI8hM7_t8ZE931BH-CjqQsi0-B0'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Occupational Medicine'
-    identifier: '1VhdbTx-CN21VofK5OI8hM7_t8ZE931BH-CjqQsi0-B0'
-    parent: '1qfdYxyVgYVpx-5CSpa9MgE22iijISUGMA-5Kg4Zd9jU'
-    weight: 50
+wikigdrive: 'dev'
 ---
 
 

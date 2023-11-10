@@ -10,13 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1QPm-3oew_1L-aVTYue5l3m5S0-OZ2j-X4CtkhCejJT0'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'PSPA 31 - Patient Medication Risk Education'
-    identifier: '1QPm-3oew_1L-aVTYue5l3m5S0-OZ2j-X4CtkhCejJT0'
-    parent: '1vu04nEcej6Kmg0Fpjl-pYKDOeJgJVXVbWhmyZXYgVcU'
-    weight: 3750
+wikigdrive: 'dev'
 ---
 
 

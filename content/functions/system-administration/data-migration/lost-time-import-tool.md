@@ -8,48 +8,42 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203'
 source: 'https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Lost Time Import Tool'
-    identifier: '1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
-    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    weight: 4830
+wikigdrive: 'dev'
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 
-  
-![](../lost-time-import-tool.assets/99290c0ea77278f28baacc397e311269.png)  
+
+![](../lost-time-import-tool.assets/99290c0ea77278f28baacc397e311269.png)
 
 
 If user(s) have security permission to allow .csv data import, then the user(s) can access the DATA IMPORT tab, this feature allows the user access to download a .csv template file and fill in patient demographic data using a spreadsheet application. If you have it set to NO, you can't view or access the Data Import tab at all.
 
-  
-![](../lost-time-import-tool.assets/62d283a832787b647c120b8a96a55f7b.jpg)  
+
+![](../lost-time-import-tool.assets/62d283a832787b647c120b8a96a55f7b.jpg)
 
 
 If your system does not have a Data Import tab, please contact your MIE Implementer to have the tab programmed on your system.
 
-  
-![](../lost-time-import-tool.assets/36a741ea142b701dc8f711b5500701f8.jpg)  
+
+![](../lost-time-import-tool.assets/36a741ea142b701dc8f711b5500701f8.jpg)
 
 
 Once in the Data Import tab, use the drop down to select the specific {{% system-name %}} data import type and click the GO button.
 
-  
-## Lost Time Import  
+
+## Lost Time Import
 
 
 In this help document we will be going through the {{% system-name %}} Lost Time import type.
 
-  
-![](../lost-time-import-tool.assets/cb656f3bda7d636c68d572b214f7c258.png)  
+
+![](../lost-time-import-tool.assets/cb656f3bda7d636c68d572b214f7c258.png)
 
 
 Once you've made the drop-down selection from the Data Import tool type and clicked the GO button for {{% system-name %}} Lost Time import, you can download the.csv template file [[Download Template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)]. From your own downloaded copy, fill in your Lost Time data using a spreadsheet application.
 
-  
-![](../lost-time-import-tool.assets/6616d560ee6f348526531e7dd41837e8.png)  
+
+![](../lost-time-import-tool.assets/6616d560ee6f348526531e7dd41837e8.png)
 
 
 This {{% system-name %}} import tool allows the creating of encounters and creation of cases/incidents in a patient's chart with the data provided in the import spreadsheet.
@@ -68,17 +62,17 @@ INTERFACE allows you to specify which interface to store to find the patient.
 
 VERBOSE mode will print out what the import is doing to the screen and the log file.
 
-  
-## Template  
+
+## Template
 
 You can view the [spreadsheet template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203) and download your own copy. Again, even though our template shows 5 tabs for each of the 5 types of Lost Time imports available, each must be on its own unique separate file when you go to import that type.
 
-  
-![](../lost-time-import-tool.assets/1384c0335ebefbde7e6b087c2d0dfae0.png)  
+
+![](../lost-time-import-tool.assets/1384c0335ebefbde7e6b087c2d0dfae0.png)
 
 
-  
-## Data and Values for Encounters and Incidents  
+
+## Data and Values for Encounters and Incidents
 
 An encounter documents a visit with a patient, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during a patient appointment.
 
@@ -949,8 +943,8 @@ Maps to {{% system-name %}} incident field "EVENT" dropdown. Type of injury (lim
 
 </table>
 
-  
-## Data and Values for Patient Conditions  
+
+## Data and Values for Patient Conditions
 
 This import tool file imports all details of a condition for a patient record. A condition is defined as a patient's health/medical problems, frequently coded using SNOMED or ICD-9/10 Diagnosis codes.
 
@@ -1043,8 +1037,8 @@ This import tool file imports all details of a condition for a patient record. A
 
 </table>
 
-  
-## Data and Values for Patient Clinical Restrictions  
+
+## Data and Values for Patient Clinical Restrictions
 
 This import tool file imports restriction details. In occupational health, a restriction (clinical restriction) refers to an activity that an employee (patient) is not permitted to do after an injury (incident). An accommodation is a modification that allows an employee to continue working, or lost time (worker's comp plan) available for an employee who cannot work after an incident.
 
@@ -1179,8 +1173,8 @@ This is the ‘description' column from the ‘clinical_restriction_types' {{% s
 
 </table>
 
-  
-## Data and Values for Accommodations  
+
+## Data and Values for Accommodations
 
 An accommodation is a modification that allows an employee to continue working, or lost time (worker's comp plan) available for an employee who cannot work after an incident. This import tool file will import accommodation details for charts.
 
@@ -1269,8 +1263,8 @@ An accommodation is a modification that allows an employee to continue working, 
 
 </table>
 
-  
-## Data and Values for Incident (Case) Body Parts  
+
+## Data and Values for Incident (Case) Body Parts
 
 This imports (in the case/incident) the details for nature of injury, body parts, etc.
 

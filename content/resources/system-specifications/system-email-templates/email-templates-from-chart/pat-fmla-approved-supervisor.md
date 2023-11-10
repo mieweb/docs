@@ -7,13 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFAS&old_module=Email&old_name=Pat+FMLA+Approved+Supervisor&active=0'
 source: 'https://drive.google.com/open?id=1ahK11TnjyA6KV8Ss8B8822lL6hGpBlZ4CDoaYg6aS4k'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Pat FMLA Approved Supervisor'
-    identifier: '1ahK11TnjyA6KV8Ss8B8822lL6hGpBlZ4CDoaYg6aS4k'
-    parent: '1kw4fVIHlqFMCMaMAvAkjN6dnmHZjQFFx_TSi7IQAKeQ'
-    weight: 6380
+wikigdrive: 'dev'
 ---
 
 
@@ -32,8 +26,8 @@ Cc:
 Subject: FMLA Approved for Frederick Anderson
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-  
-## **FMLA Approved for Frederick Anderson**  
+
+## **FMLA Approved for Frederick Anderson**
 
 Date: 08-22-2017
 Employee Name: Frederick Anderson

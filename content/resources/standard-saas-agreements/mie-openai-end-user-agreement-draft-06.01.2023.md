@@ -10,10 +10,10 @@ links:
   - 'https://openai.com/api/policies/service-terms/'
   - 'https://openai.com/policies/terms-of-use'
 source: 'https://drive.google.com/open?id=1dSjejCMB7zGviJsgOU-uJ1dnrf05Cn58ZT_GFDd53_M'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'dev'
 ---
 **END USER AGREEMENT AND TERMS OF USE**  
-This End User Agreement ("EUA") is a legal agreement between you (the "End User") and Medical Informatics Engineering, Inc. ("MIE"), and contains the terms and conditions governing the use and access of the AI Functionality made available as part of the MIE Software identified in the [WEBCHART Services License Agreement/Master Services Agreement] (the "Agreement") by and between MIE and the other party listed therein (["Customer/Client"]).  
+This End User Agreement ("EUA") is a legal agreement between you (the "End User") and Medical Informatics Engineering, Inc. ("MIE"), and contains the terms and conditions governing the use and access of the AI Functionality made available as part of the MIE Software identified in the [WEBCHART Services License Agreement/Master Services Agreement] (the "Agreement") by and between MIE and the other party listed therein (["Customer/Client"]).
 
 Before you, as the End User, click on the "I AGREE" button at the end of this EUA, carefully read the terms and conditions of this EUA.  By clicking on the "I AGREE" button, you are consenting to be bound by and are becoming a party to this EUA.  This EUA is effective as of the date you click "I AGREE."
 
@@ -27,7 +27,7 @@ Before you, as the End User, click on the "I AGREE" button at the end of this EU
 
    3. <strong>Termination; Suspension</strong><strong>.  </strong>This EUA takes effect as of the date that End User agrees to the terms of this EUA by clicking the "I AGREE" button and remains in effect until terminated.  MIE may terminate this EUA at any time, and for any reason, by providing you at least fifteen (15) days' advance notice.  MIE may terminate this EUA immediately if (a) the Agreement between MIE and [Customer/Client] is terminated for any reason; (b) the End User breaches any terms of this EUA; (c) there are any changes in relationships with third-party technology vendors; or, (d) such termination is needed to comply with Laws. 
 
-   4. <strong>Effect on Termination</strong><strong>.  </strong>Upon termination, End User agrees to immediately stop using the AI Functionality and return any materials related to the use thereof, which may include printed and on-line materials, user guides, product specifications, training manuals, and other similar information that assist End User with the use of the AI Functionality, which may be updated from time to time.  
+   4. <strong>Effect on Termination</strong><strong>.  </strong>Upon termination, End User agrees to immediately stop using the AI Functionality and return any materials related to the use thereof, which may include printed and on-line materials, user guides, product specifications, training manuals, and other similar information that assist End User with the use of the AI Functionality, which may be updated from time to time.
 
 7. <strong>USE OF AI FUNCTIONALITY</strong>
 

@@ -12,39 +12,33 @@ links:
   - 'https://system/?f=dicom&s=app_entities&opp=add'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
 source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'DICOM Setup Tab'
-    identifier: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-    parent: '1a3QmGdXV6MW1Ef2Yu8jPUiRSd8o-WENsm3_OK5roV-U'
-    weight: 860
+wikigdrive: 'dev'
 ---
 Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and exchanging image information in and between medical imaging software.
-  
-## **DICOM Setup Tab**  
-  
+
+## **DICOM Setup Tab**
+
 Access to the [Dicom Setup tab](https://system/?f=dicom&dcfunc=aeedit) requires the DICOM Queue security permission.  DICOM Queue security permission allows access to the DICOM Image Queue and all the settings that go with it.    
 The [DICOM Setup tab](https://system/?f=dicom&dcfunc=aeedit) is both a dashboard with search functionality, as well as a link to add or edit the Application Entities information. There is also a "basic" or "advanced" search capability at the top left corner of this screen to search for DICOM routes in the categories of the dashboard.
 
-  
-![](../dicom-setup-tab.assets/3a9929a7b2969bf21b78ea458e99a58a.png)  
+
+![](../dicom-setup-tab.assets/3a9929a7b2969bf21b78ea458e99a58a.png)
 
 
-  
-## **Application Entities Editor**  
-  
+
+## **Application Entities Editor**
+
 Access to view and manage Application Entities requires the Application Entities Editor security permission.  The Application Entities Editor security permission allows access to add, edit, or delete DICOM Application Entities, however this editor is mainly for MIE programming staff.  
 To view application entities, simply click the [View Application Entities](https://system/?f=dicom&s=app_entities) hyperlink in the [DICOM Setup](https://system/?f=dicom&dcfunc=aeedit&tabmodule=admin&tabselect=Dicom+Setup) tab found within the **Control Panel** sidemenu.
 
-  
-![](../dicom-setup-tab.assets/f81a935d569d0fc54de08d08675b6c17.png)  
+
+![](../dicom-setup-tab.assets/f81a935d569d0fc54de08d08675b6c17.png)
 
 
 To add an Application Entity, once in the Application Entities, simply select the [Add Entity](https://system/?f=dicom&s=app_entities&opp=add) link.
 
-  
-![](../dicom-setup-tab.assets/c33f7e26d651e164cb8ed64ee9efd635.png)  
+
+![](../dicom-setup-tab.assets/c33f7e26d651e164cb8ed64ee9efd635.png)
 
 
 The following information is displayed on the application entities screen:

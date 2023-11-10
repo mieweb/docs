@@ -15,13 +15,7 @@ links:
   - '../../functions/system-administration/data-migration/create-vital-signs-file-for-import.md'
   - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
 source: 'https://drive.google.com/open?id=1jfYSK52Yc-BRue-sia-ROsKSfd30pvkFda9-bI3zfQw'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Historical Data Imports'
-    identifier: '1jfYSK52Yc-BRue-sia-ROsKSfd30pvkFda9-bI3zfQw'
-    parent: '1OQWE20b-U3zYvhTtkJW-fE_3Vh_8tTBfwhRr2Mqcjvg'
-    weight: 5960
+wikigdrive: 'dev'
 ---
 
 

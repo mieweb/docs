@@ -12,21 +12,15 @@ links:
   - 'https://ecqi.healthit.gov/glossary/denominator'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10'
 source: 'https://drive.google.com/open?id=1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 156 - Use of High-Risk Medications in the Elderly'
-    identifier: '1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 4030
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)  
 [CMS156v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure) (2021)  
 [CMS156v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -45,8 +39,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -91,8 +85,8 @@ For patients with two or more benzodiazepine prescriptions ordered, exclude pati
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -120,16 +114,16 @@ For patients with two or more benzodiazepine prescriptions ordered, exclude pati
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
-  
+### New UI Visit Encounter (valid RC202109+)
+
+
+
+### Original Visit Encounter
+
 {{% note %}}
 
 This is an inverse measure. The goal is to have a 0 in the numerator.  When e-prescribing, avoid prescribing any of the medications listed below, to the specified population, whenever possible.
@@ -139,11 +133,11 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 2. Prescribe medications, as needed.
 3. Continue documenting the encounter, as appropriate.
 4. When complete, Close and Archive the encounter.
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -202,8 +196,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -238,8 +232,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 
@@ -515,8 +509,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-  
-### Numerator Exclusions  
+
+### Numerator Exclusions
 
 
 <table>
@@ -559,8 +553,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 
 </table>
 
-  
-## Source(s)  
+
+## Source(s)
 
 [eCQI CMS156](https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10)
 

@@ -7,13 +7,13 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'dev'
 ---
 Financials
 
 ```
-THE FINANCIAL SECTION  
-  
+THE FINANCIAL SECTION
+
 Basic things about Financials
 ```
 <pre>Some of it is automatically added from other sections</pre><pre>Some of it may be manually added</pre><pre>CPT codes are automatically added</pre>

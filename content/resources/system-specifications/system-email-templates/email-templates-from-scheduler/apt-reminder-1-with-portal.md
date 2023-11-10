@@ -7,13 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=EAPTR&old_module=Email&old_name=Apt+Reminder+1+with+Portal&active=0'
 source: 'https://drive.google.com/open?id=1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Apt Reminder 1 with Portal'
-    identifier: '1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc'
-    parent: '1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E'
-    weight: 6690
+wikigdrive: 'dev'
 ---
 
 
@@ -32,8 +26,8 @@ Cc:
 Subject: Reminder to Schedule Your Health Services Appointment
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-  
-## **Reminder to Schedule Appointment**  
+
+## **Reminder to Schedule Appointment**
 
 
 TO: Frederick J Anderson

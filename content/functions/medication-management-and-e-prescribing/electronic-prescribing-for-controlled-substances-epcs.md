@@ -12,23 +12,17 @@ links:
   - 'https://www.hidglobal.com/identrust'
   - 'https://www.deadiversion.usdoj.gov/'
 source: 'https://drive.google.com/open?id=1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Electronic Prescribing for Controlled Substances (EPCS)'
-    identifier: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
-    parent: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-    weight: 1850
+wikigdrive: 'dev'
 ---
-  
+
 The {{% system-name %}} system is not only certified for electronic prescribing, it reduces even more interruptions in the way of allowing electronic prescribing for controlled substances (EPCS). Here, users will find the EPCS User Guide, which consists of step-by-step instructions on the IdentTrust Certification Registration process, as well as the EPCS Setup in {{% system-name %}} .  
 {{% note %}}
 
 Currently, this is a Windows-only solution. MIE is working toward a cross-browser AND cross-platform solution. We do currently support cross-browser functionality, meaning prescribers are not limited to Internet Explorer, only.
 {{% /note %}}
 
-  
-## EPCS Onboarding Process  
+
+## EPCS Onboarding Process
 
 1. Review the [IdenTrust Certification and Registration Help Guide](electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step.md).
    1. The practitioner will access our IdenTrust Partner Page to purchase the IdenTrust Global Common (IGC) Certificate.
@@ -39,8 +33,8 @@ Currently, this is a Windows-only solution. MIE is working toward a cross-browse
 3. Notify MIE once 2a has been completed. We will then forward the [EPCS Setup Guide](electronic-prescribing-for-controlled-substances-epcs/epcs-setup.md) for the Designated Administrator and Designated DEA Registrant.
    1. Utilize the EPCS Setup Guide to get started. Resources are available for all of the required setup and common workflows associated with EPCS in {{% system-name %}} .
 4. Contact your MIE Implementer to schedule a training session for the Designated Administrator and Physician.
-  
-## Useful Links  
+
+## Useful Links
 
 [SureScripts - E-Prescribing of Controlled Substances (EPCS)](https://surescripts.com/enhance-prescribing/e-prescribing/e-prescribing-for-controlled-substances/) - https://surescripts.com/enhance-prescribing/e-prescribing/e-prescribing-for-controlled-substances/
 [IdenTrust | HID Global](https://www.hidglobal.com/identrust) - https://www.hidglobal.com/identrust

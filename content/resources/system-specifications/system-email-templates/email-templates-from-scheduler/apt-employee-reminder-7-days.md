@@ -7,13 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EER7&old_module=Email&old_name=Apt+Employee+Reminder+7+Days&active=0'
 source: 'https://drive.google.com/open?id=1Xd7K1lY-nw4rSesF1FLFEghZobJU3z6wk-t78xddBUU'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Apt Employee Reminder 7 Days'
-    identifier: '1Xd7K1lY-nw4rSesF1FLFEghZobJU3z6wk-t78xddBUU'
-    parent: '1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E'
-    weight: 6590
+wikigdrive: 'dev'
 ---
 
 
@@ -32,8 +26,8 @@ Cc:
 Subject: Notification to Schedule Health Surveillance Appointment Within 7 Days
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-  
-## **Notification to Schedule Health Surveillance Appointment Within 7 Days**  
+
+## **Notification to Schedule Health Surveillance Appointment Within 7 Days**
 
 
 TO: Frederick J Anderson

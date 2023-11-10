@@ -7,13 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=ERELEASE&old_module=Email&old_name=Apt+Released+to+Full+Duty&active=0'
 source: 'https://drive.google.com/open?id=16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Apt Released to Full Duty'
-    identifier: '16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4'
-    parent: '1B4axGqIlA9niMn8voc7pPZy4-1TrVEX2SHZkqIRCj0E'
-    weight: 6670
+wikigdrive: 'dev'
 ---
 
 
@@ -32,8 +26,8 @@ Cc:
 Subject: Notice of Return to Full Duty and Medically Discharged for Frederick J Anderson
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
-  
-## **Notification to Schedule Follow-up Audiogram Review after Second STS Finding**  
+
+## **Notification to Schedule Follow-up Audiogram Review after Second STS Finding**
 
 
 TO: Frederick J Anderson

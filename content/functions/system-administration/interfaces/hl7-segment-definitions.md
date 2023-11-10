@@ -9,18 +9,12 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'sample-hl7-messages.md'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'HL7 Segment Definitions'
-    identifier: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-    parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
-    weight: 5410
+wikigdrive: 'dev'
 ---
 {{% anchor sys="msh" %}}
 
-  
-## Message Header (MSH)  
+
+## Message Header (MSH)
 
 
 <table>
@@ -178,8 +172,8 @@ menu:
 </tr>
 
 </table>
-  
-## **Master File Identification (MFI)**  
+
+## **Master File Identification (MFI)**
 
 
 <table>
@@ -241,8 +235,8 @@ menu:
 </tr>
 
 </table>
-  
-## **Master File Entry (MFE)**  
+
+## **Master File Entry (MFE)**
 
 
 <table>
@@ -298,8 +292,8 @@ menu:
 </table>
 {{% anchor sys="msa" %}}
 
-  
-## Message Acknowledgement (MSA)  
+
+## Message Acknowledgement (MSA)
 
 
 <table>
@@ -355,8 +349,8 @@ menu:
 </table>
 {{% anchor sys="evn" %}}
 
-  
-## Event Type (EVN)  
+
+## Event Type (EVN)
 
 
 <table>
@@ -404,8 +398,8 @@ menu:
 </table>
 {{% anchor sys="mrg" %}}
 
-  
-## Merge Patient Information (MRG)  
+
+## Merge Patient Information (MRG)
 
 
 <table>
@@ -477,8 +471,8 @@ menu:
 </table>
 {{% anchor sys="pid" %}}
 
-  
-## Patient Identification (PID)  
+
+## Patient Identification (PID)
 
 
 <table>
@@ -806,8 +800,8 @@ menu:
 </table>
 {{% anchor sys="pd1" %}}
 
-  
-## Patient Additional Demographics (PD1)  
+
+## Patient Additional Demographics (PD1)
 
 
 <table>
@@ -919,8 +913,8 @@ menu:
 </table>
 {{% anchor sys="pv1" %}}
 
-  
-## Patient Visit (PV1)  
+
+## Patient Visit (PV1)
 
 
 <table>
@@ -1352,8 +1346,8 @@ menu:
 </table>
 {{% anchor sys="pv2" %}}
 
-  
-## Patient Visit - Additional Information (PV2)  
+
+## Patient Visit - Additional Information (PV2)
 
 
 <table>
@@ -1665,8 +1659,8 @@ menu:
 </table>
 {{% anchor sys="dg1" %}}
 
-  
-## Diagnosis (DG1)  
+
+## Diagnosis (DG1)
 
 
 <table>
@@ -1810,8 +1804,8 @@ menu:
 </table>
 {{% anchor sys="ft1" %}}
 
-  
-## Financial Transaction (FT1)  
+
+## Financial Transaction (FT1)
 
 
 <table>
@@ -2035,8 +2029,8 @@ menu:
 </table>
 {{% anchor sys="gt1" %}}
 
-  
-## Guarantor (GT1)  
+
+## Guarantor (GT1)
 
 
 <table>
@@ -2492,8 +2486,8 @@ menu:
 </table>
 {{% anchor sys="in1" %}}
 
-  
-## Insurance (IN1)  
+
+## Insurance (IN1)
 
 
 <table>
@@ -2901,8 +2895,8 @@ menu:
 </table>
 {{% anchor sys="in2" %}}
 
-  
-## Insurance - Additional Information (IN2)  
+
+## Insurance - Additional Information (IN2)
 
 
 <table>
@@ -3492,8 +3486,8 @@ menu:
 </tr>
 
 </table>
-  
-## **Insurance - Additional Information, Certification (IN3)**  
+
+## **Insurance - Additional Information, Certification (IN3)**
 
 
 <table>
@@ -3709,8 +3703,8 @@ menu:
 </table>
 {{% anchor sys="pr1" %}}
 
-  
-## Procedures (PR1)  
+
+## Procedures (PR1)
 
 
 <table>
@@ -3830,8 +3824,8 @@ menu:
 </table>
 {{% anchor sys="err" %}}
 
-  
-## Error (ERR)  
+
+## Error (ERR)
 
 
 <table>
@@ -3855,8 +3849,8 @@ menu:
 </table>
 {{% anchor sys="zil" %}}
 
-  
-## ZIL  
+
+## ZIL
 
 
 <table>
@@ -3880,8 +3874,8 @@ menu:
 </table>
 {{% anchor sys="ztn" %}}
 
-  
-## ZTN  
+
+## ZTN
 
 
 <table>
@@ -3921,8 +3915,8 @@ menu:
 </table>
 {{% anchor sys="zdg" %}}
 
-  
-## ZDG  
+
+## ZDG
 
 
 <table>
@@ -3954,8 +3948,8 @@ menu:
 </table>
 {{% anchor sys="nte" %}}
 
-  
-## Notes and Comments (NTE)  
+
+## Notes and Comments (NTE)
 
 
 <table>
@@ -4003,8 +3997,8 @@ menu:
 </table>
 {{% anchor sys="sch" %}}
 
-  
-## Scheduling Activity Information (SCH)  
+
+## Scheduling Activity Information (SCH)
 
 
 <table>
@@ -4220,8 +4214,8 @@ menu:
 </table>
 {{% anchor sys="rgs" %}}
 
-  
-## Resource Group (RGS)  
+
+## Resource Group (RGS)
 
 
 <table>
@@ -4261,8 +4255,8 @@ menu:
 </table>
 {{% anchor sys="ail" %}}
 
-  
-## Appointment Information - Location resource (AIL)  
+
+## Appointment Information - Location resource (AIL)
 
 
 <table>
@@ -4374,8 +4368,8 @@ menu:
 </table>
 {{% anchor sys="aip" %}}
 
-  
-## Appointment Information - Personnel Resource (AIP)  
+
+## Appointment Information - Personnel Resource (AIP)
 
 
 <table>
@@ -4487,8 +4481,8 @@ menu:
 </table>
 {{% anchor sys="aig" %}}
 
-  
-## Appointment Information - General Resource (AIG)  
+
+## Appointment Information - General Resource (AIG)
 
 
 <table>
@@ -4614,8 +4608,8 @@ menu:
 </tr>
 
 </table>
-  
-## **Accident (ACC)**  
+
+## **Accident (ACC)**
 
 
 <table>
@@ -4677,8 +4671,8 @@ menu:
 </tr>
 
 </table>
-  
-## **UB82 (UB1)**  
+
+## **UB82 (UB1)**
 
 
 <table>
@@ -4876,8 +4870,8 @@ menu:
 </tr>
 
 </table>
-  
-## **UB92 Data (UB2)**  
+
+## **UB92 Data (UB2)**
 
 
 <table>
@@ -5028,8 +5022,8 @@ menu:
 
 </table>
 
-  
-## Next of Kin/Associated Parties (NK1)  
+
+## Next of Kin/Associated Parties (NK1)
 
 
 <table>
@@ -5339,8 +5333,8 @@ menu:
 </tr>
 
 </table>
-  
-## ZMF  
+
+## ZMF
 
 
 <table>
@@ -5508,8 +5502,8 @@ menu:
 </table>
 {{% anchor sys="orc" %}}
 
-  
-## Common Order (ORC)  
+
+## Common Order (ORC)
 
 
 <table>
@@ -5717,8 +5711,8 @@ menu:
 </table>
 {{% anchor sys="obr" %}}
 
-  
-## Observation request (OBR)  
+
+## Observation request (OBR)
 
 
 <table>
@@ -6094,8 +6088,8 @@ menu:
 </table>
 {{% anchor sys="obx" %}}
 
-  
-## Observation/Result (OBX)  
+
+## Observation/Result (OBX)
 
 
 <table>
@@ -6245,8 +6239,8 @@ menu:
 </tr>
 
 </table>
-  
-## Pharmacy/Treatment Administration (RXA)  
+
+## Pharmacy/Treatment Administration (RXA)
 
 
 <table>
@@ -6436,8 +6430,8 @@ menu:
 </tr>
 
 </table>
-  
-## Pharmacy/Treatment Route (RXR)  
+
+## Pharmacy/Treatment Route (RXR)
 
 
 <table>
@@ -6493,8 +6487,8 @@ menu:
 </table>
 {{% anchor sys="txa" %}}
 
-  
-## Transcription Document Header (TXA)  
+
+## Transcription Document Header (TXA)
 
 
 <table>
@@ -6692,8 +6686,8 @@ menu:
 </tr>
 
 </table>
-  
-## **Query Acknowledgement (QAK)**  
+
+## **Query Acknowledgement (QAK)**
 
 
 <table>
@@ -6731,8 +6725,8 @@ menu:
 </tr>
 
 </table>
-  
-## **Original Style Query Definition (QRD)**  
+
+## **Original Style Query Definition (QRD)**
 
 
 <table>
@@ -6842,8 +6836,8 @@ menu:
 </tr>
 
 </table>
-  
-## **Original Style Query Filter (QRF)**  
+
+## **Original Style Query Filter (QRF)**
 
 
 <table>
@@ -6929,8 +6923,8 @@ menu:
 </tr>
 
 </table>
-  
-## **ZCL**  
+
+## **ZCL**
 
 
 <table>
@@ -6976,8 +6970,8 @@ menu:
 </tr>
 
 </table>
-  
-## **ZBL**  
+
+## **ZBL**
 
 
 <table>
@@ -7031,8 +7025,8 @@ menu:
 </tr>
 
 </table>
-  
-## **ZCY**  
+
+## **ZCY**
 
 
 <table>
@@ -7326,8 +7320,8 @@ menu:
 </tr>
 
 </table>
-  
-## **ZSA**  
+
+## **ZSA**
 
 
 <table>
@@ -7469,8 +7463,8 @@ menu:
 </tr>
 
 </table>
-  
-## **ZPS**  
+
+## **ZPS**
 
 
 <table>
@@ -7540,8 +7534,8 @@ menu:
 </tr>
 
 </table>
-  
-## **ZSV**  
+
+## **ZSV**
 
 
 <table>
@@ -7613,8 +7607,8 @@ menu:
 </table>
 {{% anchor sys="zpa" %}}
 
-  
-## ZPA  
+
+## ZPA
 
 
 <table>
@@ -7916,13 +7910,13 @@ menu:
 </tr>
 
 </table>
-  
-## **Data Types**  
+
+## **Data Types**
 
 {{% anchor sys="tn" %}}
 
-  
-### TN  
+
+### TN
 
 The TN Data Type is an MIE Extension designed for notifying a sending system of translations used in the processing of the message. This can be thought of as an incremental approach to maintaining a MFN interface.
 
@@ -7959,8 +7953,8 @@ The TN Data Type is an MIE Extension designed for notifying a sending system of 
 </tr>
 
 </table>
-  
-## **Related Pages**  
+
+## **Related Pages**
 
 [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
 [Sample HL7 Messages](sample-hl7-messages.md)

@@ -10,13 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=16dkT5HTGBKqQJY8eXoZI0y8ko3JqgUPpMkSeSMHJvZ8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'PM 18 - Provide Clinical-Community Linkages'
-    identifier: '16dkT5HTGBKqQJY8eXoZI0y8ko3JqgUPpMkSeSMHJvZ8'
-    parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3360
+wikigdrive: 'dev'
 ---
 
 

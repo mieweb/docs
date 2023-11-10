@@ -11,21 +11,15 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms002v11'
 source: 'https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan'
-    identifier: '1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3780
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS2v9](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v9&showresulttype=Measure&module=&tabmodule=) (2020)  
 [CMS2v10](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v10&showresulttype=Measure&module=&tabmodule=&searchterm=CMS2) (2021)  
 [CMS2v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -44,8 +38,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -83,8 +77,8 @@ Medical Reason(s)
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 
@@ -113,12 +107,12 @@ Medical Reason(s)
 </table>
 
 
-  
-## Clinical Instructions  
-  
+
+## Clinical Instructions
+
 Ensure all 12+ year-old patients are screened for depression during or within the 14 days prior to an eligible encounter during the measurement period. Use the preferred Preventive Care section or the alternate Test and Procedures section of the Visit encounter to order and perform the age appropriate depression screening. Any patient with a positive screening requires a follow-up plan documented during the current encounter.  Additionally, an adult or adolescent depression screening document with an appropriate LOINC code will also be counted.  Perform the following steps to document a depression screening.
-  
-### Preferred Workflow  
+
+### Preferred Workflow
 
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Preventive Care section
@@ -137,8 +131,8 @@ Ensure all 12+ year-old patients are screened for depression during or within th
    4. E-prescribe an antidepressant medication
 10. Continue documenting the encounter, as appropriate
 11. When completed, Close and Archive the encounter
-  
-### Alternate Workflow  
+
+### Alternate Workflow
 
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Tests and Procedures section
@@ -155,11 +149,11 @@ Ensure all 12+ year-old patients are screened for depression during or within th
    2. E-prescribe an antidepressant medication
 10. Continue documenting the encounter, as appropriate
 11. When completed, Close and Archive the encounter
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -178,8 +172,8 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -198,8 +192,8 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -242,8 +236,8 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 
 </table>
 
-  
-### Denominator Exceptions  
+
+### Denominator Exceptions
 
 
 <table>
@@ -262,7 +256,7 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS2](https://ecqi.healthit.gov/ecqm/ep/2022/cms002v11)

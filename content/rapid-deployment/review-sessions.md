@@ -6,13 +6,7 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Review Sessions'
-    identifier: '1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM'
-    parent: '1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-    weight: 5990
+wikigdrive: 'dev'
 ---
 
 

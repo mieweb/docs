@@ -6,13 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'E-Sign (Electronic Signature)'
-    identifier: '1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854'
-    parent: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
-    weight: 2230
+wikigdrive: 'dev'
 ---
 
 

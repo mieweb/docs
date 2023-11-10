@@ -10,13 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1TIYGSfzDafLSI91HXnRxk3TD9glzY_4gsDBzTOZGZK0'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'EPA 5 - Participation in User Testing of the Quality Payment Program Website (https://qpp.cms.gov/)'
-    identifier: '1TIYGSfzDafLSI91HXnRxk3TD9glzY_4gsDBzTOZGZK0'
-    parent: '1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI'
-    weight: 3170
+wikigdrive: 'dev'
 ---
 
 

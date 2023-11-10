@@ -9,23 +9,17 @@ links:
   - '../../review-sessions/review-session-encounter-workflow.md'
   - '../../review-sessions/review-session-portal-management.md'
 source: 'https://drive.google.com/open?id=1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Encounter Workflow & Portal Management'
-    identifier: '1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
-    parent: '1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
-    weight: 5830
+wikigdrive: 'dev'
 ---
-## Purpose  
-  
+## Purpose
+
 Cover the [Encounter Workflow Review Session](../../review-sessions/review-session-encounter-workflow.md) and [Portal Management Review Session](../../review-sessions/review-session-portal-management.md) to gather necessary information and identify any gaps.
-  
-## Objective  
-  
+
+## Objective
+
 Review standard  {{% system-name %}} workflows and gather information needed for system setup of the necessary encounter workflows and portal management.
-  
-### Agenda - 2 Hours  
+
+### Agenda - 2 Hours
 
 * Demonstrate Patient and Employer Portal functionalities
    * System Configuration
@@ -36,7 +30,7 @@ Review standard  {{% system-name %}} workflows and gather information needed fo
       * Encounter Types
       * Link Encounter Types to Appointment Types
       * Protocol Templates
-  
-## Afterward  
-  
+
+## Afterward
+
 Document action items, distribute meeting minutes, create Jira tickets for configuration projects that are in scope, perform system configuration, update percentage complete and dates on project plan, and prepare for subsequent meetings.

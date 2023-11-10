@@ -15,24 +15,18 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv'
   - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
 source: 'https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Injections CSV API'
-    identifier: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
-    parent: '1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-    weight: 4890
+wikigdrive: 'dev'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for injections using the Injections CSV API.
 
-  
-### **Audience**  
-  
+
+### **Audience**
+
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Injections CSV API. Technical details are provided in the remaining sections.
 
-  
-### **Abstract**  
-  
+
+### **Abstract**
+
 Enterprise Health stores discrete data for injections/immunizations, which can be displayed in multiple ways.  
 It is valuable to recognize the following terminology as it pertains to MIE systems:
 * A <strong>chart</strong> is an employee's (patient's) electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual. Audio tests are linked to a chart through a document.
@@ -40,27 +34,27 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * An <strong>encounter</strong> documents a visit with a employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
 
-  
-### **Screenshots**  
 
-  
-![](../injections-csv-api.assets/0b15a44cac015f048e0d015cfbbfc1cb.png)  
+### **Screenshots**
+
+
+![](../injections-csv-api.assets/0b15a44cac015f048e0d015cfbbfc1cb.png)
 
 
 Injections data is stored as a document, and will display within the appropriate tab of a chart.
 
-  
-![](../injections-csv-api.assets/60f75e0734bfd1b35a511b1b78936ecd.png)  
+
+![](../injections-csv-api.assets/60f75e0734bfd1b35a511b1b78936ecd.png)
 
 
 In addition, injections display within the Injections flowsheet chart tab as discrete data.
 
-  
-![](../injections-csv-api.assets/9a398cd883f4db34b2abb12159938e56.png)  
 
-  
-## **Specifications**  
-  
+![](../injections-csv-api.assets/9a398cd883f4db34b2abb12159938e56.png)
+
+
+## **Specifications**
+
 The following sections provide insight for technical personnel working with the provided import specifications. Although the specifications provided include details on each field utilized in the import, the sections below include further discussion on best practices for imported data to provide the best functionality in Enterprise Health.  
 [Specifications for the Injections CSV API are available here.](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit?usp=sharing)
 
@@ -69,18 +63,18 @@ The specification may be downloaded as Excel, CSV, or duplicated as an online sp
 Additionally, user instructions are available for importing data in EH.
 {{% /tip %}}
 
-  
-### **Column Definitions and Specific Coded Values**  
+
+### **Column Definitions and Specific Coded Values**
 
 Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
 
-  
-#### **CDC Injection Codes**  
+
+#### **CDC Injection Codes**
 
 The CDC Immunization Information Systems CVX Codes are available here: [http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx](http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx)
 
-  
-#### **Injections Site Codes**  
+
+#### **Injections Site Codes**
 
 
 <table>
@@ -199,8 +193,8 @@ The CDC Immunization Information Systems CVX Codes are available here: [http://
 
 </table>
 
-  
-#### **Injections Route Codes**  
+
+#### **Injections Route Codes**
 
 
 <table>
@@ -247,8 +241,8 @@ The CDC Immunization Information Systems CVX Codes are available here: [http://
 
 </table>
 
-  
-### **Field Requirements**  
+
+### **Field Requirements**
 
 The following fields (indicated in the Data Name column) are noted as required (R) or are recommended as best practice (BP) in the Injections CSV API specification. Additional details and considerations are provided here.
 
@@ -269,19 +263,19 @@ The following optional fields are needed to link the document to a patient encou
 * <em>Encounter Interface</em> (encounters.interface)
 Including the field encounter order_id will also create an encounter order of the identified in the field.
 
-  
-## **Examples**  
+
+## **Examples**
 
 Examples using sample data are provided on
 * [Google spreadsheet](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true)
 * [Downloadable CSV](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv)
 
-  
-## **Validation**  
+
+## **Validation**
 
 Unless otherwise specified, validation between the previous system and the new EH system requires the client to provide a number of test patients. This data can be compared in the previous system and EH using the validation test script.
 
-  
-## **Related Pages**  
+
+## **Related Pages**
 
 * [Data Import Master List](https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List)

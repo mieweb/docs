@@ -12,21 +12,15 @@ links:
   - 'https://ecqi.healthit.gov/glossary/eligible-clinician'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11'
 source: 'https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 68 - Documentation of Current Medications in the Medical Record'
-    identifier: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3810
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS68v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v9&showresulttype=Measure) (2020)  
 [CMS68v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v10&showresulttype=Measure) (2021)  
 [CMS68v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v11&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -45,8 +39,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -81,8 +75,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -110,21 +104,21 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
-  
+
+## Clinical Instructions
+
 Ensure the list of current medications is always up-to-date for all patients.
-  
-### Preferred Workflow  
-  
+
+### Preferred Workflow
+
 Review and update the medications in the Presenting Medications section of the encounter, as appropriate, including ALL current prescriptions, over-the-counters, herbals, and vitamin/mineral/dietary supplements, with name(s), dosage(s), frequency, and route(s) of administration.
 
 If the Presenting Medications section is part of the encounter outline at time of archive and close, the appropriate SNOMED Concept ID will be documented for the encounter to achieve numerator credit.
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -139,8 +133,8 @@ If the Presenting Medications section is part of the encounter outline at time o
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -159,7 +153,7 @@ If the Presenting Medications section is part of the encounter outline at time o
 
 </table>
 
-  
-## Source(s)  
-  
+
+## Source(s)
+
 [eCQI CMS68](https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11)

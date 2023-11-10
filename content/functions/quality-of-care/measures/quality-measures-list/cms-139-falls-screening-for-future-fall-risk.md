@@ -14,21 +14,15 @@ links:
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf'
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf'
 source: 'https://drive.google.com/open?id=1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'CMS 139 - Falls: Screening for Future Fall Risk'
-    identifier: '1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
-    parent: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-    weight: 3950
+wikigdrive: 'dev'
 ---
-## Overview  
-  
+## Overview
+
 [CMS139v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v8&showresulttype=Measure) (2020)  
 [CMS139v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v9&showresulttype=Measure) (2021)  
 [CMS139v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v10&showresulttype=Measure) (2022)
-  
-### Identifiers  
+
+### Identifiers
 
 
 <table>
@@ -47,8 +41,8 @@ menu:
 
 </table>
 *MIE only supports data collection and reporting using eCQM specifications
-  
-### Definitions  
+
+### Definitions
 
 
 <table>
@@ -83,8 +77,8 @@ menu:
 
 </table>
 
-  
-### Additional Information  
+
+### Additional Information
 
 
 <table>
@@ -112,16 +106,16 @@ menu:
 </table>
 
 
-  
-## Clinical Instructions  
 
-  
-### New UI Visit Encounter (valid RC202109+)  
+## Clinical Instructions
 
 
-  
-### Original Visit Encounter  
-  
+### New UI Visit Encounter (valid RC202109+)
+
+
+
+### Original Visit Encounter
+
 Ensure all 65+ year-old patients are screened for future fall risk, at least once within the measurement period. Use the Test and Procedures section of the encounter to order and perform the Fall Risk Screening.   
 {{% note %}}
 
@@ -135,11 +129,11 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 5. Click the Next button, or close the section.
 6. Continue documenting the encounter, as needed.
 7. When completed, Close and Archive the encounter.
-  
-## Evidence  
 
-  
-### Initial Patient Population  
+## Evidence
+
+
+### Initial Patient Population
 
 
 <table>
@@ -202,8 +196,8 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 
 </table>
 
-  
-### Denominator Exclusions  
+
+### Denominator Exclusions
 
 
 <table>
@@ -226,8 +220,8 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 
 </table>
 
-  
-### Numerator  
+
+### Numerator
 
 
 <table>
@@ -242,8 +236,8 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 
 </table>
 
-  
-## Source(s)  
+
+## Source(s)
 
 [eCQI CMS139](https://ecqi.healthit.gov/ecqm/ep/2022/cms139v10)
 [Fall Risk Checklist](https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf)

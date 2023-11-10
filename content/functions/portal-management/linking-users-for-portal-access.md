@@ -7,13 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Linking Users for Portal Access'
-    identifier: '1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
-    parent: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-    weight: 1090
+wikigdrive: 'dev'
 ---
 Each user intending to access a web-based portal must be granted access by way of the {{% system-name %}} system. This can be done by linking the appropriate user accounts with their corresponding charts, manually, via the {{% system-name %}} Access Control editor; otherwise, this can be automated through the import of an HR file. By linking the user account with the appropriate charts and establishing the role of the user, portal access can be configured for all users, accordingly. In addition to ensuring that the appropriate user accounts are linked to their corresponding charts and the roles are established, a chart must also have the appropriate Provider Organization relationship established. To begin linking users, manually, perform the following:
 
@@ -27,8 +21,8 @@ All users needing access to the portal will need an email listed in their accoun
 It is important to note that this documentation is geared towards those systems in which a user account exists in addition to its corresponding chart. The user accounts are typically created automatically via an HR feed or an upload of an eligibility file. In cases where a portal is being set up for a database, where the user accounts have not been created, development would need to be involved to get user accounts created and mapped to each corresponding chart, all the while ensuring the appropriate user roles are set in each user account, and the appropriate provider organization relationship is set in the chart.
 {{% /info %}}
 
-  
-## Manually Link Users to Access Portal  
+
+## Manually Link Users to Access Portal
 
 1. Navigate to the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}}  on the side menu.
 2. Click the  {{% syslink "Access Control" "f=admin&t=security&tabmodule=admin&tabselect=Access&ts_caption=Access+Control" %}} tab.
@@ -53,8 +47,8 @@ To remove a role from the table, utilize the minus [ - ] button. After all chang
 {{% /tip %}}
 
 3. To add the appropriate provider organization relationship to the chart, navigate to the <strong>Contacts</strong> portlet on the <em>Patient Summary</em> screen. Click the <strong>Manage Information</strong> icon, and add the appropriate Provider Organization relationship to the chart.
-  
-## Linking Users to a Supervisor  
+
+## Linking Users to a Supervisor
 
 Linking users to their supervisor allows the supervisor to log into the Supervisor Portal and see employee restrictions, lost time, and work status; this is in addition to seeing their own personal information. To begin linking users to a supervisor, perform the following:
 1. Navigate to the <strong>Control Panel</strong> on the side menu.

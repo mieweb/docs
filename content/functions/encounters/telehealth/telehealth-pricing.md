@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - 'mailto:kari@mieweb.com'
 source: 'https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
+wikigdrive: 'dev'
 ---
-## TeleHealth Video  
-  
+## TeleHealth Video
+
 Video Pricing is based on the number of minutes your participants are connected to a Room.
 
 
@@ -34,8 +34,8 @@ Video Pricing is based on the number of minutes your participants are connected 
 </tr>
 
 </table>
-  
-## SMS Pricing  
+
+## SMS Pricing
 
 
 <table>
@@ -53,9 +53,9 @@ Video Pricing is based on the number of minutes your participants are connected 
 </tr>
 
 </table>
-  
-## Recorded Visits  
-  
+
+## Recorded Visits
+
 In order to record visits, you must use the small room or larger video options. Peer to Peer video can not be recorded at this time. 
 
 
@@ -70,8 +70,8 @@ In order to record visits, you must use the small room or larger video options. 
 </tr>
 
 </table>
-  
-## Initial Setup  
+
+## Initial Setup
 
 * Setup fees are waived during COVID-19 Response.
 * Credit Card required to set up monthly billing.
