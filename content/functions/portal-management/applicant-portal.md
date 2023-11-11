@@ -2,14 +2,14 @@
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
 date: '2021-03-31T21:08:57.956Z'
-version: 196
+version: 197
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.

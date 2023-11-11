@@ -2,12 +2,12 @@
 id: '1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
 title: 'Device Interface - Audio System'
 date: '2020-03-19T19:31:42.080Z'
-version: 54
+version: 55
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The following is referring to an OMI Audiometric Data Management Software ASW2004 system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 

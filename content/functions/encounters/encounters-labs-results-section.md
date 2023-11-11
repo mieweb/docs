@@ -2,13 +2,13 @@
 id: '14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
 title: 'Encounters Labs Results Section'
 date: '2020-03-26T17:39:27.991Z'
-version: 65
+version: 66
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The Labs Results area of the encounter is where you can key in results of labs and will be stored as discrete reportable data. You may utilize this section if a patient hands you some lab results from an outside facility/provider or if you do in-house labs and want to quickly document the results in the patient's chart and track.
 

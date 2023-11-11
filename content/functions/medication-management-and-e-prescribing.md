@@ -2,13 +2,13 @@
 id: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
 title: 'Medication Management & E-Prescribing'
 date: '2022-02-08T15:08:43.651Z'
-version: 32
+version: 33
 lastAuthor: 'groudebush'
 mimeType: 'text/x-markdown'
 links:
   - 'system-administration/system-controls/setting-up-e-prescribers.md'
 source: 'https://drive.google.com/open?id=1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

@@ -2,11 +2,11 @@
 id: '1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
 title: 'Tracking Donated Inventory'
 date: '2020-02-27T20:30:10.177Z'
-version: 21
+version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Add Donated Tab
 

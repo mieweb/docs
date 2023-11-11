@@ -2,13 +2,13 @@
 id: '1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
 title: 'Device Interface - Titmus V4'
 date: '2020-02-27T21:33:11.490Z'
-version: 33
+version: 34
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'installing-mie-device-app.md'
 source: 'https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 This page provides instructions for interfacing the Titmus V4 Vision Screener with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.   
 {{% note %}}

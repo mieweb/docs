@@ -2,7 +2,7 @@
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
 date: '2023-10-25T19:41:13.951Z'
-version: 175
+version: 180
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - '../../system-administration/interfaces/device-interface-audio-system.md'
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
 source: 'https://drive.google.com/open?id=1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Audiogram results can be addressed a few different ways in {{% system-name %}}. Bubble forms are an efficient solution for data entry and often used by clients with mobile audio units or remote clinics that may not have internet. Bubble forms are document type templates with special formatting that allow data to be collected discreetly when scanned and indexed into the {{% system-name %}} system. 
 

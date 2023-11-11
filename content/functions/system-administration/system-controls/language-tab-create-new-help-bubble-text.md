@@ -2,11 +2,11 @@
 id: '1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
 title: 'Language Tab - Create New Help Bubble Text'
 date: '2020-02-27T20:20:44.606Z'
-version: 32
+version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The system has the ability customize help bubble text that is hard-coded with the product. So far, the supported hard-coded help bubbles that can be customized are the patient autocomplete and all help bubbles on the E-sign page.  
 To customize the first time, click the Create New Help Text hyperlink found in the Languages tab.

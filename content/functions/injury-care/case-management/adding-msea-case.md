@@ -2,13 +2,13 @@
 id: '1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI'
 title: 'Adding MSEA Case'
 date: '2020-03-09T23:04:49.437Z'
-version: 36
+version: 37
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.  
 {{% info %}}

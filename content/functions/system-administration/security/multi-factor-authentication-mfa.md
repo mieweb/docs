@@ -2,12 +2,12 @@
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA'
 date: '2021-07-16T20:36:51.028Z'
-version: 23
+version: 24
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 # Multi-Factor Authentication
 

@@ -2,11 +2,11 @@
 id: '1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
 title: 'Additional Appointment-Related Reports'
 date: '2020-02-27T20:12:13.662Z'
-version: 24
+version: 25
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Appointment Cancel Reason Report
 

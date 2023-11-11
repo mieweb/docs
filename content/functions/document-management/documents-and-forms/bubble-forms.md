@@ -2,7 +2,7 @@
 id: '1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
 title: 'Bubble Forms'
 date: '2020-03-06T20:04:39.113Z'
-version: 49
+version: 50
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -28,7 +28,7 @@ links:
   - '../../encounters/working-in-a-legacy-encounter.md'
   - '../../encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Bubble forms are document type templates with special formatting (i.e., optical marks) allowing for documented data to be collected and stored discretely, as observations, within {{% system-name %}} . This is achieved through standard optical mark recognition (OMR), which is most well known through scantron use and standardized testing. When a bubble form is filled out, scanned, and indexed into the {{% system-name %}} system, the optical marks are detected and coded as observations.
 

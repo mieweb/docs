@@ -2,7 +2,7 @@
 id: '14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
 title: 'CMS 66 - Functional Status Assessment for Total Knee Replacement'
 date: '2022-05-16T15:45:59.673Z'
-version: 47
+version: 48
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/pro'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10'
 source: 'https://drive.google.com/open?id=14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

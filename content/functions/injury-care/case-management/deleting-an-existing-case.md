@@ -2,13 +2,13 @@
 id: '1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
 title: 'Deleting an Existing Case'
 date: '2020-03-13T13:47:35.461Z'
-version: 52
+version: 53
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'closing-an-existing-case.md'
 source: 'https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## **Cases**
 

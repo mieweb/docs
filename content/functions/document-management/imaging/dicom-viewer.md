@@ -2,12 +2,12 @@
 id: '1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'
 title: 'DICOM Viewer'
 date: '2020-03-09T19:36:52.318Z'
-version: 44
+version: 45
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Most X-Ray images are found within the  chart, under the **Test Results** chart tab and subtab named **Radiology**.
 

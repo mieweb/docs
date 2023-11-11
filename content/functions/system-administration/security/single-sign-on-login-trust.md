@@ -2,7 +2,7 @@
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
 date: '2022-11-17T16:58:16.532Z'
-version: 63
+version: 64
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'single-sign-on-sso.md'
   - 'saml-based-single-sign-on.md'
 source: 'https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.  
 For more information on login trust terminology, see our [SSO Documentation](single-sign-on-sso.md).

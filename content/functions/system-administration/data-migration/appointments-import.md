@@ -2,13 +2,13 @@
 id: '1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
 title: 'Appointments Import'
 date: '2020-02-27T20:45:50.310Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample1.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample2.csv'
 source: 'https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 This wiki page is to document how appointment data needs to be constructed in order to import using WebChart's Schedule Import Tool.
 * File format: Data file shall be formated in Comma Separated Values (CSV).

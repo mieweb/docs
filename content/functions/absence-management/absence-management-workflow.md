@@ -2,13 +2,13 @@
 id: '1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
 title: 'Absence Management Workflow'
 date: '2023-07-12T15:51:00.392Z'
-version: 264
+version: 265
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../injury-care/adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information.  All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 

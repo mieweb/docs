@@ -2,12 +2,12 @@
 id: '1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
 title: 'Batched Documents - Printing, Faxing, Burning'
 date: '2020-03-24T14:44:49.174Z'
-version: 50
+version: 51
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Adding a Document to a Batch
 

@@ -2,12 +2,12 @@
 id: '1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
 title: 'Kiosk'
 date: '2020-03-11T18:15:47.911Z'
-version: 59
+version: 60
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The  {{% system-name %}}  Kiosk is a portal integration designed for streamlining things such as check-in and intake processes. For example, users may electronically access questionnaires or paperwork required by the clinic upon check-in, so then all of the necessary information can be recorded and automatically uploaded into the appropriate chart. With the  {{% system-name %}}  Kiosk, clients can easily maintain traffic flow, while also managing their check-in and intake processes. Below, users will find the information needed for initially setting up and utilizing the kiosk functionality.
 

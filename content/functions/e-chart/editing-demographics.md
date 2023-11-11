@@ -2,14 +2,14 @@
 id: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
 title: 'Editing Demographics'
 date: '2020-03-25T16:40:50.153Z'
-version: 66
+version: 67
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=scheduler&s=appt_wizard&location&startdateDAY=4&startdateMONTH=12&startdateYEAR=2018&startdateTIME=05:08pm'
   - 'https://system/?f=chart&s=docq'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.    
 {{% note %}}

@@ -2,12 +2,12 @@
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
 date: '2020-03-16T14:57:56.799Z'
-version: 78
+version: 79
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view. Get into the patient's file.  

@@ -2,12 +2,12 @@
 id: '1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY'
 title: 'Incidents Report'
 date: '2020-02-27T20:14:28.257Z'
-version: 32
+version: 33
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Capturing incident detail on a patient is done through the office visit encounter or though the Incidents chart tab. There is reporting available based on patient incident data.  
 From the Reports sidemenu, your MIE Implementer can program the Incidents report tab.

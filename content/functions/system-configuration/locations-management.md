@@ -2,7 +2,7 @@
 id: '1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
 title: 'Locations Management'
 date: '2020-03-05T17:06:16.370Z'
-version: 79
+version: 80
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ links:
   - 'https://system/?f=admin&s=work_locations&opp=work_regions&work_regions_show_active=1'
   - 'https://system/?f=admin&s=work_locations&opp=work_sites&work_sites_show_active=1'
 source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The {{% system-name %}} solution allows varying degrees of customization with regard to locations, namely office-specific types or work sites, regions, and locations. There is also the corporate, or managing, location which is used and can be updated, as needed.
 

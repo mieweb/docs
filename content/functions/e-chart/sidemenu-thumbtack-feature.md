@@ -2,12 +2,12 @@
 id: '1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
 title: 'Sidemenu Thumbtack Feature'
 date: '2020-03-09T21:04:49.396Z'
-version: 37
+version: 38
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 On the left sidemenu, at the very bottom, is a small thumbtack icon.
 

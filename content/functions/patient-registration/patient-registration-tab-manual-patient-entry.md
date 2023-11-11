@@ -2,12 +2,12 @@
 id: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 title: 'Patient Registration Tab - Manual Patient Entry'
 date: '2021-04-18T04:58:25.003Z'
-version: 53
+version: 54
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Manual Patient Registration
 

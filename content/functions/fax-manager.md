@@ -2,11 +2,11 @@
 id: '1h4WYryKs4DeyPgg4oCW6NTLGr5yOYsEgUz8h7dkJXjg'
 title: 'Fax Manager'
 date: '2020-02-27T20:11:13.029Z'
-version: 25
+version: 26
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1h4WYryKs4DeyPgg4oCW6NTLGr5yOYsEgUz8h7dkJXjg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

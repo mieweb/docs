@@ -2,13 +2,13 @@
 id: '1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
 title: 'Device Interface - MI 7000'
 date: '2020-02-27T21:28:12.911Z'
-version: 24
+version: 25
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 This page provides instructions for retrieving results from the MI 7000 audiometer with {{% system-name %}} ( {{% sys-name %}} ), and lists the fields that the interface retrieves.
 

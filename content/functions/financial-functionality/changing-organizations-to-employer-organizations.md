@@ -2,13 +2,13 @@
 id: '1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg'
 title: 'Changing organizations to employer organizations'
 date: '2021-02-17T22:50:42.522Z'
-version: 18
+version: 21
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 If an organization exists in the system and is not an employer organization but needs to be, do the following to change it to an employer organization rather than creating one.
 1. [Find employer organizations](finding-employer-organizations.md).

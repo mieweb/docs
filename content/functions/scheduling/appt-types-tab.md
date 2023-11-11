@@ -2,14 +2,14 @@
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
 date: '2021-02-24T15:17:03.005Z'
-version: 126
+version: 131
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
   - 'https://docs.google.com/document/u/0/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY/edit'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 # About *Appt Types* tab
 

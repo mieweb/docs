@@ -2,12 +2,12 @@
 id: '1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
 title: 'Side Chart Configuration'
 date: '2020-03-05T17:32:44.289Z'
-version: 48
+version: 49
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Side Chart Access
 

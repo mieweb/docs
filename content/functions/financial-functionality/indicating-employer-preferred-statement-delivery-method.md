@@ -2,13 +2,13 @@
 id: '1CSjIPGRdMMT6Z8bVhH_-x-x015LUHKZBjf2TLFZbesc'
 title: 'Indicating employer-preferred statement delivery method'
 date: '2021-02-18T16:48:19.492Z'
-version: 18
+version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1CSjIPGRdMMT6Z8bVhH_-x-x015LUHKZBjf2TLFZbesc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) for which to indicate preferred statement delivery method.
 2. Select the <strong>Overview (EO)</strong> tab.

@@ -2,12 +2,12 @@
 id: '1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
 title: 'PACS SpeechMike Driver Utility Setup'
 date: '2022-02-23T20:12:56.293Z'
-version: 60
+version: 61
 lastAuthor: 'Dave Cornewell'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 To begin, install and run the Philips Device Control Center application
 

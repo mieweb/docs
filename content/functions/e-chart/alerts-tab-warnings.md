@@ -2,13 +2,13 @@
 id: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
 title: 'Alerts Tab - Warnings'
 date: '2023-10-04T16:20:58.902Z'
-version: 78
+version: 79
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - '../medication-management-and-e-prescribing/drug-guide-search.md'
 source: 'https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 In the patient's ‘Summary' chart tab is a portlet named *Warnings/Alerts* where you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, guidelines (scripted rules) etc. for the patient. 
 

@@ -2,7 +2,7 @@
 id: '1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
 title: 'CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
 date: '2022-04-20T13:53:16.615Z'
-version: 39
+version: 40
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms135v10'
 source: 'https://drive.google.com/open?id=1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

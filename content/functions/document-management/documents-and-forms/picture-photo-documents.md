@@ -2,14 +2,14 @@
 id: '1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
 title: 'Picture-Photo Documents'
 date: '2020-03-05T20:49:06.831Z'
-version: 70
+version: 71
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The {{% system-name %}} system is designed to allow photos/pictures to be uploaded as documents into charts, as needed. Currently, only JPG, TIFF, and PNG file types are supported for uploading to charts, so it is important to ensure the photos being uploaded are one of these acceptable file formats prior to adding any photo documents to a chart.
 

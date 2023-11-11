@@ -2,12 +2,12 @@
 id: '1GGqEjpljaHjSu1ZhgbJJdh1aPJY8q2Pb8gBAPQJH-hI'
 title: 'Deals'
 date: '2021-02-17T19:42:06.794Z'
-version: 15
+version: 16
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GGqEjpljaHjSu1ZhgbJJdh1aPJY8q2Pb8gBAPQJH-hI'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Deals are based on contracts between an employer organization and a service provider to provide services. Use deals to:
 * Override fee schedules (if they exist) and set charges for services.

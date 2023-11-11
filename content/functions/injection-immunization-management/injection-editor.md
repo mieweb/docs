@@ -2,12 +2,12 @@
 id: '184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 title: 'Injection Editor'
 date: '2020-03-16T14:47:58.197Z'
-version: 47
+version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 If you have security to manage injection codes, you will be able to access the Injections Editor tab.  
 The Injections Editor tab is located in the sidemenu tab named Control.  

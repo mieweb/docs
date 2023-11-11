@@ -2,11 +2,11 @@
 id: '1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
 title: 'Adding/Editing Health Surveillance Panels'
 date: '2020-02-27T19:59:26.235Z'
-version: 33
+version: 34
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab at the top menu of tabs.
 

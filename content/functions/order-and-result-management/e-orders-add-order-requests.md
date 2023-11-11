@@ -2,12 +2,12 @@
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
 date: '2020-03-13T19:22:58.979Z'
-version: 61
+version: 64
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.  
 Click *E-Chart* on the left sidebar menu.  

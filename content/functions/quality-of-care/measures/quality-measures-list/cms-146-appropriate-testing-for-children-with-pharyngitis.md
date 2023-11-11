@@ -2,7 +2,7 @@
 id: '1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
 title: 'CMS 146 - Appropriate Testing for Children with Pharyngitis'
 date: '2022-04-20T20:09:18.918Z'
-version: 40
+version: 41
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10'
 source: 'https://drive.google.com/open?id=1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

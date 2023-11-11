@@ -2,7 +2,7 @@
 id: '1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
 title: 'Document Management'
 date: '2020-02-27T21:09:07.746Z'
-version: 32
+version: 33
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'document-management/printing-and-print-definitions.md'
   - 'document-management/imaging.md'
 source: 'https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

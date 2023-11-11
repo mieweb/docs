@@ -2,11 +2,11 @@
 id: '1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
 title: 'E-Chart'
 date: '2020-02-27T19:44:20.933Z'
-version: 20
+version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

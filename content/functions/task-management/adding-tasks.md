@@ -2,12 +2,12 @@
 id: '1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
 title: 'Adding Tasks'
 date: '2020-03-16T15:52:59.061Z'
-version: 109
+version: 114
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## **Types of Tasks**
 

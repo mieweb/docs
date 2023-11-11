@@ -2,7 +2,7 @@
 id: '1AjmpT0AwKKadibXKOp32YqRqTHuM-ZLfa8wAfRMlJYE'
 title: 'Artificial Intelligence Addendum to WebChart Customer SLA (Click Thru) - Template (KD Draft 06.12.23)'
 date: '2023-09-19T20:14:48.954Z'
-version: 45
+version: 51
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://openai.com/api/policies/service-terms/'
   - 'https://openai.com/policies/terms-of-use'
 source: 'https://drive.google.com/open?id=1AjmpT0AwKKadibXKOp32YqRqTHuM-ZLfa8wAfRMlJYE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 **Artificial Intelligence Addendum** 
 

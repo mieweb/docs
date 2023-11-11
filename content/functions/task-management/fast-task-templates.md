@@ -2,13 +2,13 @@
 id: '1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
 title: 'Fast Task Templates'
 date: '2023-01-31T15:04:33.300Z'
-version: 134
+version: 135
 lastAuthor: 'Samantha Klerner'
 mimeType: 'text/x-markdown'
 links:
   - 'http://doc.id/'
 source: 'https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 To access the Fast Tasks Template tab within the Task List sidemenu module, users must have security for Manage Fast Tasks.  
 Fast Tasks are templated tasks and are ‘labeled or categorized'.  Fast Task Templates are created for tasks that need generated routinely or commonly (example: precerts, nursing calls, etc). If you see fast task options when using the Add Task functionality, then templated task(s) have been configured in the system by creating fast task templates.  

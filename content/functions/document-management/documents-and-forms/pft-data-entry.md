@@ -2,7 +2,7 @@
 id: '1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
 title: 'PFT Data Entry'
 date: '2020-03-06T20:35:16.544Z'
-version: 48
+version: 49
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - '../../system-administration/interfaces/device-interface-pft-system.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely within {{% system-name %}}.
 

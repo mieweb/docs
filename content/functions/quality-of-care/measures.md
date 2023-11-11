@@ -2,7 +2,7 @@
 id: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
 title: 'Measures'
 date: '2020-02-27T21:28:53.378Z'
-version: 33
+version: 34
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'measures/improvement-activities-measures.md'
   - 'measures/quality-measures-list.md'
 source: 'https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

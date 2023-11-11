@@ -2,13 +2,13 @@
 id: '1NM21bUDsEVAbMZ-hJ4USGD5OqjUAbosvbnKr_HbA44s'
 title: 'Printing information about expired fee schedules'
 date: '2021-02-18T18:55:24.956Z'
-version: 17
+version: 18
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-expired-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1NM21bUDsEVAbMZ-hJ4USGD5OqjUAbosvbnKr_HbA44s'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Print the following information about expired fee schedules:
 * Fee schedule name

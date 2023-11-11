@@ -2,7 +2,7 @@
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
 date: '2020-03-19T22:27:44.922Z'
-version: 90
+version: 91
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - '../../portal-management/linking-users-for-portal-access.md'
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 With the proper security permissions, adding, editing, and removing users can be easily managed from within the  {{% system-name %}} solution's Access Control editor. Following is a detailed outline of the processes of managing users, providers, referring physicians, and departments. There are varying types of user access to consider, in addition to methods by which users can be added to the  {{% system-name %}} solution. Therefore, consider the organization's needs and follow the guided workflows, below, as appropriate.
 

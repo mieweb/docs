@@ -2,11 +2,11 @@
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
 date: '2020-02-27T20:04:28.276Z'
-version: 71
+version: 72
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Printing a prescription will render the prescription on paper from your printer you are hooked up to.  
 Transmit will send the prescription by a SureScripts electronic transmission (if the receiving pharmacy is SureScripts capable). If the pharmacy is not capable of receiving electronic transmissions, your prescription will automatically default to a manual fax to that pharmacy.

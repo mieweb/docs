@@ -2,12 +2,12 @@
 id: '1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA'
 title: 'Outbound Interface Install Instructions'
 date: '2020-03-05T15:43:31.766Z'
-version: 82
+version: 83
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

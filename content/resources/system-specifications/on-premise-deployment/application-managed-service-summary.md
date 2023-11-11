@@ -8,7 +8,7 @@ links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html'
   - 'https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7'
 source: 'https://drive.google.com/open?id=1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## **Terms**
 

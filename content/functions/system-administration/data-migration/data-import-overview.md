@@ -2,7 +2,7 @@
 id: '1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
 title: 'Data Import Overview'
 date: '2020-02-27T21:30:32.809Z'
-version: 24
+version: 25
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'data-migration-file-format-standard.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 This page provides an explanation of terminology related to importing data from an existing system to the {{% system-name %}} system.
 

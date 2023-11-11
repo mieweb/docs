@@ -2,13 +2,13 @@
 id: '1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
 title: 'Word Documents'
 date: '2023-02-08T15:46:40.973Z'
-version: 125
+version: 126
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN/view'
 source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Add/Upload Word Document to Chart
 

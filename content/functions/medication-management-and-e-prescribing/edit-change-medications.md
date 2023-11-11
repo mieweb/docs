@@ -2,11 +2,11 @@
 id: '1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
 title: 'Edit/Change Medications'
 date: '2020-02-27T20:04:13.354Z'
-version: 37
+version: 38
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view.  

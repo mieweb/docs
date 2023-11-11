@@ -2,12 +2,12 @@
 id: '1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 title: 'Pending E-Sign Reviews'
 date: '2020-03-10T14:22:54.163Z'
-version: 61
+version: 62
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 E-Sign is used to electronically mark a document by putting the label "Signed by: Michael Example, MD" on a document in {{% system-name %}} within a chart.  This ‘signature label' is called an E-sign (electronic signature).  It's not a wet signature in handwriting, but it is a place in the document properties header that says "Signed by: Michael Example, MD".  It puts the name of the person that reviewed the document and marked it as ‘sign'.  
 E-Sign is requested manually when a user clicks Request Signature when in a document.  The user assigns an e-sign request to a specific user.  E-Sign requests can also be automated based on event, document, or other criteria and are configured by MIE via the Esign Editor.  An example of Esign request automation would be when a specified document type such as lab results coming in electronically via an interface, an esign request can trigger for the specific ordering provider to review and mark as signed.    

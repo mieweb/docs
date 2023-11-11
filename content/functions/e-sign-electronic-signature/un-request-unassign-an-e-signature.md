@@ -2,14 +2,14 @@
 id: '1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
 title: 'Un-Request/Unassign an E-Signature'
 date: '2020-03-10T14:24:17.209Z'
-version: 44
+version: 47
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'request-e-signature.md'
   - 'e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission. It is also helpful to know who the document was requested to and the document id number, or document type and date of service.  
 In the All Pending tab, it lists all users who have pending e-sign requests assigned to them.  Click on the user that you need to unrequest an e-sign from.

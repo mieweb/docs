@@ -2,11 +2,11 @@
 id: '15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
 title: 'Device Interface - PFT System'
 date: '2020-02-27T20:28:23.442Z'
-version: 53
+version: 54
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The following is referring to a pulmonary OMI Sensormedics model number 922 system. Contact your MIE Implementer to see if your pulmonary system model can be interfaced or quoted
 

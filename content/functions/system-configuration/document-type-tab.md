@@ -2,12 +2,12 @@
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
 date: '2020-03-20T20:37:35.642Z'
-version: 94
+version: 95
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Click *Control* on the left sidebar menu.  
 Click *Document Types* tab at the top. (You must have security role permission to access the Document Types tab)  

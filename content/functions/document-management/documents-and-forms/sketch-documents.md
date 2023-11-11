@@ -2,14 +2,14 @@
 id: '1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
 title: 'Sketch Documents'
 date: '2020-03-23T16:46:51.864Z'
-version: 72
+version: 73
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The  {{% system-name %}} system is designed to allow sketches to be uploaded as documents into charts, as needed. A user can sketch on a blank background or over a templated background image, and then immediately upload the image to the chart. This is particularly useful when documenting an area of an injury and a visual representation provides added context to the documentation.
 

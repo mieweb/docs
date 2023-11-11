@@ -43,7 +43,7 @@ links:
   - '../../functions/health-surveillance/respirator-info-chart-tab.md'
   - '../../functions/system-configuration/locations-management.md'
 source: 'https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Agenda
 

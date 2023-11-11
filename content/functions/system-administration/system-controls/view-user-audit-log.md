@@ -2,11 +2,11 @@
 id: '1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
 title: 'View User Audit Log'
 date: '2020-02-27T20:20:58.429Z'
-version: 39
+version: 40
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Must have security permission to access username screen.
 

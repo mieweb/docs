@@ -2,11 +2,11 @@
 id: '14D4jugRUV60ZlpKzbFhIJtsqz_dnwy15jlyn66sUvxM'
 title: 'E-Refills - My E-Rx Errors Tab'
 date: '2020-02-27T20:06:25.416Z'
-version: 21
+version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=14D4jugRUV60ZlpKzbFhIJtsqz_dnwy15jlyn66sUvxM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 You can get to this tab by clicking on the E-Refills link in the alert taskbar at the top (if you have pending e-refills that need done) OR you can access this tab by going into E-Chart sidemenu tab, then selecting the E-Rx tab at the top.  
 The MY E-RX ERRORS tab is where to go to view and work your (the logged in e-Prescriber) specific e-script errors.  

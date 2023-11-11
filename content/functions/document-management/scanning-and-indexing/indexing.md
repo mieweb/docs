@@ -2,14 +2,14 @@
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
 date: '2020-03-24T12:57:54.562Z'
-version: 115
+version: 120
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'indexing-bubble-forms.md'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The WebScan module allows users to scan and index documents into the {{% system-name %}} system, so that document images can be attached to associated charts and be stored, accordingly. Indexing is the process of cataloging documents according to their attributes, such as chart name, provider, document type, date of document, etc. Once documents are scanned and indexed, staff can search for and retrieve documents from electronic charts, rather than having to search a medical file for paper copies. Additionally, there are WebScan reports that can be run by an administrator, or users with proper security permissions, that report statistics on batches scanned and/or indexed.
 

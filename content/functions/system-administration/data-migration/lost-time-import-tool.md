@@ -2,13 +2,13 @@
 id: '1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
 title: 'Lost Time Import Tool'
 date: '2022-03-08T18:36:59.785Z'
-version: 46
+version: 47
 lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203'
 source: 'https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 

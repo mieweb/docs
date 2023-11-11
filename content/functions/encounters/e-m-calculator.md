@@ -2,12 +2,12 @@
 id: '1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
 title: 'E/M Calculator'
 date: '2021-08-30T16:38:08.151Z'
-version: 43
+version: 44
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 An encounter can have a section named Billing. This can include items like Time Factor, Charge Capture and also an EM Calculator (Evaluation & Management Codes).
 

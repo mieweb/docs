@@ -2,12 +2,12 @@
 id: '1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg'
 title: 'To Restrict Report Access'
 date: '2020-03-16T16:58:57.557Z'
-version: 47
+version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Though MIE will restrict reports for clients, upon request, those users with System Report security permissions may restrict access to reports accessible in the {{% system-name %}} system, via the **System Report** editor. Restricting reports permits ONLY *allowed users* and/or *realms* permission to run/access those reports.
 

@@ -2,7 +2,7 @@
 id: '1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
 title: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
 date: '2022-05-11T18:41:02.927Z'
-version: 111
+version: 112
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10'
 source: 'https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

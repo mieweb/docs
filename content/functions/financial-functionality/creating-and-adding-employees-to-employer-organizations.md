@@ -2,14 +2,14 @@
 id: '1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
 title: 'Creating and adding employees to employer organizations'
 date: '2021-02-18T16:06:30.420Z'
-version: 26
+version: 31
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
   - '../e-chart/editing-demographics.md'
 source: 'https://drive.google.com/open?id=1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.  
 When creating and adding employees to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient chart for the employee and the process is completed from the patient demographics screen.

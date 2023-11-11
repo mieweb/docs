@@ -2,7 +2,7 @@
 id: '14YYUtmJ6WCuBnGjYhMI0KOd5zy3PhwAK2HsdGBjt1lQ'
 title: 'EPA 1 - Provide 24/7 Access to MIPS Eligible Clinicians or Groups Who Have Real-Time Access to Patient''s Medical Record'
 date: '2020-02-27T20:48:09.115Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=14YYUtmJ6WCuBnGjYhMI0KOd5zy3PhwAK2HsdGBjt1lQ'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

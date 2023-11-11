@@ -2,14 +2,14 @@
 id: '1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
 title: 'Quality Reporting'
 date: '2020-02-27T21:26:25.410Z'
-version: 43
+version: 45
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../functions/quality-of-care/quality-reporting-enrollment.md'
   - 'quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

@@ -2,11 +2,11 @@
 id: '13k9nhRuRl5D_RWT3l9VE64JqMfF-jl1KQuvCda69nGo'
 title: 'Par Levels'
 date: '2020-02-27T20:32:07.311Z'
-version: 29
+version: 30
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13k9nhRuRl5D_RWT3l9VE64JqMfF-jl1KQuvCda69nGo'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 In order to view or edit Par Levels, the user must have security permission level for *Manage Stock Warning Levels* set.
 

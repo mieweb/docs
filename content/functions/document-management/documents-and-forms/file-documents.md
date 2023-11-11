@@ -2,13 +2,13 @@
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
 date: '2020-03-05T21:30:04.746Z'
-version: 45
+version: 46
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The  {{% system-name %}} solution has a system setting that allows users to browse and upload any local file types into a specific chart. This setting is known as the **Generic File Upload** setting, and it is enabled by default.
 

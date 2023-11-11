@@ -2,7 +2,7 @@
 id: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
 title: 'Quick View Sidemenu'
 date: '2020-03-09T21:01:07.216Z'
-version: 54
+version: 55
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://system/?f'
   - 'https://system/'
 source: 'https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 There is an interactive [Quick View](https://system/?func=omniscope) sidemenu option available. The Quick View sidemenu offers various summary portlets that are used as a quick reference, to view modules and data in the   {{% system-name %}}  system.  Examples of references include your pending tasks, the appointment schedule, worklists, dashboards, etc. You can select which specific portlets to show on your view.  
 When logged into {{% system-name %}} , click on the [Quick View](https://system/?func=omniscope) sidemenu.

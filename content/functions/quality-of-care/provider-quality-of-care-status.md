@@ -2,14 +2,14 @@
 id: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
 title: 'Provider Quality of Care Status'
 date: '2020-02-27T20:43:38.560Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&module=reports&name=reports&tabmodule=reports'
   - 'https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care'
   - 'https://system/?f=layout&s=pat&module=MIPS&name=Quality+of+Care+Status&t=Quality+of+Care&tabmodule=reports'
 source: 'https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Often, it is necessary to review compliance data and ensure participants are aligned with quarterly benchmarks and overall outcomes. The Provider Quality of Care Status report allows administrators to review individual, or all, participants, enrolled measures and their details, initial populations, numerators and denominators, etc.    
 To begin reviewing your compliance data, perform the following:

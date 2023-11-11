@@ -2,7 +2,7 @@
 id: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
 title: 'Encounters'
 date: '2022-08-30T20:35:29.587Z'
-version: 75
+version: 76
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'injury-care.md'
   - 'encounters/work-related-exams.md'
 source: 'https://drive.google.com/open?id=199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The {{% system-name %}} system creates customized, programmable encounter forms, with important demographic and clinical data presenting to the clinician at the point-of-care, facilitating more comprehensive encounter documentation. With the {{% system-name %}} Dynamic Encounter, data is easily captured at the time of the visit, allowing clinical staff and providers to streamline all necessary clinic operations.
 

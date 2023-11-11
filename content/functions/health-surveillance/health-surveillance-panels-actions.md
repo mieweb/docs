@@ -2,12 +2,12 @@
 id: '1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
 title: 'Health Surveillance Panels - Actions'
 date: '2020-03-13T15:11:36.505Z'
-version: 61
+version: 62
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance).
 

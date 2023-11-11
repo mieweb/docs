@@ -2,13 +2,13 @@
 id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 title: 'Insurance Summary in Demographics Tab'
 date: '2020-03-25T16:48:24.618Z'
-version: 80
+version: 81
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.  
 When in demographics tab or if click manage information within the insurance portlet, you can review patient demographics.  However, down towards the bottom of the demographics summary is the section named** Insurance Summary**.

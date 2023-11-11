@@ -2,7 +2,7 @@
 id: '1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
 title: 'Link Documents to Other Documents'
 date: '2020-02-27T21:10:21.480Z'
-version: 64
+version: 65
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
   - '../../e-sign-electronic-signature.md'
 source: 'https://drive.google.com/open?id=1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The {{% system-name %}} system has the ability to link one document to another document, whenever necessary. For example, a radiology report may be linked to an x-ray image. Performing this type of link can be done from either the document properties or multi-review screen of the [E-Sign](https://system/?func=esign) module.  
 {{% note %}}

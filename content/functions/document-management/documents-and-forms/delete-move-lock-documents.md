@@ -2,13 +2,13 @@
 id: '1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
 title: 'Delete/Move/Lock Documents'
 date: '2020-03-23T17:21:07.161Z'
-version: 65
+version: 66
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&s=recordman&tabmodule=admin&tabselect=Record+Locks'
 source: 'https://drive.google.com/open?id=1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 In order to delete, move, or lock documents found within a chart, users must have the proper security permissions granted. There are a few specific security permissions that control what can be done with documents within a chart. These security permission settings are: *Document Move*, *Document Lock*, *Document Delete*, and *Document Un-Delete*.
 

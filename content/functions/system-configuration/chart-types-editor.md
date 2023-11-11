@@ -2,12 +2,12 @@
 id: '1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE'
 title: 'Chart Types Editor'
 date: '2020-03-20T17:54:38.850Z'
-version: 74
+version: 75
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

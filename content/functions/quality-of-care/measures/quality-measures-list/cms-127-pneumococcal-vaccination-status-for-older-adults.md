@@ -2,7 +2,7 @@
 id: '14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
 title: 'CMS 127 - Pneumococcal Vaccination Status for Older Adults'
 date: '2022-04-19T20:15:17.026Z'
-version: 32
+version: 33
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10'
 source: 'https://drive.google.com/open?id=14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

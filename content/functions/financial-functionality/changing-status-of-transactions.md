@@ -2,13 +2,13 @@
 id: '1pISPoaGjFEUXJIn4L596IzcvvNexhYS3IoxcKs1hBxU'
 title: 'Changing status of transactions'
 date: '2021-02-17T22:55:00.202Z'
-version: 19
+version: 20
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1pISPoaGjFEUXJIn4L596IzcvvNexhYS3IoxcKs1hBxU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. At the upper-right, select <strong>Registry View</strong>. The system displays the registry view.

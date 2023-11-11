@@ -2,12 +2,12 @@
 id: '1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
 title: 'Executive Dashboard Report'
 date: '2023-03-01T19:25:28.680Z'
-version: 57
+version: 60
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 **Executive Dashboard Report**  
 The Executive Dashboard is a one screen summary intended to be used by client executives as a high level overview of clinic and employee outcomes.  The report is divided into multiple sections: Clinic Visit Activity, Visit Types, Top 10 Services/Tests Provided, Work Related Injury or Illness Cases/Incidents, Health Surveillance, Disability/Case Management, and Portal Activity. 

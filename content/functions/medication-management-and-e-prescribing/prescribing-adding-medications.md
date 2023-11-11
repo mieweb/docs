@@ -2,12 +2,12 @@
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
 date: '2022-08-29T16:21:31.714Z'
-version: 134
+version: 135
 lastAuthor: 'Emily McComb'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view.  

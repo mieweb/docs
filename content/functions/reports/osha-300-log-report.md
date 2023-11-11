@@ -2,13 +2,13 @@
 id: '1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
 title: 'OSHA 300 Log Report'
 date: '2023-10-06T16:39:41.507Z'
-version: 133
+version: 145
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/sites/default/files/OSHA-RK-Forms-Package.pdf'
 source: 'https://drive.google.com/open?id=1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Capturing case (incident) detail on a patient or employee is done through encounters using the *Case* section.
 

@@ -26,7 +26,7 @@ links:
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
   - 'https://ttpedge.sitenv.org/ttp/#/validators'
 source: 'https://drive.google.com/open?id=1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Comparison Grid
 

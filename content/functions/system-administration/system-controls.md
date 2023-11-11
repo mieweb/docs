@@ -2,11 +2,11 @@
 id: '1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
 title: 'System Controls'
 date: '2020-02-27T20:17:32.029Z'
-version: 20
+version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

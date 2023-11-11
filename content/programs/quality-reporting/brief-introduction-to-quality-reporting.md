@@ -2,7 +2,7 @@
 id: '1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o'
 title: 'Brief Introduction to Quality Reporting'
 date: '2020-02-28T17:00:04.178Z'
-version: 31
+version: 33
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/mips/overview'
   - '../../functions/quality-of-care/measures.md'
 source: 'https://drive.google.com/open?id=1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 In order to encourage eligible clinicians and entities to adopt, implement, and upgrade certified EHR technology (CEHRT), the Centers for Medicare and Medicaid Services (CMS) established the Medicare and Medicaid EHR Incentive Programs. These programs were intended to help develop and standardize *meaningful use* of the certified technologies available on the market, hence the more informal name of the programs, Meaningful Use (MU). Along with MU, there have been other common ones, such as the Physician Quality Reporting System (PQRS) and the Value-Based Modifier (VM).  
 In 2015 the signing of the Medicare Access and CHIP Reauthorization Act (MACRA) took place. MACRA combines the intent and value from previous, now-legacy incentive programs (i.e., PQRS, VM, MU) into two possible tracks. These are known collectively as the Quality Payment Program (QPP). The focus, here, is on one track–the Merit-based Incentive Payment System (MIPS) track. MIPS uses updated quality, promoting interoperability, and improvement activities measures, to stay aligned with the focus of patient health outcomes.  

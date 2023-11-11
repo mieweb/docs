@@ -2,7 +2,7 @@
 id: '15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
 title: 'Vision Data Entry'
 date: '2020-03-06T20:17:50.609Z'
-version: 61
+version: 62
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - 'https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
 source: 'https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 

@@ -2,13 +2,13 @@
 id: '1PzAcAguTcxDsfoxFIwdro80Mbtxql0QXRm45FBviNU8'
 title: 'Editing employer organization accounts'
 date: '2021-03-02T19:33:32.499Z'
-version: 23
+version: 24
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1PzAcAguTcxDsfoxFIwdro80Mbtxql0QXRm45FBviNU8'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Edit employer organization accounts to add or change contacts, change associated insurance policies, or to change other properties.
 1. [F](finding-employer-organizations.md)[ind employer organizations](finding-employer-organizations.md).

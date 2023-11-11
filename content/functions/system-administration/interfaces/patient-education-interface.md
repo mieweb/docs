@@ -2,12 +2,12 @@
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
 date: '2021-08-30T18:51:59.554Z'
-version: 142
+version: 143
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 # Patient Education Interface
 

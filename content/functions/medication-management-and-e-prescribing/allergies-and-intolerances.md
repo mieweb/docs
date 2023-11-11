@@ -2,11 +2,11 @@
 id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
 title: 'Allergies and Intolerances'
 date: '2020-02-27T20:05:07.498Z'
-version: 72
+version: 73
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Viewing an Allergy or Intolerance
 

@@ -2,14 +2,14 @@
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
 date: '2020-03-16T14:45:42.136Z'
-version: 59
+version: 60
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
 source: 'https://drive.google.com/open?id=1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## **Add Injection Records Using Injection Program**
 

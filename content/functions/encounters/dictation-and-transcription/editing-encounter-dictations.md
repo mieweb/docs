@@ -2,12 +2,12 @@
 id: '1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
 title: 'Editing Encounter Dictations'
 date: '2020-03-12T20:59:42.218Z'
-version: 55
+version: 56
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Log into {{% system-name %}} and click on the left sidebar menu tab called DICTATION.  
 You will open to the ALL PENDING tab of the dictation module.  

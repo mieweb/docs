@@ -2,7 +2,7 @@
 id: '1MR0uCXDGLsP0rlSwgFdVRKCohi_d5Sfy_55wV1xV7nc'
 title: 'CMS 117 - Childhood Immunization Status'
 date: '2022-05-23T12:27:08.410Z'
-version: 61
+version: 62
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms117v10'
 source: 'https://drive.google.com/open?id=1MR0uCXDGLsP0rlSwgFdVRKCohi_d5Sfy_55wV1xV7nc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

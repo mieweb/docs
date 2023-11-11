@@ -2,14 +2,14 @@
 id: '1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y'
 title: 'Downloading financial reports'
 date: '2021-02-18T16:20:52.868Z'
-version: 22
+version: 23
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-financial-reports.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The system generates reports in comma-separated value format for download. After downloading, open in a spreadsheet program.
 1. [View a financial report](viewing-financial-reports.md). 

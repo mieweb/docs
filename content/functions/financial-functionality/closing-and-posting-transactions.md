@@ -2,14 +2,14 @@
 id: '1HRu6JJaf7bNjxyg4u0saJ5lNnc338GczKp_pS00cNts'
 title: 'Closing and posting transactions'
 date: '2021-02-17T23:34:03.855Z'
-version: 25
+version: 26
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'creating-statements.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1HRu6JJaf7bNjxyg4u0saJ5lNnc338GczKp_pS00cNts'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Use the pending billing report to close and post transactions. Typically, [create statements](creating-statements.md) after closing and posting transactions.
 1. Select the side menu. The side menu appears.

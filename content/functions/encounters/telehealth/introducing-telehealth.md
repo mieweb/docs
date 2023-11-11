@@ -2,7 +2,7 @@
 id: '1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
 title: 'Introducing TeleHealth'
 date: '2022-09-22T16:29:19.835Z'
-version: 174
+version: 175
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 

@@ -2,14 +2,14 @@
 id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 title: 'Sample HL7 Messages'
 date: '2023-02-21T21:14:54.696Z'
-version: 172
+version: 173
 lastAuthor: 'Zack Barrell'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 # SIU, Scheduling
 

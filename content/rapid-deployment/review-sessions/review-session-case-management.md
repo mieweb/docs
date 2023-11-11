@@ -36,7 +36,7 @@ links:
   - 'https://mie.talentlms.com/learner/courseinfo/id:448'
   - 'https://mie.talentlms.com/learner/courseinfo/id:197'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Agenda
 

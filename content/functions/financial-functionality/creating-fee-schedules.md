@@ -2,12 +2,12 @@
 id: '1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw'
 title: 'Creating fee schedules'
 date: '2021-02-17T19:43:13.773Z'
-version: 16
+version: 17
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 1. Select the side menu. The side menu appears.
 2. Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens. 

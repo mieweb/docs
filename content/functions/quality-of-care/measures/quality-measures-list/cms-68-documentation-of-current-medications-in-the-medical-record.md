@@ -2,7 +2,7 @@
 id: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
 title: 'CMS 68 - Documentation of Current Medications in the Medical Record'
 date: '2022-05-23T12:15:40.249Z'
-version: 67
+version: 68
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/eligible-clinician'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11'
 source: 'https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

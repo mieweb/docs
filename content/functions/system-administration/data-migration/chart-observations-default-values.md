@@ -2,13 +2,13 @@
 id: '1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
 title: 'Chart Observations Default Values'
 date: '2020-02-27T21:04:46.860Z'
-version: 39
+version: 40
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=1502636095'
   - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=2105581120'
 source: 'https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## **What we mean by "default"**
 

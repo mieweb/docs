@@ -2,13 +2,13 @@
 id: '1YSZ1Ga02PL84P1G-aXE9I5RjrmjXctIFBilF4dJ0RH4'
 title: 'Removing alert comments from employer organizations'
 date: '2021-02-22T16:24:03.440Z'
-version: 23
+version: 24
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1YSZ1Ga02PL84P1G-aXE9I5RjrmjXctIFBilF4dJ0RH4'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) from which to remove an alert comment.
 2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Documents</strong>  

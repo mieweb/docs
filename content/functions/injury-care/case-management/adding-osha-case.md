@@ -2,13 +2,13 @@
 id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 title: 'Adding OSHA Case'
 date: '2020-03-13T13:18:41.709Z'
-version: 71
+version: 72
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 A case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
 

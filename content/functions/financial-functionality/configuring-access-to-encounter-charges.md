@@ -2,13 +2,13 @@
 id: '1ZOGOaZqB2_SoMwy14nI5Z4C2Ih3Fi1j0GG6A6KHL_vM'
 title: "Configuring access to encounter charges\_"
 date: '2021-02-18T15:52:33.084Z'
-version: 21
+version: 22
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1ZOGOaZqB2_SoMwy14nI5Z4C2Ih3Fi1j0GG6A6KHL_vM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 For each user security role or user account that needs to view, add or edit charges in encounters, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md). In the *Manage Encounter Charges* field, choose the level of access:
 * <strong>No</strong> (No access to charges in encounters.)

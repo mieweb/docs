@@ -2,11 +2,11 @@
 id: '1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
 title: 'Device Interface - Piccolo System'
 date: '2020-02-27T20:28:32.748Z'
-version: 23
+version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The following is referring to a blood chemistry analyzer Abaxis Piccolo Xpress system. Contact your MIE Implementer to see if your piccolo system model can be interfaced or quoted.
 

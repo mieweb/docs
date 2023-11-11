@@ -2,12 +2,12 @@
 id: '1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
 title: 'Financial reports'
 date: '2021-02-17T19:42:45.858Z'
-version: 14
+version: 15
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Use financial reports to view balances and details of accounts and pending billing and appointments. Also use financial reports to close out months.  
 You can change the information displayed in reports and download it as comma-separated value (CSV) format files.  

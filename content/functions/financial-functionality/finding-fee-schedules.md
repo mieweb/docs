@@ -2,12 +2,12 @@
 id: '1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s'
 title: 'Finding fee schedules'
 date: '2021-02-17T19:43:17.825Z'
-version: 22
+version: 23
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Note that the system treats the dates specified in the *Begin Date* and *End Date* fields as inclusive of the effective periods of fee schedules.   
 For example, if there is a fee schedule effective from the first day of this month to the last day of this month and a date next month is entered in the *End Date* field, the system will not find this fee schedule because the date is outside of that fee schedule's effective period.

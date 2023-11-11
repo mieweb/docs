@@ -2,7 +2,7 @@
 id: '1frOmVEMtMqMmrc_ztH4hM1mlEYzvgyrNU4qZZjuW9LU'
 title: 'CMS 347 - Statin Therapy for the Prevention and Treatment of Cardiovascular Disease'
 date: '2022-04-29T19:25:20.405Z'
-version: 49
+version: 50
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v5&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms347v5'
 source: 'https://drive.google.com/open?id=1frOmVEMtMqMmrc_ztH4hM1mlEYzvgyrNU4qZZjuW9LU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

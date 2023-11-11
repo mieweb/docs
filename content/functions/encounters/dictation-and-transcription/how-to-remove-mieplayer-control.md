@@ -2,12 +2,12 @@
 id: '1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o'
 title: 'How to Remove MIEPlayer Control'
 date: '2020-03-12T20:49:00.254Z'
-version: 38
+version: 39
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 1. Open Internet Explorer on your desktop.
 2. At the top toolbar, select TOOLS, then the option called INTERNET OPTIONS.

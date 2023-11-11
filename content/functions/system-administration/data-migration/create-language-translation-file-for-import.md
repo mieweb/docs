@@ -2,13 +2,13 @@
 id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 title: 'Create Language Translation File for Import'
 date: '2020-03-17T03:19:40.137Z'
-version: 33
+version: 34
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 This document explains how to import your language translation data into  {{% system-name %}} .  
 What you will need:

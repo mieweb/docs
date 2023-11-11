@@ -2,14 +2,14 @@
 id: '1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
 title: 'E-ClinicalWorks'
 date: '2022-03-23T14:52:39.698Z'
-version: 11
+version: 12
 lastAuthor: 'Kate Barton'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.eclinicalworks.com/'
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 **E-ClinicalWorks**  
 This page details how interfaces with e-ClinicalWorks (ecw) are installed.

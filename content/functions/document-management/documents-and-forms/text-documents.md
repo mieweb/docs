@@ -2,7 +2,7 @@
 id: '1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
 title: 'Text Documents'
 date: '2020-03-05T20:22:27.480Z'
-version: 46
+version: 47
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'word-documents-cc-physicians-feature.md'
   - 'document-properties.md'
 source: 'https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 The  {{% system-name %}} system is designed to allow free-text notes to be uploaded as documents into charts, as needed.
 

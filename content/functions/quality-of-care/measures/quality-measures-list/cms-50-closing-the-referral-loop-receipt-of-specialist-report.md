@@ -2,7 +2,7 @@
 id: '1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
 title: 'CMS 50 - Closing the Referral Loop: Receipt of Specialist Report'
 date: '2022-05-24T13:52:38.737Z'
-version: 108
+version: 109
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10'
 source: 'https://drive.google.com/open?id=1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Overview
 

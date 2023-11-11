@@ -2,12 +2,12 @@
 id: '1xV8LjYenQ4Ypmbno3hav_Iz_VNKt2q_ZUhuf-iV1FUg'
 title: 'Demographics Report'
 date: '2020-03-16T16:39:56.253Z'
-version: 35
+version: 36
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1xV8LjYenQ4Ypmbno3hav_Iz_VNKt2q_ZUhuf-iV1FUg'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Demographic Report shows all patient demographics by criteria for label printing or for demographic reporting purposes.  

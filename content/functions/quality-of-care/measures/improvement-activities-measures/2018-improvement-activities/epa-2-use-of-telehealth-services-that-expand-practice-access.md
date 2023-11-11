@@ -2,7 +2,7 @@
 id: '1AItULVTpRM4B-5o5xvsQ-7q_IhdY6sRCVtwmhcUt75A'
 title: 'EPA 2 - Use of Telehealth Services that Expand Practice Access'
 date: '2020-02-27T20:52:40.744Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1AItULVTpRM4B-5o5xvsQ-7q_IhdY6sRCVtwmhcUt75A'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

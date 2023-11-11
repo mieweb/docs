@@ -2,11 +2,11 @@
 id: '13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
 title: 'Observations Tab'
 date: '2020-02-27T20:03:08.015Z'
-version: 82
+version: 83
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Click *E-Chart* on the left sidebar menu.  
 Search and select the patient.  

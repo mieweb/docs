@@ -2,11 +2,11 @@
 id: '1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
 title: 'Conditions/ICD-9 Report'
 date: '2020-02-27T20:13:04.136Z'
-version: 30
+version: 31
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Click *Reports* tab on the left sidebar menu.  

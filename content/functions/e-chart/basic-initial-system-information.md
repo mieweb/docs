@@ -2,7 +2,7 @@
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
 date: '2022-09-13T18:09:46.268Z'
-version: 70
+version: 71
 lastAuthor: 'Kelly Volz'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ links:
   - 'https://system/?func=omniscope'
   - 'https://system/?func=logout'
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## **Patient/Employee/Chart Simple Search Screen**
 

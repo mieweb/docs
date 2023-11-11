@@ -2,12 +2,12 @@
 id: '19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
 title: 'Reset User Passwords'
 date: '2020-03-16T22:43:01.849Z'
-version: 66
+version: 67
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Must have security permissions to be able to add/edit/delete users  
 A user may have tried to log in using the wrong password too many times. It will then lock that user out. You will need to reset their password.

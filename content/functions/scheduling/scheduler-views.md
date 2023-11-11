@@ -2,12 +2,12 @@
 id: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 title: 'Scheduler Views'
 date: '2020-03-10T17:27:50.430Z'
-version: 53
+version: 54
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

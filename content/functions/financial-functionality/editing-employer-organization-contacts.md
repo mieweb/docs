@@ -2,13 +2,13 @@
 id: '1kshWUcFrvmzCRJ9LGkoDz6WRXkLMRJigN7IBjrv11sE'
 title: 'Editing employer organization contacts'
 date: '2021-02-18T16:22:14.232Z'
-version: 18
+version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1kshWUcFrvmzCRJ9LGkoDz6WRXkLMRJigN7IBjrv11sE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 1. [Find employer organizations](finding-employer-organizations.md).
 2. From the search results, select the <strong>name of the organization</strong> in which to edit contacts. The system displays information about the organization.

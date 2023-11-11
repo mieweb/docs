@@ -2,11 +2,11 @@
 id: '1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
 title: 'E-Refills - E-Scripts Tab'
 date: '2020-02-27T20:06:51.472Z'
-version: 20
+version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ![](../e-refills-e-scripts-tab.assets/6ec8e5bb34b8d887e282a975df44954d.png)
 

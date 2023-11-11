@@ -2,13 +2,13 @@
 id: '1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
 title: 'Device Interface - Welch Allyn CardioPerfect'
 date: '2022-07-27T20:50:14.964Z'
-version: 81
+version: 86
 lastAuthor: 'Kyle Kocks'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 This page describes the interface between Enterprise Health (EH) and the Welch Allyn EKG and Spirometry Monitoring system known as CardioPerfect.
 

@@ -2,12 +2,12 @@
 id: '1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 title: 'Documents Report / Super Document Type Search'
 date: '2020-03-16T16:41:16.740Z'
-version: 47
+version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Use this report if you wish to locate a specific document with some information you have, or wish to locate specific documents in general, etc.  

@@ -2,12 +2,12 @@
 id: '1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
 title: 'Print Manager'
 date: '2020-03-16T22:51:33.990Z'
-version: 36
+version: 37
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 You must have security to be able to View the Print Manager tab found in Control.
 

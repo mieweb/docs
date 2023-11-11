@@ -2,13 +2,13 @@
 id: '1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk'
 title: 'Adding transactions to the ledger'
 date: '2021-02-17T22:46:14.361Z'
-version: 19
+version: 20
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. Select <strong>Add Transaction</strong> button. The <em>Add Transaction</em>  

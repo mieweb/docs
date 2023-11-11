@@ -17,7 +17,7 @@ links:
   - '../../functions/fax-manager/faxing-documents.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=512d4a650f5972363795065eb10926cb'
 source: 'https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Agenda
 

@@ -2,14 +2,14 @@
 id: '12J14BKaX9AZmKKDENDSoHs1Q7OYIdjQFYumYezwOn2Y'
 title: 'Adding existing patients as employees of employer organizations'
 date: '2021-02-17T22:42:29.145Z'
-version: 20
+version: 21
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Editing+Demographics'
 source: 'https://drive.google.com/open?id=12J14BKaX9AZmKKDENDSoHs1Q7OYIdjQFYumYezwOn2Y'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.  
 When adding existing patients as employees of employer organizations, choose a matching chart and complete the from the patient demographics screen.

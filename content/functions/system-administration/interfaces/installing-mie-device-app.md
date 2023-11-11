@@ -2,11 +2,11 @@
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
 date: '2020-02-27T21:06:51.908Z'
-version: 70
+version: 71
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 There are required applications that may be needed for some programs, as well as certain functionality within the {{% system-name %}} system. The following instructions intend to assist users in installing the **MIE Device App** and the **MIE SSL App**. 
 

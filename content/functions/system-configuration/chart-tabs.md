@@ -2,13 +2,13 @@
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
 date: '2022-11-07T21:17:39.047Z'
-version: 194
+version: 195
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 {{% system-name %}} uses what are known as **chart tabs** within each chart. These are similar to chart dividers, or chart tabs, found within paper charts. They are simply an easy means to organize and track all of the documentation within a chart. Users interested in configuring or maintaining chart tabs throughout the system will need the appropriate security permissions and may access the [Chart Tabs editor](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) from the Control Panel to update and maintain, as necessary.
 

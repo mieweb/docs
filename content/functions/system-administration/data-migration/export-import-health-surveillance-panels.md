@@ -2,11 +2,11 @@
 id: '1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU'
 title: 'Export/Import Health Surveillance Panels'
 date: '2020-02-27T20:23:52.293Z'
-version: 32
+version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab at the top menu of tabs.
 

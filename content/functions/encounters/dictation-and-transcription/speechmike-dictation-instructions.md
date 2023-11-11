@@ -2,12 +2,12 @@
 id: '1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
 title: 'SpeechMike Dictation Instructions'
 date: '2020-03-25T21:00:24.947Z'
-version: 63
+version: 64
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Using the Phone to Call in Dictation
 

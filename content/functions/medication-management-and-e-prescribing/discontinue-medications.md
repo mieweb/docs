@@ -2,11 +2,11 @@
 id: '1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
 title: 'Discontinue Medications'
 date: '2020-02-27T20:05:57.138Z'
-version: 32
+version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Discontinue Medications, Individually
 

@@ -46,7 +46,7 @@ links:
   - 'https://drive.google.com/open?id=1Hh-Up6MnYTqvnc2vEx38lXyRG5rbm4ln3jnd8Qy_G7Q'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=b79e8477f8cdb0cabd019dcd7f998b16'
 source: 'https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Agenda
 

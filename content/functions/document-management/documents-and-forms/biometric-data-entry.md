@@ -2,7 +2,7 @@
 id: '1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
 title: 'Biometric Data Entry'
 date: '2022-10-19T11:51:58.503Z'
-version: 70
+version: 71
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 

@@ -2,12 +2,12 @@
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
 date: '2020-03-13T19:19:01.256Z'
-version: 70
+version: 71
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.  
 Click *E-Chart* on the left sidebar menu.  

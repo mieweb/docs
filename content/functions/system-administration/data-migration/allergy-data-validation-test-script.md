@@ -2,7 +2,7 @@
 id: '1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
 title: 'Allergy Data Validation Test Script'
 date: '2020-02-27T21:32:57.175Z'
-version: 29
+version: 30
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ links:
   - 'https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
   - '../../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 This document is intended to describe and assist users with the process to validate medication allergies imported from another system. The {{% system-name %}} system uses the Visit encounter to display the details related to a visit.   
 {{% tip %}}

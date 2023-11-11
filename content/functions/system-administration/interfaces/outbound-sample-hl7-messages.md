@@ -2,7 +2,7 @@
 id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
 title: 'Outbound Sample HL7 Messages'
 date: '2023-02-24T18:19:31.380Z'
-version: 96
+version: 97
 lastAuthor: 'Zack Barrell'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 # SIU, Scheduling
 

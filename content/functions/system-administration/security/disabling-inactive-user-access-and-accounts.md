@@ -2,7 +2,7 @@
 id: '1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
 title: 'Disabling Inactive User Access & Accounts'
 date: '2020-02-27T20:43:05.104Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=admin&s=cron&tabmodule=admin&tabselect=Scheduled+Jobs'
   - 'https://system/?f=admin&s=cron&opp=add'
 source: 'https://drive.google.com/open?id=1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 As an  {{% system-name %}} standard, all user application access is regularly reviewed and validated, ensuring all user access–including of employees, clients, vendors, and partners–is appropriate, given the users' roles and responsibilities. This provides assurance that object access and account management practices support the MIE Information Security Policies. For example, the security principle of *least privilege* requires all users to be granted the most restrictive set of privileges needed for the performance of their authorized tasks. Simply applying this principle limits the damage that can result from accident, error, or unauthorized use.  
 As such, all {{% system-name %}} systems will automatically disable any client and/or user account (e.g., MIExxxx) that has been inactive for an established and configured number of days. In other words, employees, clients, vendors, and/or partners functioning as system administrators of any database on MIE servers, shall take the responsibility of their user access by way of the tools and automation available in the system, described in further detail, below.

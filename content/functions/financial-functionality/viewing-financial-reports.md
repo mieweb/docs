@@ -2,13 +2,13 @@
 id: '1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
 title: 'Viewing financial reports'
 date: '2021-02-18T19:11:41.072Z'
-version: 18
+version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 If you customize a report using DataVis Grids Data Tools, the customized report will only be available to you.  
 1. Select the side menu. The side menu appears.

@@ -2,12 +2,12 @@
 id: '1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs'
 title: 'DICOM Modality Work List (MWL)'
 date: '2020-03-24T15:53:13.829Z'
-version: 51
+version: 52
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 In most cases, once MWL is installed and configured on the base system, configuring MWL for a DICOM entity is as simple as checking a box.
 1. Navigate to the DICOM sidemenu, and click the <strong>View Application Entities</strong> link in the upper-right corner.

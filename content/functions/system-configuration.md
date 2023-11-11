@@ -2,11 +2,11 @@
 id: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
 title: 'System Configuration'
 date: '2020-02-27T19:31:27.327Z'
-version: 31
+version: 32
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 System configurations are any necessary arrangements or modifications for automated scheduled jobs, business rules (e.g., triggers for email notifications of appointment reminders, immunization reminders, surveillance appointments, etc.), as well as for the standard, out-of-the-box features and functionality. Examples include, but are not limited to, clinical decision support, or scripted rules, standard email templates, questionnaires, office visit templates/encounters, and Word templates. All billable, or additional configuration requests, will be scoped, quoted, and reviewed with the client for authorization, prior to completion.   
 {{% children %}}

@@ -2,7 +2,7 @@
 id: '1WIMmSA6IAnjC6s1vw6Yd2ZfQ9Bg9TiLBduyAcwAwJho'
 title: 'PM 15 - Implementation of Episodic Care Management Practice Improvements'
 date: '2020-02-27T20:53:22.706Z'
-version: 16
+version: 17
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1WIMmSA6IAnjC6s1vw6Yd2ZfQ9Bg9TiLBduyAcwAwJho'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 
 

@@ -2,7 +2,7 @@
 id: '1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
 title: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
 date: '2020-03-09T16:19:40.525Z'
-version: 88
+version: 93
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'mailto:noreplywebchart@med-web.com'
   - 'mailto:helpdesk@mieweb.com'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 ## Incoming/Pending Faxes
 

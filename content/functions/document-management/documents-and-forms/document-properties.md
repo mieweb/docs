@@ -2,7 +2,7 @@
 id: '1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 title: 'Document Properties'
 date: '2020-02-27T21:10:00.312Z'
-version: 60
+version: 61
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ links:
   - '../../e-chart/alerts-errors-failures-interactive-tab.md'
   - 'delete-move-lock-documents.md'
 source: 'https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Every document contains metadata that identifies the document or describes the data of the document. These details are found in the document properties. The document properties accessed by clicking the **Properties** link, found in the upper-right corner of the stored document.
 

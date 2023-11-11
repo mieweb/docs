@@ -2,13 +2,13 @@
 id: '1vV9ZAwk3eHys6SHAKLCBXPZpgiiuyilqQHifr7OEPkk'
 title: 'Adding alert comments to employer organizations'
 date: '2021-02-17T22:23:31.889Z'
-version: 26
+version: 27
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1vV9ZAwk3eHys6SHAKLCBXPZpgiiuyilqQHifr7OEPkk'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 An alert comment is text which appears at the top of all screens about the employer organization, such as the employer organization overview tab, the ledger, and financial account overview.
 

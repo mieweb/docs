@@ -2,14 +2,14 @@
 id: '16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
 title: 'Indexing Bubble Forms'
 date: '2020-03-09T15:08:14.503Z'
-version: 41
+version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
 source: 'https://drive.google.com/open?id=16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Bubble forms are designed to record discrete data and index the information as observations in the chart. Bubble forms are document type templates that have special programming marks, which allow them to make quick and easy work of collecting granular data using the {{% system-name %}} WebScan module.
 

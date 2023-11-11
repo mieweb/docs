@@ -2,13 +2,13 @@
 id: '1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
 title: 'Transcription Report'
 date: '2021-02-22T18:34:34.162Z'
-version: 40
+version: 41
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 {note}The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {system-name} and not performance metrics.{/note}  
 Use transcription reports to view statistics on transcription output. The report can present information based on department, provider, user, document type, and ranges of dates. A transcription report includes the following information:

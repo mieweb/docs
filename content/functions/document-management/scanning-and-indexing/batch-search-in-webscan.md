@@ -2,14 +2,14 @@
 id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 title: 'Batch Search in WebScan'
 date: '2020-03-09T16:13:04.599Z'
-version: 30
+version: 31
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'scanning.md'
 source: 'https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 In order to access the [WebScan](https://system/?f=miewebscan) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](scanning.md) help documentation.  
 To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any Checked-In batches will be listed under the Batch list view, by default. The Checked-in batches are various scanned documents ready to be indexed into the system.

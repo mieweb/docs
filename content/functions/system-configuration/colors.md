@@ -2,11 +2,11 @@
 id: '1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
 title: 'Colors'
 date: '2020-02-27T19:32:06.134Z'
-version: 116
+version: 117
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 From the Control sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
 

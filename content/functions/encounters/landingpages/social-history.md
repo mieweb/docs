@@ -2,11 +2,11 @@
 id: '1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
 title: 'Social History'
 date: '2021-02-26T16:09:16.836Z'
-version: 16
+version: 17
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Social History

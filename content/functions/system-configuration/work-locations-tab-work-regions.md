@@ -2,11 +2,11 @@
 id: '15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc'
 title: 'Work Locations Tab - Work Regions'
 date: '2020-02-27T19:32:54.120Z'
-version: 69
+version: 70
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc'
-wikigdrive: 'c3f35433d5ee1fae6cf6643ea463cdcb4c67750c'
+wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
 ---
 Panels can be assigned to work regions to limit the selection for what is appropriate for that region.  Panels displayed in the panel membership page for selection are based on work region and filters out panels not tied to the employee's work region.  
 The system setting *Use Work Regions* must be enabled if want to utilize work regions for health surveillance panels.
