@@ -2,7 +2,7 @@
 id: '1sLKjtuVqRzZXldr6YuRzGOTd7ICndIJIaSzld3cx0ng'
 title: 'PSPA 1 - Participation in an AHRQ-listed Patient Safety Organization'
 date: '2020-02-27T20:54:14.946Z'
-version: 17
+version: 16
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.pso.ahrq.gov/listed'
@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1sLKjtuVqRzZXldr6YuRzGOTd7ICndIJIaSzld3cx0ng'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 
 

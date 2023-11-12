@@ -2,13 +2,13 @@
 id: '17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 title: 'Waiting List Tab'
 date: '2020-03-25T17:17:23.139Z'
-version: 52
+version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'cancel-no-show-edit-appointments.md'
 source: 'https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

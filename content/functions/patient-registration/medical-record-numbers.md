@@ -2,11 +2,11 @@
 id: '1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg'
 title: 'Medical Record Numbers'
 date: '2020-02-27T19:35:30.353Z'
-version: 44
+version: 43
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 ## Deleting Medical Record Numbers (MRNs)
 

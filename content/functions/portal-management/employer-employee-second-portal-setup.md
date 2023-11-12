@@ -2,11 +2,11 @@
 id: '1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM'
 title: 'Employer/Employee Second Portal Setup'
 date: '2020-02-27T19:50:32.374Z'
-version: 30
+version: 29
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Setting up a portal for your employee's to access is available in {{% system-name %}} . Your MIE Implementer will help with initial setup and configuration, but this help guide also helps for any edits or changes that may need done later down the road. Initial portal setup is in help guide named *Employer-Employee Portal Setup.pdf*  
 There may be a need for a second portal of a different url and different users related to different provider organizations, etc accessing that specific portal than accessing the initial Generic Portal that comes by default. To set up an additional portal:  

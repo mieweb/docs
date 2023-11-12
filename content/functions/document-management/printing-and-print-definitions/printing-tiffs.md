@@ -2,12 +2,12 @@
 id: '174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
 title: 'Printing TIFFs'
 date: '2020-03-24T15:06:06.991Z'
-version: 45
+version: 44
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 ## Printing Documents from a Tiff Printer
 

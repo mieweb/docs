@@ -2,7 +2,7 @@
 id: '1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
 title: 'Form Documents'
 date: '2020-03-23T16:56:28.858Z'
-version: 96
+version: 95
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ links:
   - '../scanning-and-indexing/scanning.md'
   - '../scanning-and-indexing/indexing.md'
 source: 'https://drive.google.com/open?id=1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Forms are found in the Forms Library of the {{% system-name %}} system. The Forms Library is a centralized repository for businesses and offices to organize and store commonly used forms, such as HIPAA forms, registration forms, lab order forms, Superbills, H&P forms, etc. Additionally, any forms or documents received or used outside of the organization can easily be incorporated into {{% system-name %}} using WebScan. Forms are loaded into the forms library and programmatically configured by the Deployment Consultant, and once forms are loaded, they can be printed from the {{% system-name %}} system. Forms are embedded with a barcode that auto-indexes the date of service, patient name/MR number, document type name, provider, and location when scanned back into {{% system-name %}} using WebScan. The form can also be overlaid with any discrete data that are part of the permanent record including items such as allergies, medications, a problem list, patient demographics, etc.
 

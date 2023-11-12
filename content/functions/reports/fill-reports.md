@@ -2,11 +2,11 @@
 id: '14wwTc74KWcRO1SQtDG0L14yjfNTGM5pNgfFZy8_6Jko'
 title: 'Fill Reports'
 date: '2020-02-27T20:14:19.426Z'
-version: 24
+version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=14wwTc74KWcRO1SQtDG0L14yjfNTGM5pNgfFZy8_6Jko'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The Fill Reports tab is located within the sidemenu tab named *Inventory*.  
 The Fill Report is like a transaction report but a report specific to medication fills only (medication fills done in the patient's dispense chart tab).

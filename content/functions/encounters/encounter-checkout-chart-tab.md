@@ -2,12 +2,12 @@
 id: '16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc'
 title: 'Encounter Checkout Chart Tab'
 date: '2020-02-27T19:55:48.946Z'
-version: 41
+version: 40
 mimeType: 'text/x-markdown'
 links:
   - 'http://nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 When working in an encounter and when on the "view" of the encounter, down at the bottom of that encounter "view" you will see *Encounter Options*. This same *Encounter Options* section can be accessed by the *Encounter Checkout* chart tab in your system.  
 When working in {{% system-name %}} , you can have an *Encounter Checkout* chart tab programmed. If it's not programmed already, please contact your MIE Implementer.  

@@ -2,7 +2,7 @@
 id: '1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
 title: 'Restrictions CSV API'
 date: '2020-02-27T21:32:12.910Z'
-version: 25
+version: 24
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - 'data-import-master-list.md'
   - 'clinical-encounter-csv-api.md'
 source: 'https://drive.google.com/open?id=1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for restrictions** using the [Case Management CSV API](case-management-csv-api.md).  
 The following CSV APIs import information used to build a case:

@@ -2,13 +2,13 @@
 id: '1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY'
 title: 'Terms of API Use'
 date: '2021-04-06T13:28:47.741Z'
-version: 73
+version: 71
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1S1Gn8RLJor00n4SJKSewscmpauO8owVwfgY5wRsBFFY'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 ## **Use of the WebChart® API**
 

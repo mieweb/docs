@@ -2,11 +2,11 @@
 id: '1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
 title: 'Compare Security Roles'
 date: '2020-02-27T20:25:20.019Z'
-version: 41
+version: 40
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Click *Control* tab from left sidebar menu.  
 Click *Security Role Editor* tab from top menu.  

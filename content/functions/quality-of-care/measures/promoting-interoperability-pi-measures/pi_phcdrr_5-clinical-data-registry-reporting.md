@@ -2,11 +2,11 @@
 id: '1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
 title: 'PI_PHCDRR_5 -- Clinical Data Registry Reporting'
 date: '2020-02-27T21:05:41.548Z'
-version: 24
+version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 **Description**:  Clinical Data Registry Reporting  
 **Participation**:  The MIPS eligible clinician is in the process of moving towards sending "production data" to a public health agency or clinical data registry, or is sending production data to a public health agency (PHA) or clinical data registry (CDR).  

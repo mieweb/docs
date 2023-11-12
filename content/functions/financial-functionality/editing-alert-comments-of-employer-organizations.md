@@ -2,13 +2,13 @@
 id: '16AgcK4vJ6iK8GaD6OvbIGeLya65G1r1YJrCH6C1mTWE'
 title: 'Editing alert comments of employer organizations'
 date: '2021-02-22T16:15:41.376Z'
-version: 28
+version: 27
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=16AgcK4vJ6iK8GaD6OvbIGeLya65G1r1YJrCH6C1mTWE'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 You can edit the text of the alert comment. You cannot change the color of the text, the color of the text background, nor where the comment appears.
 1. [Find the employer organization](finding-employer-organizations.md) to which to edit an alert comment.

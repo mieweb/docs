@@ -2,7 +2,7 @@
 id: '1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk'
 title: 'Clinical Encounter CSV API'
 date: '2020-03-17T13:11:47.649Z'
-version: 33
+version: 32
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -24,7 +24,7 @@ links:
   - 'data-import-master-list.md'
   - 'data-migration-file-format-standard.md'
 source: 'https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 ## **Introduction**
 

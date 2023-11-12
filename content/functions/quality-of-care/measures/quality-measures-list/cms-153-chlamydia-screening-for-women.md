@@ -2,7 +2,7 @@
 id: '1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
 title: 'CMS 153 - Chlamydia Screening for Women'
 date: '2022-04-21T20:18:56.392Z'
-version: 42
+version: 41
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms153v10'
 source: 'https://drive.google.com/open?id=1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 ## Overview
 

@@ -2,7 +2,7 @@
 id: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
 title: 'Create File for Submission'
 date: '2022-08-30T23:05:44.234Z'
-version: 31
+version: 30
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
@@ -24,7 +24,7 @@ links:
   - 'https://www.youtube.com/watch?v=iGFYslxit-U&feature=youtu.be'
   - 'https://www.youtube.com/watch?v=yd6EBtEGX1w&feature=youtu.be'
 source: 'https://drive.google.com/open?id=1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Health IT and data collection is integral in assisting the various arms of the healthcare industry to reduce costs while consistently improving patient care and outcomes. Organizations such as the [U.S. Centers for Medicare and Medicaid Services](https://www.cms.gov/) (CMS), the [Agency for Healthcare Research & Quality](https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html) (AHRQ), or even the [National Committee of Quality Assurance](https://www.ncqa.org/) (NCQA), offer many tools and various programs designed to assist health IT vendors, clinical practices, and the like to ensure accurate data collection for analysis and critical decision making of value-based contract arrangements.
 

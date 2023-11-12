@@ -2,13 +2,13 @@
 id: '1jTjf5dzqvReObpzAIGWWv94YQnJVu8EE45xUmPdU-rg'
 title: 'Removing employees from employer organizations'
 date: '2021-02-18T19:04:36.030Z'
-version: 24
+version: 23
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1jTjf5dzqvReObpzAIGWWv94YQnJVu8EE45xUmPdU-rg'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Removing employees from employer organizations leaves the patient chart in the system but removes the link between the employer organization and the chart.
 1. [Find the employer organization](finding-employer-organizations.md) from which to remove an employee.

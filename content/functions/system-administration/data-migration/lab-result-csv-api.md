@@ -2,7 +2,7 @@
 id: '1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
 title: 'Lab Result CSV API'
 date: '2020-02-27T21:28:38.594Z'
-version: 32
+version: 31
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -15,7 +15,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample5.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 

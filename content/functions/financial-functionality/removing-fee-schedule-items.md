@@ -2,14 +2,14 @@
 id: '187UVX4E-pSGk_vuUSTIVtKyQ5TrmNSUdUKlCumYEb70'
 title: 'Removing fee schedule items'
 date: '2021-02-18T19:05:40.442Z'
-version: 20
+version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-fee-schedules.md'
   - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=187UVX4E-pSGk_vuUSTIVtKyQ5TrmNSUdUKlCumYEb70'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 1. [Find the fee schedule](finding-fee-schedules.md) to which to remove items or [view all fee schedules](viewing-all-fee-schedules.md). Select the name of the one to which to remove items. Items in the fee schedule appear in the <em>Fee Schedule Items</em> section.
 2. In the <em>Fee Schedule Items</em> section, at the right of the item to remove, select the <strong>trash can</strong>. The system displays the <em>Please choose</em> window and prompts to confirm deleting the item.

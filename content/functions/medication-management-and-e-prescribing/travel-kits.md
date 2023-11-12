@@ -2,11 +2,11 @@
 id: '1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q'
 title: 'Travel Kits'
 date: '2020-02-27T20:08:18.497Z'
-version: 58
+version: 57
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Travel Kits can be used to prescribe a grouping of common meds as a kit for travel. This is mainly used for {{% system-name %}} clients whom employees travel and frequency different countries and the clinic needs to prescribe the grouping of meds quickly. The employee portal is most commonly used for an employee to request a Travel Kit also that a clinician would process. Travel kits are for meds only when know will be traveling and what type of meds would you want to take with you. This is not really for "pre travel requests" where you need to give injections for pre-travel requirements.  
 This section of the help documentation covers how to manage/edit/add/delete Travel Kits that are available for selection in the system. This is the Travel Kits Manager. The section at the end of this help documentation is on how to prescribe/order a travel kit.  

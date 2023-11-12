@@ -2,14 +2,14 @@
 id: '153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
 title: 'PDF Documents'
 date: '2022-11-11T13:17:09.076Z'
-version: 64
+version: 63
 lastAuthor: 'Ami Cook'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The {{% system-name %}} system provides the ability to browse to and upload PDF file types, if necessary. This is driven by a system setting ("E-Chart", "PDF Upload", "Enable"), which is enabled by default.  
 {{% note %}}

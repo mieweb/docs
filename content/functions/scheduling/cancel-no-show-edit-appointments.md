@@ -2,12 +2,12 @@
 id: '1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
 title: 'Cancel/No-Show/Edit Appointments'
 date: '2020-03-10T17:26:23.670Z'
-version: 48
+version: 47
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

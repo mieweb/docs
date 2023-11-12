@@ -2,13 +2,13 @@
 id: '1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c'
 title: 'Order Question Import Tool'
 date: '2021-10-29T16:01:13.157Z'
-version: 43
+version: 42
 lastAuthor: 'Kate Barton'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1pCbkfLSSJUZo4Gs1YeGe9anLSpnyRrE9/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 This wiki page is to document how Order Questions (AOE) data needs to be constructed in order to import using WebChart's Order Questions Import Tool.
 * File format: Data file shall be formatted in Comma Separated Values (CSV).

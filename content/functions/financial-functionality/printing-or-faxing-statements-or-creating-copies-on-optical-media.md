@@ -2,7 +2,7 @@
 id: '1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw'
 title: 'Printing or faxing statements or creating copies on optical media'
 date: '2021-03-02T19:33:29.295Z'
-version: 22
+version: 21
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - '../fax-manager/faxing-documents.md'
   - '../document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md'
 source: 'https://drive.google.com/open?id=1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 [Create statements](creating-statements.md) before printing, faxing, or creating copies on optical media (burning).  
 For example, to print three statements and fax another four, first select the three that need printed and print them, then repeat this process to find and select all that need faxed and fax those.

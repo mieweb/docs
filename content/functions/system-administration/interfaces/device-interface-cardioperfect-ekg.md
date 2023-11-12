@@ -2,11 +2,11 @@
 id: '17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
 title: 'Device Interface - CardioPerfect EKG'
 date: '2020-02-27T20:27:01.320Z'
-version: 46
+version: 45
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.  
 Within {{% system-name %}} , you may have a chart tab named *EKG* where you can see the imported EKG device results and interpretations. Contact your MIE Implementer for set up.

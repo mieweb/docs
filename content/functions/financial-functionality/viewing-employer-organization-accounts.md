@@ -2,13 +2,13 @@
 id: '1uSpG45pzytlu3fKcKN3qkVS_de74FqsYorRpcXXSONs'
 title: 'Viewing employer organization accounts'
 date: '2021-03-02T19:33:30.808Z'
-version: 23
+version: 22
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1uSpG45pzytlu3fKcKN3qkVS_de74FqsYorRpcXXSONs'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 View accounts of employer organizations to see information about them, such as balance, contacts, associated insurance policies, and subordinate accounts.
 1. [F](finding-employer-organizations.md)[ind employer organizations](finding-employer-organizations.md).

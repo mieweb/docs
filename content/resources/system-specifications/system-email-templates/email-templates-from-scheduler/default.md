@@ -6,7 +6,7 @@ version: 19
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iPbgcQmlPVcCIVf0tAh4S1_Bna3rng0FmKsDK2Bcy1A'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 From: noreplywebchart@med-web.com  
 To: fanderson@bettercorp.com,  

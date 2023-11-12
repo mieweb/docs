@@ -2,12 +2,12 @@
 id: '1PleeV1Z7fxATGu1yowdD2s_fPffeoRkLVlFzNyCYPQw'
 title: 'Editing employer organizations'
 date: '2021-02-17T19:45:31.248Z'
-version: 17
+version: 16
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PleeV1Z7fxATGu1yowdD2s_fPffeoRkLVlFzNyCYPQw'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Edit employer organizations to change information about an organization, such as address, search name, or fax number.
 1. Find employer organization.

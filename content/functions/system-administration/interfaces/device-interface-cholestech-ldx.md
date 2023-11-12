@@ -2,11 +2,11 @@
 id: '11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10'
 title: 'Device Interface - Cholestech LDX'
 date: '2020-02-27T20:28:03.764Z'
-version: 28
+version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The following is referring to a Cholestech LDX system. Contact your MIE Implementer to see if your Cholesterol system model can be interfaced or quoted.
 

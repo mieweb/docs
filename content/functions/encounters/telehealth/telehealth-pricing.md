@@ -2,13 +2,13 @@
 id: '1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
 title: 'TeleHealth Pricing'
 date: '2020-03-31T14:37:42.416Z'
-version: 95
+version: 92
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'mailto:kari@mieweb.com'
 source: 'https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 ## TeleHealth Video
 

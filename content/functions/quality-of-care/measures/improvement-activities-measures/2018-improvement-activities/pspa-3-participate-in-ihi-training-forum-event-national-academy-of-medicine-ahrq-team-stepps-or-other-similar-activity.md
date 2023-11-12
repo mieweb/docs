@@ -2,7 +2,7 @@
 id: '1om70l5pC4Xd-3lf8kHuHNBYb4OkuVa38kMyf-2R0B3I'
 title: 'PSPA 3 - Participate in IHI Training/Forum Event: National Academy of Medicine, AHRQ Team STEPPS or Other Similar Activity'
 date: '2020-02-27T20:55:43.242Z'
-version: 17
+version: 16
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1om70l5pC4Xd-3lf8kHuHNBYb4OkuVa38kMyf-2R0B3I'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 
 

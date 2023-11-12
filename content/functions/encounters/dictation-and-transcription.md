@@ -2,11 +2,11 @@
 id: '1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
 title: 'Dictation and Transcription'
 date: '2020-02-27T19:50:45.866Z'
-version: 36
+version: 35
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 
 

@@ -2,7 +2,7 @@
 id: '1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
 title: 'Data Import Standards'
 date: '2022-04-04T13:01:42.605Z'
-version: 54
+version: 53
 lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ links:
   - 'http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The following columns display in standardized data import specifications:
 * <strong>Field Name</strong> - The name for the specific field and what should be the column header in the file. Often from the related database column name.

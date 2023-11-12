@@ -2,13 +2,13 @@
 id: '1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
 title: 'Tests & Procedures Section - Remove, Delete, Edit'
 date: '2020-02-27T21:14:57.599Z'
-version: 34
+version: 30
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
 source: 'https://drive.google.com/open?id=1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Before learning how to edit or delete or remove Tests or Procedures from an encounter visit, please see other help documentation [Tests & Procedures-Adding and Applying](tests-and-procedures-section-applying-adding-completing-resulting.md) so you are familiar with the Tests & Procedures section (pending Due List items) of the encounter and how procedures are displayed there and/or manually added to an encounter visit.
 

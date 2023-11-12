@@ -2,7 +2,7 @@
 id: '1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'
 title: 'Case Management CSV API'
 date: '2020-02-27T21:32:08.466Z'
-version: 25
+version: 24
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -25,7 +25,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=1488916786&single=true&output=csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) using the Case Management CSV API. A **case** encompasses a variety of data that is ultimately meant to generate an [OSHA 300 log](https://www.osha.gov/recordkeeping/RKforms.html) for [occupational injuries and illness.](https://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&p_part_number=1904)  
 The following CSV APIs import information used to build a case:

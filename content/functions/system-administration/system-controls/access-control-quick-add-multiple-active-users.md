@@ -2,13 +2,13 @@
 id: '1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
 title: 'Access Control - Quick Add Multiple Active Users'
 date: '2020-02-27T21:20:20.800Z'
-version: 52
+version: 51
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/managing-departments.md'
 source: 'https://drive.google.com/open?id=1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Must have security permissions to be able to add/edit/delete users.
 

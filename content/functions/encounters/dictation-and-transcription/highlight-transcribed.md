@@ -2,13 +2,13 @@
 id: '1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
 title: 'Highlight Transcribed'
 date: '2020-03-13T11:10:00.685Z'
-version: 48
+version: 47
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
 source: 'https://drive.google.com/open?id=1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 If dictation is enabled on your system, and a user enters in an encounter, the Add Dictation option is offered throughout.  If the user adds dictation, the encounter dictation(s) goes to the Dictation queue for a transcriptionist to type up.  Then the transcriptionist either archives & closes the encounter themselves (depending on how the system has been requested to be set up), or the physician can close it from their encounter worklist when there is no transcription left pending for it.  
 Most clients then have automated esign rules set up for the archived & closed encounter document to go to the provider's esign queue to sign and review the encounter document as to what has been transcribed on it.  

@@ -2,12 +2,12 @@
 id: '1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
 title: 'Task Search'
 date: '2020-03-10T14:50:47.829Z'
-version: 36
+version: 35
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 

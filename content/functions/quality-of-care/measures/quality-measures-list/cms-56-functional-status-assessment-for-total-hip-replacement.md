@@ -2,7 +2,7 @@
 id: '1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U'
 title: 'CMS 56 - Functional Status Assessment for Total Hip Replacement'
 date: '2022-05-11T20:12:53.552Z'
-version: 62
+version: 61
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/pro'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms056v10'
 source: 'https://drive.google.com/open?id=1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U'
-wikigdrive: '532b27c0e6b6629c0700a7be5d1152af2683c121'
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 ## Overview
 
