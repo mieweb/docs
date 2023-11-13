@@ -1,8 +1,8 @@
 ---
 id: '1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
 title: 'SAML-Based Single Sign-On'
-date: '2023-11-13T15:33:20.765Z'
-version: 48
+date: '2023-11-13T16:55:23.845Z'
+version: 58
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -16,15 +16,15 @@ SSO access is a standard for users accessing protected information, such as pati
 The following document provides details and considerations for using Security Assertion Markup Language (SAML)-based single sign-on (SSO) with the {{% system-name %}} systems. {{% system-name %}} currently supports SAML 2.0 SP-initiated or IDP-initiated workflows with the HTTP-POST binding. {{% system-name %}} provides a SAML-based SSO application program interface (API). For an in-depth review of SAML, see the public Wikipedia page: [https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)  
 The majority of this document was created for technical staff to utilize for SAML SSO configuration. The sections that follow are technical in nature. For a list of terminology commonly encountered as part of this topic, please see our [SSO Documentation](single-sign-on-sso.md).
 
-## SAML in *{{% system-name %}}* Systems
+## SAML
 
-SAML assertions utilize most of the options detailed throughout the [SSO Login Trust](single-sign-on-login-trust.md) documentation. Note that in order to set up the {{% system-name %}} system as a SAML service provider (SP), the following must be known about the identity provider (IDP):
+In *{{% system-name %}},***_ _**SAML assertions utilize most of the options detailed throughout the [SSO Login Trust](single-sign-on-login-trust.md) documentation. Note that in order to set up the {{% system-name %}} system as a SAML service provider (SP), the following must be known about the identity provider (IDP):
 * <strong>The IDP Issuer</strong>: This goes in the Domain field of the Login Trust.
 * <strong>IDP Sign On Service URL</strong>: This goes in the Login URL field. Also, identify any steps required to ensure the IDP-specified subjects will be present in the {{% system-name %}} system. This may be an interface which creates users, a configuration allowing the IDP to create new users, on demand, or a manual process within the {{% system-name %}} system.
 * <strong>Public Key/Certificate</strong>: Used to authenticate the assertions. 
 
 {{% note %}}  
-SAML provides an option for including the public key in the assertion. This can pose a significant security vulnerability, so {{% system-name %}} does not support this functionality. The public key must be provided prior to processing assertions.{{% /note %}}
+SAML provides an option for including the public key in the assertion. This can pose a significant security vulnerability, so {{% system-name %}} does not support this functionality. The public key must be provided prior to processing assertions.{{% /note %}} 
 
 
 
