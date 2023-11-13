@@ -1,8 +1,8 @@
 ---
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
-date: '2023-10-25T19:41:13.951Z'
-version: 175
+date: '2023-11-13T18:12:16.006Z'
+version: 186
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -16,7 +16,7 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 Audiogram results can be addressed a few different ways in {{% system-name %}}. Bubble forms are an efficient solution for data entry and often used by clients with mobile audio units or remote clinics that may not have internet. Bubble forms are document type templates with special formatting that allow data to be collected discreetly when scanned and indexed into the {{% system-name %}} system. 
 
-Bubble forms also work well added to Print Definitions, particularly for providers that do not use interfaced equipment. Bubble forms can also be developed so that a stack of the forms can be printed and taken onsite, where they then can be scanned and indexed, afterward.
+Bubble forms also work well added to Print Definitions, particularly for providers that do not use interfaced equipment. Bubble forms can also be developed so that a stack of the forms can be printed and taken onsite, where they then can be scanned and indexed, afterward. 
 
 ## Bubble Form
 
