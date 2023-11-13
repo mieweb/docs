@@ -1,8 +1,8 @@
 ---
 id: '1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
 title: 'SAML-Based Single Sign-On'
-date: '2023-11-13T16:55:23.845Z'
-version: 58
+date: '2023-11-13T17:27:28.886Z'
+version: 65
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ The majority of this document was created for technical staff to utilize for SAM
 
 ## SAML
 
-In *{{% system-name %}},***_ _**SAML assertions utilize most of the options detailed throughout the [SSO Login Trust](single-sign-on-login-trust.md) documentation. Note that in order to set up the {{% system-name %}} system as a SAML service provider (SP), the following must be known about the identity provider (IDP):
+*S*AML assertions utilize most of the options detailed throughout the [SSO Login Trust](single-sign-on-login-trust.md) documentation. Note that in order to set up the {{% system-name %}} system as a SAML service provider (SP), the following must be known about the identity provider (IDP):
 * <strong>The IDP Issuer</strong>: This goes in the Domain field of the Login Trust.
 * <strong>IDP Sign On Service URL</strong>: This goes in the Login URL field. Also, identify any steps required to ensure the IDP-specified subjects will be present in the {{% system-name %}} system. This may be an interface which creates users, a configuration allowing the IDP to create new users, on demand, or a manual process within the {{% system-name %}} system.
 * <strong>Public Key/Certificate</strong>: Used to authenticate the assertions. 
