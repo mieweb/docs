@@ -1,12 +1,12 @@
 ---
 id: '1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 title: 'New Provider Configuration Recommendations'
-date: '2022-11-04T15:52:02.402Z'
-version: 320
+date: '2023-11-14T19:15:35.104Z'
+version: 360
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0'
+  - 'https://drive.google.com/open?id=10aDdq77WTzNfpTWFuyolW59jCmyYdW4GjOO5-K4ui9A'
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
 source: 'https://drive.google.com/open?id=1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
@@ -26,7 +26,7 @@ Per Medical Informatics Engineering, Inc. policy, all new providers should be cr
    2. Link the provider chart to any applicable Provider Organization (clinic location) Charts.
    3. If the new provider is certified to complete DOT Exams, complete the Medical Examiners data in the "Other Data" section of the Provider chart.
    4. It is important to keep Provider (P) charts separate from their individual patient/employee chart.
-4. Send the provider the [ePrescribe Verification](https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0) Form to complete
+4. Send the provider the [ePrescribe Verification](https://drive.google.com/open?id=10aDdq77WTzNfpTWFuyolW59jCmyYdW4GjOO5-K4ui9A) Form to complete
    1. Update data collected on the user profile when received.
    2. Load provider signature.
    3. Submit verification to [Surescripts](https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html).
