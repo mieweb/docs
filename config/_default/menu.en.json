@@ -191,7 +191,7 @@
       "name": "Alerts, Errors, Failures - Interactive Tab",
       "weight": 300,
       "parent": "1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU",
-      "pageRef": "functions/e-chart/alerts,-errors,-failures-interactive-tab.md"
+      "pageRef": "functions/e-chart/alerts-errors-failures-interactive-tab.md"
     },
     {
       "identifier": "1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0",
@@ -261,7 +261,7 @@
       "name": "Medical Contacts - Contacts, Relationships, and User-Patient Relationships",
       "weight": 400,
       "parent": "1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0",
-      "pageRef": "functions/patient-registration/medical-contacts-contacts,-relationships,-and-user-patient-relationships.md"
+      "pageRef": "functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md"
     },
     {
       "identifier": "1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg",
@@ -289,7 +289,7 @@
       "name": "Add Document - Legacy View vs. Current View",
       "weight": 440,
       "parent": "1F21zNiYq703LscR9rtGl8pZLjtxvozONvXhkaZFefEI",
-      "pageRef": "functions/document-management/documents-and-forms/add-document-legacy-view-vs-current-view.md"
+      "pageRef": "functions/document-management/documents-and-forms/add-document-legacy-view-vs.-current-view.md"
     },
     {
       "identifier": "1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc",
@@ -513,7 +513,7 @@
       "name": "Batched Documents - Printing, Faxing, Burning",
       "weight": 760,
       "parent": "1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w",
-      "pageRef": "functions/document-management/scanning-and-indexing/batched-documents-printing,-faxing,-burning.md"
+      "pageRef": "functions/document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md"
     },
     {
       "identifier": "1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c",
@@ -898,14 +898,14 @@
       "name": "Tests & Procedures Section - Applying/Adding, Completing, Resulting",
       "weight": 1310,
       "parent": "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo",
-      "pageRef": "functions/encounters/tests-and-procedures-section-applying-adding,-completing,-resulting.md"
+      "pageRef": "functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md"
     },
     {
       "identifier": "1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E",
       "name": "Tests & Procedures Section - Remove, Delete, Edit",
       "weight": 1320,
       "parent": "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo",
-      "pageRef": "functions/encounters/tests-and-procedures-section-remove,-delete,-edit.md"
+      "pageRef": "functions/encounters/tests-and-procedures-section-remove-delete-edit.md"
     },
     {
       "identifier": "1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA",
@@ -1444,7 +1444,7 @@
       "name": "Setting Preferred Pharmacy, Days Supply, and Current Library & Med History Verification",
       "weight": 2090,
       "parent": "1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA",
-      "pageRef": "functions/medication-management-and-e-prescribing/setting-preferred-pharmacy,-days-supply,-and-current-library-and-med-history-verification.md"
+      "pageRef": "functions/medication-management-and-e-prescribing/setting-preferred-pharmacy-days-supply-and-current-library-and-med-history-verification.md"
     },
     {
       "identifier": "1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q",
@@ -1759,14 +1759,14 @@
       "name": "PI_EP_1 -- e-Prescribing",
       "weight": 2540,
       "parent": "1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw",
-      "pageRef": "functions/quality-of-care/measures/promoting-interoperability-pi-measures/pi-ep-1-e-prescribing.md"
+      "pageRef": "functions/quality-of-care/measures/promoting-interoperability-pi-measures/pi_ep_1-e-prescribing.md"
     },
     {
       "identifier": "1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I",
       "name": "PI_PHCDRR_5 -- Clinical Data Registry Reporting",
       "weight": 2550,
       "parent": "1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw",
-      "pageRef": "functions/quality-of-care/measures/promoting-interoperability-pi-measures/pi-phcdrr-5-clinical-data-registry-reporting.md"
+      "pageRef": "functions/quality-of-care/measures/promoting-interoperability-pi-measures/pi_phcdrr_5-clinical-data-registry-reporting.md"
     },
     {
       "identifier": "1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE",
@@ -1871,14 +1871,14 @@
       "name": "BE 7 - Participation in a QCDR, that Promotes Use of Patient Engagement Tools",
       "weight": 2700,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-7-participation-in-a-qcdr,-that-promotes-use-of-patient-engagement-tools.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-7-participation-in-a-qcdr-that-promotes-use-of-patient-engagement-tools.md"
     },
     {
       "identifier": "1qMkrcRWeiGRDtj64PuT-a2jaoIxnHEblJNon5J6btnk",
       "name": "BE 8 - Participation in a QCDR, that Promotes Collaborative Learning Network Opportunities that are Interactive",
       "weight": 2710,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-8-participation-in-a-qcdr,-that-promotes-collaborative-learning-network-opportunities-that-are-interactive.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-8-participation-in-a-qcdr-that-promotes-collaborative-learning-network-opportunities-that-are-interactive.md"
     },
     {
       "identifier": "1GdlE0R7E_rmuJzjesPftlvEXbJ1k9Ji4HfwLWtsly9M",
@@ -1892,14 +1892,14 @@
       "name": "BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.",
       "weight": 2730,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-10-participation-in-a-qcdr,-that-promotes-implementation-of-patient-self-action-plans..md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-10-participation-in-a-qcdr-that-promotes-implementation-of-patient-self-action-plans..md"
     },
     {
       "identifier": "1h2TG1rZF9XrNxl4KcK_A7Q3dLSAHFRo5U4CqAthQsPE",
       "name": "BE 11 - Participation in a QCDR, that Promotes Use of Processes and Tools that Engage Patients for Adherence to Treatment Plan",
       "weight": 2740,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-11-participation-in-a-qcdr,-that-promotes-use-of-processes-and-tools-that-engage-patients-for-adherence-to-treatment-plan.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-11-participation-in-a-qcdr-that-promotes-use-of-processes-and-tools-that-engage-patients-for-adherence-to-treatment-plan.md"
     },
     {
       "identifier": "19eZCdwFGIeRGfT0BkhPoum2aYfCVegyIbkTPw9nctx8",
@@ -1913,7 +1913,7 @@
       "name": "BE 13 - Regularly Assess the Patient Experience of Care Through Surveys, Advisory Councils and/or Other Mechanisms",
       "weight": 2760,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-13-regularly-assess-the-patient-experience-of-care-through-surveys,-advisory-councils-and-or-other-mechanisms.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-13-regularly-assess-the-patient-experience-of-care-through-surveys-advisory-councils-and-or-other-mechanisms.md"
     },
     {
       "identifier": "1dlX8gcySmREFgF3cjpSIXwuKvYZWnNiN9pZiJPwJDDY",
@@ -1927,7 +1927,7 @@
       "name": "BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care",
       "weight": 2780,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-15-engagement-of-patients,-family,-and-caregivers-in-developing-a-plan-of-care.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-15-engagement-of-patients-family-and-caregivers-in-developing-a-plan-of-care.md"
     },
     {
       "identifier": "11h3KmdVGHkRPhrVuoIuYvCGxKT3q_8KBPXG1_4uOou4",
@@ -1955,7 +1955,7 @@
       "name": "BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)",
       "weight": 2820,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-19-use-group-visits-for-common-chronic-conditions-e.g.,-diabetes.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/be-19-use-group-visits-for-common-chronic-conditions-e.g.-diabetes.md"
     },
     {
       "identifier": "1MtI7CYHbe1w9l0HVUD_7dUbDqv-l5qxPPZs3MfZuhBM",
@@ -2088,7 +2088,7 @@
       "name": "CC 6 - Use of QCDR to Promote Standard Practices, Tools and Processes in Practice for Improvement in Care Coordination",
       "weight": 3010,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-6-use-of-qcdr-to-promote-standard-practices,-tools-and-processes-in-practice-for-improvement-in-care-coordination.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/cc-6-use-of-qcdr-to-promote-standard-practices-tools-and-processes-in-practice-for-improvement-in-care-coordination.md"
     },
     {
       "identifier": "123EvV_ti8DIBvPfVtqjpZ_DUXWvNnPNefC-TOqFoch0",
@@ -2207,7 +2207,7 @@
       "name": "ERP 1 - Participation on Disaster Medical Assistance Team, Registered for 6 Months",
       "weight": 3180,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-1-participation-on-disaster-medical-assistance-team,-registered-for-6-months.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/erp-1-participation-on-disaster-medical-assistance-team-registered-for-6-months.md"
     },
     {
       "identifier": "1clpKfYuZXFbqhVHENGpWwJ7OkWd79sK6uTsg_ocGHFA",
@@ -2235,7 +2235,7 @@
       "name": "PM 3 - RHC, IHS, or FQHC Quality Improvement Activities",
       "weight": 3220,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-3-rhc,-ihs,-or-fqhc-quality-improvement-activities.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pm-3-rhc-ihs-or-fqhc-quality-improvement-activities.md"
     },
     {
       "identifier": "1QLvQHkwFRyEF28Fv9E6EsJETKvB-xE2KSqws4laQ0ME",
@@ -2368,7 +2368,7 @@
       "name": "PSPA 3 - Participate in IHI Training/Forum Event: National Academy of Medicine, AHRQ Team STEPPS or Other Similar Activity",
       "weight": 3410,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-3-participate-in-ihi-training-forum-event-national-academy-of-medicine,-ahrq-team-stepps-or-other-similar-activity.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-3-participate-in-ihi-training-forum-event-national-academy-of-medicine-ahrq-team-stepps-or-other-similar-activity.md"
     },
     {
       "identifier": "1lriNLCP62tQRh1kYqbbtOCcwJS-mEd2j_d2dTVohfnE",
@@ -2480,7 +2480,7 @@
       "name": "PSPA 19 - Implementation of Formal Quality Improvement Methods, Practice Changes, or Other Practice Improvement Processes",
       "weight": 3570,
       "parent": "1YbPb92y_0ZPiXk8hR-D11GKV_1AacyaOZNnv2MQmDWI",
-      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-19-implementation-of-formal-quality-improvement-methods,-practice-changes,-or-other-practice-improvement-processes.md"
+      "pageRef": "functions/quality-of-care/measures/improvement-activities-measures/2018-improvement-activities/pspa-19-implementation-of-formal-quality-improvement-methods-practice-changes-or-other-practice-improvement-processes.md"
     },
     {
       "identifier": "1XJaIz-xHIJbNfDf0Jgdh1GIdXJYzKJGPGujFrCQxTCI",
@@ -3089,7 +3089,7 @@
       "name": "Access Control - Adding, Deleting, Editing Users",
       "weight": 4440,
       "parent": "1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8",
-      "pageRef": "functions/system-administration/system-controls/access-control-adding,-deleting,-editing-users.md"
+      "pageRef": "functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md"
     },
     {
       "identifier": "1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg",
@@ -3901,7 +3901,7 @@
       "name": "Device Interface - Tremetrics RA500",
       "weight": 5600,
       "parent": "1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q",
-      "pageRef": "functions/system-administration/interfaces/device-interface-tremetrics-ra500-,-ra300,-ra800.md"
+      "pageRef": "functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md"
     },
     {
       "identifier": "1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8",
@@ -4326,7 +4326,7 @@
       "name": "Real World Testing Plan 2021",
       "weight": 6210,
       "parent": "1Ws2Vhysc7vAiQXeVws2C92oE2Y10i-BYITqCos59cWM",
-      "pageRef": "programs/ehr-certification/real-world-testing-plan-2021.md"
+      "pageRef": "resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md"
     },
     {
       "identifier": "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU",
@@ -4396,7 +4396,7 @@
       "name": "CCDA, CCD and CCR Compatibility",
       "weight": 6310,
       "parent": "1NH8Qsk7DTsUoBvIVdUktgWvOu8yxrDOuOxmy9SsOCwU",
-      "pageRef": "resources/system-specifications/ccda,-ccd-and-ccr-compatibility.md"
+      "pageRef": "resources/system-specifications/ccda-ccd-and-ccr-compatibility.md"
     },
     {
       "identifier": "1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs",
