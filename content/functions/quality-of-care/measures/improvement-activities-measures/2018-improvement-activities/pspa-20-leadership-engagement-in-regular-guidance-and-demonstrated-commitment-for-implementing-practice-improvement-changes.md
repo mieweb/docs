@@ -2,7 +2,7 @@
 id: '1XJaIz-xHIJbNfDf0Jgdh1GIdXJYzKJGPGujFrCQxTCI'
 title: 'PSPA 20 - Leadership Engagement in Regular Guidance and Demonstrated Commitment for Implementing Practice Improvement Changes'
 date: '2020-02-27T20:55:07.595Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

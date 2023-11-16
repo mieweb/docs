@@ -2,7 +2,7 @@
 id: '1tJXbX1wbIuu9m4ckHAi83fVDDXI3gO1vMHFT6yyE2q8'
 title: 'BE 19 - Use Group Visits for Common Chronic Conditions (e.g., diabetes)'
 date: '2020-02-27T20:50:03.466Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

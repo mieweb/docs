@@ -2,7 +2,7 @@
 id: '1CTQj_4OThaRmK3M6IsVzTzEwoDhuy1R635WxIDo3hik'
 title: 'PSPA 16 - Use of Decision Support and Standardized Treatment Protocols'
 date: '2020-02-27T20:54:44.720Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

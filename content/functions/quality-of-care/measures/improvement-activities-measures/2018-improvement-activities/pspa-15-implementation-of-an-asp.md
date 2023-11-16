@@ -2,7 +2,7 @@
 id: '1vG326yCjcL3n8aKuMNJ9Hn1Ya7CgoSTkkltYZyQNpoU'
 title: 'PSPA 15 - Implementation of an ASP'
 date: '2020-02-27T20:54:39.656Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

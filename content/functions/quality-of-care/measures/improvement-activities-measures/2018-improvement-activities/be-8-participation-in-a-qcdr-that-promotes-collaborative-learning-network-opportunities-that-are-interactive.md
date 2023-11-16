@@ -2,7 +2,7 @@
 id: '1qMkrcRWeiGRDtj64PuT-a2jaoIxnHEblJNon5J6btnk'
 title: 'BE 8 - Participation in a QCDR, that Promotes Collaborative Learning Network Opportunities that are Interactive'
 date: '2020-02-27T20:50:46.540Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

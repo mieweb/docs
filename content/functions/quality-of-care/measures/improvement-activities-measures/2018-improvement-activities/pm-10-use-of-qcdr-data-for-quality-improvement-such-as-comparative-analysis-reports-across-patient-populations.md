@@ -2,7 +2,7 @@
 id: '1ipUY_JhDpAVupF11P3IE9Db4prZFIP84A93x8gAZj2A'
 title: 'PM 10 - Use of QCDR Data for Quality Improvement such as Comparative Analysis Reports across Patient Populations'
 date: '2020-02-27T20:53:02.392Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

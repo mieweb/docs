@@ -2,7 +2,7 @@
 id: '1aEmMuVrPrxuKsaa88K3LktMRLcN8lqNS19Z8gR5SXzA'
 title: 'BE 13 - Regularly Assess the Patient Experience of Care Through Surveys, Advisory Councils and/or Other Mechanisms'
 date: '2020-02-27T20:49:42.151Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

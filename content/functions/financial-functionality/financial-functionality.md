@@ -2,7 +2,7 @@
 id: '1nh4HHOr1akWGgol1SR1uC4beRIMW1yEk4pBa-nGMBn0'
 title: 'Financial functionality'
 date: '2021-02-17T19:42:03.299Z'
-version: 12
+version: 13
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []

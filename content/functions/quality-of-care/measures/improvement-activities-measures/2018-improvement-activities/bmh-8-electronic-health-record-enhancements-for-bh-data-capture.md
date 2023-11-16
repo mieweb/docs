@@ -2,7 +2,7 @@
 id: '1prwEQFANInsJgwjmp1c3zxO7rkUs8-fqJ1STBl6SRUQ'
 title: 'BMH 8 - Electronic Health Record Enhancements for BH Data Capture'
 date: '2020-02-27T20:51:24.167Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

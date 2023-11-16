@@ -2,7 +2,7 @@
 id: '1h2TG1rZF9XrNxl4KcK_A7Q3dLSAHFRo5U4CqAthQsPE'
 title: 'BE 11 - Participation in a QCDR, that Promotes Use of Processes and Tools that Engage Patients for Adherence to Treatment Plan'
 date: '2020-02-27T20:49:33.924Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

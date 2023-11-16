@@ -2,7 +2,7 @@
 id: '1Ptw6NFGpsWczzpbsXAqO18N3cRW__-ySpKuY4tJiye4'
 title: 'BMH 9 - Unhealthy Alcohol Use for Patients with Co-occurring Conditions of Mental Health and Substance Abuse and Ambulatory Care Patients'
 date: '2020-02-27T20:48:01.572Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

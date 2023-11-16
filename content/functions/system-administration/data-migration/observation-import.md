@@ -2,7 +2,7 @@
 id: '1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
 title: 'Observation Import'
 date: '2020-02-27T20:46:16.207Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample1.csv'

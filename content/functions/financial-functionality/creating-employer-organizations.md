@@ -2,7 +2,7 @@
 id: '1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ'
 title: 'Creating employer organizations'
 date: '2021-02-18T16:07:46.271Z'
-version: 19
+version: 26
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:

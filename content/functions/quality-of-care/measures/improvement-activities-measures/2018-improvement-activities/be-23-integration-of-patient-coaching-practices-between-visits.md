@@ -2,7 +2,7 @@
 id: '1IePmbl3rEB2qp-rlPnXq-zmujVpGMrAYI0oqE2H1MA4'
 title: 'BE 23 - Integration of Patient Coaching Practices Between Visits'
 date: '2020-02-27T20:50:25.650Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

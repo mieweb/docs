@@ -2,7 +2,7 @@
 id: '1f6W6oJeJeuzCDBTWnQWvfLvFLhW1Navp8kDuWabKWrM'
 title: 'BE 6 - Collection and Follow-up on Patient Experience and Satisfaction Data on Beneficiary Engagement'
 date: '2020-02-27T20:47:47.523Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1l34fMYEZtUHVtzOqEiAs5ol22MOEbNX6eGpIYC2shKA'
 title: 'CC 1 - Implementation of Use of Specialist Reports Back to Referring Clinician or Group to Close Referral Loop'
 date: '2020-02-27T20:51:28.235Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

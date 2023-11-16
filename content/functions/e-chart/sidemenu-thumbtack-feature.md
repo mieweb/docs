@@ -2,7 +2,7 @@
 id: '1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
 title: 'Sidemenu Thumbtack Feature'
 date: '2020-03-09T21:04:49.396Z'
-version: 37
+version: 38
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

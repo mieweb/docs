@@ -2,7 +2,7 @@
 id: '1-N5tV9iyaB7v7DI0HqQFBvePIZWXAsmvU80Grg1mO8c'
 title: 'PSPA 13 - Participation in Joint Commission Evaluation Initiative'
 date: '2020-02-27T20:54:28.964Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

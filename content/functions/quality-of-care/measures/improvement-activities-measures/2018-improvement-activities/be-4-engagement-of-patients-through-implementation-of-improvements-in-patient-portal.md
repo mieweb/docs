@@ -2,7 +2,7 @@
 id: '1H4PkE0e1TAk9tFpwJKp6h80svnTj9xzdV5vphnZDzN8'
 title: 'BE 4 - Engagement of Patients through Implementation of Improvements in Patient Portal'
 date: '2020-02-27T20:50:34.611Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

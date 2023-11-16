@@ -2,7 +2,7 @@
 id: '1OhBnjNN2Prb5XVOBzBxm9qiYmJt67po4lJS7M7Lj7rc'
 title: 'PSPA 22 - CDC Training on CDCs Guideline for Prescribing Opioids for Chronic Pain'
 date: '2020-02-27T20:48:41.450Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

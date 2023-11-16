@@ -2,7 +2,7 @@
 id: '1ItMLcQN5Tn-2om-WDb2vDBGfgnpVisATRfpzp8MUhLc'
 title: 'PM 6 - Use of Toolsets or Other Resources to Close Healthcare Disparities Across Communities'
 date: '2020-02-27T20:54:02.515Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '123EvV_ti8DIBvPfVtqjpZ_DUXWvNnPNefC-TOqFoch0'
 title: 'CC 7 - Regular Training in Care Coordination'
 date: '2020-02-27T20:52:28.404Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

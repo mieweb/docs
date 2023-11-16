@@ -2,7 +2,7 @@
 id: '1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE'
 title: 'Chart Types Editor'
 date: '2020-03-20T17:54:38.850Z'
-version: 74
+version: 75
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

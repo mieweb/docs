@@ -2,7 +2,7 @@
 id: '10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE'
 title: 'Quick View - Due List Portlet'
 date: '2020-03-10T16:13:43.615Z'
-version: 55
+version: 56
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

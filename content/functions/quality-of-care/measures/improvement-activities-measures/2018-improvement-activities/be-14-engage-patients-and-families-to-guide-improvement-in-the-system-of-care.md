@@ -2,7 +2,7 @@
 id: '1dlX8gcySmREFgF3cjpSIXwuKvYZWnNiN9pZiJPwJDDY'
 title: 'BE 14 - Engage Patients and Families to Guide Improvement in the System of Care'
 date: '2020-02-27T20:47:42.924Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

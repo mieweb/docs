@@ -2,7 +2,7 @@
 id: '1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY'
 title: 'Resource Restrictions'
 date: '2020-02-27T20:20:52.770Z'
-version: 36
+version: 37
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY'

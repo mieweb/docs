@@ -2,7 +2,7 @@
 id: '1AACKkzzNLsNeOt96WQPz0ejOpnaeIdl_tj19mae23SE'
 title: 'BE 2 - Use of QCDR to Support Clinical Decision Making'
 date: '2020-02-27T20:50:08.426Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

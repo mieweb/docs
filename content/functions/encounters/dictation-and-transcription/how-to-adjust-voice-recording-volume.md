@@ -2,7 +2,7 @@
 id: '1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
 title: 'How to Adjust Voice Recording Volume'
 date: '2020-03-25T20:35:56.079Z'
-version: 44
+version: 45
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

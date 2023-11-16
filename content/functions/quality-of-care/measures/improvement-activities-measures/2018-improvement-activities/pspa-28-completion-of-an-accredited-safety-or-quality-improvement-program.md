@@ -2,7 +2,7 @@
 id: '1kLDyLHjgKcskz4gdmvmRIhZ7BviTbOp36huUukFg0V4'
 title: 'PSPA 28 - Completion of an Accredited Safety or Quality Improvement Program'
 date: '2020-02-27T20:55:35.995Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

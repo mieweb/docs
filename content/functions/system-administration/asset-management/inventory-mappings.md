@@ -2,7 +2,7 @@
 id: '1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos'
 title: 'Inventory Mappings'
 date: '2022-08-09T16:04:42.801Z'
-version: 72
+version: 80
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []

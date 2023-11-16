@@ -2,7 +2,7 @@
 id: '1le-_NZkzK_bBYchn7v2WUcRYosryUgpLDBeyHlh_Ays'
 title: 'PM 13 - Chronic Care and Preventative Care Management for Empaneled Patients'
 date: '2020-02-27T20:53:15.828Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

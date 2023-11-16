@@ -2,7 +2,7 @@
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
 date: '2020-03-16T14:57:56.799Z'
-version: 78
+version: 79
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
