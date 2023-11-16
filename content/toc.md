@@ -683,6 +683,7 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
          * [Security](functions/system-administration/security.md)
          * [System Controls](functions/system-administration/system-controls.md)
       * System Configuration
+         * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md)
          * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
          * [Chart Tabs](functions/system-configuration/chart-tabs.md)
          * [Chart Types Editor](functions/system-configuration/chart-types-editor.md)
@@ -808,6 +809,7 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
             * Real World Testing
                * [Real World Testing Plan 2021](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md)
                * [Real World Testing Plan 2023](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2023.md)
+               * [Real World Testing Plan 2024](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2024.md)
                * [Real World Testing Results 2022](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-results-2022.md)
                * [RWT Results 2022 Q1](resources/system-specifications/ehr-certification/real-world-testing/rwt-results-2022-q1.md)
                * [RWT Results 2022 Q2](resources/system-specifications/ehr-certification/real-world-testing/rwt-results-2022-q2.md)
@@ -815,6 +817,9 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
                * [RWT Results 2022 Q4](resources/system-specifications/ehr-certification/real-world-testing/rwt-results-2022-q4.md)
                * [RWT Results 2023 Q1Q2](resources/system-specifications/ehr-certification/real-world-testing/rwt-results-2023-q1q2.md)
             * [Real World Testing](resources/system-specifications/ehr-certification/real-world-testing.md)
+         * Electronic Health Information (EHI) Export
+            * [EHI Export for End Users](resources/system-specifications/electronic-health-information-ehi-export/ehi-export-for-end-users.md)
+            * [EHI Export Technical Details](resources/system-specifications/electronic-health-information-ehi-export/ehi-export-technical-details.md)
          * FHIR Application Programming Interface (API)
             * [Endpoints](resources/system-specifications/fhir-application-programming-interface-api/endpoints.md)
             * [OAuth 2.0 Tutorial](resources/system-specifications/fhir-application-programming-interface-api/oauth-2.0-tutorial.md)
@@ -875,6 +880,7 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
          * [Chart PUR Import Options](resources/system-specifications/chart-pur-import-options.md)
          * [Client Hardware and Software Specifications](resources/system-specifications/client-hardware-and-software-specifications.md)
          * [Copy of Chart PUR Import Options](resources/system-specifications/copy-of-chart-pur-import-options.md)
+         * [Electronic Health Information (EHI) Export](resources/system-specifications/electronic-health-information-ehi-export.md)
          * [Encryption Statement](resources/system-specifications/encryption-statement.md)
          * [FHIR Application Programming Interface (API)](resources/system-specifications/fhir-application-programming-interface-api.md)
          * [Interface Specifications](resources/system-specifications/interface-specifications.md)
