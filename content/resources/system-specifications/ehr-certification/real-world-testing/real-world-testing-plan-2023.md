@@ -1,9 +1,9 @@
 ---
 id: '1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
 title: 'Real World Testing Plan 2023'
-date: '2023-04-26T15:38:11.049Z'
-version: 933
-lastAuthor: 'Dave Carlson'
+date: '2023-10-30T20:26:27.544Z'
+version: 942
+lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -586,7 +586,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 </tr>
 <tr>
 <td><strong>Health IT Module CHPL ID</strong></td>
-<td>TBD*</td>
+<td><strong>0015E8UJ8KHX8QL</strong></td>
 </tr>
 <tr>
 <td><strong>Method used for standard update</strong></td>
