@@ -2,20 +2,14 @@
 id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
 title: 'HL7 - RESTful'
 date: '2020-03-19T18:47:19.729Z'
-version: 45
+version: 46
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'HL7 - RESTful'
-    identifier: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
-    parent: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
-    weight: 5390
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
-## CGI Vars Explained  
+## CGI Vars Explained
 
 
 <table>
@@ -75,15 +69,11 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 </tr>
 
 </table>
-  
-## **Sample Webform Post**  
 
+## **Sample Webform Post**
 
-```
-  
-
-```
-<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">  
+`  
+`<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">  
     Select file to upload: <input type="file" name="message" value="message" size="45" id="file"><BR>  
     Interface Name:<input size="40" type="text" name="interface" id="interface" value="Assigned Interface Name"><BR>  
     <input type='hidden' name='f' value='wchl7'>  
@@ -93,38 +83,38 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 </FORM>
 
 ```
-  
-
-```
-  
-## **Sample Bash Script**  
 
 
 ```
-  
-#!/bin/bash  
-  
-if [ $# -lt 5 ]; then  
-	echo Usage: $0 interface message user password url  
-	exit 1  
-fi  
-  
-INTERFACE=$1  
-MESSAGE=$2  
-LOGINUSER=$3  
-LOGINPASS=$4  
-URL=$5  
-  
-curl -i \  
--F "f=wchl7" \  
--F "interface=$INTERFACE" \  
--F "login_user=$LOGINUSER" \  
--F "login_passwd=$LOGINPASS" \  
--F "message=@$MESSAGE" \  
-"$URL"  
+
+## **Sample Bash Script**
+
 
 ```
-  
-## **Supported Message Types**  
-  
+
+#!/bin/bash
+
+if [ $# -lt 5 ]; then
+	echo Usage: $0 interface message user password url
+	exit 1
+fi
+
+INTERFACE=$1
+MESSAGE=$2
+LOGINUSER=$3
+LOGINPASS=$4
+URL=$5
+
+curl -i \
+-F "f=wchl7" \
+-F "interface=$INTERFACE" \
+-F "login_user=$LOGINUSER" \
+-F "login_passwd=$LOGINPASS" \
+-F "message=@$MESSAGE" \
+"$URL"
+
+```
+
+## **Supported Message Types**
+
 [Accepted HL7 Message types](#gjdgxs)

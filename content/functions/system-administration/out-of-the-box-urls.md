@@ -2,7 +2,7 @@
 id: '1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
 title: 'Out-of-the-Box Urls'
 date: '2020-02-27T21:32:04.753Z'
-version: 22
+version: 23
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -20,348 +20,312 @@ links:
   - 'data-migration/create-pft-data-file-for-import.md'
   - 'data-migration/summary-documents-csv-api.md'
 source: 'https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-wikigdrive: '74f4d1b504045661a4a97b0e3aea1d65b95f37ab'
-menu:
-  main:
-    name: 'Out-of-the-Box Urls'
-    identifier: '1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-    parent: '1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
-    weight: 5760
+wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ---
 The following URLs have been compiled to assist with any implementation efforts which may call for a list of friendly domains, which will require whitelisting for user access using the {{% system-name %}} system. 
-  
-### Quick View → Administrator Welcome → News Feed Blog  
+
+### Quick View → Administrator Welcome → News Feed Blog
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-http://blog.enterprisehealth.com/topic/news-and-events  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### E-Chart → References  
+{{% pre %}}
+
+
+http://blog.enterprisehealth.com/topic/news-and-events
+
+
+{{% /pre %}}
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://www.mieweb.com/  
-  
-https://www.nomoreclipboard.com/  
-  
-https://www.google.com/?gws_rd=ssl#spf=1568128298269  
-  
-https://www.uptodate.com/home  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### Warnings & Alerts Portlet in Summary Chart tab (ePSS)  
+### E-Chart → References
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### Case Management Encounter:  
+{{% pre %}}
+
+
+https://www.mieweb.com/
+
+https://www.nomoreclipboard.com/
+
+https://www.google.com/?gws_rd=ssl#spf=1568128298269
+
+https://www.uptodate.com/home
+
+
+{{% /pre %}}
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://www.bls.gov/ncs/ors/physical-072015.htm  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### Absence Management Encounter:  
+### Warnings & Alerts Portlet in Summary Chart tab (ePSS)
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://www.mdguidelines.com/  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### Patient Portal → Other Health Resources website URLs (in the info cards) are OOTB for:  
+{{% pre %}}
 
-  
-#### Mayo Clinic  
+
+https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true
+
+
+{{% /pre %}}
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-//www.mayoclinic.org/  
-  
-//www.mayoclinic.org/healthy-lifestyle  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-#### American Heart Association  
+### Case Management Encounter:
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-//www.heart.org/HEARTORG/  
-  
-//www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-#### CDC  
+{{% pre %}}
+
+
+https://www.bls.gov/ncs/ors/physical-072015.htm
+
+
+{{% /pre %}}
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-//www.cdc.gov/  
-  
-//www.cdc.gov/about/24-7/index.html  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-#### American Cancer Society  
+### Absence Management Encounter:
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-//www.heart.org/HEARTORG/  
-  
-//www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-#### International SOS  
+{{% pre %}}
+
+
+https://www.mdguidelines.com/
+
+
+{{% /pre %}}
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-//www.internationalsos.com/  
-  
-//www.internationalsos.com/medical-and-security-services  
-  
-  
-  
-{{% /pre %}}  
-  
-  
+
+### Patient Portal → Other Health Resources website URLs (in the info cards) are OOTB for:
+
+
+#### Mayo Clinic
+
+
 
 ```
-  
-### Portal URLS  
+
+{{% pre %}}
+
+
+//www.mayoclinic.org/
+
+//www.mayoclinic.org/healthy-lifestyle
+
+
+{{% /pre %}}
+
+
+
+```
+
+#### American Heart Association
+
+
+
+```
+
+{{% pre %}}
+
+
+//www.heart.org/HEARTORG/
+
+//www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
+
+
+{{% /pre %}}
+
+
+
+```
+
+#### CDC
+
+
+
+```
+
+{{% pre %}}
+
+
+//www.cdc.gov/
+
+//www.cdc.gov/about/24-7/index.html
+
+
+{{% /pre %}}
+
+
+
+```
+
+#### American Cancer Society
+
+
+
+```
+
+{{% pre %}}
+
+
+//www.heart.org/HEARTORG/
+
+//www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
+
+
+{{% /pre %}}
+
+
+
+```
+
+#### International SOS
+
+
+
+```
+
+{{% pre %}}
+
+
+//www.internationalsos.com/
+
+//www.internationalsos.com/medical-and-security-services
+
+
+{{% /pre %}}
+
+
+
+```
+
+### Portal URLS
 
 * URL to access Applicant Portal is unique per customer (if utilized)
 * URL to access Employee/Supervisor Portal is unique per customer (if utilized)
-  
-### Patient Education  
+
+### Patient Education
 
 * Due to the need of a unique key for access, Healthwise would use a unique URL per customer, which will be configured for the client if this functionality is utilized. 
 **Example**: [https://clinicianIx.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC](https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC)
-  
-### Injections Module or Tests/Procedures (VIS handouts)  
+
+### Injections Module or Tests/Procedures (VIS handouts)
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://www.immunize.org/vis/vis_english.asp  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### Implantable Devices  
+{{% pre %}}
+
+
+https://www.immunize.org/vis/vis_english.asp
+
+
+{{% /pre %}}
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://accessgudid.nlm.nih.gov/devices/  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### DOT encounter  
+### Implantable Devices
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://www.fmcsa.dot.gov  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### FroozHIE tool (CCDA/CCR/CDA)  
+{{% pre %}}
+
+
+https://accessgudid.nlm.nih.gov/devices/
+
+
+{{% /pre %}}
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://www.froozhie.com/froo.cgi  
-  
-  
-  
-{{% /pre %}}  
-  
-  
 
-```
-  
-### Online Help  
+### DOT encounter
 
 
 
 ```
-  
-  
-{{% pre %}}  
-  
-  
-https://docs.enterprisehealth.com (for EH clients)  
-  
-https://docs.webchartnow.com (for WebChart clients)  
-  
-  
-  
-{{% /pre %}}  
-  
-  
+
+{{% pre %}}
+
+
+https://www.fmcsa.dot.gov
+
+
+{{% /pre %}}
+
+
 
 ```
-  
-## Data Import   
+
+### FroozHIE tool (CCDA/CCR/CDA)
+
+
+
+```
+
+{{% pre %}}
+
+
+https://www.froozhie.com/froo.cgi
+
+
+{{% /pre %}}
+
+
+
+```
+
+### Online Help
+
+
+
+```
+
+{{% pre %}}
+
+
+https://docs.enterprisehealth.com (for EH clients)
+
+https://docs.webchartnow.com (for WebChart clients)
+
+
+{{% /pre %}}
+
+
+
+```
+
+## Data Import 
 
 The following documents are available for additional information and specifications on data importation.
 [Audiometric Data CSV API](data-migration/create-audiometric-data-file-for-import.md) 

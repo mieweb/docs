@@ -1,9 +1,9 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2022-09-09T13:14:27.246Z'
-version: 495
-lastAuthor: 'Emily McComb'
+date: '2023-11-13T22:09:16.128Z'
+version: 517
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://blog.enterprisehealth.com/videos/a-complete-employee-health-solution'
@@ -64,7 +64,6 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 ### Build a Free Trial
 
 {{% gvideo  id="1yDOYEjeIbwyvd75jjit0zYC3boxmBPoR" %}}
-
 
 
 ### Welcome to WebChart
