@@ -4,7 +4,7 @@ title = "Enterprise Health and WebChart Preview"
 theme = "wc-eh-docs"
 publishDir = "public"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir= false
 enableGitInfo = true
 
 [frontmatter]
