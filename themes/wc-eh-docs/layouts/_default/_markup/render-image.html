@@ -1,0 +1,5 @@
+{{ if strings.HasSuffix .Destination ".svg"}}
+<object type="image/svg+xml" data="{{ .Destination | safeURL }}" />
+{{ else }}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+{{ end }}
