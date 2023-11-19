@@ -2,7 +2,7 @@
 id: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
 title: 'Provider Quality of Care Status'
 date: '2020-02-27T20:43:38.560Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&module=reports&name=reports&tabmodule=reports'

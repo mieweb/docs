@@ -2,7 +2,7 @@
 id: '1GGqEjpljaHjSu1ZhgbJJdh1aPJY8q2Pb8gBAPQJH-hI'
 title: 'Deals'
 date: '2021-02-17T19:42:06.794Z'
-version: 15
+version: 16
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []

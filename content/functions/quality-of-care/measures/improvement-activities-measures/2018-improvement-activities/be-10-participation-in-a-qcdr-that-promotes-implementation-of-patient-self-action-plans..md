@@ -2,7 +2,7 @@
 id: '1BZ2MbvXj2wCPGlci4j-u8ophytUvzFnk5oQlKWqdaa0'
 title: 'BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.'
 date: '2020-02-27T20:49:27.297Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

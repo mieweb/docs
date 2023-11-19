@@ -2,7 +2,7 @@
 id: '1gRYfeUHGiLquKk9t2JdT7N9FB4E6usFStodhy2VLLUg'
 title: 'Inventory Transaction Report'
 date: '2020-02-27T20:14:45.791Z'
-version: 27
+version: 28
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gRYfeUHGiLquKk9t2JdT7N9FB4E6usFStodhy2VLLUg'

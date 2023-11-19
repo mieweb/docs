@@ -2,7 +2,7 @@
 id: '1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
 title: 'CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)'
 date: '2022-04-20T19:45:18.490Z'
-version: 46
+version: 47
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:

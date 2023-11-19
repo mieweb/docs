@@ -2,7 +2,7 @@
 id: '1paoOm5OXD3MEGCt8r-PQEYZ5Jd-OPLgWuvu2JMGkBbg'
 title: 'PSPA 7 - Use of QCDR Data for Ongoing Practice Assessment and Improvements'
 date: '2020-02-27T20:56:02.586Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

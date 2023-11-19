@@ -2,7 +2,7 @@
 id: '1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
 title: 'Closing Encounters from the Dictation Module'
 date: '2020-03-12T21:01:32.907Z'
-version: 38
+version: 39
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

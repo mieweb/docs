@@ -2,7 +2,7 @@
 id: '1bC41bFs0HAtXY3bdrWDajpfRa-aD4BOohmc2R6g2wOo'
 title: 'BE 18 - Provide Peer-led Support for Self-management'
 date: '2020-02-27T20:49:59.065Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

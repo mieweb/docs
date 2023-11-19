@@ -2,7 +2,7 @@
 id: '1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
 title: 'Disabling Inactive User Access & Accounts'
 date: '2020-02-27T20:43:05.104Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'

@@ -2,7 +2,7 @@
 id: '1aYCBEvN-Vdk7ZgWv7OkCCTOnJkiGpXbKTfVjnjOsaFo'
 title: 'PSPA 18 - Measurement and Improvement at the Practice and Panel Level'
 date: '2020-02-27T20:54:54.142Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

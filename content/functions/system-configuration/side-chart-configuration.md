@@ -2,7 +2,7 @@
 id: '1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
 title: 'Side Chart Configuration'
 date: '2020-03-05T17:32:44.289Z'
-version: 48
+version: 49
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

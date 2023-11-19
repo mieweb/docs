@@ -2,7 +2,7 @@
 id: '1cOmkqlSjVkfZtpNOOYSyGMM6K3pE26qzEDVZXOeM04M'
 title: 'Adding items to fee schedules'
 date: '2021-02-17T22:45:32.263Z'
-version: 20
+version: 21
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:

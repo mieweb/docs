@@ -2,7 +2,7 @@
 id: '1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
 title: 'Device Interface - Piccolo System'
 date: '2020-02-27T20:28:32.748Z'
-version: 23
+version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'

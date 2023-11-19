@@ -2,7 +2,7 @@
 id: '1dOhB5E8UNaECKEDJR1ZwL0isMZCSdEHuIcnyC7OAmhU'
 title: 'PM 17 - Participation in Population Health Research'
 date: '2020-02-27T20:53:37.600Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

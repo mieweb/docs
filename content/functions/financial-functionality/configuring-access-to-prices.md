@@ -2,7 +2,7 @@
 id: '1lBr46ADVjyFfGmtfJEHgiTOSGxzYKZ2wQtjcGN-DOm8'
 title: 'Configuring access to prices'
 date: '2021-02-18T16:00:00.468Z'
-version: 15
+version: 16
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:

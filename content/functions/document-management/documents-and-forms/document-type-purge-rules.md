@@ -2,7 +2,7 @@
 id: '1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg'
 title: 'Document Type Purge Rules'
 date: '2020-03-23T18:15:06.981Z'
-version: 60
+version: 61
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

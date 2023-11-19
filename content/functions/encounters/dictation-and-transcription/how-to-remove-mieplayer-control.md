@@ -2,7 +2,7 @@
 id: '1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o'
 title: 'How to Remove MIEPlayer Control'
 date: '2020-03-12T20:49:00.254Z'
-version: 38
+version: 39
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

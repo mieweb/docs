@@ -2,7 +2,7 @@
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
 date: '2020-03-10T17:21:10.201Z'
-version: 69
+version: 70
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

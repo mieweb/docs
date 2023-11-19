@@ -2,7 +2,7 @@
 id: '1pISPoaGjFEUXJIn4L596IzcvvNexhYS3IoxcKs1hBxU'
 title: 'Changing status of transactions'
 date: '2021-02-17T22:55:00.202Z'
-version: 19
+version: 20
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:

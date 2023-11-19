@@ -2,7 +2,7 @@
 id: '1kCuPtPP5z_mmvgci5LjvEWVraB0MhtL5InFLxqanX1k'
 title: 'BE 15 - Engagement of Patients, Family, and Caregivers in Developing a Plan of Care'
 date: '2020-02-27T20:49:46.111Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

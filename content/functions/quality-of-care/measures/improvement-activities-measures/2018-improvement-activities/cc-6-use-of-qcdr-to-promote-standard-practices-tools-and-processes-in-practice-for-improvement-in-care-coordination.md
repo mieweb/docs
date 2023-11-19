@@ -2,7 +2,7 @@
 id: '1Itv6jrGg1O3hHlVmi-FDNtdsztdVtBi_xThflKLo2uQ'
 title: 'CC 6 - Use of QCDR to Promote Standard Practices, Tools and Processes in Practice for Improvement in Care Coordination'
 date: '2020-02-27T20:52:23.480Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

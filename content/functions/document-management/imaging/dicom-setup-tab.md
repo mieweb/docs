@@ -2,7 +2,7 @@
 id: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
 title: 'DICOM Setup Tab'
 date: '2020-03-09T19:34:25.790Z'
-version: 35
+version: 36
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

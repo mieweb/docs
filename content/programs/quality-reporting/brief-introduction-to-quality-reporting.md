@@ -2,7 +2,7 @@
 id: '1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o'
 title: 'Brief Introduction to Quality Reporting'
 date: '2020-02-28T17:00:04.178Z'
-version: 31
+version: 33
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

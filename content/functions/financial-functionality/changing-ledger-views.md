@@ -2,7 +2,7 @@
 id: '1Mwnmcg-Lvz8wiRmN-NaXvKaKhLlAzK-kSKlDPjRp2a0'
 title: 'Changing ledger views'
 date: '2021-02-17T22:50:16.684Z'
-version: 18
+version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:

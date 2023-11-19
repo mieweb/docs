@@ -2,7 +2,7 @@
 id: '1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw'
 title: 'Device Interface - Benson CCS-200 Spirometer'
 date: '2020-03-18T14:49:40.210Z'
-version: 64
+version: 65
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

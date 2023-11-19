@@ -2,7 +2,7 @@
 id: '1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
 title: 'Language Tab - Create New Help Bubble Text'
 date: '2020-02-27T20:20:44.606Z'
-version: 32
+version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'

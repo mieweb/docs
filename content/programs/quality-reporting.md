@@ -2,7 +2,7 @@
 id: '1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
 title: 'Quality Reporting'
 date: '2020-02-27T21:26:25.410Z'
-version: 43
+version: 45
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

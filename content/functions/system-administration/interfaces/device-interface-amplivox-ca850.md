@@ -2,7 +2,7 @@
 id: '1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
 title: 'Device Interface - Amplivox CA850'
 date: '2020-03-19T19:02:19.406Z'
-version: 30
+version: 31
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

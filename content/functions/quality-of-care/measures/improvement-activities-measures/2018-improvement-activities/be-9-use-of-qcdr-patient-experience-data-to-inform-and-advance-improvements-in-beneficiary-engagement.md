@@ -2,7 +2,7 @@
 id: '1GdlE0R7E_rmuJzjesPftlvEXbJ1k9Ji4HfwLWtsly9M'
 title: 'BE 9 - Use of QCDR Patient Experience Data to Inform and Advance Improvements in Beneficiary Engagement'
 date: '2020-02-27T20:50:50.751Z'
-version: 16
+version: 17
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

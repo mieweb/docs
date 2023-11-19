@@ -2,7 +2,7 @@
 id: '16AgcK4vJ6iK8GaD6OvbIGeLya65G1r1YJrCH6C1mTWE'
 title: 'Editing alert comments of employer organizations'
 date: '2021-02-22T16:15:41.376Z'
-version: 27
+version: 28
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:

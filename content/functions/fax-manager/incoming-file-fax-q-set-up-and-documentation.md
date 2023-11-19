@@ -2,7 +2,7 @@
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q Set-Up and Documentation'
 date: '2022-10-26T20:27:32.328Z'
-version: 314
+version: 317
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'
 title: 'System Configuration'
 date: '2020-02-27T19:31:27.327Z'
-version: 31
+version: 32
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g_frQrmRQNVXiUxZbiFQazraiJ-RFioG49ZunOCSejw'

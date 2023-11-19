@@ -2,7 +2,7 @@
 id: '14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
 title: 'Duplicating fee schedules'
 date: '2021-02-18T16:21:40.612Z'
-version: 18
+version: 19
 lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links:
