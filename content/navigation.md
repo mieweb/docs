@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2023-10-27T15:46:53.961Z'
-version: 335
-lastAuthor: 'Alice Uhrick'
+date: '2023-11-20T20:46:10.292Z'
+version: 350
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -251,6 +251,7 @@ links:
   - 'functions/system-configuration/autocomplete-editor.md'
   - 'functions/system-configuration/fee-schedules.md'
   - 'functions/e-chart/security-best-practices.md'
+  - 'functions/system-configuration/ask-at-order-entry-aoe-editor.md'
   - 'functions/quality-of-care.md'
   - 'functions/quality-of-care/quality-reporting-enrollment.md'
   - 'functions/quality-of-care/provider-quality-of-care-status.md'
@@ -424,6 +425,7 @@ links:
   - 'functions/reports/exporting-report-data.md'
   - 'functions/reports/fill-reports.md'
   - 'functions/reports/guideline-report.md'
+  - 'functions/reports/health-surveillance-reports.md'
   - 'functions/reports/incidents-report.md'
   - 'functions/reports/inventory-transaction-report.md'
   - 'functions/reports/meaningful-use-reports.md'
@@ -687,7 +689,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 * [Programs](programs.md)
    * [Medical Programs](programs/medical-programs.md)
@@ -935,7 +937,7 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
       * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
       * [Fee Schedules](functions/system-configuration/fee-schedules.md)
       * [Security Best Practices](functions/e-chart/security-best-practices.md)
-      * Ask at Order Entry AOE Editor
+      * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md)
    * [Quality of Care](functions/quality-of-care.md)
       * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
       * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
@@ -1109,6 +1111,7 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
       * [Exporting Report Data](functions/reports/exporting-report-data.md)
       * [Fill Reports](functions/reports/fill-reports.md)
       * [Guideline Report](functions/reports/guideline-report.md)
+      * [Health Surveillance Reports](functions/reports/health-surveillance-reports.md)
       * [Incidents Report](functions/reports/incidents-report.md)
       * [Inventory Transaction Report](functions/reports/inventory-transaction-report.md)
       * [Meaningful Use Reports](functions/reports/meaningful-use-reports.md)
