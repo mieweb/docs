@@ -1,8 +1,8 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2023-11-20T20:51:07.785Z'
-version: 182
+date: '2023-11-22T19:22:42.904Z'
+version: 190
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -28,7 +28,6 @@ Accommodations can be documented using the Accommodations section of an encounte
 ![](../health-surveillance-reports.assets/4a847f6dad5e62b50947e7c327853b78.png)
 
 {{% note %}}
-
 Permanent vs Temporary accommodations is how an accommodation is categorized upon its end date.  If an accommodation does not have an end date, then it is considered Permanent.  If an accommodation has an end date, then it is considered Temporary.
 {{% /note %}}
 
