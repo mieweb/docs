@@ -1,15 +1,16 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2023-11-22T19:22:42.904Z'
-version: 190
+date: '2023-11-22T19:33:31.982Z'
+version: 194
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
-Health Surveillance Reports  
+## Health Surveillance Reports
+
 You must have security permission to the Reports module/tab within {{% system-name %}}. This permission is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users to access the Reports left sidemenu tab module. 
 
 ![](../health-surveillance-reports.assets/09ec61d9ee49b68f313c43d40f34ad2e.png)
