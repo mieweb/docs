@@ -1,82 +1,122 @@
 ---
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
-date: '2022-09-13T18:09:46.268Z'
-version: 71
-lastAuthor: 'Kelly Volz'
+date: '2023-11-22T19:07:33.117Z'
+version: 132
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=chart'
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
-  - '../system-administration/security/my-settings.md'
-  - 'https://system/'
-  - 'https://system/?func=omniscope'
-  - 'https://system/?func=logout'
+links: []
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
-## **Patient/Employee/Chart Simple Search Screen**
+## Basic Initial System Information
 
-* When logging into {{% system-name %}} , most users will navigate to the [E-Chart sidemenu](https://system/?f=chart).  The E-Chart side menu tab is the patient/employee search screen. By default, users will be directed to the <strong>Simple</strong> search screen. Users can change their default landing page upon login of the system by accessing [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the <strong>Control Panel</strong> and changing the <em>Default Page</em> setting.
+We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that.  This guide will go over basic initial system information and navigation.  When logging into {{% system-name %}} , you will be set to land on a default page.  Likely, it will be the Quick View sidemenu tab.  However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the *Default Page* setting.
 
-![](../basic-initial-system-information.assets/de26608ecff76dd9b380a7723208f481.png)
+### Chart Simple Search Screen
 
-* The patient/employee search screen is usually defaulted to search by <strong>Name</strong>.  When searching by name, users should enter the last name followed by a comma and then first name.  Users can enter the full first and last name or a few characters of each to render results.
-* Users can also search for patients/employees by Employee/Medical Record Number, Social Security Number (entered with no dashes), DOB, Home Phone number (clicking the Home Phone number hyperlink allows users to search by alternate phone number, cell phone number and work phone number as well) or Doc ID.
-* If the search criteria entered is an exact match for only one patient/employee, the user will automatically be taken into that chart.  Otherwise, a list of patients/employees will be generated and the user can click on any of the employee/patient information such as last name, first name, DOB, etc to access the chart.
-* If it is an exact match, it will go directly into the patient's chart. Otherwise, it will give you a list of choices that match the search you typed in.  You can select the patient or search again.
-* Users can specify their default patient/employee search criteria by accessing the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in Control Panel and editing the <em>Search By</em> setting.
-* If desired, MIE can edit the system setting to turn off the <em>Search by Social Security Number</em> option.  This will remove the search ability from the Simple and Detailed search screens in E-Chart. It will also remove the Social Security column from the Recent Employees/Patients screen.   To turn off the social security search option in other modules or layouts, please contact MIE for assistance.
+Some users prefer to have their default landing page be the E-Chart sidemenu. The E-Chart side menu tab is the chart search screen. By default, users will be directed to the **Simple** search type, but a My Settings preference is available to change that default search type.
 
-## **Changing System Settings Per User**
+![](../basic-initial-system-information.assets/e747f5596bbde46aff2c4cd2aa89c990.png)
 
-* Users who have security access to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) of the Control Panel are able to set their own system defaults and preferences as well as change settings for other users, individually or system-wide.  
-* The [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) screen will default to the logged-in user's settings.  This can be changed by clicking the dropdown option in the upper-right corner of the screen.
-* Users can view the help document named [My Settings](../system-administration/security/my-settings.md) that will explain every setting present on the screen.
-* The following are some basic settings that can be changed for each user or could be changed for the entire system default.
-   * <strong>Default Location</strong> (found in the WebChart User Interface section)- this is to designate the location that a user is associated with if more than one location is entered in the system. If more than one location exists, users should set the location where they work at most frequently with this setting.
-   * <strong>Search By</strong> (found in the E-Chart Patient Search Criteria section) - this is to set the user's preferred patient search method by name, MR number, SSN, birth date, home phone number or document id.  
-   * <strong>Starting Folder</strong> (found in the E-Chart Defaults section) - this will designate which chart tab the user will navigate to when accessing a chart.  
-   * <strong>Number of Recent Patients</strong> (found in the E-Chart Defaults section) - this will determine the maximum number of employees/patients that will display in the <em>Your Recent Employees</em> section of the [E-Chart](https://system/?f=chart) screen.
-* To save changes to the [My Settings](https://system/) screen, users should click on the <strong>Submit Settings</strong> button located at the top or the bottom of this screen. Once the changes have been saved, the user will receive a message to indicate that the setting updates were successful.
+The Chart search screen is usually defaulted to search by **Name**.  When searching by name, users should enter the last name followed by a comma and then first letter or first name.  A wild card % search is available.  For instance, search by %erson if you wanted to find any charts who have *erson* within their last name.
 
-![](../basic-initial-system-information.assets/28d67e625ec307688fa90263badcce1c.png)
+Users can also search for charts by Medical Record Number, Social Security Number (entered with no dashes), Date of Birth, or by some phone number. Clicking the Phone number hyperlink allows users to toggle to search by alternate phone number, mobile phone number and work phone number as well.
+
+![](../basic-initial-system-information.assets/3bc11841142b10626a60637a416fefb8.png)
+
+If the search criteria entered finds an exact match for only one found chart, the user will automatically be taken into that chart.  Otherwise, a list of charts will be generated and the user can select any of the charts in the list of results, to access the chart.
+
+{{% note %}}
+
+Charts may be restricted to you.  You will find other help documentation guides around Locked or Restricted Charts.
+{{% /note %}}
+If desired, the system can be configured to turn off the *Search by Social Security Number* option.  This will remove the SSN search ability from the Simple and Detailed chart search screens. It will also remove the Social Security column from the Recent Employees/Patients listing.   To turn off the social security search option in other modules or layouts, please contact MIE for assistance.
 
 
-### **Document Summary Tab**
+### **Document**s** Chart Tab**
 
-* By default, {{% system-name %}}  will include a <strong>Document Summary</strong> (or Documents) chart tab in the chart.  By design, all documents stored in the chart will be mapped to the Document Summary chart tab unless otherwise changed by a user.
-* The number in parenthesis next to the title of a chart tab, in this case the Documents tab, indicates how many documents exist in that chart tab. If no number exists, no documents exist in that chart tab.
-* When searching for documents in the chart, users can either navigate to the specific chart tab the document is mapped to or search in the Documents chart tab.  The Documents chart tab is intended to house all chart documents, so that users have a centeral location for all documents, if necessary.
-* The Documents chart tab will list documents in chronological order, by default.  The documents can also be sorted by Doc ID, Doc Type (lists documents in alpha order), subject, etc.  Resorting the list of documents is done by clicking on the underlined headings such as Doc ID, Serv Date, Doc Type, etc.  
-   * If users click the Doc ID heading, the list of documents will display in order of Doc ID with the oldest Doc ID listed first.  Users can click the Doc ID heading a second time to reverse the order and display the most recent Doc ID first. This action of reversing the order can be done with any column heading.
-* Users can hover their mouse over the Documents chart tab and it will display the most current document stored in the chart.
-* Users can click on the Doc ID to open/display the selected document.
-* Users can change the default document view when in any chart tab.  This is done by using the dropdown located in the top-right corner of the Documents chart tab.
+Once accessing or working in a selected chart, {{% system-name %}}  will include a **Documents** chart tab. By design, all documents stored in the chart will be mapped to this Documents catch-all chart tab unless otherwise changed by a system administrator.
+
+![](../basic-initial-system-information.assets/0cbfc48bd93b553132951fc02b4f022e.png)
+
+The number in parenthesis next to the title of a chart tab, in this case the Documents tab, indicates how many individual stored documents exist in that chart tab. If no number exists, no stored documents exist in that chart tab.
+
+When searching for documents in the chart, users can either navigate to the specific individual chart tab a stored document may be mapped to or search in the Documents catch-all chart tab.  The Documents chart tab is intended to house this chart's stored documents, so that users have a central location for all that chart's documents, if necessary.
+
+The Documents chart tab will list documents in chronological order, by default, with most recent dated stored documents being listed first.  The documents can also be sorted by using the Doc ID, Doc Type (lists documents in alpha order), subject columns, etc.  This is done by clicking on the underlined column headings such as Doc ID, Serv Date, Doc Type, Subject, etc.  
+
+{{% note %}}
+If users click the Doc ID column heading, the list of documents will display in order of the unique assigned Document ID number, with the oldest Document (Doc) ID listed first.  Users can click the Doc ID heading a second time to reverse the order and display the most recent Doc ID first. This action of reversing the order can be done with any column heading.
+{{% /note %}}
+{{% tip %}}
+Users can hover their mouse over the Documents chart tab and it will display the name and date of the most current stored document in the chart.
+
+![](../basic-initial-system-information.assets/e4c9ef20c7e8ebee89c736a1d8bf3f6e.png)
+
+{{% /tip %}}
+
+To access a stored document to see its contents, the user can select any stored document to view it, from within the list view.
+
+![](../basic-initial-system-information.assets/3756481c08b700a6d79206763c345f72.png)
+
+{{% tip %}}
+You can change your document view preference when in any chart tab.  This is done by using the dropdown located in the top-right corner of a chart tab.
+
+![](../basic-initial-system-information.assets/24190731570854b8b6390eb565551ae3.png)
+
+{{% /tip %}}
 
 
-  ![](../basic-initial-system-information.assets/a6ed814cf8a4f4b6a4750c6be8e32a0c.png)  
-![](../basic-initial-system-information.assets/72c92939eb810e1f1f0ec622de946023.png)
+### Other Chart Tabs Within a Chart
+
+Users can click on any chart tab located at the top of the charts to view or enter information, depending on the information needing recorded and the functionality of the chart tab. Some chart tabs are made up of sub-tabs.  Clicking on the main parent tab will expand the listing of sub-tabs available to access from that chart. 
+
+![](../basic-initial-system-information.assets/190e8bfb82c054ebe78a571e5f655ba6.png)
+
+Chart tabs that have stored documents mapped to them, will display a number in parentheses next to the chart tab name, indicating how many stored documents exist of that type, for that specific chart.  If no number exists, this indicates that no documents are stored in that particular chart tab or the chart tab functionality is not set up to store documents, but rather is setup to enter information such as medications/allergies, conditions, demographics, etc.
+
+
+### Home Landing Page
+
+Clicking the Home icon located towards the top-left corner of the screen will navigate you back to your default landing screen.  The default landing page is defined per user in the My Settings chart tab of the **Control Panel**. The *Default Page* preference selected setting drives this navigation.
+
+![](../basic-initial-system-information.assets/d4fa053c533556a7d810c68ca4c59812.png)
+
+
+### Changing My Settings Preferences Per User
+
+Users who have security access to My Settings within the Control Panel sidemenu tab are able to set their own preference defaults, but some administrators may be able to change My Setting preferences for other users, individually or system-wide.  
+
+![](../basic-initial-system-information.assets/dda2ae4d2e42744aa0c87b5eb415f0ab.png)
+
+The My Settings screen will default to the logged-in user's settings.  This can be changed by clicking the dropdown option in the upper-right corner of the screen if you have security permission.
+
+![](../basic-initial-system-information.assets/920e1dd47fa0312c1929f0d6b761994f.png)
+
+{{% note %}}
+You will find other help documentation guides around all the detailed My Settings preferences available.
+{{% /note %}}
+Depending on your workflows and operating procedures, there may be some specific My Settings Preferences to set when an administrator is needing to set up a new user to their system.  Please work with your Deployment Consultant to identify those preferences that would be best to have set for the new user to have a successful initial experience.  Some of those may be for instance: Default Location, Time Zone, Starting Partition, Ordering Location, etc.
+
+To save any changes to the My Settings screen,click on the **Submit Settings** button found at the top or the bottom of this screen. 
+
+![](../basic-initial-system-information.assets/0214791ff9ad0037c9c9024444dd2f76.png)
+
+Once the changes have been saved, the user will receive a message to indicate that the setting updates were successful.
+
+![](../basic-initial-system-information.assets/be3353ba04cfa6eb9d9462af8fb9658c.png)
 
 
 
-## **Other Chart Tabs Within a Chart**
+### Logging Out
 
-Users can click on any chart tab located at the top of the charts to view or enter information, depending on the information needing recorded and the layout of the chart tab. Some chart tabs are made up of sub-tabs.  Clicking on the main parent tab will expand the listing of sub-tabs available to access from that parent. Chart tabs that store documents will display a number in parentheses next to the chart tab name, indicating how many documents exist in that specific chart.  If no number exists, this indicates that no documents are stored in that particular chart tab or the chart tab layout is not setup to store documents, but rather is setup to enter information such as medications/allergies, conditions, demographics, etc.
+To log out of the system, click the Logout sidemenu option.
 
+![](../basic-initial-system-information.assets/32a0061c3ae80b276b91694780283f32.png)
 
-![](../basic-initial-system-information.assets/a6ed814cf8a4f4b6a4750c6be8e32a0c.png)
+{{% note %}}
+A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for *Timeout* is defaulted to 7200 seconds (which is 2 hours).
+{{% /note %}}
 
-
-Clicking the [Home](https://system/?func=omniscope) icon located towards the top-left corner of the screen will navigate the user back to their default landing screen.  The default landing page is defined per user in the [My Settings](https://system/) chart tab of the **Control Panel**. The *Default Page* setting drives this navigation.
-
-![](../basic-initial-system-information.assets/1a43a1b3ca94a43327655d4f95d4927e.png)
-
-
-## **Logging Out**
-
-To log out of the system, click the [Logout](https://system/?func=logout) sidemenu option.
-
-
-![](../basic-initial-system-information.assets/e58d96d340fb61f57c56a31be3482872.png)
 
