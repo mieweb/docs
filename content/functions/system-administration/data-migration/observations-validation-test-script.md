@@ -16,7 +16,7 @@ links:
   - '../../reports/observations-report.md'
   - 'https://docs.enterprisehealth.com/observations-report-7345005.html'
 source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 This document is intended to describe and assist users with the process to validate discrete observations imported from another system.
 
