@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../portal-management.md'
 source: 'https://drive.google.com/open?id=1faeAEwfFOMCYV4zh0yko4gGtLwhgypG1ZtcSZXAbAn4'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 Given the {{% system-name %}} solution's foundation, modifications and customizations are a simple process that merely involve uploading the appropriate file(s), as needed. These simple types of customizations can be seen throughout various parts of the solution. For example, review the [Portal Management documentation](../portal-management.md) for branding needs and customizations, as they relate to associated available portals. Overall, and as a general practice, customizations are a user-friendly, easy process, which can be seen throughout the solution.
 

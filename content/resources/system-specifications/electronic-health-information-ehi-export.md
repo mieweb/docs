@@ -9,7 +9,7 @@ links:
   - 'electronic-health-information-ehi-export/ehi-export-for-end-users.md'
   - 'electronic-health-information-ehi-export/ehi-export-technical-details.md'
 source: 'https://drive.google.com/open?id=1SHajJrhtwYmjKyAS3M1-3NTKOCI4liepuWkNbor1vN0'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 [Export for End Users](electronic-health-information-ehi-export/ehi-export-for-end-users.md)  
 [Technical Details](electronic-health-information-ehi-export/ehi-export-technical-details.md)

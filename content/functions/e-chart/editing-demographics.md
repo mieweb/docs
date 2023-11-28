@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=scheduler&s=appt_wizard&location&startdateDAY=4&startdateMONTH=12&startdateYEAR=2018&startdateTIME=05:08pm'
   - 'https://system/?f=chart&s=docq'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.    
 {{% note %}}

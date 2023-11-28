@@ -2,12 +2,12 @@
 id: '1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
 title: 'Activity Log Report'
 date: '2023-11-14T06:42:13.396Z'
-version: 77
+version: 78
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 To access the Activity Log in the Control tab, ensure you have the necessary security permissions.
 

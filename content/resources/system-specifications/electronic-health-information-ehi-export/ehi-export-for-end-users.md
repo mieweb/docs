@@ -2,7 +2,7 @@
 id: '1-ZghkeZW86JVJ5pTNjqtJqz2uOD6imwgA8EGma-Hiv4'
 title: 'EHI Export for End Users'
 date: '2023-11-16T15:47:40.506Z'
-version: 93
+version: 94
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
   - 'ehi-export-technical-details.md'
 source: 'https://drive.google.com/open?id=1-ZghkeZW86JVJ5pTNjqtJqz2uOD6imwgA8EGma-Hiv4'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 ## Introduction
 

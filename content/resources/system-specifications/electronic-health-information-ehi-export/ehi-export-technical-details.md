@@ -2,7 +2,7 @@
 id: '1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
 title: 'EHI Export Technical Details'
 date: '2023-11-16T15:47:51.500Z'
-version: 186
+version: 188
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
   - 'https://ecma-international.org/publications-and-standards/standards/ecma-404/'
 source: 'https://drive.google.com/open?id=1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 ## Introduction
 
