@@ -3,7 +3,7 @@ id: '1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU'
 title: 'Nature of Injury CSV API'
 date: '2020-02-27T21:32:25.970Z'
 version: 26
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'case-management-csv-api.md'

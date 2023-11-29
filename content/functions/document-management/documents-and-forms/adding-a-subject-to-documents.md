@@ -3,7 +3,7 @@ id: '1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
 title: 'Adding a Subject to Documents'
 date: '2020-02-27T21:10:07.369Z'
 version: 40
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../reports/documents-report-super-document-type-search.md'

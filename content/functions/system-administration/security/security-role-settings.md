@@ -3,7 +3,7 @@ id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
 date: '2020-03-10T14:14:41.266Z'
 version: 145
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'

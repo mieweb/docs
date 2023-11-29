@@ -3,7 +3,7 @@ id: '1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
 title: 'Viewing Cases'
 date: '2020-03-09T23:22:52.265Z'
 version: 48
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/side-chart-configuration.md'

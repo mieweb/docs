@@ -3,7 +3,7 @@ id: '1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
 title: 'Access Control - Quick Add Multiple Active Users'
 date: '2020-02-27T21:20:20.800Z'
 version: 52
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/managing-departments.md'

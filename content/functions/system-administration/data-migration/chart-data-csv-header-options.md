@@ -2,7 +2,7 @@
 id: '1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
 title: 'Chart Data CSV Header Options'
 date: '2022-06-15T16:48:55.681Z'
-version: 597
+version: 600
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:

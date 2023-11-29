@@ -3,7 +3,7 @@ id: '1jfYSK52Yc-BRue-sia-ROsKSfd30pvkFda9-bI3zfQw'
 title: 'Historical Data Imports'
 date: '2020-02-27T21:24:09.516Z'
 version: 20
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/data-migration/create-health-surveillance-file-for-import.md'

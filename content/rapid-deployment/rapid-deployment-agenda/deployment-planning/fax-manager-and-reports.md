@@ -3,7 +3,7 @@ id: '1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
 title: 'Fax Manager & Reports'
 date: '2020-02-27T21:27:46.914Z'
 version: 22
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-fax-manager.md'

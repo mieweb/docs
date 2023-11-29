@@ -3,7 +3,7 @@ id: '1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
 title: 'Rapid Deployment Project Outline'
 date: '2020-02-27T21:24:04.139Z'
 version: 21
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'rapid-deployment-agenda.md'

@@ -3,7 +3,7 @@ id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
 date: '2020-02-27T21:21:19.649Z'
 version: 80
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../scheduling/scheduler-views.md'

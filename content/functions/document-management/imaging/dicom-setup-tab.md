@@ -3,7 +3,7 @@ id: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
 title: 'DICOM Setup Tab'
 date: '2020-03-09T19:34:25.790Z'
 version: 36
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=dicom&dcfunc=aeedit'

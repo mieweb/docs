@@ -3,7 +3,7 @@ id: '1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 title: 'Document Properties'
 date: '2020-02-27T21:10:00.312Z'
 version: 61
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'link-documents-to-order-requests.md'

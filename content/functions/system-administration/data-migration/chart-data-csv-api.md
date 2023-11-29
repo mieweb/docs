@@ -2,7 +2,7 @@
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
 date: '2023-02-23T15:56:02.854Z'
-version: 88
+version: 90
 lastAuthor: 'Zack Barrell'
 mimeType: 'text/x-markdown'
 links:

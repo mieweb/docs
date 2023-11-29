@@ -3,7 +3,7 @@ id: '1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
 title: 'Pat Restrictions'
 date: '2020-03-10T14:08:19.239Z'
 version: 29
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ERES&old_module=Email&old_name=Pat+Restrictions&active=0'

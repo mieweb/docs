@@ -3,7 +3,7 @@ id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 title: 'Data Import Master List'
 date: '2020-02-27T21:30:54.076Z'
 version: 128
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'

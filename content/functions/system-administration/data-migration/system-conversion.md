@@ -3,7 +3,7 @@ id: '12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
 title: 'System Conversion'
 date: '2020-02-27T21:31:21.718Z'
 version: 69
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'data-migration-file-format-standard.md'

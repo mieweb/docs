@@ -3,7 +3,7 @@ id: '1NmvnJfchSVK7KFPNzGUgyLEjKYj7HkIvNRF52SS1J-k'
 title: 'System Admin'
 date: '2020-02-27T21:27:49.466Z'
 version: 20
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-system-administration.md'

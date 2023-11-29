@@ -3,7 +3,7 @@ id: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
 title: 'Measures'
 date: '2020-02-27T21:28:53.378Z'
 version: 34
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'measures/promoting-interoperability-pi-measures.md'

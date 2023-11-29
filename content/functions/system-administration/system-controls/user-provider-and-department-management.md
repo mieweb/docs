@@ -3,7 +3,7 @@ id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
 date: '2020-03-19T22:27:44.922Z'
 version: 91
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html#quick-add'

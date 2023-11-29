@@ -3,7 +3,7 @@ id: '1eOhrb_r3jJ_atpkEE6NOmLYTypoYUCIeQj-39MRVoQ0'
 title: 'Work-Related Exams & Clinical Care'
 date: '2020-02-27T21:27:35.013Z'
 version: 20
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-work-related-exams.md'

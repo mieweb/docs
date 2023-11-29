@@ -3,7 +3,7 @@ id: '1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
 title: 'Chart Medical Record Number (MRN) Import Options'
 date: '2020-02-28T15:25:27.336Z'
 version: 38
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'chart-data-csv-api.md'

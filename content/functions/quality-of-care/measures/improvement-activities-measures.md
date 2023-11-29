@@ -3,7 +3,7 @@ id: '1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
 title: 'Improvement Activities Measures'
 date: '2020-02-27T21:29:08.172Z'
 version: 23
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities'

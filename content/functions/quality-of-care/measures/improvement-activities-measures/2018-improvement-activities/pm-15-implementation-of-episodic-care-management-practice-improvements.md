@@ -3,7 +3,7 @@ id: '1WIMmSA6IAnjC6s1vw6Yd2ZfQ9Bg9TiLBduyAcwAwJho'
 title: 'PM 15 - Implementation of Episodic Care Management Practice Improvements'
 date: '2020-02-27T20:53:22.706Z'
 version: 17
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

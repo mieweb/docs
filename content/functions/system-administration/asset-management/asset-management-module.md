@@ -2,7 +2,7 @@
 id: '1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
 title: 'Asset Management Module'
 date: '2020-02-27T20:30:03.349Z'
-version: 55
+version: 66
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'

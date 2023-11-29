@@ -3,7 +3,7 @@ id: '1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
 title: 'Lab Result CSV API'
 date: '2020-02-27T21:28:38.594Z'
 version: 32
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'

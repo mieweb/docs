@@ -2,7 +2,7 @@
 id: '1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
 title: 'View User Audit Log'
 date: '2023-11-14T06:57:50.271Z'
-version: 69
+version: 71
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []

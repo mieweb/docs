@@ -3,7 +3,7 @@ id: '1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
 title: 'Device Interface - Titmus V4'
 date: '2020-02-27T21:33:11.490Z'
 version: 34
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'installing-mie-device-app.md'
