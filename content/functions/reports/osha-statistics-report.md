@@ -1,8 +1,8 @@
 ---
 id: '1y75-zBcAX1xWPT3-GOl3RRm9wqTRdYvFF54JjU5VtLQ'
 title: 'OSHA Statistics Report'
-date: '2023-11-30T18:56:39.971Z'
-version: 184
+date: '2023-12-01T17:22:23.829Z'
+version: 194
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -13,12 +13,12 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 ## OSHA Statistics Report
 
-The OSHA Statistics report is found within the Reports module, and within the Safety grouping of reports available in *{{% system-name %}}.*
+The OSHA Statistics report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 
 ![](../osha-statistics-report.assets/90bd87f92f192cd0c318bf813fa133f9.png)
 
 
-The OSHA Statistics report will display columns of data that mimics the Injury Tracking Application (ITA) published by OSHA.gov website. Our *{{% system-name %}}* OSHA Statistics report helps provide a method for injury and illness data submissions you may be required to submit by OSHA.  Our OSHA Statistics report displays OSHA recordable cases/incidents for the *PRIOR year* of this current logged in session according to establishments (EO charts) that have that establishment/onsite work location noted as having any recordable injury/illness occurrences there. Meaning, it will look for and display information regarding OSHA recordable cases/incidents that have an injury/illness onset date of the *prior* year to today's logged in date, broken down by where it occurred (work location or site EO establishments) to result here.
+The OSHA Statistics report will display columns of data that mimics the Injury Tracking Application (ITA) published by OSHA.gov website. Our {{% system-name %}} OSHA Statistics report helps provide a method for injury and illness data submissions you may be required to submit by OSHA.  Our OSHA Statistics report displays OSHA recordable cases/incidents for the *PRIOR year* of this current logged in session according to establishments (EO charts) that have that establishment/onsite work location noted as having any recordable injury/illness occurrences there. Meaning, it will look for and display information regarding OSHA recordable cases/incidents that have an injury/illness onset date of the *prior* year to today's logged in date, broken down by where it occurred (work location or site EO establishments) to result here.
 
 More information from OSHA is at [https://www.osha.gov/injuryreporting](https://www.osha.gov/injuryreporting)
 
@@ -64,36 +64,36 @@ The OSHA Statistics report generates a list of results upon navigating to that r
 
 A complete report requirements description and columns that the report output is to gather and produce is found in the OSHA Injury Tracking Application API Document found at [https://www.osha.gov/sites/default/files/osha_ita_api_documentation_revised.pdf](https://www.osha.gov/sites/default/files/osha_ita_api_documentation_revised.pdf) 
 
-The below list of columns from the OSHA Statistics report, will describe where the data comes from within *{{% system-name %}}* to populate our OSHA Statistics report, which can then be used to download and submit to help provide a method for injury and illness data submissions required by OSHA.
+The below list of columns from the OSHA Statistics report, will describe where the data comes from within {{% system-name %}} to populate our OSHA Statistics report, which can then be used to download and submit to help provide a method for injury and illness data submissions required by OSHA.
 
-**establishment_name** - pulls the Name field found on the EO work location/site chart with any acronym in parenthesis found in the Overview EO chart tab
-**ein** - pulls the EIN field from the EO work location/site chart's *Other Data* section found in the Overview EO chart tab
-**company_name** - will always be blank out of the box
-**street_address** - pulls the Address1 field found on the EO work location/site chart in the Overview EO chart tab
-**city** - pulls the City field found on the EO work location/site chart in the Overview EO chart tab
-**state** - pulls the State/Province field found on the EO work location/site chart in the Overview EO chart tab
-**zip** - pulls the Postal Code field found on the EO work location/site chart in the Overview EO chart tab
-**naics_code -** pulls the North American Industrial Classification (NAICS number) field from the EO work location/site chart's Other Data section found in the Overview EO chart tab
-**industry_description** - pulls the Industry Description field from the EO work location/site chart's *Other Data* section found in the Overview EO chart tab
-**size** - displays either a 1, 2 or a 3 value in this column depending on the Annual average number of employees field from the EO work location/site chart's *Other Data* section found in the Overview EO chart tab.  A value of 1 if less than 20 employees, a value of 2 if 20-249 employees, or a value of 3 if 250+ employees
-**establishment_type** - will always display a value of 1 out of the box
-**year_filing_for** - will always be the prior 4 digit year of today's logged in session when generating this report
-**annual_average_employees** - pulls the Annual average number of employees field from the EO work location/site chart's Other Data section found in the Overview EO chart tab
-**total_hours_worked** - pulls the Total hours worked by all employees last year field from the EO work location/site chart's Other Data section found in the Overview EO chart tab
-**no_injuries_illnesses** - displays either a 1 or 2 value in this column depending on whether the work location/site EO chart had any recordable onsite injury/illness cases noted with this onsite work location.  Value of 1 indicates the establishment had recordable injuries or illnesses, or value of 2 if the establishment did not have any recordable injuries or illnesses
-**total_deaths** - the total number of recordable cases that have the Employee died checkbox field in the case/incident is marked and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_dafw_cases** - the total number of recordable cases with days away from work noted as Lost Time accommodations linked to the case/incident and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_djtr_cases** - the total number of recordable cases that have any restrictions linked to the OSHA recordable case/incident and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_other_cases** - the total number of recordable cases that didn't fit any of the other criteria of Death, Lost Time, or Restrictions and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_dafw_days** - If any recordable cases had any Lost Time documented in the Accommodations encounter section and the accommodation is linked to the OSHA recordable case and the injury or illness occurrence was at this establishment (found within the case/incident encounter section) then the total number of Lost Time days will be calculated here and displays a total number
-**total_djtr_days** - If any recordable cases had any Restrictions documented in the restrictions section of the encounter that is linked to the OSHA recordable case and the injury or illness occurrence was at this establishment (found within the case/incident encounter section) then the total number of Restricted days will be calculated here and displays as a total number
-**total_injuries** - the total number of recordable cases where the injury/illness type was marked as an Injury (and not as a Skin Disorder, Respiratory, Poisoning, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_skin_disorders** - the total number of recordable cases where the injury/illness type was marked as a Skin Disorder (and not as an Injury, Respiratory, Poisoning, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_respiratory_conditions** - the total number of recordable cases where the injury/illness type was marked as Respiratory (and not as a Skin Disorder, Injury, Poisoning, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_poisonings** - the total number of recordable cases where the injury/illness type was marked as a Poisoning (and not as a Skin Disorder, Respiratory, Injury, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_hearing_loss** - the total number of recordable cases where the injury/illness type was marked as a Hearing Loss (and not as a Skin Disorder, Respiratory, Poisoning, Injury or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**total_other_illnesses** - the total number of recordable cases where the injury/illness type was marked as All Other Illnesses (and not as a Skin Disorder, Respiratory, Poisoning, Hearing Loss or Injury) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
-**change_reason** - will always be blank out of the box
+* <strong>establishment_name </strong>- pulls the Name field found on the EO work location/site chart with any acronym in parenthesis found in the Overview EO chart tab
+* <strong>ein</strong> - pulls the EIN field from the EO work location/site chart's <em>Other Data</em> section found in the Overview EO chart tab
+* <strong>company_name</strong> - will always be blank out of the box
+* <strong>street_address</strong> - pulls the Address1 field found on the EO work location/site chart in the Overview EO chart tab
+* <strong>city</strong> - pulls the City field found on the EO work location/site chart in the Overview EO chart tab
+* <strong>state </strong>- pulls the State/Province field found on the EO work location/site chart in the Overview EO chart tab
+* <strong>zip</strong> - pulls the Postal Code field found on the EO work location/site chart in the Overview EO chart tab
+* <strong>naics_code - </strong>pulls the North American Industrial Classification (NAICS number) field from the EO work location/site chart's Other Data section found in the Overview EO chart tab
+* <strong>industry_description </strong>- pulls the Industry Description field from the EO work location/site chart's <em>Other Data</em> section found in the Overview EO chart tab
+* <strong>size</strong> - displays either a 1, 2 or a 3 value in this column depending on the Annual average number of employees field from the EO work location/site chart's <em>Other Data</em> section found in the Overview EO chart tab.  A value of 1 if less than 20 employees, a value of 2 if 20-249 employees, or a value of 3 if 250+ employees
+* <strong>establishment_type</strong> - will always display a value of 1 out of the box
+* <strong>year_filing_for </strong>- will always be the prior 4 digit year of today's logged in session when generating this report
+* <strong>annual_average_employees </strong>- pulls the Annual average number of employees field from the EO work location/site chart's Other Data section found in the Overview EO chart tab
+* <strong>total_hours_worked </strong>- pulls the Total hours worked by all employees last year field from the EO work location/site chart's Other Data section found in the Overview EO chart tab
+* <strong>no_injuries_illnesses </strong>- displays either a 1 or 2 value in this column depending on whether the work location/site EO chart had any recordable onsite injury/illness cases noted with this onsite work location.  Value of 1 indicates the establishment had recordable injuries or illnesses, or value of 2 if the establishment did not have any recordable injuries or illnesses
+* <strong>total_deaths </strong>- the total number of recordable cases that have the Employee died checkbox field in the case/incident is marked and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_dafw_cases </strong>- the total number of recordable cases with days away from work noted as Lost Time accommodations linked to the case/incident and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_djtr_cases </strong>- the total number of recordable cases that have any restrictions linked to the OSHA recordable case/incident and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_other_cases </strong>- the total number of recordable cases that didn't fit any of the other criteria of Death, Lost Time, or Restrictions and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_dafw_days </strong>- If any recordable cases had any Lost Time documented in the Accommodations encounter section and the accommodation is linked to the OSHA recordable case and the injury or illness occurrence was at this establishment (found within the case/incident encounter section) then the total number of Lost Time days will be calculated here and displays a total number
+* <strong>total_djtr_days </strong>- If any recordable cases had any Restrictions documented in the restrictions section of the encounter that is linked to the OSHA recordable case and the injury or illness occurrence was at this establishment (found within the case/incident encounter section) then the total number of Restricted days will be calculated here and displays as a total number
+* <strong>total_injuries </strong>- the total number of recordable cases where the injury/illness type was marked as an Injury (and not as a Skin Disorder, Respiratory, Poisoning, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_skin_disorders </strong>- the total number of recordable cases where the injury/illness type was marked as a Skin Disorder (and not as an Injury, Respiratory, Poisoning, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_respiratory_conditions </strong>- the total number of recordable cases where the injury/illness type was marked as Respiratory (and not as a Skin Disorder, Injury, Poisoning, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_poisonings </strong>- the total number of recordable cases where the injury/illness type was marked as a Poisoning (and not as a Skin Disorder, Respiratory, Injury, Hearing Loss or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_hearing_loss </strong>- the total number of recordable cases where the injury/illness type was marked as a Hearing Loss (and not as a Skin Disorder, Respiratory, Poisoning, Injury or All Other Illnesses) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>total_other_illnesses </strong>- the total number of recordable cases where the injury/illness type was marked as All Other Illnesses (and not as a Skin Disorder, Respiratory, Poisoning, Hearing Loss or Injury) and the injury or illness occurrence was at this establishment (found within the case/incident encounter section)
+* <strong>change_reason</strong> - will always be blank out of the box
 
 {{% note %}}
 This report **does** respect the Locations Hierarchy **_Parent_** with the data outputs.  Meaning, if an onsite injury/illness work location/site EO chart has a Parent (in the Locations Hierarchy) of another onsite injury/illness work location/site EO chart, then all its child sites plus any recordable injury/illnesses at the parent site will be counted/displayed on the Parent's establishment line of this report.
