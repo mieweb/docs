@@ -1,9 +1,9 @@
 ---
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
-date: '2023-11-22T19:07:33.117Z'
-version: 132
-lastAuthor: 'Angie Nichols'
+date: '2023-11-27T22:05:58.686Z'
+version: 151
+lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
@@ -34,7 +34,7 @@ Charts may be restricted to you.  You will find other help documentation guides 
 If desired, the system can be configured to turn off the *Search by Social Security Number* option.  This will remove the SSN search ability from the Simple and Detailed chart search screens. It will also remove the Social Security column from the Recent Employees/Patients listing.   To turn off the social security search option in other modules or layouts, please contact MIE for assistance.
 
 
-### **Document**s** Chart Tab**
+### Documents Chart Tab
 
 Once accessing or working in a selected chart, {{% system-name %}}  will include a **Documents** chart tab. By design, all documents stored in the chart will be mapped to this Documents catch-all chart tab unless otherwise changed by a system administrator.
 
