@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-10-31T18:58:11.560Z'
-version: 2396
-lastAuthor: 'Amanda Labrie'
+date: '2023-11-29T13:46:08.336Z'
+version: 2433
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -55,11 +55,6 @@ links:
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
-
-
-
-
-
 ![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)
 
 The list below represents a complete listing of all vendors/devices that we have integrated with. Any vendor/device not listed would need to be researched for compatibility with our product. Check out our [additional documentation](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md) that explains how to send HL7 messages to us.
@@ -314,7 +309,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * California CAIR unidirectional (bidirectional is possible, but no clients have requested)
 * Colorado (CDPHE CIIS) Immunization Information System
 * Connecticut
-* Florida Shots (unidirectional nightly FTP to send matching injections)
+* Florida Shots (unidirectional nightly FTP to send matching injections to FL Shots)
 * Georgia GRITS uni-directional HL7 via HTTPS
 * Hawaii HIR uni-directional 
 * Idaho thru Scientific Technologies Corp (STC)
@@ -333,7 +328,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * New York City (CIR)
 * New York State (NYSIIS)
 * North Carolina (CVMS) - waiting on vendor to have interface available
-* Ohio Immunization Registry (ImpactSIIS)
+* Ohio Immunization Registry (ImpactSIIS) - currently uni-directional to SIIS
 * Oklahoma - in progress
 * Oregon
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
