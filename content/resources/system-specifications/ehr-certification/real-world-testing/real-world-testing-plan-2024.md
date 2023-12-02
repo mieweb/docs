@@ -1,8 +1,8 @@
 ---
 id: '1_GrEGLPlNL2xrbHWl-hW7nEegUDvCnXhtGekuGn45lk'
 title: 'Real World Testing Plan 2024'
-date: '2023-10-31T14:12:30.310Z'
-version: 108
+date: '2023-12-01T21:47:04.963Z'
+version: 389
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,6 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
   - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#cures_tp'
   - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
+  - 'https://www.healthit.gov/test-method/data-export'
   - 'https://www.healthit.gov/test-method/data-segmentation-privacy-send#cures_tp'
   - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive#cures_tp'
   - 'https://www.healthit.gov/test-method/care-plan#cures_tp'
@@ -18,18 +19,17 @@ links:
   - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp'
   - 'https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure'
+  - 'https://www.healthit.gov/test-method/transmission-public-health-agencies-syndromic-surveillance#test_procedure'
   - 'https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure'
   - 'https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp'
   - 'https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure'
   - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
-  - 'https://www.healthit.gov/topic/standards-version-advancement-process-svap'
   - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf'
   - 'https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf'
   - 'https://www.w3.org/WAI/WCAG2-Conformance#level-AA'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
-  - 'https://www.healthit.gov/test-method/data-export'
+  - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
 source: 'https://drive.google.com/open?id=1_GrEGLPlNL2xrbHWl-hW7nEegUDvCnXhtGekuGn45lk'
@@ -66,7 +66,7 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 </tr>
 <tr>
 <td><strong>Plan Submission Date</strong></td>
-<td>10/31/2023</td>
+<td>10/31/2023, resubmitted 12/01/2023</td>
 </tr>
 
 </table>
@@ -80,6 +80,7 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
    * § 170.315(b)(1) Transitions of care (Cures Update)
    * § 170.315(b)(2) Clinical information reconciliation and incorporation (Cures Update)
    * § 170.315(b)(3) Electronic prescribing (Cures Update)
+   * § 170.315(b)(6) Data export
    * § 170.315(b)(7) Security tags - summary of care - send (Cures Update)
    * § 170.315(b)(8) Security tags - summary of care - receive (Cures Update)
    * § 170.315(b)(9) Care plan (Cures Update)
@@ -91,9 +92,9 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
    * § 170.315(e)(1) View, download, and transmit to 3rd party (Cures Update) 
 * Public Health 
    * § 170.315(f)(1) Transmission to immunization registries 
+   * § 170.315(f)(2) Transmission to public health agencies — syndromic surveillance 
 * Application Programming Interfaces 
    * § 170.315(g)(7) Application access— patient selection 
-   * § 170.315(g)(8) Application access— data category request 
    * § 170.315(g)(9) Application access— all data request (Cures Update) 
    * § 170.315(g)(10) Standardized API for patient and population services 
 * Electronic Exchange 
@@ -124,7 +125,7 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 </tr>
 <tr>
 <td>(b)(1)(ii)(A) - Receive, Parse, and Process</td>
-<td>7, 18</td>
+<td>7, 19</td>
 </tr>
 <tr>
 <td>(b)(1)(ii)(B) - View</td>
@@ -241,36 +242,81 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 <td>6</td>
 </tr>
 <tr>
+<td><a href="https://www.healthit.gov/test-method/data-export">§170.315(b)(6): Data Export</a></td>
+<td>(b)(6)(i) - Configure and export</td>
+<td>18</td>
+</tr>
+<tr>
+<td>(b)(6)(ii) - Set Export</td>
+<td>18, 19</td>
+</tr>
+<tr>
+<td>(b)(6)(ii)(A) - CCDS</td>
+<td>18, 19</td>
+</tr>
+<tr>
+<td>(b)(6)(ii)(B) - Diagnoses</td>
+<td>18, 19</td>
+</tr>
+<tr>
+<td>(b)(6)(ii)(C) - Cognitive Status</td>
+<td>18, 19</td>
+</tr>
+<tr>
+<td>(b)(6)(ii)(D) - Functional Status</td>
+<td>18, 19</td>
+</tr>
+<tr>
+<td>(b)(6)(ii)(E) - Ambulatory Reason for Referral</td>
+<td>18, 19</td>
+</tr>
+<tr>
+<td>(b)(6)(ii)(F) - Inpatient Discharge Instructions</td>
+<td>18, 19</td>
+</tr>
+<tr>
+<td>(b)(6)(iii)(A) - Timeframe configuration</td>
+<td>18</td>
+</tr>
+<tr>
+<td>(b)(6)(iii)(B) - Export summary</td>
+<td>18</td>
+</tr>
+<tr>
+<td>(b)(6)(iv) - Save location</td>
+<td>18</td>
+</tr>
+<tr>
 <td><a href="https://www.healthit.gov/test-method/data-segmentation-privacy-send#cures_tp">§170.315(b)(7): Security tags - summary of care - send</a></td>
 <td>(b)(7) - CDA Generated with Privacy & Security Markings</td>
-<td>26</td>
+<td>27</td>
 </tr>
 <tr>
 <td><a href="https://www.healthit.gov/test-method/data-segmentation-privacy-receive#cures_tp">§170.315(b)(8): Security tags - summary of care - receive</a></td>
 <td>(b)(8)(i) - Security Tags Document</td>
-<td>27</td>
+<td>28</td>
 </tr>
 <tr>
 <td>(b)(8)(ii) - Preserve Privacy Markings</td>
-<td>27</td>
+<td>28</td>
 </tr>
 <tr>
 <td>
 <a href="https://www.healthit.gov/test-method/care-plan#cures_tp">§170.315(b)(9):  Care plan</a></td>
 <td>(b)(9) - Record</td>
-<td>23</td>
-</tr>
-<tr>
-<td>(b)(9) - Change and Access</td>
-<td>23</td>
-</tr>
-<tr>
-<td>(b)(9) - Create</td>
 <td>24</td>
 </tr>
 <tr>
-<td>(b)(9) - Receive</td>
+<td>(b)(9) - Change and Access</td>
+<td>24</td>
+</tr>
+<tr>
+<td>(b)(9) - Create</td>
 <td>25</td>
+</tr>
+<tr>
+<td>(b)(9) - Receive</td>
+<td>26</td>
 </tr>
 <tr>
 <td><a href="https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure">§170.315(c)(1): CQMs – record and export</a></td>
@@ -298,7 +344,7 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 <tr>
 <td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
 <td>(e)(1)(i) - Web Content Accessibility</td>
-<td>20</td>
+<td>21</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(A) - View</td>
@@ -306,31 +352,31 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 </tr>
 <tr>
 <td>(e)(1)(i)(A)(1) - USCDI</td>
-<td>22</td>
+<td>23</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(A)(3)(i) - Assessment and Plan of Treatment</td>
-<td>22</td>
+<td>23</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(A)(3)(ii) - Goals</td>
-<td>22</td>
+<td>23</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(A)(3)(iii) - Health Concerns</td>
-<td>22</td>
+<td>23</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(A)(4) - Provider Data</td>
-<td>22</td>
+<td>23</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(A)(6) - Laboratory Test Report</td>
-<td>22</td>
+<td>23</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(A)(7) - Diagnostic Imaging Report</td>
-<td>22</td>
+<td>23</td>
 </tr>
 <tr>
 <td>(e)(1)(i)(B)(1)(i) - Download Human Readable</td>
@@ -374,9 +420,14 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 <td>11</td>
 </tr>
 <tr>
+<td><a href="https://www.healthit.gov/test-method/transmission-public-health-agencies-syndromic-surveillance#test_procedure">§170.315(f)(2): Transmission to public health agencies — syndromic surveillance</a></td>
+<td>(f)(2) - Create Content</td>
+<td>32</td>
+</tr>
+<tr>
 <td><a href="https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure">§170.315(g)(7): Application access – patient selection</a></td>
 <td>(g)(7)(i) - Query processing and response</td>
-<td>19</td>
+<td>20</td>
 </tr>
 <tr>
 <td>(g)(7)(ii)(A)(1) - Functional Documentation</td>
@@ -395,42 +446,17 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 <td>8</td>
 </tr>
 <tr>
-<td><a href="https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure">§170.315(g)(8): Application access – data category request</a></td>
-<td>(g)(8)(i)(A) - Return CCDS data</td>
-<td>19</td>
-</tr>
-<tr>
-<td>(g)(8)(i)(B) - Request response</td>
-<td>19</td>
-</tr>
-<tr>
-<td>(g)(8)(ii)(A)(1) - Documentation</td>
-<td>8</td>
-</tr>
-<tr>
-<td>(g)(8)(ii)(A)(2) - Implementation Requirements</td>
-<td>8</td>
-</tr>
-<tr>
-<td>(g)(8)(ii)(A)(3) - Terms of Use</td>
-<td>8</td>
-</tr>
-<tr>
-<td>(g)(8)(ii)(B) - Public URL</td>
-<td>8</td>
-</tr>
-<tr>
 <td><a href="https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp">§170.315(g)(9): Application access—all data request</a></td>
 <td>(g)(9)(i)(A)(1) - Demonstrate API</td>
-<td>19</td>
+<td>20</td>
 </tr>
 <tr>
 <td>(g)(9)(i)(A)(3) - Data Classes</td>
-<td>19</td>
+<td>20</td>
 </tr>
 <tr>
 <td>(g)(9)(i)(B) - Data Return</td>
-<td>19</td>
+<td>20</td>
 </tr>
 <tr>
 <td>(g)(9)(ii)(A)(1) - Documentation</td>
@@ -447,39 +473,39 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 <tr>
 <td><a href="https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure">§170.315(g)(10): Standardized API for patient and population services</a></td>
 <td>(g)(10)(i) - Data response: USCDI v1 + US Core STU v3.1.1</td>
-<td>28, 29, 30</td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(ii) - Supported search operations</td>
-<td>28, 29, 30</td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(iii) - Application registration</td>
-<td>28, 29, 30</td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(iv) - Secure connection</td>
-<td>28, 29, 30</td>
+<td>29, 30, 31</td>
 </tr>
 <tr>
 <td>(g)(10)(v)(A) - Authentication and authorization for patient and user scopes: SMART 1.0.0</td>
-<td>28, 29</td>
-</tr>
-<tr>
-<td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
-<td>28, 30</td>
-</tr>
-<tr>
-<td>(g)(10)(vi) - Patient authorization revocation</td>
-<td>28, 29</td>
-</tr>
-<tr>
-<td>(g)(10)(vii) - Token introspection</td>
 <td>29, 30</td>
 </tr>
 <tr>
+<td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
+<td>29, 31</td>
+</tr>
+<tr>
+<td>(g)(10)(vi) - Patient authorization revocation</td>
+<td>29, 30</td>
+</tr>
+<tr>
+<td>(g)(10)(vii) - Token introspection</td>
+<td>30, 31</td>
+</tr>
+<tr>
 <td>(g)(10)(vii) - Documentation</td>
-<td>21</td>
+<td>22</td>
 </tr>
 <tr>
 <td><a href="https://www.healthit.gov/test-method/direct-project#test_procedure">§170.315(h)(1): Direct Project</a></td>
@@ -507,7 +533,8 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
 
 
-## Standards Updates ([SVAP](https://www.healthit.gov/topic/standards-version-advancement-process-svap) and USCDI)
+
+## Standards Updates (SVAP and USCDI)
 
 All certified criteria in WebChart EHR use the current standard or implementation specification version, and will continue conformance to that version throughout the 2024 Real World Testing period unless stated in the table below. Key current versions include the following:
 * [](https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf)
@@ -556,7 +583,6 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 </tr>
 
 </table>
-
 
 ### QRDA I SVAP - Planned
 
@@ -632,6 +658,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 </table>
 
 
+
 ### FHIR SVAP - Planned
 
 
@@ -667,6 +694,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 </tr>
 
 </table>
+
 
 
 ### USCDI SVAP - Planned
@@ -763,9 +791,6 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 <tr>
 <td><a href="https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure">§170.315(c)(1): CQMs – record and export</a></td>
 <td>(c )(1)(i) - Record</td>
-</tr>
-<tr>
-<td></td>
 </tr>
 <tr>
 <td>(c )(1)(ii) - Export</td>
@@ -1115,19 +1140,6 @@ This measure will verify that WebChart EHR's API documentation is publicly and p
 <td>(g)(7)(ii)(B) - Public Link</td>
 </tr>
 <tr>
-<td><a href="https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure">§170.315(g)(8): Application access – data category request</a></td>
-<td>(g)(8)(ii)(A)(1) - Documentation</td>
-</tr>
-<tr>
-<td>(g)(8)(ii)(A)(2) - Implementation Requirements</td>
-</tr>
-<tr>
-<td>(g)(8)(ii)(A)(3) - Terms of Use</td>
-</tr>
-<tr>
-<td>(g)(8)(ii)(B) - Public URL</td>
-</tr>
-<tr>
 <td><a href="https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp">§170.315(g)(9): Application access—all data request</a></td>
 <td>(g)(9)(ii)(A)(i) - Documentation</td>
 </tr>
@@ -1143,7 +1155,7 @@ This measure will verify that WebChart EHR's API documentation is publicly and p
 
 #### Justification
 
-WebChart EHR should provide public access to all API documentation, implementation requirements, and terms of use as outlined in 170.315(g)(7), 170.315(g)(8), and 170.315(g)(9).  This documentation should be available at all times throughout the year.
+WebChart EHR should provide public access to all API documentation, implementation requirements, and terms of use as outlined in 170.315(g)(7) and 170.315(g)(9).  This documentation should be available at all times throughout the year.
 
 
 #### Test Methodology
@@ -1553,7 +1565,60 @@ It is expected that the current usage shall be low, with the exception of regula
 
 Primary, specialties, pediatrics, small, large
 
-### Measure 18: CDA Validation
+### Measure 18: Data Export
+
+
+#### Description
+
+This measure will verify that a user can use WebChart EHR's Data Export Tool to pull down groups of patient data from a Webchart EHR system.
+
+#### Associated Certification Criteria
+
+
+<table>
+<tr>
+<td><strong>Certification Criteria</strong></td>
+<td><strong>Requirement(s)</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/data-export">§170.315(b)(6): Data Export</a></td>
+<td>(b)(6)(i)</td>
+</tr>
+<tr>
+<td>(b)(6)(ii)(A)-(F)</td>
+</tr>
+<tr>
+<td>(b)(6)(iii)(A)-(B)</td>
+</tr>
+<tr>
+<td>(b)(6)(iv)</td>
+</tr>
+
+</table>
+
+#### Justification
+
+Webchart EHR should be able to provide a mechanism for a user to download patient chart information via CDA from a large set of patients within the system as outlined in §170.315(b)(6).  This tool is publicly available ([https://github.com/mieweb/wcexport](https://github.com/mieweb/wcexport)).
+
+#### Test Methodology
+
+MIE will report from the event log database tables a series of occurrences that indicates use of the WebChart EHR Data Export Tool:
+* Event logs of the report to find all patients for Document Export being called.
+* Event logs of CDA documents being generated within a certain short time period following the report. 
+
+MIE will track customer reports of data expected to be in mass data export downloads that did not download as failures.
+
+#### Expected Outcome(s)
+
+It is expected that there will be an extremely low occurrence of data exports unable to be downloaded from a Webchart EHR.
+
+If there is a lack of data exports in a certain timeframe by patients within the workflow, MIE may conduct internal testing of data export to maintain measure compliance.
+
+#### Care Setting(s)
+
+Primary, specialties, small, large
+
+### Measure 19: CDA Validation
 
 
 #### Description
@@ -1597,7 +1662,7 @@ Any formatting or stylesheet errors identified by the CDA validator will be trac
 
 Primary, specialties, small, large
 
-### Measure 19: Patient Data requests VIA API
+### Measure 20: Patient Data requests VIA API
 
 
 #### Description
@@ -1615,13 +1680,6 @@ This measure will verify that the API as outlined in WebChart EHR's documentatio
 <tr>
 <td><a href="https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure">§170.315(g)(7): Application access – patient selection</a></td>
 <td>(g)(7)(i) - Query processing and response</td>
-</tr>
-<tr>
-<td><a href="https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure">§170.315(g)(8): Application access – data category request</a></td>
-<td>(g)(8)(i)(A) - Return CCDS data</td>
-</tr>
-<tr>
-<td>(g)(8)(i)(B) - Request response</td>
 </tr>
 <tr>
 <td><a href="https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp">§170.315(g)(9): Application access—all data request</a></td>
@@ -1657,7 +1715,7 @@ It is expected that automated testing will be successful more than 97% of the ti
 
 Primary care, specialties, pediatrics, small, large
 
-### Measure 20: Web Content Accessibility
+### Measure 21: Web Content Accessibility
 
 
 #### Description
@@ -1696,7 +1754,7 @@ It is expected that no urgent non-conformance issues will be identified and that
 Primary care, specialties, pediatrics, small, large
 
 
-### Measure 21: FHIR API Documentation
+### Measure 22: FHIR API Documentation
 
 
 #### Description
@@ -1735,7 +1793,7 @@ It is expected that all documentation will maintain an uptime of greater than 99
 Primary care, specialties, pediatrics, small, large
 
 
-### Measure 22: CCDA Content
+### Measure 23: CCDA Content
 
 
 #### Description
@@ -1774,7 +1832,7 @@ All CCDAs tested should include all of the sections required, if applicable.
 Primary care, specialties, pediatrics, small, large
 
 
-### Measure 23: Record and Change Care Plan
+### Measure 24: Record and Change Care Plan
 
 
 #### Description
@@ -1817,7 +1875,7 @@ We expect to see user engagement in editing care plan data.
 Primary care, specialties, pediatrics, small, large
 
 
-### Measure 24: Create Care Plan CCDA Documents
+### Measure 25: Create Care Plan CCDA Documents
 
 
 #### Description
@@ -1856,7 +1914,7 @@ The number of CCDA Care Plans generated should be the same as the number of enco
 Primary care, specialties, pediatrics, small, large
 
 
-### Measure 25: Receive Care Plan CCDA Documents
+### Measure 26: Receive Care Plan CCDA Documents
 
 
 #### Description
@@ -1897,7 +1955,7 @@ The number of CCDA Care Plans received into systems may not be very high.  MIE m
 Primary care, specialties, pediatrics, small, large
 
 
-### Measure 26: Create CCDA Documents with Security Tags
+### Measure 27: Create CCDA Documents with Security Tags
 
 
 #### Description
@@ -1940,7 +1998,7 @@ From discussions with others around the industry who interact with large usage o
 
 Primary care, specialties, pediatrics, small, large
 
-### Measure 27: Receive and Display CCDA Documents with Security Tags
+### Measure 28: Receive and Display CCDA Documents with Security Tags
 
 
 #### Description
@@ -1968,7 +2026,7 @@ WebChart EHR per certification requirements must be able to receive CCDA Documen
 
 #### Test Methodology
 
-We will have automated tests that run at minimum weekly to test that the software is still able to generate CCDAs with Security Tags.
+We will have automated tests that run at minimum weekly to test that the software is still able to receive and display generate CCDAs with Security Tags.
 
 From discussions with others around the industry who interact with large usage of CDA creation and transmission, there is little to no usage of DS4P within documents created by systems currently. If we determine that we are seeing usage of the security tagging within Production systems, we will report:
 * the number of CCDAs received during the RWT period.
@@ -1984,7 +2042,7 @@ From discussions with others around the industry who interact with large usage o
 
 Primary care, specialties, pediatrics, small, large
 
-### Measure 28: FHIR Sandbox Testing
+### Measure 29: FHIR Sandbox Testing
 
 
 #### Description
@@ -2026,7 +2084,7 @@ This measure will use the Inferno Test suite to validate all types of secure con
 
 #### Justification
 
-WebChart EHR's FHIR API is still newly available to clients and has no adoption as of writing this plan.  Therefore to cover testing prior to live clients actively using the API, a publicly available production sandbox will be tested using Inferno.  FHIR adoption is expected to be slow, but increasing, throughout 2024 leading to improved app support in WebChart EHR as well as increased real world data being available, at which time, Measures 29 and 30 will provide a more complete view of the production FHIR capabilities.
+WebChart EHR's FHIR API is still newly available to clients and has no adoption as of writing this plan.  Therefore to cover testing prior to live clients actively using the API, a publicly available production sandbox will be tested using Inferno.  FHIR adoption is expected to be slow, but increasing, throughout 2024 leading to improved app support in WebChart EHR as well as increased real world data being available, at which time, Measures 30 and 31 will provide a more complete view of the production FHIR capabilities.
 
 #### Test Methodology
 
@@ -2040,7 +2098,7 @@ It is expected that test failures will be rare and that the automated tests will
 
 Primary care, specialties, pediatrics, small, large
 
-### Measure 29: FHIR Patient Scope
+### Measure 30: FHIR Patient Scope
 
 
 #### Description
@@ -2094,7 +2152,7 @@ It is expected that WebChart EHR will be conformant to all (g)(10) requirements 
 
 Primary care, specialties, pediatrics, small, large
 
-### Measure 30: FHIR EHR Provider Scope
+### Measure 31: FHIR EHR Provider Scope
 
 
 #### Description
@@ -2135,11 +2193,49 @@ WebChart EHR's FHIR API is still newly available to clients, and has no adoption
 
 #### Test Methodology
 
-MIE will report from de-identified log files an analysis of authentication and data searches using a patient app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world provider data since we cannot estimate failures due to providers correctly being denied access.
+MIE will report from de-identified log files an analysis of authentication and data searches using a provider app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world provider data since we cannot estimate failures due to providers correctly being denied access.
 
 #### Expected Outcome(s)
 
 It is expected that WebChart EHR will be conformant to all (g)(10) requirements and that overall error rates will be low.
+
+#### Care Setting(s)
+
+Primary care, specialties, pediatrics, small, large
+
+### Measure 32: Transmission to public health agencies — syndromic surveillance: Create content
+
+
+#### Description
+
+This measure will validate that Webchart EHR can produce valid HL7 v2 ADT messages, conforming to HL7 V2.5.1 PHIN Messaging Guide Release 2.0 and associated Erratum, per a patient's admission and discharge of care, as well as new registration or demographic updates.
+
+#### Associated Certification Criteria
+
+
+<table>
+<tr>
+<td><strong>Certification Criteria</strong></td>
+<td><strong>Requirement(s)</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/transmission-public-health-agencies-syndromic-surveillance#test_procedure">§170.315(f)(2): Transmission to public health agencies — syndromic surveillance</a></td>
+<td>(f)(2) - Create content</td>
+</tr>
+
+</table>
+
+#### Justification
+
+WebChart EHR per certification requirements must be able to produce HL7 v2 ADT messages for specific patients. It is appropriate to distinguish between ambulatory settings and emergency department, urgent care and inpatient settings. 
+
+#### Test Methodology
+
+We have automated tests that perform the scenarios to Register a patient, admit them both for ambulatory and urgent care, make demographic updates, and discharge them. The automated tests validate that the HL7 interface constructs valid ADT messages that conform to the certification specification. RWT in Webchart EHR would include creating 3 separate Refer to Systems end points with interface specific configuration configured and 3 separate Auto Routes to capture the new registrations, demographic updates, admissions, and discharges.  When using Webchart EHR to register a patient, update demographics, admit, or discharge the system will automatically produce the HL7 messages and send them to the configured end point with the HL7 format that meets the requirements of the NIST validation tool to be accepted by the public health agency.
+
+#### Expected Outcome(s)
+
+It is expected that test failures will be rare and that the automated tests will pass successfully in a minimum of 95% of nightly runs.  Any failures are expected to be due to a failure in the testing infrastructure rather than in the functionality of the API. In the case of reported WebChart applications errors, issues shall be tracked and resolved. In the case of public health agency internal errors, the public health agency shall be notified of the issue.
 
 #### Care Setting(s)
 
@@ -2231,7 +2327,7 @@ This Real World Testing plan is complete with all required elements, including m
 </tr>
 <tr>
 <td><strong>Date</strong></td>
-<td>10/31/2023</td>
+<td>12/01/2023</td>
 </tr>
 
 </table>
