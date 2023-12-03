@@ -1,8 +1,8 @@
 ---
 id: '1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY'
 title: 'Resource Restrictions'
-date: '2023-11-29T15:07:33.000Z'
-version: 80
+date: '2023-11-29T15:07:34.170Z'
+version: 84
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
