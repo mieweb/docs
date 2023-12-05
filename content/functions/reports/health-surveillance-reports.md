@@ -1,8 +1,8 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2023-12-05T17:16:53.804Z'
-version: 215
+date: '2023-12-05T17:39:22.575Z'
+version: 217
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -148,7 +148,7 @@ The Panel Metrics report displays charts with health surveillance panel membersh
 
 ## Panel Status
 
-The Panel Status report displays panel status records for charts.  Panel Statuses are recorded once a representative event is performed and/or if a Panel Status data import CSV were imported with a panel status record.  Charts marked as ‘excluded from quality care' are not included in the results.  The report has a filter for panel membership to allow reporting by current members only, non-members only, or both.  If filtering by Next Due Date range, the representative action for each panel is looked at.  The Next Due Date range needs to be in the future if filtering by that because only future due dates are considered.  In the detailed report results, there is an ‘options' column that includes a link for deleting status records that were created in error. The column Record Status needs to be filtered as ‘Current' if interested in the current status of the panel statuses.  Typically, the report is run using *Record Status: Current* and *Panel Membership: Current Members Only. * Otherwise, historical and deleted panels will be represented in the results.
+The Panel Status report displays panel status records for charts.  Panel Statuses are recorded once a representative event is performed and/or if a Panel Status data import CSV were imported with a panel status record.  Charts marked as ‘excluded from quality care' are not included in the results.  The report has a filter for panel membership to allow reporting by current members only, non-members only, or both.  If filtering by Next Due Date range, the representative action for each panel is looked at.  The Next Due Date range needs to be in the future if filtering by that because only future due dates are considered.  In the detailed report results, there is an ‘options' column that includes a link for deleting status records that were created in error. The column Record Status needs to be filtered as ‘Current' if interested in the current status of the panel statuses.  Typically, the report is run using *Record Status: Current* and *Panel Membership: Current Members Only*. Otherwise, historical and deleted panels will be represented in the results.
 
 ![](../health-surveillance-reports.assets/948100d9d12081bcc79000e6c3be8985.png)
 
