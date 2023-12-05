@@ -1,8 +1,8 @@
 ---
 id: '1_GrEGLPlNL2xrbHWl-hW7nEegUDvCnXhtGekuGn45lk'
 title: 'Real World Testing Plan 2024'
-date: '2023-12-01T21:47:04.963Z'
-version: 392
+date: '2023-12-05T19:12:54.955Z'
+version: 405
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -2323,7 +2323,7 @@ This Real World Testing plan is complete with all required elements, including m
 </tr>
 <tr>
 <td><strong>Authorized Representative Signature</strong></td>
-<td></td>
+<td>Doug Horner</td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
