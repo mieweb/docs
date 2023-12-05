@@ -1,8 +1,8 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2023-11-22T19:33:31.982Z'
-version: 198
+date: '2023-12-05T17:16:53.804Z'
+version: 215
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -16,7 +16,7 @@ You must have security permission to the Reports module/tab within {{% system-na
 ![](../health-surveillance-reports.assets/09ec61d9ee49b68f313c43d40f34ad2e.png)
 
 
-This guide will go through the most common out of the box Health Surveillance Reports available in *{{% system-name %}}.*
+This guide will go through the most common out of the box Health Surveillance Reports available in {{% system-name %}}.
 
 
 ![](../health-surveillance-reports.assets/73800936deffc88206bda48183950e6f.png)
@@ -103,7 +103,7 @@ The other option to checkmark 'Currently Decertified Only' will limit results to
 
 The Panel Action Definition report displays all triggerable action items of any specified active health surveillance panels. This report can be filtered down to specific panels, as needed. The Panel Action Definition report not only displays active health surveillance panels and action items, but can be utilized to export the data to a DataVis grid or CSV file for further filtering, pivoting, as well as printing, if necessary.
 
-When generating the report, the system will result the programming contents and programming details of the selected panel in the system and its configured panel action items (components). The Panel Name field is not required. When left blank, the report will run, listing ALL active health surveillance panels programmed in the system with their panel contents and details programming in the system. This is a convenient way to render every active panel and component details into a view or CSV/Excel sheet for further sorting or printing needs.
+When generating the report, it will result the programming contents and programming details of the selected panel in the system and its configured panel action items (components). The Panel Name field is not required. When left blank, the report will run, listing ALL active health surveillance panels programmed in the system with their panel contents and details programming in the system. This is a convenient way to render every active panel and component details into a view or CSV/Excel sheet for further sorting or printing needs.
 
 ![](../health-surveillance-reports.assets/86bd5ac5fbba9cea1d9bab032816b662.png)
 
@@ -114,6 +114,7 @@ The Panel Audit report will display charts who have Employee Status of ‘Active
 
 ![](../health-surveillance-reports.assets/7de9ef3df619de34ccda521a9a5a3d24.png)
 
+Note: the Panel Audit report 'Next Due Date' column shows the due date of any current pending or in-progress representative event order item if that exists, otherwise it will display the first upcoming forecasted due date.
 
 ## Panel Forecast
 
@@ -161,7 +162,7 @@ At this time implicit/explicit memberships into a HSPanel will show Panel Status
 
 Also, if using Patient Panel Status import to put charts into memberships, the Panel Status record is recorded using the column in the spreadsheet tool.  This will then record an initial Panel Status on the chart and the Panel Status will update as representative events are performed or even if they become overdue, since an initial Panel Status record exists on the chart initially (from data import efforts).
 
-![](../health-surveillance-reports.assets/d212d298a55b7d7eac8c6157eb6b4085.png)
+![](../health-surveillance-reports.assets/7964c37fc2a9cd4d567fdf6a46cc8641.png)
 
 
 ## Performance Metrics
