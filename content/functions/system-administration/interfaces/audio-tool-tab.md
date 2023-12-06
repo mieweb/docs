@@ -1,8 +1,8 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2023-12-06T19:47:12.731Z'
-version: 290
+date: '2023-12-06T20:11:08.961Z'
+version: 298
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ links:
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
-Within {{% system-name %}}, you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results. 
+Within {{*% system-name %*}}, you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results. 
 
 The Audiogram Tool tab is no longer configured by default in favor of using the Visit encounter for manual data entry. Should you want to utilize this chart tab, contact your support representative for assistance. The Audio Tool functionality is the same whether initiated from the Audio Tool chart tab or from within the Visit encounter. 
 
@@ -56,10 +56,9 @@ Manually enter New or Edit existing results for left ear, right ear, test date, 
 
 
 Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments. The *asset* field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.  
-{{*% info %*}}
-
-The Asset field will be "remembered" and will pre-populate upon the next audiogram entry for any patient.  
-{{*% /info %*}}
+{{% info %}}
+The Asset field will be "remembered" and will pre-populate upon the next audiogram entry for any patient.
+{{% /info %}}
 
 ![](../audio-tool-tab.assets/a3940329aeeed54a177e2f12923dceb8.png)
 
@@ -93,7 +92,7 @@ Users may select a prior Audio result (baseline- highlighted in neon green) and 
 ### Alerts
 
 
-By default {{*% system-name %*}} will alert the user when an Standard Threshold Shift, or STS, or OSHA recordable shift has been calculated. If no shift is detected, then the red alerts will not display. Clients may optionally display an additional alert for NSTS, National Institute for Occupational Safety and Health Standard Threshold Shift.
+By default {{% system-name %}} will alert the user when an Standard Threshold Shift, or STS, or OSHA recordable shift has been calculated. If no shift is detected, then the red alerts will not display. Clients may optionally display an additional alert for NSTS, National Institute for Occupational Safety and Health Standard Threshold Shift.
 
 #### STS and OSHA Alert
 
@@ -115,7 +114,7 @@ The system default warning notifies the user to retest *within* 21 days.  OSHA 
 
 #### NSTS Alert
 
-When the **Show NSTS Values** system setting (E-Chart, Audio, Show NSTS Values) is enabled, {{*% system-name %*}} will display an **NSTS** alert on the Audio Tool data entry screen if an NSTS is calculated. Additionally, a column for the NSTS alert flag will display on the finalized document. By default this system setting is disabled. The NSTS shift is defined as any one frequency (except for 8 KHz) that has a shift of greater than 15 dB, AND is greater than or equal to 25 dB.
+When the **Show NSTS Values** system setting (E-Chart, Audio, Show NSTS Values) is enabled, {{% system-name %}} will display an **NSTS** alert on the Audio Tool data entry screen if an NSTS is calculated. Additionally, a column for the NSTS alert flag will display on the finalized document. By default this system setting is disabled. The NSTS shift is defined as any one frequency (except for 8 KHz) that has a shift of greater than 15 dB, AND is greater than or equal to 25 dB.
 
 ![](../audio-tool-tab.assets/4cad2615bb6174102cfe410cddc85bc8.png)
 
@@ -146,7 +145,7 @@ Users may graph Audio results by clicking the *Graph* button. The *Graph* button
 
 ### Importing Audiogram Results from a device
 
-At the bottom of the Audio Tool users are provided with an option to import audiogram data from external devices. If audio device imports were not included with your {{*% system-name %*}}** deployment, please contact your support representative. Additional configuration is required to import from devices.
+At the bottom of the Audio Tool users are provided with an option to import audiogram data from external devices. If audio device imports were not included with your {{% system-name %}} deployment, please contact your support representative. Additional configuration is required to import from devices.
 
 
 ![](../audio-tool-tab.assets/f2bb4ffec262b708226112a51313289e.png)
@@ -167,7 +166,7 @@ When the audiogram has been completed and the encounter exam is archived and clo
 
 ### Bubble Forms
 
-{{*% system-name %*}}** also offers a standard audiogram bubble form that is available by default in the {{*% system-name %*}} system. This bubble form collects audiogram data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discreetly, within the appropriate chart.
+{{% system-name %}} also offers a standard audiogram bubble form that is available by default in the {{% system-name %}} system. This bubble form collects audiogram data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discreetly, within the appropriate chart.
 
 ![](../audio-tool-tab.assets/a50c6d25ee271a8234b76c3017deae01.png)
 
