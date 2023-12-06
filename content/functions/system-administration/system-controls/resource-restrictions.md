@@ -1,8 +1,8 @@
 ---
 id: '1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY'
 title: 'Resource Restrictions'
-date: '2023-11-29T15:07:34.170Z'
-version: 85
+date: '2023-12-06T20:41:08.648Z'
+version: 89
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -58,7 +58,7 @@ From the Resource Restrictions tab found in Control, search for the resource tha
 
 
 
-Utilize the "**-**"**** buttons to remove users or departments that should no longer have access. Add new users or departments with the "Add" buttons that *should* have permission to access. Record the reason for the change, then click the Submit button to save all work.
+Utilize the - buttons to remove users or departments that should no longer have access. Add new users or departments with the "Add" buttons that *should* have permission to access. Record the reason for the change, then click the Submit button to save all work.
 
 
 ![](../resource-restrictions.assets/6589f9ca45f875a0d5dc41a38240327e.png)
