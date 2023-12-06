@@ -1,8 +1,8 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2023-11-13T18:04:32.763Z'
-version: 275
+date: '2023-12-06T18:35:04.974Z'
+version: 285
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -91,6 +91,7 @@ Users may select a prior Audio result (baseline- highlighted in neon green) and 
 
 
 ### Alerts
+
 
 By default *{{% system-name %}}* will alert the user when an Standard Threshold Shift, or STS, or OSHA recordable shift has been calculated. If no shift is detected, then the red alerts will not display. Clients may optionally display an additional alert for NSTS, National Institute for Occupational Safety and Health Standard Threshold Shift.
 
