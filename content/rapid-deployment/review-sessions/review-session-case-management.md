@@ -1,8 +1,8 @@
 ---
 id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 title: 'Review Session - Case Management'
-date: '2022-08-30T13:00:16.503Z'
-version: 397
+date: '2023-12-07T18:09:22.061Z'
+version: 410
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -31,10 +31,10 @@ links:
   - '../../functions/system-administration/data-migration/lost-time-import-tool.md'
   - '../../functions/reports/osha-300-log-report.md'
   - '../../functions/reports/incidents-report.md'
-  - 'https://mie.talentlms.com/learner/courseinfo/id:413'
-  - 'https://mie.talentlms.com/learner/courseinfo/id:417'
-  - 'https://mie.talentlms.com/learner/courseinfo/id:448'
-  - 'https://mie.talentlms.com/learner/courseinfo/id:197'
+  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
+  - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
+  - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
+  - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
@@ -324,9 +324,9 @@ All clients should review the available reports to determine if any additional r
 
 ### LMS Courses
 
-* [Restriction and Accommodation Management](https://mie.talentlms.com/learner/courseinfo/id:413)
-* [Workers' Compensation Management](https://mie.talentlms.com/learner/courseinfo/id:417)
-* [Injury/Illness and OSHA Reports](https://mie.talentlms.com/learner/courseinfo/id:448)
-* [Absence Management](https://mie.talentlms.com/learner/courseinfo/id:197)
+* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
+* [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)
+* [Injury/Illness and OSHA Reports](https://mie.talentlms.com/shared/start/key:AABHRKMF)
+* [Absence Management](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses)
 
 
