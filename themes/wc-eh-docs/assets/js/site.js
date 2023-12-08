@@ -517,7 +517,8 @@ window.addEventListener("DOMContentLoaded", function (event) {
 
 
   document.addEventListener('click', function (e) {
-    if (e.target.classList.contains('btn-toggle') && e.target.href) {
+    const hasToggle = e.target.classList.contains('btn-toggle') || e.target.parentElement.classList.contains('btn-toggle');
+    if (hasToggle && e.target.href) {
       window.location = e.target.href;
     }
   });
