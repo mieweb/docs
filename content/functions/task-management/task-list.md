@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2020-03-16T15:47:13.973Z'
-version: 140
-lastAuthor: ''
+date: '2023-12-08T16:43:23.524Z'
+version: 150
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -192,7 +192,6 @@ Using the ‘Show Assigned' hyperlink in the department tasks title bar will dis
 ![](../task-list.assets/c7e09df425fd3134d4cbab45a18c8f4f.png)
 
 {{% /tip %}}
-
 
 
 ### Task List Tabs
