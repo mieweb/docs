@@ -13,8 +13,8 @@ $dark-mode-active-nav: darken($active-nav, 40%);
     color: inherit !important;
   }
 
-  .btn.btn-toggle,
-  .link-dark.seudo-btn {
+  .link-dark.seudo-btn a {
+    background-color: inherit !important;
     color: inherit !important;
   }
 
@@ -60,18 +60,20 @@ $dark-mode-active-nav: darken($active-nav, 40%);
     color: rgba(250, 250, 250, 1) !important;
   }
 
+  .link-dark.seudo-btn {
+    color: rgba(250, 250, 250, 1) !important;
+  }
+
   .btn.btn-toggle,
-  .link-dark.seudo-btn,
   .text-muted.copy-hash,
   table {
     color: rgba(250, 250, 250, 1) !important;
   }
 
-  a.btn.btn-toggle:hover,
-  .btn-toggle-nav a:hover,
-  .btn-toggle-nav a:focus,
-  .active-nav,
-  a[aria-expanded="true"] {
+  .btn.btn-toggle:hover,
+  .btn-toggle-nav .btn-toggle:hover,
+  .btn-toggle-nav .btn-toggle:focus,
+  .active-nav {
     background-color: $dark-mode-active-nav !important;
     color: rgba(250, 250, 250, 1) !important;
   }

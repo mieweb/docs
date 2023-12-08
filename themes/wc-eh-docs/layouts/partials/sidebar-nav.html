@@ -9,16 +9,18 @@
     {{ range $item.Children }}
     {{ if .HasChildren }}
     <li class="mb-2">
-      <a href="{{ .URL }}" class="btn btn-toggle text-left d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-{{ .Identifier }}" aria-expanded="false" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
-        {{ .Name }}
-      </a>
+      <span class="btn btn-toggle text-left d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-{{ .Identifier }}" aria-expanded="false" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
+        <a href="{{ .URL }}" class="text-decoration-none">{{ .Name }}</a>
+      </span>
     </li>
 
     {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . }}
     {{ partial "sidebar-nav.html" $temp }}
     {{ else }}
     <li class="mb-2 ps-4">
-      <a href="{{ .URL }}" class="link-dark d-inline-flex text-decoration-none rounded seudo-btn" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">{{ .Name }}</a>
+      <span class="link-dark d-inline-flex rounded seudo-btn" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
+        <a href="{{ .URL }}" class="text-decoration-none">{{ .Name }}</a>
+      </span>
     </li>
     {{ end }}
     {{ end }}
