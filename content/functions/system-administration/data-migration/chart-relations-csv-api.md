@@ -2,7 +2,7 @@
 id: '1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
 title: 'Chart Relations CSV API'
 date: '2020-02-28T15:25:48.497Z'
-version: 39
+version: 42
 lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
