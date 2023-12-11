@@ -1,54 +1,77 @@
 ---
 id: '1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
 title: 'Client Hardware and Software Specifications'
-date: '2022-08-30T20:38:36.509Z'
-version: 40
+date: '2023-12-10T04:46:50.515Z'
+version: 76
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
-The following page documents the minimum required hardware and software to properly load and run the web-based  {{% system-name %}} application.
+## Hardware and Software Requirements   
 
-## **Practice Requirements**
+This document outlines the minimum hardware and software requirements to properly load and run the web-based {{% system-name %}} application.  
+Practice Requirements These hardware requirements apply regardless of practice size. Practices determine the number of locations and devices needed for their workflow, and MIE workflow specialists are available to assist with this process.
 
-Regardless of the size of the practice these hardware requirements will not change. A practice decides the number of locations and devices necessary to support their workflow; MIE can provide workflow specialists to assist with this process.
+## Windows Workstation
 
-### **Windows Workstation**
 
-Minimum requirements:
-* Pentium 4 class or better or AMD equivalent
-* 2 GB RAM or higher (4 GB RAM recommended)
-* 1024 X 768 screen resolution or better
-* Windows 10 operating system (business versions preferred)
+### Minimum
 
-### **Apple Workstation**
+* Processor: Intel Core i5 (7th generation or newer) or AMD Ryzen 5 (2nd generation or newer)
+* RAM: 4 GB
+* Screen Resolution: 1920 x 1080
+* Operating System: Windows 11 (Pro or Enterprise editions recommended)
 
-Minimum requirements:
-* OS Leopard or higher
+## Apple Workstation
 
-### **Internet Browser**
 
-Browser requirements:
-* IE, Chrome, Firefox, Safari, Opera, and other up-to-date browsers are supported
-* Internet Explorer 11 or higher is required for all ActiveX components
+### Minimum
 
-A few very specific features of {{% system-name %}} require the richness of ActiveX (such as dictation controls, advanced diagnostic viewing of DICOM images, batch indexing of chart contents, as examples), and therefore users of those features are required to use IE.  
-The vast majority of {{% system-name %}} content is viewable through Mozilla-type browsers, Opera, Chrome, Safari and Internet Explorer, without the need to load software or even ActiveX controls on a PC.
+* Operating System: macOS Catalina (10.15) or later
 
-### **PDA & Mobile Devices**
+## Internet Browser
 
-{{% system-name %}} is accessible on any mobile device connected to the Internet that includes a browser. {{% system-name %}} detects the use of a pocket sized device and optimizes the content for use with these devices. {{% system-name %}} is tested to work with WebKit based browsers (Safari and Chrome) on mobile platforms iOS and Android.
+Supported browsers:
+* Chrome (latest version)
+* Firefox (latest version)
+* Safari (latest version)
+* Opera (latest version)
+* Microsoft Edge (latest version)
 
-## **Additional Software**
+## ActiveX
 
-The following software works with {{% system-name %}} , but is not required:
-* Microsoft Word
-* AlternaTIFF
-* Adobe Acrobat Reader
+While most {{% system-name %}} features are accessible through modern browsers, certain functionalities at one time required the use of ActiveX controls. These included:
+* Dictation controls
+* Advanced diagnostic viewing of DICOM images
+* Batch indexing of chart contents
+Microsoft Edge running in compatibility mode is recommended for users requiring these features.
 
-### **Devices**
+Since June of 2022 {{% system-name %}} has replaced all functions that required ActiveX with software installed on the workstation or by using hardware interfaces in the browser. 
+
+
+## Mobile Devices
+
+{{% system-name %}} is accessible on any mobile device connected to the internet and equipped with a browser. The application automatically optimizes content for optimal viewing on mobile devices.
+
+### Supported mobile platforms:
+
+* iOS (latest version)
+* Android (latest version)
+* Supported mobile browsers:
+* WebKit-based browsers (Safari and Chrome)
+* Other compatible browsers may also function correctly
+
+## Additional Requirements:
+
+* Network bandwidth: A minimum of 10 Mbps download and upload speed is recommended.
+* Hardware for specific functionalities: Video conferencing may require additional hardware, such as a webcam and microphone.
+* Security: Latest security updates and software versions are recommended for all devices.
+* Mobile apps: Dedicated mobile apps for accessing {{% system-name %}} may be available. Please check the MIE website for information and download links.
+
+
+## Devices
 
 Peripheral workstation devices used in conjunction with the {{% system-name %}} application include:
 * Printers
@@ -57,6 +80,12 @@ Peripheral workstation devices used in conjunction with the {{% system-name %}} 
 * Dictation Devices (USB Microphones, Foot Pedals and Digital Recorders)
 * Transcription foot pedals
 
-{{% note %}}
-Some of the {{% system-name %}} functions require the use of an ActiveX control for the Browser where hardware control is required (scanner control, video-capture, serial interfaces for device capture, and printer driver capture). {{% system-name %}} has an HTML rich text editor so MS Word is not required for word processing. However, users who need Access/MS Word templates do require that MSOffice is loaded on their PC.
-{{% /note %}}
+
+
+## Policy Updates and Feedback
+
+This policy will be regularly reviewed and updated to reflect the latest technology changes. We encourage users to provide feedback on this policy to help us improve its clarity and usefulness.  
+Please note: This document is for informational purposes only and may be subject to change without notice.
+
+
+
