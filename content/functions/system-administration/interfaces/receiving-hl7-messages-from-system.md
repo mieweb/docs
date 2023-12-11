@@ -1,11 +1,12 @@
 ---
 id: '1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
 title: 'Receiving HL7 Messages from System'
-date: '2023-09-07T20:05:31.293Z'
-version: 84
-lastAuthor: 'Nick Wallace'
+date: '2023-12-03T03:46:45.417Z'
+version: 107
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
+  - 'outbound-interface-install-instructions.md'
   - 'outbound-sample-hl7-messages.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
@@ -33,12 +34,24 @@ ___
 * External system(s) must furnish IP address(s) that will be used for connectivity.
 * Interface system parameters must be setup in order to direct the interface on how to format the data for the external system.
 
+
+To specify the IP address to send, read: [Outbound Interface Install Instructions](outbound-interface-install-instructions.md) and make sure [Auto Routes](outbound-interface-install-instructions.md) are setup to send events from within {{% system-name %}}  to the interface.
+
+
+![](../receiving-hl7-messages-from-system.assets/4646fbdde45da1a81be6ea94849def45.png)
+
+1. Some document or event occurs within the system.
+2. Autoroute get evaluated and a message is created and queued for delivery to a "Refer to System"
+3. The transport (usually HTTPS REST, but also MLLP over VPN is initiated by DataSend to Refer to System based on the RTS setup
+4. The RTS responds with an ACK and DataSend marks the Route complete depending on the results of the ACK. 
+
 #### **How it Works**
 
 The following describes the process as it occurs:
 * A message is sent from MIE's HL7 {{% system-name %}} Interface. The message is then processed accordingly and an acknowledgment of success or error is sent back to {{% system-name %}} HL7 interface.
 * If success then MIE's HL7 {{% system-name %}} Interface will send the next message.
 * If error, then MIE's HL7 {{% system-name %}} Interface will continue to send the message until a successful acknowledgment has been sent back from the receiving systems HL7 Interface.
+
 
 ### **Communication Flow**
 

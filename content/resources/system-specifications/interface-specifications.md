@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2023-11-29T13:46:09.463Z'
-version: 2446
+date: '2023-12-09T21:10:31.569Z'
+version: 2478
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -334,6 +334,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
 * Tennessee (TENNIIS) (unidirectional)
 * Texas - in progress
+* Utah
 * West Virginia thru Scientific Technologies Corp (STC)
 * Washington State thru Scientific Technologies Corp (STC)
 * Wyoming Immunization Registry (WYIIS) bi-directional HL7 via ACS HIE

@@ -1,17 +1,24 @@
 ---
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
-date: '2023-09-07T20:03:38.610Z'
-version: 286
+date: '2023-12-07T19:49:24.425Z'
+version: 337
 lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
+  - 'receiving-hl7-messages-from-system.md'
+  - 'outbound-interface-install-instructions.md'
   - 'sample-hl7-messages.md'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 {{% anchor sys="msh" %}}
+
+This documentation is for HL7 Segments related to:
+* [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
+* [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md) and [Outbound Interface Install Instructions](outbound-interface-install-instructions.md)
+
 
 
 ## Message Header (MSH)
@@ -1344,6 +1351,440 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 </tr>
 
 </table>
+
+{{% anchor sys="pv1_dft" %}}
+
+## Patient Visit (PV1) for DFT
+
+
+<table>
+<tr>
+<td><strong>Sequence</strong></td>
+<td><strong>Length</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Repetition</strong></td>
+<td><strong>Name</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>4</td>
+<td>SI</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Set Id</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1</td>
+<td>ID</td>
+<td>REQ</td>
+<td>NO_RPT</td>
+<td>Patient Class</td>
+</tr>
+<tr>
+<td>3</td>
+<td>80</td>
+<td>PL</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Assigned Patient Location</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Admission Type</td>
+</tr>
+<tr>
+<td>5</td>
+<td>250</td>
+<td>CX</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Pre-Admit Number</td>
+</tr>
+<tr>
+<td>6</td>
+<td>80</td>
+<td>PL</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Prior Patient Location</td>
+</tr>
+<tr>
+<td>7</td>
+<td>250</td>
+<td>XCN</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Encounter Performing Provider</td>
+</tr>
+<tr>
+<td>8</td>
+<td>250</td>
+<td>XCN</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Billing Provider</td>
+</tr>
+<tr>
+<td>9</td>
+<td>250</td>
+<td>XCN</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Rendering Provider</td>
+</tr>
+<tr>
+<td>10</td>
+<td>3</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Supervising Provider</td>
+</tr>
+<tr>
+<td>11</td>
+<td>80</td>
+<td>PL</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Temporary Location</td>
+</tr>
+<tr>
+<td>12</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Pre-Admit Test Indicator</td>
+</tr>
+<tr>
+<td>13</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Re-Admission Indicator</td>
+</tr>
+<tr>
+<td>14</td>
+<td>6</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Admit Source</td>
+</tr>
+<tr>
+<td>15</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Ambulatory Status</td>
+</tr>
+<tr>
+<td>16</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>VIP Indicators</td>
+</tr>
+<tr>
+<td>17</td>
+<td>250</td>
+<td>XCN</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Admitting Doctor</td>
+</tr>
+<tr>
+<td>18</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Patient Type</td>
+</tr>
+<tr>
+<td>19</td>
+<td>250</td>
+<td>CX</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Visit Number</td>
+</tr>
+<tr>
+<td>20</td>
+<td>50</td>
+<td>FC</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Financial Class</td>
+</tr>
+<tr>
+<td>21</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Charge Price Indicator</td>
+</tr>
+<tr>
+<td>22</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Courtesy Code</td>
+</tr>
+<tr>
+<td>23</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Credit Rating</td>
+</tr>
+<tr>
+<td>24</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Contract Code</td>
+</tr>
+<tr>
+<td>25</td>
+<td>8</td>
+<td>DT</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Contract Effective Date</td>
+</tr>
+<tr>
+<td>26</td>
+<td>12</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Contract Amount</td>
+</tr>
+<tr>
+<td>27</td>
+<td>3</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Contract Period</td>
+</tr>
+<tr>
+<td>28</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Interest Code</td>
+</tr>
+<tr>
+<td>29</td>
+<td>4</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Transfer to Bad Debt Code</td>
+</tr>
+<tr>
+<td>30</td>
+<td>8</td>
+<td>DT</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Transfer to Bad Debt Date</td>
+</tr>
+<tr>
+<td>31</td>
+<td>10</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Bad Debt Agency Code</td>
+</tr>
+<tr>
+<td>32</td>
+<td>12</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Bad Debt Transfer Amount</td>
+</tr>
+<tr>
+<td>33</td>
+<td>12</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Bad Debt Recovery Amount</td>
+</tr>
+<tr>
+<td>34</td>
+<td>1</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Delete Account Indicator</td>
+</tr>
+<tr>
+<td>35</td>
+<td>8</td>
+<td>DT</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Delete Account Date</td>
+</tr>
+<tr>
+<td>36</td>
+<td>3</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Discharge Disposition</td>
+</tr>
+<tr>
+<td>37</td>
+<td>47</td>
+<td>DLD</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Discharged to Location</td>
+</tr>
+<tr>
+<td>38</td>
+<td>250</td>
+<td>CE</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Diet Type</td>
+</tr>
+<tr>
+<td>39</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Servicing Facility</td>
+</tr>
+<tr>
+<td>40</td>
+<td>1</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Bed Status (not used)</td>
+</tr>
+<tr>
+<td>41</td>
+<td>2</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Account Status</td>
+</tr>
+<tr>
+<td>42</td>
+<td>80</td>
+<td>PL</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Pending Location</td>
+</tr>
+<tr>
+<td>43</td>
+<td>80</td>
+<td>PL</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Prior Temporary Location</td>
+</tr>
+<tr>
+<td>44</td>
+<td>26</td>
+<td>TS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Admit Date/Time</td>
+</tr>
+<tr>
+<td>45</td>
+<td>26</td>
+<td>TS</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Discharge Date/Time</td>
+</tr>
+<tr>
+<td>46</td>
+<td>12</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Current Patient Balance</td>
+</tr>
+<tr>
+<td>47</td>
+<td>12</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Total Charges</td>
+</tr>
+<tr>
+<td>48</td>
+<td>12</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Total Adjustments</td>
+</tr>
+<tr>
+<td>49</td>
+<td>12</td>
+<td>NM</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Total Payments</td>
+</tr>
+<tr>
+<td>50</td>
+<td>250</td>
+<td>CX</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Alternate Visit ID</td>
+</tr>
+<tr>
+<td>51</td>
+<td>1</td>
+<td>IS</td>
+<td>OPT</td>
+<td>NO_RPT</td>
+<td>Visit Indicator</td>
+</tr>
+<tr>
+<td>52</td>
+<td>250</td>
+<td>XCN</td>
+<td>OPT</td>
+<td>NO_MAX</td>
+<td>Other Healthcare Provider</td>
+</tr>
+
+</table>
+
 {{% anchor sys="pv2" %}}
 
 

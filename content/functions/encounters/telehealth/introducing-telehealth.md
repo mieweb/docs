@@ -11,7 +11,7 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
+wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 
@@ -108,10 +108,10 @@ wikigdrive: '18ac9a8be49637c0d2bea8d32c40badbcda9a0ca'
 ### Patient initiated (iOS)
 
 
-![](../introducing-telehealth.assets/d4b691a7dc423f9018e15c72d6bc6b78.png)  
-![](../introducing-telehealth.assets/45010f3dacfeda4c03babb61e09333e6.png)  
-![](../introducing-telehealth.assets/5ad5af1355459e0fcf011e6d1c3728d8.png)  
-![](../introducing-telehealth.assets/9ac528ce9d80a1522afd75e314c6d986.png)
+![](../introducing-telehealth.assets/c2105f99138f01bf23516d32e87f4127.png)  
+![](../introducing-telehealth.assets/43f0b5a34529ef3dfe60538bfe9afdcd.png)  
+![](../introducing-telehealth.assets/15b5c7e89b6fcf1f6f5cb6fd22630323.png)  
+![](../introducing-telehealth.assets/6692098b583ca5a014f2242472e60d7f.png)
 
 
 

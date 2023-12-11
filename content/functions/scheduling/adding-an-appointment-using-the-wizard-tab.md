@@ -1,81 +1,83 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2020-03-10T17:21:10.201Z'
-version: 70
-lastAuthor: ''
+date: '2023-12-11T13:01:05.804Z'
+version: 170
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
-Log into {{% system-name %}}  
-Click *Scheduler* from the left sidebar menu.  
-Adding or editing appointment is security permission driven. If you have the preference in My Settings of FORCE DEFAULT RESOURCES set to Yes, your scheduler view will show all the resources (physicians) schedules that you have added an appt for or edited an appt for. To only show one resource, make sure this is set to No.  
-Wizard tab is the program in which you add an appointment to the Scheduler. There are 3 ways to get to the Appointment Wizard to add an appointment for a patient:
-1. From the time slot in Multi or Week view
-2. Clicking Wizard tab itself
-3. Click Add Apt link from anywhere in the patient's e-chart.
+## Using the Wizard Tab from the Scheduler module
 
-## Adding an Appointment
+Scheduling/Adding appointments can be done in many places within {{% system-name %}} but a centralized method is from the Wizard tab within the Scheduler module.
 
-Click *Scheduler* from left sidebar menu.  
-Find the day and person's schedule you want to view in Multi or Week view (you cannot add an appointment from List view).  
-Click on the time slot you want to schedule to (in yellow from multi or week view) and it will automatically open the Wizard tab.  
-OR  
-Click the Wizard tab at the top to create a patient's appointment and choose date/time within the Wizard screen.
+Adding an appointment anywhere in {{% system-name %}} requires appropriate security permission. 
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/aaa15d8908f33c4845335353aac8b0ef.png)
+## Adding an Appointment using the Wizard Tab
 
-OR  
-Click add appt from any screen in a specific patient's chart.
+Click *Scheduler* from the left sidebar menu and advance to the Wizard tab at the top.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/1c4d240390dcd861743f36b8d845a80f.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/dca0ca9a8a948e990606979eb66e6cd9.png)
 
-The Appointment Wizard screen will then open after any of the above selections.  
-When the Appointment Wizard opens, it will show the *Patient* section. This is where you type in the last name of the patient for the appointment (or click the help icon and search for the patient by DOB, MR#, or SSN).
+The *Add Appointment* screen will display.  This is an option as a centralized method to schedule/add an appointment onto the schedule.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/c835588dccf1d5351f9b414ac311faa7.png)
+When the Add Appointment wizard screen opens, it will show various fields to add an appointment successfully.
 
-{{% info %}}
+![](../adding-an-appointment-using-the-wizard-tab.assets/48caf407dd1f0e2ba3265ef14fcce4f7.png)
 
-If you chose Add Apt from a specific patient's e-chart, then it will automatically have populated this name field with the patient you are in. And any *patient alert comments* the patient may have on their chart will appear at the top left corner of the add/edit appointment screen.
-{{% /info %}}
-* <strong>Patient:</strong> Search for patient by typing in the patient's <em>last name</em>. The system will then attempt to auto-complete your typing and give you choices of patients that match that last name. You can also click the help icon to search for a patient by Date of Birth, SSN or MR#. Choose the correct patient by using the up/down arrow on the keyboard to the patient's name and then the tab key to get to the next field <strong>or</strong> use your mouse and click on the correct patient's name and proceed to the next field. If you selected the wrong patient name, simply clear the patient field and begin to type the last name of the patient you want.
-   * <strong>Add Patient:</strong> This is a link provided in the Patient field. If you search for the patient and do not get any auto-complete choices that are for the specific patient you need, click Add Patient link and you can load the patient into your {{% system-name %}} system manually. This will create a patient chart and MR# for that new patient. This is only to enter patients into the system that do not exist currently in {{% system-name %}} .
-* <strong>Select Encounters:</strong> In the Appointment Wizard, it will show any existing <em>open</em> encounters at the time you are scheduling an appointment. You can link open encounter(s) to the appointment you are creating. The list of open encounters to link will display the encounter type name. When you are adding or editing an appointment, you can add multiple encounter links to that appointment. To get to the next field, simply use your tab key.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/a44862f0415ee11a86c97db6bab71cff.png)
+This will help describe each field found on the Add Appointment screen:
+* <strong>Patient:</strong> Search for the patient chart that this appointment is for.  Various search methods exist, but typically keying in last name, followed by a portion of first name is what is used.  Use the auto-complete to select the specific patient match. 
+   * <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
+* <strong>Select Encounter:</strong> this selection box will show any existing <em>open</em> encounters for this patient's chart. You can link any open encounter(s) to the appointment you are creating. The list of open encounters available to link, will display the encounter type name. When you are adding or editing an appointment, you can link multiple open encounter(s) to that appointment if needed or if workflow appropriate.
 
-* Once the patient checks in for that appointment, that linked open encounter will automatically appear in the appointment details, which provides easy access into that encounter for documenting.
+![](../adding-an-appointment-using-the-wizard-tab.assets/d8bbd578486cb6aa9426c80607f6146c.png)
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/e4d3cf308dcb4ee151968ebf2b05ed99.png)
+{{% note %}}
+Any linked encounters to an appointment, will display in the scheduler module if your preference is set to show linked encounters on scheduled appointments.
 
-* <strong>Select Incident:</strong> In the Appointment wizard, if there are any active incidents in the patient's record, you can link appointment to active incidents.
+![](../adding-an-appointment-using-the-wizard-tab.assets/c027d709328c56e1e54c0de7ced7f8d3.png)
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/61105e98e46e9471487a22143d81b766.png)
+{{% /note %}}
+* <strong>Select Incident:</strong> this selection box will show any existing active (open) cases/incidents for this patient's chart.  You can link any open case/incident to the appointment you are creating.  The list of open cases/incidents available to link, will display the case number, type and onset of injury/illness. When you are adding or editing an appointment, you can link an open case/incident to that appointment if needed or if workflow appropriate. 
 
-* <strong>Select Checkin Station:</strong> In the Appointment screen, it will allow you to set a checkin station on this patient at the time you are adding this appointment. You should <strong>only set this/use this</strong> for walk-in appointments you are adding to the schedule because if you set a checkin station here, as soon as you SAVE the appointment, it will automatically checkin that patient to that station immediately. If the "Hide Occupied Stations" system setting is turned on for your system, the station dropdown in the Appointment Screen will be populated only with those stations that are unoccupied (or "lobby-like"). This checkin station selection field only shows up if you are creating a brand-new appointment, not on appointment edits. You also won't get this checkin station drop-down if the patient is already checked in somewhere. If this is a future appointment you are scheduling, you would leave this blank. If your practice doesn't want this field at all to utilize, contact your MIE Implementer and we can remove it as an available field.
+![](../adding-an-appointment-using-the-wizard-tab.assets/e37004061439a7af865460aa7fa639fa.png)
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/b926e833464aaf16ed1dcb832d1f44a7.png)
+* <strong>Select Due List Items:</strong> this selection box will show any pending due list items that are not marked as ‘scheduled'.  You can link any pending due list items to the appointment you are creating.  The list of pending due list items available to link, will display the due list item name and its due date.  When you are adding or editing an appointment, you can link a pending due list item to that appointment if needed or if workflow appropriate.
 
-* <strong>Referring Physician:</strong> Begin typing the first or last name of the referrer. The system will auto-complete your typing and give you choices of matches that are in the system. The list of autocomplete choices pulls referring physicians who are tagged to the Def.User Role of Referring Physicians. Make sure referring physicians are set to this in your {{% system-name %}} system so they show up here.
+![](../adding-an-appointment-using-the-wizard-tab.assets/c2a2d19b9d577b472364e79454307950.png)
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/b3578f49cf1a963ed490880c088f7c82.png)
+{{% note %}}
+If you link any pending due list items to a successfully scheduled appointment, then the pending due list item will display that scheduled appointment date/time in the *Scheduled* column next to the pending due list items, which is visible within the Due List chart tab.  It is also visible in the Encounter Orders search report, Active Due List Items report and Global Due List Search report.
 
-* Click on the referring physician that you want .This field will not accept manually, free-typed names. You must select from the auto-complete choices. You can select more than one referrer. If you wish to delete a referrer you have entered, simply click on the minus ( - ) sign to the left of the name. (In the new appt screen, the referring physician input can be replaced with a list edit that inputs a user and their role. So, a physician can be added as the ‘ordering' rather than the referring or any other type of role the system has set up. This carries over to the encounter created from the appointment.)
-* <strong>Chief Complaint:</strong> Type in complaint/problem, etc Limited to 30 characters
-* <strong>Contact:</strong> Type in any contact information for this appt. Maybe who requested the appointment, or any other contact info.
-* <strong>Contact Number:</strong> Type in the phone number for the contact.
-* <strong>Confirmed:</strong> Can checkmark this box if you have confirmed the appointment with the person. On the appt schedule view, a [c] will appear if you have changed your settings to view this (for confirmed), or a [u] will appear for un-confirmed.
-* <strong>Email Patient:</strong> You must have security permission to <em>Send Email to Patients</em> set to Yes in order for any email features to display for your use. If your security is set to No, you will not see this Email feature. Select an email template <em>if</em> you wish to send the patient an email regarding the appointment just scheduled.
+![](../adding-an-appointment-using-the-wizard-tab.assets/f690b183dd9ef5e844e120f476263bef.png)
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/55b28b098007c7f0eb17cb6ea1f22ac2.png)
+{{% /note %}}
+* <strong>Select Checkin Station:</strong> this should only be used if you add appointments to the schedule for walk-in appointment workflow needs and is not to be used for future appointments being scheduled.  This selection box will allow you to set a checkin station on this patient at the time you are adding this appointment. You should <strong>only set this/use this</strong> for walk-in appointments you are adding to the schedule because if you set a checkin station here, as soon as you SAVE the appointment, it will automatically checkin that patient to that station immediately. If the <em>Hide Occupied Stations</em> system setting is turned on for your system, the station dropdown in this Add Appointment screen will be populated only with those stations that are unoccupied (or "lobby-like"). This checkin station selection field only shows up if you are creating a brand-new appointment, not on appointment edits. You also won't get this checkin station drop-down if the patient is already checked in somewhere. If this is a future appointment you are scheduling, you would leave this blank. If your practice doesn't want this field at all to utilize, contact your MIE Implementer who can remove it as an available field.
 
-* <strong>I-Calender Invice (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
-* <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
+![](../adding-an-appointment-using-the-wizard-tab.assets/22dd9e4fe39121c9bfacaa113f80754b.png)
+
+* <strong>Referring Physician:</strong> This is an auto-complete field, not a free text field.  Begin typing the first or last name of the referrer if you need this on the appointment for any workflow needs. This referring physician auto-complete field looks for users (active or disabled) in your system set to a <em>Default User Role</em> of Referring Physician. This means, any referring physician names must be configured and managed in your system. The system will auto-complete your typing and give you choices of matches that are configured as users in the system.  You must select from the auto-complete if using this field.  You can select more than one referrer. If you wish to delete a referrer you have entered, simply click on the minus ( - ) sign to the left of the name. A custom configuration option is offered where the referring physician input can be replaced with a list edit that inputs a user and their role. So, a physician can be added as the ‘ordering' rather than the referring or any other type of role the system has set up. This carries over to the encounter created from the appointment.
+
+![](../adding-an-appointment-using-the-wizard-tab.assets/624d6b664c9d0b35ab367a2f752b75dd.png)
+
+* <strong>Chief Complaint:</strong> Type in complaint/problem.  Any Chief Complaint typed here is also displayed as Chief Complaint encounter section when/if checked in for an appointment that creates an encounter visit to document in.
+* <strong>Contact:</strong> Free type in any contact information name(s) for this appointment if needed for any workflow needs.
+* <strong>Contact Number:</strong> Type in the phone number for the contact(s) if needed for any workflow needs.
+* <strong>Confirmed:</strong> Can checkmark this box if you have confirmed the appointment with the person. On the appointment schedule multiview, a [c] will appear if you have changed your settings to view this (for confirmed), or a [u] will appear for unconfirmed (or checkbox if have edit rights to an unconfirmed) for quick visibility of the day's schedule.
+
+![](../adding-an-appointment-using-the-wizard-tab.assets/c9d5c012c4f1fe35b49e49b5c90ca729.png)
+
+* <strong>Email Patient:</strong> You must have security permission to <em>Send Email to Patients</em> set to Yes in order for any email features to display for your use. If your security is set to No, you will not see this Email feature. Select a pre-templated email, from the drop-down, if you wish to send the patient an email regarding the appointment just scheduled.
+
+![](../adding-an-appointment-using-the-wizard-tab.assets/b89964ff4ea6bb519dd183abac221357.png)
+
+* <strong>I-Calender Invite (.ics):</strong> The appointment will be sent (along with the email template) with a calendar invite that the patient can accept to add this appointment to their calendar/device calendar that they receive the email on. It copies this appointment into the patient's calendar program if they use such calendar programs if they wish. 
+* <strong>Make appt invite ‘Public':</strong> The appointment is sent as <em>private</em> by default on the patient's calendar program when this is uncheckmarked.  However, if checkmarked, the appointment goes on the patient's calendar program (if they wish to accept and store on their device's calendar received at), but as <em>public</em> instead of private.
 * <strong>Send me RSVP:</strong> Checkmark this if you wish to receive an RSVP via email. When the appointment is accepted or declined by the recipient, the logged in user will receive an RSVP email sent out by the recipient's email client.
-* <strong>CC: (carbon copy)</strong> You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. It will auto-complete {{% system-name %}} users for you to choose from. You cannot free type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
+* <strong>CC: (carbon copy)</strong> You can type in the first or last name of a user within your {{% system-name %}} system and the email (that you signified to send within the <em>Email Patient</em> field) will be sent to the {{% system-name %}} user also. It will auto-complete {{% system-name %}} users for you to choose from. You cannot freely type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
 * <strong>Comment:</strong> Can type a comment and it will appear in the schedule views. Any comment associated w/ the appointment type selected will appear here also, unless there is already a comment typed here previously.
 * <strong>Due Date:</strong> indicates that the appt needs to be scheduled by that date. This is used for our Corporate Health clients when an appt is on the waiting list and the employee needs to choose an appt time by that due date.
 * <strong>Visible Date:</strong> Visible date is the date the waiting list appointment will display to the employee on the employee portal, and the date they will receive an email invitation to schedule their appointment.  There is a period prior to that visible date where everything is setup and it allows time for the line manager to review to make sure the patient is in the correct panel(s) before the email invitation is sent.  This is only used for Corporate Health clients. Visible date may also be utilized by health practices that cannot schedule patients yet because they don't schedule physicians ahead of time and need to send a recall letter to a patient on that date to remind them to now call to schedule their appointment. (If wish to utilize this in that capacity, please contact your MIE Implementer).
@@ -84,11 +86,11 @@ If you chose Add Apt from a specific patient's e-chart, then it will automatical
 
 The next section is *Patient Visits*.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/8129d3b507bfdcf0b46a75bf14addd0b.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/f033c5f9597aa82a5396bc3aca92574d.png)
 
 * <strong>Resource:</strong> Required field. The resource will default and show/populate the name of the physician whose scheduler view you are set to or last worked in. Simply click the [-] minus button to get rid of it if you wish to select a different resource for this appointment. In the resource field, begin typing the last or first name of the physician to schedule with. The system will auto-complete to give you choices.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/8a36be3d4663cb2ceecf1e75eec98273.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/efa6902a464148678bddf809a41008ce.png)
 
 * Resources are users preloaded in your {{% system-name %}} system. They must belong to a specified department to be considered a resource. In most systems, it is called a SysSched department. Some use the physicians department. If you want to add another physician/therapist, etc to this appointment for this patient, then after you initial selection, simply begin typing another last or first name in the resource field and choose it. Continue until you are done. If you selected a wrong resource, click the [-] minus sign to delete that selection.
 * <strong>Appt (Appointment) Types:</strong> Begin typing in the appointment type the patient is being seen for. The system will auto-complete to give you choices of active appt types. If you selected a wrong appt type, click the [-] minus sign on the appt type to remove it. To add another appointment type for this specific appointment, simply begin typing another appt type and choose it. Continue until you are done. <em>Hit your down arrow key on your keyboard here to see a complete list of appointment type choices your system has—instead of using the auto-complete if you wish.</em>

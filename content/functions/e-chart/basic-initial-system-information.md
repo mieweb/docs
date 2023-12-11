@@ -1,9 +1,9 @@
 ---
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
-date: '2023-11-27T22:05:58.686Z'
-version: 151
-lastAuthor: 'Will Reiske (MIE)'
+date: '2023-12-01T17:33:47.484Z'
+version: 172
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
@@ -11,7 +11,7 @@ wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
 ---
 ## Basic Initial System Information
 
-We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that.  This guide will go over basic initial system information and navigation.  When logging into {{% system-name %}} , you will be set to land on a default page.  Likely, it will be the Quick View sidemenu tab.  However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the *Default Page* setting.
+We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that.  This guide will go over basic initial system information and navigation.  When logging into {{% system-name %}}, you will be set to land on a default page.  Likely, it will be the Quick View sidemenu tab.  However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the *Default Page* setting.
 
 ### Chart Simple Search Screen
 
@@ -36,7 +36,7 @@ If desired, the system can be configured to turn off the *Search by Social Secur
 
 ### Documents Chart Tab
 
-Once accessing or working in a selected chart, {{% system-name %}}  will include a **Documents** chart tab. By design, all documents stored in the chart will be mapped to this Documents catch-all chart tab unless otherwise changed by a system administrator.
+Once accessing or working in a selected chart, {{% system-name %}} will include a **Documents** chart tab. By design, all documents stored in the chart will be mapped to this Documents catch-all chart tab unless otherwise changed by a system administrator.
 
 ![](../basic-initial-system-information.assets/0cbfc48bd93b553132951fc02b4f022e.png)
 
@@ -116,7 +116,7 @@ To log out of the system, click the Logout sidemenu option.
 ![](../basic-initial-system-information.assets/32a0061c3ae80b276b91694780283f32.png)
 
 {{% note %}}
-A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for *Timeout* is defaulted to 7200 seconds (which is 2 hours).
+A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for Timeout is defaulted to 7200 seconds (which is 2 hours).
 {{% /note %}}
 
 
