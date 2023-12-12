@@ -1,8 +1,8 @@
 ---
 id: '1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
 title: 'AWS Deployment'
-date: '2023-12-10T22:53:06.391Z'
-version: 61
+date: '2023-12-12T15:00:01.807Z'
+version: 68
 lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links:
@@ -14,6 +14,7 @@ links:
   - 'https://aws.amazon.com/rds/instance-types/'
   - 'https://aws.amazon.com/marketplace/pp/prodview-i3vkpa6e3rfk6'
   - 'https://aws.amazon.com/ec2/instance-types/c5/'
+  - 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html'
   - 'https://aws.amazon.com/s3/sla/'
 source: 'https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
 wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
@@ -61,6 +62,11 @@ Instance Type: [C5a.2xlarge](https://aws.amazon.com/ec2/instance-types/c5/)
 Memory: 16 GiB  
 Storage: 250 GB  
 Number of vCPUs: 8
+
+
+### Encryption / Protocols
+
+All EC2 instances use encrypted EBS volumes (see [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html)) and utilize TLS 1.3 for client connections.
 
 
 ## ElastiCache
