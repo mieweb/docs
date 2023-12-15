@@ -30,10 +30,12 @@
       {{ if gt (.TableOfContents | len) 32 }}
       <div class="row flex-column-reverse flex-xl-row">
         <div class="col-12 col-xl-4 toc-print order-2">
-          <h2>Covered by this topic</h2>
-          <aside>
-            {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | safeHTML }}
-          </aside>
+          <div class="sticky-top top-nav-height">
+            <h2>Covered by this topic</h2>
+            <aside>
+              {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | safeHTML }}
+            </aside>
+          </div>
         </div>
         <div class="col-12 col-xl-8 content-print order-1">
           {{ .Content | safeHTML }}
