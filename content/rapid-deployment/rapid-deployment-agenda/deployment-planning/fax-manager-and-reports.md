@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-fax-manager.md'
   - '../../review-sessions/review-session-reports.md'
 source: 'https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 ## Purpose
 

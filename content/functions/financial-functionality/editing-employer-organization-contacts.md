@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1kshWUcFrvmzCRJ9LGkoDz6WRXkLMRJigN7IBjrv11sE'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 1. [Find employer organizations](finding-employer-organizations.md).
 2. From the search results, select the <strong>name of the organization</strong> in which to edit contacts. The system displays information about the organization.

@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1Z2HbO8vuW4wiId1PS_Fk39xGbDJC5el-xBmBvvnLzNY/edit?usp=sharing'
   - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
 source: 'https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create structured text (HTML) summary documents using the Summary Documents CSV API.
 

@@ -10,7 +10,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestPUR_B.csv'
   - '../../functions/system-administration/data-migration/chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 **Chart PUR Import Options**  
 The following options are allowed. Any other options are unsupported and will be rejected.

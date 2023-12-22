@@ -7,7 +7,7 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 {{% system-name %}} offers a spell check feature within text documents, encounter text, and other areas of use.  When utilizing spell check, those with security permission to Manage Spell Check can add words to the  {{% system-name %}} library to be recognized.    
 Words that are added to the master spell check library for the system are found in the Spell Check tab within the Control Panel sidemenu and is accessible to those also with security permission to Manage Spell Check.

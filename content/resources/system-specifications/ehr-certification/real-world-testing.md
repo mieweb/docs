@@ -16,7 +16,7 @@ links:
   - 'real-world-testing/rwt-results-2022-q2.md'
   - 'real-world-testing/rwt-results-2022-q1.md'
 source: 'https://drive.google.com/open?id=181WNaOF2YKqpFmbb4SSXEOUxGi4vdCfN6xyCaYV7S3s'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 ## RWT Plans
 

@@ -7,6 +7,6 @@ lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 Social History

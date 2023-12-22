@@ -6,7 +6,7 @@ version: 46
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.  
 Within {{% system-name %}} , you may have a chart tab named *EKG* where you can see the imported EKG device results and interpretations. Contact your MIE Implementer for set up.

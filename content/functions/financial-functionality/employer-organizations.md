@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1zUjSH1KBHMY85zmq6vRGN39Lir2X3K4RMjXq6UgGBvI'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 Use employer organizations to charge services to employers, create deals between employer organizations and service provider organizations.  
 This section discusses:  

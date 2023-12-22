@@ -690,7 +690,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 * [Programs](programs.md)
    * [Medical Programs](programs/medical-programs.md)

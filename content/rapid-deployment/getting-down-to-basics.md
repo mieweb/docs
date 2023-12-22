@@ -2,7 +2,7 @@
 id: '1pNelE3B-olct_hrbdA-rgvh2GpACme1hjf7QBz9Bf_w'
 title: 'Getting Down to Basics'
 date: '2020-02-27T20:33:05.282Z'
-version: 57
+version: 59
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1570706832'
@@ -16,7 +16,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1973161138'
   - 'https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1682651183'
 source: 'https://drive.google.com/open?id=1pNelE3B-olct_hrbdA-rgvh2GpACme1hjf7QBz9Bf_w'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 The following is a checklist of the functional and non-functional requirements needed to effectively define and scope the {{% system-name %}} system according to the basic needs of the organization. Please keep in mind that the quality and accuracy of the provided information and data is of utmost importance, so please ensure all details are unambiguous, complete, and correct.
 

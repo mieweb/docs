@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 You must have security role of *Manage Custom Pharmacies* set to Yes to access the Custom Pharmacy tab found in the Control tab module.  
 If your practice has a drug dispenser type machine that we interface with (example: InstyMeds), we can send the same type of prescription electronic message to that machine dispenser instead of a retail pharmacy. The interface uses SureScripts to send prescriptions electronically to pharmacies however we have the ability to add a custom "pharmacy", that will bypass sending the script to SureScripts and direct it to another url.   Practices that have this ‘machine-like medication dispensing machine', would have MIE add an in-house pharmacy for that dispensing machine (example: InstyMeds Dispenser).  The physician will prescribe as normal and instead of choosing a local retail pharmacy; the user searches the pharmacy database for the in-house pharmacy named example: "InstyMeds Dispenser".  {{% system-name %}} will route the electronic prescription to the Instymeds machine in the clinic lobby and bypass SureScripts.  The patient would then pick up their prescription on the way out the door.  This machine-like medication dispensing machine can receive messages in the same format as those that are sent to SureScripts.  We send those messages to a different URL than SureScripts so that it goes to the dispensing machine instead.  

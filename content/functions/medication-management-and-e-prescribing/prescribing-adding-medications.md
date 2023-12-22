@@ -7,7 +7,7 @@ lastAuthor: 'Emily McComb'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view.  

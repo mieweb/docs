@@ -6,7 +6,7 @@ version: 42
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M34Pr2z2Qc-Z1I0PuQYKCB50vurvtKddEMd7fHRQX6Q'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 ## Set Preferred Pharmacy
 

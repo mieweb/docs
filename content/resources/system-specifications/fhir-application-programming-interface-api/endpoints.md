@@ -2,12 +2,12 @@
 id: '1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
 title: 'Endpoints'
 date: '2023-01-19T20:01:24.657Z'
-version: 56
+version: 58
 lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 
 

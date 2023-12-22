@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 ## Add Patient Assistance Inventory
 

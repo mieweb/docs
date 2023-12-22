@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'closing-an-existing-case.md'
 source: 'https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 ## **Cases**
 

@@ -24,7 +24,7 @@ links:
   - 'data-import-master-list.md'
   - 'data-migration-file-format-standard.md'
 source: 'https://drive.google.com/open?id=1dWlxZTkN0MeMsw_OGuzzr2SIH6GiA3vPwndilFkY5hk'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 ## **Introduction**
 

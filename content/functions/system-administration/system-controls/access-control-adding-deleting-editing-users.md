@@ -9,7 +9,7 @@ links:
   - 'access-control-quick-add-multiple-active-users.md'
   - 'setting-up-e-prescribers.md'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 Must have security permissions to be able to add/edit/delete users
 
