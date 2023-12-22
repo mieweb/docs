@@ -6,7 +6,7 @@ version: 83
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 Click *E-Chart* on the left sidebar menu.  
 Search and select the patient.  

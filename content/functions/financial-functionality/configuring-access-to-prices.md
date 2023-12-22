@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1lBr46ADVjyFfGmtfJEHgiTOSGxzYKZ2wQtjcGN-DOm8'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 For each user security role or user account that needs to view or edit prices when working with charges or payments, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md).   
 In the *Financials* section, in the *Price* field, choose the level of access:

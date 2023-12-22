@@ -10,7 +10,7 @@ links:
   - 'improvement-activities-measures/2018-improvement-activities.md'
   - 'improvement-activities-measures/2019-improvement-activities.md'
 source: 'https://drive.google.com/open?id=1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 
 

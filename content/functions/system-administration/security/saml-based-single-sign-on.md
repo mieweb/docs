@@ -10,7 +10,7 @@ links:
   - 'single-sign-on-sso.md'
   - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 SSO access is a standard for users accessing protected information, such as patient data. Access is provided by creating and enabling a login trust. This allows users to access all {{% system-name %}} services by signing in *one time*. When properly configured, users are redirected to the SSO login page to access the system, accordingly.  
 The following document provides details and considerations for using Security Assertion Markup Language (SAML)-based single sign-on (SSO) with the {{% system-name %}} systems. {{% system-name %}} currently supports SAML 2.0 SP-initiated or IDP-initiated workflows with the HTTP-POST binding. {{% system-name %}} provides a SAML-based SSO application program interface (API). For an in-depth review of SAML, see the public Wikipedia page: [https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)  

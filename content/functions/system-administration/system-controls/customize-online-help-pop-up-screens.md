@@ -2,13 +2,13 @@
 id: '13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
 title: 'Customize Online Help Pop-up Screens'
 date: '2021-11-17T16:12:49.566Z'
-version: 116
+version: 120
 lastAuthor: 'Aaron Capriglione'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/video/WCEncounter.mov*'
 source: 'https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 Help is always available in {{% system-name %}} . At the top right corner of your {{% system-name %}} screen session is a help bubble icon.  
 Click that to access {{% system-name %}} Online Help. Once you click the a pop-up window of {{% system-name %}} Online Help will open (pop-up) on your screen. You can type search phrases in the field at the top or click the index hyperlink at the bottom right corner of this screen to get a full index of all help documents in pdf format provided by MIE.  

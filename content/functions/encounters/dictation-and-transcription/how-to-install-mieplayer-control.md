@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mywebchart.com/plugins/'
 source: 'https://drive.google.com/open?id=1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 There is also added support to {{% system-name %}} for the MIEplayer plugin to be used in alternative browsers such as Firefox or Chrome. Firefox will open a plugin downloader and manually installing the plugin will get a user up and running. Chrome and other browsers require more work. [https://mywebchart.com/plugins/](https://mywebchart.com/plugins/) will host details. If user is on a Macintosh, a java plugin can be optionally setup to be used. It is not as feature rich but functional. The steps described below are for Internet Explorer.
 1. Log into your {{% system-name %}} system.

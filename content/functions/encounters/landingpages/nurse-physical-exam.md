@@ -7,6 +7,6 @@ lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1AWRERARQlFkZyzQ-Z6Gk9AyRDwnMBljDFz5I8EOcq40'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 Nurse Physical Exam

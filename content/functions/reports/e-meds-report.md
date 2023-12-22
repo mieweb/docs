@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1fNg0sAfSa--FDnU7IhltWryuzjmLbiqj7K7tEymrRSA'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab).  
 E-Meds Report displays medications that have been prescribed in {{% system-name %}} (prescribed using e-meds module/tab or encounters plan area) that were printed or faxed or electronically transmitted (e-sent) via SureScripts. This only shows a report of **printed and faxed and e-sent** prescriptions. If a med is prescribed but hasn't been/wasn't printed or faxed, it does not show up on this report.  

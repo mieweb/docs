@@ -10,7 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
   - 'ehi-export-technical-details.md'
 source: 'https://drive.google.com/open?id=1-ZghkeZW86JVJ5pTNjqtJqz2uOD6imwgA8EGma-Hiv4'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 ## Introduction
 
