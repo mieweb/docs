@@ -1,9 +1,9 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
-date: '2023-02-23T15:56:02.854Z'
-version: 90
-lastAuthor: 'Zack Barrell'
+date: '2024-01-15T12:52:33.514Z'
+version: 119
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
@@ -12,16 +12,16 @@ links:
   - 'data-import-standards.md'
   - 'chart-medical-record-number-mrn-import-options.md'
   - 'chart-observations-import-options.md'
-  - 'https://miewiki.med-web.com/wiki/index.php/Chart_Observations_Default_Values'
+  - 'chart-observations-default-values.md'
   - 'https://www.lucidchart.com/documents/view/8b1c6c06-6b16-40a0-afe7-a576d804854d'
   - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/pubhtml'
-  - 'https://miewiki.med-web.com/wiki/index.php/Troubleshooting_APIs'
+  - '../../../resources/system-specifications/application-programming-interface-api.md'
   - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 wikigdrive: 'latest'
 ---
-The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API. 
+The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.
 
 ### **Audience**
 
@@ -47,7 +47,7 @@ The Chart Data CSV API specifications are available here: [https://docs.google.
 
 The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
 {{% /note %}}
-Additionally, [user instructions](#gjdgxs) are available for importing data in EH.
+Additionally, user instructions are available for importing data in EH.
 
 ### **Column Definitions and Specific Coded Values**
 
@@ -98,13 +98,13 @@ Both of the following fields are needed to link the observation to a patient enc
 Including the field encounter order_id will also create an encounter order.
 [Chart Observations Import Options](chart-observations-import-options.md) can be used to modify how observations are processed as the file is loaded.
 
-[Chart Observations Default Values](https://miewiki.med-web.com/wiki/index.php/Chart_Observations_Default_Values) can be used to simplify the import file.
+[Chart Observations Default](chart-observations-default-values.md) Values can be used to simplify the import file.
 
 #### **insurance_policy**
 
 The insurance_policy table stores the policy information for each insurance policy that a patient has.
 
-This field can be used multiple times by replacing with a unique identifier. If it is an integer value it is used to indicate the priority of the insurance policy. Otherwise, it is not linked in any way to the policy.
+This field can be used multiple times by replacing it with a unique identifier. If it is an integer value it is used to indicate the priority of the insurance policy. Otherwise, it is not linked in any way to the policy.
 
 #### **user_patients**
 
@@ -124,7 +124,7 @@ Examples using sample data are available on [separate tabs in the specification
 
 ## **Troubleshooting**
 
-See [Troubleshooting APIs](https://miewiki.med-web.com/wiki/index.php/Troubleshooting_APIs).
+See [Troubleshooting APIs](../../../resources/system-specifications/application-programming-interface-api.md).
 
 ## **Validation**
 
