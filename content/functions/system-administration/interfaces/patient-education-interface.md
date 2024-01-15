@@ -1,9 +1,9 @@
 ---
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
-date: '2021-08-30T18:51:59.554Z'
-version: 143
-lastAuthor: 'sriecke'
+date: '2024-01-10T19:23:42.072Z'
+version: 159
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'

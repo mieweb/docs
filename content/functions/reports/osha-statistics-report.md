@@ -1,8 +1,8 @@
 ---
 id: '1y75-zBcAX1xWPT3-GOl3RRm9wqTRdYvFF54JjU5VtLQ'
 title: 'OSHA Statistics Report'
-date: '2023-12-01T17:22:23.829Z'
-version: 195
+date: '2024-01-12T15:47:17.937Z'
+version: 203
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
