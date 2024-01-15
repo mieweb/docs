@@ -1,8 +1,8 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
-date: '2024-01-15T12:52:33.514Z'
-version: 119
+date: '2024-01-15T13:09:57.154Z'
+version: 125
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -42,11 +42,13 @@ This API may also be used to set up relationships between charts. It is part of 
 ## **Specifications**
 
 The following sections provide insight for technical personnel working with the provided import specifications. Although the specifications provided include details on each field utilized in the import, the sections below include further discussion on best practices for imported data to provide the best functionality in Enterprise Health.  
-The Chart Data CSV API specifications are available here: [https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0)  
+The Chart Data CSV API specifications are available here: [https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0)
+
 {{% note %}}
 
 The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
 {{% /note %}}
+
 Additionally, user instructions are available for importing data in EH.
 
 ### **Column Definitions and Specific Coded Values**
