@@ -2,7 +2,7 @@
 id: '1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4'
 title: 'Storage Report'
 date: '2020-02-27T20:16:58.467Z'
-version: 22
+version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4'

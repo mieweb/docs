@@ -2,7 +2,7 @@
 id: '1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 title: 'Managing Departments'
 date: '2024-01-11T18:36:35.269Z'
-version: 91
+version: 98
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []

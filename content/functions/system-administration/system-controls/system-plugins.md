@@ -2,7 +2,7 @@
 id: '1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
 title: 'System Plugins'
 date: '2020-02-27T20:17:38.936Z'
-version: 24
+version: 26
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
