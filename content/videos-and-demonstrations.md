@@ -1,22 +1,23 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2023-12-15T17:28:08.418Z'
-version: 552
+date: '2024-01-21T16:47:58.334Z'
+version: 580
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://blog.enterprisehealth.com/videos/a-complete-employee-health-solution'
-  - 'https://blog.enterprisehealth.com/videos/welcome-to-enterprise-health'
-  - 'https://blog.enterprisehealth.com/videos/medical-surveillance-intro'
-  - 'https://blog.enterprisehealth.com/videos/occupational-injury-and-illness-intro'
-  - 'https://blog.enterprisehealth.com/videos/clinical-care-intro'
-  - 'https://blog.enterprisehealth.com/videos/health-surveillance-demo-video'
-  - 'https://blog.enterprisehealth.com/videos/clinical-care-demo-video'
-  - 'https://blog.enterprisehealth.com/videos/occupational-injury-and-illness-demo-video'
-  - 'https://blog.enterprisehealth.com/videos/injection-and-immunization-management-demo-video'
-  - 'https://blog.enterprisehealth.com/videos/standard-reporting-demo-video'
-  - 'https://blog.enterprisehealth.com/videos/osha-recordkeeping-and-reporting-demo-video'
+  - 'https://www.enterprisehealth.com/blog/video-a-complete-employee-health-solution-enterprise-health'
+  - 'https://www.enterprisehealth.com/blog/video-welcome-to-enterprise-health-enterprise-health'
+  - 'https://www.enterprisehealth.com/blog/video-intro-to-medical-surveillance-enterprise-health'
+  - 'https://www.enterprisehealth.com/blog/video-intro-to-occupational-injury-and-illness'
+  - 'https://www.enterprisehealth.com/blog/video-employer-provided-primary-care-software-enterprise-health'
+  - 'https://www.enterprisehealth.com/blog/video-employee-health-surveillance-software-demo-enterprise-health'
+  - 'https://www.enterprisehealth.com/blog/video-clinical-care-software-demo'
+  - 'https://www.enterprisehealth.com/blog/video-occupational-injury-illness-software-demo'
+  - 'https://www.enterprisehealth.com/blog/video-injection-and-immunization-management-software-demo'
+  - 'https://www.enterprisehealth.com/blog/video-standard-reporting-software-demo-enterprise-health'
+  - 'https://www.enterprisehealth.com/blog/video-osha-recordkeeping-and-reporting-software-demo'
+  - 'https://www.youtube.com/watch?v=__R9twSkS2A'
 source: 'https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 wikigdrive: 'latest'
 ---
@@ -33,20 +34,20 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 ## Meet the Product
 
-* [A Complete Employee Health Solution](https://blog.enterprisehealth.com/videos/a-complete-employee-health-solution)
-* [Welcome To Enterprise Health](https://blog.enterprisehealth.com/videos/welcome-to-enterprise-health)
-* [Intro to Medical Surveillance](https://blog.enterprisehealth.com/videos/medical-surveillance-intro)
-* [Intro to Occupational Injury and Illness](https://blog.enterprisehealth.com/videos/occupational-injury-and-illness-intro)
-* [Intro to Clinical Care](https://blog.enterprisehealth.com/videos/clinical-care-intro)
+* [A Complete Employee Health Solution](https://www.enterprisehealth.com/blog/video-a-complete-employee-health-solution-enterprise-health)
+* [Welcome To Enterprise Health](https://www.enterprisehealth.com/blog/video-welcome-to-enterprise-health-enterprise-health)
+* [Intro to Medical Surveillance](https://www.enterprisehealth.com/blog/video-intro-to-medical-surveillance-enterprise-health)
+* [Intro to Occupational Injury and Illness](https://www.enterprisehealth.com/blog/video-intro-to-occupational-injury-and-illness)
+* [Intro to Clinical Care](https://www.enterprisehealth.com/blog/video-employer-provided-primary-care-software-enterprise-health)
 
 ## Product Demonstrations
 
-* [Health Surveillance](https://blog.enterprisehealth.com/videos/health-surveillance-demo-video)
-* [Clinical Care](https://blog.enterprisehealth.com/videos/clinical-care-demo-video)
-* [Occupational Injury and Illness](https://blog.enterprisehealth.com/videos/occupational-injury-and-illness-demo-video)
-* [Injection and Immunization Management](https://blog.enterprisehealth.com/videos/injection-and-immunization-management-demo-video)
-* [Standard Reporting](https://blog.enterprisehealth.com/videos/standard-reporting-demo-video)
-* [OSHA Recordkeeping and Reporting](https://blog.enterprisehealth.com/videos/osha-recordkeeping-and-reporting-demo-video)
+* [Health Surveillance](https://www.enterprisehealth.com/blog/video-employee-health-surveillance-software-demo-enterprise-health)
+* [Clinical Care](https://www.enterprisehealth.com/blog/video-clinical-care-software-demo)
+* [Occupational Injury and Illness](https://www.enterprisehealth.com/blog/video-occupational-injury-illness-software-demo)
+* [Injection and Immunization Management](https://www.enterprisehealth.com/blog/video-injection-and-immunization-management-software-demo)
+* [Standard Reporting](https://www.enterprisehealth.com/blog/video-standard-reporting-software-demo-enterprise-health)
+* [OSHA Recordkeeping and Reporting](https://www.enterprisehealth.com/blog/video-osha-recordkeeping-and-reporting-software-demo)
 
 {{% /column %}}
 
@@ -198,4 +199,6 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
 
 {{% /only %}}
+
+[Webchart Generative AI](https://www.youtube.com/watch?v=__R9twSkS2A)
 
