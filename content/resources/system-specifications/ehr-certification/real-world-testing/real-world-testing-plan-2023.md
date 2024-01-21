@@ -1,9 +1,9 @@
 ---
 id: '1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
 title: 'Real World Testing Plan 2023'
-date: '2023-10-30T20:26:27.544Z'
-version: 974
-lastAuthor: 'Nicole Richardson'
+date: '2023-12-22T16:38:41.107Z'
+version: 989
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -33,6 +33,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://maui.webchartnow.com/webchart.cgi?f=layout&s=pat&module=StructDocTypes&name=CCDA&XML&encounter_id=6408025'
 source: 'https://drive.google.com/open?id=1r_BEphJOwGlgc4gtZmdA3SOYpO1LmuEOUxO9s5USTTs'
 wikigdrive: 'latest'
 ---
@@ -1759,6 +1760,9 @@ We will have weekly automated tests that will choose a certain number of random 
 #### Expected Outcome(s)
 
 All CCDAs tested should include all of the sections required, if applicable.
+
+Current live generated CCDA document on test chart in Maui:  
+[https://maui.webchartnow.com/webchart.cgi?f=layout&s=pat&module=StructDocTypes&name=CCDA&XML&encounter_id=6408025](https://maui.webchartnow.com/webchart.cgi?f=layout&s=pat&module=StructDocTypes&name=CCDA&XML&encounter_id=6408025) 
 
 #### Care Setting(s)
 
