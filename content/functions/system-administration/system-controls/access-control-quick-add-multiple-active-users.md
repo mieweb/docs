@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/managing-departments.md'
 source: 'https://drive.google.com/open?id=1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Must have security permissions to be able to add/edit/delete users.
 

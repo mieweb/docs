@@ -7,7 +7,7 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## Create Remembered Prescription from Quick Prescribe
 

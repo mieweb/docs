@@ -10,7 +10,7 @@ links:
   - 'quality-of-care/measures.md'
   - '../programs/quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures, designed for participation in various tracking and incentive programs available, today. These measures have been developed to help with understanding and excelling at tracking and providing quality care data. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
 

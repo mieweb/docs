@@ -13,7 +13,7 @@ links:
   - 'about:blank'
   - '../../reports/documents-report-super-document-type-search.md'
 source: 'https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Must have security setting of *Send Email to Patient* set to Yes in order to utilize the email link and feature in {{% system-name %}} .  
 Sending Email Reminders to patients are available in many modules within {{% system-name %}} . An ‘email' link can be found in the header of all chart tabs for the patient. This email link will show regardless if patient has an email address captured in their demographics or not.

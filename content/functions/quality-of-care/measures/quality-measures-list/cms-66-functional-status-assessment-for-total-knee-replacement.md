@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/pro'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10'
 source: 'https://drive.google.com/open?id=14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## Overview
 

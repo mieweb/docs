@@ -6,7 +6,7 @@ version: 28
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

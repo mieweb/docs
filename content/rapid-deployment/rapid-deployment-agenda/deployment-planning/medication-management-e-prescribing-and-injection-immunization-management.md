@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-medication-management-electronic-prescribing.md'
   - '../../review-sessions/review-session-injection-immunization-management.md'
 source: 'https://drive.google.com/open?id=1-lISyynsVEL9vuPGAfFFS021RJmb6d37Y-yiasjxLf4'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## Purpose
 

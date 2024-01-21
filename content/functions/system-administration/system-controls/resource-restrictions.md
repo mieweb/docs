@@ -7,7 +7,7 @@ lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 The **Resource Restrictions** tab in the Control Panel allows the restriction of a scheduling resource. The restriction prohibits users (without access to that resource) from viewing a resource's schedule. Another reason to perhaps use a Resource Restriction could be useful if multiple resources have same/similar names, but are in different clinics or countries. This would help staff to make sure they have the correct resource they are scheduling for. A resource can be limited to individual users, or to entire departments. The restrictions apply only to the selected resource, resources that are not listed in the Resource Restriction tab are not limited from any users.  
 Resource Restrictions can be used to prohibit staff or clinicians from accessing sensitive schedules, ensure partitioned population separation, or simply shorten a large list of resources in systems with multiple locations and users. Also, make sure they have partition access to the resources with schedules and give the Administrator department access to the resources with schedules.

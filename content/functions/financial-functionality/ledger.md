@@ -9,7 +9,7 @@ links:
   - 'configuring-access-to-ledger.md'
   - 'configuring-access-to-encounter-charges.md'
 source: 'https://drive.google.com/open?id=1TAzMICd2BvvJW5UQAB0sYb8ey1_ni3MS5Sc5neKFysg'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Use the financial ledger functionality to track and reconcile periodic revenue and transactions, like an accounting system. Each employer organization (EO) has a ledger to view open or historical activity. The financial ledger provides a bird's-eye view of the overall account balance and has a friendly view of all the transactions and includes a credit/debit column for itemized details.    
 Before ledger and financial functionality can be used, give user security roles access to the ledger. See [Allowing user security roles to access ledger](configuring-access-to-ledger.md). Also, for users to be able to work with fees in encounter visits, they need access to fees. See [Configuring access to encounter charges](configuring-access-to-encounter-charges.md).  

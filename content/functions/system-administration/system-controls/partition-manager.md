@@ -7,7 +7,7 @@ lastAuthor: 'jvaldez'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 The Partition Manager is a function of {{% system-name %}} that allows users the ability to create, update, and delete patient partitions used to assign MR numbers to patients. This powerful tool affects several areas of {{% system-name %}} including: Patient Registration, Document Queue, and Interfaces using Data send auto routes.  
 There may be a need to create a new partition in the {{% system-name %}} system. An example could be a separate company or provider wanting to keep records in the {{% system-name %}} system. If it is a totally separate company, and the provider is completely independent and just using office space, then we would recommend to create a new partition and new set of charts, especially if all his/her billing is done separately.  

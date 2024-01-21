@@ -9,7 +9,7 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/'
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/'
 source: 'https://drive.google.com/open?id=12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 The first step to being able to electronically transmit prescriptions from {{% system-name %}} to a pharmacy using the SureScripts feature is to properly have that prescribing user set up in {{% system-name %}} . You must have security rights to edit or set up users in {{% system-name %}} . Once you set up the Prescriber to become an electronic prescriber, SureScripts goes through a verification process. Once verified, your prescriptions will be e-sent via electronic transmission.  
 Click the *Control Panel* sidemenu tab then click the *Access Control* tab at the top. Search and find the physician that needs to have rights to e-prescribe. If the user/physician exists as a user in {{% system-name %}} already, simply click the *edit* link next to their username line. If the user/physician is new to {{% system-name %}}, you would click the *add user* link to add the user/physician to have access to {{% system-name %}} . (see other help documentation named *Access Control-Adding-Editing-Deleting Users.pdf).*  

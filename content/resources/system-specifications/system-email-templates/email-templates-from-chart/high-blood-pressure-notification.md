@@ -6,7 +6,7 @@ version: 19
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Dear Sally Sample,   
 During a recent visit, we found that your blood pressure was elevated. Please stop by anytime at your convenience to allow us to recheck your blood pressure.

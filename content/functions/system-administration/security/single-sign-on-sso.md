@@ -10,7 +10,7 @@ links:
   - 'https://en.wikipedia.org/wiki/Single_sign-on_'
   - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 The following document provides a general overview of using single sign-on (SSO) with {{% system-name %}} . SSO access is a standard for users accessing protected information, such as patient data. Access is provided by creating and enabling a login trust, so that when properly configured, users are redirected to a SSO login page to access the appropriate system(s), accordingly.  
 There are differences in the SSO setup depending on the method of SSO employed. Available options currently include MIE SSO or [Security Assertion Markup Language (SAML)](saml-based-single-sign-on.md). All methods of SSO use a common editor for configuring the system to accept SSO requests. {{% system-name %}} provides a SAML-based SSO application program interface (API), and uses this SAML-based SSO API to integrate into a client's existing IDP (i.e., LDAP). To use SSO, a set of public and private keys are generated, typically from an X.509 certificate. The public keys and/or certificate must be generated (RSA or DSA algorithm) and registered with {{% sys-name %}} .  

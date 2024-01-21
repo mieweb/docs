@@ -6,7 +6,7 @@ version: 46
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Click *MammoTrack* from left sidebar tab. This opens the specific tabs related to mammograms. It shows all data related to patients who have or have had mammograms tracked in the system and their mammogram result.  
 When you click this tab, it automatically defaults to open to the top tab called *Ready to Send.*

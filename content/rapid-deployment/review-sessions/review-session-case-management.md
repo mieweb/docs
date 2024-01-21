@@ -36,7 +36,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## Agenda
 

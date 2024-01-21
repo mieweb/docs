@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-patient-registration.md'
   - '../../review-sessions/review-session-document-management.md'
 source: 'https://drive.google.com/open?id=1i-O15wMVtd1z-_3p7cFpA9pTPSVWtSHotxi2wKwJXek'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## Purpose
 

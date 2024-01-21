@@ -7,7 +7,7 @@ lastAuthor: 'June Matzke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Click *E-Chart* on the left sidebar menu.  
 Click *Document Queue* tab at the top.  

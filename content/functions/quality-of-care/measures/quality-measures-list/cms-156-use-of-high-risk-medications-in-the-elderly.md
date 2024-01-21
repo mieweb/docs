@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/denominator'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10'
 source: 'https://drive.google.com/open?id=1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## Overview
 

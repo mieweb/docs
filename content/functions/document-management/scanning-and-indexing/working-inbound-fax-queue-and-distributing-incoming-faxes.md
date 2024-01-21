@@ -10,7 +10,7 @@ links:
   - 'mailto:noreplywebchart@med-web.com'
   - 'mailto:helpdesk@mieweb.com'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## Incoming/Pending Faxes
 

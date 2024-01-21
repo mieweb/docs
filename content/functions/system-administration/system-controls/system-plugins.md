@@ -6,7 +6,7 @@ version: 26
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 Certain modules, screens, functionalities require additional plugins to be installed on your computer before they will function. These are extensions to the program that are needed.  
 When in the Control sidemenu tab, there is a *Plugins* tab that allows plugins to be accessed and installed directly from that page. It's a page to load all ActiveX / plugins at once. It should let you also know when a control is not supported for your browser/OS (operating system). {{% system-name %}} has a built-in plugin manager starting March 2013 RC so any plugins installed from that RC on will automatically attempt to update themselves when newer plugins become available. Example: you've installed MIEWord v25 from March 2013 RC and then your {{% system-name %}} system is upgraded to newer RC which may (for example) come with MIEWord v26, then IE (and Chrome and Firefox for plugins that are supported) should prompt the user to let them automatically upgrade the plugin from {{% system-name %}} .  
