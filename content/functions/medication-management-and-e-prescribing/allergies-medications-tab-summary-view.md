@@ -1,9 +1,9 @@
 ---
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
-date: '2020-03-16T14:57:56.799Z'
-version: 79
-lastAuthor: ''
+date: '2024-01-15T20:25:49.530Z'
+version: 106
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
@@ -15,12 +15,12 @@ Click the *MEDS* tab at the top menu in the patient's file. The *MEDS* summary s
 If patient has NO allergies/intolerances entered, and/or NO medications entered, the screen will give you a message that says *Allergies have NOT been entered for this patient.* Then you would either go add allergies/intolerances by clicking Add Allergy/Intol or Quick Allergy (see other instructions within this document) or you click the *Document patient has No Known Drug Allergies (NKDA)* from this screen.  
 Same for *Medications have NOT been entered for this patient*. You would enter or prescribe medications (see other instructions within this document) or you click the *Document patient has No Medications* from this screen.
 
-![](../allergies-medications-tab-summary-view.assets/413a11dcdbce9566b58f023effcde717.png)
+![](../allergies-medications-tab-summary-view.assets/f7ba8b84419baae3c12b11354053e69e.png)
 
 You can *undo* NKDA or *undo* No Medications for the patient. Undo would mean that a user has tagged this patient as having No allergies and/or No Medications. A user can *undo* the category because either 1) it was done as a mistake/in error or 2) now need to add an allergy/intolerance and/or medication for this patient.  
 You do not have to *undo* a category. You can bypass this by clicking the *prescribe* or *quick add* hyperlinks in the Meds tab to add/prescribe meds or add allergies/intolerances.
 
-![](../allergies-medications-tab-summary-view.assets/daff9137295ce04c9f62c788e7acb4bb.png)
+![](../allergies-medications-tab-summary-view.assets/48cc9cba1a13a4b91fe6a17947eb4a32.png)
 
 If a patient does have allergies or medications entered into the Meds tab, it will list the allergies, refills due (if any) and medication history on this screen (instead of showing the previous).
 
@@ -53,7 +53,7 @@ To add an allergy or intolerance: click either hyperlink Add Allergy/Intol or Qu
 * <strong>Add Allergy/Intol</strong>: Will allow you to add an allergy and/or intolerance one at a time.
 * <strong>Quick Allergy</strong>: Will allow you to add 10 allergies and/or intolerances at a time.
 
-![](../allergies-medications-tab-summary-view.assets/1e7109db58642a6f97656b86f40b6fca.png)
+![](../allergies-medications-tab-summary-view.assets/378f8d1d11c179b73ef58ff1e5f81cdc.png)
 
 
 #### Add Allergy/Intol.
@@ -110,14 +110,14 @@ To refill from this queue, simply click the *Refill* hyperlink in the options co
 
 If your system setting is set to mandate all refills are to be tasked and approved by a provider before rendering the printed or faxed refill, you will see this message at the top. Upon prescribing the refill, it will then task the provider first for approval. (See other help documentation named *Refill All Meds.pdf* for further explanations.)
 
-![](../allergies-medications-tab-summary-view.assets/49d9d93fa287c9ece7946213343b0475.png)
+![](../allergies-medications-tab-summary-view.assets/2d0dce7f158707995cb017a20131a798.png)
 
 
 ### Medication History
 
 View the detailed list of medications that this patient is on, has been prescribed, or has discontinued, etc.
 
-![](../allergies-medications-tab-summary-view.assets/6e3befd961a94f5e2d3fa42e390d4eea.png)
+![](../allergies-medications-tab-summary-view.assets/2fc6e1fa073f927c6811dd60c1a28c91.png)
 
 * <strong>Drug Name</strong>: Shows brand name on the left. Under that at the right it shows the generic brand name. <em>First DataBank announced in Sept 2010 of an enhancement to generically named medication concepts. To comply with the Institute for Safe Medical Practices (ISMP) standards, FDB has lowercased the first letter of each ingredient in the generically named medication descriptions</em>. Can click on these underlined drug names to view drug information that was input. (When it was refilled, when it was modified, when it was printed or faxed or e-sent (electronically transmitted via SureScripts feature). If click the blue-circled for this drug, it will pop up the drug guide and information concerning this drug. This is an information link that brings up drug guide information for recommended dosage, drug interaction information, side effects, etc. Close out this screen using the X at the top right. If the drug has an asterisk next to it, that means it is a drug that is not found in the known drug listing/guide.
 {{% tip %}}
@@ -185,7 +185,7 @@ This is where you can view any unmatched electronic refill (e-refill) requests f
 
 Click this to show the list of everything. It is exactly the same view/list as you see when you click on the tab called **MEDS** above in the patient's e-chart tabs. You can do everything here as you can when you click MEDS tab and see the summary view.
 
-![](../allergies-medications-tab-summary-view.assets/a023b85960d39e996d57eae99a0e589b.png)
+![](../allergies-medications-tab-summary-view.assets/45706abc24c1fd426fe8f7b777c2f7f1.png)
 
 
 ### Medication History Specifics
