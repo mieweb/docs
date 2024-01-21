@@ -1,21 +1,19 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2023-12-11T13:01:05.804Z'
-version: 170
+date: '2024-01-02T18:36:32.462Z'
+version: 193
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 wikigdrive: 'latest'
 ---
-## Using the Wizard Tab from the Scheduler module
-
 Scheduling/Adding appointments can be done in many places within {{% system-name %}} but a centralized method is from the Wizard tab within the Scheduler module.
 
 Adding an appointment anywhere in {{% system-name %}} requires appropriate security permission. 
 
-## Adding an Appointment using the Wizard Tab
+## Adding an Appointment using the Wizard Tab from Scheduler Module
 
 Click *Scheduler* from the left sidebar menu and advance to the Wizard tab at the top.
 
@@ -77,10 +75,10 @@ If you link any pending due list items to a successfully scheduled appointment, 
 * <strong>I-Calender Invite (.ics):</strong> The appointment will be sent (along with the email template) with a calendar invite that the patient can accept to add this appointment to their calendar/device calendar that they receive the email on. It copies this appointment into the patient's calendar program if they use such calendar programs if they wish. 
 * <strong>Make appt invite ‘Public':</strong> The appointment is sent as <em>private</em> by default on the patient's calendar program when this is uncheckmarked.  However, if checkmarked, the appointment goes on the patient's calendar program (if they wish to accept and store on their device's calendar received at), but as <em>public</em> instead of private.
 * <strong>Send me RSVP:</strong> Checkmark this if you wish to receive an RSVP via email. When the appointment is accepted or declined by the recipient, the logged in user will receive an RSVP email sent out by the recipient's email client.
-* <strong>CC: (carbon copy)</strong> You can type in the first or last name of a user within your {{% system-name %}} system and the email (that you signified to send within the <em>Email Patient</em> field) will be sent to the {{% system-name %}} user also. It will auto-complete {{% system-name %}} users for you to choose from. You cannot freely type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
-* <strong>Comment:</strong> Can type a comment and it will appear in the schedule views. Any comment associated w/ the appointment type selected will appear here also, unless there is already a comment typed here previously.
-* <strong>Due Date:</strong> indicates that the appt needs to be scheduled by that date. This is used for our Corporate Health clients when an appt is on the waiting list and the employee needs to choose an appt time by that due date.
-* <strong>Visible Date:</strong> Visible date is the date the waiting list appointment will display to the employee on the employee portal, and the date they will receive an email invitation to schedule their appointment.  There is a period prior to that visible date where everything is setup and it allows time for the line manager to review to make sure the patient is in the correct panel(s) before the email invitation is sent.  This is only used for Corporate Health clients. Visible date may also be utilized by health practices that cannot schedule patients yet because they don't schedule physicians ahead of time and need to send a recall letter to a patient on that date to remind them to now call to schedule their appointment. (If wish to utilize this in that capacity, please contact your MIE Implementer).
+* <strong>CC: (carbon copy)</strong> You can type in the first or last name of a user within your {{% system-name %}} system and the same email (that you signified to send within the <em>Email Patient</em> field) will be sent to the CC'd {{% system-name %}} user also. It will auto-complete {{% system-name %}} users for you to choose from. You cannot freely type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
+* <strong>Comment:</strong> Can type a comment and it will appear in the schedule views. Any comment associated with the appointment type selected will appear here also, unless there is already a comment typed here previously.
+* <strong>Due Date:</strong> Due Date is an optional field typically used with health surveillance needs.  It indicates to have this appointment within the indicated due date. This is also used for our Corporate Health clients when an appointment is on the waiting list and the employee can self schedule the pending waitlist appointment (typically for health surveillance compliance needs) and can self schedule the appointment within the indicated due date.
+* <strong>Visible Date:</strong> Visible date is an optional field typically used with health surveillance needs. Visible date indicates the date the waiting list appointment will display to the employee on the employee portal visibly to self schedule, and the date they will receive an email invitation to schedule their visible appointment or questionnaires to become visible on the portal for filling out and submitting.  Sometimes visible date is set as a future date and is a period (between now and the visible date) where everything is set up by automated evaluators and clinicians may have workflows or reports to review charts or even line managers in order to review to make sure the person is in the correct health surveillance panel(s) before the email invitation is sent or things (appointments & questionnaires, etc) become visible on the portal to the patient or employee.  This is typically only used for Corporate Health clients. Visible date may also be utilized by health practices that cannot schedule patients yet because they don't schedule physicians ahead of time.
 
 ### Patient Visits
 
@@ -88,7 +86,7 @@ The next section is *Patient Visits*.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/f033c5f9597aa82a5396bc3aca92574d.png)
 
-* <strong>Resource:</strong> Required field. The resource will default and show/populate the name of the physician whose scheduler view you are set to or last worked in. Simply click the [-] minus button to get rid of it if you wish to select a different resource for this appointment. In the resource field, begin typing the last or first name of the physician to schedule with. The system will auto-complete to give you choices.
+* <strong>Resource:</strong> Required field. The resource will default and show/populate the name of the physician whose scheduler view you are set to or last worked in. Simply click the [-] minus button to get rid of it if you wish to select a different resource for this appointment. In the resource field, begin typing the last or first name of the physician to schedule with. The system will auto-complete to give you choices. You can set the appointment to use the waitlist by selecting the Scheduler Waiting List resource also.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/efa6902a464148678bddf809a41008ce.png)
 
