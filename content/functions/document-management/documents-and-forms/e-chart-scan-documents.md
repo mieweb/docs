@@ -1,9 +1,9 @@
 ---
 id: '1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 title: 'E-Chart Scan Documents'
-date: '2023-12-26T18:14:48.953Z'
-version: 150
-lastAuthor: 'Angie Nichols'
+date: '2024-01-15T12:38:34.249Z'
+version: 154
+lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
@@ -52,12 +52,12 @@ Once the appropriate Scanner selection is set, click the **Scan Image** button t
 ![](../e-chart-scan-documents.assets/e204d0c8325f8c703652595b879dfbfb.png)
 
 
-{{% note %}
+{{% note %}}
 In order to use the Scan method from the document library, your workstation must have MIE SSL App and MIE Device App installed.  Contact your system administrator to connect to those installed apps on your workstation if you get a pop-up message stating it could not connect to those apps.
 
 ![](../e-chart-scan-documents.assets/974d7afe6689198d5372a7f40155244e.png)
 
-{{% /note %}
+{{% /note %}}
 
 After scanning the document(s) using the above method, scroll down to the *Add Document Properties* section of the screen. Fill in the available fields, as appropriate.
 
