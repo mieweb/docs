@@ -1,20 +1,21 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2023-03-17T16:15:02.954Z'
-version: 301
-lastAuthor: 'Bridget Hamm'
+date: '2023-12-01T19:18:21.015Z'
+version: 314
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'
   - 'sample-hl7-messages.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
-wikigdrive: 'b79298d5e22adad5600e11ad6116c5fb4c39eb66'
+wikigdrive: 'latest'
 ---
 The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 
 {{% anchor sys="assumptions" %}}
+
 
 
 #### Assumptions
