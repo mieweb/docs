@@ -1,16 +1,16 @@
 ---
 id: '1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
 title: 'Order List Import Tool'
-date: '2021-07-12T12:50:04.389Z'
-version: 49
-lastAuthor: 'Dave Cornewell'
+date: '2024-01-12T17:19:33.567Z'
+version: 67
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
 wikigdrive: 'latest'
 ---
-This wiki page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
+This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
 * File format: Data file shall be formatted in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
 * Each subsequent row shall represent an order item.
@@ -18,7 +18,7 @@ This wiki page is to document how Order list items (Compendium of tests) data ne
 
 ## **Column Definition**
 
-The order list column definition shall contain all columns listed below regardless if their is a value or not.
+The order list column definition shall contain all columns listed below regardless if there is a value or not.
 * R = Required
 * O = Optional
 
@@ -54,7 +54,7 @@ The order list column definition shall contain all columns listed below regardle
 <td>LOINC code</td>
 </tr>
 <tr>
-<td>CPT code</td>
+<td>Billing code</td>
 <td>char 30</td>
 <td>O</td>
 <td>CPT code</td>
