@@ -1,9 +1,9 @@
 ---
 id: '1KXzp5VZ1g7qywiz4s8bU2eSGde35VQ_3dCzib2DY7Xo'
 title: 'Real World Testing Results 2023'
-date: '2024-01-11T15:40:06.951Z'
-version: 18
-lastAuthor: 'Nicole Richardson'
+date: '2024-01-19T16:42:06.425Z'
+version: 194
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -33,7 +33,6 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
-  - 'https://fhir.org/implementations/registry/'
 source: 'https://drive.google.com/open?id=1KXzp5VZ1g7qywiz4s8bU2eSGde35VQ_3dCzib2DY7Xo'
 wikigdrive: 'latest'
 ---
@@ -1138,10 +1137,10 @@ Following each reconcile, if a temporary CDA for the chart is created as part of
 #### Results
 
 
-CDA Documents:  
-CDA Documents - 324  
-CDA Documents Reconciled marked schematically Valid: 44  
-CDA Documents Reconciled marked schematically Invalid: 58
+CDA Documents reconciled:  
+CDA Documents - 740  
+CDA Documents Reconciled marked schematically Valid: 309  
+CDA Documents Reconciled marked schematically Invalid: 431
 
 #### Discussion
 
@@ -1360,11 +1359,11 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 #### Results
 
 
-There were 5 distinct views of CDA documents in Q1 & Q2 on a client system.
+There were 15 views of 10 CDA documents in 2023 on a client system.
 
 #### Discussion
 
-This is currently a low amount of usage.  We plan on doing at least more forced testing of the functionality within live client systems in Q3 and Q4.
+This is currently a low amount of usage, mainly caused by test portal accounts in a single system. 
 
 
 ### Measure 15: Patient Portal Download
@@ -1409,11 +1408,11 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-There was 1 stream of  CDA documents in Q1 & Q2 on a client system.
+There was 8 streams of 3 CDA documents in 2023 on a client system.
 
 #### Discussion
 
-This is currently a low amount of usage.  We plan on doing at least more forced testing of the functionality within live client systems in Q3 and Q4.
+This is currently a low amount of usage, mainly caused by test portal accounts in a single system. 
 
 
 ### Measure 16: Patient Portal CCDA Transmit
@@ -1458,11 +1457,11 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-No exports of CDA documents were reported in Q1 & Q2 on a client system.
+3 exports of 2 CDA documents were reported in 2023 on a client system.
 
 #### Discussion
 
-We plan on doing at least more forced testing of the functionality within live client systems in Q3 and Q4.
+This is currently a low amount of usage, mainly caused by test portal accounts in a single system. 
 
 
 ### Measure 17: Send Using Edge Protocol for SMTP / XDM
@@ -1557,12 +1556,11 @@ MIE will track customer reports of data expected to be in mass data export downl
 
 #### Results
 
-No usage occurred in Q1/Q2.
+Mass data export of CDA documents occurred in a client system in early November.  The documents generated were known to have been used in another system for import later on in the month.
 
 #### Discussion
 
-
-A manual test is planned during Q3.
+While sporadic in use, the ability for live systems to export data via mass CCDA downloads is confirmed to be usable in 2023.
 
 
 ### Measure 19: CDA Validation
@@ -1605,15 +1603,14 @@ The number of valid vs. invalid CDAs and their sources will be reported.
 
 
 **All Documents:**  
-Valid CDAs: 501  
-Invalid CDAs: 1308
+Valid CDAs: 1079  
+Invalid CDAs: 2319
 
 #### Discussion
 
-The bulk of these results are from 3rd party uploaded documents.  For the webchart generated documents, we are analyzing the reason for failure, and updating the script generation to account for those issues.
+The bulk of these results are from 3rd party uploaded documents.
 
-
-
+For the webchart generated documents, most that errored were because of vitals data coming from external systems (in this case, an ECW system) that was stored incorrectly, and then put into the CCDA document (ie, a value of "5 ft 4 in", when PQ values can only be numeric).  We are looking at what our policies will be in passing along those kind of values via CCDA in the future.
 
 
 ### Measure 20: Patient Data requests VIA API
@@ -1783,16 +1780,15 @@ WebChart EHR should generate CCDAs that can generate the sections required by US
 
 #### Test Methodology
 
-We will have weekly automated tests that will choose a certain number of random patient CCDAs in specific live systems and test for the given sections to exist in the documents.
+We will have tests that will choose a certain number of random patient CCDAs in specific live systems and test for the given sections to exist in the documents.
 
 #### Results
 
-We haven't had any customer complaints about missing USCDI content in CCDA documents.
+We have validated various times during the 2023 year that USCDI data as generated in live webchart systems appeared in generated CCDA documents.
 
 #### Discussion
 
-In Q3/Q4 we should be adding checks to test charts in live systems to make sure all sections are listed.
-
+We haven't had any customer complaints about missing USCDI content in CCDA documents sent to 3rd parties.
 
 
 ### Measure 24: Record and Change Care Plan
@@ -1831,7 +1827,7 @@ We will report on the following data elements being created or edited in patient
 
 #### Results
 
-We witnessed the ability to enter CDA Care Plan information in the appropriate sections in a live system with proper configuration.
+We have validated sporadically during the RWT period the ability to enter CDA Care Plan information in the appropriate sections in a live system with proper configuration.
 
 #### Discussion
 
@@ -1870,11 +1866,11 @@ We will report on the number of encounters with Care Plan information, and the n
 
 #### Results
 
-We witnessed the ability to generate a CDA Care Plan document based on  information in the appropriate sections of an encounter in a live system with proper configuration.
+We have validated sporadically the ability to generate a CDA Care Plan document on testing charts in a live system.
 
 #### Discussion
 
-Currently no live clients are generating Care Plan fields in their workflows.
+In 2023 no live clients are generating Care Plan CCDAs as part of their workflows.  There are plans for at least one client to automate Care Plan CCDAs as part of a workflow in 2024.
 
 
 ### Measure 26: Receive Care Plan CCDA Documents
@@ -1911,11 +1907,11 @@ We will report on:
 
 #### Results
 
-0 Care Plan documents received
+We have validated sporadically the ability to receive a CDA Care Plan document into testing charts.
 
 #### Discussion
 
-Currently no clients are set up to receive Care Plan CCDA documents as part of their workflow.  In Q3/Q4 we will generate test documents.
+Currently no clients are set up to receive Care Plan CCDA documents as part of their workflow. 
 
 
 ### Measure 27: Create CCDA Documents with Security Tags
@@ -2055,11 +2051,11 @@ MIE will run nightly automated testing on the public FHIR R4 sandbox system usin
 #### Results
 
 
-We've had multiple green tests for the Inferno test hitting the Sandbox in the first half of 2023.
+We've had multiple green tests for the Inferno test hitting the Sandbox 2023.
 
 #### Discussion
 
-We are currently working on getting the FHIR G10 Sandbox running regularly and having the results in the certification tests section of the MIEGrid.  As part of that, we'll have past results saved for at least 1 year for audit/reporting purposes.
+We are currently working on getting the FHIR G10 Sandbox running regularly and having the results in the certification tests section of the MIEGrid. 
 
 ### Measure 30: FHIR Patient Scope
 
@@ -2109,11 +2105,15 @@ MIE will report from de-identified log files an analysis of authentication and d
 
 #### Results
 
-No systems have generated connections yet, other than successful Sandbox connections to our Inferno testing tool.
+No client systems have generated FHIR patient connections yet.
+
+Successful Sandbox connections have been made via:
+* Our Inferno testing tool.  
+* The CommonHealth app (effectively "Apple Health" for Android) 
 
 #### Discussion
 
-We are in active discussions with the CommonHealth app (effectively "Apple Health" for Android) to get at first connectivity to our FHIR Sandbox, and then next step would be to get a live client (likely Maui) operational to have the option for portal members to use the app to obtain their health data.   We also have plans on getting Apple Health Kit connectivity in Q3 or Q4.
+We are in active discussions with the CommonHealth app (effectively "Apple Health" for Android) to get at first connectivity to our FHIR Sandbox, and then next step would be to get a live client operational to have the option for portal members to use the app to obtain their health data.   We also have plans on getting Apple Health Kit connectivity in 2024.
 
 ### Measure 31: FHIR EHR Provider Scope
 
@@ -2160,13 +2160,11 @@ MIE will report from de-identified log files an analysis of authentication and d
 
 #### Results
 
-No systems have generated connections yet, other than successful Sandbox connections to our Inferno testing tool.
+No client systems have generated connections yet, other than successful Sandbox connections to our Inferno testing tool.
 
 #### Discussion
 
-We do not have a clear path on a specific app yet that would be suitable for the Provider scope.
-
-Some apps that might be of interest in this list:  [https://fhir.org/implementations/registry/](https://fhir.org/implementations/registry/) 
+The Live RW sandbox systems have shown our ability to do EHR provider connections.  We will be looking for opportunities to connect client systems with EHR provider FHIR endpoints in 2024.
 
 
 ## Schedule of Key Milestones
