@@ -1,8 +1,8 @@
 ---
 id: '1sFH8kq31zcYpQP02bncYToNOhPotamh6fcIu4misxgA'
 title: 'Safety Reports'
-date: '2024-01-12T19:06:33.241Z'
-version: 104
+date: '2024-01-16T15:50:11.982Z'
+version: 117
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -73,7 +73,7 @@ The Department of Labor (DOL) Occupational Safety and Health Administration (OSH
 
 More information from OSHA is at [https://www.osha.gov/injuryreporting](https://www.osha.gov/injuryreporting)
 
-![](../safety-reports.assets/285a1eae5159847bfce0115c3f3fc10a.png)
+![](../safety-reports.assets/1287e1fd34e8705bec0fe3f21c2d9d5b.png)
 
 To better understand the OSHA 300/301 Case Data Report, review the [OSHA 300/301 Case Data Report ](osha-300-301-case-data-report.md)online help documentation.
 
