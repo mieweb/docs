@@ -1,9 +1,9 @@
 ---
 id: '1YTgZIdKB74fpmIEPrcN3Z2VzvShm78X7kfxa6Yp5Jvg'
 title: 'Access Control - Quick Add Multiple Active Users'
-date: '2020-02-27T21:20:20.800Z'
-version: 52
-lastAuthor: 'Alan Quandt'
+date: '2024-01-15T14:36:45.076Z'
+version: 68
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/managing-departments.md'
@@ -20,7 +20,7 @@ Click *Access Control* tab at the top
 It will show the list of departments your system has entered.  
 You can search for a user if you know what department(s) they are attached to and view that way. Click the underlined department name and you will see all users tied to that department.
 
-![](../access-control-quick-add-multiple-active-users.assets/308a5c8359a92692545d0d4f698663cf.png)
+![](../access-control-quick-add-multiple-active-users.assets/bbfcd4a6ea0d5f94b4954a72a17b6729.png)
 
 However, it is much easier to search by a user's last name. In the Search box at the top of the Access Control tab you are in:
 * <strong>Criteria:</strong> leave as ‘Begins With'

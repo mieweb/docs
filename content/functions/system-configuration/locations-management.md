@@ -1,9 +1,9 @@
 ---
 id: '1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
 title: 'Locations Management'
-date: '2020-03-05T17:06:16.370Z'
-version: 82
-lastAuthor: ''
+date: '2024-01-16T13:50:36.835Z'
+version: 126
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=leditor'
@@ -11,9 +11,6 @@ links:
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&opp=Edit&oldcode=OFFICE'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&opp=Add'
-  - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&deactivated=1'
-  - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&outsideloc=1'
-  - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&outsideloc=1&deactivated=1'
   - 'https://system/?f=admin&s=work_locations&tabmodule=admin&tabselect=Work+Locations&tabmodule=admin&tabselect=Work+Locations'
   - 'https://system/?f=admin&s=work_locations&opp=work_regions&tabmodule=admin&tabselect=Work+Locations'
   - 'https://system/?f=admin&s=work_locations&opp=work_sites&tabmodule=admin&tabselect=Work+Locations'
@@ -29,24 +26,25 @@ The {{% system-name %}} solution allows varying degrees of customization with re
 
 With the necessary security permissions to manage locations, the [Locations Manager](https://system/?f=chart&s=leditor) chart tab, found within the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin), allows adding, editing, and deactivating of locations. The locations found here are the areas the practices utilize for any and all aspects of the delivery of care. Some examples of locations are any facilities or sites an appointment needs scheduled for, any locality needing associated with created documents, or any places at which services are provided. Locations should also be entered for any sites at which physicians may practice, perform surgeries, or round. Another type of location to consider is an affiliated or referring site, such as locations that provide results (e.g., labs and lab interfaces) or receive referrals (e.g., x-ray, lab draw, consult, etc.).
 
-![](../locations-management.assets/34f7b87d3005d1be600a1b8e4733991e.png)
+![](../locations-management.assets/1645e10ab03d729def7a41db0b37cb4b.png)
 
 
 ### Utilization & Initial Use
 
 In order to use the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) chart tab, a user must have either the **Add** or **Edit** security setting for the **E-Chart: Manage Locations** security option. With this setting appropriately enabled, clicking the tab will display all active locations set up within the system. Some locations may have been entered by an an Implementer; however, any and all locations, can be manually added, edited, or deactivated from this screen.
 
-![](../locations-management.assets/d384be5e99f009167ea3fa9829a561e1.png)
+![](../locations-management.assets/130b1aed634e07d8adef7410d872c79d.png)
 
 Upon accessing a new {{% system-name %}} database with no locations previously added, a default location will always display, with the code **OFFICE** and the description of **Corporate Office** or **Office**. Use this entry as the primary location for the organization. To view and update:
 1. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin), from the left sidemenu.
 2. Click the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) tab.
-3. Click the [Edit](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&opp=Edit&oldcode=OFFICE) link to change the details of this location.
-4. Update the appropriate fields to reflect the organization's primary office description, address, and phone/fax information.
-5. Click the <strong>Modify</strong> button to submit the changes.
-6. A confirmation message will display at the top of the page.
+3. Select the location
+4. Click the [Edit](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&opp=Edit&oldcode=OFFICE) button to change the details of this location.
+5. Update the appropriate fields to reflect the organization's primary office description, address, and phone/fax information.
+6. Click the <strong>Save</strong> button to submit the changes.
+7. A confirmation message will display at the top of the page.
 
-![](../locations-management.assets/d02a0d26f905f8d1b8c49369eb5d0125.png)
+![](../locations-management.assets/263c95463307d05f1118966054fcd0e3.png)
 
 Additional locations can be added after the primary location has been edited and updated to reflect the appropriate location information.
 
@@ -72,9 +70,9 @@ To **add** a new location to the  {{% system-name %}}  solution:
    15. <strong>Active</strong> - Field defaults to <em>Yes</em>, meaning the location being entered is an active location. Only locations no longer being used should ever be marked as <em>No</em>, or as inactive. An alternative method for deactivating a location is by way of the <strong>De-Activate</strong> link in the Options column on the Locations Manager main screen. Deactivated locations will not appear in any  {{% system-name %}} module requiring a location selection.
 
 
-Once all fields have been provided for, as necessary, click the **Add** button to submit the location to the system. A confirmation message will display at the top of the page.
+Once all fields have been provided for, as necessary, click the **Save** button to submit the location to the system. A confirmation message will display at the top of the page.
 
-![](../locations-management.assets/17a9302bee30fa4c9cfea57c8a79314b.png)
+![](../locations-management.assets/8070f1f44280522ec7b2e7ca8ca9e78e.png)
 
 **Edit Locations**  
 {{% note %}}
@@ -107,40 +105,29 @@ The required location must be set to **Active = Yes** and *either* **Outside
 3. When finished editing, click the <strong>Modify</strong> button to save and submit the changes.
 4. A confirmation message will display at the top of the page.
 
-{{% info %}}
-
-When editing a location, an alert will appear at the bottom of the screen, stating how many documents use this location and that they will be updated upon submission.
-
-![](../locations-management.assets/f2e70d62cd2d986b0739378a9e56c839.png)
-
-{{% /info %}}
 **Deactivate Locations**
 Only locations no longer being used should ever be deactivated. To **deactivate** a location:
-1. Click the <strong>De-Activate</strong> link in the Options column of the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager).
-2. Once the De-Activate link is clicked, a <em>Confirm De-Activate</em> page will load. This confirmation will also show how many documents use this location and that they will be updated upon acceptance.
+1. Select the location that needs to be deactivated.
+2. Click on the STATUS button.
+3. Click No for the Active status.
 
-![](../locations-management.assets/feaac9850e9b3e46736e930ca7f4ca3d.png)
+![](../locations-management.assets/567c8da1bed5ad9882f0632316b6b76d.png)
 
-3. Click the <strong>De-Activate</strong> button.
-4. A confirmation message will display at the top of the page.
+4. Click the SAVE button.
 
 {{% info %}}  
-Deactivated locations will not display in any {{% system-name %}} program/module to be chosen as a location selection. Locations must be set as **Active** in order to be available for selection. If a location is deactivated in error, click the [Show Deactivated](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&deactivated=1) link in the upper-right corner of the Locations Manager. Then, click the **Activate** link found in the Options column of the table. Confirm reactivation by clicking the **Activate** button.  
+Deactivated locations will not display in any {{% system-name %}} program/module to be chosen as a location selection. Locations must be set as **Active** in order to be available for selection. If a location is deactivated in error, click the Clear Filter link in Location Manager DataVis. Then, select the location to activate. Next, click the Set Status button. Then, click Yes for the Active option. Lastly, click the Save button to Activate.  
 {{% /info %}}
 
 #### View Outside/Deactivated Locations
 
-Deactivated and outside locations do not display in the table on the Locations Manager, by default.
+Deactivated and locations do not display in the table on the Locations Manager, by default.
 
-If a location was deactivated or set as outside, or external, use the links provided in the upper-right corner of the Locations Manager summary page:
-* [Show Outside Locations](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&outsideloc=1)
-* [Show Deactivated](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&outsideloc=1&deactivated=1)
+If a location was deactivated or set as outside, or external, use the filters provided in the DataVis within Location Manager:
 
-![](../locations-management.assets/bbf1abee7b429049e39580b8f38e2450.png)
 
-There is also a search filter available in the Locations Manager to help search and find a specific location, if necessary. This is particularly helpful when there is an abundance of locations in the system.
+![](../locations-management.assets/4c477861099e1860b08b548144e76d3d.png)
 
-![](../locations-management.assets/80caf0edc39c0e06c818a7ded1b64318.png)
 
 
 ## Work Location Management
@@ -199,7 +186,4 @@ To add or manage work locations that are understood and used within the organiza
 4. Set as <em>active</em> or <em>inactive</em> by clicking the checkbox, as appropriate.
 5. Click the <strong>Add</strong> button.
 6. After all edits and additions have been made, click the <strong>Submit</strong> button.
-
-
-
 
