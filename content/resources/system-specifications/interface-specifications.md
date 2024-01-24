@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-01-12T15:48:42.680Z'
-version: 2580
-lastAuthor: 'Alice Uhrick'
+date: '2024-01-24T18:13:35.704Z'
+version: 2609
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -193,6 +193,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
    * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file upload
    * [Quantifit2](https://pm.mieweb.com/issues/113505) [Respirator Fit Testing Interface](https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM)
    * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file upload
+   * Portacount Ultrafit Model 8048 - in progress
 * Scale
    * Healthometer 349KLX 400 lb scale
 * Signature Pad 
@@ -475,8 +476,10 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 
 * AmTrust
 * Brentwood
+* Broadspire (bi-directional)
 * Corvel
 * Disney CARS (a Disney system)
 * Liberty Mutual
 * PMA (uni-directional)
 * Sedgwick
+* Vigilanz (uni-directional incoming only into EH/WC)
