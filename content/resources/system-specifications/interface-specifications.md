@@ -53,7 +53,7 @@ links:
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)
 
@@ -69,7 +69,7 @@ The list below represents a complete listing of all vendors/devices that we have
 * [NCPDP Script 8.1/10.6](https://drive.google.com/open?id=0B1jNa-hAYBL2VTFuNFBkY2V4UDA)
 * SureScripts Net2Net
 
-## **Appointment Reminder Interfaces**
+## Appointment Reminder Interfaces
 
 * HouseCalls Pro
 * Relatient
@@ -225,7 +225,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
    * [Welch Allyn Vital signs 300 Series](http://www.welchallyn.com/documents/Patient%20Monitoring/Continuous%20Monitoring/Vital%20Signs%20Monitor%20300%20Series/SM2615EU%20RevD%20072808%20VSM300%20Sales.pdf)
 * X-Ray image import from a CD or option of DICOM interface
 
-## **DICOM/PACS**
+## DICOM/PACS
 
 * AMICAS
 * Carestream PACS
@@ -241,13 +241,13 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Nuance Powerscribe
 * Philips iSite
 
-## **Eligibility Interfaces**
+## Eligibility Interfaces
 
 * Availity
 * Surescripts Advanced
 * ZirMed
 
-## **Health Information Exchange (HIE) Interfaces**
+## Health Information Exchange (HIE) Interfaces
 
 * Affiliated Computer Services (ACS) – Medicare and Medicaid processing in 28 states
 * [CRISP HIE (State of Maryland)](https://www.crisphealth.org/)
@@ -267,7 +267,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Wait Time Information System (WTIS) Level 2 Surgery (OR) Specification Outbound to Canadian Ministry
 * Xerox (State of Wyoming HIE bi-directional and Kentucky uni-directional)
 
-## **Hospital Systems**
+## Hospital Systems
 
 * Beaumont Hospital (results only)
 * Botsford Hospital (results only)
@@ -403,11 +403,11 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Southeast Clinical Labs (bi-directional)
 * University of Nebraska Medical Center -- UNMC (Bi-directional orders and results)
 
-## **Outbound CCD Transmission**
+## Outbound CCD Transmission
 
 * SIPAK - Wellcentive (CCOK - using xds.b / autoroute)
 
-## **Med/RX System Interfaces**
+## Med/RX System Interfaces
 
 * Allscripts (we have no HL7, but can do a conversion of existing data)
 * Emdeon Medication Import
@@ -420,14 +420,14 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * SureScripts
 * VitalPath (ADT and SIU, Unidirectional: WebChart to VitalPath)
 
-## **Patient Education**
+## Patient Education
 
 * Ergonomic Scoring
 * Healthwise
 * Insignia PAM Scoring
 * MedStat PSS4 Scoring
 
-## **Personal Health Records**
+## Personal Health Records
 
 * Google Health
 * Microsoft Health Vault
@@ -445,13 +445,13 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Velocity EHS
 * Workplace Integra (Hearing Conservation Management)
 
-## **Scanning/Indexing Services**
+## Scanning/Indexing Services
 
 * Imaging Documents
 * Innovative Scan Technologies
 * Smart Document Solutions
 
-## **Transcription Interfaces**
+## Transcription Interfaces
 
 * BlueWare
 * Emdat (receive TEXT documents)
@@ -461,7 +461,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Parkview Hospital
 * St. Dominics Hospital
 
-## **Transcription Services**
+## Transcription Services
 
 * AccuMed
 * CareCast (Transcription)
@@ -471,7 +471,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Medical Review of Illinois
 * TransText
 
-## **Worker's Compensation**
+## Worker's Compensation
 
 * AmTrust
 * Brentwood
