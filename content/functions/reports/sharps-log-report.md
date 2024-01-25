@@ -1,128 +1,134 @@
 ---
 id: '1PORLZX1Ild3LyNw0O7YZ97r4Ybf0ybND0TA5r5f3KCE'
 title: 'Sharps Log Report'
-date: '2024-01-12T16:24:24.830Z'
-version: 40
+date: '2024-01-25T18:56:30.406Z'
+version: 92
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PORLZX1Ild3LyNw0O7YZ97r4Ybf0ybND0TA5r5f3KCE'
 wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
-## Sharps Log Report  CURRENTLY BEING WRITTEN/ANGIE
+## Sharps Log Report
 
-You must have security permission to the Reports module/tab within {{% system-name %}}. This permission is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users to access the Reports left sidemenu tab module. 
+The Sharps Log report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 
-![](../sharps-log-report.assets/09ec61d9ee49b68f313c43d40f34ad2e.png)
-
-
-This guide will go through the most common out of the box Safety Reports available in {{% system-name %}}, but more detailed information on each individual report is found in its own separate guide.
-
-The report requires an Incident Start and End date at a minimum to run the report. There are other filters to help when searching for a specific encounter date range, patient, condition, type of device or location.
-
-A regulatory report to track needlestick injuries for cases/incidents having a Nature of Body Part documented as Contaminated Sharp. Charts marked as 'Exclude from Quality Care' are omitted from report output.
+![](../sharps-log-report.assets/46ccf93b18dd7d0c582ed235f1cd1b2c.png)
 
 
+This is a regulatory report to track needlestick injuries for cases/incidents having a Nature of Body Part documented as Contaminated Sharp.  Charts marked as 'Exclude from Quality Care' are omitted from report output.
 
-![](../sharps-log-report.assets/1eeedfe4dd8657f2eccb824900f54830.png)
+{{% tip %}}
+The case/incident does **not** have to be OSHA recordable to populate this Sharps Log report. 
+{{% /tip %}}
 
+The report requires an Incident (Case) Start and End date at a minimum to run the report. There are other filters to help when searching for a specific encounter date range, patient, condition, type of device or onsite location of injury.
 
-The following data needs populated in the Case and Encounter to populate the report
-
-
-## Case Section
-
-
-### Date
-
-The Date and time of injury or onset of illness case field will populate the Sharps Lob.
-
-![](../sharps-log-report.assets/b3d8856656746f3ecec96fa5062ae846.png)
+![](../sharps-log-report.assets/91ca4f6ca1f303715dfa262e11066266.png)
 
 
+### Sharps Log Report Criteria
 
-### Case Number
+The Sharps Log report has the following logic criteria/logic built in order to be listed on the output of this report:
+* Onsite Injury/Illness locations to be configured as EO charts must have:
+   * the EO onsite injury/illness work location/site chart must be configured as an onsite injury location within the Locations Hierarchy system editor
+      * <strong>and </strong>its Chart ID entry (in Locations Hierarchy) must be linked to its own EO or PO chart
+      * <strong>and </strong>its Status entry (in Locations Hierarchy) must active or inactive (deleted locations hierarchy locations are omitted from the system, the case/incident and from the OSHA 300/301 Case Data Report)
+* Your case/incident workflows must utilize the Case encounter section on specific encounter types deemed appropriate for your business
+* The case/incident does <strong>not</strong> need to be documented as <em>OSHA Recordable</em> to appear on this report (date determined recordable field)
+* The case/incident must have been documented as an <em>onsite location </em>(and the onsite location is configured as stated in first bullet above) if want the <em>Location</em> column to populate
+* Your case/incident workflows must utilize the Nature of Injury/Illness as <em>Contaminated Sharp</em>
 
+### Report Output
 
-Enterprise Health will assign a unique case number automatically once the Case data has been entered and saved. The case number is visible From the Case section (in the encounter) in edit mode, it will display in the encounter header when the encounter is set current and a case is linked to that encounter and it is also viewable on the Cases chart tab
+The following will describe where each column of data pulls from, within the encounter that is linked to a case/incident with a Contaminated Sharp nature of injury/illness.
 
-
-### ICD10/ICD9 & Condition
-
-
-These values are populated by the Symptoms/Diagnosis section of the encounter where the case was originally created.
-
-![](../sharps-log-report.assets/a11bb5f06490ebc8369c65bb516e43b0.png)
-
-
-
-
-### Type of Device/Brand/Laceration/Puncture
-
-
-When the Nature of Injury and Illness is completed as a "Contaminated Sharp", the nature of injury and illness section will dynamically add fields to free text in a response for Type of device, Manufacture and indicate if the wound was a Laceration or Puncture. These fields will populate the Sharps Log report.
+![](../sharps-log-report.assets/4f795c661e75441678e42791419fa157.png)
 
 
-![](../sharps-log-report.assets/9654f73b79f7a034c75fa0f2d20c372f.png)
+#### Date column
+
+The Date and time of injury or onset of illness case field will populate the Sharps Log in the *Date* column.
+
+![](../sharps-log-report.assets/e8c4c09e6a5e77f2c76784f497399cc5.png)
 
 
+#### Case Number column
 
-### Where Occurred
+{{% system-name %}} will assign a unique case number automatically once the Case data has been entered and saved in an encounter. The case number will populate the Sharps Log in the *Case* column.  The Case number is also visible from the Case section (in the encounter) in edit mode, it will display in the encounter header when the encounter is set current and a case is linked to that encounter and it is also viewable on the Cases chart tab.
 
-Text from the "Where the event occurred" case field will populate the report.
-
-![](../sharps-log-report.assets/e961090e830c22780c17d4c2daa767f4.png)
-
+![](../sharps-log-report.assets/6e8bd0942f5f5857434b95316092b898.png)
 
 
-### How Occurred
+#### ICD10/ICD9 column
 
-Text from the "What happened?" case field will populate the report.
+Using the Symptoms/Diagnosis section of the encounter where the Contaminated Sharp case/incident was originally created, document a diagnosis.  The diagnosis and ICD codes will populate the Sharps Log in the *ICD10/ICD9* column.
 
-![](../sharps-log-report.assets/28f4e91e91fdbae9be751bd7aa687920.png)
-
-
-
-### Location
+![](../sharps-log-report.assets/121a05dc3785e1f745f8c0565c828285.png)
 
 
-The location indicated on the case will populate the Sharps Log.
+#### Type of Device, Brand, and Laceration/Puncture columns
 
-![](../sharps-log-report.assets/ff40ebe618714daf2b5865e66a28476b.png)
+When the Nature of Injury and Illness is documented as *Contaminated Sharp*, the nature of injury and illness case section will expand on the screen to offer fields to free text in a response for Type of device, Manufacturer and to indicate if the wound was a Laceration or Puncture. These fields will populate the Sharps Log in the *Type of Device, Manufacturer, and Laceration/Puncture* columns.
 
-
-### Initial date of visit
-
-
-The date of the initial visit where the case/incident was entered will display as the "Initial Visit Date" column on the Sharps log report.
-
-### Sharps Exposure Details
+![](../sharps-log-report.assets/0ef9f336dd93fa5b5f70be2da6e5ab7f.png)
 
 
-Northwell has added additional columns to the case as pictured below. This data is collected and ONLY displays on the original initial reported case. This data does not pull forward to future visits where as all other (out of the box fields) will continue to pull forward. 
+#### Where Occurred column
+
+Text keyed into the required *Where the event occurred* field of the case/incident encounter section will populate the Sharps Log in the *Where Occurred* column.
+
+![](../sharps-log-report.assets/3febc32543e867b826098bb9c6ae4581.png)
+
+
+#### How Occurred column
+
+Text keyed into the required *What happened? Tell us how the injury occurred* field of the case/incident encounter section will populate the Sharps Log in the *How Occurred* column.
+
+![](../sharps-log-report.assets/5d7a947142f6e8b850c7e5d7fc1bb94d.png)
+
+
+### Location column
+
+If the contaminated sharp injury occurred onsite, the onsite location needs to be selected in the *Please select location* field of the case/incident.  These onsite location choices are configured for the system using Locations Hierarchy.  The onsite location selected in this field then displays on the Sharps Log in the *Location* column.  If the injury occurred offsite, the Location column will be blank on the Sharps Log.
+
+![](../sharps-log-report.assets/6580dac3b2a62120ed16ca4efc1a445f.png)
+
+
+#### Initial Visit Date column
+
+Using the Encounter top section of the encounter where the Contaminated Sharp case/incident was originally created, the encounter Date of Service will populate the Sharps Log in the *Initial Visit Date* column.
+
+![](../sharps-log-report.assets/de5e52e12584d3ab34971e2339270315.png)
+
+
+### Sharps Exposure Details - custom section
+
+Your system can ask for a customized Sharps Exposure Details section to be added.  Please contact your MIE Implementer or Deployment Consultant.  The Sharps Exposure Details custom section has additional fields on the case as pictured below. This data is collected and ONLY displays on the original initial reported case. This data does not pull forward to future visits where all other (out of the box supported case/incident fields above) will continue to pull forward. 
 
 ![](../sharps-log-report.assets/1635ebe060d49d3fa5d3834997905d75.png)
 
 
-## Show CSV
+### Download Sharps Log report to a CSV format
+
+The Sharps Log report is easily downloadable into a CSV format.  Simply click the *Show CSV* button to generate the report's output into a CSV downloadable file.  Store to your folder location of choice.
+
+![](../sharps-log-report.assets/3ca44e4e9f63d5ea6a37b087808df12e.png)
+
+The CSV file will be in the specific column order with column titles labeled as the Sharps Log shows.
+
+![](../sharps-log-report.assets/f8aca1941b4e39eecd2c2ab423c7594a.png)
 
 
-This will export/download the report. The user may then save in Excel or other spreadsheet applications. If a column indicates "", this means the field was not populated in the case/encounter and it is blank/null.
+
+### Print Sharps Log
+
+The Sharps Log report is easily printable. Simply click the *Print* button to print the report's output.
 
 
-![](../sharps-log-report.assets/970491cdc79b752d90f2e1005f4490e0.png)
+![](../sharps-log-report.assets/48632aa3d36571ec5f8d3f4d29ce337c.png)
 
+ A printable screen will display where the user may use the browser's print function to print the displayed report.
 
-
-## Print
-
-
-The data displays in a browser tab. The user may use the browser print function to print the information.
-
-
-![](../sharps-log-report.assets/67d452e4cff2d944ffb340da44c93a48.png)
-
-
-![](../sharps-log-report.assets/1296bf464c0310195ffb149324552cef.png)
-
+![](../sharps-log-report.assets/1f78605cd704c0d8df2adef2fe953386.png)
 
