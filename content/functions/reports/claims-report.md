@@ -1,132 +1,59 @@
 ---
 id: '1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
 title: 'Claims Report'
-date: '2024-01-12T19:29:44.728Z'
-version: 38
+date: '2024-01-25T20:39:37.116Z'
+version: 78
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://pm.mieweb.com/issues/119298'
-  - 'https://pm.mieweb.com/issues/112238'
-  - 'https://drive.google.com/file/d/1YJuv99qFVpt7nn0waeJlU10hpmzAV9Lx/view?usp=sharing'
+links: []
 source: 'https://drive.google.com/open?id=1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
-## CLAIMS REPORT  - CURRENTLY BEING WRITTEN/ANGIe-needs updated
+## CLAIMS REPORT
 
 The Claims report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 
 ![](../claims-report.assets/4554a07697ccf0f894de8df00bcadb95.png)
 
 
-Some workflows require to document and identify what TPA (Third Party Administrator) a case/incident should be sent to.  Some systems have a work comp interface for this automatic sending, but now this Claims Report gives a system the ability to report out the same data that a work comp interface would.  The report can be downloaded as a CSV format to be able to send to the identified TPA(s) manually.
+Some workflows require to document and identify what TPA (Third Party Administrator) a case/incident should be sent to.  This optional field can be configured for your system to be available in the case/incident encounter section to identify which TPA to send claim to.  The TPA choices can be customized for your system also.
 
-![](../claims-report.assets/16bb367d283e4b4d0fa1e7ba388b4956.png)
+![](../claims-report.assets/0641731d50d326ee87b9fe01fc0b139f.png)
 
-
-
-![](../claims-report.assets/01eadf4adcb810d7ae3dbf4a7960859b.png)
-
-
-There was a feature ticket asking for ability to document/designate what TPA a case/incident should be sent to.  Some client systems have a work comp interface for this and have had this field in their case/incident section, but now there is a DIY type of ability to help client systems who may not want to invest in a work comp interface and send the info to their TPA's themselves, etc. 
-* [https://pm.mieweb.com/issues/119298](https://pm.mieweb.com/issues/119298) is for the case/incident field configuration and is available on 09-2021, however[](https://pm.mieweb.com/issues/112238)[https://pm.mieweb.com/issues/112238](https://pm.mieweb.com/issues/112238)  is for the report and is available on 03-2023 and future
-* There is a 6 min video[](https://drive.google.com/file/d/1YJuv99qFVpt7nn0waeJlU10hpmzAV9Lx/view?usp=sharing)[<strong>HERE</strong>](https://drive.google.com/file/d/1YJuv99qFVpt7nn0waeJlU10hpmzAV9Lx/view?usp=sharing)<strong> </strong>showing/demoing the functionality
-
+The *Send Claim To* field in the above encounter case/incident section interoperates with the Claims Report.
 
 ![](../claims-report.assets/2fde2fc15500c171c0da4097e7087f2d.png)
 
 
-![](../claims-report.assets/d34da375f0f784e71de49cd22fcdf24b.png)
+Some systems have a work comp interface for this automatic sending of case/incident data based on TPA selection, but this Claims Report gives a system the ability to report out the same data that a work comp interface would.  The report can be downloaded as a CSV format to be able to send to the identified TPA(s) manually.
 
-* Incident Number						
-* Case Number						
-* Status					
-* Company Abbreviation						
-* Company Code						
-* Company Description					
-* Company Address1						
-* Company Address2						
-* Company City						
-* Company State						
-* Company Postal Code						
-* Dept. ID						
-* Department						
-* Incident Date						
-* Incident Time						
-* Nature of Injury Code						
-* Nature of Injury Description						
-* Body Part Code						
-* Body Part Description				
-* Cause of Injury Code						
-* Cause of Injury Description						
-* Source Of Injury						
-* Comment Activity						
-* Accident Description						
-* Incident Reported Date						
-* Employee Start Time						
-* Today						
-* SSN						
-* Last Name						
-* First Name						
-* Middle Initial						
-* Address Line 1						
-* Address Line 2						
-* City						
-* State						
-* Postal Code						
-* Home Phone						
-* Work Phone						
-* Cell Phone						
-* Birth Date						
-* Gender						
-* Marital Status					
-* Dependent Count						
-* Away Date						
-* Death Date						
-* Class Code						
-* Job Code						
-* Job Description						
-* Hire Date						
-* Number Days Worked						
-* Last Date Worked						
-* Estimated return to work date						
-* Initial Treatment Type Code						
-* Primary Treatment						
-* Physician Last Name						
-* Physician First Name						
-* Physician Phone						
-* Physician Address Line 11						
-* Physician Address Line 2						
-* Physician City					
-* Physician State						
-* Physician Postal Code						
-* Facility						
-* Facility Phone						
-* Facility Address Line 1						
-* Primary Physician						
-* Facility City						
-* Facility State						
-* Facility Postal Code						
-* Incident location on premises						
-* Incident Location Codee						
-* Incident Location Description						
-* Incident Address						
-* Incident City						
-* Incident State					
-* Incident Postal Code						
-* Preparer						
-* Preparer Phone						
-* Supervisor Name						
-* Contact First Name						
-* Contact Last Name						
-* Contact Phone						
-* Job Entry Date						
-* Treatment Type						
-* Medical Notes
+### Claims Report Criteria
 
-![](../claims-report.assets/19e8ab7b6b5eb6b956b0817a2e693c97.png)
+The Claims Report has the following logic criteria/logic built in order to run this report:
+* An observation named <strong>Send claim to TPA</strong> must be configured in the system
+   * Result Type must be set to <strong>Custom Discrete Values</strong>
+   * Value & Sort Order must be keyed in to allow your TPA selections for your system
+   * Note: <em>Don't send the claim</em> choice will automatically be a selection in the case/incident section if your system is configured to use Send claim to TPA.  Do <strong>not</strong> manually configure a <em>Don't send the claim</em> as a custom discrete value for the observation configuration, only your TPA company name selections need configured as values.
+
+![](../claims-report.assets/8848ea30f3de1876e0b5d82e4406a7b6.png)
+
+* Your case/incident workflows must utilize the Case encounter section on specific encounter types deemed appropriate for your business
+* Your case/incident workflows use the Case Management encounter with Notes/Tracking encounter section
+* The case/incident does <strong>not</strong> need to be documented as <em>OSHA Recordable</em> to appear on this report (date determined recordable field)
+
+### Claims Report output
+
+The Claims Report output displays in a datavis format with several columns of data pulled from the encounter case/incident and from the chart's demographics and employment information.
+
+![](../claims-report.assets/16bb367d283e4b4d0fa1e7ba388b4956.png)
 
 
-![](../claims-report.assets/a2c891ffceee691be43addc47ce1e985.png)
+The output of the report may cause you to scroll left and right to see all the columns that are rendering on the output.![](../claims-report.assets/d34da375f0f784e71de49cd22fcdf24b.png)
 
+
+### Download Claims Report to a CSV format
+
+The Claims Report is easily downloadable into a CSV format.  Simply click the *Generate CSV* icon (looks like a corner fold paper icon), which will then turn into a *Download CSV* icon to click (looks like an in-box tray icon) to generate the report's output into a CSV downloadable file.  Store to your folder location of choice.
+
+![](../claims-report.assets/7c661563333a8741a9d0ea8353fcef59.png)
 
