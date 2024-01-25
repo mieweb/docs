@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-01-25T13:27:45.194Z'
-version: 431
-lastAuthor: 'Alice Uhrick'
+date: '2024-01-25T19:09:19.403Z'
+version: 437
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -445,6 +445,7 @@ links:
   - 'functions/reports/panel-definition-report.md'
   - 'functions/reports/to-restrict-report-access.md'
   - 'functions/reports/safety-reports.md'
+  - 'functions/reports/sharps-log-report.md'
   - 'functions/reports/storage-report.md'
   - 'functions/reports/task-report.md'
   - 'functions/reports/transcription-report.md'
@@ -1136,6 +1137,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
       * [Panel Definition Report](functions/reports/panel-definition-report.md)
       * [To Restrict Report Access](functions/reports/to-restrict-report-access.md)
       * [Safety Reports](functions/reports/safety-reports.md)
+      * [Sharps Log](functions/reports/sharps-log-report.md)
       * [Storage Report](functions/reports/storage-report.md)
       * [Task Report](functions/reports/task-report.md)
       * [Transcription Report](functions/reports/transcription-report.md)
