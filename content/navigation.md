@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-01-25T19:09:19.403Z'
-version: 437
+date: '2024-01-25T20:43:37.001Z'
+version: 444
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -417,6 +417,7 @@ links:
   - 'functions/reports/additional-appointment-related-reports.md'
   - 'functions/reports/appointment-report.md'
   - 'functions/reports/checkin-reports.md'
+  - 'functions/reports/claims-report.md'
   - 'functions/reports/common-case-search-report.md'
   - 'functions/reports/conditions-icd-9-report.md'
   - 'functions/reports/demographics-report.md'
@@ -1109,6 +1110,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
       * [Additional Appointment-Related Reports](functions/reports/additional-appointment-related-reports.md)
       * [Appointment Report](functions/reports/appointment-report.md)
       * [Checkin Reports](functions/reports/checkin-reports.md)
+      * [Claims Report](functions/reports/claims-report.md)
       * [Common Case Search Report](functions/reports/common-case-search-report.md)
       * [Conditions/ICD-9 Report](functions/reports/conditions-icd-9-report.md)
       * [Demographics Report](functions/reports/demographics-report.md)
