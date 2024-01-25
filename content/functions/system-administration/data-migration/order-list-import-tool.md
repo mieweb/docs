@@ -2,7 +2,7 @@
 id: '1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
 title: 'Order List Import Tool'
 date: '2024-01-25T12:59:56.815Z'
-version: 75
+version: 76
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -10,11 +10,11 @@ links:
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
 wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
-This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
-* File format: Data file shall be formatted in Comma Separated Values (CSV).
-* The first row of the file shall contain column header information.
-* Each subsequent row shall represent an order item. 
-* The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type.
+This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool. 
+* File format: Data file shall be formatted in Comma Separated Values (CSV). 
+* The first row of the file shall contain column header information. 
+* Each subsequent row shall represent an order item.  
+* The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type. 
 
 ## Column Definition
 
