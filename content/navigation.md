@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-01-25T12:39:54.404Z'
-version: 414
+date: '2024-01-25T13:26:41.487Z'
+version: 426
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -252,6 +252,7 @@ links:
   - 'functions/system-configuration/fee-schedules.md'
   - 'functions/e-chart/security-best-practices.md'
   - 'functions/system-configuration/ask-at-order-entry-aoe-editor.md'
+  - 'https://drive.google.com/open?id=1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM'
   - 'functions/quality-of-care.md'
   - 'functions/quality-of-care/quality-reporting-enrollment.md'
   - 'functions/quality-of-care/provider-quality-of-care-status.md'
@@ -409,7 +410,7 @@ links:
   - 'functions/quality-of-care/measures/quality-measures-list/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-156-use-of-high-risk-medications-in-the-elderly.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-165-controlling-high-blood-pressure.md'
-  - 'https://drive.google.com/open?id=1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k'
+  - 'functions/quality-of-care/raf-score-risk-adjustment-factor.md'
   - 'functions/reports.md'
   - 'functions/reports/using-datavis-grids-data-tools.md'
   - 'functions/reports/activity-log-report.md'
@@ -942,6 +943,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
       * [Fee Schedules](functions/system-configuration/fee-schedules.md)
       * [Security Best Practices](functions/e-chart/security-best-practices.md)
       * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md)
+      * [Orders List Editor](https://drive.google.com/open?id=1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM)
    * [Quality of Care](functions/quality-of-care.md)
       * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
       * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
@@ -1099,7 +1101,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
             * [CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents](functions/quality-of-care/measures/quality-measures-list/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md)
             * [CMS 156 - Use of High-Risk Medications in the Elderly](functions/quality-of-care/measures/quality-measures-list/cms-156-use-of-high-risk-medications-in-the-elderly.md)
             * [CMS 165 - Controlling High Blood Pressure](functions/quality-of-care/measures/quality-measures-list/cms-165-controlling-high-blood-pressure.md)
-      * [RAF Score - Risk Adjustment Factor](https://drive.google.com/open?id=1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k)
+      * [RAF Score - Risk Adjustment Factor](functions/quality-of-care/raf-score-risk-adjustment-factor.md)
    * [Reports](functions/reports.md)
       * [Using DataVis Grids - Data Tools](functions/reports/using-datavis-grids-data-tools.md)
       * [Activity Log Report](functions/reports/activity-log-report.md)
