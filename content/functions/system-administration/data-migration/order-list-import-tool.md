@@ -2,13 +2,13 @@
 id: '1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
 title: 'Order List Import Tool'
 date: '2024-01-12T17:19:33.567Z'
-version: 67
+version: 68
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
 * File format: Data file shall be formatted in Comma Separated Values (CSV).
@@ -16,7 +16,7 @@ This page is to document how Order list items (Compendium of tests) data needs t
 * Each subsequent row shall represent an order item.
 * The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type.
 
-## **Column Definition**
+## Column Definition
 
 The order list column definition shall contain all columns listed below regardless if there is a value or not.
 * R = Required
@@ -80,10 +80,10 @@ The order list column definition shall contain all columns listed below regardle
 
 </table>
 
-## **Examples of CSV**
+## Examples of CSV
 
 
-### **Order List Example**
+### Order List Example
 
 This example shows how to import multiple order items into the complete order list.
 
@@ -103,7 +103,7 @@ BSS,"Occult Blood Screening, Stool",LAB5093,,82270,Non sterile container,,N
 
 ```
 
-## **Sample CSV files**
+## Sample CSV files
 
 Here is a sample CSV file to download and view in a text editor or a spreadsheet program.
 [File:Order list.csv](https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing)
