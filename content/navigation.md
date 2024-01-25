@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2023-11-28T14:30:53.158Z'
-version: 374
-lastAuthor: 'Angie Nichols'
+date: '2024-01-25T12:39:54.404Z'
+version: 414
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -409,6 +409,7 @@ links:
   - 'functions/quality-of-care/measures/quality-measures-list/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-156-use-of-high-risk-medications-in-the-elderly.md'
   - 'functions/quality-of-care/measures/quality-measures-list/cms-165-controlling-high-blood-pressure.md'
+  - 'https://drive.google.com/open?id=1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k'
   - 'functions/reports.md'
   - 'functions/reports/using-datavis-grids-data-tools.md'
   - 'functions/reports/activity-log-report.md'
@@ -435,12 +436,14 @@ links:
   - 'functions/reports/osha-300-form-log-overlay.md'
   - 'functions/reports/osha-300-log-report.md'
   - 'functions/reports/osha-300a-form-log-overlay.md'
+  - 'functions/reports/osha-300-301-case-data-report.md'
   - 'functions/reports/osha-statistics-report.md'
   - 'functions/reports/orders-due-report.md'
   - 'functions/reports/orders-usage-report.md'
   - 'functions/reports/observations-report.md'
   - 'functions/reports/panel-definition-report.md'
   - 'functions/reports/to-restrict-report-access.md'
+  - 'functions/reports/safety-reports.md'
   - 'functions/reports/storage-report.md'
   - 'functions/reports/task-report.md'
   - 'functions/reports/transcription-report.md'
@@ -690,7 +693,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 * [Programs](programs.md)
    * [Medical Programs](programs/medical-programs.md)
@@ -1096,6 +1099,7 @@ wikigdrive: 'latest'
             * [CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents](functions/quality-of-care/measures/quality-measures-list/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md)
             * [CMS 156 - Use of High-Risk Medications in the Elderly](functions/quality-of-care/measures/quality-measures-list/cms-156-use-of-high-risk-medications-in-the-elderly.md)
             * [CMS 165 - Controlling High Blood Pressure](functions/quality-of-care/measures/quality-measures-list/cms-165-controlling-high-blood-pressure.md)
+      * [RAF Score - Risk Adjustment Factor](https://drive.google.com/open?id=1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k)
    * [Reports](functions/reports.md)
       * [Using DataVis Grids - Data Tools](functions/reports/using-datavis-grids-data-tools.md)
       * [Activity Log Report](functions/reports/activity-log-report.md)
@@ -1122,12 +1126,14 @@ wikigdrive: 'latest'
       * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md)
       * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
       * [OSHA 300A Form Log Overlay](functions/reports/osha-300a-form-log-overlay.md)
+      * [OSHA 300/301 Case Data Report](functions/reports/osha-300-301-case-data-report.md)
       * [OSHA Statistics](functions/reports/osha-statistics-report.md)
       * [Orders Due Report](functions/reports/orders-due-report.md)
       * [Orders Usage Report](functions/reports/orders-usage-report.md)
       * [Observations Report](functions/reports/observations-report.md)
       * [Panel Definition Report](functions/reports/panel-definition-report.md)
       * [To Restrict Report Access](functions/reports/to-restrict-report-access.md)
+      * [Safety Reports](functions/reports/safety-reports.md)
       * [Storage Report](functions/reports/storage-report.md)
       * [Task Report](functions/reports/task-report.md)
       * [Transcription Report](functions/reports/transcription-report.md)
