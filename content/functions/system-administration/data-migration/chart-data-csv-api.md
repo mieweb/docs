@@ -19,15 +19,15 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API. 
 
-### **Audience**
+### Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Data CSV API. Technical details are provided in the remaining sections.
 
-### **Abstract**
+### Abstract
 
 The Chart Data CSV API is used to import data related to patients or charts. It is valuable to recognize the following terminology as it pertains to MIE systems:
 * A <strong>patient</strong> is an individual whose medical information is stored in an EH database.
@@ -39,11 +39,11 @@ CSV refers to the type of file and format of data needed to import information i
 This API may also be used to set up relationships between charts. It is part of MIE's standard [Human Resources Interface](https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface), but it may also be used for single imports of new charts or updates to charts.
 
 
-## **Specifications**
+## Specifications
 
 The following sections provide insight for technical personnel working with the provided import specifications. Although the specifications provided include details on each field utilized in the import, the sections below include further discussion on best practices for imported data to provide the best functionality in Enterprise Health.
 
-The Chart Data CSV API specifications are available here: [https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0)
+The Chart Data CSV API specifications are available here: https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0
 
 {{% note %}}
 
@@ -52,11 +52,11 @@ The specification may be downloaded as Excel, CSV, or duplicated as an online sp
 
 Additionally, user instructions are available for importing data in EH.
 
-### **Column Definitions and Specific Coded Values**
+### Column Definitions and Specific Coded Values
 
 Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
 
-### **Field Definitions by Table**
+### Field Definitions by Table
 
 The sections that follow outline the fields and data utilized by an EH system.
 A chart search in an EH can be completed with one of the following options:
@@ -65,11 +65,11 @@ A chart search in an EH can be completed with one of the following options:
 * Social Security Number (SSN - used in the United States)
 * Social Insurance Number (SIN - used in Canada)
 
-#### **patients**
+#### patients
 
 The patients table is a record of all patients in an EH system. These fields maintain the demographics on the chart of the patient. A last name and birth date is required to create a patient chart. The state, country, sex, marital status, race, and ethnicity fields require specific coded values to properly display.
 
-#### **patient_mrns**
+#### patient_mrns
 
 A Medical Record Number (MRN) is a unique identifier of the patient. A MRN is required to create a new patient chart.
 
@@ -77,17 +77,17 @@ A partition is a means of organizing groups of charts. Partitions are often used
 The field @patient_mrns. is required for a demographics import.
 [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.md) can be used to modify how patient mrns are processed as the file is loaded.
 
-#### **patient_admin**
+#### patient_admin
 
 Employee information is contained within the Patient Admin fields. This is useful for organizing employees by groups, classes, locations, jobs, or status. Each field is custom coded, and the code values should correspond to a description.
 
-#### **patient_extended_values**
+#### patient_extended_values
 
 Along with the patient_extended_values table, the patient_extended index table stores patient-relevant organizational-level information for Enterprise Health systems. Hundreds of other data items relevant to a patient's chart that does not fit on the patients or patient_admin tables are stored here.
 
 Patient extended values are used for storing data that doesn't neatly fit into one of the predefined patient tables. This field can be reused multiple times by replacing the extension with a new name. The value of this field will be stored under the name defined in the column extension.
 
-#### **observations**
+#### observations
 
 Along with the patient_extended_values table, the patient_extended index table stores patient-relevant organizational-level information for Enterprise Health systems. Hundreds of other data items relevant to a patient's chart that does not fit on the patients or patient_admin tables are stored here. The patient_extended_values table stores the values related to the patient_extended_index table. Information stored on this table is also stored on the observations table via database triggers.
 
@@ -103,36 +103,36 @@ Including the field encounter order_id will also create an encounter order.
 
 [Chart Observations Default](chart-observations-default-values.md) Values can be used to simplify the import file.
 
-#### **insurance_policy**
+#### insurance_policy
 
 The insurance_policy table stores the policy information for each insurance policy that a patient has.
 
 This field can be used multiple times by replacing it with a unique identifier. If it is an integer value it is used to indicate the priority of the insurance policy. Otherwise, it is not linked in any way to the policy.
 
-#### **user_patients**
+#### user_patients
 
 The user_patients table stores the relationship between a patient and a user. The relationship in the header field is used to specify the type or relation the user has to the patient. This can be either the description or the code of the relationship from the user_roles table.
 
-#### **pat_chart_types**
+#### pat_chart_types
 
 The pat_chart_types table stores any additional chart types that apply to a patient chart.
 
-## **EER Diagram**
+## EER Diagram
 
 [Source](https://www.lucidchart.com/documents/view/8b1c6c06-6b16-40a0-afe7-a576d804854d)
 
-## **Examples**
+## Examples
 
 Examples using sample data are available on [separate tabs in the specification.](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/pubhtml)
 
-## **Troubleshooting**
+## Troubleshooting
 
 See [Troubleshooting APIs](../../../resources/system-specifications/application-programming-interface-api.md).
 
-## **Validation**
+## Validation
 
 [Validating APIs](https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1)
 
-## **Related Pages**
+## Related Pages
 
 * [Data Import Master List](data-import-master-list.md)
