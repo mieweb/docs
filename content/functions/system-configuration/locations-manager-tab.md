@@ -1,17 +1,17 @@
 ---
 id: '1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
 title: 'Locations Manager Tab'
-date: '2024-01-11T16:13:52.444Z'
-version: 111
-lastAuthor: 'Jenna Anderson'
+date: '2024-01-26T13:47:08.555Z'
+version: 114
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
 wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
-If you have security permission to manage locations (and depending on your security level) you can view, edit or delete locations in the Locations Manager tab found in control. These are the locations your practice utilizes. Locations that would need to be entered and stored here are the locations you would schedule your patient appointments for, create documents for, or where you provide services. Locations should also be entered for any location that a physician may do surgeries at and/or do rounds (ie: hospitals). Other locations that should be entered are locations that you receive results from (via any interface also) or where you may send a patient for an order (lab draw, xray, etc).
+If you have security permission to manage locations (and depending on your security level) you can view, edit or delete locations in the Locations Manager tab found in control. These are the locations your practice utilizes. Locations that would need to be entered and stored here are the locations you would schedule your patient appointments for, create documents for, or where you provide services. Locations should also be entered for any location that a physician may do surgeries at and/or do rounds (ie: hospitals). Other locations that should be entered are locations that you receive results from (via any interface also) or where you may send a patient for an order (lab draw, xray, etc). 
 
-When you click the *Locations Manager* tab, it will open up to display all active locations in your system. Your MIE Implementer may have already entered in some locations for your practice. However, you can manage any locations here in this tab. If you are a new {{% system-name %}} database with no locations previously added, the default will show an active OFFICE location in your system. Use this as the ‘main' location for your practice. Click edit to change that description to your practice and add address/phone/fax information. You can continue to add other locations after the main one has been edited to your specific location information.
+When you click the *Locations Manager* tab, it will open up to display all active locations in your system. Your MIE Implementer may have already entered in some locations for your practice. However, you can manage any locations here in this tab. If you are a new {{% system-name %}} database with no locations previously added, the default will show an active OFFICE location in your system. Use this as the ‘main' location for your practice. Click edit to change that description to your practice and add address/phone/fax information. You can continue to add other locations after the main one has been edited to your specific location information. 
 
 ![](../locations-manager-tab.assets/df08a99e8bd5ac316543f53f75e85c6e.png)
 
