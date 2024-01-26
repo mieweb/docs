@@ -1,9 +1,9 @@
 ---
 id: '1JqO9WpTRHcNZrB65zx7dqQ-DXlsaWGfHS_qMkp-bCJs'
 title: 'Real World Testing Results 2022'
-date: '2023-02-01T19:26:55.603Z'
-version: 384
-lastAuthor: 'Doug Horner'
+date: '2024-01-26T20:26:41.153Z'
+version: 406
+lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1jodfHoSV12rtcGQyQPHL42mRBtZHtpqw'
@@ -25,7 +25,7 @@ links:
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://github.mieweb.com/webchart/wcexport'
 source: 'https://drive.google.com/open?id=1JqO9WpTRHcNZrB65zx7dqQ-DXlsaWGfHS_qMkp-bCJs'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 [Executed Real World Testing Results 2022 PDF Version](https://drive.google.com/file/d/1jodfHoSV12rtcGQyQPHL42mRBtZHtpqw) 
 
@@ -56,7 +56,7 @@ wikigdrive: 'latest'
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
-<td><a href="https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/">https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/</a></td>
+<td>https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/</td>
 </tr>
 <tr>
 <td><strong>Results Submission Date</strong></td>
@@ -1581,7 +1581,7 @@ This measure will verify that WebChart EHR's API documentation is publicly and p
 
 #### Test Methodology
 
-An external uptime monitor will check the availability of all documentation available at [https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html](https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html).  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
+An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
 
 #### Results
 
@@ -2162,7 +2162,7 @@ Number of times EHR Data Export Tool was used: 0
 
 #### Discussion
 
-We did not have any incidents of clients using the EHR Data Export Tool available at [https://github.mieweb.com/webchart/wcexport](https://github.mieweb.com/webchart/wcexport) .  We will be adding some automated tests to test the usage of the export tool during the 2023 calendar year.
+We did not have any incidents of clients using the EHR Data Export Tool available at https://github.mieweb.com/webchart/wcexport .  We will be adding some automated tests to test the usage of the export tool during the 2023 calendar year.
 
 
 ### Measure 19: CDA Validation
@@ -2449,7 +2449,7 @@ This Real World Testing plan is complete with all required elements, including m
 </tr>
 <tr>
 <td><strong>Authorized Representative Signature</strong></td>
-<td></td>
+<td>Doug Horner</td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
