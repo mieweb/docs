@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-01-25T20:43:37.001Z'
-version: 444
+date: '2024-01-29T13:46:17.172Z'
+version: 465
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -438,6 +438,7 @@ links:
   - 'functions/reports/osha-300-form-log-overlay.md'
   - 'functions/reports/osha-300-log-report.md'
   - 'functions/reports/osha-300a-form-log-overlay.md'
+  - 'functions/reports/osha-300a-report.md'
   - 'functions/reports/osha-300-301-case-data-report.md'
   - 'functions/reports/osha-statistics-report.md'
   - 'functions/reports/orders-due-report.md'
@@ -1131,6 +1132,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
       * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md)
       * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
       * [OSHA 300A Form Log Overlay](functions/reports/osha-300a-form-log-overlay.md)
+      * [OSHA 300A Report](functions/reports/osha-300a-report.md)
       * [OSHA 300/301 Case Data Report](functions/reports/osha-300-301-case-data-report.md)
       * [OSHA Statistics](functions/reports/osha-statistics-report.md)
       * [Orders Due Report](functions/reports/orders-due-report.md)
