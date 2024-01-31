@@ -1,9 +1,9 @@
 ---
 id: '1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 title: 'Managing Departments'
-date: '2024-01-11T18:36:35.269Z'
-version: 98
-lastAuthor: 'Jenna Anderson'
+date: '2024-01-31T17:08:51.289Z'
+version: 105
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
@@ -37,7 +37,7 @@ When you click Add Department, the Add Department screen fields will display.
 ![](../managing-departments.assets/66738cca6471141b987bc65719fcec4a.png)
 
 **NAME**: Type is the full name of the department you wish to add.  
-**VIEWABLE DEPARTMENTS**: Then you must check any *Viewable Departments* that you want this department to be able to view. Make sure it's own department is check-marked. Once the department is checked, the users in that department will be able to view anything that those other users in that department(s) are allowed to view. You can check-mark *all* of the departments by clicking the **Check All Dept** button. These viewable departments are primarily if a user is set to a security permission to view restricted departments only. For example, suppose I am an administrator (as my primary department) and my viewable departments are physicians and nurses, but not pharmacists. Then I cannot see anyone whose primary department is "pharmacists". If the physicians department can view nurses, pharmacists and administrators, then a person whose primary department is "physicians" can view any pharmacist. If, as a primary administrator, I am also in the physicians department, I still cannot view anyone in the pharmacy department. If a dept is marked viewable, the user can see the other users within that department. *Currently this is for NoMoreClipboard use only, however any |system| user may be set to be restricted to view specific department(s) only.*
+**VIEWABLE DEPARTMENTS**: Then you must check any *Viewable Departments* that you want this department to be able to view. Make sure its own department is check-marked. Once the department is checked, the users in that department will be able to view anything that those other users in that department(s) are allowed to view. You can check-mark *all* of the departments by clicking the **Check All Dept** button. These viewable departments are primarily if a user is set to a security permission to view restricted departments only. For example, suppose I am an administrator (as my primary department) and my viewable departments are physicians and nurses, but not pharmacists. Then I cannot see anyone whose primary department is "pharmacists". If the physicians department can view nurses, pharmacists and administrators, then a person whose primary department is "physicians" can view any pharmacist. If, as a primary administrator, I am also in the physicians department, I still cannot view anyone in the pharmacy department. If a dept is marked viewable, the user can see the other users within that department. *Currently this is for NoMoreClipboard use only, however any |system| user may be set to be restricted to view specific department(s) only.*
 
 ![](../managing-departments.assets/9be03d2da065c85834d0131bc88a476f.png)
 
