@@ -1,16 +1,16 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2023-08-23T21:41:58.786Z'
-version: 315
-lastAuthor: 'Lindsay Riggle'
+date: '2024-02-01T15:22:08.063Z'
+version: 338
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'observations-tab.md'
   - 'observation-codes-editor.md'
   - 'observation-code-merging.md'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](observations-tab.md) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](observation-codes-editor.md) and [Observation Code Merging](observation-code-merging.md) documentation.
 
@@ -26,15 +26,14 @@ The following information provides details on how to add and configure flowsheet
 
 ## Add a New Flowsheet
 
-1. Verify all observations needed for the new flowsheet are already created and available within the  {{% system-name %}} system.
+1. Verify all observations needed for the new flowsheet are already created and available within the {{% system-name %}} system.
 
-
-![](../flowsheets-editor.assets/65a295e2a6501c771387d62500402087.png)  
+![](../flowsheets-editor.assets/26a63b831e54d04606592569ff47fb53.png)  
 {{% note %}}  
 Any custom discrete values will not be interoperable when communicating with other systems.  
 {{% /note %}}
 
-2. To begin, click the <strong> </strong>{{% syslink "Add Flowsheet" "f=admin&subfunc=obscodes_manager&view=flowsheet&opp=add" %}}<strong> </strong> link in the upper-right corner of the page.
+2. To begin, click the <em>Add Flowsheet</em> hyperlink in the upper-right corner of the page.
 3. Begin filling in the fields and building the flowsheet, accordingly:
    1. <strong>Flowsheet Name</strong>: This field is used to name the new Flowsheet. If the Flowsheet will be used within encounters, this field should match the order item name, exactly.
    2. <strong>Active</strong>: Select or deselect to set the Flowsheet as active or inactive, respectively. Flowsheets cannot be deleted.
@@ -75,6 +74,7 @@ Any custom discrete values will not be interoperable when communicating with oth
       1. <strong>No</strong>: No previous observation value will be staged or pulled forward into the Flowsheet for the observation in context. 
       2. <strong>Add to Macros</strong>: For any text input types, previous values can be staged using the system macro functionality. Previously recorded answers (values) for the observation will be shown as a macro, capable of being added to the input field by way of the angle bracket ( < ), if the value is the same. 
       3. <strong>Prefill Input</strong>: This option will automatically prefill the entry field with the most recent value used for the respective observation, for that specific chart. 
+      4. <strong>Prefill Input from Context: </strong>This option will automatically prefill the entry field with the most recent value used for the respective observation, for that specific chart, from the encounter linked to the same case/incident that the current encounter is linked to.
    5. <strong>Comments</strong>: When checkmarked, users will have a Comments field for providing additional information specific to the observation. 
    6. <strong>Section</strong>: With the proper programming, this field will trigger section groupings for organizing the included observations into a specified arrangement. 
    7. <strong>Required</strong>: Observations can be optional, recommended, or required, as needed. When configuring a flowsheet or questionnaire, simply leave this field blank for any optional entries. Recommended entries, or fields that are encouraged but not required, can be configured by inputting the numeral one (1) in this field. Otherwise, required fields can be checked against using a properly formatted formula. More about this to follow. 
@@ -86,27 +86,27 @@ Any custom discrete values will not be interoperable when communicating with oth
 
 The following options allow for greater configuration and require a more advanced understanding of flowsheet programmability. These options can only be edited using the Edit (pencil) link in the *Actions* column of the Flowsheets editor.
 
-### **Section**
+### Section
 
 As explained previously, all flowsheets can have line breaks/headers added, as needed. With a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the **Edit** (pencil) icon in the *Actions* column, and update the **Description** field. The text will display as a title for the line break, thus formatting it as a header in the flowsheet.
 
 {{% note %}}
-
 The line break/header will always display or print, even when no observation data (values) have been entered.
 {{% /note %}}
+
 To avoid the default behavior of automatically displaying line breaks/headers, users may perform the following:
 1. Click the Edit icon (pencil) to edit the line break/header, and update the <strong>Section</strong> field with a category, label, term, or generic freetext (e.g., lungs, bsa, etc.).
 2. Once the line break/header has been updated with a section name, edit each line item or observation belonging to that section with the same section name.
 
 
-![](../flowsheets-editor.assets/591bacdca5ac83d33e36be4a864fcf22.png)
+![](../flowsheets-editor.assets/71df30c839339c10d06ab776a1ef5367.png)
 
 
 3. Click the <strong>Submit</strong> button to save all changes.
 
-Now, any time data have been added to a flowsheet, the headers and/or line breaks configured for sections will not automatically display. The headers/breaks will only display when values have been added.
+Now, any time data has been added to a flowsheet, the headers and/or line breaks configured for sections will not automatically display. The headers/breaks will only display when values have been added.
 
-### **Required**
+### Required
 
 The Required field allows users to set certain line items or observations as optional, recommended, or required. By default, all flowsheet and questionnaire entries are optional. However, if certain information is *needed*, flowsheets and questionnaires can be set up with either *soft* requirements or *hard* requirements. When an observation is programmed as a soft requirement, users are recommended and strongly encouraged to provide a value. However, if an observation is programmed as a hard requirement, users are unable to proceed until a value is given. 
 To establish requirements on an observation, begin by clicking the Edit icon (pencil) to edit the **Required** field, and enter one of the following:
@@ -117,7 +117,7 @@ To establish requirements on an observation, begin by clicking the Edit icon (pe
    * Number only - TBD
    * Date/Time Ranges - TBD
 
-### **Conditional**
+### Conditional
 
 This field is used for conditionally displaying specific observations. For example, a questionnaire with questions/observations only relevant to a male (condition) can be programmed to only display when the sex of the respondent is male. All question types and layouts support conditional logic, and page breaks are the only type of break that do not currently support this feature.
 To use conditional logic, the appropriate script must be added to the **Conditional** field of the observation/question. However, the conditional circumstances will drive the type of script that will be needed, so be sure to consider the various options.
@@ -144,7 +144,7 @@ observationDisplay('Since your last exam, have you experienced rhinitis, a runny
 
 ```
 
-![](../flowsheets-editor.assets/fc9e52795cc011112b1b482a6ed0081b.png)
+![](../flowsheets-editor.assets/1af6f941ed2cbb0128b1b2a0a904708d.png)
 
 
 #### Based on Patient Sex
@@ -192,7 +192,7 @@ observationValueByName('HPI Pain Assessment') !==0 && typeof(observationValueByN
 
 ```
 
-### **Calculation**
+### Calculation
 
 Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation for the BMI whenever values for height and weight are entered. There is no limit to the number of calculations a script can do, and any of the standard mathematical notations can be used (i.e., **+**, **-**, *****, **/**).
 
