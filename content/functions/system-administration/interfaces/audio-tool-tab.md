@@ -1,9 +1,9 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2023-12-06T20:20:01.233Z'
-version: 315
-lastAuthor: 'Alice Uhrick'
+date: '2024-02-01T15:01:42.055Z'
+version: 324
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/'
@@ -55,12 +55,19 @@ Manually enter New or Edit existing results for left ear, right ear, test date, 
 ![](../audio-tool-tab.assets/4b2bea1bf4433fe6eec7bd018ac9b687.png)
 
 
-Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments. The *asset* field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.  
+Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments. 
+
+The *device number* field is typically for device interfaces to prefill the serial number, etc from the device interface, however it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
+
+![](../audio-tool-tab.assets/f4de0dbd43c689cd7d9642a45cc52c5a.png)
+
+
+The *asset* field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.  
 {{% info %}}
 The Asset field will be "remembered" and will pre-populate upon the next audiogram entry for any patient.
 {{% /info %}}
 
-![](../audio-tool-tab.assets/a3940329aeeed54a177e2f12923dceb8.png)
+![](../audio-tool-tab.assets/20f231197188ac56cad00b35fc16084b.png)
 
 
 Once all applicable data has been entered, click the *Save* button. The user may at any time click the *Cancel* button to cancel data entry.
