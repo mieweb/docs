@@ -1,9 +1,9 @@
 ---
 id: '1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM'
 title: 'Orders List Editor'
-date: '2024-01-25T13:26:13.121Z'
-version: 148
-lastAuthor: 'Alice Uhrick'
+date: '2024-02-01T14:31:20.695Z'
+version: 169
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM'
@@ -50,19 +50,20 @@ The Orders-List Editor shows all orders available in the system and is also wher
 
 ![](../orders-list-editor.assets/8ef59cd717a2c2278bb52e94e3775e75.png)
 
-2. If the order does not exist with the TYPE you need, select the <strong>+Add Order</strong> button in the upper left or the screen.
+2. If the order does not exist with the TYPE you need, select the <strong>+Add Order</strong> button in the upper left of the screen.
 
 
 ![](../orders-list-editor.assets/c8ebd4f45bd05c995059225bc7ceabe6.png)
 
 3. Fill in as many fields as applicable. <strong>Order Type and Order Name are required</strong>.
+   1. Department field is used to designate what department (in your system) should always handle this order item (lab, radiology etc)
 4. Click<strong> Save</strong> if you are finished adding new orders, or <strong>Add Another</strong> to add additional orders. (Click <strong>Cancel</strong> if you do not want to save the order.)
 
 
 ![](../orders-list-editor.assets/a95f548c8421c290062881f3c4014274.png)
 
 
-### Edit an existing order
+### Edit an existing order item
 
 1. Search for the existing order using one of the columns. Click the filter icon of the column or columns you want to search by. 
 
@@ -74,7 +75,7 @@ The Orders-List Editor shows all orders available in the system and is also wher
 
 3. <strong>Edit </strong>displays the same input screen as Adding an order does. <strong>Status</strong> allows the user to change the order to <em>Active</em><strong> or </strong><em>Inactive</em><strong>. </strong>The <strong>Revisions</strong> button displays who and when and what changes were made to the order. Use the <strong>Show Questions</strong> button to display or edit the Ask at Order Entry Questions (AOE). 
 
-### Add Order Type
+### Add Order Type for Grouping Types of Order Items
 
 1. The <strong>+Add Order Type</strong> button is used to add new order types or <em>descriptions</em> of the order itself. For example, you may want all of your In-House labs to have a special type. This aids the user in locating a subset of the orders. <em>(Note: the Add Order Type option may not be used often or ever post go-live.)</em>
 
