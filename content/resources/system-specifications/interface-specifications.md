@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-01-24T18:13:35.704Z'
-version: 2609
+date: '2024-02-02T17:24:18.178Z'
+version: 2641
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -438,6 +438,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 
 * Agile-Redshift (IH)
 * Benchmark ESG (Gensuite)
+   * Safety (bi-directional) - in progress
+   * Industrial Hygiene (bi-directional) - in progress
 * Enablon
 * Intelex (Safety and IH) - in progress
 * Origami Risk
