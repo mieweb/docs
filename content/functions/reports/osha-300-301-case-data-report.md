@@ -1,15 +1,15 @@
 ---
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
-date: '2024-01-16T18:37:38.080Z'
-version: 114
+date: '2024-02-06T17:29:33.369Z'
+version: 194
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting'
   - 'https://www.osha.gov/sites/default/files/ita_case_data_api_specifications.pdf'
 source: 'https://drive.google.com/open?id=1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
-wikigdrive: 'latest'
+wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 ---
 ## OSHA 300/301 Case Data Report
 
@@ -20,9 +20,9 @@ The OSHA 300/301 Case Data report is found within the Reports module, and within
 
 The Department of Labor (DOL) Occupational Safety and Health Administration (OSHA) Injury Tracking Application (ITA) provides a system to securely access and submit information related to workplace injuries. The application is being enhanced to begin collecting details on individual injury and illness cases. Our OSHA 300/301 Case Data Report is a method to produce a large data output to bulk upload larger data sets using API endpoints. This report provides the fields that make up the body of most of the Request API calls involving the Case Data form.
 
-This OSHA 300/301 Case Data Report will pull OSHA recordable cases/incidents for the PRIOR year of this current logged in session. Meaning, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness date of the *PRIOR YEAR* to today's logged in date, will result here with related case/incident details. This report is easily downloadable into a CSV format to help with self electronic reporting needs.
+This OSHA 300/301 Case Data Report will pull OSHA recordable cases/incidents for the PRIOR year of this current logged in session. Meaning, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness date of the *PRIOR YEAR* to today's logged in date, will result here with related case/incident details.  Charts marked as 'Exclude from Quality Care' are omitted from report output. This report is easily downloadable into a CSV format to help with self electronic reporting needs.
 
-More information from OSHA is at [https://www.osha.gov/injuryreporting](https://www.osha.gov/injuryreporting)
+More information from OSHA is at https://www.osha.gov/injuryreporting
 
 ![](../osha-300-301-case-data-report.assets/1287e1fd34e8705bec0fe3f21c2d9d5b.png)
 
@@ -30,9 +30,8 @@ More information from OSHA is at [https://www.osha.gov/injuryreporting](https://
 ### OSHA 300/301 Case Data Report Criteria
 
 The OSHA 300/301 Case Data report has the following logic criteria/logic built in order to be listed on the output of this report:
-* Onsite Injury/Illness locations to be configured as EO charts must have a chart type of either <em>Work Location</em> <strong>or </strong><em>Site</em>
-   * <strong>and </strong>the EO onsite injury/illness work location/site chart should must have <em>Employer Organization Data</em> fields filled out in the <strong>Other Data</strong> section of Overview (EO) tab
-   * <strong>and</strong> the EO onsite injury/illness work location/site chart must be configured as an onsite injury location within the Locations Hierarchy system editor
+* Onsite Injury/Illness locations to be configured as EO charts must have:
+   * the EO onsite injury/illness work location/site chart must be configured as an onsite injury location within the Locations Hierarchy system editor
       * <strong>and </strong>its Chart ID entry (in Locations Hierarchy) must be linked to its own EO or PO chart
       * <strong>and </strong>its Status entry (in Locations Hierarchy) must active or inactive (deleted locations hierarchy locations are omitted from the system, the case/incident and from the OSHA 300/301 Case Data Report)
 * Your case/incident workflows must utilize the Case encounter section on specific encounter types deemed appropriate for your business
@@ -43,11 +42,6 @@ The OSHA 300/301 Case Data report has the following logic criteria/logic built i
 
 {{% tip %}}
 Screenshot examples that describe the above criteria:
-
-EO or PO Chart for the onsite work location example:
-
-![](../osha-300-301-case-data-report.assets/0e5efcc177737cb5692bdb5ec818bf90.png)
-
 
 Locations Hierarchy example:
 
@@ -64,7 +58,7 @@ Case encounter section for an OSHA recordable injury/illness example:
 
 The OSHA 300/301 Case Data report generates a list of results upon navigating to that report.  As stated above, the {{% system-name %}} OSHA 300/301 Case Data report displays OSHA recordable cases/incidents for the *PRIOR year* of this current logged in session. Meaning, it will look for and display information and counts that involve OSHA recordable cases/incidents that have an injury/illness onset date of the *prior* year to today's logged in date, will result here and be easily downloadable into a CSV file that can be used for your electronic reporting submission needs.
 
-A complete report requirements description and columns that the report output is to gather and produce is found in the OSHA Injury Tracking Application API Document found at [https://www.osha.gov/sites/default/files/ita_case_data_api_specifications.pdf](https://www.osha.gov/sites/default/files/ita_case_data_api_specifications.pdf)
+A complete report requirements description and columns that the report output is to gather and produce is found in the OSHA Injury Tracking Application API Document found at https://www.osha.gov/sites/default/files/ita_case_data_api_specifications.pdf
 
 The below list of columns from the OSHA 300/301 Case Data report, will describe where the data comes from within {{% system-name %}} to populate our OSHA 300/301 Case Data report, which can then be used to download and submit to help provide a method for injury and illness data submissions required by OSHA.
 
@@ -73,8 +67,8 @@ The below list of columns from the OSHA 300/301 Case Data report, will describe 
 * <strong>CASE NUMBER</strong> - This displays the specific assigned number to the case/incident
 * <strong>JOB TITLE</strong> - This pulls the data that is stored in the Job Code Description field of the employee's chart demographics
 * <strong>DATE OF INCIDENT</strong> - This pulls the date from the <em>Date and time of injury or onset of illness</em> field of the OSHA recordable case/incident
-* <strong>INCIDENT LOCATION</strong> - This pulls the <em>Onsite Location </em>selection of where the event occurred field of the OSHA recordable case/incident
-* <strong>INCIDENT DESCRIPTION</strong> - This pulls the <em>Where the event occurred (e.g. loading dock, north end)</em> field of the OSHA recordable case/incident
+* <strong>INCIDENT LOCATION</strong> - This pulls the <em>Onsite Location </em>selection of where the event occurred field of the OSHA recordable case/incident. This matches the stand alone OSHA 300 Log and form for ‘location'.
+* <strong>INCIDENT DESCRIPTION</strong> - This pulls the <em>What happened? Tell us how the injury occurred</em> field of the OSHA recordable case/incident
 * <strong>INCIDENT OUTCOME</strong> - This displays a number (as the value) signifying the highest level for the case/incident outcome:
    * Death = 1 value means the case/incident has the field <em>Employee died</em> checkmarked
    * Days Away from Work = 2 value means the case/incident has Lost Time accommodations linked to it
@@ -82,11 +76,13 @@ The below list of columns from the OSHA 300/301 Case Data report, will describe 
    * Other = 4 value means the case/incident didn't fit any of the other criteria of Death, Lost Time, or Restrictions
 * <strong>DAYS AWAY FROM WORK</strong> - the total number of Lost Time days will be calculated here and displays a total number:
    * If Lost time is documented in the Accommodations section of an encounter that is linked to an OSHA reportable case, the start day of the lost time counts as a full day.  
-   * The date of injury or onset of illness full day doesn't count as a day away from work in this calculated column if a documented lost time day started the same day.  Day of incident/case does not count as a lost time day, if the lost time started that same da
+   * The date of injury or onset of illness full day doesn't count as a day away from work in this calculated column if a documented lost time day started the same day.  Day of incident/case does not count as a lost time day, if the lost time started that same day.
+   * Is to match same count this case calculates from the OSHA 300A or OSHA 300 Log also
 * <strong>DAYS JOB TRANSFER OR RESTRICTION</strong> - the total number of Restricted days calculation and displays as a total number:
    * Overlapping restriction days are only counted once. 
    * The calculation in this column does not include future days.  
    * The calculation looks at the restriction start date & time and the end date & time and makes the calculation for this column.  A full day is counted as a start day and the end day being a day apart. 
+   * Is to match same count this case calculates from the OSHA 300A or OSHA 300 Log also
 * <strong>TYPE OF INCIDENT</strong> - If the case/incident is work related or undetermined, this displays a number (as the value) signifying the Injury/Illness type:
    * Injury = 1 value
    * Skin Disorder = 2 value
@@ -127,6 +123,5 @@ The OSHA 300/301 Case Data report is easily downloadable into a CSV format.  Sim
 
 The CSV file will be in the specific column order with column titles labeled as the OSHA injury and illness data submission requires.
 
-![](../osha-300-301-case-data-report.assets/664a1f32823acd2741313599e17444e0.png)
-
+![](../osha-300-301-case-data-report.assets/f4d9cb45da2307a29d2182cc0b7cde19.png)
 
