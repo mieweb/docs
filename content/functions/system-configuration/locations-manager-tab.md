@@ -1,8 +1,8 @@
 ---
 id: '1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
 title: 'Locations Manager Tab'
-date: '2024-01-26T13:47:08.555Z'
-version: 114
+date: '2024-01-26T13:47:11.016Z'
+version: 117
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []

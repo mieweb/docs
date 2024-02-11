@@ -2,7 +2,7 @@
 id: '10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc'
 title: 'Health Surveillance Panels - Action Rules'
 date: '2020-03-13T15:15:41.577Z'
-version: 83
+version: 84
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

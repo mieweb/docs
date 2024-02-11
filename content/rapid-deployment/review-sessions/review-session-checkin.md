@@ -2,7 +2,7 @@
 id: '14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y'
 title: 'Review Session - Checkin'
 date: '2020-02-27T21:24:39.047Z'
-version: 36
+version: 38
 lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:

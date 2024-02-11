@@ -1,9 +1,9 @@
 ---
 id: '1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
 title: 'Partition Manager'
-date: '2021-11-11T15:00:57.459Z'
-version: 111
-lastAuthor: 'jvaldez'
+date: '2024-01-24T15:10:45.727Z'
+version: 139
+lastAuthor: 'Sharon Quarterman'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'

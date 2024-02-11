@@ -2,7 +2,7 @@
 id: '1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 title: 'Managing Departments'
 date: '2024-01-31T17:08:51.289Z'
-version: 105
+version: 108
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []

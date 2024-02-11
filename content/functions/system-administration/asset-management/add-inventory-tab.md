@@ -2,7 +2,7 @@
 id: '1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
 title: 'Add Inventory Tab'
 date: '2022-08-09T15:38:32.584Z'
-version: 32
+version: 33
 lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
