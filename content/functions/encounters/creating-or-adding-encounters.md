@@ -10,11 +10,11 @@ links:
   - 'working-in-a-visit-encounter.md'
   - 'archiving-closing-re-archiving-encounters.md'
 source: 'https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Creating or Adding Encounters
 
-Encounters are defined as any interaction between a patient and healthcare provider encompassing anything from a phone call to a full physical. Typically, the nurse adds these encounters and enters any documentation into the encounter as necessary (depending on the workflow of the practice and user security roles). Physicians then usually review, document and sign the encounter as described in the steps below.  
+Encounters are defined as any interaction between a patient and healthcare provider encompassing anything from a phone call to a full physical. Typically, the nurse adds these encounters and enters any documentation into the encounter as necessary (depending on the workflow of the practice and user security roles). Physicians then usually review, document and sign the encounter as described in the steps below.
 The encounter can be created several different ways, depending on the workflow of the practice. Users can easily add (create) a new encounter for a patient in the patient's electronic chart from the *Summary* tab, by using the Quick Links portlet, by navigating to *Encounters* of the Medical Record chart tab, or else from the scheduler, or even from the Esign module.
 
 ### Creating/Adding Encounters from the Quick Links Portlet
@@ -23,7 +23,7 @@ To add an encounter from the Summary chart tab, users will need to access the Qu
 
 ![](../creating-or-adding-encounters.assets/9703615f72993ce737b571afe1909612.png)
 
-Clicking one of the Add Encounter hyperlinks from the Quick Links portlet will automatically create and open the encounter in the chart. The new encounter will automatically populate today's date/time, the location (populated from the Preferred Location set in My Settings), and the Performing Provider will populate based upon the user opening the encounter.  
+Clicking one of the Add Encounter hyperlinks from the Quick Links portlet will automatically create and open the encounter in the chart. The new encounter will automatically populate today's date/time, the location (populated from the Preferred Location set in My Settings), and the Performing Provider will populate based upon the user opening the encounter.
 Users have the ability to create an encounter from saved/stored templates, as well. Clicking the Templates icon will provide a list of available templates to select from and that can be applied to the encounter being opened. Simply click the hyperlink of the named template you wish to apply and {{% system-name %}} will create, open and apply that template to the visit type indicated.
 
 ![](../creating-or-adding-encounters.assets/a692a03e58533e5381d13d9e7d465fe9.png)

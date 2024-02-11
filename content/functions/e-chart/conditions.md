@@ -7,7 +7,7 @@ lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Viewing a Patient's Conditions
 
@@ -30,7 +30,7 @@ They also show in the Patient's/Family Conditions chart tab or patient's E-histo
 
 ## Viewing List of Conditions
 
-When you are working in a patient's E-Chart, you can simply click the hyperlink Conditions: word from the patient's summary (RX header) at the top of the tab you are working in. It will automatically take you then to the Conditions module where you then can document the patient's conditions or family conditions.  
+When you are working in a patient's E-Chart, you can simply click the hyperlink Conditions: word from the patient's summary (RX header) at the top of the tab you are working in. It will automatically take you then to the Conditions module where you then can document the patient's conditions or family conditions.
 OR you can click the patient's chart tab at the top most likely named Patient/Family Conditions and it will take you to the patient's condition history also where you can document conditions or family conditions for the patient.
 
 ![](../conditions.assets/0fbc2b18070e67850c238efe60c7200c.png)
@@ -67,7 +67,7 @@ After you click Add Condition link, you will see the *Condition Details* fields.
 
 * <strong>Notes:</strong> This is optional. Type any notes you wish.
 * <strong>Severity:</strong> This is optional. You will only get a drop-down for this severity field if you enter a condition that a severity can be applied to. Example: Bronchitis. You could then select a severity of Acute, Chronic, or Self-Limiting from the drop-down. This is optional. Again, this field will only turn on if you enter a valid condition that is tied to these 3 types of severity categories.
-Click **Submit** and it will automatically put it in the appropriate conditions category according to what date fields you entered. Meaning, if you entered a condition and entered a conclusion date, it will automatically know that the condition is concluded and put it in the concluded conditions section for that patient. If you chose a condition and only entered an onset date, then it will put it in the active conditions section for that patient.  
+Click **Submit** and it will automatically put it in the appropriate conditions category according to what date fields you entered. Meaning, if you entered a condition and entered a conclusion date, it will automatically know that the condition is concluded and put it in the concluded conditions section for that patient. If you chose a condition and only entered an onset date, then it will put it in the active conditions section for that patient.
 Click **Submit and Conclude** and it will automatically put the condition in the Concluded conditions category for the patient. You may want to use this if the patient no longer has the condition but could not tell you the date the condition concluded. Therefore, the conclusion date would be empty, but you can submit and conclude that condition by clicking this option.
 
 ### Pregnancy Condition
@@ -112,12 +112,12 @@ Click *Submit* and it will automatically list it in the Family Conditions sectio
 ### Editing/Deleting a Patient Condition
 
 If you need to edit or delete a condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-You will see the categories of Active, Concluded, and Deleted Conditions.  
+You will see the categories of Active, Concluded, and Deleted Conditions.
 To edit or delete a condition, simply click on the underlined condition name in the problem column.
 
 ![](../conditions.assets/e256699e5206cdea04e451cb4cda0909.png)
 
-The CONDITION DETAILS screen will open up either in the same browser tab (default) or in a separate browser tab depending on the system setting value that is set for the database.  
+The CONDITION DETAILS screen will open up either in the same browser tab (default) or in a separate browser tab depending on the system setting value that is set for the database.
 When the *condition details* screen appears, you can change any field you need to for this specific condition you selected or type notes into document a reason for deleting or editing, etc. You will see the date the condition was entered and the date(s) any modifications/edits were done to this condition entry from this screen too.
 
 ![](../conditions.assets/8d8dba85c479bde894c752b21f09ed7b.png)
@@ -134,12 +134,12 @@ After you have clicked one of the function buttons, it will then take you back t
 ### Concluding an Active Patient Condition
 
 If you need to conclude an active condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-Look in the Active Conditions category for the condition you want to conclude. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.  
+Look in the Active Conditions category for the condition you want to conclude. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.
 To conclude a condition, find the specific condition and simply click on the word Conclude in the conclude column.
 
 ![](../conditions.assets/dbfc3c12f7cd8566df957587bbaa1e36.png)
 
-You will then be taken to the Conclude Condition screen.  
+You will then be taken to the Conclude Condition screen.
 Type in the date the condition concluded and type in any notes related to this concluded condition.
 
 ![](../conditions.assets/06a13621f6aa3fcf9ef6ec1adf39020d.png)
@@ -149,12 +149,12 @@ Click *Submit* and it will then list this concluded condition in the Concluded C
 ### Edit, Delete, or Activate a Concluded Condition
 
 If you need to edit, delete or reactivate a concluded condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-Look in the Concluded Conditions category for the condition you want to reactivate. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error. Reactivating it means the condition came back or you concluded it in error, etc.  
+Look in the Concluded Conditions category for the condition you want to reactivate. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error. Reactivating it means the condition came back or you concluded it in error, etc.
 To edit, delete or activate a concluded condition, find the specific concluded condition and simply click on the underlined condition in the problem column.
 
 ![](../conditions.assets/e4390fc2474598607a9ed65f19ae14a5.png)
 
-You will then be taken to the Condition Details screen.  
+You will then be taken to the Condition Details screen.
 You can change any field you need to for this specific condition you selected or type notes in to document a reason for deleting, editing, or re-activating.
 
 ![](../conditions.assets/b48965ee3ea54acd8e836683f47624da.png)
@@ -168,12 +168,12 @@ After you have clicked one of the function buttons, it will then take you back t
 ### Editing/Deleting a Family Condition
 
 If you need to edit or delete a family condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-You will see the Family Conditions category if you scroll down to the bottom of the screen. It is the last category in the patient's conditions summary screen.  
+You will see the Family Conditions category if you scroll down to the bottom of the screen. It is the last category in the patient's conditions summary screen.
 To edit or delete a family condition, simply click on the underlined condition name in the description column.
 
 ![](../conditions.assets/00951253f612642af0cd66f6a736b247.png)
 
-You will then be taken to the Family Condition Details screen.  
+You will then be taken to the Family Condition Details screen.
 You can change any field you need to for this specific family condition you selected or type notes in to document a reason for deleting or editing, etc.
 
 ![](../conditions.assets/c2b84863c75ce7f9d42159d6ce3cb35b.png)
@@ -189,7 +189,7 @@ You will see a condition link named View Links in each condition category.
 
 ![](../conditions.assets/22e39d07dcb59c2866eb829d9793a125.png)
 
-The Search link will take you out to Healthwise.net in a separate window to take you directly to specific library search of material on the condition you selected "search" for. This is a separate interface your MIE Implementer can set up for you. This can be patient education material you can look up or print out or view in other languages if that website offers additional languages.  
+The Search link will take you out to Healthwise.net in a separate window to take you directly to specific library search of material on the condition you selected "search" for. This is a separate interface your MIE Implementer can set up for you. This can be patient education material you can look up or print out or view in other languages if that website offers additional languages.
 If you click View Links for any condition, it will open up display the encounters that the given condition is linked to and all the items/documents that are linked to those encounters (in reverse chronological order). Deleted items will not show up in the list.
 
 ![](../conditions.assets/0de1bbcf7f27dadddce2f83734da3afe.jpg)

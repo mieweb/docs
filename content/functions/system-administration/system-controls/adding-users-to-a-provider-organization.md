@@ -6,7 +6,7 @@ version: 48
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Create the Provider Organization (PO) Chart
 
@@ -36,13 +36,13 @@ If you have just completed the registration process above, you should now be in 
 
 ![](../adding-users-to-a-provider-organization.assets/e4c33371cf3e4109fc0824b61cca1c77.png)
 
-Access the Chart, locate the PO Contacts Chart tab.  
+Access the Chart, locate the PO Contacts Chart tab.
 Click on PO Contacts chart Tab
 
 ![](../adding-users-to-a-provider-organization.assets/72b39b9fd11f8ed9b179853fae21aace.png)
 
 This will open a page where you may list all of your users for one organization.  
-Enter your user's name and organization location into the PO Contact tab  
+Enter your user's name and organization location into the PO Contact tab
 Click Add to continue adding to the Organization list
 
 ![](../adding-users-to-a-provider-organization.assets/33d27301e2c4da90ddfdbfa5caca9e4b.png)
@@ -66,7 +66,7 @@ The link will then change to say **Show Patients Linked to User:**
 
 ![](../adding-users-to-a-provider-organization.assets/02a80001a1acc149ee0f8b60b48f3006.png)
 
-Click on the link to display the list of Patients linked to this user  
+Click on the link to display the list of Patients linked to this user
 Once open, you can ADD or DELETE organizations or patients
 
 ![](../adding-users-to-a-provider-organization.assets/7e7b2a44a31c522cc874c932358bbb21.png)

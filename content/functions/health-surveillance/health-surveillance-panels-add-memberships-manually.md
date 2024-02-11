@@ -6,7 +6,7 @@ version: 39
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance).
 
@@ -16,7 +16,7 @@ The listing of current Panels will display on the screen under the Panel Search 
 
 ## Add Memberships Individually and Manually via Panel
 
-You can add individual employee's to specific memberships if needed. Use adding memberships manually cautiously as this puts them in as *"explicit"* memberships into the panel(s).  
+You can add individual employee's to specific memberships if needed. Use adding memberships manually cautiously as this puts them in as *"explicit"* memberships into the panel(s).
 To add a manual membership for an employee/patient chart to a panel, go to Control tab→Health Surveillance tab→ Membership hyperlink in the options column of the specific individual panel needed.
 
 ![](../health-surveillance-panels-add-memberships-manually.assets/99f8b1b457b3f2176af189e365234249.png)
@@ -29,7 +29,7 @@ Individually add explicit members to panels manually one at a time using this sc
 
 ![](../health-surveillance-panels-add-memberships-manually.assets/56e223c565054cc9ed86db25ebcc714e.png)
 
-Since you are manually placing an employee into a panel, this puts them in as explicit membership to that panel you are in.  
+Since you are manually placing an employee into a panel, this puts them in as explicit membership to that panel you are in.
 Placing employees as members into a specific panel in this screen is the same as going into the employee's Panel Membership Overview chart tab to put them into a panel.  You can put employees manually individually into panel(s) using either method.
 
 ## Add Memberships Individually and Manually via Chart
@@ -42,12 +42,12 @@ First view the *current panel membership* section for the employee to make sure 
 
 ![](../health-surveillance-panels-add-memberships-manually.assets/0974451e9856125cd213f8118a8f903b.png)
 
-It will refresh and then show that panel alphabetically as a column in the employee's current panel membership section. If you need to add membership (for this employee chart) to other panels, you can select another panel from the *add panel* drop-down and click Submit. The SUBMIT button only puts the selected panel into the *current panel membership* section but isn't saved, not applied as a member or anything until next steps.  
+It will refresh and then show that panel alphabetically as a column in the employee's current panel membership section. If you need to add membership (for this employee chart) to other panels, you can select another panel from the *add panel* drop-down and click Submit. The SUBMIT button only puts the selected panel into the *current panel membership* section but isn't saved, not applied as a member or anything until next steps.
 When done selecting the panel(s) the employee needs added to, you then checkmark each panel the employee should be in. Check off each panel the employee should belong in. Again, indicating membership in this manual method will put them in as explicit memberships.
 
 ![](../health-surveillance-panels-add-memberships-manually.assets/f847843758953e837f283abe7f5bd3c7.png)
 
-When you indicate an employee chart should be a member of a panel using the manual checkmark membership method from here, a CHANGE REASON box will appear.  
+When you indicate an employee chart should be a member of a panel using the manual checkmark membership method from here, a CHANGE REASON box will appear.
 This is where you type in the reason for changing or adding an employee to panels. The ‘change reason' field can be configured to be a required field on a system. Nothing is saved or applied until you click the SUBMIT button at the very bottom of the screen.
 
 ![](../health-surveillance-panels-add-memberships-manually.assets/0493f4a0b8780a97e4eb4825a641676e.png)

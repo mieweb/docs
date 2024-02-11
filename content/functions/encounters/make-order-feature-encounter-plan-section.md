@@ -7,9 +7,9 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-4The ‘plan' area of an encounter allows the physician/user to create orders for the patient. The below explains how a physician/user enters items into the plan area by using Make Order link or Create Order link in the plan area and how it renders a complete order to print/fax right from the encounters view. This forces the physician/user to create the order right from the encounter and eliminates having to go to unordered orders or the patient's chart to render the order that the physician created in the encounter. You can ask MIE to remove the list option completely and only use the Make / Create Order feature or have both options. Only the make / create order feature will create the order right there in the encounter though. Using the Create xx Order link bypasses the unordered orders and inserts the order as a document directly into the patient's chart. If using the list link or auto-complete fields in the plan orders area, it creates an unordered order (see other help documentation titled *Encounters Plan Section-Unordered Orders.pdf*).  
+4The ‘plan' area of an encounter allows the physician/user to create orders for the patient. The below explains how a physician/user enters items into the plan area by using Make Order link or Create Order link in the plan area and how it renders a complete order to print/fax right from the encounters view. This forces the physician/user to create the order right from the encounter and eliminates having to go to unordered orders or the patient's chart to render the order that the physician created in the encounter. You can ask MIE to remove the list option completely and only use the Make / Create Order feature or have both options. Only the make / create order feature will create the order right there in the encounter though. Using the Create xx Order link bypasses the unordered orders and inserts the order as a document directly into the patient's chart. If using the list link or auto-complete fields in the plan orders area, it creates an unordered order (see other help documentation titled *Encounters Plan Section-Unordered Orders.pdf*).
 If the user/physician uses list (and not make / create order) or the auto-complete fields in the plan area, it creates an unordered order which the front/check out staff uses to create the orders before the patient leaves. See separate help documentation named *Encounters Plan Section-Unordered Orders.pdf* for this workflow option.
 
 ## Make Order Link/Create Order Link
@@ -23,7 +23,7 @@ Your plan section in encounters can be programmed to have a Make Order feature l
 
 ![](../make-order-feature-encounter-plan-section.assets/b38cb49aaffa5e72b3151ba980e04228.png)
 
-To create an order in the plan section, the user must **first click Make / Create xxx Order** link from the specific category they want to make an order from. If you click list first and check-mark items—it will render it as an unordered order (see separate help documentation). You can have the ‘list' links removed to force creation of order from encounter.  
+To create an order in the plan section, the user must **first click Make / Create xxx Order** link from the specific category they want to make an order from. If you click list first and check-mark items—it will render it as an unordered order (see separate help documentation). You can have the ‘list' links removed to force creation of order from encounter.
 To make an order right from the encounter, click Make / Create Order first in the specific section. When you click Make / Create xxx Order, it will open up the *Start Order Request* dialogue screen.
 
 ![](../make-order-feature-encounter-plan-section.assets/59b106a96c146af4c5a7b3d83a24b80c.png)
@@ -54,7 +54,7 @@ Above or at the bottom there are function buttons. Click "REQUEST ORDERS" button
 
 ![](../make-order-feature-encounter-plan-section.assets/507eaf21cb948a6a1840c945c6aff834.png)
 
-You can toggle between order sets to checkmark orders from various order set's (ex: Lab, Imaging, etc) all at once and make it **one** order document instead of separate. There is the ability to switch picklists in the encounter order which is controlled by a dropdown containing all the order picklists in the system.  
+You can toggle between order sets to checkmark orders from various order set's (ex: Lab, Imaging, etc) all at once and make it **one** order document instead of separate. There is the ability to switch picklists in the encounter order which is controlled by a dropdown containing all the order picklists in the system.
 The last picklist visited before clicking the "Request Orders" button will be the name of the order document that it will store as, regardless of whether any orders were chosen on that last picklist or not. The user can choose which picklist is recorded by visiting that picklist (or returning to it) before clicking the "Request Orders" button. There is a help bubble explaining this next to the *set name* field also for additional help. Again, this gives ability to mark orders across various order sets but will store it as one order document – as the name of the last set name (picklist) you were in.
 
 ![](../make-order-feature-encounter-plan-section.assets/6366f1fc534919779b2ec474800a4b12.png)

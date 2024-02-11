@@ -15,30 +15,30 @@ links:
   - '../../functions/injection-immunization-management/injection-tab-with-chirp-interface.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45'
 source: 'https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
 * <strong>Injection/Immunization Module Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>MAR/Injections Chart Tab</strong>
-   * <strong>Documenting Links</strong>
-   * <strong>Summary List Categories</strong>
-   * <strong>Visit Encounter</strong>
-   * <strong>VIS Handouts</strong>
-   * <strong>Mass Injection Program</strong>
+  * <strong>Documenting Links</strong>
+  * <strong>Summary List Categories</strong>
+  * <strong>Visit Encounter</strong>
+  * <strong>VIS Handouts</strong>
+  * <strong>Mass Injection Program</strong>
 * <strong>System Configuration</strong>
-   * <strong>Injection Editor</strong>
-   * <strong>System Settings</strong>
-   * <strong>Mass Injection Program</strong>
-   * <strong>Interface to Registry</strong>
-   * <strong>Security Permissions</strong>
+  * <strong>Injection Editor</strong>
+  * <strong>System Settings</strong>
+  * <strong>Mass Injection Program</strong>
+  * <strong>Interface to Registry</strong>
+  * <strong>Security Permissions</strong>
 * <strong>Resources</strong>
 
 ## Overview
 
 The Injection/Immunization module is a tool that helps clinicians forecast, track, and manage historical or current immunizations, therapeutic injections or allergy injections/vials, as well as document injection administrations. Automated email notifications remind patients of future immunizations, where they can then access the portal to self-schedule any needed appointments. Patients may also access their immunization records from the portal.  
-Additionally, the {{% system-name %}} system allows for administering large quantities of immunizations for high-volume vaccination programs, or events, such as flu vaccine promotion events. This mass injection program features a means to easily document injections for large groups of people, seamless integration with an optional Inventory module, as well as access to Vaccine Information Handouts through the integrated CDC VIS Website.  
+Additionally, the {{% system-name %}} system allows for administering large quantities of immunizations for high-volume vaccination programs, or events, such as flu vaccine promotion events. This mass injection program features a means to easily document injections for large groups of people, seamless integration with an optional Inventory module, as well as access to Vaccine Information Handouts through the integrated CDC VIS Website.
 Standard functionality includes:
 * Track and manage historical/current immunizations.
 * Seamless integration with inventory functionality, including autocomplete information from inventory tracking, such as lot and manufacturer.
@@ -69,17 +69,17 @@ The **Add Inj/Imm** link allows users to add injections/immunizations, upon admi
 
 #### Add Vials
 
-The **Add Vials** link is a feature designed to allow vials to be added to the system and administered from. This is often used for allergy injections. After clicking the Add Vials link, the page will load, where multiple vials can be added by simply providing the name, vial contents, strength, and necessary dates. Simply enter the information, and click the **Add** button.  
+The **Add Vials** link is a feature designed to allow vials to be added to the system and administered from. This is often used for allergy injections. After clicking the Add Vials link, the page will load, where multiple vials can be added by simply providing the name, vial contents, strength, and necessary dates. Simply enter the information, and click the **Add** button.
 Once the vials have been entered, the user will be taken back to the immunization/injection summary screen. Here, users can then start administering injections from the vials entered.
 
 #### Inj/Imm List
 
-Clicking the **Inj/Imm List** link will load the same screen as when the MAR/Injections chart tab is accessed. This screen provides a complete, active summary list of injections and immunizations for the chart in context. By default the screen loads twenty (20) items per section. There is a System Setting (E-Chart, Injections, Listview limit per page) that triggers more or less entries to populate and show, based on the specified setting. This can be set to any specific number, to show how many entries will display at a time. Setting it to zero (0) will cause the lists to show all entries and not be limited.  
+Clicking the **Inj/Imm List** link will load the same screen as when the MAR/Injections chart tab is accessed. This screen provides a complete, active summary list of injections and immunizations for the chart in context. By default the screen loads twenty (20) items per section. There is a System Setting (E-Chart, Injections, Listview limit per page) that triggers more or less entries to populate and show, based on the specified setting. This can be set to any specific number, to show how many entries will display at a time. Setting it to zero (0) will cause the lists to show all entries and not be limited.
 For more information about injections, adding vials, and the injection tab, generally, review the [Injection Tab](../../functions/injection-immunization-management/injection-tab.md) and [Vials](../../functions/injection-immunization-management/injection-tab-vials.md) documentation.
 
 ### Summary List Categories
 
-The Injection/Immunization chart tab allows clinicians to review and maintain any immunization records, recorded injections/immunizations, as well as any active vials or ongoing medication administrations. To easily navigate the information, when in the Injection/Immunization chart tab, the summary list displays three categories: Medication Administration, Immunizations, and Vials. Each of these categories allow for specific functionality and behaviors, to foster improved efficiency and better patient care.  
+The Injection/Immunization chart tab allows clinicians to review and maintain any immunization records, recorded injections/immunizations, as well as any active vials or ongoing medication administrations. To easily navigate the information, when in the Injection/Immunization chart tab, the summary list displays three categories: Medication Administration, Immunizations, and Vials. Each of these categories allow for specific functionality and behaviors, to foster improved efficiency and better patient care.
 For additional information regarding the Injection/Immunization module, its various categories, and its general features, see the [Injection/Immunization Management](../../functions/injection-immunization-management.md) index.
 
 ### Visit Encounter
@@ -88,7 +88,7 @@ Historical injections can also be documented when working in a visit encounter b
 
 ### Vaccine Information Statement (VIS) Handouts
 
-As a means to streamline providing injections and educating patients accordingly, {{% system-name %}} has incorporated a direct link to the CDC VIS website. This allows the informational materials to be readily available at the time of the injection. Additionally, not only can multiple VIS handouts be provided at once, but once the handout has been given to the patient, this can be recorded and retained within the chart.  
+As a means to streamline providing injections and educating patients accordingly, {{% system-name %}} has incorporated a direct link to the CDC VIS website. This allows the informational materials to be readily available at the time of the injection. Additionally, not only can multiple VIS handouts be provided at once, but once the handout has been given to the patient, this can be recorded and retained within the chart.
 When an injection is administered and while documenting the data, when the VIS Handouts link is clicked, the Immunization Action Coalition's website will load, with the option to select alternative languages. There is an extensive index of both vaccinations and languages, to easily address many patient needs. For those clients using multilingual systems, {{% system-name %}} checks against the language preference system setting and opens the corresponding page, as appropriate.
 
 ### Mass Injection Program

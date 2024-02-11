@@ -90,15 +90,15 @@ links:
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-context-help'
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all'
 source: 'https://drive.google.com/open?id=1KUzYPujy6FRjGnKxGhV2JxkonNssifccodK6J5eCDMQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-**Medical Informatics Engineering, Inc. Accessibility Conformance Report**   
-**WCAG Edition**  
-**(Based on VPAT**®** Version 2.4)**  
-**Name of Product/Version:** [**WebChart EHR Patient Portal**](../../../_index.md)  
-**Report Date: Sep 9, 2021**  
-**Product Description:** [**WebChart Patient Portal**](../../../functions/portal-management.md)  
-**Notes: This document only applies to the Employer Portal of** [**WebChart**](../../../_index.md)**.  A separate template has been completed for the public web-facing components.**  
+**Medical Informatics Engineering, Inc. Accessibility Conformance Report** 
+**WCAG Edition**
+**(Based on VPAT**®** Version 2.4)**
+**Name of Product/Version:** [**WebChart EHR Patient Portal**](../../../_index.md)
+**Report Date: Sep 9, 2021**
+**Product Description:** [**WebChart Patient Portal**](../../../functions/portal-management.md)
+**Notes: This document only applies to the Employer Portal of** [**WebChart**](../../../_index.md)**.  A separate template has been completed for the public web-facing components.**
 **Evaluation Methods Used:** 
 * Testing is based on general product knowledge
 * Testing is based on similarity to other evaluated products (Webchart EHR - Patient and Agency Portal)
@@ -126,7 +126,7 @@ Level AAA - Yes</td>
 </tr>
 
 </table>
-**Terms**  
+**Terms**
 The terms used in the Conformance Level information are defined as follows:
 * <strong>Supports</strong>: The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.
 * <strong>Partially Supports</strong>: Some functionality of the product does not meet the criterion.
@@ -134,7 +134,7 @@ The terms used in the Conformance Level information are defined as follows:
 * <strong>Not Applicable</strong>: The criterion is not relevant to the product.
 * <strong>Not Evaluated</strong>: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
 
-**WCAG 2.1 Report**  
+**WCAG 2.1 Report**
 Note: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the[ ](https://www.w3.org/TR/WCAG20/#conformance-reqs)[WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
 
 **Table 1: Success Criteria, Level A**  

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1jTjf5dzqvReObpzAIGWWv94YQnJVu8EE45xUmPdU-rg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Removing employees from employer organizations leaves the patient chart in the system but removes the link between the employer organization and the chart.
 1. [Find the employer organization](finding-employer-organizations.md) from which to remove an employee.
@@ -22,7 +22,7 @@ Removing employees from employer organizations leaves the patient chart in the s
 
    <img src="../removing-employees-from-employer-organizations.assets/2d004c35c0dd650952dc78f42539b996.png" />
 
-4. For the employee to remove from the employer organization, in the <em>Options</em> column, select the <strong>Delete</strong> button. The system displays the employee's name struck out and the <em>Unlink</em>  
-    checkbox as checked. <img src="../removing-employees-from-employer-organizations.assets/cfbadc44d47527a7d0144c4e9dd28af2.png" />
+4. For the employee to remove from the employer organization, in the <em>Options</em> column, select the <strong>Delete</strong> button. The system displays the employee's name struck out and the <em>Unlink</em>
+ checkbox as checked. <img src="../removing-employees-from-employer-organizations.assets/cfbadc44d47527a7d0144c4e9dd28af2.png" />
 
 5. Select the <strong>Next</strong> button. The system removes the employee from the employer organization.

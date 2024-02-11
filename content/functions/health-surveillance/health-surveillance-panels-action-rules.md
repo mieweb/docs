@@ -7,9 +7,9 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-Users must have security access to be in Health Surveillance Management control tab.  
+Users must have security access to be in Health Surveillance Management control tab.
 On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 
 ![](../health-surveillance-panels-action-rules.assets/8559017c3985006ba5394aa58ece891b.png)
@@ -19,7 +19,7 @@ The listing of current Panels will display on the screen under the Panel Search 
 ## Action Rules
 
 Within the Health Surveillance tab, there is an option Action Rules available on the top right corner as a hyperlink.  
-Upon clicking into Action Rules, it will list any current, existing indication or contraindication rules (aka Action Rules) programmed in your system towards the top. There is also a link to *show inactive* indication and contraindication rules in your system. You can edit contraindication or indication rules here also via the Edit button provided.  
+Upon clicking into Action Rules, it will list any current, existing indication or contraindication rules (aka Action Rules) programmed in your system towards the top. There is also a link to *show inactive* indication and contraindication rules in your system. You can edit contraindication or indication rules here also via the Edit button provided.
 In Panel Actions of a panel, there is an option to select an **Indication Rule** where it can have a drop-down set to any action rule found in ‘Action Rules' hyperlink module which must evaluate to be ‘true' in order for this specific panel action (that you are adding to the panel) to trigger for an employee. ‘Action Rules' are configured by an MIE Developer and you would contact your MIE Implementer with the action rule criteria you need for your system panel(s).  An example of an action rule is to only trigger this action item (procedure) on an employee if they are part of department xxx or another example is an action rule configured in the system that can be applied to this specific action (procedure) in this panel that only would trigger a Hep 3^rd injection action (procedure) on an employee in this panel if they've had their 2^nd Hepatitis injection given with a date in last 8 weeks. Or another scenario example is to only trigger a panel action item if the patient is female gender.
 
 ![](../health-surveillance-panels-action-rules.assets/cad621c00165433a3fffca5a29f341b4.png)
@@ -44,12 +44,12 @@ Here within the Action Panels screen, you can test action rules (indication and 
 ![](../health-surveillance-panels-action-rules.assets/fe5140f16bbc3ee95d9768ce0fc4c6eb.png)
 
 A simple example: Criteria for an action rule is the panel member must be Female. *Note: Typically Actions Rules would be used to trigger more complex rules outside of gender or age, since we already include age and gender in the panel action definition. Actions rules help define specific sets or sub-sets of panel members, like triggering certain rules for only those panel members who live in another country or perhaps for those have an observation of (for example) HGBA1C.*  
-In the action rules screen, you can click "edit" to test on an existing action rule already programmed in the system, or while adding/programming an action rule, you can utilize the TEST feature to test before adding or editing further scripts.  
+In the action rules screen, you can click "edit" to test on an existing action rule already programmed in the system, or while adding/programming an action rule, you can utilize the TEST feature to test before adding or editing further scripts.
 You must have the action rule pulled up or programmed in if getting ready to add a new action rule. Then click on the TEST button for the field option of an auto-complete to display to choose a patient/employee to test the rule against.
 
 ![](../health-surveillance-panels-action-rules.assets/8821f7f6dfa95d569dc47598055094ed.png)
 
-The test rule result will return a **result** of True or False and will further result more information on how the action will behave if used as an indication or contraindication rule using this specific patient/employee as an example.  
+The test rule result will return a **result** of True or False and will further result more information on how the action will behave if used as an indication or contraindication rule using this specific patient/employee as an example.
 Example of true result (patient is a female in our simple example):
 
 ![](../health-surveillance-panels-action-rules.assets/0ab0100cd8e7c92b20d680e551ec33ed.png)
@@ -61,7 +61,7 @@ Example of a false result (patient is not a female in our simple example):
 
 ### Add an Action Rule
 
-If you wish to add the action rule you entered in and tested, simply click the ADD button and you can continue to add another action rule to the system. It is different programming language, so Action Rules' are configured by an MIE Developer and you would provide your MIE Implementer the criteria. After being added, it will list that newly added action rule on the screen listedit above.  
+If you wish to add the action rule you entered in and tested, simply click the ADD button and you can continue to add another action rule to the system. It is different programming language, so Action Rules' are configured by an MIE Developer and you would provide your MIE Implementer the criteria. After being added, it will list that newly added action rule on the screen listedit above.
 When you are done entering in Action Rules for your system (which show up as contraindication or indication rule choices in panel action setup), click the SUBMIT button. If you do not click the submit button, it will not save your work to the system.
 
 ![](../health-surveillance-panels-action-rules.assets/8b267db8fee694b7c627d36b9f557690.png)

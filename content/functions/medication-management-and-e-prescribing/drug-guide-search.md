@@ -6,10 +6,10 @@ version: 36
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1yfB8xD-yey4VBd_Yzka0pkd_PGCMq8s9GmZHCCbZiLA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 {{% system-name %}} currently imports the First DataBank (FDB) update files on a weekly basis on Saturday mornings at 2 am. MIE then does a complete dump and reload of our databases based on these files. At the end of this process, we update a table in the database that keeps track of changes in the database. A nightly job on each of the client servers checks for updates in the database file, and updates the rxdb database on the server from our "home" version of the database if necessary.  
-We do not "message" after updates these updates. However, we do have a message on the Drug Guide that you can see what the version is. The Drug Guide Search feature is usually found in the sidemenu tab named References, however in your particular {{% system-name %}} system, it could be found in the Omniscope side tab or in the E-Chart tab. It is also found while prescribing in the e-meds module. Wherever your particular Drug Guide Search program is, when you get to that program you will see under the Drug Guide search field bar for example: **Drug database version: 2.400, last updated 2010-06-12 02:16:17**  
+We do not "message" after updates these updates. However, we do have a message on the Drug Guide that you can see what the version is. The Drug Guide Search feature is usually found in the sidemenu tab named References, however in your particular {{% system-name %}} system, it could be found in the Omniscope side tab or in the E-Chart tab. It is also found while prescribing in the e-meds module. Wherever your particular Drug Guide Search program is, when you get to that program you will see under the Drug Guide search field bar for example: **Drug database version: 2.400, last updated 2010-06-12 02:16:17**
 This shows the last time we have updated the Drug database (not the rxdb as a whole, it looks specifically only for updates called ‘FDB Update') on the server box the system is looking at. This mainly gives MIE information to make sure the client is getting the updates we are putting out in our "home" base version. If there is a problem with the home base version for some reason (even if this is up to date), this will have an issue, but MIE would be alerted internally that there is an issue with the mainline not getting updated properly.
 
 ![](../drug-guide-search.assets/f20e8ca2fd6c1fd4cdf5c6ff63a3b5a5.png)
@@ -36,7 +36,7 @@ Once you are in the Drug Guide Search program, there are search criteria fields 
 
 ![](../drug-guide-search.assets/93f64eb009f302d14003308112effef6.png)
 
-Once you have your search criteria set in the above fields, click the SEARCH button. It will show any possible matches on your screen for you to select that match the search criteria you set. If you searched for something more specific and there was only one match, it will open your screen right to that drug and guide information.  
+Once you have your search criteria set in the above fields, click the SEARCH button. It will show any possible matches on your screen for you to select that match the search criteria you set. If you searched for something more specific and there was only one match, it will open your screen right to that drug and guide information.
 The Drug Guide for the drug found is a lengthy document that shows various details of that drug when you scroll down the page.
 
 ![](../drug-guide-search.assets/057927465746bb54455596a4727926a5.png)

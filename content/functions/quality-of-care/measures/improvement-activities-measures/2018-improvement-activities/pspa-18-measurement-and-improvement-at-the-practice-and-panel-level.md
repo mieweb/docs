@@ -10,14 +10,14 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1aYCBEvN-Vdk7ZgWv7OkCCTOnJkiGpXbKTfVjnjOsaFo'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: Medium  
-**Subcategory Name**: Patient Safety and Practice Assessment  
+**Activity Weighting**: Medium
+**Subcategory Name**: Patient Safety and Practice Assessment
 **Description**: Measure and improve quality at the practice and panel level, such as the American Board of Orthopaedic Surgery (ABOS) Physician Scorecards, that could include one or more of the following:
 * Regularly review measures of quality, utilization, patient satisfaction and other measures that may be useful at the practice level and at the level of the care team or MIPS eligible clinician or group (panel); and/or 
 * Use relevant data sources to create benchmarks and goals for performance at the practice level and panel level.
@@ -32,8 +32,8 @@ Supporting Documentation
 
 
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+Resources
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 [2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

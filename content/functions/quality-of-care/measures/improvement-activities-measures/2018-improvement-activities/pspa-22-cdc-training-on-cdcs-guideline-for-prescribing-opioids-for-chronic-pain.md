@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1OhBnjNN2Prb5XVOBzBxm9qiYmJt67po4lJS7M7Lj7rc'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: High  
+**Activity Weighting**: High
 **Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: Completion of all the modules of the Centers for Disease Control and Prevention (CDC) course "Applying CDC's Guideline for Prescribing Opioids" that reviews the 2016** Guideline for Prescribing Opioids for Chronic Pain**.  
 {{% note %}}

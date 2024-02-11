@@ -11,7 +11,7 @@ links:
   - 'https://www.topazsystems.com/sdks/sigweb.html'
   - 'https://docs.webchartnow.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/'
 source: 'https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 {{% system-name %}} interoperates with Topaz Signature Pad Devices.  In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and installed using the Topaz software, [SigPlus](https://www.sigpluspro.com/sigplus.html) or [SigPlus BSB](https://www.sigpluspro.com/sigplus-bsb.html) and [SigWeb](https://www.topazsystems.com/sdks/sigweb.html).
 
@@ -41,7 +41,7 @@ The patient would use the electronic device to pen their signature on the pad us
 
 ![](../signature-pad-device.assets/12bc33dfd5c4721e6326cbdfc860d6b6.png)
 
-When the patient is done signing, they will click the OK button on the device pad.  
+When the patient is done signing, they will click the OK button on the device pad.
 The signature is captured and considered complete.  If the patient forgot to do this, the clinician or administrative user can click the *Save Signature* button on the {{% system-name %}} screen to save/upload it.
 
 ![](../signature-pad-device.assets/3658b26c92ab409305e4afcab63421ea.png)

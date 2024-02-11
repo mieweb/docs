@@ -28,7 +28,7 @@ links:
   - '../../encounters/working-in-a-legacy-encounter.md'
   - '../../encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Bubble forms are document type templates with special formatting (i.e., optical marks) allowing for documented data to be collected and stored discretely, as observations, within {{% system-name %}} . This is achieved through standard optical mark recognition (OMR), which is most well known through scantron use and standardized testing. When a bubble form is filled out, scanned, and indexed into the {{% system-name %}} system, the optical marks are detected and coded as observations.
 
@@ -76,7 +76,7 @@ If a device or interface type is not represented, above, please reach out to our
 
 ### Add to Encounter
 
-If preferred, adding result data into the system can be performed manually by entering the information directly into an encounter. This option can be performed in various ways, particularly from the Tests & Procedures section of the encounter.  
+If preferred, adding result data into the system can be performed manually by entering the information directly into an encounter. This option can be performed in various ways, particularly from the Tests & Procedures section of the encounter.
 Once in the **Tests & Procedures** section of the encounter, a search can be performed using the autocomplete field and adding the necessary test/procedure to the exam visit. Otherwise, the test/procedure can be selected from the **Due List** and added to the exam visit; or what is more, the test/procedure can be added by using the **Picklist** option, where it can be selected from a predefined list of choices. For more information, see the [General Encounter](../../encounters/working-in-a-legacy-encounter.md) and [Dynamic Encounter](../../encounters/working-in-a-visit-encounter.md) documentation.
 
 ## Reporting

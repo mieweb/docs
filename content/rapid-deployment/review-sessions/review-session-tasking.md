@@ -23,28 +23,28 @@ links:
   - '../../functions/reports/task-report.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=7cae93a5fb5435af1677ba54618fcc37'
 source: 'https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
 * <strong>Task List Module Demonstration</strong>
 * <strong>Tasking Overview</strong>
 * <strong>Task List Module</strong>
-   * <strong>Your Task List</strong>
-   * <strong>Delegated</strong>
-   * <strong>Fast Tasks</strong>
+  * <strong>Your Task List</strong>
+  * <strong>Delegated</strong>
+  * <strong>Fast Tasks</strong>
       * <strong>Phone Notes</strong>
-   * <strong>Tasklist Events</strong>
-   * <strong>Task Search</strong>
+  * <strong>Tasklist Events</strong>
+  * <strong>Task Search</strong>
 * <strong>Reporting</strong>
 * <strong>System Configuration</strong>
-   * <strong>Fast Task Templates</strong>
-   * <strong>Tasklist Event Rules</strong>
+  * <strong>Fast Task Templates</strong>
+  * <strong>Tasklist Event Rules</strong>
 * <strong>Resources</strong>
 
 ## Overview
 
-Tasking creates electronic to-do lists to streamline everyday tasks. The Task List module promotes workflow efficiency and timely task completion through the use of priority ratings on tasks, along with overdue notices and reminder dates, which flag tasks requiring attention. There are two types of tasks–**Generic** and **Fast Tasks**. *Generic* tasks are not templated and are not classified in a specific category or type of task. *Fast Tasks*, on the other hand, are categorized tasks that are usually pre-templated and assigned to a specific individual or department for completion. Fast tasks save users from having to regularly key in the same information for repetitive tasks. Configuration of Fast Task templates and automated task business rules is available as an add-on configuration, if interested.  
+Tasking creates electronic to-do lists to streamline everyday tasks. The Task List module promotes workflow efficiency and timely task completion through the use of priority ratings on tasks, along with overdue notices and reminder dates, which flag tasks requiring attention. There are two types of tasks–**Generic** and **Fast Tasks**. *Generic* tasks are not templated and are not classified in a specific category or type of task. *Fast Tasks*, on the other hand, are categorized tasks that are usually pre-templated and assigned to a specific individual or department for completion. Fast tasks save users from having to regularly key in the same information for repetitive tasks. Configuration of Fast Task templates and automated task business rules is available as an add-on configuration, if interested.
 Standard functionality of the Task List module includes:
 * Pre-loaded, standard task templates
 * Task alerts and reminders, including high-priority distinction

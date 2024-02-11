@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=16dkT5HTGBKqQJY8eXoZI0y8ko3JqgUPpMkSeSMHJvZ8'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: Medium  
+**Activity Weighting**: Medium
 **Subcategory Name**: Population Management  
 **Description**: Engaging community health workers to provide a comprehensive link to community resources through family-based services focusing on success in health, education, and self-sufficiency. This activity supports individual MIPS eligible clinicians or groups that coordinate with primary care and other clinicians, engage and support patients, use of health information technology, and employ quality measurement and improvement processes. An example of this community based program is the NCQA Patient-Centered Connected Care (PCCC) Recognition Program or other such programs that meet these criteria.
 

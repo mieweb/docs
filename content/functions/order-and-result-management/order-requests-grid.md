@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=199nDYD4Cbf7b43xTuYJNIEVtTkRYV9TVPWdD6JKZQnQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Order Requests
 
@@ -18,17 +18,17 @@ To view recent orders (existing orders) that the patient has had created/ordered
 This will then show below any completed orders, standing orders, and pending orders for the patient in various buckets. There is also a search tool to search orders on this patient to render limited results.  
 From this summary screen (of completed, standing, pending orders), you can edit, print, or complete an existing order request.  
 The Pending Orders and Standing Orders lists are ordered by "Requested" beginning with the most recent. Additionally, all Orders lists now use the list view remember capability so that when a user makes a change to the order in that listview, that preferred order will be stored for that user and will be consulted next time that listview is rendered  
-To search for a specific existing order, you can use the search engine at the top. These fields help to narrow down your search. You don't have to select in each search field, unless you know the specific information/fields you are looking/narrowing to. Clicking CLEAR underneath the search fields will clear the search fields for you to start over.  
+To search for a specific existing order, you can use the search engine at the top. These fields help to narrow down your search. You don't have to select in each search field, unless you know the specific information/fields you are looking/narrowing to. Clicking CLEAR underneath the search fields will clear the search fields for you to start over.
 Once you have found your order that you are either searching for, or see on the Pending , Standing, Pending or Completed Orders sections, you can Edit, Print an existing order, or you can Complete a pending order request.
 
 ## Edit Orders
 
-You must have security permission to edit orders.  
+You must have security permission to edit orders.
 Click Edit next to an existing order request to edit it.
 
 ![](../order-requests-grid.assets/ba1840d904d4efaa56dc5967ff0a547d.png)
 
-Change/edit what you need to. If you need to change/edit/delete an order item (test), it will show all ‘current' tests ordered at the top, then you can click the [-] button to delete an order item, or check-mark an order item you need to add to this order, etc.  
+Change/edit what you need to. If you need to change/edit/delete an order item (test), it will show all ‘current' tests ordered at the top, then you can click the [-] button to delete an order item, or check-mark an order item you need to add to this order, etc.
 If you edit it, you would then need to click REQUEST ORDERS at the bottom of the screen after any changes, then if need to re-print it you can do so at that time. It will save the latest/edited version of this order.
 
 ![](../order-requests-grid.assets/114ba52e41e84aff3223afef33738508.png)
@@ -36,7 +36,7 @@ If you edit it, you would then need to click REQUEST ORDERS at the bottom of the
 
 ## Print Orders
 
-Click Print next to an existing order request to print it (or fax it via the print/fax module).  
+Click Print next to an existing order request to print it (or fax it via the print/fax module).
 It will take you to the print module and then X out of the print view/screen when done.
 
 ![](../order-requests-grid.assets/2e3f2723fec0224453afe1a603a3b4d9.png)
@@ -72,7 +72,7 @@ You must type in the date the orders were done, or pending or cancelled, comment
 
 ![](../order-requests-grid.assets/d6e30abc936d2e3ca72265b96c754f4d.png)
 
-Then click the COMPLETE button. It will then put this order in the completed section of the view.  
+Then click the COMPLETE button. It will then put this order in the completed section of the view.
 Then in the view of the closed order, it would show the items/orders and next to it the dates and times they were completed at the very bottom of the order document screen.
 
 ![](../order-requests-grid.assets/444c1f58e0d3781945d9238d0096c509.png)
@@ -85,12 +85,12 @@ The check-mark boxes next to any order in the Order Requests screen is a way to 
 
 ![](../order-requests-grid.assets/074180bca4bde084bfe98424c2c474bf.png)
 
-Simply check-mark the box of the order(s) that you want to select, and then at the bottom of the specific grid section you are in, then use the drop-down to select the ‘category' you wish to (in mass) set these order requests as. Then click the button "*Change Order Category"* and it will render the selected order requests to be the category you selected it to be set as.  
+Simply check-mark the box of the order(s) that you want to select, and then at the bottom of the specific grid section you are in, then use the drop-down to select the ‘category' you wish to (in mass) set these order requests as. Then click the button "*Change Order Category"* and it will render the selected order requests to be the category you selected it to be set as.
 You can complete the entire order or mark certain order items as complete.
 
 ![](../order-requests-grid.assets/b822dd53fbd5c665173ca814243a6b3a.png)
 
-Selecting the *Completed* category does not complete the order. It just sets the order as the completed category, but keeps the order request in the ‘pending order requests' grid section. You must still go through the complete link to set the order items within the request to completed.  
+Selecting the *Completed* category does not complete the order. It just sets the order as the completed category, but keeps the order request in the ‘pending order requests' grid section. You must still go through the complete link to set the order items within the request to completed.
 You can view the category a specific order is set to by viewing the category column.
 
 ![](../order-requests-grid.assets/6ee3e6ddd26dbcf848256d4da3d9ea72.png)
@@ -107,8 +107,8 @@ This is ability to complete an order request and document the results within a R
 * Encounter Info
 * Case (so that the encounter can be linked to a specific case/incident)
 * Results
-   * one section for each pending order_item from the pending order request
-   * Incomplete orders & completed orders sections
+  * one section for each pending order_item from the pending order request
+  * Incomplete orders & completed orders sections
 The contents of these sections are determined by the layout name field in each order item.
 * If the name of the order is the same as the name of a flowsheet and the layout is  "Obs Procedure", that flowsheet will be displayed
 * if the name of the order does NOT match the name of a flowsheet, the order's layout will be displayed if the order has a layout, otherwise the "Generic Order" layout will be used
@@ -121,12 +121,12 @@ Click on the title section of an order item you wish to result to expand the sec
 
 ![](../order-requests-grid.assets/dedd3b7d2284edc7aa32d644a18b53e5.png)
 
-First, make sure to checkmark the *completed* box if this order is complete (or any other specific checkbox). The *complete* status checkbox marks the order as complete in the system in various places. However, checking anything else or not checking any of the boxes at the top will leave the order "In progress".  
+First, make sure to checkmark the *completed* box if this order is complete (or any other specific checkbox). The *complete* status checkbox marks the order as complete in the system in various places. However, checking anything else or not checking any of the boxes at the top will leave the order "In progress".
 Key in/enter a result for the order item, and click the *NEXT* button.
 
 ![](../order-requests-grid.assets/0d3c21b91d0932abe5c768a756cabfdb.png)
 
-If you had more order item sections on the "results" encounter, the next order item section would expand open.  
+If you had more order item sections on the "results" encounter, the next order item section would expand open.
 In this example, I have an order whose name is the same as a flow sheet, and the layout is Obs Procedure, so we display this flowsheet that is linked/named the same as the order item.
 
 ![](../order-requests-grid.assets/edcbe1fc2546ebd90aa1b7cec6db703f.png)
@@ -139,13 +139,13 @@ In this example, I have a PFT which is an order item tied to a specific layout, 
 
 ![](../order-requests-grid.assets/7ea7f2edcab6c4190117407649878d31.png)
 
-Deleting an encounter order section from a Results encounter marks the corresponding order item on the order request as "pending", unlinks the encounter order from it, and revisions the order_request.  
+Deleting an encounter order section from a Results encounter marks the corresponding order item on the order request as "pending", unlinks the encounter order from it, and revisions the order_request.
 Archive & close the encounter when done resulting. The Results encounter will then store a document as the doc.type "Results" in the chart. It also stores a separate document named "Lab Results" in the chart based on the order item results you keyed in. This is an example of the "view" of the encounter document:
 
 ![](../order-requests-grid.assets/8ba74906a1b45b4b57a392846950ba04.png)
 
 At this point, if you go back to view recent in E-Orders chart tab, all the items on the order request that you marked as *completed* will show status of ‘completed' and the order items within the order request itself also get marked "Completed".  
-Deleting an encounter order section from a Results encounter marks the corresponding order item on the order request as "pending", unlinks the encounter order from it, and revisions the order_request.  
+Deleting an encounter order section from a Results encounter marks the corresponding order item on the order request as "pending", unlinks the encounter order from it, and revisions the order_request.
 Clicking on the View Results hyperlink, in the options column of the completed order(s), you will open up to the Lab Results document this encounter created.
 
 ![](../order-requests-grid.assets/ee7a86d548ed0f576e73bb2217471881.png)

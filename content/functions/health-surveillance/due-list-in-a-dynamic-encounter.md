@@ -6,7 +6,7 @@ version: 54
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NHVGEeKbx_wGt0Y8K3WXwos-rv3dRUg4Ev6n7tdTD1Y'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Plan Orders can be entered using encounters and allows a user to enter in a due date (order should be status *pending)* which will stay on the patient's Due List until it's marked as completed (this would be for tests not included in the Health Surveillance panels if an {{% sys-name %}} practice).
 
@@ -16,7 +16,7 @@ Items (tests or procedures) that are "due" (pending) are then displayed as a sec
 
 ## Due List
 
-The Due List is viewable in an encounter exam section/stage named *Tests & Procedures*.  
+The Due List is viewable in an encounter exam section/stage named *Tests & Procedures*.
 If the HS Panel (that any pending due list items are tied to) has any comments (on the panel level), those will display in the *Health Surveillance Comments* section of the encounter above the Tests & Procedures section. These are panel level comments. These comments pertain to the entire HS Panel (if applicable) that pending due list items are related to. Superusers can update HS Panel comments by going to Health Surveillance tab, editing the panel and updating/setting the comments field on the HS Panel level.
 
 ![](../due-list-in-a-dynamic-encounter.assets/9706590f8a103649976c829ff46b080f.png)
@@ -41,7 +41,7 @@ You can also drag and drop a column name and place it into the table header to g
 
 ![](../due-list-in-a-dynamic-encounter.assets/365c030ab87d1e0f45e83a508da5e4fb.png)
 
-When you drag & drop to arrange, the system will remember this. Therefore, future encounters, due lists, patient's that you work in; the due list will be displayed in that arrangement.  
+When you drag & drop to arrange, the system will remember this. Therefore, future encounters, due lists, patient's that you work in; the due list will be displayed in that arrangement.
 Select orders to process using the checkbox, then click the appropriate button below the table. See below help documentation on what each checkbox process does.
 
 ![](../due-list-in-a-dynamic-encounter.assets/44c9505ac13ee28ca9252d23ef2af2e7.png)
@@ -61,7 +61,7 @@ The encounter screen will refresh and the order will be marked as "completed" an
 
 ### Add to Exam
 
-At the end of any visit, any pending items on the Due List that were performed at today's visit must have results documented on the encounter and marked completed. This is especially important for Surveillance tests as some actions are triggered off the last test date. Any tests completed should be marked off as "completed".  
+At the end of any visit, any pending items on the Due List that were performed at today's visit must have results documented on the encounter and marked completed. This is especially important for Surveillance tests as some actions are triggered off the last test date. Any tests completed should be marked off as "completed".
 You can easily click the *plus* icon to apply a pending due list item to the visit encounter to mark completed & result.
 
 ![](../due-list-in-a-dynamic-encounter.assets/02c294d72f90815d74a942411d3023cc.png)
@@ -70,7 +70,7 @@ You can also apply a pending due list item to the visit encounter to mark comple
 
 ![](../due-list-in-a-dynamic-encounter.assets/e3e46356359f44459f28ff1bac76fda9.png)
 
-Below the Due List section you are working in, you will now see individual title sections named the specific order items/procedure items you marked to be added to this exam to be performed and resulted on the patient/employee today during today's visit.  
+Below the Due List section you are working in, you will now see individual title sections named the specific order items/procedure items you marked to be added to this exam to be performed and resulted on the patient/employee today during today's visit.
 In this screen shot example, I clicked the *add to exam* link for the Chest w/Contrast MRI order item. I am performing (performed) the Chest MRI in-house during the patient's visit. So you will see that order item has been taken off the tests/procedures due list of pending items that is due and has placed it as its own section in the encounter and is marked as status *in progress*. By clicking *Add to Exam* on those, I indicated I will be performing those on the patient/employee at today's encounter (or resulting these today) and applied those procedures to be part of the encounter for documenting, completing and resulting.
 
 ![](../due-list-in-a-dynamic-encounter.assets/2056102c0001924ac2e3ad5684e7f354.png)
@@ -83,7 +83,7 @@ To complete a procedure and result it within the encounter, simply click the spe
 
 ![](../due-list-in-a-dynamic-encounter.assets/0fbfb1e10f4b0368b3e2688bedc3f6ca.png)
 
-Once you click on the one you performed, it will expand the section to allow you to complete and type in the results. *Note: these are order items that can be programmed to open specific layouts and entry fields. Please contact your MIE Implementer if you need specific order items to expand to open specific data entry fields or device interface links or injectible data fields.* *Each procedure item can be set to it's own unique data entry layout fields to capture the data needed for resulting*. *When uploading a PFT or Audio test on a dynamic encounter the results will show up immediately instead of after the section is closed. PFT and Audio procedures will be marked as completed when a test is uploaded on an encounter.*  
+Once you click on the one you performed, it will expand the section to allow you to complete and type in the results. *Note: these are order items that can be programmed to open specific layouts and entry fields. Please contact your MIE Implementer if you need specific order items to expand to open specific data entry fields or device interface links or injectible data fields.* *Each procedure item can be set to it's own unique data entry layout fields to capture the data needed for resulting*. *When uploading a PFT or Audio test on a dynamic encounter the results will show up immediately instead of after the section is closed. PFT and Audio procedures will be marked as completed when a test is uploaded on an encounter.*
 Here is a screenshot example of where I clicked to expand to open the *Urine Dip* procedure item to key in my results and mark the order as complete. The layout this *Urine Dip* procedure item is linked to also allows for connection to a device where I could import results electronically also if desired.
 
 ![](../due-list-in-a-dynamic-encounter.assets/9bd391f28f0d16961bf52c83d8204106.png)
@@ -118,7 +118,7 @@ It will open up the E-Orders screen in a separate window. Here you will request 
 
 ## Add Additional Tests/Procedures to Result at Visit
 
-Additional tests/procedures can be added on the fly by expanding the Tests & Procedures encounter section. Using the auto-complete, one can key in additional test(s) to be added to the exam visit to be completed & resulted. After the test(s) have been keyed in using the auto-complete, click "Add to Exam" button and the encounter will display new sections that include those test(s) to mark completed & result within the encounter.  
+Additional tests/procedures can be added on the fly by expanding the Tests & Procedures encounter section. Using the auto-complete, one can key in additional test(s) to be added to the exam visit to be completed & resulted. After the test(s) have been keyed in using the auto-complete, click "Add to Exam" button and the encounter will display new sections that include those test(s) to mark completed & result within the encounter.
 One can also use the icon to access an order picklist named "In House Procedures" to select from and simply checkmark additional tests/procedures to apply to this encounter (then click ‘add procedures' button from that screen) to be performed & resulted.
 
 ![](../due-list-in-a-dynamic-encounter.assets/3acb8e7946075dac04cc0d6445dc0835.png)

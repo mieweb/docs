@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1vV9ZAwk3eHys6SHAKLCBXPZpgiiuyilqQHifr7OEPkk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 An alert comment is text which appears at the top of all screens about the employer organization, such as the employer organization overview tab, the ledger, and financial account overview.
 
@@ -18,8 +18,8 @@ You can change the text of the comment and more than one comment can appear at o
 1. [Find the employer organization](finding-employer-organizations.md) to which to add an alert.
 2. Select the <strong>Overview</strong> tab.
 3. At the top-right, select <strong>Add Document</strong>.
-4. In the <em>Add Documents</em> section, in the <em>All Types</em> section, to the right of <em>Alert Comment</em>, select <strong>Text</strong>. The <em>Add Document Properties</em>  
-    section appears.<img src="../adding-alert-comments-to-employer-organizations.assets/a5c6f5d5e690c8d054936d1dfc46341f.png" />
+4. In the <em>Add Documents</em> section, in the <em>All Types</em> section, to the right of <em>Alert Comment</em>, select <strong>Text</strong>. The <em>Add Document Properties</em>
+ section appears.<img src="../adding-alert-comments-to-employer-organizations.assets/a5c6f5d5e690c8d054936d1dfc46341f.png" />
 
 5. In the <em>Document Properties</em> section, in the large text area, type <strong>the text</strong> of the alert comment.
 6. Select the <strong>Add Document</strong> button. The alert comment appears at the top of the screen.

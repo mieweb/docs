@@ -7,16 +7,16 @@ lastAuthor: 'June Matzke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Click *E-Chart* on the left sidebar menu.  
-Click *Document Queue* tab at the top.  
+Click *Document Queue* tab at the top.
 The Document Queue only shows patients that are marked as temporary. In the QUEUE drop-down it will list each partition and will show the count to the right of how many patients are marked as temporary.
 
 ![](../document-queue-merging-imported-documents.assets/27612d02ebacbcf8dcde9027ed4bb1b1.png)
 
 The definition of temporary is a patient that comes across an interface that does not match in any existing partitions.  The criteria for the match is MR#, name, & dob.  
-So if just one of these stated criteria are met/matched it won't put the unmatched patient in the document queue it will just drop into E-Chart. It won't automatically merge to the existing account it will just go into E-Chart with its partition/mr#.  Please make sure you have a tasklist event setup to catch all incoming documents so they will be viewed.  
+So if just one of these stated criteria are met/matched it won't put the unmatched patient in the document queue it will just drop into E-Chart. It won't automatically merge to the existing account it will just go into E-Chart with its partition/mr#.  Please make sure you have a tasklist event setup to catch all incoming documents so they will be viewed.
 It's best to merge the 9 ratings first.
 * Queue: Use the drop-down arrow box to select the partition you want to merge a document from.
 * Min Rating: Change this to <strong>9</strong>. The higher the number, the more specific/closer the match.
@@ -43,12 +43,12 @@ Match ratings range from 0 through 9 with the higher rating being more certain i
 
 In the left box, it brings up a list of all the imported documents need to be merged for the patients. Click on the underlined MR# on the left side to work these individually and merge the document coming in, to a {{% system-name %}} account in your system (the right side).  
 The left side is the documents that came in. The right side is the {{% system-name %}} accounts side that you will merge them to.  
-The big box at the **bottom** is the actual document that is imported. Can look at this to determine which account to merge this to. The box on the **right** is the choices of accounts you can merge to that are automatically found as close matches. It shows the rating of the match also. The higher the rating (9) means most of the patient fields match and it's likely this is indeed the same patient to merge the document to.  
+The big box at the **bottom** is the actual document that is imported. Can look at this to determine which account to merge this to. The box on the **right** is the choices of accounts you can merge to that are automatically found as close matches. It shows the rating of the match also. The higher the rating (9) means most of the patient fields match and it's likely this is indeed the same patient to merge the document to.
 The system may not automatically find good choices of matches. In that case, you should always do a manual search just to make sure that patient doesn't exist in your system to merge to. You can also use the fields at the top of that right side to search for your own match (search by MR#, Name, SSN, DOB, Phone, Doc id) and do a manual search.
 
 ![](../document-queue-merging-imported-documents.assets/5840cbe96296b0e56b4b94e8d9723ee1.png)
 
-The system will try to find matching accounts for you to merge to on the right side. If you verify this is indeed the patient you want to merge the document to, you would click the **select** radio button to select that account to merge into. If you see Q-Merge that means *Quick Merge*. Instead of selecting the radio button for this patient, you can click Q-Merge to skip some merging steps. If wish to go thru all the merging steps, then select the radio button.  
+The system will try to find matching accounts for you to merge to on the right side. If you verify this is indeed the patient you want to merge the document to, you would click the **select** radio button to select that account to merge into. If you see Q-Merge that means *Quick Merge*. Instead of selecting the radio button for this patient, you can click Q-Merge to skip some merging steps. If wish to go thru all the merging steps, then select the radio button.
 Scroll down then click **Merge To Selected Patient** box. Then scroll down and click the MERGE TO SELECTED PATIENT button.
 
 ![](../document-queue-merging-imported-documents.assets/169eb5980865f2967fb55bcf3b469cca.png)

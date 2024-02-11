@@ -17,29 +17,29 @@ links:
   - '../../functions/fax-manager/faxing-documents.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=512d4a650f5972363795065eb10926cb'
 source: 'https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
 * <strong>Fax Manager Demonstration</strong>
-   * <strong>Fax Individual Documents</strong>
-   * <strong>Batch Faxing</strong>
-   * <strong>Prescription Faxing (and Setting Preferred Pharmacy)</strong>
+  * <strong>Fax Individual Documents</strong>
+  * <strong>Batch Faxing</strong>
+  * <strong>Prescription Faxing (and Setting Preferred Pharmacy)</strong>
 * <strong>Overview</strong>
 * <strong>Sending Faxes</strong>
-   * <strong>Fax Dialogue Window</strong>
-   * <strong>Fax Manager</strong>
-   * <strong>System-Delivered Email Notifications</strong>
+  * <strong>Fax Dialogue Window</strong>
+  * <strong>Fax Manager</strong>
+  * <strong>System-Delivered Email Notifications</strong>
 * <strong>System Configuration</strong>
-   * <strong>Load Fax Coversheet(s)</strong>
-   * <strong>Departments & Users</strong>
-   * <strong>My Settings Preferences</strong>
+  * <strong>Load Fax Coversheet(s)</strong>
+  * <strong>Departments & Users</strong>
+  * <strong>My Settings Preferences</strong>
 * <strong>Resources</strong>
 
 ## Overview
 
 The {{% system-name %}} Fax Manager is a tool designed to streamline outbound faxing. Printing and faxing can be done manually, or automatically, depending on the configured system rules and Fax Manager setup.  
-{{% system-name %}} tracks all documents printed or faxed from the system, including several details, such as fax number, documents sent (and by whom), number of pages, transmission date/time, and fax status. Additionally, clients can build Print Definitions so that multiple forms or documents may be grouped together and printed or faxed, simultaneously. Custom configurations for Print Definitions, secure email, auto-routing transmissions, DataSend rules, and Direct setup, are available as add-on services, and will be scoped and billed separately.  
+{{% system-name %}} tracks all documents printed or faxed from the system, including several details, such as fax number, documents sent (and by whom), number of pages, transmission date/time, and fax status. Additionally, clients can build Print Definitions so that multiple forms or documents may be grouped together and printed or faxed, simultaneously. Custom configurations for Print Definitions, secure email, auto-routing transmissions, DataSend rules, and Direct setup, are available as add-on services, and will be scoped and billed separately.
 Standard functionality for the Fax Manager includes:
 * Print & fax history
 * Batch faxing
@@ -69,7 +69,7 @@ The Fax section of the Print Dialogue window has various fields to be filled out
 
 ![](../review-session-fax-manager.assets/dc52d54d5c3e2dd65dacd2c7bbf67ae8.png)
 
-**User**: The *User* mode displays any established departments and users, so that users may fax directly from the {{% system-name %}} system to internal departments/users, reducing printing costs and streamlining the faxing process.  
+**User**: The *User* mode displays any established departments and users, so that users may fax directly from the {{% system-name %}} system to internal departments/users, reducing printing costs and streamlining the faxing process.
 **Manual**: The *Manual* mode is used when faxing to an outside resource, or individual/location, that does not already exist in the {{% system-name %}} system. Manual mode can be used anytime, to fax anyone. Simply type in the **Name** of the outside resource being faxed. To fax the same document(s) to multiple individuals or locations, finish typing in the **Fax #** with area code, and click the **Add** button. This will populate the first recipient at the top of the section and allow additional recipients to be added, as needed. To remove a recipient, simply click the **X** button.
 
 ![](../review-session-fax-manager.assets/12e7a479fc28d1f7f6361450520620b0.png)
@@ -80,7 +80,7 @@ The Fax section of the Print Dialogue window has various fields to be filled out
 To enter an international number, simply type a plus sign ![](../review-session-fax-manager.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)  
  followed by the international number. The plus sign will disable automatic formatting in the Fax # field, therefore if it is not included before the number, standard US formatting will still be applied (###) ###-####.
 {{% /tip %}}
-**Chart**: The *Chart* mode allows faxing to numbers stored in any {{% system-name %}} charts. Any chart with a fax number provided may be selected for faxing, giving users the ability to fax documents to specific individuals, or any entity, based on the chart type (e.g., Patient, PO, EO, EPM, etc). Using the **Name**  
+**Chart**: The *Chart* mode allows faxing to numbers stored in any {{% system-name %}} charts. Any chart with a fax number provided may be selected for faxing, giving users the ability to fax documents to specific individuals, or any entity, based on the chart type (e.g., Patient, PO, EO, EPM, etc). Using the **Name**
  field, begin typing the last name or organization name, or if the MRN is known, begin the entry with a question mark ![](../review-session-fax-manager.assets/d603ce4a70fa197b582397e49ee3c2c7.png)  
  and continue entering the MRN. If a name or organization does not appear for autocomplete, that indicates a fax number has not been provided in the chart.
 {{% info %}}

@@ -7,7 +7,7 @@ lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## CLAIMS REPORT
 
@@ -31,9 +31,9 @@ Some systems have a work comp interface for this automatic sending of case/incid
 
 The Claims Report has the following logic criteria/logic built in order to run this report:
 * An observation named <strong>Send claim to TPA</strong> must be configured in the system
-   * Result Type must be set to <strong>Custom Discrete Values</strong>
-   * Value & Sort Order must be keyed in to allow your TPA selections for your system
-   * Note: <em>Don't send the claim</em> choice will automatically be a selection in the case/incident section if your system is configured to use Send claim to TPA.  Do <strong>not</strong> manually configure a <em>Don't send the claim</em> as a custom discrete value for the observation configuration, only your TPA company name selections need configured as values.
+    * Result Type must be set to <strong>Custom Discrete Values</strong>
+    * Value & Sort Order must be keyed in to allow your TPA selections for your system
+    * Note: <em>Don't send the claim</em> choice will automatically be a selection in the case/incident section if your system is configured to use Send claim to TPA.  Do <strong>not</strong> manually configure a <em>Don't send the claim</em> as a custom discrete value for the observation configuration, only your TPA company name selections need configured as values.
 
 ![](../claims-report.assets/8848ea30f3de1876e0b5d82e4406a7b6.png)
 

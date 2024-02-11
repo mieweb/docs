@@ -6,10 +6,10 @@ version: 30
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Setting up a portal for your employee's to access is available in {{% system-name %}} . Your MIE Implementer will help with initial setup and configuration, but this help guide also helps for any edits or changes that may need done later down the road. Initial portal setup is in help guide named *Employer-Employee Portal Setup.pdf*  
-There may be a need for a second portal of a different url and different users related to different provider organizations, etc accessing that specific portal than accessing the initial Generic Portal that comes by default. To set up an additional portal:  
+There may be a need for a second portal of a different url and different users related to different provider organizations, etc accessing that specific portal than accessing the initial Generic Portal that comes by default. To set up an additional portal:
 From the sidemenu tab *Provider Management*, then click Add New Provider Organization to set up and name a second portal.
 
 ![](../employer-employee-second-portal-setup.assets/f6ab23010cb29c47fa51bb470bc8d43d.png)
@@ -30,7 +30,7 @@ After you click NEXT, click the *Overview* chart tab again to refresh the entire
 
 ![](../employer-employee-second-portal-setup.assets/ef67960eb0304f6cf7c738704acd0dff.png)
 
-Click the *Portal Setup* tab and begin configuration. See other help guide titled *Employer-Employee Portal Setup.pdf*. Then see additional help guide titled *Employer-Employee Portal Menu Layout.pdf* to set up the portal options for this new second portal.  
+Click the *Portal Setup* tab and begin configuration. See other help guide titled *Employer-Employee Portal Setup.pdf*. Then see additional help guide titled *Employer-Employee Portal Menu Layout.pdf* to set up the portal options for this new second portal.
 At any time, you can see what your real second portal will look like. First make sure you have a "supervisor" relationship on your username to another test user. Also make sure you are linked to your own chart as NoMoreClipboard User role (MIE Implementers can link to a test patient).
 
 ![](../employer-employee-second-portal-setup.assets/ca79fc78f317bfa079f4d2ee92aaf748.png)

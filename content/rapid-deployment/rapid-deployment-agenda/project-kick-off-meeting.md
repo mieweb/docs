@@ -6,7 +6,7 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1zWKxR0xaiAQUa97YXT_jDMOREs4n11thpnoNIF16lVI'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Purpose
 
@@ -22,13 +22,13 @@ Present the EH Kick-off Meeting Powerpoint, Statement of Work (SOW), Project Pla
 * Project Objectives
 * Project Overview
 * Project Plan
-   * Discuss importance of strategic project team members. At least one trusted adviser who will actually use the product on a regular basis should be included in the project team, to provide insight and serve as a champion.
+  * Discuss importance of strategic project team members. At least one trusted adviser who will actually use the product on a regular basis should be included in the project team, to provide insight and serve as a champion.
 * Project Charter
-   * Document Company Profile (high level)
+  * Document Company Profile (high level)
       * Number of locations, physicians, nurses, employees, case managers, etc.
       * Website URL for the customer
-   * Document Top Strategic Priorities - "Define Success"
-   * Document Top 3-5 Tactical Priorities (i.e., hard dates)
+  * Document Top Strategic Priorities - "Define Success"
+  * Document Top 3-5 Tactical Priorities (i.e., hard dates)
 * Deployment Approach
 * Training Resources and Tools
 * Support Structure

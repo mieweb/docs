@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1dOhB5E8UNaECKEDJR1ZwL0isMZCSdEHuIcnyC7OAmhU'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: Medium  
+**Activity Weighting**: Medium
 **Subcategory Name**: Population Management  
 **Description**: Participation in federally and/or privately funded research that identifies interventions, tools, or processes that can improve a targeted patient population.
 

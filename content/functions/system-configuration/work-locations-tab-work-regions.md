@@ -6,9 +6,9 @@ version: 70
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-Panels can be assigned to work regions to limit the selection for what is appropriate for that region.  Panels displayed in the panel membership page for selection are based on work region and filters out panels not tied to the employee's work region.  
+Panels can be assigned to work regions to limit the selection for what is appropriate for that region.  Panels displayed in the panel membership page for selection are based on work region and filters out panels not tied to the employee's work region.
 The system setting *Use Work Regions* must be enabled if want to utilize work regions for health surveillance panels.
 
 ![](../work-locations-tab-work-regions.assets/5ae5b8b79a04ea23de59193ea368c61f.png)
@@ -28,7 +28,7 @@ When you click Work Region Manager the listing of current and active work region
 
 ![](../work-locations-tab-work-regions.assets/83e70b778c59da20a140245e4a47daaf.png)
 
-You can use the [edit] button to edit a few things on existing work regions. It will track when and who edited a work region entry. You can also enter/add a new work region by free-typing in the name of the work region you wish to add, setting it as active or inactive and click the ADD button to have it display in the listing above. However, edits and/or adds are saved until you click the SUBMIT button at the bottom of the screen.  
+You can use the [edit] button to edit a few things on existing work regions. It will track when and who edited a work region entry. You can also enter/add a new work region by free-typing in the name of the work region you wish to add, setting it as active or inactive and click the ADD button to have it display in the listing above. However, edits and/or adds are saved until you click the SUBMIT button at the bottom of the screen.
 When in any work location editor, the top right links are quick ways to get to the other work locations editors if you wish.
 
 ![](../work-locations-tab-work-regions.assets/83e70b778c59da20a140245e4a47daaf.png)

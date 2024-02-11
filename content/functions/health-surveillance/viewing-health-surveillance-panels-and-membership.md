@@ -6,7 +6,7 @@ version: 40
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 
@@ -16,7 +16,7 @@ The listing of current Panels will display on the screen under the Panel Search 
 
 ## Viewing Memberships from Health Surveillance Tab
 
-You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel from the Health Surveillance tab found in Control.  
+You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel from the Health Surveillance tab found in Control.
 To view existing memberships & membership rules on existing panels go to Control tab→Health Surveillance tab→ Find the specific panel and click Membership hyperlink from the main panel listing.
 
 ![](../viewing-health-surveillance-panels-and-membership.assets/152a405ed9a290c61e3e0c92d6b0a89b.png)
@@ -31,7 +31,7 @@ Then click membership hyperlink found at the top of the Panel Actions screen for
 
 Either method, you gain access to the *Panel Membership* screen which shows 3 sections on that screen.  At the top you should see (in bold) the words *Panel Membership* and then the specific panel you accessed membership on.  
 The top section shows *Membership Rule* which is any {{% system-name %}} automated configuration rule(s) to get employees into this panel based on specific criteria determined. Automated {{% system-name %}} panel membership rules makes employees members of the panel automatically (according to the criteria in the rule) as an Implicit Membership.  
-The next section shows *Individual Include/Exclude* which lists all current employees that are members of this specific panel and if they are included or excluded at the panel level.  
+The next section shows *Individual Include/Exclude* which lists all current employees that are members of this specific panel and if they are included or excluded at the panel level.
 At the very bottom you see *Membership Approval* where you can click the *Approve Membership Now* button and it essentially marks the last time a user (with a date/time stamp) that approved & validated this membership screen for the specific panel.
 
 ![](../viewing-health-surveillance-panels-and-membership.assets/cd68d728f51233aa305b4aaf45636bd0.png)

@@ -7,30 +7,30 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 To view recent orders (existing orders) that the patient has had created/ordered for them, click View Recent at the top right of the screen.
 
 ![](../orders-view-recent.assets/2d0401b8e99c2e554c2f9a30ba26b70c.png)
 
 This will then show below any completed orders, standing orders, pending orders and incomplete orders for the patient in various buckets. There is also a search tool to search orders on this patient to render limited results.  
-From this summary screen of incomplete, standing, pending orders, you can edit, print, or complete an existing order.  
+From this summary screen of incomplete, standing, pending orders, you can edit, print, or complete an existing order.
 If the screen says NO ORDERS TO DISPLAY, then the patient has no existing orders, but make sure your search filters aren't set to not show something.
 
 ![](../orders-view-recent.assets/5073b10a8c2e2a016d3d42efa45b4056.png)
 
 The Incomplete Orders and Standing Orders lists are ordered by "Requested" beginning with the most recent. Additionally, all Orders lists now use the list view remember capability so that when a user makes a change to the order in that listview, that preferred order will be stored for that user and will be consulted next time that listview is rendered  
-To search for a specific existing order, you can use the search engine at the top. These fields help to narrow down your search. You don't have to select in each search field, unless you know the specific information/fields you are looking/narrowing to. Clicking CLEAR underneath the search fields will clear the search fields for you to start over.  
+To search for a specific existing order, you can use the search engine at the top. These fields help to narrow down your search. You don't have to select in each search field, unless you know the specific information/fields you are looking/narrowing to. Clicking CLEAR underneath the search fields will clear the search fields for you to start over.
 Once you have found your order that you are either searching for, or see on the Incomplete , Standing, Pending or Completed Orders sections, you can Edit, Print an existing order, or you can Complete an incomplete order.
 
 ## Edit Orders
 
-You must have security permission to edit orders.  
+You must have security permission to edit orders.
 Click Edit next to an existing order to edit it.
 
 ![](../orders-view-recent.assets/8a26c7ad2f87465fcf35e8ae3f2c2dc4.png)
 
-Change/edit what you need to. If you need to change/edit/delete an order item (test), it will show all ‘current' tests ordered at the top, then you can click the [-] button to delete an order item, or check-mark an order item you need to add to this order, etc.  
+Change/edit what you need to. If you need to change/edit/delete an order item (test), it will show all ‘current' tests ordered at the top, then you can click the [-] button to delete an order item, or check-mark an order item you need to add to this order, etc.
 If you edit it, you would then need to click REQUEST ORDERS at the bottom of the screen after any changes, then if need to re-print it you can do so at that time. It will save the latest/edited version of this order.
 
 ![](../orders-view-recent.assets/d47a8bffca212727dc78d47aa731ba00.png)
@@ -38,7 +38,7 @@ If you edit it, you would then need to click REQUEST ORDERS at the bottom of the
 
 ## Print Orders
 
-Click Print next to an existing order to print it.  
+Click Print next to an existing order to print it.
 It will take you to the print module and then X out of the print view/screen when done.
 
 ![](../orders-view-recent.assets/f7809f886f1c73778dab670444c146b1.png)
@@ -55,7 +55,7 @@ It will take you to the document summary to view the stored order document on th
 
 ![](../orders-view-recent.assets/b4fb15adb6708a1fe4602e99a789da39.png)
 
-There is also an option to complete when viewing the order document. The complete link will take you to the *Complete Order* screen where you can mark the entire order as ‘complete. Follow steps on subsequent page of this help document regarding Complete.  
+There is also an option to complete when viewing the order document. The complete link will take you to the *Complete Order* screen where you can mark the entire order as ‘complete. Follow steps on subsequent page of this help document regarding Complete.
 A Print ABN hyperlink can be programmed to display, reminding users that an Advance Beneficiary Notice (ABN) form may be needed for a patient. An ABN form is required for all patients who have Medicare Part B insurance, for certain Lab Orders, or not at all. There is a system setting (Orders,Settings,Show ABN Link for all patients) that is off by default. However, if the value of this system setting is set to 1 for the system you are working in, a Print ABN link will appear on stored order documents on all orders for Medicare B patients (As defined by the PQRS system setting) and no link is shown for all other patients.
 
 ![](../orders-view-recent.assets/1c6c101e1f4c2bee0115a15b543d009d.png)
@@ -83,7 +83,7 @@ You must type in the date the orders were done, or pending or cancelled, comment
 
 ![](../orders-view-recent.assets/d6e30abc936d2e3ca72265b96c754f4d.png)
 
-Then click the COMPLETE button. It will then put this order in the completed section of the view.  
+Then click the COMPLETE button. It will then put this order in the completed section of the view.
 Then in the view of the closed order, it would show the items/orders and next to it the dates and times they were completed.
 
 ![](../orders-view-recent.assets/8899702d440e50feea60b24f45bd861d.png)
@@ -100,7 +100,7 @@ Simply check-mark the box of the order(s) that you want to select, and then scro
 
 ![](../orders-view-recent.assets/951f21ef73e57b39b2c7b24739134f4d.png)
 
-Clicking the *Completed* category does not complete the order. It just sets the order as the completed category. You must still go through the complete link to set an order to completed.  
+Clicking the *Completed* category does not complete the order. It just sets the order as the completed category. You must still go through the complete link to set an order to completed.
 You can view the category a specific order is set to by viewing the category column.
 
 ![](../orders-view-recent.assets/cdf112ea2091207ae7df05d525679d0a.png)
@@ -152,8 +152,8 @@ This is ability to complete an order request and document the results within an 
 * Encounter Info
 * Case (so that the encounter can be linked to a specific case/incident)
 * Results
-   * one section for each pending order_item from the pending order request
-   * Incomplete orders & completed orders sections
+  * one section for each pending order_item from the pending order request
+  * Incomplete orders & completed orders sections
 The contents of these sections are determined by the layout name field in each order item.
 * If the name of the order is the same as the name of a flowsheet and the layout is  "Obs Procedure", that flowsheet will be displayed
 * if the name of the order does NOT match the name of a flowsheet, the order's layout will be displayed if the order has a layout, otherwise the "Generic Order" layout will be used

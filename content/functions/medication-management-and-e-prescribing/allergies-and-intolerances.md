@@ -6,7 +6,7 @@ version: 75
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Viewing an Allergy or Intolerance
 
@@ -25,7 +25,7 @@ They also show in the medication history screen of the E-Meds module and in Alle
 From any of these screens/modules or encounters, you can enter allergies and/or intolerances.  
 We would suggest entering any medication/drug and/or environmental allergies in the Allergies section.  
 Reason is when a user/physician/clinician navigates to the patient's chart; they see a complete allergy history anywhere in the system by going/viewing the specific **Allergies** section.  At a glance, clinicians see the patient's allergy summary and have access to more detailed information.  
-If you want to also enter in environmental allergies into PMH section as a condition, by all means you can, but we still suggest entering them in allergies section due to the at-a-glance history a clinician would look at for allergies also.  Also when entering them in the PMH section as a condition, it's then an active condition that will then always populate the "assessment" section /diagnosis section, which may be cumbersome to always "N/A" those etc or shows as a presenting active condition instead of just as an allergy.  
+If you want to also enter in environmental allergies into PMH section as a condition, by all means you can, but we still suggest entering them in allergies section due to the at-a-glance history a clinician would look at for allergies also.  Also when entering them in the PMH section as a condition, it's then an active condition that will then always populate the "assessment" section /diagnosis section, which may be cumbersome to always "N/A" those etc or shows as a presenting active condition instead of just as an allergy.
 FDB (First Data Bank) doesn't really have environmental factors in the allergies auto-completes, so we can see why a user may want to use conditions for this since they show up there in an auto-complete as "conditions".  But the problem is that condition lists are not always displayed in all the places where users/clinicians would be checking for allergies.  So if there is some allergy listed in PMH that is actually clinically important, it may not be seen when it should. Specifically (for example: Latex), it's recommended that allergies entered in the allergies section as we have built-ins to handle alerts for that and coding based on any allergy being entered in the specific allergies section when gets pushed onto a CCD and other places for sharing data, etc.
 
 ## Adding an Allergy and/or Intolerance
@@ -42,7 +42,7 @@ If a patient has never had anyone enter allergies or documented that the patient
 
 ![](../allergies-and-intolerances.assets/b96545a0937348a1f5ff85b30105443f.png)
 
-You can document that the patient has NKDA. It will then show their Allergy summary here as NKDA.  
+You can document that the patient has NKDA. It will then show their Allergy summary here as NKDA.
 Using one of the steps above to get to the Medications History screen, you will see the message in the middle of the patient's Meds screen that says **Allergies have NOT been entered for this patient.**
 
 ![](../allergies-and-intolerances.assets/e0c862199f56ac489d52a6ee3339b51d.png)
@@ -72,7 +72,7 @@ After you click Add Allergy /Intol link, you will see an *Add Allergy/Intoleranc
 
 ![](../allergies-and-intolerances.assets/59027a70c896194e46b5014b7e9deca3.png)
 
-*(You can check-mark the NKDA box to document the patient has NKDA here, or follow the steps on previous pages).*  
+*(You can check-mark the NKDA box to document the patient has NKDA here, or follow the steps on previous pages).*
 If patient has known allergies/intolerances, then at the left in **Add Allergy / Intolerance** fields enter:
 * <strong>Name:</strong> Enter the name of what the patient is allergic to. It will auto-complete your text to show matches of recognized allergies from First DataBank and you can select one. If any allergy you enter relates to a medication the patient has on their active medications list it will popup a warning. These allergies documenting are medication related allergies. If you need to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert), please see next pages of this help in section named "Custom Allergies".
 
@@ -96,7 +96,7 @@ Click *Add.* It will then successfully input it into the patient's medication hi
 
 #### Most Commonly Entered
 
-At the right of the Add Allergy/Intol screen it has a box/view called *Most Commonly Entered*.  
+At the right of the Add Allergy/Intol screen it has a box/view called *Most Commonly Entered*.
 It gives a list of the most commonly entered names of Allergies/Intolerances for your practice that users have entered in for patients. This is simply another way to quickly find and enter a common allergy/intolerance. If you find an allergy you wish, then click either add intolerance link to add it as an intolerance or add allergy link to add it as an allergy. These links are found in the options column.
 
 ![](../allergies-and-intolerances.assets/9bf39cbf44ece5d7d2c7fd0b08b67ff3.png)
@@ -122,7 +122,7 @@ After you click Quick Allergy link, you will see **Add Allergies / Intolerances*
 
 * <strong>Reaction:</strong> Enter the reaction the patient has to this medication/allergy/intolerance/item, etc. This is optional.
 * <strong>Type:</strong> Select the radio button for which type it is. Either Allergy or Intolerance.
-Click *Add* button. It will then automatically enter it into the patient's allergies/intolerances summary. It does not ask you confirmation. It automatically enters whatever you typed via this quick add.  
+Click *Add* button. It will then automatically enter it into the patient's allergies/intolerances summary. It does not ask you confirmation. It automatically enters whatever you typed via this quick add.
 Any allergy or intolerance with an asterisk (*) next to it means the allergy or intolerance was free-typed and not selected from the auto-complete that FDB presents or most common known allergies/intolerances in the database. This is considered an unrecognized medication allergy.
 
 ![](../allergies-and-intolerances.assets/e2f4eb3fefb203c25a8440be7f0c1ba5.png)
@@ -150,7 +150,7 @@ Once you click the underlined allergy name of the one you wish to edit, it will 
 ![](../allergies-and-intolerances.assets/c1273c7408a3b331db478611cc5aa0b6.png)
 
 Edit the name of the allergy, reaction, the type, the start or end dates. Click *Submit* when done.  
-It will then automatically insert your edits into the allergy/intolerance summary and list.  
+It will then automatically insert your edits into the allergy/intolerance summary and list.
 Allergies & Intolerances store the ‘type' of allergy/intolerance it is in the background. Example: Occupational, Medication, or Personal allergy/intolerance. The information is from First DataBank. System reports can be created for your database to be able to run reports by ‘type' or show the ‘type' of allergy.
 
 ### Deleting an Allergy/Intolerance

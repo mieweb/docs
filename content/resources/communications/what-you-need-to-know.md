@@ -13,7 +13,7 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1l64IjN7y0I0QHoM7e8hyy80El5GBEv4DC_WN8zFGt1Q'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The Ifs, Ands, and Buts About It
 
@@ -48,7 +48,7 @@ Submit **ONE** (1) of the following:
 </tr>
 
 </table>
-* The required Advancing Care Information (ACI) Base Score measure set is determined by the electronic health record (EHR) edition certification.  
+* The required Advancing Care Information (ACI) Base Score measure set is determined by the electronic health record (EHR) edition certification.
 For more information, review the ACI [Fact Sheet](https://qpp.cms.gov/docs/QPP_ACI_Fact_Sheet.pdf) or [QPP webpage](https://qpp.cms.gov/measures/aci)
 
 ### Partial- or Full-Year Participation
@@ -74,7 +74,7 @@ To potentially earn a positive adjustment, or even a maximum adjustment, submit 
 
 ## Data Submissions
 
-Don't forget, MIE is a certified Data Submission Vendor, capable of submitting quality performance data on behalf of enrolled providers. MIE does not automatically enroll providers into incentive programs (including previous participants). Therefore, to participate, simply fill out a 2017 Quality Data Submission Authorization and Agreement. This must be on file for each provider interested in submitting their quality performance data through MIE.  
+Don't forget, MIE is a certified Data Submission Vendor, capable of submitting quality performance data on behalf of enrolled providers. MIE does not automatically enroll providers into incentive programs (including previous participants). Therefore, to participate, simply fill out a 2017 Quality Data Submission Authorization and Agreement. This must be on file for each provider interested in submitting their quality performance data through MIE.
 We understand how important this is, so we have our Project Manager available to walk you through the enrollment process and work closely with your practice administrator(s) to prepare for data submission. Questions and concerns regarding MIPS, the enrollment process, and participation, or any completed Enrollment Agreements/Authorizations can be emailed to Theresa Juillerat, at [tjuillerat@mieweb.com](mailto:tjuillerat@mieweb.com).
 
 ## Questions

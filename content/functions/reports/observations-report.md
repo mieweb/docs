@@ -6,12 +6,12 @@ version: 29
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13jOk33Y1SJkreIkd5pt3QzR7QY28FQvZOcLsMSPA1MM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Click *Reports* tab on the left sidebar menu.  
 Find and click *Patient Observations* link/tab to view report search fields.  
-You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.  
+You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.
 This is a report that you can run to show anything stored as an observation (or encounter data if stored as an observations), vitals, etc. for all patients.
 
 ![](../observations-report.assets/2543e95d16562942798db56ffbfcf92e.png)
@@ -24,7 +24,7 @@ This is a report that you can run to show anything stored as an observation (or 
 
  ![](../observations-report.assets/063d652023bd80b0621e4148d702bda1.png)
 
-When done, click SEARCH button.  
+When done, click SEARCH button.
 Your results will render below this field criteria section.
 
 ![](../observations-report.assets/abeafccec84af6ad3b0aa2403a793e43.png)

@@ -10,20 +10,20 @@ links:
   - 'single-sign-on-sso.md'
   - 'saml-based-single-sign-on.md'
 source: 'https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.  
+The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.
 For more information on login trust terminology, see our [SSO Documentation](single-sign-on-sso.md).
 
 ## SAML Metadata
 
 Beginning with RC201906, {{% system-name %}} can natively import and export SAML metadata files commonly used for setup between IDPs and SPs.  
-Older systems can utilize the *Manually Creating the Login Trust from SAML Metadata* instructions found below.  
+Older systems can utilize the *Manually Creating the Login Trust from SAML Metadata* instructions found below.
 The first step is an exchange of metadata files. The Login Trusts editor under Control Panel → SuperUser is the access point for importing and exporting these files.
 
 ## Client-Provided Metadata
 
-The information used to populate a new login trust is found in the IDP's SAML metadata file from the client. The client should provide a copy of this file to the {{% system-name %}} Implementation Specialist.  This file may be in the form of an internet URL, email attached file, or a block of text shared with the Specialist.  
+The information used to populate a new login trust is found in the IDP's SAML metadata file from the client. The client should provide a copy of this file to the {{% system-name %}} Implementation Specialist.  This file may be in the form of an internet URL, email attached file, or a block of text shared with the Specialist.
 For additional client requirements information, see our [SAML-based SSO documentation](saml-based-single-sign-on.md).
 
 ## Provided Metadata
@@ -55,7 +55,7 @@ The SAML IDP will now be available on the system's Login page under the Remote L
 
 ## Removing the Login page
 
-Once an SSO connection has been configured and tested, the  login page can now be disabled. This is accomplished by making an SSO server the system Default authentication mechanism.  
+Once an SSO connection has been configured and tested, the  login page can now be disabled. This is accomplished by making an SSO server the system Default authentication mechanism.
 In the listing of the Login Trusts editor, there is an option for "Make Default". This link is used to disable the login page and direct all authentication requests to that specific SSO server.
 
 ![](../single-sign-on-login-trust.assets/9f69feed9741896e1942c8dbe414ff9c.png)
@@ -67,7 +67,7 @@ The {{% system-name %}} **Add Login Trust** screen displays the following optio
 
 ![](../single-sign-on-login-trust.assets/074115e061da6d47093885424d8d46fc.png)
 
-The following list provides details and insight on using the fields available on the Add Login Trust screen:  
+The following list provides details and insight on using the fields available on the Add Login Trust screen:
 **Domain** – **Required Field**: URL for single sign-on service domain.
 * Found in the SAML metadata file with label <strong>entityID</strong>.
 * This string must be alphanumeric and no more than 255 characters in length.
@@ -78,12 +78,12 @@ The following list provides details and insight on using the fields available on
 * <strong>Make this Domain active</strong>: Required for the MIE SSO method.
 * <strong>Allow a(n otherwise) successfully processed login ticket to re-activate login-disabled users</strong>: Reactivates an inactive {{% system-name %}} user when that user attempts to log in via the employer SSO system.
 * <strong>Allow creation of new users from (otherwise) successfully processed login ticket</strong>: Creates a new {{% system-name %}} user when that person attempts to log in via the employer SSO system.
-   * XML Login Tickets or SAML assertions are recommended for use with this option.
+  * XML Login Tickets or SAML assertions are recommended for use with this option.
 * <strong>Allow this domain to be used for OpenID authentication</strong>: Processes OpenID SSO requests. Required for use with OpenID.
 * <strong>Pass current page's CGI variables to the login_url when re-authenticating</strong>: When a login session expires, the main window directs the user through the SSO server. If unchecked, expired sessions create a pop-up window to re-establish a valid user session.
-   * The SSO server (IDP) must support this option.
+  * The SSO server (IDP) must support this option.
 * <strong>Only allow translated users to login</strong>: Requires all login requests to reference a known username via translation. Login requests which do not have a translation to an established {{% system-name %}} username will be rejected. This is generally used in conjunction with a periodic user import process or HR feed.
-   * This option allows the {{% sys-name %}} system to dictate which users have access through SSO.
+  * This option allows the {{% sys-name %}} system to dictate which users have access through SSO.
 * <strong>Users may be, but need not be, translated</strong>: Translation allows lookup of the IDP-specified username against a lookup table. This allows the IDP and the {{% system-name %}} system to use a different identifier (username) for a user.
 * <strong>Allow SAML requests from this domain</strong>: Indicates that SAML requests (assertions) are allowed from the listed domain.
 * <strong>Use |System| initiated SAML instead of server initiated</strong>: Utilize SP-initiated bindings instead of IDP-initiated.
@@ -91,7 +91,7 @@ The following list provides details and insight on using the fields available on
 * <strong>Remove the question mark ( ? ) character from the target resource</strong>: For IDPs that require state variables be passed as part of the URL instead of as CGI variables to the URL. This is not common.
 * <strong>Put a link to the domain on the login page</strong>: The login page will have a list of links to these IDPs, in addition to the standard non-SSO login form.
 * <strong>Use RelayState instead of TargetResource in SAML requests</strong>: Some IDPs require a RelayState variable instead of a TargetResource variable.
-   * Known IDPs requiring this to be checked include <strong>ADFS</strong>.  If you do not check this box, users will lose their place when their session expires.
+  * Known IDPs requiring this to be checked include <strong>ADFS</strong>.  If you do not check this box, users will lose their place when their session expires.
 * <strong>Use Shibboleth specific ‘target' instead of TargetResource in SAML Requests</strong>: Use with Shibboleth systems.
 **Login URL**: The URL that users are redirected to for obtaining a new session when they do not have one, or when an existing session becomes invalid.
 * If this URL forwards any additional CGI variables sent to it, make sure the <em>Pass current page's CGI Variables</em> option is checked. This will present a more seamless experience to the user.

@@ -9,7 +9,7 @@ links:
   - '../../system-configuration/document-type-tab.md'
   - '../../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Document details can be added in multiple ways to many types of documents within {{% system-name %}} . Discrete observation data, for example, can be captured and stored on any document that is indexed within {{% system-name %}} , given the proper setup. Review the information below, to learn about adding and viewing document details, as needed.
 
@@ -56,7 +56,7 @@ Any captured discrete data will be listed in the *Document Details* section.
 
 ![](../document-details.assets/4a4369e3b3eace416d2ad77ddd501fc4.png)
 
-Editing this observation data can be done by simply clicking the **Edit Properties** link. The *Document Details* section will expand, allowing users to edit the observations, as needed.  
+Editing this observation data can be done by simply clicking the **Edit Properties** link. The *Document Details* section will expand, allowing users to edit the observations, as needed.
 Once completed, click the **Submit Changes** button, and the edits will be saved. The original observation data will remain in the chart in revision history; however, the *Document Details* section of the document properties will only show the most recent data.
 
 ![](../document-details.assets/b9e7de506989dd41eae29255b357bb20.png)

@@ -10,7 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
   - 'https://ecma-international.org/publications-and-standards/standards/ecma-404/'
 source: 'https://drive.google.com/open?id=1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Introduction
 
@@ -5699,7 +5699,7 @@ In the event a customer does not have the hardware to perform such a process, as
 
 
 ```
-{{% /pre %}}  
+{{% /pre %}}
 ### Multiple Patients
 
 When performing a multi-patient export, one JSON file will be generated for each exported patient.  These files will then be compressed in a zip file.

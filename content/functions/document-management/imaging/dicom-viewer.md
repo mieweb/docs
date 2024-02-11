@@ -7,7 +7,7 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Most X-Ray images are found within the  chart, under the **Test Results** chart tab and subtab named **Radiology**.
 
@@ -57,7 +57,7 @@ The first 2 buttons in the toolbar take you from stage to stage. There may be ma
 ![](../dicom-viewer.assets/1c24618440a8828740a052feebf11885.png)
 
 
-The enhanced viewer doesn't offer the ability to take a view from another doc.id (document) and compare it to a view from a different/separate doc.id (document).  
+The enhanced viewer doesn't offer the ability to take a view from another doc.id (document) and compare it to a view from a different/separate doc.id (document).
 To hang views side by side, they must be in the same series/same document.  You can click the down-arrow to select standard hang options or you can click the [C] button to get to a custom protocol hang option.
 
 

@@ -7,7 +7,7 @@ lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1abTr620F-FY9LuKaPmqQomdsG1YOnha2ZSzP3PVcsQE'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Worklists can be programmed as a separate sidemenu tab for your practice or to be shown within the Omniscope tab. If you use encounters, it is suggested to have this worklist tab set up. Contact your MIE Implementer if you wish to have such a worklist programmed. Worklists show ‘open' encounters that need to be worked on or marked closed or are still pending transcription to be done, etc.
 
@@ -24,7 +24,7 @@ My Worklist is a sidemenu custom tab (sometimes it's named something other than 
 
 ![](../encounter-worklists.assets/5d7d7b57725ba9aa52279d8ab0389123.png)
 
-*My Worklist* tab is a worklist shows any open encounters for you, the user only and not other users that have open encounters. You can list all open encounters all together, or you can have the worklist split up into specific encounter groups and list each patient's open encounter under each specific encounter name.  
+*My Worklist* tab is a worklist shows any open encounters for you, the user only and not other users that have open encounters. You can list all open encounters all together, or you can have the worklist split up into specific encounter groups and list each patient's open encounter under each specific encounter name.
 Any open encounters list also shows if there is still dictation pending to be transcribed on the encounter. If transcriptionists don't have rights to close & archive after done transcribing, the physician has to close & archive it from their worklist when they see there is an open encounter that needs closed (doesn't show the dictation pending anymore). No users can close or archive any encounter if dictation is pending. When the transcription is pending, it says that it is *pending dictation* on the exam line. When transcription is done, the physician doesn't get notified and doesn't get any other message. It simply shows as open on their worklist and they are able to close & archive then.
 
 ![](../encounter-worklists.assets/67b4557f7f5818bad884107bedde2524.png)

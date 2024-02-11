@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 **Toward the bottom of an Encounter Exam is a section called Plan.**
 
@@ -27,13 +27,13 @@ To prescribe a new medication for the patient in the encounter, simply type in t
 
 ![](../encounter-plan-section-medications.assets/d92782877094b5e2ecacec490a7199ab.png)
 
-When the name of the medication has been entered, use the **tab** key on the keyboard and it open additional fields to enter the form, sig, duration, quantity, # of refills, etc. for this medication you are prescribing for the patient. Your cursor will advance to each field as you hit the *tab* key on your keyboard.  
+When the name of the medication has been entered, use the **tab** key on the keyboard and it open additional fields to enter the form, sig, duration, quantity, # of refills, etc. for this medication you are prescribing for the patient. Your cursor will advance to each field as you hit the *tab* key on your keyboard.
 Once you've selected the medication to prescribe for the patient, use the tab key to open up the medication fields to fill out for the prescription. Under the **med** name you select to prescribe is an icon. This is the drug info icon. If you click the (*i)* it will open the drug guide for this specific drug.
 
 ![](../encounter-plan-section-medications.assets/f2029c4f26713f2b429f3b4a8d19dbca.png)
 
-**Form:** the form of the medication (tablet, liquid, etc) and strength. Auto-complete or ↓down arrow key to see choices.  
-**f:** If the ‘F' icon displays, this is access to the Medicare Part D formulary. If the patient has a Medicare Part D Drug Plan stored in their e-meds tab, the formularies for medications being prescribed is available here too.  
+**Form:** the form of the medication (tablet, liquid, etc) and strength. Auto-complete or ↓down arrow key to see choices.
+**f:** If the ‘F' icon displays, this is access to the Medicare Part D formulary. If the patient has a Medicare Part D Drug Plan stored in their e-meds tab, the formularies for medications being prescribed is available here too.
 **Dose:** the ‘dose' button to open up a *dose calculator* window is available if the system setting is on to show this button.
 
 ![](../encounter-plan-section-medications.assets/59876eadb867c7b679334bd232180223.png)
@@ -72,10 +72,10 @@ Area's/modules where this feature will appear: Prescribe (E-Meds) chart tab, Ref
 ![](../encounter-plan-section-medications.assets/6108823ec8c6128fc928f53e3d6a3913.png)
 
 * <strong>Note to Pharmacist:</strong> You can type a note to the pharmacist regarding this prescription and it will show on the prescription when printed/faxed/transmitted. This Notes field should only include information to the pharmacist that does not already have structured fields designated for such information, so long as it does not conflict with information sent in other structured fields. Inappropriate use of this Notes field includes information that already has a structured and codified field within the e-prescription message. The most concerning inappropriate use of this field is for patient directions, either supplemental or conflicting. This can lead to critical information not being conveyed to the patient.
-   * Instructions should not be split between the Sig and Notes fields. The Notes field should be reserved for information to assist the pharmacist in dispensing, benefits determination and other pharmacy staff activities.
-   * Populating multiple fields with patient instructions may result in some instructions being missed and not conveyed to the patient.
-   * Inconsistent patient information between the Sig and Notes can result in the patient being provided the wrong instructions.
-   * Examples of Improper Use
+  * Instructions should not be split between the Sig and Notes fields. The Notes field should be reserved for information to assist the pharmacist in dispensing, benefits determination and other pharmacy staff activities.
+  * Populating multiple fields with patient instructions may result in some instructions being missed and not conveyed to the patient.
+  * Inconsistent patient information between the Sig and Notes can result in the patient being provided the wrong instructions.
+  * Examples of Improper Use
       * Sig field-"Take one tablet daily," Notes field-"Take only on Monday, Wednesday and Friday."
       * Sig field-"Dissolve one tablet under the tongue every 10 minutes for chest pain," Notes field-"Call physician immediately if relief is not obtained after three doses."
       * Sig field-"Apply and rub well into affected area twice a day," Notes field-"Discontinue use and call physician if rash worsens."
@@ -91,7 +91,7 @@ The Note to Pharmacist field **should not** contain patient instructions on medi
 
 * <strong>Print Drug Guide:</strong> Checkmark this if you with to have the drug guide for this medication to go into the print queue to print for the patient.
 * <strong>Remember As:</strong> This means you the user can type something in there (example: BOB or Heart Disease). This remembers this specific prescription/form (not free-text form though)/sig/duration/refills and quantity and saves it in the prescriber's medication library.
-   * Update Button: If you used/prescribed a ‘remembered script' and change any prescription detail fields you can click the UPDATE button for the remembered script, it will ‘update' that remembered script with everything you entered in currently then. It ‘updates' the remembered script and changes that remembered script to have the details you just entered in/changed to.
+  * Update Button: If you used/prescribed a ‘remembered script' and change any prescription detail fields you can click the UPDATE button for the remembered script, it will ‘update' that remembered script with everything you entered in currently then. It ‘updates' the remembered script and changes that remembered script to have the details you just entered in/changed to.
 
 ![](../encounter-plan-section-medications.assets/a29d54556270fea58699339b94c68a3d.png)
 

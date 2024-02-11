@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The Impression area of the encounter is where you select your diagnosis/findings. This is where you are documenting reasons/diagnoses for *today's* visit. This section may also be named *Assessment* in your encounters.
 
@@ -20,7 +20,7 @@ The top section of the Impression area lists all conditions/problems the patient
 
 ![](../encounters-impression-section.assets/ded43af120043aca641575f11cdac1fd.png)
 
-The Impression is simply a summary of all ACTIVE patient conditions for being the reason for *today's* visit. The impression will include all conditions the patient currently has. More than likely at least one or more of these conditions will be the reason for today's visit.  
+The Impression is simply a summary of all ACTIVE patient conditions for being the reason for *today's* visit. The impression will include all conditions the patient currently has. More than likely at least one or more of these conditions will be the reason for today's visit.
 Below the listing of the patient's current condition history is the entry fields to add a new condition/problem to document for the patient in relation to today's visit.
 * <strong>Status:</strong> In the listing of the patient's conditions in the top portion of the Impression area, you now select whether the condition is active or N/A (not applicable to today's encounter visit for this visit) on each problem listed for the patient's encounter visit. To select the conditions that are indeed specific to today's visit/reason for today's visit, simply select <em>Active</em> from the Status drop down.  If any presenting patient conditions are not related to today's visit, you would mark as status N/A (not applicable to today's reason of visit – but the patient still has that condition). Marking a condition as N/A doesn't alter the status of this condition in the patient's history. It's simply noting that condition as Not Applicable to today's visit/reason for today's visit/diagnoses. The status selections are hard-coded and wording cannot be changed.
 * <strong>Active Conditions</strong> are patient conditions as active; patient has this condition presently and will be marked as the diagnosis/reason for today's visit on the encounter document. If you have a billing interface, these ICD9's will also go over in the billing message as diagnosis for today's visit/billing event.

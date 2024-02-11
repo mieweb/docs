@@ -11,13 +11,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Q6PiO0lpOuWBVKOqwLEDkJZyRUUAMDg-wWCjZEWcV9Q'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: High  
+**Activity Weighting**: High
 **Subcategory Name**: Achieving Health Equality  
 **Description**: Demonstrate performance of activities for employing patient-reported outcome (PRO) tools and corresponding collection of PRO data such as the use of PQH-2 or PHQ-9, PROMIS instruments, patient reported Wound-Quality of Life (QoL), patient reported Wound Outcome, and patient reported Nutritional Screening.
 
@@ -30,8 +30,8 @@ Participation in QCDR, for use of patient-reported outcome tools, e.g., regular 
 
 
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+Resources
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 [2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

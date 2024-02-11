@@ -9,9 +9,9 @@ links:
   - 'https://developer.mozilla.org/en-US/docs/Glossary/Truthy'
   - 'https://developer.mozilla.org/en-US/docs/Glossary/Falsy'
 source: 'https://drive.google.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-Observation flowsheets are used throughout {{% system-name %}} . They are methods of entering in results and values to stored observations in a quick flowsheet manner. This could be used for specific lab panels that have a lot of individual lab test results that make up that one panel or even patient questionnaires as a way to get the data in quickly in a flowsheet type method. Observation flowsheets are used in the observation chart tab, flowsheets are used in encounters and applied in dynamic encounters from the tests/procedures section, flowsheets are used with *complete with results* or *complete with encounter* functionality and various other {{% system-name %}} modules.  
+Observation flowsheets are used throughout {{% system-name %}} . They are methods of entering in results and values to stored observations in a quick flowsheet manner. This could be used for specific lab panels that have a lot of individual lab test results that make up that one panel or even patient questionnaires as a way to get the data in quickly in a flowsheet type method. Observation flowsheets are used in the observation chart tab, flowsheets are used in encounters and applied in dynamic encounters from the tests/procedures section, flowsheets are used with *complete with results* or *complete with encounter* functionality and various other {{% system-name %}} modules.
 Observation Flowsheets can be accessed via the patient's chart tab named *Observations* or via the Control sidemenu tab and by getting into the *Observation Codes* manager tab. Observation Flowsheets require security permission to access. Please see additional help documentation titled *Observations Tab.pdf*
 
 ![](../observation-flowsheets.assets/97c10fb784a3f7accf9b75b657a36d58.png)
@@ -37,7 +37,7 @@ To add or build a new observation flowsheet to your system, simply click on the 
 
 The *New Flowsheet* screen will open.
 * <strong>Flowsheet Name:</strong> Type in the name of the new flowsheet you want to add. If this flowsheet should render on an encounter as a test/procedure item, make sure this is named exactly to match the order item.
-   * You can click <em>Show Entry Details</em> button if you wish to display the input types, show date/comments/alt. units columns. See additional help further down in this help document.
+  * You can click <em>Show Entry Details</em> button if you wish to display the input types, show date/comments/alt. units columns. See additional help further down in this help document.
 
 ![](../observation-flowsheets.assets/9ed3ea92ab8521171c5c38c2c2f91aa8.png)
 
@@ -135,7 +135,7 @@ JavaScript that determines the value of the item/observation. Items that should 
 ![](../observation-flowsheets.assets/5899e679f327fae58a04919d28cd0f31.png)
 
 * The choices are No, Add to Macros or Prefill Input and are defined as:
-   * <strong>Prefill Input:</strong> This option default the input with the last, most recent value (that a patient's chart has for that matching observation) for that line item observation.
+  * <strong>Prefill Input:</strong> This option default the input with the last, most recent value (that a patient's chart has for that matching observation) for that line item observation.
 
 ![](../observation-flowsheets.assets/9b24ee3f39b41e647f54614df701445a.png)
 
@@ -185,10 +185,10 @@ After applying a line break/header, you can click ‘edit' on it and set a secti
 ![](../observation-flowsheets.assets/0d4bdb7e0e7f58d082038a9e62f96ca2.png)
 
 * <strong>Questionnaires Only:</strong>
-   * <strong>Add Page Break:</strong> Adding a page break to questionnaire flowsheets will indicate to have the flowsheet continue from that point on, onto a new page on the portal.
-   * <strong>Add Section Break:</strong> Adding a section break to questionnaire flowsheets will break up the section to be its own with a title/label on the portal.
-   * <strong>Add Group Break:</strong> Adding a group break to questionnaire flowsheets will break up into a group with its own title/label and other section breaks can be utilized within a group on the portal and flowsheet within {{% system-name %}} .
-   * <strong>Add Layout:</strong> MIE can program a specific section layout to appear within the questionnaire flowsheet that will be utilized (ex: Medications layout) or this can be used to program the indication that the questionnaire should be in 2 columns.
+  * <strong>Add Page Break:</strong> Adding a page break to questionnaire flowsheets will indicate to have the flowsheet continue from that point on, onto a new page on the portal.
+  * <strong>Add Section Break:</strong> Adding a section break to questionnaire flowsheets will break up the section to be its own with a title/label on the portal.
+  * <strong>Add Group Break:</strong> Adding a group break to questionnaire flowsheets will break up into a group with its own title/label and other section breaks can be utilized within a group on the portal and flowsheet within {{% system-name %}} .
+  * <strong>Add Layout:</strong> MIE can program a specific section layout to appear within the questionnaire flowsheet that will be utilized (ex: Medications layout) or this can be used to program the indication that the questionnaire should be in 2 columns.
 
 ![](../observation-flowsheets.assets/5821726e7ff021f831e7f1d03d4f765b.png)
 

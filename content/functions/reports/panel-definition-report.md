@@ -6,9 +6,9 @@ version: 31
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1dIk_2xbQpzTvTX8Gy2WlTYY4TR_4q2rRg1J8Qy9e8fs'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)  
+Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 From within the Health Surveillance tab found in control, there is a hyperlink to access a *Panel Definition Report*.
 
 ![](../panel-definition-report.assets/e3f89bef2f43ae220d81e6244ed79e53.png)

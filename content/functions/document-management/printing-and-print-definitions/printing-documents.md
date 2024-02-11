@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
 source: 'https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Printing documents from the {{% system-name %}} system is a simple process. The intent of this help documentation is to go over the steps for printing individual documents and full-size scanned documents, as well as some additional details, as they relate to the printing processes.
 
@@ -22,7 +22,7 @@ Once clicked, the Print Dialog window will open, with **Send To** *Printer* mark
 
 ![](../printing-documents.assets/48cf39f44fef0b120d4955c6345c6941.png)
 
-Users may choose to **Print without headers** or **Use legacy print formatting**, if preferred.  
+Users may choose to **Print without headers** or **Use legacy print formatting**, if preferred.
 **Print without headers**: This option allows users to print the contents of the document, only. No header information will be included on the printout, meaning the Doc ID, Author, Revised By, Document Type, DOS, Location, Revised Date, and Signed By information will not be displayed on the printed document. This option is only available to users with the Allow Printing Without Headers security permission set to Yes. This option is particularly useful when printing Word documents, forms, sketches, or the like.
 * <strong>Print only without headers</strong>: When the <em>Print without headers</em> option is selected, another option will be made available. Selecting the Print Only Without Headers option will override the document type settings, removing <em>all</em> headers, when printing. This option is most useful for exporting PDFs for interface use.
 **Use legacy print formatting**: Legacy print formatting removes most formating, leaving the document with no indentations, bullets, or the like. Selecting this option will override the Rendering Engine system setting (E-Chart, HTML Printing, Rendering Engine).  

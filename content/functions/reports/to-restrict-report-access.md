@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Though MIE will restrict reports for clients, upon request, those users with System Report security permissions may restrict access to reports accessible in the {{% system-name %}} system, via the **System Report** editor. Restricting reports permits ONLY *allowed users* and/or *realms* permission to run/access those reports.
 
@@ -22,8 +22,8 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 ![](../to-restrict-report-access.assets/dd2b2ae14fad2a2f34e2a72b7fa51d53.png)
 
-1. To begin, go to the Reports sidemenu and locate the report needing restricted. Click the <strong>Show Rendered Layout Information</strong>  
-    (Inline) icon (<img src="../to-restrict-report-access.assets/f6869e76958d595ab4029fa856b1906c.png" />  
+1. To begin, go to the Reports sidemenu and locate the report needing restricted. Click the <strong>Show Rendered Layout Information</strong>
+ (Inline) icon (<img src="../to-restrict-report-access.assets/f6869e76958d595ab4029fa856b1906c.png" />  
    ) in the upper-right corner of the window.
 
 

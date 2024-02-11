@@ -6,10 +6,10 @@ version: 60
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Travel Kits can be used to prescribe a grouping of common meds as a kit for travel. This is mainly used for {{% system-name %}} clients whom employees travel and frequency different countries and the clinic needs to prescribe the grouping of meds quickly. The employee portal is most commonly used for an employee to request a Travel Kit also that a clinician would process. Travel kits are for meds only when know will be traveling and what type of meds would you want to take with you. This is not really for "pre travel requests" where you need to give injections for pre-travel requirements.  
-This section of the help documentation covers how to manage/edit/add/delete Travel Kits that are available for selection in the system. This is the Travel Kits Manager. The section at the end of this help documentation is on how to prescribe/order a travel kit.  
+This section of the help documentation covers how to manage/edit/add/delete Travel Kits that are available for selection in the system. This is the Travel Kits Manager. The section at the end of this help documentation is on how to prescribe/order a travel kit.
 The superuser must have security rights to *Meds Manage* set to Yes.
 
 ![](../travel-kits.assets/5c304d9a462e706ccc44e7e262cfee0c.png)
@@ -99,12 +99,12 @@ Once in the Travel Kits section, the choices of Kits available to prescribe for 
 ![](../travel-kits.assets/0a48473e51443cbf95f4633624eb6976.png)
 
 Once you click the ADD button, the Medication Kit and it's items/contents will display on the screen. Any contraindications/warnings will pop-up on the screen in relation to the medication being prescribed vs what the patient has in their historical chart.  
-One cannot edit the medication item in a Medication Kit being selected to prescribe. One can only checkmark or uncheckmark which medication items within the kit that need prescribing. Anything checkmarked in the **Use** column will be prescribed. The Use checkbox will be checkmarked by default if the item is built as such (the field "Check by Default" described in above sections of this help document). This just saves end users time from having to manually mark which items in the kit to prescribe (usually normal/mandatory items are defaulted) and any that aren't checkmarked already could be optional. Of course, the end user can also uncheckmark even one that is checkmarked by default so it doesn't get prescribed.  
+One cannot edit the medication item in a Medication Kit being selected to prescribe. One can only checkmark or uncheckmark which medication items within the kit that need prescribing. Anything checkmarked in the **Use** column will be prescribed. The Use checkbox will be checkmarked by default if the item is built as such (the field "Check by Default" described in above sections of this help document). This just saves end users time from having to manually mark which items in the kit to prescribe (usually normal/mandatory items are defaulted) and any that aren't checkmarked already could be optional. Of course, the end user can also uncheckmark even one that is checkmarked by default so it doesn't get prescribed.
 Make sure to fill out the prescriber field.
 
 ![](../travel-kits.assets/f5d744ed1952835ad0194834507071f3.png)
 
-Click the *SUBMIT* button to prescribe the medication kit.  
+Click the *SUBMIT* button to prescribe the medication kit.
 Once you click the Submit button, the screen will show you it's successfully added the number of medication items you selected from the Kit.
 
 ![](../travel-kits.assets/9a9eae7de7a3909a71d711fce90bdd13.png)

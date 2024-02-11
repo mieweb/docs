@@ -6,14 +6,14 @@ version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Appointment Cancel Reason Report
 
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 The Appointment Cancel Reason Report displays a report of cancelled appointments according to the cancellation reason code you select, location and date range.  
 Click *Reports* tab on the left side-bar menu.  
-Click *Appt Cancel Reason* tab from the top tab menu.  
+Click *Appt Cancel Reason* tab from the top tab menu.
 The search criteria screen will display.
 
 ![](../additional-appointment-related-reports.assets/d3f2893189b952efa104a770520f10b0.png)
@@ -30,7 +30,7 @@ The Appointment Duplicate Report lists duplicate appointments for a patient.
 Click *Reports* tab on the left side-bar menu.  
 Click *Appt Duplicate* tab from the top tab menu.  
 It will automatically generate a list of duplicate appointments specific to a patient.  
-It will also show the number of duplicate appointments for that patient.  
+It will also show the number of duplicate appointments for that patient.
 The Startdate is the date the duplicate appointment occurs.
 
 ![](../additional-appointment-related-reports.assets/d6432c81bb50617d3023529dfca7957c.png)
@@ -41,7 +41,7 @@ You can click View Printable and print out a basic black/white printable layout 
 
 The Appointment No Location Report lists appointments scheduled without a location set to them.  
 Click *Reports* tab on the left side-bar menu.  
-Click *Appt No Location* tab from the top tab menu.  
+Click *Appt No Location* tab from the top tab menu.
 It will automatically generate a list of appointments without locations. These are appointments schedule that do not have a location selected for the patient's appointment.
 
 ![](../additional-appointment-related-reports.assets/497898d7b3a43b14cbd1094472d017f9.png)
@@ -52,7 +52,7 @@ You can click View Printable and print out a basic black/white printable layout 
 
 The Appointments Needing Dictation report displays a report of appointments that are in the system that don't have dictation done/linked for that appointment date.  
 This is an optional list report and can be turned on for your practice.  
-It can be shown in the Reports side tab and/or it can be shown in the Omniscope side tab or both.  
+It can be shown in the Reports side tab and/or it can be shown in the Omniscope side tab or both.
 There are many options for this report, however the only way to get a patient off this list is to add dictation to the appointment date by clicking the add dictation link in the options column.
 
 ![](../additional-appointment-related-reports.assets/ed5696a0c1bdf463572715e4b19fb991.png)

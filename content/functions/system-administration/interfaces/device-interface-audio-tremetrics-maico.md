@@ -6,9 +6,9 @@ version: 30
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-The following is referring to a Tremetrics RA500 or Maico MA800 audiogram system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.  
+The following is referring to a Tremetrics RA500 or Maico MA800 audiogram system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 Within {{% system-name %}} , you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. Contact your MIE Implementer for set up. From the *Audio Tool* chart tab you can click Add Audiogram to add data results.
 
 ![](../device-interface-audio-tremetrics-maico.assets/63f90f377c62e7b16442edce0c25dd33.png)

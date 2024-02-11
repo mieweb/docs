@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
 source: 'https://drive.google.com/open?id=1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Before learning how to edit or delete or remove Tests or Procedures from an encounter visit, please see other help documentation [Tests & Procedures-Adding and Applying](tests-and-procedures-section-applying-adding-completing-resulting.md) so you are familiar with the Tests & Procedures section (pending Due List items) of the encounter and how procedures are displayed there and/or manually added to an encounter visit.
 
@@ -33,7 +33,7 @@ There is the ability to completely delete a procedure item off of the pending du
 
 ![](../tests-and-procedures-section-remove-delete-edit.assets/41371439a50b683e7498aad224234b7b.png)
 
-When you click the *Set Deleted* button for a specific selected procedure item(s) in the Tests & Procedures section, and the system saves your work, refreshes the encounter, opens you back up to the expanded Tests & Procedures section and that item(s) is removed from the pending due list. It has marked it with today's date as ‘deleted' in the background.  
+When you click the *Set Deleted* button for a specific selected procedure item(s) in the Tests & Procedures section, and the system saves your work, refreshes the encounter, opens you back up to the expanded Tests & Procedures section and that item(s) is removed from the pending due list. It has marked it with today's date as ‘deleted' in the background.
 You have visibility to that back in the Due List Chart Tab in the *Past Items* section when expanded.
 
 ![](../tests-and-procedures-section-remove-delete-edit.assets/aec01b033193e202abeca4266c1d61a5.png)

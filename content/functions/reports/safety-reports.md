@@ -17,7 +17,7 @@ links:
   - 'osha-statistics-report.md'
   - 'sharps-log-report.md'
 source: 'https://drive.google.com/open?id=1sFH8kq31zcYpQP02bncYToNOhPotamh6fcIu4misxgA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 This guide will go through the most common out of the box Safety Reports available in {{% system-name %}}, but more detailed information on each individual report is found in its own separate guide.
 
@@ -51,7 +51,7 @@ The OSHA 300 Log Report will show a summary of OSHA reportable cases. If a case/
 ![](../safety-reports.assets/cd7b9a1a4ae9cd62b2cdd445e610d8be.png)
 
 To better understand the OSHA 300 Log Report, review the [OSHA 300 Log Report](osha-300-log-report.md) online help documentation.  
-To review an additional feature of an OSHA 300 overlay onto the form through an Employer Organization chart in {{% system-name %}}, review the [OSHA 300 Form Log Overlay](osha-300-form-log-overlay.md) online help documentation.  
+To review an additional feature of an OSHA 300 overlay onto the form through an Employer Organization chart in {{% system-name %}}, review the [OSHA 300 Form Log Overlay](osha-300-form-log-overlay.md) online help documentation.
 To better understand the search filter fields available, review the [Common Case Search Report](common-case-search-report.md) online help documentation.
 
 ## OSHA 300A Report
@@ -61,7 +61,7 @@ The OSHA 300A Report will show a summary of OSHA reportable cases/incidents with
 ![](../safety-reports.assets/bfd3524edc4e603d8b3911a632ab49ab.png)
 
 To better understand the OSHA 300A Report, review the [OSHA 300A Report](osha-300a-report.md) online help documentation.  
-To review an additional feature of an OSHA 300A overlay onto the form through an Employer Organization chart in {{% system-name %}}, review the [OSHA 300A Form Log Overlay](osha-300a-form-log-overlay.md) online help documentation.  
+To review an additional feature of an OSHA 300A overlay onto the form through an Employer Organization chart in {{% system-name %}}, review the [OSHA 300A Form Log Overlay](osha-300a-form-log-overlay.md) online help documentation.
 To better understand the search filter fields available, review the [Common Case Search Report](common-case-search-report.md) online help documentation.
 
 ## OSHA 300/301 Case Data Report
@@ -76,7 +76,7 @@ To better understand the OSHA 300/301 Case Data Report, review the [OSHA 300/301
 
 ## OSHA Statistics Report
 
-The OSHA Statistics report will display columns of data that mimics the Injury Tracking Application (ITA) published by OSHA.gov website. Our {{% system-name %}} OSHA Statistics report helps provide a method for injury and illness data submissions you may be required to submit by OSHA.  Our OSHA Statistics report displays OSHA recordable cases/incidents for the *PRIOR year* of this current logged in session according to establishments (EO charts) that have that establishment/onsite work location noted as having any recordable injury/illness occurrences there. Meaning, it will look for and display information regarding OSHA recordable cases/incidents that have an injury/illness onset date of the *prior* year to today's logged in date, broken down by where it occurred (work location or site EO establishments) to result here.  This report provides a list  
+The OSHA Statistics report will display columns of data that mimics the Injury Tracking Application (ITA) published by OSHA.gov website. Our {{% system-name %}} OSHA Statistics report helps provide a method for injury and illness data submissions you may be required to submit by OSHA.  Our OSHA Statistics report displays OSHA recordable cases/incidents for the *PRIOR year* of this current logged in session according to establishments (EO charts) that have that establishment/onsite work location noted as having any recordable injury/illness occurrences there. Meaning, it will look for and display information regarding OSHA recordable cases/incidents that have an injury/illness onset date of the *prior* year to today's logged in date, broken down by where it occurred (work location or site EO establishments) to result here.  This report provides a list
 of all Sites or Work Location (chart type charts) and the related OSHA information applicable to the OSHA 300A form.  More information from OSHA is at https://www.osha.gov/injuryreporting
 
 ![](../safety-reports.assets/a153bc59d5459adf0bcdaa83bbd20910.png)

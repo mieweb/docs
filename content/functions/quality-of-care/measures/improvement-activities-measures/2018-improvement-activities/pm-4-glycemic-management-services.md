@@ -10,17 +10,17 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1QLvQHkwFRyEF28Fv9E6EsJETKvB-xE2KSqws4laQ0ME'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: High  
-**Subcategory Name**: Population Management  
+**Activity Weighting**: High
+**Subcategory Name**: Population Management
 **Description**: For outpatient Medicare beneficiaries with diabetes and who are prescribed antidiabetic agents (e.g., insulin, sulfonylureas), MIPS-eligible clinicians and groups must attest to having:
 * For the first performance year, at least 60 percent of medical records with documentation of an individualized glycemic treatment goal that: 
-   1. Takes into account patient-specific factors, including, at least 
+  1. Takes into account patient-specific factors, including, at least 
       1. age, 
       2. comorbidities, and 
       3. risk for hypoglycemia, and
@@ -37,8 +37,8 @@ Supporting Documentation
 
 
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+Resources
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 [2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

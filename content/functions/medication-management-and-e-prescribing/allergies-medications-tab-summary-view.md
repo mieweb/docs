@@ -7,17 +7,17 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.  
 Search for the patient you wish to view. Get into the patient's file.  
 Click the *MEDS* tab at the top menu in the patient's file. The *MEDS* summary screen pops up. This screen is the same screen you would see if you clicked the List link on the right top options also.  
-If patient has NO allergies/intolerances entered, and/or NO medications entered, the screen will give you a message that says *Allergies have NOT been entered for this patient.* Then you would either go add allergies/intolerances by clicking Add Allergy/Intol or Quick Allergy (see other instructions within this document) or you click the *Document patient has No Known Drug Allergies (NKDA)* from this screen.  
+If patient has NO allergies/intolerances entered, and/or NO medications entered, the screen will give you a message that says *Allergies have NOT been entered for this patient.* Then you would either go add allergies/intolerances by clicking Add Allergy/Intol or Quick Allergy (see other instructions within this document) or you click the *Document patient has No Known Drug Allergies (NKDA)* from this screen.
 Same for *Medications have NOT been entered for this patient*. You would enter or prescribe medications (see other instructions within this document) or you click the *Document patient has No Medications* from this screen.
 
 ![](../allergies-medications-tab-summary-view.assets/f7ba8b84419baae3c12b11354053e69e.png)
 
-You can *undo* NKDA or *undo* No Medications for the patient. Undo would mean that a user has tagged this patient as having No allergies and/or No Medications. A user can *undo* the category because either 1) it was done as a mistake/in error or 2) now need to add an allergy/intolerance and/or medication for this patient.  
+You can *undo* NKDA or *undo* No Medications for the patient. Undo would mean that a user has tagged this patient as having No allergies and/or No Medications. A user can *undo* the category because either 1) it was done as a mistake/in error or 2) now need to add an allergy/intolerance and/or medication for this patient.
 You do not have to *undo* a category. You can bypass this by clicking the *prescribe* or *quick add* hyperlinks in the Meds tab to add/prescribe meds or add allergies/intolerances.
 
 ![](../allergies-medications-tab-summary-view.assets/48cc9cba1a13a4b91fe6a17947eb4a32.png)
@@ -43,12 +43,12 @@ If a user has entered NKDA for the patient, it will say *This patient has no kno
 
 ![](../allergies-medications-tab-summary-view.assets/26aca289d2d43eb80dfbfd34186b53c3.png)
 
-Next to the heading title **Allergies and Intolerances** there is the option to show/hide deleted.  
+Next to the heading title **Allergies and Intolerances** there is the option to show/hide deleted.
 If click *show deleted* the Allergy/Intolerance summary screen will show **all** allergies/intolerances ever entered for this patient. It shows the deleted ones and under *reaction* will be the reason it was deleted (if a user typed something).
 
 ![](../allergies-medications-tab-summary-view.assets/c324aaf0fe66f2d400f479fc0af52167.png)
 
-Under options it shows *deleted* if allergy/intolerance was deleted which gives no further option to modify, etc. If only want to see active allergies/intolerances then click hide deleted and it does not show any deleted allergies/intolerances in your view.  
+Under options it shows *deleted* if allergy/intolerance was deleted which gives no further option to modify, etc. If only want to see active allergies/intolerances then click hide deleted and it does not show any deleted allergies/intolerances in your view.
 To add an allergy or intolerance: click either hyperlink Add Allergy/Intol or Quick Allergy at the top right.
 * <strong>Add Allergy/Intol</strong>: Will allow you to add an allergy and/or intolerance one at a time.
 * <strong>Quick Allergy</strong>: Will allow you to add 10 allergies and/or intolerances at a time.
@@ -58,13 +58,13 @@ To add an allergy or intolerance: click either hyperlink Add Allergy/Intol or Qu
 
 #### Add Allergy/Intol.
 
-Allergies/Intolerances show up in a list in the medication history screen, and also at the top of any other tab you are working in for a patient.  
+Allergies/Intolerances show up in a list in the medication history screen, and also at the top of any other tab you are working in for a patient.
 *See other separate help documentation called Allergies and Intolerances for help on how to add/edit/delete allergies and intolerances.*
 
 ### Pending E-Refill Requests
 
 The next section will show any *Pending E-Refill Requests* if your practice uses the electronic e-refills queue which allows users to work incoming electronic refill requests from pharmacies using the E-RX tab.  
-This will only show up if your practice is using the E-RX tab and has that feature turned on for the physicians.  
+This will only show up if your practice is using the E-RX tab and has that feature turned on for the physicians.
 If your physician is set up to work the e-refills queue, they will now see pending e-refill requests in the patient's e-meds tab. They can see any pending e-refills specific to that patient that need worked (are pending) if they're working in a patient's chart. This saves a step of having to go to the E-RX tab to find the refill for that patient. This will only show up for the physician who has been set up with SureScripts to receive E-Refill requests. Other users will not see this *pending e-refill requests* section, unless they have security rights to manage e-refills for others.
 
 ![](../allergies-medications-tab-summary-view.assets/5eebaeb5db3a7ff030a684b95d8df5f6.png)
@@ -83,7 +83,7 @@ This summary box will show if your system setting for it is on to display this s
 
 ![](../allergies-medications-tab-summary-view.assets/4bc5a5aeebecdc473bb4e6aa9d6510b5.png)
 
-This section shows medications that are due for refills according to the Medications in the history input below. Only meds that were prescribed **without** a discontinue date will appear here.  
+This section shows medications that are due for refills according to the Medications in the history input below. Only meds that were prescribed **without** a discontinue date will appear here.
 This refill screen means that the prescription has expired according to the original duration and original number of refills on the original prescription.
 
 ![](../allergies-medications-tab-summary-view.assets/1f5e20ac73fd5da3185baec5ee478cc7.png)
@@ -133,13 +133,13 @@ If you see a printer icon next to the drug name, it is a quick link to the drug 
 
 * <strong>Start Date</strong>: Date that was entered when to start this drug or date prescription was given.
 * <strong>Options</strong>: Shows end date, discontinued, if drug is expired, changed or will discontinue. (If wish to see/hide the meds in this list that are discontinued, click the Show/Hide Discontinued option). Also gives you these options:
-   * <strong>Edit</strong>:<strong> </strong>Allows you to choose to change therapy of the drug or correct error
-     on the prescription. See directions on how to perform these options below in
-     How to Edit a Prescription Already Done
-   * <strong>Delete</strong>: Only delete a drug if it is entered in error or is on the wrong patient, etc. If a patient has stopped using this medication, you would choose discontinue. A warning box will appear when you click delete to specify this also. Type in the reason you are deleting the drug and click <strong>Submit</strong>.
-   * <strong>Discontinue</strong>: Only discontinue a drug if the patient is no longer taking the medication or you want to have the patient stop taking this med, etc. Type the date discontinued and reason for discontinue. Click Simply Discontinue, or Mark Intolerant, or Mark Allergic, or Cancel. Mark Intolerant or Allergy will automatically put it in the patient's Allergies/Intolerants summary. To discontinue multiple drugs at once, go to Quick Add and scroll down to check-mark boxes of drugs to discontinue with a reason. However, this will not allow you to mark it as intolerant or as an allergy and will not put that drug in the patient's Allergies/Intolerances summary if that is the reason for discontinuing the med.
-   * <strong>Refill</strong>: See directions above in Refills Due.
-   * <strong>Reprint</strong>: The "Reprint" link on the medication list will only be available for 5 days after the prescription is written.
+  * <strong>Edit</strong>:<strong> </strong>Allows you to choose to change therapy of the drug or correct error
+    on the prescription. See directions on how to perform these options below in
+    How to Edit a Prescription Already Done
+  * <strong>Delete</strong>: Only delete a drug if it is entered in error or is on the wrong patient, etc. If a patient has stopped using this medication, you would choose discontinue. A warning box will appear when you click delete to specify this also. Type in the reason you are deleting the drug and click <strong>Submit</strong>.
+  * <strong>Discontinue</strong>: Only discontinue a drug if the patient is no longer taking the medication or you want to have the patient stop taking this med, etc. Type the date discontinued and reason for discontinue. Click Simply Discontinue, or Mark Intolerant, or Mark Allergic, or Cancel. Mark Intolerant or Allergy will automatically put it in the patient's Allergies/Intolerants summary. To discontinue multiple drugs at once, go to Quick Add and scroll down to check-mark boxes of drugs to discontinue with a reason. However, this will not allow you to mark it as intolerant or as an allergy and will not put that drug in the patient's Allergies/Intolerances summary if that is the reason for discontinuing the med.
+  * <strong>Refill</strong>: See directions above in Refills Due.
+  * <strong>Reprint</strong>: The "Reprint" link on the medication list will only be available for 5 days after the prescription is written.
 In the options column, it will also show status of prescriptions. For example it will show if the prescription has been **Changed** or if the prescription has been **Discontinued** or if the prescription is **Expired**, etc.
 
 ![](../allergies-medications-tab-summary-view.assets/c0b7344623e00a3cbe0d813c00ac21d9.png)
@@ -201,7 +201,7 @@ A summary of the prescription will appear in the center. You can *edit* a prescr
 Other categories found below the edit section are:
 * <strong>Refills:</strong> shows a list summary of when that med was refilled.
 * <strong>Medication Revisions:</strong> shows a list summary of all revisions done to this medication.
-   * When: When the change/revision/edit was made.
-   * By: Who made the change/revision/edit.
-   * The other categories display what the Drug Name/Prescriber/Sig/Start Date was prior to any edit/change/revision. Shows the history of revisions and what all was changed each time.
+  * When: When the change/revision/edit was made.
+  * By: Who made the change/revision/edit.
+  * The other categories display what the Drug Name/Prescriber/Sig/Start Date was prior to any edit/change/revision. Shows the history of revisions and what all was changed each time.
 * <strong>Printed/Faxed Dates:</strong> shows a list summary of all printed/faxed dates & information regarding this medication.

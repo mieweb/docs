@@ -7,11 +7,11 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Side Chart Access
 
-When working anywhere in {{% system-name %}} , you will see the ability to open a side chart.  
+When working anywhere in {{% system-name %}} , you will see the ability to open a side chart.
 Clicking this icon near the patient's MR# will expand and display a side chart on the right side. The side chart should be used for a **brief** overview of information found within the chart. Demographic information is in the blue section followed by default sections named *Notes, Medical Records and Summary Tests*. This offers the ability to browse and look at documents housed in these 3 sections without getting out of the encounter or going to the other chart tabs outside the encounter. The red *Comments* section expands to display any alert documents the chart may have on it.
 
 ![](../side-chart-configuration.assets/a9d31a355f725fb9ca91a5e15c6c728f.png)
@@ -35,7 +35,7 @@ To customize the sidechart tabs, you first need to decide which tabs you want on
 
 Then create or activate a chart tab named "Side Chart". This tab will house your sub-tabs/sections that you deem to be in the side chart. If this chart tab does not exist, the default sidechart will be used with the 3 default sections of Notes, Medical Records, and Summary Tests.
 
-**Step 1**: Decide on/create the tabs you want displayed within the chart tab called "Side Chart". These can be existing tabs or new tabs. *These need to be a Document List View type tab.*  
+**Step 1**: Decide on/create the tabs you want displayed within the chart tab called "Side Chart". These can be existing tabs or new tabs. *These need to be a Document List View type tab.*
 **Step 2:**
 * Create tab named: Side Chart
 * Default View: Sub Tab View

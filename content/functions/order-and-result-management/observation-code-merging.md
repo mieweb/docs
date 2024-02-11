@@ -7,23 +7,23 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Must have security permission to access observations code manager and to merge them.  
 Look to see which is the most commonly used code. Either clicking on the obs code value or ‘View' gives the observation count. Find the one used the most. Summary: whatever you want to merge, you simply click ‘Merge' on the code you're eliminating, and then enter the obs code number that you want it to become in the ‘Destination' box.  
-Click on the Control sidetab menu.  
+Click on the Control sidetab menu.
 Click on the Observation Codes tab at the top.
 
 ![](../observation-code-merging.assets/a17c58c59957d7e6132ee9f031760103.png)
 
 You can search as you wish, but we recommend that in the Criteria search field, choose the **Contains** option by using the drop-down.  
 In the Search field, type in the name of the observation that you need to locate. You can type in partial and it will render the search according to the partial text you entered.  
-In the By field, choose **Observation Name** using the drop-down.  
+In the By field, choose **Observation Name** using the drop-down.
 Click on the **Go** button.
 
 ![](../observation-code-merging.assets/798455e793ee1b9921266b2c6507ce80.png)
 
-When merging an observation code you will want to merge from the observation code that you want to be *removed/overwritten*. For example, if want to merge observation code 792 Glucose to observation 212 glucose you will merge **from** observation 792 glucose.  
+When merging an observation code you will want to merge from the observation code that you want to be *removed/overwritten*. For example, if want to merge observation code 792 Glucose to observation 212 glucose you will merge **from** observation 792 glucose.
 Click on the Merge option to the right of the observation you want to be removed and is to merge into the other. Using the above example, you would click merge on 792 because you will be merging it into 212. Then, 212 will be the saved/stored observation and 792 will go away.
 
 ![](../observation-code-merging.assets/5e5df8a4846bbc478716408192f81760.png)

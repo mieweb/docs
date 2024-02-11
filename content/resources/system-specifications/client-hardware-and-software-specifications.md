@@ -7,11 +7,11 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Hardware and Software Requirements   
 
-This document outlines the minimum hardware and software requirements to properly load and run the web-based {{% system-name %}} application.  
+This document outlines the minimum hardware and software requirements to properly load and run the web-based {{% system-name %}} application.
 Practice Requirements These hardware requirements apply regardless of practice size. Practices determine the number of locations and devices needed for their workflow, and MIE workflow specialists are available to assist with this process.
 
 ## Windows Workstation

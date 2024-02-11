@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Uhs9uOsLcJ0FleAY55Z_Hsu7B2HliJQ0SPThhuDuW4U'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: High  
+**Activity Weighting**: High
 **Subcategory Name**: Population Management  
 **Description**: Participating in a Rural Health Clinic (RHC), Indian Health Service Medium Management (IHS), or Federally Qualified Health Center in ongoing engagement activities that contribute to more formal quality reporting, and that include receiving quality data back for broader quality improvement and benchmarking improvement which will ultimately benefit patients. Participation in Indian Health Service, as an improvement activity, requires MIPS-eligible clinicians and groups to deliver care to federally recognized American Indian and Alaska Native populations in the U.S., and in the course of that care, implement continuous clinical practice improvement including reporting data on quality of services being provided and receiving feedback to make improvements over time.
 
@@ -30,8 +30,8 @@ Supporting Documentation
 
 
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
+Resources
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 [2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

@@ -6,14 +6,14 @@ version: 39
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 There are a few reports a superuser can run to monitor clinicians and see where they are currently on their Meaningful Use calculations and/or to see which clinicians have opted in for Meaningful Use and each measure they have checkmarked to report/calculate on.
 
 ## Meaningful Use Compliance Report
 
 There is a *Meaningful Use Compliance Report* (Meaningful Use status for all enrolled physicians) for seeing the compliance calculations with all enrolled measures for every eligible provider.  
-If you are a superuser who needs to see all the providers & where they sit (in regards to % calculations) for the measures they opted in for, you can access that from the Meaningful Use Compliance report.  
+If you are a superuser who needs to see all the providers & where they sit (in regards to % calculations) for the measures they opted in for, you can access that from the Meaningful Use Compliance report.
 This report can be found in your REPORTS sidemenu tab. Below are screenshots showing the 2 possible tabs it may be found in depending on your {{% system-name %}} system.
 
 ![](../meaningful-use-reports.assets/dbb16a9b323b36806f90352084eb48e6.png)
@@ -38,7 +38,7 @@ Under the reporting year drop-down selection there is also a multi-autocomplete 
 ## Meaningful Use Enrollment Report
 
 There is a *Meaningful Use Enrollment Overview* report for viewing the Meaningful Use enrollment for all clinicians and what measures each enrolled in.  
-If you are a superuser who needs to see all the providers and what measures they opted in for in {{% system-name %}} , you can access that from the Meaningful Use Compliance report. This report shows the measures only the provider is opted in for. Not any calculations or % (which is available from the other report named Compliance/Status).  
+If you are a superuser who needs to see all the providers and what measures they opted in for in {{% system-name %}} , you can access that from the Meaningful Use Compliance report. This report shows the measures only the provider is opted in for. Not any calculations or % (which is available from the other report named Compliance/Status).
 This enrollment report (measures providers opted in for in {{% system-name %}} ) can be found in your REPORTS sidemenu tab. Below are screenshots showing the 2 possible tabs it may be found in depending on your {{% system-name %}} system.
 
 ![](../meaningful-use-reports.assets/92f27e9f1ee7f368e50146d594d6e4f6.png)
@@ -55,7 +55,7 @@ The system report will run and render. It will list every user who has opted in 
 ## Meaningful Use Measure Override Report
 
 There is a *Meaningful Use Measure Override* report for viewing the Meaningful Use measures that a {{% system-name %}} user manually marked to include or pass in a meaningful use measure they are tracking for a provider.  
-This allows you to run a report by date range or performing provider on the encounter(s) of those meaningful use measures that were manually overrode (manually checkmarked, uncheckmarked) in the encounter ‘view' for the Quality Section of meaningful use measure reporting.  
+This allows you to run a report by date range or performing provider on the encounter(s) of those meaningful use measures that were manually overrode (manually checkmarked, uncheckmarked) in the encounter ‘view' for the Quality Section of meaningful use measure reporting.
 This override report can be found in your REPORTS sidemenu tab.
 
 ![](../meaningful-use-reports.assets/a06004835700de74bb6d2d1f3ca1c732.png)

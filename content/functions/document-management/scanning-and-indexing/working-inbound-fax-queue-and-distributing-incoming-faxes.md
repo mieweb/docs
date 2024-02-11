@@ -10,7 +10,7 @@ links:
   - 'mailto:noreplywebchart@med-web.com'
   - 'mailto:helpdesk@mieweb.com'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Incoming/Pending Faxes
 
@@ -21,12 +21,12 @@ Incoming faxes for certain fax numbers can be found within {{% system-name %}} ,
 Depending on your "folder preference" you are set to, you will default to show all incoming faxes (files) in the queue that need to be worked on. The folder on the left column is highlighted in light grey as to which folder your are in and viewing files/faxes for. If your preference is set to a specific category then that is the folder you will default to each time you go into the IFQ. To set your default category/folder you want to land out (instead of Inbox), click the **preferences** tab at the top and set your category to default to.  
 The IFQ module by default will open to the Inbox (unless you have set a different preference folder) and automatically opens to show all the "pending" (read & unread) status faxes/files. Files in **bold** are unread files. Files in un-bold are files that have been viewed but nothing done to them yet. Using the keyboard arrow keys would move from file to file (message to message). If you then click on the body of a message file, it will scroll the message/file. Clicking on another message or the same message will put focus back to the list again.  
 The items are ordered by their creation date/time with the most recent on top.  
-It shows the sender (who sent the fax), the recipient (your practice's fax number it was sent to). It also shows the total number of pages, the date & time it was received and it shows the status of those faxes.  
+It shows the sender (who sent the fax), the recipient (your practice's fax number it was sent to). It also shows the total number of pages, the date & time it was received and it shows the status of those faxes.
 For the sender column, there is a system setting your MIE Implementer can turn on (or back off) to show sender name, not just fax #. If the sender's fax number is already in the practice's {{% system-name %}} , then it will display sender with the sender's name/practice name in this column also (see above screenshot). Not just fax # only.
 
 ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/949ee12e3c4dea716a8b35635da1fbff.png)
 
-The options column shows a checkbox. If you hover your mouse over open link, it will show the IFQ Fax Q id #. If you click open, the alternatiff screen will open and show you each page of the fax in a "preview" type of mode. You can only view the fax on the screen or can print it if you wish. To get out of the preview mode, you will need to X out of it when done looking at it. You cannot process/distribute the fax from the "open" link. However, when you look at it using open the fax will remain in the *pending/read* status files. Previewing/opening a fax does not change its status.  
+The options column shows a checkbox. If you hover your mouse over open link, it will show the IFQ Fax Q id #. If you click open, the alternatiff screen will open and show you each page of the fax in a "preview" type of mode. You can only view the fax on the screen or can print it if you wish. To get out of the preview mode, you will need to X out of it when done looking at it. You cannot process/distribute the fax from the "open" link. However, when you look at it using open the fax will remain in the *pending/read* status files. Previewing/opening a fax does not change its status.
 You can also "view" it in the body message below if you click on the file/fax in your inbox. To work or distribute a fax, you would check-mark the box in the options column and proceed from there (see next steps on subsequent pages).
 
 ## Advanced Search Fields
@@ -39,15 +39,15 @@ The search field in Fax/File Q are fields you can fill out to narrow down a sear
 
 * <strong>Sender</strong> field: This is a <em>"starts as"</em> search. You can type in ex: 260459 to search and work only the incoming faxes from fax #'s that start with area code 260 and prefix 459. It is <em>not</em> a partial search, it's a "starts as" search. You can also type in the entire 10-digit fax number the fax is received from (the sender) to narrow down results to show only faxes sent from a specific sender (fax#). Or can enter the first characters of a name if stored as an identified name. A fax # can be stored as an identified name if the fax # is loaded in the Fax-Physician or other department in control.
 * <strong>Status</strong> drop-down field:
-   * <strong>"Pending"</strong> means these are incoming faxes which no user has looked at yet in the Fax/file Q. They are new faxes and need to be processed by a user.
-   * <strong>"Read"</strong> status means the faxes in this category were viewed, but nothing was done to these faxes/files yet by a user. It wasn't emailed, wasn't batched, wasn't deleted, wasn't uploaded into the patient's chart, etc. After viewing a file for 5 seconds it will be marked as "read" and appear un-bolded.
-   * <strong>"Batched"</strong> means the faxes in this status were sent as a batch to index in WebScan by a user in the Fax/file Q. These were batched and sent to WebScan to be indexed and uploaded into a patient's chart.
-   * <strong>"Deleted"</strong> means the faxes in this category were deleted by a user in the Fax/file Q. They were not needed for a chart; they are faxes of junk, etc. The system is usually set to purge these deleted faxes in 90 days, however contact your MIE Implementer to find out. They cannot be retrieved after that purged date. Your MIE Implementer can change the system setting to a different number of days to purge the deleted faxes if you wish.
+  * <strong>"Pending"</strong> means these are incoming faxes which no user has looked at yet in the Fax/file Q. They are new faxes and need to be processed by a user.
+  * <strong>"Read"</strong> status means the faxes in this category were viewed, but nothing was done to these faxes/files yet by a user. It wasn't emailed, wasn't batched, wasn't deleted, wasn't uploaded into the patient's chart, etc. After viewing a file for 5 seconds it will be marked as "read" and appear un-bolded.
+  * <strong>"Batched"</strong> means the faxes in this status were sent as a batch to index in WebScan by a user in the Fax/file Q. These were batched and sent to WebScan to be indexed and uploaded into a patient's chart.
+  * <strong>"Deleted"</strong> means the faxes in this category were deleted by a user in the Fax/file Q. They were not needed for a chart; they are faxes of junk, etc. The system is usually set to purge these deleted faxes in 90 days, however contact your MIE Implementer to find out. They cannot be retrieved after that purged date. Your MIE Implementer can change the system setting to a different number of days to purge the deleted faxes if you wish.
 
 ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/a508b72730a5d5c94560ee4f44196dea.png)
 
-* <strong>"Auto-Indexed"</strong> means a fax came in that has a barcode on the coversheet, if the system setting to <em>Auto-Index Incoming Faxes</em>  
-   is turned on, then the Inbound Fax Queue will attempt to read that barcode and put the fax into the patient's chart. If this is successful, it marks that fax as Auto-Indexed and stores in this ‘status'. If not, it goes to this IFQ as usual. The system setting is turned off by default, but to turn this feature on, set the system setting to 1 or contact your MIE Implementer. <img src="../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/84b2cf522a257a847fe9d42eb46cde80.png" />
+* <strong>"Auto-Indexed"</strong> means a fax came in that has a barcode on the coversheet, if the system setting to <em>Auto-Index Incoming Faxes</em>
+ is turned on, then the Inbound Fax Queue will attempt to read that barcode and put the fax into the patient's chart. If this is successful, it marks that fax as Auto-Indexed and stores in this ‘status'. If not, it goes to this IFQ as usual. The system setting is turned off by default, but to turn this feature on, set the system setting to 1 or contact your MIE Implementer. <img src="../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/84b2cf522a257a847fe9d42eb46cde80.png" />
 
 * <strong>Create:</strong> You can search by specific date the fax was received.
 * <strong>Recipient:</strong> You can use the drop-down to select and search a specific recipient fax #. The recipient fax# is the fax # that the fax was received (if your practice has multiple fax machines/numbers).
@@ -94,14 +94,14 @@ If there is more than one page in a fax, you can look at all the pages in two wa
 
 ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/38aa15151390a4838fbfb81dca74a8ed.png)
 
-Follow these instructions to begin processing/distributing the faxes in various methods.  
+Follow these instructions to begin processing/distributing the faxes in various methods.
 Files/Faxes can be added to a batch, e-mailed to someone in your organization, deleted, tasked, categorized and/or printed. All of those options appear as function buttons at the top of the IFQ screen.
 * <strong>Create Batch:</strong> When you have decided that this faxed document or file needs to go into a patient's chart, simply click the button that says "Create Batch".
 If you previewed/read the faxes/files, you can check-mark the files that you want to process in *bulk* and can simply check-mark the boxes and then select *Create Batch* button at the top. These are quick links to process/distribute faxes that you know for sure should be processed by those methods.
 
 ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/999086d607b63228e5a326284b96c100.png)
 
-If you click **Create Batch**, it will prompt you to type in a comment for that batch and then click *Create Batch button* again (or cancel). Creating a ‘batch' puts those faxes and all pages of the fax(es) into WebScan for someone to index into patient's charts.  
+If you click **Create Batch**, it will prompt you to type in a comment for that batch and then click *Create Batch button* again (or cancel). Creating a ‘batch' puts those faxes and all pages of the fax(es) into WebScan for someone to index into patient's charts.
 If you click **Create Batch & Index** all those faxes/files you check-marked will become a batch, it will prompt you to type in a comment for that batch, then click *Create Batch & Index* then it will automatically take you directly to WebScan to index those documents immediately. **If you have pop-up blocker on, it will not automatically open WebScan from here.**
 
 ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/5f2f14f53036db5df9f453613406c9ca.png)

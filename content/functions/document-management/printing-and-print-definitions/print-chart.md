@@ -14,7 +14,7 @@ links:
   - 'https://system/?func=scheduler&s=apttypes'
   - 'https://system/?func=scheduler#Now'
 source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Within every chart, there are several quick links available. One of these quick links is the **Print Chart** link, which allows users to fax or print pre-established or configured print definitions from the Scheduler, the Appointments chart tab, or from within the individual's E-Chart. In other words, using the Print Chart link provides users a way to print or fax predefined groupings of documents, forms, layouts, or the like, so that any specific packets of information, or stored documents, may easily be provided via fax, or else printed and provided to a performing facility or a patient, as needed. Print definitions can include individual documents or certain forms, multiple-page packets, or even chart information, such as a medication summary or a list of immunizations.
 
@@ -36,10 +36,10 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 ![](../print-chart.assets/78a68c7140b52bdae847c8f3a696f9e5.png)
 
 
-**Print Definition**: The Print Definition drop-down lists the print definitions programmed from the Print Definition editor of the Control Panel. Any print definitions restricted from the user will not be displayed in the drop-down selector. The appropriate print definition must be selected when printing or faxing.  
-**Definition Alert**: This field will appear when a selected print definition has been configured with an alert. Be sure to review any alerts that may appear when selecting a print definition.  
-**Comment**: The Comment field can be used to add a comment to a fax coversheet, or when printing, the comment will be stored with the history of the print job details. However, when using a Records Release print definition, the Comment field must be used to provide a reason for the Records Release.  
-**Range Start Date**: This is an optional field. Users may provide a start date/time range filter of the documents included in the selected print definitions.  
+**Print Definition**: The Print Definition drop-down lists the print definitions programmed from the Print Definition editor of the Control Panel. Any print definitions restricted from the user will not be displayed in the drop-down selector. The appropriate print definition must be selected when printing or faxing.
+**Definition Alert**: This field will appear when a selected print definition has been configured with an alert. Be sure to review any alerts that may appear when selecting a print definition.
+**Comment**: The Comment field can be used to add a comment to a fax coversheet, or when printing, the comment will be stored with the history of the print job details. However, when using a Records Release print definition, the Comment field must be used to provide a reason for the Records Release.
+**Range Start Date**: This is an optional field. Users may provide a start date/time range filter of the documents included in the selected print definitions.
 **Range End Date**: This is an optional field. Users may provide an end date/time range filter of the documents included in the selected print definitions.
 
 

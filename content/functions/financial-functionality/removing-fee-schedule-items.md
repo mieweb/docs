@@ -9,7 +9,7 @@ links:
   - 'finding-fee-schedules.md'
   - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=187UVX4E-pSGk_vuUSTIVtKyQ5TrmNSUdUKlCumYEb70'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 1. [Find the fee schedule](finding-fee-schedules.md) to which to remove items or [view all fee schedules](viewing-all-fee-schedules.md). Select the name of the one to which to remove items. Items in the fee schedule appear in the <em>Fee Schedule Items</em> section.
 2. In the <em>Fee Schedule Items</em> section, at the right of the item to remove, select the <strong>trash can</strong>. The system displays the <em>Please choose</em> window and prompts to confirm deleting the item.

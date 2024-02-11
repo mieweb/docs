@@ -7,7 +7,7 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Must have security permission to access username screen.
 
@@ -49,14 +49,14 @@ You can narrow down your search results by entering any information in the follo
 * <strong>Granted:</strong> Was the action allowed (Yes) or not (No).
 
 Click SEARCH to show the search results according to the fields you entered data for.  
-The results are specific to that user you are in.  
+The results are specific to that user you are in.
 If you wish to view a specific activity from the results, click **View** link in the Activity Details column. It will take you to the Activity Log report and you can click Submit Query to view that exact activity of the user.
 
 
 ![](../view-user-audit-log.assets/7de18b0d5675e319d84462be0ff1b305.png)
 
 
-Continue to search by modifying the search fields, or by clicking CLEAR ALL to start another search.  
+Continue to search by modifying the search fields, or by clicking CLEAR ALL to start another search.
 To get out of the Audit Log Search, click the Close Window link at the top right of the Audit Log screen.
 
 ## System Settings

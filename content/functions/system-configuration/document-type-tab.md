@@ -7,10 +7,10 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Click *Control* on the left sidebar menu.  
-Click *Document Types* tab at the top. (You must have security role permission to access the Document Types tab)  
+Click *Document Types* tab at the top. (You must have security role permission to access the Document Types tab)
 It will then pop-up the entire listing of all **active** document types that have been entered for your system. Document types are names of documents for any patient's medical records.
 
 ![](../document-type-tab.assets/126501665bed2c4bfe0b429c4e53749f.png)
@@ -23,7 +23,7 @@ You can scroll the page up and down to search/find the document type you want to
 ![](../document-type-tab.assets/2bba399be7160aa718d70783bdafbad3.png)
 
 In *Search* field, type in either the document type abbreviation **or** the document type description name and click *Search*. It will search by both. It will then display any matches. You do not have to type the complete entire abbreviation or description. You can type in a few letters of the document type abbreviation or document type description name and it will display any matches. This is a "contains as" search so any doc.types that contain what your search it, will result.  
-If your match choices did not display what you wanted to find, type in another search. If you want to get back to the main, full document type tab listing, click the *Clear* button and it will bring you back to the full document type listing and you can search again.  
+If your match choices did not display what you wanted to find, type in another search. If you want to get back to the main, full document type tab listing, click the *Clear* button and it will bring you back to the full document type listing and you can search again.
 You can also search by *Chart Type*. Some documents are only utilized in specific types of charts. {{% system-name %}} houses many things as "charts" besides patients. You can use the drop-down arrow to select a specific chart type to filter your search results on.
 
 ![](../document-type-tab.assets/91a1189e11d6b44763aa0ab4fab08dfa.png)
@@ -66,7 +66,7 @@ The description of columns are as follows:
 
 #### Inactive (Document Types)
 
-Click Inactive to view the inactive document types listing.  
+Click Inactive to view the inactive document types listing.
 These inactive document types listed are inactive in the system.
 
 ![](../document-type-tab.assets/2337f63330c54ee634fd71bbdbd3b3fa.png)
@@ -112,7 +112,7 @@ This is for MIE programming use only or if you are trained as a Super-User and h
 
 Click *E-Chart* on the left sidebar menu.  
 Click *Document Types* tab at the top. (You must have security role permission to access the Document Types tab)  
-It will then display the entire listing of all **active** document types that have been entered for your system.  
+It will then display the entire listing of all **active** document types that have been entered for your system.
 Document types are names of documents for any patient's medical records. At the top right of the screen says SHOW: click Add Document Type to create a new document type for your system. Click Add Document Type to add a new document type to your system.
 
 ![](../document-type-tab.assets/cdc89f3f20d17293db926c03a28b269f.png)
@@ -135,9 +135,9 @@ After you have clicked Add Document Type, the Add a Document Type screen will op
 The drop-down choices of Chart Tabs available to tag the document type to are the chart tabs in the system that are able to display documents. If the chart tab does not appear in the drop-down, it is because the chart tab has a ‘default view' (functionality) set that does not allow the display of documents within that tab. You must link the document type to a Chart Tab in order for it to be filed/shown in that chart tab. You can also link a document type from the Chart Tab module.
 {{% /info %}}
 * <strong>Style</strong>: type the style that you want this document to show as when looking in a patient's chart. You can make it a colored background for this specific document type, can change the font, font size, color of font, etc. This does <strong>not</strong> affect the way it prints. This is strictly styles for viewing in documents in {{% system-name %}} only.
-   * <strong>Sample Text</strong>: Will show a sample of what the text/background, etc looks like while you are programming the style.
-      * <strong>Click the</strong>  
-         <img src="../document-type-tab.assets/59f169f5ba600ee1ceb8f7dbfc56f6c6.png" />  
+  * <strong>Sample Text</strong>: Will show a sample of what the text/background, etc looks like while you are programming the style.
+      * <strong>Click the</strong>
+ <img src="../document-type-tab.assets/59f169f5ba600ee1ceb8f7dbfc56f6c6.png" />  
          <strong>next to Sample Text to get a complete help listing of these programming options.</strong>
 {{% note %}}
 

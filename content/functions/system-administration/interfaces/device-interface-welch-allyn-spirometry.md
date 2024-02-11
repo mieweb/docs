@@ -6,9 +6,9 @@ version: 38
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-The following is referring to a Welch Allyn CardioPerfect spirometry system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.  
+The following is referring to a Welch Allyn CardioPerfect spirometry system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 From the chart tab named *PFT* or while working inside an encounter in the PFT section of fields that opens up, make sure the "file type" is correctly defaulted/selected for your spirometry device (CardioPerfect is what these instructions are for).
 
 ![](../device-interface-welch-allyn-spirometry.assets/278bd91e8673a0fddf083772fb20031f.png)
@@ -41,12 +41,12 @@ The PFT data results will automatically import into the patient chart in {{% sys
 
 ![](../device-interface-welch-allyn-spirometry.assets/3f27cba5b17803920610374922cfcb87.png)
 
-Encounters: When adding an in-office procedure of a PFT, there is a new option to not automatically populate the PFT Tool with the most recent maneuver. Example: a PFT was done 3 days ago and a new encounter is created/opened and an in-office procedure of PFT is selected to be done today, the PFT screen by default will pull the last maneuver & results/date. If want that off and clean screen to type in results, this is done with an attribute to the new tag WCPFTTOOL "populate_last_maneuver". By default it is on (to pull the most recent maneuver).  
+Encounters: When adding an in-office procedure of a PFT, there is a new option to not automatically populate the PFT Tool with the most recent maneuver. Example: a PFT was done 3 days ago and a new encounter is created/opened and an in-office procedure of PFT is selected to be done today, the PFT screen by default will pull the last maneuver & results/date. If want that off and clean screen to type in results, this is done with an attribute to the new tag WCPFTTOOL "populate_last_maneuver". By default it is on (to pull the most recent maneuver).
 Manual Entry: In the PFT manual entry screen, there is ability to enter an interpretation and mark a maneuver as the best maneuver. Views of the interpretation of a maneuver in the list of all maneuvers will show the first 25 characters and the rest is available when hovering over it.
 
 ![](../device-interface-welch-allyn-spirometry.assets/24613d4e362c92556f3cf852287d69d0.png)
 
-You can scroll down to the **Comments** section on the PFT {{% system-name %}} screen and document any comments from the test.  
+You can scroll down to the **Comments** section on the PFT {{% system-name %}} screen and document any comments from the test.
 The **Load Data** section will be highlighted (both lines/files). Click the **Upload File** button to upload the data into the patient's chart to be stored and saved.
 
 ![](../device-interface-welch-allyn-spirometry.assets/22f0bf3007795c34afa926cd24d07ff6.png)

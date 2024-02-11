@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Using the Phone to Call in Dictation
 
@@ -26,23 +26,23 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 ### Phone Dictation Keypad Options
 
-**2 – Continue Recording (if it is paused)**  
-**3 – Rewind 5 seconds**  
-**4 – Pause**  
-**5 – Go to next dictation (upload, and start a new one)**  
-**6 – Fast Forward to the end of the dictation**  
-**7 – Fast forward 5 seconds**  
-**8 – Rewind to the beginning of the dictation**  
-**9 – Start a new dictation**  
-**0 – Erase all the dictation and start over**  
-**(1 – not an option/does not work)**  
-**# - End dictation and get a menu to upload and set priority**  
+**2 – Continue Recording (if it is paused)**
+**3 – Rewind 5 seconds**
+**4 – Pause**
+**5 – Go to next dictation (upload, and start a new one)**
+**6 – Fast Forward to the end of the dictation**
+**7 – Fast forward 5 seconds**
+**8 – Rewind to the beginning of the dictation**
+**9 – Start a new dictation**
+**0 – Erase all the dictation and start over**
+**(1 – not an option/does not work)**
+**# - End dictation and get a menu to upload and set priority**
 *** - In listen mode; will play next dictation for found patient. All other keys will start a new search90 for dictation.**
 
 ## Using the SpeechMike to Dictate
 
-The below information is specific to **Model LFH5276** SpeechMike Pro hardware. Using the handheld SpeechMikes to dictate directly into the system. This tags dictation to the specific patient.  
-**There is a MY SETTINGS preference a user can set for the Control Device:** *You can choose which control device you use for the MIEplayer. This goes along with version 2.24 of the MIEplayer. The player supports generic HID devices that may conflict with the SpeechMike so we now need to specify which control device to use. This chooses which device your MIEplayer uses. If there is more than one control device hooked up to a computer, this tells it to use a certain one. Example: There may be a physician who likes to use a foot pedal but shares the computer with other physicians that uses the SpeechMike. The Configure in Player selection for this setting will use the setting that is stored on the computer and accessed in the player's config window. If a specific control device is selected (SpeechMike, USB Pedal, etc) then this preference setting will override what the player has configured.*  
+The below information is specific to **Model LFH5276** SpeechMike Pro hardware. Using the handheld SpeechMikes to dictate directly into the system. This tags dictation to the specific patient.
+**There is a MY SETTINGS preference a user can set for the Control Device:** *You can choose which control device you use for the MIEplayer. This goes along with version 2.24 of the MIEplayer. The player supports generic HID devices that may conflict with the SpeechMike so we now need to specify which control device to use. This chooses which device your MIEplayer uses. If there is more than one control device hooked up to a computer, this tells it to use a certain one. Example: There may be a physician who likes to use a foot pedal but shares the computer with other physicians that uses the SpeechMike. The Configure in Player selection for this setting will use the setting that is stored on the computer and accessed in the player's config window. If a specific control device is selected (SpeechMike, USB Pedal, etc) then this preference setting will override what the player has configured.*
 *There are also two user preferences in dictation named: Use SpeechMike for record and Use SpeechMike for playback. These can be se*t *to tell the dictation control to use the SpeechMike for playback and/or recording. This overrides the setting in the dictation control unless ‘configure in player' is what the preference is set to. If ‘configure in player' is set here, then the settings in the config of the MIEPlayer is what it will respect. These two new user preferences allow for multiple users to share a computer and have different settings.*
 
 ### Dictate from Chart

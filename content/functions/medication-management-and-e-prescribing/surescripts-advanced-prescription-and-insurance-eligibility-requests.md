@@ -6,29 +6,29 @@ version: 71
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The SureScripts advanced functionality includes access to Prescription Benefits (insurance eligibility and prescription drug benefit information of both formulary and eligibility), access to patient's Medication History and the ability to do Prescription Routing to Mail Order Pharmacies using the formulary selected. {{% system-name %}} will maintain a record of whether the patient was eligible for coverage in the patient benefit table for future reference and a request can‘t be sent more than once every 72 hours per patient.
 
 ## Prescription/Insurance Benefit Eligibility/Formulary Requests
 
-Accessing a patient's prescription benefit information (both formulary and eligibility) allows prescribers to choose medications that are on formulary and are covered by the patient's drug benefit. Prescribers can also choose lower-cost alternatives such as generic drugs. Dispensing pharmacies are less likely to receive prescriptions that require changes based on the patient's drug benefit, which, in turn, reduces unnecessary phone calls from pharmacy staff to practices regarding drug coverage.  
+Accessing a patient's prescription benefit information (both formulary and eligibility) allows prescribers to choose medications that are on formulary and are covered by the patient's drug benefit. Prescribers can also choose lower-cost alternatives such as generic drugs. Dispensing pharmacies are less likely to receive prescriptions that require changes based on the patient's drug benefit, which, in turn, reduces unnecessary phone calls from pharmacy staff to practices regarding drug coverage.
 You can run individual patient eligibility request or you can run eligibility requests in mass from the day's scheduler in {{% system-name %}} . SureScripts has mandated that an eligibility request cannot be sent more than once every 72 hours. You will get a message if you attempt to run eligibility on a patient within the 72 hour time frame of a previous eligibility request and your request will not render. You must run eligibility before you can utilize the dosing & formulary features in the prescribe module. When drug eligibility has been run on a patient, the formulary for the patient's benefits is loaded into their chart and will show when you prescribe from the e-meds tab or from the encounter. Below goes thru these steps to obtain drug eligibility for patients.
 
 ### Individual Eligibility Checking from Chart
 
-Any user can perform an eligibility check when in the patient's chart.  
+Any user can perform an eligibility check when in the patient's chart.
 When in the patient's chart, find the chart tab named *Drug Eligibility.* You must have security permission *[E-Chart: Patient Insurance Policies]* set to at least "view" level to run the individual eligibility inquiries.
 
 ![](../surescripts-advanced-prescription-and-insurance-eligibility-requests.assets/4f325022b98f0b4c691cb8aba20c2053.png)
 
-When in the *Drug Eligibility* tab of the patient's chart, it will show you the **Drug Eligibility Request** screen.  
+When in the *Drug Eligibility* tab of the patient's chart, it will show you the **Drug Eligibility Request** screen.
 The patient information pre-populates since you are in the patient's chart. This includes last/first name, date of birth, and any insurance policy number on file in the patient's demographics tab in the insurance section. You can key in a policy number if you don't have one pre-populating.
 
 ![](../surescripts-advanced-prescription-and-insurance-eligibility-requests.assets/6f343288edc25d2f40b51d82e0a48bce.png)
 
 The Service Provider field pre-populates to be the physician who is set as the **attending physician** on the patient's demographics tab of {{% system-name %}} . If this field is blank, that means there is no attending physician linked to the patient and you can still type in the last name of the provider for your practice and use the auto-complete to select. Even if the attending physician pre-populates this field, you can change that and auto-complete the service provider for this eligibility check. The specific Service Provider that you have in this field will have their correlating NPI number in the next field. *The Medication History and the daily eligibility report have a default physician that will be used if the logged in user does not have a national provider id and no attending physician for the patient has been set. Contact your MIE Implementer to make sure that default system setting is set (E-Prescribing, SureScripts, Default Physician [the value should be the user_id of the physician]).*  
-The Payer field will say RXHUB which is the SureScripts database the feature is pointed to that retrieves eligibility information.  
+The Payer field will say RXHUB which is the SureScripts database the feature is pointed to that retrieves eligibility information.
 Click the SEND REQUEST button when you are ready to send a request to retrieve the patient's benefits eligibility.
 
 ![](../surescripts-advanced-prescription-and-insurance-eligibility-requests.assets/6f343288edc25d2f40b51d82e0a48bce.png)
@@ -50,7 +50,7 @@ If you have the patient's information as something different from the database t
 ![](../surescripts-advanced-prescription-and-insurance-eligibility-requests.assets/ccd623a214113686b8f65595a20842cc.png)
 
 When you run drug eligibility, it will also automatically update the patient's insurance in {{% system-name %}} demographics insurance section.  
-When eligibility is run for a patient, you can see the date/time it was run from several modules.  
+When eligibility is run for a patient, you can see the date/time it was run from several modules.
 When you are working in the patient's chart and in the E-Meds tab prescribing or documenting allergies or medications, etc. you will see it displays the *Last Eligibility* with date/time that was run for that patient at the top right corner of the screen. Click the hyperlink on the date/time of the Last Eligibility that displays to open that specific eligibility document stored in the patient's chart. It opens the stored document in a new window on your screen. To get out, simply X out of the window.
 
 ![](../surescripts-advanced-prescription-and-insurance-eligibility-requests.assets/2634e7b1138ee58069994eea1f674689.png)
@@ -59,12 +59,12 @@ If you have the MY SETTINGS scheduler preference for SHOW LAST ELIGIBILITY set t
 
 ![](../surescripts-advanced-prescription-and-insurance-eligibility-requests.assets/d137ff094ae6f4f03922652150f48fe9.png)
 
-It opens the stored document in a new window on your screen. To get out, simply X out of the window.  
+It opens the stored document in a new window on your screen. To get out, simply X out of the window.
 If the patient did not have eligibility ever run yet, it will not show *last eligibility* in the scheduler view for the patient's appointment.
 
 ### Eligibility Checking from the Scheduler
 
-Any user can perform an eligibility check in mass for the entire patient's on today's schedule in {{% system-name %}} . This will run drug eligibility checks on all patient's at all locations for all resources scheduled for today's date. The report queries any and all patient's on any schedule in {{% system-name %}} (regardless of physician/location, etc). You must have security permission *[Control: Manage System Reports]* set to at least "Run Only" level in order to run Drug Eligibility's in mass from the scheduler.  
+Any user can perform an eligibility check in mass for the entire patient's on today's schedule in {{% system-name %}} . This will run drug eligibility checks on all patient's at all locations for all resources scheduled for today's date. The report queries any and all patient's on any schedule in {{% system-name %}} (regardless of physician/location, etc). You must have security permission *[Control: Manage System Reports]* set to at least "Run Only" level in order to run Drug Eligibility's in mass from the scheduler.
 From the Scheduler/Appointments view, click the link *Run All Drug Eligibility*.
 
 ![](../surescripts-advanced-prescription-and-insurance-eligibility-requests.assets/be13978420dd0bcc9163ee158b464191.png)

@@ -6,7 +6,7 @@ version: 117
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 From the Control sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
 
@@ -374,7 +374,7 @@ For details on every specific item to change color for (where/what will change i
 <tr>
 <td>Menu Hover Font Color</td>
 <td>Font color of sidemenu when you hover.</td>
-<td>  
+<td>
 White font: <img src="../colors.assets/196f72534561010865130d806b3586d9.png" />  
 </td>
 </tr>

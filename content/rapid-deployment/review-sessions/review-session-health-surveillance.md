@@ -43,21 +43,21 @@ links:
   - '../../functions/health-surveillance/respirator-info-chart-tab.md'
   - '../../functions/system-configuration/locations-management.md'
 source: 'https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
 * <strong>Health Surveillance Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>Health Surveillance Panels</strong>
-   * <strong>Panel Actions</strong>
-   * <strong>Representative Events</strong>
+  * <strong>Panel Actions</strong>
+  * <strong>Representative Events</strong>
 * <strong>Panel Memberships</strong>
 * <strong>Email Notifications</strong>
 * <strong>Scheduling</strong>
 * <strong>Portal</strong>
-   * <strong>Employee Portal</strong>
-   * <strong>Employer Portal</strong>
+  * <strong>Employee Portal</strong>
+  * <strong>Employer Portal</strong>
 * <strong>Managing the Due List</strong>
 * <strong>Reporting</strong>
 * <strong>System Configuration</strong>
@@ -83,7 +83,7 @@ Our health surveillance program makes it easy to track and manage occupational h
 
 ## Health Surveillance Panels
 
-A health surveillance panel defines a group of events or services, known as *Panel Actions*. [Panel Actions](../../functions/health-surveillance/health-surveillance-panels-actions.md) may be a one-time requirement for a given individual, or they may be one or more events/services set on a recurring schedule. Panels also contain at least one *Representative Event*, which triggers the completion of the panel, as well as possible *action rules*, which set specific criteria on established Panel Actions. Health surveillance panels are sometimes associated with exposure groups, because the panels can be used for surveying groups exposed to certain hazards encountered while on the job, for example.  
+A health surveillance panel defines a group of events or services, known as *Panel Actions*. [Panel Actions](../../functions/health-surveillance/health-surveillance-panels-actions.md) may be a one-time requirement for a given individual, or they may be one or more events/services set on a recurring schedule. Panels also contain at least one *Representative Event*, which triggers the completion of the panel, as well as possible *action rules*, which set specific criteria on established Panel Actions. Health surveillance panels are sometimes associated with exposure groups, because the panels can be used for surveying groups exposed to certain hazards encountered while on the job, for example.
 Panels can be found, tracked, and displayed in the Health Surveillance module of the chart. This allows for easy tracking and follow-up. Panels can also be used to document regularly scheduled voluntary health screenings, or checkups, and can be configured according to location, if necessary.
 
 ### Panel Actions
@@ -92,7 +92,7 @@ A panel consists of a list of tests, procedures, or other services expected to b
 
 ### Representative Events
 
-Health surveillance panels typically consist of many various Panel Actions to be performed. Some of these actions may be required, others may be denied, and even more may be omitted (e.g., a test for males only with a female participant). Some services/events may not even be completed the same day (e.g., labs are needing drawn, a physical exam is needed, or a respirator fit test is performed, all on different days). This is why every panel must have a Representative Event.  
+Health surveillance panels typically consist of many various Panel Actions to be performed. Some of these actions may be required, others may be denied, and even more may be omitted (e.g., a test for males only with a female participant). Some services/events may not even be completed the same day (e.g., labs are needing drawn, a physical exam is needed, or a respirator fit test is performed, all on different days). This is why every panel must have a Representative Event.
 A Representative Event is configured in the panel itself as the one and only unique action, that when it (the Event) is marked as Completed, the entire health surveillance panel is considered complete. The Representative Event must be unique to the panel (i.e., it cannot be used in any other health surveillance panel). What's more, is if the panel is set to recur, the next time it is evaluated and triggered will be based on the date the panel Representative Event was set Completed.
 
 ## Panel Memberships
@@ -167,9 +167,9 @@ The [Panel Forecast report](https://system/?f=layout&s=pat&module=SystemReport&n
 The [Panel Metrics report](https://system/?f=layout&s=pat&module=SystemReport&name=PanelMetrics&tabmodule=reports&t=Health+Surveillance) displays health surveillance panels that are due within the specified due date range. This report displays each panel status, as well as other details organized in a variety of available sections:
 * <strong>Employee Panels</strong>: This section lists the individual employees and any associated health surveillance panels that are due.
 * The other sections display aggregate totals:
-   * <strong>Total Employee Panels by Month</strong>
-   * <strong>Total Employee Panels by Month, and Required vs Voluntary</strong>
-   * <strong>Total Employee Panels Month, and Status</strong>
+  * <strong>Total Employee Panels by Month</strong>
+  * <strong>Total Employee Panels by Month, and Required vs Voluntary</strong>
+  * <strong>Total Employee Panels Month, and Status</strong>
 
 ### Panel Status
 
@@ -209,12 +209,12 @@ After the panels have been created, Panel Actions can be added, as appropriate. 
 
 ### Step 6 - Completed Orders Import Tool
 
-Panel Actions set up with a *Prior Action (Completed)* **Trigger Date** need a specific order item in the chart history to ensure the Last Completed date is recorded. This tells the system to mark the Panel Action complete, triggering any other action item(s) dependent upon the completion of the initial action.  
+Panel Actions set up with a *Prior Action (Completed)* **Trigger Date** need a specific order item in the chart history to ensure the Last Completed date is recorded. This tells the system to mark the Panel Action complete, triggering any other action item(s) dependent upon the completion of the initial action.
 With that said, it is important to retain the Last Completed date on imported health surveillance data. These dates will ensure that Panel Actions trigger with the appropriate due dates. Be sure the completed orders are recorded in {{% system-name %}} prior to any manual and/or automated memberships are established, before an HR feed is enabled, and before panel membership automation is processed via a cron/scheduled job, if applicable.
 
 ### Step 7 - Panel Memberships
 
-Panel memberships refer to the individual charts affiliated with a given health surveillance panel. Determine how individual charts will become "members" of the panel(s). The out-of-the-box product allows panel memberships to be manually maintained by staff, unless Membership Rules are established and programmed. Rules can be programmed according to location, building, cost center, or job class for HR/PM interfaces.  
+Panel memberships refer to the individual charts affiliated with a given health surveillance panel. Determine how individual charts will become "members" of the panel(s). The out-of-the-box product allows panel memberships to be manually maintained by staff, unless Membership Rules are established and programmed. Rules can be programmed according to location, building, cost center, or job class for HR/PM interfaces.
 To begin manually managing membership, navigate to the **Control Panel** sidemenu, and select the [Health Surveillance tab](https://system/?f=layout&module=HSP&name=PanelActionList&tabmodule=admin&tabselect=Health+Surveillance). Locate the panel being edited, and click the **Membership** hyperlink in the *Options* column.
 
 #### Automated Memberships

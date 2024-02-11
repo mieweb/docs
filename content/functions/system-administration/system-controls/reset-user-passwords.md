@@ -7,9 +7,9 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-Must have security permissions to be able to add/edit/delete users  
+Must have security permissions to be able to add/edit/delete users
 A user may have tried to log in using the wrong password too many times. It will then lock that user out. You will need to reset their password.
 
 ![](../reset-user-passwords.assets/d10fea4e44e3088b945498c0fb84cf85.png)
@@ -18,7 +18,7 @@ A user may have tried to log in using the wrong password too many times. It will
 ## Search for the User
 
 Click *Control* tab on the left sidebar menu.  
-Click *Access Control* tab at the top.  
+Click *Access Control* tab at the top.
 You can search for a user if you know what department(s) they are attached to and view that way. Click the underlined department name and you will see all users tied to that department. However, it is much easier to search by a user's last name. In the Search box at the top of the Access Control tab you are in:
 * <strong>Criteria:</strong> leave as Begins With
 * <strong>Search:</strong> Type in the <strong>last name</strong> (or the first few letters of the last name) for the user you are searching for. Search for the user you need to reset a password for.
@@ -36,7 +36,7 @@ Click the Edit User link found at the top right of this user summary screen.
 
 ![](../reset-user-passwords.assets/e120c74e6420b79b91549055e42beb9d.png)
 
-When you are in the user's username screen, scroll down to the password section towards the bottom right.  
+When you are in the user's username screen, scroll down to the password section towards the bottom right.
 Do the following 6 steps to reset a password:
 
 ![](../reset-user-passwords.assets/5fa6387401647e40f139b6a3dfaf5caf.png)

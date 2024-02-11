@@ -8,13 +8,13 @@ mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.md) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter. 
 
 ## Chart Tabs
 
-When working in a dynamic encounter, you will notice the tabs are the very top. Those are the patient chart tabs (chart tabs in the patient record). Browsing out to other chart tabs and  documents within the patient's chart while working in an encounter is easy by accessing those tabs. The dynamic encounter auto-saves your work in real-time so there is no need to click the "save" button to save your work on an encounter before browsing out unless so desired on demand.  
+When working in a dynamic encounter, you will notice the tabs are the very top. Those are the patient chart tabs (chart tabs in the patient record). Browsing out to other chart tabs and  documents within the patient's chart while working in an encounter is easy by accessing those tabs. The dynamic encounter auto-saves your work in real-time so there is no need to click the "save" button to save your work on an encounter before browsing out unless so desired on demand.
 When you scroll up in the encounter, these chart tabs will collapse and hide to help with real-estate on your screen. To access the chart tabs, simply scroll up just a bit with your mouse or finger (if using a touchscreen device). The chart tabs will reappear for accessibility.
 
 
@@ -24,7 +24,7 @@ When you scroll up in the encounter, these chart tabs will collapse and hide to 
 
 ## Patient Info Toolbar
 
-When working in a dynamic encounter, you will notice a grey patient information bar. This grey bar is patient header information. Your system may have patient header information custom to your practice or show the default information. At all times you are shown what patients record you are working in.  
+When working in a dynamic encounter, you will notice a grey patient information bar. This grey bar is patient header information. Your system may have patient header information custom to your practice or show the default information. At all times you are shown what patients record you are working in.
 When you scroll up in the encounter, the second line of the patient information will collapse and hide to help with real-estate on your screen. To access the full patient header information, simply scroll up just a bit with your mouse or finger (if using a touchscreen device). The full patient information header bar will reappear for viewing.
 
 
@@ -42,7 +42,7 @@ When working in a dynamic encounter, you will notice blue tabs. The blue tabs ar
 ## Stage Buttons
 
 When working in a dynamic encounter, you will see ‘stage' buttons on the right side across from the blue jump tabs. These buttons will appear if your encounter is ‘staged'. Staged means that you have an encounter that goes through different ‘stages' (for example: an intake person works some portion, then a nurse works another portion, then the provider works the rest of the encounter). Stages also allow  {{% system-name %}} to convey which ‘stage' the encounter is currently in when users view it in a worklist. Moving an encounter from stage to stage allows for better workflow and enabling users to see what ‘stage' the encounter is in.  
-The out-of-the-box dynamic encounter has stages of Intake, Nurse, Provider and Depart.  
+The out-of-the-box dynamic encounter has stages of Intake, Nurse, Provider and Depart.
 The ‘stage' buttons are also available at the very bottom of the encounter.
 
 
@@ -65,7 +65,7 @@ The release icon is available at the top or a button at the bottom of the dynami
 ![](../working-in-a-visit-encounter.assets/da4838931682aad90df0e878ab83fcfe.png)
 
 
-This release button will take you to the "view" of the encounter and release you from this encounter. The encounter is no longer marked "current" for you and on a worklist would remove your name from being shown actively in or working in the encounter as "in progress". *Note Complete* and *Archive & Close* function buttons also release the encounter from the current user. You can also "release" from the List Encounters screen.  
+This release button will take you to the "view" of the encounter and release you from this encounter. The encounter is no longer marked "current" for you and on a worklist would remove your name from being shown actively in or working in the encounter as "in progress". *Note Complete* and *Archive & Close* function buttons also release the encounter from the current user. You can also "release" from the List Encounters screen.
 If you have not released the encounter, when a user navigates to an encounter that has already been grabbed or the encounter is marked as "current" for another user, a red alert displays on top of the encounter stating another user owns this encounter. It doesn't prevent that other user from working in the encounter, but it notifies to them that someone else has this same encounter marked as "current" or is currently working in it and has not released it as "current" for themselves. System setting *Use Grab* must be enabled to utilize this feature. *Note: If this system setting is disabled (value 0) then you will not see nor need to utilize the "release" button in the dynamic encounter.*
 
 
@@ -88,7 +88,7 @@ Others **can** continue to work in the same encounter while you are working in
 
 ## Side Chart Access
 
-When working in a dynamic encounter, you will see the ability to open a side chart while working in the encounter.  
+When working in a dynamic encounter, you will see the ability to open a side chart while working in the encounter.
 Clicking this icon near the patient's MR# will expand and display a side chart on the right side. Demographic information is in the blue section followed by a section named *Notes, Medical Records and Summary Tests*. This offers the ability to browse and look at documents housed in these 3 sections without getting out of the encounter or going to the other chart tabs outside the encounter. The red *Comments* section expands to display any alert documents the chart may have on it.
 
 
@@ -101,7 +101,7 @@ To browse documents that may be housed in the *Notes, Medical Records or Summar
 ![](../working-in-a-visit-encounter.assets/f871bddc9435f24e3e1fb8e6f384cf6d.png)
 
 
-By default, the side chart access defaults to chart tabs named Notes, Medical Record and Test Results. However your MIE Implementer can set up any chart tabs to be seen/accessed here in the side chart feature. A chart tab named "Side Chart" simply needs to be programmed (as a hidden chart tab) with the sub-tabs that are to be in the Side Chart tab and that will immediately reflect in this Side Chart functionality feature.  
+By default, the side chart access defaults to chart tabs named Notes, Medical Record and Test Results. However your MIE Implementer can set up any chart tabs to be seen/accessed here in the side chart feature. A chart tab named "Side Chart" simply needs to be programmed (as a hidden chart tab) with the sub-tabs that are to be in the Side Chart tab and that will immediately reflect in this Side Chart functionality feature.
 To collapse the side chart access, simply click on the icon image near the patient's MR# to collapse it.
 
 
@@ -143,7 +143,7 @@ The same list of data shows, but expands to show more detail such as dates, reac
 ![](../working-in-a-visit-encounter.assets/0e6fa6c1384cceaa543515cb60ddec5d.png)
 
 
-If you click a section to be the "detailed" view, the system will remember that. If you were to get out of this encounter and back in at some time, it will keep those section(s) on detailed view. If you go into a the dynamic encounter but for a different patient, those same section(s) will be shown as detailed view. It remembers your preference and what you last set that section to be.  
+If you click a section to be the "detailed" view, the system will remember that. If you were to get out of this encounter and back in at some time, it will keep those section(s) on detailed view. If you go into a the dynamic encounter but for a different patient, those same section(s) will be shown as detailed view. It remembers your preference and what you last set that section to be.
 To get back to display as "summary view" simply click the icon labeled "Summary View" in that section.
 
 
@@ -158,7 +158,7 @@ In a dynamic encounter, you can "hide" a section and it will keep it hidden for 
 ![](../working-in-a-visit-encounter.assets/9571d6ff5ff2f9bb2c390d07efdde61c.png)
 
 
-The X icon at the right side of each section is the "hide section" functionality.  
+The X icon at the right side of each section is the "hide section" functionality.
 In this example, we don't use "Cases/Incidents" for our practice, so I can X/hide the Case section by clicking the X and the section disappears from my encounter I am in.
 
 
@@ -181,7 +181,7 @@ You can close the *Tools* pop-up window by clicking cancel or the red X at top
 
 ### Capturing New Data Within Sections
 
-In order to get "into" a section to key in other or more data, you must click on the "section title" bar.  
+In order to get "into" a section to key in other or more data, you must click on the "section title" bar.
 So for example, if I wanted to key in another allergy that the patient states they have, I would click on the title bar named *Allergies/Intolerances.*
 
 
@@ -196,7 +196,7 @@ When you click on a section title bar, the section will expand open to enable yo
 
 
 Clicking the ![](../working-in-a-visit-encounter.assets/a3d443ace87dc0342cac6046625439a6.png)
-   
+
 button will save and close that section and expand open the section that is next for you to key in data. The ![](../working-in-a-visit-encounter.assets/a3d443ace87dc0342cac6046625439a6.png)  
  at the top right of the section also performs as a "next" button.
 
@@ -245,7 +245,7 @@ The encounter remains stored as the visit type you created, but the stored/archi
 
 ### Multi-Dictation
 
-The section Multi-Dictation is to be able to ‘Record' and ‘Play' the dictation.  
+The section Multi-Dictation is to be able to ‘Record' and ‘Play' the dictation.
 If no multi-dictation file exists yet on the encounter, this section will appear as such:
 
 
@@ -371,7 +371,7 @@ To search and utilize a saved template type that is stored in the library, simpl
 
 
 The encounter screen will entirely refresh and the encounter sections would then display (or hide) depending on the saved library template you applied.  
-A default stored encounter template can also be applied when setting up appointment types via the scheduler.  
+A default stored encounter template can also be applied when setting up appointment types via the scheduler.
 One can also apply a template to an encounter at time of creation. From the Quick Links portlet, there is an icon next to each visit type available for quick creation. Clicking on this icon will open up the template choices. Selecting a template choice will then open/create the encounter of the icon you clicked next to, and applies the template you selected.
 
 ![](../working-in-a-visit-encounter.assets/8e5a687e6ab66c1ae3f05faf5020cc39.png)

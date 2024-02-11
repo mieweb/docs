@@ -7,13 +7,13 @@ lastAuthor: 'Ami Cook'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G-25sbfgVrQHV_SoUmaYiyLGbwE2GkqCnWPRHl0q4lQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 This report is a grid like the Due List chart tab. By default it lists any and all charts and MR#'s that have something as ‘pending' status in their Due List. There are other columns of information and function buttons at the bottom to work pending due list items in mass for the system. This grid can be sorted and arranged as you prefer without affecting other users.
 
 ![](../orders-due-report.assets/726b45d8d4f408609069a98824376e83.png)
 
-A Due List is a list of *pending* orders with due dates for a chart. These can be managed in dynamic encounters, but also from the Due List chart tab or from this report. The Due List serves as a reminder for what is due or what is coming due or what is past due during an office visit. The Due List appears as a chart tab in a chart as a sortable list in grid format per individual chart. Otherwise this report in grid format is the viewable list of any/all charts with pending Due List order items and due list items can be managed in mass using this report.  
+A Due List is a list of *pending* orders with due dates for a chart. These can be managed in dynamic encounters, but also from the Due List chart tab or from this report. The Due List serves as a reminder for what is due or what is coming due or what is past due during an office visit. The Due List appears as a chart tab in a chart as a sortable list in grid format per individual chart. Otherwise this report in grid format is the viewable list of any/all charts with pending Due List order items and due list items can be managed in mass using this report.
 Each column on the Due List sections can be used to sort or filter items in the table.
 
 ![](../orders-due-report.assets/3ea32a897d270ab93fb668a9fe79c96d.png)
@@ -73,7 +73,7 @@ Any non-mandatory tests can be marked as declined. Doing so will automatically d
 
 ![](../orders-due-report.assets/76062b573012a2c6f821853f9c867c09.png)
 
-The declined due list item will then be removed from the ‘Due List Pending' items section and the screen will refresh. Upon refresh, that declined item is now removed from the view of pending due list items on the report.  
+The declined due list item will then be removed from the ‘Due List Pending' items section and the screen will refresh. Upon refresh, that declined item is now removed from the view of pending due list items on the report.
 If you needed to reverse one you declined, you would need to go to that individual's chart and into their Due List chart tab and find that declined due list item in the *past items* section where you can edit and reverse the status if needed.
 
 ### Set Deleted
@@ -82,7 +82,7 @@ Pending due list items (tests/procedures) may also be marked as deleted. You may
 
 ![](../orders-due-report.assets/889efaf14c4407a33a9de42d9a44e63d.png)
 
-The deleted due list item will then be removed from the ‘Due List Pending' items section and the screen will refresh. Upon refresh, that deleted item is now removed from the view of pending due list items on the report.  
+The deleted due list item will then be removed from the ‘Due List Pending' items section and the screen will refresh. Upon refresh, that deleted item is now removed from the view of pending due list items on the report.
 If you needed to reverse one you deleted, you would need to go to that individual's chart and into their Due List chart tab and find that deleted due list item in the *past items* section where you can edit and reverse the status if needed.
 
 ### Set Comments

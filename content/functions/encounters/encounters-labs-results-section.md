@@ -8,13 +8,13 @@ mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The Labs Results area of the encounter is where you can key in results of labs and will be stored as discrete reportable data. You may utilize this section if a patient hands you some lab results from an outside facility/provider or if you do in-house labs and want to quickly document the results in the patient's chart and track.
 
 ![](../encounters-labs-results-section.assets/b730d979b9d5ecd049958269bd554777.png)
 
-By default,  {{% system-name %}} shows these specific lab fields to key in results in the Labs Results section. We hope these are the most common that practices would perhaps want to key results into. However the practice has the ability to alter their Labs Results section because different specialities may have different Labs they want to key in and track. (See steps on subsequent pages on how to edit this section in your encounters).  
+By default,  {{% system-name %}} shows these specific lab fields to key in results in the Labs Results section. We hope these are the most common that practices would perhaps want to key results into. However the practice has the ability to alter their Labs Results section because different specialities may have different Labs they want to key in and track. (See steps on subsequent pages on how to edit this section in your encounters).
 When working in encounters, this Labs Results section also shows the last most recent 10 of any Lab Results entered in this section. That gives the user the ability to see the flow of results for a specific lab quickly while working in an encounter and not have to go out to the patient's chart to look elsewhere.
 
 ![](../encounters-labs-results-section.assets/de948b16bc5de30d9d221411e36158c2.png)

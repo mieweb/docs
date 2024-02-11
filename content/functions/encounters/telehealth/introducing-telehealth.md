@@ -11,7 +11,7 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 
@@ -72,7 +72,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 </table>
 * Chrome and Firefox for iOS will not work. iOS users will need to use Safari.  
-** WebRTC support in Safari started with Safari version 11  
+** WebRTC support in Safari started with Safari version 11
 *** We recommend migrating to the new Chromium Edge as soon as possible as we will stop supporting ORTC in the near future
 
 

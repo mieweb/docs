@@ -7,7 +7,7 @@ lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 **Executive Dashboard Report**  
 The Executive Dashboard is a one screen summary intended to be used by client executives as a high level overview of clinic and employee outcomes.  The report is divided into multiple sections: Clinic Visit Activity, Visit Types, Top 10 Services/Tests Provided, Work Related Injury or Illness Cases/Incidents, Health Surveillance, Disability/Case Management, and Portal Activity. 
@@ -78,11 +78,11 @@ The Work Related Injury or Illness Cases/Incidents section provides analytics on
 **Cases w/ Work Restrictions**
 * Numerator: Displays total number or non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and there is any linked restriction type other than Lost Time.
 * Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
-**OSHA Recordables**  
+**OSHA Recordables**
 OSHA defines a recordable injury or illness as any work-related fatality or any work-related injury or illness that results in loss of consciousness, days away from work, restricted work, transfer to another job, or requires medical treatment beyond first aid.
 * Numerator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and the Date Determined Recordable field is populated with a date (Meaning: Recordable is Yes).
 * Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
-**Injury Sources**  
+**Injury Sources**
 Displays the top 5 types of Nature of Injury/Illness types used in cases/incidents (within the date range selected) with counts.
 
 ![](../executive-dashboard-report.assets/3e0b8691bf7765465f016b878b94e6ae.png)

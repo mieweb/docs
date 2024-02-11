@@ -6,7 +6,7 @@ version: 46
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Deleting Medical Record Numbers (MRNs)
 
@@ -30,7 +30,7 @@ The user will be prompted with a pop-up message asking you to confirm that you w
 
 ![](../medical-record-numbers.assets/c35a5af4ad26fe964568e3d81bd7e348.png)
 
-When you click OK on that pop-up message, the partition name will appear with a strike through it.  
+When you click OK on that pop-up message, the partition name will appear with a strike through it.
 If you did not mean to delete the MRN for the patient, you can click undo link to restore it. Nothing happens until you click the SAVE button. So you can undo still at that point. Once the SAVE button is clicked, whatever MR# is selected to be deleted will be *removed permanently*.
 
 ![](../medical-record-numbers.assets/af15659a1d14e20afb31b263e185f160.png)

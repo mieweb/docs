@@ -20,25 +20,25 @@ links:
   - '../../functions/patient-registration/medical-record-numbers.md'
   - '../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
 * <strong>Patient Registration Demonstration</strong>
 * <strong>E-Chart Overview</strong>
 * <strong>E-Chart</strong>
-   * <strong>Patient Registration (Manual)</strong>
+  * <strong>Patient Registration (Manual)</strong>
       * <strong>Demographics</strong>
       * <strong>E-Chart Photos</strong>
-   * <strong>Relationships/User Roles</strong>
+  * <strong>Relationships/User Roles</strong>
 * <strong>System Configuration</strong>
-   * <strong>Partitions and Partition Restrictions</strong>
+  * <strong>Partitions and Partition Restrictions</strong>
 * <strong>Resources</strong>
 
 ## Overview
 
 Managing patient flow is vital to the effectiveness of any practice. Because of this, the {{% system-name %}} system provides fast and easily-navigated functionality for searching current charts and documents, as well as for registering all new patients.  
-{{% system-name %}} allows users to manually register individuals directly into the EHR by simply adding their demographic and insurance information into the system. Depending on the established processes, registration documents can be provided either before the appointment or during the check-in process, and a patient registrar can then review the submitted documentation, as needed.  
+{{% system-name %}} allows users to manually register individuals directly into the EHR by simply adding their demographic and insurance information into the system. Depending on the established processes, registration documents can be provided either before the appointment or during the check-in process, and a patient registrar can then review the submitted documentation, as needed.
 As an additional benefit, {{% system-name %}} automatically detects potential duplicate records and allows merging by authorized users. Not to mention, custom configuration of demographic fields and integration with outside vendors is available as an add-on service, if necessary.
 
 ## E-Chart

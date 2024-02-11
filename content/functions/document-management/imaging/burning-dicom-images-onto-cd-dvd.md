@@ -7,11 +7,11 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 If you wish to burn the DICOM images onto a CD, log into {{% system-name %}} and get into the patient's chart.  Select the specific chart tab that stores the DICOM images being burned to a CD.  
 When you are on the appropriate chart tab, it will display the List View For Images. This lists all the DICOM images this patient has stored in {{% system-name %}} .    
-In the Print column of each image line item, click BATCH on each image you want to burn.  Batching allows you to select as many images as you want and creates them in a batch to burn onto the CD.  
+In the Print column of each image line item, click BATCH on each image you want to burn.  Batching allows you to select as many images as you want and creates them in a batch to burn onto the CD.
 Find another patient's images by going into another patient's chart tab and selecting their image(s) to batch using the same steps.
 
 ![](../burning-dicom-images-onto-cd-dvd.assets/de7d1b36b0af445f2f28c4c1188c5836.png)

@@ -6,7 +6,7 @@ version: 30
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13k9nhRuRl5D_RWT3l9VE64JqMfF-jl1KQuvCda69nGo'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 In order to view or edit Par Levels, the user must have security permission level for *Manage Stock Warning Levels* set.
 
@@ -15,7 +15,7 @@ In order to view or edit Par Levels, the user must have security permission leve
 
 ## Viewing Par Levels
 
-Your inventory items that are set up with minimum and/or maximum par levels will be shown on the view when you click the sidemenu tab *Inventory*, then click the *Par Levels* tab. By default it will show the location your ‘My Settings' preference location is set to. You can see inventory items with min and/or max par levels currently set for that default location. By default your view is showing only the inventory items with current par levels set.  
+Your inventory items that are set up with minimum and/or maximum par levels will be shown on the view when you click the sidemenu tab *Inventory*, then click the *Par Levels* tab. By default it will show the location your ‘My Settings' preference location is set to. You can see inventory items with min and/or max par levels currently set for that default location. By default your view is showing only the inventory items with current par levels set.
 That is what **Level Set: Yes** means on the screen.
 
 ![](../par-levels.assets/7ba4f9377b192b2a04b6c5b9317a2e01.png)
@@ -54,7 +54,7 @@ When you are done, click the SAVE button at the bottom.
 
 ## Setting Multiple Items to Same Low Par Level
 
-You can set inventory items in mass to the same low and/or high par level. You can individually checkmark the specific inventory items you are going to set the same low par level to. You can also select *all* inventory items in mass by clicking the **All** link at the end of the link column. If you accidently select that and want to reverse, you can click **None** link to uncheckmark and start over.  
+You can set inventory items in mass to the same low and/or high par level. You can individually checkmark the specific inventory items you are going to set the same low par level to. You can also select *all* inventory items in mass by clicking the **All** link at the end of the link column. If you accidently select that and want to reverse, you can click **None** link to uncheckmark and start over.
 You then grab any orange ball from any of the inventory items that is checkmarked to link and drag the orange ball to the position and as soon as you let go of the orange ball, all the inventory items selected will respect that setting. You do not need to set each one individually. Just grab to set one and all will follow in retrospect. You can use the left and right arrow icons too and set the low par level using that method. Or you can type in a specific low par level in the text box and use your tab key or click your mouse somewhere on the screen and all the inventory items you had checked to ‘link' will also be set to that low par level in mass. When done, click the SAVE button at the end of the screen to save your work.
 
 ![](../par-levels.assets/f795682813af5776da8d64c98ebf00c5.png)
@@ -62,13 +62,13 @@ You then grab any orange ball from any of the inventory items that is checkmarke
 
 ## Setting Multiple Items to Same High Par Level
 
-You can set ‘high' par levels to multiple inventory items at a time also. First select which Inventory items you will "link" the same high par level to by checkmarking each in the Link checkbox or using the **all** button at the end of the list. Then checkmark those same inventory items for **Limit High** checkbox to open up the "high" par level sliders (or you can use the **all** button at the end of that column to set all of them to a high par level). The "high" par level sliders will open to display on the screen.  
+You can set ‘high' par levels to multiple inventory items at a time also. First select which Inventory items you will "link" the same high par level to by checkmarking each in the Link checkbox or using the **all** button at the end of the list. Then checkmark those same inventory items for **Limit High** checkbox to open up the "high" par level sliders (or you can use the **all** button at the end of that column to set all of them to a high par level). The "high" par level sliders will open to display on the screen.
 You then grab any orange ball from any of the inventory items that is checkmarked to link and drag the orange ball to the position and as soon as you let go of the orange ball, all the inventory items selected will respect that setting. You do not need to set each one individually. Just grab to set one and all will follow in retrospect. You can use the left and right arrow icons too and set the high par level using that method. Or you can type in a specific high par level in the text box and use your tab key or click your mouse somewhere on the screen and all the inventory items you had checked to ‘link' will also be set to that high par level in mass.
 
 ![](../par-levels.assets/ce9cdab8bd053efddaeecdd29f0e45d4.png)
 
 When done, click the SAVE button at the end of the screen to save your work.  
-Your MIE Implementer can have par levels imported if you have a spreadsheet with the specific Inventory ID it is in {{% system-name %}} , the low & high valued and identified the location and stockpile if applicable.  
+Your MIE Implementer can have par levels imported if you have a spreadsheet with the specific Inventory ID it is in {{% system-name %}} , the low & high valued and identified the location and stockpile if applicable.
 If the inventory item falls below the low par level, you can see it listed in the WEEKLY REVIEW tab. This is the tab you would look to see what is a negative quantity or below the low par level.
 
 ![](../par-levels.assets/5172ee4aa9b0f417a68742f95f9ac58b.png)

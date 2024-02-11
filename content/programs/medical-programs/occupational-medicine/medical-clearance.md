@@ -7,7 +7,7 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
@@ -18,5 +18,5 @@ According to the U.S. Department of Health and Human Services, Medical Surveilla
 
 ![](../medical-clearance.assets/375044a308922ef05cd46ed79e6166d5.png)
 
-        
+
 

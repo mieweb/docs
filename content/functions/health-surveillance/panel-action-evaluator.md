@@ -7,13 +7,13 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The Health Surveillance tab is found in the Control sidemenu tab. To access the Panel Action Evaluator, click the hyperlink named as such at the top right corner of the Health Surveillance tab.
 
 ![](../panel-action-evaluator.assets/a89c14d122435040cec883cef1ad4768.png)
 
-The Panel Action Evaluator can be used to test any rules/actions/panels after any actions and panels are set up. If you are testing, it's best to do on a test patient. Because when you run this evaluator or force actions, any orders that trigger will be inserted into the chart/patient you specified in the evaluator.  
+The Panel Action Evaluator can be used to test any rules/actions/panels after any actions and panels are set up. If you are testing, it's best to do on a test patient. Because when you run this evaluator or force actions, any orders that trigger will be inserted into the chart/patient you specified in the evaluator.
 This *Panel Action Evaluator* is where you can ‘test' health surveillance rules that you have set up and check anything they are due for. This is a ‘testing' evaluator tool/screen to test to be sure your actions/panels/rules etc are set up correctly (you may want to test occasionally, or may want to test a new rule/action you just set up and had added). However, the only way to test using this tab will in fact do real things (create orders, encounters, appointments) for real people (or test charts) in the system. This was developed as a way to test the Health Surveillance functions, and the only way to test these things/rules/actions set up is to make them actually happen. If you were using this feature just for testing, you'd want to choose a fake patient record (in the *employee* field) to evaluate.
 
 ![](../panel-action-evaluator.assets/fdd47802fd456e3810887d2918c611be.png)

@@ -15,7 +15,7 @@ links:
   - '../../functions/reports/documents-report-super-document-type-search.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=01b7980ef298c9776889ace1aa2c0174'
 source: 'https://drive.google.com/open?id=1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
@@ -24,11 +24,11 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 * <strong>My Settings Preferences</strong>
 * <strong>Security Role Permissions</strong>
 * <strong>System Configuration</strong>
-   * <strong>Esign Editor</strong>
-   * <strong>All Pending</strong>
-   * <strong>CC Physician</strong>
-   * <strong>Esign Chart Tab</strong>
-   * <strong>System Settings</strong>
+  * <strong>Esign Editor</strong>
+  * <strong>All Pending</strong>
+  * <strong>CC Physician</strong>
+  * <strong>Esign Chart Tab</strong>
+  * <strong>System Settings</strong>
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
 
@@ -36,7 +36,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 {{% system-name %}} offers users the ability to electronically sign (e-sign) encounters, orders, result documentation, and the like, helping facilitate communication and improve overall workflow efficiency. E-signatures can be requested manually, with additional notes and comments, or automatically, using e-sign routing rules.  
 The {{% syslink "E-Sign module" "func=esign" %}} allows users to review the signature requests and their associated notes or comments, as well as the documents with the pending requests. From here, users can decide to either electronically sign the document(s), or edit or reject the document(s). The E-Sign module also allows clinicians to add documents, tasks, and dictations, and whenever necessary, request co-signers or multiple signatures. And for auditing purposes, HIPAA-compliant timestamps are applied and stored in documents once they have been electronically signed. As a matter of fact, documents can house the e-signatures and timestamps of multiple signatories, and the E-Sign module can track who requested the e-signature, as well as when it was requested.  
-Additionally, the E-Sign module integrates the common functions of the {{% system-name %}} Task List module. Through the use of tasks and their priority ratings, reminder and overdue dates, and ease of usability, they not only simplify communication and general requests, tasks promote timely responses and quality care.  
+Additionally, the E-Sign module integrates the common functions of the {{% system-name %}} Task List module. Through the use of tasks and their priority ratings, reminder and overdue dates, and ease of usability, they not only simplify communication and general requests, tasks promote timely responses and quality care.
 Standard functionality includes:
 * E-Sign dashboard
 * Multi-View feature for reviewing and e-signing up to fifty (50) documents, at once

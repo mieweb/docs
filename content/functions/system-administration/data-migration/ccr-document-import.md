@@ -7,12 +7,12 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1WXvPYGq4hqG02LDQYHH7epqUgWwPDfB_1BVYf3121SU'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Continuity of Care Record (CCR) can be imported into {{% system-name %}} . The CCR standard is a patient health summary standard. It is a way to create flexible documents that contain the most relevant and timely core health information about a patient, and to send these electronically from one caregiver to another.  
 When you receive such a document, insert the CD or flashdrive, etc (with the CCR document on it) into your PC.  
 Click the left sidebar tab called *E-Chart.* Find and open a specific patient's chart.  
-Click Add Document near the top right corner in any tab for the patient (or from scheduler).  
+Click Add Document near the top right corner in any tab for the patient (or from scheduler).
 Click the filter of File. This will open a document properties screen where you can browse for a generic file & upload into the patient's chart.
 
 ![](../ccr-document-import.assets/6af28bea31bbe8e9f86e06ceef81a085.png)
@@ -36,14 +36,14 @@ Once you have selected the file that you wish to upload, click the ADD DOCUMENT 
 
 ![](../ccr-document-import.assets/7ff87ca9baaf9f62c9e8b2b3a8dbf28a.png)
 
-It will upload the document into the patient's chart. It will state a *Successfully Uploaded* message and should display the document on the screen with the document identification.  
+It will upload the document into the patient's chart. It will state a *Successfully Uploaded* message and should display the document on the screen with the document identification.
 *You can then upload & store any type of file into a patient's chart. However, |system| does not support or have the ability to print/fax or even view certain stored file types.*
 
 ## Reconcile the Imported CCR Document
 
 After you have imported the CCR document into {{% system-name %}} and removed the media you're your pc, you can reconcile the information into the patient's {{% system-name %}} record.  
 Find the document in the patient's chart you just uploaded (usually found in Doc.Sum tab).  
-Click the Doc.ID to get into the CCR Document.  
+Click the Doc.ID to get into the CCR Document.
 The CCR document will open on your screen as such:
 
 ![](../ccr-document-import.assets/13fdf188d689b1d97828e0f99205bbac.png)

@@ -49,7 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
@@ -57,30 +57,30 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 * <strong>Overview</strong>
 * <strong>Encounter Workflow Demonstration</strong>
 * <strong>System Configuration</strong>
-   * <strong>Encounter Types</strong>
-   * <strong>Appointment Type Default Encounter Type</strong>
-   * <strong>Protocols</strong>
-   * <strong>Encounter Templates</strong>
-   * <strong>Encounter Info Section</strong>
-      * <strong>Performing Provider</strong>
-      * <strong>Archive As</strong>
-   * <strong>Encounter Checkout Tab</strong>
-   * <strong>Macros</strong>
-   * <strong>Worklists</strong>
-   * <strong>Clinical Decision Support / Scripted Rules</strong>
-   * <strong>Esign / Tasking</strong>
-   **Clinical Decision Support/Scripted Rules**
-   * <strong>System Settings</strong>
-   * <strong>Security Role Permissions</strong>
-   * <strong>My Settings Preferences</strong>
+  * <strong>Encounter Types</strong>
+  * <strong>Appointment Type Default Encounter Type</strong>
+  * <strong>Protocols</strong>
+  * <strong>Encounter Templates</strong>
+  * <strong>Encounter Info Section</strong>
+        * <strong>Performing Provider</strong>
+        * <strong>Archive As</strong>
+  * <strong>Encounter Checkout Tab</strong>
+  * <strong>Macros</strong>
+  * <strong>Worklists</strong>
+  * <strong>Clinical Decision Support / Scripted Rules</strong>
+  * <strong>Esign / Tasking</strong>
+  **Clinical Decision Support/Scripted Rules**
+  * <strong>System Settings</strong>
+  * <strong>Security Role Permissions</strong>
+  * <strong>My Settings Preferences</strong>
 * <strong>Smart Plan</strong>
 * <strong>Reporting</strong>
 * <strong>Key Decision Points</strong>
 * <strong>Action Items / Timelines</strong>
 
 * <strong>Resources</strong>
-   * <strong>Documentation</strong>
-   * <strong>LMS Courses / Videos</strong>
+  * <strong>Documentation</strong>
+  * <strong>LMS Courses / Videos</strong>
 
 ## Pre-Requisites
 
@@ -255,18 +255,18 @@ My Settings preferences also need considered when providing access to the Encoun
 * <strong>Default Visit Type</strong>: This setting determines the default visit type when manually adding encounters. However, it is recommended to set to Checkin if the Scheduler is using the One-Click Checkin feature.
 * <strong>Link Patient Doctors New Enc</strong>: When enabled, any associated referring/family physicians or other physicians (set via system setting) will automatically populate in the CC (carbon copy) section of the encounter.
 * <strong>Impressions Linked As Active</strong>: This setting has various options available. It is important to note that the user on which this setting preference is set must be the user opening/creating encounters. In other words, the impressions found under the Symptoms/Diagnosis encounter section will behave according to the setting of the user that opens/creates the encounter.
-   * <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
-   * <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
-   * <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-   * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
-   * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-   * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
-   * will need set to N/A when using this setting.
+  * <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
+  * <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
+  * <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+  * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
+  * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+  * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
+  * will need set to N/A when using this setting.
 * PMH Linked as Active: This setting will determine if Past Medical History is linked as active from the Encounter. 
-   * If yes is selected, then it will include the items as active medical conditions. 
-   * If yes (incl. concluded) is selected, concluded past medical items will be considered active
-   * If no is selected, no past medical history items will be considered active
-   * If problem list only is selected, only the problem list will be considered active. 
+  * If yes is selected, then it will include the items as active medical conditions. 
+  * If yes (incl. concluded) is selected, concluded past medical items will be considered active
+  * If no is selected, no past medical history items will be considered active
+  * If problem list only is selected, only the problem list will be considered active. 
 * Audiogram STS display: This setting will determine if the age corrected, non age corrected or both audiogram results will be displayed.
 * Assessment Entry in Orders: This setting will determine if the assessment entry will be available in the Order
 * Remember provider and location: This setting will remember the provider and location in future encounters. 
@@ -285,14 +285,14 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 **System Configuration/Key Decision Points**
 
 1. What encounter types need to be configured?
-   1. What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
-   2. Which encounter types need to be tied to the appointment types?
-   3. What should the encounter be archived as?
+    1. What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
+    2. Which encounter types need to be tied to the appointment types?
+    3. What should the encounter be archived as?
 2. What encounter templates need to be configured?
 3. What protocols need to be configured?
 4. What flowsheets need to be configured?
-   1. Which protocols will drive the flowsheets?
-   2. What area within the encounter will that flowsheet belong to?
+    1. Which protocols will drive the flowsheets?
+    2. What area within the encounter will that flowsheet belong to?
 5. What in-house testing can be performed?
 6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists?  Decision on what to track or not
 7. Need list/address of vendors commonly refer to

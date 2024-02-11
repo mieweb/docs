@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN/view'
 source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Add/Upload Word Document to Chart
 
@@ -88,7 +88,7 @@ When a word document is uploaded into the patient's chart and you view the docum
 
 ![](../word-documents.assets/b681c70a35c11350c251c387bc0de2e9.png)
 
-If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the *Fractions with fraction character* then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}}  
+If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the *Fractions with fraction character* then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}}
  shows the word document on the ‘view' in text to save space and memory and is utilized just as a quick view.   When it is shown on the view as the plain text, the text editor does not recognize Word's formatted version of these characters. ![](../word-documents.assets/501dc3359c1dc6e598f50a43e0f9a762.png)
 
 

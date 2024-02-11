@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1qdEPvQQznY4yW3MjLY8_25M4VehZOgGUKJFvn37v_ds'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: Medium  
+**Activity Weighting**: Medium
 **Subcategory Name**: Population Management  
 **Description**: Implementation of practices/processes to develop advance care planning that includes: documenting the advance care plan or living will within the medical record, educating clinicians about advance care planning motivating them to address advance care planning needs of their patients, and how these needs can translate into quality improvement, educating clinicians on approaches and barriers to talking to patients about end-of-life and palliative care needs and ways to manage its documentation, as well as informing clinicians of the healthcare policy side of advance care planning.
 

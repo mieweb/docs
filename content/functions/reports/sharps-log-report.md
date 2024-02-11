@@ -7,7 +7,7 @@ lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PORLZX1Ild3LyNw0O7YZ97r4Ybf0ybND0TA5r5f3KCE'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Sharps Log Report
 
@@ -31,9 +31,9 @@ The report requires an Incident (Case) Start and End date at a minimum to run th
 
 The Sharps Log report has the following logic criteria/logic built in order to be listed on the output of this report:
 * Onsite Injury/Illness locations to be configured as EO charts must have:
-   * the EO onsite injury/illness work location/site chart must be configured as an onsite injury location within the Locations Hierarchy system editor
-      * <strong>and </strong>its Chart ID entry (in Locations Hierarchy) must be linked to its own EO or PO chart
-      * <strong>and </strong>its Status entry (in Locations Hierarchy) must active or inactive (deleted locations hierarchy locations are omitted from the system, the case/incident and from the OSHA 300/301 Case Data Report)
+    * the EO onsite injury/illness work location/site chart must be configured as an onsite injury location within the Locations Hierarchy system editor
+        * <strong>and </strong>its Chart ID entry (in Locations Hierarchy) must be linked to its own EO or PO chart
+        * <strong>and </strong>its Status entry (in Locations Hierarchy) must active or inactive (deleted locations hierarchy locations are omitted from the system, the case/incident and from the OSHA 300/301 Case Data Report)
 * Your case/incident workflows must utilize the Case encounter section on specific encounter types deemed appropriate for your business
 * The case/incident does <strong>not</strong> need to be documented as <em>OSHA Recordable</em> to appear on this report (date determined recordable field)
 * The case/incident must have been documented as an <em>onsite location </em>(and the onsite location is configured as stated in first bullet above) if want the <em>Location</em> column to populate

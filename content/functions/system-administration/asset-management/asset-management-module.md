@@ -6,7 +6,7 @@ version: 74
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The Asset Management Module allows users to track equipment assigned to users, warranty information, maintenance request and calibration requirements. The module includes creating work orders, calibration requests and tracks these items over time. The module includes automation of notification 90 and 30 days prior to when calibration, service agreements, warranties and insurance policies are due or will expire. There is robust reporting included. Please verify with your MIE implementer that your system has been prepared to use the Asset Management Module. MIE Implementer must set up this module to be used in your  {{% system-name %}}  system and must have the two committed layout encounters & visit types enabled/activated on your system for use.
 
@@ -44,7 +44,7 @@ _
 screen will appear. Type in the name of the asset you wish to add to the system and click  
 _  
 Register Asset  
-_  
+_
 button.
 
 
@@ -54,7 +54,7 @@ button.
 Once you've registered a new asset, the system will automatically assign it an Asset ID # (Asset Medical Record partition number) and will open you to the  
 _  
 Asset Details  
-_  
+_
 screen. Here you enter in all the detailed information for the new asset.
 
 
@@ -128,10 +128,10 @@ Maintenance: Enter maintenance tracking information in the maintenance section.
 
 * Warranty/Guarantee Expiration Date
 * Insurance Policy
-   * If Yes, the section will expand to record relevant insurance policy details.
+  * If Yes, the section will expand to record relevant insurance policy details.
 * Maintenance Agreement
-   * If Yes, the section will expand to record relevant maintenance agreement details.
-   * The maintenance agreement <em>Contract Expiration</em> date field is used for automatic notification of expiration to the owner at 90 and 30 days prior to the date via email cron job.
+  * If Yes, the section will expand to record relevant maintenance agreement details.
+  * The maintenance agreement <em>Contract Expiration</em> date field is used for automatic notification of expiration to the owner at 90 and 30 days prior to the date via email cron job.
 * Date of Last Maintenance will be populated from the Maintenance encounter.
 * Enter comments as needed.
 * Link to Service Manual: Add the URL link for any service manual if available.

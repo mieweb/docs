@@ -7,13 +7,13 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 A prescription in {{% system-name %}} must be ‘signified' to be filled in-house (via medication inventory) in order for the Fill Request to be triggered to staff. A Fill Request is triggered via a task and into the Med Queue worklist. To trigger a Fill Request from the patient's Medications/Allergies chart tab or via the Prescribe link or Refill link, the Prescriber must put a date in the Fill Script date field and then note patient is ‘in office' or ‘phone' for the Fill Request. The prescriber would enter the date to fill this script on and then select the radio button if the patient is in the office and waiting on the medications, or if the patient called in and needs medications filled but was on the phone (lower priority than patient's waiting in office for fills).
 
 ![](../med-queue-and-fill-requests.assets/f4b2d3a28be1065face28a1f19ff5e70.png)
 
-The fill script date can be today, meaning staff at your practice needs to complete this medication fill today, or it can be a future date when the patient isn't going to be in until next week to pick up the medication. That gives the staff more time to complete the medication fill request.  
+The fill script date can be today, meaning staff at your practice needs to complete this medication fill today, or it can be a future date when the patient isn't going to be in until next week to pick up the medication. That gives the staff more time to complete the medication fill request.
 From the Allergies/Medications chart tab specific to the patient, there is also the available hyperlink of Add Fill Request to quickly submit a refill request for a medication to be dispensed through the in-house inventory (turn on system setting E-Chart: Meds: Use Fill Requests)
 
 ![](../med-queue-and-fill-requests.assets/9b68f1d5817434ffc256d9afe28fd2c6.png)
@@ -23,7 +23,7 @@ From an encounter, the prescriber would be prescribing the medication in the Med
 ![](../med-queue-and-fill-requests.assets/3ac89c60915ff7da928750a94477497b.png)
 
 An encounter is a face to face visit, so when the prescriber checkmarks the "fill" checkbox and saves the encounter, the Fill Request will be triggered and land as an "in-office" fill request.  
-When a *fill script on* date is entered (via prescribe/meds chart tab) or the "fill" checkbox has been marked (via encounter) the prescribe screen's "print/transmit" checkbox will go unchecked (because there is no need to print/fax or transmit this prescription) because you are indicating to fill it in-house via your inventory module.  
+When a *fill script on* date is entered (via prescribe/meds chart tab) or the "fill" checkbox has been marked (via encounter) the prescribe screen's "print/transmit" checkbox will go unchecked (because there is no need to print/fax or transmit this prescription) because you are indicating to fill it in-house via your inventory module.
 Also upon "fill" being check-marked, a task will be created to notify the specified departments that a Fill Request needs done and the request has been submitted to the Med Queue. Your MIE Implementer will ensure the task rules for Office and Phone Fill requests are set up.
 
 
@@ -42,7 +42,7 @@ The Med Queue shows a worklist of the outstanding Phone Fill Requests and any pe
 
 ## Grab Fill Request(s) via Med Queue
 
-The Med Queue is really showing a list of patients whom have a Fill Request task pending to do. So if you grab a Med Queue request to work or grab the fill request via this tab, it's all linked together and will all complete the same fill request. To work on a fill request, simply click on the patient's name from the Med Queue worklist tab.  
+The Med Queue is really showing a list of patients whom have a Fill Request task pending to do. So if you grab a Med Queue request to work or grab the fill request via this tab, it's all linked together and will all complete the same fill request. To work on a fill request, simply click on the patient's name from the Med Queue worklist tab.
 .
 
 ![](../med-queue-and-fill-requests.assets/af6e3c98bfc88833e21d3c936370693c.png)

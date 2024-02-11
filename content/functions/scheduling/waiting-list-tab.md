@@ -8,14 +8,14 @@ mimeType: 'text/x-markdown'
 links:
   - 'cancel-no-show-edit-appointments.md'
 source: 'https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  
 If you have the preference in My Settings of FORCE DEFAULT RESOURCES set to Yes, your scheduler view will show all the resources (physicians) schedules that you have added an appt for or edited an appt for. To only show one resource, make sure this is set to No.  
 Click *Waiting List* tab from top menu of tabs. It will automatically show all people on the waiting list for your practice if the *Resource* in the search field is set at *Select Resource*.  
 It will also have resource and patient search fields at the top to narrow down a search for someone on the waiting list. This Waiting List will automatically open set to the resource & location you are defaulted to. To view the *entire* waiting list, make Resource set to *Select Resource* and location set to *Any Location* in this search.  
-The waiting list will always list patients in ascending order of when they were inserted on the waiting list. Meaning, the top person on the list is the first person on the waiting list. The last person on the list is the most recent person added to the waiting list.  
+The waiting list will always list patients in ascending order of when they were inserted on the waiting list. Meaning, the top person on the list is the first person on the waiting list. The last person on the list is the most recent person added to the waiting list.
 You may want to utilize the "Appointment Report" found in the Reports module instead because it offers a lot more filter criteria and functions also.
 
 ![](../waiting-list-tab.assets/4930fc4aad21c3f259a190d22061ed3f.png)
@@ -53,7 +53,7 @@ This example shows the waiting list *with* the Group resources check-marked. Thi
 The following addresses how to schedule patients that now have appointment times and need to be taken off the waiting list and scheduled.  
 Click *Scheduler* from left sidebar menu.  
 Click *Waiting List* tab from top menu of tabs.  
-Find the patient you want on the waiting list.  
+Find the patient you want on the waiting list.
 Click *edit* at the right of the patient name on the waiting list that you want to move off this list (by editing the appts) and make/create an appointment for. (You can also find list of patients on the waiting list by using the Appointment Report and edit their appt to now schedule them for a specific date/time of an appt from there too).
 
 ![](../waiting-list-tab.assets/0287b862de1e94060d1f9dd7742779a2.png)
@@ -66,7 +66,7 @@ It will now open the *Appointment Wizard* tab for the patient.
 ![](../waiting-list-tab.assets/d4aea98989ee4608d66f6c47fa17893c.png)
 
 Fill out the **appointment date & time** field information of the appointment that the patient is now being scheduled for (see appt wizard instructions) and/or edit any other information in the Appointment Wizard screen.  
-Click *Save* at the bottom when done.  
+Click *Save* at the bottom when done.
 It will say *Uploaded Appointment*! at the top. The patient is also automatically taken off the waiting list and their appointment is now scheduled for the date/time, resource, appt type, location etc that you filled out.
 
 ### Removing Patients from Waiting List with No Appointment
@@ -74,12 +74,12 @@ It will say *Uploaded Appointment*! at the top. The patient is also automaticall
 The following addresses how to remove patients needing removed from the waiting list who have no appointment times or went to another facility.  
 Click *Scheduler* tab from left sidebar menu.  
 Click *Waiting List* tab from top menu of tabs.  
-Find the patient you want on the waiting list.  
+Find the patient you want on the waiting list.
 Click *edit* at the right of the patient name on the waiting list that you want to take off this list and not create a future appointment for. (You can also find list of patients on the waiting list by using the Appointment Report and take them off from there too).
 
 ![](../waiting-list-tab.assets/0287b862de1e94060d1f9dd7742779a2.png)
 
-It will now open the *Appointment Wizard* tab for the patient.  
+It will now open the *Appointment Wizard* tab for the patient.
 Scroll down to the very bottom and there is a field named *Cancel*. Select a cancel reason from the drop-down of choices.
 
 ![](../waiting-list-tab.assets/0fdab72f312354e84c018c87433e5fa2.png)

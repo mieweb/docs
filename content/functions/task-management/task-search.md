@@ -7,7 +7,7 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 
@@ -16,7 +16,7 @@ To access the Task Search tab within the Task List sidemenu module, users must h
 
 
 The Task Search screen contains search criteria fields to help render a listing of created tasks in the {{% system-name %}} system.  
-The search requires at least one search criteria field to be specified before any results can generate.  Using the search criteria fields can help narrow down the results to as granular as needed.  
+The search requires at least one search criteria field to be specified before any results can generate.  Using the search criteria fields can help narrow down the results to as granular as needed.
 The search criteria fields are described as:
 * Task ID: If known, type in the specific Task ID number to search for.
 * Sender: Can type the first or last name of the user who sent the task(s) being searched for. The system will then autocomplete and display choices of users.  Multiple senders can be set in this field to generate matching results.

@@ -7,7 +7,7 @@ lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Scheduling/Adding appointments can be done in many places within {{% system-name %}} but a centralized method is from the Wizard tab within the Scheduler module.
 
@@ -28,7 +28,7 @@ When the Add Appointment wizard screen opens, it will show various fields to add
 
 This will help describe each field found on the Add Appointment screen:
 * <strong>Patient:</strong> Search for the patient chart that this appointment is for.  Various search methods exist, but typically keying in last name, followed by a portion of first name is what is used.  Use the auto-complete to select the specific patient match. 
-   * <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
+  * <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
 * <strong>Select Encounter:</strong> this selection box will show any existing <em>open</em> encounters for this patient's chart. You can link any open encounter(s) to the appointment you are creating. The list of open encounters available to link, will display the encounter type name. When you are adding or editing an appointment, you can link multiple open encounter(s) to that appointment if needed or if workflow appropriate.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/d8bbd578486cb6aa9426c80607f6146c.png)
@@ -93,7 +93,7 @@ The next section is *Patient Visits*.
 * Resources are users preloaded in your {{% system-name %}} system. They must belong to a specified department to be considered a resource. In most systems, it is called a SysSched department. Some use the physicians department. If you want to add another physician/therapist, etc to this appointment for this patient, then after you initial selection, simply begin typing another last or first name in the resource field and choose it. Continue until you are done. If you selected a wrong resource, click the [-] minus sign to delete that selection.
 * <strong>Appt (Appointment) Types:</strong> Begin typing in the appointment type the patient is being seen for. The system will auto-complete to give you choices of active appt types. If you selected a wrong appt type, click the [-] minus sign on the appt type to remove it. To add another appointment type for this specific appointment, simply begin typing another appt type and choose it. Continue until you are done. <em>Hit your down arrow key on your keyboard here to see a complete list of appointment type choices your system has—instead of using the auto-complete if you wish.</em>
 * <strong>Location:</strong> The location automatically defaults to show the location you are set to in your default settings (MY SETTINGS). If you wish to change the location for this appointment, simply begin typing in the name of the location and it will auto-complete to give you choices. You can only make ONE location choice for the appointment.
-   * It does not show outside locations as choices in the auto-complete field. <em>Hit your down arrow key on your keyboard here to see a complete list of location choices your system has—instead of using the auto-complete if you wish.</em>
+  * It does not show outside locations as choices in the auto-complete field. <em>Hit your down arrow key on your keyboard here to see a complete list of location choices your system has—instead of using the auto-complete if you wish.</em>
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/aef305c922a2c6c76f3408596aab983a.png)
 

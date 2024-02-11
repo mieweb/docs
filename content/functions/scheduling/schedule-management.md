@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/system-controls/resource-restrictions.md'
 source: 'https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Overview
 
@@ -30,11 +30,11 @@ To add a schedule:
 ![](../schedule-management.assets/1804755d96bd799721f039a7dfa34715.png)
 
 
-**Start/End time**  
+**Start/End time**
 Required field. To establish a start and end time for a schedule, use one of two methods, depending on the duration of the schedule block. To establish a schedule with a start/end time, with an indefinite end date, use today's date and the resource's start time for the work day, as well as today's date with the resource's end time for the work day. Otherwise, use the *specific* date/time (range) the schedule is being created/blocked for.  
-**Duration**  
+**Duration**
 Based on the entered start and end time, the duration will calculate automatically and populate in this field. Otherwise, the start time can be entered, and using the dropdown, choosing the duration will auto-fill the end time. Choosing a duration will set the end time with today's date.  
-**Resource**  
+**Resource**
 Required field. This is the individual available from the time slots of the schedule. Begin typing the name of the resource and select from the autocomplete. The down arrow (↓) button on the keyboard also displays the available options to be chosen from. To set a schedule to multiple resources, multiple schedules will need to be created by either creating each one, individually, using the **Save info to use again** link at the top of the screen, or the **Copy Schedule** feature, toward the bottom.  
 **Location**  
 Entering a location in this field will display the specified location on the schedule. To set the schedule to **all** locations, simply leave this field blank. An entry in this field will narrow resource searching when the location is specified. This field does not show outside locations. To specify, begin typing the location name and select from the autocomplete. Otherwise hit the down arrow (↓) button on the keyboard to see available selections. To set a schedule to multiple locations, multiple schedules will need to be created by either creating each one, individually, using the **Save info to use again** link, at the top of the screen, or the **Copy Schedule** feature, toward the bottom.  
@@ -184,13 +184,13 @@ If a resource is not listed in the autocomplete choices, check the tab and ensur
 4. With the resource selected, click the <strong>Search</strong> button. This will refresh the page.
 5. The page has four (4) sections:
 
-   1. <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
+    1. <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
 
-   2. <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
+    2. <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
 
-   3. <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
+    3. <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
 
-   4. <strong>Revision History</strong> – A view of all revision histories.
+    4. <strong>Revision History</strong> – A view of all revision histories.
 
 10. After all allowed users/departments have been added, provide the <strong>Reason For Change</strong> and click the <strong>Submit Changes</strong> button to create the restrictions.
 

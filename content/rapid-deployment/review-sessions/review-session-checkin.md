@@ -11,7 +11,7 @@ links:
   - '../../functions/system-administration/security/my-settings.md'
   - '../../functions/system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
@@ -19,18 +19,18 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 * <strong>Security Role Permissions</strong>
 * <strong>My Settings Preferences</strong>
 * <strong>System Configuration</strong>
-   * <strong>Checkin and Lobby-Like Stations</strong>
-   * <strong>Station Manager</strong>
-   * <strong>One-Click Checkin</strong>
-   * <strong>Default Visit Type and Default Encounter Type</strong>
-   * <strong>Nightly Checkout</strong>
-   * <strong>Worklists</strong>
-   * <strong>Print Definitions</strong>
-   * <strong>Checkin-Public Sidemenu</strong>
-   * <strong>System Settings</strong>
-   * <strong>Practice Management System Interface</strong>
-   * <strong>Self-Checkin Kiosk</strong>
-   * <strong>Checkin via Portal</strong>
+  * <strong>Checkin and Lobby-Like Stations</strong>
+  * <strong>Station Manager</strong>
+  * <strong>One-Click Checkin</strong>
+  * <strong>Default Visit Type and Default Encounter Type</strong>
+  * <strong>Nightly Checkout</strong>
+  * <strong>Worklists</strong>
+  * <strong>Print Definitions</strong>
+  * <strong>Checkin-Public Sidemenu</strong>
+  * <strong>System Settings</strong>
+  * <strong>Practice Management System Interface</strong>
+  * <strong>Self-Checkin Kiosk</strong>
+  * <strong>Checkin via Portal</strong>
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
 
@@ -38,7 +38,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 The Checkin module significantly improves patient flow, reducing wait times and providing workflow efficiency, all by providing simple check-in processes and open communication between the front office staff and clinicians.  
 Checking in scheduled appointments can be done from the Scheduler or from various places throughout the chart. Depending on the preferred system settings and established workflows, checking in appointments can be performed using the One-Click Checkin feature of the Scheduler, where one click will check in the patient, automatically generate and link the encounter for the visit, and alert staff that the patient is in the waiting room. Otherwise, users may use the *Checkin* links throughout the chart, whereby users can specify the encounter, any encounter details, such as performing provider or related providers, as well as any insurance precertification information, as needed.  
-Additional ways the Checkin module reduces wait times and improves workflow efficiency is through automated, scheduled clean-up processes, as well as built-in alerts and functionality designed to help recognize congestion and ease usability. For example, upon checkout, {{% system-name %}} allows users to quickly and easily schedule necessary follow-up appointments, eliminating the need for manual tracking. For appointments that were not checked out, or missed, {{% system-name %}} runs nightly commands, or jobs, that clear these from the system. Or when an individual occupies a station for longer than 15 minutes, the status is raised to high priority, providing an alert to staff regarding the long wait.  
+Additional ways the Checkin module reduces wait times and improves workflow efficiency is through automated, scheduled clean-up processes, as well as built-in alerts and functionality designed to help recognize congestion and ease usability. For example, upon checkout, {{% system-name %}} allows users to quickly and easily schedule necessary follow-up appointments, eliminating the need for manual tracking. For appointments that were not checked out, or missed, {{% system-name %}} runs nightly commands, or jobs, that clear these from the system. Or when an individual occupies a station for longer than 15 minutes, the status is raised to high priority, providing an alert to staff regarding the long wait.
 Standard functionality includes:
 * Checkin Module with Checkin Statistics
 * One-click Checkin from the Scheduler
@@ -51,7 +51,7 @@ It is important to review what security role(s), or individual users, will be ex
 
 ## My Settings Preferences
 
-Depending on the specified security permissions, some users may have the ability to manage their specific preferences and settings, or even the preferences and settings of other users. Some users may be given the ability to set system default preferences and settings, as well. It is important to review how to navigate the tab of the Control Panel and ensure all options for the Checkin functionality are enabled, as needed.  
+Depending on the specified security permissions, some users may have the ability to manage their specific preferences and settings, or even the preferences and settings of other users. Some users may be given the ability to set system default preferences and settings, as well. It is important to review how to navigate the tab of the Control Panel and ensure all options for the Checkin functionality are enabled, as needed.
 The most commonly changed user preferences for Checkin functionality are:
 * <strong>Default Location</strong> - The Default Location setting can be particularly beneficial for those facilities with multiple sites or locations. This setting drives which location is used when displaying <em>Patients in Waiting Room</em>, <em>All Checked in Patients</em>, and checkin statistics. Use the dropdown to select the primary location of the user.
 * <strong>My Station</strong> - The My Station setting establishes the default station used when moving checked-in patients. If the One-Click Checkin feature is enabled, the system will automatically place the patient into the specified station of the My Station setting. This setting can be set to any station, as needed. Users should choose the station that they most often move patients into, based on their role and place in the workflow.
@@ -65,14 +65,14 @@ The most commonly changed user preferences for Checkin functionality are:
 ### Checkin and Lobby-Like Stations
 
 When navigating to the module, users will see two sections, or categories. These sections show all patients currently checked in, displaying the patients either as **Patients in Waiting Room** or **Checked In Patients - All Stations**. This page serves as a type of dashboard, allowing users to locate patients, track time statistics, and filter down results by location or provider, if needed. **Checkin Statistics** can be also be found, at the bottom of the page. This section shows only daily times, as it resets each evening.  
-The *Patients in Waiting Room* category is designed to track all patients checked into the Waiting Room station, by default. Likewise, the *Checked In Patients - All Stations* category displays all checked-in patients, regardless of their station. The station and wait time can be found under the *Options* column.  
+The *Patients in Waiting Room* category is designed to track all patients checked into the Waiting Room station, by default. Likewise, the *Checked In Patients - All Stations* category displays all checked-in patients, regardless of their station. The station and wait time can be found under the *Options* column.
 The *Patients in Waiting Room* category can be configured to not only show patients in the Waiting Room station, but rather all patients in any *lobby-like stations*, if preferred. Most clients prefer the default; however, custom configuration can be done to display patients in lobby-like stations versus just those patients checked into the Waiting Room.
 
 ### Station Manager
 
 A station is a physical location of the clinic (e.g., Waiting Room, Exam Rm 1, Lab, Checkout, etc.). Stations allow staff to manage the flow of the office, as well as track wait times and recurring bottlenecks.  
 The of the Checkin module allows administrative users, or those with the proper security permissions, to create and manage all necessary stations. Use the Station Manager to review the default stations in the {{% system-name %}} system, and add or edit any of the stations based on workflow needs.  
-To access the Station Manager, appropriate users must have the Access Control security permission **Station Manager** set to **Yes**. Users with access will be able to navigate to the tab, found in the module. Consequently, this provides these users with the ability to add, edit, and delete stations, as needed.  
+To access the Station Manager, appropriate users must have the Access Control security permission **Station Manager** set to **Yes**. Users with access will be able to navigate to the tab, found in the module. Consequently, this provides these users with the ability to add, edit, and delete stations, as needed.
 {{% info %}}
 
 *Checkout* will not display as a station in the Station Manager editor. It does not need to be set up as a station or lobby-like station. Checkout is hardcoded and always available in the {{% system-name %}} system.

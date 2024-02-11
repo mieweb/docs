@@ -9,7 +9,7 @@ links:
   - 'finding-employer-organizations.md'
   - '../e-chart/editing-demographics.md'
 source: 'https://drive.google.com/open?id=1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.  
 When creating and adding employees to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient chart for the employee and the process is completed from the patient demographics screen.

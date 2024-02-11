@@ -6,9 +6,9 @@ version: 28
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gRYfeUHGiLquKk9t2JdT7N9FB4E6usFStodhy2VLLUg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-Show Transaction Report tab is located within the sidemenu tab named *Inventory*.  
+Show Transaction Report tab is located within the sidemenu tab named *Inventory*.
 You can get to the Transaction Report and search fields by clicking this specific tab, or you can get to the Transaction Report by clicking on a specific medication item name or Lot Number hyperlink from the Show Inventory module and it will take you to this Transaction Report with fields prepopulate with that specific inventory item details to run the report by. This Transaction Report is a report of any and all transactions related to the inventory module.
 
 ![](../inventory-transaction-report.assets/aa470633312cab62c8242a9b1c6778c8.png)
@@ -37,13 +37,13 @@ These are the search and filter field choices currently available. You do not ne
 
 * <strong>Count by:</strong> Check-mark which of these that you wish to show a count for. It will display your results as a count only. This is possibly used to see how many (the count) of transactions by patient, by item or by user.
 * <strong>Transaction Types:</strong> All are defaulted to be check-marked to show all in the results search. You can un-checkmark any to leave those types out. These are transaction types for the inventoried medication. You can show inventory transactions that were:
-   * <strong>Received:</strong> These are transactions when a user entered an inventory from the add screen.
-   * <strong>Dispensed:</strong> These are transactions when a user dispensed inventoried meds from the patient's chart.
-   * <strong>Expired</strong>: These are transactions when a user used an expire med option and expired some inventoried meds.
-   * <strong>Transferred:</strong> These are transactions when a user used the transfer med option for an inventoried med.
-   * <strong>Returned:</strong> These are transactions when a user entered a return into the inventory.
-   * <strong>Edited:</strong> These are transactions when a user used options to edit an inventoried med.
-   * <strong>Corrected:</strong> This is the transaction when a user changed an inventory item name or sig.
+  * <strong>Received:</strong> These are transactions when a user entered an inventory from the add screen.
+  * <strong>Dispensed:</strong> These are transactions when a user dispensed inventoried meds from the patient's chart.
+  * <strong>Expired</strong>: These are transactions when a user used an expire med option and expired some inventoried meds.
+  * <strong>Transferred:</strong> These are transactions when a user used the transfer med option for an inventoried med.
+  * <strong>Returned:</strong> These are transactions when a user entered a return into the inventory.
+  * <strong>Edited:</strong> These are transactions when a user used options to edit an inventoried med.
+  * <strong>Corrected:</strong> This is the transaction when a user changed an inventory item name or sig.
 * <strong>Prescriber:</strong> You can limit the report to show results that are limited to a specific Prescriber/user in the system. Select using the auto-complete.
 * <strong>RXID:</strong> This is the specific dispense/fill id# that {{% system-name %}} assigns when a medication inventory item is dispensed.
 * <strong>Date Range:</strong> Enter a date range to limit the inventory transactions by.
@@ -68,7 +68,7 @@ It will open the Edit Transaction screen where you can make changes/edits for th
 
 ![](../inventory-transaction-report.assets/d74b39e47eb8e2462fde513c7198bae6.png)
 
-Click SAVE button when done to save the transaction edit.  
+Click SAVE button when done to save the transaction edit.
 You will get a confirmation that the transaction was edited successfully.
 
 ![](../inventory-transaction-report.assets/072841e7e6f81481ef0bba28326818bd.png)

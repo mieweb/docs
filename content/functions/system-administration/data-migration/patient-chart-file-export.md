@@ -6,7 +6,7 @@ version: 36
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 There are a few ways to export the patient's chart file into different formats. You can export the patient's chart files by using any of those methods.
 
@@ -28,7 +28,7 @@ The available portlets will open in a pop-up window for your selection. Checkmar
 
 ![](../patient-chart-file-export.assets/133b600beaee9898e4bb00b054c004b5.png)
 
-It will refresh you back to the patient's summary view and it will show the section(s) you selected for your view at the end of the columns. You can ‘move' the section to where you want to on the Patient Summary view.  
+It will refresh you back to the patient's summary view and it will show the section(s) you selected for your view at the end of the columns. You can ‘move' the section to where you want to on the Patient Summary view.
 See other help documentation named *Patient Summary-Interactive Chart Tab.pdf* for instructions on how to move and more details on how to manage the Patient Summary view screen to your preference.
 
 ### Patient Chart File Export

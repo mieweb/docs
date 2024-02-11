@@ -7,12 +7,12 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Use this report if you wish to locate a specific document with some information you have, or wish to locate specific documents in general, etc.  
 Click *Reports* tab on the left side-bar menu.  
-Click *Document Reports* tab from the top tab menu.  
+Click *Document Reports* tab from the top tab menu.
 You do not have to fill out every single field. These fields are different ways to find a document and each field gets more specific and narrows your search down.
 
 ![](../documents-report-super-document-type-search.assets/bd2cd8d57bda3e9f3fa1f4b2ce449a6e.png)
@@ -29,10 +29,10 @@ You do not have to fill out every single field. These fields are different ways 
 * <strong>Location:</strong> Click on this field to check-mark a specific location or multiple locations for these documents you are searching for. If you skip this field, it will search all locations.
 * <strong>Interface</strong>: Type in the correct interface path (abbreviation) if looking for documents from an interface (Parkview, Lutheran, FW Med Lab, etc)
 * <strong>Dates & Date ranges:</strong>
-   * Origin Date Range is the date the originator ‘wrote' the document.  Example: When the doctor made the dictation.
-   * Create Date Range is the date the {{% system-name %}} version of the document was created.  Example: When the dictation was transcribed.
-   * Revision Date Range is the date of the latest revision date of the {{% system-name %}} document.
-   * Service Date Range is the date of the service that the document refers to.
+  * Origin Date Range is the date the originator ‘wrote' the document.  Example: When the doctor made the dictation.
+  * Create Date Range is the date the {{% system-name %}} version of the document was created.  Example: When the dictation was transcribed.
+  * Revision Date Range is the date of the latest revision date of the {{% system-name %}} document.
+  * Service Date Range is the date of the service that the document refers to.
 {{% tip %}}
 
 

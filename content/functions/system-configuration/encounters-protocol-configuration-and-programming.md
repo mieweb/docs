@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 *rfdThis help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
 
@@ -26,7 +26,7 @@ To program protocol selections for your system's Visit encounter, one must have 
 ![](../encounters-protocol-configuration-and-programming.assets/c5db7ba72cac5604dce7b7ea4fcbfc03.png)
 
 For protocols to show as selections in the Chief Complaint section of the dynamic Visit Encounter, the system needs to have an observation named: **Visit Protocol** This is done via the sidemenu tab Control, then to Observation Codes tab, then search to make sure one doesn't exist already. If it does exist already, you will skip to just add protocol selection choices to this existing observation in the *discrete values* section of the Visit Protocol observation.  
-Observation name = Visit Protocol  
+Observation name = Visit Protocol
 Observation Type=Custom Discrete Values
 
 ![](../encounters-protocol-configuration-and-programming.assets/fccf8aa1a5e6db8d13763cd281d2837b.png)
@@ -44,7 +44,7 @@ Once this has been done the Protocol autocomplete field (along with the selectio
 
 ## Create Observations for Use of Protocols
 
-The Visit encounter comes with default predefined HPI, ROS, PE, Tests & Procedures and Quality sections with default data entry items that get stored. However, if a protocol being set up needs specific data entry items (not found in our default sections) according to a protocol, one can set up unique encounter sections (using flowsheets) to trigger and display specific data entry items for end users to follow and key in according to a specific protocol selected.  
+The Visit encounter comes with default predefined HPI, ROS, PE, Tests & Procedures and Quality sections with default data entry items that get stored. However, if a protocol being set up needs specific data entry items (not found in our default sections) according to a protocol, one can set up unique encounter sections (using flowsheets) to trigger and display specific data entry items for end users to follow and key in according to a specific protocol selected.
 Currently, these sections can be programmed to reflect a unique selected protocol flowsheet instead of the default sections:
 * HPI (History of Present Illness)
 * ROS (Review of Systems)
@@ -68,7 +68,7 @@ Observation Name field:
 
 * Begin every observation name with <strong>HPI</strong>
 * After the word <strong>HPI</strong> then type the rest of the observation name needing to be stored to capture the data
-   * Examples:
+  * Examples:
       * HPI Associated symptoms
       * HPI Quality of pain
 
@@ -91,7 +91,7 @@ Observation Name field:
 
 * Begin every observation name with <strong>ROS</strong>
 * After the word <strong>ROS</strong> then type the rest of the observation name needing to be stored to capture the data
-   * Examples:
+  * Examples:
       * ROS ENT
       * ROS Endocrine
 
@@ -111,7 +111,7 @@ Observation Name field:
 
 * Begin every observation name with <strong>PE</strong>
 * After the word <strong>PE</strong> then type the rest of the observation name needing to be stored to capture the data
-   * Examples:
+  * Examples:
       * PE Level of consciousness
       * PE General Appearance and Level of Distress
 
@@ -131,7 +131,7 @@ Observation Name field:
 
 * Begin every observation name with <strong>QUALITY</strong>
 * After the word <strong>QUALITY</strong> then type the rest of the observation name needing to be stored to capture the data
-   * Examples:
+  * Examples:
       * QUALITY Assess client's potential for understanding the health information provided
       * QUALITY Provide client education consistent with the assessment of the condition
 

@@ -7,7 +7,7 @@ lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## What is a Risk Adjustment Factor?
 
@@ -17,9 +17,9 @@ A risk adjustment factor (RAF) is a calculation of an individual's health status
 
 * The RAF is calculated based on only assessed conditions (conditions moved to the Smart Plan or Assessment sections during encounters) in the calendar year for a particular RAF score.
 * The RAF calculation includes the following coefficients:
-   * Age/sex based on patient information.
-   * Assessed conditions grouped into HCC (Hierarchical Condition Category) groups. Multiple conditions within an HCC assessed during the calendar year do not increase the score.
-   * Some HCCs are excluded from the RAF score if other HCCs were also assessed in the calendar year. Those will be marked as excluded, and won't be included in the final number.
+    * Age/sex based on patient information.
+    * Assessed conditions grouped into HCC (Hierarchical Condition Category) groups. Multiple conditions within an HCC assessed during the calendar year do not increase the score.
+    * Some HCCs are excluded from the RAF score if other HCCs were also assessed in the calendar year. Those will be marked as excluded, and won't be included in the final number.
 
 ## Display the RAF Score
 

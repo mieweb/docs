@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 
@@ -41,14 +41,14 @@ Review Security Settings for users who need access to Health Surveillance (and C
 * If you have panels with action items set to trigger on <em>prior action (completed)</em> then it's important to have specific order items in the employee's history to have the ‘last completed' date so the system knows when the last specific order item was marked complete in order to trigger other action items dependent on it.   The <em>last completed date</em> is imported during the migration process to ensure that surveillance actions trigger with the appropriate due date.  This is needed for manual and/or {{% system-name %}} automated panel membership needs before the HR feed is turned on and before panel membership automation (if there is any) gets turned on and processes via the cronjob/scheduled job.
 **Step 7 - Panel Memberships**
 * Determine how employees will become "members" of a panel(s). Control tab→Health Surveillance tab. Find the specific panel and click Membership hyperlink from the main panel listing.  Out of the box the panel memberships will be manually maintained by staff unless there are panel membership rules programmed via the 4 fields based on: location, building, cost center, or job class.
-   * <strong>Automated Implicit Memberships</strong>
-{{% system-name %}}      *  can automatically put charts into and out of panel memberships (as implicit members) depending on fields such as Location, Building, Cost Center or Job Class. Additional automated membership programming clauses can be programmed by MIE and customized. A couple system settings are important to have set up for automated panel memberships.
-   * <strong>Panel Membership Import Tool</strong>
-      * If you utilize the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as "explicit" using this tool. It's essentially the same as manual membership add, just doing it in mass via the import tool template. Use this import tool cautiously.
-   * <strong>Add Memberships Individually and Manually</strong>
-      * You can add individual employee's to specific memberships if needed.  Again, this puts them in as "explicit" memberships into the panel(s).
-   * <strong>Viewing Current Members of Panels</strong>
-      * You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel.
+    * <strong>Automated Implicit Memberships</strong>
+{{% system-name %}}        *  can automatically put charts into and out of panel memberships (as implicit members) depending on fields such as Location, Building, Cost Center or Job Class. Additional automated membership programming clauses can be programmed by MIE and customized. A couple system settings are important to have set up for automated panel memberships.
+    * <strong>Panel Membership Import Tool</strong>
+        * If you utilize the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as "explicit" using this tool. It's essentially the same as manual membership add, just doing it in mass via the import tool template. Use this import tool cautiously.
+    * <strong>Add Memberships Individually and Manually</strong>
+        * You can add individual employee's to specific memberships if needed.  Again, this puts them in as "explicit" memberships into the panel(s).
+    * <strong>Viewing Current Members of Panels</strong>
+        * You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel.
 **Step 8 - Scheduled Jobs: Panel Evaluator and Membership**
 * When ready for go-live, determine when these will be set up in the cut-over plan.
 **Step 9 - Email Notifications Driven by Cron Job/Scheduled Job**

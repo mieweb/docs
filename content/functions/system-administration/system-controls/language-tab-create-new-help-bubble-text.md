@@ -6,9 +6,9 @@ version: 37
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-The system has the ability customize help bubble text that is hard-coded with the product. So far, the supported hard-coded help bubbles that can be customized are the patient autocomplete and all help bubbles on the E-sign page.  
+The system has the ability customize help bubble text that is hard-coded with the product. So far, the supported hard-coded help bubbles that can be customized are the patient autocomplete and all help bubbles on the E-sign page.
 To customize the first time, click the Create New Help Text hyperlink found in the Languages tab.
 
 ![](../language-tab-create-new-help-bubble-text.assets/afaf4cdf51b765a52dc25e6d676e28e7.png)
@@ -25,7 +25,7 @@ Back in the Languages tab, you can click the *SEARCH* button and see all transla
 
 ![](../language-tab-create-new-help-bubble-text.assets/bedde7e7814a58f5fc819baf92a55746.png)
 
-You can edit translated help bubble verbiage by clicking the edit hyperlink next to it and making changes.  
+You can edit translated help bubble verbiage by clicking the edit hyperlink next to it and making changes.
 You can also change a translated help bubble verbiage back to what the product default comes with (the hard-coded verbiage) by inactivating the stored custom translation. Simply click the edit hyperlink next to a customized translated standard input help bubble translation, then uncheckmark the ‘active' checkbox and Submit your edit.
 
 ![](../language-tab-create-new-help-bubble-text.assets/64a589cae34c41a8617ee1dafcc24b04.png)

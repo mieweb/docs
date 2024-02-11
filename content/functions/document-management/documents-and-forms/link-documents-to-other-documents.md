@@ -11,7 +11,7 @@ links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
   - '../../e-sign-electronic-signature.md'
 source: 'https://drive.google.com/open?id=1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The {{% system-name %}} system has the ability to link one document to another document, whenever necessary. For example, a radiology report may be linked to an x-ray image. Performing this type of link can be done from either the document properties or multi-review screen of the [E-Sign](https://system/?func=esign) module.  
 {{% note %}}
@@ -38,7 +38,7 @@ The **Link Type** dropdown allows users to define types of links between documen
 
 ![](../link-documents-to-other-documents.assets/e8a9d6c7d037d23501e17741123606ae.png)
 
-The **Linked To**  
+The **Linked To**
  field is used to define the document being linked to the document in context. Simply begin typing the document ID to populate the appropriate document being linked. If the document ID is not known, simply use the help bubble ![](../link-documents-to-other-documents.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)  
  to utilize the search feature, to find the appropriate document ID.
 {{% tip %}}

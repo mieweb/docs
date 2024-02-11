@@ -7,12 +7,12 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Adding a Document to a Batch
 
 Batching is a quick way to add multiple documents into a batch to be printed or faxed or burned to a cd. It is a batch of documents to be rendered from any patient(s). This is a way to print, fax or burn multiple documents for any patient or multiple patients instead of printing/faxing/burning one individual document at a time.  
-Batching is specific to your username. It will not show documents that are currently batched by another user. Batching & removing is specific to your logged in username.  
+Batching is specific to your username. It will not show documents that are currently batched by another user. Batching & removing is specific to your logged in username.
 There are several ways to get a document into a ‘batch'.
 
 ### Batching an Opened Document from Detail View
@@ -90,7 +90,7 @@ When you are ready to burn the documents you batched, simply insert a blank CD i
 
 {{% tip %}}
 
-If this is the first time burning images/documents from {{% system-name %}} on the computer you're using, **you must download a tool before proceeding**  
+If this is the first time burning images/documents from {{% system-name %}} on the computer you're using, **you must download a tool before proceeding**
 ! Click on the "download a tool" link if such window appears. If you do not get this window to download an ISO tool, then please call the MIE helpdesk immediately for assistance. Helpdesk will assist you in installing a free burning tool (Image Burn) on the PC. You will also need to change the file association for ISO to use the software and not MS Word. Then you can proceed burning to a disk. ![](../batched-documents-printing-faxing-burning.assets/dc2899eba21fcb9a7985b2b9a5ad358e.png)
 
 {{% /tip %}}

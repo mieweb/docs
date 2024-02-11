@@ -7,13 +7,13 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 1. From the desktop of your computer, click START from the bottom left corner. Depending on what style you are displaying the start menu (classic or start view), you may then need to go to SETTINGS, then to CONTROL PANEL. Otherwise, click START and click CONTROL PANEL.
 
 
 ![](../how-to-adjust-voice-recording-volume.assets/e6899e44e30cb5c0f39b26b678152ba3.png)  
- **or**  
+ **or**
  ![](../how-to-adjust-voice-recording-volume.assets/c0a161aa932f3bb4093a1218282d7b56.png)
 
 

@@ -7,9 +7,9 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-When you open an encounter and are working in it, your point & click encounter exam is customized to your practice. Most sections can be customized and programmed to accommodate your workflow. There are different variations on most sections that can be programmed. Contact your MIE Implementer if you have any questions or want to change an entry section.  
+When you open an encounter and are working in it, your point & click encounter exam is customized to your practice. Most sections can be customized and programmed to accommodate your workflow. There are different variations on most sections that can be programmed. Contact your MIE Implementer if you have any questions or want to change an entry section.
 At the top of the encounter, you may have a section named **Today's Encounters**. This section lists encounters created today only (today's date).  If you are working in a dated encounter (dated previous to today's date) and there are multiple encounters, it will still show open encounters for today's date only, not the dated encounter you are working on.  Your practice might also have links to launch other exams that may require separate documentation/encounters. These links are found right below the *Today's Encounters* section.
 
 ![](../working-in-a-legacy-encounter.assets/4f9182a6b36ab9d97ca4051556260396.jpg)
@@ -63,8 +63,8 @@ If you have security to add new var tree items, when you click add new it will p
 ![](../working-in-a-legacy-encounter.assets/3d9dcf8f2f69f6e307a9de6ea1ae0eae.png)
 
 * <strong>Item Type</strong>: Whether you want a clickable item or a new submenu. You select either to create a clickable item in the grouping where they clicked the ‘Add New' or whether it creates a sub-grouping.
-   * SubMenu Name (If SubMenu selected): the name of the SubMenu to add to the current grouping. This also will create a clickable item under that grouping, so all other fields apply to that clickable item.
-   * Allow Append checkbox (If SubMenu selected): whether or not the ‘+' icons appear next to clickable items inside this new SubMenu.
+  * SubMenu Name (If SubMenu selected): the name of the SubMenu to add to the current grouping. This also will create a clickable item under that grouping, so all other fields apply to that clickable item.
+  * Allow Append checkbox (If SubMenu selected): whether or not the ‘+' icons appear next to clickable items inside this new SubMenu.
 * <strong>Display Name:</strong> what appears in the var-tree popup for them to click on (what is displayed on the screen to select from).
 * <strong>Text:</strong> this is what is inserted on the document after you click the "display name" when working in an encounter.
 * <strong>Is Normal</strong> This allows you to flag this statement as the "normal".
@@ -78,7 +78,7 @@ If you have security to add new var tree items, when you click add new it will p
 ### Spell Check Var-Tree Selection
 
 Spell check is available in a var-tree programming of an encounter. It is a very small pop-up.  
-After you click on the var-tree entry and select something, simply *right click* on that statement that was placed in that selection. A small 3 button toolbar will show up. (Triangle, X and A buttons).  
+After you click on the var-tree entry and select something, simply *right click* on that statement that was placed in that selection. A small 3 button toolbar will show up. (Triangle, X and A buttons).
 If you click on the statement, it opens it up for you to edit/type in it.  You have to get out of that edit/typing mode to be able to right click it for the spell-check toolbar to pop-up.
 
 ![](../working-in-a-legacy-encounter.assets/56228811834ff94f050dbaac80c70d90.png)
@@ -178,7 +178,7 @@ If you manually check-mark and override any of these, you *must* click the SAVE 
 Hover your mouse over the help icon in the Quality Measures title for explanation on each column checkbox.
 * <strong>Include</strong> column checkboxes mean that the patient fits the criteria and that they should be reported for this measure.
 * <strong>Pass</strong> column checkboxes mean that the correct actions were performed and documented to satisfy the rule. If you click <em>pass</em> checkbox first, it will automatically check the corresponding <em>include</em> checkbox also.
-   * Example: If a rule said that all female patients should have a pap smear annually, then a typical female should be ‘included'. If the physician was able to document that a pap had been done, then they could check the box for ‘pass'. If the patient had had a hysterectomy, the physician might override the system-determined ‘include' because they think this patient shouldn't be included for this measure.
+  * Example: If a rule said that all female patients should have a pap smear annually, then a typical female should be ‘included'. If the physician was able to document that a pap had been done, then they could check the box for ‘pass'. If the patient had had a hysterectomy, the physician might override the system-determined ‘include' because they think this patient shouldn't be included for this measure.
 * <strong>Exclusion</strong> column checkboxes mean that the patient fits into exclusion criteria for this measure for the visit. They are included, but excluded from pass/fail compliancy. You will still need to report exclusions when attesting and they will be on your calculation page & reports. Only certain NQF/clinical quality measures have exclusions available per CMS guidelines so that is why not all measures have this exclusion checkbox.
 
 ![](../working-in-a-legacy-encounter.assets/916d71f9074e3b209a443c72592f86cf.png)

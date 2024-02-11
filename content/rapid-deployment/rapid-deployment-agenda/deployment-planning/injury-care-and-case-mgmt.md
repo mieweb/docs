@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-injury-care.md'
   - '../../review-sessions/review-session-case-management.md'
 source: 'https://drive.google.com/open?id=1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Purpose
 
@@ -22,7 +22,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 ### Agenda - 2 Hours
 
 * Demonstrate Injury Care
-   * Overview
+  * Overview
       * Security Permissions
       * Insurance Interface
       * Work-Related Case Management
@@ -32,7 +32,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
             * Incident On-Site Locations
             * Nature of Illness/Injury and Body Parts
             * Restrictions (Types) & Accommodations
-               * Restriction Providers
+                * Restriction Providers
             * Event and Source
          * State-Specific Forms/Print Definitions
       * Reporting
@@ -42,7 +42,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
       * E-File with OSHA
       * Resources
 * Demonstrate Case Management
-   * Case Management Overview
+  * Case Management Overview
       * Case Management Functionality
       * Case Management Encounter
       * Case Management Worklist

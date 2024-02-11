@@ -7,7 +7,7 @@ lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 An encounter can have a section named Billing. This can include items like Time Factor, Charge Capture and also an EM Calculator (Evaluation & Management Codes).
 
@@ -21,7 +21,7 @@ The EM Calculator is a coding wizard works when you manually change the dropdown
 
 ![](../e-m-calculator.assets/e4ad3ff26a8ebcb88aa451cdaa565e15.png)
 
-If going to use the EM Calculator and want the system to help auto-calculate the code based on var-tree items, you will need to go thru and code each var-tree item to an exam section via the Var-Tree editor.  
+If going to use the EM Calculator and want the system to help auto-calculate the code based on var-tree items, you will need to go thru and code each var-tree item to an exam section via the Var-Tree editor.
 When adding a new var-tree item or going thru to code your existing var-tree items, the **Exam Section** drop-down to set is what this item should be counted towards in the EM Calculator section. Then when a provider selects that var-tree item, the EM Calculator automatically marks it for that level and helps to calculate the code based on what is marked.
 
 ![](../e-m-calculator.assets/d79bfe6b0ce2ff994c01a124226fde30.png)

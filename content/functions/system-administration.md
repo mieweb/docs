@@ -12,7 +12,7 @@ links:
   - 'system-administration/security.md'
   - 'system-administration/asset-management.md'
 source: 'https://drive.google.com/open?id=1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 

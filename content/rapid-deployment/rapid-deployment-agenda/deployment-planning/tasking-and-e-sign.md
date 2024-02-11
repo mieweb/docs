@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-tasking.md'
   - '../../review-sessions/review-session-e-sign.md'
 source: 'https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Purpose
 
@@ -22,7 +22,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 ### Agenda - 1 Hour
 
 * Demonstrate Tasking
-   * Overview
+  * Overview
       * Task List Module
          * Your Task List
          * Delegated
@@ -34,7 +34,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
          * Fast Task Templates
          * Tasklist Event Rules
 * Demonstrate E-Sign Functionality
-   * System Configuration
+  * System Configuration
       * Esign Editor Rules
 
 ## Afterward

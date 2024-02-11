@@ -6,9 +6,9 @@ version: 46
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.  
+The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.
 Within {{% system-name %}} , you may have a chart tab named *EKG* where you can see the imported EKG device results and interpretations. Contact your MIE Implementer for set up.
 
 ![](../device-interface-cardioperfect-ekg.assets/f12d0c121e2793caf79716564a77e43f.png)
@@ -57,7 +57,7 @@ When you see the *upload was successful* window and it asks if you want to delet
 
 ![](../device-interface-cardioperfect-ekg.assets/726dc82d6e0adf47af14532c843a065a.png)
 
-The ECG data is now stored in the patient's chart.  
+The ECG data is now stored in the patient's chart.
 The study image and interpretation will now display in the section of the encounter if you have that layout to show there, and also in the EKG patient chart tab.
 
 ![](../device-interface-cardioperfect-ekg.assets/82939e9057e2bbd179bf120e8d473ccf.png)

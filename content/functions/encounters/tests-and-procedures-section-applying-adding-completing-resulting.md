@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 While working in an encounter, you may see the Tests & Procedures section found in the Objective section. This section is a reinvention of our "Due List". The Tests & Procedures section displays items that are "due" so when a patient comes in, and the staff is working in an encounter, the clinician has visibility of those "items" that the patient is due for here in this section. *Note: These same items are also visible from the separate chart tab named Due List.*
 
@@ -25,7 +25,7 @@ The section expands to show details of the order name, the due date, status, wha
 
 ## Applying Items to the Encounter
 
-When the *Tests & Procedures* section is expanded to show details, it will allow you to apply any pending Tests & Procedures (due list items) to perform, complete & result within the encounter visit.  
+When the *Tests & Procedures* section is expanded to show details, it will allow you to apply any pending Tests & Procedures (due list items) to perform, complete & result within the encounter visit.
 These items/procedures/tests are "pending" and need done to the patient/employee if they have the status of "pending". If the order item has a due date, it will also display. This will help you see what is due and if you want to go ahead and do those items on the patient today during the visit, or wait until a future visit closer to the due date. *Note: any questionnaire that a patient/employee is completing via the patient/employee portal and has started (in progress status) will not display here in the due list since it's ‘in progress'.*
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/9b5ecd5d60ae12f7fd2cc5ed237dbd3a.png)
@@ -45,7 +45,7 @@ You can select all order items in mass (if you wish) by checkmarking the box in 
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/16afee0008f47f496fdf8855c8a153fd.png)
 
-Once you've applied the specific pending items or other pending procedures, to today's encounter visit it will refresh the encounter and embed those procedures into today's encounter as individual ‘sections' right after the Tests & Procedures section.  
+Once you've applied the specific pending items or other pending procedures, to today's encounter visit it will refresh the encounter and embed those procedures into today's encounter as individual ‘sections' right after the Tests & Procedures section.
 The Tests & Procedures section will collapse and under that section, you will then see individual title sections named the specific order items/procedure items you marked to be added to this exam to be performed and resulted on the patient/employee today during today's visit. It also automatically inserts the order items as "in progress" status.
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/27222361f54192ad9890f726b3b70852.png)
@@ -66,7 +66,7 @@ To complete and key in a result to a procedure or test and result it within the 
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/618c78711c5e3c8f3e512df7d3979ea6.png)
 
-Once you click on the one you performed, it will expand the section to allow you to complete and type in the results. *Note: these are order items that can be programmed to open specific layouts and entry fields. Please contact your MIE Implementer if you need specific order items to expand to open specific data entry fields or device interface links or injectible data fields.* *Each procedure item can be set to it's own unique data entry layout fields to capture the data needed for resulting*. *When uploading a PFT or Audio test on a dynamic encounter the results will show up immediately instead of after the section is closed. PFT and Audio procedures will be marked as completed when a test is uploaded on an encounter.*  
+Once you click on the one you performed, it will expand the section to allow you to complete and type in the results. *Note: these are order items that can be programmed to open specific layouts and entry fields. Please contact your MIE Implementer if you need specific order items to expand to open specific data entry fields or device interface links or injectible data fields.* *Each procedure item can be set to it's own unique data entry layout fields to capture the data needed for resulting*. *When uploading a PFT or Audio test on a dynamic encounter the results will show up immediately instead of after the section is closed. PFT and Audio procedures will be marked as completed when a test is uploaded on an encounter.*
 If the pending due list item is a ‘required' item by a Health Surveillance Panel for this patient, when the test/procedure is expanded to perform, one will see the *pass/fail criteria* option checkboxes by default. *Note: The pass/fail criteria data collection options can still be configured on order item layouts that are not ‘required' by the health surveillance panel. This is not on by default (is only on for ‘required' panel items), so contact your MIE Implementer.*
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/957ab761f4eb411b5643cfc51e500f47.png)
@@ -102,7 +102,7 @@ When you click that icon, it opens the default order picklist set named In House
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/95af27affd97c76520a99df4e8dc1a68.png)
 
-Contact your MIE Implementer to have the In House Testing picklist configured to what your practice performs in-house and results.  
+Contact your MIE Implementer to have the In House Testing picklist configured to what your practice performs in-house and results.
 A different default order picklist set that opens up when you click *Add Tests and Procedures* can be setup based upon the encounter location. It doesn't have to always default to open up the In House Testing picklist. Contact your MIE Implementer for help. All you need to do is create separate order picklists with the order items you want for a particular location. The name of the picklist must END in the specific location code (location code is found in Location Manager tab) e.g. Labs NORTH In these examples, the encounter location is "North Location Office" which is location code NORTH. I then created a picklist named *In House Testing NORTH* and set up the order items that the North office can perform in house. Then when they click *Add Tests and Procedures*, as long as the encounter visit location matches, that will be the default order picklist that opens for them. Same in another example, it doesn't have to be named In House Testing, I instead did same scenario but instead created an order picklist named *Labs NORTH* and when they click *Add Tests and Procedures* it would open to that default picklist instead if the encounter location matched that location code in the order picklist name.
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/c631c70c2f58b0a5e6428f791c1d3333.png)
@@ -116,7 +116,7 @@ Once you click on *Add Tests and Procedures*, and the order set picklist pops up
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/07e8dcd3ca73c34c0408d3e492d03b2d.png)
 
-Any procedures/tests/items you checkmarked to add to the patient's visit, will be applied to the encounter visit and automatically inserted as *in progress* status. Checkmarking any procedures/tests/items in that In House Testing picklist signifies you will be performing them at today's visit or ordering them to result them in-house.  
+Any procedures/tests/items you checkmarked to add to the patient's visit, will be applied to the encounter visit and automatically inserted as *in progress* status. Checkmarking any procedures/tests/items in that In House Testing picklist signifies you will be performing them at today's visit or ordering them to result them in-house.
 Once those are selected by the above steps, the section will refresh, the items you selected from the In-House Testing picklist will be applied to today's encounter visit you are in. The order items you selected are now shown in the encounter in their own sections. They are also automatically inserted as *in progress*.
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/a8939b01ac241eb925fc03bd6dbae4f6.png)
@@ -133,7 +133,7 @@ That then expands the Tests & Procedures section and displays the auto-complete 
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/202a85a2b2f6fb9b2118c39e6e70de89.png)
 
-Begin typing in the *Order* auto-complete field. After the order item(s) are found using the auto-complete, you click the ‘Add to Exam' button.  
+Begin typing in the *Order* auto-complete field. After the order item(s) are found using the auto-complete, you click the ‘Add to Exam' button.
 {{% note %}}
 
 *The order autocomplete field shows all order items programmed in your system (regardless of order type). Contact your MIE Implementer if you wish to only have the auto-complete field show choices from specific order types.*

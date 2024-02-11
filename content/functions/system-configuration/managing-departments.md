@@ -7,13 +7,13 @@ lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## View Departments
 
 Click *Control* on the left sidebar menu.  
 Click *Access Control* tab at the top tabs.  
-Click *View Departments* link option at the top left.  
+Click *View Departments* link option at the top left.
 You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system.
 
 ![](../managing-departments.assets/bba7f0086a4ce46bf23222b07955e598.png)
@@ -27,7 +27,7 @@ Click on the underlined *Department* name to open a list of the users that are s
 
 Click *Control* on the left sidebar menu.  
 Click *Access Control* tab at the top tabs.  
-Click *View Departments* link option at the top left.  
+Click *View Departments* link option at the top left.
 You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system. Click *Add Department* link towards the top right corner of this screen.
 
 ![](../managing-departments.assets/298006274835d412820e8f78ea613243.png)
@@ -36,7 +36,7 @@ When you click Add Department, the Add Department screen fields will display.
 
 ![](../managing-departments.assets/66738cca6471141b987bc65719fcec4a.png)
 
-**NAME**: Type is the full name of the department you wish to add.  
+**NAME**: Type is the full name of the department you wish to add.
 **VIEWABLE DEPARTMENTS**: Then you must check any *Viewable Departments* that you want this department to be able to view. Make sure its own department is check-marked. Once the department is checked, the users in that department will be able to view anything that those other users in that department(s) are allowed to view. You can check-mark *all* of the departments by clicking the **Check All Dept** button. These viewable departments are primarily if a user is set to a security permission to view restricted departments only. For example, suppose I am an administrator (as my primary department) and my viewable departments are physicians and nurses, but not pharmacists. Then I cannot see anyone whose primary department is "pharmacists". If the physicians department can view nurses, pharmacists and administrators, then a person whose primary department is "physicians" can view any pharmacist. If, as a primary administrator, I am also in the physicians department, I still cannot view anyone in the pharmacy department. If a dept is marked viewable, the user can see the other users within that department. *Currently this is for NoMoreClipboard use only, however any |system| user may be set to be restricted to view specific department(s) only.*
 
 ![](../managing-departments.assets/9be03d2da065c85834d0131bc88a476f.png)
@@ -48,12 +48,12 @@ Then click *Submit Dept.* It will then say it was successfully loaded.
 Click *Control* on the left sidebar menu.  
 Click *Access Control* tab at the top tabs.  
 Click *View Departments* link option at the top left.  
-You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system.  
+You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system.
 Click Delete in the options column to delete a department.
 
 ![](../managing-departments.assets/829099583a3d547e77213d526be9f185.png)
 
-When you *delete* a department, it does not actually delete it. It marks it as "inactive".  
+When you *delete* a department, it does not actually delete it. It marks it as "inactive".
 It will ask you a confirmation that you really want to delete this department. Click Delete to proceed or cancel to escape and get out.
 
 ![](../managing-departments.assets/d3489ae0665c81731c672e4a78d89096.png)
@@ -76,13 +76,13 @@ If you need a department completely and permanently deleted, you need to call MI
 Click *Control* on the left sidebar menu.  
 Click *Access Control* tab at the top tabs.  
 Click *View Departments* link option at the top left.  
-You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system.  
+You will see an alphabetized list of the Departments that exist in your {{% system-name %}} system.
 Or click the link *Edit* in the options column of the department you wish to edit.
 
 ![](../managing-departments.assets/007c731632b3147a95bec66b33110db9.png)
 
-You will now be in the Edit Department screen fields.  
-**NAME**: You can change the name of the department by typing in a new name or correction, etc.  
+You will now be in the Edit Department screen fields.
+**NAME**: You can change the name of the department by typing in a new name or correction, etc.
 **VIEWABLE DEPARTMENTS**: You can edit by check-marking (or un-checkmarking) any *Viewable Departments* that you want this department to be able to view. Make sure it's own department is check-marked. Once the department is checked, the users in that department will be able to view anything that those other users in that department(s) are allowed to view. You can check-mark *all* of the departments by clicking the **Check All Dept** button. These viewable departments are primarily if a user is set to a security permission to view restricted departments only. Currently this is for NoMoreClipboard use only, however any {{% system-name %}} user may be set to be restricted to view specific department(s) only.
 
 ![](../managing-departments.assets/d15f894c8de7c0a76349b0a5cd2f8b8f.png)
@@ -92,7 +92,7 @@ Click SUBMIT DEPT. button at the bottom. Your edits will now be saved for that d
 ## Tag or Delete Multiple Users on a Department
 
 You can quickly tag multiple users to (in mass) or delete multiple users from (in mass) a specific department by going to "View Department", clicking "edit" on the particular department and using the listedit & autocomplete feature there.  
-To add or remove users to/from a department in mass, click View Departments from the Access Control tab.  
+To add or remove users to/from a department in mass, click View Departments from the Access Control tab.
 Find the department you wish to add mass users to or remove users from and click edit link.
 
 ![](../managing-departments.assets/fa8be91af9939e608af570dd3f311f71.png)

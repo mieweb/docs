@@ -7,7 +7,7 @@ lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Health Surveillance Reports
 
@@ -139,9 +139,9 @@ The Panel Membership by Individual report displays all charts included/excluded 
 The Panel Metrics report displays charts with health surveillance panel memberships that are due within the specified due date range. This report displays each panel status, as well as other details organized in a variety of available datavis sections:
 * Employee Panels:  This section lists the chart(s) and health surveillance panel(s) they are a current member of, the clinic location on the chart's demographics, and due dates, completed dates, decertification/overdue dates and overall panel status (representative event on the panel). 
 * The other sections display aggregate totals:
-   * Total Employee Panels by Month and by Status
-   * Total Employee Panels by Month, and Required vs Voluntary
-   * Total Employee Panels Month, and Status
+    * Total Employee Panels by Month and by Status
+    * Total Employee Panels by Month, and Required vs Voluntary
+    * Total Employee Panels Month, and Status
 
 ![](../health-surveillance-reports.assets/9f60ab9f30e77715aa537558799c3d15.png)
 

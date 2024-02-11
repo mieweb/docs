@@ -7,7 +7,7 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 # Patient Education Interface
 
@@ -102,7 +102,7 @@ When a user prints the Healthwise patient material,  {{% system-name %}} querie
 
 By default, the document is stored as doc.type WCHEALTH. You should have the doc.type WCHEALTH in your system with the description of it being "Healthwise Patient Education". You can change the system setting to store these to a different doc.type, however by default it's already set up to point to WCHEALTH doc.type.
 
-*Note:*  
+*Note:*
 If you are doing Meaningful Use, you would **not** want to change this setting to store as doc.type WCPATED because WCPATED is looked at in meaningful use measures/calculations and could skew that data.
 
 ![](../patient-education-interface.assets/65aa294d48f757f0e2f1e7846880441f.png)

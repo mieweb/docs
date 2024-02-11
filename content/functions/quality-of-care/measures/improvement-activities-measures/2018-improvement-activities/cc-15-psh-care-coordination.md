@@ -10,14 +10,14 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1LvK0sD2FZ8JRIvRNodH5JXsgdpBgsWZf4hgqeT-taMM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 
 
 
 
-**Activity Weighting**: Medium  
-**Subcategory Name**: Care Coordination  
+**Activity Weighting**: Medium
+**Subcategory Name**: Care Coordination
 **Description**: Participation in a Perioperative Surgical Home (PSH) that provides a patient-centered, physician-led, interdisciplinary, and team-based system of coordinated patient care, which coordinates care from pre-procedure assessment through the acute care episode, recovery, and post-acute care. This activity allows for reporting of strategies and processes related to care coordination of patients receiving surgical or procedural care within a PSH. The clinician must perform one or more of the following care coordination activities:
 * Coordinate with care managers/navigators in preoperative clinic to plan and implementation comprehensive post discharge plan of care;
 * Deploy perioperative clinic and care processes to reduce post-operative visits to emergency rooms;

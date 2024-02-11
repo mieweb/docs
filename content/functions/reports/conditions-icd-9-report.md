@@ -6,11 +6,11 @@ version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Click *Reports* tab on the left sidebar menu.  
-Click *Conditions/ICD-9 Reports* tab from the top tab menu.  
+Click *Conditions/ICD-9 Reports* tab from the top tab menu.
 The Condition Search screen will open. This is a search of conditions tied to patients according to the criteria you enter.
 
 ![](../conditions-icd-9-report.assets/6b10ea48155e69f14e4ae9363f882bc2.png)

@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-scheduler.md'
   - '../../review-sessions/review-session-checkin.md'
 source: 'https://drive.google.com/open?id=1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Purpose
 
@@ -22,11 +22,11 @@ Review standard  {{% system-name %}}  workflows and gather information needed 
 ### Agenda - 2 Hours
 
 * Demonstrate the out-of-the-box check-in functionality
-   * System Configuration
+  * System Configuration
       * Check-in Stations
       * Check-in Portal (if purchased)
 * Demonstrate the Scheduler
-   * Overview
+  * Overview
       * Scheduler Tabs
          * Views
          * Wizards

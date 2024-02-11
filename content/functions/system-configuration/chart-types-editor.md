@@ -7,17 +7,17 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QZKVqleCbfau8qypHvxece9sleS3_E2WJcQTQRCuLgE'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Overview
 
 Chart "Types" is a concept used to show different/separate chart tabs for whichever "type" of patient record you are in. This wouldn't be used for different types of patients; it's essentially used for different types of "records" like patients being registered and organizations or providers being registered or EOBs. The user only sees chart tabs that are relevant for that patient/type of record, without knowing anything about that patient/record other than his pat_id (and/or the partition(s) the patient is in).  
-An example is if you want to store information of a person (or perhaps equipment) who isn't a patient and the type of data isn't regular patient data.  Example: storing information on physicians that have a "chart" in {{% system-name %}} or storing information on "machines" that have a "chart" in the asset management module of {{% system-name %}} .  
+An example is if you want to store information of a person (or perhaps equipment) who isn't a patient and the type of data isn't regular patient data.  Example: storing information on physicians that have a "chart" in {{% system-name %}} or storing information on "machines" that have a "chart" in the asset management module of {{% system-name %}} .
 For {{% system-name %}} systems that do use this, chart tabs will be separated into sets by chart type as well as document types and chart records. When the user goes to a record/chart, {{% system-name %}} will look at the patient's chart type(s) and only show those tabs that correspond to those chart "types" the record/chart partition is tagged to. If there are other restrictions on chart tabs (only show this tab if the patient is female, etc) those restrictions will be honored as well. All chart tabs start out with the ‘default chart type', which is really no chart type at all. If a user is in the chart of a record with no chart type, the user will see only those chart tabs with this default chart type.
 
 ## How to Use the Chart Types Editor
 
-Before any changes are made to chart tabs or patient/records/charts, or patient partitions, each chart tab has the default chart type (the blank option in the chart tab editor).  
+Before any changes are made to chart tabs or patient/records/charts, or patient partitions, each chart tab has the default chart type (the blank option in the chart tab editor).
 The Chart Types Editor tab is available in the Control Panel. Your MIE Implementer will add this if your practice will need to utilize this functionality.
 
 ![](../chart-types-editor.assets/1f684c0e24fc76f37987c0278e3c8940.png)
@@ -51,7 +51,7 @@ The editing option displays a listedit that allows the user to quickly associate
 
 ![](../chart-types-editor.assets/eaeab53794c79a2db667983e0784b91c.png)
 
-OR  
+OR
 You can also set the chart tabs to a specific chart types in the above edit screen **or** you can go to the Chart Tabs control and set chart *types* within the individual *chart tab* properties also.
 
 ![](../chart-types-editor.assets/9a4de0dca972808782708cf6b342e65e.png)
@@ -92,7 +92,7 @@ You can tag specific individual patients via the patient's record instead of the
 
 
 Once you have Chart Types set up, you can have specific Document Types set to chart type(s). The list of doc.types that may be set to "chart types" would then be available in an indexing screen.  
-In this example, I may need to scan and house a service agreement document for an Audio machine. My {{% system-name %}} system uses the asset management module and could have chart named "Audio machine". So for regular patient charts I would never need to store a ‘service agreement' to them, but I do need to for my Audio machine chart that is in {{% system-name %}} .  
+In this example, I may need to scan and house a service agreement document for an Audio machine. My {{% system-name %}} system uses the asset management module and could have chart named "Audio machine". So for regular patient charts I would never need to store a ‘service agreement' to them, but I do need to for my Audio machine chart that is in {{% system-name %}} .
 The doc.type editor allows now for a doc.type to be set to chart type(s) if necessary.
 
 ![](../chart-types-editor.assets/6199cf8181719eff704e4be112207e44.png)

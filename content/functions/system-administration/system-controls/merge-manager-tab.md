@@ -9,7 +9,7 @@ links:
   - '../../document-management/documents-and-forms/document-properties.md'
   - 'merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The Merge Manager tab is found in the sidemenu tab named *Control Panel*. The Merge Manager tab is where you can see a listing of charts that have been merged in  {{% system-name %}}  along with any details and who performed the merge, when, etc. If you have security to do so, you can also perform an un-merge to un-merge those charts.
 
@@ -53,9 +53,9 @@ Once you are in the Merge Manager Log tab, it will show the search criteria filt
 
 ![](../merge-manager-tab.assets/401443c569f8bff9b0b2948b9fc9fbea.png)
 
-Click the SEARCH button to render your results.  
+Click the SEARCH button to render your results.
 You will see the various columns (Status, Merged From, Merged, To, Merge Type, Details, Merged By and Merge Date) and specific line details and queries if you check-marked to display those in your search results.
-   
+
 No results will render below it in the *Patient Merge Log listing* until a search has been rendered using any search criteria fields at the top.  **Note:** clicking the SEARCH button without any search criteria, will display a listing of all charts that have been merged in the system.
 
 

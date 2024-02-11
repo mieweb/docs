@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'closing-encounters-from-the-dictation-module.md'
 source: 'https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 When a physician uploads an encounter dictation voice file, it is entered into the system with a "Held by Dictator" status. This way it can not be grabbed or transcribed by any user until the physician is done with their encounter exam in the system. This encounter dictation file will not show in the Pending Dictation tab/list until the physician is done with their exam in the system.
 
@@ -23,7 +23,7 @@ When the physician is done with their exam, they will click the submit button or
 
 Log into {{% system-name %}} and click on the left sidebar menu tab called DICTATION.  
 You will open to the MY PENDING tab of the dictation module.  
-This opens to the summary screen of your assigned and any unassigned dictations.  
+This opens to the summary screen of your assigned and any unassigned dictations.
 When you first locate an Encounter dictation, you will see a primary Dictation ID number.
 
 ![](../transcribing-dictation.assets/d0f5d44465f539a14a12c8b7c2146ab6.png)

@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-health-surveillance.md'
   - '../../review-sessions/review-session-order-and-result-management.md'
 source: 'https://drive.google.com/open?id=1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Purpose
 
@@ -22,7 +22,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 ### Agenda - 2 Hours
 
 * Health Surveillance Demonstration
-   * Overview
+  * Overview
       * Panels
          * Panel Actions
          * Representative Events
@@ -35,7 +35,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
       * Managing the Due List
       * System Configuration
 * Order and Result Management Demonstration
-   * System Configuration
+  * System Configuration
       * Order Items
       * Order Panels
       * Order Picklists (i.e., lab orders, radiology orders, PT/OT, referrals)

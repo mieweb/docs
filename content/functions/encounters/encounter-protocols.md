@@ -7,9 +7,9 @@ lastAuthor: 'Dawn Case'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-Protocols are clinical workflows that are condition specific, such as headaches, burns, falls and bites. To better guide the clinician through a patient visit based on a specific condition, ‘protocols' can be configured using observations, flowsheets, .macros and orders in the standard dynamic 'Visit' encounter.  
+Protocols are clinical workflows that are condition specific, such as headaches, burns, falls and bites. To better guide the clinician through a patient visit based on a specific condition, ‘protocols' can be configured using observations, flowsheets, .macros and orders in the standard dynamic 'Visit' encounter.
 Creating protocols in a system for the ‘Visit' encounter consists of adding the protocol selector in the Chief Complaint section of the encounter. This will drive any programmed protocol components for the other sections of the dynamic visit encounter; History of Present Illness ( HPI), Review of Systems (ROS), Physical Exam (PE), Tests and Procedures, Quality, Plan Narrative, Visit Orders, Treatments, Patient Education and Depart Instructions. Contact your MIE Implementer to have other protocol selections displayed in the chief complaint section.
 
 ## Protocol Selection Choices in Chief Complaint
@@ -29,7 +29,7 @@ Once the Chief Complaint section header is collapsed (or you click the ‘next' 
 
 ## Encounter Sections that Change with Protocol
 
-Depending on the protocol selected in the chief complaint, the corresponding protocol data field components will populate in other sections of the dynamic visit encounter such as; History of Present Illness ( HPI), Review of Systems (ROS), Physical Exam (PE), Tests and Procedures, Quality, Plan Narrative, Visit Orders, Treatments, Patient Education and Depart Instructions.  
+Depending on the protocol selected in the chief complaint, the corresponding protocol data field components will populate in other sections of the dynamic visit encounter such as; History of Present Illness ( HPI), Review of Systems (ROS), Physical Exam (PE), Tests and Procedures, Quality, Plan Narrative, Visit Orders, Treatments, Patient Education and Depart Instructions.
 This screenshot shows an example of an HPI section that displays data fields to capture regarding HPI for a Cardiovascular-Chest Pain protocol.
 
 ![](../encounter-protocols.assets/032e2221b13743f780ea54560ec1eb4b.png)
@@ -53,12 +53,12 @@ Specific MACRO choices can be programmed to protocol flowsheet sections in prior
 
 ### Tests & Procedures Section Using Protocols
 
-Tests and procedures are pending due list items and also where staff can add ‘in-house' items to the exam encounter that can be performed and resulted at this time of visit without sending the patient to another facility.  
+Tests and procedures are pending due list items and also where staff can add ‘in-house' items to the exam encounter that can be performed and resulted at this time of visit without sending the patient to another facility.
 Within the Tests & Procedures section, there may be specific tests & procedures listed as a guidance to ‘add' to the exam based on the protocol selected in the chief complaint. In this screen shot example, we had selected Cardiovascular Chest Pain as a protocol to follow and now in the Tests & Procedures section we see some specific tests & procedures listed that follow that protocol that we may want to ‘add to exam' to perform at today's visit regarding his/her chest pain visit.
 
 ![](../encounter-protocols.assets/9c8eaac43e4c069c444af843d33b9664.png)
 
-Clicking on the specific hyperlink of the test/procedure component (add xxxx to exam) listed will apply that specific order item (test/procedure) to the visit encounter to be performed today. It applies the order item as its own sub-section here.  
+Clicking on the specific hyperlink of the test/procedure component (add xxxx to exam) listed will apply that specific order item (test/procedure) to the visit encounter to be performed today. It applies the order item as its own sub-section here.
 In this screen shot example, we selected Add "Electrocardiogram" to Exam link that was displayed (it appeared as a choice based on the protocol we had previously selected to use for this visit encounter) and then it applied the Electrocardiogram order item into the Tests & Procedures section. It applies it as ‘in progress'.
 
 ![](../encounter-protocols.assets/3350e48573f6fa0e4282d6f664ea0537.png)
@@ -75,7 +75,7 @@ The treatments section is meant to document any test or procedure (stored as ord
 ![](../encounter-protocols.assets/2b6cff5e2e11f55d89c61146279f7ea8.png)
 
 Clicking on the specific hyperlink of the treatment item quick pick (add xxxx to exam) listed will apply that specific item to the visit encounter to indicate it was performed and needs documented as a treatment today. It applies the order item as its own sub-section here.  
-In this screen shot example, we selected Add "Administer oxygen by face mask" to Exam link that was displayed (it appeared as a choice based on the protocol we had previously selected to use for this visit encounter) and then it applied the oxygen by face mask order item into the *Treatments* section. It applies it as ‘in progress'.  
+In this screen shot example, we selected Add "Administer oxygen by face mask" to Exam link that was displayed (it appeared as a choice based on the protocol we had previously selected to use for this visit encounter) and then it applied the oxygen by face mask order item into the *Treatments* section. It applies it as ‘in progress'.
 Click to expand the specific order item section (ex: Administer oxygen by face mask) to key in the data of the item you performed as a treatment and result it. Make sure to mark the item as ‘completed' when done.
 
 ![](../encounter-protocols.assets/a2e777d8c69428222bb9ee1fdc85caec.png)

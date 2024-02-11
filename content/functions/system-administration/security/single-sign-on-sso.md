@@ -10,10 +10,10 @@ links:
   - 'https://en.wikipedia.org/wiki/Single_sign-on_'
   - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The following document provides a general overview of using single sign-on (SSO) with {{% system-name %}} . SSO access is a standard for users accessing protected information, such as patient data. Access is provided by creating and enabling a login trust, so that when properly configured, users are redirected to a SSO login page to access the appropriate system(s), accordingly.  
-There are differences in the SSO setup depending on the method of SSO employed. Available options currently include MIE SSO or [Security Assertion Markup Language (SAML)](saml-based-single-sign-on.md). All methods of SSO use a common editor for configuring the system to accept SSO requests. {{% system-name %}} provides a SAML-based SSO application program interface (API), and uses this SAML-based SSO API to integrate into a client's existing IDP (i.e., LDAP). To use SSO, a set of public and private keys are generated, typically from an X.509 certificate. The public keys and/or certificate must be generated (RSA or DSA algorithm) and registered with {{% sys-name %}} .  
+There are differences in the SSO setup depending on the method of SSO employed. Available options currently include MIE SSO or [Security Assertion Markup Language (SAML)](saml-based-single-sign-on.md). All methods of SSO use a common editor for configuring the system to accept SSO requests. {{% system-name %}} provides a SAML-based SSO application program interface (API), and uses this SAML-based SSO API to integrate into a client's existing IDP (i.e., LDAP). To use SSO, a set of public and private keys are generated, typically from an X.509 certificate. The public keys and/or certificate must be generated (RSA or DSA algorithm) and registered with {{% sys-name %}} .
 The sections that follow provide an overview of SSO, related features in the {{% system-name %}} system, and the basic details of login trusts in {{% sys-name %}} . This document does not cover installation of an identity provider by an outside entity, as it is not covered by MIE policies. For a more in-depth discussion of SSO, see the public Wikipedia page: [https://en.wikipedia.org/wiki/Single_sign-on](https://en.wikipedia.org/wiki/Single_sign-on_)
 
 ## Terminology
@@ -21,8 +21,8 @@ The sections that follow provide an overview of SSO, related features in the {{%
 It is useful to recognize the following terminology in relation to single sign-on. The terms listed in this section are commonly encountered as a part of this topic:
 * <strong>Application Program Interface</strong> (<strong>API</strong>): A set of routines, protocols, and tools for building software applications. The API specifies how software components should interact, and are used when programming graphical user interface (GUI) components.
 * <strong>Binding/SAML Binding</strong>: Refers to a supported workflow.
-   * IDP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the SSO Server.
-   * SP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the {{% system-name %}} system.
+  * IDP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the SSO Server.
+  * SP-Initiated Binding: A workflow in which the end user begins the authentication process by browsing to the {{% system-name %}} system.
 * <strong>CGI Variable</strong>: A CGI (Common Gateway Interface) is a standard environment for web servers to interface with executable programs installed on a server, which generate web pages dynamically. A CGI variable is a user-supplied input (such as entering text into an open field).
 * <strong>Client System</strong>: The {{% system-name %}} system that allows logins from a given IDP.
 * Digital Signature Algorithm (<strong>DSA</strong>): A Federal Information Processing Standard for digital signatures.

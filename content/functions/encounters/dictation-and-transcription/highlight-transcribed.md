@@ -8,10 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
 source: 'https://drive.google.com/open?id=1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 If dictation is enabled on your system, and a user enters in an encounter, the Add Dictation option is offered throughout.  If the user adds dictation, the encounter dictation(s) goes to the Dictation queue for a transcriptionist to type up.  Then the transcriptionist either archives & closes the encounter themselves (depending on how the system has been requested to be set up), or the physician can close it from their encounter worklist when there is no transcription left pending for it.  
-Most clients then have automated esign rules set up for the archived & closed encounter document to go to the provider's esign queue to sign and review the encounter document as to what has been transcribed on it.  
+Most clients then have automated esign rules set up for the archived & closed encounter document to go to the provider's esign queue to sign and review the encounter document as to what has been transcribed on it.
 When the provider is in their esign queue (or multi-sign queue) and the document they are reviewing is an encounter document that had dictation done on it and now includes the transcription, the provider will see the Highlight Transcribed option in the document header while they are e-signing. Highlight Transcribed indicates there was dictation done in the encounter, someone transcribed it as part of the encounter document and the provider can highlight transcribed to quickly see a visual of what the transcriptionist typed in, according to what the provider had dictated.
 
 

@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=miewebscan'
   - 'indexing-bubble-forms.md'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 The WebScan module allows users to scan and index documents into the {{% system-name %}} system, so that document images can be attached to associated charts and be stored, accordingly. Indexing is the process of cataloging documents according to their attributes, such as chart name, provider, document type, date of document, etc. Once documents are scanned and indexed, staff can search for and retrieve documents from electronic charts, rather than having to search a medical file for paper copies. Additionally, there are WebScan reports that can be run by an administrator, or users with proper security permissions, that report statistics on batches scanned and/or indexed.
 
@@ -274,10 +274,10 @@ Indexing preferences include:
 
 * <strong>Blank Page Threshold</strong>: Setting will automatically detect and purge/delete blank pages when using the Process BarCodes button. The threshold is the percentage (%) of ink, or black on the page, that designates the page as <em>not blank</em>. This preference determines the minimum percentage of black required on the page before the program considers the page blank, marking it for deletion. If any scanned pages contain little content, a low percentage threshold would need to be set in order to detect the small amount of text, or black on the page. This setting is usually set to lower numbers. If a blank page is undetected and is not deleted, the scanner may be dirty, or the page may be smudgy and tripping the threshold sensor.
 * <strong>Default Mouse Mode</strong>: Sets what function is executed when using the mouse to click the document image.
-   * <strong>Zoom</strong>: Perform zoom function when document image is clicked. Equivalent toolbar option is the magnifying glass.
-   * <strong>Pan</strong>: Perform pan function when document image is clicked. Will only be able to scroll/move the image up and down. Equivalent toolbar option is the hand icon.
-   * <strong>Pointer</strong>: Selection will only allow scrolling. Cannot do anything to the document image.
-   * <strong>Crop</strong>: Perform crop function when document image is clicked. Equivalent toolbar option is the plus sign.
+  * <strong>Zoom</strong>: Perform zoom function when document image is clicked. Equivalent toolbar option is the magnifying glass.
+  * <strong>Pan</strong>: Perform pan function when document image is clicked. Will only be able to scroll/move the image up and down. Equivalent toolbar option is the hand icon.
+  * <strong>Pointer</strong>: Selection will only allow scrolling. Cannot do anything to the document image.
+  * <strong>Crop</strong>: Perform crop function when document image is clicked. Equivalent toolbar option is the plus sign.
 * <strong>Auto Link Form Pages</strong>: Setting to <strong>Yes</strong> will trigger multi-page forms embedded with form ID barcodes to automatically link, ensuring the full document, regardless of the number of pages, is linked to the first page, as one multi-page record. Otherwise, this must be done manually, while indexing the pages of the batch. In other words, if <em>Auto Link Form Pages</em> is set to Yes and the form being indexed is programmed with the necessary barcode, {{% system-name %}} will link subsequent pages of the form to the initial page. Because of the form ID barcode, {{% system-name %}} recognizes the form as a multi-page document.
 * <strong>Auto Un-tumble Form Pages</strong>: <em>Tumbling</em> is a programmable feature of printed forms where the back page is printed upside-down. Some forms are set to tumble for clipboard use, for example. If a form embedded with a form ID barcode is programmed to tumble and is scanned/indexed with this preference set to <strong>Yes</strong>, {{% system-name %}} will automatically <em>un-tumble</em> the pages, indexing all of them right-side up, with the back page no longer upside-down. If this preference is set to <strong>No</strong>, the pages would appear <em>tumbled</em>, just as they were printed and scanned in, and the user would then be required to manually rotate the inverted images.
 * <strong>Clear Indexing Fields</strong>: When set to <strong>Yes</strong>, the indexing fields of the <em>Indexing Information</em> section will be cleared after advancing to the next document within a batch.

@@ -39,28 +39,28 @@ links:
   - '../../functions/order-and-result-management/observation-code-merging.md'
   - '../../functions/order-and-result-management/observations-tab.md'
 source: 'https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
 * <strong>Order and Result Management Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>System Configuration</strong>
-   * <strong>Orderable Items</strong>
-   * <strong>Order Panels</strong>
-   * <strong>Order Picklists</strong>
+  * <strong>Orderable Items</strong>
+  * <strong>Order Panels</strong>
+  * <strong>Order Picklists</strong>
       * <strong>Restricted Sets</strong>
-   * <strong>Observation Flowsheets</strong>
-   * <strong>Document Types</strong>
-   * <strong>Results Encounter</strong>
-   * <strong>Order Request Document</strong>
-   * <strong>Order Quick Links Portlet</strong>
-   * <strong>Refer To Field of Order Requests</strong>
-   * <strong>PIN Authentication</strong>
-   * <strong>Order Request Routing and Tracking</strong>
-   * <strong>Order Request Label</strong>
-   * <strong>HL7 Lab Interface</strong>
-   * <strong>System Settings</strong>
+  * <strong>Observation Flowsheets</strong>
+  * <strong>Document Types</strong>
+  * <strong>Results Encounter</strong>
+  * <strong>Order Request Document</strong>
+  * <strong>Order Quick Links Portlet</strong>
+  * <strong>Refer To Field of Order Requests</strong>
+  * <strong>PIN Authentication</strong>
+  * <strong>Order Request Routing and Tracking</strong>
+  * <strong>Order Request Label</strong>
+  * <strong>HL7 Lab Interface</strong>
+  * <strong>System Settings</strong>
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
 
@@ -68,7 +68,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 The {{% system-name %}} Order and Result Management module provides the necessary tools for ordering, customizing, delivering, and tracking orders and order requests. Through computerized provider order entry (CPOE), {{% system-name %}} streamlines the processes involved in order and result management. In general, order requests can be created from the visit encounter or from the chart. Once an order request is generated, it can easily be printed, faxed, or electronically transmitted, as needed.  
 Implementing the established standards of CPOE allows {{% system-name %}} to provide intuitive methods of order entry, distribution, completion, and tracking. With the Order and Result Management module, orders can be entered from the point-of-care, checked for utilization and duplication errors, communicated electronically to the appropriate staff/department, and made actionable by way of the provided information and prompt delivery. This serves to reduce wait times, errors, and possible duplicates, all with just a few clicks.  
-Additional functionality includes built-in flexibility, so that clients may address specific workflows or create automated processes, as needed. For example, clients participating in varying types of surveillance may be interested in establishing panel business rules that automatically populate surveillance order requests on the Due List. Also, an optional HL7 bidirectional interface is available for purchase, which can be configured to electronically submit orders, receive results, and track statuses. {{% system-name %}} has the ability to integrate with most national (and many regional) labs and health information exchanges (HIEs) for discrete HL7 order submissions and results. Taking advantage of a bidirectional HL7 interface is incredibly beneficial, not just for its provided interoperability, but also for its improvements to efficiency and tracking, and the ability to automatically complete orders sent and resulted electronically.  
+Additional functionality includes built-in flexibility, so that clients may address specific workflows or create automated processes, as needed. For example, clients participating in varying types of surveillance may be interested in establishing panel business rules that automatically populate surveillance order requests on the Due List. Also, an optional HL7 bidirectional interface is available for purchase, which can be configured to electronically submit orders, receive results, and track statuses. {{% system-name %}} has the ability to integrate with most national (and many regional) labs and health information exchanges (HIEs) for discrete HL7 order submissions and results. Taking advantage of a bidirectional HL7 interface is incredibly beneficial, not just for its provided interoperability, but also for its improvements to efficiency and tracking, and the ability to automatically complete orders sent and resulted electronically.
 Standard functionality includes:
 * Order creation from chart or visit encounter
 * Print/fax/electronically transmit orders and results

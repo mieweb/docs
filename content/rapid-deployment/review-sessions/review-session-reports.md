@@ -43,22 +43,22 @@ links:
   - '../../functions/reports/to-restrict-report-access.md'
   - '../../functions/reports/panel-definition-report.md'
 source: 'https://drive.google.com/open?id=1HBDLPvHAyvO8K1g2gk8mlzBn76G84bBxUUiFlgbFzbQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 ## Agenda
 
 * <strong>Reports Demonstration</strong>
 * <strong>Overview</strong>
 * <strong>System Configuration</strong>
-   * <strong>Configure Reports</strong>
-   * <strong>Pivot Report Access</strong>
-   * <strong>Report Restrictions</strong>
-   * <strong>Open Database Connectivity (ODBC)</strong>
+  * <strong>Configure Reports</strong>
+  * <strong>Pivot Report Access</strong>
+  * <strong>Report Restrictions</strong>
+  * <strong>Open Database Connectivity (ODBC)</strong>
 
 ## Overview
 
 {{% system-name %}} offers an extensive list of detailed and summary reports, ranging from the standard clinical reports to occupational health and safety reports; all of which allow leadership to accurately report electronic data to medical and administrative staff, as well as to compliance officers and entities. All reports have the ability to export to CSV format, and custom configuration can also be done, to automate reminders to users regarding individual outcomes, quality care, or compliance needs, such as TB testing or immunizations.  
-Add-on services are available with the Reports module, including the ability to build custom reports, integrate with State immunization registries or third-party applications. These efforts would need to be scoped and billed separately, if interested.  
+Add-on services are available with the Reports module, including the ability to build custom reports, integrate with State immunization registries or third-party applications. These efforts would need to be scoped and billed separately, if interested.
 Standard functionality includes pre-loaded standard reports for:
 * Appointments
 * Dictation/Transcription
@@ -76,7 +76,7 @@ Standard functionality includes pre-loaded standard reports for:
 
 ### Configure Reports
 
-There are many reports available out-of-the box that do not require any configuration or additional formatting. If there is a reporting need that is not met with the standard reports included in the product, a request should be sent to the Deployment Specialist or Account Manager, to better determine the customizations and overall scope for the enhancement project. Requirements for the report request should include a description of the report, as well as filter fields and columns that should display in the results.  
+There are many reports available out-of-the box that do not require any configuration or additional formatting. If there is a reporting need that is not met with the standard reports included in the product, a request should be sent to the Deployment Specialist or Account Manager, to better determine the customizations and overall scope for the enhancement project. Requirements for the report request should include a description of the report, as well as filter fields and columns that should display in the results.
 Early on, time should be given to discover and review any potential reporting requirements, such as country-specific reports for international clients, for example. Custom reports can have a large impact on timelines, so early discovery and scoping can make for a greater success. Make sure time is spent determining what data needs captured, noting any gaps between the standard reports and specific workflow needs. Note any modules that may need configured or developed, and review the report requirement guidelines and [data collection tool](https://drive.google.com/file/d/0B5Hsu0mf2-tkQ2Rqak5lZGNhRXc/view), to help prepare any report requirements (and pivot models). If any partition search filters are required, be sure to include these in report considerations, as well.
 
 ### Pivot Report Access
@@ -85,7 +85,7 @@ A pivot table is a visual summary of data in a tabular, easily manipulated forma
 
 ### Report Restrictions
 
-It is recommended that a review of all of the relevant security settings occur, so all users or roles needing report access are granted the necessary permissions. Users can be restricted from accessing and managing the standard system reports by way of the [Security Roles editor](https://system/?func=admin&subfunc=roleeditor&t=Security+Role+Editor&tabmodule=admin&tabselect=Security+Roles); however, limitations can also be imposed by way of a customized report layout, if necessary. For more detailed information, see our [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help documentation.  
+It is recommended that a review of all of the relevant security settings occur, so all users or roles needing report access are granted the necessary permissions. Users can be restricted from accessing and managing the standard system reports by way of the [Security Roles editor](https://system/?func=admin&subfunc=roleeditor&t=Security+Role+Editor&tabmodule=admin&tabselect=Security+Roles); however, limitations can also be imposed by way of a customized report layout, if necessary. For more detailed information, see our [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help documentation.
 The following are some of the more regularly used security settings to consider:
 * <strong>Statistics</strong>: Allows users to access reports from the [Reports sidemenu](https://system/?f=layout&module=reports&name=reports&tabmodule=reports) and [System Reports](https://system/?f=admin&s=system_report&tabmodule=admin&tabselect=System+Report). System Reports, however, requires Superuser permissions to access and run these reports.
 * <strong>View Transcription Stats</strong>: Allows users to view transcription statistics from the Transcription report.

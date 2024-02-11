@@ -7,12 +7,12 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.  
 Click *E-Chart* on the left sidebar menu.  
 Search for patient in *E-Chart* and open the patient's file.  
-Click the *Orders* or *E-Orders* chart tab **or** the Add Order link when in a patient's chart.  
+Click the *Orders* or *E-Orders* chart tab **or** the Add Order link when in a patient's chart.
 It most likely will default and open to the ADD ORDER module. This means it automatically would default to the screen that allows you to add an order for the patient. The other ‘view' for this module that it may default to is the RECENT orders where it lists completed and incomplete orders for the patient. You can change this default action view in MY SETTINGS. (See description of MY SETTINGS default action for Orders on the last page of this document.)
 
 ## Add Order
@@ -90,13 +90,13 @@ Under the Set Name field of the Order Request screen, are the selectable order i
 
 ![](../e-orders-chart-tab.assets/0900e5ee46eb008cc1274b748e3ca5db.png)
 
-Any order item that you check-mark and it has a blank field next to it, after you check-mark it you may need to enter more information needed for that item/order by free text typing in that field to complete that item/order.  
+Any order item that you check-mark and it has a blank field next to it, after you check-mark it you may need to enter more information needed for that item/order by free text typing in that field to complete that item/order.
 When done, at the top of the Order Request screen simply click REQUEST ORDERS button.
 
 ![](../e-orders-chart-tab.assets/91aba79b4aa2424162a878cae8c777f2.png)
 
 It may then show a confirmation that you select the correct diagnosis for the order which you entered if your practice requires that field or any other required fields missing. There are several fields that can be set as "required" for your practice workflow.  
-After selecting the specific diagnosis each order item pertains to, click FINISH button to finish. Or you can click the BACK button to edit the order and get back to this screen after editing. Some order items can be tagged to certain ICD-9 codes and are restricted to those diagnosis, etc. To set those up, contact your MIE Implementer.  
+After selecting the specific diagnosis each order item pertains to, click FINISH button to finish. Or you can click the BACK button to edit the order and get back to this screen after editing. Some order items can be tagged to certain ICD-9 codes and are restricted to those diagnosis, etc. To set those up, contact your MIE Implementer.
 This is a ‘diagnosis confirmation' screen that can be turned off and doesn't need to be turned on for use in your system. Again this is one of many fields that can be set to be "required". If your practice wishes to have any turned off, please contact your MIE Implementer.
 
 ![](../e-orders-chart-tab.assets/2709ec68c26369d4cf0eb23cfc2ccea8.png)

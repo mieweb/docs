@@ -12,7 +12,7 @@ links:
   - '../../document-management/scanning-and-indexing/indexing-bubble-forms.md'
   - '../../document-management/scanning-and-indexing/indexing.md'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Within {{% system-name %}}, you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results. 
 
@@ -46,7 +46,7 @@ Click the NEW button to manually add audio results. To edit an existing study on
 
 ![](../audio-tool-tab.assets/cdbcdc9a32fdba2e3ed2671e3bb0f0ab.png)
 
-For manual entry:  
+For manual entry:
 Enter results from the device output
 * Data results are 1-2 numeric characters in increments of 5.
 * NR- No Result should be manually entered as 99.

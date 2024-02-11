@@ -12,7 +12,7 @@ links:
   - '../../system-administration/interfaces/device-interface-audio-system.md'
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
 source: 'https://drive.google.com/open?id=1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 Audiogram results can be addressed a few different ways in {{% system-name %}}. Bubble forms are an efficient solution for data entry and often used by clients with mobile audio units or remote clinics that may not have internet. Bubble forms are document type templates with special formatting that allow data to be collected discreetly when scanned and indexed into the {{% system-name %}} system. 
 
@@ -115,7 +115,7 @@ For additional information on the Audiogram Tool functionality, refer to the [Au
 
 The preferred alternative to the bubble form and the Audio Tool Tab is entering results through the **Tests & Procedures** section of a Visit encounter.
 
-The Audiogram may be added to a Visit encounter in multiple ways. One method is by simply clicking the *Lightening Bolt/Add to Exam* button to the right of the order.    
+The Audiogram may be added to a Visit encounter in multiple ways. One method is by simply clicking the *Lightening Bolt/Add to Exam* button to the right of the order.  
 This will add a dynamic encounter section to the exam for manual data entry.![](../audiogram-data-entry.assets/d5216ff587e8de715069451e30f0cb27.png)
 
 

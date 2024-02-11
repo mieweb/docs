@@ -7,9 +7,9 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
-When you are in the patient's chart, you can click the VISITS chart tab and then get into the ENCOUNTERS sub-tab.  
+When you are in the patient's chart, you can click the VISITS chart tab and then get into the ENCOUNTERS sub-tab.
 The encounters sub-tab shows an Encounter Search at the top, and then lists all encounters the patient has ever had. You must have security to view encounters to see this tab. This tab lists all the patient's encounters and you can view details of the encounter(s). Above this listing is the Encounter Search tool if you wish to use a search tool to narrow down results and find a specific encounter for the patient.
 
 ### Encounter Search
@@ -30,7 +30,7 @@ Under the Encounter Search tool, it shows the full encounters list view summary 
 ![](../encounters-tab-search-and-list-view.assets/f98e5a8a4ad76da127eb0b14636af2d8.png)
 
 Encounters are listed by Service Date order (most recent DOS at the top of the list) regardless of creation date or encounter ID. It lists all encounters that this patient has had and the one you just added will be at the top (first on the list).  
-The encounters list shows the chief complaint column which will show the first 30 characters followed by (…) Simply hover your mouse over the shortened chief complaint to see the full list text. The assessment column will show the first active assessments appropriately bolded in the Encounter listview. If there is more than one assessment linked to a given encounter, only the first one will show in the encounter listview, followed by an ellipsis ‘…'.The remaining ones will display upon hovering your mouse over the one displayed. The referrer column is also an optional column that can be turned on or off.  
+The encounters list shows the chief complaint column which will show the first 30 characters followed by (…) Simply hover your mouse over the shortened chief complaint to see the full list text. The assessment column will show the first active assessments appropriately bolded in the Encounter listview. If there is more than one assessment linked to a given encounter, only the first one will show in the encounter listview, followed by an ellipsis ‘…'.The remaining ones will display upon hovering your mouse over the one displayed. The referrer column is also an optional column that can be turned on or off.
 In the Assessments column, when you hover over it to see more than the first 30 characters, the **bold** diagnosis/assessments will be shown signifying those were the conditions marked as active for that visit and any concluded conditions marked on that visit will be followed but not bolded and have the (conc) label.
 
 ![](../encounters-tab-search-and-list-view.assets/86ea58af24221ab0debb5cb43789fd18.png)

@@ -7,10 +7,10 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 ---
 In the *Dictation* tab pending screen:  
-If the Physician used the phone to dictate or the general add dict link in the *Dictation* module (and not in a specific patient's E-Chart), it will **not** show patient's name or DOB.  
+If the Physician used the phone to dictate or the general add dict link in the *Dictation* module (and not in a specific patient's E-Chart), it will **not** show patient's name or DOB.
 If the Physician used the SpeechMike or microphone into {{% system-name %}} directly and in the specific patient's E-Chart, it **will** show patient's name & DOB.
 
 ![](../basic-transcription-all-users.assets/75da7f48e2e06d7dbf794703ec168d8b.png)
@@ -18,7 +18,7 @@ If the Physician used the SpeechMike or microphone into {{% system-name %}} dire
 
 ## Transcribe Dictation (No Patient Name Identifier)
 
-Log into {{% system-name %}} and click on *Dictation* tab on left sidebar menu.  
+Log into {{% system-name %}} and click on *Dictation* tab on left sidebar menu.
 The screen will open to the *All Pending* tab of dictation jobs to do that are *unassigned*. By default, you view only unassigned dictation files. To view All Pending or your Assigned Pending, click on the underlined Assigned or All link right under that chart tab name at the top.
 
 ![](../basic-transcription-all-users.assets/2907c01a8f5e9ec9b4826ff708135327.png)
