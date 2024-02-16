@@ -9,7 +9,7 @@ links:
   - 'http://www.eclinicalworks.com/'
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '29e351919e760c8794db0d9a212ff8b34e4d345c'
 ---
 **E-ClinicalWorks**
 This page details how interfaces with e-ClinicalWorks (ecw) are installed.

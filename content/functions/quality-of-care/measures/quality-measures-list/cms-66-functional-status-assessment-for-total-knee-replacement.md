@@ -12,7 +12,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/pro'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10'
 source: 'https://drive.google.com/open?id=14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '29e351919e760c8794db0d9a212ff8b34e4d345c'
 ---
 ## Overview
 
@@ -107,7 +107,7 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 ## Clinical Instructions
 
-Ensure all 18+ year-old patients with a total knee replacement in the year prior to the measurement period have a functional status assessment during the measurement period. 
+Ensure all 18+ year-old patients with a total knee replacement in the year prior to the measurement period have a functional status assessment during the measurement period.   
 
 ### Workflow
 

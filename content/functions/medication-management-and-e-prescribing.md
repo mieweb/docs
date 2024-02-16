@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'system-administration/system-controls/setting-up-e-prescribers.md'
 source: 'https://drive.google.com/open?id=1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '29e351919e760c8794db0d9a212ff8b34e4d345c'
 ---
 
 
@@ -21,7 +21,7 @@ The {{% system-name %}} solution provides a sophisticated yet easy-to-use medica
 {{% children %}}
 
 
-Note: In order to use E-Prescribing you must [set up a prescriber first](system-administration/system-controls/setting-up-e-prescribers.md). 
+Note: In order to use E-Prescribing you must [set up a prescriber first](system-administration/system-controls/setting-up-e-prescribers.md).
 
 
 
