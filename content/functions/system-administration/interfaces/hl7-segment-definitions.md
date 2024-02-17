@@ -11,13 +11,15 @@ links:
   - 'outbound-interface-install-instructions.md'
   - 'sample-hl7-messages.md'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 {{% anchor sys="msh" %}}
 
 This documentation is for HL7 Segments related to:
+
 * [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
 * [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md) and [Outbound Interface Install Instructions](outbound-interface-install-instructions.md)
+
 
 
 
@@ -180,7 +182,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Master File Identification (MFI)**
+## Master File Identification (MFI)
 
 
 <table>
@@ -243,7 +245,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Master File Entry (MFE)**
+## Master File Entry (MFE)
 
 
 <table>
@@ -3928,7 +3930,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Insurance - Additional Information, Certification (IN3)**
+## Insurance - Additional Information, Certification (IN3)
 
 
 <table>
@@ -5050,7 +5052,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Accident (ACC)**
+## Accident (ACC)
 
 
 <table>
@@ -5113,7 +5115,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **UB82 (UB1)**
+## UB82 (UB1)
 
 
 <table>
@@ -5312,7 +5314,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **UB92 Data (UB2)**
+## UB92 Data (UB2)
 
 
 <table>
@@ -7128,7 +7130,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Query Acknowledgement (QAK)**
+## Query Acknowledgement (QAK)
 
 
 <table>
@@ -7167,7 +7169,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Original Style Query Definition (QRD)**
+## Original Style Query Definition (QRD)
 
 
 <table>
@@ -7278,7 +7280,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Original Style Query Filter (QRF)**
+## Original Style Query Filter (QRF)
 
 
 <table>
@@ -7365,7 +7367,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **ZCL**
+## ZCL
 
 
 <table>
@@ -7412,7 +7414,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **ZBL**
+## ZBL
 
 
 <table>
@@ -7467,7 +7469,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **ZCY**
+## ZCY
 
 
 <table>
@@ -7762,7 +7764,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **ZSA**
+## ZSA
 
 
 <table>
@@ -7905,7 +7907,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **ZPS**
+## ZPS
 
 
 <table>
@@ -7976,7 +7978,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **ZSV**
+## ZSV
 
 
 <table>
@@ -8352,7 +8354,7 @@ This documentation is for HL7 Segments related to:
 
 </table>
 
-## **Data Types**
+## Data Types
 
 {{% anchor sys="tn" %}}
 
@@ -8395,7 +8397,7 @@ The TN Data Type is an MIE Extension designed for notifying a sending system of 
 
 </table>
 
-## **Related Pages**
+## Related Pages
 
 [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
 [Sample HL7 Messages](sample-hl7-messages.md)

@@ -12,14 +12,12 @@ links:
   - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
-
 ![](../identrust-certificate-registration-step-by-step.assets/e714b45dbc80ccc03a7bd9d5253800b8.png)
-
 
 
 
@@ -30,9 +28,11 @@ To obtain a USB Token, providers must register with IdenTrust, and verify their 
 THE APPLICATION AND IDENTITY VERIFICATION PROCESS MUST BE COMPLETED AND SUBMITTED BY THE REGISTRANT AND SUBSCRIBER OF THE CERTIFICATE. THIS CANNOT BE COMPLETED BY PROXY, OR BY ANY OTHER INDIVIDUAL ON BEHALF OF THE PRESCRIBER. FAILURE TO COMPLY COULD RESULT IN REVOCATION OR SUSPENSION OF THE DIGITAL CERTIFICATE.
 
 This step-by-step help guide will walk you through the online application process. Before you begin, have the following ready:
+
 * Credit Card information for address verification only (not used for payment)
 * Credit Card information for payment
 * Valid Email Address
+
 CLICK [ [HERE](https://www.identrust.com/igc/mie/) ] TO BEGIN
 
 
@@ -51,40 +51,43 @@ There is a recording walking to watch someone walk through all the steps (the vi
 
 The first step requires the selection of the certificate. There are 3 types of Certificates that MIE/IdenTrust will offer to prescribers.
 
+
 1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $96.00-$232.00 (Prices subject to change by IdenTrust)</strong>
+
    1. Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
+
 2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $258.00 (Pricing subject to change by IdenTrust)</strong>
+
    1. Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
+
 3. <strong>Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $84.00-$198.00</strong>
 
 
 ![](../identrust-certificate-registration-step-by-step.assets/1267da7bd410bb66b035e0c6d917348d.png)
 
-
 #### Select the Storage Device (pricing shown is for Mobile Authentication)
-
 
 
 #### ![](../identrust-certificate-registration-step-by-step.assets/dfc940f087ea58d274b38d9c862e666c.png)
 
 
-
 #### Select the Storage Device (pricing shown is for USB Token)
-
 
 ![](../identrust-certificate-registration-step-by-step.assets/f20b181b78fbd07ad90e11f3593c5d65.png)
 
-
 #### Select the Storage Device (pricing shown is for Identity Proofing only)
-
 
 ![](../identrust-certificate-registration-step-by-step.assets/1f64f07128b523dc2c4d82c6044419a3.png)
 
 1. Every certificate provided through IdenTrust for EPCS has different year options for the validity period. The 2-year option is automatically selected for mobile authentication.
 2. The USB Token option requires the purchase of the HID USB Token, used to store the digital certificate.
+
    1. <strong>HID USB Token - $92.00</strong>
+
       1. This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
+
    2. SafeNet USB Token use existing - $0.00
+
 3. Make your selection, and click the <strong>Next</strong> button.
 4. Verify your selections, and click <strong>Buy Now</strong>.
 
@@ -122,6 +125,7 @@ A passcode is required for the hardware that will store your certificate.You wil
 **If the Token Passcode is forgotten, your certificate is locked and cannot be recovered, so you would need to purchase a new IGC Basic Assurance Unaffiliated Hardware + 2-Year Certificate.**  
 {{% /note %}}
 
+
 8. Click <strong>Next</strong> to continue. You will be prompted to Confirm Your Information.
 
 
@@ -131,7 +135,9 @@ A passcode is required for the hardware that will store your certificate.You wil
 9. Click <strong>Yes</strong> to continue.
 
 
-#### **Paying for Your Digital Certificate**
+
+#### Paying for Your Digital Certificate
+
 
 1. Select the form of payment, provide the payment details, and select the preferred shipping for the Activation Letter.
 
@@ -143,24 +149,26 @@ A passcode is required for the hardware that will store your certificate.You wil
 
 
 
-   <img src="../identrust-certificate-registration-step-by-step.assets/a7e7d8aff8c9b95457d2d968d720a47c.png" />
+   ![](../identrust-certificate-registration-step-by-step.assets/a7e7d8aff8c9b95457d2d968d720a47c.png)
 
 
-### **Get Verified**
+### Get Verified
 
 Congratulations! You have just completed the **first** phase. Thank you for applying for your IGC Basic Assurance Hardware Unaffiliated Certificate 2 Year. You have completed the application phase, so now IdenTrust will initiate the approval of your application.
 Remember, there are **3 phases** in the process of obtaining your IGC Basic Assurance Hardware Unaffiliated 2 Year Certificate.
 *IdenTrust will now complete the* **_second_*** phase of your application - Approval. If successful, you will need to complete the* **_third_*** and final phase - Retrieval; to obtain your certificate.*
 Part of the Approval Phase includes verifying your email address and allowing IdenTrust to verify your identity.
 
-#### **How Do I Verify My Email Address?**
+#### How Do I Verify My Email Address?
 
 **Step 1.** Go to your email to check for your Verification Code sent from [trustsource@identrust.com](mailto:trustsource@identrust.com)
 **Step 2.** Follow the directions in the email to verify your email address.
 If you have not received your Verification Code from [trustsource@identrust.com](mailto:trustsource@identrust.com) after a brief period, you may:
+
 * Check your bulk email folder for this email.
 * Verify that your spam filters allow you to receive emails from [trustsource@identrust.com](mailto:trustsource@identrust.com); this may require the assistance of your system administrator.
-* Request your Verification Code be sent again by going to: [https://secure.identrust.com../app/resendEmailVerification?id=586401176012552](https://secure.identrust.com../app/resendEmailVerification?id=586401176012552)
+* Request your Verification Code be sent again by going to: https://secure.identrust.com../app/resendEmailVerification?id=586401176012552
+
 {{% note title="Important" %}}
 
 Email verification must be completed (within 30 days) for IdenTrust to approve your account. The email verification MUST be completed before IdenTrust can begin processing your application.
@@ -169,14 +177,13 @@ Email verification must be completed (within 30 days) for IdenTrust to approve y
 #### IdenTrust Verification of Identity
 
 This portion of the second phase (carried out by IdenTrust) consists of validating the information you provided against independent data sources. You will not need to do anything during this stage; you will receive a retrieval kit from IdenTrust in the mail if your application is approved. You will be able to check on the Application Status under Your Account Information:
-
 ![](../identrust-certificate-registration-step-by-step.assets/bd906ceca617ac5cb9b1266e7e9b140e.png)
-
 **Your New IGC Token will be mailed to you. Expect arrival between 3-5 days.**
 
 ### Retrieval - Get Your Certificate
 
 You have entered the **third** and final phase, which consists of obtaining your digital certificate and generating your keys for use of certificate. This phase begins once you have received your retrieval kit in the mail. Included in your kit will be a letter explaining how to do the following:
+
 1. <strong>Install the SafeNet Authentication Client Software </strong>– Use the disc that is included in the retrieval kit. After the software has been installed, reboot your computer. <strong>When your computer has restarted</strong><strong>, proceed to the next step.</strong>
 
 
@@ -184,16 +191,20 @@ You have entered the **third** and final phase, which consists of obtaining your
 
 
 2. <strong>Change the Passcode for the USB Token</strong> – Please note that this passcode reset process is intended for new, unused USB Tokens, or tokens where certificates have not already been installed. If you are using a USB Token that contains previous certificates, you will not see this prompt and can proceed to the next step.
+
    1. Insert the USB Token into your computer. You will see a message pop-up that says, "For security reasons, you must change the Token Passcode of your new token."
    2. Click <strong>Ok</strong>.
+
 
 
 ![](../identrust-certificate-registration-step-by-step.assets/f1ade27a5d5de5ee1716868a16fd6d76.png)
 
 
 3. Retrieve the Current Token Passcode from the Activation Letter you received, and set the New Token Passcode.
+
    3. <strong>Current Token Passcode</strong>: (Refer to IdenTrust Letter) 
    4. <strong>New Token Passcode</strong>: Enter a personal passcode that you WILL NOT forget.
+
 
 
 ![](../identrust-certificate-registration-step-by-step.assets/669b6e199338b55b40d64e5a9b29dddb.png)
@@ -208,6 +219,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 This is the Token Passcode for your USB Token which **must not be forgotten**. If you forget this passcode your certificate will be **permanently locked** and cannot be recovered.
 *****REMEMBER YOUR TOKEN PASSCODE*****  
 {{% /warning %}}
+
 
 5. With your USB Token plugged into your computer, browse to [www.indentrust.com/install](http://www.indentrust.com/install)
 
@@ -227,6 +239,7 @@ Carefully follow the prompts to retrieve your IGC Certificate and generate keys,
 ## Testing Your Certificate
 
 After the retrieval and key generation is complete, it is important that you test your certificate.
+
 1. Click the <strong>Test My Cert</strong> button.
 
 
@@ -243,20 +256,16 @@ After the retrieval and key generation is complete, it is important that you tes
 
 
 
-   <img src="../identrust-certificate-registration-step-by-step.assets/8fc95e0f2c34475b2ec99acd5c577b68.png" />
+   ![](../identrust-certificate-registration-step-by-step.assets/8fc95e0f2c34475b2ec99acd5c577b68.png)
 
-   <img src="../identrust-certificate-registration-step-by-step.assets/b7c7d0e2e053d71e50068460b29f4b07.png" />
+   ![](../identrust-certificate-registration-step-by-step.assets/b7c7d0e2e053d71e50068460b29f4b07.png)
 
 
 *****You can now begin Electronically Signing Controlled Substances*****
 
-## **Verify Your Digital Certificate**
+## Verify Your Digital Certificate
 
 Once you have finished retrieving and testing the certificate, you are able to Verify the Information in your Certificate.
 Follow the prompts through verification.
-
 ![](../identrust-certificate-registration-step-by-step.assets/5711f3e88cd07bc94d456d0df50d4742.png)
-
-
 ![](../identrust-certificate-registration-step-by-step.assets/98ed9fe79000e82160f04a0e27a84783.png)
-

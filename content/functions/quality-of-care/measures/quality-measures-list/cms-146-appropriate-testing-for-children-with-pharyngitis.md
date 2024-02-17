@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10'
 source: 'https://drive.google.com/open?id=1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -116,33 +116,60 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 
 
+
+
 ### Original Visit Encounter
 
-Track all children ages 3-18 who had an outpatient or ED visit with a diagnosis of pharyngitis and an antibiotic ordered on or three (3) days after the visit. Compliance requires a group A streptococcus (strep) test be administered within the 7-day period from 3 days prior through 3 days after the initial diagnosis. Use either the Test and Procedures section of the encounter, or add the Lab Results - Set 2 to the encounter template; otherwise, enter the appropriate observation to the chart using the Observations chart tab.  
-{{% tip %}}
+Track all children ages 3-18 who had an outpatient or ED visit with a diagnosis of pharyngitis and an antibiotic ordered on or three (3) days after the visit. Compliance requires a group A streptococcus (strep) test be administered within the 7-day period from 3 days prior through 3 days after the initial diagnosis. Use either the Test and Procedures section of the encounter, or add the Lab Results - Set 2 to the encounter template; otherwise, enter the appropriate observation to the chart using the Observations chart tab.
 
+{{% tip %}}
 Regardless of how the strep test observation is added to the chart, clients will need to ensure that the appropriate observation is configured with LOINC 6559-9.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the *Strep* observations to determine if multiple [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
 {{% /tip %}}
+
 * While documenting the Visit encounter, document the results of a Strep test one of two ways:
+
+
    1. <strong>Option 1: Tests and Procedures Section</strong>
+
+
+
+
       1. Open the Tests and Procedures section.
       2. Using the autocomplete, begin typing Strep A Qual Throat Swab.
       3. Click the Add to Exam button.
       4. After adding the new section, open the Strep A Qual Throat Swab section and add the result.
       5. Click the Next button, or close the section.
-   1. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
+
+
+
+
+   2. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
+
+
+
+
       1. Click the Tools icon in the upper-right corner of the encounter.
       2. Click the Lab Results - Set 2 header to add the section to the encounter template. Close the Tools window.
       3. Click the Lab Results - Set 2 header to open the section and add the Rapid Strep result.
       4. Click the Next button, or close the section.
-   1. Continue documenting the encounter, as needed.
-   2. When completed, Close and Archive the encounter
+
+
+
+
+   3. Continue documenting the encounter, as needed.
+   4. When completed, Close and Archive the encounter
+
+
 * <strong>Option 3: Add Observation using Observations Chart Tab</strong>
+
+
    1. Navigate to the patient chart.
    2. Open the Observations tab of the Medical Records chart tab.
    3. Click the Add Observation link in the upper-right corner.
    4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
    5. Click the Submit button.
+
+
 
 ## Evidence
 

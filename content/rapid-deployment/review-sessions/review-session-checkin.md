@@ -11,39 +11,47 @@ links:
   - '../../functions/system-administration/security/my-settings.md'
   - '../../functions/system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Agenda
+
 
 * <strong>Checkin Module Demonstration</strong>
 * <strong>Security Role Permissions</strong>
 * <strong>My Settings Preferences</strong>
 * <strong>System Configuration</strong>
-  * <strong>Checkin and Lobby-Like Stations</strong>
-  * <strong>Station Manager</strong>
-  * <strong>One-Click Checkin</strong>
-  * <strong>Default Visit Type and Default Encounter Type</strong>
-  * <strong>Nightly Checkout</strong>
-  * <strong>Worklists</strong>
-  * <strong>Print Definitions</strong>
-  * <strong>Checkin-Public Sidemenu</strong>
-  * <strong>System Settings</strong>
-  * <strong>Practice Management System Interface</strong>
-  * <strong>Self-Checkin Kiosk</strong>
-  * <strong>Checkin via Portal</strong>
+
+
+   * <strong>Checkin and Lobby-Like Stations</strong>
+   * <strong>Station Manager</strong>
+   * <strong>One-Click Checkin</strong>
+   * <strong>Default Visit Type and Default Encounter Type</strong>
+   * <strong>Nightly Checkout</strong>
+   * <strong>Worklists</strong>
+   * <strong>Print Definitions</strong>
+   * <strong>Checkin-Public Sidemenu</strong>
+   * <strong>System Settings</strong>
+   * <strong>Practice Management System Interface</strong>
+   * <strong>Self-Checkin Kiosk</strong>
+   * <strong>Checkin via Portal</strong>
+
+
 * <strong>Reporting</strong>
 * <strong>Resources</strong>
+
 
 ## Overview
 
 The Checkin module significantly improves patient flow, reducing wait times and providing workflow efficiency, all by providing simple check-in processes and open communication between the front office staff and clinicians.  
 Checking in scheduled appointments can be done from the Scheduler or from various places throughout the chart. Depending on the preferred system settings and established workflows, checking in appointments can be performed using the One-Click Checkin feature of the Scheduler, where one click will check in the patient, automatically generate and link the encounter for the visit, and alert staff that the patient is in the waiting room. Otherwise, users may use the *Checkin* links throughout the chart, whereby users can specify the encounter, any encounter details, such as performing provider or related providers, as well as any insurance precertification information, as needed.  
-Additional ways the Checkin module reduces wait times and improves workflow efficiency is through automated, scheduled clean-up processes, as well as built-in alerts and functionality designed to help recognize congestion and ease usability. For example, upon checkout, {{% system-name %}} allows users to quickly and easily schedule necessary follow-up appointments, eliminating the need for manual tracking. For appointments that were not checked out, or missed, {{% system-name %}} runs nightly commands, or jobs, that clear these from the system. Or when an individual occupies a station for longer than 15 minutes, the status is raised to high priority, providing an alert to staff regarding the long wait.
+Additional ways the Checkin module reduces wait times and improves workflow efficiency is through automated, scheduled clean-up processes, as well as built-in alerts and functionality designed to help recognize congestion and ease usability. For example, upon checkout, {{% system-name %}} allows users to quickly and easily schedule necessary follow-up appointments, eliminating the need for manual tracking. For appointments that were not checked out, or missed, {{% system-name %}} runs nightly commands, or jobs, that clear these from the system. Or when an individual occupies a station for longer than 15 minutes, the status is raised to high priority, providing an alert to staff regarding the long wait.  
 Standard functionality includes:
+
 * Checkin Module with Checkin Statistics
 * One-click Checkin from the Scheduler
 * Checkin from Charts
 * Checkin Visit Report
+
 
 ## Security Role Permissions
 
@@ -51,13 +59,15 @@ It is important to review what security role(s), or individual users, will be ex
 
 ## My Settings Preferences
 
-Depending on the specified security permissions, some users may have the ability to manage their specific preferences and settings, or even the preferences and settings of other users. Some users may be given the ability to set system default preferences and settings, as well. It is important to review how to navigate the tab of the Control Panel and ensure all options for the Checkin functionality are enabled, as needed.
+Depending on the specified security permissions, some users may have the ability to manage their specific preferences and settings, or even the preferences and settings of other users. Some users may be given the ability to set system default preferences and settings, as well. It is important to review how to navigate the tab of the Control Panel and ensure all options for the Checkin functionality are enabled, as needed.  
 The most commonly changed user preferences for Checkin functionality are:
+
 * <strong>Default Location</strong> - The Default Location setting can be particularly beneficial for those facilities with multiple sites or locations. This setting drives which location is used when displaying <em>Patients in Waiting Room</em>, <em>All Checked in Patients</em>, and checkin statistics. Use the dropdown to select the primary location of the user.
 * <strong>My Station</strong> - The My Station setting establishes the default station used when moving checked-in patients. If the One-Click Checkin feature is enabled, the system will automatically place the patient into the specified station of the My Station setting. This setting can be set to any station, as needed. Users should choose the station that they most often move patients into, based on their role and place in the workflow.
 * <strong>Show Checkin</strong> - It is recommended that the Show Checkin setting is enabled. When enabled, <em>Checkin</em> links will be displayed on all scheduled appointments, allowing users to quickly check in patients via their scheduled appointments. Choose <strong>Yes</strong> to enable.
 * <strong>Use One-Click Checkin</strong> - This setting controls the One-Click Checkin feature. Enabling one-click checkin will not only check in the patient with one click, it moves the patient to the specified default station, as well as generates the appropriate encounter, if one is needed. Simply select <strong>Yes</strong> to enable.
 * <strong>Default Visit Type</strong> - The Default Visit Type setting can be used for manual checkin processes, as well as those driven by the One-Click Checkin functionality. For instance, when manually adding an encounter from the <em>Encounters</em> chart tab, the system will automatically populate the <strong>Visit Type</strong> based on this Default Visit Type setting. However, if using one-click checkin, the system will first check the scheduled appointment type (appt type) for any established, or default visit type, needing to be used. If none is provided by the appointment type, the Default Visit Type setting will be referenced and used when creating the encounter visit type via one-click checkin.
+
 
 ## System Configuration
 
@@ -65,7 +75,7 @@ The most commonly changed user preferences for Checkin functionality are:
 ### Checkin and Lobby-Like Stations
 
 When navigating to the module, users will see two sections, or categories. These sections show all patients currently checked in, displaying the patients either as **Patients in Waiting Room** or **Checked In Patients - All Stations**. This page serves as a type of dashboard, allowing users to locate patients, track time statistics, and filter down results by location or provider, if needed. **Checkin Statistics** can be also be found, at the bottom of the page. This section shows only daily times, as it resets each evening.  
-The *Patients in Waiting Room* category is designed to track all patients checked into the Waiting Room station, by default. Likewise, the *Checked In Patients - All Stations* category displays all checked-in patients, regardless of their station. The station and wait time can be found under the *Options* column.
+The *Patients in Waiting Room* category is designed to track all patients checked into the Waiting Room station, by default. Likewise, the *Checked In Patients - All Stations* category displays all checked-in patients, regardless of their station. The station and wait time can be found under the *Options* column.  
 The *Patients in Waiting Room* category can be configured to not only show patients in the Waiting Room station, but rather all patients in any *lobby-like stations*, if preferred. Most clients prefer the default; however, custom configuration can be done to display patients in lobby-like stations versus just those patients checked into the Waiting Room.
 
 ### Station Manager
@@ -73,8 +83,8 @@ The *Patients in Waiting Room* category can be configured to not only show patie
 A station is a physical location of the clinic (e.g., Waiting Room, Exam Rm 1, Lab, Checkout, etc.). Stations allow staff to manage the flow of the office, as well as track wait times and recurring bottlenecks.  
 The of the Checkin module allows administrative users, or those with the proper security permissions, to create and manage all necessary stations. Use the Station Manager to review the default stations in the {{% system-name %}} system, and add or edit any of the stations based on workflow needs.  
 To access the Station Manager, appropriate users must have the Access Control security permission **Station Manager** set to **Yes**. Users with access will be able to navigate to the tab, found in the module. Consequently, this provides these users with the ability to add, edit, and delete stations, as needed.
-{{% info %}}
 
+{{% info %}}
 *Checkout* will not display as a station in the Station Manager editor. It does not need to be set up as a station or lobby-like station. Checkout is hardcoded and always available in the {{% system-name %}} system.
 {{% /info %}}
 
@@ -87,8 +97,8 @@ After reviewing and setting the My Station and Default Visit Type preferences ac
 
 When utilizing the One-Click Checkin feature, scheduled appointments are checked in using one of two possible defaults–the **Default Visit Type** preference or an **Default Encounter Type**.
 When an appointment type is created, there is the option to set a Default Encounter Type, so that any time the scheduled appointment type is checked in, the specified encounter type will be created and used for that appointment. Alternatively, if no encounter type is specified, the system will defer to the user's Default Visit Type preference anytime one-click checkin is enabled. Because of this, it is important to review the appointment type Default Encounter Types, as well as the Default Visit Type setting, to ensure all workflow expectations are met.
-{{% tip %}}
 
+{{% tip %}}
 When no specific encounter/visit type is to be generated for an appointment type, then set the Default Encounter Type of the appointment type to **Checkin**.
 {{% /tip %}}
 
@@ -115,15 +125,17 @@ The **Checkin-Public** sidemenu option is disabled by default, but can be activa
 There are various system settings relevant to the Checkin module, which may be enabled or disabled system-wide, as needed. These system settings are described, below:
 **Use Checkin**: Enabled, by default, indicated by the value **1**. When enabled, the *Checkin* hyperlinks are displayed throughout the system. *Checkin* links can be found in places such as the chart demographics header, within encounters, on the Summary chart tab, in the Quick Links portlet, etc. If disabled (value **0**) then *Checkin* hyperlinks are hidden, or removed, system-wide.
 **Lobby-Like Stations**: Default is **‘Waiting Room'**. Lobby-like stations are those locations which can be expected to have or hold more than one individual, at a time. When the *Hide Occupied Stations* system setting is enabled (value 1), clients will need to utilize this *Lobby-Like Stations* system setting to set the station name(s), or location(s), where multiple individuals may be present at any given time. Examples include Waiting Room, Lobby, Completing Questionnaires, Holding Room, Ready for Nurse, etc.
-{{% tip %}}
 
+{{% tip %}}
 When adding more stations to the Lobby-Like Station system setting, the value must contain the system name with single quotes, separating multiple values by commas (e.g., ‘Waiting Room', ‘Ready For Nurse', ‘West Wing', 'Questionnaire Room')
 {{% /tip %}}
-**Hide Occupied Stations**: Enabled by default (value **1**). When enabled, all occupied stations, or stations already occupied by patients, will not appear as options for checking in additional patients. For example, when a user checks in an individual and specifies the station location of the individual as Exam Room 1, that station will not appear as an option again, until the individual is moved to another station, or checked out.
-{{% tip %}}
 
+**Hide Occupied Stations**: Enabled by default (value **1**). When enabled, all occupied stations, or stations already occupied by patients, will not appear as options for checking in additional patients. For example, when a user checks in an individual and specifies the station location of the individual as Exam Room 1, that station will not appear as an option again, until the individual is moved to another station, or checked out.
+
+{{% tip %}}
 Review the *Hide Occupied Stations* and *Lobby-Like Stations* system settings, at the same time. Ensure the *Lobby-Like Stations* system setting has at least one station specified if the *Hide Occupied Stations* system setting is enabled.
 {{% /tip %}}
+
 **Station Alert Threshold Minutes**: Default is **15**. The station alert threshold is programmed so that an alert is triggered whenever stations are occupied longer than the expressed value. As noted in the name of the system setting, the value determines the number of *minutes* before an alert is triggered. Set the value to a number of minutes conducive to the business needs, indicating the number of minutes to elapse before the occupied station displays as a red alert. This provides easy visibility of those patients who have been waiting longer than the established threshold, and can be used to drive or increase efficiency.
 **Close on Checkout**: Disabled by default (value **0**). If enabled (value **1**), upon checkout, or when the *Checkout* station is selected, the {{% system-name %}} system will close and archive any linked encounters, automatically. It is recommended that the *Close on Checkout* system setting remain disabled.
 
@@ -157,6 +169,7 @@ Two reports specific to the Checkin module are the Checkin Statistics, tracked t
 
 
 ### Help Documentation
+
 
 * [Checkin](../../functions/scheduling/checkin.md)
 * [Checkin Reports](../../functions/reports/checkin-reports.md)

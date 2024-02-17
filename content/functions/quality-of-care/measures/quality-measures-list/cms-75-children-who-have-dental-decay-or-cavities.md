@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10'
 source: 'https://drive.google.com/open?id=1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -110,11 +110,13 @@ Track all patients 6 months to 20 years of age diagnosed with tooth decay or cav
 
 ### Workflow
 
+
 1. While documenting the Visit encounter, record the diagnosis, as appropriate
 2. Open the Symptoms/Diagnosis section
 3. Ensure the patient has a diagnosis of tooth or dental decay, as applicable
 4. Continue documenting the encounter, as appropriate
 5. When completed, Close and Archive the encounter
+
 
 ## Evidence
 
@@ -175,6 +177,6 @@ Track all patients 6 months to 20 years of age diagnosed with tooth decay or cav
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS75](https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10)

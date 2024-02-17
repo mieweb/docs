@@ -6,7 +6,7 @@ version: 18
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QQ_PCqt0R3IeEpLRUSPy4GkOJDqV93UCYzdqrWMEXbQ'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 **Description**:  At least one permissible prescription written by the MIPS eligible clinician is queried for a drug formulary and transmitted electronically using CEHRT.  
 **Participation**:  The authorization by a MIPS eligible clinician to a pharmacist to dispense a drug that the pharmacist would not dispense to the patient without such authorization. Permissible Prescriptions – All drugs meeting the current definition of a prescription as the authorization by a clinician to dispense a drug that would not be dispensed without such authorization and may include electronic prescriptions of controlled substances where creation of an electronic prescription for the medication is feasible using CEHRT and where allowable by state and local law.   
@@ -15,14 +15,23 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 ## Clinical Instructions
 
+
 1.  Required for Promoting Interoperability Performance Category Score: <strong>Yes</strong>
+
+
    1. Measure Score: Up to 10 points
    2. Eligible for Bonus Score: No
-1. MIPS eligible clinicians must:
+
+
+2. MIPS eligible clinicians must:
+
+
    1. Submit a "yes" to the Prevention of Information Blocking Attestations
    2. Submit a "yes" to the ONC Direct Review Attestation, if applicable
    3. Submit a "yes" that they have completed the Security Risk Analysis measure during the calendar year in which the MIPS performance period occurs
    4. Must report the required measures from each of the four objectives in order to earn a score greater than zero for the Promoting Interoperability performance category
+
+
 
 ## Source(s)
 

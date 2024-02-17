@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1dOhB5E8UNaECKEDJR1ZwL0isMZCSdEHuIcnyC7OAmhU'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
-**Activity Weighting**: Medium
+**Activity Weighting**: Medium  
 **Subcategory Name**: Population Management  
 **Description**: Participation in federally and/or privately funded research that identifies interventions, tools, or processes that can improve a targeted patient population.
 
@@ -24,11 +24,12 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 Supporting Documentation
+
 1. Documentation of participation in federally funded research; and 
 2. Documentation of the interventions, tools, or processes used in the research; and 
 3. Documentation of the identified target population. 
-{{% note %}}
 
+{{% note %}}
 Attestation for IA_PM_9 and IA_PM_17 utilizing the same research project is prohibited.
 {{% /note %}}
 

@@ -7,14 +7,13 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTC&old_module=Email&old_name=Apt+Confirmation&active=0'
 source: 'https://drive.google.com/open?id=1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
 {{% info %}}
-
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTC&old_module=Email&old_name=Apt+Confirmation&active=0), as needed.
 {{% /info %}}
 
@@ -27,7 +26,7 @@ Subject: Appointment Confirmation - Location
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
-## **Appointment Confirmation**
+## Appointment Confirmation
 
 
 TO: Frederick J Anderson
@@ -40,7 +39,9 @@ Newark, NJ 07102
 Phone: (973) 802-2302
 
 You were scheduled to complete the following:
+
 * Blood Pressure Check
+
 
 If you have any additional questions regarding this notification, please contact your health services provider.
 We thank you for your cooperation.

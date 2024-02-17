@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10'
 source: 'https://drive.google.com/open?id=1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -115,24 +115,32 @@ Make referral order
 Refer to outside provider
 
 
+
 1. While documenting the Visit Encounter, use the Visit Orders to create a Referral.
+
 {{% note %}}
    * The out-of-the-box referral order document type (ORDREF) needs to be saved with LOINC 47045-0.
    * The Ordering Provider field must be the performing provider (i.e., not the nurse, MA, or staff) in order for the performing provider to satisfy the measure.  
    * All referral orders created for a patient during the reporting period must be Completed in order for the patient to count in the numerator.
+
 {{% /note %}}
-1. When entering the fields of the referral order, ensure the Refer To field is specified.
-2. Add any additional comments to the referral order, as needed.
-3. Click Submit.
-4. Continue documenting the encounter as needed.
-5. When completed, Close and Archive the encounter.
-6. <strong>When the Referral Report is returned to the office</strong>, ensure the document is scanned and indexed into the system correctly, and complete the referral order.
+
+2. When entering the fields of the referral order, ensure the Refer To field is specified.
+3. Add any additional comments to the referral order, as needed.
+4. Click Submit.
+5. Continue documenting the encounter as needed.
+6. When completed, Close and Archive the encounter.
+7. <strong>When the Referral Report is returned to the office</strong>, ensure the document is scanned and indexed into the system correctly, and complete the referral order.
+
 {{% note %}}
    * The referral order and the received consult note will need to be linked in order to satisfy the measure. This can be done during indexing; otherwise, linking can be done manually, from the Open Orders screen, when completing orders.
+
       * Order request chart tab click complete in options column of the pending referral order, complete order with linked doc_id
+
    * The consult note document type (e.g., CONSNOTE) needs to be saved with LOINC 34140-4.
    * The consult note needs to be received after the referral order is created.
    * The consult report cannot be from the same provider that sent the referral order.
+
 {{% /note %}}
 
 ## Evidence

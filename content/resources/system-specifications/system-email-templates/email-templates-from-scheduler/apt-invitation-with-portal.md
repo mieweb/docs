@@ -7,14 +7,13 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTI&old_module=Email&old_name=Apt+Invitation+with+Portal&active=0'
 source: 'https://drive.google.com/open?id=1_9KLm_UcpM0vQsGlOxZaccnQouL1lLgfn-KU5PeP_DI'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
 {{% info %}}
-
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTI&old_module=Email&old_name=Apt+Invitation+with+Portal&active=0), as needed.
 {{% /info %}}
 
@@ -27,7 +26,7 @@ Subject: Notice to Schedule your Health Surveillance Appointment
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
-## **Notice to Schedule Health Surveillance Appointment**
+## Notice to Schedule Health Surveillance Appointment
 
 
 TO: Frederick J Anderson

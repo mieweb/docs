@@ -8,27 +8,22 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://doc.id/'
 source: 'https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 To access the Fast Tasks Template tab within the Task List sidemenu module, users must have security for Manage Fast Tasks.  
 Fast Tasks are templated tasks and are ‘labeled or categorized'.  Fast Task Templates are created for tasks that need generated routinely or commonly (example: precerts, nursing calls, etc). If you see fast task options when using the Add Task functionality, then templated task(s) have been configured in the system by creating fast task templates.  
 Before adding a fast task template, check the existing fast task listing to make sure one does not already exist. Verify that a fast task does not already exist that will perform the same function and assign to same user(s) and/or departments.
 
-## **Add Fast Task Template**
+## Add Fast Task Template
 
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
 
-
-![](../fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)
-    
+![](../fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)    
 To configure and add a new Fast Task template selection to the system, click the Add link found on the right side of the Fast Tasks screen.
-
 
 ![](../fast-task-templates.assets/30f06c204c4ff2333e1656ac6ccf60e5.png)
 
-
 The Task Template (NEW) screen opens.  Enter information into any applicable fields to create the new fast task selection for the system.
-
 
 ![](../fast-task-templates.assets/73ad81f88ad9ad389e4349e80b39a1ed.png)
 
@@ -53,50 +48,45 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 
 * Insert as Completed:  Checkmark this only if the task is to be considered completed automatically when this specific fast task is created and used.
 * Assign to: Fast Tasks can be templated to know who to assign it to and then the user doesn't have to always set who to assign this fast task type to.  Typically repetitive tasks or common tasks always go to the same person or department. The Assign To field here is to indicate whom the fast task is to be assigned to when used.  It is ok to leave the Assign To field blank, but when a user goes to use this type of fast task template in the system, the user needs to manually assign the task each time the fast task is used.
-{{% note %}}
 
+{{% note %}}
 Users who do not have tasking view security permission will not show up as a user choice to assign to.
 {{% /note %}}
-  
+
+
 * Forward Fast Task: Typically this is left as None, but a different fast task template can be selected here to utilize when forwarding the current fast task to someone.  The other fast task template indicated here, would be sent on a forward. The other task template indicated here, could be set up with different info, notes and different assignees.  For example: Perhaps you have a fast task called Jones Phone and when the nurse sends it to Dr. Jones for him to answer the question, when he hits reply she does not want this fast task Jones Phone to always come back to her, she would rather it come back to the Nurses department so anyone in the Nurses Department can finish it (in case she is gone, etc.)
+
 When done entering the fast task template to the system, click the Save button.  A confirmation message at the top of the screen will say Successfully inserted Fast Task. The Fast Task has now been saved to the system and is now a fast task option to use.
 
-## **Edit or Delete a Fast Task Template**
+## Edit or Delete a Fast Task Template
 
 To access the Fast Tasks Template tab within the Task List sidemenu module, users must have security for Manage Fast Tasks.
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
+![](../fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)  
 
-![](../fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)
-  
-
-### **Edit**
+### Edit
 
 To edit, find the specific fast task template that needs edited and simply click the respective Edit link in the options column.
 
-
 ![](../fast-task-templates.assets/f2ef4ce5656c8312767b852c6e0e3ccd.png)
-
 
 Change and edit any of the fast task template fields and click Save when done editing.
 It will display a confirmation that you have successfully updated the fast task template.
 
-### **Delete**
+### Delete
 
 To delete, find the specific fast task template and simply click the respective Delete link in the options column.
 It will ask you to confirm that you are sure you want to delete the fast task.
 
-
 ![](../fast-task-templates.assets/d8369533c83a7f58b92b536a13b18dfc.png)
 
-
 Click the Yes button to proceed and delete the fast task template from the system. It will display a message that you successfully deleted the fast task.
-{{% warning %}}
 
+{{% warning %}}
 Deleting a fast task also deletes any tasklist events that may be linked to it that were setup for automated workflow needs.  Also, if a fast task template is deleted, any other fast tasks that use the deleted fast task as its ‘forward' task template are unlinked from the deleted fast task.
 {{% /warning %}}
 
 {{% info %}}
-
 Any automated fast tasks setup based on encounters will trigger for the encounter document if system setting Process Esign/Tasks on Preliminary Archive is set to value 1.  If this is enabled (value 1) once you create even just a preliminary archive of an encounter, it creates the encounter document ([doc.id](http://doc.id/)) and esign/tasks it as a final document even though it's preliminary.  Most clients keep this disabled (value 0) so only final documents of encounters that are closed & archived will trigger esign and tasking rules if any are setup.
 {{% /info %}}
 

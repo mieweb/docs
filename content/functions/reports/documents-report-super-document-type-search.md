@@ -7,14 +7,13 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Use this report if you wish to locate a specific document with some information you have, or wish to locate specific documents in general, etc.  
 Click *Reports* tab on the left side-bar menu.  
-Click *Document Reports* tab from the top tab menu.
+Click *Document Reports* tab from the top tab menu.  
 You do not have to fill out every single field. These fields are different ways to find a document and each field gets more specific and narrows your search down.
-
 ![](../documents-report-super-document-type-search.assets/bd2cd8d57bda3e9f3fa1f4b2ce449a6e.png)
 
 * <strong>Doc ID:</strong> Enter the specific document ID number. Each document that is indexed, uploaded, etc into a patient's chart has a specific document ID number. You would use this field if you had a doc.id number and had no idea which patient it belonged to or if it was in the system, etc.
@@ -29,90 +28,67 @@ You do not have to fill out every single field. These fields are different ways 
 * <strong>Location:</strong> Click on this field to check-mark a specific location or multiple locations for these documents you are searching for. If you skip this field, it will search all locations.
 * <strong>Interface</strong>: Type in the correct interface path (abbreviation) if looking for documents from an interface (Parkview, Lutheran, FW Med Lab, etc)
 * <strong>Dates & Date ranges:</strong>
-  * Origin Date Range is the date the originator ‘wrote' the document.  Example: When the doctor made the dictation.
-  * Create Date Range is the date the {{% system-name %}} version of the document was created.  Example: When the dictation was transcribed.
-  * Revision Date Range is the date of the latest revision date of the {{% system-name %}} document.
-  * Service Date Range is the date of the service that the document refers to.
+
+
+   * Origin Date Range is the date the originator ‘wrote' the document.  Example: When the doctor made the dictation.
+   * Create Date Range is the date the {{% system-name %}} version of the document was created.  Example: When the dictation was transcribed.
+   * Revision Date Range is the date of the latest revision date of the {{% system-name %}} document.
+   * Service Date Range is the date of the service that the document refers to.
+
+
 {{% tip %}}
-
-
 The left date will act as a lower bound and the right date will act as an upper bound.  So if the date of 00/00/0000 is desired to be included in the search, leave the lower bound empty as 00/00/0000 will be less than any known date for upper bound.  Do NOT try to enter 00/00/0000.  If you only want unknown ones, put in a very old date like 01/01/1900 for the upper bound.  Then the only documents that will be older than that will be the unknown ones.
-
 {{% /tip %}}
+
 * <strong>Subject:</strong> Type in some text of a "subject" you are looking for that documents have. Subject is a field & column when working with a specific document and you can "label" a document with a "subject" which helps decipher what the document is about when looking in list view. This report allows user to result this report by looking for keywords in a subject using this field.
 * <strong>Optional Columns:</strong> There are optional columns you can select. That means when the report results, it will show any optional columns that you have selected (ex: SSN, subject line, etc). One optional column is E-Sign and when you checkmark that, another field will branch open to checkmark which esign status you'd like to result by. Not having any checkmarked will result in any and all documents from your filter selections and will show an esign status in that column. If you want to limit your report to find only specific e-sign statuses, then you would checkmark which statuses you are looking for. Once the report results, you can also request a signature and unrequest signature right from the report that results.
 * <strong>View Unprinted Only:</strong> Can make your search results show documents that are currently unprinted only for the criteria you specify. It will not show any documents in your criteria that have already ever been printed or faxed for a patient.
+
 Click *Search* to run the report to find documents.
 It will then run and show all your document(s) results with specific categories of information.
-
 ![](../documents-report-super-document-type-search.assets/474438ad14d5ec148034618b994d062c.png)
-
 If you wish to only view a document(s) you searched for, then click on the underlined Doc ID.
 If you wish to view the patient demographics screen for that document(s) then click on the underlined MR number.
 If you wish to print/fax a document or multiple documents, click the word Batch in the first column titled Print. It will then put that document in a ‘batch' to print or fax. If you do not want to print/fax it from a batch, click Remove where you just clicked Batch.
-
 ![](../documents-report-super-document-type-search.assets/eb05eab6118f5dbb8b832dd93bb8a0dd.png)
-
 Your view can be set up to show checkboxes or the link batch in the PRINT column. Simply check-mark which document results you wish to print/fax/or create a batch for (or uncheck-mark ones you don't want to print/fax/batch) or click the word batch if your view is set to that look.
 The MY SETTINGS preference controls which look you have (checkboxes or the batch link in that column).
-
 ![](../documents-report-super-document-type-search.assets/d9e5a7c1c5c640ec533ecbe13d3bbbf9.png)
-
 Scroll down to the bottom and make your selection to print/fax or create a bulk batch.
-
 ![](../documents-report-super-document-type-search.assets/7d1e91f9c439aba480e61066c6188dd2.png)
-
 Whatever documents you have ‘batched' will be put up in the print/fax batch queue. You will see this at the very top left corner of the screen or any screen you are working in. This summary shows that you have documents in a batch that you need to print, or fax, or remove and the number of items (documents) in the batch.
-
 ![](../documents-report-super-document-type-search.assets/1cb3391acb1627c707d41c32a5a13117.png)
-
 When you print or fax multiple documents from this report—they may print a couple documents per page (especially if they are text documents). If you wish for each document to print or fax on their own separate page, then after you click the Print or Fax button, you need to checkmark the box that says *Print One Document Per Page*.
 If you wish them to print or fax without the {{% system-name %}} document header, you need to checkmark the box that says *Print documents without |system| document headers.*
 Proceed by printing or faxing or remove the documents from the batch remove & cancel.
-
 ![](../documents-report-super-document-type-search.assets/2726c540c259ea0a8ad6d0a36fb59bf7.png)
-
 If wish to view your document search results in detail, click the *Detail View* option on the top right of the screen. Detail view opens/shows each specific document in detail (full document) in your search results report without having to click on the DocID in the other view (List view) to open and view the document.
-
 ![](../documents-report-super-document-type-search.assets/bcacb96a39314716e82dc4a52d285e7c.png)
-
 You can go back to the default *List View* by clicking *List View* at the top right of the screen (where it did say detail view).
 You can also export the results to a CSV (spreadsheet). Simply click on the **Show CSV** link in the results.
-
 ![](../documents-report-super-document-type-search.assets/6e965970476d6d28686b47b25ca15e7d.png)
-
 This will put all the data into an excel spreadsheet which you can save, sort, etc. in spreadsheet form.
 The Modify Search link goes back to your original search that you entered. It keeps the fields filled out that you previously entered and allow you to change any field. This saves you from entering everything over again if you just needed to change a few fields to display another search result.
-
 ![](../documents-report-super-document-type-search.assets/bcacb96a39314716e82dc4a52d285e7c.png)
-
 
 ## Save Report Filter Templates
 
 You can "save" a document report you've run. You may run the same report monthly and instead of putting in the report search criteria fields in individually all the time, you can "save" the report filters to run again at a future time without having to manually key everything in again. You can save and access previous saved filter reports using the link options at the top: Save Filter Template and Show Saved Filters.
-
 ![](../documents-report-super-document-type-search.assets/a8ba2deddcfa719b3eed8291567ab330.png)
-
 
 ### Save Filter Template
 
 To "save" a new report filter template, you need to enter in all the search criteria fields for the report from the Document Search Report. When you are done, you can click SEARCH to run the report and still access the save filter templates link even after you run a report.
-
 ![](../documents-report-super-document-type-search.assets/5b400fe36b16bedf93bb49255c42c38e.png)
-
 All the search criteria you entered in for the report can be stored as a "saved template" to run that same report again without having to rekey in each field manually. All search criteria fields are able to be stored in a filter template *except doc_id, patient name, entering user and authoring user.*
 When you click the save filter template all search criteria fields (except those noted above) can be "saved" to this template to run the report again in the future quickly. You can "uncheckmark" any search criteria line items that you don't want to be included in this future "filter template", but by default it assumes you want to save all and it places a checkmark beside each. You must type a "Name" to name this saved report filter template.
-
 ![](../documents-report-super-document-type-search.assets/dc945ab6c6192a202d5ece702708c901.png)
-
 Click the SAVE button to save your template. You and others can now access the saved report filter template by clicking show saved filters link and quickly run the same report in the future without having to manually key in each filter criteria field individually.
 
 ### Show Saved Filters
 
 If you wish to access a previously saved template and want to run the same report again, click the Show Saved Filters link. You will see a list of the choices and what the report is named. If you have security privilege, you can delete any saved filter reports from here too so it cannot be utilized anymore.
 Click the saved document report template you wish to run. It will open the fields that are attached to this report and all will be checkmarked by default. If you wish to run the same report, simply click APPLY button and the report will render. If you wish to not include a previously saved filter item (ex: document type), then uncheckmark it and then run the report by clicking the APPLY button and it populate the Document Report search filter fields based and respecting what you have checkmarked from the saved template. Click the SEARCH button to run the report then.
-
 ![](../documents-report-super-document-type-search.assets/a506f6e6f711e5a27592136af47eced6.png)
-
 *Personal Templates* are saved document report templates you (the logged in user) have saved & created to be in the library.
 *Global Templates* are saved document report templates that other users have saved & created in this library and you can access them also.

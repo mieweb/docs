@@ -9,7 +9,7 @@ links:
   - '../functions/quality-of-care/quality-reporting-enrollment.md'
   - 'quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -22,7 +22,6 @@ Peruse leisurely, and anticipate updates and changes as we grow with each of our
 
 
 {{% info %}}
-
 For background information and some of the history behind quality reporting, check out our [Brief Introduction to Quality Reporting](quality-reporting/brief-introduction-to-quality-reporting.md).
 {{% /info %}}
 

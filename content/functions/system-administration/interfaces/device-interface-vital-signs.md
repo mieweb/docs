@@ -7,11 +7,12 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 The following is referring to a Welch Allyn Spot Vital Signs monitor system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 
 ## Vital Signs
+
 
 1. Open {{% system-name %}} .
 2. Pull up the correct patient.
@@ -21,18 +22,26 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
 ![](../device-interface-vital-signs.assets/6df787e03e853bc8427d84a6e7c5ee43.png)
 
 1. Select the Get readings button in {{% system-name %}}
+
+
    1. Vital signs will appear on page.
-1. Select the add button for the correct set of vitals. (Note: if the device is being kept clean your results should be the only ones listed)
-2. Select and submit button and vital signs will be saved to the encounter and appear on page.
-3. Select the Clear Device button.
-4. Scroll to the bottom of the page and select submit to save vital signs to chart.
-5. Please note that for metrics the process above is the preferred method for entering vital signs
-6. Take patient's vital signs.
+
+
+2. Select the add button for the correct set of vitals. (Note: if the device is being kept clean your results should be the only ones listed)
+3. Select and submit button and vital signs will be saved to the encounter and appear on page.
+4. Select the Clear Device button.
+5. Scroll to the bottom of the page and select submit to save vital signs to chart.
+6. Please note that for metrics the process above is the preferred method for entering vital signs
+7. Take patient's vital signs.
 
 ![](../device-interface-vital-signs.assets/f6584808957858c2fc350ab898e32c1e.png)
 
 1. Select the Get readings button.
+
+
    1. Vital signs will appear on page.
-1. Select the add button for the correct set of vitals. (Note: if the device is being kept clean your results should be the only ones listed)
-2. Select clear device and submit button
-3. Vital signs will be saved to the encounter or Vitals chart tab and appear on page.
+
+
+2. Select the add button for the correct set of vitals. (Note: if the device is being kept clean your results should be the only ones listed)
+3. Select clear device and submit button
+4. Vital signs will be saved to the encounter or Vitals chart tab and appear on page.

@@ -10,15 +10,16 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1LvK0sD2FZ8JRIvRNodH5JXsgdpBgsWZf4hgqeT-taMM'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
-**Activity Weighting**: Medium
-**Subcategory Name**: Care Coordination
+**Activity Weighting**: Medium  
+**Subcategory Name**: Care Coordination  
 **Description**: Participation in a Perioperative Surgical Home (PSH) that provides a patient-centered, physician-led, interdisciplinary, and team-based system of coordinated patient care, which coordinates care from pre-procedure assessment through the acute care episode, recovery, and post-acute care. This activity allows for reporting of strategies and processes related to care coordination of patients receiving surgical or procedural care within a PSH. The clinician must perform one or more of the following care coordination activities:
+
 * Coordinate with care managers/navigators in preoperative clinic to plan and implementation comprehensive post discharge plan of care;
 * Deploy perioperative clinic and care processes to reduce post-operative visits to emergency rooms;
 * Implement evidence-informed practices and standardize care across the entire spectrum of surgical patients; or
@@ -27,14 +28,16 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 
+
 Supporting Documentation
+
 1. Coordinate with care managers/navigators in preoperative clinic to plan and implement comprehensive post discharge plan of care; and 
 2. Deploy perioperative clinic and care processes to reduce post - operative visits to emergency rooms; and 
 3. Implement evidence-informed practices and standardize care across the entire spectrum of surgical patients; and 
 4. Implement processes to ensure effective communications and education of patients' post-discharge instructions. 
 
-{{% note %}}
 
+{{% note %}}
 A certified EHR may be used for documentation purposes, but is not required unless attesting for the Promoting Interoperability (formerly ACI) bonus.
 {{% /note %}}
 

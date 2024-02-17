@@ -7,14 +7,13 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&opp=edit&old_module=Email&old_name=Apt+Invite+Reminder'
 source: 'https://drive.google.com/open?id=1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
 {{% info %}}
-
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&opp=edit&old_module=Email&old_name=Apt+Invite+Reminder), as needed.
 {{% /info %}}
 
@@ -28,7 +27,7 @@ Subject: Notification to Schedule Follow-up Appointment
 
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
-## **Notice to Schedule Health Surveillance Appointment**
+## Notice to Schedule Health Surveillance Appointment
 
 
 TO: Frederick J Anderson

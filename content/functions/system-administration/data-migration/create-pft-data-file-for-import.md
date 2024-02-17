@@ -12,17 +12,21 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971'
   - 'https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y'
 source: 'https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-This document explains how to import your pulmonary function testing data into {{% system-name %}} .
+This document explains how to import your pulmonary function testing data into {{% system-name %}} .  
 What you will need:
+
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * PFT Data CSV File Example
 {{% system-name %}}*  end user with administrative rights
 
+
 ## Create PFT Data CSV File
 
+
 1. The following table provides optional or required <strong>Field Names</strong> and <strong>Descriptions</strong>, as indicated by the <strong>Requirement</strong> column. Items marked as <em>Best Practice</em> or <em>Optional</em> are not required and may be left blank, or omitted entirely. Employee ID must be the first column in the CSV file. The order of the remaining fields does not matter.
+
 
 
 <table>
@@ -141,6 +145,7 @@ What you will need:
 *For a more comprehensive list of supported fields, please refer to the* [*PFT Data CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/)  
 {{% /tip %}}
 
+
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents a pulmonary function test record. Below is a screenshot of the PFT Data CSV File Example for guidance.
 
 
@@ -149,7 +154,9 @@ What you will need:
 
 3. Save the file as CSV format.
 
+
 ## Upload PFT Data CSV File
+
 
 1. Login as a user with administrator rights.
 2. Navigate to the [Control Panel](https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
@@ -172,19 +179,20 @@ What you will need:
 
 5. Select the PFT Data CSV File and click <strong>Upload</strong>.
 
-   <img src="../create-pft-data-file-for-import.assets/78193ae652252ee583b49d05b8681478.png" />
+   ![](../create-pft-data-file-for-import.assets/78193ae652252ee583b49d05b8681478.png)
 
 
 {{% tip %}}
-
 *For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
 {{% /tip %}}
 
 ## Resources
 
+
 * [PFT Data CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/)
 * [PFT Data CSV File Example](https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971)
 * [Validation script for PFT data](https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y)
+
 
 ## Troubleshooting
 

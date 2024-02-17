@@ -11,12 +11,12 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms069v10'
 source: 'https://drive.google.com/open?id=1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS69v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v8&showresulttype=Measure) (2020)
-[CMS69v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v9&showresulttype=Measure) (2021)
+[CMS69v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v8&showresulttype=Measure) (2020)  
+[CMS69v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v9&showresulttype=Measure) (2021)  
 [CMS69v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v10&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -69,7 +69,7 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Patients with a documented medical reason for not documenting BMI or for not documenting a follow-up plan for a BMI outside normal parameters (e.g., elderly patients 65 years of age or older for whom weight reduction/weight gain would complicate other underlying health conditions such as illness or physical disability, mental illness, dementia, confusion, or nutritional deficiency such as vitamin/mineral deficiency; </p></li><li><p>Patients in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status)</p></li><li><p>Patients who refuse measurement of height and/or weight</p></li></ul></td>
+<td><ul><li><p>Patients with a documented medical reason for not documenting BMI or for not documenting a follow-up plan for a BMI outside normal parameters (e.g., elderly patients 65 years of age or older for whom weight reduction/weight gain would complicate other underlying health conditions such as illness or physical disability, mental illness, dementia, confusion, or nutritional deficiency such as vitamin/mineral deficiency;</p></li><li><p>Patients in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status)</p></li><li><p>Patients who refuse measurement of height and/or weight</p></li></ul></td>
 </tr>
 
 </table>
@@ -106,9 +106,10 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 ## Clinical Instructions
 
-Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and less than 25kg/m2. Any patient with a BMI outside of normal parameters requires a follow-up plan be documented during the current encounter or during the previous twelve months of the current encounter. 
+Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and less than 25kg/m2. Any patient with a BMI outside of normal parameters requires a follow-up plan be documented during the current encounter or during the previous twelve months of the current encounter.   
 
 ### Preferred Workflow
+
 
 1. While documenting the Visit encounter, record the BMI, as appropriate
 2. Open the Vitals section and enter the Height and Weight (the BMI is auto-calculated)
@@ -119,7 +120,9 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 7. Continue documenting the encounter, as needed
 8. When completed, Close and Archive the encounter
 
+
 ### Alternate Workflow
+
 
 1. While documenting the Visit encounter, record the BMI, as appropriate
 2. Open the Vitals section and enter the Height and Weight (the BMI is auto-calculated)
@@ -127,6 +130,7 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 4. Click Yes to add order, as appropriate
 5. Continue documenting the encounter, as needed
 6. When completed, Close and Archive the encounter
+
 
 ## Evidence
 

@@ -14,12 +14,12 @@ links:
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf'
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf'
 source: 'https://drive.google.com/open?id=1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS139v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v8&showresulttype=Measure) (2020)
-[CMS139v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v9&showresulttype=Measure) (2021)
+[CMS139v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v8&showresulttype=Measure) (2020)  
+[CMS139v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v9&showresulttype=Measure) (2021)  
 [CMS139v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v10&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -114,14 +114,18 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 
+
+
 ### Original Visit Encounter
 
-Ensure all 65+ year-old patients are screened for future fall risk, at least once within the measurement period. Use the Test and Procedures section of the encounter to order and perform the Fall Risk Screening.   
-{{% note %}}
+Ensure all 65+ year-old patients are screened for future fall risk, at least once within the measurement period. Use the Test and Procedures section of the encounter to order and perform the Fall Risk Screening. 
 
+{{% note %}}
 Each system/database will need a [Fall Risk Screening order and flowsheet created](../../../order-and-result-management/flowsheets-editor.md), in order to result the findings in the Tests and Procedures section of the encounter. The flowsheet must be configured with the Fall Risk Performed LOIN-C 73830-2.
 {{% /note %}}
+
 While documenting the Visit encounter, record the Fall Risk Screening procedure in the Tests and Procedures section of the Visit encounter.
+
 1. Open the Tests and Procedures section.
 2. Using the autocomplete, begin typing Fall Risk Screening.
 3. Click the Add to Exam button.
@@ -129,6 +133,7 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 5. Click the Next button, or close the section.
 6. Continue documenting the encounter, as needed.
 7. When completed, Close and Archive the encounter.
+
 
 ## Evidence
 

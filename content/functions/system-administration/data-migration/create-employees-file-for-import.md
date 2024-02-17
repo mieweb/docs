@@ -10,17 +10,21 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A'
 source: 'https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-This document explains how to import your existing employees into {{% system-name %}} .
+This document explains how to import your existing employees into {{% system-name %}} .  
 What you will need:
+
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Employees CSV File Example
 {{% system-name %}}*  end user with administrative rights
 
+
 ## Create Employees CSV File
 
+
 1. The following table provides optional or required <strong>Field Names</strong> and <strong>Descriptions</strong>, as indicated by the <strong>Requirement</strong> column. Items marked as <em>Best Practice</em> or <em>Optional</em> are not required and may be left blank, or omitted entirely. Employee ID must be the first column in the CSV file. The order of the remaining fields does not matter.
+
 
 
 <table>
@@ -85,6 +89,7 @@ What you will need:
 {{% tip %}}  
 *For a more comprehensive list of supported fields, please refer to the* [Human Resources Feed Fields Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/).  
 {{% /tip %}}
+
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Employees CSV File Example for guidance.
 
 
@@ -93,7 +98,9 @@ What you will need:
 
 3. Save the file as CSV format.
 
+
 ## Upload Employees CSV File
+
 
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
@@ -120,15 +127,16 @@ What you will need:
 ![](../create-employees-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
 
 {{% tip %}}
-
 *For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
 {{% /tip %}}
 
 ## Resources
 
+
 * [Human Resources Feed Fields Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/)
 * [Employees CSV File Example](https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864)
 * [Validation script for Employee demographics](https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A)
+
 
 ## Troubleshooting
 

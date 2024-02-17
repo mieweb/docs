@@ -22,23 +22,23 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 [Terms of API Use](application-programming-interface-api/terms-of-api-use.md)
 
 ## Introduction
 
-With {{% system-name %}}, you can augment the system and layer in configuration to support almost any workflow or process–migrate meaningful data from legacy applications; interface intelligently with HR systems, email applications, labs, and medical devices; experience no concerns about sharing data across the solution, and no barriers aggregating data from multiple sources. 
+With {{% system-name %}}, you can augment the system and layer in configuration to support almost any workflow or process–migrate meaningful data from legacy applications; interface intelligently with HR systems, email applications, labs, and medical devices; experience no concerns about sharing data across the solution, and no barriers aggregating data from multiple sources.
 
-This document provides an overview of the framework that drives these accomplishments. 
+This document provides an overview of the framework that drives these accomplishments.
 
-Explore the {{% system-name %}} API, below. 
+Explore the {{% system-name %}} API, below.
 
 Though any coding language may be used, the following example is written in python:  
-[https://github.com/mieweb/wcexport/blob/master/wcjson.py](https://github.com/mieweb/wcexport/blob/master/wcjson.py)
+https://github.com/mieweb/wcexport/blob/master/wcjson.py
 
 
-Other examples can be found here: [https://github.com/mieweb/webchart-interface-examples](https://github.com/mieweb/webchart-interface-examples)
+Other examples can be found here: https://github.com/mieweb/webchart-interface-examples
 
 Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel for full visibility of the various objects and their APIs.
 
@@ -68,6 +68,7 @@ COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
 {{% /pre %}}
 
 ```
+
 {{% info %}}
 COOKIE represents the session and is sent in the response.
 {{% /info %}}
@@ -111,7 +112,7 @@ Overall, this document is intended to comply with the established criteria laid 
 
 ### § 170.315(g)(7) Application access – Patient Selection
 
-[http://system/?f=layout&module=JS&name=API_DOC&tabmodule=admin&tabselect=API](http://system/?f=layout&module=JS&name=API_DOC&tabmodule=admin&tabselect=API)
+http://system/?f=layout&module=JS&name=API_DOC&tabmodule=admin&tabselect=API
 
 
 ```
@@ -329,7 +330,6 @@ if __name__ == '__main__':
                                }))
                                with open (os.path.join(OUTPUT, patname, '{0}.xml'.format(k)), 'w') as fp:
                                        fp.write(res.read())
-
 {{% /pre %}}
 
 
@@ -419,7 +419,6 @@ if __name__ == '__main__':
                         else:
                                 print("No documents exist for that patient that meet the criteria.")
                         # print(json.dumps(js))
-
 {{% /pre %}}
 
 
@@ -429,18 +428,19 @@ if __name__ == '__main__':
 
 {{% system-name %}}  has functional tools for importing and exporting documents to the system. The Export Tool is written in Python and can be run on Windows, Mac, or Linux. Conversely, importing documents is done with the [MIE File Import](https://www.mieweb.com/wiki/MIE_File_Import) utility.
 
-
 ![](../application-programming-interface-api.assets/e2b6a93dd8fecf5478d5122ba16e713d.png)
 
-
 ### Requirements
+
 
 * <strong>Windows:</strong> compiled exe are provided so Windows 7+ is sufficient.
 * <strong>Mac 10.8+:</strong> Python 2.7 is shipped with Mountain Lion and greater.
 * <strong>Linux</strong>: Python 2.7 or Python 3.1 is required and python-tk. The user interface requires a GUI / window manager.
 
+
 ### Installing
 
-* Download the project from GitHub at [https://github.com/mieweb/wcexport](https://github.com/mieweb/wcexport)
+
+* Download the project from GitHub at https://github.com/mieweb/wcexport
 * Windows-compiled EXE files are provided so python does not have to be installed.
 * Instructions for use are in the [README.md](https://github.com/mieweb/wcexport/blob/master/README.md) file within the git project.

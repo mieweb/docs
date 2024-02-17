@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10'
 source: 'https://drive.google.com/open?id=1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -118,13 +118,21 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 
 
 
+
+
 ### Original Visit Encounter
 
 Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month period of the diagnosis of coronary artery disease with prior myocardial infarction (MI) or a current or prior LVEF < 40%.
+
 1. Ensure patient has one of the following diagnoses:
+
+
    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
-1. Numerator will be populated with patients prescribed a beta-blocker therapy within the measure period.
+
+
+2. Numerator will be populated with patients prescribed a beta-blocker therapy within the measure period.
+
 
 ## Evidence
 
@@ -281,6 +289,6 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS145](https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10)

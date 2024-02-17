@@ -2,7 +2,7 @@
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
 date: '2024-01-15T13:30:31.342Z'
-version: 137
+version: 139
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -19,21 +19,23 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API. 
+The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.   
 
 ### Audience
 
-The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Data CSV API. Technical details are provided in the remaining sections.
+The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Data CSV API. Technical details are provided in the remaining sections.    
 
 ### Abstract
 
 The Chart Data CSV API is used to import data related to patients or charts. It is valuable to recognize the following terminology as it pertains to MIE systems:
+
 * A <strong>patient</strong> is an individual whose medical information is stored in an EH database.
 * A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
 * A <strong>user</strong> is an individual who uses an Enterprise Health system as part of their job.
 * <strong>Partitions</strong> organize groups of charts. Partitions are often used to restrict which charts a user can access.
+
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.  
 This API may also be used to set up relationships between charts. It is part of MIE's standard [Human Resources Interface](https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface), but it may also be used for single imports of new charts or updates to charts.
@@ -46,7 +48,6 @@ The following sections provide insight for technical personnel working with the 
 The Chart Data CSV API specifications are available here: https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0
 
 {{% note %}}
-
 The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
 {{% /note %}}
 
@@ -60,10 +61,12 @@ Definitions for the columns utilized in the specification, as well as commonly u
 
 The sections that follow outline the fields and data utilized by an EH system.
 A chart search in an EH can be completed with one of the following options:
+
 * Patient medical record number (MRN)
 * First Name, Last Name, and Date of Birth
 * Social Security Number (SSN - used in the United States)
 * Social Insurance Number (SIN - used in Canada)
+
 
 #### patients
 
@@ -95,8 +98,10 @@ Observations are used to track information that may change from time to time. Ty
 The field obs_result is required to create an observation.
 **Optional Field Pair For Observations**
 Both of the following fields are needed to link the observation to a patient encounter:
+
 * encounter ext_id
 * encounter interface
+
 
 Including the field encounter order_id will also create an encounter order.
 [Chart Observations Import Options](chart-observations-import-options.md) can be used to modify how observations are processed as the file is loaded.
@@ -134,5 +139,6 @@ See [Troubleshooting APIs](../../../resources/system-specifications/application
 [Validating APIs](https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1)
 
 ## Related Pages
+
 
 * [Data Import Master List](data-import-master-list.md)

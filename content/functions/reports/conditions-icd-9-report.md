@@ -6,16 +6,15 @@ version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
 Click *Reports* tab on the left sidebar menu.  
-Click *Conditions/ICD-9 Reports* tab from the top tab menu.
+Click *Conditions/ICD-9 Reports* tab from the top tab menu.  
 The Condition Search screen will open. This is a search of conditions tied to patients according to the criteria you enter.
-
 ![](../conditions-icd-9-report.assets/6b10ea48155e69f14e4ae9363f882bc2.png)
-
 These fields are optional. The more fields you enter and fill out, the more narrowed your search will be.
+
 * <strong>Patient:</strong> You can enter a specific patient name here or hover over the help icon to get help on how to search for a patient to enter here.\
 
 ![](../conditions-icd-9-report.assets/4cb0f19aea0183a6b05f1ee2c02fb9c1.png)
@@ -33,5 +32,4 @@ These fields are optional. The more fields you enter and fill out, the more narr
 * <strong>Format:</strong> Default will be at ListView. However, you can change the status to whatever you wish. Hover or click your mouse on the help icon for explanations of each status.
 
 ![](../conditions-icd-9-report.assets/dce908712802532c24b194a426b702d6.png)
-
 Click SEARCH to begin your ICD9/conditions search, or clear to start over.

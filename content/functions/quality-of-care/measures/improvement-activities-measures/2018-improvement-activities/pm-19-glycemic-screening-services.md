@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1q7esKo33sD5NLfGpULquOiy20ZPjfBnahEPH0YaZVoY'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
-**Activity Weighting**: Medium
+**Activity Weighting**: Medium  
 **Subcategory Name**: Population Management  
 **Description**: For at-risk outpatient Medicare beneficiaries, individual MIPS eligible clinicians and groups must attest to implementation of systematic preventive approaches in clinical practice for at least 60 percent for the 2018 performance period and 75 percent in future years, of electronic medical records with documentation of screening patients for abnormal blood glucose according to current US Preventive Services Task Force (USPSTF) and/or American Diabetes Association (ADA) guidelines.
 
@@ -24,10 +24,11 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 Supporting Documentation
+
 1. Total number of Medicare patients at risk for abnormal blood glucose; and 
 2. Percentage of that total screened for abnormal blood glucose as outlined by the US Preventive Services Task Force USPSTF) and/or American Diabetes Association (ADA) guidelines. 
-{{% note %}}
 
+{{% note %}}
 A certified EHR may be used for documentation purposes, but is not required unless attesting for the Promoting Interoperability (formerly ACI) bonus.
 {{% /note %}}
 

@@ -8,12 +8,14 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 This document explains how to import your language translation data into  {{% system-name %}} .  
 What you will need:
+
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 {{% system-name %}}*   end user with administrative rights
+
 
 ## Create Language Translation Text File
 
@@ -56,11 +58,10 @@ See: <a href="https://www.iana.org/assignments/language-subtag-registry/language
 </table>
 
 In Excel, save the sheet as Unicode Text.  This is important because **saving as CSV will NOT work** for many languages.
-
 ![](../create-language-translation-file-for-import.assets/25dc2afd0528e1c7a27167edd30ed8d1.png)
 
-
 ## Upload Language Translation Text File
+
 
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
@@ -86,15 +87,18 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 ![](../create-language-translation-file-for-import.assets/a20e7b30d9fd81f1bcb85dc70d3b93ec.png)
 
 
-
 ## Example Files
+
 
 * - UTF-8 encoded (preferred format for manually constructed files)
 * - UTF-16LE encoded (accepted format for export from Excel)
 
+
 ## Resources
 
+
 * [Language Subtag Registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+
 
 ## Troubleshooting
 

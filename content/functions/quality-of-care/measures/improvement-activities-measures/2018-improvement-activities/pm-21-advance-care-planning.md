@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1qdEPvQQznY4yW3MjLY8_25M4VehZOgGUKJFvn37v_ds'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
-**Activity Weighting**: Medium
+**Activity Weighting**: Medium  
 **Subcategory Name**: Population Management  
 **Description**: Implementation of practices/processes to develop advance care planning that includes: documenting the advance care plan or living will within the medical record, educating clinicians about advance care planning motivating them to address advance care planning needs of their patients, and how these needs can translate into quality improvement, educating clinicians on approaches and barriers to talking to patients about end-of-life and palliative care needs and ways to manage its documentation, as well as informing clinicians of the healthcare policy side of advance care planning.
 
@@ -24,12 +24,13 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 Supporting Documentation
+
 1. Documentation of process implementation for advance care planning/policy or living will development within the medical record; and 
 2. Documentation of clinician education about advance care planning to address advance care planning needs; and 
 3. Documentation illustrating how care plan needs were translated into quality improvement; and 
 4. Documentation of how clinicians are educated regarding strategies for addressing end-of-life and palliative care needs.
-{{% note %}}
 
+{{% note %}}
 A certified EHR may be used for documentation purposes, but is not required unless attesting for the Promoting Interoperability (formerly ACI) bonus.
 {{% /note %}}
 

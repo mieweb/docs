@@ -9,9 +9,9 @@ links:
   - 'http://www.eclinicalworks.com/'
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-wikigdrive: '29e351919e760c8794db0d9a212ff8b34e4d345c'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-**E-ClinicalWorks**
+**E-ClinicalWorks**  
 This page details how interfaces with e-ClinicalWorks (ecw) are installed.
 
 ## Overview
@@ -124,7 +124,7 @@ We may be required to load a mapping file for insurance plans.
 <item name="STATUS" value="2" />  
 <item name="PASSWD" value="" />  
 <item name="OPTIONS" value="0" />  
-</profile>
+</profile>  
 </interface>
 
 ### Connectivity
@@ -145,7 +145,7 @@ lrwxrwxrwx 1 root root	22 Jun 20 11:08 hl7_interlocutor -> ../../hl7_interlocuto
 lrwxrwxrwx 1 root root	24 Jun 20 11:10 logs -> ../../logs/pip_thiv/ecw/  
 -rwxr-xr-x 1 root root  1118 Jun 20 11:08 msgRules.v25  
 lrwxrwxrwx 1 root root	24 Jun 20 11:10 msgs -> ../../msgs/pip_thiv/ecw/  
--rwxr-xr-x 1 root root  1497 Jun 20 11:10 run_hl7d
+-rwxr-xr-x 1 root root  1497 Jun 20 11:10 run_hl7d  
 -rwxr-xr-x 1 root root 62558 Jun 20 11:08 segDefs.v25
 
 ### Deinstallation

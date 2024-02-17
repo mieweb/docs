@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms154v10'
 source: 'https://drive.google.com/open?id=1W0FANlgAIXUMqpKPJK6j0CUcGtHkY_-tbJsNQ_RkkcQ'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -115,14 +115,18 @@ wikigdrive: 'latest'
 
 
 
+
+
 ### Original Visit Encounter
 
 
 ## Clinical Instructions
 
 Tracks children aged 13 months to 18 years who have been diagnosed with an upper respiratory infection, and were not dispensed an antibiotic on or 3 days after the visit for the infection.
+
 1. Ensure patient has a diagnosis of Upper Respiratory Infection.
 2. For individuals who have been diagnosed, review medications and ensure an antibiotic was not dispensed on or 3 days after the visit for the infection.
+
 
 ## Evidence
 
@@ -263,6 +267,6 @@ Tracks children aged 13 months to 18 years who have been diagnosed with an upper
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS154](https://ecqi.healthit.gov/ecqm/ep/2022/cms154v10)

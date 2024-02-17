@@ -7,15 +7,16 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Incoming File/Fax Queue Set-Up and Documentation
 
 # File/Fax Queue Introduction
 
-The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the module, a file can be previewed or opened, tasks generated, file sent to a new user or department, or indexed directly within the queue or WebScan. This module has recently been updated to now include additional information when opening the file. When a user opens the file, they will see a summary of that document. The summary includes the File ID, Date and Time it was created in the queue, the Sender's fax number, and the status. When a user hovers over this information, a set of shortcut icons are displayed. The icons will be reviewed in the Documentation section. The File/Fax Queue is a feature that can be added or upgraded for an additional cost. 
+The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the module, a file can be previewed or opened, tasks generated, file sent to a new user or department, or indexed directly within the queue or WebScan. This module has recently been updated to now include additional information when opening the file. When a user opens the file, they will see a summary of that document. The summary includes the File ID, Date and Time it was created in the queue, the Sender's fax number, and the status. When a user hovers over this information, a set of shortcut icons are displayed. The icons will be reviewed in the Documentation section. The File/Fax Queue is a feature that can be added or upgraded for an additional cost.   
 
 # File Queue Set-Up
+
 
 
 1. From the <em>Control Panel</em> on the left side menu, click on the <em>System</em> chart tab and then click on the <em>Menu Editor</em> sub-tab
@@ -38,7 +39,7 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/92c45086775fb93a911771403a4947d5.png)
 
 
-5. Add the <em>URL</em> - ?f=layout&module=SystemReport&name=IncomingFileQueue&tabmodule=+ 
+5. Add the <em>URL</em> - ?f=layout&module=SystemReport&name=IncomingFileQueue&tabmodule=+
 
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/3cc50680a55acb2c59639a93aa740a1f.png)
 
@@ -68,11 +69,11 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/e2a788e41e91000aea54383ae7b762df.png)
 
 
-
 # File Queue Documentation
 
 
 ## Search
+
 
 
 1. Click the <em>Search</em> link in the top right corner of the File Queue sidemenu tab
@@ -85,8 +86,8 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/d7ef1b779890294953fdfd6407f2439b.png)
 
 
-
 ## Categories
+
 
 
 1. Click the <em>Categories</em> link in the top right corner
@@ -104,8 +105,8 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/e75f5c175ae10f37b82cd18c193fa997.png)
 
 
-
 ## Mappings
+
 
 
 1. Click the <em>Mappings</em> link in the top right corner
@@ -123,11 +124,11 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/5949f46e950bd28fad5787273297cf2c.png)
 
 
-
 ## Grid Options
 
 
 ### Edit
+
 
 
 1. Click "Edit" button
@@ -140,8 +141,8 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/90561ecf9e399dc4997eb08b7a003f2b.png)
 
 
-
 ### Send
+
 
 
 1. Click "Send" button to send the file to another user or department
@@ -149,22 +150,22 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/0cdf791ba8835da84232ae5fc3382d65.png)
 
 
-2. Select a <em>Recipient</em> to send the file to. Click the "Send" button. 
+2. Select a <em>Recipient</em> to send the file to. Click the "Send" button.
 
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/20fdee72b97b20356c1b38b8f1324b39.png)
-
 
 
 ### Delete/Undelete
 
 
-1. Click "Delete" button or "Undelete" button to change the status of a file item to delete/undelete. Utilize Search to locate any previously deleted files to undelete. 
+
+1. Click "Delete" button or "Undelete" button to change the status of a file item to delete/undelete. Utilize Search to locate any previously deleted files to undelete.
 
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/6a3333bc0739ba012e76be7a27818788.png)
 
 
-
 ### Add Task
+
 
 
 1. Click "Add Task" button to task a department or user within the system
@@ -202,8 +203,8 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/e4fc288d2220d8735ca618345ddbc5f5.png)
 
 
-
 ### Create Batch
+
 
 
 1. Click "Create Batch" button
@@ -216,8 +217,8 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/53623ecfd176f7d743d6d21207e30053.png)
 
 
-
 ### Create Batch & Index
+
 
 
 1. Click "Create Batch & Index" button
@@ -230,8 +231,8 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/48ae29b43b0d84c5cbc08ded46d7dbc9.png)
 
 
-
 ## Open File
+
 
 1. Click <em>Open</em> and the file will open in a new window
 
@@ -245,37 +246,24 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 3. If a user hovers over the summary information, a set of shortcut icons appear. The icons coincide with the grid options that display at the bottom of the File Queue. Here is what each icon does:
 
-    1. <img src="../incoming-file-fax-q-set-up-and-documentation.assets/a94ce4a135b95c802fc3b2e43eedefff.png" />  
-       <strong>Edit</strong>: Edit the Category, Recipient number or subject
+   1. ![](../incoming-file-fax-q-set-up-and-documentation.assets/a94ce4a135b95c802fc3b2e43eedefff.png)<strong>Edit</strong>: Edit the Category, Recipient number or subject
+   2. ![](../incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png)<strong>Send:</strong> Send to a different recipient/department
+   3. ![](../incoming-file-fax-q-set-up-and-documentation.assets/f73d402b49dd47b35c81a8989ff97c9a.png)<strong>Delete:</strong> Delete from the fax queue
+   4. ![](../incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png)<strong>Undelete:</strong> Undelete from the fax queue
+   5. ![](../incoming-file-fax-q-set-up-and-documentation.assets/13db069b0778bb9e3054bd355a1381e0.png)<strong>Task:</strong> Task the document to a department or user within the system
+   6. ![](../incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png)<strong>Create Batch:</strong> Create a batch
+   7. ![](../incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png)<strong>Create & Index:</strong> Create a batch and immediately index the document(s)
 
-    2. <img src="../incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png" />  
-       <strong>Send:</strong> Send to a different recipient/department
-
-    3. <img src="../incoming-file-fax-q-set-up-and-documentation.assets/f73d402b49dd47b35c81a8989ff97c9a.png" />  
-       <strong>Delete:</strong> Delete from the fax queue
-
-    4. <img src="../incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png" />  
-       <strong>Undelete:</strong> Undelete from the fax queue
-
-    5. <img src="../incoming-file-fax-q-set-up-and-documentation.assets/13db069b0778bb9e3054bd355a1381e0.png" />  
-       <strong>Task:</strong> Task the document to a department or user within the system
-
-    6. <img src="../incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png" />  
-       <strong>Create Batch:</strong> Create a batch
-
-    7. <img src="../incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png" />  
-       <strong>Create & Index:</strong> Create a batch and immediately index the document(s)
 
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/72a82d7bf3debd74dc01a31f0d708601.png)
 
 
-
 ## Preview File
+
 
 1. Click <em>Preview</em> and the file will display below
 
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/fe07b6a450346bcd1ef4daa3d92868dc.png)
-
 
 
 

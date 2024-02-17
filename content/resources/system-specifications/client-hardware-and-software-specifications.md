@@ -7,11 +7,11 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Hardware and Software Requirements   
 
-This document outlines the minimum hardware and software requirements to properly load and run the web-based {{% system-name %}} application.
+This document outlines the minimum hardware and software requirements to properly load and run the web-based {{% system-name %}} application.  
 Practice Requirements These hardware requirements apply regardless of practice size. Practices determine the number of locations and devices needed for their workflow, and MIE workflow specialists are available to assist with this process.
 
 ## Windows Workstation
@@ -19,36 +19,44 @@ Practice Requirements These hardware requirements apply regardless of practice s
 
 ### Minimum
 
+
 * Processor: Intel Core i5 (7th generation or newer) or AMD Ryzen 5 (2nd generation or newer)
 * RAM: 4 GB
 * Screen Resolution: 1920 x 1080
 * Operating System: Windows 11 (Pro or Enterprise editions recommended)
+
 
 ## Apple Workstation
 
 
 ### Minimum
 
+
 * Operating System: macOS Catalina (10.15) or later
+
 
 ## Internet Browser
 
 Supported browsers:
+
 * Chrome (latest version)
 * Firefox (latest version)
 * Safari (latest version)
 * Opera (latest version)
 * Microsoft Edge (latest version)
 
+
 ## ActiveX
 
 While most {{% system-name %}} features are accessible through modern browsers, certain functionalities at one time required the use of ActiveX controls. These included:
+
 * Dictation controls
 * Advanced diagnostic viewing of DICOM images
 * Batch indexing of chart contents
+
 Microsoft Edge running in compatibility mode is recommended for users requiring these features.
 
-Since June of 2022 {{% system-name %}} has replaced all functions that required ActiveX with software installed on the workstation or by using hardware interfaces in the browser. 
+Since June of 2022 {{% system-name %}} has replaced all functions that required ActiveX with software installed on the workstation or by using hardware interfaces in the browser.
 
 
 ## Mobile Devices
@@ -57,13 +65,16 @@ Since June of 2022 {{% system-name %}} has replaced all functions that required 
 
 ### Supported mobile platforms:
 
+
 * iOS (latest version)
 * Android (latest version)
 * Supported mobile browsers:
 * WebKit-based browsers (Safari and Chrome)
 * Other compatible browsers may also function correctly
 
+
 ## Additional Requirements:
+
 
 * Network bandwidth: A minimum of 10 Mbps download and upload speed is recommended.
 * Hardware for specific functionalities: Video conferencing may require additional hardware, such as a webcam and microphone.
@@ -71,14 +82,17 @@ Since June of 2022 {{% system-name %}} has replaced all functions that required 
 * Mobile apps: Dedicated mobile apps for accessing {{% system-name %}} may be available. Please check the MIE website for information and download links.
 
 
+
 ## Devices
 
 Peripheral workstation devices used in conjunction with the {{% system-name %}} application include:
+
 * Printers
 * High Speed and ADF Scanners (TWAIN Compliant)
 * Card Scanners (TWAIN Compliant)
 * Dictation Devices (USB Microphones, Foot Pedals and Digital Recorders)
 * Transcription foot pedals
+
 
 
 

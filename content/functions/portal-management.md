@@ -15,7 +15,7 @@ links:
   - 'portal-management/employer-employee-second-portal-setup.md'
   - 'portal-management/messages-from-nmc-user.md'
 source: 'https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -26,16 +26,16 @@ With a variety of online portal options, {{% system-name %}} offers patients and
 
 
 
-[**Patient Portal**](portal-management/patient-portal-first-time-setup-and-configuration.md)
+[**Patient Portal**](portal-management/patient-portal-first-time-setup-and-configuration.md)  
 With the Patient Portal, sometimes used and referred to as an Employee Portal, allows patients and clinicians, as well as employees and occupational health specialists, to communicate freely, anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more!
 
 
-[**Employer Portal**](portal-management/employer-portal-setup.md)
+[**Employer Portal**](portal-management/employer-portal-setup.md)  
 The Employer Portal, often referred to as the Supervisor Portal, Agency Portal, or Leadership Portal, streamlines employee engagement and tracking, offering easy access to due lists, employee work status, and health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, or any additional information custom to the business needs.
 
 
 
-[**NoMoreClipboard**](portal-management/nomoreclipboard.md)
+[**NoMoreClipboard**](portal-management/nomoreclipboard.md)  
 NoMoreClipboard is a patient-owned interoperable personal health record (PHR) that shares data with  {{% system-name %}}  and can be established as a branded patient portal.
 
 
@@ -44,17 +44,18 @@ The Applicant Portal is a web-based platform intended to screen new employees an
 
 
 
-Provider Portal
+Provider Portal  
 The Provide Portal allows physicians to easily access orders, check statuses, and upload results.
 
 
-[**Kiosk**](portal-management/kiosk.md)
+[**Kiosk**](portal-management/kiosk.md)  
 The Kiosk is a portal integration designed with limited functionality and immediate logout for streamlining things such as check-in and intake processes, among others.
 
 
 
 
 ## Website
+
 
 
 

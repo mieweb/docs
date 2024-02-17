@@ -11,7 +11,7 @@ links:
   - 'functions.md'
   - 'rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1C29_huh5LN64dXnkc7pHe_kgNH-dLYb5p8drt872IE0'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Information and resources designed to assist with the general use, setup, and configuration of the {{% system-name %}} system. Additional information is also available for any troubleshooting or training needs.
 
@@ -32,14 +32,12 @@ This documentation is organized into two sections "Programs" and "Functions."  T
 
 ![](diagrams/eh-positioning.svg)
 
-
 {{% /only %}}
+
 {{% only sys="wc" %}}
 {{% system-name %}} offers various solutions for Medical Practices. Check out our clinical and solutions intended to streamline operations, reduce burden, and increase overall quality.  Programs are listed in yellow and some functions are highlighted below each program.
 
-
 ![](./_index.assets/8d791d120b53291e5596808c5ca0190c.png)
-
 {{% /only %}}
 
 

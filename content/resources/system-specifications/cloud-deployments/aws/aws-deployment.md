@@ -17,7 +17,7 @@ links:
   - 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html'
   - 'https://aws.amazon.com/s3/sla/'
 source: 'https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Deployment Strategy
 
@@ -25,10 +25,12 @@ wikigdrive: 'latest'
 
 ## Utilizing AWS Managed Services
 
+
 * [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)
 * [Amazon EC2](https://aws.amazon.com/ec2/)
 * [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
-* [Amazon S3](https://aws.amazon.com/s3/) 
+* [Amazon S3](https://aws.amazon.com/s3/)
+
 
 {{% system-name %}} prioritizes leveraging AWS-managed services such as RDS for databases, S3 for file storage, ElastiCache for performance enhancement, and others. This approach optimizes deployment efficiency, scalability, and maintenance, ensuring uniformity across different AWS environments.
 
@@ -66,7 +68,7 @@ Number of vCPUs: 8
 
 ### Encryption / Protocols
 
-All EC2 instances use encrypted EBS volumes (see [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html)) and utilize TLS 1.3 for client connections.
+All EC2 instances use encrypted EBS volumes (see https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html) and utilize TLS 1.3 for client connections.
 
 
 ## ElastiCache
@@ -105,6 +107,4 @@ In summary, Amazon S3 emerges as a powerhouse for file storage due to its multi-
 
 ## Data Flow Diagram
 
-
 ![](../aws-deployment.assets/aa76d715a968cf87547b343b7d90609e.png)
-

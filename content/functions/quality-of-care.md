@@ -10,7 +10,7 @@ links:
   - 'quality-of-care/measures.md'
   - '../programs/quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures, designed for participation in various tracking and incentive programs available, today. These measures have been developed to help with understanding and excelling at tracking and providing quality care data. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
 
@@ -29,10 +29,7 @@ The {{% system-name %}} system also caters to those practices interested in purs
 
 **Running QRDA Reports**
 
-
-![](../quality-of-care.assets/762b02c4bcd4575b614499ecd8143bf5.png)  
-![](../quality-of-care.assets/e51c5ce3f45f5a5a1eb791c70837794a.png)
-
+![](../quality-of-care.assets/762b02c4bcd4575b614499ecd8143bf5.png)![](../quality-of-care.assets/e51c5ce3f45f5a5a1eb791c70837794a.png)
 
 
 

@@ -7,15 +7,14 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Vital signs not only assist in early detection of potential problems, they aid in the monitoring and maintenance of ongoing medical conditions. The Vital Signs layout allows {{% system-name %}} users to view and add measurements of a patient's essential body functions. Whether it is from within the Vitals chart tab or within the patient's encounter, the body's most basic functions can be measured and recorded, quickly and easily.
 
 ## Adding Vitals to the Patient Encounter
 
-1. To add vitals to a patient's encounter, navigate to the <strong>Objective</strong> section of the encounter, open the <strong>Vitals</strong>  
-    subsection, and click the pencil <img src="../vitals-tracking-and-management.assets/208e44c784d7d7e1fd81d8d02416c996.png" />  
-    icon, located on the right of the header. The Vitals section will expand. Note that previous vitals display at the bottom of the Vitals section.
+
+1. To add vitals to a patient's encounter, navigate to the <strong>Objective</strong> section of the encounter, open the <strong>Vitals</strong> subsection, and click the pencil ![](../vitals-tracking-and-management.assets/208e44c784d7d7e1fd81d8d02416c996.png) icon, located on the right of the header. The Vitals section will expand. Note that previous vitals display at the bottom of the Vitals section.
 
 
 ![](../vitals-tracking-and-management.assets/bde039ea9a499e90648e55c8f2c3c950.png)
@@ -24,10 +23,11 @@ Vital signs not only assist in early detection of potential problems, they aid i
 2. With the Vitals section expanded, simply fill in the appropriate fields and use the dropdowns, adding comments, if necessary.
 3. The observation <strong>Date/Time</strong> will automatically populate today's date. If the information needs changed or made current, utilize the appropriate buttons, located to the right of the entry fields or free text.
 
-{{% tip %}}
 
+{{% tip %}}
 Hover over each icon to identify its function.
 {{% /tip %}}
+
 
 4. When entering measurements, any blood pressure, respiratory, pulse, or temperature values falling out of range will produce an on-screen alert, giving the choice to modify.
 
@@ -41,16 +41,16 @@ Hover over each icon to identify its function.
 ![](../vitals-tracking-and-management.assets/0e3ce917b96e25b43c6eec789b68d940.png)
 
 {{% tip %}}
-
 When adding Height values, {{% system-name %}} will automatically convert into inches, when feet and inches are entered with at least a prime mark (5'5 will convert to 65 inches), after tabbing to the next field.
 {{% /tip %}}
+
 
 6. After all vitals have been entered and comments added where necessary, simply click the <strong>Next</strong> button, and the following section will open, to allow for additional documentation.
 
 ![](../vitals-tracking-and-management.assets/4da942d45e4f29948861e2d500a02b82.png)
 
-
 ## Adding Vitals to the Patient Record
+
 
 1. To add vitals to a patient record, utilize the edit feature from the Vital Signs portlet, on the Patient Summary landing page, or navigate to the <strong>Vital Signs</strong> chart tab of the patient.
 
@@ -76,9 +76,9 @@ When adding Height values, {{% system-name %}} will automatically convert into i
 ![](../vitals-tracking-and-management.assets/b1c37c9b3902d61e3dd11f3faecef792.png)
 
 {{% tip %}}
-
 Entering both a height and a weight will auto-calculate the patient BMI.
 {{% /tip %}}
+
 
 5. Continue entering all necessary vitals. All fields DO NOT need entered in order to continue.
 6. When entering measurements, any blood pressure, respiratory, pulse, or temperature values falling out of range will produce an on-screen alert, giving the choice to modify.
@@ -87,17 +87,14 @@ Entering both a height and a weight will auto-calculate the patient BMI.
 ![](../vitals-tracking-and-management.assets/9b8ef2da22547e2076085c2e96507f28.png)
 
 
-
-   Once all the necessary values have been entered, click the <img src="../vitals-tracking-and-management.assets/c4b4670370433310bc1b2b915966c671.png" />  
-    button.
+7. Once all the necessary values have been entered, click the ![](../vitals-tracking-and-management.assets/c4b4670370433310bc1b2b915966c671.png) button.
 8. Fields that include comments will load with an asterisk ( * ) next to the value. Using the cursor, hover over any value to see details, or hover over a value with an asterisk to see the comments and details.
 
+
 {{% tip %}}
-
-
 When hovering over values, alternative results will display. In this example, inches can also be converted into centimeters. Also, if the user preference is Metric units, this can be configured from My Settings.![](../vitals-tracking-and-management.assets/7435e0269809602fcf3b6ac822801d99.png)
-
 {{% /tip %}}
+
 
 9. Click on any of the vitals to edit. After making the necessary updates or edits, click <strong>Submit</strong>. Otherwise, if the vital sign has been entered in error or entered incorrectly, click <strong>Delete</strong>.
 
@@ -111,13 +108,15 @@ When hovering over values, alternative results will display. In this example, in
 ![](../vitals-tracking-and-management.assets/5155905feddd7767f1dd704387829302.png)
 
 {{% note %}}
-
 Entering Height and Weight on the flowsheet layout DOES NOT auto-calculate the BMI.
 {{% /note %}}
 
+
 11. Once all the patient's vitals have been added, click <strong>Submit</strong>.
 
+
 ## View Vital Signs/Observations
+
 
 1. Either navigate to the <strong>E-Chart</strong> sidemenu and search for and select the necessary patient, or utilize the <strong>Chart Search</strong> portlet.
 
@@ -132,6 +131,7 @@ Entering Height and Weight on the flowsheet layout DOES NOT auto-calculate the B
 
 
 3. After selecting the Vital Signs chart tab, the patient's previous vitals will display in table format. Reference <strong>Table 1.1</strong> for the headings and their meanings.
+
 
 **TABLE 1.1**
 
@@ -210,14 +210,15 @@ Entering Height and Weight on the flowsheet layout DOES NOT auto-calculate the B
 </tr>
 
 </table>
-{{% info %}}
 
+{{% info %}}
 Depending on the organization's needs, the Vital Signs chart tab layout may vary, displaying fewer or more fields, as necessary.
 {{% /info %}}
-{{% note %}}
 
+{{% note %}}
 Vital Signs are a type of observation which can be displayed as a formatted flowsheet or viewed from within the Observations layout of the Medical Record chart tab.
 {{% /note %}}
+
 
 4. To open the Observations Search and view a date range of vitals, or to see specific vital signs plotted out or in a flowsheet format, click <strong>List Observations</strong>, above the upper-left corner of the table.
 
@@ -235,14 +236,11 @@ Vital Signs are a type of observation which can be displayed as a formatted flow
 
 ![](../vitals-tracking-and-management.assets/809ba3e09bb1c82e567b49c1631411de.png)
 
-
 ## Device Interface
 
 {{% system-name %}} has the capability to interface with a vitals device such as Welch Allyn Spot Vital Signs Monitor.
-1. With an established interface, there will be a <strong>Vitals From</strong> section within the Vital Signs chart tab.
 
-   Simply click the <img src="../vitals-tracking-and-management.assets/b87418014acb0d791426e1d6e4b041f2.png" />  
-    button, and the vitals will import and store within the {{% system-name %}} system. Otherwise, click the <strong>Manual</strong> link, and the vitals can be entered manually, as needed.
+1. With an established interface, there will be a <strong>Vitals From</strong> section within the Vital Signs chart tab.
+2. Simply click the ![](../vitals-tracking-and-management.assets/b87418014acb0d791426e1d6e4b041f2.png) button, and the vitals will import and store within the {{% system-name %}} system. Otherwise, click the <strong>Manual</strong> link, and the vitals can be entered manually, as needed.
 
 ![](../vitals-tracking-and-management.assets/1bd3e72eaec1ee787a2cff6331ebd9ba.png)
-

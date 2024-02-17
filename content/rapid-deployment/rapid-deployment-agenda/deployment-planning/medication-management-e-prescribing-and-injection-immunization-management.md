@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-medication-management-electronic-prescribing.md'
   - '../../review-sessions/review-session-injection-immunization-management.md'
 source: 'https://drive.google.com/open?id=1-lISyynsVEL9vuPGAfFFS021RJmb6d37Y-yiasjxLf4'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Purpose
 
@@ -21,35 +21,113 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
+
 * Medication Management/E-Prescribing Demonstration
-  * Overview
+
+
+   * Overview
+
+
+
+
       * Medication Management
+
+
+
+
+
+
          * First DataBank Integration
          * Meds Manager
          * E-Rx Chart Tab
          * Medication Libraries & Remembered Entries
+
+
+
+
+
+
       * System Configuration
+
+
+
+
+
+
          * Internal Validation
          * Enrolling Providers in SureScripts
+
+
+
+
+
+
+
+
             * Enroll Providers in EPCS (optional)
+
+
+
+
+
+
+
+
          * SureScripts Advanced/Drug Eligibility (optional)
          * Add Providers to First Databank Quarterly Report
          * Travel Kits
+
+
+
+
 * Injection/Immunization Management Demonstration
-  * Overview
+
+
+   * Overview
+
+
+
+
       * MAR/Injections Chart Tab
+
+
+
+
+
+
          * Documenting Links
          * Summary List Categories
          * Visit Encounter
          * VIS Handouts
          * Mass Injection Program
+
+
+
+
+
+
       * System Configuration
+
+
+
+
+
+
          * Injection Editor
          * System Settings
          * Mass Injection Program
          * Interface to Registry
          * Security Permissions
+
+
+
+
+
+
       * Resources
+
+
+
 
 ## Afterward
 

@@ -7,24 +7,20 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Though MIE will restrict reports for clients, upon request, those users with System Report security permissions may restrict access to reports accessible in the {{% system-name %}} system, via the **System Report** editor. Restricting reports permits ONLY *allowed users* and/or *realms* permission to run/access those reports.
 
 {{% note %}}
-
 If the user has the **Limit to Restricted Items** security setting set to **Yes**, then the user *will not* have access to reports that are unrestricted (i.e., reports that do not have the Restricted box checked in the System Report editor).
 {{% /note %}}
 
 ## How to Restrict Reports
 
 MIE programs and names all layouts. If a user has the **Manage Layouts** security preference set to **Yes**, that user will be able to access the layout name directly from the report needing restricted. In order to restrict a report, the name of the system report layout to which the report is pointed is necessary. 
-
 ![](../to-restrict-report-access.assets/dd2b2ae14fad2a2f34e2a72b7fa51d53.png)
 
-1. To begin, go to the Reports sidemenu and locate the report needing restricted. Click the <strong>Show Rendered Layout Information</strong>
- (Inline) icon (<img src="../to-restrict-report-access.assets/f6869e76958d595ab4029fa856b1906c.png" />  
-   ) in the upper-right corner of the window.
+1. To begin, go to the Reports sidemenu and locate the report needing restricted. Click the <strong>Show Rendered Layout Information</strong> (Inline) icon (![](../to-restrict-report-access.assets/f6869e76958d595ab4029fa856b1906c.png)) in the upper-right corner of the window.
 
 
 ![](../to-restrict-report-access.assets/89780961e06725caa0b25c26965beefe.png)
@@ -50,9 +46,11 @@ MIE programs and names all layouts. If a user has the **Manage Layouts** secur
 
 5. With the name of the report (e.g., PatientReferrals) acquired, close the window and navigate to the <strong>Control Panel</strong>.
 
+
 {{% warning %}}  
 It is very important not to type or make edits or save changes to the system report layout. Any programming changes can cause the system report to break.  
 {{% /warning %}}
+
 
 6. When clicking the Control Panel sidemenu, users may be warned that they are navigating away from the page. Click to continue.
 
@@ -87,6 +85,7 @@ It is very important not to type or make edits or save changes to the system rep
 It is very important not to type or make edits to the SQL. Any programming changes can cause the system report to break. Only utilize this page to restrict the report and designate allowed users/realms.  
 {{% /warning %}}
 
+
 11. With the Restricted box checked, begin typing the user/realm in the appropriate field and select. A restricted report can be allowed for entire realms or individual or groups of users, as appropriate. Populate as many as necessary. Any users or realms not listed will be restricted.
 
 
@@ -96,6 +95,7 @@ It is very important not to type or make edits to the SQL. Any programming chang
 To remove an allowed user/realm, simply highlight the name of the user/realm and click the **Remove** button.  
 {{% /tip %}}
 
+
 12. When all Allowed Users/Realms are added, simply click the <strong>Save</strong> button.
 
 
@@ -104,5 +104,4 @@ To remove an allowed user/realm, simply highlight the name of the user/realm and
 
 13. When a user is restricted from a report, they will be presented with the following message:
 
-    <img src="../to-restrict-report-access.assets/9c289b9a6770398d0ea5df2b1189ad04.png" />
-
+    ![](../to-restrict-report-access.assets/9c289b9a6770398d0ea5df2b1189ad04.png)

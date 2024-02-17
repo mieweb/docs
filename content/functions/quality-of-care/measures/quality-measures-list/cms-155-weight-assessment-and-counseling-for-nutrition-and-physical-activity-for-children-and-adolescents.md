@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms155v10'
 source: 'https://drive.google.com/open?id=16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -122,9 +122,13 @@ wikigdrive: 'latest'
 
 
 
+
+
 ### Original Visit Encounter
 
+
 2.  Height, weight and BMI observations will need to be documented for the patient within the Visit encounter.  If the patient's BMI is out of range, a warning message will display asking if a dietary consult order should be created.  User should click Ok to have the Dietary Consult order ordered within the Plan section of the Visit encounter.  An order item of Physical Activity consult should also be ordered as well.
+
 
 ## Evidence
 
@@ -229,6 +233,6 @@ wikigdrive: 'latest'
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS155](https://ecqi.healthit.gov/ecqm/ep/2022/cms155v10)

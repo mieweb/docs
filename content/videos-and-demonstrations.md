@@ -1,9 +1,9 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2024-01-21T16:47:58.334Z'
-version: 580
-lastAuthor: 'Doug Horner'
+date: '2024-01-31T16:52:33.847Z'
+version: 601
+lastAuthor: 'Ashley Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.enterprisehealth.com/blog/video-a-complete-employee-health-solution-enterprise-health'
@@ -19,9 +19,9 @@ links:
   - 'https://www.enterprisehealth.com/blog/video-osha-recordkeeping-and-reporting-software-demo'
   - 'https://www.youtube.com/watch?v=__R9twSkS2A'
 source: 'https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-All {{% system-name %}} training videos and demonstrations can be found below. Peruse the various overviews, and spend some time with the in-depth looks at the available functionality within the product, or even get acquainted with some of the more common workflows used. 
+ All {{% system-name %}} training videos and demonstrations can be found below. Peruse the various overviews, and spend some time with the in-depth looks at the available functionality within the product, or even get acquainted with some of the more common workflows used. 
 
 First, be sure to check out the vision and core concepts of the {{% system-name %}} system, as presented by Doug Horner.
 
@@ -34,13 +34,16 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 ## Meet the Product
 
+
 * [A Complete Employee Health Solution](https://www.enterprisehealth.com/blog/video-a-complete-employee-health-solution-enterprise-health)
 * [Welcome To Enterprise Health](https://www.enterprisehealth.com/blog/video-welcome-to-enterprise-health-enterprise-health)
 * [Intro to Medical Surveillance](https://www.enterprisehealth.com/blog/video-intro-to-medical-surveillance-enterprise-health)
 * [Intro to Occupational Injury and Illness](https://www.enterprisehealth.com/blog/video-intro-to-occupational-injury-and-illness)
 * [Intro to Clinical Care](https://www.enterprisehealth.com/blog/video-employer-provided-primary-care-software-enterprise-health)
 
+
 ## Product Demonstrations
+
 
 * [Health Surveillance](https://www.enterprisehealth.com/blog/video-employee-health-surveillance-software-demo-enterprise-health)
 * [Clinical Care](https://www.enterprisehealth.com/blog/video-clinical-care-software-demo)
@@ -52,14 +55,11 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 {{% /column %}}
 
 {{% column %}}
-
-
 ![](../videos-and-demonstrations.assets/e6f9431ad83fc70ead4f3905698728d0.png)
-
 {{% /column %}}
 {{% /section %}}
-
 {{% /only %}}
+
 {{% only sys="wc" type="INLINE" %}}
 
 ### Build a Free Trial
@@ -88,7 +88,6 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% gvideo  id="17CXSdLmZbLIDXyoYZkuB091pE3vUnPiP" %}}
 
-
 {{% /only %}}
 
 
@@ -149,8 +148,8 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 ### Quality, Wellness Measures
 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
-
 {{% /only %}}
+
 {{% only sys="wc" type="INLINE" %}}
 
 
@@ -197,8 +196,7 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 ### Quality, Wellness Measures
 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
-
 {{% /only %}}
 
-[Webchart Generative AI](https://www.youtube.com/watch?v=__R9twSkS2A)
+[Webchart Generative AI](https://youtube.be/__R9twSkS2A)
 

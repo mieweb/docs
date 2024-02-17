@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## CGI Vars Explained
 
@@ -70,7 +70,7 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 
 </table>
 
-## **Sample Webform Post**
+## Sample Webform Post
 
 `  
 `<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">  
@@ -87,7 +87,7 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 
 ```
 
-## **Sample Bash Script**
+## Sample Bash Script
 
 
 ```
@@ -115,6 +115,6 @@ curl -i \
 
 ```
 
-## **Supported Message Types**
+## Supported Message Types
 
 [Accepted HL7 Message types](#gjdgxs)

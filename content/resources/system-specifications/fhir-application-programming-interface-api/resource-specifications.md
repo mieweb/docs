@@ -53,29 +53,29 @@ links:
   - 'http://hl7.org/fhir/R4/provenance.html'
   - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 # Supported Resources
 
-[AllergyIntolerance](#allergyintolerance)
-[CarePlan](#careplan)
-[CareTeam](#careteam)
-[Condition](#condition)
-[Device](#device)
-[DiagnosticReport](#diagnosticreport)
-[DocumentReference](#documentreference)
-[Encounter](#encounter)
-[Goal](#goal)
-[Immunization](#immunization)
-[Location](#location)
-[Medication](#medication)
-[MedicationRequest](#medicationrequest)
-[Observation](#observation)
-[Organization](#organization)
-[Patient](#patient)
-[Practitioner](#practitioner)
-[PractitionerRole](#practitionerrole)
-[Procedure](#procedure)
+[AllergyIntolerance](#allergyintolerance)  
+[CarePlan](#careplan)  
+[CareTeam](#careteam)  
+[Condition](#condition)  
+[Device](#device)  
+[DiagnosticReport](#diagnosticreport)  
+[DocumentReference](#documentreference)  
+[Encounter](#encounter)  
+[Goal](#goal)  
+[Immunization](#immunization)  
+[Location](#location)  
+[Medication](#medication)  
+[MedicationRequest](#medicationrequest)  
+[Observation](#observation)  
+[Organization](#organization)  
+[Patient](#patient)  
+[Practitioner](#practitioner)  
+[PractitionerRole](#practitionerrole)  
+[Procedure](#procedure)  
 [Provenance](#provenance)
 
 # AllergyIntolerance
@@ -83,13 +83,13 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 ## Description
 
-The AllergyIntolerance resource returns data regarding an undesirable, physiological response associated with exposure to a given substance unique to a single patient.
+The AllergyIntolerance resource returns data regarding an undesirable, physiological response associated with exposure to a given substance unique to a single patient.  
 A list of allergies for a specific patient can be returned when searching by that patient.
 
 ## Standards
 
-**FHIR Version:** [R4 AllergyIntolerance](http://hl7.org/fhir/R4/allergyintolerance.html)
-**Data Version:** USCDI v1
+**FHIR Version:** [R4 AllergyIntolerance](http://hl7.org/fhir/R4/allergyintolerance.html)  
+**Data Version:** USCDI v1  
 **Supported Profiles:** [US Core STU3 AllergyIntolerance](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-allergyintolerance.html)
 
 
@@ -235,6 +235,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -478,6 +479,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -514,6 +516,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -688,6 +691,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -753,6 +757,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -973,6 +978,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -1045,6 +1051,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -1262,6 +1269,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -1311,6 +1319,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -1540,6 +1549,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -1602,6 +1612,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -1824,6 +1835,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -1893,6 +1905,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -2115,6 +2128,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -2213,6 +2227,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -2388,6 +2403,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -2426,6 +2442,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -2647,6 +2664,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -2683,6 +2701,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -2858,6 +2877,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -2888,6 +2908,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -3020,6 +3041,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -3044,6 +3066,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -3266,6 +3289,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -3319,6 +3343,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -3551,6 +3576,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -3627,6 +3653,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -3812,6 +3839,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -3851,6 +3879,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -4087,6 +4116,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -4259,6 +4289,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -4448,6 +4479,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -4518,6 +4550,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -4692,6 +4725,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -4735,6 +4769,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -4907,6 +4942,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -4935,6 +4971,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 
@@ -5086,6 +5123,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 
 ```
 {{% /pre %}}
+
 ## Response
 
 {{% pre language="json" theme="RDark" %}}
@@ -5125,6 +5163,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 
 ```
 {{% /pre %}}
+
 ## Error Handling
 
 

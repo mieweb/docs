@@ -14,22 +14,26 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'about:blank'
 source: 'https://drive.google.com/open?id=1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## MIPS Transition Year 2017
 
 You asked, and we listened. MIE wants to put your minds at rest on MACRA, the Quality Payment Program (QPP), and any potential penalties that may be delivered in calendar year (CY) 2019, under MIPS. As you may know, CMS puts out a great deal of information, and sometimes that information can be difficult to navigate. The last thing you need is more to worry about, so let us address your concerns as concisely and simply as possible and give back a little more time to your day.  
 The introductory year of the QPP has been formulated as a Transition Year (TY 2017), with a *Pick-Your-Pace* design, for MIPS participants. The performance threshold has been lowered in such a way that *minimal participation* can avoid a downward adjustment in CY 2019. Here is **what you need to do**:
+
 1. Confirm [MIPS Eligibility](https://qpp.cms.gov/learn/eligibility).
 2. Pick your pace.
 3. Enroll in WebChart.
 
+
 ### Proposed Changes for 2018
 
 As of June 21st, CMS announced their intention to streamline and reduce clinician burden while participating in the QPP, for CY 2018. The goal is to continue into next year using what works, modifying the QPP requirements, based on stakeholder feedback. There are several proposed items to consider. For example:
+
 * Increasing the Low-Volume Threshold to exempt more small practices and currently eligible clinicians in rural or Health Professional Shortage areas.
 * Awarding bonus points to users exclusively on 2015 Edition CEHRT.
 * Potential bonus points awarded for caring for complex patients.
+
 Take a moment and review the [Proposed Rule for Quality Payment Program Year 2](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/Value-Based-Programs/MACRA-MIPS-and-APMs/Proposed-rule-fact-sheet.pdf), which is currently in its 60-day comment period, until August 18th. MIE will continue to follow this Proposed Rule and review the Final Rule, when it comes available.
 
 ### Pick Your Pace
@@ -38,9 +42,7 @@ For this year, there are four paths under the *Pick-Your-Pace* design that MIE
 
 #### Do Nothing
 
-
 ![](../mips-pick-your-pace.assets/3796ae62e7b11530a4fb4aad738b9a5c.png)
-
 This is the most basic and easiest path to understand; do nothing while eligible, and CY 2019 will come with a **negative four percent (-4%) downward payment adjustment**.
 
 #### Avoid the Penalty
@@ -109,6 +111,7 @@ This more aggressive pace requires full participation and is excellent for the c
 ### Enroll In WebChart
 
 If you are eligible and planning to get ahead of the game, opt into MIPS, now! Keep in mind that HIPAA requirements, as well as the Advancing Care Information category, call for eligible clinicians to provide a Security Risk Analysis, as a standard for CEHRT use. To be successful, simply perform your Security Risk Analysis, follow these easy steps, and MIE will do the rest:
+
 1. Click <em>Opt-in</em> from within the Meaningful Use portlet, on the landing page.
 2. After the Opt-in page loads, change the Enrollment Year to <strong>2017</strong>. The Start and End Dates will refresh.
 3. Select any and all Quality measures you are interested in tracking.
@@ -116,7 +119,6 @@ If you are eligible and planning to get ahead of the game, opt into MIPS, now! K
 
 
 ![](../mips-pick-your-pace.assets/d1e8ec479baa3ec81eaf3b173c006423.png)
-
 
 
 #### Questions

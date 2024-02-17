@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 The following is referring to an OMI Audiometric Data Management Software ASW2004 system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 
@@ -15,25 +15,26 @@ The following is referring to an OMI Audiometric Data Management Software ASW200
 
 {{% note %}}
 First ensure that a calibration has been performed for the day. If one has not been performed you will receive this pop up box:
-
 ![](../device-interface-audio-system.assets/be8e8a7d0db7afd45ba6f07add84c180.png)
-
 {{% /note %}}
+
 
 1. From the audiogram computer select OMI Audio Version 3 or if it has been renamed "Audio" shortcut from the desktop.
 2. OMI Software will ask for user initials. Initials are not required to proceed
 
 ![](../device-interface-audio-system.assets/c921b70eb3e92105f47c136392b1ff55.png)
-
-
 ![](../device-interface-audio-system.assets/4362b2cefa129252f8e517aa8f783413.png)
 
 1. Put your initials in and select ok and then select cancel past the error.
 2. You can also select "Cancel" on the Operator screen without putting in initials and proceed.
+
 1. Performing a Calibration:
+
+
    1. Run Calibration on the Audiometer using Serial Number of Device
    2. When calibration is complete in OMI, select Receive Calibration on the main screen.
    3. The following screen will appear:
+
 
 ![](../device-interface-audio-system.assets/46fe71113c3313da6eec05c9eedb6bbf.png)
 
@@ -47,22 +48,35 @@ First ensure that a calibration has been performed for the day. If one has not b
 ![](../device-interface-audio-system.assets/7e520b2628f2bc56b4fe557939446f11.png)
 
 1. Performing an Audio Test:
+
+
    1. Choose Select/Add Client
    2. Choose correct patient from list and click the use selected match button; or
    3. Choose New Client and enter patient information into the database and select ok.
-1. Next step is to perform the audiogram on the patient.
+
+
+2. Next step is to perform the audiogram on the patient.
+
+
    1. <strong>Most do not use the social security number</strong>, and instead use the patient's MR# number when entering info into audiometer box.
-1. Once audiogram is complete choose Receive Audiogram in OMI.
+
+
+3. Once audiogram is complete choose Receive Audiogram in OMI.
+
+
    1. Verify that the correct patient is chosen.
    2. Select receive data (<strong>occasionally this box may need to be clicked a second time</strong>)
    3. You may receive a pop up regarding the ID used to perform the test and it will ask about adding zero's to the ID number. Select YES.
    4. The data will upload from the audiometer to OMI (See Example)
 
+
 ![](../device-interface-audio-system.assets/9b1a5437b629b0b5c04a9d9bb02ec631.png)
 
 1. Select "Save" and then "Exit"
 
+
 ## Exporting Audio Files
+
 
 1. In OMI choose the Copy Files dropdown and choose Export ASCII data.
 
@@ -84,8 +98,6 @@ First ensure that a calibration has been performed for the day. If one has not b
 1. At the top of this box the folder is currently showing Audiometry 2003. This should be changed to "-LCC Audio Results" to navigate to the correct folder select the drop down arrow, select program files and then select "-LCC Audio Results". This is the folder where the results will be exported.
 
 ![](../device-interface-audio-system.assets/d812db7507fb643f0b371e2c662f5b01.png)
-
-
 ![](../device-interface-audio-system.assets/eaa66d7652b73948604e97486282585c.png)
 
 1. If you would like you can add the patients MR# ID to the filename by clicking in the File name box and renaming the file and select save. (Please note that the file extension must by .txt.) See below for example.
@@ -98,7 +110,9 @@ First ensure that a calibration has been performed for the day. If one has not b
 
 1. Close out of OMI software.
 
+
 ## Importing Audio Files
+
 
 1. Open {{% system-name %}} (if not already open) and choose correct patient.
 2. Choose correct encounter and make sure there is an audiogram procedure on the due list or in office/tests procedures section; or you may need to add an encounter and check the due list for the audiogram procedure. If there is no audiogram procedure, you will need to add it to the due list.
@@ -114,12 +128,20 @@ First ensure that a calibration has been performed for the day. If one has not b
 2. Scroll down to the "filebox".
 
 ![](../device-interface-audio-system.assets/345a30def8334aa35f2ca8e06d32a8ea.png)
-
 Make sure the audiogram result files are showing up in the file box.
+
 1. If they are not, you may need to change the "smartcard" to point to the audiogram results.
+
+
    1. Changing smartcard:
+
+
+
+
       1. Right click on "filebox"
       2. Choose set smartcard folder
+
+
 
 ![](../device-interface-audio-system.assets/2b683f2a7d8ec60a6ff787c8fada7df3.png)
 
@@ -133,11 +155,16 @@ Make sure the audiogram result files are showing up in the file box.
 
 1. Choose the correct audiogram file for your patient.
 2. Click the <em>upload file</em> button
+
+
    1. If you have no additional comments, Select ok on the first box stating no comment has been entered, upload anyway.
    2. Select <strong>YES</strong> on the second box asking if you want to delete as the folder should remain empty and only the current results should be showing. By deleting after each upload this will keep the folder clean and remove any confusion of selecting the incorrect file.
-1. Audiogram results should populate in the Audio Tool.
-2. You can answer the additional questions via that button also at any time and they will save when you save the encounter.
-3. If working in an encounter, click the save button to save audiogram results to patients file.
+
+
+3. Audiogram results should populate in the Audio Tool.
+4. You can answer the additional questions via that button also at any time and they will save when you save the encounter.
+5. If working in an encounter, click the save button to save audiogram results to patients file.
+
 
 You will see the audio file results in the encounter and also in the Audio chart tab of the patient's chart. You can view the document, use the
 _

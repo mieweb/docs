@@ -8,31 +8,32 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/mie-ca2.crt'
 source: 'https://drive.google.com/open?id=1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 For SSL encrypted web pages, a certificate is used. MIE has created it's own Certificate Authority (CA) for generating certificates. In order to NOT get a warning, you need to install the CA into your web browsers.  
 The CA can be found here: [CA](http://www.mieweb.com/mie-ca2.crt)  
 This method varies, depending on the browser you are using:
 
-## **Internet Explorer**
+## Internet Explorer
 
 Click the above link -> Open -> "Install Certificate" -> Next -> Next -> Finish -> [Verify that Thumbprint(sha1) is "46 a2 53 95 5c 65 bf c0 67 c2 58 bb 03 d2 17 d5 ba c6 16 46"] -> Yes.
 
 
-## **Firefox**
+## Firefox
 
 Click the above link -> Check off all three boxes (Trust this CA...) -> OK
 
 
-## **Opera**
+## Opera
 
 Click the above link -> Install -> OK
 
 
-## **Additional Notes about the Installation Process**
+## Additional Notes about the Installation Process
 
 For the sake of simplicity these instructions only apply to IE on a Windows PC.  
 Before we begin consider skipping to step 44 and request that someone from Tech Support properly install this certificate for you.
+
 1. Access the CA from here: [CA](http://www.mieweb.com/mie-ca2.crt)
 2. Click on the CA link and then click Open
 3. Once it opens the Certificate click "Install Certificate…"

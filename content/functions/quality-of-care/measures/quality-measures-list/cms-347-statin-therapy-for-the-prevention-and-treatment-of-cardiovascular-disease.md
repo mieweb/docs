@@ -11,12 +11,12 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v5&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms347v5'
 source: 'https://drive.google.com/open?id=1frOmVEMtMqMmrc_ztH4hM1mlEYzvgyrNU4qZZjuW9LU'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS347v3](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v3&showresulttype=Measure) (2020)
-[CMS347v4](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v4&showresulttype=Measure) (2021)
+[CMS347v3](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v3&showresulttype=Measure) (2020)  
+[CMS347v4](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v4&showresulttype=Measure) (2021)  
 [CMS347v5](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v5&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -119,6 +119,8 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 ### New UI Visit Encounter (valid RC202109+)
+
+
 
 
 

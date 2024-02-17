@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 The optional Industrial Hygiene (IH) module includes documentation of annual IH monitoring plans, scheduling due date and tracking of monitoring activities. It includes documenting monitoring field record information, as well as IH monitoring data details.
 
@@ -16,6 +16,7 @@ The IH module incorporates the ability to import IH lab data directly into the s
 The {{% system-name %}} system does not include a safety module, which normally includes tracking training and scheduling for the next training needed. The requirements of safety related to respirator fit testing and compliance is managed in {{% system-name %}} and is part of our Medical Surveillance module.  {{% system-name %}} does not currently have a root cause investigation encounter; however, this is currently being developed. Many customers interface incident data from {{% system-name %}} to their safety system.
 
 Items that are pending development are listed below. Sections 3-6 are complete. All others are under development. We do not plan to offer lab chemical inventory as a module, at this time.
+
 
 1. Initial Site Survey - first review of new facility or work process
 2. Risk Assessment

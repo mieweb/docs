@@ -8,21 +8,36 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1-tfONkRUSjg4mxAfE1pcRYwgRK2t1LN-Vw9qorSz9U8'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. To find transactions by payee:
-   1. In the <em>Ledger Search</em> section, in the <em>Payee</em>  
-       field, enter some or all of the name of the payee.<img src="../finding-ledger-transactions.assets/835abc25f14a89c88903f1b0841516f5.png" />
 
-1. To find transactions entered after a date:
+
+   1. In the <em>Ledger Search</em> section, in the <em>Payee</em> field, enter some or all of the name of the payee.![](../finding-ledger-transactions.assets/835abc25f14a89c88903f1b0841516f5.png)
+
+
+3. To find transactions entered after a date:
+
+
    1. In the <em>Ledger Search</em> section, in the leftmost series of three fields, enter the month number, date, and year or select the <strong>Calendar</strong> button to choose a month, date, and year.
-1. To find transactions during a range of dates:
+
+
+4. To find transactions during a range of dates:
+
+
    1. In the <em>Ledger Search</em> section, in the leftmost series of three fields, enter the month number, date, and year or select the <strong>Calendar</strong> button to choose a month, date, and year.
    2. In the rightmost series of three fields, enter the month number, date, and year or select the <strong>Calendar</strong> button to choose a month, date, and year or select the <strong>Today</strong> button to enter today's month, date, and year automatically. 
-1. To find transactions entered before a date:
+
+
+5. To find transactions entered before a date:
+
+
    1. In the rightmost series of three fields, enter the month number, date, and year or select the <strong>Calendar</strong> button to choose a month, date, and year or select the <strong>Today</strong> button to enter today's month, date, and year automatically. 
-1. To find transactions by payee name and any combination of after, before, or during a date range, make entries in the appropriate fields according to steps 2 through 5.
-2. Select <strong>Search</strong>. The system displays matching transactions. If no transactions appear, no transaction matched all of the criteria.
+
+
+6. To find transactions by payee name and any combination of after, before, or during a date range, make entries in the appropriate fields according to steps 2 through 5.
+7. Select <strong>Search</strong>. The system displays matching transactions. If no transactions appear, no transaction matched all of the criteria.
+
 
 

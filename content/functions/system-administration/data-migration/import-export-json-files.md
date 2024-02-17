@@ -7,7 +7,7 @@ lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
                                                                 The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the *System Configurator*.  
 Users with proper permissions can create JSON files of the following sections/modules:
@@ -82,6 +82,7 @@ Users with proper permissions can create JSON files of the following sections/mo
 ## Creating a JSON File for Export
 
 In order to create a JSON file for export, the logged-in user must have the appropriate permissions to access and utilize the System Configuration tab of the Control Panel. Once access has been granted, the user may perform the following:
+
 1. From the export database (i.e., the database from which the JSON file is being exported), navigate to the <strong>Control Panel</strong>.
 2. Go to the <strong>System Configuration</strong> tab.
 
@@ -111,6 +112,7 @@ In order to create a JSON file for export, the logged-in user must have the appr
 For larger lists, use Ctrl + F to find specific words/phrases/spellings in the page.  
 {{% /tip %}}
 
+
 7. When finished selecting all of the items for export, go to the bottom of the page and provide a meaningful name for the export file and click the <strong>Export</strong> button.
 
 
@@ -119,30 +121,32 @@ For larger lists, use Ctrl + F to find specific words/phrases/spellings in the p
 
 8. A message will display at the bottom of the screen, prompting the user to Save the file, or Cancel. Select <strong>Save</strong> to create the file for export. 
 
+
 If the file has been saved, another message will display at the bottom of the screen allowing the user to open the file, or containing folder, once the file finishes saving.
 
 {{% note %}}
-
 The user who creates the file for export must test the file in another system to ensure the correct data is contained therein. Testing the import file should always be done prior to adding the file to the work ticket.
 {{% /note %}}
 
 ## Import a JSON File
 
 Once the necessary JSON file has been created and exported from the {{% system-name %}} system, any user with the proper security permissions may import the file to the new, or alternative, system. The JSON file should be copied to the computer; however, the file does not have to be created on the computer. For this reason, the file may be delivered via a Redmine ticket, sent via email, available on a share drive, etc.
-{{% warning %}}
 
+{{% warning %}}
 There can be issues if exporting and importing to different database versions. Always check with the Subject Matter Expert, if unsure.
 {{% /warning %}}
+
 1. From the import database (i.e., the database into which the JSON file is being imported), navigate to the <strong>Control Panel</strong>.
 2. Go to the <strong>System Configuration</strong> tab.
 3. Click the <strong>Import</strong> link in the upper-right corner of the page.
 
 
 
-   <img src="../import-export-json-files.assets/aacadf762f1adf65587827014ca27b7b.png" />
+   ![](../import-export-json-files.assets/aacadf762f1adf65587827014ca27b7b.png)
 
 
 There are several import options available. The following instructions will focus on the process for importing a saved file.
+
 1. After navigating to the Import screen, click the <strong>Choose File</strong> button and browse to the JSON file.
 
 

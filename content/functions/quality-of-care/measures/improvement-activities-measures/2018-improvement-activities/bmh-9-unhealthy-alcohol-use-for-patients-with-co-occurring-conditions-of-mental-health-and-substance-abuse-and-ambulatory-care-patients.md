@@ -10,13 +10,13 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Ptw6NFGpsWczzpbsXAqO18N3cRW__-ySpKuY4tJiye4'
-wikigdrive: '29e351919e760c8794db0d9a212ff8b34e4d345c'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
 
 
-**Activity Weighting**: High
+**Activity Weighting**: High  
 **Subcategory Name**: Behavior and Mental Health  
 **Description**: Individual MIPS eligible clinicians or groups must regularly engage in integrated prevention and treatment interventions, including screening and brief counseling (for example: NQF #2152) for patients with co-occurring conditions of mental health and substance abuse. MIPS eligible clinicians would attest that 60 percent for the CY 2018 Quality Payment Program performance period, and 75 percent beginning in the 2019 performance period, of their ambulatory care patients are screened for unhealthy alcohol use.
 
@@ -29,8 +29,8 @@ Report from certified EHR, QCDR, clinical registry or documentation from medical
 
 
 
-Resources
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
+Resources  
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
 [2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

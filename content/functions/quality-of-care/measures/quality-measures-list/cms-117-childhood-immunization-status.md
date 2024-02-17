@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms117v10'
 source: 'https://drive.google.com/open?id=1MR0uCXDGLsP0rlSwgFdVRKCohi_d5Sfy_55wV1xV7nc'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -110,8 +110,15 @@ Ensure all children turning 2 years of age during the measurement period have ha
 
 ### Workflow
 
+
 1. <strong>Option 1: Record the Receipt of Immunizations (Historical)</strong>
+
+
    1. <strong>Within Encounter</strong>
+
+
+
+
       1. Open the Immunizations/Injections section of the encounter
       2. Using the Description autocomplete, begin typing the name of the immunizations
       3. Add the Date and any Reactions/Comments
@@ -119,13 +126,30 @@ Ensure all children turning 2 years of age during the measurement period have ha
       5. Click the Next button, or close the section
       6. Continue documenting the encounter as needed
       7. When completed, Close and Archive the encounter.
-   1. <strong>Outside Encounter</strong>
+
+
+
+
+   2. <strong>Outside Encounter</strong>
+
+
+
+
       1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
       2. Click the Quick Add link in the upper-right of the page
       3. Record any historical injections
       4. Click the Submit button
-1. <strong>Option 2: Document the Administration of the Vaccines</strong>
+
+
+
+2. <strong>Option 2: Document the Administration of the Vaccines</strong>
+
+
    1. <strong>Within Encounter</strong>
+
+
+
+
       1. Open the Tests and Procedures section of the encounter
       2. Using the autocomplete, begin typing the name of the vaccination being administered
       3. Click the Add to Exam button
@@ -133,11 +157,22 @@ Ensure all children turning 2 years of age during the measurement period have ha
       5. Click the Next button, or close the section
       6. Continue documenting the encounter as needed
       7. When completed, Close and Archive the encounter
-   1. <strong>Outside Encounter</strong>
+
+
+
+
+   2. <strong>Outside Encounter</strong>
+
+
+
+
       1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
       2. Click the Add Imm/Inj link in the upper-right of the page
       3. Fill in all required fields
       4. Click the Submit button
+
+
+
 
 ## Evidence
 
@@ -459,6 +494,6 @@ Ensure all children turning 2 years of age during the measurement period have ha
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS117](https://ecqi.healthit.gov/ecqm/ep/2022/cms117v10)

@@ -12,12 +12,12 @@ links:
   - 'https://ecqi.healthit.gov/glossary/denominator'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10'
 source: 'https://drive.google.com/open?id=1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)
-[CMS156v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure) (2021)
+[CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)  
+[CMS156v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure) (2021)  
 [CMS156v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v10&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -122,17 +122,21 @@ For patients with two or more benzodiazepine prescriptions ordered, exclude pati
 
 
 
+
+
 ### Original Visit Encounter
 
 {{% note %}}
-
 This is an inverse measure. The goal is to have a 0 in the numerator.  When e-prescribing, avoid prescribing any of the medications listed below, to the specified population, whenever possible.
 {{% /note %}}
+
 Track all patients that are 65+ and prescribed high-risk medications. Two rates are reported, so be aware that patients with at least one high-risk medication, as well as patients with at least two orders for the same high-risk medication, will be reported for the measurement period.
+
 1. While documenting the encounter, use the Presenting Medications section and Medication Orders section to prescribe and reconcile medications, as usual.
 2. Prescribe medications, as needed.
 3. Continue documenting the encounter, as appropriate.
 4. When complete, Close and Archive the encounter.
+
 
 ## Evidence
 

@@ -7,18 +7,22 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Def_fee_sched.csv'
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 This wiki page is to document how fee schedule data needs to be constructed in order to import using WebChart's Fee Schedule Import Tool.
+
 * File format: Data file shall be formatted in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
 * Each subsequent row shall represent an fee schedule.
 
-## **Column Definition**
+
+## Column Definition
 
 The fee schedule column definition shall contain all columns listed below regardless if their is a value or not.
+
 * R = Required
 * O = Optional
+
 
 <table>
 <tr>
@@ -54,10 +58,10 @@ The fee schedule column definition shall contain all columns listed below regard
 
 </table>
 
-## **Examples of CSV**
+## Examples of CSV
 
 
-### **Fee Schedule Example**
+### Fee Schedule Example
 
 This example shows how to import multiple cpt codes into 1 fee schedule labeled 'DEF Biz'.
 
@@ -77,13 +81,12 @@ DEF Biz,17110,"DESTRUCT LESION, 1-14",$157.00
 DEF Biz,17250,"CHEMICAL CAUTERY, TISSUE",$119.00
 DEF Biz,20000,INCISION OF ABSCESS,$325.00
 DEF Biz,20005,INCISION OF DEEP ABSCESS,$469.00
-
 {{% /pre %}}
 
 
 ```
 
-## **Sample CSV files**
+## Sample CSV files
 
 Here is a sample CSV file to download and view in a text editor or a spreadsheet program.
 [File:Def fee sched.csv](https://miewiki.med-web.com/wiki/index.php/File:Def_fee_sched.csv)

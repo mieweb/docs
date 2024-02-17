@@ -13,7 +13,7 @@ links:
   - 'https://ecqi.healthit.gov/glossary/ehr'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11'
 source: 'https://drive.google.com/open?id=18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -108,7 +108,7 @@ wikigdrive: 'latest'
 
 ## Clinical Instructions
 
-Ensure all 18+ year-old patients with heart failure beginning  prior to and continuing into the measurement period have a functional status assessment during the measurement period. 
+Ensure all 18+ year-old patients with heart failure beginning  prior to and continuing into the measurement period have a functional status assessment during the measurement period.   
 
 ### Workflow
 
@@ -293,6 +293,6 @@ Coming soon.
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS90](https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11)

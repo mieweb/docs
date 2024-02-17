@@ -2,7 +2,7 @@
 id: '15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
 title: 'Encryption Statement'
 date: '2020-02-27T20:35:59.932Z'
-version: 27
+version: 31
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Encryption'
@@ -37,7 +37,7 @@ links:
   - 'https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/'
   - 'http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices'
 source: 'https://drive.google.com/open?id=15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Introduction
 
@@ -63,43 +63,44 @@ Whole-disk encryption solutions are acceptable as are solutions that protect ind
 
 The Security Rule goes on to define encryption as "the use of an algorithmic process to transform data into a form in which there is a low probability of assigning meaning without use of a confidential process or a key" (45 CFR §§ 164.304). This allows the Security Rule to be a primary source for suggested methods of [rendering PHI unusable, unreadable, and indecipherable](https://www.hhs.gov/hipaa/for-professionals/breach-notification/guidance/index.html) to unauthorized users.  
 Because of this, HHS looks to the National Institute of Standards and Technology (NIST) for best practices and standards for encryption processes.
+
 * Valid encryption processes for data at rest are consistent with NIST Special Publication 800-111, [Guide to Storage Encryption Technologies for End User Devices](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-111.pdf).
 * Valid encryption processes for data in motion are those which comply, as appropriate, with NIST Special Publications 800-52, [Guidelines for the Selection and Use of Transport Layer Security (TLS) Implementations](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf); 800-77, [Guide to IPsec VPNs; or 800-113, ](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-113.pdf)[<strong>Guide to SSL VPNs</strong>](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-113.pdf), or others which are [Federal Information Processing Standards (FIPS) 140-2](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf) validated.
+
 Also available for information regarding encryption processes of data in motion and data at rest is NIST Special Publication 800-175B, [Guideline for Using Cryptographic Standards in the Federal Government: Cryptographic Mechanisms.](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175B.pdf)  
 As a resource for encryption technologies that mitigate potential threats, NIST has also developed 800-111, [Guide to Storage Encryption Technologies for End User Devices](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-111.pdf), where the information provided is summarized in a useful grid seen below.
-
 ![](../encryption-statement.assets/1f745477860bb16c6fc999eb767ae2f8.png)
-
 
 ## Overhead
 
 Our testing has shown that, depending on read/write size and randomness, without using specialized hardware, encryption of hard drives can range from 25-50% performance degradation in IO with significant impact on CPU. Utilizing Intel's [AES-NI instructions](https://www.truecrypt71a.com/documentation/hardware-acceleration/) significantly reduces the performance impact to about 5-10%.  
 As a point of reference, several articles are available for reviewing disk encryption, performance issues, and durability.
+
 * Phoronix Media has compiled [several articles and reviews](http://www.phoronix.com/scan.php?page=search&q=disk+encryption) regarding disk encryption since their Phoronix launch in 2004.
 * Digital Citizen has provided a very interesting article about TrueCrypt encryption: [What is the Performance Impact of System Encryption with TrueCrypt](http://www.digitalcitizen.life/what-performance-impact-system-encryption-truecrypt) (20-30% performance)
 * Likewise, Media Addicted has summarized findings of: [SSDs and TrueCrypt: Durability and Performance Issues](http://media-addicted.de/ssd-and-truecrypt-durability-and-performance-issues/744/) (18-46%)
 
+
 ### Benchmarking
 
 Benchmarking can be seen below, where we have utilized the Sysbench tool for File I/O testing with various mount devices:
+
 * <strong>sdased</strong> - SDA / SED is a Spinning 15K disk with Self Encryption
 * <strong>ssd-r10wbLUKSc7</strong> - SSD RAID 1+0 LUKS / CentOS 7 AES-IN encryption
 
 ![](../encryption-statement.assets/b63673422b4cf082965426a736310adc.png)
 
-
 ### Comparison
 
 Based on benchmarking findings, it is clear that SSD is faster than a 7200 RPM hard disk with SED. At 128 threads, the SSD with LUKS AES-IN is 261 times faster.
-
 ![](../encryption-statement.assets/4db7653485e198114cbc7e2abc231717.png)
-
 
 ## Encryption is NOT a panacea
 
 While encrypting data at rest can be a useful component in a data security toolbox, it must be implemented with a full understanding of the protection it may (or may not) provide. Organizations should consult with their vendors, data security staff, system staff, and application staff to determine an appropriate set of actions to secure institutional data.
 
 ### Limitations of Encrypting
+
 
 * Encryption provides little protection against intrusions from a hacker gaining remote access to a server, where the passphrase has already been entered.
 * Data in use must be unencrypted in order to be consumed by users; therefore, to ensure data in use is secure and inaccessible to unauthorized individuals, policies and procedures should be in place to address proper disposal of printed data, or to supply necessary security for on-screen information.
@@ -108,15 +109,18 @@ While encrypting data at rest can be a useful component in a data security toolb
 * While full-disk and database-level encryptions offer greater protection, it is important to remember the human element required for access. Due to the required manual entry of a passcode, these encryption types carry with them a certain level of inconvenience, not to mention risk, as human fallibility can lead to data being inaccessible by way of a lost passphrase. Filesystem-level encryption can assuage some of these issues.
 * Even the strongest encryption can be easily undermined by poor key management. Consider, for example, a running server requires the key to be in memory, to be able to read encrypted data. This is analogous to a running locked car with the keys inside it.
 
+
 ### Special Considerations for Virtualized and Cloud-based Environments
+
 
 * As mentioned, some virtualized and cloud-based environments offer remote passphrase entry and varying degrees of passphrase management and automation for full-disk encryption – but be aware that there is often a tradeoff between convenience and security with automated solutions. For example, if a cloud provider keeps your passphrase and automatically provides it to the operating system at boot time, the level of security offered by the full-disk encryption solution is largely dependent on how securely the cloud provider manages the passphrase.
 
+
 ## References
 
-*Code of Federal Regulations*. *Public Welfare*. Department of Health and Human Services, 01 Oct. 2007. Web. 31 Mar. 2017. <[https://www.gpo.gov/fdsys/pkg/CFR-2007-title45-vol1/content-detail.html](https://www.gpo.gov/fdsys/pkg/CFR-2007-title45-vol1/content-detail.html)>.  
-"HIPAA for Professionals." *HHS.gov*. Department of Health and Human Services, 13 Feb. 2017. Web. 31 Mar. 2017. <[https://www.hhs.gov/hipaa/for-professionals/](https://www.hhs.gov/hipaa/for-professionals/)>.  
-Office of the Chief Information Officer. "HHS OCIO Policies, Standards and Charters." *HHS.gov*. U.S. Department of Health and Human Services, 13 Sept. 2006. Web. 31 Mar. 2017. <[https://www.hhs.gov/ocio/policy/](https://www.hhs.gov/ocio/policy/)>.  
-Reglione, Andrea. "Best Practices: Securing Data at Rest, in Use, and in Motion."*DataMotion*. DataMotion, 01 Dec. 2015. Web. 31 Mar. 2017. <[https://www.datamotion.com/2015/12/best-practices-securing-data-at-rest-in-use-and-in-motion/](https://www.datamotion.com/2015/12/best-practices-securing-data-at-rest-in-use-and-in-motion/)>.  
-Noam, Arzt H., and Michael Berry. "Encrypting Data at Rest on Servers: What Does It Get You?" *HLN Consulting, LLC*. HLN Consulting, LLC, 25 July 2016. Web. 31 Mar. 2017. <[https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/](https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/)>.  
-"Encrypting Healthcare Data at Rest: NIST Best Practices." *HealthITSecurity*. Ed. Patrick Ouellette. Xtelligent Media, LLC, 17 Oct. 2013. Web. 31 Mar. 2017. <[http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices](http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices)>.
+*Code of Federal Regulations*. *Public Welfare*. Department of Health and Human Services, 01 Oct. 2007. Web. 31 Mar. 2017. <https://www.gpo.gov/fdsys/pkg/CFR-2007-title45-vol1/content-detail.html>.  
+"HIPAA for Professionals." *HHS.gov*. Department of Health and Human Services, 13 Feb. 2017. Web. 31 Mar. 2017. <https://www.hhs.gov/hipaa/for-professionals/>.  
+Office of the Chief Information Officer. "HHS OCIO Policies, Standards and Charters." *HHS.gov*. U.S. Department of Health and Human Services, 13 Sept. 2006. Web. 31 Mar. 2017. <https://www.hhs.gov/ocio/policy/>.  
+Reglione, Andrea. "Best Practices: Securing Data at Rest, in Use, and in Motion."*DataMotion*. DataMotion, 01 Dec. 2015. Web. 31 Mar. 2017. <https://www.datamotion.com/2015/12/best-practices-securing-data-at-rest-in-use-and-in-motion/>.  
+Noam, Arzt H., and Michael Berry. "Encrypting Data at Rest on Servers: What Does It Get You?" *HLN Consulting, LLC*. HLN Consulting, LLC, 25 July 2016. Web. 31 Mar. 2017. <https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/>.  
+"Encrypting Healthcare Data at Rest: NIST Best Practices." *HealthITSecurity*. Ed. Patrick Ouellette. Xtelligent Media, LLC, 17 Oct. 2013. Web. 31 Mar. 2017. <http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices>.

@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10'
 source: 'https://drive.google.com/open?id=14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -111,14 +111,23 @@ wikigdrive: 'latest'
 
 
 
+
+
 ### Original Visit Encounter
 
 
 ## Clinical Instructions
 
 Ensure all patients that are 65 years of age or older have received a pneumococcal vaccine or report having received a vaccine. Recording the receipt of the immunization or the administration of the vaccine can be done within or outside of the encounter:
+
 1. <strong>Option 1: Record the Receipt of Pneumococcal Vaccination (Historical)</strong>
+
+
    1. <strong>Within Encounter</strong>
+
+
+
+
       1. Open the Immunizations/Injections section of the encounter
       2. Using the Description autocomplete, begin typing the name of the immunization
       3. Add the Date and any Reactions/Comments
@@ -126,13 +135,30 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
       5. Click the Next button, or close the section
       6. Continue documenting the encounter as needed
       7. When completed, Close and Archive the encounter
-   1. <strong>Outside Encounter</strong>
+
+
+
+
+   2. <strong>Outside Encounter</strong>
+
+
+
+
       1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
       2. Click the Quick Add link in the upper-right of the page
       3. Record any historical injections
       4. Click the Submit button
-1. <strong>Option 2: Document the Administration of Pneumococcal Vaccination</strong>
+
+
+
+2. <strong>Option 2: Document the Administration of Pneumococcal Vaccination</strong>
+
+
    1. <strong>Within Encounter</strong>
+
+
+
+
       1. Open the Tests and Procedures section of the encounter
       2. Using the autocomplete, begin typing the name of the vaccination being administered
       3. Click the Add to Exam button
@@ -140,11 +166,22 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
       5. Click the Next button, or close the section
       6. Continue documenting the encounter as needed
       7. When completed, Close and Archive the encounter
-   1. <strong>Outside Encounter</strong>
+
+
+
+
+   2. <strong>Outside Encounter</strong>
+
+
+
+
       1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
       2. Click the Add Imm/Inj link in the upper-right of the page
       3. Fill in all required fields
       4. Click the Submit button
+
+
+
 
 ## Evidence
 
@@ -253,6 +290,6 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS127](https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10)

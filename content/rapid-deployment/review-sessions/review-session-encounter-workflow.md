@@ -49,47 +49,64 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Agenda
+
 
 * <strong>Pre-Requisites</strong>
 * <strong>Overview</strong>
 * <strong>Encounter Workflow Demonstration</strong>
 * <strong>System Configuration</strong>
-  * <strong>Encounter Types</strong>
-  * <strong>Appointment Type Default Encounter Type</strong>
-  * <strong>Protocols</strong>
-  * <strong>Encounter Templates</strong>
-  * <strong>Encounter Info Section</strong>
-        * <strong>Performing Provider</strong>
-        * <strong>Archive As</strong>
-  * <strong>Encounter Checkout Tab</strong>
-  * <strong>Macros</strong>
-  * <strong>Worklists</strong>
-  * <strong>Clinical Decision Support / Scripted Rules</strong>
-  * <strong>Esign / Tasking</strong>
-  **Clinical Decision Support/Scripted Rules**
-  * <strong>System Settings</strong>
-  * <strong>Security Role Permissions</strong>
-  * <strong>My Settings Preferences</strong>
+
+
+   * <strong>Encounter Types</strong>
+   * <strong>Appointment Type Default Encounter Type</strong>
+   * <strong>Protocols</strong>
+   * <strong>Encounter Templates</strong>
+   * <strong>Encounter Info Section</strong>
+
+      * <strong>Performing Provider</strong>
+      * <strong>Archive As</strong>
+
+   * <strong>Encounter Checkout Tab</strong>
+   * <strong>Macros</strong>
+   * <strong>Worklists</strong>
+   * <strong>Clinical Decision Support / Scripted Rules</strong>
+   * <strong>Esign / Tasking</strong>
+
+
+   **Clinical Decision Support/Scripted Rules**
+
+
+   * <strong>System Settings</strong>
+   * <strong>Security Role Permissions</strong>
+   * <strong>My Settings Preferences</strong>
+
 * <strong>Smart Plan</strong>
 * <strong>Reporting</strong>
 * <strong>Key Decision Points</strong>
 * <strong>Action Items / Timelines</strong>
 
+
+
 * <strong>Resources</strong>
-  * <strong>Documentation</strong>
-  * <strong>LMS Courses / Videos</strong>
+
+   * <strong>Documentation</strong>
+   * <strong>LMS Courses / Videos</strong>
+
+
 
 ## Pre-Requisites
 
-Prior to the review session, please provide corresponding documentation: 
+Prior to the review session, please provide corresponding documentation:
+
 
 1. Listing of current appointment types/services offered/exams
 2. List of Providers
 3. List of servicing locations
 4. LMS Course: [Encounters](https://mie.talentlms.com/unit/view/id:2703) and [Encounter Templates and Visit Notes](https://mie.talentlms.com/learner/courseinfo/id:148)
+
 
 ## Overview
 
@@ -98,13 +115,15 @@ Aside from the more obvious reasons, encounters offer many advantages that strea
 With {{% system-name %}} , clinical data is captured electronically, throughout the duration of the encounter. Data can be captured at the time of the visit, by the patient (e.g., registration and history information entered through the employee portal or imported from the PHR), or by the staff (e.g., vital signs, current medications, etc.). And of course, clinical data is also captured by the clinicians (e.g., history, physical findings, orders, diagnosis, etc.).  
 Clinicians and staff will work through each stage of the encounter as the patient progresses through the visit, with patient information pulling forward from stage to stage. Generally, users are encouraged to use predefined, structured text in encounters, which is coded and retrievable data used for outcomes analysis. {{% system-name %}} encounters can capture any unique encounter workflows and accommodate individual clinicians' charting styles. The standard encounter templates not only allow for documenting each stage of the patient visit accurately and efficiently, they are highly configurable and customizable to the needs of the practice. Additionally, the {{% system-name %}} platform makes all demographic and clinical data easily accessible from the point-of-care, by way of the Side Chart feature, facilitating more comprehensive encounter documentation. While working in the dynamic encounter, the Side Chart feature provides an additional view with specific details from the chart in context, eliminating the need to open additional windows or tabs to reference the chart while documenting.  
 Generally speaking, {{% system-name %}} offers dynamic encounters, which allow users to input necessary details of a patient visit (encounter). As its name suggests, the dynamic encounter is highly customizable. The dynamic encounter is divided into major categories, with varying sections available under each category. These various sections can be removed or added as needed, using the **Tools** button, in the upper-right corner of the encounter. Clicking this button will open the *Show Hidden Items* window, where all hidden items are displayed and can be added, as needed. Sections can also be removed by users with the appropriate security permissions.  
-An added usability feature to note are the information toolbars that appear both throughout the system and in the dynamic encounter. These toolbars provide an easy method of navigation, as well as a quick reference for patient details. The layered toolbars at the top of the dynamic encounter are designed to provide navigation, patient details, and encounter details. However, the number of visible toolbars will vary depending on the page. And as a means of maximizing space, toolbars will also collapse and expand as users navigate the encounter.  
-{{% info %}}
+An added usability feature to note are the information toolbars that appear both throughout the system and in the dynamic encounter. These toolbars provide an easy method of navigation, as well as a quick reference for patient details. The layered toolbars at the top of the dynamic encounter are designed to provide navigation, patient details, and encounter details. However, the number of visible toolbars will vary depending on the page. And as a means of maximizing space, toolbars will also collapse and expand as users navigate the encounter.
 
+{{% info %}}
 Multiple users can be in a dynamic encounter at the same time. A message will display at the top of the dynamic encounter notifying the users. Though various users can continue to work in the same encounter, whenever data is entered or updated, the encounter will automatically refresh and alert users of the specific section(s) updated and by whom, so all current data is available to all users in real time.
 {{% /info %}}
+
 Once all documentation is finalized, it is important to always remember to close and archive encounters. Not only will this produce a chart document, but closing and archiving encounters ensures all worklist items are current and accurate. {{% system-name %}} provides worklists for tracking open encounters, open encounters assigned to specific providers, as well as for open encounters in specific stages. Ensuring completed encounters are archived and closed helps keep clinical documentation organized and well-maintained.
 Standard visit encounters vary by system type, but may include:
+
 * Checkin
 * Biometric Exam
 * Brief Note
@@ -117,7 +136,9 @@ Standard visit encounters vary by system type, but may include:
 * Pre-placement Exam
 * Results
 * Visit
+
 Standard protocols may vary by system type, but may include:
+
 * Occupational Injury
 * Absence Management
 * Cardiovascular
@@ -137,10 +158,13 @@ Standard protocols may vary by system type, but may include:
 * Skin
 * BHS
 
+
 Custom configuration of encounter templates by MIE is available, along with protocol-driven Chief Complaint templates, if necessary.
 **Encounter Workflow Review Session Demonstration**
 
+
 * [Encounter Demonstration](https://drive.google.com/open?id=1vIUkrnk45wKAgO5_k_shVp7N3OtDcn62EeSsVt9tAnw)
+
 
 
 ## System Configuration
@@ -156,8 +180,8 @@ One last thing to consider when configuring encounter types is the business need
 ### Appointment Type Default Encounter Type
 
 Appointment types are created and maintained from the [Appt Types tab](https://system/?func=scheduler&s=apttypes), found in the **Scheduler** sidemenu. This is important, because any appointment type can have a Default Encounter Type specified as part of its configuration, which means whenever a specific appointment type is scheduled and that appointment is checked in, the specified encounter type will be automatically created and opened for encounter documentation.
-{{% tip %}}
 
+{{% tip %}}
 If using the Checkin module, it is suggested to always set the Default Encounter Type field to Checkin. If an alternative encounter type is preferred, the Default Encounter Type field can be updated in the specific appointment type.
 {{% /tip %}}
 
@@ -174,8 +198,8 @@ For instance, the {{% system-name %}} Visit encounter offers over 50 different s
 Consider an example of an allergy injection visit. First, let it be assumed that Practice A is interested in using the standard Visit encounter to document all allergy injection visits. After several uses of the Visit encounter, the practice has come to realize that only a few of the sections (i.e., Encounter Info, Tests and Procedures, and Notes) are needed when documenting their allergy injection visits. Because of this, it would be beneficial for the practice to create an encounter template with only the few sections necessary for documenting the visit. The template, then, can be named accordingly (e.g., Allergy Inj Visit). Once created, any time the Allergy Inj Visit template is applied to the visit, the system will refresh the encounter, removing all non-templated sections from view.
 With this in mind, be sure to discuss any encounter templates potentially needed for clinicians or any common encounter types. For each possible template, determine which sections need to be visible, as well as any expected template name, or naming convention. Remember, the system will only display specific sections of the dynamic encounter noted in the applied saved template.
 To view, configure, and save encounter templates, click the **Tools** button in the upper-right corner of the encounter.
-{{% info %}}
 
+{{% info %}}
 Encounter templates will also set the **Archive As** field if it was previously set in the encounter type being used. When using an encounter template, the encounter will save as the specified document type once the encounter is closed and archived.
 {{% /info %}}
 
@@ -185,32 +209,35 @@ Encounter templates will also set the **Archive As** field if it was previously 
 #### Performing Provider
 
 Within the Encounter Info section of a dynamic encounter, the performing provider can be noted in the **Provider** field. This field is mapped to the *Physicians* department and is a dropdown, by default. However, this field can be mapped to an alternative department by using the *Physician Realm* security setting, if necessary.
-{{% info %}}
 
+{{% info %}}
 If the *Use Charts* system setting is enabled, the Provider dropdown field will be replaced with an autocomplete field of provider or provider organization charts.
 {{% /info %}}
-Discuss how providers access the system and how they should be considered. It is important to have a clear idea of what drives the provider choices available in the {{% system-name %}} system, because upon closing and archiving encounters, {{% system-name %}} will automatically apply the performing provider's signature to the end of the document.
-{{% info %}}
 
+Discuss how providers access the system and how they should be considered. It is important to have a clear idea of what drives the provider choices available in the {{% system-name %}} system, because upon closing and archiving encounters, {{% system-name %}} will automatically apply the performing provider's signature to the end of the document.
+
+{{% info %}}
 If there is no signature image available in the performing provider's User Details, then the encounter view and stored documents will display text noting who the performing provider was for the encounter visit, but will not pull in a signature image.
 {{% /info %}}
 
 #### Archive As
 
 Also within the Encounter Info section is the **Archive as** dropdown. This field allows users to select the specific type of document the encounter should be saved as within the system. For example, when the Visit encounter type is closed and archived, it will save as the Visit document type. Though preloaded encounter types are programmed to save as specific document types upon close and archive, there may be a need to save specific encounters as particular document types, in order to more easily locate chart documentation for referencing, or for reporting needs.
-{{% tip %}}
 
+{{% tip %}}
 The encounter is always stored in the Encounters chart tab. However, the document created upon close and archive is saved as the specified document type of the **Archive as** field. This document may be mapped to various chart tabs.
 {{% /tip %}}
+
 Be sure to speak with the Deployment Specialist to add or edit any of the selections available in the Archive As dropdown. These choices are determined in a layout that can be updated according to any business needs.
 
 ### Encounter Checkout Tab
 
 The **Encounter Checkout** tab (found under the **Admin** chart tab) is a place where any staff responsible for things such as providing clinical summaries, or for providing referrals, or for transmitting medications prescribed during an encounter, may go to execute any of their responsibilities. Those familiar with the {{% system-name %}} system may notice that the Encounter Checkout tab reflects the same options found at the bottom of the encounter View–the Encounter Options. Though this is the case, the Encounter Checkout tab is particularly useful for larger practices who may have specific workflows dictating specific staff to handle specific checkout processes. The Encounter Checkout tab simply provides easier access to the same information and options found at the bottom of the encounter View.
-{{% info %}}
 
+{{% info %}}
 The encounter must be open for staff to be able to successfully utilize the Encounter Checkout tab or see Encounter Options. When an encounter is closed and archived, the Encounter Options will no longer be available from the Encounter Checkout tab.
 {{% /info %}}
+
 Any encounter that is *set current* for the logged-in user will populate the Encounter Options associated with that encounter. Any additional open encounters can be seen in the list view found below the Encounter Options. Clicking the **Set Current** link on any of the open encounters will set that encounter as current for viewing and working, as needed. Click the **Release** link on the encounter, to release the encounter and stop displaying the available Encounter Options.
 Determine whether the Encounter Checkout tab will provide value according to the business needs. Consider encounter and checkout workflows, keeping in mind the staff responsible for providing patient, or clinical, summaries, as well as workflows involving the closing, archiving, and overall management of the encounters. If there is no need for the Encounter Checkout tab, the Deployment Specialist can simply remove it from the [Chart Tabs editor](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs).
 
@@ -242,34 +269,43 @@ There are several system settings available for the Encounters module. It is rec
 ### Security Role Permissions
 
 In addition to the various system settings, it is important to review the security role permissions for users needing access to the Encounters module.
+
 * <strong>View Encounters</strong>: Allows users to view the contents of the Encounters chart tab.
 * <strong>Delete Encounters</strong>: Allows users to delete encounters within a chart.
 * <strong>Link Documents to Encounters</strong>: Allows users to link stored documents to encounters within a chart.
 * <strong>Reopen Closed Encounters</strong>: Allows users to reopen closed encounters for editing or updating data captured within the encounter.
 * <strong>Remove Encounter Sections</strong>: Allows users to remove sections from dynamic encounters. Some sections can be locked within the encounter layout, meaning the section is to stay in the encounter and not be removed. For this reason, the permission level may be set to No, Any, or Any except locked.
+
 For more detail on user security role setting, see our [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help documentation.
 
 ### My Settings Preferences
 
 My Settings preferences also need considered when providing access to the Encounters module. Review each of the preferences and set, as appropriate.
+
 * <strong>Default Visit Type</strong>: This setting determines the default visit type when manually adding encounters. However, it is recommended to set to Checkin if the Scheduler is using the One-Click Checkin feature.
 * <strong>Link Patient Doctors New Enc</strong>: When enabled, any associated referring/family physicians or other physicians (set via system setting) will automatically populate in the CC (carbon copy) section of the encounter.
 * <strong>Impressions Linked As Active</strong>: This setting has various options available. It is important to note that the user on which this setting preference is set must be the user opening/creating encounters. In other words, the impressions found under the Symptoms/Diagnosis encounter section will behave according to the setting of the user that opens/creates the encounter.
-  * <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
-  * <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
-  * <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-  * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
-  * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-  * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
-  * will need set to N/A when using this setting.
-* PMH Linked as Active: This setting will determine if Past Medical History is linked as active from the Encounter. 
-  * If yes is selected, then it will include the items as active medical conditions. 
-  * If yes (incl. concluded) is selected, concluded past medical items will be considered active
-  * If no is selected, no past medical history items will be considered active
-  * If problem list only is selected, only the problem list will be considered active. 
+
+
+   * <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
+   * <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
+   * <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+   * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
+   * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+   * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
+   * will need set to N/A when using this setting.
+
+* PMH Linked as Active: This setting will determine if Past Medical History is linked as active from the Encounter.
+
+   * If yes is selected, then it will include the items as active medical conditions.
+   * If yes (incl. concluded) is selected, concluded past medical items will be considered active
+   * If no is selected, no past medical history items will be considered active
+   * If problem list only is selected, only the problem list will be considered active.
+
 * Audiogram STS display: This setting will determine if the age corrected, non age corrected or both audiogram results will be displayed.
 * Assessment Entry in Orders: This setting will determine if the assessment entry will be available in the Order
-* Remember provider and location: This setting will remember the provider and location in future encounters. 
+* Remember provider and location: This setting will remember the provider and location in future encounters.
+
 
 Any additional details can be found in the [My Settings](../../functions/system-administration/security/my-settings.md) online help documentation, if necessary.
 **Smart Plan**
@@ -284,15 +320,20 @@ Providers will use the Smart Plan quicklist (right side of the blue vertical bar
 Encounters are the basis on which all visits hinge, and because of this, there are various downstream implications of documentation, as well as many aspects of the chart and EHR to consider. Data collected within encounters are available from a plethora of reporting tools in {{% system-name %}} . To see the available encounter reports, navigate to the **Reports** sidemenu and select the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) group of reports.
 **System Configuration/Key Decision Points**
 
+
 1. What encounter types need to be configured?
-    1. What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
-    2. Which encounter types need to be tied to the appointment types?
-    3. What should the encounter be archived as?
+
+   1. What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
+   2. Which encounter types need to be tied to the appointment types?
+   3. What should the encounter be archived as?
+
 2. What encounter templates need to be configured?
 3. What protocols need to be configured?
 4. What flowsheets need to be configured?
-    1. Which protocols will drive the flowsheets?
-    2. What area within the encounter will that flowsheet belong to?
+
+   1. Which protocols will drive the flowsheets?
+   2. What area within the encounter will that flowsheet belong to?
+
 5. What in-house testing can be performed?
 6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists?  Decision on what to track or not
 7. Need list/address of vendors commonly refer to
@@ -302,12 +343,14 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 11. What libraries will need to be configured?
 12. Will the Smart Plan be utilized?
 
+
 **Action Items/Timelines**
 
 ## Resources
 
 
 ### Help Documentation
+
 
 * [Encounters-Adding-Creating Encounters](../../functions/encounters/creating-or-adding-encounters.md)
 * [Working in a Visit Encounter](../../functions/encounters/working-in-a-visit-encounter.md)
@@ -335,8 +378,11 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 * [Encounter Checkout Chart Tab](../../functions/encounters/encounter-checkout-chart-tab.md)
 * [Scripted Rules](https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing)
 
+
 **LMS Courses/Videos**
+
 
 * [Encounters](https://mie.talentlms.com/unit/view/id:2703)
 * [Encounter Templates/Visit Notes](https://mie.talentlms.com/shared/start/key:LABIDNHR)
+
 

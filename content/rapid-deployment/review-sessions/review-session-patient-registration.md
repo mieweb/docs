@@ -20,25 +20,43 @@ links:
   - '../../functions/patient-registration/medical-record-numbers.md'
   - '../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Agenda
+
 
 * <strong>Patient Registration Demonstration</strong>
 * <strong>E-Chart Overview</strong>
 * <strong>E-Chart</strong>
-  * <strong>Patient Registration (Manual)</strong>
+
+
+   * <strong>Patient Registration (Manual)</strong>
+
+
+
+
       * <strong>Demographics</strong>
       * <strong>E-Chart Photos</strong>
-  * <strong>Relationships/User Roles</strong>
+
+
+
+
+   * <strong>Relationships/User Roles</strong>
+
+
 * <strong>System Configuration</strong>
-  * <strong>Partitions and Partition Restrictions</strong>
+
+
+   * <strong>Partitions and Partition Restrictions</strong>
+
+
 * <strong>Resources</strong>
+
 
 ## Overview
 
 Managing patient flow is vital to the effectiveness of any practice. Because of this, the {{% system-name %}} system provides fast and easily-navigated functionality for searching current charts and documents, as well as for registering all new patients.  
-{{% system-name %}} allows users to manually register individuals directly into the EHR by simply adding their demographic and insurance information into the system. Depending on the established processes, registration documents can be provided either before the appointment or during the check-in process, and a patient registrar can then review the submitted documentation, as needed.
+{{% system-name %}} allows users to manually register individuals directly into the EHR by simply adding their demographic and insurance information into the system. Depending on the established processes, registration documents can be provided either before the appointment or during the check-in process, and a patient registrar can then review the submitted documentation, as needed.  
 As an additional benefit, {{% system-name %}} automatically detects potential duplicate records and allows merging by authorized users. Not to mention, custom configuration of demographic fields and integration with outside vendors is available as an add-on service, if necessary.
 
 ## E-Chart
@@ -47,29 +65,27 @@ Depending on the needs of the organization, entering and loading demographics ca
 
 ### Patient Registration
 
-As noted, a standard chart is typically created through an established HR interface; however, the customer may manually register new patients by navigating to the **E-Chart** sidemenu and selecting the [Patient Registration tab](https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration) at the top of the page.
-
- ![](../review-session-patient-registration.assets/ab1beee22b2e7404f4e4999814dc85f8.png)
-
+As noted, a standard chart is typically created through an established HR interface; however, the customer may manually register new patients by navigating to the **E-Chart** sidemenu and selecting the [Patient Registration tab](https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration) at the top of the page.  
+ ![](../review-session-patient-registration.assets/ab1beee22b2e7404f4e4999814dc85f8.png)  
 Begin by entering some of the individual's information:
+
 * Last Name (required)
 * First Name (required)
 * Date of Birth (required)
 * SSN (optional)
+
 Clicking the **Search** button searches existing charts for any matching records, avoiding the creation of potential duplicate charts. If any of the entered fields match existing information, a match rating will be assigned, and potential matches will display on-screen. Whenever registering new charts, it is important to verify a duplicate chart is not being created.  
 If the new chart does not retrieve any possible matches, the full registration screen will load. If matches were found, but the chart is unique, simply click the link to continue adding the chart. This will load the registration screen. All of the information that is added upon registration will populate the Demographics of the Admin chart tab. Fill out the registration fields, as appropriate.  
-When a field is set as a required entry, the field will display with red highlighting. As a default, Last Name, First Name, and Date of Birth are required fields. Required fields can be configured, as needed, and will be scoped and quoted separately, accordingly to the level of effort required.  
-{{% tip %}}
+When a field is set as a required entry, the field will display with red highlighting. As a default, Last Name, First Name, and Date of Birth are required fields. Required fields can be configured, as needed, and will be scoped and quoted separately, accordingly to the level of effort required.
 
+{{% tip %}}
 The Postal Code field will accommodate international postal codes and will display without autoformatting.
 {{% /tip %}}
 
 #### Demographics
 
 To view any of the demographic information entered upon registration, navigate to the **Admin** chart tab of the individual's chart. The **Demographics** menu option is available from the Admin chart tab. When Demographics is selected, the page will load all of the information captured upon registration. Quick links are available for modifying or updating this information, as needed.
-
 ![](../review-session-patient-registration.assets/94ae9e6d26b6be8e1a1fbceb548ae4c4.png)
-
 
 #### E-Chart Photos
 
@@ -94,6 +110,7 @@ The [Partition Manager](https://system/?f=admin&s=partmanager&tabmodule=admin&ta
 
 
 ### Help Documentation
+
 
 * [Patient Registration Tab - Manual Patient Entry](../../functions/patient-registration/patient-registration-tab-manual-patient-entry.md)
 * [Editing Patient Demographics](../../functions/e-chart/editing-demographics.md)

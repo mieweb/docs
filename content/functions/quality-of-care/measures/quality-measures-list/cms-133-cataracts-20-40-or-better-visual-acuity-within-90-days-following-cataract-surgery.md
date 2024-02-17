@@ -11,12 +11,12 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS133v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms133v10'
 source: 'https://drive.google.com/open?id=1cQ6E7ZtZO3gwdq3EZAJTkQNSLOGgnuyUPaXz_voXwb8'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS133v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS133v8&showresulttype=Measure) (2020)
-[CMS133v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS133v9&showresulttype=Measure) (2021)
+[CMS133v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS133v8&showresulttype=Measure) (2020)  
+[CMS133v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS133v9&showresulttype=Measure) (2021)  
 [CMS133v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS133v10&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -108,6 +108,8 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 ### New UI Visit Encounter (valid RC202109+)
+
+
 
 
 

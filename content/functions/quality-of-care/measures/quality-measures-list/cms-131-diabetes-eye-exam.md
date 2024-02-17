@@ -9,7 +9,7 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10'
 source: 'https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -55,7 +55,9 @@ CMS131v10 (2022)
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p><ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul></li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
+<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p>
+<ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul>  
+</li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -110,21 +112,49 @@ CMS131v10 (2022)
 
 
 
+
+
 ### Original Visit Encounter
 
+
 2. Ensure all diabetic patients aged 18-75 have been screened for diabetic retinal disease. Use the Past Procedures section of the encounter to record a previous dilated or negative retinal exam, or use the Preventive Care section of the encounter to document the last Retinal Screening; otherwise, document a recognized eye exam by scanning and indexing an established document type (e.g., RETINAL) configured with the appropriate Concept ID.
+
+
    1. <strong>Option 1: Document in the Past Procedures section</strong>
+
+
+
+
       1. Open the Past Procedures section
       2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Dilated Fundus Evaluation, Retinal Screening, etc.) with the appropriate Concept ID (e.g., LOINC).
       3. Add the Date and any relevant Notes.
       4. Click the Next button, or close the section
-   1. <strong>Option 2: Document in the Preventive Care section</strong>
+
+
+
+
+   2. <strong>Option 2: Document in the Preventive Care section</strong>
+
+
+
+
       1. Open the Preventive Care section
       2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2020). This date is the Last Reported Date
       3. Click the Next button, or close the section
+
+
+
+
    * <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
 
+
+
+
+
       1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
+
+
+
 
 ## Evidence
 
@@ -281,6 +311,6 @@ CMS131v10 (2022)
 </table>
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS131](https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10)

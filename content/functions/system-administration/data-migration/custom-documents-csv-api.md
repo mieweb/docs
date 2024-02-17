@@ -11,17 +11,17 @@ links:
   - 'https://miewiki.med-web.com/wiki/images/6/69/Storage_Type_Header_13.txt'
   - 'https://miewiki.med-web.com/wiki/images/c/c3/Storage_type_1001_example.pdf'
 source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Custom documents can be designed at the storage type level. When a layout is present in the system with module=Storage Type and name=<storage type>, this layout will be used to render the document.
 
 
-## **Existing Storage Types**
+## Existing Storage Types
 
 A layout with module=Storage Type and name=<existing storage type> (<=27 as of 03/11/2015) will supersede the default document rendering for that storage type.
 
 
-### **Process**
+### Process
 
 1) Determine the number of the storage type for which you want to create a custom layout. This can be done by looking either in the MySQL database or at the stg_DetailView[MAX_STGTYPES] array in storage.c (approx. line 1950).  
 To view the storage types in MySQL run the following query:
@@ -218,13 +218,13 @@ SELECT * FROM storage_types;
 ```
 2) Create a new layout. Set the module=Storage Type. Set the name to be the value from the storage_type column of the storage_types table or the number shown in comments in storage.c. For example, a Lab Request is storage type 13. To create a layout for lab requests, name=13.
 3) Add the desired HTML to the layout. To replicate the information in the default document, follow the code in the appropriate function from the stg_DetailView array. For lab requests, this function is stg_DetailViewLabReq().
-{{% info %}}
 
+{{% info %}}
 These documents will only be rendered with a header if a custom header layout is created with module=Storage Type Header and name is the same as the storage type layout. Additionally, these layouts will override the default rendering for all documents in the system with that storage type.
 {{% /info %}}
 
 
-### **Example Files**
+### Example Files
 
 Example files are not fully functional copies of the default document rendering.
 [Lab Request custom layout](https://miewiki.med-web.com/wiki/images/3/32/Storage_Type_13.txt) (module=Storage Type, name=13)
@@ -232,12 +232,12 @@ Example files are not fully functional copies of the default document rendering.
 [Lab Request custom header layout](https://miewiki.med-web.com/wiki/images/6/69/Storage_Type_Header_13.txt) (module=Storage Type Header, name=13)
 
 
-## **Custom Storage Types**
+## Custom Storage Types
 
 Storage types >= 1001 can be added to create a custom document rendered with a layout.
 
 
-### **Process**
+### Process
 
 1) Insert a new storage type into the storage_types table.
 
@@ -246,7 +246,6 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 
 
 <1001+>,,,);INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (
-
 {{% /pre %}}
 
 
@@ -258,7 +257,6 @@ For example,
 
 
 INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (1001,'html','text/html','Test new storage type');
-
 {{% /pre %}}
 
 
@@ -270,7 +268,6 @@ INSERT INTO storage_types (storage_type, file_ext, content_type, description) VA
 
 
  WHERE doc_id=;UPDATE documents SET storage_type=
-
 {{% /pre %}}
 
 
@@ -278,12 +275,12 @@ INSERT INTO storage_types (storage_type, file_ext, content_type, description) VA
 You can also perform a manual insert into the documents table.
 3) Create a new layout. Set the module=Storage Type. Set the name to be the new storage type >= 1001.
 4) Add the desired HTML to the layout.
-{{% info %}}
 
+{{% info %}}
 These documents will only be rendered with a header if a custom header layout is created with module=Storage Type Header and name is the same as the storage type layout.
 {{% /info %}}
 
 
-### **Example Files**
+### Example Files
 
 [Custom Storage type example](https://miewiki.med-web.com/wiki/images/c/c3/Storage_type_1001_example.pdf)

@@ -9,13 +9,15 @@ links:
   - 'viewing-expired-fee-schedules.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1p7wZkQtojxLvxtFtLCsGHUlWBFkAgh3Mxay-pZ3sws4'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Use the following information about expired fee schedules in a grid:
+
 * Fee schedule name
 * Begin date
 * End Date
 * Number of items in schedule 
+
 1. [View expired fee schedules](viewing-expired-fee-schedules.md).
 2. Above the <em>Fee Schedule Expired</em> section, select <strong>Show Grid</strong>. The information appears as a grid.
 3. Work with the information as described in [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.md).

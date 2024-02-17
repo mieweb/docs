@@ -11,12 +11,12 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms157v10'
 source: 'https://drive.google.com/open?id=1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS157v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure) (2020)
-[CMS157v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure) (2021)
+[CMS157v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure) (2020)  
+[CMS157v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure) (2021)  
 [CMS157v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -115,6 +115,8 @@ Performance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)<
 
 
 ### New UI Visit Encounter (valid RC202109+)
+
+
 
 
 

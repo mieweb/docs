@@ -13,16 +13,18 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1l64IjN7y0I0QHoM7e8hyy80El5GBEv4DC_WN8zFGt1Q'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 The Ifs, Ands, and Buts About It
 
 ## Proposed Rule
 
 As many may already know, to promote greater value within the healthcare system, MACRA established that the Quality Payment Program (QPP) be updated, annually. The proposed rule was introduced in June 2017, and the plan suggests changes to increase flexibility and reduce burdens, particularly for small, independent, and rural practices; however, the aim is to simplify reporting requirements and offer support for doctors and clinicians, overall. Though the comment period has ended, the Final Rule has yet to be posted. For consideration, here are just a few of the proposed changes awaiting finalization, to whet the appetite:
+
 * Increasing the Low-Volume Threshold (LVT) to exempt more small practices and currently eligible clinicians in rural or Health Professional Shortage areas.
 * Awarding bonus points to users exclusively on 2015 Edition CEHRT.
 * Potential bonus points being awarded for caring for complex patients.
+
 For more information, please refer to the [CMS Proposed Rule and associated Fact Sheet](https://www.cms.gov/Newsroom/MediaReleaseDatabase/Press-releases/2017-Press-releases-items/2017-06-20.html).
 
 ## End-of-Year Approaching
@@ -48,7 +50,7 @@ Submit **ONE** (1) of the following:
 </tr>
 
 </table>
-* The required Advancing Care Information (ACI) Base Score measure set is determined by the electronic health record (EHR) edition certification.
+* The required Advancing Care Information (ACI) Base Score measure set is determined by the electronic health record (EHR) edition certification.  
 For more information, review the ACI [Fact Sheet](https://qpp.cms.gov/docs/QPP_ACI_Fact_Sheet.pdf) or [QPP webpage](https://qpp.cms.gov/measures/aci)
 
 ### Partial- or Full-Year Participation
@@ -74,7 +76,7 @@ To potentially earn a positive adjustment, or even a maximum adjustment, submit 
 
 ## Data Submissions
 
-Don't forget, MIE is a certified Data Submission Vendor, capable of submitting quality performance data on behalf of enrolled providers. MIE does not automatically enroll providers into incentive programs (including previous participants). Therefore, to participate, simply fill out a 2017 Quality Data Submission Authorization and Agreement. This must be on file for each provider interested in submitting their quality performance data through MIE.
+Don't forget, MIE is a certified Data Submission Vendor, capable of submitting quality performance data on behalf of enrolled providers. MIE does not automatically enroll providers into incentive programs (including previous participants). Therefore, to participate, simply fill out a 2017 Quality Data Submission Authorization and Agreement. This must be on file for each provider interested in submitting their quality performance data through MIE.  
 We understand how important this is, so we have our Project Manager available to walk you through the enrollment process and work closely with your practice administrator(s) to prepare for data submission. Questions and concerns regarding MIPS, the enrollment process, and participation, or any completed Enrollment Agreements/Authorizations can be emailed to Theresa Juillerat, at [tjuillerat@mieweb.com](mailto:tjuillerat@mieweb.com).
 
 ## Questions

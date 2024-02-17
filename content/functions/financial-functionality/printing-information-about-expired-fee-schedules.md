@@ -8,13 +8,15 @@ mimeType: 'text/x-markdown'
 links:
   - 'viewing-expired-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1NM21bUDsEVAbMZ-hJ4USGD5OqjUAbosvbnKr_HbA44s'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Print the following information about expired fee schedules:
+
 * Fee schedule name
 * Begin date
 * End Date
 * Number of items in schedule 
+
 1. [View expired fee schedules](viewing-expired-fee-schedules.md).
 2. Above the <em>Fee Schedule Expired</em> section, select <strong>View Printable</strong>. The system displays information about expired fee schedules in a printable format.
 3. Print to a printer available to your device.

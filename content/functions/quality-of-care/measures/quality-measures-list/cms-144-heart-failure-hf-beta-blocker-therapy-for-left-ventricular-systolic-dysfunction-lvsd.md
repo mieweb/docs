@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS144v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms144v10'
 source: 'https://drive.google.com/open?id=1mjaSrGAH3j_mNUIhsJT4neLhoquPAcUP2VKpHrCaKUI'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -118,13 +118,21 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 
 
 
+
+
 ### Original Visit Encounter
 
 Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month period of the diagnosis of heart failure with a current or prior left ventricular ejection fraction (LVEF) < 40%.
+
 1. Ensure patient has one of the following diagnoses:
+
+
    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
-1. Numerator will be populated with patients prescribed a beta-blocker therapy within the measurement period.
+
+
+2. Numerator will be populated with patients prescribed a beta-blocker therapy within the measurement period.
+
 
 ## Evidence
 
@@ -274,6 +282,6 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 
 
 
-## **Source(s)**
+## Source(s)
 
 [eCQI CMS144](https://ecqi.healthit.gov/ecqm/ep/2022/cms144v10)

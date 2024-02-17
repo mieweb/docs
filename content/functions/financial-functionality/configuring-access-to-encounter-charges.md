@@ -8,9 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1ZOGOaZqB2_SoMwy14nI5Z4C2Ih3Fi1j0GG6A6KHL_vM'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 For each user security role or user account that needs to view, add or edit charges in encounters, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md). In the *Manage Encounter Charges* field, choose the level of access:
+
 * <strong>No</strong> (No access to charges in encounters.)
 * <strong>View</strong> (View charges in encounters.)
 * <strong>Add</strong> (View charges in encounters but cannot edit charges.)

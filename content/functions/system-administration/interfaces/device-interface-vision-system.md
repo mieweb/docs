@@ -6,11 +6,12 @@ version: 25
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 The following is referring to a Vision - Titmus i500 system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 
 ## Titmus Vision Test
+
 
 1. Use the Titmus Vision tester to do your vision test. If the machine is off, you will need to log on. Then follow directions on Titmus machine to do test and make sure to save the test when you are done.
 2. Once the test has been completed, select the Titmus I500 icon on desktop to open.
@@ -32,9 +33,17 @@ The following is referring to a Vision - Titmus i500 system. Contact your MIE Im
 5. Scroll down to Vision Screening section on page
 6. Scroll down to "filebox"
 7. Select the correct smartcard folder.
+
+
    1. Changing smartcard:
+
+
+
+
       1. Right click on filebox
       2. Choose set smartcard folder
+
+
 
 ![](../device-interface-vision-system.assets/2b683f2a7d8ec60a6ff787c8fada7df3.png)
 
@@ -49,6 +58,10 @@ The following is referring to a Vision - Titmus i500 system. Contact your MIE Im
 1. Select the correct vision test for the correct patient. (Note: if the device is being kept clean your results should be the only ones listed)
 2. Select upload file and when prompted select YES to delete the record as the folder should remain empty and only the current results should be showing. By deleting after each upload this will keep the folder clean and remove any confusion regarding selecting the correct file.
 3. Titmus Vision Test results will populate the page on the encounter or Vision Tool chart tab.
+
+
    1. Abnormal results will be highlighted.
-1. Scroll to bottom of encounter and choose save to ensure vision test is saved to this encounter.
-2. Done
+
+
+4. Scroll to bottom of encounter and choose save to ensure vision test is saved to this encounter.
+5. Done

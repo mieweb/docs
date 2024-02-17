@@ -23,45 +23,67 @@ links:
   - '../../functions/reports/task-report.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=7cae93a5fb5435af1677ba54618fcc37'
 source: 'https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Agenda
+
 
 * <strong>Task List Module Demonstration</strong>
 * <strong>Tasking Overview</strong>
 * <strong>Task List Module</strong>
-  * <strong>Your Task List</strong>
-  * <strong>Delegated</strong>
-  * <strong>Fast Tasks</strong>
+
+
+   * <strong>Your Task List</strong>
+   * <strong>Delegated</strong>
+   * <strong>Fast Tasks</strong>
+
+
+
+
       * <strong>Phone Notes</strong>
-  * <strong>Tasklist Events</strong>
-  * <strong>Task Search</strong>
+
+
+
+
+   * <strong>Tasklist Events</strong>
+   * <strong>Task Search</strong>
+
+
 * <strong>Reporting</strong>
 * <strong>System Configuration</strong>
-  * <strong>Fast Task Templates</strong>
-  * <strong>Tasklist Event Rules</strong>
+
+
+   * <strong>Fast Task Templates</strong>
+   * <strong>Tasklist Event Rules</strong>
+
+
 * <strong>Resources</strong>
+
 
 ## Overview
 
-Tasking creates electronic to-do lists to streamline everyday tasks. The Task List module promotes workflow efficiency and timely task completion through the use of priority ratings on tasks, along with overdue notices and reminder dates, which flag tasks requiring attention. There are two types of tasks–**Generic** and **Fast Tasks**. *Generic* tasks are not templated and are not classified in a specific category or type of task. *Fast Tasks*, on the other hand, are categorized tasks that are usually pre-templated and assigned to a specific individual or department for completion. Fast tasks save users from having to regularly key in the same information for repetitive tasks. Configuration of Fast Task templates and automated task business rules is available as an add-on configuration, if interested.
+Tasking creates electronic to-do lists to streamline everyday tasks. The Task List module promotes workflow efficiency and timely task completion through the use of priority ratings on tasks, along with overdue notices and reminder dates, which flag tasks requiring attention. There are two types of tasks–**Generic** and **Fast Tasks**. *Generic* tasks are not templated and are not classified in a specific category or type of task. *Fast Tasks*, on the other hand, are categorized tasks that are usually pre-templated and assigned to a specific individual or department for completion. Fast tasks save users from having to regularly key in the same information for repetitive tasks. Configuration of Fast Task templates and automated task business rules is available as an add-on configuration, if interested.  
 Standard functionality of the Task List module includes:
+
 * Pre-loaded, standard task templates
 * Task alerts and reminders, including high-priority distinction
 * Tasks stored as documents in the medical record
 
+
 ## Task List Module
 
-The [Task List module](https://system/?func=tlist) allows clinicians to review lab results, authorize prescriptions and orders, and e-sign encounters or dictation, quickly and easily. It provides a single, structured point of access to routine work activities. Another way to think of the Task List module is as a type of messaging service between physicians, as well as clinical and administrative staff. These messages can be part of a specific chart, or they can be set as personal reminders. Communication and efficiency within the office improves dramatically when staff can easily determine exactly what is next on their list of assigned tasks needing completed.  
-{{% tip %}}
+The [Task List module](https://system/?func=tlist) allows clinicians to review lab results, authorize prescriptions and orders, and e-sign encounters or dictation, quickly and easily. It provides a single, structured point of access to routine work activities. Another way to think of the Task List module is as a type of messaging service between physicians, as well as clinical and administrative staff. These messages can be part of a specific chart, or they can be set as personal reminders. Communication and efficiency within the office improves dramatically when staff can easily determine exactly what is next on their list of assigned tasks needing completed.
 
+{{% tip %}}
 Limit how often tasks are created and assign to **All must acknowledge**. Only send a task for all to acknowledge on infrequent occasions and events, such as meeting announcements, down-time announcements, etc.
 {{% /tip %}}
-As an added feature for easier usability, {{% system-name %}} has an application toolbar, where quick buttons are available, allowing users to easily navigate to the home page, to queues or task lists, or even {{% system-name %}} help documentation.
-{{% info %}}
 
+As an added feature for easier usability, {{% system-name %}} has an application toolbar, where quick buttons are available, allowing users to easily navigate to the home page, to queues or task lists, or even {{% system-name %}} help documentation.
+
+{{% info %}}
 Only users with the **View Access** security permission set to *Yes* will be able to assign or receive tasks.
 {{% /info %}}
+
 For additional information regarding the Task List module and the various tabs, categories, and options available for managing tasks, see the [Task List](../../functions/task-management/task-list.md) documentation.
 
 ### Your Task List
@@ -79,8 +101,8 @@ This category tracks all overdue tasks. When creating a new task, a **Due Date**
 #### User Tasks
 
 *User Tasks* are tasks specific to the user in context, or logged-in user. These tasks are pending and waiting to be completed. These tasks consist of any individually-assigned (i.e., meant for you, only) tasks, any assigned to a department with you specified, or any current and/or overdue tasks.
-{{% info %}}
 
+{{% info %}}
 If a task is entered with a Remind Date only (i.e., without a Due Date), the task with the Remind Date will show in the *User Tasks*, only–until the Remind Date/Time lapses.
 {{% /info %}}
 
@@ -108,24 +130,27 @@ In order to access the [Task Search tab](https://system/?f=tlist&s=task_search&t
 ## Reporting
 
 The {{% system-name %}} [Reports module](https://system/?f=layout&module=reports&name=reports&tabmodule=reports) allows administrators access to utilization reports designed for tracking timely task completions and overall productivity. These reports may be utilized for tracking all outstanding tasks for the practice/organization, as well as for auditing completion times and productivity of offices, departments, or individual users. Reports can be generated to show tasks that are overdue, pending, delegated, or completed. Users may also view patients with tasks associated to them that are either in pending or completed status, so if a user goes on vacation, the administrator may reassign the tasks, as necessary. In addition to the Task Search tab, discussed above, there are two useful reports available:
+
 * <strong>Task Reports</strong>
 * <strong>Tasks Completed by User</strong>
+
 
 ## System Configuration
 
 As noted, the Task List module streamlines everyday tasks into an electronic to-do list, and provides a single, structured point of access to routine work activities. To gain the most benefit from tasking within the {{% system-name %}} system, it is important to review the available options and configurations early on. With the appropriate configurations, necessary workflow processes can be easily expedited and simplified.
-{{% info %}}
 
+{{% info %}}
 Any system configurations or editing of templates, tasklist event rules, or the like, all require specific security permissions.
 {{% /info %}}
 
 ### Fast Task Templates
 
 Because there is a standard list of available Fast Tasks, it is important to review the standard templates available in {{% system-name %}} . Ensure any pre-configured fast task templates not conducive to the business needs are removed, and any existing fast task templates being kept are edited to reflect the appropriate workflow and needs of the client. Otherwise, create new templates, if necessary.
-{{% info %}}
 
+{{% info %}}
 Because fast task templates can be configured to be visible to an end user, as a type of *prompt* or one-click triggering function, or even configured to be *hidden* and tied to Tasklist Event Rules, triggering specific events automatically, it is imperative to pay close attention to Prompt fast tasks versus Hidden ones, linked to Tasklist Events, when auditing the standard list of pre-configured tasks.
 {{% /info %}}
+
 Additional setup may need considered so that the tasks, when stored, are set to save as the appropriate document type, rather than the default task note. Also, it is important to audit the [All Pending tab](https://system/?f=tlist&s=all_pending&tabmodule=tasklist&tabselect=All+Pending) to remove any unnecessary tasks.
 
 ### Tasklist Events
@@ -136,24 +161,19 @@ All available Tasklist Events will be audited with the client, in order to asses
 ### Security & Settings
 
 Review user security settings for users needing access to Tasking, and give permission, as appropriate. There is also information available within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help.
-
 ![](../review-session-tasking.assets/ea38ab5861f813c9a41e0bed507444bb.png)
-
 
 ### My Settings Preferences
 
 Review security roles and individual My Settings preferences of those needing access to the Task List module. Review permissions and set, as appropriate. This information is also available within the [My Settings](../../functions/system-administration/security/my-settings.md) online help.
-
 ![](../review-session-tasking.assets/1862f2bcec4387e1d4533a514c481962.png)
-
-
 ![](../review-session-tasking.assets/0ca506dc81f836108273a3a65ae1280c.png)
-
 
 ## Resources
 
 
 ### Help Documentation
+
 
 * [Fast Task Template](../../functions/task-management/fast-task-templates.md)
 * [Task List](../../functions/task-management/task-list.md)
@@ -161,6 +181,8 @@ Review security roles and individual My Settings preferences of those needing ac
 * [Adding Tasks](../../functions/task-management/adding-tasks.md)
 * [Task Report](../../functions/reports/task-report.md)
 
+
 ### Training Videos
+
 
 * [Tasking](https://mieweb.webex.com/mieweb/ldr.php?RCID=7cae93a5fb5435af1677ba54618fcc37) (00:22:00)

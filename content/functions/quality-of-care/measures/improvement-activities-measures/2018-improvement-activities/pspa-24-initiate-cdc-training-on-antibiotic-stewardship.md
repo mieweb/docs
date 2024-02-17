@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Zt9mCccJ2jc7eCnUy_Hgz_OINOSeOhhLx11ZLqn_Hyk'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -25,9 +25,9 @@ wikigdrive: 'latest'
 
 
 Supporting Documentation  
-Documented participation in and completion of greater than 50 percent of the modules of the Centers for Disease Control and Prevention antibiotic stewardship course. Find course at [https://www.train.org/cdctrain/course/1075730/compilation](https://www.train.org/cdctrain/course/1075730/compilation).  
-{{% note %}}
+Documented participation in and completion of greater than 50 percent of the modules of the Centers for Disease Control and Prevention antibiotic stewardship course. Find course at https://www.train.org/cdctrain/course/1075730/compilation.
 
+{{% note %}}
 Eligible clinicians and groups cannot attest to both IA_PSPA_23 and IA_PSPA_24 for the same QPP Year.
 {{% /note %}}
 

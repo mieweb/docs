@@ -1,9 +1,9 @@
 ---
 id: '1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
 title: 'CCDA, CCD and CCR Compatibility'
-date: '2023-06-27T17:53:22.221Z'
-version: 55
-lastAuthor: 'Doug Horner'
+date: '2024-02-06T19:54:07.241Z'
+version: 66
+lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.hl7.org/v3ballot/html/infrastructure/vocabulary/ReligiousAffiliation.htm'
@@ -26,7 +26,7 @@ links:
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
   - 'https://ttpedge.sitenv.org/ttp/#/validators'
 source: 'https://drive.google.com/open?id=1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Comparison Grid
 
@@ -242,33 +242,43 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 </table>
 
 
-## **Links to External Documentation**
+## Links to External Documentation
+
 
 * [IHE_CDA_Information](https://miewiki.med-web.com/wiki/index.php/IHE_CDA_Information)
-* The NIST validator is used to test the validity of the CDA documents: [http://xreg2.nist.gov/cda-validation/index.html](http://xreg2.nist.gov/cda-validation/index.html)
-* [PDF CCD/C83 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=83) In HTML: [http://wiki.hitsp.org/docs/C83/C83-1.html](http://wiki.hitsp.org/docs/C83/C83-1.html)
-* [PDF CCD/C32 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=32) In HTML: [http://wiki.hitsp.org/docs/C32/C32-1.html](http://wiki.hitsp.org/docs/C32/C32-1.html)
+* The NIST validator is used to test the validity of the CDA documents: http://xreg2.nist.gov/cda-validation/index.html
+* [PDF CCD/C83 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=83) In HTML: http://wiki.hitsp.org/docs/C83/C83-1.html
+* [PDF CCD/C32 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=32) In HTML: http://wiki.hitsp.org/docs/C32/C32-1.html
 * [HL7/ASTM Implementation Guide for CDA Release 2 - Continuity of Care Document (CCD) Release 1](https://miewiki.med-web.com/wiki/index.php/HL7/ASTM_Implementation_Guide_for_CDA_Release_2_-_Continuity_of_Care_Document_(CCD)_Release_1)
+
+
    * [Quick Start Guide to the HL7 Implementation Guide: CDA Release 2 – Continuity of Care Document (CCD)](https://miewiki.med-web.com/wiki/index.php/Quick_Start_Guide_to_the_HL7_Implementation_Guide:_CDA_Release_2_%E2%80%93_Continuity_of_Care_Document_(CCD))
+
+
 * [Unified Code for Units of Measure](http://unitsofmeasure.org/) aka UCUM which is a [standard](http://aurora.regenstrief.org/~ucum/ucum.html) for units on observations.
 * [CCR Specifications](https://miewiki.med-web.com/wiki/index.php/CCR_Specifications)
 * [C-CDA Specifications](https://miewiki.med-web.com/wiki/index.php/C-CDA_Specifications)
 * [cdapro.com](http://www.cdapro.com/)
 * [ONC C-CDA Scorecard](https://sitenv.org/ccda-smart-scorecard/)
 
-## **CCDA Testing Protocols**
 
-* [https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard](https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard)
-* [https://ttpedge.sitenv.org/ttp/#/validators](https://ttpedge.sitenv.org/ttp/#/validators)
+## CCDA Testing Protocols
+
+
+* https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard
+* https://ttpedge.sitenv.org/ttp/#/validators
+
 
 
 ## DS4P Document Policies
+
 
 * Webchart will include content when a CCDA document has a "restricted" level of data in the view of the CCDA document, as well as display the re-disclosure text provided in the CCDA document.
 * Webchart does not take any other steps in the handling of the DS4P marked documents, the operators of the system with the document can choose how they want to handle the document.
 
 
-## **Template ID Sections in Observation Codes**
+
+## Template ID Sections in Observation Codes
 
 This is a list of Template ID sections available to put on observation codes in webchart, and where, if anywhere, they would appear in the CDA/CCDA:  
 Template ID Sections in Observation Codes

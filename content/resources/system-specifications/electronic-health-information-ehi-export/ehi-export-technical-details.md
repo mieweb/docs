@@ -10,7 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
   - 'https://ecma-international.org/publications-and-standards/standards/ecma-404/'
 source: 'https://drive.google.com/open?id=1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Introduction
 
@@ -21,8 +21,10 @@ For details on the format of the JSON standard, please see the [JSON Data Interc
 ## System Requirements
 
 An EHI Export for a provider or an entire system can be an intensive process, especially when there is a large volume of patients or many years of history.  To support this process, the system performing the export should maintain the following minimum requirements:
+
 * 8GB RAM
 * Available hard drive space of at least 100MB/patient being exported
+
 In the event a customer does not have the hardware to perform such a process, assistance from MIE can be requested.
 
 ## Designated Record Set Content
@@ -5700,6 +5702,7 @@ In the event a customer does not have the hardware to perform such a process, as
 
 ```
 {{% /pre %}}
+
 ### Multiple Patients
 
 When performing a multi-patient export, one JSON file will be generated for each exported patient.  These files will then be compressed in a zip file.

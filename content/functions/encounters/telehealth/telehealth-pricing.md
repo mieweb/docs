@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'mailto:kari@mieweb.com'
 source: 'https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## TeleHealth Video
 
@@ -56,7 +56,7 @@ Video Pricing is based on the number of minutes your participants are connected 
 
 ## Recorded Visits
 
-In order to record visits, you must use the small room or larger video options. Peer to Peer video can not be recorded at this time. 
+In order to record visits, you must use the small room or larger video options. Peer to Peer video can not be recorded at this time.
 
 
 <table>
@@ -73,9 +73,11 @@ In order to record visits, you must use the small room or larger video options. 
 
 ## Initial Setup
 
+
 * Setup fees are waived during COVID-19 Response.
 * Credit Card required to set up monthly billing.
 * Consulting and configuration changes will be charged at $225/hr if requested.
+
 
 
 **_Example cost:_**  

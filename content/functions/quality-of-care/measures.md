@@ -1,16 +1,16 @@
 ---
 id: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
 title: 'Measures'
-date: '2020-02-27T21:28:53.378Z'
-version: 34
-lastAuthor: 'Alan Quandt'
+date: '2024-01-26T16:46:56.849Z'
+version: 39
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'measures/promoting-interoperability-pi-measures.md'
   - 'measures/improvement-activities-measures.md'
   - 'measures/quality-measures-list.md'
 source: 'https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -34,4 +34,5 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 [**Quality Measures**](measures/quality-measures-list.md)
+
 

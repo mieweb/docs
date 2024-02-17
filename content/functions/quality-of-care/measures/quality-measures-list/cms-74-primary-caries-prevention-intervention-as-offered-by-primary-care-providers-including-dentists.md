@@ -11,12 +11,12 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms074v11'
 source: 'https://drive.google.com/open?id=1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS74v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure) (2020)
-[CMS74v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v10&showresulttype=Measure) (2021)
+[CMS74v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure) (2020)  
+[CMS74v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v10&showresulttype=Measure) (2021)  
 [CMS74v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -114,12 +114,14 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 
 ### Workflow
 
+
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Preventive Care section
 3. Add Fluoride Application
 4. Enter the nearest completed date and save the order as completed
 5. Continue documenting the encounter, as appropriate
 6. When completed, Close and Archive the encounter
+
 
 ## Evidence
 

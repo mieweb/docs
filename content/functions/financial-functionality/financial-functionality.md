@@ -7,12 +7,14 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nh4HHOr1akWGgol1SR1uC4beRIMW1yEk4pBa-nGMBn0'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 The financial functionality of the system allows you to:
+
 * Track relationships between your organization and service providers, including recording and managing contractual details and controlling which services those providers can provide.
 * Set fees for services through fee schedules.
 * View reports such as account details and pending billing and generate statements and forms.
 * Post payments and manage ledger transactions.
+
 This section discusses:  
 {children }

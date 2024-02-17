@@ -8,9 +8,10 @@ mimeType: 'text/x-markdown'
 links:
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 If you customize a report using DataVis Grids Data Tools, the customized report will only be available to you.  
+
 1. Select the side menu. The side menu appears.
 2. Select <strong>Reports</strong>. The system displays a list of reports.
 3. From the list, select <strong>Financials</strong>. The system displays a list of financial reports.

@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1agijzK1k4UmLLBHTmrIXY_afWkLtQOz-JAIxgiAkvz8'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -19,18 +19,18 @@ wikigdrive: 'latest'
 
 **Activity Weighting**: High  
 **Subcategory Name**: Patient Safety and Practice Assessment  
-**Description**: Completion of all modules of the Centers for Disease Control and Prevention antibiotic stewardship course.  
-{{% note %}}
+**Description**: Completion of all modules of the Centers for Disease Control and Prevention antibiotic stewardship course.
 
+{{% note %}}
 This activity may be selected once every 4 years, to avoid duplicative information given that some of the modules may change on a year by year basis but over 4 years there would be a reasonable expectation for the set of modules to have undergone substantive change, for the improvement activities performance category score.
 {{% /note %}}
 
 
 
 Supporting Documentation
-Documented participation in and completion of all modules of the Centers for Disease Control and Prevention antibiotic stewardship course. Find course at [https://www.train.org/cdctrain/course/1075730/compilation](https://www.train.org/cdctrain/course/1075730/compilation) 
-{{% note %}}
+Documented participation in and completion of all modules of the Centers for Disease Control and Prevention antibiotic stewardship course. Find course at https://www.train.org/cdctrain/course/1075730/compilation 
 
+{{% note %}}
 Eligible clinicians and groups cannot attest to both IA_PSPA_23 and IA_PSPA_24 for the same QPP Year.
 {{% /note %}}
 

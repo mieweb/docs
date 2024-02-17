@@ -12,7 +12,7 @@ links:
   - 'system-administration/security.md'
   - 'system-administration/asset-management.md'
 source: 'https://drive.google.com/open?id=1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -23,17 +23,18 @@ The System Administration module is designed to help practices control and monit
 
 
 {{% section %}}
-
 {{% column width="33" %}}
 
 [**System Controls**](system-administration/system-controls.md):
 System administrators can control access to the various components of the system, as well as user abilities, such as adding/modifying data, prescribing medications, or documenting exams, for example.
 {{% /column %}}
+
 {{% column width="33" %}}
 
 [**Data Migration**](system-administration/data-migration.md):
 Data migration is a process used for a variety of things, such as application migration, equipment replacement, system upgrades, or maintenance, just to name a few. The following resources have been designed to assist users in understanding the appropriate workflows for the available data migration functionalities within the {{% system-name %}} system.
 {{% /column %}}
+
 {{% column width="33" %}}
 
 [**Interfaces**](system-administration/interfaces.md):
@@ -44,12 +45,12 @@ We at {{% system-name %}} understand the importance of being connected and integ
 
 
 {{% section %}}
-
 {{% column width="45" %}}
 
 [**Security**](system-administration/security.md):
 Today, security is an important part of every type of integrated software. Here, users can review the available security documentation, and system administrators can set up and configure security roles, settings, and login standards, as appropriate.
 {{% /column %}}
+
 {{% column width="45" %}}
 
 [**Asset Management**](system-administration/asset-management.md):

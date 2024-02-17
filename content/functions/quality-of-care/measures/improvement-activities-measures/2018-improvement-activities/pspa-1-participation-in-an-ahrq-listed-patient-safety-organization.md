@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1sLKjtuVqRzZXldr6YuRzGOTd7ICndIJIaSzld3cx0ng'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -25,7 +25,7 @@ wikigdrive: 'latest'
 
 
 Supporting Documentation  
-Documentation from an AHRQ-listed patient safety organization (PSO) confirming the eligible clinician or group's participation with the PSO. PSOs listed by AHRQ are here: [http://www.pso.ahrq.gov/listed](http://www.pso.ahrq.gov/listed)
+Documentation from an AHRQ-listed patient safety organization (PSO) confirming the eligible clinician or group's participation with the PSO. PSOs listed by AHRQ are here: http://www.pso.ahrq.gov/listed
 
 
 

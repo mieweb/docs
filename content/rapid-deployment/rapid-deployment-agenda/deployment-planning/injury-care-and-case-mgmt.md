@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-injury-care.md'
   - '../../review-sessions/review-session-case-management.md'
 source: 'https://drive.google.com/open?id=1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Purpose
 
@@ -21,28 +21,104 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
+
 * Demonstrate Injury Care
-  * Overview
+
+
+   * Overview
+
+
+
+
       * Security Permissions
       * Insurance Interface
       * Work-Related Case Management
       * System Configuration
+
+
+
+
+
+
          * Import Tools
          * Cases
+
+
+
+
+
+
+
+
             * Incident On-Site Locations
             * Nature of Illness/Injury and Body Parts
             * Restrictions (Types) & Accommodations
-                * Restriction Providers
+
+
+
+
+
+
+
+
+
+
+               * Restriction Providers
+
+
+
+
+
+
+
+
+
+
             * Event and Source
+
+
+
+
+
+
+
+
          * State-Specific Forms/Print Definitions
+
+
+
+
+
+
       * Reporting
+
+
+
+
+
+
          * Work Status Report Document
          * OSHA 300/300A Import for Partial Year (spec)
          * Portal
+
+
+
+
+
+
       * E-File with OSHA
       * Resources
+
+
+
 * Demonstrate Case Management
-  * Case Management Overview
+
+
+   * Case Management Overview
+
+
+
+
       * Case Management Functionality
       * Case Management Encounter
       * Case Management Worklist
@@ -50,6 +126,9 @@ Review the standard  {{% system-name %}} workflows and gather information neede
       * Work-Related Case Management
       * Reporting
       * Resources
+
+
+
 
 ## Afterward
 

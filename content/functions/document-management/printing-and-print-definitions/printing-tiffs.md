@@ -7,9 +7,10 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Printing Documents from a Tiff Printer
+
 
 1. Open windows based software or WORD.
 2. Call patient report within in the originating application. (ie, pacemaker, sleep study)
@@ -24,6 +25,8 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 {{% system-name %}}5.  will automatically launch and you will be prompted to log in if application is not open. Once logged into {{% system-name %}} , you will be taken directly to the Tiff Indexing screen.
+
+
 
 6. Once at this screen, Enter Date of Study, Document type, Referring Physician name, Patient name and Service Location. These fields are auto complete fields, so it is not necessary to type the entire data in.
 
@@ -45,4 +48,3 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 11. The user may browse away from this screen, or toggle back to another application (sleep software or Pacemaker software). The next job that the user "prints" to {{% system-name %}} will refresh this screen. If the user chooses to browse in {{% system-name %}} , you will see the below warning. It is ok to browse, simply click "OK" to proceed.
 
 ![](../printing-tiffs.assets/26db0ed39b7643a3b6e5282378ed757c.png)
-

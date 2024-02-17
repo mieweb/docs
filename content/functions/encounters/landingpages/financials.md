@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Financials
 
@@ -16,10 +16,12 @@ THE FINANCIAL SECTION
 
 Basic things about Financials
 ```
+
 <pre>Some of it is automatically added from other sections</pre><pre>Some of it may be manually added</pre><pre>CPT codes are automatically added</pre>
 ```
 
 ```
+
 
 ```
 
@@ -47,7 +49,8 @@ Highlight list of charges.</td>
 </tr>
 <tr>
 <td><pre>In the Add Charge window, you can:</pre>
-<ul><li><pre>Select the item (Order)</pre></li><li><pre>Add the CPT code, although if the order has one, it will populate after selecting the order</pre></li><li><pre>Add reasons.  These are conditions, and you can select them from the patient's Problem List - Active or Inactive.</pre></li><li><pre>Add modifiers and there is a quicklist on the right that can help you do so.</pre></li><li><pre>Add quantity</pre></li><li><pre>Add price if not populated by the selected order/CPT combination</pre></li><li><pre>Add a memo</pre></li></ul><pre>Select the Save button to save the charge. The charge appears in the Financials section.</pre></td>
+<ul><li><pre>Select the item (Order)</pre></li><li><pre>Add the CPT code, although if the order has one, it will populate after selecting the order</pre></li><li><pre>Add reasons.  These are conditions, and you can select them from the patient's Problem List - Active or Inactive.</pre></li><li><pre>Add modifiers and there is a quicklist on the right that can help you do so.</pre></li><li><pre>Add quantity</pre></li><li><pre>Add price if not populated by the selected order/CPT combination</pre></li><li><pre>Add a memo</pre></li></ul>  
+<pre>Select the Save button to save the charge. The charge appears in the Financials section.</pre></td>
 <td>Select "Charge" in quicklist, "Add Charge" window appears.
 Highlight "Item" field.
 

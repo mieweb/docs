@@ -12,7 +12,7 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms124v10'
 source: 'https://drive.google.com/open?id=1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -114,29 +114,49 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 
 
+
+
 ### Original Visit Encounter
 
 Ensure all women aged 23-64 are screened for cervical cancer, at least once within the measurement period. Use the Past Procedures section of the encounter to record a previous HPV or Pap test; otherwise, use the Visit Orders section of the encounter to order/perform one of the recognized procedures (i.e., HPV Test or Pap Test) at the time of the encounter. While documenting the Visit encounter, either record the previous procedure or the receipt of the recognized procedure, or order and perform the test, as appropriate.
+
 1. <strong>Option 1: Document in the Past Procedures section</strong>
+
+
    1. Open the Past Procedures section
    2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., PAP Test, HPV DNA Detection, etc.) with the appropriate Concept ID (e.g., LOINC).
    3. Add the Date and any relevant Notes.
    4. Click the Next button, or close the section
-1. <strong>Option 2: Document in the Preventive Care section</strong>
+
+
+2. <strong>Option 2: Document in the Preventive Care section</strong>
+
+
    1. Open the Preventive Care section
    2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2020). This date is the Last Reported Date
    3. Click the Next button, or close the section
-1. <strong>Option 3: Document in the Tests and Procedures section IF performing the screening in-house</strong>
+
+
+3. <strong>Option 3: Document in the Tests and Procedures section IF performing the screening in-house</strong>
+
+
    1. Open the Tests and Procedures section
    2. Using the autocomplete, begin typing the appropriate procedure name
    3. Click the Add to Exam button
    4. After adding the new section, open the procedure section and add any results or findings
    5. Click the Next button, or close the section
-1. Continue documenting the encounter, as needed
-2. When completed, Close and Archive the encounter
+
+
+4. Continue documenting the encounter, as needed
+5. When completed, Close and Archive the encounter
+
 * <strong>Option 4: Scan/Index or Upload an accepted Document</strong>
 
+
+
    1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C (e.g., 33717-0).
+
+
 
 ## Evidence
 

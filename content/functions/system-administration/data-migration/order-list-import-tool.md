@@ -8,19 +8,23 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool. 
-* File format: Data file shall be formatted in Comma Separated Values (CSV). 
-* The first row of the file shall contain column header information. 
-* Each subsequent row shall represent an order item.  
-* The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type. 
+This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
+
+* File format: Data file shall be formatted in Comma Separated Values (CSV).
+* The first row of the file shall contain column header information.
+* Each subsequent row shall represent an order item. 
+* The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type.
+
 
 ## Column Definition
 
-The order list column definition shall contain all columns listed below regardless if there is a value or not. 
+The order list column definition shall contain all columns listed below regardless if there is a value or not.
+
 * R = Required
 * O = Optional
+
 
 <table>
 <tr>
@@ -97,7 +101,6 @@ BILTO,Bilirubin Total,LAB5017,1975-2,82247,SST,,N
 CREAT,Creatinine,LAB5023,,82565,SST,,N
 GLU,Glucose,LAB5062,14749-6,82947,SST,,N
 BSS,"Occult Blood Screening, Stool",LAB5093,,82270,Non sterile container,,N
-
 {{% /pre %}}
 
 

@@ -12,7 +12,7 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms125v10'
 source: 'https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -58,7 +58,9 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Women who had a bilateral mastectomy or who have a history of a bilateral mastectomy or for whom there is evidence of a right and a left unilateral mastectomy.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p><ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul></li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
+<td><ul><li><p>Women who had a bilateral mastectomy or who have a history of a bilateral mastectomy or for whom there is evidence of a right and a left unilateral mastectomy.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p>
+<ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul>  
+</li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -112,23 +114,48 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 
 
+
+
 ### Original Visit Encounter
 
 Use the Past Procedures section of the encounter to record a previous mammogram, in order to track all 50-74 year-old women with one or more mammograms recorded (15 months prior to or during the measurement period). Otherwise, the procedure can be recorded in the Preventive Care section of the encounter, or a mammogram can be scanned and indexed, to record the screening was completed.
+
 1. While documenting the Visit encounter, either record the previous procedure or the receipt of the mammogram, or scan and index the mammogram, as appropriate:
+
+
    1. <strong>Option 1:</strong> <strong>Document in Past Procedures section</strong>
+
+
+
+
       1. Open the Past Procedures section.
       2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Mammogram) with the appropriate concept ID.
       3. Add the Date and any relevant Notes.
       4. Click the Next button, or close the section.
-   1. <strong>Option 2: Document in the Preventive Care section of Visit encounter</strong>
+
+
+
+
+   2. <strong>Option 2: Document in the Preventive Care section of Visit encounter</strong>
+
+
+
+
       1. Open the Preventive Care section.
       2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-21-2018). This date is the Last Reported Date.
       3. Click the Next button, or close the section. 
-1. Continue documenting the encounter, as needed.
-2. When completed, Close and Archive the encounter.
+
+
+
+2. Continue documenting the encounter, as needed.
+3. When completed, Close and Archive the encounter.
+
 * <strong>Option 3: Scan/Index or Upload a Mammogram document</strong>
+
+
    * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the MAMMO document type configured with the necessary LOIN-C (24606-6).
+
+
 
 ## Evidence
 

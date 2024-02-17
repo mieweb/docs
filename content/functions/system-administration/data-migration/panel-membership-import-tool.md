@@ -11,21 +11,19 @@ links:
   - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.md) help documentation for more information regarding its many uses.
 
 The Panel Membership Import Tool uses partitions and medical record numbers (MRNs) to match patients' panel information to their charts. Therefore, work with your MIE Implementer, as needed, to import panel memberships, so that all data and columns are captured correctly, before importing via this tool.
 
 {{% warning %}}
-
 Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.md); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
-
 ![](../panel-membership-import-tool.assets/5cab3522106766df005f29e69b6fc35d.png)
-
 {{% /warning %}}
 
 The following page defines data and fields that may be imported using the panel membership import tool. It is valuable to recognize the following terminology as it pertains to {{% system-name %}} systems:
+
 * <strong>Panel</strong> - Defines a group of events or actions that will take place on certain profiles of people on a regular schedule in the Health Surveillance module. Panels are sometimes referred to as exposure groups, as panels are used for groups exposed to certain hazards due to their job roles. The panels table is also used to document regularly scheduled voluntary health screenings or checkups. A <em>panel action</em> refers to a procedure that is completed for a patient as part of a panel.
 * <strong>Panel ID</strong> - The client-identified primary key used to identify the panel.
 * <strong>Partition</strong> - Often used to restrict which charts a user may access. Partitions are used to organize groups of charts.
@@ -33,16 +31,21 @@ The following page defines data and fields that may be imported using the panel 
 * <strong>Order</strong> - Term used loosely when any method is used to request tests, labs, radiology studies, and E-Orders.
 * <strong>Encounter Order</strong> - Generated from an encounter (a patient visit) or an order that must be completed from within an encounter.
 
+
 ## Specifications
+
 
 {{% system-name %}}*  end user with administrative privileges
 * Spreadsheet software for formatting the data file (e.g., Microsoft Excel or Google Sheets); data files must be formatted in Comma Separated Values (CSV)
 * The first row of the file must contain column header information
 * Each subsequent row represents an encounter order
 
+
 ## Create Panel Membership Data CSV File
 
+
 1. The following table provides optional or required <strong>Field Names</strong> and <strong>Descriptions</strong>, as indicated by the <strong>Requirement</strong> column. Items marked as <em>Best Practice</em> or <em>Optional</em> are not required and may be left blank, or omitted entirely. PARTITION must be the first column in the CSV file. The order of the remaining fields does not matter.
+
 
 
 <table>
@@ -73,7 +76,9 @@ The following page defines data and fields that may be imported using the panel 
 <tr>
 <td>INCLUDE</td>
 <td>This field determines whether to Include to panel or Exclude from panel:
-<ul><li><ul><li><p><strong>1</strong> = Include to panel</p></li><li><p><strong>0</strong> = Exclude from panel</p></li></ul></li></ul></td>
+<ul><li>
+<ul><li><p><strong>1</strong> = Include to panel</p></li><li><p><strong>0</strong> = Exclude from panel</p></li></ul>  
+</li></ul></td>
 <td>integer</td>
 <td><strong>Required</strong></td>
 </tr>
@@ -99,15 +104,18 @@ The following page defines data and fields that may be imported using the panel 
 
 </table>
 
-1. Using the table, above, determine the data to be imported. Starting with the PARTITION field, enter all required and desired data, verifying required data is present. Note that each row represents a panel membership record. Below is a screenshot of the Panel Membership Data File Example for guidance.
+
+2. Using the table, above, determine the data to be imported. Starting with the PARTITION field, enter all required and desired data, verifying required data is present. Note that each row represents a panel membership record. Below is a screenshot of the Panel Membership Data File Example for guidance.
 
 
 ![](../panel-membership-import-tool.assets/3fd82738893d6be993e61af6beb2add7.png)
 
 
-2. Save the file as CSV format.
+3. Save the file as CSV format.
+
 
 ## Upload Panel Membership Data CSV File
+
 
 1. Login as a user with administrator privileges.
 2. Navigate to the [Control Panel](https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
@@ -138,13 +146,13 @@ Use the help bubble to see what panel IDs your {{% system-name %}} system has to
 ![](../panel-membership-import-tool.assets/4abf1c02d7137491533e63bef4127265.png)  
 {{% /tip %}}
 
+
 6. Click the <strong>Choose File</strong> button, and select the panel membership data CSV file (from Step 5) and click <strong>Upload</strong>.
 
-   <img src="../panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png" />
+   ![](../panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png)
 
 
 {{% tip %}}
-
 *For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
 {{% /tip %}}
 

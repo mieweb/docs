@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-system-configuration.md'
 source: 'https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Purpose
 
@@ -20,21 +20,34 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
+
 * [System Configuration Review Session](../../review-sessions/review-session-system-configuration.md) and Demonstration
-  * Corporate Branding (Logo)
-  * Add/update Locations
-  * Add Users
+
+
+   * Corporate Branding (Logo)
+   * Add/update Locations
+   * Add Users
+
+
+
+
       * Setup Providers/Prescribers
       * Add Provider Signature
       * Set User/Patient Relationships
-  * Review Chart Tabs/Document Types
-  * Determine Employer Organization Needs (if any)
-  * Determine Provider Organization Needs (if any)
-  * Load CPT Codes, CPT Picklists, and Modifiers (if any)
-  * Load Fee Schedule(s) (if any)
-  * Load Insurance Plans (if any)
-  * Review the My Settings User Preferences
-  * Review System Jobs
+
+
+
+
+   * Review Chart Tabs/Document Types
+   * Determine Employer Organization Needs (if any)
+   * Determine Provider Organization Needs (if any)
+   * Load CPT Codes, CPT Picklists, and Modifiers (if any)
+   * Load Fee Schedule(s) (if any)
+   * Load Insurance Plans (if any)
+   * Review the My Settings User Preferences
+   * Review System Jobs
+
+
 
 ## Afterward
 

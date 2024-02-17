@@ -9,9 +9,10 @@ links:
   - 'accessing-the-ledger.md'
   - 'finding-ledger-transactions.md'
 source: 'https://drive.google.com/open?id=1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 Only transactions that have not been closed can be voided.
+
 1. [Access the ledger](accessing-the-ledger.md).
 2. [Find ledger transactions](finding-ledger-transactions.md).
 3. Select the transaction number of the transaction to void. The <em>Update Transaction</em> window appears.

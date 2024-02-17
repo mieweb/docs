@@ -2,7 +2,7 @@
 id: '1JqO9WpTRHcNZrB65zx7dqQ-DXlsaWGfHS_qMkp-bCJs'
 title: 'Real World Testing Results 2022'
 date: '2024-01-26T20:26:41.153Z'
-version: 406
+version: 407
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -25,9 +25,9 @@ links:
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://github.mieweb.com/webchart/wcexport'
 source: 'https://drive.google.com/open?id=1JqO9WpTRHcNZrB65zx7dqQ-DXlsaWGfHS_qMkp-bCJs'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-[Executed Real World Testing Results 2022 PDF Version](https://drive.google.com/file/d/1jodfHoSV12rtcGQyQPHL42mRBtZHtpqw) 
+[Executed Real World Testing Results 2022 PDF Version](https://drive.google.com/file/d/1jodfHoSV12rtcGQyQPHL42mRBtZHtpqw)   
 
 ## General Information
 
@@ -56,7 +56,7 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
-<td>https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/</td>
+<td><a href="https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/">https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/</a></td>
 </tr>
 <tr>
 <td><strong>Results Submission Date</strong></td>
@@ -126,19 +126,21 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 
 ## Certification Criteria Tested
 
-* ‘‘Transitions of care" (§ 170.315(b)(1) Cures Update); 
-* "Clinical information reconciliation and incorporation" (§ 170.315(b)(2)); 
-* "Electronic prescribing" (§ 170.315(b)(3) Cures Update); 
-* "Data export" (§ 170.315(b)(6)); 
-* "CQMs – record and export" (§ 170.315(c)(1)); 
-* "CQMs – import and calculate" (§ 170.315(c)(2)); 
-* "CQMs – report" (§ 170.315(c)(3)); 
-* "View, download, and transmit to 3rd party" (§ 170.315(e)(1)); 
-* "Transmission to immunization registries" (§ 170.315(f)(1)); 
-* "Application access – patient selection" (§ 170.315(g)(7)); 
-* "Application access – data category request" (§ 170.315(g)(8)); 
-* "Application access—all data request" (§ 170.315(g)(9) Cures Update); 
-* "Direct Project" (§ 170.315(h)(1)) 
+
+* ‘‘Transitions of care" (§ 170.315(b)(1) Cures Update);
+* "Clinical information reconciliation and incorporation" (§ 170.315(b)(2));
+* "Electronic prescribing" (§ 170.315(b)(3) Cures Update);
+* "Data export" (§ 170.315(b)(6));
+* "CQMs – record and export" (§ 170.315(c)(1));
+* "CQMs – import and calculate" (§ 170.315(c)(2));
+* "CQMs – report" (§ 170.315(c)(3));
+* "View, download, and transmit to 3rd party" (§ 170.315(e)(1));
+* "Transmission to immunization registries" (§ 170.315(f)(1));
+* "Application access – patient selection" (§ 170.315(g)(7));
+* "Application access – data category request" (§ 170.315(g)(8));
+* "Application access—all data request" (§ 170.315(g)(9) Cures Update);
+* "Direct Project" (§ 170.315(h)(1))
+
 
 ## Criteria-Measure Matrix
 
@@ -615,7 +617,7 @@ Additionally, WebChart EHR has two customers that participate in quarterly attes
 
 #### Discussion
 
-As expected, no errors were found in formatting or coding of the certified measures.  One warning was reported by a client where a provider NPI was included in the QRDA III file, but the provider had been removed from the client reported roster.  The provider producing the warning departed the practice mid-year causing data to be tracked in WebChart EHR for encounters that the provider performed prior to their departure.  This warning was determined to be of no impact to the eCQM certified functionality. Additionally, one QRDA III error was reported by a client where the performance rate was calculated without removing the exclusions from the denominator prior to calculation; however, since the error occurred on a non-certified measure, this error was determined to be of no impact to the certified eCQM functionality.   
+As expected, no errors were found in formatting or coding of the certified measures.  One warning was reported by a client where a provider NPI was included in the QRDA III file, but the provider had been removed from the client reported roster.  The provider producing the warning departed the practice mid-year causing data to be tracked in WebChart EHR for encounters that the provider performed prior to their departure.  This warning was determined to be of no impact to the eCQM certified functionality. Additionally, one QRDA III error was reported by a client where the performance rate was calculated without removing the exclusions from the denominator prior to calculation; however, since the error occurred on a non-certified measure, this error was determined to be of no impact to the certified eCQM functionality.     
 
 ### Measure 2: Clinical Quality Measures Incoming
 
@@ -728,6 +730,7 @@ This measure will verify that all supported e-prescribing message types are in u
 #### Test Methodology
 
 MIE will report a count of messages for each supported message type:
+
 * NewRx
 * RxChangeRequest
 * RxChangeResponse
@@ -741,6 +744,7 @@ MIE will report a count of messages for each supported message type:
 * Status
 * Error
 * Verify
+
 The report will also include a count of outbound messages unable to be transmitted due to connectivity issues or other errors, for each message type. This report will be based on the contents of each client's local database table of stored messages. MIE will run the report for each client under consideration and aggregate the results.
 
 #### Results
@@ -1585,15 +1589,15 @@ An external uptime monitor will check the availability of all documentation avai
 
 #### Results
 
-The MIE API documentation was available 99.967% of the time. 
+The MIE API documentation was available 99.967% of the time.
 
 The MIE API documentation was available 99.997% of Q1.  There was a 3 minute down period on March 17, 2022 due to a connection timeout.
 
-The MIE API documentation was available 100% of Q2. 
+The MIE API documentation was available 100% of Q2.
 
 The MIE API documentation was available 99.902% of Q3.  There were several short down-time events during July averaging 17.29 minutes per event all due to Cloudflare timeouts.
 
-The MIE API documentation was available 99.967% of Q4.  Three instances of prolonged downtime occurred (10/14/2022: 13 minutes  -unannounced US Signal downtime issue , 10/27/2022: 5 minutes - unannounced US Signal downtime issue, 12/6/2022: 25 minutes - **** US Signal HRN Maintenance Window). 
+The MIE API documentation was available 99.967% of Q4.  Three instances of prolonged downtime occurred (10/14/2022: 13 minutes  -unannounced US Signal downtime issue , 10/27/2022: 5 minutes - unannounced US Signal downtime issue, 12/6/2022: 25 minutes - **** US Signal HRN Maintenance Window).   
 
 #### Discussion
 
@@ -1661,7 +1665,7 @@ The number of invalid validations were higher than anticipated.  Work is continu
 
 #### Description
 
-This measure will verify that the system can generate a VXU conforming to the HL7 v2.5.1 standard, CDC guidance for communication to Immunization Registries and state/local guidance. The VXU messages shall contain information related to the demographics and vaccination administration record. 
+This measure will verify that the system can generate a VXU conforming to the HL7 v2.5.1 standard, CDC guidance for communication to Immunization Registries and state/local guidance. The VXU messages shall contain information related to the demographics and vaccination administration record.   
 
 #### Associated Certification Criteria
 
@@ -1837,7 +1841,7 @@ This measure will verify that the system conforms to Direct Project message rece
 
 #### Test Methodology
 
-MIE will report from logs the number of messages transmitted to the HISP.  MIE will report from logs the number of messages failing to conform to Direct Project specifications.  MIE will report from logs the number of messages which are successfully delivered to recipients. 
+MIE will report from logs the number of messages transmitted to the HISP.  MIE will report from logs the number of messages failing to conform to Direct Project specifications.  MIE will report from logs the number of messages which are successfully delivered to recipients.   
 
 #### Results
 
@@ -1869,7 +1873,7 @@ Receipt of Direct Messages for this year was very limited. In 2023 we are lookin
 
 #### Description
 
-This measure will verify that a patient can view various document types within the patient portal. 
+This measure will verify that a patient can view various document types within the patient portal.
 
 
 #### Associated Certification Criteria
@@ -1896,10 +1900,12 @@ This measure will verify that a patient can view various document types within t
 #### Test Methodology
 
 MIE will report a number of measurements surrounding documents, including:
+
 * Number of documents sent successfully to patients in the patient portal
 * Number of documents unsuccessfully sent to the patient portal
-* Number of documents read by patients in the patient portal 
-* Number of failures in the ability to read messages in the patient portal 
+* Number of documents read by patients in the patient portal
+* Number of failures in the ability to read messages in the patient portal
+
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files as well as any client reported issues tracked during the testing period.
 
 #### Results
@@ -1936,7 +1942,7 @@ The low number of CDA documents in the NMC patient portal was because workflows 
 
 #### Description
 
-This measure will verify that a patient can download various document types within the patient portal. 
+This measure will verify that a patient can download various document types within the patient portal.   
 
 #### Associated Certification Criteria
 
@@ -1963,10 +1969,12 @@ This measure will verify that a patient can download various document types with
 #### Test Methodology
 
 MIE will report a number of measurements surrounding documents, including:
+
 * Number of documents sent successfully to patients in the patient portal
 * Number of documents unsuccessfully sent to the patient portal
-* Number of documents successfully downloaded from the patient portal 
-* Number of documents unsuccessful in being downloaded from the patient portal. 
+* Number of documents successfully downloaded from the patient portal
+* Number of documents unsuccessful in being downloaded from the patient portal.
+
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
 
 #### Results
@@ -2029,10 +2037,12 @@ This measure will verify that a patient can transmit various document types with
 #### Test Methodology
 
 MIE will report a number of measurements surrounding documents, including:
+
 * Number of documents sent successfully to patients in the patient portal
 * Number of documents unsuccessfully sent to the patient portal
-* Number of documents successfully transmitted from the patient portal 
-* Number of documents unsuccessful in being transmitted from the patient portal. 
+* Number of documents successfully transmitted from the patient portal
+* Number of documents unsuccessful in being transmitted from the patient portal.
+
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
 
 #### Results
@@ -2152,8 +2162,10 @@ This measure will verify that a user can use WebChart EHR's Data Export Tool to 
 #### Test Methodology
 
 MIE will report from the event log database tables a series of occurrences that indicates use of the WebChart EHR Data Export Tool:
+
 * Event logs of the report to find all patients for Document Export being called.
-* Event logs of CDA documents being generated within a certain short time period following the report. 
+* Event logs of CDA documents being generated within a certain short time period following the report.
+
 MIE will track customer reports of data expected to be in mass data export downloads that did not download as failures.
 
 #### Results
@@ -2283,9 +2295,11 @@ This measure will verify that the API as outlined in WebChart EHR's documentatio
 #### Test Methodology
 
 To address the overall automated testing, the following test requests will be made daily against a test system in a production environment.
+
 * Issue a request in the browser to search for a patient (patient selection)
 * Issue a request in the browser to request demographics of a patient (data category request)
 * Issue a request using the export tool described in the documentation.
+
 All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
 
 #### Results
@@ -2309,7 +2323,7 @@ All API requests made in production systems are recorded in log files.  The numb
 
 #### Discussion
 
-As expected, the production use of the API was rare, but the total number of export errors was minimal.  Patient chart exports were successful in 99.9% of cases. 
+As expected, the production use of the API was rare, but the total number of export errors was minimal.  Patient chart exports were successful in 99.9% of cases.
 
 
 ### Measure 21: Web Content Accessibility
@@ -2430,7 +2444,7 @@ B.10 planned for 2023</td>
 
 ## Attestation
 
-This Real World Testing plan is complete with all required elements, including measures that address all certification criteria and care settings. All information in this plan is up to date and fully addresses the health IT developer's Real World Testing requirements. 
+This Real World Testing plan is complete with all required elements, including measures that address all certification criteria and care settings. All information in this plan is up to date and fully addresses the health IT developer's Real World Testing requirements.
 
 
 

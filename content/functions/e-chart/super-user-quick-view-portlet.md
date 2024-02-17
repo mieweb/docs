@@ -19,9 +19,10 @@ links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://system/'
 source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 If you are a superuser and need access to view or edit the following areas of the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) sidemenu, you will need additional security access to do so.
+
 * [Layout Manager](https://system/?f=admin&subfunc=layout_manager&t=Layout+Manager&tabmodule=admin&tabselect=Layout+Manager)
 * [Refer to Systems](https://system/?f=admin&subfunc=rts_editor&t=Refer+to+Systems&tabmodule=admin&tabselect=Refer+to+Systems) editor
 * [System Report](https://system/?f=admin&s=system_report&tabmodule=admin&tabselect=System+Report) manager
@@ -30,18 +31,17 @@ If you are a superuser and need access to view or edit the following areas of th
 * [Tasklist Events](https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events) ([Task List](https://system/?func=tlist) sidemenu)
 * [System Configuration](https://system/?f=admin&s=sysconfigmgr&tabmodule=admin&tabselect=System+Configuration)
 * Portions of the [Chart Tabs](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) editor
-When trying to access any of the areas listed above and you do not have additional SuperUser access, an error message will display.
 
+When trying to access any of the areas listed above and you do not have additional SuperUser access, an error message will display.
 
 ![](../super-user-quick-view-portlet.assets/a4fba68e4425b66809e3f3e6a6e419b5.png)
 
-
 {{% note %}}
-
 Any SuperUser that requires a password to access those areas above should consult their MIE Implementer.
 {{% /note %}}
 
 To access and activate the SuperUser access required, the user must:
+
 1. Add the<strong> SuperUser portlet</strong> to the [Quick View](https://system/) sidemenu.
 
 ![](../super-user-quick-view-portlet.assets/c5610c005797da5a621b3bcdb2fd56a7.png)
@@ -60,6 +60,7 @@ To access and activate the SuperUser access required, the user must:
 ![](../super-user-quick-view-portlet.assets/9e8dd2e78e50370e817a18587c444429.png)
 
 6. If the system did not recognize the correct password, it will alert you to try again.
+
 
 The password enables the logged-in superuser access to the areas mentioned above. In other words, after the superuser signs out, the superuser must re-enter the password into the portlet, in order to regain access to those areas. The password is not required for normal functionality.
 

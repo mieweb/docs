@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg'
-wikigdrive: 'latest'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 
 
@@ -19,7 +19,7 @@ wikigdrive: 'latest'
 
 **Activity Weighting**: Medium  
 **Subcategory Name**: Patient Safety and Practice Assessment  
-**Description**: Use of tools that assist specialty practices in tracking specific measures that are meaningful to their practice, such as use of a surgical risk calculator, evidence based protocols such as Enhanced Recovery After Surgery (ERAS) protocols, the CDC Guide for Infection Prevention for Outpatient Settings, ([https://www.cdc.gov/hai/settings/outpatient/outpatient-care-guidelines.html](https://www.cdc.gov/hai/settings/outpatient/outpatient-care-guidelines.html)), predictive algorithms, or other such tools.
+**Description**: Use of tools that assist specialty practices in tracking specific measures that are meaningful to their practice, such as use of a surgical risk calculator, evidence based protocols such as Enhanced Recovery After Surgery (ERAS) protocols, the CDC Guide for Infection Prevention for Outpatient Settings, (https://www.cdc.gov/hai/settings/outpatient/outpatient-care-guidelines.html), predictive algorithms, or other such tools.
 
 
 

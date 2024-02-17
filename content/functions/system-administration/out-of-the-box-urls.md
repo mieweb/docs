@@ -20,7 +20,7 @@ links:
   - 'data-migration/create-pft-data-file-for-import.md'
   - 'data-migration/summary-documents-csv-api.md'
 source: 'https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 The following URLs have been compiled to assist with any implementation efforts which may call for a list of friendly domains, which will require whitelisting for user access using the {{% system-name %}} system. 
 
@@ -31,10 +31,7 @@ The following URLs have been compiled to assist with any implementation efforts 
 ```
 
 {{% pre %}}
-
-
 http://blog.enterprisehealth.com/topic/news-and-events
-
 
 {{% /pre %}}
 
@@ -49,8 +46,6 @@ http://blog.enterprisehealth.com/topic/news-and-events
 ```
 
 {{% pre %}}
-
-
 https://www.mieweb.com/
 
 https://www.nomoreclipboard.com/
@@ -58,7 +53,6 @@ https://www.nomoreclipboard.com/
 https://www.google.com/?gws_rd=ssl#spf=1568128298269
 
 https://www.uptodate.com/home
-
 
 {{% /pre %}}
 
@@ -73,10 +67,7 @@ https://www.uptodate.com/home
 ```
 
 {{% pre %}}
-
-
 https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true
-
 
 {{% /pre %}}
 
@@ -91,10 +82,7 @@ https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true
 ```
 
 {{% pre %}}
-
-
 https://www.bls.gov/ncs/ors/physical-072015.htm
-
 
 {{% /pre %}}
 
@@ -109,10 +97,7 @@ https://www.bls.gov/ncs/ors/physical-072015.htm
 ```
 
 {{% pre %}}
-
-
 https://www.mdguidelines.com/
-
 
 {{% /pre %}}
 
@@ -130,12 +115,9 @@ https://www.mdguidelines.com/
 ```
 
 {{% pre %}}
-
-
 //www.mayoclinic.org/
 
 //www.mayoclinic.org/healthy-lifestyle
-
 
 {{% /pre %}}
 
@@ -150,12 +132,9 @@ https://www.mdguidelines.com/
 ```
 
 {{% pre %}}
-
-
 //www.heart.org/HEARTORG/
 
 //www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
-
 
 {{% /pre %}}
 
@@ -170,12 +149,9 @@ https://www.mdguidelines.com/
 ```
 
 {{% pre %}}
-
-
 //www.cdc.gov/
 
 //www.cdc.gov/about/24-7/index.html
-
 
 {{% /pre %}}
 
@@ -190,12 +166,9 @@ https://www.mdguidelines.com/
 ```
 
 {{% pre %}}
-
-
 //www.heart.org/HEARTORG/
 
 //www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
-
 
 {{% /pre %}}
 
@@ -210,12 +183,9 @@ https://www.mdguidelines.com/
 ```
 
 {{% pre %}}
-
-
 //www.internationalsos.com/
 
 //www.internationalsos.com/medical-and-security-services
-
 
 {{% /pre %}}
 
@@ -225,12 +195,16 @@ https://www.mdguidelines.com/
 
 ### Portal URLS
 
+
 * URL to access Applicant Portal is unique per customer (if utilized)
 * URL to access Employee/Supervisor Portal is unique per customer (if utilized)
 
+
 ### Patient Education
 
+
 * Due to the need of a unique key for access, Healthwise would use a unique URL per customer, which will be configured for the client if this functionality is utilized. 
+
 **Example**: [https://clinicianIx.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC](https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC)
 
 ### Injections Module or Tests/Procedures (VIS handouts)
@@ -240,10 +214,7 @@ https://www.mdguidelines.com/
 ```
 
 {{% pre %}}
-
-
 https://www.immunize.org/vis/vis_english.asp
-
 
 {{% /pre %}}
 
@@ -258,10 +229,7 @@ https://www.immunize.org/vis/vis_english.asp
 ```
 
 {{% pre %}}
-
-
 https://accessgudid.nlm.nih.gov/devices/
-
 
 {{% /pre %}}
 
@@ -276,10 +244,7 @@ https://accessgudid.nlm.nih.gov/devices/
 ```
 
 {{% pre %}}
-
-
 https://www.fmcsa.dot.gov
-
 
 {{% /pre %}}
 
@@ -294,10 +259,7 @@ https://www.fmcsa.dot.gov
 ```
 
 {{% pre %}}
-
-
 https://www.froozhie.com/froo.cgi
-
 
 {{% /pre %}}
 
@@ -312,12 +274,9 @@ https://www.froozhie.com/froo.cgi
 ```
 
 {{% pre %}}
-
-
 https://docs.enterprisehealth.com (for EH clients)
 
 https://docs.webchartnow.com (for WebChart clients)
-
 
 {{% /pre %}}
 

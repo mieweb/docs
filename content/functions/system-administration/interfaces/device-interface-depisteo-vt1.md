@@ -8,9 +8,9 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App'
 source: 'https://drive.google.com/open?id=10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-This page provides instructions for interfacing the Depisteo VT1 with the *{{% system-name%}}* system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable. 
+This page provides instructions for interfacing the Depisteo VT1 with the *{{% system-name%}}* system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.   
 {{% note %}}  
 Be sure to install the required applications for optimal functionality. The device interface uses the[](http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App)[MIE Device App](http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App) to communicate with {{% system-name %}}.  
 {{% /note %}}
@@ -69,6 +69,7 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 
 ## Using the Device Interface
 
+
 1. A Vision Screening can be added to the chart from the Due List chart tab. Simply use the autocomplete to select it and click the <strong>Add</strong> button.
 
 ![](../device-interface-depisteo-vt1.assets/6aafadc277b3dcdb866bcf2f1e1a0b7f.png)
@@ -84,4 +85,5 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 4. To initiate interfacing, click the <strong>Depisteo VT1</strong> button.
 5. Perform testing with the Depisteo Software as instructed in the device's operation manual.
 6. Save the test in Depisteo, and the results will automatically be uploaded into {{% system-name %}}.
+
 

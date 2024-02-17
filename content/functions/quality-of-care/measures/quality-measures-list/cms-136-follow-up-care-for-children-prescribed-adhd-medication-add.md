@@ -11,12 +11,12 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms136v11'
 source: 'https://drive.google.com/open?id=1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
-[CMS136v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure) (2020)
-[CMS136v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure) (2021)
+[CMS136v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure) (2020)  
+[CMS136v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure) (2021)  
 [CMS136v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure) (2022)
 
 ### Identifiers
@@ -118,11 +118,15 @@ wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
 
 
 
+
+
 ### Original Visit Encounter
 
 Track children ages 6-12 that have been newly dispensed a medication for ADHD and ensure they receive appropriate follow-up care.
+
 1. Provide a follow-up with children prescribed ADHD medication during the 30-Day Initiation Phase
 2. For children remaining on the medication for 7+ months, provide two additional follow-up visits and ensure these are completed within 9 months of the Initiation Phase ending.
+
 
 ## Evidence
 

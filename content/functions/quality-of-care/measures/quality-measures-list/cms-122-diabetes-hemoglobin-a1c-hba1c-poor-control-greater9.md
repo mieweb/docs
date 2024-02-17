@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms122v10'
 source: 'https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 ## Overview
 
@@ -58,7 +58,9 @@ wikigdrive: 'ea413e050e00b6645988e5c1b38ac902b1909cdd'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p><ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul></li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
+<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p>
+<ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul>  
+</li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -113,29 +115,54 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 
 ### Preferred Workflow
 
+
 1. Preventive Care
 2. Order A1c
+
    1. Add to exam - enter result
    2. Interfaced result completes the order
    3. Manually result
+
       1. Ordering doc->Add result->complete results encounter
+
+
+
 
 ### Alternate Workflow
 
+
 1. While documenting the Visit encounter, document the results of the HbA1c one of two ways:
+
+
    1. <strong>Option 1: Test and Procedures Section</strong>
+
+
+
+
       1. Open the Tests and Procedures section.
       2. Using the autocomplete, begin typing Hemoglobin A1c.
       3. Click the Add to Exam button.
       4. After adding the new section, open the Hemoglobin A1c section and add the result.
       5. Click the Next button, or close the section.
-   1. <strong>Option 2: Add Lab Results - Set 1 to Encounter</strong>
+
+
+
+
+   2. <strong>Option 2: Add Lab Results - Set 1 to Encounter</strong>
+
+
+
+
       1. Click the Tools icon in the upper-right corner of the encounter.
       2. Click the Lab Results - Set 1 header to add the section to the encounter template. Close the Tools window.
       3. Click the Lab Results - Set 1 header to open the section and add the result.
       4. Click the Next button, or close the section.
-1. Continue documenting the encounter, as needed.
-2. When completed, Close and Archive the encounter.
+
+
+
+2. Continue documenting the encounter, as needed.
+3. When completed, Close and Archive the encounter.
+
 
 ## Evidence
 

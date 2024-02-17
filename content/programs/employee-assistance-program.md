@@ -6,12 +6,14 @@ version: 39
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j0P-A7K9-lWMUiN-sX5Ez7XPFEDX-FKlFNzfNC5rBy8'
-wikigdrive: 'dc9ec4e15828d59cf43699483d3f3e6ddbe5d23a'
+wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-The {{% system-name %}} system includes an Employee Assistance Program (EAP) encounter to document cases for an individual/dependent or an organized event. Cases are organized on a worklist by follow-up date, with detailed EAP reports available. EAP staff document case notes in a secure partition. Access is limited to authorized users and is not accessible by the Health and Medical staff. 
+The {{% system-name %}} system includes an Employee Assistance Program (EAP) encounter to document cases for an individual/dependent or an organized event. Cases are organized on a worklist by follow-up date, with detailed EAP reports available. EAP staff document case notes in a secure partition. Access is limited to authorized users and is not accessible by the Health and Medical staff.   
 Functionality includes:
+
 * EAP Individual Encounter
 * EAP Organizational Encounter
 * EAP Worklist
 * EAP Reports
+
 Custom configuration of email templates and automated notifications, data collection customization, or custom reports by MIE is available as an add-on service.
