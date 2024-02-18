@@ -1,7 +1,7 @@
 ---
 id: '1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
 title: 'Redirect to: EHI Export Technical Details'
-date: '2023-11-14T19:51:01.757Z'
+date: '2023-11-16T15:46:02.499Z'
 source: 'https://drive.google.com/open?id=1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
 mimeType: 'text/x-markdown'
 url: 'ehi-export-technical-details.md'
