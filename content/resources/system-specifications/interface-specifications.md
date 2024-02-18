@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-02-16T20:29:24.263Z'
-version: 2697
-lastAuthor: 'Alice Uhrick'
+date: '2024-02-18T01:38:56.278Z'
+version: 2702
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -81,11 +81,11 @@ The list below represents a complete listing of all vendors/devices that we have
 
 ## Billing/EMR/Practice Management Interfaces
 
-MIE supports bidirectional and unidirectional Practice Management systems using ADT (demographics), SIU (scheduling), and DFT (billing) HL7 (2.x) messages. Information about supported connection-types can be found [here](#gjdgxs).
+MIE supports bidirectional and unidirectional Practice Management systems using ADT (demographics), SIU (scheduling), and DFT (billing) HL7 (2.x) messages. Information about supported connection types can be found [here](#gjdgxs).
 
 * [OpenPM](https://drive.google.com/open?id=1egb4flCHJ6rnKMxQjkHBWini36q8XBIc) (bi-directional) (Preferred)
 
-* [ADP (Advanced MD)](https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view) (non HL7 webservice)
+* [ADP (Advanced MD)](https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view) (non-HL7 webservice)
 * Allscripts Ntierprise
 * CPSI
 * CRT Medical Systems (bi-directional)
@@ -373,7 +373,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 
 ## Immunization Registries
 
-Our preferred methods of transport are HTTP Post and MLLP (secure socket communication). We can also support (but prefer not to) sFTP, SCP, and FTPs connection for unidirectional messaging.
+Our preferred methods of transport are HTTP Post and MLLP (secure socket communication). We can also support (but prefer not to) sFTP, SCP, and FTP connections for unidirectional messaging.
 
 * Alabama ImmPrint bi-directional HL7 via HTTPS
 * Alaska thru Scientific Technologies Corp (STC)
