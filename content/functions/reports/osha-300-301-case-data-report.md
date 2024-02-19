@@ -1,13 +1,14 @@
 ---
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
-date: '2024-02-09T13:38:35.765Z'
-version: 250
+date: '2024-02-19T17:34:42.781Z'
+version: 263
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting'
   - 'https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.46#:~:text=The%20definitions%20contained%20in%20section,or%20industrial%20operations%20are%20performed.'
+  - 'http://osha.gov/injuryreporting'
 source: 'https://drive.google.com/open?id=1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
@@ -133,3 +134,6 @@ The OSHA 300/301 Case Data report is easily downloadable into a CSV format.  Sim
 ![](../osha-300-301-case-data-report.assets/36af6824cd0950b159566b1702844345.png)
 The CSV file will be in the specific column order with column titles labeled as the OSHA injury and illness data submission requires.
 ![](../osha-300-301-case-data-report.assets/20a6f0ff40a7ee92ff3d2cf39ff67c5b.png)
+
+You will need to review the entire CSV file for content.  [OSHA.gov/injuryreporting](http://osha.gov/injuryreporting) site has a checklist where they want you to not include special characters for certain columns, and also review to exclude any PII for certain columns, before uploading the CSV file to their API.   It is up to the establishment/individuals at the company to review the CSV file and replace or change any content needed according to their business needs, prior to using the file to upload into the OSHA API system.  {{% system-name %}} will not omit or replace data from the CSV output.  {{% system-name %}} will output the CSV with the contents as exactly how it was captured/documented in the system and case/incident.  Your business can use the ‘find and replace' tool in the CSV file and change/replace (according to business needs) any found PII or any found special characters.
+![](../osha-300-301-case-data-report.assets/97f5c784ec4e239dc5df76ca9bae7d63.png)
