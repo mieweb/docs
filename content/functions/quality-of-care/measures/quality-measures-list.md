@@ -1,8 +1,8 @@
 ---
 id: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
 title: 'Quality Measures List'
-date: '2024-02-01T17:22:22.006Z'
-version: 142
+date: '2024-02-19T12:59:39.557Z'
+version: 145
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -99,7 +99,7 @@ CMS249 - Appropriate Use of DXA Scans in Women Under 65 Years Who Do Not Meet th
 CMS349 - HIV Screening  
 CMS645 - Bone density evaluation for patients with prostate cancer and receiving androgen deprivation therapy  
 CMS646 - Intravesical Bacillus-Calmette-Guerin for non-muscle invasive bladder cancer  
-CMS771 - Urinary Symptom Score Change 6-12 Months After Diagnosis of Benign Prostatic Hyperplasia  
+CMS771 - Urinary Symptom Score Change 6-12 Months After Diagnosis of Benign Prostatic Hyperplasia   
 CMS951 - Kidney Health Evaluation
 
 
