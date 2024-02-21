@@ -1,8 +1,8 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2024-01-24T14:31:01.402Z'
-version: 256
+date: '2024-02-21T12:28:33.729Z'
+version: 270
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -134,6 +134,9 @@ At this time implicit/explicit memberships into a HSPanel will show Panel Status
 
 Also, if using Patient Panel Status import to put charts into memberships, the Panel Status record is recorded using the column in the spreadsheet tool.  This will then record an initial Panel Status on the chart and the Panel Status will update as representative events are performed or even if they become overdue, since an initial Panel Status record exists on the chart initially (from data import efforts).
 ![](../health-surveillance-reports.assets/7964c37fc2a9cd4d567fdf6a46cc8641.png)
+
+The Panel Status report offers a ‘Delete' option, which will immediately delete that specific Panel Status record (includes Record Status & Panel Status etc) off of the health surveillance panel and will be reflected visually after next day evaluators run.  The column ‘Record Status' will say ‘deleted' after performing.
+![](../health-surveillance-reports.assets/f91fc175a0804650bbfcda7fde8269b9.png)
 
 ## Performance Metrics
 
