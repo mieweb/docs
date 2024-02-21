@@ -1,9 +1,9 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2023-10-04T16:18:31.429Z'
-version: 68
-lastAuthor: 'Alice Uhrick'
+date: '2024-02-21T18:33:25.026Z'
+version: 116
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
@@ -14,7 +14,7 @@ The Appointment Report displays a report of found appointments
 Click *Reports* tab on the left side-bar menu.  
 Click *Appt Report* tab from the top tab menu.  
 It will open to the Appointment Reports search fields.
-![](../appointment-report.assets/acd58d743fd0fab6a4248bc0ace84dc0.png)
+![](../appointment-report.assets/823764d1adac79db343ceed8944ba154.png)
 
 * <strong>Date Range:</strong> It will automatically default to today's date as the range. You can select any date range you wish to run the report for.
 * <strong>Appointments on waiting list</strong> checkbox: This option is to search for appointments on the waiting list. If this is checked, then the start and end dates are greyed out/disabled to indicate that they are not being used.
@@ -59,16 +59,14 @@ Note: If you select the optional column of *observation*, then an auto-complete 
 * <strong>Include Revisions:</strong> If you check-mark the box to <em>Include Revisions</em> in the Appointment Report, it will show your search results (found appointments) and then also will show another separate section/category of Found Appointment Revisions below the found appointments.
 
 This will allow you to show any revisions to appointments also in this report search.
-![](../appointment-report.assets/092c89d097c40c0389c1214480758f56.png)
+![](../appointment-report.assets/7e00e49eaf730194cefd046155dfdc07.png)
 
 * <strong>Order By</strong> field*:* You can select from the drop-down the method for which you want your results displayed on the screen. The list of found appointments can be displayed in Patient Name order (last name alphabetically) or in Appointment Time order (will display the earliest appointments first in chronological time order).
 
-![](../appointment-report.assets/87fb115659a1755bdfecc96588eaaf93.png)
+![](../appointment-report.assets/d77584f315d6fbb44112228f48e2e3d8.png)
 
 * <strong>PatName</strong> order will display the results in alphabetical order by last name of the patient.
 * <strong>Appt Time</strong> order will display the results in appointment date/time chronological order.
-
-![](../appointment-report.assets/02947c25595e4f22c0399944ec584d51.png)
 
 * <strong>Linked Encounters</strong> field: You can filter the report by specific encounters linked to the appointments or render results by no linked appointments. By default this field is set to show "any/all" linked encounters per appointment that results on the report (or blank if none). Example: You can link to "checkin" and select optional column of "arrival/departure" to run reports based on checkin and checkout of appointments linked to "checkin" or appointment reports linked to other encounter types.
 
@@ -76,16 +74,16 @@ This will allow you to show any revisions to appointments also in this report se
 ## Found Appointments
 
 Click the SEARCH button after you've filled out all the filter data you wish. It will then render "Found Appointments" listing of the matching appointments found. This is the Report of Results.
-![](../appointment-report.assets/10a04f945efbaf113cc198c200f14751.png)
+![](../appointment-report.assets/aa7948b5d5633b97a4cd24d02cbc1001.png)
 You can confirm appointments from this report or see which appointments already are confirmed with the check-mark in the *confirm* column.
-![](../appointment-report.assets/0c60a8e4f4f947996e8d69e2d4443311.png)
+![](../appointment-report.assets/e1faf5af3d7f9fbb0c18bfbb1593e338.png)
 To edit an appointment or view the details of the appointment, simply click on the underlined Appointment ID and it will take you to the appointment wizard for that specific appointment.
-![](../appointment-report.assets/518e14fae57008d249b6da0d2828dac8.png)
+![](../appointment-report.assets/29861bcbcb3c63ba544d3f6fd186dbf6.png)
 
 ### Moving Found Appointments
 
 You can select an appointment from the Found Appointments report. If you just want to quickly in mass or individually change/move them to a different Resource or Location or put them on a Waiting List or cancel them in mass, for the selected found appointments, you can check-mark those specific appointments in the **Select** column and then click the **MOVE SELECTED** button.
-![](../appointment-report.assets/d06c270be2b7ad93355fd8f5437ee6f4.png)
+![](../appointment-report.assets/b8fd4e932f969e618a59a6dd97c936af.png)
 This will allow you to move these patient appointments to a new resource or location or waiting list easily & quickly. As soon as you click MOVE SELECTED, you will view the Update Options screen.  
 This is where you change the Resource and/or Location for all of the found appointments you selected with the check-mark. If you want to move the block of appointments to a new resource, new location, etc.  
 You can always un-checkmark specific patient appointments in the list below these fields if you decide you didn't need to change/move anything.  
@@ -105,7 +103,7 @@ Click UPDATE when you have made your Update Option selections. It will then give
 You can also print charts for any selected patient in the appointment report.  
 First select a patient or multiple patients or all patients in the report by individually check-marking to select them from the **Select** column, or use the *Select All* or *De-Select All* buttons at the bottom of the report.  
 Once you have the patient(s) selected you want to print charts for, click the **Print Selected Charts** button at the bottom of the report. You will be taken to the Print Charts functionality and can continue to print a print definition of charts for those patients.
-![](../appointment-report.assets/0a47bdb3d7044e533a84a55ec79a8001.png)
+![](../appointment-report.assets/6bf1a39ec2973495012518af43a9a10f.png)
 
 ### Emailing Selected Found Appointments
 
@@ -114,9 +112,9 @@ You must have security permission to *Send Email to Patients* set to Yes in orde
 If your security is set to No, you will not see this Email feature.  
 First select a patient or multiple patients or all patients in the report by individually check-marking to select them from the **Select** column, or use the *Select All* or *De-Select All* buttons at the bottom of the report.  
 Once you have the patient(s) selected to send email appointment reminders to, click the **Email Selected** button at the bottom of the report.
-![](../appointment-report.assets/b1a56573b395535e1a2393d5e1bcb485.png)
+![](../appointment-report.assets/6782071605ed4f90e356da3e9bb31337.png)
 Once you have clicked *Email Selected*, it will open to the Email Options screen.
-![](../appointment-report.assets/a817fdd79fd276a2787f36dee7b13b0f.png)
+![](../appointment-report.assets/06d2f3db92e45a8b530d5a3661208544.png)
 
 * <strong>Subject:</strong> Type in the subject. This will be in the same <em>subject</em> line of every email sent to all patients.
 * <strong>Comments:</strong> Type in any comments. This will be the same <em>comments</em> in every email sent to all patients.
@@ -133,7 +131,7 @@ Once you have clicked *Email Selected*, it will open to the Email Options screen
 
 * <strong>Patients to Email:</strong> It will display the patient's that have an email address entered into their demographics tab and be selected as a check-mark meaning this email will be sent to those patients that have valid email addresses entered in their demographics tab. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patient's with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
 
-![](../appointment-report.assets/92b98cd013c051fedd2c6d897a32c2f3.png)
+![](../appointment-report.assets/ff31dccf0de76177fc9ea5fdec7bf7d1.png)
 Click **Send Emails** when those text fields are completed. It will then show a confirmation message of the emails it sent out. If a patient does not have an email entered in their *demographics* tab field, it will not show anything on this *emailed* screen for that specific patient. That patient will not be displayed in this confirmation screen.
 ![](../appointment-report.assets/c5203d80b6f366c4e1e7b110275b9113.png)
 You will also be taken back to the original appointment report you just ran.  
@@ -151,21 +149,21 @@ The patient will then receive an email from your scheduler. This is an example o
 ## Save Report Filter Templates
 
 You can "save" an appointment report you've run. You may run the same report monthly and instead of putting in the report search criteria fields in individually all the time, you can "save" the report filters to run again at a future time without having to manually key everything in again. You can save and access previous saved filter reports using the link options at the top: Save Filter Template and Show Saved Filters.
-![](../appointment-report.assets/19996cc560d4f706eb88da923dff5b4e.png)
+![](../appointment-report.assets/f56d75203aab4fdb4990e087e10c8ef8.png)
 
 ### Save Filter Template Link Option
 
 To "save" a new report filter template, you need to enter in all the search criteria fields for the report from the Document Search Report. When you are done, you can click SEARCH to run the report and still access the save filter templates link even after you run a report.
-![](../appointment-report.assets/aaf51eb756931f2de7cc55f90b964963.png)
+![](../appointment-report.assets/2b9f117d3ffe5d9ac9eaa96ad075434f.png)
 All the search criteria you entered in for the report can be stored as a "saved template" to run that same report again without having to rekey in each field manually. All search criteria fields are able to be stored in a filter template *except patient name.*  
 When you click the save filter template all search criteria fields (except those noted above) can be "saved" to this template to run the report again in the future quickly. You can "uncheckmark" any search criteria line items that you don't want to be included in this future "filter template", but by default it assumes you want to save all and it places a checkmark beside each. You must type a "Name" to name this saved report filter template.
-![](../appointment-report.assets/47b8bbb41ffb0029ba1c679b309dc1d8.png)
+![](../appointment-report.assets/1f1351e9da47d9a76722154d64321f82.png)
 Click the SAVE button to save your template. You and others can now access the saved report filter template by clicking show saved filters link and quickly run the same report in the future without having to manually key in each filter criteria field individually.
 
 ### Show Saved Filters Link Option
 
 If you wish to access a previously saved template and want to run the same report again, click the Show Saved Filters link. You will see a list of the choices and what the report is named. If you have security privilege, you can delete any saved filter reports from here too so it cannot be utilized anymore.  
 Click the saved document report template you wish to run. It will open the fields that are attached to this report and all will be checkmarked by default. If you wish to run the same report, simply click APPLY button and the report will render. If you wish to not include a previously saved filter item (ex: document type), then uncheckmark it and then run the report by clicking the APPLY button and it populate the Appointment Report search filter fields based and respecting what you have checkmarked from the saved template. Click the SEARCH button to run the report then.
-![](../appointment-report.assets/cb039a94b21a4430aa7fff958085aa99.png)
+![](../appointment-report.assets/b453149ccfd37ccf5c3d503d0593c95c.png)
 *Personal Templates* are saved appointment report templates you (the logged in user) have saved & created to be in the library.  
 *Global Templates* are saved appointment report templates that other users have saved & created in this library and you can access them also.
