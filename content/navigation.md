@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-01-29T13:46:51.644Z'
-version: 470
-lastAuthor: 'Angie Nichols'
+date: '2024-02-21T17:44:35.089Z'
+version: 478
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -29,7 +29,6 @@ links:
   - 'functions/e-chart/sidemenu-thumbtack-feature.md'
   - 'functions/e-chart/quick-view-alerts-portlet.md'
   - 'functions/e-chart/quick-view-due-list-portlet.md'
-  - 'https://drive.google.com/open?id=1a0lhtrZhc779kzoHYnLkvzdpKikN_gpKwkchW4HLgFA'
   - 'functions/e-chart/super-user-quick-view-portlet.md'
   - 'functions/e-chart/conditions.md'
   - 'functions/e-chart/preventive-care-portlet.md'
@@ -737,7 +736,6 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
       * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
       * [Quick View - Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
       * [Quick View - Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
-      * [Quick View - Meaningful Use Portlet](https://drive.google.com/open?id=1a0lhtrZhc779kzoHYnLkvzdpKikN_gpKwkchW4HLgFA)
       * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
       * [Conditions](functions/e-chart/conditions.md)
       * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
