@@ -1,8 +1,9 @@
 ---
 id: '1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
 title: 'Outbound Faxing Email Notifications of Sent/Failed Faxes'
-date: '2020-02-27T20:11:36.398Z'
-version: 31
+date: '2024-02-12T15:46:26.502Z'
+version: 56
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
@@ -10,11 +11,11 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
 You can have {{% system-name %}} send you an email notifying you upon each successful sent fax you did and/or each failed (unsuccessful) fax that you sent via {{% system-name %}} . This is a user preference and only affects you, the logged in user.  
 Please make sure you have your email entered in your username screen (a superuser may need to verify this or add this for you within your practice). You can always view the Fax Manager tab to view failed and successful faxes, but the email notification sends you an email instantly to you when the fax has been sent or has a problem being sent.
-![](../outbound-faxing-email-notifications-of-sent-failed-faxes.assets/fd6e240adc3f50d2968aa687124e507b.png)
+![](../outbound-faxing-email-notifications-of-sent-failed-faxes.assets/590aa2554ff740c5127392df9c5c8689.png)
 Your {{% system-name %}} system for your practice also must have two system settings turned on. These are on by default, but your MIE Implementer can turn off this email notification feature entirely for your entire practice.
-![](../outbound-faxing-email-notifications-of-sent-failed-faxes.assets/7bb3262e064e0432ecf652812ccd077a.png)
+![](../outbound-faxing-email-notifications-of-sent-failed-faxes.assets/2ab01d29a6fa266016b37c4eb2a5caaf.png)
 The next item to have set is your *MY SETTINGS* preference for *Send Fax Notifications*. It is set to ‘Both' by default. You can leave it as both or change it to which notification you want to receive via email for the fax sent. Most users set theirs to only receive email notifications for their failed faxes. This is a preference for you, the logged in user, and doesn't affect anyone else. Make sure you have your email address entered in your username screen.
-![](../outbound-faxing-email-notifications-of-sent-failed-faxes.assets/93163c1ff27df62633fc714f012dc37b.png)
+![](../outbound-faxing-email-notifications-of-sent-failed-faxes.assets/59403581e48c9681b8883348f5bcfffd.png)
 
 * <strong>Both:</strong> You will receive an email notification each time your fax is successfully sent and you will also receive email notification each time a fax you send is unsuccessful.
 * <strong>Send:</strong> You will only receive an email notification every time a fax you send is successful.
