@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2023-04-24T17:10:27.597Z'
-version: 211
+date: '2024-02-23T17:04:53.922Z'
+version: 372
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,16 +10,18 @@ links:
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ---
-Users have the ability to manage specific settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to My Settings in the Control Panel, to begin editing these options.  
-Changes to any of the My Setting preferences will only affect you, the logged in user, no one else.  The username you are logged in as will be the only user affected by these preferences.  
-Click Control from left sidebar menu. Click My Settings tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click Submit Settings box at the top or bottom of the screen.
+Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences.
+
+Changes to any of the* My Setting* preferences will only affect you, the logged in user, and no one else when you are set in Yourself mode.  The user you are logged in as will be the only user affected by these preferences.
+
+From the *Contro**l* left sidebar menu, find the *My Settings* tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click the *Submit** Settings* box at the top or bottom of the screen to save your changes.
 
 ![](../my-settings.assets/025ce3b3ca6afbacfc7625975bcb82df.png)
 
 
 ## Edit Preferences For
 
-If you have security rights, you can view other user's preference settings and/or edit them.  Alternatively, you can view the System Default settings or you can view specific Security Role Default settings.  
+If you have security permission, you can view other user's preference settings and/or edit them. Alternatively, you can view the System Default settings or you can view specific Security Role Default settings.  
 
 ![](../my-settings.assets/270868e9e5770a7a81bfa13d9f62a8e1.png)
 
@@ -34,25 +36,24 @@ If you have security permission and want to edit preferences for another user in
 
 ![](../my-settings.assets/ffeba9e18aa9f19c9d9a9657454c5953.png)
 
-Once you have selected the other user, the screen will refresh and show that user's preferences/settings your screen. Make changes to their preferences and click SUBMIT CHANGES button when done. This changes preferences for that specific other user only.
+Once you have selected the other user, the screen will refresh and show that user's preferences/settings on your screen. Make changes to their preferences and click the SUBMIT CHANGES button to save your changes. This applies those preferences for that specific other user only.
 
 ### System Default
 
-This is usually maintained by your MIE Implementer. Viewing the System Default preferences shows what the defaults for your entire {{% system-name %}} system are set to. Of course, individual users though can change their individual preferences. You or your MIE Implementer can change preferences for all users in your system in mass by changing defaults here that change all users system wide instead of individually by user.
+This is usually maintained by your MIE Implementer. Viewing the System Default preferences shows what the defaults for your entire {{% system-name %}} system are set to. Of course, individual users can change their individual preferences. You (if have security permission) or your MIE Implementer can change preferences for all users in your system in mass by changing defaults here that change all users system wide instead of individually by user.
 
-![](../my-settings.assets/ae0ea4b87b5c56ce9817d05fc45a2048.png)
+![](../my-settings.assets/86e27a13d85f2c553930096784fb40ab.png)
 
-To change a system default preference as a means of applying that change in mass to all users in {{% system-name %}} is a two step process and is a bit different than changing an individual preference setting. When changing a System Default preference, find the My Setting preference you wish to change for the entire system. The name of the preference (when viewing preferences for System Default) should be underlined. the underline is really a link.   Example:
+To change a system default preference as a means of applying that change in mass to all users in {{% system-name %}} is a two step process and is a bit different than changing an individual preference setting. When changing a System Default preference, find the My Setting preference you wish to change for the entire system. The name of the preference (when viewing preferences for System Default) should be underlined. The underline is really a hyperlink.   Example:
 
 ![](../my-settings.assets/e056f7394efc669eb2fe94b0a435f49f.png)
 
-The specific preference field with the drop-down arrow tells you what the system default is already set to. If you need to change the ‘system default' (you are not changing it in mass for all users yet—you are just changing the system default setting) then you use the drop-down arrow to change your selection. Click SUBMIT CHANGES button at the bottom when done. This saves that setting/preference for the system default only. This does not apply it to everyone in mass yet.  
+The specific preference field with the drop-down arrow tells you what the system default is already set to. If you need to change the ‘system default' (you are not changing it in mass for all users yet—you are just changing the system default setting) then you use the drop-down arrow to change your selection. Click the SUBMIT CHANGES button at the bottom when done. This saves that setting/preference for the system default only. This does not apply it to everyone in mass yet.  
 Once you have the system default set to what you want or it is already set to what you want all users to be changed to, then click the underlined My Setting Preference name of the one you just set.  
-For instance, in this example, I want everyone in the entire {{% system-name %}} system to be preference set to Number of Recent Patients: 10. After I have the system default setting set to 10 and saved, I now need to go back in and apply this to all users in the {{% system-name %}} system. So, I click on the underlined name Number of Recent Patients setting. It then pops up a warning message on my screen that I am about to change this specific setting for all {{% system-name %}} users.
-
+For instance, in this example, I want everyone in the entire {{% system-name %}} system to have preference set to Number of Recent Patients: 10. After I have the system default setting set to 10 and saved, I now need to go back in and apply this to all users in the {{% system-name %}} system. So, I click on the underlined name Number of Recent Patients setting. It then pops up a warning message on my screen that I am about to change this specific setting for all {{% system-name %}} users.
 ![](../my-settings.assets/bfc99a29796679549dd3af28f05e9698.png)
 
-Click SET TO DEFAULT button to apply that setting and its value to all users in your {{% system-name %}} system or cancel to get out. You will get a confirmation message at the top stating you updated that setting for all users in your system.
+Click the SET TO DEFAULT button to apply that setting and its value to all users in your {{% system-name %}} system or cancel to get out. You will get a confirmation message at the top stating you updated that setting for all users in your system.
 
 ![](../my-settings.assets/c0fcb9263d64ca75bb570f91ba27220a.png)
 
@@ -62,7 +63,7 @@ Continue to another system default if you wish. If you are changing preferences 
 
 If you have security permission and want to edit preferences for users tied to a specific security role, simply select SECURITY ROLE DEFAULTS from the drop-down. A second field named Choose a security role: will appear. Use the drop-down arrow to select the specific security role that you wish to edit preferences on. Any changes to preferences (My Settings) will affect all users tied to that security role.
 
-![](../my-settings.assets/d0226683a69e1316c905580ca430fb76.png)
+![](../my-settings.assets/74ca93bd05fd60c95f6431244f20c93e.png)
 
 Changing security role preferences and then applying them to all users within that security is the same process as above in the System Default section. Please see above section for steps on how to apply security role default preference to all users within that security role in mass.  
 When looking at preference choices available in the drop-down:
@@ -92,9 +93,9 @@ When looking at preference choices available in the drop-down:
 * TIFF: This is an option to indicate whether or not you have AlternaTIFF installed and if you want to see images using it. This is usually set to OFF.
 * Show Pending E-sign/Tasks: Choose On or Off. This is the summary line of E-signs and tasks outstanding for you and your departments. This summary line appears at the very, very top of the system after you are logged in. It is above all chart tabs.  You can click on a category link here in this summary line, instead of clicking on the left sidebar tabs to get you to your pending E-signs and task lists. This summary also keeps you updated (shows the count) as to if you even have any and/or the number (count) of E-signs or tasks outstanding to do. (Instead of clicking on the left sidebar tabs to keep checking if you have any E-signs or tasks sent to you to do.)   Off means that this summary/work link at the very top of {{% system-name %}} (above the chart tabs) will not appear to you. You would have to click the left sidebar tabs to check your pending E-signs and tasks instead of glancing up to see the # of pending E-signs and/or tasks.
 * Show Pending Encounters:  Choose On or Off. This is the summary line of Encounters (open encounters) outstanding for your and/or your departments. This summary line appears at the very, very top of {{% system-name %}} after you are logged in.  It is above all chart tabs. You can click on a category link here in this summary line instead of clicking on the left sidebar menu tab to get to RadOmni or Encounters worklist tabs. Your system needs to have a worklist tab for encounters on the sidemenu in order for this setting preference to work. The worklist would show you (the performing physician) your worklist of open encounters, not everyone else's.  This summary also keeps you updated (shows the count) as to if you even have any and/or the number (count) of encounters outstanding to complete. Off means that the Encounters summary/work link at the very top of {{% system-name %}} (above the chart tabs) will not appear to you. You would have to click the left sidebar tabs to check your pending encounters and tasks instead of glancing up to see the # of pending encounters.
-* Default Page: Choose the page (these are the side-bar menu tabs/pages) that you wish your system to always begin with (default to) each time you log into {{% system-name %}} from your computer/pc (full  {{% sys-name %}} version).
+* Default Page: Choose the page (these are the side-bar menu tabs/pages) that you wish your system to always begin with (default to) each time you log into {{% system-name %}}
 * Warn if exiting without submit:  Choose On or Off.  On means the system will pop up a warning box (dialog box) if you are trying to exit (close) a program/module/document, etc before saving any changes or edits. You can then go back to that document/module/program and save/submit any changes, etc or continue to get out and lose any changes/edits you made. Off means you will not get this warning box and if you exit a program, module or document prior to saving any changes/edits, etc then you won't be warned to go back to save it or continue to exit and lose the data you had changed.
-* Default Pocket Page: Choose the page (these are the side-bar menu tabs/pages) that you wish your ‘pocket' {{% sys-name %}} version to always begin with (default to) each time you log in to the ‘pocket' {{% sys-name %}} version from your smart-device.
+* Default Pocket Page: Choose the page (these are the side-bar menu tabs/pages) that you wish your ‘pocket' {{% system-name %}} version to always begin with (default to) each time you log in to the ‘pocket' {{% system-name %}} version from your smart-device.
 * Document View Format:  TIFF or PDF are the choices.  Most select TIFF. This is the program you wish to open/view any forms from add document. Then you can print from that view. If you have not downloaded TIFF software, you can still access the forms by viewing in PDF.
 * Use Popup for User Demo Links: If set to YES, a user's name or physician's name, etc.
 * will appear as underlined. You can click their underlined name or username to see a pop-up display basic information about that user/physician. This pop-up tells you their address stored in {{% system-name %}} , full name, and can make edits to them if you have permission. This is a quick link to click if you aren't sure who the user was that created a document or need physician information, etc. If set to NO, the usernames and physician names will not appear as underlined and you can't click the underlined link to view more complete information about that user/physician.
@@ -106,7 +107,8 @@ When looking at preference choices available in the drop-down:
 * Automatically Popup New Help: Automatic help popup can now be managed from the user preferences screen instead of the pop-up help/video window that appears based on login user.
 * Show Help Bubbles: If set to yes, the user will see help bubbles on all fields available if translated.
 * Show Document Text Search: If this is set to yes, the users will see a "search" functionality button in stored documents such as text, word, and encounter documents.  Allows users to "search" by words or phrases on a stored document.
-* Time Zone: Use System Time Zone is default (which uses the system time zone via a universal system setting).  If will be accessing that database from a different time zone, select your physical location time-zone.
+* Time Zone: Use System Time Zone is default (which uses the system time zone via a universal system setting).  If you will be accessing that database from a different time zone, select your physical location time-zone.
+* WebChart Status Bar: wcstatus is a WebChart API for tracking async or long-running processes in the UI. Frequently users will click on UI elements that trigger some operation and there will be no indication that the operation is still working other than simply waiting for something on the page to change.  When enabled, a single small status bar at the bottom of the page will display and on the left is what's known as the title section which contains a static string of "WebChart is currently working".  On the right is the description section that shows a list of all known operations. Each operation is listed top to bottom in the order in which they were started. When multiple identical operations are running you will see a numerical identifier to show you how many of them are tracked. Additionally each operation displays how long it has been running. In the event multiple identical operations are running, the duration of the longest will be displayed.
 
 
 #### Print Default
@@ -133,16 +135,37 @@ When looking at preference choices available in the drop-down:
 * Preferred Unit System: Choose Default, English or Metric.  You can still enter vitals, etc w/ either unit system; this just makes the drop-down choice units start at the system you choose. (ex: units for weight lbs vs kg, height  units inches vs. cm, etc).
 
 
+#### Debug
+
+
+* Display JS Errors: Controls whether the user will see a wcnotification everytime there is a JS (javascript) error on the page
+* Enable Debug Console: Turns on a control icon in the header that provides a console-like interface. This is useful for debugging on devices that do not offer a native console (ex: ipad). In legacy systems, this was a system setting, but now is a per user preference.
+* Track DB Statements: All database statements are now controlled with this preference enabled. Capturing begins before the connection is initialized so that profiling doesn't miss statements that occur before login/preference checking.  Key handlers consolidated to a single 'pq' handler which allows sorting and filtering based on the type of statement.  Profile window allows clicking to show statement details including error messages and fetch duration for MSRLR statements.
+
+
 ### E-Chart
+
+
+#### User Interface
+
+
+* Force multi-row tabs open: Upon hovering over chart tabs, this acts as a pin vs floating when on chart tabs with children tabs.
+* Collapse toolbars on scroll: If enabled, chart tabs and chart header (dark grey header) will collapse (hide) when scrolling up and down to work within the chart or encounter.
+* Keep toolbars collapsed: If enabled and if Collapse toolbars on scroll is also enabled, it keeps chart tabs and chart header (dark grey header) collapsed (hidden) while you scroll up and down and until you've scrolled all the way back to the top of the page.
+* Show Quick Lists: If enabled, the right side Quick List encounter sections will be expanded open by default.  Using the ‘Show/Hide Quick Lists' icon within the encounter header will also toggle this preference on or off. Caveat, some encounter sections (such as Smart Plan, Presenting Meds, Symptoms/Diagnosis, etc) are configured (by default) to force the right side Quick Lists to show all the time and will not respect this preference setting.
+* Swipe Open Dynamic Lists: Options are Automatic or Off.  Automatic uses CSS media queries to attempt to automatically determine when no pointer device is available and output the swipe styles & functionality on dynamic lists.  Off will disable the swipe styles & functionality, to show the options only upon hover.
+* Show Dynamic List Options: Determine if icons in dynamic lists, typically found in encounter sections, should show Always or only On Hover.  Some examples of sections with Dynamic List Options that display always or on hover:
+
+![](../my-settings.assets/03251eef412e80b75e64bb0f790a9311.png)
 
 
 #### Faxing
 
 
 * Default Coversheet: Choose the name of the fax coversheet so it will default to that when you fax documents.  You can always make a different selection for a coversheet in the fax module. This is just a default.
-* Default Fax Comment:  Automatically set to No Default Comment. Your practice may request MIE to program a comment that will appear on every single fax that you send out. Some practices have a common comment on their fax coversheet that they want to print on all faxes. If MIE has programmed default fax comment(s) for your practice, you would want to select the default fax comment here to use on your fax coversheet comments. There is also place for other comments to free text along with the default comment that will appear.
+* Default Fax Comment:  Automatically set to No Default Comment. Your practice may request MIE to program a comment that will appear on every single fax that you send out. Some practices have a common comment on their fax coversheet that they want to print on all faxes. If MIE has programmed default fax comment(s) for your practice, you would want to select the default fax comment here to use on your fax coversheet comments. There is also a place for other comments to free text along with the default comment that will appear.
 * Remember Last Faxed:  Yes or No for the fax module to remember and populate the last fax number you used or typed in.
-* Send Fax Notifications:  Choose Both, Send, Failed or None preference for being able to get emailed notifications of faxed document options.  System setting must be turned on for your practice for email notifications feature.
+* Send Fax Notifications:  Choose Both, Send, Failed or None preference for being able to get emailed notifications of faxed document options.  A system setting must be turned on for your practice for email notifications feature and your email address must be entered in your username screen, in the Control Panel, for this to function.
 
 
    * Both: Receive (by email) both successful sent and failed fax notifications.
@@ -151,9 +174,6 @@ When looking at preference choices available in the drop-down:
    * None:  You will not receive any emailed fax notifications.
 
 
-{{% note %}}
-Your email address must be entered in your username screen for this to function.
-{{% /note %}}
 
 **Patient Search Criteria**
 
@@ -167,7 +187,7 @@ Your email address must be entered in your username screen for this to function.
 * Search By: Default for choosing Name, MR#, DOB, or SSN depending on how you wish to search for a patient each time. Usually set to NAME.
 * Search Result: Usually 20.  Pick the # of results you wish it to show/display to you each time when you search for a patient and don't get an exact match.
 * Search Auto Select: Yes or No makes it either stop on the search query or not if it is an exact patient match. Example: if you search for Oil,Olive usually it will go directly to the account if it is an exact match.  Or it gives you a search listing if there is more than one patient with that name. If you have this Search Auto Select option as Yes, you will always see the search listing page (even if there is only one match) and then you can click on the patient to go into the account. It doesn't automatically take you into the account if there is only 1 exact match.
-* AC Name Search Method:  Last,First set as default. This is how you search for a name in any autocomplete search fields. This only works in autocomplete name search fields. You can opt to default this to FLast which is first initial immediately followed by last name  ex: dduck (Daffy Duck) within autocomplete fields. If have preference set to FLast, you can still find names in autocomplete search fields by last name but you must indicate a <em>comma</em> after last name to separate and for system to result choices.
+* AC Name Search Method:  Last,First set as default. This is how you search for a name in any autocomplete search fields. This only works in autocomplete name search fields. You can opt to default this to FLast which is first initial immediately followed by last name  ex: jsample (John Sample) within autocomplete fields. If have preference set to FLast, you can still find names in autocomplete search fields by last name but you must indicate a <em>comma</em> after last name to separate and for system to result choices.
 
 
 #### MIEWord (Transcription)
@@ -204,6 +224,13 @@ Your email address must be entered in your username screen for this to function.
 * DataSend Queue Limit:  sets the datasend queue limits affecting the error and complete routes.
 * Primary Patient Language: Can auto-complete to see the preferred language for patient's in your system.
 * Show Global Templates: If ‘yes' then the ‘Global templates' for the Show Saved Templates functionality throughout the system will show the global templates for the system.  If set to ‘no' then only your personal saved templates will show for this functionality and won't show the ‘global' templates of other users.
+* Use enhanced CCDA viewer: If enabled, it will open the CDA document in a "CDA Viewer" mode instead of just streaming out to the browser.
+* Display Insurance in Header: Displays a chart's primary and secondary insurances in the dark grey patient header.
+* Flowsheet "Most Recent" Source: Some encounter sections (such as the Physical Exam encounter section) offer a "Set all to most recent" icon/function.  When that icon/function is selected to be used, the contents will populate into the flowsheet based on what the provider's preference is set for this. 
+
+   * Any previous result for the observation: will populate the last most recent value (content) ever entered for that observation, no matter where it was entered (encounter, chart tab, import, etc) for that specific chart.
+   * Only results from encounters w/ same provider: will do the same as the above option, but limited to only observations that were entered on encounters with the same provider as the current encounter using this icon/function.
+
 
 
 #### Meds/Allergies
@@ -229,6 +256,7 @@ Your email address must be entered in your username screen for this to function.
 * Pharmacy Search Exclude NPI:  You can set your default to Yes or No.  If set to Yes, when you are in e-meds faxing and searching for a pharmacy to fax to, Yes will make this check-box be checked and will exclude NPI pharmacies from your search.  If you always wish to default to show NPI pharmacies when searching, you can set this default to No. That will keep it un-checkmarked in the fax search mode and will show NPI pharmacies in your search result.  Of course, at any time, you can checkmark or uncheckmark the Exclude NPI box when in the e-meds search pharmacy fax mode itself.
 * Show Only Best Formulary: Default is no, but if set to Yes, then if you have the SureScripts Advanced functionality, you would only see the one best formulary for the patients when prescribing.
 * Cross-Browser EPCS: Recommend this to be set to ‘Yes' if client is utilizing EPCS.  Setting this to Yes, and after downloading 2 apps needed to make it work (from the Plugins page), users can perform EPCS using a browser other than Internet Explorer (IE).
+* Unsent Scripts in Alert Bar: This alert (found in the alerts toolbar) displays a count of prescriptions that have been prescribed in the system, with that logged in user's name as the Prescriber, that have not been printed, faxed, or transmitted.  The count will display ALL unsent prescriptions, regardless of medication schedule, for the logged in Prescriber (user) where those prescriptions are unsent.
 
 
 #### Conditions
@@ -237,7 +265,10 @@ Your email address must be entered in your username screen for this to function.
 * Show Conditions in Med Header:  Choose Yes or No.  If you choose yes, the patient's entered active conditions will appear in the med header at the top of each chart tab (under the patient's reported Allergies & current Medications).
 * Condition Code Display: None: Allows users to search for conditions by description only when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . ICD9: Allows users to search for conditions by ICD9 descriptions and codes only when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . ICD10: Allows users to search for conditions by ICD10 descriptions and codes only when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . ICD9 and ICD10: This is the default preference that will be set.  Allows users to search for conditions by both ICD9 and ICD10 descriptions and codes when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . When searching to add or edit a condition/diagnoses, the user will see the ICD9 code in parenthesis immediately following the condition description to help with their selection.  If there is an exact ICD10 mapping to that ICD9, then the ICD10 code will display in another additional parentheses immediately following the ICD9 code, but if there is not an ICD10 mapping to that ICD9, then no additional information will follow the ICD9 code.
 * ICD10 CALCULATOR:  Choose Yes or No. If you choose yes, when entering new conditions you may be prompted to choose a better ICD-10 code, and existing conditions with an ICD-10 code that could be improved will have a calculator icon next to them.
+* Risk Adjustment Factor: Displays a RAF score at the top right hand area of the dark grey patient header of charts.  Patient RAF Scores are automatically calculated by the system. An interpretation flag to the right of the RAF score will indicate High, Medium or Low. If a chart does not have a RAF score calculated for the current calendar year, the RAF value will display as Unknown.
+* Problem List Default on New: If this preference is set to No, the Problem List and Past Medical History radio buttons will default to "No" upon adding an assessment/diagnosis to a chart.  If this preference is set to Yes, the Problem List and Past Medical History radio buttons will default to "Yes" upon adding an assessment/diagnosis to a chart.
 
+![](../my-settings.assets/5929db9d8a1997e280b977fce5f1732e.png)
 
 #### E-Sign
 
@@ -267,18 +298,28 @@ Your email address must be entered in your username screen for this to function.
    * Last Enc (No match – all): the linked conditions on the last known encounter will be linked to this encounter (ranking & status is respected & displayed as was on last known encounter); but if no last encounter is found (patient has no previous encounter) then all the patient's conditions displayed will link to show as "active" status, not as strikethrough.
    * All Active Conditions: It shows all the active conditions the patient has as status "active"; regardless of any encounter you ever get into or last encounter.  You would "N/A" the ones that are not applicable to today's visit by changing the "status" to N/A for those.
 
+* Audiogram STS Display: Displays the red <strong>STS</strong> alert if found on an Age Corrected and/or Non Age Corrected, depending on what you have your preference set to.
+* Assessment Entry in Orders: User can set this to Yes, and then an Assessment section will display under any encounter applied order item (pending due list item also) being resulted in an encounter, <em>if</em> the applied encounter order item has no layout configured to it, or has Generic Order layout configured to it.
+* Remember provider and location: Will auto-populate the Performing Provider/Location field with last remembered provider/location entry in the same manually created encounter visit type you have used.
+* Co-Signing Provider: When a Co-Signing Provider is set here for a user, and the user is auto-populated as the Performing Provider at the time the encounter is manually created, then this Co-Signing Provider name will display in the CC encounter section by default.  A Co-Signing Provider user role (within the class of Medical Care Team) must exist in the system.
 
 
 #### Forms Editor
 
 
-* Lock Boxes: This is for MIE use to lock the boxes on forms programming so programming cannot be edited.
+* Lock Boxes: This is for MIE use, to lock the boxes on forms programming so programming cannot be edited.
 
 
 #### Injury and Illness
 
 
 * Show Closed Incidents: Yes allows show and hide closed incidents on the patient incident listview. When set to "No", only open incidents will be shown.
+
+
+#### Time Tracking
+
+
+* Logging Time Method: The Time Tracking module allows one to enter time in by hours or minutes, based on this preference.  The choices are Hours or Minutes for this preference.  Acceptable formats are: 1h5m, 1:05, 65m.  If this preference is set to Minutes, we consider the logged time as minutes, but the time will be converted to hours for the stored value and reporting purposes.
 
 
 ### Scheduler
@@ -357,6 +398,7 @@ Your email address must be entered in your username screen for this to function.
 
 
 * Show Last Eligibility: Default is no, but if set to Yes and have SureScripts Advanced functionality on the system, then while working in a patient's record, the last eligibility date that was run will show in the scheduler view.
+* View Range: The ‘New Scheduler' tab within the Scheduler module allows a range preference to be set for viewing the ‘New Scheduler' screen by Day, Work Week, or Week.
 
 
 #### One-Click Checkin
@@ -407,6 +449,7 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Play on Top: If set to YES, when you open a dictation, the MIE Dictation player will always appear on ‘top' of any other screens or windows you additionally open. It keeps the MIE Dictation Player on top of your screen views so you can always see the Dictation Player and get to it quicker without having to find it's opened minimized program in the toolbar at the very bottom of your computer screen. If set to NO, when opening a dictation the MIE Dictation Player will be on the screen unless you open another screen or window to view other information. The MIE Dictation Player is still opened, but doesn't appear on the screen ‘on top' of everything else you opened.  It automatically minimizes the Dictation Player and you can click to open it again from the bottom of your computer status toolbars.
 * Single Tap Record:  Choose YES or NO. NO means that you have to press and keep holding down the record button while you dictate. As soon as you release, it will pause/stop the dictation. Most clients set it to this NO option meaning you do not want to tap each time to record, pause, etc. You would press and hold the button continuously while recording, then release. YES means that when you press the record button, you can release it and it will keep on recording. To pause/stop the dictation, you would have to tap the record button again to turn pause/stop it.
 * Confirm Overwrite: Choose Yes or No. Yes: will ask them every time they want to overwrite a section of their dictation.  If set to NO: they will not be prompted at all and the recording will overwrite what was already there.
+* Olympus Folder: Can set default folder to upload stored Olympus dictations from.
 * Dictation View: Choose and set the tab you wish to always default and open to when you open the Dictation left sidebar tab.
 * Default Job Type: Choose and set the job type you wish to default to when using the dictation module. You can keep as No Job Type and you would then always select a specific job-type manually when you dictate. Or, if you always mainly dictate a specific job-type, then you can set this here and won't have to manually change it all the time when dictating.
 * Dictation Window Position:  Choose and set the position where you would like the MIE Dictation Player to open and appear on your computer screen. Default is usually top left corner.
@@ -415,8 +458,6 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Control Device:  Can choose which control device you use for the MIEplayer. This goes along with version 2.24 of the MIEplayer. The player supports generic HID devices that may conflict with the SpeechMike so we now need to specify which control device to use. This chooses which device your MIEplayer uses. If there is more than one control device hooked up to a computer, this tells it to use a certain one.  Example: There may be a physician who likes to use a foot pedal but shares the computer with other physicians that uses the SpeechMike. The Configure in Player selection for this setting will use the setting that is stored on the computer and accessed in the player's config window. If a specific control device is selected (SpeechMike, USB Pedal, etc) then this preference setting will override what the player has configured.
 * Use SpeechMike for Playback: Can choose yes or no to tell the dictation control to always use the SpeechMike for playback or not and will override what the MIEPlayer is configured to. If this preference is set to ‘configure in player', then it means the settings in the config screen of the MIEPlayer will be respected. What you set this to here allows for multiple users to share a computer yet keep your settings to how you like to use playback while another user using the same computer may have it set to something else for their use.
 * Use SpeechMike for Record:  Can choose yes or no to tell the dictation control to always use the SpeechMike for recording or not and will over-ride what the MIEPlayer is configured to. If this preference is set to ‘configure in player', then it means the settings in the config screen of the MIEPlayer will be respected.  What you set this to here allows for multiple users to share a computer yet keep your settings to how you like to use record while another user using the same computer may have it set to something else for their use.
-* Use Java:  Set to Yes to Use Java when dictating. This will load the java applet instead of the activeX control.
-* Use Browser's Built-in Recorder: Uses a recorder or player from the browser being used, and doesn't require ActiveX for recording.
 
 
 ### Tasklist
@@ -440,15 +481,6 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Show Complete Checkbox:  If this is set to YES, it will show a box in the options column of the tasklist screen. Check-marking this box will consider the task completed and puts a strike through it and eventually takes it out of the task queue. This is just a preference to quickly mark a task complete, or go thru the other steps of marking a task completed.
 * Show MR:  If this is set to YES, it will show the patient's MR# in the tasklist regarding column and will also show the patient's name of who the task is regarding.  If set to NO, only the patient name will appear to identify who the task is regarding.
 * Expand Task in Document View:  If set to YES, when you are looking at a specific document in a patient's chart, it will always open and list in detail any tasks related to that specific document below the document on the screen. If set to no, you will only see the task hide/show link beneath the document on the screen. To open and view the task in detail you would just click show. This setting set to YES will always keep that detail open on any patient, any document. If set to NO, the task details do not appear, just the link to open them for viewing when desire.
-
-
-### EMR
-
-
-#### Billing
-
-
-* CPT Picklist: ALL is the option. If your system has a program that uses CPT codes, this tab/list shows the CPT codes you use most often and can select from this tab for programs.  Example: {{% system-name %}} encounter forms.
 
 
 ### Orders
@@ -499,6 +531,7 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Number of Verify Needed: Select # of Verification Needed Fills you wish to display on your screen for each patient at a time.  Example: if select 5 as your user preference, it will only show the first 5 Verification Needed Fills for that patient, then you would click next to get the next 5, etc. This applies to MedQueue tab and Dispense tab and if verification functionality is turned on via system setting for the {{% system-name %}} system.
 * Number of Verified: Select # of Verified Fills you wish to display on your screen for each patient. Example: if select 5 as your user preference, it will only show the first 5 Verified Fills for that patient, then you would click next to get the next 5, etc. This applies to MedQueue tab and Dispense tab and if verification functionality is turned on via system setting for the {{% system-name %}} system.
 * Number of Fill Requests: Select # of Requests you wish to display on your screen for each patient. Example: if select 5 as your user preference, it will only show the first 5 fill requests, then you would click next to get the next 5, etc. This applies to MedQueue tab and Dispense tab.
+* Prioritize Inventory in ACs:  Inventory items can be ordered from the Medication Orders encounter section and the auto-complete field there (for the medication order drug) prioritizes inventory items over other items, when this preference is enabled.
 
 
 ### Reports
@@ -556,12 +589,16 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 
 To save settings, click Submit Settings at the top or bottom of the screen.
 
-![](../my-settings.assets/0fc93c112700ae66f62de10604dd585d.png)
+![](../my-settings.assets/e2597172aa8eb8f22ae31701c78d4dd6.png)
 
 ### Password/PIN Control
 
 
 * Your Current Password: You can change your password from the MY SETTINGS tab if you wish. Type your current password in here, then go to new password field and type new one in, then verify it at the next box and click Submit PWD to submit your new password you reset your username login to be.
+* New PIN VeriCode: Enter a new PIN number here if your e-orders module requires you to enter a PIN number when trying to create an e-orders for a patient. This is also used if the dial-in dictation server is configured to ask for a pin password, along with a pin. Click Submit PIN to submit your new PIN you set yourself to.
+* Security Question & Answer: This can be used to help facilitate password resets.  If the user needs to manually reset their password due to login failures, if the user has a security question & answer on their user account, the user will be prompted to answer the question correctly to be able to manually reset their password. Click Submit Security to submit your security question & answer you set yourself to.
 
-New PIN Vericode: Enter a new PIN number here if your e-orders module requires you to enter a PIN number when trying to create an e-orders for a patient. This is also used if the dial-in dictation server is configured to ask for a pin password, along with a pin. Click Submit PIN to submit your new PIN you set yourself to.
+   * Note: Our recommendation is to have your system be set up with password reset functionality to use an email, phone, or text PIN method instead of using the security question & answer method.  If using an email, phone or text PIN method, then the security question & answer fields need to remain blank.
+
+
 
