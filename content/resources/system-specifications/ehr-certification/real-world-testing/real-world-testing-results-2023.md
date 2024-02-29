@@ -1,8 +1,8 @@
 ---
 id: '1KXzp5VZ1g7qywiz4s8bU2eSGde35VQ_3dCzib2DY7Xo'
 title: 'Real World Testing Results 2023'
-date: '2024-01-26T20:21:31.931Z'
-version: 536
+date: '2024-02-29T16:57:53.975Z'
+version: 1147
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
@@ -35,7 +35,6 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 ## General Information
 
 
-
 <table>
 <tr>
 <td><strong>Plan Report ID Number</strong></td>
@@ -55,7 +54,7 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 </tr>
 <tr>
 <td><strong>Certified Health IT Product List ID(s)</strong></td>
-<td><strong>0015E8UJ8KHX8QL</strong></td>
+<td><strong>15.04.04.1932.WebC.84.01.0.221117</strong></td>
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
@@ -68,9 +67,7 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 
 </table>
 
-
 ## Changes to the Original Plan
-
 
 
 <table>
@@ -88,6 +85,33 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 <td>Certification of additional CQMs was not completed during 2023</td>
 <td>Business needs prioritized development and certification of b.10 and f.5</td>
 <td>There was no impact on RWT activities.</td>
+</tr>
+
+</table>
+
+## Withdrawn Products
+
+
+<table>
+<tr>
+<td><strong>Product Names(s)</strong></td>
+<td>WebChart EHR</td>
+</tr>
+<tr>
+<td><strong>Version Number(s)</strong></td>
+<td>7.4</td>
+</tr>
+<tr>
+<td><strong>CHPL Product Number(s)</strong></td>
+<td>15.04.04.1932.WebC.74.00.0.181219</td>
+</tr>
+<tr>
+<td><strong>Date(s) Withdrawn</strong></td>
+<td>12/31/2022</td>
+</tr>
+<tr>
+<td><strong>Inclusion of Data in Results Report</strong></td>
+<td>No data was collected from WebChart EHR v7.4 during the 2023 RWT period.</td>
 </tr>
 
 </table>
@@ -576,6 +600,40 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 <tr>
 <td>(h)(1)(ii) - Message Disposition Notification: Failed</td>
 <td>12</td>
+</tr>
+
+</table>
+
+
+## Care Setting(s)
+
+WebChart EHR is a scalable, web-based system designed for ambulatory practices and clinics.  The same product is distributed to all care settings with many configuration options.  Each practice can use the available configuration to tailor the product to fit their workflows and use requirements.  Unless noted, testing for each measure was conducted for all care settings.
+
+
+<table>
+<tr>
+<td><strong>Care Setting</strong></td>
+<td><strong>Justification</strong></td>
+</tr>
+<tr>
+<td>Primary Care</td>
+<td>The WebChart EHR clients are divided primarily between primary care and specialty practices.  Testing in a primary care setting will cover a large and important portion of our business.</td>
+</tr>
+<tr>
+<td>Specialty Practice</td>
+<td>The WebChart EHR clients are divided primarily between primary care and specialty practices.  Configuration selections are all that differentiate WebChart EHR implementations; however, we will test with several specialty practices to ensure configuration does not impact the functionality of certified capabilities.</td>
+</tr>
+<tr>
+<td>Pediatrics</td>
+<td>Pediatric clinics are typically configured differently than adult primary care clinics.  We will test in a pediatric setting in addition to primary care to again ensure that configuration does not impact the functionality of certified capabilities.</td>
+</tr>
+<tr>
+<td>Small/Rural/Underserved Practice</td>
+<td>The size and location of a practice can impact their interoperability options.  We will test with both small/rural and large/urban practices to ensure all practices have full interoperability functionality.</td>
+</tr>
+<tr>
+<td>Large Multi-practice Clinic</td>
+<td>The size and location of a practice can impact their interoperability options.  We will test with both small/rural and large/urban practices to ensure all practices have full interoperability functionality.</td>
 </tr>
 
 </table>
@@ -1284,7 +1342,7 @@ The MIE API documentation was available 99.995% of Q4.  There was a 1 minute dow
 
 #### Discussion
 
-As expected, the documentation maintained an uptime of greater than 99.9% at 99.975% for the year.  During any down time the API documentation would not have been available, but, no effect to end user requests for the information was reported.
+As expected, the documentation maintained an uptime of greater than 99.9% at 99.975% for the year.  During any down time the API documentation would not have been available, but, no effect to end user requests for the information was reported.  Data regarding the usage of the API can be viewed in Measure 20.
 
 
 
@@ -1775,11 +1833,11 @@ MIE will track customer reports of data expected to be in mass data export downl
 
 #### Results
 
-Mass data export of CDA documents occurred in a client system in early November.  The documents generated were known to have been used in another system for import later on in the month.
+A mass data export of 12,563 CDA documents occurred in a client system in early November.  The documents generated were known to have been used in another system for import later on in the month.  All 12,563 documents were successfully imported.
 
 #### Discussion
 
-While sporadic in use, the ability for live systems to export data via mass CCDA downloads is confirmed to be usable in 2023.
+The mass export of CDA documents is a rarely used feature; however, as expected, all documents were successfully generated and successfully imported into the new system.
 
 
 ### Measure 19: CDA Validation
@@ -1905,7 +1963,7 @@ All API requests made in production systems are recorded in log files.  The numb
 
 #### Discussion
 
-Three exports were CSV and two were PDF. The exports had a failure rate of <1%. All initial export errors were rerun error-free and all data was delivered as expected.
+Five total production API exports occurred in 2023.  Three of these exports produced CSV files and two produced PDF files for patient charts. All exports had an initial failure rate of <1%. These initial export errors were rerun error-free and 100% of data was delivered as expected.
 
 ### Measure 21: Web Content Accessibility
 
@@ -2029,11 +2087,13 @@ We will have tests that will choose a certain number of random patient CCDAs in 
 
 #### Results
 
-On a quarterly basis, USCDI data elements have been entered on test patients in live WebChart EHR systems.  CCDA documents were then generated for those patients.  In all cases the USCDI elements were present in the CCDA.
+On a quarterly basis, USCDI data elements have been entered on 2 test patients in live WebChart EHR systems.  Each quarter, 1 CCDA document was generated for each test patient.  All 8 CCDA documents contained all USCDI data elements.
+
+Additionally, the 28543 CCDA documents viewed in participating WebChart EHR systems and the 309 schematically valid reconciled CCDA documents were compared to the patients' charts.  In all cases, all USCDI data available in the chart was displayed in the documents.
 
 #### Discussion
 
-In addition to successful manual testing, no customer complaints about missing USCDI content in CCDA documents sent to 3rd parties were reported in 2023.
+All testing completed with test patients in live systems was successful, demonstrating that all USCDI elements can be included in CCDAs.  All live patient data tested was also successful; however, not all patient charts contained all USCDI data elements.  More robust testing of all USCDI elements is planned for 2024.
 
 
 ### Measure 24: Record and Change Care Plan
@@ -2076,10 +2136,35 @@ We will report on the following data elements being created or edited in patient
 
 On a quarterly basis, CDA Care Plan information was entered on test patients in properly configured live WebChart EHR systems.  CCDA documents were then generated for those patients.  In all cases the Care Plan information was present in the CCDA.
 
+The following is the number of records of each element in the live systems tested:
+
+<table>
+<tr>
+<td><strong>Element</strong></td>
+<td><strong>Number of Charts with Element Entered per Quarter</strong></td>
+</tr>
+<tr>
+<td>Care Plan Goals</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Health Concerns</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Health Status</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Interventions</td>
+<td>2</td>
+</tr>
+
+</table>
+
 #### Discussion
 
-Currently no live clients are using the Care Plan fields in their workflows.
-
+Currently, no live clients are using the CCDA related Care Plan fields in their workflows; however, 100% of completed tests were successful.
 
 ### Measure 25: Create Care Plan CCDA Documents
 
@@ -2113,11 +2198,47 @@ We will report on the number of encounters with Care Plan information, and the n
 
 #### Results
 
-On a quarterly basis, CDA Care Plan information was entered on test patients in properly configured live WebChart EHR systems.  CCDA documents were then generated for those patients.  In all cases the Care Plan information was present in the CCDA.
+On a quarterly basis, CDA Care Plan information was entered on test patients in properly configured live WebChart EHR systems.  CCDA documents were then generated for those patients.
+
+
+<table>
+<tr>
+<td><strong>Element</strong></td>
+<td><strong>Number of Charts with Element Entered per Quarter</strong></td>
+<td><strong>Number of CCDAs with Element Present per Quarter</strong></td>
+<td><strong>Total Successful Tests</strong></td>
+</tr>
+<tr>
+<td>Care Plan Goals</td>
+<td>4</td>
+<td>4</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Health Concerns</td>
+<td>3</td>
+<td>3</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Health Status</td>
+<td>2</td>
+<td>2</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Interventions</td>
+<td>2</td>
+<td>2</td>
+<td>8</td>
+</tr>
+
+</table>
+
 
 #### Discussion
 
-In 2023 no live clients are generating Care Plan CCDAs as part of their workflows.  There are plans for at least one client to automate Care Plan CCDAs as part of a workflow in 2024.
+In 2023, no live clients were generating Care Plan CCDAs as part of their workflows; however, 100% of completed tests were successful.
 
 
 ### Measure 26: Receive Care Plan CCDA Documents
@@ -2156,11 +2277,12 @@ We will report on:
 
 #### Results
 
-On a quarterly basis, CCDA documents with Care Plan information were imported to test patients in live WebChart EHR systems.  In all cases the Care Plan information was present when viewing the patients' charts.
+On a quarterly basis, CCDA documents with Care Plan information were imported to test patients in live WebChart EHR systems.  CCDA documents with Care Plan information were imported for 4 test patients separate from the test patients used in Measures 24 and 25.  
+4 CCDA documents were uploaded each quarter for a total of 16 documents.  All 16 were successful.
 
 #### Discussion
 
-Currently no clients are set up to receive Care Plan CCDA documents as part of their workflow.
+As expected, all manual testing was successful.  Currently, no clients are set up to receive Care Plan CCDA documents as part of their workflow.  Whether any live clients will receive CCDA Care Plan documents as a live part of their workflow is not certain, so expanded manual live testing will be implemented in 2024.
 
 
 ### Measure 27: Create CCDA Documents with Security Tags
@@ -2201,11 +2323,11 @@ From discussions with others around the industry who interact with large usage o
 
 #### Results
 
-On a quarterly basis, CDA documents were generated on test patients with security set on the encounter in live WebChart EHR systems.   In all cases the security tags were present in the CCDA.
+On a quarterly basis, CDA documents were generated on test patients with security set on the encounter in live WebChart EHR systems.  Across the year, 23 documents with security tags were generated.  All 23 documents were reviewed and contained the appropriate security tags based on the encounter settings.  Additionally, all 23 documents were confirmed as valid CCDAs.  These documents were then imported into a test system, and all were confirmed to have successfully imported the appropriate security.
 
 #### Discussion
 
-We will set up further tests to take an external document with security tags and see that they can be displayed.
+Since there are no indications that the security tags will be broadly used within live workflows, more robust manual testing will be implemented in 2024 along with client education that this feature is available.
 
 
 ### Measure 28: Receive and Display CCDA Documents with Security Tags
@@ -2246,12 +2368,11 @@ From discussions with others around the industry who interact with large usage o
 
 #### Results
 
-We demonstrated the ability to view a CDA document based on information in the appropriate sections of an encounter in a live system with the security set in the document, although not from ones sent into the system.
+On a quarterly basis, CDA documents were generated on test patients with security set on the encounter in live WebChart EHR systems.  Across the year, 23 documents with security tags were generated.  All 23 documents were reviewed and contained the appropriate security tags based on the encounter settings.  Additionally, all 23 documents were confirmed as valid CCDAs.  These documents were then imported into a test system, and all were confirmed to have successfully imported the appropriate security.
 
 #### Discussion
 
-We will set up further tests to take an external document with security tags and see that they can be displayed.
-
+Since there are no indications that the security tags will be broadly used within live workflows, more robust manual testing will be implemented in 2024 along with client education that this feature is available.
 
 ### Measure 29: FHIR Sandbox Testing
 
@@ -2299,16 +2420,17 @@ WebChart EHR's FHIR API is still newly available to clients and has no adoption 
 
 #### Test Methodology
 
-MIE will run nightly automated testing on the public FHIR R4 sandbox system using Inferno, and using log files stored in a QA database, MIE will report the success rate of the full (g)(10) test suite.  Any errors will be tracked, reported, and addressed.
+MIE will run weekly automated testing on the public FHIR R4 sandbox system using Inferno, and using log files stored in a QA database, MIE will report the success rate of the full (g)(10) test suite.  Any errors will be tracked, reported, and addressed.
 
 
 #### Results
 
-Nightly testing of the FHIR Sandbox using Inferno has been successful; however, no clients are actively using FHIR.
+Beginning in Q3, weekly testing of the FHIR Sandbox using Inferno was conducted since no live clients are currently using FHIR.  15 of these tests were fully successful.  Weekly tests that were not successful were due to internal issues with test server availability.  The FHIR Sandbox environment was always available, but the test system accessing it had unexpected unavailability impacting our ability to test the sandbox.
+
 
 #### Discussion
 
-While FHIR Inferno testing has been successful in the Sandbox environment, MIE plans to work with clients in 2024 to provide more robust testing of real world scenarios in addition to using the sandbox.   
+When the test server was available for connection to the FHIR Sandbox, FHIR Inferno testing was successful. MIE plans to both continue with weekly testing beginning from 01/01/2024 and work with clients to robustly test real world scenarios throughout all of 2024.
 
 ### Measure 30: FHIR Patient Scope
 
@@ -2351,7 +2473,6 @@ This measure will review WebChart EHR's ability to connect to an app within a pa
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
 
-
 #### Test Methodology
 
 MIE will report from de-identified log files an analysis of authentication and data searches using a patient app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world patient data since we cannot estimate failures due to patients correctly being denied access.
@@ -2362,8 +2483,8 @@ No client systems have generated FHIR patient connections yet.
 
 Successful Sandbox connections have been made via:
 
-* Our Inferno testing tool. 
-* The CommonHealth app
+* Our Inferno testing tool : 658 successful Patient scope FHIR connections.
+* The CommonHealth app: 14 successful Patient scope FHIR connections.
 
 
 #### Discussion
@@ -2415,7 +2536,7 @@ MIE will report from de-identified log files an analysis of authentication and d
 
 #### Results
 
-No client systems have generated connections yet, other than successful Sandbox connections to our Inferno testing tool.
+111 successful Sandbox connections to our Inferno testing tool were made for EHR provider access.
 
 #### Discussion
 
@@ -2484,7 +2605,8 @@ The Live RW sandbox systems have shown our ability to do EHR provider connection
 <tr>
 <td>Submission of Real World Testing Results to ACB</td>
 <td>All settings</td>
-<td>Jan 29, 2024</td>
+<td>Jan 29, 2024, resubmitted on 
+Feb 29, 2024</td>
 <td></td>
 </tr>
 
@@ -2517,7 +2639,7 @@ This Real World Testing plan is complete with all required elements, including m
 </tr>
 <tr>
 <td><strong>Date</strong></td>
-<td>01/26/2024</td>
+<td>02/29/2024</td>
 </tr>
 
 </table>
