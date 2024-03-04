@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-02-19T18:43:27.325Z'
-version: 2715
-lastAuthor: 'Alice Uhrick'
+date: '2024-03-04T18:55:16.057Z'
+version: 2762
+lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -382,7 +382,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Arizona thru Scientific Technologies Corp (STC)
 * California CAIR unidirectional (bidirectional is possible, but no clients have requested)
 * Colorado (CDPHE CIIS) Immunization Information System
-* Connecticut
+* Connecticut WiZ
 * Florida Shots (unidirectional nightly FTP to send matching injections to FL Shots)
 * Georgia GRITS uni-directional HL7 via HTTPS
 * Hawaii HIR uni-directional
@@ -579,5 +579,6 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Disney CARS (a Disney system)
 * Liberty Mutual
 * PMA (uni-directional)
+* RISX-FACS (bi-directional)
 * Sedgwick
 * Vigilanz (uni-directional incoming only into EH/WC)
