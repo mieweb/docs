@@ -1,8 +1,8 @@
 ---
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
-date: '2024-02-19T17:43:06.154Z'
-version: 264
+date: '2024-02-19T17:43:19.123Z'
+version: 286
 lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
 title: 'Transcribing Dictation'
 date: '2020-03-13T11:15:15.186Z'
-version: 70
+version: 74
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
