@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 When working in an encounter and when on the "view" of the encounter, down at the bottom of that encounter "view" you will see *Encounter Options*. This same *Encounter Options* section can be accessed by the *Encounter Checkout* chart tab in your system.  
 When working in {{% system-name %}} , you can have an *Encounter Checkout* chart tab programmed. If it's not programmed already, please contact your MIE Implementer.  

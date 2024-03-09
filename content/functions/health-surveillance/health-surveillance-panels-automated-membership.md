@@ -6,7 +6,7 @@ version: 36
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 ![](../health-surveillance-panels-automated-membership.assets/8559017c3985006ba5394aa58ece891b.png)

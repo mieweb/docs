@@ -16,7 +16,7 @@ links:
   - 'https://system/?f=chart&s=checkin&t=station_manager&opp=add'
   - '../reports/checkin-reports.md'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The {{% system-name %}} Checkin module significantly improves patient flow by ensuring communication lines between the front office and clinicians are always open. The Checkin module will function in a patient kiosk setting, or within {{% system-name %}} as used by the clinical staff.  
 The module allows for initiation of patient encounters, notifications for clinical staff of the patients' locations, as well as tracking of patient wait times. An additional feature is the Station Manager, which allows staff to move patients between varying stations, or locations, through to checkout. Color-coded station alerts let users know when a patient has remained at a station for an extended period of time.

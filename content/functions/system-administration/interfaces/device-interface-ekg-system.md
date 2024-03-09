@@ -6,7 +6,7 @@ version: 45
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 This document describes the interface between {{% system-name %}} and the Welch Allyn EKG Monitoring system known as CardioPerfect. {{% system-name %}} can interface with other models of devices, so please contact Help Desk for verification and quote for the interface.
 

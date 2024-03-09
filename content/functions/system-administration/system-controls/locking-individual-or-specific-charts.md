@@ -6,7 +6,7 @@ version: 49
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 A user with security can lock patient chart records which then can only be accessed by allowed users. If an individual patient's chart is locked from your view, it will state that in highlight on the E-Chart search screen. If you are allowed to access a locked patient's chart, you will not even see the **Locked** notification since it is not locked to you, the logged in user.
 ![](../locking-individual-or-specific-charts.assets/e9096fa579ee5310390d1838ea7e9b6c.png)

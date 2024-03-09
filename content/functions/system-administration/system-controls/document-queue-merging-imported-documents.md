@@ -2,12 +2,12 @@
 id: '1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA'
 title: 'Document Queue - Merging Imported Documents'
 date: '2023-04-24T13:17:40.799Z'
-version: 165
+version: 167
 lastAuthor: 'June Matzke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Click *E-Chart* on the left sidebar menu.  
 Click *Document Queue* tab at the top.  

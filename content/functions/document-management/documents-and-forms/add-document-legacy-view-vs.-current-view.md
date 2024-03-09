@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
 source: 'https://drive.google.com/open?id=1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 When navigating to the **Add Document** library, it's important to note the optional views. These views are determined by the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) Add Document Screen** preference. By default, the setting is **Current**, though users may choose to set the view to **Legacy**, if preferred. Changing this setting will only affect the logged-in user.
 ![](../add-document-legacy-view-vs.-current-view.assets/6ad3e9d6970bb2f7d72c7e3f68686658.png)

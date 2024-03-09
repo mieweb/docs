@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The following is referring to a blood chemistry analyzer Abaxis Piccolo Xpress system. Contact your MIE Implementer to see if your piccolo system model can be interfaced or quoted.
 

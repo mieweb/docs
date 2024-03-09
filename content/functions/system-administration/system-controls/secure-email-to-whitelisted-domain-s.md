@@ -6,7 +6,7 @@ version: 66
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 {{% system-name %}}  provides the ability to securely email documents to specific whitelisted domains. Securely emailing is a network setup usually via VPN and/or a secure connection between MIE and the  {{% system-name %}} system domain, before they can be marked as whitelisted (in a system setting) to email to.  {{% system-name %}} must have a secure connection before having the ability to email out documents. Please contact your MIE Implementer for setup information.  
 The ability to send documents via ‘Direct' HISP connection does not rely on this setup. To email documents out to other domains must first have an established secure connection within  {{% system-name %}} (contact your MIE Implementer for that setup), then a system setting set, then security permission. Sending documents via "direct" for meaningful use is still valid via the send method.

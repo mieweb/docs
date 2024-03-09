@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 **Toward the bottom of an Encounter Exam is a section called Plan.**  
 This is the ‘plan' that the physician is recommending/ordering for the patient as a result of the examination. There are two different ‘looks' to the plan area that you may have.![](../encounter-plan-section-medications.assets/abb37ea646c9d4a9ebd48ff5f5413b01.png)

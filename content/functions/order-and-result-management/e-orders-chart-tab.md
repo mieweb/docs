@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.  
 Click *E-Chart* on the left sidebar menu.  

@@ -10,7 +10,7 @@ links:
   - 'single-sign-on-sso.md'
   - 'saml-based-single-sign-on.md'
 source: 'https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.  
 For more information on login trust terminology, see our [SSO Documentation](single-sign-on-sso.md).

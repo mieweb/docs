@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 You must have security to be able to View the Print Manager tab found in Control.
 ![](../print-manager.assets/549a4377015747ff6caf9eb00ca2139a.png)

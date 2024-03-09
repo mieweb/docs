@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Pharmacy_Filter_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The Pharmacy Filter allows you to import filter data on pharmacies based on either their NPI or NCPDPID.  
 The purpose of this page is to define data and fields that may be imported into MIE systems (Webchart, Enterprise Health) using the WC Pharmacy Filter Import.

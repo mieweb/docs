@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Note that the system treats the dates specified in the *Begin Date* and *End Date* fields as inclusive of the effective periods of fee schedules.   
 For example, if there is a fee schedule effective from the first day of this month to the last day of this month and a date next month is entered in the *End Date* field, the system will not find this fee schedule because the date is outside of that fee schedule's effective period.

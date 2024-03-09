@@ -9,7 +9,7 @@ links:
   - '../intro-to-the-system.md'
   - '../../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The following page provides details on the correct terminology for screens and items that appear in an MIE (WebChart, Enterprise Health) system.  
 For an overview on basic {{% system-name %}} navigation and functionality, see [Intro to the System](../intro-to-the-system.md).

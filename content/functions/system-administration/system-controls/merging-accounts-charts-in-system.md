@@ -6,7 +6,7 @@ version: 80
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 *You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} .*  
 Click *E-Chart* on the left sidebar menu.  

@@ -9,7 +9,7 @@ links:
   - 'flowsheets-editor.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager'
 source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
 

@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 In the *Dictation* tab pending screen:  
 If the Physician used the phone to dictate or the general add dict link in the *Dictation* module (and not in a specific patient's E-Chart), it will **not** show patient's name or DOB.  

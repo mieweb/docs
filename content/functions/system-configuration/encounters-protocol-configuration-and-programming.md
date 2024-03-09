@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 *rfdThis help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
 

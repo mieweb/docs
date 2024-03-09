@@ -7,7 +7,7 @@ lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The Claims report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 ![](../claims-report.assets/4554a07697ccf0f894de8df00bcadb95.png)

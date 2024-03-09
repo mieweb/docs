@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 In most cases, once MWL is installed and configured on the base system, configuring MWL for a DICOM entity is as simple as checking a box.
 

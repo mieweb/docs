@@ -7,7 +7,7 @@ lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 An encounter can have a section named Billing. This can include items like Time Factor, Charge Capture and also an EM Calculator (Evaluation & Management Codes).
 ![](../e-m-calculator.assets/8a7a03888281739c004ad6d958c8cd43.png)

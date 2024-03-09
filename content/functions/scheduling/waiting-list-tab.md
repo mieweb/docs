@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'cancel-no-show-edit-appointments.md'
 source: 'https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Log into {{% system-name %}}  
 Click *Scheduler* from the left sidebar menu.  

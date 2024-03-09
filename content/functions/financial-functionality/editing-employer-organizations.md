@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PleeV1Z7fxATGu1yowdD2s_fPffeoRkLVlFzNyCYPQw'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Edit employer organizations to change information about an organization, such as address, search name, or fax number.
 

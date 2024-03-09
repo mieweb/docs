@@ -7,7 +7,7 @@ lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 If you have security permission to manage locations (and depending on your security level) you can view, edit or delete locations in the Locations Manager tab found in control. These are the locations your practice utilizes. Locations that would need to be entered and stored here are the locations you would schedule your patient appointments for, create documents for, or where you provide services. Locations should also be entered for any location that a physician may do surgeries at and/or do rounds (ie: hospitals). Other locations that should be entered are locations that you receive results from (via any interface also) or where you may send a patient for an order (lab draw, xray, etc).
 

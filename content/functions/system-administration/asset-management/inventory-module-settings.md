@@ -6,7 +6,7 @@ version: 81
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 ![](../inventory-module-settings.assets/268ee4a57c3887e20d82ea1242d53e97.png)
 

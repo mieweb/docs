@@ -8,7 +8,7 @@ links:
   - 'https://innovation.cms.gov/'
   - 'https://qpp.cms.gov/'
 source: 'https://drive.google.com/open?id=12p7Iy880e45Q2ET2g2wDFFRzSW5kUkrwhO8Y77UhkfQ'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Keeping You Ahead of the Game
 ![](../macra-quality-payment-program-qpp.assets/35b3ede081fc9fe9b8e9fb392e100ed4.jpg)

@@ -18,7 +18,7 @@ links:
   - 'https://system/?f=admin&s=work_locations&opp=work_regions&work_regions_show_active=1'
   - 'https://system/?f=admin&s=work_locations&opp=work_sites&work_sites_show_active=1'
 source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The {{% system-name %}} solution allows varying degrees of customization with regard to locations, namely office-specific types or work sites, regions, and locations. There is also the corporate, or managing, location which is used and can be updated, as needed.
 

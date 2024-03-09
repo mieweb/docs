@@ -2,13 +2,13 @@
 id: '1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
 title: 'Device Interface - NDD EasyOne Connect vbase'
 date: '2022-06-23T00:58:44.715Z'
-version: 244
+version: 248
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.nddmed.com/en-us/product/easy-on-pc.html'
 source: 'https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The following is referring to the NDD EasyOne Connect spirometry system (also referred to as Easy-On or EasyWare). Contact your MIE Implementer to see if your spirometer system model can be interfaced or quoted.
 

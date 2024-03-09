@@ -10,7 +10,7 @@ links:
   - 'adding-contacts-to-employer-organizations.md'
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 An employer organization to be added as a sub-employer organization must already be in the system and an employer organization. If it is not, first create the employer organization that will be subordinate or [change an organization to an employer organization](changing-organizations-to-employer-organizations.md).  
 Before persons can be added as contacts of the employer organization, their information must be in the system in contact charts. See [Adding contacts to accounts](adding-contacts-to-employer-organizations.md).

@@ -7,7 +7,7 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Click *Fax Manager* tab from the left sidebar menu. The screen opens with a header that says **Outgoing Fax Search** with a search tool. You will be defaulted to the "General" search filter method unless you had previously rendered a detail fax id search. (It will remember which mode you were in last and default you to that.)  
 Below that you will see other categories: Pending Fax Spool, Error Fax Spool, Completed Fax Spool and Previewed/Canceled Fax Spool.

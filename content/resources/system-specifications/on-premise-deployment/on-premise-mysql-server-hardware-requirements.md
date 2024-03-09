@@ -18,7 +18,7 @@ links:
   - 'http://dba.stackexchange.com/questions/15030/mysql-recommended-hardware'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 ## Dedicated Server Minimum Requirements
 

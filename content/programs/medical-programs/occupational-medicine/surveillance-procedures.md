@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../functions/order-and-result-management.md'
 source: 'https://drive.google.com/open?id=1ZazV-O1C7sT_Alm_cVaPWxbLBLpUz9wBXsR_-P3_uEs'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 
 

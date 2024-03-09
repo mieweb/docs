@@ -9,7 +9,7 @@ links:
   - 'editing-employer-organization-accounts.md'
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1BiAg3NNKItfczDawRTAiRmzjL7LyiE3AKSdrfQLTXR0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Add accounts like checking accounts against which to record credits and debits or an insurance account against which to charge some costs, such as worker's compensation.  
 Accounts added to an employer organization are not available to sub-employer organizations.  

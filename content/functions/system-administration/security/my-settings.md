@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences.
 

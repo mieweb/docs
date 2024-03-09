@@ -6,7 +6,7 @@ version: 71
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 There are required applications that may be needed for some programs, as well as certain functionality within the {{% system-name %}} system. The following instructions intend to assist users in installing the **MIE Device App** and the **MIE SSL App**. 
 

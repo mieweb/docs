@@ -12,7 +12,7 @@ links:
   - '../document-management/documents-and-forms/document-properties.md'
   - '../document-management/documents-and-forms/delete-move-lock-documents.md'
 source: 'https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The **Alert Comments** document ([WCALERT document type](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtview&dtsopp=dt_val&doc_type=WCALERT)) is found in the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the  {{% system-name %}} system.  It is an alert comment document you can add to a patient's chart via text method. You can add multiple alert comments to a patient's chart, as needed.
 

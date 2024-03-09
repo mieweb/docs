@@ -11,7 +11,7 @@ links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
   - '../../e-sign-electronic-signature.md'
 source: 'https://drive.google.com/open?id=1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The {{% system-name %}} system has the ability to link one document to another document, whenever necessary. For example, a radiology report may be linked to an x-ray image. Performing this type of link can be done from either the document properties or multi-review screen of the [E-Sign](https://system/?func=esign) module.
 

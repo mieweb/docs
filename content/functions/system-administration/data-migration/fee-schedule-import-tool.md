@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Def_fee_sched.csv'
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 This wiki page is to document how fee schedule data needs to be constructed in order to import using WebChart's Fee Schedule Import Tool.
 

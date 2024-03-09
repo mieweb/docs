@@ -9,7 +9,7 @@ links:
   - '../../../resources/system-specifications/interface-specifications.md'
   - 'https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
 source: 'https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 This page provides instructions for retrieving results from the Benson software with {{% system-name %}} , and lists the fields that the interface retrieves.
 

@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Use financial reports to view balances and details of accounts and pending billing and appointments. Also use financial reports to close out months.  
 You can change the information displayed in reports and download it as comma-separated value (CSV) format files.  

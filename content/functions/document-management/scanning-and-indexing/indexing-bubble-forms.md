@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=miewebscan'
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
 source: 'https://drive.google.com/open?id=16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Bubble forms are designed to record discrete data and index the information as observations in the chart. Bubble forms are document type templates that have special programming marks, which allow them to make quick and easy work of collecting granular data using the {{% system-name %}} WebScan module.
 

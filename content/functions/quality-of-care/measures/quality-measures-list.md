@@ -50,7 +50,7 @@ links:
   - 'quality-measures-list/cms-177-child-and-adolescent-major-depressive-disorder-mdd-suicide-risk-assessment.md'
   - 'quality-measures-list/cms-347-statin-therapy-for-the-prevention-and-treatment-of-cardiovascular-disease.md'
 source: 'https://drive.google.com/open?id=14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 [CMS2 - Preventive Care and Screening: Screening for Depression and Follow-Up Plan](quality-measures-list/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.md)  
 [CMS22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-Up Documented](quality-measures-list/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md)  

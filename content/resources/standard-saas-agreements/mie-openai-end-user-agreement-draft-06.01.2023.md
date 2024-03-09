@@ -10,7 +10,7 @@ links:
   - 'https://openai.com/api/policies/service-terms/'
   - 'https://openai.com/policies/terms-of-use'
 source: 'https://drive.google.com/open?id=1dSjejCMB7zGviJsgOU-uJ1dnrf05Cn58ZT_GFDd53_M'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 **END USER AGREEMENT AND TERMS OF USE**  
 This End User Agreement ("EUA") is a legal agreement between you (the "End User") and Medical Informatics Engineering, Inc. ("MIE"), and contains the terms and conditions governing the use and access of the AI Functionality made available as part of the MIE Software identified in the [WEBCHART Services License Agreement/Master Services Agreement] (the "Agreement") by and between MIE and the other party listed therein (["Customer/Client"]).

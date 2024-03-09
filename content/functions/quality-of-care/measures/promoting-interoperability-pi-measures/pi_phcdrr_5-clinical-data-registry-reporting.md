@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 **Description**:  Clinical Data Registry Reporting  
 **Participation**:  The MIPS eligible clinician is in the process of moving towards sending "production data" to a public health agency or clinical data registry, or is sending production data to a public health agency (PHA) or clinical data registry (CDR).  

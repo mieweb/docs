@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0'
   - 'mailto:support@nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 
 

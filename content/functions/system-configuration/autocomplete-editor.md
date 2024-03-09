@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 You must have security role access to Manage Autocompletes. This allows users (based on level) to access the AC Editor tab found in the Control sidemenu tab.
 ![](../autocomplete-editor.assets/0451eb3bf312f6305419e609b832bf6d.png)

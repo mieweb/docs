@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Portal Integration with {{% system-name %}}  
 NoMoreClipboard offers NMC-MD – a patient portal that combines personal health record functionality with an administrative portal that enables a practice using {{% system-name %}} to receive and reply to patient-generated messages within a practice's {{% system-name %}} system. This is considered a data-send/auto-route document interface.  

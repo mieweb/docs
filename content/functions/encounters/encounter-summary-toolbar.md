@@ -6,7 +6,7 @@ version: 37
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 At the top of the patient's chart is a VIS.TYPE: summary line. VIS.TYPE stands for the encounter visit type that is set as current on your view.  
 This is a summary line of the current encounter opened / closed or set as current for the patient.  

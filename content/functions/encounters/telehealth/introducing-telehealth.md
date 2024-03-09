@@ -11,7 +11,7 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.    
 

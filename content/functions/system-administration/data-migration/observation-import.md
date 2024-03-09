@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv'
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 This wiki page is to document how observation data needs to be constructed in order to import using WebChart's Observation data Import Tool.
 

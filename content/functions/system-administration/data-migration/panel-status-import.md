@@ -11,7 +11,7 @@ links:
   - 'data-import-standards.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create patient panel status records using the Panel Status CSV API.
 

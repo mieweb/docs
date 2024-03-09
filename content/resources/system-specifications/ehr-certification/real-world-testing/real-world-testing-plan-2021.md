@@ -32,7 +32,7 @@ links:
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://github.com/mieweb/wcexport'
 source: 'https://drive.google.com/open?id=1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 ## [General Information](https://drive.google.com/open?id=1UH8ZmWU4RKQxPK48naxE60OfrYjB0CO1sOPYXD-GlSI)
 

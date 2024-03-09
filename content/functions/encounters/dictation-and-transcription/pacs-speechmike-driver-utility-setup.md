@@ -7,7 +7,7 @@ lastAuthor: 'Dave Cornewell'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 To begin, install and run the Philips Device Control Center application
 ![](../pacs-speechmike-driver-utility-setup.assets/692b0ac2c2035ef6414a0ee249a34639.png)

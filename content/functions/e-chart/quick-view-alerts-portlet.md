@@ -18,7 +18,7 @@ links:
   - 'https://system/?func=dicom&dcfunc=queue'
   - '../document-management/imaging/dicom-setup-tab.md'
 source: 'https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 There is an interactive [Quick View](https://system/) available to end users. The Quick View offers various summary portlets that are used as quick references for viewing modules and data in {{% system-name %}} .  For example, your pending tasks, the appointment schedule, worklists, dashboards, and the like are types of portlets available for quick access and management. You can select which specific portlets to show on your view. One of the portlets is **Alerts**.  
 When logged into {{% system-name %}} , click on the [Quick View](https://system) sidemenu option.

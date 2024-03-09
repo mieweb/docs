@@ -7,7 +7,7 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 You can have {{% system-name %}} send you an email notifying you upon each successful sent fax you did and/or each failed (unsuccessful) fax that you sent via {{% system-name %}} . This is a user preference and only affects you, the logged in user.  
 Please make sure you have your email entered in your username screen (a superuser may need to verify this or add this for you within your practice). You can always view the Fax Manager tab to view failed and successful faxes, but the email notification sends you an email instantly to you when the fax has been sent or has a problem being sent.

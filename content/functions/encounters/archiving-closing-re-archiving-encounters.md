@@ -11,7 +11,7 @@ links:
   - '../../resources/intro-to-the-system.md'
   - '../../resources/intro-to-the-system/system-anatomy.md'
 source: 'https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 In order to archive, close, or re-archive an encounter, users must be familiar with the security settings, buttons, toolbars, and links associated with the encounter. The buttons found in the encounter are customizable and may have different functions per practice, or per encounter, depending on the preferred workflows. Contact an Implementation Specialist to have the buttons renamed or functionality reconfigured, as needed.  
 To archive or re-archive encounters, users must have the necessary security permissions set. Customize the user security by updating the following settings, accordingly:  

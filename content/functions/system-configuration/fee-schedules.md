@@ -6,7 +6,7 @@ version: 63
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 In order to change or add any Fee Schedules, you must have security permission to Manage Fee Schedules. In order to change or add fee schedules to Insurance Plans, you must have security permission to Manage Insurance Plans. In order to utilize Fee Schedules, you must have CPT codes and picklists entered via the CPT codes module & tab. See other help instructions named *CPT Codes tab.pdf*
 

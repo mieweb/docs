@@ -54,7 +54,7 @@ links:
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 ![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)  
 The list below represents a complete listing of all vendors/devices that we have integrated with. Any vendor/device not listed would need to be researched for compatibility with our product. Check out our [additional documentation](../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md) that explains how to send HL7 messages to us.

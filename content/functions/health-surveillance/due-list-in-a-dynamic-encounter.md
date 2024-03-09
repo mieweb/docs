@@ -6,7 +6,7 @@ version: 54
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NHVGEeKbx_wGt0Y8K3WXwos-rv3dRUg4Ev6n7tdTD1Y'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Plan Orders can be entered using encounters and allows a user to enter in a due date (order should be status *pending)* which will stay on the patient's Due List until it's marked as completed (this would be for tests not included in the Health Surveillance panels if an {{% sys-name %}} practice).
 ![](../due-list-in-a-dynamic-encounter.assets/5e3fa0601b88664e97fc54c20a990a68.png)

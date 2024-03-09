@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 To view recent orders (existing orders) that the patient has had created/ordered for them, click View Recent at the top right of the screen.
 ![](../orders-view-recent.assets/2d0401b8e99c2e554c2f9a30ba26b70c.png)

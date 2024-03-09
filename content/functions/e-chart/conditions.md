@@ -7,7 +7,7 @@ lastAuthor: 'sriecke'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 ## Viewing a Patient's Conditions
 

@@ -11,7 +11,7 @@ links:
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
   - 'http://www.mieweb.com/mie-ca2.crt'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
 

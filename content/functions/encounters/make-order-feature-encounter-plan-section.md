@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 4The ‘plan' area of an encounter allows the physician/user to create orders for the patient. The below explains how a physician/user enters items into the plan area by using Make Order link or Create Order link in the plan area and how it renders a complete order to print/fax right from the encounters view. This forces the physician/user to create the order right from the encounter and eliminates having to go to unordered orders or the patient's chart to render the order that the physician created in the encounter. You can ask MIE to remove the list option completely and only use the Make / Create Order feature or have both options. Only the make / create order feature will create the order right there in the encounter though. Using the Create xx Order link bypasses the unordered orders and inserts the order as a document directly into the patient's chart. If using the list link or auto-complete fields in the plan orders area, it creates an unordered order (see other help documentation titled *Encounters Plan Section-Unordered Orders.pdf*).  
 If the user/physician uses list (and not make / create order) or the auto-complete fields in the plan area, it creates an unordered order which the front/check out staff uses to create the orders before the patient leaves. See separate help documentation named *Encounters Plan Section-Unordered Orders.pdf* for this workflow option.

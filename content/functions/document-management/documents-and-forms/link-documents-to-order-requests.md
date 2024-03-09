@@ -10,7 +10,7 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - 'document-properties.md'
 source: 'https://drive.google.com/open?id=1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding order request. Linking a document to an order request in a chart allows users to easily view the order request, results, and corresponding linked documents, all from one place. Orders can also be managed from within an encounter, as well as when scanning and indexing documents, as will be outlined below. For information on how to view an order and manually complete and enter results for the order request, see our [Order Requests Chart Tab](../../order-and-result-management/orders-view-recent.md) documentation.
 

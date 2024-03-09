@@ -7,7 +7,7 @@ lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1abTr620F-FY9LuKaPmqQomdsG1YOnha2ZSzP3PVcsQE'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Worklists can be programmed as a separate sidemenu tab for your practice or to be shown within the Omniscope tab. If you use encounters, it is suggested to have this worklist tab set up. Contact your MIE Implementer if you wish to have such a worklist programmed. Worklists show ‘open' encounters that need to be worked on or marked closed or are still pending transcription to be done, etc.
 

@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=ERELEASE&old_module=Email&old_name=Apt+Released+to+Full+Duty&active=0'
 source: 'https://drive.google.com/open?id=16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 
 

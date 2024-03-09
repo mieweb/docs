@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 When you are in the patient's chart, you can click the VISITS chart tab and then get into the ENCOUNTERS sub-tab.  
 The encounters sub-tab shows an Encounter Search at the top, and then lists all encounters the patient has ever had. You must have security to view encounters to see this tab. This tab lists all the patient's encounters and you can view details of the encounter(s). Above this listing is the Encounter Search tool if you wish to use a search tool to narrow down results and find a specific encounter for the patient.

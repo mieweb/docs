@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 When you open an encounter and are working in it, your point & click encounter exam is customized to your practice. Most sections can be customized and programmed to accommodate your workflow. There are different variations on most sections that can be programmed. Contact your MIE Implementer if you have any questions or want to change an entry section.  
 At the top of the encounter, you may have a section named **Today's Encounters**. This section lists encounters created today only (today's date).  If you are working in a dated encounter (dated previous to today's date) and there are multiple encounters, it will still show open encounters for today's date only, not the dated encounter you are working on.  Your practice might also have links to launch other exams that may require separate documentation/encounters. These links are found right below the *Today's Encounters* section.

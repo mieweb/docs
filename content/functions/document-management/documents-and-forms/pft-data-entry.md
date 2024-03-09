@@ -11,7 +11,7 @@ links:
   - '../../system-administration/interfaces/device-interface-pft-system.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely within {{% system-name %}}.
 

@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs'
   - 'indexing.md'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The  {{% system-name %}} system has integrated scanning functionality designed to streamline all scanning and indexing needs. The following information provides a basic introduction to these scanning and indexing capabilities, along with details on how to access and utilize these features.
 

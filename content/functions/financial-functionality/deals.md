@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GGqEjpljaHjSu1ZhgbJJdh1aPJY8q2Pb8gBAPQJH-hI'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Deals are based on contracts between an employer organization and a service provider to provide services. Use deals to:
 

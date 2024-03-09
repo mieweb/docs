@@ -18,7 +18,7 @@ links:
   - 'health-surveillance-panels-action-rules.md'
   - '../health-surveillance.md'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 {{% system-name %}} offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
 

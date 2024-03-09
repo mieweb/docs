@@ -12,7 +12,7 @@ links:
   - '../../document-management/scanning-and-indexing/indexing-bubble-forms.md'
   - '../../document-management/scanning-and-indexing/indexing.md'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Within {{% system-name %}}, you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results.
 

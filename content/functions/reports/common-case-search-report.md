@@ -6,7 +6,7 @@ version: 98
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Capturing case (incident) detail on a patient or employee is done through encounters using the dynamic *Case* section.
 ![](../common-case-search-report.assets/e640826b4635d3c23e09ed384465462c.png)

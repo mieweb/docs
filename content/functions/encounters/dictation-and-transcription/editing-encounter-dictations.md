@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Log into {{% system-name %}} and click on the left sidebar menu tab called DICTATION.  
 You will open to the ALL PENDING tab of the dictation module.  

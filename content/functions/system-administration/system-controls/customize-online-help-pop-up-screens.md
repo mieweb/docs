@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/video/WCEncounter.mov*'
 source: 'https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Help is always available in {{% system-name %}} . At the top right corner of your {{% system-name %}} screen session is a help bubble icon.  
 Click that to access {{% system-name %}} Online Help. Once you click the a pop-up window of {{% system-name %}} Online Help will open (pop-up) on your screen. You can type search phrases in the field at the top or click the index hyperlink at the bottom right corner of this screen to get a full index of all help documents in pdf format provided by MIE.  

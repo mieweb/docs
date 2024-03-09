@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Must have security permission to access observations code manager and to merge them.  
 Look to see which is the most commonly used code. Either clicking on the obs code value or ‘View' gives the observation count. Find the one used the most. Summary: whatever you want to merge, you simply click ‘Merge' on the code you're eliminating, and then enter the obs code number that you want it to become in the ‘Destination' box.  

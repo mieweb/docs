@@ -7,7 +7,7 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pwmVB0X2rvStNmDOmy_XRa1ScUcZmzqEQlQWuJ9xtb0'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Show Inventory (Current Inventory) tab is located within the sidemenu tab named *Inventory*. It will open to the default (landing page) of showing you all current *General Inventory* for your system. It will show in and out of stock, but there is a hyperlink at the top right corner that you can hide or show Out of Stock. This is a listing of your current inventory in the system along with its quantity, where it is (site) and item details.
 ![](../show-inventory-tab.assets/4c8b1e51f8cc8eaecc0234468600196e.png)

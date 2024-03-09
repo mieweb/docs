@@ -9,7 +9,7 @@ links:
   - 'finding-fee-schedules.md'
   - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Duplicate fee schedules to create a new fee schedule with the same fee schedule items and a different fee schedule name.   
 When duplicating a fee schedule, you can also set the prices of all items in the duplicate fee schedule to be a percentage of those in the original fee schedule. The costs of items in the duplicate fee schedule can also be set to a percentage of those in the original fee schedule. This is optional.

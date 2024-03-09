@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 {{% system-name %}}  supports many different languages:  English, Indonesian/Bahasa, Portuguese, Chinese, Spanish, Thai, Dutch, Vietnamese.
 

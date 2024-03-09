@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=pat&s=search&search_method=detail&tabmodule=patsearch'
   - 'https://system/?f=chart&s=pat&s=search&search_method=simple&tabmodule=patsearch'
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 When in the {{% system-name %}} system, the [E-Chart](https://system/?f=chart) sidemenu tab displays recent charts you've accessed, along with ability to search charts by different methods.  E-Chart automatically defaults to search in **Simple** search.
 

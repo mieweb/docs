@@ -12,7 +12,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex2.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The purpose of this page is to define data and fields that may be imported into MIE systems (i.e., WebChart, Enterprise Health) using the Chart Relations Import.
 

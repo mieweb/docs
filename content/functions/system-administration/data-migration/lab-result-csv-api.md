@@ -15,7 +15,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample5.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 

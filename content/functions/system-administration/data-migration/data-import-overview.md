@@ -10,7 +10,7 @@ links:
   - 'data-migration-file-format-standard.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 This page provides an explanation of terminology related to importing data from an existing system to the {{% system-name %}} system.
 

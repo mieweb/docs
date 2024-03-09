@@ -7,7 +7,7 @@ lastAuthor: 'Grzegorz Godlewski'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 With {{% system-name %}}, users have the ability to scan individual documents into a chart using a flatbed or shell scanner from within the document library. This should not be confused with the high-speed scanning functionality of the WebScan module. Rather, navigating to the documents library by clicking any of the Add Document links found throughout the chart, and filtering down to scan document types by clicking the **E-Chart Scan** filter link, allows users to upload any of the relevant documents necessary. This can include any full-sized documents, or even smaller (e.g. card-sized) items, such as photo IDs or insurance cards.
 

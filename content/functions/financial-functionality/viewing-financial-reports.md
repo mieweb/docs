@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 If you customize a report using DataVis Grids Data Tools, the customized report will only be available to you.  
 

@@ -10,7 +10,7 @@ links:
   - 'https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.46#:~:text=The%20definitions%20contained%20in%20section,or%20industrial%20operations%20are%20performed.'
   - 'http://osha.gov/injuryreporting'
 source: 'https://drive.google.com/open?id=1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 The OSHA 300/301 Case Data report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 ![](../osha-300-301-case-data-report.assets/e50f2058d66f9a203696ab65cc800db9.png)

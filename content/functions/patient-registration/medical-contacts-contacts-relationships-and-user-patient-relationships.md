@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_S9E96qZpixBS4IVXO2ZLdEppl1vfUFG0jYFhbNpyf8'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 In the chart tab named "Patient Summary" there is a portal called *Medical Contacts* that one can select to have shown on your view.  This is a quick reference to see what the patient's physicians are that they have noted in their chart if staff has set. You can quickly see whom the patient's family physician noted is or their referring physician, etc.  
 MIE can add different "roles" to show here, but by default we only show Family, Referring, and Attending here. The patients preferred hospital and pharmacy are also shown here if also set on the patient's chart. Contact your MIE Implementer if you wish other *roles* to be shown here for quick reference.
