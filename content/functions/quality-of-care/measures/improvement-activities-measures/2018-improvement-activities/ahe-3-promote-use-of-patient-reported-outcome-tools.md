@@ -3,7 +3,7 @@ id: '1Q6PiO0lpOuWBVKOqwLEDkJZyRUUAMDg-wWCjZEWcV9Q'
 title: 'AHE 3 - Promote Use of Patient-Reported Outcome Tools'
 date: '2020-02-27T20:47:15.095Z'
 version: 17
-lastAuthor: 'aquandt'
+lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

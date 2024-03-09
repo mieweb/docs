@@ -2,7 +2,7 @@
 id: '14vy3k0f0EWCGaXu__JfC9ZtWZSsVFxInvTev8gQssbQ'
 title: 'FHIR Application Programming Interface (API)'
 date: '2022-07-26T17:15:48.882Z'
-version: 44
+version: 45
 lastAuthor: 'Nicole Richardson'
 mimeType: 'text/x-markdown'
 links:
