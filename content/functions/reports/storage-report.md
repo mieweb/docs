@@ -1,8 +1,9 @@
 ---
 id: '1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4'
 title: 'Storage Report'
-date: '2020-02-27T20:16:58.467Z'
-version: 24
+date: '2024-03-13T19:24:01.051Z'
+version: 34
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PU3KWSD2Ahv7EJS1gVzBUrMUtN8SMgMyyoHdUCzJ9t4'
@@ -13,6 +14,6 @@ Storage Report runs a document storage report for DICOM/radiology images that ha
 Click *Reports* tab on the left sidebar menu.  
 Click *Storage Report* tab from the top tab menu.  
 The Document Storage Report search screen will open.
-![](../storage-report.assets/67c421b93789d341678033f716d24949.png)
+![](../storage-report.assets/cb01bddf9e579cb7938a46fb916a6352.png)
 Select and enter the specific fields you wish to narrow your search down by.
-![](../storage-report.assets/756c0759c5fe2705d560720fe2723cae.png)
+![](../storage-report.assets/b535cedd2fb405e2d7a9f8d28525d167.png)
