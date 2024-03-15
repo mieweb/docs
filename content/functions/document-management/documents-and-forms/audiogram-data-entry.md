@@ -1,9 +1,9 @@
 ---
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
-date: '2023-11-13T18:12:16.006Z'
-version: 197
-lastAuthor: 'Alice Uhrick'
+date: '2024-03-15T14:22:53.696Z'
+version: 219
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
@@ -68,17 +68,17 @@ In RC201812 and newer, the Add Audiogram link has been removed in favor of using
 {{% /note %}}
 
 Prior result data displays on the top portion of the Audio tool. If there aren't any prior audiogram results on file, this box will be empty.
-![](../audiogram-data-entry.assets/3df1ba0b8bc4f03379eb5ea3026b6c55.png)
+![](../audiogram-data-entry.assets/b1f53b6c70cc23be084f1cf3b84babc1.png)
 Click the NEW button to manually add audio results. To edit an existing study on file, click on the prior study located on the top half of the tool, then click the EDIT button.
-![](../audiogram-data-entry.assets/cdbcdc9a32fdba2e3ed2671e3bb0f0ab.png)
+![](../audiogram-data-entry.assets/9dc87835e7da23734b48a9886299875e.png)
 For manual entry:
 Enter results from the device output
 
 * Data results are 1-2 numeric characters in increments of 5.
 * NR- No Result should be manually entered as 99.
 
-Manually enter New or Edit existing results for left ear, right ear, test date, calibration date and outside service provider and location, if applicable.
-![](../audiogram-data-entry.assets/4b2bea1bf4433fe6eec7bd018ac9b687.png)
+Manually enter New or Edit existing results for left ear, right ear, device number, test date, calibration date and outside service provider and location, if applicable.
+![](../audiogram-data-entry.assets/00fb859014089142ae63823199cd0286.png)
 
 Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments. The *asset* field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.
 
