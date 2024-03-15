@@ -1,9 +1,9 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2024-02-01T15:03:39.331Z'
-version: 331
-lastAuthor: 'Angie Nichols'
+date: '2024-03-15T15:07:53.609Z'
+version: 340
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/'
@@ -42,12 +42,13 @@ Enter results from the device output
 * Data results are 1-2 numeric characters in increments of 5.
 * NR- No Result should be manually entered as 99.
 
-Manually enter New or Edit existing results for left ear, right ear, test date, calibration date and outside service provider and location, if applicable.
+Manually enter New or Edit existing results for left ear, right ear, device number, test date, calibration date and outside service provider and location, if applicable.
 ![](../audio-tool-tab.assets/4b2bea1bf4433fe6eec7bd018ac9b687.png)
 
 Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments.
 
-The *device number* field is typically for device interfaces to prefill the serial number, etc from the device interface, however it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
+The *device number* field is typically for device interfaces to prefill the serial number, etc from the device interface, however, for clients on RC202303 and newer, it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
+
 ![](../audio-tool-tab.assets/f4de0dbd43c689cd7d9642a45cc52c5a.png)
 
 The *asset* field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.
