@@ -1,9 +1,9 @@
 ---
 id: '1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 title: 'Vitals Tracking & Management'
-date: '2020-03-13T17:01:29.858Z'
-version: 71
-lastAuthor: ''
+date: '2024-03-18T18:16:40.298Z'
+version: 80
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
@@ -17,7 +17,7 @@ Vital signs not only assist in early detection of potential problems, they aid i
 1. To add vitals to a patient's encounter, navigate to the <strong>Objective</strong> section of the encounter, open the <strong>Vitals</strong> subsection, and click the pencil ![](../vitals-tracking-and-management.assets/208e44c784d7d7e1fd81d8d02416c996.png) icon, located on the right of the header. The Vitals section will expand. Note that previous vitals display at the bottom of the Vitals section.
 
 
-![](../vitals-tracking-and-management.assets/bde039ea9a499e90648e55c8f2c3c950.png)
+![](../vitals-tracking-and-management.assets/79ddb5a7da8b131f29eb9db1ba4853d9.png)
 
 
 2. With the Vitals section expanded, simply fill in the appropriate fields and use the dropdowns, adding comments, if necessary.
