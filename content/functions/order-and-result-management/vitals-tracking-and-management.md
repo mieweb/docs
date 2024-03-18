@@ -1,8 +1,8 @@
 ---
 id: '1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 title: 'Vitals Tracking & Management'
-date: '2024-03-18T18:16:40.298Z'
-version: 80
+date: '2024-03-18T18:16:45.290Z'
+version: 81
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
