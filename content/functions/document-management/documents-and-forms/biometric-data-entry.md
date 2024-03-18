@@ -1,9 +1,9 @@
 ---
 id: '1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
 title: 'Biometric Data Entry'
-date: '2022-10-19T11:51:58.503Z'
-version: 71
-lastAuthor: 'Bridget Hamm'
+date: '2024-03-18T18:07:32.722Z'
+version: 82
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
@@ -54,7 +54,7 @@ The data will be stored in the system, under the **Vital Signs** chart tab, as w
 ### Add from Vitals Encounter Section
 
 Another alternative to the bubble form is entering results manually, through the Vitals section of a visit encounter. When in a visit encounter, click the Vitals banner (or pencil icon) to expand the section for editing. The biometric data fields will display for data entry.
-![](../biometric-data-entry.assets/21770dcdd4e8047b83928a9b125ed10a.png)
+![](../biometric-data-entry.assets/497515d89ba305aae32fb9975fd659d4.png)
 
 ### Biometric Encounter
 
