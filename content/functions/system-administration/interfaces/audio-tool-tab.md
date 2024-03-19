@@ -1,9 +1,9 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2024-03-15T15:07:53.609Z'
-version: 344
-lastAuthor: 'Jenna Anderson'
+date: '2024-03-19T13:18:38.161Z'
+version: 351
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/'
@@ -93,7 +93,9 @@ Audio Results display with a "Non Age Corrected Shift" and "Age Corrected Shift"
 Upon request, both the age shift criteria and the guidelines to flag a possible OSHA recordable event may be customized with additional configuration. Additional logic can also be scoped for clients with very specific needs. For example, patients located in China may follow a different shift standard than those patients observed in the United States. Clients should contact their support representative if additional configuration is required and for a level of effort to be determined.
 
 In the event a STS has been detected a second pop up message will display warning the user that an STS has been detected and to retest any employees in the Hearing Conservation Program within 21 days.  All other patients/employees should be counseled or appropriate referrals made as considered by the clinician.
+
 ![](../audio-tool-tab.assets/942795b0230c7d5b70035ee9c91aacc9.png)
+
 The system default warning notifies the user to retest *within* 21 days.  OSHA requires the employee be retested *within* 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** *See additional online help guide named* [*Adding OSHA Case*](https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/)*.*
 
 #### NSTS Alert
@@ -138,5 +140,6 @@ When the audiogram has been completed and the encounter exam is archived and clo
 
 {{% system-name %}} also offers a standard audiogram bubble form that is available by default in the {{% system-name %}} system. This bubble form collects audiogram data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discreetly, within the appropriate chart.
 ![](../audio-tool-tab.assets/a50c6d25ee271a8234b76c3017deae01.png)
+
 
 To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../../document-management/scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../../document-management/scanning-and-indexing/indexing.md) online help documentation.
