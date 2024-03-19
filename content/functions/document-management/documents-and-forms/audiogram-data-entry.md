@@ -1,8 +1,8 @@
 ---
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
-date: '2024-03-15T14:22:53.696Z'
-version: 219
+date: '2024-03-15T15:05:52.573Z'
+version: 231
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
@@ -79,6 +79,10 @@ Enter results from the device output
 
 Manually enter New or Edit existing results for left ear, right ear, device number, test date, calibration date and outside service provider and location, if applicable.
 ![](../audiogram-data-entry.assets/00fb859014089142ae63823199cd0286.png)
+
+The *device number* field is typically for device interfaces to prefill the serial number, etc from the device interface, however, for clients on RC202303 and newer, it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
+
+![](../audiogram-data-entry.assets/1847c04d339edff9a1707207f3709c74.png)
 
 Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments. The *asset* field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.
 
