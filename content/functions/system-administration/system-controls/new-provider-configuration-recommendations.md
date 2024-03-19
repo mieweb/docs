@@ -1,9 +1,9 @@
 ---
 id: '1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 title: 'New Provider Configuration Recommendations'
-date: '2023-11-14T19:15:41.965Z'
-version: 459
-lastAuthor: 'Alice Uhrick'
+date: '2024-03-19T13:47:10.528Z'
+version: 468
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=10aDdq77WTzNfpTWFuyolW59jCmyYdW4GjOO5-K4ui9A'
@@ -54,6 +54,19 @@ Per Medical Informatics Engineering, Inc. policy, all new providers should be cr
 17. Create any new macros, if applicable.
 18. Review and pre-set any "My Setting" preferences, if applicable.
 19. Notify EH/MIE of any new providers and effective dates.
+
+
+{{% info %}}
+
+It is advised to keep P (provider) charts and patient/employee charts separate and not to set both chart types on a chart, nor ever merge them. Clinicians should have a provider (P) chart as well as their separate regular employee/patient chart. The Provider chart is what is used on encounters to set the performing provider/location on the encounter and store other information about the Provider on a Provider level, but their employee/patient chart is what is used if they have to be seen or treated for medical care for any reason, medical history information, etc.
+
+
+* If<strong> </strong>a chart has both Provider and Patient chart types on it, you will see ATTENTION!
+* When you move your mouse over the ATTENTION!, you will see the full alert verbiage
+
+![](../new-provider-configuration-recommendations.assets/d9d803700f11b416793ceb51d7d964e2.png)
+
+{{% info %}}
 
 
 
