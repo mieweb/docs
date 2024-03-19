@@ -1,9 +1,9 @@
 ---
 id: '1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
 title: 'Form Documents'
-date: '2020-03-23T16:56:28.858Z'
-version: 98
-lastAuthor: ''
+date: '2024-03-19T17:23:41.508Z'
+version: 131
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - '../printing-and-print-definitions/print-chart.md'
@@ -63,4 +63,32 @@ Simply launch a form from the Forms Library and click the pen icon or button fro
 When presented with the confirmation prompt, users must click the **OK** button to continue uploading the document into the respective chart. Otherwise, clicking **Cancel** will bypass this step.
 ![](../form-documents.assets/6fc9d7832a80a33cfed366930f1ab582.png)
 The form is stored in the respective chart and given a unique document ID number. The form is housed in the chart tab(s) according to the configuration of the system.
+
+
+
+
+
 ![](../form-documents.assets/1dfb6c8513fce105af8891322997a82b.png)
+
+
+
+## On Screen Forms
+
+As many organizations have moved away from Internet Explorer, a new feature was created to sign forms via the mouse or Topaz device. There is a tab available within the patient chart or a tab can be configured for all On Screen Forms. These form documents (PNG, Tiff) when selected, will display to allow the patient or user to sign, write or draw on. The user can then click the Upload button to load the signed document directly in the patient chart.
+
+![](../form-documents.assets/b008ceaf9dec6b764616580b2e3006cf.png)
+
+![](../form-documents.assets/a1f9bd7caccaa5e704e1b8fe1931561d.png)
+
+{{% note %}}
+If a mistake is made when signing but prior to uploading, click the Clear button to remove the signature.
+{{% /note %}}
+
+### Editing On Screen Forms (Second Signature)
+
+For clients on 202309 and newer, on screen form documents (PNG, TIFF) can now be edited and written/drawn on. This allows for the patient/employee to add a signature and then a provider or other authorized user to "Edit" and add a second on screen form signature or note after the initial upload. The most current version of the document displays in the chart, however, the historical versions of the upload document are available in the document properties under the "Revisions for Document" list.
+
+![](../form-documents.assets/504a3ef9c06ed34dfe7e50934e3dba26.png)
+![](../form-documents.assets/fba54537279f91018aa25a677d3b4376.png)
+![](../form-documents.assets/21bfc8865522ec14d4e2ebcd71acc5f3.png)
+
