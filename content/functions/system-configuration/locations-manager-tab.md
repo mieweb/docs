@@ -1,9 +1,9 @@
 ---
 id: '1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
 title: 'Locations Manager Tab'
-date: '2024-01-26T13:47:11.016Z'
-version: 117
-lastAuthor: 'Alice Uhrick'
+date: '2024-03-20T18:26:14.210Z'
+version: 134
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
@@ -19,7 +19,7 @@ When you click the *Locations Manager* tab, it will open up to display all activ
 To add a new location to your {{% system-name %}} system, click the Add Location link found at the top right while in the Location Manager tab.
 ![](../locations-manager-tab.assets/9624f36d5017ba016433a9f14e9ee762.png)
 The *modify location* screen will open. The fields are described below.
-![](../locations-manager-tab.assets/174c9e7e982c775cb129965e94ef71ca.png)
+![](../locations-manager-tab.assets/762ffa1e6fcc41c00dd1b48bf5e676b0.png)
 
 * <strong>Code:</strong> This is a required field. You must type in a brief abbreviated code for this specific location. It has to be unique and cannot be left blank. It only allows up to 10 characters.
 * <strong>Description:</strong> Type in the full name of the location.
@@ -35,7 +35,7 @@ Postal Code field will accommodate international postal codes and display as the
 * <strong>Country:</strong> Defaults to United States, but you can select the country where this location is.
 * <strong>Time Zone:</strong> Defaults to Use System Time Zone, but you can select the specific time zone the location is.
 * <strong>Phone Number/Fax Number:</strong> Enter full phone number & fax number and must include area code.
-* <strong>Use in FAX header:</strong> If this location has a specific fax number entered above in this location's fax# field and you want all outgoing faxes from users using this default location to show this location's fax # as the "Sent From' on any outgoing faxes sent from {{% system-name %}} in the top header of the fax, set this option to <strong>Yes</strong>. This means any outgoing faxes sent by users who are set to this default location will show this specific location's fax# in the top header of the fax that the recipient receives instead of your {{% system-name %}} system's primary/main fax number.  This location fax# will override and display on the outgoing faxes instead of what your {{% system-name %}} system's primary/main fax number is set to.
+* <strong>Use in FAX header?:</strong> By default, this is set to ‘no'. If this location has a specific fax number entered above in this location's fax# field and you want all outgoing faxes from users using this default location to show this location's fax # as the "Sent From' on any outgoing faxes sent from {{% system-name %}} in the top header of the fax, set this option to <strong>Yes</strong>. This means any outgoing faxes sent by users who are set to this default location will show this specific location's fax# in the top header of the fax that the recipient receives instead of your {{% system-name %}} system's primary/main fax number.  This location fax# will override and display on the outgoing faxes instead of what your {{% system-name %}} system's primary/main fax number is set to.
 
 
    * If this location has no FAX number or you don't want any faxes from users who are set to this default location to show this location's specific FAX number on the outgoing faxes, please set this option to <strong>No</strong>.  This means any fax sent by the user using this location as their default will show your {{% system-name %}} system's primary/main fax number instead and won't show the location specific fax# on the header of the fax that the recipient receives.  
