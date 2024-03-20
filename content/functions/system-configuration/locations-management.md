@@ -1,8 +1,8 @@
 ---
 id: '1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
 title: 'Locations Management'
-date: '2024-01-16T13:50:36.835Z'
-version: 143
+date: '2024-03-20T18:53:58.389Z'
+version: 150
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
@@ -63,7 +63,7 @@ To **add** a new location to the  {{% system-name %}}  solution:
    11. <strong>Phone Number</strong> - Enter the full phone number, including any international access code, country calling code, area code, or exit code.
    12. <strong>Fax Number</strong> - Enter full fax number, including any international access code, country calling code, area code, or exit code.
 
-      1. <strong>Use in FAX header</strong> - Select <strong>Yes</strong> or <strong>No</strong>. Set this option to Yes, if the location has a specified fax number and all outgoing faxes from users using this default location are to display the location's fax number (versus the  {{% system-name %}} solution's primary fax number) as <em>Sent From</em> on all outgoing faxes. This will display the location's fax number in the header of the outgoing faxes sent by users who are set to this default location. Set this option to No, if the location does not have a fax number, or if faxes from users who are set to this default location are not to show the location's specified fax number (but rather the  {{% system-name %}} solution's primary fax number) on all outgoing faxes. This setting will display the  {{% system-name %}} solution's primary fax number on all faxes sent by users using this location.
+      1. <strong>Use in FAX header</strong> - By default, it is set to <em>No</em>. Select <strong>Yes</strong> or <strong>No</strong>. Set this option to Yes, if the location has a specified fax number and all outgoing faxes from users using this default location are to display the location's fax number (versus the  {{% system-name %}} solution's primary fax number) as <em>Sent From</em> on all outgoing faxes. This will display the location's fax number in the header of the outgoing faxes sent by users who are set to this default location. Set this option to No, if the location does not have a fax number, or if faxes from users who are set to this default location are not to show the location's specified fax number (but rather the  {{% system-name %}} solution's primary fax number) on all outgoing faxes. This setting will display the  {{% system-name %}} solution's primary fax number on all faxes sent by users using this location.
 
    13. <strong>Account Number</strong> -  {{% sys-name %}} will provide this field, if necessary. For example, orders interfaces often require an account number associated with all transactions, to effectively send and/or receive results. If a practice is set up with an orders interface with a specific facility (e.g., LabCorp, Quest, etc.), the facility account number associated with that location must be entered in the location's details. When sending the order electronically the account number for the location will send with it.
    14. <strong>Outside Location</strong> - Field defaults to <em>No</em>, meaning the location being created/edited is internal, that is not an outside, or external, location. Setting this field to <em>Yes</em> will, however, treat the entry as an external location. Internal, or inside, locations are places at which resources perform services, or for which the organization schedules appointments and creates documents. Conversely, an external, or outside, location is one that a resource may send a patient to or receive results from.
