@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-02-21T17:44:35.089Z'
-version: 483
-lastAuthor: 'Bridget Hamm'
+date: '2024-03-20T19:27:38.450Z'
+version: 493
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -422,6 +422,7 @@ links:
   - 'functions/reports/demographics-report.md'
   - 'functions/reports/dictation-without-transcription-report.md'
   - 'functions/reports/documents-report-super-document-type-search.md'
+  - 'https://drive.google.com/open?id=1aNUvYavTU9Mf1-pm2ldYoIdOk8gzf_7B-H9PWgVaFWE'
   - 'functions/reports/e-meds-report.md'
   - 'functions/reports/encounter-report.md'
   - 'functions/reports/exporting-report-data.md'
@@ -1189,6 +1190,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
       * [Demographics Report](functions/reports/demographics-report.md)
       * [Dictation without Transcription Report](functions/reports/dictation-without-transcription-report.md)
       * [Documents Report / Super Document Type Search](functions/reports/documents-report-super-document-type-search.md)
+      * [DOT Interface Status Report](https://drive.google.com/open?id=1aNUvYavTU9Mf1-pm2ldYoIdOk8gzf_7B-H9PWgVaFWE)
       * [E-Meds Report](functions/reports/e-meds-report.md)
       * [Encounter Report](functions/reports/encounter-report.md)
       * [Exporting Report Data](functions/reports/exporting-report-data.md)
