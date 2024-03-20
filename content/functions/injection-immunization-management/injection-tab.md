@@ -1,9 +1,9 @@
 ---
 id: '1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 title: 'Injection Tab'
-date: '2020-03-16T14:30:50.543Z'
-version: 77
-lastAuthor: ''
+date: '2024-03-20T12:49:30.637Z'
+version: 135
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
@@ -15,15 +15,15 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 
 Click E-Chart from left sidebar tab.  
 Search and open a patient's chart.  
-Click Injection chart tab from the top.  
-The Injection / Immunization screen will open.  It will have categories: Immunizations, Other Injections & Vials.  
-In these categories will be listed (if any) records of immunizations, oral immunizations or other injections that have been entered and are active for the specific patient.  This is called the Injection/Immunization List. It also lists any Vials (used for Allergy Injection Vials) entered for the patient.
+Click Medical Record and then MAR/Injections chart tab.  
+The MAR/Injections screen will open.  It will have categories: Medical Administration, Immunizations, Titer Results, Injection Documents, Vials and Contraindicated Immunizations.  
+In these categories will be listed (if any) records of immunizations, oral immunizations or other injections that have been entered and are active for the specific patient.  This is called the Injection/Immunization List. It will list Titer Results for any applicable titer. It also lists any Vials (used for Allergy Injection Vials) entered for the patient.
 
-![](../injection-tab.assets/58edd06f1d40333187fd68a8d60a5b9a.png)
+![](../injection-tab.assets/c8a6e5f8422bf2abe624b6cdea91b369.png)
 
-To view any deleted immunizations or deleted other injections or vials for the specific patient, then click [ Show Deleted ] link and it will then show the active and deleted records for each category.
+To view any deleted medication administration, deleted immunizations or deleted vials for the specific patient, then click [ Show Deleted ] link and it will then show the active and deleted records for each category.
 
-![](../injection-tab.assets/79f440a14c75c961a461d50ee57fd77d.png)
+![](../injection-tab.assets/4debf7bbefc542ba76774494e7adf263.png)
 
 It will then show and list the deleted for all categories.  A deleted injection/immunization will have the word deleted under it in the name column.
 
@@ -31,14 +31,6 @@ It will then show and list the deleted for all categories.  A deleted injection
 
 Click [ Hide Deleted ] there to show/view only the active injections and immunizations records for the patient.  This hides the deleted immunizations/injections from the list.
 
-### Get Updates Link
-
-If your system is interfaced bi-directionally with an injection program example: CHIRP (Children and Hoosiers Immunization Registry Program in Indiana), then you will see the Get Updates link from the injection/immunization summary view screen.
-
-![](../injection-tab.assets/6c06f9f237d930ce4bea039ac2735df3.png)
-
-If your system is set up for this type of interface, you would click the Get Updates link in the specific patient you are working on.  Get Updates will query the injection program you are interfaced with to get any updates with an injections program for this specific patient only and bring those injection records into {{% system-name %}} and store in their chart.  
-See additional help documentation named Injection Tab with CHIRP Interface.pdf
 
 ## Add Injection/Immunization to Chart
 
@@ -52,13 +44,13 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 ![](../injection-tab.assets/3dd7cc13add12dec6c98f5e0af93822b.png)
 
 
-* Injection/Immunization:  This is a required field.  Type the name of the injection/immunization.  The system will attempt to auto-complete your typing & give you choices that match the CDC immunizations from the FDB database, or will give you choices of matches of medications which are in the patient's meds history as injectable.  You can highlight & select from the list of auto-complete name matches.
+* Injection/Immunization:  This is a required field.  Type the name of the injection/immunization.  The autocomplete field will display results that BEGINS WITH and CONTAINS the name of the injection/immunization being searched and give you choices that match the CDC immunizations from the FDB database, or will give you choices of matches of medications which are in the patient's meds history as injectable.  You can highlight & select from the list of auto-complete name matches.
 
 {{% note %}}
 You can only free-type in an injection name if your system has a setting turned on to allow free-type (system setting named: Allow Free Type in Autocomplete). If that is not enabled for your system, then you must choose an injection name from the auto-complete choice list.
 {{% /note %}}
 
-![](../injection-tab.assets/133ec9fbdabc0237c78744d4de230877.png)
+![](../injection-tab.assets/85f946fc55b1fdef7b37b3ad6f8feccc.png)
 
 Certain immunizations are automatically programmed to look for specific allergies or conditions.  
 
@@ -72,7 +64,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 * Contraindications: This is an optional field that is off by default.  If you wish to have it turned on, you will see a contraindications field you can select from and the rest of the fields minimize for documenting.
 
 
-![](../injection-tab.assets/235f9295feabc72d69c721701ad63ebf.png)
+![](../injection-tab.assets/e6ea5139779e242cb95a06f67d6f6cd9.png)
 
 
 * Administering Location: If your practice only has 1 location it will automatically populate this field.  If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered.  If you have a location selected here, it considers this injection an in-house injection.  Meaning, the injection was administered at your location.  If a location is selected here, you will be required then to fill out the Manufacturer and Expiration Date fields.  These are required fields if a location is specified.
@@ -109,7 +101,7 @@ The following fields can be entered when editing an injection or now when you ar
 * VFC Status:  If you have had MIE set up an interface with CHIRP (Children and Hoosiers Immunization Registry Program in Indiana) and this system setting is on, you may see the VFC status drop-down selection field.  You would choose the correct eligibility status of the patient for the Vaccines For Children (VFC) program.  Then when the injection is submitted, this VFC status field data along with the submitted injection goes through an interface to CHIRP.  (see additional help documentation named Injection Tab with CHIRP Interface.pdf)
 
 
-![](../injection-tab.assets/ef1f91d31f549f8e4ab627dbe84acb9e.png)
+![](../injection-tab.assets/aa187a895b75d0a545fddacc597c2480.png)
 
 
 * Next Due: You can enter a date the next inj/immunization is due if you wish (ex: if it's a series, etc). If this field isn't enabled, please contact your MIE Implementer to set a layout tag for the field to show.
@@ -143,22 +135,22 @@ It also gives a confirmation towards the top that says Successfully added inject
 
 There are system settings where MIE can configure additional fields in the add injection screen to be required.  If you want more fields than the above standard/default fields that are marked required, the system setting just needs set to include the additional fields to be required for all users when documenting injections.  The value must have { } around it and each field specified out encompassed in quotes. Contact your MIE Implementer to have additional fields marked as required for injection adds.
 
-![](../injection-tab.assets/b3dd4a88cfabd0386e58cafdc12b77d8.png)
+![](../injection-tab.assets/93f73765cd3d406e2176ab0d122fb578.png)
 
 Any extra fields that are not already required can be programmed to the system setting "Additional Warning Fields" along with their own warning message/text via a system setting "Additional Warning Message". The behavior is that the primary required fields are checked first and then the additional ones (in system setting above). A confirm box will popup if any of the additional ones are missing. The injections may still be submitted with these additional required fields missing if the user clicks 'ok' in the confirm box.
 
-![](../injection-tab.assets/f94d859c9d3698c0c2bace199d7beeee.png)
+![](../injection-tab.assets/0573f3725ec1ef44ac6831dfbad29235.png)
 
 
 ## Vaccine Information Statement (VIS) Handouts
 
 Many clients hand the patient a Vaccine Information Handout (VIS) when the patient receives an injection.  You can document that this handout was given to the patient by clicking the VIS Handouts link at the bottom of the injections/immunizations add/edit screen. Better yet, you do not have to maintain a latest publication of VIS sheets yourself to hand out.  We now offer the VIS Website link available while documenting an injection and VIS Handout.
 
-![](../injection-tab.assets/b904bfd33171f762c78a06af28ee88a0.png)
+![](../injection-tab.assets/135eee034d9f50645e50b3a5cd9eb3ef.png)
 
 Once you click on the link VIS Handouts, it will open the VIS Handout fields for documentation.
 
-![](../injection-tab.assets/2d00a716b6be51bd29e51e1a02b2afac.png)
+![](../injection-tab.assets/fc422791691f5fce3f08517890cf8882.png)
 
 
 * Name:  Using the drop-down, select the name of the VIS Handout publication.  The list that we have in the drop-down comes from http://immunize.org/VIS/.  Contact your MIE Implementer if you need additional VIS Handouts added to this drop-down.  
@@ -167,11 +159,11 @@ Once you click on the link VIS Handouts, it will open the VIS Handout fields for
 
 The VIS Website link can be set up by your MIE Implementer.  You do not have to maintain a latest publication of VIS sheets yourself to hand out manually to a patient.  We now offer the VIS Website link available while documenting an injection and VIS Handout given.
 
-![](../injection-tab.assets/795ce03f8e145d669ebef2bf7f3639d7.png)
+![](../injection-tab.assets/1c160bd441ff54acf3ad9d43bcdfbcaf.png)
 
 When you click the VIS Website link found available in the VIS Handouts section, it will take you out to [immunize.org](http://immunize.org) where you can utilize the latest publication of VIS available, along with the VIS sheets available in a different language to print for the patient.  If your {{% system-name %}} system is set up to be multilingual (you use {{% system-name %}} in various countries) it will open to the language your preference is set to. Regardless, from here you can access the latest publication and print it in various languages and print it off to hand to the patient using your printer icon in your browser view.  To get out, simply click the X to get out of that separate tab/window that you are in.  Your {{% system-name %}} system will still be in the background.
 
-![](../injection-tab.assets/7d45b54f57c91fdfa949b38ee835d34f.png)
+![](../injection-tab.assets/19ac74bc798e9e7fe6fe8ece26aa6705.png)
 
 
 ### Add Multiple VIS Handouts per Injection
@@ -179,7 +171,7 @@ When you click the VIS Website link found available in the VIS Handouts section,
 After you select your first VIS Handout from the Name drop-down, click the ADD button, then select the 2nd VIS Handout pertaining to this same injection, then click the ADD button, then SUBMIT.
 You must click the ADD BUTTON to insert more than one VIS Handout to the injection.  This may be needed for example documenting an MMR injection, but you give out 3 separate VIS Handouts (a measles one, a mumps one, a rubella one) pertaining to each part of the injection serum.
 
-![](../injection-tab.assets/93a149900bec3d3a3b7156e153e470a3.png)
+![](../injection-tab.assets/fc422791691f5fce3f08517890cf8882.png)
 
 Click the Submit button at the bottom of the screen to submit the injection / immunization record with the VIS Handout information to the patient's chart.  It will then refresh back to the Injection List for the patient and you will see the complete injection records for the patient in their specific category.  
 It also gives a confirmation towards the top that says Successfully added injection record.
@@ -196,7 +188,7 @@ In the injection/immunization listing, you will see in the comments/reaction col
 From the injections tab, click Quick Add at the top right of the injection screen.
 Click Quick Add at the top right of the injection screen to add multiple injection records to a patient's chart.  Using Quick Add only allows you to quickly add multiple historical injections.  This is a way to add injections that a patient has previously received.  It is not as specific of a record as using Add Injection. Using quick add, you can add 10 injections at a time on the screen.
 
-![](../injection-tab.assets/cb657d0ee2179d3ce55a6b84373f9f9e.png)
+![](../injection-tab.assets/a13e7e817c359d5682480926a4429716.png)
 
 The Add Injections screen appears to allow you to record multiple injection records at one time, but not as many option fields (specifics) as Add Injection.
 
@@ -232,7 +224,7 @@ When you are done entering multiple injection records for the patient, then clic
 Clicking [ Inj/Imm List ] link will bring up the same screen/view as when you first open the Injections tab.
 Injection/Immunization List is the complete, active summary list of injection / immunization records for the patient & vials entered.
 
-![](../injection-tab.assets/56fc98dfc33d1f6822bc6182e12301c6.png)
+![](../injection-tab.assets/c8a6e5f8422bf2abe624b6cdea91b369.png)
 
 By default the screen lists 20 at a time in each section. There is a system setting you can have your MIE Implementer change to show more or less in the listing of this tab.  Can change to any specific number to show how many entries will display at a time, or setting to zero will cause the injections tab to list and show all entries and not be limited or have to click show all continuously.
 
