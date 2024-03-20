@@ -1,9 +1,9 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2023-11-13T18:19:19.340Z'
-version: 213
-lastAuthor: 'Alice Uhrick'
+date: '2024-03-20T15:57:33.235Z'
+version: 233
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
@@ -293,6 +293,23 @@ Dynamic encounter templates also use the "Archive as" document type if one was s
 Stored templates in your system can be deleted in their entirety. Click on the *Tools* icon and in the "load template" section simply click the trash can icon next to the specific system stored template name you wish to delete. A pop-up message that you successfully deleted a stored template will display. You can then X out of the *Tools* screen.
 
 ![](../working-in-a-visit-encounter.assets/d8f71d155134a818e359aeb2c786c121.png)
+
+### Deleting Observations Individually/En Masse
+
+Encounter observations can be deleted individually and in multiples from the encounter section. To individually delete observations, click the ‘trash can' icon next to the observation. Click the ‘eye' icon to view attributes of the observation.
+
+![](../working-in-a-visit-encounter.assets/a80a034fb31c511ab07dfa8e97399bbb.png)
+
+To delete multiple observations at the same time, highlight the observations to be deleted and then the keyboard shortcuts "s" and "d" to delete the highlighted observations. Use the keyboard shortcut "s" and "u" to undo the selected operation.
+
+![](../working-in-a-visit-encounter.assets/f449e6568585318d6a8e9067b2287de3.png)
+![](../working-in-a-visit-encounter.assets/aa39797a8976c591b4b1673c0d3d153b.png)
+![](../working-in-a-visit-encounter.assets/9353b2a58e2a1739af7ad9bbbed6bd05.png)
+![](../working-in-a-visit-encounter.assets/76931801565d15bcd6ac128689605139.png)
+
+If observations are deleted, they will also show as deleted in the encounter properties.
+![](../working-in-a-visit-encounter.assets/e8bc0a23859789adc2eb767652cbe317.png)
+
 
 ### Final Summary
 
