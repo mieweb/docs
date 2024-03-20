@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-03-20T15:57:33.235Z'
-version: 233
+date: '2024-03-20T16:08:02.750Z'
+version: 234
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
@@ -296,7 +296,7 @@ Stored templates in your system can be deleted in their entirety. Click on the 
 
 ### Deleting Observations Individually/En Masse
 
-Encounter observations can be deleted individually and in multiples from the encounter section. To individually delete observations, click the ‘trash can' icon next to the observation. Click the ‘eye' icon to view attributes of the observation.
+Encounter observations can be deleted individually and in multiples from the encounter section. To individually delete observations, click the* Trash Can* icon next to the observation. Click the *Eye* icon to view attributes of the observation.
 
 ![](../working-in-a-visit-encounter.assets/a80a034fb31c511ab07dfa8e97399bbb.png)
 
