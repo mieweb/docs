@@ -1,8 +1,8 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2024-03-21T14:11:05.747Z'
-version: 424
+date: '2024-03-21T14:24:08.599Z'
+version: 429
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
@@ -253,4 +253,5 @@ It allows users to insert new values as well. Simply click on the section title 
 * <strong>Obs Test:</strong> The date/time set in this type of layout applies the one date/time to <strong>all</strong> observations that make up the flowsheet. Use cases: individual result (ex: CBC); drug test; Physical Exam section; Review of Systems section; Provider Organization Other Data section in Provider Management module; Questionnaires, etc. This is similar to Obs Procedure layout (showing details like range, units, flag, etc), but this Obs Test layout displays only one observed date/time field to be applied to all, instead of a date/time field being on each individual observation row. The "All Normals" checkbox in flowsheets only appears if an observation(s) contains a target set on the specific observation. If an observation is marked as required and a user attempts to skip, the system to pop-up a warning message. The section will not save or allow the user to proceed to the next encounter section until all required items are completed. <em>Note: if using the Obs Test layout for questionnaire(s) flowsheets, your MIE Implementer can put in a layout tag request to hide the range/units column(s) in the backend as those details aren't usually used in questionnaire type entries.</em>
 
 ![](../observation-flowsheets.assets/186289ab66345031ba67d9afe2623800.png)
+![](../observation-flowsheets.assets/8606ef3b0aff74cdc02769693f203f1e.png)
 Result date/time fields can be removed entirely for a specific flowsheet(s) if needed. A flowsheet can have the ability to be displayed without a date visible to the user. If such a flowsheet has that programming, then **all** observations in that type of flowsheet will have the date observed set to when the flowsheet values are submitted (saved). Your MIE Implementer can put in a layout tag request to hide the observed date/time field(s) in the backend.
