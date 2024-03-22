@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-03-04T18:55:16.057Z'
-version: 2775
+date: '2024-03-13T18:48:43.367Z'
+version: 2800
 lastAuthor: 'Bridget Hamm'
 mimeType: 'text/x-markdown'
 links:
@@ -356,7 +356,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * ADP
 * Concentra HR
 * GDW
-* Infor/Lifeworks People
+* Infor Lawson/Lifeworks People
 * Kronos
 * Oracle Core Connect
 * Peoplecore
