@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-03-20T16:08:02.750Z'
-version: 234
+date: '2024-03-20T16:08:43.383Z'
+version: 243
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:

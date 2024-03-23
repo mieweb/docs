@@ -2,7 +2,7 @@
 id: '1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
 title: 'Inventory Module Settings'
 date: '2020-02-27T20:31:40.529Z'
-version: 81
+version: 83
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
