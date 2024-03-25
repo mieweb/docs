@@ -1,9 +1,9 @@
 ---
 id: '1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
 title: 'Device Interface - NDD EasyOne Connect vbase'
-date: '2022-06-23T00:58:44.715Z'
-version: 248
-lastAuthor: 'Bridget Hamm'
+date: '2024-03-21T15:29:50.434Z'
+version: 269
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.nddmed.com/en-us/product/easy-on-pc.html'
@@ -143,7 +143,7 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
 
 
    * ![](../device-interface-ndd-easyone-connect-vbase.assets/7be4f7f2ea7ce5c5ea7f812ff5877cc9.png)
-   * After registering a chart with that name, you should be able to upload the calibration.
+   * After registering a chart with that name, you should be able to upload the calibration to a document type called PFT Calibration Tests (PFT_CAL).
 
 
 
