@@ -1,8 +1,8 @@
 ---
 id: '1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
 title: 'Merging Accounts/Charts in System'
-date: '2024-03-19T13:59:25.690Z'
-version: 163
+date: '2024-03-25T14:33:23.307Z'
+version: 213
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -59,8 +59,9 @@ It is advised to keep P (provider) charts and patient/employee charts separate a
 * When you move your mouse over the ATTENTION!, you will see the full alert verbiage
 
 ![](../merging-accounts-charts-in-system.assets/d9d803700f11b416793ceb51d7d964e2.png)
+{{% /info %}}
 
-{{% info %}}
+
 ## Manual Search to Merge
 
 If you know there is a duplicate  {{% system-name %}} account in the system, but it doesn't show up in the *Matching Patients in patients partition(s)* or *Matching Patients NOT in patients partition(s)* summary, you can manually search for the  {{% system-name %}} account and merge it to the patient you are in.
@@ -111,15 +112,16 @@ If the Record is marked as "Inactive", show this in the record header in the ALE
 ![](../merging-accounts-charts-in-system.assets/0a11793ef880a637c639b48cebcff4c1.png)
 If you merge an MR# chart with another partition, and the user makes the "other" partition the primary account number (which is incorrect to do), you get this warning on the patient charts.
 The correct way is to merge the temporary patient into the permanent MR#. Then the warning should go away. If the user merges incorrectly like keeping the temporary account as the primary this warning will always show on the patient account. Soon (In a future upgrade release) a user will have the ability to mark the patient account as inactive from the demographic screen.
-
 {{% info %}}
+
 A chart cannot be merged if a user is in or was recently in the "from" chart. This is to stop a chart from merging and disappearing from a user who is actively charting in the "from" chart.
 
 When attempting to merge, the following message displays when someone is in the "from" chart:
 
 ![](../merging-accounts-charts-in-system.assets/b3e956d2947acc5b2e5d9f1e304e8668.png)
-
 {{% info %}}
+
+
 ### Merging Temp Patient Accounts from Scheduler
 
 There is a MY SETTING preference to show the merge patient link from the appointments listing in the scheduler views. This link *only* displays if you have the preference on to show the link and also only if the patient is a temp (tmp) patient (temporary) account. Some practices receive a lot of tmp patients through an interface that schedule appointments and this link here makes it easy to merge/reconcile them while viewing the appointment schedule.
@@ -129,10 +131,10 @@ There are 3 choices to set this MY SETTINGS preference to for the merge patient 
 ![](../merging-accounts-charts-in-system.assets/642d75bb94cf04c7de66df0801dcfcaa.png)
 
 * <strong>Tmp Only:</strong> if you are set to tmp_only, you will only see the merge link on a patient whose account is marked as temp and has a single possible match.
-* <strong>Always:</strong> If you set it to always, that doesn't mean it shows for every patient on the appointment listing, it just means it shows the link on both the tmp patient <strong>and</strong> the non-tmp patient matching account. Shows for patient's who have a single possible match. No matter which patient you click merge patient on, the merge still works in only one direction, tmp to → non_tmp.
+* <strong>Always:</strong> If you set it to always, that doesn't mean it shows for every patient on the appointment listing, it just means it shows the link on both the tmp patient <strong>and</strong> the non-tmp patient matching account. Shows for patients who have a single possible match. No matter which patient you click merge patient on, the merge still works in only one direction, tmp to → non_tmp.
 * <strong>No:</strong> The merge patient link is never shown on your view. Merging using the Merge Patient link from the scheduler appointment view is only possible for patient matches where there is single match and <strong>one</strong> of them is a tmp patient and the match has minimum rating of 8.
 
-*You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} . You will still see the Merge Patient link if your preference is set to show it—but you cannot perform the merge past the merge confirmation screen if you don't have security access to even merge patient accounts.*
+You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} . You will still see the Merge Patient link if your preference is set to show it—but you cannot perform the merge past the merge confirmation screen if you don't have security access to even merge patient accounts.
 When you click Merge Patient link, it will always only merge in one direction regardless if you click the Merge Patient link from the patient's tmp account or their active account (when it finds a single match).
 Click the Merge Patient link and you will see a confirmation merge window open on your screen. You need to confirm the merge by clicking the MERGE button.
 ![](../merging-accounts-charts-in-system.assets/2b976bb740a1a01d77de1050f6ff46de.png)
@@ -140,7 +142,5 @@ Doing a merge using the Merge Patient option will merge the patient's accounts a
 You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} . You will still see the Merge Patient link, you will still see the confirmation merge window, but when you click the MERGE button on the confirmation screen, you will see the warning display that you lack permission to actually perform the merge.
 ![](../merging-accounts-charts-in-system.assets/3cf4db896251cf476c19642891fc60fc.png)
 
-{{% info %}}
 This same "merging" functions & searches is available in the **Merge portlet** in the patient summary interactive tab if you have that portlet displayed for your view. The same security permissions respect for this portlet also.
 ![](../merging-accounts-charts-in-system.assets/46ffd14dd52dfa7cb05a896565e367c1.png)
-{{% /info %}}
