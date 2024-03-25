@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2020-03-10T14:14:41.266Z'
-version: 175
-lastAuthor: 'Alan Quandt'
+date: '2024-03-25T13:44:59.735Z'
+version: 221
+lastAuthor: 'Angie Nichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -18,8 +18,8 @@ Review user security settings for individual users or role based needing access 
 
 ### For All Users in a specific Security Role
 
-Click Control Panel tab from left sidebar menu.  
-Click Security Role Editor tab from top menu.  
+Click the Control Panel tab from the left sidebar menu.  
+Click Access Control, then Security Roles tab from top menu.  
 Select the security role that you wish to change security settings for by clicking edit to the right of the department security role name.
 
 ![](../security-role-settings.assets/6bfc3187734d1b54d9b6aa5f15f78d88.png)
@@ -42,19 +42,19 @@ You will then get a confirmation message that you successfully edited/updated th
 ### For Individual Users
 
 Individual users can be configured to have specific levels of security settings edited without affecting all users in an entire security role.  This would be for individuals who need permission or restricted from certain things, whereas the rest of the users in the same security role do not.  The user has the default security settings for their security role department, but editing security permissions for individual users allows you to select exceptions to some security fields just for this individual user only.
-Select Control on left sidebar menu.
+Select Control on the left sidebar menu.
 Select Access Control from the top tab menu.
 Search for the specific user from Access Control using various search methods available.
 
-![](../security-role-settings.assets/f3aa24efd3eefa9cd6d7bc77e9b247e4.png)
+![](../security-role-settings.assets/369112eeda42ee7f115922a568c7dff4.png)
 
-Once the specific user has been located, click Edit on their user line at the far right.
+Once the specific user has been located, click Edit on their user (within the Options column).
 
-![](../security-role-settings.assets/766da06dab398158c1c096a6fc8cb2ef.png)
+![](../security-role-settings.assets/ee3b3c67a39265bc6f6b452b4cd5a825.png)
 
 After clicking Edit, the system takes you to the edit screen of their user details. Click Customize User Security hyperlink at the top right of the edit user screen.
 
-![](../security-role-settings.assets/361efb21f1135b23231d68a3d18402e7.png)
+![](../security-role-settings.assets/4262644d901cbcde554eb028c2819b0f.png)
 
 The Individual Security settings screen for that user will open. Select any security settings to change (for this specific user) by using the drop-downs in any security permission setting. When finished changing any security settings for the specific user, scroll down to the bottom of the individual security edit screen.  At the very bottom there is a text box field where you are required to type in the reason for the security permission change(s). You have to type something in here or it will not save your edits. Then, click the Update Individual Security button below that. System will then save these security settings for this individual user only.  The changes done here for individual user do not affect the entire security role, just this individual user.
 
@@ -76,7 +76,7 @@ The Individual Security settings screen for that user will open. Select any secu
 
 * Statistics: Allows users in a security role to access reports from the Reports Tab and System Reports.
 * View Transcription Stats: In Control, in Statistics, Tran Reports. Yes to this setting allows users in a security role to view transcription statistics report.
-* Limited to NMC area:  No or Yes if users should only be restricted to NoMoreClipboard area.
+* Limit to Portal:  No or Yes if users should only be restricted only to the portal area.
 * Update Logo:  If user has permission, they can edit/upload/change the logo that appears in the top left corner of the practice's {{% system-name %}} system.  
 * Asterisk Auto-Dial From: When viewing a user, if you have permission and system is set up, their work,home,cell will be links to call them. You must have a number on your user account or permission to specify a from number.  From MY NUMBERS or ANY NUMBER.
 * Save Portlets:  'Own' allows user to set their own set of portlets on any facesheet type page or patient summary portets. 'Default' allows users to set defaults for security roles.
@@ -85,7 +85,12 @@ The Individual Security settings screen for that user will open. Select any secu
 * Macro Add/Edit: Yes allows users to access the macro dialog through the magic wand icon. This dialog allows creating, editing, searching, and enabling/disabling .macros system wide or to specific libraries.
 * Manage Ledger: Yes allows user access to the Ledger and transactions.
 * Manage Encounter Charges: This controls user access, view or to edit charges on an encounter. This is a specific charges section that is unique to ledgers, etc.
-* Set Grid Defaults: Yes allows user to set default grid preferences for all other users in the system.
+* Set Grid Defaults: Yes allows user to set default datavis perspective preferences for all other users in the system.
+* Manage IP Settings: This controls user access to edit IP settings (found in the System within Control Panel).
+* Switch Security Roles: This allows the user to dynamically switch security roles if their security role has ‘Add Allowed Roles' configured to it.
+* Manage Dynamic Security Roles: This allows the user to manage the addition and removal of alternate security roles to ‘Add Allowed Roles' section of an entire security role.
+* Switch User Account: This allows the user to create a valid login session as another user.
+* Enable AI Assistant: This allows the user to utilize Artificial Intelligence by clicking the dark gray AI icon at the top right of the system.
 
 
 ### E-Chart
@@ -315,6 +320,9 @@ The Individual Security settings screen for that user will open. Select any secu
 
 * Manage Saved Templates: Default is set to Self meaning the user can only delete their own saved templates in encounters, etc.  If set to ALL, the user can delete their own or anyone else's saved templates.
 * Allow Auto reconcile of XML Uploads: If set to Yes it allows user to import data from CCR/CDA documents without having a user-patient relationship.
+* Manage SSN: None - Hides the SSN of the patient, Partial - Displays the last 4 digits of the patient's SSN, Full - Displays the full 10 digits of the patient's SSN.
+* Allow use of Telehealth: When set to No, the user will not have access to TeleHealth's Video Visit or SMS Invite features.
+* Dismiss Patient Matches: Controls whether the user will be able to dismiss possible patient matches from Matching Charts listing in Manual Merge portlet.
 
 
 ### Control
@@ -447,6 +455,14 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Inv Trans Settings: Choose the departments that are allowed to manage inventory transactions
 * Manage Accounts: Allows users to add new accounts to the system and manage the information
 * Manage Contacts: Allows users to add new contacts to the system and manage the information
+* Allow access to Help Desk: Allows users to contact MIE helpdesk over RocketChat
+* Manage System Files: Allows users to add/edit/delete System Files within the System Control Panel
+* View Sent Messages: Allows users to view sent HL7 messages from within the DataSend Queue within the Interface Control Panel
+* Manage Relationship Types: Allows users to add/edit/delete Relation Types within the System Editor in the Control Panel
+* Purge Charts: Allows purging of requested charts from Charts to Purge report. Note: Full access grants overriding built-in restrictions.
+* Manage Admin Codes: Allows user to add/edit/delete Admin Codes (for class, company, facility, and status of demographics system wide options) within the System Editor in the Control Panel
+* Read JSON API Log: Allows user to read the JSON API log
+* Configure JSON API Logging: Allows user to configure JSON API logging when a JSON API request is done with the system setting enabled and the golden ticket for additional information appears in the response dev_messages
 
 
 ### Scheduler
@@ -556,6 +572,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Link Documents to Encounters: Allows users in a role to link stored documents to a specific encounter.
 * Reopen Closed Encounters:  Allows users in a role to reopen closed encounters.  If the encounter is closed and this permission is set to No, the user will not be able to view or edit any closed encounters.  They would have to edit the archived document of the encounter. An e-sign rule can be set up to notify physicians to sign again if an edit is done that way.  If this setting is set to Yes, the user will be able to reopen a closed encounter by clicking the set open link in the patient's list of encounters. If using this security setting (by restricting users to No for reopen closed encounters) then you must have the system setting turned on for Show Set Open Link by MIE so the allowed users can see the set open link.
 * Remove Encounter Sections: This setting allows users to remove sections from dynamic encounters.  Users need to have this set to "Any except locked" or "Any" to be able to hide or remove encounter sections in new encounter design. An encounter section can be defined as "locked" in the outline layout, and in that case, the user needs the higher "Any" privilege to be able to remove it.
+* Manage Encounter Templates: No/Add/Edit/Delete permission for users in regards to encounter templates
+* Rename Encounter Headings: Allows users to rename a heading/title in an encounter section
 
 
 ### Orders
@@ -620,8 +638,8 @@ The Individual Security settings screen for that user will open. Select any secu
    * No Access:  No access to FaxQ left sidebar tab.
    * View: Allows role to access FaxQ left sidebar tab.  Can search, preview, print faxes but cannot edit, move, delete or categorize received faxes.
    * Manage: Allows role to access FaxQ left sidebar tab.  Can search, preview, print, manage, move, categorize, batch, index received faxes.
-   * Permission Editor:  Yes allows users to access the FaxQ Perms tab found in control and access to the phone number permissions function button in the Fax Queue itself.  This is where incoming file queue phone number permissions are set. If set to no, the phone number permissions function button will not display in the Fax Queue itself and the user will also not have access to the FaxQ Perms tab from control.
 
+* Permission Editor:  Yes allows users to access the FaxQ Perms tab found in control and access to the phone number permissions function button in the Fax Queue itself.  This is where incoming file queue phone number permissions are set. If set to no, the phone number permissions function button will not display in the Fax Queue itself and the user will also not have access to the FaxQ Perms tab from control.
 
 
 ### Health Surveillance
@@ -638,13 +656,16 @@ The Individual Security settings screen for that user will open. Select any secu
 * Panel Action Evaluator: Allows users to use the HS Test tab to run new health surveillance actions after changes are made.
 * Decertify:  Yes gives users the ability to manually decertify an employee for a given panel.  This privilege only needs to be given to the system user that effectively runs the automated health surveillance processes, as there is no user interface currently for creating a de-certification record.  
 * Manage Work Regions:  Yes gives users the ability to add and modify work regions.  Work regions can be associated with a panel for easy geographic differentiation of panels.
+* Advanced Evaluator Options: Allows user to access advanced functions within the Panel Action Evaluator found within the Health Surveillance module of Control Panel.
+* Planned Leave Rules: Allows user to manage Planned Leave Rules within the Health Surveillance configuration module of Control Panel.
 
 
 ### Injury and Illness
 
 
 * Case Manager:  In systems that use a legacy layout, Yes allows users to create Case Management Encounters.  These are the encounters that are used to manage an incident as it progresses.  When it's set to "Yes" on the legacy Incident report, there will be a new link that says "Create Case" that will create the encounter.  ‘Yes' allows user to have access to the case management module using legacy layouts.  The case manager user will only have access to view cases to which they are assigned. If newer system on newer layouts, this security permission is not used for any functionality and is being retired.
-* Delete:  Yes allows users to delete incidents.  When set to "Yes", a new "Delete" link will appear under the options column on the incident report as well as on any incident list views on a patient's chart. ‘Yes' allows user ability to delete an incident from the Incidents sidemenu tab in the injury/illness module.
+* Delete:  Yes allows users to delete incidents.  When set to "Yes", a new "Delete" link will appear under the options column on the incident report as well as on any incident list views on a patient's chart. ‘Yes' allows users the ability to delete an incident from the Incidents sidemenu tab in the injury/illness module.
+* Allow Open Restrictions: ‘Yes' allows users to create & save work restrictions without needing an end date and are not permanent work restrictions.
 
 
 ### Time Tracking
@@ -655,10 +676,20 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Others Time: Yes allows users to key in hours for other providers in the other providers chart.  It will also allow users to key in time for other providers in a provider org (PO) chart via the Location Time Tracking tab.
 * Bill Time: Yes allows users to visibly see the Bill Time button and perform that function from the provider org (PO) chart in the Location Time Tracking tab.
 
+
+
+### Financials
+
+
+* Funding Source: No Access/View/Edit in regards to viewing, adding/modifying a funding source when documenting charges or payments within the Financials encounter section.
+* Price: No Access/View/Edit in regards to viewing, adding/modifying a price when documenting charges or payments within the Financials encounter section.
+* Modifiers: No Access/View/Edit in regards to viewing, adding/modifying any modifiers when documenting charges or payments within the Financials encounter section.
+
+
 When done making changes to security permissions, you must type in a reason for the change.  You cannot update or save the changes without typing in the reason.
 
 ![](../security-role-settings.assets/759808c68d4974e4c2eba66c7da30ab9.png)
 
-To save the settings, click Update Role at bottom of the screen if editing settings for entire security role.
+To save the settings, click the Update Role button at the bottom of the screen if editing settings for the entire security role.
 Or click Update Individual Security at the bottom of the screen if editing settings for a specific individual user.
 
