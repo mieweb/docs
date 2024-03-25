@@ -1,8 +1,8 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2024-03-25T18:05:33.153Z'
-version: 140
+date: '2024-03-25T19:39:17.727Z'
+version: 147
 lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
-# About *Appt Types* tab
+# About Appt Types tab
 
 Use the *Appt Types* tab to view, add, edit, and delete appointment types and appointment templates.   
 Appointment types are used to set up basic information about frequently-used appointments. For example, an appointment type can be created for new patient appointments and each time it is used, the system automatically applies a current procedural terminology (CPT) code, appointment duration, visit type, and other characteristics to the appointment. Appointment types help ensure appointments are created uniformly and relieve staff of repetitious work.  
@@ -47,8 +47,8 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 5. In the <em>Appointment Type</em> section, make entries or selections in fields as appropriate:
 
    1. <em>Active</em>: To make the appointment type active in the system and available to be used after it is created, enable this check box. To make the appointment type inactive in the system and unavailable to be used after it is created, clear this check box.
-   2. <em>Code</em>: Enter the appointment code. The entry in this field appears in the schedule next to the patient. Type in an alpha-numeric abbreviation of the name of the appointment type. In releases prior to RC202404 this field is limited to 10 characters. For release RC202404 and newer the character count was increased to 15 characters.
-   3. <em>CPT code</em>: Type the appropriate CPT code if licensed to use AMA CPT codes or enter a custom created code for billing, auditing, or report purposes. You may also leave this field empty.
+   2. <em>Code</em>: Enter the appointment code. The entry in this field appears in the schedule next to the patient. Type in an alpha-numeric abbreviation of the name of the appointment type. In releases prior to RC202203 this field is limited to 10 characters. For release RC202203 and newer the character count was increased to 15 characters.
+   3. <em>CPT code</em>: Type the appropriate CPT code if licensed to use AMA CPT codes or enter a customcode for billing, auditing, or report purposes. You may also leave this field empty.
    4. <em>Duration</em>: Type the amount of time this type of appointment is expected to take.
    5. <em>Display order</em>: Type a number by which the system will sort the appointment type for display in the table of appointment types (see [Viewing appointment types](#viewing-appointment-types)) and when scheduling an appointment. The lower the number in this field, the closer to the top of the table and when scheduling this appointment type appears.
    6. <em>Duration given to patient</em>: Type the duration of the appointment in minutes to provide to the patient. The system provides this duration when the patient views the appointment, for example when it sends a reminder email. For example, medical staff may be required for 15 minutes of a 60-minute appointment. In this case, the appointment type duration appears on the schedule of the medical staff as a 15-minute appointment and the duration given to patient is 60 minutes.
