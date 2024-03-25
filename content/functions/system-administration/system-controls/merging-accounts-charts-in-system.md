@@ -1,8 +1,8 @@
 ---
 id: '1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
 title: 'Merging Accounts/Charts in System'
-date: '2024-03-25T16:12:19.319Z'
-version: 220
+date: '2024-03-25T16:23:32.095Z'
+version: 227
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -112,14 +112,9 @@ If the Record is marked as "Inactive", show this in the record header in the ALE
 ![](../merging-accounts-charts-in-system.assets/0a11793ef880a637c639b48cebcff4c1.png)
 If you merge an MR# chart with another partition, and the user makes the "other" partition the primary account number (which is incorrect to do), you get this warning on the patient charts.
 The correct way is to merge the temporary patient into the permanent MR#. Then the warning should go away. If the user merges incorrectly like keeping the temporary account as the primary this warning will always show on the patient account. Soon (In a future upgrade release) a user will have the ability to mark the patient account as inactive from the demographic screen.
-
-{{% info %}}
 A chart cannot be merged if a user is in or was recently in the "from" chart. This is to stop a chart from merging and disappearing from a user who is actively charting in the "from" chart.
-
 When attempting to merge, the following message displays when someone is in the "from" chart:
-
 ![](../merging-accounts-charts-in-system.assets/b3e956d2947acc5b2e5d9f1e304e8668.png)
-{{% /info %}}
 
 
 ### Merging Temp Patient Accounts from Scheduler
