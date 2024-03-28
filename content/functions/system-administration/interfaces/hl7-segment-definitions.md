@@ -1,9 +1,9 @@
 ---
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
-date: '2023-12-07T19:49:24.425Z'
-version: 337
-lastAuthor: 'Nick Wallace'
+date: '2024-03-21T19:41:42.472Z'
+version: 424
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
@@ -18,9 +18,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 This documentation is for HL7 Segments related to:
 
 * [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
-* [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md) and [Outbound Interface Install Instructions](outbound-interface-install-instructions.md)
+* [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md) and
 
-
+[Outbound Interface Install Instructions](outbound-interface-install-instructions.md)
 
 
 ## Message Header (MSH)
