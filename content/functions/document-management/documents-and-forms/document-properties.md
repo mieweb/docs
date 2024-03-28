@@ -1,9 +1,9 @@
 ---
 id: '1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 title: 'Document Properties'
-date: '2020-02-27T21:10:00.312Z'
-version: 63
-lastAuthor: 'Alan Quandt'
+date: '2024-03-28T19:47:31.787Z'
+version: 86
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'link-documents-to-order-requests.md'
@@ -17,29 +17,30 @@ source: 'https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FY
 wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 Every document contains metadata that identifies the document or describes the data of the document. These details are found in the document properties. The document properties accessed by clicking the **Properties** link, found in the upper-right corner of the stored document.
-![](../document-properties.assets/ac18aa88ca8a1c6b7a2285e70a95bf36.png)
+![](../document-properties.assets/453be0179b808944b54c9bf4047e98f9.png)
 After clicking the **Properties** link, the page will display all of the general properties of the document, as well as additional properties sections, such as revision history, encounters linked to the document, orders linked to the document, current routes for the document, etc.
-![](../document-properties.assets/e1e14051b4bfc82086d8a93bd3e7009a.png)
+![](../document-properties.assets/985fe74f419b3276155f45b48d1908e1.png)
 
 ## Document Properties Fields
 
 The following explains the various fields available in the document properties. These fields are those found at the top of the *Properties* page.
-![](../document-properties.assets/fa883be9f5a12f41dc7c617db5420e46.png)
+![](../document-properties.assets/4542e17ad66289b1bd29bea1f084b364.png)
 **Document ID**: The document identifier, or document ID, is often referred to as doc ID, or some variation thereof. Every document that is created has a unique identifier. This document identifier can be found throughout the system as a hyperlink. Clicking the document ID link will take users directly into the document view. The document view displays limited document properties, such as revision number, author, date of service, created by, creation date, and location. However, to view additional properties, or specific details, click the Properties link and locate the necessary information. Any previous versions, or revisions, can be viewed by simply clicking the revision number.  
 **Date of Service**: This field indicates the date of service of the document. To change the date, simply click the **Edit Properties** link and make changes, as needed. There is also an option for unknown dates, if necessary. When on the *Edit Properties* screen, checkmark the **Unknown** checkbox, and the date field will display as blank, upon save. Otherwise, when provided, the service date will display MM-DD-YYYY formatting.  
 **Author**: This field indicates the user credited as authoring the document.  
 **Type**: The Type field specifies the document type. The drop-down choices are filtered based upon the available chart types designated for the chart in context.  
 **Location**: The Location field indicates the service location where the document was authored. The available drop menu includes *internal* locations, by default. By updating the System Setting (i.e., "E-Chart", "Documents", "Show Outside Locations"), the drop-down can be configured to show external, or *outside* locations, as well.  
 **Link to Orders**: This field is visible when on the *Edit Properties* screen. The field is an autocomplete, and when an order number is selected, this indicates a pending, incomplete order request is linked, or associated with the document. Using this field to link a pending order with a document will mark the pending, incomplete order as Complete, when the properties are saved. This functionality is also available when using the Add Document quick link. If a link needs to be removed, use the *Orders Linked to Document* section of the *Edit Properties* page. See [Link Document to Order](link-documents-to-order-requests.md) documentation for additional information and details.
-![](../document-properties.assets/d70b9288a4175fb7ea767ee5bb6c40d2.png)
+![](../document-properties.assets/6cbf79c775b61587c7dc7c9d3c0a0a0c.png)
 **Interface**: If the document in context originates from an external interface, this field will autopopulate the name of the interface the document originated from.  
 **Inpatient**: Inpatient is a flag in the system that signifies whether or not a document came over an established interface as regarding inpatient or not (i.e., ambulatory, ER, etc.). This feature, for example, provides value to those clients wishing to avoid tasking staff with inpatient result tasks.  
 **Signed By**: Signifies the user by whom the document is electronically signed (e-signed). This field displays the name and timestamp associated with the e-sign event. Additionally, if any comment regarding the signature request is made, the first 15 characters of the comment will display, directly after the timestamp. To view the entire comment, simply hover the cursor over, or click, the comment.  
 **Needs Signed By**: The {{% system-name %}} system not only offers the ability to electronically sign a document directly, but to request electronic signatures of documents, as well. The *Needs Signed By* field shows those users that are expected to e-sign the document. An **un-request** link is available to remove the e-sign request from the document, if necessary. Also, like the *Signed By* field, the first 15 characters of any comment associated with a signature request will display, though hovering over or clicking the comment will display the comment in its entirety. The information bubble shows from whom and when the request came.
-![](../document-properties.assets/b1bf2299aac62cd0706f39f756f34b3c.png)
+![](../document-properties.assets/9a0a594f64fa8be928d186685c0b50ad.png)
+**Viewed By:** This field is available for clients on 202309 and newer. This field will show the name of the user and date that this document was viewed on the portal.   
 **Subject**: The ability to add a subject to a document is a feature that is enabled by default. This field is designed for free-texted subjects, intended to assist with providing context on and searchability of multitudinous documents. To add a subject, simply click the **Add** link in the *Subject* field of the document properties. After free-texting the subject, click the **Save** button. Subjects cannot be added/edited for email documents, because email subjects are created when the email reminder is triggered from system modules. For more details, review the [Adding a Subject to Documents](adding-a-subject-to-documents.md) documentation.  
 **Case**: Like linking a document to an order, {{% system-name %}} allows users to link cases/incidents to documents, as needed. When on the *Edit Properties* screen, an autocomplete field is available for linking a case/incident to the document in context. If the document is linked to a case/incident, it will display the date and time, as well as the case number the document is linked to. Using the down arrow (↓) in the *Case* field will display all of the existing cases within the chart in context. Link to, or edit which case the document is linked to, by selecting the appropriate one from those available. Check out more information about [Viewing Cases](../../injury-care/case-management/viewing-cases.md), if interested.
-![](../document-properties.assets/657107c1370c5578a7d8f96da5fc0932.png)
+![](../document-properties.assets/377df04c55bfa68df9c03de03f35c9e2.png)
 **MR#**: This field displays the medical record number of the chart the document is stored within.  
 **Created By**: The creator, or transcriber, of the document.  
 **Create Date**: The date and time the original document is created. This cannot be changed.  
