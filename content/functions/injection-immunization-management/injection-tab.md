@@ -1,8 +1,8 @@
 ---
 id: '1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 title: 'Injection Tab'
-date: '2024-03-20T12:49:33.180Z'
-version: 140
+date: '2024-03-28T18:46:45.043Z'
+version: 158
 lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
@@ -31,9 +31,7 @@ It will then show and list the deleted for all categories.  A deleted injection
 
 Click [ Hide Deleted ] there to show/view only the active injections and immunizations records for the patient.  This hides the deleted immunizations/injections from the list.
 
-
 ## Add Injection/Immunization to Chart
-
 
 From the injections tab, click Add Inj/Imm at the top right of the injection screen.
 
@@ -41,7 +39,7 @@ From the injections tab, click Add Inj/Imm at the top right of the injection scr
 
 The Injection screen will appear.  The Injection screen has fields to fill out pertaining to the injection / immunization that you want to record.
 
-![](../injection-tab.assets/3dd7cc13add12dec6c98f5e0af93822b.png)
+![](../injection-tab.assets/3b75f33e202abd87ba3b3fe13743b74c.png)
 
 
 * Injection/Immunization:  This is a required field.  Type the name of the injection/immunization.  The autocomplete field will display results that BEGINS WITH and CONTAINS the name of the injection/immunization being searched and give you choices that match the CDC immunizations from the FDB database, or will give you choices of matches of medications which are in the patient's meds history as injectable.  You can highlight & select from the list of auto-complete name matches.
@@ -154,7 +152,6 @@ Once you click on the link VIS Handouts, it will open the VIS Handout fields for
 
 
 * Name:  Using the drop-down, select the name of the VIS Handout publication.  The list that we have in the drop-down comes from http://immunize.org/VIS/.  Contact your MIE Implementer if you need additional VIS Handouts added to this drop-down.  
-* Published: Can enter the date of the VIS Handout publication.
 * Date VIS Handout(s) Given:  Will automatically default to today's date but can be changed to the date it was given.
 
 The VIS Website link can be set up by your MIE Implementer.  You do not have to maintain a latest publication of VIS sheets yourself to hand out manually to a patient.  We now offer the VIS Website link available while documenting an injection and VIS Handout given.
