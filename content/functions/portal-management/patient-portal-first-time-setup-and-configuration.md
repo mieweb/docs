@@ -1,9 +1,9 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2024-04-01T14:11:26.811Z'
-version: 545
-lastAuthor: 'Jenna Anderson'
+date: '2024-04-01T19:49:31.586Z'
+version: 552
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist'
@@ -225,17 +225,11 @@ Messages are constructed using a limited markup that allows bold, italic, and li
 
 **Message Center**
 
-**Configuration**: Use the drop-down to select which chart tab will be used to determine the message types and/or documents available for the message center. Clicking the **Add messages types** link will take users to the currently selected chart tab. The **View**
-**Show documents that are manually sent to portal** allows clinical staff to manually send documents to the portal that are not necessarily shared on the portal initially.
-**Show completed questionnaires** will display completed questionnaires in the Message Center.
-**Enable Email Notifications** will email portal users when notification items have been added to the Message Center.
+**Configuration**: Use the drop-down to select which chart tab will be used to determine the message types and/or documents available for the message center. Clicking the **Add messages types** link will take users to the currently selected chart tab. **Show documents that are manually sent to portal:** allows clinical staff to manually send documents to the portal that are not necessarily shared on the portal initially. **Show completed questionnaires:** will display completed questionnaires in the Message Center. **Enable Email Notifications:** will email portal users when notification items have been added to the Message Center.
 
 **Document Center**
 
-**Preliminary Documents** security setting must be set to **Yes** for users to view documents. 
-**Document accept template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route accepted documents using Fast Tasks.
-**Document reject template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route rejected documents using Fast Tasks.
-**Conversation types**: Document types selected in this list will display conversations in the Document View page. Configure by selecting the appropriate portal message document type from the dropdown, so that replies that are sent back to the portal user are visible and linked to the original message sent from the portal.
+**Preliminary Documents** security setting must be set to **Yes** for users to view documents. **Document accept template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route accepted documents using Fast Tasks. **Document reject template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route rejected documents using Fast Tasks. **Conversation types**: Document types selected in this list will display conversations in the Document View page. Configure by selecting the appropriate portal message document type from the dropdown, so that replies that are sent back to the portal user are visible and linked to the original message sent from the portal.
 
 {{% note %}}
 If a document (such as a lab result document) should not display on the portal until after the document has been e-signed, add an additional expression to the Additional Expression field when editing the Message Center chart tab (or any chart tab being selected in the portal setup). The Additional Expression field will only display when in the Advanced Editor mode. An example of the additional expression to be used when doc type WCLAB should only display once it has been e-signed by the provider is as follows:
