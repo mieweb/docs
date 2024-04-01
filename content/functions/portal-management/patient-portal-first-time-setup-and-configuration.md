@@ -1,9 +1,9 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2023-02-03T12:39:14.599Z'
-version: 530
-lastAuthor: 'tmitchell'
+date: '2024-04-01T14:11:26.811Z'
+version: 545
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist'
@@ -196,7 +196,7 @@ With the initial setup complete, navigate to the {{% syslink "Patient Portal" "f
 While on the *Patient Portal* tab, click the **Configuration** header to expand and review the available options. Fill out the appropriate fields, as needed.
 
 
-![](../patient-portal-first-time-setup-and-configuration.assets/a19dc361ee8afd28dc01c3a7c1c61210.png)
+![](../patient-portal-first-time-setup-and-configuration.assets/dff4dc460c9629e4b704e22e99f0a80d.png)
 
 **Features**
 
@@ -225,7 +225,14 @@ Messages are constructed using a limited markup that allows bold, italic, and li
 
 **Message Center**
 
-**Configuration**: Use the drop-down to select which chart tab will be used to determine the message types and/or documents available for the message center. Clicking the **Add messages types** link will take users to the currently selected chart tab. The **View Preliminary Documents** security setting must be set to **Yes** for users to view documents. 
+**Configuration**: Use the drop-down to select which chart tab will be used to determine the message types and/or documents available for the message center. Clicking the **Add messages types** link will take users to the currently selected chart tab. The **View**
+**Show documents that are manually sent to portal** allows clinical staff to manually send documents to the portal that are not necessarily shared on the portal initially.
+**Show completed questionnaires** will display completed questionnaires in the Message Center.
+**Enable Email Notifications** will email portal users when notification items have been added to the Message Center.
+
+**Document Center**
+
+**Preliminary Documents** security setting must be set to **Yes** for users to view documents. 
 **Document accept template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route accepted documents using Fast Tasks.
 **Document reject template(s)**: If a template is not available, click the Create a Fast Task link. This is used to control how to route rejected documents using Fast Tasks.
 **Conversation types**: Document types selected in this list will display conversations in the Document View page. Configure by selecting the appropriate portal message document type from the dropdown, so that replies that are sent back to the portal user are visible and linked to the original message sent from the portal.
