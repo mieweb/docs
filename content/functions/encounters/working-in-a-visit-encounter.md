@@ -1,9 +1,9 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-03-20T16:08:43.383Z'
-version: 243
-lastAuthor: 'Jenna Anderson'
+date: '2024-04-02T14:53:06.396Z'
+version: 261
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
@@ -235,6 +235,14 @@ In the Visit Orders section of a dynamic encounter, you have the ability to show
 ### Restrictions and Accommodations
 
 See separate help documentation regarding Restrictions and Accommodations-Adding and Restrictions and Accommodations-Viewing
+
+### CC
+
+When the Co-Signing Provider is set for a user within My Settings, and that user is listed as the Provider at the time the encounter is opened, then the Co-singing Provider name will display in the CC encounter section by default. If the encounter is opened where the specific individual provider is not known (for example, opening an encounter from the  "Nurse 1" or "Provider 2" schedule) the co-signing provider will be unknown and not automatically populated. Users may however manually use the autocomplete in the CC encounter section to manually search and add the Co-signing Provider to the current encounter note.
+
+![](../working-in-a-visit-encounter.assets/1b3bc90be7b6353cc69052aadcc01040.png)
+![](../working-in-a-visit-encounter.assets/401d34f7c905914c6584f75e8612d640.png)
+
 
 ### Clinical Summary/CCDA
 
