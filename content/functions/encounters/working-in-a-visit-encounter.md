@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-04-02T14:53:06.396Z'
-version: 261
+date: '2024-04-02T14:53:46.684Z'
+version: 263
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
