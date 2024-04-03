@@ -1,8 +1,8 @@
 ---
 id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 title: 'Conditions'
-date: '2024-04-03T17:49:14.767Z'
-version: 288
+date: '2024-04-03T18:03:21.075Z'
+version: 296
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -12,7 +12,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ## Viewing a Patient's Conditions
 
 Conditions can show in the top summary portion of the patient's information in most chart tabs *if* you have the My Settings preference for *Show Conditions in Med Header* set to Yes.
+
 ![](../conditions.assets/1de69ef9292dd6b1a7e0a51a975de981.png)
+
 This is the Med Header:
 ![](../conditions.assets/a40afc20780831413fd9f2f9c09a8479.png)
 The patient's current active conditions show in the Past Medical History portlet and/or Medical History portlet of the Summary tab.
@@ -36,6 +38,7 @@ Once you are in the Conditions module, you will see the patient's *Problem List,
 
 
 Providers can alter the condition within the Past Medical History section of the Encounter which can alter where the condition falls in the above sections.
+
 ![](../conditions.assets/825a856b7ef7d8d644348deb2d38c871.png)
 
 ## Documenting a Condition for a Patient
@@ -47,7 +50,9 @@ From the Conditions screen, click the Show/Hide Quick Lists icon under the Probl
 Once the Quick List displays, click the Plus icon to Add a Condition
 ![](../conditions.assets/a2c40e9f0dde86027d598d10d220fba6.png)
 The Add Condition window displays to enter the new condition for the patient.
+
 ![](../conditions.assets/f40367b808d74f3ce96f637ac8ab413d.png)
+
 
 * <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown.
 * <strong>Problem List: </strong>By selecting ‘Yes', the condition is added to the Problem List of the patient conditions.
@@ -105,6 +110,7 @@ If you need to edit or delete a condition for a patient, simply click into the C
 The Edit Condition screen will open in a pop-up window. When the *Edit Condition* window appears, you can change any field you need to for this specific condition you selected or type notes into document a reason for deleting or editing, etc. You will see the date the condition was entered and the date(s) any modifications/edits were done to this condition entry from this screen too.
 
 ![](../conditions.assets/ca1583c7ad8329ad738258c00652d1c2.png)
+
 Select the submit function you wish to perform:
 
 * <strong>Resolve Now: </strong>Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
@@ -116,7 +122,9 @@ After you have clicked one of the function buttons, it will then take you back t
 To delete a condition, hover over the condition and click on the delete icon.
 ![](../conditions.assets/fe8e40cb06bf56cd2bd6a5d4fac4e97e.png)
 Select the Reason for the deletion from the Remove Condition pop-up window. Once the documentation on the deletion is completed, click on the Remove button.
+
 ![](../conditions.assets/3cd637d78a9388a660cd8b2ef9c7a7cf.png)
+
 
 ### Concluding an Active Patient Condition
 
@@ -124,7 +132,9 @@ If you need to conclude an active condition for a patient simply get into the Co
 To conclude a condition, find the specific condition and hover over it until the icons appear. Click the Pencil icon.
 ![](../conditions.assets/94fc7ebfca4f985144fcc351f6cbc02b.png)
 The Edit Condition screen will open in a pop-up window. Add the Concluded Date if it is different from today's date. Click the Resolve Now button and the condition will be marked as ‘Inactive/Resolved'. It will move from the Problem List to the Past Medical History section. A Concluded Date will be added with either the date entered manually or today's date if none was entered.
+
 ![](../conditions.assets/e00ef469bb04039318f95f95d8965148.png)
+
 
 ### Edit, Delete, or Activate a Concluded Condition
 
@@ -133,7 +143,9 @@ To edit, delete or activate a concluded condition, find the specific concluded c
 ![](../conditions.assets/87db8b0f570e5c6dbd67a872137d44e8.png)
 If you click on the Pencil icon to Edit, the Edit Condition pop-up window appears.   
 You can change any field you need to for this specific condition you selected or type notes in to document a reason for deleting, editing, or re-activating.
+
 ![](../conditions.assets/82bd4053d87b872a2cb59c6623976941.png)
+
 Select the submit function you wish to perform.
 
 * <strong>Resolve Now: </strong>Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
@@ -151,7 +163,9 @@ To edit or delete a family condition, simply hover over the condition until the 
 ![](../conditions.assets/075a67892a8ee45447be9fd91707367e.png)
 You will then be taken to the Edit Family Condition window.  
 You can change any field you need to for this specific family condition you selected or type notes in to document a reason for deleting or editing, etc.
+
 ![](../conditions.assets/f5f78679fd0f3748f0c1d700c9d4a528.png)
+
 Select the submit function you wish to perform.
 
 * <strong>Add Task: </strong>A task can be sent regarding the condition to another user or department.
