@@ -1,9 +1,9 @@
 ---
 id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 title: 'Conditions'
-date: '2021-08-30T12:28:44.539Z'
-version: 74
-lastAuthor: 'sriecke'
+date: '2024-04-03T17:37:20.820Z'
+version: 287
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
@@ -12,145 +12,155 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ## Viewing a Patient's Conditions
 
 Conditions can show in the top summary portion of the patient's information in most chart tabs *if* you have the My Settings preference for *Show Conditions in Med Header* set to Yes.
-![](../conditions.assets/50ebfefabbfbe1d6ef4a9a326b9e4b83.png)
+![](../conditions.assets/1de69ef9292dd6b1a7e0a51a975de981.png)
 This is the Med Header:
-![](../conditions.assets/20318b0984df41d8da4c7da9e8a890c6.png)
-The patient's current active conditions show in the Past Medical History portlet and/or Medical History portlet of the Patient Summary tab.
-![](../conditions.assets/7ada936f1e8494525aadac3f67fb0f0f.png)
-They also show in the Patient's/Family Conditions chart tab or patient's E-history tab (E-History program must be set up by MIE). And from here can enter in patient conditions (or enter them in the Impression Section of point & click encounters)
-![](../conditions.assets/f5e6984c8b902128cf29784a6e05273f.png)
+![](../conditions.assets/a40afc20780831413fd9f2f9c09a8479.png)
+The patient's current active conditions show in the Past Medical History portlet and/or Medical History portlet of the Summary tab.
+![](../conditions.assets/5626330b6300d70f6d4eb3fd8ffe1c57.png)
+They also show in the Conditions chart tab or patient's E-history tab (E-History program must be set up by MIE). And from here can enter in patient conditions (or enter them in the Past Medical History Section of point & click encounters)
+![](../conditions.assets/88158a1d44c6d41f25f5bd052e715715.png)
 
 ## Viewing List of Conditions
 
-When you are working in a patient's E-Chart, you can simply click the hyperlink Conditions: word from the patient's summary (RX header) at the top of the tab you are working in. It will automatically take you then to the Conditions module where you then can document the patient's conditions or family conditions.  
-OR you can click the patient's chart tab at the top most likely named Patient/Family Conditions and it will take you to the patient's condition history also where you can document conditions or family conditions for the patient.
-![](../conditions.assets/0fbc2b18070e67850c238efe60c7200c.png)
-Once you are in the Conditions module, you will see the patient's summary of *Active Conditions, Concluded Conditions, Inactive, Deleted Conditions and Family Conditions.* You can hide any of these categories from your screen by clicking the Hide link in the category to hide.
-![](../conditions.assets/f7274663baefcbf22bae3041f32d5227.png)
+When you are working in a patient's E-Chart, you can click the chart tab at the top named Conditions and it will take you to the patient's condition history also where you can document conditions or family conditions for the patient.
+![](../conditions.assets/88158a1d44c6d41f25f5bd052e715715.png)
+Once you are in the Conditions module, you will see the patient's *Problem List, Past Medical History, Other Problems, Unconfirmed Conditions, Declined Conditions, and Family History.*
 
-* <strong>Active Conditions</strong> are patient conditions as active; patient has this condition presently.
-* <strong>Concluded Conditions</strong> are patient conditions they once had but are now concluded. This also stores a conclusion date and/or any notes if user wishes to document that condition – meaning the patient no longer has this condition but did at one point.
-* <strong>Inactive Conditions</strong> are patient conditions that is sort of like concluded, but, has possibility of returning.
-* <strong>Deleted Conditions</strong> are patient conditions that were entered in error and are now deleted from the patient's history.
 
-Providers can alter the condition "status" and therefore falls into these above buckets via the Impression section of encounters also.
-![](../conditions.assets/67b66459889d84b7992aade6f339d01e.png)
+* <strong>Problem List</strong> are patient conditions that are set to ‘Yes' by the radio button when adding the condition. If the Clinical Status is set to Inactive, it will display next to the condition.
+* <strong>Past Medical History</strong> are patient conditions that are set to ‘Yes' by the radio button when adding the condition. If the Clinical Status is set to Inactive, it will display next to the condition. The conditions can be current and/or no longer active.
+* <strong>Other Problems</strong> are patient conditions that have both the Problem List radio button set to ‘No' and the Past Medical History radio button set to ‘No'.
+* <strong>Unconfirmed Conditions</strong> are patient conditions that have a Verification Status set to ‘Unconfirmed'.
+* <strong>Declined Conditions </strong>are Unconfirmed patient conditions that have been refuted. When the Unconfirmed Condition is Declined a reason is required.
+* <strong>Family History</strong> are conditions held by family members of the patient.
+
+
+Providers can alter the condition within the Past Medical History section of the Encounter which can alter where the condition falls in the above sections.
+![](../conditions.assets/825a856b7ef7d8d644348deb2d38c871.png)
 
 ## Documenting a Condition for a Patient
 
-From the Conditions screen, click the Add Condition hyperlink at the top right of the screen.
-![](../conditions.assets/e691b8697025cfd608f88337a7b57eba.png)
-After you click Add Condition link, you will see the *Condition Details* fields.
-![](../conditions.assets/751a2e9a722a5d04d2cd0f90c3c865e5.png)
+From the Conditions screen, click the Show/Hide Quick Lists icon under the Problem List section.
 
-* <strong>Condition:</strong> There are common conditions with radio buttons listed at the top that have been most frequently listed for your practice and then a general radio button for your own name/icd9 code condition if not on the most common list. You can only select one radio button in the Condition section. You are entering one condition at a time. Simply click the radio button of the condition you want to enter for the patient, or click the radio button for <em>Name or ICD9</em> and free-text type the condition name or ICD9 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown.
+![](../conditions.assets/50bcd3b794c07882fd8cd5b48e4dcd18.png)
+
+Once the Quick List displays, click the Plus icon to Add a Condition
+![](../conditions.assets/a2c40e9f0dde86027d598d10d220fba6.png)
+![](../conditions.assets/f40367b808d74f3ce96f637ac8ab413d.png)
+
+* <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown.
+* <strong>Problem List: </strong>By selecting ‘Yes', the condition is added to the Problem List of the patient conditions.
+* <strong>Past Medical History: </strong>By selecting ‘Yes', the condition is added to the Past Medical History list of the patient conditions.
+* <strong>Clinical Status: </strong>Set the condition to Active or Inactive. The Problem List defaults to Active. There are also options within Active to set Recurrence or Relapse. Or within Inactive, there are options for Remission or Resolved.
+* <strong>Verification Status: </strong>Set the condition to Confirmed, Unconfirmed or Refuted. The Problem List defaults to Confirmed. Under Unconfirmed, the verification can be Provisional or Differential.
+* <strong>Managed By: </strong>This is optional to be filled out. It is an auto-complete pointed to the users whom are part of the department set in the system setting <em>Webchart/Settings/Physician Realm</em>. The users in this realm show up as choices for this field. The users need not have this as their <em>primary</em> department. Simply a user being part of the specified realm will allow them to display as choices. This field does not accept free type.
+
+![](../conditions.assets/61acf2893b5d874b896f497d118039be.png)
+
 * <strong>Onset Date:</strong> This is optional. Enter the date this condition began for the patient. If you only type in a year (not month or day ex: 1969) then the month/day will default to 01-01. If you enter a month and year (no day ex: 04-1969) then the day will default to 01. If no date is entered, it will save as 00-00-0000 onset date.
-* <strong>Date of conclusion (if any):</strong> This is optional. Enter the date this condition concluded for the patient. Month/Day/Year apply as above in Onset Date.
-* <strong>Managed by:</strong> This is optional to be filled out. It is an auto-complete pointed to the users whom are part of the department set in the system setting <em>Webchart/Settings/Physician Realm</em>. The users in this realm show up as choices for this field. The users need not have this as their <em>primary</em> department. Simply a user being part of the specified realm will allow them to display as choices. This field does not accept free type.
+* <strong>Concluded Date (if any):</strong> This is optional. Enter the date this condition concluded for the patient. Month/Day/Year apply as above in Onset Date.
+* <strong>Restricted Security:</strong> If this box is checked, the condition will be marked as ‘Restricted' on CCDA or FHIR output.
+* <strong>Comments: </strong>Comments stay with the conditions through all encounters. To place an encounter specific note, use the ‘add note' feature or ‘Encounter Note' text box on a new entry.
+* <strong>Encounter Note:</strong> This will create a new encounter note with the new condition being added.
 
-![](../conditions.assets/abc8594c860651c98c3da692d9d1887f.png)
+* <strong>E&M Categories:</strong> This is optional. You will only get a drop-down for this severity field if you enter a condition that a severity can be applied to. Example: Bronchitis. You could then select a severity of Acute, Chronic, or Self-Limiting from the drop-down. This is optional. Again, this field will only turn on if you enter a valid condition that is tied to these 3 types of severity categories.
+* <strong>Private Note:</strong> Setting as a private note will block the note from appearing in pages or documents available to employees.
 
-* <strong>Notes:</strong> This is optional. Type any notes you wish.
-* <strong>Severity:</strong> This is optional. You will only get a drop-down for this severity field if you enter a condition that a severity can be applied to. Example: Bronchitis. You could then select a severity of Acute, Chronic, or Self-Limiting from the drop-down. This is optional. Again, this field will only turn on if you enter a valid condition that is tied to these 3 types of severity categories.
-
-Click **Submit** and it will automatically put it in the appropriate conditions category according to what date fields you entered. Meaning, if you entered a condition and entered a conclusion date, it will automatically know that the condition is concluded and put it in the concluded conditions section for that patient. If you chose a condition and only entered an onset date, then it will put it in the active conditions section for that patient.  
-Click **Submit and Conclude** and it will automatically put the condition in the Concluded conditions category for the patient. You may want to use this if the patient no longer has the condition but could not tell you the date the condition concluded. Therefore, the conclusion date would be empty, but you can submit and conclude that condition by clicking this option.
+Click **Save** and it will automatically put it in the appropriate conditions section.   
+Click **Add Another** and it will save the current condition and open a blank Add Condition pop-up window for a new condition to be entered. Click **Save to Library** to add the condition to the library.   
+You can use the Quick List for the most commonly used Conditions. Hover over the condition you wish to add. The first Plus icon, if selected, will add the condition to the Past Medical History section. The second Plus icon highlighted in gray, if selected, will add the condition to the Problem List.   
+![](../conditions.assets/6cf1cf12622001352bba0548bd69f610.png)   
 
 ### Pregnancy Condition
 
-After you enter and save a condition of pregnancy for the patient, if you go in an edit or click on the pregnancy condition link in the listing, it will open *pregnancy detail* fields where you can document specifics of the pregnancy condition.
-![](../conditions.assets/2d76162d50d6a3010d4313560907ad3c.png)
-If you click to *conclude* the pregnancy condition, it will take you to the conclude pregnancy screen to enter in specifics related to the pregnancy/delivery also. Users cannot see/use the "Delete" button on a pregnancy condition listing if users do not have Edit access for conditions.
-![](../conditions.assets/0d56a8e27e78fa4121aea928d57531c9.png)
+Under the Past Medical History tab, click the Plus icon to Add Past Pregnancy.
+![](../conditions.assets/4259c1cb30590513c3858a68a5c72a8e.png)
+The pop-up window will display to allow for documenting the details of each of the past pregnancies. Once all documentation is completed, click the **Save** button.
+![](../conditions.assets/3b5d17efa26c91731a5339124e5f9320.png)
 
 ### Add Family Condition
 
-If you wish to enter a family medication condition for the patient, click Add Family Condition link from the top right of the conditions screen. Anything entered here is considered a family member condition and will be placed in the Family Conditions section for this patient's conditions summary.
-![](../conditions.assets/eeb02a5787a4d6b7cfa43f119b8485b9.png)
-After you click *Add Family Condition* link, you will see the *Family Condition Details* fields.
-![](../conditions.assets/6bfe6089f7ca83af4fee9fb868d96df2.png)
+If you wish to enter a family medical condition for the patient, click on the Condition tab from the patient chart. Anything entered here is considered a family member condition and will be placed in the Family history section for this patient's conditions summary.
+![](../conditions.assets/ccd2b804b02d9b95726e9a8a5416fd55.png)
+After you click the Plus sign icon, you will see the *Add Family Condition* fields.
+![](../conditions.assets/14d64ff68c700886fc99337a7acb5092.png)
 
-* <strong>Condition:</strong> You are entering one family condition at a time. Simply click the radio button for <em>Name or ICD9</em> and free-text type the family condition name or ICD9 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition.
-* <strong>Relation:</strong> This is a required field. Even though you are entering only one condition, you can check-mark as many family members that have this specific medical condition. If you do not enter a relation selection, you will get an error stating a relation must be selected (required field).
+* <strong>Problem:</strong> You are entering one family condition at a time. Simply click the radio button for <em>Name or ICD10</em> and free-text type the family condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition.
+* <strong>Relationship:</strong> Select from the dropdown which family member had the condition listed above. If you leave the relationship field <em>blank</em>, it will still document the family condition to the patient's history and will assume and mark it ‘unknown' as the
+* <strong>Age at Onset:</strong> Type or use the calendar to select the age in which the condition began. ‘=' is used for the exact age the condition began. ‘~' is used for around the age the condition began. ‘?' is used when the age of onset is unknown.
+* <strong>Comments: </strong>This field is optional and can be used for any additional comments on the family condition.
 
-![](../conditions.assets/a7d176c328aa8e145f1fb8af38642923.png)
-When entering family conditions in the dynamic encounter, you will see in the drop-down of relation choices the choice of NKH. NKH means the condition you are adding and set to NKH is documenting the patient has no known family history of that disease/condition. Instead of specifying a specific condition a family member has, you are doing the opposite and documenting that the patient has no known family history of that specific condition you are entering.
-![](../conditions.assets/413751d8b2bda8d86ba096905e7414da.png)
-When working in the encounter and you leave the relationship field *blank*, it will still document the family condition to the patient's history and will assume and mark it ‘unknown' as the relationship.
 
-* <strong>Onset Date:</strong> This is optional. Enter the date this condition began for the family member(s). If you only type in a year (not month or day ex: 1969) then the month/day will default to 01-01. If you enter a month and year (no day ex: 04-1969) then the day will default to 01. If no date is entered, it will save as 00-00-0000 onset date.
-* <strong>Date of conclusion (if any):</strong> This is optional. Enter the date this condition concluded for the family member(s). Month/Day/Year apply as above in Onset Date.
-* <strong>Notes:</strong> This is optional. Type any notes you wish.
+When entering family conditions in the dynamic encounter, you will see No Known History and Non-Contributory options available for documentation purposes. No Known History means the patient has no known family history of any diseases/conditions. Instead of specifying a specific condition a family member has, you are doing the opposite and documenting that the patient has no known family history of that specific condition you are entering.
+![](../conditions.assets/77beb6f7035148e0dd04cf06956d4374.png)
 
-Click *Submit* and it will automatically list it in the Family Conditions section of the conditions summary screen.
-![](../conditions.assets/9d27e81094541d6c113112f2b534a16e.png)
+Click *Save* or *Add Another* and it will automatically list it in the Family history section of the Conditions tab.
+
 
 ### Editing/Deleting a Patient Condition
 
-If you need to edit or delete a condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-You will see the categories of Active, Concluded, and Deleted Conditions.  
-To edit or delete a condition, simply click on the underlined condition name in the problem column.
-![](../conditions.assets/e256699e5206cdea04e451cb4cda0909.png)
-The CONDITION DETAILS screen will open up either in the same browser tab (default) or in a separate browser tab depending on the system setting value that is set for the database.  
-When the *condition details* screen appears, you can change any field you need to for this specific condition you selected or type notes into document a reason for deleting or editing, etc. You will see the date the condition was entered and the date(s) any modifications/edits were done to this condition entry from this screen too.
-![](../conditions.assets/8d8dba85c479bde894c752b21f09ed7b.png)
-![](../conditions.assets/110aedeaf20f8f8a5347085e585f07ea.png)
+If you need to edit or delete a condition for a patient, simply click into the Conditions tab. To edit or delete a condition, hover over the condition until the icons appear. To edit, click the Pencil icon.
+![](../conditions.assets/94fc7ebfca4f985144fcc351f6cbc02b.png)
+The Edit Condition screen will open in a pop-up window. When the *Edit Condition* window appears, you can change any field you need to for this specific condition you selected or type notes into document a reason for deleting or editing, etc. You will see the date the condition was entered and the date(s) any modifications/edits were done to this condition entry from this screen too.
+
+![](../conditions.assets/ca1583c7ad8329ad738258c00652d1c2.png)
 Select the submit function you wish to perform:
 
-* <strong>Make Changes:</strong> will save your changes to this condition and put it in the appropriate category of the conditions summary.
-* <strong>Change and Conclude:</strong> will save your changes to this condition and then conclude the condition. It will then list it in the patient's concluded conditions category of the conditions summary screen.
-* <strong>Delete:</strong> this will delete this condition from the patient's chart. It will keep a record of it in the deleted conditions category of the patient's conditions summary screen. If you click Delete, it will ask you to confirm that you want to delete this condition. Deleting means the condition was entered in error. Concluding means the patient had the condition but no longer has it.
+* <strong>Resolve Now: </strong>Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
+* <strong>Add Note:</strong> For additional documentation purposes on the condition.
+* <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
+* <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
 
-After you have clicked one of the function buttons, it will then take you back to the patient's condition summary screen. You can edit another if you wish or continue working in {{% system-name %}} .
+After you have clicked one of the function buttons, it will then take you back to the patient's condition tab. You can edit another if you wish or continue working in {{% system-name %}} .  
+To delete a condition, hover over the condition and click on the delete icon.
+![](../conditions.assets/fe8e40cb06bf56cd2bd6a5d4fac4e97e.png)
+Select the Reason for the deletion from the Remove Condition pop-up window. Once the documentation on the deletion is completed, click on the Remove button.
+![](../conditions.assets/3cd637d78a9388a660cd8b2ef9c7a7cf.png)
 
 ### Concluding an Active Patient Condition
 
-If you need to conclude an active condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-Look in the Active Conditions category for the condition you want to conclude. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.  
-To conclude a condition, find the specific condition and simply click on the word Conclude in the conclude column.
-![](../conditions.assets/dbfc3c12f7cd8566df957587bbaa1e36.png)
-You will then be taken to the Conclude Condition screen.  
-Type in the date the condition concluded and type in any notes related to this concluded condition.
-![](../conditions.assets/06a13621f6aa3fcf9ef6ec1adf39020d.png)
-Click *Submit* and it will then list this concluded condition in the Concluded Conditions category of the patient's condition summary screen.
+If you need to conclude an active condition for a patient simply get into the Conditions tab. Look in the Problem List section for the condition you want to conclude. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.  
+To conclude a condition, find the specific condition and hover over it until the icons appear. Click the Pencil icon.
+![](../conditions.assets/94fc7ebfca4f985144fcc351f6cbc02b.png)
+The Edit Condition screen will open in a pop-up window. Add the Concluded Date if it is different from today's date. Click the Resolve Now button and the condition will be marked as ‘Inactive/Resolved'. It will move from the Problem List to the Past Medical History section. A Concluded Date will be added with either the date entered manually or today's date if none was entered.
+![](../conditions.assets/e00ef469bb04039318f95f95d8965148.png)
 
 ### Edit, Delete, or Activate a Concluded Condition
 
-If you need to edit, delete or reactivate a concluded condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-Look in the Concluded Conditions category for the condition you want to reactivate. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error. Reactivating it means the condition came back or you concluded it in error, etc.  
-To edit, delete or activate a concluded condition, find the specific concluded condition and simply click on the underlined condition in the problem column.
-![](../conditions.assets/e4390fc2474598607a9ed65f19ae14a5.png)
-You will then be taken to the Condition Details screen.  
+If you need to edit, delete or reactivate a concluded condition for a patient simply get into the Conditions tab from the patient chart. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error. Reactivating it means the condition came back or you concluded it in error, etc.  
+To edit, delete or activate a concluded condition, find the specific concluded condition and simply hover over the condition until the icons appear. Click on the Pencil icon to Edit or Activate a condition. Click on the Delete icon to Delete a condition.
+![](../conditions.assets/87db8b0f570e5c6dbd67a872137d44e8.png)
+If you click on the Pencil icon to Edit, the Edit Condition pop-up window appears.   
 You can change any field you need to for this specific condition you selected or type notes in to document a reason for deleting, editing, or re-activating.
-![](../conditions.assets/b48965ee3ea54acd8e836683f47624da.png)
+![](../conditions.assets/82bd4053d87b872a2cb59c6623976941.png)
 Select the submit function you wish to perform.
 
-* <strong>Make Changes:</strong> will save your changes to this concluded condition and keep it in the appropriate category of the conditions summary.
-* <strong>Change and Activate:</strong> will save your changes to this condition and then activate the condition. It will then list it in the patient's active conditions category of the conditions summary screen.
-* <strong>Delete:</strong> this will delete this condition from the patient's chart. It will keep a record of it in the deleted conditions category of the patient's conditions summary screen. If you click Delete, it will ask you to confirm that you want to delete this condition. Deleting means the condition was entered in error. Concluding means the patient had the condition but no longer has it.
+* <strong>Resolve Now: </strong>Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
+* <strong>Add Note:</strong> For additional documentation purposes on the condition.
+* <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
+* <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
 
-After you have clicked one of the function buttons, it will then take you back to the patient's condition summary screen. You can edit another if you wish or continue working in {{% system-name %}} .
+After you have clicked one of the function buttons, it will then take you back to the patient's condition tab. You can edit another if you wish or continue working in {{% system-name %}} .
 
 ### Editing/Deleting a Family Condition
 
-If you need to edit or delete a family condition for a patient simply get into the conditions summary screen (from the conditions tab or by clicking the Conditions link in the patient's RX summary header).  
-You will see the Family Conditions category if you scroll down to the bottom of the screen. It is the last category in the patient's conditions summary screen.  
-To edit or delete a family condition, simply click on the underlined condition name in the description column.
-![](../conditions.assets/00951253f612642af0cd66f6a736b247.png)
-You will then be taken to the Family Condition Details screen.  
+If you need to edit or delete a family condition for a patient simply get into the Conditions tab from the patient chart.  
+You will see the Family history section if you scroll down to the bottom of the screen. It is the last category in the patient's conditions summary screen.  
+To edit or delete a family condition, simply hover over the condition until the icons appear. Click the Pencil icon to Edit the condition. Click the Trash Can icon to Delete the condition.
+![](../conditions.assets/075a67892a8ee45447be9fd91707367e.png)
+You will then be taken to the Edit Family Condition window.  
 You can change any field you need to for this specific family condition you selected or type notes in to document a reason for deleting or editing, etc.
-![](../conditions.assets/c2b84863c75ce7f9d42159d6ce3cb35b.png)
+![](../conditions.assets/f5f78679fd0f3748f0c1d700c9d4a528.png)
 Select the submit function you wish to perform.
 
-* <strong>Make Changes:</strong> will save your changes to this family condition and put it back in the family conditions category of the patient's conditions summary.
-* <strong>Delete:</strong> this will delete this family condition from the patient's chart. It does not keep a record of it. It is completely taken out of the family condition summary. If you click Delete, it will ask you to confirm that you want to delete this condition.
+* <strong>Add Task: </strong>A task can be sent regarding the condition to another user or department.
+* <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
 
-After you have clicked one of the function buttons, it will then take you back to the patient's condition summary screen. You can edit another if you wish or continue working in {{% system-name %}} .
+After you have clicked one of the function buttons, it will then take you back to the patient's condition tab. You can edit another if you wish or continue working in {{% system-name %}} .
 
 ## Condition View Links
 
-You will see a condition link named View Links in each condition category.
-![](../conditions.assets/22e39d07dcb59c2866eb829d9793a125.png)
-The Search link will take you out to Healthwise.net in a separate window to take you directly to specific library search of material on the condition you selected "search" for. This is a separate interface your MIE Implementer can set up for you. This can be patient education material you can look up or print out or view in other languages if that website offers additional languages.  
-If you click View Links for any condition, it will open up display the encounters that the given condition is linked to and all the items/documents that are linked to those encounters (in reverse chronological order). Deleted items will not show up in the list.
-![](../conditions.assets/0de1bbcf7f27dadddce2f83734da3afe.jpg)
+To view a Condition link, click on the Condition tab from the patient chart. Hover over the condition you wish to view the link until the icons display. Click on the Pencil icon.
+![](../conditions.assets/b1702597edcbc9646ea13a17e25ae1f7.png)
+The Edit Condition window will open. Click on the View Links link. The links to encounters and documents will display. Click on any one you wish to display.
+![](../conditions.assets/bf2aba701f7c30ddbdf6c20467e85cb9.png)
