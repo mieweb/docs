@@ -1,8 +1,8 @@
 ---
 id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 title: 'Conditions'
-date: '2024-04-03T17:37:20.820Z'
-version: 287
+date: '2024-04-03T17:49:14.767Z'
+version: 288
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -46,6 +46,7 @@ From the Conditions screen, click the Show/Hide Quick Lists icon under the Probl
 
 Once the Quick List displays, click the Plus icon to Add a Condition
 ![](../conditions.assets/a2c40e9f0dde86027d598d10d220fba6.png)
+The Add Condition window displays to enter the new condition for the patient.
 ![](../conditions.assets/f40367b808d74f3ce96f637ac8ab413d.png)
 
 * <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown.
