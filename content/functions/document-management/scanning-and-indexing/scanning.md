@@ -1,9 +1,9 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2023-12-12T21:52:58.003Z'
-version: 115
-lastAuthor: 'Alice Uhrick'
+date: '2024-03-18T15:28:45.848Z'
+version: 133
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
@@ -26,22 +26,24 @@ To begin using the WebScan capabilities, first click the [WebScan](https://syst
 Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *checked-in* batches shown below, in the list view. Checked-in batches are simply batches of scanned documents that need indexed into the appropriate charts.
 ![](../scanning.assets/8d986ebaa4d76ccc9130774bb4b89e30.png)
 To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs) link found in the upper-right corner of the screen. Once clicked, a new window will open. Here, users may scan and index documents, accordingly.
-![](../scanning.assets/55f79a84914e1c2bc2986cd190ffb9e8.png)
+![](../scanning.assets/76f70933e1490012553bf9748633510f.png)
 
 1. Align and insert the document(s) into the scanner tray according to the scanner specifications. Scanning can be done in portrait or landscape orientation.
-2. Using the <strong>Priority</strong> dropdown, set the priority of the batch. Select Low, Med, or High.
-3. If any comments need to be associated with a batch, simply type them into the <strong>Comments</strong> field, as necessary.
-4. Use the <strong>Select Partition</strong> dropdown to specify the partition to which the scanned document(s) need assigned. This field displays if the <em>Show Partition Restrict</em> system setting is enabled. Once a batch is assigned to a specific partition and scanned, only users with access to that partition will be able to see the scanned batch in WebScan.
+2. Use the <strong>Select Partition</strong> dropdown to specify the partition to which the scanned document(s) need assigned. This field displays if the <em>Show Partition Restrict</em> system setting is enabled. Once a batch is assigned to a specific partition and scanned, only users with access to that partition will be able to see the scanned batch in WebScan.
+3. Using the <strong>Priority</strong> dropdown, set the priority of the batch. Select Low, Med, or High.
+4. If any comments need to be associated with a batch, simply type them into the <strong>Comments</strong> field, as necessary.
 5. To review and ensure the scanner settings and preferences are enabled, click the <strong>Settings</strong> button. Users may change these settings, as needed. For instance, barcodes on form documents will be read regardless of page orientation if the <em>Auto-Rotate to Find Barcodes</em> preference is set to <strong>Yes</strong>.
 
 
-   ![](../scanning.assets/fc795336f0e1a47c2cbe0a7f20082782.png)
+   ![](../scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
 
 
 
-   1. <strong>Resolution</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
-   2. <strong>Color Depth</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can set per page by simply changing the preference for each page being scanned.
-   3. <strong>Duplex</strong>: Users may scan the front and back of documents by setting Duplex to Yes.
+   1. <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
+   2. <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can set per page by simply changing the preference for each page being scanned.
+
+
+
 
 7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Select Scanner</strong> button and viewing the listed scanner is correct and highlighted for use.
 8. When ready, click the <strong>Scan Image</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan Image button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
