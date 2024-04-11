@@ -1,9 +1,9 @@
 ---
 id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
 title: 'Allergies and Intolerances'
-date: '2024-03-14T17:58:38.576Z'
-version: 167
-lastAuthor: 'Jenna Anderson'
+date: '2024-03-20T19:56:50.201Z'
+version: 181
+lastAuthor: 'Alice Uhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
@@ -20,8 +20,8 @@ They also show in the medication history screen of the E-Meds module and in Alle
 From any of these screens/modules or encounters, you can enter allergies and/or intolerances.  
 We would suggest entering any medication/drug and/or environmental allergies in the Allergies section.  
 Reason is when a user/physician/clinician navigates to the patient's chart; they see a complete allergy history anywhere in the system by going/viewing the specific **Allergies** section.  At a glance, clinicians see the patient's allergy summary and have access to more detailed information.  
-If you want to also enter in environmental allergies into PMH section as a condition, by all means you can, but we still suggest entering them in allergies section due to the at-a-glance history a clinician would look at for allergies also.  Also when entering them in the PMH section as a condition, it's then an active condition that will then always populate the "assessment" section /diagnosis section, which may be cumbersome to always "N/A" those etc or shows as a presenting active condition instead of just as an allergy.  
-FDB (First Data Bank) doesn't really have environmental factors in the allergies auto-completes, so we can see why a user may want to use conditions for this since they show up there in an auto-complete as "conditions".  But the problem is that condition lists are not always displayed in all the places where users/clinicians would be checking for allergies.  So if there is some allergy listed in PMH that is actually clinically important, it may not be seen when it should. Specifically (for example: Latex), it's recommended that allergies entered in the allergies section as we have built-ins to handle alerts for that and coding based on any allergy being entered in the specific allergies section when gets pushed onto a CCD and other places for sharing data, etc.
+If you want to also enter environmental allergies into the PMH section as a condition, by all means you can, but we still suggest entering them in the allergies section due to the at-a-glance history a clinician would look at for allergies also.  Also when entering them in the PMH section as a condition, it's then an active condition that will then always populate the "assessment" section /diagnosis section, which may be cumbersome to always "N/A" those etc or shows as a presenting active condition instead of just as an allergy.  
+FDB (First Data Bank) doesn't really have environmental factors in the allergies auto-completes, so we can see why a user may want to use conditions for this since they show up there in an auto-complete as "conditions".  But the problem is that condition lists are not always displayed in all the places where users/clinicians would be checking for allergies.  So if there is some allergy listed in PMH that is actually clinically important, it may not be seen when it should. Specifically (for example: Latex), it's recommended that allergies are entered in the allergies section, as we have built-in logic to generate applicable alerts, as well as logic for sharing this data onto a CCD.
 
 ## Adding an Allergy and/or Intolerance
 
@@ -55,7 +55,7 @@ After you click Add Allergy /Intol link, you will see an *Add Allergy/Intoleranc
 *(You can check-mark the NKDA box to document the patient has NKDA here, or follow the steps on previous pages).*  
 If patient has known allergies/intolerances, then at the left in **Add Allergy / Intolerance** fields enter:
 
-* <strong>Name:</strong> Enter the name of what the patient is allergic to. It will auto-complete your text to show matches of recognized allergies from First DataBank and you can select one. If any allergy you enter relates to a medication the patient has on their active medications list it will popup a warning. These allergies documenting are medication related allergies. If you need to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert), please see next pages of this help in section named "Custom Allergies".
+* <strong>Name:</strong> Enter the name of what the patient is allergic to. It will auto-complete your text to show matches of recognized allergies from First DataBank and you can select one. If any allergy you enter relates to a medication the patient has on their active medications list it will popup a warning. These allergies are medication related allergies. If you need to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert), please see next pages of this help section named "Custom Allergies".
 
 ![](../allergies-and-intolerances.assets/ab39f805c7c416bd34507f1e73aad67c.png)
 
@@ -98,7 +98,7 @@ After you click Quick Allergy link, you will see **Add Allergies / Intolerances*
 * <strong>Reaction:</strong> Enter the reaction the patient has to this medication/allergy/intolerance/item, etc. This is optional.
 * <strong>Type:</strong> Select the radio button for which type it is. Either Allergy or Intolerance.
 
-Click *Add* button. It will then automatically enter it into the patient's allergies/intolerances summary. It does not ask you confirmation. It automatically enters whatever you typed via this quick add.  
+Click *Add* button. It will then automatically enter it into the patient's allergies/intolerances summary. It does not ask you for confirmation. It automatically enters whatever you typed via this quick add.  
 Any allergy or intolerance with an asterisk (*) next to it means the allergy or intolerance was free-typed and not selected from the auto-complete that FDB presents or most common known allergies/intolerances in the database. This is considered an unrecognized medication allergy.
 ![](../allergies-and-intolerances.assets/d27e9ff6942a494fae87c59011270d3b.png)
 
