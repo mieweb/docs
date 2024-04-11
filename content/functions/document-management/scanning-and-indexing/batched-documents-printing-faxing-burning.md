@@ -1,13 +1,13 @@
 ---
 id: '1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
 title: 'Batched Documents - Printing, Faxing, Burning'
-date: '2020-03-24T14:44:49.174Z'
-version: 57
-lastAuthor: ''
+date: '2024-02-12T15:22:26.042Z'
+version: 95
+lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 ## Adding a Document to a Batch
 
@@ -18,9 +18,9 @@ There are several ways to get a document into a ‘batch'.
 ### Batching an Opened Document from Detail View
 
 When you are in a specific patient's chart and find and open the specific document you want to send to a batch, simply click the Batch link in the property/summary for that document.
-![](../batched-documents-printing-faxing-burning.assets/2efc77330ce7ffed620ca4ed2410c721.png)
+![](../batched-documents-printing-faxing-burning.assets/4615062a62c5fb0e4fb45d0b4a2e9dfd.png)
 As soon as you click Batch it will change this word to remove. You can click remove to undo what you just did. Meaning, remove it from the batch. When you click Batch, it automatically puts it into the print/fax/burn batching. You can see this in your worklist summary at the very top of the {{% system-name %}} screen. It shows you how many items you have batched so far. This Batch summary remains there at the top until you print or fax the batch or remove all documents from the batch.
-![](../batched-documents-printing-faxing-burning.assets/9407b1d3c6e03834b259a08e69ca0688.png)
+![](../batched-documents-printing-faxing-burning.assets/606ae95ec43ea538af56727a00430b81.png)
 Continue to work in {{% system-name %}} or find other documents you need to batch.
 
 {{% note %}}
@@ -30,40 +30,40 @@ Make sure you wait for the BATCH SUMMARY at the top to refresh before batching m
 ### Batching a Document from List or Thumb View
 
 When you are in a specific patient's chart and are looking at documents using the List or Thumb View, simply click the Batch link in the Print options column of the document you wish to batch.
-![](../batched-documents-printing-faxing-burning.assets/4fcccd652d6d25bcd7fadcf28b90bbb8.png)
+![](../batched-documents-printing-faxing-burning.assets/d036176ad1d95724abe0fa0ccbe2e0ff.png)
 As soon as you click Batch it will change this word to Remove. You can click Remove to undo what you just did. Meaning, remove it from the batch. When you click Batch, it automatically puts it into the print/fax batching. You can see this in your worklist summary at the very top of the {{% system-name %}} screen. It shows you how many items you have batched so far. This Batch summary remains there at the top until you print or fax or burn the batch or remove all documents from the batch. If you already have batch(es) created, the individual document will be placed with the most recent created batch.
 
 
 ## Printing, Faxing, or Burning from a Batch
 
 The worklist summary consists of any outstanding e-signs that need to be completed by you, any outstanding tasks need to be completed by you, or any open batches that you have compiled. This summary always appears at the top of your work screen (if you have anything outstanding to do in your worklist) then you can click the Print or Fax or burn link here from any menu, module, chart, etc. (If the worklist summary does not appear here, then you have no batched documents, no tasks to do and no e-signs to complete).
-![](../batched-documents-printing-faxing-burning.assets/0af054d5afd82569a4d4bc4987f7a29b.png)
+![](../batched-documents-printing-faxing-burning.assets/94d1f016a5ceb26734632e67a9cd3e7f.png)
 To print or fax a batch, click on the Print or Fax or Burn link in your worklist summary.
-![](../batched-documents-printing-faxing-burning.assets/431b62074d0811736a643d4e2cdd86cd.png)
+![](../batched-documents-printing-faxing-burning.assets/2392c03d27cdb4a2239b3052f414475b.png)
 You will then be taken to the Print Mode screen, Fax Mode screen or Burn Mode screen to complete and close your append job. If you chose to burn the batch, your screen will appear as this:
-![](../batched-documents-printing-faxing-burning.assets/1aebe393f8efdd1af8fb6fea122cab3a.png)
+![](../batched-documents-printing-faxing-burning.assets/d86bca9df3a9527a20525259a3da1394.png)
 If you chose to print the batch:
-![](../batched-documents-printing-faxing-burning.assets/ad21016f90ae79c674cca6b759097449.png)
+![](../batched-documents-printing-faxing-burning.assets/40873832f9319a33c649dc5970005e5d.png)
 If you chose to fax the batch:
-![](../batched-documents-printing-faxing-burning.assets/45ce579b2032efb34267ceba8f941447.png)
+![](../batched-documents-printing-faxing-burning.assets/0d0ddaa0286348109ad24215566cadaa.png)
 For explanations on each check-box or field, see the separate help instructions titled Printing Documents or and/or Faxing Documents. For instructions on burning a batch, see page 5 of this help instruction document.
 In the **Send To** section you will see your number of items in the batch you created. It also displays the date & time the first document was placed in the batch.
 To see the specific documents in the batch, simply click on the [ + ] sign in the items column to open up the batch items.
-![](../batched-documents-printing-faxing-burning.assets/1ff585deaaf0964c68ac417a715ce532.png)
+![](../batched-documents-printing-faxing-burning.assets/4f627ad339b6a79629fbc282efd50eca.png)
 Once you open up the batch items, they will be displayed individually in the **Send To** category.
 You can remove a document item if you wish from here by clicking the X Remove next to the specific line item.
 If you wish to close the individually listed batch items, simply click the [ - ] sign in the items column to close the detailed list.
-![](../batched-documents-printing-faxing-burning.assets/fcc24d7b187c5ee7a7e3ed73165f152a.png)
+![](../batched-documents-printing-faxing-burning.assets/47596a110792e94eb61740955ae6676e.png)
 To perform your printing or faxing or burning of the batch, simply click Print or Fax or Burner radio buttons in the window.
 (See separate help instructions titled *Printing Documents.pdf* and/or *Faxing Documents.pdf*).
-![](../batched-documents-printing-faxing-burning.assets/ad21016f90ae79c674cca6b759097449.png)
+![](../batched-documents-printing-faxing-burning.assets/40873832f9319a33c649dc5970005e5d.png)
 If you click *Remove & Cancel* function button, it will remove the entire batch and cancel the print/fax/burn mode. You will no longer have that batch in the system in your worklist. It has been entirely removed and canceled.
 If you have any other separate batches created from print chart method, after you print/fax/burn or remove & cancel this batch, it will show your next batch in your worklist summary if you have another that you created separately.
 
 ### Burning a Batch
 
 When you are ready to burn the documents you batched, simply insert a blank CD into your disk burner and then click the *Create Disk* button at the bottom of the burn mode screen. Follow the instructions on the screen and it will gather the data and burn the disk.
-![](../batched-documents-printing-faxing-burning.assets/1aebe393f8efdd1af8fb6fea122cab3a.png)
+![](../batched-documents-printing-faxing-burning.assets/d86bca9df3a9527a20525259a3da1394.png)
 
 {{% tip %}}
 If this is the first time burning images/documents from {{% system-name %}} on the computer you're using, **you must download a tool before proceeding**! Click on the "download a tool" link if such window appears. If you do not get this window to download an ISO tool, then please call the MIE helpdesk immediately for assistance. Helpdesk will assist you in installing a free burning tool (Image Burn) on the PC. You will also need to change the file association for ISO to use the software and not MS Word. Then you can proceed burning to a disk. ![](../batched-documents-printing-faxing-burning.assets/dc2899eba21fcb9a7985b2b9a5ad358e.png)
