@@ -1,9 +1,9 @@
 ---
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
-date: '2022-08-30T15:25:37.584Z'
-version: 527
-lastAuthor: 'Will Reiske (MIE)'
+date: '2024-02-17T18:48:45.904Z'
+version: 541
+lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links:
   - 'http://hl7.org/fhir/R4/allergyintolerance.html'
@@ -53,7 +53,7 @@ links:
   - 'http://hl7.org/fhir/R4/provenance.html'
   - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
+wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 ---
 # Supported Resources
 
@@ -78,22 +78,22 @@ wikigdrive: '028c9969b6de1b1821f0b338eb112d2421a13029'
 [Procedure](#procedure)  
 [Provenance](#provenance)
 
-# AllergyIntolerance
+## AllergyIntolerance
 
 
-## Description
+### Description
 
 The AllergyIntolerance resource returns data regarding an undesirable, physiological response associated with exposure to a given substance unique to a single patient.  
 A list of allergies for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 AllergyIntolerance](http://hl7.org/fhir/R4/allergyintolerance.html)  
 **Data Version:** USCDI v1  
 **Supported Profiles:** [US Core STU3 AllergyIntolerance](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-allergyintolerance.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -116,7 +116,7 @@ A list of allergies for a specific patient can be returned when searching by tha
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -205,7 +205,7 @@ A list of allergies for a specific patient can be returned when searching by tha
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -226,7 +226,7 @@ A list of allergies for a specific patient can be returned when searching by tha
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -236,7 +236,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -303,7 +303,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 
 ```
 
-## Error Handling
+### Error Handling
 
 
 
@@ -342,28 +342,28 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# CarePlan
+## CarePlan
 
 
-## Description
+### Description
 
 The CarePlan resource returns data related to the intention of how one or more practitioners deliver care for a unique patient or group of patients during a period of time.  CarePlans may or may not be related to a specific condition or set of conditions.
 A list of care plans for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Careplan](http://hl7.org/fhir/R4/careplan.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 CarePlan](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careplan.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -386,7 +386,7 @@ A list of care plans for a specific patient can be returned when searching by th
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -447,7 +447,7 @@ A list of care plans for a specific patient can be returned when searching by th
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -468,7 +468,7 @@ A list of care plans for a specific patient can be returned when searching by th
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -480,7 +480,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -517,7 +517,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -556,28 +556,28 @@ Permission Denied</td>
 
 </table>
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# CareTeam
+## CareTeam
 
 
-## Description
+### Description
 
 The CareTeam resource returns data regarding everyone involved in the care of a unique patient.  This team may consist of medical practitioners, friends, relatives, and organizations.
 A list of care teams for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 CareTeam](http://hl7.org/fhir/R4/careteam.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 CareTeam](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careteam.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -600,7 +600,7 @@ A list of care teams for a specific patient can be returned when searching by th
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -659,7 +659,7 @@ A list of care teams for a specific patient can be returned when searching by th
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -680,7 +680,7 @@ A list of care teams for a specific patient can be returned when searching by th
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -692,7 +692,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -758,7 +758,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -797,28 +797,28 @@ Permission Denied</td>
 
 </table>
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Condition
+## Condition
 
 
-## Description
+### Description
 
 The Condition resource returns data regarding a clinical condition, problem, or diagnosis that has risen to clinical significance for a unique patient.
 A list of conditions for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Condition](http://hl7.org/fhir/R4/condition.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Condition](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-condition.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -841,7 +841,7 @@ A list of conditions for a specific patient can be returned when searching by th
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -930,7 +930,7 @@ A list of conditions for a specific patient can be returned when searching by th
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -967,7 +967,7 @@ A list of conditions for a specific patient can be returned when searching by th
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -979,7 +979,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -1052,7 +1052,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -1092,28 +1092,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Device
+## Device
 
 
-## Description
+### Description
 
 The Device resource returns data regarding a medical or non-medical manufactured item that is used in but unchanged by the provision of healthcare.
 A list of Devices for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Device](http://hl7.org/fhir/R4/device.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Implantable Device](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-implantable-device.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -1136,7 +1136,7 @@ A list of Devices for a specific patient can be returned when searching by that 
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -1237,7 +1237,7 @@ A list of Devices for a specific patient can be returned when searching by that 
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -1258,7 +1258,7 @@ A list of Devices for a specific patient can be returned when searching by that 
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -1270,7 +1270,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -1320,7 +1320,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -1360,28 +1360,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# DiagnosticReport
+## DiagnosticReport
 
 
-## Description
+### Description
 
 The DiagnosticReport resource returns data regarding the findings and interpretations of diagnostic tests.
 A list of DiagnosticReports for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 DiagnosticReport](http://hl7.org/fhir/R4/diagnosticreport.html)
 **Data Version:** USCDI v1
 **Supported Profiles:**[ US Core STU3 ](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html)[DiagnosticReport Profile for Laboratory Results Reporting](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html), [US Core STU3 DiagnosticReport Profile for Report and Note exchange](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-note.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -1404,7 +1404,7 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -1505,7 +1505,7 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -1538,7 +1538,7 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -1550,7 +1550,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -1613,7 +1613,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -1653,28 +1653,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# DocumentReference
+## DocumentReference
 
 
-## Description
+### Description
 
 The DocumentReference resource returns data for any document created for any purpose.
 A list of documents for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 DocumentReference](http://hl7.org/fhir/R4/documentreference.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 DocumentReference](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-documentreference.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -1697,7 +1697,7 @@ A list of documents for a specific patient can be returned when searching by tha
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -1791,7 +1791,7 @@ A list of documents for a specific patient can be returned when searching by tha
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -1824,7 +1824,7 @@ A list of documents for a specific patient can be returned when searching by tha
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -1836,7 +1836,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -1906,7 +1906,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -1946,28 +1946,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Encounter
+## Encounter
 
 
-## Description
+### Description
 
 The Encounter resource returns data regarding a clinical interaction between a patient and one or more healthcare providers.
 A list of encounters for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Encounter](http://hl7.org/fhir/R4/encounter.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Encounter](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -1990,7 +1990,7 @@ A list of encounters for a specific patient can be returned when searching by th
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -2092,7 +2092,7 @@ A list of encounters for a specific patient can be returned when searching by th
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -2117,7 +2117,7 @@ A list of encounters for a specific patient can be returned when searching by th
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -2129,7 +2129,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -2228,7 +2228,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -2268,28 +2268,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Goal
+## Goal
 
 
-## Description
+### Description
 
 The Goal resource returns data describing one or more, short or long term healthcare objectives for a unique patient.
 A list of goals for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Goal](http://hl7.org/fhir/R4/goal.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Goal](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-goal.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -2312,7 +2312,7 @@ A list of goals for a specific patient can be returned when searching by that pa
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -2371,7 +2371,7 @@ A list of goals for a specific patient can be returned when searching by that pa
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -2392,7 +2392,7 @@ A list of goals for a specific patient can be returned when searching by that pa
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -2404,7 +2404,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -2443,7 +2443,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -2483,28 +2483,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Immunization
+## Immunization
 
 
-## Description
+### Description
 
 The Immunization resource returns data describing the event of a vaccine administration or a reported record of immunization for a unique patient.
 A list of immunizations for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Immunization](http://hl7.org/fhir/R4/immunization.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Immunization](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-immunization.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -2527,7 +2527,7 @@ A list of immunizations for a specific patient can be returned when searching by
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -2628,7 +2628,7 @@ A list of immunizations for a specific patient can be returned when searching by
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -2653,7 +2653,7 @@ A list of immunizations for a specific patient can be returned when searching by
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -2665,7 +2665,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -2702,7 +2702,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -2742,28 +2742,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Location
+## Location
 
 
-## Description
+### Description
 
 The Location resource returns data for a physical place where services are provided or where resources and participants may be found.
 A list of locations can be returned when searching by name or address.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Location](http://hl7.org/fhir/R4/location.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Location](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-location.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -2786,7 +2786,7 @@ A list of locations can be returned when searching by name or address.
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -2845,7 +2845,7 @@ A list of locations can be returned when searching by name or address.
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -2866,7 +2866,7 @@ A list of locations can be returned when searching by name or address.
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -2878,7 +2878,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -2909,7 +2909,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -2949,27 +2949,27 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Medication
+## Medication
 
 
-## Description
+### Description
 
 The Medication resource returns data used for the identification and definition of a medication.  This resource can be used as reference in a MedicationRequest resource to define the medication being prescribed to a unique patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Medication](http://hl7.org/fhir/R4/medication.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Medication](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medication.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -2987,7 +2987,7 @@ The Medication resource returns data used for the identification and definition 
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -3017,7 +3017,7 @@ The Medication resource returns data used for the identification and definition 
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -3030,7 +3030,7 @@ The Medication resource returns data used for the identification and definition 
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -3042,7 +3042,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -3067,7 +3067,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -3107,28 +3107,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# MedicationRequest
+## MedicationRequest
 
 
-## Description
+### Description
 
 The MedicationRequest resource returns data regarding an order or request for the supply of medication and instructions for its administration.
 A list of MedicationRequests for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 MedicationRequest](http://hl7.org/fhir/R4/medicationrequest.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 MedicationRequest](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medicationrequest.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -3151,7 +3151,7 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -3253,7 +3253,7 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -3278,7 +3278,7 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -3290,7 +3290,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -3344,7 +3344,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -3384,28 +3384,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Observation
+## Observation
 
 
-## Description
+### Description
 
 The Observation resource returns measurements and simple assertions made about a unique patient, device, or subject.
 A list of Observations for a specific patient can be returned when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Observation](http://hl7.org/fhir/R4/observation.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Laboratory Result Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-observation-lab.html), [US Core STU3 Pediatric BMI for Age Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-bmi-for-age.html), [US Core STU3 Pediatric Head Occipital-frontal Circumference Percentile Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-head-occipital-frontal-circumference-percentile.html), [US Core STU3 Pediatric Weight for Height Observation Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-weight-for-height.html), [US Core STU3 Pulse Oximetry Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-pulse-oximetry.html), [US Core STU3 Smoking Status Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-smokingstatus.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -3428,7 +3428,7 @@ A list of Observations for a specific patient can be returned when searching by 
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -3536,7 +3536,7 @@ A list of Observations for a specific patient can be returned when searching by 
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -3565,7 +3565,7 @@ A list of Observations for a specific patient can be returned when searching by 
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -3577,7 +3577,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -3654,7 +3654,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -3694,28 +3694,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Organization
+## Organization
 
 
-## Description
+### Description
 
 The Organization resource returns data regarding a recognized group formed for the purpose of achieving a collective action, such as companies, institutions, departments, healthcare practices, and payers.
 A list of Organizations can be returned when searching by name or address.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Organization](http://hl7.org/fhir/R4/organization.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Organization](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -3738,7 +3738,7 @@ A list of Organizations can be returned when searching by name or address.
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -3803,7 +3803,7 @@ A list of Organizations can be returned when searching by name or address.
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -3828,7 +3828,7 @@ A list of Organizations can be returned when searching by name or address.
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -3840,7 +3840,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -3880,7 +3880,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -3920,28 +3920,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Patient
+## Patient
 
 
-## Description
+### Description
 
 The Patient resource returns demographic and other administrative information about an individual receiving health-related services.
 A list of patients can be returned when searching by demographic information.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Patient](http://hl7.org/fhir/R4/patient.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Patient](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -3964,7 +3964,7 @@ A list of patients can be returned when searching by demographic information.
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -4072,7 +4072,7 @@ A list of patients can be returned when searching by demographic information.
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -4105,7 +4105,7 @@ A list of patients can be returned when searching by demographic information.
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -4117,7 +4117,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -4290,7 +4290,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -4330,28 +4330,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Practitioner
+## Practitioner
 
 
-## Description
+### Description
 
 The Practitioner resource returns data regarding a person who is direct or indirectly involved in the provisioning of healthcare.
 A list of Practitioners can be returned when searching by name or identifier.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Practitioner](http://hl7.org/fhir/R4/practitioner.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Practitioner](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitioner.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -4374,7 +4374,7 @@ A list of Practitioners can be returned when searching by name or identifier.
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -4447,7 +4447,7 @@ A list of Practitioners can be returned when searching by name or identifier.
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -4468,7 +4468,7 @@ A list of Practitioners can be returned when searching by name or identifier.
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -4480,7 +4480,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -4551,7 +4551,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -4591,27 +4591,27 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# PractitionerRole
+## PractitionerRole
 
 
-## Description
+### Description
 
 The PractitionerRole resource returns data regarding a set of roles, locations, specialties, and/or services that a practitioner may perform at a designated organization.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 PractitionerRole](http://hl7.org/fhir/R4/practitionerrole.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 PractitionerRole](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitionerrole.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -4629,7 +4629,7 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -4701,7 +4701,7 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -4714,7 +4714,7 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -4726,7 +4726,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -4770,7 +4770,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -4810,28 +4810,28 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Procedure
+## Procedure
 
 
-## Description
+### Description
 
 The Procedure resource returns data regarding a physical or non-physical action that was performed on or for a patient.
 A list of procedures can be returned for a specific patient when searching by that patient.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Procedure](http://hl7.org/fhir/R4/procedure.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Procedure](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-procedure.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -4854,7 +4854,7 @@ A list of procedures can be returned for a specific patient when searching by th
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -4906,7 +4906,7 @@ A list of procedures can be returned for a specific patient when searching by th
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -4931,7 +4931,7 @@ A list of procedures can be returned for a specific patient when searching by th
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -4943,7 +4943,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -4972,7 +4972,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -5012,27 +5012,27 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
 **Release Date:** September 1, 2022
 
-# Provenance
+## Provenance
 
 
-## Description
+### Description
 
 The Provenance resource contains information for assessing authenticity, enabling trust, and allowing reproducibility by describing the entities and processes involved in producing, delivering, or influencing another resource.
 
-## Standards
+### Standards
 
 **FHIR Version:** [R4 Provenance](http://hl7.org/fhir/R4/provenance.html)
 **Data Version:** USCDI v1
 **Supported Profiles:** [US Core STU3 Provenance](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html)
 
 
-## Functions
+### Functions
 
 
 
@@ -5055,7 +5055,7 @@ The Provenance resource contains information for assessing authenticity, enablin
 
 </table>
 
-## Parameters
+### Parameters
 
 
 
@@ -5099,7 +5099,7 @@ The Provenance resource contains information for assessing authenticity, enablin
 </table>
 
 
-## Supported Searches
+### Supported Searches
 
 
 
@@ -5112,7 +5112,7 @@ The Provenance resource contains information for assessing authenticity, enablin
 </table>
 
 
-## Request
+### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
@@ -5124,7 +5124,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 ```
 {{% /pre %}}
 
-## Response
+### Response
 
 {{% pre language="json" theme="RDark" %}}
 ```
@@ -5164,7 +5164,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 ```
 {{% /pre %}}
 
-## Error Handling
+### Error Handling
 
 
 
@@ -5204,7 +5204,7 @@ Permission Denied</td>
 </table>
 
 
-## Product Information
+### Product Information
 
 **Product:** WebChart EHR
 **Version:** 8.4
