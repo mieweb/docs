@@ -483,7 +483,7 @@ links:
   - 'functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
   - 'functions/system-administration/system-controls/merge-manager-tab.md'
   - 'functions/system-administration/system-controls/med-web-ssl-certificate-authority.md'
-  - 'https://drive.google.com/open?id=1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
+  - 'functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md'
   - 'functions/system-administration/data-migration.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
   - 'functions/system-administration/data-migration/data-migration-file-format-standard.md'
@@ -1255,7 +1255,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
          * [Merging Accounts/Charts in System](functions/system-administration/system-controls/merging-accounts-charts-in-system.md)
          * [Merge Manager Tab](functions/system-administration/system-controls/merge-manager-tab.md)
          * [Med-Web SSL Certificate Authority](functions/system-administration/system-controls/med-web-ssl-certificate-authority.md)
-         * [Scheduled Jobs](https://drive.google.com/open?id=1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0)
+         * [Scheduled Jobs](functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md)
 
       * [Data Migration](functions/system-administration/data-migration.md)
 
