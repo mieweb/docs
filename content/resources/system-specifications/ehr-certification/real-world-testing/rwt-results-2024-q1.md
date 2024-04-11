@@ -1,9 +1,9 @@
 ---
 id: '1xnyGBL0Nm-Vn1FITDPInu_7iNpmZ3To9-wRFBzwKxUI'
 title: 'RWT Results 2024 Q1'
-date: '2024-02-19T20:06:29.285Z'
-version: 15
-lastAuthor: 'Nicole Richardson'
+date: '2024-03-13T18:17:30.065Z'
+version: 26
+lastAuthor: 'Nick Wallace'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -2049,11 +2049,80 @@ We have automated tests that perform the scenarios to Register a patient, admit 
 
 #### Results
 
-Results
+Patient Admission
+
+MSH|^~\&|WEBCHART|TESTONC^1231231234^NPI|||{run_datetime_unformatted}||ADT^A01^ADT_A01|{dsd}|P|2.5.1|||AL|AL|||||PH_SS-Ack^SS Sender^2.16.840.1.114222.4.10.3^ISO  
+EVN||{run_datetime_unformatted}|||||TESTONC^1231231234^NPI  
+PID|1||10019^^^MIE&Globally Expose This!&ISO^MR||~^^^^^^S|||M||2106-3^White^CDCREC|2300 Commonwealth Avenue^^Fort Wayne^IN^46804^US^^^Allen|||||||||||2186-5^Not Hispanic or Latino^CDCREC||||||||  
+PV1|1|E|^^^TESTONC||||8^Selenium^Selenium||||||||||||197^^^WebChart Testing System&197&GUID^VN|||||||||||||||||||||||||20220306091500||||||||  
+PV2|||^It hurts||||||||||||||||||||||||||||||||||  
+OBX|1|CWE|SS003^FACILITY / VISIT TYPE^PHINQUESTION||261QU0200X^Urgent Care^HCPTNUCC^^^^^^OFFICE||||||F|||20220306|||||||||||  
+OBX|2|NM|21612-7^Age at Time Patient Reported^LN||67|a^YEAR^UCUM|||||F|||20220306|||||||||||  
+OBX|3|TX|8661-1^CHIEF COMPLAINT:FIND:PT:PATIENT:NOM:REPORTED^LN||It hurts||||||F|||20220306|||||||||||  
+OBX|4|NM|8302-2^Height^LN||71|[in_us]^inch^UCUM|||||F||||||||||||||  
+OBX|5|NM|3141-9^Weight^LN||190|[lb_av]^pound^UCUM|||||F||||||||||||||  
+OBX|6|CWE|72166-2^Tobacco Smoking Status^LN||^Former Smoker^SCT||||||F|||20220306|||||||||||  
+DG1|1||I48.91^Atrial fibrillation^10|||F|||||||||||||  
+DG1|2||I50.814^CHF - Congestive heart failure^10|||F|||||||||||||  
+DG1|3||I10^Hypertension^10|||F|||||||||||||  
+IN1|1|2|MCARE|Medicare |^^^AL||||||Retired|19801101|||Medicare |Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||111-11-1111-B|||||||M||||||  
+IN1|2|3|2|AARP|601 E Street NW^^Washington^DC||||||Retired|19790101|||AARP|Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||A0652915|||||||M||||||  
+  
+Discharge of care
+
+MSH|^~\&|WEBCHART|TESTONC^1231231234^NPI|||{run_datetime_unformatted}||ADT^A03^ADT_A03|{dsd}|P|2.5.1|||AL|AL|||||PH_SS-Ack^SS Sender^2.16.840.1.114222.4.10.3^ISO  
+EVN||{run_datetime_unformatted}|||||TESTONC^1231231234^NPI  
+PID|1||10019^^^MIE&Globally Expose This!&ISO^MR||~^^^^^^S|||M||2106-3^White^CDCREC|2300 Commonwealth Avenue^^Fort Wayne^IN^46804^US^^^Allen|||||||||||2186-5^Not Hispanic or Latino^CDCREC||||||||  
+PV1|1|E|^^^TESTONC||||8^Selenium^Selenium||||||||||||197^^^WebChart Testing System&197&GUID^VN|||||||||||||||||||||||||20220306091500|{run_datetime_unformatted}|||||||  
+PV2|||^It hurts||||||||||||||||||||||||||||||||||  
+DG1|1||I48.91^Atrial fibrillation^10|||F|||||||||||||  
+DG1|2||I50.814^CHF - Congestive heart failure^10|||F|||||||||||||  
+DG1|3||I10^Hypertension^10|||F|||||||||||||  
+OBX|1|CWE|SS003^FACILITY / VISIT TYPE^PHINQUESTION||261QU0200X^Urgent Care^HCPTNUCC^^^^^^OFFICE||||||F|||20220306|||||||||||  
+OBX|2|NM|21612-7^Age at Time Patient Reported^LN||67|a^YEAR^UCUM|||||F|||20220306|||||||||||  
+OBX|3|TX|8661-1^CHIEF COMPLAINT:FIND:PT:PATIENT:NOM:REPORTED^LN||It hurts||||||F|||20220306|||||||||||  
+OBX|4|NM|8302-2^Height^LN||71|[in_us]^inch^UCUM|||||F||||||||||||||  
+OBX|5|NM|3141-9^Weight^LN||190|[lb_av]^pound^UCUM|||||F||||||||||||||  
+OBX|6|CWE|72166-2^Tobacco Smoking Status^LN||^Former Smoker^SCT||||||F|||20220306|||||||||||  
+IN1|1|2|MCARE|Medicare |^^^AL||||||Retired|19801101|||Medicare |Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||111-11-1111-B|||||||M||||||  
+IN1|2|3|2|AARP|601 E Street NW^^Washington^DC||||||Retired|19790101|||AARP|Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||A0652915|||||||M||||||  
+  
+New Registration
+
+MSH|^~\&|WEBCHART|TESTONC^1231231234^NPI|||{run_datetime_unformatted}||ADT^A04^ADT_A04|{dsd}|P|2.5.1|||AL|AL|||||PH_SS-Ack^SS Sender^2.16.840.1.114222.4.10.3^ISO  
+EVN||{run_datetime_unformatted}|||||TESTONC^1231231234^NPI  
+PID|1||10019^^^MIE&Globally Expose This!&ISO^MR||~^^^^^^S|||M||2106-3^White^CDCREC|2300 Commonwealth Avenue^^Fort Wayne^IN^46804^US^^^Allen|||||||||||2186-5^Not Hispanic or Latino^CDCREC||||||||  
+PV1|1|E|^^^TESTONC||||8^Selenium^Selenium||||||||||||197^^^WebChart Testing System&197&GUID^VN|||||||||||||||||||||||||20220306091500||||||||  
+OBX|1|CWE|SS003^FACILITY / VISIT TYPE^PHINQUESTION||1021-5^Inpatient practice setting^HSLOC^^^^^^OFFICE||||||F|||20220306|||||||||||  
+OBX|2|CWE|56816-2^PATIENT LOCATION^LN||6302 Constitution Drive^^Fort Wayne^IN^46804^US||||||F|||20220306|||||||||||  
+OBX|3|NM|21612-7^Age at Time Patient Reported^LN||67|a^YEAR^UCUM|||||F|||20220306|||||||||||  
+OBX|4|TX|8661-1^CHIEF COMPLAINT:FIND:PT:PATIENT:NOM:REPORTED^LN||It hurts||||||F|||20220306|||||||||||  
+OBX|5|NM|8302-2^Height^LN||71|[in_us]^inch^UCUM|||||F||||||||||||||  
+OBX|6|NM|3141-9^Weight^LN||190|[lb_av]^pound^UCUM|||||F||||||||||||||  
+OBX|7|CWE|72166-2^Tobacco Smoking Status^LN||^Former Smoker^SCT||||||F|||20220306|||||||||||  
+DG1|1||I48.91^Atrial fibrillation^10|||F|||||||||||||  
+DG1|2||I50.814^CHF - Congestive heart failure^10|||F|||||||||||||  
+DG1|3||I10^Hypertension^10|||F|||||||||||||  
+IN1|1|2|MCARE|Medicare |^^^AL||||||Retired|19801101|||Medicare |Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||111-11-1111-B|||||||M||||||  
+IN1|2|3|2|AARP|601 E Street NW^^Washington^DC||||||Retired|19790101|||AARP|Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||A0652915|||||||M||||||  
+  
+Demographic Updates  
+  
+
 
 #### Discussion
 
-Discussion
+Variables
+
+* {run_datetime_unformatted}
+
+   * Date time the message was created in HL7 format, YYYYMMDDHHMMSS
+
+* {dsd}
+
+   * Unique Message Control ID
+
+
 
 
 ## Schedule of Key Milestones
