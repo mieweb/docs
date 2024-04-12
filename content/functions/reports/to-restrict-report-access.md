@@ -1,8 +1,8 @@
 ---
 id: '1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg'
 title: 'To Restrict Report Access'
-date: '2024-04-11T18:22:34.802Z'
-version: 141
+date: '2024-04-12T11:22:54.491Z'
+version: 148
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -14,6 +14,7 @@ System Reports can be accessed, restricted to only allowed users or allowed depa
 
 Menu Items can be accessed, restricted to only allowed users or allowed departments, and managed by admins who have security permission to Manage Menu (Yes).
 ![](../to-restrict-report-access.assets/d09bc9c84cf849ffb19f654b9744f894.png)
+
 If a report is restricted, it is configured to permit only allowed users and/or allowed departments of users the permission to run/access restricted reports.
 
 
@@ -34,7 +35,7 @@ In this guide, we will be restricting down the Sharps Log to be only allowed to 
 
 Once the system report has been located, click the **Edit** link found to the right, under the Options column. If the option is not available, ensure the admin has Add/Edit permission to Manage System Reports security.
 
-![](../to-restrict-report-access.assets/8dd59bee211368f8385e71f9fe9f8135.png)
+![](../to-restrict-report-access.assets/45e5bad96f33cdcd4fc70bf2d4bd1aaa.png)
 
 Once in edit mode on the system report, the system report SQL/HTML coding will display in black area, and you need to scroll down to the bottom/end of the system report.
 
@@ -77,6 +78,7 @@ Some reports are configured to appear as Menu Item tabs within the product.
 Thus, the menu item tab can be restricted, instead of the actual system report itself.
 
 ![](../to-restrict-report-access.assets/d09bc9c84cf849ffb19f654b9744f894.png)
+
 Admins with security permission to Manage Menu, can go in the Control Panel, navigate to the **Menu Editor** hyperlink in the list, or click on the **System** tab to select **Menu Editor** sub-tab.
 ![](../to-restrict-report-access.assets/e86623b483bf8ad1cdd307fbeef2efe5.png)
 
