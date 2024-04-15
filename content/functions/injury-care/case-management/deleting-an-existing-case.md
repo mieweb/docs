@@ -8,22 +8,24 @@ mimeType: 'text/x-markdown'
 links:
   - 'closing-an-existing-case.md'
 source: 'https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Cases
 
 A Case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
-![](../deleting-an-existing-case.assets/d3b10ccf15d72457b237ed4897aa1d57.png)
 
+![](../deleting-an-existing-case.assets/d3b10ccf15d72457b237ed4897aa1d57.png)
 
 ### Deleting a Case from a Dynamic Encounter
 
-Typically a case would be deleted only if it was keyed in entirely incorrectly or on the wrong patient's chart.  To delete a case in a chart, one must have security permission to delete cases.  
-The dynamic encounters offer a Case section.  To see the listing of cases/incidents a chart has while working in an encounter, you must expand the Case section in the encounter.  
+Typically a case would be deleted only if it was keyed in entirely incorrectly or on the wrong patient's chart.  To delete a case in a chart, one must have security permission to delete cases.
+
+The dynamic encounters offer a Case section.  To see the listing of cases/incidents a chart has while working in an encounter, you must expand the Case section in the encounter.
 
 ![](../deleting-an-existing-case.assets/53634e10054f1002bb6009bf2c547b91.png)
 
-When expanded, the Case section lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient. From this listing of cases, in the options column you can close a case.  
+When expanded, the Case section lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient. From this listing of cases, in the options column you can close a case.
+
 Closing a case is different than deleting a case.  To close a case, please refer to [Cases-Closing an Existing Case](closing-an-existing-case.md) help documentation.
 
 ![](../deleting-an-existing-case.assets/18921c2387fcc7f02fc8d1f87c2badfc.png)
@@ -69,4 +71,3 @@ The case deleted will display in the list view with a strikethrough.
 ![](../deleting-an-existing-case.assets/55b24f96c996c442d1f7191fd81a635d.png)
 
 Once the Case chart tab is refreshed, or you exit out of the tab, the system will remove the case from the chart record.  When entering back into the Cases chart tab, deleted cases will not be displayed.
-

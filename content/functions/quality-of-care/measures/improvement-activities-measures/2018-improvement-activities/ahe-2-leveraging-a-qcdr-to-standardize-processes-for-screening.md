@@ -10,30 +10,25 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=198p0hKvAsQuP1TewGw6uj4mIQH2xIXLAWTBnw65E3e0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Achieving Health Equity
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Achieving Health Equity  
 **Description**: Participation in a QCDR, demonstrating performance of activities for use of standardized processes for screening for social determinants of health such as food security, employment and housing. Use of supporting tools that can be incorporated into the certified EHR technology is also suggested.
-
-
-
 
 Supporting Documentation
 
 1. QCDR for Standardizing Screening Processes - Participation in QCDR for standardizing screening processes for social determinants, e.g., regular feedback reports from QCDR showing screening practices for social determinants; and
 2. Integration of Tools into Certified EHR (suggested) - Integration of one or more of the following tools into practice as part of the EHR, e.g., http://www.cdc.gov/socialdeterminants/tools/index.htm showing regular referral to one or more of these tools
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

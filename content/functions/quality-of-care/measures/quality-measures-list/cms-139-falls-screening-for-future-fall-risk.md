@@ -14,16 +14,17 @@ links:
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf'
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf'
 source: 'https://drive.google.com/open?id=1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS139v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v8&showresulttype=Measure) (2020)  
-[CMS139v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v9&showresulttype=Measure) (2021)  
+[CMS139v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v8&showresulttype=Measure) (2020)
+
+[CMS139v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v9&showresulttype=Measure) (2021)
+
 [CMS139v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -38,12 +39,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0101</td>
 <td>318</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -74,12 +74,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -102,23 +99,16 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Patient Safety</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
 
-Ensure all 65+ year-old patients are screened for future fall risk, at least once within the measurement period. Use the Test and Procedures section of the encounter to order and perform the Fall Risk Screening. 
+Ensure all 65+ year-old patients are screened for future fall risk, at least once within the measurement period. Use the Test and Procedures section of the encounter to order and perform the Fall Risk Screening.
 
 {{% note %}}
 Each system/database will need a [Fall Risk Screening order and flowsheet created](../../../order-and-result-management/flowsheets-editor.md), in order to result the findings in the Tests and Procedures section of the encounter. The flowsheet must be configured with the Fall Risk Performed LOIN-C 73830-2.
@@ -134,12 +124,9 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 6. Continue documenting the encounter, as needed.
 7. When completed, Close and Archive the encounter.
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -198,12 +185,9 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -222,12 +206,9 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -238,12 +219,12 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 <td>Assessment, Performed: Falls Screening</td>
 <td>2.16.840.1.113883.3.464.1003.118.12.1028</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 
 [eCQI CMS139](https://ecqi.healthit.gov/ecqm/ep/2022/cms139v10)
+
 [Fall Risk Checklist](https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf)
+
 [Fall Risk Algorithm](https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf)

@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10'
 source: 'https://drive.google.com/open?id=1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS145v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v8&showresulttype=Measure) (2020)  
-[CMS145v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v9&showresulttype=Measure) (2021)  
+[CMS145v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v8&showresulttype=Measure) (2020)
+
+[CMS145v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v9&showresulttype=Measure) (2021)
+
 [CMS145v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0070</td>
 <td>007</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -69,14 +69,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Documentation of medical reason(s) for not prescribing beta-blocker therapy (e.g., allergy, intolerance, other medical reasons).</p></li><li><p>Documentation of patient reason(s) for not prescribing beta-blocker therapy (e.g., patient declined, other patient reasons).</p></li><li><p>Documentation of system reason(s) for not prescribing beta-blocker therapy (e.g., other reasons attributable to the health care system).</p></li></ul></td>
+<td><ul><li>Documentation of medical reason(s) for not prescribing beta-blocker therapy (e.g., allergy, intolerance, other medical reasons).</li><li>Documentation of patient reason(s) for not prescribing beta-blocker therapy (e.g., patient declined, other patient reasons).</li><li>Documentation of system reason(s) for not prescribing beta-blocker therapy (e.g., other reasons attributable to the health care system).</li></ul></td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -89,9 +86,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Rate Aggregation</strong></td>
-<td>Population 1: Patients with left ventricular systolic dysfunction (LVEF <40%)
-Population 2: Patients with a prior (within the past 3 years) myocardial infarction
-
+<td>Population 1: Patients with left ventricular systolic dysfunction (LVEF <40%)<br />
+Population 2: Patients with a prior (within the past 3 years) myocardial infarction<br />
+<br />
 Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Exceptions 1) + (Denominator 2 - Denominator Exceptions 2)]</td>
 </tr>
 <tr>
@@ -106,18 +103,11 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -125,20 +115,13 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month period of the diagnosis of coronary artery disease with prior myocardial infarction (MI) or a current or prior LVEF < 40%.
 
 1. Ensure patient has one of the following diagnoses:
-
-
-   1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
-   2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
-
-
+    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
+    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
 2. Numerator will be populated with patients prescribed a beta-blocker therapy within the measure period.
-
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -173,12 +156,9 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 <td>Encounter, Performed: Patient Provider Interaction</td>
 <td>2.16.840.1.113883.3.526.3.1012</td>
 </tr>
-
 </table>
 
-
 ### Denominator
-
 
 <table>
 <tr>
@@ -201,12 +181,9 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 <td>Diagnostic Study, Performed: Ejection Fraction</td>
 <td>2.16.840.1.113883.3.526.3.1134</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -221,12 +198,9 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 <td>Medication, Active: Beta Blocker Therapy for LVSD</td>
 <td>2.16.840.1.113883.3.526.3.1184</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exceptions
-
 
 <table>
 <tr>
@@ -285,9 +259,7 @@ Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month pe
 <td>Procedure, Performed: Cardiac Surgery</td>
 <td>2.16.840.1.113883.3.526.3.371</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

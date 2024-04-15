@@ -13,7 +13,7 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1l64IjN7y0I0QHoM7e8hyy80El5GBEv4DC_WN8zFGt1Q'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The Ifs, Ands, and Buts About It
 
@@ -34,7 +34,6 @@ For [eligible clinicians](https://qpp.cms.gov/learn/eligibility), all is not los
 ### Test Participation
 
 Submit **ONE** (1) of the following:
-
 <table>
 <tr>
 <td><strong>Category</strong></td>
@@ -48,15 +47,15 @@ Submit **ONE** (1) of the following:
 <td>Four (4) Required Measures of Base Score <strong>*</strong></td>
 <td>One (1) Improvement Activity (High or Med)</td>
 </tr>
-
 </table>
-* The required Advancing Care Information (ACI) Base Score measure set is determined by the electronic health record (EHR) edition certification.  
+
+* The required Advancing Care Information (ACI) Base Score measure set is determined by the electronic health record (EHR) edition certification.
+
 For more information, review the ACI [Fact Sheet](https://qpp.cms.gov/docs/QPP_ACI_Fact_Sheet.pdf) or [QPP webpage](https://qpp.cms.gov/measures/aci)
 
 ### Partial- or Full-Year Participation
 
 To potentially earn a positive adjustment, or even a maximum adjustment, submit 90 days or a full year of 2017 data to Medicare. Because MIPS payment adjustments are based on the *quality of data* submitted, clinicians could earn the maximum adjustment with this track. Submitting all of the following requirements, with substantial quality data, can amount to a modest to maximum payment adjustment.
-
 <table>
 <tr>
 <td><strong>Category</strong></td>
@@ -70,13 +69,14 @@ To potentially earn a positive adjustment, or even a maximum adjustment, submit 
 <td>Base Score + add'l measures to increase Performance Score</td>
 <td>2 High or 1 High & 2 Med or 4+ Med</td>
 </tr>
-
 </table>
+
 * Partial and Full participation requires that no fewer than six (6) Quality measures be submitted, of which, one (1) must be an Outcome measure, which is defined as a high-priority measure, appropriate-use measure, patient safety, efficiency measures, or care coordination.
 
 ## Data Submissions
 
-Don't forget, MIE is a certified Data Submission Vendor, capable of submitting quality performance data on behalf of enrolled providers. MIE does not automatically enroll providers into incentive programs (including previous participants). Therefore, to participate, simply fill out a 2017 Quality Data Submission Authorization and Agreement. This must be on file for each provider interested in submitting their quality performance data through MIE.  
+Don't forget, MIE is a certified Data Submission Vendor, capable of submitting quality performance data on behalf of enrolled providers. MIE does not automatically enroll providers into incentive programs (including previous participants). Therefore, to participate, simply fill out a 2017 Quality Data Submission Authorization and Agreement. This must be on file for each provider interested in submitting their quality performance data through MIE.
+
 We understand how important this is, so we have our Project Manager available to walk you through the enrollment process and work closely with your practice administrator(s) to prepare for data submission. Questions and concerns regarding MIPS, the enrollment process, and participation, or any completed Enrollment Agreements/Authorizations can be emailed to Theresa Juillerat, at [tjuillerat@mieweb.com](mailto:tjuillerat@mieweb.com).
 
 ## Questions

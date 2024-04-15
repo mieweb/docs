@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10'
 source: 'https://drive.google.com/open?id=1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS50v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v8&showresulttype=Measure) (2020)  
-[CMS50v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v9&showresulttype=Measure) (2021)  
+[CMS50v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v8&showresulttype=Measure) (2020)
+
+[CMS50v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v9&showresulttype=Measure) (2021)
+
 [CMS50v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>374</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -99,9 +96,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Communication and Care Coordination</td>
 </tr>
-
 </table>
-
 
 ## Clinical Instructions
 
@@ -109,19 +104,19 @@ Ensure the system is configured to order, track, and archive referrals appropria
 
 ### Workflow
 
-In an encounter  
-Open Visit orders section  
-Make referral order  
+In an encounter
+
+Open Visit orders section
+
+Make referral order
+
 Refer to outside provider
 
-
-
-1. While documenting the Visit Encounter, use the Visit Orders to create a Referral.
-
-{{% note %}}
-   * The out-of-the-box referral order document type (ORDREF) needs to be saved with LOINC 47045-0.
-   * The Ordering Provider field must be the performing provider (i.e., not the nurse, MA, or staff) in order for the performing provider to satisfy the measure.  
-   * All referral orders created for a patient during the reporting period must be Completed in order for the patient to count in the numerator.
+1. While documenting the Visit Encounter, use the Visit Orders to create a Referral.  
+    {{% note %}}
+    * The out-of-the-box referral order document type (ORDREF) needs to be saved with LOINC 47045-0.
+    * The Ordering Provider field must be the performing provider (i.e., not the nurse, MA, or staff) in order for the performing provider to satisfy the measure.
+    * All referral orders created for a patient during the reporting period must be Completed in order for the patient to count in the numerator.
 
 {{% /note %}}
 
@@ -130,24 +125,19 @@ Refer to outside provider
 4. Click Submit.
 5. Continue documenting the encounter as needed.
 6. When completed, Close and Archive the encounter.
-7. <strong>When the Referral Report is returned to the office</strong>, ensure the document is scanned and indexed into the system correctly, and complete the referral order.
-
-{{% note %}}
-   * The referral order and the received consult note will need to be linked in order to satisfy the measure. This can be done during indexing; otherwise, linking can be done manually, from the Open Orders screen, when completing orders.
-
-      * Order request chart tab click complete in options column of the pending referral order, complete order with linked doc_id
-
-   * The consult note document type (e.g., CONSNOTE) needs to be saved with LOINC 34140-4.
-   * The consult note needs to be received after the referral order is created.
-   * The consult report cannot be from the same provider that sent the referral order.
+7. <strong>When the Referral Report is returned to the office</strong>, ensure the document is scanned and indexed into the system correctly, and complete the referral order.  
+    {{% note %}}
+    * The referral order and the received consult note will need to be linked in order to satisfy the measure. This can be done during indexing; otherwise, linking can be done manually, from the Open Orders screen, when completing orders.
+        * Order request chart tab click complete in options column of the pending referral order, complete order with linked doc_id
+    * The consult note document type (e.g., CONSNOTE) needs to be saved with LOINC 34140-4.
+    * The consult note needs to be received after the referral order is created.
+    * The consult report cannot be from the same provider that sent the referral order.
 
 {{% /note %}}
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -186,12 +176,9 @@ Refer to outside provider
 <td>Intervention, Performed: Referral</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1046</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -202,9 +189,7 @@ Refer to outside provider
 <td>Communication, Performed: Consultant Report</td>
 <td>2.16.840.1.113883.3.464.1003.121.12.1006</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

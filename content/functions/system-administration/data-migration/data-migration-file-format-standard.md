@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 This is an overview of what MIE expects from data files that are received from clients for data migration. Because it is time consuming and often unreliable to find and fix any problems with these files, MIE will return to the client any files that do not meet the following requirements.
 
@@ -23,13 +23,11 @@ Comma separated values (CSV) files have each datum separated by a delimiter (tra
 * The file should be encoded in UTF-8, or another unicode format (UTF-16 or UTF-32). UTF-8 is preferred; however, other formats are possible, if mutually agreeable.
 * The name of the file should be the name of the table with the extension, if any. For example, if a table named myTable was exported, the CSV file should be called myTable.csv, or myTable.dat and myTable.txt are also acceptable.
 
-
 ### Common problems
 
 The following sections show some common errors, with examples of how they should be addressed.
 
 #### Delimiter character is not enclosed
-
 
 ```
 
@@ -38,8 +36,6 @@ The following sections show some common errors, with examples of how they should
 ```
 
 * The above example has a problem, because the delimiter (comma) is also used within one of the data fields (i.e., This string has a comma<strong>,</strong> but it isn't enclosed). The field needs to be enclosed, to indicate where the string is intended to end. Otherwise, it will be split into two fields when trying to load the data.
-
-
 ```
 
 
@@ -50,9 +46,7 @@ The following sections show some common errors, with examples of how they should
 
 * Enclosing the data field indicates that the enclosed delimiter is not the end of the field.
 
-
 #### Enclosed quote character is not escaped
-
 
 ```
 
@@ -62,9 +56,6 @@ The following sections show some common errors, with examples of how they should
 ```
 
 * This example has a problem, because the enclosure character (apostrophe) is used within the string (i.e., isn<strong>'</strong>t) and the apostrophe is not escaped like it needs to be.
-
-
-
 ```
 
 12345,2015-03-03,'This time the string is enclosed, but the apostrophe isn''t escaped, which could be nasty.',O'Reilly
@@ -74,9 +65,8 @@ The following sections show some common errors, with examples of how they should
 
 * Because the delimiter is an apostrophe and the string contains an apostrophe, the delimiter character within the string will need to be escaped. The string is now enclosed, and the apostrophe within the string has been escaped, (e.g., 'This time the string is enclosed, but the apostrophe isn''t escaped, which could be nasty'). Because the string <em>O'Reilly</em> is not enclosed with apostrophes, the apostrophe does not need to be escaped. 
 
-
-{{% tip %}}  
-A backslash ( \ ) can also be used to escape, as needed (e.g., 'isn''t' could also have been escaped like this: 'isn\'t').  
+{{% tip %}}
+A backslash ( \ ) can also be used to escape, as needed (e.g., 'isn''t' could also have been escaped like this: 'isn\'t').
 {{% /tip %}}
 
 ### Exporting to CSV
@@ -99,7 +89,6 @@ In a workbook that has multiple worksheets, each worksheet will need to be expor
 6. In the box that pops up, click <strong>OK</strong>.
 7. In the next box, click <strong>Yes</strong>.
 
-
 #### Microsoft Access
 
 The following steps are used to export an Access table as a Unicode CSV file:
@@ -108,9 +97,7 @@ The following steps are used to export an Access table as a Unicode CSV file:
 2. Click the <strong>External Data</strong> tab.
 3. In the <strong>Exports</strong> section, click <strong>Text File</strong>.
 4. In the export wizard, enter the file name.
-
-   1. Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
-
+    1. Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
 5. Click <strong>OK</strong>.
 6. Select <strong>Delimited</strong>.
 7. Click <strong>Next</strong>.

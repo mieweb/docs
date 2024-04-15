@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms002v11'
 source: 'https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS2v9](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v9&showresulttype=Measure&module=&tabmodule=) (2020)  
-[CMS2v10](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v10&showresulttype=Measure&module=&tabmodule=&searchterm=CMS2) (2021)  
+[CMS2v9](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v9&showresulttype=Measure&module=&tabmodule=) (2020)
+
+[CMS2v10](https://medicalcodify.com/eh/webchart.cgi?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v10&showresulttype=Measure&module=&tabmodule=&searchterm=CMS2) (2021)
+
 [CMS2v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>134</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -65,23 +65,18 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
-<td>Patient Reason(s)
-<ul><li><p>Patient refuses to participate</p></li></ul>  
-OR
-Medical Reason(s)
-<ul><li><p>Documentation of medical reason for not screening patient for depression (e.g., cognitive, functional, or motivational limitations that may impact accuracy of results</p></li><li><p>Patient is in an urgent or emergent situation where time is of the essence and to delay treatment would jeopardize the patient's health status)</p></li></ul></td>
+<td>Patient Reason(s)<br />
+<ul><li>Patient refuses to participate</li></ul>OR<br />
+Medical Reason(s)<br />
+<ul><li>Documentation of medical reason for not screening patient for depression (e.g., cognitive, functional, or motivational limitations that may impact accuracy of results</li><li>Patient is in an urgent or emergent situation where time is of the essence and to delay treatment would jeopardize the patient's health status)</li></ul></td>
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
-
 
 <table>
 <tr>
@@ -104,10 +99,7 @@ Medical Reason(s)
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
@@ -115,67 +107,49 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 
 ### Preferred Workflow
 
-
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Preventive Care section
 3. Add the Depression Screening to the exam
-
-   1. For patients under 18, use the Adolescent Depression Screening
-   2. For patients 18+, use the Adult Depression Screening
-
+    1. For patients under 18, use the Adolescent Depression Screening
+    2. For patients 18+, use the Adult Depression Screening
 4. Click Add to Exam
 5. Open the Depression Screening section
 6. Complete the questions
 7. Close the section
 8. If the PHQ9 Calculation in the Depression Screening indicates the patient is positive for depression, order depression follow-up
+    1. Open the Preventive Care section
+    2. Open the Depression Follow-up picklist
+    3. Order the appropriate follow-up items(s) for the patient
 
-   1. Open the Preventive Care section
-   2. Open the Depression Follow-up picklist
-   3. Order the appropriate follow-up items(s) for the patient
+OR
 
-
-   OR
-
-
-   4. E-prescribe an antidepressant medication
-
-10. Continue documenting the encounter, as appropriate
-11. When completed, Close and Archive the encounter
-
+    4. E-prescribe an antidepressant medication
+9. Continue documenting the encounter, as appropriate
+10. When completed, Close and Archive the encounter
 
 ### Alternate Workflow
-
 
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Tests and Procedures section
 3. Search for Depression Screening in the autocomplete
-
-   1. For patients under 18, use the Adolescent Depression Screening
-   2. For patients 18+, use the Adult Depression Screening
-
+    1. For patients under 18, use the Adolescent Depression Screening
+    2. For patients 18+, use the Adult Depression Screening
 4. Click Add to Exam
 5. Open the Depression Screening section
 6. Complete the questions
 7. Close the section
 8. If the PHQ9 Calculation in the Depression Screening indicates the patient is positive for depression, order depression follow-up
+    1. Order the appropriate follow-up items(s) for the patient
 
-   1. Order the appropriate follow-up items(s) for the patient
+OR
 
-
-   OR
-
-
-   2. E-prescribe an antidepressant medication
-
-10. Continue documenting the encounter, as appropriate
-11. When completed, Close and Archive the encounter
-
+    2. E-prescribe an antidepressant medication
+9. Continue documenting the encounter, as appropriate
+10. When completed, Close and Archive the encounter
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -190,12 +164,9 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 <td>Encounter, Performed: Physical Therapy Evaluation</td>
 <td>2.16.840.1.113883.3.526.3.1022</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -210,12 +181,9 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 <td>Diagnosis: Depression Diagnosis</td>
 <td>2.16.840.1.113883.3.600.145</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -254,12 +222,9 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 <td>Medication, Order: Adult Depression Medications</td>
 <td>2.16.840.1.113883.3.526.3.1566</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exceptions
-
 
 <table>
 <tr>
@@ -274,9 +239,7 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 <td>Assessment, Not Performed: Adult depression screening assessment</td>
 <td>LOINC Code 73832-8</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

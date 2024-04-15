@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs'
   - 'indexing.md'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The  {{% system-name %}} system has integrated scanning functionality designed to streamline all scanning and indexing needs. The following information provides a basic introduction to these scanning and indexing capabilities, along with details on how to access and utilize these features.
 
@@ -23,9 +23,13 @@ Scanning to and appending a batch is currently supported in Internet Explorer br
 {{% /note %}}
 
 To begin using the WebScan capabilities, first click the [WebScan](https://system/?f=miewebscan) sidemenu option.
+
 Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *checked-in* batches shown below, in the list view. Checked-in batches are simply batches of scanned documents that need indexed into the appropriate charts.
+
 ![](../scanning.assets/8d986ebaa4d76ccc9130774bb4b89e30.png)
+
 To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs) link found in the upper-right corner of the screen. Once clicked, a new window will open. Here, users may scan and index documents, accordingly.
+
 ![](../scanning.assets/76f70933e1490012553bf9748633510f.png)
 
 1. Align and insert the document(s) into the scanner tray according to the scanner specifications. Scanning can be done in portrait or landscape orientation.
@@ -34,31 +38,29 @@ To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=
 4. If any comments need to be associated with a batch, simply type them into the <strong>Comments</strong> field, as necessary.
 5. To review and ensure the scanner settings and preferences are enabled, click the <strong>Settings</strong> button. Users may change these settings, as needed. For instance, barcodes on form documents will be read regardless of page orientation if the <em>Auto-Rotate to Find Barcodes</em> preference is set to <strong>Yes</strong>.
 
+![](../scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
 
-   ![](../scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
+    1. <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
+    2. <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can set per page by simply changing the preference for each page being scanned.
 
-
-
-   1. <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
-   2. <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can set per page by simply changing the preference for each page being scanned.
-
-
-
-
-7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Select Scanner</strong> button and viewing the listed scanner is correct and highlighted for use.
-8. When ready, click the <strong>Scan Image</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan Image button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
-9. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong>buttons, users may view the documents of the batch.
+6. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Select Scanner</strong> button and viewing the listed scanner is correct and highlighted for use.
+7. When ready, click the <strong>Scan Image</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan Image button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
+8. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong>buttons, users may view the documents of the batch.
 
 ![](../scanning.assets/ef2747e2856502c3a8482de921c6a089.png)
 
 ### Hotkeys in WebScan
 
 Users may use hotkeys for certain functions within WebScan. To see the list of available hotkeys for WebScan, click the help bubble (encircled question mark) next to the Close button.
+
 ![](../scanning.assets/3d176238083c3c6ec78978e340031f34.png)
 
 **Acquire** ([Ctrl] + a): Performs the same function as the Scan Image button on the toolbar.
+
 **Upload & Index** ([Ctrl] + i): Performs the same function as the Upload & Index button on the toolbar.
+
 **Upload** ([Ctrl] + u): Performs the same function as the Upload button on the toolbar.
+
 **Delete** ([Delete]): Perform the same function as the Delete Page button on the toolbar.
 
 ## Editing Scanned Batches
@@ -70,7 +72,9 @@ Indexing can be done immediately following scanning, or saved for a later time.
 {{% /info %}}
 
 **Move Left** or **Move Right**: Users can use the Move Left or Move Right button to rearrange the pages of a batch. After using the Prev and Next buttons to navigate through the pages, users can then use the Move Left button to place the current page being displayed ahead (i.e., to the left) of the next page. Clicking the Move Right button will place the current page after (i.e., to the right) one page.
+
 **Crop**: Users may Crop a document prior to indexing it to a chart. First, navigate to the page needing cropped, using the Prev or Next button, accordingly. To utilize the Crop feature, simply hover the mouse over the scanned image and place the cross cursor (+) at the starting point of the intended crop. Left-click and hold the mouse button, dragging the cursor over the scanned image, highlighting (in black) the area intended to be cropped and kept. Release the mouse. If the highlighted field needs redone, simply left-click the mouse again, and resize the crop field. When ready, click the **Crop** button. The area highlighted in black will be saved. After clicking the Crop button, the image will refresh, showing the cropped document in the upper-left corner. The cropped image will be stored in the chart, once uploaded. If more of the document requires cropping, simply continue by repeating the steps, above.
+
 ![](../scanning.assets/0f17c3d684f8f5b59661d4e9adb831b2.png)
 
 {{% warning %}}
@@ -78,9 +82,13 @@ Once a page has been cropped, there is not a way to retrieve the original docume
 {{% /warning %}}
 
 **Delete Page**: Clicking the Delete button will delete the scanned image being viewed. This *will not* prompt the user with a confirmation request. As soon as the Delete button is clicked, the image will be removed, immediately. If the deletion is done in error, the user will need to rescan the original document.
+
 **Replace Page**: To replace a page in a scanned batch, navigate to the page needing replaced and load the replacement document into the scanner. Once finished, click the Replace Page button. The document will be scanned into the batch, replacing the displayed document with the newly scanned document.
+
 **Insert Page**: Users may add a page to a batch, as needed. Simply navigate to the document of the batch the inserted page should follow, and load the appropriate document into the scanner. When ready, click the Insert Page button. The inserted page will be displayed in the scanned batch.
+
 **Scan Image**: When loading more than one document to a scanned batch, users will use the Scan Image button. Simply place the additional documents in the scanner tray and click the Scan Image button. The newly scanned documents will be appended to the end of the existing batch.
+
 **FileUpload**: With the FileUpload button, users have the ability to upload TIFF files and save them locally. Click the FileUpload button.
 
 {{% note %}}
@@ -102,6 +110,7 @@ With some computers, upon uploading photos, a pop-up message may display asking 
 {{% /warning %}}
 
 Users will receive a confirmation message showing the upload was successful, giving the user the batch ID number. Users can click the OK button to continue and select additional files, or click the Close button from the toolbar to quit.
+
 ![](../scanning.assets/6cde8aeccb27ed6e71f53c087e3cadde.png)
 
 ## Uploading/Closing the Batch
@@ -122,6 +131,6 @@ To upload and index the scanned documents, click the **Upload & Index** button
 
 {{% tip %}}
 If a user must index the documents at a later time, after clicking the Upload & Index button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan Checked-In queue for indexing later.
+
 ![](../scanning.assets/e4fac17daba1c45818e830f03272e7d9.png)
 {{% /tip %}}
-

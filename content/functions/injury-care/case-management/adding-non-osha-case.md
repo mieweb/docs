@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -16,10 +16,9 @@ A case is a full report of a workplace injury or an incident involving an employ
 The terms *case* and *incident* may be used interchangeably throughout the system.
 {{% /info %}}
 
-
 ## Create a New Injury Non-OSHA Case
 
-This help documentation will describe the steps for creating and documenting an Injury Non-OSHA Standard case type.   Injury (OSHA Standard) case types would be your most common selected case type, even if the injury isn't OSHA reportable.  Injury Non-OSHA case types are typically used by clients who aren't in the US and need a way to document cases/incidents but aren't under US OSHA regulations.  
+This help documentation will describe the steps for creating and documenting an Injury Non-OSHA Standard case type.   Injury (OSHA Standard) case types would be your most common selected case type, even if the injury isn't OSHA reportable.  Injury Non-OSHA case types are typically used by clients who aren't in the US and need a way to document cases/incidents but aren't under US OSHA regulations.
 
 {{% note %}}
 Your MIE Implementer can also turn on a feature that will automatically also generate a ‘Case Management' encounter when a case is created for a visit encounter.
@@ -37,7 +36,6 @@ Once the Case section is expanded, indicate which type of case to create on the 
 
 ![](../adding-non-osha-case.assets/5567dbc1b67b5a0424ca4182b15ca661.png)
 
-
 ## Injury Non-OSHA Standard Case Details
 
 After selecting to create an Injury Non-OSHA Standard case, data fields will branch open to document the injury details.
@@ -48,10 +46,9 @@ Upon documenting the radio button selection, the case section will branch open t
 
 ![](../adding-non-osha-case.assets/fe5a6fd5ec9dd785cdcb94e9c50610bd.png)
 
-
 ### Return to Work (RTW)
 
-The return to work (RTW) dates may be entered now or in later during the case management process if applicable.   
+The return to work (RTW) dates may be entered now or in later during the case management process if applicable.
 
 ![](../adding-non-osha-case.assets/421c98243091d835513abf008900ed64.png)
 
@@ -64,7 +61,6 @@ The location section displays to document where the injury occurred specifically
 If selecting Offsite Location, then the fields that branch open are required free text fields to note the offsite location details.
 
 ![](../adding-non-osha-case.assets/760555967d0cb7b4802cea42de20a51f.png)
-
 
 ### Incident Details
 
@@ -86,7 +82,6 @@ Selecting Contaminated Sharp as the nature of injury will expand 3 additional fi
 
 ![](../adding-non-osha-case.assets/a1b96810a803ddbd581a8f2ad2d694e2.png)
 
-
 ### Work Status (or Lost Time) Section
 
 Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md) help documentation for more information.
@@ -105,6 +100,6 @@ Some dynamic encounters offer an Incident Summary section.  This is an expand
 Various forms, in forms library, can be programmed to pull in case data details that were documented.  Contact your MIE Implementer if have specific forms that need generated routinely that may need case (incident) data overlaid.
 {{% /info %}}
 
-
 **Linking Documents to Cases**
+
 Documents can be linked to cases.  This can be done when in Add Document mode, via the Edit Properties of an existing stored document.  Documents can also be linked to cases when indexing a document from WebScan. Scheduled appointments can also be linked to cases when in the Add Appointment wizard.

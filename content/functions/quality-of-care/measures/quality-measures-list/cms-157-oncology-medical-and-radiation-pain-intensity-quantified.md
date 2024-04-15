@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms157v10'
 source: 'https://drive.google.com/open?id=1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS157v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure) (2020)  
-[CMS157v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure) (2021)  
+[CMS157v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure) (2020)
+
+[CMS157v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure) (2021)
+
 [CMS157v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0384</td>
 <td>143</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -89,9 +86,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Rate Aggregation</strong></td>
-<td>Population 1: Visits for patients with a diagnosis of cancer who are currently receiving chemotherapy 
-Population 2: Visits for patients with a diagnosis of cancer who are currently receiving radiation therapy
-
+<td>Population 1: Visits for patients with a diagnosis of cancer who are currently receiving chemotherapy<br />
+Population 2: Visits for patients with a diagnosis of cancer who are currently receiving radiation therapy<br />
+<br />
 Performance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)</td>
 </tr>
 <tr>
@@ -106,29 +103,18 @@ Performance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)<
 <td><strong>Domain</strong></td>
 <td>Person and Caregiver-Centered Experience and Outcomes</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
-
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -151,12 +137,9 @@ Performance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)<
 <td>Procedure, Performed: Radiation Treatment Management</td>
 <td>2.16.840.1.113883.3.526.3.1026</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -167,9 +150,7 @@ Performance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)<
 <td>Assessment, Performed: Standardized Pain Assessment Tool</td>
 <td>2.16.840.1.113883.3.526.3.1028</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

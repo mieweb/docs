@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences.
 
@@ -18,13 +18,11 @@ From the *Contro**l* left sidebar menu, find the *My Settings* tab at top. Use d
 
 ![](../my-settings.assets/025ce3b3ca6afbacfc7625975bcb82df.png)
 
-
 ## Edit Preferences For
 
-If you have security permission, you can view other user's preference settings and/or edit them. Alternatively, you can view the System Default settings or you can view specific Security Role Default settings.  
+If you have security permission, you can view other user's preference settings and/or edit them. Alternatively, you can view the System Default settings or you can view specific Security Role Default settings.
 
 ![](../my-settings.assets/270868e9e5770a7a81bfa13d9f62a8e1.png)
-
 
 ### Yourself
 
@@ -32,7 +30,7 @@ This field at the top right of My Settings defaults to you (yourself – the log
 
 ### Other User
 
-If you have security permission and want to edit preferences for another user in your system, simply select OTHER USER from the drop-down. A second field named Choose a user: will appear where you are to start typing in the name of the other user. It will auto-complete and give you choices/matches of users in your system.  
+If you have security permission and want to edit preferences for another user in your system, simply select OTHER USER from the drop-down. A second field named Choose a user: will appear where you are to start typing in the name of the other user. It will auto-complete and give you choices/matches of users in your system.
 
 ![](../my-settings.assets/ffeba9e18aa9f19c9d9a9657454c5953.png)
 
@@ -48,9 +46,12 @@ To change a system default preference as a means of applying that change in mass
 
 ![](../my-settings.assets/e056f7394efc669eb2fe94b0a435f49f.png)
 
-The specific preference field with the drop-down arrow tells you what the system default is already set to. If you need to change the ‘system default' (you are not changing it in mass for all users yet—you are just changing the system default setting) then you use the drop-down arrow to change your selection. Click the SUBMIT CHANGES button at the bottom when done. This saves that setting/preference for the system default only. This does not apply it to everyone in mass yet.  
-Once you have the system default set to what you want or it is already set to what you want all users to be changed to, then click the underlined My Setting Preference name of the one you just set.  
+The specific preference field with the drop-down arrow tells you what the system default is already set to. If you need to change the ‘system default' (you are not changing it in mass for all users yet—you are just changing the system default setting) then you use the drop-down arrow to change your selection. Click the SUBMIT CHANGES button at the bottom when done. This saves that setting/preference for the system default only. This does not apply it to everyone in mass yet.
+
+Once you have the system default set to what you want or it is already set to what you want all users to be changed to, then click the underlined My Setting Preference name of the one you just set.
+
 For instance, in this example, I want everyone in the entire {{% system-name %}} system to have preference set to Number of Recent Patients: 10. After I have the system default setting set to 10 and saved, I now need to go back in and apply this to all users in the {{% system-name %}} system. So, I click on the underlined name Number of Recent Patients setting. It then pops up a warning message on my screen that I am about to change this specific setting for all {{% system-name %}} users.
+
 ![](../my-settings.assets/bfc99a29796679549dd3af28f05e9698.png)
 
 Click the SET TO DEFAULT button to apply that setting and its value to all users in your {{% system-name %}} system or cancel to get out. You will get a confirmation message at the top stating you updated that setting for all users in your system.
@@ -65,24 +66,20 @@ If you have security permission and want to edit preferences for users tied to a
 
 ![](../my-settings.assets/74ca93bd05fd60c95f6431244f20c93e.png)
 
-Changing security role preferences and then applying them to all users within that security is the same process as above in the System Default section. Please see above section for steps on how to apply security role default preference to all users within that security role in mass.  
+Changing security role preferences and then applying them to all users within that security is the same process as above in the System Default section. Please see above section for steps on how to apply security role default preference to all users within that security role in mass.
+
 When looking at preference choices available in the drop-down:
 
 * One Asterisk denotes the preference as a Security Role default
 * Three Asterisks denotes the preference as both the Security Role and System defaults.
 
-
 ![](../my-settings.assets/df23d503b005d4feefb9a17254e70bbc.png)
-
 
 ## My Settings Descriptions of Preferences/Settings
 
-
 ### WebChart Settings
 
-
 #### User Interface
-
 
 * Color Scheme:  The miEHR setting is for the new layout look. This only affects your view since this is a preference. Custom means you are set to the "custom" color scheme your {{% system-name %}} system has set by a superuser.
 * Default Location:  Select the location the active user primarily works at, especially if the clinic/facility has more than one site.
@@ -110,44 +107,33 @@ When looking at preference choices available in the drop-down:
 * Time Zone: Use System Time Zone is default (which uses the system time zone via a universal system setting).  If you will be accessing that database from a different time zone, select your physical location time-zone.
 * WebChart Status Bar: wcstatus is a WebChart API for tracking async or long-running processes in the UI. Frequently users will click on UI elements that trigger some operation and there will be no indication that the operation is still working other than simply waiting for something on the page to change.  When enabled, a single small status bar at the bottom of the page will display and on the left is what's known as the title section which contains a static string of "WebChart is currently working".  On the right is the description section that shows a list of all known operations. Each operation is listed top to bottom in the order in which they were started. When multiple identical operations are running you will see a numerical identifier to show you how many of them are tracked. Additionally each operation displays how long it has been running. In the event multiple identical operations are running, the duration of the longest will be displayed.
 
-
 #### Print Default
-
 
 * Printer Name: MY COMPUTER or change to the printer you are located next to, if MIE has set these printers up thru {{% system-name %}} .
 
-
 #### User Searching Default
-
 
 * Search by: This is the search preference Access Control will default to when using those search filters.
 
-
 #### International Settings
-
 
 * Language: This is how the user changes what language they want to see the system in. Contact MIE Implementer if you need your {{% system-name %}} system available in another language.
 * English Translations on Hover: For multilingual systems, if "Show" is chosen here, then when viewing {{% system-name %}} in a language other than English, if you move your mouse over a translated item, it will display the original English below it.
 * Date Format: There are 3 choices (MM-DD-YYYY, DD-MM-YYYY or YYYY-MM-DD) It is defaulted to MM-DD-YYYY however if you change, any date (date of birth, document date, revision dates, etc) will then display as your selected format in {{% system-name %}} .  The entry fields for the dates follow the same ordering as the displaying selection also. The separator for dates is standardized to use the dash ( - ).
 * 24 Hour Clock:  Choose Yes or No.  If Yes, times displayed for your view will be 24 hour military time. Field entry is still in normal 12 hr time with am/pm on it, yet summary view shows military time. If set to No, the times displayed for your view will be normal 12-hour clock times with pm or am after it.
-* Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format.
-  ![](../my-settings.assets/bd1b2c70e9734445f143ab7232c5a6cf.png)
+* Date Input Labels: Default is No, but if set to Yes, the date entry format method watermark you are set to will appear in the input date fields for date entry format.  
+    ![](../my-settings.assets/bd1b2c70e9734445f143ab7232c5a6cf.png)
 * Preferred Unit System: Choose Default, English or Metric.  You can still enter vitals, etc w/ either unit system; this just makes the drop-down choice units start at the system you choose. (ex: units for weight lbs vs kg, height  units inches vs. cm, etc).
 
-
 #### Debug
-
 
 * Display JS Errors: Controls whether the user will see a wcnotification everytime there is a JS (javascript) error on the page
 * Enable Debug Console: Turns on a control icon in the header that provides a console-like interface. This is useful for debugging on devices that do not offer a native console (ex: ipad). In legacy systems, this was a system setting, but now is a per user preference.
 * Track DB Statements: All database statements are now controlled with this preference enabled. Capturing begins before the connection is initialized so that profiling doesn't miss statements that occur before login/preference checking.  Key handlers consolidated to a single 'pq' handler which allows sorting and filtering based on the type of statement.  Profile window allows clicking to show statement details including error messages and fetch duration for MSRLR statements.
 
-
 ### E-Chart
 
-
 #### User Interface
-
 
 * Force multi-row tabs open: Upon hovering over chart tabs, this acts as a pin vs floating when on chart tabs with children tabs.
 * Collapse toolbars on scroll: If enabled, chart tabs and chart header (dark grey header) will collapse (hide) when scrolling up and down to work within the chart or encounter.
@@ -158,46 +144,32 @@ When looking at preference choices available in the drop-down:
 
 ![](../my-settings.assets/03251eef412e80b75e64bb0f790a9311.png)
 
-
 #### Faxing
-
 
 * Default Coversheet: Choose the name of the fax coversheet so it will default to that when you fax documents.  You can always make a different selection for a coversheet in the fax module. This is just a default.
 * Default Fax Comment:  Automatically set to No Default Comment. Your practice may request MIE to program a comment that will appear on every single fax that you send out. Some practices have a common comment on their fax coversheet that they want to print on all faxes. If MIE has programmed default fax comment(s) for your practice, you would want to select the default fax comment here to use on your fax coversheet comments. There is also a place for other comments to free text along with the default comment that will appear.
 * Remember Last Faxed:  Yes or No for the fax module to remember and populate the last fax number you used or typed in.
 * Send Fax Notifications:  Choose Both, Send, Failed or None preference for being able to get emailed notifications of faxed document options.  A system setting must be turned on for your practice for email notifications feature and your email address must be entered in your username screen, in the Control Panel, for this to function.
-
-
-   * Both: Receive (by email) both successful sent and failed fax notifications.
-   * Send: Receive (by email) only successful sent fax notifications.
-   * Failed:  Receive (by email) only failed fax notifications.
-   * None:  You will not receive any emailed fax notifications.
-
-
+    * Both: Receive (by email) both successful sent and failed fax notifications.
+    * Send: Receive (by email) only successful sent fax notifications.
+    * Failed:  Receive (by email) only failed fax notifications.
+    * None:  You will not receive any emailed fax notifications.
 
 **Patient Search Criteria**
 
 * Search Method: Default for how you search for a patient.
-
-
-   * Simple: Usually set at simple search. This allows partial names to be entered, etc and will bring up results after clicking search.
-   * Detail: Specifies more name, d.o.b options, MR# & partitions, or SSN as partially entered, exactly entered, sounds like, etc. (can change this back & forth when on E-chart, or can default set this in My Settings)
-
-
+    * Simple: Usually set at simple search. This allows partial names to be entered, etc and will bring up results after clicking search.
+    * Detail: Specifies more name, d.o.b options, MR# & partitions, or SSN as partially entered, exactly entered, sounds like, etc. (can change this back & forth when on E-chart, or can default set this in My Settings)
 * Search By: Default for choosing Name, MR#, DOB, or SSN depending on how you wish to search for a patient each time. Usually set to NAME.
 * Search Result: Usually 20.  Pick the # of results you wish it to show/display to you each time when you search for a patient and don't get an exact match.
 * Search Auto Select: Yes or No makes it either stop on the search query or not if it is an exact patient match. Example: if you search for Oil,Olive usually it will go directly to the account if it is an exact match.  Or it gives you a search listing if there is more than one patient with that name. If you have this Search Auto Select option as Yes, you will always see the search listing page (even if there is only one match) and then you can click on the patient to go into the account. It doesn't automatically take you into the account if there is only 1 exact match.
 * AC Name Search Method:  Last,First set as default. This is how you search for a name in any autocomplete search fields. This only works in autocomplete name search fields. You can opt to default this to FLast which is first initial immediately followed by last name  ex: jsample (John Sample) within autocomplete fields. If have preference set to FLast, you can still find names in autocomplete search fields by last name but you must indicate a <em>comma</em> after last name to separate and for system to result choices.
 
-
 #### MIEWord (Transcription)
-
 
 * Check Spelling on Upload(Word): YES default. If no, it will not spell check when you upload a document to word (tasks, transcriptions, documents, etc that are WORD templated)
 
-
 #### Defaults
-
 
 * Number of Recent Documents: This option is for when you click Omniscope on the left sidebar menu.  It will then show a subcategory up the recent documents and info that you have uploaded.  Set this option to what you wish to view. Usually set at 10.
 * Number of Recent Patients: This option is for when you click Omniscope on the left sidebar menu.  It will then show a subcategory of the recent patients and info. that you have been in lately.  Set this option to how many you wish to view. Usually set at 10.
@@ -226,17 +198,13 @@ When looking at preference choices available in the drop-down:
 * Show Global Templates: If ‘yes' then the ‘Global templates' for the Show Saved Templates functionality throughout the system will show the global templates for the system.  If set to ‘no' then only your personal saved templates will show for this functionality and won't show the ‘global' templates of other users.
 * Use enhanced CCDA viewer: If enabled, it will open the CDA document in a "CDA Viewer" mode instead of just streaming out to the browser.
 * Display Insurance in Header: Displays a chart's primary and secondary insurances in the dark grey patient header.
-* Flowsheet "Most Recent" Source: Some encounter sections (such as the Physical Exam encounter section) offer a "Set all to most recent" icon/function.  When that icon/function is selected to be used, the contents will populate into the flowsheet based on what the provider's preference is set for this. 
-
-   * Any previous result for the observation: will populate the last most recent value (content) ever entered for that observation, no matter where it was entered (encounter, chart tab, import, etc) for that specific chart.
-   * Only results from encounters w/ same provider: will do the same as the above option, but limited to only observations that were entered on encounters with the same provider as the current encounter using this icon/function.
-
-
+* Flowsheet "Most Recent" Source: Some encounter sections (such as the Physical Exam encounter section) offer a "Set all to most recent" icon/function.  When that icon/function is selected to be used, the contents will populate into the flowsheet based on what the provider's preference is set for this.
+    * Any previous result for the observation: will populate the last most recent value (content) ever entered for that observation, no matter where it was entered (encounter, chart tab, import, etc) for that specific chart.
+    * Only results from encounters w/ same provider: will do the same as the above option, but limited to only observations that were entered on encounters with the same provider as the current encounter using this icon/function.
 
 #### Meds/Allergies
 
-
-* RX Manager Mode: Select the default you wish to use when searching to add a drug in the Meds tab.  Auto-Complete (most used) will attempt to finish your typing and give you drop-down choices that match. If want to use Simple Search, you would type in the letters/name of drug and then have to click the SEARCH button and then it will pop-up choices that match.  Of course, you can change this when working in a patient's Meds tab without changing it back here.  
+* RX Manager Mode: Select the default you wish to use when searching to add a drug in the Meds tab.  Auto-Complete (most used) will attempt to finish your typing and give you drop-down choices that match. If want to use Simple Search, you would type in the letters/name of drug and then have to click the SEARCH button and then it will pop-up choices that match.  Of course, you can change this when working in a patient's Meds tab without changing it back here.
 * Show RX Header:  Select Yes or No. The RX header is the list of allergies, medications & conditions this patient has that appears towards the top of any chart tab or document you are viewing on the computer screen.  If set to yes, this RX summary header will always appear on the screen for the patient to view. If set to no, the allergies, medications, conditions the patient has will not be shown on the computer screen when in a patient's chart or document.
 * Med Details in Header: Select Yes or No. The RX Header must be set to Yes for this option to be available.  Set this to Yes if you wish to have the patient's medication details (dosage, quantity, sig, etc) to be displayed within the list of medications the patient is on when viewing the RX summary header in the patient's chart.  Set to No if you just want the names of the medications to be displayed in the RX summary header (no sigs, dosages, quantities, etc will be shown w/ the medication).
 * Quick Add Auto Disp Indication: Choose Yes or No. If set to Yes, in the Meds tab, when click Quick Add it will automatically pop open the autocomplete with suggested indications when a user tabs over to the indication field. If set to No then it won't pop up automatically.
@@ -258,9 +226,7 @@ When looking at preference choices available in the drop-down:
 * Cross-Browser EPCS: Recommend this to be set to ‘Yes' if client is utilizing EPCS.  Setting this to Yes, and after downloading 2 apps needed to make it work (from the Plugins page), users can perform EPCS using a browser other than Internet Explorer (IE).
 * Unsent Scripts in Alert Bar: This alert (found in the alerts toolbar) displays a count of prescriptions that have been prescribed in the system, with that logged in user's name as the Prescriber, that have not been printed, faxed, or transmitted.  The count will display ALL unsent prescriptions, regardless of medication schedule, for the logged in Prescriber (user) where those prescriptions are unsent.
 
-
 #### Conditions
-
 
 * Show Conditions in Med Header:  Choose Yes or No.  If you choose yes, the patient's entered active conditions will appear in the med header at the top of each chart tab (under the patient's reported Allergies & current Medications).
 * Condition Code Display: None: Allows users to search for conditions by description only when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . ICD9: Allows users to search for conditions by ICD9 descriptions and codes only when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . ICD10: Allows users to search for conditions by ICD10 descriptions and codes only when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . ICD9 and ICD10: This is the default preference that will be set.  Allows users to search for conditions by both ICD9 and ICD10 descriptions and codes when creating an e-order or viewing/creating/editing conditions or diagnoses within {{% system-name %}} . When searching to add or edit a condition/diagnoses, the user will see the ICD9 code in parenthesis immediately following the condition description to help with their selection.  If there is an exact ICD10 mapping to that ICD9, then the ICD10 code will display in another additional parentheses immediately following the ICD9 code, but if there is not an ICD10 mapping to that ICD9, then no additional information will follow the ICD9 code.
@@ -272,73 +238,52 @@ When looking at preference choices available in the drop-down:
 
 #### E-Sign
 
-
 * Number Documents in Multi-Sign: Choose in increments of 10. The number you choose here will set the number of documents that pull up at one time when you click Multi-Review in your E-Sign pending queue.
 * Notify me on E-Sign Addition:  If this is set to YES, it will send the user an email when someone assigns an E-Sign request to them. User's full email address must be put in their username access control in the email field for this to function.
 
-
 #### Dashboard (Summary Tab)
-
 
 * Use Popups: Choose Yes or No.  If you have this setting as YES, in the Summary tab of each patient's chart (also considered ‘dashboard') when you click on a document to look at (in the Summary tab only) then it will pull that document up (pop-up) in a new window.  To get out of the document and back into Summary or {{% system-name %}} , etc you would close this pop-up window by clicking on the X at the top right corner. Then you would be back to the Summary tab that you started at. If you have this setting as NO, then when you click on a specific document to view in the Summary tab of the patient's chart it will just bring up this document.  It will not pop-up a different window for the document.  When done viewing the document, you then use the back key or click the Summary tab again to get back.
 
-
 #### Encounters
-
 
 * Default Visit Type: When manually adding an encounter to a chart using the Encounters chart tab, the system will default the visit encounter type field selection to what visit type is selected here as your default visit type.  This is to save you time in finding the encounter you most likely create in charts. However, if using one-step checkin, if the appointment type the patient is being checked in for does not have any default encounter type set on it, it will then create the encounter you have set here as a default.  So if using one-click checkin, most leave this preference set to Checkin default visit type.  If you do not use one-click checkin, then you may find it efficient to set an encounter visit type here to save you time when manually adding encounters to charts.
 * Link Patient Doctors New Encounter: User can set this to yes and then any referring, family physicians or any other physicians (set via system setting) on the patient's demographics tab will show automatically in the CC (carbon copy) section of the encounter automatically instead of manually typing in that physician into the CC section of the encounter.
 * Impressions Linked As Active: Various setting choices Note:  Whoever opens/creates the patient's encounter – this is what is respected.  So if you have other staff members opening/creating patient encounters; the encounter impression section will display and respect as whatever the user that created the encounter is set to for this.
-
-
-   * None: no conditions will be linked at all. All ACTIVE conditions shown in this section for the patient's visit will be displayed with a strikethrough and status is N/A. You would "activate" the ones that are applicable to today's visit by changing the "status" to active and you can also "rank" in that column if wish for those.
-   * Last Enc Visit Type (No match –none): the linked conditions on the last previous encounter of the same visit type will be linked to this encounter (ranking and status is respected & displayed as was on previous matching encounter of same visit type); but of no match is found of the same encounter visit type previously then it means no conditions will be linked (all will be set as strikethrough aka: N/A status). There may be some users who would rather have their 'first' encounters always created with no linked conditions even though they will want subsequent ones to copy previous one.  If that is desired, this is the setting to use.
-   * Last Enc Visit Type (No match – all): the linked conditions on the last previous encounter of the same visit type will be linked to this encounter (ranking & status is respected & displayed as was on previous matching encounter of same visit type); but if no match is found of the same encounter visit type previously then it means all the patient's conditions displayed will link to show as "active" status not as a strikethrough.
-   * Last Enc (No Match – none): the linked conditions on the last known encounter will be linked to this encounter (ranking & status is respected & displayed as was on last known encounter); but if no last encounter is found (patient has no previous encounter) then no conditions will be linked (all set as strikethrough). There may be some users who would rather have their 'first' encounters always created with no linked conditions even though they will want subsequent ones to copy previous one.  If that is desired, this is the setting to use.
-   * Last Enc (No match – all): the linked conditions on the last known encounter will be linked to this encounter (ranking & status is respected & displayed as was on last known encounter); but if no last encounter is found (patient has no previous encounter) then all the patient's conditions displayed will link to show as "active" status, not as strikethrough.
-   * All Active Conditions: It shows all the active conditions the patient has as status "active"; regardless of any encounter you ever get into or last encounter.  You would "N/A" the ones that are not applicable to today's visit by changing the "status" to N/A for those.
-
+    * None: no conditions will be linked at all. All ACTIVE conditions shown in this section for the patient's visit will be displayed with a strikethrough and status is N/A. You would "activate" the ones that are applicable to today's visit by changing the "status" to active and you can also "rank" in that column if wish for those.
+    * Last Enc Visit Type (No match –none): the linked conditions on the last previous encounter of the same visit type will be linked to this encounter (ranking and status is respected & displayed as was on previous matching encounter of same visit type); but of no match is found of the same encounter visit type previously then it means no conditions will be linked (all will be set as strikethrough aka: N/A status). There may be some users who would rather have their 'first' encounters always created with no linked conditions even though they will want subsequent ones to copy previous one.  If that is desired, this is the setting to use.
+    * Last Enc Visit Type (No match – all): the linked conditions on the last previous encounter of the same visit type will be linked to this encounter (ranking & status is respected & displayed as was on previous matching encounter of same visit type); but if no match is found of the same encounter visit type previously then it means all the patient's conditions displayed will link to show as "active" status not as a strikethrough.
+    * Last Enc (No Match – none): the linked conditions on the last known encounter will be linked to this encounter (ranking & status is respected & displayed as was on last known encounter); but if no last encounter is found (patient has no previous encounter) then no conditions will be linked (all set as strikethrough). There may be some users who would rather have their 'first' encounters always created with no linked conditions even though they will want subsequent ones to copy previous one.  If that is desired, this is the setting to use.
+    * Last Enc (No match – all): the linked conditions on the last known encounter will be linked to this encounter (ranking & status is respected & displayed as was on last known encounter); but if no last encounter is found (patient has no previous encounter) then all the patient's conditions displayed will link to show as "active" status, not as strikethrough.
+    * All Active Conditions: It shows all the active conditions the patient has as status "active"; regardless of any encounter you ever get into or last encounter.  You would "N/A" the ones that are not applicable to today's visit by changing the "status" to N/A for those.
 * Audiogram STS Display: Displays the red <strong>STS</strong> alert if found on an Age Corrected and/or Non Age Corrected, depending on what you have your preference set to.
 * Assessment Entry in Orders: User can set this to Yes, and then an Assessment section will display under any encounter applied order item (pending due list item also) being resulted in an encounter, <em>if</em> the applied encounter order item has no layout configured to it, or has Generic Order layout configured to it.
 * Remember provider and location: Will auto-populate the Performing Provider/Location field with last remembered provider/location entry in the same manually created encounter visit type you have used.
 * Co-Signing Provider: When a Co-Signing Provider is set here for a user, and the user is auto-populated as the Performing Provider at the time the encounter is manually created, then this Co-Signing Provider name will display in the CC encounter section by default.  A Co-Signing Provider user role (within the class of Medical Care Team) must exist in the system.
 
-
 #### Forms Editor
-
 
 * Lock Boxes: This is for MIE use, to lock the boxes on forms programming so programming cannot be edited.
 
-
 #### Injury and Illness
-
 
 * Show Closed Incidents: Yes allows show and hide closed incidents on the patient incident listview. When set to "No", only open incidents will be shown.
 
-
 #### Time Tracking
-
 
 * Logging Time Method: The Time Tracking module allows one to enter time in by hours or minutes, based on this preference.  The choices are Hours or Minutes for this preference.  Acceptable formats are: 1h5m, 1:05, 65m.  If this preference is set to Minutes, we consider the logged time as minutes, but the time will be converted to hours for the stored value and reporting purposes.
 
-
 ### Scheduler
-
 
 #### Defaults
 
-
 * Display: This changes what is displayed in the Scheduler view on your screen.
-
-
-   * Appointments Only: Only just shows appointments.
-   * Schedules Only: Just shows templated time (scheduled times) if schedules are entered for your physicians (resources) by a super-user.  
-   * Merged: Shows appointments and resource schedules merged together on your display in the scheduler.  Any open slot will show as a scheduled/allowed time. Appts then show as busy time. This is most used setting/preference if your system uses schedules for resources/physicians.
-   * Separate: Shows appointments and schedules separate on your display in the scheduler.  The schedule for that physician (resource) shows on the left, then their appts list on the right.
-
-
+    * Appointments Only: Only just shows appointments.
+    * Schedules Only: Just shows templated time (scheduled times) if schedules are entered for your physicians (resources) by a super-user.
+    * Merged: Shows appointments and resource schedules merged together on your display in the scheduler.  Any open slot will show as a scheduled/allowed time. Appts then show as busy time. This is most used setting/preference if your system uses schedules for resources/physicians.
+    * Separate: Shows appointments and schedules separate on your display in the scheduler.  The schedule for that physician (resource) shows on the left, then their appts list on the right.
 * Duration: You can change the duration (minutes, etc) of your scheduler view.  If you wish to view in 30 minute increments, change this to 30min (example).
-* Start Time: Choose the times you wish to view on your scheduler when you bring them up.  If most of the doctors, etc work 5am to 4pm, you would choose these times (example)  
+* Start Time: Choose the times you wish to view on your scheduler when you bring them up.  If most of the doctors, etc work 5am to 4pm, you would choose these times (example)
 * End Time: Choose the time you want to see all schedules ending at.
 * View When/Who Scheduled: Choose Yes or No if you wish the scheduler to show who added a patient's appt and when they did.  This will show up for every patient in the schedule that you are viewing.
 * View Attending Physicians:  Choose Yes or No if you wish the scheduler to show the attending physician for the patient in their appointment line.
@@ -348,13 +293,9 @@ When looking at preference choices available in the drop-down:
 * Show Cancelled: Choose Yes or No if you wish the scheduler to show canceled appointments on your views.  These canceled appointments will show up at the very bottom of the list, multi, or weekly views automatically for each date.  Otherwise, you can click the cancel category in the scheduler to view the canceled appts.
 * Show Comments: Choose No, Partial, or Full if you wish the scheduler to show the comments one can type in for a patient's appt.  It will either show none, partial of the comments, or the entire comments if someone typed them in.
 * Show Confirmed Info: Choose No, Display Only, or Editable. Confirmed info has to be input by a user and clicked in a patient's appt.  Sometimes clients use this if 1st get general info, then call back later to the patient to confirm the appt, etc.
-
-
-   * No: will not show [c] or [u] for confirmed or unconfirmed info.
-   * Display Only: will display the [c] or the [u]
-   * Editable: will allow you to edit the confirmed or unconfirmed info from the appt.
-
-
+    * No: will not show [c] or [u] for confirmed or unconfirmed info.
+    * Display Only: will display the [c] or the [u]
+    * Editable: will allow you to edit the confirmed or unconfirmed info from the appt.
 * Show Location: Choose Yes or No if you wish the scheduler to show the location of the appointment.
 * Show DOB:  Choose Yes or No if you wish the scheduler to show the patient's date of birth in their appointment.
 * Show Add Dictation: Choose Yes or No if you wish the scheduler to show the add dictation option next to the patients in their appt when viewing appts.  If YES, you can click it and add dictation directly from the scheduler for a patient. If dictation were already added/linked to the appt via an encounter dictation, this link dictation ID here will only show the dictation id and the status of the dictation. If normal dictation was already added/linked to the appointment (non-encounter) the dictation ID will be shown as a hyperlink here to be able to quickly play from the scheduler view.
@@ -369,13 +310,9 @@ When looking at preference choices available in the drop-down:
 * Show Chart Online: Choose Yes or No if you wish the scheduler to show (Chart Online) next to all patients in their appt. info when viewing appointments.
 * Show Patient Phone: Choose Yes or No if you wish the scheduler to show the patient's phone numbers in their appt. info when viewing appointments (shows home,cell,alt,work or whatever the patient has documented)
 * Default View: Choose List, Multi, or Week. When you click the scheduler tab on the left sidebar menu, the next screen will be this view  you are choosing here. Choose how you would like your scheduler to pop-up as.
-
-
-   * Multi: Brings up a person's schedule for all of today. (can add/edit appts from this view)
-   * Week: Brings up a person's schedule for the whole week. (can add/edit appts from this view)
-   * List: Brings up a person's schedule for all of a single day in a list view (cannot add/edit appts from this view. This is a summary view for the day.)
-
-
+    * Multi: Brings up a person's schedule for all of today. (can add/edit appts from this view)
+    * Week: Brings up a person's schedule for the whole week. (can add/edit appts from this view)
+    * List: Brings up a person's schedule for all of a single day in a list view (cannot add/edit appts from this view. This is a summary view for the day.)
 * Auto-scroll to Current Time: Choose Yes or No.  When you click on a scheduler view, if you choose YES, it will show from current time until the end of the day each time you log-on or view appointments (example: it is noon and you logged in to see the schedule for after lunch time). If this is set to YES, the scheduler will show you now only the appts with yellow time slots from noon and on for today. If you choose NO, it will show the entire days schedule each time you view appts, regardless of the current time it is.
 * Color Apt by Apt Type: Choose Yes or No.  When a super-user adds an appointment type, there is an option to make it in a background color to catch attention or stand-out from the other appointment types. Example: Recheck appointments may be set at color RED.  Then, if you have Yes on this option, the patient's appointment with the background of the color that is correlated with that will appear in the scheduler view determined from the appointment type.
 * Scroll Apt Block: Choose Yes or No.  Sets the Scheduler to put the scroll bar to the left of the calendar (right end side of the scheduler block) instead of all the way at the right side of the entire screen.  This way everything is on one page and only the appointments scroll, not the entire page w/ calendar.
@@ -390,38 +327,27 @@ When looking at preference choices available in the drop-down:
 * Print with Page Breaks: To default as checked/unchecked for the "Start each resource on new page" box when printing a schedule.
 * Default Appt Email Layout: This is the default selected email template/layout when emailing from scheduler in the drop-down Email Template field.
 * Show Merge Link:  Shows the Merge Patient link on the appointments listed in the scheduler view so a user can quickly merge patient temp accounts. The preference applies to the patient you are currently seeing on the scheduler screen. If your preference is set to tmp_only (which is the default setting it's set to), you will only see the merge link on the patient that has a temp mr#, because he/she is the tmp one. If your preference is set to always, that doesn't mean the merge link shows for every patient, it just means the link shows and is available on both the tmp patient and the non-tmp patient accounts. Preference set to no means you will not see a merge patient link on your scheduler appointments view.
-
-
-   * Tmp Only: Only shows the link if the current patient is a tmp patient and has a single possible match
-   * No: Merge link is never shown
-   * Always: Merge link is shown for all patients who have a single possible match
-
-
+    * Tmp Only: Only shows the link if the current patient is a tmp patient and has a single possible match
+    * No: Merge link is never shown
+    * Always: Merge link is shown for all patients who have a single possible match
 * Show Last Eligibility: Default is no, but if set to Yes and have SureScripts Advanced functionality on the system, then while working in a patient's record, the last eligibility date that was run will show in the scheduler view.
 * View Range: The ‘New Scheduler' tab within the Scheduler module allows a range preference to be set for viewing the ‘New Scheduler' screen by Day, Work Week, or Week.
 
-
 #### One-Click Checkin
-
 
 * Use One-Click Checkin:  Choose Yes or No if you wish to use the one-click checkin method from the scheduler views.  Using One-Click Checkin checks a patient in automatically, sets the station of the patient to the station that is set as your default station, and generates/opens the specific encounter (if needed) according to the scheduled appointment type, all with one-click.  One-Click Checkin is much more efficient, but is only for scheduled appointments from the Scheduler views.
 * Link Referrers to Encounter: This preference will control whether the referring physician in the appointment gets linked to the encounter or not when using One-Click Checkin.
 * Link Referrers to Patient:  This preference will control whether the referring physician in the appointment gets linked to the patient's chart when using One-Click Checkin.
 
-
 #### Search
-
 
 * Number Results:  Choose the amount of results you wish to show up when you search for appt. openings when adding an appointment for a patient.  Example: if you choose 1, it will show you 1 opening (the 1st opening) for an appt that is fit for your patient appt type.
 * Days out to search: Choose the number of days you want the scheduler to default to when search for an open time when you click the Search for times from start date button in the wizard. Example: Setting is set for 7 days:  if it doesn't find an open time that you want within 7 days, it will pop-up that there were no openings found for you.
 * Days to search at a time: Choose the number of days you want the scheduler to search at a time for when you are searching for an open time when click Search for times from start date button in the wizard. Example: if setting is set for 1 it will search an open time for you, 1 day at a time. As soon as it finds an opening, it will stop, if set at 1.
 
-
 #### Wizard
 
-
 * Show Only Templated Apt Types:  Choose Yes or No.  Yes makes the scheduling wizard (when you add appointment) to only display appointment types that are templated for the selected resource/location. This is a way of simplifying the list of appointment types by the resource/location you select.
-
 
 #### Sync
 
@@ -432,18 +358,13 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Appointment subject contains: The subject line in Outlook will be filled with <option>. Options include: Chief Complaint; Appt Type; Patient Name; Patient Name & Acct.
 * Retrieve: Specifies if user wants to sync appointments, schedules, both in a merged view, both in a separated view, or Where am I view. These work just like the multi-view in the scheduler.  Options include: Appts Only; Schedules Only; Both Merged; Both Separate
 
-
 #### Schedules
-
 
 * Default View:  When you have security rights to add/edit schedules (in the schedules tab) for a resource (physician, etc) you can opt to have it automatically open to the month or list view.
 
-
 ### Dictation
 
-
 #### Defaults
-
 
 * Streaming Quality:  Controls how dictation sounds when you play it back from the server. The better the quality, the longer it takes to download it. For a dial-up user to work at all, you would use a lower quality.  The higher the speed, the more quality you can afford. Choose from: Best; Better; Good
 * Play on Top: If set to YES, when you open a dictation, the MIE Dictation player will always appear on ‘top' of any other screens or windows you additionally open. It keeps the MIE Dictation Player on top of your screen views so you can always see the Dictation Player and get to it quicker without having to find it's opened minimized program in the toolbar at the very bottom of your computer screen. If set to NO, when opening a dictation the MIE Dictation Player will be on the screen unless you open another screen or window to view other information. The MIE Dictation Player is still opened, but doesn't appear on the screen ‘on top' of everything else you opened.  It automatically minimizes the Dictation Player and you can click to open it again from the bottom of your computer status toolbars.
@@ -459,22 +380,15 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Use SpeechMike for Playback: Can choose yes or no to tell the dictation control to always use the SpeechMike for playback or not and will override what the MIEPlayer is configured to. If this preference is set to ‘configure in player', then it means the settings in the config screen of the MIEPlayer will be respected. What you set this to here allows for multiple users to share a computer yet keep your settings to how you like to use playback while another user using the same computer may have it set to something else for their use.
 * Use SpeechMike for Record:  Can choose yes or no to tell the dictation control to always use the SpeechMike for recording or not and will over-ride what the MIEPlayer is configured to. If this preference is set to ‘configure in player', then it means the settings in the config screen of the MIEPlayer will be respected.  What you set this to here allows for multiple users to share a computer yet keep your settings to how you like to use record while another user using the same computer may have it set to something else for their use.
 
-
 ### Tasklist
 
-
 #### View Defaults
-
 
 * Show Overdue:  YES default. This shows the subcategory OVERDUE tasks in Your Task List. If no, it will ‘hide' your overdue tasks in Your Task List. You can always click on the Overdue Count summary that is hidden when you are in Your Task List screen and it will appear at anytime. This is just a default.
 * Show Personal: YES default. This shows the subcategory USER TASKS in Your Task List. If no, it will ‘hide' your User/individual tasks that are assigned to you specifically in Your Task List. You can always click on the summary that is hidden when you are in Your Task List screen and it will appear at anytime. This is just a default.
 * Chars of note to display: ALL/FORMATTED will fully show all the notes in that column in the task to do, but with all the lines in this summary view.
-
-
-   * All/Compressed: (usual default) will fully show all the notes in that column in the task to do, but compresses it and leaves out lines in this summary view.
-   * 10, 20, 30: Will only show the first 10, 20 or 30 characters of in the note column in a task to do in this summary view. To view the entire display of notes, you would have to click open the task.
-
-
+    * All/Compressed: (usual default) will fully show all the notes in that column in the task to do, but compresses it and leaves out lines in this summary view.
+    * 10, 20, 30: Will only show the first 10, 20 or 30 characters of in the note column in a task to do in this summary view. To view the entire display of notes, you would have to click open the task.
 * Notify me on task addition: If this is set to YES, it will send you an email when someone assigns a task to you. Your full email address must be put in your username access control in the email field.
 * Notify me on task completion: If this is set to YES, it will send you an email when someone completes a task you assigned to them. Your full email address must be put in your username access control in the email field.
 * Show Reply Link in List: Yes will show the link/option Reply  off to the right under Options so you can reply to a task. Otherwise, No just shows the Mark Done link/option only
@@ -482,35 +396,24 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Show MR:  If this is set to YES, it will show the patient's MR# in the tasklist regarding column and will also show the patient's name of who the task is regarding.  If set to NO, only the patient name will appear to identify who the task is regarding.
 * Expand Task in Document View:  If set to YES, when you are looking at a specific document in a patient's chart, it will always open and list in detail any tasks related to that specific document below the document on the screen. If set to no, you will only see the task hide/show link beneath the document on the screen. To open and view the task in detail you would just click show. This setting set to YES will always keep that detail open on any patient, any document. If set to NO, the task details do not appear, just the link to open them for viewing when desire.
 
-
 ### Orders
-
 
 #### User Interface
 
-
 * Edit Order Search Method: Autocomplete (default): When you start typing an order to search, you only need to type the first few characters of the item/order then click SEARCH and it will pop-up all choices that started with the few characters you typed in.
 * Default Action: View Recent: Select if user wants the order summary view for the patient or to continue an existing order.  Default view shows summary of orders in a patient's chart order tab (this doesn't apply/pertain to the orders tab at left sidebar).
-
-
-   * Add Order: Select if user adds orders when in order tab. Default view shows the Order Add screen instead of summary of patient's orders in tab (this doesn't apply/pertain to the orders tab at left sidebar).
-
-
+    * Add Order: Select if user adds orders when in order tab. Default view shows the Order Add screen instead of summary of patient's orders in tab (this doesn't apply/pertain to the orders tab at left sidebar).
 * Show Edit Order Warning:  When you edit an order, it is used in pick lists. You will get a warning telling you that the order is in use by picklists. What this setting does is determine if you get the warning if it's only used in one picklist or multiple. If you set the warning to When Multiple Uses, then you will only be notified when the order is in multiple picklists. If you set it to Always Warn, you will be warned anytime the order is in a picklist. This came about because if you're editing an order, you should know what picklist it is in. Some clients don't know anything about their orders, so they want to be told what picklist everything is in.
 * Page Refresh: Select time or no refresh. Under Orders left sidemenu tab, this determines how often the page refreshes or if at all.
 * Expand Panels: Yes or No. When printing an order, this determines whether to display the contents of the order panels or not.
 * Set/Group Addition Method: Choose Add New or Use Existing.  This affects the way you can add orders and sets, etc.  To add a new order set, you must be set to use existing.
 * Show Un-Ordered in Alert Bar:  Choose Yes or No. This is the summary line of un-ordered orders outstanding for you and your departments. This summary line appears at the very, very top of {{% system-name %}} after you are logged in. It is above all chart tabs. You can click on a category link here in this summary line, instead of getting into the orders module to view un-ordered orders (orders that need to be done/printed/created). This summary also keeps you updated (shows the count) as to if you even have any and/or the number (count) of un-ordered orders outstanding to do. Choosing the NO setting on this preference means that this un-ordered orders summary/work link at the very top of {{% system-name %}}  (above the chart tabs) will not appear to you. You would have to get into the orders module instead of glancing up to see the # of pending E-signs and/or tasks.
 
-
 #### Encounter Orders
-
 
 * Filter Picklist by Insurance:  Choose Yes or No. If the user chooses YES, when the user adds orders in an encounter via an order picklist, the orders the user will see will be those that are approved by the patient's preferred insurance plan. There is a drop-down at the top of the picklist window that includes all the patient's insurance plans. This drop-down includes the ‘default' option to not filter by insurance and to just show everything in that particular picklist. When the user changes the insurance drop-down, the orders selected get added, the picklist window closes and a new picklist window opens with the orders that are accepted by the newly chosen insurance plan.  If the user has this preference set to NO, the insurance drop-down will not be rendered and the picklist will not be filtered by insurance (will continue to function as has before).
 
-
 #### Defaults
-
 
 * Ordering Physician: Begin typing in the first or last name of the physician you want the Orders ‘ordering physician' name to default to. It will auto-complete your typing and give you matching choices to select. The physician selected here will be the default physician name in the ordering physician field when you are in add order (e-orders module). This list pulls the physicians department. This list also shows active and login disabled users in case there are ordering physicians that don't actually log in to the system.
 * Location: Choose the location you want the Orders ‘location' name to default to. When you add an order for a patient, this field will pop up your default location name in the location field.
@@ -520,12 +423,9 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Bill Type: This determines what bill type to default (if any) when creating an order requisition.
 * Use New Requisition Screen: This new preference allows users to see the new Order "Requisition" screen, when users click on the Add Order hyperlink from lightning bolt or from the chart's Quick Links portlet. Also, when creating an order using the new Order Requisition screen within an encounter, when this preference is set to ‘yes', it offers an ability to "Clone" a requisition document, using the same requisition method screen.  To then edit an open order request, you could ‘clone' it to be whatever you want/fixing/updating anything and that essentially ‘overwrites' the original requisition done in this manner.
 
-
 ### Inventory
 
-
 #### User Interface
-
 
 * Transaction Search: In the Inventory module, this user preference to Show Search or Hide Search determines if the transaction screen advanced search fields will automatically show or hide on the landing page each time the user opens the Transaction Search tab of Inventory module.
 * Number of Verify Needed: Select # of Verification Needed Fills you wish to display on your screen for each patient at a time.  Example: if select 5 as your user preference, it will only show the first 5 Verification Needed Fills for that patient, then you would click next to get the next 5, etc. This applies to MedQueue tab and Dispense tab and if verification functionality is turned on via system setting for the {{% system-name %}} system.
@@ -533,38 +433,26 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Number of Fill Requests: Select # of Requests you wish to display on your screen for each patient. Example: if select 5 as your user preference, it will only show the first 5 fill requests, then you would click next to get the next 5, etc. This applies to MedQueue tab and Dispense tab.
 * Prioritize Inventory in ACs:  Inventory items can be ordered from the Medication Orders encounter section and the auto-complete field there (for the medication order drug) prioritizes inventory items over other items, when this preference is enabled.
 
-
 ### Reports
-
 
 #### User Interface
 
-
 * Super Doc Search Batching:  Advanced Batch will only work if the system setting for your practice is turned on by MIE. This allows the user to use Advanced Batch Printing (if turned on in the main system). Checkoff Batch: is the usual default and view. When doing a document search in the reports tab, it will have all of your document results check-marked in the box and you can print/fax/create a batch from there.
-
 
 ### EOB
 
-
 * Default Thumbview Setting:  Choose On or Off.  When searching for EOB's from the EOB left sidebar menu tab, the search automatically defaults to show the thumbviews of the EOB scanned pages on the left side. You can click Hide Thumbnails when in the EOB search. However, instead of clicking this hide option every time you search for an EOB, you can make this default setting to Off. Then, the thumbnails will not automatically appear on the left side when doing an EOB search.  It is in List View only and if want to see a thumbnail of an EOB, you would click Show Thumbnail.  This setting is for your preference if you want EOB search to always show the thumbnails or not, even though you can override/change your choice when in the EOB search.
-
 
 ### MIEWebScan
 
-
 #### Indexing
 
-
 * Blank Page Threshold: This setting is to set the default percentage of minimum allowed black on the page before the program considers it blank and marks to delete it in MIEWebScan. This setting allows the program to automatically determine and purge/delete blank pages when using the Process BarCodes/Blank button. The threshold is the percentage (%) of black on the page which considers it not blank so it doesn't automatically think it's a blank page and set it to delete.  If you scan pages with very little on it, you would need a low percentage. If the page has 1% black and 99% white and the setting is 2%, it will mark it as deleted/blank. This setting is usually set at fairly low numbers. If it is a blank page and the program doesn't automatically delete it as blank, then the scanner may be dirty or the page has some blank smudges and the program still reads this as black, not white/blank according to the % threshold set here.
-* Default Mouse Mode: This is the default you set your mouse to perform when you are clicking on the image on the right side of the screen.  
-
-
-   * ZOOM: Selecting this will make the mouse perform the zoom (magnifying glass) function when you click on the document image.
-   * PAN: Selecting this will make the mouse perform the pan (hand) function when you click on the document image.  You would only be able to scroll/move the image up and down.
-   * POINTER: Selecting this will only allow your mouse to use the scroll and can't do anything to the document image.
-   * CROP: Selecting this will make the mouse perform the crop (+) function when you click on the document image.  When you use the mouse on the document image, it will be in crop mode.
-
-
+* Default Mouse Mode: This is the default you set your mouse to perform when you are clicking on the image on the right side of the screen.
+    * ZOOM: Selecting this will make the mouse perform the zoom (magnifying glass) function when you click on the document image.
+    * PAN: Selecting this will make the mouse perform the pan (hand) function when you click on the document image.  You would only be able to scroll/move the image up and down.
+    * POINTER: Selecting this will only allow your mouse to use the scroll and can't do anything to the document image.
+    * CROP: Selecting this will make the mouse perform the crop (+) function when you click on the document image.  When you use the mouse on the document image, it will be in crop mode.
 * Auto Link Form Pages: If a form has a [form.id](http://form.id) barcode on it and is a multiple paged doc.type, and this is set to YES, it will automatically link all the pages of that document to page 1 of the specific form/document. Otherwise, you have to manually link while indexing those pages of that kind of document. In other words, if this is set to YES, and the form is programmed with a certain barcode, it will know to link subsequent pages to the initial page.  It knows it is a multiple paged document.
 * Auto Un-tumble Form Pages: If a form has a [form.id](http://form.id) barcode on it, and the form was programmed to tumble in the print definition (tumble is printing on both sides and the backside is upside down for like use on a clipboard) this setting of YES would un-tumble the pages when scanned back in with WebScan. It would flip them right side up (the back page) for your indexing purposes on the screen.  If set to NO, the images would appear as they were scanned in using WebScan and you would have to manually rotate the image on the screen to get it right side up if a form was tumbled on the back (backside is upside down). Some forms are set to tumble for clipboard use. This is a quick way to un-tumble them when indexing that batch.
 * Clear Indexing Fields:  If this preference is set to YES, it clears the index information fields at the top when you advance to the next row (page) in the list.
@@ -572,18 +460,14 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Auto-Rotate to find Barcodes: if you are indexing landscape forms or have forms in the forms library that print and display landscape (sideways) the barcode is on the sides then instead of top like other normal forms.  In this case, this setting needs to be set to YES in order for the system to automatically rotate and look for barcodes in other areas of a form (ie: landscape forms that are scanned in). If this is set to YES, the system can read the barcode no matter where it is on the paper and index it for you.
 * Auto-Rotate Linked Pages: Default is yes and rotates the linked pages as the same rotation of the first page. Setting this to no turns off the auto-rotating of linked pages. Linked pages would have to individually be rotated.
 
-
 #### Scanning
-
 
 * Resolution: Set the dpi resolution you wish WebScan to default in when scanning in documents.
 * Color Depth: Set the mode you wish WebScan to default to when scanning in documents.
 * Duplex: Set Yes to have WebScan default to scan documents front & back (duplex).  Set No to have WebScan default to single sided scanning.
 * Show UI: Set Yes to have WebScan default to show/open your scanner's settings screen.
 
-
 ### Incoming File Queue
-
 
 * Default Category: If your system is set up with categories for incoming faxes, you can set a category to default to when working and batching and forwarding faxes in the FaxQ module.
 
@@ -593,12 +477,7 @@ To save settings, click Submit Settings at the top or bottom of the screen.
 
 ### Password/PIN Control
 
-
 * Your Current Password: You can change your password from the MY SETTINGS tab if you wish. Type your current password in here, then go to new password field and type new one in, then verify it at the next box and click Submit PWD to submit your new password you reset your username login to be.
 * New PIN VeriCode: Enter a new PIN number here if your e-orders module requires you to enter a PIN number when trying to create an e-orders for a patient. This is also used if the dial-in dictation server is configured to ask for a pin password, along with a pin. Click Submit PIN to submit your new PIN you set yourself to.
 * Security Question & Answer: This can be used to help facilitate password resets.  If the user needs to manually reset their password due to login failures, if the user has a security question & answer on their user account, the user will be prompted to answer the question correctly to be able to manually reset their password. Click Submit Security to submit your security question & answer you set yourself to.
-
-   * Note: Our recommendation is to have your system be set up with password reset functionality to use an email, phone, or text PIN method instead of using the security question & answer method.  If using an email, phone or text PIN method, then the security question & answer fields need to remain blank.
-
-
-
+    * Note: Our recommendation is to have your system be set up with password reset functionality to use an email, phone, or text PIN method instead of using the security question & answer method.  If using an email, phone or text PIN method, then the security question & answer fields need to remain blank.

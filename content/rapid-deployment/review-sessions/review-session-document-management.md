@@ -27,38 +27,30 @@ links:
   - '../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.md'
   - '../../functions/e-chart/insurance-summary-in-demographics-tab.md'
 source: 'https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Agenda
 
-
 * <strong>Document Management Demonstration</strong>
 * <strong>Overview</strong>
-
-
-   * <strong>WebScan - Scanning/Indexing</strong>
-   * <strong>Insurance Card/Driver's License Scanning</strong>
-   * <strong>Forms Library</strong>
-   * <strong>Print Definitions</strong>
-
-
+    * <strong>WebScan - Scanning/Indexing</strong>
+    * <strong>Insurance Card/Driver's License Scanning</strong>
+    * <strong>Forms Library</strong>
+    * <strong>Print Definitions</strong>
 * <strong>System Configuration</strong>
-
-
-   * <strong>Configure Scanners</strong>
-   * <strong>Add Document Types to Forms Library</strong>
-   * <strong>Setup Print Definitions</strong>
-   * <strong>Side Chart View</strong>
-   * <strong>Cut-Over Plan</strong>
-   * <strong>System Settings</strong>
-   * <strong>Security Role Permissions</strong>
-   * <strong>My Settings Preferences</strong>
-
-
+    * <strong>Configure Scanners</strong>
+    * <strong>Add Document Types to Forms Library</strong>
+    * <strong>Setup Print Definitions</strong>
+    * <strong>Side Chart View</strong>
+    * <strong>Cut-Over Plan</strong>
+    * <strong>System Settings</strong>
+    * <strong>Security Role Permissions</strong>
+    * <strong>My Settings Preferences</strong>
 
 ## Overview
 
-WebScan offers unsurpassed scanning and indexing flexibility for any practice or medical records department. Transitioning from a paper-based system to an electronic system is easier with high-speed scanning. The most efficient method of converting all past medical records to an electronic format is through a high-speed scanning system that captures images, and fully incorporates them into the new electronic patient chart. {{% system-name %}} supports both web-based remote scanning and high-speed scanning for items such as insurance cards or entire charts. WebScan allows front desk staff to scan information directly into a patient's record at the point of encounter, and is designed to automatically index the scanned document using barcode technology.  
+WebScan offers unsurpassed scanning and indexing flexibility for any practice or medical records department. Transitioning from a paper-based system to an electronic system is easier with high-speed scanning. The most efficient method of converting all past medical records to an electronic format is through a high-speed scanning system that captures images, and fully incorporates them into the new electronic patient chart. {{% system-name %}} supports both web-based remote scanning and high-speed scanning for items such as insurance cards or entire charts. WebScan allows front desk staff to scan information directly into a patient's record at the point of encounter, and is designed to automatically index the scanned document using barcode technology.
+
 Time-saving features include:
 
 * Easy and efficient data entry
@@ -67,7 +59,6 @@ Time-saving features include:
 * Optical mark recognition
 * Duplicate checking
 * Automatic cropping
-
 
 ### WebScan - Scanning and Indexing
 
@@ -88,14 +79,13 @@ The Forms Library is a collection of different document types that are used thro
 * Sketch
 * HTML
 
-
 ### Print Definitions
 
-Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print or fax job. Print definitions can be accessed from either the Scheduler module or any patient chart by clicking the **Print Chart** link. Users are then given the ability to select the desired print definition and set a date range and printing options, such as printing without headers and printing one document per page. In addition, users can not only print and fax, but can send the print definition as a secure email, or even create a batch so that the print definition can be printed or faxed at a later time.  
+Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print or fax job. Print definitions can be accessed from either the Scheduler module or any patient chart by clicking the **Print Chart** link. Users are then given the ability to select the desired print definition and set a date range and printing options, such as printing without headers and printing one document per page. In addition, users can not only print and fax, but can send the print definition as a secure email, or even create a batch so that the print definition can be printed or faxed at a later time.
+
 Additional information can be found in the [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.md) documentation.
 
 ## System Configuration
-
 
 ### Configure Scanners
 
@@ -131,9 +121,7 @@ Review the preferences of security roles and individuals, and ensure document ac
 
 ## Resources
 
-
 ### Help Documentation
-
 
 * [Scanning](../../functions/document-management/scanning-and-indexing/scanning.md)
 * [Indexing](../../functions/document-management/scanning-and-indexing/indexing.md)

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -20,7 +20,8 @@ There are several case types, which designate different required fields as well 
 
 ## Add New Hospital Case
 
-This help documentation is designed to assist in creating and documenting a Hospital case type. Some workflows use various documents or various encounters and need to be linked to a hospital case for tracking. 
+This help documentation is designed to assist in creating and documenting a Hospital case type. Some workflows use various documents or various encounters and need to be linked to a hospital case for tracking.
+
 By default, the Case section of encounters will display the following case types:
 
 * Injury (OSHA Standard)
@@ -29,7 +30,6 @@ By default, the Case section of encounters will display the following case types
 * Absence Management
 * Medical Suitability of Expatriate Assignment (MSEA)
 * Medical Surveillance
-
 
 ![](../adding-hospital-case.assets/895ee8d7d82d2149015041165ef84d4f.png)
 
@@ -58,4 +58,3 @@ Refer to help documentation named [Restrictions and Accommodations](../adding-re
 ## Linking Documents to Cases
 
 Documents can be linked to cases. This can be done via the **Edit Properties** of an existing stored document. Documents can also be linked to cases when indexing from WebScan. Scheduled appointments can also be linked to cases when in the Add Appointment wizard, if necessary.
-

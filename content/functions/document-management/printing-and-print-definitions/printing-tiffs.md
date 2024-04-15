@@ -7,10 +7,9 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Printing Documents from a Tiff Printer
-
 
 1. Open windows based software or WORD.
 2. Call patient report within in the originating application. (ie, pacemaker, sleep study)
@@ -20,13 +19,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 
 4. Select the MIE Tiff Printer from the print drop down if it does not default for you. Then click on "OK".
 
-
 ![](../printing-tiffs.assets/d862dcb130a3d50e381d64e270eb0762.png)
 
-
-{{% system-name %}}5.  will automatically launch and you will be prompted to log in if application is not open. Once logged into {{% system-name %}} , you will be taken directly to the Tiff Indexing screen.
-
-
+5. {{% system-name %}} will automatically launch and you will be prompted to log in if application is not open. Once logged into {{% system-name %}} , you will be taken directly to the Tiff Indexing screen.
 
 6. Once at this screen, Enter Date of Study, Document type, Referring Physician name, Patient name and Service Location. These fields are auto complete fields, so it is not necessary to type the entire data in.
 

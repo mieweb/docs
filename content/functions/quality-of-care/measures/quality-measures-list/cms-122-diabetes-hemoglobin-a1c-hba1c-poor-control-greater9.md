@@ -12,16 +12,17 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms122v10'
 source: 'https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS122v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v8&showresulttype=Measure) (2020)  
-[CMS122v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v9&showresulttype=Measure) (2021)  
+[CMS122v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v8&showresulttype=Measure) (2020)
+
+[CMS122v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v9&showresulttype=Measure) (2021)
+
 [CMS122v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -36,12 +37,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0059</td>
 <td>001</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -58,9 +58,8 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p>
-<ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul>  
-</li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude patients who are in hospice care for any part of the measurement period.</li><li>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</li><li>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:<br />
+<ul><li>Advanced illness with two outpatient encounters during the measurement period or the year prior</li><li>Advanced illness with one inpatient encounter during the measurement period or the year prior</li><li>Taking dementia medications during the measurement period or the year prior</li></ul></li><li>Exclude patients receiving palliative care during the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -74,12 +73,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -102,73 +98,43 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-Track the HbA1c of all diabetic patients between the ages of 18-75.  The most recently performed HbA1c during the measurement period should be <=9.0%.  Any patients with an HbA1c >9% will be included in the numerator and count against quality. Use either the preferred Preventive Care section or the alternate Test and Procedures or Lab Results - Set 1 sections of the encounter. 
+Track the HbA1c of all diabetic patients between the ages of 18-75.  The most recently performed HbA1c during the measurement period should be <=9.0%.  Any patients with an HbA1c >9% will be included in the numerator and count against quality. Use either the preferred Preventive Care section or the alternate Test and Procedures or Lab Results - Set 1 sections of the encounter.
 
 Regardless of how the HbA1c observation is added to the chart, clients will need to ensure that the appropriate observation is configured with one of the following LOINC codes: 4548-4, 4549-2, or 17856-6.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the Hemoglobin A1c observation to determine if multiple HbA1c [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
 
 ### Preferred Workflow
 
-
 1. Preventive Care
 2. Order A1c
-
-   1. Add to exam - enter result
-   2. Interfaced result completes the order
-   3. Manually result
-
-      1. Ordering doc->Add result->complete results encounter
-
-
-
+    1. Add to exam - enter result
+    2. Interfaced result completes the order
+    3. Manually result
+        1. Ordering doc->Add result->complete results encounter
 
 ### Alternate Workflow
 
-
 1. While documenting the Visit encounter, document the results of the HbA1c one of two ways:
-
-
-   1. <strong>Option 1: Test and Procedures Section</strong>
-
-
-
-
-      1. Open the Tests and Procedures section.
-      2. Using the autocomplete, begin typing Hemoglobin A1c.
-      3. Click the Add to Exam button.
-      4. After adding the new section, open the Hemoglobin A1c section and add the result.
-      5. Click the Next button, or close the section.
-
-
-
-
-   2. <strong>Option 2: Add Lab Results - Set 1 to Encounter</strong>
-
-
-
-
-      1. Click the Tools icon in the upper-right corner of the encounter.
-      2. Click the Lab Results - Set 1 header to add the section to the encounter template. Close the Tools window.
-      3. Click the Lab Results - Set 1 header to open the section and add the result.
-      4. Click the Next button, or close the section.
-
-
-
+    1. <strong>Option 1: Test and Procedures Section</strong>
+        1. Open the Tests and Procedures section.
+        2. Using the autocomplete, begin typing Hemoglobin A1c.
+        3. Click the Add to Exam button.
+        4. After adding the new section, open the Hemoglobin A1c section and add the result.
+        5. Click the Next button, or close the section.
+    2. <strong>Option 2: Add Lab Results - Set 1 to Encounter</strong>
+        1. Click the Tools icon in the upper-right corner of the encounter.
+        2. Click the Lab Results - Set 1 header to add the section to the encounter template. Close the Tools window.
+        3. Click the Lab Results - Set 1 header to open the section and add the result.
+        4. Click the Next button, or close the section.
 2. Continue documenting the encounter, as needed.
 3. When completed, Close and Archive the encounter.
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -203,12 +169,9 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -291,12 +254,9 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 <td>Symptom: Frailty Symptom</td>
 <td>2.16.840.1.113883.3.464.1003.113.12.1075</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -307,9 +267,7 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 <td>Laboratory Test, Performed: HbA1c Laboratory Test</td>
 <td>2.16.840.1.113883.3.464.1003.198.12.1013</td>
 </tr>
-
 </table>
-
 
 ### Source(s)
 

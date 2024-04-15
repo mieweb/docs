@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Cases
 
@@ -15,13 +15,16 @@ A Case is a full report of a workplace injury, or incident, for an employee (pat
 
 ### Closing a Case from a Dynamic Encounter
 
-The dynamic encounters offer a Case section.  To see the listing of cases/incidents a chart has while working in an encounter, you must expand the Case section in the encounter.  
+The dynamic encounters offer a Case section.  To see the listing of cases/incidents a chart has while working in an encounter, you must expand the Case section in the encounter.
 
 ![](../closing-an-existing-case.assets/53634e10054f1002bb6009bf2c547b91.png)
 
-When expanded, the Case section lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient. From this listing of cases, in the options column you can close a case.  
-A case (incident) should be closed if the case is entirely completed and considered closed by your work comp carrier or TPA.  If you have a bidirectional interface to your carrier, they may send a flag in the message that automatically closes the case on the {{% system-name %}} side if a carrier is involved in that case type.  Otherwise, it is a manual process.  
-Closing a case is separate/different than closing & archiving an encounter.  A "case" can be open for weeks to months to years. It's the one case/incident that multiple documents and encounters may be tied to.  
+When expanded, the Case section lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient. From this listing of cases, in the options column you can close a case.
+
+A case (incident) should be closed if the case is entirely completed and considered closed by your work comp carrier or TPA.  If you have a bidirectional interface to your carrier, they may send a flag in the message that automatically closes the case on the {{% system-name %}} side if a carrier is involved in that case type.  Otherwise, it is a manual process.
+
+Closing a case is separate/different than closing & archiving an encounter.  A "case" can be open for weeks to months to years. It's the one case/incident that multiple documents and encounters may be tied to.
+
 To close a case when working in an encounter is done by clicking the Close hyperlink found in the options column of the listed cases the chart has on it.
 
 ![](../closing-an-existing-case.assets/860813d300e806d443b5c4b09e1218ba.png)
@@ -59,5 +62,3 @@ The date indicated as the close date will be displayed in the case section listi
 {{% info %}}
 Documents can be linked to closed cases in various modules of  {{% system-name %}} (encounters, indexing, document properties, etc), but it is not recommended unless it's some older documentation that wasn't linked previously.  Otherwise, a case should always remain open until known to officially consider it closed and with your carrier if one is involved.
 {{% /info %}}
-
-

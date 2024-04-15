@@ -10,32 +10,29 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1H4V-7zWMBH0I5hpKrgkNt7LeDhKI-YeWOhocBbYlkBI'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Patient Safety and Practice Assessment
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: For an anticoagulated patient undergoing a planned invasive procedure for which interruption in anticoagulation is anticipated, including patients taking vitamin K antagonists (warfarin), target specific oral anticoagulants (such as apixaban, dabigatran, and rivaroxaban), and heparins/low molecular weight heparins, documentation, including through the use of electronic tools, that the plan for anticoagulation management in the periprocedural period was discussed with the patient and with the clinician responsible for managing the patients anticoagulation. Elements of the plan should include the following: discontinuation, resumption, and, if applicable, bridging, laboratory monitoring, and management of concomitant antithrombotic medications (such as antiplatelets and nonsteroidal anti-inflammatory drugs (NSAIDs)). An invasive or surgical procedure is defined as a procedure in which skin or mucous membranes and connective tissue are incised, or an instrument is introduced through a natural body orifice.
-
-
-
 
 Supporting Documentation
 
-1. Documentation of a process to target specific oral anticoagulants (such as apixaban, dabigatran, and rivaroxaban), and heparins/low molecular weight heparins, including through the use of electronic tools, that the plan for anticoagulation management in the periprocedural period was discussed with the patient and with the clinician responsible for managing the patient's anticoagulation.; and 
-2. The plan should include the following: discontinuation, resumption, and, if applicable, bridging, laboratory monitoring, and management of concomitant antithrombotic medications (such as antiplatelets and nonsteroidal anti-inflammatory drugs (NSAIDs)). 
+1. Documentation of a process to target specific oral anticoagulants (such as apixaban, dabigatran, and rivaroxaban), and heparins/low molecular weight heparins, including through the use of electronic tools, that the plan for anticoagulation management in the periprocedural period was discussed with the patient and with the clinician responsible for managing the patient's anticoagulation.; and
+2. The plan should include the following: discontinuation, resumption, and, if applicable, bridging, laboratory monitoring, and management of concomitant antithrombotic medications (such as antiplatelets and nonsteroidal anti-inflammatory drugs (NSAIDs)).
 
 {{% note %}}
 An invasive or surgical procedure is defined as a procedure in which skin or mucous membranes and connective tissue are incised, or an instrument is introduced through a natural body orifice.
 {{% /note %}}
 
-
-
 Resources
+
 [2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
+
 [2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
+
 [2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

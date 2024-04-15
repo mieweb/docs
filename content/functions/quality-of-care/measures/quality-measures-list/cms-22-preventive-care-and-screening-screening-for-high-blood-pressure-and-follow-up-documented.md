@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10'
 source: 'https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS22v8 ](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure)(2020)  
-[CMS22v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v9&showresulttype=Measure) (2021)  
+[CMS22v8 ](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure)(2020)
+
+[CMS22v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v9&showresulttype=Measure) (2021)
+
 [CMS22v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>317</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -69,15 +69,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Documentation of medical reason(s) for not screening for high blood pressure (e.g., patient is in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status).</p></li><li><p>Documentation of patient reason(s) for not screening for blood pressure measurements or for not ordering an appropriate follow-up intervention if patient BP is elevated or hypertensive (e.g., patient refuses).</p></li></ul></td>
+<td><ul><li>Documentation of medical reason(s) for not screening for high blood pressure (e.g., patient is in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status).</li><li>Documentation of patient reason(s) for not screening for blood pressure measurements or for not ordering an appropriate follow-up intervention if patient BP is elevated or hypertensive (e.g., patient refuses).</li></ul></td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
-
 
 <table>
 <tr>
@@ -100,9 +96,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
-
 
 ## Clinical Instructions
 
@@ -110,27 +104,20 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 
 ### Preferred Workflow
 
-
 1. While documenting the Visit encounter, record the blood pressure, as appropriate
 2. Open the Vitals section and enter the systolic and diastolic pressures
 3. If the blood pressure is high and the patient is assessed prehypertensive or hypertensive, recommend a follow-up plan and document, accordingly
+    1. Open the Preventive Care section
+    2. Open the Hypertension Interventions picklist
+    3. Order the appropriate follow-up items(s) for the patient
 
-   1. Open the Preventive Care section
-   2. Open the Hypertension Interventions picklist
-   3. Order the appropriate follow-up items(s) for the patient
+OR
 
-
-   OR
-
-
-   4. E-prescribe an appropriate hypertension medication
-
-5. Continue documenting the encounter, as needed
-6. When completed, Close and Archive the encounter
-
+    4. E-prescribe an appropriate hypertension medication
+4. Continue documenting the encounter, as needed
+5. When completed, Close and Archive the encounter
 
 ### Alternate Workflow
-
 
 1. While documenting the Visit encounter, record the blood pressure, as appropriate
 2. Open the Vitals section and enter the systolic and diastolic pressures
@@ -139,12 +126,9 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 5. Continue documenting the encounter, as needed
 6. When completed, Close and Archive the encounter
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -155,12 +139,9 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 <td>Encounter, Performed: Encounter to Screen for Blood Pressure</td>
 <td>2.16.840.1.113883.3.600.1920</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -171,12 +152,9 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 <td>Diagnosis: Diagnosis of Hypertension</td>
 <td>2.16.840.1.113883.3.600.263</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -243,9 +221,7 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 <td>Physical Exam, Performed: Systolic blood pressure</td>
 <td>LOINC Code 8480-6</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

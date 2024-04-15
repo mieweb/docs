@@ -9,9 +9,10 @@ links:
   - 'request-e-signature.md'
   - 'e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission. It is also helpful to know who the document was requested to and the document id number, or document type and date of service.  
+From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission. It is also helpful to know who the document was requested to and the document id number, or document type and date of service.
+
 In the All Pending tab, it lists all users who have pending e-sign requests assigned to them.  Click on the user that you need to unrequest an e-sign from.
 
 ![](../un-request-unassign-an-e-signature.assets/24a467b16ee736d52bae0e68fd06a021.png)
@@ -36,8 +37,6 @@ The un-request has been performed and it will display a message as such, while t
 
 ![](../un-request-unassign-an-e-signature.assets/61ea869a73572908db450c09f67a724d.png)
 
-
-
 ## Un-Request via Document
 
 An un-request can be done via the document properties if you are in the document itself.  This eliminates the method of going through the All Pending queue to find a document. Some instances, a user already knows of the specific document the unrequest needs done on.  In that case, when in the document, click the Properties link found at the top right of the document header.
@@ -58,6 +57,6 @@ After clicking View Document, the document will open with options at the top rig
 
 ![](../un-request-unassign-an-e-signature.assets/0b9feca2d4de93cb82e874d99b5668e6.png)
 
-Proceed to request a signature by following the steps outlined in the [Request E-Signature](request-e-signature.md) help guide.  
-If need to un-request all documents in a user's queue, please refer to the [E-Sign All Pending Tab](e-sign-all-pending-tab.md) help guide.
+Proceed to request a signature by following the steps outlined in the [Request E-Signature](request-e-signature.md) help guide.
 
+If need to un-request all documents in a user's queue, please refer to the [E-Sign All Pending Tab](e-sign-all-pending-tab.md) help guide.

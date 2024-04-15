@@ -12,16 +12,17 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms130v10'
 source: 'https://drive.google.com/open?id=17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS130v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure) (2020)  
-[CMS130v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v9&showresulttype=Measure) (2021)  
+[CMS130v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure) (2020)
+
+[CMS130v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v9&showresulttype=Measure) (2021)
+
 [CMS130v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -36,12 +37,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0034</td>
 <td>113</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -58,14 +58,13 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients with a diagnosis or past history of total colectomy or colorectal cancer.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p>
-<ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul>  
-</li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude patients who are in hospice care for any part of the measurement period.</li><li>Exclude patients with a diagnosis or past history of total colectomy or colorectal cancer.</li><li>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</li><li>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:<br />
+<ul><li>Advanced illness with two outpatient encounters during the measurement period or the year prior</li><li>Advanced illness with one inpatient encounter during the measurement period or the year prior</li><li>Taking dementia medications during the measurement period or the year prior</li></ul></li><li>Exclude patients receiving palliative care during the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
-<td>Patients with one or more screenings for colorectal cancer. Appropriate screenings are defined by any one of the following criteria:
-<ul><li><p>Fecal occult blood test (FOBT) during the measurement period</p></li><li><p>Flexible sigmoidoscopy during the measurement period or the four years prior to the measurement period</p></li><li><p>Colonoscopy during the measurement period or the nine years prior to the measurement period</p></li><li><p>FIT-DNA during the measurement period or the two years prior to the measurement period</p></li><li><p>CT Colonography during the measurement period or the four years prior to the measurement period</p></li></ul></td>
+<td>Patients with one or more screenings for colorectal cancer. Appropriate screenings are defined by any one of the following criteria:<br />
+<ul><li>Fecal occult blood test (FOBT) during the measurement period</li><li>Flexible sigmoidoscopy during the measurement period or the four years prior to the measurement period</li><li>Colonoscopy during the measurement period or the nine years prior to the measurement period</li><li>FIT-DNA during the measurement period or the two years prior to the measurement period</li><li>CT Colonography during the measurement period or the four years prior to the measurement period</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
@@ -75,12 +74,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -103,18 +99,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -122,73 +111,35 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Procedures section of the encounter to record a previous Fecal Occult Blood Test (FOBT), Flexible Sigmoidoscopy, Colonoscopy Screening, FIT-DNA, or CT Colonography; otherwise, use the Visit Orders section of the encounter to order/perform one of the recognized procedures at the time of the encounter.
 
 1. While documenting the Visit encounter, either record the previous procedure or the receipt of the colorectal screening, or order and perform the screening, as appropriate:
-
-
-
-   1. <strong>Option 1: Document in the Past Procedures section</strong>
-
-
-
-
-      1. Open the Past Procedures section.
-      2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Colonoscopy) with the appropriate Concept ID.
-      3. Add the Date and any relevant Notes.
-      4. Click the Next button, or close the section.
-
-
-
-
-   2. <strong>Option 2: Document in the Preventive Care section </strong>
-
-
-
-
-      1. Open the Preventive Care section.
-      2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2019). This date is the Last Reported Date.
-      3. Click the Next button, or close the section.
-
-
-
-
-   3. <strong>Option 3: Document in the Tests and Procedures section IF performing the screening in-house</strong>
-
-
-
-
-
-      1. Open the Tests and Procedures section.
-      2. Using the autocomplete, begin typing the appropriate procedure name.
-      3. Click the Add to Exam button.
-      4. After adding the new section, open the procedure section and add any results or findings.
-      5. Click the Next button, or close the section.
-
-
-
+    1. <strong>Option 1: Document in the Past Procedures section</strong>
+        1. Open the Past Procedures section.
+        2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Colonoscopy) with the appropriate Concept ID.
+        3. Add the Date and any relevant Notes.
+        4. Click the Next button, or close the section.
+    2. <strong>Option 2: Document in the Preventive Care section</strong>
+        1. Open the Preventive Care section.
+        2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2019). This date is the Last Reported Date.
+        3. Click the Next button, or close the section.
+    3. <strong>Option 3: Document in the Tests and Procedures section IF performing the screening in-house</strong>
+        1. Open the Tests and Procedures section.
+        2. Using the autocomplete, begin typing the appropriate procedure name.
+        3. Click the Add to Exam button.
+        4. After adding the new section, open the procedure section and add any results or findings.
+        5. Click the Next button, or close the section.
 2. Continue documenting the encounter, as needed.
 3. When completed, Close and Archive the encounter.
 
 * <strong>Option 4: Scan/Index or Upload an accepted screening document</strong>
-
-
-   * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C.
-
-
-
-
-      * Scan/Index or Upload the Colonoscopy Screening document type (COLON) configured with the necessary Concept ID (73761001).
-      * Scan/Index or Upload the Fecal Occult Blood Test document type (FOBT) configured with the necessary LOIN-C (2335-8); otherwise, add the FOBT observation and ensure it is configured with the 2335-8 LOIN-C.
-      * Scan/Index or Upload the Flexible Sigmoidoscopy document type (FLEXSIG) configured with the necessary Concept ID (44441009).
-      * Scan/Index or Upload the Computed Tomographic Colongraphy document type (CTC) configured with the necessary Concept ID (418714002).
-      * Add the Fit DNA observation to the chart either manually, or via an established interface, and ensure the observation is configured with the 77354-9 LOIN-C.
-
-
-
+    * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C.
+        * Scan/Index or Upload the Colonoscopy Screening document type (COLON) configured with the necessary Concept ID (73761001).
+        * Scan/Index or Upload the Fecal Occult Blood Test document type (FOBT) configured with the necessary LOIN-C (2335-8); otherwise, add the FOBT observation and ensure it is configured with the 2335-8 LOIN-C.
+        * Scan/Index or Upload the Flexible Sigmoidoscopy document type (FLEXSIG) configured with the necessary Concept ID (44441009).
+        * Scan/Index or Upload the Computed Tomographic Colongraphy document type (CTC) configured with the necessary Concept ID (418714002).
+        * Add the Fit DNA observation to the chart either manually, or via an established interface, and ensure the observation is configured with the 77354-9 LOIN-C.
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -223,12 +174,9 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -319,12 +267,9 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
 <td>Symptom: Frailty Symptom</td>
 <td>2.16.840.1.113883.3.464.1003.113.12.1075</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -351,9 +296,7 @@ Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Proc
 <td>Procedure, Performed: Flexible Sigmoidoscopy</td>
 <td>2.16.840.1.113883.3.464.1003.198.12.1010</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

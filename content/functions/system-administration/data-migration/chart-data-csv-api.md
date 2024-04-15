@@ -19,13 +19,13 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.   
+The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.
 
 ### Audience
 
-The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Data CSV API. Technical details are provided in the remaining sections.    
+The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Data CSV API. Technical details are provided in the remaining sections.
 
 ### Abstract
 
@@ -36,10 +36,9 @@ The Chart Data CSV API is used to import data related to patients or charts. It 
 * A <strong>user</strong> is an individual who uses an Enterprise Health system as part of their job.
 * <strong>Partitions</strong> organize groups of charts. Partitions are often used to restrict which charts a user can access.
 
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
 
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.  
 This API may also be used to set up relationships between charts. It is part of MIE's standard [Human Resources Interface](https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface), but it may also be used for single imports of new charts or updates to charts.
-
 
 ## Specifications
 
@@ -60,13 +59,13 @@ Definitions for the columns utilized in the specification, as well as commonly u
 ### Field Definitions by Table
 
 The sections that follow outline the fields and data utilized by an EH system.
+
 A chart search in an EH can be completed with one of the following options:
 
 * Patient medical record number (MRN)
 * First Name, Last Name, and Date of Birth
 * Social Security Number (SSN - used in the United States)
 * Social Insurance Number (SIN - used in Canada)
-
 
 #### patients
 
@@ -77,7 +76,9 @@ The patients table is a record of all patients in an EH system. These fields mai
 A Medical Record Number (MRN) is a unique identifier of the patient. A MRN is required to create a new patient chart.
 
 A partition is a means of organizing groups of charts. Partitions are often used to restrict which charts a user can access. This column identifies the partition the medical record appears in (ex: hospital). The value of this field will be the MRN in the partition defined by the column name.
+
 The field @patient_mrns. is required for a demographics import.
+
 [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.md) can be used to modify how patient mrns are processed as the file is loaded.
 
 #### patient_admin
@@ -95,15 +96,18 @@ Patient extended values are used for storing data that doesn't neatly fit into o
 Along with the patient_extended_values table, the patient_extended index table stores patient-relevant organizational-level information for Enterprise Health systems. Hundreds of other data items relevant to a patient's chart that does not fit on the patients or patient_admin tables are stored here. The patient_extended_values table stores the values related to the patient_extended_index table. Information stored on this table is also stored on the observations table via database triggers.
 
 Observations are used to track information that may change from time to time. Typical examples of this are results from lab work. Observations can be used multiple times by replacing them with a new name. If multiple observations have the same name then the optional [group] can be replaced with a different identifier for each distinct observation.
+
 The field obs_result is required to create an observation.
+
 **Optional Field Pair For Observations**
+
 Both of the following fields are needed to link the observation to a patient encounter:
 
 * encounter ext_id
 * encounter interface
 
-
 Including the field encounter order_id will also create an encounter order.
+
 [Chart Observations Import Options](chart-observations-import-options.md) can be used to modify how observations are processed as the file is loaded.
 
 [Chart Observations Default](chart-observations-default-values.md) Values can be used to simplify the import file.
@@ -139,6 +143,5 @@ See [Troubleshooting APIs](../../../resources/system-specifications/application
 [Validating APIs](https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1)
 
 ## Related Pages
-
 
 * [Data Import Master List](data-import-master-list.md)

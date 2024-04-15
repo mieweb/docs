@@ -7,10 +7,9 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 # Multi-Factor Authentication
-
 
 ## Overview
 
@@ -20,20 +19,16 @@ WebChart EHR Multi-Factor Authentication (MFA) is available in all systems (RC20
 
 WebChart EHR supports three levels of MFA.  The level of security can be selected on a per-user basis to meet your organization's needs.
 
-
 * Only for Super-User functions (Least Security)
 * When the system deems appropriate (More Security)
 * At every login (Maximum Security)
-
 
 ## Password Type
 
 WebChart EHR supports two options for the second factor password:
 
-
 * Time-based
-* Counter-based 
-
+* Counter-based
 
 MIE strongly recommends a time-based password; however, a counter-based password is an available option for those users that may have difficulty quickly typing a 6-digit number or have a device which does not reliably keep the current time.
 

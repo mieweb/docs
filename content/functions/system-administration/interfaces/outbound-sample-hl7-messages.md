@@ -10,18 +10,15 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 # SIU, Scheduling
 
 {{% anchor sys="siu-s12" %}}
 
-
 ## SIU^S12
 
-
 ### New Appointment
-
 
 ```
 MSH|^~\&|WCDataSend|handle|wc_hl7d|recv_facil|20210423091057||SIU^S12^SIU_S12|DSD1619205057152978|P|2.5|||||||||||||
@@ -32,14 +29,12 @@ RGS|1||
 AIL|1||^30^^^^^^^Kihei Clinic|||||||||
 AIP|1||12029^Harrington^Cecilia^V^^^MD|RESOURCE|||||||SUBSTITUTE|
 ```
-{{% anchor sys="siu-s14" %}}
 
+{{% anchor sys="siu-s14" %}}
 
 ## SIU^S14
 
-
 ### Updated Appointment
-
 
 ```
 MSH|^~\&|WCDataSend|handle|wc_hl7d|recv_facil|20210429030025||SIU^S14^SIU_S12|DSD1619701225649131|P|2.5|||||||||||||
@@ -52,14 +47,12 @@ RGS|1||
 AIL|1||^40^^^^^^^Kahului Clinic|||||||||
 AIP|1||135^Cook^Ellecia^L.^^^DO|RESOURCE|||||||SUBSTITUTE|
 ```
-{{% anchor sys="siu-s15" %}}
 
+{{% anchor sys="siu-s15" %}}
 
 ## SIU^S15
 
-
 ### Canceled Appointment
-
 
 ```
 MSH|^~\&|WCDataSend|maui|wc_hl7d|recv_facil|20210428235041||SIU^S15^SIU_S12|DSD1619689841639741|P|2.5|||||||||||||
@@ -71,16 +64,14 @@ RGS|1||
 AIL|1||^30^^^^^^^Kihei Clinic|||||||||
 AIP|1||12029^Harrington^Cecilia^V^^^MD|RESOURCE|||||||SUBSTITUTE|
 ```
+
 {{% anchor sys="adt" %}}
 
-
 # ADT, Patient Registration
-
 
 ## ADT^A04
 
 Register a patient.
-
 ```
 MSH|^~\&|WCDataSend|MIE|wc_hl7d|recv_facil|20210701123459||ADT^A04^ADT_A01|DSD1625157299701062|P|2.5|||||||||||||
 EVN||20210701123459||
@@ -89,13 +80,12 @@ PV1|1||^^^MIE||||15104^Barman^Stephen^^^^M.D.|89^LAFFER^MICHAEL|123^Belkin^Alan^
 GT1|1||TESTER^CATHY||456 EAST AVE^^ROYAL OAK^MI^48073|5557770791||19640423000000|F||||||||||||||||||||||||||||||||||||||||||||||
 IN1|1|5273||HAP SENIOR PLUS|2850 W. GRAND BOULEVARD^^DETROIT^MI^48202|||100000291006|||||||HAP SENIOR PLUS|Tester^Cathy|Self|19640423000000|456 East Ave^^Royal Oak^MI^48073|||||||||||||||||10122060000|||||||F||||||
 ```
-{{% anchor sys="adt-a08" %}}
 
+{{% anchor sys="adt-a08" %}}
 
 ## ADT^A08
 
 Update patient information.
-
 ```
 MSH|^~\&|WEBCHART|OMG|RECEIVING_APPLICATION|RECEIVING_FACILITY|20210701123459||ADT^A08^ADT_A01|DSD1625157299704299|P|2.5|||||||||||||
 EVN||20210701123459||
@@ -105,18 +95,16 @@ GT1|1||TEST^BRUCE^JAY||789 ROAD^^WEST BLOOMFIELD^MI^48322|5551238353||1946100100
 IN1|1|4751|14079|AETNA |PO BOX 14079^^LEXINGTON^KY^40512-4079||||||||||AETNA |Test^Bruce^Jay|Self|19461001000000|789 Road^^West Bloomfield^MI^48322|||||||||||||||||W255837512|||||||M||||||
 
 ```
+
 {{% anchor sys="oru" %}}
 
 # ORU, Lab Results
 
 {{% anchor sys="oru-r01" %}}
 
-
 ## ORU^R01
 
-
 ### Discrete
-
 
 ```
 MSH|^~\&|WCDataSend|omg|wc_hl7d|recv_facil|20210709080455||ORU^R01^ORU_R01|DSD1625832295118172|P|2.5|||||||||||||
@@ -153,7 +141,6 @@ NTE|1||Reference Lab: LabCorp Burlington\X0A\1447 York Court\X0A\Burlington, NC 
 
 ### Discrete with Notes
 
-
 ```
 MSH|^~\&|MIE|SHC|MIE|SU|20210621214932||ORU^R01^ORU_R01|DSD1624337372374298|P|2.5.1|||||||||||||
 PID|1|5007|5007^^^MR&1.2.840.114398.1.5110.1&ISO^MR^MR&1.2.840.114398.1.5110.1&ISO||Testabc^Nathaniel||19830101|M|||4444 Ave^^Redwood City^CA^94061||||||||||||||||||||||||||||
@@ -181,9 +168,7 @@ NTE|7||Validated specimen types: Nasopharyngeal (NP), Nasal, Oropharyngeal (OP) 
 
 {{% anchor sys="orm-o01" %}}
 
-
 ## ORM^O01
-
 
 ```
 MSH|^~\&|WCDataSend|DEV|wc_hl7d|recv_facil|20210413152312||ORM^O01^ORM_O01|DSD1618345392293653|P|2.5|||||||||||||
@@ -200,7 +185,6 @@ OBX|2|NM|C6804^TOTAL VOLUME||4||||||||||||||||||||
 
 ### COVID Order
 
-
 ```
 MSH|^~\&|EH|EH|COVID LAB|COVID LAB|20210311091929||ORM^O01^ORM_O01|DSD1615472369786270|P|2.5|||||||||||||
 PID|1|101394|101394^^^MR&1.2.840.114398.1.6391.5&ISO^MR||LAST^FIRST^^^^^L||19820101000000|M|||123 SOUTH ST^^COALINGA^CA^93210^US||5551234567^PRN^PH^email@test.com|55512345677^WPN^PH|||||||||||||||||||||||||
@@ -216,12 +200,9 @@ OBX|1|ST|^BODY SITE||COVID_ANTERIOR_NARES_SWAB||||||||||||||||||||
 
 {{% anchor sys="mdm-t02" %}}
 
-
 ## MDM^T02
 
-
 ### Plain text
-
 
 ```
 MSH|^~\&|WCDataSend||wc_hl7d|recv_facil|20210716121708||MDM^T02^MDM_T02|DSD1626452228213830|P|2.5|||||||||
@@ -237,9 +218,7 @@ NTE|1||CR THORACIC SPINE 3 VIEW|RE
 
 {{% anchor sys="dft-p03" %}}
 
-
 ## DFT^P03
-
 
 ```
 MSH|^~\&|WCDataSend|SENDING_FACILITY|wc_hl7d|recv_facil|20210723040307||DFT^P03^DFT_P03|DSD1627027387370313|P|2.5|||||||||||||
@@ -261,9 +240,7 @@ DG1|2|ICD10|F41.1^Generalized anxiety disorder^I10|Generalized anxiety disorder|
 
 # VXU, Immunizations
 
-
 ## VXU^V04
-
 
 ```
 
@@ -283,5 +260,7 @@ RXA|0|999|20210722000000|20210722000000|115^Tdap^CVX|999|||01^Historical immuniz
 # Related Pages
 
 [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md)
+
 [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
+
 [HL7 Segment Definitions](hl7-segment-definitions.md)

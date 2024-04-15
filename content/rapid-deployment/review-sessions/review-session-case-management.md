@@ -36,128 +36,88 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Agenda
-
 
 * Pre-requisites
 * Overview
 * WR Case Management Workflow Demonstration
-
-   * The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
-
-
+    * The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
 * Linked documentation
 * Case details
 * Referrals
-
-
-
-         * Case management notes
-
-
-
+            * Case management notes
 * Restrictions/Accommodations
 * Disposition/Work Status
-
-
-   * Tasking
-   * Work Related (WR) Case Management Encounter
-
-      * Case Manager
-      * Case
-      * Incident Summary
-      * Plan Narrative flowsheet (customizable & driven by protocol <em>Case Management</em>)
-      * Notes/Tracking
-
-         * Follow-Up Date
-
-      * Restrictions/Accommodations
-
-         * Lost Time Tracking
-
-      * Stages
-
-   * WR Case Management Worklist
-   * Security Role Permissions
-   * Linking Cases
-
-      * Linking existing case to a document (ex: WebScan or File Upload)
-      * Linking visit encounter(s) to existing case
-
-   * Cases stand-alone chart tab
-   * Close case
-
-      * Deleting case or Closing case difference
-
-   * Close/Archive Case Management Encounter (once considered ‘resolved', closed, or another outcome)
-   * Forms can be generated from the current case
-
-      * OSHA 301 configured with an overlay of employee incident data
-      * Generic and State-specific forms
-
-         * Doctor's First Report of Injury
-         * Employer's First Report of Injury
-
-
-   * Reports
-
-      * Case Management Encounters
-      * Daily Activity
-      * Incident Report
-      * OSHA 300 Log
-      * OSHA 300A
-      * Sharps Log
-
-
+    * Tasking
+    * Work Related (WR) Case Management Encounter
+        * Case Manager
+        * Case
+        * Incident Summary
+        * Plan Narrative flowsheet (customizable & driven by protocol <em>Case Management</em>)
+        * Notes/Tracking
+            * Follow-Up Date
+        * Restrictions/Accommodations
+            * Lost Time Tracking
+        * Stages
+    * WR Case Management Worklist
+    * Security Role Permissions
+    * Linking Cases
+        * Linking existing case to a document (ex: WebScan or File Upload)
+        * Linking visit encounter(s) to existing case
+    * Cases stand-alone chart tab
+    * Close case
+        * Deleting case or Closing case difference
+    * Close/Archive Case Management Encounter (once considered ‘resolved', closed, or another outcome)
+    * Forms can be generated from the current case
+        * OSHA 301 configured with an overlay of employee incident data
+        * Generic and State-specific forms
+            * Doctor's First Report of Injury
+            * Employer's First Report of Injury
+    * Reports
+        * Case Management Encounters
+        * Daily Activity
+        * Incident Report
+        * OSHA 300 Log
+        * OSHA 300A
+        * Sharps Log
 * System Configuration
-
-   * Encounter Stages
-   * Follow-Up Date
-   * Incident on-site Locations
-   * Task Rules
-   * Restriction Notification Email functionality to Supervisor
-   * Restriction Types Editor
-   * Accommodation types
-   * Nature of Illness/Injury and Body Parts
-   * Chart Tab Restriction
-   * Report Restriction
-   * Restriction Providers
-   * Legacy System Case Management
-   * My Settings preference for Cases
-   * System Settings (module I&I)
-
+    * Encounter Stages
+    * Follow-Up Date
+    * Incident on-site Locations
+    * Task Rules
+    * Restriction Notification Email functionality to Supervisor
+    * Restriction Types Editor
+    * Accommodation types
+    * Nature of Illness/Injury and Body Parts
+    * Chart Tab Restriction
+    * Report Restriction
+    * Restriction Providers
+    * Legacy System Case Management
+    * My Settings preference for Cases
+    * System Settings (module I&I)
 * System Configuration/Key Decision Points
 * Action Items/Timelines
 * Resources
-
-   * Documentation
-   * LMS Courses/Videos
-
-
-
+    * Documentation
+    * LMS Courses/Videos
 
 # Pre-requisites
 
-
 Before the review session, please provide corresponding documentation:
-
 
 1. Standard Operating Procedures of the current Case Management processes
 2. Any mapping or swim lane documentation for the current Case Management processes
 3. Types of Cases currently being utilized for Case Management
-
-   1. Injury/Illness
-   2. COVID
-   3. Absence Management (if purchased)
-
+    1. Injury/Illness
+    2. COVID
+    3. Absence Management (if purchased)
 4. Questionnaires/flowsheets for the current Case Management processes
 5. Report examples for the current Case Management processes
 6. Forms/Documentation examples that utilize the Case Management processes
 7. Interface needs for the Case Management processes
 8. Email notification examples (employees, supervisors, management group) for the Case Management processes
-
 
 ## Overview
 
@@ -169,21 +129,13 @@ Standard functionality includes:
 * WR Case Management Worklist portlet for tracking and managing cases.
 * Case Management Reports
 
-
-
 # WR Case Management Workflow Demonstration
-
-
 
 * [WR Case Management Demonstration](https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M)
 
-
-
 # Tasking
 
-
 There are several out-of-the-box Tasklist Events for the Case Management department. When an employee submits a Report of Injury form on the portal, the Case Management department is tasked with reviewing the report and the incident. If a Medical Certificate (document type ‘medcert') is created, a task for the Case Management department is also created for review. And lastly, if an Outside Case (document type ‘injury') is reported, a task is created to review.
-
 
 ## WR Case Management Encounter
 
@@ -196,15 +148,25 @@ To assist with managing WR Case Management encounters, {{% system-name %}} can h
 {{% /info %}}
 
 Overall, a new WR Case Management encounter should be created for a case/incident if one does not already exist, as noted on the worklist. The WR Case Management encounter offers the following sections that Case Managers or staff may use to document information throughout the duration of the reported case/incident:
+
 **Case Manager**: The *Case Manager* field is used to notate the case manager(s) or staff responsible for managing the case.
+
 **Case**: The *Case* section can be used to create and document a new case, or select and link an existing case/incident.
+
 **Presenting Restrictions**: The *Presenting Restrictions* section is used to display any restrictions currently in effect, as a result of the incident.
+
 **Linked Documents**: The *Linked Documents* section displays all relevant documents linked to the WR Case Management encounter.
+
 **Tests & Procedures**: Displays active, pending Due List items (i.e., tests and/or procedures) that may be performed and completed within the encounter.
+
 **Symptoms/Diagnosis**: The *Symptoms/Diagnosis* section is used to document the diagnosis/assessment of the WR Case Management encounter.
+
 **Incident Summary**: The *Incident Summary* section will display if the WR Case Management encounter is linked to an Injury OSHA case type. When linked, this section provides fields for updating case information, as needed.
+
 **Notes/Tracking**: The *Notes/Tracking* section can be used to document all ongoing notes regarding the case, allowing staff to easily track progress over time by way of notes, associated timestamps, and recorded follow-up dates. Follow-up dates are great for ensuring individuals are continuing to be monitored, particularly if an outside provider is overseeing the case. The Follow-up Date will appear on the WR Case Management Worklist portlet, providing visibility to any ongoing management needs of an open case.
+
 **Visit Orders**: Any referral orders needing to be created may be done using the *Visit Orders* section.
+
 **Restrictions & Accommodations**: *Restrictions & Accommodations* can be added or maintained from within this section. Add, edit, or end any necessary restrictions, as appropriate.
 
 {{% info %}}
@@ -224,6 +186,7 @@ All case management staff should have the WR Case Management portlet set to disp
 ## Security Role Permissions
 
 In order to effectively utilize the {{% system-name %}} case management tools, ensure the proper security permissions are provided to all applicable users, to the extent necessary.
+
 **Statistics**: Allows users to access reports from the Reports sidemenu. When set to **Yes**, users may access reports, as needed.
 
 **EMR Encounter Permissions**: Because tracking and managing cases is done via encounters, it is important to review all encounter security permissions in the EMR section of a user's individual security controls. Ensure proper security permissions are provided for **View Encounters**, **Delete Encounters**, **Link Documents to Encounters**, **Reopen Closed Encounters**, and **Remove Encounter Sections**.
@@ -237,7 +200,6 @@ It is important to consider what information case managers and staff need to acc
 {{% /tip %}}
 
 ## System Configuration
-
 
 ### WR Case Management Encounter Stages
 
@@ -258,9 +220,13 @@ Clients may wish to review default tasklist events for case management, and depe
 ### Restriction Type Editor
 
 All clinical restriction types are listed under the [Restriction Types tab](https://system/?f=admin&subfunc=crteditor&tabmodule=admin&tabselect=Restriction+Types) of the **Control Panel**. This is known as the **Restriction Type Editor**. Review all of the standard restriction types, and determine if any additional restriction types need to be considered or added, to accommodate the case management workflows.
+
 **Accommodation Types**
+
 All Accommodation Types are listed under the **System Editors** of the **Control Panel**. Review all of the standard accommodation types, and determine if any additional accommodation types need to be considered or added, to meet the needs of the case management workflows.
+
 **Nature of Injury/Illness and Body Part**
+
 If documenting injuries and illnesses, the case contains Nature of Injury or Illness and Body Part dropdowns. These are built into the system and are preloaded with various options. Though there is no established editor to change the listed choices, MIE can add/delete options, as needed.
 
 ### Chart Tab Restrictions
@@ -274,6 +240,7 @@ Depending on the client's needs, specific reports may be restricted from Case Ma
 ### Restriction Providers
 
 When documenting a restriction in the *Restrictions and Accommodations* section of an encounter, there is an optional field allowing users to notate the name of the provider assigning the restriction. By default, the **Provider** field is mapped to the *Physicians* department. This means that all available selections are *internal* providers, with active login credentials.
+
 There is the ability to map an alternative department that would allow for selecting both internal *and* external providers if preferred. To do so requires a new *Restriction Provider* department to be created and used, in place of the *Physicians* department. This provides a department where external providers can be created, and any internal providers can be tied to.
 
 External provider names can be full physician names, location names, or something more generic, such as XYZ Urgent Care, or Outside Provider. Determine the best options according to the tracking and reporting needs of the organization. Once the new department is created and provider(s) added, MIE will change the realm in the layout so that the new department will be mapped to the Provider field, as needed.
@@ -301,9 +268,13 @@ If cases are being created to link and document historical data, it is best prac
 ### Preloaded Forms and Templates
 
 As a standard, {{% system-name %}} includes various templates and preloaded forms designed to assist clients in their case management workflows and processes. Clients should review the existing email and document templates, as well as any preloaded forms, for verbiage and content. Determine if any additional email templates, forms, or document templates (e.g., text, sketch, MS Word, etc.) are needed for the established case management workflow(s).
+
 **My Settings Preferences for Cases**
+
 There is one setting within the My Settings in regards to cases called Show Closed Cases. Review whether the client would prefer to show closed cases or not within the Cases tab.
+
 **System Settings (Injury & Illness Module)**
+
 System settings associated with Case Management can be found under the Injury & Illness (I&I) module of System Settings. Review the I&I module system settings and update to the client's needs and preferences.
 
 ## Reporting
@@ -316,17 +287,11 @@ All clients should review the available reports to determine if any additional r
 
 # Key Decision Points
 
-
-
 1. Are Case Managers to be utilized in future Case Management Workflows?
-
-   1. Do Case Managers need to have limited/restricted access?
-
-      1. If so, List of all Case Managers needed for restricted access setup
-      2. What restricted Chart tabs, print definitions, or documents are needed?
-      3. What access is needed for Case Managers?
-
-
+    1. Do Case Managers need to have limited/restricted access?
+        1. If so, List of all Case Managers needed for restricted access setup
+        2. What restricted Chart tabs, print definitions, or documents are needed?
+        3. What access is needed for Case Managers?
 2. What should be configured in the Plan Narrative section Case Management protocol flowsheet?
 3. What Case Management Reports are needed?
 4. What Stages are needed?
@@ -335,18 +300,13 @@ All clients should review the available reports to determine if any additional r
 7. Audit Restriction choices and provide a list of any to add or remove
 8. Audit Nature of Injury/Illness drop-down choices and provide a list of any to add or remove
 
-
-
 # Action Items/Timelines
 
 ***Link to Homework Tracker**
 
-
 ## Resources
 
-
 ### CSV Import Tools & OSHA E-file Info
-
 
 * [Case Management CSV API Specification Spreadsheet](https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=0)
 * [User Instructions for Importing Data (Data Import Standards)](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards.html)
@@ -355,9 +315,7 @@ All clients should review the available reports to determine if any additional r
 * [Lost Time CSV Import Specification](https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY)
 * [Example of Lost Time Import](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)
 
-
 ### Help Documentation
-
 
 * [Cases-Adding Absence Management Case](../../functions/injury-care/case-management/adding-absence-management-case.md)
 * [Cases-Adding Hospital Case](../../functions/injury-care/case-management/adding-hospital-case.md)
@@ -372,15 +330,9 @@ All clients should review the available reports to determine if any additional r
 * [OSHA 300 Log Report](../../functions/reports/osha-300-log-report.md)
 * [Incident Report](../../functions/reports/incidents-report.md)
 
-
-
 ### LMS Courses
-
 
 * [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
 * [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)
 * [Injury/Illness and OSHA Reports](https://mie.talentlms.com/shared/start/key:AABHRKMF)
 * [Absence Management](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses)
-
-
-

@@ -13,7 +13,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create completed order records using the Completed Orders CSV API.
 
@@ -23,7 +23,8 @@ The abstract that follows should be presented to decision-makers or stakeholders
 
 ## Abstract
 
-The Completed Orders CSV API imports patient order records.  
+The Completed Orders CSV API imports patient order records.
+
 It is valuable to recognize the following terminology as it pertains to MIE systems:
 
 * A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
@@ -34,16 +35,22 @@ CSV refers to the type of file and format of data needed to import information i
 
 ## Workflow Considerations
 
-If you have panels with action items set to trigger on *prior action (completed)* (see other help documentation named *Health Surveillance Panels-Actions.pdf*) then it's important to have specific order items in the employee's history to have the ‘last completed' date so the system knows when the last specific order item was marked complete in order to trigger other action items dependent on it. The *last completed date* is imported during the migration process to ensure that surveillance actions trigger with the appropriate due date.  This is needed for manual and/or {{% system-name %}} automated panel membership needs before the HR feed is turned on and before panel membership automation (if there is any) gets turned on and processes via the scheduled job.  
-Access the Data Import tab found in Control. See the [Data Import Tab](data-import-tab.md) help documentation.  
+If you have panels with action items set to trigger on *prior action (completed)* (see other help documentation named *Health Surveillance Panels-Actions.pdf*) then it's important to have specific order items in the employee's history to have the ‘last completed' date so the system knows when the last specific order item was marked complete in order to trigger other action items dependent on it. The *last completed date* is imported during the migration process to ensure that surveillance actions trigger with the appropriate due date.  This is needed for manual and/or {{% system-name %}} automated panel membership needs before the HR feed is turned on and before panel membership automation (if there is any) gets turned on and processes via the scheduled job.
+
+Access the Data Import tab found in Control. See the [Data Import Tab](data-import-tab.md) help documentation.
+
 Make sure all order items are listed in the import template tool that are part of the panel w/ a completion date, along w/ the representative event order item. Work with your MIE Implementer to import completed orders for Health Surveillance Panel needs.
+
 ![](../completed-orders-import-tool.assets/b0bffbd5c9285eafb567f3850be952d3.png)
+
 Importing prior order id's as ‘completed' will show them as completed along w/ the date in the Due List View along w/ the comment from the import tool spreadsheet.
+
 ![](../completed-orders-import-tool.assets/ed1c588f98b3f68c001e36251d2d9f8c.png)
 
 ## Specifications
 
-The following sections provide insight for technical personnel working with the provided import specifications. Although the specifications provided include details on each field utilized in the import, the sections below include further discussion on best practices for imported data to provide the best functionality in {{% system-name %}} .  
+The following sections provide insight for technical personnel working with the provided import specifications. Although the specifications provided include details on each field utilized in the import, the sections below include further discussion on best practices for imported data to provide the best functionality in {{% system-name %}} .
+
 [Specifications for the Completed Orders CSV API are available here.](https://docs.google.com/spreadsheets/d/1OyCm9CuBEdQIlkXb7OtLIbnXB47UIFgnDzmR7J8j2Cw/edit#gid=0)
 
 {{% tip %}}
@@ -67,13 +74,11 @@ The following fields are required:
 * <em>Chart ID</em> (encounter_orders.pat_id) and <em>Chart ID Type</em> encounter_orders.pat_id_type) are used to to correctly identify a chart.
 * <em>Completed Date</em> (encounter_orders.completed_dt) is the date the order was completed.
 
-
 #### Best Practice
 
 Although this information is not required, it is considered a best practice to use them:
 
 * <em>Due Date</em> (encounter_orders.due_date) is the date that the order(s) is due.
-
 
 #### Optional Fields
 
@@ -83,14 +88,11 @@ These fields are optional:
 * <em>Comments</em> (encounter_orders.comments) list any comments associated with the order.
 * <em>Panel ID</em> (panel.panel_id) specifies the ID of the panel that this order is associated with.
 
-
 ## Examples of CSV
-
 
 ### Single Row Import
 
 This example imports two completed orders due to there being two order_ids (this is useful when multiple orders have been completed at the same time):
-
 ```
 
 
@@ -101,7 +103,6 @@ encounter_orders.pat_id, encounter_orders.pat_id_type, encounter_orders.complete
 
 ### Multiple Row Examples
 
-
 ```
 This first example shows how even though there may be one row utilizing multiple order_id columns, subsequent rows need not:
 
@@ -111,8 +112,8 @@ encounter_orders.pat_id, encounter_orders.pat_id_type, encounter_orders.complete
 
 
 ```
-This next example illustrates having six encounter_order.order_id columns:
 
+This next example illustrates having six encounter_order.order_id columns:
 ```
 
 
@@ -130,7 +131,4 @@ Example file with multiple order_id columns for four patients. Two of the patien
 
 ## Related Pages
 
-
 * [Data Import Master List](data-import-master-list.md)
-
-

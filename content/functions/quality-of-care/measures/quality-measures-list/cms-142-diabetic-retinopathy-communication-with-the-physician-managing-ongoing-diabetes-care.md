@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms142v10'
 source: 'https://drive.google.com/open?id=1hZk611fsSe3YlJaMUWzYn0T3aaNCB8FVMkykoD2uKxA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS142v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v8&showresulttype=Measure) (2020)  
-[CMS142v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v9&showresulttype=Measure) (2021)  
+[CMS142v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v8&showresulttype=Measure) (2020)
+
+[CMS142v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v9&showresulttype=Measure) (2021)
+
 [CMS142v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>019</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -69,14 +69,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Documentation of medical reason(s) for not communicating the findings of the dilated macular or fundus exam to the physician who manages the ongoing care of the patient with diabetes.</p></li><li><p>Documentation of patient reason(s) for not communicating the findings of the dilated macular or fundus exam to the physician who manages the ongoing care of the patient with diabetes.</p></li></ul></td>
+<td><ul><li>Documentation of medical reason(s) for not communicating the findings of the dilated macular or fundus exam to the physician who manages the ongoing care of the patient with diabetes.</li><li>Documentation of patient reason(s) for not communicating the findings of the dilated macular or fundus exam to the physician who manages the ongoing care of the patient with diabetes.</li></ul></td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -99,29 +96,18 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Communication and Care Coordination</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
-
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -152,12 +138,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Encounter, Performed: Outpatient Consultation</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1008</td>
 </tr>
-
 </table>
 
-
 ### Denominator
-
 
 <table>
 <tr>
@@ -168,12 +151,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Diagnostic Study, Performed: Macular Exam</td>
 <td>2.16.840.1.113883.3.526.3.1251</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -192,12 +172,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Communication, Performed: Macular Edema Findings Present</td>
 <td>2.16.840.1.113883.3.526.3.1320</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exceptions
-
 
 <table>
 <tr>
@@ -216,9 +193,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Communication, Not Performed: Macular Edema Findings Present</td>
 <td>2.16.840.1.113883.3.526.3.1320</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

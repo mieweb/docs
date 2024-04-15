@@ -10,37 +10,31 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Hxs7f9GCBtt0Cj_mH5Nf8L5_QLnE0W8a-Or2Tfg8TQs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Care Coordination
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Care Coordination  
 **Description**: Develop pathways to neighborhood/community-based resources to support patient health goals that could include one or more of the following:
 
-* Maintain formal (referral) links to community-based chronic disease self-management support programs, exercise programs and other wellness resources with the potential for bidirectional flow of information; and 
+* Maintain formal (referral) links to community-based chronic disease self-management support programs, exercise programs and other wellness resources with the potential for bidirectional flow of information; and
 * Provide a guide to available community resources. including through the use of tools that facilitate electronic communication between settings;
 * Screen patients for health-harming legal needs;
 * Screen and assess patients for social needs using tools that are preferably health IT enabled and that include to any extent standards-based, coded question/field for the capture of data as is feasible and available as part of such tool; and/or
 * Provide a guide to available community resources.
 
-
-
-
-
 Supporting Documentation
 
-1. Community-Based Chronic Disease Self-Management Programs - Documentation of community-based chronic disease self-management support programs, exercise programs, and other wellness resources (including specific names) with which practices have formal referral links and have potential bidirectional flow of information; or 
+1. Community-Based Chronic Disease Self-Management Programs - Documentation of community-based chronic disease self-management support programs, exercise programs, and other wellness resources (including specific names) with which practices have formal referral links and have potential bidirectional flow of information; or
 2. Provision of Community Resource Guides - Medical record demonstrating provision of a guide to community resources.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

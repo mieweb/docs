@@ -6,13 +6,14 @@ version: 83
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ![](../inventory-module-settings.assets/268ee4a57c3887e20d82ea1242d53e97.png)
 
 ## Inventory Module Security Settings
 
 The following are security settings available for users in order to utilize the Inventory module.
+
 ![](../inventory-module-settings.assets/08375b5cfe4f8fd45ff94041876bc874.png)
 
 * <strong>View Inventory:</strong> Allows users access to the <em>Inventory</em> tab and modality on the left side bar menu.
@@ -32,10 +33,10 @@ The following are security settings available for users in order to utilize the 
 * <strong>Manage Stockpiles:</strong> Allows users to add and edit inventory stockpile sub-locations for main inventory locations via the <em>Stockpiles</em> tab of Inventory module. MIE has to delete a stockpile if needed.
 * <strong>Manage Stock Warning Levels:</strong> Allows users to manage inventory warning levels via <em>Par Levels</em> tab of Inventory module. Par Level minimums and maximums for general inventory items can be set or edited if users have this access.
 
-
 ### Inventory Module My Settings Preferences
 
 The following are user preferences available for users in order to utilize the Inventory module.
+
 ![](../inventory-module-settings.assets/9494353039958f238a09f93b31d61fdc.png)
 
 * <strong>Transaction Search:</strong> In the Inventory module, this user preference to <em>Show Search</em> or <em>Hide Search</em> determines if the transaction screen advanced search fields will automatically show or hide on the landing page each time the user opens the Transaction Search tab of Inventory module.
@@ -43,24 +44,27 @@ The following are user preferences available for users in order to utilize the I
 * <strong>Number of Verified:</strong> Select # of Verified Fills you wish to display on your screen for each patient. Example: if select 5 as your user preference, it will only show the first 5 Verified Fills for that patient, then you would click <em>next</em> to get the next 5, etc. This applies to MedQueue tab and Dispense tab and if verification functionality is turned on via system setting for the {{% system-name %}} system.
 * <strong>Number of Fill Requests:</strong> Select # of Requests you wish to display on your screen for each patient. Example: if select 5 as your user preference, it will only show the first 5 fill requests, then you would click <em>next</em> to get the next 5, etc. This applies to MedQueue tab and Dispense tab.
 
-
 ### Inventory Module System Settings
 
-The following are system settings available for enabled or disabled features and functionality for the Inventory module. Some inventory system settings will not show up (will not be triggered to be able to view or set enable/disable functionality in System Settings module) until you have added inventory and done some setup in the {{% system-name %}} system and/or prescribed and/or done a test dispense/fill.  
-![](../inventory-module-settings.assets/08324bb48c49703ba3db5cd49a492a5e.png) ![](../inventory-module-settings.assets/1dbcdf0efa0f48fb6e1151c6773a3326.png)
+The following are system settings available for enabled or disabled features and functionality for the Inventory module. Some inventory system settings will not show up (will not be triggered to be able to view or set enable/disable functionality in System Settings module) until you have added inventory and done some setup in the {{% system-name %}} system and/or prescribed and/or done a test dispense/fill.
+
+![](../inventory-module-settings.assets/08324bb48c49703ba3db5cd49a492a5e.png)
+
+![](../inventory-module-settings.assets/1dbcdf0efa0f48fb6e1151c6773a3326.png)
+
 ![](../inventory-module-settings.assets/69b66433641cefea262ba5cc40d2de68.png)
+
 ![](../inventory-module-settings.assets/4b8865b8ef240be6de1095d17fe6f0a2.png)
+
 ![](../inventory-module-settings.assets/67ec01c22cfe57cb138065c4dbaf2f93.png)
 
 #### Injections
-
 
 * <strong>E-Chart, Injections, Show Inventory Qty in Autocompletes:</strong> Disabled (value 0) by default, but recommended to enable if using inventory module for immunizations. If enabled (value 1), while working in <em>Add Injection/Immunization</em> module to document an injection, it will show the total QTY (quantity) next to any injection/immunization you are documenting available in inventory and also shows QTY (quantity) for that specific vial/lot# available in that field. This allows seeing the quantity for the injection/immunization you have in inventory and per specific lot, for decrementing inventory for injections/immunizations mapped to inventory.
 
 ![](../inventory-module-settings.assets/777493d3da391e1f1e7b8341dc15b885.png)
 
 #### Inventory
-
 
 * <strong>E-Chart, Inventory, Allow Non-Inventory Dispensing:</strong> In most cases, this will not be enabled and shouldn't be. Normally the inventory module functionality only allows dispensing of items which are tracked in the inventory module. If this system is enabled (value 1) then dispensing is allowed on anything, any medication, etc even outside the items in inventory which they choose to auto-complete in the dispense dialog.
 * <strong>E-Chart, Inventory, By Site:</strong> Disabled (value 0) by default. If enabled (value 1), you can add inventory to master list, add inventory quantity when receiving new inventory items and decrement inventory by a specific site/location.
@@ -92,7 +96,6 @@ The following are system settings available for enabled or disabled features and
 * <strong>Inventory, Label Printing, Enforce Labels in Landscape:</strong> Enabled (value 1) by default. This will render the label for the dispensable inventory medication in landscape fashion for a dymolabel printer.
 * <strong>Inventory, Lot Numbers, Are Required:</strong> If using Lot Numbers system setting is enabled and staff keys in Lot Numbers for medication inventory, this system setting is enabled (value 1) by default. When working Fill Requests via the Med Queue and/or Dispense chart tab, the staff will be required to enter in lot# field before the fill request can be completed. Lot numbers field requirement when documenting immunizations is a separate system setting and this lot# field system setting isn't applied to order supplies even if this system setting is enabled. If this is enabled (value 1) when you are working the "Add Inventory" to add quantity to your system, it will require the Lot # field to be filled out also to be able to add inventory qty.
 
-
 #### Transaction Report
 
 Run a test Transaction Report in the {{% system-name %}} system to make these system settings appear and trigger in the system.
@@ -110,12 +113,8 @@ Run a test Transaction Report in the {{% system-name %}} system to make these sy
 
 #### Supply Orders
 
-
 * <strong>Orders, Settings, Order From Inventory:</strong> Disabled (value 0) by default. Recommended to enable (value 1) if using inventory module for supply orders. This system setting then enables ability to order supply items from inventory using <em>orders</em> and makes the QTY# (quantity) show up on each order item when ordering supplies from inventory. This will allow the order item to decrement from inventory.
-
-
-   * So essentially to see QTY# (quantity) count of current inventory for order supplies tied to inventory, this system setting must be enabled.
-
+    * So essentially to see QTY# (quantity) count of current inventory for order supplies tied to inventory, this system setting must be enabled.
 
 ![](../inventory-module-settings.assets/52c04ef620d860351d0f5e7124704f06.png)
 
@@ -128,7 +127,6 @@ Run a test Transaction Report in the {{% system-name %}} system to make these sy
 ![](../inventory-module-settings.assets/a44510b9bf0be9a0a4fdf80edd079baf.png)
 
 #### Dispense
-
 
 * <strong>E-Chart, Dispense, Confirm User on Transactions:</strong> Enabled (value 1) by default. This requires the user's username and password to dispense a medication prescription from inventory in the Dispense chart tab. This is considered double authentication. Disable (value 0) to not show the username and password double authentication fields in the Dispense tab when working a fill request.
 

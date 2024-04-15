@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-patient-registration.md'
   - '../../review-sessions/review-session-document-management.md'
 source: 'https://drive.google.com/open?id=1i-O15wMVtd1z-_3p7cFpA9pTPSVWtSHotxi2wKwJXek'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Purpose
 
@@ -21,70 +21,24 @@ Review the standard  {{% system-name %}} workflows and gather any information n
 
 ### Agenda - 2 Hours
 
-
 * Patient Registration Demonstration
-
-
-   * E-Chart Overview
-
-
-
-
-      * Patient Registration (Manual)
-
-
-
-
-
-
-         * Demographics
-         * E-Chart Photos
-
-
-
-
-
-
-      * Relationships/User Roles
-
-
-
-
-   * System Configuration
-
-
-
-
-      * Partitions and Partition Restrictions
-
-
-
+    * E-Chart Overview
+        * Patient Registration (Manual)
+            * Demographics
+            * E-Chart Photos
+        * Relationships/User Roles
+    * System Configuration
+        * Partitions and Partition Restrictions
 * Document Management Demonstration
-
-
-   * Overview
-
-
-
-
-      * Scanning/Indexing
-      * Insurance Card/Driver's License Scanning
-      * Forms Library
-      * Print Definitions
-      * System Configuration
-
-
-
-
-
-
-         * Scanners
-         * Forms Library Document Types
-         * Print Definitions
-
-
-
-
+    * Overview
+        * Scanning/Indexing
+        * Insurance Card/Driver's License Scanning
+        * Forms Library
+        * Print Definitions
+        * System Configuration
+            * Scanners
+            * Forms Library Document Types
+            * Print Definitions
 
 ## Afterward
 

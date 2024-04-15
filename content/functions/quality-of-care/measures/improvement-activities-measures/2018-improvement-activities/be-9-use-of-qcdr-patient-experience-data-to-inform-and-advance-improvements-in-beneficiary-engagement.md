@@ -10,27 +10,24 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1GdlE0R7E_rmuJzjesPftlvEXbJ1k9Ji4HfwLWtsly9M'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Beneficiary Engagement
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Beneficiary Engagement  
 **Description**: Use of QCDR patient experience data to inform and advance improvements in beneficiary engagement.
 
+Supporting Documentation
 
-
-
-Supporting Documentation  
 Participation in QCDR to inform and advance improvements in beneficiary engagement , e.g., regular feedback reports provided by the QCDR that show participation in the use of patient experience measures/activities in informing and advancing beneficiary engagement.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

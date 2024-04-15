@@ -35,11 +35,9 @@ links:
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
   - 'https://fhir.org/implementations/registry/'
 source: 'https://drive.google.com/open?id=1OsmZkGvdNSksxVila_KBGbU6irLpxmULR8TFNEzs6t8'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## General Information
-
-
 
 <table>
 <tr>
@@ -74,54 +72,35 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Results Version</strong></td>
 <td>Q1Q2, completed 08/XX/2023</td>
 </tr>
-
 </table>
-
-
 
 ## Certification Criteria to be Tested
 
-
 * Care Coordination
-
-   * § 170.315(b)(1) Transitions of care (Cures Update)
-   * § 170.315(b)(2) Clinical information reconciliation and incorporation (Cures Update)
-   * § 170.315(b)(3) Electronic prescribing (Cures Update)
-   * § 170.315(b)(6) Data export
-   * § 170.315(b)(7) Security tags - summary of care - send (Cures Update)
-   * § 170.315(b)(8) Security tags - summary of care - receive (Cures Update)
-   * § 170.315(b)(9) Care plan (Cures Update)
-
+    * § 170.315(b)(1) Transitions of care (Cures Update)
+    * § 170.315(b)(2) Clinical information reconciliation and incorporation (Cures Update)
+    * § 170.315(b)(3) Electronic prescribing (Cures Update)
+    * § 170.315(b)(6) Data export
+    * § 170.315(b)(7) Security tags - summary of care - send (Cures Update)
+    * § 170.315(b)(8) Security tags - summary of care - receive (Cures Update)
+    * § 170.315(b)(9) Care plan (Cures Update)
 * Clinical Quality Measures
-
-   * § 170.315(c)(1)—record and export
-   * § 170.315(c)(2)—import and calculate
-   * § 170.315(c)(3)—report (Cures Update)
-
+    * § 170.315(c)(1)—record and export
+    * § 170.315(c)(2)—import and calculate
+    * § 170.315(c)(3)—report (Cures Update)
 * Patient Engagement
-
-   * § 170.315(e)(1) View, download, and transmit to 3rd party (Cures Update)
-
+    * § 170.315(e)(1) View, download, and transmit to 3rd party (Cures Update)
 * Public Health
-
-   * § 170.315(f)(1) Transmission to immunization registries
-
+    * § 170.315(f)(1) Transmission to immunization registries
 * Application Programming Interfaces
-
-   * § 170.315(g)(7) Application access— patient selection
-   * § 170.315(g)(8) Application access— data category request
-   * § 170.315(g)(9) Application access— all data request (Cures Update)
-   * § 170.315(g)(10) Standardized API for patient and population services
-
+    * § 170.315(g)(7) Application access— patient selection
+    * § 170.315(g)(8) Application access— data category request
+    * § 170.315(g)(9) Application access— all data request (Cures Update)
+    * § 170.315(g)(10) Standardized API for patient and population services
 * Electronic Exchange
-
-   * § 170.315(h)(1) Direct Project
-
-
+    * § 170.315(h)(1) Direct Project
 
 ## Criteria-Measure Matrix
-
-
 
 <table>
 <tr>
@@ -320,7 +299,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>28</td>
 </tr>
 <tr>
-<td>
+<td><br />
 <a href="https://www.healthit.gov/test-method/care-plan#cures_tp">§170.315(b)(9):  Care plan</a></td>
 <td>(b)(9) - Record</td>
 <td>24</td>
@@ -563,14 +542,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>(h)(1)(ii) - Message Disposition Notification: Failed</td>
 <td>12</td>
 </tr>
-
 </table>
-
 
 ## Justification for Real World Testing Approach
 
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
-
 
 ## Standards Updates ([SVAP](https://www.healthit.gov/topic/standards-version-advancement-process-svap) and USCDI)
 
@@ -585,11 +561,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 * HL7® FHIR® SMART Application Launch Framework Implementation Guide Release 1.0.0, November 13, 2018
 * HL7® FHIR® Bulk Data Access (Flat FHIR®) (v1.0.0: STU 1), August 22, 2019
 
-
-
 ### WCAG SVAP - Planned
-
-
 
 <table>
 <tr>
@@ -620,13 +592,9 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 <td><strong>Date of customer notification (SVAP only)</strong></td>
 <td>TBD 2023</td>
 </tr>
-
 </table>
 
-
 ### USCDI SVAP - Planned
-
-
 
 <table>
 <tr>
@@ -647,7 +615,7 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 </tr>
 <tr>
 <td><strong>USCDI updated certification criteria (and USCDI version)</strong></td>
-<td><ul><li><p>Transitions of Care §170.315(b)(1) USCDI v1</p></li><li><p>Clinical information reconciliation and incorporation §170.315(b)(2) USCDI v1</p></li><li><p>Care plan §170.315(b)(9) USCDI v1</p></li><li><p>View, download, and transmit to 3rd party §170.315(e)(1) USCDI v1</p></li><li><p>Consolidated CDA creation performance §170.315(g)(6) USCDI v1</p></li><li><p>Application access - all data request §170.315(g)(9) USCDI v1</p></li></ul></td>
+<td><ul><li>Transitions of Care §170.315(b)(1) USCDI v1</li><li>Clinical information reconciliation and incorporation §170.315(b)(2) USCDI v1</li><li>Care plan §170.315(b)(9) USCDI v1</li><li>View, download, and transmit to 3rd party §170.315(e)(1) USCDI v1</li><li>Consolidated CDA creation performance §170.315(g)(6) USCDI v1</li><li>Application access - all data request §170.315(g)(9) USCDI v1</li></ul></td>
 </tr>
 <tr>
 <td><strong>Planned SVAP version</strong></td>
@@ -657,16 +625,11 @@ All certified criteria in WebChart EHR use the current standard or implementatio
 <td><strong>Planned SVAP date</strong></td>
 <td>TBD 2023</td>
 </tr>
-
 </table>
-
-
-
 
 ## Care Setting(s)
 
 WebChart EHR is a scalable, web-based system designed for ambulatory practices and clinics.  The same product is distributed to all care settings with many configuration options.  Each practice can use the available configuration to tailor the product to fit their workflows and use requirements.
-
 
 <table>
 <tr>
@@ -693,9 +656,7 @@ WebChart EHR is a scalable, web-based system designed for ambulatory practices a
 <td>Large Multi-practice Clinic</td>
 <td>The size and location of a practice can impact their interoperability options.  We will test with both small/rural and large/urban practices to ensure all practices have full interoperability functionality.</td>
 </tr>
-
 </table>
-
 
 ## Measures Used in Overall Approach
 
@@ -703,13 +664,11 @@ The following measures outline and justify how each requirement of all criteria 
 
 ### Measure 1: Clinical Quality Measures Outgoing
 
-
 #### Description
 
 This measure will review WebChart EHR's ability to measure clinical quality and export the required information.  Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -734,10 +693,7 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 <td><a href="https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure">§170.315(c)(3): CQMs – report</a></td>
 <td>(c )(3)(i) - Report</td>
 </tr>
-
 </table>
-
-
 
 #### Justification
 
@@ -745,26 +701,21 @@ WebChart EHR should accommodate the full range of §170.315(c)(1), §170.315(c)(
 
 #### Test Methodology
 
-First, MIE will install an instance of Cypress 7+ on our production servers following all of our protocols for maintaining the security of PHI.  Cypress CUV+ supports the validation of QRDA reports containing PHI and will be used monthly to validate a random selection of QRDAs from the care settings identified.  Any errors identified by Cypress CUV+ will be tracked, reported, and addressed, then followed with testing of a larger sample of files.  
+First, MIE will install an instance of Cypress 7+ on our production servers following all of our protocols for maintaining the security of PHI.  Cypress CUV+ supports the validation of QRDA reports containing PHI and will be used monthly to validate a random selection of QRDAs from the care settings identified.  Any errors identified by Cypress CUV+ will be tracked, reported, and addressed, then followed with testing of a larger sample of files.
+
 Additionally, WebChart EHR has two customers that participate in quarterly attestations using both QRDA I and QRDA III reports.  These customers regularly inspect their CQM compliance numbers and will alert MIE to any perceived errors.  MIE will then collect and track the attestation results from the reporting bodies including any errors so as to report a success/failure rate.
 
 #### Results
 
-
-
 #### Discussion
 
-
-
 ### Measure 2: Clinical Quality Measures Incoming
-
 
 #### Description
 
 This measure will review WebChart EHR's ability to measure clinical quality and export the required information.  Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -782,7 +733,6 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 <td><a href="https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure">§170.315(c)(3): CQMs – report</a></td>
 <td>(c )(3)(i) - Report</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -795,21 +745,15 @@ MIE will install an instance of Cypress 7+ on our production servers following a
 
 #### Results
 
-
-
 #### Discussion
 
-
-
 ### Measure 3: E-Prescribing Messages Sent and Received
-
 
 #### Description
 
 This measure will verify that all supported e-prescribing message types are in use in WebChart EHR, including inbound and outbound message types.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -844,51 +788,43 @@ This measure will verify that all supported e-prescribing message types are in u
 <tr>
 <td>(b)(3)(ii)(A)(9) - Verify</td>
 </tr>
-
 </table>
 
 #### Justification
 
 WebChart EHR should support all of the required e-prescribing messaging types outlined in §170.315(b)(3). Messages are stored locally in each client system in addition to being transmitted to/from pharmacies via the Surescripts network.
 
-
 #### Test Methodology
 
 MIE will report a count of messages for each supported message type:
 
-* NewRx
-* RxChangeRequest
-* RxChangeResponse
-* CancelRx
-* CancelRxResponse
-* RxRenewalRequest
-* RxRenewalResponse
-* RxFill
-* RxHistoryRequest
-* RxHistoryResponse
-* Status
-* Error
-* Verify
+    * NewRx
+    * RxChangeRequest
+    * RxChangeResponse
+    * CancelRx
+    * CancelRxResponse
+    * RxRenewalRequest
+    * RxRenewalResponse
+    * RxFill
+    * RxHistoryRequest
+    * RxHistoryResponse
+    * Status
+    * Error
+    * Verify
 
 The report will also include a count of outbound messages unable to be transmitted due to connectivity issues or other errors, for each message type. This report will be based on the contents of each client's local database table of stored messages. MIE will run the report for each client under consideration and aggregate the results.
 
 #### Results
 
-
-
 #### Discussion
 
-
-
 ### Measure 4: E-Prescribing Diagnosis Codes
-
 
 #### Description
 
 This measure will verify that all diagnosis elements are present in some e-prescribing messages as required by §170.315(b)(3), including inbound and outbound message types.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -899,7 +835,6 @@ This measure will verify that all diagnosis elements are present in some e-presc
 <td><a href="https://www.healthit.gov/test-method/electronic-prescribing#cures_tp">§170.315(b)(3): Electronic prescribing</a></td>
 <td>(b)(3)(ii)(C)(1) - Primary/Secondary Diagnosis</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -912,22 +847,15 @@ MIE will report the contents of each stored message in a client's local database
 
 #### Results
 
-
-
 #### Discussion
 
-
-
-
 ### Measure 5: E-Prescribing Oral Liquid Units
-
 
 #### Description
 
 This measure will verify that prescriptions for medications with an oral liquid form will have a quantity unit of measurement of mL, not cc or English units as outlined in §170.315(b)(3).
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -938,7 +866,6 @@ This measure will verify that prescriptions for medications with an oral liquid 
 <td><a href="https://www.healthit.gov/test-method/electronic-prescribing#cures_tp">§170.315(b)(3): Electronic prescribing</a></td>
 <td>(b)(3)(ii)(E) - Metric Units</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -951,23 +878,15 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 #### Results
 
-
-
 #### Discussion
 
-
-
-
-
 ### Measure 6: E-Prescribing Decimal Format
-
 
 #### Description
 
 This measure will verify that numeric amounts in prescriptions include leading zeros before decimal points and do not allow trailing zeros after a decimal point.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -978,7 +897,6 @@ This measure will verify that numeric amounts in prescriptions include leading z
 <td><a href="https://www.healthit.gov/test-method/electronic-prescribing#cures_tp">§170.315(b)(3): Electronic prescribing</a></td>
 <td>(b)(3)(ii)(F) - Decimal Format</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -991,21 +909,15 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 #### Results
 
-
-
 #### Discussion
 
-
-
 ### Measure 7: CDA Download
-
 
 #### Description
 
 This measure will verify that the system can accept a CDA document uploaded into the system, assign it to the appropriate chart in the system as appropriate, and display the document with a standard stylesheet with all sections being accepted and visible.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1018,12 +930,11 @@ This measure will verify that the system can accept a CDA document uploaded into
 </tr>
 <tr>
 <td><a href="https://www.healthit.gov/test-method/transitions-care#cures_tp">§170.315(b)(1): Transitions of Care</a></td>
-<td>(b)(1)(ii) - All paragraphs </td>
+<td>(b)(1)(ii) - All paragraphs</td>
 </tr>
 <tr>
 <td>(b)(1)(iii) - All paragraphs</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1032,29 +943,28 @@ Webchart EHR should be able to accept a CDA document and place it into the corre
 
 #### Test Methodology
 
-MIE will report on the number of CDA formatted documents uploaded into tracked Webchart systems and the number of upload attempts that failed as stored in client databases and error log files.  
+MIE will report on the number of CDA formatted documents uploaded into tracked Webchart systems and the number of upload attempts that failed as stored in client databases and error log files.
+
 MIE will report on the number of requests to view a CDA document within the system, and the number of times it displayed correctly, and when there were errors in display.  
 Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.  These test assumptions for customer reporting align with the "visual inspection" aspects of the test lab tests.
 
 #### Results
 
-System		Documents		Views  
+System		Documents		Views
+
 **TOTAL			61465			16738**
 
 #### Discussion
 
 We are showing creation and storage of CDA documents and ability to view documents on demand within the WebChart software.
 
-
 ### Measure 8: Application Access Documentation
-
 
 #### Description
 
 This measure will verify that WebChart EHR's API documentation is publicly and perpetually available.  Compliance will be recorded by an external uptime monitor and reported quarterly.  Upon request, or in the event of downtime, data can additionally be reported in daily, weekly, or monthly increments.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1097,14 +1007,11 @@ This measure will verify that WebChart EHR's API documentation is publicly and p
 <tr>
 <td>(g)(9)(ii)(B) - Public URL</td>
 </tr>
-
 </table>
-
 
 #### Justification
 
 WebChart EHR should provide public access to all API documentation, implementation requirements, and terms of use as outlined in 170.315(g)(7), 170.315(g)(8), and 170.315(g)(9).  This documentation should be available at all times throughout the year.
-
 
 #### Test Methodology
 
@@ -1112,22 +1019,15 @@ An external uptime monitor will check the availability of all documentation avai
 
 #### Results
 
-
-
 #### Discussion
 
-
-
-
 ### Measure 9: Clinical Information Reconciliation and Incorporation
-
 
 #### Description
 
 This measure will verify that the system can take a CCDA transition of care/referral summary formatted according to the standards adopted §170.205(a)(3) and §170.205(a)(4) and read the data for medications, allergies, and conditions from the document, reconcile those into the chart, and that the data is fully incorporated into the chart.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1136,12 +1036,11 @@ This measure will verify that the system can take a CCDA transition of care/refe
 </tr>
 <tr>
 <td><a href="https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#cures_tp">§170.315(b)(2): Clinical information reconciliation and incorporation</a></td>
-<td>(b)(2)(iii)(A), (B), (C), (D) </td>
+<td>(b)(2)(iii)(A), (B), (C), (D)</td>
 </tr>
 <tr>
 <td>(b)(2)(iv) - System Verification</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1150,31 +1049,31 @@ Webchart EHR should be able to reconcile CCDA data for medications, allergies, a
 
 #### Test Methodology
 
-MIE will report on the number of CDA formatted documents reconciled via our reconciliation process.  
+MIE will report on the number of CDA formatted documents reconciled via our reconciliation process.
+
 Following each reconcile, if a temporary CDA for the chart is created as part of the process, it will be validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will *NOT* be kept, only the result of the validation).  Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported.
 
 #### Results
 
+CDA Documents:
 
-CDA Documents:  
-CDA Documents - 324  
-CDA Documents Reconciled marked schematically Valid: 44  
+CDA Documents - 324
+
+CDA Documents Reconciled marked schematically Valid: 44
+
 CDA Documents Reconciled marked schematically Invalid: 58
 
 #### Discussion
 
 The documents marked invalid were from a 3rd party interface sent into the system.   No issues with CDA data imports were reported.
 
-
 ### Measure 10: Transmission to Immunization Registry: Create Content
-
 
 #### Description
 
-This measure will verify that the system can generate a VXU conforming to the HL7 v2.5.1 standard, CDC guidance for communication to Immunization Registries and state/local guidance. The VXU messages shall contain information related to the demographics and vaccination administration record.   
+This measure will verify that the system can generate a VXU conforming to the HL7 v2.5.1 standard, CDC guidance for communication to Immunization Registries and state/local guidance. The VXU messages shall contain information related to the demographics and vaccination administration record.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1185,7 +1084,6 @@ This measure will verify that the system can generate a VXU conforming to the HL
 <td><a href="https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure">§170.315(f)(1): Transmission to immunization registries</a></td>
 <td>(f)(1)(i) - Create Content</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1198,24 +1096,23 @@ MIE will report from the database the number of successfully sent VXU messages a
 
 #### Results
 
-Successful: 1677  
-Failures: 3  
+Successful: 1677
+
+Failures: 3
+
 Data Entry Validation Issue: 0
 
 #### Discussion
 
 All 3 of the Failures were related to user data entry. In two of the cases, the user entered an administration location which was then changed to an outside location. The outside location is not a valid reporting location, so errored. In the third error, the date of administration is prior to the birthdate of the patient and was rejected by the registry.
 
-
 ### Measure 11: Transmission to Immunization Registries: Query Records
-
 
 #### Description
 
 This measure will verify that the system can generate a QBP conforming to the HL7 v2.5.1 standard, CDC guidance for communication to Immunization Registries and state/local guidance. Furthermore, the system shall be able to retrieve, consume and display to the end user the results of any such query.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1226,7 +1123,6 @@ This measure will verify that the system can generate a QBP conforming to the HL
 <td><a href="https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure">§170.315(f)(1): Transmission to immunization registries</a></td>
 <td>f)(1)(ii) - Query Records</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1239,23 +1135,21 @@ MIE will report the number of successful retrievals of evaluated history and for
 
 #### Results
 
-Successful: 12112  
+Successful: 12112
+
 Failure: 198
 
 #### Discussion
 
 The failure rate is very low with most timestamps clustered around points in time. This is to be expected due to network, server or other technology related issues.
 
-
 ### Measure 12: Direct Project: Send
-
 
 #### Description
 
 This measure will verify that the system can transmit a Direct project conforming S/MIME to a HISP. The measure will also verify the receipt of those transmissions by verifying the status of the resultant MDN messages.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1272,7 +1166,6 @@ This measure will verify that the system can transmit a Direct project conformin
 <tr>
 <td>(h)(1)(ii) - Message Disposition Notification: Failed</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1285,25 +1178,23 @@ MIE will report from log files the number of messages transmitted. MIE will repo
 
 #### Results
 
-Transmitted: 3  
-Failed: 0  
-Processed MDNs: 3  
+Transmitted: 3
+
+Failed: 0
+
+Processed MDNs: 3
+
 Failed MDNs: 0
 
 #### Discussion
 
-
-
-
 ### Measure 13: Direct Project: Receive
-
 
 #### Description
 
 This measure will verify that the system conforms to Direct Project message receipt requirements for validation.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1314,7 +1205,6 @@ This measure will verify that the system conforms to Direct Project message rece
 <td><a href="https://www.healthit.gov/test-method/direct-project#test_procedure">§170.315(h)(1): Direct Project</a></td>
 <td>(h)(1)(i) - Receive</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1323,27 +1213,25 @@ WebChart EHR should be able to receive, validate and deliver Direct Project mess
 
 #### Test Methodology
 
-MIE will report from logs the number of messages transmitted to the HISP.  MIE will report from logs the number of messages failing to conform to Direct Project specifications.  MIE will report from logs the number of messages which are successfully delivered to recipients.   
+MIE will report from logs the number of messages transmitted to the HISP.  MIE will report from logs the number of messages failing to conform to Direct Project specifications.  MIE will report from logs the number of messages which are successfully delivered to recipients.
 
 #### Results
 
-Received: 244  
-Failed specifications: 0  
+Received: 244
+
+Failed specifications: 0
+
 Delivered messages: 244
 
 #### Discussion
 
-
-
 ### Measure 14: Patient Portal View
-
 
 #### Description
 
-This measure will verify that a patient can view various document types within the patient portal.   
+This measure will verify that a patient can view various document types within the patient portal.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1360,7 +1248,6 @@ This measure will verify that a patient can view various document types within t
 <tr>
 <td>(e)(1)(ii)(A)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1379,23 +1266,19 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-
 There were 5 distinct views of CDA documents in Q1 & Q2 on a client system.
 
 #### Discussion
 
 This is currently a low amount of usage.  We plan on doing at least more forced testing of the functionality within live client systems in Q3 and Q4.
 
-
 ### Measure 15: Patient Portal Download
-
 
 #### Description
 
-This measure will verify that a patient can download various document types within the patient portal.   
+This measure will verify that a patient can download various document types within the patient portal.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1412,7 +1295,6 @@ This measure will verify that a patient can download various document types with
 <tr>
 <td>(e)(1)(ii)(A)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1437,16 +1319,13 @@ There was 1 stream of  CDA documents in Q1 & Q2 on a client system.
 
 This is currently a low amount of usage.  We plan on doing at least more forced testing of the functionality within live client systems in Q3 and Q4.
 
-
 ### Measure 16: Patient Portal CCDA Transmit
-
 
 #### Description
 
 This measure will verify that a patient can transmit various document types within the patient portal to other entities.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1463,7 +1342,6 @@ This measure will verify that a patient can transmit various document types with
 <tr>
 <td>(e)(1)(ii)(A)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1488,16 +1366,13 @@ No exports of CDA documents were reported in Q1 & Q2 on a client system.
 
 We plan on doing at least more forced testing of the functionality within live client systems in Q3 and Q4.
 
-
 ### Measure 17: Send Using Edge Protocol for SMTP / XDM
-
 
 #### Description
 
 This measure will verify that the system is able to utilize a SMTP edge protocol for sending and receiving Direct Project messages. As part of receiving messages, XDM shall be handled when applicable.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1514,7 +1389,6 @@ This measure will verify that the system is able to utilize a SMTP edge protocol
 <tr>
 <td>(b)(1)(i)(C)(Conditional) - XDM Processing</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1527,24 +1401,21 @@ MIE will report from logs the number of messages transmitted to the HISP by SMTP
 
 #### Results
 
-Transmitted to HISP via SMTP: 244  
-Transmitted by HISP: 7  
+Transmitted to HISP via SMTP: 244
+
+Transmitted by HISP: 7
+
 XDM packages processed: 124
 
 #### Discussion
 
-
-
-
 ### Measure 18: Data Export
-
 
 #### Description
 
 This measure will verify that a user can use WebChart EHR's Data Export Tool to pull down groups of patient data from a Webchart EHR system.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1564,7 +1435,6 @@ This measure will verify that a user can use WebChart EHR's Data Export Tool to 
 <tr>
 <td>(b)(6)(iv)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1578,7 +1448,6 @@ MIE will report from the event log database tables a series of occurrences that 
 * Event logs of the report to find all patients for Document Export being called.
 * Event logs of CDA documents being generated within a certain short time period following the report.
 
-
 MIE will track customer reports of data expected to be in mass data export downloads that did not download as failures.
 
 #### Results
@@ -1587,19 +1456,15 @@ No usage occurred in Q1/Q2.
 
 #### Discussion
 
-
 A manual test is planned during Q3.
 
-
 ### Measure 19: CDA Validation
-
 
 #### Description
 
 This measure will verify that CDAs both created by and received by a Webchart EHR system pass basic CDA validation.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1614,7 +1479,6 @@ This measure will verify that CDAs both created by and received by a Webchart EH
 <td><a href="https://www.healthit.gov/test-method/data-export">§170.315(b)(6): Data Export</a></td>
 <td>(b)(6)(ii), (A)-(F)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1629,28 +1493,23 @@ The number of valid vs. invalid CDAs and their sources will be reported.
 
 #### Results
 
+**All Documents:**
 
-**All Documents:**  
-Valid CDAs: 501  
+Valid CDAs: 501
+
 Invalid CDAs: 1308
 
 #### Discussion
 
 The bulk of these results are from 3rd party uploaded documents.  For the webchart generated documents, we are analyzing the reason for failure, and updating the script generation to account for those issues.
 
-
-
-
-
 ### Measure 20: Patient Data requests VIA API
-
 
 #### Description
 
 This measure will verify that the API as outlined in WebChart EHR's documentation is functional. A valid request for patient information must provide that information.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1678,7 +1537,6 @@ This measure will verify that the API as outlined in WebChart EHR's documentatio
 <tr>
 <td>(g)(9)(i)(B) - Data Return</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1695,24 +1553,17 @@ To address the overall automated testing, the following test requests will be ma
 
 All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
 
-
 #### Results
-
-
 
 #### Discussion
 
-
-
 ### Measure 21: Web Content Accessibility
-
 
 #### Description
 
 This measure will verify that all certified content in the patient portal will maintain accessibility conformance as outlined in the Web Content Accessibility Guidelines (WCAG) 2.0.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1723,7 +1574,6 @@ This measure will verify that all certified content in the patient portal will m
 <td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp">§170.315(e)(1): View, download, and transmit to 3rd party</a></td>
 <td>(e)(1)(i) - Web Content Accessibility</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1736,22 +1586,15 @@ MIE will conduct monthly third-party production accessibility scanning as well a
 
 #### Results
 
-
-
 #### Discussion
 
-
-
-
 ### Measure 22: FHIR API Documentation
-
 
 #### Description
 
 This measure will verify that WebChart EHR's FHIR API documentation is publicly and perpetually available.  Compliance will be recorded by an external uptime monitor and reported quarterly.  Upon request, or in the event of downtime, data can additionally be reported in daily, weekly, or monthly increments.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1762,7 +1605,6 @@ This measure will verify that WebChart EHR's FHIR API documentation is publicly 
 <td><a href="https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure">§170.315(g)(10): Standardized API for patient and population services</a></td>
 <td>(g)(10)(vii) - Documentation</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1775,23 +1617,15 @@ An external uptime monitor will check the availability of all documentation avai
 
 #### Results
 
-
-
 #### Discussion
 
-
-
-
-
 ### Measure 23: CCDA Content
-
 
 #### Description
 
 This measure will verify that CCDAs generated in webchart systems have all USCDI data and other required data.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1802,7 +1636,6 @@ This measure will verify that CCDAs generated in webchart systems have all USCDI
 <td><a href="https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party">§170.315(e)(1) View, download, and transmit to 3rd party</a></td>
 <td>(e)(1)(i)(A)(1) - (e)(1)(i)(A)(7)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1821,17 +1654,13 @@ We haven't had any customer complaints about missing USCDI content in CCDA docum
 
 In Q3/Q4 we should be adding checks to test charts in live systems to make sure all sections are listed.
 
-
-
 ### Measure 24: Record and Change Care Plan
-
 
 #### Description
 
 This measure will track that users can create and change care plan data.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1842,7 +1671,6 @@ This measure will track that users can create and change care plan data.
 <td><a href="https://www.healthit.gov/test-method/care-plan#cures_tp">§170.315(b)(9):  Care plan</a></td>
 <td>Record, Change and Access</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1858,7 +1686,6 @@ We will report on the following data elements being created or edited in patient
 * Health status evaluations and outcomes
 * Interventions
 
-
 #### Results
 
 We witnessed the ability to enter CDA Care Plan information in the appropriate sections in a live system with proper configuration.
@@ -1867,16 +1694,13 @@ We witnessed the ability to enter CDA Care Plan information in the appropriate s
 
 Currently no live clients are using the Care Plan fields in their workflows.
 
-
 ### Measure 25: Create Care Plan CCDA Documents
-
 
 #### Description
 
 This measure will track that users can create Care Plan CCDA Documents.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1887,7 +1711,6 @@ This measure will track that users can create Care Plan CCDA Documents.
 <td><a href="https://www.healthit.gov/test-method/care-plan#cures_tp">§170.315(b)(9):  Care plan</a></td>
 <td>Requirement from matrix</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1906,16 +1729,13 @@ We witnessed the ability to generate a CDA Care Plan document based on  informat
 
 Currently no live clients are generating Care Plan fields in their workflows.
 
-
 ### Measure 26: Receive Care Plan CCDA Documents
-
 
 #### Description
 
 This measure will track that the system can receive Care Plan CCDA Documents.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1926,7 +1746,6 @@ This measure will track that the system can receive Care Plan CCDA Documents.
 <td><a href="https://www.healthit.gov/test-method/care-plan#cures_tp">§170.315(b)(9):  Care plan</a></td>
 <td>Requirement from matrix</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1937,9 +1756,8 @@ WebChart EHR per certification requirements must be able to receive Care Plan CC
 
 We will report on:
 
-* the number of Care Plan CCDAs received from outside sources.
-* Pass or fail count on the Care Plan CCDAs received.
-
+    * the number of Care Plan CCDAs received from outside sources.
+    * Pass or fail count on the Care Plan CCDAs received.
 
 #### Results
 
@@ -1949,16 +1767,13 @@ We will report on:
 
 Currently no clients are set up to receive Care Plan CCDA documents as part of their workflow.  In Q3/Q4 we will generate test documents.
 
-
 ### Measure 27: Create CCDA Documents with Security Tags
-
 
 #### Description
 
 This measure will track that the system can create CCDA Documents with valid security tags.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -1969,7 +1784,6 @@ This measure will track that the system can create CCDA Documents with valid sec
 <td><a href="https://www.healthit.gov/test-method/data-segmentation-privacy-send#cures_tp">§170.315(b)(7): Security tags - summary of care - send</a></td>
 <td>(b)(7)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -1982,9 +1796,8 @@ We will have automated tests that run at minimum weekly to test that the softwar
 
 If we determine that we are seeing usage of the security tagging within Production systems, we will report:
 
-* the number of CCDAs generated during the RWT period.
-* The number of CCDAs with security tags generated during the RWT period.
-
+    * the number of CCDAs generated during the RWT period.
+    * The number of CCDAs with security tags generated during the RWT period.
 
 #### Results
 
@@ -1992,18 +1805,13 @@ We witnessed the ability to generate a CDA document based on information in the 
 
 #### Discussion
 
-
-
-
 ### Measure 28: Receive and Display CCDA Documents with Security Tags
-
 
 #### Description
 
 This measure will track that the system can receive CCDA Documents with security tags and properly display them to end users.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -2014,7 +1822,6 @@ This measure will track that the system can receive CCDA Documents with security
 <td><a href="https://www.healthit.gov/test-method/data-segmentation-privacy-receive#cures_tp">§170.315(b)(8): Security tags - summary of care - receive</a></td>
 <td>(b)(8)(i) and (ii)</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -2027,9 +1834,8 @@ We will have automated tests that run at minimum weekly to test that the softwar
 
 From discussions with others around the industry who interact with large usage of CDA creation and transmission, there is little to no usage of DS4P within documents created by systems currently. If we determine that we are seeing usage of the security tagging within Production systems, we will report:
 
-* the number of CCDAs received during the RWT period.
-* The number of CCDAs with security tags received during the RWT period.
-
+    * the number of CCDAs received during the RWT period.
+    * The number of CCDAs with security tags received during the RWT period.
 
 #### Results
 
@@ -2039,16 +1845,13 @@ We witnessed the ability to view a CDA document based on information in the appr
 
 We will set up further tests to take an external document with security tags and see that they can be displayed.
 
-
 ### Measure 29: FHIR Sandbox Testing
-
 
 #### Description
 
 This measure will use the Inferno Test suite to validate all types of secure connections and search operations supported by the FHIR API within a publicly available production sandbox system.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -2077,7 +1880,6 @@ This measure will use the Inferno Test suite to validate all types of secure con
 <tr>
 <td>(g)(10)(vi) - Patient authorization revocation</td>
 </tr>
-
 </table>
 
 #### Justification
@@ -2090,7 +1892,6 @@ MIE will run nightly automated testing on the public FHIR R4 sandbox system usin
 
 #### Results
 
-
 We've had multiple green tests for the Inferno test hitting the Sandbox in the first half of 2023.
 
 #### Discussion
@@ -2099,13 +1900,11 @@ We are currently working on getting the FHIR G10 Sandbox running regularly and h
 
 ### Measure 30: FHIR Patient Scope
 
-
 #### Description
 
 This measure will review WebChart EHR's ability to connect to an app within a patient scope and provide the user with the requested data.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -2131,13 +1930,11 @@ This measure will review WebChart EHR's ability to connect to an app within a pa
 <tr>
 <td>(g)(10)(vi) - Patient authorization revocation</td>
 </tr>
-
 </table>
 
 #### Justification
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
-
 
 #### Test Methodology
 
@@ -2153,13 +1950,11 @@ We are in active discussions with the CommonHealth app (effectively "Apple Healt
 
 ### Measure 31: FHIR EHR Provider Scope
 
-
 #### Description
 
 This measure will review WebChart EHR's ability to connect to an app within an EHR provider scope and provide the user with the requested data.
 
 #### Associated Certification Criteria
-
 
 <table>
 <tr>
@@ -2182,13 +1977,11 @@ This measure will review WebChart EHR's ability to connect to an app within an E
 <tr>
 <td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
 </tr>
-
 </table>
-
 
 #### Justification
 
-WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a provider app recommended to our clients.  As clients continue adoption of the FHIR API, real provider use of the provider app will be reported.   
+WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a provider app recommended to our clients.  As clients continue adoption of the FHIR API, real provider use of the provider app will be reported.
 
 #### Test Methodology
 
@@ -2204,10 +1997,7 @@ We do not have a clear path on a specific app yet that would be suitable for the
 
 Some apps that might be of interest in this list:  https://fhir.org/implementations/registry/
 
-
 ## Schedule of Key Milestones
-
-
 
 <table>
 <tr>
@@ -2260,16 +2050,11 @@ Some apps that might be of interest in this list:  https://fhir.org/implementati
 <td>All settings</td>
 <td>Per ACB instructions</td>
 </tr>
-
 </table>
-
-
 
 ## Attestation
 
 This Real World Testing plan is complete with all required elements, including measures that address all certification criteria and care settings. All information in this plan is up to date and fully addresses the health IT developer's Real World Testing requirements.
-
-
 
 <table>
 <tr>
@@ -2292,6 +2077,4 @@ This Real World Testing plan is complete with all required elements, including m
 <td><strong>Date</strong></td>
 <td>08/XX/2023</td>
 </tr>
-
 </table>
-

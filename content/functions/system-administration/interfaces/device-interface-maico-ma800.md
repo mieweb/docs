@@ -8,12 +8,11 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 This page provides instructions for retrieving results from the Teleaccoustics Maico MA800 audiometer with Enterprise Health (EH), and lists the fields that the interface retrieves.
 
 ## Instructions
-
 
 ### Individual Mode
 
@@ -22,21 +21,13 @@ To retrieve results for an individual patient:
 1. Go to the patient's chart and start a new Audiogram encounter.
 2. Click the Perform Test button in the MA800 Audio section.
 3. Click the Connect to Maico MA800 link.
-
-
-   1. The first time the device is used, run the MIE Applet and allow access to the application.
-   2. The first time the device is used, enter the correct COM Port. This is now the default value.
-
-
+    1. The first time the device is used, run the MIE Applet and allow access to the application.
+    2. The first time the device is used, enter the correct COM Port. This is now the default value.
 4. Click the Open Port button. If successful, "Waiting for data..." appears.
 5. Perform the audio test on the device
 6. The test will automatically be transferred when completed
-
-
-   1. A window will appear with the test results
-   2. Click the "Save Results" button if correct or "Cancel" if incorrect
-
-
+    1. A window will appear with the test results
+    2. Click the "Save Results" button if correct or "Cancel" if incorrect
 
 ### Batch Mode
 
@@ -51,14 +42,12 @@ The following fields are collected in EH:
 * Test Date/Time
 * Calibration Date/Time
 
-
 ## Installation Help
 
 To correctly install and use the audiometer with EH the following considerations are important to note:
 
 * The interface uses Java to interact with the device; Java must be installed on each PC that is connected to the audiometer.
 * During the initial setup, ensure that the COM port settings on the device are the same as in EH
-
 
 ## Related Pages
 

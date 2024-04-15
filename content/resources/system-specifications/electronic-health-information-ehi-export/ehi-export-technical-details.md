@@ -10,7 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
   - 'https://ecma-international.org/publications-and-standards/standards/ecma-404/'
 source: 'https://drive.google.com/open?id=1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Introduction
 
@@ -28,8 +28,6 @@ An EHI Export for a provider or an entire system can be an intensive process, es
 In the event a customer does not have the hardware to perform such a process, assistance from MIE can be requested.
 
 ## Designated Record Set Content
-
-
 
 <table>
 <tr>
@@ -274,7 +272,7 @@ In the event a customer does not have the hardware to perform such a process, as
 </tr>
 <tr>
 <td>observation_codes</td>
-<td>A record for types of observations including a short code, description, and standardized units, ranges, or LOINC codes </td>
+<td>A record for types of observations including a short code, description, and standardized units, ranges, or LOINC codes</td>
 </tr>
 <tr>
 <td>observation_flags</td>
@@ -432,18 +430,14 @@ In the event a customer does not have the hardware to perform such a process, as
 <td>users</td>
 <td>Details for users of a system</td>
 </tr>
-
 </table>
 
-
 ## Example Export Files
-
 
 ### Single Patient
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
     "request": "db/patients/18/drs",
@@ -5699,11 +5693,9 @@ In the event a customer does not have the hardware to perform such a process, as
 }
 
 
-
 ```
 {{% /pre %}}
 
 ### Multiple Patients
 
 When performing a multi-patient export, one JSON file will be generated for each exported patient.  These files will then be compressed in a zip file.
-

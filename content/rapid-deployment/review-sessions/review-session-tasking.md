@@ -23,52 +23,34 @@ links:
   - '../../functions/reports/task-report.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=7cae93a5fb5435af1677ba54618fcc37'
 source: 'https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Agenda
-
 
 * <strong>Task List Module Demonstration</strong>
 * <strong>Tasking Overview</strong>
 * <strong>Task List Module</strong>
-
-
-   * <strong>Your Task List</strong>
-   * <strong>Delegated</strong>
-   * <strong>Fast Tasks</strong>
-
-
-
-
-      * <strong>Phone Notes</strong>
-
-
-
-
-   * <strong>Tasklist Events</strong>
-   * <strong>Task Search</strong>
-
-
+    * <strong>Your Task List</strong>
+    * <strong>Delegated</strong>
+    * <strong>Fast Tasks</strong>
+        * <strong>Phone Notes</strong>
+    * <strong>Tasklist Events</strong>
+    * <strong>Task Search</strong>
 * <strong>Reporting</strong>
 * <strong>System Configuration</strong>
-
-
-   * <strong>Fast Task Templates</strong>
-   * <strong>Tasklist Event Rules</strong>
-
-
+    * <strong>Fast Task Templates</strong>
+    * <strong>Tasklist Event Rules</strong>
 * <strong>Resources</strong>
-
 
 ## Overview
 
-Tasking creates electronic to-do lists to streamline everyday tasks. The Task List module promotes workflow efficiency and timely task completion through the use of priority ratings on tasks, along with overdue notices and reminder dates, which flag tasks requiring attention. There are two types of tasks–**Generic** and **Fast Tasks**. *Generic* tasks are not templated and are not classified in a specific category or type of task. *Fast Tasks*, on the other hand, are categorized tasks that are usually pre-templated and assigned to a specific individual or department for completion. Fast tasks save users from having to regularly key in the same information for repetitive tasks. Configuration of Fast Task templates and automated task business rules is available as an add-on configuration, if interested.  
+Tasking creates electronic to-do lists to streamline everyday tasks. The Task List module promotes workflow efficiency and timely task completion through the use of priority ratings on tasks, along with overdue notices and reminder dates, which flag tasks requiring attention. There are two types of tasks–**Generic** and **Fast Tasks**. *Generic* tasks are not templated and are not classified in a specific category or type of task. *Fast Tasks*, on the other hand, are categorized tasks that are usually pre-templated and assigned to a specific individual or department for completion. Fast tasks save users from having to regularly key in the same information for repetitive tasks. Configuration of Fast Task templates and automated task business rules is available as an add-on configuration, if interested.
+
 Standard functionality of the Task List module includes:
 
 * Pre-loaded, standard task templates
 * Task alerts and reminders, including high-priority distinction
 * Tasks stored as documents in the medical record
-
 
 ## Task List Module
 
@@ -121,6 +103,7 @@ When managing and working assigned tasks, it is important to be able to track as
 #### Phone Notes
 
 Phone notes are a type of fast task that allow the immediate capturing of incoming telephone messages. These can be particularly helpful, because they can be used to manually route phone notes to appropriate staff for timely follow-up.
+
 Phone note messages are created and saved as text documents within the {{% system-name %}} system. They are stored in chronological order, and spellcheck is included on all text notes, to ensure easy access and readability. Templates can be added to text documents, which allow users, for example, to record specific details of telephone messages, quickly and efficiently. These templates can easily be configured by the customer to capture a variety of information/fields, as needed.
 
 ### Task Search
@@ -133,7 +116,6 @@ The {{% system-name %}} [Reports module](https://system/?f=layout&module=reports
 
 * <strong>Task Reports</strong>
 * <strong>Tasks Completed by User</strong>
-
 
 ## System Configuration
 
@@ -156,24 +138,26 @@ Additional setup may need considered so that the tasks, when stored, are set to 
 ### Tasklist Events
 
 The [Tasklist Event tab](https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events) is utilized by MIE to create and manage tasklist event rules, which allow for a type of automated behavior, or trigger for a specific event. The Tasklist Event tab requires SuperUser access.
+
 All available Tasklist Events will be audited with the client, in order to assess, configure, and add, as needed, any tasklist event rules conducive to the client's needs, workflows, or business processes. This may include events triggered by incoming data/documents via a portal or interface.
 
 ### Security & Settings
 
 Review user security settings for users needing access to Tasking, and give permission, as appropriate. There is also information available within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help.
+
 ![](../review-session-tasking.assets/ea38ab5861f813c9a41e0bed507444bb.png)
 
 ### My Settings Preferences
 
 Review security roles and individual My Settings preferences of those needing access to the Task List module. Review permissions and set, as appropriate. This information is also available within the [My Settings](../../functions/system-administration/security/my-settings.md) online help.
+
 ![](../review-session-tasking.assets/1862f2bcec4387e1d4533a514c481962.png)
+
 ![](../review-session-tasking.assets/0ca506dc81f836108273a3a65ae1280c.png)
 
 ## Resources
 
-
 ### Help Documentation
-
 
 * [Fast Task Template](../../functions/task-management/fast-task-templates.md)
 * [Task List](../../functions/task-management/task-list.md)
@@ -181,8 +165,6 @@ Review security roles and individual My Settings preferences of those needing ac
 * [Adding Tasks](../../functions/task-management/adding-tasks.md)
 * [Task Report](../../functions/reports/task-report.md)
 
-
 ### Training Videos
-
 
 * [Tasking](https://mieweb.webex.com/mieweb/ldr.php?RCID=7cae93a5fb5435af1677ba54618fcc37) (00:22:00)

@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms136v11'
 source: 'https://drive.google.com/open?id=1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS136v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure) (2020)  
-[CMS136v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure) (2021)  
+[CMS136v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure) (2020)
+
+[CMS136v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure) (2021)
+
 [CMS136v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>366</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -62,8 +62,8 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients diagnosed with narcolepsy at any point in their history or during the measurement period.</p></li><li><p>Exclude patients who had an acute inpatient stay with a principal diagnosis of mental health or substance abuse during the 30 days after the IPSD.</p></li><li><p>Exclude patients who were actively on an ADHD medication in the 120 days prior to the Index Prescription Start Date.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li></ul></td>
-<td><ul><li><p>Exclude patients diagnosed with narcolepsy at any point in their history or during the measurement period.</p></li><li><p>Exclude patients who had an acute inpatient stay with a principal diagnosis of mental health or substance abuse during the 300 days after the IPSD.</p></li><li><p>Exclude patients who were actively on an ADHD medication in the 120 days prior to the Index Prescription Start Date.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude patients diagnosed with narcolepsy at any point in their history or during the measurement period.</li><li>Exclude patients who had an acute inpatient stay with a principal diagnosis of mental health or substance abuse during the 30 days after the IPSD.</li><li>Exclude patients who were actively on an ADHD medication in the 120 days prior to the Index Prescription Start Date.</li><li>Exclude patients who are in hospice care for any part of the measurement period.</li></ul></td>
+<td><ul><li>Exclude patients diagnosed with narcolepsy at any point in their history or during the measurement period.</li><li>Exclude patients who had an acute inpatient stay with a principal diagnosis of mental health or substance abuse during the 300 days after the IPSD.</li><li>Exclude patients who were actively on an ADHD medication in the 120 days prior to the Index Prescription Start Date.</li><li>Exclude patients who are in hospice care for any part of the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -78,12 +78,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -106,18 +103,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -127,12 +117,9 @@ Track children ages 6-12 that have been newly dispensed a medication for ADHD an
 1. Provide a follow-up with children prescribed ADHD medication during the 30-Day Initiation Phase
 2. For children remaining on the medication for 7+ months, provide two additional follow-up visits and ensure these are completed within 9 months of the Initiation Phase ending.
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -159,12 +146,9 @@ Track children ages 6-12 that have been newly dispensed a medication for ADHD an
 <td>Medication, Active: ADHD Medications</td>
 <td>2.16.840.1.113883.3.464.1003.196.12.1171</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -187,12 +171,9 @@ Track children ages 6-12 that have been newly dispensed a medication for ADHD an
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -247,9 +228,7 @@ Track children ages 6-12 that have been newly dispensed a medication for ADHD an
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

@@ -8,17 +8,17 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App'
 source: 'https://drive.google.com/open?id=10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-This page provides instructions for interfacing the Depisteo VT1 with the *{{% system-name%}}* system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.   
-{{% note %}}  
-Be sure to install the required applications for optimal functionality. The device interface uses the[](http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App)[MIE Device App](http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App) to communicate with {{% system-name %}}.  
+This page provides instructions for interfacing the Depisteo VT1 with the {{% system-name%}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.
+
+{{% note %}}
+Be sure to install the required applications for optimal functionality. The device interface uses the[](http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App)[MIE Device App](http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App) to communicate with {{% system-name %}}.
 {{% /note %}}
 
 ## Collected Data Fields
 
 The following data fields are collected in {{% system-name %}} using the Depisteo VT1:
-
 <table>
 <tr>
 <td>Acuity/B (far)</td>
@@ -64,11 +64,9 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 <td>Color/R</td>
 <td>Peripheral Vision</td>
 </tr>
-
 </table>
 
 ## Using the Device Interface
-
 
 1. A Vision Screening can be added to the chart from the Due List chart tab. Simply use the autocomplete to select it and click the <strong>Add</strong> button.
 
@@ -85,5 +83,3 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 4. To initiate interfacing, click the <strong>Depisteo VT1</strong> button.
 5. Perform testing with the Depisteo Software as instructed in the device's operation manual.
 6. Save the test in Depisteo, and the results will automatically be uploaded into {{% system-name %}}.
-
-

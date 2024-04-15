@@ -7,33 +7,32 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Scheduling/Adding appointments can be done in many places within {{% system-name %}} but a centralized method is from the Wizard tab within the Scheduler module.
 
-Adding an appointment anywhere in {{% system-name %}} requires appropriate security permission.   
+Adding an appointment anywhere in {{% system-name %}} requires appropriate security permission.
 
 ## Adding an Appointment using the Wizard Tab from Scheduler Module
 
 Click *Scheduler* from the left sidebar menu and advance to the *Wizard* tab at the top.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/dca0ca9a8a948e990606979eb66e6cd9.png)
+
 The *Add Appointment* screen will display.  This is an option as a centralized method to schedule/add an appointment onto the schedule.
 
 When the Add Appointment wizard screen opens, it will show various fields to add an appointment successfully.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/48caf407dd1f0e2ba3265ef14fcce4f7.png)
 
 This will help describe each field found on the Add Appointment screen:
 
 * <strong>Patient:</strong> Search for the patient chart that this appointment is for.  Various search methods exist, but typically keying in last name, followed by a portion of first name is what is used.  Use the auto-complete to select the specific patient match.
+    * <strong>Alerts</strong>: Any Alerts on the patient's chart and/or the patient's related employer organization chart, will appear at the top in red for visibility during an appointment scheduling process.
 
-   * <strong>Alerts</strong>: Any Alerts on the patient's chart and/or the patient's related employer organization chart, will appear at the top in red for visibility during an appointment scheduling process.
+![](../adding-an-appointment-using-the-wizard-tab.assets/a4c1bc8b028759611b4d023170a1d31e.png)
 
-
-   ![](../adding-an-appointment-using-the-wizard-tab.assets/a4c1bc8b028759611b4d023170a1d31e.png)
-
-
-   * <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
-
+    * <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/5777e518b18b62a254d84dd7200361d7.png)
 
@@ -43,6 +42,7 @@ This will help describe each field found on the Add Appointment screen:
 
 {{% note %}}
 Any linked encounters to an appointment, will display in the scheduler module if your preference is set to show linked encounters on scheduled appointments.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/c027d709328c56e1e54c0de7ced7f8d3.png)
 {{% /note %}}
 
@@ -56,6 +56,7 @@ Any linked encounters to an appointment, will display in the scheduler module if
 
 {{% note %}}
 If you link any pending due list items to a successfully scheduled appointment, then the pending due list item will display that scheduled appointment date/time in the *Scheduled* column next to the pending due list items, which is visible within the Due List chart tab.  It is also visible in the Encounter Orders search report, Active Due List Items report and Global Due List Search report.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/f690b183dd9ef5e844e120f476263bef.png)
 {{% /note %}}
 
@@ -86,10 +87,10 @@ If you link any pending due list items to a successfully scheduled appointment, 
 * <strong>Due Date:</strong> Due Date is an optional field typically used with health surveillance needs.  It indicates to have this appointment within the indicated due date. This is also used for our Corporate Health clients when an appointment is on the waiting list and the employee can self schedule the pending waitlist appointment (typically for health surveillance compliance needs) and can self schedule the appointment within the indicated due date.
 * <strong>Visible Date:</strong> Visible date is an optional field typically used with health surveillance needs. Visible date indicates the date the waiting list appointment will display to the employee on the employee portal visibly to self schedule, and the date they will receive an email invitation to schedule their visible appointment or questionnaires to become visible on the portal for filling out and submitting.  Sometimes visible date is set as a future date and is a period (between now and the visible date) where everything is set up by automated evaluators and clinicians may have workflows or reports to review charts or even line managers in order to review to make sure the person is in the correct health surveillance panel(s) before the email invitation is sent or things (appointments & questionnaires, etc) become visible on the portal to the patient or employee.  This is typically only used for Corporate Health clients. Visible date may also be utilized by health practices that cannot schedule patients yet because they don't schedule provider's ahead of time.
 
-
 ### Patient Visits Section
 
 The next section is *Patient Visits*.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/f033c5f9597aa82a5396bc3aca92574d.png)
 
 * <strong>Resource:</strong> Required field. The resource will default and show/populate the name of the provider(s) whose scheduler view you are set to or last worked in. Simply click the [-] minus button to get rid of any listed resource/provider names if you wish to select a different resource for this appointment. In the resource field, begin typing the last or first name of the provider to schedule with. The system will auto-complete to give you choices of providers that are tied to a department that is linked to the system setting <em>Scheduling Realm</em>. To put someone on a waitlist, the appointment can be set to select the Scheduler Waiting List resource from the auto-complete.   <em>HINT: Hit your down arrow key on your keyboard within the Resource field to see a complete list of resource/provider choices your system has, instead of using the auto-complete if you wish.</em>
@@ -102,23 +103,16 @@ The next section is *Patient Visits*.
 ![](../adding-an-appointment-using-the-wizard-tab.assets/d3d94aa0f160e9f12ba804cf73cf4019.png)
 
 * <strong>Location:</strong> The location automatically defaults to show the location you are set to in your default settings (MY SETTINGS). If you wish to change the location for this appointment, simply begin typing in the name of the location and it will auto-complete to give you choices. You can only make ONE location choice for the appointment.
-
-
-   * It does not show outside locations as choices in the auto-complete field. <em>HINT: Hit your down arrow key on your keyboard here to see a complete list of location choices your system has, instead of using the auto-complete if you wish.</em>
-
+    * It does not show outside locations as choices in the auto-complete field. <em>HINT: Hit your down arrow key on your keyboard here to see a complete list of location choices your system has, instead of using the auto-complete if you wish.</em>
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/b8f735cd6cdcec51c4c9160736e06d9e.png)
 
 * <strong>Date/Time:</strong> Pick the date for the scheduled appointment. Automatically pops-up today's date & time or the specific date & time of the slot you selected when you clicked the yellow time slot in a general scheduler view. Type in a different date using that format, or click <em>Pick Date</em> and it will pop up a calendar to choose your date from.
+    * <em>TIP: Use the</em> <strong><em>Find Time</em></strong>'<em> or</em> <strong><em>View Calendar</em></strong>'<em></em> buttons available, to find an empty slot to schedule this specific appointment for (according to the resource, appt type & location's schedule you selected above)
 
-   * <em>TIP: Use the </em><strong><em>Find Time</em></strong><em> or </em><strong><em>View Calendar</em></strong><em> </em>buttons available, to find an empty slot to schedule this specific appointment for (according to the resource, appt type & location's schedule you selected above)
+![](../adding-an-appointment-using-the-wizard-tab.assets/1b2debe81a1bae9a1e1b45a6194170f8.png)
 
-
-   ![](../adding-an-appointment-using-the-wizard-tab.assets/1b2debe81a1bae9a1e1b45a6194170f8.png)
-
-
-   * <strong>To put a patient on the Waiting List</strong> you must click the USE WAITLIST button and the date/time field will clear out, then just click "add" to add the appointment and it will then put this patient in the waiting list, which has separate reporting for visibility.
-
+    * <strong>To put a patient on the Waiting List</strong> you must click the USE WAITLIST button and the date/time field will clear out, then just click "add" to add the appointment and it will then put this patient in the waiting list, which has separate reporting for visibility.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/e6040a013bfb5926d26f92cb3215895f.png)
 
@@ -134,20 +128,23 @@ The next section is *Patient Visits*.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/af005091765cde860b80d10dd34a5fda.png)
 
-* Simply click the Select hyperlink for the free appointment slot you wish to grab. It will populate the date/time fields with that selection.
+    * Simply click the Select hyperlink for the free appointment slot you wish to grab. It will populate the date/time fields with that selection.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/13935183d81188ad7eb2d06fda812c49.png)
 
 * <strong>View Calendar:</strong> Click this button and it will pop-up the Multi-View schedule of the Resource/location/date that you had input. You can click on an open time slot to grab or choose another date from the calendar at the far, right side. When you have selected the time/date in yellow that you wish, then it automatically puts that date and time in the <strong>date/time</strong> box to schedule the appointment for.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/46806542d741603e916004b8e47fa221.png)
+
 Once you have your appointment information in the fields, click the SAVE button. It will automatically add that appointment to the system as a scheduled appointment with that resource, location, appointment type on the selected date/time.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/259c61e90137f247c21a3ce006cc10e9.png)
+
 Once you've saved the appointment to be scheduled (with the details), the system takes you to the Multi-View of the scheduler with the newly added/scheduled appointment highlighted in **pink**.  Pink is proof that it scheduled that appointment for that resource, location and on the date/time slot indicated.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/426fe6948b58a0ca4fd0abd9424df044.png)
 
 ### Options for recurring appointment needs
-
 
 * <strong>Options:</strong> In the options column, there are options that can be used for scheduling multiple appointments for the same patient. ADD & CLEAR, ADD, or RECUR.
 
@@ -160,20 +157,19 @@ Once you've saved the appointment to be scheduled (with the details), the system
 * <strong>Add (Appt):</strong> If you have another appointment to schedule for this patient, instead of clicking the SAVE button after you've created your first appointment for this patient, you can click ADD instead. It then lists that first appointment you created in a summary listing and you are free to add/schedule another appointment for this same patient. You just go up and edit the fields you need to change for the next appointment to schedule on this patient.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/97ef1823fc7a5214c301ddb506df5ab5.png)
+
 This is a quick way to schedule multiple appointments for the patient with the same field details as the original appointment without having to change/edit/enter many fields again. However, no appointment is SAVED until you click the SAVE button. You can always click "add and clear" to add the first appt and clear the fields out to be able to enter in another appt for the patient. However the "add" button will remember your prior prefilled fields and you only need to edit/change what you need to for the next appt for this patient to schedule (while staying on the same screen).
+
 After you click ADD (APPT), you can change and modify the fields and enter another appointment and its details. Click SAVE if you are done after scheduling multiple appointments, or keep clicking ADD (APPT) or ADD & CLEAR button to continue adding more appointments for this patient.
 
 ## Schedule Back to Back Appointments
-
 
 * Enter in details for the first appointment, but clear out the date/time field so there is none set OR set it to Use Waitlist so the date/time is empty
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/964837508c2a9967cf6a37d468621bc1.png)
 
 * Click the <strong>Add & Clear</strong> button
-
-   * The appointment gets listed under in a section
-
+    * The appointment gets listed under in a section
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/4540f644e59cad1d227172eccdbb98f9.png)
 
@@ -181,14 +177,12 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/c7d587e84202830d021fdc8f9168f4af.png)
 
-* Click the <strong>Add & Clear </strong>button
-
-   * The appointment gets listed with the other, under in a section
-
+* Click the <strong>Add & Clear</strong> button
+    * The appointment gets listed with the other, under in a section
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/5553f5711e20e58616c05008f5a0d5ad.png)
 
-* Click the <strong>Search for a day and location where all of these appointments can occur</strong><strong> </strong>hyperlink, to find times both appointments can happen on the same day
+* Click the <strong>Search for a day and location where all of these appointments can occur</strong><strong></strong> hyperlink, to find times both appointments can happen on the same day
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/e5c8948a942721d1d1d1f83f9db97518.png)
 
@@ -200,7 +194,7 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/e34533d409774786859c14db2a02a3b7.png)
 
-* The Multi-View of the Scheduler will display in another window which will show a split schedule for both resources you had indicated needing appointments within the above appointment details. 
+* The Multi-View of the Scheduler will display in another window which will show a split schedule for both resources you had indicated needing appointments within the above appointment details.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/020941870063a340e8e7bc548f164f79.png)
 
@@ -217,7 +211,7 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/03ce3c3263869145908ea6a306a3fcb4.png)
 
-* Click the SAVE<strong> </strong>button to save your work to put (schedule) those appointments on the books.
+* Click the SAVE<strong></strong> button to save your work to put (schedule) those appointments on the books.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/396a54841b043219f0b0b73c6dec5aa0.png)
 
@@ -229,19 +223,24 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/af75e8ea474a1c7fd546edeb3f4f64f2.png)
 
-
 ## Schedule Recurring Appointments
-
 
 * <strong>Recur (Appt):</strong> You can keep the same appointment field information (appt type, duration, resource, location & time) and create a recurring appointment. This may be used for example for weekly or monthly Allergy Injections. After you have entered the initial appointment information into the fields, you can click the RECUR button. This pops open a box asking you for the repeat appointment details.   Once you have entered the repeat details, clicking SAVE will add the current appointment repeatedly, incrementing the date according to your criteria.It will also save the appointments so that you can see any conflicts on the schedule and resolve them individually.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/0fea8fcceed5206262233d3790f7f84f.png)
+
 This is an example of scheduling an allergy injection for 5/7/2024 and using the RECUR APPT option for every week and occurring 3 times.
+
 It then listed my initial appointment (which is considered the first occurrence) and then subsequently listed the next 2 occurrences which totals the 3 occurrences (times) that were specified.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/179d531ff30814daaf1a88747a4f7d15.png)
+
 You can view to the right of each appointment listing if the appointment scheduling was ok (shows as saved) or if there are any conflicts. If any conflicts (like overbooked, etc) you can Force the appointment to be scheduled anyhow, or you can find free time or view calendar to reschedule just that specific conflicted appointment.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/6680e7ca5238105aa78e296b61f8859f.png)
+
 If you wish to delete an appointment from the listing, click the [-] box at the left of the appointment line.
+
 Even though this summary appointment list may list them as ‘saved' recurring appointments— they are NOT saved/scheduled until you click the SAVE button at the bottom. Using the close button will take you out and not save your appointments.
 
 {{% note %}}
@@ -249,34 +248,45 @@ The system will not SAVE appointments that have a conflict. You must either dele
 {{% /note %}}
 
 No appointments will be put on the scheduler or saved until you click the SAVE button. If you try to click the CLOSE button with appointments listed in the summary (and unsaved or unconflicted), you will get a warning.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/fb7e4fb2dad7789f3ca0be055f6c4631.png)
+
 Once the SAVE button is clicked, those appointments are successfully placed in the scheduler and you are taken out to that view.
+
 When you click the SAVE button, if there are any missing fields that your practice has deemed required or recommended, you will get that warning box. Required fields must be fixed before it will allow you to save the appointment. Recommended fields are just alerting you that your practice deems them ‘recommended fields' but you can proceed and continue to save the appointment without having to fill out that field.
+
 *To find out how to set these fields as required or recommended or how to change them practice wide, see other help document named Required- Recommended Fields When Adding Appointments.pdf*
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/fd41f2f05366cd390d9eed0aabcd446f.png)
+
 You will be refreshed back to the scheduler view and will see your appointment added in your view.
+
 Below the appointment add wizard screen (while you are scheduling an appointment) is a summary section of *Pending Appts, Past Appts, and Cancelled Appts* for that patient you are scheduling an appointment for. This is a summary for viewing purposes. If you scroll down to the bottom of the appointment wizard screen, you will see this summary if the patient has any pending/past or cancelled appointments.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/6f4a02d317062dd783ff0967f0fec6de.png)
 
 ## Common Messages When Scheduling an Appointment
 
-
 #### Time is not templated
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/b810cc96f19b74d3262eec3c437430cf.png)
+
 Time is not templated means the time of the appointment is not within the resource/provider's schedule that is set up. It means that a schedule is entered, but you are trying to schedule an appointment for a time not within those hours the provider will see patients or at the location specified in the schedule. It could also mean that the resource/provider is off that day and not seeing patients, so that time is blocked off in a schedule. This is a general warning message that the time you are trying to schedule for is not matching what is in the schedule. If you have security rights, you can force the appointment and schedule it anyway. Otherwise, it is suggested to use the View Calendar button to see why you cannot schedule that appointment or pick another day. The scheduler will not warn for non-templated times when adding an appointment for a resource that has no schedule(s) set up. All time will show as free if a resource/provider doesn't have a schedule set up.
 
 #### Start time is before current time
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/fc5f4e181bf1056ee80a98101fed27bb.png)
+
 Start time is before the current time means the appointment you are trying to schedule is before today's date or today's current time that your workstation shows. You are trying to schedule an appointment in the past.
 
 #### Overbooked
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/053eca52784f70586bd209b53b45bfa4.png)
+
 Overbooked is a message telling you that the appointment you are trying to schedule is overbooking that time slot. For example, there may be a schedule set up for the resource/provider to only allow 2 patient appointments per time slot. If you are scheduling an appointment and are trying to schedule a 3rd appt for that time slot, it will give you this message that the time slot is overbooked. If you have security permission, you can force it and overbook the appointment anyway. Otherwise, it is suggested to use the View Calendar button or Find Time button to find a different open time to schedule that appointment, so it doesn't overbook their schedule.
 
 #### Deceased Patient
 
 **Deceased patient:** If the patient has been marked as deceased in the demographics tab and you try to add/schedule an appointment for that patient, the system will alert you when you try to click SAVE.  The system notifies you that the patient chart is marked as deceased and asks if you still want to add/schedule the appointment.
+
 ![](../adding-an-appointment-using-the-wizard-tab.assets/efa989dbdd6f33050055c45d7a0cd78e.png)

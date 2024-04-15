@@ -7,7 +7,7 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Most X-Ray images are found within the  chart, under the **Test Results** chart tab and subtab named **Radiology**.
 
@@ -33,7 +33,7 @@ Users can choose the contrast level in which to batch print a series.
 
 ![](../dicom-viewer.assets/7d8222f65b7bced3ee072a807bbde86c.png)
 
-When clicking on the actual image, it will open another window for enhanced viewing. The enhanced viewer screen offers many toolbar options at the top.  
+When clicking on the actual image, it will open another window for enhanced viewing. The enhanced viewer screen offers many toolbar options at the top.
 
 ![](../dicom-viewer.assets/8721d596f77da2ae116777a83a0750e1.png)
 
@@ -41,11 +41,11 @@ The first 2 buttons in the toolbar take you from stage to stage. There may be ma
 
 ![](../dicom-viewer.assets/1c24618440a8828740a052feebf11885.png)
 
-The enhanced viewer doesn't offer the ability to take a view from another doc.id (document) and compare it to a view from a different/separate doc.id (document).  
+The enhanced viewer doesn't offer the ability to take a view from another doc.id (document) and compare it to a view from a different/separate doc.id (document).
+
 To hang views side by side, they must be in the same series/same document.  You can click the down-arrow to select standard hang options or you can click the [C] button to get to a custom protocol hang option.
 
 ![](../dicom-viewer.assets/623c85a72bc115ff6a2c357be897775a.png)
-
 
 An example to see a hang is to search for doc.id 316 in your system (a sample image series in your {{% system-name %}} system).  To hang images, the document must have more than 1 series.
 

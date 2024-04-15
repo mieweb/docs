@@ -10,30 +10,25 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1WL4cLXmukRX616QkWJCrK5FBgkLsgmOQ6Jn7YHpElNk'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Care Coordination
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Care Coordination  
 **Description**: Implementation of practices/processes, including a discussion on care, to develop regularly updated individual care plans for at-risk patients that are shared with the beneficiary or caregiver(s). Individual care plans should include consideration of a patient's goals and priorities, as well as desired outcomes of care.
-
-
-
 
 Supporting Documentation
 
-1. Individual Care Plans for At-Risk Patients - Documented practices/processes for developing regularly individual care plans for at-risk patients, e.g., template care plan; and 
+1. Individual Care Plans for At-Risk Patients - Documented practices/processes for developing regularly individual care plans for at-risk patients, e.g., template care plan; and
 2. Use of Care Plan with Beneficiary - Patient medical records demonstrating care plan being shared with beneficiary or caregiver.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

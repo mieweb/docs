@@ -8,10 +8,9 @@ mimeType: 'text/x-markdown'
 links:
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1e3kmiavTOjCuKHwE8uz4Ucyr1tNyN3CYJrKYgFN-rec'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Use of the WebChart® EHR API
-
 
 ### Acceptance of Terms of Use
 
@@ -24,7 +23,6 @@ You hereby acknowledge that this agreement is between you and Medical Informatic
 If we have reason to believe that you are acting in breach of these API Terms of Use or the User Terms, or if we object to your use of the WebChart® API for any other reason, we will revoke your access to the WebChart® API by invalidating your system. Any attempt to circumvent this and obtain a new client ID and client secret is strictly prohibited.
 
 ## Changes
-
 
 ### Changes to the API
 
@@ -40,11 +38,12 @@ From time to time, it might be necessary for MIE to require you to make changes 
 
 ## Content and Privacy
 
-
 ### User Content
 
-Remember, it's not your content. It's not even MIE's content. All audio, text, images, comments and other data or information associated with user accounts on the WebChart® platform ("User Content") is owned by the WebChart® user that created or uploaded it (the "Uploader"), and you must respect their rights at all times. Misuse of User Content may constitute copyright or HIPAA infringement and result in action being taken against you by the Uploader or other copyright owner.  
-MIE does not grant you any rights in User Content, and you must not claim or attempt to claim ownership of any User Content, misrepresent yourself, your company or your app as being the source of the User Content, or attempt to use, license or exploit any User Content on your own behalf or on behalf of any third party (other than the Uploader and with their express permission). When displaying or distributing User Content via your app, you must ensure that such User Content is always correctly attributed to the Uploader – see the Attribution and Branding section below for our rules on attribution.  
+Remember, it's not your content. It's not even MIE's content. All audio, text, images, comments and other data or information associated with user accounts on the WebChart® platform ("User Content") is owned by the WebChart® user that created or uploaded it (the "Uploader"), and you must respect their rights at all times. Misuse of User Content may constitute copyright or HIPAA infringement and result in action being taken against you by the Uploader or other copyright owner.
+
+MIE does not grant you any rights in User Content, and you must not claim or attempt to claim ownership of any User Content, misrepresent yourself, your company or your app as being the source of the User Content, or attempt to use, license or exploit any User Content on your own behalf or on behalf of any third party (other than the Uploader and with their express permission). When displaying or distributing User Content via your app, you must ensure that such User Content is always correctly attributed to the Uploader – see the Attribution and Branding section below for our rules on attribution.
+
 You must always respect the usage restrictions set by Uploaders, and in particular, you must not do any of the following things (or authorise or allow others to do them):
 
 1. access, distribute, make available or use any User Content for which API access has not been enabled by the Uploader, or any User Content that has not been made publicly available by the Uploader, (other than User Content residing in an account to which your app has authenticated access);
@@ -55,10 +54,14 @@ You must not use the WebChart® API to rip or capture any User Content from any 
 
 ### User Data and Privacy
 
-When it comes to user data and privacy, we believe that all users have a right to know what data is collected about them and how this data will be used. We expect anyone using our API to be equally transparent with respect to their collection and use of user data, including data shared by WebChart® users.  
-We expect you to have a privacy policy in place which explains how you collect, store, process, transfer and use any Personal Data. Your privacy policy should adopt standards that are consistent with MIE's privacy policy when it comes to storage and use of Personal Data, and you must ensure that you comply with your privacy policy and all privacy and data protection laws applicable to you at all times (in particular, any use of email addresses that our users have chosen to share must be in line with relevant anti-spam laws, such as the CAN-SPAM Act and the Privacy and E-Commerce Regulations).  
-If you are located outside of the European Economic Area, you must specifically disclose this fact to the user and make it clear to the user that by using your app, the user will be initiating and/or requesting and/or consenting to the transfer of Personal Data to a country that may offer a lesser level of protection of the rights and freedoms of data subjects in relation to the processing of Personal Data.  
-You must not request access to more Personal Data than you actually need for the effective operation of your app, and must not retain Personal Data for longer than is reasonably necessary. Make sure you look after the Personal Data you receive from users, ensuring that the data is stored securely and is safe from unauthorised disclosure or loss.  
+When it comes to user data and privacy, we believe that all users have a right to know what data is collected about them and how this data will be used. We expect anyone using our API to be equally transparent with respect to their collection and use of user data, including data shared by WebChart® users.
+
+We expect you to have a privacy policy in place which explains how you collect, store, process, transfer and use any Personal Data. Your privacy policy should adopt standards that are consistent with MIE's privacy policy when it comes to storage and use of Personal Data, and you must ensure that you comply with your privacy policy and all privacy and data protection laws applicable to you at all times (in particular, any use of email addresses that our users have chosen to share must be in line with relevant anti-spam laws, such as the CAN-SPAM Act and the Privacy and E-Commerce Regulations).
+
+If you are located outside of the European Economic Area, you must specifically disclose this fact to the user and make it clear to the user that by using your app, the user will be initiating and/or requesting and/or consenting to the transfer of Personal Data to a country that may offer a lesser level of protection of the rights and freedoms of data subjects in relation to the processing of Personal Data.
+
+You must not request access to more Personal Data than you actually need for the effective operation of your app, and must not retain Personal Data for longer than is reasonably necessary. Make sure you look after the Personal Data you receive from users, ensuring that the data is stored securely and is safe from unauthorised disclosure or loss.
+
 For the purposes of these Terms of Use, "Personal Data" means data relating to an individual user, or that might be used to identify an individual user, including a user's username, email address, city and country, and any information or data from the user's profile such as their avatar or profile picture, website or social media URLs, sounds, followers and/or any comments or posts by that user.
 
 ## Uploading and Writing Data
@@ -67,7 +70,8 @@ Where your app allows users to create User Content, you need to take all reasona
 
 ## Caching and Downloading
 
-Your app must not include file-save functionality, or otherwise designed to cache, download or persistently store any User Content. Your app may employ session-based caching, but only to the extent reasonably necessary for the operation of your app during that session, and any cached content must cease to be available, accessible or playable within your app at the end of that session. If any Uploader changes their settings with respect to any item of User Content (for example, by removing that item of User Content from the platform, or by disabling API access), you must ensure that your app reflects and respects such changes as soon as reasonably possible. Except for session-based caching referred to above, your app must not offer offline access to any User Content including, in the case of audio User Content, as permanent downloads or temporary downloads for offline listening, regardless of whether Uploaders have set that User Content as allowed to be downloaded on the WebChart® platform.  
+Your app must not include file-save functionality, or otherwise designed to cache, download or persistently store any User Content. Your app may employ session-based caching, but only to the extent reasonably necessary for the operation of your app during that session, and any cached content must cease to be available, accessible or playable within your app at the end of that session. If any Uploader changes their settings with respect to any item of User Content (for example, by removing that item of User Content from the platform, or by disabling API access), you must ensure that your app reflects and respects such changes as soon as reasonably possible. Except for session-based caching referred to above, your app must not offer offline access to any User Content including, in the case of audio User Content, as permanent downloads or temporary downloads for offline listening, regardless of whether Uploaders have set that User Content as allowed to be downloaded on the WebChart® platform.
+
 Unless otherwise permitted by applicable law and/or agreed with the relevant user, when a user revokes access to their WebChart® account, you must ensure that all Personal Data and User Content pertaining to that user is deleted from your app, networks, systems and servers as soon as reasonably possible. If you stop using the WebChart® API altogether or if your API access is revoked, you'll need to delete all User Content and Personal Data in the same way.
 
 ## Commercial Use
@@ -82,7 +86,6 @@ Only the following commercial uses are acceptable:
 * the use of the WebChart® API to deliver User Content to the Uploader's own ad-enabled website, blog or social media profile;
 * services aimed at helping a user to promote his/her User Content via authenticated access to the user's account, provided this does not constitute a breach of the User Terms; and
 * other cases that MIE may approve on a case by case basis (email us at [support@mieweb.com](mailto:support@mieweb.com) you have an additional commercial use that you'd like us to consider).
-
 
 ### Unacceptable Commercial Use
 
@@ -103,9 +106,7 @@ We reserve the right, at our discretion, to impose restrictions and limitations 
 
 ## Attribution and Branding
 
-
 ### Attribution
-
 
 ### MIE Marks
 
@@ -125,7 +126,8 @@ If we amend or update any of the MIE Marks or any of the Resources mentioned abo
 
 ## Press and Publicity
 
-You must not issue any press release or similar public announcement regarding your app that makes any reference to MIE or WebChart®(except as permitted in the "Promoting Your App" section above) without our prior written consent.  
+You must not issue any press release or similar public announcement regarding your app that makes any reference to MIE or WebChart®(except as permitted in the "Promoting Your App" section above) without our prior written consent.
+
 If we choose to feature your app in our App Gallery (which we don't guarantee to do), you agree that we may use the name of your company and/or the name and logo of your app for this purpose. We may also use your company and app name and logo in presentations, reports, case studies, marketing materials and similar documentation for as long as you make use of the WebChart® API.
 
 ## General Prohibitions
@@ -152,28 +154,30 @@ There are a few general rules when it comes to use of the WebChart® API:
 18. You must not impose any terms on users of your app that are inconsistent with these API Terms of Use or the User Terms.
 19. You must ensure that all networks, hardware and software necessary to operate your app (other than the WebChart® platform or the WebChart® API) are configured and operate to commercially reasonable standards of security. In the event of any breach of security involving the MIE API or any User Content or Personal Data, you must notify MIE immediately via [support@mieweb.com](mailto:support@mieweb.com) and work diligently to remedy such security breach as soon as practicable. You shall not make any public statement regarding any such security breach without the prior written approval of MIE.
 
-
 ## Other Legal Terms
-
 
 ### Ownership
 
-Everything related to the MIE API is owned by Medical Informatics Engineering, Inc.  
+Everything related to the MIE API is owned by Medical Informatics Engineering, Inc.
+
 You hereby acknowledge that, as between you and Medical Informatics Engineering (MIE), all rights, title and interest, including without limitation, all intellectual property rights, in and to the WebChart® API, any and all documentation provided by MIE in connection therewith, the WebChart® platform and the MIE Marks, are owned by MIE.
 
 ### Confidentiality
 
-Respect our confidential information  
+Respect our confidential information
+
 Through your use of the WebChart® API, you may come into contact with information, in whatever form, that belongs or relates to MIE or its affiliates, including without limitation, the WebChart® API itself, and any other software, documentation, processes, know-how, designs, strategies, and data pertaining to the WebChart® API, User Content, WebChart® users, the WebChart® platform and/or any part or parts thereof ("Confidential Information"). As between you and MIE, all Confidential Information remains the property of MIE. You shall not use any of the Confidential Information except as strictly necessary for the development, testing and operation of your app, and you shall not disclose the Confidential Information or any part thereof to any third party. You shall take all reasonable precautions to prevent to unauthorized disclosure or dissemination of the Confidential Information, and if you are a company or other organisation, you shall limit distribution of the Confidential Information to those of your employees who need to know the same in connection with the development, testing and operation of your app. Within five days of a request from MIE, and in any event when you stop using the WebChart® API (for whatever reason), you shall delete and destroy and certify the destruction of the same (which shall include irretrievably deleting such Confidential Information from all of your networks and systems). This provision shall survive any termination of the agreement created by these API Terms of Use.
 
 ### Independent Development
 
-We may develop competing apps  
+We may develop competing apps
+
 You hereby acknowledge that MIE may currently or in future develop apps and services that may be similar to or competitive with your app. Nothing in these API Terms of Use shall in any way limit, restrict or preclude MIE from pursuing any of these, or any other, present or future business activities, opportunities or interests or from entering into any agreement or transaction with any person.
 
 ### Representations and Warranties
 
-You are responsible for all things relating to the distribution and use of your app  
+You are responsible for all things relating to the distribution and use of your app
+
 You hereby represent and warrant to MIE as follows:
 
 1. You have the right to distribute and make available your app to end users thereof, and your app and end users' use of your app in compliance with your app's terms of service (if any), does not and will not infringe or violate the rights of any third party or any applicable law, rule or regulation.
@@ -181,25 +185,32 @@ You hereby represent and warrant to MIE as follows:
 3. You will comply with all applicable laws in connection with your use of the WebChart® API and all User Content and Personal Data accessed thereby, including without limitation, all applicable intellectual property and data protection laws in all relevant jurisdictions.
 4. You will not use the WebChart® API or any User Content or Personal Data for any purpose that is fraudulent, illegal, libellous, defamatory, offensive, discriminatory or in any way that promotes, solicits or condones the infringement of intellectual property rights, or otherwise brings MIE into disrepute.
 
-
 ### Liability for User Content
 
-MIE is not responsible for User Content  
-You hereby acknowledge and agree that (i) WebChart® users are solely responsible for User Content that they upload, post or distribute to, on or through the WebChart® platform, (ii) MIE cannot and does not review the User Content created or uploaded by its users, and MIE has no obligation, and does not undertake or assume any duty, to monitor the WebChart® platform for User Content that is inappropriate, that does or might infringe any third party rights, or has otherwise been uploaded in breach of the User Terms or applicable law; and (iii) the availability of User Content on the WebChart® platform and over the WebChart®API is a matter controlled by the relevant Uploader as the owner of the relevant User Content, and not by MIE (subject to the removal of any item of User Content by MIE in response to any reports of copyright infringement made against the Uploader).  
-MIE hereby excludes, to the fullest extent permitted by law, any and all liability which may arise from any User Content uploaded to the WebChart®platform by WebChart® users and accessed by you and users of your app, including, but not limited to, any claims for infringement of intellectual property rights, rights of privacy or publicity rights, any claims relating to publication of defamatory, pornographic, obscene or offensive material, or any claims relating to the completeness, accuracy, currency or reliability of any information provided by Users.  
+MIE is not responsible for User Content
+
+You hereby acknowledge and agree that (i) WebChart® users are solely responsible for User Content that they upload, post or distribute to, on or through the WebChart® platform, (ii) MIE cannot and does not review the User Content created or uploaded by its users, and MIE has no obligation, and does not undertake or assume any duty, to monitor the WebChart® platform for User Content that is inappropriate, that does or might infringe any third party rights, or has otherwise been uploaded in breach of the User Terms or applicable law; and (iii) the availability of User Content on the WebChart® platform and over the WebChart®API is a matter controlled by the relevant Uploader as the owner of the relevant User Content, and not by MIE (subject to the removal of any item of User Content by MIE in response to any reports of copyright infringement made against the Uploader).
+
+MIE hereby excludes, to the fullest extent permitted by law, any and all liability which may arise from any User Content uploaded to the WebChart®platform by WebChart® users and accessed by you and users of your app, including, but not limited to, any claims for infringement of intellectual property rights, rights of privacy or publicity rights, any claims relating to publication of defamatory, pornographic, obscene or offensive material, or any claims relating to the completeness, accuracy, currency or reliability of any information provided by Users.
+
 By using the WebChart® API, you irrevocably waive the right to assert any claim with respect to any of the foregoing, or any other claim related to your use of the WebChart® API, against MIE or any of its subsidiaries, affiliates, successors, assigns, employees, agents, directors, officers or shareholders.
 
 ### Disclaimer
 
-MIE gives no guarantees regarding the API or other things provided under these terms  
-THE WebChart® API, THE WebChart® PLATFORM, THE MIE MARKS AND ALL USER CONTENT AND PERSONAL DATA ACCESSED THROUGH OR VIA THE MIE API, ARE PROVIDED "AS IS", "AS AVAILABLE", AND "WITH ALL FAULTS".  
-WHILST MIE USES ALL REASONABLE ENDEAVOURS TO CORRECT ANY ERRORS OR OMISSIONS ON THE WebChart® PLATFORM AS SOON AS PRACTICABLE ONCE THEY HAVE BEEN BROUGHT TO MIE'S ATTENTION, MIE MAKES NO PROMISES, GUARANTEES, REPRESENTATIONS OR WARRANTIES OF ANY KIND WHATSOEVER (EXPRESS OR IMPLIED) REGARDING THE WebChart® PLATFORM, THE WebChart® API OR ANY PART OR PARTS THEREOF, THE MIE MARKS OR ANY USER CONTENT OR PERSONAL DATA, INCLUDING, WITHOUT LIMITATION, ANY WARRANTY OF NON-INFRINGEMENT, OR ANY GUARANTEE THAT ANY PARTICULAR ITEM(S) OF USER CONTENT IS, ARE OR WILL BE AVAILABLE ON THE WebChart® PLATFORM AND/OR WILL BE ACCESSIBLE VIA THE WebChart® API AT ANY OR ALL TIMES OR AT ALL. MIE DOES NOT WARRANT THAT ANY USER CONTENT IS CLEARED FOR THE USE THAT YOU INTEND TO MAKE OF IT VIA YOUR APP AND DOES NOT PROVIDE YOU WITH THE BENEFIT OF ANY LICENCES (ON A PASS THROUGH BASIS OR OTHERWISE) THAT MIE MAY HAVE OR OBTAIN WITH RESPECT TO ANY USER CONTENT AND ANY SUCH BENEFIT THAT MIGHT OTHERWISE BE GRANTED OR IMPLIED AS A MATTER OF LAW IS HEREBY EXCLUDED MIE DOES NOT WARRANT THAT YOUR USE OF THE WebChart® API WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE WebChart® PLATFORM, THE WebChart® API, THE USER CONTENT OR PERSONAL DATA OR ANY PART OR PARTS THEREOF, OR THE SERVERS ON WHICH THE WebChart® PLATFORM OPERATES ARE OR WILL BE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. MIE DOES NOT WARRANT THAT ANY CALLS TO THE WebChart® API OR ANY TRANSMISSION OF USER CONTENT WILL BE SECURE OR THAT ANY ELEMENTS OF THE WebChart® PLATFORM DESIGNED TO PREVENT UNAUTHORISED ACCESS, SHARING OR DOWNLOAD OF USER CONTENT WILL BE EFFECTIVE IN ANY AND ALL CASES, AND DOES NOT WARRANT THAT YOUR USE OF THE WebChart® PLATFORM OR THE WebChart® API IS LAWFUL IN ANY PARTICULAR JURISDICTION.  
-MIE AND ITS SUBSIDIARIES, AFFILIATES, SUCCESSORS, AND ASSIGNS, AND THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND SHAREHOLDERS, SPECIFICALLY DISCLAIM ALL OF THE FOREGOING WARRANTIES TO THE FULLEST EXTENT PERMITTED BY LAW, TOGETHER WITH ANY EXPRESS OR IMPLIED WARRANTIES REGARDING NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
+MIE gives no guarantees regarding the API or other things provided under these terms
+
+THE WebChart® API, THE WebChart® PLATFORM, THE MIE MARKS AND ALL USER CONTENT AND PERSONAL DATA ACCESSED THROUGH OR VIA THE MIE API, ARE PROVIDED "AS IS", "AS AVAILABLE", AND "WITH ALL FAULTS".
+
+WHILST MIE USES ALL REASONABLE ENDEAVOURS TO CORRECT ANY ERRORS OR OMISSIONS ON THE WebChart® PLATFORM AS SOON AS PRACTICABLE ONCE THEY HAVE BEEN BROUGHT TO MIE'S ATTENTION, MIE MAKES NO PROMISES, GUARANTEES, REPRESENTATIONS OR WARRANTIES OF ANY KIND WHATSOEVER (EXPRESS OR IMPLIED) REGARDING THE WebChart® PLATFORM, THE WebChart® API OR ANY PART OR PARTS THEREOF, THE MIE MARKS OR ANY USER CONTENT OR PERSONAL DATA, INCLUDING, WITHOUT LIMITATION, ANY WARRANTY OF NON-INFRINGEMENT, OR ANY GUARANTEE THAT ANY PARTICULAR ITEM(S) OF USER CONTENT IS, ARE OR WILL BE AVAILABLE ON THE WebChart® PLATFORM AND/OR WILL BE ACCESSIBLE VIA THE WebChart® API AT ANY OR ALL TIMES OR AT ALL. MIE DOES NOT WARRANT THAT ANY USER CONTENT IS CLEARED FOR THE USE THAT YOU INTEND TO MAKE OF IT VIA YOUR APP AND DOES NOT PROVIDE YOU WITH THE BENEFIT OF ANY LICENCES (ON A PASS THROUGH BASIS OR OTHERWISE) THAT MIE MAY HAVE OR OBTAIN WITH RESPECT TO ANY USER CONTENT AND ANY SUCH BENEFIT THAT MIGHT OTHERWISE BE GRANTED OR IMPLIED AS A MATTER OF LAW IS HEREBY EXCLUDED MIE DOES NOT WARRANT THAT YOUR USE OF THE WebChart® API WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE WebChart® PLATFORM, THE WebChart® API, THE USER CONTENT OR PERSONAL DATA OR ANY PART OR PARTS THEREOF, OR THE SERVERS ON WHICH THE WebChart® PLATFORM OPERATES ARE OR WILL BE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. MIE DOES NOT WARRANT THAT ANY CALLS TO THE WebChart® API OR ANY TRANSMISSION OF USER CONTENT WILL BE SECURE OR THAT ANY ELEMENTS OF THE WebChart® PLATFORM DESIGNED TO PREVENT UNAUTHORISED ACCESS, SHARING OR DOWNLOAD OF USER CONTENT WILL BE EFFECTIVE IN ANY AND ALL CASES, AND DOES NOT WARRANT THAT YOUR USE OF THE WebChart® PLATFORM OR THE WebChart® API IS LAWFUL IN ANY PARTICULAR JURISDICTION.
+
+MIE AND ITS SUBSIDIARIES, AFFILIATES, SUCCESSORS, AND ASSIGNS, AND THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND SHAREHOLDERS, SPECIFICALLY DISCLAIM ALL OF THE FOREGOING WARRANTIES TO THE FULLEST EXTENT PERMITTED BY LAW, TOGETHER WITH ANY EXPRESS OR IMPLIED WARRANTIES REGARDING NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
 WHERE THE LAW OF ANY JURISDICTION LIMITS OR PROHIBITS THE DISCLAIMER OF IMPLIED OR OTHER WARRANTIES AS SET OUT ABOVE, THE ABOVE DISCLAIMERS SHALL NOT APPLY TO THE EXTENT THAT THE LAW OF SUCH JURISDICTION APPLIES TO THESE API TERMS OF USE.
 
 ### Limitation of Liability
 
-Any liability that MIE does have will exclude the things listed below  
+Any liability that MIE does have will exclude the things listed below
+
 MIE AND ITS SUBSIDIARIES, AFFILIATES, SUCCESSORS, AND ASSIGNS, AND THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND SHAREHOLDERS, SHALL HAVE NO LIABILITY FOR:
 
 1. ANY LOSS OR DAMAGE ARISING FROM:
@@ -212,24 +223,30 @@ MIE AND ITS SUBSIDIARIES, AFFILIATES, SUCCESSORS, AND ASSIGNS, AND THEIR RESPECT
 8. ANY LOSS OR DAMAGE TO ANY COMPUTER HARDWARE OR SOFTWARE, ANY LOSS OF DATA, OR ANY LOSS OR DAMAGE FROM ANY SECURITY BREACH; AND/OR
 9. ANY LOSS OF PROFITS, ANY COST OF FINDING REPLACEMENT GOODS OR SERVICES, OR ANY LOSS YOU SUFFER WHICH IS NOT A FORESEEABLE CONSEQUENCE OF MIE BREACHING THESE API TERMS OF USE. LOSSES ARE FORESEEABLE WHERE THEY COULD BE CONTEMPLATED BY YOU AND MIE AT THE TIME YOU AGREE TO THESE API TERMS OF USE, AND THEREFORE DO NOT INCLUDE ANY INDIRECT LOSSES, SUCH AS LOSS OF OPPORTUNITY.
 
-NOTWITHSTANDING ANY OTHER PROVISION OF THESE API TERMS OF USE, MIE'S TOTAL LIABILITY TO YOU UNDER THESE API TERMS OF USE, WHETHER IN CONTRACT, TORT OR OTHERWISE, SHALL NOT EXCEED FIFTY EUROS (€50) IN AGGREGATE.  
-NOTHING IN THESE API TERMS OF USE LIMITS OR EXCLUDES THE LIABILITY OF MIE, ITS SUBSIDIARIES, AFFILIATES, SUCCESSORS OR ASSIGNS, OR THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND/OR SHAREHOLDERS FOR ANY DEATH OR PERSONAL INJURY CAUSED BY ITS OR THEIR NEGLIGENCE OR DELIBERATE ACTS OR OMISSIONS, FOR ANY FORM OF FRAUD OR DECEIT, OR FOR ANY FORM OF LIABILITY WHICH CANNOT BE LIMITED OR EXCLUDED BY LAW.  
+NOTWITHSTANDING ANY OTHER PROVISION OF THESE API TERMS OF USE, MIE'S TOTAL LIABILITY TO YOU UNDER THESE API TERMS OF USE, WHETHER IN CONTRACT, TORT OR OTHERWISE, SHALL NOT EXCEED FIFTY EUROS (€50) IN AGGREGATE.
+
+NOTHING IN THESE API TERMS OF USE LIMITS OR EXCLUDES THE LIABILITY OF MIE, ITS SUBSIDIARIES, AFFILIATES, SUCCESSORS OR ASSIGNS, OR THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND/OR SHAREHOLDERS FOR ANY DEATH OR PERSONAL INJURY CAUSED BY ITS OR THEIR NEGLIGENCE OR DELIBERATE ACTS OR OMISSIONS, FOR ANY FORM OF FRAUD OR DECEIT, OR FOR ANY FORM OF LIABILITY WHICH CANNOT BE LIMITED OR EXCLUDED BY LAW.
+
 ADDITIONALLY, APPLICABLE LAW MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU. IN SUCH CASES, YOU ACKNOWLEDGE AND AGREE THAT SUCH LIMITATIONS AND EXCLUSIONS REFLECT A REASONABLE AND FAIR ALLOCATION OF RISK BETWEEN YOU AND MIE AND ARE FUNDAMENTAL ELEMENTS OF THE BARGAIN BETWEEN YOU AND MIE, AND THAT MIE'S LIABILITY WILL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.
 
 ### Indemnification
 
-You need to be responsible for any loss that we suffer as the result of your use of our API  
+You need to be responsible for any loss that we suffer as the result of your use of our API
+
 You hereby agree to indemnify, defend and hold harmless MIE, its successors, assigns, affiliates, agents, directors, officers, employees and shareholders from and against any and all claims, obligations, damages, losses, expenses, and costs, including reasonable attorneys' fees, resulting from (i) any violation by you of these API Terms of Use or the User Terms; (ii) any claim by any third party that your use of the WebChart® API, the MIE Marks or any User Content or Personal Data represents a violation of the intellectual property rights, rights of privacy or other rights of that third party, or any other claim related to your use of the WebChart®API; and (iii) any activity related to your client secret, be it by you or by any other person using your client secret with or without your consent.
 
 ### Termination
 
-Either party can terminate use of the API as described below  
-You may terminate the agreement created by your acceptance of these API Terms of Use at any time by sending notice in writing to MIE at 6302 Constitution Dr., Fort Wayne, IN 46804 or by email to [support@mieweb.com](mailto:support@mieweb.com) confirming such termination, whereupon MIE will revoke your access to the API.  
-MIE may terminate the agreement created by your acceptance of these API Terms of Use, and may revoke your API access at any time if (i) you are in breach of any of the material provision of these API Terms of Use or the User Terms; (ii) MIE elects at its discretion to cease providing access to the WebChart® API to any or all users of the WebChart® API and/or in any or all jurisdictions; (iii) MIE decides in its sole discretion that your app does not provide added value to WebChart® users and/or is not in the best interests of MIE or our users, including without limitation, in response to complaints from Uploaders or third party rights owners; or (iv) in other reasonable circumstances as determined by MIE at its discretion.  
-On termination, all right granted hereunder shall cease. You shall immediately cease all use of the WebChart® API, shall remove any and all MIE Marks from your app or any advertising, marketing and promotional materials related thereto, shall destroy all Confidential Information, and shall delete all User Content and Personal Data.  
+Either party can terminate use of the API as described below
+
+You may terminate the agreement created by your acceptance of these API Terms of Use at any time by sending notice in writing to MIE at 6302 Constitution Dr., Fort Wayne, IN 46804 or by email to [support@mieweb.com](mailto:support@mieweb.com) confirming such termination, whereupon MIE will revoke your access to the API.
+
+MIE may terminate the agreement created by your acceptance of these API Terms of Use, and may revoke your API access at any time if (i) you are in breach of any of the material provision of these API Terms of Use or the User Terms; (ii) MIE elects at its discretion to cease providing access to the WebChart® API to any or all users of the WebChart® API and/or in any or all jurisdictions; (iii) MIE decides in its sole discretion that your app does not provide added value to WebChart® users and/or is not in the best interests of MIE or our users, including without limitation, in response to complaints from Uploaders or third party rights owners; or (iv) in other reasonable circumstances as determined by MIE at its discretion.
+
+On termination, all right granted hereunder shall cease. You shall immediately cease all use of the WebChart® API, shall remove any and all MIE Marks from your app or any advertising, marketing and promotional materials related thereto, shall destroy all Confidential Information, and shall delete all User Content and Personal Data.
+
 The provisions of these API Terms of Use that are intended by their nature to survive termination will survive termination.
 
 ### Miscellaneous
 
 These API Terms of Use, together with the User Terms, constitute the entire agreement between you and MIE with respect to your use of the WebChart® API and any User Content and Personal Data accessed thereby, and supersede any prior agreement between you and MIE with respect thereto. MIE may assign its rights and (where permissible by law) its obligations under these API Terms of Use, in whole or in part, to any third party at any time without notice, including without limitation, to any person or entity acquiring all or substantially all of the assets or business of MIE. You may not assign your rights and duties hereunder, in whole or in part, to any third party without the prior written consent of MIE. Should one or more provisions of these API Terms of Use be found to be unlawful, void or unenforceable, such provision(s) shall be deemed severable and will not affect the validity and/or enforceability of the remaining provisions of the API Terms of Use, which will remain in full force and effect. These API Terms of Use are not intended to give rights to anyone except you and MIE, save that Uploaders shall be entitled to enforce these API Terms of Use as third party beneficiaries insofar as these API Terms of Use apply to any unauthorised use of their User Content, User Data or other proprietary rights. This does not affect our right to transfer our rights or obligations to a third party as described above. The agreement created by your acceptance of these API Terms of Use is subject to the laws of the Indiana, USA and you and we hereby submit to the exclusive jurisdiction of the courts in Fort Wayne, IN for resolution of any dispute, action or proceeding arising in connection with these API Terms of Use.
-

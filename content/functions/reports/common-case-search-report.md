@@ -6,28 +6,38 @@ version: 98
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Capturing case (incident) detail on a patient or employee is done through encounters using the dynamic *Case* section.
+
 ![](../common-case-search-report.assets/e640826b4635d3c23e09ed384465462c.png)
+
 Incidents are cases. We use the terminology interchangeably, so you may have encounters that have this section named Case or it may be named Incident Details, etc.
 
 ## Common Case/Incident Search Report
 
-From the Reports sidemenu, there is a reports parent tab named *Safety.* Also from the reports sidemenu, there is also a reports parent tab named *Health Surveillance.* If you don't have either of these tabs, your MIE Implementer can program them for you.  
-![](../common-case-search-report.assets/ff1e4d8b34e33513f9a99fa423e8317b.png) ![](../common-case-search-report.assets/c80bb461b1d09daae5548328f508ef75.png)  
+From the Reports sidemenu, there is a reports parent tab named *Safety.* Also from the reports sidemenu, there is also a reports parent tab named *Health Surveillance.* If you don't have either of these tabs, your MIE Implementer can program them for you.
+
+![](../common-case-search-report.assets/ff1e4d8b34e33513f9a99fa423e8317b.png)
+
+![](../common-case-search-report.assets/c80bb461b1d09daae5548328f508ef75.png)
+
 Within either of those parent report tabs, there is a report hyperlink named *Incident Report* or named *Case Report*. Clicking on that takes you to a report named *Common Case (or Incident) Search*. The report *Common Case Search* is a report based on our hard-coded Incident report, but this *common case search* layout (report) is customizable to include fields that you may want added to report.
+
 ![](../common-case-search-report.assets/887c7b89ce6011e9bb8bd591b2b03b00.png)
 
 {{% info %}}
 Please do not confuse the Common Case / Incident Search report with our hard-coded report named Incidents which is found in its own specific report tab named Incidents. Our hard-coded report named Incident Search tab tab takes you to is not customizable.
 {{% /info %}}
 
-![](../common-case-search-report.assets/de26a64f32fa24c6e91ddc1038728860.png) ![](../common-case-search-report.assets/e855cd3ee7e62d28adcc5065a4a58a42.png)
+![](../common-case-search-report.assets/de26a64f32fa24c6e91ddc1038728860.png)
+
+![](../common-case-search-report.assets/e855cd3ee7e62d28adcc5065a4a58a42.png)
 
 ### Filters
 
 When you access the Incident Report from the Safety or Health Surveillance reports tab, you will be taken to the *Common Case/Incident Search* report. In the Common Case/Incident Search there are several search filter fields available to narrow down your search. If you don't wish to filter, you can just scroll down to click SEARCH button and it will result any and every case (incident) for your system in a report summary. Again, this report is a layout that is customizable to your needs. If you wish additional search filter fields to be available in this Common Case/Incident Search report, please contact your MIE Implementer. Below we have defined each search filter field and where that field can be found in the encounter *Case* or *Incident Details* section when you are capturing case/incident details on a patient/employee.
+
 ![](../common-case-search-report.assets/02ad5782873b559958e2fca39e26db71.png)
 
 * <strong>Patient:</strong> This is an auto-complete search filter field and is buildable, meaning you can run the report to give you results filtered by one or more specific patients or employees.
@@ -95,7 +105,13 @@ When you access the Incident Report from the Safety or Health Surveillance repor
 
 ![](../common-case-search-report.assets/903901c056496140360e46bbf4ac3794.png)
 
-* <strong>Date Filters:</strong> There are multiple date range filter fields available in the Common Case/Incident Search report. Start and end dates are not required, but they help you filter results based on a date range if entered. You can hand key in a date MM-DD-YYYY fields in that format or there are icons that operate as quick click buttons to insert or clear out a date entry in any field. The clock ![](../common-case-search-report.assets/f6a93e2ed6c4ea10635ffd6a432e88a7.png) icon (if clicked) will insert today's date. The x ![](../common-case-search-report.assets/c2f820af982cff5d332f45157322c3cc.png) icon (if clicked) will clear/cancel out the date field input in order to start over, or to signify no start or end date to filter the report by. The calendar ![](../common-case-search-report.assets/92a74cf69479c9cda8314bb04f1e5bd2.png) icon (if clicked) will open up a calendar date picker where you can get to a calendar with tools to select a specific date to insert into the field.
+* <strong>Date Filters:</strong> There are multiple date range filter fields available in the Common Case/Incident Search report. Start and end dates are not required, but they help you filter results based on a date range if entered. You can hand key in a date MM-DD-YYYY fields in that format or there are icons that operate as quick click buttons to insert or clear out a date entry in any field. The clock 
+    ![](../common-case-search-report.assets/f6a93e2ed6c4ea10635ffd6a432e88a7.png)
+     icon (if clicked) will insert today's date. The x 
+    ![](../common-case-search-report.assets/c2f820af982cff5d332f45157322c3cc.png)
+     icon (if clicked) will clear/cancel out the date field input in order to start over, or to signify no start or end date to filter the report by. The calendar 
+    ![](../common-case-search-report.assets/92a74cf69479c9cda8314bb04f1e5bd2.png)
+     icon (if clicked) will open up a calendar date picker where you can get to a calendar with tools to select a specific date to insert into the field.
 
 ![](../common-case-search-report.assets/ae57bf956e35a462dd26e2fedb135333.png)
 
@@ -188,10 +204,10 @@ When you access the Incident Report from the Safety or Health Surveillance repor
 ### Report Results
 
 After any search filter criteria fields are keyed in, click the SEARCH button at the bottom of the Common Case/Incident Search report. Below it will result all the matching criteria cases/incidents in a list view.
+
 ![](../common-case-search-report.assets/dcbf2c0de633f12301135ac2ac6fdda8.png)
 
 #### Columns of the Report
-
 
 * <strong>Case Number:</strong> This displays the specific assigned number to the case/incident. See <em>Case Number</em> search filter field information in previous pages. {{% system-name %}} automatically assigns case numbers when they are created in {{% system-name %}} .
 * <strong>Patient:</strong> This displays the last name,first name of the patient/employee on the case/incident. See <em>patient</em> search filter field information in previous pages.
@@ -219,11 +235,12 @@ After any search filter criteria fields are keyed in, click the SEARCH button at
 * <strong>Injury/Illness Type:</strong> This displays the Injury/Illness type of a work related case/incident. See <em>Injury/Illness Type</em> filter field information in previous pages.
 * <strong>Case Managers:</strong> This displays the case manager name from the Case Management encounter the case/incident is linked to. See <em>Case Manager</em> filter field information in previous pages.
 
-
 #### Customized Columns in Report Results
 
 Since this is the Common Case/Incident Search report, other columns and titles in the results list view section can be added/customized to your company's needs. Contact your MIE Implementer if you need other result columns and data to pull onto the report that results. Below are some examples:
+
 ![](../common-case-search-report.assets/f3b5192f42ea831eac32a1374b87d892.png)
+
 These columns are an example of having customization on this report. This is just for example:
 
 * <strong>OSHA Recordable:</strong> In the screenshot example above, the column "OSHA Recordable" was added as a custom column. The data that pulls forward to populate in this column is an existing input field in {{% system-name %}} . If there is a date entry for the case section field named <em>Date determined recordable</em>, then it shows "Yes" in the column <em>OSHA Recordable</em> in the Common Case/Incident Search report. It will show "No" in that column if there is no date keyed into that field for the case.
@@ -237,21 +254,27 @@ These columns are an example of having customization on this report. This is jus
 ## System Settings
 
 There is a system settings that interact with Case sections and reporting of cases/incidents.
+
 ![](../common-case-search-report.assets/468d9a042182ae63f58446f24f8a5018.png)
 
 ### Case Management / Pre-Case Number Text
 
-{{% system-name %}} automatically assigns an incremental case number to every created case/incident. {{% system-name %}} uses prefixes the case number with whatever is the ‘value' in this system setting. By default, the value in the system setting is **S** which means every case number assigned using {{% system-name %}} will start with the letter S. {{% system-name %}} then follows that pre-text by assigning the case number as the current *year* (ex: 2015) and then follows that prefix with a dash – then the auto-incremental case id#. Final result of an assigned case number to a case/incident (for example) would show as: ![](../common-case-search-report.assets/802b743cefab6a2b07397e6cd98630ff.png) This system setting allows you to customize what PreCase number text you want your {{% system-name %}} created cases/incidents to start with.
+{{% system-name %}} automatically assigns an incremental case number to every created case/incident. {{% system-name %}} uses prefixes the case number with whatever is the ‘value' in this system setting. By default, the value in the system setting is **S** which means every case number assigned using {{% system-name %}} will start with the letter S. {{% system-name %}} then follows that pre-text by assigning the case number as the current *year* (ex: 2015) and then follows that prefix with a dash – then the auto-incremental case id#. Final result of an assigned case number to a case/incident (for example) would show as: 
+![](../common-case-search-report.assets/802b743cefab6a2b07397e6cd98630ff.png)
+ This system setting allows you to customize what PreCase number text you want your {{% system-name %}} created cases/incidents to start with.
 
 ### My Settings Preference
 
 There is a My Settings preference that interacts with cases/incidents.
+
 ![](../common-case-search-report.assets/57282dc6d4f17ae3f0bb3a0ce23ad878.png)
+
 **Show Closed Incidents**: If set to Yes, closed cases/incidents will appear in the list view when in the Incidents/Cases chart tab in an employee's chart. You can toggle to show/hide closed cases within that tab, or set your preference here.
 
 ### Security Role Settings
 
 There are security role permissions that interact with cases/incidents.
+
 ![](../common-case-search-report.assets/32eb53f834286f90370ddb90c789b181.png)
 
 * <strong>Case Manager:</strong> This security role setting only applies if you have a custom feature configured on your system. The custom feature configuration option is a hyperlink that says "Create Case" in the far right options column of incident cases reports that will create the encounter specified in the system setting "WR Encounter Visit Type". This security permission of ‘Yes' allows user to have access to the case management module. The case manager user will only have access to view cases to which they are assigned.Yes allows users to create Case Management Encounters. These are the encounters that are used to manage an incident as it progresses. When it's set to "Yes" on the Incident report, there will be a new link that says "Create Case" that will create the encounter. ‘Yes' allows user to have access to the case management module. The case manager user will only have access to view cases to which they are assigned.

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-system-administration.md'
 source: 'https://drive.google.com/open?id=1NmvnJfchSVK7KFPNzGUgyLEjKYj7HkIvNRF52SS1J-k'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Purpose
 
@@ -20,28 +20,18 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
-
 * Demonstrate System Administration Functionalities
-
-
-   * System Configuration
-
-
-
-
-      * Browser Requirements
-      * ActiveX Controls
-      * Language Translations
-      * Scheduled Jobs
-      * Secure Email Setup
-      * Single Sign-On (SSO)
-      * Audit & Activity Logs
-      * User Preferences
-      * Security Role Settings
-      * System Settings
-
-
-
+    * System Configuration
+        * Browser Requirements
+        * ActiveX Controls
+        * Language Translations
+        * Scheduled Jobs
+        * Secure Email Setup
+        * Single Sign-On (SSO)
+        * Audit & Activity Logs
+        * User Preferences
+        * Security Role Settings
+        * System Settings
 
 ## Afterward
 

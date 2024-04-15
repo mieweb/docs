@@ -22,7 +22,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 [Terms of API Use](application-programming-interface-api/terms-of-api-use.md)
 
@@ -34,9 +34,9 @@ This document provides an overview of the framework that drives these accomplish
 
 Explore the {{% system-name %}} API, below.
 
-Though any coding language may be used, the following example is written in python:  
-https://github.com/mieweb/wcexport/blob/master/wcjson.py
+Though any coding language may be used, the following example is written in python:
 
+https://github.com/mieweb/wcexport/blob/master/wcjson.py
 
 Other examples can be found here: https://github.com/mieweb/webchart-interface-examples
 
@@ -44,40 +44,33 @@ Interactive, dynamic documentation of the {{% system-name %}} API can be found i
 
 ## Session Establishment
 
-
 ### Command-line
 
-{{% pre language="bash" theme="RDark" %}}
-```
+{{% pre language="bash" theme="RDark" %}}```
 
-curl WEBCHARTURL?login_user=USERNAME&login_passwd=PASSWORD
+curl WEBCHARTURL?login_user=USERNAME&login_passwd=PASSWORD  
+```
 {{% /pre %}}
-
-```
 
 ### Python example
 
-{{% pre language="py" theme="RDark" %}}
-```
+{{% pre language="py" theme="RDark" %}}```
 
 out = urllib2.urlopen(URL, urllib.urlencode({
   'login_user': USERNAME,
   'login_passwd': PASSWORD
 }))
 COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
-{{% /pre %}}
-
 ```
+{{% /pre %}}
 
 {{% info %}}
 COOKIE represents the session and is sent in the response.
 {{% /info %}}
 
-
 ## **_{{% system-name %}}_**  API 2015 Edition
 
 Overall, this document is intended to comply with the established criteria laid out for 2015 Edition ONC Certification–Patient Selection 170.315(g)(7), Data Category Request 170.315(g)(8), and All Data Request 170.315(g)(9). The following table provides access to the ONC specifications regarding these standards and requirements:
-
 <table>
 <tr>
 <td>§ 170.315(g)(7)</td>
@@ -88,59 +81,54 @@ Overall, this document is intended to comply with the established criteria laid 
 <tr>
 <td>§ 170.315(g)(8)</td>
 <td>Application Access – Data Category Request</td>
-<td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g8-Application-access-data-category-request.pdf">(g)(8) Guide</a>
+<td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g8-Application-access-data-category-request.pdf">(g)(8) Guide</a><br />
 <a href="https://www.healthit.gov/sites/default/2015Ed_CCG_CCDS.pdf">CCDS Guide</a></td>
-<td><a href="https://www.healthit.gov/sites/default/files/170_315g8_application_access_data_category_request_v1_1_1.pdf">Test Procedure (PDF - 181 KB)</a>
+<td><a href="https://www.healthit.gov/sites/default/files/170_315g8_application_access_data_category_request_v1_1_1.pdf">Test Procedure (PDF - 181 KB)</a><br />
 <a href="https://www.healthit.gov/sites/default/files/ccds_reference_document_v1_1.pdf">CCDS Reference (PDF - 360 KB)</a></td>
 </tr>
 <tr>
 <td>§ 170.315(g)(9)</td>
 <td>Application Access – All Data Request</td>
-<td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf">(g)(9) Guide</a>
+<td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf">(g)(9) Guide</a><br />
 <a href="https://www.healthit.gov/sites/default/2015Ed_CCG_CCDS.pdf">CCDS Guide</a></td>
 <td><a href="https://www.healthit.gov/sites/default/files/170_315g9_application_access_all_data_request_v1_1_1.pdf">Test Procedure (PDF - 236 KB)</a></td>
 </tr>
 <tr>
 <td>§ 170.315(g)(10)</td>
 <td>Application Access – All Data Request</td>
-<td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf">(g)(9) Guide</a>
+<td><a href="https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf">(g)(9) Guide</a><br />
 <a href="https://www.healthit.gov/sites/default/2015Ed_CCG_CCDS.pdf">CCDS Guide</a></td>
 <td><a href="https://www.healthit.gov/sites/default/files/170_315g9_application_access_all_data_request_v1_1_1.pdf">Test Procedure (PDF - 236 KB)</a></td>
 </tr>
-
 </table>
 
 ### § 170.315(g)(7) Application access – Patient Selection
 
 http://system/?f=layout&module=JS&name=API_DOC&tabmodule=admin&tabselect=API
 
+{{% pre language="py" theme="RDark" title="Patients Example" %}}```
 
+requests = {  
+  'Last Name LIKE "Hart"': 'GET/db/patients/LIKE_last_name=Hart',  
+  'Last Name LIKE "Pregnant"': 'GET/db/patients/LIKE_last_name=Pregnan',  
+}  
+for title, url in requests.iteritems():  
+  print('\\nQuerying for patients: {0}'.format(title))  
+js = json.load(  
+  urllib2.urlopen(URL, urllib.urlencode({  
+    'f': 'json',  
+    'session_id': COOKIE,  
+    'apistring': base64.b64encode(url)  
+  })))  
+print(json.dumps(js))  
 ```
-
-{{% pre language="py" theme="RDark" title="Patients Example" %}}
-requests = {
-  'Last Name LIKE "Hart"': 'GET/db/patients/LIKE_last_name=Hart',
-  'Last Name LIKE "Pregnant"': 'GET/db/patients/LIKE_last_name=Pregnan',
-}
-for title, url in requests.iteritems():
-  print('\\nQuerying for patients: {0}'.format(title))
-js = json.load(
-  urllib2.urlopen(URL, urllib.urlencode({
-    'f': 'json',
-    'session_id': COOKIE,
-    'apistring': base64.b64encode(url)
-  })))
-print(json.dumps(js))
 {{% /pre %}}
 
-
-```
 Requests are URLs. urllib2.urlopen does the work of calling each request and outputting the response on the screen.
 
 ### § 170.315(g)(8) Application access – Data Category Request
 
 URL-specific sections are returned in XML CCDA format.
-
 <table>
 <tr>
 <td>Patient Name</td>
@@ -230,14 +218,10 @@ URL-specific sections are returned in XML CCDA format.
 <td></td>
 <td>&edate=YYYY-MM-DD</td>
 </tr>
-
 </table>
 
+{{% pre language="py" theme="RDark" title="Data Category Example" %}}```
 
-
-```
-
-{{% pre language="py" theme="RDark" title="Data Category Example" %}}
 #!/usr/bin/env python
 import sys
 import os
@@ -330,99 +314,96 @@ if __name__ == '__main__':
                                }))
                                with open (os.path.join(OUTPUT, patname, '{0}.xml'.format(k)), 'w') as fp:
                                        fp.write(res.read())
-{{% /pre %}}
-
 
 ```
+{{% /pre %}}
 
 ### § 170.315(g)(9) Application access – All Data Request
 
 Receive documents stored in charts:
 
-```
+{{% pre language="py" theme="RDark" %}}```
 
-{{% pre language="py" theme="RDark" %}}
-#!/usr/bin/env python
-import urllib2
-import urllib
-import base64
-import json
+#!/usr/bin/env python  
+import urllib2  
+import urllib  
+import base64  
+import json  
 import os
 
-URL = 'https://server/webchart.cgi'
-USERNAME = 'dave'
-PASSWORD = 'dave'
+URL = 'https://server/webchart.cgi'  
+USERNAME = 'dave'  
+PASSWORD = 'dave'  
 COOKIE = None
 
-# Download a document
-def downloadDocument(doc_id, filename):
-    if not os.path.exists(filename):
-        out = urllib2.urlopen(URL, urllib.urlencode({
-            'f': 'stream',
-            'doc_id': doc_id,
-            'session_id': COOKIE,
-            'rawdata': '1'
-        }))
-        with open(filename, 'wb') as fp:
+# Download a document  
+def downloadDocument(doc_id, filename):  
+    if not os.path.exists(filename):  
+        out = urllib2.urlopen(URL, urllib.urlencode({  
+            'f': 'stream',  
+            'doc_id': doc_id,  
+            'session_id': COOKIE,  
+            'rawdata': '1'  
+        }))  
+        with open(filename, 'wb') as fp:  
             fp.write(out.read())
 
-def downloadDocumentMeta(pat_id):
-        try:
-                api = "GET/db/documents/storage_type=19&LIKE_service_date=2017-05-02%25&pat_id=" + pat_id
-                print('\\nQuerying for patients: {0}'.format(pat_id))
-                docs = json.load(
-                        urllib2.urlopen(URL, urllib.urlencode({
-                                'f': 'json',
-                                'session_id': COOKIE,
-                                'apistring': base64.b64encode(api)
-                        })))
-                return docs["db"][0]["doc_id"];
-        except:
+def downloadDocumentMeta(pat_id):  
+        try:  
+                api = "GET/db/documents/storage_type=19&LIKE_service_date=2017-05-02%25&pat_id=" + pat_id  
+                print('\\nQuerying for patients: {0}'.format(pat_id))  
+                docs = json.load(  
+                        urllib2.urlopen(URL, urllib.urlencode({  
+                                'f': 'json',  
+                                'session_id': COOKIE,  
+                                'apistring': base64.b64encode(api)  
+                        })))  
+                return docs["db"][0]["doc_id"];  
+        except:  
                 return ""
 
-if __name__ == '__main__':
-        print('Initializing session')
-        try:
-                out = urllib2.urlopen(URL, urllib.urlencode({
-                        'login_user': USERNAME,
-                        'login_passwd': PASSWORD
-                }))
-                COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
-        except Exception as e:
+if __name__ == '__main__':  
+        print('Initializing session')  
+        try:  
+                out = urllib2.urlopen(URL, urllib.urlencode({  
+                        'login_user': USERNAME,  
+                        'login_passwd': PASSWORD  
+                }))  
+                COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]  
+        except Exception as e:  
                 print('Session failed to initialize {0}'.format(e))
 
-        print('Getting Patients')
-        if COOKIE:
-                requests = {
-                        'Last Name LIKE "Newman"': 'GET/db/patients/LIKE_last_name=Newman',
-                        'Last Name LIKE "Larson"': 'GET/db/patients/LIKE_last_name=Larson',
-                        'Last Name LIKE "Bates"': 'GET/db/patients/LIKE_last_name=Bates',
-                        'Last Name LIKE "Wright"': 'GET/db/patients/LIKE_last_name=Wright',
-                }
-                for title, url in requests.iteritems():
-                        print('\\nQuerying for patients: {0}'.format(title))
-                        js = json.load(
-                                urllib2.urlopen(URL, urllib.urlencode({
-                                        'f': 'json',
-                                        'session_id': COOKIE,
-                                        'apistring': base64.b64encode(url)
-                                })))
-                        pat_id = js["db"][0]["pat_id"]
+        print('Getting Patients')  
+        if COOKIE:  
+                requests = {  
+                        'Last Name LIKE "Newman"': 'GET/db/patients/LIKE_last_name=Newman',  
+                        'Last Name LIKE "Larson"': 'GET/db/patients/LIKE_last_name=Larson',  
+                        'Last Name LIKE "Bates"': 'GET/db/patients/LIKE_last_name=Bates',  
+                        'Last Name LIKE "Wright"': 'GET/db/patients/LIKE_last_name=Wright',  
+                }  
+                for title, url in requests.iteritems():  
+                        print('\\nQuerying for patients: {0}'.format(title))  
+                        js = json.load(  
+                                urllib2.urlopen(URL, urllib.urlencode({  
+                                        'f': 'json',  
+                                        'session_id': COOKIE,  
+                                        'apistring': base64.b64encode(url)  
+                                })))  
+                        pat_id = js["db"][0]["pat_id"]  
                         name = js["db"][0]["last_name"]
 
-                        print("Getting Documents for Patient:" + pat_id)
+                        print("Getting Documents for Patient:" + pat_id)  
                         doc_id = downloadDocumentMeta(pat_id);
 
-                        if doc_id != "":
-                                print("Downloading Document:" + doc_id)
-                                downloadDocument(doc_id, name + "_" + doc_id + ".xml")
-                        else:
-                                print("No documents exist for that patient that meet the criteria.")
+                        if doc_id != "":  
+                                print("Downloading Document:" + doc_id)  
+                                downloadDocument(doc_id, name + "_" + doc_id + ".xml")  
+                        else:  
+                                print("No documents exist for that patient that meet the criteria.")  
                         # print(json.dumps(js))
-{{% /pre %}}
-
 
 ```
+{{% /pre %}}
 
 ## Document Export Tool
 
@@ -432,14 +413,11 @@ if __name__ == '__main__':
 
 ### Requirements
 
-
 * <strong>Windows:</strong> compiled exe are provided so Windows 7+ is sufficient.
 * <strong>Mac 10.8+:</strong> Python 2.7 is shipped with Mountain Lion and greater.
 * <strong>Linux</strong>: Python 2.7 or Python 3.1 is required and python-tk. The user interface requires a GUI / window manager.
 
-
 ### Installing
-
 
 * Download the project from GitHub at https://github.com/mieweb/wcexport
 * Windows-compiled EXE files are provided so python does not have to be installed.

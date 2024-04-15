@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v5&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms347v5'
 source: 'https://drive.google.com/open?id=1frOmVEMtMqMmrc_ztH4hM1mlEYzvgyrNU4qZZjuW9LU'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS347v3](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v3&showresulttype=Measure) (2020)  
-[CMS347v4](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v4&showresulttype=Measure) (2021)  
+[CMS347v3](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v3&showresulttype=Measure) (2020)
+
+[CMS347v4](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v4&showresulttype=Measure) (2021)
+
 [CMS347v5](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS347v5&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>438</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -64,7 +64,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Patients who have a diagnosis of pregnancy at any time during the measurement period</p></li><li><p>Patients who are breastfeeding at any time during the measurement period</p></li><li><p>Patients who have a diagnosis of rhabdomyolysis at any time during the measurement period</p></li></ul></td>
+<td><ul><li>Patients who have a diagnosis of pregnancy at any time during the measurement period</li><li>Patients who are breastfeeding at any time during the measurement period</li><li>Patients who have a diagnosis of rhabdomyolysis at any time during the measurement period</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -76,14 +76,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Patients with statin-associated muscle symptoms or an allergy to statin medication</p></li><li><p>Patients who are receiving palliative or hospice care</p></li><li><p>Patients with active liver disease or hepatic disease or insufficiency</p></li><li><p>Patients with end-stage renal disease (ESRD)</p></li></ul></td>
+<td><ul><li>Patients with statin-associated muscle symptoms or an allergy to statin medication</li><li>Patients who are receiving palliative or hospice care</li><li>Patients with active liver disease or hepatic disease or insufficiency</li><li>Patients with end-stage renal disease (ESRD)</li></ul></td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -110,29 +107,18 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
-
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -199,12 +185,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Encounter, Performed: Preventive Care Services-Initial Office Visit, 18 and Up</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1023</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -263,12 +246,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td></td>
 <td></td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -291,12 +271,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td></td>
 <td></td>
 </tr>
-
 </table>
 
-
 ### Denominator Exceptions
-
 
 <table>
 <tr>
@@ -355,11 +332,8 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td></td>
 <td></td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 
 [eCQI CMS347](https://ecqi.healthit.gov/ecqm/ep/2022/cms347v5)
-

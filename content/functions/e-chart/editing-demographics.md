@@ -9,9 +9,9 @@ links:
   - 'https://system/?f=scheduler&s=appt_wizard&location&startdateDAY=4&startdateMONTH=12&startdateYEAR=2018&startdateTIME=05:08pm'
   - 'https://system/?f=chart&s=docq'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-To edit demographics in a chart, the user must have the appropriate security permissions.  
+To edit demographics in a chart, the user must have the appropriate security permissions.
 
 {{% note %}}
 If your practice has an interface from your practice management (PM) system or an HR system into {{% system-name %}} , you will have to always edit demographic information in the other system.  That way any updates/edits will automatically come over (via the interface) into {{% system-name %}} for the respective charts.
@@ -30,14 +30,18 @@ The Demographic Information screen is a layout that can be altered to collect th
 {{% note %}}
 Red fields are required fields that must contain data in order to create, save, or edit a chart.
 
+
+
 ![](../editing-demographics.assets/ad6b8cbf0e372e5003bbefaa2f389ad2.png)
+
+
 {{% /note %}}
 
 Following is additional information regarding specific fields found on the demographics screen:
 
 * <strong>Death Date</strong>:  You can checkmark the box if the patient is deceased.  You can also enter a specific date of death if you have one.  The system can also be programmed to display the death date, if there is one, in red in the DemoHeader for patients.  Marking a patient as deceased documents it for the patient, but it also prevents those types of patients from showing in certain places in {{% system-name %}} .  For example, if the patient is deceased then the patient's name won't display in the auto-complete for Patient Name when transcribing; or if a patient is marked as deceased, the patient's name won't display in the auto-complete patient field for making an appointment using the [Wizard](https://system/?f=scheduler&s=appt_wizard&location&startdateDAY=4&startdateMONTH=12&startdateYEAR=2018&startdateTIME=05:08pm) in the <strong>Scheduler</strong>.
-* <strong>Phone Numbers</strong>:  You can enter phone numbers in international format, if needed.  To enter an international number, first type the plus sign (+) in the field and then continue to type in the international phone or fax number. If you type the plus sign first, there will not be any automatic formatting done to the entry. Otherwise, standard US formatting will still be applied if the plus sign is not entered first. 
-* <strong>Country</strong>:<strong> </strong>This field is shown above the Postal Code field. The Country field is set to United States, by default, when a user's Default Location preference has not been set by the logged-in user. The Default Country can also be set system-wide, via the system setting.
+* <strong>Phone Numbers</strong>:  You can enter phone numbers in international format, if needed.  To enter an international number, first type the plus sign (+) in the field and then continue to type in the international phone or fax number. If you type the plus sign first, there will not be any automatic formatting done to the entry. Otherwise, standard US formatting will still be applied if the plus sign is not entered first.
+* <strong>Country</strong>:<strong></strong> This field is shown above the Postal Code field. The Country field is set to United States, by default, when a user's Default Location preference has not been set by the logged-in user. The Default Country can also be set system-wide, via the system setting.
 * <strong>Temporary Chart</strong>: This checkbox in this section should be used cautiously. Checking this box indicates and controls the temporary or permanent status of the chart. This allows a temporary chart received over an interface or portal to be set as permanent. Most workflows needing this functionality are looking for a quick means to make permanent, or active, any temporary charts coming over an established interface. Unchecking a temporary chart (to make it active) would then auto-assign a medical record number in the next section (or a medical record number may need to be manually selected, depending on the partition setup), since it would be marked as a permanent (active) chart, instead of a temporary one.
 * <strong>Active Chart</strong>: This checkbox should be selected by default, indicating the chart is active and can be searched for in various areas of the system. If the chart needs to be marked inactive, simply uncheck the box and save the edit. Inactive charts are not searchable from E-Chart in Simple mode but can be searched in the Detailed E-Chart mode. A chart can also automatically be marked inactive by the system if someone chooses to ignore an incoming document in the [Document Queue](https://system/?f=chart&s=docq).
 
@@ -54,6 +58,7 @@ The system will display the count of revisions done for demographics on the char
 ![](../editing-demographics.assets/e63e7916ebbeb1405e15b90375942c5c.png)
 
 The chart's most current demographics display on the screen (the last known revision), but as you scroll down you will see the **Revisions** list view section. All revision history is listed, the detail of each revision, such as revision date/time and who revised it.
+
 You can click on any **Revision Number (#)** link on the specific demographics revision you wish to display on the screen.
 
 ![](../editing-demographics.assets/c0f99623005d00697b00447bf627703d.png)

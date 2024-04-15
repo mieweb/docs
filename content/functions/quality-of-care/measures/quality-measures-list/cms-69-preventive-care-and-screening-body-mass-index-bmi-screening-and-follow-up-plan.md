@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms069v10'
 source: 'https://drive.google.com/open?id=1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS69v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v8&showresulttype=Measure) (2020)  
-[CMS69v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v9&showresulttype=Measure) (2021)  
+[CMS69v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v8&showresulttype=Measure) (2020)
+
+[CMS69v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v9&showresulttype=Measure) (2021)
+
 [CMS69v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>128</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -57,7 +57,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Patients who are pregnant</p></li><li><p>Patients receiving palliative or hospice care</p></li></ul></td>
+<td><ul><li>Patients who are pregnant</li><li>Patients receiving palliative or hospice care</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -69,14 +69,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Patients with a documented medical reason for not documenting BMI or for not documenting a follow-up plan for a BMI outside normal parameters (e.g., elderly patients 65 years of age or older for whom weight reduction/weight gain would complicate other underlying health conditions such as illness or physical disability, mental illness, dementia, confusion, or nutritional deficiency such as vitamin/mineral deficiency;</p></li><li><p>Patients in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status)</p></li><li><p>Patients who refuse measurement of height and/or weight</p></li></ul></td>
+<td><ul><li>Patients with a documented medical reason for not documenting BMI or for not documenting a follow-up plan for a BMI outside normal parameters (e.g., elderly patients 65 years of age or older for whom weight reduction/weight gain would complicate other underlying health conditions such as illness or physical disability, mental illness, dementia, confusion, or nutritional deficiency such as vitamin/mineral deficiency;</li><li>Patients in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient's health status)</li><li>Patients who refuse measurement of height and/or weight</li></ul></td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -99,17 +96,13 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and less than 25kg/m2. Any patient with a BMI outside of normal parameters requires a follow-up plan be documented during the current encounter or during the previous twelve months of the current encounter.   
+Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and less than 25kg/m2. Any patient with a BMI outside of normal parameters requires a follow-up plan be documented during the current encounter or during the previous twelve months of the current encounter.
 
 ### Preferred Workflow
-
 
 1. While documenting the Visit encounter, record the BMI, as appropriate
 2. Open the Vitals section and enter the Height and Weight (the BMI is auto-calculated)
@@ -120,9 +113,7 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 7. Continue documenting the encounter, as needed
 8. When completed, Close and Archive the encounter
 
-
 ### Alternate Workflow
-
 
 1. While documenting the Visit encounter, record the BMI, as appropriate
 2. Open the Vitals section and enter the Height and Weight (the BMI is auto-calculated)
@@ -131,12 +122,9 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 5. Continue documenting the encounter, as needed
 6. When completed, Close and Archive the encounter
 
-
 ## Evidence
 
-
 ## Initial Patient Population
-
 
 <table>
 <tr>
@@ -147,12 +135,9 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 <td>Encounter, Performed: Encounter to Evaluate BMI</td>
 <td>2.16.840.1.113883.3.600.1.1751</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -183,12 +168,9 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 <td>Intervention, Performed: Palliative or Hospice Care</td>
 <td>2.16.840.1.113883.3.600.1.1579</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -227,9 +209,7 @@ Track all 18+ year-old patients and ensure their BMI is greater than 18.5 and le
 <td>Physical Exam, Performed: Body mass index (BMI) [Ratio]</td>
 <td>LOINC Code 39156-5</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

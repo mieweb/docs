@@ -12,16 +12,17 @@ links:
   - 'https://ecqi.healthit.gov/glossary/pro'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10'
 source: 'https://drive.google.com/open?id=14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS66v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure) (2020)  
-[CMS66v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v9&showresulttype=Measure) (2021)  
+[CMS66v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure) (2020)
+
+[CMS66v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v9&showresulttype=Measure) (2021)
+
 [CMS66v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -36,12 +37,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>375</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -58,7 +58,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients with two or more fractures indicating trauma at the time of the total knee arthroplasty or patients with severe cognitive impairment that starts before or in any part of the measurement period.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude patients with two or more fractures indicating trauma at the time of the total knee arthroplasty or patients with severe cognitive impairment that starts before or in any part of the measurement period.</li><li>Exclude patients who are in hospice care for any part of the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -72,12 +72,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -100,14 +97,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Person and Caregiver-Centered Experience and Outcomes</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-Ensure all 18+ year-old patients with a total knee replacement in the year prior to the measurement period have a functional status assessment during the measurement period.   
+Ensure all 18+ year-old patients with a total knee replacement in the year prior to the measurement period have a functional status assessment during the measurement period.
 
 ### Workflow
 
@@ -115,9 +109,7 @@ Coming soon.
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -148,12 +140,9 @@ Coming soon.
 <td>Procedure, Performed: Primary TKA Procedure</td>
 <td>2.16.840.1.113883.3.464.1003.198.12.1007</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -180,12 +169,9 @@ Coming soon.
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -240,9 +226,7 @@ Coming soon.
 <td>Assessment, Performed: VR-12 Physical component summary (PCS) score - orthogonal method T-score</td>
 <td>LOINC Code 72027-6</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

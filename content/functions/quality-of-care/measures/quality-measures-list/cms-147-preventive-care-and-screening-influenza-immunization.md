@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms147v11'
 source: 'https://drive.google.com/open?id=1bktV0BYSKkWBzLv0AMyxNlGX_3BH4lXBMzqSjQk7WQ8'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS147v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v9&showresulttype=Measure) (2020)  
-[CMS147v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v10&showresulttype=Measure) (2021)  
+[CMS147v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v9&showresulttype=Measure) (2020)
+
+[CMS147v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v10&showresulttype=Measure) (2021)
+
 [CMS147v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS147v11&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0041</td>
 <td>110</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -69,14 +69,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Documentation of medical reason(s) for not receiving influenza immunization (e.g., patient allergy, other medical reasons).</p></li><li><p>Documentation of patient reason(s) for not receiving influenza immunization (e.g., patient declined, other patient reasons).</p></li><li><p>Documentation of system reason(s) for not receiving influenza immunization (e.g., vaccine not available, other system reasons).</p></li></ul></td>
+<td><ul><li>Documentation of medical reason(s) for not receiving influenza immunization (e.g., patient allergy, other medical reasons).</li><li>Documentation of patient reason(s) for not receiving influenza immunization (e.g., patient declined, other patient reasons).</li><li>Documentation of system reason(s) for not receiving influenza immunization (e.g., vaccine not available, other system reasons).</li></ul></td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -99,18 +96,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -118,73 +108,37 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 Ensure all patients that are 6 months old or older have received a flu vaccination or reports having received a flu vaccine. Recording the receipt of the flu immunization or the administration of the vaccine can be done within or outside of the encounter:
 
 1. <strong>Option 1: Record the Receipt of Flu Immunization (Historical)</strong>
-
-
-   * <strong>Within Encounter</strong>
-
-
-
-
-      1. Open the Immunizations/Injections section of the encounter
-      2. Using the Description autocomplete, begin typing the name of the immunization
-      3. Add the Date and any Reactions/Comments
-      4. Click the Add button
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter
-
-
-
-
-   * <strong>Outside Encounter</strong>
-
-
-
-
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Quick Add link in the upper-right of the page
-      3. Record any historical injections
-      4. Click the Submit button
-
-
-
+    * <strong>Within Encounter</strong>
+        1. Open the Immunizations/Injections section of the encounter
+        2. Using the Description autocomplete, begin typing the name of the immunization
+        3. Add the Date and any Reactions/Comments
+        4. Click the Add button
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter
+    * <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Quick Add link in the upper-right of the page
+        3. Record any historical injections
+        4. Click the Submit button
 2. <strong>Option 2: Document the Administration of Flu Vaccine</strong>
-
-
-   * <strong>Within Encounter</strong>
-
-
-
-
-      1. Open the Tests and Procedures section of the encounter
-      2. Using the autocomplete, begin typing the name of the vaccination being administered
-      3. Click the Add to Exam button
-      4. After adding the new section, open the section and fill in all required fields
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter
-
-
-
-
-   * <strong>Outside Encounter</strong>
-
-
-
-
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Add Imm/Inj link in the upper-right of the page
-      3. Fill in all required fields
-      4. Click the Submit button
-
-
-
+    * <strong>Within Encounter</strong>
+        1. Open the Tests and Procedures section of the encounter
+        2. Using the autocomplete, begin typing the name of the vaccination being administered
+        3. Click the Add to Exam button
+        4. After adding the new section, open the section and fill in all required fields
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter
+    * <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Add Imm/Inj link in the upper-right of the page
+        3. Fill in all required fields
+        4. Click the Submit button
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -275,12 +229,9 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
 <td>Procedure, Performed: Peritoneal Dialysis</td>
 <td>2.16.840.1.113883.3.526.3.1084</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -295,12 +246,9 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
 <td>Procedure, Performed: Influenza Vaccination</td>
 <td>2.16.840.1.113883.3.526.3.402</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exceptions
-
 
 <table>
 <tr>
@@ -331,9 +279,7 @@ Ensure all patients that are 6 months old or older have received a flu vaccinati
 <td>Diagnosis: Intolerance to Influenza Vaccine</td>
 <td>2.16.840.1.113883.3.526.3.1257</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

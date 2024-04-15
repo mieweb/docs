@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms135v10'
 source: 'https://drive.google.com/open?id=1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS135v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v8&showresulttype=Measure) (2020)  
-[CMS135v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v9&showresulttype=Measure) (2021)  
+[CMS135v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v8&showresulttype=Measure) (2020)
+
+[CMS135v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v9&showresulttype=Measure) (2021)
+
 [CMS135v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0081</td>
 <td>005</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -69,14 +69,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exceptions</strong></td>
-<td><ul><li><p>Documentation of medical reason(s) for not prescribing ACE inhibitor or ARB or ARNI therapy (e.g., hypotensive patients who are at immediate risk of cardiogenic shock, hospitalized patients who have experienced marked azotemia, allergy, intolerance, other medical reasons).</p></li><li><p>Documentation of patient reason(s) for not prescribing ACE inhibitor or ARB or ARNI therapy (e.g., patient declined, other patient reasons).</p></li><li><p>Documentation of system reason(s) for not prescribing ACE inhibitor or ARB or ARNI therapy (e.g., other system reasons).</p></li></ul></td>
+<td><ul><li>Documentation of medical reason(s) for not prescribing ACE inhibitor or ARB or ARNI therapy (e.g., hypotensive patients who are at immediate risk of cardiogenic shock, hospitalized patients who have experienced marked azotemia, allergy, intolerance, other medical reasons).</li><li>Documentation of patient reason(s) for not prescribing ACE inhibitor or ARB or ARNI therapy (e.g., patient declined, other patient reasons).</li><li>Documentation of system reason(s) for not prescribing ACE inhibitor or ARB or ARNI therapy (e.g., other system reasons).</li></ul></td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -89,9 +86,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Rate Aggregation</strong></td>
-<td>Population 1: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy within a 12-month period when seen in the outpatient setting 
-Population 2: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy at each hospital discharge
-
+<td>Population 1: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy within a 12-month period when seen in the outpatient setting<br />
+Population 2: Patients who were prescribed ACE inhibitor or ARB or ARNI therapy at each hospital discharge<br />
+<br />
 Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Exceptions 1) + (Denominator 2 - Denominator Exceptions 2)]</td>
 </tr>
 <tr>
@@ -106,18 +103,11 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -125,20 +115,13 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 12-month period of the diagnosis of heart failure with a current or prior left ventricular ejection fraction (LVEF) < 40%.
 
 1. Ensure patient has one of the following diagnoses:
-
-
-   1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
-   2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109 
-
-
-2. Numerator will be populated with patients prescribed an ACE inhibitor or ARB therapy within the measurement period.  
-
+    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
+    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
+2. Numerator will be populated with patients prescribed an ACE inhibitor or ARB therapy within the measurement period.
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -177,12 +160,9 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 <td>Encounter, Performed: Patient Provider Interaction</td>
 <td>2.16.840.1.113883.3.526.3.1012</td>
 </tr>
-
 </table>
 
-
 ### Denominator
-
 
 <table>
 <tr>
@@ -197,12 +177,9 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 <td>Diagnostic Study, Performed: Ejection Fraction</td>
 <td>2.16.840.1.113883.3.526.3.1134</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -213,12 +190,9 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 <td>Medication, Active: ACE Inhibitor or ARB or ARNI</td>
 <td>2.16.840.1.113883.3.526.3.1139</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exceptions
-
 
 <table>
 <tr>
@@ -261,9 +235,7 @@ Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 
 <td>Diagnosis: Renal Failure Due to ACE Inhibitor</td>
 <td>2.16.840.1.113883.3.526.3.1151</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

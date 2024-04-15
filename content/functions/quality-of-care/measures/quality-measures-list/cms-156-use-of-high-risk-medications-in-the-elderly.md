@@ -12,16 +12,17 @@ links:
   - 'https://ecqi.healthit.gov/glossary/denominator'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10'
 source: 'https://drive.google.com/open?id=1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)  
-[CMS156v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure) (2021)  
+[CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)
+
+[CMS156v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure) (2021)
+
 [CMS156v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -36,12 +37,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0022</td>
 <td>238</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -63,7 +63,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude patients who are in hospice care for any part of the measurement period.</li><li>Exclude patients receiving palliative care during the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -74,7 +74,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
 <td>–</td>
-<td>For patients with two or more antipsychotic prescriptions ordered, exclude patients who have a diagnosis of schizophrenia, schizoaffective disorder, or bipolar disorder on or between January 1 of the year prior to the measurement period and the Index Prescription Start Date (IPSD) for antipsychotics.
+<td>For patients with two or more antipsychotic prescriptions ordered, exclude patients who have a diagnosis of schizophrenia, schizoaffective disorder, or bipolar disorder on or between January 1 of the year prior to the measurement period and the Index Prescription Start Date (IPSD) for antipsychotics.<br />
 For patients with two or more benzodiazepine prescriptions ordered, exclude patients who have a diagnosis of seizure disorders, rapid eye movement sleep behavior disorder, benzodiazepine withdrawal, ethanol withdrawal, or severe generalized anxiety disorder on or between January 1 of the year prior to the measurement period and the IPSD for benzodiazepines.</td>
 <td>–</td>
 </tr>
@@ -82,12 +82,9 @@ For patients with two or more benzodiazepine prescriptions ordered, exclude pati
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -110,18 +107,11 @@ For patients with two or more benzodiazepine prescriptions ordered, exclude pati
 <td><strong>Domain</strong></td>
 <td>Patient Safety</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -137,12 +127,9 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 3. Continue documenting the encounter, as appropriate.
 4. When complete, Close and Archive the encounter.
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -197,12 +184,9 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -233,13 +217,9 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 <td>Intervention, Performed: Palliative Care Intervention</td>
 <td>2.16.840.1.113883.3.464.1003.198.12.1135</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
-
 
 <table>
 <tr>
@@ -510,12 +490,9 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 <td>Medication, Order: Triprolidine</td>
 <td>2.16.840.1.113883.3.464.1003.196.12.1408</td>
 </tr>
-
 </table>
 
-
 ### Numerator Exclusions
-
 
 <table>
 <tr>
@@ -554,11 +531,8 @@ Track all patients that are 65+ and prescribed high-risk medications. Two rates 
 <td>Diagnosis: Seizure Disorder</td>
 <td>2.16.840.1.113883.3.464.1003.105.12.1206</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 
 [eCQI CMS156](https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10)
-

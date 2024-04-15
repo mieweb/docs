@@ -10,27 +10,24 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1ipUY_JhDpAVupF11P3IE9Db4prZFIP84A93x8gAZj2A'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Population Management
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Population Management  
 **Description**: Participation in a QCDR, clinical data registries, or other registries run by other government agencies such as FDA, or private entities such as a hospital or medical or surgical society. Activity must include use of QCDR data for quality improvement (e.g., comparative analysis across specific patient populations for adverse outcomes after an outpatient surgical procedure and corrective steps to address adverse outcome).
 
+Supporting Documentation
 
-
-
-Supporting Documentation  
 Participation in QCDR for quality improvement across patient populations, e.g., regular feedback reports provided by QCDR using data for quality improvement such as comparative analysis reports across patient populations.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

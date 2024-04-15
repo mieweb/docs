@@ -12,16 +12,17 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10'
 source: 'https://drive.google.com/open?id=1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS146v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure) (2020)  
-[CMS146v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v9&showresulttype=Measure) (2021)  
+[CMS146v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure) (2020)
+
+[CMS146v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v9&showresulttype=Measure) (2021)
+
 [CMS146v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -36,12 +37,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>066</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -58,7 +58,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude episodes where the patient is taking antibiotics in the 30 days prior to the episode date, or had an active prescription on the episode date.</p></li><li><p>Exclude episodes where the patient had a comorbid condition during the 12 months prior to or on the episode date.</p></li><li><p>Exclude episodes when the patient had hospice care for any part of the measurement period.</p></li><li><p>Exclude episodes where the patient had a competing diagnosis on or within three days after the episode date.</p></li></ul></td>
+<td><ul><li>Exclude episodes where the patient is taking antibiotics in the 30 days prior to the episode date, or had an active prescription on the episode date.</li><li>Exclude episodes where the patient had a comorbid condition during the 12 months prior to or on the episode date.</li><li>Exclude episodes when the patient had hospice care for any part of the measurement period.</li><li>Exclude episodes where the patient had a competing diagnosis on or within three days after the episode date.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -72,12 +72,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -90,7 +87,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Stratification</strong></td>
-<td><ul><li><p>3-17 years</p></li><li><p>18-64 years</p></li><li><p>65 years and older</p></li></ul></td>
+<td><ul><li>3-17 years</li><li>18-64 years</li><li>65 years and older</li></ul></td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -104,18 +101,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Efficiency and Cost Reduction</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -127,55 +117,29 @@ Regardless of how the strep test observation is added to the chart, clients will
 {{% /tip %}}
 
 * While documenting the Visit encounter, document the results of a Strep test one of two ways:
-
-
-   1. <strong>Option 1: Tests and Procedures Section</strong>
-
-
-
-
-      1. Open the Tests and Procedures section.
-      2. Using the autocomplete, begin typing Strep A Qual Throat Swab.
-      3. Click the Add to Exam button.
-      4. After adding the new section, open the Strep A Qual Throat Swab section and add the result.
-      5. Click the Next button, or close the section.
-
-
-
-
-   2. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
-
-
-
-
-      1. Click the Tools icon in the upper-right corner of the encounter.
-      2. Click the Lab Results - Set 2 header to add the section to the encounter template. Close the Tools window.
-      3. Click the Lab Results - Set 2 header to open the section and add the Rapid Strep result.
-      4. Click the Next button, or close the section.
-
-
-
-
-   3. Continue documenting the encounter, as needed.
-   4. When completed, Close and Archive the encounter
-
-
+    1. <strong>Option 1: Tests and Procedures Section</strong>
+        1. Open the Tests and Procedures section.
+        2. Using the autocomplete, begin typing Strep A Qual Throat Swab.
+        3. Click the Add to Exam button.
+        4. After adding the new section, open the Strep A Qual Throat Swab section and add the result.
+        5. Click the Next button, or close the section.
+    2. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
+        1. Click the Tools icon in the upper-right corner of the encounter.
+        2. Click the Lab Results - Set 2 header to add the section to the encounter template. Close the Tools window.
+        3. Click the Lab Results - Set 2 header to open the section and add the Rapid Strep result.
+        4. Click the Next button, or close the section.
+    3. Continue documenting the encounter, as needed.
+    4. When completed, Close and Archive the encounter
 * <strong>Option 3: Add Observation using Observations Chart Tab</strong>
-
-
-   1. Navigate to the patient chart.
-   2. Open the Observations tab of the Medical Records chart tab.
-   3. Click the Add Observation link in the upper-right corner.
-   4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
-   5. Click the Submit button.
-
-
+    1. Navigate to the patient chart.
+    2. Open the Observations tab of the Medical Records chart tab.
+    3. Click the Add Observation link in the upper-right corner.
+    4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
+    5. Click the Submit button.
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -262,12 +226,9 @@ Regardless of how the strep test observation is added to the chart, clients will
 <td>Medication, Order: Antibiotic Medications for Pharyngitis</td>
 <td>2.16.840.1.113883.3.464.1003.196.12.1001</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -298,12 +259,9 @@ Regardless of how the strep test observation is added to the chart, clients will
 <td>Medication, Active: Antibiotic Medications for Pharyngitis</td>
 <td>2.16.840.1.113883.3.464.1003.196.12.1001</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -314,9 +272,7 @@ Regardless of how the strep test observation is added to the chart, clients will
 <td>Laboratory Test, Performed: Group A Streptococcus Test</td>
 <td>2.16.840.1.113883.3.464.1003.198.12.1012</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

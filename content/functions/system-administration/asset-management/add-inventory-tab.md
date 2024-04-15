@@ -7,11 +7,14 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Add Inventory Tab is located within the sidemenu tab named *Inventory*. The *Add Inventory* tab is where you go to add inventory quantity and details to begin dispensing from your inventory module or to add quantity and details of more inventory items received from your supplier that you want to add to your current inventory.
+
 ![](../add-inventory-tab.assets/ce43a91eca721ac95d7095430c572a47.png)
+
 Depending on how your practice is set up and what all inventory details you track for Inventory, your *Add Inventory* data entry fields may be different.
+
 ![](../add-inventory-tab.assets/38b86d015aab3d7667c9ef3390244975.png)
 
 ## To add inventory quantity and detail information to be tied to your inventory master item, fill out the fields in this **_Add Inventory_** screen.
@@ -34,5 +37,7 @@ There is also another CLEAR button to the far right which will clear *all* the a
 {{% /tip %}}
 
 Click the ADD TO INVENTORY button at the very bottom to add the inventory item QTY and details to your system's current inventory.
+
 You will get a confirmation at the top stating the system received the items into the inventory successfully.
+
 When you go into the Show Inventory tab (show current inventory), you will see your received items you entered into the inventory using the Add Inventory tab.

@@ -8,19 +8,18 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-This document explains how to import your language translation data into  {{% system-name %}} .  
+This document explains how to import your language translation data into  {{% system-name %}} .
+
 What you will need:
 
 * Spreadsheet software (Microsoft Excel or Google Sheets)
-{{% system-name %}}*   end user with administrative rights
-
+* {{% system-name %}}  end user with administrative rights
 
 ## Create Language Translation Text File
 
 The following table provides optional or required **Field Names** and **Descriptions**, as indicated by the **Requirement** column. The order of the remaining fields does not matter.
-
 
 <table>
 <tr>
@@ -31,7 +30,7 @@ The following table provides optional or required **Field Names** and **Descr
 </tr>
 <tr>
 <td>LANGUAGE CODE</td>
-<td>Code that identifies the language. Examples: sp = Spanish, zh-hans = Simplified Chinese
+<td>Code that identifies the language. Examples: sp = Spanish, zh-hans = Simplified Chinese<br />
 See: <a href="https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry</a></td>
 <td><strong>Required</strong></td>
 <td>LANGUAGE CODE</td>
@@ -54,51 +53,39 @@ See: <a href="https://www.iana.org/assignments/language-subtag-registry/language
 <td><strong>Required</strong></td>
 <td>TRANSLATION</td>
 </tr>
-
 </table>
 
 In Excel, save the sheet as Unicode Text.  This is important because **saving as CSV will NOT work** for many languages.
+
 ![](../create-language-translation-file-for-import.assets/25dc2afd0528e1c7a27167edd30ed8d1.png)
 
 ## Upload Language Translation Text File
 
-
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-
 ![](../create-language-translation-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
-
 
 3. Select the Data Import tab.
 
-
 ![](../create-language-translation-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
-
 
 4. Select the Language Translation CSV API from the drop-down menu and click Go.
 
-
 ![](../create-language-translation-file-for-import.assets/54cd31630e4b044a2caeb7278c721a22.png)
-
 
 5. Choose Delimiter: (tab), select the Language Translation Text File and click Upload.
 
 ![](../create-language-translation-file-for-import.assets/a20e7b30d9fd81f1bcb85dc70d3b93ec.png)
 
-
 ## Example Files
-
 
 * - UTF-8 encoded (preferred format for manually constructed files)
 * - UTF-16LE encoded (accepted format for export from Excel)
 
-
 ## Resources
 
-
 * [Language Subtag Registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
-
 
 ## Troubleshooting
 

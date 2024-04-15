@@ -6,7 +6,8 @@ version: 17
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1-2qldux0qTaW6zChE0BBM1mvXjBFcxCEpbDlUiX0WKQ'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-Following the initial kick-off presentation and system demonstration, a series of meetings will be held to discuss and review the various modules, functionality, and workflows as they relate to the business needs of the client. At the end of each meeting, there will be an assessment of action items and a short discussion of any necessary configurations or additional add-ons being considered. The deployment meetings are as follows:  
+Following the initial kick-off presentation and system demonstration, a series of meetings will be held to discuss and review the various modules, functionality, and workflows as they relate to the business needs of the client. At the end of each meeting, there will be an assessment of action items and a short discussion of any necessary configurations or additional add-ons being considered. The deployment meetings are as follows:
+
 {{% children sort="creation" %}}

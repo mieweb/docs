@@ -7,10 +7,9 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The following will assist users with installing the dicom inbound application. To begin, simply initiate the installation of the webchart-dicom RPM.
-
 ```
 
 
@@ -57,15 +56,10 @@ Complete!
 
 ## dicomd Configuration
 
-
-1. Under /usr/local/webchart/dicom/ users will find two files: 
-
-   1. a config file
-   2. run.dicomd.RCXXXXXX file
-
+1. Under /usr/local/webchart/dicom/ users will find two files:
+    1. a config file
+    2. run.dicomd.RCXXXXXX file
 2. Edit the config file and specify an AE title and EH configuration file. The first field is the AE Title for the PACS. The second field is the location of the EH configuration file used to connect to the EH database. The other fields may be left as default, as appropriate.
-
-
 ```
 # Server AE, webchart.conf location, cache png 1/0, keep dcm after compressing 1/0, unused, look for encounter 1/0, Stage to set when study finishes (on disconnect)
 DICOMTEST,"/usr/local/webchart/configs/dicomtest.conf",1,0,0,0,0
@@ -73,8 +67,6 @@ DICOMTEST,"/usr/local/webchart/configs/dicomtest.conf",1,0,0,0,0
 
 3. Rename the file to config.
 4. Copy the run.dicomd.sample.RCXXXXXX file to run.dicomd. Verify the following script correctly references the config file, the apache user, and the desired port number.
-
-
 
 ```
 #!/bin/bash
@@ -86,7 +78,6 @@ echo "Starting DICOM Daemon."
 
 5. When ready, run ./run.dicomd. This script can be added to rc.local. Users may include dicom in /etc/inittab
 
-
-{{% tip %}}  
-Users will need to include the ./dicomd command, because run.dicomd does not stay running. It spawns dicomd and exits.  
+{{% tip %}}
+Users will need to include the ./dicomd command, because run.dicomd does not stay running. It spawns dicomd and exits.
 {{% /tip %}}

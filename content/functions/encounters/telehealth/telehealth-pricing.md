@@ -8,12 +8,11 @@ mimeType: 'text/x-markdown'
 links:
   - 'mailto:kari@mieweb.com'
 source: 'https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## TeleHealth Video
 
 Video Pricing is based on the number of minutes your participants are connected to a Room.
-
 
 <table>
 <tr>
@@ -21,22 +20,20 @@ Video Pricing is based on the number of minutes your participants are connected 
 <td><strong>Pricing</strong></td>
 </tr>
 <tr>
-<td>Peer to Peer Room (2 people)	</td>
+<td>Peer to Peer Room (2 people)</td>
 <td>$0.006 / minute (2 participants)</td>
 </tr>
 <tr>
 <td>Small-Group Room (up to 4 participants)</td>
-<td>$0.008 / min per participant </td>
+<td>$0.008 / min per participant</td>
 </tr>
 <tr>
 <td>Group Rooms (up to 50 participants)</td>
 <td>$0.02 / min per participant</td>
 </tr>
-
 </table>
 
 ## SMS Pricing
-
 
 <table>
 <tr>
@@ -51,13 +48,11 @@ Video Pricing is based on the number of minutes your participants are connected 
 <td>$0.0150</td>
 <td>$0.0150</td>
 </tr>
-
 </table>
 
 ## Recorded Visits
 
 In order to record visits, you must use the small room or larger video options. Peer to Peer video can not be recorded at this time.
-
 
 <table>
 <tr>
@@ -68,19 +63,16 @@ In order to record visits, you must use the small room or larger video options. 
 <td>Recorded Visits</td>
 <td>$0.04 / min per participant</td>
 </tr>
-
 </table>
 
 ## Initial Setup
-
 
 * Setup fees are waived during COVID-19 Response.
 * Credit Card required to set up monthly billing.
 * Consulting and configuration changes will be charged at $225/hr if requested.
 
+**_Example cost:_**
 
-
-**_Example cost:_**  
 *1 Physician using Telehealth for 8 hours a day, 5 days a week monthly would be approximately $57.60 per month (non-recorded peer to peer room)*
 
 For additional information contact [kari@mieweb.com](mailto:kari@mieweb.com)

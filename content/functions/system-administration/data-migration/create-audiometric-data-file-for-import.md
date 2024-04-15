@@ -12,22 +12,19 @@ links:
   - 'https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365'
   - 'https://drive.google.com/open?id=1eUZciZBJx6E4HZ61k9sBS1T1WKU9-6DT2O0mch4K6DU'
 source: 'https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-This document explains how to import your historical audiometric testing data into {{% system-name %}} .  
+This document explains how to import your historical audiometric testing data into {{% system-name %}} .
+
 What you will need:
 
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Audiometric Data CSV File Example
-{{% system-name %}}*  end user with administrative rights
-
+* {{% system-name %}} end user with administrative rights
 
 ## Create Audiometric Data CSV File
 
-
 1. The following table provides optional or required <strong>Field Names</strong> and <strong>Descriptions</strong>, as indicated by the <strong>Requirement</strong> column. Items marked as <em>Best Practice</em> or <em>Optional</em> are not required and may be left blank, or omitted entirely. Employee ID must be the first column in the CSV file. The order of the remaining fields does not matter.
-
-
 
 <table>
 <tr>
@@ -174,16 +171,14 @@ What you will need:
 <td>Optional</td>
 <td>audio.comment</td>
 </tr>
-
 </table>
 
-{{% tip %}}  
-*For a more comprehensive list of supported fields, please refer to the* [*Audiometric Data CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/).  
+
+{{% tip %}}
+*For a more comprehensive list of supported fields, please refer to the* [*Audiometric Data CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/).
 {{% /tip %}}
 
-
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an audiometric testing record. Below is a screenshot of the Audiometric Data CSV File Example for guidance.
-
 
 ![](../create-audiometric-data-file-for-import.assets/3a9601c10c2a8623073d67224cbecfbf.png)
 
@@ -191,35 +186,24 @@ What you will need:
 
 3. Save the file as CSV format.
 
-
 ## Upload Audiometric Data CSV File
-
 
 1. Login as a user with administrator rights.
 2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
-
 ![](../create-audiometric-data-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
-
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
-
 ![](../create-audiometric-data-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
-
 
 4. Select <strong>Audiometric Data CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-
 ![](../create-audiometric-data-file-for-import.assets/26f0c136d467c54503c9ad3361c1e33a.png)
-
 
 5. Select the Audiometric Data CSV File and click <strong>Upload</strong>.
 
-
-
-   ![](../create-audiometric-data-file-for-import.assets/11b5e384a571790e66bde49f23c3be9e.png)
-
+    ![](../create-audiometric-data-file-for-import.assets/11b5e384a571790e66bde49f23c3be9e.png)
 
 {{% tip %}}
 *For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
@@ -227,11 +211,9 @@ What you will need:
 
 ## Resources
 
-
 * [Audiometric Data CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/)
 * [Audiometric Data CSV File Example](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365)
 * [Validation Script for Audiometric Data](https://drive.google.com/open?id=1eUZciZBJx6E4HZ61k9sBS1T1WKU9-6DT2O0mch4K6DU)
-
 
 ## Troubleshooting
 

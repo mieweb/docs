@@ -14,17 +14,17 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'about:blank'
 source: 'https://drive.google.com/open?id=1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## MIPS Transition Year 2017
 
-You asked, and we listened. MIE wants to put your minds at rest on MACRA, the Quality Payment Program (QPP), and any potential penalties that may be delivered in calendar year (CY) 2019, under MIPS. As you may know, CMS puts out a great deal of information, and sometimes that information can be difficult to navigate. The last thing you need is more to worry about, so let us address your concerns as concisely and simply as possible and give back a little more time to your day.  
+You asked, and we listened. MIE wants to put your minds at rest on MACRA, the Quality Payment Program (QPP), and any potential penalties that may be delivered in calendar year (CY) 2019, under MIPS. As you may know, CMS puts out a great deal of information, and sometimes that information can be difficult to navigate. The last thing you need is more to worry about, so let us address your concerns as concisely and simply as possible and give back a little more time to your day.
+
 The introductory year of the QPP has been formulated as a Transition Year (TY 2017), with a *Pick-Your-Pace* design, for MIPS participants. The performance threshold has been lowered in such a way that *minimal participation* can avoid a downward adjustment in CY 2019. Here is **what you need to do**:
 
 1. Confirm [MIPS Eligibility](https://qpp.cms.gov/learn/eligibility).
 2. Pick your pace.
 3. Enroll in WebChart.
-
 
 ### Proposed Changes for 2018
 
@@ -43,12 +43,12 @@ For this year, there are four paths under the *Pick-Your-Pace* design that MIE
 #### Do Nothing
 
 ![](../mips-pick-your-pace.assets/3796ae62e7b11530a4fb4aad738b9a5c.png)
+
 This is the most basic and easiest path to understand; do nothing while eligible, and CY 2019 will come with a **negative four percent (-4%) downward payment adjustment**.
 
 #### Avoid the Penalty
 
 For eligible clinicians, this path provides the easiest means to assure no penalty will be incurred for CY 2019. Each of the three categories (Quality, Advancing Care Information, and Improvement Activities) calculated for the TY 2017 Final Score have minimum requirements, which whenever one is met, guarantee a neutral adjustment, minimally.
-
 <table>
 <tr>
 <td><strong>CATEGORY</strong></td>
@@ -62,14 +62,13 @@ For eligible clinicians, this path provides the easiest means to assure no penal
 <td>Four (4) Required Measures of Base Score <strong>*</strong></td>
 <td>One (1) Improvement Activity (High or Med)</td>
 </tr>
-
 </table>
+
 *****The required Advancing Care Information Base Score measure set is determined by the electronic health record (EHR) edition being used. In addition to the Base Score, Partial and Full Participation paces track additional measures under the Performance and Bonus Scores, for a potential maximum adjustment. For more information regarding EHR editions and ACI measure sets, see the Quality Payment Program (QPP) [Advancing Care Information webpage](https://qpp.cms.gov/measures/aci) and [Fact Sheet](https://qpp.cms.gov/docs/QPP_ACI_Fact_Sheet.pdf).
 
 #### Build Momentum
 
 This progressive pace is oriented around a 90-day reporting period. Its appeal comes from its natural way of *building momentum*through the impetus created from a successful approach to and understanding of quality care. Though the reporting requirements increase under this pace, the 90-day reporting period allows for a familiarization with the attestation requirements, scoring methodology, and incentivization. Clinicians have the ability to earn the maximum adjustment with this track, based on the quality of the data submitted. Ultimately, this path will always produce a neutral or positive payment adjustment, when executed effectively.
-
 <table>
 <tr>
 <td><strong>CATEGORY</strong></td>
@@ -83,14 +82,13 @@ This progressive pace is oriented around a 90-day reporting period. Its appeal c
 <td>Base Score + add'l measures to increase Performance Score</td>
 <td>2 High or 1 High & 2 Med or 4+ Med</td>
 </tr>
-
 </table>
+
 *****Partial and Full Participation paces require no fewer than six (6) Quality Measures, of which, **one (1) is required to be an Outcome Measure**. However, specialty-specific measure sets are available for qualifying clinicians, and may be reviewed on the QPP [Quality Measures webpage](https://qpp.cms.gov/measures/quality).
 
 #### Excel
 
 This more aggressive pace requires full participation and is excellent for the clinician prepared to show their ability to *excel* at patient care and quality reporting. This track adheres to a full-year reporting period and guarantees a modest to moderate positive payment adjustment, based on the quality of data supplied.
-
 <table>
 <tr>
 <td><strong>CATEGORY</strong></td>
@@ -104,8 +102,8 @@ This more aggressive pace requires full participation and is excellent for the c
 <td>Base Score + add'l measures to increase Performance Score</td>
 <td>2 High <strong>OR</strong> 1 High & 2 Med <strong>OR</strong>4+ Med <strong>*</strong></td>
 </tr>
-
 </table>
+
 *****The Partial and Full Participation paces account for most participants; however, there are accommodations built into the scoring for groups of 15 or fewer clinicians and/or clinicians working as non-patient facing or within a rural area. For more information see the [CMS Improvement Activities Fact Sheet](https://qpp.cms.gov/docs/QPP_2017_Improvement_Activities_Fact_Sheet.pdf).
 
 ### Enroll In WebChart
@@ -117,9 +115,7 @@ If you are eligible and planning to get ahead of the game, opt into MIPS, now! K
 3. Select any and all Quality measures you are interested in tracking.
 4. Click <strong>Submit</strong>.
 
-
 ![](../mips-pick-your-pace.assets/d1e8ec479baa3ec81eaf3b173c006423.png)
-
 
 #### Questions
 

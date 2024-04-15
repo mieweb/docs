@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-encounter-workflow.md'
   - '../../review-sessions/review-session-portal-management.md'
 source: 'https://drive.google.com/open?id=1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Purpose
 
@@ -21,34 +21,15 @@ Review standard  {{% system-name %}} workflows and gather information needed fo
 
 ### Agenda - 2 Hours
 
-
 * Demonstrate Patient and Employer Portal functionalities
-
-
-   * System Configuration
-
-
-
-
-      * Patient Portal
-      * Employer Portal
-
-
-
+    * System Configuration
+        * Patient Portal
+        * Employer Portal
 * Demonstrate Encounter Workflows
-
-
-   * System Configuration
-
-
-
-
-      * Encounter Types
-      * Link Encounter Types to Appointment Types
-      * Protocol Templates
-
-
-
+    * System Configuration
+        * Encounter Types
+        * Link Encounter Types to Appointment Types
+        * Protocol Templates
 
 ## Afterward
 

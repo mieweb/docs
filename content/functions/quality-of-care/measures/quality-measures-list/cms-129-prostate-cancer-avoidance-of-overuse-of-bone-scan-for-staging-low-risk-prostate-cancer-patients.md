@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms129v11'
 source: 'https://drive.google.com/open?id=1uyzFO8FwjOJb8-ixYtKd94iuVcu4wwwIhvkIO5Fybw4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS129v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v9&showresulttype=Measure) (2020)  
-[CMS129v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v10&showresulttype=Measure) (2021)  
+[CMS129v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v9&showresulttype=Measure) (2020)
+
+[CMS129v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v10&showresulttype=Measure) (2021)
+
 [CMS129v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v11&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0389</td>
 <td>102</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>Documentation of reason(s) for performing a bone scan (including documented pain, salvage therapy, other medical reasons, or bone scan ordered by someone other than reporting clinician)</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -99,29 +96,18 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Efficiency and Cost Reduction</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
-
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -144,12 +130,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Procedure, Performed: Cancer staging (tumor staging)</td>
 <td>SNOMEDCT Code 258232002</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -164,12 +147,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Procedure, Performed: Prostate Cancer Treatment</td>
 <td>2.16.840.1.113883.3.526.3.398</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -180,11 +160,8 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Diagnostic Study, Performed: Bone Scan</td>
 <td>2.16.840.1.113883.3.526.3.320</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 
 [eCQI CMS129](https://ecqi.healthit.gov/ecqm/ep/2022/cms129v11)
-

@@ -10,37 +10,31 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1cjeLFxh3nnUTHtGy9BTOXeU8ji8uqdDy8Z2u5kSv_tM'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Care Coordination
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Care Coordination  
 **Description**: Establish effective care coordination and active referral management that could include one or more of the following:
 
-* Establish care coordination agreements with frequently used consultants that set expectations for documented flow of information and MIPS eligible clinician or MIPS eligible clinician group expectations between settings. 
+* Establish care coordination agreements with frequently used consultants that set expectations for documented flow of information and MIPS eligible clinician or MIPS eligible clinician group expectations between settings.
 * Provide patients with information that sets their expectations consistently with the care coordination agreements;
 * Track patients referred to specialist through the entire process; and/or
 * Systematically integrate information from referrals into the plan of care.
 
-
-
-
-
 Supporting Documentation
 
-1. Care Coordination Agreements - Sample of care coordination agreements with frequently used consultant that establish documented flow of information and provides patients with information to set consistent expectations; or 
-2. Tracking of Patient Referrals to Specialists - Medical record or EHR documentation demonstrating tracking of patients referred to specialists through the entire process; or 
+1. Care Coordination Agreements - Sample of care coordination agreements with frequently used consultant that establish documented flow of information and provides patients with information to set consistent expectations; or
+2. Tracking of Patient Referrals to Specialists - Medical record or EHR documentation demonstrating tracking of patients referred to specialists through the entire process; or
 3. Referral Information Integrated into the Plan of Care - Samples of specialist referral information systematically integrated into the plan of care.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

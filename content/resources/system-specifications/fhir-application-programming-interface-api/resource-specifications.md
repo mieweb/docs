@@ -53,49 +53,67 @@ links:
   - 'http://hl7.org/fhir/R4/provenance.html'
   - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 # Supported Resources
 
-[AllergyIntolerance](#allergyintolerance)  
-[CarePlan](#careplan)  
-[CareTeam](#careteam)  
-[Condition](#condition)  
-[Device](#device)  
-[DiagnosticReport](#diagnosticreport)  
-[DocumentReference](#documentreference)  
-[Encounter](#encounter)  
-[Goal](#goal)  
-[Immunization](#immunization)  
-[Location](#location)  
-[Medication](#medication)  
-[MedicationRequest](#medicationrequest)  
-[Observation](#observation)  
-[Organization](#organization)  
-[Patient](#patient)  
-[Practitioner](#practitioner)  
-[PractitionerRole](#practitionerrole)  
-[Procedure](#procedure)  
+[AllergyIntolerance](#allergyintolerance)
+
+[CarePlan](#careplan)
+
+[CareTeam](#careteam)
+
+[Condition](#condition)
+
+[Device](#device)
+
+[DiagnosticReport](#diagnosticreport)
+
+[DocumentReference](#documentreference)
+
+[Encounter](#encounter)
+
+[Goal](#goal)
+
+[Immunization](#immunization)
+
+[Location](#location)
+
+[Medication](#medication)
+
+[MedicationRequest](#medicationrequest)
+
+[Observation](#observation)
+
+[Organization](#organization)
+
+[Patient](#patient)
+
+[Practitioner](#practitioner)
+
+[PractitionerRole](#practitionerrole)
+
+[Procedure](#procedure)
+
 [Provenance](#provenance)
 
 ## AllergyIntolerance
 
-
 ### Description
 
-The AllergyIntolerance resource returns data regarding an undesirable, physiological response associated with exposure to a given substance unique to a single patient.  
+The AllergyIntolerance resource returns data regarding an undesirable, physiological response associated with exposure to a given substance unique to a single patient.
+
 A list of allergies for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
-**FHIR Version:** [R4 AllergyIntolerance](http://hl7.org/fhir/R4/allergyintolerance.html)  
-**Data Version:** USCDI v1  
+**FHIR Version:** [R4 AllergyIntolerance](http://hl7.org/fhir/R4/allergyintolerance.html)
+
+**Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 AllergyIntolerance](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-allergyintolerance.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -113,12 +131,9 @@ A list of allergies for a specific patient can be returned when searching by tha
 <td>GET</td>
 <td>[baseURL]/AllergyIntolerance?_id={ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -144,24 +159,24 @@ A list of allergies for a specific patient can be returned when searching by tha
 </tr>
 <tr>
 <td>clinicalStatus</td>
-<td>Status of the AllergyIntolerance
-<ul><li><p>active</p></li><li><p>resolved</p></li></ul></td>
+<td>Status of the AllergyIntolerance<br />
+<ul><li>active</li><li>resolved</li></ul></td>
 <td>CodableConcept</td>
 <td>No</td>
 <td>No</td>
 </tr>
 <tr>
 <td>verificationStatus</td>
-<td>Certainty of the AllergyIntolerance
-<ul><li><p>confirmed</p></li><li><p>entered-in-error</p></li></ul></td>
+<td>Certainty of the AllergyIntolerance<br />
+<ul><li>confirmed</li><li>entered-in-error</li></ul></td>
 <td>CodableConcept</td>
 <td>No</td>
 <td>No</td>
 </tr>
 <tr>
 <td>type</td>
-<td>Physiological mechanism
-<ul><li><p>allergy</p></li><li><p>intolerance</p></li></ul></td>
+<td>Physiological mechanism<br />
+<ul><li>allergy</li><li>intolerance</li></ul></td>
 <td>Code</td>
 <td>No</td>
 <td>No</td>
@@ -201,13 +216,9 @@ A list of allergies for a specific patient can be returned when searching by tha
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -222,17 +233,13 @@ A list of allergies for a specific patient can be returned when searching by tha
 <td>patient</td>
 <td>[baseURL]/AllergyIntolerance?patient={reference}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
-
 ```
 {{% /pre %}}
 
@@ -240,7 +247,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 {
 	"resourceType": "AllergyIntolerance",
 	"id": "11",
@@ -299,13 +305,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 	},
 	"recordedDate": "2022-08-05T18:33:45Z"
 }
+```
 {{% /pre %}}
 
-```
-
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -338,34 +341,33 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## CarePlan
 
-
 ### Description
 
 The CarePlan resource returns data related to the intention of how one or more practitioners deliver care for a unique patient or group of patients during a period of time.  CarePlans may or may not be related to a specific condition or set of conditions.
+
 A list of care plans for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Careplan](http://hl7.org/fhir/R4/careplan.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 CarePlan](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careplan.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -383,12 +385,9 @@ A list of care plans for a specific patient can be returned when searching by th
 <td>GET</td>
 <td>[baseURL]/CarePlan?_id={ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -414,16 +413,16 @@ A list of care plans for a specific patient can be returned when searching by th
 </tr>
 <tr>
 <td>category</td>
-<td>Type of CarePlan
-<ul><li><p>assess-plan</p></li></ul></td>
+<td>Type of CarePlan<br />
+<ul><li>assess-plan</li></ul></td>
 <td>Slice</td>
 <td>Yes</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>intent</td>
-<td>Level of authority of the CarePlan
-<ul><li><p>order</p></li></ul></td>
+<td>Level of authority of the CarePlan<br />
+<ul><li>order</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>No</td>
@@ -437,19 +436,15 @@ A list of care plans for a specific patient can be returned when searching by th
 </tr>
 <tr>
 <td>status</td>
-<td>Indication of when the CarePlan is/was actionable
-<ul><li><p>draft</p></li><li><p>active</p></li><li><p>completed</p></li><li><p>entered-in-error</p></li></ul></td>
+<td>Indication of when the CarePlan is/was actionable<br />
+<ul><li>draft</li><li>active</li><li>completed</li><li>entered-in-error</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>=o</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -464,18 +459,14 @@ A list of care plans for a specific patient can be returned when searching by th
 <td>patient+category</td>
 <td>[baseURL]/CarePlan?patient={reference}&category=assess-plan</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
-
 
 ```
 {{% /pre %}}
@@ -484,7 +475,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "CarePlan",
@@ -513,13 +503,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 	"status": "completed"
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -544,7 +531,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -553,33 +540,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## CareTeam
 
-
 ### Description
 
 The CareTeam resource returns data regarding everyone involved in the care of a unique patient.  This team may consist of medical practitioners, friends, relatives, and organizations.
+
 A list of care teams for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 CareTeam](http://hl7.org/fhir/R4/careteam.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 CareTeam](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careteam.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -597,12 +584,9 @@ A list of care teams for a specific patient can be returned when searching by th
 <td>GET</td>
 <td>[baseURL]/CareTeam?_id={ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -635,8 +619,8 @@ A list of care teams for a specific patient can be returned when searching by th
 </tr>
 <tr>
 <td>status</td>
-<td>Current state of the CareTeam
-<ul><li><p>active</p></li></ul></td>
+<td>Current state of the CareTeam<br />
+<ul><li>active</li></ul></td>
 <td>Code</td>
 <td>No</td>
 <td>Yes</td>
@@ -655,13 +639,9 @@ A list of care teams for a specific patient can be returned when searching by th
 <td>Yes</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -676,18 +656,14 @@ A list of care teams for a specific patient can be returned when searching by th
 <td>patient+status</td>
 <td>[baseURL]/CareTeam?patient={reference}&status=active</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
-
 
 ```
 {{% /pre %}}
@@ -696,7 +672,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "CareTeam",
@@ -754,13 +729,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -785,7 +757,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -794,33 +766,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Condition
 
-
 ### Description
 
 The Condition resource returns data regarding a clinical condition, problem, or diagnosis that has risen to clinical significance for a unique patient.
+
 A list of conditions for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Condition](http://hl7.org/fhir/R4/condition.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Condition](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-condition.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -838,12 +810,9 @@ A list of conditions for a specific patient can be returned when searching by th
 <td>GET</td>
 <td>[baseURL]/Condition?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -869,24 +838,24 @@ A list of conditions for a specific patient can be returned when searching by th
 </tr>
 <tr>
 <td>clinicalStatus</td>
-<td>Clinical status of the Condition
-<ul><li><p>active</p></li><li><p>recurrence</p></li><li><p>relapse</p></li><li><p>inactive</p></li><li><p>remission</p></li><li><p>resolved</p></li></ul></td>
+<td>Clinical status of the Condition<br />
+<ul><li>active</li><li>recurrence</li><li>relapse</li><li>inactive</li><li>remission</li><li>resolved</li></ul></td>
 <td>CodeableConcept</td>
 <td>No</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>verificationStatus</td>
-<td>Information to support the clinical status
-<ul><li><p>unconfirmed</p></li><li><p>provisional</p></li><li><p>differential</p></li><li><p>confirmed</p></li><li><p>refuted</p></li><li><p>entered-in-error</p></li></ul></td>
+<td>Information to support the clinical status<br />
+<ul><li>unconfirmed</li><li>provisional</li><li>differential</li><li>confirmed</li><li>refuted</li><li>entered-in-error</li></ul></td>
 <td>CodeableConcept</td>
 <td>No</td>
 <td>No</td>
 </tr>
 <tr>
 <td>category</td>
-<td>Category of the Condition
-<ul><li><p>problem-list-item</p></li><li><p>health-concern</p></li></ul></td>
+<td>Category of the Condition<br />
+<ul><li>problem-list-item</li><li>health-concern</li></ul></td>
 <td>CodeableConcept</td>
 <td>Yes</td>
 <td>Yes</td>
@@ -926,13 +895,9 @@ A list of conditions for a specific patient can be returned when searching by th
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -963,18 +928,14 @@ A list of conditions for a specific patient can be returned when searching by th
 <td>code</td>
 <td>[baseURL]/Condition?code={token}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
-
 
 ```
 {{% /pre %}}
@@ -983,7 +944,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Condition",
@@ -1048,13 +1008,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 	"recordedDate": "2010-03-23T15:33:55Z"
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -1079,7 +1036,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -1088,34 +1045,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Device
 
-
 ### Description
 
 The Device resource returns data regarding a medical or non-medical manufactured item that is used in but unchanged by the provision of healthcare.
+
 A list of Devices for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Device](http://hl7.org/fhir/R4/device.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Implantable Device](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-implantable-device.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -1133,12 +1089,9 @@ A list of Devices for a specific patient can be returned when searching by that 
 <td>GET</td>
 <td>[baseURL]/Device?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -1164,8 +1117,8 @@ A list of Devices for a specific patient can be returned when searching by that 
 </tr>
 <tr>
 <td>status</td>
-<td>Device availability
-<ul><li><p>active</p></li><li><p>inactive</p></li><li><p>entered-in-error</p></li><li><p>unknown</p></li></ul></td>
+<td>Device availability<br />
+<ul><li>active</li><li>inactive</li><li>entered-in-error</li><li>unknown</li></ul></td>
 <td>Code</td>
 <td>No</td>
 <td>No</td>
@@ -1233,13 +1186,9 @@ A list of Devices for a specific patient can be returned when searching by that 
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -1254,18 +1203,14 @@ A list of Devices for a specific patient can be returned when searching by that 
 <td>patient</td>
 <td>[baseURL]/Device?patient={reference}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
-
 
 ```
 {{% /pre %}}
@@ -1274,7 +1219,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Device",
@@ -1316,13 +1260,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -1347,7 +1288,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -1356,34 +1297,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## DiagnosticReport
 
-
 ### Description
 
 The DiagnosticReport resource returns data regarding the findings and interpretations of diagnostic tests.
+
 A list of DiagnosticReports for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 DiagnosticReport](http://hl7.org/fhir/R4/diagnosticreport.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:**[ US Core STU3 ](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html)[DiagnosticReport Profile for Laboratory Results Reporting](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html), [US Core STU3 DiagnosticReport Profile for Report and Note exchange](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-note.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -1401,12 +1341,9 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 <td>GET</td>
 <td>[baseURL]/DiagnosticReport?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -1432,8 +1369,8 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 </tr>
 <tr>
 <td>status</td>
-<td>Status of the DiagnosticReport
-<ul><li><p>registered</p></li><li><p>partial</p></li><li><p>preliminary</p></li><li><p>final</p></li></ul></td>
+<td>Status of the DiagnosticReport<br />
+<ul><li>registered</li><li>partial</li><li>preliminary</li><li>final</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>No</td>
@@ -1501,13 +1438,9 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -1534,18 +1467,14 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 <td>patient+category+date</td>
 <td>[baseURL]/Resource?patient={reference}&category={token}&date={date}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
-
 
 ```
 {{% /pre %}}
@@ -1554,7 +1483,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "DiagnosticReport",
@@ -1609,13 +1537,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -1640,7 +1565,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -1649,34 +1574,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## DocumentReference
 
-
 ### Description
 
 The DocumentReference resource returns data for any document created for any purpose.
+
 A list of documents for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 DocumentReference](http://hl7.org/fhir/R4/documentreference.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 DocumentReference](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-documentreference.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -1694,12 +1618,9 @@ A list of documents for a specific patient can be returned when searching by tha
 <td>GET</td>
 <td>[baseURL]/DocumentReference?_id={ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -1725,8 +1646,8 @@ A list of documents for a specific patient can be returned when searching by tha
 </tr>
 <tr>
 <td>status</td>
-<td>Status of the DocumentReference
-<ul><li><p>current</p></li><li><p>entered-in-error</p></li></ul></td>
+<td>Status of the DocumentReference<br />
+<ul><li>current</li><li>entered-in-error</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>No</td>
@@ -1787,13 +1708,9 @@ A list of documents for a specific patient can be returned when searching by tha
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -1820,18 +1737,14 @@ A list of documents for a specific patient can be returned when searching by tha
 <td>patient+category+date</td>
 <td>[baseURL]/DocumentReference?patient={reference}&category={token}&date={date}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
-
 
 ```
 {{% /pre %}}
@@ -1840,7 +1753,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "DocumentReference",
@@ -1902,13 +1814,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -1933,7 +1842,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -1942,34 +1851,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Encounter
 
-
 ### Description
 
 The Encounter resource returns data regarding a clinical interaction between a patient and one or more healthcare providers.
+
 A list of encounters for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Encounter](http://hl7.org/fhir/R4/encounter.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Encounter](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -1987,12 +1895,9 @@ A list of encounters for a specific patient can be returned when searching by th
 <td>GET</td>
 <td>[baseURL]/Encounter?_id={ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -2025,16 +1930,16 @@ A list of encounters for a specific patient can be returned when searching by th
 </tr>
 <tr>
 <td>status</td>
-<td>Status of the Encounter
-<ul><li><p>in-progress</p></li><li><p>finished</p></li></ul></td>
+<td>Status of the Encounter<br />
+<ul><li>in-progress</li><li>finished</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>class</td>
-<td>Classification of the Encounter setting
-<ul><li><p>ambulatory</p></li></ul></td>
+<td>Classification of the Encounter setting<br />
+<ul><li>ambulatory</li></ul></td>
 <td>Coding</td>
 <td>Yes</td>
 <td>No</td>
@@ -2088,13 +1993,9 @@ A list of encounters for a specific patient can be returned when searching by th
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -2113,18 +2014,14 @@ A list of encounters for a specific patient can be returned when searching by th
 <td>patient+date</td>
 <td>[baseURL]/Encounter?patient={reference}&date={date}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
-
 
 ```
 {{% /pre %}}
@@ -2133,7 +2030,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Encounter",
@@ -2224,13 +2120,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 	}
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -2255,7 +2148,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -2264,34 +2157,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Goal
 
-
 ### Description
 
 The Goal resource returns data describing one or more, short or long term healthcare objectives for a unique patient.
+
 A list of goals for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Goal](http://hl7.org/fhir/R4/goal.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Goal](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-goal.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -2309,12 +2201,9 @@ A list of goals for a specific patient can be returned when searching by that pa
 <td>GET</td>
 <td>[baseURL]/Goal?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -2340,8 +2229,8 @@ A list of goals for a specific patient can be returned when searching by that pa
 </tr>
 <tr>
 <td>lifecycleStatus</td>
-<td>State of the Goal
-<ul><li><p>active</p></li><li><p>on-hold</p></li><li><p>accepted</p></li></ul></td>
+<td>State of the Goal<br />
+<ul><li>active</li><li>on-hold</li><li>accepted</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>No</td>
@@ -2367,13 +2256,9 @@ A list of goals for a specific patient can be returned when searching by that pa
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -2388,18 +2273,14 @@ A list of goals for a specific patient can be returned when searching by that pa
 <td>patient</td>
 <td>[baseURL]/Goal?patient={reference}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
-
 
 ```
 {{% /pre %}}
@@ -2408,7 +2289,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Goal",
@@ -2439,13 +2319,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -2470,7 +2347,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -2479,34 +2356,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Immunization
 
-
 ### Description
 
 The Immunization resource returns data describing the event of a vaccine administration or a reported record of immunization for a unique patient.
+
 A list of immunizations for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Immunization](http://hl7.org/fhir/R4/immunization.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Immunization](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-immunization.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -2524,12 +2400,9 @@ A list of immunizations for a specific patient can be returned when searching by
 <td>GET</td>
 <td>[baseURL]/Immunization?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -2583,8 +2456,8 @@ A list of immunizations for a specific patient can be returned when searching by
 </tr>
 <tr>
 <td>status</td>
-<td>Current status of the Immunization event
-<ul><li><p>Completed</p></li><li><p>entered-in-error</p></li><li><p>not-done</p></li></ul></td>
+<td>Current status of the Immunization event<br />
+<ul><li>Completed</li><li>entered-in-error</li><li>not-done</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>Yes</td>
@@ -2624,13 +2497,9 @@ A list of immunizations for a specific patient can be returned when searching by
 <td>Yes</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -2649,18 +2518,14 @@ A list of immunizations for a specific patient can be returned when searching by
 <td>status</td>
 <td>[baseURL]/Immunization?status={token}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
-
 
 ```
 {{% /pre %}}
@@ -2669,7 +2534,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Immunization",
@@ -2698,13 +2562,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 	"primarySource": true
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -2729,7 +2590,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -2738,34 +2599,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Location
 
-
 ### Description
 
 The Location resource returns data for a physical place where services are provided or where resources and participants may be found.
+
 A list of locations can be returned when searching by name or address.
 
 ### Standards
 
 **FHIR Version:** [R4 Location](http://hl7.org/fhir/R4/location.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Location](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-location.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -2783,12 +2643,9 @@ A list of locations can be returned when searching by name or address.
 <td>GET</td>
 <td>[baseURL]/Location?name={token}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -2807,8 +2664,8 @@ A list of locations can be returned when searching by name or address.
 </tr>
 <tr>
 <td>status</td>
-<td>General availability of the Location
-<ul><li><p>active</p></li><li><p>inactive</p></li></ul></td>
+<td>General availability of the Location<br />
+<ul><li>active</li><li>inactive</li></ul></td>
 <td>Code</td>
 <td>No</td>
 <td>No</td>
@@ -2841,13 +2698,9 @@ A list of locations can be returned when searching by name or address.
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -2862,18 +2715,14 @@ A list of locations can be returned when searching by name or address.
 <td>address</td>
 <td>[baseURL]/Location?address={token}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
-
 
 ```
 {{% /pre %}}
@@ -2882,7 +2731,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 	"resourceType": "Location",
 	"id": "41",
@@ -2905,13 +2753,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 	}
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -2936,7 +2781,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -2945,18 +2790,17 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Medication
-
 
 ### Description
 
@@ -2965,13 +2809,12 @@ The Medication resource returns data used for the identification and definition 
 ### Standards
 
 **FHIR Version:** [R4 Medication](http://hl7.org/fhir/R4/medication.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Medication](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medication.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -2984,12 +2827,9 @@ The Medication resource returns data used for the identification and definition 
 <td>GET</td>
 <td>[baseURL]/Medication/{ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -3013,31 +2853,23 @@ The Medication resource returns data used for the identification and definition 
 <td>Yes</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
 <td><strong>Parameter(s)</strong></td>
 <td><strong>URL Template</strong></td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
-
 
 ```
 {{% /pre %}}
@@ -3046,7 +2878,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Medication",
@@ -3063,13 +2894,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 	}
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -3094,7 +2922,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -3103,34 +2931,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## MedicationRequest
 
-
 ### Description
 
 The MedicationRequest resource returns data regarding an order or request for the supply of medication and instructions for its administration.
+
 A list of MedicationRequests for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 MedicationRequest](http://hl7.org/fhir/R4/medicationrequest.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 MedicationRequest](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medicationrequest.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -3148,12 +2975,9 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 <td>GET</td>
 <td>[baseURL]/MedicationRequest?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -3172,16 +2996,16 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 </tr>
 <tr>
 <td>status</td>
-<td>State of the order
-<ul><li><p>active</p></li><li><p>stopped</p></li><li><p>entered-in-error</p></li></ul></td>
+<td>State of the order<br />
+<ul><li>active</li><li>stopped</li><li>entered-in-error</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>intent</td>
-<td>Type of order
-<ul><li><p>order</p></li></ul></td>
+<td>Type of order<br />
+<ul><li>order</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>Yes</td>
@@ -3202,7 +3026,7 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 </tr>
 <tr>
 <td>medicationCodeableConcept</td>
-<td>Code identifying the the requested medication </td>
+<td>Code identifying the the requested medication</td>
 <td>Codeable Concept</td>
 <td>Yes</td>
 <td>No</td>
@@ -3230,7 +3054,7 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 </tr>
 <tr>
 <td>requester</td>
-<td>Reference to the Practitioner or Organization resource that made the request </td>
+<td>Reference to the Practitioner or Organization resource that made the request</td>
 <td>Practitioner or OrganizationReference</td>
 <td>Yes</td>
 <td>No</td>
@@ -3249,13 +3073,9 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -3274,18 +3094,14 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 <td>patient+intent+status</td>
 <td>[baseURL]/MedicationRequest?patient={reference}&intent=order&status={token}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
-
 
 ```
 {{% /pre %}}
@@ -3294,7 +3110,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "MedicationRequest",
@@ -3340,13 +3155,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -3371,7 +3183,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -3380,34 +3192,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Observation
 
-
 ### Description
 
 The Observation resource returns measurements and simple assertions made about a unique patient, device, or subject.
+
 A list of Observations for a specific patient can be returned when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Observation](http://hl7.org/fhir/R4/observation.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Laboratory Result Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-observation-lab.html), [US Core STU3 Pediatric BMI for Age Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-bmi-for-age.html), [US Core STU3 Pediatric Head Occipital-frontal Circumference Percentile Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-head-occipital-frontal-circumference-percentile.html), [US Core STU3 Pediatric Weight for Height Observation Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-weight-for-height.html), [US Core STU3 Pulse Oximetry Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-pulse-oximetry.html), [US Core STU3 Smoking Status Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-smokingstatus.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -3425,12 +3236,9 @@ A list of Observations for a specific patient can be returned when searching by 
 <td>GET</td>
 <td>[baseURL]/Observation?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -3512,8 +3320,8 @@ A list of Observations for a specific patient can be returned when searching by 
 </tr>
 <tr>
 <td>status</td>
-<td>Status of the result value
-<ul><li><p>final</p></li><li><p>entered-in-error</p></li></ul></td>
+<td>Status of the result value<br />
+<ul><li>final</li><li>entered-in-error</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>No</td>
@@ -3532,13 +3340,9 @@ A list of Observations for a specific patient can be returned when searching by 
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -3561,18 +3365,14 @@ A list of Observations for a specific patient can be returned when searching by 
 <td>patient+category+date</td>
 <td>[baseURL]/Observation?patient={reference}&category={token}&date={date}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
-
 
 ```
 {{% /pre %}}
@@ -3581,7 +3381,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Observation",
@@ -3650,13 +3449,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 	"status": "final"
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -3681,7 +3477,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -3690,34 +3486,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Organization
 
-
 ### Description
 
 The Organization resource returns data regarding a recognized group formed for the purpose of achieving a collective action, such as companies, institutions, departments, healthcare practices, and payers.
+
 A list of Organizations can be returned when searching by name or address.
 
 ### Standards
 
 **FHIR Version:** [R4 Organization](http://hl7.org/fhir/R4/organization.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Organization](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -3735,12 +3530,9 @@ A list of Organizations can be returned when searching by name or address.
 <td>GET</td>
 <td>[baseURL]/Organization?name={token}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -3799,13 +3591,9 @@ A list of Organizations can be returned when searching by name or address.
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -3824,18 +3612,14 @@ A list of Organizations can be returned when searching by name or address.
 <td>npi</td>
 <td>[baseURL]/Organization?npi={token}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
-
 
 ```
 {{% /pre %}}
@@ -3844,7 +3628,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Organization",
@@ -3876,13 +3659,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -3907,7 +3687,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -3916,34 +3696,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Patient
 
-
 ### Description
 
 The Patient resource returns demographic and other administrative information about an individual receiving health-related services.
+
 A list of patients can be returned when searching by demographic information.
 
 ### Standards
 
 **FHIR Version:** [R4 Patient](http://hl7.org/fhir/R4/patient.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Patient](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -3961,12 +3740,9 @@ A list of patients can be returned when searching by demographic information.
 <td>GET</td>
 <td>[baseURL]/Patient?_id={ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -4013,8 +3789,8 @@ A list of patients can be returned when searching by demographic information.
 </tr>
 <tr>
 <td>gender</td>
-<td>Administrative gender
-<ul><li><p>male</p></li><li><p>female</p></li><li><p>unknown</p></li><li><p>other</p></li></ul></td>
+<td>Administrative gender<br />
+<ul><li>male</li><li>female</li><li>unknown</li><li>other</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>Yes</td>
@@ -4068,13 +3844,9 @@ A list of patients can be returned when searching by demographic information.
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -4101,18 +3873,14 @@ A list of patients can be returned when searching by demographic information.
 <td>name+gender</td>
 <td>[baseURL]/Patient?name={token}&gender={token}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
-
 
 ```
 {{% /pre %}}
@@ -4121,7 +3889,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Patient",
@@ -4286,13 +4053,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 	"active": true
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -4317,7 +4081,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -4326,34 +4090,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Practitioner
 
-
 ### Description
 
 The Practitioner resource returns data regarding a person who is direct or indirectly involved in the provisioning of healthcare.
+
 A list of Practitioners can be returned when searching by name or identifier.
 
 ### Standards
 
 **FHIR Version:** [R4 Practitioner](http://hl7.org/fhir/R4/practitioner.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Practitioner](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitioner.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -4371,12 +4134,9 @@ A list of Practitioners can be returned when searching by name or identifier.
 <td>GET</td>
 <td>[baseURL]/Practitioner?name={token}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -4423,8 +4183,8 @@ A list of Practitioners can be returned when searching by name or identifier.
 </tr>
 <tr>
 <td>gender</td>
-<td>Administrative gender
-<ul><li><p>male</p></li><li><p>female</p></li><li><p>unknown</p></li><li><p>other</p></li></ul></td>
+<td>Administrative gender<br />
+<ul><li>male</li><li>female</li><li>unknown</li><li>other</li></ul></td>
 <td>Code</td>
 <td>No</td>
 <td>Yes</td>
@@ -4443,13 +4203,9 @@ A list of Practitioners can be returned when searching by name or identifier.
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -4464,18 +4220,14 @@ A list of Practitioners can be returned when searching by name or identifier.
 <td>identifier</td>
 <td>[baseURL]/Practitioner?identifier={token}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
-
 
 ```
 {{% /pre %}}
@@ -4484,7 +4236,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Practitioner",
@@ -4547,13 +4298,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 	"active": true
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -4578,7 +4326,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -4587,18 +4335,17 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## PractitionerRole
-
 
 ### Description
 
@@ -4607,13 +4354,12 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 ### Standards
 
 **FHIR Version:** [R4 PractitionerRole](http://hl7.org/fhir/R4/practitionerrole.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 PractitionerRole](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitionerrole.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -4626,12 +4372,9 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 <td>GET</td>
 <td>[baseURL]/PractitionerRole/{ID}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -4697,31 +4440,23 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 <td>No</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
 <td><strong>Parameter(s)</strong></td>
 <td><strong>URL Template</strong></td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
-
 
 ```
 {{% /pre %}}
@@ -4730,7 +4465,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "PractitionerRole",
@@ -4766,13 +4500,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -4797,7 +4528,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -4806,34 +4537,33 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Procedure
 
-
 ### Description
 
 The Procedure resource returns data regarding a physical or non-physical action that was performed on or for a patient.
+
 A list of procedures can be returned for a specific patient when searching by that patient.
 
 ### Standards
 
 **FHIR Version:** [R4 Procedure](http://hl7.org/fhir/R4/procedure.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Procedure](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-procedure.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -4851,12 +4581,9 @@ A list of procedures can be returned for a specific patient when searching by th
 <td>GET</td>
 <td>[baseURL]/Procedure?patient={reference}</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -4875,8 +4602,8 @@ A list of procedures can be returned for a specific patient when searching by th
 </tr>
 <tr>
 <td>status</td>
-<td>State of the Procedure
-<ul><li><p>completed</p></li><li><p>entered</p></li></ul></td>
+<td>State of the Procedure<br />
+<ul><li>completed</li><li>entered</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>No</td>
@@ -4902,13 +4629,9 @@ A list of procedures can be returned for a specific patient when searching by th
 <td>Yes</td>
 <td>Yes</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
@@ -4927,18 +4650,14 @@ A list of procedures can be returned for a specific patient when searching by th
 <td>patient+date</td>
 <td>[baseURL]/Procedure?patient={reference}&date={date}</td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
-
 
 ```
 {{% /pre %}}
@@ -4947,7 +4666,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Procedure",
@@ -4968,13 +4686,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 	"performedDateTime": "2013-01-03"
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -4999,7 +4714,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -5008,18 +4723,17 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
+
 **Version:** 8.4
+
 **Release Date:** September 1, 2022
 
 ## Provenance
-
 
 ### Description
 
@@ -5028,13 +4742,12 @@ The Provenance resource contains information for assessing authenticity, enablin
 ### Standards
 
 **FHIR Version:** [R4 Provenance](http://hl7.org/fhir/R4/provenance.html)
+
 **Data Version:** USCDI v1
+
 **Supported Profiles:** [US Core STU3 Provenance](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html)
 
-
 ### Functions
-
-
 
 <table>
 <tr>
@@ -5052,12 +4765,9 @@ The Provenance resource contains information for assessing authenticity, enablin
 <td>GET</td>
 <td>[baseURL]/[Resource]?_id={ID}&_revinclude=Provenance:target</td>
 </tr>
-
 </table>
 
 ### Parameters
-
-
 
 <table>
 <tr>
@@ -5095,31 +4805,23 @@ The Provenance resource contains information for assessing authenticity, enablin
 <td>Yes</td>
 <td>No</td>
 </tr>
-
 </table>
 
-
 ### Supported Searches
-
-
 
 <table>
 <tr>
 <td><strong>Parameter(s)</strong></td>
 <td><strong>URL Template</strong></td>
 </tr>
-
 </table>
-
 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
 ```
 
-
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
-
 
 ```
 {{% /pre %}}
@@ -5128,7 +4830,6 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 
 {{% pre language="json" theme="RDark" %}}
 ```
-
 
 {
 	"resourceType": "Provenance",
@@ -5160,13 +4861,10 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 	]
 }
 
-
 ```
 {{% /pre %}}
 
 ### Error Handling
-
-
 
 <table>
 <tr>
@@ -5191,7 +4889,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 <td>404</td>
 <td>Error</td>
 <td>Website Not Found</td>
-<td>Unsupported Search Path
+<td>Unsupported Search Path<br />
 Permission Denied</td>
 </tr>
 <tr>
@@ -5200,13 +4898,12 @@ Permission Denied</td>
 <td>Internal Server Error</td>
 <td>Out of Memory</td>
 </tr>
-
 </table>
-
 
 ### Product Information
 
 **Product:** WebChart EHR
-**Version:** 8.4
-**Release Date:** September 1, 2022
 
+**Version:** 8.4
+
+**Release Date:** September 1, 2022

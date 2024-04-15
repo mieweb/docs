@@ -10,7 +10,7 @@ links:
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
   - 'ehi-export-technical-details.md'
 source: 'https://drive.google.com/open?id=1-ZghkeZW86JVJ5pTNjqtJqz2uOD6imwgA8EGma-Hiv4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Introduction
 
@@ -25,7 +25,6 @@ To perform an export, a user should navigate to Control Panel->Interfaces->EHI E
 * If exporting a single patient, select the patient from the autocomplete and click the Single Export button.
 * If exporting all patients in the system, click the Export All button.
 * If exporting patients for a single provider, select the provider from the dropdown menu and click the Provider Export button.
-
 
 ![](../ehi-export-for-end-users.assets/5d50c74dda022b94cfb22a0732f2f721.png)
 

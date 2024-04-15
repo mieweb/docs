@@ -9,15 +9,13 @@ links:
   - 'https://system/?f=miewebscan'
   - 'indexing-bubble-forms.md'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The WebScan module allows users to scan and index documents into the {{% system-name %}} system, so that document images can be attached to associated charts and be stored, accordingly. Indexing is the process of cataloging documents according to their attributes, such as chart name, provider, document type, date of document, etc. Once documents are scanned and indexed, staff can search for and retrieve documents from electronic charts, rather than having to search a medical file for paper copies. Additionally, there are WebScan reports that can be run by an administrator, or users with proper security permissions, that report statistics on batches scanned and/or indexed.
 
 As expected, using the WebScan module and being able to index documents is security driven. Specific system settings and permissions must be established in order to access WebScan and utilize its functionality. To ensure user access, verify the **MIEWebScan** control setting is set to **Edit**.
 
-
 ## Batches and Batch Statuses
-
 
 To access the scanning and indexing module, simply navigate to the [WebScan](https://system/?f=miewebscan) sidemenu.
 
@@ -27,35 +25,27 @@ Additionally, the ListView of the checked-in scanned batches will only show batc
 
 ![](../indexing.assets/6979d26c3e8d3593d864941035252d90.png)
 
-
 ### Batch Statuses
-
 
 There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *checked-in* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function. Both *Checked In* and *Checked Out* batches will need to be indexed in order to be be removed from the queue.
 
 ![](../indexing.assets/67f35f705bf636a93cc042fd29f7aa97.png)
 
-
 * <strong>Checked In</strong>: Batches that have been scanned into {{% system-name %}} requiring indexing. These batches have not been viewed, opened, or completed. Once viewed or opened, the batch status will become <em>Checked Out</em>.
 * <strong>Checked Out</strong>: Batches that a user has viewed, opened, or begun indexing, without completing. Any batch that is opened and not completed, closed, or deleted will appear in the <em>Checked Out</em> ListView of batches. Simply change the Batch Status filter to <strong>Checked Out</strong>, and click the <strong>Search</strong> button to view.
-
 
 {{% info %}}
 It is important to regularly check both Checked In and Checked Out batch statuses, in order to work and complete batches in the queue.
 {{% /info %}}
 
-
 * <strong>Complete</strong>: Scanned batches with each page fully indexed, uploaded into the appropriate chart(s). When all pages are fully indexed, the batch will be marked as <em>Complete</em>.
 * <strong>Deleted</strong>: Scanned batches that have been deleted. <em>Deleted</em> batches are not indexed nor uploaded into charts.
-
 
 {{% tip %}}
 By default, Completed batches are purged from the {{% system-name %}} system after 90 days. However, the system setting ("MIEWebScan", "Settings", "Purge age in days") can be updated to purge at different intervals, if preferred.
 {{% /tip %}}
 
-
 * <strong>Complete w/ non-uploaded pages</strong>: Scanned batches that have been marked as <em>Complete</em>; however, the {{% system-name %}} system detects pages exist that still need indexed.
-
 
 {{% info %}}
 *Checked In*, *Checked Out* & *Complete w/non-uploaded pages* batches will remain in the queue until every page is indexed and the batch is completed or deleted.
@@ -86,7 +76,6 @@ The columns include:
 * <strong>Priority</strong>: Displays the level of priority of the batch. Default is zero, given when no priority is set. The higher the priority to index the batch, the higher the number given.
 * <strong>Status</strong>: Displays the status of the batch.
 * <strong>Options:</strong> Quick links for performing necessary actions when managing batches. Options include <em>Open</em>, <em>View</em>, and <em>Delete</em>.
-
 
 #### Batch Options
 
@@ -124,14 +113,14 @@ The first page of the batch will display on the right side of the window. The fi
 
 ![](../indexing.assets/c0486ea8a6a788cb6b762656e277eb84.png)
 
-
 ### Left Toolbar Options
-
 
 ![](../indexing.assets/b1944f4f2b6ee90bc57fc36cefa0e294.png)
 
 **Upload to Chart**: Uploads pages into the specified charts for indexing.
+
 **Close**: Closes the batch. Signifies if the batch is completely indexed, or whether it will need to be finished at a later time.
+
 **Help Bubble**: Hover over or click to see the *MIEWebScan Hot Keys* menu. These are keyboard combinations used for performing the equivalent mouse function.
 
 #### Indexing Hotkeys
@@ -139,7 +128,6 @@ The first page of the batch will display on the right side of the window. The fi
 There are keyboard hotkeys to help users perform functions quicker than when using a mouse. Some hotkeys perform options that are not available by mouse. Hover the cursor over the help bubble, or the circled question mark icon, next to the Close button, to access the MIEWebScan Hot Keys menu.
 
 ![](../indexing.assets/b8dc225af8997cefdc29b889cd7fb321.png)
-
 
 <table>
 <tr>
@@ -230,12 +218,9 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 <td><strong>[Shift] + [Alt] + P</strong></td>
 <td>Displays any barcode on <em>current</em> page. While on a page with a barcode, hold [Ctrl] + [Alt] + P to see what the barcode data will display.</td>
 </tr>
-
 </table>
 
-
 ### Right Toolbar Options
-
 
 ![](../indexing.assets/748051abc98d19e6689d90de7dc781ba.png)
 
@@ -247,24 +232,18 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 
 Indexing preferences include:
 
-
 * <strong>Blank Page Threshold</strong>: Setting will automatically detect and purge/delete blank pages when using the Process BarCodes button. The threshold is the percentage (%) of ink, or black on the page, that designates the page as <em>not blank</em>. This preference determines the minimum percentage of black required on the page before the program considers the page blank, marking it for deletion. If any scanned pages contain little content, a low percentage threshold would need to be set in order to detect the small amount of text, or black on the page. This setting is usually set to lower numbers. If a blank page is undetected and is not deleted, the scanner may be dirty, or the page may be smudgy and tripping the threshold sensor.
 * <strong>Default Mouse Mode</strong>: Sets what function is executed when using the mouse to click the document image.
-
-
-   * <strong>Zoom</strong>: Perform zoom function when document image is clicked. Equivalent toolbar option is the magnifying glass.
-   * <strong>Pan</strong>: Perform pan function when document image is clicked. Will only be able to scroll/move the image up and down. Equivalent toolbar option is the hand icon.
-   * <strong>Pointer</strong>: Selection will only allow scrolling. Cannot do anything to the document image.
-   * <strong>Crop</strong>: Perform crop function when document image is clicked. Equivalent toolbar option is the plus sign.
-
-
+    * <strong>Zoom</strong>: Perform zoom function when document image is clicked. Equivalent toolbar option is the magnifying glass.
+    * <strong>Pan</strong>: Perform pan function when document image is clicked. Will only be able to scroll/move the image up and down. Equivalent toolbar option is the hand icon.
+    * <strong>Pointer</strong>: Selection will only allow scrolling. Cannot do anything to the document image.
+    * <strong>Crop</strong>: Perform crop function when document image is clicked. Equivalent toolbar option is the plus sign.
 * <strong>Auto Link Form Pages</strong>: Setting to <strong>Yes</strong> will trigger multi-page forms embedded with form ID barcodes to automatically link, ensuring the full document, regardless of the number of pages, is linked to the first page, as one multi-page record. Otherwise, this must be done manually, while indexing the pages of the batch. In other words, if <em>Auto Link Form Pages</em> is set to Yes and the form being indexed is programmed with the necessary barcode, {{% system-name %}} will link subsequent pages of the form to the initial page. Because of the form ID barcode, {{% system-name %}} recognizes the form as a multi-page document.
 * <strong>Auto Un-tumble Form Pages</strong>: <em>Tumbling</em> is a programmable feature of printed forms where the back page is printed upside-down. Some forms are set to tumble for clipboard use, for example. If a form embedded with a form ID barcode is programmed to tumble and is scanned/indexed with this preference set to <strong>Yes</strong>, {{% system-name %}} will automatically <em>un-tumble</em> the pages, indexing all of them right-side up, with the back page no longer upside-down. If this preference is set to <strong>No</strong>, the pages would appear <em>tumbled</em>, just as they were printed and scanned in, and the user would then be required to manually rotate the inverted images.
 * <strong>Clear Indexing Fields</strong>: When set to <strong>Yes</strong>, the indexing fields of the <em>Indexing Information</em> section will be cleared after advancing to the next document within a batch.
 * <strong>Confirm All Bubble Sheets</strong>: If set to <strong>Yes</strong>, every bubble sheet scanned/indexed will present a confirmation window, even when there are no missing fields required or values outside of the historical range. This triggers a confirmation after every scanned/indexed bubble sheet.
 * <strong>Auto-Rotate to find Barcodes</strong>: This preference ensures that the {{% system-name %}} system may locate and read an embedded barcode, regardless of its placement on the scanned form. Setting to <strong>Yes</strong> will automatically rotate scanned pages, allowing {{% system-name %}} to search for the barcode, so that the form can be indexed accordingly. This is particularly useful for forms with <em>landscape</em> orientation, whose barcode is found on the side of the page. If indexing forms with landscape orientation and this preference is set to <strong>No</strong>, the barcode would not be detected, as the WebScan module would only search the tops of pages.
 * <strong>Auto-Rotate Linked Pages</strong>: Setting to <strong>Yes</strong> will automatically rotate linked pages to sync page orientation.
-
 
 **Process BarCodes**: Clicking this button after opening a batch will trigger the system to locate and read any barcodes within the batch, subsequently indexing any available information garnered. This will also trigger the removal of any blank pages that are flagged, based on the *Blank Page Threshold*. After clicking the Process BarCodes button, the cursor automatically defaults to the Service Date index field in the *Index Information* section.
 
@@ -298,9 +277,7 @@ Once the *Fill Blank* function has been used, the documents of the batch will sh
 Exiting the WebScan module is possible by clicking the X, found in the upper-right corner of the window. Any incomplete batches will be marked as Checked Out after opening. However, using the X is not the proper way to close a batch. Whenever possible, be sure to close the batch following the prompts and using the Close button, when all items have been indexed.
 {{% /note %}}
 
-
 ### Index Information Section
-
 
 ![](../indexing.assets/1cc5ecb681f297268f39a4167d0ff194.png)
 
@@ -342,17 +319,13 @@ The *Link to Order* field will not activate until the *Chart* field has been ent
 Hit the [Enter] key when all applicable fields have been entered. This applies all entered data to the document image and advances the program to the next page of the batch.
 {{% /tip %}}
 
-
 ### Batch Info Section
-
 
 The Batch Info section shows the Batch ID number, the number of pages scanned into the batch, the batch priority, as well as the batch partition and any associated comments. The Partition can be edited using the available drop-down. There are also system settings that can be turned on to make the partition required and/or displayed, by default.
 
 ![](../indexing.assets/a0fd8beeabd13f8b2b3e1d33accaeb3d.png)
 
-
 ### Image Info Section
-
 
 The Image Info section displays columns aligned with the fields of the Index Information section. There is additional functionality available from within this section of the WebScan module. These options are applicable to each page of the batch, or each line. To access and utilize these functions, simply highlight a page of the batch by clicking on the appropriate line. Once highlighted, right-click to open the WebScan context menu.
 
@@ -364,10 +337,8 @@ The Image Info section displays columns aligned with the fields of the Index Inf
 
 **Move Page**: Select the Move Page option from the context menu to move the highlighted item to a different location within the batch. Moving a document using this option allows users to not only move the document to another location within the batch, but also allows the document being moved to be linked to the previous page, or the page that precedes it in the batch. Moving pages is typically done to organize documents requiring a specific order. After selecting Move Page, a pop-up window will appear where the new location of the document can be specified, as well as whether or not the document needs linked to the previous page. To perform the move, click the **Move** button.
 
-
 * <strong>After Doc Num</strong>: Provide the page (Pg) number the document being moved is to follow.
 * <strong>Link to Prev</strong> (<strong>checkbox</strong>): Place a checkmark in this box to link the page being moved to the previous page, relative to the location it is being moved to. Ensure all linked documents are in the correct page order.
-
 
 ![](../indexing.assets/04df25841dbb8df7069fc729809b1442.png)
 
@@ -395,9 +366,7 @@ Click on the red **Dup** hyperlink to open the view of the duplicate page/image.
 To index documents into a locked chart, the indexer must have the**_ _****Add Document to Locked Charts** security permission. If the security control is set to **Yes**, the indexer may index documents into locked charts, as needed. However, because the chart is locked, indexing links will not allow access to the locked chart.
 {{% /note %}}
 
-
 ## Uploading a Batch
-
 
 Once all applicable fields have been filled, linking has been completed, and necessary deletions made, the batch is ready to be uploaded and indexed into the respective charts. Simply click the **Upload to Chart** button in the upper-left of the toolbar. Uploading processes each page of the batch and indexes the documents according to the index details provided. This is typically a fast process.
 
@@ -415,9 +384,7 @@ In cases where the entire batch cannot be completed and indexed in one sitting, 
 
 ![](../indexing.assets/74e25a6a9ec31d7ee7fdcb9381cfca0f.png)
 
-
 ## Closing a Batch after Upload
-
 
 After successfully uploading and indexing all pages of a batch, the batch must be marked as Complete. Doing this will not only close the batch, but also signify to the system that all pages have been addressed and are completed, moving the batch from the *Checked In* queue to the *Complete* queue..
 
@@ -433,12 +400,10 @@ Once the **Close Batch** window opens, continue filling out the necessary inform
 
 ![](../indexing.assets/58aa6f357694892b17f1cc95338d1b15.png)
 
-
 * <strong>Comments</strong>: Any previous comments or text attributed to the batch will display in this field. These comments can be left as-is, or they may be modified, removed, or added to, if necessary. Comments on a batch provide helpful information that will display in the ListView when users are working batches.
 * <strong>Mark as Complete</strong> (<strong>checkbox</strong>): A check mark will populate when all pages have successfully been uploaded. If any pages remain, no check mark will populate. If pages remain in the batch, a message just above the Comments field will display how many pages remain un-indexed. This checkbox should only be checked if the batch is considered entirely complete. When this box is checked, the system will move the batch from the <em>Checked In</em> queue to the <em>Completed Batches</em> category. Closed batches that are not marked as Complete will remain in the <em>Checked In</em> queue.
 * <strong>Priority</strong>: Options include Low, Normal, and High. This field defaults to the priority the batch was set to when opened. As noted, High priority batches will display at the top of batch category ListViews, followed by Normal and then Low priority batches.
 * <strong>Patient's Chart Online</strong>: Though not often used, this section provides a view of all charts uploaded to, and allows users with the proper security permissions to update the status of a chart (i.e., Offline, Partial, or Online). Or all charts can be flagged as Online by simply using the <strong>All Online</strong> button.
 * <strong>Close / Cancel buttons</strong>: Clicking the <strong>Close</strong> button is the proper way to close an opened batch. Clicking the <strong>Cancel</strong> button will keep the user in the WebScan module.
-
 
 After a batch is closed, the page will refresh back to the WebScan landing page, where users may continue to another batch.

@@ -8,15 +8,14 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
 
 * File format: Data file shall be formatted in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
-* Each subsequent row shall represent an order item. 
+* Each subsequent row shall represent an order item.
 * The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type.
-
 
 ## Column Definition
 
@@ -24,8 +23,6 @@ The order list column definition shall contain all columns listed below regardle
 
 * R = Required
 * O = Optional
-
-
 <table>
 <tr>
 <td>Name</td>
@@ -81,11 +78,9 @@ The order list column definition shall contain all columns listed below regardle
 <td>O</td>
 <td>If (Y)es, force a separate order to be placed, If (N)o, all this item to be grouped with other order items in a single order</td>
 </tr>
-
 </table>
 
 ## Examples of CSV
-
 
 ### Order List Example
 
@@ -94,19 +89,18 @@ This example shows how to import multiple order items into the complete order li
 {{% pre %}}
 ```
 
-
 Order name,Order detail description,Order code,LOINC code,CPT code,Collection instructions,Patient instructions,Force separate order
 CPSA,Complexed PSA (cPSA),LAB5725,33667-7,84153,"Container: Purple top tube, Storage: Room temperature",Patient fasting not required,N
 BILTO,Bilirubin Total,LAB5017,1975-2,82247,SST,,N
 CREAT,Creatinine,LAB5023,,82565,SST,,N
 GLU,Glucose,LAB5062,14749-6,82947,SST,,N
 BSS,"Occult Blood Screening, Stool",LAB5093,,82270,Non sterile container,,N
-{{% /pre %}}
-
 
 ```
+{{% /pre %}}
 
 ## Sample CSV files
 
 Here is a sample CSV file to download and view in a text editor or a spreadsheet program.
+
 [File:Order list.csv](https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing)

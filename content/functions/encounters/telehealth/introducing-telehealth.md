@@ -11,25 +11,20 @@ links:
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-{{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.    
+{{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 
-## About   
-
+## About
 
 * Video [demo](https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing)
 * [Press release](https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
 
-
 ### Features
-
 
 * Zero software to install. All browser-based.
 * Invite patients to join via text/sms and email
 * Optional web portal to allow patients to complete a questionnaire and collect consent before the visit.
-
-
 <table>
 <tr>
 <td></td>
@@ -73,12 +68,13 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>-</td>
 <td>✓</td>
 </tr>
-
 </table>
-* Chrome and Firefox for iOS will not work. iOS users will need to use Safari.  
-** WebRTC support in Safari started with Safari version 11  
-*** We recommend migrating to the new Chromium Edge as soon as possible as we will stop supporting ORTC in the near future
 
+* Chrome and Firefox for iOS will not work. iOS users will need to use Safari.
+
+** WebRTC support in Safari started with Safari version 11
+
+*** We recommend migrating to the new Chromium Edge as soon as possible as we will stop supporting ORTC in the near future
 
 ## FAQ
 
@@ -100,6 +96,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 * Place of Service (POS) code 02
 
 ![](../introducing-telehealth.assets/3991b2dc171da84294d04ad876f52e72.png)
+
 **What does it cost?**
 
 * See [Telehealth Pricing](telehealth-pricing.md)
@@ -121,18 +118,20 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 * Recording is an option and has additional cost but is not enabled by default. See [Pricing](#_r8pf4oszsrdj) for details.
 * Audio recordings can be routed to a scribe or transcriptionist to complete documentation as an optional feature.
 
-
-## Screenshots   
-
+## Screenshots
 
 ### Patient initiated (iOS)
 
-![](../introducing-telehealth.assets/c2105f99138f01bf23516d32e87f4127.png)![](../introducing-telehealth.assets/43f0b5a34529ef3dfe60538bfe9afdcd.png)![](../introducing-telehealth.assets/15b5c7e89b6fcf1f6f5cb6fd22630323.png)![](../introducing-telehealth.assets/6692098b583ca5a014f2242472e60d7f.png)
+![](../introducing-telehealth.assets/c2105f99138f01bf23516d32e87f4127.png)
 
+![](../introducing-telehealth.assets/43f0b5a34529ef3dfe60538bfe9afdcd.png)
+
+![](../introducing-telehealth.assets/15b5c7e89b6fcf1f6f5cb6fd22630323.png)
+
+![](../introducing-telehealth.assets/6692098b583ca5a014f2242472e60d7f.png)
 
 ### Provider
 
 ![](../introducing-telehealth.assets/d8d695db6dcdd871a38ba8d0d483fdb3.jpg)
 
 ![](../introducing-telehealth.assets/b81e1c05d35c04b4495433b7c5a433be.jpg)
-

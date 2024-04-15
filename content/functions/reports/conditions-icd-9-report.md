@@ -6,13 +6,18 @@ version: 40
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.  
-Click *Reports* tab on the left sidebar menu.  
-Click *Conditions/ICD-9 Reports* tab from the top tab menu.  
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+
+Click *Reports* tab on the left sidebar menu.
+
+Click *Conditions/ICD-9 Reports* tab from the top tab menu.
+
 The Condition Search screen will open. This is a search of conditions tied to patients according to the criteria you enter.
+
 ![](../conditions-icd-9-report.assets/6b10ea48155e69f14e4ae9363f882bc2.png)
+
 These fields are optional. The more fields you enter and fill out, the more narrowed your search will be.
 
 * <strong>Patient:</strong> You can enter a specific patient name here or hover over the help icon to get help on how to search for a patient to enter here.\
@@ -32,4 +37,5 @@ These fields are optional. The more fields you enter and fill out, the more narr
 * <strong>Format:</strong> Default will be at ListView. However, you can change the status to whatever you wish. Hover or click your mouse on the help icon for explanations of each status.
 
 ![](../conditions-icd-9-report.assets/dce908712802532c24b194a426b702d6.png)
+
 Click SEARCH to begin your ICD9/conditions search, or clear to start over.

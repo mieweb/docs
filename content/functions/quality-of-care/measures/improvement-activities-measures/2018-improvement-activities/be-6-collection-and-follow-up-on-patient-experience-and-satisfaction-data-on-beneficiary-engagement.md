@@ -10,30 +10,25 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1f6W6oJeJeuzCDBTWnQWvfLvFLhW1Navp8kDuWabKWrM'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: High
 
+**Subcategory Name**: Beneficiary Engagement
 
-
-
-**Activity Weighting**: High  
-**Subcategory Name**: Beneficiary Engagement  
 **Description**: Collection and follow-up on patient experience and satisfaction data on beneficiary engagement, including development of improvement plan.
-
-
-
 
 Supporting Documentation
 
-1. Follow-Up on Patient Experience and Satisfaction - Documentation of collection and follow-up on patient experience and satisfaction (e.g. survey results); and 
+1. Follow-Up on Patient Experience and Satisfaction - Documentation of collection and follow-up on patient experience and satisfaction (e.g. survey results); and
 2. Patient Experience and Satisfaction Improvement Plan - Documented patient experience and satisfaction improvement plan.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

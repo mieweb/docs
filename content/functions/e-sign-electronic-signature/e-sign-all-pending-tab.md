@@ -7,19 +7,19 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission.  
+From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission.
+
 In the All Pending tab, it lists all users who have documents pending e-sign requests assigned to them along with a total count.  This tab can be used as an audit tool to see how many users have requests pending, along with the count as of today's date.
 
 ![](../e-sign-all-pending-tab.assets/72bc369a1725797e1a9e8da656057b9e.png)
-
 
 ### Signing a Document in Pending Documents Queue
 
 If you have security permission, you can click on the underlined user's name and view all the individual documents pending the user's e-sign.  By clicking on a specific Doc ID, you yourself can also sign that document to set your signature as preliminary signed. This is done by clicking the Sign Doc link found in the top right of the document header.
 
-![](../e-sign-all-pending-tab.assets/7b1a0bbf0f40bf3310bafd58c71e704e.png) 
+![](../e-sign-all-pending-tab.assets/7b1a0bbf0f40bf3310bafd58c71e704e.png)
 
 When clicking Sign Doc,  would then e-sign your name as preliminary, not the person it was requested from.  It does not take the document out of the user's queue though since you are only marked as ‘preliminary' signed.  The document remains in the requested signature's queue to also sign as final.
 
@@ -29,11 +29,12 @@ When clicking Sign Doc,  would then e-sign your name as preliminary, not the pe
 If you have security permission to proxy sign, then it will sign the document as Final, instead of preliminary.  However, the document continues to stay in the queue of the requested user to also sign on.
 {{% /note %}}
 
-
 ## Clear Queue
 
 If have security permission to delete in the All Pending tab, the option Clear Queue is displayed in the options column at the far right side.
+
 This method is to clear a user's entire e-sign queue.  It will clear their entire e-sign queue (un-request all that are pending this user's e-sign) and the count will be set to zero.  Once a queue is cleared, there is no way to get those back unless you individually request e-signature again from each individual document.
+
 To clear a user's entire e-sign queue, simply click on the Clear Queue link from the All Pending e-sign tab.
 
 ![](../e-sign-all-pending-tab.assets/3b6c0805fb238feccb328db6df14238f.png)
@@ -45,7 +46,6 @@ It will then pop up a confirmation box asking if you really wish to delete all t
 After clicking OK, it will display a confirmation at the top of the screen that it has successfully removed all pending requests from the e-sign queue for that user.
 
 ![](../e-sign-all-pending-tab.assets/cced9f1b7168eea069beb73e290818ae.png)
-
 
 ## Proxy Sign
 
@@ -70,4 +70,3 @@ Using the Document Report found in the Reports sidemenu, a report can be run to 
 Once the report results, an E-Signature can be requested right there from the report by clicking Request Signature option at the far right.
 
 ![](../e-sign-all-pending-tab.assets/77e5e6d6e835b9e35155f4b66a0a0ea6.png)
-

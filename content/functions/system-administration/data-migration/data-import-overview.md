@@ -10,7 +10,7 @@ links:
   - 'data-migration-file-format-standard.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 This page provides an explanation of terminology related to importing data from an existing system to the {{% system-name %}} system.
 
@@ -35,6 +35,5 @@ Comma separated values (CSV) files are used to transfer data through an API. To 
 A number of developer tools have been designed to aide data import efforts. These tools require a developer to operate.
 
 ## Related Pages
-
 
 * [Data Import Master List](data-import-master-list.md)

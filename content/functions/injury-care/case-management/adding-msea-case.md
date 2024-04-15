@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1b8zEKVM7WS8b31Ur6W3sGRTxG7ZHDNFYHE3VCk32qFI'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -24,13 +24,11 @@ This help documentation is designed to assist with creating and documenting a M
 
 By default, the Case section of encounters will display the following case types:
 
-
-* Injury (OSHA Standard) 
-* Injury (Non-OSHA Standard) 
-* Hospital, Absence Management 
+* Injury (OSHA Standard)
+* Injury (Non-OSHA Standard)
+* Hospital, Absence Management
 * Medical Suitability for Expatriate Assignment (MSEA)
 * Medical Surveillance
-
 
 ![](../adding-msea-case.assets/895ee8d7d82d2149015041165ef84d4f.png)
 
@@ -48,7 +46,6 @@ After selecting to create a MSEA case type, the only field that expands is the 
 
 ![](../adding-msea-case.assets/8c9458d6bf1cc940e24dd380f0f10a5c.png)
 
-
 ### Work Status (or Lost Time) Section
 
 Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md) help documentation for more information.
@@ -60,4 +57,3 @@ Refer to help documentation named [Restrictions and Accommodations](../adding-re
 ## Linking Documents to Cases
 
 Documents can be linked to cases.  This can be done via the **Edit Properties** of an existing stored document.  Documents can also be linked to cases when indexing from WebScan. Scheduled appointments can also be linked to cases when in the Add Appointment wizard, if necessary.
-

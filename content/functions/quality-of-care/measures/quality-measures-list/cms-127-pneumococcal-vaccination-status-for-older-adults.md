@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10'
 source: 'https://drive.google.com/open?id=14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS127v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v8&showresulttype=Measure) (2020)  
-[CMS127v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v9&showresulttype=Measure) (2021)  
+[CMS127v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v8&showresulttype=Measure) (2020)
+
+[CMS127v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v9&showresulttype=Measure) (2021)
+
 [CMS127v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>111</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -99,95 +96,51 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
 
 ## Clinical Instructions
 
 Ensure all patients that are 65 years of age or older have received a pneumococcal vaccine or report having received a vaccine. Recording the receipt of the immunization or the administration of the vaccine can be done within or outside of the encounter:
 
 1. <strong>Option 1: Record the Receipt of Pneumococcal Vaccination (Historical)</strong>
-
-
-   1. <strong>Within Encounter</strong>
-
-
-
-
-      1. Open the Immunizations/Injections section of the encounter
-      2. Using the Description autocomplete, begin typing the name of the immunization
-      3. Add the Date and any Reactions/Comments
-      4. Click the Add button
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter
-
-
-
-
-   2. <strong>Outside Encounter</strong>
-
-
-
-
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Quick Add link in the upper-right of the page
-      3. Record any historical injections
-      4. Click the Submit button
-
-
-
+    1. <strong>Within Encounter</strong>
+        1. Open the Immunizations/Injections section of the encounter
+        2. Using the Description autocomplete, begin typing the name of the immunization
+        3. Add the Date and any Reactions/Comments
+        4. Click the Add button
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter
+    2. <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Quick Add link in the upper-right of the page
+        3. Record any historical injections
+        4. Click the Submit button
 2. <strong>Option 2: Document the Administration of Pneumococcal Vaccination</strong>
-
-
-   1. <strong>Within Encounter</strong>
-
-
-
-
-      1. Open the Tests and Procedures section of the encounter
-      2. Using the autocomplete, begin typing the name of the vaccination being administered
-      3. Click the Add to Exam button
-      4. After adding the new section, open the section, fill in all required fields, record the findings, and set to Result.
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter
-
-
-
-
-   2. <strong>Outside Encounter</strong>
-
-
-
-
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Add Imm/Inj link in the upper-right of the page
-      3. Fill in all required fields
-      4. Click the Submit button
-
-
-
+    1. <strong>Within Encounter</strong>
+        1. Open the Tests and Procedures section of the encounter
+        2. Using the autocomplete, begin typing the name of the vaccination being administered
+        3. Click the Add to Exam button
+        4. After adding the new section, open the section, fill in all required fields, record the findings, and set to Result.
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter
+    2. <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Add Imm/Inj link in the upper-right of the page
+        3. Fill in all required fields
+        4. Click the Submit button
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -226,12 +179,9 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -262,12 +212,9 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -286,9 +233,7 @@ Ensure all patients that are 65 years of age or older have received a pneumococc
 <td>rocedure, Performed: Pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, when administered to individuals 2 years or older, for subcutaneous or intramuscular use</td>
 <td>CPT Code 90732</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

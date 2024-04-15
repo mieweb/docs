@@ -7,16 +7,24 @@ lastAuthor: 'Sharon Quarterman'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-The Partition Manager is a function of {{% system-name %}} that allows users the ability to create, update, and delete patient partitions used to assign MR numbers to patients. This powerful tool affects several areas of {{% system-name %}} including: Patient Registration, Document Queue, and Interfaces using Data send auto routes.  
-There may be a need to create a new partition in the {{% system-name %}} system. An example could be a separate company or provider wanting to keep records in the {{% system-name %}} system. If it is a totally separate company, and the provider is completely independent and just using office space, then we would recommend to create a new partition and new set of charts, especially if all his/her billing is done separately.  
-If he/she is contracted to work on behalf of the {{% system-name %}} client, and billing under their TIN, then the {{% system-name %}} client should own the record and they can use the same current partition(s) already set up and same patient chart.  We recommend the provider sign a confidentiality statement, etc.  
-Usually the billing TIN drives how the chart is sectioned off.  Whoever is billing for the service most likely owns the record.  
-In the Control sidemenu tab is a tab called Partition Manager.  
+The Partition Manager is a function of {{% system-name %}} that allows users the ability to create, update, and delete patient partitions used to assign MR numbers to patients. This powerful tool affects several areas of {{% system-name %}} including: Patient Registration, Document Queue, and Interfaces using Data send auto routes.
+
+There may be a need to create a new partition in the {{% system-name %}} system. An example could be a separate company or provider wanting to keep records in the {{% system-name %}} system. If it is a totally separate company, and the provider is completely independent and just using office space, then we would recommend to create a new partition and new set of charts, especially if all his/her billing is done separately.
+
+If he/she is contracted to work on behalf of the {{% system-name %}} client, and billing under their TIN, then the {{% system-name %}} client should own the record and they can use the same current partition(s) already set up and same patient chart.  We recommend the provider sign a confidentiality statement, etc.
+
+Usually the billing TIN drives how the chart is sectioned off.  Whoever is billing for the service most likely owns the record.
+
+In the Control sidemenu tab is a tab called Partition Manager.
+
 You can add a partition by selecting *Add Partition* link from the top right corner.
+
 ![](../partition-manager.assets/bb6b73813f87d3cc1b9dfbfa4780fe3a.png)
+
 It will open to the Partition Add screen:
+
 ![](../partition-manager.assets/221bdd23d0cadd0b6c2a39b3562eb88e.png)
 
 * <strong>Partition:</strong> Enter the abbreviation for the partition. <strong>Must</strong> be in uppercase letters. This is a coded name for the partition. This is what will be stored in the DB. Preferred format is no spaces and in all CAPS. Maximum 15 characters.
@@ -43,24 +51,17 @@ It will open to the Partition Add screen:
 {{% /info %}}
 
 * <strong>Active Types:</strong>
-
-
-   * <strong>Non Active:</strong> The partition is deactivated. It can no longer be assigned new MRNs. It is no longer viewable on charts that had MRNs in this partition. MRNs are no longer searchable. If a chart only has a Non Active partition MRN, the chart will display with a ‘No-part MR' as the MRN.
-   * <strong>Active:</strong> This is an active partition. The partition can be assigned new MRNs. It is viewable and searchable. Active partitions also show up in E-orders to select from.
-   * <strong>Active with Doc Queue</strong>: This allows this partition to show up in the dropdown in the Document Queue for Merging. This is important to select if this partition will be sending in documents into the {{% system-name %}} system via an interface (ex: NoMoreClipboard or lab partitions or hospital document partitions). This partition type doesn't show up in E-Orders to select from. This option is the same as ‘Active', but also includes the ability to place temporary charts into the Document Queue. This is needed for any inbound interface that does not maintain patient demographics inside {{% system-name %}} . Common: Lab results, Encounter orders, Reports. If you select <em>Active with Doc Queue Merging</em>, then another field named <em>Auto Merge Type</em> will open up. This is to set the merge chart options.
-
+    * <strong>Non Active:</strong> The partition is deactivated. It can no longer be assigned new MRNs. It is no longer viewable on charts that had MRNs in this partition. MRNs are no longer searchable. If a chart only has a Non Active partition MRN, the chart will display with a ‘No-part MR' as the MRN.
+    * <strong>Active:</strong> This is an active partition. The partition can be assigned new MRNs. It is viewable and searchable. Active partitions also show up in E-orders to select from.
+    * <strong>Active with Doc Queue</strong>: This allows this partition to show up in the dropdown in the Document Queue for Merging. This is important to select if this partition will be sending in documents into the {{% system-name %}} system via an interface (ex: NoMoreClipboard or lab partitions or hospital document partitions). This partition type doesn't show up in E-Orders to select from. This option is the same as ‘Active', but also includes the ability to place temporary charts into the Document Queue. This is needed for any inbound interface that does not maintain patient demographics inside {{% system-name %}} . Common: Lab results, Encounter orders, Reports. If you select <em>Active with Doc Queue Merging</em>, then another field named <em>Auto Merge Type</em> will open up. This is to set the merge chart options.
 
 ![](../partition-manager.assets/62efabc5606e4d9bfaaf0479079b80c4.png)
 
 * <strong>Auto Merge Type:</strong> This option is only available when the ‘Active Type' is ‘Active with Doc Queue'. It sets what type of merge to perform when ‘Auto Merging' charts in this partition in the Document Queue. Allows selection for what type of "merging" option will be automatically done if you are mass merging documents in the queue from this partition at a 9 rating. When you do a mass merge based on ratings from the document queue tab/module, that mass merge automation will default to the option you choose on the partition here for Auto Merge Type. Merge Type options:
-
-
-   * <strong>Merge Chart only and ignore this partition's demographics</strong>: This option will merge and only keep the MR number of the chart the documents & chart are being merged to (regardless of partitions being merged).
-   * <strong>Merge Chart and Demographics and ignore this partition's duplicate MR Numbers</strong>: This option will merge entire chart and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the same partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used)
-   * <strong>Merge this partition's documents, and keep all MR Numbers</strong>: This option will merge entire chart and keep all MR numbers regardless of partitions.
-   * <strong>Merge documents and MR Numbers Only</strong>: This option ONLY merges the documents in the "from" patient and the MR numbers on that patient to the merged "into" patient. No other data (demographics, meds, conditions, etc) would be merged.
-
-
+    * <strong>Merge Chart only and ignore this partition's demographics</strong>: This option will merge and only keep the MR number of the chart the documents & chart are being merged to (regardless of partitions being merged).
+    * <strong>Merge Chart and Demographics and ignore this partition's duplicate MR Numbers</strong>: This option will merge entire chart and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the same partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used)
+    * <strong>Merge this partition's documents, and keep all MR Numbers</strong>: This option will merge entire chart and keep all MR numbers regardless of partitions.
+    * <strong>Merge documents and MR Numbers Only</strong>: This option ONLY merges the documents in the "from" patient and the MR numbers on that patient to the merged "into" patient. No other data (demographics, meds, conditions, etc) would be merged.
 * <strong>Part Order:</strong> This is the display order of the partition. Lower numbers mean the partition is first, higher numbers put the partition at the end. This is used when determining the order in which the partitions are displayed on the chart, such as in patient registration or edit demographics. Also seen in E-Chart when charts have multiple, viewable MRNs in different partitions. The display order of how you want the partitions to be displayed/show for a patient. Order = 1, 2 rank them. Zero's go first though.  Make sure everything is ordered (set to a #) (affects e-chart & scheduler views etc on how the MR#'s list in order).
 * <strong>Allow Access to Restricted Users:</strong> This will provide security around charts with a MRN in this partition. When checked, only users in the ‘Allowed Departments' or ‘Allowed Users' list will be able to view these charts in this partition. This only affects users that have the preference ‘Restrict Access By Partition' set to ‘Yes'. Users where this is set to ‘No' are not affected by these Partition restrictions. Select Yes or No to restrict access to this partition. If you checkmark this, you have to set the "allowed" users or departments to be allowed into this partition of patients. Any user that has security <em>Restrict Access by Partition</em> set to Yes cannot get into partitions of patients unless they (or their department) then is set to be "allowed" to a specific partition(s). Also check security <em>Limited Access</em>. If <em>Limited Access</em> security for a user is set to "yes" then you'll need to make sure those users have "allowed" access to the partitions they need here in this screen and they can only see the patients they have user relationships to. If <em>Limited Access</em> is set to no, then those users are not limited to specific user relationship patients and then the system will check what their security is for <em>Restrict Access by Partition</em> is set to then regarding partitions.
 
@@ -71,4 +72,5 @@ If a chart has a MRN in a restricted partition and a MRN in a non-restricted par
 * <strong>Identifier:</strong> Select Medical Record Number. This identifies what type of patient identifier this partition represents. Most common is ‘Medical Record Number'. Other options include: Account Number, Driver's License Number, NPI, SSN
 
 Click SAVE when done.
+
 Partitions can also be related to "Chart Types". Please see other help documentation titled Chart Types Editor.pdf for information

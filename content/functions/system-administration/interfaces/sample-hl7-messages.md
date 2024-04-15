@@ -9,15 +9,13 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 # SIU, Scheduling
 
 {{% anchor sys="siu-s12" %}}
 
-
 ## SIU^S12
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613061611||SIU^S12|24916560|P|2.3||||||
@@ -29,11 +27,10 @@ AIG|1|A|1^Adams, Douglas|D^^
 AIL|1|A|OFFICE^^^OFFICE|^Main Office||20110614084500|||45|m^Minutes||Scheduled
 AIP|1|A|1^Adams^Douglas^A^MD^^^^|D^Adams, Douglas||20110614084500|||45|m^Minutes||Scheduled
 ```
+
 {{% anchor sys="siu-s14" %}}
 
-
 ## SIU^S14
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613072836||SIU^S14|24916579|P|2.3||||||
@@ -45,11 +42,10 @@ AIG|1|U|1^Adams, Douglas|D^^
 AIL|1|U|OFFICE^^^OFFICE|^Main Office||20110614084500|||60|m^Minutes||Scheduled
 AIP|1|U|1^Adams^Douglas^A^MD^^^^|D^Adams, Douglas||20110614084500|||60|m^Minutes||Scheduled
 ```
+
 {{% anchor sys="siu-s15" %}}
 
-
 ## SIU^S15
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613072836||SIU^S15|24916597|P|2.3||||||
@@ -61,44 +57,40 @@ AIG|1|C|1^Adams, Douglas|D^^
 AIL|1|C|OFFICE^^^OFFICE|^Main Office||20110614084500|||60|m^Minutes||Cancelled
 AIP|1|C|1^Adams^Douglas^A^MD^^^^|D^Adams, Douglas||20110614084500|||60|m^Minutes||Cancelled
 ```
-{{% anchor sys="adt" %}}
 
+{{% anchor sys="adt" %}}
 
 # ADT, Patient Registration
 
 {{% anchor sys="adt-a01" %}}
 
-
 ## ADT^A01
 
 Admit a patient.
-
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613083617||ADT^A01|934576120110613083617|P|2.3||||
 EVN|A01|20110613083617|||
 PID|1||135769||MOUSE^MICKEY^||19281118|M|||123 Main St.^^Lake Buena Vista^FL^32830||(407)939-1289^^^theMainMouse@disney.com|||||1719|99999999||||||||||||||||||||
 PV1|1|O|||||^^^^^^^^|^^^^^^^^
 ```
-{{% anchor sys="adt-a04" %}}
 
+{{% anchor sys="adt-a04" %}}
 
 ## ADT^A04
 
 Register a patient.
-
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613083617||ADT^A04|934576120110613083617|P|2.3||||
 EVN|A04|20110613083617|||
 PID|1||135769||MOUSE^MICKEY^||19281118|M|||123 Main St.^^Lake Buena Vista^FL^32830||(407)939-1289^^^theMainMouse@disney.com|||||1719|99999999||||||||||||||||||||
 PV1|1|O|||||7^Disney^Walt^^MD^^^^|||||||||||||||||||||||||||||||||||||||||||||
 ```
-{{% anchor sys="adt-a08" %}}
 
+{{% anchor sys="adt-a08" %}}
 
 ## ADT^A08
 
 Update patient information.
-
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613072049||ADT^A08|934579920110613072049|P|2.3||||
 EVN|A08|20110613072049|||
@@ -108,35 +100,30 @@ GT1|1|78|MOUSE^MARSHALL^||123 Main St.^^Lake Buena Vista^FL^32830|(407)939-1289^
 IN1|1||1|ABC Insurance Medicaid|P O Box 12345^^Atlanta^GA^30348|Claims^Florida |(555)555-1234^^^^^^|G1234|||||||G|Mouse^Mickey|SELF|19281118|123 Main St.^^Lake Buena Vista^FL^32830|Y||||||||||||P||||ZYX1234589-1|||||||M||||M||
 IN2||||||ZYX1234589-1||||ZYX1234589-1|||||||||||||||000079||||||||||||||||||||||||||||||||||||||(206)446-5080^^^^^260^4465080|||||||||SELF
 ```
-{{% anchor sys="adt-a40" %}}
 
+{{% anchor sys="adt-a40" %}}
 
 ## ADT^A40
 
 Merge patient.
-
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613122406637||ADT^A40|1965403220110613122406637|P|2.3||||
 EVN|A40|20110613122406637||01
 PID|1||1765431||McTavish^Henry^J||19700101|M|||117 W Main St^Fort Wayne^IN^46808||(260)555-1234^^^^^|||M||1117112|999999999||||||||||||||||||||
 MRG|1765475||||||
 ```
-{{% anchor sys="oru" %}}
 
+{{% anchor sys="oru" %}}
 
 # ORU, Lab Results
 
 {{% anchor sys="oru-r01" %}}
 
-
 ## ORU^R01
-
 
 ### Discrete
 
-
 #### Numeric
-
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120411070545||ORU^R01|59689|P|2.3
@@ -163,7 +150,6 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|
 
 #### Numeric with Notes
 
-
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120226102502||ORU^R01|Q161522306T164850327|P|2.3
 PID|1||000168674|000168674|GUNN^BEBE||19821201|F||||||||M|||890-12-3456|||N||||||||N
@@ -182,9 +168,7 @@ NTE|6||6 months of full dose anti-coagulation.
 
 ### Report
 
-
 #### Single OBX -- Can also be sent as ORU^R03
-
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120920230252907||ORU^R01|2012092017490562|T|2.3
@@ -197,7 +181,6 @@ OBX|1|TX|||CHEST 2 VIEWS~~ANKLE 9/20/2012.~~INDICATION: Fever.~TECHNIQUE: 2 view
 ```
 
 #### Multiple OBXs -- Can also be sent as ORU^R03
-
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120309132638||ORU^R01|Q162690178T166106789|P|2.3
@@ -259,7 +242,6 @@ OBX|50|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||     T
 ```
 
 #### Multiple NTEs
-
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20150323144246||ORU^R01|91734|P|2.3
@@ -328,14 +310,12 @@ NTE|57|| final report, have been reviewed
 NTE|58||by a staff cytogeneticist.
 NTE|59||
 ```
-{{% anchor sys="oru-r03" %}}
 
+{{% anchor sys="oru-r03" %}}
 
 ## ORU^R03
 
-
 ### PDF Report
-
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|201607060811||ORU^R03|5209141|D|2.3
@@ -353,9 +333,7 @@ NTE|3|L|CARLSBAD, CA  92008|L
 
 {{% anchor sys="orm-o01" %}}
 
-
 ## ORM^O01
-
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120411070545||ORM^O01|59689|P|2.3
@@ -373,12 +351,9 @@ DG1|1|ICD|B60.0^BABESIOSIS^I10|BABESIOSIS||||||||||||
 
 {{% anchor sys="mdm-t02" %}}
 
-
 ## MDM^T02
 
-
 ### Plain text
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20141003102429||MDM^T02^MDM_T02|89739|P|2.3|||||||||
@@ -389,7 +364,6 @@ OBX|1|TX|4|1|I am an example free text Document||||||||||||||||||||
 ```
 
 ### PDF Report
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20120321145031||MDM^T02|000000315|P|2.3
@@ -404,9 +378,7 @@ OBX|1|ED|100015^Nsg Progress Note||^PDF^^base64^JVBERi0xLjQNCiXi48/TDQoxIDAgb2Jq
 
 {{% anchor sys="dft-p03" %}}
 
-
 ## DFT^P03
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|201504201347|12|DFT^P03|24885|P|2.5
@@ -429,13 +401,12 @@ PR1|2|CPT|71020|Chest Xray, PA and Lateral|20150325000000|||||||123^Physician^Dr
 DG1|1|ICD9|123.1^Cysticercosis^I9|Cysticercosis|20150325000000|F|||||||||0|123^Physician^Dr
 DG1|2|ICD9|088.82^Babesiosis^I9|Babesiosis|20150325000000|F|||||||||0|123^Physician^Dr
 ```
-{{% anchor sys="ack" %}}
 
+{{% anchor sys="ack" %}}
 
 # VXU, Immunizations
 
 VXU^V04
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|201305171259|12|VXU^V04|2244455|P|2.3||||||
@@ -445,13 +416,11 @@ RXA|0|999|20220301|20220301|217^PFIZER 12 YEARS \T\ UP SARS-COV-2 VACCINE^LIM_CV
 RXR|IM^Intramuscular^HL70162|LD^Left Deltoid^HL70163|||
 ```
 
-
 # ACK, Acknowledgement
 
 A response ACK message is sent after a message is processed.
 
 ## Success
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110614075841||ACK|1407511|P|2.3||||||
@@ -459,7 +428,6 @@ MSA|AA|1407511|Success||
 ```
 
 ## Error
-
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110614075841||ACK|1407511|P|2.3||||||
@@ -469,4 +437,5 @@ MSA|AE|1407511|Error processing record!||
 # Related Pages
 
 [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
+
 [HL7 Segment Definitions](hl7-segment-definitions.md)

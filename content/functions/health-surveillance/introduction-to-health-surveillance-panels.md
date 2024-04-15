@@ -7,14 +7,16 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
+
 ![](../introduction-to-health-surveillance-panels.assets/8559017c3985006ba5394aa58ece891b.png)
 
 ## Security & Settings
 
 Review Security Settings for users who need access to Health Surveillance (and Case Management). Review Settings and give rights as needed by client.  This information is also available within the online help.
+
 ![](../introduction-to-health-surveillance-panels.assets/2522bf10e1e37270f5c52a6343c771ec.png)
 
 ## Health Surveillance Panels
@@ -50,24 +52,14 @@ Review Security Settings for users who need access to Health Surveillance (and C
 **Step 7 - Panel Memberships**
 
 * Determine how employees will become "members" of a panel(s). Control tab→Health Surveillance tab. Find the specific panel and click Membership hyperlink from the main panel listing.  Out of the box the panel memberships will be manually maintained by staff unless there are panel membership rules programmed via the 4 fields based on: location, building, cost center, or job class.
-
-   * <strong>Automated Implicit Memberships</strong>
-
-{{% system-name %}}      *  can automatically put charts into and out of panel memberships (as implicit members) depending on fields such as Location, Building, Cost Center or Job Class. Additional automated membership programming clauses can be programmed by MIE and customized. A couple system settings are important to have set up for automated panel memberships.
-
-   * <strong>Panel Membership Import Tool</strong>
-
-      * If you utilize the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as "explicit" using this tool. It's essentially the same as manual membership add, just doing it in mass via the import tool template. Use this import tool cautiously.
-
-   * <strong>Add Memberships Individually and Manually</strong>
-
-      * You can add individual employee's to specific memberships if needed.  Again, this puts them in as "explicit" memberships into the panel(s).
-
-   * <strong>Viewing Current Members of Panels</strong>
-
-      * You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel.
-
-
+    * <strong>Automated Implicit Memberships</strong>
+        * {{% system-name %}} can automatically put charts into and out of panel memberships (as implicit members) depending on fields such as Location, Building, Cost Center or Job Class. Additional automated membership programming clauses can be programmed by MIE and customized. A couple system settings are important to have set up for automated panel memberships.
+    * <strong>Panel Membership Import Tool</strong>
+        * If you utilize the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as "explicit" using this tool. It's essentially the same as manual membership add, just doing it in mass via the import tool template. Use this import tool cautiously.
+    * <strong>Add Memberships Individually and Manually</strong>
+        * You can add individual employee's to specific memberships if needed.  Again, this puts them in as "explicit" memberships into the panel(s).
+    * <strong>Viewing Current Members of Panels</strong>
+        * You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel.
 
 **Step 8 - Scheduled Jobs: Panel Evaluator and Membership**
 

@@ -8,12 +8,11 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1tOwhUxErru3-fsHKGUES0lVE8tr_p_RaWX8bEruCghQ/edit#gid=516694809'
 source: 'https://drive.google.com/open?id=1uE3JqvyP8KAbK2mO0sIrGUZa32BhgHULC3NdSyakf4M'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Please review and download the [Health Surveillance Matrix](https://docs.google.com/spreadsheets/d/1tOwhUxErru3-fsHKGUES0lVE8tr_p_RaWX8bEruCghQ/edit#gid=516694809). Utilize the descriptions below to address any questions that may arise while assessing the organization's needs and requirements of health surveillance panels.
 
 ## Panels
-
 
 <table>
 <tr>
@@ -68,11 +67,9 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 <td>Exit Alert</td>
 <td>This provides an alert to notify panel members that there is an exit requirement when exiting the panel (e.g., OSHA Noise, the individual should be offered an exit exam when they no longer fit the criteria for inclusion).</td>
 </tr>
-
 </table>
 
 ## Actions
-
 
 <table>
 <tr>
@@ -125,8 +122,8 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 </tr>
 <tr>
 <td>Trigger Date</td>
-<td>Define a specific event/date that triggers the completion of the action.
-<ul><li><p><strong>Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the starting age and frequency.</p></li><li><p><strong>Last Event</strong>: Completion of the action triggers on a specified time after the last time the action was performed</p></li><li><p><strong>Last Event - On Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the last time the action was performed and the frequency.</p></li><li><p><strong>Last Event - On Date of Hire</strong>: Triggers on the date of hire, on a schedule determined by the member's start date.</p></li><li><p><strong>Last Event - On Medical Anniversary</strong>: Due on the member's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.</p></li><li><p><strong>Other Action (Triggered)</strong>: Triggers at the same time as the specified action/event of the panel.</p></li><li><p><strong>Point in Time</strong>: Triggers on the same day and month, each year.</p></li><li><p><strong>Prior Action (Completed)</strong>: Triggers on the given amount of time specified in the Frequency field, once the specified action/procedure has been completed.</p></li><li><p><strong>Panel Expiration</strong>: Triggers on the expiration of the respective panel.</p></li></ul></td>
+<td>Define a specific event/date that triggers the completion of the action.<br />
+<ul><li><strong>Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the starting age and frequency.</li><li><strong>Last Event</strong>: Completion of the action triggers on a specified time after the last time the action was performed</li><li><strong>Last Event - On Date of Birth</strong>: Completion of the action triggers on the date of birth, on a schedule determined by the last time the action was performed and the frequency.</li><li><strong>Last Event - On Date of Hire</strong>: Triggers on the date of hire, on a schedule determined by the member's start date.</li><li><strong>Last Event - On Medical Anniversary</strong>: Due on the member's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.</li><li><strong>Other Action (Triggered)</strong>: Triggers at the same time as the specified action/event of the panel.</li><li><strong>Point in Time</strong>: Triggers on the same day and month, each year.</li><li><strong>Prior Action (Completed)</strong>: Triggers on the given amount of time specified in the Frequency field, once the specified action/procedure has been completed.</li><li><strong>Panel Expiration</strong>: Triggers on the expiration of the respective panel.</li></ul></td>
 </tr>
 <tr>
 <td>Trigger Others</td>
@@ -156,11 +153,9 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 <td>Instructions</td>
 <td>Instructions shown to a provider for orders triggered by this action.</td>
 </tr>
-
 </table>
 
 ## Membership
-
 
 <table>
 <tr>
@@ -191,6 +186,4 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 <td>End Date</td>
 <td>Can leave blank. Only specify an End Date if the panel is not going to be offered anymore, as of the specified date. The system will auto-remove all members on the date specified and no longer automate rules, Due List items, etc.</td>
 </tr>
-
 </table>
-

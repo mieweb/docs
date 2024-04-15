@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv'
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 This wiki page is to document how observation data needs to be constructed in order to import using WebChart's Observation data Import Tool.
 
@@ -17,15 +17,12 @@ This wiki page is to document how observation data needs to be constructed in or
 * The first row of the file shall contain column header information.
 * Each subsequent row shall represent an observation.
 
-
 ## Column Definition
 
 The lab result column definition shall contain all columns listed below regardless if there is a value or not.
 
 * R = Required
 * O = Optional
-
-
 <table>
 <tr>
 <td>Name</td>
@@ -141,7 +138,6 @@ The lab result column definition shall contain all columns listed below regardle
 <td>O</td>
 <td>Interface value used when that encounter was imported</td>
 </tr>
-
 </table>
 
 ## Name Validation
@@ -159,27 +155,29 @@ This example shows how to import 1 observation for 1 patient.
 {{% pre %}}
 ```
 
-
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
 U111111,Doe,John,I,20110705,25,Systolic BP,
+
 {{% /pre %}}
 
 
 
 {{% pre %}}
+
 Observation Order,Observation Result,Observation Range,Observation Units,
 1,100,,mmhg,
+
 {{% /pre %}}
 
 
 
 {{% pre %}}
+
 Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Result looks good,Quest
-{{% /pre %}}
-
 
 ```
+{{% /pre %}}
 
 ### 2 Observations, same patient
 
@@ -188,30 +186,32 @@ This example shows how to import 2 observations for the same patient.
 {{% pre %}}
 ```
 
-
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
 U111111,Doe,John,I,20110705,25,Systolic BP,
 U111111,Doe,John,I,20110705,26,Diastolic BP,
+
 {{% /pre %}}
 
 
 
 {{% pre %}}
+
 Observation Order,Observation Result,Observation Range,Observation Units,
 1,100,,mmhg,
 2,70,,mmhg,
+
 {{% /pre %}}
 
 
 
 {{% pre %}}
+
 Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Results look good,Quest
 ,F,,Results look good,Quest
-{{% /pre %}}
-
 
 ```
+{{% /pre %}}
 
 ### 2 Observations for 2 different patients
 
@@ -220,40 +220,45 @@ This example shows how to import 2 lab orders with 2 observation results each.
 {{% pre %}}
 ```
 
-
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
 U111111,Doe,John,I,20110705,25,Systolic BP,
 U111111,Doe,John,I,20110705,26,Diastolic BP,
 U222222,Doe,Jane,I,20110705,30,URO,
 U222222,Doe,Jane,I,20110705,31,BLD,
+
 {{% /pre %}}
 
 
 
 {{% pre %}}
+
 Observation Order,Observation Result,Observation Range,Observation Units,
 1,100,,mmhg,
 2,70,,mmhg,
 1,Normal,,mg/dl,
 2,neg,,,
+
 {{% /pre %}}
 
 
 
 {{% pre %}}
+
 Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Test results are good,Labcorp
 ,F,,Test results are good,Labcorp
 ,F,,Test results are good,Labcorp
 ,F,,Test results are good,Labcorp
-{{% /pre %}}
-
 
 ```
+{{% /pre %}}
 
 ## Sample CSV files
 
 Here are sample CSV files to download and view in a text editor or a spreadsheet program.
+
 1 Observation - [File:Obsimportsample1.csv](https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample1.csv)
+
 2 Observations, same patient - [File:Obsimportsample2.csv](https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv)
+
 2 Observations for 2 different patients - [File:Obsimportsample3.csv](https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv)

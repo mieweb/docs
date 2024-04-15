@@ -9,13 +9,11 @@ links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
 source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The {{% system-name %}} system is designed to allow photos/pictures to be uploaded as documents into charts, as needed. Currently, only JPG, TIFF, and PNG file types are supported for uploading to charts, so it is important to ensure the photos being uploaded are one of these acceptable file formats prior to adding any photo documents to a chart.
 
-
 ## Upload Photo/Picture from Source
-
 
 To begin adding a photo as a document to a chart, navigate to the Document Library by clicking any **Add Document** link, found throughout the chart. Once clicked, the library will load, and the **Picture** filter link can be selected to reduce the available document types. Selecting the Picture filter link will show only document types that are available to upload as a picture.
 
@@ -49,11 +47,9 @@ In order to author documents for others, the user must have the Access Control *
 
 **Encounter:** {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded document to the specified encounter. If the document does not need to be linked to an encounter, simply leave the field blank.
 
-
 * A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. When the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
-
 
 ![](../picture-photo-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
@@ -77,6 +73,7 @@ If this is the first time uploading a picture, the MIE VidCap Control plugin wil
 
 {{% tip %}}
 The media source can be changed, as needed. To change either the media source or the SmartCard folder, simply right-click anywhere in the box of photos/images. If the preferred media source is SmartCard, but the Picture folder is not the correct directory, select **Set SmartCard Folder**. Make sure to select the correct folder needing associated, and then click **OK**. Otherwise, to change the media source from SmartCard to any of the available alternatives (e.g., Camera), place a checkmark next to the appropriate option by simply clicking on that choice. The Document Capture Control screen will display the picture files from the newly selected folder or source.
+
 ![](../picture-photo-documents.assets/e80ea208b605333495dd9b95347243d3.png)
 {{% /tip %}}
 
@@ -84,6 +81,7 @@ Once ready, use the mouse to select a picture for upload. When the photo is sele
 
 {{% tip %}}
 If the work station is set up with a **WebCam** for taking photos for chart demographics, simply click the webcam icon on the scan control toolbar to open the viewer.
+
 ![](../picture-photo-documents.assets/4e5b5a5c9c4948f2f559b022b989f7e7.png)
 {{% /tip %}}
 

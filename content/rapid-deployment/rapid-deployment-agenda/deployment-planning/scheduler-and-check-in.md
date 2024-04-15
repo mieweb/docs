@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-scheduler.md'
   - '../../review-sessions/review-session-checkin.md'
 source: 'https://drive.google.com/open?id=1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Purpose
 
@@ -21,81 +21,27 @@ Review standard  {{% system-name %}}  workflows and gather information needed 
 
 ### Agenda - 2 Hours
 
-
 * Demonstrate the out-of-the-box check-in functionality
-
-
-   * System Configuration
-
-
-
-
-      * Check-in Stations
-      * Check-in Portal (if purchased)
-
-
-
+    * System Configuration
+        * Check-in Stations
+        * Check-in Portal (if purchased)
 * Demonstrate the Scheduler
-
-
-   * Overview
-
-
-
-
-      * Scheduler Tabs
-
-
-
-
-
-
-         * Views
-         * Wizards
-         * Schedules
-         * Waiting List
-
-
-
-
-
-
-      * System Configuration
-
-
-
-
-
-
-         * Schedule Resources
-         * Schedules
-         * Appointment Types
-
-
-
-
-
-
-
-
-            * Durations
-            * Colors
-            * Default Encounter Type
-            * Print Definitions
-
-
-
-
-
-
-
-
-         * Cancellation Codes
-         * Waiting List
-
-
-
-
+    * Overview
+        * Scheduler Tabs
+            * Views
+            * Wizards
+            * Schedules
+            * Waiting List
+        * System Configuration
+            * Schedule Resources
+            * Schedules
+            * Appointment Types
+                * Durations
+                * Colors
+                * Default Encounter Type
+                * Print Definitions
+            * Cancellation Codes
+            * Waiting List
 
 ## Afterward
 

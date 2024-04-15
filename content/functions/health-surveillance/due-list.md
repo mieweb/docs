@@ -9,7 +9,7 @@ links:
   - '../e-chart/patient-summary-interactive-chart-tab.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Tests or Procedures items that are "due" (pending) are displayed in encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
 
@@ -27,7 +27,7 @@ If a Health Surveillance Panel, the chart is a member of, has any comments (on t
 
 ![](../due-list.assets/39bb4d2750a2633317c5ee7e65db538e.png)
 
-A Due List is a list of pending orders with due dates for a chart.  These can be managed in encounters, but also from the Due List chart tab. The list serves as a reminder for what is due or what is coming due or what is past due when working in the chart.  The Due List is separated into 3 different sections that are sortable, filterable lists in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to the [DataVis Grids-Data Tool](../reports/using-datavis-grids-data-tools.md) documentation.  
+A Due List is a list of pending orders with due dates for a chart.  These can be managed in encounters, but also from the Due List chart tab. The list serves as a reminder for what is due or what is coming due or what is past due when working in the chart.  The Due List is separated into 3 different sections that are sortable, filterable lists in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to the [DataVis Grids-Data Tool](../reports/using-datavis-grids-data-tools.md) documentation.
 
 ![](../due-list.assets/8e99b87a4b386a6206418b5ebaad6ced.png)
 
@@ -53,7 +53,6 @@ The datavis listing of Pending Due List items show columns of information.
 * Scheduled: is the scheduled date of the associated waitlist Appt Type when/if scheduled (if triggered from Health Surveillance Panel needs)
 * Required: This will display <em>Yes, No, or Yes(</em><em>✹</em><em>)</em>.  Yes if all of the order items/action items of the panel are configured as required for certification, No when none of the action items/Order items for the panel are required for certification, and Yes(<em>✹</em>) when at least one order item/action item of the panel is configured as required for certification, but not all.
 * Passed: will display Pass, Fail, Permanent Fail, or Review for any due list item that is configured as Required for Certification, and where the due list item's pass/fail criteria has been indicated
-
 
 Select the specific pending tests/procedures to work using the checkbox on the far left. Due Lists items can be managed individually or in mass utilizing the checkbox option.
 
@@ -81,7 +80,6 @@ There may be a pending item on the chart's Due List that was completed elsewhere
 When the screen refreshes, the completed item is moved from the Pending Items section to now be in the Past Items section but with the status of completed.
 {{% /info %}}
 
-
 #### Declined
 
 Any non-mandatory tests can be marked as declined.  If the employee/patient declines having a specific test/procedure item performed, check-mark the specific pending due list item and click the Edit Item button.  Once in the Edit Encounter Orders pop-up window, select status of Declined. No date needs entered before saving because the declined date will assume today's date.
@@ -102,7 +100,6 @@ Pending due list items should only be deleted if an item on the due list was an 
 When the screen refreshes, the deleted item is moved from the Pending Items section to now be in the Past Items section but with the status as deleted.
 {{% /info %}}
 
-
 #### In Progress
 
 Pending due list items can be changed to be an in-progress status if a known pending item is known to be in-progress.  When working and performing pending due list items in an encounter, the status gets changed to in progress automatically.  However, if needed, one can manually update the status for a pending due list item to be in progress. Check-mark the specific pending due list item and click the Edit Item button.  Once in the Edit Encounter Orders pop-up window, select status of In Progress.  No date needs entered before saving because the in progress date will assume today's date.
@@ -111,7 +108,6 @@ Pending due list items can be changed to be an in-progress status if a known pen
 When the screen refreshes, the deleted item is moved from the Pending Items section to now be in the In Progress section.
 {{% /info %}}
 
-
 #### Ordered
 
 Pending due list items can be changed to be an ordered status.  When working and performing pending due list items in an encounter, or from this grid, typically the item that needs referred out as an order will be done using the Create Order button which then creates an order request document.  Using that correct workflow will automatically set the status to Ordered. However, if needed, one can manually update the status for a pending due list item to be ordered, but it will not create an order request document. Check-mark the specific pending due list item and click the Edit Item button.  Once in the Edit Encounter Orders pop-up window, select status of Ordered.  No date needs entered before saving because the ordered date will assume today's date.
@@ -119,7 +115,6 @@ Pending due list items can be changed to be an ordered status.  When working an
 {{% info %}}
 When the screen refreshes, the deleted item is moved from the Pending Items section to now be in the Past Items section but with the status of ordered.
 {{% /info %}}
-
 
 #### Pending
 
@@ -133,7 +128,6 @@ The Repeat status would not be utilized when working items in the Pending Items 
 Any due list items with a status of Repeat will display in the Past Items section to indicate it was performed but is marked as a repeat status instead of completed, but the due list item also displays in the Pending Items section because the item needs repeated (performed again) before it's considered completed.
 {{% /info %}}
 
-
 #### Waived
 
 Pending due list items should only be waived if an item on the due list is optional (not a required/mandatory item that needs performed) and determined not needed for some the person's job role or provider determines the item is not needed or warranted.  Otherwise declined should be utilized if patient declines having an item done, or deleted should be used if the item is on the due list in error. If need to waive a specific test/procedure item, check-mark the specific pending due list item and click the Edit Item button.  Once in the Edit Encounter Orders pop-up window, select status of Waived.  No date needs entered before saving because the waived date will assume today's date.
@@ -141,7 +135,6 @@ Pending due list items should only be waived if an item on the due list is optio
 {{% info %}}
 When the screen refreshes, the waived item is moved from the Pending Items section to now be in the Past Items section but with the status of waived.
 {{% /info %}}
-
 
 #### Add to Waitlist
 
@@ -176,7 +169,11 @@ Some order items on a due list are Health Surveillance Panels that have many ord
 {{% tip %}}
 Automatic nightly scheduled jobs can also be configured to always ‘evaluate' any pending health surveillance panel due list items on charts nightly instead of manually.
 
+
+
 ![](../due-list.assets/9b5afaf3c50629abe062ac3b58199e03.png)
+
+
 {{% /tip %}}
 
 The system will evaluate the health surveillance panel that was checkmarked.  After the system evaluates the panel, you will see a confirmation message that it was successfully evaluated.  Click the X to close that pop-up.
@@ -198,7 +195,6 @@ In the Order Request screen, key in required information for the order requisiti
 {{% info %}}
 When the Due List refreshes, the ordered item is moved from the Pending Items section to the Past Items section, but with the status of *Ordered*. The order request document is housed in the Order Requests chart tab.
 {{% /info %}}
-
 
 ### Perform
 
@@ -224,7 +220,7 @@ A test or procedure item, or a main Health Surveillance Panel can be added to th
 
 ![](../due-list.assets/9dcebd5e729a0fa21642b4efc7a95e48.png)
 
-To add a test or procedure to the due list, click the Add New Orders button.  When Add New Orders is clicked, several fields will branch open above it where you can simply key in the order item via auto-complete, and/or panel, key in any comments, set a due date (or set a completed date if it's a test/procedure that was already done but you need to capture it and track it as completed), and select the status it should be inserted as.  
+To add a test or procedure to the due list, click the Add New Orders button.  When Add New Orders is clicked, several fields will branch open above it where you can simply key in the order item via auto-complete, and/or panel, key in any comments, set a due date (or set a completed date if it's a test/procedure that was already done but you need to capture it and track it as completed), and select the status it should be inserted as.
 
 ![](../due-list.assets/78d2ea84f9419b9f188156a16d89c7b8.png)
 
@@ -232,7 +228,7 @@ Click the Add button next to the entry to add another individual test/procedure 
 
 ### Details
 
-From any due list item regardless of which section the item is listed in, there is a View Details hyperlink column.  
+From any due list item regardless of which section the item is listed in, there is a View Details hyperlink column.
 
 ![](../due-list.assets/0271872fa69134b79d5502be43bc0665.png)
 
@@ -259,4 +255,3 @@ There is a left to right scrollable bar to see additional columns of information
 Edit Items is a function button found in both the In Progress and Past Items sections.  This is also found in the Pending Items section and each selection available in the Edit Items button.  Items in the In Progress and Past Items sections can be edited to update their status, change their due dates, add comments, or update as completed with a completion date.  The Edit Items screen and fields are described in above documentation.
 
 ![](../due-list.assets/b02259fb80cf7ec8ebcd6810e572be09.png)
-

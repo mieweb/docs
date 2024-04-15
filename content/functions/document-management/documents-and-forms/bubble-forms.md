@@ -28,7 +28,7 @@ links:
   - '../../encounters/working-in-a-legacy-encounter.md'
   - '../../encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Bubble forms are document type templates with special formatting (i.e., optical marks) allowing for documented data to be collected and stored discretely, as observations, within {{% system-name %}} . This is achieved through standard optical mark recognition (OMR), which is most well known through scantron use and standardized testing. When a bubble form is filled out, scanned, and indexed into the {{% system-name %}} system, the optical marks are detected and coded as observations.
 
@@ -59,7 +59,6 @@ Currently, there are several bubble forms to choose from within the {{% system-n
 * [PFT](pft-data-entry.md)
 * [X-ray Results](x-ray-results-data-entry.md)
 
-
 ## Manual Entry
 
 There are alternative, manual processes outside of using and scanning in bubble forms. These options include using an interfaced device and importing data into the system, which can be edited and/or updated, manually; or by using the appropriate encounter or adding and imputing the results as test/procedure results within an encounter. Both of these methods are also highly effective.
@@ -82,7 +81,8 @@ If a device or interface type is not represented, above, please reach out to our
 
 ### Add to Encounter
 
-If preferred, adding result data into the system can be performed manually by entering the information directly into an encounter. This option can be performed in various ways, particularly from the Tests & Procedures section of the encounter.  
+If preferred, adding result data into the system can be performed manually by entering the information directly into an encounter. This option can be performed in various ways, particularly from the Tests & Procedures section of the encounter.
+
 Once in the **Tests & Procedures** section of the encounter, a search can be performed using the autocomplete field and adding the necessary test/procedure to the exam visit. Otherwise, the test/procedure can be selected from the **Due List** and added to the exam visit; or what is more, the test/procedure can be added by using the **Picklist** option, where it can be selected from a predefined list of choices. For more information, see the [General Encounter](../../encounters/working-in-a-legacy-encounter.md) and [Dynamic Encounter](../../encounters/working-in-a-visit-encounter.md) documentation.
 
 ## Reporting

@@ -10,7 +10,7 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
@@ -34,6 +34,8 @@ To access and utilize a bubble form for recording information, simply navigate t
 
 {{% info %}}
 Bubble forms can also be generated as generic, unassociated with a specific chart, to allow for mass use. Print a stack of generic forms to take onsite, and afterward, scan and index them into the appropriate charts.
+
+
 {{% /info %}}
 
 ## Manual Entry
@@ -43,17 +45,20 @@ There are alternative, manual processes outside of using and scanning in bubble 
 ### Add from Chart Tab
 
 Navigating to the **Medical Record** **Vital Signs** chart tab allows users to select what type of results need to be entered or reviewed. In the Vital Signs chart tab, the screen will display a *List View* of all of the existing biometric data.
+
 ![](../biometric-data-entry.assets/25c68dbb24f36b7a62e522b7c09187e1.png)
 
 1. Key in the biometric/vitals data in the fields provided. Set the observed date/time field.
 2. When finished, click the <strong>Submit</strong> button
 
 ![](../biometric-data-entry.assets/6d7b39af8bd3de3d5225b5dae19f56dd.png)
+
 The data will be stored in the system, under the **Vital Signs** chart tab, as well as anywhere vitals are displayed. If the recorded data is preferred elsewhere in the system, do not hesitate to reach out to Helpdesk. We are happy to work with clients to develop ways to address any specific business needs.
 
 ### Add from Vitals Encounter Section
 
 Another alternative to the bubble form is entering results manually, through the Vitals section of a visit encounter. When in a visit encounter, click the Vitals banner (or pencil icon) to expand the section for editing. The biometric data fields will display for data entry.
+
 ![](../biometric-data-entry.assets/497515d89ba305aae32fb9975fd659d4.png)
 
 ### Biometric Encounter
@@ -63,17 +68,31 @@ There is a Biometric encounter available, but the bubble form isn't meant to coi
 KYN (Know Your Numbers) Biometric Exam.
 
 Male Data Entry Screen:
-![](../biometric-data-entry.assets/0df8b5c1866a3fb6871129306746c12c.png)![](../biometric-data-entry.assets/0dad7b2afa124fce940a7b96d2ab8c22.png)![](../biometric-data-entry.assets/2db7fbe59d9ce2a248bcf8391a7bd487.png)
+
+![](../biometric-data-entry.assets/0df8b5c1866a3fb6871129306746c12c.png)
+
+![](../biometric-data-entry.assets/0dad7b2afa124fce940a7b96d2ab8c22.png)
+
+![](../biometric-data-entry.assets/2db7fbe59d9ce2a248bcf8391a7bd487.png)
+
 Female Data Entry Screen:
-![](../biometric-data-entry.assets/82c7ad689f571e901573b1ead8a1bd82.png)![](../biometric-data-entry.assets/843aee40ab574afa8c73f98f00d3aef1.png)![](../biometric-data-entry.assets/e45c8f03caff377d06e8021c77eaa94e.png)
+
+![](../biometric-data-entry.assets/82c7ad689f571e901573b1ead8a1bd82.png)
+
+![](../biometric-data-entry.assets/843aee40ab574afa8c73f98f00d3aef1.png)
+
+![](../biometric-data-entry.assets/e45c8f03caff377d06e8021c77eaa94e.png)
 
 VIEW:
-![](../biometric-data-entry.assets/830b4c183a8f08258e0e32149791c363.png)![](../biometric-data-entry.assets/029b84d2290ec01bfbe07681253012ae.png)![](../biometric-data-entry.assets/c33897b217960e9c58e25d9c08271748.png)
 
+![](../biometric-data-entry.assets/830b4c183a8f08258e0e32149791c363.png)
+
+![](../biometric-data-entry.assets/029b84d2290ec01bfbe07681253012ae.png)
+
+![](../biometric-data-entry.assets/c33897b217960e9c58e25d9c08271748.png)
 
 ## Reporting
 
 Biometric reports are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) category. These reports enable a client to review the various data captured during a visit or encounter. The Patient Observations report is available here, as well.
+
 ![](../biometric-data-entry.assets/82b217840309964f1db169d4f763ef78.png)
-
-

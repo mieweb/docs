@@ -8,16 +8,17 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS138&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet'
 source: 'https://drive.google.com/open?id=1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-CMS138v8 (2020)  
-CMS138v9 (2021)  
+CMS138v8 (2020)
+
+CMS138v9 (2021)
+
 CMS138v10 (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -32,12 +33,11 @@ CMS138v10 (2022)
 <td>0028</td>
 <td>226</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -79,12 +79,9 @@ CMS138v10 (2022)
 <td>Documentation of medical reason(s) for not providing tobacco cessation intervention (e.g., limited life expectancy, other medical reason)</td>
 <td>Documentation of medical reason(s) for not screening for tobacco use OR for not providing tobacco cessation intervention for patients identified as tobacco users (e.g., limited life expectancy, other medical reason)</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -107,18 +104,11 @@ CMS138v10 (2022)
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -127,33 +117,24 @@ Using the Social History section of the encounter, ensure smoking status is docu
 
 1. While documenting the Visit Encounter, open the Social History section.
 2. Assess Smoking Status: (select one)
-
-
-   1. Current every day smoker
-   2. Current some day smoker
-   3. Former smoker
-   4. Never smoker
-   5. Heavy tobacco smoker
-   6. Light tobacco smoker
-   7. Smoker, current status unknown
-   8. Unknown if ever smoked
-
-
-3. Based on the selected smoking status, additional fields/choices may need addressed (e.g., Age Started, Age Quit, Cessation Counseling, etc.). Answer accordingly.
-
-{{% note %}}
-   When marking the radio button for Cessation Counseling, the date MUST be entered as well. Selecting only the radio button or providing only a date of counseling will not satisfy the measure.
-{{% /note %}}
-
+    1. Current every day smoker
+    2. Current some day smoker
+    3. Former smoker
+    4. Never smoker
+    5. Heavy tobacco smoker
+    6. Light tobacco smoker
+    7. Smoker, current status unknown
+    8. Unknown if ever smoked
+3. Based on the selected smoking status, additional fields/choices may need addressed (e.g., Age Started, Age Quit, Cessation Counseling, etc.). Answer accordingly.  
+    {{% note %}}
+    When marking the radio button for Cessation Counseling, the date MUST be entered as well. Selecting only the radio button or providing only a date of counseling will not satisfy the measure.
+    {{% /note %}}
 4. Continue documenting the encounter as appropriate
 5. When complete, Close and Archive the encounter
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -232,12 +213,9 @@ Using the Social History section of the encounter, ensure smoking status is docu
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator
-
 
 <table>
 <tr>
@@ -248,12 +226,9 @@ Using the Social History section of the encounter, ensure smoking status is docu
 <td>Assessment, Performed: Tobacco Use Screening</td>
 <td>2.16.840.1.113883.3.526.3.1278</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -272,12 +247,9 @@ Using the Social History section of the encounter, ensure smoking status is docu
 <td>Medication, Order: Tobacco Use Cessation Pharmacotherapy</td>
 <td>2.16.840.1.113883.3.526.3.1190</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exceptions
-
 
 <table>
 <tr>
@@ -292,11 +264,8 @@ Using the Social History section of the encounter, ensure smoking status is docu
 <td>Diagnosis: Limited Life Expectancy</td>
 <td>2.16.840.1.113883.3.526.3.1259</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 
 [Medical Codify](https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS138&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet)
-

@@ -9,18 +9,14 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - '../../e-sign-electronic-signature/e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Terminated Provider Configuration Recommendations
 
-
 Per Medical Informatics Engineering, Inc. policy, terminated employee charts, and/or provider charts and user profiles (in access control) should NEVER be reused or recycled. User profiles should be disabled upon employment termination.
 
-
 1. Update the user profile (in access control) to Login Disabled.
-
-   1. If a client has SSO, the SSO will stop the user from being able to log in.
-
+    1. If a client has SSO, the SSO will stop the user from being able to log in.
 2. Remove departments at the bottom of the user profile screen (in access control). For example, the prescribers department.
 3. Ensure [SureScripts](https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html) is terminated (uncheck checkboxes in user screen of access control)
 4. Determine who at the client practice will proxy sign any unsigned documents for the terminated provider. If this individual does not currently have [proxy sign](../../e-sign-electronic-signature/e-sign-all-pending-tab.md) rights, temporarily grant proxy sign security access and remove the access once unsigned documents have been esigned.

@@ -7,7 +7,7 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The {{% system-name %}} solution allows for numerous scheduled jobs to be enabled. Out of the box there are many already enabled and available to be used. There are also available scheduled jobs that are disabled, by default.
 
@@ -18,6 +18,7 @@ To access the Scheduled Jobs, from the Sidemenu, click on Control Panel, then Sc
 ## Enabled Scheduled Jobs
 
 The standard scheduled jobs are displayed upon initial entry to the Scheduled Job screen.
+
 ![](../enabled-and-disabled-scheduled-jobs.assets/42f181c611a3dc51bc1972c6e47c1fb0.png)
 
 ### Health Surveillance Membership
@@ -28,21 +29,20 @@ This scheduled job runs to look for any eligible employees to be enrolled in a H
 
 This scheduled job runs and evaluates the eligible panel actions for the Health Surveillance Panels. The standard recurrence is once every day.
 
-### Immunizations Past Due Email   
+### Immunizations Past Due Email
 
 This scheduled job emails employees notice they are past due for an injection that has a next_due date of yesterday. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "ImmunizationsPastDueDaysEmail". The parameters within this scheduled job that can be set are:
 
 * Email Template - The default is "Pat Immunizations Past Due"
-* Number of Days Past the Next Due Date - The default is 7 days 
-
+* Number of Days Past the Next Due Date - The default is 7 days
 
 ### Immunizations Due 30 Days
 
-This scheduled job emails employees notice they are due for an injection that has a next_due date exactly 30 days out. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "ImmunizationsDue30DaysEmail".   
+This scheduled job emails employees notice they are due for an injection that has a next_due date exactly 30 days out. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "ImmunizationsDue30DaysEmail".
 
 ### Nightly Checkout
 
-This scheduled job will automatically check out all patients left as checked in from the previous day. The standard recurrence is once every day.   
+This scheduled job will automatically check out all patients left as checked in from the previous day. The standard recurrence is once every day.
 
 ### Apt Spv Reminder 15 Days
 
@@ -72,8 +72,7 @@ This scheduled job emails employees notice after 2 full days overdue (past due d
 
 This scheduled job will mark any non-checked in scheduled appointments as ‘No Shows' from yesterday. Scheduled job configured to run at 12:30 am to catch the previous day. The standard recurrence is once every day. The system report that is utilized is "ApptNoCheckinUpdateNoShow". The parameters within this scheduled job that can be set are:
 
-*  Day
-
+* Day
 
 ### Appt Cancel When No Pending Due List Items Linked Anymore
 
@@ -81,7 +80,7 @@ This scheduled job will cancel the pending waitlist appointment that the health 
 
 ### Planned Leave Evaluator
 
-This scheduled job adjusts due dates for people who meet the criteria of planned leave rules. The standard recurrence is once every day.   
+This scheduled job adjusts due dates for people who meet the criteria of planned leave rules. The standard recurrence is once every day.
 
 ### HSPInjCmpOrders
 
@@ -103,26 +102,25 @@ This scheduled job forwards 25% of documents to be e-signed by the supervisor. T
 * Supervisor ID - The User ID of the Supervisor to have requests forwarded to
 * Percentage - The percentage of found documents to forward for review
 
-
 ### EmailRestrictions
 
-This scheduled job emails employees and cc's the supervisor and backup supervisor notice of a list of an employee's restrictions. Ignores updates with "Exclude from notification email" checked off as well as updates that already had an email sent. The standard recurrence is every 15 minutes. The system report that is utilized to generate this email notification is "EmailRestrictions".   
+This scheduled job emails employees and cc's the supervisor and backup supervisor notice of a list of an employee's restrictions. Ignores updates with "Exclude from notification email" checked off as well as updates that already had an email sent. The standard recurrence is every 15 minutes. The system report that is utilized to generate this email notification is "EmailRestrictions".
 
 ### Refresh patpatrelflat
 
-This scheduled job refreshes values in pat_pat_relflat when they expire today. The standard recurrence is once every day.    
+This scheduled job refreshes values in pat_pat_relflat when they expire today. The standard recurrence is once every day.
 
 ### Applicant Auto Merge
 
-This scheduled job automatically merges the Applicant (APP) temporary chart and the Medical Record Number (MR) permanent chart together if they have a 9 rating match. The standard recurrence is once every day.   
+This scheduled job automatically merges the Applicant (APP) temporary chart and the Medical Record Number (MR) permanent chart together if they have a 9 rating match. The standard recurrence is once every day.
 
 ### Close Open Questionnaires
 
-This scheduled job closes open questionnaire encounters that are older than 6 months. The standard recurrence is once a week occurring on a Friday. The system report that is utilized is "Close Old Questionnaires".   
+This scheduled job closes open questionnaire encounters that are older than 6 months. The standard recurrence is once a week occurring on a Friday. The system report that is utilized is "Close Old Questionnaires".
 
 ### Flu Exemption Task Extended into Observation
 
-This scheduled job will convert Task Extended Flu Review Determination Reasons (set on the Flu Determination Task when worked) into a stored observation named Influenza Vaccination Exemption Review with the specific exemption value noted. The standard recurrence is every 15 minutes. The system report that is utilized is "Flu Exemption Task to Obs".   
+This scheduled job will convert Task Extended Flu Review Determination Reasons (set on the Flu Determination Task when worked) into a stored observation named Influenza Vaccination Exemption Review with the specific exemption value noted. The standard recurrence is every 15 minutes. The system report that is utilized is "Flu Exemption Task to Obs".
 
 ## Disabled Scheduled Jobs
 
@@ -140,19 +138,19 @@ This scheduled job will decline other orders when certain orders are completed. 
 
 ### Disable Inactive Users
 
-This scheduled job marks any active user as a deleted current status if they haven't logged in for XX number of days. The system setting value within ‘Days Inactive' is respected for the XX number of days that this job will mark the users as ‘deleted' current status. The standard recurrence is once every day.   
+This scheduled job marks any active user as a deleted current status if they haven't logged in for XX number of days. The system setting value within ‘Days Inactive' is respected for the XX number of days that this job will mark the users as ‘deleted' current status. The standard recurrence is once every day.
 
 ### Restrictions Notifications
 
-This scheduled job emails employees and cc's the supervisor and backup supervisor notice of a list of an employee's restrictions. Ignores updates with "Exclude from notification email" checked off as well as updates that already had an email sent. If all restrictions are marked as "Excluded", then no email is sent. The standard recurrence is every 15 minutes. The system report that is utilized to generate this email notification is "EmailRestrictions".   
+This scheduled job emails employees and cc's the supervisor and backup supervisor notice of a list of an employee's restrictions. Ignores updates with "Exclude from notification email" checked off as well as updates that already had an email sent. If all restrictions are marked as "Excluded", then no email is sent. The standard recurrence is every 15 minutes. The system report that is utilized to generate this email notification is "EmailRestrictions".
 
 ### COVID Orders Complete
 
-This scheduled job completes the COVID injection orders after injection administration. The standard recurrence is every 5 minutes. The system report that is utilized is "COVID Orders Complete".   
+This scheduled job completes the COVID injection orders after injection administration. The standard recurrence is every 5 minutes. The system report that is utilized is "COVID Orders Complete".
 
 ### Email 2nd COVID Vaccination Invitation
 
-This scheduled job emails employees with new COVID Injection 2-Pfizer (COVIDINJP) and COVID Injection 2-Moderna (COVIDINJM) waitlist appointments an invite to schedule for their second COVID vaccine appointment on the portal. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Email 2nd COVID Vaccination Invitation".   
+This scheduled job emails employees with new COVID Injection 2-Pfizer (COVIDINJP) and COVID Injection 2-Moderna (COVIDINJM) waitlist appointments an invite to schedule for their second COVID vaccine appointment on the portal. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Email 2nd COVID Vaccination Invitation".
 
 ### Email 2nd COVID Vaccination Reminder
 
@@ -160,10 +158,9 @@ This scheduled job emails employees a reminder to schedule a COVID Injection 2-P
 
 * Current Date
 
-
 ### Email COVID Vaccination Invitation
 
-This scheduled job emails employees with a new COVID Injection (COVIDINJ) waitlist appointment an invite to schedule for a COVID vaccine appointment on the portal. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Email COVID Vaccination Invitation".   
+This scheduled job emails employees with a new COVID Injection (COVIDINJ) waitlist appointment an invite to schedule for a COVID vaccine appointment on the portal. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Email COVID Vaccination Invitation".
 
 ### Email COVID Vaccination Reminder
 
@@ -171,17 +168,15 @@ This scheduled job emails employees a reminder to schedule a COVID Injection (CO
 
 * Current Date
 
-
 ### Email Post COVID Vaccine Education
 
 This scheduled job emails employees vaccine education one hour after they receive their COVID injection. The standard recurrence is every 15 minutes. The system report that is utilized to generate this email notification is "Email Post COVID Vaccine Education". The parameters within this scheduled job that can be set are:
 
 * Current Time
 
+### COVID-19 Complete Panel
 
-### COVID-19 Complete Panel   
-
-This scheduled job completes the COVID Vaccine Compliance order based on the injection records. The standard recurrence is every 15 minutes. The system report that is utilized is "COVID-19 Complete Panel".   
+This scheduled job completes the COVID Vaccine Compliance order based on the injection records. The standard recurrence is every 15 minutes. The system report that is utilized is "COVID-19 Complete Panel".
 
 ### COVID19 Vaccine Exemption Determination
 
@@ -204,8 +199,7 @@ This scheduled job waives compliance orders for employees with an approved exemp
 This scheduled job emails employees a reminder (ScheduledApptReminder) 3 days prior to any scheduled appointment. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "ScheduledApptReminder". The parameters within this scheduled job that can be set are:
 
 * Email Template - The default is "ScheduledApptReminder"
-* Number of Business Days Before Appointment to Email Reminder - The default is 3 days 
-
+* Number of Business Days Before Appointment to Email Reminder - The default is 3 days
 
 ### Portal Message Notification Email
 
@@ -219,10 +213,9 @@ The standard recurrence is once every day. The system report that is utilized to
 
 * mmi_charttab_ext_id
 
+### COVID Testing Panel Enrollment Notification
 
-### COVID Testing Panel Enrollment Notification   
-
-This scheduled job emails employees notification of enrollment in the COVID Testing Panel. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "COVID Testing Panel Enrollment Notification".   
+This scheduled job emails employees notification of enrollment in the COVID Testing Panel. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "COVID Testing Panel Enrollment Notification".
 
 ### TB Panel Updates
 
@@ -230,23 +223,23 @@ This scheduled job explicitly adds patients to the TB Sensitive Panel (TBSEN) if
 
 ### SS Provider Updates
 
-This scheduled job gets a local copy of providers from the SureScripts directory. The standard recurrence is once every day.   
+This scheduled job gets a local copy of providers from the SureScripts directory. The standard recurrence is once every day.
 
 ### Email Monkeypox Risk Assessment Reminder
 
-This scheduled job emails members of the Monkeypox Exposure Panel a reminder twice a day to take their survey. The standard recurrence is every 12 hours. The system report that is utilized to generate this email notification is "Monkey Pox Email Notification".   
+This scheduled job emails members of the Monkeypox Exposure Panel a reminder twice a day to take their survey. The standard recurrence is every 12 hours. The system report that is utilized to generate this email notification is "Monkey Pox Email Notification".
 
 ### Flu Exemption Approved - Pending Flu Injection Order Waived
 
-This scheduled job waives an existing pending Influenza Vaccine injection order item if a Flu Declination task was completed today and the Determination Reason was documented as Approved (Task Extended Variable).  The standard recurrence is once every day. The system report that is utilized is "Flu Exemption Orders".   
+This scheduled job waives an existing pending Influenza Vaccine injection order item if a Flu Declination task was completed today and the Determination Reason was documented as Approved (Task Extended Variable).  The standard recurrence is once every day. The system report that is utilized is "Flu Exemption Orders".
 
 ### Flu Program Email - Last Day for Compliance
 
-This scheduled job emails employees who are a member of the Flu Program panel and still have a pending Flu Injection on their due list with a due date of 1 day or less. Email notifies them that it is the last day for them to receive their flu vaccine. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Flu Last Day of Compliance Email".   
+This scheduled job emails employees who are a member of the Flu Program panel and still have a pending Flu Injection on their due list with a due date of 1 day or less. Email notifies them that it is the last day for them to receive their flu vaccine. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Flu Last Day of Compliance Email".
 
 ### Flu Program Email - Deadline Approaching
 
-This scheduled job emails employees 14 days prior to the due date of any pending order ID 2641 Influenza Injection (which is the Representative Event of the Flu Panel Health Surveillance Panel) on their due list. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "HS Flu Program Deadline Approaching".   
+This scheduled job emails employees 14 days prior to the due date of any pending order ID 2641 Influenza Injection (which is the Representative Event of the Flu Panel Health Surveillance Panel) on their due list. The standard recurrence is once every day. The system report that is utilized to generate this email notification is "HS Flu Program Deadline Approaching".
 
 ### Flu Program Email - Enrollment
 
@@ -254,15 +247,15 @@ This scheduled job emails employees if they are a member of the Flu Program Heal
 
 ### Flu Program Email - Exemption Approval or Denial Email
 
-This scheduled job emails employees explaining their flu vaccine exemption request was approved or denied (from completed worked Flu Vaccine Declination Task). The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Flu Exemption".   
+This scheduled job emails employees explaining their flu vaccine exemption request was approved or denied (from completed worked Flu Vaccine Declination Task). The standard recurrence is once every day. The system report that is utilized to generate this email notification is "Flu Exemption".
 
 ### Update LabCorp Compendium
 
-This scheduled job synchronizes order_lists, order_questions, and order_question_index with the Labcorp compendium. The standard recurrence is once a week occurring on a Sunday.   
+This scheduled job synchronizes order_lists, order_questions, and order_question_index with the Labcorp compendium. The standard recurrence is once a week occurring on a Sunday.
 
 ### Active Standing Order
 
-This scheduled job will find all active standing orders and creates a new requisition based on the order frequency and occurrence. The standard recurrence is once every day. The system report that is utilized is "ActiveStandingOrders".   
+This scheduled job will find all active standing orders and creates a new requisition based on the order frequency and occurrence. The standard recurrence is once every day. The system report that is utilized is "ActiveStandingOrders".
 
 ### Auto Generation of Case (Step 1 of 2)
 
@@ -270,8 +263,6 @@ This scheduled job automatically generates a case when an injury report is creat
 
 * last_id
 
-
 ### Auto Generation of Case (Step 2 of 2)
 
 This scheduled job adds a case number to the incidents reported from the portal. This is step 2 of a 2 step process. The standard recurrence is every 5 minutes. The system report that is utilized is "AddCasePerform_Verify".
-

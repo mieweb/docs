@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-work-related-exams.md'
 source: 'https://drive.google.com/open?id=1eOhrb_r3jJ_atpkEE6NOmLYTypoYUCIeQj-39MRVoQ0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Purpose
 
@@ -20,22 +20,13 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
-
 * Demonstrate Work-Related Exam Functionalities
-
-
-   * Driver Fitness Determination (DOT)
-   * Pre-Placement
-   * Travel Management
-
-
+    * Driver Fitness Determination (DOT)
+    * Pre-Placement
+    * Travel Management
 * Demonstrate Non-Occupational Health Clinical Care Workflows
-
-
-   * Clinical Care Overview
-   * In-House Tests and Procedures
-
-
+    * Clinical Care Overview
+    * In-House Tests and Procedures
 
 ## Afterward
 

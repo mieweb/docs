@@ -11,7 +11,7 @@ links:
   - 'outbound-interface-install-instructions.md'
   - 'sample-hl7-messages.md'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 {{% anchor sys="msh" %}}
 
@@ -22,9 +22,7 @@ This documentation is for HL7 Segments related to:
 
 [Outbound Interface Install Instructions](outbound-interface-install-instructions.md)
 
-
 ## Message Header (MSH)
-
 
 <table>
 <tr>
@@ -179,11 +177,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Character Set</td>
 </tr>
-
 </table>
 
 ## Master File Identification (MFI)
-
 
 <table>
 <tr>
@@ -242,11 +238,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Response Level Code</td>
 </tr>
-
 </table>
 
 ## Master File Entry (MFE)
-
 
 <table>
 <tr>
@@ -297,13 +291,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Primary Key Value Type</td>
 </tr>
-
 </table>
+
 {{% anchor sys="msa" %}}
 
-
 ## Message Acknowledgement (MSA)
-
 
 <table>
 <tr>
@@ -354,13 +346,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Delayed Ack Type</td>
 </tr>
-
 </table>
+
 {{% anchor sys="evn" %}}
 
-
 ## Event Type (EVN)
-
 
 <table>
 <tr>
@@ -403,13 +393,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Event Reason Code</td>
 </tr>
-
 </table>
+
 {{% anchor sys="mrg" %}}
 
-
 ## Merge Patient Information (MRG)
-
 
 <table>
 <tr>
@@ -476,13 +464,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Prior Patient Name</td>
 </tr>
-
 </table>
+
 {{% anchor sys="pid" %}}
 
-
 ## Patient Identification (PID)
-
 
 <table>
 <tr>
@@ -805,13 +791,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Tribal Citizenship</td>
 </tr>
-
 </table>
+
 {{% anchor sys="pd1" %}}
 
-
 ## Patient Additional Demographics (PD1)
-
 
 <table>
 <tr>
@@ -918,13 +902,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Protection Indicator</td>
 </tr>
-
 </table>
+
 {{% anchor sys="pv1" %}}
 
-
 ## Patient Visit (PV1)
-
 
 <table>
 <tr>
@@ -1351,13 +1333,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Other Healthcare Provider</td>
 </tr>
-
 </table>
 
 {{% anchor sys="pv1_dft" %}}
 
 ## Patient Visit (PV1) for DFT
-
 
 <table>
 <tr>
@@ -1784,14 +1764,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Other Healthcare Provider</td>
 </tr>
-
 </table>
 
 {{% anchor sys="pv2" %}}
 
-
 ## Patient Visit - Additional Information (PV2)
-
 
 <table>
 <tr>
@@ -2098,13 +2075,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Baby Detained Indicator</td>
 </tr>
-
 </table>
+
 {{% anchor sys="dg1" %}}
 
-
 ## Diagnosis (DG1)
-
 
 <table>
 <tr>
@@ -2243,13 +2218,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Diagnosing clinician</td>
 </tr>
-
 </table>
+
 {{% anchor sys="ft1" %}}
 
-
 ## Financial Transaction (FT1)
-
 
 <table>
 <tr>
@@ -2468,13 +2441,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>26 Procedure Code Modifier</td>
 </tr>
-
 </table>
+
 {{% anchor sys="gt1" %}}
 
-
 ## Guarantor (GT1)
-
 
 <table>
 <tr>
@@ -2925,13 +2896,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Guarantor Race</td>
 </tr>
-
 </table>
+
 {{% anchor sys="in1" %}}
 
-
 ## Insurance (IN1)
-
 
 <table>
 <tr>
@@ -3334,13 +3303,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Insured<92>s ID Number</td>
 </tr>
-
 </table>
+
 {{% anchor sys="in2" %}}
 
-
 ## Insurance - Additional Information (IN2)
-
 
 <table>
 <tr>
@@ -3927,11 +3894,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>HCFA Patient's Relationship to Insured</td>
 </tr>
-
 </table>
 
 ## Insurance - Additional Information, Certification (IN3)
-
 
 <table>
 <tr>
@@ -4142,13 +4107,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Second Opinion Physician</td>
 </tr>
-
 </table>
+
 {{% anchor sys="pr1" %}}
 
-
 ## Procedures (PR1)
-
 
 <table>
 <tr>
@@ -4263,13 +4226,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Consent Code</td>
 </tr>
-
 </table>
+
 {{% anchor sys="err" %}}
 
-
 ## Error (ERR)
-
 
 <table>
 <tr>
@@ -4288,13 +4249,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Error Code and Location</td>
 </tr>
-
 </table>
+
 {{% anchor sys="zil" %}}
 
-
 ## ZIL
-
 
 <table>
 <tr>
@@ -4313,13 +4272,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Dicom Study Ins UID</td>
 </tr>
-
 </table>
+
 {{% anchor sys="ztn" %}}
 
-
 ## ZTN
-
 
 <table>
 <tr>
@@ -4354,13 +4311,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Translations used</td>
 </tr>
-
 </table>
+
 {{% anchor sys="zdg" %}}
 
-
 ## ZDG
-
 
 <table>
 <tr>
@@ -4387,13 +4342,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Debug Message</td>
 </tr>
-
 </table>
+
 {{% anchor sys="nte" %}}
 
-
 ## Notes and Comments (NTE)
-
 
 <table>
 <tr>
@@ -4436,13 +4389,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Comment Type</td>
 </tr>
-
 </table>
+
 {{% anchor sys="sch" %}}
 
-
 ## Scheduling Activity Information (SCH)
-
 
 <table>
 <tr>
@@ -4653,13 +4604,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Filler Status Code</td>
 </tr>
-
 </table>
+
 {{% anchor sys="rgs" %}}
 
-
 ## Resource Group (RGS)
-
 
 <table>
 <tr>
@@ -4694,13 +4643,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Resource Group ID</td>
 </tr>
-
 </table>
+
 {{% anchor sys="ail" %}}
 
-
 ## Appointment Information - Location resource (AIL)
-
 
 <table>
 <tr>
@@ -4807,13 +4754,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Filler Status Code</td>
 </tr>
-
 </table>
+
 {{% anchor sys="aip" %}}
 
-
 ## Appointment Information - Personnel Resource (AIP)
-
 
 <table>
 <tr>
@@ -4920,13 +4865,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Filler Status Code</td>
 </tr>
-
 </table>
+
 {{% anchor sys="aig" %}}
 
-
 ## Appointment Information - General Resource (AIG)
-
 
 <table>
 <tr>
@@ -5049,11 +4992,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Filler Status Code</td>
 </tr>
-
 </table>
 
 ## Accident (ACC)
-
 
 <table>
 <tr>
@@ -5112,11 +5053,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Accident Death Indicator</td>
 </tr>
-
 </table>
 
 ## UB82 (UB1)
-
 
 <table>
 <tr>
@@ -5311,11 +5250,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>UB-82 Locator</td>
 </tr>
-
 </table>
 
 ## UB92 Data (UB2)
-
 
 <table>
 <tr>
@@ -5462,12 +5399,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Special Visit Count</td>
 </tr>
-
 </table>
 
-
 ## Next of Kin/Associated Parties (NK1)
-
 
 <table>
 <tr>
@@ -5774,11 +5708,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Contact Person Social Security Number</td>
 </tr>
-
 </table>
 
 ## ZMF
-
 
 <table>
 <tr>
@@ -5941,13 +5873,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Account Collection Priority</td>
 </tr>
-
 </table>
+
 {{% anchor sys="orc" %}}
 
-
 ## Common Order (ORC)
-
 
 <table>
 <tr>
@@ -6150,13 +6080,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Ordering Provider Address</td>
 </tr>
-
 </table>
+
 {{% anchor sys="obr" %}}
 
-
 ## Observation request (OBR)
-
 
 <table>
 <tr>
@@ -6527,13 +6455,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Procedure Code Modifier</td>
 </tr>
-
 </table>
+
 {{% anchor sys="obx" %}}
 
-
 ## Observation/Result (OBX)
-
 
 <table>
 <tr>
@@ -6680,11 +6606,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Observation Method</td>
 </tr>
-
 </table>
 
 ## Pharmacy/Treatment Administration (RXA)
-
 
 <table>
 <tr>
@@ -6871,11 +6795,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>System Entry Date/Time</td>
 </tr>
-
 </table>
 
 ## Pharmacy/Treatment Route (RXR)
-
 
 <table>
 <tr>
@@ -6926,13 +6848,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Routing Instruction</td>
 </tr>
-
 </table>
+
 {{% anchor sys="txa" %}}
 
-
 ## Transcription Document Header (TXA)
-
 
 <table>
 <tr>
@@ -7127,11 +7047,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Distributed Copies (Code and Name of Recipients)</td>
 </tr>
-
 </table>
 
 ## Query Acknowledgement (QAK)
-
 
 <table>
 <tr>
@@ -7166,11 +7084,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_MAX</td>
 <td>Input Parameter List</td>
 </tr>
-
 </table>
 
 ## Original Style Query Definition (QRD)
-
 
 <table>
 <tr>
@@ -7277,11 +7193,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Query Results Level</td>
 </tr>
-
 </table>
 
 ## Original Style Query Filter (QRF)
-
 
 <table>
 <tr>
@@ -7364,11 +7278,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>When Quantity/Timing Qualifier (replaces .2/.3)</td>
 </tr>
-
 </table>
 
 ## ZCL
-
 
 <table>
 <tr>
@@ -7411,11 +7323,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Fasting</td>
 </tr>
-
 </table>
 
 ## ZBL
-
 
 <table>
 <tr>
@@ -7466,11 +7376,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Blood Lead County</td>
 </tr>
-
 </table>
 
 ## ZCY
-
 
 <table>
 <tr>
@@ -7761,11 +7669,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Other prev cyto info</td>
 </tr>
-
 </table>
 
 ## ZSA
-
 
 <table>
 <tr>
@@ -7904,11 +7810,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Hemolyzed</td>
 </tr>
-
 </table>
 
 ## ZPS
-
 
 <table>
 <tr>
@@ -7975,11 +7879,9 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>Facility Director</td>
 </tr>
-
 </table>
 
 ## ZSV
-
 
 <table>
 <tr>
@@ -8046,13 +7948,11 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>VFC Code</td>
 </tr>
-
 </table>
+
 {{% anchor sys="zpa" %}}
 
-
 ## ZPA
-
 
 <table>
 <tr>
@@ -8351,18 +8251,15 @@ This documentation is for HL7 Segments related to:
 <td>NO_RPT</td>
 <td>seniority_date</td>
 </tr>
-
 </table>
 
 ## Data Types
 
 {{% anchor sys="tn" %}}
 
-
 ### TN
 
 The TN Data Type is an MIE Extension designed for notifying a sending system of translations used in the processing of the message. This can be thought of as an incremental approach to maintaining a MFN interface.
-
 <table>
 <tr>
 <td><strong>Name</strong></td>
@@ -8394,10 +8291,10 @@ The TN Data Type is an MIE Extension designed for notifying a sending system of 
 <td>OPT</td>
 <td>optional indication of the context of the translation created. for users, an indication of originating, authenticating, etc.</td>
 </tr>
-
 </table>
 
 ## Related Pages
 
 [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
+
 [Sample HL7 Messages](sample-hl7-messages.md)

@@ -10,30 +10,25 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1GQU6K0OpGc9Mo9S8Bt6ywQN6s8oJa9E9SbQhoJKnfXo'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Patient Safety and Practice Assessment
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: Implementation of fall screening and assessment programs to identify patients at risk for falls and address modifiable risk factors (e.g., Clinical decision support/prompts in the electronic health record that help manage the use of medications, such as benzodiazepines, that increase fall risk).
-
-
-
 
 Supporting Documentation
 
-1. Implementation of a Falls Screening and Assessment Program - Implementation of a falls screening and assessment program that uses valid and reliable tools to identify patients at risk for falls and address modifiable risk factors, for example, the STEADI program for identification of falls risk; and 
+1. Implementation of a Falls Screening and Assessment Program - Implementation of a falls screening and assessment program that uses valid and reliable tools to identify patients at risk for falls and address modifiable risk factors, for example, the STEADI program for identification of falls risk; and
 2. Implementation Progress - Documentation of progress made on falls screening and assessment after implementation of tool.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

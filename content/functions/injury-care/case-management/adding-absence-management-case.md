@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -16,19 +16,19 @@ A case is a full report of a workplace injury or an incident involving an empl
 The terms *case* and *incident* may be used interchangeably throughout the system.
 {{% /info %}}
 
-There are several case types, which designate different required fields as well as state-specific questions and forms.  {{% system-name %}} provides the ability to track absences as well as link any related documents or subsequent encounter documentation to a specific Absence Management case, as needed.  
+There are several case types, which designate different required fields as well as state-specific questions and forms.  {{% system-name %}} provides the ability to track absences as well as link any related documents or subsequent encounter documentation to a specific Absence Management case, as needed.
 
 ## Add New Absence Management Case
 
-This help documentation is designed to assist in creating and documenting an Absence Management case type.  Some workflows use various documents or various encounters and may need to be linked to an Absence Management Case for tracking. 
+This help documentation is designed to assist in creating and documenting an Absence Management case type.  Some workflows use various documents or various encounters and may need to be linked to an Absence Management Case for tracking.
+
 By default, the Case section of encounters will display the following case types:
 
-* Injury (OSHA Standard) 
-* Injury (Non-OSHA Standard) 
-* Hospital, Absence Management 
+* Injury (OSHA Standard)
+* Injury (Non-OSHA Standard)
+* Hospital, Absence Management
 * Medical Suitability for Expatriate Assignment (MSEA)
 * Medical Surveillance
-
 
 ![](../adding-absence-management-case.assets/895ee8d7d82d2149015041165ef84d4f.png)
 
@@ -55,4 +55,3 @@ Refer to help documentation named [Restrictions and Accommodations](../adding-re
 ## Linking Documents to Cases
 
 Documents can be linked to cases.  This can be done via the **Edit Properties** of an existing stored document.  Documents can also be linked to cases when indexing from WebScan. Scheduled appointments can also be linked to cases when in the Add Appointment wizard, if necessary.
-

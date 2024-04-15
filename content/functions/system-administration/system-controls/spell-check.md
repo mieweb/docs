@@ -7,13 +7,13 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-{{% system-name %}} offers a spell check feature within text documents, encounter text, and other areas of use.  When utilizing spell check, those with security permission to Manage Spell Check can add words to the  {{% system-name %}} library to be recognized.    
+{{% system-name %}} offers a spell check feature within text documents, encounter text, and other areas of use.  When utilizing spell check, those with security permission to Manage Spell Check can add words to the  {{% system-name %}} library to be recognized.
+
 Words that are added to the master spell check library for the system are found in the Spell Check tab within the Control Panel sidemenu and is accessible to those also with security permission to Manage Spell Check.
 
 ![](../spell-check.assets/11dd35dc4035cc50114d4886013e111d.png)
-
 
 ## Spell Check in Text Documents
 
@@ -29,7 +29,6 @@ Any words that the system does not recognize will be highlighted and will displa
 
 ![](../spell-check.assets/18e7852e770d32623b23eef973a271a7.png)
 
-
 ## Spell Check in Encounters
 
 When you are working in encounters, there are various encounter sections or fields that allow free-text.  Within most of those encounter fields, a spell check button is also available.
@@ -39,7 +38,9 @@ When you are working in encounters, there are various encounter sections or fiel
 ## Add Word to Spell Check Library
 
 The {{% system-name %}} spell check feature allows users, with security permission, to add words to the system's spell check library. An example would be typing the word GERD frequently and every time you click "spell check" it says alerts you that the word is misspelled.  Instead of clicking ignore for frequent words that you know are spelled correctly or could be acronyms that the library doesn't recognize, a user with security permission can add GERD to the system's spell check dictionary.
+
 You must have security permission to add words to the {{% system-name %}} spell check library.
+
 The user should utilize spell check and once spell check finds a misspelled word, it will highlight it; offer suggestions; followed by other function buttons.  You can select a suggestion it gives you and it will replace the word with it, you can ignore the spellcheck finding to get out, you can click edit to edit the word yourself to be something different, or you can click Add to add the highlighted word it says is misspelled to your {{% system-name %}} spell check library. This will then signify to the system that the word you added is not to be considered misspelled and it will not highlight it to alert users anymore for that specific word.
 
 ![](../spell-check.assets/297351fef0ec13af31b9f0b02dfa1078.png)
@@ -57,6 +58,7 @@ There is a Spell Check editor tab found in the sidemenu Control Panel.
 ![](../spell-check.assets/7070459d91f4a72182798afc753629b2.png)
 
 If you have security permission to work this editor, you can search for words have been added to your {{% system-name %}} spell check library.  From this editor, added words can be edited or deleted. When in the Spell Check tab, the word search dialogue displays.
+
 A quick way to see every word that was added to your system's spell check library is just to click the Search button once in this tab without entering anything in any of the search fields at the top. Once you click Search, it will show all the words that have ever been added to your {{% system-name %}} system.
 
 ![](../spell-check.assets/8204768d3984e96568dfbf194eef6d96.png)
@@ -66,5 +68,5 @@ If you need to narrow down your search to find something specific, you can enter
 ![](../spell-check.assets/adfc19309bfef07abcc1e1f5a06020ce.png)
 
 In the results, it will display words that were added to the spell check library, who/when it was added, and what language parameter it was added to (if your {{% system-name %}} system is set up for multi-lingual).
-Once you've found the word that was added to your system's spell check dictionary, you can edit it or delete it by using those links found in the options column of a specified word.
 
+Once you've found the word that was added to your system's spell check dictionary, you can edit it or delete it by using those links found in the options column of a specified word.

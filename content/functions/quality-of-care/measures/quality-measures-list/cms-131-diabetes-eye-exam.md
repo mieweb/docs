@@ -9,16 +9,17 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10'
 source: 'https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-CMS131v8 (2020)  
-CMS131v9 (2021)  
+CMS131v8 (2020)
+
+CMS131v9 (2021)
+
 CMS131v10 (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -33,12 +34,11 @@ CMS131v10 (2022)
 <td>0055</td>
 <td>117</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -55,14 +55,13 @@ CMS131v10 (2022)
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li><li><p>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</p></li><li><p>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:</p>
-<ul><li><p>Advanced illness with two outpatient encounters during the measurement period or the year prior</p></li><li><p>Advanced illness with one inpatient encounter during the measurement period or the year prior</p></li><li><p>Taking dementia medications during the measurement period or the year prior</p></li></ul>  
-</li><li><p>Exclude patients receiving palliative care during the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude patients who are in hospice care for any part of the measurement period.</li><li>Exclude patients 66 and older who are living long term in an institution for more than 90 consecutive days during the measurement period.</li><li>Exclude patients 66 and older with an indication of frailty for any part of the measurement period who meet any of the following criteria:<br />
+<ul><li>Advanced illness with two outpatient encounters during the measurement period or the year prior</li><li>Advanced illness with one inpatient encounter during the measurement period or the year prior</li><li>Taking dementia medications during the measurement period or the year prior</li></ul></li><li>Exclude patients receiving palliative care during the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
-<td>Patients with an eye screening for diabetic retinal disease. This includes diabetics who had one of the following:
-<ul><li><p>Diabetic with a diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period</p></li><li><p>Diabetic with no diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period or the year prior to the measurement period</p></li></ul></td>
+<td>Patients with an eye screening for diabetic retinal disease. This includes diabetics who had one of the following:<br />
+<ul><li>Diabetic with a diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period</li><li>Diabetic with no diagnosis of retinopathy in any part of the measurement period and a retinal or dilated eye exam by an eye care professional in the measurement period or the year prior to the measurement period</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
@@ -72,12 +71,9 @@ CMS131v10 (2022)
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -100,67 +96,31 @@ CMS131v10 (2022)
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
 
-
 2. Ensure all diabetic patients aged 18-75 have been screened for diabetic retinal disease. Use the Past Procedures section of the encounter to record a previous dilated or negative retinal exam, or use the Preventive Care section of the encounter to document the last Retinal Screening; otherwise, document a recognized eye exam by scanning and indexing an established document type (e.g., RETINAL) configured with the appropriate Concept ID.
-
-
-   1. <strong>Option 1: Document in the Past Procedures section</strong>
-
-
-
-
-      1. Open the Past Procedures section
-      2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Dilated Fundus Evaluation, Retinal Screening, etc.) with the appropriate Concept ID (e.g., LOINC).
-      3. Add the Date and any relevant Notes.
-      4. Click the Next button, or close the section
-
-
-
-
-   2. <strong>Option 2: Document in the Preventive Care section</strong>
-
-
-
-
-      1. Open the Preventive Care section
-      2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2020). This date is the Last Reported Date
-      3. Click the Next button, or close the section
-
-
-
-
-   * <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
-
-
-
-
-
-      1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
-
-
-
+    1. <strong>Option 1: Document in the Past Procedures section</strong>
+        1. Open the Past Procedures section
+        2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Dilated Fundus Evaluation, Retinal Screening, etc.) with the appropriate Concept ID (e.g., LOINC).
+        3. Add the Date and any relevant Notes.
+        4. Click the Next button, or close the section
+    2. <strong>Option 2: Document in the Preventive Care section</strong>
+        1. Open the Preventive Care section
+        2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2020). This date is the Last Reported Date
+        3. Click the Next button, or close the section
+    * <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
+        1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -199,12 +159,9 @@ CMS131v10 (2022)
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -287,12 +244,9 @@ CMS131v10 (2022)
 <td>Symptom: Frailty Symptom</td>
 <td>2.16.840.1.113883.3.464.1003.113.12.1075</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -307,9 +261,7 @@ CMS131v10 (2022)
 <td>Physical Exam, Performed: Retinal or Dilated Eye Exam</td>
 <td>2.16.840.1.113883.3.464.1003.115.12.1088</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

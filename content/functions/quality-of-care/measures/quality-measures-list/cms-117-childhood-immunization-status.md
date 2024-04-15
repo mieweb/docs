@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms117v10'
 source: 'https://drive.google.com/open?id=1MR0uCXDGLsP0rlSwgFdVRKCohi_d5Sfy_55wV1xV7nc'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS117v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v8&showresulttype=Measure) (2020)  
-[CMS117v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v9&showresulttype=Measure) (2021)  
+[CMS117v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v8&showresulttype=Measure) (2020)
+
+[CMS117v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v9&showresulttype=Measure) (2021)
+
 [CMS117v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS117v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>240</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -99,10 +96,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
@@ -110,75 +104,38 @@ Ensure all children turning 2 years of age during the measurement period have ha
 
 ### Workflow
 
-
 1. <strong>Option 1: Record the Receipt of Immunizations (Historical)</strong>
-
-
-   1. <strong>Within Encounter</strong>
-
-
-
-
-      1. Open the Immunizations/Injections section of the encounter
-      2. Using the Description autocomplete, begin typing the name of the immunizations
-      3. Add the Date and any Reactions/Comments
-      4. Click the Add button
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter.
-
-
-
-
-   2. <strong>Outside Encounter</strong>
-
-
-
-
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Quick Add link in the upper-right of the page
-      3. Record any historical injections
-      4. Click the Submit button
-
-
-
+    1. <strong>Within Encounter</strong>
+        1. Open the Immunizations/Injections section of the encounter
+        2. Using the Description autocomplete, begin typing the name of the immunizations
+        3. Add the Date and any Reactions/Comments
+        4. Click the Add button
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter.
+    2. <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Quick Add link in the upper-right of the page
+        3. Record any historical injections
+        4. Click the Submit button
 2. <strong>Option 2: Document the Administration of the Vaccines</strong>
-
-
-   1. <strong>Within Encounter</strong>
-
-
-
-
-      1. Open the Tests and Procedures section of the encounter
-      2. Using the autocomplete, begin typing the name of the vaccination being administered
-      3. Click the Add to Exam button
-      4. After adding the new section, open the section and fill in all required fields
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter
-
-
-
-
-   2. <strong>Outside Encounter</strong>
-
-
-
-
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Add Imm/Inj link in the upper-right of the page
-      3. Fill in all required fields
-      4. Click the Submit button
-
-
-
+    1. <strong>Within Encounter</strong>
+        1. Open the Tests and Procedures section of the encounter
+        2. Using the autocomplete, begin typing the name of the vaccination being administered
+        3. Click the Add to Exam button
+        4. After adding the new section, open the section and fill in all required fields
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter
+    2. <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Add Imm/Inj link in the upper-right of the page
+        3. Fill in all required fields
+        4. Click the Submit button
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -213,12 +170,9 @@ Ensure all children turning 2 years of age during the measurement period have ha
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -237,13 +191,9 @@ Ensure all children turning 2 years of age during the measurement period have ha
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
-
 
 <table>
 <tr>
@@ -490,9 +440,7 @@ Ensure all children turning 2 years of age during the measurement period have ha
 <td>Procedure, Performed: Varicella Zoster Vaccine (VZV) Administered</td>
 <td>2.16.840.1.113883.3.464.1003.110.12.1040</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

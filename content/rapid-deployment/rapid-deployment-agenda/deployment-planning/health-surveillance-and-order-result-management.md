@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-health-surveillance.md'
   - '../../review-sessions/review-session-order-and-result-management.md'
 source: 'https://drive.google.com/open?id=1PuCBxh6M_gq9vIRV0xM_coMO1n6EyARqEsASvmZZTus'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Purpose
 
@@ -21,75 +21,32 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
-
 * Health Surveillance Demonstration
-
-
-   * Overview
-
-
-
-
-      * Panels
-
-
-
-
-
-
-         * Panel Actions
-         * Representative Events
-
-
-
-
-
-
-      * Panel Memberships
-      * Email Notifications
-      * Scheduling
-      * Portal
-
-
-
-
-
-
-         * Patient Portal
-         * Employer Portal
-
-
-
-
-
-
-      * Managing the Due List
-      * System Configuration
-
-
-
+    * Overview
+        * Panels
+            * Panel Actions
+            * Representative Events
+        * Panel Memberships
+        * Email Notifications
+        * Scheduling
+        * Portal
+            * Patient Portal
+            * Employer Portal
+        * Managing the Due List
+        * System Configuration
 * Order and Result Management Demonstration
-
-
-   * System Configuration
-
-
-
-
-      * Order Items
-      * Order Panels
-      * Order Picklists (i.e., lab orders, radiology orders, PT/OT, referrals)
-      * Observation Flowsheets
-      * Audiometric Testing
-      * EKG Testing
-      * Pulmonary Function Testing
-      * Respirator Fit Testing
-      * Vision Testing
-      * Vitals
-      * Drug Screen Results
-
-
-
+    * System Configuration
+        * Order Items
+        * Order Panels
+        * Order Picklists (i.e., lab orders, radiology orders, PT/OT, referrals)
+        * Observation Flowsheets
+        * Audiometric Testing
+        * EKG Testing
+        * Pulmonary Function Testing
+        * Respirator Fit Testing
+        * Vision Testing
+        * Vitals
+        * Drug Screen Results
 
 ## Afterward
 

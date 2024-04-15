@@ -7,13 +7,16 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 When in the {{% system-name %}} system, the E-Chart sidemenu tab displays recent charts you've accessed, along with ability to search charts by different methods.  E-Chart automatically defaults to search in **Simple** search.
 
 To do a more detailed search, click the Detailed link from the list of Search Types.
+
 ![](../detailed-searching-in-e-chart.assets/9bde2d66fe2c7c9955d0d80d9e0fec04.png)
+
 The detailed search filter screen will open with various filter fields to help narrow down a search for a chart by more detail.
+
 ![](../detailed-searching-in-e-chart.assets/be5328a4b81c9853b4f592f154594f91.png)
 
 {{% tip %}}
@@ -23,23 +26,28 @@ To revert back to simple search, click the Simple search type link.
 Within the Detailed search screen, there are many fields you can create a detailed search for and many criteria you can select from in each drop-down field. It is not necessary to select or set something in every field. You can search by any or as many fields as you wish in order to narrow down your results. The more fields filled out, the more detailed and narrower the search.
 
 {{% tip %}}
+
 ## Contains Search
 
 The percent sign (%) is a hotkey to perform a CONTAINS search, followed by the letters you wish to search. In this example, we typed %art in the name field and clicked the **Search** button.  The system resulted matching charts with names of the letters ‘art' in them.
+
 ![](../detailed-searching-in-e-chart.assets/6a46b0bd7f99d2479da83dc546bfbb51.png)
+
 {{% /tip %}}
 
 When done keying in any detailed search criteria fields, click the **Search** button to render the results or the **Clear All** button to start another search.
 
 ## SSN Search
 
-By default, {{% system-name %}} system setting *Search for SSN* is disabled. This feature will allow for searching by SSN from simple and detailed searches, as well as the Document Queue search. ![](../detailed-searching-in-e-chart.assets/2b65024220b01048e7ee520ccadf68c1.png)
+By default, {{% system-name %}} system setting *Search for SSN* is disabled. This feature will allow for searching by SSN from simple and detailed searches, as well as the Document Queue search. 
+![](../detailed-searching-in-e-chart.assets/2b65024220b01048e7ee520ccadf68c1.png)
 
 {{% note %}}
 Disabling the SSN search does not turn off the ability to search by SSN in other modules or layouts. Contact your MIE Implementer if you wish SSN search to be turned off in other modules/layouts of  {{% system-name %}}.
 {{% /note %}}
 
 If *Search for SSN* is enabled, the SSN radio button will display in the search field criteria and the "SSN" column will display. If your practice wishes not to offer the search by SSN nor show the "SSN" column in the patient search screen, make sure the system setting is disabled.
+
 ![](../detailed-searching-in-e-chart.assets/7c4ed8481cc53b68b5e7850f9ada05d8.png)
 
 ![](../detailed-searching-in-e-chart.assets/4e99c04b57f9c544f78e563c442a0167.png)

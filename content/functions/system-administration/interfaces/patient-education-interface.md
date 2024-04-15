@@ -7,10 +7,9 @@ lastAuthor: 'Jenna Anderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 # Patient Education Interface
-
 
 ## Healthwise
 
@@ -35,12 +34,15 @@ The Healthwise interface is found in many areas within  {{% system-name %}} suc
 In those areas, you will see Search links that take you to Healthwise.
 
 Patient Summary tab:
+
 ![](../patient-education-interface.assets/14a44da761e40423ecdf07814a57f3aa.png)
 
 Patient's Conditions tab:
+
 ![](../patient-education-interface.assets/df4a4e0dacebe64792df1e330fdb4fb2.png)
 
 Encounter Exams:
+
 ![](../patient-education-interface.assets/309e1378216b2591ba694f5d7a0bcf7f.png)
 
 These Search links when clicked take you to a separate window to the Healthwise Patient Education site.
@@ -54,12 +56,12 @@ Switch languages to print by the language drop-down in the Healthwise window.
 ![](../patient-education-interface.assets/27b25f54b34e23333c11a4b6a4b37afd.png)
 
 Select the font print size to print for the patient. The font will default to M (medium).
+
 ![](../patient-education-interface.assets/175f7c964de4fb54212bc5c01fad7260.png)
 
 If desired, add additional patient educational materials to the "Basket" . Cllick the Printer icon to print materials.
 
 ![](../patient-education-interface.assets/a41df14a757b289d44714e05ff7648d4.png)
-
 
 You can also click the ADD NOTE icon to add your own text and notes for the handout you are going to be rendering for the patient. The ‘notes' you type in there will render as page 1 of the final document. You can also save note ‘templates' to use for future times. Type it in and then click the "save or update Note as:" and name it. Then you can use an "existing note template" from that drop-down on future education documents you render.
 
@@ -68,21 +70,23 @@ You can also click the ADD NOTE icon to add your own text and notes for the hand
 Click the **Print** button when ready to print it.
 
 The material will print to a PDF in another browser window and the user can print to their local printer. Close the browser tab to return to the main Healthwise search screen.
+
 ![](../patient-education-interface.assets/5d295a4ddaf8808ca98a4cfbca0afb38.png)
 
 The user returns to the main Healthwise screen, a summary of the patient education displays. Click the Close button to close the window or simply close the browser tab to return to Enterprise Health.
+
 ![](../patient-education-interface.assets/5c5ecd4e8ebab1b74379e5e9c69648e2.png)
 
 When a user prints the Healthwise patient material,  {{% system-name %}} queries the Healthwise database and sends us back a notification of what was printed from their system.  {{% system-name %}}  will add the printed education sheets to the patient's chart as a PDF document with documentation of the date/time & user in a chart tab specified.
 
 ![](../patient-education-interface.assets/034311270d07c42d5ae21e454593bf17.png)
 
-
 By default, the document is stored as doc.type WCHEALTH. You should have the doc.type WCHEALTH in your system with the description of it being "Healthwise Patient Education". You can change the system setting to store these to a different doc.type, however by default it's already set up to point to WCHEALTH doc.type.
 
-*Note:*  
+*Note:*
+
 If you are doing Meaningful Use, you would **not** want to change this setting to store as doc.type WCPATED because WCPATED is looked at in meaningful use measures/calculations and could skew that data.
+
 ![](../patient-education-interface.assets/65aa294d48f757f0e2f1e7846880441f.png)
+
 That doc.type should be specified to show in a specific chart tab. You can go to that chart tab to find the uploaded Healthwise Patient Education and the subject line contains which education material it is. This stores as a PDF file type for accessing.
-
-

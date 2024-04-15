@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-fax-manager.md'
   - '../../review-sessions/review-session-reports.md'
 source: 'https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Purpose
 
@@ -21,36 +21,17 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
-
 * Demonstrate Faxing
-
-
-   * System Configuration
-
-
-
-
-      * Load Fax Coversheet(s)
-      * Inbound Fax Queue
-      * Outbound Faxing
-      * Configure Fax Queue Permissions, User Preferences, and Security Settings
-
-
-
+    * System Configuration
+        * Load Fax Coversheet(s)
+        * Inbound Fax Queue
+        * Outbound Faxing
+        * Configure Fax Queue Permissions, User Preferences, and Security Settings
 * Demonstrate Reports
-
-
-   * System Configuration
-
-
-
-
-      * Configure Reports
-      * Pivot Report Access
-      * Report Restrictions
-
-
-
+    * System Configuration
+        * Configure Reports
+        * Pivot Report Access
+        * Report Restrictions
 
 ## Afterward
 

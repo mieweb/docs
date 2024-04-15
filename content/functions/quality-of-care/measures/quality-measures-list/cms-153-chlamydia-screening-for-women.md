@@ -12,16 +12,17 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms153v10'
 source: 'https://drive.google.com/open?id=1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS153v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v8&showresulttype=Measure) (2020)  
-[CMS153v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v9&showresulttype=Measure) (2021)  
+[CMS153v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v8&showresulttype=Measure) (2020)
+
+[CMS153v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v9&showresulttype=Measure) (2021)
+
 [CMS153v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -36,12 +37,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>310</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -58,7 +58,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Women who are only eligible for the initial population due to a pregnancy test and who had an order for an x-ray or for a specified medication within 7 days of the pregnancy test.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li></ul></td>
+<td><ul><li>Women who are only eligible for the initial population due to a pregnancy test and who had an order for an x-ray or for a specified medication within 7 days of the pregnancy test.</li><li>Exclude patients who are in hospice care for any part of the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -72,12 +72,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -90,7 +87,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Stratification</strong></td>
-<td>Stratum 1: Patients age 16-20 
+<td>Stratum 1: Patients age 16-20<br />
 Stratum 2: Patients age 21-24</td>
 </tr>
 <tr>
@@ -105,18 +102,11 @@ Stratum 2: Patients age 21-24</td>
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-
 ### New UI Visit Encounter (valid RC202109+)
-
-
-
 
 
 ### Original Visit Encounter
@@ -129,35 +119,24 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 
 1. While documenting the Visit encounter, document the results of a chlamydia screening one of two ways:
 2. <strong>Option 1: Tests and Procedures Section</strong>
-
-
-   1. Open the Tests and Procedures section.
-   2. Using the autocomplete, begin typing Chlamydia, and select the appropriate screening.
-   3. Click the Add to Exam button.
-   4. After adding the new section, open the screening section and enter the results.
-   5. Click the Next button, or close the section.
-
-
+    1. Open the Tests and Procedures section.
+    2. Using the autocomplete, begin typing Chlamydia, and select the appropriate screening.
+    3. Click the Add to Exam button.
+    4. After adding the new section, open the screening section and enter the results.
+    5. Click the Next button, or close the section.
 3. <strong>Option 2: Add Observation using Observations Chart Tab</strong>
-
-
-   1. Navigate to the patient chart.
-   2. Open the Observations tab of the Medical Records chart tab.
-   3. Click the Add Observation link in the upper-right corner.
-   4. Begin typing the name of the observation and select the appropriate one.
-   5. Enter the Date the screening was performed, its Result, and any relevant Comments.
-   6. Click the Submit button.
-
-
+    1. Navigate to the patient chart.
+    2. Open the Observations tab of the Medical Records chart tab.
+    3. Click the Add Observation link in the upper-right corner.
+    4. Begin typing the name of the observation and select the appropriate one.
+    5. Enter the Date the screening was performed, its Result, and any relevant Comments.
+    6. Click the Submit button.
 4. Continue documenting the encounter, as needed.
 5. When completed, Close and Archive the encounter
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -248,12 +227,9 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 <td>Procedure, Performed: Procedures Used to Indicate Sexual Activity</td>
 <td>2.16.840.1.113883.3.464.1003.111.12.1017</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -276,12 +252,9 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -292,9 +265,7 @@ Regardless of how the chlamydia screening observation is added to the chart, cli
 <td>Laboratory Test, Performed: Chlamydia Screening</td>
 <td>2.16.840.1.113883.3.464.1003.110.12.1052</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

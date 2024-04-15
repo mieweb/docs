@@ -6,32 +6,51 @@ version: 117
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 From the Control sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
+
 ![](../colors.assets/1de645dc287fc66654b6c20a1d1df421.png)
+
 When you are in the Colors module, there are 2 choices of Color Scheme by default that you can look at and set. This section gives you a quick glance at what things will look like as you change colors. It also shows if you are changing the "System" colors (named Custom) or the miEHR colors (miEHR colors are defaulted to be MIE's branded colors of green, orange, etc).
+
 ![](../colors.assets/dfe166e4b175293597fca4a8025ae1f3.png)
+
 Each logged in user has their own My Settings preference to determine which color scheme they want to see {{% system-name %}} in. However any changes done to any color scheme in {{% system-name %}} will affect all users that have that selected. The My Settings preference is called *Color Scheme*.
+
 ![](../colors.assets/35615f7668b50b26588a037865334625.png)
-It also provides you with the opportunity to customize colors per individual patient, for System (CoBranded) or miEHR CoBrand.  
-![](../colors.assets/c5a3b72ca0af7d9b52d561c63c74dd1d.png) ![](../colors.assets/268f424430b6bedb5bfd6d752460a0c8.png)
+
+It also provides you with the opportunity to customize colors per individual patient, for System (CoBranded) or miEHR CoBrand.
+
+![](../colors.assets/c5a3b72ca0af7d9b52d561c63c74dd1d.png)
+
+![](../colors.assets/268f424430b6bedb5bfd6d752460a0c8.png)
+
 ![](../colors.assets/b96ddea08c6a3e7aad5735b051b1b5f4.png)
+
 The top portion is a summary of the color scheme you are looking at and all types of settings and what color they are set to.
+
 ![](../colors.assets/bb74df28be7aa4a37085358e05b80f76.png)
+
 Below that is where you can change the entire system font. If all you want to do is change font only, you can set that and then scroll down and click the Submit Colors button.
+
 ![](../colors.assets/d5271d186197f6feed41f13cef1c4895.png)
+
 Down at the bottom is a *Refresh Image Cache* button. You may want to scroll down there first and click that. This makes sure that the most recent copy of all images/colors are being used.
+
 ![](../colors.assets/ca85765949a0d160beec050aae7cbe90.png)
+
 The next section is all the settings that colors can be changed and shows the color they are set to currently. The radio button is what you would click to select that specific item you want to change color for. The next step would be to either select a color on the right side with your mouse to apply to that selected field *or* if you know a specific Hex Value code that you want for it, you can type that in the field. Whatever radio button of the item selected is what will be applied this color.
+
 ![](../colors.assets/35e8066c06448e794b0df99af5a16ed7.png)
 
 ?REMEMBER THAT CHART TABS, DOCUMENTS, APPOINTMENTS ALSO HAVE COLORS WITHIN THOSE MODULES WHICH CAN BE CHANGED! ALL CHANGES DO NOT OCCUR IN THIS COLOR TAB EDITOR.←
 
 The Submit Colors button is at the bottom of the screen which you would click to save & submit any color changes you did.
-![](../colors.assets/1f6c17d4be00d1abe9b823c56a5719ae.png)
-For details on every specific item to change color for (where/what will change if you select something to change its color), please see next pages.
 
+![](../colors.assets/1f6c17d4be00d1abe9b823c56a5719ae.png)
+
+For details on every specific item to change color for (where/what will change if you select something to change its color), please see next pages.
 <table>
 <tr>
 <td><strong>Item</strong></td>
@@ -121,27 +140,27 @@ For details on every specific item to change color for (where/what will change i
 <tr>
 <td><em>Outline Color</em></td>
 <td><em>In former versions, was the outline of the tabs. No longer used in System Colors.</em></td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><em>Font Color</em></td>
 <td><em>No longer used in System Colors.</em></td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td>Link Color</td>
 <td><em>No longer used in System Colors.</em></td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><em>Visited Link Color</em></td>
 <td><em>No longer used in System Colors.</em></td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><em>Active Link Color</em></td>
 <td><em>No longer used in System Colors.</em></td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td>Alert Color</td>
@@ -171,7 +190,7 @@ For details on every specific item to change color for (where/what will change i
 <tr>
 <td><em>SubTitle Border Color</em></td>
 <td><em>The color between header cells in list views and list edits. No longer used in System Colors.</em></td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td>New Record Color</td>
@@ -191,7 +210,7 @@ For details on every specific item to change color for (where/what will change i
 <tr>
 <td><em>Phone Notes Font Color</em></td>
 <td><em>Color of font on text notes. No longer used in system colors.</em></td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td>Doc Notes Color</td>
@@ -263,6 +282,4 @@ For details on every specific item to change color for (where/what will change i
 <td>Font for links at top, like MyTasks, DocQueue, etc.</td>
 <td><img src="../colors.assets/10abc7f3e8bf777bd92dfe3cfcdf161e.png" />!Images^components_system_configuration_general_configuration_colors_media_83.png!The numbers in () parenthesis for E-Sign and My Tasks are hard-coded and can only be changed by MIE.</td>
 </tr>
-
 </table>
-

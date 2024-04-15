@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../portal-management.md'
 source: 'https://drive.google.com/open?id=1faeAEwfFOMCYV4zh0yko4gGtLwhgypG1ZtcSZXAbAn4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Given the {{% system-name %}} solution's foundation, modifications and customizations are a simple process that merely involve uploading the appropriate file(s), as needed. These simple types of customizations can be seen throughout various parts of the solution. For example, review the [Portal Management documentation](../portal-management.md) for branding needs and customizations, as they relate to associated available portals. Overall, and as a general practice, customizations are a user-friendly, easy process, which can be seen throughout the solution.
 
@@ -20,7 +20,6 @@ The System Files manager displays the currently uploaded system files. There are
 
 There are various ways system files can be utilized, so to add to or manage these files ensure the appropriate security permissions have been granted, and note the following:
 
-
 1. Navigate to the <strong>Control Panel</strong>.
 2. Click the <strong>System Files</strong> tab.
 3. Click the <strong>Add System File</strong> link.
@@ -30,12 +29,13 @@ There are various ways system files can be utilized, so to add to or manage thes
 
 {{% note %}}
 If the file being uploaded is replacing an existing default image, do not change the alias provided. Depending on the intended purpose of the system file, the alias is the identifier for system-wide compatibility.
+
+
 {{% /note %}}
 
 7. Write a <strong>Description</strong> to assist with differentiation, or for additional detail, that may help with file utility.
 8. Click the <strong>Add file</strong> button.
 9. Upon upload, a confirmation will display, along with its revision status.
-
 
 ### Edit/Delete System Files
 
@@ -45,7 +45,6 @@ The more common use of the System Files manager is seen with corporate branding,
 
 To update or edit system files:
 
-
 1. Navigate to the <strong>Control Panel</strong>.
 2. Click the <strong>System Files</strong> tab
 3. Click the System Logo <strong>Edit</strong> link in the Options column, or the System Letterhead <strong>Edit</strong> link, depending on what is needing updated.
@@ -54,11 +53,9 @@ To update or edit system files:
 6. Click the <strong>Edit file</strong> button.
 7. Upon upload, a confirmation will display at the top of the screen, listing the File Alias and its revision status.
 
-
 #### Deleting System Files
 
 Deleting system files is no more difficult than adding or editing a file:
-
 
 1. In the <strong>System Files</strong> tab, click the <strong>Delete</strong> link in the Options column of the file needing removed.
 2. An alert will display to verify the interest in deleting the specified file. Click <strong>OK</strong>.

@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms154v10'
 source: 'https://drive.google.com/open?id=1W0FANlgAIXUMqpKPJK6j0CUcGtHkY_-tbJsNQ_RkkcQ'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS154v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v8&showresulttype=Measure) (2020)  
-[CMS154v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v9&showresulttype=Measure) (2021)  
+[CMS154v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v8&showresulttype=Measure) (2020)
+
+[CMS154v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v9&showresulttype=Measure) (2021)
+
 [CMS154v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0069</td>
 <td>065</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -57,7 +57,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude URI episodes when the patient had a comorbid condition during the 12 months prior to or on the episode date.</p></li><li><p>Exclude URI episodes when the patient had an active prescription of antibiotics in the 30 days prior to the episode date, including the episode date up until the time of the encounter.</p></li><li><p>Exclude URI episodes when the patient had competing diagnosis on or three days after the episode date.</p></li><li><p>Exclude URI episodes when the patient had hospice care for any part of the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude URI episodes when the patient had a comorbid condition during the 12 months prior to or on the episode date.</li><li>Exclude URI episodes when the patient had an active prescription of antibiotics in the 30 days prior to the episode date, including the episode date up until the time of the encounter.</li><li>Exclude URI episodes when the patient had competing diagnosis on or three days after the episode date.</li><li>Exclude URI episodes when the patient had hospice care for any part of the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -89,7 +86,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Stratification</strong></td>
-<td><ul><li><p>3 months-17 years</p></li><li><p>18-64 years</p></li><li><p>65 years and older</p></li></ul></td>
+<td><ul><li>3 months-17 years</li><li>18-64 years</li><li>65 years and older</li></ul></td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -103,22 +100,14 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Efficiency and Cost Reduction</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
 
 ## Clinical Instructions
 
@@ -127,12 +116,9 @@ Tracks children aged 13 months to 18 years who have been diagnosed with an upper
 1. Ensure patient has a diagnosis of Upper Respiratory Infection.
 2. For individuals who have been diagnosed, review medications and ensure an antibiotic was not dispensed on or 3 days after the visit for the infection.
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -211,12 +197,9 @@ Tracks children aged 13 months to 18 years who have been diagnosed with an upper
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -243,12 +226,9 @@ Tracks children aged 13 months to 18 years who have been diagnosed with an upper
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -263,9 +243,7 @@ Tracks children aged 13 months to 18 years who have been diagnosed with an upper
 <td>Medication, Order: Antibiotic Medications for Pharyngitis</td>
 <td>2.16.840.1.113883.3.464.1003.196.12.1001</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

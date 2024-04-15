@@ -14,7 +14,7 @@ links:
   - 'https://system/?func=scheduler&s=apttypes'
   - 'https://system/?func=scheduler#Now'
 source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Within every chart, there are several quick links available. One of these quick links is the **Print Chart** link, which allows users to fax or print pre-established or configured print definitions from the Scheduler, the Appointments chart tab, or from within the individual's E-Chart. In other words, using the Print Chart link provides users a way to print or fax predefined groupings of documents, forms, layouts, or the like, so that any specific packets of information, or stored documents, may easily be provided via fax, or else printed and provided to a performing facility or a patient, as needed. Print definitions can include individual documents or certain forms, multiple-page packets, or even chart information, such as a medication summary or a list of immunizations.
 
@@ -22,7 +22,7 @@ The print definitions used for the Print Chart functionality can be set up using
 
 For more information on how print definitions can be configured, see the [Print Definitions](print-definitions.md) help documentation.
 
-## Print Chart from E-Chart 
+## Print Chart from E-Chart
 
 After navigating to a specific chart from the [E-Chart module](https://system/?f=chart), users will find various places with the **Print Chart** link available. Clicking any of these Print Chart links will allow users to select and render a specific print definition, as needed.
 
@@ -32,10 +32,14 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 ![](../print-chart.assets/78a68c7140b52bdae847c8f3a696f9e5.png)
 
-**Print Definition**: The Print Definition drop-down lists the print definitions programmed from the Print Definition editor of the Control Panel. Any print definitions restricted from the user will not be displayed in the drop-down selector. The appropriate print definition must be selected when printing or faxing.  
-**Definition Alert**: This field will appear when a selected print definition has been configured with an alert. Be sure to review any alerts that may appear when selecting a print definition.  
-**Comment**: The Comment field can be used to add a comment to a fax coversheet, or when printing, the comment will be stored with the history of the print job details. However, when using a Records Release print definition, the Comment field must be used to provide a reason for the Records Release.  
-**Range Start Date**: This is an optional field. Users may provide a start date/time range filter of the documents included in the selected print definitions.  
+**Print Definition**: The Print Definition drop-down lists the print definitions programmed from the Print Definition editor of the Control Panel. Any print definitions restricted from the user will not be displayed in the drop-down selector. The appropriate print definition must be selected when printing or faxing.
+
+**Definition Alert**: This field will appear when a selected print definition has been configured with an alert. Be sure to review any alerts that may appear when selecting a print definition.
+
+**Comment**: The Comment field can be used to add a comment to a fax coversheet, or when printing, the comment will be stored with the history of the print job details. However, when using a Records Release print definition, the Comment field must be used to provide a reason for the Records Release.
+
+**Range Start Date**: This is an optional field. Users may provide a start date/time range filter of the documents included in the selected print definitions.
+
 **Range End Date**: This is an optional field. Users may provide an end date/time range filter of the documents included in the selected print definitions.
 
 ![](../print-chart.assets/b31aa3ed76aab46d6ad6ca72bd104730.png)
@@ -49,8 +53,11 @@ When the **Print without headers** option is selected, another option will be 
 {{% /note %}}
 
 **Print one document per page**: This option allows users to print each document of the print definition on a separate page. This is particularly helpful when printing text entry notes, which tend to run together on a page.
+
 **Print documents that have been Locked**: Some print definitions may have locked documents associated with them. When the user has the necessary security permission and this option is selected, the print definition will include the locked document(s) when printing/faxing.
+
 **Print only documents that have NOT been printed**: Selecting this option will ensure only those documents not included previously will be rendered from the print definition when used again. This will reduce waste by printing only those things that have not been printed or rendered before.
+
 **Use legacy print formatting**: By default, the Enterprise Health system prints documents using WebKit formatting, which is to say formatting designed with indentations, bulletting, and specific parsing for the document structure. Alternatively, legacy print formatting simply renders a generic html document (no indentations, bullets, etc.) for printing.
 
 ![](../print-chart.assets/100000000000027000000158A53F33EA6C6A6370.gif)
@@ -64,9 +71,10 @@ When the Use WebKit system setting is enabled, printed html documents will have 
 {{% /tip %}}
 
 **Send To/Create New Batch**: The Send To section of the Print Chart dialog window allows users to choose how the selected print definition is to be handled. In other words, users may use the same dialog window to send the print definition to the printer, to the fax machine, through secure email, or if the documents being rendered are not being added to an existing batch, a new batch can be created. If an existing batch is being added to, simply select the **Add To** radio button and proceed. This will add the document(s) of the print definition into the pending batch selected. Otherwise, select the *Printer*, *Fax*, *Secure Email*, or *Create New Batch* radio button to proceed. If a new batch is needed for the print definition, for example, simply select the *Create New Batch* radio button and proceed by adding any necessary batch comment at the top of the dialog window and clicking the **Create Batch** button at the bottom. The print definition will then be housed in a batch until faxed/printed. When simply printing or faxing a print definition outside of a batch, users may skip this section and continue by clicking either the **Print** or **Fax** button, accordingly.
+
 For more detailed information on general faxing and printing, see our [Printing Documents](printing-documents.md) or [Faxing Documents](../../fax-manager/faxing-documents.md) help documentation.
 
-### Print Chart from Appointments Chart Tab 
+### Print Chart from Appointments Chart Tab
 
 As noted, the Print Chart functionality is available from various locations within the Enterprise Health system. In addition to the Summary chart tab quick links and the portlet sharing the same name, the Print Chart link can be found in the **Appointments** chart tab, found under the **Admin** parent chart tab, when in an individual's chart.
 
@@ -87,6 +95,7 @@ Appointment Type Print Definitions are configured in the [Appointment Types edit
 {{% /tip %}}
 
 Print Chart from Scheduler
+
 In addition to the various locations users can access the Print Chart functionality within the chart,  {{% system-name %}} includes this same functionality from the [Scheduler](https://system/?func=scheduler#Now) module. When viewing scheduled appointments from the Scheduler, simply click the **Print Chart** link *within* the specific scheduled appointment block, and any printing or faxing needing to be done according to the scheduled appointment can be addressed.
 
 ![](../print-chart.assets/b92a285b251a8b907a4a27c338ee9a19.png)

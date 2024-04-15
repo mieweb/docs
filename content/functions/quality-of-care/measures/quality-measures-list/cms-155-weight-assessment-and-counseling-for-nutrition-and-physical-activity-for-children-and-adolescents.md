@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms155v10'
 source: 'https://drive.google.com/open?id=16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS155v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v8&showresulttype=Measure) (2020)  
-[CMS155v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v9&showresulttype=Measure) (2021)  
+[CMS155v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v8&showresulttype=Measure) (2020)
+
+[CMS155v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v9&showresulttype=Measure) (2021)
+
 [CMS155v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>239</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -62,7 +62,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Patients who have a diagnosis of pregnancy during the measurement period.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li></ul></td>
+<td><ul><li>Patients who have a diagnosis of pregnancy during the measurement period.</li><li>Exclude patients who are in hospice care for any part of the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -78,12 +78,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -96,7 +93,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Stratification</strong></td>
-<td><ul><li><p>3-11 years</p></li><li><p>12-17 years</p></li></ul></td>
+<td><ul><li>3-11 years</li><li>12-17 years</li></ul></td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -110,31 +107,20 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Community/Population Health</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
 
-
-2.  Height, weight and BMI observations will need to be documented for the patient within the Visit encounter.  If the patient's BMI is out of range, a warning message will display asking if a dietary consult order should be created.  User should click Ok to have the Dietary Consult order ordered within the Plan section of the Visit encounter.  An order item of Physical Activity consult should also be ordered as well.
-
+2. Height, weight and BMI observations will need to be documented for the patient within the Visit encounter.  If the patient's BMI is out of range, a warning message will display asking if a dietary consult order should be created.  User should click Ok to have the Dietary Consult order ordered within the Plan section of the Visit encounter.  An order item of Physical Activity consult should also be ordered as well.
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -169,12 +155,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -197,12 +180,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -229,9 +209,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Physical Exam, Performed: Weight</td>
 <td>2.16.840.1.113883.3.464.1003.121.12.1015</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

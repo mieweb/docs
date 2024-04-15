@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms074v11'
 source: 'https://drive.google.com/open?id=1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS74v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure) (2020)  
-[CMS74v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v10&showresulttype=Measure) (2021)  
+[CMS74v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure) (2020)
+
+[CMS74v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v10&showresulttype=Measure) (2021)
+
 [CMS74v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>379</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -89,7 +86,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Stratification</strong></td>
-<td><ul><li><p>6 months-5 years</p></li><li><p>6-12 years</p></li><li><p>13-20 years</p></li></ul></td>
+<td><ul><li>6 months-5 years</li><li>6-12 years</li><li>13-20 years</li></ul></td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -103,17 +100,13 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
 Track reports of dental fluoride application for all patients 6 months to 20 years of age.
 
 ### Workflow
-
 
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Preventive Care section
@@ -122,12 +115,9 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 5. Continue documenting the encounter, as appropriate
 6. When completed, Close and Archive the encounter
 
-
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -166,12 +156,9 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -190,12 +177,9 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -206,11 +190,8 @@ Track reports of dental fluoride application for all patients 6 months to 20 yea
 <td>Procedure, Performed: Fluoride Varnish Application for Children</td>
 <td>2.16.840.1.113883.3.464.1003.125.12.1002</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 
 [eCQI CMS74](https://ecqi.healthit.gov/ecqm/ep/2022/cms074v11)
-

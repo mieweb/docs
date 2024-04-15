@@ -7,14 +7,16 @@ lastAuthor: 'Alan Quandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 
 ![](../task-search.assets/40fce06d834968e81be9b252d8a9c73c.png)
 
-The Task Search screen contains search criteria fields to help render a listing of created tasks in the {{% system-name %}} system.  
-The search requires at least one search criteria field to be specified before any results can generate.  Using the search criteria fields can help narrow down the results to as granular as needed.  
+The Task Search screen contains search criteria fields to help render a listing of created tasks in the {{% system-name %}} system.
+
+The search requires at least one search criteria field to be specified before any results can generate.  Using the search criteria fields can help narrow down the results to as granular as needed.
+
 The search criteria fields are described as:
 
 * Task ID: If known, type in the specific Task ID number to search for.
@@ -46,4 +48,3 @@ If need to run another Task Search, but want to keep most of the search criteria
 ![](../task-search.assets/4921706f28c20b0fc52cceb4e6f42e84.png)
 
 Clicking that will take you back to the Task Search, but keeps all the search criteria fields set to the previously entered criteria.  At that point, you can simply modify any specific search field(s) needed, without having to enter fields and data again from scratch. Click the Submit button to run a modified search.
-

@@ -13,7 +13,7 @@ links:
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1_7hqvXyUU3mbM8rCJ8GvthD6asStMJ5d9pbZkBQv4FM'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely within {{% system-name %}}.
 
@@ -32,9 +32,6 @@ To access and utilize a bubble form for recording information, simply navigate t
 
 3. Print out the bubble form. Record the results by coloring in the respective bubbles, scan and index the form(s) back into the appropriate chart(s).
 
-
-
-
 ![](../audio-vision-data-entry.assets/9d56b95b04d1a05cb729878bace408a7.png)
 
 {{% info %}}
@@ -50,6 +47,7 @@ There are alternative, manual processes outside of using and scanning in bubble 
 An alternative to the bubble form is the manual process of entering results through an encounter.
 
 For example, navigating to the Test Results chart tab allows users to select what type of results need to be entered or reviewed. One of the types of results is **Vision** results. When selected, the screen will display a **List View** of all of the vision encounters that are archived/closed (i.e., stored encounter documents). Below that, it will show a **Summary** of the observations in the chart.
+
 ![](../audio-vision-data-entry.assets/87f6f4d68ae4d8aa8000e9d17e56c042.png)
 
 1. Click the <strong>Add Vision Screening</strong> link, in the upper-right corner. This will create a Vision Screening encounter in the chart and will open the Vision Screening data fields for input.
@@ -67,10 +65,13 @@ The data will be stored in the system as observations, found in the Observations
 ### Load From Device
 
 When accessing the Test Results chart tab, after adding a new audio-vision screening, there is the ability to upload results from a device or enter data manually. To utilize the semi-automatic process of uploading results from a file, simply use the **Automatic** link, when determining the **Vision Process** for inputting the results.
+
 ![](../audio-vision-data-entry.assets/1729a184abfd46d775fdece5a9ff5a01.png)
+
 For more information on audiogram device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs), [Device Interface - Audio System](../../system-administration/interfaces/device-interface-audio-system.md), or [Device Interfaces - Audio: Tremetrics/Maico](../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md).
 
 ## Reporting
 
 These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit, or encounter. The Vision Screenings report is available here, for example.
+
 ![](../audio-vision-data-entry.assets/04f5c30a649a36abbd640bf475de447e.png)

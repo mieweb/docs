@@ -7,10 +7,8 @@ lastAuthor: 'Dave Carlson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-
-
 <table>
 <tr>
 <td><strong>Organization Name</strong></td>
@@ -24,6 +22,4 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Maui Medical Group</td>
 <td>https://maui.webchartnow.com/webchart.cgi/fhir/</td>
 </tr>
-
 </table>
-

@@ -9,19 +9,7 @@ links:
   - '../../functions/system-administration/data-migration/create-cases-file-for-import.md'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=1nXrFjzTbyMi_As_lbDc5OIGFCsqmfTNLYVEQ5UDffYo'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-
-
-
-
-
-
-
-
-
-
-
-
 * [Create Cases File for Import](../../functions/system-administration/data-migration/create-cases-file-for-import.md)
 * [Cases Data Validation Test](https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI)

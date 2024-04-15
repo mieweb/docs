@@ -7,19 +7,8 @@ lastAuthor: 'Doug Horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1D-Ah67z4hSAKLf0PITZr19h2pvlg3rVBva6P3yl1bno'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-
-
-
-
 For those specializing in occupational health needs, the burden of reporting and compliance is an ongoing commitment. Because of this, {{% system-name %}} makes available various resources and a compilation of documentation meant to streamline the varying requirements and corporate requirements of occupational medicine.
 
-
-
 {{% children %}}
-
-
-
-
-

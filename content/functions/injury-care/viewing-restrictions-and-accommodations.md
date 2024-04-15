@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'adding-restrictions-and-accommodations.md'
 source: 'https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout {{% system-name %}} and its own chart tab outside of an encounter exam.
 
@@ -40,7 +40,6 @@ To go back to the bulleted summary view, simply click the summary view icon at t
 
 ![](../viewing-restrictions-and-accommodations.assets/d97975dddf9fdd1aabe00628e4eb6b38.png)
 
-
 ## Viewing Active Restrictions in an Encounter
 
 While working in an encounter, there is a Subjective section that you can jump to named Presenting Restrictions.  When you jump to that section, it will show you all presenting restrictions along with any accommodations in a summary format. The presenting restrictions displayed are active, current restrictions along with any accommodations that are current.  This section is for visibility purposes to quickly see any active restrictions a chart has when beginning an encounter exam.
@@ -51,13 +50,11 @@ While working in an encounter, there is a Subjective section that you can jump t
 Restrictions or accommodations cannot be added from the Presenting Restrictions encounter section.  You must jump to the separate section named Restrictions and Accommodations in the Plan to edit, add or delete restrictions on a chart.
 {{% /note %}}
 
-
 ## Viewing Active Restrictions in Side Chart
 
 Any active current restrictions that are specifically linked to a case/incident are also displayed on the side chart.  When you open the side chart, any open cases/incidents for the chart are listed. When you expand a specific case, any linked restrictions and accommodations will be visible there also.
 
 ![](../viewing-restrictions-and-accommodations.assets/e0c6d6cb0809ea952e550a2a74c2e398.png)
-
 
 ## Inactive Restrictions
 
@@ -75,11 +72,8 @@ Once clicking the Show Inactive link, the summary view will show and incorporate
 When clicking on the title bar, it also opens up the ability to edit, delete and add restrictions. Refer to our other guide on [adding restrictions and accomodations](adding-restrictions-and-accommodations.md).
 {{% /tip %}}
 
-
 ### From Restrictions & Accommodations Encounter Section
 
 In order to view inactive restrictions within an encounter, simply click the encounter section Restrictions and Accommodations found in the Plan.  Inactive restrictions are restrictions that have passed their end date.  Whether you are in summary view or detail view, when you click on the section title bar that will open up the section to provide the Show Inactive hyperlink to view inactive restrictions on the patient.  Once clicking the Show Inactive link, the summary view will show all past inactive restrictions on the chart along with the current active restrictions if there are any.
 
 ![](../viewing-restrictions-and-accommodations.assets/1b9a456da19846fb188a00d41551cf47.png)
-
-

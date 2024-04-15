@@ -8,49 +8,36 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mywebchart.com/plugins/'
 source: 'https://drive.google.com/open?id=1V90eWt3lkw7ZavZz3PbbOwMivpWiuD4tCF1g0l-CZMM'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 There is also added support to {{% system-name %}} for the MIEplayer plugin to be used in alternative browsers such as Firefox or Chrome. Firefox will open a plugin downloader and manually installing the plugin will get a user up and running. Chrome and other browsers require more work. https://mywebchart.com/plugins/ will host details. If user is on a Macintosh, a java plugin can be optionally setup to be used. It is not as feature rich but functional. The steps described below are for Internet Explorer.
 
 1. Log into your {{% system-name %}} system.
 2. Under the E-Chart tab, enter "Oil" in the search box to find test patient like Olive Oil or Mickey Mouse, etc.
 
-
 ![](../how-to-install-mieplayer-control.assets/afd7bebf57ca4b23090d2b90a2b79202.png)
-
 
 3. Get into the test patient's chart and click on the Add Dictation link under the test patient's name from any tab.
 
-
 ![](../how-to-install-mieplayer-control.assets/99348dc0339c3576f027bc4bed15f672.png)
-
 
 4. Depending on your Internet Explorer settings you may see a notice about the information bar. Click close. Otherwise, proceed and click one time in the YELLOW area of the message asking to install the add-on named MIEplayer.ocx.
 
-
 ![](../how-to-install-mieplayer-control.assets/6d53e2a28dfd37c6902cf55d3490b2e8.png)
-
 
 5. When you click in the yellow bar to install, another small window will open. Select INSTALL ACTIVEX CONTROL.
 
-
 ![](../how-to-install-mieplayer-control.assets/f1c17b7a0b15da055e4c56c7a0eb4ae7.png)
-
 
 6. You will be prompted to install the MIEplayer control. Click on the INSTALL button.
 
-
 ![](../how-to-install-mieplayer-control.assets/3b5da882fbc087d59ff4618f58f4bebe.png)
-
 
 7. The MIEPlayer control <em>may</em> create a spool directory on the PC. Click the OK button if this appears. If this window does not appear, it will directly open the MIEPlayer window and you are all done.
 
-
 ![](../how-to-install-mieplayer-control.assets/e895308db579822f7841acb4a6c64660.png)
 
-
 8. You are now ready to use the MIEPlayer with the Phillips Speechmike for any patient in {{% system-name %}} .
-
 
 ![](../how-to-install-mieplayer-control.assets/30f801ab5b11141acc37623c9106be9d.png)
 

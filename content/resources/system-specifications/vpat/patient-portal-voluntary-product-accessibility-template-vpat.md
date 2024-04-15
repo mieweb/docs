@@ -90,25 +90,33 @@ links:
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-context-help'
   - 'http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all'
 source: 'https://drive.google.com/open?id=1KUzYPujy6FRjGnKxGhV2JxkonNssifccodK6J5eCDMQ'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-**Medical Informatics Engineering, Inc. Accessibility Conformance Report**   
-**WCAG Edition**  
-**(Based on VPAT**®** Version 2.4)**  
-**Name of Product/Version:** [**WebChart EHR Patient Portal**](../../../_index.md)  
-**Report Date: Sep 9, 2021**  
-**Product Description:** [**WebChart Patient Portal**](../../../functions/portal-management.md)  
-**Notes: This document only applies to the Employer Portal of** [**WebChart**](../../../_index.md)**.  A separate template has been completed for the public web-facing components.**  
+**Medical Informatics Engineering, Inc. Accessibility Conformance Report**
+
+**WCAG Edition**
+
+**(Based on VPAT**®** Version 2.4)**
+
+**Name of Product/Version:** [**WebChart EHR Patient Portal**](../../../_index.md)
+
+**Report Date: Sep 9, 2021**
+
+**Product Description:** [**WebChart Patient Portal**](../../../functions/portal-management.md)
+
+**Notes: This document only applies to the Employer Portal of** [**WebChart**](../../../_index.md)**.  A separate template has been completed for the public web-facing components.**
+
 **Evaluation Methods Used:**
 
 * Testing is based on general product knowledge
 * Testing is based on similarity to other evaluated products (Webchart EHR - Patient and Agency Portal)
 * Other testing methods: (a11y)
 
-**Applicable Standards/Guidelines**  
-**Applicable Standards/Guidelines**  
-This report covers the degree of conformance for the following accessibility standard/guidelines:
+**Applicable Standards/Guidelines**
 
+**Applicable Standards/Guidelines**
+
+This report covers the degree of conformance for the following accessibility standard/guidelines:
 <table>
 <tr>
 <td><strong>Standard/Guideline</strong></td>
@@ -116,19 +124,20 @@ This report covers the degree of conformance for the following accessibility sta
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211">Web Content Accessibility Guidelines 2.0</a></td>
-<td>Level A - Yes
-Level AA - Yes
+<td>Level A - Yes<br />
+Level AA - Yes<br />
 Level AAA - Yes</td>
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21">Web Content Accessibility Guidelines 2.1</a></td>
-<td>Level A - Yes
-Level AA - Yes
+<td>Level A - Yes<br />
+Level AA - Yes<br />
 Level AAA - Yes</td>
 </tr>
-
 </table>
-**Terms**  
+
+**Terms**
+
 The terms used in the Conformance Level information are defined as follows:
 
 * <strong>Supports</strong>: The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.
@@ -137,23 +146,23 @@ The terms used in the Conformance Level information are defined as follows:
 * <strong>Not Applicable</strong>: The criterion is not relevant to the product.
 * <strong>Not Evaluated</strong>: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
 
+**WCAG 2.1 Report**
 
-**WCAG 2.1 Report**  
 Note: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the[ ](https://www.w3.org/TR/WCAG20/#conformance-reqs)[WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
 
-**Table 1: Success Criteria, Level A**  
-Notes:
+**Table 1: Success Criteria, Level A**
 
+Notes:
 <table>
 <tr>
 <td><strong>Criteria</strong></td>
-<td><strong>Conformance Level </strong></td>
+<td><strong>Conformance Level</strong></td>
 <td><strong>Remarks and Explanations</strong></td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#text-equiv-all"><strong>1.1.1 Non-text Content</strong></a> (Level A)</td>
 <td>PARTIALLY SUPPORTS</td>
-<td>eg: Scanned content that end-users upload will not have alt tags with alternative text representations. </td>
+<td>eg: Scanned content that end-users upload will not have alt tags with alternative text representations.</td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt"><strong>1.2.1 Audio-only and Video-only (Prerecorded)</strong></a> (Level A)</td>
@@ -181,7 +190,7 @@ Notes:
 <td></td>
 </tr>
 <tr>
-<td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding"><strong>1.3.3 Sensory Characteristics</strong></a><strong> </strong> (Level A)</td>
+<td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding"><strong>1.3.3 Sensory Characteristics</strong></a><strong></strong>  (Level A)</td>
 <td>SUPPORTS</td>
 <td></td>
 </tr>
@@ -253,12 +262,12 @@ Notes:
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#pointer-cancellation"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)</td>
 <td>SUPPORTS</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)</td>
 <td>SUPPORTS</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)</td>
@@ -300,16 +309,15 @@ Notes:
 <td>SUPPORTS</td>
 <td></td>
 </tr>
-
 </table>
 
-**Table 2: Success Criteria, Level AA**  
-Notes:
+**Table 2: Success Criteria, Level AA**
 
+Notes:
 <table>
 <tr>
 <td><strong>Criteria</strong></td>
-<td><strong>Conformance Level </strong></td>
+<td><strong>Conformance Level</strong></td>
 <td><strong>Remarks and Explanations</strong></td>
 </tr>
 <tr>
@@ -325,12 +333,12 @@ Notes:
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)</td>
 <td>SUPPORTS</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)</td>
 <td>SUPPORTS</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)</td>
@@ -355,7 +363,7 @@ Notes:
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)</td>
 <td>SUPPORTS</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)</td>
@@ -365,7 +373,7 @@ Notes:
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)</td>
 <td>SUPPORTS</td>
-<td> </td>
+<td></td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)</td>
@@ -408,20 +416,19 @@ Notes:
 <td></td>
 </tr>
 <tr>
-<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a><strong> </strong>(Level AA 2.1 only)</td>
+<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a><strong></strong> (Level AA 2.1 only)</td>
 <td>SUPPORTS</td>
 <td>[?]</td>
 </tr>
-
 </table>
 
-**Table 3: Success Criteria, Level AAA**  
-Notes:
+**Table 3: Success Criteria, Level AAA**
 
+Notes:
 <table>
 <tr>
 <td><strong>Criteria</strong></td>
-<td><strong>Conformance Level </strong></td>
+<td><strong>Conformance Level</strong></td>
 <td><strong>Remarks and Explanations</strong></td>
 </tr>
 <tr>
@@ -450,7 +457,7 @@ Notes:
 <td>[?]</td>
 </tr>
 <tr>
-<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast7"><strong>1.4.6 Contrast (Enhanced</strong></a>)<strong> </strong> (Level AAA)</td>
+<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast7"><strong>1.4.6 Contrast (Enhanced</strong></a>)<strong></strong>  (Level AAA)</td>
 <td>DOES NOT SUPPORT</td>
 <td>[?] I'd be shocked if every part of the scope of Webchart/EH is evaluated at a minimum 7:1 ratio for contrast</td>
 </tr>
@@ -564,9 +571,8 @@ Notes:
 <td>SUPPORTS</td>
 <td></td>
 </tr>
-
 </table>
 
-**Legal Disclaimer (Medical Informatics Engineering, Inc.)**  
-*Include your company legal disclaimer here, if needed*
+**Legal Disclaimer (Medical Informatics Engineering, Inc.)**
 
+*Include your company legal disclaimer here, if needed*

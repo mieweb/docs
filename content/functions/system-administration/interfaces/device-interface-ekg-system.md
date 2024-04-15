@@ -6,7 +6,7 @@ version: 45
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 This document describes the interface between {{% system-name %}} and the Welch Allyn EKG Monitoring system known as CardioPerfect. {{% system-name %}} can interface with other models of devices, so please contact Help Desk for verification and quote for the interface.
 
@@ -30,7 +30,6 @@ Then the end user is presented CardioPerfect to conduct the EKG. After the user 
 * Note: MIE has ability to hide the "Normal" and "Review" radio buttons for EKG tests. This is using a system setting "E-Chart", "EKG", "Ignore Flag Interpretations". This setting is only checked in javascript and the layout so will need to be manually added by MIE for practices who want to use it.
 * The user clicks the Upload button in {{% system-name %}} to create a document from the TIF and an observation from the interpretation. The normal/abnormal value is stored as the flag on the interpretation observation.
 
-
 ### Model Numbers
 
 A list of devices known to work with this interface (but please verify with your MIE Implementer for other models):
@@ -39,9 +38,7 @@ A list of devices known to work with this interface (but please verify with your
 * CP20
 * AT-2 Plus
 
-
 ### Technical Details
-
 
 * CardioPerfect must be installed on the PC from which EKGs will be recorded.
 * FileLink must be installed and configured to write TIFF files when a new test is created.
@@ -51,14 +48,11 @@ Once installed and MIE programmers have system and/or encounters configured, the
 
 ## Electrocardiogram (ECG or EKG)
 
-
 1. Open {{% system-name %}} .
 2. Pull up correct patient.
 3. Choose correct encounter (or chart tab tool) and make sure there is an Electrocardiogram on the Due List; or you may need add an encounter and check the Due List for the procedure. If there is not one, you will need to add it to the Due List.
 
-
 ### Doing the EKG
-
 
 1. Welch Allyn CardioPerfect program will open automatically if there is an EKG on the due list.
 
@@ -69,6 +63,7 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 1. This is the screen that you will see if you attempt to login to Welch Allyn software manually. If you attempted to login this way you will not be successful. You will receive and "Access Denied" pop-up.
 
 ![](../device-interface-ekg-system.assets/eef46d09312308a4217dd665cde1f07b.png)
+
 ![](../device-interface-ekg-system.assets/e091b3d79a8b0334a0be37448272d94e.png)
 
 1. If this happens you need to change the Username to "Admin" and the password to "Admin" and select login. There may also be another login screen behind the scenes that you will need to input the same Username and Password….Admin, Admin.
@@ -76,12 +71,16 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 ![](../device-interface-ekg-system.assets/5ea8097066dca9f7316f88127e5a4e1e.png)
 
-1. Select the ![](../device-interface-ekg-system.assets/6e88aadaaf95e4eefce77e153ea882e9.png) button at the top of the screen to begin your test.
+1. Select the 
+    ![](../device-interface-ekg-system.assets/6e88aadaaf95e4eefce77e153ea882e9.png)
+     button at the top of the screen to begin your test.
 2. EKG should start and show on screen.
 
 ![](../device-interface-ekg-system.assets/b9e30b28972f7285d4114692000852bb.png)
 
-1. Observe the screen and Select Record ![](../device-interface-ekg-system.assets/22edf80eda768aca16675a710c513a90.png) when you are ready.
+1. Observe the screen and Select Record 
+    ![](../device-interface-ekg-system.assets/22edf80eda768aca16675a710c513a90.png)
+     when you are ready.
 2. Once done recording (10 Seconds) the interpretation should be automatically done. If not, select Tools>Interpretation.
 
 ![](../device-interface-ekg-system.assets/971a06bcf71a01e01bc2533036451831.png)
@@ -92,9 +91,7 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 1. The files will transfer/export automatically to a designated folder on your computer.
 
-
 ### Importing the EKG
-
 
 1. Scroll to the EKG section of the encounter (or EKG chart tab tool) in {{% system-name %}}
 
@@ -102,16 +99,8 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 1. Scroll to the "filebox"
 2. Change the smartcard to point to the correct folder.
-
-
-   1. Changing smartcard:
-
-
-
-
-      1. Right click on filebox
-
-
+    1. Changing smartcard:
+        1. Right click on filebox
 
 ![](../device-interface-ekg-system.assets/2b683f2a7d8ec60a6ff787c8fada7df3.png)
 
@@ -120,23 +109,15 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 ![](../device-interface-ekg-system.assets/d87e573b03c1ddd04e1e38bdfafd332c.png)
 
 1. Choose the correct location of the for files (-LCC EKG Results) and select ok
-
-
-   1. File should populate the filebox
-
-
+    1. File should populate the filebox
 1. Choose the EKG file.
 
 !Images^components_system_configuration_interfaces_device_device_interfaces_ekg_system_media_27.png!
+
 .
 
-
 1. Select the Get Interpretation button
-
-
-   1. Interpretation should populate the textbox.
-
-
+    1. Interpretation should populate the textbox.
 2. Select the upload button
 
 ![](../device-interface-ekg-system.assets/b6ba347fdaf5aa4f06ba3acebbd91e27.png)

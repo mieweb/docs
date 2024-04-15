@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 This page provides instructions for retrieving results from the Amplivox CA850 and Amplivox PC850 audiometers with Enterprise Health (EH), and lists the fields that the interface retrieves.
 
@@ -29,13 +29,10 @@ To retrieve results for multiple patients:
 7. Select the Location where the tests were performed
 8. Click the Upload button
 9. Verify the expected patients were found and click the Upload button.
-
-   1. If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
-   2. If some tests should not be uploaded uncheck the checkbox to the left of the patient.
-   3. Click the information icon (?) to see all the details of a test.
-   4. If no tests should be uploaded, close the new window; nothing is saved.
-
-
+    1. If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
+    2. If some tests should not be uploaded uncheck the checkbox to the left of the patient.
+    3. Click the information icon (?) to see all the details of a test.
+    4. If no tests should be uploaded, close the new window; nothing is saved.
 
 ## Collected Fields
 
@@ -48,11 +45,7 @@ The following fields are collected in EH:
 * Audiometer Serial Number
 * Calibration Date/Time
 * User that performed the test
-
-
-   * Translations are used to map users from the device to EH users. The translations have name of "Device" and category of "tech."
-
-
+    * Translations are used to map users from the device to EH users. The translations have name of "Device" and category of "tech."
 
 ## Installation Help
 
@@ -60,11 +53,7 @@ To correctly install and use the audiometer with EH the following considerations
 
 * The interface uses files exported from the Amplivox audio software
 * The import menu is not installed on a default system, it must be added from the menu editor in the Control Panel.
-
-
-   * To select the options that appear in the dropdown of the import page, add "?f=wc_import&s=edit" to the URL and select the desired options.
-
-
+    * To select the options that appear in the dropdown of the import page, add "?f=wc_import&s=edit" to the URL and select the desired options.
 
 ## Related Pages
 

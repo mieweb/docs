@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance).
 
@@ -20,11 +20,17 @@ Users must have security access to be in Health Surveillance Management control 
 3. In the panel list, find the specific panel you want to add actions to.  Click the Actions hyperlink at the far right.
 
 ![](../health-surveillance-panels-actions.assets/ef0a162242ff80bebf23cef1e5503aba.png)
-The screen will display the list of any existing panel actions already in that panel (if there are any). Make sure the panel action item you want to add does not already exist in the panel itself.  
+
+The screen will display the list of any existing panel actions already in that panel (if there are any). Make sure the panel action item you want to add does not already exist in the panel itself.
+
 To add a new panel action item to the panel, click the Add Action hyperlink at the top right corner of the screen.
+
 ![](../health-surveillance-panels-actions.assets/00ae9d1b402af3d1a2b667673987d9ce.png)
+
 Confirm you are in the Panel Action adding screen and the name of the panel you are going to add an action to is also listed in the title.
+
 ![](../health-surveillance-panels-actions.assets/154f3317a8f64f620681435e4bf01d33.png)
+
 You usually add the representative event action to the panel first.  Fill out the fields needed according to the matrix, details of what gets done to what type of employee, and SUBMIT to save that one panel action to the panel.
 
 * <strong>Action Name:</strong> Required field. This is usually the name of a test that is a component of the panel. This name will be displayed for this panel action in listings and dialogs to employee's and supervisors.
@@ -75,16 +81,25 @@ If your panel action item is for an exposure type of panel, you wouldn't want to
 * <strong>Change Reason:</strong> Any time a panel action is modified/edited, a reason for change must be typed by the user who is modifying. This is required before the user may submit and save changes to the panel action item.
 
 When setting up panels with Representative Events, it is suggested that you: create your action items for each panel for entry, routine and exit (as applicable – some clients only have entry or entry & routine, or just routine or all 3 for a specific panel). The Representative Event action item is generally named the same name as the panel.
+
 ![](../health-surveillance-panels-actions.assets/659abb8f9671c187f58df2340df813a1.png)
+
 And then when you add the other action items (procedure) to the panel (for example: a Physical Exam that needs done for entry and routine and exit for the panel), you can add that (ex: Physical Exam) panel action item once and set it to be trigger type: *routine*, then set Trigger Date to be *Other Action Triggered*  then in the next drop-down simply checkmark the entry, routine and/or exit action items from the list.  If you do not see them in the list, that means you haven't made them action items yet.   You need to add those action items first, then they will be displayed in that drop-down list to select from.  Therefore, you only have to enter the other action items (procedures) once per Health Surveillance panel even if the panel is entry and routine and exit and calls for the same action item (procedure) to be in the entry/routine/exit type trigger. Suggested to do that instead of adding action items for each type individually. For example wouldn't want to add: Chest Xray-Entry, then add another action item named Check Xray-Exit, etc and make the panel action items list lengthy.  Can all be encompassed by making the representative entry/routine/exit events first (depending on the matrix details) in the panel as action items, then add the individual panel items that also comprise the panel and set them as routine/other action triggered and checkmark the entry and/or routine and/or exit from there if that action item applies to more than one type of trigger.
+
 ![](../health-surveillance-panels-actions.assets/81a03e4c57e07d9aad1af943a7505455.png)
 
 ## Diagramed Examples
 
 Below are timeline images for the 3 most common trigger dates for panel action items. These diagrams illustrate the concepts of lead time, visible date, grace period, and due date.
+
 This timeline diagram shows an example of a panel action item that is set for **Date of Birth** as the trigger date type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
+
 ![](../health-surveillance-panels-actions.assets/0a2783e29e98b5528b85721fce2d4b8d.png)
+
 This timeline diagram shows an example of a panel action item that is set for **Last Event** as the trigger date type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
+
 ![](../health-surveillance-panels-actions.assets/cfc27a29c68a017093bea4f88651be97.png)
+
 This timeline diagram shows an example of a panel action item that is set for **Medical Anniversary Date** as the trigger date type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
+
 ![](../health-surveillance-panels-actions.assets/65bb3f15bc1b57b92d30600c48d06300.png)

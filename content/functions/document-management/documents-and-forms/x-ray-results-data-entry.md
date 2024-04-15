@@ -13,7 +13,7 @@ links:
   - '../imaging/burning-dicom-images-onto-cd-dvd.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
@@ -46,10 +46,15 @@ There are alternative, manual and semi-manual processes outside of using and sca
 ### Add from Encounter Section
 
 This method of data entry can be achieved by selecting the x-ray order on the **Due List**, found in the Tests & Procedures section of the encounter, then using the **Add to Exam** button, to allow for manual entry or device import.
+
 ![](../x-ray-results-data-entry.assets/597abd62e618f8bdf74ccce338b8c3f6.png)
+
 If the x-ray order is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter.
+
 ![](../x-ray-results-data-entry.assets/69dc2c32a17f010f74ef38c6e9b83db4.png)
+
 Alternatively, the x-ray order may be selected using the **Picklist** icon, by selecting the order from the list and adding it to the encounter.
+
 ![](../x-ray-results-data-entry.assets/776dd760b786fb68e2bb11d513be5525.png)
 
 ### Import Data From Device
@@ -59,4 +64,5 @@ Though not the typical type of device interface, the {{% system-name %}} solutio
 ## Reporting
 
 These types of reports are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable clients to review the various data captured during a visit or encounter, as well as that stored in documents. The Document Reports is available here, for example, along with the Patient Observations report.
+
 ![](../x-ray-results-data-entry.assets/8963a7cbcad05e622538f80636491b02.png)

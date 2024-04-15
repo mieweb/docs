@@ -10,27 +10,24 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1om70l5pC4Xd-3lf8kHuHNBYb4OkuVa38kMyf-2R0B3I'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
+**Activity Weighting**: Medium
 
+**Subcategory Name**: Patient Safety and Practice Assessment
 
-
-
-**Activity Weighting**: Medium  
-**Subcategory Name**: Patient Safety and Practice Assessment  
 **Description**: For MIPS eligible clinicians not participating in Maintenance of Certification (MOC) Part IV, new engagement for MOC Part IV, such as the Institute for Healthcare Improvement (IHI) Training/Forum Event; National Academy of Medicine, Agency for Healthcare Research and Quality (AHRQ) Team STEPPS, or the American Board of Family Medicine (ABFM) Performance in Practice Modules.
 
+Supporting Documentation
 
-
-
-Supporting Documentation  
 Certificate or letter of participation from an IHI Training/Forum Event; National Academy of Medicine, AHRQ Team STEPPS® or other similar activity, for eligible clinicians or groups not participating in MOC Part IV.
 
+Resources
 
+[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)
 
+[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)
 
-Resources  
-[2018 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2018)  
-[2019 Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities?py=2019)  
-[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)  
+[2018 MIPS Improvement Activities Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet)
+
 [Scores for Improvement Activities for MIPS APMs in the 2018 Performance Period Fact Sheet](https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet)

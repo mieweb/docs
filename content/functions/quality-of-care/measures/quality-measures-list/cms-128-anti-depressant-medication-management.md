@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms128v10'
 source: 'https://drive.google.com/open?id=1FuuAMczkTt8tFHJuRu6eIdGj_lbbafeyahIjsQ9QzWE'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS128v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v8&showresulttype=Measure) (2020)  
-[CMS128v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v9&showresulttype=Measure) (2021)  
+[CMS128v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v8&showresulttype=Measure) (2020)
+
+[CMS128v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v9&showresulttype=Measure) (2021)
+
 [CMS128v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>009</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -61,7 +61,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td>Patients who were actively on an antidepressant medication in the 105 days prior to the Index Prescription Start Date.
+<td>Patients who were actively on an antidepressant medication in the 105 days prior to the Index Prescription Start Date.<br />
 Exclude patients who are in hospice care for any part of the measurement period.</td>
 </tr>
 <tr>
@@ -77,12 +77,9 @@ Exclude patients who are in hospice care for any part of the measurement period.
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -105,29 +102,18 @@ Exclude patients who are in hospice care for any part of the measurement period.
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
-
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -178,12 +164,9 @@ Exclude patients who are in hospice care for any part of the measurement period.
 <td>Encounter, Performed: Telephone Visits</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -206,12 +189,9 @@ Exclude patients who are in hospice care for any part of the measurement period.
 <td>Medication, Active: Antidepressant Medication</td>
 <td>2.16.840.1.113883.3.464.1003.196.12.1213</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -222,9 +202,7 @@ Exclude patients who are in hospice care for any part of the measurement period.
 <td>Medication, Active: Antidepressant Medication</td>
 <td>2.16.840.1.113883.3.464.1003.196.12.1213</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

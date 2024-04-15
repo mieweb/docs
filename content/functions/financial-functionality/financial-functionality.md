@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nh4HHOr1akWGgol1SR1uC4beRIMW1yEk4pBa-nGMBn0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The financial functionality of the system allows you to:
 
@@ -16,5 +16,6 @@ The financial functionality of the system allows you to:
 * View reports such as account details and pending billing and generate statements and forms.
 * Post payments and manage ledger transactions.
 
-This section discusses:  
+This section discusses:
+
 {children }

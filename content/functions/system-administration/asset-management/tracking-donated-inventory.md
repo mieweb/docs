@@ -6,15 +6,20 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Add Donated Tab
 
 This tab looks and performs just like the *Add Inventory* tab. However, when you add inventory items here thru the *Add Donated* tab, it tracks the transaction comment as *donated* if your system is set up to add/receive donated inventory items. Note: If you will not be tracking inventory items as separate ‘donated' items instead of general received inventory, then you can have your MIE Implementer remove this tab.
+
 ![](../tracking-donated-inventory.assets/196fd94ac4a62ad48d4e688ae9a72bd8.png)
-If you need to add inventory specific to a patient because your practice uses patient assistance programs, you have to enter the patient's specific inventory from their e-chart using the Dispense chart tab (See other help documentation named *Receive Patient Assistance*).  
+
+If you need to add inventory specific to a patient because your practice uses patient assistance programs, you have to enter the patient's specific inventory from their e-chart using the Dispense chart tab (See other help documentation named *Receive Patient Assistance*).
+
 Depending on how your practice is set up and what all inventory details you track for Inventory, your *Add Inventory* data entry fields may be different.
+
 ![](../tracking-donated-inventory.assets/c4a53d4ad1051a958ee3c25802b2514c.png)
+
 To add donated inventory quantity and detail information to be tied to your inventory master item, fill out the fields in this Add Donated screen. Use your tab key to advance to each field.
 
 * <strong>Site</strong>: Designate which site the meds will be available at.
@@ -31,5 +36,7 @@ There is also another CLEAR button to the far right which will clear *all* the a
 {{% /tip %}}
 
 Click the ADD TO INVENTORY button at the very bottom to add the donated inventory item QTY and details to your system's current inventory.
+
 You will get a confirmation at the top stating the system received the items into the inventory successfully.
+
 When you go into the Show Inventory tab (show current inventory), you will see your received items you entered into the inventory using the Add Inventory tab.

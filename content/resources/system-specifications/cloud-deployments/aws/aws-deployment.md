@@ -17,7 +17,7 @@ links:
   - 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html'
   - 'https://aws.amazon.com/s3/sla/'
 source: 'https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Deployment Strategy
 
@@ -25,12 +25,10 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 
 ## Utilizing AWS Managed Services
 
-
 * [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)
 * [Amazon EC2](https://aws.amazon.com/ec2/)
 * [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
 * [Amazon S3](https://aws.amazon.com/s3/)
-
 
 {{% system-name %}} prioritizes leveraging AWS-managed services such as RDS for databases, S3 for file storage, ElastiCache for performance enhancement, and others. This approach optimizes deployment efficiency, scalability, and maintenance, ensuring uniformity across different AWS environments.
 
@@ -40,12 +38,14 @@ RDS streamlines database management tasks, while EC2 instances, specifically run
 
 ## RDS
 
-
 ### Minimum requirements
 
-Instance Type: [db.t3.xlarge](https://aws.amazon.com/rds/instance-types/)  
-Memory: 16 GiB  
-Storage: 50 GB  
+Instance Type: [db.t3.xlarge](https://aws.amazon.com/rds/instance-types/)
+
+Memory: 16 GiB
+
+Storage: 50 GB
+
 Number of vCPUs: 4
 
 ## EC2
@@ -60,16 +60,17 @@ Moreover, the {{% system-name %}} application extends its compatibility to speci
 
 ### Minimum requirements
 
-Instance Type: [C5a.2xlarge](https://aws.amazon.com/ec2/instance-types/c5/)  
-Memory: 16 GiB  
-Storage: 250 GB  
-Number of vCPUs: 8
+Instance Type: [C5a.2xlarge](https://aws.amazon.com/ec2/instance-types/c5/)
 
+Memory: 16 GiB
+
+Storage: 250 GB
+
+Number of vCPUs: 8
 
 ### Encryption / Protocols
 
 All EC2 instances use encrypted EBS volumes (see https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html) and utilize TLS 1.3 for client connections.
-
 
 ## ElastiCache
 

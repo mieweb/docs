@@ -7,12 +7,11 @@ lastAuthor: 'Will Reiske (MIE)'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The following is referring to a Welch Allyn Spot Vital Signs monitor system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 
 ## Vital Signs
-
 
 1. Open {{% system-name %}} .
 2. Pull up the correct patient.
@@ -22,11 +21,7 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
 ![](../device-interface-vital-signs.assets/6df787e03e853bc8427d84a6e7c5ee43.png)
 
 1. Select the Get readings button in {{% system-name %}}
-
-
-   1. Vital signs will appear on page.
-
-
+    1. Vital signs will appear on page.
 2. Select the add button for the correct set of vitals. (Note: if the device is being kept clean your results should be the only ones listed)
 3. Select and submit button and vital signs will be saved to the encounter and appear on page.
 4. Select the Clear Device button.
@@ -37,11 +32,7 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
 ![](../device-interface-vital-signs.assets/f6584808957858c2fc350ab898e32c1e.png)
 
 1. Select the Get readings button.
-
-
-   1. Vital signs will appear on page.
-
-
+    1. Vital signs will appear on page.
 2. Select the add button for the correct set of vitals. (Note: if the device is being kept clean your results should be the only ones listed)
 3. Select clear device and submit button
 4. Vital signs will be saved to the encounter or Vitals chart tab and appear on page.

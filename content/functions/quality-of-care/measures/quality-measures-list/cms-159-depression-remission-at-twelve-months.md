@@ -11,16 +11,17 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms159v10'
 source: 'https://drive.google.com/open?id=1Jo1ZcIJ0Gs1sWISKJO8secJ2N3RU04thYDjzgnW8ab0'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS159v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v8&showresulttype=Measure) (2020)  
-[CMS159v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v9&showresulttype=Measure) (2021)  
+[CMS159v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v8&showresulttype=Measure) (2020)
+
+[CMS159v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v9&showresulttype=Measure) (2021)
+
 [CMS159v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v10&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -35,12 +36,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>0710</td>
 <td>370</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -57,7 +57,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Patients who died</p></li><li><p>Patients who received hospice or palliative care services</p></li><li><p>Patients who were permanent nursing home residents</p></li><li><p>Patients with a diagnosis of bipolar disorder</p></li><li><p>Patients with a diagnosis of personality disorder emotionally labile</p></li><li><p>Patients with a diagnosis of schizophrenia or psychotic disorder</p></li><li><p>Patients with a diagnosis of pervasive developmental disorder</p></li></ul></td>
+<td><ul><li>Patients who died</li><li>Patients who received hospice or palliative care services</li><li>Patients who were permanent nursing home residents</li><li>Patients with a diagnosis of bipolar disorder</li><li>Patients with a diagnosis of personality disorder emotionally labile</li><li>Patients with a diagnosis of schizophrenia or psychotic disorder</li><li>Patients with a diagnosis of pervasive developmental disorder</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -71,12 +71,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -89,7 +86,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Stratification</strong></td>
-<td><ul><li><p>12-17 years</p></li><li><p>18 years and older</p></li></ul></td>
+<td><ul><li>12-17 years</li><li>18 years and older</li></ul></td>
 </tr>
 <tr>
 <td><strong>Granularity</strong></td>
@@ -103,29 +100,18 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Effective Clinical Care</td>
 </tr>
-
 </table>
 
-
-
 ## Clinical Instructions
-
 
 ### New UI Visit Encounter (valid RC202109+)
 
 
-
-
-
 ### Original Visit Encounter
-
-
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -148,12 +134,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Encounter, Performed: Contact or Office Visit</td>
 <td>2.16.840.1.113762.1.4.1080.5</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -184,12 +167,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Intervention, Order: Palliative or Hospice Care</td>
 <td>2.16.840.1.113883.3.600.1.1579</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -200,9 +180,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>Assessment, Performed: PHQ 9 and PHQ 9M Tools</td>
 <td>2.16.840.1.113883.3.67.1.101.1.263</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

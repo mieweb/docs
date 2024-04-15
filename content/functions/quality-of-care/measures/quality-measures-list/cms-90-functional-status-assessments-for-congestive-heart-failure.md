@@ -13,16 +13,17 @@ links:
   - 'https://ecqi.healthit.gov/glossary/ehr'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11'
 source: 'https://drive.google.com/open?id=18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS90v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v9&showresulttype=Measure) (2020)  
-[CMS90v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v10&showresulttype=Measure) (2021)  
+[CMS90v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v9&showresulttype=Measure) (2020)
+
+[CMS90v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v10&showresulttype=Measure) (2021)
+
 [CMS90v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v11&showresulttype=Measure) (2022)
 
 ### Identifiers
-
 
 <table>
 <tr>
@@ -37,12 +38,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td>–</td>
 <td>377</td>
 </tr>
-
 </table>
+
 *MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
-
 
 <table>
 <tr>
@@ -59,7 +59,7 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 </tr>
 <tr>
 <td><strong>Denominator Exclusions</strong></td>
-<td><ul><li><p>Exclude patients with severe cognitive impairment in any part of the measurement period.</p></li><li><p>Exclude patients who are in hospice care for any part of the measurement period.</p></li></ul></td>
+<td><ul><li>Exclude patients with severe cognitive impairment in any part of the measurement period.</li><li>Exclude patients who are in hospice care for any part of the measurement period.</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator</strong></td>
@@ -73,12 +73,9 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Denominator Exceptions</strong></td>
 <td>–</td>
 </tr>
-
 </table>
 
-
 ### Additional Information
-
 
 <table>
 <tr>
@@ -101,14 +98,11 @@ wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
 <td><strong>Domain</strong></td>
 <td>Person and Caregiver-Centered Experience and Outcomes</td>
 </tr>
-
 </table>
-
-
 
 ## Clinical Instructions
 
-Ensure all 18+ year-old patients with heart failure beginning  prior to and continuing into the measurement period have a functional status assessment during the measurement period.   
+Ensure all 18+ year-old patients with heart failure beginning  prior to and continuing into the measurement period have a functional status assessment during the measurement period.
 
 ### Workflow
 
@@ -116,9 +110,7 @@ Coming soon.
 
 ## Evidence
 
-
 ### Initial Patient Population
-
 
 <table>
 <tr>
@@ -141,12 +133,9 @@ Coming soon.
 <td>Diagnosis: Heart Failure</td>
 <td>2.16.840.1.113883.3.526.3.376</td>
 </tr>
-
 </table>
 
-
 ### Denominator Exclusions
-
 
 <table>
 <tr>
@@ -165,12 +154,9 @@ Coming soon.
 <td>Intervention, Performed: Hospice care ambulatory</td>
 <td>2.16.840.1.113762.1.4.1108.15)</td>
 </tr>
-
 </table>
 
-
 ### Numerator
-
 
 <table>
 <tr>
@@ -289,9 +275,7 @@ Coming soon.
 <td>Assessment, Performed: VR-36 Physical component summary (PCS) score - orthogonal method T-score</td>
 <td>LOINC Code 72007-8</td>
 </tr>
-
 </table>
-
 
 ## Source(s)
 

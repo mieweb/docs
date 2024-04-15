@@ -11,7 +11,7 @@ links:
   - '../../system-administration/interfaces/device-interface-ekg-system.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
@@ -48,21 +48,31 @@ There are alternative, manual processes outside of using and scanning in bubble 
 ### Add from Encounter Section
 
 This method of data entry can be achieved by checking the EKG order on the **Due List**, found in the Tests & Procedures section of the encounter, then using the **Add to Exam** button, to allow for manual entry or device import.
+
 ![](../ekg-data-entry.assets/ed5faf41935d896e592781cec69c369e.png)
+
 If the EKG is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter via the **Add to Exam** button.
+
 ![](../ekg-data-entry.assets/95220921258915483355efb111762fab.png)
+
 Alternatively, the EKG may be selected using the **Picklist** icon by selecting the order from the list and adding it to the encounter.
+
 ![](../ekg-data-entry.assets/60a329a60eecaecbfa671210cc74cef6.png)
+
 Once the EKG test/procedure has been applied to the encounter, EKG data fields open for data entry in the visit encounter.
+
 ![](../ekg-data-entry.assets/cd93e3b7d9ec31aeda226bc89e256535.png)
 
 ### Import EKG Data From Device
 
 When accessing the **Test Results** chart tab after adding a new EKG, there is the ability to either enter the data manually, or upload results from a device, if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load CardioPerfect** import button when the EKG procedure is added to the visit encounter. Select the appropriate file and click **Upload File**.
+
 ![](../ekg-data-entry.assets/0786e2ae80d10a93f8dead7801ccf3f7.png)
+
 For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – EKG System](../../system-administration/interfaces/device-interface-ekg-system.md).
 
 ## Reporting
 
 These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The EKG Report is available here, for example.
+
 ![](../ekg-data-entry.assets/a57850af2a38f3b4acf4b361c87680b1.png)

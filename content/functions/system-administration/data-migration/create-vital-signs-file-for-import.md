@@ -12,22 +12,19 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641'
   - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
 source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-This document explains how to import historical vital signs for employees into {{% system-name %}} .  
+This document explains how to import historical vital signs for employees into {{% system-name %}} .
+
 What you will need:
 
 * Spreadsheet software (Microsoft Excel or Google Sheets)
 * Vital Signs CSV File Example
-{{% system-name %}}*  end user with administrative rights
-
+* {{% system-name %}} end user with administrative rights
 
 ## Create Vital Signs CSV File
 
-
 1. The following table provides optional or required <strong>Field Names</strong> and <strong>Descriptions</strong>, as indicated by the <strong>Requirement</strong> column. Items marked as <em>Best Practice</em> or <em>Optional</em> are not required and may be left blank or omitted entirely. Employee ID must be the first column in the CSV file. The order of the remaining fields does not matter.
-
-
 
 <table>
 <tr>
@@ -56,10 +53,8 @@ What you will need:
 </tr>
 <tr>
 <td>Temperature Units</td>
-<td>Default units are determined by the Preferred Unit System user setting, or they can be overridden. Choices are:
-<ul><li>
-<ul><li><p><strong>F</strong> = Fahrenheit</p></li><li><p><strong>C</strong> = Celsius</p></li></ul>  
-</li></ul></td>
+<td>Default units are determined by the Preferred Unit System user setting, or they can be overridden. Choices are:<br />
+<ul><li><ul><li><strong>F</strong> = Fahrenheit</li><li><strong>C</strong> = Celsius</li></ul></li></ul></td>
 <td>Optional</td>
 <td>@obs.BODY TEMPERATURE.obs_units</td>
 </tr>
@@ -71,10 +66,8 @@ What you will need:
 </tr>
 <tr>
 <td>Height Units</td>
-<td>Default units are determined by the Preferred Unite System user setting, or they can be overridden. Choices are:
-<ul><li>
-<ul><li><p><strong>in</strong> = Inches</p></li><li><p><strong>cm</strong> = Centimeters</p></li></ul>  
-</li></ul></td>
+<td>Default units are determined by the Preferred Unite System user setting, or they can be overridden. Choices are:<br />
+<ul><li><ul><li><strong>in</strong> = Inches</li><li><strong>cm</strong> = Centimeters</li></ul></li></ul></td>
 <td>Optional</td>
 <td>@obs.BODY HEIGHT.obs_units</td>
 </tr>
@@ -86,18 +79,16 @@ What you will need:
 </tr>
 <tr>
 <td>Weight Units</td>
-<td>Default units are determined by the Preferred Unite System user setting, or they can be overridden. Choices are:
-<ul><li>
-<ul><li><p><strong>lbs</strong> = Pounds</p></li><li><p><strong>kg</strong> = Kilograms</p></li></ul>  
-</li></ul></td>
+<td>Default units are determined by the Preferred Unite System user setting, or they can be overridden. Choices are:<br />
+<ul><li><ul><li><strong>lbs</strong> = Pounds</li><li><strong>kg</strong> = Kilograms</li></ul></li></ul></td>
 <td>Optional</td>
 <td>@obs.BODY HEIGHT.obs_units</td>
 </tr>
 <tr>
 <td>BMI</td>
-<td>Provide a numeric value for Body Mass Index (e.g., 22.45).
-{{% warning %}}
-This is not automatically calculated during an import.
+<td>Provide a numeric value for Body Mass Index (e.g., 22.45).<br />
+{{% warning %}}<br />
+This is not automatically calculated during an import.<br />
 {{% /warning %}}</td>
 <td>Best Practice</td>
 <td>@obs.BMI.obs_result</td>
@@ -116,19 +107,15 @@ This is not automatically calculated during an import.
 </tr>
 <tr>
 <td>BP Site</td>
-<td>Body part from which blood pressure was taken. Valid choices are:
-<ul><li>
-<ul><li><p>Left Arm</p></li><li><p>Right Arm</p></li><li><p>Left Leg</p></li><li><p>Right Leg</p></li></ul>  
-</li></ul></td>
+<td>Body part from which blood pressure was taken. Valid choices are:<br />
+<ul><li><ul><li>Left Arm</li><li>Right Arm</li><li>Left Leg</li><li>Right Leg</li></ul></li></ul></td>
 <td>Best Practice</td>
 <td>@obs.BP Site.obs_result</td>
 </tr>
 <tr>
 <td>Position</td>
-<td>The position of the patient when the BP was collected. Valid choices are:
-<ul><li>
-<ul><li><p>Sitting</p></li><li><p>Standing</p></li><li><p>Supine</p></li></ul>  
-</li></ul></td>
+<td>The position of the patient when the BP was collected. Valid choices are:<br />
+<ul><li><ul><li>Sitting</li><li>Standing</li><li>Supine</li></ul></li></ul></td>
 <td>Best Practice</td>
 <td>@obs.Position.obs_result</td>
 </tr>
@@ -140,27 +127,23 @@ This is not automatically calculated during an import.
 </tr>
 <tr>
 <td>Pulse Regularity</td>
-<td>Pulse regularity choices:
-<ul><li>
-<ul><li><p>Regular</p></li><li><p>Irregular</p></li></ul>  
-</li></ul></td>
+<td>Pulse regularity choices:<br />
+<ul><li><ul><li>Regular</li><li>Irregular</li></ul></li></ul></td>
 <td>Best Practice</td>
 <td>@obs.Pulse Regularity.obs_result</td>
 </tr>
 <tr>
 <td>Pulse Site</td>
-<td>Location where pulse was taken. Valid choices are:
-<ul><li>
-<ul><li><p>Radial</p></li><li><p>Apical</p></li><li><p>Brachial</p></li><li><p>Carotid</p></li><li><p>Femoral</p></li><li><p>Pedal</p></li></ul>  
-</li></ul></td>
+<td>Location where pulse was taken. Valid choices are:<br />
+<ul><li><ul><li>Radial</li><li>Apical</li><li>Brachial</li><li>Carotid</li><li>Femoral</li><li>Pedal</li></ul></li></ul></td>
 <td>Best Practice</td>
 <td>@obs.Pulse Site.obs_result</td>
 </tr>
 <tr>
 <td>O2 Saturation</td>
-<td>Provide a numeric value for Oxygen Saturation percentage (e.g., 96 or 98.5).
-{{% note %}}
-Do not provide the percentage sign (%).
+<td>Provide a numeric value for Oxygen Saturation percentage (e.g., 96 or 98.5).<br />
+{{% note %}}<br />
+Do not provide the percentage sign (%).<br />
 {{% /note %}}</td>
 <td>Best Practice</td>
 <td>@obs.O2 Saturation.obs_result</td>
@@ -173,10 +156,8 @@ Do not provide the percentage sign (%).
 </tr>
 <tr>
 <td>Exertion</td>
-<td>Specific exertion, as it relates to the respiration rate. Valid choices are:
-<ul><li>
-<ul><li><p>Resting</p></li><li><p>Immediately after exertion</p></li><li><p>1 minute after exertion</p></li><li><p>2 minute after exertion</p></li><li><p>3 minute after exertion</p></li><li><p>Sleeping</p></li></ul>  
-</li></ul></td>
+<td>Specific exertion, as it relates to the respiration rate. Valid choices are:<br />
+<ul><li><ul><li>Resting</li><li>Immediately after exertion</li><li>1 minute after exertion</li><li>2 minute after exertion</li><li>3 minute after exertion</li><li>Sleeping</li></ul></li></ul></td>
 <td>Best Practice</td>
 <td>@obs.Exertion.obs_result</td>
 </tr>
@@ -186,49 +167,36 @@ Do not provide the percentage sign (%).
 <td>Best Practice</td>
 <td>@obs.Pain Severity.obs_result</td>
 </tr>
-
 </table>
 
 {{% tip %}}
 *For a more comprehensive list of supported fields, please refer to the* [*Vital Signs CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)*.*
 {{% /tip %}}
 
-
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Vital Signs CSV File Example for guidance.
-
 
 ![](../create-vital-signs-file-for-import.assets/220c6cd9fc584a66eedbaa12c67d0238.png)
 
-
 3. Save the file as CSV format.
 
-
 ## Upload Vital Signs CSV File
-
 
 1. Login as a user with administrator rights.
 2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
 
-
 ![](../create-vital-signs-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
-
 
 3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
 
-
 ![](../create-vital-signs-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
-
 
 4. Select <strong>Chart Data CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-
 ![](../create-vital-signs-file-for-import.assets/184adff065510b3014a3b5f0a44c0f4b.png)
-
 
 5. Select the Vital Signs CSV File and click <strong>Upload</strong>.
 
-   ![](../create-vital-signs-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
-
+    ![](../create-vital-signs-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
 
 {{% tip %}}
 *For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
@@ -236,11 +204,9 @@ Do not provide the percentage sign (%).
 
 ## Resources
 
-
 * [Vital Signs CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)
 * [Vital Signs CSV File Example](https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641)
 * [Validation script for Vital Signs data](https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo)
-
 
 ## Troubleshooting
 
