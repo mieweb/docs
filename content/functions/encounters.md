@@ -11,7 +11,7 @@ links:
   - 'injury-care.md'
   - 'encounters/work-related-exams.md'
 source: 'https://drive.google.com/open?id=199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 The {{% system-name %}} system creates customized, programmable encounter forms, with important demographic and clinical data presenting to the clinician at the point-of-care, facilitating more comprehensive encounter documentation. With the {{% system-name %}} Dynamic Encounter, data is easily captured at the time of the visit, allowing clinical staff and providers to streamline all necessary clinic operations.
 

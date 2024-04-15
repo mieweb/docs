@@ -7,6 +7,6 @@ lastAuthor: 'egrzetich'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qM1CZJczQo_xn9ccF_ltJGaSpJFx-quIby_9dFBQ588'
-wikigdrive: 'c35d35a9fcc46b2c2392b52072ee14a218f1010a'
+wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Evaluation and Management Calculator
