@@ -50,11 +50,4 @@ for (const line of markdown.split('\n')) {
     lastContent = markdownLink;
 }
 
-menu.push({
-        identifier: 'test',
-        name: 'test',
-        pageRef: 'test/test',
-        weight
-});
-
 console.log(JSON.stringify({ main: menu }, null, 4));
