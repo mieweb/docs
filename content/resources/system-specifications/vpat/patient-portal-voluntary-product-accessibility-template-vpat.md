@@ -3,7 +3,7 @@ id: '1KUzYPujy6FRjGnKxGhV2JxkonNssifccodK6J5eCDMQ'
 title: 'Patient Portal Voluntary Product Accessibility Template (VPAT)'
 date: '2021-09-24T18:00:55.885Z'
 version: 57
-lastAuthor: 'Doug Horner'
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - '../../../_index.md'

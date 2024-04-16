@@ -3,7 +3,7 @@ id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
 date: '2021-03-31T21:08:57.956Z'
 version: 208
-lastAuthor: 'Alice Uhrick'
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'

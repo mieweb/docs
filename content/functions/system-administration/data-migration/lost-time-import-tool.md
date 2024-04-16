@@ -3,7 +3,7 @@ id: '1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
 title: 'Lost Time Import Tool'
 date: '2022-03-08T18:36:59.785Z'
 version: 49
-lastAuthor: 'Nick Wallace'
+lastAuthor: 'nwallace'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203'

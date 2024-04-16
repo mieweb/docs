@@ -3,7 +3,7 @@ id: '1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
 title: 'CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)'
 date: '2022-06-07T13:50:51.845Z'
 version: 91
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v8&showresulttype=Measure'

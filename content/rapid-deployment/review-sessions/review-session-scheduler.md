@@ -3,7 +3,7 @@ id: '16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
 title: 'Review Session - Scheduler'
 date: '2020-02-27T21:24:45.329Z'
 version: 50
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?func=scheduler&s=schedules'

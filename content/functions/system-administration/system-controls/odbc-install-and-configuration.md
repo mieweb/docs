@@ -3,7 +3,7 @@ id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
 date: '2023-09-29T16:21:27.559Z'
 version: 164
-lastAuthor: 'Alice Uhrick'
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm'

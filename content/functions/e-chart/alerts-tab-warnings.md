@@ -3,7 +3,7 @@ id: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
 title: 'Alerts Tab - Warnings'
 date: '2023-10-04T16:20:58.902Z'
 version: 80
-lastAuthor: 'Angie Nichols'
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../medication-management-and-e-prescribing/drug-guide-search.md'

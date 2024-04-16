@@ -3,7 +3,7 @@ id: '1Lj82ShrYoYoT1mgHtJ4Kmk3DiKtKvYV1ql7MoPxy-2Y'
 title: 'RWT Results 2022 Q3'
 date: '2023-01-23T21:19:10.397Z'
 version: 343
-lastAuthor: 'Dave Cornewell'
+lastAuthor: 'dcornewell'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'

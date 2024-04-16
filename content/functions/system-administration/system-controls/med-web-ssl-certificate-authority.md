@@ -3,7 +3,7 @@ id: '1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
 title: 'Med-Web SSL Certificate Authority'
 date: '2022-10-05T17:42:38.445Z'
 version: 76
-lastAuthor: 'Dawn Case'
+lastAuthor: 'dcase'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/mie-ca2.crt'

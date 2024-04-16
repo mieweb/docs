@@ -2,8 +2,8 @@
 id: '1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
 title: 'Security Best Practices'
 date: '2023-10-04T18:40:22.514Z'
-version: 54
-lastAuthor: 'Will Reiske (MIE)'
+version: 55
+lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html'

@@ -2,8 +2,8 @@
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
 date: '2023-12-01T19:18:21.015Z'
-version: 314
-lastAuthor: 'Doug Horner'
+version: 316
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'

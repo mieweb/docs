@@ -3,7 +3,7 @@ id: '1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
 title: 'Measures'
 date: '2024-01-26T16:46:56.849Z'
 version: 39
-lastAuthor: 'Alice Uhrick'
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'measures/promoting-interoperability-pi-measures.md'

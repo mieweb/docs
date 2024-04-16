@@ -3,7 +3,7 @@ id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 title: 'Sample HL7 Messages'
 date: '2023-02-21T21:14:54.696Z'
 version: 173
-lastAuthor: 'Zack Barrell'
+lastAuthor: 'zbarrell'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'

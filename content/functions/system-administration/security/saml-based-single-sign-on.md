@@ -3,7 +3,7 @@ id: '1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
 title: 'SAML-Based Single Sign-On'
 date: '2023-11-13T17:35:04.433Z'
 version: 78
-lastAuthor: 'Alice Uhrick'
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'

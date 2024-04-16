@@ -3,7 +3,7 @@ id: '1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
 title: 'OSHA 300 Log Report'
 date: '2024-01-25T19:22:08.857Z'
 version: 175
-lastAuthor: 'Angie Nichols'
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/sites/default/files/OSHA-RK-Forms-Package.pdf'

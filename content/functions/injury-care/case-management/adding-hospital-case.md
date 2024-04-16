@@ -3,7 +3,7 @@ id: '1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
 title: 'Adding Hospital Case'
 date: '2020-03-09T23:03:30.240Z'
 version: 39
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'

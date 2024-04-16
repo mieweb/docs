@@ -3,7 +3,7 @@ id: '1e3kmiavTOjCuKHwE8uz4Ucyr1tNyN3CYJrKYgFN-rec'
 title: 'Terms of Use'
 date: '2022-08-03T13:59:57.646Z'
 version: 82
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'mailto:support@mieweb.com'

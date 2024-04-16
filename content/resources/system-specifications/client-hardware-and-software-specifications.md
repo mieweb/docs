@@ -2,8 +2,8 @@
 id: '1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
 title: 'Client Hardware and Software Specifications'
 date: '2023-12-10T04:46:50.515Z'
-version: 82
-lastAuthor: 'Will Reiske (MIE)'
+version: 83
+lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'

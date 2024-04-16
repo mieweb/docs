@@ -2,8 +2,8 @@
 id: '1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
 title: 'Terminated Provider Configuration Recommendations'
 date: '2023-09-12T15:14:39.994Z'
-version: 504
-lastAuthor: 'Alice Uhrick'
+version: 567
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'

@@ -3,7 +3,7 @@ id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 title: 'Adding Restrictions and Accommodations'
 date: '2022-01-04T12:03:57.110Z'
 version: 126
-lastAuthor: 'Angie Nichols'
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-restrictions-and-accommodations.md'

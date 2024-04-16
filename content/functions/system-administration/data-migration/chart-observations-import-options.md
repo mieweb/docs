@@ -3,7 +3,7 @@ id: '179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
 title: 'Chart Observations Import Options'
 date: '2020-02-27T21:31:09.639Z'
 version: 34
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_A.csv'

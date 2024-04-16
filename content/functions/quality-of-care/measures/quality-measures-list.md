@@ -3,7 +3,7 @@ id: '14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
 title: 'Quality Measures List'
 date: '2024-02-19T12:59:41.041Z'
 version: 152
-lastAuthor: 'Alice Uhrick'
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'quality-measures-list/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.md'

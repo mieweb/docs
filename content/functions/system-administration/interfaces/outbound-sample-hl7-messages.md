@@ -3,7 +3,7 @@ id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
 title: 'Outbound Sample HL7 Messages'
 date: '2023-02-24T18:19:31.380Z'
 version: 97
-lastAuthor: 'Zack Barrell'
+lastAuthor: 'zbarrell'
 mimeType: 'text/x-markdown'
 links:
   - 'receiving-hl7-messages-from-system.md'

@@ -3,7 +3,7 @@ id: '1scn3WR9Ydr9g0eDzfUu_C2JEbEEesIkjrS7jNTt6emA'
 title: 'Chart Data Imports'
 date: '2020-02-27T21:24:06.521Z'
 version: 22
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/data-migration/create-employees-file-for-import.md'

@@ -3,7 +3,7 @@ id: '1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
 title: 'Review Session - Document Management'
 date: '2020-02-27T21:24:36.161Z'
 version: 36
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/document-management/printing-and-print-definitions/print-definitions.md'

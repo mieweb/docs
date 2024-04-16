@@ -3,7 +3,7 @@ id: '1Z-ZF_j25e83MEB6vCWtbYpWehA8TR7gdnEZife6oZVU'
 title: 'RWT Results 2022 Q4'
 date: '2023-01-30T15:10:17.882Z'
 version: 386
-lastAuthor: 'Dave Carlson'
+lastAuthor: 'dcarlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'

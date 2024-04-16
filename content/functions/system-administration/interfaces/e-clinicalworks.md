@@ -3,7 +3,7 @@ id: '1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
 title: 'E-ClinicalWorks'
 date: '2022-03-23T14:52:39.698Z'
 version: 12
-lastAuthor: 'Kate Barton'
+lastAuthor: 'kbarton'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.eclinicalworks.com/'

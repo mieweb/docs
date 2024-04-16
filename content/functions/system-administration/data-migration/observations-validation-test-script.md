@@ -2,8 +2,8 @@
 id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 title: 'Observations Validation Test Script'
 date: '2020-02-28T15:30:47.082Z'
-version: 50
-lastAuthor: 'Alan Quandt'
+version: 52
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing'

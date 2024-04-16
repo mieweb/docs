@@ -3,7 +3,7 @@ id: '1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
 title: 'CMS 124 - Cervical Cancer Screening'
 date: '2022-04-19T19:36:48.515Z'
 version: 39
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v8&showresulttype=Measure'

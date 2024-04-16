@@ -3,7 +3,7 @@ id: '1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
 title: 'Rapid Deployment Agenda'
 date: '2022-11-14T13:54:20.113Z'
 version: 55
-lastAuthor: 'Will Reiske (MIE)'
+lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links:
   - 'rapid-deployment-project-outline.md'

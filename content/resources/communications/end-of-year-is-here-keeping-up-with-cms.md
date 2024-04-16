@@ -3,7 +3,7 @@ id: '1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
 title: 'End-of-Year Is Here: Keeping Up with CMS'
 date: '2020-02-27T21:32:30.291Z'
 version: 22
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/participation-lookup'

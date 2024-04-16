@@ -3,7 +3,7 @@ id: '1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
 title: 'Review Session - Injection/Immunization Management'
 date: '2020-02-27T21:25:46.347Z'
 version: 25
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/injection-immunization-management/injection-tab.md'

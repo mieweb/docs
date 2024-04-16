@@ -3,7 +3,7 @@ id: '1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4'
 title: 'CMS 74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists'
 date: '2022-05-16T15:47:08.770Z'
 version: 41
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure'

@@ -3,7 +3,7 @@ id: '1U__PxyFngT3WIb7xckii8CbTT6jK_sK79vdIg9LpUt4'
 title: 'CMS 149 - Dementia: Cognitive Assessment'
 date: '2022-04-28T14:16:34.772Z'
 version: 14
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v8&showresulttype=Measure'

@@ -2,8 +2,8 @@
 id: '1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 title: 'New Provider Configuration Recommendations'
 date: '2024-03-25T14:46:49.731Z'
-version: 483
-lastAuthor: 'Jenna Anderson'
+version: 527
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=10aDdq77WTzNfpTWFuyolW59jCmyYdW4GjOO5-K4ui9A'

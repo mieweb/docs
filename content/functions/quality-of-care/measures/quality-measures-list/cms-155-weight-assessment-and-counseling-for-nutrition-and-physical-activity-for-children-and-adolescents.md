@@ -3,7 +3,7 @@ id: '16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
 title: 'CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents'
 date: '2022-04-21T21:07:00.893Z'
 version: 34
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v8&showresulttype=Measure'

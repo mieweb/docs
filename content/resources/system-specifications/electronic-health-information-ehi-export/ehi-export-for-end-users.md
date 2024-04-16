@@ -3,7 +3,7 @@ id: '1-ZghkeZW86JVJ5pTNjqtJqz2uOD6imwgA8EGma-Hiv4'
 title: 'EHI Export for End Users'
 date: '2023-11-16T15:47:40.506Z'
 version: 97
-lastAuthor: 'Doug Horner'
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.ecfr.gov/current/title-45/part-164/section-164.501#p-164.501(Designated%20record%20set)'

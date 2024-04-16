@@ -3,7 +3,7 @@ id: '1KXzp5VZ1g7qywiz4s8bU2eSGde35VQ_3dCzib2DY7Xo'
 title: 'Real World Testing Results 2023'
 date: '2024-02-29T19:50:36.859Z'
 version: 1167
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'

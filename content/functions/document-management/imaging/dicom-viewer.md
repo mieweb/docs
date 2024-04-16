@@ -3,7 +3,7 @@ id: '1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'
 title: 'DICOM Viewer'
 date: '2020-03-09T19:36:52.318Z'
 version: 45
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'

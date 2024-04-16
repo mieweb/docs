@@ -3,7 +3,7 @@ id: '1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
 title: 'CCDA, CCD and CCR Compatibility'
 date: '2024-02-06T19:54:07.241Z'
 version: 68
-lastAuthor: 'Dave Carlson'
+lastAuthor: 'dcarlson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.hl7.org/v3ballot/html/infrastructure/vocabulary/ReligiousAffiliation.htm'

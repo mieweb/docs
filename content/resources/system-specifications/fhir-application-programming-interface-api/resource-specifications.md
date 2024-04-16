@@ -3,7 +3,7 @@ id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
 date: '2024-02-17T18:48:45.904Z'
 version: 541
-lastAuthor: 'Doug Horner'
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'http://hl7.org/fhir/R4/allergyintolerance.html'

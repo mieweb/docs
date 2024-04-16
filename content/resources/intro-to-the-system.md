@@ -2,8 +2,8 @@
 id: '1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
 title: 'Intro to the System'
 date: '2022-11-02T12:52:40.975Z'
-version: 73
-lastAuthor: 'Will Reiske (MIE)'
+version: 80
+lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links:
   - 'intro-to-the-system/system-anatomy.md'

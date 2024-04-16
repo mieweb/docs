@@ -3,7 +3,7 @@ id: '1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
 title: 'Review Session - System Configuration'
 date: '2020-02-27T21:24:23.063Z'
 version: 107
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&s=pat&module=MASTER&name=AdministratorPortlets&tabmodule=+'

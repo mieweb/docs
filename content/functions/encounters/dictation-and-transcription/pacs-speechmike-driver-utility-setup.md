@@ -3,7 +3,7 @@ id: '1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
 title: 'PACS SpeechMike Driver Utility Setup'
 date: '2022-02-23T20:12:56.293Z'
 version: 61
-lastAuthor: 'Dave Cornewell'
+lastAuthor: 'dcornewell'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'

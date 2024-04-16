@@ -3,7 +3,7 @@ id: '121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
 title: 'Alerts, Errors, Failures - Interactive Tab'
 date: '2020-02-27T21:12:37.185Z'
 version: 65
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'patient-summary-interactive-chart-tab.md'

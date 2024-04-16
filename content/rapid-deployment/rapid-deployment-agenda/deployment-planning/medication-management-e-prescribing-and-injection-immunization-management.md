@@ -3,7 +3,7 @@ id: '1-lISyynsVEL9vuPGAfFFS021RJmb6d37Y-yiasjxLf4'
 title: 'Medication Management/E-Prescribing & Injection/Immunization Management'
 date: '2020-02-27T21:27:41.799Z'
 version: 22
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-medication-management-electronic-prescribing.md'

@@ -2,8 +2,8 @@
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
 date: '2023-06-07T16:54:48.490Z'
-version: 363
-lastAuthor: 'Alice Uhrick'
+version: 365
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.identrust.com/igc/mie/'

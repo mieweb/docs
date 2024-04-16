@@ -2,8 +2,8 @@
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
 date: '2024-03-25T13:44:59.735Z'
-version: 221
-lastAuthor: 'Angie Nichols'
+version: 231
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'

@@ -2,8 +2,8 @@
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
 date: '2024-03-28T16:01:22.116Z'
-version: 102
-lastAuthor: 'Jenna Anderson'
+version: 105
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'

@@ -3,7 +3,7 @@ id: '1pwmVB0X2rvStNmDOmy_XRa1ScUcZmzqEQlQWuJ9xtb0'
 title: 'Show Inventory Tab'
 date: '2022-08-09T15:46:56.913Z'
 version: 42
-lastAuthor: 'Doug Horner'
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pwmVB0X2rvStNmDOmy_XRa1ScUcZmzqEQlQWuJ9xtb0'

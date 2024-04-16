@@ -3,7 +3,7 @@ id: '1lNl-P7EYEJTn7iH37TRc29k0_WeJRDk_A1_VIUkMUYE'
 title: 'Real World Testing Results 2024'
 date: '2024-02-19T20:08:35.497Z'
 version: 23
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'

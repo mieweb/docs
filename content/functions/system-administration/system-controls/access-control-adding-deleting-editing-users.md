@@ -3,7 +3,7 @@ id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
 date: '2024-01-12T16:34:59.372Z'
 version: 160
-lastAuthor: 'Jenna Anderson'
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'access-control-quick-add-multiple-active-users.md'

@@ -2,8 +2,8 @@
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
 date: '2024-03-13T18:48:43.367Z'
-version: 2801
-lastAuthor: 'Bridget Hamm'
+version: 2848
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'

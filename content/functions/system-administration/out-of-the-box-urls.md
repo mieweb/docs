@@ -2,8 +2,8 @@
 id: '1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
 title: 'Out-of-the-Box Urls'
 date: '2020-02-27T21:32:04.753Z'
-version: 23
-lastAuthor: 'Alan Quandt'
+version: 25
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC'

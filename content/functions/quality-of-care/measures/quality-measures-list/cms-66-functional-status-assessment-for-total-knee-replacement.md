@@ -3,7 +3,7 @@ id: '14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
 title: 'CMS 66 - Functional Status Assessment for Total Knee Replacement'
 date: '2022-05-16T15:45:59.673Z'
 version: 48
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure'

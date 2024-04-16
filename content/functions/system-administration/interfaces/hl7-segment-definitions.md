@@ -2,8 +2,8 @@
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
 date: '2024-03-21T19:41:42.472Z'
-version: 424
-lastAuthor: 'Alice Uhrick'
+version: 445
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'

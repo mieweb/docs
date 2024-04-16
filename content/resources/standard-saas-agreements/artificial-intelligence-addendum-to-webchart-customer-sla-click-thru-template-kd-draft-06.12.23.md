@@ -3,7 +3,7 @@ id: '1AjmpT0AwKKadibXKOp32YqRqTHuM-ZLfa8wAfRMlJYE'
 title: 'Artificial Intelligence Addendum to WebChart Customer SLA (Click Thru) - Template (KD Draft 06.12.23)'
 date: '2023-09-19T20:14:48.954Z'
 version: 68
-lastAuthor: 'Doug Horner'
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://beta.openai.com/docs/usage-policies'

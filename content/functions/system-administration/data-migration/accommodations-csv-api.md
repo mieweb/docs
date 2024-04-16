@@ -3,7 +3,7 @@ id: '1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
 title: 'Accommodations CSV API'
 date: '2020-02-27T21:32:16.770Z'
 version: 24
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'case-management-csv-api.md'

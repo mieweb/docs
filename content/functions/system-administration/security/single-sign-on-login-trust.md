@@ -2,8 +2,8 @@
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
 date: '2022-11-17T16:58:16.532Z'
-version: 65
-lastAuthor: 'Doug Horner'
+version: 67
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'

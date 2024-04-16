@@ -3,7 +3,7 @@ id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
 date: '2022-10-24T17:40:03.843Z'
 version: 338
-lastAuthor: 'Sam Stuck'
+lastAuthor: 'sstuck'
 mimeType: 'text/x-markdown'
 links:
   - 'https://oauth.net/2/'

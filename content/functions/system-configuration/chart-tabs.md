@@ -2,8 +2,8 @@
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
 date: '2024-01-23T20:44:24.269Z'
-version: 230
-lastAuthor: 'Sharon Quarterman'
+version: 234
+lastAuthor: 'squarterman'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'

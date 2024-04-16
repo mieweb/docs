@@ -3,7 +3,7 @@ id: '1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
 title: 'Encounter Workflow & Portal Management'
 date: '2020-02-27T21:27:26.111Z'
 version: 24
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-encounter-workflow.md'

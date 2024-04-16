@@ -3,7 +3,7 @@ id: '1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
 title: 'Audiogram Validation Test Script'
 date: '2020-02-27T21:32:53.730Z'
 version: 42
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../document-management/documents-and-forms/audiogram-data-entry.md'

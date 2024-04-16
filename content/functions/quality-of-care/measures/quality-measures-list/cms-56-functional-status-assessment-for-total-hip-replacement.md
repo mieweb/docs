@@ -3,7 +3,7 @@ id: '1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U'
 title: 'CMS 56 - Functional Status Assessment for Total Hip Replacement'
 date: '2022-05-11T20:12:53.552Z'
 version: 62
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v8&showresulttype=Measure'

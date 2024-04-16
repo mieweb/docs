@@ -1,9 +1,9 @@
 ---
 id: '1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ'
 title: 'Creating employer organizations'
-date: '2021-02-18T16:07:46.271Z'
-version: 30
-lastAuthor: 'egrzetich'
+date: '2024-04-12T14:49:04.573Z'
+version: 43
+lastAuthor: 'mcarrillo'
 mimeType: 'text/x-markdown'
 links:
   - 'changing-organizations-to-employer-organizations.md'

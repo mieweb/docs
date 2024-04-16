@@ -3,7 +3,7 @@ id: '1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
 title: 'Tasking & E-Sign'
 date: '2020-02-27T21:27:44.178Z'
 version: 28
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-tasking.md'

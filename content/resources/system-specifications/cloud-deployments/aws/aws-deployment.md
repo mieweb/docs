@@ -2,8 +2,8 @@
 id: '1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
 title: 'AWS Deployment'
 date: '2023-12-12T15:00:01.807Z'
-version: 68
-lastAuthor: 'Will Reiske (MIE)'
+version: 70
+lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.terraform.io/'

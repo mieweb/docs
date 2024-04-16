@@ -2,8 +2,8 @@
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
 date: '2023-12-01T17:33:47.484Z'
-version: 172
-lastAuthor: 'Angie Nichols'
+version: 175
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'

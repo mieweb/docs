@@ -3,7 +3,7 @@ id: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
 title: 'Portal Management'
 date: '2021-04-27T18:15:34.584Z'
 version: 80
-lastAuthor: 'Doug Horner'
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'portal-management/patient-portal-first-time-setup-and-configuration.md'

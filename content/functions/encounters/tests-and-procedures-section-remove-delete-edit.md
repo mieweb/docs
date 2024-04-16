@@ -3,7 +3,7 @@ id: '1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
 title: 'Tests & Procedures Section - Remove, Delete, Edit'
 date: '2020-02-27T21:14:57.599Z'
 version: 36
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'tests-and-procedures-section-applying-adding-completing-resulting.md'

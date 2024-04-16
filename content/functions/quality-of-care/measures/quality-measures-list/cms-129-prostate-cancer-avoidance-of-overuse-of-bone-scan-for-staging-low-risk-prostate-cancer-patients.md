@@ -3,7 +3,7 @@ id: '1uyzFO8FwjOJb8-ixYtKd94iuVcu4wwwIhvkIO5Fybw4'
 title: 'CMS 129 - Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients'
 date: '2022-04-22T18:22:57.037Z'
 version: 13
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v9&showresulttype=Measure'

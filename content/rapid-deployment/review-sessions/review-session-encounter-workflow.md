@@ -3,7 +3,7 @@ id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
 date: '2022-11-02T11:35:05.491Z'
 version: 412
-lastAuthor: 'Bridget Hamm'
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/unit/view/id:2703'

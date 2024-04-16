@@ -3,7 +3,7 @@ id: '1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
 title: 'Review Session - Medication Management/Electronic Prescribing'
 date: '2020-02-27T21:25:41.678Z'
 version: 53
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager'

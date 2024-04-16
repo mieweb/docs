@@ -2,8 +2,8 @@
 id: '14rgDcHuSlVd0894l6uZzFDeANZazXViU6NnquoPmjno'
 title: 'RWT Results 2024 Q2'
 date: '2024-03-22T19:34:29.568Z'
-version: 60
-lastAuthor: 'William A Grana'
+version: 61
+lastAuthor: 'wagrana'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'

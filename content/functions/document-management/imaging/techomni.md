@@ -3,7 +3,7 @@ id: '1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
 title: 'TechOmni'
 date: '2020-03-10T14:03:53.331Z'
 version: 33
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'radomni.md'

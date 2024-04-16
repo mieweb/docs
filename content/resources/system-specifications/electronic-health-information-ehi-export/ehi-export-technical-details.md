@@ -3,7 +3,7 @@ id: '1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
 title: 'EHI Export Technical Details'
 date: '2023-11-16T15:47:51.500Z'
 version: 190
-lastAuthor: 'Doug Horner'
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.ecfr.gov/current/title-45/part-164/section-164.501#p-164.501(Designated%20record%20set)'

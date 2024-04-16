@@ -3,7 +3,7 @@ id: '1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
 title: 'Quality Resources'
 date: '2020-02-27T21:27:57.735Z'
 version: 28
-lastAuthor: 'Alan Quandt'
+lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../programs/quality-reporting.md'

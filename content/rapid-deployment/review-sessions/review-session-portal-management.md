@@ -2,8 +2,8 @@
 id: '1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
 title: 'Review Session - Portal Management'
 date: '2022-11-02T11:36:19.428Z'
-version: 270
-lastAuthor: 'Bridget Hamm'
+version: 278
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/learner/courseinfo/id:461'

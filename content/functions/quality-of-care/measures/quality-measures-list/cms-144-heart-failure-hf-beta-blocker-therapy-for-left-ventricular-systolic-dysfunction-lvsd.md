@@ -3,7 +3,7 @@ id: '1mjaSrGAH3j_mNUIhsJT4neLhoquPAcUP2VKpHrCaKUI'
 title: 'CMS 144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
 date: '2022-04-20T15:02:42.844Z'
 version: 35
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS144v8&showresulttype=Measure'

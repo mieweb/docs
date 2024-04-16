@@ -3,7 +3,7 @@ id: '1OsmZkGvdNSksxVila_KBGbU6irLpxmULR8TFNEzs6t8'
 title: 'RWT Results 2023 Q3Q4'
 date: '2024-01-09T19:01:32.949Z'
 version: 20
-lastAuthor: 'Nicole Richardson'
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
