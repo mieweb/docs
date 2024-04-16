@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-02-23T17:04:53.922Z'
-version: 375
-lastAuthor: 'Angie Nichols'
+date: '2024-04-15T15:57:36.540Z'
+version: 396
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
@@ -12,9 +12,9 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences.
 
-Changes to any of the* My Setting* preferences will only affect you, the logged in user, and no one else when you are set in Yourself mode.  The user you are logged in as will be the only user affected by these preferences.
+Changes to any of the *My Setting* preferences will only affect you, the logged in user, and no one else when you are set in Yourself mode.  The user you are logged in as will be the only user affected by these preferences.
 
-From the *Contro**l* left sidebar menu, find the *My Settings* tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click the *Submit** Settings* box at the top or bottom of the screen to save your changes.
+From the *Control* left sidebar menu, find the *My Settings* tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click the *Submit** Settings* box at the top or bottom of the screen to save your changes.
 
 ![](../my-settings.assets/025ce3b3ca6afbacfc7625975bcb82df.png)
 
