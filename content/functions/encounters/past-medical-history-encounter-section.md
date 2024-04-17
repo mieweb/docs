@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2024-04-17T19:53:21.770Z'
-version: 516
+date: '2024-04-17T20:16:42.298Z'
+version: 526
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -97,8 +97,7 @@ Selecting the edit opinion on a problem list condition will call the* Edit Condi
 * If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
 * Unconfirmed conditions will not display in the Problem List Quick List.
 * Conditions with a Clinical Status of Inactive, Remission or Resolved, and a Verification Status of Confirmed will continue to display on the Problem List Quick List as "(Inactive)". The visit note documentation will also display the Clinical Status in light gray colored text to the right of the condition name.
-
-#### ![](../past-medical-history-encounter-section.assets/606d356a37811fadb72aa47de0931c31.png)
+    ![](../past-medical-history-encounter-section.assets/606d356a37811fadb72aa47de0931c31.png)
 
 #### Remove
 
@@ -106,8 +105,7 @@ Selecting the edit opinion on a problem list condition will call the* Edit Condi
 
 * Selecting the Remove icon will call the <em>Remove Condition</em> screen. This screen allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or it was an error and shouldn't have been in the medical history.
 * Users can also view historical revisions for this condition, notes, tasks and links.
-
-#### ![](../past-medical-history-encounter-section.assets/41d804cbd59e29cd62425fa66d22cdf0.png)
+    ![](../past-medical-history-encounter-section.assets/41d804cbd59e29cd62425fa66d22cdf0.png)
 
 #### Move to PMH
 
@@ -121,8 +119,6 @@ Selecting the edit opinion on a problem list condition will call the* Edit Condi
 ![](../past-medical-history-encounter-section.assets/fe782640886db46ece5c9534e7f9aaef.png)
 
 * If the condition was previously set to Problem List, "Yes" and Past Medical History, "No", then when the ‘Move to PMH button' is selected, the condition will move to the Other Problems Quick List.
-
-![](../past-medical-history-encounter-section.assets/c58b2850708565389474ac5e73db8bfe.png)
 
 ![](../past-medical-history-encounter-section.assets/140f97ae8b8bc20db49fb727e3feb29c.png)
 
@@ -223,7 +219,7 @@ Problem List Default on New: Default is "No".
 ![](../past-medical-history-encounter-section.assets/087bbad40927988c737a37d809ceac6b.png)
 
 * When set to No, the Problem list and Past Medical History radio button will default to "No" upon adding an assessment.
-* When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment
+* When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment.
 
 ![](../past-medical-history-encounter-section.assets/5eff512a05f951e095a8bacc6e748a59.png)
 
