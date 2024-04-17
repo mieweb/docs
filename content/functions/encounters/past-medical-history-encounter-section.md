@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2024-04-17T19:41:34.168Z'
-version: 509
+date: '2024-04-17T19:53:21.770Z'
+version: 516
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -46,7 +46,7 @@ The *Past Medical History* encounter section displays in the visit encounter Sub
 
 As of RC202203, users will no longer be able to open/close the *Past Medical History* section and use the legacy list edit to add or edit the PMH.  Beginning RC202203, users must use the Quick List to manage the PMH. Use the Quick List on the right side of the encounter section to add conditions to the PMH. If a condition has previously been added to the PMH, it will display on the left side of the *Past Medical History* section.
 
-## ![](../past-medical-history-encounter-section.assets/f1106d9e2f8c20df9bf2c7c76809e063.png)
+![](../past-medical-history-encounter-section.assets/f1106d9e2f8c20df9bf2c7c76809e063.png)
 
 ## No Past Medical History
 
@@ -88,7 +88,7 @@ The additional options are Edit, Remove, Move to Past PMH, Add to PMH.
 
 #### Edit
 
-![](../past-medical-history-encounter-section.assets/d80c2ca21a9187a4932bd9657b7d119d.png)
+#### ![](../past-medical-history-encounter-section.assets/d80c2ca21a9187a4932bd9657b7d119d.png)
 
 Selecting the edit opinion on a problem list condition will call the* Edit Condition* screen. This allows the user to edit the condition description and/or attributes of the condition.
 
@@ -102,7 +102,7 @@ Selecting the edit opinion on a problem list condition will call the* Edit Condi
 
 #### Remove
 
-![](../past-medical-history-encounter-section.assets/9ba5b17f71db3046368f265d2bffb8ba.png)
+#### ![](../past-medical-history-encounter-section.assets/9ba5b17f71db3046368f265d2bffb8ba.png)
 
 * Selecting the Remove icon will call the <em>Remove Condition</em> screen. This screen allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or it was an error and shouldn't have been in the medical history.
 * Users can also view historical revisions for this condition, notes, tasks and links.
@@ -139,9 +139,8 @@ Selecting the edit opinion on a problem list condition will call the* Edit Condi
 
 * The "Past Medical History" Quick List will display "Patient Past Medical History" for Webchart systems and "Employee Past Medical History" will display for Enterprise Health systems.
 * Existing conditions in the Past Medical History encounter section and the Conditions chart tab will pre-populate the Past Medical History Quick List.
-* When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only.
-
-![](../past-medical-history-encounter-section.assets/5f4f378956935653c77cab65bc95797c.png)
+* When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only
+    ![](../past-medical-history-encounter-section.assets/5f4f378956935653c77cab65bc95797c.png)
 
 ![](../past-medical-history-encounter-section.assets/ee6d802873a0a68b5d555ce78a0a4028.png)
 
