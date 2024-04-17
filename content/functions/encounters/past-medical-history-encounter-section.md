@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2024-04-16T13:20:15.782Z'
-version: 492
+date: '2024-04-17T18:45:16.745Z'
+version: 500
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -14,35 +14,35 @@ The *Past Medical History* encounter section displays in the visit encounter Sub
 ![](../past-medical-history-encounter-section.assets/dd3341c49d3198bfafea9f58717ded70.png)
 
 ![](../past-medical-history-encounter-section.assets/1f5526a0699824cec1437d9277aecb72.png)
-- Opens the *Edit Condition* screen. Users can add/remove the condition from the Problem List and/or Past Medical History, designate the Clinical Status, Verification Status, Managed by, as well as enter comments, view revisions, view links and related conditions.
+  Opens the *Edit Condition* screen. Users can add/remove the condition from the Problem List and/or Past Medical History, designate the Clinical Status, Verification Status, Managed by, as well as enter comments, view revisions, view links and related conditions.
 
 ![](../past-medical-history-encounter-section.assets/0cdd9b9fb528c458693991970c490184.png)
 
 ![](../past-medical-history-encounter-section.assets/e045d5eb4237980e2e53469dee350468.png)
-- Removes the condition from today's PMH. The condition will still display in the Quick List and can be added back to today's PMH if removed in error.
+  Removes the condition from today's PMH. The condition will still display in the Quick List and can be added back to today's PMH if removed in error.
 
 ![](../past-medical-history-encounter-section.assets/92e4a75c20ad5d93c8b0cc235a9a7251.png)
-- Opens the *Remove Condition* screen. Users can remove from today's PMH and the patient/employee's PMH, indicate if it should be deleted as an entry error, add comments, view revisions, view links and related conditions.
+  Opens the *Remove Condition* screen. Users can remove from today's PMH and the patient/employee's PMH, indicate if it should be deleted as an entry error, add comments, view revisions, view links and related conditions.
 
 ![](../past-medical-history-encounter-section.assets/1efef493d76e7a3809a8143eceec44a1.png)
 
 ![](../past-medical-history-encounter-section.assets/af31bccb4a420382b71295d5f3a052f2.png)
-- Opens the *Notes* screen. Users can add notes to the PMH condition, indicated E&M category or mark the note as private. Previously entered notes on the condition will be dated and displayed in gray under the *Add a new note* entry box.
+  Opens the *Notes* screen. Users can add notes to the PMH condition, indicated E&M category or mark the note as private. Previously entered notes on the condition will be dated and displayed in gray under the *Add a new note* entry box.
 
 ![](../past-medical-history-encounter-section.assets/36155aab28f998dfd895d448d8a35f1b.png)
 
 ![](../past-medical-history-encounter-section.assets/782d8f964ad0afc9fd098fc353d36096.png)
-- Opens the *Add Task* screen. *Add Task* allows the user to task a department or individual user a task note regarding this condition.
+  Opens the *Add Task* screen. *Add Task* allows the user to task a department or individual user a task note regarding this condition.
 
 ![](../past-medical-history-encounter-section.assets/02f4fcc57310df56352226d6df3f6233.png)
 
 ![](../past-medical-history-encounter-section.assets/bffa01da68c3cfee13805195d0ba18a9.png)
-- Opens the *Add Encounter Order* screen. This allows the user to add encounter orders using the selected conditions as the reason for the order. Any orders entered will display in the Plan Visit Orders encounter section.
+  Opens the *Add Encounter Order* screen. This allows the user to add encounter orders using the selected conditions as the reason for the order. Any orders entered will display in the Plan Visit Orders encounter section.
 
 ![](../past-medical-history-encounter-section.assets/18c91f2bba6d254499625e64cb89f5f7.png)
 
 ![](../past-medical-history-encounter-section.assets/ef96d008cdb993e4655145ba38cc4ce6.png)
-- Click to drag and drop and reorder the conditions as they display on the PMH list.
+  Click to drag and drop and reorder the conditions as they display on the PMH list.
 
 As of RC202203, users will no longer be able to open/close the *Past Medical History* section and use the legacy list edit to add or edit the PMH.  Beginning RC202203, users must use the Quick List to manage the PMH. Use the Quick List on the right side of the encounter section to add conditions to the PMH. If a condition has previously been added to the PMH, it will display on the left side of the *Past Medical History* section.
 
