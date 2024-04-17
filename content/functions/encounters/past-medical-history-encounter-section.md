@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2024-04-17T20:16:42.298Z'
-version: 526
+date: '2024-04-17T21:12:42.852Z'
+version: 547
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -88,37 +88,41 @@ The additional options are Edit, Remove, Move to Past PMH, Add to PMH.
 
 #### Edit
 
-#### ![](../past-medical-history-encounter-section.assets/d80c2ca21a9187a4932bd9657b7d119d.png)
+![](../past-medical-history-encounter-section.assets/d80c2ca21a9187a4932bd9657b7d119d.png)
 
 Selecting the edit opinion on a problem list condition will call the* Edit Condition* screen. This allows the user to edit the condition description and/or attributes of the condition.
 
 ![](../past-medical-history-encounter-section.assets/ddd7f5bebf31274078ee6d2356e35ba5.png)
 
-* If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
-* Unconfirmed conditions will not display in the Problem List Quick List.
-* Conditions with a Clinical Status of Inactive, Remission or Resolved, and a Verification Status of Confirmed will continue to display on the Problem List Quick List as "(Inactive)". The visit note documentation will also display the Clinical Status in light gray colored text to the right of the condition name.
-    ![](../past-medical-history-encounter-section.assets/606d356a37811fadb72aa47de0931c31.png)
+If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
+
+Unconfirmed conditions will not display in the Problem List Quick List.
+
+Conditions with a Clinical Status of Inactive, Remission or Resolved, and a Verification Status of Confirmed will continue to display on the Problem List Quick List as "(Inactive)". The visit note documentation will also display the Clinical Status in light gray colored text to the right of the condition name.
+![](../past-medical-history-encounter-section.assets/606d356a37811fadb72aa47de0931c31.png)
 
 #### Remove
 
-#### ![](../past-medical-history-encounter-section.assets/9ba5b17f71db3046368f265d2bffb8ba.png)
+![](../past-medical-history-encounter-section.assets/9ba5b17f71db3046368f265d2bffb8ba.png)
 
-* Selecting the Remove icon will call the <em>Remove Condition</em> screen. This screen allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or it was an error and shouldn't have been in the medical history.
-* Users can also view historical revisions for this condition, notes, tasks and links.
-    ![](../past-medical-history-encounter-section.assets/41d804cbd59e29cd62425fa66d22cdf0.png)
+Selecting the Remove icon will call the *Remove Condition* screen. This screen allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or it was an error and shouldn't have been in the medical history.
+
+Users can also view historical revisions for this condition, notes, tasks and links.
+![](../past-medical-history-encounter-section.assets/41d804cbd59e29cd62425fa66d22cdf0.png)
 
 #### Move to PMH
 
-![](../past-medical-history-encounter-section.assets/71c1aaaba5001699ec83e9e29aed3290.png)
+![](../past-medical-history-encounter-section.assets/8c9d3156375796ac6dc899914e07e30d.png)
 
-* If the condition was previously set to Problem List, "Yes" and Past Medical History,  "Yes", then when the ‘Move to PMH' button is selected, the condition will move from Problem List Quick List to the Past Medical History Quick List.
-* Note: The "Past Medical History" Quick List will display "Patient Past Medical History" for Webchart systems and "Employee Past Medical History" will display for Enterprise Health systems.
+If the condition was previously set to Problem List, "Yes" and Past Medical History,  "Yes", then when the ‘Move to PMH' button is selected, the condition will move from Problem List Quick List to the Past Medical History Quick List.
+
+Note: The "Past Medical History" Quick List will display "Patient Past Medical History" for Webchart systems and "Employee Past Medical History" will display for Enterprise Health systems.
 
 ![](../past-medical-history-encounter-section.assets/69f620b19282bb62e61b8a29411a8bce.png)
 
 ![](../past-medical-history-encounter-section.assets/fe782640886db46ece5c9534e7f9aaef.png)
 
-* If the condition was previously set to Problem List, "Yes" and Past Medical History, "No", then when the ‘Move to PMH button' is selected, the condition will move to the Other Problems Quick List.
+If the condition was previously set to Problem List, "Yes" and Past Medical History, "No", then when the ‘Move to PMH button' is selected, the condition will move to the Other Problems Quick List.
 
 ![](../past-medical-history-encounter-section.assets/140f97ae8b8bc20db49fb727e3feb29c.png)
 
@@ -126,28 +130,34 @@ Selecting the edit opinion on a problem list condition will call the* Edit Condi
 
 ![](../past-medical-history-encounter-section.assets/ba03b21d5b9f8d829926da0ba852c3b8.png)
 
-* If the condition was previously set to Problem List, "Yes" and Past Medical History, "No", then when the ‘Add to PMH button' is selected, the <em>Edit Condition</em> screen will display.
-* If the condition should be marked as "Past Medical History" on future encounters, manually click the "Yes" radio button and then click "Save". This adds the condition to the encounter (left side of the encounter section).
+If the condition was previously set to Problem List, "Yes" and Past Medical History, "No", then when the ‘Add to PMH button' is selected, the *Edit Condition* screen will display.
+
+![](../past-medical-history-encounter-section.assets/62a20f0459f8b62277ef6d75835029e9.png)
+
+If the condition should be marked as "Past Medical History" on future encounters, manually click the "Yes" radio button and then click "Save". This adds the condition to the encounter (left side of the encounter section).
 
 ![](../past-medical-history-encounter-section.assets/561c4a09a417cbaf0ada9730669bf245.png)
 
 ### Employee/Patient Past Medical History Quick List
 
-* The "Past Medical History" Quick List will display "Patient Past Medical History" for Webchart systems and "Employee Past Medical History" will display for Enterprise Health systems.
-* Existing conditions in the Past Medical History encounter section and the Conditions chart tab will pre-populate the Past Medical History Quick List.
-* When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only
-    ![](../past-medical-history-encounter-section.assets/5f4f378956935653c77cab65bc95797c.png)
+The "Past Medical History" Quick List will display "Patient Past Medical History" for Webchart systems and "Employee Past Medical History" will display for Enterprise Health systems.
+
+Existing conditions in the Past Medical History encounter section and the Conditions chart tab will pre-populate the Past Medical History Quick List.
+
+When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only.
+![](../past-medical-history-encounter-section.assets/5f4f378956935653c77cab65bc95797c.png)
 
 ![](../past-medical-history-encounter-section.assets/ee6d802873a0a68b5d555ce78a0a4028.png)
 
-* When adding/editing a condition via the Quick List, if a condition is marked as "No" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Past Medical History Quick List only.
+When adding/editing a condition via the Quick List, if a condition is marked as "No" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Past Medical History Quick List only.
 
 ![](../past-medical-history-encounter-section.assets/04e5fadc9ac897006cb9d7b647281e55.png)
 
 ![](../past-medical-history-encounter-section.assets/ee6d802873a0a68b5d555ce78a0a4028.png)
 
-* Selecting "Yes" to Past Medical History will also display the condition to the chart/encounter Past Medical History section, and to the Past Medical History Quick List for today and all future encounters created.
-* Once the condition has been added to the Past Medical History Quick List, hover over the condition to see additional options.
+Selecting "Yes" to Past Medical History will also display the condition to the chart/encounter Past Medical History section, and to the Past Medical History Quick List for today and all future encounters created.
+
+Once the condition has been added to the Past Medical History Quick List, hover over the condition to see additional options.
 
 ![](../past-medical-history-encounter-section.assets/5eee151f98faf8adf2620a74de69ec6f.png)
 
@@ -155,22 +165,25 @@ The options are Edit, Remove, Move to Problem List and Add to PMH:
 
 #### Edit
 
-* Selecting Edit from the Past Medical History List will call the <em>Edit Condition</em> screen. This allows the user to edit the condition description and/or attributes of the condition.
-* If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
-* Conditions with a Clinic Status of Inactive, Remission or Resolved, will continue to display in the Past Medical History Quick List and display the text "(Inactive)" after the condition name.
-* Unconfirmed and Refuted conditions will not display in the Past Medical History Quick List. The verification status does however display in the encounter documentation, and will be memorialized in the archived encounter and document.
+Selecting Edit from the Past Medical History List will call the *Edit Condition* screen. This allows the user to edit the condition description and/or attributes of the condition.
+
+If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
+
+Conditions with a Clinic Status of Inactive, Remission or Resolved, will continue to display in the Past Medical History Quick List and display the text "(Inactive)" after the condition name.
+
+Unconfirmed and Refuted conditions will not display in the Past Medical History Quick List. The verification status does however display in the encounter documentation, and will be memorialized in the archived encounter and document.
 
 #### Remove
 
-* This will call the <em>Remove Condition</em> screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists.
+This will call the *Remove Condition* screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists.
 
 #### Move to Problem List
 
-* When selected, the condition on the Past Medical History Quick List will move to the Problem List Quick List and add the condition to the encounter PMH (left side of the encounter section).
+When selected, the condition on the Past Medical History Quick List will move to the Problem List Quick List and add the condition to the encounter PMH (left side of the encounter section).
 
 #### Add to PMH
 
-* Selecting Add to PMH will add the condition to the encounter PMH (left side of the encounter section).
+Selecting Add to PMH will add the condition to the encounter PMH (left side of the encounter section).
 
 ### Other Problems Quick List
 
@@ -178,7 +191,7 @@ Conditions in the Other Problems list are conditions that were added and not ind
 
 ![](../past-medical-history-encounter-section.assets/f3cc16bda9049b4ef1c3454e74120df7.png)
 
-* If a condition is marked as "No" to Problem List and "No" to Past Medical History, the condition will display in the Other Problems list only.
+If a condition is marked as "No" to Problem List and "No" to Past Medical History, the condition will display in the Other Problems list only.
 
 ![](../past-medical-history-encounter-section.assets/fe22e86c9a88e83ba3b1776b1ff3d159.png)
 
@@ -186,15 +199,15 @@ The options are Edit, Remove and Add to PMH.
 
 #### Edit
 
-* Selecting Edit from the Past Medical History List will call the <em>Edit Condition</em> screen. This allows the user to edit the condition description and/or attributes of the condition.
+Selecting Edit from the Past Medical History List will call the *Edit Condition* screen. This allows the user to edit the condition description and/or attributes of the condition.
 
 #### Remove
 
-* This will call the <em>Remove Condition</em> screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists.
+This will call the *Remove Condition* screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists.
 
 #### Add to PMH
 
-* When selected, the condition on the Make New PMH Item Quick List will move to the Problem List Quick List and add the condition to the encounter PMH (left side of the encounter section).
+When selected, the condition on the Make New PMH Item Quick List will move to the Problem List Quick List and add the condition to the encounter PMH (left side of the encounter section).
 
 ### Make New PMH Item Quick List
 
@@ -206,11 +219,11 @@ The options are Add to PMH and Add to Problem List:
 
 #### Add to Past Medical History
 
-* Selecting Add to PMH will add the condition to the encounter PMH (left side of the encounter section) . This condition will also now display on the Employee/Patient Past Medical History Quick List.
+Selecting Add to PMH will add the condition to the encounter PMH (left side of the encounter section) . This condition will also now display on the Employee/Patient Past Medical History Quick List.
 
 #### Add to Problem List
 
-* Selecting Add to Problem List will add the condition to the encounter PMH (left side of the encounter section) . This condition will also now display on the Problem List Quick List.
+Selecting Add to Problem List will add the condition to the encounter PMH (left side of the encounter section) . This condition will also now display on the Problem List Quick List.
 
 ## My Settings
 
@@ -218,15 +231,16 @@ Problem List Default on New: Default is "No".
 
 ![](../past-medical-history-encounter-section.assets/087bbad40927988c737a37d809ceac6b.png)
 
-* When set to No, the Problem list and Past Medical History radio button will default to "No" upon adding an assessment.
-* When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment.
+When set to No, the Problem list and Past Medical History radio button will default to "No" upon adding an assessment.
+
+When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment.
 
 ![](../past-medical-history-encounter-section.assets/5eff512a05f951e095a8bacc6e748a59.png)
 
-* When set to Yes, but the Problem list and/or the Past Medical History radio button is set to "No" and you click one to be "Yes", then BOTH radio button options will change to yes.
+When set to Yes, but the Problem list and/or the Past Medical History radio button is set to "No" and you click one to be "Yes", then BOTH radio button options will change to yes.
 
 Show Dynamic List Options: Default is set to "On hover"
 
 ![](../past-medical-history-encounter-section.assets/8c01f50f5e34eb17ae1e017ad21a2689.png)
 
-* If this setting is changed to "Always", then all options in the encounter and/or other areas where icons are dynamic will display. This is typically discouraged and clients should be encouraged to use the hover.
+If this setting is changed to "Always", then all options in the encounter and/or other areas where icons are dynamic will display. This is typically discouraged and clients should be encouraged to use the hover.
