@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2024-04-17T21:12:42.852Z'
-version: 547
+date: '2024-04-18T14:04:46.015Z'
+version: 561
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -22,7 +22,7 @@ The *Past Medical History* encounter section displays in the visit encounter Sub
   Removes the condition from today's PMH. The condition will still display in the Quick List and can be added back to today's PMH if removed in error.
 
 ![](../past-medical-history-encounter-section.assets/92e4a75c20ad5d93c8b0cc235a9a7251.png)
-  Opens the *Remove Condition* screen. Users can remove from today's PMH and the patient/employee's PMH, indicate if it should be deleted as an entry error, add comments, view revisions, view links and related conditions.
+  Opens the *Remove Condition* screen. Users can remove the condition from today's PMH and the patient/employee's PMH, indicate if it should be deleted as an entry error, add comments, view revisions, view links and related conditions.
 
 ![](../past-medical-history-encounter-section.assets/1efef493d76e7a3809a8143eceec44a1.png)
 
@@ -32,7 +32,7 @@ The *Past Medical History* encounter section displays in the visit encounter Sub
 ![](../past-medical-history-encounter-section.assets/36155aab28f998dfd895d448d8a35f1b.png)
 
 ![](../past-medical-history-encounter-section.assets/782d8f964ad0afc9fd098fc353d36096.png)
-  Opens the *Add Task* screen. *Add Task* allows the user to task a department or individual user a task note regarding this condition.
+  Opens the *Add Task* screen. *Add Task* allows the user to send a task note to a department or individual user a task note regarding this condition.
 
 ![](../past-medical-history-encounter-section.assets/02f4fcc57310df56352226d6df3f6233.png)
 
@@ -99,6 +99,7 @@ If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical Hist
 Unconfirmed conditions will not display in the Problem List Quick List.
 
 Conditions with a Clinical Status of Inactive, Remission or Resolved, and a Verification Status of Confirmed will continue to display on the Problem List Quick List as "(Inactive)". The visit note documentation will also display the Clinical Status in light gray colored text to the right of the condition name.
+
 ![](../past-medical-history-encounter-section.assets/606d356a37811fadb72aa47de0931c31.png)
 
 #### Remove
@@ -108,6 +109,7 @@ Conditions with a Clinical Status of Inactive, Remission or Resolved, and a Veri
 Selecting the Remove icon will call the *Remove Condition* screen. This screen allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or it was an error and shouldn't have been in the medical history.
 
 Users can also view historical revisions for this condition, notes, tasks and links.
+
 ![](../past-medical-history-encounter-section.assets/41d804cbd59e29cd62425fa66d22cdf0.png)
 
 #### Move to PMH
@@ -116,9 +118,9 @@ Users can also view historical revisions for this condition, notes, tasks and li
 
 If the condition was previously set to Problem List, "Yes" and Past Medical History,  "Yes", then when the ‘Move to PMH' button is selected, the condition will move from Problem List Quick List to the Past Medical History Quick List.
 
-Note: The "Past Medical History" Quick List will display "Patient Past Medical History" for Webchart systems and "Employee Past Medical History" will display for Enterprise Health systems.
-
 ![](../past-medical-history-encounter-section.assets/69f620b19282bb62e61b8a29411a8bce.png)
+
+Note: The "Past Medical History" Quick List will display "Patient Past Medical History" for Webchart systems and "Employee Past Medical History" will display for Enterprise Health systems.
 
 ![](../past-medical-history-encounter-section.assets/fe782640886db46ece5c9534e7f9aaef.png)
 
@@ -145,6 +147,7 @@ The "Past Medical History" Quick List will display "Patient Past Medical History
 Existing conditions in the Past Medical History encounter section and the Conditions chart tab will pre-populate the Past Medical History Quick List.
 
 When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only.
+
 ![](../past-medical-history-encounter-section.assets/5f4f378956935653c77cab65bc95797c.png)
 
 ![](../past-medical-history-encounter-section.assets/ee6d802873a0a68b5d555ce78a0a4028.png)
