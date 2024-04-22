@@ -1,8 +1,8 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2024-03-28T18:46:05.735Z'
-version: 195
+date: '2024-04-22T14:06:15.299Z'
+version: 205
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -15,7 +15,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 If doing mass immunizations/injections, {{% system-name %}} provides a feature to document these injections from one tab instead of going into individual patient charts individually.  The Flu Injection Program tab also saves information in fields so you don't have to re-key it in for the next patient in line. This program is used when doing injections/immunizations en masse for various patients at a given time.  A laptop and mouse, laptop and pen, or tablet can also be used with this program. The patients can electronically sign a consent, or whatever is needed for your practice, for the injection and documentation using that laptop mouse, tablet, or laptop pen. By default, this program is set to a rule to look for the doc.type FLUCONSENT in the patient's chart before allowing you to inject/document the injection.  Contact your MIE Implementer if you wish to change this rule for your practice or turn it off.
 
-Click the E-Chart sidemenu tab.  Click the Flu Injection Program. (The Flu Injection Program tab may be located elsewhere in your system like it's own sidemenu tab). The Injection / Immunization screen will open.
+Click the E-Chart sidemenu tab.  Click the Flu Injection Program. (The Flu Injection Program tab may be located elsewhere in your system like its own sidemenu tab). The Injection / Immunization screen will open.
 
 ![](../injection-program-tab-recording-mass-injections.assets/23e8a258d6941ac3d55767f9f0722edd.png)
 
@@ -66,6 +66,7 @@ Decrement is done in whole numbers. So in inventory you have a qty of 10 flu sho
 * NDC: Or National Drug Code pulls the 10 or 11-digit code that represents the injection.
 * Expiration Date: Enter expiration from the vial.
 * Administration Date:  Automatically pops-up today's date and current time.  Change date or time to when the injection was given.
+* Ordering Provider: When the system setting "Use Ordered By" is enabled, this field will display. The Ordering Provider can be set by default in the user preferences "Orders Default, Ordering Provider".
 * Administrator: Select the name of the person that gave the injection. Start typing the last name in the blank field to pull up a list of users that match and select from there.
 * Route:  Select the route of the injection, if you wish, from the drop-down of choices.
 * Site:  Select the site the injection was given from the drop-down of choices.  You can select Other and it will open a free-text field for you to type in.
