@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-03-25T13:44:59.735Z'
-version: 231
-lastAuthor: 'anichols'
+date: '2024-04-22T13:44:58.330Z'
+version: 247
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -348,6 +348,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Admin Codes: Allows user to add/edit/delete Admin Codes (for class, company, facility, and status of demographics system wide options) within the System Editor in the Control Panel
 * Read JSON API Log: Allows user to read the JSON API log
 * Configure JSON API Logging: Allows user to configure JSON API logging when a JSON API request is done with the system setting enabled and the golden ticket for additional information appears in the response dev_messages
+* View Administrator Help: Allows user, if set to "Yes", to view Help Videos intended for a System Administrator
 
 ### Scheduler
 
@@ -501,6 +502,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Case Manager:  In systems that use a legacy layout, Yes allows users to create Case Management Encounters.  These are the encounters that are used to manage an incident as it progresses.  When it's set to "Yes" on the legacy Incident report, there will be a new link that says "Create Case" that will create the encounter.  ‘Yes' allows user to have access to the case management module using legacy layouts.  The case manager user will only have access to view cases to which they are assigned. If newer system on newer layouts, this security permission is not used for any functionality and is being retired.
 * Delete:  Yes allows users to delete incidents.  When set to "Yes", a new "Delete" link will appear under the options column on the incident report as well as on any incident list views on a patient's chart. ‘Yes' allows users the ability to delete an incident from the Incidents sidemenu tab in the injury/illness module.
 * Allow Open Restrictions: ‘Yes' allows users to create & save work restrictions without needing an end date and are not permanent work restrictions.
+* Manage Restr and Accom: Allows a user to manage restrictions and accommodations of a patient. When it is set to "No", the user is not allowed to view, add, edit or delete a restriction or an accommodation. When it is set to "View", the user is only allowed to view the patient's restrictions and accommodations. When it is set to "Add", the user can view and add patient restrictions and accommodations. When it is set to "Edit", the user can view, add, and edit a patient's restrictions and accommodations. When it is set to "Delete", the user can view, add, edit, and delete a patient's restrictions and accommodations.
 
 ### Time Tracking
 
