@@ -1,9 +1,9 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2024-04-11T15:15:52.611Z'
-version: 360
-lastAuthor: 'anichols'
+date: '2024-04-22T13:08:23.119Z'
+version: 377
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
@@ -31,6 +31,8 @@ This will help describe each field found on the Add Appointment screen:
     * <strong>Alerts</strong>: Any Alerts on the patient's chart and/or the patient's related employer organization chart, will appear at the top in red for visibility during an appointment scheduling process.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/a4c1bc8b028759611b4d023170a1d31e.png)
+
+![](../adding-an-appointment-using-the-wizard-tab.assets/f6f0d2f4aed07c9a1c84c21fc845dd1a.png)
 
     * <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
 
