@@ -1,8 +1,8 @@
 ---
 id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 title: 'Conditions'
-date: '2024-04-03T18:05:04.803Z'
-version: 300
+date: '2024-04-22T14:18:25.660Z'
+version: 308
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -135,6 +135,10 @@ Select the submit function you wish to perform:
 * <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
 
 After you have clicked one of the function buttons, it will then take you back to the patient's condition tab. You can edit another if you wish or continue working in {{% system-name %}} .
+
+Beginning in RC202403, users will be able to view Incident/cases linked to conditions when in Edit Condition mode. When in Edit Condition, the associated incident/case will display beneath the condition name. If an incident/case is not linked to the condition, the **Case** field is completely hidden and not viewable to the end user.  Users will continue to be able to click on View Links to view and navigate quickly to linked encounters, incidents and assessments.
+
+![](../conditions.assets/44fc8818e4d02e97a684d2bd431fae25.png)
 
 To delete a condition, hover over the condition and click on the delete icon.
 
