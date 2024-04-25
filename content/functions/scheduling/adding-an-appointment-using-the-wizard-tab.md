@@ -1,9 +1,9 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2024-04-22T13:08:23.119Z'
-version: 377
-lastAuthor: 'janderson'
+date: '2024-04-25T11:14:26.372Z'
+version: 389
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
@@ -32,9 +32,7 @@ This will help describe each field found on the Add Appointment screen:
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/a4c1bc8b028759611b4d023170a1d31e.png)
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/f6f0d2f4aed07c9a1c84c21fc845dd1a.png)
-
-    * <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
+* <strong>Add Patient or Add Employee hyperlink:</strong> This is a hyperlink provided next to the Patient field. When searching for a patient chart and do not get any auto-complete choices that are for the specific patient chart you need, the <em>Add Patient</em> or <em>Add Employee</em> hyperlink will allow you to manually add the patient chart to the system from here.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/5777e518b18b62a254d84dd7200361d7.png)
 
@@ -114,7 +112,7 @@ The next section is *Patient Visits*.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/1b2debe81a1bae9a1e1b45a6194170f8.png)
 
-    * <strong>To put a patient on the Waiting List</strong> you must click the USE WAITLIST button and the date/time field will clear out, then just click "add" to add the appointment and it will then put this patient in the waiting list, which has separate reporting for visibility.
+* <strong>To put a patient on the Waiting List</strong> you must click the USE WAITLIST button and the date/time field will clear out, then just click "add" to add the appointment and it will then put this patient in the waiting list, which has separate reporting for visibility.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/e6040a013bfb5926d26f92cb3215895f.png)
 
@@ -130,7 +128,7 @@ The next section is *Patient Visits*.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/af005091765cde860b80d10dd34a5fda.png)
 
-    * Simply click the Select hyperlink for the free appointment slot you wish to grab. It will populate the date/time fields with that selection.
+* Simply click the Select hyperlink for the free appointment slot you wish to grab. It will populate the date/time fields with that selection.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/13935183d81188ad7eb2d06fda812c49.png)
 
