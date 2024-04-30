@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-04-16T11:15:18.487Z'
-version: 400
-lastAuthor: 'anichols'
+date: '2024-04-30T13:36:06.584Z'
+version: 416
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
@@ -207,12 +207,12 @@ When looking at preference choices available in the drop-down:
 * RX Manager Mode: Select the default you wish to use when searching to add a drug in the Meds tab.  Auto-Complete (most used) will attempt to finish your typing and give you drop-down choices that match. If want to use Simple Search, you would type in the letters/name of drug and then have to click the SEARCH button and then it will pop-up choices that match.  Of course, you can change this when working in a patient's Meds tab without changing it back here.
 * Show RX Header:  Select Yes or No. The RX header is the list of allergies, medications & conditions this patient has that appears towards the top of any chart tab or document you are viewing on the computer screen.  If set to yes, this RX summary header will always appear on the screen for the patient to view. If set to no, the allergies, medications, conditions the patient has will not be shown on the computer screen when in a patient's chart or document.
 * Med Details in Header: Select Yes or No. The RX Header must be set to Yes for this option to be available.  Set this to Yes if you wish to have the patient's medication details (dosage, quantity, sig, etc) to be displayed within the list of medications the patient is on when viewing the RX summary header in the patient's chart.  Set to No if you just want the names of the medications to be displayed in the RX summary header (no sigs, dosages, quantities, etc will be shown w/ the medication).
-* Quick Add Auto Disp Indication: Choose Yes or No. If set to Yes, in the Meds tab, when click Quick Add it will automatically pop open the autocomplete with suggested indications when a user tabs over to the indication field. If set to No then it won't pop up automatically.
+* Quick Add Auto Disp Indication: Choose Yes or No. If set to Yes, in the Meds tab, when clicking Quick Add it will automatically pop open the autocomplete with suggested indications when a user tabs over to the indication field. If set to No then it won't pop up automatically.
 * Drug Info Links on Med List: Choose Yes or No. Yes will make the blue-circled (i) appear next to a drug in all views/procedures. This allows access to the drug guide and information. Choose No and the (i) and access will not be available to you.
 * Prescription Doc Type:  Choose the name of the prescription that you want to set as a default for when you print/fax prescriptions for a patient. The main script is called (Standard) Script. If you have other types/layouts of scripts that MIE loaded for you, then you can choose from those too.
-* Prescription Print/Fax:  Choose Print or Fax. It will default to your choice when you render prescriptions.  You can always change your selection when you are in the module. This is just to set the default choice.
+* Prescription Print/Fax:  Choose Print, Fax or None. It will default to your choice when you render prescriptions.  You can always change your selection when you are in the module. This is just to set the default choice. If set to None, the prescription will display in the Visit Order summary/Prescribed Meds List and NOT display on the prescription send queue. If using the legacy Prescribe module under the Allergies/Meds chart tab, when None is selected, the checkbox for Print/Transmit will be unchecked.
 * Drug Guide Printing Checkbox:  Choose Unchecked or Checked. Defaults to Unchecked. This Drug Guide Printing check-box appears in the prescribing medications module.  Unchecked will leave this box unchecked so you can choose when or if to print the drug guide each time. If you default this to checked, then it will automatically always check-mark the drug guide box to print for a prescription you prescribe.
-* Show Classes:  Chose Show or Hide. This will show or hide the Drug Classes column for each drug in the Meds module in Medication History summary for the patient.
+* Show Classes:  Choose Show or Hide. This will show or hide the Drug Classes column for each drug in the Meds module in Medication History summary for the patient.
 * Show Deleted:  Chose Show or Hide.  This will show or hide the Deleted medications in the Meds module in Medication History summary for the patient.
 * Show Modified By:  Choose Show or Hide.  This will show or hide the Modified by column of who modified medications for the patient in the Meds module in Medication History summary.
 * Show Prescriber:  Chose Show or Hide. This will show or hide the Prescriber column of each medication in the Meds module in Medication History summary for the patient. This is who prescribed the medication.
