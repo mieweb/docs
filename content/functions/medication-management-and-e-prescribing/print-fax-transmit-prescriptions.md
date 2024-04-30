@@ -1,8 +1,9 @@
 ---
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
-date: '2020-02-27T20:04:28.276Z'
-version: 72
+date: '2024-04-30T15:56:34.412Z'
+version: 104
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
@@ -14,19 +15,19 @@ Transmit will send the prescription by a SureScripts electronic transmission (if
 
 ## Print/Fax/Electronically Transmit Prescriptions
 
-After you click SAVE when prescribing a drug, the Medication history screen will reappear and in the middle will be a box that says **This patient Has unsent prescriptions** and/or **This patient has unprinted drug guides.**
+After you click SAVE when prescribing a drug, the Medication history screen will reappear and in the middle will be a box that says **Unsent Prescriptions.**
 
-![](../print-fax-transmit-prescriptions.assets/19a77881f29841cc4d3167654539b602.png)
+![](../print-fax-transmit-prescriptions.assets/296576b34a9886bee980b3529240a6f7.png)
 
-* <strong>Include</strong> option column: This will automatically default to having all scripts check-marked to be included in the print/fax/transmit queue. You can un-checkmark specific ones and they will <strong>not</strong> print/fax/transmit at this time. However, they <strong>will</strong> stay up in the <strong>This Patient Has Unsent Prescriptions</strong> queue. You can then print or fax/transmit or take completely out by clicking Do Not Print (see below instructions).
+* <strong>Include</strong> option column: This will automatically default to having all scripts check-marked to be included in the print/fax/transmit queue. You can un-checkmark specific ones and they will <strong>not</strong> print/fax/transmit at this time. However, they <strong>will</strong> stay up in the <strong>Unsent Prescriptions</strong> queue. You can then print or fax/transmit or take completely out by clicking Do NOT Send (see below instructions).
     * If there are prescriptions in this queue but you cannot check-mark them to include them to be sent, then you must look at the details column to see what needs fixed. Once errors are fixed, then the prescription should be able to be check-marked to be included to be sent.
-* <strong>Drug Name</strong> column: It will then list the names of the drugs (it lists generic names if they selected ok to substitute). You can click on this underlined name of the drug to get a summary of the prescription that was entered. Then you can edit (if have security permission) from there. If you see the printer icon next to the drug name, this is a quick link to access the drug guide information sheet for this medication. You can click the printer icon to be sent to the print/fax module to quickly print this drug guide. It will then remove the drug guide from the <em>unprinted drug guide</em> queue. You can click the printer icon at anytime to print the drug guide as many times as you wish. The printer icon also shows next to the drug name in the Medication History summary. This is a system setting and may not be turned on for your practice.
-* <strong>Details</strong> column: This will be blank, unless there is an error with the prescription or if it is a controlled substance. If there is a field left blank, it will say here what it is missing. If it is a controlled substance, then it will say that here. Some options currently set to show in <em>details</em> column are: 1) Controlled substance with class #, 2) May or may not be a controlled substance, 3) No Quantity specified, 4) No Strength/Form specified and 5) No Prescriber specified. This allows you to catch something before printing/faxing, correct it, then print/fax it correctly. To correct something, you can click on the underlined drug name in the <strong>Drug Name</strong> column and it will pull up that prescription. You then click <em>Edit</em> and either <em>Change Therapy</em> or <em>Correct Error</em> (see separate Prescribing/Adding Meds help documentation). Click <em>Save</em> after correcting the error/therapy, then it will still be in the pending print/fax box w/ your changes/corrections. Prescriptions with missing "required" SureScripts fields can be printed, but not faxed/e-sent until the required fields are fixed. If SureScripts is disabled, then there will be no warning about the required fields.
+* <strong>Drug</strong> name column: It will then list the names of the drugs (it lists generic names if they selected ok to substitute). You can click on this underlined name of the drug to get a summary of the prescription that was entered. Then you can edit (if have security permission) from there. If you see the printer icon next to the drug name, this is a quick link to access the drug guide information sheet for this medication. You can click the printer icon to be sent to the print/fax module to quickly print this drug guide. You can click the printer icon at anytime to print the drug guide as many times as you wish. The printer icon also shows next to the drug name in the Medication History summary. This is a system setting and may not be turned on for your practice.
+* <strong>Details</strong> column: This will be blank, unless there is an error with the prescription or if it is a controlled substance. If there is a field left blank, it will say here what it is missing. If it is a controlled substance, then it will say that here. Some options currently set to show in <em>details</em> column are: 1) Controlled substance with class #, 2) May or may not be a controlled substance, 3) No Quantity specified, 4) No Strength/Form specified and 5) No Prescriber specified. This allows you to catch something before printing/faxing, correct it, then print/fax it correctly. To correct something, you can click on the underlined drug name in the <strong>Drug</strong> name column and it will pull up that prescription. You then click <em>Edit</em> and either <em>Change Therapy</em> or <em>Correct Error</em> (see separate Prescribing/Adding Meds help documentation). Click <em>Save</em> after correcting the error/therapy, then it will still be in the pending print/fax box w/ your changes/corrections. Prescriptions with missing "required" SureScripts fields can be printed, but not faxed/e-sent until the required fields are fixed. If SureScripts is disabled, then there will be no warning about the required fields.
     * If you see a detail message of:_  
         This drug has (Inactive) status_  
         , that means the system is telling the user that for example: Elavil is not a drug that can be prescribed anymore, according to our drug database provider (First Databank) it is inactive and not available for prescribing. Further research will need to be done by the user to prescribe something valid.
 
-![](../print-fax-transmit-prescriptions.assets/3a8c66e952f4de1534f6fbee4f1f63fd.png)
+![](../print-fax-transmit-prescriptions.assets/d1c0159ce0013ed7a77ee2b43343a896.png)
 
 * <strong>Options</strong> column with the words "<em>Do NOT Send"</em>. If you do <strong>not</strong> want to print/fax/transmit a particular prescription or drug guide at this time then click that. It will take it totally out of the <em>pending print prescriptions</em> and still places it below in the patient's medication history_._ It will show the others still as active to print (if there are others pending to print). You can continue to click another if you wish not to print another. This medication has been prescribed for this patient, but has been chosen not to print/fax/transmit. Ex: you may have called in a prescription to a pharmacy. Since you called it in, you would not print/fax/transmit it now.
 * <strong>Script:</strong> Use the drop-down arrow to select the type of script pad you want these printed/faxed/transmitted on.
@@ -35,7 +36,7 @@ After you click SAVE when prescribing a drug, the Medication history screen will
 
 The easiest/quickest way is to have had the patient's Preferred Pharmacy set in the patient's meds tab and a stored Preferred Mail-In Pharmacy for the patient. Then you can use the quick buttons of USE PREFERRED or USE MAIL-IN to populate the pharmacy field with that specific pharmacy and continue to transmit the script.
 
-![](../print-fax-transmit-prescriptions.assets/8c55730472e74ef5121c55588dde143f.png)
+![](../print-fax-transmit-prescriptions.assets/d950b09564fcd7955798dfa8a513e402.png)
 
 If you wish to search and transmit to a different pharmacy, just clear the *Pharmacy* field (click the CLEAR button) and type at least 3 characters of the pharmacy you want to search for. The system will show you a drop-down of matching choices according to what you typed. These pharmacy choices are within the patient's state/city or zip code range. The state/city and zip code defaults are read from the patient's demographics tab. If there is no zip code entered in the patient's demographics tab, it will show choices for pharmacies within the logged in user's zip code range.
 
@@ -57,9 +58,9 @@ If you can't find the specific pharmacy you need, please be sure to search via z
 
 If you wish to set this found pharmacy as the patient's Preferred Pharmacy or as the patient's Preferred Mail-In Pharmacy, after you've selected it from the *Pharmacy* search field, simply click the SET AS PREFERRED button or SET AS MAIL-IN button. It will save that pharmacy as the patient's Preferred Pharmacy in {{% system-name %}} or the patient's Preferred Mail-In pharmacy.
 
-![](../print-fax-transmit-prescriptions.assets/c6ed30b9d1450efc61b697e944f9b2fa.png)
+![](../print-fax-transmit-prescriptions.assets/41375944cdc446314d587966e059949d.png)
 
-![](../print-fax-transmit-prescriptions.assets/988b7cbb451fe406d947b16dbccca659.png)
+![](../print-fax-transmit-prescriptions.assets/ef2bce5c94aa26eadc63ca5f7e93fcd9.png)
 
 At the top of the fax/transmit screen is the *medications* summary of each prescription being sent. This is essentially the preview and last step to verify the prescription and details that will be faxed or transmitted. You can use the show/hide link to show/hide this section if you wish.
 
@@ -79,7 +80,7 @@ Below that are the details of the pharmacy that it will be faxed or transmitted 
 
 * In order to see the <strong>Fax From</strong> field you need the security setting of <em>Allow Setting of FAX From</em> set to yes. Also, the location selections shown in this <em>Fax From</em> field are pulled from the "Locations" tab in {{% system-name %}} . The location(s) you wish to be able to show as selections here must have the setting of <em>Use In Fax Header</em> set to Yes in the "Locations" tab.
 
-![](../print-fax-transmit-prescriptions.assets/61a373ffc5935e5ada4486f51642ef5f.png)
+![](../print-fax-transmit-prescriptions.assets/aadee9f0d952a1ee9e26724934f235ea.png)
 
 * <strong>Fax Coversheet</strong>: Choose the fax coversheet if you are the prescription is defaulting to go by fax (fax-only service level) because the pharmacy isn't capable of receiving electronic SureScripts transmissions. The fax coversheet will <em>only</em> be sent with the script if it goes by default fax mode. A script will be sent by fax if the pharmacy is not capable of receiving via electronic transmittal, or if you, the prescriber, do not have verification approval from SureScripts to be an e-prescriber.
 
