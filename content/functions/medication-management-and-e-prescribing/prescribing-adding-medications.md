@@ -1,9 +1,9 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2022-08-29T16:21:31.714Z'
-version: 144
-lastAuthor: 'emccomb'
+date: '2024-04-30T17:58:08.912Z'
+version: 233
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
@@ -13,39 +13,37 @@ To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sideb
 
 Search for the patient you wish to view.
 
-Click on the *MEDS* tab at the top in the patient's file.
+Click on the *Medical Record* tab at the top in the patient's chart. Click on the *Allergies/Medications* tab.
 
-The *MEDS* summary screen pops up and lists allergies, refills due (if any) and medication history.
+The *Allergies/Medications* summary screen pops up and lists allergies, refills due (if any) and medication history.
 
-Meds tab options appear on the top right side of the screen.
+Allergies/Medications tab options appear on the top right side of the screen.
 
-![](../prescribing-adding-medications.assets/a72edd69698bd9c3d4b1531545eed300.png)
-
-You can also access the Prescribe module by clicking the quick link at the top left of any patient's chart tab.
-
-![](../prescribing-adding-medications.assets/87b3fce565fff9ba9554aaa0c7eade28.png)
+![](../prescribing-adding-medications.assets/b0a640c632b3f4f658310a284f6e555b.png)
 
 ## Prescribe
 
-Click this to prescribe **new** medications for the patient from your facility. This is not to be used to just add to the list of existing medications taken by this patient. This is used to quickly prescribe prescriptions for the patient.
+Click Prescribe to prescribe **new** medications for the patient from your facility. This is not to be used to just add to the list of existing medications taken by this patient. This is used to quickly prescribe prescriptions for the patient.
 
-![](../prescribing-adding-medications.assets/86928371312952c7f9fd37cb9d0a83ad.png)
+![](../prescribing-adding-medications.assets/b4dfcd9c9cb46a20074c1e7c93995cee.png)
 
 **DRUG INTERACTION warning** will appear when using this option if you are prescribing a drug that interacts with another the patient already has entered as prescribed or an allergy the patient has entered. Quick Prescribe will also check and give warning to duplicate therapy by checking the patient's current med lists entered in {{% system-name %}} .
 
-![](../prescribing-adding-medications.assets/bcf2a6ee3a146733867b4dce0e038c34.png)
+![](../prescribing-adding-medications.assets/55b53d9a2ea6c12b6c8b3b3eb1f163c7.png)
 
 ### Prescription Fields
 
-![](../prescribing-adding-medications.assets/4217254eb61bf6b63394ff61ef9efea3.png)
+![](../prescribing-adding-medications.assets/676fa2f916395de6a3434c6a429f9f05.png)
 
 * <strong>Clear:</strong> Clicking this button will clear out <em>all</em> fields for this specific prescription. This is a quick way to clear the fields to start over if you realize that you made a mistake and want to start over (before clicking the ‘prescribe' function button).
-    ![](../prescribing-adding-medications.assets/ac485113b110851e5cd795afc63f1ede.png)
+
+![](../prescribing-adding-medications.assets/b438c1a102bd28854faf710c9860c5bd.png)
+
 * <strong>Medication</strong>: Type in name of medication. Use the auto-complete to select the active medication from the FDB knowledge base. <em>First DataBank announced in Sept 2010 of an enhancement to generically named medication concepts. To comply with the Institute for Safe Medical Practices (ISMP) standards, FDB has lowercased the first letter of each ingredient in the generically named medication descriptions</em>. <em>Obsolete drugs and forms/strengths will now be shown when prescribing, up to 3 years (according to First Databank's recommendation) after they are no longer being actively produced and marketed in the US. These drugs will appear in the autocomplete results with "OBSOLETE" because it is possible that the drug is no longer available.</em> You can free-text in a medication name if not recognized in the FDB database of choices, but it is limited to 105 characters. If you continue to free type, it will generate a message that it's an uncoded drug and won't interact with drug/drug interactions. If the drug you are trying to prescribe does <em>not</em> show in the auto-complete choices, please consider prescribing a generic or alternate choice, as the drug you have entered may no longer be available. But you can continue to free-text in an uncoded medication to prescribe.
     * The medication field will auto-complete and you can select from the choices. The choices list is not alphabetical based on few characters.  It is supposed to be based on frequency of use. Type more characters to limit the list choices.
     * {{% system-name %}} uses the First DataBank knowledge database. The circled-blue next to it will pop up the drug guide and information concerning this drug if you click on it.
 
-![](../prescribing-adding-medications.assets/b45262a19c419b05fb8f898dd9f99a29.png)
+![](../prescribing-adding-medications.assets/1edbd7e469a98f7375b8ab48bbb40d2f.png)
 
 * This is an information link that opens up a separate screen with drug guide information for recommended dosage, drug interaction information, side effects, formularies, etc. Close out the drug info screen using the X at the top right.
 
@@ -55,31 +53,31 @@ The prescribe feature is not the most favorable place to prescribe DME or suppli
 
 * <strong>Form:</strong> If you tab over or click in that field, begin typing (it's an auto-complete field) and it will list choices of forms that this drug comes in. You can also use your ↓ down arrow key on keyboard to see selections. Also you can free-text in that field too, but is limited to 105 characters. {{% system-name %}} uses the First DataBank knowledge database to display "AB rated equivalent" generics in the drop-down selections for "form."  If the generic is chosen, the medication will be switched to the generic form for the brand in the final prescription. Medication forms are listed in order of most frequently used/prescribed, not in alpha order or numerical order. If you free-text in a ‘form', it will not be saved if you use the <em>remembered script</em> feature. Only valid FDB form selections are saved using the remembered script feature.
 
-![](../prescribing-adding-medications.assets/e0ba5cb98f916da33080e8a9c6a9b979.png)
+![](../prescribing-adding-medications.assets/512b59c4fa4b4480b13b149717c73a0f.png)
 
 * <strong>Dose:</strong> A ‘dose' button to open up a <em>dose calculator</em> window is available if the system setting is on to show this button.
 
-![](../prescribing-adding-medications.assets/d0fe0fdbbb087217ac81c4372d048092.png)
+![](../prescribing-adding-medications.assets/551e847325764427ffe3538390ecfcb4.png)
 
 * <strong>C / S:</strong> If the C and S checkboxes appear, you've entered in an uncoded medication. Usually you will see the pop-up also that states the system cannot determine and you need to choose the compound or supply flag to indicate that this is not a controlled substance. Do <em>not</em> choose the compound or supply flag unless what you are prescribing is truly a compound or a supply. If the drug you are trying to prescribe does NOT show in the list, please consider prescribing a generic or alternate choice, as the drug you have entered may no longer be available. In order to electronically send, you must specify C or S to indicate if it's a compound or a supply. A compound is multiple drugs, possibly mixed together by the pharmacist. It doesn't mean that for marketed compound drugs like ex: Caduet that you have to check this box. This is for uncoded things only. A supply is a non-drug, like syringes or crutches that some staff write prescriptions for.
 
-![](../prescribing-adding-medications.assets/8cff1768cbf7d3085ad56613d3068f0d.png)
+![](../prescribing-adding-medications.assets/44b0531889640ada7e07905ab7bf1957.png)
 
-![](../prescribing-adding-medications.assets/dffda9121afca8433a6c2243df504b19.png)
+![](../prescribing-adding-medications.assets/7bf520b5a523126723d772a90db8fa19.png)
 
 * <strong>Start Date:</strong> Select today or pick a date to start prescription.
 * <strong>Practitioner Sig</strong>: Type in your instructions. The sig should always include <strong>dose, route and frequency.</strong> Then use the <strong>tab</strong> key and it will automatically pop up the written <em>Patient Sig</em> for this drug. If the practitioner sig is too long when it converts into the English Patient Sig, it will give you an error that you need to shorten it. SureScripts limits the number of characters in the sig, so you may need to put the complex sig in the Pharmacist Note field instead. Also, do <em>not use commas</em> to separate instructions in a sig. Use the semicolon to separate things in a sig. When you tab, the translation into patient sig will take place and you can double check the translation. PATIENT SIG is what SureScripts transmits electronically to pharmacies if you transmit using e-send.
 
-![](../prescribing-adding-medications.assets/930ebf4ef27972d4e3cca6f535e92414.png)
+![](../prescribing-adding-medications.assets/5774383e455ecc45fc6ca9757c6876c3.png)
 
 * <strong>Duration</strong>: The duration will automatically populate the preferred days supply the patient may have set in their e-meds tab. You can also change that to any duration you wish.
 
-![](../prescribing-adding-medications.assets/67cd1e2edebeda4c4afed6e7a3e14bb2.png)
+![](../prescribing-adding-medications.assets/4b8cdf3b7ebe35a7f582928bcd652531.png)
 
 * Type a duration and you must use d for days, w for week, m for months, or y for year. Example type: 30d or 1w or 8m or 1y <strong>OR</strong> can use any combination. Example: 3w 2d or 1y 3m etc. If you don't type d or m or w or y— it will default to ‘d' for days. However, you do need to enter something in this field. You can enter zero and it will be considered 0d (zero days) or you can enter a specific day/week/month duration.  This field a required entry (even if type a zero), but it cannot be left blank. If left blank, you will receive an error message that there are invalid/missing fields in your prescription.
 * <strong>Total Quantity</strong>: The total quantity should calculate automatically according to the Duration field and Sig. Otherwise you can free-type a quantity. (The quantity will also automatically fill in if the user enters a Sig and a Duration that is understood in the system.
 
-![](../prescribing-adding-medications.assets/8809c4e3116240b4b35f3662b534ab41.png)
+![](../prescribing-adding-medications.assets/6eb46d2ed56affc82ca2fe7bca01910a.png)
 
 * If the user manually changes the quantity, then the automatic calculating behavior is turned off for that quantity). This field will only take a numeric quantity or you will get an error before rendering the script via fax/print/e-send. The next field after the quantity is the unit. It will automatically show the unit according to the form selected above, but if not, you must select something in the drop-down list and you cannot prescribe the medication without this field having an entry.
 * <strong>QS (Quantity Sufficient)</strong>: The ‘QS' (quantity sufficient) button (if clicked) fills in the numeric quantity with a 1, and picks "Not Specified" from the unit of measure drop down, and adds "Quantity Sufficient" in the Note To Pharmacist field for that script if used.
@@ -93,23 +91,23 @@ The prescribe feature is not the most favorable place to prescribe DME or suppli
 * Total Quantities should not be overly vague to send to pharmacies. For example, Azelex Cream 20%, "Apply to affected area daily", for 30 days, with a quantity like "1 tube".  That cream may be available in a 30g tube and also a 50g tube, so the pharmacist doesn't know which one to give, without calling back to the prescriber's office, or trying to figure it out by asking the patient… "So, how big IS the affected area?  Are you dabbing this on a mole, or slathering it over your whole leg?"  For things like tablets and capsules, it's not as big of a problem, as the prescriber tends to give an exact number here.
 * Available package sizes are now visible to our prescribers.  This comes from the NDC data. The "Pkg" button, when prescribing or refilling a medication, gives prescribers a view of what sized packages are actually available, allowing for better prescriptions to be written.
 
-![](../prescribing-adding-medications.assets/e1471bca6909412514e6b215dd2abbe2.png)
+![](../prescribing-adding-medications.assets/a884542e94b4d35cacd264f2220bdfe7.png)
 
-* When the yellow triangle ! appears, that means {{% system-name %}} couldn't figure out a quantity to dispense based on what was entered.  If the user clicks the Pkg button at that point, we show the package sizes provided by the First Databank database that the user should select from – so it's specified to the pharmacist and not vague. Click on the selection and it will set the <em>Total Quantity</em> value and unit.
+* When the red ! appears, that means {{% system-name %}} couldn't figure out a quantity to dispense based on what was entered.  If the user clicks the Pkg button at that point, we show the package sizes provided by the First Databank database that the user should select from – so it's specified to the pharmacist and not vague. Click on the selection and it will set the <em>Total Quantity</em> value and unit.
 * Area's/modules where this feature will appear: Prescribe (E-Meds) chart tab, Refill, Refill All and Encounter Plan meds section.
 
-![](../prescribing-adding-medications.assets/42bf83640e9b435382794c9fe03c0ea7.png)
+![](../prescribing-adding-medications.assets/23afd9e4d8b752b4ede77472872cf888.png)
 
 * <strong>Reason for Taking:</strong> Type in reason patient will be taking this drug. The user preference <strong>Quick Add Auto Disp Indication</strong> in MY SETTINGS will determine what indication choices pop-up here. If your preference is set to No, then you must start to type an indication and the system will auto-complete indications related to the drug by what characters you've typed. If your preference is set to Yes, then when you click into this Indication field or use your tab key in this field, it will pop-up a list of all indications related to that drug you are prescribing. You can choose one or free-text an indication.
 * <strong>Managed By:</strong> Type in name/physician who is managing this drug.
 * <strong>Remember As:</strong> This means you the user can type something in there (example: BOB or Heart Disease). This remembers this specific prescription/form (not free-text form though)/sig/duration/refills and quantity and saves it in the prescriber's medication library. The next time you type in that medication, there will be choices in the auto-complete drop-down that says ex: Lipitor (new), or another choice would be Lipitor (BOB) or Lipitor (Heart Disease) etc.
 
-![](../prescribing-adding-medications.assets/559d861824a96b83e1fb0d31ed918f30.png)
+![](../prescribing-adding-medications.assets/c3cea637d001f0d6a2f5f1f0691acb13.png)
 
 * Normally users enter a doctor's last name in the ‘remember as' field <em>if</em> that physician routinely prescribes that same medication/form/qty/sig/refills, etc and it's just a quick way to save it and not have to fill out each field again for common meds a physician routinely prescribes.
 * The Current Library you are set to in e-meds in that patient is the library that <em>remembered script name</em> will be saved under. Meaning, Dr. Jones would not see <em>LIpitor (BOB)</em> as a choice when prescribing Lipitor because that is only saved in Dr. Andrews library. Each physician has their own meds library to save most common scripts in if they wish. You do not have to use this feature of <em>remembered script name</em>. It's simply there to help with most common prescriptions routinely/daily prescribed.
 
-![](../prescribing-adding-medications.assets/769fd57e2d3d030a6ce30818cd52c3d4.png)
+![](../prescribing-adding-medications.assets/4b8cdf3b7ebe35a7f582928bcd652531.png)
 
 * Any time is says (New) next to a medication choice, it means it is a new template with no saved fields…meaning all fields will be blank. That means the <em>remembered script name</em> field was left blank. You do <strong>not</strong> have to type something in the <em>remembered script name</em> field. Remembered Script Name—only saves this (name) in that particular physician's library you are working in. It's just another way to pull up a prescription that will automatically fill in all the fields for you (as you saved them with this ‘Remember As', instead of filling out each blank field.
 
@@ -121,10 +119,10 @@ The prescribe feature is not the most favorable place to prescribe DME or suppli
 * <strong>May Substitute</strong>: Click Yes or No. Each physician can specify their own list of drugs that they never want substituted. When MIE loads these, regardless of Yes or No to allow substitute, it will print their signature in ‘dispense as written' field. His specific list and capability is tied to the prescribing physician. (MIE has to load these requests)
 * <strong>Prescriber</strong>: This field defaults to the current user if you are a prescriber. Otherwise, select the name of the physician prescribing the medication. Click on the drop-down arrow next to it and it will pop-up the names that appear in your company's scheduler. Select a name from here by highlighting it and click. If you do <strong>not</strong> select a Prescriber, you will get an error message when you try to prescribe. Whichever Prescriber you used last is remembered in this field.
 
-![](../prescribing-adding-medications.assets/0cdadbf0f5088596f87a35a79f524c22.png)
+![](../prescribing-adding-medications.assets/66a37b2eb1aa12e8aa94c86fed8a060d.png)
 
 * If you are an NP or PA, etc and your state requires you to have a supervising prescriber/physician attached to your scripts, you can set this in MY SETTINGS. Then contact your MIE Implementer to have your printed/faxed scripts programmed to show that information. If you have a supervising prescriber set for you, that information will be sent to SureScripts with all your electronic prescriptions automatically.
-* <strong>Print/Fax:</strong> Check-mark the box if you wish to print this prescription in the print/fax queue or not.
+* <strong>Print/Transmit:</strong> Check-mark the box if you wish to print/transmit this prescription. By default, this box can be checked, if the My Setting Prescription Print/Transmit is set to Print or Transmit. If None is selected, the checkbox will be blank by default.
 * <strong>Print Drug Guide:</strong> Check-mark the box if you wish to print the drug guide for this prescription. It adds it to the print/fax queue if check-marked.
 * <strong>Special Instructions for Patient Education/Med Sheet:</strong> Type in the free-text box. This <strong>will not</strong> print on the script. But, this <strong>will</strong> appear in patient's Medication History under Sig column and in Pat.Ed sheet and Med Sheet. An example of something a physician would type in here might be example: Put 1 tablet under tongue as needed for chest pain. If chest pain continues, you may repeat 2 more times. Wait 5 minutes between each dose. If chest pain still persists call 911. Anything typed in here when using the <em>Remembered Script</em> feature will also be saved with the remembered script.
 * <strong>Office Comments:</strong> This is for comments for office use only.
@@ -161,7 +159,7 @@ When done entering prescriptions, click any **Prescribe** button. Those prescrip
 
 Prescription samples should be prescribed like any other medication, giving it a discontinue date that lines up with when the person should naturally run out.  Doing it as an actual med means they will get the prescribing warnings and that it will be seen on the historical medication list, rather than having to hunt for it someplace else.  Hypothetical scenario could be that a facility calls to say the patient is unconscious in the ER from what seems like a serious allergic reaction, asking if maybe the doctor's office knows of any recently prescribed meds. Giving a sample is not so very different than prescribing a medication; it's just a question of who is dispensing it.  The user can also put in the office comments that a sample was given, if that is necessary to document somewhere.
 
-![](../prescribing-adding-medications.assets/75101a2e69268b1b078dc4d23d527cd4.png)
+![](../prescribing-adding-medications.assets/0ef2acb87ed91e1f62ffbdec273c2260.png)
 
 ## Custom Prescribing Alerts
 
@@ -169,23 +167,21 @@ MIE can program a custom prescription alert for any practice. Please contact you
 
 When prescribing meds the custom layout will check for whatever the practice wants to check, for example, a practice is checking to make sure that there are no refills on level 2 controlled substances.  If practice wants to turn this on, they would need to tell MIE Implementer what they want checked/alerted to and MIE would update the layout.
 
-![](../prescribing-adding-medications.assets/d696b99a916d98ed5e998e1341f3256d.png)
-
 ## Quick Add
 
 Click this to add meds with detail/specifics of medications that a patient is taking to their medication history list. This is not prescribing. This is to add multiple medications at once to a patient's medication history with more detail regarding the drug than with Simple Add. Quick Add is not for prescribing medications.
 
-![](../prescribing-adding-medications.assets/8a378ff6bd921592845aa662ebdb214e.png)
+![](../prescribing-adding-medications.assets/2e7edb495de9c31248b87c2c82123330.png)
 
 **DRUG INTERACTION warning** will appear when using this option if you are entering a drug that interacts with another the patient already has entered as prescribed or an allergy the patient has entered. Warnings will also appear in the comment column of the patient's medication history.
 
 If you enter in a free text or uncoded medication via quick add, you will also get a warning that it cannot be checked for drug/drug interactions and problems like the prescribe screen does. You can turn this off via a system setting for entire system if desired (system setting: E-Chart: Meds:Quick Add Uncoded Warning).
 
-![](../prescribing-adding-medications.assets/25d42dc050dcc396134504522488b3a2.png)
+![](../prescribing-adding-medications.assets/15b72f5dc126b5ec53ce2deccc9749f8.png)
 
 Quick Add opens a screen that allows you to quickly add medications for a patient into their medication history. It will allow you to add 10 meds at a time.
 
-![](../prescribing-adding-medications.assets/b36307c402724e30fd33709025aa9e01.png)
+![](../prescribing-adding-medications.assets/842263851ee05f996ac31650dd6a6ada.png)
 
 You can hide/show date fields and/or you can show full or quick sigs on your screen view when entering. Click the corresponding buttons on the screen view before entering meds called *Show Dates* or *Full Sigs* or *Hide Dates* or *Quick Sigs*
 
@@ -209,21 +205,19 @@ This is a notification that the drug maker stops making the drug, which means th
 2. The patient may be taking drugs that are past the expiration date
 3. The patient's supply of this drug may not be expired, but when it runs out, it may need to be replaced with something else
 
-![](../prescribing-adding-medications.assets/2b5fa1996d00cd1aae25b4c1c3a2c40f.png)
+![](../prescribing-adding-medications.assets/4e1ba8096e728c5b15db3cd18311f917.png)
 
 ## Simple Add
 
-Your system may have a simple add link. Click this to add names of medications only that a patient is taking to their medication history list. This is not prescribing. This is to add multiple medications at once to a patient's medication history. Simple add does not store specifics/details/sigs, etc using this option. This is to add multiple medication names only to a patient's medication history. This is not to be used to prescribe a medication for the patient.
+Your system may have a simple add link. Click this to add names of medications only that a patient is taking to their medication history list. This is not prescribing. This is to add multiple medications at once to a patient's medication history. Simple add does not store specifics/details/sigs, etc using this option. This is to add multiple medication names only to a patient's medication history. This is not to be used to prescribe a medication for the patient. This link is hidden by default and not recommended for use by MIE.
 
-![](../prescribing-adding-medications.assets/8a378ff6bd921592845aa662ebdb214e.png)
+![](../prescribing-adding-medications.assets/70d7eee76ca1a154f35944e4d85d8566.png)
 
 **DRUG INTERACTION/DRUG ALLERGY warnings** will **not** appear when using this option. It does, however, put the warning in red or yellow in the *Comment* column of the Medication History listing after you've added the meds to the patient's medication history. It doesn't warn you ahead of time like the prescribing modules since you are just adding/entering existing names of medications the patient has taken/is taking, not prescribing.
 
-![](../prescribing-adding-medications.assets/00bf0101b1c57bb75e81a03a2fa54a5c.png)
-
 Simple Add is used only to enter **only names** of medications, not specifics/details such as forms/quantities/units, etc. Start typing in name of medications and it will auto-complete and give you a choice when you start typing.
 
-![](../prescribing-adding-medications.assets/d2294a9dc5e70764ebbe461f6548a999.png)
+![](../prescribing-adding-medications.assets/fd03530656c93de6c4afc5003fb584b9.png)
 
 **Add Meds:** Type the name of the medication the patient is using. It will auto-complete your typing and give you choices or you can free-text. Any drug aliases will also appear next to the drug name. Use tab key to go to next field and enter another name of the drug.
 
@@ -237,16 +231,14 @@ This is a notification that the drug maker stops making the drug, which means th
 2. The patient may be taking drugs that are past the expiration date
 3. The patient's supply of this drug may not be expired, but when it runs out, it may need to be replaced with something else
 
-![](../prescribing-adding-medications.assets/2b5fa1996d00cd1aae25b4c1c3a2c40f.png)
-
 To change/edit a medication record (prescription) already entered in for a patient in E-Meds, see separate help documentation named *Edit or Change Meds.pdf*
 
 ## Uncoded Meds Report
 
 There is a report available from the Reports sidemenu tab. Found in the Medications/Allergies/Scripts bucket of reports, there is a report named *Uncoded Meds*.
 
-![](../prescribing-adding-medications.assets/ed9fd1946ca15f78a7de147f90d4d273.png)
+![](../prescribing-adding-medications.assets/508fa62e3b6a999ec68a2b35247afcba.png)
 
 This report can be filtered by a start date and end date to limit results. The report will result a list of uncoded prescriptions (free-typed medications a user prescribed instead of using the FDB autocomplete list of choices of coded medications available to prescribe) created within a specified date range. The practice should review this report periodically and address issues found. This report could help be more proactive at identifying and investigating these issues and working on training prescribers on the correct medications to choose.
 
-![](../prescribing-adding-medications.assets/d4e1f6bad54f02055a9ea92a15c55dbe.png)
+![](../prescribing-adding-medications.assets/abfb94ad34a14a7287a5d8665b36a7af.png)
