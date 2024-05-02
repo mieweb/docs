@@ -1,8 +1,8 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2024-05-02T15:58:55.787Z'
-version: 211
+date: '2024-05-02T16:35:29.329Z'
+version: 214
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -351,7 +351,7 @@ Click on the red **Dup** hyperlink to open the view of the duplicate page/image.
 ![](../indexing.assets/83213cdafe6a749220f171ec22e891f6.png)
 
 {{% note %}}
-To index documents into a locked chart, the indexer must have the** Add Document to Locked Charts** security permission. If the security control is set to **Yes**, the indexer may index documents into locked charts, as needed. However, because the chart is locked, indexing links will not allow access to the locked chart.
+To index documents into a locked chart, the indexer must have the **Add Document to Locked Charts** security permission. If the security control is set to **Yes**, the indexer may index documents into locked charts, as needed. However, because the chart is locked, indexing links will not allow access to the locked chart.
 {{% /note %}}
 
 ## Uploading a Batch
