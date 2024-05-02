@@ -1,9 +1,9 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2024-05-01T20:05:32.051Z'
-version: 193
-lastAuthor: 'janderson'
+date: '2024-05-02T15:58:55.787Z'
+version: 211
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
@@ -23,11 +23,9 @@ The WebScan module will load, displaying the landing page, where existing scan b
 
 Additionally, the ListView of the checked-in scanned batches will only show batches from partitions the logged-in user is able to access. There is a system setting that allows clients to specify chart partitions, therefore restricting storage of and access to document types according to specific business needs, consequently limiting a user's accessibility to specific document types, whenever appropriate. If the **Show Partition Restrict** system setting is enabled, batches can be scanned into specific partitions, as needed. If a batch is scanned into a specific partition, only indexers with access to that partition will see the batch in the ListView. The *Partition* column in the ListView displays the partition of the batch.
 
-![](../indexing.assets/6979d26c3e8d3593d864941035252d90.png)
+### ![](../indexing.assets/6979d26c3e8d3593d864941035252d90.png)Batch Statuses
 
-### Batch Statuses
-
-There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *checked-in* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function. Both *Checked In* and *Checked Out* batches will need to be indexed in order to be be removed from the queue.
+There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *checked-in* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function. Both *Checked In* and *Checked Out* batches will need to be indexed in order to be removed from the queue.
 
 ![](../indexing.assets/67f35f705bf636a93cc042fd29f7aa97.png)
 
@@ -38,14 +36,14 @@ There are various statuses used within {{% system-name %}} for tracking batches.
 It is important to regularly check both Checked In and Checked Out batch statuses, in order to work and complete batches in the queue.
 {{% /info %}}
 
-* <strong>Complete</strong>: Scanned batches with each page fully indexed, uploaded into the appropriate chart(s). When all pages are fully indexed, the batch will be marked as <em>Complete</em>.
-* <strong>Deleted</strong>: Scanned batches that have been deleted. <em>Deleted</em> batches are not indexed nor uploaded into charts.
+* <strong>Complete</strong>: Scanned batches with each page fully indexed, uploaded into the appropriate chart(s). When all pages are fully indexed, the batch will be marked as Complete.
+* <strong>Deleted</strong>: Scanned batches that have been deleted. Deleted batches are not indexed nor uploaded into charts.
 
 {{% tip %}}
 By default, Completed batches are purged from the {{% system-name %}} system after 90 days. However, the system setting ("MIEWebScan", "Settings", "Purge age in days") can be updated to purge at different intervals, if preferred.
 {{% /tip %}}
 
-* <strong>Complete w/ non-uploaded pages</strong>: Scanned batches that have been marked as <em>Complete</em>; however, the {{% system-name %}} system detects pages exist that still need indexed.
+* <strong>Complete w/ non-uploaded pages</strong>: Scanned batches that have been marked as Complete; however, the {{% system-name %}} system detects pages that exist but still need indexed.
 
 {{% info %}}
 *Checked In*, *Checked Out* & *Complete w/non-uploaded pages* batches will remain in the queue until every page is indexed and the batch is completed or deleted.
@@ -86,7 +84,7 @@ In the **Options** column of the Batch List View are the functions that can be d
 **Open**: Opens the batch for indexing. Opening a batch allows the user to begin indexing the items of the batch. Any batch, regardless of status, can be opened.
 
 {{% tip %}}
-Once a batch is in the status of *Checked Out, Completed,* or *Deleted*, users may choose to open the batch. However, the user may receive an error requesting to **Force Checkout**. This means the *Checked Out*, *Completed*, or *Deleted* batch was closed by another user. Forcing checkout will place the logged-in user's username on the batch.
+Once a batch is in the status of Checked Out, Completed, or Deleted, users may choose to open the batch. However, the user may receive an error requesting to **Force Checkout**. This means the Checked Out, Completed, or Deleted batch was closed by another user. Forcing checkout will place the logged-in user's username on the batch.
 {{% /tip %}}
 
 ![](../indexing.assets/efe2e3fd8104bb97f8ac4fb78f9da0b6.png)
@@ -269,7 +267,7 @@ Exiting the WebScan module is possible by clicking the X, found in the upper-rig
 
 ![](../indexing.assets/303c87b8880e4eb6340c03d67aea52a3.png)
 
-**Service Date**: The service date of the document being displayed. The clock icon will insert today's date, when clicked. The calendar icon can be used to select a specific date. Future dates will produce an alert when entered; however, there is the option to disable this feature, if preferred. Contact the Helpdesk for more details.
+**Service Date**: The service date of the document being displayed. The clock icon will insert today's date, when clicked. The calendar icon can be used to select a specific date. The Service Date will also assume/be the ‘Completed Date' when/if a document is indexed to be linked to complete an order request and/or pending due list item.  Future dates will produce an alert when entered; however, there is the option to disable this feature, if preferred. Contact the Helpdesk for more details.
 
 {{% tip %}}
 To magnify anything on the document being displayed, use the mouse to hover over the image and click once while the magnifying glass is showing. Moving the mouse will magnify any moused-over area.
@@ -287,17 +285,17 @@ To magnify anything on the document being displayed, use the mouse to hover over
 If a user is restricted to certain chart types, the indexing module will only result chart choices that exist within, or match, the chart types restricted to the logged-in user.
 {{% /note %}}
 
-**Link to Order**: The Link to Order field is optional. This field is designed to allow users the ability to link pending orders from the chart in context to the item being indexed. Clicking the ellipsis button will display a list of pending order items to choose from. Placing a checkmark next to a specific order item indicates that the document is to be linked to the order and will automatically mark the pending order as Complete. The Service Date on the Index screen is also updated to reflect the Service Date of the linked order.
+**Link to Order**: The Link to Order field is optional. This field is designed to allow users the ability to link pending orders from the chart in context to the item being indexed. Clicking the ellipsis button will display a list of pending order items to choose from. Placing a checkmark next to a specific order item indicates that the document is to be linked to the order and will automatically mark the pending order as Complete. The Service Date will also assume/be the ‘Completed Date' when/if a document is indexed to be linked to complete an order request.
 
 ![](../indexing.assets/35e5381655d253edb692a2689117eaf3.png)
 
 {{% note %}}
-The *Link to Order* field will not activate until the *Chart* field has been entered. Once the *Chart* field is entered, the *Link to Order* field will be mapped for searching pending orders. If the chart does not have any pending orders to choose from, the field will display *No incomplete orders found*.
+The Link to Order field will not activate until the Chart field has been entered. Once the Chart field is entered, the Link to Order field will be mapped for searching pending orders. If the chart does not have any pending orders to choose from, the field will display No incomplete orders found.
 {{% /note %}}
 
 ![](../indexing.assets/64f60661ea350fc2de5d741ae7d8fa9d.png)
 
-**Link to Due List**: The Link to Due List field is optional. This field is designed to link items from the due list to the items being indexed. Clicking the ellipsis button will display the due list items for the patient. Placing a checkbox next to the due list item will mark the item as Complete. The Service Date on the Index Screen is also updated to reflect the Service Date of the due list item.
+**Link to Due List**: The Link to Due List field is optional. This field is designed to link items from the due list to the items being indexed. Clicking the ellipsis button will display the due list items for the patient. Placing a checkbox next to the due list item will mark the item as Complete. The Service Date will also assume/be the ‘Completed Date' when/if a document is indexed to be linked to complete a pending due list item.
 
 **Service Location**: The Service Location field is optional. It is an autocomplete, so simply begin typing the name of the service location and {{% system-name %}} will initiate the search on the database. All possible matches will be driven by those locations configured in the system. The Service Location field will not accept free text.
 
@@ -335,7 +333,7 @@ The Image Info section displays columns aligned with the fields of the Index Inf
 **Link to Prev**: This option allows users to link pages that are intended to remain grouped together, where a page is linked to the previous page in the batch. Linking pages simply attaches subsequent pages to the initial page. The linked page will not be inserted into the chart as a separate document; but rather, a linked document will be considered the subsequent page (e.g., 2nd, 3rd, 4th, 5th, etc.) of the page listed before it. For example, if a 5-page document is scanned into a batch, page 1 would be indexed with all of the applicable field information, and pages 2-5 would be linked using the Link to Prev function. The document would then be stored in the chart as one document with 5 pages. There is no limit to the number of possible linked pages. Once a page is linked, the system displays the line as *Linked to Prev* in a pink highlight.
 
 {{% tip %}}
-To *un-link* a page, simply **right-click** the line item and select the **Un-Link to Prev** option.
+To un-link a page, simply **right-click** the line item and select the **Un-Link to Prev** option.
 {{% /tip %}}
 
 ![](../indexing.assets/70158af86223fde115594e1535cc6377.png)
@@ -353,7 +351,7 @@ Click on the red **Dup** hyperlink to open the view of the duplicate page/image.
 ![](../indexing.assets/83213cdafe6a749220f171ec22e891f6.png)
 
 {{% note %}}
-To index documents into a locked chart, the indexer must have the**_ _****Add Document to Locked Charts** security permission. If the security control is set to **Yes**, the indexer may index documents into locked charts, as needed. However, because the chart is locked, indexing links will not allow access to the locked chart.
+To index documents into a locked chart, the indexer must have the** Add Document to Locked Charts** security permission. If the security control is set to **Yes**, the indexer may index documents into locked charts, as needed. However, because the chart is locked, indexing links will not allow access to the locked chart.
 {{% /note %}}
 
 ## Uploading a Batch
