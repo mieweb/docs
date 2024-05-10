@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-03-13T18:48:43.367Z'
-version: 2848
+date: '2024-05-10T17:56:50.344Z'
+version: 2874
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -210,7 +210,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * Mortara Serial # QS002203 (no model #) - Quinton Q Stress with TM55 Treadmill (2); Serial # 00483-001-570/ 114010189497 and Serial # 00483-001-570/ 114010189497 HL7 feed capable; proprietary computer; Q-Stress software version 4.5.046 for Windows XP Pro/Vista Ultimate/Win 7 Ultimate on both computers.
 * Urinalysis
     * OneStep (Serial Uni-directional) - Uses the Java Applet to interface
-    * Siemens Clinitek Status (Serial Uni-directional) - Uses the Java Applet to interface
+    * Siemens Clinitek Status (Serial Uni-directional) - Uses the Java Applet to interface (in progress RM 124246) in development to move from java applet to device app.
 * Vaccination
     * Caraflow
 * Vision
@@ -437,13 +437,13 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 
 * Agile-Redshift (IH)
 * Benchmark ESG (Gensuite)
-    * Safety (bi-directional) (in progress)
-    * Industrial Hygiene (bi-directional) (in progress)
+    * Safety (bi-directional)
+    * Industrial Hygiene (bi-directional)
 * Enablon
-* Intelex (Safety and IH) (in progress)
+* Intelex (Safety and IH)
 * Origami Risk
 * SciShield (formerly BioRAFT)
-* Sphera (in progress)
+* Sphera
 * Velocity EHS
 * Workplace Integra (Hearing Conservation Management)
 
