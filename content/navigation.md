@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-04-17T18:10:58.697Z'
-version: 539
-lastAuthor: 'auhrick'
+date: '2024-05-13T14:58:40.968Z'
+version: 548
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -486,6 +486,7 @@ links:
   - 'functions/system-administration/system-controls/merge-manager-tab.md'
   - 'functions/system-administration/system-controls/med-web-ssl-certificate-authority.md'
   - 'functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md'
+  - 'https://drive.google.com/open?id=1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
   - 'functions/system-administration/data-migration.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
   - 'functions/system-administration/data-migration/data-migration-file-format-standard.md'
@@ -1183,6 +1184,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
             * [Merge Manager Tab](functions/system-administration/system-controls/merge-manager-tab.md)
             * [Med-Web SSL Certificate Authority](functions/system-administration/system-controls/med-web-ssl-certificate-authority.md)
             * [Scheduled Jobs](functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md)
+            * [Translation Manager](https://drive.google.com/open?id=1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM)
         * [Data Migration](functions/system-administration/data-migration.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
             * [Data Migration File Format Standard](functions/system-administration/data-migration/data-migration-file-format-standard.md)
