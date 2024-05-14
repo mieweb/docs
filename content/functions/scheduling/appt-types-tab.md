@@ -1,9 +1,9 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2024-03-25T19:40:04.968Z'
-version: 160
-lastAuthor: 'auhrick'
+date: '2024-05-14T15:09:11.459Z'
+version: 191
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
@@ -160,6 +160,45 @@ If you try to create multiple appointment type templates for a combination of re
 
 ## Deleting appointment type templates
 
+1. Select the side menu. The side menu appears.
+2. From the side menu, select Scheduler. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
+4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates.
+5. Select the checkbox next to the template you wish to delete
+
+![](../appt-types-tab.assets/d675e8a5a6f2ddcf1be520a678b8c9f6.png)
+
+6. Select the <strong>Delete</strong> button
+7. Select the <strong>Yes</strong> button in the pop-up window to confirm you wish to delete the template.
+
+![](../appt-types-tab.assets/febeb3acb9571b0720f84874f4a522b3.png)
+
 ## Editing appointment types
 
-## Deleting appointment types
+1. Select the side menu. The side menu appears.
+2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
+4. In the <em>Options</em> column of the appointment type to edit, select <strong>Edit</strong>. The <em>Appointment Type</em> section appears.
+
+![](../appt-types-tab.assets/c190146c0cbf24c58be628585800d87a.png)
+
+5. Edit the appointment type.
+6. Depending on whether appointments have already been scheduled with this appointment type template, do one:
+    1. To update the appointment type template list with the edits you made and any future appointments, select <strong>Submit</strong>. This does not change any appointments already scheduled using this appointment type template. If you click this, it will give you a confirmation at the top. If you are editing appointment type <em>codes</em> (the abbreviation), please make sure you click submit & update instead, otherwise the system will not be able to find that appointment type for any existing appointments already scheduled using that type.
+    2. Click <strong>Submit & Update:</strong> This will update the appt type list and it also updates all existing patient appointments for this type and updates any existing schedules with this appt type with all edits you have made. If you click this, it will give you a confirmation at the top. If you edit the appt type <em>code,</em> you should click submit and update.
+
+## Inactivate appointment types
+
+1. Select the side menu. The side menu appears.
+2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
+4. Select the checkbox next to the appointment type you wish to inactivate
+5. Select the Set Status button. The Set Status window appears.
+
+![](../appt-types-tab.assets/6d9b7ac3f6d09c225f2eb2c36cedb1c3.png)
+
+6. To set the status of the appointment type to Inactive, select No. If the status needs to be set to Active, select Yes.
+
+![](../appt-types-tab.assets/db465bd8d7e5bccde998f3dd2887010e.png)
+
+7. Select <strong>Submit</strong>
