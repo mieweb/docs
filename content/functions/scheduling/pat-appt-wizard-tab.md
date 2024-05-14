@@ -1,8 +1,9 @@
 ---
 id: '12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
 title: 'Pat/Appt Wizard Tab'
-date: '2020-02-27T19:47:42.780Z'
-version: 28
+date: '2024-05-14T12:40:02.377Z'
+version: 40
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
@@ -26,7 +27,7 @@ Click *Pat/Apt Wizard* tab from the top menu of tabs.
 
 All this information populates the *Demographics* tab of the patient's chart.
 
-![](../pat-appt-wizard-tab.assets/817188d52264d0c612c7656004506f37.png)
+![](../pat-appt-wizard-tab.assets/856c8b2bad9dcf4072e5eba6e2273411.png)
 
 Fill out the registration screen fields and click the **Save** button at the bottom.
 
@@ -36,10 +37,8 @@ It then goes to the *Appointment Wizard* screen for this new registered patient.
 
 Manual Registration in {{% system-name %}} shows this new registered patient in {{% system-name %}} only. It will not merge/appear in any other practice management system that your company uses (example: Medical Manager, Experior, Medic, etc.)
 
-![](../pat-appt-wizard-tab.assets/3cca5262d2b1ac37a4e1ded08e880ebe.png)
+![](../pat-appt-wizard-tab.assets/4100334d5e3cb36eee6be5ed58f4ea34.png)
 
 Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled *Adding An Appointment Using Wizard Tab.pdf*
 
-If you click the **Close** button in the Appointment Wizard screen without making an appointment—it will still save/keep the patient registration you just did manually and still puts that patient in {{% system-name %}} as a registered patient. You will see the message the patient was successfully added and you have the option to return to the scheduler if you didn't add an appointment thru the wizard.
-
-![](../pat-appt-wizard-tab.assets/093c5c73b75c0de367770cb35f48c282.png)
+If you click the **Close** button in the Appointment Wizard screen without making an appointment—it will still save/keep the patient registration you just did manually and still puts that patient in {{% system-name %}} as a registered patient. You will see a message once the patient was added and you have the option to return to the scheduler if you didn't add an appointment through the wizard.
