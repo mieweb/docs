@@ -1,8 +1,8 @@
 ---
 id: '1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
 title: 'Translation Manager'
-date: '2024-05-15T20:00:23.262Z'
-version: 109
+date: '2024-05-15T20:03:23.915Z'
+version: 111
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -107,8 +107,8 @@ The user may search for translations by using the criteria provided:
 
 Translations may be added by clicking on the link "Add Translation" in the upper right corner of the screen, and manually filling in the Interface Name, Category, Type (if needed), as well as the Trans From and Trans To.
 
-The TYPE of translation has an editor as well. By selecting the "Manage Types" link, the user may edit or remove existing types.
+The Type of translation has an editor as well. By selecting the "Manage Types" link, the user may edit or remove existing types.
 
-NOTE: To create a NEW type, refer to the Add Translation screenshot and enter the new Type in the "Other Category" field.
+NOTE: To create a New type, refer to the Add Translation screenshot and enter the new Type in the "Other Category" field.
 
 ![](../translation-manager.assets/1be45c31dfd8a8e436ad54f8802a0a24.png)
