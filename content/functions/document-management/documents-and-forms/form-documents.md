@@ -1,8 +1,8 @@
 ---
 id: '1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
 title: 'Form Documents'
-date: '2024-03-19T17:23:41.508Z'
-version: 138
+date: '2024-05-15T14:46:29.587Z'
+version: 214
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -103,3 +103,41 @@ For clients on 202309 and newer, on screen form documents (PNG, TIFF) can now be
 ![](../form-documents.assets/fba54537279f91018aa25a677d3b4376.png)
 
 ![](../form-documents.assets/21bfc8865522ec14d4e2ebcd71acc5f3.png)
+
+## File Upload
+
+It may be necessary to upload saved files directly to a patient chart. Using the file upload option within the Add Document screen will allow for multiple documents to be loaded to a patient chart. The files can also be dragged and dropped within the upload screen for easier file loading.
+
+To utilize the file upload feature, access the patient chart from the E-Chart side menu option. Click the Add Document link from the Summary screen.
+
+![](../form-documents.assets/a7215fce0e8c87fd5a24f41355927179.png)
+
+Click on the File link to access the File Upload screen
+
+![](../form-documents.assets/b0e78b86c69692a2e4039858ad9f1705.png)
+
+![](../form-documents.assets/c77abb2de3fc6d93b735c0ef5983e43f.png)
+
+The following fields are available to complete for the file upload:
+
+* Authored by: There is an autocomplete option which allows the user to narrow down the options by typing the first few characters of the name and selecting from the list that populates. There is also a dropdown option to choose the author. Or if the user is the author, the Me button will fill in the user's name for the author.
+* Document Type: This field is an autocomplete which allows the user to narrow down the options by typing the first few characters of the document type and selecting from the list that populates.
+* Date of Service: The date of service can be typed or the calendar option can be selected. There is also a clock icon that will assign today's date, if selected.
+* Service Location: The service location is an optional field. The service location can be selected from the drop down list of configured locations.
+* Subject: The Subject field is optional. This field allows users to specify what the document is about, contains, or is intended for, as an easy reference when searching for or reviewing documents within a chart.
+* Encounter: The Encounter field is optional. This field is designed to link the document to an encounter from the chart. The autocomplete can be used to find the encounter or the Search button. By clicking the Search button, a pop-up window will display existing encounters for the specified chart. This initial search goes back three (3) days, resulting a list of encounters 3 days from the selected Service Date. Clicking the <em>Search within # days</em> hyperlink will perform another 3-day increment search, displaying encounters within 6 days of the Service Date indicated. Continue to click the hyperlink to continue searching further out. To select a specific encounter, click the <em>Select</em> hyperlink next to the specific encounter needing linked. Once selected, the pop-up window will close, and the encounter details will automatically be inserted into the Encounter field.
+* Link to Orders: The Link to Orders field is optional. This field is designed to allow users the ability to link pending orders from the chart in context to the item being uploaded. The autocomplete can be used to find the order.
+* Case: The Case field is optional. This field is designed to link a case/incident from the chart in context to the item being uploaded.
+* CC: The CC field is optional. This field is designed to CC an additional recipient who should receive this document. Click the Add hyperlink to be taken to the CC fields to select the recipient and the method to complete the CC, such as fax.
+
+To add the files, either drag and drop the files into the drag and drop space or click the Choose File button. The Choose File button will open a window to allow for selecting the files. Select the files by clicking on the checkbox for any files that are to be uploaded. Click the Upload Documents button once complete.
+
+![](../form-documents.assets/bf87a0db603b96f2fea261931d0c6350.png)
+
+Items uploaded successfully will display in green and display a link to the document. Clicking on the document id will display the uploaded document in the current browser tab. Clicking the arrow icon to the right of the document id will open the document in a new browser tab.
+
+![](../form-documents.assets/74bddfd9338ea8560247d51c1c791949.png)
+
+Unsuccessfully uploaded documents will display in red and indicate a failure reason.
+
+![](../form-documents.assets/31b1cd787f48a93ec6c16fc7e74379c9.png)
