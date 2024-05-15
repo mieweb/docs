@@ -1,9 +1,9 @@
 ---
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Employer Portal Setup'
-date: '2023-11-16T16:02:15.051Z'
-version: 225
-lastAuthor: 'jmatzke'
+date: '2024-05-15T15:44:04.119Z'
+version: 233
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
@@ -149,8 +149,11 @@ Every user intending to use the portal needs to be added by associating the user
 4. Click the <strong>Edit</strong> link in the <em>Options</em> column.
 5. In the upper-right of the screen, locate and click the <strong>Edit Patients Linked to User</strong> link.  
     {{% note %}}
-    All users needing access to the portal will need an email on their profile, and the <strong>Def. User Role</strong> field set to <strong>User-Limited Access</strong>.
-    {{% /note %}}
+
+
+All users needing access to the portal will need an email on their profile, and the **Def. User Role** field set to **User-Limited Access**.  
+{{% /note %}}
+
 6. Once on the <em>Patients Linked to User</em> screen, ensure the user is listed in the table, twice:
     1. The user should be listed with the role of <strong>Self</strong>; and
     2. He/She should be listed with the role of <strong>No More Clipboard User</strong>.
