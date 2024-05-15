@@ -1,9 +1,9 @@
 ---
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
-date: '2020-03-19T22:27:44.922Z'
-version: 91
-lastAuthor: 'aquandt'
+date: '2024-05-15T18:02:16.040Z'
+version: 104
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html#quick-add'
@@ -529,4 +529,4 @@ With the appropriate security role permission, clicking the **View Lock Records
 
 ### View User Revisions
 
-With the appropriate security role permission, when looking at the user summary from the *View User* page, the **View User Revisions**link will be available in the upper-right of the page. Clicking this will provide a view of sections and fields with associated revision dates, if any.
+With the appropriate security role permission, when looking at the user summary from the *View User* page, the **View User Revisions** link will be available in the upper-right of the page. Clicking this will provide a view of sections and fields with associated revision dates, if any.
