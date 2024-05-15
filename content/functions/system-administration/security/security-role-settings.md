@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-05-02T13:12:53.822Z'
-version: 267
-lastAuthor: 'janderson'
+date: '2024-05-15T11:25:07.341Z'
+version: 298
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -348,7 +348,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Admin Codes: Allows user to add/edit/delete Admin Codes (for class, company, facility, and status of demographics system wide options) within the System Editor in the Control Panel
 * Read JSON API Log: Allows user to read the JSON API log
 * Configure JSON API Logging: Allows user to configure JSON API logging when a JSON API request is done with the system setting enabled and the golden ticket for additional information appears in the response dev_messages
-* View Administrator Help: Available on RC202403 and newer, when set to "Yes", the user is able to see online help with additional information specific to Administrators. The default is set to "No".
+* View Administrator Help: Allows users to see online help content of additional information specific to Administrators within an ==Administration heading.
 
 ### Scheduler
 
