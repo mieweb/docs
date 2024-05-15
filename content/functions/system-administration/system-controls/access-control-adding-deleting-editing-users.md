@@ -1,8 +1,8 @@
 ---
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
-date: '2024-01-12T16:34:59.372Z'
-version: 160
+date: '2024-05-15T19:32:50.932Z'
+version: 193
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -105,6 +105,8 @@ When adding a user, fill out all the fields you can:
 * <strong>Verify New PIN Vericode:</strong> Re-enter your PIN code here from the field above. This is just for verification that you entered the correct/same PIN number. This currently is used for the e-orders module if your practice is set up where you have to enter a PIN number to create orders for patients.
 * <strong>Security Question:</strong> You can type in a question that the user wishes to refer to if he/she needs their password reset, or other information. This is just to verify that this is the person you are talking to that wants changes made.
 * <strong>Security Answer:</strong> Answer to the security question that the user must verify/identify in order to access/change things.
+* <strong>Add Photograph:</strong> Click the Add Photo hyperlink to take a patient photo or upload a saved photo.
+* <strong>Add Signature:</strong> Click the Add Signature hyperlink to upload a signature image. This signature image will display on documents programmed to display a signature.
 
 ### Departments
 
@@ -183,6 +185,10 @@ Customize User Security
 When you are *within Edit User*, you will see this option. If you have security role permission to change security options for users, this link will appear. Click this to make changes to security role permissions that will be only applied to this specific username only. This does not affect the entire security role.
 
 In order to get to this *Customize User Security* section, you must click Edit User first, then this link/option will appear. Make changes, scroll down to the bottom of the security screen & type the reason why you made changes, then click *Update Individual Security* at the bottom of the screen. (See separate instructions called Security Role Settings)
+
+Change Signature
+
+When you are within the View or Edit User screen, you can update the current signature with a new signature image. To complete, click on the Change Signature hyperlink and upload the new signature. The signature image will coincide with the time frame for which the image was current. Any signed documents from the time frame of the previous signature will still display that previous signature. When the new signature is loaded, any new documents that are signed will display the new signature.
 
 #### Delete a User
 
