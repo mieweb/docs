@@ -1,8 +1,8 @@
 ---
 id: '1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
 title: 'Translation Manager'
-date: '2024-05-15T19:49:48.774Z'
-version: 106
+date: '2024-05-15T20:00:23.262Z'
+version: 109
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
