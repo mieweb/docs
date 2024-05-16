@@ -1,8 +1,9 @@
 ---
 id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 title: 'Schedules Tab'
-date: '2020-02-27T19:48:23.179Z'
-version: 107
+date: '2024-05-16T16:59:44.066Z'
+version: 166
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
@@ -18,7 +19,7 @@ Click *Scheduler* tab from left sidebar menu.
 
 Click *Schedules* tab from top tab menu.
 
-![](../schedules-tab.assets/1d29a49db356f5c2a208d8dfa8b24fcf.png)
+![](../schedules-tab.assets/0fabb6dc58090d39727d58cf40357c30.png)
 
 This shows the individual schedules of the doctor/therapist. These have to be added by a person with the correct security role. This is a quick view of the person(s) work schedule on set days.
 
@@ -28,9 +29,9 @@ The calendar (month/week) view is showing.
 
 ## Adding a Schedule
 
-To add a schedule (if you have security role rights), click *List View* hyperlink on the top right side. Do not use the calendar (month/week) view that this tab may default to. (You can change your MY SETTING preference to default to list view). You can edit or delete an existing schedule you see here, or click *Add* hyperlink at the top right to add a schedule.
+You can edit or delete an existing schedule you see here, or click *Add* hyperlink at the top right to add a schedule.
 
-![](../schedules-tab.assets/2a0a60fc1aed47bcb333cfc409dbf0fc.png)
+![](../schedules-tab.assets/70ac879c1cc563eeecc982e77f79a568.png)
 
 The Scheduler Editor screen opens.
 
@@ -54,36 +55,37 @@ The Scheduler Editor screen opens.
 * <strong>Priority:</strong> Set a priority level of this schedule you are entering. The level is any number 0 thru 10. Priority is meant to give schedule a priority. 10 will override a 0.  If you have a typical 8a-5p schedule entered, then you need to override it with a meeting one day, you put in a higher priority.
 * <strong>Appointment Types</strong>: Select and add to this list, the allowed appointment types for this schedule. Can add as many allowed types to a schedule. You can leave blank if doesn't matter what type of appointment is being seen for that schedule. If only certain appointment types are allowed in this schedule, select the specific type(s) here. In the <strong>Appt Type</strong> field, start to type in the appt type name description, appt type code (or click your ↓ button on your keyboard for the first 20 alphabetical choices). Once you've found the appt type to link to the schedule click the ADD button and proceed to add another if you wish using the same steps.
 * <strong>Required</strong> Appointment type checkbox*:* When setting up a schedule, if you choose more than one required appt type. Required means that the patient's appointment must have at least <em>one</em> of those specified appointment types in order to allow a patient's appointment to be scheduled within this schedule you are creating. In order for patients to be able to be scheduled during this specific schedule you are creating, the patients <em>must</em> have one of the specific appt type(s) in order to be scheduled for this time frame. (Example: fasting patients always have rights/get morning appointments, so a schedule for morning appointments would require an appointment type of lab procedure, lab test services, etc). In order for an appointment to see the schedule as free time, the patient's appointment has to have the required appointment type.
+* <strong>Portal</strong>: By selecting Yes for the Portal, this appointment type for this resource will be available for scheduling on the patient portal. By selecting No, the appointment type for this resource will not be available for scheduling.
 
-![](../schedules-tab.assets/e441523adbfe0ff705a46b1144ebad6a.png)
+![](../schedules-tab.assets/21a5f2b4aeda8f3fa9d37d816aa2e28f.png)
 
 * <strong>Add All</strong> Link: You can use the <strong>Add All</strong> link provided to add all appt types to this schedule (instead of selecting each individually). You can also use the <strong>Add All</strong> link provided and then remove a specific appt type that you don't want to be included if it's easier to select all of them and just eliminate a few. The <strong>Add All</strong> link (if used) skips any that are already in the list so that any appt types already listed there and set to ‘required' will stay. Using the <strong>Add All</strong> link defaults the appt type as <em>not</em> required.
 * <strong>Recurrence</strong>
     * Click the RECURRENCE button to set any recurrences to the schedule.
 
-![](../schedules-tab.assets/7f0a0a97f630ab5e3e980d7721a3adde.png)
+![](../schedules-tab.assets/8c8c856419adff9815294a4b26a09fb3.png)
 
 * Once you click the RECURRENCE button, you will see those fields open up on your screen to set. If you are editing a schedule and want to remove the recurrence totally from the schedule, you can simply click the CANCEL RECURRENCE button and save the schedule with your edits.
 
-![](../schedules-tab.assets/cf9b3f25a3c993743a4cee23f56fe117.png)
+![](../schedules-tab.assets/5ac6f9066777878dc72fc861cf441fef.png)
 
 * <strong>Occur every</strong>: This field will default to be shown as <em>every</em>, but you can choose a different occurrence interval from this first drop-down field.
 * <strong>Interval:</strong> In the next drop-down field choose the recurrence interval. Verify your recurrence and intervals reading from left to right starting with how often it will occur and when it will occur. <strong>Days</strong>: If you check-marked <em>weeks</em> as the type, then the days of the week pop-up. Check-mark the days this person works this schedule. Example: if a person works Mon-Thurs 8a-5pm, but <strong>every</strong> Friday 8a-noon, then you would choose Weekly, and only checkmark Mon, Tues, Wed & Thurs and input this occurrence. Then would make another separate schedule and tag that schedule just for Friday using <em>Weeks</em>, and checkmark Friday only.
 
-![](../schedules-tab.assets/b8b1fa32e5312cae6b8c61b41683a9ea.png)
+![](../schedules-tab.assets/8430f5f6715b9098173853e49d1236f6.png)
 
 * <strong>Until</strong>: This is how long you want this to recur until. Type in how long they have this schedule. You can put a Recur Until date and it will tell it to stop in a month or a year, etc. If you leave it blank, it will fill in with zero's and recur forever.
 * <strong>Copy Schedule To:</strong> can copy the schedule to multiple locations and/or resources.
 
-![](../schedules-tab.assets/2bfecb754b0872bc331f75e84a1f0509.png)
+![](../schedules-tab.assets/caf9fe2c9704b289718ac6e3711c8cc0.png)
 
 * When you click on the Copy Schedule button, the fields will expand.
 
-![](../schedules-tab.assets/020e25e60958bff364484829743036e3.png)
+![](../schedules-tab.assets/c4bce520ded41f4f4f0526bcf8dfe95a.png)
 
 * You can click the underlined links to perform that action (apply the schedule to ALL locations, and/or apply the schedule to ALL resources). You can use the clear all link to start over. You can also set individual locations & resources at the bottom, or you can select a specific location and then use the ADD ALL RESOURCES link to that specified location. The <em>copy schedule</em> button shows & tracks how many schedules you are copying to. You can click it to CANCEL if you wish also to get out.
 
-![](../schedules-tab.assets/6f1a7ef775955be983277f805b79e486.png)
+![](../schedules-tab.assets/004b7746b1f466cc22c11556f86a14ce.png)
 
 * <strong>Comment:</strong> Can add a comment to this schedule for other users to see when they look at schedule editor.
 
@@ -99,11 +101,11 @@ If you save the schedule information that you just entered, you will be able to 
 
 After you have created a schedule, *before* clicking the SAVE click the **Save info to use again** link provided at the top of the schedule editor screen.
 
-![](../schedules-tab.assets/6bc7a73d81c03e9113826364b648353f.png)
+![](../schedules-tab.assets/9f1e51d13349d3b8c8d8ae980590fcff.png)
 
 When you click the Save info to use again, it opens up a *Save Template* window. Name the scheduler template so you can use it again if need be to create another schedule again just like it (perhaps for another location or another resource) so you don't then have to re-key in the fields that would remain the same entry data you already did for a schedule. When you are done naming the saved schedule template and have check-marked or uncheck-marked specific fields to save with this template, click the SAVE button at the top or bottom of the *save template* window. You are **not** saving the schedule you created, you are simply saving the ‘template' of this schedule so you can use the basic template again for another schedule you wish to add.
 
-![](../schedules-tab.assets/6bdaa1242929ed963daf9eff646e5704.png)
+![](../schedules-tab.assets/b2fb71f3f679defb661d13e6706b8ec7.png)
 
 When you are done saving the template, make sure to click the SAVE button at the end of the schedule you just created (or edited) in the schedule editor module so that the schedule is saved & created (or edited) in the system.
 
@@ -111,15 +113,15 @@ When you are done saving the template, make sure to click the SAVE button at the
 
 To retrieve a previous saved schedule template, click the **Show previously saved info** link found at the top of the schedule editor.
 
-![](../schedules-tab.assets/6bc7a73d81c03e9113826364b648353f.png)
+![](../schedules-tab.assets/9f1e51d13349d3b8c8d8ae980590fcff.png)
 
 It will open up the *Saved Templates* window showing you a list of templates that were saved (using the steps above) and their names given. If you wish to select a *saved template*, click on its name in the listing.
 
-![](../schedules-tab.assets/f6987e13c999aa49165d2c64285836ff.png)
+![](../schedules-tab.assets/a2f853f9e77add2afbef2647c3ad30e2.png)
 
 The template will open up in a window and you can check mark which entry fields you wish to bring into your schedule you want to create. Once you have each field/category check-marked, click the APPLY button found at the top or bottom of this screen.
 
-![](../schedules-tab.assets/f1c099704512b6ae7fca7b92111d69ca.png)
+![](../schedules-tab.assets/ee89e31b05d1cbdb308d1d4b8936871d.png)
 
 You will then be refreshed back to the Schedule Editor screen with all the fields/categories pre-populated with the template you selected and can edit and modify to create this new schedule to what you need, then click the SAVE button.
 
@@ -135,17 +137,15 @@ Click *Scheduler* tab from left sidebar menu.
 
 Click *Schedules* tab from top tab menu.
 
-Find the resource (physician) you wish to view/edit/delete a schedule for by using the drop-down arrow field. Also choose any specific week/month or location.
+Find the resource (physician) you wish to view/edit/delete a schedule for by using the datavis table to filter.
 
-Once you have found the particular schedule you wish to edit or delete, (if you have security role rights), click **[List View]** on the top right side. This is the easiest way to edit a schedule. You can also edit a schedule from the Month/Week view.
+Once you have found the particular schedule you wish to edit or delete, (if you have security role rights), click Edit or Delete.
 
-![](../schedules-tab.assets/caf939340fba2409c0b9f9d89412383e.png)
+![](../schedules-tab.assets/801a6df66f77b82f1b6b50dbab5b7f04.png)
 
 Search for the schedule you with to edit or delete by using the field filters at the top. The fields allow more than one selection.
 
 Once the schedule is found, you can edit or delete an existing schedule you see here by selecting the appropriate function you wish to perform Edit or Delete from the options column. You will only see edit or delete options if you have security permission to edit schedules or delete schedules.
-
-![](../schedules-tab.assets/b807ca473cb4daba48f8812fdf1a8c9b.png)
 
 After you click Edit to edit a schedule, it will display a message at the top indicating how many *already existing scheduled* appointments occur in the next 4 weeks during this schedule's time frame. A link to the appointment report is given to move those appointments if necessary. You can move those appointments if you need to, now or after you are done editing the schedule. This is called ‘block moving' if you wish to move a block of appointments from a schedule.
 
@@ -153,21 +153,17 @@ If editing a schedule from the List View, when you are done with the edits, clic
 
 It will give you a message that the schedule was successfully edited. You can still move a block of appointments after you edit the schedule.
 
-![](../schedules-tab.assets/66f0ec4f43afe1e4ed5b0da42e1a54ba.png)
+![](../schedules-tab.assets/cab20ea21b8e27d92464a0c36ef4f2a5.png)
 
 You can then use the Click here link if you need to block move those appointments pending for this schedule.
 
-![](../schedules-tab.assets/68c9524f1cb05683f6c11b54e5c2b8e5.png)
+If editing a schedule from the List View, when done with the edits, click *Save* at the bottom.
 
-You will be taken to the Appointment Report tab and you can run a report to search for those appointments & continue to move/edit those appointments if necessary. It will default to the resource, location for the schedule you were just in. Only the Date Range Start/End may need to be changed to find the specific appointments to move.
+![](../schedules-tab.assets/aff4d4b75bc11950686c1ac22c26f15a.png)
 
-![](../schedules-tab.assets/2cda6c885585de9a7d5465e985255dbe.png)
+If there are any appointments scheduled for the next four weeks, you will see the confirmation pop-up window. If you select Yes, it will save the changes of the schedule and return you to the main schedules tab.
 
-You can email the patient(s) that their appointment is being moved or put on a waiting list from here. Then select the specific appointments to move by check-marking the box in the *select* column. Then click MOVE SELECTED button. Select a user/location to move the appointment to. It will keep the same date/time. Or you can check-mark to put the patient's appt that you need to move onto a waiting list instead.
-
-If editing a schedule from the List View, when done with the edits, click *Save* at the bottom. *Delete* will delete the schedule you have opened. *Back* will go back to the view and start over.
-
-If this message is seen when trying to add (schedule) an appointment:
+*Delete* will delete the schedule you have opened. If this message is seen when trying to add (schedule) an appointment:
 
 ![](../schedules-tab.assets/b810cc96f19b74d3262eec3c437430cf.png)
 
