@@ -1,8 +1,9 @@
 ---
 id: '13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
 title: 'Portal Message Notification'
-date: '2020-02-27T20:37:52.283Z'
-version: 23
+date: '2024-05-16T20:41:29.306Z'
+version: 30
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
@@ -18,7 +19,7 @@ Cc:
 
 Subject: Message Notification
 
-A new message has been sent by the Prudential Health and Wellness team. Please log into the Prudential Health and Wellness employee portal by clicking <WCPATLINK F="nmc" URL="autopatid=1" USE_BASEURL="1">here</WCPATLINK>, then click on the red notification bell to retrieve your messages.
+A new message has been sent by the Better Corp Health and Wellness team. Please log into the Better Corp Health and Wellness employee portal by clicking <WCPATLINK F="nmc" URL="autopatid=1" USE_BASEURL="1">here</WCPATLINK>, then click on the red notification bell to retrieve your messages.
 
 CONFIDENTIALITY NOTICE:
 
