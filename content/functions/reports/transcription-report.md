@@ -1,16 +1,16 @@
 ---
 id: '1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
 title: 'Transcription Report'
-date: '2021-02-22T18:34:34.162Z'
-version: 41
-lastAuthor: 'egrzetich'
+date: '2024-05-16T13:35:19.003Z'
+version: 56
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-{note}The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {system-name} and not performance metrics.{/note}
+The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
 
 Use transcription reports to view statistics on transcription output. The report can present information based on department, provider, user, document type, and ranges of dates. A transcription report includes the following information:
 
@@ -40,10 +40,10 @@ You must have security role access to reports and to viewing transcription stati
 2. From the side menu, select <strong>Reports</strong>.
 3. Select <strong>Dictation/Transcription</strong>. The <em>Dictation/Transcription</em> section appears.
 4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears.  
-    ![](../transcription-report.assets/5c45747f7d714ae4bad81f4648f087d0.png)
+    ![](../transcription-report.assets/3216d1211586a09cb5a01a0538d4e9c4.png)
 5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report:
     1. <em>Select</em>  <em>Department</em>: Select department for which to view transcription statistics.
-    2. <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user. If you selected a department in the <em>Select Department</em> field, only users in that department are shown in this field. If you did not select a department, all users are shown in this field.
+    2. <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user.
     3. <em>Limit To Provider:</em> To limit the report to transcriptions performed for a provider, type the first or last name of the provider. If you do not select a provider in this field, the transcription results will be for all providers.
     4. <em>Document Type</em>: To limit the report to transcriptions performed on a type of document, select the document type. To not limit the report, leave set to <em>All Document Types</em>
     5. <em>Exclude Selected Document Type:</em> To exclude transcriptions performed on a type of document, select that type of document from the <em>Document Type</em> field and select this check box. The report will contain transcription statistics for all types of documents except that selected in the <em>Document Type</em> field.
@@ -61,6 +61,4 @@ You must have security role access to reports and to viewing transcription stati
         4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
 
-![](../transcription-report.assets/3ec061de705cbefe3d0aa4b0af22eda8.png)
-
-![](../transcription-report.assets/0b2fe6fa5b7f58761d4fadcfc6609b40.png)
+![](../transcription-report.assets/2d3508c79c37c6c0cc2c2a6567453fc7.png)
