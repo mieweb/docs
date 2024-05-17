@@ -1,9 +1,9 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2024-02-01T15:23:42.948Z'
-version: 387
-lastAuthor: 'anichols'
+date: '2024-05-17T16:54:29.079Z'
+version: 407
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'observations-tab.md'
@@ -161,14 +161,9 @@ Anytime an observation or question is intended for men or women, exclusively, si
 Conditionals can be stacked and used with multiple observations or conditionals, as needed. For instance, an observation can be set to display only if the respondent answers yes to working on a specific floor of a specified building. To perform AND functions, simply use two ampersand symbols (**&&**) between the conditional statements, as follows:`
 
 
-observationDisplay('Patient works at MMA building','Yes') && observationDisplay('Patient works on level 3','Yes')  
+observationDisplay('Patient works at MMA building','Yes') && observationDisplay('Patient works on level 3','Yes')
+
 `
-```
-
-
-
-
-```
 
 #### Based on Either/Or
 
