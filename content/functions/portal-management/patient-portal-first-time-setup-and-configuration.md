@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2024-04-01T19:49:31.586Z'
-version: 564
+date: '2024-05-17T15:44:54.553Z'
+version: 581
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -189,9 +189,6 @@ To *fully* add a consent form to the list:
     2. Add a WHERE clause to the Required section of this flowsheet, to ensure that portal users not accepting the terms and conditions of the consent form will not be permitted access or be able to proceed further in the portal. Add the following WHERE clause to the Required section:  
         `  
         observationValueByName('insert the consent observation') === 'Yes' ? 0 : -1`
-```
-
-```
 
 {{% /note %}}
 
