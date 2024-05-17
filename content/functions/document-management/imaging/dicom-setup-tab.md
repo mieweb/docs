@@ -1,9 +1,9 @@
 ---
 id: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
 title: 'DICOM Setup Tab'
-date: '2020-03-09T19:34:25.790Z'
-version: 37
-lastAuthor: 'aquandt'
+date: '2024-05-17T15:21:41.942Z'
+version: 52
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=dicom&dcfunc=aeedit'
@@ -52,10 +52,12 @@ The following information is displayed on the application entities screen:
     * None (N)
     * Study (S)
     * Series (E)
-        * Image (I)  
-            {{% info %}}
-            Most devices are set up to transmit at the <strong>Study</strong> level.
-            {{% /info %}}
+        * Image (I)
+
+{{% info %}}
+Most devices are set up to transmit at the **Study** level.
+{{% /info %}}
+
 * <strong>Max Connections</strong>: Sets the maximum number of threads 0 how many studies can be pushed at once.
 * <strong>Comment</strong>: This is a freetext field where you can identify in simplistic terms what the device is.
 * <strong>AE Ability</strong>: Push or Print are the options. You would only use "Print" if the device is a DICOM printer. If Push is selected, additional fields will branch open to program, if needed:
