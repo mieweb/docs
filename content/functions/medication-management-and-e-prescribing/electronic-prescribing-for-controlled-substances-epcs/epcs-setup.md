@@ -1,9 +1,9 @@
 ---
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
-date: '2023-06-07T16:59:14.165Z'
-version: 525
-lastAuthor: 'auhrick'
+date: '2024-05-17T17:08:58.355Z'
+version: 534
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.healthit.gov/'
@@ -48,17 +48,21 @@ Providers who wish to electronically prescribe controlled medications must first
 
 * Begin the IdenTrust certification selection process by navigating to our customized [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering). Review the information and click the blue <strong>Buy Now</strong> button to initiate the Certification Selection Wizard. Purchase the IdenTrust Global Common (IGC) USB Token. Create the two (2) required passwords (through the [IdentTrust Partner Page](https://www.identrust.com/partners/mie-medical-informatics-engineering)):
     * Account password
-    * Token passcode  
-        {{% note %}}
-        <strong>Do not forget this passcode</strong>. You may request a replacement certificate from the IdenTrust Certificate Management Center; however, you will need to purchase a new SAFE HID USB token. [Contact IdenTrust](https://www.identrust.com/contact) for assistance with your purchase. For more information see the [IGC FAQs](https://www.identrust.com/support/faq/25).
-        {{% /note %}}
+    * Token passcode
+
+{{% note %}}
+**Do not forget this passcode**. You may request a replacement certificate from the IdenTrust Certificate Management Center; however, you will need to purchase a new SAFE HID USB token. [Contact IdenTrust](https://www.identrust.com/contact) for assistance with your purchase. For more information see the [IGC FAQs](https://www.identrust.com/support/faq/25).
+{{% /note %}}
+
 * Receive the Retrieval Kit from IdenTrust.
 * Install the ActivClient Authentication Client Software (on ALL workstations being used for EPCS).
 * Complete certificate retrieval.
 * Test the certificate (following the instructions included in the retrieval kit).
 * Review the Prescriber Responsibilities and Transmission Requirements prior to creating, signing, or transmitting controlled substance prescriptions.
 
-{{% warning %}}EPCS prescribers must retain sole possession of the hard token. This hard token and password must not be shared with any other person. The prescriber must not allow any other individual use of the token, or to perform EPCS signing in the {{% system-name %}} system. Failure to secure the two-factor authentication credential may provide a basis for revocation or suspension.{{% /warning %}}
+{{% warning %}}
+EPCS prescribers must retain sole possession of the hard token. This hard token and password must not be shared with any other person. The prescriber must not allow any other individual use of the token, or to perform EPCS signing in the {{% system-name %}} system. Failure to secure the two-factor authentication credential may provide a basis for revocation or suspension.
+{{% /warning %}}
 
 ### Access Control
 
@@ -130,7 +134,8 @@ Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use
     14. <strong>Receive Fill Notices</strong>: This message is initiated by the pharmacy.  This message notifies the prescriber about the status of a prescription - either new, renewal or resupply. RxFill messages should be viewed by the prescriber as individual snapshots in time regarding a prescription; not a final or complete status. Ex: to notify of a dispensed script, partially dispensed script or if a script was never dispensed.
     15. <strong>EPCS</strong>: This option must be selected to allow EPCS functionality. Only the System Administrator has access to this option. <strong>Per DEA regulations, two (2) individuals must be involved when setting or revoking EPCS privileges</strong>. Selecting the EPCS option enables the sending of electronic prescriptions for DEA Schedule II-V drugs.
 
-{{% info %}}When the EPCS option is selected by the Designated Administrator, the following pop-up will display, prompting for the insertion of the two-factor authentication credential, followed by the password:  
+{{% info %}}
+When the EPCS option is selected by the Designated Administrator, the following pop-up will display, prompting for the insertion of the two-factor authentication credential, followed by the password:
 ![](../epcs-setup.assets/ffbb75e6e27b56b096d07c33aa545dc1.png)
 {{% /info %}}
 
