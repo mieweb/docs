@@ -1,8 +1,8 @@
 ---
 id: '1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM'
 title: 'Remembered Prescriptions & Meds Library'
-date: '2024-05-17T17:33:43.379Z'
-version: 56
+date: '2024-05-17T19:29:22.473Z'
+version: 61
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -57,7 +57,7 @@ You can free-text in a medication name in the medication field instead of select
 
 ![](../remembered-prescriptions-and-meds-library.assets/b3eb2ab348a1d3918ba24761e7599b84.png)
 
-### ![](../remembered-prescriptions-and-meds-library.assets/78c8d0396589bbad2025358132865937.png)
+![](../remembered-prescriptions-and-meds-library.assets/78c8d0396589bbad2025358132865937.png)
 
 ### Update Button
 
