@@ -1,9 +1,9 @@
 ---
 id: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
 title: 'Quick View - Alerts Portlet'
-date: '2020-03-09T21:13:03.975Z'
-version: 79
-lastAuthor: ''
+date: '2024-05-17T14:41:43.441Z'
+version: 84
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/'
@@ -128,10 +128,12 @@ The **Auto-Send Item Alerts** portlet shows failed datasend jobs for the logged-
 
 ![](../quick-view-alerts-portlet.assets/47bc7bc3ed9076c866488ca71b0e784a.png)
 
-* <strong>Acknowledge</strong>: Clicking this after an autoroute has failed indicates you acknowledge it errored out, removing it from the queue.   
-    {{% note %}}
-    If information, or document or chart info, ever changes or gets updated, then the auto-send route will be resent.
-    {{% /note %}}
+* <strong>Acknowledge</strong>: Clicking this after an autoroute has failed indicates you acknowledge it errored out, removing it from the queue.
+
+{{% note %}}
+If information, or document or chart info, ever changes or gets updated, then the auto-send route will be resent.
+{{% /note %}}
+
 * <strong>Resend</strong>: Clicking this will attempt to resend the failed route.
 * <strong>Deactivate</strong>:  Clicking this means that you no longer want the errored route to be sent and wish it to never try sending again.
 
