@@ -1,9 +1,9 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2024-05-02T16:35:29.329Z'
-version: 214
-lastAuthor: 'anichols'
+date: '2024-05-17T15:01:49.594Z'
+version: 228
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
@@ -23,7 +23,9 @@ The WebScan module will load, displaying the landing page, where existing scan b
 
 Additionally, the ListView of the checked-in scanned batches will only show batches from partitions the logged-in user is able to access. There is a system setting that allows clients to specify chart partitions, therefore restricting storage of and access to document types according to specific business needs, consequently limiting a user's accessibility to specific document types, whenever appropriate. If the **Show Partition Restrict** system setting is enabled, batches can be scanned into specific partitions, as needed. If a batch is scanned into a specific partition, only indexers with access to that partition will see the batch in the ListView. The *Partition* column in the ListView displays the partition of the batch.
 
-### ![](../indexing.assets/6979d26c3e8d3593d864941035252d90.png)Batch Statuses
+![](../indexing.assets/6979d26c3e8d3593d864941035252d90.png)
+
+### Batch Statuses
 
 There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *checked-in* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function. Both *Checked In* and *Checked Out* batches will need to be indexed in order to be removed from the queue.
 
