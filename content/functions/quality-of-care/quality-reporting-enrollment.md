@@ -1,9 +1,9 @@
 ---
 id: '1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
 title: 'Quality Reporting Enrollment'
-date: '2020-03-20T17:33:15.915Z'
-version: 119
-lastAuthor: ''
+date: '2024-05-17T13:49:19.345Z'
+version: 126
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'measures.md'
@@ -17,19 +17,22 @@ The following information is intended to walk users through the basic enrollment
 
 ## Enroll via Quality Reporting Portlet
 
-1. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.  
-    {{% tip %}}
-    If the Quality Reporting portlet is not enabled, click the <strong>Select Portlets</strong> link toward the top of the page. Select the <em>Quality Reporting</em> portlet, and click the <strong>Save</strong> button.
-    ![](../quality-reporting-enrollment.assets/9dcbd97303112d6e3f864e9c9381405d.png)
-    {{% /tip %}}
+1. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
+
+{{% tip %}}
+If the Quality Reporting portlet is not enabled, click the **Select Portlets** link toward the top of the page. Select the *Quality Reporting* portlet, and click the **Save** button.
+![](../quality-reporting-enrollment.assets/9dcbd97303112d6e3f864e9c9381405d.png)
+{{% /tip %}}
+
 2. Click the {{% syslink "Enroll" "f=layout&module=MIPS&name=Advanced+Measure+Enrollment&user_id=50&redirect=f%3Domniscope&tabmodule=+" %}} hyperlink to begin the enrollment process.
 
     ![](../quality-reporting-enrollment.assets/0ddad2de40fa9ca8eb61cd9b194aa669.png)
 
-    {{% warning %}}
-    Ensure all participating provider profiles are edited with the correct National Provider Identifier (NPI) and Tax Identification Number (TIN), so that the JSON file to be submitted successfully uploads to the reporting website.
-    ![](../quality-reporting-enrollment.assets/dfdb3c414a0d5878d6b455f31adbcbe4.png)
-    {{% /warning %}}
+{{% warning %}}
+Ensure all participating provider profiles are edited with the correct National Provider Identifier (NPI) and Tax Identification Number (TIN), so that the JSON file to be submitted successfully uploads to the reporting website.
+![](../quality-reporting-enrollment.assets/dfdb3c414a0d5878d6b455f31adbcbe4.png)
+{{% /warning %}}
+
 3. After the page loads, use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
 
     ![](../quality-reporting-enrollment.assets/ef183ac54dfd562db0d5781ccb9648c6.png)
@@ -39,23 +42,21 @@ The following information is intended to walk users through the basic enrollment
 5. Next, from the <strong>Available Measures</strong> table, select <strong>all measures needing to be tracked</strong>, specific to the relevant program(s) opted into by the enrolled provider(s). Filter the columns, as needed.   
     ![](../quality-reporting-enrollment.assets/6ab7ae2aff9a5d57c226d795b54b2336.png)
 
-    {{% info %}}
-    For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](../reports/using-datavis-grids-data-tools.md) help documentation.
-    {{% /info %}}
-
+{{% info %}}
+For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](../reports/using-datavis-grids-data-tools.md) help documentation.
+{{% /info %}}
 
 {{% warning %}}
 It is very important to select the correct measure associated with your Performance Period (i.e., 2018 measures for any performance period between 1-1-2018 to 12-31-2018, 2019 measures for any performance period between 1-1-2019 to 12-31-2019, etc.). Be sure to enroll in ONLY the measures for which supporting documentation can be provided, as outlined by the measure specification. DO NOT enroll in any measures for which supporting documentation cannot be provided in the event of an audit.
-
 {{% /warning %}}
 
 6. Once all necessary measures have been selected, click the <strong>Submit</strong> button.   
     ![](../quality-reporting-enrollment.assets/5b475c9d054455a365a4d56e752a239d.png)
 
-    {{% info %}}
-    The logged-in user will now be able to track the enrolled measures from the Quality Reporting portlet on the Quick View.
-    ![](../quality-reporting-enrollment.assets/0dc7bb56662374c32eed971b42d71168.png)
-    {{% /info %}}
+{{% info %}}
+The logged-in user will now be able to track the enrolled measures from the Quality Reporting portlet on the Quick View.
+![](../quality-reporting-enrollment.assets/0dc7bb56662374c32eed971b42d71168.png)
+{{% /info %}}
 
 ## Guided Enrollment
 
