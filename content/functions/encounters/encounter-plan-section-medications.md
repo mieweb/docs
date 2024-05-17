@@ -1,9 +1,9 @@
 ---
 id: '1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
 title: 'Encounter Plan Section - Medications'
-date: '2020-03-30T15:46:29.194Z'
-version: 130
-lastAuthor: ''
+date: '2024-05-17T15:56:11.997Z'
+version: 135
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
@@ -12,6 +12,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 **Toward the bottom of an Encounter Exam is a section called Plan.**
 
 This is the ‘plan' that the physician is recommending/ordering for the patient as a result of the examination. There are two different ‘looks' to the plan area that you may have.
+
 ![](../encounter-plan-section-medications.assets/abb37ea646c9d4a9ebd48ff5f5413b01.png)
 
 ![](../encounter-plan-section-medications.assets/019d8f4c1c4e31605e72dbbfa3aa5333.png)
