@@ -1,8 +1,8 @@
 ---
 id: '1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
 title: 'Encounters Tab - Search and List View'
-date: '2024-05-17T16:10:30.495Z'
-version: 73
+date: '2024-05-17T19:24:58.058Z'
+version: 80
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -59,7 +59,7 @@ Depending on what your practice has set up and what security privileges you are 
 
 ![](../encounters-tab-search-and-list-view.assets/b4c81d6a93cf5f86a8cee9cd9ea0f0a5.png)
 
-#### ![](../encounters-tab-search-and-list-view.assets/3a12350beff26082623c111b81187fb5.png)
+![](../encounters-tab-search-and-list-view.assets/3a12350beff26082623c111b81187fb5.png)
 
 **Set Current**: If you click this, it will set this specific encounter as ‘current' for you. It then shows it as Current in this column and shows that current encounter up in your top encounters summary toolbar. You can set open or closed encounters to ‘current'.
 
