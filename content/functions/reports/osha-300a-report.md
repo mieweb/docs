@@ -1,9 +1,9 @@
 ---
 id: '1PpdjD2K4mv1ohcdofTrXyN_wGzQUGF2QuHfgGTnaYFk'
 title: 'OSHA 300A Report'
-date: '2024-01-29T13:46:39.148Z'
-version: 89
-lastAuthor: 'anichols'
+date: '2024-05-20T19:10:45.796Z'
+version: 93
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1PpdjD2K4mv1ohcdofTrXyN_wGzQUGF2QuHfgGTnaYFk'
@@ -66,7 +66,7 @@ The following describes each column of the report:
 
 ![](../osha-300a-report.assets/f8f6f5f8706d5750c4ec2c11b7592406.png)
 
-    * The accommodation drop-down choices deemed <em>lost time</em> are looked at in the system setting <em>Lost Time Type</em>.  By default the 5 Lost Time accommodation choices are counted for this, but the system setting controls that.
+* The accommodation drop-down choices deemed <em>lost time</em> are looked at in the system setting <em>Lost Time Type</em>.  By default the 5 Lost Time accommodation choices are counted for this, but the system setting controls that.
 
 ![](../osha-300a-report.assets/500c0eeded3e6676744c04238b6813c1.png)
 
