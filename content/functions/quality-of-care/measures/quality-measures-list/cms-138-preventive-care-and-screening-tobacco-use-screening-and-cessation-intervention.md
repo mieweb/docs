@@ -1,8 +1,8 @@
 ---
 id: '1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
 title: 'CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention'
-date: '2024-05-20T18:44:53.237Z'
-version: 39
+date: '2024-05-20T18:44:58.997Z'
+version: 42
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
