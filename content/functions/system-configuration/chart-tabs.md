@@ -1,9 +1,9 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2024-01-23T20:44:24.269Z'
-version: 234
-lastAuthor: 'squarterman'
+date: '2024-05-20T14:36:45.551Z'
+version: 241
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
@@ -68,37 +68,36 @@ After you click Add Tab, the Chart Tab Basic Editor Information screen will appe
 * <strong>Open in a new window?</strong>: If you want the chart tab to display in the new opened window or your screen each time, click Yes for this. Otherwise, most keep as No so the chart tab stays on the screen view instead of in a separate window.
 * <strong>Default View</strong>: Choose type of view this chart tab will appear as. The default view of a chart tab determines the basic functionality of that tab. To see a brief description of a particular default view, choose that default view in the select box, then click the question mark to the right of select box. Example: some are set to Documents-Thumb view (would show the scanned image while viewing all the documents in that chart tab). If you just wanted a text/list view, then choose Documents-List view. Documents-Detail view opens the document on the screen in a summary fashion. Documents-Thumb view shows the document image on the left for that tab and then the list view in the middle of the screen. Use the help icon to view what each Default View choice describes and shows. Your MIE Implementer loads other chart tabs like vitals, flowsheets, Rx lists, and other programs specific to your company.
 
-
 {{% note %}}
 
 Certain default views will allow you to tag document types to them. Default views that allow document types to be tagged to them, but are not required:
 
-    * Demographics View
-    * Encounter View
-    * Injections List
-    * Lab Results
-    * Mammogram Tracking
-    * Medications/Allergies
-    * Orders View
+* Demographics View
+* Encounter View
+* Injections List
+* Lab Results
+* Mammogram Tracking
+* Medications/Allergies
+* Orders View
 
 Default views that require at least one document type to be tagged:
 
-    * Documents Detail  View
-    * Documents Detail List View
-    * Documents List View
-    * Documents Thumbnail View
+* Documents Detail  View
+* Documents Detail List View
+* Documents List View
+* Documents Thumbnail View
 
 Default views that forbid/don't allow document types to be tagged to them:
 
-    * Appointments View
-    * Conditions List
-    * Dashboard View
-    * DICOM view
-    * Dictation List
-    * Flowsheet (Observation List)
-    * Inventory View
-    * Sub Tab View
-    * Insurance List
+* Appointments View
+* Conditions List
+* Dashboard View
+* DICOM view
+* Dictation List
+* Flowsheet (Observation List)
+* Inventory View
+* Sub Tab View
+* Insurance List
 
 If you select any default view that allows you to tag document types to it, you will then see a Document Types section to complete.
 
