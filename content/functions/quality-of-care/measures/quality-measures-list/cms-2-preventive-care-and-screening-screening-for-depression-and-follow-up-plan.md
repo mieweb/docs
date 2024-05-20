@@ -1,8 +1,8 @@
 ---
 id: '1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
 title: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan'
-date: '2024-05-20T18:04:30.701Z'
-version: 176
+date: '2024-05-20T18:19:57.763Z'
+version: 179
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -133,18 +133,18 @@ OR
 1. While documenting the Visit encounter, record the procedure, as appropriate
 2. Open the Tests and Procedures section
 3. Search for Depression Screening in the autocomplete
-        1. For patients under 18, use the Adolescent Depression Screening
-        2. For patients 18+, use the Adult Depression Screening
+* For patients under 18, use the Adolescent Depression Screening
+* For patients 18+, use the Adult Depression Screening
 4. Click Add to Exam
 5. Open the Depression Screening section
 6. Complete the questions
 7. Close the section
 8. If the PHQ9 Calculation in the Depression Screening indicates the patient is positive for depression, order depression follow-up
-        1. Order the appropriate follow-up items(s) for the patient
+* Order the appropriate follow-up items(s) for the patient
 
 OR
 
-        2. E-prescribe an antidepressant medication
+* E-prescribe an antidepressant medication
 9. Continue documenting the encounter, as appropriate
 10. When completed, Close and Archive the encounter
 
