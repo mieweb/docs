@@ -1,8 +1,8 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2024-05-20T13:42:32.994Z'
-version: 421
+date: '2024-05-20T13:50:36.587Z'
+version: 425
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -40,17 +40,18 @@ Any custom discrete values will not be interoperable when communicating with oth
 * <strong>Flowsheet Name</strong>: This field is used to name the new Flowsheet. If the Flowsheet will be used within encounters, this field should match the order item name, exactly.
 * <strong>Active</strong>: Select or deselect to set the Flowsheet as active or inactive, respectively. Flowsheets cannot be deleted.
 * <strong>Observation</strong>: This autocomplete field is used to populate any necessary observations being captured for the Flowsheet in context. Users cannot text freely within this field. The observation must be a stored observation within the Observation Codes library.
-* <strong>Search By Name</strong>: Begin typing any observation name to locate the preferred observation to be included in the Flowsheet. Once selected, the observation will automatically populate in the list view at the bottom of the page.
-* <strong>Search By LOINC</strong>: To search by LOINC code, rather than name, begin the search with a question mark . For example, entering <strong>?2339-0</strong> will populate the observation associated with that LOINC code, to be added to the Flowsheet.
+    * <strong>Search By Name</strong>: Begin typing any observation name to locate the preferred observation to be included in the Flowsheet. Once selected, the observation will automatically populate in the list view at the bottom of the page.
+    * <strong>Search By LOINC</strong>: To search by LOINC code, rather than name, begin the search with a question mark . For example, entering <strong>?2339-0</strong> will populate the observation associated with that LOINC code, to be added to the Flowsheet.
 * <strong>Order</strong>: In addition to adding observations for data capture, users may build Flowsheets with orders, as well. This autocomplete field allows users to populate any necessary orders being recorded within a Flowsheet.
 * <strong>All Flowsheets</strong>: All Flowsheets can have the included items (i.e., observations and orders) separated, grouped, and required, using the following buttons, as appropriate.
-* <strong>Add Line Break/Header</strong>: This button inserts a break, which can be used as a header or simply a line break. As a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the <strong>Edit</strong> (pencil) icon in the <em>Actions</em> column, and update the <strong>Description</strong> field. The text will display as a title for the line break, thus formatting it as a header in the Flowsheet.
-* <strong>Mark All Required</strong>: This button allows users to set all included observations as required. After all items have been added to the Flowsheet, clicking this button will display a verification: <em>All observations with empty required fields will be set to required</em>. Click <strong>Yes</strong> or <strong>No</strong>. Clicking Yes will set all empty required fields to <em>true</em>, making data entry required for those entry items.
+    * <strong>Add Line Break/Header</strong>: This button inserts a break, which can be used as a header or simply a line break. As a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the <strong>Edit</strong> (pencil) icon in the <em>Actions</em> column, and update the <strong>Description</strong> field. The text will display as a title for the line break, thus formatting it as a header in the Flowsheet.
+    * <strong>Mark All Required</strong>: This button allows users to set all included observations as required. After all items have been added to the Flowsheet, clicking this button will display a verification: <em>All observations with empty required fields will be set to required</em>. Click <strong>Yes</strong> or <strong>No</strong>. Clicking Yes will set all empty required fields to <em>true</em>, making data entry required for those entry items.
+
 * <strong>Questionnaires Only</strong>: Flowsheets are often used as questionnaires. These questionnaires are available from the portal and may be configured as needed. The following buttons are only compatible with Flowsheets being used as questionnaires. To preview the style and format of the questionnaire, simply click the Questionnaires Only link at any time.
-* <strong>Add Page Break</strong>: This button will add a page break to the questionnaire, causing the content following the placement of the page break to continue on to a new page.
-* <strong>Add Section Break</strong>: Adding a section break will simply provide a segmented section for the contained content. These can be edited and titled, as needed.
-* <strong>Add Group Break</strong>: This button will break content into groups, which can be labeled, as needed. Section breaks can be used within group breaks.
-* <strong>Add Layout</strong>: Adding a layout can be done by MIE, whenever a layout is necessary for the questionnaire (e.g., Medications layout). This button can also be used when a 2-column layout is needed for a questionnaire.
+    * <strong>Add Page Break</strong>: This button will add a page break to the questionnaire, causing the content following the placement of the page break to continue on to a new page.
+    * <strong>Add Section Break</strong>: Adding a section break will simply provide a segmented section for the contained content. These can be edited and titled, as needed.
+    * <strong>Add Group Break</strong>: This button will break content into groups, which can be labeled, as needed. Section breaks can be used within group breaks.
+    * <strong>Add Layout</strong>: Adding a layout can be done by MIE, whenever a layout is necessary for the questionnaire (e.g., Medications layout). This button can also be used when a 2-column layout is needed for a questionnaire.
 4. Once all observations, orders, and components have been added, users can begin rearranging and configuring the observations, sections, and details, as needed. To do this, users must use the icons available under the <em>Actions</em> column. The available options are <strong>Edit</strong> (pencil), <strong>Move</strong> (vertical arrows), and <strong>Remove</strong> (trash). Additionally, the columns and options available within the list view are as follows:
 
 * <strong>Name</strong>: This field displays the observation name selected, which is coded in the Observation Codes Manager. This will appear as a hyperlink and can be clicked to see a view of the observation details.
