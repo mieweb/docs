@@ -1,16 +1,16 @@
 ---
 id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 title: 'Encounters Protocol Configuration & Programming'
-date: '2021-12-08T15:28:41.216Z'
-version: 177
-lastAuthor: ''
+date: '2024-05-20T16:16:24.461Z'
+version: 183
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-*rfdThis help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
+*This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
 
 Protocols are clinical workflows that are condition specific, such as headaches, burns, falls and bites. To better guide the clinician through a patient visit based on a specific condition, ‘protocols' can be configured using observations, flowsheets, .macros and orders in the standard dynamic 'Visit' encounter.
 
