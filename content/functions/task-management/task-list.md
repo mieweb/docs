@@ -1,8 +1,8 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2024-05-17T19:01:20.025Z'
-version: 169
+date: '2024-05-20T13:18:55.029Z'
+version: 177
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ There are two ways to access your pending tasks:
 
 ![](../task-list.assets/2058b9778b09de3e34c0d5b1436e9d7a.png)
 
-    1. This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
+* This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
 
 -OR-
 
