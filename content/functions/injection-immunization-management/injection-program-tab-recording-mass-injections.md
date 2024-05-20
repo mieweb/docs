@@ -1,8 +1,8 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2024-05-17T18:53:52.930Z'
-version: 224
+date: '2024-05-20T13:33:07.327Z'
+version: 233
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -53,7 +53,8 @@ Remaining fields:
 
 ![](../injection-program-tab-recording-mass-injections.assets/6c3ac6f2cb852a8728470512945590d1.png)
 
-    * Egg allergy alert: When you select other specific injections or immunizations to record, some specific injections will also look for egg allergies and give you an alert.  These injections that look for egg allergies and give a pop-up alert are: MMR, Influenza split (incl.purified surface antigen), Influenza whole, Influenza NOS, Influenza live intranasal, Rabies intramuscular injection, Rabies intradermal injection, Rabies NOS and Yellow Fever.
+    * Egg allergy alert: When you select other specific injections or immunizations to record, some specific injections will also look for egg allergies and give you an alert. These injections that look for egg allergies and give a pop-up alert are: MMR, Influenza split (incl.purified surface antigen), Influenza whole, Influenza NOS, Influenza live intranasal, Rabies intramuscular injection, Rabies intradermal injection, Rabies NOS and Yellow Fever.
+
 * Contraindications: A dropdown list of contraindications are available to be selected. When one is selected, the fields below are hidden.
 * Administering Location: If your practice only has 1 location it will automatically populate this field.  If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered.
 * Vial / Lot #:  Enter the vial and/or lot # of the serum. In the mass injections mode or the normal "add injection" screen, the Lot# field autocomplete references Vials/Lots as referenced in the Inventory module.
