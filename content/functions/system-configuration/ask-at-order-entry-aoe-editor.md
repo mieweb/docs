@@ -1,8 +1,8 @@
 ---
 id: '1IHfW0DrfMPy4xX-pNIsYZ4LVV8CNNoBf373Hbo_i__c'
 title: 'Ask at Order Entry AOE Editor'
-date: '2024-05-20T16:25:17.062Z'
-version: 66
+date: '2024-05-20T16:52:38.608Z'
+version: 70
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -99,11 +99,11 @@ With proper permission, a user may add the AOE questions to existing orders.
 
 ![](../ask-at-order-entry-aoe-editor.assets/ec7d0933cddc4aa5b88e745b111acc72.png)
 
-    * Text: Text allows the user to type in a response. This is limited to 255 characters.
+* Text: Text allows the user to type in a response. This is limited to 255 characters.
 
 ![](../ask-at-order-entry-aoe-editor.assets/6ec818f229b86fac46105682bfafe76a.png)
 
-    * Multiple Choice: The user will see the responses allowed for the question in a drop-down field.
+* Multiple Choice: The user will see the responses allowed for the question in a drop-down field.
 
 ![](../ask-at-order-entry-aoe-editor.assets/2dbacd9ef5b38d5bec8e13ad1880dcd4.png)
 
