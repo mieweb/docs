@@ -1,8 +1,8 @@
 ---
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
-date: '2024-05-20T13:57:37.017Z'
-version: 543
+date: '2024-05-20T14:05:07.678Z'
+version: 549
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -181,7 +181,7 @@ Even though providers are capable of electronically prescribing controlled subst
 
 For more detailed information on how to add and prescribe medications, see our [Prescribing/Adding Medications](../prescribing-adding-medications.md) help documentation.
 
-### Marking Prescriptions **_Ready to Sign_**/Digitally Signing Prescriptions
+### Marking Prescriptions Ready to Sign/Digitally Signing Prescriptions
 
 As a part of EPCS certification, the CEHRT requires the practitioner to indicate each prescription is ready for signing. Because of this, a prescriber must review the prescriptions and mark each as Ready to Sign by checking the box(es). Digitally sign the prescription by clicking your (the prescriber's) name/link. **Be sure to read the legal statement before marking and signing**.
 
