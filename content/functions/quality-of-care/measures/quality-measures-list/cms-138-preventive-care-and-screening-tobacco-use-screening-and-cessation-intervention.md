@@ -1,9 +1,9 @@
 ---
 id: '1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
 title: 'CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention'
-date: '2022-04-22T14:53:39.158Z'
-version: 34
-lastAuthor: 'nrichardson'
+date: '2024-05-20T18:44:53.237Z'
+version: 39
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS138&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet'
@@ -125,10 +125,12 @@ Using the Social History section of the encounter, ensure smoking status is docu
     6. Light tobacco smoker
     7. Smoker, current status unknown
     8. Unknown if ever smoked
-3. Based on the selected smoking status, additional fields/choices may need addressed (e.g., Age Started, Age Quit, Cessation Counseling, etc.). Answer accordingly.  
-    {{% note %}}
-    When marking the radio button for Cessation Counseling, the date MUST be entered as well. Selecting only the radio button or providing only a date of counseling will not satisfy the measure.
-    {{% /note %}}
+3. Based on the selected smoking status, additional fields/choices may need addressed (e.g., Age Started, Age Quit, Cessation Counseling, etc.). Answer accordingly.
+
+{{% note %}}
+When marking the radio button for Cessation Counseling, the date MUST be entered as well. Selecting only the radio button or providing only a date of counseling will not satisfy the measure.
+{{% /note %}}
+
 4. Continue documenting the encounter as appropriate
 5. When complete, Close and Archive the encounter
 
