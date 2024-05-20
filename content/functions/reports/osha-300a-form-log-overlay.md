@@ -1,9 +1,9 @@
 ---
 id: '1qHBp70qSV9LSeHEg056zXY8YfXpetOJv2L77zGKOCLI'
 title: 'OSHA 300A Form Log Overlay'
-date: '2023-11-10T19:35:32.642Z'
-version: 202
-lastAuthor: 'anichols'
+date: '2024-05-20T19:28:43.207Z'
+version: 206
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qHBp70qSV9LSeHEg056zXY8YfXpetOJv2L77zGKOCLI'
@@ -115,15 +115,15 @@ The following describes columns K & L of the log:
 
 **K) Total number days away from work:** If any recordable cases (for current year generated) had any Lost Time documented in the Accommodations encounter section and the accommodation is linked to the OSHA recordable case, the total number of Lost Time days will be calculated here and displays a total number.
 
-    * If Lost time is documented in the Accommodations section of an encounter that is linked to an OSHA reportable case even for a partial day, it counts as a full day in this calculated column.
-    * If Lost time is documented in the Accommodations section of an encounter that is linked to an OSHA reportable case, the start day of the lost time counts as a full day.
-    * The date of injury or onset of illness full day doesn't count as a day away from work in this calculated column if a documented lost time day started the same day.  Day of incident/case does not count as a lost time day, if the lost time started that same day.
+* If Lost time is documented in the Accommodations section of an encounter that is linked to an OSHA reportable case even for a partial day, it counts as a full day in this calculated column.
+* If Lost time is documented in the Accommodations section of an encounter that is linked to an OSHA reportable case, the start day of the lost time counts as a full day.
+* The date of injury or onset of illness full day doesn't count as a day away from work in this calculated column if a documented lost time day started the same day.  Day of incident/case does not count as a lost time day, if the lost time started that same day.
 
 **L) Total number of days of job transfer or restriction:** If any recordable cases (for current year generated) had any Restrictions documented in the restrictions section of the encounter that is linked to the OSHA recordable case, the total number of Restricted days will be calculated here and displays as a total number.
 
-    * Overlapping restriction days are only counted once.
-    * The calculation in this column does not include future days.
-    * The calculation looks at the restriction start date & time and the end date & time and makes the calculation for this column.  A full day is counted as a start day and the end day being a day apart.
+* Overlapping restriction days are only counted once.
+* The calculation in this column does not include future days.
+* The calculation looks at the restriction start date & time and the end date & time and makes the calculation for this column.  A full day is counted as a start day and the end day being a day apart.
 
 ## Injury and Illness Types section - OSHA 300A Form log
 
