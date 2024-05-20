@@ -1,8 +1,9 @@
 ---
 id: '1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
 title: 'Colors'
-date: '2020-02-27T19:32:06.134Z'
-version: 117
+date: '2024-05-20T14:43:09.540Z'
+version: 124
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
@@ -280,6 +281,6 @@ For details on every specific item to change color for (where/what will change i
 <tr>
 <td>QuickNav Font Color</td>
 <td>Font for links at top, like MyTasks, DocQueue, etc.</td>
-<td><img src="../colors.assets/10abc7f3e8bf777bd92dfe3cfcdf161e.png" />!Images^components_system_configuration_general_configuration_colors_media_83.png!The numbers in () parenthesis for E-Sign and My Tasks are hard-coded and can only be changed by MIE.</td>
+<td><img src="../colors.assets/10abc7f3e8bf777bd92dfe3cfcdf161e.png" />The numbers in () parenthesis for E-Sign and My Tasks are hard-coded and can only be changed by MIE.</td>
 </tr>
 </table>
