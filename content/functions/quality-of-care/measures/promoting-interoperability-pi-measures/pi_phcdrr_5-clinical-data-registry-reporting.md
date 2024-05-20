@@ -1,8 +1,8 @@
 ---
 id: '1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
 title: 'PI_PHCDRR_5 -- Clinical Data Registry Reporting'
-date: '2024-05-20T17:09:17.329Z'
-version: 32
+date: '2024-05-20T18:24:53.622Z'
+version: 36
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -31,11 +31,11 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 The following measures are included in the Public Health and Clinical Data Exchange objective:
 
-    * Immunization Registry Reporting
-    * Electronic Case Reporting
-    * Public Health Registry Reporting
-    * Clinical Data Registry Reporting
-    * Syndromic Surveillance Reporting.
+* Immunization Registry Reporting
+* Electronic Case Reporting
+* Public Health Registry Reporting
+* Clinical Data Registry Reporting
+* Syndromic Surveillance Reporting.
 
 {{% /note %}}
 
