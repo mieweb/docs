@@ -1,8 +1,8 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2024-05-20T14:36:45.551Z'
-version: 241
+date: '2024-05-20T14:53:20.743Z'
+version: 244
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -103,14 +103,14 @@ If you select any default view that allows you to tag document types to it, you 
 
 {{% /note %}}
 
-    * <strong>Inclusive</strong>: Begin typing the names of the document(s) you want included in this Chart Tab. It will auto-complete to give you choices. Click the ADD button to add it and type in another document to add to the chart tab. You can have as many documents added to a chart tab as you want. You can hit your down arrow ↓ key on your keyboard in this field to show the entire listing of document types in your system alphabetically and use the scroll to select and ADD individually that way with your mouse instead of the auto-complete. Or do a reverse document type add to a chart tab instead by selecting Exclusive.
+* <strong>Inclusive</strong>: Begin typing the names of the document(s) you want included in this Chart Tab. It will auto-complete to give you choices. Click the ADD button to add it and type in another document to add to the chart tab. You can have as many documents added to a chart tab as you want. You can hit your down arrow ↓ key on your keyboard in this field to show the entire listing of document types in your system alphabetically and use the scroll to select and ADD individually that way with your mouse instead of the auto-complete. Or do a reverse document type add to a chart tab instead by selecting Exclusive.
 
 ![](../chart-tabs.assets/36f3a80b48c600d74279d02b63498e10.png)
 
 ![](../chart-tabs.assets/a09957f4b10305be035e29b31674009f.png)
 
-    * <strong>Exclusive</strong>: This chart-tab will include every document type in your system, except for the ones you type in using the auto-complete. Click the ADD button to add any document types to exclude from this chart tab. Only the document(s) you don't want included in the chart tab should be added here if you choose exclusive.
-    * <strong>Inactive</strong>: This is a list of document types that a super-user has deemed inactive.  You can also click to add these documents to your chart-tab, but these are old and not being used as this ‘doc type name' any longer.  These appear in italics and when choosing them from the auto-complete they say (INACTIVE) next to them.
+* <strong>Exclusive</strong>: This chart-tab will include every document type in your system, except for the ones you type in using the auto-complete. Click the ADD button to add any document types to exclude from this chart tab. Only the document(s) you don't want included in the chart tab should be added here if you choose exclusive.
+* <strong>Inactive</strong>: This is a list of document types that a super-user has deemed inactive.  You can also click to add these documents to your chart-tab, but these are old and not being used as this ‘doc type name' any longer.  These appear in italics and when choosing them from the auto-complete they say (INACTIVE) next to them.
 * <strong>Tab Order</strong>: Demo (demographics tab) is always zero (0).  Then when adding a chart-tab, use the drop-down to choose the order you wish the chart tab to appear in e-chart for patient's.  Usually skip 5 and put the next type in. That way, if you wish later to add a chart-tab and want it to show up as the 3rd tab, then you can go in easily and create it and mark it 3rd, since there are 5 in between each chart-tab.
 * <strong>Background Color</strong>:  Choose the background color for the chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to grey.
 * <strong>Font Color</strong>:  Choose the color of font you wish to have on that chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to black.
