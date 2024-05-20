@@ -1,8 +1,8 @@
 ---
 id: '1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
 title: 'CMS 50 - Closing the Referral Loop: Receipt of Specialist Report'
-date: '2024-05-20T18:33:03.000Z'
-version: 115
+date: '2024-05-20T18:34:17.291Z'
+version: 116
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
