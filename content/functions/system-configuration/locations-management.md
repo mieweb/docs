@@ -1,8 +1,8 @@
 ---
 id: '1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
 title: 'Locations Management'
-date: '2024-03-20T18:53:58.389Z'
-version: 171
+date: '2024-05-20T15:46:58.931Z'
+version: 177
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -53,22 +53,22 @@ Additional locations can be added after the primary location has been edited and
 To **add** a new location to the  {{% system-name %}}  solution:
 
 1. While under the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) tab, click the [Add Location](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager&opp=Add) link in the upper-right of the screen. The Add Location screen will open and all of the fields can be updated, accordingly.
-    1. <strong>Code</strong> - This is a required field used for a brief or abbreviated code for specific locations. The code can be up to 10 characters long and must be unique.
-    2. <strong>Description</strong> - Full name of location.
-    3. <strong>Place of Service</strong> - Autocomplete field which provides the type of location being referenced. Begin typing or press the down arrow key to access entry options. Tab to the next field or click the preferred choice to accept the selection.
-    4. <strong>Address1</strong> - The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-    5. <strong>Address2</strong> - The secondary elements of the location address (e.g., suite, unit, building, floor, etc.).
-    6. <strong>City</strong> - The full city name of the location.
-    7. <strong>State/Province</strong> - A drop-down of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
-    8. <strong>Postal Code</strong> - Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
-    9. <strong>Country</strong> - Field defaults to <em>United States</em>; however, other countries are available for selection.
-    10. <strong>Time Zone</strong> - Field defaults to <em>Use System Time Zone</em>; however, if different, the appropriate specific time zone can be selected from the drop-down.
-    11. <strong>Phone Number</strong> - Enter the full phone number, including any international access code, country calling code, area code, or exit code.
-    12. <strong>Fax Number</strong> - Enter full fax number, including any international access code, country calling code, area code, or exit code.
-        1. <strong>Use in FAX header</strong> - By default, it is set to <em>No</em>. Select <strong>Yes</strong> or <strong>No</strong>. Set this option to Yes, if the location has a specified fax number and all outgoing faxes from users using this default location are to display the location's fax number (versus the  {{% system-name %}} solution's primary fax number) as <em>Sent From</em> on all outgoing faxes. This will display the location's fax number in the header of the outgoing faxes sent by users who are set to this default location. Set this option to No, if the location does not have a fax number, or if faxes from users who are set to this default location are not to show the location's specified fax number (but rather the  {{% system-name %}} solution's primary fax number) on all outgoing faxes. This setting will display the  {{% system-name %}} solution's primary fax number on all faxes sent by users using this location.
-    13. <strong>Account Number</strong> -  {{% sys-name %}} will provide this field, if necessary. For example, orders interfaces often require an account number associated with all transactions, to effectively send and/or receive results. If a practice is set up with an orders interface with a specific facility (e.g., LabCorp, Quest, etc.), the facility account number associated with that location must be entered in the location's details. When sending the order electronically the account number for the location will send with it.
-    14. <strong>Outside Location</strong> - Field defaults to <em>No</em>, meaning the location being created/edited is internal, that is not an outside, or external, location. Setting this field to <em>Yes</em> will, however, treat the entry as an external location. Internal, or inside, locations are places at which resources perform services, or for which the organization schedules appointments and creates documents. Conversely, an external, or outside, location is one that a resource may send a patient to or receive results from.
-    15. <strong>Active</strong> - Field defaults to <em>Yes</em>, meaning the location being entered is an active location. Only locations no longer being used should ever be marked as <em>No</em>, or as inactive. An alternative method for deactivating a location is by way of the <strong>De-Activate</strong> link in the Options column on the Locations Manager main screen. Deactivated locations will not appear in any  {{% system-name %}} module requiring a location selection.
+* <strong>Code</strong> - This is a required field used for a brief or abbreviated code for specific locations. The code can be up to 10 characters long and must be unique.
+* <strong>Description</strong> - Full name of location.
+* <strong>Place of Service</strong> - Autocomplete field which provides the type of location being referenced. Begin typing or press the down arrow key to access entry options. Tab to the next field or click the preferred choice to accept the selection.
+* <strong>Address1</strong> - The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
+* <strong>Address2</strong> - The secondary elements of the location address (e.g., suite, unit, building, floor, etc.).
+* <strong>City</strong> - The full city name of the location.
+* <strong>State/Province</strong> - A drop-down of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
+* <strong>Postal Code</strong> - Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
+* <strong>Country</strong> - Field defaults to <em>United States</em>; however, other countries are available for selection.
+* <strong>Time Zone</strong> - Field defaults to <em>Use System Time Zone</em>; however, if different, the appropriate specific time zone can be selected from the drop-down.
+* <strong>Phone Number</strong> - Enter the full phone number, including any international access code, country calling code, area code, or exit code.
+* <strong>Fax Number</strong> - Enter full fax number, including any international access code, country calling code, area code, or exit code.
+    * <strong>Use in FAX header</strong> - By default, it is set to <em>No</em>. Select <strong>Yes</strong> or <strong>No</strong>. Set this option to Yes, if the location has a specified fax number and all outgoing faxes from users using this default location are to display the location's fax number (versus the  {{% system-name %}} solution's primary fax number) as <em>Sent From</em> on all outgoing faxes. This will display the location's fax number in the header of the outgoing faxes sent by users who are set to this default location. Set this option to No, if the location does not have a fax number, or if faxes from users who are set to this default location are not to show the location's specified fax number (but rather the  {{% system-name %}} solution's primary fax number) on all outgoing faxes. This setting will display the  {{% system-name %}} solution's primary fax number on all faxes sent by users using this location.
+* <strong>Account Number</strong> -  {{% sys-name %}} will provide this field, if necessary. For example, orders interfaces often require an account number associated with all transactions, to effectively send and/or receive results. If a practice is set up with an orders interface with a specific facility (e.g., LabCorp, Quest, etc.), the facility account number associated with that location must be entered in the location's details. When sending the order electronically the account number for the location will send with it.
+* <strong>Outside Location</strong> - Field defaults to <em>No</em>, meaning the location being created/edited is internal, that is not an outside, or external, location. Setting this field to <em>Yes</em> will, however, treat the entry as an external location. Internal, or inside, locations are places at which resources perform services, or for which the organization schedules appointments and creates documents. Conversely, an external, or outside, location is one that a resource may send a patient to or receive results from.
+* <strong>Active</strong> - Field defaults to <em>Yes</em>, meaning the location being entered is an active location. Only locations no longer being used should ever be marked as <em>No</em>, or as inactive. An alternative method for deactivating a location is by way of the <strong>De-Activate</strong> link in the Options column on the Locations Manager main screen. Deactivated locations will not appear in any  {{% system-name %}} module requiring a location selection.
 
 Once all fields have been provided for, as necessary, click the **Save** button to submit the location to the system. A confirmation message will display at the top of the page.
 
@@ -172,9 +172,9 @@ To add or manage work sites that are understood and used within the organization
 1. Click the [Work Site Manager](https://system/?f=admin&s=work_locations&opp=work_sites&tabmodule=admin&tabselect=Work+Locations) link, and a listing of current and active work sites will display.
 2. To view the inactive work sites, simply click the [Show Inactive](https://system/?f=admin&s=work_locations&opp=work_sites&work_sites_show_active=1) link in the top left of the screen.
 3. To add a new work site, provide the following:
-    1. <strong>Name</strong> - The supervising site name, as it is understood by the organization.
-    2. <strong>Work Region</strong> - These drop-down entries pull from the entered work regions. Select the appropriate region from the drop-down.
-    3. <strong>Responsible User</strong> - Begin typing, and select the individual responsible for the work site. This field is optional.
+* <strong>Name</strong> - The supervising site name, as it is understood by the organization.
+* <strong>Work Region</strong> - These drop-down entries pull from the entered work regions. Select the appropriate region from the drop-down.
+* <strong>Responsible User</strong> - Begin typing, and select the individual responsible for the work site. This field is optional.
 4. Set as <em>active</em> or <em>inactive</em> by clicking the checkbox, as appropriate.
 5. Click the <strong>Add</strong> button.
 6. After all edits and additions have been made, click the <strong>Submit</strong> button.
@@ -186,9 +186,9 @@ To add or manage work locations that are understood and used within the organiza
 1. Click the Work Location Manager link, and a listing of current and active work locations will display.
 2. To view the inactive work sites, simply click the Show Inactive link in the top left of the screen.
 3. To add a new work location, provide the following:
-    1. <strong>Location</strong> - The location name, as it is understood by the organization.
-    2. <strong>Work Site</strong> - These drop-down entries pull from the entered work sites. Select the appropriate supervising site from the drop-down.
-    3. <strong>Responsible User</strong> - Begin typing, and select the individual responsible for the work site. This field is optional.
+* <strong>Location</strong> - The location name, as it is understood by the organization.
+* <strong>Work Site</strong> - These drop-down entries pull from the entered work sites. Select the appropriate supervising site from the drop-down.
+* <strong>Responsible User</strong> - Begin typing, and select the individual responsible for the work site. This field is optional.
 4. Set as <em>active</em> or <em>inactive</em> by clicking the checkbox, as appropriate.
 5. Click the <strong>Add</strong> button.
 6. After all edits and additions have been made, click the <strong>Submit</strong> button.
