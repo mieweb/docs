@@ -1,9 +1,9 @@
 ---
 id: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
 title: 'Create File for Submission'
-date: '2022-08-30T23:05:44.234Z'
-version: 32
-lastAuthor: 'wreiske'
+date: '2024-05-20T17:02:32.271Z'
+version: 37
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.cms.gov/'
@@ -39,10 +39,12 @@ The following instructions outline the general process for generating a file fro
 3. Go to the [Quality of Care](https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care) reports and tools.
 
     ![](../create-file-for-submission.assets/18db19fee9484382067fc4a890a6076b.png)
-4. Under <strong>Tools</strong>, select the appropriate file generator for submission. In this example, we will use [QPP JSON File Generator.](https://system/?f=layout&s=pat&module=MIPS&name=QPPJSON-Generation&t=Quality+of+Care&tabmodule=reports)  
-    {{% info %}}
-    The QPP JSON File Generator allows QPP participants the ability to generate the necessary JSON file used for submission on the [QPP portal](https://qpp.cms.gov/login).
-    {{% /info %}}
+4. Under <strong>Tools</strong>, select the appropriate file generator for submission. In this example, we will use [QPP JSON File Generator.](https://system/?f=layout&s=pat&module=MIPS&name=QPPJSON-Generation&t=Quality+of+Care&tabmodule=reports)
+
+{{% info %}}
+The QPP JSON File Generator allows QPP participants the ability to generate the necessary JSON file used for submission on the [QPP portal](https://qpp.cms.gov/login).
+{{% /info %}}
+
 5. The generator allows users to specify reporting years, select specific participants/providers, or limit individual categories from the report, as appropriate. After selecting the appropriate values, click the <strong>Download Reporting Document(s)</strong> button.  
     ![](../create-file-for-submission.assets/19d7798c4ae6265e40b9bb1f471b1640.png)
 6. When <strong>Download Reporting Document(s)</strong> is clicked, the page will automatically download the appropriate number of files, based on the number of participants specified in the file criteria. If multiple participants are selected, an individual file will be generated for each participant, appending the Provider ID to the filename.
