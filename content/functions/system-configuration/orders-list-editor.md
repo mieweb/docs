@@ -1,9 +1,9 @@
 ---
 id: '1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM'
 title: 'Orders List Editor'
-date: '2024-02-01T14:31:41.413Z'
-version: 191
-lastAuthor: 'anichols'
+date: '2024-05-20T16:35:47.255Z'
+version: 197
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM'
@@ -63,7 +63,8 @@ The Orders-List Editor shows all orders available in the system and is also wher
 ![](../orders-list-editor.assets/c8ebd4f45bd05c995059225bc7ceabe6.png)
 
 3. Fill in as many fields as applicable. <strong>Order Type and Order Name are required</strong>.
-    1. Department field is used to designate what department (in your system) should always handle this order item (lab, radiology etc)
+
+* Department field is used to designate what department (in your system) should always handle this order item (lab, radiology etc)
 4. Click<strong> Save</strong> if you are finished adding new orders, or <strong>Add Another</strong> to add additional orders. (Click <strong>Cancel</strong> if you do not want to save the order.)
 
 ![](../orders-list-editor.assets/a95f548c8421c290062881f3c4014274.png)
@@ -87,11 +88,12 @@ The Orders-List Editor shows all orders available in the system and is also wher
 ![](../orders-list-editor.assets/ea3c82d8a4903986c648c2860f467dfa.png)
 
 2. Click the Add Order Type button in the upper left and fill in the fields.
-    1. <strong>Type Name</strong> should be an abbreviation for this new order type and is usually in all capital letters.
-    2. <strong>Description</strong> should be a name to help describe what or how the order type..
-    3. <strong>Where?</strong> is the position in the Order Types list that it should be displayed in
-    4. <strong>Relative to…</strong> is dependent on what you selected in the "Where?" field. You can place this new Order type <em>"Last", "First",</em> or <em>"Before Type"</em> in the existing list.
-    5. <strong>Exclude this type from the due list?</strong> Prevents this order type from displaying on the due list.
+
+* <strong>Type Name</strong> should be an abbreviation for this new order type and is usually in all capital letters.
+* <strong>Description</strong> should be a name to help describe what or how the order type..
+* <strong>Where?</strong> is the position in the Order Types list that it should be displayed in
+* <strong>Relative to…</strong> is dependent on what you selected in the "Where?" field. You can place this new Order type <em>"Last", "First",</em> or <em>"Before Type"</em> in the existing list.
+* <strong>Exclude this type from the due list?</strong> Prevents this order type from displaying on the due list.
 
 ![](../orders-list-editor.assets/90a1e620cdc30c3c5140bcf1a5568c7d.png)
 
