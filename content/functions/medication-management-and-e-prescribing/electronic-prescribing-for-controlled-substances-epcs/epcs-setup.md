@@ -1,8 +1,8 @@
 ---
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
-date: '2024-05-17T17:08:58.355Z'
-version: 534
+date: '2024-05-20T13:57:37.017Z'
+version: 543
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -94,9 +94,9 @@ Similarly, before being able to fully utilize the prescription application, the 
 
 ![](../epcs-setup.assets/c94ad2321444b7c36ff35d8a5c5b4fb5.png)
 
-    1. <strong>Download MIE SSL App</strong> - This application should only be downloaded and installed if using the Cross-Browser E-Token Signature App.
-    2. <strong>Download IE-Only E-Token Signature App</strong> - If using an Internet Explorer (IE) browser, download and install the IE-Only signature app. There is no need to install anything else with this.
-    3. <strong>Download Cross-Browser E-Token Signature App</strong> - This application should be downloaded and installed if using an alternative web browser to IE (e.g., Chrome, Firefox, etc.). If using the Cross-Browser E-Token Signature App, be sure to also download and install the supporting MIE SSL App.
+* <strong>Download MIE SSL App</strong> - This application should only be downloaded and installed if using the Cross-Browser E-Token Signature App.
+* <strong>Download IE-Only E-Token Signature App</strong> - If using an Internet Explorer (IE) browser, download and install the IE-Only signature app. There is no need to install anything else with this.
+* <strong>Download Cross-Browser E-Token Signature App</strong> - This application should be downloaded and installed if using an alternative web browser to IE (e.g., Chrome, Firefox, etc.). If using the Cross-Browser E-Token Signature App, be sure to also download and install the supporting MIE SSL App.
 3. Download and install the application(s) to each Windows workstation being used for EPCS digital signing.
 
 ### EPCS Setup
@@ -112,27 +112,29 @@ If the prescribing clinician is new to {{% system-name %}} , click the **Add Use
 {{% /tip %}}
 
 4. Ensure these required fields are completed and up-to-date for SureScripts' verification:
-    1. <strong>First Name</strong>: Full, legal first name.
-    2. <strong>Last Name</strong>: Full, legal last name.
-    3. <strong>Suffix</strong>: If the prescriber has a suffix (e.g., Jr., Sr., IV, etc.), this field must be used. Do not place suffixes in the Last Name field. The verification will be cancelled by SureScripts.
-    4. <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-    5. <strong>Address2</strong>: The secondary elements of the location address, if any (e.g., suite, unit, building, floor, etc.).
-    6. <strong>Work Phone</strong>: Enter full work number, including area code.
-    7. <strong>Fax Number</strong>: Enter full fax number, including area code.
-    8. <strong>DEA Number</strong>: Enter a valid, 9-character DEA Registration number.
-    9. <strong>National Provider Id</strong> (<strong>NPI</strong>): Enter a valid, 10-character NPI number.
+
+* <strong>First Name</strong>: Full, legal first name.
+* <strong>Last Name</strong>: Full, legal last name.
+* <strong>Suffix</strong>: If the prescriber has a suffix (e.g., Jr., Sr., IV, etc.), this field must be used. Do not place suffixes in the Last Name field. The verification will be cancelled by SureScripts.
+* <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
+* <strong>Address2</strong>: The secondary elements of the location address, if any (e.g., suite, unit, building, floor, etc.).
+* <strong>Work Phone</strong>: Enter full work number, including area code.
+* <strong>Fax Number</strong>: Enter full fax number, including area code.
+* <strong>DEA Number</strong>: Enter a valid, 9-character DEA Registration number.
+* <strong>National Provider Id</strong> (<strong>NPI</strong>): Enter a valid, 10-character NPI number.
 
 {{% note %}}
 Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use SureScripts; however, a blank space must be entered into the DEA Number field using the space bar key. Upon submission, a reminder will be triggered about the required field. Simply acknowledge the reminder and continue to submit the page. **A valid NPI Number is still required for NPs and PAs to be certified with SureScripts**.
 {{% /note %}}
 
 5. Locate the <strong>Electronic Prescriber</strong> checkboxes. These selections are intended for prescribers, only (i.e., users holding a National Provider Identifier (NPI) number, and/or DEA Registration number, and are legally allowed to prescribe). Place a check mark in the appropriate checkboxes:
-    10. <strong>Send New Scripts</strong>: All prescribers must check this box to become certified with SureScripts, to electronically transmit prescriptions from the {{% system-name %}} system. If this box is not checked, prescriptions will be sent as individual faxes, rather than e-transmitted via SureScripts.
-    11. <strong>Receive Refill Requests</strong>: Prescribers wanting to receive e-refill requests electronically should check this box. This enables applicable pharmacies to send electronic requests for refills, which appear on the E-Refills Alert Taskbar in {{% system-name %}} . If refill requests are preferred via manual fax and/or phone calls (i.e., not electronically), leave this checkbox unchecked. Note: a prescriber can only receive refill requests through one EMR vendor, no matter how many places they work and other EMRs they use at those places.
-    12. <strong>Send Cancel Rx</strong>: Allows a ‘Cancel Prescription' button to be accessible after a prescription had been transmitted.
-    13. <strong>Receive Change Requests</strong>: The RX Change request is initiated by the pharmacy. This message is used to request a change to a new prescription. This request may be used when a pharmacy identifies a need to make a change to the original prescription.
-    14. <strong>Receive Fill Notices</strong>: This message is initiated by the pharmacy.  This message notifies the prescriber about the status of a prescription - either new, renewal or resupply. RxFill messages should be viewed by the prescriber as individual snapshots in time regarding a prescription; not a final or complete status. Ex: to notify of a dispensed script, partially dispensed script or if a script was never dispensed.
-    15. <strong>EPCS</strong>: This option must be selected to allow EPCS functionality. Only the System Administrator has access to this option. <strong>Per DEA regulations, two (2) individuals must be involved when setting or revoking EPCS privileges</strong>. Selecting the EPCS option enables the sending of electronic prescriptions for DEA Schedule II-V drugs.
+
+* <strong>Send New Scripts</strong>: All prescribers must check this box to become certified with SureScripts, to electronically transmit prescriptions from the {{% system-name %}} system. If this box is not checked, prescriptions will be sent as individual faxes, rather than e-transmitted via SureScripts.
+* <strong>Receive Refill Requests</strong>: Prescribers wanting to receive e-refill requests electronically should check this box. This enables applicable pharmacies to send electronic requests for refills, which appear on the E-Refills Alert Taskbar in {{% system-name %}} . If refill requests are preferred via manual fax and/or phone calls (i.e., not electronically), leave this checkbox unchecked. Note: a prescriber can only receive refill requests through one EMR vendor, no matter how many places they work and other EMRs they use at those places.
+* <strong>Send Cancel Rx</strong>: Allows a ‘Cancel Prescription' button to be accessible after a prescription had been transmitted.
+* <strong>Receive Change Requests</strong>: The RX Change request is initiated by the pharmacy. This message is used to request a change to a new prescription. This request may be used when a pharmacy identifies a need to make a change to the original prescription.
+* <strong>Receive Fill Notices</strong>: This message is initiated by the pharmacy.  This message notifies the prescriber about the status of a prescription - either new, renewal or resupply. RxFill messages should be viewed by the prescriber as individual snapshots in time regarding a prescription; not a final or complete status. Ex: to notify of a dispensed script, partially dispensed script or if a script was never dispensed.
+* <strong>EPCS</strong>: This option must be selected to allow EPCS functionality. Only the System Administrator has access to this option. <strong>Per DEA regulations, two (2) individuals must be involved when setting or revoking EPCS privileges</strong>. Selecting the EPCS option enables the sending of electronic prescriptions for DEA Schedule II-V drugs.
 
 {{% info %}}
 When the EPCS option is selected by the Designated Administrator, the following pop-up will display, prompting for the insertion of the two-factor authentication credential, followed by the password:
