@@ -1,8 +1,8 @@
 ---
 id: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
 title: 'Provider Quality of Care Status'
-date: '2024-05-20T16:59:38.651Z'
-version: 25
+date: '2024-05-20T16:59:43.280Z'
+version: 28
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
