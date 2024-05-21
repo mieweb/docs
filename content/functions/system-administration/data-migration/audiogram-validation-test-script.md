@@ -1,8 +1,8 @@
 ---
 id: '1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
 title: 'Audiogram Validation Test Script'
-date: '2024-05-21T14:01:48.735Z'
-version: 49
+date: '2024-05-21T15:59:24.664Z'
+version: 53
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -149,7 +149,7 @@ Must be in this date and time format: YYYY-MM-DD HH:MM:SS</td>
 
 Reference the [Audiogram Data Entry](../../document-management/documents-and-forms/audiogram-data-entry.md) online help for instructions on audiogram data entry.
 
-## Validation Instructions ([**video**](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-))
+## Validation Instructions - [**video**](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-)
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -181,15 +181,17 @@ The number in parenthesis indicates the number of items in each tab. 
     ![](../audiogram-validation-test-script.assets/b3818d187cff450d6fdcc26b4727f4bd.png)
 7. With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
     1. Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
-    2. Validate the correct location and and by whom the test was administered.  
-        {{% note %}}
-        The <em>Location</em> may be listed as the name of the legacy system (e.g., OHM), and the <em>Author/Administered By</em> may be listed as <strong>Import User</strong>.
-        {{% /note %}}
+    2. Validate the correct location and and by whom the test was administered.
+
+{{% note %}}
+The *Location* may be listed as the name of the legacy system (e.g., OHM), and the *Author/Administered By* may be listed as **Import User**.
+{{% /note %}}
+
 8. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
     1. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
     2. Contact {{% system-name %}} with the findings.
 
-## Reports ([**video**](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_))
+## Reports - [**video**](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_)
 
 The **Audiogram Report** and **Audiometric Testing** reports are particularly helpful in validating data between systems.
 
