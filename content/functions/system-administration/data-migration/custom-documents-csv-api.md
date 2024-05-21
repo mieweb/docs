@@ -1,8 +1,8 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2024-05-21T18:21:24.621Z'
-version: 80
+date: '2024-05-21T18:35:34.433Z'
+version: 82
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -207,10 +207,6 @@ SELECT * FROM storage_types;
 <td>XML</td>
 </tr>
 </table>
-```
-
-
-```
 
 2. Create a new layout. Set the module=Storage Type. Set the name to be the value from the storage_type column of the storage_types table or the number shown in comments in storage.c. For example, a Lab Request is storage type 13. To create a layout for lab requests, name=13.
 3. Add the desired HTML to the layout. To replicate the information in the default document, follow the code in the appropriate function from the stg_DetailView array. For lab requests, this function is stg_DetailViewLabReq().
@@ -262,8 +258,8 @@ WHERE doc_id=;UPDATE documents SET storage_type=
 
 You can also perform a manual insert into the documents table.
 
-3. Create a new layout. Set the module=Storage Type. Set the name to be the new storage type >= 1001.
-4. Add the desired HTML to the layout.
+1. Create a new layout. Set the module=Storage Type. Set the name to be the new storage type >= 1001.
+2. Add the desired HTML to the layout.
 
 {{% info %}}
 These documents will only be rendered with a header if a custom header layout is created with module=Storage Type Header and name is the same as the storage type layout.
