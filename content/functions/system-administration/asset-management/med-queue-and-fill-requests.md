@@ -1,9 +1,9 @@
 ---
 id: '157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
 title: 'Med Queue and Fill Requests'
-date: '2024-03-27T17:39:05.626Z'
-version: 95
-lastAuthor: 'hwilson'
+date: '2024-05-21T15:41:11.414Z'
+version: 112
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
@@ -15,8 +15,7 @@ A prescription in {{% system-name %}} must be ‘signified' to be filled in-hous
 
 The fill script date can be today, meaning staff at your practice needs to complete this medication fill today, or it can be a future date when the patient isn't going to be in until next week to pick up the medication. That gives the staff more time to complete the medication fill request.
 
-From the Allergies/Medications chart tab specific to the patient, there is also the available hyperlink of Add Fill Request to quickly submit a refill request for a medication to be dispensed through the in-house inventory (turn on system setting E-Chart: Meds: Use Fill Requests)
-
+From the Allergies/Medications chart tab specific to the patient, there is also the available hyperlink of Add Fill Request to quickly submit a refill request for a medication to be dispensed through the in-house inventory (turn on system setting E-Chart: Meds: Use Fill Requests
 ![](../med-queue-and-fill-requests.assets/9b68f1d5817434ffc256d9afe28fd2c6.png)
 
 From an encounter, the prescriber would be prescribing the medication in the Meds Plan section of the encounter and to signify an in-house Fill Request for the medication to be dispensed and filled from inventory, the prescriber needs to checkmark the **Fill** checkbox.
@@ -29,7 +28,7 @@ When a *fill script on* date is entered (via prescribe/meds chart tab) or the "f
 
 Also upon "fill" being check-marked, a task will be created to notify the specified departments that a Fill Request needs done and the request has been submitted to the Med Queue. Your MIE Implementer will ensure the task rules for Office and Phone Fill requests are set up.
 
-## ![](../med-queue-and-fill-requests.assets/4b7c218ca1d2ed60a76b50938a3ffa51.png)
+![](../med-queue-and-fill-requests.assets/4b7c218ca1d2ed60a76b50938a3ffa51.png)
 
 The fill request task will show up in your top summary taskbar also so you can see how many requests are out there to be completed more easily and can be separated by phone or in office requests.
 
