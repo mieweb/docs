@@ -1,8 +1,8 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2024-05-21T17:25:15.729Z'
-version: 76
+date: '2024-05-21T18:21:24.621Z'
+version: 80
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -24,8 +24,6 @@ A layout with module=Storage Type and name=<existing storage type> (<=27 as of 0
 1. Determine the number of the storage type for which you want to create a custom layout. This can be done by looking either in the MySQL database or at the stg_DetailView[MAX_STGTYPES] array in storage.c (approx. line 1950).
 
 To view the storage types in MySQL run the following query:
-
-{{% pre %}}
 ```
 
 
@@ -33,8 +31,6 @@ SELECT * FROM storage_types;
 
 
 ```
-{{% /pre %}}
-
 <table>
 <tr>
 <td>STORAGE_TYPE</td>
@@ -240,32 +236,22 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 ### Process
 
 1. Insert a new storage type into the storage_types table.
-
-{{% pre %}}
 ```
 
 
 <1001+>,,,);INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (
 
-
 ```
-{{% /pre %}}
 
 For example,
-
-{{% pre %}}
 ```
 
 
 INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (1001,'html','text/html','Test new storage type');
 
-
 ```
-{{% /pre %}}
 
 2. Add a new document with the new storage type you just created. This can be done by navigating to a patient's chart and clicking the Add Document link. Add a text document and copy the id. Then manually update the document with that id to have your new storage type.
-
-{{% pre %}}
 ```
 
 
@@ -273,7 +259,6 @@ WHERE doc_id=;UPDATE documents SET storage_type=
 
 
 ```
-{{% /pre %}}
 
 You can also perform a manual insert into the documents table.
 
