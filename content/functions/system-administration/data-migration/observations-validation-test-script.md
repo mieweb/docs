@@ -1,9 +1,9 @@
 ---
 id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 title: 'Observations Validation Test Script'
-date: '2020-02-28T15:30:47.082Z'
-version: 52
-lastAuthor: 'aquandt'
+date: '2024-05-21T14:05:58.712Z'
+version: 59
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing'
@@ -63,9 +63,10 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
     ![](../observations-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
-    {{% tip %}}
-    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-    2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+{{% tip %}}
+
+* Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
 
 {{% /tip %}}
 
@@ -76,32 +77,35 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
     ![](../observations-validation-test-script.assets/e423e14102b231b3461d21cee6d2e4e7.png)
 
-    {{% tip %}}
-    The number in parenthesis indicates the number of items in each tab. 
-    {{% /tip %}}
+{{% tip %}}
+The number in parenthesis indicates the number of items in each tab. 
+{{% /tip %}}
+
 5. The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.
 
     ![](../observations-validation-test-script.assets/235fe960ff2ed0d194fd447cbe4b4df6.png)
 
-    {{% tip %}}
-    6. Observation names are displayed alphabetically, by default, with all data listed <em>horizontally</em> across the page.  
-        ![](../observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png)
+{{% tip %}}
+Observation names are displayed alphabetically, by default, with all data listed *horizontally* across the page.
+![](../observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png)![](../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
 
-        ![](../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
-    1. To aid in validation and instead view data <em>vertically</em>, or with dates descending, simply click the <strong>Vertical</strong> radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
 
-        ![](../observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png)
-    2. Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
+To aid in validation and instead view data *vertically*, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
 
-        ![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
+![](../observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png)
 
+
+Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
+
+![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
 {{% /tip %}}
 
-7. With the observations displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
+6. With the observations displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
 
-    {{% note %}}
-    The date displayed will be the date the data was imported to {{% system-name %}} , <strong>NOT</strong> the date the item was recorded in the legacy system.
-    {{% /note %}}
+{{% note %}}
+The date displayed will be the date the data was imported to {{% system-name %}} , **NOT** the date the item was recorded in the legacy system.
+{{% /note %}}
+
     1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
     2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
     3. Contact {{% system-name %}} with the findings.
