@@ -1,9 +1,9 @@
 ---
 id: '1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
 title: 'Document Validation Test Script'
-date: '2020-02-27T21:33:01.890Z'
-version: 38
-lastAuthor: 'aquandt'
+date: '2024-05-21T13:46:50.899Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l'
@@ -37,9 +37,10 @@ The {{% system-name %}} system can display another system's data as documents. T
 
     ![](../document-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
-    {{% tip %}}
-    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-    2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+{{% tip %}}
+
+* Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
 
 {{% /tip %}}
 
@@ -50,16 +51,18 @@ The {{% system-name %}} system can display another system's data as documents. T
 
     ![](../document-validation-test-script.assets/674c73ec2444bbd1a0f365ba02a10a0a.png)
 
-    {{% tip %}}
-    <strong>Detail View</strong> may be better suited for validating documents. Changing views does not change views across chart tabs, but will change the respective view across different charts. Using the drop-down makes it easy to change between views and can be updated, as needed. ![](../document-validation-test-script.assets/9ec7ddee5878fb47b312fa81e02ae275.png)
-    {{% /tip %}}
+{{% tip %}}
+**Detail View** may be better suited for validating documents. Changing views does not change views across chart tabs, but will change the respective view across different charts. Using the drop-down makes it easy to change between views and can be updated, as needed. ![](../document-validation-test-script.assets/9ec7ddee5878fb47b312fa81e02ae275.png)
+{{% /tip %}}
+
 5. Select the document being validated from the list. 
 
     ![](../document-validation-test-script.assets/f8cf83dfe7a8f3f5f2e778418daaf3eb.png)
 
-    {{% tip %}}
-    To return to the list of documents, click the Documents chart tab.
-    {{% /tip %}}
+{{% tip %}}
+To return to the list of documents, click the Documents chart tab.
+{{% /tip %}}
+
 6. With the documents displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import.
     1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
     2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
