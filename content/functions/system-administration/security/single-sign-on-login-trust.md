@@ -1,9 +1,9 @@
 ---
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
-date: '2022-11-17T16:58:16.532Z'
-version: 67
-lastAuthor: 'horner'
+date: '2024-05-21T14:17:37.107Z'
+version: 75
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'
@@ -167,10 +167,12 @@ To create a login trust for SSO:
 10. Select the <strong>Use Shibboleth specific target instead of TargetResource in SAML Requests</strong> checkbox. <em>Skip this step if not a Shibboleth system.</em>
 11. Search the metadata file for <strong>IDPSSODescriptor</strong>, to find the remainder of the information necessary to populate the login trust form.
 12. Sections after the heading <strong>AttributeAuthorityDescriptor</strong>, if present, can be collapsed by clicking the chevron in front of it. All information collected for the {{% sys-name %}} login trust (aside from the domain) appears under the heading <strong>IDPSSODescriptor</strong>.
-13. In the metadata file, search for <strong>SingleSignOnService</strong>, to locate the login URL. The URL should indicate what type of SSO is used (in this case, IDP-initiated).  
-    {{% info %}}
-    There may be multiple options for <strong>SingleSignOnService</strong>. It is important to pick the correct one. In most cases, and in this example, the link that includes the HTTP-redirect is correct.
-    {{% /info %}}
+13. In the metadata file, search for <strong>SingleSignOnService</strong>, to locate the login URL. The URL should indicate what type of SSO is used (in this case, IDP-initiated).
+
+{{% info %}}
+There may be multiple options for **SingleSignOnService**. It is important to pick the correct one. In most cases, and in this example, the link that includes the HTTP-redirect is correct.
+{{% /info %}}
+
 14. Enter the URL in the <strong>Login URL</strong> field.
 15. Search the metadata file for <strong>X509Certificate</strong> to find the public key.
 16. Enter the X509 Certificate information into the <strong>Public Key</strong> field. This public key should be a long string of characters.
