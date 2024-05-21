@@ -1,8 +1,8 @@
 ---
 id: '1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI'
 title: 'Real World Testing Plan 2021'
-date: '2024-05-21T16:25:46.691Z'
-version: 258
+date: '2024-05-21T17:38:17.451Z'
+version: 264
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -23,8 +23,8 @@ links:
   - 'https://www.healthit.gov/topic/standards-version-advancement-process-svap'
   - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf'
   - 'https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf'
-  - 'https://www.w3.org/WAI/WCAG2-Conformance#level-AA'
-  - 'http://www.hl7.org/implement/standards/product_brief.cfm?product_id=385'
+  - 'https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/#level-AA'
+  - 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=385'
   - 'https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip'
   - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2021-CMS-IG-508.pdf'
   - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#cures_tp'
@@ -462,15 +462,15 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
 
-## Standards Updates - [SVAP](https://www.healthit.gov/topic/standards-version-advancement-process-svap) and USCDI
+## [Standards Updates - SVAP and USCDI](https://www.healthit.gov/topic/standards-version-advancement-process-svap)
 
 All certified criteria in WebChart EHR use the current standard or implementation specification version, and will continue conformance to that version throughout the 2022 Real World Testing period unless stated in the table below. Key current versions include the following:
 
-* [](https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf)
-* [](https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf)
-* [](https://www.w3.org/WAI/WCAG2-Conformance#level-AA)
-* [](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=385)
-* [](https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip)
+* [CMS Implementation Guide for Quality Reporting Document Architecture: Category I; Hospital Quality Reporting; Implementation Guide for 2020](https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf)
+* [CMS Implementation Guide for Quality Reporting Document Architecture: Category III; Eligible Clinicians and Eligible Professionals Programs; Implementation Guide for 2020](https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf)
+* [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/#level-AA)
+* [HL7 Implementation Guide for CDA® Release 2: National Health Care Surveys (NHCS), Release 1 - US Realm, HL7 Draft Standard for Trial Use, Volume 1 - Introductory Material, December 2014](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=385)
+* [HL7 Implementation Guide for CDA® Release 2: Consolidated CDA Templates for Clinical Notes (US Realm), Draft Standard for Trial Use, Volume 2 - Templates and Supporting Material, Release 2.1, August 2015](https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip)
 
 ### QRDA I SVAP - Planned
 
