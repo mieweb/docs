@@ -1,8 +1,8 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2024-05-21T15:38:38.352Z'
-version: 64
+date: '2024-05-21T17:25:15.729Z'
+version: 76
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -28,7 +28,9 @@ To view the storage types in MySQL run the following query:
 {{% pre %}}
 ```
 
+
 SELECT * FROM storage_types;
+
 
 ```
 {{% /pre %}}
@@ -242,7 +244,9 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 {{% pre %}}
 ```
 
+
 <1001+>,,,);INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (
+
 
 ```
 {{% /pre %}}
@@ -252,7 +256,9 @@ For example,
 {{% pre %}}
 ```
 
+
 INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (1001,'html','text/html','Test new storage type');
+
 
 ```
 {{% /pre %}}
@@ -262,7 +268,9 @@ INSERT INTO storage_types (storage_type, file_ext, content_type, description) VA
 {{% pre %}}
 ```
 
+
 WHERE doc_id=;UPDATE documents SET storage_type=
+
 
 ```
 {{% /pre %}}
