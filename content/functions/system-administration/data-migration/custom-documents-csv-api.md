@@ -1,8 +1,8 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2024-05-21T13:41:44.520Z'
-version: 55
+date: '2024-05-21T15:38:38.352Z'
+version: 64
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ A layout with module=Storage Type and name=<existing storage type> (<=27 as of 0
 
 ### Process
 
-1) Determine the number of the storage type for which you want to create a custom layout. This can be done by looking either in the MySQL database or at the stg_DetailView[MAX_STGTYPES] array in storage.c (approx. line 1950).
+1. Determine the number of the storage type for which you want to create a custom layout. This can be done by looking either in the MySQL database or at the stg_DetailView[MAX_STGTYPES] array in storage.c (approx. line 1950).
 
 To view the storage types in MySQL run the following query:
 
@@ -29,6 +29,7 @@ To view the storage types in MySQL run the following query:
 ```
 
 SELECT * FROM storage_types;
+
 ```
 {{% /pre %}}
 
@@ -213,9 +214,8 @@ SELECT * FROM storage_types;
 
 ```
 
-2) Create a new layout. Set the module=Storage Type. Set the name to be the value from the storage_type column of the storage_types table or the number shown in comments in storage.c. For example, a Lab Request is storage type 13. To create a layout for lab requests, name=13.
-
-3) Add the desired HTML to the layout. To replicate the information in the default document, follow the code in the appropriate function from the stg_DetailView array. For lab requests, this function is stg_DetailViewLabReq().
+2. Create a new layout. Set the module=Storage Type. Set the name to be the value from the storage_type column of the storage_types table or the number shown in comments in storage.c. For example, a Lab Request is storage type 13. To create a layout for lab requests, name=13.
+3. Add the desired HTML to the layout. To replicate the information in the default document, follow the code in the appropriate function from the stg_DetailView array. For lab requests, this function is stg_DetailViewLabReq().
 
 {{% info %}}
 These documents will only be rendered with a header if a custom header layout is created with module=Storage Type Header and name is the same as the storage type layout. Additionally, these layouts will override the default rendering for all documents in the system with that storage type.
@@ -237,35 +237,40 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 
 ### Process
 
-1) Insert a new storage type into the storage_types table.
+1. Insert a new storage type into the storage_types table.
+
 {{% pre %}}
 ```
 
 <1001+>,,,);INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (
+
 ```
 {{% /pre %}}
 
 For example,
+
 {{% pre %}}
 ```
 
 INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (1001,'html','text/html','Test new storage type');
+
 ```
 {{% /pre %}}
 
-2) Add a new document with the new storage type you just created. This can be done by navigating to a patient's chart and clicking the Add Document link. Add a text document and copy the id. Then manually update the document with that id to have your new storage type.
+2. Add a new document with the new storage type you just created. This can be done by navigating to a patient's chart and clicking the Add Document link. Add a text document and copy the id. Then manually update the document with that id to have your new storage type.
+
 {{% pre %}}
 ```
 
- WHERE doc_id=;UPDATE documents SET storage_type=
+WHERE doc_id=;UPDATE documents SET storage_type=
+
 ```
 {{% /pre %}}
 
 You can also perform a manual insert into the documents table.
 
-3) Create a new layout. Set the module=Storage Type. Set the name to be the new storage type >= 1001.
-
-4) Add the desired HTML to the layout.
+3. Create a new layout. Set the module=Storage Type. Set the name to be the new storage type >= 1001.
+4. Add the desired HTML to the layout.
 
 {{% info %}}
 These documents will only be rendered with a header if a custom header layout is created with module=Storage Type Header and name is the same as the storage type layout.
