@@ -1,8 +1,8 @@
 ---
 id: '1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
 title: 'Document Validation Test Script'
-date: '2024-05-21T16:06:21.508Z'
-version: 52
+date: '2024-05-21T16:57:00.565Z'
+version: 57
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -30,7 +30,7 @@ Validation may also be performed on imported scanned documents.
 
 The {{% system-name %}} system can display another system's data as documents. These documents typically contain data that is either not required to be discreet, or to be reported on, must be retrievable from specifically-named documents. All of these documents will be found under the **Documents** chart tab; however, document types (e.g., Legacy (or historic) Medications, Consents, Clinic Visits, Injury & Illness Cases, etc.) can be configured to display under specific chart tabs, as needed.
 
-## Validation Instructions - [**video**](https://drive.google.com/open?id=1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l)
+## [Validation Instructions](https://drive.google.com/open?id=1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l)
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -68,7 +68,7 @@ To return to the list of documents, click the Documents chart tab.
     2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
     3. Contact {{% system-name %}} with the findings.
 
-## Reports - [**video**](https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7)
+## [Reports](https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7)
 
 The [Super Document Search and Document Reports](../../reports/documents-report-super-document-type-search.md) are particularly helpful in validating documents.
 
