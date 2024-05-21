@@ -1,8 +1,9 @@
 ---
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
-date: '2020-02-27T21:06:51.908Z'
-version: 71
+date: '2024-05-21T14:36:52.608Z'
+version: 91
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
@@ -26,10 +27,11 @@ There are required applications that may be needed for some programs, as well as
 
     ![](../installing-mie-device-app.assets/f4cc68b416d7ca7cbbd5d20ac66bd17b.png)
 
-    {{% note %}}
-    Ensure the Device Interface portlet is available from the Quick View page. This will be used to acquire the URL of the {{% system-name %}} system.
-    ![](../installing-mie-device-app.assets/830eb79176b3a01d26cbd2b5ae15a2b1.png)
-    {{% /note %}}
+{{% note %}}
+Ensure the Device Interface portlet is available from the Quick View page. This will be used to acquire the URL of the {{% system-name %}} system.
+![](../installing-mie-device-app.assets/830eb79176b3a01d26cbd2b5ae15a2b1.png)
+{{% /note %}}
+
 6. Once installed, two new icons will appear in the system tray.
 
     ![](../installing-mie-device-app.assets/70922a4703d682fe7775dd07af9bead5.png)
