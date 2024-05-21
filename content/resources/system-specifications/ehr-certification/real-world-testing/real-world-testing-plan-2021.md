@@ -1,9 +1,9 @@
 ---
 id: '1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI'
 title: 'Real World Testing Plan 2021'
-date: '2022-11-07T16:33:17.318Z'
-version: 250
-lastAuthor: 'nrichardson'
+date: '2024-05-21T16:25:46.691Z'
+version: 258
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=1UH8ZmWU4RKQxPK48naxE60OfrYjB0CO1sOPYXD-GlSI'
@@ -462,7 +462,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
 
-## Standards Updates ([SVAP](https://www.healthit.gov/topic/standards-version-advancement-process-svap) and USCDI)
+## Standards Updates - [SVAP](https://www.healthit.gov/topic/standards-version-advancement-process-svap) and USCDI
 
 All certified criteria in WebChart EHR use the current standard or implementation specification version, and will continue conformance to that version throughout the 2022 Real World Testing period unless stated in the table below. Key current versions include the following:
 
