@@ -1,9 +1,9 @@
 ---
 id: '1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
 title: 'Audiogram Validation Test Script'
-date: '2020-02-27T21:32:53.730Z'
-version: 42
-lastAuthor: 'aquandt'
+date: '2024-05-21T14:01:48.735Z'
+version: 49
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../document-management/documents-and-forms/audiogram-data-entry.md'
@@ -156,9 +156,10 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 
     ![](../audiogram-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
-    {{% tip %}}
-    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-    2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+{{% tip %}}
+
+* Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
 
 {{% /tip %}}
 
@@ -168,9 +169,10 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 4. Select <strong>Audiogram</strong> from the Test Results chart tab.  
     ![](../audiogram-validation-test-script.assets/9a7bb8b77bad67853b399785d15be97e.png)
 
-    {{% tip %}}
-    The number in parenthesis indicates the number of items in each tab. 
-    {{% /tip %}}
+{{% tip %}}
+The number in parenthesis indicates the number of items in each tab. 
+{{% /tip %}}
+
 5. The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.
 
     ![](../audiogram-validation-test-script.assets/e1a18f959d442492081dac7e73ecccce.png)
