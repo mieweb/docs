@@ -1,9 +1,9 @@
 ---
 id: '16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
 title: 'Review Session - Scheduler'
-date: '2020-02-27T21:24:45.329Z'
-version: 50
-lastAuthor: 'aquandt'
+date: '2024-05-21T15:48:57.486Z'
+version: 55
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?func=scheduler&s=schedules'
@@ -120,10 +120,12 @@ Creating schedules is quick and easy in {{% system-name %}} systems. After creat
 2. Click on the [Schedules tab](https://system/?func=scheduler&s=schedules).
 3. Click the [Add link](https://system/?func=scheduler&s=schedules&opp=sched_edit).
 4. Fill in all of the appropriate fields.
-5. Assign specific, allowed appointment types, when applicable.  
-    {{% tip %}}
-    Leaving this field blank will allow all appointment types to be scheduled for the resource in context.
-    {{% /tip %}}
+5. Assign specific, allowed appointment types, when applicable.
+
+{{% tip %}}
+Leaving this field blank will allow all appointment types to be scheduled for the resource in context.
+{{% /tip %}}
+
 6. Set a recurrence, if necessary.
 7. Copy the schedule to additional scheduling resources, when appropriate.
 8. Upon completion, click the <strong>Save</strong> button.
