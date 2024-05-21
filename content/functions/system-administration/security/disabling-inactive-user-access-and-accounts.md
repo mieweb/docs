@@ -1,8 +1,9 @@
 ---
 id: '1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
 title: 'Disabling Inactive User Access & Accounts'
-date: '2020-02-27T20:43:05.104Z'
-version: 20
+date: '2024-05-21T14:11:54.784Z'
+version: 27
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
@@ -21,10 +22,12 @@ As such, all {{% system-name %}} systems will automatically disable any client a
 To automatically disable a client and/or user account that has been inactive for a number of days, simply utilize the **Days Inactive** system setting, which allows the number of days of inactivity to be set, according to organizational preferences, or standards.
 
 1. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin).
-2. Go to the [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) menu tab.  
-    {{% warning %}}
-    System settings can only be maintained by those users with the appropriate security access of SuperUser, or higher.
-    {{% /warning %}}
+2. Go to the [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) menu tab.
+
+{{% warning %}}
+System settings can only be maintained by those users with the appropriate security access of SuperUser, or higher.
+{{% /warning %}}
+
 3. Search for the <strong>System, Security, Days Inactive</strong> security setting. Click the <strong>Edit</strong> link of the security setting, found in the <em>Options</em> column to the right of the page.
 4. Update the <strong>Value</strong> with the preferred days of inactivity to trigger account deactivation (e.g, 5, 7, 14, etc.).
 5. Provide a <strong>Reason</strong> for the change of the security setting, and click the <strong>Change</strong> button.
