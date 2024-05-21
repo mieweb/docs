@@ -1,12 +1,12 @@
 ---
 id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 title: 'Observations Validation Test Script'
-date: '2024-05-21T15:57:48.610Z'
-version: 68
+date: '2024-05-21T16:53:47.264Z'
+version: 72
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing'
+  - 'https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view'
   - '../../e-chart/basic-initial-system-information.md'
   - '../../e-chart/detailed-searching-in-e-chart.md'
   - '../../order-and-result-management/observations-tab.md'
@@ -56,7 +56,7 @@ Some charts/records may not have all data elements, and in some circumstances, t
 </tr>
 </table>
 
-## Validation Instructions - [**video**](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing)
+## [Validation Instructions](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view)
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
