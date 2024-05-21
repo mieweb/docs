@@ -1,9 +1,9 @@
 ---
 id: '1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
 title: 'Review Session - Medication Management/Electronic Prescribing'
-date: '2020-02-27T21:25:41.678Z'
-version: 53
-lastAuthor: 'aquandt'
+date: '2024-05-21T16:18:05.338Z'
+version: 61
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager'
@@ -153,7 +153,7 @@ To create a remembered prescription:
 
 ![](../review-session-medication-management-electronic-prescribing.assets/1077ec858d2a1c8e5d09f3545a2944db.png)
 
-1. Once all fields have been entered, click the <strong>Prescribe</strong> button to submit the prescription. When the medication is finished being prescribed, that medication will be available for reuse. It will populate all all of the same data entered, originally.
+6. Once all fields have been entered, click the <strong>Prescribe</strong> button to submit the prescription. When the medication is finished being prescribed, that medication will be available for reuse. It will populate all of the same data entered, originally.
 
 #### Use a Remembered Prescription
 
@@ -203,10 +203,12 @@ Assuming the user has already been created in the system and the initial setup a
 
 1. Navigate to the [Access Control tab](https://system/?f) of the <strong>Control Panel</strong>.
 2. Search for and find the prescribing clinician needing e-prescribing privileges.
-3. Simply click the <strong>Edit</strong> link in the <em>Options</em> column.  
-    {{% info %}}
-    If the prescribing clinician is new to {{% system-name %}} , click the [Add User link](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control&opp=auser&realm), to add the user/provider to the {{% system-name %}} solution. See [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.md) for more information on adding users/providers.
-    {{% /info %}}
+3. Simply click the <strong>Edit</strong> link in the <em>Options</em> column.
+
+{{% info %}}
+If the prescribing clinician is new to {{% system-name %}} , click the [Add User link](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control&opp=auser&realm), to add the user/provider to the {{% system-name %}} solution. See [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.md) for more information on adding users/providers.
+{{% /info %}}
+
 4. Ensure these required fields are completed for SureScripts' verification:
     * <strong>First Name</strong>: Full, legal first name.
     * <strong>Last Name</strong>: Full, legal last name.
@@ -216,10 +218,12 @@ Assuming the user has already been created in the system and the initial setup a
     * <strong>Work Phone</strong>: Enter full work number, including area code.
     * <strong>Fax Number</strong>: Enter full fax number, including area code.
     * <strong>DEA Number</strong>: Enter a valid, 9-character DEA Registration number.
-    * <strong>National Provider Id</strong> (<strong>NPI</strong>): Enter a valid, 10-character NPI number.  
-        {{% info %}}
-        Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use SureScripts; however, a blank space must be entered into the DEA Number field using the space bar key. Upon submission, a reminder will be triggered about the required field. Simply acknowledge the reminder and continue to submit the page. <strong>A valid NPI Number is still required for NPs and PAs to be certified with SureScripts</strong>.
-        {{% /info %}}
+    * <strong>National Provider Id</strong> (<strong>NPI</strong>): Enter a valid, 10-character NPI number.
+
+{{% info %}}
+Nurse Practitioners (NPs) and Physician Assistants (PAs) may be signed up to use SureScripts; however, a blank space must be entered into the DEA Number field using the space bar key. Upon submission, a reminder will be triggered about the required field. Simply acknowledge the reminder and continue to submit the page. **A valid NPI Number is still required for NPs and PAs to be certified with SureScripts**.
+{{% /info %}}
+
 5. Locate the <strong>Electronic Prescriber</strong> checkboxes. These selections are intended for prescribers, only (i.e., users holding a National Provider Identifier (NPI) number, and/or DEA Registration number, and are legally allowed to prescribe). Place a check mark in the appropriate checkboxes:
     * <strong>Send New Scripts</strong>: All prescribers must check this box to become certified with SureScripts, to electronically transmit prescriptions from the  {{% system-name %}} . If this box is not checked, prescriptions will be sent as individual faxes, rather than e-transmitted via SureScripts.
     * <strong>Receive Refill Requests</strong>: Prescribers wanting to receive e-refill requests electronically should check this box. This enables applicable pharmacies to send electronic requests for refills, which appear on the E-Refills Alert Taskbar in  {{% system-name %}} . If refill requests are preferred via manual fax and/or phone calls (i.e., not electronically), leave this checkbox unchecked.
