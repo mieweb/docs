@@ -1,8 +1,8 @@
 ---
 id: '1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
 title: 'Audiogram Validation Test Script'
-date: '2024-05-21T15:59:51.759Z'
-version: 56
+date: '2024-05-21T16:55:37.702Z'
+version: 61
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -149,7 +149,7 @@ Must be in this date and time format: YYYY-MM-DD HH:MM:SS</td>
 
 Reference the [Audiogram Data Entry](../../document-management/documents-and-forms/audiogram-data-entry.md) online help for instructions on audiogram data entry.
 
-## Validation Instructions - [**video**](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-)
+## [Validation Instructions](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-)
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -191,7 +191,7 @@ The *Location* may be listed as the name of the legacy system (e.g., OHM), and t
     1. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
     2. Contact {{% system-name %}} with the findings.
 
-## Reports - [**video**](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_)
+## [Reports](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_)
 
 The **Audiogram Report** and **Audiometric Testing** reports are particularly helpful in validating data between systems.
 
