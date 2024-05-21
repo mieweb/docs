@@ -1,8 +1,8 @@
 ---
 id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 title: 'Observations Validation Test Script'
-date: '2024-05-21T17:30:21.490Z'
-version: 79
+date: '2024-05-21T18:18:20.348Z'
+version: 85
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -115,9 +115,9 @@ Within each chart, it is possible a [Flowsheet](../../order-and-result-managemen
 The date displayed will be the date the data was imported to {{% system-name %}} , **NOT** the date the item was recorded in the legacy system.
 {{% /note %}}
 
-    1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-    2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-    3. Contact {{% system-name %}} with the findings.
+* Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
+* Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+* Contact {{% system-name %}} with the findings.
 
 Reports ([video](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi))
 
