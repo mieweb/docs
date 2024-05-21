@@ -1,8 +1,8 @@
 ---
 id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 title: 'Observations Validation Test Script'
-date: '2024-05-21T16:54:05.149Z'
-version: 74
+date: '2024-05-21T17:30:21.490Z'
+version: 79
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -109,7 +109,7 @@ Within each chart, it is possible a [Flowsheet](../../order-and-result-managemen
 ![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
 {{% /tip %}}
 
-6. With the observations displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
+6. With the observations displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import.
 
 {{% note %}}
 The date displayed will be the date the data was imported to {{% system-name %}} , **NOT** the date the item was recorded in the legacy system.
