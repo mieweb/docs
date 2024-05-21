@@ -1,8 +1,9 @@
 ---
 id: '1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
 title: 'Patient Assistance Inventory'
-date: '2020-02-27T20:30:22.116Z'
-version: 24
+date: '2024-05-21T15:13:25.994Z'
+version: 29
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NVQbMR11ks0eU1kMlzxijhbBUKp3ljDp6aiMrhkF39s'
@@ -48,6 +49,6 @@ If you need to add inventory as donated or as general inventory, you need to do 
 
 ## View All Patient Assistance Inventory
 
-## In the sidemenu tab **_Inventory,_** go to the Show Current Inventory tab and find the hyperlink on the right side that says Show Patient Inventory. It will result and list all patient specific inventories (patient assistance meds) and details while also listing the specific patient. This is to see any and all patient assistance inventory tied to specific patients in the entire system. (See other help documentation named **_Show Inventory Tab_**).
+In the sidemenu tab *Inventory,* go to the Show Current Inventory tab and find the hyperlink on the right side that says Show Patient Inventory. It will result and list all patient specific inventories (patient assistance meds) and details while also listing the specific patient. This is to see any and all patient assistance inventory tied to specific patients in the entire system. (See other help documentation named *Show Inventory Tab*).
 
 ## ![](../patient-assistance-inventory.assets/11c9731ea800197db82a309a280f6a45.png)
