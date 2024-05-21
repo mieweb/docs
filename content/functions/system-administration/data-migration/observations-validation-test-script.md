@@ -1,8 +1,8 @@
 ---
 id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 title: 'Observations Validation Test Script'
-date: '2024-05-21T14:05:58.712Z'
-version: 59
+date: '2024-05-21T15:57:48.610Z'
+version: 68
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -56,7 +56,7 @@ Some charts/records may not have all data elements, and in some circumstances, t
 </tr>
 </table>
 
-## Validation Instructions ([**video**](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing))
+## Validation Instructions - [**video**](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view?usp=sharing)
 
 1. Log into the {{% system-name %}} system.
 2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
@@ -87,7 +87,16 @@ The number in parenthesis indicates the number of items in each tab. 
 
 {{% tip %}}
 Observation names are displayed alphabetically, by default, with all data listed *horizontally* across the page.
-![](../observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png)![](../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
+
+
+
+
+
+![](../observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png)
+
+
+
+![](../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
 
 
 To aid in validation and instead view data *vertically*, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
@@ -109,8 +118,6 @@ The date displayed will be the date the data was imported to {{% system-name %}}
     1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
     2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
     3. Contact {{% system-name %}} with the findings.
-
-{{% anchor sys="report" %}}
 
 Reports ([video](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi))
 
