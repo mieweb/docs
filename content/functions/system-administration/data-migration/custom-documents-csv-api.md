@@ -1,9 +1,9 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2023-01-11T15:14:40.654Z'
-version: 45
-lastAuthor: 'horner'
+date: '2024-05-21T13:40:16.655Z'
+version: 52
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/images/3/32/Storage_Type_13.txt'
@@ -27,6 +27,7 @@ To view the storage types in MySQL run the following query:
 
 {{% pre %}}
 ```
+
 SELECT * FROM storage_types;
 ```
 {{% /pre %}}
@@ -237,32 +238,26 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 ### Process
 
 1) Insert a new storage type into the storage_types table.
-
 {{% pre %}}
 ```
 
 <1001+>,,,);INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (
-
 ```
 {{% /pre %}}
 
 For example,
-
 {{% pre %}}
 ```
 
 INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (1001,'html','text/html','Test new storage type');
-
 ```
 {{% /pre %}}
 
 2) Add a new document with the new storage type you just created. This can be done by navigating to a patient's chart and clicking the Add Document link. Add a text document and copy the id. Then manually update the document with that id to have your new storage type.
-
 {{% pre %}}
 ```
 
  WHERE doc_id=;UPDATE documents SET storage_type=
-
 ```
 {{% /pre %}}
 
