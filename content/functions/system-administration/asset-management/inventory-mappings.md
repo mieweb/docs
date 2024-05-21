@@ -1,15 +1,15 @@
 ---
 id: '1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos'
 title: 'Inventory Mappings'
-date: '2022-08-09T16:04:42.801Z'
-version: 91
-lastAuthor: 'horner'
+date: '2024-05-21T15:22:11.466Z'
+version: 99
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-## After you have added a new inventory item into your inventory in the Master Inventory List/Control tab, you then map it in the Mappings tab.
+After you have added a new inventory item into your inventory in the Master Inventory List/Control tab, you then map it in the Mappings tab.
 
 The Mappings tab is located in the sidemenu tab named *Inventory*. It will open to the default of showing you all of the current *Inventory Mappings*.
 
@@ -75,7 +75,7 @@ The Inventory Description field is to be the Master Inventory Item of that medic
 
 Begin typing in the name of the master inventoried medication in your system that you entered in the Control Inventory (Master Inventory List) tab. Select the master inventory item name. It will auto-complete for your selection.
 
-## ![](../inventory-mappings.assets/af065080d94dc092bf8e7d1744b9344b.png)
+![](../inventory-mappings.assets/af065080d94dc092bf8e7d1744b9344b.png)
 
 Click SUBMIT button and it will say confirmation of *mapping inserted* at the top.
 
