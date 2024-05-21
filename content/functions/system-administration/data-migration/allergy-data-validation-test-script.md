@@ -1,9 +1,9 @@
 ---
 id: '1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
 title: 'Allergy Data Validation Test Script'
-date: '2020-02-27T21:32:57.175Z'
-version: 30
-lastAuthor: 'aquandt'
+date: '2024-05-21T13:59:27.147Z'
+version: 35
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../e-chart/basic-initial-system-information.md'
@@ -98,9 +98,10 @@ Options include:<br />
 
     ![](../allergy-data-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
-    {{% tip %}}
-    1. Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-    2. Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+{{% tip %}}
+
+* Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
 
 {{% /tip %}}
 
