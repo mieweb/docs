@@ -1,8 +1,8 @@
 ---
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
-date: '2024-05-21T14:17:37.107Z'
-version: 75
+date: '2024-05-21T14:17:43.397Z'
+version: 77
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
