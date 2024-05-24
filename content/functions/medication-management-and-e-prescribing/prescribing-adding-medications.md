@@ -1,9 +1,9 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2024-04-30T17:58:08.912Z'
-version: 233
-lastAuthor: 'janderson'
+date: '2024-05-24T15:54:13.462Z'
+version: 253
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
@@ -122,7 +122,7 @@ The prescribe feature is not the most favorable place to prescribe DME or suppli
 ![](../prescribing-adding-medications.assets/66a37b2eb1aa12e8aa94c86fed8a060d.png)
 
 * If you are an NP or PA, etc and your state requires you to have a supervising prescriber/physician attached to your scripts, you can set this in MY SETTINGS. Then contact your MIE Implementer to have your printed/faxed scripts programmed to show that information. If you have a supervising prescriber set for you, that information will be sent to SureScripts with all your electronic prescriptions automatically.
-* <strong>Print/Transmit:</strong> Check-mark the box if you wish to print/transmit this prescription. By default, this box can be checked, if the My Setting Prescription Print/Transmit is set to Print or Transmit. If None is selected, the checkbox will be blank by default.
+* <strong>Print/Transmit:</strong> Check-mark the box if you wish to print/transmit this prescription. By default, this box can be checked, if the My Setting Prescription Print/Transmit is set to Print or Transmit. If None is selected, the checkbox will be blank by default and the prescription will display in the Visit Orders summary/Prescribed Meds List and <strong>not</strong> display on the prescription send queue
 * <strong>Print Drug Guide:</strong> Check-mark the box if you wish to print the drug guide for this prescription. It adds it to the print/fax queue if check-marked.
 * <strong>Special Instructions for Patient Education/Med Sheet:</strong> Type in the free-text box. This <strong>will not</strong> print on the script. But, this <strong>will</strong> appear in patient's Medication History under Sig column and in Pat.Ed sheet and Med Sheet. An example of something a physician would type in here might be example: Put 1 tablet under tongue as needed for chest pain. If chest pain continues, you may repeat 2 more times. Wait 5 minutes between each dose. If chest pain still persists call 911. Anything typed in here when using the <em>Remembered Script</em> feature will also be saved with the remembered script.
 * <strong>Office Comments:</strong> This is for comments for office use only.
