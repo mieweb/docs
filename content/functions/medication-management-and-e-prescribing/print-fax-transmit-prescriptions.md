@@ -1,9 +1,9 @@
 ---
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
-date: '2024-04-30T15:56:34.412Z'
-version: 104
-lastAuthor: 'janderson'
+date: '2024-05-24T16:11:13.918Z'
+version: 122
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
@@ -16,6 +16,8 @@ Transmit will send the prescription by a SureScripts electronic transmission (if
 ## Print/Fax/Electronically Transmit Prescriptions
 
 After you click SAVE when prescribing a drug, the Medication history screen will reappear and in the middle will be a box that says **Unsent Prescriptions.**
+
+The Unsent Prescriptions queue respects how the prescription was generated and indicates how to be sent.  When prescribing from the encounter, the prescription *Transmission* method will respect the My Settings preference. If the Transmission method for the prescription was selected as "None", the prescription will display in the Visit Orders summary and Prescribed Meds List but will **not** display on this Unsent Prescriptions queue. For users that prefer to use the Allergies/Medications chart tab to prescribe, selecting the default method option of "None" will "uncheck" the Print/Transmit box.
 
 ![](../print-fax-transmit-prescriptions.assets/296576b34a9886bee980b3529240a6f7.png)
 
