@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-04-30T13:36:35.699Z'
-version: 417
-lastAuthor: 'janderson'
+date: '2024-05-24T15:39:14.504Z'
+version: 429
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
@@ -210,7 +210,7 @@ When looking at preference choices available in the drop-down:
 * Quick Add Auto Disp Indication: Choose Yes or No. If set to Yes, in the Meds tab, when clicking Quick Add it will automatically pop open the autocomplete with suggested indications when a user tabs over to the indication field. If set to No then it won't pop up automatically.
 * Drug Info Links on Med List: Choose Yes or No. Yes will make the blue-circled (i) appear next to a drug in all views/procedures. This allows access to the drug guide and information. Choose No and the (i) and access will not be available to you.
 * Prescription Doc Type:  Choose the name of the prescription that you want to set as a default for when you print/fax prescriptions for a patient. The main script is called (Standard) Script. If you have other types/layouts of scripts that MIE loaded for you, then you can choose from those too.
-* Prescription Print/Fax:  Choose Print, Fax or None. It will default to your choice when you render prescriptions.  You can always change your selection when you are in the module. This is just to set the default choice. If set to None, the prescription will display in the Visit Order summary/Prescribed Meds List and NOT display on the prescription send queue. If using the legacy Prescribe module under the Allergies/Meds chart tab, when None is selected, the checkbox for Print/Transmit will be unchecked.
+* Prescription Pr<strong>i</strong>nt/Transmit:  Choose Print, Transmit or None. It will default to your choice when you render prescriptions.  You can always change your selection when you are in the module. This is just to set the default choice. If set to None, the prescription will display in the Visit Order summary/Prescribed Meds List and NOT display on the prescription send queue. If using the legacy Prescribe module under the Allergies/Meds chart tab, when None is selected, the checkbox for Print/Transmit will be unchecked.
 * Drug Guide Printing Checkbox:  Choose Unchecked or Checked. Defaults to Unchecked. This Drug Guide Printing check-box appears in the prescribing medications module.  Unchecked will leave this box unchecked so you can choose when or if to print the drug guide each time. If you default this to checked, then it will automatically always check-mark the drug guide box to print for a prescription you prescribe.
 * Show Classes:  Choose Show or Hide. This will show or hide the Drug Classes column for each drug in the Meds module in Medication History summary for the patient.
 * Show Deleted:  Chose Show or Hide.  This will show or hide the Deleted medications in the Meds module in Medication History summary for the patient.
