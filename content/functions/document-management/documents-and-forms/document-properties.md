@@ -1,8 +1,8 @@
 ---
 id: '1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 title: 'Document Properties'
-date: '2024-03-28T19:47:31.787Z'
-version: 95
+date: '2024-05-31T16:16:15.583Z'
+version: 103
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -42,7 +42,7 @@ The following explains the various fields available in the document properties. 
 
 **Link to Orders**: This field is visible when on the *Edit Properties* screen. The field is an autocomplete, and when an order number is selected, this indicates a pending, incomplete order request is linked, or associated with the document. Using this field to link a pending order with a document will mark the pending, incomplete order as Complete, when the properties are saved. This functionality is also available when using the Add Document quick link. If a link needs to be removed, use the *Orders Linked to Document* section of the *Edit Properties* page. See [Link Document to Order](link-documents-to-order-requests.md) documentation for additional information and details.
 
-![](../document-properties.assets/6cbf79c775b61587c7dc7c9d3c0a0a0c.png)
+![](../document-properties.assets/231c5db3d74f823ad4236f20586d614a.png)
 
 **Interface**: If the document in context originates from an external interface, this field will autopopulate the name of the interface the document originated from.
 
@@ -58,9 +58,9 @@ The following explains the various fields available in the document properties. 
 
 **Subject**: The ability to add a subject to a document is a feature that is enabled by default. This field is designed for free-texted subjects, intended to assist with providing context on and searchability of multitudinous documents. To add a subject, simply click the **Add** link in the *Subject* field of the document properties. After free-texting the subject, click the **Save** button. Subjects cannot be added/edited for email documents, because email subjects are created when the email reminder is triggered from system modules. For more details, review the [Adding a Subject to Documents](adding-a-subject-to-documents.md) documentation.
 
-**Case**: Like linking a document to an order, {{% system-name %}} allows users to link cases/incidents to documents, as needed. When on the *Edit Properties* screen, an autocomplete field is available for linking a case/incident to the document in context. If the document is linked to a case/incident, it will display the date and time, as well as the case number the document is linked to. Using the down arrow (↓) in the *Case* field will display all of the existing cases within the chart in context. Link to, or edit which case the document is linked to, by selecting the appropriate one from those available. Check out more information about [Viewing Cases](../../injury-care/case-management/viewing-cases.md), if interested.
+**Case**: Like linking a document to an order, {{% system-name %}} allows users to link cases/incidents to documents, as needed. When on the *Edit Properties* screen, an autocomplete field is available for linking a case/incident to the document in context. If the document is linked to a case/incident, it will display the date and time, as well as the case number the document is linked to. Using the down arrow (↓) in the *Case* field will display all of the existing cases within the chart in context. Link to, or edit which case the document is linked to, by selecting the appropriate one from those available. To unlink a Case from a document, click the "Unlink" button, rather than simply using the spacebar to "clear out' the autocomplete field. Clearing the field and submitting the page, will not properly unlink the document from the case itself. Check out more information about [Viewing Cases](../../injury-care/case-management/viewing-cases.md), if interested.
 
-![](../document-properties.assets/377df04c55bfa68df9c03de03f35c9e2.png)
+![](../document-properties.assets/47e35d8c0dd42c379fae866795edbab7.png)
 
 **MR#**: This field displays the medical record number of the chart the document is stored within.
 
