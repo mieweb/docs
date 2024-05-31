@@ -1,9 +1,9 @@
 ---
 id: '1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
 title: 'Review Session - Portal Management'
-date: '2022-11-02T11:36:19.428Z'
-version: 278
-lastAuthor: 'bhamm'
+date: '2024-05-31T17:15:14.060Z'
+version: 296
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/learner/courseinfo/id:461'
@@ -323,7 +323,9 @@ Click the minus button to remove any message type, or click the button or *Add m
 
 **Support**
 
-### The Support module displays a list of contacts with their respective phone/fax numbers and email addresses. The Custom Module Name allows the user to rename this module to specify how it appears within the portal.Applicant Portal
+### The Support module displays a list of contacts with their respective phone/fax numbers and email addresses. The Custom Module Name allows the user to rename this module to specify how it appears within the portal.
+
+### Applicant Portal
 
 The applicant portal is a web-based platform available for screening new employees and streamlining the hiring process. The applicant portal is an optional module designed as a login terminal for increased usability. With it, employers have the ability to simplify the onboarding process and ensure all pre-employment needs are addressed early and accurately.
 
