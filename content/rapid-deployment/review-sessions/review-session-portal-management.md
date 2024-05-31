@@ -1,8 +1,8 @@
 ---
 id: '1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
 title: 'Review Session - Portal Management'
-date: '2024-05-31T17:15:14.060Z'
-version: 296
+date: '2024-05-31T17:50:38.147Z'
+version: 300
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -323,7 +323,7 @@ Click the minus button to remove any message type, or click the button or *Add m
 
 **Support**
 
-### The Support module displays a list of contacts with their respective phone/fax numbers and email addresses. The Custom Module Name allows the user to rename this module to specify how it appears within the portal.
+The Support module displays a list of contacts with their respective phone/fax numbers and email addresses. The Custom Module Name allows the user to rename this module to specify how it appears within the portal.
 
 ### Applicant Portal
 
