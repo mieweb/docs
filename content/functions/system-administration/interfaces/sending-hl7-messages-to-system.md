@@ -1,9 +1,9 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2023-12-01T19:18:21.015Z'
-version: 316
-lastAuthor: 'horner'
+date: '2024-05-31T13:47:49.894Z'
+version: 340
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'
@@ -16,7 +16,7 @@ The following document describes how to interface with MIE via an HL7 interface.
 
 {{% anchor sys="assumptions" %}}
 
-#### Assumptions___
+#### Assumptions
 
 The following assumptions have been made concerning the implementation of the interface:
 
@@ -27,7 +27,7 @@ The following assumptions have been made concerning the implementation of the in
 
 ### Interface Overview
 
-___In order to process the data successfully, the following items must be supplied/completed:
+In order to process the data successfully, the following items must be supplied/completed:
 
 * External system(s) must furnish IP address(s) that will be used for connectivity.
 * Interface system parameters must be setup in order to direct the interface on how to format the data for the external system.
@@ -43,7 +43,7 @@ The following describes the process as it occurs:
 
 ### Communication Flow
 
-___Communications control characters will be used for all messages sent between MIE's {{% system-name %}} system and the receiving system. The Minimal Lower Level Protocol (MLLP) is used by the TCP/IP connection, as specified by HL7 standard.
+Communications control characters will be used for all messages sent between MIE's {{% system-name %}} system and the receiving system. The Minimal Lower Level Protocol (MLLP) is used by the TCP/IP connection, as specified by HL7 standard.
 
 The control characters will consist of: 1. A single vertical tab character to indicate the start of block (Hex), 0x0B, at the beginning of the message; 2. Every segment in the HL7 message will be terminated by the termination character (hex) - 0x0D (carriage return). 3. The characters (Hex) 0x1C (FS) to indicate end of block, and termination character (hex) - 0x0D (carriage return) at the end of the message.
 
