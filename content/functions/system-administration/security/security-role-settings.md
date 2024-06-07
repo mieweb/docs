@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-05-15T11:25:07.341Z'
-version: 298
-lastAuthor: 'anichols'
+date: '2024-06-07T15:54:48.022Z'
+version: 312
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -349,6 +349,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Read JSON API Log: Allows user to read the JSON API log
 * Configure JSON API Logging: Allows user to configure JSON API logging when a JSON API request is done with the system setting enabled and the golden ticket for additional information appears in the response dev_messages
 * View Administrator Help: Allows users to see online help content of additional information specific to Administrators within an ==Administration heading.
+* View Database Errors: Allows users to view db errors created during such activities as chart merging and unmerging. By default, this setting is set to "No". For users with the setting set to "Yes" and do not have golden ticket access, the user will be alerted as to which chart(s) encountered the error and to contact Technical Support. For users with the setting set to  "Yes" and also has golden ticket access, the user will be able to see detailed database errors after a query fails. Please contact Technical Support with a screenshot of the error and copy/paste the error for assistance in troubleshooting.
 
 ### Scheduler
 
