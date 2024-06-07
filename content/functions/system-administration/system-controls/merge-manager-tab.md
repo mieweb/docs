@@ -1,9 +1,9 @@
 ---
 id: '1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
 title: 'Merge Manager Tab'
-date: '2023-08-18T15:45:58.845Z'
-version: 205
-lastAuthor: 'anichols'
+date: '2024-06-07T17:07:23.602Z'
+version: 225
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../document-management/documents-and-forms/document-properties.md'
@@ -107,6 +107,18 @@ If you get this alert, please call our helpdesk for further assistance.  Typical
 Our helpdesk can assist you on where to fix contact relationships on the chart that's being attempted to unmerge from another, then to unmerge successfully, then to fix contact relationships on both unmerged charts.  Make sure to add all the relationships back to both charts. Typically (but please check with our help desk when getting this failure) you would have 1 Portal User relationship, 1 Self relationship, Supervisor relationship(s), and EO/Company relationship, however not all systems are set up the same for relationship needs.  Please contact our helpdesk if receive this failure message when trying to unmerge.
 
 ![](../merge-manager-tab.assets/b3756072c96ff8f5483b08f5cb8d27bf.png)
+
+A new security role setting called "View Database Errors" will be available in the next db release (estimated 202409). This setting will allow users to view db errors created during such activities as chart merging and unmerging. This security setting will be available for clients as they upgrade and set to "No" by default. For users with the setting set to "Yes" and do not have golden ticket access, the user will be alerted as to which chart(s) encountered the error and to contact Technical Support. For users with the setting set to  "Yes" and also has golden ticket access, the user will be able to see detailed database errors after a query fails.  Please contact Technical Support with a screenshot of the error and copy/paste the error for assistance in troubleshooting. New databases created on the 202409 release will have the system setting set to "Yes" for the Superuser security role only.
+
+![](../merge-manager-tab.assets/b0e219ee211f13308184ead8d5a88e59.png)
+
+View for users with the setting set to "Yes" and do not have golden ticket access:
+
+![](../merge-manager-tab.assets/95c45715973afda6bdb01b5190878008.png)
+
+View for users with the setting set to  "Yes" and also has golden ticket access:
+
+![](../merge-manager-tab.assets/52308aa97a97bbe215257740834d1e01.png)
 
 ## Status
 
