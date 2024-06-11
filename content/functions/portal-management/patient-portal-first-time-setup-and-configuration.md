@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2024-05-17T15:44:54.553Z'
-version: 581
+date: '2024-06-11T17:45:28.237Z'
+version: 596
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -265,7 +265,7 @@ By default, if the Lab Result document is added to Message Center chart tab, ALL
 Email notifications will be sent when new documents are available to view in either the Message Center or My Medical Information chart tab.  The following 3 items need to be in place in order for the email notifications to work properly:
 
 * Pat Portal Notification Layout- this should be included in databases by default.  The layout should be reviewed to ensure that both the Message Center and The My Medical Information chart tabs are accounted for in this layout.
-* PortalMessageNotification System report- this should be included in databases by default.
+* PortalMessageNotificationEmail System Report- this should be included in databases by default.
 * Scheduled Job- this is not included in databases by default and will need to be added if it doesn't exist.  When creating the scheduled job, the type is Perform Report, select the system report name of PortalMessageNotification and set the recurrence.
 
 Click the **Next** button to save and close the section, and proceed to the **Select Modules** section.
