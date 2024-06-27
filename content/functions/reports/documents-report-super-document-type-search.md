@@ -1,9 +1,9 @@
 ---
 id: '1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 title: 'Documents Report / Super Document Type Search'
-date: '2024-03-13T13:41:40.840Z'
-version: 110
-lastAuthor: 'janderson'
+date: '2024-06-27T16:20:23.679Z'
+version: 124
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
@@ -19,14 +19,16 @@ Click *Document Reports* tab from the top tab menu.
 
 You do not have to fill out every single field. These fields are different ways to find a document and each field gets more specific and narrows your search down.
 
-![](../documents-report-super-document-type-search.assets/80523576d36cfefc7e02c688ed3a6671.png)
+![](../documents-report-super-document-type-search.assets/1e29b38efa4fcc8d21261e55eb02082e.png)
 
 * <strong>Doc ID:</strong> Enter the specific document ID number. Each document that is indexed, uploaded, etc into a patient's chart has a specific document ID number. You would use this field if you had a doc.id number and had no idea which patient it belonged to or if it was in the system, etc.
 
 ![](../documents-report-super-document-type-search.assets/fe0659cf238ff17659bc09def1dab1ad.png)
 
 * <strong>Doc Type:</strong> Click on this field and the doc.type selection will open up. You can check-mark any document type you wish to search by. You can choose one or multiple. Check-mark as many as you wish to show results for. You can also use the Select All or Un-Select All which will perform those check-marks in mass.
-* <strong>Storage Type:</strong> Click on this field and check-mark as many storage types to narrow down your results by if looking for a document with those qualifications.
+* <strong>Order Request ID:</strong> External ID is often used in data migrations. It is a unique identifier from the source system and is frequently used to locate a document reported as missing or mis-formatted, etc. It is not a commonly used field but is helpful particularly for migration troubleshooting.
+* <strong>Ext ID:</strong> Another use of External ID is in HL7 lab results. This field is regularly used to display the sending lab's or other EMR's MRN or identifier. It is useful when tracking down a missing or perceived missing result document/message, as the Lab uses this number to identify who the result is for.
+* <strong>Storage Type:</strong> Click on this field and check-mark as many storage types to narrow down your results by looking for a document with those qualifications.
 * <strong>Patient Name:</strong> You can run the report to filter the found documents by a specific patient. Simply enter the patient's <em>last</em> name and it will give you auto-complete choices. You can also click the icon for help to enter a different method of searching for a specific patient to enter into this field using MR#, DOB, etc.
 * <strong>Entering User</strong>: Begin typing in the first or last name of the {{% system-name %}} user, if you are looking for documents uploaded, entered or indexed in by a specific user. The username of who entered the document, not who authored it. Once you begin typing first or last name, it will give you auto-complete choices to select from (this includes deleted users).
 * <strong>Authoring User:</strong> Begin typing in the first or last name of the {{% system-name %}} user the document(s) you are looking for was authored by. The username the document is stored as <em>authored by</em>. Once you begin typing first or last name, it will give you auto-complete choices to select from (this includes deleted users).
@@ -76,7 +78,7 @@ Whatever documents you have ‘batched' will be put up in the print/fax batch qu
 
 ![](../documents-report-super-document-type-search.assets/8688694b3f40f141813c76722586bed4.png)
 
-When you print or fax multiple documents from this report—they may print a couple documents per page (especially if they are text documents). If you wish for each document to print or fax on their own separate page, then after you click the Print or Fax button, you need to checkmark the box that says *Print One Document Per Page*.
+When you print or fax multiple documents from this report—they may print a couple documents per page (especially if they are text documents). If you wish for each document to print or fax on its own separate page, then after you click the Print or Fax button, you need to checkmark the box that says *Print One Document Per Page*.
 
 If you wish them to print or fax without the {{% system-name %}} document header, you need to checkmark the box that says *Print documents without |system| document headers.*
 
@@ -100,7 +102,7 @@ The Modify Search link goes back to your original search that you entered. It ke
 
 ## Save Report Filter Templates
 
-You can "save" a document report you've run. You may run the same report monthly and instead of putting in the report search criteria fields in individually all the time, you can "save" the report filters to run again at a future time without having to manually key everything in again. You can save and access previous saved filter reports using the link options at the top: Save Filter Template and Show Saved Filters.
+You can "save" a document report you've run. You may run the same report monthly and instead of putting in the report search criteria fields individually every time, you can "save" the report filters to run again at a future time without having to manually key everything in again. You can save and access previous saved filter reports using the link options at the top: Save Filter Template and Show Saved Filters.
 
 ![](../documents-report-super-document-type-search.assets/7250c1851fb8d6a6f59214c915050c9d.png)
 
