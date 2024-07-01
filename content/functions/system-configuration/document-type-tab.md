@@ -1,8 +1,8 @@
 ---
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
-date: '2024-07-01T20:41:00.527Z'
-version: 191
+date: '2024-07-01T20:46:06.691Z'
+version: 192
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -275,6 +275,6 @@ The user will display with a strikethrough.
 
 ## Learning Management System
 
-To learn more about the Document Type tab, follow the link below to the Learning Management System course:
+To learn more about the Document Type Tab, follow the link below to the Learning Management System course:
 
 * [Documents Tab](https://mie.talentlms.com/shared/start/key:LBLIDNHR)
