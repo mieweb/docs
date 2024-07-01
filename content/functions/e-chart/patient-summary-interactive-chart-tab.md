@@ -1,10 +1,12 @@
 ---
 id: '1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk'
 title: 'Patient Summary - Interactive Chart Tab'
-date: '2020-02-27T19:47:07.178Z'
-version: 51
+date: '2024-07-01T18:52:08.236Z'
+version: 58
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LTBIDNHR'
 source: 'https://drive.google.com/open?id=1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -124,3 +126,9 @@ Click the drop-down in *Save as default* to select the specific security role yo
 Once selected the security role or system default system wide, then set the columns and checkmark which portlets to display for the users when they get into the Patient Summary tab.  Then click the SAVE button.
 
 Continue doing the same steps for another security role to set up their view of the Patient Summary tab *or* you can override and make changes to the one you just set up also by selecting the same security role you just did and edit the checkmarks and click SAVE.
+
+## Learning Management System
+
+To learn more about the Patient Summary Chart Tab, follow the link below to the Learning Management System course:
+
+* [Patient Summary Tab](https://mie.talentlms.com/shared/start/key:LTBIDNHR)
