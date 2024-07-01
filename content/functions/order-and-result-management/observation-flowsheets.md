@@ -1,8 +1,8 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2024-07-01T17:48:32.261Z'
-version: 460
+date: '2024-07-01T18:10:30.910Z'
+version: 467
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -66,7 +66,9 @@ The *New Flowsheet* screen will open.
 
 Items that share the same section label will be grouped together.
 
-#### ![](../observation-flowsheets.assets/9ed1b666c0659eb3c09b9490fc5f93c9.png)Conditional
+![](../observation-flowsheets.assets/9ed1b666c0659eb3c09b9490fc5f93c9.png)
+
+#### Conditional
 
 Javascript that determines whether or not the item should be shown.
 
@@ -74,8 +76,7 @@ Javascript that determines whether or not the item should be shown.
 * false (or [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)) - The item will not be stored and in fact wiped out if it had been answered but then changed.
 * hidden - If the script returns the string "hidden" the item will not be shown but will be calculated and stored.  If the script is just the word hidden, you don't need the quotes.
 
-####   
-Calculation
+#### Calculation
 
 JavaScript that determines the value of the item/observation. Items that should be shown to the user would be set to conditional:true.  If items should not be shown, but used and stored should be set to conditional: "hidden"
 
