@@ -1,8 +1,8 @@
 ---
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
-date: '2024-07-01T18:45:42.293Z'
-version: 113
+date: '2024-07-01T18:51:27.281Z'
+version: 117
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -69,6 +69,6 @@ When the system setting *Show preferred name on results* is enabled, the Simple 
 
 ## Learning Management System
 
-To learn more about Detailed Searching in E-Chart, follow the link below to the Learning Management System:
+To learn more about Detailed Searching in E-Chart, follow the link below to the Learning Management System course:
 
 * [Chart Search](https://mie.talentlms.com/shared/start/key:LTGIDNHR)
