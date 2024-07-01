@@ -1,11 +1,12 @@
 ---
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
-date: '2024-03-28T16:01:22.116Z'
-version: 105
+date: '2024-07-01T18:45:42.293Z'
+version: 113
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LTGIDNHR'
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -65,3 +66,9 @@ When the system setting *Show preferred name on results* is enabled, the Simple 
 ![](../detailed-searching-in-e-chart.assets/1d0354f184ccfd9fdc3fb563abb5ee36.png)
 
 ![](../detailed-searching-in-e-chart.assets/8cba6f95a29bcb0ee48e4cd0a1d20d3b.png)
+
+## Learning Management System
+
+To learn more about Detailed Searching in E-Chart, follow the link below to the Learning Management System:
+
+* [Chart Search](https://mie.talentlms.com/shared/start/key:LTGIDNHR)
