@@ -1,11 +1,12 @@
 ---
 id: '1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 title: 'Documents Report / Super Document Type Search'
-date: '2024-06-27T16:20:23.679Z'
-version: 124
-lastAuthor: 'anichols'
+date: '2024-07-01T20:52:26.514Z'
+version: 134
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -131,3 +132,9 @@ Click the saved document report template you wish to run. It will open the field
 *Personal Templates* are saved document report templates you (the logged in user) have saved & created to be in the library.
 
 *Global Templates* are saved document report templates that other users have saved & created in this library and you can access them also.
+
+## Learning Management System
+
+To learn more about Documents Report/Super Document Type Search, follow the link below to the Learning Management System course:
+
+* [Documents Tab](https://mie.talentlms.com/shared/start/key:LBLIDNHR)
