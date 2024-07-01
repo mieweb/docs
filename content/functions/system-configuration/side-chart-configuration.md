@@ -1,11 +1,12 @@
 ---
 id: '1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
 title: 'Side Chart Configuration'
-date: '2020-03-05T17:32:44.289Z'
-version: 49
-lastAuthor: ''
+date: '2024-07-01T20:28:37.028Z'
+version: 56
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LTQIDNHR'
 source: 'https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -50,3 +51,9 @@ Then create or activate a chart tab named "Side Chart". This tab will house your
 {{% note %}}
 The side chart only uses doctypes that are on chart tabs where the INCLUSIVE flag is used, NOT the Exclusive – so if your Document Summary tab uses EXCLUSIVE, do not program the Document Summary within your side chart custom configured chart tab.
 {{% /note %}}
+
+## Learning Management System
+
+To learn more about Side Chart Configuration, follow the link below to the Learning Management System course:
+
+* [Toggle Side Chart](https://mie.talentlms.com/shared/start/key:LTQIDNHR)
