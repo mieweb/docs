@@ -1,11 +1,12 @@
 ---
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
-date: '2024-01-15T17:07:45.011Z'
-version: 181
+date: '2024-07-01T20:39:11.074Z'
+version: 189
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -271,3 +272,9 @@ If you want to deny permission to a user and/or department or maybe you made a m
 The user will display with a strikethrough.
 
 ![](../document-type-tab.assets/f64c31ad84809d7105714fd07b61da0a.png)
+
+## Learning Management System
+
+To learn more about the Document Type tab, follow the link below to the Learning Management System course:
+
+* [Documents Tab](https://mie.talentlms.com/shared/start/key:LBLIDNHR)
