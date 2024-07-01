@@ -1,13 +1,14 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2022-11-02T12:53:42.362Z'
-version: 102
-lastAuthor: 'wreiske'
+date: '2024-07-01T18:38:50.221Z'
+version: 109
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../intro-to-the-system.md'
   - '../../functions/encounters/working-in-a-visit-encounter.md'
+  - 'https://mie.talentlms.com/shared/start/key:AZGHRKMF'
 source: 'https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -117,3 +118,9 @@ The following items can be seen throughout MIE systems. Here, an encounter is us
 
 * [Intro to the System](../intro-to-the-system.md)
 * [Dynamic Encounter](../../functions/encounters/working-in-a-visit-encounter.md)
+
+## Learning Management System
+
+To learn more about the System Anatomy, follow the link below to the Learning Management System:
+
+* [Basic Navigation](https://mie.talentlms.com/shared/start/key:AZGHRKMF)
