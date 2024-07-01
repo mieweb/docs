@@ -1,8 +1,8 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2024-07-01T20:32:41.044Z'
-version: 252
+date: '2024-07-01T20:34:00.365Z'
+version: 254
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
