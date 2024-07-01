@@ -1,8 +1,8 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2024-07-01T18:38:50.221Z'
-version: 109
+date: '2024-07-01T18:51:31.974Z'
+version: 112
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -121,6 +121,6 @@ The following items can be seen throughout MIE systems. Here, an encounter is us
 
 ## Learning Management System
 
-To learn more about the System Anatomy, follow the link below to the Learning Management System:
+To learn more about the System Anatomy, follow the link below to the Learning Management System course:
 
 * [Basic Navigation](https://mie.talentlms.com/shared/start/key:AZGHRKMF)
