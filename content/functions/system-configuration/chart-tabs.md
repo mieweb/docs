@@ -1,8 +1,8 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2024-07-01T20:34:00.365Z'
-version: 254
+date: '2024-07-01T20:40:01.844Z'
+version: 255
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -221,6 +221,6 @@ Any user or department who is removed from the allowed list using the [ - ] butt
 
 ## Learning Management System
 
-To learn more about Chart Tabs, follow the link below to the Learning Management System link:
+To learn more about Chart Tabs, follow the link below to the Learning Management System course:
 
 * [Chart Tab](https://mie.talentlms.com/shared/start/key:LBOIDNHR)
