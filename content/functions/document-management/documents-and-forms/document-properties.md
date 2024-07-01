@@ -1,8 +1,8 @@
 ---
 id: '1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 title: 'Document Properties'
-date: '2024-05-31T16:16:15.583Z'
-version: 103
+date: '2024-07-01T20:47:33.899Z'
+version: 113
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -13,6 +13,7 @@ links:
   - 'link-documents-to-other-documents.md'
   - '../../e-chart/alerts-errors-failures-interactive-tab.md'
   - 'delete-move-lock-documents.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
 source: 'https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -159,3 +160,9 @@ For more information, see the [Delete/Move/Lock Documents](delete-move-lock-docu
 This section shows all the fax history for the document. It will only display if there is fax history to present for the document.
 
 ![](../document-properties.assets/294cb245474c6a1906ef1817d3d32964.png)
+
+## Learning Management System
+
+To learn more about Document Properties, follow the link below to the Learning Management System course:
+
+* [Documents Tab ](https://mie.talentlms.com/shared/start/key:LBLIDNHR)
