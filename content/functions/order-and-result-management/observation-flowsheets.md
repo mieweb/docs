@@ -1,8 +1,8 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2024-03-21T14:24:39.005Z'
-version: 442
+date: '2024-07-01T17:48:32.261Z'
+version: 460
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -62,13 +62,11 @@ The *New Flowsheet* screen will open.
 
 * Simply click the edit (pencil) icon on the specific observation item within the flowsheet to edit the description. The edit fields for <em>section, conditional and calculation</em> are mainly used by MIE to program specific custom criteria. Click the <em>save</em> button when done editing the description. The ‘description' is what end users will see in the field to key data in when working in an encounter, so use terminology that is recognized to them & your practice.
 
-![](../observation-flowsheets.assets/9ed1b666c0659eb3c09b9490fc5f93c9.png)
-
 #### Section
 
 Items that share the same section label will be grouped together.
 
-#### Conditional
+#### ![](../observation-flowsheets.assets/9ed1b666c0659eb3c09b9490fc5f93c9.png)Conditional
 
 Javascript that determines whether or not the item should be shown.
 
