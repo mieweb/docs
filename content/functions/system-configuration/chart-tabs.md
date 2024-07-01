@@ -1,12 +1,13 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2024-05-20T14:53:30.192Z'
-version: 246
+date: '2024-07-01T20:32:41.044Z'
+version: 252
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
+  - 'https://mie.talentlms.com/shared/start/key:LBOIDNHR'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -217,3 +218,9 @@ Another quick way to change a user or departments permission level to NO (when t
 Any user or department who is removed from the allowed list using the [ - ] button is simply removed from the allowed list and is automatically changed to permission level NO in the background of the system once the SAVE button is performed.
 
 ![](../chart-tabs.assets/9906654476e74755381fbc10dff2fd4e.png)
+
+## Learning Management System
+
+To learn more about Chart Tabs, follow the link below to the Learning Management System link:
+
+* [Chart Tab](https://mie.talentlms.com/shared/start/key:LBOIDNHR)
