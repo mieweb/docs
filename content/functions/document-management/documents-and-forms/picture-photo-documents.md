@@ -1,13 +1,14 @@
 ---
 id: '1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
 title: 'Picture-Photo Documents'
-date: '2020-03-05T20:49:06.831Z'
-version: 71
-lastAuthor: ''
+date: '2024-07-02T16:32:12.572Z'
+version: 80
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -96,3 +97,9 @@ With some computers, upon uploading photos, a pop-up message may display asking 
 Any uploaded photos will appear as stored documents in the respective chart. Each photo will be a separate document with the date of service specified, even though multiple photos may have been uploaded within the same session.
 
 ![](../picture-photo-documents.assets/a8d2ea860c40a8bb8a3a4d3cfb9176a0.png)
+
+## Learning Management System
+
+To learn more about Picture-Photo Documents, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
