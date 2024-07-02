@@ -1,12 +1,13 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2024-05-20T13:18:55.029Z'
-version: 177
+date: '2024-07-02T18:29:36.339Z'
+version: 184
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
 source: 'https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -239,3 +240,9 @@ The Fast Tasks taab is also only accessible if the user has security permission.
 ![](../task-list.assets/3c7827d2ee69fbb49c925939bda96787.png)
 
 Permitted users can add and create a new fast task template into the system here. Fast task templates can also be edited or deleted from her if have security permission. See other documentation titled [Fast Task Templates](fast-task-templates.md).
+
+## Learning Management System
+
+To learn more about the Task List, follow the link below to the Learning Management System course:
+
+* [Tasking](https://mie.talentlms.com/shared/start/key:AOEHRKMF)
