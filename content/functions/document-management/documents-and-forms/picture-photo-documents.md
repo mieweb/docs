@@ -1,14 +1,15 @@
 ---
 id: '1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
 title: 'Picture-Photo Documents'
-date: '2024-07-02T16:32:12.572Z'
-version: 80
+date: '2024-07-02T16:54:03.025Z'
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:LBEIDNHR'
 source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -100,6 +101,7 @@ Any uploaded photos will appear as stored documents in the respective chart. Eac
 
 ## Learning Management System
 
-To learn more about Picture-Photo Documents, follow the link below to the Learning Management System course:
+To learn more about Picture-Photo Documents, follow the links below to the Learning Management System courses:
 
 * [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+* [Photo Capture](https://mie.talentlms.com/shared/start/key:LBEIDNHR)
