@@ -1,8 +1,8 @@
 ---
 id: '1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
 title: 'Form Documents'
-date: '2024-05-15T14:46:29.587Z'
-version: 214
+date: '2024-07-02T16:47:41.863Z'
+version: 230
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -13,6 +13,7 @@ links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
   - '../scanning-and-indexing/scanning.md'
   - '../scanning-and-indexing/indexing.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -141,3 +142,9 @@ Items uploaded successfully will display in green and display a link to the docu
 Unsuccessfully uploaded documents will display in red and indicate a failure reason.
 
 ![](../form-documents.assets/31b1cd787f48a93ec6c16fc7e74379c9.png)
+
+## Learning Management System
+
+To learn more about Form Documents, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
