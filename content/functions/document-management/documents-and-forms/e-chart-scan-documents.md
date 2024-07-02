@@ -1,11 +1,12 @@
 ---
 id: '1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 title: 'E-Chart Scan Documents'
-date: '2024-01-15T12:38:40.081Z'
-version: 168
-lastAuthor: 'godlewski8'
+date: '2024-07-02T16:26:17.639Z'
+version: 176
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -113,3 +114,9 @@ The *File Upload* method from the Scan functionality only supports .TIFF file ty
 {{% /note %}}
 
 After you have chosen the .TIFF file you wish to upload, set the document properties in the portion below this screen, then click the UPLOAD SCANNED FILE button to upload the file to the chart as the document type you indicated.
+
+## Learning Management System
+
+To learn more about E-Chart Scan Documents, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
