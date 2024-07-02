@@ -1,12 +1,13 @@
 ---
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
-date: '2020-03-05T21:30:04.746Z'
-version: 50
-lastAuthor: ''
+date: '2024-07-02T16:16:08.929Z'
+version: 57
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'word-documents-cc-physicians-feature.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -65,3 +66,9 @@ If the user has a current encounter set in the chart, the **Encounter** field 
 **File:** The *Browse/Choose File* button allows users to browse to their local hard drive to select the file document for upload.
 
 After the file is selected, click the **Add Document** button. The page will refresh and display a confirmation message that the document was uploaded successfully, along with visibility to the uploaded document.
+
+## Learning Management System
+
+To learn more about File Documents, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
