@@ -1,14 +1,15 @@
 ---
 id: '1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
 title: 'Text Documents'
-date: '2020-03-05T20:22:27.480Z'
-version: 47
-lastAuthor: ''
+date: '2024-07-02T16:07:53.510Z'
+version: 55
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
   - 'document-properties.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -119,3 +120,9 @@ To view the details of the revision history of a text document, simply click the
 ![](../text-documents.assets/8096a163c284d60954c377a0eaee0f4e.png)
 
 For more information on how to view revisions or utilize the View Diff feature, please see our [Document Properties](document-properties.md) help documentation.
+
+## Learning Management System
+
+To learn more about Text Documents, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
