@@ -1,11 +1,12 @@
 ---
 id: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 title: 'Scheduler Views'
-date: '2020-03-10T17:27:50.430Z'
-version: 60
-lastAuthor: ''
+date: '2024-07-02T18:16:00.853Z'
+version: 65
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -192,3 +193,9 @@ If you click this, it automatically takes you to the *My Settings* Scheduler Pre
 ![](../scheduler-views.assets/7204131c98f291ed56323f69c8261f06.png)
 
 For descriptions on each Scheduler preference, please see other help documentation titled MY SETTINGS.
+
+## Learning Management System
+
+To learn more about Scheduler Views, follow the link below to the Learning Management System course:
+
+* [Appointment Scheduling](https://mie.talentlms.com/shared/start/key:AOZHRKMF)
