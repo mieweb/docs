@@ -1,11 +1,12 @@
 ---
 id: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 title: 'Patient Registration Tab - Manual Patient Entry'
-date: '2021-04-18T04:58:25.003Z'
-version: 59
-lastAuthor: 'horner'
+date: '2024-07-02T17:41:41.927Z'
+version: 68
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOLHRKMF'
 source: 'https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -66,3 +67,9 @@ It then refreshes the screen back to the *Patient Demographics* screen for this 
 It has also assigned a Medical Record number (account number) for the patient you manually registered.
 
 Manual Registration in {{% system-name %}} shows this patient in {{% system-name %}} only. It will not merge/appear in any other practice management system that your company uses (example: Medical Manager, Experior, Medic, etc.) or interfaces with.
+
+## Learning Management System
+
+To learn more about the Patient Registration Tab - Manual Patient Entry, follow the link below to the Learning Management System course:
+
+* [Registration](https://mie.talentlms.com/shared/start/key:AOLHRKMF)
