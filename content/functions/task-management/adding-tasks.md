@@ -1,11 +1,12 @@
 ---
 id: '1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
 title: 'Adding Tasks'
-date: '2020-03-16T15:52:59.061Z'
-version: 116
-lastAuthor: ''
+date: '2024-07-02T18:34:35.136Z'
+version: 122
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
 source: 'https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -168,3 +169,9 @@ Click the Show/Hide Tasks hyperlink again to collapse (hide) the related task de
 {{% tip %}}
 There is a My Settings preference named Expand Task in Document View that is available for users to set their preference default for Show/Hide Tasks hyperlink on documents.  The default is to not expand the task details in document view, which requires the above steps of clicking on the hyperlink (when needed on demand) to view task details related to a specific document.  However, the preference can be changed to always display and expand the task details whenever the user is looking at documents.
 {{% /tip %}}
+
+## Learning Management System
+
+To learn more about Adding Task, follow the link below to the Learning Management System course:
+
+* [Tasking](https://mie.talentlms.com/shared/start/key:AOEHRKMF)
