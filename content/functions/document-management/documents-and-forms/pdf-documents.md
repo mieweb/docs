@@ -1,13 +1,14 @@
 ---
 id: '153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
 title: 'PDF Documents'
-date: '2022-11-11T13:17:09.076Z'
-version: 69
-lastAuthor: 'acook'
+date: '2024-07-02T16:42:19.123Z'
+version: 74
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -80,3 +81,9 @@ Once the PDF(s) have been selected for upload, click the **Add Document** button
 {{% note %}}
 All files must end in `.pdf` when uploading via this method.
 {{% /note %}}
+
+## Learning Management System
+
+To learn more about PDF Documents, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
