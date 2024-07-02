@@ -1,11 +1,12 @@
 ---
 id: '12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
 title: 'Pat/Appt Wizard Tab'
-date: '2024-05-14T12:40:02.377Z'
-version: 40
+date: '2024-07-02T17:47:04.068Z'
+version: 53
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -42,3 +43,9 @@ Manual Registration in {{% system-name %}} shows this new registered patient in 
 Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled *Adding An Appointment Using Wizard Tab.pdf*
 
 If you click the **Close** button in the Appointment Wizard screen without making an appointment—it will still save/keep the patient registration you just did manually and still puts that patient in {{% system-name %}} as a registered patient. You will see a message once the patient was added and you have the option to return to the scheduler if you didn't add an appointment through the wizard.
+
+## Learning Management System
+
+To learn more about the Pat/Appt Wizard Tab, follow the link below to the Learning Management System course:
+
+* [Appointment Scheduling](https://mie.talentlms.com/shared/start/key:AOZHRKMF)
