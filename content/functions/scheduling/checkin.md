@@ -1,9 +1,9 @@
 ---
 id: '19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
 title: 'Checkin'
-date: '2021-10-07T12:19:14.558Z'
-version: 86
-lastAuthor: 'sriecke'
+date: '2024-07-02T18:23:40.310Z'
+version: 93
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/insurance-summary-in-demographics-tab.md'
@@ -15,6 +15,7 @@ links:
   - 'https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control'
   - 'https://system/?f=chart&s=checkin&t=station_manager&opp=add'
   - '../reports/checkin-reports.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZTEDNHRK'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -209,3 +210,9 @@ A report is available for auditing check-in statistics. This can be used to revi
 {{% note %}}
 After hours, {{% system-name %}} can perform automated jobs/routines to clear the system of any patients that were missed during the checkout procedure. The system can be configured with an automatic function that checks out any patients not checked out by staff that day. Contact the Deployment Consultant for more information.
 {{% /note %}}
+
+## Learning Management System
+
+To learn more about Checkin, follow the link below to the Learning Management System course:
+
+* [Checkin/Checkout and No-Login Checkin Kiosk](https://mie.talentlms.com/shared/start/key:ZTEDNHRK)
