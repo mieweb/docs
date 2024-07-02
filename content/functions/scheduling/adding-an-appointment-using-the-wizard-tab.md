@@ -1,11 +1,12 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2024-04-25T11:14:26.372Z'
-version: 389
-lastAuthor: 'anichols'
+date: '2024-07-02T18:01:02.395Z'
+version: 421
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -290,3 +291,9 @@ Overbooked is a message telling you that the appointment you are trying to sched
 **Deceased patient:** If the patient has been marked as deceased in the demographics tab and you try to add/schedule an appointment for that patient, the system will alert you when you try to click SAVE.  The system notifies you that the patient chart is marked as deceased and asks if you still want to add/schedule the appointment.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/efa989dbdd6f33050055c45d7a0cd78e.png)
+
+## Learning Management System
+
+To learn more about Adding an Appointment Using the Wizard Tab, follow the link below to the Learning Management System course:
+
+* [Appointment Scheduling](https://mie.talentlms.com/shared/start/key:AOZHRKMF)
