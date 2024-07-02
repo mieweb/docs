@@ -1,9 +1,9 @@
 ---
 id: '1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
 title: 'Bubble Forms'
-date: '2020-03-06T20:04:39.113Z'
-version: 58
-lastAuthor: ''
+date: '2024-07-02T16:36:49.667Z'
+version: 63
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../printing-and-print-definitions/print-definitions.md'
@@ -27,6 +27,7 @@ links:
   - '../../system-administration/interfaces/device-interface-welch-allyn-spirometry.md'
   - '../../encounters/working-in-a-legacy-encounter.md'
   - '../../encounters/working-in-a-visit-encounter.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -88,3 +89,9 @@ Once in the **Tests & Procedures** section of the encounter, a search can be per
 ## Reporting
 
 The {{% system-name %}} system has extensive reporting capabilities. Indexed bubble form data is not excluded from the available options. To view the current reports available within {{% system-name %}} , navigate to the **Reports** sidemenu. All reports are organized by topic, where most bubble form data is captured under the **Visits** reports. If there is not a report option for an established interface, specific group data, or another business need, please do not hesitate to contact the Help Desk. We are happy to work with clients to determine what information is needed and the level of effort required, so we can then establish new, useful reports in our system. Additional information regarding using and viewing reports can be found in the Reports documentation.
+
+## Learning Management System
+
+To learn more about Bubble Forms, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
