@@ -1,11 +1,12 @@
 ---
 id: '1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
 title: 'Cancel/No-Show/Edit Appointments'
-date: '2020-03-10T17:26:23.670Z'
-version: 50
-lastAuthor: ''
+date: '2024-07-02T18:10:11.147Z'
+version: 60
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -182,3 +183,9 @@ When done, click the *SAVE* button at the bottom of the screen.
 ![](../cancel-no-show-edit-appointments.assets/835abe9b5bad5aaede693362e1260ed1.png)
 
 After you click *SAVE*, it will then pop-up to the scheduler view and show you the appointment as you have edited it.
+
+## Learning Management System
+
+To learn more about Cancel/No Show/Edit Appointments, follow the link below to the Learning Management System course:
+
+* [Appointment Scheduling](https://mie.talentlms.com/shared/start/key:AOZHRKMF)
