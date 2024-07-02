@@ -1,13 +1,14 @@
 ---
 id: '1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
 title: 'Sketch Documents'
-date: '2020-03-23T16:46:51.864Z'
-version: 73
-lastAuthor: ''
+date: '2024-07-02T16:20:57.868Z'
+version: 78
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -120,3 +121,9 @@ Mark the sketch order item as Completed, so the order does not stay on the Due L
 ## Edit/Delete a Sketch Document
 
 Users cannot edit or erase sketch markings once the sketch has been uploaded to the chart. However, provided the proper user security permissions, users may edit the document properties fields, or even move or delete the sketch document, if necessary.
+
+## Learning Management System
+
+To learn more about Sketch Documents, follow the link below to the Learning Management System course:
+
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
