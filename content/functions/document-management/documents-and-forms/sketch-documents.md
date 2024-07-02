@@ -1,8 +1,8 @@
 ---
 id: '1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
 title: 'Sketch Documents'
-date: '2024-07-02T16:20:57.868Z'
-version: 78
+date: '2024-07-02T16:22:02.365Z'
+version: 80
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
