@@ -1,14 +1,15 @@
 ---
 id: '1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
 title: 'Print Definitions'
-date: '2020-03-09T16:32:06.375Z'
-version: 137
-lastAuthor: ''
+date: '2024-07-08T13:41:13.328Z'
+version: 144
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'print-chart.md'
   - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
   - 'https://system/?f=chart&s=printdefedit&item=def&opp=add'
+  - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -280,3 +281,9 @@ After confirming the duplication, the page will refresh with the status displaye
 ![](../print-definitions.assets/4a2981528016ea43af21ee70ef511023.png)
 
 Once the print definition has been duplicated, users may go into the print definition and sections to update and change the criteria, as needed.
+
+## Learning Management System
+
+To learn more about Print Definitions, follow the link below to the Learning Management System course:
+
+* [Printing Documents](https://mie.talentlms.com/shared/start/key:LEBIDNHR)
