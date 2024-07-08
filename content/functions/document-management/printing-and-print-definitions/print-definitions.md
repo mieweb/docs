@@ -1,8 +1,8 @@
 ---
 id: '1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
 title: 'Print Definitions'
-date: '2024-07-08T13:41:13.328Z'
-version: 144
+date: '2024-07-08T15:24:45.615Z'
+version: 151
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,6 +10,7 @@ links:
   - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
   - 'https://system/?f=chart&s=printdefedit&item=def&opp=add'
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:LALIDNHR'
 source: 'https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -284,6 +285,7 @@ Once the print definition has been duplicated, users may go into the print defin
 
 ## Learning Management System
 
-To learn more about Print Definitions, follow the link below to the Learning Management System course:
+To learn more about Print Definitions, follow the links below to the Learning Management System courses:
 
 * [Printing Documents](https://mie.talentlms.com/shared/start/key:LEBIDNHR)
+* [Print Definitions](https://mie.talentlms.com/shared/start/key:LALIDNHR)
