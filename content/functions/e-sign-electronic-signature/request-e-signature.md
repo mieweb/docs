@@ -1,12 +1,13 @@
 ---
 id: '1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c'
 title: 'Request E-Signature'
-date: '2020-03-10T14:26:13.228Z'
-version: 80
-lastAuthor: 'aquandt'
+date: '2024-07-08T17:14:35.643Z'
+version: 89
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'un-request-unassign-an-e-signature.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
 source: 'https://drive.google.com/open?id=1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -69,3 +70,9 @@ When a document has been e-signed, if any revisions or edits are made to the doc
 ## Automated Esign Request
 
 MIE can set up esign rules in the {{% system-name %}} system that will automatically trigger esign requests to users for specific documents, upload, events, etc that occur in the system in real-time.  This eliminates the need for users to manually request esignatures for routine workflows or specific documents that are a high importance to catch and make sure are reviewed and marked as signed.  MIE configures automation of esign requests in the Esign Editor tab as security permission and super user permission is needed.
+
+## Learning Management System
+
+To learn more about Requesting E-Signatures, follow the link below to the Learning Management System course:
+
+* [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)
