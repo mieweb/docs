@@ -1,8 +1,8 @@
 ---
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
-date: '2024-07-08T14:04:44.236Z'
-version: 64
+date: '2024-07-08T14:06:00.148Z'
+version: 66
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
