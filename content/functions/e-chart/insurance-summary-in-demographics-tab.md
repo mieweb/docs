@@ -1,12 +1,13 @@
 ---
 id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 title: 'Insurance Summary in Demographics Tab'
-date: '2020-03-25T16:48:24.618Z'
-version: 81
-lastAuthor: ''
+date: '2024-07-08T14:54:17.439Z'
+version: 88
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
+  - 'https://mie.talentlms.com/shared/start/key:LAOIDNHR'
 source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -182,3 +183,9 @@ It will upload the scanned image directly into the chart according to the docume
 * <strong>Prev/Next  #/#</strong>: The buttons toggle you between pages of the scanned image (if there is more than one page scanned at a time).  The #/# box represents what page number is being viewed and out of how many total pages there are scanned in so far for this specific scan.
 
 ![](../insurance-summary-in-demographics-tab.assets/881e53cf4cb6725b450e6636f9523da8.png)
+
+## Learning Management System
+
+To learn more about the Insurance Summary in Demographics Tab, follow the link below to the Learning Management System course:
+
+* [Insurance Card Scanning](https://mie.talentlms.com/shared/start/key:LAOIDNHR)
