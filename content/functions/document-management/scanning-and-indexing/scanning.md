@@ -1,13 +1,14 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2024-05-01T18:11:43.616Z'
-version: 184
+date: '2024-07-08T14:39:56.926Z'
+version: 195
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs'
   - 'indexing.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -93,3 +94,9 @@ If a user must index the documents at a later time, after clicking the Upload bu
 
 ![](../scanning.assets/33e037d0581e7997846a194ef9b0087f.png)
 {{% /tip %}}
+
+## Learning Management System
+
+To learn more about Scanning, follow the link below to the Learning Management System course:
+
+* [Document Management (WebScan)](https://mie.talentlms.com/shared/start/key:AOSHRKMF)
