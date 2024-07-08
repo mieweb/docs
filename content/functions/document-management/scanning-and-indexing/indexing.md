@@ -1,13 +1,14 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2024-05-17T15:01:49.594Z'
-version: 228
+date: '2024-07-08T14:47:37.656Z'
+version: 248
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'indexing-bubble-forms.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -397,3 +398,9 @@ Once the **Close Batch** window opens, continue filling out the necessary inform
 * <strong>Close / Cancel buttons</strong>: Clicking the <strong>Close</strong> button is the proper way to close an opened batch. Clicking the <strong>Cancel</strong> button will keep the user in the WebScan module.
 
 After a batch is closed, the page will refresh back to the WebScan landing page, where users may continue to another batch.
+
+## Learning Management System
+
+To learn more about Indexing, follow the link below to the Learning Management System course:
+
+* [Document Management (WebScan)](https://mie.talentlms.com/shared/start/key:AOSHRKMF)
