@@ -1,12 +1,13 @@
 ---
 id: '1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
 title: 'Printing Documents'
-date: '2020-03-24T15:02:35.364Z'
-version: 45
-lastAuthor: ''
+date: '2024-07-02T20:25:08.646Z'
+version: 53
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
+  - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -63,3 +64,9 @@ Once clicked, the AltneraTIFF: More Settings dialog window will open. Ensure the
 {{% note %}}
 This setting only needs to be done one time for each workstation, and only needs performed on workstations intending to print insurance cards, driver's licenses, or other scanned documents.
 {{% /note %}}
+
+## Learning Management System
+
+To learn more about Printing Documents, follow the link below to the Learning Management System course:
+
+* [Printing Documents](https://mie.talentlms.com/shared/start/key:LEBIDNHR)
