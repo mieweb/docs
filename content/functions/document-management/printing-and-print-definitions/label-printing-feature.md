@@ -1,12 +1,13 @@
 ---
 id: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
 title: 'Label Printing Feature'
-date: '2020-03-24T15:23:57.818Z'
-version: 91
-lastAuthor: ''
+date: '2024-07-08T15:38:13.556Z'
+version: 97
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../order-and-result-management/e-orders-chart-tab.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOGHRKMF'
 source: 'https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -109,3 +110,9 @@ At the end of the encounter view, a section is available for listing all encount
 ![](../label-printing-feature.assets/5df4e0da7d071162804beb687b41f5af.png)
 
 For more information, please review the [Order Requests Chart Tab](../../order-and-result-management/e-orders-chart-tab.md) documentation.
+
+## Learning Management System
+
+To learn more about the Label Printing Feature, follow the link below to the Learning Management System course:
+
+* [Label Printing](https://mie.talentlms.com/shared/start/key:AOGHRKMF)
