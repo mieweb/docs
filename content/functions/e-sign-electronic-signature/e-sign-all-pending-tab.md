@@ -1,11 +1,12 @@
 ---
 id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 title: 'E-Sign All Pending Tab'
-date: '2020-03-10T14:20:34.885Z'
-version: 51
-lastAuthor: 'aquandt'
+date: '2024-07-08T18:25:25.395Z'
+version: 57
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
 source: 'https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -70,3 +71,9 @@ Using the Document Report found in the Reports sidemenu, a report can be run to 
 Once the report results, an E-Signature can be requested right there from the report by clicking Request Signature option at the far right.
 
 ![](../e-sign-all-pending-tab.assets/77e5e6d6e835b9e35155f4b66a0a0ea6.png)
+
+## Learning Management System
+
+To learn more about the E-Sign All Pending Tab, follow the link below to the Learning Management System course:
+
+* [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)
