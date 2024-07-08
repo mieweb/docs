@@ -1,14 +1,15 @@
 ---
 id: '1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
 title: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
-date: '2020-03-09T16:19:40.525Z'
-version: 96
-lastAuthor: ''
+date: '2024-07-08T14:23:36.334Z'
+version: 103
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'indexing.md'
   - 'mailto:noreplywebchart@med-web.com'
   - 'mailto:helpdesk@mieweb.com'
+  - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -174,3 +175,9 @@ If you checkmark a message/item that is an email from SureScripts, the *reply* a
 {{% note %}}
 *To "preview" or "open" to view faxes that come into the IFQ the Alternatiff/Active X functionality program is used – therefore apple products will not open them. You will see the warning "There is no Active X Control (AlternaTIFF) on your system. Contact your administrator." when you click "view" on the IFQ. When you click the fax that came in and the bottom preview screen below it opens - it says the above message - but then says "click here to download a pdf version" which at least shows the apple user the 1st page - but not subsequent pages of the fax. This is applicable to iphones, ipads, etc. If you have an apple computer you can run in a different browser mode/parallels, etc to get access.*
 {{% /note %}}
+
+## Learning Management System
+
+To learn more about Working Inbound Fax Queue & Distributing Incoming Faxes, follow the link below to the Learning Management System course:
+
+* [Inbound Faxes](https://mie.talentlms.com/shared/start/key:AOAHRKMF)
