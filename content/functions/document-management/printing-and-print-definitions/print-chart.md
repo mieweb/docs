@@ -1,9 +1,9 @@
 ---
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
-date: '2020-03-09T17:46:39.608Z'
-version: 53
-lastAuthor: ''
+date: '2024-07-08T14:04:44.236Z'
+version: 64
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
@@ -13,6 +13,7 @@ links:
   - '../../fax-manager/faxing-documents.md'
   - 'https://system/?func=scheduler&s=apttypes'
   - 'https://system/?func=scheduler#Now'
+  - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -105,3 +106,9 @@ Additionally, users have the ability to utilize the **Print Charts** link, fou
 ![](../print-chart.assets/5355824210737682bb42a7cf4a2f17d7.png)
 
 Once either of these links are clicked, the Print Chart dialog window will open, allowing the user to print/fax, accordingly. The available options and workflow follow those explained in the preceding sections (i.e., [Print Chart from E-Chart](#gjdgxs) and [Print Chart from Appointments Chart Tab](#30j0zll)).
+
+## Learning Management System
+
+To learn more about Printing Charts, follow the link below to the Learning Management System course:
+
+* [Printing Documents](https://mie.talentlms.com/shared/start/key:LEBIDNHR)
