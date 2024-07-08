@@ -1,11 +1,12 @@
 ---
 id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
 title: 'Allergies and Intolerances'
-date: '2024-03-20T19:56:50.201Z'
-version: 183
-lastAuthor: 'auhrick'
+date: '2024-07-08T16:18:04.760Z'
+version: 192
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LAAIDNHR'
 source: 'https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -208,3 +209,9 @@ If you need to enter in a custom allergy to show in the auto-complete of choices
 Click the *SUBMIT* button to save and submit all of the custom allergies you added to your {{% system-name %}} system as selections that users can use.
 
 Then that custom allergy will show up in the auto-complete for users to select from then on. That will allow users to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert).
+
+## Learning Management System
+
+To learn more about Allergies and Intolerances, follow the link below to the Learning Management System course:
+
+* [Allergy/Intolerance Management](https://mie.talentlms.com/shared/start/key:LAAIDNHR)
