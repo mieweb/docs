@@ -1,9 +1,9 @@
 ---
 id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
-date: '2020-02-27T21:21:19.649Z'
-version: 82
-lastAuthor: 'aquandt'
+date: '2024-07-08T15:32:48.307Z'
+version: 88
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../scheduling/scheduler-views.md'
@@ -12,6 +12,7 @@ links:
   - '../../scheduling/waiting-list-tab.md'
   - 'about:blank'
   - '../../reports/documents-report-super-document-type-search.md'
+  - 'https://mie.talentlms.com/shared/start/key:LAZIDNHR'
 source: 'https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -190,3 +191,9 @@ Contact your MIE Implementer if you'd like to capture more than one email addres
 A system setting in  {{% system-name %}} controls what fields to consider *extended email fields* for a patient (E-Chart, Email, Extended Patient Email Fields). Contact your MIE Implementer to have this set up.
 
 ![](../email-reminders-from-system.assets/5c8dab57a10c891643b8de5f0501828c.png)
+
+## Learning Management System
+
+To learn more about the Email Reminders from System, follow the link below to the Learning Management System course:
+
+* [Email Templates](https://mie.talentlms.com/shared/start/key:LAZIDNHR)
