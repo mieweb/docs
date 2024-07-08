@@ -1,15 +1,16 @@
 ---
 id: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 title: 'Signature Pad Device'
-date: '2023-09-12T20:16:48.458Z'
-version: 127
-lastAuthor: 'auhrick'
+date: '2024-07-08T15:44:33.284Z'
+version: 136
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.sigpluspro.com/sigplus.html'
   - 'https://www.sigpluspro.com/sigplus-bsb.html'
   - 'https://www.topazsystems.com/sdks/sigweb.html'
   - 'https://docs.webchartnow.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/'
+  - 'https://mie.talentlms.com/shared/start/key:AQQHRKMF'
 source: 'https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -53,3 +54,9 @@ The document is saved using document type ESIG.
 ![](../signature-pad-device.assets/abe990adfbc706dc1e0dff6ec786952d.png)
 
 Signature pad devices can also be used in conjunction with the mass immunization record tab. See additional information regarding the [Mass Injection module](https://docs.webchartnow.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/).
+
+## Learning Management System
+
+To learn more about Signature Pad Devices, follow the link below to the Learning Management System course:
+
+* [Topaz Signature Pad Device](https://mie.talentlms.com/shared/start/key:AQQHRKMF)
