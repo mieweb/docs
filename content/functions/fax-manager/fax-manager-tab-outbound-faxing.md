@@ -1,11 +1,12 @@
 ---
 id: '1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 title: 'Fax Manager Tab - Outbound Faxing'
-date: '2024-02-21T18:27:34.850Z'
-version: 89
+date: '2024-07-08T14:13:48.830Z'
+version: 95
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LEQIDNHR'
 source: 'https://drive.google.com/open?id=1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -95,3 +96,9 @@ You can have {{% system-name %}} send you an email upon each successful sent fax
 Please make sure you have your email entered in your username screen (a superuser/administrator may need to verify this or add this for you within your practice). You can always view the Fax Manager tab to view failed and successful faxes, but the email notification sends you an email instantly to you when the fax has been sent or has a problem being sent.
 
 Please see other help documentation named *Email Notifications of Sent or Failed Faxes-Outbound Faxing.pdf* for further instructions and help with this feature.
+
+## Learning Management System
+
+To learn more about the Fax Manager Tab - Outbound Faxing, follow the link below to the Learning Management System course:
+
+* [Outbound Faxing](https://mie.talentlms.com/shared/start/key:LEQIDNHR)
