@@ -1,11 +1,12 @@
 ---
 id: '1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 title: 'Pending E-Sign Reviews'
-date: '2020-03-10T14:22:54.163Z'
-version: 62
-lastAuthor: 'aquandt'
+date: '2024-07-08T18:03:32.571Z'
+version: 70
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
 source: 'https://drive.google.com/open?id=1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -123,3 +124,9 @@ Scroll all the way at the bottom of the documents being displayed in bulk count 
 After all the documents, displayed in bulk using Multi-Sign, have been marked to sign or other radio button option, click the Sign Marked Documents button as the final step.  The system will then sign the documents indicated to Sign, or other radio button options.  The system will display a message at the top of which documents its marked as signed, etc. The documents that were not marked as any radio button indication will remain displayed on the screen for you to look at again, complete or just ignore and go back to the pending list view.  These stay in your pending e-sign queue. If chose radio button on any document to Reject and typed in the notes/reason for rejecting in the summary at the top it will show an automatic task sent to your user task list for that rejected document.
 
 ![](../pending-e-sign-reviews.assets/66a1bbceb22d63b03bb0c9c44b55a476.png)
+
+## Learning Management System
+
+To learn more about Pending E-Sign Reviews, follow the link below to the Learning Management System course:
+
+* [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)
