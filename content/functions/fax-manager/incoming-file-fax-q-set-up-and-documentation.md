@@ -1,11 +1,12 @@
 ---
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q Set-Up and Documentation'
-date: '2023-11-30T20:12:18.966Z'
-version: 456
+date: '2024-07-08T14:29:22.799Z'
+version: 479
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -215,3 +216,9 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 1. Click <em>Preview</em> and the file will display below
 
 ![](../incoming-file-fax-q-set-up-and-documentation.assets/fe07b6a450346bcd1ef4daa3d92868dc.png)
+
+## Learning Management System
+
+To learn more about the Incoming File/Fax Q Set-Up and Documentation, follow the link below to the Learning Management System course:
+
+* [Inbound Faxes](https://mie.talentlms.com/shared/start/key:AOAHRKMF)
