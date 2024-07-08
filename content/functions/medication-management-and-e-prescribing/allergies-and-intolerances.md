@@ -1,8 +1,8 @@
 ---
 id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
 title: 'Allergies and Intolerances'
-date: '2024-07-08T16:18:04.760Z'
-version: 192
+date: '2024-07-08T16:19:09.923Z'
+version: 194
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
