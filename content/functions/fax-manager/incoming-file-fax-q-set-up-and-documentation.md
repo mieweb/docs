@@ -1,8 +1,8 @@
 ---
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q Set-Up and Documentation'
-date: '2024-07-08T14:29:22.799Z'
-version: 479
+date: '2024-07-08T14:30:40.109Z'
+version: 481
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
