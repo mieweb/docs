@@ -1,13 +1,14 @@
 ---
 id: '1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
 title: 'Un-Request/Unassign an E-Signature'
-date: '2020-03-10T14:24:17.209Z'
-version: 52
-lastAuthor: 'aquandt'
+date: '2024-07-08T17:24:38.672Z'
+version: 59
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'request-e-signature.md'
   - 'e-sign-all-pending-tab.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
 source: 'https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -60,3 +61,9 @@ After clicking View Document, the document will open with options at the top rig
 Proceed to request a signature by following the steps outlined in the [Request E-Signature](request-e-signature.md) help guide.
 
 If need to un-request all documents in a user's queue, please refer to the [E-Sign All Pending Tab](e-sign-all-pending-tab.md) help guide.
+
+## Learning Management System
+
+To learn more about Un-requesting/Unassigning an E-Signature, follow the link below to the Learning Management System course:
+
+* [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)
