@@ -1,11 +1,12 @@
 ---
 id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 title: 'Conditions'
-date: '2024-04-22T14:18:25.660Z'
-version: 308
+date: '2024-07-10T15:49:42.589Z'
+version: 319
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LAGIDNHR'
 source: 'https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -215,3 +216,9 @@ To view a Condition link, click on the Condition tab from the patient chart. Hov
 The Edit Condition window will open. Click on the View Links link. The links to encounters and documents will display. Click on any one you wish to display.
 
 ![](../conditions.assets/bf2aba701f7c30ddbdf6c20467e85cb9.png)
+
+## Learning Management System
+
+To learn more about Conditions, follow the link below to the Learning Management System course:
+
+* [Condition / Problem List Management (ICD-10)](https://mie.talentlms.com/shared/start/key:LAGIDNHR)
