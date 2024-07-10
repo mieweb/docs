@@ -1,14 +1,15 @@
 ---
 id: '1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 title: 'Injection Tab'
-date: '2024-07-10T18:34:57.636Z'
-version: 230
+date: '2024-07-10T20:06:25.458Z'
+version: 235
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
   - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
 source: 'https://drive.google.com/open?id=1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -243,6 +244,7 @@ Here you have a different editor style to configuring the injection system setti
 
 ## Learning Management System
 
-To learn more about the Injection Tab, follow the link below to the Learning Management System course:
+To learn more about the Injection Tab, follow the links below to the Learning Management System courses:
 
 * [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
+* [Injection/Immunization Management](https://mie.talentlms.com/shared/start/key:LSEIDNHR)
