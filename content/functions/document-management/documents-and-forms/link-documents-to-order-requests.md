@@ -1,14 +1,15 @@
 ---
 id: '1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o'
 title: 'Link Documents to Order Requests'
-date: '2020-03-06T17:48:39.034Z'
-version: 61
-lastAuthor: ''
+date: '2024-07-10T16:15:03.254Z'
+version: 66
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../order-and-result-management/orders-view-recent.md'
   - '../scanning-and-indexing/indexing.md'
   - 'document-properties.md'
+  - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
 source: 'https://drive.google.com/open?id=1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -106,3 +107,9 @@ After Remove Link is clicked, the page will refresh displaying something similar
 Once the document is unlinked from the order, a successful message will display on the page, confirming the removal of the link.
 
 To see full details on how document properties can provide alternative methods for linking/unlinking documents to orders, check out our [Document Properties](document-properties.md) documentation.
+
+## Learning Management System
+
+To learn more about Linking Documents to Order Requests, follow the link to the Learning Management System course:
+
+* [Order and Result Management](https://mie.talentlms.com/shared/start/key:LATIDNHR)
