@@ -1,12 +1,13 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-04-02T14:53:46.684Z'
-version: 267
+date: '2024-07-10T18:07:52.662Z'
+version: 277
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
+  - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -355,3 +356,9 @@ You can still get into a closed encounter as before, but dynamic encounters will
 ## Additional Documents
 
 Dynamic encounter sections themselves can store as their own additional document upon the encounter's archive & close. Each dynamic section is a layout and the layout can be set to a specific document type to store as. The section would still be part of the entire stored encounter document, but upon archive & close, the section would store as its own document in the chart if a document type is set on the section layout. Contact your MIE Implementer for any programming needed.
+
+## Learning Management System
+
+To learn more about Working in a Visit Encounter, follow the link below to the Learning Management System course:
+
+* [Encounter Templates/Visit Notes](https://mie.talentlms.com/shared/start/key:LABIDNHR)
