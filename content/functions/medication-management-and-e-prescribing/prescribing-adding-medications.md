@@ -1,11 +1,12 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2024-05-24T15:54:13.462Z'
-version: 253
-lastAuthor: 'anichols'
+date: '2024-07-10T14:55:15.733Z'
+version: 273
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -242,3 +243,9 @@ There is a report available from the Reports sidemenu tab. Found in the Medicati
 This report can be filtered by a start date and end date to limit results. The report will result a list of uncoded prescriptions (free-typed medications a user prescribed instead of using the FDB autocomplete list of choices of coded medications available to prescribe) created within a specified date range. The practice should review this report periodically and address issues found. This report could help be more proactive at identifying and investigating these issues and working on training prescribers on the correct medications to choose.
 
 ![](../prescribing-adding-medications.assets/abfb94ad34a14a7287a5d8665b36a7af.png)
+
+## Learning Management System
+
+To learn more about Prescribing/Adding Medications, follow the link below to the Learning Management System course:
+
+* [Medication Management/E-Prescribe](https://mie.talentlms.com/shared/start/key:LASIDNHR)
