@@ -1,8 +1,8 @@
 ---
 id: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
 title: 'Quick View - Alerts Portlet'
-date: '2024-05-17T14:41:43.441Z'
-version: 84
+date: '2024-07-10T15:34:07.572Z'
+version: 93
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -17,6 +17,7 @@ links:
   - 'https://system/?m'
   - 'https://system/?func=dicom&dcfunc=queue'
   - '../document-management/imaging/dicom-setup-tab.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOBHRKMF'
 source: 'https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -158,3 +159,9 @@ Another way to get to the DataSend Queue tab is to click [Failed Auto-Send Items
 If there are no failed jobs for any of the 4 categories, then the portlet will display the message **No pending alerts**.
 
 ![](../quick-view-alerts-portlet.assets/bd3b5258483d42d58572b08a524a37d0.png)
+
+## Learning Management System
+
+To learn more about the Quick View - Alerts Portlet, follow the link below to the Learning Management System course:
+
+* [Reminders/Alerts/Notifications](https://mie.talentlms.com/shared/start/key:AOBHRKMF)
