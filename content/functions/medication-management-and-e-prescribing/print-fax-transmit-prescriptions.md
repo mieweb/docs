@@ -1,11 +1,12 @@
 ---
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
-date: '2024-05-24T16:11:13.918Z'
-version: 122
-lastAuthor: 'anichols'
+date: '2024-07-10T15:10:43.392Z'
+version: 138
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -134,3 +135,9 @@ In the patient's E-Meds chart tab click on the medication/drug name of the speci
 Once in the specific drug history, scroll down, it will show refills, medication revisions and below that it will tell you when/if the script was printed and/or faxed and also another section for e-send (electronically transmitted) dates and to which pharmacy.
 
 ![](../print-fax-transmit-prescriptions.assets/c58d55ac44c9968e6bf5b5e30ac51dcf.png)
+
+## Learning Management System
+
+To learn more about Printing/Faxing/Transmitting Prescriptions, follow the link below to the Learning Management System course:
+
+* [Medication Management/E-Prescribe](https://mie.talentlms.com/shared/start/key:LASIDNHR)
