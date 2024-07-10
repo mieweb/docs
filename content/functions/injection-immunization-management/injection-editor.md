@@ -1,11 +1,12 @@
 ---
 id: '184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 title: 'Injection Editor'
-date: '2020-03-16T14:47:58.197Z'
-version: 55
-lastAuthor: ''
+date: '2024-07-10T20:12:35.626Z'
+version: 62
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
 source: 'https://drive.google.com/open?id=184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -74,3 +75,9 @@ You can edit an already changed injection name.  If the injection name is hidde
 It will open that injection detail box.  Simply change/edit/correct the display name and click the OK button.  Click the SUBMIT CHANGES button and that renamed injection will store any additional changes you made.  It remains up in the summary list because it had been edited. If you click the minus [-] button for an injection listed in the editor, it will remove the entire edit and any edits done to it.  It will show the item as a strikeout, but you must still click SUBMIT CHANGES to save your edits/deletions.  The injection reverts back to ‘shown' status and regular ‘CDC name' display because it's been removed from the list of injections that have edits regarding them.
 
 We suggest not renaming injections to ‘brand names'.  Example: Boostrix is just a brand name for Tdap.  {{% system-name %}} has Tdap in the list.  We advise against renaming injections in this way to suit the individual practice's pattern of injecting because it makes it impossible to add a historical record with the brand name NOT specified (ex: just Tdap).  What this means is, just because a practice always injects for Tdap is Boostrix, that doesn't mean that every patient they see has only had Boostrix for their Tdap (from other records/other practices).  In some cases, it may be that there is currently only one brand name, but that doesn't mean it will be that way forever.  We suggest to keep referring to injections generically.
+
+## Learning Management System
+
+To learn more about the Injection Editor, follow the link below to the Learning Management System course:
+
+* [Injection/Immunization Management](https://mie.talentlms.com/shared/start/key:LSEIDNHR)
