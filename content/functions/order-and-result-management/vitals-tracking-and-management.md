@@ -1,11 +1,12 @@
 ---
 id: '1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 title: 'Vitals Tracking & Management'
-date: '2024-03-18T18:16:45.290Z'
-version: 88
+date: '2024-07-10T19:59:14.870Z'
+version: 107
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOQHRKMF'
 source: 'https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -210,3 +211,9 @@ Vital Signs are a type of observation which can be displayed as a formatted flow
      button, and the vitals will import and store within the {{% system-name %}} system. Otherwise, click the <strong>Manual</strong> link, and the vitals can be entered manually, as needed.
 
 ![](../vitals-tracking-and-management.assets/1bd3e72eaec1ee787a2cff6331ebd9ba.png)
+
+## Learning Management System
+
+To learn more about Vitals Tracking & Management, follow the link below to the Learning Management System course:
+
+* [Vitals](https://mie.talentlms.com/shared/start/key:AOQHRKMF)
