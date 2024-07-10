@@ -1,11 +1,12 @@
 ---
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
-date: '2024-01-10T19:23:42.072Z'
-version: 160
+date: '2024-07-10T18:18:07.286Z'
+version: 171
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LSOIDNHR'
 source: 'https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -90,3 +91,9 @@ If you are doing Meaningful Use, you would **not** want to change this setting
 ![](../patient-education-interface.assets/65aa294d48f757f0e2f1e7846880441f.png)
 
 That doc.type should be specified to show in a specific chart tab. You can go to that chart tab to find the uploaded Healthwise Patient Education and the subject line contains which education material it is. This stores as a PDF file type for accessing.
+
+## Learning Management System
+
+To learn more about the Patient Education Interface, follow the link below to the Learning Management System course:
+
+* [Patient Education](https://mie.talentlms.com/shared/start/key:LSOIDNHR)
