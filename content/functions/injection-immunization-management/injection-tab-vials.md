@@ -1,12 +1,13 @@
 ---
 id: '11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
 title: 'Injection Tab - Vials'
-date: '2024-07-10T19:03:28.839Z'
-version: 60
+date: '2024-07-10T20:09:50.987Z'
+version: 64
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
 source: 'https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -164,6 +165,7 @@ The document scan control will appear on the screen.  Proceed to scan in the vi
 
 ## Learning Management System
 
-To learn more about the Injection Tab - Vials, follow the link below to the Learning Management System course:
+To learn more about the Injection Tab - Vials, follow the links below to the Learning Management System courses:
 
 * [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
+* [Injection/Immunization Management](https://mie.talentlms.com/shared/start/key:LSEIDNHR)
