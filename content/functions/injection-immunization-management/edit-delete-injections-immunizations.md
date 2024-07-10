@@ -1,11 +1,12 @@
 ---
 id: '1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
 title: 'Edit/Delete Injections/Immunizations'
-date: '2020-03-16T14:36:13.205Z'
-version: 56
-lastAuthor: ''
+date: '2024-07-10T19:11:14.191Z'
+version: 63
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
 source: 'https://drive.google.com/open?id=1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -76,3 +77,9 @@ Once you have found the deleted injection record in DocSum (will say Deleted in 
 After clicking the DocID number for the deleted injection record, that specific deleted record will appear in the screen and show the reason why it was deleted, when it was deleted, who deleted it, etc.
 
 ![](../edit-delete-injections-immunizations.assets/7f9eb114235312d82ab159bb22306b0b.png)
+
+## Learning Management System
+
+To learn more about Editing/Deleting Injections/Immunizations, follow the link below to the Learning Management System course:
+
+* [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
