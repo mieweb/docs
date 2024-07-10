@@ -1,11 +1,12 @@
 ---
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
-date: '2020-03-13T19:19:01.256Z'
-version: 73
-lastAuthor: ''
+date: '2024-07-10T16:03:39.621Z'
+version: 78
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
 source: 'https://drive.google.com/open?id=1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -161,3 +162,9 @@ Labels can also be performed from the list of standing orders for the patient (i
 Or from the "view" of the encounter at the very bottom of the order was done by *"Create xxx Order*" method from within the encounter.
 
 ![](../e-orders-chart-tab.assets/fb93abe99a7e38c643f03308113ccb88.png)
+
+## Learning Management System
+
+To learn more about the E-Orders Chart Tab, follow the link below to the Learning Management System course:
+
+* [Order and Result Management](https://mie.talentlms.com/shared/start/key:LATIDNHR)
