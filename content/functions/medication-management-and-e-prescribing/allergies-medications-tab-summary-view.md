@@ -1,11 +1,12 @@
 ---
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
-date: '2024-01-15T20:25:49.530Z'
-version: 108
+date: '2024-07-10T14:42:33.063Z'
+version: 116
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -221,3 +222,9 @@ Other categories found below the edit section are:
     * By: Who made the change/revision/edit.
     * The other categories display what the Drug Name/Prescriber/Sig/Start Date was prior to any edit/change/revision. Shows the history of revisions and what all was changed each time.
 * <strong>Printed/Faxed Dates:</strong> shows a list summary of all printed/faxed dates & information regarding this medication.
+
+## Learning Management System
+
+To learn more about the Allergies/Medications Tab Summary View, follow the link below to the Learning Management System course:
+
+* [Medication Management/E-Prescribe](https://mie.talentlms.com/shared/start/key:LASIDNHR)
