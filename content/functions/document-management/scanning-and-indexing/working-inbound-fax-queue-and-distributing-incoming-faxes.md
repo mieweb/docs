@@ -1,9 +1,9 @@
 ---
 id: '1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
 title: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
-date: '2024-07-08T14:23:36.334Z'
-version: 108
-lastAuthor: 'janderson'
+date: '2024-07-10T16:38:24.298Z'
+version: 112
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'indexing.md'
@@ -52,8 +52,10 @@ The search field in Fax/File Q are fields you can fill out to narrow down a sear
 
 ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/a508b72730a5d5c94560ee4f44196dea.png)
 
-* <strong>"Auto-Indexed"</strong> means a fax came in that has a barcode on the coversheet, if the system setting to <em>Auto-Index Incoming Faxes</em> is turned on, then the Inbound Fax Queue will attempt to read that barcode and put the fax into the patient's chart. If this is successful, it marks that fax as Auto-Indexed and stores in this ‘status'. If not, it goes to this IFQ as usual. The system setting is turned off by default, but to turn this feature on, set the system setting to 1 or contact your MIE Implementer. 
-    ![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/84b2cf522a257a847fe9d42eb46cde80.png)
+* <strong>"Auto-Indexed"</strong> means a fax came in that has a barcode on the coversheet, if the system setting to <em>Auto-Index Incoming Faxes</em> is turned on, then the Inbound Fax Queue will attempt to read that barcode and put the fax into the patient's chart. If this is successful, it marks that fax as Auto-Indexed and stores in this ‘status'. If not, it goes to this IFQ as usual. The system setting is turned off by default, but to turn this feature on, set the system setting to 1 or contact your MIE Implementer.
+
+![](../working-inbound-fax-queue-and-distributing-incoming-faxes.assets/84b2cf522a257a847fe9d42eb46cde80.png)
+
 * <strong>Create:</strong> You can search by specific date the fax was received.
 * <strong>Recipient:</strong> You can use the drop-down to select and search a specific recipient fax #. The recipient fax# is the fax # that the fax was received (if your practice has multiple fax machines/numbers).
 * <strong>Show Message Events:</strong> this is tied to SureScripts secure messaging. Checkmarking this will result to show events such as "message read" and "message deleted" that are sent back from recipients of secure messages sent.
