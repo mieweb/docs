@@ -1,13 +1,14 @@
 ---
 id: '1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 title: 'Injection Tab'
-date: '2024-05-09T17:38:26.485Z'
-version: 216
-lastAuthor: 'anichols'
+date: '2024-07-10T18:33:17.712Z'
+version: 229
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
+  - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
 source: 'https://drive.google.com/open?id=1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -239,3 +240,9 @@ You will see this screen:
 ![](../injection-tab.assets/aa826cc18f69dcbe4e0deb3c2eb72d6f.png)
 
 Here you have a different editor style to configuring the injection system setting fields of what choices/contents should be shown/offered in the auto-completes and/or drop-downs of the injection add screen fields.  Setting anything here will also link/update the specific individual system setting. So you can set these via individual system settings or this *&implement* editor method.
+
+## Learning Management System
+
+To learn more about the Injection Tab, follow the link below to the Learning Management System course:
+
+* [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
