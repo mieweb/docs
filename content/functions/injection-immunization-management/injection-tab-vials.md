@@ -1,11 +1,12 @@
 ---
 id: '11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
 title: 'Injection Tab - Vials'
-date: '2020-03-16T14:41:06.490Z'
-version: 53
-lastAuthor: ''
+date: '2024-07-10T19:02:09.824Z'
+version: 58
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
 source: 'https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -160,3 +161,9 @@ The document scan control will appear on the screen.  Proceed to scan in the vi
 (See other help instructions titled E-Chart Scan Documents for help with Document Scan Control and scanning).
 
 ![](../injection-tab-vials.assets/cd3e1122ca7646d6ac96d2fa4ac45601.png)
+
+## Learning Management System
+
+To learn more about the Injection Tab - Vials, follow the link below to the Learning Management System course:
+
+* [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
