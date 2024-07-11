@@ -1,12 +1,13 @@
 ---
 id: '184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 title: 'Injection Editor'
-date: '2024-07-10T20:13:36.932Z'
-version: 65
+date: '2024-07-11T18:16:29.576Z'
+version: 71
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:LSSIDNHR'
 source: 'https://drive.google.com/open?id=184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -78,6 +79,7 @@ We suggest not renaming injections to ‘brand names'.  Example: Boostrix is ju
 
 ## Learning Management System
 
-To learn more about the Injection Editor, follow the link below to the Learning Management System course:
+To learn more about the Injection Editor, follow the links below to the Learning Management System courses:
 
 * [Injection/Immunization Management](https://mie.talentlms.com/shared/start/key:LSEIDNHR)
+* [Injection Editor](https://mie.talentlms.com/shared/start/key:LSSIDNHR)
