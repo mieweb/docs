@@ -1,8 +1,9 @@
 ---
 id: '1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
 title: 'Inventory Module Settings'
-date: '2020-02-27T20:31:40.529Z'
-version: 86
+date: '2024-07-11T20:56:31.248Z'
+version: 98
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
@@ -26,7 +27,6 @@ The following are security settings available for users in order to utilize the 
 * <strong>Dispense Inventory:</strong> Allows users access to dispense and undispense meds for a patient in the patient's <em>Dispense</em> chart tab.
 * <strong>Return Fills to Inventory:</strong> Allows users access to return a fill to inventory in <em>Dispense</em> chart tab for a patient.
 * <strong>View Transactions:</strong> Allows users access to view inventory via <em>Transaction Reports</em> tab of Inventory module.
-* <strong>Edit Transactions:</strong> Allows users access to the <em>Edit Transaction</em> hyperlink option in <em>Transaction Reports</em> tab of Inventory module.
 * <strong>Edit Inventory Mappings:</strong> Allows users to map inventory items to orders, meds, injections and allows users ability to edit those mappings of inventory items in the Mappings tab of Inventory module.
 * <strong>Edit Master Inventory List:</strong> Allows users to add items to allowed general inventory and ability to edit names and aliases of allowed general inventory items to the system via the Control tab of Inventory module.
 * <strong>Merge Inventory Items:</strong> Allows users to merge two or more general inventory items into a single inventory item via the Control tab or Mappings tab of Inventory module.
