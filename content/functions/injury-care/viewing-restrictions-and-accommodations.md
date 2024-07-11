@@ -1,12 +1,13 @@
 ---
 id: '1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
 title: 'Viewing Restrictions and Accommodations'
-date: '2020-03-13T11:46:45.933Z'
-version: 54
-lastAuthor: ''
+date: '2024-07-11T20:08:21.926Z'
+version: 61
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'adding-restrictions-and-accommodations.md'
+  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -77,3 +78,9 @@ When clicking on the title bar, it also opens up the ability to edit, delete and
 In order to view inactive restrictions within an encounter, simply click the encounter section Restrictions and Accommodations found in the Plan.  Inactive restrictions are restrictions that have passed their end date.  Whether you are in summary view or detail view, when you click on the section title bar that will open up the section to provide the Show Inactive hyperlink to view inactive restrictions on the patient.  Once clicking the Show Inactive link, the summary view will show all past inactive restrictions on the chart along with the current active restrictions if there are any.
 
 ![](../viewing-restrictions-and-accommodations.assets/1b9a456da19846fb188a00d41551cf47.png)
+
+## Learning Management System
+
+To learn more about Viewing Restrictions and Accommodations, follow the link below to the Learning Management System course:
+
+* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
