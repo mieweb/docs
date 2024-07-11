@@ -1,13 +1,14 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2024-07-01T18:10:30.910Z'
-version: 467
+date: '2024-07-11T18:27:58.695Z'
+version: 483
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://developer.mozilla.org/en-US/docs/Glossary/Truthy'
   - 'https://developer.mozilla.org/en-US/docs/Glossary/Falsy'
+  - 'https://mie.talentlms.com/shared/start/key:ALOHRKMF'
 source: 'https://drive.google.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -287,3 +288,9 @@ It allows users to insert new values as well. Simply click on the section title 
 ![](../observation-flowsheets.assets/8606ef3b0aff74cdc02769693f203f1e.png)
 
 Result date/time fields can be removed entirely for a specific flowsheet(s) if needed. A flowsheet can have the ability to be displayed without a date visible to the user. If such a flowsheet has that programming, then **all** observations in that type of flowsheet will have the date observed set to when the flowsheet values are submitted (saved). Your MIE Implementer can put in a layout tag request to hide the observed date/time field(s) in the backend.
+
+## Learning Management System
+
+To learn more about Observation Flowsheets, follow the link below to the Learning Management System course:
+
+* [Flowsheets](https://mie.talentlms.com/shared/start/key:ALOHRKMF)
