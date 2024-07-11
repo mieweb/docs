@@ -1,8 +1,8 @@
 ---
 id: '1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
 title: 'Editing Restriction Types'
-date: '2024-07-11T20:22:46.399Z'
-version: 108
+date: '2024-07-11T20:23:55.263Z'
+version: 110
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
