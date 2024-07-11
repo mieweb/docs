@@ -1,8 +1,8 @@
 ---
 id: '184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 title: 'Injection Editor'
-date: '2024-07-10T20:12:35.626Z'
-version: 62
+date: '2024-07-10T20:13:36.932Z'
+version: 65
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
