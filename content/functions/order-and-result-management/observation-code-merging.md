@@ -1,11 +1,12 @@
 ---
 id: '17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
 title: 'Observation Code Merging'
-date: '2020-03-13T19:54:16.045Z'
-version: 53
-lastAuthor: ''
+date: '2024-07-11T19:11:50.849Z'
+version: 66
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
 source: 'https://drive.google.com/open?id=17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -60,3 +61,9 @@ You will receive confirmation of the observation code merging and you will notic
 ![](../observation-code-merging.assets/cd05abc55fb3b93ef0ea46fc62668d5f.png)
 
 When observation codes are merged, a record of the merge will be stored. The ID of the user performing the merge and the date will be stored, along with the fields of the code being merged away and the number of the new observation code.
+
+## Learning Management System
+
+To learn more about Observation Code Merging, follow the link below to the Learning Management System course:
+
+* [Observations](https://mie.talentlms.com/shared/start/key:ALLHRKMF)
