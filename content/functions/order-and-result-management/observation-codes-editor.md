@@ -1,13 +1,14 @@
 ---
 id: '1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
 title: 'Observation Codes Editor'
-date: '2020-03-13T20:07:29.409Z'
-version: 77
-lastAuthor: ''
+date: '2024-07-11T19:00:10.516Z'
+version: 97
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'flowsheets-editor.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager'
+  - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
 source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -105,3 +106,9 @@ After continuing, users will be prompted with a verification page. Before the Me
 Because observations are used to populate Flowsheets, {{% system-name %}} has provided a quick link for accessing the Flowsheet Manager directly from the Observation Codes Manager. Simply click the link in the upper-right corner of the page, and the will load.
 
 For details regarding how to add, edit, and maintain Observation Flowsheets, see our [Flowsheet Manager](https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager) online help documentation.
+
+## Learning Management System
+
+To learn more about the Observation Codes Editor, follow the link below to the Learning Management System course:
+
+* [Observations](https://mie.talentlms.com/shared/start/key:ALLHRKMF)
