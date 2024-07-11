@@ -1,11 +1,12 @@
 ---
 id: '1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
 title: 'Editing Restriction Types'
-date: '2020-03-30T16:34:03.981Z'
-version: 96
-lastAuthor: ''
+date: '2024-07-11T20:22:46.399Z'
+version: 108
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -107,3 +108,9 @@ Remember to click Save within the options and also within this edit screen to sa
 To delete a Restriction Type entirely from the {{% system-name %}} system, simply click the delete link on that specific restriction type.  It will open the Confirm Delete screen.  Click the Confirm button to permanently remove this restriction type from the {{% system-name %}} system.
 
 Once deletion is confirmed, it will display a successfully deleted restriction type message at the top of the list view.  The restriction type is then removed from the current existing available restriction types listing in {{% system-name %}} .
+
+## Learning Management System
+
+To learn more about Editing Restriction Types, follow the link below to the Learning Management System course:
+
+* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
