@@ -1,8 +1,8 @@
 ---
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
-date: '2024-07-10T18:19:35.991Z'
-version: 172
+date: '2024-07-10T18:22:08.594Z'
+version: 175
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
