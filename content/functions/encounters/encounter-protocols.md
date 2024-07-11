@@ -1,11 +1,12 @@
 ---
 id: '1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg'
 title: 'Encounter Protocols'
-date: '2022-02-14T18:53:42.540Z'
-version: 90
-lastAuthor: 'dcase'
+date: '2024-07-11T19:26:52.475Z'
+version: 95
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
 source: 'https://drive.google.com/open?id=1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -124,3 +125,9 @@ HPI, ROS, PE, Quality, Plan Narrative, Patient Education and Depart Instruction 
 Tests & Procedures, Treatments, and Visit Orders sections can be programmed to display specific protocol orderable items using order picklists configured by MIE Implementer or superusers.
 
 See other help documentation titled *Encounters - Protocol Configuration Programming.pdf*
+
+## Learning Management System
+
+To learn more about Encounter Protocols, follow the link below to the Learning Management System course:
+
+* [Protocols](https://mie.talentlms.com/shared/start/key:SOTRKMFP)
