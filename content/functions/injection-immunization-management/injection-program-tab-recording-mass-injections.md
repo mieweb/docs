@@ -1,13 +1,14 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2024-05-20T13:53:53.545Z'
-version: 236
+date: '2024-07-11T18:10:11.039Z'
+version: 255
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
+  - 'https://mie.talentlms.com/shared/start/key:LSAIDNHR'
 source: 'https://drive.google.com/open?id=1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -117,3 +118,9 @@ It will have uploaded that injection record into that patient's chart and the sc
 The Flu Injection Program tab keeps the prior patient's injection field information so you do not have to repeat typing in the same data information. Please change applicable field data though if there is a different vial#, etc. As long as you stay in this tab program, the fields will continue to be remembered from the last previous entry.
 
 ![](../injection-program-tab-recording-mass-injections.assets/d94e3722e73fec54802d1518d769a56f.png)
+
+## Learning Management System
+
+To learn more about the Injection Program Tab - Recording Mass Injections, follow the link below to the Learning Management System course:
+
+* [Mass Injection Management/Flu Program](https://mie.talentlms.com/shared/start/key:LSAIDNHR)
