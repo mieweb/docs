@@ -1,13 +1,14 @@
 ---
 id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 title: 'Adding Restrictions and Accommodations'
-date: '2022-01-04T12:03:57.110Z'
-version: 126
-lastAuthor: 'anichols'
+date: '2024-07-11T20:02:43.582Z'
+version: 137
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-restrictions-and-accommodations.md'
   - 'editing-restriction-types.md'
+  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -163,3 +164,9 @@ Current restrictions, that encompass today's date, are always shown in the dark 
 Any active current restrictions that are specifically linked to a case/incident are also shown on the side chart.  When you open the side chart, open cases/incidents are shown and when you expand it, the linked restrictions & accommodations will be visible there also.
 
 ![](../adding-restrictions-and-accommodations.assets/84e3a30309fbefe694909dd84db6e6e3.png)
+
+## Learning Management System
+
+To learn more about Adding Restrictions and Accommodations, follow the link below to the Learning Management System course:
+
+* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
