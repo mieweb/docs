@@ -1,8 +1,8 @@
 ---
 id: '1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
 title: 'Viewing Restrictions and Accommodations'
-date: '2024-07-11T20:08:21.926Z'
-version: 61
+date: '2024-07-11T20:09:36.019Z'
+version: 63
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
