@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-06-07T15:54:48.022Z'
-version: 312
+date: '2024-07-11T20:52:18.689Z'
+version: 345
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -453,7 +453,6 @@ The Individual Security settings screen for that user will open. Select any secu
 * Dispense Inventory: Allows users access to dispense and undispense meds for a patient in the patient's Dispense chart tab.
 * Return Fills to Inventory: Allows users access to return a fill to inventory in Dispense chart tab for a patient.
 * View Transactions: Allows users access to view inventory via Transaction Reports tab of Inventory module.
-* Edit Transactions: Allows users access to the Edit Transaction hyperlink option in Transaction Reports tab of Inventory module.
 * Edit Inventory Mappings: Allows users to map inventory items to orders, meds, injections and allows users ability to edit those mappings of inventory items in the Mappings tab of Inventory module.
 * Edit Master Inventory List: Allows users to add items to allowed general inventory and ability to edit names and aliases of allowed general inventory items to the system via the Control tab of Inventory module.
 * Merge Inventory Items: Allows users to merge two or more general inventory items into a single inventory item via the Control tab or Mappings tab of Inventory module.
