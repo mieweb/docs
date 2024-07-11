@@ -1,14 +1,15 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2024-05-20T13:50:36.587Z'
-version: 425
+date: '2024-07-11T18:36:12.778Z'
+version: 510
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'observations-tab.md'
   - 'observation-codes-editor.md'
   - 'observation-code-merging.md'
+  - 'https://mie.talentlms.com/shared/start/key:ALOHRKMF'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -203,3 +204,9 @@ observationValueByName('Number of Days') + observationValueByName('Number of Dri
 ```
 
 With the script ready, create a Total or Total Score observation, as needed. Edit the observation and add the calculation script and save.
+
+## Learning Management System
+
+To learn more about the Flowsheets Editor, follow the link below to the Learning Management System course:
+
+* [Flowsheets](https://mie.talentlms.com/shared/start/key:ALOHRKMF)
