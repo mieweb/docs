@@ -1,12 +1,13 @@
 ---
 id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 title: 'Encounters Protocol Configuration & Programming'
-date: '2024-05-20T16:16:25.636Z'
-version: 184
+date: '2024-07-11T19:21:55.646Z'
+version: 193
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observation-flowsheets.md'
+  - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -365,3 +366,9 @@ Then program any order item contents in that group.
 Then each order item in the picklist named the protocol name (that matches the encounter selected protocol) will display as an **add xxx to exam** hyperlink in the Treatments section (treatments is found in the Plan section) which you can click.
 
 ![](../encounters-protocol-configuration-and-programming.assets/49848db96de558d42ffea2ef3dd526aa.png)
+
+## Learning Management System
+
+To learn more about Encounters Protocol Configuration & Programming, follow the link below to the Learning Management System course:
+
+* [Protocols](https://mie.talentlms.com/shared/start/key:SOTRKMFP)
