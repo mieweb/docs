@@ -1,8 +1,8 @@
 ---
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
-date: '2024-03-15T15:05:52.573Z'
-version: 257
+date: '2024-07-15T19:08:36.703Z'
+version: 281
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,6 +11,7 @@ links:
   - '../../system-administration/interfaces/audio-tool-tab.md'
   - '../../system-administration/interfaces/device-interface-audio-system.md'
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -139,3 +140,9 @@ For more information on device interfaces and file uploads, see the help documen
 {{% system-name %}} has several out of the box Audiogram reports. Click on the *Reports* sidemenu to navigate to the Reports module. The Reports landing page lists each report along the left side of the screen. While Audiogram reports display near the top of this list, other reports require scrolling. Therefore, top menu tabs have been added to break this list up into easily identifiable sections. Audio reports display under the Visits tab. Clicking on the main reports landing page or the report under the Visit tab, will navigate users to the standard Audiogram reports.
 
 ![](../audiogram-data-entry.assets/dc010928e17fc05064d152dd62d48477.png)
+
+## Learning Management System
+
+To learn more about Audiogram Data Entry, follow the link below to the Learning Management System course:
+
+* [Audiometric Testing](https://mie.talentlms.com/shared/start/key:ZOLDNHRK)
