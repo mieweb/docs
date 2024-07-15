@@ -1,15 +1,16 @@
 ---
 id: '1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
 title: 'PFT Data Entry'
-date: '2020-03-06T20:35:16.544Z'
-version: 53
-lastAuthor: ''
+date: '2024-07-15T20:36:08.052Z'
+version: 63
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
   - '../scanning-and-indexing/indexing.md'
   - '../../system-administration/interfaces/device-interface-pft-system.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
+  - 'https://mie.talentlms.com/shared/start/key:ZOADNHRK'
 source: 'https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -95,3 +96,9 @@ When accessing the the Test Results chart tab after adding a new PFT, there is t
 These types of report links are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The PFT Summary Report is available here, for example.
 
 ![](../pft-data-entry.assets/e9ba582146e4a9234b994517c3a83443.png)
+
+## Learning Management System
+
+To learn more about PFT Data Entry, follow the link below to the Learning Management System course:
+
+* [Pulmonary Function Testing](https://mie.talentlms.com/shared/start/key:ZOADNHRK)
