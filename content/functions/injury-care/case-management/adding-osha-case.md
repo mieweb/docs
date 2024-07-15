@@ -1,12 +1,13 @@
 ---
 id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 title: 'Adding OSHA Case'
-date: '2020-03-13T13:18:41.709Z'
-version: 72
-lastAuthor: ''
+date: '2024-07-15T13:07:51.265Z'
+version: 80
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
+  - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
 source: 'https://drive.google.com/open?id=1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -135,3 +136,9 @@ Some dynamic encounters offer an Incident Summary section.  This is an expandab
 {{% info %}}
 Various forms, in forms library, can be programmed to pull in case data details that were documented.  Contact your MIE Implementer if have specific forms that need generated routinely that may need case (incident) data overlaid.
 {{% /info %}}
+
+## Learning Management System
+
+To learn more about Adding an OSHA Case, follow the link below to the Learning Management System course:
+
+* [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)
