@@ -1,10 +1,12 @@
 ---
 id: '1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q'
 title: 'Travel Kits'
-date: '2020-02-27T20:08:18.497Z'
-version: 60
+date: '2024-07-15T17:19:40.180Z'
+version: 67
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LGGIDNHR'
 source: 'https://drive.google.com/open?id=1ganER9yRekC6KWiD3_y81_qNYQ5QB6T5rP4OUstsV3Q'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -117,3 +119,9 @@ Then the screen will refresh to take you to the Medications chart tab where it s
 If you will be dispensing the meds inhouse for the travel/medication kit, you can go to the Dispense tab found in {{% system-name %}} to see the medications prescribed from the travel kit to dispense.
 
 ![](../travel-kits.assets/8c1ac3eaa44f9b441be803c91a7ded90.png)
+
+## Learning Management System
+
+To learn more about Travel Kits, follow the link below to the Learning Management System course:
+
+* [Work Related Exam - Travel Management](https://mie.talentlms.com/shared/start/key:LGGIDNHR)
