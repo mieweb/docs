@@ -1,10 +1,12 @@
 ---
 id: '1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
 title: 'Health Surveillance Panels - Automated Membership'
-date: '2020-02-27T20:00:00.803Z'
-version: 38
+date: '2024-07-15T15:31:48.751Z'
+version: 46
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -77,3 +79,9 @@ Automated membership rules also look at what charts are considered "active", so 
 ![](../health-surveillance-panels-automated-membership.assets/da1675830a03fdbfb585387a87f5d283.png)
 
 Also, whenever the Panel Action Evaluator runs, any pending orders for patients with explicit panel memberships will be deleted if that patient fails the Active Patient Clause criteria.
+
+## Learning Management System
+
+To learn more about Health Surveillance Panels - Automated Memberships, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
