@@ -1,14 +1,15 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2024-07-11T18:10:11.039Z'
-version: 255
+date: '2024-07-15T16:16:12.616Z'
+version: 264
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
   - 'http://immunize.org'
   - 'https://mie.talentlms.com/shared/start/key:LSAIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:SOBRKMFP'
 source: 'https://drive.google.com/open?id=1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -121,6 +122,7 @@ The Flu Injection Program tab keeps the prior patient's injection field informat
 
 ## Learning Management System
 
-To learn more about the Injection Program Tab - Recording Mass Injections, follow the link below to the Learning Management System course:
+To learn more about the Injection Program Tab - Recording Mass Injections, follow the links below to the Learning Management System courses:
 
 * [Mass Injection Management/Flu Program](https://mie.talentlms.com/shared/start/key:LSAIDNHR)
+* [Flu Program Annual Health Surveillance/Supported Workflow (including NHSN standard report)](https://mie.talentlms.com/shared/start/key:SOBRKMFP)
