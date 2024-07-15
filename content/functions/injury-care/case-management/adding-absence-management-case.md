@@ -1,12 +1,13 @@
 ---
 id: '1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
 title: 'Adding Absence Management Case'
-date: '2021-09-30T18:35:29.344Z'
-version: 159
-lastAuthor: 'auhrick'
+date: '2024-07-15T17:44:47.385Z'
+version: 166
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions-and-accommodations.md'
+  - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
 source: 'https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -55,3 +56,9 @@ Refer to help documentation named [Restrictions and Accommodations](../adding-re
 ## Linking Documents to Cases
 
 Documents can be linked to cases.  This can be done via the **Edit Properties** of an existing stored document.  Documents can also be linked to cases when indexing from WebScan. Scheduled appointments can also be linked to cases when in the Add Appointment wizard, if necessary.
+
+## Learning Management System
+
+To learn more about Adding Absence Management Case, follow the link to the Learning Management System course:
+
+* [Absence Management](https://mie.talentlms.com/shared/start/key:LQTIDNHR)
