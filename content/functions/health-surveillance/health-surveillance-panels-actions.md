@@ -1,11 +1,12 @@
 ---
 id: '1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
 title: 'Health Surveillance Panels - Actions'
-date: '2020-03-13T15:11:36.505Z'
-version: 64
-lastAuthor: ''
+date: '2024-07-15T14:41:23.148Z'
+version: 71
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -103,3 +104,9 @@ This timeline diagram shows an example of a panel action item that is set for **
 This timeline diagram shows an example of a panel action item that is set for **Medical Anniversary Date** as the trigger date type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
 
 ![](../health-surveillance-panels-actions.assets/65bb3f15bc1b57b92d30600c48d06300.png)
+
+## Learning Management System
+
+To learn more about Health Surveillance Panels - Actions, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
