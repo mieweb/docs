@@ -1,10 +1,12 @@
 ---
 id: '1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
 title: 'Adding/Editing Health Surveillance Panels'
-date: '2020-02-27T19:59:26.235Z'
-version: 39
+date: '2024-07-15T14:33:05.504Z'
+version: 46
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -89,3 +91,9 @@ You can edit any field regarding the panel. When you are done, you **must** type
 It is a required field. Then click the SUBMIT button and it will save your edits and track you as the user who modified and the date/time of modification.
 
 ![](../adding-editing-health-surveillance-panels.assets/b730b905d95f04265800da0bc3d36515.png)
+
+## Learning Management System
+
+To learn more about Adding/Editing Health Surveillance Panels, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
