@@ -1,11 +1,12 @@
 ---
 id: '1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
 title: 'Claims Report'
-date: '2024-01-25T20:55:57.738Z'
-version: 88
-lastAuthor: 'anichols'
+date: '2024-07-15T13:39:25.363Z'
+version: 95
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
 source: 'https://drive.google.com/open?id=1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -54,3 +55,9 @@ The output of the report may cause you to scroll left and right to see all the c
 The Claims Report is easily downloadable into a CSV format.  Simply click the *Generate CSV* icon (looks like a corner fold paper icon), which will then turn into a *Download CSV* icon to click (looks like an in-box tray icon) to generate the report's output into a CSV downloadable file.  Store to your folder location of choice.
 
 ![](../claims-report.assets/7c661563333a8741a9d0ea8353fcef59.png)
+
+## Learning Management System
+
+To learn more about the Claims Report, follow the link below to the Learning Management System course:
+
+* [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)
