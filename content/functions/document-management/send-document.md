@@ -1,17 +1,18 @@
 ---
 id: '1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
 title: 'Send Document'
-date: '2022-03-24T12:38:33.377Z'
-version: 184
-lastAuthor: 'aris'
+date: '2024-07-15T14:00:58.731Z'
+version: 222
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:SLERKMFP'
 source: 'https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Send Document
 
-# Overview
+## Overview
 
 Users are able to send a document to specific recipients.
 
@@ -28,7 +29,7 @@ Depending on the recipient of the document and what their email address is, we h
 
 Users are also able to select an "Employer" and perform the above actions on the related contacts.  Related contacts are found under the employer's Overview (EO) chart tab in the Contacts section.  These contacts have to be active users in the system, which means they need to be Login Enabled and have credentials to access the system.
 
-# Setup involved
+## Setup involved
 
 1. User Permissions
     1. "Securely Email Documents" - This is used when send documents as attachments
@@ -40,9 +41,9 @@ Users are also able to select an "Employer" and perform the above actions on the
 
 ![](../send-document.assets/da668975187ff27da42b8517a5c343cd.png)
 
-# Workflow
+## Workflow
 
-## Begin with
+### Begin with
 
 First you have to find a document and hover over the top section like so:
 
@@ -64,7 +65,7 @@ The "Send Document" window will pop up:
     1. Users are able to create a new contact if needed
 4. "Employer" is an autocomplete input for all Employer Organizations
 
-## Add new Contact
+### Add new Contact
 
 The following screenshot explain how you can add a new contact
 
@@ -74,7 +75,7 @@ The following screenshot explain how you can add a new contact
 
 ![](../send-document.assets/49323c26fe71d0e02dd116fe0ed31bbb.png)
 
-## Send the document
+### Send the document
 
 On the above screen, users can create a new contact chart and link a specific employer if needed.
 
@@ -106,7 +107,7 @@ This is what the email looks on my email application
 
 ![](../send-document.assets/8647a2b13493cfb0c39ac928a023ff17.png)
 
-## Employer Contacts
+### Employer Contacts
 
 On the other hand, if I enter "Better Corp" in the Employers autocomplete input, get the following screen:
 
@@ -129,3 +130,9 @@ You can then select the ones that they want to send the document to.  The action
 After you select contacts and click the "Send" button the window might look something like this:
 
 ![](../send-document.assets/e357d249f5d5f2027d0149d1ed9f7f9b.png)
+
+## Learning Management System
+
+To learn more about Sending a Document, follow the link below to the Learning Management System course:
+
+* [Patient Portal Send Document on Demand](https://mie.talentlms.com/shared/start/key:SLERKMFP)
