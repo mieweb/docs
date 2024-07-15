@@ -1,10 +1,12 @@
 ---
 id: '1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
 title: 'Health Surveillance Panels - Add Memberships Manually'
-date: '2020-02-27T19:59:52.225Z'
-version: 39
+date: '2024-07-15T14:53:47.238Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -59,3 +61,9 @@ This is where you type in the reason for changing or adding an employee to panel
 Once you do indicate (by checkmarking) that an employee's chart should be a member of a panel(s) using this method, after the final SUBMIT button at the bottom of the screen is clicked, the panel's action items are evaluated on the employee's chart. The specific panel action items (according to criteria programmed on them) will trigger on the employee's Due List as soon as you have made them a member of a panel(s) and clicked the final SUBMIT button. Essentially, the SUBMIT button acts as a force/evaluate panel order items all in one step. You can go the employee's View Due List chart tab to see the action items that triggered according to the panel(s) you just manually made them a member of.
 
 ![](../health-surveillance-panels-add-memberships-manually.assets/0f91475b9ba75bf1486087f0480eaf45.png)
+
+## Learning Management System
+
+To learn more about Health Surveillance Panels - Add Memberships Manually, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
