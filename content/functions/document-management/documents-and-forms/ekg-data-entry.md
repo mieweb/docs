@@ -1,15 +1,16 @@
 ---
 id: '1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
 title: 'EKG Data Entry'
-date: '2020-03-06T20:29:53.003Z'
-version: 38
-lastAuthor: ''
+date: '2024-07-15T20:28:25.445Z'
+version: 61
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
   - '../scanning-and-indexing/indexing.md'
   - '../../system-administration/interfaces/device-interface-ekg-system.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
+  - 'https://mie.talentlms.com/shared/start/key:ZOEDNHRK'
 source: 'https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -76,3 +77,9 @@ For more information on device interfaces and file uploads, see the help documen
 These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The EKG Report is available here, for example.
 
 ![](../ekg-data-entry.assets/a57850af2a38f3b4acf4b361c87680b1.png)
+
+## Learning Management System
+
+To learn more about EKG Data Entry, follow the link below to the Learning Management System course:
+
+* [EKG Management](https://mie.talentlms.com/shared/start/key:ZOEDNHRK)
