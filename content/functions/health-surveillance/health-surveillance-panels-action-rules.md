@@ -1,11 +1,12 @@
 ---
 id: '10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc'
 title: 'Health Surveillance Panels - Action Rules'
-date: '2020-03-13T15:15:41.577Z'
-version: 91
-lastAuthor: ''
+date: '2024-07-15T14:46:39.595Z'
+version: 100
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -88,3 +89,9 @@ When you are done editing an Action Rule for your system (which show up as contr
 It will show the edited action rule in the listedit above. However you need to click the SUBMIT button. If you do not click the submit button, it will not save your work/edits to the system.
 
 ![](../health-surveillance-panels-action-rules.assets/b4fcf687c13ef41e6212c54895d8dbdd.png)
+
+## Learning Management System
+
+To learn more about Health Surveillance Panels - Action Rules, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
