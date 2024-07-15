@@ -1,11 +1,12 @@
 ---
 id: '1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A'
 title: 'Industrial Hygiene'
-date: '2020-03-05T15:56:04.336Z'
-version: 39
-lastAuthor: ''
+date: '2024-07-15T18:07:37.367Z'
+version: 44
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQQIDNHR'
 source: 'https://drive.google.com/open?id=1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -28,3 +29,9 @@ Items that are pending development are listed below. Sections 3-6 are complete. 
 9. Corrective Actions - Monitoring
 10. Reporting Results
 11. Recharge/Billing for Service
+
+## Learning Management System
+
+To learn more about Industrial Hygiene, follow the link below to the Learning Management System course:
+
+* [Industrial Hygiene](https://mie.talentlms.com/shared/start/key:LQQIDNHR)
