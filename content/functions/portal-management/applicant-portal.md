@@ -1,13 +1,14 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2021-03-31T21:08:57.956Z'
-version: 208
-lastAuthor: 'auhrick'
+date: '2024-07-15T16:56:48.175Z'
+version: 233
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+'
   - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43'
+  - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -16,7 +17,7 @@ With the web-based **Applicant Portal**, all prospective employees can be direc
 In order to effectively implement the Applicant Portal, clients will need to work with the Deployment Consultant(s) to determine any preferred configurations and needs required for pre-employment, hiring, and onboarding processes. Once the portal has been configured, the URL will be made available for marketing purposes.
 
 {{% info %}}
-Permitted users will have the ability to edit the title, color scheme, instructions, and available questionnaires from the Provider Management sidemenu, as needed. These configurations will then be visible within the portal accessed by the candidates.
+Permitted users will have the ability to edit the title, color scheme, instructions, and available questionnaires from the Employer Organization sidemenu, as needed. These configurations will then be visible within the portal accessed by the candidates.
 {{% /info %}}
 
 ## Portal Setup
@@ -29,7 +30,7 @@ The following items are considerations to be discussed with the Deployment Consu
 
 **Order Picklist**: Any questionnaires being used for the Applicant Portal must fall within an order picklist. Work with the Deployment Consultant(s) to ensure an order picklist is configured, listing each questionnaire needed for the Applicant Portal.
 
-**Applicant Portal PO Chart Tab**: Customizations to the Applicant Portal can be done through the Applicant Portal chart tab of the Provider Organization (PO), as needed. It is through the Applicant Portal chart tab that users with the appropriate permissions may configure the portal components. The portal URL suffix will be provided from this tab, as well, which will be appended to the production database base URL and distributed for use.
+**Applicant Portal EO Chart Tab**: Customizations to the Applicant Portal can be done through the Applicant Portal chart tab of the Provider Organization (PO), as needed. It is through the Applicant Portal chart tab that users with the appropriate permissions may configure the portal components. The portal URL suffix will be provided from this tab, as well, which will be appended to the production database base URL and distributed for use.
 
 **Tasking**: It is important to discuss and determine any tasklist events needing triggered whenever applicants register and submit information via the Applicant Portal.
 
@@ -168,3 +169,9 @@ These Security Requirements should always be followed for ensuring the proper se
 4. Click the header to open the <strong>Applicant Portal Setup</strong> section.
 5. Click the <strong>Run Setup</strong> button.
 6. From the <strong>Applicant Portal</strong> tab, configure the portal, as needed.
+
+## Learning Management System
+
+To learn more about the Applicant Portal, follow the link below to the Learning Management System course:
+
+* [Pre-employment Management (and Applicant Portal)](https://mie.talentlms.com/shared/start/key:LGSIDNHR)
