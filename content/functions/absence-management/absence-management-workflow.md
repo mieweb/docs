@@ -1,12 +1,13 @@
 ---
 id: '1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
 title: 'Absence Management Workflow'
-date: '2023-07-12T15:51:00.392Z'
-version: 270
-lastAuthor: 'bhamm'
+date: '2024-07-15T17:27:46.181Z'
+version: 277
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../injury-care/adding-restrictions-and-accommodations.md'
+  - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
 source: 'https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -145,3 +146,9 @@ The system comes with several standard emails which can be emailed to the employ
 ### FMLA email template options
 
 ![](../absence-management-workflow.assets/dcf31d76f84df21f5c20e88e60e0edb7.png)
+
+## Learning Management System
+
+To learn more about the Absence Management Workflow, follow the link below to the Learning Management System course:
+
+* [Absence Management](https://mie.talentlms.com/shared/start/key:LQTIDNHR)
