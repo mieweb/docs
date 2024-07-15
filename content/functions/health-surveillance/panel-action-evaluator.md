@@ -1,11 +1,12 @@
 ---
 id: '1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g'
 title: 'Panel Action Evaluator'
-date: '2020-03-13T15:20:58.197Z'
-version: 67
-lastAuthor: ''
+date: '2024-07-15T15:42:33.113Z'
+version: 77
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -77,3 +78,9 @@ Once you click the hyperlink, you can select a patient via the auto-complete fie
 Once you click the SUBMIT button, it will tell you if the patient/employee is considered Active or not for the specific Health Surveillance purposes according to the criteria programming of that system setting.
 
 ![](../panel-action-evaluator.assets/0af9d9de474916a79da2a26b084a2aa0.png)
+
+## Learning Management System
+
+To learn more about the Panel Action Evaluator, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
