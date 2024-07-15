@@ -1,13 +1,14 @@
 ---
 id: '1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
 title: 'Due List'
-date: '2023-10-16T19:26:55.860Z'
-version: 148
-lastAuthor: 'anichols'
+date: '2024-07-15T15:56:32.910Z'
+version: 155
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/patient-summary-interactive-chart-tab.md'
   - '../reports/using-datavis-grids-data-tools.md'
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -255,3 +256,9 @@ There is a left to right scrollable bar to see additional columns of information
 Edit Items is a function button found in both the In Progress and Past Items sections.  This is also found in the Pending Items section and each selection available in the Edit Items button.  Items in the In Progress and Past Items sections can be edited to update their status, change their due dates, add comments, or update as completed with a completion date.  The Edit Items screen and fields are described in above documentation.
 
 ![](../due-list.assets/b02259fb80cf7ec8ebcd6810e572be09.png)
+
+## Learning Management System
+
+To learn more about the Due List, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
