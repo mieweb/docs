@@ -1,13 +1,14 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2024-06-11T17:45:28.237Z'
-version: 596
+date: '2024-07-15T13:49:03.586Z'
+version: 622
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist'
   - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
+  - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -546,3 +547,9 @@ A provider Organization partition needs added if it does not already exist, usin
         1. Verify that the WCPATED doc type (Clinical Summary/Patient Education) does not contain the NMC information located at the bottom of the document.
 
 {{% /only %}}
+
+## Learning Management System
+
+To learn more about the Patient Portal First-Time Setup & Configuration, follow the link below to the Learning Management System course:
+
+* [Patient Portal](https://mie.talentlms.com/shared/start/key:AGLHRKMF)
