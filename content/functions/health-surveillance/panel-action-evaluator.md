@@ -1,8 +1,8 @@
 ---
 id: '1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g'
 title: 'Panel Action Evaluator'
-date: '2024-07-15T15:42:33.113Z'
-version: 77
+date: '2024-07-15T15:43:27.901Z'
+version: 78
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
