@@ -1,14 +1,15 @@
 ---
 id: '1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA'
 title: 'Driver Fitness Determination Exam (DOT)'
-date: '2020-03-12T20:38:19.609Z'
-version: 91
-lastAuthor: ''
+date: '2024-07-15T16:28:16.045Z'
+version: 98
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.fmcsa.dot.gov/medical/driver-medical-requirements/driver-medical-fitness-duty'
   - '../../injury-care/work-status.md'
   - 'https://www.fmcsa.dot.gov/regulations/medical'
+  - 'https://mie.talentlms.com/shared/start/key:LGAIDNHR'
 source: 'https://drive.google.com/open?id=1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -222,3 +223,9 @@ The Driver Fitness Determination Certificate (MCSA-5876) must be validated with 
 * <strong>Medical Examiner's Credentials</strong> - A wet signature is required, along with the examining provider's credentialing information, such as the Medical Examiner phone number, State Medical Licence number, National Registry Number, and Certificate or Registration number with issuing state.
 
 Instructions and regulations for Completing the Medical Examination Report Form (MCSA-5875) and Certificate (MCSA-5876) can found at https://www.fmcsa.dot.gov/regulations/medical
+
+## Learning Management System
+
+To learn more about the Driver Fitness Determination Exam (DOT), follow the link below to the Learning Management System course:
+
+* [Driver Fitness Determination](https://mie.talentlms.com/shared/start/key:LGAIDNHR)
