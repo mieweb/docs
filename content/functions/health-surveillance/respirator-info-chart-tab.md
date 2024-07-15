@@ -1,10 +1,12 @@
 ---
 id: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 title: 'Respirator Info Chart Tab'
-date: '2020-02-27T20:00:56.891Z'
-version: 39
+date: '2024-07-15T20:45:47.887Z'
+version: 47
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZOGDNHRK'
 source: 'https://drive.google.com/open?id=1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -43,3 +45,9 @@ To add a new respirator fit testing entry:
 When done with that entry, click the ADD button to make it appear in the above flowsheet. You can add another entry if youwish. However, nothing is saved until the SAVE button is clicked at the bottom of this screen.
 
 Once done with any entries to the Respirator Fit Testing section, make sure you click the SAVE button at the very bottom ofthe screen to save all your entries. There is no way to ‘edit' an entry, but you could delete it by using the [ - ] button and re-entering it and using the *add* button.
+
+## Learning Management System
+
+To learn more about the Respirator Info Chart Tab, follow the link below to the Learning Management System course:
+
+* [Respirator Fit Testing](https://mie.talentlms.com/shared/start/key:ZOGDNHRK)
