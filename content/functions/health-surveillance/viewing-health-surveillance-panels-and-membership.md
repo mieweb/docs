@@ -1,10 +1,12 @@
 ---
 id: '1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 title: 'Viewing Health Surveillance Panels & Membership'
-date: '2020-02-27T20:00:28.475Z'
-version: 40
+date: '2024-07-15T15:49:01.533Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -83,3 +85,9 @@ There are several columns of additional information such as:
 * <strong>Imp/Exp:</strong> This will signify <em>explicit</em> if the membership is explicit. Explicit membership means a user individually (manually) identifies/puts an employee as a member of a panel. <em>Note: The |system| Panel Membership Import Tool (if used) places employee's into those panels as an explicit membership also.</em> Explicit membership is "sticky" meaning the membership to a panel does not automatically end when the employee changes jobs, work locations, departments, etc. if automated membership rules are in place. This will signify <em>implicit</em> if the employee membership is created when an automated {{% system-name %}} panel membership rule indicates that an employee should be placed as a member of a panel.
 * <strong>User:</strong> The user initials of whom last edited/added/removed membership on the employee to this panel.
 * <strong>Reason:</strong> The free text comments that a user types to signify reason for edit/add/removal on the employee to the panel.
+
+## Learning Management System
+
+To learn more about Viewing Health Surveillance Panels & Membership, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
