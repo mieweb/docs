@@ -1,9 +1,9 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2024-03-19T13:18:38.161Z'
-version: 368
-lastAuthor: 'auhrick'
+date: '2024-07-15T19:00:37.866Z'
+version: 386
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/'
@@ -11,6 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/'
   - '../../document-management/scanning-and-indexing/indexing-bubble-forms.md'
   - '../../document-management/scanning-and-indexing/indexing.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -146,3 +147,9 @@ When the audiogram has been completed and the encounter exam is archived and clo
 ![](../audio-tool-tab.assets/a50c6d25ee271a8234b76c3017deae01.png)
 
 To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../../document-management/scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../../document-management/scanning-and-indexing/indexing.md) online help documentation.
+
+## Learning Management System
+
+To learn more about the Audio Tool Tab, follow the link below to the Learning Management System course:
+
+* [Audiometric Testing](https://mie.talentlms.com/shared/start/key:ZOLDNHRK)
