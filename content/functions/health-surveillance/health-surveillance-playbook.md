@@ -1,9 +1,9 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2023-06-26T19:23:46.066Z'
-version: 399
-lastAuthor: 'bhamm'
+date: '2024-07-15T16:03:31.021Z'
+version: 413
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'health-surveillance-matrix-descriptions.md'
@@ -17,6 +17,7 @@ links:
   - '../system-configuration/work-locations-tab-work-regions.md'
   - 'health-surveillance-panels-action-rules.md'
   - '../health-surveillance.md'
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -703,3 +704,9 @@ After importing the data, a pop-up will display all statuses.
 {{% note %}}
 For auditing purposes, it is recommended that users go into the newly imported panel(s) to ensure all action items/rules, order items, contraindications, appt types, visit types, events, etc., are all set and imported, as needed. Of course, users may edit any panels once they are imported. This is simply a quick way to copy/paste panels from one system into another.
 {{% /note %}}
+
+## Learning Management System
+
+To learn more about the Health Surveillance Playbook, follow the link below to the Learning Management System course:
+
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
