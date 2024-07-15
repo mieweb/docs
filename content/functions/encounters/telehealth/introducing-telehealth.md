@@ -1,15 +1,16 @@
 ---
 id: '1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
 title: 'Introducing TeleHealth'
-date: '2022-09-22T16:29:19.835Z'
-version: 176
-lastAuthor: 'auhrick'
+date: '2024-07-15T14:25:13.963Z'
+version: 189
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing'
   - 'https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU'
   - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
   - 'telehealth-pricing.md'
+  - 'https://mie.talentlms.com/shared/start/key:AGBHRKMF'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -135,3 +136,9 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ![](../introducing-telehealth.assets/d8d695db6dcdd871a38ba8d0d483fdb3.jpg)
 
 ![](../introducing-telehealth.assets/b81e1c05d35c04b4495433b7c5a433be.jpg)
+
+## Learning Management System
+
+To learn more about TeleHealth, follow the link below to the Learning Management System course:
+
+* [TeleHealth](https://mie.talentlms.com/shared/start/key:AGBHRKMF)
