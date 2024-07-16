@@ -1,11 +1,12 @@
 ---
 id: '19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
 title: 'Reset User Passwords'
-date: '2024-07-16T14:26:59.744Z'
-version: 123
-lastAuthor: 'auhrick'
+date: '2024-07-16T19:55:34.082Z'
+version: 131
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -75,3 +76,9 @@ Users on 202403 and newer that log in a portal with a manual login and password,
 Security role setting "Manage Users" must be set to ‘Edit Self'.
 
 ![](../reset-user-passwords.assets/3ec990ae063884d89c07d3e583d2fe97.png)
+
+## Learning Management System
+
+To learn more about Resetting User Passwords, follow the link below to the Learning Management System course:
+
+* [Access Control](https://mie.talentlms.com/shared/start/key:LTZIDNHR)
