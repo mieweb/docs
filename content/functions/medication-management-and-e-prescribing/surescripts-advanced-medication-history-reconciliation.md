@@ -1,12 +1,13 @@
 ---
 id: '1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
 title: 'SureScripts Advanced - Medication History Reconciliation'
-date: '2024-03-07T15:49:36.630Z'
-version: 137
-lastAuthor: 'auhrick'
+date: '2024-07-16T14:33:25.338Z'
+version: 266
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'surescripts-advanced-prescription-and-insurance-eligibility-requests.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZOQDNHRK'
 source: 'https://drive.google.com/open?id=1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -69,3 +70,14 @@ When done selecting which items or the entire medication section to bring over, 
 You will be taken back to the patient's E-Meds tab where you were. You can refresh your page and you will then see the patient's medication history in {{% system-name %}} populated with what medication history transferred in from the SureScripts Advanced database for that patient when you did the Medication History request. You've now just transferred in medication history electronically for that patient without having to manually enter it in the patient's chart.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/96e4487f8fef1328f90c7dddb302e749.png)
+
+## Technical Description
+
+1. Fetch XML
+2. Store as a document in the chart
+
+## Learning Management System
+
+To learn more about SureScripts Advanced - Medication Reconciliation, follow the link below to the Learning Management System course:
+
+* [Data Comparison / Reconciliation Toolset (FroozHIE)](https://mie.talentlms.com/shared/start/key:ZOQDNHRK)
