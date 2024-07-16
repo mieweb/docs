@@ -1,12 +1,13 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-07-11T20:52:18.689Z'
-version: 345
+date: '2024-07-16T20:34:04.990Z'
+version: 361
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
+  - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -424,7 +425,7 @@ The Individual Security settings screen for that user will open. Select any secu
 
 ### EMR
 
-* View Encounters: This allows access to view the side menu tab named Encounters. Some systems have this tab, others do not.  This is a worklist of encounters open. Some clients keep that worklist in Omniscope instead.
+* View Encounters: If the security role is set to "Yes", then the user has access to Add <strong>AND</strong> Edit encounters. If set to "No", then the user will not have access to view encounters in patient charts, portlets or other areas you may have encounter lists.
 * Delete Encounters:  Allows users in a role to delete a patient's encounters. The delete link will appear on a list of patient's encounters if they are allowed to have this permission.
 * Link Documents to Encounters: Allows users in a role to link stored documents to a specific encounter.
 * Reopen Closed Encounters:  Allows users in a role to reopen closed encounters.  If the encounter is closed and this permission is set to No, the user will not be able to view or edit any closed encounters.  They would have to edit the archived document of the encounter. An e-sign rule can be set up to notify physicians to sign again if an edit is done that way.  If this setting is set to Yes, the user will be able to reopen a closed encounter by clicking the set open link in the patient's list of encounters. If using this security setting (by restricting users to No for reopen closed encounters) then you must have the system setting turned on for Show Set Open Link by MIE so the allowed users can see the set open link.
@@ -524,3 +525,9 @@ When done making changes to security permissions, you must type in a reason for 
 To save the settings, click the Update Role button at the bottom of the screen if editing settings for the entire security role.
 
 Or click Update Individual Security at the bottom of the screen if editing settings for a specific individual user.
+
+## Learning Management System
+
+To learn more about Security Role Settings, follow the link below to the Learning Management System course:
+
+* [Security Roles](https://mie.talentlms.com/shared/start/key:LTEIDNHR)
