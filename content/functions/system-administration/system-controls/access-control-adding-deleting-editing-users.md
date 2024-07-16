@@ -1,13 +1,14 @@
 ---
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
-date: '2024-05-15T19:32:50.932Z'
-version: 193
+date: '2024-07-16T19:42:01.881Z'
+version: 204
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'access-control-quick-add-multiple-active-users.md'
   - 'setting-up-e-prescribers.md'
+  - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -209,3 +210,9 @@ If you have security role permission, this link will appear. You can click this 
 #### View User Revisions
 
 If you have security role permission, this link will appear. You can click this link to view dates and who revised anything for that user in their user screen.
+
+## Learning Management System
+
+To learn more about Access Control - Adding, Deleting, Editing Users, follow the link below to the Learning Management System course:
+
+* [Access Control](https://mie.talentlms.com/shared/start/key:LTZIDNHR)
