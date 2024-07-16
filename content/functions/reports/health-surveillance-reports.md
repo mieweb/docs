@@ -1,11 +1,12 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2024-02-21T12:30:05.116Z'
-version: 295
-lastAuthor: 'anichols'
+date: '2024-07-16T13:33:28.231Z'
+version: 317
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:SZTRKMFP'
 source: 'https://drive.google.com/open?id=16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -164,7 +165,7 @@ The Performance Metrics report can be used to evaluate participation and complia
 
 ## Respirator Roster in Memberships
 
-The Respirator Roster report displays all individual charts that are in active health surveillance panel membership in one of the following panels: SCBA, Resp Fit, Resp Med Approval, and/or Respirator Medical Approval-Voluntary along with latest respiratory fit details IF their 'Last Fit Expires' date has not yet expired. If the active health surveillance member's 'Last Fit Test Expires' date is prior to today's date (meaning it's expired), that chart will not be listed on this report. Charts excluded from Quality Care are not included in the results of this report. Once the results display in the datavis outputs, further filtering, grouping, graphing, etc can be done.
+The Respirator Roster report displays any/all individual charts that are in active health surveillance panel membership in one of the following panels: SCBA, Resp Fit, Resp Med Approval, and/or Respirator Medical Approval-Voluntary along with latest respiratory fit details IF their 'Last Fit Expires' date has not yet expired. If the active health surveillance member's 'Last Fit Test Expires' date is prior to today's date (meaning it's expired), that chart will not be listed on this report. Charts excluded from Quality Care are not included in the results of this report. Once the results display in the datavis outputs, further filtering, grouping, graphing, etc can be done.
 
 ![](../health-surveillance-reports.assets/089a1c8b4b3856f038020fba2e513a88.png)
 
@@ -191,3 +192,9 @@ The Vision Screenings report looks for a Vision Screening due list item triggere
 The Written Opinions Past Due report displays a list of any Written Opinion due list items that are past due (past the due date on the Written Opinion due list item), its current status, if other corresponding panel action items (testing components) have been worked. Charts excluded from Quality Care are not included in the results of this report. Once the results display in the datavis outputs, further filtering, grouping, graphing, etc can be done.
 
 ![](../health-surveillance-reports.assets/722f93f45bced4a21b7cc8c14cf211ff.png)
+
+## Learning Management System
+
+To learn more about Health Surveillance Reports, follow the link below to the Learning Management System course:
+
+* [Respirator Fit Reports](https://mie.talentlms.com/shared/start/key:SZTRKMFP)
