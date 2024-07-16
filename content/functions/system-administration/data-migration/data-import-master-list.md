@@ -1,9 +1,9 @@
 ---
 id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 title: 'Data Import Master List'
-date: '2020-02-27T21:30:54.076Z'
-version: 129
-lastAuthor: 'aquandt'
+date: '2024-07-16T14:20:04.642Z'
+version: 136
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
@@ -46,6 +46,7 @@ links:
   - 'system-conversion.md'
   - 'https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI'
   - 'https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries'
+  - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
 source: 'https://drive.google.com/open?id=12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -443,3 +444,9 @@ Orders questions may be added using a template. There is also an editor within t
 * [System Conversion](system-conversion.md)
 * [Human Resources Interface](https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI)
 * [Medgate Conversion Queries](https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries)
+
+## Learning Management System
+
+To learn more about the Data Import Master List, follow the link below to the Learning Management System course:
+
+* [Data Import Tab](https://mie.talentlms.com/shared/start/key:ZOBDNHRK)
