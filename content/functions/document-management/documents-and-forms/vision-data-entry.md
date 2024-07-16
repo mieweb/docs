@@ -1,14 +1,15 @@
 ---
 id: '15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
 title: 'Vision Data Entry'
-date: '2020-03-06T20:17:50.609Z'
-version: 62
-lastAuthor: ''
+date: '2024-07-16T13:53:03.915Z'
+version: 69
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
   - '../scanning-and-indexing/indexing.md'
   - 'https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
+  - 'https://mie.talentlms.com/shared/start/key:LGTIDNHR'
 source: 'https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -84,3 +85,9 @@ For more information on device interfaces and file uploads, see the help documen
 These types of report links are generally found in the sidemenu tab, under the grouping of reports. These reports enable a client to review the various data captured during a visit, or encounter. The Vision Screenings report is available here, for example.
 
 ![](../vision-data-entry.assets/04f5c30a649a36abbd640bf475de447e.png)
+
+## Learning Management System
+
+To learn more about Vision Data Entry, follow the link below to the Learning Management System course:
+
+* [Vision Testing](https://mie.talentlms.com/shared/start/key:LGTIDNHR)
