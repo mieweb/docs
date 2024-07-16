@@ -1,11 +1,12 @@
 ---
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
-date: '2023-07-14T20:17:06.055Z'
-version: 130
-lastAuthor: 'sdrupa'
+date: '2024-07-16T16:10:27.339Z'
+version: 150
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
 source: 'https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -73,3 +74,9 @@ Filters you are already using still apply, if they don't conflict with the drill
 *after drilling down into Germany's banana orders*
 
 Click the **view history back arrow** in the **view toolbar section** to go back to the previous view.
+
+## Learning Management System
+
+To learn more about Using DataVis Grids - Data Tools, follow the link below to the Learning Management System course:
+
+* [Reports](https://mie.talentlms.com/shared/start/key:ALBHRKMF)
