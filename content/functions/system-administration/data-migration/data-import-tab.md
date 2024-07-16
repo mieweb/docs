@@ -1,11 +1,12 @@
 ---
 id: '1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 title: 'Data Import Tab'
-date: '2020-03-17T03:04:04.539Z'
-version: 91
-lastAuthor: ''
+date: '2024-07-16T14:05:48.793Z'
+version: 103
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
 source: 'https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -141,3 +142,9 @@ For a list of your systems active panel membership options, please utilize the
 Not only can you import data using the Data Import tool, but you can export specific data that exists in your current {{% system-name %}} system (from those same category options) out into an excel file. Clicking the *Download xxx export* button (dependent on which import "type" you selected) will generate and pull that data from {{% system-name %}} and export it to an excel/csv file. Not all import type options offer a *download export* though.
 
 ![](../data-import-tab.assets/0204e58ec27953076cdd54cf103e683e.png)
+
+## Learning Management System
+
+To learn more about the Data Import Tab, follow the link below to the Learning Management System course:
+
+* [Data Import Tab](https://mie.talentlms.com/shared/start/key:ZOBDNHRK)
