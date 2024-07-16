@@ -1,9 +1,9 @@
 ---
 id: '19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
 title: 'Reset User Passwords'
-date: '2024-01-15T15:40:43.282Z'
-version: 108
-lastAuthor: 'janderson'
+date: '2024-07-16T14:26:59.744Z'
+version: 123
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
@@ -63,3 +63,15 @@ You must then click the **SUBMIT** button at the bottom of the user screen.
 ![](../reset-user-passwords.assets/4c1c0e22022fdb7307ece84d1117efc7.png)
 
 The user is now unlocked and can now log back into {{% system-name %}} with the password you reset it to and be prompted to change it to their own unique password can hold up to 50 characters and can be configured with alpha, capital letters, lowercase, numbers or other extended characters. Please have user read other help documentation named *Log On to |system|.pdf* for more specific information on passwords and the configurations, restrictions, and password expirations.
+
+## Portal Password Reset Option (Non-SSO portals only)
+
+Users on 202403 and newer that log in a portal with a manual login and password, have the ability to change their password. To enable this feature, the portal user's security role setting "Manage Users" must be set to ‘Edit Self'. Once this security role setting is configured, users will be able to access the Change Password feature from the Portal Settings menu. SSO portal users will not see the option to reset passwords, as passwords are managed on the client side.
+
+![](../reset-user-passwords.assets/66d68629efe1032af56c93940121602d.png)
+
+![](../reset-user-passwords.assets/2bef8b0b45427c9a0eb4344afc97d7c6.png)
+
+Security role setting "Manage Users" must be set to ‘Edit Self'.
+
+![](../reset-user-passwords.assets/3ec990ae063884d89c07d3e583d2fe97.png)
