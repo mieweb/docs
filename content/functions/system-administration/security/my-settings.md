@@ -1,12 +1,13 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-05-24T15:39:14.504Z'
-version: 429
-lastAuthor: 'anichols'
+date: '2024-07-16T19:27:53.662Z'
+version: 467
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
+  - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -210,7 +211,7 @@ When looking at preference choices available in the drop-down:
 * Quick Add Auto Disp Indication: Choose Yes or No. If set to Yes, in the Meds tab, when clicking Quick Add it will automatically pop open the autocomplete with suggested indications when a user tabs over to the indication field. If set to No then it won't pop up automatically.
 * Drug Info Links on Med List: Choose Yes or No. Yes will make the blue-circled (i) appear next to a drug in all views/procedures. This allows access to the drug guide and information. Choose No and the (i) and access will not be available to you.
 * Prescription Doc Type:  Choose the name of the prescription that you want to set as a default for when you print/fax prescriptions for a patient. The main script is called (Standard) Script. If you have other types/layouts of scripts that MIE loaded for you, then you can choose from those too.
-* Prescription Pr<strong>i</strong>nt/Transmit:  Choose Print, Transmit or None. It will default to your choice when you render prescriptions.  You can always change your selection when you are in the module. This is just to set the default choice. If set to None, the prescription will display in the Visit Order summary/Prescribed Meds List and NOT display on the prescription send queue. If using the legacy Prescribe module under the Allergies/Meds chart tab, when None is selected, the checkbox for Print/Transmit will be unchecked.
+* Prescription Print/Transmit:  Choose Print, Transmit or None. It will default to your choice when you render prescriptions.  You can always change your selection when you are in the module. This is just to set the default choice. If set to None, the prescription will display in the Visit Order summary/Prescribed Meds List and NOT display on the prescription send queue. If using the legacy Prescribe module under the Allergies/Meds chart tab, when None is selected, the checkbox for Print/Transmit will be unchecked.
 * Drug Guide Printing Checkbox:  Choose Unchecked or Checked. Defaults to Unchecked. This Drug Guide Printing check-box appears in the prescribing medications module.  Unchecked will leave this box unchecked so you can choose when or if to print the drug guide each time. If you default this to checked, then it will automatically always check-mark the drug guide box to print for a prescription you prescribe.
 * Show Classes:  Choose Show or Hide. This will show or hide the Drug Classes column for each drug in the Meds module in Medication History summary for the patient.
 * Show Deleted:  Chose Show or Hide.  This will show or hide the Deleted medications in the Meds module in Medication History summary for the patient.
@@ -225,6 +226,8 @@ When looking at preference choices available in the drop-down:
 * Show Only Best Formulary: Default is no, but if set to Yes, then if you have the SureScripts Advanced functionality, you would only see the one best formulary for the patients when prescribing.
 * Cross-Browser EPCS: Recommend this to be set to ‘Yes' if client is utilizing EPCS.  Setting this to Yes, and after downloading 2 apps needed to make it work (from the Plugins page), users can perform EPCS using a browser other than Internet Explorer (IE).
 * Unsent Scripts in Alert Bar: This alert (found in the alerts toolbar) displays a count of prescriptions that have been prescribed in the system, with that logged in user's name as the Prescriber, that have not been printed, faxed, or transmitted.  The count will display ALL unsent prescriptions, regardless of medication schedule, for the logged in Prescriber (user) where those prescriptions are unsent.
+* Use Datavis in Meds/Allergies Chart Tab: The user default setting is set to "No". "No" displays the legacy version of the meds/allergies list in the Meds/Allergies chart tab. Changing to "Yes" displays the meds/allergies list in a datavis format.
+* Use Quick Prescribe" The user default setting is set to "No". "No" displays the legacy version of the prescribe medicine screen. Changing to "Yes" displays the new Prescribe screen, identical to the prescribe feature in the encounter exam.
 
 #### Conditions
 
@@ -481,3 +484,9 @@ To save settings, click Submit Settings at the top or bottom of the screen.
 * New PIN VeriCode: Enter a new PIN number here if your e-orders module requires you to enter a PIN number when trying to create an e-orders for a patient. This is also used if the dial-in dictation server is configured to ask for a pin password, along with a pin. Click Submit PIN to submit your new PIN you set yourself to.
 * Security Question & Answer: This can be used to help facilitate password resets.  If the user needs to manually reset their password due to login failures, if the user has a security question & answer on their user account, the user will be prompted to answer the question correctly to be able to manually reset their password. Click Submit Security to submit your security question & answer you set yourself to.
     * Note: Our recommendation is to have your system be set up with password reset functionality to use an email, phone, or text PIN method instead of using the security question & answer method.  If using an email, phone or text PIN method, then the security question & answer fields need to remain blank.
+
+## Learning Management System
+
+To learn more about My Settings, follow the link below to the Learning Management System course:
+
+* [My Settings Preferences](https://mie.talentlms.com/shared/start/key:LTLIDNHR)
