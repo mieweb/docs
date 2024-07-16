@@ -1,30 +1,30 @@
 ---
 id: '1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
 title: 'Asset Management Module'
-date: '2020-02-27T20:30:03.349Z'
-version: 74
+date: '2024-07-16T14:58:48.896Z'
+version: 137
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZLLDNHRK'
 source: 'https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-The Asset Management Module allows users to track equipment assigned to users, warranty information, maintenance request and calibration requirements. The module includes creating work orders, calibration requests and tracks these items over time. The module includes automation of notification 90 and 30 days prior to when calibration, service agreements, warranties and insurance policies are due or will expire. There is robust reporting included. Please verify with your MIE implementer that your system has been prepared to use the Asset Management Module. MIE Implementer must set up this module to be used in your  {{% system-name %}}  system and must have the two committed layout encounters & visit types enabled/activated on your system for use.
+The Asset Manager module allows equipment tracking, warranty information, maintenance request and calibration requirements. The module includes creating work orders, calibration requests and tracks these items over time. The module includes automation of notification 90 and 30 days prior to when calibration, service agreements, warranties and insurance policies are due or will expire. There is robust reporting included. Please verify with your MIE implementer that your system has been prepared to use the Asset Management Module. MIE Implementer must set up this module to be used in your  {{% system-name %}}  system and must have the two committed layout encounters & visit types enabled/activated on your system for use.
 
 ![](../asset-management-module.assets/934eec78e06393292df8c7538f6e6f2e.png)
 
 ## Current Assets & Search Filter
 
-The Asset Management tab is located on the left sidemenu. Click the Asset tab to get into the module.
+From the Control Panel left sidemenu, the Asset Manager module is available.
 
-![](../asset-management-module.assets/bbdb77ebfc63a74b3c4929edb5b6f602.png)
+![](../asset-management-module.assets/c1f55984a43cfc9995e28b8808f50bf7.png)
 
-The Asset Module home page opens and lists all current Assets registered in the system on the left, while assets assigned to "you" (the logged in user) are listed on the right.
+The Asset Manager home page opens and lists all current Assets registered in the system. The list is displayed in a datavis grid and can have perspectives set to organize the data as needed.
 
-![](../asset-management-module.assets/17c2c7bc53ef5fe9bcdb2ed40886d683.png)
+![](../asset-management-module.assets/55526a08aee3cb6db0059167f27cd6db.png)
 
-Use the search criteria to filter and narrow down results by Asset Name, one or more location or one or more clinics (sites).
-
-![](../asset-management-module.assets/8da54f805913b611a082b288b1118fe0.png)
+The datavis grid listing can be used to filter and narrow down results by Asset Name, one or more location or one or more clinics (sites), etc.
 
 ## Adding a New Asset
 
@@ -243,3 +243,9 @@ Reports available include:
 * <strong>Warranty and Service Agreement Expiration Report</strong> – Use search filters to result a detailed summary of assets according to Service Agreements and when they will expire. Automated emails can be generated to notify the custodian/owner at 90 and 30 days in advance.
 
 ![](../asset-management-module.assets/48b71abed3fa9e86f115c9f9bff4a6d2.png)
+
+## Learning Management System
+
+To learn more about the Asset Management Module, follow the link below to the Learning Management System course:
+
+* [Asset Management](https://mie.talentlms.com/shared/start/key:ZLLDNHRK)
