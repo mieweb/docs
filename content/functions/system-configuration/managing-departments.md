@@ -1,11 +1,12 @@
 ---
 id: '1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 title: 'Managing Departments'
-date: '2024-01-31T17:08:51.289Z'
-version: 108
-lastAuthor: 'bhamm'
+date: '2024-07-16T20:03:47.655Z'
+version: 115
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -126,3 +127,9 @@ You can add users to the department (in mass) by using the auto-complete field a
 When you are done adding and/or removing users from the department, click the SUBMIT DEPT button to save your work.
 
 ![](../managing-departments.assets/4fee390955566f33b0bad0e509cffa5f.png)
+
+## Learning Management System
+
+To learn more about Managing Departments, follow the link below to the Learning Management System course:
+
+* [Access Control](https://mie.talentlms.com/shared/start/key:LTZIDNHR)
