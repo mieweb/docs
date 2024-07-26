@@ -1,9 +1,9 @@
 ---
 id: '1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
 title: 'Quality Reporting Enrollment'
-date: '2024-05-17T13:49:19.345Z'
-version: 126
-lastAuthor: 'janderson'
+date: '2024-07-23T20:27:15.265Z'
+version: 145
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'measures.md'

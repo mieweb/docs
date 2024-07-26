@@ -2,7 +2,7 @@
 id: '1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
 title: 'Kiosk'
 date: '2020-03-11T18:15:47.911Z'
-version: 61
+version: 65
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

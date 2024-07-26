@@ -2,7 +2,7 @@
 id: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 title: 'Scheduler Views'
 date: '2024-07-02T18:16:56.677Z'
-version: 67
+version: 68
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

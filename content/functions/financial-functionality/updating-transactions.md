@@ -2,8 +2,8 @@
 id: '1Ue6lNKwOnv04L49jydrvYRs2xIHXHp8cmIA6WdCoCVM'
 title: 'Updating transactions'
 date: '2021-02-18T19:06:46.993Z'
-version: 19
-lastAuthor: 'egrzetich'
+version: 21
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'

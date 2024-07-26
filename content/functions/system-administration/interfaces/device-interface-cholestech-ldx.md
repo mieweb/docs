@@ -2,7 +2,7 @@
 id: '11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10'
 title: 'Device Interface - Cholestech LDX'
 date: '2020-02-27T20:28:03.764Z'
-version: 28
+version: 29
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10'

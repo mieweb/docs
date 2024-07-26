@@ -3,7 +3,7 @@ id: '187UVX4E-pSGk_vuUSTIVtKyQ5TrmNSUdUKlCumYEb70'
 title: 'Removing fee schedule items'
 date: '2021-02-18T19:05:40.442Z'
 version: 20
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'finding-fee-schedules.md'

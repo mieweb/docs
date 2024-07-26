@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2024-04-18T14:04:46.015Z'
-version: 561
+date: '2024-04-18T14:05:12.014Z'
+version: 576
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

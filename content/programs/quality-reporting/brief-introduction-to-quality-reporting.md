@@ -1,9 +1,9 @@
 ---
 id: '1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o'
 title: 'Brief Introduction to Quality Reporting'
-date: '2020-02-28T17:00:04.178Z'
-version: 34
-lastAuthor: ''
+date: '2024-07-24T14:09:25.303Z'
+version: 54
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html'

@@ -3,7 +3,7 @@ id: '1HRu6JJaf7bNjxyg4u0saJ5lNnc338GczKp_pS00cNts'
 title: 'Closing and posting transactions'
 date: '2021-02-17T23:34:03.855Z'
 version: 26
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'creating-statements.md'

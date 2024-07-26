@@ -2,7 +2,7 @@
 id: '1NHVGEeKbx_wGt0Y8K3WXwos-rv3dRUg4Ev6n7tdTD1Y'
 title: 'Due List in a Dynamic Encounter'
 date: '2020-02-27T20:00:48.718Z'
-version: 54
+version: 60
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NHVGEeKbx_wGt0Y8K3WXwos-rv3dRUg4Ev6n7tdTD1Y'

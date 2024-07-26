@@ -3,7 +3,7 @@ id: '1jTjf5dzqvReObpzAIGWWv94YQnJVu8EE45xUmPdU-rg'
 title: 'Removing employees from employer organizations'
 date: '2021-02-18T19:04:36.030Z'
 version: 24
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'

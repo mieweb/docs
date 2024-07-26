@@ -3,7 +3,7 @@ id: '1CSjIPGRdMMT6Z8bVhH_-x-x015LUHKZBjf2TLFZbesc'
 title: 'Indicating employer-preferred statement delivery method'
 date: '2021-02-18T16:48:19.492Z'
 version: 19
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'

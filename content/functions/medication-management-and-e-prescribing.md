@@ -3,7 +3,7 @@ id: '1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
 title: 'Medication Management & E-Prescribing'
 date: '2022-02-08T15:08:43.651Z'
 version: 33
-lastAuthor: 'groudebush'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'system-administration/system-controls/setting-up-e-prescribers.md'

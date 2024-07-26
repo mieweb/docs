@@ -2,7 +2,7 @@
 id: '1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
 title: 'Editing Encounter Dictations'
 date: '2020-03-12T20:59:42.218Z'
-version: 62
+version: 63
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

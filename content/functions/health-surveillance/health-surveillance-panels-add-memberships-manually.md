@@ -2,7 +2,7 @@
 id: '1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
 title: 'Health Surveillance Panels - Add Memberships Manually'
 date: '2024-07-15T14:53:47.238Z'
-version: 45
+version: 47
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

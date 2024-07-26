@@ -1,8 +1,8 @@
 ---
 id: '1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
 title: 'Encounters Tab - Search and List View'
-date: '2024-05-17T19:24:58.058Z'
-version: 80
+date: '2024-05-17T19:26:35.453Z'
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

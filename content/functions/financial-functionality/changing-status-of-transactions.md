@@ -2,8 +2,8 @@
 id: '1pISPoaGjFEUXJIn4L596IzcvvNexhYS3IoxcKs1hBxU'
 title: 'Changing status of transactions'
 date: '2021-02-17T22:55:00.202Z'
-version: 20
-lastAuthor: 'egrzetich'
+version: 23
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'

@@ -2,8 +2,8 @@
 id: '1kshWUcFrvmzCRJ9LGkoDz6WRXkLMRJigN7IBjrv11sE'
 title: 'Editing employer organization contacts'
 date: '2021-02-18T16:22:14.232Z'
-version: 19
-lastAuthor: 'egrzetich'
+version: 21
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'

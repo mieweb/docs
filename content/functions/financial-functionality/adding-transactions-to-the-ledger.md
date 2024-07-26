@@ -3,7 +3,7 @@ id: '1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk'
 title: 'Adding transactions to the ledger'
 date: '2021-02-17T22:46:14.361Z'
 version: 20
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'

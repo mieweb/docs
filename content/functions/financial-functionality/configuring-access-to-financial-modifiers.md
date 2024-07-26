@@ -3,7 +3,7 @@ id: '11AXz_kKVW3chcUj1EQ0SW4xZKQWtUMjpRpXhs4e9a40'
 title: 'Configuring access to financial modifiers'
 date: '2021-02-18T15:53:02.660Z'
 version: 20
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'

@@ -2,7 +2,7 @@
 id: '1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
 title: 'Device Interface - Vital Signs'
 date: '2020-09-22T18:09:33.593Z'
-version: 46
+version: 47
 lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links: []

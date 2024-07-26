@@ -2,7 +2,7 @@
 id: '1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos'
 title: 'Inventory Mappings'
 date: '2024-05-21T15:22:11.466Z'
-version: 99
+version: 103
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

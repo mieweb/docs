@@ -3,7 +3,7 @@ id: '1TAzMICd2BvvJW5UQAB0sYb8ey1_ni3MS5Sc5neKFysg'
 title: 'Ledger'
 date: '2021-02-18T17:00:30.156Z'
 version: 23
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'configuring-access-to-ledger.md'

@@ -3,7 +3,7 @@ id: '1Qn_UKkXBXlhhXIgIOUvawMwUyEaqE5uAB1Vq_5rOe1Y'
 title: 'Downloading financial reports'
 date: '2021-02-18T16:20:52.868Z'
 version: 23
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-financial-reports.md'

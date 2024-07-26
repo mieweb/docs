@@ -3,7 +3,7 @@ id: '1yGFA_7iHZBY2hTo4OadZcZE_EyZmN_6Om4XgLZZPudI'
 title: 'Viewing cleared, flagged, or reconciled transactions'
 date: '2021-02-18T19:10:40.416Z'
 version: 19
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'

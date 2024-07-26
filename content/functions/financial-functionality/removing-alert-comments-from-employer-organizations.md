@@ -3,7 +3,7 @@ id: '1YSZ1Ga02PL84P1G-aXE9I5RjrmjXctIFBilF4dJ0RH4'
 title: 'Removing alert comments from employer organizations'
 date: '2021-02-22T16:24:03.440Z'
 version: 24
-lastAuthor: 'egrzetich'
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'

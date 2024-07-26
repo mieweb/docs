@@ -1,8 +1,8 @@
 ---
 id: '1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
 title: 'Encounter Plan Section - Medications'
-date: '2024-05-17T15:56:11.997Z'
-version: 135
+date: '2024-05-17T15:56:27.230Z'
+version: 139
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

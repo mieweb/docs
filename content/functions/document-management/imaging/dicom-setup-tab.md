@@ -1,8 +1,8 @@
 ---
 id: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
 title: 'DICOM Setup Tab'
-date: '2024-05-17T15:21:41.942Z'
-version: 52
+date: '2024-05-17T15:22:01.761Z'
+version: 56
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

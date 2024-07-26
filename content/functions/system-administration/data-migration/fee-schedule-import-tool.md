@@ -2,7 +2,7 @@
 id: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 title: 'Fee Schedule Import Tool'
 date: '2020-02-27T20:46:06.612Z'
-version: 20
+version: 22
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Def_fee_sched.csv'
