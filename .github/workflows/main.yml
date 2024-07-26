@@ -14,10 +14,15 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: [ self-hosted, docsqa ]
-
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.128.0
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: Install Hugo CLI
+      run: |
+        wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+        && sudo dpkg -i ${{ runner.temp }}/hugo.deb
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v4
       with:
@@ -43,6 +48,11 @@ jobs:
 
     - name: Build index.html
       run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.com/mieweb/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./public
 
     - name: 'Deploy built documentation to www folder on docs-qa'
       run: rsync -ruva public/ "/www/mie-docs/public/${{ steps.extract_branch.outputs.branch }}/"
