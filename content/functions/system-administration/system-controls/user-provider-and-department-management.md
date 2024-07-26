@@ -1,8 +1,8 @@
 ---
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
-date: '2024-05-20T20:08:57.214Z'
-version: 116
+date: '2024-07-17T12:36:41.034Z'
+version: 129
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,6 +10,7 @@ links:
   - 'https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ'
   - '../../portal-management/linking-users-for-portal-access.md'
   - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
+  - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -530,3 +531,9 @@ With the appropriate security role permission, clicking the **View Lock Records
 ### View User Revisions
 
 With the appropriate security role permission, when looking at the user summary from the *View User* page, the **View User Revisions** link will be available in the upper-right of the page. Clicking this will provide a view of sections and fields with associated revision dates, if any.
+
+## Learning Management System
+
+To learn more about the User/Provider & Department Management, follow the link below to the Learning Management System course:
+
+* [Provider Management](https://mie.talentlms.com/shared/start/key:LAQIDNHR)

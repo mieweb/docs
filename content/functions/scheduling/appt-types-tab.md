@@ -1,13 +1,14 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2024-05-14T15:09:11.459Z'
-version: 191
+date: '2024-07-19T16:56:14.056Z'
+version: 209
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
   - 'https://docs.google.com/document/u/0/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY/edit'
+  - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -202,3 +203,9 @@ If you try to create multiple appointment type templates for a combination of re
 ![](../appt-types-tab.assets/db465bd8d7e5bccde998f3dd2887010e.png)
 
 7. Select <strong>Submit</strong>
+
+## Learning Management System
+
+To learn more about the Appt Types Tab, follow the link below to the Learning Management System course:
+
+* [Scheduler Templates](https://mie.talentlms.com/shared/start/key:AEEHRKMF)

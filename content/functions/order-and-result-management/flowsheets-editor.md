@@ -1,8 +1,8 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2024-07-11T18:36:12.778Z'
-version: 510
+date: '2024-07-22T14:10:32.987Z'
+version: 538
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,6 +10,7 @@ links:
   - 'observation-codes-editor.md'
   - 'observation-code-merging.md'
   - 'https://mie.talentlms.com/shared/start/key:ALOHRKMF'
+  - 'https://mie.talentlms.com/shared/start/key:ZSTDNHRK'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -118,17 +119,25 @@ The Required field allows users to set certain line items or observations as opt
 To establish requirements on an observation, begin by clicking the Edit icon (pencil) to edit the **Required** field, and enter one of the following:
 
 * For no requirement - <strong><em>leave blank</em></strong>'
-* For a soft requirement (recommended) - <strong>True</strong> or <strong>1</strong>
+* For a soft requirement (recommended) - <strong>True</strong>
 * For hard requirements: There are varying hard requirements that can be configured, depending on the client's needs.
     * Require anything - <strong>(observationValueByName(jQuery(this).data('obsname')) ? 1 : -1)</strong>
     * Number only - TBD
     * Date/Time Ranges - TBD
+
+For clients on 202403 and newer, a help list has been added to this field. Click the List icon in the **Required** field to see a list of bulleted common options. Click on the item and the appropriate function will populate the configuration box.
+
+![](../flowsheets-editor.assets/bd1a8860fe83357d1066e98e32202846.png)
 
 ### Conditional
 
 This field is used for conditionally displaying specific observations. For example, a questionnaire with questions/observations only relevant to a male (condition) can be programmed to only display when the sex of the respondent is male. All question types and layouts support conditional logic, and page breaks are the only type of break that do not currently support this feature.
 
 To use conditional logic, the appropriate script must be added to the **Conditional** field of the observation/question. However, the conditional circumstances will drive the type of script that will be needed, so be sure to consider the various options.
+
+For clients on 202403 and newer, a help list has been added to this field. Click the List icon in the Conditional field to see a list of bulleted common options. Click on the item and the appropriate function will populate the configuration box. To the right of the **Conditional** list icon is a system validation check. If the conditional functional statement is valid, then a check will display. If there is an error, either in the construction of a custom conditional statement or perhaps a missing quote or parenthesis and the statement is not valid, the check icon will not display.
+
+![](../flowsheets-editor.assets/cc0646255d0377be4e2b5ea83b88eae4.png)
 
 #### Based on Previous Answer
 
@@ -210,3 +219,4 @@ With the script ready, create a Total or Total Score observation, as needed. Edi
 To learn more about the Flowsheets Editor, follow the link below to the Learning Management System course:
 
 * [Flowsheets](https://mie.talentlms.com/shared/start/key:ALOHRKMF)
+* [Questionnaires Programming](https://mie.talentlms.com/shared/start/key:ZSTDNHRK)

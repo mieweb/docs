@@ -1,11 +1,12 @@
 ---
 id: '1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
 title: 'Autocomplete Editor'
-date: '2020-03-05T17:46:48.962Z'
-version: 71
-lastAuthor: ''
+date: '2024-07-22T16:29:08.963Z'
+version: 93
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZEGDNHRK'
 source: 'https://drive.google.com/open?id=1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -15,11 +16,11 @@ You must have security role access to Manage Autocompletes. This allows users (b
 
 ## AC Editor
 
-Autocomplete fields are both learned and pre-loaded in {{% system-name %}} . The AC Editor tab found in Control sidemenu allows users to access and/or edit, add or delete auto-complete field choices that appear in modules throughout {{% system-name %}} .
+Autocomplete fields are both learned and pre-loaded in {{% system-name %}} . The AC Editor is found in the Control Panel sidemenu option under the System tab and it allows users to access and/or edit, add or delete auto-complete field choices that appear in modules throughout {{% system-name %}} .
 
-![](../autocomplete-editor.assets/eddf1bc674d685d461a661f68c30d93b.png)
+![](../autocomplete-editor.assets/19545eca59bec6fb9080aa1be16cb5a6.png)
 
-When you are in the AC Editor tab it will default to show all. You can narrow down your search by using the drop-down on the top right side of the AC Editor tab to select a specific module to look at autocomplete field choices.
+When you are in the AC Editor it will default to show all. You can narrow down your search by using the drop-down on the top right side of the AC Editor tab to select a specific module to look at autocomplete field choices.
 
 Based on the module you have selected, you will see any corresponding autocomplete field names (this is the name of the field in {{% system-name %}} that is an auto-complete) along with how many times it's been used (use count), and the contents is the auto-complete choices that appear that someone can select in that auto-complete field (what is learned or pre-populated as a choice, etc).
 
@@ -38,3 +39,9 @@ To *add* an autocomplete selection to a field, you would go to that field in {{%
 After it is typed in the field, the system "learns" it and then it can be edited or deleted using the AC Editor tab.
 
 ![](../autocomplete-editor.assets/722c05a91f99fe779e33639a9a268ba8.png)
+
+## Learning Management System
+
+To learn more about the Autocomplete Editor, follow the link below to the Learning Management System course:
+
+* [Autocomplete Editor](https://mie.talentlms.com/shared/start/key:ZEGDNHRK)

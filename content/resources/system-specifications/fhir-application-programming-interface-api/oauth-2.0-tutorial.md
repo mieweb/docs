@@ -1,22 +1,43 @@
 ---
 id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
-date: '2022-10-24T17:40:03.843Z'
-version: 338
-lastAuthor: 'sstuck'
+date: '2024-07-11T11:56:56.640Z'
+version: 426
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://en.wikipedia.org/wiki/OpenID#OpenID_Connect_(OIDC)'
   - 'https://oauth.net/2/'
+  - 'https://pm.mieweb.com/issues/106834'
+  - 'https://pm.mieweb.com/issues/71437'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 # OAuth 2.0 Overview
 
-OAuth 2.0 is the industry standard for allowing external applications access to protected resources. Additional information about the technology may be found at https://oauth.net/2/.
+OAuth 2.0 is the industry standard for allowing external applications access to protected resources. See [References for more about OAuth](#references)
 
 ## App Registration
 
-Applications can be registered within the Login Trusts editor within the EHR. Contact your implementation specialist for assistance.
+Applications can be registered within the Login Trusts editor within the EHR. Contact your implementation specialist for assistance as it requires special permissions to add Login Trusts to a system.
+
+If you have access to the Login Trust screens in your system, use the information below for 3rd party endpoints:
+
+## Creating a 3rd party endpoint for FHIR in WebChart
+
+Example screenshot of Create/Edit Login Trust in webchart:
+
+![](../oauth-2.0-tutorial.assets/640fd9675415a734b06608a084d759a1.png)
+
+### FINISH THE CONFIG
+
+Note: The "allowed options" does not have the checkbox for FHIR.  SQL is required to enable FHIR.
+
+## Data Points
+
+* A set of production credentials (id and secret) to access your production environment for your clients  (Location 1 and 3 in Screenshot)
+* Location 2 in Screenshot should be the redirect URL to the 3rd party app after validation.
+* Make sure Key Format is PEM and Digest is SHA1 (Location 4 in Screenshot).
 
 ## Patient Standalone Launch
 
@@ -65,3 +86,13 @@ The EHR supports authentication of JWT access tokens via out of band supplied JW
 ## Additional Information
 
 * PKCE is not currently supported.
+
+## References
+
+https://en.wikipedia.org/wiki/OpenID#OpenID_Connect_(OIDC)
+
+[https://oauth.net/2](https://oauth.net/2/)
+
+https://pm.mieweb.com/issues/106834
+
+https://pm.mieweb.com/issues/71437

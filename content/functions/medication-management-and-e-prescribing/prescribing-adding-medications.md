@@ -1,8 +1,8 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2024-07-10T14:55:15.733Z'
-version: 273
+date: '2024-07-18T16:49:09.624Z'
+version: 298
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -26,7 +26,7 @@ Allergies/Medications tab options appear on the top right side of the screen.
 
 Click Prescribe to prescribe **new** medications for the patient from your facility. This is not to be used to just add to the list of existing medications taken by this patient. This is used to quickly prescribe prescriptions for the patient.
 
-![](../prescribing-adding-medications.assets/b4dfcd9c9cb46a20074c1e7c93995cee.png)
+![](../prescribing-adding-medications.assets/44609147b1c7b0b0b3c5db78593e376b.png)
 
 **DRUG INTERACTION warning** will appear when using this option if you are prescribing a drug that interacts with another the patient already has entered as prescribed or an allergy the patient has entered. Quick Prescribe will also check and give warning to duplicate therapy by checking the patient's current med lists entered in {{% system-name %}} .
 
@@ -155,6 +155,20 @@ Fill out next Prescription Detail box with the next prescription details for thi
 When done entering prescriptions, click any **Prescribe** button. Those prescriptions you created will then show the *Unprinted Prescriptions* box and the screen will refresh you to the Medication History summary screen.
 
 *To print/fax prescriptions, please see other help documentation named Print-Fax-Transmit Prescriptions.pdf*
+
+### Quick Prescribe User Preference
+
+A new My Settings user preference, **_Use Quick Prescribe,_** is available in the 202409 release. This setting allows the user to select the data entry screen when prescribing in the Allergies/Medications chart tab. Set to "Yes" to enable the Quick List data entry method. Select "No" to use the Legacy Prescription Details entry. By default the system will default to "No".
+
+![](../prescribing-adding-medications.assets/967f091f9910ab196478dae2d0232e5c.png)
+
+When the Use Quick Prescribe setting is set to "Yes", the layout for Prescribe within the Allergies/Medications tab is updated to use Quick Links.
+
+![](../prescribing-adding-medications.assets/9344daddf89325d50ce0231044797ce4.png)
+
+Click on the Plus Sign icon or use the Past Meds Quick List to prescribe.
+
+![](../prescribing-adding-medications.assets/fc9abdb6dfd012af4bc2f3653b96ac62.png)
 
 ## Prescription Samples
 

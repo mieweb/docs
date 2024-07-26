@@ -1,11 +1,12 @@
 ---
 id: '1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ'
 title: 'Spell Check'
-date: '2020-03-10T14:16:20.062Z'
-version: 37
-lastAuthor: 'aquandt'
+date: '2024-07-19T17:31:53.044Z'
+version: 48
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AZLHRKMF'
 source: 'https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -70,3 +71,9 @@ If you need to narrow down your search to find something specific, you can enter
 In the results, it will display words that were added to the spell check library, who/when it was added, and what language parameter it was added to (if your {{% system-name %}} system is set up for multi-lingual).
 
 Once you've found the word that was added to your system's spell check dictionary, you can edit it or delete it by using those links found in the options column of a specified word.
+
+## Learning Management System
+
+To learn more about Spell Check, follow the link below to the Learning Management System course:
+
+* [Spell Check](https://mie.talentlms.com/shared/start/key:AZLHRKMF)

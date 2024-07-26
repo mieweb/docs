@@ -1,8 +1,8 @@
 ---
 id: '1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
 title: 'Locations Management'
-date: '2024-05-20T15:54:02.235Z'
-version: 181
+date: '2024-07-22T14:27:48.117Z'
+version: 192
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -17,6 +17,7 @@ links:
   - 'https://system/?f=admin&s=work_locations&opp=work_locations&tabmodule=admin&tabselect=Work+Locations'
   - 'https://system/?f=admin&s=work_locations&opp=work_regions&work_regions_show_active=1'
   - 'https://system/?f=admin&s=work_locations&opp=work_sites&work_sites_show_active=1'
+  - 'https://mie.talentlms.com/shared/start/key:ZGZDNHRK'
 source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -192,3 +193,9 @@ To add or manage work locations that are understood and used within the organiza
 4. Set as <em>active</em> or <em>inactive</em> by clicking the checkbox, as appropriate.
 5. Click the <strong>Add</strong> button.
 6. After all edits and additions have been made, click the <strong>Submit</strong> button.
+
+## Learning Management System
+
+To learn more about Locations Management, follow the link below to the Learning Management System course:
+
+* [Locations Manager](https://mie.talentlms.com/shared/start/key:ZGZDNHRK)

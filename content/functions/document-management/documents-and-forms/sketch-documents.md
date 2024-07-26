@@ -1,14 +1,15 @@
 ---
 id: '1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
 title: 'Sketch Documents'
-date: '2024-07-02T16:22:02.365Z'
-version: 80
+date: '2024-07-22T13:12:48.661Z'
+version: 91
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
   - 'word-documents-cc-physicians-feature.md'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:ZAQDNHRK'
 source: 'https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -127,3 +128,4 @@ Users cannot edit or erase sketch markings once the sketch has been uploaded to 
 To learn more about Sketch Documents, follow the link below to the Learning Management System course:
 
 * [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+* [Sketch Programming](https://mie.talentlms.com/shared/start/key:ZAQDNHRK)

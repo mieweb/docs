@@ -1,13 +1,14 @@
 ---
 id: '1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 title: 'New Provider Configuration Recommendations'
-date: '2024-03-25T14:46:49.731Z'
-version: 527
+date: '2024-07-17T12:49:17.998Z'
+version: 631
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=10aDdq77WTzNfpTWFuyolW59jCmyYdW4GjOO5-K4ui9A'
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
+  - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -54,3 +55,9 @@ It is advised to keep P (provider) charts and patient/employee charts separate a
 ![](../new-provider-configuration-recommendations.assets/d9d803700f11b416793ceb51d7d964e2.png)
 
 {{% /info %}}
+
+## Learning Management System
+
+To learn more about New Provider Configuration Recommendations, follow the link below to the Learning Management System course:
+
+* [Provider Management](https://mie.talentlms.com/shared/start/key:LAQIDNHR)

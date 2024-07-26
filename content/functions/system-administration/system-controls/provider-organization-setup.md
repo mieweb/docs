@@ -1,12 +1,13 @@
 ---
 id: '1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY'
 title: 'Provider Organization Setup'
-date: '2020-03-16T22:35:38.380Z'
-version: 145
-lastAuthor: ''
+date: '2024-07-17T14:45:02.014Z'
+version: 156
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'about:blank'
+  - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -138,3 +139,9 @@ Click "Change to save the setting
 This completes the set-up process for Provider Organizations.
 
 See "Adding Users to Provider Organizations" for instructions to build the Provider Organizations.
+
+## Learning Management System
+
+To learn more about the Provider Organization Setup, follow the link below to the Learning Management System course:
+
+* [Provider Management](https://mie.talentlms.com/shared/start/key:LAQIDNHR)

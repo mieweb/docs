@@ -1,13 +1,14 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2024-07-02T18:30:43.860Z'
-version: 186
+date: '2024-07-22T13:37:46.142Z'
+version: 200
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
   - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
+  - 'https://mie.talentlms.com/shared/start/key:ZSEDNHRK'
 source: 'https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -246,3 +247,4 @@ Permitted users can add and create a new fast task template into the system here
 To learn more about the Task List, follow the link below to the Learning Management System course:
 
 * [Tasking](https://mie.talentlms.com/shared/start/key:AOEHRKMF)
+* [Task List Events](https://mie.talentlms.com/shared/start/key:ZSEDNHRK)

@@ -1,11 +1,12 @@
 ---
 id: '1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
 title: 'Translation Manager'
-date: '2024-05-15T20:03:23.915Z'
-version: 111
+date: '2024-07-22T14:31:15.376Z'
+version: 129
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZGSDNHRK'
 source: 'https://drive.google.com/open?id=1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -112,3 +113,9 @@ The Type of translation has an editor as well. By selecting the "Manage Types" l
 NOTE: To create a New type, refer to the Add Translation screenshot and enter the new Type in the "Other Category" field.
 
 ![](../translation-manager.assets/1be45c31dfd8a8e436ad54f8802a0a24.png)
+
+## Learning Management System
+
+To learn more about the Translation Manager, follow the link below to the Learning Management System course:
+
+* [Translation Manager](https://mie.talentlms.com/shared/start/key:ZGSDNHRK)

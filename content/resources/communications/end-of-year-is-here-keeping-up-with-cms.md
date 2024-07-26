@@ -1,9 +1,9 @@
 ---
 id: '1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
 title: 'End-of-Year Is Here: Keeping Up with CMS'
-date: '2020-02-27T21:32:30.291Z'
-version: 22
-lastAuthor: 'aquandt'
+date: '2024-05-21T18:53:11.822Z'
+version: 39
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/participation-lookup'
@@ -59,10 +59,12 @@ To begin, perform the following:
 4. When the page loads, <strong>Instructions</strong> will display at the top of the page. Review these instructions and continue through each section of the program, as appropriate.
 5. Use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
 6. Because MIPS requires particular reporting periods for its measure categories, be sure to specify the <strong>Period</strong> for each performance category. Understand that all users/providers specified will be enrolled for the same period and measures selected. If different measures and periods are required for different users/providers, perform this step with each user/provider, individually.
-7. When all of the measures have been selected for the performance category, click the <strong>Submit</strong> button.  
-    {{% warning %}}
-    <strong>Be sure to enroll in ONLY the measures for which supporting documentation can be provided, as outlined by the measure specification. DO NOT enroll in any measures for which supporting documentation cannot be provided in the event of an audit.</strong>
-    {{% /warning %}}
+7. When all of the measures have been selected for the performance category, click the <strong>Submit</strong> button.
+
+{{% warning %}}
+**Be sure to enroll in ONLY the measures for which supporting documentation can be provided, as outlined by the measure specification. DO NOT enroll in any measures for which supporting documentation cannot be provided in the event of an audit.**
+{{% /warning %}}
+
 8. If there are any additional performance categories, the page will refresh and load the instructions and Opt-In block, again, as well as any measures offered under that category. Follow the provided instructions and select any and all appropriate measures. Click the <strong>Submit</strong> button when ready to continue.
 9. Continue until all categories of the program have been updated.
 10. Once all categories are addressed and measures are successfully selected and submitted, Status for All Providers (enrolled) will display in grid form.
@@ -92,7 +94,7 @@ As is typically the case, CMS finalized a great deal of changes for the upcoming
 
 Additionally, changes for third-party intermediaries (i.e., QCDRs and Qualified Registries) have been finalized to take effect as early as PY 2020. There will be a requirement of QCDRs, beginning with the 2020 performance period, to work together to harmonize their similar QCDR measures. Beginning with the 2021 performance period, QCDRs and Qualified Registries will be required to consolidate and enhance their services by supporting all MIPS performance categories that require data submission, as well as provide enhanced performance feedback, allowing clinicians to view their performance on a given measure in comparison to other participants in the registry or QCDR.
 
-{{% note title="Important" %}}
+{{% note %}}
 Due to the ongoing changes and updates needed for 2020 compliance, {{% system-name %}} will need all clients currently participating in quality surveillance, incentive programs, or measure tracking to upgrade to RC201909. Without an upgrade to RC201909, clients will not be able to enroll or participate in quality of care programs in 2020. **Application Support will be reaching out to** **_all participating clients_**** to initiate conversations, answer questions, and address roadblocks or challenges this necessary upgrade may present.**
 {{% /note %}}
 

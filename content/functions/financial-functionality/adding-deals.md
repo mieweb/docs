@@ -1,12 +1,13 @@
 ---
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding deals'
-date: '2021-02-17T22:41:51.144Z'
-version: 23
-lastAuthor: 'egrzetich'
+date: '2024-07-22T13:43:05.258Z'
+version: 33
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
+  - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
 source: 'https://drive.google.com/open?id=1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -48,3 +49,9 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
     1. Select <strong>Add Document</strong>. The system receives the file or files from your device, adds it to the deal, and displays it. At the top-left, select the <strong>Deal</strong> button.
 16. In the <em>Approval</em> section, select <strong>Next</strong>.
 17. Select <strong>Archive & Close</strong>. If the deal is executed and the current date is within the effective period of the deal, the system applies it to the included charges.
+
+## Learning Management System
+
+To learn more about Adding Deals, follow the link below to Learning Management System course:
+
+* [Deal Management for Outside Occ. Health Services](https://mie.talentlms.com/shared/start/key:SOLRKMFP)

@@ -1,9 +1,9 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2024-03-27T16:57:45.971Z'
-version: 350
-lastAuthor: 'janderson'
+date: '2024-07-16T15:38:29.803Z'
+version: 361
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
@@ -121,6 +121,10 @@ This scheduled job closes open questionnaire encounters that are older than 6 mo
 ### Flu Exemption Task Extended into Observation
 
 This scheduled job will convert Task Extended Flu Review Determination Reasons (set on the Flu Determination Task when worked) into a stored observation named Influenza Vaccination Exemption Review with the specific exemption value noted. The standard recurrence is every 15 minutes. The system report that is utilized is "Flu Exemption Task to Obs".
+
+### Phone Home - Licensing
+
+This scheduled job sends a list of security roles and number of users in each security role to Medical Informatics Engineering. This job is used to ensure that clients are being billed for the appropriate number of software licenses.
 
 ## Disabled Scheduled Jobs
 

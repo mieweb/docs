@@ -1,9 +1,9 @@
 ---
 id: '14rgDcHuSlVd0894l6uZzFDeANZazXViU6NnquoPmjno'
 title: 'RWT Results 2024 Q2'
-date: '2024-03-22T19:34:29.568Z'
-version: 61
-lastAuthor: 'wagrana'
+date: '2024-07-01T19:58:35.527Z'
+version: 139
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -586,11 +586,48 @@ Additionally, WebChart EHR has two customers that participate in quarterly attes
 
 #### Results
 
-Results
+<table>
+<tr>
+<td></td>
+<td><strong>Calculations</strong></td>
+<td><strong>QRDA I</strong></td>
+<td><strong>QRDA III</strong></td>
+</tr>
+<tr>
+<td><strong>Client Reported Issues</strong></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Submitted Files</strong></td>
+<td>N/A</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Submission Errors</strong></td>
+<td>N/A</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Tested Files</strong></td>
+<td>N/A</td>
+<td>1248</td>
+<td>39</td>
+</tr>
+<tr>
+<td><strong>Testing Errors</strong></td>
+<td>N/A</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+As expected, no errors were found in formatting or coding of the certified measures.  We have plans to upgrade to Cypress 7.3 during Q3.
 
 ### Measure 2: Clinical Quality Measures Incoming
 
@@ -628,11 +665,27 @@ MIE will install an instance of Cypress 7+ on our production servers following a
 
 #### Results
 
-Results
+<table>
+<tr>
+<td></td>
+<td><strong>QRDA I</strong></td>
+<td><strong>QRDA III</strong></td>
+</tr>
+<tr>
+<td><strong>Tested Files</strong></td>
+<td>1248</td>
+<td>39</td>
+</tr>
+<tr>
+<td><strong>Testing Errors</strong></td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+As expected, no errors were found in formatting or coding of the certified measures.  We have plans to upgrade to Cypress 7.3 during Q3.
 
 ### Measure 3: E-Prescribing Messages Sent and Received
 
@@ -703,11 +756,136 @@ The report will also include a count of outbound messages unable to be transmitt
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Message Type</strong></td>
+<td><strong>Client Message Counts</strong></td>
+<td><strong>Total Count</strong></td>
+</tr>
+<tr>
+<td>NewRx</td>
+<td>33106</td>
+<td>72000</td>
+<td>10396</td>
+<td>12224</td>
+<td>3006</td>
+<td>130732</td>
+</tr>
+<tr>
+<td>RxChangeRequest</td>
+<td>978</td>
+<td>2</td>
+<td>344</td>
+<td>0</td>
+<td>0</td>
+<td>1324</td>
+</tr>
+<tr>
+<td>RxChangeResponse</td>
+<td>757</td>
+<td>0</td>
+<td>346</td>
+<td>0</td>
+<td>0</td>
+<td>1103</td>
+</tr>
+<tr>
+<td>CancelRx</td>
+<td>14</td>
+<td>161</td>
+<td>1</td>
+<td>6</td>
+<td>0</td>
+<td>182</td>
+</tr>
+<tr>
+<td>CancelRxReponse</td>
+<td>14</td>
+<td>156</td>
+<td>1</td>
+<td>6</td>
+<td>0</td>
+<td>177</td>
+</tr>
+<tr>
+<td>RxRenewalRequest</td>
+<td>12981</td>
+<td>4888</td>
+<td>2199</td>
+<td>4062</td>
+<td>0</td>
+<td>24130</td>
+</tr>
+<tr>
+<td>RxRenewalResponse</td>
+<td>12476</td>
+<td>4827</td>
+<td>2194</td>
+<td>4004</td>
+<td>0</td>
+<td>23501</td>
+</tr>
+<tr>
+<td>RxFill</td>
+<td>2</td>
+<td>0</td>
+<td>625</td>
+<td>0</td>
+<td>0</td>
+<td>627</td>
+</tr>
+<tr>
+<td>RxHistoryRequest</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>RxHistoryResponse</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>97889</td>
+<td>140255</td>
+<td>26669</td>
+<td>33135</td>
+<td>5582</td>
+<td>303530</td>
+</tr>
+<tr>
+<td>Error</td>
+<td>618</td>
+<td>300</td>
+<td>79</td>
+<td>145</td>
+<td>7</td>
+<td>1149</td>
+</tr>
+<tr>
+<td>Verify</td>
+<td>37860</td>
+<td>58456</td>
+<td>10606</td>
+<td>12934</td>
+<td>2578</td>
+<td>122434</td>
+</tr>
+</table>
+
+Total error rate: 1149 / 608891 * 100 = 0.19%
 
 #### Discussion
 
-Discussion
+As expected, all supported message types have a greater than zero total message count, and the total number of messages far exceeds the number of errored messages with a total error rate of 0.19%.  This is an extreme decrease from the 0.70% error rate in Q1, and is in line with the 0.22% error rate in all of 2023.  Additionally, the number of NewRx messages is significantly greater than the number of RxChangeResponse, CancelRx, and RxRenewalResponse messages.
 
 ### Measure 4: E-Prescribing Diagnosis Codes
 
@@ -738,11 +916,22 @@ MIE will report the contents of each stored message in a client's local database
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total NewRx Messages</strong></td>
+<td><strong>NewRx Messages with Diagnosis Included</strong></td>
+</tr>
+<tr>
+<td>33160+72000+10396+12224+3006=130786</td>
+<td>28631+423+7508+357+2894=39813</td>
+</tr>
+</table>
+
+Total rate of diagnosis use: 39813 / 130786 * 100 = 30.44%
 
 #### Discussion
 
-Discussion
+Since the Diagnosis elements are not a required component of a NewRx message, as anticipated, only a subset (30.44%) of the NewRx messages included a diagnosis. The rate of NewRx messages with a diagnosis is a decrease from 34.16% in Q1.  Client education will continue to be provided throughout 2024 to further increase usage.  This education is particularly necessary for Client B with the reported diagnosis rate of 423 / 72000 = 0.59%.
 
 ### Measure 5: E-Prescribing Oral Liquid Units
 
@@ -773,11 +962,59 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Unit Code</strong></td>
+<td><strong>Unit Description</strong></td>
+<td><strong>Quantity</strong></td>
+</tr>
+<tr>
+<td>C28254</td>
+<td>Milliliter (ml)</td>
+<td>2121+515+36+138+1302</td>
+</tr>
+<tr>
+<td>C48155</td>
+<td>Gram (g)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>C48477</td>
+<td>Bottle</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C48480</td>
+<td>Capsule</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C48521</td>
+<td>Packet</td>
+<td>1</td>
+</tr>
+<tr>
+<td>C48542</td>
+<td>Tablet</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C64933</td>
+<td>Each</td>
+<td>1</td>
+</tr>
+<tr>
+<td>C48504</td>
+<td>Kit</td>
+<td>0</td>
+</tr>
+</table>
+
+Total rate of incorrect units: 7 / 4112 * 100 = 0.17%
 
 #### Discussion
 
-Discussion
+As expected, C28254 (milliliters) is the most commonly sent unit of measure for oral liquid medications.  Non-C28254 units were only sent in 0.17% of oral liquid medication messages during the quarter.
 
 ### Measure 6: E-Prescribing Decimal Format
 
@@ -808,11 +1045,22 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total NewRx Messages</strong></td>
+<td><strong>NewRx Messages with Improper Decimal Format</strong></td>
+</tr>
+<tr>
+<td>130786</td>
+<td>695</td>
+</tr>
+</table>
+
+Total rate of improper decimals: 695 / 130786 * 100 = 0.53%
 
 #### Discussion
 
-Discussion
+As expected, the number of NewRx messages sent with inappropriate trailing zeros, or missing leading zeros, occurs rarely in only 0.53% of messages.  This is a decrease from the 0.60% in Q1 and the 0.58% in 2023.  Both technical and training options will be investigated to reduce the incidence of improper decimal formats during the remainder of 2024.
 
 ### Measure 7: CDA Download
 
@@ -853,7 +1101,16 @@ Any errors reported by customers or the recipients of their quarterly attestatio
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>CCDA Documents Uploaded</strong></td>
+<td><strong>CCDA Document Views</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 #### Discussion
 
@@ -907,11 +1164,11 @@ An external uptime monitor will check the availability of all documentation avai
 
 #### Results
 
-Results
+The MIE API documentation was available 100% of Q1.
 
 #### Discussion
 
-Discussion
+As expected, the documentation maintained an uptime of greater than 99.9% at 100% for the quarter.  Data regarding the usage of the API can be viewed in Measure 20.
 
 ### Measure 9: Clinical Information Reconciliation and Incorporation
 
@@ -947,7 +1204,18 @@ Following each reconcile, if a temporary CDA for the chart is created as part of
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Reconciled CCDAs</strong></td>
+<td><strong>Valid Documents</strong></td>
+<td><strong>Invalid Documents</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 #### Discussion
 
@@ -1140,7 +1408,16 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Views</strong></td>
+<td><strong>Unique Documents</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 #### Discussion
 
@@ -1187,7 +1464,16 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Downloads</strong></td>
+<td><strong>Unique Documents</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 #### Discussion
 
@@ -1234,7 +1520,16 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Transmits</strong></td>
+<td><strong>Unique Documents</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 #### Discussion
 
@@ -1451,11 +1746,11 @@ MIE will conduct monthly third-party production accessibility scanning as well a
 
 #### Results
 
-Results
+The internal accessibility scanning of a pre-production test system identified 0 urgent and 0 secondary non-conformance issues in 99.12% of nightly and ad-hoc scans throughout the quarter.  In the remaining 0.88% of scans only secondary issues were uncovered, all of which were eliminated prior to code changes reaching production systems.  Production accessibility scanning identified 0 urgent and 0 secondary non-conformance issues.
 
 #### Discussion
 
-Discussion
+As expected no urgent non-conformance issues were identified in either live production or pre-production test systems.  In the rare occurrence that a secondary non-conformance issue was identified in testing, it was addressed and eliminated prior to reaching live production systems.
 
 ### Measure 22: FHIR API Documentation
 
@@ -1486,11 +1781,11 @@ An external uptime monitor will check the availability of all documentation avai
 
 #### Results
 
-Results
+The FHIR API documentation was available 100% of Q1.
 
 #### Discussion
 
-Discussion
+As expected, the documentation maintained an uptime of greater than 99.9% at 100% for the quarter.
 
 ### Measure 23: CCDA Content
 

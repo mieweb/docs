@@ -1,13 +1,14 @@
 ---
 id: '1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
 title: 'Merge Manager Tab'
-date: '2024-06-07T17:07:23.602Z'
-version: 225
+date: '2024-07-19T17:01:13.270Z'
+version: 237
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../document-management/documents-and-forms/document-properties.md'
   - 'merging-accounts-charts-in-system.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZZQDNHRK'
 source: 'https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -129,3 +130,9 @@ When performing another search in the Merge Manager Log screen, the unmerged cha
 ## How to Merge Charts
 
 Additional information on how to merge charts together may be found under separate help documentation named [Merging Accounts-Charts](merging-accounts-charts-in-system.md)*.*
+
+## Learning Management System
+
+To learn more about the Merge Manager Tab, follow the link below to the Learning Management System course:
+
+* [Merge Manager](https://mie.talentlms.com/shared/start/key:ZZQDNHRK)

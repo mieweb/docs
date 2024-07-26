@@ -1,10 +1,12 @@
 ---
 id: '15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
 title: 'Locking Individual or Specific Charts'
-date: '2020-02-27T20:19:45.825Z'
-version: 49
+date: '2024-07-19T16:36:49.418Z'
+version: 67
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LTAIDNHR'
 source: 'https://drive.google.com/open?id=15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -75,3 +77,9 @@ Users can still index to a locked patient's chart and search for patient's in re
 ![](../locking-individual-or-specific-charts.assets/43509a84fbd2f19d980fcf8d69ce4cd0.png)
 
 ![](../locking-individual-or-specific-charts.assets/1923df6352bf15688e88a598d055d670.png)
+
+## Learning Management System
+
+To learn more about Locking Individual or Specific Charts, follow the link below to the Learning Management System course:
+
+* [Locking Charts, Emergency / Break the Glass Access](https://mie.talentlms.com/shared/start/key:LTAIDNHR)

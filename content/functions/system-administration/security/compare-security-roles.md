@@ -1,10 +1,12 @@
 ---
 id: '1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
 title: 'Compare Security Roles'
-date: '2020-02-27T20:25:20.019Z'
-version: 51
+date: '2024-07-17T14:50:23.690Z'
+version: 61
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -91,3 +93,9 @@ The Show CSV link will download what you are showing/viewing/comparing on your s
 ![](../compare-security-roles.assets/2223f38646eac0b497a2d1f8efe47535.png)
 
 ![](../compare-security-roles.assets/5218d8de5e715e29215f59f776389164.png)
+
+## Learning Management System
+
+To learn more about Comparing Security Roles, follow the link below to the Learning Management System course:
+
+* [Security Roles](https://mie.talentlms.com/shared/start/key:LTEIDNHR)

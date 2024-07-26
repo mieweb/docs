@@ -1,13 +1,14 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2024-07-01T20:40:04.789Z'
-version: 258
+date: '2024-07-19T17:23:15.352Z'
+version: 269
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://mie.talentlms.com/shared/start/key:LBOIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:ZELDNHRK'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -221,6 +222,7 @@ Any user or department who is removed from the allowed list using the [ - ] butt
 
 ## Learning Management System
 
-To learn more about Chart Tabs, follow the link below to the Learning Management System course:
+To learn more about Chart Tabs, follow the links below to the Learning Management System courses:
 
 * [Chart Tab](https://mie.talentlms.com/shared/start/key:LBOIDNHR)
+* [Chart Tabs / Chart Types](https://mie.talentlms.com/shared/start/key:ZELDNHRK)

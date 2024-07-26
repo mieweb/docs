@@ -1,11 +1,12 @@
 ---
 id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 title: 'Schedules Tab'
-date: '2024-05-16T16:59:44.066Z'
-version: 166
+date: '2024-07-19T16:46:24.069Z'
+version: 186
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -170,3 +171,9 @@ If there are any appointments scheduled for the next four weeks, you will see th
 Time is not templated means the time of the appointment trying to be made is not within the resource/physician's schedule that is set up. It means that a schedule is entered, but a user is trying to schedule an appointment for a time not within those hours the physician will see patients or at the location specified in the schedule set up. It could also mean that the resource/physician is off that day and not seeing patients, so that time is blocked off in a schedule. This is a general warning message that the time you are trying to schedule for is not matching what is in the schedule.
 
 The scheduler will not warn for non-templated times when adding an appointment for a resource that has no schedule(s) set up. All time will show as free if a resource/physician doesn't have a schedule set up.
+
+## Learning Management System
+
+To learn more about the Schedules Tab, follow the link below to the Learning Management System course:
+
+* [Scheduler Templates](https://mie.talentlms.com/shared/start/key:AEEHRKMF)

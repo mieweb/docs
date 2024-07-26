@@ -1,10 +1,12 @@
 ---
 id: '1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
 title: 'Fee Schedules'
-date: '2020-02-27T19:34:17.779Z'
-version: 69
+date: '2024-07-22T13:25:00.906Z'
+version: 81
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZSLDNHRK'
 source: 'https://drive.google.com/open?id=1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -101,3 +103,9 @@ The prices you enter into the default fee schedule or any specific fee schedule 
 You can use the *Data Import* tool in {{% system-name %}} to download your fee schedules and corresponding CPT codes into {{% system-name %}} quickly in mass. See other help documentation named *Data Import.pdf*.
 
 ![](../fee-schedules.assets/806907ca2e4721e8d45ae694ae19f7c0.png)
+
+## Learning Management System
+
+To learn more about Fee Schedules, follow the link below to the Learning Management System course:
+
+* [Fee Schedule](https://mie.talentlms.com/shared/start/key:ZSLDNHRK)

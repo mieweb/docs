@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-06-18T22:46:35.721Z'
-version: 571
+date: '2024-07-16T19:59:26.961Z'
+version: 597
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -383,34 +383,34 @@ links:
   - 'functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities/pcmh-electronic-submission-of-patient-centered-medical-home-accreditation.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities/pspa-31-patient-medication-risk-education.md'
   - 'functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities/pspa-32-use-of-cdc-guideline-for-clinical-decision-support-to-prescribe-opioids-for-chronic-pain-via-clinical-decision-support.md'
-  - 'functions/quality-of-care/measures/quality-measures-list.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-50-closing-the-referral-loop-receipt-of-specialist-report.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-68-documentation-of-current-medications-in-the-medical-record.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-117-childhood-immunization-status.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-124-cervical-cancer-screening.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-125-breast-cancer-screening.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-127-pneumococcal-vaccination-status-for-older-adults.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-130-colorectal-cancer-screening.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-131-diabetes-eye-exam.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-135-heart-failure-hf-angiotensin-converting-enzyme-ace-inhibitor-or-angiotensin-receptor-blocker-arb-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-136-follow-up-care-for-children-prescribed-adhd-medication-add.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-139-falls-screening-for-future-fall-risk.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-146-appropriate-testing-for-children-with-pharyngitis.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-147-preventive-care-and-screening-influenza-immunization.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-153-chlamydia-screening-for-women.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-154-appropriate-treatment-for-children-with-upper-respiratory-infection-uri.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-156-use-of-high-risk-medications-in-the-elderly.md'
-  - 'functions/quality-of-care/measures/quality-measures-list/cms-165-controlling-high-blood-pressure.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-50-closing-the-referral-loop-receipt-of-specialist-report.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-68-documentation-of-current-medications-in-the-medical-record.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-75-children-who-have-dental-decay-or-cavities.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-90-functional-status-assessments-for-congestive-heart-failure.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-117-childhood-immunization-status.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-124-cervical-cancer-screening.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-125-breast-cancer-screening.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-127-pneumococcal-vaccination-status-for-older-adults.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-130-colorectal-cancer-screening.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-131-diabetes-eye-exam.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-135-heart-failure-hf-angiotensin-converting-enzyme-ace-inhibitor-or-angiotensin-receptor-blocker-arb-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-136-follow-up-care-for-children-prescribed-adhd-medication-add.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-139-falls-screening-for-future-fall-risk.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-146-appropriate-testing-for-children-with-pharyngitis.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-147-preventive-care-and-screening-influenza-immunization.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-153-chlamydia-screening-for-women.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-154-appropriate-treatment-for-children-with-upper-respiratory-infection-uri.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-156-use-of-high-risk-medications-in-the-elderly.md'
+  - 'functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-165-controlling-high-blood-pressure.md'
   - 'functions/quality-of-care/raf-score-risk-adjustment-factor.md'
   - 'functions/reports.md'
   - 'functions/reports/using-datavis-grids-data-tools.md'
@@ -437,6 +437,13 @@ links:
   - 'functions/reports/medication-report.md'
   - 'functions/reports/non-compliant-report.md'
   - 'functions/reports/open-encounters-report.md'
+  - 'functions/reports/openpm-export-appointment-cancellation-codes.md'
+  - 'functions/reports/openpm-export-appointment-types.md'
+  - 'functions/reports/openpm-export-chart-insurance-policies.md'
+  - 'functions/reports/openpm-export-demographics.md'
+  - 'functions/reports/openpm-export-future-appointments.md'
+  - 'functions/reports/openpm-export-locations.md'
+  - 'functions/reports/openpm-export-physicians.md'
   - 'functions/reports/osha-300-form-log-overlay.md'
   - 'functions/reports/osha-300-log-report.md'
   - 'functions/reports/osha-300a-form-log-overlay.md'
@@ -479,6 +486,7 @@ links:
   - 'functions/system-administration/system-controls/resource-restrictions.md'
   - 'functions/system-administration/system-controls/view-user-audit-log.md'
   - 'functions/system-administration/system-controls/inbound-fax-queue-setting-user-access-permissions.md'
+  - 'functions/system-administration/system-controls/insurance-plans.md'
   - 'functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
   - 'functions/system-administration/system-controls/email-reminders-from-system.md'
   - 'functions/system-administration/system-controls/odbc-install-and-configuration.md'
@@ -1082,34 +1090,34 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
                     * [PCMH - Electronic Submission of Patient Centered Medical Home Accreditation](functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities/pcmh-electronic-submission-of-patient-centered-medical-home-accreditation.md)
                     * [PSPA 31 - Patient Medication Risk Education](functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities/pspa-31-patient-medication-risk-education.md)
                     * [PSPA 32 - Use of CDC Guideline for Clinical Decision Support to Prescribe Opioids for Chronic Pain via Clinical Decision Support](functions/quality-of-care/measures/improvement-activities-measures/2019-improvement-activities/pspa-32-use-of-cdc-guideline-for-clinical-decision-support-to-prescribe-opioids-for-chronic-pain-via-clinical-decision-support.md)
-            * [Quality Measures List](functions/quality-of-care/measures/quality-measures-list.md)
-                * [CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan](functions/quality-of-care/measures/quality-measures-list/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan.md)
-                * [CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented](functions/quality-of-care/measures/quality-measures-list/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md)
-                * [CMS 50 - Closing the Referral Loop: Receipt of Specialist Report](functions/quality-of-care/measures/quality-measures-list/cms-50-closing-the-referral-loop-receipt-of-specialist-report.md)
-                * [CMS 68 - Documentation of Current Medications in the Medical Record](functions/quality-of-care/measures/quality-measures-list/cms-68-documentation-of-current-medications-in-the-medical-record.md)
-                * [CMS 69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-up Plan](functions/quality-of-care/measures/quality-measures-list/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md)
-                * [CMS 75 - Children Who Have Dental Decay or Cavities](functions/quality-of-care/measures/quality-measures-list/cms-75-children-who-have-dental-decay-or-cavities.md)
-                * [CMS 90 - Functional Status Assessments for Congestive Heart Failure](functions/quality-of-care/measures/quality-measures-list/cms-90-functional-status-assessments-for-congestive-heart-failure.md)
-                * [CMS 117 - Childhood Immunization Status](functions/quality-of-care/measures/quality-measures-list/cms-117-childhood-immunization-status.md)
-                * [CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)](functions/quality-of-care/measures/quality-measures-list/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md)
-                * [CMS 124 - Cervical Cancer Screening](functions/quality-of-care/measures/quality-measures-list/cms-124-cervical-cancer-screening.md)
-                * [CMS 125 - Breast Cancer Screening](functions/quality-of-care/measures/quality-measures-list/cms-125-breast-cancer-screening.md)
-                * [CMS 127 - Pneumococcal Vaccination Status for Older Adults](functions/quality-of-care/measures/quality-measures-list/cms-127-pneumococcal-vaccination-status-for-older-adults.md)
-                * [CMS 130 - Colorectal Cancer Screening](functions/quality-of-care/measures/quality-measures-list/cms-130-colorectal-cancer-screening.md)
-                * [CMS 131 - Diabetes: Eye Exam](functions/quality-of-care/measures/quality-measures-list/cms-131-diabetes-eye-exam.md)
-                * [CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)](functions/quality-of-care/measures/quality-measures-list/cms-135-heart-failure-hf-angiotensin-converting-enzyme-ace-inhibitor-or-angiotensin-receptor-blocker-arb-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md)
-                * [CMS 136 - Follow-Up Care for Children Prescribed ADHD Medication (ADD)](functions/quality-of-care/measures/quality-measures-list/cms-136-follow-up-care-for-children-prescribed-adhd-medication-add.md)
-                * [CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention](functions/quality-of-care/measures/quality-measures-list/cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md)
-                * [CMS 139 - Falls: Screening for Future Fall Risk](functions/quality-of-care/measures/quality-measures-list/cms-139-falls-screening-for-future-fall-risk.md)
-                * [CMS 144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)](functions/quality-of-care/measures/quality-measures-list/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md)
-                * [CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)](functions/quality-of-care/measures/quality-measures-list/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md)
-                * [CMS 146 - Appropriate Testing for Children with Pharyngitis](functions/quality-of-care/measures/quality-measures-list/cms-146-appropriate-testing-for-children-with-pharyngitis.md)
-                * [CMS 147 - Preventive Care and Screening: Influenza Immunization](functions/quality-of-care/measures/quality-measures-list/cms-147-preventive-care-and-screening-influenza-immunization.md)
-                * [CMS 153 - Chlamydia Screening for Women](functions/quality-of-care/measures/quality-measures-list/cms-153-chlamydia-screening-for-women.md)
-                * [CMS 154 - Appropriate Treatment for Children with Upper Respiratory Infection (URI)](functions/quality-of-care/measures/quality-measures-list/cms-154-appropriate-treatment-for-children-with-upper-respiratory-infection-uri.md)
-                * [CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents](functions/quality-of-care/measures/quality-measures-list/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md)
-                * [CMS 156 - Use of High-Risk Medications in the Elderly](functions/quality-of-care/measures/quality-measures-list/cms-156-use-of-high-risk-medications-in-the-elderly.md)
-                * [CMS 165 - Controlling High Blood Pressure](functions/quality-of-care/measures/quality-measures-list/cms-165-controlling-high-blood-pressure.md)
+            * [Quality Measures List](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows.md)
+                * [CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md)
+                * [CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-22-preventive-care-and-screening-screening-for-high-blood-pressure-and-follow-up-documented.md)
+                * [CMS 50 - Closing the Referral Loop: Receipt of Specialist Report](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-50-closing-the-referral-loop-receipt-of-specialist-report.md)
+                * [CMS 68 - Documentation of Current Medications in the Medical Record](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-68-documentation-of-current-medications-in-the-medical-record.md)
+                * [CMS 69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-up Plan](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md)
+                * [CMS 75 - Children Who Have Dental Decay or Cavities](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-75-children-who-have-dental-decay-or-cavities.md)
+                * [CMS 90 - Functional Status Assessments for Congestive Heart Failure](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-90-functional-status-assessments-for-congestive-heart-failure.md)
+                * [CMS 117 - Childhood Immunization Status](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-117-childhood-immunization-status.md)
+                * [CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md)
+                * [CMS 124 - Cervical Cancer Screening](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-124-cervical-cancer-screening.md)
+                * [CMS 125 - Breast Cancer Screening](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-125-breast-cancer-screening.md)
+                * [CMS 127 - Pneumococcal Vaccination Status for Older Adults](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-127-pneumococcal-vaccination-status-for-older-adults.md)
+                * [CMS 130 - Colorectal Cancer Screening](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-130-colorectal-cancer-screening.md)
+                * [CMS 131 - Diabetes: Eye Exam](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-131-diabetes-eye-exam.md)
+                * [CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-135-heart-failure-hf-angiotensin-converting-enzyme-ace-inhibitor-or-angiotensin-receptor-blocker-arb-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md)
+                * [CMS 136 - Follow-Up Care for Children Prescribed ADHD Medication (ADD)](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-136-follow-up-care-for-children-prescribed-adhd-medication-add.md)
+                * [CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-138-preventive-care-and-screening-tobacco-use-screening-and-cessation-intervention.md)
+                * [CMS 139 - Falls: Screening for Future Fall Risk](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-139-falls-screening-for-future-fall-risk.md)
+                * [CMS 144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-144-heart-failure-hf-beta-blocker-therapy-for-left-ventricular-systolic-dysfunction-lvsd.md)
+                * [CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-145-coronary-artery-disease-cad-beta-blocker-therapy-prior-myocardial-infarction-mi-or-left-ventricular-systolic-dysfunction-lvef-less40.md)
+                * [CMS 146 - Appropriate Testing for Children with Pharyngitis](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-146-appropriate-testing-for-children-with-pharyngitis.md)
+                * [CMS 147 - Preventive Care and Screening: Influenza Immunization](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-147-preventive-care-and-screening-influenza-immunization.md)
+                * [CMS 153 - Chlamydia Screening for Women](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-153-chlamydia-screening-for-women.md)
+                * [CMS 154 - Appropriate Treatment for Children with Upper Respiratory Infection (URI)](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-154-appropriate-treatment-for-children-with-upper-respiratory-infection-uri.md)
+                * [CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md)
+                * [CMS 156 - Use of High-Risk Medications in the Elderly](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-156-use-of-high-risk-medications-in-the-elderly.md)
+                * [CMS 165 - Controlling High Blood Pressure](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-165-controlling-high-blood-pressure.md)
         * [RAF Score - Risk Adjustment Factor](functions/quality-of-care/raf-score-risk-adjustment-factor.md)
     * [Reports](functions/reports.md)
         * [Using DataVis Grids - Data Tools](functions/reports/using-datavis-grids-data-tools.md)
@@ -1136,6 +1144,14 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Medication Report](functions/reports/medication-report.md)
         * [Non-Compliant Report](functions/reports/non-compliant-report.md)
         * [Open Encounters Report](functions/reports/open-encounters-report.md)
+        * Open PM Exports
+            * [OpenPM Export Appointment Cancellation Report](functions/reports/openpm-export-appointment-cancellation-codes.md)
+            * [OpenPM Export Appointment Types](functions/reports/openpm-export-appointment-types.md)
+            * [OpenPM Export Chart Insurance Policies](functions/reports/openpm-export-chart-insurance-policies.md)
+            * [OpenPM Export Demographics](functions/reports/openpm-export-demographics.md)
+            * [OpenPM Export Future Appointments](functions/reports/openpm-export-future-appointments.md)
+            * [OpenPM Export Locations](functions/reports/openpm-export-locations.md)
+            * [OpenPM Export Physicians](functions/reports/openpm-export-physicians.md)
         * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md)
         * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
         * [OSHA 300A Form Log Overlay](functions/reports/osha-300a-form-log-overlay.md)
@@ -1178,6 +1194,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
             * [Resource Restrictions](functions/system-administration/system-controls/resource-restrictions.md)
             * [View User Audit Log](functions/system-administration/system-controls/view-user-audit-log.md)
             * [Inbound Fax Queue - Setting User Access Permissions](functions/system-administration/system-controls/inbound-fax-queue-setting-user-access-permissions.md)
+            * [Insurance Plans](functions/system-administration/system-controls/insurance-plans.md)
             * [Secure Email to Whitelisted Domain(s)](functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)
             * [Email Reminders from System](functions/system-administration/system-controls/email-reminders-from-system.md)
             * [ODBC Install & Configuration](functions/system-administration/system-controls/odbc-install-and-configuration.md)

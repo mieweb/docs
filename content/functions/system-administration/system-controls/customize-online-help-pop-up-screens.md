@@ -1,12 +1,13 @@
 ---
 id: '13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
 title: 'Customize Online Help Pop-up Screens'
-date: '2021-11-17T16:12:49.566Z'
-version: 123
-lastAuthor: 'aaronc'
+date: '2024-07-19T17:16:51.799Z'
+version: 135
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/video/WCEncounter.mov*'
+  - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'
 source: 'https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -164,3 +165,9 @@ Example: [[VIDEO:*http://www.mieweb.com/video/WCEncounter.mov*|divid=wc_video|di
 You can also get creative by programming Wiki Language to set a help banner image and not have it autostart or not and mute or not upon start. You can use this example below to retype to use our MIE help banner and Wiki Language programming if you wish to have the video start with an image.
 
 ![](../customize-online-help-pop-up-screens.assets/50dc486a2ae6610a01928d2e5caf1e57.png)
+
+## Learning Management System
+
+To learn more about Customizing Online Help Pop-up Screens, follow the link below to the Learning Management System course:
+
+* [Online Help Customization](https://mie.talentlms.com/shared/start/key:ZEODNHRK)

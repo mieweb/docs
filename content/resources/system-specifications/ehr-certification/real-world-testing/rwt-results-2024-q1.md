@@ -1,9 +1,9 @@
 ---
 id: '1xnyGBL0Nm-Vn1FITDPInu_7iNpmZ3To9-wRFBzwKxUI'
 title: 'RWT Results 2024 Q1'
-date: '2024-03-13T18:17:30.065Z'
-version: 26
-lastAuthor: 'nwallace'
+date: '2024-07-01T19:53:12.212Z'
+version: 583
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -29,6 +29,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://play.google.com/store/apps/details?hl=en_US&id=org.thecommonsproject.android.phr'
 source: 'https://drive.google.com/open?id=1xnyGBL0Nm-Vn1FITDPInu_7iNpmZ3To9-wRFBzwKxUI'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -586,11 +587,48 @@ Additionally, WebChart EHR has two customers that participate in quarterly attes
 
 #### Results
 
-Results
+<table>
+<tr>
+<td></td>
+<td><strong>Calculations</strong></td>
+<td><strong>QRDA I</strong></td>
+<td><strong>QRDA III</strong></td>
+</tr>
+<tr>
+<td><strong>Client Reported Issues</strong></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Submitted Files</strong></td>
+<td>N/A</td>
+<td>2624</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>Submission Errors</strong></td>
+<td>N/A</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Tested Files</strong></td>
+<td>N/A</td>
+<td>1248</td>
+<td>39</td>
+</tr>
+<tr>
+<td><strong>Testing Errors</strong></td>
+<td>N/A</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+As expected, no errors were found in formatting or coding of the certified measures.
 
 ### Measure 2: Clinical Quality Measures Incoming
 
@@ -628,11 +666,27 @@ MIE will install an instance of Cypress 7+ on our production servers following a
 
 #### Results
 
-Results
+<table>
+<tr>
+<td></td>
+<td><strong>QRDA I</strong></td>
+<td><strong>QRDA III</strong></td>
+</tr>
+<tr>
+<td><strong>Tested Files</strong></td>
+<td>1248</td>
+<td>39</td>
+</tr>
+<tr>
+<td><strong>Testing Errors</strong></td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+As expected, no errors were found in formatting or coding of the certified measures.
 
 ### Measure 3: E-Prescribing Messages Sent and Received
 
@@ -703,11 +757,136 @@ The report will also include a count of outbound messages unable to be transmitt
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Message Type</strong></td>
+<td><strong>Client Message Counts</strong></td>
+<td><strong>Total Count</strong></td>
+</tr>
+<tr>
+<td>NewRx</td>
+<td>33576</td>
+<td>56302</td>
+<td>8149</td>
+<td>9697</td>
+<td>2349</td>
+<td>110073</td>
+</tr>
+<tr>
+<td>RxChangeRequest</td>
+<td>973</td>
+<td>68</td>
+<td>291</td>
+<td>0</td>
+<td>0</td>
+<td>1332</td>
+</tr>
+<tr>
+<td>RxChangeResponse</td>
+<td>1387</td>
+<td>0</td>
+<td>284</td>
+<td>0</td>
+<td>0</td>
+<td>1671</td>
+</tr>
+<tr>
+<td>CancelRx</td>
+<td>23</td>
+<td>110</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>134</td>
+</tr>
+<tr>
+<td>CancelRxReponse</td>
+<td>21</td>
+<td>105</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>127</td>
+</tr>
+<tr>
+<td>RxRenewalRequest</td>
+<td>12585</td>
+<td>3587</td>
+<td>1497</td>
+<td>3046</td>
+<td>0</td>
+<td>20715</td>
+</tr>
+<tr>
+<td>RxRenewalResponse</td>
+<td>15188</td>
+<td>3681</td>
+<td>1438</td>
+<td>3034</td>
+<td>0</td>
+<td>23341</td>
+</tr>
+<tr>
+<td>RxFill</td>
+<td>0</td>
+<td>0</td>
+<td>507</td>
+<td>0</td>
+<td>0</td>
+<td>507</td>
+</tr>
+<tr>
+<td>RxHistoryRequest</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>RxHistoryResponse</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>104169</td>
+<td>109124</td>
+<td>20234</td>
+<td>25876</td>
+<td>4397</td>
+<td>263800</td>
+</tr>
+<tr>
+<td>Error</td>
+<td>2868</td>
+<td>553</td>
+<td>127</td>
+<td>145</td>
+<td>5</td>
+<td>3698</td>
+</tr>
+<tr>
+<td>Verify</td>
+<td>39537</td>
+<td>45245</td>
+<td>8085</td>
+<td>10111</td>
+<td>2052</td>
+<td>105030</td>
+</tr>
+</table>
+
+Total error rate: 3698 / 530428 * 100 = 0.70%
 
 #### Discussion
 
-Discussion
+As expected, all but 2 supported message types have a greater than zero total message count, and the total number of messages far exceeds the number of errored messages with a total error rate of 0.70%.  This, however, is an extreme increase in the error rate from 0.22% in all of 2023.  Further investigations will be conducted to understand the root cause of these errors.  Additionally, the number of NewRx messages is significantly greater than the number of RxChangeResponse, CancelRx, and RxRenewalResponse messages.
 
 ### Measure 4: E-Prescribing Diagnosis Codes
 
@@ -738,11 +917,22 @@ MIE will report the contents of each stored message in a client's local database
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total NewRx Messages</strong></td>
+<td><strong>NewRx Messages with Diagnosis Included</strong></td>
+</tr>
+<tr>
+<td>110073</td>
+<td>37602</td>
+</tr>
+</table>
+
+Total rate of diagnosis use: 37602 / 110073 * 100 = 34.16%
 
 #### Discussion
 
-Discussion
+Since the Diagnosis elements are not a required component of a NewRx message, as anticipated, only a subset (34.16%) of the NewRx messages included a diagnosis. The rate of NewRx messages with a diagnosis continued to increase from 28.99% in 2022, 32.6% in 2023, and now 34.16% in Q1.  This shows an increasing rate of using the diagnosis element.  Client education will continue to be provided throughout 2024 to further increase usage.
 
 ### Measure 5: E-Prescribing Oral Liquid Units
 
@@ -773,11 +963,59 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Unit Code</strong></td>
+<td><strong>Unit Description</strong></td>
+<td><strong>Quantity</strong></td>
+</tr>
+<tr>
+<td>C28254</td>
+<td>Milliliter (ml)</td>
+<td>3872</td>
+</tr>
+<tr>
+<td>C48155</td>
+<td>Gram (g)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>C48477</td>
+<td>Bottle</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C48480</td>
+<td>Capsule</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C48521</td>
+<td>Packet</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C48542</td>
+<td>Tablet</td>
+<td>3</td>
+</tr>
+<tr>
+<td>C64933</td>
+<td>Each</td>
+<td>4</td>
+</tr>
+<tr>
+<td>C48504</td>
+<td>Kit</td>
+<td>0</td>
+</tr>
+</table>
+
+Total rate of incorrect units: 9 / 3881 * 100 = 0.23%
 
 #### Discussion
 
-Discussion
+As expected, C28254 (milliliters) is the most commonly sent unit of measure for oral liquid medications.  Non-C28254 units were only sent in 0.23% of oral liquid medication messages during the quarter.
 
 ### Measure 6: E-Prescribing Decimal Format
 
@@ -808,11 +1046,22 @@ MIE will create a system report that examines the contents of each stored NewRx 
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total NewRx Messages</strong></td>
+<td><strong>NewRx Messages with Improper Decimal Format</strong></td>
+</tr>
+<tr>
+<td>110073</td>
+<td>665</td>
+</tr>
+</table>
+
+Total rate of improper decimals: 665 / 110073 * 100 = 0.60%
 
 #### Discussion
 
-Discussion
+As expected, the number of NewRx messages sent with inappropriate trailing zeros, or missing leading zeros, occurs rarely in only 0.60% of messages; however, this is again an increase from the 0.43% seen across 2022 and 0.58% seen in 2023.  Both technical and training options will be investigated to reduce the incidence of improper decimal formats during the remainder of 2024.
 
 ### Measure 7: CDA Download
 
@@ -853,11 +1102,20 @@ Any errors reported by customers or the recipients of their quarterly attestatio
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>CCDA Documents Uploaded</strong></td>
+<td><strong>CCDA Document Views</strong></td>
+</tr>
+<tr>
+<td>30,057</td>
+<td>9,138</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+There were no reported issues or errors with viewing CCDA documents during Q1.
 
 ### Measure 8: Application Access Documentation
 
@@ -907,11 +1165,11 @@ An external uptime monitor will check the availability of all documentation avai
 
 #### Results
 
-Results
+The MIE API documentation was available 100% of Q1.
 
 #### Discussion
 
-Discussion
+As expected, the documentation maintained an uptime of greater than 99.9% at 100% for the quarter.  Data regarding the usage of the API can be viewed in Measure 20.
 
 ### Measure 9: Clinical Information Reconciliation and Incorporation
 
@@ -947,11 +1205,22 @@ Following each reconcile, if a temporary CDA for the chart is created as part of
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Reconciled CCDAs</strong></td>
+<td><strong>Valid Documents</strong></td>
+<td><strong>Invalid Documents</strong></td>
+</tr>
+<tr>
+<td>13</td>
+<td>3</td>
+<td>10</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+The number of reconciled CCDA documents was extremely low and from a single testing client.  The rate of invalid CCDA documents was also very high within the small sample size at 77%; however, all of these invalid documents were imported from third parties.  We continue to contact these third parties to try and address their invalid CCDA documents in addition to trying to increase the overall number of reconciliations performed.
 
 ### Measure 10: Transmission to Immunization Registry: Create Content
 
@@ -1140,11 +1409,20 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Views</strong></td>
+<td><strong>Unique Documents</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>2</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+We are focusing on CDA adoption in the patient portal with one large multi-specialty client; however, there remains low CDA adoption.  We plan to investigate methods of promoting the use of CDA documents in the portal during Q3-Q4.
 
 ### Measure 15: Patient Portal Download
 
@@ -1187,11 +1465,20 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Downloads</strong></td>
+<td><strong>Unique Documents</strong></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+We are actively developing a set of test charts and methods to perform downloads during Q2 testing.  We also plan to investigate methods of promoting the use of CDA documents in the portal during Q3-Q4.
 
 ### Measure 16: Patient Portal CCDA Transmit
 
@@ -1234,11 +1521,20 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Total Transmits</strong></td>
+<td><strong>Unique Documents</strong></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+We are actively developing a set of test charts and methods to perform transmits during Q2 testing.  We also plan to investigate methods of promoting the use of CDA documents in the portal during Q3-Q4.
 
 ### Measure 17: Send Using Edge Protocol for SMTP / XDM
 
@@ -1324,11 +1620,11 @@ MIE will track customer reports of data expected to be in mass data export downl
 
 #### Results
 
-Results
+No data was exported via Data Export tools in Q1.
 
 #### Discussion
 
-Discussion
+Data has been exported in Q2 and will be available in the Q2 report.  Development of manual and automated test data will be available beginning with Q3 reporting.
 
 ### Measure 19: CDA Validation
 
@@ -1365,11 +1661,20 @@ The number of valid vs. invalid CDAs and their sources will be reported.
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Valid CCDAs</strong></td>
+<td><strong>Invalid CCDAs</strong></td>
+</tr>
+<tr>
+<td>165</td>
+<td>359</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+There was a very high prevalence of invalid CCDAs compared with valid CCDAs.  Many of these were only partial documents, while most others were invalid documents imported from third parties.  A common error received from third parties occurred when "codes" were not part of the code system identified in the document.  Where appropriate, these third parties will be contacted in an attempt to improve the rate of valid CCDA imports.
 
 ### Measure 20: Patient Data requests VIA API
 
@@ -1451,11 +1756,11 @@ MIE will conduct monthly third-party production accessibility scanning as well a
 
 #### Results
 
-Results
+The internal accessibility scanning of a pre-production test system identified 0 urgent and 0 secondary non-conformance issues in 98.64% of nightly and ad-hoc scans throughout the quarter.  In the remaining 1.36% of scans only secondary issues were uncovered, all of which were eliminated prior to code changes reaching production systems.  Production accessibility scanning identified 0 urgent and 0 secondary non-conformance issues.
 
 #### Discussion
 
-Discussion
+As expected no urgent non-conformance issues were identified in either live production or pre-production test systems.  In the rare occurrence that a secondary non-conformance issue was identified in testing, it was addressed and eliminated prior to reaching live production systems.
 
 ### Measure 22: FHIR API Documentation
 
@@ -1486,11 +1791,11 @@ An external uptime monitor will check the availability of all documentation avai
 
 #### Results
 
-Results
+The FHIR API documentation was available 100% of Q1.
 
 #### Discussion
 
-Discussion
+As expected, the documentation maintained an uptime of greater than 99.9% at 100% for the quarter.
 
 ### Measure 23: CCDA Content
 
@@ -1517,15 +1822,17 @@ WebChart EHR should generate CCDAs that can generate the sections required by US
 
 #### Test Methodology
 
-We will have weekly automated tests that will choose a certain number of random patient CCDAs in specific live systems and test for the given sections to exist in the documents.
+We will show with charts with all USCDI data entered that the CCDAs generated also display all of the USCDI data.
+
+We will eventually have weekly automated tests that will choose a certain number of random patient CCDAs in specific live systems and test for the given sections to exist in the documents.
 
 #### Results
 
-Results
+One sample CCDA document was generated with all USCDI data.
 
 #### Discussion
 
-Discussion
+We have plans to increase the volume of test documents created while also enhancing our CCDA stylesheets to better delineate the USCDI data elements.
 
 ### Measure 24: Record and Change Care Plan
 
@@ -1561,11 +1868,11 @@ We will report on the following data elements being created or edited in patient
 
 #### Results
 
-Results
+Three test patients in live systems had data in all 4 sections of Care Plan entered during the period.
 
 #### Discussion
 
-Discussion
+While having Care Plan data for three test patients demonstrates that WebChart EHR can collect Care Plan data, this is an exceptionally small set of data.  Our goal in future quarters is to incorporate first additional test data and then educate clients to begin collecting and maintaining Care Plan data for live patients.
 
 ### Measure 25: Create Care Plan CCDA Documents
 
@@ -1596,11 +1903,11 @@ We will report on the number of encounters with Care Plan information, and the n
 
 #### Results
 
-Results
+No CCDA Care Plans were generated in Q1.
 
 #### Discussion
 
-Discussion
+We have generated Care Plans that will be reported in Q2.  Additionally, we have plans to improve delineation of Care Plan documents in Q3.
 
 ### Measure 26: Receive Care Plan CCDA Documents
 
@@ -1634,11 +1941,11 @@ We will report on:
 
 #### Results
 
-Results
+No care plans were received from outside resources in RWT systems.
 
 #### Discussion
 
-Discussion
+We plan on having care plans sent into some RWT systems in future quarters.
 
 ### Measure 27: Create CCDA Documents with Security Tags
 
@@ -1674,11 +1981,11 @@ If we determine that we are seeing usage of the security tagging within Producti
 
 #### Results
 
-Results
+One document was generated in Q1 that had the security tags and stylesheet.
 
 #### Discussion
 
-Discussion
+We plan to generate more test documents in future quarters to demonstrate that security tags can be created.
 
 ### Measure 28: Receive and Display CCDA Documents with Security Tags
 
@@ -1714,11 +2021,11 @@ From discussions with others around the industry who interact with large usage o
 
 #### Results
 
-Results
+No CCDAs with security tags were received from outside resources in RWT systems.
 
 #### Discussion
 
-Discussion
+We plan on having CCDAs with security tags sent into some RWT systems in future quarters.
 
 ### Measure 29: FHIR Sandbox Testing
 
@@ -1767,11 +2074,11 @@ MIE will run nightly automated testing on the public FHIR R4 sandbox system usin
 
 #### Results
 
-Results
+No results in Q1.
 
 #### Discussion
 
-Discussion
+We currently have issues with our automated testing.  We are getting things resolved to resume testing in future quarters.
 
 ### Measure 30: FHIR Patient Scope
 
@@ -1817,11 +2124,11 @@ MIE will report from de-identified log files an analysis of authentication and d
 
 #### Results
 
-Results
+No results for FHIR connections in Q1.
 
 #### Discussion
 
-Discussion
+We have plans to get a RWT client using [Common Health](https://play.google.com/store/apps/details?hl=en_US&id=org.thecommonsproject.android.phr) in Q3.
 
 ### Measure 31: FHIR EHR Provider Scope
 
@@ -1864,11 +2171,11 @@ MIE will report from de-identified log files an analysis of authentication and d
 
 #### Results
 
-Results
+No results for FHIR connections in Q1.
 
 #### Discussion
 
-Discussion
+We plan on getting clients using either the eCR FHIR Now app or DSI apps in future quarters.
 
 ### Measure 32: Transmission to public health agencies — syndromic surveillance: Create content
 
@@ -2096,7 +2403,7 @@ This Real World Testing plan is complete with all required elements, including m
 </tr>
 <tr>
 <td><strong>Authorized Representative Signature</strong></td>
-<td></td>
+<td>Doug Horner</td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>

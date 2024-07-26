@@ -1,13 +1,14 @@
 ---
 id: '14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
 title: 'Duplicating fee schedules'
-date: '2021-02-18T16:21:40.612Z'
-version: 19
-lastAuthor: 'egrzetich'
+date: '2024-07-22T13:30:43.124Z'
+version: 30
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-fee-schedules.md'
   - 'viewing-all-fee-schedules.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZSLDNHRK'
 source: 'https://drive.google.com/open?id=14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -29,3 +30,9 @@ When duplicating a fee schedule, you can also set the prices of all items in the
     1. To not change the prices of all items in the duplicate fee schedule, do not make an entry.
     2. To change the prices of all items in the duplicate fee schedule, enter a <strong>whole number or decimal number</strong> by which the prices of all items in the original fee schedule will be multiplied. For example, to halve the prices of all items in the duplicate fee schedule, enter .5.
 7. Select <strong>Save</strong>. The system duplicates the fee schedule and sets costs and prices, if applicable. The fee schedule appears in the <em>Fee Schedule</em> section.
+
+## Learning Management System
+
+To learn more about Duplicating Fee Schedules, follow the link below to the Learning Management System course:
+
+* [Fee Schedule](https://mie.talentlms.com/shared/start/key:ZSLDNHRK)

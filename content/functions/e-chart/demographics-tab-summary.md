@@ -1,9 +1,9 @@
 ---
 id: '1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
 title: 'Demographics Tab Summary'
-date: '2024-04-29T18:44:51.510Z'
-version: 113
-lastAuthor: 'janderson'
+date: '2024-07-16T18:32:57.366Z'
+version: 128
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'editing-demographics.md'
@@ -53,7 +53,7 @@ The Contact / Relationship section of the Demographics tab contains Employer Org
 
 ![](../demographics-tab-summary.assets/8e7ca03c106718db2d1a303d60689bfc.png)
 
-The Other Data section allows additional observations to be captured that would otherwise require an update to the standard demographics layouts. The standard Other Data section includes fields for Birth Sex, Gender Identity, Sexual Orientation, Personal Pronouns, and Previous Names. The implementation or App support team at MIE can update this section for the best use case for the client.
+The Other Data section allows additional observations to be captured that would otherwise require an update to the standard demographics layouts. The standard Other Data section includes fields for Birth Sex, Gender Identity, Sexual Orientation, Personal Pronouns, and Previous Names. The implementation or App support team at MIE can update this section for the best use case for the client. Data collected in the Other Data section will also display on the Demographics portlet.
 
 ![](../demographics-tab-summary.assets/a06680ba96fa2e33340bb7ddd9b06c72.png)
 

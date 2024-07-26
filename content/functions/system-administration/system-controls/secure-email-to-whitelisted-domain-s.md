@@ -1,10 +1,12 @@
 ---
 id: '1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
 title: 'Secure Email to Whitelisted Domain(s)'
-date: '2020-02-27T20:21:13.177Z'
-version: 66
+date: '2024-07-22T14:19:43.162Z'
+version: 80
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:SOZRKMFP'
 source: 'https://drive.google.com/open?id=1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -105,3 +107,9 @@ The generated email itself stores as a separate document within the patient/empl
 If you click to open the stored email document that stored to the patient/employee chart it will display the specific email that was send out (generated) from the system and what document was emailed out.
 
 ![](../secure-email-to-whitelisted-domain-s.assets/72821c842635fb4d80a959de712e88c2.png)
+
+## Learning Management System
+
+To learn more about Secure Emailing to Whitelisted Domain(s), follow the link below to the Learning Management System course:
+
+* [Secure Email of Documents or Direct HSP Email of Documents](https://mie.talentlms.com/shared/start/key:SOZRKMFP)

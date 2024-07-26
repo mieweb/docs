@@ -1,12 +1,13 @@
 ---
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
-date: '2024-07-01T20:46:06.691Z'
-version: 192
+date: '2024-07-22T12:39:31.384Z'
+version: 205
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:ZATDNHRK'
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -275,6 +276,7 @@ The user will display with a strikethrough.
 
 ## Learning Management System
 
-To learn more about the Document Type Tab, follow the link below to the Learning Management System course:
+To learn more about the Document Type Tab, follow the links below to the Learning Management System courses:
 
 * [Documents Tab](https://mie.talentlms.com/shared/start/key:LBLIDNHR)
+* [Document Types Tab](https://mie.talentlms.com/shared/start/key:ZATDNHRK)
