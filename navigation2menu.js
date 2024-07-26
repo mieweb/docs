@@ -31,9 +31,18 @@ for (const line of markdown.split('\n')) {
         parentStack.pop();
     }
 
-    const identifier = pageRef;
+    let identifier = pageRef;
 
     if (pageRef.startsWith('http://') || pageRef.startsWith('https://') || fs.existsSync('./content/' + pageRef)) {
+        if (pageRef.indexOf('//') === -1) {
+            const md = fs.readFileSync('./content/' + pageRef).toString().split('\n');
+            for (const line of md) {
+                if (line.startsWith('id: ')) {
+                    identifier = line.substring('id: '.length).replace(/['"]/g, '').trim() || identifier;
+                }
+            }
+        }
+
         menu.push({
             identifier,
             name,
