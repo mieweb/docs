@@ -49,7 +49,10 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Pulling down changes from Google Drive
       run: node "/root/wikiGDrive/dist/main.js" pull
-    
+
+    - name: Generate menu
+      run: cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+
     - name: run Hugo for WebChart
       run: hugo --config 'config-wc.toml'
       

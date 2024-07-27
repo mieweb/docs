@@ -21,7 +21,10 @@ jobs:
     - name: Pull NPM Dependencies
       run: |
         npm ci
-      
+
+    - name: Generate menu
+      run: cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+
     # Build the HTML versions of the md using hugo
     - name: Build WebChart HTML
       run: hugo --config 'config-wc.toml' --minify --baseURL https://docs.webchartnow.com/

@@ -35,6 +35,9 @@ jobs:
       run: |
         npm ci
 
+    - name: Generate menu
+      run: cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+
     - name: Build WebChart HTML
       run: hugo --config 'config-wc.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify
 
