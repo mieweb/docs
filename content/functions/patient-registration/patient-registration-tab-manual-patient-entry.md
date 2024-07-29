@@ -1,8 +1,8 @@
 ---
 id: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 title: 'Patient Registration Tab - Manual Patient Entry'
-date: '2024-07-02T17:41:41.927Z'
-version: 69
+date: '2024-07-29T17:19:07.651Z'
+version: 92
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -16,31 +16,29 @@ Click the *E-Chart* tab from the left sidebar menu.
 
 Click *Patient Registration* tab at the top.
 
-![](../patient-registration-tab-manual-patient-entry.assets/9c3affda031b27a38fef85b33357a5f2.png)
+![](../patient-registration-tab-manual-patient-entry.assets/cc477755b80089f729fe4ddfed5c189b.png)
 
-Enter last name, first name, birthdate, and SSN, then click *Search* at the bottom.
+Enter last name, first name, birthdate, email, SSN and organization, then click *Add New* at the bottom.
 
-It will search and see if the patient exists or match any part of the information (last/first name, dob, ssn) and give you a match rating.
+The system will search and see if the patient exists after typing in the Last Name and First Name. If it finds a close match from the fields you entered, it will show those matches in red. These are possible matches of patient's already entered in your system. You may want to double check that the patient already exists in {{% system-name %}} from this search result. This helps eliminate entering duplicate patients.
 
-If it finds a close match from the fields you entered, it will show those matches. These are possible matches of patient's already entered in your system. You may want to double check that the patient already exists in {{% system-name %}} from this search result. This helps eliminate entering duplicate patients.
-
-![](../patient-registration-tab-manual-patient-entry.assets/4d6146774d7a21da66799e2dcdb9600d.png)
+![](../patient-registration-tab-manual-patient-entry.assets/3e5a8800ad9459433eedd7e0d2e107de.png)
 
 It will then give you a choice of either selecting an existing patient record from the list of matching patients or continuing on with the registration/adding process for the patient and information you entered.
 
 If the patient you are entering pops up as a match and is already in the system, simply click on that matching patient's MR # and it will take you to their chart. Or simply get out of the module by clicking on any tab.
 
-If the patient you are entering is not the same as any of the matching patient's it is rating, then click Continue adding the patient ( *name )*. This will then let you continue to enter this patient manually into the system.
+If the patient you are entering is not the same as any of the matching patient's it is rating, then click Add New adding the patient ( *name )*. This will then let you continue to enter this patient manually into the system.
 
 If your patient does not appear as a possible match, then it will take you right to the registration screen.
 
-If you clicked Continue adding the Patient ( *name* ): then it will take you to the registration screen.
+If you clicked Add New adding the Patient ( *name* ): then it will take you to the registration screen.
 
-All this information populates the *Demographics* tab of the patient's chart.
+All this information populates the *Demographics* tab of the patient's chart. Click the gray bar for Demographic Information to open the section and continue adding additional demographic information.
 
 Fill out the registration screen fields.
 
-![](../patient-registration-tab-manual-patient-entry.assets/0502398597c370e70e5f3da51e447b6d.png)
+![](../patient-registration-tab-manual-patient-entry.assets/9c7bec10fd0f9bbd3d43ec2639b0b067.png)
 
 **The required fields are Last Name, First Name, and Birthdate**.
 
@@ -54,9 +52,9 @@ Note: Country field is first to populate for address in order to help with a Pos
 
 Upon keying in the postal code field, the system will auto-populate the county and city and state for you in the remaining fields. The Postal Code field will accommodate international postal codes and display as they are entered without auto-formatting.
 
-Note: There is a system setting to allow for international province/state selection. If system setting *US States Only* is disabled (value 0) then the State field in demographics will change to say *State/Province-Country* and you can use the autocomplete to select a state/province and country for the patient. It will result in international and US selections.
+Note: There is a system setting to allow for international province/state selection. If system setting *US States Only* is disabled (value 0) then when the Country is selected, the State/Province field will populate a dropdown of options that coincide with the Country selected.
 
-![](../patient-registration-tab-manual-patient-entry.assets/5782338ade2057bf0a7a9f127a03265d.png)
+![](../patient-registration-tab-manual-patient-entry.assets/bc697fa6633306ff7df856a80272f98d.png)
 
 Your practice may be set up to have a check-box on the registration screen named **Exclude from patient quality care.** Check-mark this if you are entering a test patient or a fake patient to your system. If you checkmark this box, it will exclude that patient from any report data, etc. This is to be check-marked for fake or test patients only in your system.
 
