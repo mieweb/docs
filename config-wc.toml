@@ -4,7 +4,7 @@ title = "WebChart"
 theme = "wc-eh-docs"
 publishDir = "public/wc"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir=false
 enableGitInfo = true
 
 [frontmatter]

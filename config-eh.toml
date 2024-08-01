@@ -4,7 +4,7 @@ title = "Enterprise Health"
 theme = "wc-eh-docs"
 publishDir = "public/eh"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir=false
 enableGitInfo = true
 
 [frontmatter]
