@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-08-02T12:36:36.983Z'
-version: 2963
+date: '2024-08-02T19:19:40.512Z'
+version: 2974
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -331,7 +331,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * North Carolina (CVMS) (in progress)
 * Ohio Immunization Registry (ImpactSIIS) - currently uni-directional to SIIS
 * Oklahoma (in progress)
-* Oregon
+* Oregon Immunization Registry
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
 * Tennessee (TENNIIS) (unidirectional)
 * Texas (in progress)
