@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-05-10T17:56:58.369Z'
-version: 2939
+date: '2024-08-02T12:36:36.983Z'
+version: 2963
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -423,8 +423,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 ## Patient Education
 
 * Ergonomic Scoring
-* Healthwise
 * Insignia PAM Scoring
+* WebMD Ignite (formerly Healthwise)
 * MedStat PSS4 Scoring
 
 ## Personal Health Records
