@@ -1,8 +1,8 @@
 ---
 id: '1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM'
 title: 'Orders List Editor'
-date: '2024-05-20T16:35:47.255Z'
-version: 198
+date: '2024-08-06T13:55:21.144Z'
+version: 205
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -51,6 +51,14 @@ The Orders-List Editor shows all orders available in the system and is also wher
 * Move the columns around to a view that suits you by clicking on the COLUMNS button and using the tools to pin/hide/drag columns.
 * Use the tools/gear icon to group by / pivot the data.
 * To download a CSV of the selection, use the paper icon then click the Download icon.
+
+{{% info %}}
+By default, the system will hide the following columns: Modifiers, Quantity, Price, Procedure Code, Department, Sent Separately to Lab, Hide Comment Field, Provider Guideline, Patient Instruction, Description, and Injection. Users can control which columns display and the order of items by selecting the *Columns* button and saving a new perspective.
+
+
+
+![](../orders-list-editor.assets/b720575b9f2db751be03b45f79225293.png)
+{{% /info %}}
 
 ### Add a new order
 
