@@ -1,8 +1,8 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2024-07-16T15:38:29.803Z'
-version: 361
+date: '2024-08-07T14:52:15.863Z'
+version: 376
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -142,7 +142,7 @@ This scheduled job will decline other orders when certain orders are completed. 
 
 ### Disable Inactive Users
 
-This scheduled job marks any active user as a deleted current status if they haven't logged in for XX number of days. The system setting value within ‘Days Inactive' is respected for the XX number of days that this job will mark the users as ‘deleted' current status. The standard recurrence is once every day.
+This scheduled job marks any active user as a deleted current status if they haven't logged in for XX number of days. The system setting value within ‘Days Inactive' is respected for the XX number of days that this job will mark the users as ‘deleted' current status. The standard recurrence is once every day. Two system settings can be added and configured that will protect certain users or roles from being disabled by this job. The system settings are "System, Security, Protected Security Roles" and "System, Security, Protected Users".
 
 ### Restrictions Notifications
 
