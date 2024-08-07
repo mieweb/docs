@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-07-16T20:34:04.990Z'
-version: 373
-lastAuthor: 'janderson'
+date: '2024-08-07T13:45:14.877Z'
+version: 387
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -180,8 +180,9 @@ The Individual Security settings screen for that user will open. Select any secu
 * Allow Print Def Declaration:  If set to Yes, users can name print definitions.  If set to No, users cannot name a print definition or edit the name.  The system will automatically assign the name as PD# to the print definition.
 * Manage Encounter Types:  Yes allows users in the role full access to the Encounter Visit Types tab in the control tab.  Meaning users can view, edit, add, delete encounter visit types.  No keeps a role from accessing this tab entirely.
 * Manage Encounter Exams:  Yes allows a role full access to the Enc Exam Editor tab in the control tab.  Users can access & change in the editor for encounter exams for the system (this is mainly for MIE use).  No keeps a role from accessing this tab entirely.
-* Manage Observations:  Levels are No, View, Add, Edit, Delete.  Delete level gives a user full permission to edit, delete, add observations in a patient's chart.  No will not allow the user to access the patient's observations tab. These levels are related to the observations chart tab in a patient's chart. Anyone with encounter rights should also have rights to this setting.
-* Manage Observation Flowsheets:  If set to Yes, users can create new or edit existing flowsheets from any observations tab located in the patient's chart.  If set to No, the function button for create/edit flowsheets will not even display for the user to access.
+* Manage Observations:  Levels are No, View, Add, Edit, Delete and Unlimited.  These levels are related to the observations chart tab in a patient's chart. Anyone with encounter rights should also have rights to this setting. Delete level gives a user full permission to edit, delete, add observations in a patient's chart.  No will not allow the user to access the patient's observations chart tab tab. Unlimited allows the user to access the "View All Observations" flowsheet option within the patient's Observations chart tab. Additionally, only users with unlimited access will be able to run the Patient Observation report in the Reports module.
+* Manage Observation Flowsheets:  If set to Yes, users can create new or edit existing flowsheets from any observations tab located in the patient's chart.  If set to No, the function button for create/edit flowsheets will not even display for the user to access. This security role option was depreciated in 2020 and replaced with the Manage Observation Definitions security role.
+* Manage Observation Definitions: <em>None:</em> Users will not have access to the Observations Code tab or Flowsheets as located under the Control Panel. <em>View Codes & Flowsheets:</em> will allow users view the Observation Codes and Flowsheets as located under the Control Panel. (Thus, users can not add/edit Observation Codes or Flowsheets). <em>View Codes - Manage Flowsheets:</em> will allow users view Observations Codes and manage Flowsheets as located under the Control Panel. (Thus, users can not add new Observation Codes, but they can create Flowsheets using existing Observation Codes). <em>Manage Codes & Flowsheets:</em> will allow users to Add/edit Observations Code and manage Flowsheets as located under the Control Panel.
 * Print Only Non-printed Documents: This setting places a check-box on the Print window that allows users to print only the documents that have not been printed.
 * Allow Printing of Locked Documents:  If permission is Yes, it allows users to print a document that is locked.
 * Allow Re-Printing/Faxing of Print Jobs: Choose Yes or No. This will allow these users to have the resend option in the Fax Manager in the spools.
