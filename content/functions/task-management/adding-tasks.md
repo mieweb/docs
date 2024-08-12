@@ -1,8 +1,8 @@
 ---
 id: '1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
 title: 'Adding Tasks'
-date: '2024-07-02T18:35:46.121Z'
-version: 125
+date: '2024-08-12T15:39:07.112Z'
+version: 173
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ Tasks can be linked to charts, linked to a chart along with a specific chart doc
 
 When in a specific chart, the Add Task link is found in various places.  Adding a task from links found in the chart, will only relate this task to the chart, not any specific document in the chart.
 
-![](../adding-tasks.assets/45fa385e627245bcf92f90cabf6f4b04.png)
+![](../adding-tasks.assets/6dbd5ddb0069f3d5d60468a56fa3dccc.png)
 
 Once Add Task is clicked, a screen with task choices will appear.  The Generic task button will be above the Fast Task options.
 
@@ -29,11 +29,11 @@ Once Add Task is clicked, a screen with task choices will appear.  The Generic 
 
 To create a generic task regarding a chart, click Add Generic button after having clicked the Add Task link found throughout the chart.
 
-![](../adding-tasks.assets/75e2ff77020b3af9acdcb39853406304.png)
+![](../adding-tasks.assets/5a46e8784fff46fcab67bfde310e56d2.png)
 
 Generic tasks have blank fields that you can free-text the information needed for the assignee to complete this task.   The generic task is linked and regarding the chart you are in. This is evident in the Regarding field when in the Add Task screen.
 
-![](../adding-tasks.assets/15741b1771ff655e0b3d83f8b1808029.png)
+![](../adding-tasks.assets/a78001fd2c393673aec802fce398913f.png)
 
 * Description: Describe task or title it.  This is what assignees see in their task queue as the task description.
 * Subject:  You can add a subject to the task if you wish. This is visible when the task document is uploaded and stored to the chart.
@@ -53,32 +53,32 @@ Users do not have security permission of View Access for tasks will not appear
 
 * Assign this task to Myself: If you want to assign the task to yourself, simply checkmark the Assign To Myself checkbox that is provided.  The task will then be put in your task worklist to complete.
 
-![](../adding-tasks.assets/63d1f0b6adb4e3f38eb99fb6b4568b56.png)
+![](../adding-tasks.assets/b9719de6944d79ebef881d6237bebaae.png)
 
 * Assign this task to a Department only (not specific users within a department): To assign a task to a department, use the drop-down arrow in Department field. The task will be assigned to the department selected.  Any user that is a member of that department and whom has task viewing permission, can grab and complete department tasks.  Click the ADD button when done.
 
-![](../adding-tasks.assets/86b15ff6409bad58d380da65e3735e2d.png)
+![](../adding-tasks.assets/8d4e0147e82542c2beff93db900b32f0.png)
 
 * Assign this task to a Department and a specific user within that department: If/when you choose a department, the Owner field will display a list of users that are tied to that department selected.  You can then assign a specific user (within that specified department) as the assignee to the task.
     * Use that auto-complete field to select a specific user within that department to assign this task to. You can also click your ↓ down arrow key on your keyboard to view the users within that department so you can select from.
     * Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done.  
-        ![](../adding-tasks.assets/27887906767c833667d6134e87664b5e.png)
+        ![](../adding-tasks.assets/4aca7791d43c34241383c9f16b2f455b.png)
 
 * Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the drop-down arrow in Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.    
-    ![](../adding-tasks.assets/044732968fa7c2129885311063a8f1aa.png)
+    ![](../adding-tasks.assets/5165e6807f66d41be0c089d46f115014.png)
 
 * Assign this same task to multiple specific users/owners:  You can choose a specific users (owners) to assign the task to.  Each user (owner) assigned the task, must then complete the task.  
-    ![](../adding-tasks.assets/884ae380e339e74c2d4c490ff994c316.png)
+    ![](../adding-tasks.assets/74d4a6ebf6d0bd4825d10bc4ca1609ae.png)
 
 * All Must Acknowledge within a specific department: After selecting a department as an assignee, in the Owner field, there is an option to assign to All must acknowledge.  If you select this, it will assign the task to every single user that is a member of that specific department selected.  This should be used with caution, as all users in that department would have to complete/acknowledge the task. To use this feature, the department must be chosen with the department to be tasked, then in the owner field, click the ↓ down arrow button on your keyboard or start typing the word all to see the All Must Acknowledge choice.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users of a department who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user.  
-    ![](../adding-tasks.assets/d33877dab4bf843914f898b9ae0211d7.png)
+    ![](../adding-tasks.assets/39787cadef44c383b51a8f57f299e5fb.png)
 
 * All Must Acknowledge in entire {{% system-name %}} system: If you want to send/assign a task to every user in the entire {{% system-name %}} system, you do not select a specific department, but simply select All Must Acknowledge in the owner field.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. Use this with extreme caution, as this will assign/send the task to every user (who has View Tasking permission) in the entire {{% system-name %}} system.  Users who do not have permission to view tasking will not be tasked when All Must Acknowledge is selected as the user.  
-    ![](../adding-tasks.assets/79763396dd5d773b8888db1b3cc21c68.png)
+    ![](../adding-tasks.assets/ad723bdaf93225b0f122f2200da8f96f.png)
 
 When done typing in task details and indicating whom the task should be assigned to, click the Add Task button.
 
-![](../adding-tasks.assets/d4b9ba823fd9a92980703c30aca6f2b4.png)
+![](../adding-tasks.assets/ad80178c9481c9eeca1bd937a04be26d.png)
 
 A confirmation message will saying it has successfully recorded the task note as a document in the specified chart, and has successfully added the task to the system.
 
@@ -92,7 +92,7 @@ If you've ‘lost a task' it's because the user browsed away from the task befor
 
 To create a generic task regarding a chart, view the Fast Tasks section of the screen and select a specific fast task choice after having clicked the Add Task link found throughout the chart.
 
-![](../adding-tasks.assets/9b2e8b04abfc2cbfc15e60abb249d8f9.png)
+![](../adding-tasks.assets/9a3f3d79be167a131b810fb981992881.png)
 
 According to how the fast task was templated and configured, after you click the hyperlink of the fast task you want, it may automatically quickly create and insert a task on the chart and display a message that the task added successfully.
 
@@ -104,7 +104,7 @@ If that is the case, the type of fast task selected was an automatic task.  Aut
 
 After selecting a specific fast task choice, the Add Task field boxes may display and prompt you to type in more information that is templated for you, or can override dates, and typically the assignee is templated in fast tasks, but can be overridden also.  After filling in information needed for the task, click the Add Task button.  You will then get a confirmation that the task was added successfully.
 
-![](../adding-tasks.assets/8a976e567e8ae9abfa2787c9d232d71d.png)
+![](../adding-tasks.assets/b2b23e7f4228b9b40946c084cd672558.png)
 
 Fast Tasks are templated tasks and are ‘labeled or categorized' and typically have prefilled information in them to save users time.  Typically fast task templates/selections are created because it is a type of task that the client utilizes a lot repeatedly in workflows (example: precerts, nursing calls, etc).  Users with security permission to configure fast task templates can configure these fast task choices as selections that users can utilize.
 
@@ -114,15 +114,15 @@ Tasks are stored as documents within the {{% system-name %}} system in the speci
 
 Within a chart, the Medical Records chart tab houses a sub-tab named Task Notes.  This displays all list view of all tasks created for the chart, where users can click into the specific task note document to see the task details.
 
-![](../adding-tasks.assets/cf0e3832ebaa1645743b37e32d74bd4e.png)
+![](../adding-tasks.assets/6f586e6e2d0339c64ebd3d3ad155da9f.png)
 
 Once in a specific task document looking at the task details, one can view who and when it was completed by.  If the task has not yet been completed though, you will see a Complete Task hyperlink at the top right corner of the document.
 
-![](../adding-tasks.assets/1262bca548b7b1d14f112ebe588e10d4.png)
+![](../adding-tasks.assets/dca8017dc5c4927936f56c70d4988b49.png)
 
 If the task is assigned to a specific user or department you are not a member of, you will get a message that the task is already taken.  If the task were assigned to you and you haven't completed it yet, when clicking the Complete Task link here (from the task document details), will display the task within the task module and display a free text notes field to document any notes and mark the task as completed.
 
-![](../adding-tasks.assets/3928379ee766fba893ad63f6401b35ca.png)
+![](../adding-tasks.assets/054752ae8ad04628cfe747488a45c3c4.png)
 
 ## Adding Tasks from Task List Sidemenu Tab
 
@@ -140,13 +140,13 @@ From within a chart, find the specific document needing to generate a task about
 
 Once you have the specific document opened, click Add Task hyperlink at the top right near the document properties.
 
-![](../adding-tasks.assets/1d4e855c13b8a8cee3d0cda43a06691d.png)
+![](../adding-tasks.assets/7633582eaf35c55504619b8586740291.png)
 
 When click Add Task from the chart's opened document, the task selection screen will open with the document displayed under the task type options. Choose to create a Generic or Fast Task regarding the document specified.
 
 Depending on the task option selected, if prompted, fill out or edit task fields indicating what needs done for the task and any assignee's.  Notice that the regarding field inserts the document id and chart that this task is related to.  This is a hyperlink to take the assignee to this specific document the task is related to.  This provides easy visibility to a document when working a task, instead of trying to find the document in a chart that someone wants an assignee to do something with.  This regarding hyperlink field allows the assignee to click on it to open the document while working in the task.
 
-![](../adding-tasks.assets/4fa3d61a8e7c54465adcc59fe676e5b7.png)
+![](../adding-tasks.assets/502d4dcfa6a52599ea939c2a3abbe714.png)
 
 {{% warning %}}
 If a user has security permission and deleted a document in a specific chart, it will then automatically delete the chain of tasks that may be tied to that document for that chart.
@@ -158,11 +158,11 @@ If a specific document is opened and displayed on the screen, there is easy visi
 
 If the Hide/Show Tasks hyperlink appears below the document, that indicates this specific document has task(s) related to it. The document has been linked to a task(s). To view the document's related tasks, simply click on the hide/show tasks link displayed below any document.
 
-![](../adding-tasks.assets/80303984869ffbfb484a51bc3aed9d53.png)
+![](../adding-tasks.assets/ffae4ba1d0975c39fd932362faf29c07.png)
 
 The branch of tasks along with task details for each, will appear below the Hide/Show tasks link.  Tasks related to the above document will be listed individually according to date.
 
-![](../adding-tasks.assets/fe4e72cc61d6eca1a51dcec7f21c1a05.png)
+![](../adding-tasks.assets/cbfe48db4dcf4ac8064f1a12e6464d04.png)
 
 Click the Show/Hide Tasks hyperlink again to collapse (hide) the related task details for the document.
 
