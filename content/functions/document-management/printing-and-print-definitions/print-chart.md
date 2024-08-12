@@ -1,8 +1,8 @@
 ---
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
-date: '2024-07-08T14:06:00.148Z'
-version: 69
+date: '2024-08-12T18:05:45.712Z'
+version: 89
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -27,11 +27,11 @@ For more information on how print definitions can be configured, see the [Print
 
 After navigating to a specific chart from the [E-Chart module](https://system/?f=chart), users will find various places with the **Print Chart** link available. Clicking any of these Print Chart links will allow users to select and render a specific print definition, as needed.
 
-![](../print-chart.assets/06dfc2003ca76c88b7bd5e687df9a34e.png)
+![](../print-chart.assets/f7ac202ce029bdaae27a59b007b7cb9c.png)
 
 Once clicked, the Print Chart dialog window will open. There are three sections to consider, with various fields and options available in each. Review the information below, and use the Print Chart dialog window, accordingly.
 
-![](../print-chart.assets/78a68c7140b52bdae847c8f3a696f9e5.png)
+![](../print-chart.assets/0c41fa216514c16f2034791108efeb97.png)
 
 **Print Definition**: The Print Definition drop-down lists the print definitions programmed from the Print Definition editor of the Control Panel. Any print definitions restricted from the user will not be displayed in the drop-down selector. The appropriate print definition must be selected when printing or faxing.
 
@@ -43,11 +43,11 @@ Once clicked, the Print Chart dialog window will open. There are three sections 
 
 **Range End Date**: This is an optional field. Users may provide an end date/time range filter of the documents included in the selected print definitions.
 
-![](../print-chart.assets/b31aa3ed76aab46d6ad6ca72bd104730.png)
+![](../print-chart.assets/f91960262923d012f75fadb41cf3f0ca.png)
 
-**Print without headers**: This option is particularly useful when printing Word documents, forms, sketches, and the like, and it is only available to users with the Allow Printing Without Headers security permission set to Yes. When selected, no header information will be included on the printout, meaning the Doc ID, Author, Revised By, Document Type, DOS, Location, Revised Date, and Signed By information will not be displayed on the printed document. Users lacking the security permission will not see the *Print without headers*option, and all printed/faxed documents will include the patient summary header.
+**Print without headers**: This option is particularly useful when printing Word documents, forms, sketches, and the like, and it is only available to users with the Allow Printing Without Headers security permission set to Yes. When selected, no header information will be included on the printout, meaning the Doc ID, Author, Revised By, Document Type, DOS, Location, Revised Date, and Signed By information will not be displayed on the printed document. Users lacking the security permission will not see the *Print without headers option*, and all printed/faxed documents will include the patient summary header.
 
-![](../print-chart.assets/e276118b383c570e22d8bf84ca7abce3.png)
+![](../print-chart.assets/5d788b4c0dd8d2f821d7a990148630e2.png)
 
 {{% note %}}
 When the **Print without headers** option is selected, another option will be made available–**Print Only Without Headers**. Selecting the Print Only Without Headers option will override the document type settings, removing *all* headers, when printing. This option is most useful for exporting PDFs for interface use.
@@ -99,11 +99,11 @@ Print Chart from Scheduler
 
 In addition to the various locations users can access the Print Chart functionality within the chart,  {{% system-name %}} includes this same functionality from the [Scheduler](https://system/?func=scheduler#Now) module. When viewing scheduled appointments from the Scheduler, simply click the **Print Chart** link *within* the specific scheduled appointment block, and any printing or faxing needing to be done according to the scheduled appointment can be addressed.
 
-![](../print-chart.assets/b92a285b251a8b907a4a27c338ee9a19.png)
+![](../print-chart.assets/2df2ba3ba430de7be5aa490a4126a7af.png)
 
 Additionally, users have the ability to utilize the **Print Charts** link, found at the top of the Scheduler module. This allows users to print charts or any print definitions for all of the scheduled appointments, rather than each appointment, individually.
 
-![](../print-chart.assets/5355824210737682bb42a7cf4a2f17d7.png)
+![](../print-chart.assets/6491b52793ff4ea79d7582c4bc03fe99.png)
 
 Once either of these links are clicked, the Print Chart dialog window will open, allowing the user to print/fax, accordingly. The available options and workflow follow those explained in the preceding sections (i.e., [Print Chart from E-Chart](#gjdgxs) and [Print Chart from Appointments Chart Tab](#30j0zll)).
 
