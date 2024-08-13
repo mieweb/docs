@@ -1,8 +1,8 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2024-07-16T13:34:38.942Z'
-version: 323
+date: '2024-08-13T14:03:04.255Z'
+version: 333
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -155,7 +155,7 @@ Also, if using Patient Panel Status import to put charts into memberships, the P
 
 The Panel Status report offers a ‘Delete' option, which will immediately delete that specific Panel Status record (includes Record Status & Panel Status etc) off of the health surveillance panel and will be reflected visually after next day evaluators run.  The column ‘Record Status' will say ‘deleted' after performing.
 
-![](../health-surveillance-reports.assets/f91fc175a0804650bbfcda7fde8269b9.png)
+![](../health-surveillance-reports.assets/ce3b4485cfc6071f9a7565b70fff3d27.png)
 
 ## Performance Metrics
 
