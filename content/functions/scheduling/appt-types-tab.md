@@ -1,8 +1,8 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2024-07-19T16:56:14.056Z'
-version: 209
+date: '2024-08-13T16:38:06.766Z'
+version: 217
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -71,7 +71,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. At the top-right of the page, select <strong>Add Template</strong>. The <em>Add Appointment Type Template</em> section appears.  
-    ![](../appt-types-tab.assets/df724ee8506f2b241becc633fe31e905.png)
+    ![](../appt-types-tab.assets/fb571890839d91f2b9f88641e8dee447.png)
 5. In the <em>Add Appointment Type Template</em> section, make entries or selections in fields as appropriate:
     * <em>Apt Type</em>: Select the appointment type the template will create when used to schedule an appointment.
     * <em>Resource</em>: Select the resource (such as a physician) that when scheduled, this appointment type template will reserve.
