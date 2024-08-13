@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-07-16T19:27:53.662Z'
-version: 471
+date: '2024-08-13T12:11:47.396Z'
+version: 477
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -226,7 +226,7 @@ When looking at preference choices available in the drop-down:
 * Show Only Best Formulary: Default is no, but if set to Yes, then if you have the SureScripts Advanced functionality, you would only see the one best formulary for the patients when prescribing.
 * Cross-Browser EPCS: Recommend this to be set to ‘Yes' if client is utilizing EPCS.  Setting this to Yes, and after downloading 2 apps needed to make it work (from the Plugins page), users can perform EPCS using a browser other than Internet Explorer (IE).
 * Unsent Scripts in Alert Bar: This alert (found in the alerts toolbar) displays a count of prescriptions that have been prescribed in the system, with that logged in user's name as the Prescriber, that have not been printed, faxed, or transmitted.  The count will display ALL unsent prescriptions, regardless of medication schedule, for the logged in Prescriber (user) where those prescriptions are unsent.
-* Use Datavis in Meds/Allergies Chart Tab: The user default setting is set to "No". "No" displays the legacy version of the meds/allergies list in the Meds/Allergies chart tab. Changing to "Yes" displays the meds/allergies list in a datavis format.
+* Use Datavis in Meds/Agy Tab: The user default setting is set to "No". "No" displays the legacy version of the meds/allergies list in the Meds/Allergies chart tab. Changing to "Yes" displays the meds/allergies list in a datavis format.
 * Use Quick Prescribe" The user default setting is set to "No". "No" displays the legacy version of the prescribe medicine screen. Changing to "Yes" displays the new Prescribe screen, identical to the prescribe feature in the encounter exam.
 
 #### Conditions
