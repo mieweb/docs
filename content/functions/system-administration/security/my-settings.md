@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-08-13T12:12:03.700Z'
-version: 478
+date: '2024-08-14T12:45:10.636Z'
+version: 487
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -202,6 +202,7 @@ When looking at preference choices available in the drop-down:
 * Flowsheet "Most Recent" Source: Some encounter sections (such as the Physical Exam encounter section) offer a "Set all to most recent" icon/function.  When that icon/function is selected to be used, the contents will populate into the flowsheet based on what the provider's preference is set for this.
     * Any previous result for the observation: will populate the last most recent value (content) ever entered for that observation, no matter where it was entered (encounter, chart tab, import, etc) for that specific chart.
     * Only results from encounters w/ same provider: will do the same as the above option, but limited to only observations that were entered on encounters with the same provider as the current encounter using this icon/function.
+* Use DataVis in MAR/Inject Tab: By default, the setting is set to "No", which displays the summary tab in the legacy list view on the MAR/Injections tab. If set to "Yes", the Medication Administration and Immunizations lists update to a DataVis view.
 
 #### Meds/Allergies
 
