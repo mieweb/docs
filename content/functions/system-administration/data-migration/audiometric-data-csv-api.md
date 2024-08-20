@@ -1,9 +1,9 @@
 ---
 id: '14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA'
 title: 'Audiometric Data CSV API'
-date: '2023-06-27T17:45:33.990Z'
-version: 29
-lastAuthor: 'horner'
+date: '2024-08-12T23:41:05.219Z'
+version: 41
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit?usp=sharing'
@@ -67,6 +67,12 @@ The following sections provide insight for technical personnel working with the 
 [The Audiometric Data CSV API specifications are available here.](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit?usp=sharing)
 
 Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
+
+Common issues also documented in the specifications document:
+
+If the Columns X and Y (Left_sts and right_sts) are provided, the audio import will NOT do a STS calculation since it assumes that the provided values are correct. These columns do not have to exist in the import and can be deleted from the file to enable the STS calculation to be done by the system.
+
+When setting Baselines, the baseline test needs to be in the file before the rest of the tests that happened chronologically after it.
 
 ### Field Requirements
 
