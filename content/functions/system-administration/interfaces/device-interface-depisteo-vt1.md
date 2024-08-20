@@ -1,9 +1,9 @@
 ---
 id: '10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
 title: 'Device Interface - Depisteo VT1'
-date: '2020-03-18T14:35:13.634Z'
-version: 54
-lastAuthor: ''
+date: '2024-08-13T13:49:05.975Z'
+version: 65
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App'
@@ -65,6 +65,8 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 <td>Peripheral Vision</td>
 </tr>
 </table>
+
+For clients on RC202309 and newer, the Depisteo Vision Screener interface will also report failed results in addition to the normal correct results. In addition, results will be mapped with an observation of corrected or uncorrected values.
 
 ## Using the Device Interface
 
