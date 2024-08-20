@@ -1,9 +1,9 @@
 ---
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
-date: '2024-07-15T19:09:27.956Z'
-version: 284
-lastAuthor: 'janderson'
+date: '2024-08-12T23:33:05.217Z'
+version: 300
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
@@ -11,6 +11,7 @@ links:
   - '../../system-administration/interfaces/audio-tool-tab.md'
   - '../../system-administration/interfaces/device-interface-audio-system.md'
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiometric-data-csv-api/'
   - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
@@ -134,6 +135,12 @@ For more information on device interfaces and file uploads, see the help documen
 ![](../audiogram-data-entry.assets/ee87c8b54dadf9d0ac39f44351884ab4.png)
 
 ![](../audiogram-data-entry.assets/f2bb4ffec262b708226112a51313289e.png)
+
+### Audio Import Tool
+
+Clients migrating their own prior Audiometric data may use the Audiometric Data CSV API Import tool. Navigate to the Control Panel->Data Import->select Audiometric Data CSV API from the list of data import types. Click on the Download Template link to download the template and review the [CSV Audio Data Import Specifications](https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiometric-data-csv-api/) for details on setting up the file.
+
+![](../audiogram-data-entry.assets/ff92096e4b97df00d0897c79fc0807f8.png)
 
 ## Reporting
 
