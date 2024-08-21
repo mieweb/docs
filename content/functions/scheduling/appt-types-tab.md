@@ -1,8 +1,8 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2024-08-13T16:38:09.088Z'
-version: 218
+date: '2024-08-21T16:36:13.026Z'
+version: 232
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -44,11 +44,11 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. At the top-right of the page, select <strong>Add Type</strong>. The <em>Appointment Type</em> section appears.  
-    ![](../appt-types-tab.assets/a1b82ab9fa91bad4fc1d0ab64bd5a602.png)
+    ![](../appt-types-tab.assets/2f27e6dbec1f191ff5704cc5c4f8ddf5.png)
 5. In the <em>Appointment Type</em> section, make entries or selections in fields as appropriate:
     1. <em>Active</em>: To make the appointment type active in the system and available to be used after it is created, enable this check box. To make the appointment type inactive in the system and unavailable to be used after it is created, clear this check box.
     2. <em>Code</em>: Enter the appointment code. The entry in this field appears in the schedule next to the patient. Type in an alpha-numeric abbreviation of the name of the appointment type. In releases prior to RC202203 this field is limited to 10 characters. For release RC202203 and newer the character count was increased to 15 characters.
-    3. <em>CPT code</em>: Type the appropriate CPT code if licensed to use AMA CPT codes or enter a customcode for billing, auditing, or report purposes. You may also leave this field empty.
+    3. <em>CPT code</em>: Type the appropriate CPT code if licensed to use AMA CPT codes or enter a custom code for billing, auditing, or report purposes. You may also leave this field empty.
     4. <em>Duration</em>: Type the amount of time this type of appointment is expected to take.
     5. <em>Display order</em>: Type a number by which the system will sort the appointment type for display in the table of appointment types (see [Viewing appointment types](#viewing-appointment-types)) and when scheduling an appointment. The lower the number in this field, the closer to the top of the table and when scheduling this appointment type appears.
     6. <em>Duration given to patient</em>: Type the duration of the appointment in minutes to provide to the patient. The system provides this duration when the patient views the appointment, for example when it sends a reminder email. For example, medical staff may be required for 15 minutes of a 60-minute appointment. In this case, the appointment type duration appears on the schedule of the medical staff as a 15-minute appointment and the duration given to patient is 60 minutes.
@@ -181,7 +181,7 @@ If you try to create multiple appointment type templates for a combination of re
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. In the <em>Options</em> column of the appointment type to edit, select <strong>Edit</strong>. The <em>Appointment Type</em> section appears.
 
-![](../appt-types-tab.assets/c190146c0cbf24c58be628585800d87a.png)
+![](../appt-types-tab.assets/0a1b394a0c04e9a451062eb820651272.png)
 
 5. Edit the appointment type.
 6. Depending on whether appointments have already been scheduled with this appointment type template, do one:
