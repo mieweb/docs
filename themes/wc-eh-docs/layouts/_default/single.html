@@ -33,7 +33,7 @@
           <div class="sticky-top top-nav-height">
             <h2>Covered by this topic</h2>
             <aside>
-              {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | safeHTML }}
+              {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | replaceRE `<a id="_(.*)"></a>` "" | safeHTML }}
             </aside>
           </div>
         </div>
