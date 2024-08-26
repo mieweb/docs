@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-08-07T13:45:14.877Z'
-version: 387
-lastAuthor: 'auhrick'
+date: '2024-08-26T18:43:12.212Z'
+version: 395
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -312,7 +312,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * View Activity Logs: Allows a role to access the Activity Log tab in Control. Log of specific information that displays users that have accessed your system and their actions. Can choose partial Cgi Data View or Full Cgi Data View. Also can view failed logins.
 * Manage Record Locks: Allows a role to manage record locks in patient documents.
 * Manage External Interfaces: Allows a role to manage external interfaces with their {{% system-name %}} system.  MIE uses.
-* Manage System Reports:  No, Run Only, Add/Edit. The level of permission selected is the level of which users in the security role will be able to run or work on system reports.
+* Manage System Reports:  No, Run Only, Add/Edit, Add/Edit Realtime. The level of permission selected is the level of which users in the security role will be able to run or work on system reports. The "Add/Edit Realtime" setting allows users to Add/Edit reports that are run real time on client databases. Users with "Add/Edit" will only be able to add/edit reports that are not designated as "realtime".
 * Manage Autocompletes:  No, View, Add, Edit, Delete  The level of permission selected is the level of which users in the security role will be able to access AC Manager tab in Control.
 * Manage ICD9s:  No, View, Add, Edit, Delete. The level of permission selected is the level of which users in the security role will be able to access ICD9 Code Manager tab in Control.
 * Manage Patient Access: Allows a role to edit the allowed patient list for restricted access users. Without this permission users cannot access and change user patients list.
