@@ -1,14 +1,14 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
-date: '2024-01-15T13:30:31.342Z'
-version: 145
-lastAuthor: 'auhrick'
+date: '2024-08-27T17:56:22.219Z'
+version: 156
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
   - 'https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface'
-  - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0'
+  - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?gid=0#gid=0'
   - 'data-import-standards.md'
   - 'chart-medical-record-number-mrn-import-options.md'
   - 'chart-observations-import-options.md'
@@ -44,7 +44,7 @@ This API may also be used to set up relationships between charts. It is part of 
 
 The following sections provide insight for technical personnel working with the provided import specifications. Although the specifications provided include details on each field utilized in the import, the sections below include further discussion on best practices for imported data to provide the best functionality in Enterprise Health.
 
-The Chart Data CSV API specifications are available here: https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0
+The Chart Data CSV API specifications are available here: [Chart Data CSV API Specification](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?gid=0#gid=0)
 
 {{% note %}}
 The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
