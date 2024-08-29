@@ -1,9 +1,9 @@
 ---
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
-date: '2024-08-06T14:20:33.295Z'
-version: 184
-lastAuthor: 'janderson'
+date: '2024-08-29T18:25:07.368Z'
+version: 226
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSOIDNHR'
@@ -30,29 +30,35 @@ NoMoreClipboard PHR Knowledge Base (Spanish) - This includes a health encycloped
 
 ## Patient Education Links
 
-The WebMD Ignite interface is found in many areas within  {{% system-name %}} such as portlets in the Patient Summary interactive chart tab, the patient's conditions chart tab and visit encounters.
+The WebMD Ignite/Healthwise integration can be found in multiple areas within the system. Integration is found in the Patient Summary chart tab, the Conditions chart tab and Visit Encounters.
 
-In those areas, you will see Search links that take you to WebMD Ignite.
+Users can click anywhere in the application where Search (PAT) links are available. These links will direct the user to WebMD Ignite/Healthwise education on the specific condition or medication that is displayed to the left of the link.
 
-Patient Summary tab:
+### Patient Summary tab
 
-![](../patient-education-interface.assets/14a44da761e40423ecdf07814a57f3aa.png)
+The Patient Summary tab contains Search (PAT) links within the Medications, Past Medical History and Medical History portlets.
 
-Patient's Conditions tab:
+![](../patient-education-interface.assets/0e37cdb8c5095d0101ef3c179518571f.png)
 
-![](../patient-education-interface.assets/df4a4e0dacebe64792df1e330fdb4fb2.png)
+### Conditions Chart Tab
 
-Encounter Exams:
+The Conditions chart tab will display Search (PAT) links next to conditions in the Problem List, Past Medical History and Other Problems lists.
 
-![](../patient-education-interface.assets/309e1378216b2591ba694f5d7a0bcf7f.png)
+![](../patient-education-interface.assets/d93d7cd3cd73e5f532e8560ed002be6b.png)
 
-These Search links when clicked take you to a separate window to the WebMD Ignite Patient Education site.
+### Encounter Exams
+
+If the patient education interface is enabled, the Patient Education encounter section will display a bullet list of the patient's conditions. Next to each condition users can click the Search (PAT) link to access educational materials.
+
+![](../patient-education-interface.assets/2cdba6b9ac3d81bd9d52fddd7bcda158.png)
+
+When the Search (PAT) link is clicked, a new browser tab will open and navigate to the WebMD Ignite/ Healthwise Patient Education site.
 
 If the user clicks search from a specific medication or condition on the patient's chart, it will take them directly to the material related to that topic. The user can also go to Categories or Favorites and get other material. Click in the "search" field and type in a new topic to search for material.
 
 ![](../patient-education-interface.assets/07ff587798c8c6a9579dda248ff1952b.png)
 
-Switch languages to print by the language drop-down in the window.
+Switch languages to print by the language drop-down in the Healthwise window.
 
 ![](../patient-education-interface.assets/27b25f54b34e23333c11a4b6a4b37afd.png)
 
@@ -60,7 +66,7 @@ Select the font print size to print for the patient. The font will default to M 
 
 ![](../patient-education-interface.assets/175f7c964de4fb54212bc5c01fad7260.png)
 
-If desired, add additional patient educational materials to the "Basket" . Cllick the Printer icon to print materials.
+If desired, add additional patient educational materials to the "Basket" . Click the Printer icon to print materials.
 
 ![](../patient-education-interface.assets/a41df14a757b289d44714e05ff7648d4.png)
 
@@ -70,15 +76,15 @@ You can also click the ADD NOTE icon to add your own text and notes for the hand
 
 Click the **Print** button when ready to print it.
 
-The material will print to a PDF in another browser window and the user can print to their local printer. Close the browser tab to return to the main WebMD Ignite search screen.
+The material will print to a PDF in another browser window and the user can print to their local printer. Close the browser tab to return to the main WebMD Ignite/Healthwise search screen.
 
 ![](../patient-education-interface.assets/5d295a4ddaf8808ca98a4cfbca0afb38.png)
 
-The user returns to the main WebMD Ignite screen, a summary of the patient education displays. Click the Close button to close the window or simply close the browser tab to return to Enterprise Health.
+The user returns to the main WebMD Ignite/Healthwise screen, a summary of the patient education displays. Click the Close button to close the window or simply close the browser tab to return to Enterprise Health.
 
 ![](../patient-education-interface.assets/5c5ecd4e8ebab1b74379e5e9c69648e2.png)
 
-When a user prints the WebMD Ignite patient material,  {{% system-name %}} queries the WebMD Ignite database and sends us back a notification of what was printed from their system.  {{% system-name %}}  will add the printed education sheets to the patient's chart as a PDF document with documentation of the date/time & user in a chart tab specified.
+When a user prints the WebMD Ignite/Healthwise patient material,  *Enterprise Health* queries the Healthwise database and sends us back a notification of what was printed from their system.  *Enterprise Health* will add the printed education sheets to the patient's chart as a PDF document with documentation of the date/time & user in a chart tab specified.
 
 ![](../patient-education-interface.assets/034311270d07c42d5ae21e454593bf17.png)
 
@@ -86,11 +92,11 @@ By default, the document is stored as doc.type WCHEALTH. You should have the doc
 
 *Note:*
 
-If you are doing Meaningful Use, you would **not** want to change this setting to store as doc.type WCPATED because WCPATED is looked at in meaningful use measures/calculations and could skew that data.
+If providers are enrolled in quality measures regarding patient education, you would **not** want to change this setting to store as doc.type WCPATED because WCPATED is used in the measures/calculations and could skew that data.
 
 ![](../patient-education-interface.assets/65aa294d48f757f0e2f1e7846880441f.png)
 
-That doc.type should be specified to show in a specific chart tab. You can go to that chart tab to find the uploaded WebMD Ignite Patient Education and the subject line contains which education material it is. This stores as a PDF file type for accessing.
+That doc.type should be specified to show in a specific chart tab. You can go to that chart tab to find the uploaded WebMD Ignite/Healthwise Patient Education and the subject line contains which education material it is. This stores as a PDF file type for accessing.
 
 ## Learning Management System
 
