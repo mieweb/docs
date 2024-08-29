@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-08-14T12:45:10.636Z'
-version: 487
-lastAuthor: 'janderson'
+date: '2024-08-29T17:01:33.327Z'
+version: 523
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
@@ -225,10 +225,10 @@ When looking at preference choices available in the drop-down:
 * Pharmacy Search Filter:  City/State means when you are in the fax mode of e-meds, it will have the radio button selected at City/State search field as a default when searching for a pharmacy to fax to.  If you wish to always have your pharmacy search default set to Postal Code, you may select that.
 * Pharmacy Search Exclude NPI:  You can set your default to Yes or No.  If set to Yes, when you are in e-meds faxing and searching for a pharmacy to fax to, Yes will make this check-box be checked and will exclude NPI pharmacies from your search.  If you always wish to default to show NPI pharmacies when searching, you can set this default to No. That will keep it un-checkmarked in the fax search mode and will show NPI pharmacies in your search result.  Of course, at any time, you can checkmark or uncheckmark the Exclude NPI box when in the e-meds search pharmacy fax mode itself.
 * Show Only Best Formulary: Default is no, but if set to Yes, then if you have the SureScripts Advanced functionality, you would only see the one best formulary for the patients when prescribing.
-* Cross-Browser EPCS: Recommend this to be set to ‘Yes' if client is utilizing EPCS.  Setting this to Yes, and after downloading 2 apps needed to make it work (from the Plugins page), users can perform EPCS using a browser other than Internet Explorer (IE).
+* Cross-Browser EPCS: Recommend this to be set to ‘Yes' utilizing EPCS.  Setting this to Yes, and after downloading 2 apps needed to make it work (from the Plugins page), users can perform EPCS using a browser other than Internet Explorer (IE).
 * Unsent Scripts in Alert Bar: This alert (found in the alerts toolbar) displays a count of prescriptions that have been prescribed in the system, with that logged in user's name as the Prescriber, that have not been printed, faxed, or transmitted.  The count will display ALL unsent prescriptions, regardless of medication schedule, for the logged in Prescriber (user) where those prescriptions are unsent.
-* Use Datavis in Meds/Agy Tab: The user default setting is set to "No". "No" displays the legacy version of the meds/allergies list in the Meds/Allergies chart tab. Changing to "Yes" displays the meds/allergies list in a datavis format.
-* Use Quick Prescribe" The user default setting is set to "No". "No" displays the legacy version of the prescribe medicine screen. Changing to "Yes" displays the new Prescribe screen, identical to the prescribe feature in the encounter exam.
+* Use Datavis in Meds/Agy Tab: Choose Yes or No.  If set to No, the Medications/Allergies stand alone chart tab  displays the legacy version of the meds/allergies listings.  If set to Yes, the listing of Medications & Allergies in the stand alone Medications/Allergies chart tab will be listed and can be worked on in a datavis format.
+* Use Quick Prescribe: Choose Yes or No.  If set to No, the Prescribe portion of the Medications/Allergies stand alone chart tab will use the legacy entry method. If set to Yes, the Prescribe portion of the Medications/Allergies stand alone chart tab will be an entry screen that mimics the Medication Orders quick list prescribe function within an encounter exam.
 
 #### Conditions
 
