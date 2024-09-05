@@ -1,8 +1,8 @@
 ---
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
-date: '2023-12-01T17:33:47.484Z'
-version: 191
+date: '2024-09-05T19:22:09.162Z'
+version: 208
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -19,7 +19,7 @@ Some users prefer to have their default landing page be the E-Chart sidemenu. Th
 
 ![](../basic-initial-system-information.assets/e747f5596bbde46aff2c4cd2aa89c990.png)
 
-The Chart search screen is usually defaulted to search by **Name**.  When searching by name, users should enter the last name followed by a comma and then first letter or first name.  A wild card % search is available.  For instance, search by %erson if you wanted to find any charts who have *erson* within their last name.
+The Chart search screen is usually defaulted to search by **Name**.  When searching by name, users should enter the last name followed by a comma and then first letter or first name.  A wild card % search is available.  For instance, search by %erson if you wanted to find any charts who have *erson* within their last name.  The simple search also looks at a chart's Preferred Name (starting in 03-2024RC) that may be entered in their demographics.
 
 Users can also search for charts by Medical Record Number, Social Security Number (entered with no dashes), Date of Birth, or by some phone number. Clicking the Phone number hyperlink allows users to toggle to search by alternate phone number, mobile phone number and work phone number as well.
 
