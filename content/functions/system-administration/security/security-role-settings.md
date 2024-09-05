@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-08-26T18:43:12.212Z'
-version: 395
-lastAuthor: 'janderson'
+date: '2024-09-05T18:01:35.441Z'
+version: 403
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -351,7 +351,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Read JSON API Log: Allows user to read the JSON API log
 * Configure JSON API Logging: Allows user to configure JSON API logging when a JSON API request is done with the system setting enabled and the golden ticket for additional information appears in the response dev_messages
 * View Administrator Help: Allows users to see online help content of additional information specific to Administrators within an ==Administration heading.
-* View Database Errors: Allows users to view db errors created during such activities as chart merging and unmerging. By default, this setting is set to "No". For users with the setting set to "Yes" and do not have golden ticket access, the user will be alerted as to which chart(s) encountered the error and to contact Technical Support. For users with the setting set to  "Yes" and also has golden ticket access, the user will be able to see detailed database errors after a query fails. Please contact Technical Support with a screenshot of the error and copy/paste the error for assistance in troubleshooting.
+* View Database Errors: Allows users to view database errors created during such activities as chart merging and unmerging. Users with the permission of Yes, but do not have golden ticket access, will be alerted as to which chart(s) encountered the error and to contact Technical Support. Users with the setting set of Yes and also have golden ticket access, will be able to see detailed database errors after a query fails. Please contact Technical Support with a screenshot of the error to help with assistance in troubleshooting.
 
 ### Scheduler
 
