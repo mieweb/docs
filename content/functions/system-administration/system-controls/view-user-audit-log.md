@@ -2,7 +2,7 @@
 id: '1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
 title: 'View User Audit Log'
 date: '2023-11-14T06:57:50.271Z'
-version: 74
+version: 76
 lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links: []

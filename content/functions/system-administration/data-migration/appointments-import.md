@@ -2,7 +2,7 @@
 id: '1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
 title: 'Appointments Import'
 date: '2020-02-27T20:45:50.310Z'
-version: 18
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample1.csv'

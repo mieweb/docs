@@ -2,7 +2,7 @@
 id: '1dd1jmIH4Xu8nWG80UinTqZluoTtf4RuswpJ69hMb49M'
 title: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Configuration'
 date: '2024-07-25T01:51:48.866Z'
-version: 48
+version: 70
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:

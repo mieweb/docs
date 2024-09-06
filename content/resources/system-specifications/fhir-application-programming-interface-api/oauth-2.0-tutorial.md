@@ -2,7 +2,7 @@
 id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
 date: '2024-07-11T11:56:56.640Z'
-version: 426
+version: 441
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
 title: 'Portal Message Notification'
 date: '2024-05-16T20:42:20.915Z'
-version: 37
+version: 38
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links: []

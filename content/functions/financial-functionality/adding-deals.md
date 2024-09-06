@@ -2,7 +2,7 @@
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding deals'
 date: '2024-07-22T13:43:05.258Z'
-version: 33
+version: 35
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
 title: 'Adding a Subject to Documents'
 date: '2020-02-27T21:10:07.369Z'
-version: 42
+version: 43
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

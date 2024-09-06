@@ -2,7 +2,7 @@
 id: '10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
 title: 'Device Interface - Depisteo VT1'
 date: '2024-08-13T13:49:05.975Z'
-version: 65
+version: 66
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

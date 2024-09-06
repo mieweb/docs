@@ -1,9 +1,9 @@
 ---
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
-date: '2024-07-10T16:04:53.148Z'
-version: 82
-lastAuthor: 'janderson'
+date: '2024-08-14T23:17:56.495Z'
+version: 91
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'

@@ -1,9 +1,9 @@
 ---
 id: '1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
 title: 'Transcribing Dictation'
-date: '2020-03-13T11:15:15.186Z'
-version: 88
-lastAuthor: ''
+date: '2024-09-03T18:05:46.890Z'
+version: 120
+lastAuthor: 'sberry'
 mimeType: 'text/x-markdown'
 links:
   - 'closing-encounters-from-the-dictation-module.md'

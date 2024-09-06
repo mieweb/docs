@@ -1,9 +1,9 @@
 ---
 id: '1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk'
 title: 'CMS 125 - Breast Cancer Screening'
-date: '2022-04-19T20:02:16.052Z'
-version: 43
-lastAuthor: 'nrichardson'
+date: '2024-08-09T15:56:40.397Z'
+version: 53
+lastAuthor: 'tjuillerat'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS125v8&showresulttype=Measure'
