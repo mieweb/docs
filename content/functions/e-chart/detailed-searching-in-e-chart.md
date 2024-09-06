@@ -1,8 +1,8 @@
 ---
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
-date: '2024-09-06T13:12:38.239Z'
-version: 143
+date: '2024-09-06T15:39:46.446Z'
+version: 153
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -25,8 +25,6 @@ To revert back to simple search, click the Simple search type hyperlink.
 {{% /tip %}}
 
 Within the Detailed search screen, there are many fields you can create a detailed search for and many criteria you can select from in each drop-down field. It is not necessary to select or set something in every field. You can search by any or as many fields as you wish in order to narrow down your results. The more fields filled out, the more detailed and narrower the search.
-
-{{% tip %}}
 
 ## Contains Search
 
