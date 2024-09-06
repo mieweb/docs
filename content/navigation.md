@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-07-26T20:33:39.804Z'
-version: 602
-lastAuthor: 'auhrick'
+date: '2024-09-06T19:55:54.893Z'
+version: 606
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -417,6 +417,7 @@ links:
   - 'functions/reports/activity-log-report.md'
   - 'functions/reports/additional-appointment-related-reports.md'
   - 'functions/reports/appointment-report.md'
+  - 'functions/reports/case-merge-tool.md'
   - 'functions/reports/checkin-reports.md'
   - 'functions/reports/claims-report.md'
   - 'functions/reports/common-case-search-report.md'
@@ -1124,6 +1125,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Activity Log Report](functions/reports/activity-log-report.md)
         * [Additional Appointment-Related Reports](functions/reports/additional-appointment-related-reports.md)
         * [Appointment Report](functions/reports/appointment-report.md)
+        * [Case Merge Tool](functions/reports/case-merge-tool.md)
         * [Checkin Reports](functions/reports/checkin-reports.md)
         * [Claims Report](functions/reports/claims-report.md)
         * [Common Case Search Report](functions/reports/common-case-search-report.md)
