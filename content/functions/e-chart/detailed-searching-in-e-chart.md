@@ -1,16 +1,16 @@
 ---
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
-date: '2024-07-01T18:51:27.281Z'
-version: 119
-lastAuthor: 'janderson'
+date: '2024-09-06T13:04:42.447Z'
+version: 140
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTGIDNHR'
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-When in the {{% system-name %}} system, the E-Chart sidemenu tab displays recent charts you've accessed, along with ability to search charts by different methods.  E-Chart automatically defaults to search in **Simple** search.
+When in the {{% system-name %}} system, the E-Chart sidemenu tab displays recent charts you've accessed, along with the ability to search for charts by different methods.  E-Chart automatically defaults to search in **Simple** search, but there is a My Settings preference named *Search Method* that can be changed for your login experience.  See more information within the My Settings help guide.
 
 To do a more detailed search, click the Detailed link from the list of Search Types.
 
@@ -21,7 +21,7 @@ The detailed search filter screen will open with various filter fields to help n
 ![](../detailed-searching-in-e-chart.assets/be5328a4b81c9853b4f592f154594f91.png)
 
 {{% tip %}}
-To revert back to simple search, click the Simple search type link.
+To revert back to simple search, click the Simple search type hyperlink.
 {{% /tip %}}
 
 Within the Detailed search screen, there are many fields you can create a detailed search for and many criteria you can select from in each drop-down field. It is not necessary to select or set something in every field. You can search by any or as many fields as you wish in order to narrow down your results. The more fields filled out, the more detailed and narrower the search.
@@ -34,20 +34,18 @@ The percent sign (%) is a hotkey to perform a CONTAINS search, followed by the l
 
 ![](../detailed-searching-in-e-chart.assets/6a46b0bd7f99d2479da83dc546bfbb51.png)
 
-{{% /tip %}}
-
 When done keying in any detailed search criteria fields, click the **Search** button to render the results or the **Clear All** button to start another search.
 
 ## SSN Search
 
-By default, {{% system-name %}} system setting *Search for SSN* is disabled. This feature will allow for searching by SSN from simple and detailed searches, as well as the Document Queue search. 
+By default, {{% system-name %}} system setting *Search for SSN* is disabled via a system setting.  
 ![](../detailed-searching-in-e-chart.assets/2b65024220b01048e7ee520ccadf68c1.png)
 
 {{% note %}}
 Disabling the SSN search does not turn off the ability to search by SSN in other modules or layouts. Contact your MIE Implementer if you wish SSN search to be turned off in other modules/layouts of  {{% system-name %}}.
 {{% /note %}}
 
-If *Search for SSN* is enabled, the SSN radio button will display in the search field criteria and the "SSN" column will display. If your practice wishes not to offer the search by SSN nor show the "SSN" column in the patient search screen, make sure the system setting is disabled.
+If *Search for SSN* is enabled via a system setting, the SSN radio button will display in the search field criteria and the "SSN" column will display. That will allow for searching by SSN from simple and detailed searches, as well as the Document Queue search. If your practice wishes not to offer the search by SSN nor show the "SSN" column in the patient search screen, make sure the system setting is disabled.
 
 ![](../detailed-searching-in-e-chart.assets/7c4ed8481cc53b68b5e7850f9ada05d8.png)
 
@@ -55,17 +53,29 @@ If *Search for SSN* is enabled, the SSN radio button will display in the search 
 
 ## Preferred Name Search
 
-Two new system settings are available for clients on release 202403 and newer. Both settings are disabled by default, but can be enabled at the client's discretion. When the *Show Preferred Name Column* system setting is enabled, a new column called "PREFERRED" will display in the Recent Patient/Employee list.
+Preferred Name is an extra field in demographics of a chart that can be used to key in a person's preferred name separate from their legal name.  This can be manually entered or filled in by your HR interface.
 
-![](../detailed-searching-in-e-chart.assets/4063f246e076fd3cc5f70b9ea4ae3923.png)
+![](../detailed-searching-in-e-chart.assets/b1709d15fb0e76b4491ec2a9e961b103.png)
 
-![](../detailed-searching-in-e-chart.assets/8d9d7e846bccc406f9b8b35dce5fb702.png)
+{{% tip %}}
+We recommend to always key in a full preferred name in this field.  Don't just key in first name/nickname only, because it will display that way on portal experience, for supervisor portal experience reporting needs, and elsewhere.  We recommend to always key in or populate Preferred Name field will their *full* preferred name.
+{{% /tip %}}
 
-When the system setting *Show preferred name on results* is enabled, the Simple and Detail patient search will return results that BEGIN with the first name or the preferred name as entered in the preferred name field. For example, if the name "Bill" is entered in the Preferred name field, and the search criteria of "Har, Bill" is entered, the Simple and Detailed search will locate charts that contain charts with a last name that begins with "Har" and the first or preferred name that begins with "Bill". If the Preferred name field is entered as "Billy Bob", and the search criteria is entered as "Har, Bob" it will not return this chart in the search results.
+Two new system settings are available to enable if with to allow chart searching to include preferred name.  Both system settings are disabled by default, but can be enabled at the practice's discretion.
 
-![](../detailed-searching-in-e-chart.assets/1d0354f184ccfd9fdc3fb563abb5ee36.png)
+![](../detailed-searching-in-e-chart.assets/3901df7afa7bd7d8cae9fcd06349a666.png)
 
-![](../detailed-searching-in-e-chart.assets/8cba6f95a29bcb0ee48e4cd0a1d20d3b.png)
+When the *Show Preferred Name Column* in Recent Patients List View system setting is enabled, a new column called "PREFERRED" will display in the Recent Patient/Employee list. This displays any Preferred Name contents that a chart may have in it, while looking at your *Recent Charts* listing in E-Chart or in Quick View portlet.
+
+![](../detailed-searching-in-e-chart.assets/e49f717acb6691cabdded36f474c1f3a.png)
+
+When the system setting *Show Preferred Name on Results* in Patient Search is enabled, the Simple and Detail patient search will return results that BEGIN or contain (% wildcard search) with the name or the preferred name.
+
+![](../detailed-searching-in-e-chart.assets/d65c10c13bc02c348838de6ce255651f.png)
+
+Detailed search looks for preferred name contents in the *first name* separated field.
+
+![](../detailed-searching-in-e-chart.assets/3a3f322330f86189b9b2e1500079b184.png)
 
 ## Learning Management System
 
