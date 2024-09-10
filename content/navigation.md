@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-09-06T19:55:54.893Z'
-version: 606
-lastAuthor: 'anichols'
+date: '2024-09-10T19:24:05.113Z'
+version: 615
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -115,6 +115,7 @@ links:
   - 'functions/portal-management/messages-from-nmc-user.md'
   - 'functions/portal-management/nomoreclipboard.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
+  - 'https://drive.google.com/open?id=1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg'
   - 'functions/encounters.md'
   - 'functions/encounters/dictation-and-transcription.md'
   - 'functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md'
@@ -822,6 +823,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
         * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
+        * [Portal Activation Code Employee Experience](https://drive.google.com/open?id=1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg)
     * [Encounters](functions/encounters.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
             * [How to Install MIEPlayer Control](functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md)
