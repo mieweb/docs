@@ -1,8 +1,9 @@
 ---
 id: '1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
 title: 'Common Case Search Report'
-date: '2020-02-27T20:12:56.822Z'
-version: 98
+date: '2024-09-11T20:01:18.207Z'
+version: 124
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
@@ -16,18 +17,16 @@ Incidents are cases. We use the terminology interchangeably, so you may have enc
 
 ## Common Case/Incident Search Report
 
-From the Reports sidemenu, there is a reports parent tab named *Safety.* Also from the reports sidemenu, there is also a reports parent tab named *Health Surveillance.* If you don't have either of these tabs, your MIE Implementer can program them for you.
+From the Reports sidemenu, there is a reports parent tab named *Safety.*
 
-![](../common-case-search-report.assets/ff1e4d8b34e33513f9a99fa423e8317b.png)
+![](../common-case-search-report.assets/e92f49be0a53f279ccf28db83b1e3093.png)
 
-![](../common-case-search-report.assets/c80bb461b1d09daae5548328f508ef75.png)
+Within the parent report tab, there is a report hyperlink named *Incident Report* or named *Case Report*. Clicking on that takes you to a report named *Common Case (or Incident) Search*. The report *Common Case Search* is a report based on our hard-coded Incident report, but this *common case search* layout (report) is customizable to include fields that you may want added to report.
 
-Within either of those parent report tabs, there is a report hyperlink named *Incident Report* or named *Case Report*. Clicking on that takes you to a report named *Common Case (or Incident) Search*. The report *Common Case Search* is a report based on our hard-coded Incident report, but this *common case search* layout (report) is customizable to include fields that you may want added to report.
-
-![](../common-case-search-report.assets/887c7b89ce6011e9bb8bd591b2b03b00.png)
+![](../common-case-search-report.assets/2b6c1f212d573875091100c5525ca695.png)
 
 {{% info %}}
-Please do not confuse the Common Case / Incident Search report with our hard-coded report named Incidents which is found in its own specific report tab named Incidents. Our hard-coded report named Incident Search tab tab takes you to is not customizable.
+Please do not confuse the Common Case / Incident Search report with our hard-coded report named Incidents which is found in its own specific report tab named Incidents. Our hard-coded report named Incident Search tab takes you to is not customizable.
 {{% /info %}}
 
 ![](../common-case-search-report.assets/de26a64f32fa24c6e91ddc1038728860.png)
@@ -38,7 +37,7 @@ Please do not confuse the Common Case / Incident Search report with our hard-cod
 
 When you access the Incident Report from the Safety or Health Surveillance reports tab, you will be taken to the *Common Case/Incident Search* report. In the Common Case/Incident Search there are several search filter fields available to narrow down your search. If you don't wish to filter, you can just scroll down to click SEARCH button and it will result any and every case (incident) for your system in a report summary. Again, this report is a layout that is customizable to your needs. If you wish additional search filter fields to be available in this Common Case/Incident Search report, please contact your MIE Implementer. Below we have defined each search filter field and where that field can be found in the encounter *Case* or *Incident Details* section when you are capturing case/incident details on a patient/employee.
 
-![](../common-case-search-report.assets/02ad5782873b559958e2fca39e26db71.png)
+![](../common-case-search-report.assets/73fb128cf3845a0cd8a6f48618325c67.png)
 
 * <strong>Patient:</strong> This is an auto-complete search filter field and is buildable, meaning you can run the report to give you results filtered by one or more specific patients or employees.
 
@@ -200,6 +199,10 @@ When you access the Incident Report from the Safety or Health Surveillance repor
 * <strong>Partition:</strong> This is an auto-complete search filter field and is buildable, meaning you can run the report to give you results filtered by one or more specific chart partitions.
 
 ![](../common-case-search-report.assets/66d0ede98da0caa1db10020d44b9332e.png)
+
+* <strong>Hours Worked:</strong> This field is not intended to be used as search criteria, but rather as a data entry field for users to manually enter Hours Worked in order to calculate the DART instance rate. DART (Days Away Restricted Transferred) uses the following formula: (Number of OSHA Recordable injuries and Illness that resulted in Days Away, Restricted, or Transferred x 200,000) / Employee hours worked. When "Hours Worked" have been entered, the DART instance rate will display above the OSHA 300 log results. This field is used only on the OSHA 300 Log Report.
+
+![](../common-case-search-report.assets/19795407cbfb89909879efc7d0262241.png)
 
 ### Report Results
 
