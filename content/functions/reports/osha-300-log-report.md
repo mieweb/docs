@@ -1,9 +1,9 @@
 ---
 id: '1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
 title: 'OSHA 300 Log Report'
-date: '2024-01-25T19:22:08.857Z'
-version: 179
-lastAuthor: 'anichols'
+date: '2024-09-11T19:46:50.174Z'
+version: 201
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/sites/default/files/OSHA-RK-Forms-Package.pdf'
@@ -28,11 +28,17 @@ You can also tell if the case (linked to the encounter you are working in) is OS
 
 From the Reports sidemenu, there is a reports parent tab named *Safety.* Then there is a report available named *OSHA 300 Log*.
 
-![](../osha-300-log-report.assets/037309dd4a6730c5dcea1d8453e3d5d4.png)
+![](../osha-300-log-report.assets/9cbca88fcd1e2587f6ec6d26cc323585.png)
 
-Clicking on that takes you to the OSHA 300 Log report but at the top you will see a search criteria field section named *Common Incident Search*. See other help documentation titled *Common Incident Search* for specifics on each filter criteria field. Most OSHA 300 Logs are run using the incident date range filter.
+Clicking on that takes you to the OSHA 300 Log report but at the top you will see a search criteria field section named *Common Case Search Report*. See other help documentation titled *Common Case Search Report* for specifics on each filter criteria field. Most OSHA 300 Logs are run using the incident date range filter.
 
-![](../osha-300-log-report.assets/16e22c93b89dff530aca01e6024d5b3d.png)
+![](../osha-300-log-report.assets/2b6c1f212d573875091100c5525ca695.png)
+
+### DART Calculation
+
+A column labeled "Hours Worked" has been added to the OSHA 300 Log criteria. The "Hours Worked" field is not intended to be used as search criteria, but rather as a data entry field for users to manually enter Hours Worked in order to calculate the DART instance rate. DART (Days Away Restricted Transferred) uses the following formula: (Number of OSHA Recordable injuries and Illness that resulted in Days Away, Restricted, or Transferred x 200,000) / Employee hours worked. When "Hours Worked" have been entered, the DART instance rate will display above the OSHA 300 log results.
+
+![](../osha-300-log-report.assets/6d7e4b9eb13dc37ed3e11e5c861529b3.png)
 
 ## OSHA 300 Log Results
 
