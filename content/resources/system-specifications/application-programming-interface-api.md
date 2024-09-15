@@ -1,12 +1,14 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2023-10-17T21:46:15.135Z'
-version: 82
+date: '2024-09-15T18:55:30.951Z'
+version: 122
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
+  - 'https://github.com/mieweb/mieapi-js'
+  - 'https://github.com/mieweb/mieapi-meteor'
   - 'https://github.com/mieweb/wcexport/blob/master/wcjson.py'
   - 'https://github.com/mieweb/webchart-interface-examples'
   - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g7-Application-access-patient-selection.pdf'
@@ -28,19 +30,43 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 ## Introduction
 
-With {{% system-name %}}, you can augment the system and layer in configuration to support almost any workflow or process–migrate meaningful data from legacy applications; interface intelligently with HR systems, email applications, labs, and medical devices; experience no concerns about sharing data across the solution, and no barriers aggregating data from multiple sources.
+With {{% system-name %}}, you can enhance and configure the system to support a wide range of workflows and processes. This includes migrating valuable data from legacy applications, seamlessly integrating with HR systems, email platforms, laboratories, and medical devices, and facilitating secure data sharing across the solution. {{% system-name %}} also provides robust capabilities for aggregating data from multiple sources without encountering barriers.
 
-This document provides an overview of the framework that drives these accomplishments.
+This document outlines the framework that underpins these capabilities.
+
+The core API utilizes a REST architecture, supporting both GET and POST methods to retrieve or modify records. Access to the API requires an authenticated session, which can be established either through a cookie-based mechanism using a username and password or via an OAuth 2.0 bearer token generated with an API key.
 
 Explore the {{% system-name %}} API, below.
 
-Though any coding language may be used, the following example is written in python:
+Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel for full visibility of the various objects and their APIs.
 
-https://github.com/mieweb/wcexport/blob/master/wcjson.py
+![](../application-programming-interface-api.assets/c7fcc9233c661a5ffbb1993390ea5402.png)
+
+Then you can explore each object type and then clock on the Object to experiment with the javascript api.  There is a 
+![](../application-programming-interface-api.assets/e024cc60081a12d06ddf1c7fb045940c.png)
+button at the lower right that allows you to experiment in real time.
+
+![](../application-programming-interface-api.assets/b0c6b56c82c6a95ebba7c679f5cf7ab3.png)
+
+Every object has a URL.  For example: patients:
+
+![](../application-programming-interface-api.assets/611e76c09a736d9808e3ca2335ec13cb.png)
+
+### JavaScript API
+
+Node: https://github.com/mieweb/mieapi-js
+
+Meteor: https://github.com/mieweb/mieapi-meteor
+
+### Python API
+
+example in python: [wcjson.py](https://github.com/mieweb/wcexport/blob/master/wcjson.py)
+
+### Example programs
 
 Other examples can be found here: https://github.com/mieweb/webchart-interface-examples
 
-Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel for full visibility of the various objects and their APIs.
+![](../application-programming-interface-api.assets/d573f388d7e42804e6450203b5a315b0.png)
 
 ## Session Establishment
 
@@ -68,7 +94,7 @@ COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
 COOKIE represents the session and is sent in the response.
 {{% /info %}}
 
-## **_{{% system-name %}}_**  API 2015 Edition
+## ONC Certification API 2015 Edition
 
 Overall, this document is intended to comply with the established criteria laid out for 2015 Edition ONC Certification–Patient Selection 170.315(g)(7), Data Category Request 170.315(g)(8), and All Data Request 170.315(g)(9). The following table provides access to the ONC specifications regarding these standards and requirements:
 <table>
