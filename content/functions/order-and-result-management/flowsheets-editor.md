@@ -1,9 +1,9 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2024-07-22T14:10:32.987Z'
-version: 564
-lastAuthor: 'janderson'
+date: '2024-09-17T16:35:16.262Z'
+version: 595
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'observations-tab.md'
@@ -30,7 +30,7 @@ The following information provides details on how to add and configure flowsheet
 
 1. Verify all observations needed for the new flowsheet are already created and available within the {{% system-name %}} system.
 
-![](../flowsheets-editor.assets/26a63b831e54d04606592569ff47fb53.png)
+![](../flowsheets-editor.assets/a8108faf5f21ae178dc78eb98949af76.png)
 
 {{% note %}}
 Any custom discrete values will not be interoperable when communicating with other systems.
@@ -86,7 +86,8 @@ Descriptions are not interoperable fields and will not carry over to devices or 
 * <strong>Required</strong>: Observations can be optional, recommended, or required, as needed. When configuring a flowsheet or questionnaire, simply leave this field blank for any optional entries. Recommended entries, or fields that are encouraged but not required, can be configured by inputting the numeral one (1) in this field. Otherwise, required fields can be checked against using a properly formatted formula. More about this to follow.
 * <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. For example, a questionnaire with questions only relevant to a male (conditional) can be programmed to only display when the sex of the respondent is male. More information on this can be found below.
 * <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and established criteria. Using this field, a calculation will be triggered, whenever a specific observation is programmed with the appropriate calculation criteria. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation with the BMI observation. Additional details can be found below.
-5. Once finished, click the <strong>Submit</strong> button to save all of the information.
+5. Beginning with the 202409 software release, a blue cursor bar will display at the bottom of the editor when creating a new flowsheet or when editing an existing flowsheet. The cursor bar can be moved anywhere within the flowsheet to easily insert a new observation/question.  Click once to move the blue cursor bar, scroll to the desired location to add an observation, then click a second time to drop the blue cursor bar into the desired location. Add the new observation/question using the Observation autocomplete at the top of the flowsheet editor.
+6. Once finished, click the <strong>Submit</strong> button to save all of the information.
 
 ## Configuring Flowsheets
 
