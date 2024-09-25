@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-07-10T18:12:04.119Z'
-version: 303
+date: '2024-09-25T15:17:28.123Z'
+version: 322
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -293,7 +293,7 @@ Obviously clicking a date from the calendar will insert the date in the field an
 
 Dynamic encounter templates can be saved and loaded. The *Tools* icon button gives the ability to enter a template name that you want to save or key in existing name to load. If you have security permission to hide/close sections, you can do so and then save the encounter as a "template" to be used for future. When a user loads a stored/existing template by name, the specific sections will only show that pertain to that template being used.
 
-![](../working-in-a-visit-encounter.assets/8c779a6bf7ced4d8849f2a599b8166d1.png)
+![](../working-in-a-visit-encounter.assets/a7142b2940c15913fa21539f2edfc6a0.png)
 
 After hiding sections that don't pertain to a specific "template" you want to save to your library, you click the *Tools* icon, type in a Template Name and click "save". This will store that as a template. It's simply storing the sections to display (or not display) if someone wants to use that template in the future.
 
@@ -301,7 +301,7 @@ After hiding sections that don't pertain to a specific "template" you want to sa
 
 To search and utilize a saved template type that is stored in the library, simply click on the *Tools* icon and in the section "load template" select (by clicking) the named template you wish to apply to your open encounter.
 
-![](../working-in-a-visit-encounter.assets/eac788c406eba84c34803a4ee56f96e5.png)
+![](../working-in-a-visit-encounter.assets/e9ba295c21a9e7966e5aea6a3dfb620c.png)
 
 The encounter screen will entirely refresh and the encounter sections would then display (or hide) depending on the saved library template you applied.
 
@@ -319,7 +319,15 @@ Dynamic encounter templates also use the "Archive as" document type if one was s
 
 Stored templates in your system can be deleted in their entirety. Click on the *Tools* icon and in the "load template" section simply click the trash can icon next to the specific system stored template name you wish to delete. A pop-up message that you successfully deleted a stored template will display. You can then X out of the *Tools* screen.
 
-![](../working-in-a-visit-encounter.assets/d8f71d155134a818e359aeb2c786c121.png)
+![](../working-in-a-visit-encounter.assets/14e41632628af13dded862d8c0e2e3e4.png)
+
+### Experimental Features Option in Encounter Tools
+
+The encounter tools pop up now has a section for Experimental Features, including a button to enable/disable AI-suggested operations. As experimental encounter features are available for client use and/or beta testing, they can be enabled in this section, provided all other configuration has been completed.
+
+*Note: The AI Assistant must be configured for the AI-Suggested Operation feature to work.*
+
+![](../working-in-a-visit-encounter.assets/7a4bd9ac552b211bad1505e04d14426d.png)
 
 ### Deleting Observations Individually/En Masse
 
