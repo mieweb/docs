@@ -1,9 +1,9 @@
 ---
 id: '1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
 title: 'View User Audit Log'
-date: '2023-11-14T06:57:50.271Z'
-version: 76
-lastAuthor: 'wreiske'
+date: '2024-09-26T17:35:40.401Z'
+version: 91
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
@@ -29,13 +29,14 @@ The *View User Screen* will appear. At the right side of the screen, click the *
 
 You can click this to view the patient's this user has viewed/worked in and view activity using the Audit Log Search fields. See separate instructions titled *Audit Log Search*.
 
-![](../view-user-audit-log.assets/af0965785dbfcc32883ef515294491a8.png)
+![](../view-user-audit-log.assets/d16f118987c0ba5246182d34afce95dd.png)
 
 You can narrow down your search results by entering any information in the following fields:
 
 * <strong>Patient:</strong> Can type in a specific patient to see if the user has been in. The system will auto-complete the patient you are typing and give you choices. These patient choices are active and/or deceased patients.
 * <strong>Doc ID:</strong> Can type in a specific document id number you wish to search activity for in relation to the user.
 * <strong>Date Range:</strong> Can enter a date range to show results for.
+* <strong>Partition:</strong> Select a partition to search by partition or leave blank to search for non-patient/chart events, such as user access, etc.
 * <strong>IP Address:</strong> Enter any part of the user's IP address.
 * <strong>Event:</strong> This is the specific event that occurred. (i.e.) Stream, View, Edit, etc.
 * <strong>(Event) Description:</strong> This is a description of something specific about the event that occurred. It will usually contain the document type description.
@@ -47,7 +48,7 @@ The results are specific to that user you are in.
 
 If you wish to view a specific activity from the results, click **View** link in the Activity Details column. It will take you to the Activity Log report and you can click Submit Query to view that exact activity of the user.
 
-![](../view-user-audit-log.assets/7de18b0d5675e319d84462be0ff1b305.png)
+![](../view-user-audit-log.assets/325af7eb3f099d4ac6ebdd320eb314d0.png)
 
 Continue to search by modifying the search fields, or by clicking CLEAR ALL to start another search.
 
