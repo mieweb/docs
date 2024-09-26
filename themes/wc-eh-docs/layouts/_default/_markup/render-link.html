@@ -1,22 +1,14 @@
-{{- $baseurl := urls.Parse site.BaseURL -}}
-{{- $url := urls.Parse .Destination -}}
+{{/* https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html */}}
 {{- $getpage := .Page.GetPage .Destination -}}
-{{- $internal := lt (len $url.Host) 1 -}} {{/* NOTE: internal links will always have an empty $url.Host */}}
-{{- $fragment := $url.Fragment -}}
-{{- with $fragment -}}{{ $fragment = printf "#%s" $fragment }}{{- end -}}
-{{- $destination := "" -}}
-{{- if $internal -}}
-{{- if (strings.HasPrefix $url.Path "./") -}}
-{{/* NOTE: for links starting with ./ */}}
-{{- $urltrimmed := strings.TrimPrefix "./" $url -}}
-{{- $destination = printf "%s://%s/%s%s" $baseurl.Scheme $baseurl.Host $urltrimmed $fragment -}}
-{{- else -}}
-{{/* NOTE: for internal links */}}
-{{- $destination = printf "%s%s" $getpage.RelPermalink $fragment -}}
+{{ $link := .Destination }}
+{{ $isRemote := strings.HasPrefix $link "http" }}
+{{- if not $isRemote -}}
+{{ $url := urls.Parse .Destination }}
+{{- if $url.Path -}}
+{{ $fragment := "" }}
+{{- with $url.Fragment }}{{ $fragment = printf "#%s" . }}{{ end -}}
+{{- with .Page.GetPage $url.Path }}{{ $link = printf "%s%s" .RelPermalink $fragment }}{{ else }}{{ warnf "%q not found from %q" $url.Path $.Page.Path }}{{ end }}{{ end -}}
 {{- end -}}
-{{- else -}}
-{{- $destination = .Destination -}}
-{{- end -}}
-<a href="{{ $destination | safeURL }}" {{ with or .Title $getpage.LinkTitle .Text }} title="{{ . }}"
-  {{ end }}{{ if not $internal }} rel="noopener external"
-  {{ end }}>{{ or .Text .Title $getpage.LinkTitle | safeHTML }}</a>
+<a href="{{ $link | safeURL }}"{{ with or .Title $getpage.LinkTitle .Text }} title="{{ . }}"
+  {{ end }}{{ if $isRemote }} rel="noopener external"
+  {{ end }}>{{ .Text | safeHTML }}</a>
