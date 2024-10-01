@@ -1,5 +1,11 @@
 # WebChart / Enterprise Health Docs
 
+This repo generates the public facing sites (go there to read the documentation):
+* http://docs.enterprisehealth.com
+* http://docs.webchartnow.com
+
+It is generated from Google Drive. [Documentation Home folder](https://drive.google.com/drive/u/0/folders/1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-)
+
 If your are a non-techie looking to [contribute](content/contributing-to-this-documentation.md) to documentation, best use the website and author in Google Drive and make recommendations there.
 
 # Overview
