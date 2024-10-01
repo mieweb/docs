@@ -1,8 +1,8 @@
 ---
 id: '10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
 title: 'Device Interface - Depisteo VT1'
-date: '2024-08-13T13:49:05.975Z'
-version: 66
+date: '2024-10-01T14:04:09.331Z'
+version: 74
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -66,7 +66,7 @@ The following data fields are collected in {{% system-name %}} using the Depiste
 </tr>
 </table>
 
-For clients on RC202309 and newer, the Depisteo Vision Screener interface will also report failed results in addition to the normal correct results. In addition, results will be mapped with an observation of corrected or uncorrected values.
+For clients on RC202309 and newer, the Depisteo Vision Screener interface will also report failed results in addition to the normal correct results. In addition, results will be mapped with an observation of corrected or uncorrected values. Also, if a device translation does not exist for the device user, the author of the document will be saved as the logged in user. Additional information regarding the patient's eye history will be saved in the request comments and Color vision test results will now show if the patient failed a specific color.
 
 ## Using the Device Interface
 
