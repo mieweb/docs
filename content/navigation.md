@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-09-10T19:24:05.113Z'
-version: 615
+date: '2024-10-02T22:30:43.888Z'
+version: 652
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -21,6 +21,8 @@ links:
   - 'programs/quality-reporting.md'
   - 'programs/quality-reporting/brief-introduction-to-quality-reporting.md'
   - 'functions.md'
+  - 'functions/artificial-intelligence.md'
+  - 'https://docs.google.com/document/u/0/d/14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA/edit'
   - 'functions/e-chart.md'
   - 'functions/e-chart/basic-initial-system-information.md'
   - 'functions/e-chart/online-help-and-notifications.md'
@@ -115,7 +117,7 @@ links:
   - 'functions/portal-management/messages-from-nmc-user.md'
   - 'functions/portal-management/nomoreclipboard.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
-  - 'https://drive.google.com/open?id=1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg'
+  - 'functions/portal-management/portal-activation-code-employee-experience.md'
   - 'functions/encounters.md'
   - 'functions/encounters/dictation-and-transcription.md'
   - 'functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md'
@@ -431,6 +433,8 @@ links:
   - 'functions/reports/encounter-report.md'
   - 'functions/reports/exporting-report-data.md'
   - 'functions/reports/fill-reports.md'
+  - 'functions/reports/financials-pending-encounters-report.md'
+  - 'functions/reports/financials-pending-billing.md'
   - 'functions/reports/guideline-report.md'
   - 'functions/reports/health-surveillance-reports.md'
   - 'functions/reports/incidents-report.md'
@@ -729,6 +733,8 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
 * [Functions](functions.md)
     * QuickView
+    * [Artificial Intelligence](functions/artificial-intelligence.md)
+        * [AI Chat Box](https://docs.google.com/document/u/0/d/14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA/edit)
     * [E-Chart](functions/e-chart.md)
         * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
         * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
@@ -823,7 +829,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
         * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
-        * [Portal Activation Code Employee Experience](https://drive.google.com/open?id=1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg)
+        * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
     * [Encounters](functions/encounters.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
             * [How to Install MIEPlayer Control](functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md)
@@ -1140,6 +1146,8 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Encounter Report](functions/reports/encounter-report.md)
         * [Exporting Report Data](functions/reports/exporting-report-data.md)
         * [Fill Reports](functions/reports/fill-reports.md)
+        * [Financials Pending Encounters](functions/reports/financials-pending-encounters-report.md)
+        * [Financials Pending Billing Report](functions/reports/financials-pending-billing.md)
         * [Guideline Report](functions/reports/guideline-report.md)
         * [Health Surveillance Reports](functions/reports/health-surveillance-reports.md)
         * [Incidents Report](functions/reports/incidents-report.md)
