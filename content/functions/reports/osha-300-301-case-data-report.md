@@ -1,9 +1,9 @@
 ---
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
-date: '2024-03-15T16:37:15.955Z'
-version: 316
-lastAuthor: 'janderson'
+date: '2024-10-01T20:46:57.734Z'
+version: 328
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting'

@@ -1,9 +1,9 @@
 ---
 id: '14vy3k0f0EWCGaXu__JfC9ZtWZSsVFxInvTev8gQssbQ'
 title: 'FHIR Application Programming Interface (API)'
-date: '2022-07-26T17:15:48.882Z'
-version: 45
-lastAuthor: 'nrichardson'
+date: '2024-10-02T14:15:11.914Z'
+version: 84
+lastAuthor: 'dcarlson'
 mimeType: 'text/x-markdown'
 links:
   - 'fhir-application-programming-interface-api/resource-specifications.md'

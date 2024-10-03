@@ -2,7 +2,7 @@
 id: '1_bqwatL6MvTU7CjgmDgyWE8LILKlnChfpIw3T9_Ro8M'
 title: 'BE 1 - Use of Certified EHR to Capture Patient Reported Outcomes'
 date: '2020-02-27T20:49:21.893Z'
-version: 17
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

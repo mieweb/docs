@@ -2,7 +2,7 @@
 id: '1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
 title: 'Security Best Practices'
 date: '2023-10-04T18:40:22.514Z'
-version: 55
+version: 56
 lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links:

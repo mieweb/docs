@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-08-29T17:01:33.327Z'
-version: 526
+date: '2024-09-06T16:21:32.157Z'
+version: 533
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

@@ -1,9 +1,9 @@
 ---
 id: '1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
 title: 'SureScripts Advanced - Medication History Reconciliation'
-date: '2024-09-09T13:35:44.342Z'
-version: 394
-lastAuthor: 'auhrick'
+date: '2024-09-09T17:36:55.369Z'
+version: 404
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'surescripts-advanced-prescription-and-insurance-eligibility-requests.md'
