@@ -12,4 +12,4 @@ node_modules
 wikigdrive.json
 .private
 git.json
-menu.en.json
+config/_default/menu.en.json
