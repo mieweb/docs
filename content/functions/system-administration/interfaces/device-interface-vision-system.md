@@ -6,7 +6,7 @@ version: 25
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following is referring to a Vision - Titmus i500 system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 

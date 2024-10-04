@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
 source: 'https://drive.google.com/open?id=1B1hXmFA-Whewm3mtG0CanIyZaVuyZh5Nd1d-olKILA4'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 If dictation is enabled on your system, and a user enters in an encounter, the Add Dictation option is offered throughout.  If the user adds dictation, the encounter dictation(s) goes to the Dictation queue for a transcriptionist to type up.  Then the transcriptionist either archives & closes the encounter themselves (depending on how the system has been requested to be set up), or the physician can close it from their encounter worklist when there is no transcription left pending for it.
 

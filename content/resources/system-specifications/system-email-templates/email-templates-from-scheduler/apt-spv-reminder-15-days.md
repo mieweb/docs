@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=ESPVR15&old_module=Email&old_name=Apt+Spv+Reminder+15+Days&active=0'
 source: 'https://drive.google.com/open?id=11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=ESPVR15&old_module=Email&old_name=Apt+Spv+Reminder+15+Days&active=0), as needed.
