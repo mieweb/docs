@@ -1,8 +1,8 @@
 ---
 id: '14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA'
 title: 'AI Chat Box'
-date: '2024-10-02T15:12:28.453Z'
-version: 83
+date: '2024-10-04T16:11:49.340Z'
+version: 91
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -10,27 +10,27 @@ links:
 source: 'https://drive.google.com/open?id=14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA'
 wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
-### AI Assistant
+## AI Assistant
 
-### When the AI Assistant is enabled, Enterprise Health clients will see "Wellby", an octopus icon as their AI assistant. WebChart clients will see the "WebChart AI Assistant" bot as their AI Assistant.
+When the AI Assistant is enabled, Enterprise Health clients will see "Wellby", an octopus icon as their AI assistant. WebChart clients will see the "WebChart AI Assistant" bot as their AI Assistant.
 
 ![](../ai-chat-box.assets/4a592aa2b27faafc5cc0b71419707283.png)
 
 ![](../ai-chat-box.assets/4c91b23b8ae8307ae3e47959ffaceddf.png)
 
-### AI Assistant Icon
+## AI Assistant Icon
 
 If AI is enabled for a database, the AI Icon will display in the header. Click on the AI Icon to open the AI Assistant and chat box.
 
 ![](../ai-chat-box.assets/0e350231586c47faf8f2bf2324a34811.png)
 
-### AI Chat Window
+## AI Chat Window
 
 The AI chat window provides a list of suggestions that users can ask AI, as well as an option to enter a custom action. The suggestion options can be customized in the layout "AI/ChatBox" and also supports language translations.
 
 ![](../ai-chat-box.assets/78b92ad60f2e8602ff6347cb4b175e94.png)
 
-### Ask AI a Question
+## Ask AI a Question
 
 Type your question or use Whisper AI (or use your device voice to text application) to type in a question and click the *Send* button.
 
@@ -38,7 +38,7 @@ Type your question or use Whisper AI (or use your device voice to text applicati
 
 ![](../ai-chat-box.assets/7fba7a9967539163d32d67809d49e757.png)
 
-### AI Response Actions
+## AI Response Actions
 
 Beneath each AI Response, users will see 5 options.
 
@@ -72,7 +72,7 @@ Beneath each AI Response, users will see 5 options.
 
 ![](../ai-chat-box.assets/a06070c92e77ce3b5f3e6693fd89c593.png)
 
-### Reset Conversation
+## Reset Conversation
 
 Users can proceed to ask AI questions by typing in their next question in the question entry box and click the *Send* button. However, if the user would like to clear the AI assistant responses and return to the main AI Assistant landing page, simply click the *Reset Conversation* button. The user will be asked if they are sure they want to start over. Selecting *No* will return the user to AI Assistant where they left off. Selecting *Yes* will return the user to the main AI assistant landing page.
 
@@ -80,7 +80,7 @@ Users can proceed to ask AI questions by typing in their next question in the qu
 
 ![](../ai-chat-box.assets/8d25cfc2b8e24d66026f1819593e760f.png)
 
-### Minimize AI Chat
+## Minimize AI Chat
 
 Click the ‘down arrow' button on the AI Assistant header bar to minimize the chat window to the lower left hand corner of the application. Click the ‘up arrow' to restore the AI Assistant to full screen.
 
@@ -88,7 +88,7 @@ Click the ‘down arrow' button on the AI Assistant header bar to minimize the c
 
 ![](../ai-chat-box.assets/e8cf9f62cb469e79de4dc30ccf2bdc22.png)
 
-### Report Generation
+## Report Generation
 
 AI has been incorporated into the system report writing. AI generates SQL-based reports from natural language queries. The AI assistant context includes common subjects within the application, such as patients, observations, allergies, medications and procedures. This feature is available in RC202403 and newer.
 
@@ -98,13 +98,13 @@ AI has been incorporated into the system report writing. AI generates SQL-based 
 
 ![](../ai-chat-box.assets/9edbdda93d30d44bb45ebe0d9d23d2c6.png)
 
-### .macro in AI Assistant
+## .macro in AI Assistant
 
 Users with security rights to create/edit macros have access to create and manage macros in the AI Assistant.
 
 ![](../ai-chat-box.assets/b84822dc5c06790106793f63cac65312.png)
 
-### What will AI Know?
+## What will AI Know?
 
 The What will AI Know? link displays at the bottom of the AI Assistant chat box. Clicking the link will direct the users to the Root Context information screen. The Root Context screen outlines the database tables utilized in the AI response. The example below demonstrates context used when editing/writing a system report. When this feature is used in a patient chart, context will show information like the patient's name, dob, medications, allergies, history, etc.
 
@@ -112,7 +112,7 @@ The What will AI Know? link displays at the bottom of the AI Assistant chat box.
 
 ![](../ai-chat-box.assets/946beda48f1487c685685d050b3b591e.png)
 
-### Close AI Assistant
+## Close AI Assistant
 
 Click the X in the upper right hand corner of the AI Assistant to close the assistant at any time.
 
