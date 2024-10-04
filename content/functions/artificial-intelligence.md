@@ -1,8 +1,8 @@
 ---
 id: '1p1ZXuXBzJdb-eO2oxRbpCyafytuwXTJYhcGl9-2_OyU'
 title: 'Artificial Intelligence'
-date: '2024-10-03T17:01:43.955Z'
-version: 24
+date: '2024-10-03T17:28:08.947Z'
+version: 33
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -39,7 +39,8 @@ Wellby supports text and audio output, functioning as a minimal reasoning engine
 
 **BlueHive AI**
 
-**Patient Visit Contextualization  
-**BlueHive AI offers zero-context reasoning during patient visits. It captures interviews and images, leveraging these to generate notes, send messages, perform integrations, trigger functions, and share content with other providers, employers, and patients. It can also complete government forms automatically.
+**Patient Visit Contextualization**
+
+BlueHive AI offers zero-context reasoning during patient visits. It captures interviews and images, leveraging these to generate notes, send messages, perform integrations, trigger functions, and share content with other providers, employers, and patients. It can also complete government forms automatically.
 
 {{% children %}}
