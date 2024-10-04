@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-02T22:30:43.888Z'
-version: 659
+date: '2024-10-03T20:20:39.214Z'
+version: 682
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -152,6 +152,7 @@ links:
   - 'functions/encounters/encounter-protocols.md'
   - 'functions/encounters/archiving-closing-re-archiving-encounters.md'
   - 'functions/encounters/creating-or-adding-encounters.md'
+  - 'functions/encounters/copy-from-previous-exam.md'
   - 'functions/injury-care.md'
   - 'functions/injury-care/case-management.md'
   - 'functions/injury-care/case-management/adding-absence-management-case.md'
@@ -433,6 +434,7 @@ links:
   - 'functions/reports/encounter-report.md'
   - 'functions/reports/exporting-report-data.md'
   - 'functions/reports/fill-reports.md'
+  - 'functions/reports/financials-all-active-deals-detail-report.md'
   - 'functions/reports/financials-pending-encounters-report.md'
   - 'functions/reports/financials-pending-billing.md'
   - 'functions/reports/guideline-report.md'
@@ -865,6 +867,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Encounter Protocols](functions/encounters/encounter-protocols.md)
         * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
         * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
+        * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
     * [Injury Care](functions/injury-care.md)
         * [Case Management](functions/injury-care/case-management.md)
             * [Adding Absence Management Case](functions/injury-care/case-management/adding-absence-management-case.md)
@@ -1146,6 +1149,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Encounter Report](functions/reports/encounter-report.md)
         * [Exporting Report Data](functions/reports/exporting-report-data.md)
         * [Fill Reports](functions/reports/fill-reports.md)
+        * [Financials All Active Deals-Detail Report](functions/reports/financials-all-active-deals-detail-report.md)
         * [Financials Pending Encounters](functions/reports/financials-pending-encounters-report.md)
         * [Financials Pending Billing Report](functions/reports/financials-pending-billing.md)
         * [Guideline Report](functions/reports/guideline-report.md)
