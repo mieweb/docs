@@ -10,7 +10,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following options are allowed. Any other options are unsupported and will be rejected.
 
@@ -55,7 +55,6 @@ We will start with the contents of [File:GenericImportTestOBS A.csv](https://mi
 4444,Test4,Employee,04/04/2004,R5,6,5.91,D,G,76,70,Normal
 5555,Test5,Employee,05/05/2005,R5,4.98,4.99,,H,27,30,High
 
-
 ```
 {{% /pre %}}
 
@@ -92,7 +91,6 @@ The data will be changed by importing another file [File:GenericImportTestOBS B
 3333,Test3,Employee,03/03/2003,R5,1/1/2016,5.01,1/2/2016,4.99,2/2/2016,B,1/1/2016,F,1/1/2016,,1/1/2016,Normal,1/1/2016
 4444,Test4,Employee,04/04/2004,R1,1/1/2016,5.84,1/2/2016,6.04,2/2/2016,D,1/1/2016,G,1/1/2016,75,1/1/2016,,1/1/2016
 5555,Test5,Employee,05/05/2005,R5,1/1/2016,4.9,1/2/2016,5.03,2/2/2016,,1/1/2016,H,1/1/2016,28,1/1/2016,Normal,1/1/2016
-
 
 ```
 {{% /pre %}}

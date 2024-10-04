@@ -11,7 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms165v12'
 source: 'https://drive.google.com/open?id=1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Overview
 
@@ -176,10 +176,9 @@ OR
 <td>2.16.840.1.113883.3.464.1003.101.12.1080</td>
 </tr>
 </table>
-
 ### Denominator Exclusions
 
-<table>
+ <table>
 <tr>
 <td><strong>Name</strong></td>
 <td><strong>Value Set</strong></td>

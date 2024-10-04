@@ -9,7 +9,7 @@ links:
   - '../injury-care/adding-restrictions-and-accommodations.md'
   - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
 source: 'https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information.  All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -138,7 +138,6 @@ The system comes with several standard emails which can be emailed to the employ
 ### Medical Leave of Absence (MLOA) Start
 
 ![](../absence-management-workflow.assets/82f8e1ccae6f5309bac131b03dae1cce.png)
-
 ### Medical Leave of Absence (MLOA) Extend
 
 ![](../absence-management-workflow.assets/4f9a095c2740da2f728fb1c25f143aa3.png)

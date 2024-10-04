@@ -720,7 +720,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 * [Programs](programs.md)
     * [Medical Programs](programs/medical-programs.md)
@@ -836,7 +836,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
         * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
-        * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
+        * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
     * [Encounters](functions/encounters.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
             * [How to Install MIEPlayer Control](functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md)
@@ -977,8 +977,8 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
         * [Fee Schedules](functions/system-configuration/fee-schedules.md)
         * [Security Best Practices](functions/e-chart/security-best-practices.md)
-        * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md)
-        * [Orders List Editor](functions/system-configuration/orders-list-editor.md)
+        * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md#overview)
+        * [Orders List Editor](functions/system-configuration/orders-list-editor.md#overview)
     * [Quality of Care](functions/quality-of-care.md)
         * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
         * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
@@ -1136,7 +1136,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
                 * [CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md)
                 * [CMS 156 - Use of High-Risk Medications in the Elderly](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-156-use-of-high-risk-medications-in-the-elderly.md)
                 * [CMS 165 - Controlling High Blood Pressure](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-165-controlling-high-blood-pressure.md)
-        * [RAF Score - Risk Adjustment Factor](functions/quality-of-care/raf-score-risk-adjustment-factor.md)
+        * [RAF Score - Risk Adjustment Factor](functions/quality-of-care/raf-score-risk-adjustment-factor.md#what-is-a-risk-adjustment-factor?)
     * [Reports](functions/reports.md)
         * [Using DataVis Grids - Data Tools](functions/reports/using-datavis-grids-data-tools.md)
         * [Activity Log Report](functions/reports/activity-log-report.md)
@@ -1167,14 +1167,14 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Non-Compliant Report](functions/reports/non-compliant-report.md)
         * [Open Encounters Report](functions/reports/open-encounters-report.md)
         * Open PM Exports
-            * [OpenPM Export Appointment Cancellation Report](functions/reports/openpm-export-appointment-cancellation-codes.md)
+            * [OpenPM Export Appointment Cancellation Report](functions/reports/openpm-export-appointment-cancellation-codes.md#openpm-export-appointment-cancellation-codes)
             * [OpenPM Export Appointment Types](functions/reports/openpm-export-appointment-types.md)
             * [OpenPM Export Chart Insurance Policies](functions/reports/openpm-export-chart-insurance-policies.md)
-            * [OpenPM Export Demographics](functions/reports/openpm-export-demographics.md)
-            * [OpenPM Export Future Appointments](functions/reports/openpm-export-future-appointments.md)
+            * [OpenPM Export Demographics](functions/reports/openpm-export-demographics.md#openpm-export-demographics)
+            * [OpenPM Export Future Appointments](functions/reports/openpm-export-future-appointments.md#openpm-export-future-appointments)
             * [OpenPM Export Locations](functions/reports/openpm-export-locations.md)
             * [OpenPM Export Physicians](functions/reports/openpm-export-physicians.md)
-        * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md)
+        * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md#osha-300-form-log-overlay)
         * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
         * [OSHA 300A Form Log Overlay](functions/reports/osha-300a-form-log-overlay.md)
         * [OSHA 300A Report](functions/reports/osha-300a-report.md)
@@ -1224,7 +1224,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
             * [Merge Manager Tab](functions/system-administration/system-controls/merge-manager-tab.md)
             * [Med-Web SSL Certificate Authority](functions/system-administration/system-controls/med-web-ssl-certificate-authority.md)
             * [Scheduled Jobs](functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md)
-            * [Translation Manager](functions/system-administration/system-controls/translation-manager.md)
+            * [Translation Manager](functions/system-administration/system-controls/translation-manager.md#purpose-of-the-translation-manager)
         * [Data Migration](functions/system-administration/data-migration.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
             * [Data Migration File Format Standard](functions/system-administration/data-migration/data-migration-file-format-standard.md)

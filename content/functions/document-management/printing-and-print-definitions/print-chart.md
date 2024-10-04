@@ -12,10 +12,10 @@ links:
   - 'printing-documents.md'
   - '../../fax-manager/faxing-documents.md'
   - 'https://system/?func=scheduler&s=apttypes'
-  - 'https://system/?func=scheduler#Now'
+  - 'https://system/?func=scheduler'
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 Within every chart, there are several quick links available. One of these quick links is the **Print Chart** link, which allows users to fax or print pre-established or configured print definitions from the Scheduler, the Appointments chart tab, or from within the individual's E-Chart. In other words, using the Print Chart link provides users a way to print or fax predefined groupings of documents, forms, layouts, or the like, so that any specific packets of information, or stored documents, may easily be provided via fax, or else printed and provided to a performing facility or a patient, as needed. Print definitions can include individual documents or certain forms, multiple-page packets, or even chart information, such as a medication summary or a list of immunizations.
 
@@ -105,7 +105,7 @@ Additionally, users have the ability to utilize the **Print Charts** link, fou
 
 ![](../print-chart.assets/6491b52793ff4ea79d7582c4bc03fe99.png)
 
-Once either of these links are clicked, the Print Chart dialog window will open, allowing the user to print/fax, accordingly. The available options and workflow follow those explained in the preceding sections (i.e., [Print Chart from E-Chart](#gjdgxs) and [Print Chart from Appointments Chart Tab](#30j0zll)).
+Once either of these links are clicked, the Print Chart dialog window will open, allowing the user to print/fax, accordingly. The available options and workflow follow those explained in the preceding sections (i.e., [Print Chart from E-Chart](#print-chart-from-e-chart) and [Print Chart from Appointments Chart Tab](#print-chart-from-appointments-chart-tab)).
 
 ## Learning Management System
 

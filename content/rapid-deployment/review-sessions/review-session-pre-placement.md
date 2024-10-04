@@ -17,7 +17,7 @@ links:
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Agenda
 
@@ -142,11 +142,11 @@ Use this worklist to manage and follow up getting the Pre-Placement Exam encount
 #### HR Notification of Pre-placement Medical Clearance
 
 Once a Written Opinion - Pre-placement has been completed in the recommendations encounter section and the encounter has been closed & archived, the Written Opinion-Pre Placement document will be automatically emailed (hourly) to the HR Team. The HR team will view the final clearance determination of the pre hire to send out any further appropriate notifications needed.
-
 #### Chart Merge (Applicant Chart->Employee Chart)
 
 
 The Document Queue may be used to merge charts on-demand in between custom-tailored Auto Merge scheduled job runs. The 'Delete' link in Doc Queue may be used for non-hired applicants. The 'Q-Merge' link in Doc Queue may be used for hired applicants. An automated scheduled job runs nightly to auto-merge temporary flagged applicant/pre-placement partition charts to incoming permanent HR employee charts (when/if hired) based on first name, last name, & DOB. Each day, the doc queue automatch will run between the Applicant/Pre-placement and Employee/ID partitions to merge any applicants that have become employees. This relies on the match rating logic which takes into account how many matches are found and the name, DOB, & SSN. If the applicant's Name or DOB doesn't match the HR feed, the match rating will be less than 9 and not auto-merge. These scenarios of results with less than a 9 rating would require a manual merge. The benefit is that the demographics are not overwritten in this case. The merging of demographics is left to the end-user.
+
 
 ## System Configuration
 
@@ -272,7 +272,6 @@ In the the edit demographics screen, checkmark the *Is Applicant* box and click 
 <td></td>
 </tr>
 </table>
-
 Additional videos are also accessible via: [https://docs.enterprisehealth.com/videos-demonstrations](https://docs.enterprisehealth.com/videos-and-demonstrations.html)
 
 Users always have access to (?) online help in the product at the top right corner or by visiting: https://docs.enterprisehealth.com

@@ -8,13 +8,14 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SZTRKMFP'
 source: 'https://drive.google.com/open?id=16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Health Surveillance Reports
 
 You must have security permission to the Reports module/tab within {{% system-name %}}. This permission is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users to access the Reports left sidemenu tab module.
 
 ![](../health-surveillance-reports.assets/09ec61d9ee49b68f313c43d40f34ad2e.png)
+
 
 This guide will go through the most common out of the box Health Surveillance Reports available in {{% system-name %}}.
 

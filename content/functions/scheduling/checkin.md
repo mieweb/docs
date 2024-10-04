@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../e-chart/insurance-summary-in-demographics-tab.md'
   - 'https://system/?f=chart&s=checkin'
-  - 'https://system/?func=scheduler#Now'
+  - 'https://system/?func=scheduler'
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
   - 'https://system/?func=scheduler&s=apttypes'
   - 'https://system/?f=chart&s=checkin&t=station_manager&tabmodule=checkin&tabselect=Station+Manager'
@@ -17,7 +17,7 @@ links:
   - '../reports/checkin-reports.md'
   - 'https://mie.talentlms.com/shared/start/key:ZTEDNHRK'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The {{% system-name %}} Checkin module significantly improves patient flow by ensuring communication lines between the front office and clinicians are always open. The Checkin module will function in a patient kiosk setting, or within {{% system-name %}} as used by the clinical staff.
 

@@ -13,7 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 MIE File Import is a tool for importing and storing a set of files (an archive) in an MIE system (i.e., Enterprise Health or WebChart) as a document. A document is then associated with a chart in an MIE system. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
 
@@ -69,7 +69,7 @@ See also: [Data Migration File Format Standard](data-migration-file-format-stan
 ### Required Fields
 
 * <strong>Patient ID</strong> - Specifies the patient's chart in which the document will be stored.
-* <strong>Patient ID Type</strong> - See the [Patient ID Types section](#gjdgxs).
+* <strong>Patient ID Type</strong> - See the [Patient ID Types section](#patient-id-types-section).
 * <strong>Document Type</strong> - The document type code is required and must be uppercase. Maximum 10 characters length. Document types label and group documents, and they may be customized for each MIE system, so the code required in the CSV is system-dependent. Document types are managed in the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin). Chart tabs in the MIE system display only associated/specified document types.
 * <strong>Interface Name</strong> - A unique identifier from a foreign system (such as an interface) that the document came from. Maximum 100 characters length.
 * <strong>External ID</strong> - An external identifier for this document. Maximum 128 characters length.
@@ -215,7 +215,7 @@ A description is stored for each error that occurs. Check the following sections
 
 #### no patient
 
-No patient was found in the system. Without an existing chart, there is no place to store a document. If the chart exists but is not being found, check the contents of Patient ID and Patient ID Type and make the needed corrections. See [Patient ID Types](#gjdgxs).
+No patient was found in the system. Without an existing chart, there is no place to store a document. If the chart exists but is not being found, check the contents of Patient ID and Patient ID Type and make the needed corrections. See [Patient ID Types](#patient-id-types).
 
 #### no file
 

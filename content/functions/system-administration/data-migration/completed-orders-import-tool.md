@@ -8,12 +8,12 @@ mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
   - 'data-import-tab.md'
-  - 'https://docs.google.com/spreadsheets/d/1OyCm9CuBEdQIlkXb7OtLIbnXB47UIFgnDzmR7J8j2Cw/edit#gid=0'
+  - 'https://docs.google.com/spreadsheets/d/1OyCm9CuBEdQIlkXb7OtLIbnXB47UIFgnDzmR7J8j2Cw/edit'
   - 'data-import-standards.md'
   - 'https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create completed order records using the Completed Orders CSV API.
 
@@ -98,7 +98,6 @@ This example imports two completed orders due to there being two order_ids (this
 
 encounter_orders.pat_id, encounter_orders.pat_id_type, encounter_orders.completed_dt, encounter_orders.modified_dt, encounter_orders.due_date, encounter_orders.order_id, encounter_orders.order_id, encounter_orders.comments   
 10019, part:MIE, 12/23/2009, 12/24/2009, 12/25/2009, 4341, 4165, Two orders will be imported both with the dates provided
-
 ```
 
 ### Multiple Row Examples
@@ -110,7 +109,6 @@ encounter_orders.pat_id, encounter_orders.pat_id_type, encounter_orders.complete
 10019, part:MIE, 12/23/2009, 12/12/2009, 12/25/2009, 4341, 4165, This row will create two orders which will share the date values given
 01337, part:MIE, 09/20/2008, 09/22/2008, , 2314, , This row will only create one order without a due_date since it is blank
 
-
 ```
 
 This next example illustrates having six encounter_order.order_id columns:
@@ -121,7 +119,6 @@ encounter_orders.pat_id, encounter_orders.pat_id_type, encounter_orders.complete
 encounter_orders.order_id, encounter_orders.order_id, encounter_orders.comments
 10019, part:MIE, 12/23/2009, 12/12/2009, 4341, 4165, 5132, 4578, 2234, 8874, Six orders here
 01337, part:MIE, 09/20/2008, 09/22/2008, 4875, 6628, 2348, , , , Only three orders in this row
-
 
 ```
 

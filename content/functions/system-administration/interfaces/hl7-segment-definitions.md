@@ -11,7 +11,7 @@ links:
   - 'outbound-interface-install-instructions.md'
   - 'sample-hl7-messages.md'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 {{% anchor sys="msh" %}}
 
@@ -20,7 +20,7 @@ This documentation is for HL7 Segments related to:
 * [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
 * [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md) and
 
-[Outbound Interface Install Instructions](outbound-interface-install-instructions.md)
+[Outbound Interface Install Instructions](outbound-interface-install-instructions.md#overview)
 
 ## Message Header (MSH)
 
@@ -1334,7 +1334,6 @@ This documentation is for HL7 Segments related to:
 <td>Other Healthcare Provider</td>
 </tr>
 </table>
-
 {{% anchor sys="pv1_dft" %}}
 
 ## Patient Visit (PV1) for DFT

@@ -7,23 +7,23 @@ lastAuthor: 'dcarlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
-  - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#test_procedure'
-  - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
-  - 'https://www.healthit.gov/test-method/data-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#test_procedure'
-  - 'https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp'
-  - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
+  - 'https://www.healthit.gov/test-method/transitions-care'
+  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation'
+  - 'https://www.healthit.gov/test-method/electronic-prescribing'
+  - 'https://www.healthit.gov/test-method/data-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
+  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://www.healthit.gov/test-method/transmission-immunization-registries'
+  - 'https://www.healthit.gov/test-method/application-access-patient-selection'
+  - 'https://www.healthit.gov/test-method/application-access-data-category-request'
+  - 'https://www.healthit.gov/test-method/application-access-all-data-request'
+  - 'https://www.healthit.gov/test-method/direct-project'
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Cqgy5lwUu6jZr8ta02aN69n1uWkM4InqJGdmE7w0JD8'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## General Information
 
@@ -460,7 +460,6 @@ WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified func
 ## Measures Used in Overall Approach
 
 The following measures outline and justify how each requirement of all criteria to which WebChart EHR is certified will be tested during the 2022 Real World Testing year.  Please review the Criteria-Measure Matrix above to review which measure(s) will cover a specific requirement.
-
 ### Measure 1: Clinical Quality Measures Outgoing
 
 #### Description
@@ -1322,7 +1321,6 @@ MIE will report the number of successful retrievals of evaluated history and for
 #### Discussion
 
 The number of failed retrievals significantly decreased from Q1 while the number of successful retrievals increased indicating a decrease in the overall error rate.
-
 ### Measure 12: Direct Project: Send
 
 #### Description
@@ -1838,7 +1836,6 @@ The internal accessibility scanning of a pre-production test system identified 0
 #### Discussion
 
 As expected no urgent non-conformance issues were identified in either live production or pre-production test systems.  In the rare occurrence that a secondary non-conformance issue was identified in testing, it was addressed and eliminated prior to reaching live production systems.
-
 ## Schedule of Key Milestones
 
 <table>

@@ -7,13 +7,14 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1a1tJA-GG4ImSovy154uFVTiIvCWOfBHwZcjXuMV0Fuk'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## OSHA 300 Form Log Overlay
 
 From an Employer Organization chart, an OSHA300 chart tab is available which provides an overlay OSHA 300 Form Log ability.
 
 ![](../osha-300-form-log-overlay.assets/b18b1bfcfd2026f0adb4aa318fe83465.png)
+
 
 The OSHA300 chart tab functions as a Year search and OSHA 300 Form overlay and document generation.  Meaning, for the year being run, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness location of that Employer Organization (or any onsite injury/illness locations that wrap up to this parent Employer Organization) and overlay the OSHA 300 information onto this log/form overlay.
 

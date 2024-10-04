@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Pharmacy_Filter_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The Pharmacy Filter allows you to import filter data on pharmacies based on either their NPI or NCPDPID.
 
@@ -71,7 +71,6 @@ The purpose of this page is to define data and fields that may be imported into 
 *Optional when NCPDPID is present in row.
 **Optional when NPI is present
 
-
 ```
 
 ## Examples of CSV
@@ -86,7 +85,6 @@ FILTER_NAME,NPI,NCPDPID
 MyFilter1,1234567890,
 MyFilter2,,1234567
 
-
 ```
 {{% /pre %}}
 
@@ -100,7 +98,6 @@ FILTER_NAME,NPI,NCPDPID
 MyFilter1,1234567890,
 MyFilter2,,1234567,
 FilterWithBoth,1234212, 1251254150
-
 
 ```
 {{% /pre %}}

@@ -9,7 +9,7 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 # SIU, Scheduling
 
@@ -145,7 +145,6 @@ OBX|11|NM|mcv^Mcv^Local^787-2^Mcv^LN||80|fl|77-98||||F|||20120410160227|lab|12^X
 OBX|12|NM|mch^Mch||30|pg|27-35||||F|||20120410160227|lab|12^XYZ LAB|
 OBX|13|NM|mchc^Mchc||32|g/dl|32-35||||F|||20120410160227|lab|12^XYZ LAB|
 OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|
-
 ```
 
 #### Numeric with Notes
@@ -177,7 +176,6 @@ PV1||O|60|1|||01931^PHYSICIAN^THOMAS^W.^^DR|||60||||1||N|01487^PHYSICIAN^JONATHA
 ORC|RE|00013598436|R-GEN-378456-2-1||||1^^^201209202036^201209202036^S||201209202038|^INTERFACE^HL7|^INTERFACE^HL7|01931^GALLAGHER^THOMAS^W.^^DR|||||001^Memorial Hospital|482643|||Memorial Hospital^^001
 OBR||00013598436|R-GEN-378456-2-1|CST2^CHEST 2 VIEWS|||201209202036|||||||||01931^PHYSICIAN^THOMAS^W.^^DR||888024||||20120920230242||XY|||1^^^201209202036^201209202036^S|WEB^PHYSICIAN^JONATHAN^F^^^^^^^^^ADMIT^WEB&WEBCHART OFFICES|||^fever|39023^PHYSICIAN^PAUL^R^^DR|39023^PHYSICIAN^PAUL^R^^DR
 OBX|1|TX|||CHEST 2 VIEWS~~ANKLE 9/20/2012.~~INDICATION: Fever.~TECHNIQUE: 2 views of the chest are obtained.~~COMPARISON: Chest from 3/17/2012.~FINDINGS: The patient is status post sternotomy as before. Lung volumes are low.~There is motion on the lateral exposure. No focal consolidation is identified.~Vasculature is not congested. No gross effusion is noted. Heart is mildly~enlarged.~IMPRESSION:~~Status post sternotomy. Low inspiration.No definite acute process.~~Interpreted By: RYAN, PAUL R.~Date:  09/20/2012 23:02|||||||||20120920203600.0000-0400|Laboratory^Memorial Hospital^123 Road Avenue^Fremont^OH^43420^
-
 ```
 
 #### Multiple OBXs -- Can also be sent as ORU^R03
@@ -238,7 +236,6 @@ OBX|47|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||     R
 OBX|48|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||||||||F|||20120309132541
 OBX|49|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||     Intradepartmental Consultation:||||||F|||20120309132541
 OBX|50|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||     T. A. ROSE, MD||||||F|||20120309132541
-
 ```
 
 #### Multiple NTEs
@@ -360,7 +357,6 @@ MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FA
 PID|1||10046||Testpatient^Tester||20030303000000||||||||||||||||||||||||||||||||
 TXA|1|TYPE|FT|20141002162958||20141002162958|20141002162958|20141002162958|4119531^Physician^Dr||4119531^Physician^Dr|1111|||||LA|||||4119531^Physician^Dr^^^^^^^^1^^^^20141002162958|
 OBX|1|TX|4|1|I am an example free text Document||||||||||||||||||||
-
 ```
 
 ### PDF Report
@@ -390,7 +386,6 @@ FT1|2|1133||20150325000000||CG|71020|Chest Xray, PA and Lateral||1|0.000000|||||
 PR1|2|CPT|71020|Chest Xray, PA and Lateral|20150325000000|||||||123^Physician^Dr|||B69^Cysticercosis^I10~B60.0^Babesiosis^I10|
 DG1|1|ICD10|B69^Cysticercosis^I10|Cysticercosis|20150325000000|F|||||||||0|123^Physician^Dr
 DG1|2|ICD10|B60.0^Babesiosis^I10|Babesiosis|20150325000000|F|||||||||0|123^Physician^Dr
-
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|201305171259|12|DFT^P03|24885|P|2.5
 EVN||201305171259||
 PID|1|12345|12345^^^MIE&1.2.840.114398.1.100&ISO^MR||MOUSE^MICKEY^S||19281118|M|||123 Main St.^^Lake Buena Vista^FL^3283|||||||||||||||||||

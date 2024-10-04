@@ -7,32 +7,31 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=1UH8ZmWU4RKQxPK48naxE60OfrYjB0CO1sOPYXD-GlSI'
-  - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#test_procedure'
-  - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
-  - 'https://www.healthit.gov/test-method/data-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#test_procedure'
-  - 'https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp'
-  - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
+  - 'https://www.healthit.gov/test-method/transitions-care'
+  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation'
+  - 'https://www.healthit.gov/test-method/electronic-prescribing'
+  - 'https://www.healthit.gov/test-method/data-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
+  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://www.healthit.gov/test-method/transmission-immunization-registries'
+  - 'https://www.healthit.gov/test-method/application-access-patient-selection'
+  - 'https://www.healthit.gov/test-method/application-access-data-category-request'
+  - 'https://www.healthit.gov/test-method/application-access-all-data-request'
+  - 'https://www.healthit.gov/test-method/direct-project'
   - 'https://www.healthit.gov/topic/standards-version-advancement-process-svap'
   - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf'
   - 'https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf'
-  - 'https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/#level-AA'
+  - 'https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/'
   - 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=385'
   - 'https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip'
   - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2021-CMS-IG-508.pdf'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#cures_tp'
   - 'https://ecqi.healthit.gov/sites/default/files/2021-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-508.pdf'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://github.com/mieweb/wcexport'
 source: 'https://drive.google.com/open?id=1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## [General Information](https://drive.google.com/open?id=1UH8ZmWU4RKQxPK48naxE60OfrYjB0CO1sOPYXD-GlSI)
 
@@ -729,7 +728,6 @@ This measure will verify that all supported e-prescribing message types are in u
 #### Justification
 
 WebChart EHR should support all of the required e-prescribing messaging types outlined in §170.315(b)(3). Messages are stored locally in each client system in addition to being transmitted to/from pharmacies via the Surescripts network.
-
 #### Test Methodology
 
 MIE will report a count of messages for each supported message type:
@@ -962,7 +960,6 @@ This measure will verify that WebChart EHR's API documentation is publicly and p
 #### Justification
 
 WebChart EHR should provide public access to all API documentation, implementation requirements, and terms of use as outlined in 170.315(g)(7), 170.315(g)(8), and 170.315(g)(9).  This documentation should be available at all times throughout the year.
-
 #### Test Methodology
 
 An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
@@ -1014,7 +1011,6 @@ It is expected that errored reconciliations and invalid CDA checks should be ext
 #### Care Setting(s)
 
 Primary care, specialties, small, large
-
 ### Measure 10: Transmission to Immunization Registry: Create Content
 
 #### Description
@@ -1491,7 +1487,6 @@ To address the overall automated testing, the following test requests will be ma
 * Issue a request using the export tool described in the documentation.
 
 All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
-
 #### Expected Outcome(s)
 
 It is expected that automated testing will be successful more than 97% of the time.  Any errors will be logged and reported; however, errors are expected to be minimal, such as a lost server connection.  Both production uses of the API and reports of errors are expected to be rare.

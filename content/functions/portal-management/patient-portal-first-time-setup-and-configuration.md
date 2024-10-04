@@ -6,11 +6,11 @@ version: 636
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist'
+  - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html'
   - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 With the **Patient Portal**, sometimes used and referred to as an **Employee Portal**, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!
 

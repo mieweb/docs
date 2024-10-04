@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 **Executive Dashboard Report**
 
@@ -52,7 +52,6 @@ Search filtering can be done by Location, being the selected PO location of a pe
 **Other** is count of encounter document types: Injection Only Visit (INJV), Brief Note Visit (BRIEFNOTE), Drug & Alcohol Visit (DA), Wellness Visit (WELLNESS), Travel Consult (TRAVEL), Non-Occ Health - Initial Exam (NOHI), Non-Occ Health - Follow Up Exam (NOHFU), Results (RESULTS), Return to Work Visit (RTW), Visit (VISIT)
 
 ![](../executive-dashboard-report.assets/17f721b7e76c73aec5e792436f5a3d92.png)
-
 # Top 10 Services/Tests Provided
 
 Top 10 Services/Tests Provided section will display the count of encounter order items in completed status, according to volume completed. Deleted encounter order items and patient/employee charts marked as excluded from quality care (with completed encounter order items) are not included in the counts.
@@ -62,7 +61,6 @@ Search filtering can be done by Location, being the selected PO location of a pe
 The highest volume completed encounter order will appear at the top, descending to the 10th lowest volume Test/Service marked as completed within an encounter workflow. The Test/Service needs to be in a **completed** status (and not deleted), using an encounter workflow, to be counted.
 
 ![](../executive-dashboard-report.assets/34bc7c07a9db50db4d9b304b4c012531.png)
-
 # Work Related Injury or Illness Cases/Incidents
 
 The Work Related Injury or Illness Cases/Incidents section provides analytics on work related cases/incidents. If a date range is used, it will look at the Case Date. Location search filter is not applicable to this section. If the Employer Organization search filter is used, it looks at the Employer relationship in the chart relationships. Deleted cases/incidents and charts marked as Exclude from Quality Care are ommited from the counts.
@@ -115,7 +113,6 @@ The Employer Organization search filter can be applied to this section and resul
 **Days Saved - YTD** Sums the year to date totals for the "Days Saved" observation as indicated in open and closed case management encounters.
 
 ![](../executive-dashboard-report.assets/22749d9283201394c87c0b03a15c50f3.png)
-
 # Portal Activity
 
 Portal Activity section will display the count of specific activity according to date of service found within the search criteria. Search filtering can be done by Location, being the selected PO location of a performing provider on a scheduled appointment. Additional search filtering can be done by Employer Organization, being the employer relationship a patient/employee chart has within its demographic relationships.

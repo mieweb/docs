@@ -12,7 +12,7 @@ links:
   - 'chart-observations-import-options.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options'
 source: 'https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing specific fields with processing options using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process the field in a number of ways. This is especially useful for systems where the values may change or need to be removed entirely. Although the default process works in most situations, the options that follow allow a user to fine tune how the data is processed.
 
@@ -37,7 +37,6 @@ Example:
 
 
 ...,DELETE_BLANK UPDATE @patient_mrns.MR,...
-
 
 ```
 {{% /pre %}}

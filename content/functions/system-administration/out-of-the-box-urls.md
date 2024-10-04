@@ -20,7 +20,7 @@ links:
   - 'data-migration/create-pft-data-file-for-import.md'
   - 'data-migration/summary-documents-csv-api.md'
 source: 'https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following URLs have been compiled to assist with any implementation efforts which may call for a list of friendly domains, which will require whitelisting for user access using the {{% system-name %}} system.
 
@@ -31,7 +31,6 @@ The following URLs have been compiled to assist with any implementation efforts 
 
 
 http://blog.enterprisehealth.com/topic/news-and-events
-
 
 ```
 {{% /pre %}}
@@ -50,7 +49,6 @@ https://www.google.com/?gws_rd=ssl#spf=1568128298269
 
 https://www.uptodate.com/home
 
-
 ```
 {{% /pre %}}
 
@@ -61,7 +59,6 @@ https://www.uptodate.com/home
 
 
 https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true
-
 
 ```
 {{% /pre %}}
@@ -74,7 +71,6 @@ https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true
 
 https://www.bls.gov/ncs/ors/physical-072015.htm
 
-
 ```
 {{% /pre %}}
 
@@ -85,7 +81,6 @@ https://www.bls.gov/ncs/ors/physical-072015.htm
 
 
 https://www.mdguidelines.com/
-
 
 ```
 {{% /pre %}}
@@ -102,7 +97,6 @@ https://www.mdguidelines.com/
 
 //www.mayoclinic.org/healthy-lifestyle
 
-
 ```
 {{% /pre %}}
 
@@ -115,7 +109,6 @@ https://www.mdguidelines.com/
 //www.heart.org/HEARTORG/
 
 //www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
-
 
 ```
 {{% /pre %}}
@@ -130,7 +123,6 @@ https://www.mdguidelines.com/
 
 //www.cdc.gov/about/24-7/index.html
 
-
 ```
 {{% /pre %}}
 
@@ -144,7 +136,6 @@ https://www.mdguidelines.com/
 
 //www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
 
-
 ```
 {{% /pre %}}
 
@@ -157,7 +148,6 @@ https://www.mdguidelines.com/
 //www.internationalsos.com/
 
 //www.internationalsos.com/medical-and-security-services
-
 
 ```
 {{% /pre %}}
@@ -181,7 +171,6 @@ https://www.mdguidelines.com/
 
 https://www.immunize.org/vis/vis_english.asp
 
-
 ```
 {{% /pre %}}
 
@@ -192,7 +181,6 @@ https://www.immunize.org/vis/vis_english.asp
 
 
 https://accessgudid.nlm.nih.gov/devices/
-
 
 ```
 {{% /pre %}}
@@ -205,7 +193,6 @@ https://accessgudid.nlm.nih.gov/devices/
 
 https://www.fmcsa.dot.gov
 
-
 ```
 {{% /pre %}}
 
@@ -216,7 +203,6 @@ https://www.fmcsa.dot.gov
 
 
 https://www.froozhie.com/froo.cgi
-
 
 ```
 {{% /pre %}}
@@ -230,7 +216,6 @@ https://www.froozhie.com/froo.cgi
 https://docs.enterprisehealth.com (for EH clients)
 
 https://docs.webchartnow.com (for WebChart clients)
-
 
 ```
 {{% /pre %}}

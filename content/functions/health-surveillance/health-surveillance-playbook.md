@@ -19,7 +19,7 @@ links:
   - '../health-surveillance.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 {{% system-name %}} offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
 
@@ -147,7 +147,7 @@ Otherwise, users may add panels manually, completing the following fields, accor
 * <strong>Active</strong>: Select this to mark the panel as active. If unchecked, the panel still saves in, but is marked as inactive.
 * <strong>Restricted</strong>: Selecting this indicates that managing this panel's membership will be limited, or restricted to specific users and/or departments. Only permitted/allowed users/departments are able to add charts to the panel and create membership rules.
 * <strong>Representative Event Type</strong>: Choose Procedure or Encounter. A representative event type is either a procedure or encounter that represents the panel as a whole, if applicable. Unless the HS panel is expected to open an encounter when the orders populate the Due List, then the event type will always be Procedure. Otherwise, the encounter would be opened when the patient checks in for their appointment.
-* <strong>Representative Event</strong>: Utilize the drop-down to the right of the chosen Event Type to select the order item that was added to the system and intended to be the representative event. Usually the order and the panel will share the same name. Remember, this is how to manually add panels. More information regarding [representative events](#2et92p0) can be found below.
+* <strong>Representative Event</strong>: Utilize the drop-down to the right of the chosen Event Type to select the order item that was added to the system and intended to be the representative event. Usually the order and the panel will share the same name. Remember, this is how to manually add panels. More information regarding [representative events](#representative-events) can be found below.
 
 ![](../health-surveillance-playbook.assets/4b7dd451cc8c43b77b35bbf9c3d4dddd.png)
 
@@ -208,7 +208,7 @@ Action items that are configured with a Trigger Date of **Prior Action (Complet
 
 ![](../health-surveillance-playbook.assets/e6c8781a08fdea85adeff104ca6188b9.png)
 
-5. When adding action items to panels, the [Representative Event panel action](#tyjcwt) is usually added to the panel first. Fill out all of the necessary fields according to the information acquired in the Health Surveillance matrix, and click <strong>Submit</strong> to save the panel action to the panel.
+5. When adding action items to panels, the [Representative Event panel action](#representative-event-panel-action) is usually added to the panel first. Fill out all of the necessary fields according to the information acquired in the Health Surveillance matrix, and click <strong>Submit</strong> to save the panel action to the panel.
     1. <strong>Action Name</strong>: Required field. The Action Name is usually the name of a test/procedure that is the component/action of the panel. The name will be displayed listings and dialogues throughout the system.
     2. <strong>Description</strong>: Optional. The Description may provide supporting details or information about the Action Name.
     3. <strong>Employee Sex</strong>: All, Male, Female. Select the appropriate sex from the drop-down for which the procedure (action) of the panel would be applicable.
@@ -222,7 +222,7 @@ If the panel action is for a type of exposure, users will not want to set any Le
 {{% /tip %}}
 
     7. <strong>Required for Certification</strong>: Select this to indicate the panel action is required for members of the panel. Leave unchecked if the panel action is voluntary. If checked, a panel member failing or becoming overdue for the action will become de-certified from the panel.
-    8. <strong>Indication Rule</strong>: Users can select any action rule found in the Action Rules editor, using the drop-down. For more information on the Action Rules, see the [Health Surveillance Action Rules](health-surveillance-panels-action-rules.md) documentation. The action rule must evaluate to <strong>True</strong> in order for this panel action to trigger for a panel member. [Action Rules](#1fob9te) are usually configured by an MIE Developer after an MIE Implementer has collected all of the necessary details for the configuration.
+    8. <strong>Indication Rule</strong>: Users can select any action rule found in the Action Rules editor, using the drop-down. For more information on the Action Rules, see the [Health Surveillance Action Rules](health-surveillance-panels-action-rules.md) documentation. The action rule must evaluate to <strong>True</strong> in order for this panel action to trigger for a panel member. [Action Rules](#action-rules) are usually configured by an MIE Developer after an MIE Implementer has collected all of the necessary details for the configuration.
         1. Indication Rules can be used to only trigger the panel action for a member of the panel, if they are part of a specific department, for example. Or another more complex example would be a panel action configured to trigger a Hep3rd injection, only if the member of the panel had the second Hepatitis injection given within the last 8 weeks.
     9. <strong>Contraindication Rule</strong>: Users can select any action rule found in the Action Rules editor, using the drop-down. The action rule must evaluate to <strong>False</strong> in order for this panel action to trigger for a panel member. For more information on the Action Rules, see the [Health Surveillance Action Rules](health-surveillance-panels-action-rules.md) documentation.
     10. <strong>Trigger Type</strong>: Entry, Routine, Exit. Select the type of trigger, to define at what point in the panel member's current role/job status, the regulating agency or company requires the panel action to be completed. Entry will trigger when a panel member is first put in the panel. The Panel Evaluator scheduled job will run every day, triggering panels as appropriate, based on the the configured panel actions and the trigger type selected.
@@ -293,7 +293,7 @@ Looking back to the 10-step process in order to stay on track, users should *sti
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
 5. <strong>With the action items/representative events completed, action rules will need to be added to the panels to complete configuration, as appropriate.</strong>
 
-Action Rules can be very important for some health surveillance needs. The {{% system-name %}} system offers the ability to configure and apply **Indication** and **Contraindication** **Rules** that are then applied to panel actions. These rules need to evaluate as either true (Indication Rule) or false (Contraindication Rule), in order for the panel action to trigger, as needed. For a brief explanation of each rule, see the [Indication Rule](#3dy6vkm) and [Contraindication Rule](#1t3h5sf), above. To access Action Rules navigate to the Health Surveillance tab in the {{% system-name %}} system, where there is a link to the **Action Rules** editor in the top-right corner of the page.
+Action Rules can be very important for some health surveillance needs. The {{% system-name %}} system offers the ability to configure and apply **Indication** and **Contraindication** **Rules** that are then applied to panel actions. These rules need to evaluate as either true (Indication Rule) or false (Contraindication Rule), in order for the panel action to trigger, as needed. For a brief explanation of each rule, see the [Indication Rule](#indication-rule) and [Contraindication Rule](#contraindication-rule), above. To access Action Rules navigate to the Health Surveillance tab in the {{% system-name %}} system, where there is a link to the **Action Rules** editor in the top-right corner of the page.
 
 ![](../health-surveillance-playbook.assets/659377282c516c0149c81ee3064a4574.png)
 
@@ -356,7 +356,7 @@ Next in the 10-step process, is panel membership. Out of the box, panel membersh
 6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md).
 7. <strong>Determine how charts will become members, or be included in HS panels.</strong>
 
-When reviewing panel membership, it is important to understand the different types of membership available in the {{% system-name %}} system, as well as how membership can be configured and maintained. The most basic breakdown looks at automated membership ([Implicit](#4d34og8)) versus manual membership ([Explicit](#2s8eyo1)). More on that below.
+When reviewing panel membership, it is important to understand the different types of membership available in the {{% system-name %}} system, as well as how membership can be configured and maintained. The most basic breakdown looks at automated membership ([Implicit](#implicit)) versus manual membership ([Explicit](#explicit)). More on that below.
 
 In order to review, configure, and maintain panel membership, users will need to navigate to the **Health Surveillance** menu of the **Control Panel**. Clicking the Membership link from a specific panel on the panel list will take users with the appropriate permissions to the Panel Membership editor.
 
@@ -396,7 +396,7 @@ Once the Panel Membership editor loads, users may add inclusion rules and/or exc
 
 ![](../health-surveillance-playbook.assets/7d11d768c59192ca4ee9e8eba467e039.png)
 
-It is recommended that configuring and testing surveillance panels be done in a DEV/QA system, first. Simply [export/import the panels to the system](#17dp8vu), set up the necessary rules, and test to validate. Utilize the [Panel Action Evaluator](panel-action-evaluator.md) to perform a spot-check.
+It is recommended that configuring and testing surveillance panels be done in a DEV/QA system, first. Simply [export/import the panels to the system](#export-import-the-panels-to-the-system), set up the necessary rules, and test to validate. Utilize the [Panel Action Evaluator](panel-action-evaluator.md) to perform a spot-check.
 
 {{% note %}}
 It is important for the MIE implementer to have the scheduled job enabled for the panel membership evaluator, as well as the panel action items evaluator, to run each night if automated membership rules are set in place. These scheduled jobs are what make the panel action evaluator run, and the automated membership rules run nightly.
@@ -506,7 +506,7 @@ Some clients require the migration of historical, or non-active HS memberships. 
 
 #### Open Orders
 
-In some cases, open or pending orders are required for migration for employees with overdue but active panel memberships. This use case is discussed further in the section on [How to determine the Next Due Date on a HS Panel](#3rdcrjn).
+In some cases, open or pending orders are required for migration for employees with overdue but active panel memberships. This use case is discussed further in the section on [How to determine the Next Due Date on a HS Panel](#how-to-determine-the-next-due-date-on-a-hs-panel).
 
 #### Historical Orders
 
@@ -514,7 +514,7 @@ In some cases, migration of completed orders are required to show that tests or 
 
 1. Some companies have legal requirements requiring documentation that a procedure, task, or lab was performed. If the migration of the related areas of data is not sufficient, then a summary document may be a good option to show when those items were performed in the legacy system.
 2. Some reporting requirements dictate the tracking of historical orders. If reports on discrete tests and tasks are performed, then a discrete migration of historical orders may be needed.
-3. If employees are enrolled implicitly into Health Surveillance panels based on their job, location, or other demographic information, then a discrete migration of the representative events for each HS panel configured using implicit inclusion rules may be needed. More information on Representative Events can be found in the section on [How to determine the Next Due Date on a HS Panel](#3rdcrjn).
+3. If employees are enrolled implicitly into Health Surveillance panels based on their job, location, or other demographic information, then a discrete migration of the representative events for each HS panel configured using implicit inclusion rules may be needed. More information on Representative Events can be found in the section on [How to determine the Next Due Date on a HS Panel](#how-to-determine-the-next-due-date-on-a-hs-panel).
 
 ### UL/OHM-Specific Overview for Migrating Legacy Health Surveillance Data
 
@@ -683,7 +683,7 @@ After clicking the Show Data button, click the mouse within the HTML programming
 
 ### Import Panels
 
-In order to import panels into another system, users must have already completed the Export process, [described above](#26in1rg).
+In order to import panels into another system, users must have already completed the Export process, [described above](#described-above).
 
 To import a panel, take the data that was copied from the Export process, then go to the system into which the panels are being imported. Navigate to the Health Surveillance tab of the Control Panel, and click the **Import Panels** link, found at the bottom of the page below the listed panels. A blank text field will appear with the title *Import Panels*.
 

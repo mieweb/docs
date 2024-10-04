@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## CGI Vars Explained
 
@@ -86,10 +86,6 @@ Interface Name:<input size="40" type="text" name="interface" id="interface" valu
 <input type='submit' value='Submit'>
 
 </FORM>
-```
-
-
-```
 
 ## Sample Bash Script
 
@@ -115,9 +111,8 @@ curl -i \
 -F "login_passwd=$LOGINPASS" \
 -F "message=@$MESSAGE" \
 "$URL"
-
 ```
 
 ## Supported Message Types
 
-[Accepted HL7 Message types](#gjdgxs)
+[Accepted HL7 Message types](#accepted-hl7-message-types)

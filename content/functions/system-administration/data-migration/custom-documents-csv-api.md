@@ -11,7 +11,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/images/6/69/Storage_Type_Header_13.txt'
   - 'https://miewiki.med-web.com/wiki/images/c/c3/Storage_type_1001_example.pdf'
 source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 Custom documents can be designed at the storage type level. When a layout is present in the system with module=Storage Type and name=<storage type>, this layout will be used to render the document.
 
@@ -25,8 +25,6 @@ A layout with module=Storage Type and name=<existing storage type> (<=27 as of 0
 
 To view the storage types in MySQL run the following query:
 ```
-
-
 SELECT * FROM storage_types;
 
 
@@ -234,14 +232,12 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 1. Insert a new storage type into the storage_types table.
 ```
 
-
 <1001+>,,,);INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (
 
 ```
 
 For example,
 ```
-
 
 INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (1001,'html','text/html','Test new storage type');
 
@@ -250,9 +246,7 @@ INSERT INTO storage_types (storage_type, file_ext, content_type, description) VA
 2. Add a new document with the new storage type you just created. This can be done by navigating to a patient's chart and clicking the Add Document link. Add a text document and copy the id. Then manually update the document with that id to have your new storage type.
 ```
 
-
 WHERE doc_id=;UPDATE documents SET storage_type=
-
 
 ```
 

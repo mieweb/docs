@@ -11,7 +11,7 @@ links:
   - 'https://www.urbandictionary.com/define.php?term=leet+speak'
   - '../system-administration/security.md'
 source: 'https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 {{% system-name %}} strives to maintain the highest standards of security with various guidelines and technical requirements intended to safeguard against outside threats and ensure secure and private interactions between the various systems across its networks. Below are various concepts important to understanding the significance of registration, identity proofing, authentication protocols, and the like. This information is in no way intended to replace or supersede any existing organization's policies and procedures regarding information technology and security; this information is simply intended to offer best practices. Clients shall always comply with their organization's policies and procedures.
 
@@ -21,7 +21,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 ## HIPAA Security Rule
 
-Passwords are an important part of the [login credentials](#gjdgxs) and a critical component to safeguarding electronic protected health information (e-PHI). Secure passwords, in fact, are required according to the [HIPAA Security Rule Technical Safeguards](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html), which state that a covered entity must implement technical policies and procedures that allow only authorized persons to access e-PHI.
+Passwords are an important part of the [login credentials](#login-credentials) and a critical component to safeguarding electronic protected health information (e-PHI). Secure passwords, in fact, are required according to the [HIPAA Security Rule Technical Safeguards](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html), which state that a covered entity must implement technical policies and procedures that allow only authorized persons to access e-PHI.
 
 {{% /column %}}
 

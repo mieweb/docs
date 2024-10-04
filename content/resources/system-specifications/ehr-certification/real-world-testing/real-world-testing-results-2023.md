@@ -7,30 +7,30 @@ lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
-  - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#cures_tp'
-  - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
+  - 'https://www.healthit.gov/test-method/transitions-care'
+  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation'
+  - 'https://www.healthit.gov/test-method/electronic-prescribing'
   - 'https://www.healthit.gov/test-method/data-export'
-  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-send#cures_tp'
-  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive#cures_tp'
-  - 'https://www.healthit.gov/test-method/care-plan#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp'
-  - 'https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp'
-  - 'https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure'
-  - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
+  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-send'
+  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive'
+  - 'https://www.healthit.gov/test-method/care-plan'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
+  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://www.healthit.gov/test-method/transmission-immunization-registries'
+  - 'https://www.healthit.gov/test-method/application-access-patient-selection'
+  - 'https://www.healthit.gov/test-method/application-access-data-category-request'
+  - 'https://www.healthit.gov/test-method/application-access-all-data-request'
+  - 'https://www.healthit.gov/test-method/standardized-api-patient-and-population-services'
+  - 'https://www.healthit.gov/test-method/direct-project'
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
 source: 'https://drive.google.com/open?id=1KXzp5VZ1g7qywiz4s8bU2eSGde35VQ_3dCzib2DY7Xo'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## General Information
 
@@ -1405,7 +1405,6 @@ Failure: 501
 #### Discussion
 
 The failure rate is very low with clusters of failures around a few points in time. This is to be expected due to network, server or other technology related issues.
-
 ### Measure 12: Direct Project: Send
 
 #### Description
@@ -1538,7 +1537,6 @@ There were 15 views of 10 CDA documents in 2023 in tracked client systems.
 #### Discussion
 
 Both portal usage and, especially, CDA document viewing by patients are very low.  It was anticipated that through further education, testing would be more robust using real patient data.  To address this low volume in 2024, MIE will continue to educate for portal usage while also implementing more robust data collection on test data in production environments.
-
 ### Measure 15: Patient Portal Download
 
 #### Description
@@ -1585,7 +1583,6 @@ There were 8 streams of 3 CDA documents in 2023 in tracked client systems.
 #### Discussion
 
 Both portal usage and, especially, CDA document downloading by patients are very low.  It was anticipated that through further education, testing would be more robust using real patient data.  To address this low volume in 2024, MIE will continue to educate for portal usage while also implementing more robust data collection on test data in production environments.
-
 ### Measure 16: Patient Portal CCDA Transmit
 
 #### Description
@@ -1632,7 +1629,6 @@ Results will be retrieved from database tables and aggregated for reporting.  An
 #### Discussion
 
 Both portal usage and, especially, CDA document transmission by patients are very low.  It was anticipated that through further education, testing would be more robust using real patient data.  To address this low volume in 2024, MIE will continue to educate for portal usage while also implementing more robust data collection on test data in production environments.
-
 ### Measure 17: Send Using Edge Protocol for SMTP / XDM
 
 #### Description
@@ -1823,7 +1819,6 @@ To address the overall automated testing, the following test requests will be ma
 * Issue a request using the export tool described in the documentation.
 
 All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
-
 #### Results
 
 <table>
@@ -1906,7 +1901,6 @@ WebChart EHR should provide public access to all FHIR API documentation, softwar
 #### Test Methodology
 
 An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/ and the linked subpages.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
-
 #### Results
 
 The FHIR API documentation was available 99.975% of the time in 2023 representing an overall increase from an availability of 99.967% in 2022.
@@ -2171,7 +2165,6 @@ On a quarterly basis, CDA documents were generated on test patients with securit
 #### Discussion
 
 Since there are no indications that the security tags will be broadly used within live workflows, more robust manual testing will be implemented in 2024 along with client education that this feature is available.
-
 ### Measure 28: Receive and Display CCDA Documents with Security Tags
 
 #### Description
@@ -2256,7 +2249,6 @@ WebChart EHR's FHIR API is still newly available to clients and has no adoption 
 #### Test Methodology
 
 MIE will run weekly automated testing on the public FHIR R4 sandbox system using Inferno, and using log files stored in a QA database, MIE will report the success rate of the full (g)(10) test suite.  Any errors will be tracked, reported, and addressed.
-
 #### Results
 
 Beginning in Q3, weekly testing of the FHIR Sandbox using Inferno was conducted since no live clients are currently using FHIR.  15 of these tests were fully successful.  Weekly tests that were not successful were due to internal issues with test server availability.  The FHIR Sandbox environment was always available, but the test system accessing it had unexpected unavailability impacting our ability to test the sandbox.
@@ -2350,7 +2342,6 @@ This measure will review WebChart EHR's ability to connect to an app within an E
 <td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
 </tr>
 </table>
-
 #### Justification
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2023 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a provider app recommended to our clients.  As clients continue adoption of the FHIR API, real provider use of the provider app will be reported.

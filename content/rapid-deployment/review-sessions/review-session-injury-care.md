@@ -8,8 +8,8 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting/osha_ita_api_documentation.pdf'
   - 'http://www.mieweb.com/wiki/Lost_Time_CSV_Import'
-  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=0'
-  - 'http://www.mieweb.com/wiki/Data_Import_Standards#Data_Import_User_Instructions'
+  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit'
+  - 'http://www.mieweb.com/wiki/Data_Import_Standards'
   - '../../functions/injury-care/case-management/adding-absence-management-case.md'
   - '../../functions/injury-care/case-management/adding-hospital-case.md'
   - '../../functions/injury-care/case-management/adding-msea-case.md'
@@ -23,7 +23,7 @@ links:
   - '../../functions/reports/osha-300-log-report.md'
   - '../../functions/reports/incidents-report.md'
 source: 'https://drive.google.com/open?id=1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Agenda
 

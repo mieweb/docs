@@ -11,13 +11,13 @@ links:
   - 'quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md'
   - 'quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md'
 source: 'https://drive.google.com/open?id=1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Active
 
 These measures are available for enrollment and are either certified, or MIE is actively pursuing certification of versions for the current measurement period.
 
-[CMS2 - Preventive Care and Screening: Screening for Depression and Follow-Up Plan](quality-measure-configuration/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-configuration.md)
+[CMS2 - Preventive Care and Screening: Screening for Depression and Follow-Up Plan](quality-measure-configuration/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-configuration.md#overview)
 
 CMS22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-Up Documented
 
@@ -31,7 +31,7 @@ CMS117 - Childhood Immunization Status
 
 [CMS122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (> 9%)](quality-measure-configuration/cms122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater-9-configuration.md)
 
-[CMS124 - Cervical Cancer Screening](quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md)
+[CMS124 - Cervical Cancer Screening](quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md#overview)
 
 CMS125 - Breast Cancer Screening
 
@@ -51,7 +51,7 @@ CMS156 - Use of High-Risk Medications in Older Adults
 
 CMS159 - Depression Remission at Twelve Months
 
-[CMS165 - Controlling High Blood Pressure](quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md)
+[CMS165 - Controlling High Blood Pressure](quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md#overview)
 
 CMS177 - Child and Adolescent Major Depressive Disorder (MDD): Suicide Risk Assessment
 

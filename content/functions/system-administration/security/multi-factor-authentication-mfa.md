@@ -7,15 +7,15 @@ lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 * [WebChart 2FA Provisioning](#webchart-2fa-provisioning)
 * [Setup](#setup)
 * [Use](#use)
-* [Super User Approval](#_kiy583901mp9)
+* [Super User Approval](#super-user-approval)
 * [Setup](#setup)
 * [Use](#use)
-* [NMC 2FA Provisioning](#_4lws9d1sijjv)
+* [NMC 2FA Provisioning](#nmc-2fa-provisioning)
 * [Setup](#setup)
 * [Use](#use)
 
@@ -51,10 +51,10 @@ WebChart/Enterprise Health 2FA
 * [WebChart 2FA Provisioning](#webchart-2fa-provisioning)
 * [Setup](#setup)
 * [Use](#use)
-* [Super User Approval](#_kiy583901mp9)
+* [Super User Approval](#super-user-approval)
 * [Setup](#setup)
 * [Use](#use)
-* [NMC 2FA Provisioning](#_4lws9d1sijjv)
+* [NMC 2FA Provisioning](#nmc-2fa-provisioning)
 * [Setup](#setup)
 * [Use](#use)
 

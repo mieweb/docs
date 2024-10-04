@@ -11,12 +11,12 @@ links:
   - '../../e-chart/detailed-searching-in-e-chart.md'
   - '../../order-and-result-management/observations-tab.md'
   - '../../order-and-result-management/observation-flowsheets.md'
-  - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0'
+  - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
   - 'https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi'
   - '../../reports/observations-report.md'
   - 'https://docs.enterprisehealth.com/observations-report-7345005.html'
 source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 This document is intended to describe and assist users with the process to validate discrete observations imported from another system.
 
@@ -98,11 +98,9 @@ Observation names are displayed alphabetically, by default, with all data listed
 
 ![](../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
 
-
 To aid in validation and instead view data *vertically*, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
 
 ![](../observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png)
-
 
 Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
@@ -135,7 +133,7 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 
 **Q:** I am only validating specific observations. Is there a way to filter to just the ones I need?
 
-**A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/observations-report-7345005.html), described [above](#gjdgxs), to search specific observation values. Otherwise, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
+**A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/observations-report-7345005.html), described [above](#above), to search specific observation values. Otherwise, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
 ![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
 

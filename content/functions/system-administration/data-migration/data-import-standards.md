@@ -7,13 +7,13 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1WqdIEGETaoa0RFPUazvKp5JfX-gYEIfzyQ8jtApwFq8/edit?usp=sharing'
-  - 'https://docs.google.com/spreadsheets/d/1sSzJZ7izQBpfv1VL1vVQjNn8NUrbE2hUtqxvDj_bGus/edit#gid=0'
-  - 'https://www.iso.org/obp/ui/#iso:code:3166:US'
+  - 'https://docs.google.com/spreadsheets/d/1sSzJZ7izQBpfv1VL1vVQjNn8NUrbE2hUtqxvDj_bGus/edit'
+  - 'https://www.iso.org/obp/ui/'
   - 'http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements.htm'
   - 'http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following columns display in standardized data import specifications:
 

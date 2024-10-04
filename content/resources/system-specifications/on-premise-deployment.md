@@ -13,14 +13,14 @@ links:
   - 'http://memcached.org/'
   - 'https://en.wikipedia.org/wiki/Uniform_Resource_Locator'
   - 'on-premise-deployment/on-premise-mysql-server-hardware-requirements.md'
-  - 'https://docs.google.com/spreadsheets/d/15Ajp6KpMh34ijSyZxvwmSvsH8jJiPTsy7WOwvFFYnhc/edit#gid=1385212531'
+  - 'https://docs.google.com/spreadsheets/d/15Ajp6KpMh34ijSyZxvwmSvsH8jJiPTsy7WOwvFFYnhc/edit'
   - 'https://httpd.apache.org/docs/2.2/'
   - 'https://ehs.mycompany.com/'
   - 'http://ehs.mycompany.com'
   - 'on-premise-deployment/application-managed-service-summary.md'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Change Log
 

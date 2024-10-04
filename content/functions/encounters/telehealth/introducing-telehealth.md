@@ -12,7 +12,7 @@ links:
   - 'telehealth-pricing.md'
   - 'https://mie.talentlms.com/shared/start/key:AGBHRKMF'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 
@@ -116,7 +116,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 **Are sessions recorded?**
 
-* Recording is an option and has additional cost but is not enabled by default. See [Pricing](#_r8pf4oszsrdj) for details.
+* Recording is an option and has additional cost but is not enabled by default. See [Pricing](#pricing) for details.
 * Audio recordings can be routed to a scribe or transcriptionist to complete documentation as an optional feature.
 
 ## Screenshots

@@ -5,10 +5,9 @@ date: '2020-02-27T21:04:46.860Z'
 version: 42
 mimeType: 'text/x-markdown'
 links:
-  - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=1502636095'
-  - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=2105581120'
+  - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit'
 source: 'https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## What we mean by "default"
 
@@ -24,7 +23,6 @@ Example:
 ```
 
 @obs.*.observed_datetime
-
 ```
 {{% /pre %}}
 

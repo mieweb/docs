@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
   - 'https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface'
-  - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?gid=0#gid=0'
+  - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?gid=0'
   - 'data-import-standards.md'
   - 'chart-medical-record-number-mrn-import-options.md'
   - 'chart-observations-import-options.md'
@@ -19,7 +19,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.
 

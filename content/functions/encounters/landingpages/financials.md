@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 Financials
 
@@ -18,10 +18,7 @@ Basic things about Financials
 1. Some of it is automatically added from other sections
 2. Some of it may be manually added
 3. CPT codes are automatically added
-```
 
-
-```
 <table>
 <tr>
 <td>Voiceover</td>
@@ -91,6 +88,3 @@ Highlight payment in section.</td>
 <td>Keep "Financials" section open.</td>
 </tr>
 </table>
-```
-
-```

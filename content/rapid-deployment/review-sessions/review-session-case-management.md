@@ -13,12 +13,12 @@ links:
   - 'https://system/?f=layout&module=reports&name=CaseManagement&tabmodule=reports&t=Case+Management&tabmodule=reports&tabselect=WR+Case+Mgmt'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
   - 'https://system/?f=layout&module=reports&name=Safety&tabmodule=reports&tabmodule=reports&tabselect=Safety'
-  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=0'
+  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards.html'
   - 'https://www.osha.gov/sites/default/files/ita/documentation/osha_injury-tracking-application-api-documentation-v1.pdf'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool.html'
   - 'https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY'
-  - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203'
+  - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit'
   - '../../functions/injury-care/case-management/adding-absence-management-case.md'
   - '../../functions/injury-care/case-management/adding-hospital-case.md'
   - '../../functions/injury-care/case-management/adding-msea-case.md'
@@ -34,9 +34,9 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
-  - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses'
+  - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Agenda
 
@@ -312,7 +312,7 @@ All clients should review the available reports to determine if any additional r
 * [User Instructions for Importing Data (Data Import Standards)](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards.html)
 * [OSHA.gov Injury Tracking Application API Documentation](https://www.osha.gov/sites/default/files/ita/documentation/osha_injury-tracking-application-api-documentation-v1.pdf)
 * [Data Import-Lost Time Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool.html)
-* [Lost Time CSV Import Specification](https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY)
+* [Lost Time CSV Import Specification](https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY#heading=h.ccpszybqwbm2)
 * [Example of Lost Time Import](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)
 
 ### Help Documentation

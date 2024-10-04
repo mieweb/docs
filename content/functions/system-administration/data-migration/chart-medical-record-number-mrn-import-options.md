@@ -10,7 +10,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Di_mrn_opts.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing medical record numbers (MRNs) using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process MRNs in a number of ways. This is especially useful for systems where the MRNs may change or need to be removed entirely. Although the default process of simply adding MRNs works in most situations, the options that follow a user to fine tune how processed charts are identified.
 
@@ -34,13 +34,12 @@ To use these options for MRN processing, the values described below as 'INSERT O
 
 ...,DELETE_BLANK UPDATE @patient_mrns.MR,...
 
-
 ```
 {{% /pre %}}
 
 Any partition and MRN combination must be unique in the database. An insertion or an update will not occur if the new data already exists in the database.
 
-It is possible to configure the options through translations. See the [Translations](#gjdgxs) section for details.
+It is possible to configure the options through translations. See the [Translations](#translations) section for details.
 
 ### Insert Options
 
@@ -101,7 +100,6 @@ The example import file is as follows:
 2222,,,3000,42,Test,Mrns2,02#02#2002
 4444,123456789,987654319,,,Test,Mrns3,03/03/2003
 5555,123456780,,4000,43,Test,Mrns4,04-04-2004
-
 
 ```
 {{% /pre %}}

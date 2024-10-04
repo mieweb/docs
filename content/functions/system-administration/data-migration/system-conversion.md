@@ -7,15 +7,12 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'data-migration-file-format-standard.md'
-  - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-0'
-  - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-1'
-  - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0'
-  - 'https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior'
-  - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1'
-  - 'https://docs.python.org/2/library/string.html#format-string-syntax'
+  - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion'
+  - 'https://docs.python.org/2/library/datetime.html'
+  - 'https://docs.python.org/2/library/string.html'
   - 'data-migration-overview.md'
 source: 'https://drive.google.com/open?id=12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 {{% system-name %}} Conversion is a tool for converting legacy databases into a variety of components:
 

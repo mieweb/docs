@@ -12,7 +12,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LALIDNHR'
 source: 'https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print (or fax) job. Print definitions can be accessed from either the Scheduler module or any patient chart by clicking the **Print Chart** link. Users are then given the ability to select the desired print definition and set a date range and printing options, such as printing without headers and printing one document per page. In addition, users can not only print and fax, but can send the print definition as a secure email, or even create a batch so that the print definition can be printed or faxed at a later time.
 
@@ -44,7 +44,7 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 **Number Pages**: By default, this field is checked, meaning all documents printed from the print definition will have page numbering. Do not check if page numbering is not preferred.
 
-**Restriction Control**: This is not typically checkmarked. When checked, only specified users will have permission to utilize the print definition. Users with the Manage Print Def Restrictions security setting enabled will have the ability to restrict the print definition to specific users/departments, when editing or adding print definitions. This is discussed in more detail above, under the [Restricting a Print Definition](#gjdgxs) section.
+**Restriction Control**: This is not typically checkmarked. When checked, only specified users will have permission to utilize the print definition. Users with the Manage Print Def Restrictions security setting enabled will have the ability to restrict the print definition to specific users/departments, when editing or adding print definitions. This is discussed in more detail above, under the [Restricting a Print Definition](#restricting-a-print-definition) section.
 
 **Scheduler Override Control**: The Scheduler Override Control was designed to allow users the ability to create print definitions that override selected print definitions, when specific appointment details are met. To enable this functionality, place a checkmark in the box, complete the remaining fields, and save. Additional information and how to establish this function can be found under the  section.
 
@@ -62,7 +62,7 @@ When using a print definition en masse (i.e., on multiple charts at one time), t
 
 **Definition Alert**: Use this free-text field to specify any alert(s) pertaining to the use or overall function of this print definition. If a Definition Alert is provided, a user will be shown the alert, when the print definition is selected for use.
 
-Once all of the fields have been addressed accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](#30j0zll) section for more details.
+Once all of the fields have been addressed accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](#creating-section-s-in-a-print-definition) section for more details.
 
 {{% info %}}
 Print definitions with Restriction Control enabled, and/or the Scheduler Override Control enabled, will be prompted to specify the restriction/override criteria upon saving. See the **Restricting a Print Definition** and **Scheduler Override Control** sections for more information.
@@ -119,7 +119,7 @@ To *remove* any overriding criteria from the list, simply click the minus button
 
 ![](../print-definitions.assets/74f6122cbf98d7e064e70502119130ff.png)
 
-Once all of the additional information has been updated accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](#2et92p0) section for more details.
+Once all of the additional information has been updated accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](#creating-section-s-in-a-print-definition) section for more details.
 
 ## Edit a Print Definition
 

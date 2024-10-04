@@ -10,7 +10,7 @@ links:
   - 'http://wiki.directproject.org/'
   - '../../functions/document-management/imaging/dicom-setup-tab.md'
   - 'https://drive.google.com/open?id=0B1jNa-hAYBL2VTFuNFBkY2V4UDA'
-  - 'https://docs.google.com/spreadsheets/d/1_14Wbq-aCtMDwoq4eZ1twz0NYNVSEIX5tpHgcXKxP44/edit#gid=0'
+  - 'https://docs.google.com/spreadsheets/d/1_14Wbq-aCtMDwoq4eZ1twz0NYNVSEIX5tpHgcXKxP44/edit'
   - 'https://drive.google.com/open?id=1egb4flCHJ6rnKMxQjkHBWini36q8XBIc'
   - 'https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view'
   - '../../functions/system-administration/interfaces/e-clinicalworks.md'
@@ -33,7 +33,7 @@ links:
   - 'http://www.hospira.com/Products/plumaplusinfusionsystem.aspx'
   - 'https://drive.google.com/open?id=1NoA7PT68mtnbrKJdD9MzmkWqLXv8lMLw'
   - 'http://www.hemochronusersforum.co.uk/microcoagulation.html'
-  - 'http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q'
+  - 'http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd'
   - 'https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer'
   - 'https://pm.mieweb.com/issues/113505'
   - 'https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM'
@@ -50,11 +50,11 @@ links:
   - 'https://www.khinonline.org/Home.aspx'
   - 'https://khie.ky.gov/Pages/index.aspx'
   - 'https://mcir.org/'
-  - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0'
+  - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit'
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)
 
@@ -77,7 +77,7 @@ The list below represents a complete listing of all vendors/devices that we have
 
 ## Billing/EMR/Practice Management Interfaces
 
-MIE supports bidirectional and unidirectional Practice Management systems using ADT (demographics), SIU (scheduling), and DFT (billing) HL7 (2.x) messages. Information about supported connection types can be found [here](#gjdgxs).
+MIE supports bidirectional and unidirectional Practice Management systems using ADT (demographics), SIU (scheduling), and DFT (billing) HL7 (2.x) messages. Information about supported connection types can be found [here](#here).
 
 * [OpenPM](https://drive.google.com/open?id=1egb4flCHJ6rnKMxQjkHBWini36q8XBIc) (bi-directional) (Preferred)
 * [ADP (Advanced MD)](https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view) (non-HL7 webservice)

@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 This is an overview of what MIE expects from data files that are received from clients for data migration. Because it is time consuming and often unreliable to find and fix any problems with these files, MIE will return to the client any files that do not meet the following requirements.
 
@@ -32,15 +32,12 @@ The following sections show some common errors, with examples of how they should
 ```
 
 12345,2015-03-03,This string has a comma, but it isn't enclosed,56789,more data
-
 ```
 
 * The above example has a problem, because the delimiter (comma) is also used within one of the data fields (i.e., This string has a comma<strong>,</strong> but it isn't enclosed). The field needs to be enclosed, to indicate where the string is intended to end. Otherwise, it will be split into two fields when trying to load the data.
 ```
 
-
 12345,2015-03-03,"This string has a comma, but it isn't enclosed",56789,more data
-
 
 ```
 
@@ -52,14 +49,12 @@ The following sections show some common errors, with examples of how they should
 
 12345,2015-03-03,'This time the string is enclosed, but the apostrophe isn't escaped, which could be nasty.',O'Reilly
 
-
 ```
 
 * This example has a problem, because the enclosure character (apostrophe) is used within the string (i.e., isn<strong>'</strong>t) and the apostrophe is not escaped like it needs to be.
 ```
 
 12345,2015-03-03,'This time the string is enclosed, but the apostrophe isn''t escaped, which could be nasty.',O'Reilly
-
 
 ```
 

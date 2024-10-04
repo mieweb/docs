@@ -11,14 +11,14 @@ links:
   - 'conditions-csv-api.md'
   - 'nature-of-injury-csv-api.md'
   - 'data-import-overview.md'
-  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=219553741%7CThe'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards#Data_Import_User_Instructions'
+  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit'
+  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards'
   - 'data-import-standards.md'
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=1481656376&single=true&output=csv'
   - 'data-import-master-list.md'
   - 'clinical-encounter-csv-api.md'
 source: 'https://drive.google.com/open?id=1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for accommodations** using the [Case Management CSV API](case-management-csv-api.md).
 

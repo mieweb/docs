@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qHBp70qSV9LSeHEg056zXY8YfXpetOJv2L77zGKOCLI'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## OSHA 300A Form Log Overlay
 
@@ -15,7 +15,9 @@ From an Employer Organization chart, an OSHA 300A chart tab is available which p
 
 ![](../osha-300a-form-log-overlay.assets/03d652fd086ebb19da39f15a905c67da.png)
 
+
 The OSHA 300A chart tab functions as *current logged in year* log form overlay.  Meaning, for the current year it's being run, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness location of that Employer Organization (or any onsite injury/illness locations that wrap up to this parent Employer Organization) and overlay the OSHA 300A information onto this log/form overlay.
+
 
 ## How does it work
 

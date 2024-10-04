@@ -6,21 +6,13 @@ version: 40
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#170'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#102'
   - 'https://www.deadiversion.usdoj.gov/21cfr/21usc/824.htm'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_05.htm'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#120'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_22.htm'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#125'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#105'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#150'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#130'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/2106cfrt.htm'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#305'
 source: 'https://drive.google.com/open?id=1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 As a CEHRT with EPCS functionality, it is expected that all transmission requirements are adhered to, as outlined under [Section 1311.170](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#170) of the Title 21 Code of Federal Regulations Part 1311, Subpart C; however, it is also necessary for prescribers to understand their responsibilities associated with EPCS functionality, meaning all responsibilities, as outlined under the following sections, specifically:
 
@@ -36,7 +28,7 @@ See the DEA's Diversion Control Division, for a full review of the [Title 21 Cod
 
 a) The prescriber must retain sole possession of the hard token, and must not share the password or other knowledge factor, with any person. The prescriber must now allow any other person to use the token or enter the knowledge factor or other identification means to sign prescriptions for controlled substances. Failure to comply with this may provide basis for revocation or suspension of registration pursuant to section 304(a)(4) of the Act ([21 U.S.C. 824](https://www.deadiversion.usdoj.gov/21cfr/21usc/824.htm)(a)(4).
 
-b) Prescriber must notify the designated individuals required under [Section 1311.125](#1fob9te), within one business day of discovering the hard token or authentication protocol has been compromised in any way. Prescribers who fail to do so will be held responsible for any controlled substance prescriptions written using that two-factor authentication credential.
+b) Prescriber must notify the designated individuals required under [Section 1311.125](#section-1311-125), within one business day of discovering the hard token or authentication protocol has been compromised in any way. Prescribers who fail to do so will be held responsible for any controlled substance prescriptions written using that two-factor authentication credential.
 
 c) If the prescriber is notified that an electronic prescription was not successfully delivered, the prescriber must ensure that any paper/oral prescription issued as a replacement indicates that the prescription was originally transmitted electronically to a particular pharmacy and that the transmission failed.
 
@@ -49,13 +41,13 @@ f) The prescriber must not use the electronic prescription application to sign a
 g) If an electronic prescription application provider notifies an individual practitioner that a third-party audit or certification report indicates that the application or the application provider no longer meets the requirements or notifies her that the application provider has identified an issue that makes the application non-compliant, the prescriber must:
 
 1. Immediately cease issuing electronic controlled substance prescriptions using the application, and
-2. Ensure that the individuals designated under [Section 1311.125](#1fob9te) terminate access for signing controlled substance prescriptions.
+2. Ensure that the individuals designated under [Section 1311.125](#section-1311-125) terminate access for signing controlled substance prescriptions.
 
 h) Not applicable to the {{% system-name %}} system, today. Institutional practitioner standard.
 
 i) A prescriber that receives a notification that the electronic prescription application is not in compliance with the requirements must not use the application to issue electronic controlled substance prescriptions until it is notified that the application is again compliant and all relevant updates to the application have been installed.
 
-j) The prescriber must notify both the individuals designated under [Section 1311.125](#1fob9te) and the Administration, within one business day of discovery that one or more prescriptions that were issued under a DEA registration held by the prescriber were prescriptions the prescriber had not signed or were not consistent with the prescriptions she signed.
+j) The prescriber must notify both the individuals designated under [Section 1311.125](#section-1311-125) and the Administration, within one business day of discovery that one or more prescriptions that were issued under a DEA registration held by the prescriber were prescriptions the prescriber had not signed or were not consistent with the prescriptions she signed.
 
 k) The prescriber has the same responsibilities when issuing prescriptions for controlled substances via electronic means as when issuing a paper or oral prescription. If an agent enters information at the prescriber's direction, prior to the prescriber reviewing and approving the information and signing and authorizing the transmission of that information, the prescriber is responsible in case the prescription does not conform in all essential respects to the law and regulations.
 

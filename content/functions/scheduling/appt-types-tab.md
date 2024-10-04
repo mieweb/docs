@@ -10,7 +10,7 @@ links:
   - 'https://docs.google.com/document/u/0/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY/edit'
   - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 # About Appt Types tab
 
@@ -151,7 +151,7 @@ If you try to create multiple appointment type templates for a combination of re
 
 ## Editing appointment type templates
 
-1. [View appointment type templates](#viewing-appointment-type-templates).
+1. [View appointment type templates](#view-appointment-type-templates).
 2. In the <em>Options</em> column of the appointment type template to edit, select <strong>Edit</strong>. The <em>Edit Appointment Type Template</em> section appears.
     ![](../appt-types-tab.assets/73bf2c81e8a2a81f72be6a9b35f3f92e.png)
 3. Edit the template.

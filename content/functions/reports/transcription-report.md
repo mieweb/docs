@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
 
@@ -30,9 +30,9 @@ Use transcription reports to view statistics on transcription output. The report
 * <em>WPM:</em> Quantity of words transcribed per minute calculated by dividing the calculated editing time by the quantity of words per minute transcribed during the period of the report. This is simply a statistic, not a performance metric.
 * <em>Dictation MM:SS:</em> Length of dictation in minutes and seconds included in the period of the report.
 
-Some transcriptions are based on templated documents. Templates include characters, words, and lines (like a form) to which information is added. Typically for transcription statistics, it is undesirable to include the characters, words, and lines that are part of the template and which the transcriptionist did not transcribe. When generating a transcription status report, the system can exclude characters, words, and lines that are part of the template from the quantities of characters, words, and lines transcribed. For example, if a template contains a quantity of 100 characters, words, and lines and the transcriptionist transcribes an additional quantity of 100 characters, words, and lines that were entered into the template, the system may calculate a quantity of 200 characters, words, and lines transcribed if the quantity that are part of the template are not excluded. To exclude them, see [*Subtract Template Stats*](#xzjgkzxgargh) field.
+Some transcriptions are based on templated documents. Templates include characters, words, and lines (like a form) to which information is added. Typically for transcription statistics, it is undesirable to include the characters, words, and lines that are part of the template and which the transcriptionist did not transcribe. When generating a transcription status report, the system can exclude characters, words, and lines that are part of the template from the quantities of characters, words, and lines transcribed. For example, if a template contains a quantity of 100 characters, words, and lines and the transcriptionist transcribes an additional quantity of 100 characters, words, and lines that were entered into the template, the system may calculate a quantity of 200 characters, words, and lines transcribed if the quantity that are part of the template are not excluded. To exclude them, see [*Subtract Template Stats*](#subtract-template-stats) field.
 
-The system can automatically provide a comparison of transcription statistics for two periods of time. When doing so, the system displays the statistics for each period and then the differences between them for each statistic reported. To produce a report including a comparison of statistics, see [*Transcribed Date Range #2*](#c41etjhwe7qt)** field.
+The system can automatically provide a comparison of transcription statistics for two periods of time. When doing so, the system displays the statistics for each period and then the differences between them for each statistic reported. To produce a report including a comparison of statistics, see [*Transcribed Date Range #2*](#transcribed-date-range-2)** field.
 
 You must have security role access to reports and to viewing transcription statistics before generating transcription reports. The access to reports is controlled by the *Statistics* setting and viewing transcription statistics is controlled by the *Tran Reports* setting in the Security Role Editor. See [Security Role Settings](https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit).
 

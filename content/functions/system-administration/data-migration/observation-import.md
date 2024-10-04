@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv'
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 This wiki page is to document how observation data needs to be constructed in order to import using WebChart's Observation data Import Tool.
 
@@ -157,25 +157,20 @@ This example shows how to import 1 observation for 1 patient.
 
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
 U111111,Doe,John,I,20110705,25,Systolic BP,
-
 {{% /pre %}}
-
 
 
 {{% pre %}}
 
 Observation Order,Observation Result,Observation Range,Observation Units,
 1,100,,mmhg,
-
 {{% /pre %}}
-
 
 
 {{% pre %}}
 
 Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Result looks good,Quest
-
 ```
 {{% /pre %}}
 
@@ -189,9 +184,7 @@ This example shows how to import 2 observations for the same patient.
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
 U111111,Doe,John,I,20110705,25,Systolic BP,
 U111111,Doe,John,I,20110705,26,Diastolic BP,
-
 {{% /pre %}}
-
 
 
 {{% pre %}}
@@ -199,9 +192,7 @@ U111111,Doe,John,I,20110705,26,Diastolic BP,
 Observation Order,Observation Result,Observation Range,Observation Units,
 1,100,,mmhg,
 2,70,,mmhg,
-
 {{% /pre %}}
-
 
 
 {{% pre %}}
@@ -209,7 +200,6 @@ Observation Order,Observation Result,Observation Range,Observation Units,
 Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Results look good,Quest
 ,F,,Results look good,Quest
-
 ```
 {{% /pre %}}
 
@@ -225,9 +215,7 @@ U111111,Doe,John,I,20110705,25,Systolic BP,
 U111111,Doe,John,I,20110705,26,Diastolic BP,
 U222222,Doe,Jane,I,20110705,30,URO,
 U222222,Doe,Jane,I,20110705,31,BLD,
-
 {{% /pre %}}
-
 
 
 {{% pre %}}
@@ -237,9 +225,7 @@ Observation Order,Observation Result,Observation Range,Observation Units,
 2,70,,mmhg,
 1,Normal,,mg/dl,
 2,neg,,,
-
 {{% /pre %}}
-
 
 
 {{% pre %}}
@@ -249,7 +235,6 @@ Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Test results are good,Labcorp
 ,F,,Test results are good,Labcorp
 ,F,,Test results are good,Labcorp
-
 ```
 {{% /pre %}}
 

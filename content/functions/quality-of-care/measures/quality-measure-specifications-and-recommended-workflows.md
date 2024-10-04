@@ -50,7 +50,7 @@ links:
   - 'quality-measure-specifications-and-recommended-workflows/cms-161-adult-major-depressive-disorder-mdd-suicide-risk-assessment.md'
   - 'quality-measure-specifications-and-recommended-workflows/cms-177-child-and-adolescent-major-depressive-disorder-mdd-suicide-risk-assessment.md'
 source: 'https://drive.google.com/open?id=14p6MPjeAHRsJuRApfeZpkbThZCc5BPl5jg_E5qwbG8Y'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Active
 
@@ -84,7 +84,7 @@ These measures are available for enrollment and are either certified, or MIE is 
 
 [CMS156 - Use of High-Risk Medications in Older Adults](quality-measure-specifications-and-recommended-workflows/cms-156-use-of-high-risk-medications-in-the-elderly.md)
 
-[CMS159 - Depression Remission at Twelve Months](quality-measure-specifications-and-recommended-workflows/cms-159-depression-remission-at-twelve-months.md)
+[CMS159 - Depression Remission at Twelve Months](quality-measure-specifications-and-recommended-workflows/cms-159-depression-remission-at-twelve-months.md#denominator-exclusions)
 
 [CMS165 - Controlling High Blood Pressure](quality-measure-specifications-and-recommended-workflows/cms-165-controlling-high-blood-pressure.md)
 

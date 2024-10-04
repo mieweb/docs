@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
-  - 'https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0'
+  - 'https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit'
   - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample2.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample3.csv'
@@ -15,7 +15,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample5.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 
@@ -39,7 +39,7 @@ The following detailed specifications are available for the Lab Result CSV API:
 
 * [Lab Result CSV API specifications](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
     * Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
-    * [User instructions for importing data](#gjdgxs).
+    * [User instructions for importing data](#user-instructions-for-importing-data).
 
 ### Column Definitions and Specific Coded Values
 

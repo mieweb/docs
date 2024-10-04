@@ -6,16 +6,16 @@ version: 441
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://en.wikipedia.org/wiki/OpenID#OpenID_Connect_(OIDC)'
+  - 'https://en.wikipedia.org/wiki/OpenID'
   - 'https://oauth.net/2/'
   - 'https://pm.mieweb.com/issues/106834'
   - 'https://pm.mieweb.com/issues/71437'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 # OAuth 2.0 Overview
 
-OAuth 2.0 is the industry standard for allowing external applications access to protected resources. See [References for more about OAuth](#references)
+OAuth 2.0 is the industry standard for allowing external applications access to protected resources. See [References for more about OAuth](#references-for-more-about-oauth)
 
 ## App Registration
 

@@ -7,23 +7,23 @@ lastAuthor: 'dcarlson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
-  - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#test_procedure'
-  - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
-  - 'https://www.healthit.gov/test-method/data-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#test_procedure'
-  - 'https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-data-category-request#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp'
-  - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
+  - 'https://www.healthit.gov/test-method/transitions-care'
+  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation'
+  - 'https://www.healthit.gov/test-method/electronic-prescribing'
+  - 'https://www.healthit.gov/test-method/data-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
+  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://www.healthit.gov/test-method/transmission-immunization-registries'
+  - 'https://www.healthit.gov/test-method/application-access-patient-selection'
+  - 'https://www.healthit.gov/test-method/application-access-data-category-request'
+  - 'https://www.healthit.gov/test-method/application-access-all-data-request'
+  - 'https://www.healthit.gov/test-method/direct-project'
   - 'https://www.fda.gov/industry/structured-product-labeling-resources/units-presentation'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
 source: 'https://drive.google.com/open?id=1Z-ZF_j25e83MEB6vCWtbYpWehA8TR7gdnEZife6oZVU'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## General Information
 
@@ -456,7 +456,6 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ## Justification for Real World Testing Approach
 
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
-
 ## Measures Used in Overall Approach
 
 The following measures outline and justify how each requirement of all criteria to which WebChart EHR is certified will be tested during the 2022 Real World Testing year.  Please review the Criteria-Measure Matrix above to review which measure(s) will cover a specific requirement.
@@ -496,7 +495,6 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 First, MIE will install an instance of Cypress 6+ on our production servers following all of our protocols for maintaining the security of PHI.  Cypress CUV+ supports the validation of QRDA reports containing PHI and will be used monthly to validate a random selection of QRDAs from the care settings identified.  Any errors identified by Cypress CUV+ will be tracked, reported, and addressed, then followed with testing of a larger sample of files.
 
 Additionally, WebChart EHR has two customers that participate in quarterly attestations using both QRDA I and QRDA III reports.  These customers regularly inspect their CQM compliance numbers and will alert MIE to any perceived errors.  MIE will then collect and track the attestation results from the reporting bodies including any errors so as to report a success/failure rate.
-
 #### Results
 
 <table>
@@ -1925,7 +1923,6 @@ Webchart Generated CDAs Only
 <td>50%</td>
 </tr>
 </table>
-
 #### Discussion
 
 The % marked invalid was high this period, but almost all CDA documents tested were from 3rd parties.  As stated in Measure 9, "Work is being done to rectify the issues with the CDA generation in these systems, and to put in place a more immediate notification process when invalid CDAs are generated."  MIE late in the quarter pushed out some updates to improve CDA generation when certain data might be missing and causing CDA validation issues, and anticipate the invalid percentage for to go down in future quarters.   We also anticipate in 2023 that we will be generating more CCDA documents within the systems as part of workflow updates in some systems.

@@ -6,13 +6,12 @@ version: 129
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html#quick-add'
+  - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
   - 'https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ'
   - '../../portal-management/linking-users-for-portal-access.md'
-  - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 With the proper security permissions, adding, editing, and removing users can be easily managed from within the  {{% system-name %}} solution's Access Control editor. Following is a detailed outline of the processes of managing users, providers, referring physicians, and departments. There are varying types of user access to consider, in addition to methods by which users can be added to the  {{% system-name %}} solution. Therefore, consider the organization's needs and follow the guided workflows, below, as appropriate.
 

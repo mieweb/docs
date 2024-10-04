@@ -9,7 +9,7 @@ links:
   - 'https://www.healthit.gov/'
   - 'https://www.healthit.gov/topic/certification-ehrs/about-onc-health-it-certification-program'
   - 'https://www.cms.gov/regulations-and-guidance/legislation/ehrincentiveprograms/certification.html'
-  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#105'
+  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm'
   - 'identrust-certificate-registration-step-by-step.md'
   - 'https://www.identrust.com/partners/mie-medical-informatics-engineering'
   - 'https://www.identrust.com/contact'
@@ -25,12 +25,12 @@ links:
   - '../e-refills-my-e-rx-errors-tab.md'
   - '../e-refills-my-pending-refills-tab.md'
   - 'prescriber-responsibilities-and-transmission-requirements.md'
-  - 'https://www.deadiversion.usdoj.gov/Inside.html#contact_us'
+  - 'https://www.deadiversion.usdoj.gov/Inside.html'
   - '../print-fax-transmit-prescriptions.md'
   - '../../reports/e-meds-report.md'
   - '../../system-administration/system-controls/view-user-audit-log.md'
 source: 'https://drive.google.com/open?id=1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 [The Office of the National Coordinator for Health Information Technology](https://www.healthit.gov/) (ONC) offers a voluntary Health IT Certification Program, designed with requirements established from the implementation specifications and certification criteria standardized and adopted from the Secretary.  "The Program is run as a third-party product conformity assessment scheme for health information technology (health IT) based on principles of the International Standard Organization (ISO) and International Electrotechnical Commission (IEC) framework" ([About the ONC Health IT Certification Program](https://www.healthit.gov/topic/certification-ehrs/about-onc-health-it-certification-program)).
 
@@ -66,7 +66,7 @@ EPCS prescribers must retain sole possession of the hard token. This hard token 
 
 ### Access Control
 
-According to the [Requirements for Establishing Logical Access Control](#gjdgxs), the prescriber must designate at least two (2) individuals to manage access control to the prescription application, with one required to be a DEA registrant with a two-factor authentication credential. What this means is there needs to be at least one (1) Designated Administrator and one (1) Designated DEA Registrant, for each location the prescriber is registered.
+According to the [Requirements for Establishing Logical Access Control](#requirements-for-establishing-logical-access-control), the prescriber must designate at least two (2) individuals to manage access control to the prescription application, with one required to be a DEA registrant with a two-factor authentication credential. What this means is there needs to be at least one (1) Designated Administrator and one (1) Designated DEA Registrant, for each location the prescriber is registered.
 
 **Designated Administrator** - This individual is expected to assist the prescriber(s) with establishing access control to the prescription application, as well as verify DEA registration and State authorization(s) to practice and dispense controlled substances are current and in good standing. The Designated Administrator will enter the data to grant permission or revoke authorization for prescribing controlled substances.
 
@@ -267,7 +267,7 @@ Remember to review the [Practitioner Responsibilities](prescriber-responsibiliti
 
 ## Disabling a Token
 
-It is important to understand the [Requirements for Establishing Access Control as an Individual Practitioner](#gjdgxs), because it is the responsibility of the prescriber to notify IdenTrust AND Medical Informatics Engineering, in the event that the token is compromised in any way, within 1 business day, to be added to the Certificate Revocation List. **The practitioner's ability to prescribe controlled substances will be revoked**. A practitioner whose token has been compromised and used by another individual must also contact the DEA - Office of Diversion Control.
+It is important to understand the [Requirements for Establishing Access Control as an Individual Practitioner](#requirements-for-establishing-access-control-as-an-individual-practitioner), because it is the responsibility of the prescriber to notify IdenTrust AND Medical Informatics Engineering, in the event that the token is compromised in any way, within 1 business day, to be added to the Certificate Revocation List. **The practitioner's ability to prescribe controlled substances will be revoked**. A practitioner whose token has been compromised and used by another individual must also contact the DEA - Office of Diversion Control.
 
 IdenTrust Customer Support
 

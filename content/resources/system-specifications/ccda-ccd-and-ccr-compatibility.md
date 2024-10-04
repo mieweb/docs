@@ -24,9 +24,9 @@ links:
   - 'http://www.cdapro.com/'
   - 'https://sitenv.org/ccda-smart-scorecard/'
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
-  - 'https://ttpedge.sitenv.org/ttp/#/validators'
+  - 'https://ttpedge.sitenv.org/ttp/'
 source: 'https://drive.google.com/open?id=1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Comparison Grid
 

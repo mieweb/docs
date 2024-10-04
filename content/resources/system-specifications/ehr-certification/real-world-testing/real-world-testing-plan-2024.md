@@ -7,33 +7,32 @@ lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
-  - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#cures_tp'
-  - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
+  - 'https://www.healthit.gov/test-method/transitions-care'
+  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation'
+  - 'https://www.healthit.gov/test-method/electronic-prescribing'
   - 'https://www.healthit.gov/test-method/data-export'
-  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-send#cures_tp'
-  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive#cures_tp'
-  - 'https://www.healthit.gov/test-method/care-plan#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp'
-  - 'https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure'
-  - 'https://www.healthit.gov/test-method/transmission-public-health-agencies-syndromic-surveillance#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp'
-  - 'https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure'
-  - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
+  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-send'
+  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive'
+  - 'https://www.healthit.gov/test-method/care-plan'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
+  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://www.healthit.gov/test-method/transmission-immunization-registries'
+  - 'https://www.healthit.gov/test-method/transmission-public-health-agencies-syndromic-surveillance'
+  - 'https://www.healthit.gov/test-method/application-access-patient-selection'
+  - 'https://www.healthit.gov/test-method/application-access-all-data-request'
+  - 'https://www.healthit.gov/test-method/standardized-api-patient-and-population-services'
+  - 'https://www.healthit.gov/test-method/direct-project'
   - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf'
   - 'https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf'
-  - 'https://www.w3.org/WAI/WCAG2-Conformance#level-AA'
+  - 'https://www.w3.org/WAI/WCAG2-Conformance'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
 source: 'https://drive.google.com/open?id=1_GrEGLPlNL2xrbHWl-hW7nEegUDvCnXhtGekuGn45lk'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## General Information
 
@@ -871,7 +870,6 @@ This measure will verify that all supported e-prescribing message types are in u
 #### Justification
 
 WebChart EHR should support all of the required e-prescribing messaging types outlined in §170.315(b)(3). Messages are stored locally in each client system in addition to being transmitted to/from pharmacies via the Surescripts network.
-
 #### Test Methodology
 
 MIE will report a count of messages for each supported message type:
@@ -1103,7 +1101,6 @@ It is expected that all documentation will maintain an uptime of greater than 99
 #### Care Setting(s)
 
 Primary care, specialties, pediatrics, small, large
-
 ### Measure 9: Clinical Information Reconciliation and Incorporation
 
 #### Description
@@ -1610,7 +1607,6 @@ To address the overall automated testing, the following test requests will be ma
 * Issue a request using the export tool described in the documentation.
 
 All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
-
 #### Expected Outcome(s)
 
 It is expected that automated testing will be successful more than 97% of the time.  Any errors will be logged and reported; however, errors are expected to be minimal, such as a lost server connection.  Both production uses of the API and reports of errors are expected to be rare.
@@ -2011,7 +2007,6 @@ This measure will review WebChart EHR's ability to connect to an app within a pa
 #### Justification
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2024 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
-
 #### Test Methodology
 
 MIE will report from de-identified log files an analysis of authentication and data searches using a patient app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world patient data since we cannot estimate failures due to patients correctly being denied access.
@@ -2054,7 +2049,6 @@ This measure will review WebChart EHR's ability to connect to an app within an E
 <td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
 </tr>
 </table>
-
 #### Justification
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2024 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a provider app recommended to our clients.  As clients continue adoption of the FHIR API, real provider use of the provider app will be reported.

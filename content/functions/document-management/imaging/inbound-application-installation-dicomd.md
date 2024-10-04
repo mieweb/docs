@@ -7,11 +7,10 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following will assist users with installing the dicom inbound application. To begin, simply initiate the installation of the webchart-dicom RPM.
 ```
-
 
 $] yum install webchart-master-dicom-5-1389208344.el6.i686.rpm   
 Loaded plugins: changelog, downloadonly, fastestmirror, security, tmprepo, versionlock
@@ -51,7 +50,6 @@ Installed:
   webchart-master-dicom.i686 0:5-1389208344.el6                                                                   
 
 Complete!
-
 ```
 
 ## dicomd Configuration

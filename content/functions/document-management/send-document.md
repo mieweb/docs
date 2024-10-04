@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SLERKMFP'
 source: 'https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 Send Document
 
@@ -28,6 +28,7 @@ Depending on the recipient of the document and what their email address is, we h
     5. The document type should be added on the "Message Center" chart tab of the portal chart(s)
 
 Users are also able to select an "Employer" and perform the above actions on the related contacts.  Related contacts are found under the employer's Overview (EO) chart tab in the Contacts section.  These contacts have to be active users in the system, which means they need to be Login Enabled and have credentials to access the system.
+
 
 ## Setup involved
 
@@ -87,7 +88,7 @@ In the screenshot above, you can see how the newly created contact is populating
 
 The "Better Corp." radio button populated here either because we added that employer on the "Add Contact" window, or because of the "Default Portal" system setting value.
 
-This radio button will only show up if the "Enable Activation Code Redemption" checkbox is checked as explained above in [Setup Involved](#v2syi7euzkrn)
+This radio button will only show up if the "Enable Activation Code Redemption" checkbox is checked as explained above in [Setup Involved](#setup-involved)
 
 The "Enable Activation Code Redemption" method is advised, so that the users that get the new "Received Document" in their chart can have access to it on the portal.
 

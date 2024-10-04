@@ -11,7 +11,7 @@ links:
   - 'measures/improvement-activities-measures.md'
   - 'measures/quality-measure-configuration.md'
 source: 'https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures for participation in the various incentive programs available.
 
@@ -29,7 +29,7 @@ Cost
 
 ### Measure Configuration
 
-[**Quality**](measures/quality-measure-configuration.md)
+[**Quality**](measures/quality-measure-configuration.md#active)
 
 Promoting Interoperability (PI)
 

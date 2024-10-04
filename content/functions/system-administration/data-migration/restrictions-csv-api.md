@@ -11,13 +11,13 @@ links:
   - 'conditions-csv-api.md'
   - 'nature-of-injury-csv-api.md'
   - 'data-import-overview.md'
-  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=1771472836%7CThe'
+  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit'
   - 'data-import-standards.md'
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=700124604&single=true&output=csv'
   - 'data-import-master-list.md'
   - 'clinical-encounter-csv-api.md'
 source: 'https://drive.google.com/open?id=1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for restrictions** using the [Case Management CSV API](case-management-csv-api.md).
 
@@ -72,7 +72,7 @@ The following sections provide insight for technical personnel working with the 
 
 [Case Management CSV API specifications are available here](https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=1771472836%7CThe).
 
-Additionally, [user instructions](#gjdgxs) are available for importing data in EH.
+Additionally, [user instructions](#user-instructions) are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 

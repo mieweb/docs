@@ -10,7 +10,7 @@ links:
   - 'outbound-sample-hl7-messages.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 
@@ -32,7 +32,7 @@ ___In order to process the data successfully, the following items must be suppli
 * External system(s) must furnish IP address(s) that will be used for connectivity.
 * Interface system parameters must be setup in order to direct the interface on how to format the data for the external system.
 
-To specify the IP address to send, read: [Outbound Interface Install Instructions](outbound-interface-install-instructions.md) and make sure [Auto Routes](outbound-interface-install-instructions.md) are setup to send events from within {{% system-name %}}  to the interface.
+To specify the IP address to send, read: [Outbound Interface Install Instructions](outbound-interface-install-instructions.md#overview) and make sure [Auto Routes](outbound-interface-install-instructions.md#auto-routes) are setup to send events from within {{% system-name %}}  to the interface.
 
 ![](../receiving-hl7-messages-from-system.assets/4646fbdde45da1a81be6ea94849def45.png)
 
@@ -77,39 +77,39 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 
 ### Scheduling (SIU)
 
-* [SIU^S12](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [SCH](hl7-segment-definitions.md) [ [PID](hl7-segment-definitions.md) ] [ [NTE](hl7-segment-definitions.md) ] [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [RGS](hl7-segment-definitions.md) ] [ [AIG](hl7-segment-definitions.md) ] [AIL](hl7-segment-definitions.md) [ [AIP](hl7-segment-definitions.md) ]
-* [SIU^S14](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [SCH](hl7-segment-definitions.md) [ [PID](hl7-segment-definitions.md) ] [ [NTE](hl7-segment-definitions.md) ] [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [RGS](hl7-segment-definitions.md) ] [ [AIG](hl7-segment-definitions.md) ] [AIL](hl7-segment-definitions.md) [ [AIP](hl7-segment-definitions.md) ]
-* [SIU^S15](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [SCH](hl7-segment-definitions.md) [ [PID](hl7-segment-definitions.md) ] [ [NTE](hl7-segment-definitions.md) ] [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [RGS](hl7-segment-definitions.md) ] [ [AIG](hl7-segment-definitions.md) ] [ [AIL](hl7-segment-definitions.md) ] [ [AIP](hl7-segment-definitions.md) ]
+* [SIU^S12](outbound-sample-hl7-messages.md#sius12) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] [ [NTE](hl7-segment-definitions.md#notes-and-comments-nte) ] [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
+* [SIU^S14](outbound-sample-hl7-messages.md#sius14) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] [ [NTE](hl7-segment-definitions.md#notes-and-comments-nte) ] [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
+* [SIU^S15](outbound-sample-hl7-messages.md#sius15) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] [ [NTE](hl7-segment-definitions.md#notes-and-comments-nte) ] [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [ [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) ] [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
 
 {{% anchor sys="patient_registration" %}}
 
 ### Patient Registration (ADT)
 
-* [ADT^A04](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [GT1](hl7-segment-definitions.md) ] < [IN1](hl7-segment-definitions.md) < [IN2](hl7-segment-definitions.md) > >
-* [ADT^A08](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] [ [DG1](hl7-segment-definitions.md) ] [ [GT1](hl7-segment-definitions.md) ] < [IN1](hl7-segment-definitions.md) < [IN2](hl7-segment-definitions.md) > >
+* [ADT^A04](outbound-sample-hl7-messages.md#adta04) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [GT1](hl7-segment-definitions.md#guarantor-gt1) ] < [IN1](hl7-segment-definitions.md#insurance-in1) < [IN2](hl7-segment-definitions.md#insurance-additional-information-in2) > >
+* [ADT^A08](outbound-sample-hl7-messages.md#adta08) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [GT1](hl7-segment-definitions.md#guarantor-gt1) ] < [IN1](hl7-segment-definitions.md#insurance-in1) < [IN2](hl7-segment-definitions.md#insurance-additional-information-in2) > >
 
 {{% anchor sys="lab_results" %}}
 
 ### Lab Results (ORU)
 
-* [ORU^R01](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] {[ORC](hl7-segment-definitions.md) { [OBR](hl7-segment-definitions.md) { [OBX](hl7-segment-definitions.md) < [NTE](hl7-segment-definitions.md) > } }}
+* [ORU^R01](outbound-sample-hl7-messages.md#orur01) : [MSH](hl7-segment-definitions.md#message-header-msh) [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] {[ORC](hl7-segment-definitions.md#common-order-orc) { [OBR](hl7-segment-definitions.md#observation-request-obr) { [OBX](hl7-segment-definitions.md#observation/result-obx) < [NTE](hl7-segment-definitions.md#notes-and-comments-nte) > } }}
 
 {{% anchor sys="lab_orders" %}}
 
 ### Lab Orders (ORM)
 
-* [ORM^O01](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) <[NTE](hl7-segment-definitions.md)> [ [PV1](hl7-segment-definitions.md) ] [ [PV2](hl7-segment-definitions.md) ] <[IN1](hl7-segment-definitions.md)> [ [GT1](hl7-segment-definitions.md) ] { [ORC](hl7-segment-definitions.md) { [OBR](hl7-segment-definitions.md) <[NTE](hl7-segment-definitions.md)> <[DG1](hl7-segment-definitions.md)> <[OBX](hl7-segment-definitions.md)> } } [ [ZPA](hl7-segment-definitions.md) ] [ [ZIL](hl7-segment-definitions.md) ]
+* [ORM^O01](outbound-sample-hl7-messages.md#ormo01) : [MSH](hl7-segment-definitions.md#message-header-msh) [PID](hl7-segment-definitions.md#patient-identification-pid) <[NTE](hl7-segment-definitions.md#notes-and-comments-nte)> [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [PV2](hl7-segment-definitions.md#patient-visit-additional-information-pv2) ] <[IN1](hl7-segment-definitions.md#insurance-in1)> [ [GT1](hl7-segment-definitions.md#guarantor-gt1) ] { [ORC](hl7-segment-definitions.md#common-order-orc) { [OBR](hl7-segment-definitions.md#observation-request-obr) <[NTE](hl7-segment-definitions.md#notes-and-comments-nte)> <[DG1](hl7-segment-definitions.md#diagnosis-dg1)> <[OBX](hl7-segment-definitions.md#observation/result-obx)> } } [ [ZPA](hl7-segment-definitions.md#zpa) ] [ [ZIL](hl7-segment-definitions.md#zil) ]
 
 ### Documents (MDM)
 
-* [MDM^T02](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] [TXA](hl7-segment-definitions.md) { [OBX](hl7-segment-definitions.md) }
+* [MDM^T02](outbound-sample-hl7-messages.md#mdmt02) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [TXA](hl7-segment-definitions.md#transcription-document-header-txa) { [OBX](hl7-segment-definitions.md#observation/result-obx) }
 
 {{% anchor sys="financial_transactions" %}}
 
 ### Financial Transactions (DFT)
 
-* [DFT^P03](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [ [EVN](hl7-segment-definitions.md) ] [PID](hl7-segment-definitions.md) [ [PV1](hl7-segment-definitions.md) ] <[OBX](hl7-segment-definitions.md)> { [FT1](hl7-segment-definitions.md) < [PR1](hl7-segment-definitions.md) >} < [DG1](hl7-segment-definitions.md) > [ [GT1](hl7-segment-definitions.md) ] < [IN1](hl7-segment-definitions.md) < [IN2](hl7-segment-definitions.md) > >
+* [DFT^P03](outbound-sample-hl7-messages.md#dftp03) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] <[OBX](hl7-segment-definitions.md#observation/result-obx)> { [FT1](hl7-segment-definitions.md#financial-transaction-ft1) < [PR1](hl7-segment-definitions.md#procedures-pr1) >} < [DG1](hl7-segment-definitions.md#diagnosis-dg1) > [ [GT1](hl7-segment-definitions.md#guarantor-gt1) ] < [IN1](hl7-segment-definitions.md#insurance-in1) < [IN2](hl7-segment-definitions.md#insurance-additional-information-in2) > >
 
 ### Immunization (VXU)
 
-* [VXU^V04](outbound-sample-hl7-messages.md) : [MSH](hl7-segment-definitions.md) [PID](hl7-segment-definitions.md) [ [PD1](hl7-segment-definitions.md) ] <[NK1](hl7-segment-definitions.md)> [ [PV1](hl7-segment-definitions.md) [ [PV2](hl7-segment-definitions.md) ] ] < [IN1](hl7-segment-definitions.md) [ [IN2](hl7-segment-definitions.md) ] > <[ [ORC](hl7-segment-definitions.md) ] [RXA](hl7-segment-definitions.md) [ [RXR](hl7-segment-definitions.md) ] <[OBX](hl7-segment-definitions.md) <[NTE](hl7-segment-definitions.md)>>>
+* [VXU^V04](outbound-sample-hl7-messages.md#vxuv04) : [MSH](hl7-segment-definitions.md#message-header-msh) [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PD1](hl7-segment-definitions.md#patient-additional-demographics-pd1) ] <[NK1](hl7-segment-definitions.md#next-of-kin/associated-parties-nk1)> [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) [ [PV2](hl7-segment-definitions.md#patient-visit-additional-information-pv2) ] ] < [IN1](hl7-segment-definitions.md#insurance-in1) [ [IN2](hl7-segment-definitions.md#insurance-additional-information-in2) ] > <[ [ORC](hl7-segment-definitions.md#common-order-orc) ] [RXA](hl7-segment-definitions.md#pharmacy/treatment-administration-rxa) [ [RXR](hl7-segment-definitions.md#pharmacy/treatment-route-rxr) ] <[OBX](hl7-segment-definitions.md#observation/result-obx) <[NTE](hl7-segment-definitions.md#notes-and-comments-nte)>>>

@@ -7,30 +7,29 @@ lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
-  - 'https://www.healthit.gov/test-method/transitions-care#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation#cures_tp'
-  - 'https://www.healthit.gov/test-method/electronic-prescribing#cures_tp'
+  - 'https://www.healthit.gov/test-method/transitions-care'
+  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation'
+  - 'https://www.healthit.gov/test-method/electronic-prescribing'
   - 'https://www.healthit.gov/test-method/data-export'
-  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-send#cures_tp'
-  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive#cures_tp'
-  - 'https://www.healthit.gov/test-method/care-plan#cures_tp'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate#test_procedure'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report#test_procedure'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party#cures_tp'
-  - 'https://www.healthit.gov/test-method/transmission-immunization-registries#test_procedure'
-  - 'https://www.healthit.gov/test-method/transmission-public-health-agencies-syndromic-surveillance#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-patient-selection#test_procedure'
-  - 'https://www.healthit.gov/test-method/application-access-all-data-request#cures_tp'
-  - 'https://www.healthit.gov/test-method/standardized-api-patient-and-population-services#test_procedure'
-  - 'https://www.healthit.gov/test-method/direct-project#test_procedure'
+  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-send'
+  - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive'
+  - 'https://www.healthit.gov/test-method/care-plan'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
+  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
+  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
+  - 'https://www.healthit.gov/test-method/transmission-immunization-registries'
+  - 'https://www.healthit.gov/test-method/transmission-public-health-agencies-syndromic-surveillance'
+  - 'https://www.healthit.gov/test-method/application-access-patient-selection'
+  - 'https://www.healthit.gov/test-method/application-access-all-data-request'
+  - 'https://www.healthit.gov/test-method/standardized-api-patient-and-population-services'
+  - 'https://www.healthit.gov/test-method/direct-project'
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
 source: 'https://drive.google.com/open?id=1kqyB12uhbN-AjkpDAGjZUK-iB3QiJHRUdoSNmc_37p8'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## General Information
 
@@ -539,7 +538,6 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
 
 Key Findings Here
-
 ## Measures Used in Overall Approach
 
 The following measures outline and justify how each requirement of all criteria to which WebChart EHR is certified will be tested during the 2022 Real World Testing year.  Please review the Criteria-Measure Matrix above to review which measure(s) will cover a specific requirement.
@@ -680,7 +678,6 @@ This measure will verify that all supported e-prescribing message types are in u
 #### Justification
 
 WebChart EHR should support all of the required e-prescribing messaging types outlined in §170.315(b)(3). Messages are stored locally in each client system in addition to being transmitted to/from pharmacies via the Surescripts network.
-
 #### Test Methodology
 
 MIE will report a count of messages for each supported message type:
@@ -912,7 +909,6 @@ Results
 #### Discussion
 
 Discussion
-
 ### Measure 9: Clinical Information Reconciliation and Incorporation
 
 #### Description
@@ -1413,7 +1409,6 @@ To address the overall automated testing, the following test requests will be ma
 * Issue a request using the export tool described in the documentation.
 
 All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
-
 #### Results
 
 Results
@@ -1810,7 +1805,6 @@ This measure will review WebChart EHR's ability to connect to an app within a pa
 #### Justification
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2024 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
-
 #### Test Methodology
 
 MIE will report from de-identified log files an analysis of authentication and data searches using a patient app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world patient data since we cannot estimate failures due to patients correctly being denied access.
@@ -1853,7 +1847,6 @@ This measure will review WebChart EHR's ability to connect to an app within an E
 <td>(g)(10)(v)(B) - Authentication and authorization for system scopes</td>
 </tr>
 </table>
-
 #### Justification
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2024 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a provider app recommended to our clients.  As clients continue adoption of the FHIR API, real provider use of the provider app will be reported.

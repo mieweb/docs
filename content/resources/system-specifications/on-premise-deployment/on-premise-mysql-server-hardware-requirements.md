@@ -18,7 +18,7 @@ links:
   - 'http://dba.stackexchange.com/questions/15030/mysql-recommended-hardware'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 ## Dedicated Server Minimum Requirements
 
@@ -67,4 +67,4 @@ The table below represents rough estimates of hardware requirements and are base
 
 ## Managed Services
 
-{{% sys-name %}} offers consulting and database managed services that can help plan, deploy and manage your {{% system-name %}} system. Please contact your account manager for more information and/or see our [Database Managed Services Summary](https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs).
+{{% sys-name %}} offers consulting and database managed services that can help plan, deploy and manage your {{% system-name %}} system. Please contact your account manager for more information and/or see our [Database Managed Services Summary](https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs#heading=h.t72wiklw6qpf).

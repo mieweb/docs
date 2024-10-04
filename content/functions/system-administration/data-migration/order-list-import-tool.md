@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
 
@@ -95,7 +95,6 @@ BILTO,Bilirubin Total,LAB5017,1975-2,82247,SST,,N
 CREAT,Creatinine,LAB5023,,82565,SST,,N
 GLU,Glucose,LAB5062,14749-6,82947,SST,,N
 BSS,"Occult Blood Screening, Stool",LAB5093,,82270,Non sterile container,,N
-
 ```
 {{% /pre %}}
 

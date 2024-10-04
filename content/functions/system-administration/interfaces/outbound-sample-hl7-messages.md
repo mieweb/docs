@@ -10,7 +10,7 @@ links:
   - 'sending-hl7-messages-to-system.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
-wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 # SIU, Scheduling
 
@@ -136,7 +136,6 @@ OBX|15||6084^ANTIPHOSPHATIDYL IGA|0|1|APS IgA|0-20||||F|20210701180500|0|2021070
 NTE|1||Reference Lab: LabCorp Burlington\X0A\1447 York Court\X0A\Burlington, NC 272153361\X0A\MD Nagendra Sanjai|TC
 OBX|16||6083^ANTIPHOSPHATIDYL IGM|0|12|MPS IgM|0-25||||F|20210701180500|0|20210701120200|0076423L^^MS4R|8763|||||||||
 NTE|1||Reference Lab: LabCorp Burlington\X0A\1447 York Court\X0A\Burlington, NC 272153361\X0A\MD Nagendra Sanjai|TC
-
 ```
 
 ### Discrete with Notes
@@ -243,7 +242,6 @@ DG1|2|ICD10|F41.1^Generalized anxiety disorder^I10|Generalized anxiety disorder|
 ## VXU^V04
 
 ```
-
 MSH|^~\&|WebChart|SIISCLIENT23068|Impact|SIIS|20210723110514-0400||VXU^V04^VXU_V04|WCCHIRPA740231627052714|P|2.5.1|||AL|AL|||||Z22^CDCPHINVS|SIISCLIENT23068^^^^^NIST-AA-IZ-1&2.16.840.1.113883.3.72.5.40.9&ISO^XX^^^ohioHealth
 PID|1||88888^^^MR^MR~999999999^^^MAA^SS||Test^Kevin^^^^^L||19890513000000|U||2106-3^White^HL70005|11045 Rd^^Orient^OH^43146^US^L^^Pickaway||^PRN^PH^^^555^5555394|||||||||2186-5^Not Hispanic or Latino^HL70189
 ORC|RE||74023^ohiohealth^1.2.840.114398.1.6426^ISO|||||||81^Elkins^Robin^^^^^^ohiohealth&1.2.840.114398.1.6426&ISO^L^^^PRN^^^^^^^^RN||1669786117^Mazdeh^Fariba^^^^^^NPI^L^^^NPI^^^^^^^^CNP
