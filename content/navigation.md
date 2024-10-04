@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-03T20:20:39.214Z'
-version: 682
+date: '2024-10-04T15:53:43.309Z'
+version: 693
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -23,6 +23,8 @@ links:
   - 'functions.md'
   - 'functions/artificial-intelligence.md'
   - 'https://docs.google.com/document/u/0/d/14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA/edit'
+  - 'functions/absence-management.md'
+  - 'functions/absence-management/absence-management-workflow.md'
   - 'functions/e-chart.md'
   - 'functions/e-chart/basic-initial-system-information.md'
   - 'functions/e-chart/online-help-and-notifications.md'
@@ -241,6 +243,7 @@ links:
   - 'functions/fax-manager/faxing-documents.md'
   - 'functions/fax-manager/fax-manager-tab-outbound-faxing.md'
   - 'functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md'
+  - 'functions/financial-functionality.md'
   - 'functions/system-configuration.md'
   - 'functions/system-configuration/chart-types-editor.md'
   - 'functions/system-configuration/chart-tabs.md'
@@ -737,6 +740,8 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
     * QuickView
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [AI Chat Box](https://docs.google.com/document/u/0/d/14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA/edit)
+    * [Absence Management](functions/absence-management.md)
+        * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
     * [E-Chart](functions/e-chart.md)
         * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
         * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
@@ -956,6 +961,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
         * [Faxing Documents](functions/fax-manager/faxing-documents.md)
         * [Fax Manager Tab - Outbound Faxing](functions/fax-manager/fax-manager-tab-outbound-faxing.md)
         * [Outbound Faxing Email Notifications of Sent/Failed Faxes](functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md)
+    * [Financial Functionality](functions/financial-functionality.md)
     * [System Configuration](functions/system-configuration.md)
         * [Chart Types Editor](functions/system-configuration/chart-types-editor.md)
         * [Chart Tabs](functions/system-configuration/chart-tabs.md)
