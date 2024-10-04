@@ -1,12 +1,15 @@
 ---
 id: '1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
 title: 'Quality Measure Configuration'
-date: '2024-07-24T17:31:52.453Z'
-version: 20
+date: '2024-09-19T20:29:19.135Z'
+version: 64
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'quality-measure-configuration/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-configuration.md'
+  - 'quality-measure-configuration/cms122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater-9-configuration.md'
+  - 'quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md'
+  - 'quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md'
 source: 'https://drive.google.com/open?id=1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
@@ -22,11 +25,13 @@ CMS68 - Documentation of Current Medications in the Medical Record
 
 CMS69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan
 
+CMS74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists
+
 CMS117 - Childhood Immunization Status
 
-CMS122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (> 9%)
+[CMS122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (> 9%)](quality-measure-configuration/cms122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater-9-configuration.md)
 
-CMS124 - Cervical Cancer Screening
+[CMS124 - Cervical Cancer Screening](quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md)
 
 CMS125 - Breast Cancer Screening
 
@@ -38,13 +43,17 @@ CMS138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Int
 
 CMS139 - Falls: Screening for Future Fall Risk
 
+CMS149 - Dementia: Cognitive Assessment
+
 CMS155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children/Adolescents
 
 CMS156 - Use of High-Risk Medications in Older Adults
 
 CMS159 - Depression Remission at Twelve Months
 
-CMS165 - Controlling High Blood Pressure
+[CMS165 - Controlling High Blood Pressure](quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md)
+
+CMS177 - Child and Adolescent Major Depressive Disorder (MDD): Suicide Risk Assessment
 
 CMS347 - Statin Therapy for the Prevention and Treatment of Cardiovascular Disease
 
@@ -55,8 +64,6 @@ CMS951 - Kidney Health Evaluation
 These measures have been developed and are available for enrollment; however, the most recent version may not be available, and MIE is not pursuing certification for these measures.  If your organization is interested in complying with a certified version of any of these measures, please contact MIE.
 
 CMS50 - Closing the Referral Loop: Receipt of Specialist Report
-
-CMS74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists
 
 CMS75 - Children Who Have Dental Decay or Cavities
 
@@ -75,8 +82,6 @@ CMS144 - Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic 
 CMS145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF less than 40%)
 
 CMS146 - Appropriate Testing for Pharyngitis
-
-CMS149 - Dementia: Cognitive Assessment
 
 CMS153 - Chlamydia Screening for Women
 
@@ -111,8 +116,6 @@ CMS137 - Initiation and Engagement of Alcohol and Other Drug Dependence Treatmen
 CMS143 - Primary Open-Angle Glaucoma (POAG): Optic Nerve Evaluation
 
 CMS161 - Adult Major Depressive Disorder (MDD): Suicide Risk Assessment
-
-CMS177 - Child and Adolescent Major Depressive Disorder (MDD): Suicide Risk Assessment
 
 CMS249 - Appropriate Use of DXA Scans in Women Under 65 Years Who Do Not Meet the Risk Factor Profile for Osteoporotic Fracture
 

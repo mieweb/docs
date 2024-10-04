@@ -1,26 +1,25 @@
 ---
 id: '1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
 title: 'CMS 124 - Cervical Cancer Screening'
-date: '2022-04-19T19:36:48.515Z'
-version: 39
+date: '2024-09-05T19:53:07.912Z'
+version: 143
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v10&showresulttype=Measure'
-  - '../../../document-management/scanning-and-indexing.md'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms124v10'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v11&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms124v12'
 source: 'https://drive.google.com/open?id=1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS124v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v8&showresulttype=Measure) (2020)
+[CMS124v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure) (2024)
 
-[CMS124v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v9&showresulttype=Measure) (2021)
+[CMS124v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v11&showresulttype=Measure) (2023)
 
-[CMS124v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS124v10&showresulttype=Measure) (2022)
+[CMS124v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v10&showresulttype=Measure) (2022)
 
 ### Identifiers
 
@@ -32,7 +31,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 <td><strong>MIPS Quality ID</strong></td>
 </tr>
 <tr>
-<td>CMS124v10</td>
+<td>CMS124v12</td>
 <td>–</td>
 <td>–</td>
 <td>309</td>
@@ -51,7 +50,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 </tr>
 <tr>
 <td><strong>Initial Patient Population</strong></td>
-<td>Women 23-64 years of age with a visit during the measurement period</td>
+<td>Women 24-64 years of age with a visit during the measurement period</td>
 </tr>
 <tr>
 <td><strong>Denominator</strong></td>
@@ -64,7 +63,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 <tr>
 <td><strong>Numerator</strong></td>
 <td>Women with one or more screenings for cervical cancer. Appropriate screenings are defined by any one of the following criteria:<br />
-<ul><li>Cervical cytology performed during the measurement period or the two years prior to the measurement period for women who are at least 21 years old at the time of the test</li><li>Cervical human papillomavirus (HPV) testing performed during the measurement period or the four years prior to the measurement period for women who are 30 years or older at the time of the test</li></ul></td>
+<ul><li>Cervical cytology performed during the measurement period or the two years prior to the measurement period for women who are 24-64 years of age by the end of the measurement period</li><li>Cervical human papillomavirus (HPV) testing performed during the measurement period or the four years prior to the measurement period for women who are 30 years or older at the time of the test</li></ul></td>
 </tr>
 <tr>
 <td><strong>Numerator Exclusions</strong></td>
@@ -103,33 +102,69 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 ## Clinical Instructions
 
-### New UI Visit Encounter (valid RC202109+)
+Ensure all women aged 24-64 are screened for cervical cancer on the following schedule.  Beginning at age 21, women should be screened using a Pap Test at least once every 3 years.  Alternatively, beginning at age 30, women can be screened using an HPV Test at least once every 5 years. Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface.
 
+### Numerator Compliance
 
-### Original Visit Encounter
+#### Workflow A
 
-Ensure all women aged 23-64 are screened for cervical cancer, at least once within the measurement period. Use the Past Procedures section of the encounter to record a previous HPV or Pap test; otherwise, use the Visit Orders section of the encounter to order/perform one of the recognized procedures (i.e., HPV Test or Pap Test) at the time of the encounter. While documenting the Visit encounter, either record the previous procedure or the receipt of the recognized procedure, or order and perform the test, as appropriate.
+1. To document a known test and result while documenting the Visit encounter, open the Tests and Procedures section
+2. Search for the appropriate screening test
+* For patients under 30, use a Pap Test (2.16.840.1.113883.3.464.1003.108.12.1017)
+* For patients 30+, use either a Pap Test or HPV Test (2.16.840.1.113883.3.464.1003.110.12.1059)
+3. Click Add to Exam
+4. Open the newly added test section and record the test result
+5. Complete the test and close the section
+6. Continue documenting the encounter, as appropriate
+7. When completed, Close and Archive the encounter
 
-1. <strong>Option 1: Document in the Past Procedures section</strong>
-    1. Open the Past Procedures section
-    2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., PAP Test, HPV DNA Detection, etc.) with the appropriate Concept ID (e.g., LOINC).
-    3. Add the Date and any relevant Notes.
-    4. Click the Next button, or close the section
-2. <strong>Option 2: Document in the Preventive Care section</strong>
-    1. Open the Preventive Care section
-    2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2020). This date is the Last Reported Date
-    3. Click the Next button, or close the section
-3. <strong>Option 3: Document in the Tests and Procedures section IF performing the screening in-house</strong>
-    1. Open the Tests and Procedures section
-    2. Using the autocomplete, begin typing the appropriate procedure name
-    3. Click the Add to Exam button
-    4. After adding the new section, open the procedure section and add any results or findings
-    5. Click the Next button, or close the section
-4. Continue documenting the encounter, as needed
-5. When completed, Close and Archive the encounter
+#### Workflow B
 
-* <strong>Option 4: Scan/Index or Upload an accepted Document</strong>
-    1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C (e.g., 33717-0).
+1. To order a future test while documenting the Visit encounter, open the Visit Orders section
+2. Search for the appropriate screening test
+* For patients under 30, use a Pap Test (2.16.840.1.113883.3.464.1003.108.12.1017)
+* For patients 30+, use either a Pap Test or HPV Test (2.16.840.1.113883.3.464.1003.110.12.1059)
+3. Click Add
+4. Close the Visit Orders section
+5. Continue documenting the encounter, as appropriate
+6. When completed, Close and Archive the encounter
+7. The order added during the encounter MUST be resulted and completed with an appropriately coded observation in order to meet numerator compliance
+
+### Denominator Exclusion Compliance
+
+#### Workflow A
+
+1. While documenting the encounter, record an active diagnosis of Congenital or Acquired Absence of Cervix (2.16.840.1.113883.3.464.1003.111.12.1016)
+* Use the Smart Plan section quick lists to record the condition
+
+OR
+
+* Use the Past Medical History section quick lists to record the condition
+
+OR
+
+* Use the Symptoms/Diagnosis section quick lists to record the condition
+2. Continue documenting the encounter, as appropriate
+3. When completed, Close and Archive the encounter
+4. This can also be documented outside of an encounter
+
+#### Workflow B
+
+1. While documenting the encounter, record a procedure of Hysterectomy with No Residual Cervix (2.16.840.1.113883.3.464.1003.198.12.1014)
+* Use the Smart Plan section quick lists to record the procedure
+
+OR
+
+* Use the Past Procedures section quick lists to record the procedure
+2. Continue documenting the encounter, as appropriate
+3. When completed, Close and Archive the encounter
+4. This can also be documented outside of an encounter
+
+#### Workflow C
+
+1. Use the Long-Term, Chronic, and End of Life Care instructions to document one or more of the following
+    1. Palliative Care
+    2. Hospice Care
 
 ## Evidence
 
@@ -226,4 +261,29 @@ Ensure all women aged 23-64 are screened for cervical cancer, at least once with
 
 ## Source(s)
 
-[eCQI CMS124](https://ecqi.healthit.gov/ecqm/ep/2022/cms124v10)
+[eCQI CMS124](https://ecqi.healthit.gov/ecqm/ep/2024/cms124v12)
+
+## Revision History
+
+<table>
+<tr>
+<td><strong>Date</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>09/05/2024</td>
+<td>Updated for the 2024 reporting period</td>
+</tr>
+<tr>
+<td>04/19/2022</td>
+<td>Updated for the 2022 reporting period</td>
+</tr>
+<tr>
+<td>06/18/2021</td>
+<td>Updated for the 2021 reporting period</td>
+</tr>
+<tr>
+<td>02/27/2020</td>
+<td>Initial document creation</td>
+</tr>
+</table>

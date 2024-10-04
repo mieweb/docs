@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-08-02T19:32:59.953Z'
-version: 3039
+date: '2024-10-01T15:53:43.319Z'
+version: 3104
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -283,6 +283,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * ADP
 * Concentra HR
 * GDW
+* HR Smart
 * Infor Lawson/Lifeworks People
 * Kronos
 * Oracle Core Connect
@@ -442,9 +443,11 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Enablon
 * Intelex (Safety and IH)
 * Origami Risk
+* Safetynet
 * SciShield (formerly BioRAFT)
 * Sphera
 * Velocity EHS
+* Vigilanz (uni-directional incoming only into EH/WC)
 * Workplace Integra (Hearing Conservation Management)
 
 ## Scanning/Indexing Services
@@ -484,4 +487,3 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * PMA (uni-directional)
 * RISX-FACS (bi-directional)
 * Sedgwick
-* Vigilanz (uni-directional incoming only into EH/WC)

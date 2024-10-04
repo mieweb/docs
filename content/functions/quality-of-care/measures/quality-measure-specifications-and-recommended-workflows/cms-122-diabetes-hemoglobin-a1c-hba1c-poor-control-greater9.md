@@ -1,26 +1,26 @@
 ---
 id: '1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
 title: 'CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)'
-date: '2022-06-07T13:50:51.845Z'
-version: 91
+date: '2024-09-05T21:09:31.182Z'
+version: 119
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v10&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v11&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v10&showresulttype=Measure'
   - '../../../order-and-result-management/observation-code-merging.md'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms122v10'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms122v12'
 source: 'https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS122v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v8&showresulttype=Measure) (2020)
+[CMS122v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v12&showresulttype=Measure) (2024)
 
-[CMS122v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v9&showresulttype=Measure) (2021)
+[CMS122v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v11&showresulttype=Measure) (2023)
 
-[CMS122v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS122v10&showresulttype=Measure) (2022)
+[CMS122v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v10&showresulttype=Measure) (2022)
 
 ### Identifiers
 
@@ -32,7 +32,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 <td><strong>MIPS Quality ID</strong></td>
 </tr>
 <tr>
-<td>CMS122v10</td>
+<td>CMS122v12</td>
 <td>–</td>
 <td>0059</td>
 <td>001</td>
@@ -50,7 +50,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 </tr>
 <tr>
 <td><strong>Initial Patient Population</strong></td>
-<td>Patients 18-75 years of age with diabetes with a visit during the measurement period</td>
+<td>Patients 18-75 years of age by the end of the measurement period, with diabetes with a visit during the measurement period</td>
 </tr>
 <tr>
 <td><strong>Denominator</strong></td>
@@ -102,35 +102,40 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 ## Clinical Instructions
 
-Track the HbA1c of all diabetic patients between the ages of 18-75.  The most recently performed HbA1c during the measurement period should be <=9.0%.  Any patients with an HbA1c >9% will be included in the numerator and count against quality. Use either the preferred Preventive Care section or the alternate Test and Procedures or Lab Results - Set 1 sections of the encounter.
+Track the HbA1c of all diabetic patients between the ages of 18-75.  The most recently performed HbA1c during the measurement period should be <=9.0%.  Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface.  Any patients with an HbA1c >9% will be included in the numerator and count against quality.  This is an inverse measure.  The goal is to NOT have patients in the numerator
 
 Regardless of how the HbA1c observation is added to the chart, clients will need to ensure that the appropriate observation is configured with one of the following LOINC codes: 4548-4, 4549-2, or 17856-6.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the Hemoglobin A1c observation to determine if multiple HbA1c [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
 
-### Preferred Workflow
+### Numerator Compliance
 
-1. Preventive Care
-2. Order A1c
-    1. Add to exam - enter result
-    2. Interfaced result completes the order
-    3. Manually result
-        1. Ordering doc->Add result->complete results encounter
+#### Workflow A
 
-### Alternate Workflow
+1. To document a known test and result while documenting the Visit encounter, open the Tests and Procedures section
+2. Search for the appropriate screening test (2.16.840.1.113883.3.464.1003.198.12.1013)
+3. Click Add to Exam
+4. Open the newly added test section and record the test result
+5. Complete the test and close the section
+6. Continue documenting the encounter, as appropriate
+7. When completed, Close and Archive the encounter
 
-1. While documenting the Visit encounter, document the results of the HbA1c one of two ways:
-    1. <strong>Option 1: Test and Procedures Section</strong>
-        1. Open the Tests and Procedures section.
-        2. Using the autocomplete, begin typing Hemoglobin A1c.
-        3. Click the Add to Exam button.
-        4. After adding the new section, open the Hemoglobin A1c section and add the result.
-        5. Click the Next button, or close the section.
-    2. <strong>Option 2: Add Lab Results - Set 1 to Encounter</strong>
-        1. Click the Tools icon in the upper-right corner of the encounter.
-        2. Click the Lab Results - Set 1 header to add the section to the encounter template. Close the Tools window.
-        3. Click the Lab Results - Set 1 header to open the section and add the result.
-        4. Click the Next button, or close the section.
-2. Continue documenting the encounter, as needed.
-3. When completed, Close and Archive the encounter.
+#### Workflow B
+
+1. To order a future test while documenting the Visit encounter, open the Visit Orders section
+2. Search for the appropriate screening test (2.16.840.1.113883.3.464.1003.198.12.1013)
+3. Click Add
+4. Close the Visit Orders section
+5. Continue documenting the encounter, as appropriate
+6. When completed, Close and Archive the encounter
+7. The order added during the encounter MUST be resulted and completed with an appropriately coded observation in order to meet numerator compliance
+
+### Denominator Exclusion Compliance
+
+#### Workflow A
+
+1. Use the Long-Term, Chronic, and End of Life Care instructions to document one or more of the following
+    1. Palliative Care
+    2. Hospice Care
+    3. Frailty Device Use
 
 ## Evidence
 
@@ -271,4 +276,4 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 
 ### Source(s)
 
-[eCQI CMS122](https://ecqi.healthit.gov/ecqm/ep/2022/cms122v10)
+[eCQI CMS122](https://ecqi.healthit.gov/ecqm/ep/2024/cms122v12)

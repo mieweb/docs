@@ -1,16 +1,16 @@
 ---
 id: '1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
 title: 'CMS 139 - Falls: Screening for Future Fall Risk'
-date: '2022-04-20T14:35:59.513Z'
-version: 35
+date: '2024-09-06T13:09:08.946Z'
+version: 70
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v10&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v11&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v10&showresulttype=Measure'
   - '../../../order-and-result-management/flowsheets-editor.md'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms139v10'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms139v12'
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf'
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf'
 source: 'https://drive.google.com/open?id=1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
@@ -18,11 +18,11 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS139v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v8&showresulttype=Measure) (2020)
+[CMS139v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v12&showresulttype=Measure) (2024)
 
-[CMS139v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v9&showresulttype=Measure) (2021)
+[CMS139v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v11&showresulttype=Measure) (2023)
 
-[CMS139v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS139v10&showresulttype=Measure) (2022)
+[CMS139v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v10&showresulttype=Measure) (2022)
 
 ### Identifiers
 
@@ -34,7 +34,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 <td><strong>MIPS Quality ID</strong></td>
 </tr>
 <tr>
-<td>CMS139v10</td>
+<td>CMS139v12</td>
 <td>–</td>
 <td>0101</td>
 <td>318</td>
@@ -52,7 +52,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 </tr>
 <tr>
 <td><strong>Initial Patient Population</strong></td>
-<td>Patients aged 65 years and older with a visit during the measurement period</td>
+<td>Patients aged 65 years and older at the start of the measurement period with a visit during the measurement period</td>
 </tr>
 <tr>
 <td><strong>Denominator</strong></td>
@@ -103,16 +103,23 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 ## Clinical Instructions
 
-### New UI Visit Encounter (valid RC202109+)
-
-
-### Original Visit Encounter
-
 Ensure all 65+ year-old patients are screened for future fall risk, at least once within the measurement period. Use the Test and Procedures section of the encounter to order and perform the Fall Risk Screening.
 
 {{% note %}}
-Each system/database will need a [Fall Risk Screening order and flowsheet created](../../../order-and-result-management/flowsheets-editor.md), in order to result the findings in the Tests and Procedures section of the encounter. The flowsheet must be configured with the Fall Risk Performed LOIN-C 73830-2.
+Each system/database will need a [Fall Risk Screening order and flowsheet created](../../../order-and-result-management/flowsheets-editor.md), in order to result the findings in the Tests and Procedures section of the encounter. The flowsheet must be configured with the Fall Risk Performed LOINC 73830-2.
 {{% /note %}}
+
+### Numerator Compliance
+
+#### Preferred Workflow
+
+1. To document a known test and result or perform the screening in-house while documenting the Visit encounter, open the Tests and Procedures section
+2. Using the autocomplete, begin typing Fall Risk Screening.
+3. Click Add to Exam
+4. Open the newly added test section and record the test results
+5. Complete the test and close the section
+6. Continue documenting the encounter, as appropriate
+7. When completed, Close and Archive the encounter
 
 While documenting the Visit encounter, record the Fall Risk Screening procedure in the Tests and Procedures section of the Visit encounter.
 
@@ -223,7 +230,7 @@ While documenting the Visit encounter, record the Fall Risk Screening procedure 
 
 ## Source(s)
 
-[eCQI CMS139](https://ecqi.healthit.gov/ecqm/ep/2022/cms139v10)
+[eCQI CMS139](https://ecqi.healthit.gov/ecqm/ep/2024/cms139v12)
 
 [Fall Risk Checklist](https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf)
 

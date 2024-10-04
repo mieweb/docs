@@ -1,34 +1,25 @@
 ---
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
-date: '2021-03-05T17:54:18.969Z'
-version: 64
-lastAuthor: 'ahumes'
+date: '2024-10-03T17:08:55.012Z'
+version: 71
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 Financials
-```
+
 THE FINANCIAL SECTION
 
 Basic things about Financials
+
+1. Some of it is automatically added from other sections
+2. Some of it may be manually added
+3. CPT codes are automatically added
 ```
 
-1. ```
-    Some of it is automatically added from other sections
-    ```
-2. ```
-    Some of it may be manually added
-    ```
-3. ```
-    CPT codes are automatically added
-    ```
-4. ```
-
-    ```
-```
 
 ```
 <table>
@@ -37,7 +28,7 @@ Basic things about Financials
 <td>Visual</td>
 </tr>
 <tr>
-<td><pre>the Financial section notes activities within the encounter that require charges and payments. Most charges are added automatically, but you can add or remove charges and payments as necessary.</pre></td>
+<td><pre>The Financial section notes activities within the encounter that require charges and payments. Most charges are added automatically, but you can add or remove charges and payments as necessary.</pre></td>
 <td>Title card</td>
 </tr>
 <tr>

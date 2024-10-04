@@ -8,6 +8,8 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
    * Functions
       * Absence Management
          * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
+      * Artificial Intelligence
+         * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
       * Document Management
          * Documents & Forms
             * [Add Document - Legacy View vs. Current View](functions/document-management/documents-and-forms/add-document-legacy-view-vs.-current-view.md)
@@ -137,6 +139,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
          * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
          * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
+         * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
          * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
          * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
          * [E/M Calculator](functions/encounters/e-m-calculator.md)
@@ -166,7 +169,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
          * [Accessing the ledger](functions/financial-functionality/accessing-the-ledger.md)
          * [Adding alert comments to employer organizations](functions/financial-functionality/adding-alert-comments-to-employer-organizations.md)
          * [Adding contacts to employer organizations](functions/financial-functionality/adding-contacts-to-employer-organizations.md)
-         * [Adding deals](functions/financial-functionality/adding-deals.md)
+         * [Adding Deals](functions/financial-functionality/adding-deals.md)
          * [Adding existing employer organizations as subordinates to employer organizations](functions/financial-functionality/adding-existing-employer-organizations-as-subordinates-to-employer-organizations.md)
          * [Adding existing patients as employees of employer organizations](functions/financial-functionality/adding-existing-patients-as-employees-of-employer-organizations.md)
          * [Adding items to fee schedules](functions/financial-functionality/adding-items-to-fee-schedules.md)
@@ -308,6 +311,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
          * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
          * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
          * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
+         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
       * Quality of Care
          * Measures
             * Improvement Activities Measures
@@ -437,7 +441,11 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
                * [PI_EP_1 -- e-Prescribing](functions/quality-of-care/measures/promoting-interoperability-pi-measures/pi_ep_1-e-prescribing.md)
                * [PI_PHCDRR_5 -- Clinical Data Registry Reporting](functions/quality-of-care/measures/promoting-interoperability-pi-measures/pi_phcdrr_5-clinical-data-registry-reporting.md)
             * Quality Measure Configuration
+               * [CMS 165 - Controlling High Blood Pressure Configuration](functions/quality-of-care/measures/quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md)
                * [CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Configuration](functions/quality-of-care/measures/quality-measure-configuration/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-configuration.md)
+               * [CMS122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (> 9%) Configuration](functions/quality-of-care/measures/quality-measure-configuration/cms122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater-9-configuration.md)
+               * [CMS124 - Cervical Cancer Screening Configuration](functions/quality-of-care/measures/quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md)
+               * [CMS139 - Falls: Screening for Future Fall Risk Configuration](functions/quality-of-care/measures/quality-measure-configuration/cms139-falls-screening-for-future-fall-risk-configuration.md)
             * Quality Measure Specifications and Recommended Workflows
                * [CMS 117 - Childhood Immunization Status](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-117-childhood-immunization-status.md)
                * [CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md)
@@ -495,6 +503,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
          * [Activity Log Report](functions/reports/activity-log-report.md)
          * [Additional Appointment-Related Reports](functions/reports/additional-appointment-related-reports.md)
          * [Appointment Report](functions/reports/appointment-report.md)
+         * [Case Merge Tool](functions/reports/case-merge-tool.md)
          * [Checkin Reports](functions/reports/checkin-reports.md)
          * [Claims Report](functions/reports/claims-report.md)
          * [Common Case Search Report](functions/reports/common-case-search-report.md)
@@ -508,6 +517,9 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
          * [Executive Dashboard Report](functions/reports/executive-dashboard-report.md)
          * [Exporting Report Data](functions/reports/exporting-report-data.md)
          * [Fill Reports](functions/reports/fill-reports.md)
+         * [Financials All Active Deals-Detail Report](functions/reports/financials-all-active-deals-detail-report.md)
+         * [Financials Pending Billing](functions/reports/financials-pending-billing.md)
+         * [Financials Pending Encounters Report](functions/reports/financials-pending-encounters-report.md)
          * [Guideline Report](functions/reports/guideline-report.md)
          * [Health Surveillance Reports](functions/reports/health-surveillance-reports.md)
          * [Incidents Report](functions/reports/incidents-report.md)
@@ -729,12 +741,15 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
          * [Task List](functions/task-management/task-list.md)
          * [Task Search](functions/task-management/task-search.md)
       * Visit Encounter
+      * [Absence Management](functions/absence-management.md)
+      * [Artificial Intelligence](functions/artificial-intelligence.md)
       * [Document Management](functions/document-management.md)
       * [E-Chart](functions/e-chart.md)
       * [E-Sign (Electronic Signature)](functions/e-sign-electronic-signature.md)
       * [Electronic Case Reporting](functions/electronic-case-reporting.md)
       * [Encounters](functions/encounters.md)
       * [Fax Manager](functions/fax-manager.md)
+      * [Financial functionality](functions/financial-functionality.md)
       * [Health Surveillance](functions/health-surveillance.md)
       * [Injection/Immunization Management](functions/injection-immunization-management.md)
       * [Injury Care](functions/injury-care.md)

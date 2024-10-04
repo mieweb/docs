@@ -1,23 +1,23 @@
 ---
 id: '1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
 title: 'CMS 165 - Controlling High Blood Pressure'
-date: '2022-04-22T14:37:14.358Z'
-version: 32
+date: '2024-09-19T20:27:54.186Z'
+version: 58
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v11&showresulttype=Measure'
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms165v10'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms165v12'
 source: 'https://drive.google.com/open?id=1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
 ## Overview
 
-[CMS165v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v8&showresulttype=Measure) (2020)
+[CMS165v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v12&showresulttype=Measure) (2024)
 
-[CMS165v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v9&showresulttype=Measure) (2021)
+[CMS165v11](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v11&showresulttype=Measure) (2023)
 
 [CMS165v10](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v10&showresulttype=Measure) (2022)
 
@@ -31,7 +31,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 <td><strong>MIPS Quality ID</strong></td>
 </tr>
 <tr>
-<td>CMS165v10</td>
+<td>CMS165v12</td>
 <td>–</td>
 <td>–</td>
 <td>236</td>
@@ -49,7 +49,7 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 </tr>
 <tr>
 <td><strong>Initial Patient Population</strong></td>
-<td>Patients 18-85 years of age who had a visit and diagnosis of essential hypertension starting before and continuing into, or starting during the first six months of the measurement period.</td>
+<td>Patients 18-85 years of age by the end of the measurement period who had a visit during the measurement period and diagnosis of essential hypertension starting before and continuing into, or starting during the first six months of the measurement period</td>
 </tr>
 <tr>
 <td><strong>Denominator</strong></td>
@@ -101,17 +101,38 @@ wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 
 ## Clinical Instructions
 
-### New UI Visit Encounter (valid RC202109+)
+Using the Vitals section of the encounter, ensure blood pressure is recorded correctly and the systolic and diastolic observations are coded with the appropriate LOINC (i.e., 8480-6 and 8462-4). The patient also needs a diagnosis of hypertension under the Symptoms/Diagnosis section of the encounter, active within the first 6 months of the measurement period in order to populate the denominator.
 
+### Numerator Compliance
 
-### Original Visit Encounter
-
-Using the Vitals section of the encounter, ensure blood pressure is recorded correctly and the systolic and diastolic observations are coded with the appropriate LOINC (i.e., 8480-6 and 8462-4). The patient also needs a diagnosis of hypertension under the Symptoms/Diagnosis section of the encounter, within the first six months or more of the measurement period in order to populate the denominator.
-
-1. While documenting the encounter, ensure the blood pressure is recorded under the Vitals section of the encounter.
-2. Patient must have a diagnosis of hypertension under the Symptoms/Diagnosis section of the encounter.
+1. While documenting the encounter, ensure both the systolic and diastolic blood pressure is recorded accurately under the Vitals section of the encounter.  For a patient to be compliant with the numerator, the most recent blood pressure values must be <140/90
+2. The patient must have a diagnosis of hypertension under the Symptoms/Diagnosis or Smart Plan sections of the encounter.
 3. Continue documenting the encounter as appropriate.
 4. When complete, Close and Archive the encounter.
+
+### Denominator Exclusion Compliance
+
+#### Workflow A
+
+1. Use the Long-Term, Chronic, and End of Life Care instructions to document one or more of the following
+    1. Palliative Care
+    2. Hospice Care
+    3. Frailty Device Use
+
+#### Workflow B
+
+1. While documenting the encounter, record an active Pregnancy diagnosis
+* Use the Smart Plan section quick lists to record the condition
+
+OR
+
+* Use the Past Medical History section quick lists to record the condition
+
+OR
+
+* Use the Symptoms/Diagnosis section quick lists to record the condition
+2. Continue documenting the encounter, as appropriate
+3. When completed, Close and Archive the encounter
 
 ## Evidence
 
@@ -129,10 +150,6 @@ Using the Vitals section of the encounter, ensure blood pressure is recorded cor
 <tr>
 <td>Encounter, Performed: Annual Wellness Visit</td>
 <td>2.16.840.1.113883.3.526.3.1240</td>
-</tr>
-<tr>
-<td>Encounter, Performed: ESRD Monthly Outpatient Services</td>
-<td>2.16.840.1.113883.3.464.1003.109.12.1014</td>
 </tr>
 <tr>
 <td>Encounter, Performed: Home Healthcare Services</td>
@@ -216,6 +233,10 @@ Using the Vitals section of the encounter, ensure blood pressure is recorded cor
 <td>2.16.840.1.113883.3.666.5.307</td>
 </tr>
 <tr>
+<td>Encounter, Performed: ESRD Monthly Outpatient Services</td>
+<td>2.16.840.1.113883.3.464.1003.109.12.1014</td>
+</tr>
+<tr>
 <td>Encounter, Performed: Frailty Encounter</td>
 <td>2.16.840.1.113883.3.464.1003.101.12.1088</td>
 </tr>
@@ -288,4 +309,25 @@ Using the Vitals section of the encounter, ensure blood pressure is recorded cor
 
 ## Source(s)
 
-[eCQI CMS165](https://ecqi.healthit.gov/ecqm/ep/2022/cms165v10)
+[eCQI CMS165](https://ecqi.healthit.gov/ecqm/ep/2024/cms165v12)
+
+## Revision History
+
+<table>
+<tr>
+<td><strong>Date</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>09/19/2024</td>
+<td>Updated for the 2024 reporting period</td>
+</tr>
+<tr>
+<td>04/22/2022</td>
+<td>Updated for the 2022 reporting period</td>
+</tr>
+<tr>
+<td>02/27/2020</td>
+<td>Initial document creation</td>
+</tr>
+</table>

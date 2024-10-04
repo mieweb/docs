@@ -1,9 +1,9 @@
 ---
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
-date: '2024-08-29T18:25:07.368Z'
-version: 226
-lastAuthor: 'auhrick'
+date: '2024-09-06T16:26:23.724Z'
+version: 308
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSOIDNHR'
@@ -84,7 +84,7 @@ The user returns to the main WebMD Ignite/Healthwise screen, a summary of the pa
 
 ![](../patient-education-interface.assets/5c5ecd4e8ebab1b74379e5e9c69648e2.png)
 
-When a user prints the WebMD Ignite/Healthwise patient material,  *Enterprise Health* queries the Healthwise database and sends us back a notification of what was printed from their system.  *Enterprise Health* will add the printed education sheets to the patient's chart as a PDF document with documentation of the date/time & user in a chart tab specified.
+When a user prints the WebMD Ignite/Healthwise patient material, the system queries the Healthwise database and sends us back a notification of what was printed from their system.  The system will add the printed education sheets to the patient's chart as a PDF document with documentation of the date/time & user in a chart tab specified.
 
 ![](../patient-education-interface.assets/034311270d07c42d5ae21e454593bf17.png)
 

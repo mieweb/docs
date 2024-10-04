@@ -1,54 +1,100 @@
 ---
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
-title: 'Adding deals'
-date: '2024-07-22T13:43:05.258Z'
-version: 35
-lastAuthor: 'janderson'
+title: 'Adding Deals'
+date: '2024-10-03T20:39:24.640Z'
+version: 53
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
-  - 'finding-employer-organizations.md'
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
 source: 'https://drive.google.com/open?id=1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 wikigdrive: 'dd69069d725fca5f553df7ded62e130a49d49ca6'
 ---
-1. [Find employer organizations](finding-employer-organizations.md).
-2. From the search results, select the <strong>name of the organization</strong> to which to add a deal. The system displays information about the organization.
-3. Select the <strong>Overview (EO)</strong> tab.
-4. At the top right, select <strong>Add Deal</strong>. The system displays an empty deal.
-5. In the <em>Parties</em> section, select <strong>Edit</strong>.
-6. In the <em>Provider Organization</em> field, type the name of the provider organization with which the deal is made. The system shows matching providers. Select the provider. Select <strong>Next</strong>.
-7. In the <em>Contacts</em> section, in the <em>Name</em> field, type the name of the signatory contact for the employer or provider organization. The system shows matching contacts. Select the contact. In the <em>Role</em> field, select <strong>Signatory Contact</strong>. Select the <strong>Add</strong> button. Repeat to add the signatory contact of the other organization and other contacts, if appropriate. Select <strong>Next</strong>.
-8. In the <em>Start Date</em> field, do one:
-    1. Type in the date, month, and year on which the deal is effective.
-    2. Select <strong>Today</strong> to choose today's date, month, and year on which the deal is effective.
-    3. Select <strong>Calendar</strong> to choose from a calendar the date, month, and year on which the deal is effective.
-9. In the <em>End Date</em> field, do one:
-    1. Type in the date, month, and year after which the deal is not effective.
-    2. Select <strong>Today</strong> to choose today's date, month, and year after which the deal is not effective.
-    3. Select <strong>Calendar</strong> to choose from a calendar the date, month, and year after which the deal is not effective.
-10. Select <strong>Next</strong>.
-11. In the <em>Executed</em> field, select <strong>Yes</strong> or <strong>No</strong> to indicate if the deal is in effect between the organizations. Select <strong>Next</strong>.
-12. In the <em>Charges</em> section, select <strong>Show/Hide Quick Lists</strong>. <em>Quick List</em> appears below.
-13. In the <em>Quick List</em>, to the right of <em>Charge</em>, select the <strong>Add</strong> button. The <em>Add Charge</em> window appears.
-14. In the <em>Add Charge</em> window, do the following to add a charge to the deal:
-    1. In the <em>Date</em> field, enter the month, day and year on which the charge is created or select <strong>Today</strong> to use today's month, day, and year or select <strong>Calendar</strong> to select the month, date, and year from a calendar.
-    2. In the <em>Funding Source</em> field, select an account against which this charge will be made.
-    3. In the <em>Item</em> field, type a <strong>description of the item</strong>. The system displays matching items. Select the appropriate one. Its name appears in the Item field and its CPT code (if it has one) appears in the <em>CPT Code</em> field.
-    4. In the <em>Reson #1</em> through <em>Reason #4</em> fields as appropriate, type a description of <strong>a diagnosis</strong> or <strong>a diagnosis code</strong> to associate with this item. The system displays matching items. Select the appropriate one.
-    5. To the right, from the <em>Modifiers List</em>, select an appropriate <strong>modifier</strong>. The selection appears in the <em>Modifiers</em> field. If no modifier is necessary, skip.
-    6. In the <em>Quantity</em> field, type the quantity of the item to include each time this item is used in a visit.
-    7. In the <em>Price</em> field, type the contracted price of the item as dollars and cents.
-    8. In the <em>Memo</em> field, type any information applicable to the item not otherwise contained in the window.
-    9. To save this item and add more, select <strong>Add Another</strong>. Otherwise, select <strong>Save</strong>.
-15. If appropriate, add documents to the deal:
-    1. Select the <strong>Documents</strong> header.
-    2. At the top-right of the window, select <strong>Quick Links</strong>. The <em>Quick Links</em> window appears.
-    3. In the <em>Quick Links</em> window, select <strong>Add Document</strong>. The <em>Add Documents</em> page appears.
-    4. In the <em>Add Documents</em> page, in the <em>All Types</em> section, select a <strong>link to the document type</strong> (or file format) to add. The <em>Add Document Properties</em> page appears.
-    5. In the <em>Add Document Properties</em> page, select the <strong>Choose File</strong> button. A window opens. In the window, navigate to and select <strong>the file</strong> to add. Select the <strong>Open</strong> button. The file name appears next to the button. To add another file, select the <strong>Add Another File</strong> button and select another file.
-    1. Select <strong>Add Document</strong>. The system receives the file or files from your device, adds it to the deal, and displays it. At the top-left, select the <strong>Deal</strong> button.
-16. In the <em>Approval</em> section, select <strong>Next</strong>.
-17. Select <strong>Archive & Close</strong>. If the deal is executed and the current date is within the effective period of the deal, the system applies it to the included charges.
+A Deal is created on an Employer Organization chart.
+
+Navigate to the Employer Organization chart (the chart that the EH client is entering into business with) and click the Add Deal link.
+
+![](../adding-deals.assets/bb48f9db6ee45c9bafbf511fd3bf87fb.png)
+
+## Deal Encounter
+
+Complete each section of the Deal.
+
+### Parties
+
+The Employer Organization will default to the EO for which the deal is being created. Use the autocomplete to enter the Provider Organization (the EH Client), then proceed to the next section. Adding a PO is **REQUIRED**.
+
+![](../adding-deals.assets/8f6c39aa4df15617df2a543853dec8c6.png)
+
+### Contacts
+
+Enter the Signatory for both the EO and PO **(REQUIRED)**.
+
+![](../adding-deals.assets/3cc3b6d414bf565fc3a7df29ec3a03dc.png)
+
+    * In the ‘Name' field, type the name of the contact for the employer or provider organization. The system shows matching contacts. Select the contact.
+    * In the ‘Role' field, select ‘Signatory Contact'. Select the ‘Add' button. Repeat to add another contact, if appropriate. Then select ‘Next'.
+
+### Details
+
+Enter a Title, Start Date and End Date. These items are **REQUIRED**. Before the deal is considered active, the Deal must also indicate that the contract has been executed (Executed=Yes). In some client configuration scenarios, a deal may be created, but an official contract between the two has not yet been finalized. A Deal can be made and set to Executed=No, meaning this Deal has not been executed yet and not "live" in the system. Executed=Yes is **REQUIRED** before the deal is recognized in the system.
+
+![](../adding-deals.assets/3d7b57aa7d7e17c9e7467e16b3c73057.png)
+
+    * Title:
+        * Enter the name for this deal<strong>(REQUIRED).</strong> Or use the macro's library to create a standard
+    * In the Start Date field, do one: (<strong>REQUIRED</strong>)
+        * Type in the date, month, and year on which the deal is effective.
+        * Select Today to choose today's date, month, and year on which the deal is effective.
+        * Select Calendar to choose from a calendar the date, month, and year on which the deal is effective.
+    * In the End Date field, do one:
+        * Type in the date, month, and year after which the deal is not effective.
+        * Select Today to choose today's date, month, and year after which the deal is not effective.
+        * Select Calendar to choose from a calendar the date, month, and year after which the deal is not effective.
+    * In the Executed field, select Yes or No to indicate if the deal is in effect between the organizations. (<strong>REQUIRED</strong>)
+
+### Charges
+
+In the Charges section, select ‘Show/Hide Quick Lists'. Quick List appears on the right hand side of the Charges section. Then click the ‘+' icon to add procedures/orders and pricing for items covered in the Deal.
+
+![](../adding-deals.assets/cb103d05a58810ccb868268815e77050.png)
+
+The Add Charge window appears. Enter in each field as appropriate.
+
+![](../adding-deals.assets/2b1d09cb46cbc12a36eab5e60300e690.png)
+
+    * In the Date field, enter the month, day and year on which the charge is created or select Today to use today's month, day, and year or select Calendar to select the month, date, and year from a calendar.
+    * In the ‘Funding Source' field, select an account against which this charge will be made. Please note that this will not be passed to OpenPM for billing purposes.
+    * In the ‘Item' field, type a description of the item. The system displays matching items. Select the appropriate one. Its name appears in the Item field and its CPT code (if it has one) appears in the CPT Code field.
+        * Note: If a client is authorized to use CPT and loads them in their database, the CPT will pull forward from the Orders-List Editor.
+    * A charge will not drop in an encounter without a code in the CPT field. You do not need to use a CPT code but a string of alpha/numeric characters needs to be listed here in order for the charge to drop on the encounter.
+    * In the ‘Reason #1' through ‘Reason #4' fields as appropriate, type a description of a diagnosis or a diagnosis code to associate with this item. The system displays matching items. Select the appropriate one.
+    * To the right, from the Modifiers List, select an appropriate modifier. The selection appears in the Modifiers field. If no modifier is necessary, skip.
+    * In the ‘Quantity' field, type the quantity of the item to include each time this item is used in a visit.
+    * In the ‘Price' field, type the contracted price of the item as dollars and cents.
+        * Note: a system default for pricing can be loaded on the procedure/order codes in the Orders-List Editor.
+    * In the ‘Memo' field, type any information applicable to the item not otherwise contained in the window.
+    * To save this item and add more, select Add Another. Otherwise, select Save.
+
+Once all items have been added to the Charges section, the complete list of the procedures, associated conditions, and pricing will display. Hover over the items to view, edit, delete or rearrange order icons.
+
+![](../adding-deals.assets/f19e6ee0104ee38108ddcce5d81ec5a4.png)
+
+### Documents
+
+The documents section is designed to show a list of any linked documents to this Deal. Clients may configure custom document types and scan/upload relevant linked documents to this deal. For example, a copy of the formal executed agreement could be scanned in and linked to this encounter. If this is done, a link to the document will display in this section. If there are no linked documents, this section will be blank/empty.
+
+### Approval
+
+Once all required information has been added in the Deal and the Deal executed flag is set to Yes, the Deal encounter must be closed to go into effect. Select the ‘Archive & Close' button to complete the Deal. If a Deal was created, but no longer needed or an official contract is never executed, ensure that the Executed field in the Details Section is set to No before clicking ‘Archive & Close'.
+
+## Deal Summary
+
+A summary of Executed Deals created for each employer group can be viewed from the Deal Summary Tab.  The Deal Summary tab displays a list of all active deals for the employer (EO). The Deal number, title, start date and the orders and their respective pricing within the Deal.
+
+![](../adding-deals.assets/a076a705ccfa40d4a0eac3a8cdefc1df.png)
+
+![](../adding-deals.assets/b8cb4242876b115ec9ef2972698670c2.png)
 
 ## Learning Management System
 
