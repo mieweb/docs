@@ -1,8 +1,8 @@
 ---
 id: '14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA'
 title: 'AI Chat Box'
-date: '2024-10-04T16:11:49.340Z'
-version: 93
+date: '2024-10-04T17:53:39.341Z'
+version: 96
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -17,13 +17,11 @@ When the AI Assistant is enabled, Enterprise Health clients will see "Wellby", a
 ![](../ai-chat-box.assets/4a592aa2b27faafc5cc0b71419707283.png)
 
 ![](../ai-chat-box.assets/4c91b23b8ae8307ae3e47959ffaceddf.png)
-
 ## AI Assistant Icon
 
 If AI is enabled for a database, the AI Icon will display in the header. Click on the AI Icon to open the AI Assistant and chat box.
 
 ![](../ai-chat-box.assets/0e350231586c47faf8f2bf2324a34811.png)
-
 ## AI Chat Window
 
 The AI chat window provides a list of suggestions that users can ask AI, as well as an option to enter a custom action. The suggestion options can be customized in the layout "AI/ChatBox" and also supports language translations.
@@ -87,7 +85,6 @@ Click the ‘down arrow' button on the AI Assistant header bar to minimize the c
 ![](../ai-chat-box.assets/d7ddffd63c6b556c0d2ad62886b35daa.png)
 
 ![](../ai-chat-box.assets/e8cf9f62cb469e79de4dc30ccf2bdc22.png)
-
 ## Report Generation
 
 AI has been incorporated into the system report writing. AI generates SQL-based reports from natural language queries. The AI assistant context includes common subjects within the application, such as patients, observations, allergies, medications and procedures. This feature is available in RC202403 and newer.
