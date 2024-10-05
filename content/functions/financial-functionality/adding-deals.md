@@ -2,7 +2,7 @@
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding Deals'
 date: '2024-10-03T20:39:24.640Z'
-version: 53
+version: 55
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

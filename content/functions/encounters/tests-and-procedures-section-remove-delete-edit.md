@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
 source: 'https://drive.google.com/open?id=1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
-wikigdrive: 'dev'
+wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
 ---
 Before learning how to edit or delete or remove Tests or Procedures from an encounter visit, please see other help documentation [Tests & Procedures-Adding and Applying](tests-and-procedures-section-applying-adding-completing-resulting.md) so you are familiar with the Tests & Procedures section (pending Due List items) of the encounter and how procedures are displayed there and/or manually added to an encounter visit.
 
