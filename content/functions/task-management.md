@@ -6,7 +6,7 @@ version: 21
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Vr2yUm8AI25FAxfr97ltCs1dTc4q2E5ByxM5tDOqTgU'
-wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
+wikigdrive: 'dev'
 ---
 The {{% system-name %}} Tasking module streamlines everyday tasks into an electronic to-do list, and provides a single, structured point of access to routine work activities. The module allows clinicians to review lab results, authorize prescriptions and orders, and e-sign encounters or dictation.
 

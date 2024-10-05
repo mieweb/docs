@@ -2,7 +2,7 @@
 id: '1Q6PiO0lpOuWBVKOqwLEDkJZyRUUAMDg-wWCjZEWcV9Q'
 title: 'AHE 3 - Promote Use of Patient-Reported Outcome Tools'
 date: '2020-02-27T20:47:15.095Z'
-version: 19
+version: 17
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1Q6PiO0lpOuWBVKOqwLEDkJZyRUUAMDg-wWCjZEWcV9Q'
-wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
+wikigdrive: 'dev'
 ---
 **Activity Weighting**: High
 

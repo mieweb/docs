@@ -11,7 +11,7 @@ links:
   - 'document-properties.md'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
-wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
+wikigdrive: 'dev'
 ---
 The  {{% system-name %}} system is designed to allow free-text notes to be uploaded as documents into charts, as needed.
 
