@@ -366,7 +366,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
 
   function initIndex() {
     let request = new XMLHttpRequest();
-    request.open("GET", "/search.json");
+    request.open("GET", (window.BaseURL || "/") + "search.json");
     request.responseType = "json";
     request.addEventListener("load", function (event) {
       let documents = request.response;
