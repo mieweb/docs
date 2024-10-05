@@ -387,6 +387,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
         this.field("tags");
 
         for (let document of documents) {
+          if (document.title && document.title.startsWith('Redirect to: ')) continue;
           this.add(document);
           lookup[document.uri] = document;
         }
