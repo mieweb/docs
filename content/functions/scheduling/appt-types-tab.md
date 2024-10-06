@@ -6,11 +6,11 @@ version: 243
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
-  - 'https://docs.google.com/document/u/0/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY/edit'
+  - '../system-administration/security/security-role-settings.md'
+  - '../reports/using-datavis-grids-data-tools.md'
   - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
-wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
+wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
 # About Appt Types tab
 
@@ -20,13 +20,13 @@ Appointment types are used to set up basic information about frequently-used app
 
 Appointment templates are based on appointment types and refine them by associating with them a service location, a default encounter type for documenting the encounter visit resulting from the appointment, and clinical and scheduling instructions for staff.
 
-To create, edit, and delete appointment types and appointment templates, the *Manage Apt Types* security role needs to be set to *Yes*. See [Security Role Settings](https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit).
+To create, edit, and delete appointment types and appointment templates, the *Manage Apt Types* security role needs to be set to *Yes*. See [Security Role Settings](../system-administration/security/security-role-settings.md).
 
 ## Viewing appointment types
 
 1. Select the side menu. The side menu appears.
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
-3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types. To work with the table, see [Using DataVis Grids - Data Tools](https://docs.google.com/document/u/0/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY/edit).
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types. To work with the table, see [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.md).
     ![](../appt-types-tab.assets/f98c6e8b6d13c17911c0fa2b33fb42f4.png)
 
 ## Viewing appointment type templates
@@ -34,7 +34,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 1. Select the side menu. The side menu appears.
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
-4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates. To work with the table, see [Using DataVis Grids - Data Tools](https://docs.google.com/document/u/0/d/1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY/edit).
+4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates. To work with the table, see [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.md).
 
 ![](../appt-types-tab.assets/a769e526984f2a6bd4e7954737bb8734.png)
 

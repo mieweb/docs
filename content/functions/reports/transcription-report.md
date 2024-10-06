@@ -6,9 +6,9 @@ version: 61
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit'
+  - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: 'a0e5118c84846ce2ee58cf93cd6d3b61cb6112d4'
+wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
 The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
 
@@ -34,7 +34,7 @@ Some transcriptions are based on templated documents. Templates include characte
 
 The system can automatically provide a comparison of transcription statistics for two periods of time. When doing so, the system displays the statistics for each period and then the differences between them for each statistic reported. To produce a report including a comparison of statistics, see [*Transcribed Date Range #2*](#transcribed-date-range-2)** field.
 
-You must have security role access to reports and to viewing transcription statistics before generating transcription reports. The access to reports is controlled by the *Statistics* setting and viewing transcription statistics is controlled by the *Tran Reports* setting in the Security Role Editor. See [Security Role Settings](https://docs.google.com/document/u/0/d/1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM/edit).
+You must have security role access to reports and to viewing transcription statistics before generating transcription reports. The access to reports is controlled by the *Statistics* setting and viewing transcription statistics is controlled by the *Tran Reports* setting in the Security Role Editor. See [Security Role Settings](../system-administration/security/security-role-settings.md).
 
 1. Show the side menu. The side menu appears.
 2. From the side menu, select <strong>Reports</strong>.
