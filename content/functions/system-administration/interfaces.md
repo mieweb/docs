@@ -1,8 +1,9 @@
 ---
 id: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
 title: 'Interfaces'
-date: '2020-02-27T20:26:11.178Z'
-version: 22
+date: '2024-10-07T21:23:41.151Z'
+version: 27
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
