@@ -1,8 +1,8 @@
 ---
 id: '1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
 title: 'Whisper AI - Dictation - Summarize'
-date: '2024-10-09T21:24:47.884Z'
-version: 326
+date: '2024-10-09T21:37:41.255Z'
+version: 329
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -82,9 +82,11 @@ Whisper AI assists providers with grammar and sentence structure.
 
 For example the provider dictates: "The dude said he was walking on the loading dock and looking at the tools and trucks and stuff like that and umm thinking about what he needed to pick up at the store and stuff umm on his way home when tripped on a ladder on the floor."
 
+Whisper AI translates this to:
+
 ![](../whisper-ai-dictation-summarize.assets/5775d2e34e950aa82f3a87ed7d544ce2.png)
 
-Whisper AI has been enhanced to assist providers when dictating. AI utilizes voice to text and will now remove commands such as "new paragraph" and "period" when dictating into an encounter section.
+Whisper AI has also  been enhanced to assist providers when dictating. AI utilizes voice to text and will now remove commands such as "new paragraph" and "period" when dictating into an encounter section.
 
 For example, the provider dictates: "I'd like to talk about the plan new paragraph. We're going to order some tests and change some meds period We'll see if we can get some things going exclamation mark"
 
