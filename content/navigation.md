@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-07T17:04:51.992Z'
-version: 737
+date: '2024-10-09T21:24:16.005Z'
+version: 745
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -23,6 +23,7 @@ links:
   - 'functions.md'
   - 'functions/artificial-intelligence.md'
   - 'functions/artificial-intelligence/ai-chat-box.md'
+  - 'https://drive.google.com/open?id=1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
   - 'functions/absence-management.md'
   - 'functions/absence-management/absence-management-workflow.md'
   - 'functions/e-chart.md'
@@ -587,7 +588,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-audio-system.md'
   - 'functions/system-administration/interfaces/device-interface-cardioperfect-ekg.md'
   - 'functions/system-administration/interfaces/device-interface-cholestech-ldx.md'
-  - 'https://drive.google.com/open?id=1C5IsXjz0r1av5vusmT8ud4GsjtI9kOOY7Z5dqTVhvZ0'
+  - 'functions/system-administration/interfaces/device-interface-clinitek-statusurine-analyzer.md'
   - 'functions/system-administration/interfaces/device-interface-ekg-system.md'
   - 'functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
   - 'functions/system-administration/interfaces/device-interface-pft-system.md'
@@ -742,6 +743,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
     * QuickView
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
+        * [Whisper AI - Dictation - Summarize](https://drive.google.com/open?id=1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ#heading=h.58zjto1llw5w)
     * [Absence Management](functions/absence-management.md)
         * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
     * [E-Chart](functions/e-chart.md)
@@ -1307,7 +1309,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - Audio System](functions/system-administration/interfaces/device-interface-audio-system.md)
             * [Device Interface - CardioPerfect EKG](functions/system-administration/interfaces/device-interface-cardioperfect-ekg.md)
             * [Device Interface - Cholestech LDX](functions/system-administration/interfaces/device-interface-cholestech-ldx.md)
-            * [Device Interface - Clinitek Status+Analyzer](https://drive.google.com/open?id=1C5IsXjz0r1av5vusmT8ud4GsjtI9kOOY7Z5dqTVhvZ0)
+            * [Device Interface - Clinitek Status+Analyzer](functions/system-administration/interfaces/device-interface-clinitek-statusurine-analyzer.md)
             * [Device Interface - EKG System](functions/system-administration/interfaces/device-interface-ekg-system.md)
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
