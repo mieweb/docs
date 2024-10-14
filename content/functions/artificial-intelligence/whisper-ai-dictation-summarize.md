@@ -1,8 +1,8 @@
 ---
 id: '1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
 title: 'Whisper AI - Dictation - Summarize'
-date: '2024-10-09T21:38:15.295Z'
-version: 340
+date: '2024-10-14T20:13:03.673Z'
+version: 344
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -62,6 +62,7 @@ If the encounter section is closed, simply click on the text, the text will disp
 If the encounter section is opened, the user can click in the appropriate field and make changes.
 
 ![](../whisper-ai-dictation-summarize.assets/1fa9adbb6dfa4a2c283225dc19b4fc38.png)
+
 ## Using Whisper AI in Encounter Sections
 
 If providers do not wish to use guided flowsheets, they may also use the dictation voice to text feature on encounter sections.Click the dictation *"microphone"* icon on any encounter section to begin recording.
