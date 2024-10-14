@@ -10,6 +10,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
          * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
       * Artificial Intelligence
          * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
+         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md)
       * Document Management
          * Documents & Forms
             * [Add Document - Legacy View vs. Current View](functions/document-management/documents-and-forms/add-document-legacy-view-vs.-current-view.md)
@@ -642,6 +643,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - Benson CCS-200 Spirometer](functions/system-administration/interfaces/device-interface-benson-ccs-200-spirometer.md)
             * [Device Interface - CardioPerfect EKG](functions/system-administration/interfaces/device-interface-cardioperfect-ekg.md)
             * [Device Interface - Cholestech LDX](functions/system-administration/interfaces/device-interface-cholestech-ldx.md)
+            * [Device Interface - Clinitek Status+Urine Analyzer](functions/system-administration/interfaces/device-interface-clinitek-statusurine-analyzer.md)
             * [Device Interface - Depisteo VT1](functions/system-administration/interfaces/device-interface-depisteo-vt1.md)
             * [Device Interface - EKG System](functions/system-administration/interfaces/device-interface-ekg-system.md)
             * [Device Interface - Maico MA800](functions/system-administration/interfaces/device-interface-maico-ma800.md)
