@@ -2,7 +2,7 @@
 id: '1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
 title: 'Creating or Adding Encounters'
 date: '2020-03-13T15:01:30.440Z'
-version: 95
+version: 97
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

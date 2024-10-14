@@ -2,7 +2,7 @@
 id: '1oJobeiTCRgSrK0GKKP_ZyFIPnJQs7mB07tLZrp9m1YQ'
 title: 'Dynamic encounter landing page example'
 date: '2024-06-28T15:32:48.245Z'
-version: 78
+version: 80
 lastAuthor: 'godlewski8'
 mimeType: 'text/x-markdown'
 links: []

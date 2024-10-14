@@ -1,8 +1,8 @@
 ---
 id: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
 title: 'Interfaces'
-date: '2024-10-07T21:23:41.151Z'
-version: 27
+date: '2024-10-07T21:23:42.620Z'
+version: 30
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

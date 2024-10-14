@@ -2,7 +2,7 @@
 id: '1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
 title: 'Device Interface - Audio: Tremetrics/Maico'
 date: '2020-02-27T20:26:37.849Z'
-version: 30
+version: 32
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
