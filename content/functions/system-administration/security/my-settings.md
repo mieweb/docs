@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-09-06T16:21:32.157Z'
-version: 533
-lastAuthor: 'anichols'
+date: '2024-10-15T14:23:56.288Z'
+version: 539
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
@@ -144,6 +144,10 @@ When looking at preference choices available in the drop-down:
 * Show Dynamic List Options: Determine if icons in dynamic lists, typically found in encounter sections, should show Always or only On Hover.  Some examples of sections with Dynamic List Options that display always or on hover:
 
 ![](../my-settings.assets/03251eef412e80b75e64bb0f790a9311.png)
+
+* Use New User View:  When set, a new view is available when viewing user information in Access Control.
+
+![](../my-settings.assets/c3c499246f63a9b1caf5b454e52476e0.png)
 
 #### Faxing
 
