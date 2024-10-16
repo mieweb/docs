@@ -1,8 +1,8 @@
 ---
 id: '1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
 title: 'Copy From Previous Exam'
-date: '2024-10-03T20:22:09.066Z'
-version: 26
+date: '2024-10-14T21:02:03.413Z'
+version: 36
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -93,4 +93,4 @@ For clients on 202309 and newer, the Copy From Previous Exam feature has been ad
 
 ![](../copy-from-previous-exam.assets/4a56102df6e988419a9820c3811ed161.png)
 
-![](../copy-from-previous-exam.assets/37e201989943c7db05ed1ecd127b2c87.png)
+![](../copy-from-previous-exam.assets/5bad704137e1ceb86357b71e961c0e9c.png)
