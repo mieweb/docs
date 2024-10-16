@@ -1,8 +1,8 @@
 ---
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
-date: '2024-07-16T19:42:01.881Z'
-version: 212
+date: '2024-10-16T17:10:20.012Z'
+version: 231
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -210,6 +210,18 @@ If you have security role permission, this link will appear. You can click this 
 #### View User Revisions
 
 If you have security role permission, this link will appear. You can click this link to view dates and who revised anything for that user in their user screen.
+
+#### My Setting: New User View
+
+A user preference is available called "Use New User View". When set, a new view is available when viewing user information in Access Control.
+
+New User View:
+
+![](../access-control-adding-deleting-editing-users.assets/c3c499246f63a9b1caf5b454e52476e0.png)
+
+Legacy View:
+
+![](../access-control-adding-deleting-editing-users.assets/32a454e7508b9aa54349b2dd96fd73b7.png)
 
 ## Learning Management System
 
