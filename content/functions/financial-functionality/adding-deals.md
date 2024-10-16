@@ -1,8 +1,8 @@
 ---
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding Deals'
-date: '2024-10-03T20:39:24.640Z'
-version: 55
+date: '2024-10-15T20:20:00.237Z'
+version: 65
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -32,8 +32,9 @@ Enter the Signatory for both the EO and PO **(REQUIRED)**.
 
 ![](../adding-deals.assets/3cc3b6d414bf565fc3a7df29ec3a03dc.png)
 
-    * In the ‘Name' field, type the name of the contact for the employer or provider organization. The system shows matching contacts. Select the contact.
-    * In the ‘Role' field, select ‘Signatory Contact'. Select the ‘Add' button. Repeat to add another contact, if appropriate. Then select ‘Next'.
+In the ‘Name' field, type the name of the contact for the employer or provider organization. The system shows matching contacts. Select the contact.
+
+In the ‘Role' field, select ‘Signatory Contact'. Select the ‘Add' button. Repeat to add another contact, if appropriate. Then select ‘Next'.
 
 ### Details
 
@@ -41,17 +42,23 @@ Enter a Title, Start Date and End Date. These items are **REQUIRED**. Before the
 
 ![](../adding-deals.assets/3d7b57aa7d7e17c9e7467e16b3c73057.png)
 
-    * Title:
-        * Enter the name for this deal<strong>(REQUIRED).</strong> Or use the macro's library to create a standard
-    * In the Start Date field, do one: (<strong>REQUIRED</strong>)
-        * Type in the date, month, and year on which the deal is effective.
-        * Select Today to choose today's date, month, and year on which the deal is effective.
-        * Select Calendar to choose from a calendar the date, month, and year on which the deal is effective.
-    * In the End Date field, do one:
-        * Type in the date, month, and year after which the deal is not effective.
-        * Select Today to choose today's date, month, and year after which the deal is not effective.
-        * Select Calendar to choose from a calendar the date, month, and year after which the deal is not effective.
-    * In the Executed field, select Yes or No to indicate if the deal is in effect between the organizations. (<strong>REQUIRED</strong>)
+Title:
+
+* Enter the name for this deal<strong>(REQUIRED).</strong> Or use the macro's library to create a standard.
+
+In the Start Date field, do one: (**REQUIRED**)
+
+* Type in the date, month, and year on which the deal is effective.
+* Select Today to choose today's date, month, and year on which the deal is effective.
+* Select Calendar to choose from a calendar the date, month, and year on which the deal is effective.
+
+In the End Date field, do one:
+
+* Type in the date, month, and year after which the deal is not effective.
+* Select Today to choose today's date, month, and year after which the deal is not effective.
+* Select Calendar to choose from a calendar the date, month, and year after which the deal is not effective.
+
+In the Executed field, select Yes or No to indicate if the deal is in effect between the organizations. (**REQUIRED**)
 
 ### Charges
 
@@ -63,18 +70,18 @@ The Add Charge window appears. Enter in each field as appropriate.
 
 ![](../adding-deals.assets/2b1d09cb46cbc12a36eab5e60300e690.png)
 
-    * In the Date field, enter the month, day and year on which the charge is created or select Today to use today's month, day, and year or select Calendar to select the month, date, and year from a calendar.
-    * In the ‘Funding Source' field, select an account against which this charge will be made. Please note that this will not be passed to OpenPM for billing purposes.
-    * In the ‘Item' field, type a description of the item. The system displays matching items. Select the appropriate one. Its name appears in the Item field and its CPT code (if it has one) appears in the CPT Code field.
-        * Note: If a client is authorized to use CPT and loads them in their database, the CPT will pull forward from the Orders-List Editor.
-    * A charge will not drop in an encounter without a code in the CPT field. You do not need to use a CPT code but a string of alpha/numeric characters needs to be listed here in order for the charge to drop on the encounter.
-    * In the ‘Reason #1' through ‘Reason #4' fields as appropriate, type a description of a diagnosis or a diagnosis code to associate with this item. The system displays matching items. Select the appropriate one.
-    * To the right, from the Modifiers List, select an appropriate modifier. The selection appears in the Modifiers field. If no modifier is necessary, skip.
-    * In the ‘Quantity' field, type the quantity of the item to include each time this item is used in a visit.
-    * In the ‘Price' field, type the contracted price of the item as dollars and cents.
-        * Note: a system default for pricing can be loaded on the procedure/order codes in the Orders-List Editor.
-    * In the ‘Memo' field, type any information applicable to the item not otherwise contained in the window.
-    * To save this item and add more, select Add Another. Otherwise, select Save.
+* In the Date field, enter the month, day and year on which the charge is created or select Today to use today's month, day, and year or select Calendar to select the month, date, and year from a calendar.
+* In the ‘Funding Source' field, select an account against which this charge will be made. Please note that this will not be passed to OpenPM for billing purposes.
+* In the ‘Item' field, type a description of the item. The system displays matching items. Select the appropriate one. Its name appears in the Item field and its CPT code (if it has one) appears in the CPT Code field.
+    * Note: If a client is authorized to use CPT and loads them in their database, the CPT will pull forward from the Orders-List Editor.
+* A charge will not drop in an encounter without a code in the CPT field. You do not need to use a CPT code but a string of alpha/numeric characters needs to be listed here in order for the charge to drop on the encounter.
+* In the ‘Reason #1' through ‘Reason #4' fields as appropriate, type a description of a diagnosis or a diagnosis code to associate with this item. The system displays matching items. Select the appropriate one.
+* To the right, from the Modifiers List, select an appropriate modifier. The selection appears in the Modifiers field. If no modifier is necessary, skip.
+* In the ‘Quantity' field, type the quantity of the item to include each time this item is used in a visit.
+* In the ‘Price' field, type the contracted price of the item as dollars and cents.
+    * Note: a system default for pricing can be loaded on the procedure/order codes in the Orders-List Editor.
+* In the ‘Memo' field, type any information applicable to the item not otherwise contained in the window.
+* To save this item and add more, select Add Another. Otherwise, select Save.
 
 Once all items have been added to the Charges section, the complete list of the procedures, associated conditions, and pricing will display. Hover over the items to view, edit, delete or rearrange order icons.
 
