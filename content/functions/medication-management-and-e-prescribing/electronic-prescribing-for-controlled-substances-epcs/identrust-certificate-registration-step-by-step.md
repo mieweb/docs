@@ -1,8 +1,8 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2023-06-07T16:54:48.490Z'
-version: 374
+date: '2024-10-15T19:25:36.105Z'
+version: 387
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -47,6 +47,8 @@ The first step requires the selection of the certificate. There are 3 types of C
 2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $258.00 (Pricing subject to change by IdenTrust)</strong>
     1. Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
 3. <strong>Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $84.00-$198.00</strong>
+
+******Note: Enterprise Health and WebChart will be deprecating support for USB tokens. Customers should opt for the Mobile Authentication certificate.**
 
 ![](../identrust-certificate-registration-step-by-step.assets/1267da7bd410bb66b035e0c6d917348d.png)
 
