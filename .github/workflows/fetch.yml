@@ -51,7 +51,7 @@ jobs:
       run: node "/root/wikiGDrive/dist/main.js" pull
 
     - name: Generate menu
-      run: cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+      run: mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
 
     - name: run Hugo for WebChart
       run: hugo --config 'config-wc.toml'

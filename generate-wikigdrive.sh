@@ -4,7 +4,7 @@ npm config set color false &&  npm config set progress false
 echo "npm i"
 time npm i
 
-cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
 
 echo "Building docs.enterprisehealth.com"
 rm -rf public/*
