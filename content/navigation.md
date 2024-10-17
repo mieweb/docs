@@ -121,7 +121,7 @@ links:
   - 'functions/portal-management/nomoreclipboard.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
-  - 'https://drive.google.com/open?id=15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
+  - 'functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
   - 'functions/encounters.md'
   - 'functions/encounters/dictation-and-transcription.md'
@@ -248,7 +248,7 @@ links:
   - 'functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md'
   - 'functions/financial-functionality.md'
   - 'functions/financial-functionality/adding-deals.md'
-  - 'https://drive.google.com/open?id=1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
+  - 'functions/financial-functionality/deal-quick-links-using-deals-in-encounters.md'
   - 'functions/system-configuration.md'
   - 'functions/system-configuration/chart-types-editor.md'
   - 'functions/system-configuration/chart-tabs.md'
@@ -844,7 +844,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#_p4483xhk4y5q)
-        * [Outside Contact Portal - SMP Portal Clinic Sender Experience](https://drive.google.com/open?id=15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc#heading=h.h2rhs75l36bw)
+        * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#_h2rhs75l36bw)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
     * [Encounters](functions/encounters.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
@@ -972,7 +972,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Outbound Faxing Email Notifications of Sent/Failed Faxes](functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md)
     * [Financial Functionality](functions/financial-functionality.md)
         * [Adding Deals](functions/financial-functionality/adding-deals.md)
-        * [Deal Quick Links - Using Deals In Encounters](https://drive.google.com/open?id=1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ)
+        * [Deal Quick Links - Using Deals In Encounters](functions/financial-functionality/deal-quick-links-using-deals-in-encounters.md)
     * [System Configuration](functions/system-configuration.md)
         * [Chart Types Editor](functions/system-configuration/chart-types-editor.md)
         * [Chart Tabs](functions/system-configuration/chart-tabs.md)

@@ -191,6 +191,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
          * [Creating employer organizations](functions/financial-functionality/creating-employer-organizations.md)
          * [Creating fee schedules](functions/financial-functionality/creating-fee-schedules.md)
          * [Creating Statements](functions/financial-functionality/creating-statements.md)
+         * [Deal Quick Links - Using Deals in Encounters](functions/financial-functionality/deal-quick-links-using-deals-in-encounters.md)
          * [Deals](functions/financial-functionality/deals.md)
          * [Downloading financial reports](functions/financial-functionality/downloading-financial-reports.md)
          * [Duplicating fee schedules](functions/financial-functionality/duplicating-fee-schedules.md)
@@ -311,6 +312,8 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
          * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
          * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
          * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
+         * [Outside Contact Portal - SMP Portal Clinic Sender User Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md)
+         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
          * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
          * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
       * Quality of Care
