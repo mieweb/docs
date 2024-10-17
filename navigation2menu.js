@@ -18,7 +18,8 @@ for (const line of markdown.split('\n')) {
         continue;
     }
     const indentPart = line.replace(/(^ *\* ).*/, '$1');
-    const markdownLink = line.substring(indentPart.length);
+    const markdownLink = line.substring(indentPart.length)
+         .replace(/#[^)]*\)$/, ')');
     const matched = markdownLink.match(/\[([^\]]+)\]\(([^)]+)\)/);
     if (!matched) {
         console.warn(`Warning: navigation.md menu has "${markdownLink}" without url near: "${lastContent}"`);
