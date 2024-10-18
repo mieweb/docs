@@ -1,8 +1,8 @@
 ---
 id: '1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
 title: 'Deal Quick Links - Using Deals in Encounters'
-date: '2024-10-15T20:34:20.802Z'
-version: 33
+date: '2024-10-18T15:07:47.704Z'
+version: 40
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -75,9 +75,9 @@ If orders from the Deal were added to the Due List prior to opening an encounter
 
 If Deal orders have not been selected prior to the visit, they can be added on the fly from the Tests & Procedures Quick List.
 
-*Note:* The Deal order items will only display in the Tests & Procedures Quick List if the Employer/payer have been set in the Encounter section.
+**_Note:_** The Deal order items will only display in the Tests & Procedures Quick List if the Employer/payer have been set in the Encounter section.
 
-*Note:* Special pricing configured on a deal will always override the pricing in the encounter when used. However, if treatment or equipment needs to be added to the encounter ad hoc, the pricing and codes must be configured directly on the order items that are not found on the deal. This is especially common for work comp workflows where you cannot always predict what services are needed and add them to the deal proactively. The user can then search for the orders (procedures) Tests & procedures, or pick them off of the pick list and add them to the encounter as normal.
+**_Note:_** Special pricing configured on a deal will always override the pricing in the encounter when used. However, if treatment or equipment needs to be added to the encounter ad hoc, the pricing and codes must be configured directly on the order items that are not found on the deal. This is especially common for work comp workflows where you cannot always predict what services are needed and add them to the deal proactively. The user can then search for the orders (procedures) Tests & procedures, or pick them off of the pick list and add them to the encounter as normal.
 
 ![](../deal-quick-links-using-deals-in-encounters.assets/c97c795efec61dc2ef7a0c1af4e627c2.png)
 
