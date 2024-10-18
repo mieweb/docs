@@ -2,7 +2,7 @@
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
 date: '2024-09-25T15:17:28.123Z'
-version: 325
+version: 327
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

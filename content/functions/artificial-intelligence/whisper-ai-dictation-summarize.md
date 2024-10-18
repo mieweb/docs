@@ -1,8 +1,8 @@
 ---
 id: '1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
 title: 'Whisper AI - Dictation - Summarize'
-date: '2024-10-17T16:45:17.071Z'
-version: 361
+date: '2024-10-17T16:47:00.061Z'
+version: 366
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
