@@ -23,7 +23,7 @@ jobs:
         npm ci
 
     - name: Generate menu
-      run: cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+      run: mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
 
     # Build the HTML versions of the md using hugo
     - name: Build WebChart HTML
