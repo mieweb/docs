@@ -1,31 +1,21 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA'
-date: '2024-08-02T16:17:58.378Z'
-version: 95
-lastAuthor: 'bhamm'
+date: '2024-10-21T17:44:20.295Z'
+version: 159
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
-* [WebChart 2FA Provisioning](#webchart-2fa-provisioning)
-* [Setup](#setup)
-* [Use](#use)
-* [Super User Approval](#super-user-approval)
-* [Setup](#setup)
-* [Use](#use)
-* [NMC 2FA Provisioning](#nmc-2fa-provisioning)
-* [Setup](#setup)
-* [Use](#use)
+## Multi-Factor Authentication
 
-# Multi-Factor Authentication
-
-## Overview
+### Overview
 
 WebChart EHR Multi-Factor Authentication (MFA) is available in all systems (RC202009+) but is disabled by default.  Once MFA is enabled for a system, each user requiring MFA needs to be set up individually.
 
-## Security Level
+### Security Level
 
 WebChart EHR supports three levels of MFA.  The level of security can be selected on a per-user basis to meet your organization's needs.
 
@@ -33,7 +23,7 @@ WebChart EHR supports three levels of MFA.  The level of security can be selecte
 * When the system deems appropriate (More Security)
 * At every login (Maximum Security)
 
-## Password Type
+### Password Type
 
 WebChart EHR supports two options for the second factor password:
 
@@ -42,25 +32,13 @@ WebChart EHR supports two options for the second factor password:
 
 MIE strongly recommends a time-based password; however, a counter-based password is an available option for those users that may have difficulty quickly typing a 6-digit number or have a device which does not reliably keep the current time.
 
-## General Set Up
+### General Set Up
 
 Once MFA is enabled for a system, each user can be configured from their Edit User page.  Setup is completed most easily on a device that has 2D barcode scanning capability by following the prompts in WebChart and on your device; however, setup can also be completed with a device that does not support barcode scanning.
 
-WebChart/Enterprise Health 2FA
+## WebChart/Enterprise Health 2FA Provisioning
 
-* [WebChart 2FA Provisioning](#webchart-2fa-provisioning)
-* [Setup](#setup)
-* [Use](#use)
-* [Super User Approval](#super-user-approval)
-* [Setup](#setup)
-* [Use](#use)
-* [NMC 2FA Provisioning](#nmc-2fa-provisioning)
-* [Setup](#setup)
-* [Use](#use)
-
-# WebChart 2FA Provisioning
-
-## Setup
+### Setup
 
 Screen change in User Edit:
 
@@ -92,7 +70,7 @@ Tabbing through the OTP input without entering a value actively prompts the user
 
 Click ‘Complete Setup'
 
-![](../multi-factor-authentication-mfa.assets/99bbd7151e45b98baecca1413eedd664.png)
+![](../multi-factor-authentication-mfa.assets/e3718eb48ef3a5d1e4c7b337a0c9ce80.png)
 
 User Edit screen, with 2 Step enabled:
 
@@ -132,7 +110,7 @@ View User screen, after clicking ‘Verify':
 
 ![](../multi-factor-authentication-mfa.assets/9401ef90fb6235472ee7802b1cf947aa.png)
 
-## Use
+### User Experience
 
 ### Login validation using OTP
 
@@ -160,9 +138,49 @@ Which displays the OTP for counter=0:
 
 ![](../multi-factor-authentication-mfa.assets/644750822961920ba4100e9b4a478eb2.png)
 
-# Super User Approval
+## Require 2FA Upon Log In
 
-## Setup
+### Setup
+
+Set the WebChart/Login/Require2FA system setting value to ‘Encourage'. When this system setting is configured with the value of "Encourage", users will be prompted to set up 2 factor authentication after completing their initial login. Users can opt to bypass the 2FA set up process upon logging in, but they will be prompted each time they log in to set up 2FA until they do so.
+
+![](../multi-factor-authentication-mfa.assets/090a891e00e8c4b0c20e40e467e5e2a5.png)
+
+The user must also have a valid username and password set.
+
+### User Experience
+
+Log in using your Enterprise Health or WebChart login
+
+![](../multi-factor-authentication-mfa.assets/23c9b0b1485503242d4de2cc9229d456.png)
+
+Enter your Enterprise Health or WebChart Password
+
+![](../multi-factor-authentication-mfa.assets/6c2a16e1ac94e5a7433fac9ddda4a341.png)
+
+Enter the appropriate response to the question, "Does your device support scanning a barcode?" Yes/No and "Which password type would you like to use" Time Based/Counter Based. Users can click the X in the upper right hand corner and bypass setting up the 2FA process. The user will continue to be prompted upon each login to set up 2FA until they do so.
+
+![](../multi-factor-authentication-mfa.assets/b1bcbfe18b295abf04c12f7b8f9b5c2a.png)
+
+If using a phone or other device with a camera, scan the QR code from your authentication application. (For example, Google authenticator, MS authentication, etc)
+
+![](../multi-factor-authentication-mfa.assets/073e571209a590b31a62629bfd55a805.png)
+
+Obtain the OTP (One Time Password)/code from the authenticator application.
+
+![](../multi-factor-authentication-mfa.assets/8b5a1abc1c57d49f29dfd10086b68c86.png)
+
+Enter the OTP (One Time Password) in the *Enter the OTP from your device* field and then click the *Complete Setup* button.
+
+![](../multi-factor-authentication-mfa.assets/7bac61cb308f80988d45aaf548efffe4.png)
+
+A confirmation message will display once the set up is complete.
+
+![](../multi-factor-authentication-mfa.assets/5a7eebde04dad76358d7eea81822e52e.png)
+
+## Super User Approval
+
+### Setup
 
 Update to View of 2FA'd Users when Super User is active.
 
@@ -200,7 +218,7 @@ Super User Portlet with Super User access
 
 ![](../multi-factor-authentication-mfa.assets/64b73efe841dfb7c9b68d625339335cf.png)
 
-## Use
+### User Experience
 
 Enter the OTP from the Super User authorized 2FA device
 
@@ -210,9 +228,9 @@ If OTP is accepted:
 
 ![](../multi-factor-authentication-mfa.assets/1312dbf1cee3a544141ee868e11a1a3a.png)
 
-# NMC 2FA Provisioning
+## NMC 2FA Provisioning
 
-## Setup
+### Setup
 
 Addition of Account Security on Member Summary page:
 
@@ -254,7 +272,7 @@ After clicking ‘Setup New Device' (HOTP and TOTP available) else, barcode scre
 
 ![](../multi-factor-authentication-mfa.assets/d08eaef1444f33fecf66a63d13263d24.png)
 
-## Use
+### User Experience
 
 Login Screen:
 
