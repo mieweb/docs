@@ -1,8 +1,8 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2024-10-21T18:24:16.515Z'
-version: 1064
+date: '2024-10-21T18:58:58.198Z'
+version: 1071
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -60,13 +60,13 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ### Edit
 
-    * This will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
+* This will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
 
 ![](../smart-plan.assets/7113e19f5b9aad41e36086d36b464ed2.png)
 
-    * If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
-    * Conditions with a Clinic Status of Inactive, Remission or Resolved condition, and/or and Verification Status of Unconfirmed will continue to display on the Problem List Quick List. However, the system will indicate in lighter gray to the right of the condition name that the condition is Inactive, Remission, Resolved or Unconfirmed.
-    * Comments added on this screen will display as an undated note in the current and future Smart Plan Quick List. To view, hover over the condition name on the Smart Plan Condition Quick List.
+* If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
+* Conditions with a Clinic Status of Inactive, Remission or Resolved condition, and/or and Verification Status of Unconfirmed will continue to display on the Problem List Quick List. However, the system will indicate in lighter gray to the right of the condition name that the condition is Inactive, Remission, Resolved or Unconfirmed.
+* Comments added on this screen will display as an undated note in the current and future Smart Plan Quick List. To view, hover over the condition name on the Smart Plan Condition Quick List.
 
 ![](../smart-plan.assets/2940c902a1e8bd5d68a790e7dfb75ec2.png)
 
@@ -74,21 +74,21 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ### Remove
 
-    * This will call the Remove Condition screen. This screen allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or it was an error and shouldn't have been in the medical history at all.
-    * Comments added on this screen will display as an undated note in the current and future Smart Plan Quick List. To view, hover over the condition name on the Smart Plan Condition Quick List.
-    * Users can also view historical revisions for this condition, notes, tasks and links.
+* This will call the Remove Condition screen. This screen allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or it was an error and shouldn't have been in the medical history at all.
+* Comments added on this screen will display as an undated note in the current and future Smart Plan Quick List. To view, hover over the condition name on the Smart Plan Condition Quick List.
+* Users can also view historical revisions for this condition, notes, tasks and links.
 
 ![](../smart-plan.assets/be0a6f496e4b61b41dbb5ba53e983195.png)
 
 ### Move to PMH
 
-    * If the condition was previously set to Problem List, "Yes" and Past Medical History,  "Yes", then when the ‘Move to PMH' button is selected, the condition will move from Problem List Quick List to the Past Medical History Quick List.
+* If the condition was previously set to Problem List, "Yes" and Past Medical History,  "Yes", then when the ‘Move to PMH' button is selected, the condition will move from Problem List Quick List to the Past Medical History Quick List.
 
 ![](../smart-plan.assets/5d1bd4efa19ba42b3d74049113ef5f77.png)
 
 ![](../smart-plan.assets/ccab6a5b3f181a4c5f54eb6dd1f62ccc.png)
 
-    * If the condition was previously set to Problem List, "Yes" and Past Medical History, "No", then when the ‘Move to PMH button' is selected, the condition will move to the Other Problems Quick List.
+* If the condition was previously set to Problem List, "Yes" and Past Medical History, "No", then when the ‘Move to PMH button' is selected, the condition will move to the Other Problems Quick List.
 
 ![](../smart-plan.assets/913a6b9cc7da7f1e6c05b7ec89a637d4.png)
 
@@ -96,7 +96,7 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ### Add to Assessment
 
-    * Clicking this icon, this will add the condition to the Smart Plan Assessment for today's Smart Plan.
+* Clicking this icon, this will add the condition to the Smart Plan Assessment for today's Smart Plan.
 
 ![](../smart-plan.assets/816e651c61e5d9668ec60d0df98f1347.png)
 
@@ -126,24 +126,23 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ### Edit
 
-        * This will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
-        * If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
-        * Conditions with a Clinic Status of Inactive, Remission or Resolved, will continue to display in the Past Medical History Quick List. However, the system will indicate in lighter gray to the right of the condition name that the condition is Inactive, Remission, Resolved.
-        * Any condition updated in the Past Medical History Quick List to an Unconfirmed Verification status, will move from the Past Medical History Quick List to the Unconfirmed Conditions Quick List. Unconfirmed conditions will not display in the Past Medical History Quick List.
-        * Any condition updated in the Past Medical History Quick List with a Clinical Status of Refuted will be moved to the Declined Conditions Quick List.
+* This will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
+* If a condition is marked as "Yes" to Problem List and "Yes" to Past Medical History, the condition will display in the Problem List Quick List only.
+* Conditions with a Clinic Status of Inactive, Remission or Resolved, will continue to display in the Past Medical History Quick List. However, the system will indicate in lighter gray to the right of the condition name that the condition is Inactive, Remission, Resolved.
+* Any condition updated in the Past Medical History Quick List to an Unconfirmed Verification status, will move from the Past Medical History Quick List to the Unconfirmed Conditions Quick List. Unconfirmed conditions will not display in the Past Medical History Quick List.
+* Any condition updated in the Past Medical History Quick List with a Clinical Status of Refuted will be moved to the Declined Conditions Quick List.
 
 ### Remove
 
-        * This will call the Remove Condition screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists.
+* This will call the Remove Condition screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists.
 
 ### Move to Problem List
 
-        * When selected, the condition on the Past Medical History Quick List will move to the Problem List Quick List.
+* When selected, the condition on the Past Medical History Quick List will move to the Problem List Quick List.
 
 ### Add to Assessment
 
-        * When selected, this will add the condition to the Smart Plan for today's visit.
-
+* When selected, this will add the condition to the Smart Plan for today's visit.
 ## Other Problems Quick List
 
 * These are conditions that were added and not indicated to be on the Problem List or the Past Medical History Quick Lists. These might include quality care or administrative codes.
@@ -167,18 +166,18 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ### Approve
 
-        * Clicking the approved Icon will change the Condition Verification Status to Confirmed and move the condition from the Unconfirmed Quick List to the Problem List, Past Medical History or Other Problems Quick Lists, depending on your Problem List and Past Medical History radio button selection upon original entry of the condition.
+* Clicking the approved Icon will change the Condition Verification Status to Confirmed and move the condition from the Unconfirmed Quick List to the Problem List, Past Medical History or Other Problems Quick Lists, depending on your Problem List and Past Medical History radio button selection upon original entry of the condition.
 
 ![](../smart-plan.assets/c5c994e2eebd07fd9d638df7c31353d2.png)
 
-        * Confirmed conditions are also automatically added to the Smart Plan.
+* Confirmed conditions are also automatically added to the Smart Plan.
 
 ![](../smart-plan.assets/bcc90f6c9a3ca349aabe86af1d10d0e6.png)
 
 ### Decline
 
-        * Clicking the Decline icon will call the Decline Condition screen. The condition's Verification Status will update to Refuted. Users are required to enter a Reason for declining, then click the Decline button to save the declination.
-        * Upon declining a condition, the condition will display in the Declined Conditions Quick List.
+* Clicking the Decline icon will call the Decline Condition screen. The condition's Verification Status will update to Refuted. Users are required to enter a Reason for declining, then click the Decline button to save the declination.
+* Upon declining a condition, the condition will display in the Declined Conditions Quick List.
 
 ![](../smart-plan.assets/38c48ab50fb1fc8645d15dc6785f1db7.png)
 
@@ -238,8 +237,8 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ## Past Meds Quick List
 
-    * Shows a list of all current and discontinued medications.
-    * Click the "+" icon next to the Other option to Prescribe a Medication.
+* Shows a list of all current and discontinued medications.
+* Click the "+" icon next to the Other option to Prescribe a Medication.
 
 ![](../smart-plan.assets/0c56b7e683a72c662425b9fd384807f3.png)
 
@@ -250,9 +249,9 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ## Due List Quick List
 
-    * This Quick List displays a list of Pending Due List Order Items.
-    * Click the "+" icon next to the Other option to add an order.
-    * The Add Encounter Order screen allows users to add orders to Libraries.
+* This Quick List displays a list of Pending Due List Order Items.
+* Click the "+" icon next to the Other option to add an order.
+* The Add Encounter Order screen allows users to add orders to Libraries.
 
 ![](../smart-plan.assets/1ab791ff3d818ed1dbc8c235c7bd9b7e.png)
 
@@ -373,116 +372,116 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 ![](../smart-plan.assets/73d6d85faf0c94ee2373d342bb7e9da4.png)
 
 1. ## Edit
-    * This selection will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
+* This selection will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
 
 ![](../smart-plan.assets/f5c315fdbdf5094818e94791aec36570.png)
 
 2. ## Remove from Assessment
 
-    * Selecting this option will remove the condition from today's assessment.
-    * The condition will continue to show on the Quick Lists, however the blue/white checkmark in the Quick List will no longer be illuminated.
+* Selecting this option will remove the condition from today's assessment.
+* The condition will continue to show on the Quick Lists, however the blue/white checkmark in the Quick List will no longer be illuminated.
 
 ## ![](../smart-plan.assets/3d8380f2da24691590dbe96d4417f3e7.png)
 
 3. ## Remove
 
-    * Selecting this option will call the Remove Condition screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or perhaps previously entered in error.
+* Selecting this option will call the Remove Condition screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or perhaps previously entered in error.
 
 ![](../smart-plan.assets/7260e63c4a0e43c03d27ae19ee8a202c.png)
 
 4. ## Notes
 
-    * Selecting this option will call the Notes screen.
-    * Users may enter a free text note or utilize pre configured macros and submit.
-    * Users with the appropriate security setting may also create new macros and/or select an appropriate E&M category for billing purposes.
-    * Users may enter multiple notes on a condition.
-    * Notes will display under the condition in today's Smart Plan Assessment.
-    * Prior Notes are visible to the end user when adding a note for today.
+* Selecting this option will call the Notes screen.
+* Users may enter a free text note or utilize pre configured macros and submit.
+* Users with the appropriate security setting may also create new macros and/or select an appropriate E&M category for billing purposes.
+* Users may enter multiple notes on a condition.
+* Notes will display under the condition in today's Smart Plan Assessment.
+* Prior Notes are visible to the end user when adding a note for today.
 
 ![](../smart-plan.assets/21584ca77f08f36929443949221c6dbe.png)
 
 ![](../smart-plan.assets/5d287197a8f52b2cfaac428736086367.png)
 
-    * Prior notes do not automatically populate today's Smart Plan, however, users can click the copy note feature to quickly copy prior notes to today's notes.
+* Prior notes do not automatically populate today's Smart Plan, however, users can click the copy note feature to quickly copy prior notes to today's notes.
 
 ![](../smart-plan.assets/8208885476f9f3b55831777bf502438c.png)
 
-    * Users may also click directly on a note from today's visit and continue to add more text or edit today's Condition Notes.
+* Users may also click directly on a note from today's visit and continue to add more text or edit today's Condition Notes.
 
 ![](../smart-plan.assets/44cc5de2ba088a7e2b9b36f182331d61.png)
 
-    * Smart Plan Condition Notes will also display in the Assessment, Symptoms/Diagnosis section of the encounter and do become part of the permanent record for today's visit.
+* Smart Plan Condition Notes will also display in the Assessment, Symptoms/Diagnosis section of the encounter and do become part of the permanent record for today's visit.
 
 ![](../smart-plan.assets/59fac1d92f105c8543e971c0624e7f4e.png)
 
 5. ## Add Task
 
-    * Selecting this option will call the Add Task screen.
-    * Since a task is generated from the condition and is not a document, the Regarding field in the task will read "doc ID is zero".
+* Selecting this option will call the Add Task screen.
+* Since a task is generated from the condition and is not a document, the Regarding field in the task will read "doc ID is zero".
 
 ![](../smart-plan.assets/fb41950a6f22ea83f4d88f01972a1eea.png)
 
-    * A task will be generated and appear on the task list for the appropriate user or department. See our online help for more information on [Tasking](https://docs.enterprisehealth.com/functions/task-management/task-list/).
+* A task will be generated and appear on the task list for the appropriate user or department. See our online help for more information on [Tasking](https://docs.enterprisehealth.com/functions/task-management/task-list/).
 
 ![](../smart-plan.assets/504f2ccba45c24208f35d5626c09c2cb.png)
 
 6. ## Prescribe Med
 
-    * Selecting this option will call the Prescribe Medication screen.
-    * Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar)
-    * To the right of the blue bar, the "By Indication" list will<em></em> pre populate a list of medications, if applicable. This list is automatically built by the system based on prescribing frequency for the selected condition in the "Reason for taking" field. Newer databases may not display any data since this list is built based on the clients prescribing frequency.
+* Selecting this option will call the Prescribe Medication screen.
+* Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar)
+* To the right of the blue bar, the "By Indication" list will<em></em> pre populate a list of medications, if applicable. This list is automatically built by the system based on prescribing frequency for the selected condition in the "Reason for taking" field. Newer databases may not display any data since this list is built based on the clients prescribing frequency.
 
 ![](../smart-plan.assets/22bb485e970ba0cd4701d571bcc72525.png)
 
-    * To the right of the blue bar, the "Current Meds"  and "Past Meds" Quick Lists display.
-    * Select the "straight right pointing arrow" icon to display drug information.
+* To the right of the blue bar, the "Current Meds"  and "Past Meds" Quick Lists display.
+* Select the "straight right pointing arrow" icon to display drug information.
 
 ![](../smart-plan.assets/b5ac486ca41887d858067414256fa200.png)
 
-    * Select the "Edit" icon to call the Change Therapy screen. From this screen, the provider can change, increase, decrease, discontinue, continue or refill a medication.
+* Select the "Edit" icon to call the Change Therapy screen. From this screen, the provider can change, increase, decrease, discontinue, continue or refill a medication.
 
 ![](../smart-plan.assets/a8899da04cf9009218d380be719dbe35.png)
 
-    * Select the "bending right arrow" icon to generate the Continue Medication screen. This allows the prescriber to view the medication as it has been previously prescribed and to save to continue the current regimen.
-    * Prescribers are not allowed to edit or change therapy from the Continue Medication screen.
+* Select the "bending right arrow" icon to generate the Continue Medication screen. This allows the prescriber to view the medication as it has been previously prescribed and to save to continue the current regimen.
+* Prescribers are not allowed to edit or change therapy from the Continue Medication screen.
 
 ![](../smart-plan.assets/1b708649a04b66c0dd4593c22d004455.png)
 
-    * Select the "circle with line through it" icon to display the Discontinue Medication screen.
-    * Prescribers are not allowed to edit or change therapy from the Discontinue Medication screen.
+* Select the "circle with line through it" icon to display the Discontinue Medication screen.
+* Prescribers are not allowed to edit or change therapy from the Discontinue Medication screen.
 
 ![](../smart-plan.assets/2fd2989148e376d8a6ae43ca0522c45a.png)
 
-    * Click the "+" icon or use the medication autocomplete to search and prescribe a new medication, not listed in any of the Medication Quick Lists.
+* Click the "+" icon or use the medication autocomplete to search and prescribe a new medication, not listed in any of the Medication Quick Lists.
 
 ![](../smart-plan.assets/9ca947fd1923d6de39e7e9c021b1d424.png)
 
 7. ## Add Order
 
-    * Selecting this option will call the Add Encounter Order screen.
-    * Use the order autocomplete to search any order in the database or,
-    * Choose the picklist icon to select orders from a preconfigured picklist of order items.
+* Selecting this option will call the Add Encounter Order screen.
+* Use the order autocomplete to search any order in the database or,
+* Choose the picklist icon to select orders from a preconfigured picklist of order items.
 
 ![](../smart-plan.assets/6e0a8335dede52a476d03684cd233a74.png)
 
 ![](../smart-plan.assets/aee30485f700c7352d7c9d8afbd40b17.png)
 
-    * To the right of the blue bar and in the upper right hand corner of the Add Encounter Order screen, users may also select from a pre populated list of tests. The "By Reason" Quick List is automatically built by the system based on the most frequently ordered tests for the specified condition.
-    * Users may also select existing orders on the Due List Quick List and add them to today's Smart Plan.
-    * Click on the "+" icon to the right of the test to add it to today's Smart Plan.
-    * The bottom half of the Add Encounter Order screen allows for the user to change or update the condition for which the orders are being generated.
+* To the right of the blue bar and in the upper right hand corner of the Add Encounter Order screen, users may also select from a pre populated list of tests. The "By Reason" Quick List is automatically built by the system based on the most frequently ordered tests for the specified condition.
+* Users may also select existing orders on the Due List Quick List and add them to today's Smart Plan.
+* Click on the "+" icon to the right of the test to add it to today's Smart Plan.
+* The bottom half of the Add Encounter Order screen allows for the user to change or update the condition for which the orders are being generated.
 
 ![](../smart-plan.assets/caf0c58fa3a38398bc493f8b21b419dc.png)
 
-    * Order items will display on the left side of the Smart Plan, under the Problem List condition being assessed.
-    * Orders will display under the orange "Future" label.
-    * Future orders are Pending Orders on the Due List.
+* Order items will display on the left side of the Smart Plan, under the Problem List condition being assessed.
+* Orders will display under the orange "Future" label.
+* Future orders are Pending Orders on the Due List.
 
 ![](../smart-plan.assets/84e1a87dbed7563a11c2793cc822fc5c.png)
 
 8. ## Move
 
-    * Users can ‘drag and drop' the Move icon to reorder conditions as they display in order in today's Smart Plan Assessment.
+* Users can ‘drag and drop' the Move icon to reorder conditions as they display in order in today's Smart Plan Assessment.
 
 ![](../smart-plan.assets/ccc5d67266993aad33f0a66a47ffc647.png)
 
@@ -495,54 +494,54 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 ![](../smart-plan.assets/28d8c41413c0c751d49871b7fe28010c.png)
 
 1. ## Requisition
-    * Selecting this option on an order will call the order Requisition screen. An order requisition is typically created for orders that will be performed outside of the system. From here users can create an order to be electronically sent via an interface or printed/faxed from the system.
-    * The order item selected will populate the order items list within the Requisition screen. All other orders on the Due list (including any orders selected as part of today's Smart Plan) will populate the Due List Quick List and can quickly be added to the Requisition so that all items are on one order request.
+* Selecting this option on an order will call the order Requisition screen. An order requisition is typically created for orders that will be performed outside of the system. From here users can create an order to be electronically sent via an interface or printed/faxed from the system.
+* The order item selected will populate the order items list within the Requisition screen. All other orders on the Due list (including any orders selected as part of today's Smart Plan) will populate the Due List Quick List and can quickly be added to the Requisition so that all items are on one order request.
 
 ![](../smart-plan.assets/86d282666dff62ff3294ef9062375411.png)
 
-    * Once a Requisition has been created, the items will display under a purple "Requisitions" header in the Smart Plan. Requisition orders can be edited, printed or labels printed from the Smart Plan.
+* Once a Requisition has been created, the items will display under a purple "Requisitions" header in the Smart Plan. Requisition orders can be edited, printed or labels printed from the Smart Plan.
 
 ![](../smart-plan.assets/2f3cbbd5f153db5feab7a9b7be532990.png)
 
 2. ## Add to Exam
 
-    * "The Lightning Bolt/Add to Exam" option will add this test to the Tests & Procedures section of the encounter.
-    * The order item will still display under the condition, but it will display under a green "Today" heading to indicate that it is to be performed today. The order item will indicate "Not complete" in red to the side of the order until the test has been resulted/entered AND the order marked as complete. This is done as a safety precaution to ensure that testing has been completed and for clients utilizing a billing interface to ensure charges are electronically sent to the billing system.
+* "The Lightning Bolt/Add to Exam" option will add this test to the Tests & Procedures section of the encounter.
+* The order item will still display under the condition, but it will display under a green "Today" heading to indicate that it is to be performed today. The order item will indicate "Not complete" in red to the side of the order until the test has been resulted/entered AND the order marked as complete. This is done as a safety precaution to ensure that testing has been completed and for clients utilizing a billing interface to ensure charges are electronically sent to the billing system.
 
 ![](../smart-plan.assets/503bac9fe2b22f993d67114e38078301.png)
 
-    * Clicking on the test name in the Smart Plan will immediately cause the encounter to scroll to the Test & Procedures section, where the test where the test ordered can be resulted/entered and marked as completed.
+* Clicking on the test name in the Smart Plan will immediately cause the encounter to scroll to the Test & Procedures section, where the test where the test ordered can be resulted/entered and marked as completed.
 
 ![](../smart-plan.assets/c4e3d4081613cc5b7e3510c96986e676.png)
 
 3. ## Edit
 
-    * Selecting this option will generate the Edit Encounter Order screen.
-    * Users can update the order status, due date, complete date, visible date, add order comments or change the condition for which this order item was created.
-    * In some instances, users may need to task someone else in the clinic if an order is edited. If needed, users can add a task from the Edit Encounter Order screen as well.
+* Selecting this option will generate the Edit Encounter Order screen.
+* Users can update the order status, due date, complete date, visible date, add order comments or change the condition for which this order item was created.
+* In some instances, users may need to task someone else in the clinic if an order is edited. If needed, users can add a task from the Edit Encounter Order screen as well.
 
 ![](../smart-plan.assets/16933d18944e6d7a573947c905ed4717.png)
 4. ## Delete
 
-    * Selecting this option will prompt the Remove Encounter Order screen
-    * Users will be asked to confirm they wish to remove the order before the action is completed.
-    * Users will also be able to view revision history including notes, revisions, tasks and links.
+* Selecting this option will prompt the Remove Encounter Order screen
+* Users will be asked to confirm they wish to remove the order before the action is completed.
+* Users will also be able to view revision history including notes, revisions, tasks and links.
 
 ## ![](../smart-plan.assets/ad1fa0e2bb7224e8e4bb66b8d3dfd9d3.png)
 
 5. ## Add Task
 
-    * Selecting this option will call the Add Task screen.
-    * Since a task is generated from the Order item and is not a document, the Regarding field in the task will read "doc ID is zero".
+* Selecting this option will call the Add Task screen.
+* Since a task is generated from the Order item and is not a document, the Regarding field in the task will read "doc ID is zero".
 
 ![](../smart-plan.assets/9c3cced858c2f3a5e48947e034d98acb.png)
 
-    * A task will be generated and appear on the task list for the appropriate user or department. See our online help for more information on [Tasking](https://docs.enterprisehealth.com/functions/task-management/task-list/).
+* A task will be generated and appear on the task list for the appropriate user or department. See our online help for more information on [Tasking](https://docs.enterprisehealth.com/functions/task-management/task-list/).
 
 ![](../smart-plan.assets/c4d3aa8873bc17aee907417df72e74c3.png)
 
 6. ## Move
-    * Users can ‘drag and drop' the Move icon to reorder orders as they display in order in today's Smart Plan Assessment.
+* Users can ‘drag and drop' the Move icon to reorder orders as they display in order in today's Smart Plan Assessment.
 
 ![](../smart-plan.assets/46a5871d37def3df2bacfc8434af2a09.png)
 
@@ -550,8 +549,8 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 # Goals
 
-    * Goals are added from the Goals Quick List
-    * Goals will display in black with the heading "Goals".
+* Goals are added from the Goals Quick List
+* Goals will display in black with the heading "Goals".
 
 ![](../smart-plan.assets/51c887b0e23bcd327c7102465a51b400.png)
 
@@ -568,15 +567,15 @@ Problem List Default on New: Default is "No".
 
 ![](../smart-plan.assets/087bbad40927988c737a37d809ceac6b.png)
 
-    * When set to No, the Problem list and Past Medical History radio button will default to "No" upon adding an assessment.
-    * When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment
+* When set to No, the Problem list and Past Medical History radio button will default to "No" upon adding an assessment.
+* When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment
 
 ![](../smart-plan.assets/5eff512a05f951e095a8bacc6e748a59.png)
 
-    * When set to Yes, but the Problem list and/or the Past Medical History radio button is set to "No" and you click one to be "Yes", then BOTH radio button options will change to yes.
+* When set to Yes, but the Problem list and/or the Past Medical History radio button is set to "No" and you click one to be "Yes", then BOTH radio button options will change to yes.
 
 Show Dynamic List Options: Default is set to "On hover"
 
 ![](../smart-plan.assets/8c01f50f5e34eb17ae1e017ad21a2689.png)
 
-    * If this setting is changed to "Always", then all options in the encounter and/or other areas where icons are dynamic will display. This is typically discouraged and clients should be encouraged to use the hover.
+* If this setting is changed to "Always", then all options in the encounter and/or other areas where icons are dynamic will display. This is typically discouraged and clients should be encouraged to use the hover.
