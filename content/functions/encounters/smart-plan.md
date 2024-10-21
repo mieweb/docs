@@ -1,11 +1,12 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2024-10-21T18:58:58.198Z'
-version: 1071
+date: '2024-10-21T20:19:59.641Z'
+version: 1080
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
@@ -24,6 +25,10 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 1. Set Library for entire encounter
 2. Hide/Show Quick Links
 3. Set Library for this section only
+
+For users on RC202309 and newer, a new feature to copy from Previous Exam has been added to the Smart Plan encounter section toolbar. For more information on this feature see [Copy From Previous Exam](https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/) online help documentation.
+
+![](../smart-plan.assets/4a56102df6e988419a9820c3811ed161.png)
 
 ![](../smart-plan.assets/4d0070988b1aab70b00dd6df83a0aca3.png)
 
