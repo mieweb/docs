@@ -1,9 +1,9 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2024-07-18T16:49:09.624Z'
-version: 300
-lastAuthor: 'janderson'
+date: '2024-10-22T12:34:05.643Z'
+version: 310
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
@@ -158,17 +158,21 @@ When done entering prescriptions, click any **Prescribe** button. Those prescrip
 
 ### Quick Prescribe User Preference
 
-A new My Settings user preference, **_Use Quick Prescribe,_** is available in the 202409 release. This setting allows the user to select the data entry screen when prescribing in the Allergies/Medications chart tab. Set to "Yes" to enable the Quick List data entry method. Select "No" to use the Legacy Prescription Details entry. By default the system will default to "No".
+A new My Settings user preference, **_Use Quick Prescribe,_** is available in the 202409 release. This setting allows the user to select the Quick Prescribe data entry screen when prescribing in the Allergies/Medications chart tab. Set to "Yes" to enable the Quick List data entry method. Select "No" to use the Legacy Prescription Details entry. By default the system will default to "No".
 
 ![](../prescribing-adding-medications.assets/967f091f9910ab196478dae2d0232e5c.png)
 
 When the Use Quick Prescribe setting is set to "Yes", the layout for Prescribe within the Allergies/Medications tab is updated to use Quick Links.
 
-![](../prescribing-adding-medications.assets/9344daddf89325d50ce0231044797ce4.png)
+![](../prescribing-adding-medications.assets/3dd7a56163cce616bf5adf7262e4b47c.png)
 
 Click on the Plus Sign icon or use the Past Meds Quick List to prescribe.
 
-![](../prescribing-adding-medications.assets/fc9abdb6dfd012af4bc2f3653b96ac62.png)
+![](../prescribing-adding-medications.assets/20abbe883f7f3b8143ce3d28fd67c8de.png)
+
+Users will also be prompted with the new Prescribe Medication entry screen.
+
+![](../prescribing-adding-medications.assets/1bb5b86e918de9440f71fe8af775dcab.png)
 
 ## Prescription Samples
 
