@@ -1,9 +1,9 @@
 ---
 id: '1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 title: 'Injection Tab'
-date: '2024-07-10T20:07:13.969Z'
-version: 259
-lastAuthor: 'janderson'
+date: '2024-10-22T19:00:18.945Z'
+version: 276
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
@@ -70,7 +70,7 @@ Certain immunizations are automatically programmed to look for specific allergie
 
 * Administering Location: If your practice only has 1 location it will automatically populate this field.  If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered.  If you have a location selected here, it considers this injection an in-house injection.  Meaning, the injection was administered at your location.  If a location is selected here, you will be required then to fill out the Manufacturer and Expiration Date fields.  These are required fields if a location is specified.
     * If the injection was given elsewhere and you are just documenting the injection for records, select No Location and it will not make those other fields required to fill out.
-* Vial / Lot #:  Enter the vial and/or lot # of the serum. The Lot# field autocomplete references Vials/Lots as referenced in the Inventory module. If not administering from Inventory, then Vial/Lot should be added as a free text entry.
+* Vial / Lot #:  Enter the vial and/or lot # of the serum. The Lot# field autocomplete references Vials/Lots as referenced in the Inventory module. If not administered from Inventory, then Vial/Lot should be added as a free text entry.
     * Any vaccines documented that are administered from Inventory will automatically deduct from Inventory totals. Quantity is reduced by one for each vaccine administered from the Inventory module.
     * Decrement is done in whole numbers. So in inventory you have a qty of 10 flu shots, then you document the immunization, the inventory decreases by one. It doesn't calculate that you have a 50cc multi injection vial. If the give 5cc's to Patient One and 10cc's to Patient Two, you have 35cc's left.
 * Manufacturer:  Enter the manufacturer's name.  The system will attempt to auto-complete your typing.  It will give you choices that match and you can highlight and select if you wish.  Otherwise, you can continue to free-type in text. This is a required field if you have chosen a location.  If you leave the location field set to No Location, this will not be required.
@@ -119,13 +119,13 @@ If enabled, these fields will display for data entry on an injection record:
 
 A system setting has to be manually created by MIE to enable this for a client.  System setting is Scheduler One-Click Checkin Overdue Injections Alert.
 
-If you need to document you gave the patient a VIS (Vaccine Information Handout), please see next page for instructions, otherwise click the Submit button at the bottom of the screen to submit the injection / immunization record to the patient's chart. It will now refresh back to the Injection List for the patient and you will see the complete injection records for the patient in their specific category.
+If you need to document that you gave the patient a VIS (Vaccine Information Handout), please see the next page for instructions, otherwise click the Submit button at the bottom of the screen to submit the injection / immunization record to the patient's chart. It will now refresh back to the Injection List for the patient and you will see the complete injection records for the patient in their specific category.
 
 It also gives a confirmation towards the top that says Successfully added injection record.
 
 ### Required Fields
 
-There are system settings where MIE can configure additional fields in the add injection screen to be required.  If you want more fields than the above standard/default fields that are marked required, the system setting just needs set to include the additional fields to be required for all users when documenting injections.  The value must have { } around it and each field specified out encompassed in quotes. Contact your MIE Implementer to have additional fields marked as required for injection adds.
+There are system settings where MIE can configure additional fields in the add injection screen to be required.  If you want more fields than the above standard/default fields that are marked required, the system setting just needs to be set to include the additional fields to be required for all users when documenting injections.  The value must have { } around it and each field specified out encompassed in quotes. Contact your MIE Implementer to have additional fields marked as required for adding injections.
 
 ![](../injection-tab.assets/93f73765cd3d406e2176ab0d122fb578.png)
 
@@ -146,7 +146,7 @@ Once you click on the link VIS Handouts hyperlink, it will expand open the VIS H
 * Name:  Using the drop-down, select the name of the VIS Handout publication.  The list that we have in the drop-down comes from http://immunize.org/VIS/  Contact your MIE Implementer if you need additional VIS Handouts added to this drop-down.
 * Date VIS Handout(s) Given:  Will automatically default to today's date but can be changed to the date it was given.
 
-The VIS Website link can be set up by your MIE Implementer.  You do not have to maintain a latest publication of VIS sheets yourself to hand out manually to a patient.  We now offer the VIS Website link available while documenting an injection and VIS Handout given.
+The VIS Website link can be set up by your MIE Implementer.  You do not have to maintain the latest publication of VIS sheets yourself to hand out manually to a patient.  We now offer the VIS Website link available while documenting an injection and VIS Handout given.
 
 ![](../injection-tab.assets/1c160bd441ff54acf3ad9d43bcdfbcaf.png)
 
@@ -183,7 +183,7 @@ Click Quick Add at the top right of the injection screen to add multiple injecti
 The Add Injections screen appears to allow you to record multiple injection records at one time, but not as many option fields (specifics) as Add Injection.
 
 {{% tip %}}
-Use tab key to get to each field.
+Use the tab key to get to each field.
 {{% /tip %}}
 
 * Injection:  Type in name of an injection to record for the patient. The system will attempt to auto-complete your typing.  It will give you choices that match and you can highlight and select if you wish. Note: You can only free-type in an injection name if your system has a setting turned on to allow free-type (system setting named: Allow Free Type in Autocomplete). If that is not enabled for your system, then you must choose an injection name from the auto-complete choice list.
@@ -200,7 +200,7 @@ The following fields can be entered when editing an injection or now when you ar
 * Reaction Induration: Enter the induration reaction in mm. Note: this field only displays if system setting Show Skin Test Fields is enabled
 * Reaction Erythema: Enter the erythema reaction in mm.  Note: this field only displays if system setting Show Skin Test Fields is enabled.
 
-Click Submit at the bottom of the screen to submit the injection / immunization records to the patient's chart. It will stay in the Quick Add screen view incase you want to add more injections.
+Click Submit at the bottom of the screen to submit the injection / immunization records to the patient's chart. It will stay in the Quick Add screen view in case you want to add more injections.
 
 It also gives a confirmation towards the top that says Successfully added # injection record(s).
 
@@ -240,7 +240,17 @@ You will see this screen:
 
 ![](../injection-tab.assets/aa826cc18f69dcbe4e0deb3c2eb72d6f.png)
 
-Here you have a different editor style to configuring the injection system setting fields of what choices/contents should be shown/offered in the auto-completes and/or drop-downs of the injection add screen fields.  Setting anything here will also link/update the specific individual system setting. So you can set these via individual system settings or this *&implement* editor method.
+Here you have a different editor style to configure the injection system setting fields of what choices/contents should be shown/offered in the auto-completes and/or drop-downs of the injection add screen fields.  Setting anything here will also link/update the specific individual system setting. So you can set these via individual system settings or this *&implement* editor method.
+
+## MAR/Injections Datavis
+
+A user preference (*My Setting*), "Use Datavis in MAR/Inject Tab" is available to clients on 202409 and newer. As clients upgrade, this setting will default to the value of "No", which will leave users on the current/ legacy view. Users may change their setting to "Yes" to change the *Medication* *Administration* and *Immunization* list edits to datavis.
+
+![](../injection-tab.assets/03a8d0ae8676c87469ac08a7f0e120e2.png)
+
+Users may click on the injection name to edit the medication and use the datavis filters to sort and/or make custom perspectives.
+
+![](../injection-tab.assets/af16234723b57c2c75ea9ac8ff452a78.png)
 
 ## Learning Management System
 
