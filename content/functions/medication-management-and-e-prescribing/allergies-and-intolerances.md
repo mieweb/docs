@@ -1,9 +1,9 @@
 ---
 id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
 title: 'Allergies and Intolerances'
-date: '2024-07-08T16:19:09.923Z'
-version: 204
-lastAuthor: 'janderson'
+date: '2024-10-22T15:08:55.214Z'
+version: 227
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LAAIDNHR'
@@ -114,6 +114,18 @@ After you have chosen an allergy/intolerance from the most common list, it will 
 * <strong>Start and End Dates:</strong> This is optional. You can enter a date in here if there is a specific date known for the start or end of this allergy or intolerance.
 
 Click *Submit.* It will then successfully input it into the patient's medication history screen.
+
+## Use Datavis In Meds/Allergy Tab
+
+To utilize the Meds/Allergy chart tab in Datavis mode, select the *My Setting* preference "Use Datavis in Meds/Agy Tab" and set it to Yes.  This setting allows the user to change from the legacy Meds/Allergies chart tab view to the new datavis view. The default setting is set to "No", which will keep all current users on the Legacy version. Users/administrators can change this per user or for security roles to "Yes" in 202403 and newer.
+
+![](../allergies-and-intolerances.assets/622b8f6b467dfaaf59cce493ec80712b.png)
+
+The Allergies and Intolerances Datavis allows users to Edit, Delete, make notes and create a task from an allergy by selecting the appropriate icon in the first column of the datavis. Clicking the new "Add Allergy/intolerance" link will take users to the new version of the "Add Allergy/Intolerance" entry screen. The legacy link located at the top of the tab labeled as "Add Allergy/Intol" will still display the legacy add allergy data entry screen for the time being.
+
+![](../allergies-and-intolerances.assets/821cadbc9049d0ce37a0dec6a16f48de.png)
+
+![](../allergies-and-intolerances.assets/273e4086ca90d9cb159ba712c2e09081.png)
 
 #### Quick Allergy
 
