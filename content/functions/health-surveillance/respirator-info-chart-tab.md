@@ -1,8 +1,8 @@
 ---
 id: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 title: 'Respirator Info Chart Tab'
-date: '2024-10-22T18:55:14.478Z'
-version: 119
+date: '2024-10-22T19:06:52.119Z'
+version: 125
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -109,6 +109,6 @@ Within the Edit Respirator Fit pop-up window, at the bottom is any Revision Hist
 
 ## Learning Management System
 
-To learn more about the Respirator Info Chart Tab & manual entry method, any standard reporting around Respirator Fit test data, and how to enter in Respirator Fit test data using an encounter due list item, follow the link below to the Learning Management System course:
+To learn more about the Respirator Info Chart Tab & manual entry method, any standard reporting around Respirator Fit test data, and how to enter in Respirator Fit test data using an encounter due list item, or how to import respirator fit test data, follow the link below to the Learning Management System course:
 
 * [Respirator Fit Testing](https://mie.talentlms.com/shared/start/key:ZOGDNHRK)
