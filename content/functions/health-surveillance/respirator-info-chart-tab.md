@@ -1,53 +1,114 @@
 ---
 id: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 title: 'Respirator Info Chart Tab'
-date: '2024-07-15T20:45:47.887Z'
-version: 65
-lastAuthor: 'janderson'
+date: '2024-10-22T18:55:14.478Z'
+version: 119
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZOGDNHRK'
 source: 'https://drive.google.com/open?id=1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
-The Respirator Info is a chart tab found in the employee's E-Chart. Click this tab to see only the specific respirator panel memberships the employee belongs to.
+The stand-alone Respirator Info is a chart tab found in the employee's chart within the Health Surveillance chart tab and is also summarized in a Fit Test Data portlet within the Summary dashboard.  The stand-alone Respirator Info chart tab lists only the specific respirator panel memberships the employee belongs to as well as historical respirator fit testing discrete date.  This chart tab can also be used to manually add respirator fit test data outside of an encounter.
 
-## Respirator Panel Membership
+![](../respirator-info-chart-tab.assets/1e591704af387e8a1579ddd130ce9461.png)
 
-This first section shows panels that are strictly related to respirator panels only and doesn't show any other panels (for example the *Panel Membership* tab in Campaign Membership tab shows all panels). If any are check-marked, that means the employee is part of that specific respirator panel. You can hover your mouse over the icon in the panel names to see the description the panel is defined as in the HS set up. You can also hover your mouse over the icons next to each panel check-marked for that employee to see the last completed date or decertified information, change reason comments, etc.
+## Fit Test Results portlet
 
-![](../respirator-info-chart-tab.assets/04845c1ded04545524455e992e0aa231.png)
+The Fit Test Results portlet (found in the chart's Summary dashboard) also lists prior Fit Test data entries. The pencil (edit) icon of the portlet will also take you right to the stand-alone Respirator Info chart tab.
 
-This Key guide helps you manage the panel information.
+## ![](../respirator-info-chart-tab.assets/f69d15cc411b8225c3c72dcfc3e48c00.png)
 
-![](../respirator-info-chart-tab.assets/b85219a57adee2078d41dcd402500ea4.png)
+## Respirator Info chart tab sections
 
-If you check or uncheck-mark a panel membership from here, a CHANGE REASON box will appear. This is where you type in the reason for changing or adding an employee's panel. Nothing is saved until you click the SUBMIT button at the bottom of this screen. If you add a panel to a patient, they should receive an email notification when they are due for entry orders (based on the panel components trigger event settings).
+### Respiratory Panel Membership section
 
-![](../respirator-info-chart-tab.assets/bbc71884442c9dfa4607b20ebc0684a5.png)
+This first section **Respirator Panel Membership** shows health surveillance panels that are strictly related to respirator panels only and doesn't show any other system health surveillance panels.  If any Respirator Panel Memberships are check-marked, that means the employee is a current member of that specific respirator health surveillance panel.
 
-Once done with any changes/edits to the Respirator Panel Membership section, make sure you click the SAVE button at the very bottom of the screen to save all your edits/entries.
+![](../respirator-info-chart-tab.assets/2de94ec4ce05f9d260908c4bef957f97.png)
 
-### Respirator Fit Testing
+The *View Key* guide helps you manage the panel information displayed.
 
-This second section show the respirator fit testing. This is a flowsheet of the respirator fit testing the employee has had done. It shows the history of previous respirator fits the employee has had in a flowsheet form. You can delete anyprevious entries using the [ - ] button in the options column.
+![](../respirator-info-chart-tab.assets/0a5f07bc26406640993216f26b9a1011.png)
 
-![](../respirator-info-chart-tab.assets/04845c1ded04545524455e992e0aa231.png)
+You cannot add or remove someone manually from a respirator panel type membership on this chart tab.  You would need to go to the Panel Membership Overview chart tab to manage memberships to health surveillance panels manually.
 
-To add a new respirator fit testing entry:
+### Respirator Fit section
 
-* <strong>Mask:</strong> This is an auto-complete list of choices in your system that is maintained in our auto-complete editor. You can also free text here, but if you want reporting to be consistent, please give your pre-defined mask choices to your MIE Implementer for insertion into this auto-complete choice to pop up by default for your users to select. Simply begin to type in the name of the mask type and it will attempt to auto-complete your typing and give you valid choices. You can also hit your ↓ down arrow key on your keyboard to open up the list of choices to select from in this field. When done, use your <em>tab key</em> to advance to the next field.
-* <strong>Size:</strong> Choose the size of the mask using the drop-down of choices. The ‘Universal' selection means one size fits all. If need to add a "size" choice into this drop-down, your MIE Implementer will need to evaluate before our developers can insert. Any changes to this drop-down of "size" choices affects all {{% system-name %}} systems globally.
-* <strong>Last Fit Test:</strong> Enter in the date of this last fit test.
-* <strong>Pass/Fail:</strong> Enter in if employee passed or failed this fit testing.
-* <strong>Comments:</strong> Add any free-text comments you wish.
+This second section shows (on the left side) any prior captured historical respirator fit testing data. This is a flowsheet of the respirator fit testing the employee has had done. It shows the history of previous respirator fits the employee has had in a flowsheet form.
 
-When done with that entry, click the ADD button to make it appear in the above flowsheet. You can add another entry if youwish. However, nothing is saved until the SAVE button is clicked at the bottom of this screen.
+![](../respirator-info-chart-tab.assets/55f00290f532c2987e6ebd57b039ee3e.png)
 
-Once done with any entries to the Respirator Fit Testing section, make sure you click the SAVE button at the very bottom ofthe screen to save all your entries. There is no way to ‘edit' an entry, but you could delete it by using the [ - ] button and re-entering it and using the *add* button.
+#### Delete an existing historical respirator fit
+
+You can delete any prior respirator fit entries using the trash can (delete) image icon next to any entry.
+
+![](../respirator-info-chart-tab.assets/eeef9814f7169399b77d693eab2b655a.png)
+
+It will ask you to confirm you wish to delete the fit test record.
+
+![](../respirator-info-chart-tab.assets/08c7740e60b9e27f2bd406b355f7002c.png)
+
+If you confirm to delete, it will delete that respirator fit data and will not be able to un-delete it.  Note: deleting a respirator fit data entry does not delete any stored documents related to the entry.
+
+If you get an MIEAPI error when deleting a record, your security role does not have permission to ‘delete' respiratordetails via the JSON security for the role you are a part of.
+
+![](../respirator-info-chart-tab.assets/af32900e6b9ec3a84839d67080de8386.png)
+
+Contact our helpdesk so they can confirm that security role is to have delete permissions for respirator fit data, and they can update the JSON security for the role(s) needed.
+
+![](../respirator-info-chart-tab.assets/ae718858002c3445d1901f5708cd9547.png)
+
+#### Edit an existing historical respirator fit
+
+You can edit any prior respirator fit entries using the pencil (edit) image icon next to any entry.
+![](../respirator-info-chart-tab.assets/bb08558aedcd18b9b20f00dfc6be2d02.png)
+
+Editing a respirator fit data record will pop-up the Edit Respirator Fit window.  The existing data will be populated, but you can change what is needed and save your work.
+![](../respirator-info-chart-tab.assets/823850716644249bcf7ace8b22fd1853.png)
+
+#### Add respirator fit data entry
+
+Any prior fit tests on record, will display on the left side of the applied Respirator Fit encounter section.  To key in a new respirator fit test data results, click the **+** plus icon at the right of this section
+
+![](../respirator-info-chart-tab.assets/b5ed45b8ddf514320a4b5033232f9b03.png)
+
+Proceed to use the pop-up data entry fields to document the fit test
+
+![](../respirator-info-chart-tab.assets/03776996d2d81acd61294e98560c5eda.png)
+
+**Mask (this is a required field)**: This is an auto-complete list of choices in your system that is maintained in our auto-complete editor. You can also free text here via the auto-complete field, but if you want reporting to be consistent, please give your pre-defined mask choices to your MIE Implementer for insertion into this auto-complete choice to pop up by default for your users to select. Simply begin to type in the name of the mask type manufacturer and it will attempt to auto-complete your typing and give you valid choices. You can also hit your ↓ down arrow key on your keyboard to open up the list of choices to select from in this field. When done, use your tab key to advance to the next field.
+
+**NOTE:** your system can be programmed to offer a drop-down of mask choices instead of an auto-complete/free text method. Contact our helpdesk or Deployment Consultant for that configuration change.
+
+**Size (this is a required field):** Choose the size of the mask using the drop-down of choices. The ‘Universal' selection means one size fits all.
+
+**Type:** Qualitative or Quantitative if wish to collect that
+
+**Last Fit Test:** Enter in the date of this fit test (typically is today's date as it automatically prefills)
+
+**Last Fit Expires:** will automatically calculate to be 1 year from today's date, but you can change
+
+**Pass/Fail (this is a required field):** Enter in if the employee passed or failed this fit testing
+
+**Final Fit Factor:** Key in if wish to collect that
+
+**Comments:** Add any free-text comments needed
+
+When done with that entry, click the SAVE button. You can add another fit test entry if you wish by repeating the above steps (clicking the **+** icon in the section).
+
+#### Revision history of existing historical respirator fit
+
+Revision history of any prior respirator fit entries can be viewed by using the pencil (edit) image icon next to any entry.  Click on the pencil/edit icon.
+![](../respirator-info-chart-tab.assets/bb08558aedcd18b9b20f00dfc6be2d02.png)
+
+Within the Edit Respirator Fit pop-up window, at the bottom is any Revision History information.  If you don't see the revision history, simply click the dark grey REVISIONS button to expand it open in the pop-up window.  You can X close out of the pop-up without editing any data.
+
+![](../respirator-info-chart-tab.assets/1b7c4c6e39bbb6dd1823901634a205fb.png)
 
 ## Learning Management System
 
-To learn more about the Respirator Info Chart Tab, follow the link below to the Learning Management System course:
+To learn more about the Respirator Info Chart Tab & manual entry method, any standard reporting around Respirator Fit test data, and how to enter in Respirator Fit test data using an encounter due list item, follow the link below to the Learning Management System course:
 
 * [Respirator Fit Testing](https://mie.talentlms.com/shared/start/key:ZOGDNHRK)
