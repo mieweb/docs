@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2024-09-23T13:10:30.028Z'
-version: 681
+date: '2024-10-21T22:55:01.789Z'
+version: 691
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -106,6 +106,10 @@ This functionality will also carry over to the *Conditions* chart tab for client
 ### Past Medical History Search
 
 Begin to type the condition in the Search field. This is NOT an autocomplete. However, if you begin to type the condition in the search and click the "+" icon next to the Search field, the *Add Condition* screen will appear and locate possible conditions that match what you typed in the Search field.
+
+As of RC202503, when adding a condition to the Past Medical History, a summary of the existing encounter past medical history will display in the upper right hand corner of the Add Condition entry screen. If no past medical history has been added, this section will not display.
+
+**_Note:_** If viewing the PMH in the Conditions chart tab, the "Encounter Past Medical History" will not show if an encounter is not set current
 
 ![](../past-medical-history-encounter-section.assets/78d901cc6a3dabe59d6d5d5894873177.png)
 
