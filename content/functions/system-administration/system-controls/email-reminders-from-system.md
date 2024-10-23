@@ -1,16 +1,16 @@
 ---
 id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
-date: '2024-10-23T12:46:41.476Z'
-version: 181
+date: '2024-10-23T13:26:02.627Z'
+version: 198
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'about:blank'
   - '../../scheduling/scheduler-views.md'
-  - '../../reports/appointment-report.md'
   - '../../scheduling/adding-an-appointment-using-the-wizard-tab.md'
   - '../../scheduling/waiting-list-tab.md'
-  - 'about:blank'
+  - '../../reports/appointment-report.md'
   - '../../reports/documents-report-super-document-type-search.md'
   - 'https://mie.talentlms.com/shared/start/key:LAZIDNHR'
 source: 'https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
@@ -22,35 +22,9 @@ Sending Email Reminders to patients are available in many modules within {{% sys
 
 ![](../email-reminders-from-system.assets/d4a30f42030072c1d5caa264556a23b7.png)
 
-The email link is also available in the scheduler views to send mass email reminders for the appointments scheduled for the day/view you are viewing. This is a user preference if Scheduler Preference *Show Email Link* is set to Yes. See other help documentation named [Scheduler Views-List-Multi-Week](../../scheduling/scheduler-views.md) for specifics on how to email from the scheduler views. Also from the scheduler view you can send an individual patient email reminder on the specific appointment scheduled on the view.
-
-![](../email-reminders-from-system.assets/17390d2b175679a4e511fd7fbd9e218f.png)
-
-The email link is also available to send mass email reminders within the Appointment Report in the reports tab. See other help documentation named [Appointment Report](../../reports/appointment-report.md) for specifics on how to email from the Appointment Report screen.
-
-![](../email-reminders-from-system.assets/847a017fa48ab7494d145c140dd4c870.png)
-
-The email link is also available in the Wizard tab to send an email reminder for new appointments being scheduled. See other help documentation named [Adding An Appt Using Wizard Tab](../../scheduling/adding-an-appointment-using-the-wizard-tab.md) for specifics on how to email from the Wizard (adding appointment) screen.
-
-![](../email-reminders-from-system.assets/130b94d3b4a6f0a7601d3275b2afde36.png)
-
-The email link is also available to send email reminders within the Waiting List tab of the scheduler. See other help documentation named [Waiting List Tab](../../scheduling/waiting-list-tab.md) for specifics on how to email from the Waiting List screen.
-
-![](../email-reminders-from-system.assets/bf44b9a7ad46932915fd2a94b343626e.png)
-
-The email link is also available to send email reminders within the patient's Appointment Chart tab. In the patient's chart tab named *Appointments*, it lists the patient's appointments that are on a waiting list, the patient's past/pending appointments, the patient's cancelled appointments and the patient's No Show appointments. In the options column of this summary is a Send Email link. You can send an email reminder to the patient regarding that appointment.
-
-![](../email-reminders-from-system.assets/009fc5fd0243083fe0107c255205c4cf.png)
-
-{{% warning %}}
-When sending emails, be careful not to type / include protected health info if sending via internet and not intranet using this feature.
-{{% /warning %}}
-
-Some clients gather and enter a patient's email from the patient forms they fill out, others have the patient sign an email authorization form authorizing the practice to email the patient about appt reminders, etc. It depends on your practice and how you want to gather emails and/or authorizations.
-
 ## Email Templates from Chart
 
-The email template available from the email link in the headers of patient's chart tabs is usually only the email layout (template) of **Comments Only**. This means the email layout (template) doesn't have any other text in the email except what you will fill out for the Subject, and Comments. That is all that will send in an email to the patient. Your MIE Implementer can remove the ‘Comment Only' layout from this template selection list if you have other templates custom created for your practice. Comment Only layout is meant to be used when no other layouts are available. If all email correspondence is templated or other custom template choices appear here and the basic *Comments Only* template is not needed and/or not wanted they can be removed via the system setting named "Offer Comment Only Email Template". Set system setting to 0 (zero) to remove the *Comments Only* email template choice from showing up.
+The email template available from the email link in the Quick Links portlet of patient's chart is usually only the email layout (template) of **Comments Only**. This means the email layout (template) doesn't have any other text in the email except what you will fill out for the Subject, and Comments. That is all that will send in an email to the patient. Your MIE Implementer can remove the ‘Comment Only' layout from this template selection list if you have other templates custom created for your practice. Comment Only layout is meant to be used when no other layouts are available. If all email correspondence is templated or other custom template choices appear here and the basic *Comments Only* template is not needed and/or not wanted they can be removed via the system setting named "Offer Comment Only Email Template". Set system setting to 0 (zero) to remove the *Comments Only* email template choice from showing up.
 
 ![](../email-reminders-from-system.assets/ed58ab6f922a4ab3d24b3adae45fdc0b.png)
 
@@ -84,6 +58,52 @@ MIE can program any other email layout (template) you wish that include pre-temp
 Your system is already set up with a default email template named *Comments Only* (as described above). Your MIE Implementer can remove the ‘Comment Only' layout from this template selection list if you have other templates custom created for your practice. The Comment Only template is meant to be used when no other layouts/templates are available. If all email correspondence is templated or other custom template choices appear here and the basic *Comment Only* template is not needed and/or not wanted they can be removed via the system setting named "Offer Comment Only Email Template". Set system setting to 0 (zero) to remove the *Comment Only* email template choice from showing up.
 
 ![](../email-reminders-from-system.assets/ed58ab6f922a4ab3d24b3adae45fdc0b.png)
+
+## Email from the Scheduler
+
+The email link is also available in the scheduler views to send mass email reminders for the appointments scheduled for the day/view you are viewing. This is a user preference if Scheduler Preference *Show Email Link* is set to Yes.
+
+![](../email-reminders-from-system.assets/973b0344ee9a5a4342c8251a0b5aa748.png)
+
+When the Email link is selected, an Email Options window is opened on a new tab. This is where you can mass email appointment reminders, for example, to everyone scheduled for the day.
+
+![](../email-reminders-from-system.assets/9be048e1709d7147e06f50e1b7ab71a5.png)
+
+* <strong>Subject:</strong> Type in the subject. This will be in the same <em>subject</em> line of every email sent to all patients.
+* <strong>Comments:</strong> Type in any comments. This will be the same <em>comments</em> in every email sent to all patients.
+* <strong>Email Template:</strong> Select any pre-templated email verbiage/layouts that your system has set up.
+* <strong>Include Appt Invite (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
+* <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
+* <strong>Send Me RSVP:</strong> when emailing from the scheduler, the attached ICS (meeting request) has the option to request an RSVP. If the auto reply email setting is setup with something that has ‘noreply' in it, it will not request an RSVP. It will otherwise.
+* <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature.
+* <strong>Carbon Copy Email:</strong>
+    * <strong>Email Template:</strong> MIE can set up different email layouts (information you want to send in mass). This is where you would select a specific email template to be sent to all the patients. Default will just show your subject & comments as typed above.
+    * <strong>Users to email:</strong> You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
+* <strong>Patients to Email:</strong> It will display the patient's that have an email address entered into their demographics tab and be selected as a check-mark meaning this email will be sent to those patients that have valid email addresses entered in their demographics tab. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patient's with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
+
+See other help documentation named [Scheduler Views](../../scheduling/scheduler-views.md) for specifics on how to email from the scheduler views.
+
+Also from the scheduler view you can send an individual patient email reminder on the specific appointment scheduled on the view.
+
+![](../email-reminders-from-system.assets/17ab6396691dadcff135ff1f574c6474.png)
+
+The email link is also available in the Wizard tab to send an email reminder for new appointments being scheduled. See other help documentation named [Adding An Appt Using Wizard Tab](../../scheduling/adding-an-appointment-using-the-wizard-tab.md) for specifics on how to email from the Wizard (adding appointment) screen.
+
+![](../email-reminders-from-system.assets/130b94d3b4a6f0a7601d3275b2afde36.png)
+
+The email link is also available to send email reminders within the Waiting List tab of the scheduler. See other help documentation named [Waiting List Tab](../../scheduling/waiting-list-tab.md) for specifics on how to email from the Waiting List screen.
+
+![](../email-reminders-from-system.assets/bf44b9a7ad46932915fd2a94b343626e.png)
+
+The email link is also available to send email reminders within the patient's Appointment Chart tab. In the patient's chart tab named *Appointments*, it lists the patient's appointments that are on a waiting list, the patient's past/pending appointments, the patient's cancelled appointments and the patient's No Show appointments. In the options column of this summary is a Send Email link. You can send an email reminder to the patient regarding that appointment.
+
+![](../email-reminders-from-system.assets/009fc5fd0243083fe0107c255205c4cf.png)
+
+{{% warning %}}
+When sending emails, be careful not to type / include protected health info if sending via internet and not intranet using this feature.
+{{% /warning %}}
+
+Some clients gather and enter a patient's email from the patient forms they fill out, others have the patient sign an email authorization form authorizing the practice to email the patient about appt reminders, etc. It depends on your practice and how you want to gather emails and/or authorizations.
 
 ## Email Templates Regarding Appointments
 
@@ -120,6 +140,10 @@ Click **Send Emails** button when those text fields are completed.
 It will then show a confirmation message of the emails it sent out. If a patient does not have an email entered in their *demographics* tab field, it will not show anything on this *emailed* screen for that specific patient. That patient will not be displayed in this confirmation screen.
 
 If the email address was not correct, the document would have been made, but the email would have failed to make it.  Even if the receiving email server rejected the address,  {{% system-name %}} wouldn't be notified about it.
+
+The email link is also available to send mass email reminders within the Appointment Report in the reports tab. See other help documentation named [Appointment Report](../../reports/appointment-report.md) for specifics on how to email from the Appointment Report screen.
+
+![](../email-reminders-from-system.assets/847a017fa48ab7494d145c140dd4c870.png)
 
 ## Default Email Template
 
