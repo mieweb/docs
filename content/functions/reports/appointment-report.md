@@ -1,8 +1,8 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2024-02-21T18:33:25.801Z'
-version: 121
+date: '2024-10-23T13:03:29.716Z'
+version: 127
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -146,7 +146,7 @@ Once you have the patient(s) selected to send email appointment reminders to, cl
 
 Once you have clicked *Email Selected*, it will open to the Email Options screen.
 
-![](../appointment-report.assets/06d2f3db92e45a8b530d5a3661208544.png)
+![](../appointment-report.assets/ce33730640e70987765ba58194f4a9e9.png)
 
 * <strong>Subject:</strong> Type in the subject. This will be in the same <em>subject</em> line of every email sent to all patients.
 * <strong>Comments:</strong> Type in any comments. This will be the same <em>comments</em> in every email sent to all patients.
@@ -154,6 +154,7 @@ Once you have clicked *Email Selected*, it will open to the Email Options screen
 * <strong>Include Appt Invite (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
 * <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
 * <strong>Send Me RSVP:</strong> when emailing from the scheduler, the attached ICS (meeting request) has the option to request an RSVP. If the auto reply email setting is setup with something that has ‘noreply' in it, it will not request an RSVP. It will otherwise.
+* <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature.
 * <strong>Carbon Copy Email:</strong>
     * <strong>Email Template:</strong> MIE can set up different email layouts (information you want to send in mass). This is where you would select a specific email template to be sent to all the patients. Default will just show your subject & comments as typed above.
     * <strong>Users to email:</strong> You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
