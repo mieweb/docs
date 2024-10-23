@@ -1,8 +1,8 @@
 ---
 id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
-date: '2024-08-13T13:48:31.624Z'
-version: 173
+date: '2024-10-23T12:46:41.476Z'
+version: 181
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -32,7 +32,7 @@ The email link is also available to send mass email reminders within the Appoint
 
 The email link is also available in the Wizard tab to send an email reminder for new appointments being scheduled. See other help documentation named [Adding An Appt Using Wizard Tab](../../scheduling/adding-an-appointment-using-the-wizard-tab.md) for specifics on how to email from the Wizard (adding appointment) screen.
 
-![](../email-reminders-from-system.assets/e369f5f11bf0bb96e1731d6c8eaa57db.png)
+![](../email-reminders-from-system.assets/130b94d3b4a6f0a7601d3275b2afde36.png)
 
 The email link is also available to send email reminders within the Waiting List tab of the scheduler. See other help documentation named [Waiting List Tab](../../scheduling/waiting-list-tab.md) for specifics on how to email from the Waiting List screen.
 
@@ -101,7 +101,7 @@ Your system is already set up with a default email template named Default regard
 
 Click the preview link to view a preview of the email contents that will be sent out.
 
-![](../email-reminders-from-system.assets/a28edf38ba509ffc732e94bbbe1eb246.png)
+![](../email-reminders-from-system.assets/c1d1bcb04a445bcec40e3eabe2b8a8c8.png)
 
 * <strong>Include Appt Invite (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
 * <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
@@ -113,6 +113,7 @@ Click the preview link to view a preview of the email contents that will be sent
     ![](../email-reminders-from-system.assets/db9a14cf8ca8d00fc96084db09bdfc5a.png)
     * <strong>Users to email:</strong> Your system must have this feature turned on via a system setting (by default this field is off). If this field is turned on for your system, you can type in the first or last name of a user within  {{% system-name %}} & this email will be sent to the  {{% system-name %}} user also. It will auto-complete  {{% system-name %}} users for you to choose from. You cannot free type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their  {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
     * <strong>Patients to Email:</strong> Automatically lists all patients in the specific screen/feature/module you are in when you clicked Email. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patient's with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
+* <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature.
 
 Click **Send Emails** button when those text fields are completed.
 
