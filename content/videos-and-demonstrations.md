@@ -1,8 +1,8 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2024-01-31T16:52:33.847Z'
-version: 617
+date: '2024-10-23T17:04:46.572Z'
+version: 644
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - 'https://www.enterprisehealth.com/blog/video-injection-and-immunization-management-software-demo'
   - 'https://www.enterprisehealth.com/blog/video-standard-reporting-software-demo-enterprise-health'
   - 'https://www.enterprisehealth.com/blog/video-osha-recordkeeping-and-reporting-software-demo'
-  - 'https://www.youtube.com/watch?v=__R9twSkS2A'
+  - 'https://www.youtube.com/watch?v=__R9twSkS2A&t=1s'
 source: 'https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
@@ -172,4 +172,6 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% /only %}}
 
-[Webchart Generative AI](https://youtube.be/__R9twSkS2A)
+### Generative AI
+
+https://www.youtube.com/watch?v=__R9twSkS2A&t=1s
