@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2024-07-22T13:37:46.142Z'
-version: 219
-lastAuthor: 'janderson'
+date: '2024-10-23T13:56:09.310Z'
+version: 226
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -241,6 +241,14 @@ The Fast Tasks taab is also only accessible if the user has security permission.
 ![](../task-list.assets/3c7827d2ee69fbb49c925939bda96787.png)
 
 Permitted users can add and create a new fast task template into the system here. Fast task templates can also be edited or deleted from her if have security permission. See other documentation titled [Fast Task Templates](fast-task-templates.md).
+
+## TaskList DataVis
+
+A new user preference (*My Setting*) has been added which will allow users to switch from the legacy Task List view to the Datavis format. The task list has been converted into 4 datavis: Reminders, Overdue Tasks, User Tasks, Realm Tasks. Select items in the datavis to display action options at the bottom. The Realm datavis will compile all departmental tasks into one list and sort them by department. Corporate demographic filters display at the top of the Datavis for Enterprise Health customers only. However all users, Enterprise Health and WebChart, have the the option to sort and filter on each individual datavis, as well as make their own perspectives. These changes are available in a BETA testing mode for customers on RC202309.
+
+![](../task-list.assets/fd18ec9481901bfd1736793580d2f902.png)
+
+![](../task-list.assets/059a1fa748202054fd0b4c4e7aa9b3eb.png)
 
 ## Learning Management System
 
