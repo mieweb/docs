@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-21T18:23:51.377Z'
-version: 784
+date: '2024-10-23T14:24:59.282Z'
+version: 806
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -141,7 +141,7 @@ links:
   - 'functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md'
   - 'functions/encounters/working-in-a-legacy-encounter.md'
   - 'functions/encounters/working-in-a-visit-encounter.md'
-  - 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
+  - 'functions/encounters/smart-plan.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
@@ -512,6 +512,7 @@ links:
   - 'functions/system-administration/system-controls/med-web-ssl-certificate-authority.md'
   - 'functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md'
   - 'functions/system-administration/system-controls/translation-manager.md'
+  - 'https://drive.google.com/open?id=1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
   - 'functions/system-administration/data-migration.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
   - 'functions/system-administration/data-migration/data-migration-file-format-standard.md'
@@ -865,7 +866,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
         * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
-        * [Smart Plan](https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ#heading=h.ce65n7x31c0m)
+        * [Smart Plan](functions/encounters/smart-plan.md#_ce65n7x31c0m)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
@@ -1237,6 +1238,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Med-Web SSL Certificate Authority](functions/system-administration/system-controls/med-web-ssl-certificate-authority.md)
             * [Scheduled Jobs](functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md)
             * [Translation Manager](functions/system-administration/system-controls/translation-manager.md#_ympf05vurq1c)
+            * [Interface Manager](https://drive.google.com/open?id=1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4)
         * [Data Migration](functions/system-administration/data-migration.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
             * [Data Migration File Format Standard](functions/system-administration/data-migration/data-migration-file-format-standard.md)
