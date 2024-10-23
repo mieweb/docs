@@ -1,8 +1,8 @@
 ---
 id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 title: 'Adding OSHA Case'
-date: '2024-07-15T13:07:51.265Z'
-version: 84
+date: '2024-10-23T19:07:48.690Z'
+version: 114
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -55,19 +55,31 @@ The return to work (RTW) dates may be entered now or in later during the case ma
 
 The work related section is to document details regarding if the incident is work related or not, and depending on what radio buttons are selected, other data fields may branch open to document.  Fields with a red asterisk are required to fill out before a case can be saved to the chart. The field Work Related will most commonly be the answer will always be Yes if you are a client who tracks and records cases/incidents on your employee's for injuries and illnesses.  The Workers' Comp Related field is separate data to note if the case/incident is Workers' Comp related and will be going to the third party insurance administrator for your company as a claim.  If you answer "yes" to Workers' Comp Related, other fields will expand to document more comprehensive data regarding the Worker's Comp claim.
 
-![](../adding-osha-case.assets/cb2427dc39a2bb7b9980d3dca7220687.png)
+![](../adding-osha-case.assets/fc1f2eb7beaf47872a5a9e47e846df9a.png)
 
 The field Date Determined Recordable means it's an OSHA reportable injury or illness.  If a date is entered into this field, this case/incident details will populate on the OSHA log report.
 
+If the System Setting *Workers Comp Fields* is disabled, the fields *Record Only*, *Do you question the validity of the claim?*, and *Reason for questioning the validity of this claim* will no longer be displayed. By default, this setting is enabled. These fields are primarily used for a workers' comp integration.
+
+![](../adding-osha-case.assets/3edbaef66ff23be62e846e6dc1abb271.png)
+
+![](../adding-osha-case.assets/861b5e8c1a4ee3542e882bb5925d492e.png)
+
 ### Location
 
-The location section displays to document where the injury occurred specifically.  If selecting Onsite Location as to where the injury/illness occurred, you can then (optionally) fill out where specifically the injury/illness occurred onsite using an auto-complete of choices.  The choices displayed in the auto-complete are a sample default list and you would need to give a complete list of location areas to your MIE Implementer in an excel spreadsheet for an MIE developer to import.  It can be a general list or a very granular hierarchical location of choices. The auto-complete field is optional just to provide more granular reporting needs if client desires. Otherwise, one must just free-type in where the the event occured in the field noted by a red asterisk.
+The location section displays to document where the injury occurred specifically.  If selecting Onsite Location as to where the injury/illness occurred, you can then (optionally) fill out where specifically the injury/illness occurred onsite using an auto-complete of choices.  The choices displayed in the auto-complete are a sample default list and you would need to give a complete list of location areas to your MIE Implementer in an excel spreadsheet for an MIE developer to import.  It can be a general list or a very granular hierarchical location of choices. The auto-complete field is optional just to provide more granular reporting needs if client desires. Otherwise, one must just free-type in where the event occurred in the field noted by a red asterisk.
 
-![](../adding-osha-case.assets/19d10ce9f505fb208a6cfa592e622973.png)
+![](../adding-osha-case.assets/2c460307ecd33790c41a69f014fd24e9.png)
 
 If selecting Offsite Location, then the fields that branch open are required free text fields to note the offsite location details.
 
-![](../adding-osha-case.assets/760555967d0cb7b4802cea42de20a51f.png)
+![](../adding-osha-case.assets/5fddf612d55fe99c0a9dc499c3346488.png)
+
+If the System Setting *Select Supervisor* is disabled, the field *Please select supervisor* will no longer display. By default, this setting is enabled. This field is primarily used for workers' comp integration.
+
+![](../adding-osha-case.assets/57ea824f38d9ee23ac6ac77efcbc591d.png)
+
+![](../adding-osha-case.assets/e5cfa1466c73015b867b33e11a8c63fa.png)
 
 ### Incident Details
 
