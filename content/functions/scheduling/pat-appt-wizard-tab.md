@@ -1,8 +1,8 @@
 ---
 id: '12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
 title: 'Pat/Appt Wizard Tab'
-date: '2024-07-02T17:48:17.979Z'
-version: 58
+date: '2024-10-23T12:35:12.947Z'
+version: 63
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -38,7 +38,7 @@ It then goes to the *Appointment Wizard* screen for this new registered patient.
 
 Manual Registration in {{% system-name %}} shows this new registered patient in {{% system-name %}} only. It will not merge/appear in any other practice management system that your company uses (example: Medical Manager, Experior, Medic, etc.)
 
-![](../pat-appt-wizard-tab.assets/4100334d5e3cb36eee6be5ed58f4ea34.png)
+![](../pat-appt-wizard-tab.assets/735849f74409be4ea0429b35e0c0fa41.png)
 
 Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled *Adding An Appointment Using Wizard Tab.pdf*
 
