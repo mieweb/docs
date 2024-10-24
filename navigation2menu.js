@@ -26,7 +26,7 @@ for (const line of markdown.split('\n')) {
         continue;
     }
     const [_, name, pageRef] = matched;
-    const level = (indentPart.length - 2)/3;
+    const level = (indentPart.length - 2)/4;
 
     while (parentStack.length > level) {
         parentStack.pop();
