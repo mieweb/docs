@@ -39,10 +39,10 @@ jobs:
       run: mkdir -p config/_default/; mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
 
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify
+      run: hugo --config 'config-wc.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify --environment staging
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh/" --minify
+      run: hugo --config 'config-eh.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh/" --minify --environment staging
 
     - name: Build index.html
       run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.com/mieweb/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
