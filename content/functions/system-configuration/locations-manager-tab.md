@@ -1,8 +1,8 @@
 ---
 id: '1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
 title: 'Locations Manager Tab'
-date: '2024-03-20T18:26:14.210Z'
-version: 150
+date: '2024-10-28T20:08:59.745Z'
+version: 162
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -78,6 +78,10 @@ If you need to edit a location for any reason (phone number change, address chan
 ![](../locations-manager-tab.assets/c690dbdea9ab2872d05d07455fef3068.png)
 
 Once you click edit to modify a location, the edit/modification screen will appear. You can change anything you wish.
+
+The Location Manager will display revision history when editing a location. Revision history will display on any new revisions at the bottom of the Modify Location window.
+
+![](../locations-manager-tab.assets/45fb343f011a0e4eb87787fbb431f535.png)
 
 ![](../locations-manager-tab.assets/0bcaee5370eb2921fd28f3e9f4c48b92.png)
 
