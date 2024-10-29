@@ -1,8 +1,8 @@
 ---
 id: '1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 title: 'Documents Report / Super Document Type Search'
-date: '2024-07-01T20:52:26.514Z'
-version: 138
+date: '2024-10-29T14:26:27.886Z'
+version: 146
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -30,7 +30,7 @@ You do not have to fill out every single field. These fields are different ways 
 * <strong>Order Request ID:</strong> External ID is often used in data migrations. It is a unique identifier from the source system and is frequently used to locate a document reported as missing or mis-formatted, etc. It is not a commonly used field but is helpful particularly for migration troubleshooting.
 * <strong>Ext ID:</strong> Another use of External ID is in HL7 lab results. This field is regularly used to display the sending lab's or other EMR's MRN or identifier. It is useful when tracking down a missing or perceived missing result document/message, as the Lab uses this number to identify who the result is for.
 * <strong>Storage Type:</strong> Click on this field and check-mark as many storage types to narrow down your results by looking for a document with those qualifications.
-* <strong>Patient Name:</strong> You can run the report to filter the found documents by a specific patient. Simply enter the patient's <em>last</em> name and it will give you auto-complete choices. You can also click the icon for help to enter a different method of searching for a specific patient to enter into this field using MR#, DOB, etc.
+* <strong>Patient Name:</strong> You can run the report to filter the found documents by a specific patient. Simply enter the patient's <em>last</em> name and it will give you auto-complete choices. There is a three character minimum before the autocomplete suggests any results. You can also click the icon for help to enter a different method of searching for a specific patient to enter into this field using MR#, DOB, etc.
 * <strong>Entering User</strong>: Begin typing in the first or last name of the {{% system-name %}} user, if you are looking for documents uploaded, entered or indexed in by a specific user. The username of who entered the document, not who authored it. Once you begin typing first or last name, it will give you auto-complete choices to select from (this includes deleted users).
 * <strong>Authoring User:</strong> Begin typing in the first or last name of the {{% system-name %}} user the document(s) you are looking for was authored by. The username the document is stored as <em>authored by</em>. Once you begin typing first or last name, it will give you auto-complete choices to select from (this includes deleted users).
 * <strong>Location:</strong> Click on this field to check-mark a specific location or multiple locations for these documents you are searching for. If you skip this field, it will search all locations.
