@@ -1,8 +1,8 @@
 ---
 id: '1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 title: 'Fax Manager Tab - Outbound Faxing'
-date: '2024-07-08T14:15:01.962Z'
-version: 107
+date: '2024-10-29T13:47:43.405Z'
+version: 112
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -67,7 +67,7 @@ Fax Manager search has two modes of operation: General & Fax ID. The detailed **
 
 To search for outgoing faxes, you can fill in as many fields as you wish. The more fields you enter, the more narrowed you search. Any fax results will show below in the appropriate categories it is in.
 
-* <strong>Patient Name:</strong> If you would like to search for faxes related to a specific patient, begin typing the patient's last name. It will try to auto-complete your typing and give you choices of patient's that match. Highlight and select the patient you want and tab to any other fields you wish to enter.
+* <strong>Patient Name:</strong> If you would like to search for faxes related to a specific patient, begin typing the patient's last name. It will try to auto-complete your typing and give you choices of patient's that match. There is a three character minimum before the autocomplete suggests any results. Highlight and select the patient you want and tab to any other fields you wish to enter.
 
 ![](../fax-manager-tab-outbound-faxing.assets/e98b60c78ae8143c50a9896bbe7717bc.png)
 
