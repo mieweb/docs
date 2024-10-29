@@ -1,8 +1,8 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA'
-date: '2024-10-21T17:44:20.295Z'
-version: 159
+date: '2024-10-29T15:57:18.464Z'
+version: 195
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -295,3 +295,17 @@ Correct Verification code allows login.
 ![](../multi-factor-authentication-mfa.assets/fcdb107112174b82cc90d437945a3236.png)
 
 ![](../multi-factor-authentication-mfa.assets/5e4ed6372b563b1e50af9e7eb269b1f6.png)
+
+## ByPass 2FA OTP
+
+System Administrators may opt to bypass 2FA from certain IP's. It is recommended that customers have reviewed this feature with their Network IT security department and have authorization before proceeding with configuration. Before enabling, define the IP's which 2FA is allowed to bypass. This can be done in the IP Settings (Control Panel->System->IP Settings)
+
+![](../multi-factor-authentication-mfa.assets/8d6af9cbb73b44cd83ec85fb65c72b09.png)
+
+Select the *Add Acceptable IP Rule* link in the upper right hand corner of the screen. Enter the appropriate IP address, Netmask, Timeout, and ensure the Bypass 2FA box is selected, then click Add.
+
+![](../multi-factor-authentication-mfa.assets/6ca107ab3647017e7ad3777d6203a906.png)
+
+Once the IP address(es) have been added to the IP Settings, enable the "Enable Bypass 2FA OTP" system setting value to "Enabled".
+
+![](../multi-factor-authentication-mfa.assets/22da368b579efb1609908b116dfc9dae.png)
