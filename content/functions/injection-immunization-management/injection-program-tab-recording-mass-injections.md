@@ -1,8 +1,8 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2024-07-15T16:16:12.616Z'
-version: 267
+date: '2024-10-29T13:33:11.881Z'
+version: 271
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -23,7 +23,7 @@ Click the E-Chart sidemenu tab.  Click the Flu Injection Program. (The Flu Inje
 
 The Injection screen will appear.  The Injection screen has fields to fill out pertaining to the injection / immunization that you want to record.
 
-* Patient:  Begin typing the last name of the patient you wish to add the record for.  The system will auto-complete and show you choices of matching patients in your {{% system-name %}} system.  You can select a choice using your mouse to highlight your choice.
+* Patient:  Begin typing the last name of the patient you wish to add the record for.  The system will auto-complete and show you choices of matching patients in your {{% system-name %}} system.  There is a three character minimum before the autocomplete suggests any results. You can select a choice using your mouse to highlight your choice.
 
 ![](../injection-program-tab-recording-mass-injections.assets/6331b169f4a137b09dd262cee92ba389.png)
 
