@@ -1,8 +1,8 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2024-07-08T14:48:21.874Z'
-version: 252
+date: '2024-10-29T14:55:06.799Z'
+version: 257
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -282,7 +282,7 @@ To magnify anything on the document being displayed, use the mouse to hover over
 
 **Provider**: The Provider field is optional. It is an autocomplete field, so typing in the provider's first or last name will initiate the search on the database, and {{% system-name %}} will return possible matches in alphabetical order. The provider names are those users tied to the Physicians Department. If a different department needs to be mapped, contact your Deployment Specialist. After selecting the provider, tab to the next field.
 
-**Chart**: Chart is a required field. When left blank, {{% system-name %}} will inform users that there are pages unable to be uploaded to a chart. If no information was populated from processing barcodes, this field will need to be entered manually. The Chart field is not a free-text field; it is an autocomplete field. Begin typing the *last name*, and the autocomplete will list potential matches alphabetically. Choose the appropriate chart, and tab to the next field.
+**Chart**: Chart is a required field. When left blank, {{% system-name %}} will inform users that there are pages unable to be uploaded to a chart. If no information was populated from processing barcodes, this field will need to be entered manually. The Chart field is not a free-text field; it is an autocomplete field. Begin typing the *last name*, and the autocomplete will list potential matches alphabetically. There is a three character minimum before the autocomplete suggests any results. Choose the appropriate chart, and tab to the next field.
 
 {{% note %}}
 If a user is restricted to certain chart types, the indexing module will only result chart choices that exist within, or match, the chart types restricted to the logged-in user.
