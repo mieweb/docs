@@ -1,9 +1,9 @@
 ---
 id: '1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
 title: 'Activity Log Report'
-date: '2023-11-14T06:42:13.396Z'
-version: 89
-lastAuthor: 'wreiske'
+date: '2024-10-29T14:14:45.572Z'
+version: 93
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
@@ -31,7 +31,7 @@ Please click the help icons for explanations on each field also.
 
 * <strong>Date:</strong> must enter a date range to show results for.
 * <strong>User:</strong> Can type in first or last name of a user to view results by. When typing, the system will attempt to auto-complete and give you choices of users to select from. If looking for a particular employee's activity, you'd enter their name here in the User field.
-* <strong>Chart:</strong> Can type in a specific chart to see activity on that specific chart selected. The system will auto-complete the chart you are typing and give you choices.
+* <strong>Chart:</strong> Can type in a specific chart to see activity on that specific chart selected. The system will auto-complete the chart you are typing and give you choices. There is a three character minimum before the autocomplete suggests any results.
 * <strong>IP Address:</strong> Enter any part of the users IP address.
 * <strong>Function:</strong> This is the main area of {{% system-name %}} that was accessed. (i.e.) admin, chart, orders, ….
 * <strong>Sub Function:</strong> This is for when there was a specific area of the function area in {{% system-name %}} that was accessed. | (i.e.) for function=admin, sub-function could be activity_log, layout_manager, system_report, ….
