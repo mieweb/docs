@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-28T20:27:07.580Z'
-version: 825
+date: '2024-10-29T20:09:58.806Z'
+version: 836
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -232,6 +232,7 @@ links:
   - 'functions/injection-immunization-management/injection-tab-with-chirp-interface.md'
   - 'functions/injection-immunization-management/injection-program-tab-recording-mass-injections.md'
   - 'functions/injection-immunization-management/injection-editor.md'
+  - 'https://drive.google.com/open?id=1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
   - 'functions/task-management.md'
   - 'functions/task-management/task-list.md'
   - 'functions/task-management/adding-tasks.md'
@@ -513,7 +514,7 @@ links:
   - 'functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md'
   - 'functions/system-administration/system-controls/translation-manager.md'
   - 'functions/system-administration/system-controls/interface-manager.md'
-  - 'https://drive.google.com/open?id=1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
+  - 'functions/system-administration/system-controls/encounter-types.md'
   - 'functions/system-administration/data-migration.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
   - 'functions/system-administration/data-migration/data-migration-file-format-standard.md'
@@ -608,7 +609,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md'
   - 'functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md'
   - 'functions/system-administration/interfaces/device-interface-titmus-v4.md'
-  - 'https://drive.google.com/open?id=1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ'
+  - 'functions/system-administration/interfaces/device-interface-veripro-hearing-fit.md'
   - 'functions/system-administration/interfaces/installing-mie-device-app.md'
   - 'functions/system-administration/asset-management.md'
   - 'functions/system-administration/asset-management/asset-management-module.md'
@@ -960,6 +961,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Injection Tab with CHIRP Interface](functions/injection-immunization-management/injection-tab-with-chirp-interface.md)
         * [Injection Program Tab - Recording Mass Injections](functions/injection-immunization-management/injection-program-tab-recording-mass-injections.md)
         * [Injection Editor](functions/injection-immunization-management/injection-editor.md)
+        * [Vaccine Compliance](https://drive.google.com/open?id=1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps)
     * [Task Management](functions/task-management.md)
         * [Task List](functions/task-management/task-list.md)
         * [Adding Tasks](functions/task-management/adding-tasks.md)
@@ -1241,7 +1243,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Scheduled Jobs](functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md)
             * [Translation Manager](functions/system-administration/system-controls/translation-manager.md#_ympf05vurq1c)
             * [Interface Manager](functions/system-administration/system-controls/interface-manager.md)
-            * [Encounter Types](https://drive.google.com/open?id=1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4)
+            * [Encounter Types](functions/system-administration/system-controls/encounter-types.md)
         * [Data Migration](functions/system-administration/data-migration.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
             * [Data Migration File Format Standard](functions/system-administration/data-migration/data-migration-file-format-standard.md)
@@ -1336,7 +1338,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - Tremetrics RA500](functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md)
             * [Device Interface - Welch Allyn CardioPerfect](functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md)
             * [Device Interface - Titmus V4](functions/system-administration/interfaces/device-interface-titmus-v4.md)
-            * [Device Interface - VeriPRO Hearing Fit](https://drive.google.com/open?id=1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ)
+            * [Device Interface - VeriPRO Hearing Fit](functions/system-administration/interfaces/device-interface-veripro-hearing-fit.md)
             * [Installing MIE Device App](functions/system-administration/interfaces/installing-mie-device-app.md)
         * [Asset Management](functions/system-administration/asset-management.md)
             * [Asset Management Module](functions/system-administration/asset-management/asset-management-module.md)
