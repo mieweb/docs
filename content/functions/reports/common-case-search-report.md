@@ -1,8 +1,8 @@
 ---
 id: '1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
 title: 'Common Case Search Report'
-date: '2024-09-11T20:03:10.993Z'
-version: 144
+date: '2024-10-29T14:21:11.747Z'
+version: 147
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -39,7 +39,7 @@ When you access the Incident Report from the Safety or Health Surveillance repor
 
 ![](../common-case-search-report.assets/73fb128cf3845a0cd8a6f48618325c67.png)
 
-* <strong>Patient:</strong> This is an auto-complete search filter field and is buildable, meaning you can run the report to give you results filtered by one or more specific patients or employees.
+* <strong>Patient:</strong> This is an auto-complete search filter field and is buildable, meaning you can run the report to give you results filtered by one or more specific patients or employees. There is a three character minimum before the autocomplete suggests any results.
 
 ![](../common-case-search-report.assets/8976caf308febeda68784a7ee3bd50d9.png)
 
