@@ -1,8 +1,8 @@
 ---
 id: '1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
 title: 'Encounter Types'
-date: '2024-10-29T13:19:05.108Z'
-version: 149
+date: '2024-10-29T16:14:41.459Z'
+version: 151
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
