@@ -1,8 +1,8 @@
 ---
 id: '1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
 title: 'Encounter Types'
-date: '2024-10-28T20:46:41.684Z'
-version: 136
+date: '2024-10-29T13:19:05.108Z'
+version: 143
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -35,9 +35,9 @@ To edit an encounter type or modify configuration attributes, click the Edit lin
 
 **Active:** When selected, the encounter type will be active and available for use.
 
-**Assign User:** When**** selected, the Assign User feature/button will display within the encounter. Users can then assign the encounter to an individual user.
+**Assign User:** When selected, the Assign User feature/button will display within the encounter. Users can then assign the encounter to an individual user.
 
-**Dynamic:**
+**Dynamic:** When selected, this encounter will utilize the dynamic encounter sections rather than legacy encounter sections.
 
 **Restricted Viewing:** When selected, the user will be prompted to enter a list of users and/or departments that are *allowed* to utilize this visit type.
 
