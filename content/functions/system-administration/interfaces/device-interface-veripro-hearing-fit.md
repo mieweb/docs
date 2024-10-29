@@ -1,8 +1,8 @@
 ---
 id: '1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ'
 title: 'Device Interface - VeriPRO Hearing Fit'
-date: '2024-10-29T14:12:07.370Z'
-version: 36
+date: '2024-10-29T16:40:57.193Z'
+version: 44
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -18,6 +18,9 @@ This interface uses the VeriPRO database export functionality to save the result
     * Select the start and end date ranges.
     * Select the Export a CSV file radio button
     * Click the Export button
+
+![](../device-interface-veripro-hearing-fit.assets/13a397fb6476f79b653eaf64d33e412a.png)
+
 * In {{% system-name %}} navigate to the VeriPRO upload screen
 
 ![](../device-interface-veripro-hearing-fit.assets/9f8df0726739874a5d221306a57b6442.png)
