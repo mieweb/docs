@@ -1,8 +1,8 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2024-10-23T13:04:28.863Z'
-version: 130
+date: '2024-10-29T13:54:03.755Z'
+version: 134
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -40,7 +40,7 @@ To narrow down a search for appointments, simply select the fields you wish to n
 
 ![](../appointment-report.assets/7be5d18131f28bf844d9256c3b4f6a81.png)
 
-* <strong>Patient:</strong> You can run the report to filter the found appointments by a specific patient. Simply enter the patient's <em>last</em> name and it will give you auto-complete choices. You can also click the icon for help to enter a different method of searching for a specific patient to enter into this field using MR#, DOB, etc.
+* <strong>Patient:</strong> You can run the report to filter the found appointments by a specific patient. Simply enter the patient's <em>last</em> name and it will give you auto-complete choices. There is a three character minimum before the autocomplete suggests any results. You can also click the icon for help to enter a different method of searching for a specific patient to enter into this field using MR#, DOB, etc.
 
 ![](../appointment-report.assets/afac46ff5909bd38d7be0090583d3610.png)
 
