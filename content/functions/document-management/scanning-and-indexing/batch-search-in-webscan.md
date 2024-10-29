@@ -1,9 +1,9 @@
 ---
 id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 title: 'Batch Search in WebScan'
-date: '2020-03-09T16:13:04.599Z'
-version: 31
-lastAuthor: ''
+date: '2024-10-29T15:00:21.528Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
@@ -29,9 +29,7 @@ Completed and Deleted batches are purged from the system every 90 days. The Depl
 
 **Comment**: This field is intended to allow users the ability to search comments provided on batches, and can be limited by a BEGINS WITH search, or an EXACT search, as needed.
 
-**Patient**: Searching can be narrowed down to a specific patient/chart, MRN, Date of Birth, or SSN. For more information on how to utilize the autocomplete search, click the help bubble 
-![](../batch-search-in-webscan.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
- to the right of the field.
+**Patient**: Searching can be narrowed down to a specific patient/chart, MRN, Date of Birth, or SSN. Begin typing the *last name*, and the autocomplete will list potential matches alphabetically. There is a three character minimum before the autocomplete suggests any results. Choose the appropriate patient, and tab to the next field. For more information on how to utilize the autocomplete search, click the help bubble to the right of the field.
 
 **User**: Searching can be narrowed down to a specific user, if necessary. Simply type the first or last name of the user, and select the name from the autocomplete list of choices. Leaving this field blank will search by all users.
 
