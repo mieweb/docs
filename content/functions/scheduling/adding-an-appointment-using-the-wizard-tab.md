@@ -1,8 +1,8 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2024-10-23T12:27:58.669Z'
-version: 452
+date: '2024-10-29T13:49:02.394Z'
+version: 458
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -28,7 +28,7 @@ When the Add Appointment wizard screen opens, it will show various fields to add
 
 This will help describe each field found on the Add Appointment screen:
 
-* <strong>Patient:</strong> Search for the patient chart that this appointment is for.  Various search methods exist, but typically keying in last name, followed by a portion of first name is what is used.  Use the auto-complete to select the specific patient match.
+* <strong>Patient:</strong> Search for the patient chart that this appointment is for.  Various search methods exist, but typically keying in last name, followed by a portion of first name is what is used.  Use the auto-complete to select the specific patient match. There is a three character minimum before the autocomplete suggests any results.
     * <strong>Alerts</strong>: Any Alerts on the patient's chart and/or the patient's related employer organization chart, will appear at the top in red for visibility during an appointment scheduling process.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/a4c1bc8b028759611b4d023170a1d31e.png)
