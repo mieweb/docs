@@ -1,9 +1,9 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2024-10-25T12:36:55.581Z'
-version: 667
-lastAuthor: 'mpierzchala'
+date: '2024-10-29T14:34:38.742Z'
+version: 678
+lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.enterprisehealth.com/blog/video-a-complete-employee-health-solution-enterprise-health'
@@ -24,7 +24,7 @@ All {{% system-name %}} training videos and demonstrations can be found below. P
 
 First, be sure to check out the vision and core concepts of the {{% system-name %}} system, as presented by Doug Horner.
 
-{{% gvideo  id="1tcMjxjgJrREP96UGtwowVcT8zKjYk_X_" %}}
+{{< youtube __zTLXVKEBCEs >}}
 
 {{% only sys="eh" type="INLINE" %}}
 
