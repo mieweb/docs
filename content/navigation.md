@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-29T20:09:58.806Z'
-version: 836
+date: '2024-10-30T16:05:17.295Z'
+version: 851
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -159,6 +159,7 @@ links:
   - 'functions/encounters/archiving-closing-re-archiving-encounters.md'
   - 'functions/encounters/creating-or-adding-encounters.md'
   - 'functions/encounters/copy-from-previous-exam.md'
+  - 'https://drive.google.com/open?id=1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c'
   - 'functions/injury-care.md'
   - 'functions/injury-care/case-management.md'
   - 'functions/injury-care/case-management/adding-absence-management-case.md'
@@ -232,7 +233,7 @@ links:
   - 'functions/injection-immunization-management/injection-tab-with-chirp-interface.md'
   - 'functions/injection-immunization-management/injection-program-tab-recording-mass-injections.md'
   - 'functions/injection-immunization-management/injection-editor.md'
-  - 'https://drive.google.com/open?id=1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
+  - 'functions/injection-immunization-management/vaccine-compliance.md'
   - 'functions/task-management.md'
   - 'functions/task-management/task-list.md'
   - 'functions/task-management/adding-tasks.md'
@@ -888,6 +889,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
         * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
         * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
+        * [Assigned Encounters](https://drive.google.com/open?id=1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c)
     * [Injury Care](functions/injury-care.md)
         * [Case Management](functions/injury-care/case-management.md)
             * [Adding Absence Management Case](functions/injury-care/case-management/adding-absence-management-case.md)
@@ -961,7 +963,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Injection Tab with CHIRP Interface](functions/injection-immunization-management/injection-tab-with-chirp-interface.md)
         * [Injection Program Tab - Recording Mass Injections](functions/injection-immunization-management/injection-program-tab-recording-mass-injections.md)
         * [Injection Editor](functions/injection-immunization-management/injection-editor.md)
-        * [Vaccine Compliance](https://drive.google.com/open?id=1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps)
+        * [Vaccine Compliance](functions/injection-immunization-management/vaccine-compliance.md)
     * [Task Management](functions/task-management.md)
         * [Task List](functions/task-management/task-list.md)
         * [Adding Tasks](functions/task-management/adding-tasks.md)
