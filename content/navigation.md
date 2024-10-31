@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-30T16:05:17.295Z'
-version: 851
+date: '2024-10-31T15:04:18.950Z'
+version: 860
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -159,7 +159,7 @@ links:
   - 'functions/encounters/archiving-closing-re-archiving-encounters.md'
   - 'functions/encounters/creating-or-adding-encounters.md'
   - 'functions/encounters/copy-from-previous-exam.md'
-  - 'https://drive.google.com/open?id=1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c'
+  - 'functions/encounters/assigned-encounters.md'
   - 'functions/injury-care.md'
   - 'functions/injury-care/case-management.md'
   - 'functions/injury-care/case-management/adding-absence-management-case.md'
@@ -669,8 +669,9 @@ links:
   - 'rapid-deployment/review-sessions/review-session-reports.md'
   - 'rapid-deployment/review-sessions/review-session-system-administration.md'
   - 'resources.md'
-  - 'resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md'
   - 'resources/system-specifications.md'
+  - 'resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md'
+  - 'https://drive.google.com/open?id=1NY38KzOMnqFR3Y7iy-NLk1N8NbLx20qc2Ysoa_CmXr0'
   - 'resources/system-specifications/client-hardware-and-software-specifications.md'
   - 'resources/system-specifications/application-programming-interface-api.md'
   - 'resources/system-specifications/application-programming-interface-api/terms-of-api-use.md'
@@ -889,7 +890,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
         * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
         * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
-        * [Assigned Encounters](https://drive.google.com/open?id=1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c)
+        * [Assigned Encounters](functions/encounters/assigned-encounters.md)
     * [Injury Care](functions/injury-care.md)
         * [Case Management](functions/injury-care/case-management.md)
             * [Adding Absence Management Case](functions/injury-care/case-management/adding-absence-management-case.md)
@@ -1399,9 +1400,10 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Review Session - Reports](rapid-deployment/review-sessions/review-session-reports.md)
         * [Review Session - System Administration](rapid-deployment/review-sessions/review-session-system-administration.md)
 * [Resources](resources.md)
-    * EHR Certification
-        * [Real World Testing Plan 2021](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md)
     * [System Specifications](resources/system-specifications.md)
+        * EHR Certification
+            * [Real World Testing Plan 2021](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md)
+            * [Real World Testing Plan 2025](https://drive.google.com/open?id=1NY38KzOMnqFR3Y7iy-NLk1N8NbLx20qc2Ysoa_CmXr0#heading=h.vlo8qmym23np)
         * [Client Hardware and Software Specifications](resources/system-specifications/client-hardware-and-software-specifications.md)
         * [Application Programming Interface (API)](resources/system-specifications/application-programming-interface-api.md)
             * [Terms of API Use](resources/system-specifications/application-programming-interface-api/terms-of-api-use.md)
