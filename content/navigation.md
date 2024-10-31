@@ -671,7 +671,7 @@ links:
   - 'resources.md'
   - 'resources/system-specifications.md'
   - 'resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md'
-  - 'https://drive.google.com/open?id=1NY38KzOMnqFR3Y7iy-NLk1N8NbLx20qc2Ysoa_CmXr0'
+  - 'resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2025.md'
   - 'resources/system-specifications/client-hardware-and-software-specifications.md'
   - 'resources/system-specifications/application-programming-interface-api.md'
   - 'resources/system-specifications/application-programming-interface-api/terms-of-api-use.md'
@@ -1403,7 +1403,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
     * [System Specifications](resources/system-specifications.md)
         * EHR Certification
             * [Real World Testing Plan 2021](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md)
-            * [Real World Testing Plan 2025](https://drive.google.com/open?id=1NY38KzOMnqFR3Y7iy-NLk1N8NbLx20qc2Ysoa_CmXr0#heading=h.vlo8qmym23np)
+            * [Real World Testing Plan 2025](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2025.md#general-information)
         * [Client Hardware and Software Specifications](resources/system-specifications/client-hardware-and-software-specifications.md)
         * [Application Programming Interface (API)](resources/system-specifications/application-programming-interface-api.md)
             * [Terms of API Use](resources/system-specifications/application-programming-interface-api/terms-of-api-use.md)
