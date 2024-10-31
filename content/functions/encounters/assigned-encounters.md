@@ -1,8 +1,8 @@
 ---
 id: '1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c'
 title: 'Assigned Encounters'
-date: '2024-10-30T20:20:43.246Z'
-version: 108
+date: '2024-10-31T12:20:07.756Z'
+version: 127
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -65,8 +65,14 @@ By default, the *Assign User* autocomplete will allow searching for any user wit
 
 ![](../assigned-encounters.assets/98929428774cc4b08639c8141f8043c5.png)
 
-The *Assigned User* autocomplete can be limited to search and display results for a specific department or departments by entering the name of the department or departments in a comma separated list.
+The *Assigned User* autocomplete can be limited to search and display results for **a** specific department. This system setting supports limiting to ONE department. Enter the department name in the *Current Value* field to limit the autocomplete to search a specific department.
 
 Note: The *Assigned Users Department* system setting applies to all encounter types that utilize the *Assign User* feature.
 
 ![](../assigned-encounters.assets/7196ccd303580f266e93f030daf091db.png)
+
+## Revision Tracking
+
+A column for Assigned Users has been added to the encounter revisions table. This table is located in the Encounter Properties.
+
+![](../assigned-encounters.assets/0da7ab9e52d81ff221ca8d49142380e5.png)
