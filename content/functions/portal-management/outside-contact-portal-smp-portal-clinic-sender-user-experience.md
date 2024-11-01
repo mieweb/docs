@@ -2,7 +2,7 @@
 id: '15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
 title: 'Outside Contact Portal - SMP Portal Clinic Sender User Experience'
 date: '2024-10-15T19:50:54.492Z'
-version: 54
+version: 56
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

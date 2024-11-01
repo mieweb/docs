@@ -1,8 +1,8 @@
 ---
 id: '1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ'
 title: 'Device Interface - VeriPRO Hearing Fit'
-date: '2024-10-29T16:40:57.193Z'
-version: 44
+date: '2024-10-29T16:41:11.835Z'
+version: 52
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

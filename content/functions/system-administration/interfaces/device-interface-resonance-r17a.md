@@ -2,7 +2,7 @@
 id: '1XPNwuIDF8ySb9bU9mhYXrYBic4JcJ2Ut1YnZPTkzZ3I'
 title: 'Device Interface - Resonance R17A '
 date: '2024-10-31T20:03:09.196Z'
-version: 35
+version: 37
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
 title: 'Health Surveillance Panels - Actions'
 date: '2024-09-30T16:35:02.575Z'
-version: 94
+version: 96
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
 title: 'Interface Manager'
 date: '2024-10-23T15:13:53.894Z'
-version: 53
+version: 57
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
