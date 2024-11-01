@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-10-31T15:21:08.770Z'
-version: 863
+date: '2024-10-31T19:29:13.582Z'
+version: 880
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -159,7 +159,7 @@ links:
   - 'functions/encounters/archiving-closing-re-archiving-encounters.md'
   - 'functions/encounters/creating-or-adding-encounters.md'
   - 'functions/encounters/copy-from-previous-exam.md'
-  - 'functions/encounters/assigned-encounters.md'
+  - 'functions/encounters/assigned-users.md'
   - 'functions/injury-care.md'
   - 'functions/injury-care/case-management.md'
   - 'functions/injury-care/case-management/adding-absence-management-case.md'
@@ -601,6 +601,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
   - 'functions/system-administration/interfaces/device-interface-pft-system.md'
   - 'functions/system-administration/interfaces/device-interface-piccolo-system.md'
+  - 'https://drive.google.com/open?id=1XPNwuIDF8ySb9bU9mhYXrYBic4JcJ2Ut1YnZPTkzZ3I'
   - 'functions/system-administration/interfaces/device-interface-vision-system.md'
   - 'functions/system-administration/interfaces/device-interface-vital-signs.md'
   - 'functions/system-administration/interfaces/device-interface-welch-allyn-spirometry.md'
@@ -891,7 +892,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
         * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
         * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
-        * [Assigned Encounters](functions/encounters/assigned-encounters.md)
+        * [Assigned Users](functions/encounters/assigned-users.md)
     * [Injury Care](functions/injury-care.md)
         * [Case Management](functions/injury-care/case-management.md)
             * [Adding Absence Management Case](functions/injury-care/case-management/adding-absence-management-case.md)
@@ -1333,6 +1334,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
+            * [Device Interface - Resonance R17A](https://drive.google.com/open?id=1XPNwuIDF8ySb9bU9mhYXrYBic4JcJ2Ut1YnZPTkzZ3I#heading=h.dsj0kttnwjxp)
             * [Device Interface - Vision System](functions/system-administration/interfaces/device-interface-vision-system.md)
             * [Device Interface - Vital Signs](functions/system-administration/interfaces/device-interface-vital-signs.md)
             * [Device Interface - Welch Allyn Spirometry](functions/system-administration/interfaces/device-interface-welch-allyn-spirometry.md)
