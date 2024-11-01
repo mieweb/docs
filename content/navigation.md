@@ -601,7 +601,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
   - 'functions/system-administration/interfaces/device-interface-pft-system.md'
   - 'functions/system-administration/interfaces/device-interface-piccolo-system.md'
-  - 'https://drive.google.com/open?id=1XPNwuIDF8ySb9bU9mhYXrYBic4JcJ2Ut1YnZPTkzZ3I'
+  - 'functions/system-administration/interfaces/device-interface-resonance-r17a.md'
   - 'functions/system-administration/interfaces/device-interface-vision-system.md'
   - 'functions/system-administration/interfaces/device-interface-vital-signs.md'
   - 'functions/system-administration/interfaces/device-interface-welch-allyn-spirometry.md'
@@ -1334,7 +1334,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
-            * [Device Interface - Resonance R17A](https://drive.google.com/open?id=1XPNwuIDF8ySb9bU9mhYXrYBic4JcJ2Ut1YnZPTkzZ3I#heading=h.dsj0kttnwjxp)
+            * [Device Interface - Resonance R17A](functions/system-administration/interfaces/device-interface-resonance-r17a.md#_dsj0kttnwjxp)
             * [Device Interface - Vision System](functions/system-administration/interfaces/device-interface-vision-system.md)
             * [Device Interface - Vital Signs](functions/system-administration/interfaces/device-interface-vital-signs.md)
             * [Device Interface - Welch Allyn Spirometry](functions/system-administration/interfaces/device-interface-welch-allyn-spirometry.md)
