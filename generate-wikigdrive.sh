@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Node version"
 node -v
 npm config set color false &&  npm config set progress false
