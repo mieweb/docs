@@ -1,15 +1,15 @@
 ---
 id: '1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
 title: 'Interface Manager'
-date: '2024-10-23T15:13:53.894Z'
-version: 57
-lastAuthor: 'auhrick'
+date: '2024-11-06T17:17:57.128Z'
+version: 62
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
-The Interface Manager contains a list of custom demographic or HR interfaces that have been configured for WebChart customers only. This module is not primarily used for custom Enterprise Health demographic interfaces. The Interface Manager editor gives Webchart system administrators the ability to manage specific patient fields that come over interfaces.
+The Interface Manager contains a list of custom demographic or HR interfaces that have been configured. This module is not primarily used for custom Enterprise Health demographic interfaces. The Interface Manager editor gives system administrators the ability to manage specific patient fields that come over interfaces.
 
 ## Interface List
 
