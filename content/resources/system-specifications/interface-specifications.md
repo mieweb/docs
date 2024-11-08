@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-10-21T21:00:58.305Z'
-version: 3130
-lastAuthor: 'auhrick'
+date: '2024-11-08T16:28:48.627Z'
+version: 3202
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -26,6 +26,8 @@ links:
   - '../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md'
   - 'https://www.e3diagnostics.com/products/occupational-health---industrial/tremetrics-ra360'
   - 'https://pm.mieweb.com/issues/118062'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-veripro-hearing-fit/'
+  - 'https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/his/en-us/products/hearing-protection/documents/sps-his-veripro-faqs.pdf?download=false'
   - 'http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html'
   - '../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md'
@@ -150,6 +152,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * [Tremetrics RA360](https://www.e3diagnostics.com/products/occupational-health---industrial/tremetrics-ra360) (Pending) ([RM#118062](https://pm.mieweb.com/issues/118062))
     * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
     * Xeta Otometrics (no model # on device) (File Uni-directional)
+    * [Veripro](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-veripro-hearing-fit/) [hearing fit device](https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/his/en-us/products/hearing-protection/documents/sps-his-veripro-faqs.pdf?download=false)
 * Barcode Inventory scanner
     * Datalogic Motorola ES46080 QuickScan 6000; Class # 668112-014001-0000 - Acts like a keyboard
 * Blood Chemistry
@@ -179,7 +182,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * Welch Allyn PC-based PCR100 Resting ECG w/Interp & Spiro Combo -101442 DS (ActiveX/File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
 * Hematology
     * Cell-Dyn Emerald LIS (Serial Uni-directional) - Uses the MIE Device app to monitor the serial port for incoming data and automatically transfer to WebChart
-    * Cpoulter AcT Series Analyzer (Serial Uni-directional) - Has been converted to the MIE Device App for constant listening
+    * Coulter AcT Series Analyzer (Serial Uni-directional) - Has been converted to the MIE Device App for constant listening
     * [Horiba Micros 60](http://www.horiba.com/us/en/medical/products/hematology/abx-micros/abx-micros-60-details/abx-micros-60-905/) (Serial Uni-directional) - Still requires Java Applet to interface
 * Infusion System - [Plum A+](http://www.hospira.com/Products/plumaplusinfusionsystem.aspx) (Pending)
 * InstyMeds
@@ -336,7 +339,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Oregon Immunization Registry
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
 * Tennessee (TENNIIS) (unidirectional)
-* Texas (in progress)
+* Texas
 * Utah
 * West Virginia thru Scientific Technologies Corp (STC)
 * Washington State thru Scientific Technologies Corp (STC)
