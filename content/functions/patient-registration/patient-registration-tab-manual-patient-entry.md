@@ -1,8 +1,8 @@
 ---
 id: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 title: 'Patient Registration Tab - Manual Patient Entry'
-date: '2024-07-29T17:19:07.651Z'
-version: 112
+date: '2024-11-12T14:38:35.354Z'
+version: 117
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -38,7 +38,7 @@ All this information populates the *Demographics* tab of the patient's chart. Cl
 
 Fill out the registration screen fields.
 
-![](../patient-registration-tab-manual-patient-entry.assets/9c7bec10fd0f9bbd3d43ec2639b0b067.png)
+![](../patient-registration-tab-manual-patient-entry.assets/1b12b60e4298cb29b10196b2a17af523.png)
 
 **The required fields are Last Name, First Name, and Birthdate**.
 
