@@ -1,9 +1,9 @@
 ---
 id: '1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
 title: 'Demographics Tab Summary'
-date: '2024-07-16T18:32:57.366Z'
-version: 134
-lastAuthor: 'auhrick'
+date: '2024-11-12T15:59:18.101Z'
+version: 143
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'editing-demographics.md'
@@ -15,7 +15,9 @@ To navigate to the patient **Demographics** chart tab, search for the chart from
 
 ![](../demographics-tab-summary.assets/594e7b4db83a14a62015448f4e54f846.png)
 
-The Demographics chart tab displays a dark grey header that will contain the name, chart status, age, date of birth, sex, home phone number, next appointment information, along with the medical record number. Additionally, a counter for Tasks, Open Encounters, Due List, Order Requistions and eSigns relating to the patient.
+The Demographics chart tab displays a dark grey header that will contain the name, chart status, age, date of birth, sex, home phone number, next appointment information, along with the medical record number. Additionally, a counter for Tasks, Open Encounters, Due List, Order Requisitions and eSigns relating to the patient. If the patient has a preferred name entered, it will display in parentheses next to the legal patient name.
+
+![](../demographics-tab-summary.assets/780ea951b698c41f4b4dfe52434cdad9.png)
 
 {{% info %}}
 The dark grey demographics header will display on all tabs when in the chart, not just the Demographics chart tab.
