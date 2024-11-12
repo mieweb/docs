@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-11-08T16:28:48.627Z'
-version: 3202
+date: '2024-11-12T23:12:25.153Z'
+version: 3233
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -341,6 +341,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Tennessee (TENNIIS) (unidirectional)
 * Texas
 * Utah
+* Virgina Immunization Information System (VIIS) (outbound from EH / inbound to VIIS)
 * West Virginia thru Scientific Technologies Corp (STC)
 * Washington State thru Scientific Technologies Corp (STC)
 * Wyoming Immunization Registry (WYIIS) bi-directional HL7 via ACS HIE
