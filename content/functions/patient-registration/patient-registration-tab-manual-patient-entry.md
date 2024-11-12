@@ -1,8 +1,8 @@
 ---
 id: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 title: 'Patient Registration Tab - Manual Patient Entry'
-date: '2024-11-12T14:38:35.354Z'
-version: 117
+date: '2024-11-12T14:38:39.255Z'
+version: 118
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
