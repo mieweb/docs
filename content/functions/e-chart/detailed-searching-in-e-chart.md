@@ -1,9 +1,9 @@
 ---
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
-date: '2024-09-06T15:39:48.383Z'
-version: 161
-lastAuthor: 'anichols'
+date: '2024-11-12T15:36:54.716Z'
+version: 177
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTGIDNHR'
@@ -51,15 +51,11 @@ If *Search for SSN* is enabled via a system setting, the SSN radio button will d
 
 ## Preferred Name Search
 
-Preferred Name is an extra field in demographics of a chart that can be used to key in a person's preferred name separate from their legal name.  This can be manually entered or filled in by your HR interface.
+Preferred Name fields are extra fields in demographics of a chart that can be used to key in a person's preferred name separate from their legal name. These can be manually entered or filled in by your HR interface. Data from these fields can be seen in several places throughout the product including Demographics Information, the chart header, the demographics portlet (Summary tab) and document list views. Users may also search for charts by Preferred Last Name and Preferred First Name.
 
-![](../detailed-searching-in-e-chart.assets/b1709d15fb0e76b4491ec2a9e961b103.png)
+![](../detailed-searching-in-e-chart.assets/424b538479e0354e6ae02111f5434ed7.png)
 
-{{% tip %}}
-We recommend to always key in a full preferred name in this field.  Don't just key in first name/nickname only, because it will display that way on portal experience, for supervisor portal experience reporting needs, and elsewhere.  We recommend to always key in or populate Preferred Name field will their *full* preferred name.
-{{% /tip %}}
-
-Two new system settings are available to enable if with to allow chart searching to include preferred name.  Both system settings are disabled by default, but can be enabled at the practice's discretion.
+Two system settings are available to enable if with to allow chart searching to include preferred name.  Both system settings are disabled by default, but can be enabled at the practice's discretion.
 
 ![](../detailed-searching-in-e-chart.assets/3901df7afa7bd7d8cae9fcd06349a666.png)
 
