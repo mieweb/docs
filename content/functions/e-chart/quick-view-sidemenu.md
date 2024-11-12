@@ -1,20 +1,17 @@
 ---
 id: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
 title: 'Quick View Sidemenu'
-date: '2020-03-09T21:01:07.216Z'
-version: 65
-lastAuthor: ''
+date: '2024-11-11T22:33:45.147Z'
+version: 108
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?func=omniscope'
-  - 'https://system/?f'
-  - 'https://system/'
+links: []
 source: 'https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
-There is an interactive [Quick View](https://system/?func=omniscope) sidemenu option available. The Quick View sidemenu offers various summary portlets that are used as a quick reference, to view modules and data in the   {{% system-name %}}  system.  Examples of references include your pending tasks, the appointment schedule, worklists, dashboards, etc. You can select which specific portlets to show on your view.
+The Quick View side menu offers various summary portlets that are used as a quick reference, to view modules and data in the {{% system-name %}}  system.  Examples of references include your pending tasks, the appointment schedule, worklists, dashboards, etc. You can select which specific portlets to show on your view.
 
-When logged into {{% system-name %}} , click on the [Quick View](https://system/?func=omniscope) sidemenu.
+When logged into {{% system-name %}} , click on the Quick View side menu.
 
 ![](../quick-view-sidemenu.assets/cefccd4aeee20ae3b55f821ead371d35.png)
 
@@ -22,7 +19,7 @@ When in Quick View, default portlets will display, but there is an option to cus
 
 ## Portlets
 
-The sections that display in the [Quick View](https://system/?f) tab are called **portlets**. With the appropriate security permission, users can show/hide any portlet and this only affects the logged-in user's view and no other user. You can arrange and customize the Quick View tab to be in the order and columns that you wish.
+The sections that display in the Quick View tab are called **portlets**. With the appropriate security permission, users can show/hide any portlet and this only affects the logged-in user's view and no other user. You can arrange and customize the Quick View tab to be in the order and columns that you wish.
 
 To see all the portlets available for display, click the **Select Portlets** link at the top-right of the page when you are in the Quick View tab.
 
@@ -30,7 +27,7 @@ To see all the portlets available for display, click the **Select Portlets** lin
 
 The **Available Portlets** window will be displayed on the screen. These are modules, or worklists or dashboards, that reside elsewhere in  {{% system-name %}} , but are conveniently accessible to display for use here, on the Quick View.
 
-![](../quick-view-sidemenu.assets/aea1b51fe3c1e6f12ffe247bac256172.png)
+![](../quick-view-sidemenu.assets/201acfb27c628187898ad5a1514155e9.png)
 
 {{% info %}}
 The **Administrator Welcome** portlet will display at the top of the Quick View if you have a security role of Administrator. Also, the portlets named **Sample Demo**, **Get Started**, and **Documentation Video** will only be available for selection if the logged-in user is a member of the Administrator security role.
@@ -38,11 +35,13 @@ The **Administrator Welcome** portlet will display at the top of the Quick Vie
 
 After clicking the **Select Portlets** link, check or uncheck any portlets you wish to be shown or not within the Quick View tab. The changes and selections you make only affect your username and your view. Once selections are made click Save. The portlets selected will display in your Quick View until you make other changes.
 
-![](../quick-view-sidemenu.assets/a72650a100389d3c3135256db32862cb.png)
+Administrators or those with appropriate security permissions, may also save default portlets for individual security roles or set a system wide defaults.
+
+![](../quick-view-sidemenu.assets/f47a009356c530521be50c86b36fc4b0.png)
 
 ## Portlet Icons
 
-The portlets displayed on the [Quick View](https://system/) have icons that perform certain functions. These are located at the top-right of each portlet. If you hover your mouse over each, it will display the intended function of each icon.
+The portlets displayed on the Quick View have icons that perform certain functions. These are located at the top-right of each portlet. If you hover your mouse over each, it will display the intended function of each icon.
 
 ![](../quick-view-sidemenu.assets/9e0ceacc49dbf8b3047cfc476f101407.png)
 
@@ -59,22 +58,27 @@ The other icons are defined and function as follows:
 
 If you have security permission to save default portlets, you can configure the portlets to display on the Quick View for other users, according to their security role.
 
-From the Select Portlets function in Quick View, the **Save as Default** option will display, providing you have security permission to save default portlets for security roles in the system.
+From the Select Portlets function in Quick View, the **Save as Default F****or** option will display, providing you have security permission to save default portlets for security roles in the system.
 
-![](../quick-view-sidemenu.assets/27bef29d1b0137165207835f53286b03.png)
+![](../quick-view-sidemenu.assets/cdf73925f0168d13f592a41497cc5bef.png)
 
 Use the drop-down to select the specific security role you want to configure the default Quick View portlets for.
 
-![](../quick-view-sidemenu.assets/d86b8ae7cb153cffc971a362fe77c2cf.png)
+![](../quick-view-sidemenu.assets/cff77ce447e6262509591e7189eed403.png)
 
 {{% tip %}}
 System Default is a choice in the drop-down where, if selected, the default portlets being configured for Quick View would be system-wide. This means every user will have the selected portlets displayed as the default in Quick View.
 {{% /tip %}}
 
-Once the security role is selected via the drop-down, click the pencil/paper icon next to the drop-down.
+Once the security role is selected via the drop-down, click the pencil/paper icon next to the drop-down. The **Save As Default For** option will set new user defaults for the selected security role.
 
-![](../quick-view-sidemenu.assets/aad2cba0604d5654a067bcb6d974a670.png)
+![](../quick-view-sidemenu.assets/20fdeb48a5943f7ecf74ba1ee927ab94.png)
 
-The screen will refresh and display the Quick View portlets as the security role default is currently set up as.  You can visually see the portlets on your Quick View screen for that security role selected. You can drag and drop portlets to be in a specific order also for the security role default.  Click the Select Portlets link to get back into the portlet selection and then checkmark or uncheckmark portlets to be displayed or not in the specific selected security role default.
+The screen will refresh and display the Quick View portlets for the selected security role.  Users can visually see the portlets on the Quick View screen for that security role selected. Users can drag and drop portlets to be in a specific order also for the security role default. When cone, click the **Select Portlets** link to get back into the **Available Portlets** selection 
+![](../quick-view-sidemenu.assets/5c92afc83ee1d11c40c8397f671863ce.png)
 
-When done selecting portlets, and or columns, click the **Save** button.  The system will save the edits to the security role default Quick View and will refresh back to your own Quick View.  Repeat the above steps if wish to check the look of the security role default configuration or move portlets around for the security role default.
+From the **Available Portlets** screen, users should see the previously selected security role in the **Save As Default For** drop down. Users may checkmark or uncheckmark portlets to be displayed, if not already done previously. If the changes should be applied to **all** existing users in the selected security role, then select the **Apply to Users** option. If the changes should only display for new users moving forward, do not select the **Apply to Users** option. When done selecting portlets, and/or number of desired columns, click the **Save** button. The system will save the edits to the security role default Quick View and will refresh back to your own Quick View.
+
+![](../quick-view-sidemenu.assets/4ba3873a929a66f9d70042e42f1d61ad.png)
+
+Repeat the above steps if you wish to check the look of the security role default configuration or move portlets around for the security role default.
