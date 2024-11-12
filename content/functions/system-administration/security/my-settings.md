@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-10-15T14:24:53.611Z'
-version: 546
-lastAuthor: 'janderson'
+date: '2024-11-12T17:56:25.022Z'
+version: 557
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
@@ -131,6 +131,12 @@ When looking at preference choices available in the drop-down:
 * Display JS Errors: Controls whether the user will see a wcnotification everytime there is a JS (javascript) error on the page
 * Enable Debug Console: Turns on a control icon in the header that provides a console-like interface. This is useful for debugging on devices that do not offer a native console (ex: ipad). In legacy systems, this was a system setting, but now is a per user preference.
 * Track DB Statements: All database statements are now controlled with this preference enabled. Capturing begins before the connection is initialized so that profiling doesn't miss statements that occur before login/preference checking.  Key handlers consolidated to a single 'pq' handler which allows sorting and filtering based on the type of statement.  Profile window allows clicking to show statement details including error messages and fetch duration for MSRLR statements.
+
+#### Experiments
+
+* AI-Suggested Encounter Actions: Use AI to suggest actions indicated by a dictation within an encounter.  Currently, it does 2 things:
+    * In the Flex Visit encounter, if you dictate into the encounter section, the automatically transcribed text has the "sparkles" icon to the left of it, and if you click that, it takes that text and chunks it up, putting parts of it into other encounter sections.
+    * In the presenting meds section, if you dictated directly into that, or used the Flex Visit encounter dictation method, the "sparkles" icon shows there also, and if you click that, it shows a popup with possible actions based on what the AI interpreted the dictation for that section to mean.
 
 ### E-Chart
 
