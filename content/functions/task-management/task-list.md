@@ -1,8 +1,8 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2024-10-23T13:58:10.899Z'
-version: 232
+date: '2024-11-13T16:17:04.727Z'
+version: 248
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -249,6 +249,16 @@ A new user preference (*My Setting*) has been added which will allow users to sw
 ![](../task-list.assets/fd18ec9481901bfd1736793580d2f902.png)
 
 ![](../task-list.assets/059a1fa748202054fd0b4c4e7aa9b3eb.png)
+
+### Grab Task
+
+In the legacy version of tasking, users could only grab one task at a time. Datavis allows users to grab multiple tasks from the combined Realm Task list.
+
+![](../task-list.assets/c53cab7d495f3891fb228ebd035d83dd.png)
+
+When grabbing multiple tasks, selected tasks will be assigned to the logged in user. The user will also be prompted with a message "Open new tabs for all X tasks you grabbed?" with a yes/no response button option. Selecting **Yes**, will open each grabbed task in separate browser tabs. Selecting **No**, will close the dialogue box and return to the user to their task list where they can proceed to their next task.
+
+![](../task-list.assets/4c084170b444679e67f53ddf226cf9a8.png)
 
 ## Learning Management System
 
