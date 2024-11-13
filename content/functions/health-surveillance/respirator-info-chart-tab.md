@@ -1,11 +1,12 @@
 ---
 id: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 title: 'Respirator Info Chart Tab'
-date: '2024-10-22T19:06:58.402Z'
-version: 128
+date: '2024-11-13T16:21:01.795Z'
+version: 160
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://drive.google.com/open?id=1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM'
   - 'https://mie.talentlms.com/shared/start/key:ZOGDNHRK'
 source: 'https://drive.google.com/open?id=1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
@@ -50,7 +51,7 @@ It will ask you to confirm you wish to delete the fit test record.
 
 ![](../respirator-info-chart-tab.assets/08c7740e60b9e27f2bd406b355f7002c.png)
 
-If you confirm to delete, it will delete that respirator fit data and will not be able to un-delete it.  Note: deleting a respirator fit data entry does not delete any stored documents related to the entry.
+If you confirm to delete, it will delete that respirator fit data and will not be able to un-delete it.  **Note:** deleting a respirator fit data entry also deleted the stored document related to the entry beginning in *09-2024RC*.
 
 If you get an MIEAPI error when deleting a record, your security role does not have permission to ‘delete' respiratordetails via the JSON security for the role you are a part of.
 
@@ -67,6 +68,18 @@ You can edit any prior respirator fit entries using the pencil (edit) image icon
 
 Editing a respirator fit data record will pop-up the Edit Respirator Fit window.  The existing data will be populated, but you can change what is needed and save your work.
 ![](../respirator-info-chart-tab.assets/823850716644249bcf7ace8b22fd1853.png)
+
+Any historical revision history will also display at the bottom of the Edit pop-up window
+
+![](../respirator-info-chart-tab.assets/2a55b09f4abd106b435b6baea18d6946.png)
+
+**Note:** Editing a respirator fit data entry also edit and place a revision on the stored document related to the entry.
+
+![](../respirator-info-chart-tab.assets/9aa1c3365717a3e7084c2980b9e06b08.png)
+
+The related stored document to the respirator fit data record can also be accessed using the northeast arrow icon on the data line (effective 09-2024RC).
+
+![](../respirator-info-chart-tab.assets/08cdde85151248b8d6bead84854e4170.png)
 
 #### Add respirator fit data entry
 
@@ -98,17 +111,27 @@ Proceed to use the pop-up data entry fields to document the fit test
 
 When done with that entry, click the SAVE button. You can add another fit test entry if you wish by repeating the above steps (clicking the **+** icon in the section).
 
+**NOTE:** once you save/add a respirator fit data record to the chart, a separate document will also be stored and a completed Resp Fit Test order item will be inserted into the chart's due list (effective 09-2024RC).  If the chart had a pending Resp Fit Test due on their due list, the system would mark/insert that one as completed.
+
+The related stored document to the respirator fit data record can also be accessed using the northeast arrow icon on the data line (effective 09-2024RC).
+
+![](../respirator-info-chart-tab.assets/08cdde85151248b8d6bead84854e4170.png)
+
 #### Revision history of existing historical respirator fit
 
 Revision history of any prior respirator fit entries can be viewed by using the pencil (edit) image icon next to any entry.  Click on the pencil/edit icon.
 ![](../respirator-info-chart-tab.assets/bb08558aedcd18b9b20f00dfc6be2d02.png)
 
-Within the Edit Respirator Fit pop-up window, at the bottom is any Revision History information.  If you don't see the revision history, simply click the dark grey REVISIONS button to expand it open in the pop-up window.  You can X close out of the pop-up without editing any data.
+Within the Edit Respirator Fit pop-up window, at the bottom is any Revision History information.  If you don't see the revision history, simply click the dark gray REVISIONS button to expand it open in the pop-up window.  You can X close out of the pop-up without editing any data.
 
 ![](../respirator-info-chart-tab.assets/1b7c4c6e39bbb6dd1823901634a205fb.png)
 
+## Mass Manual Entry of Respirator Fit Data
+
+There is a separate help guide on the ability to manually enter respirator fit data in mass to individual charts using the Resp Fit Program mass data entry screen found in E-Chart.  Please see separate guide titled: [Mass Manual Entry of Respirator Fit Data](https://drive.google.com/open?id=1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM) and also a separate chapter on the below LMS (Learning Management System) course.
+
 ## Learning Management System
 
-To learn more about the Respirator Info Chart Tab & manual entry method, any standard reporting around Respirator Fit test data, and how to enter in Respirator Fit test data using an encounter due list item, or how to import respirator fit test data, follow the link below to the Learning Management System course:
+To learn more about the Respirator Info Chart Tab with manual entry method, Mass Manual Entry of Respirator Fit Data, any standard reporting around Respirator Fit test data, and how to enter in Respirator Fit test data using an encounter due list item, or how to import respirator fit test data, follow the link below to the Learning Management System course:
 
 * [Respirator Fit Testing](https://mie.talentlms.com/shared/start/key:ZOGDNHRK)
