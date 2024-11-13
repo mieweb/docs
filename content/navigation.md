@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-12T19:03:06.609Z'
-version: 908
-lastAuthor: 'auhrick'
+date: '2024-11-13T16:19:09.797Z'
+version: 930
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -186,6 +186,7 @@ links:
   - 'functions/health-surveillance/due-list.md'
   - 'functions/health-surveillance/due-list-in-a-dynamic-encounter.md'
   - 'functions/health-surveillance/respirator-info-chart-tab.md'
+  - 'functions/health-surveillance/mass-manual-entry-of-respirator-fit-data.md'
   - 'functions/health-surveillance/health-surveillance-playbook.md'
   - 'functions/order-and-result-management.md'
   - 'functions/order-and-result-management/vitals-tracking-and-management.md'
@@ -517,6 +518,7 @@ links:
   - 'functions/system-administration/system-controls/translation-manager.md'
   - 'functions/system-administration/system-controls/interface-manager.md'
   - 'functions/system-administration/system-controls/encounter-types.md'
+  - 'functions/system-administration/system-controls/auto-routes.md'
   - 'functions/system-administration/data-migration.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
   - 'functions/system-administration/data-migration/data-migration-file-format-standard.md'
@@ -920,6 +922,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Due List](functions/health-surveillance/due-list.md)
         * [Due List in a Dynamic Encounter](functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
         * [Respirator Info Chart Tab](functions/health-surveillance/respirator-info-chart-tab.md)
+        * [Mass Manual Entry of Respirator Fit Data](functions/health-surveillance/mass-manual-entry-of-respirator-fit-data.md)
         * [Health Surveillance Playbook](functions/health-surveillance/health-surveillance-playbook.md)
     * [Order & Result Management](functions/order-and-result-management.md)
         * [Vitals Tracking & Management](functions/order-and-result-management/vitals-tracking-and-management.md)
@@ -1251,6 +1254,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Translation Manager](functions/system-administration/system-controls/translation-manager.md#_ympf05vurq1c)
             * [Interface Manager](functions/system-administration/system-controls/interface-manager.md)
             * [Encounter Types](functions/system-administration/system-controls/encounter-types.md)
+            * [Auto Routes](functions/system-administration/system-controls/auto-routes.md)
         * [Data Migration](functions/system-administration/data-migration.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
             * [Data Migration File Format Standard](functions/system-administration/data-migration/data-migration-file-format-standard.md)
