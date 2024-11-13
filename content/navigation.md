@@ -263,7 +263,7 @@ links:
   - 'functions/system-configuration/work-locations-tab-work-regions.md'
   - 'functions/system-configuration/managing-departments.md'
   - 'functions/system-configuration/encounters-protocol-configuration-and-programming.md'
-  - 'https://drive.google.com/open?id=1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM'
+  - 'functions/system-configuration/macros.md'
   - 'functions/system-configuration/side-chart-configuration.md'
   - 'functions/system-configuration/autocomplete-editor.md'
   - 'functions/system-configuration/fee-schedules.md'
@@ -997,7 +997,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Work Locations Tab - Work Regions](functions/system-configuration/work-locations-tab-work-regions.md)
         * [Managing Departments](functions/system-configuration/managing-departments.md)
         * [Encounters Protocol Configuration & Programming](functions/system-configuration/encounters-protocol-configuration-and-programming.md)
-        * [Macros](https://drive.google.com/open?id=1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM#heading=h.5o515kp11yd8)
+        * [Macros](functions/system-configuration/macros.md#_5o515kp11yd8)
         * [Side Chart Configuration](functions/system-configuration/side-chart-configuration.md)
         * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
         * [Fee Schedules](functions/system-configuration/fee-schedules.md)
