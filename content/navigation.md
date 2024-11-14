@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-14T18:03:47.982Z'
-version: 944
+date: '2024-11-14T18:11:24.664Z'
+version: 954
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -171,6 +171,8 @@ links:
   - 'functions/injury-care/case-management/deleting-an-existing-case.md'
   - 'functions/injury-care/case-management/viewing-cases.md'
   - 'functions/injury-care/editing-restriction-types.md'
+  - 'functions/injury-care/adding-restrictions.md'
+  - 'functions/injury-care/viewing-restrictions.md'
   - 'functions/injury-care/work-status.md'
   - 'functions/health-surveillance.md'
   - 'functions/health-surveillance/introduction-to-health-surveillance-panels.md'
@@ -905,6 +907,8 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Deleting an Existing Case](functions/injury-care/case-management/deleting-an-existing-case.md)
             * [Viewing Cases](functions/injury-care/case-management/viewing-cases.md)
         * [Editing Restriction Types](functions/injury-care/editing-restriction-types.md)
+        * [Adding Restrictions](functions/injury-care/adding-restrictions.md)
+        * [Viewing Restrictions](functions/injury-care/viewing-restrictions.md)
         * [Work Status](functions/injury-care/work-status.md)
     * [Health Surveillance](functions/health-surveillance.md)
         * [Introduction to Health Surveillance Panels](functions/health-surveillance/introduction-to-health-surveillance-panels.md)
