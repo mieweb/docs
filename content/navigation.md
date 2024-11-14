@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-14T17:04:04.347Z'
-version: 938
+date: '2024-11-14T18:03:47.982Z'
+version: 944
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -170,8 +170,6 @@ links:
   - 'functions/injury-care/case-management/closing-an-existing-case.md'
   - 'functions/injury-care/case-management/deleting-an-existing-case.md'
   - 'functions/injury-care/case-management/viewing-cases.md'
-  - 'functions/injury-care/adding-restrictions.md'
-  - 'functions/injury-care/viewing-restrictions.md'
   - 'functions/injury-care/editing-restriction-types.md'
   - 'functions/injury-care/work-status.md'
   - 'functions/health-surveillance.md'
@@ -906,8 +904,6 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Closing an Existing Case](functions/injury-care/case-management/closing-an-existing-case.md)
             * [Deleting an Existing Case](functions/injury-care/case-management/deleting-an-existing-case.md)
             * [Viewing Cases](functions/injury-care/case-management/viewing-cases.md)
-        * [Adding Restrictions](functions/injury-care/adding-restrictions.md)
-        * [Viewing Restrictions](functions/injury-care/viewing-restrictions.md)
         * [Editing Restriction Types](functions/injury-care/editing-restriction-types.md)
         * [Work Status](functions/injury-care/work-status.md)
     * [Health Surveillance](functions/health-surveillance.md)
