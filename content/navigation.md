@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-13T16:19:09.797Z'
-version: 930
+date: '2024-11-14T17:03:57.174Z'
+version: 935
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -906,8 +906,8 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Closing an Existing Case](functions/injury-care/case-management/closing-an-existing-case.md)
             * [Deleting an Existing Case](functions/injury-care/case-management/deleting-an-existing-case.md)
             * [Viewing Cases](functions/injury-care/case-management/viewing-cases.md)
-        * [Adding Restrictions and Accommodations](functions/injury-care/adding-restrictions-and-accommodations.md)
-        * [Viewing Restrictions and Accommodations](functions/injury-care/viewing-restrictions-and-accommodations.md)
+        * [Adding Restrictions](functions/injury-care/adding-restrictions-and-accommodations.md)
+        * [Viewing Restrictions](functions/injury-care/viewing-restrictions-and-accommodations.md)
         * [Editing Restriction Types](functions/injury-care/editing-restriction-types.md)
         * [Work Status](functions/injury-care/work-status.md)
     * [Health Surveillance](functions/health-surveillance.md)
