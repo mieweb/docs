@@ -1,9 +1,9 @@
 ---
 id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 title: 'Review Session - Case Management'
-date: '2023-12-07T18:09:22.061Z'
-version: 432
-lastAuthor: 'bhamm'
+date: '2024-11-15T20:03:25.563Z'
+version: 446
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M'
@@ -63,9 +63,10 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * Stages
     * WR Case Management Worklist
     * Security Role Permissions
-    * Linking Cases
+    * Linking/Adding Cases
         * Linking existing case to a document (ex: WebScan or File Upload)
         * Linking visit encounter(s) to existing case
+        * Make Case from an incident reported via the employee portal (if applicable).
     * Cases stand-alone chart tab
     * Close case
         * Deleting case or Closing case difference
