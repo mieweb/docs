@@ -1,9 +1,9 @@
 ---
 id: '1eZ2ZZycljJvLk2qkfmQGRo0cQ4RzeY_kMXIzDr8TgNU'
 title: 'Review Session - Injury Care'
-date: '2022-11-07T21:28:20.698Z'
-version: 55
-lastAuthor: 'wreiske'
+date: '2024-11-15T20:01:13.963Z'
+version: 64
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting/osha_ita_api_documentation.pdf'
@@ -56,7 +56,9 @@ Overall, {{% system-name %}} not only incorporates streamlined processes for rec
 Standard functionality includes:
 
 * Several possible case types and applicable data fields – Injury (OSHA Standard), Injury (Non-OSHA Standard), Hospital, Absence management, MSEA, and Medical Surveillance.
-* Integrated workflows allowing employees to self-report via an employee/patient portal, with task notifications designed to alert staff of new cases/incidents needing reviewed and validated.
+* Integrated workflows allowing employees to self-report via an employee/patient portal, with task notifications designed to alert staff of new cases/incidents needing to be reviewed and validated.
+    * Make Case from an incident reported via the employee portal (if applicable)
+    * Scheduled job- auto case creation If applicable)
 * Pre-loaded forms with data overlay:
     * OSHA Form 301, configured with an overlay of employee incident data
     * State-specific Doctor's First Report of Injury
