@@ -1,12 +1,12 @@
 ---
 id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 title: 'Adding OSHA Case'
-date: '2024-10-23T19:07:48.690Z'
-version: 120
-lastAuthor: 'janderson'
+date: '2024-11-15T19:26:04.287Z'
+version: 148
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
-  - '../adding-restrictions-and-accommodations.md'
+  - '../adding-restrictions.md'
   - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
 source: 'https://drive.google.com/open?id=1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
@@ -129,11 +129,11 @@ Here you can document the nature of injury or illness using a drop-down selectio
 
 ### Work Status (or Lost Time) Section
 
-Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md) help documentation for more information.
+Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions.md) help documentation for more information.
 
 ### Restrictions and Accommodations
 
-Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md).
+Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions.md).
 
 ## Linking Documents to Cases
 
@@ -148,6 +148,24 @@ Some dynamic encounters offer an Incident Summary section.  This is an expandab
 {{% info %}}
 Various forms, in forms library, can be programmed to pull in case data details that were documented.  Contact your MIE Implementer if have specific forms that need generated routinely that may need case (incident) data overlaid.
 {{% /info %}}
+
+## Add Case from an Incident Report via the Portal
+
+If an employee has reported an incident via the employee portal, a document summarizing that information is available in the employee chart. The document is stored with the document type description **Questionnaire-Report Injury or Illness**.  Workflows may be configured based on need to task these documents to an individual or department such as Nursing, Case Management or Safety Team for review. Once the report has been reviewed by the appropriate personnel and it is deemed that it should be made into a case, click the **Add Case** button from the **Questionnaire-Report Injury or Illness** summary document.
+
+![](../adding-osha-case.assets/3417efe3c3c6e11bb9484210b4ead54e.png)
+
+A confirmation message will display in the **Add Case Details** dialog box indicating if the documentation was successfully added as a case, along with the system generated case number and a link to the case summary document.
+
+![](../adding-osha-case.assets/96d7fa4aacf22861e58a3a009455f963.png)
+
+Once the summary document has been made into a case, users may link the case to any encounter with the Case encounter section.
+
+![](../adding-osha-case.assets/71469c03c9713f1b243fa023d67c9cff.png)
+
+Once linked, the case will default to the Injury (OSHA Standard) Case Type. The user will be prompted to indicate if the injury/illness was a pre-existing injury, the result of a single event or developed over time, before any other case fields will display. From this point, users may update or add additional information to the case.
+
+![](../adding-osha-case.assets/14aad5160e16bbd31b8c2d9d786b4450.png)
 
 ## Learning Management System
 
