@@ -2,7 +2,7 @@
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
 date: '2024-09-06T16:26:23.724Z'
-version: 314
+version: 317
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:

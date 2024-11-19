@@ -1,9 +1,9 @@
 ---
 id: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
 title: 'Label Printing Feature'
-date: '2024-07-08T15:39:16.728Z'
-version: 117
-lastAuthor: 'janderson'
+date: '2024-11-04T19:34:26.300Z'
+version: 123
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../order-and-result-management/e-orders-chart-tab.md'

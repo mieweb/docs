@@ -1,8 +1,8 @@
 ---
 id: '1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
 title: 'Interface Manager'
-date: '2024-11-06T17:17:57.128Z'
-version: 62
+date: '2024-11-06T17:18:03.882Z'
+version: 65
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
