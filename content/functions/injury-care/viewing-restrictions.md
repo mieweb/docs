@@ -1,17 +1,26 @@
 ---
 id: '1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
 title: 'Viewing Restrictions'
-date: '2024-11-14T17:06:12.549Z'
-version: 110
+date: '2024-11-19T19:12:18.828Z'
+version: 146
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'adding-restrictions.md'
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
-The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout {{% system-name %}} and its own chart tab outside of an encounter exam.
+The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout the system and its own chart tab outside of an encounter exam.
+
+## Security Permission
+
+Security permission **Manage Restr and Accom** allows a user to manage restrictions and accommodations for patient charts.  There are various levels from not being able to view any documented restrictions and/or accommodations on a chart, to being able to delete existing or add new restrictions and/or accommodations on a chart.
+
+![](../viewing-restrictions.assets/60140c574ab7a6e73a97e879234d1109.png)
+
+Based on your permission, you may or may not have restrictions/accommodations listings visible or you may or may not be able to add or edit existing or new restrictions/accommodations for a chart.
+
+![](../viewing-restrictions.assets/ecd3ede4ae2d53e7c2db7301c3c2f454.png)
 
 ## Viewing Active Restrictions in Chart
 
@@ -31,6 +40,12 @@ The Show More link will take you to the Restrictions/Lost Time chart tab summary
 
 ![](../viewing-restrictions.assets/bd3e5ceb6487a6cded5cf20964d991d9.png)
 
+## Viewing Active Restrictions in Work Status Portlet
+
+Current active restrictions are also displayed on the Work Status portlet available within the Summary dashboard chart tab.
+
+![](../viewing-restrictions.assets/401be24761187619a8fc970a43d8563a.png)
+
 ## Viewing Active Restrictions in an Encounter
 
 While working in an encounter, there is a Subjective section that you can jump to named Presenting Restrictions.  When you jump to that section, it will show you all presenting restrictions along with any accommodations in a summary format. The presenting restrictions displayed are active, current restrictions.  This section is for visibility purposes to quickly see any active restrictions a chart has when beginning an encounter exam.
@@ -38,34 +53,40 @@ While working in an encounter, there is a Subjective section that you can jump t
 ![](../viewing-restrictions.assets/1c6dc2377364f180323f8d0ee9b90b0d.png)
 
 {{% note %}}
-Restrictions cannot be added from the Presenting Restrictions encounter section.  You must jump to the separate section named Restrictions in the Plan to edit, add or delete restrictions on a chart.
+Restrictions cannot be added nor updated nor deleted from the Presenting Restrictions encounter section.  You must jump to the separate encounter section named Restrictions within the Plan to edit, add or delete restrictions on a chart.
 {{% /note %}}
 
 ## Viewing Active Restrictions in Side Chart
+
+Current active restrictions are viewable from the side chart within the demographics section.
+
+![](../viewing-restrictions.assets/4ab7e69d35c018ddfac3f4b6aefdc34c.png)
 
 Any active current restrictions that are specifically linked to a case/incident are also displayed on the side chart.  When you open the side chart, any open cases/incidents for the chart are listed. When you expand a specific case, any linked restrictions and accommodations will be visible there also.
 
 ![](../viewing-restrictions.assets/e0c6d6cb0809ea952e550a2a74c2e398.png)
 
-## Inactive Restrictions
+## Viewing Inactive Restrictions
 
 Inactive restrictions are restrictions that have passed their end date.
 
-### From Restrictions/Lost Time chart tab
+### Inactive Restrictions from Restrictions/Lost Time stand alone chart tab
 
-Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time.  In order to view inactive restrictions within the Restrictions/Lost Time chart tab of the patient, simply click the section title bar Restrictions and/or Accommodations to expand it.  Whether you are in summary view or detail view, when you click on the title bar that will open up the section to provide the Show Inactive hyperlink to view inactive restrictions on the chart.
+Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time.  In order to view inactive restrictions within the Restrictions/Lost Time chart tab of the patient, simply click the *Show Inactive* hyperlink.
 
 ![](../viewing-restrictions.assets/1d639a59c1c3ea69a8bd5e742553e6fb.png)
 
-Once clicking the Show Inactive link, the summary view will show and incorporate all past inactive restrictions on the chart along with the current active restrictions. The "show inactive" also shows restrictions that did not have the entirety of the restriction accommodated.
+Once clicking the Show Inactive hyperlink, it will display and incorporate all past inactive restrictions on the chart along with the current active restrictions.
 
 {{% tip %}}
-When clicking on the title bar, it also opens up the ability to edit, delete and add restrictions. Refer to our other guide on [adding restrictions](adding-restrictions.md).
+To toggle back to just the current active restrictions listing, toggle back by clicking *Hide Inactive*.
+
+![](../viewing-restrictions.assets/87555114a978c5575408a802d5af4490.png)
 {{% /tip %}}
 
-### From the Restrictions Encounter Section
+### Inactive Restrictions from the Restrictions Encounter Section
 
-In order to view inactive restrictions within an encounter, simply click the encounter section Restrictions found in the Plan.  Inactive restrictions are restrictions that have passed their end date.  Whether you are in summary view or detail view, when you click on the section title bar that will open up the section to provide the Show Inactive hyperlink to view inactive restrictions on the patient.  Once clicking the Show Inactive link, the summary view will show all past inactive restrictions on the chart along with the current active restrictions if there are any.
+In order to view inactive restrictions within an encounter, simply go to the encounter section Restrictions found in the Plan.  Inactive restrictions are restrictions that have passed their end date and you can view those by clicking the *Show Inactive* link.  It will then list all past inactive restrictions on the chart along with the current active restrictions if there are any.
 
 ![](../viewing-restrictions.assets/f36d1315014a17092371eda41d0c2851.png)
 

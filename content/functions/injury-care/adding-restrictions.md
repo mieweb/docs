@@ -1,8 +1,8 @@
 ---
 id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 title: 'Adding Restrictions'
-date: '2024-11-14T18:11:51.479Z'
-version: 239
+date: '2024-11-19T19:09:51.221Z'
+version: 267
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -13,6 +13,16 @@ source: 'https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vo
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout {{% system-name %}} from a header, or from its own chart tab outside of an encounter exam.
+
+## Security Permission
+
+Security permission **Manage Restr and Accom** allows a user to manage restrictions and accommodations for patient charts.  There are various levels from not being able to view any documented restrictions and/or accommodations on a chart, to being able to delete existing or add new restrictions and/or accommodations on a chart.
+
+![](../adding-restrictions.assets/60140c574ab7a6e73a97e879234d1109.png)
+
+Based on your permission, you may or may not have restrictions/accommodations listings visible or you may or may not be able to add or edit existing or new restrictions/accommodations for a chart.
+
+![](../adding-restrictions.assets/ecd3ede4ae2d53e7c2db7301c3c2f454.png)
 
 ## Adding a New Restriction while in Encounter
 
@@ -97,7 +107,7 @@ When you click the pencil icon (to edit) the restriction fields of the one you s
 
 Current restrictions, that encompass today's date, are shown in various places when working in the chart.  Please read the other [Viewing Restrictions](viewing-restrictions.md) documentation for specific details, but a couple areas are:
 
-### Dark Grey Demographic Bar
+### Dark Gray Demographic Bar
 
 Current restrictions, that encompass today's date, are always shown in the dark gray chart demographic information bar.  This provides quick visibility to current restrictions for the chart while working in it.
 
@@ -111,7 +121,11 @@ Any active current restrictions for a chart are shown on the stand alone chart t
 
 ### Side Chart
 
-Any active current restrictions that are specifically linked to a case/incident are also shown on the side chart.  When you open the side chart, open cases/incidents are shown and when you expand it, the linked restrictions & accommodations will be visible there also.
+Current active restrictions are viewable from the side chart within the demographics section.
+
+![](../adding-restrictions.assets/4ab7e69d35c018ddfac3f4b6aefdc34c.png)
+
+Also, any active current restrictions that are specifically linked to a case/incident are also shown on the side chart.  When you open the side chart, open cases/incidents are shown and when you expand it, the linked restrictions & accommodations will be visible there also.
 
 ![](../adding-restrictions.assets/84e3a30309fbefe694909dd84db6e6e3.png)
 
