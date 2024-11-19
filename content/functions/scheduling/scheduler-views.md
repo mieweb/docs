@@ -1,8 +1,8 @@
 ---
 id: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 title: 'Scheduler Views'
-date: '2024-08-07T19:53:01.886Z'
-version: 163
+date: '2024-11-19T15:24:20.612Z'
+version: 170
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -181,6 +181,14 @@ Setting options here allow quicker access to change some settings/preferences in
 Click the *SAVE button* to save the view preferences you set.
 
 ![](../scheduler-views.assets/88b22666eab5559ef054d15a1c62038d.png)
+
+{{% info %}}
+The My Schedule portlet (Quick View tab) will default the Location and Resource to the saved location/resource in the Scheduler:Multiview tab.
+
+![](../scheduler-views.assets/e98d4101b3f53cdb3a9f8c3c24dacaec.png)
+
+![](../scheduler-views.assets/dcd53ff082f6b692b615e64c12e95099.png)
+{{% /info %}}
 
 ### Preferences Button
 
