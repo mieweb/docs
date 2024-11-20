@@ -1,8 +1,8 @@
 ---
 id: '14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA'
 title: 'AI Chat Box'
-date: '2024-11-18T18:06:31.444Z'
-version: 141
+date: '2024-11-20T17:05:18.159Z'
+version: 150
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -37,6 +37,14 @@ Type your question or use Whisper AI/voice to text to type in a question and cli
 *Hint:* For best results, navigate to the patient chart to ask patient specific questions such as "Summarize the patient's medical record." or System Reports when asking AI to write a report.
 
 ![](../ai-chat-box.assets/7916f4979e750c449bb0f0e9de693578.png)
+
+## Using the Whisper AI
+
+Click the microphone icon to use Whisper AI voice to text. A recording window will appear. When speaking, a red waveform graph will display indicating that the user's voice is being heard by the AI Assistant. When done speaking click the green up arrow to upload and display the users voice to text in the dialog box. Select the trash can icon to delete the capture voice response and start over. Click the Send button for AI to process your request.
+
+![](../ai-chat-box.assets/4c440900aa68f0027539c549ad74e261.png)
+
+![](../ai-chat-box.assets/047369c5db95351be4a6171a1aee3e56.png)
 
 ## AI Response Actions
 
