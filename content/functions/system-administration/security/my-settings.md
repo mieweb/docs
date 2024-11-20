@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-11-12T17:56:25.022Z'
-version: 560
-lastAuthor: 'anichols'
+date: '2024-11-20T20:25:12.662Z'
+version: 566
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://form.id'
@@ -403,8 +403,9 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 * Chars of note to display: ALL/FORMATTED will fully show all the notes in that column in the task to do, but with all the lines in this summary view.
     * All/Compressed: (usual default) will fully show all the notes in that column in the task to do, but compresses it and leaves out lines in this summary view.
     * 10, 20, 30: Will only show the first 10, 20 or 30 characters of in the note column in a task to do in this summary view. To view the entire display of notes, you would have to click open the task.
-* Notify me on task addition: If this is set to YES, it will send you an email when someone assigns a task to you. Your full email address must be put in your username access control in the email field.
-* Notify me on task completion: If this is set to YES, it will send you an email when someone completes a task you assigned to them. Your full email address must be put in your username access control in the email field.
+* Email me on task addition: If this is set to YES, it will send you an email when someone assigns a task to you. Your full email address must be put in your username access control in the email field.
+* Send SMS on task addition: When set to YES, the user will receive a SMS text communications when a task has been added for them. The text does not contain any hyperlinks to the system, it is clearly informational and reads "Task Added:" followed by the Task Description. Texts will be sent to the cell phone as listed on the user's account. Additionally, customers must have a SMS/Texting agreement in place as standard texting rates apply.
+* Email me on task completion: If this is set to YES, it will send you an email when someone completes a task you assigned to them. Your full email address must be put in your username access control in the email field.
 * Show Reply Link in List: Yes will show the link/option Reply  off to the right under Options so you can reply to a task. Otherwise, No just shows the Mark Done link/option only
 * Show Complete Checkbox:  If this is set to YES, it will show a box in the options column of the tasklist screen. Check-marking this box will consider the task completed and puts a strike through it and eventually takes it out of the task queue. This is just a preference to quickly mark a task complete, or go thru the other steps of marking a task completed.
 * Show MR:  If this is set to YES, it will show the patient's MR# in the tasklist regarding column and will also show the patient's name of who the task is regarding.  If set to NO, only the patient name will appear to identify who the task is regarding.
