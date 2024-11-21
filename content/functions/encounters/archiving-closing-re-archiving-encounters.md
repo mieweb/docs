@@ -1,9 +1,9 @@
 ---
 id: '1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
 title: 'Archiving/Closing/Re-archiving Encounters'
-date: '2020-03-13T14:41:23.189Z'
-version: 60
-lastAuthor: ''
+date: '2024-11-21T19:18:03.485Z'
+version: 69
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-visit-encounter.md'
@@ -68,6 +68,14 @@ Clicking the encounter section header or the![](../archiving-closing-re-archivin
 As noted, every button EXCEPT Archive & Close will take the user to a view, or preview, of the encounter. When previewing the encounter, users may **Archive and Close Encounter**, or **Create Preliminary Archive**. Both of these options, for all intents and purposes, will *archive the document with a designated doc ID*.
 
 ![](../archiving-closing-re-archiving-encounters.assets/9c7ac5e2f617c509d1e1f22bebc0bf67.png)
+
+{{% note %}}
+By default, encounters require that any orders that have been marked as In Progress during the visit are either Completed or set back to a Pending status before Closing and Archiving the encounter. In **rare** instances, a customer may require order items stay in an In Progress order status upon closing and archiving. In such an event, a system setting "Allow Close w/ In Progress Items" has been created.  When enabled and a provider attempts to close and archive an encounter, the provider will be prompted with a message displaying all In Progress orders and asking if they wish to proceed. If the provider selects, yes, they wish to proceed, then the encounter will close and archive with the order items still In Progress.
+
+![](../archiving-closing-re-archiving-encounters.assets/8f0c5c6a3b5b462982e0cc907cc26303.png)
+
+![](../archiving-closing-re-archiving-encounters.assets/3beebe6845cbebb23c9347c21c02b696.png)
+{{% /note %}}
 
 ### Creating a Preliminary Archive
 
