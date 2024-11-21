@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-09-25T15:17:28.123Z'
-version: 334
+date: '2024-11-21T19:54:19.707Z'
+version: 346
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -98,6 +98,14 @@ When working in the encounter, the encounter sections are collapsed to provide y
 ![](../working-in-a-visit-encounter.assets/0811e50f1d807f73cc02e43a7ed7e565.png)
 
 To get out of the chief complaint section and advance to the next section (in chronological order) simply click the button labeled ?Next. The system will close that section and then expand the next section (in chronological order) for you to key in data for the next section. As a reminder, the new dynamic encounter auto-saves so your work is always saved in real-time regardless if you close that section out and advance to a new section.
+
+{{% note %}}
+A system setting "E-Chart/Encounters/Show Contributor History in Sections" has been added and is Disabled by default. When enabled, encounter users will see a Contributors box display on each section of the encounter view and archived document. The Contributors box displays a history of each user that contributed to the section and the date/time stamp in which edits were made.
+
+![](../working-in-a-visit-encounter.assets/67fe64c5d06aa3f1c88322685ea76eae.png)
+
+![](../working-in-a-visit-encounter.assets/380585fe52df0bd62405e108b8333f41.png)
+{{% /note %}}
 
 ## Navigating and Using Encounter Sections
 
