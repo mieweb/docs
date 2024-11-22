@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2024-11-20T20:25:12.662Z'
-version: 566
+date: '2024-11-22T15:22:47.834Z'
+version: 576
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -134,7 +134,7 @@ When looking at preference choices available in the drop-down:
 
 #### Experiments
 
-* AI-Suggested Encounter Actions: Use AI to suggest actions indicated by a dictation within an encounter.  Currently, it does 2 things:
+* AI-Suggested Encounter Actions: Use AI to suggest actions indicated by a dictation within an encounter. By default, this setting is disabled for all users. This setting can be enabled in the encounter tools section, as well as My Settings. When enabled, it does 2 things:
     * In the Flex Visit encounter, if you dictate into the encounter section, the automatically transcribed text has the "sparkles" icon to the left of it, and if you click that, it takes that text and chunks it up, putting parts of it into other encounter sections.
     * In the presenting meds section, if you dictated directly into that, or used the Flex Visit encounter dictation method, the "sparkles" icon shows there also, and if you click that, it shows a popup with possible actions based on what the AI interpreted the dictation for that section to mean.
 
