@@ -1,8 +1,8 @@
 ---
 id: '14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA'
 title: 'AI Chat Box'
-date: '2024-11-20T17:05:18.159Z'
-version: 150
+date: '2024-11-25T19:28:34.496Z'
+version: 165
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -26,13 +26,13 @@ If AI is enabled for a database, the AI Icon will display in the header. Click o
 
 ## AI Chat Window
 
-The AI chat window provides a list of suggestions that users can ask AI, as well as an option to Type in a question or use the microphone icon to speak and convert voice to text. The suggestion options can be customized in the layout "AI/ChatBox" and also supports language translations.
+The AI chat window provides a list of suggestions that users can ask AI, as well as an option to Type in a question or use the microphone icon to speak and convert voice to text (only available in release 202503 and newer). The suggestion options can be customized in the layout "AI/ChatBox" and also supports language translations.
 
 ![](../ai-chat-box.assets/0845d8dcd7dcc028e2c3a351071624ea.png)
 
 ## Ask AI a Question
 
-Type your question or use Whisper AI/voice to text to type in a question and click the *Send* button.
+Type your question or use Whisper AI/voice to text to type in a question (only available in release 202503 and newer) and click the *Send* button.
 
 *Hint:* For best results, navigate to the patient chart to ask patient specific questions such as "Summarize the patient's medical record." or System Reports when asking AI to write a report.
 
@@ -40,7 +40,7 @@ Type your question or use Whisper AI/voice to text to type in a question and cli
 
 ## Using the Whisper AI
 
-Click the microphone icon to use Whisper AI voice to text. A recording window will appear. When speaking, a red waveform graph will display indicating that the user's voice is being heard by the AI Assistant. When done speaking click the green up arrow to upload and display the users voice to text in the dialog box. Select the trash can icon to delete the capture voice response and start over. Click the Send button for AI to process your request.
+Click the microphone icon to use Whisper AI voice to text (only available in release 202503 and newer). A recording window will appear. When speaking, a red waveform graph will display indicating that the user's voice is being heard by the AI Assistant. When done speaking click the green up arrow to upload and display the users voice to text in the dialog box. Select the trash can icon to delete the capture voice response and start over. Click the Send button for AI to process your request.
 
 ![](../ai-chat-box.assets/4c440900aa68f0027539c549ad74e261.png)
 
