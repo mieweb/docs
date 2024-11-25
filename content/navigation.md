@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-14T18:12:34.038Z'
-version: 970
-lastAuthor: 'anichols'
+date: '2024-11-25T14:37:33.899Z'
+version: 981
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -149,6 +149,7 @@ links:
   - 'functions/encounters/make-order-feature-encounter-plan-section.md'
   - 'functions/encounters/encounters-labs-results-section.md'
   - 'functions/encounters/encounter-plan-section-medications.md'
+  - 'https://drive.google.com/open?id=1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A'
   - 'functions/encounters/encounters-impression-section.md'
   - 'functions/encounters/e-m-calculator.md'
   - 'functions/encounters/encounter-summary-toolbar.md'
@@ -884,6 +885,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
         * [Encounters Labs Results Section](functions/encounters/encounters-labs-results-section.md)
         * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
+        * [Negations Encounter Section](https://drive.google.com/open?id=1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A)
         * Encounters Open Order Request Section
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
         * [E/M Calculator](functions/encounters/e-m-calculator.md)
