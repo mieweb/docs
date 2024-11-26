@@ -1,8 +1,8 @@
 ---
 id: '1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
 title: 'SureScripts Advanced - Medication History Reconciliation'
-date: '2024-11-22T21:16:17.469Z'
-version: 457
+date: '2024-11-26T14:54:32.217Z'
+version: 483
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -87,7 +87,7 @@ Successfully confirmed medications can then be edited, deleted, discontinued or 
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/568d5e0da18c198ca752ea37c8f4730c.png)
 
-To discontinue a medication, enter the **Discontinue Date**, a** Reason** and select either the **Simply Discontinue**, **Mark Intolerant**, **Mark Allergic** button. Or click **Cancel to** return to the Medication History.
+To discontinue a medication, enter the **Discontinue Date**, a **Reason** and select either the **Simply Discontinue**, **Mark Intolerant**, **Mark Allergic** button. Or click **Cancel** to return to the Medication History.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/e9b2dde48e2e38ffcf9e2be5af8234b9.png)
 
@@ -95,26 +95,30 @@ Successfully discontinued medication will display at the top of the tab.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/fdc325cd1c69146b36515733909f2d0b.png)
 
-If the user preference is set to **Hide Discontinued**, discontinued items will not display in the Medication History. To view discontinued mediations use click the** Show Discontinued** link in the Medication History section.
+If the user preference is set to **Hide Discontinued**, discontinued items will not display in the Medication History. To view discontinued mediations use click the **Show Discontinued** link in the Medication History section.
 
-For users that have their My Setting enabled to utilize datavis in the Meds/Allergy tab, select the appropriate action button to confirm, discontinue, correct medication, change therapy or refill a medication. The datavis also introduces a new column for **Status**. Non-confirmed medications will display with a **Status** of **Dispensed** until confirmed, discontinued or other action.
+Once the medication has been **Confirmed** or **Discontinued**, the medication will display as **Reconciled**.
+
+![](../surescripts-advanced-medication-history-reconciliation.assets/f7c0f7723b1ee3dc0315484c0e3444a7.png)
+
+For users that have their My Setting enabled to utilize datavis in the Meds/Allergy tab, select the appropriate action button to confirm, discontinue, correct medication, change therapy or refill a medication. The datavis also introduces a new column for **Status**. Non-confirmed medications will display with a **Status** of **Dispensed** until confirmed, discontinued.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/358c7424e8e0e585df94bd62a9553377.png)
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/ad92a246befd2031c24f3b2d6de95066.png)
- Confirm. Confirmed medications will display with a **Status** of **Active**.
+ Confirm. Confirmed medications will display with a **Status** of **Active**. Active medications can be discontinued, corrected, therapy changed or refilled.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/42fd20961ecf602ada81133c033c47a2.png)
-Discontinue. Discontinued medication will display with a **Status** of **Discontinued**. Discontinued medications cannot be corrected, changed or refilled.
+Discontinue. Discontinued medication will display with a **Status** of **Discontinued**. Discontinued medications cannot be corrected, therapy changed or refilled.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/60fd5a89a085648c23f8a0686a31e39f.png)
-Correct Medication
+Correct Medication. This action can only be taken on **Active** Medications.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/4f8982281d3eaee534e3fd48d23c8b9c.png)
-Change Therapy
+Change Therapy. This action can only be taken on **Active** Medications.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/325105095d96b770c6cf92763f97aeb8.png)
-Refill
+Refill. This action can only be taken on **Active** Medications.
 
 ## For Users on a release prior 202409
 
