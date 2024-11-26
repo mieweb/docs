@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-26T20:59:05.357Z'
-version: 990
-lastAuthor: 'auhrick'
+date: '2024-11-26T21:12:38.640Z'
+version: 993
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -184,6 +184,7 @@ links:
   - 'functions/health-surveillance/health-surveillance-panels-automated-membership.md'
   - 'functions/health-surveillance/panel-action-evaluator.md'
   - 'functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md'
+  - 'https://drive.google.com/open?id=1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ'
   - 'functions/health-surveillance/due-list.md'
   - 'functions/health-surveillance/due-list-in-a-dynamic-encounter.md'
   - 'functions/health-surveillance/respirator-info-chart-tab.md'
@@ -605,7 +606,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
   - 'functions/system-administration/interfaces/device-interface-pft-system.md'
   - 'functions/system-administration/interfaces/device-interface-piccolo-system.md'
-  - 'https://drive.google.com/open?id=13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco'
+  - 'functions/system-administration/interfaces/device-interface-quanitfit-2.md'
   - 'functions/system-administration/interfaces/device-interface-resonance-r17a.md'
   - 'functions/system-administration/interfaces/device-interface-vision-system.md'
   - 'functions/system-administration/interfaces/device-interface-vital-signs.md'
@@ -922,6 +923,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Health Surveillance Panels - Automated Membership](functions/health-surveillance/health-surveillance-panels-automated-membership.md)
         * [Panel Action Evaluator](functions/health-surveillance/panel-action-evaluator.md)
         * [Viewing Health Surveillance Panels & Membership](functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md)
+        * [Panel Membership Portlet](https://drive.google.com/open?id=1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ)
         * [Due List](functions/health-surveillance/due-list.md)
         * [Due List in a Dynamic Encounter](functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
         * [Respirator Info Chart Tab](functions/health-surveillance/respirator-info-chart-tab.md)
@@ -1343,7 +1345,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
-            * [Device Interface - Quanitfit 2](https://drive.google.com/open?id=13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco)
+            * [Device Interface - Quanitfit 2](functions/system-administration/interfaces/device-interface-quanitfit-2.md)
             * [Device Interface - Resonance R17A](functions/system-administration/interfaces/device-interface-resonance-r17a.md#_dsj0kttnwjxp)
             * [Device Interface - Vision System](functions/system-administration/interfaces/device-interface-vision-system.md)
             * [Device Interface - Vital Signs](functions/system-administration/interfaces/device-interface-vital-signs.md)
