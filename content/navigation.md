@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-26T21:12:38.640Z'
-version: 993
+date: '2024-11-26T21:12:59.390Z'
+version: 995
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -184,7 +184,7 @@ links:
   - 'functions/health-surveillance/health-surveillance-panels-automated-membership.md'
   - 'functions/health-surveillance/panel-action-evaluator.md'
   - 'functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md'
-  - 'https://drive.google.com/open?id=1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ'
+  - 'functions/health-surveillance/panel-membership-portlet.md'
   - 'functions/health-surveillance/due-list.md'
   - 'functions/health-surveillance/due-list-in-a-dynamic-encounter.md'
   - 'functions/health-surveillance/respirator-info-chart-tab.md'
@@ -923,7 +923,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Health Surveillance Panels - Automated Membership](functions/health-surveillance/health-surveillance-panels-automated-membership.md)
         * [Panel Action Evaluator](functions/health-surveillance/panel-action-evaluator.md)
         * [Viewing Health Surveillance Panels & Membership](functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md)
-        * [Panel Membership Portlet](https://drive.google.com/open?id=1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ)
+        * [Panel Membership Portlet](functions/health-surveillance/panel-membership-portlet.md)
         * [Due List](functions/health-surveillance/due-list.md)
         * [Due List in a Dynamic Encounter](functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
         * [Respirator Info Chart Tab](functions/health-surveillance/respirator-info-chart-tab.md)
