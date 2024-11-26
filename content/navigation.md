@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-11-25T14:37:33.899Z'
-version: 981
+date: '2024-11-26T20:59:05.357Z'
+version: 990
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -149,7 +149,7 @@ links:
   - 'functions/encounters/make-order-feature-encounter-plan-section.md'
   - 'functions/encounters/encounters-labs-results-section.md'
   - 'functions/encounters/encounter-plan-section-medications.md'
-  - 'https://drive.google.com/open?id=1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A'
+  - 'functions/encounters/negations-encounter-section.md'
   - 'functions/encounters/encounters-impression-section.md'
   - 'functions/encounters/e-m-calculator.md'
   - 'functions/encounters/encounter-summary-toolbar.md'
@@ -605,6 +605,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
   - 'functions/system-administration/interfaces/device-interface-pft-system.md'
   - 'functions/system-administration/interfaces/device-interface-piccolo-system.md'
+  - 'https://drive.google.com/open?id=13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco'
   - 'functions/system-administration/interfaces/device-interface-resonance-r17a.md'
   - 'functions/system-administration/interfaces/device-interface-vision-system.md'
   - 'functions/system-administration/interfaces/device-interface-vital-signs.md'
@@ -885,7 +886,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
         * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
         * [Encounters Labs Results Section](functions/encounters/encounters-labs-results-section.md)
         * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
-        * [Negations Encounter Section](https://drive.google.com/open?id=1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A)
+        * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
         * Encounters Open Order Request Section
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
         * [E/M Calculator](functions/encounters/e-m-calculator.md)
@@ -1342,6 +1343,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
+            * [Device Interface - Quanitfit 2](https://drive.google.com/open?id=13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco)
             * [Device Interface - Resonance R17A](functions/system-administration/interfaces/device-interface-resonance-r17a.md#_dsj0kttnwjxp)
             * [Device Interface - Vision System](functions/system-administration/interfaces/device-interface-vision-system.md)
             * [Device Interface - Vital Signs](functions/system-administration/interfaces/device-interface-vital-signs.md)
