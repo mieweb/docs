@@ -2,7 +2,7 @@
 id: '13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco'
 title: 'Device Interface - Quantifit 2'
 date: '2024-11-26T21:25:37.486Z'
-version: 15
+version: 21
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
