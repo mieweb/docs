@@ -155,6 +155,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
          * [Encounters Open Order Request Section](functions/encounters/encounters-open-order-request-section.md)
          * [Encounters Tab - Search and List View](functions/encounters/encounters-tab-search-and-list-view.md)
          * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
+         * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
          * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
          * [Smart Plan](functions/encounters/smart-plan.md)
          * [TeleHealth](functions/encounters/telehealth.md)
@@ -239,6 +240,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
          * [Introduction to Health Surveillance Panels](functions/health-surveillance/introduction-to-health-surveillance-panels.md)
          * [Mass Manual Entry of Respirator Fit Data](functions/health-surveillance/mass-manual-entry-of-respirator-fit-data.md)
          * [Panel Action Evaluator](functions/health-surveillance/panel-action-evaluator.md)
+         * [Panel Membership Portlet](functions/health-surveillance/panel-membership-portlet.md)
          * [Respirator Info Chart Tab](functions/health-surveillance/respirator-info-chart-tab.md)
          * [Viewing Health Surveillance Panels & Membership](functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md)
       * Injection/Immunization Management
@@ -658,6 +660,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
+            * [Device Interface - Quantifit 2](functions/system-administration/interfaces/device-interface-quantifit-2.md)
             * [Device Interface - Resonance R17A ](functions/system-administration/interfaces/device-interface-resonance-r17a.md)
             * [Device Interface - Titmus V4](functions/system-administration/interfaces/device-interface-titmus-v4.md)
             * [Device Interface - Tremetrics RA500 , RA300, RA800](functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md)
