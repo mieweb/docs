@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2024-09-16T14:34:52.006Z'
-version: 148
-lastAuthor: 'aaronc'
+date: '2024-11-21T21:01:58.182Z'
+version: 230
+lastAuthor: 'djiamjirarat'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'

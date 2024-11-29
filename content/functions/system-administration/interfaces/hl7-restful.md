@@ -1,9 +1,9 @@
 ---
 id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
 title: 'HL7 - RESTful'
-date: '2020-03-19T18:47:19.729Z'
-version: 62
-lastAuthor: ''
+date: '2024-11-21T21:04:01.126Z'
+version: 79
+lastAuthor: 'djiamjirarat'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'

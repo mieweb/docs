@@ -1,9 +1,9 @@
 ---
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
-date: '2024-08-12T18:05:45.712Z'
-version: 106
-lastAuthor: 'janderson'
+date: '2024-11-27T17:54:31.823Z'
+version: 111
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'

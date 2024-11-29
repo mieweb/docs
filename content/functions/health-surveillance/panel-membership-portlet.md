@@ -2,7 +2,7 @@
 id: '1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ'
 title: 'Panel Membership Portlet'
 date: '2024-11-26T21:11:01.822Z'
-version: 80
+version: 84
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
