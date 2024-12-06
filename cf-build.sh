@@ -11,6 +11,8 @@ echo "Building $1"
 
 #if $1 is "wc" then build docs.webchartnow.com, if it's "eh" then build docs.enterprisehealth.com
 
+mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+
 if [ "$1" = "wc" ]; then
     echo "Building docs.webchartnow.com"
     ./hugo --config 'config-wc.toml' --baseURL "/" --verbose --minify
