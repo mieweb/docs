@@ -21,13 +21,13 @@
   color: inherit !important;
 }
 
-.link-dark.seudo-btn:hover,
-.link-dark.seudo-btn:focus,
-.link-dark:hover,
-.link-dark:focus {
-  color: rgba(0, 0, 0, .85) !important;
-  background-color: $active-nav !important;
-}
+// .link-dark.seudo-btn:hover,
+// .link-dark.seudo-btn:focus,
+// .link-dark:hover,
+// .link-dark:focus {
+//   color: rgba(0, 0, 0, .85) !important;
+//   background-color: $active-nav !important;
+// }
 
 .btn-toggle::before {
   width: 1.5em;
@@ -47,11 +47,11 @@
   margin-left: 1.25rem;
 }
 
-.btn-toggle-nav .btn-toggle:hover,
-.btn-toggle-nav .btn-toggle:focus,
-.active-nav {
-  background-color: $active-nav !important;
-}
+// .btn-toggle-nav .btn-toggle:hover,
+// .btn-toggle-nav .btn-toggle:focus,
+// .active-nav {
+//   background-color: $active-nav !important;
+// }
 
 .btn-close.white {
   color: #fff !important;
