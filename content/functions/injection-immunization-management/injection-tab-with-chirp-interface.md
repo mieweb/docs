@@ -1,8 +1,8 @@
 ---
 id: '1cVM6kOokD8qoZ7i7IdJY4lVB2RIXhgOoDG1fNBPY5kQ'
 title: 'Injection Tab with CHIRP Interface'
-date: '2024-12-05T18:12:27.965Z'
-version: 147
+date: '2024-12-05T18:13:28.969Z'
+version: 150
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

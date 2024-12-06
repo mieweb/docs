@@ -2,7 +2,7 @@
 id: '10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg'
 title: 'SureScripts Advanced - Prescription and Insurance Eligibility Requests'
 date: '2020-02-27T20:07:44.004Z'
-version: 75
+version: 77
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg'

@@ -2,7 +2,7 @@
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
 date: '2024-06-06T21:34:39.461Z'
-version: 388
+version: 390
 lastAuthor: 'jnguyen'
 mimeType: 'text/x-markdown'
 links:
