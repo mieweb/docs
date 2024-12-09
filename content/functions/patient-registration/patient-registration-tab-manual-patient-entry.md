@@ -1,8 +1,8 @@
 ---
 id: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 title: 'Patient Registration Tab - Manual Patient Entry'
-date: '2024-11-12T14:38:39.255Z'
-version: 120
+date: '2024-12-09T16:00:22.409Z'
+version: 126
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -16,19 +16,19 @@ Click the *E-Chart* tab from the left sidebar menu.
 
 Click *Patient Registration* tab at the top.
 
-![](../patient-registration-tab-manual-patient-entry.assets/cc477755b80089f729fe4ddfed5c189b.png)
+![](../patient-registration-tab-manual-patient-entry.assets/4f6194dc772fdc22cf684d5245f19902.png)
 
-Enter last name, first name, birthdate, email, SSN and organization, then click *Add New* at the bottom.
+Enter last name, first name, middle name, birthdate, email, SSN and organization, then click *Add New* at the bottom.
 
-The system will search and see if the patient exists after typing in the Last Name and First Name. If it finds a close match from the fields you entered, it will show those matches in red. These are possible matches of patient's already entered in your system. You may want to double check that the patient already exists in {{% system-name %}} from this search result. This helps eliminate entering duplicate patients.
+The system will search and see if the patient exists after typing in the Last Name and First Name. If it finds a close match from the fields you entered, it will show those matches in red. These are possible matches of patients already entered in your system. You may want to double check that the patient already exists in {{% system-name %}} from this search result. This helps eliminate entering duplicate patients.
 
-![](../patient-registration-tab-manual-patient-entry.assets/3e5a8800ad9459433eedd7e0d2e107de.png)
+![](../patient-registration-tab-manual-patient-entry.assets/abd1f90fd4acd2709225ac05069e050a.png)
 
 It will then give you a choice of either selecting an existing patient record from the list of matching patients or continuing on with the registration/adding process for the patient and information you entered.
 
 If the patient you are entering pops up as a match and is already in the system, simply click on that matching patient's MR # and it will take you to their chart. Or simply get out of the module by clicking on any tab.
 
-If the patient you are entering is not the same as any of the matching patient's it is rating, then click Add New adding the patient ( *name )*. This will then let you continue to enter this patient manually into the system.
+If the patient you are entering is not the same as any of the matching patients it is rating, then click Add New adding the patient ( *name )*. This will then let you continue to enter this patient manually into the system.
 
 If your patient does not appear as a possible match, then it will take you right to the registration screen.
 
