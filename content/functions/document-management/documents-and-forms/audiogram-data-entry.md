@@ -1,8 +1,8 @@
 ---
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
-date: '2024-08-12T23:33:05.217Z'
-version: 301
+date: '2024-12-11T13:58:00.468Z'
+version: 308
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -147,6 +147,12 @@ Clients migrating their own prior Audiometric data may use the Audiometric Data 
 {{% system-name %}} has several out of the box Audiogram reports. Click on the *Reports* sidemenu to navigate to the Reports module. The Reports landing page lists each report along the left side of the screen. While Audiogram reports display near the top of this list, other reports require scrolling. Therefore, top menu tabs have been added to break this list up into easily identifiable sections. Audio reports display under the Visits tab. Clicking on the main reports landing page or the report under the Visit tab, will navigate users to the standard Audiogram reports.
 
 ![](../audiogram-data-entry.assets/dc010928e17fc05064d152dd62d48477.png)
+
+Beginning with release 202503, the **Audiogram Report** and **Audiometric Testing** report have been updated to display in Datavis format. Additionally, if the "Show NSTS Values" setting is enabled, both reports will display columns for Left NSTS and Right NSTS values.
+
+![](../audiogram-data-entry.assets/8f1e75ed680c1f6dbc9928cba235570d.png)
+
+![](../audiogram-data-entry.assets/7a61387a953a352bb7bbe4f4f8400f41.png)
 
 ## Learning Management System
 
