@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Pull Request pushed
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -32,17 +32,13 @@ jobs:
       id: extract_branch
 
     - name: Pull NPM Dependencies
-      run: |
-        npm ci
-
-    - name: Generate menu
-      run: mkdir -p config/_default/; mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+      run: ./setup.sh
 
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify
+      run: ./build.sh --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify wc
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml' --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh/" --minify
+      run: ./build.sh --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh/" --minify eh
 
     - name: Build index.html
       run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.com/mieweb/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html

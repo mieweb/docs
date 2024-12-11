@@ -6,7 +6,7 @@ This repo generates the public facing sites (go there to read the documentation)
 
 It is generated from Google Drive. [Documentation Home folder](https://drive.google.com/drive/u/0/folders/1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-)
 
-If your are a non-techie looking to [contribute](content/contributing-to-this-documentation.md) to documentation, best use the website and author in Google Drive and make recommendations there.
+If your are a non-techie looking to contribute to documentation, best use the website and author in Google Drive and make recommendations there.
 
 # Overview
 
@@ -28,22 +28,22 @@ themes.gohugo.io) for WC and EH.
     - [themes/wc-eh-docs](themes/wc-eh-docs) custom Hugo [themes](https://themes.gohugo.io)
 4. Automation to automate the process as well as a set of scripts to update a qa-server in realtime watching for changes in Google Drive and near instant update.
     - [Actions](.github/workflows) - github scripts that automate changes out to production and test Pull Requests to see if they break the build process.
-    - [test.sh](test.sh) a script for testing the static page generation locally on your own machine.
-    - [start-server.sh](start-server.sh) starts several services that watch for changes in realtime from Google, download, transform and update the page.
+    - [build.sh](build.sh) a script for testing and building the static page generation locally on your own machine, GitHub or CloudFlare.
 
 ## Setup 
 ### TLDR - for geeks to get started quickly.
 
 - Clone this repo.
-- open bash window, type: `./build.sh`
+- open bash window, type: `./build.sh eh wc`
 ### Requirements
 
 - [Git LFS](https://git-lfs.github.com/)
-- [Hugo](https://gohugo.io/)
 - [Node.js](https://nodejs.org/en/download/package-manager/)
 - [wikiGDrive](https://www.npmjs.com/package/@mieweb/wikigdrive) Background: [Info](https://docs.google.com/document/d/1H6vwfQXIexdg4ldfaoPUjhOZPnSkNn6h29WD6Fi-SBY/edit#heading=h.rv5b8ogzvg6h)
 
-### Mac Users
+There are `hugo-extended` and `postcss` specified in package.json. Just run `npm ci` to install them. 
+
+### Mac / Linux Users
 
 From your terminal, clone this repository:
 
@@ -55,9 +55,11 @@ git lfs clone https://github.mieweb.com/webchart/docs.git
 # for SSH key
 git lfs clone git@github.mieweb.com:webchart/docs.git
 ```
+
 Then run the setup script:
+
 ```bash
-./setup.sh
+./setup.sh # installs nodejs and npm 
 ./build.sh
 ```
 
@@ -70,14 +72,16 @@ To install Nodejs and Chocolatey (package manager), [go here](https://nodejs.org
 During the installation, you will reach a screen with a checkbox for installing Chocolatey. Make sure this is checked (it is not checked by default):
 
 Once you have Chocolatey installed, open Git Bash (run as administrator), clone this repository:
+
 ```bash
 git lfs clone https://github.mieweb.com/webchart/docs.git
 ```
+
 Then run the setup script:
+
 ```bash
 ./setup.sh
 ```
-
 
 ## Getting Started
 

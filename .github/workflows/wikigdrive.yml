@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Fetch Google Changes
+name: Fetch Google Drive Changes - run WikiGDrive
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -50,14 +50,14 @@ jobs:
     - name: Pulling down changes from Google Drive
       run: node "/root/wikiGDrive/dist/main.js" pull
 
-    - name: Generate menu
-      run: mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
+    - name: Pull NPM Dependencies
+      run: ./setup.sh
 
     - name: run Hugo for WebChart
-      run: hugo --config 'config-wc.toml'
+      run: ./build.sh wc
       
     - name: run Hugo for Enterprise Health
-      run: hugo --config 'config-eh.toml'
+      run: ./build.sh eh
 
     - name: Rocket.Chat Notification
       uses: wreiske/Rocket.Chat.GitHub.Action.Notification@master
