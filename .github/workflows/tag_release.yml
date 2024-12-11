@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Released a tag - Deploy to Production
 
 on:
   push:
@@ -19,18 +19,13 @@ jobs:
         fetch-depth: 0
         
     - name: Pull NPM Dependencies
-      run: |
-        npm ci
+      run: ./setup.sh
 
-    - name: Generate menu
-      run: mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
-
-    # Build the HTML versions of the md using hugo
     - name: Build WebChart HTML
-      run: hugo --config 'config-wc.toml' --minify --baseURL https://docs.webchartnow.com/
+      run: ./build.sh --minify --baseURL https://docs.webchartnow.com/ wc
 
     - name: Build Enterprise Health HTML
-      run: hugo --config 'config-eh.toml' --minify --baseURL https://docs.enterprisehealth.com/
+      run: ./build.sh --minify --baseURL https://docs.enterprisehealth.com/ eh
 
     - name: 'Deploy built documentation to production folder'
       run: |

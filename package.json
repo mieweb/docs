@@ -21,11 +21,13 @@
     "copy-to-clipboard": "^3.3.2",
     "email-validator": "^2.0.4",
     "highlight.js": "^11.6.0",
+    "http-server": "14.1.1",
+    "hugo-extended": "^0.139.3",
     "lunr": "^2.3.9",
-    "postcss": "^8.4.14",
-    "postcss-cli": "^10.0.0",
-    "postcss-import": "^14.1.0",
-    "postcss-nested": "^5.0.6",
-    "sweetalert2": "^11.4.26"
+    "postcss": "8.4.49",
+    "postcss-cli": "11.0.0",
+    "postcss-import": "16.1.0",
+    "postcss-nested": "7.0.2",
+    "sweetalert2": "^11.14.5"
   }
 }
