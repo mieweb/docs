@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-11-18T13:53:47.352Z'
-version: 3299
-lastAuthor: 'hroudebush'
+date: '2024-12-12T17:26:05.378Z'
+version: 3370
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -170,9 +170,9 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Card Swipe Reader
     * MagTek MagStripe and RFID Mini USB Swipe Reader (Part# 21040110) - Acts like a keyboard
     * Omni Barcode and MagStripe Reader WCR3237-633U - 3 track mag stripe reader and visible bar code reader with USB/Kybd interface - Acts like a keyboard
-* [Cholestech LDX](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html) Analyzer p/n 412 00008
 * Cholesterol
     * Abbott LDX Analyzer (Serial Uni-directional) - Still requires Java Applet to interface
+    * [Cholestech LDX](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html) Analyzer p/n 412 00008
 * ECG/EKG
     * Esaote 3/12 Channel ECG Unit P8000
     * Phillips TC70 Pagewriter - Read every 30 minutes
@@ -371,8 +371,9 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * CGM LABDAQ
 * Clinical laboratories of HI bi-directional interface (orders and results)
 * Color Lab (Bi-Directional)
+* Core Diagnostic Lab (HL7 bi-directional)
 * Crown Lab (Bi-Directional)
-* Cunningham Pathology (Aurora Diagnostics) Bi-directional
+* Cunningham Pathology (Aurora Diagnostics) HL7 Bi-directional
 * Cyberlab (Bi-Directional)
 * Diagnostic Laboratory Services (DLS) Bi-directional
 * Dominion Diagnostics (results only)
@@ -386,6 +387,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Inform Diagnostics pathology bi-directional interface (orders and results)
 * iON also known as Atlas Medical
 * LabCorp (Client-Bill bi-directional orders and results)
+* Lab Works (HL7 uni-directional results only)
 * Lutheran Hospital Lab/Path (results only)
 * MD State Lab (Bi-directional orders and results)
 * Medical Diagnostics Laboratory - A OB-GYN specialty lab (Bi-directional)
@@ -396,6 +398,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Paragon_Atlas Labs (results only)
 * Parkview Hospital Lab/Path-Soft Lab Inbound
 * Parkview Lab Outbound
+* Path Group (HL7 bi-directional)
 * Path Labs
 * Progenity
 * Psychemedics (results only)
