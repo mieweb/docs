@@ -1,8 +1,9 @@
 ---
 id: '15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
 title: 'Device Interface - PFT System'
-date: '2020-02-27T20:28:23.442Z'
-version: 58
+date: '2024-12-12T19:54:04.158Z'
+version: 73
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
@@ -123,6 +124,8 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 ![](../device-interface-pft-system.assets/fdf997dbc6fee7a511d634e131cba78c.png)
 
 1. Select the file type (OMI, Easy On, or Cardio Perfect – whichever your device type is using).
+
+NOTE: Upon upgrade to the 202503 release, users will no longer be asked or required to select a File Type when importing PFT results.  All ActiveX controls have been deprecated from PFT device interfaces and replaced with the MIE Device App, thus making the need to select a file type unnecessary.
 
 ![](../device-interface-pft-system.assets/ee692de8db9e7cfc644041b5b0c3c230.png)
 
