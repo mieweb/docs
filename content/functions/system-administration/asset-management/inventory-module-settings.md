@@ -1,9 +1,9 @@
 ---
 id: '1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
 title: 'Inventory Module Settings'
-date: '2024-07-11T20:56:32.224Z'
-version: 130
-lastAuthor: 'janderson'
+date: '2024-12-09T17:43:19.062Z'
+version: 144
+lastAuthor: 'spedroza'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'

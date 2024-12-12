@@ -2,7 +2,7 @@
 id: '1MtI7CYHbe1w9l0HVUD_7dUbDqv-l5qxPPZs3MfZuhBM'
 title: 'BE 20 - Implementation of Condition-specific Chronic Disease Self-management Support Programs'
 date: '2020-02-27T20:50:11.862Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

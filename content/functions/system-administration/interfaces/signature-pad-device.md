@@ -1,9 +1,9 @@
 ---
 id: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 title: 'Signature Pad Device'
-date: '2024-07-08T15:44:33.284Z'
-version: 164
-lastAuthor: 'janderson'
+date: '2024-12-09T14:04:13.517Z'
+version: 187
+lastAuthor: 'aaronc'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.sigpluspro.com/sigplus.html'

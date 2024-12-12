@@ -2,7 +2,7 @@
 id: '1IxQLpFZso4bcZg-hMLA2M1nBJW4mVauo38F2vHiSYzE'
 title: 'Pat Audio STS Retest'
 date: '2020-02-27T20:38:07.835Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ESTSRET&old_module=Email&old_name=Pat+Audio+STS+Retest&active=0'

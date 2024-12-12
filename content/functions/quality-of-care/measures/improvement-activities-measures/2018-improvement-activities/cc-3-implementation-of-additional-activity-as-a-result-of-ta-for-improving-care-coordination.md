@@ -2,7 +2,7 @@
 id: '1bXd20Ves-0hwzHgddksCkf4yFocJoo4PRoQ6nO45u6c'
 title: 'CC 3 - Implementation of Additional Activity as a Result of TA for Improving Care Coordination'
 date: '2020-02-27T20:52:08.742Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

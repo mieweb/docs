@@ -2,7 +2,7 @@
 id: '1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
 title: 'Deleting an Existing Case'
 date: '2020-03-13T13:47:35.461Z'
-version: 56
+version: 59
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

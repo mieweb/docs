@@ -2,7 +2,7 @@
 id: '1p8ulmLTBgIFKib-AvOY7jrMDTuzhrKnuq4X7D2T9TB8'
 title: 'PM 1 - Participation in Systematic Anticoagulation Program'
 date: '2020-02-27T20:48:16.944Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

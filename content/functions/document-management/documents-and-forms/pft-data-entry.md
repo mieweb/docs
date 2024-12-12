@@ -1,9 +1,9 @@
 ---
 id: '1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
 title: 'PFT Data Entry'
-date: '2024-07-15T20:36:08.052Z'
-version: 68
-lastAuthor: 'janderson'
+date: '2024-12-12T15:50:09.763Z'
+version: 76
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'

@@ -2,7 +2,7 @@
 id: '16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4'
 title: 'Apt Released to Full Duty'
 date: '2020-02-27T20:40:22.564Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=ERELEASE&old_module=Email&old_name=Apt+Released+to+Full+Duty&active=0'

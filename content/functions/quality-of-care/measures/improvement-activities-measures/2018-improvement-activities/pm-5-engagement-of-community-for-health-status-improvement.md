@@ -2,7 +2,7 @@
 id: '1_xjeN5G2bvWA_B6Wtaa704PpKIPfR_-p8ILCqdm05sA'
 title: 'PM 5 - Engagement of Community for Health Status Improvement'
 date: '2020-02-27T20:53:57.020Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
