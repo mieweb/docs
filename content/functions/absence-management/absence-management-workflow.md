@@ -2,11 +2,11 @@
 id: '1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
 title: 'Absence Management Workflow'
 date: '2024-07-15T17:27:46.181Z'
-version: 283
+version: 284
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../injury-care/adding-restrictions-and-accommodations.md'
+  - '../injury-care/adding-restrictions.md'
   - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
 source: 'https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
@@ -85,11 +85,11 @@ This section can be used to make daily notes on the case. This section also prov
 
 ### Work Status (or Lost Time) Section
 
-Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../injury-care/adding-restrictions-and-accommodations.md) help documentation for more information.
+Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../injury-care/adding-restrictions.md) help documentation for more information.
 
 ### Restrictions and Accommodations
 
-Refer to help documentation named [Restrictions and Accommodations](../injury-care/adding-restrictions-and-accommodations.md).
+Refer to help documentation named [Restrictions and Accommodations](../injury-care/adding-restrictions.md).
 
 ## Linking Documents to Cases
 

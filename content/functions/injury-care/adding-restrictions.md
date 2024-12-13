@@ -1,8 +1,8 @@
 ---
 id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 title: 'Adding Restrictions'
-date: '2024-11-19T19:09:51.221Z'
-version: 275
+date: '2024-12-11T17:27:30.457Z'
+version: 295
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -42,7 +42,8 @@ Once you do that, you will see again a list of all current active restrictions f
 
 Complete the Restriction fields to add a new restriction on the chart for this visit. Several fields are auto-completes that offer built-in choices. The Restriction fields are described as:
 
-* Restriction Type: Begin typing in the name or type of restriction.  The system will autocomplete preformatted choices for you.  Restriction types are programmed by MIE or your Super Admin in the [Editing Restriction Types](editing-restriction-types.md) found in Control. If the person is restricted from working, use the restriction type of Lost Time.  Depending on the restriction type selected, more input fields may expand for more entry details about the specific restriction.
+* Restriction Type: Begin typing in the name or type of restriction.  The system will autocomplete preformatted choices for you.  Restriction types are programmed by MIE or your Super Admin in the [Editing Restriction Types](editing-restriction-types.md) found in Control. If the person is restricted from working, use the restriction types of Lost Time.
+    * Depending on the restriction type selected, more input fields may expand for more entry details about the specific restriction.
 * Comment: This is a free text field to type in any comment regarding the restriction if needed or to add any more information regarding specifics to the restriction.
 * Problem: This is an autocomplete field but also allows free text.  You would most likely key in the patient's current condition from their problem list that this restriction may be related to.  If you push your down arrow key ↓on your keyboard it will display the patient's current problem list (conditions) you could select from.  Or you can free text in this field also. Anything typed here does not affect the patient's problem list.
 * Disability Criteria: This checkbox may be used for safety teams. The provider would write/add a new restriction here, but the safety team would come into this restriction and edit and mark the checkbox if applicable.
@@ -51,7 +52,7 @@ Complete the Restriction fields to add a new restriction on the chart for this v
 * Start Date/End Date/Permanent: When adding a restriction, the permanent flag must be checked or an end date must be set.  The Start Date will default to today's date and time. The End Date or the Permanent checkbox will need to be documented (required field).  When picking an end date for a clinical restriction from the popup calendar, the end time will default to 11:59pm. If you leave the "End Time" field blank, it will also default/assume to 11:59pm.
 * Provider: This autocomplete field currently points to select users within the department "Physicians", but can be changed to point to a different department by having your MIE Implementer change the layout: Restriction Providers. By default, if the logged in user is a member of the department this field points to, it will populate that user's name here in the field automatically. You may want to document a restriction on a patient/employee that an outside provider (not internal) put them on, especially for case management.  In this case, you may want to have your system set up to point to a different department as stated above where active & inactive users (via a layout tag) can be set to that department to show up as choices here.
 * Linked Case:  If the encounter visit you are in is linked to a case/incident, that case/incident info will prepopulate here.  If you are adding a restriction and accommodation that should be tied to a different case/incident, you can use this field to auto-complete to link it to the appropriate case/incident.  If you click your down arrow key ↓ on your keyboard, it will display incidents on that chart to link to.
-* Exclude from Notification Email: This functionality is only available if your system has a scheduled job configured by MIE to automatically email newly added or changed restrictions/accommodations to patient/employee and documented supervisors.  If such scheduled job is configured for the system, then the email should respect this checkbox, so when checked, the email would not be sent out upon adding, editing or updating a restriction/accommodation in the chart.
+* Exclude from Notification Email: This functionality is only available if your system has a scheduled job configured to automatically email newly added or changed restrictions/accommodations to patient/employee and documented supervisors.  If such scheduled job is configured for the system, then the email should respect this checkbox, so when checked, the email would not be sent out upon adding, editing or updating a restriction/accommodation in the chart.
 
 If you know (while you are entering in the new restriction) what the accommodation will be for this chart, then you can fill out the accommodation fields within the accommodation section.
 

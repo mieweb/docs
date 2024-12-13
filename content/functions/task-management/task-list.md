@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2024-11-13T16:17:04.727Z'
-version: 252
-lastAuthor: 'auhrick'
+date: '2024-11-20T20:28:41.796Z'
+version: 257
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -60,7 +60,7 @@ There is an additional features in the Overdue Tasks bucket of the Task List.  
 
 #### User Tasks
 
-User tasks are all tasks assigned to specifically to your username.  These are tasks that have your username as being assigned to and are waiting to be completed by you. These are your individual tasks, department tasks assigned to you specifically, that are current or overdue.
+User tasks are all tasks assigned specifically to your username.  These are tasks that have your username as being assigned to and are waiting to be completed by you. These are your individual tasks, department tasks assigned to you specifically, that are current or overdue.
 
 ![](../task-list.assets/52f30562ade4a7afca5f9d360de92a65.png)
 

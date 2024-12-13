@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2024-11-21T21:01:58.182Z'
-version: 246
-lastAuthor: 'djiamjirarat'
+date: '2024-12-13T14:26:35.188Z'
+version: 287
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
@@ -42,7 +42,7 @@ Interactive, dynamic documentation of the {{% system-name %}} API can be found i
 
 ![](../application-programming-interface-api.assets/c7fcc9233c661a5ffbb1993390ea5402.png)
 
-Then you can explore each object type and then clock on the Object to experiment with the javascript api.  There is a 
+Then you can explore each object type and then click on the Object to experiment with the javascript api.  There is a 
 ![](../application-programming-interface-api.assets/e024cc60081a12d06ddf1c7fb045940c.png)
 button at the lower right that allows you to experiment in real time.
 
@@ -80,19 +80,27 @@ curl WEBCHARTURL?login_user=USERNAME&login_passwd=PASSWORD
 
 ### Python example
 
-{{% pre language="py" theme="RDark" %}}```
-
-out = urllib2.urlopen(URL, urllib.urlencode({
+```
+{{% pre language="py" theme="RDark" %}}
+data = urllib2.urlopen(URL, urllib.urlencode({
   'login_user': USERNAME,
   'login_passwd': PASSWORD
 }))
-COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
-```
+# Ensures the request is a POST request
+request = urllib2.Request(URL, data)
+
+# Make the POST request
+out = urllib2.urlopen(request)
+
+# Extract the COOKIE from the response headers
+COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0] 
 {{% /pre %}}
 
 {{% info %}}
 COOKIE represents the session and is sent in the response.
 {{% /info %}}
+
+```
 
 ## ONC Certification API 2015 Edition
 
@@ -134,19 +142,19 @@ http://system/?f=layout&module=JS&name=API_DOC&tabmodule=admin&tabselect=API
 
 {{% pre language="py" theme="RDark" title="Patients Example" %}}```
 
-requests = {  
-  'Last Name LIKE "Hart"': 'GET/db/patients/LIKE_last_name=Hart',  
-  'Last Name LIKE "Pregnant"': 'GET/db/patients/LIKE_last_name=Pregnan',  
-}  
-for title, url in requests.iteritems():  
-  print('\\nQuerying for patients: {0}'.format(title))  
-js = json.load(  
-  urllib2.urlopen(URL, urllib.urlencode({  
-    'f': 'json',  
-    'session_id': COOKIE,  
-    'apistring': base64.b64encode(url)  
-  })))  
-print(json.dumps(js))  
+requests = {
+  'Last Name LIKE "Hart"': 'GET/db/patients/LIKE_last_name=Hart',
+  'Last Name LIKE "Pregnant"': 'GET/db/patients/LIKE_last_name=Pregnan',
+}
+for title, url in requests.iteritems():
+  print('\\nQuerying for patients: {0}'.format(title))
+js = json.load(
+  urllib2.urlopen(URL, urllib.urlencode({
+    'f': 'json',
+    'session_id': COOKIE,
+    'apistring': base64.b64encode(url)
+  })))
+print(json.dumps(js))
 ```
 {{% /pre %}}
 
@@ -246,8 +254,8 @@ URL-specific sections are returned in XML CCDA format.
 </tr>
 </table>
 
-{{% pre language="py" theme="RDark" title="Data Category Example" %}}```
-
+{{% pre language="py" theme="RDark" title="Data Category Example" %}}
+```
 #!/usr/bin/env python
 import sys
 import os
@@ -264,83 +272,99 @@ COOKIE = None
 DTREG = '\\d{4}-\\d{2}-\\d{2}'
 OUTPUT = 'output'
 APIS = {
-       'Patient Name': 'Patient Name',
-       'Sex': 'Gender Code',
-       'Date of Birth': 'Birth Date',
-       'Race': 'Patient Race',
-       'Ethnicity': 'Patient Ethnicity',
-       'Preferred Language': 'Patient Language',
-       'Smoking Status': 'Smoking Status',
-       'Problems': 'Problems',
-       'Medications': 'Medications',
-       'Medication Allergies': 'Allergies',
-       'Lab Values_Result': 'Results',
-       'Vital Signs': 'Vital Signs',
-       'Procedures': 'Procedures',
-       'Immunizations': 'Immunizations',
+    'Patient Name': 'Patient Name',
+    'Sex': 'Gender Code',
+    'Date of Birth': 'Birth Date',
+    'Race': 'Patient Race',
+    'Ethnicity': 'Patient Ethnicity',
+    'Preferred Language': 'Patient Language',
+    'Smoking Status': 'Smoking Status',
+    'Problems': 'Problems',
+    'Medications': 'Medications',
+    'Medication Allergies': 'Allergies',
+    'Lab Values_Result': 'Results',
+    'Vital Signs': 'Vital Signs',
+    'Procedures': 'Procedures',
+    'Immunizations': 'Immunizations',
 }
 
 def usage():
-       print('Usage: {0} URL [startDate [endDate]] PatientLastName1 PatientLastName2 ...'.format(__file__))
-       exit()
+    print('Usage: {0} URL [startDate [endDate]] PatientLastName1 PatientLastName2 ...'.format(__file__))
+    exit()
 
 if __name__ == '__main__':
-       if len(sys.argv) < 3:
-               usage()
-       URL = sys.argv[1]
-       sdate = ''
-       edate = ''
-       names = sys.argv[2:]
-       dtmatches = [x for x in names if re.match(DTREG, x)]
-       if dtmatches:
-               if len(dtmatches) == 1:
-                       sdate = dtmatches[0]
-               else:
-                       sdate = dtmatches[0]
-                       edate = dtmatches[1]
-       charts = {}
-       print('Initializing session at {0}'.format(URL))
-       try:
-               out = urllib2.urlopen(URL, urllib.urlencode({
-                       'login_user': USERNAME,
-                       'login_passwd': PASSWORD
-               }))
-               COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
-       except Exception as e:
-               print('Session failed to initialize {0}'.format(e))
+    if len(sys.argv) < 3:
+        usage()
+    URL = sys.argv[1]
+    sdate = ''
+    edate = ''
+    names = sys.argv[2:]
+    dtmatches = [x for x in names if re.match(DTREG, x)]
+    if dtmatches:
+        if len(dtmatches) == 1:
+            sdate = dtmatches[0]
+        else:
+            sdate = dtmatches[0]
+            edate = dtmatches[1]
+    charts = {}
+    print('Initializing session at {0}'.format(URL))
+    try:
+        # Create a POST request for session initialization
+        data = urllib.urlencode({
+            'login_user': USERNAME,
+            'login_passwd': PASSWORD
+        })
+        request = urllib2.Request(URL, data)
+        out = urllib2.urlopen(request)
+        COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
+    except Exception as e:
+        print('Session failed to initialize {0}'.format(e))
 
-       if COOKIE:
-               for name in names:
-                       js = json.load(urllib2.urlopen(URL, urllib.urlencode({
-                               'f': 'json',
-                               'session_id': COOKIE,
-                               'apistring': base64.b64encode('GET/db/patients/LIKE_last_name={0}'.format(name))
-                       })))
-                       if js and js['db']:
-                               for rec in js['db']:
-                                       charts[rec['pat_id']] = rec
-               for cid, chart in charts.iteritems():
-                       patname = '{0},{1},{2}_{3}'.format(chart['last_name'], chart['first_name'],
-                               chart['middle_name'], cid)
-                       if not os.path.exists(os.path.join(OUTPUT, patname)):
-                               os.makedirs(os.path.join(OUTPUT, patname))
-                       print('Retrieving data for {0} {1} {2}'.format(patname,
-                               'after' if not edate and sdate else 'between' if edate and sdate else '',
-                               sdate if not edate else '{0} and {1}'.format(sdate, edate)))
-                       for k, v in APIS.iteritems():
-                               res = urllib2.urlopen(URL, urllib.urlencode({
-                                       'session_id': COOKIE,
-                                       'f': 'layout',
-                                       'module': 'StructDocAPI',
-                                       'XML': '1',
-                                       'name': v,
-                                       'pat_id': cid,
-                                       'sdate': sdate,
-                                       'edate': edate,
-                               }))
-                               with open (os.path.join(OUTPUT, patname, '{0}.xml'.format(k)), 'w') as fp:
-                                       fp.write(res.read())
+    if COOKIE:
+        for name in names:
+            # Create a POST request for patient data retrieval
+            data = urllib.urlencode({
+                'f': 'json',
+                'session_id': COOKIE,
+                'apistring': base64.b64encode('GET/db/patients/LIKE_last_name={0}'.format(name))
+            })
+            request = urllib2.Request(URL, data)
+            try:
+                js = json.load(urllib2.urlopen(request))
+            except Exception as e:
+                print(f"Failed to fetch data for {name}: {e}")
+                continue
 
+            if js and js['db']:
+                for rec in js['db']:
+                    charts[rec['pat_id']] = rec
+        for cid, chart in charts.iteritems():
+            patname = '{0},{1},{2}_{3}'.format(chart['last_name'], chart['first_name'],
+                                               chart['middle_name'], cid)
+            if not os.path.exists(os.path.join(OUTPUT, patname)):
+                os.makedirs(os.path.join(OUTPUT, patname))
+            print('Retrieving data for {0} {1} {2}'.format(patname,
+                                                           'after' if not edate and sdate else 'between' if edate and sdate else '',
+                                                           sdate if not edate else '{0} and {1}'.format(sdate, edate)))
+            for k, v in APIS.iteritems():
+                # Create a POST request for API-specific data retrieval
+                data = urllib.urlencode({
+                    'session_id': COOKIE,
+                    'f': 'layout',
+                    'module': 'StructDocAPI',
+                    'XML': '1',
+                    'name': v,
+                    'pat_id': cid,
+                    'sdate': sdate,
+                    'edate': edate,
+                })
+                request = urllib2.Request(URL, data)
+                try:
+                    res = urllib2.urlopen(request)
+                    with open(os.path.join(OUTPUT, patname, '{0}.xml'.format(k)), 'w') as fp:
+                        fp.write(res.read())
+                except Exception as e:
+                    print(f"Failed to fetch {k} data for {patname}: {e}")
 ```
 {{% /pre %}}
 
@@ -348,85 +372,94 @@ if __name__ == '__main__':
 
 Receive documents stored in charts:
 
-{{% pre language="py" theme="RDark" %}}```
-
-#!/usr/bin/env python  
-import urllib2  
-import urllib  
-import base64  
-import json  
+{{% pre language="py" theme="RDark" %}}
+```
+#!/usr/bin/env python
+import urllib2
+import urllib
+import base64
+import json
 import os
 
-URL = 'https://server/webchart.cgi'  
-USERNAME = 'dave'  
-PASSWORD = 'dave'  
+URL = 'https://server/webchart.cgi'
+USERNAME = 'dave'
+PASSWORD = 'dave'
 COOKIE = None
 
-# Download a document  
-def downloadDocument(doc_id, filename):  
-    if not os.path.exists(filename):  
-        out = urllib2.urlopen(URL, urllib.urlencode({  
-            'f': 'stream',  
-            'doc_id': doc_id,  
-            'session_id': COOKIE,  
-            'rawdata': '1'  
-        }))  
-        with open(filename, 'wb') as fp:  
+# Download a document
+def downloadDocument(doc_id, filename):
+    if not os.path.exists(filename):
+        data = urllib.urlencode({
+            'f': 'stream',
+            'doc_id': doc_id,
+            'session_id': COOKIE,
+            'rawdata': '1'
+        })
+        request = urllib2.Request(URL, data)
+        out = urllib2.urlopen(request)
+        with open(filename, 'wb') as fp:
             fp.write(out.read())
 
-def downloadDocumentMeta(pat_id):  
-        try:  
-                api = "GET/db/documents/storage_type=19&LIKE_service_date=2017-05-02%25&pat_id=" + pat_id  
-                print('\\nQuerying for patients: {0}'.format(pat_id))  
-                docs = json.load(  
-                        urllib2.urlopen(URL, urllib.urlencode({  
-                                'f': 'json',  
-                                'session_id': COOKIE,  
-                                'apistring': base64.b64encode(api)  
-                        })))  
-                return docs["db"][0]["doc_id"];  
-        except:  
-                return ""
+def downloadDocumentMeta(pat_id):
+    try:
+        api = "GET/db/documents/storage_type=19&LIKE_service_date=2017-05-02%25&pat_id=" + pat_id
+        print('\\nQuerying for documents: {0}'.format(pat_id))
+        data = urllib.urlencode({
+            'f': 'json',
+            'session_id': COOKIE,
+            'apistring': base64.b64encode(api)
+        })
+        request = urllib2.Request(URL, data)
+        docs = json.load(urllib2.urlopen(request))
+        return docs["db"][0]["doc_id"]
+    except:
+        return "" 
 
-if __name__ == '__main__':  
-        print('Initializing session')  
-        try:  
-                out = urllib2.urlopen(URL, urllib.urlencode({  
-                        'login_user': USERNAME,  
-                        'login_passwd': PASSWORD  
-                }))  
-                COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]  
-        except Exception as e:  
-                print('Session failed to initialize {0}'.format(e))
+if __name__ == '__main__':
+    print('Initializing session')
+    try:
+        # Perform login using POST
+        data = urllib.urlencode({
+            'login_user': USERNAME,
+            'login_passwd': PASSWORD
+        })
+        request = urllib2.Request(URL, data)
+        out = urllib2.urlopen(request)
+        COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
+    except Exception as e:
+        print('Session failed to initialize {0}'.format(e))
 
-        print('Getting Patients')  
-        if COOKIE:  
-                requests = {  
-                        'Last Name LIKE "Newman"': 'GET/db/patients/LIKE_last_name=Newman',  
-                        'Last Name LIKE "Larson"': 'GET/db/patients/LIKE_last_name=Larson',  
-                        'Last Name LIKE "Bates"': 'GET/db/patients/LIKE_last_name=Bates',  
-                        'Last Name LIKE "Wright"': 'GET/db/patients/LIKE_last_name=Wright',  
-                }  
-                for title, url in requests.iteritems():  
-                        print('\\nQuerying for patients: {0}'.format(title))  
-                        js = json.load(  
-                                urllib2.urlopen(URL, urllib.urlencode({  
-                                        'f': 'json',  
-                                        'session_id': COOKIE,  
-                                        'apistring': base64.b64encode(url)  
-                                })))  
-                        pat_id = js["db"][0]["pat_id"]  
-                        name = js["db"][0]["last_name"]
+    print('Getting Patients')
+    if COOKIE:
+        requests = {
+            'Last Name LIKE "Newman"': 'GET/db/patients/LIKE_last_name=Newman',
+            'Last Name LIKE "Larson"': 'GET/db/patients/LIKE_last_name=Larson',
+            'Last Name LIKE "Bates"': 'GET/db/patients/LIKE_last_name=Bates',
+            'Last Name LIKE "Wright"': 'GET/db/patients/LIKE_last_name=Wright',
+        }
+        for title, url in requests.iteritems():
+            print('\\nQuerying for patients: {0}'.format(title))
+            # Perform POST request for patient data retrieval
+            data = urllib.urlencode({
+                'f': 'json',
+                'session_id': COOKIE,
+                'apistring': base64.b64encode(url)
+            })
+            request = urllib2.Request(URL, data)
+            js = json.load(urllib2.urlopen(request))
 
-                        print("Getting Documents for Patient:" + pat_id)  
-                        doc_id = downloadDocumentMeta(pat_id);
+            pat_id = js["db"][0]["pat_id"]
+            name = js["db"][0]["last_name"]
 
-                        if doc_id != "":  
-                                print("Downloading Document:" + doc_id)  
-                                downloadDocument(doc_id, name + "_" + doc_id + ".xml")  
-                        else:  
-                                print("No documents exist for that patient that meet the criteria.")  
-                        # print(json.dumps(js))
+            print("Getting Documents for Patient:" + pat_id)
+            doc_id = downloadDocumentMeta(pat_id)
+
+            if doc_id != "":
+                print("Downloading Document:" + doc_id)
+                downloadDocument(doc_id, name + "_" + doc_id + ".xml")
+            else:
+                print("No documents exist for that patient that meet the criteria.")
+
 
 ```
 {{% /pre %}}

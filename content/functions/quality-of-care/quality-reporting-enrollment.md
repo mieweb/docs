@@ -1,9 +1,9 @@
 ---
 id: '1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
 title: 'Quality Reporting Enrollment'
-date: '2024-07-23T20:27:15.265Z'
-version: 145
-lastAuthor: 'nrichardson'
+date: '2024-10-15T19:25:04.561Z'
+version: 187
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'measures.md'
@@ -57,6 +57,12 @@ It is very important to select the correct measure associated with your Performa
 The logged-in user will now be able to track the enrolled measures from the Quality Reporting portlet on the Quick View.
 ![](../quality-reporting-enrollment.assets/0dc7bb56662374c32eed971b42d71168.png)
 {{% /info %}}
+
+## MIPS PI System Enrollment
+
+Webchart users may enroll their system/db for MIPS PI measures. From the Opt In screen, select the "System" checkbox, enter the Start and End date for the reporting period, select the "PI (ACI)" check box (or expand to select individual PI measures), then the Enroll button.
+
+![](../quality-reporting-enrollment.assets/cfc87781b61e3abaf91315dd38770424.png)
 
 ## Guided Enrollment
 

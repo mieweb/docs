@@ -1,9 +1,9 @@
 ---
 id: '1mphjZQnaF0HQMYPS7fSLpWbV_RrGNG5Huc2NGRbzHHw'
 title: 'Intervention Risk Management for Predictive Decision Support Interventions with AI '
-date: '2024-11-28T07:33:54.321Z'
-version: 11
-lastAuthor: 'horner'
+date: '2024-12-04T19:17:24.259Z'
+version: 89
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mphjZQnaF0HQMYPS7fSLpWbV_RrGNG5Huc2NGRbzHHw'
@@ -104,8 +104,6 @@ ___
 * <strong>Security and Privacy:</strong>
     * <strong>Action:</strong> MIE has implemented appropriate technical and administrative safeguards to protect patient data and ensure compliance with HIPAA and other relevant regulations.
     * <strong>Implementation:</strong> This includes employing encryption, access controls, secure data storage, and regular security audits to prevent unauthorized access, use, or disclosure of patient information.
-
-___
 
 ### Ongoing Monitoring and Improvement:
 

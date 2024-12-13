@@ -1,8 +1,8 @@
 ---
 id: '1dd1jmIH4Xu8nWG80UinTqZluoTtf4RuswpJ69hMb49M'
 title: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Configuration'
-date: '2024-11-06T17:22:54.704Z'
-version: 80
+date: '2024-11-06T17:23:00.734Z'
+version: 84
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -26,7 +26,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 
 Ensure all 12+ year-old patients are screened for depression during or within the 14 days prior to an eligible encounter during the measurement period.  Encounter eligibility is determined based on the billing codes linked to the encounter.  Use the preferred Test and Procedures section or the alternate Preventive Care section of the Visit encounter to order and perform an age appropriate depression screening.  Any patient with a positive screening requires a follow-up plan documented during the current encounter.  Perform the following steps to document a depression screening.
 
-For detailed information on the recommended workflow please [click here](../quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md#_5yfay6qe38l1).
+For detailed information on the recommended workflow please [click here](../quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md#overview).
 
 ## Compliance Configuration
 

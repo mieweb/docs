@@ -1,9 +1,9 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2024-08-12T19:13:15.709Z'
-version: 227
-lastAuthor: 'janderson'
+date: '2024-11-27T15:25:20.264Z'
+version: 246
+lastAuthor: 'lriggle'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan&s=index&no_footer=1&bat_id=0&no_tabs'
@@ -41,7 +41,7 @@ To begin scanning, simply click the [Add Batch](https://system/?f=miewebscan&s=
 ![](../scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
 
     * <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
-    * <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can set per page by simply changing the preference for each page being scanned.
+    * <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned.
 
 6. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Settings</strong> button and viewing the listed scanner is correct and highlighted for use.
 7. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).

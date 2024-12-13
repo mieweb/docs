@@ -10,6 +10,7 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
          * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
       * Artificial Intelligence
          * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
+         * [Intervention Risk Management for Predictive Decision Support Interventions with AI ](functions/artificial-intelligence/intervention-risk-management-for-predictive-decision-support-interventions-with-ai.md)
          * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md)
       * Document Management
          * Documents & Forms
@@ -261,9 +262,11 @@ wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
             * [Closing an Existing Case](functions/injury-care/case-management/closing-an-existing-case.md)
             * [Deleting an Existing Case](functions/injury-care/case-management/deleting-an-existing-case.md)
             * [Viewing Cases](functions/injury-care/case-management/viewing-cases.md)
+         * [Adding Accommodations](functions/injury-care/adding-accommodations.md)
          * [Adding Restrictions](functions/injury-care/adding-restrictions.md)
          * [Case Management](functions/injury-care/case-management.md)
          * [Editing Restriction Types](functions/injury-care/editing-restriction-types.md)
+         * [Viewing Accommodations](functions/injury-care/viewing-accommodations.md)
          * [Viewing Restrictions](functions/injury-care/viewing-restrictions.md)
          * [Work Status](functions/injury-care/work-status.md)
       * Medication Management & E-Prescribing

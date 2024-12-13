@@ -6,7 +6,7 @@ version: 171
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../adding-restrictions-and-accommodations.md'
+  - '../adding-restrictions.md'
   - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
 source: 'https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
@@ -47,11 +47,11 @@ After selecting to create an Absence Management case type, subsequent data field
 
 ### Work Status (or Lost Time) Section
 
-Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md) help documentation for more information.
+Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions.md) help documentation for more information.
 
 ### Restrictions and Accommodations
 
-Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md).
+Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions.md).
 
 ## Linking Documents to Cases
 

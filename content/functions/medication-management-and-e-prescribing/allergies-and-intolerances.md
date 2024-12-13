@@ -1,8 +1,8 @@
 ---
 id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
 title: 'Allergies and Intolerances'
-date: '2024-10-22T15:08:55.214Z'
-version: 227
+date: '2024-10-22T15:18:43.502Z'
+version: 236
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -127,7 +127,7 @@ The Allergies and Intolerances Datavis allows users to Edit, Delete, make notes 
 
 ![](../allergies-and-intolerances.assets/273e4086ca90d9cb159ba712c2e09081.png)
 
-#### Quick Allergy
+### Quick Allergy
 
 After you click Quick Allergy link, you will see **Add Allergies / Intolerances** fields in the center of the screen. Quick Allergy link allows you to document/add allergies & intolerances 10 at a time (in mass).
 

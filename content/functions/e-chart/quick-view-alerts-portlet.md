@@ -1,17 +1,16 @@
 ---
 id: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
 title: 'Quick View - Alerts Portlet'
-date: '2024-07-10T15:34:07.572Z'
-version: 96
+date: '2024-11-13T15:20:21.167Z'
+version: 107
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/'
-  - 'https://system'
   - 'quick-view-sidemenu.md'
+  - 'https://system/'
   - 'https://system/?f=layout&module=Warnings&name=AlertsPage&tabmodule=none'
-  - 'https://system/?f=admin&t=faxman'
   - '../fax-manager/fax-manager-tab-outbound-faxing.md'
+  - 'https://system/?f=admin&t=faxman'
   - 'https://system/?m=admin&t=printman&tabmodule=admin&tabselect=Print+Mgr'
   - '../system-administration/system-controls/print-manager.md'
   - 'https://system/?m'
@@ -21,9 +20,9 @@ links:
 source: 'https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
-There is an interactive [Quick View](https://system/) available to end users. The Quick View offers various summary portlets that are used as quick references for viewing modules and data in {{% system-name %}} .  For example, your pending tasks, the appointment schedule, worklists, dashboards, and the like are types of portlets available for quick access and management. You can select which specific portlets to show on your view. One of the portlets is **Alerts**.
+There is an interactive Quick View available to end users. The Quick View offers various summary portlets that are used as quick references for viewing modules and data in {{% system-name %}} .  For example, your pending tasks, the appointment schedule, worklists, dashboards, and the like are types of portlets available for quick access and management. You can select which specific portlets to show on your view. One of the portlets is **Alerts**.
 
-When logged into {{% system-name %}} , click on the [Quick View](https://system) sidemenu option.
+When logged into {{% system-name %}} , click on the Quick View sidemenu option.
 
 ![](../quick-view-alerts-portlet.assets/cefccd4aeee20ae3b55f821ead371d35.png)
 
@@ -31,7 +30,7 @@ When in Quick View, default portlets will display, but there is an option to cus
 
 ## Alerts Portlet
 
-The **Alerts** portlet of the [Quick View](https://system/) shows a summary of each failed module name (what type of job failed), as well as a column of who the failed jobs are designated to. **Me** means the failed job was something the logged-in user had rendered to send. **Everyone** means the failed job was something another user in the system rendered to send.
+The **Alerts** portlet of the Quick View shows a summary of each failed module name (what type of job failed), as well as a column of who the failed jobs are designated to. **Me** means the failed job was something the logged-in user had rendered to send. **Everyone** means the failed job was something another user in the system rendered to send.
 
 ![](../quick-view-alerts-portlet.assets/2ff3f71478bc69ad8ee63ae082b39f8b.png)
 
@@ -85,11 +84,11 @@ From the Preferences pop-up screen, some {{% system-name %}} preference settings
 
 The **Fax Alerts** portlet shows any failed faxes for the logged in user, or system-wide, based on the preference setting. Users can **Resend** the failed fax, **Acknowledge**, or **Stop** the fax from the portlet. Users can also click the **Manage Information** icon within the Fax Alerts portlet.
 
-![](../quick-view-alerts-portlet.assets/78a9ba397d88be78ec88c5b811290a69.png)
+![](../quick-view-alerts-portlet.assets/32033c27d9548d89e5782b269f496e1b.png)
 
-Clicking the [Manage Information](https://system/?f=admin&t=faxman) icon will take you to the **Fax Manager** tab of the sidemenu. This is where usres can see the **Error Fax Spool**, with the specific details of the failed fax jobs and all the specific options available for working failed faxes.  For more information on this screen and how to work failed faxes, reference the [Fax Manager Tab](../fax-manager/fax-manager-tab-outbound-faxing.md) documentation.
+Clicking the Manage Information icon will take you to the **Fax Manager** tab of the sidemenu. This is where users can see the **Error Fax Spool**, with the specific details of the failed fax jobs and all the specific options available for working failed faxes.  For more information on this screen and how to work failed faxes, reference the [Fax Manager Tab](../fax-manager/fax-manager-tab-outbound-faxing.md) documentation.
 
-![](../quick-view-alerts-portlet.assets/3b7140630fdf5efbfe46e63c8c568517.png)
+![](../quick-view-alerts-portlet.assets/4484b696d41503c0ca325d162774d905.png)
 
 Another way to view details on a failed fax job, or get to the Fax Manager, is to click [Failed Fax Jobs](https://system/?f=admin&t=faxman) when looking at the Alerts portlet of Quick View. The portlet displays a quick summary of the failed jobs, but the failed items on the Alerts portlet provide hyperlinks to take users to the Fax Manager more easily, instead of from the Alerts/Errors main dashboard.
 
@@ -99,11 +98,11 @@ Another way to view details on a failed fax job, or get to the Fax Manager, is t
 
 The **Print Alerts** portlet shows failed print jobs for the logged-in user or system-wide, based on the preference setting. Users can view the failed print jobs from this screen and click the **Job ID** to see the details of the specific print job. And users can delete the print job from here, as well. You can also click the **Manage Information** icon within the Print Alerts portlet, as needed.
 
-![](../quick-view-alerts-portlet.assets/df901ce2d918a2f7a263414473365304.png)
+![](../quick-view-alerts-portlet.assets/10cc4617827b5e0e3cc5dea7c243d72b.png)
 
 Clicking the [Manage Information](https://system/?m=admin&t=printman&tabmodule=admin&tabselect=Print+Mgr) icon will take you to the **Print Manager** tab of the sidemenu. This is where users can see the **Error Print Spool**, with specific details of the failed print jobs, along with the option to delete the failed print jobs, as needed. When viewing a specific print job from the Job ID, users can reprint so that a view of what was to print will be generated. For more information on this screen and how to work failed print jobs, reference the [Print Manager](../system-administration/system-controls/print-manager.md) documentation.
 
-![](../quick-view-alerts-portlet.assets/19fcd0acd01003b9be8cd0c06159987a.png)
+![](../quick-view-alerts-portlet.assets/4731eb3f0cbc12caaeecb765ea416abb.png)
 
 Another way to get to the Print Manager is to click [Failed Print Jobs](https://system/?m) when in the Alerts portlet of Quick View. The portlet displays a summary of failed jobs, but the failed items in the Alerts portlet provide hyperlinks to take users to the Print Manager quick and easily.
 

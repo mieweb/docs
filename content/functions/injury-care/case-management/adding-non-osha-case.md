@@ -2,11 +2,11 @@
 id: '1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs'
 title: 'Adding Non-OSHA Case'
 date: '2020-03-13T13:16:54.123Z'
-version: 52
+version: 55
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
-  - '../adding-restrictions-and-accommodations.md'
+  - '../adding-restrictions.md'
 source: 'https://drive.google.com/open?id=1aHT2IQB4BXVs4aZm1tYvWp8t3PvqPdSI-dJJ0w-nfqs'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
@@ -84,11 +84,11 @@ Selecting Contaminated Sharp as the nature of injury will expand 3 additional fi
 
 ### Work Status (or Lost Time) Section
 
-Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md) help documentation for more information.
+Lost time would be documented using the Restrictions and Accommodations section.  Refer to the [Restrictions and Accommodations](../adding-restrictions.md) help documentation for more information.
 
 ### Restrictions and Accommodations
 
-Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions-and-accommodations.md).
+Refer to help documentation named [Restrictions and Accommodations](../adding-restrictions.md).
 
 ### Incident Summary
 

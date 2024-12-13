@@ -2,11 +2,11 @@
 id: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 title: 'Respirator Info Chart Tab'
 date: '2024-11-13T16:21:01.795Z'
-version: 160
+version: 162
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://drive.google.com/open?id=1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM'
+  - 'mass-manual-entry-of-respirator-fit-data.md'
   - 'https://mie.talentlms.com/shared/start/key:ZOGDNHRK'
 source: 'https://drive.google.com/open?id=1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
@@ -128,7 +128,7 @@ Within the Edit Respirator Fit pop-up window, at the bottom is any Revision Hist
 
 ## Mass Manual Entry of Respirator Fit Data
 
-There is a separate help guide on the ability to manually enter respirator fit data in mass to individual charts using the Resp Fit Program mass data entry screen found in E-Chart.  Please see separate guide titled: [Mass Manual Entry of Respirator Fit Data](https://drive.google.com/open?id=1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM) and also a separate chapter on the below LMS (Learning Management System) course.
+There is a separate help guide on the ability to manually enter respirator fit data in mass to individual charts using the Resp Fit Program mass data entry screen found in E-Chart.  Please see separate guide titled: [Mass Manual Entry of Respirator Fit Data](mass-manual-entry-of-respirator-fit-data.md) and also a separate chapter on the below LMS (Learning Management System) course.
 
 ## Learning Management System
 

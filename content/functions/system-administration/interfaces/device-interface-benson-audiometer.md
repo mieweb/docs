@@ -1,9 +1,9 @@
 ---
 id: '1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
 title: 'Device Interface - Benson Audiometer'
-date: '2020-05-11T12:19:36.982Z'
-version: 259
-lastAuthor: ''
+date: '2024-10-09T13:03:11.058Z'
+version: 306
+lastAuthor: 'kkocks'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
@@ -11,7 +11,7 @@ links:
 source: 'https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
 wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
 ---
-This page provides instructions for retrieving results from the Benson software with {{% system-name %}} , and lists the fields that the interface retrieves.
+This page provides instructions for retrieving results from the Benson software with , and lists the fields that the interface retrieves.
 
 ## Instructions
 

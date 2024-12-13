@@ -1,9 +1,9 @@
 ---
 id: '1gXrYqsyf8lkyLuE_pXufo_bnzKWMskhOJ8i4Gqm-kX4'
 title: 'RWT Results 2024 Q3'
-date: '2024-02-19T20:08:08.577Z'
-version: 12
-lastAuthor: 'nrichardson'
+date: '2024-10-24T18:15:55.809Z'
+version: 69
+lastAuthor: 'pepperson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -978,11 +978,24 @@ MIE will report from the database the number of successfully sent VXU messages a
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Successful transmission to registry</strong></td>
+<td>1636</td>
+</tr>
+<tr>
+<td><strong>Rejected by the registry</strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Declined to generate</strong></td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+All VXU messages were sent successfully to the registry.
 
 ### Measure 11: Transmission to Immunization Registries: Query Records
 
@@ -1013,11 +1026,20 @@ MIE will report the number of successful retrievals of evaluated history and for
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Successful retrievals</strong></td>
+<td>6595</td>
+</tr>
+<tr>
+<td><strong>Failed retrievals</strong></td>
+<td>96</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+The number of retrievals grew again with the failure rate remaining below 1.5%.
 
 ### Measure 12: Direct Project: Send
 
@@ -1054,11 +1076,24 @@ MIE will report from log files the number of messages transmitted. MIE will repo
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Messages Transmitted</strong></td>
+<td>9616</td>
+</tr>
+<tr>
+<td><strong>Failed to transmit</strong></td>
+<td>18</td>
+</tr>
+<tr>
+<td><strong>Failed MDNs received</strong></td>
+<td>0</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+This quarter represents the new normal with a higher volume of outgoing messages. The failure rate has now dropped to less than 0.2%.
 
 ### Measure 13: Direct Project: Receive
 
@@ -1089,11 +1124,24 @@ MIE will report from logs the number of messages transmitted to the HISP.  MIE w
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Messages received by HISP</strong></td>
+<td>573</td>
+</tr>
+<tr>
+<td><strong>Messages failing to conform</strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Messages successfully delivered</strong></td>
+<td>573</td>
+</tr>
+</table>
 
 #### Discussion
 
-Discussion
+The receipt of Direct Messages lapsed this quarter.
 
 ### Measure 14: Patient Portal View
 
@@ -1271,11 +1319,18 @@ MIE will report from logs the number of messages transmitted to the HISP by SMTP
 
 #### Results
 
-Results
+<table>
+<tr>
+<td><strong>Messages submitted to HISP via SMTP</strong></td>
+<td>18684</td>
+</tr>
+<tr>
+<td><strong>Number of XDM packages processed</strong></td>
+<td>168</td>
+</tr>
+</table>
 
 #### Discussion
-
-Discussion
 
 ### Measure 18: Data Export
 
