@@ -7,7 +7,7 @@ lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1o9yP0CDEwr8G6Fgr5xRbbJe2TWKl4JavucDvzvIGU_c'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 According to the U.S. Department of Health and Human Services, Medical Surveillance is "the systematic assessment of employees exposed or potentially exposed to occupational hazards." Through the use of regular, ongoing screenings and examinations, reducing and preventing occupational injury and illness is streamlined, allowing for more effective exposure prevention strategies and better recordkeeping. The {{% system-name %}} system is designed with an emphasis on these exact components, providing easy-to-use, non-invasive processes when addressing medical clearance needs.
 

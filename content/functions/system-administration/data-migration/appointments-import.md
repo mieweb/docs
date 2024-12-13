@@ -8,7 +8,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample1.csv'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample2.csv'
 source: 'https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 This wiki page is to document how appointment data needs to be constructed in order to import using WebChart's Schedule Import Tool.
 

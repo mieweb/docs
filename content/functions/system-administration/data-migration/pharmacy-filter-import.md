@@ -9,7 +9,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Pharmacy_Filter_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 The Pharmacy Filter allows you to import filter data on pharmacies based on either their NPI or NCPDPID.
 

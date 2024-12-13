@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFD&old_module=Email&old_name=Pat+FMLA+Denied&active=0'
 source: 'https://drive.google.com/open?id=1v2t6AZjuzTdOzQ6Z3gLloJlPkIpTyRJxSQ-4-0BCHJQ'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFD&old_module=Email&old_name=Pat+FMLA+Denied&active=0), as needed.

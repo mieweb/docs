@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0'
   - 'mailto:support@nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0), as needed.

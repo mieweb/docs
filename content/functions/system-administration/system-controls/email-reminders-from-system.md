@@ -14,7 +14,7 @@ links:
   - '../../reports/documents-report-super-document-type-search.md'
   - 'https://mie.talentlms.com/shared/start/key:LAZIDNHR'
 source: 'https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 Must have security setting of *Send Email to Patient* set to Yes in order to utilize the email link and feature in {{% system-name %}} .
 

@@ -22,7 +22,7 @@ links:
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
   - 'https://mie.talentlms.com/unit/view/id:2687'
 source: 'https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 ## Agenda
 

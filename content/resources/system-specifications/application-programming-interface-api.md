@@ -24,7 +24,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 [Terms of API Use](application-programming-interface-api/terms-of-api-use.md)
 

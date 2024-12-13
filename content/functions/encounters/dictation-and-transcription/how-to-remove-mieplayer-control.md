@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EiIGT6EwEjHqJQitMoe9XeVb5nCvYbbJm9fOWFsbQ2o'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 1. Open Internet Explorer on your desktop.
 2. At the top toolbar, select TOOLS, then the option called INTERNET OPTIONS.

@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 When working in an encounter and when on the "view" of the encounter, down at the bottom of that encounter "view" you will see *Encounter Options*. This same *Encounter Options* section can be accessed by the *Encounter Checkout* chart tab in your system.
 

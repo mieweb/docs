@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'about:blank'
 source: 'https://drive.google.com/open?id=1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 ## MIPS Transition Year 2017
 

@@ -9,7 +9,7 @@ links:
   - 'measures.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 In order to better serve client needs, {{% system-name %}} has streamlined the concepts and efforts of quality reporting participation, in order to serve all interested entities. If, as a standard, a business would like to track ongoing quality of care initiatives, or even participate in sponsored quality programs, {{% system-name %}} systems now offer a plethora of quantifiable and reportable measures, designed to track and improve overall care delivery.
 

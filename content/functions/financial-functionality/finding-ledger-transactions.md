@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1-tfONkRUSjg4mxAfE1pcRYwgRK2t1LN-Vw9qorSz9U8'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. To find transactions by payee:

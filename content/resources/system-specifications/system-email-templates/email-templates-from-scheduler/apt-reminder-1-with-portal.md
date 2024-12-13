@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=EAPTR&old_module=Email&old_name=Apt+Reminder+1+with+Portal&active=0'
 source: 'https://drive.google.com/open?id=1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=EAPTR&old_module=Email&old_name=Apt+Reminder+1+with+Portal&active=0), as needed.

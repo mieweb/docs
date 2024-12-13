@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 For clients on 202209 and newer, a new **_Copy from Previous Exam_** icon has been added to the HPI, Review of systems, Physical exam, Patient education and Depart instructions encounter sections.
 

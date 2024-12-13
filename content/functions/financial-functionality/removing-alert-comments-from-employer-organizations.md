@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1YSZ1Ga02PL84P1G-aXE9I5RjrmjXctIFBilF4dJ0RH4'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) from which to remove an alert comment.
 2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Documents</strong>. The system displays a list of documents for the employer organization.

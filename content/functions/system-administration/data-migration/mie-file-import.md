@@ -13,7 +13,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 MIE File Import is a tool for importing and storing a set of files (an archive) in an MIE system (i.e., Enterprise Health or WebChart) as a document. A document is then associated with a chart in an MIE system. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
 

@@ -7,7 +7,7 @@ lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 The following is referring to a Welch Allyn Spot Vital Signs monitor system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 

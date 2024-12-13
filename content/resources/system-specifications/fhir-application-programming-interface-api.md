@@ -11,7 +11,7 @@ links:
   - 'fhir-application-programming-interface-api/terms-of-use.md'
   - 'fhir-application-programming-interface-api/endpoints.md'
 source: 'https://drive.google.com/open?id=14vy3k0f0EWCGaXu__JfC9ZtWZSsVFxInvTev8gQssbQ'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 [Resource Specifications](fhir-application-programming-interface-api/resource-specifications.md)
 

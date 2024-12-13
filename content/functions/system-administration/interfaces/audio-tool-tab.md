@@ -13,7 +13,7 @@ links:
   - '../../document-management/scanning-and-indexing/indexing.md'
   - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 Within {{% system-name %}}, you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results.
 

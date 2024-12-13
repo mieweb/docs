@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LAAIDNHR'
 source: 'https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 ## Viewing an Allergy or Intolerance
 

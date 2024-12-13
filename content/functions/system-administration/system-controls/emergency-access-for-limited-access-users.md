@@ -6,7 +6,7 @@ version: 38
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 When access to a chart is restricted, the system provides a means for appropriately authorized users to "have emergency access" for emergency situations.
 

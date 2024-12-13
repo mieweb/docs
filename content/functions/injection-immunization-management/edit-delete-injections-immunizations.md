@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
 source: 'https://drive.google.com/open?id=1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 To make an edit or modify a specific immunization or injection record, get into the patient's injections tab to show the list of active immunizations/injections.  Find the specific injection or immunization that you wish to edit and click on the underlined injection/immunization name to get into the edit mode.
 

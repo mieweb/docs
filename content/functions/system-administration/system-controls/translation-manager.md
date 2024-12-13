@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZGSDNHRK'
 source: 'https://drive.google.com/open?id=1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 ## Purpose of the Translation Manager
 

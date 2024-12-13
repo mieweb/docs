@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15KoZbfqM4pYdbjCGSSBQzf1JC4NwpF3-KK3pjBDfxpY'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 Whether managing single sign-on or security settings, users can peruse the available security documentation and begin ensuring access and restrictions are in place from day one.
 

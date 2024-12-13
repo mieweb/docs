@@ -10,7 +10,7 @@ links:
   - 'merging-accounts-charts-in-system.md'
   - 'https://mie.talentlms.com/shared/start/key:ZZQDNHRK'
 source: 'https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
-wikigdrive: '2aacb51f060d0354a678419290943a99bd16aad1'
+wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 The Merge Manager tab is found in the sidemenu tab named *Control Panel*. The Merge Manager tab is where you can see a listing of charts that have been merged in  {{% system-name %}}  along with any details and who performed the merge, when, etc. If you have security to do so, you can also perform an un-merge to un-merge those charts.
 
