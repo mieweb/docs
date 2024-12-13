@@ -2,7 +2,7 @@
 id: '15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
 title: 'Device Interface - PFT System'
 date: '2024-12-12T19:54:04.158Z'
-version: 73
+version: 74
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
