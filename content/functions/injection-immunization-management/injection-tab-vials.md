@@ -1,8 +1,8 @@
 ---
 id: '11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
 title: 'Injection Tab - Vials'
-date: '2024-12-12T18:33:12.011Z'
-version: 172
+date: '2024-12-16T20:32:33.105Z'
+version: 181
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -245,7 +245,11 @@ Some practices want to scan in the allergy vial sheet that comes packaged with t
 
 Your system can be set up to have a Scan link in the options column for scanning in that vial sheet and store it as a document in the patient's chart.
 
-The system setting "Vial Doctype" can be configured to use the doc.type VIAL which then allows the Scan ability from the Vials section.  If your workflows don't need to utilize this feature, then the system setting can be configured to blank out the doc.type value and the Scan hyperlink will not appear.
+The system setting "Vial Doctype" can be configured to use the doc.type VIAL which then allows the Scan ability from the Vials section.  Also, make sure in the document types editor, that doc.type VIAL is checkmarked to allow E-Chart Scan.  This is so that when using Scan method on a vial, it will store as the correct VIAL doc.type and nothing else.
+
+![](../injection-tab-vials.assets/ece79482eadd000b0cb705c60d98dbca.png)
+
+If your workflows don't need to utilize this feature, then the system setting can be configured to blank out the doc.type value and the Scan hyperlink will not appear.
 
 Using a flatbed scanner to scan a Vial sheet, simply click the Scan link in the Options column next to the vial you wish to edit.
 
@@ -253,7 +257,7 @@ Using a flatbed scanner to scan a Vial sheet, simply click the Scan link in the 
 
 The document scan control will appear on the screen.  Proceed to scan in (or file upload an existing electronic file) of the vial sheet and upload.  See other help instructions titled [E-Chart Scan Documents](../document-management/documents-and-forms/e-chart-scan-documents.md) for help with Document Scan Control and scanning.
 
-![](../injection-tab-vials.assets/18e5f77eabd7152d39139e55c8d5834b.png)
+![](../injection-tab-vials.assets/18ab25d6374cf210c44cf913273a9ec6.png)
 
 ## Learning Management System
 
