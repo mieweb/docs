@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-12-11T13:45:34.627Z'
-version: 1016
-lastAuthor: 'anichols'
+date: '2024-12-16T18:36:54.749Z'
+version: 1031
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -34,6 +34,7 @@ links:
   - 'functions/e-chart/sidemenu-thumbtack-feature.md'
   - 'functions/e-chart/quick-view-alerts-portlet.md'
   - 'functions/e-chart/quick-view-due-list-portlet.md'
+  - 'https://drive.google.com/open?id=1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
   - 'functions/e-chart/super-user-quick-view-portlet.md'
   - 'functions/e-chart/conditions.md'
   - 'functions/e-chart/preventive-care-portlet.md'
@@ -763,7 +764,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
     * QuickView
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
-        * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
+        * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#_58zjto1llw5w)
     * [Absence Management](functions/absence-management.md)
         * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
     * [E-Chart](functions/e-chart.md)
@@ -774,6 +775,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
         * [Quick View - Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
         * [Quick View - Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
+        * [Quick View - Schedule Portlet](https://drive.google.com/open?id=1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw)
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
         * [Conditions](functions/e-chart/conditions.md)
         * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
@@ -860,8 +862,8 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
         * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
-        * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
-        * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#managing-the-smp-worklist)
+        * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#_p4483xhk4y5q)
+        * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#_h2rhs75l36bw)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
     * [Encounters](functions/encounters.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
@@ -881,7 +883,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
         * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
-        * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
+        * [Smart Plan](functions/encounters/smart-plan.md#_ce65n7x31c0m)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
@@ -1014,8 +1016,8 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Autocomplete Editor](functions/system-configuration/autocomplete-editor.md)
         * [Fee Schedules](functions/system-configuration/fee-schedules.md)
         * [Security Best Practices](functions/e-chart/security-best-practices.md)
-        * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md#overview)
-        * [Orders List Editor](functions/system-configuration/orders-list-editor.md#overview)
+        * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md#_qull6o7fw0le)
+        * [Orders List Editor](functions/system-configuration/orders-list-editor.md#_qull6o7fw0le)
     * [Quality of Care](functions/quality-of-care.md)
         * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
         * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
@@ -1173,7 +1175,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
                 * [CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-155-weight-assessment-and-counseling-for-nutrition-and-physical-activity-for-children-and-adolescents.md)
                 * [CMS 156 - Use of High-Risk Medications in the Elderly](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-156-use-of-high-risk-medications-in-the-elderly.md)
                 * [CMS 165 - Controlling High Blood Pressure](functions/quality-of-care/measures/quality-measure-specifications-and-recommended-workflows/cms-165-controlling-high-blood-pressure.md)
-        * [RAF Score - Risk Adjustment Factor](functions/quality-of-care/raf-score-risk-adjustment-factor.md#what-is-a-risk-adjustment-factor?)
+        * [RAF Score - Risk Adjustment Factor](functions/quality-of-care/raf-score-risk-adjustment-factor.md#_fnugbepxbu3)
     * [Reports](functions/reports.md)
         * [Using DataVis Grids - Data Tools](functions/reports/using-datavis-grids-data-tools.md)
         * [Activity Log Report](functions/reports/activity-log-report.md)
@@ -1203,14 +1205,14 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Medication Report](functions/reports/medication-report.md)
         * [Non-Compliant Report](functions/reports/non-compliant-report.md)
         * [Open Encounters Report](functions/reports/open-encounters-report.md)
-        * [OpenPM Export Appointment Cancellation Report](functions/reports/openpm-export-appointment-cancellation-codes.md#openpm-export-appointment-cancellation-codes)
+        * [OpenPM Export Appointment Cancellation Report](functions/reports/openpm-export-appointment-cancellation-codes.md#_3qcztqsgdahm)
         * [OpenPM Export Appointment Types](functions/reports/openpm-export-appointment-types.md)
         * [OpenPM Export Chart Insurance Policies](functions/reports/openpm-export-chart-insurance-policies.md)
-        * [OpenPM Export Demographics](functions/reports/openpm-export-demographics.md#openpm-export-demographics)
-        * [OpenPM Export Future Appointments](functions/reports/openpm-export-future-appointments.md#openpm-export-future-appointments)
+        * [OpenPM Export Demographics](functions/reports/openpm-export-demographics.md#_4jvbnzvs2yp3)
+        * [OpenPM Export Future Appointments](functions/reports/openpm-export-future-appointments.md#_35pvu35msfqn)
         * [OpenPM Export Locations](functions/reports/openpm-export-locations.md)
         * [OpenPM Export Physicians](functions/reports/openpm-export-physicians.md)
-        * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md#osha-300-form-log-overlay)
+        * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md#_gth4fnfo9rzz)
         * [OSHA 300 Log Report](functions/reports/osha-300-log-report.md)
         * [OSHA 300A Form Log Overlay](functions/reports/osha-300a-form-log-overlay.md)
         * [OSHA 300A Report](functions/reports/osha-300a-report.md)
@@ -1260,7 +1262,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
             * [Merge Manager Tab](functions/system-administration/system-controls/merge-manager-tab.md)
             * [Med-Web SSL Certificate Authority](functions/system-administration/system-controls/med-web-ssl-certificate-authority.md)
             * [Scheduled Jobs](functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs.md)
-            * [Translation Manager](functions/system-administration/system-controls/translation-manager.md#purpose-of-the-translation-manager)
+            * [Translation Manager](functions/system-administration/system-controls/translation-manager.md#_ympf05vurq1c)
             * [Interface Manager](functions/system-administration/system-controls/interface-manager.md)
             * [Encounter Types](functions/system-administration/system-controls/encounter-types.md)
             * [Auto Routes](functions/system-administration/system-controls/auto-routes.md)
@@ -1350,7 +1352,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
             * [Device Interface - Quanitfit 2](functions/system-administration/interfaces/device-interface-quantifit-2.md)
-            * [Device Interface - Resonance R17A](functions/system-administration/interfaces/device-interface-resonance-r17a.md#installation-help)
+            * [Device Interface - Resonance R17A](functions/system-administration/interfaces/device-interface-resonance-r17a.md#_dsj0kttnwjxp)
             * [Device Interface - Vision System](functions/system-administration/interfaces/device-interface-vision-system.md)
             * [Device Interface - Vital Signs](functions/system-administration/interfaces/device-interface-vital-signs.md)
             * [Device Interface - Welch Allyn Spirometry](functions/system-administration/interfaces/device-interface-welch-allyn-spirometry.md)
@@ -1421,9 +1423,9 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 * [Resources](resources.md)
     * [System Specifications](resources/system-specifications.md)
         * EHR Certification
-            * [Real World Testing](resources/system-specifications/ehr-certification/real-world-testing.md#rwt-plans)
+            * [Real World Testing](resources/system-specifications/ehr-certification/real-world-testing.md#_e79inbc38fur)
                 * [Real World Testing Plan 2021](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md)
-                * [Real World Testing Plan 2025](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2025.md#general-information)
+                * [Real World Testing Plan 2025](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2025.md#_vlo8qmym23np)
         * [Client Hardware and Software Specifications](resources/system-specifications/client-hardware-and-software-specifications.md)
         * [Application Programming Interface (API)](resources/system-specifications/application-programming-interface-api.md)
             * [Terms of API Use](resources/system-specifications/application-programming-interface-api/terms-of-api-use.md)
