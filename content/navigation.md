@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-12-16T18:36:54.749Z'
-version: 1031
+date: '2024-12-16T22:01:56.083Z'
+version: 1037
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -34,7 +34,7 @@ links:
   - 'functions/e-chart/sidemenu-thumbtack-feature.md'
   - 'functions/e-chart/quick-view-alerts-portlet.md'
   - 'functions/e-chart/quick-view-due-list-portlet.md'
-  - 'https://drive.google.com/open?id=1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
+  - 'functions/e-chart/quick-view-schedule-portlet.md'
   - 'functions/e-chart/super-user-quick-view-portlet.md'
   - 'functions/e-chart/conditions.md'
   - 'functions/e-chart/preventive-care-portlet.md'
@@ -276,6 +276,7 @@ links:
   - 'functions/e-chart/security-best-practices.md'
   - 'functions/system-configuration/ask-at-order-entry-aoe-editor.md'
   - 'functions/system-configuration/orders-list-editor.md'
+  - 'https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
   - 'functions/quality-of-care.md'
   - 'functions/quality-of-care/quality-reporting-enrollment.md'
   - 'functions/quality-of-care/provider-quality-of-care-status.md'
@@ -775,7 +776,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
         * [Quick View - Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
         * [Quick View - Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
-        * [Quick View - Schedule Portlet](https://drive.google.com/open?id=1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw)
+        * [Quick View - Schedule Portlet](functions/e-chart/quick-view-schedule-portlet.md)
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
         * [Conditions](functions/e-chart/conditions.md)
         * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
@@ -1018,6 +1019,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Security Best Practices](functions/e-chart/security-best-practices.md)
         * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md#_qull6o7fw0le)
         * [Orders List Editor](functions/system-configuration/orders-list-editor.md#_qull6o7fw0le)
+        * [Provider Management](https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog)
     * [Quality of Care](functions/quality-of-care.md)
         * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
         * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
