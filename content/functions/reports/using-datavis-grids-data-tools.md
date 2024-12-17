@@ -1,9 +1,9 @@
 ---
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
-date: '2024-07-16T16:10:27.339Z'
-version: 166
-lastAuthor: 'janderson'
+date: '2024-12-17T19:51:36.965Z'
+version: 172
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
@@ -75,6 +75,11 @@ Filters you are already using still apply, if they don't conflict with the drill
 
 Click the **view history back arrow** in the **view toolbar section** to go back to the previous view.
 
+## Embedded Formatting Strings
+
+Beginning on release 202403, Datavis reports can be updated to apply formatting to various cells. For example, reports can be updated with embedded formatting strings which will highlight test results that fall outside of a normal range.
+
+![](../using-datavis-grids-data-tools.assets/a60dc069debd74b74ced4fc81112762e.png)
 ## Learning Management System
 
 To learn more about Using DataVis Grids - Data Tools, follow the link below to the Learning Management System course:
