@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2024-12-16T22:01:56.083Z'
-version: 1037
+date: '2024-12-17T17:55:48.510Z'
+version: 1044
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -161,6 +161,7 @@ links:
   - 'functions/encounters/archiving-closing-re-archiving-encounters.md'
   - 'functions/encounters/creating-or-adding-encounters.md'
   - 'functions/encounters/copy-from-previous-exam.md'
+  - 'https://drive.google.com/open?id=1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM'
   - 'functions/encounters/assigned-users.md'
   - 'functions/injury-care.md'
   - 'functions/injury-care/case-management.md'
@@ -276,7 +277,7 @@ links:
   - 'functions/e-chart/security-best-practices.md'
   - 'functions/system-configuration/ask-at-order-entry-aoe-editor.md'
   - 'functions/system-configuration/orders-list-editor.md'
-  - 'https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
+  - 'functions/system-configuration/provider-management.md'
   - 'functions/quality-of-care.md'
   - 'functions/quality-of-care/quality-reporting-enrollment.md'
   - 'functions/quality-of-care/provider-quality-of-care-status.md'
@@ -904,6 +905,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
         * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
         * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
+        * [Libraries](https://drive.google.com/open?id=1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM)
         * [Assigned Users](functions/encounters/assigned-users.md)
     * [Injury Care](functions/injury-care.md)
         * [Case Management](functions/injury-care/case-management.md)
@@ -1019,7 +1021,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
         * [Security Best Practices](functions/e-chart/security-best-practices.md)
         * [Ask at Order Entry AOE Editor](functions/system-configuration/ask-at-order-entry-aoe-editor.md#_qull6o7fw0le)
         * [Orders List Editor](functions/system-configuration/orders-list-editor.md#_qull6o7fw0le)
-        * [Provider Management](https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog)
+        * [Provider Management](functions/system-configuration/provider-management.md)
     * [Quality of Care](functions/quality-of-care.md)
         * [Quality Reporting Enrollment](functions/quality-of-care/quality-reporting-enrollment.md)
         * [Provider Quality of Care Status](functions/quality-of-care/provider-quality-of-care-status.md)
