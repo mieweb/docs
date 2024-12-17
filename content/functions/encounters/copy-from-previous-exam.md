@@ -1,14 +1,29 @@
 ---
 id: '1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
 title: 'Copy From Previous Exam'
-date: '2024-10-14T21:02:03.413Z'
-version: 41
+date: '2024-12-17T18:12:59.442Z'
+version: 60
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
 source: 'https://drive.google.com/open?id=1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
+## Copy Existing Visits
+
+To copy a prior visit note into today's exam, select the encounter **Copy** icon located in the encounter header. A list of **Libraries** and **Existing Visit** information displays.
+
+For more information on using libraries, see our online [Libraries](https://docs.enterprisehealth.com/functions/encounters/libraries/) documentation.
+
+![](../copy-from-previous-exam.assets/23961f715c8f540d040eb4f205ad7118.png)
+
+To copy Existing Visit data, click the **COPY** link next to the Visit information. Click the **box with arrow** icon to open the prior encounter visit note summary.
+
+![](../copy-from-previous-exam.assets/b5daceb1573a79a05dc9f40b998c17b9.png)
+
+## Copy from Previous Exam by Encounter Section
+
 For clients on 202209 and newer, a new **_Copy from Previous Exam_** icon has been added to the HPI, Review of systems, Physical exam, Patient education and Depart instructions encounter sections.
 
 ![](../copy-from-previous-exam.assets/5b703e1311d196104e93a27f3b3ebf4c.png)
