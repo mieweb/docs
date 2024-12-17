@@ -1,9 +1,9 @@
 ---
 id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 title: 'Adding OSHA Case'
-date: '2024-11-15T19:26:04.287Z'
-version: 150
-lastAuthor: 'auhrick'
+date: '2024-12-17T14:18:12.757Z'
+version: 162
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions.md'
@@ -67,19 +67,23 @@ If the System Setting *Workers Comp Fields* is disabled, the fields *Record Only
 
 ### Location
 
-The location section displays to document where the injury occurred specifically.  If selecting Onsite Location as to where the injury/illness occurred, you can then (optionally) fill out where specifically the injury/illness occurred onsite using an auto-complete of choices.  The choices displayed in the auto-complete are a sample default list and you would need to give a complete list of location areas to your MIE Implementer in an excel spreadsheet for an MIE developer to import.  It can be a general list or a very granular hierarchical location of choices. The auto-complete field is optional just to provide more granular reporting needs if client desires. Otherwise, one must just free-type in where the event occurred in the field noted by a red asterisk.
+The location section displays to document where the injury occurred specifically.
+
+Onsite Location: If selecting Onsite Location as to where the injury/illness occurred, you can then (optionally) fill out where specifically the injury/illness occurred onsite using an auto-complete of choices.  The choices displayed in the auto-complete are a sample default list and you would need to give a complete list of location areas to your MIE Implementer in an excel spreadsheet for an MIE developer to import.  It can be a general list or a very granular hierarchical location of choices. The auto-complete field is optional just to provide more granular reporting needs if the client desires. Otherwise, one must just free-type in where the event occurred in the field noted by a red asterisk.
 
 ![](../adding-osha-case.assets/2c460307ecd33790c41a69f014fd24e9.png)
 
-If selecting Offsite Location, then the fields that branch open are required free text fields to note the offsite location details.
+Select Supervisor field: Supervisor selections in this auto-complete field in the case is not necessarily the employee's supervisor, so we output selection choices (in this auto-complete) of anyone who has a ‘supervisor' relationship in the system, not just limiting to supervisors directly from the employee chart being worked in.
+
+If the System Setting *Select Supervisor* is disabled, the field *Please select supervisor* will no longer display within the ‘onsite location' fields. By default, the system setting is enabled. This field is primarily used for workers' comp integration. In addition, users may also input any supervisor in the Authorized Users section at the bottom of the Case section.
+
+NOTE: Supervisor(s) of an onsite location where an injury/illness occurred may not necessarily the employee's supervisor, so the auto-complete field outputs search choices of anyone who has a ‘supervisor' relationship in the system, not just limiting to supervisors directly from the employee chart being worked in.
+
+![](../adding-osha-case.assets/2c6852b716452d609296edb62f885d7c.png)
+
+Offsite Location: If selecting offsite location, then the fields that branch open are required free text fields to note the offsite location details.
 
 ![](../adding-osha-case.assets/5fddf612d55fe99c0a9dc499c3346488.png)
-
-If the System Setting *Select Supervisor* is disabled, the field *Please select supervisor* will no longer display. By default, this setting is enabled. This field is primarily used for workers' comp integration.
-
-![](../adding-osha-case.assets/57ea824f38d9ee23ac6ac77efcbc591d.png)
-
-![](../adding-osha-case.assets/e5cfa1466c73015b867b33e11a8c63fa.png)
 
 ### Incident Details
 
