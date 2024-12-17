@@ -1,9 +1,9 @@
 ---
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
-date: '2020-03-13T19:22:58.979Z'
-version: 76
-lastAuthor: ''
+date: '2024-12-17T19:34:35.032Z'
+version: 104
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
@@ -19,7 +19,7 @@ Click the *Orders* or *E-Orders* chart tab **or** the Add Order link when in a p
 
 It most likely will default and open to the ADD ORDER module. This means it automatically would default to the screen that allows you to add an order for the patient. The other ‘view' for this module that it may default to is the RECENT orders where it lists completed and incomplete orders for the patient. You can change this default action view in MY SETTINGS. (See description of MY SETTINGS default action for Orders on the last page of this document.)
 
-## Add Order
+## Add Order (Legacy Screens)
 
 After you are in the orders tab or have clicked the link Add Order from somewhere in {{% system-name %}} , your default action may be set to *add order*. That means when you have clicked the order tab or the add orders link, then the ADD ORDER screen will appear for this patient. Otherwise, most recent orders summary will open.
 
@@ -72,7 +72,7 @@ Or
 
 ![](../e-orders-add-order-requests.assets/30b5063563a11a4211260a89897ca1a9.png)
 
-* <strong>CC Physcians:</strong> Your MIE Implementer can enable a layout tag to show a <em>CC Physicians</em> field if you need ability to send out multiple CC physicians on an order. The auto-complete of choices pulls from users who are tied to the department(s) listed in the system setting <em>Orders, Settings, Refer To Departments</em>. Contact your MIE Implementer to have that set. If this setting is empty, it falls back to user choices whose role is Referring Physician. This CC field/user selected shows on the view/document order also.
+* <strong>CC Physicians:</strong> Your MIE Implementer can enable a layout tag to show a <em>CC Physicians</em> field if you need ability to send out multiple CC physicians on an order. The auto-complete of choices pulls from users who are tied to the department(s) listed in the system setting <em>Orders, Settings, Refer To Departments</em>. Contact your MIE Implementer to have that set. If this setting is empty, it falls back to user choices whose role is Referring Physician. This CC field/user selected shows on the view/document order also.
 
 ![](../e-orders-add-order-requests.assets/ebdd326436a924bdbd014c0ca8d707ca.png)
 
@@ -152,6 +152,28 @@ You can complete another order for this patient by clicking Add from this e-orde
 If your practice is set up with an orders interface with a lab vendor to submit lab orders electronically to a lab facility (ex: LabCorp), the lab's location account number for that specific location must be entered in the location tab of control tab.  When we send the order electronically to the lab that account number for the location gets sent with it.
 
 ![](../e-orders-add-order-requests.assets/5dc80590957183a92274367c58f0c7bb.png)
+
+## Add Requisition (Up to date version)
+
+For users on newer releases of {{% system-name %}}, the make order screen has been enhanced for a more friendly user experience. The new make order screen has been updated with a new label called **Create Requisition**. This was done to differentiate the 2 formats, as some customers have chosen to continue to use the legacy version. All new client databases are built using the **New Requisition** screen.
+
+To enable/disable the **New Requisition**, navigate to **My Settings** under the **Control Panel** side menu. Locate the **Use New Requisition Screen** preference under the **Encounter Order Defaults** section and set the desired preference.
+
+![](../e-orders-add-order-requests.assets/25a77a95dfb82214de6c63528d136e1f.png)
+
+The **To** section has been updated to include a Quick List with a list of commonly user providers and/or interfaces requisitions are created for.  The **Items** section has been updated to to include a list of outstanding Due List order items for easy access to add to the order ensure no orders are missed. The **Reason** section has been updated to include the patient's current problem list for quick selection of the proper reason or diagnosis code on the order.
+
+![](../e-orders-add-order-requests.assets/d586ac4e4926c8d796f21699986d1239.png)
+
+## Order Requisitions for PICKLIST Order Types
+
+PICKLIST order types are typically used in Vaccine Compliance, Quality Measures and other custom workflows. PICKLIST order items often do not serve any other purpose other than to identify a group of other related order items. These related order items are defined using the Orders-Pick Builder. For example, the "Measles Surveillance" PICKLIST defines related order items pertaining to Measles Immunizations and Titers. In the event a PICKLIST order item is requisitioned, the related order items will display on the Order Requisition. Once the related order item has been selected, the related order item will replace the PICKLIST order item on the requisition. Additionally, the PICKLIST order item will automatically be set to a status of DELTED and the selected order will display as ORDERED upon saving the requisition. This feature is currently only available to users on release 202309 and newer.
+
+![](../e-orders-add-order-requests.assets/196fe489dbc9b5db9d3db96d91b3fcd4.png)
+
+![](../e-orders-add-order-requests.assets/c0a0e17a3fc7c6b7c15871cf993bc73d.png)
+
+![](../e-orders-add-order-requests.assets/b7a828bea4cdb2712f2d27259f274a42.png)
 
 ## Labels
 
