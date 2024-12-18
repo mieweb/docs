@@ -1,26 +1,20 @@
 ---
 id: '1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
 title: 'CCDA, CCD and CCR Compatibility'
-date: '2024-02-06T19:54:07.241Z'
-version: 71
-lastAuthor: 'dcarlson'
+date: '2024-12-18T13:24:22.116Z'
+version: 78
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.hl7.org/v3ballot/html/infrastructure/vocabulary/ReligiousAffiliation.htm'
   - 'http://www.iana.org/assignments/language-subtag-registry'
-  - 'https://miewiki.med-web.com/wiki/index.php/Social_History_Storage_and_Formatting'
-  - 'https://miewiki.med-web.com/wiki/index.php/IHE_CDA_Information'
   - 'http://xreg2.nist.gov/cda-validation/index.html'
   - 'http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=83'
   - 'http://wiki.hitsp.org/docs/C83/C83-1.html'
   - 'http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=32'
   - 'http://wiki.hitsp.org/docs/C32/C32-1.html'
-  - 'https://miewiki.med-web.com/wiki/index.php/HL7/ASTM_Implementation_Guide_for_CDA_Release_2_-_Continuity_of_Care_Document_(CCD)_Release_1'
-  - 'https://miewiki.med-web.com/wiki/index.php/Quick_Start_Guide_to_the_HL7_Implementation_Guide:_CDA_Release_2_%E2%80%93_Continuity_of_Care_Document_(CCD)'
   - 'http://unitsofmeasure.org/'
   - 'http://aurora.regenstrief.org/~ucum/ucum.html'
-  - 'https://miewiki.med-web.com/wiki/index.php/CCR_Specifications'
-  - 'https://miewiki.med-web.com/wiki/index.php/C-CDA_Specifications'
   - 'http://www.cdapro.com/'
   - 'https://sitenv.org/ccda-smart-scorecard/'
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
@@ -205,7 +199,7 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 <td>2.16.840.1.113883.10.20.1.15</td>
 <td>SocialHistory - Defined in CCR to hold these coded description types: (Marital Status, Race, Ethnicity, Religious Preference, Living Situation, Employment, Tobacco Use, Alcohol Use, Recreational Drug Use, Toxic Exposure, Treatment Restrictions.)</td>
 <td>100% In CCD.. if you mark observations as "Social History" template ID, they will flow into this section.<br />
-<strong>For CCR, we dump everything in "Social History" for the most part.</strong><a href="https://miewiki.med-web.com/wiki/index.php/Social_History_Storage_and_Formatting">Social History Storage and Formatting</a></td>
+<strong>For CCR, we dump everything in "Social History" for the most part.</strong></td>
 </tr>
 <tr>
 <td>Medical Equipment</td>
@@ -241,15 +235,15 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 
 ## Links to External Documentation
 
-* [IHE_CDA_Information](https://miewiki.med-web.com/wiki/index.php/IHE_CDA_Information)
+* IHE_CDA_Information
 * The NIST validator is used to test the validity of the CDA documents: http://xreg2.nist.gov/cda-validation/index.html
 * [PDF CCD/C83 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=83) In HTML: http://wiki.hitsp.org/docs/C83/C83-1.html
 * [PDF CCD/C32 Specification at HITSP](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=32) In HTML: http://wiki.hitsp.org/docs/C32/C32-1.html
-* [HL7/ASTM Implementation Guide for CDA Release 2 - Continuity of Care Document (CCD) Release 1](https://miewiki.med-web.com/wiki/index.php/HL7/ASTM_Implementation_Guide_for_CDA_Release_2_-_Continuity_of_Care_Document_(CCD)_Release_1)
-    * [Quick Start Guide to the HL7 Implementation Guide: CDA Release 2 – Continuity of Care Document (CCD)](https://miewiki.med-web.com/wiki/index.php/Quick_Start_Guide_to_the_HL7_Implementation_Guide:_CDA_Release_2_%E2%80%93_Continuity_of_Care_Document_(CCD))
+* HL7/ASTM Implementation Guide for CDA Release 2 - Continuity of Care Document (CCD) Release 1
+    * Quick Start Guide to the HL7 Implementation Guide: CDA Release 2 – Continuity of Care Document (CCD)
 * [Unified Code for Units of Measure](http://unitsofmeasure.org/) aka UCUM which is a [standard](http://aurora.regenstrief.org/~ucum/ucum.html) for units on observations.
-* [CCR Specifications](https://miewiki.med-web.com/wiki/index.php/CCR_Specifications)
-* [C-CDA Specifications](https://miewiki.med-web.com/wiki/index.php/C-CDA_Specifications)
+* CCR Specifications
+* C-CDA Specifications
 * [cdapro.com](http://www.cdapro.com/)
 * [ONC C-CDA Scorecard](https://sitenv.org/ccda-smart-scorecard/)
 
