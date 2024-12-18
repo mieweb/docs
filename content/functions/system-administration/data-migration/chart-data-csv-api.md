@@ -1,13 +1,12 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
-date: '2024-08-27T17:57:11.514Z'
-version: 168
-lastAuthor: 'janderson'
+date: '2024-12-18T13:51:58.344Z'
+version: 173
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
-  - 'https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface'
   - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?gid=0'
   - 'data-import-standards.md'
   - 'chart-medical-record-number-mrn-import-options.md'
@@ -16,7 +15,6 @@ links:
   - 'https://www.lucidchart.com/documents/view/8b1c6c06-6b16-40a0-afe7-a576d804854d'
   - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/pubhtml'
   - '../../../resources/system-specifications/application-programming-interface-api.md'
-  - 'https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
@@ -38,7 +36,7 @@ The Chart Data CSV API is used to import data related to patients or charts. It 
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
 
-This API may also be used to set up relationships between charts. It is part of MIE's standard [Human Resources Interface](https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface), but it may also be used for single imports of new charts or updates to charts.
+This API may also be used to set up relationships between charts. It is part of MIE's standard Human Resources Interface, but it may also be used for single imports of new charts or updates to charts.
 
 ## Specifications
 
@@ -137,10 +135,6 @@ Examples using sample data are available on [separate tabs in the specification
 ## Troubleshooting
 
 See [Troubleshooting APIs](../../../resources/system-specifications/application-programming-interface-api.md).
-
-## Validation
-
-[Validating APIs](https://miewiki.med-web.com/wiki/index.php?title=Validating_APIs&action=edit&redlink=1)
 
 ## Related Pages
 
