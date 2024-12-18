@@ -1,15 +1,15 @@
 ---
 id: '1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
 title: 'Panel Status Import'
-date: '2020-03-17T15:16:03.508Z'
-version: 58
-lastAuthor: ''
+date: '2024-12-18T15:31:07.853Z'
+version: 66
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/Import_Overview'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/edit?usp=sharing'
-  - 'data-import-standards.md'
-  - 'data-import-master-list.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -26,11 +26,11 @@ The Panel Status CSV API imports discrete employee panel status records.
 It is valuable to recognize the following terminology as it pertains to MIE systems:
 
 * A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
-* A <strong>panel</strong> is a group of one-time or recurring testing items to performed for a person.
+* A <strong>panel</strong> is a group of one-time or recurring testing items to perform for a person.
 * A <strong>panel membership</strong> is the assignment of a person to a panel. It can be assigned based on the kind of work that a person does, the materials they handle, the environment in which they work, or other factors.
-* A <strong>panel status</strong> indicates an person's current or historical fitness for doing the work that requires their membership in a particular panel. Also indicates when testing will be due next.
+* A <strong>panel status</strong> indicates a person's current or historical fitness for doing the work that requires their membership in a particular panel. Also indicates when testing will be due next.
 
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://miewiki.med-web.com/wiki/index.php/Import_Overview) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
 ## Specifications
 
@@ -38,13 +38,11 @@ The following sections provide insight for technical personnel working with the 
 
 [Specifications for the Panel Status CSV API are available here.](https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/edit?usp=sharing)
 
-Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
-
-Additionally, [user instructions](#user-instructions) are available for importing data in EH.
+Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu. Additionally, user instructions are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/) page.
 
 ### Field Requirements
 
@@ -82,4 +80,4 @@ Unless otherwise specified, validation between the previous system and the new E
 
 ## Related Pages
 
-* [Data Import Master List](data-import-master-list.md)
+* [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
