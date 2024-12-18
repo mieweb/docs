@@ -1,11 +1,11 @@
 ---
 id: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 title: 'Fee Schedule Import Tool'
-date: '2020-02-27T20:46:06.612Z'
-version: 22
+date: '2024-12-18T13:55:56.892Z'
+version: 29
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Def_fee_sched.csv'
+links: []
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -13,11 +13,11 @@ This wiki page is to document how fee schedule data needs to be constructed in o
 
 * File format: Data file shall be formatted in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
-* Each subsequent row shall represent an fee schedule.
+* Each subsequent row shall represent a fee schedule.
 
 ## Column Definition
 
-The fee schedule column definition shall contain all columns listed below regardless if their is a value or not.
+The fee schedule column definition shall contain all columns listed below regardless if there is a value or not.
 
 * R = Required
 * O = Optional
@@ -58,7 +58,7 @@ The fee schedule column definition shall contain all columns listed below regard
 
 ### Fee Schedule Example
 
-This example shows how to import multiple cpt codes into 1 fee schedule labeled 'DEF Biz'.
+This example shows how to import multiple CPT codes into 1 fee schedule labeled 'DEF Biz'.
 
 {{% pre %}}
 ```
@@ -77,9 +77,3 @@ DEF Biz,20000,INCISION OF ABSCESS,$325.00
 DEF Biz,20005,INCISION OF DEEP ABSCESS,$469.00
 ```
 {{% /pre %}}
-
-## Sample CSV files
-
-Here is a sample CSV file to download and view in a text editor or a spreadsheet program.
-
-[File:Def fee sched.csv](https://miewiki.med-web.com/wiki/index.php/File:Def_fee_sched.csv)
