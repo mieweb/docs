@@ -1,12 +1,11 @@
 ---
 id: '1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
 title: 'Review Session - Patient Registration'
-date: '2020-02-27T21:24:28.695Z'
-version: 38
-lastAuthor: 'aquandt'
+date: '2024-12-18T14:20:59.629Z'
+version: 44
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/Chart_Data_CSV_Import_Interface'
   - 'https://www.google.com/url?q=https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface'
   - 'https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration'
   - 'https://system/?f=admin&s=partmanager&tabmodule=admin&tabselect=Partition+Mgr'
@@ -45,7 +44,7 @@ As an additional benefit, {{% system-name %}} automatically detects potential du
 
 ## E-Chart
 
-Depending on the needs of the organization, entering and loading demographics can be accomplished manually, through a [one-time import](https://miewiki.med-web.com/wiki/index.php/Chart_Data_CSV_Import_Interface), or through HR interface automation. The more efficient and preferred method is importing demographics through an automated import process, or established [HR interface](https://www.google.com/url?q=https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface). However, the information below will discuss the manual processes to consider when registering charts with the organization.
+Depending on the needs of the organization, entering and loading demographics can be accomplished manually, through a one-time import, or through HR interface automation. The more efficient and preferred method is importing demographics through an automated import process, or established [HR interface](https://www.google.com/url?q=https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface). However, the information below will discuss the manual processes to consider when registering charts with the organization.
 
 ### Patient Registration
 
@@ -64,7 +63,7 @@ Clicking the **Search** button searches existing charts for any matching records
 
 If the new chart does not retrieve any possible matches, the full registration screen will load. If matches were found, but the chart is unique, simply click the link to continue adding the chart. This will load the registration screen. All of the information that is added upon registration will populate the Demographics of the Admin chart tab. Fill out the registration fields, as appropriate.
 
-When a field is set as a required entry, the field will display with red highlighting. As a default, Last Name, First Name, and Date of Birth are required fields. Required fields can be configured, as needed, and will be scoped and quoted separately, accordingly to the level of effort required.
+When a field is set as a required entry, the field will display with red highlighting. As a default, Last Name, First Name, and Date of Birth are required fields. Required fields can be configured, as needed, and will be scoped and quoted separately, according to the level of effort required.
 
 {{% tip %}}
 The Postal Code field will accommodate international postal codes and will display without autoformatting.
