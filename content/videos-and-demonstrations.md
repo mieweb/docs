@@ -1,8 +1,8 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2024-11-15T19:06:38.986Z'
-version: 711
+date: '2024-12-18T15:56:07.231Z'
+version: 719
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
@@ -171,6 +171,10 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% /only %}}
 
-### Generative AI
+{{% only sys="eh" %}}
 
-{{< youtube __R9twSkS2A >}}
+### AI Medical Assistant, Ozwell
+
+{{< youtube kZ7WFAE1AN4 >}}
+
+{{% /only %}}
