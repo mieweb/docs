@@ -1,13 +1,11 @@
 ---
 id: '1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts'
 title: 'Copy of Chart PUR Import Options'
-date: '2022-03-23T13:45:45.164Z'
-version: 21
-lastAuthor: 'kbarton'
+date: '2024-12-18T14:04:31.929Z'
+version: 28
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestPUR_A.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestPUR_B.csv'
   - '../../functions/system-administration/data-migration/chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
@@ -40,8 +38,6 @@ For user patient records, the default options are REVISE and DELETE_BLANK..
 The following scenario provides examples of each type of processing possible for PUR import.
 
 ### Initial Data
-
-We will start with the contents of [File:GenericImportTestPUR A.csv](https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestPUR_A.csv).
 
 @patient_mrns.MR,patients.first_name,patients.last_name,patients.birth_date,patients.username,@pur.Supervisor.id,@pur.Supervisor.id_type,@pur.Administrative Assistant.id,@pur.Administrative Assistant.id_type,users.universal_id
 
@@ -77,8 +73,6 @@ After this file is loaded:
     ![](../copy-of-chart-pur-import-options.assets/5398c38fd1685657853f78a41c301520.png)
 
 ### Import Updated Data
-
-The data will be changed by importing another file [File:GenericImportTestPUR B.csv](https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestPUR_B.csv).
 
 @patient_mrns.MR,patients.first_name,patients.last_name,patients.birth_date,patients.username,@pur.Supervisor.id,@pur.Supervisor.id_type,DELETE_THEN_INSERT @pur.Administrative Assistant.1.id,@pur.Administrative Assistant.1.id_type,INSERT IGNORE_BLANK @pur.Administrative Assistant.2.id,@pur.Administrative Assistant.2.id_type,users.universal_id
 
