@@ -1,18 +1,17 @@
 ---
 id: '1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
 title: 'Appointments Import'
-date: '2020-02-27T20:45:50.310Z'
-version: 20
+date: '2024-12-18T14:43:33.153Z'
+version: 28
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample1.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Schedulesample2.csv'
+links: []
 source: 'https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 This wiki page is to document how appointment data needs to be constructed in order to import using WebChart's Schedule Import Tool.
 
-* File format: Data file shall be formated in Comma Separated Values (CSV).
+* File format: Data file shall be formatted in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
 * Each subsequent row shall represent an appointment.
 
@@ -163,11 +162,3 @@ The appointment column definition shall contain all columns listed below regardl
 <td>Field for the phone number of contact who called in the appointment</td>
 </tr>
 </table>
-
-## Sample CSV files
-
-Here are sample CSV files to download and view in a text editor or a spreadsheet program.
-
-1 Basic appointment - [File:Schedulesample1.csv](https://miewiki.med-web.com/wiki/index.php/File:Schedulesample1.csv)
-
-1 Mulitple appointments - [File:Schedulesample2.csv](https://miewiki.med-web.com/wiki/index.php/File:Schedulesample2.csv)
