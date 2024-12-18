@@ -1,16 +1,14 @@
 ---
 id: '1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
 title: 'Chart Relations CSV API'
-date: '2020-02-28T15:25:48.497Z'
-version: 49
-lastAuthor: 'aquandt'
+date: '2024-12-18T14:27:35.739Z'
+version: 56
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'data-import-overview.md'
-  - 'data-import-standards.md'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex1.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex2.csv'
-  - 'data-import-master-list.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -26,17 +24,15 @@ The Chart Relations CSV API is used to import various relationships between char
 
 A **chart** is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient. A chart can represent a person, organization, or other entity. Chart-to-chart relationships are used by {{% system-name %}} systems to connect a patient (employee) to another patient (employee), patient population (employee group), or non-employees.
 
-A **relation type** is used to define the type of connection between two charts. See the [Relation Types section](#relation-types-section) for more information. CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the  {{% sys-name %}} system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
+A **relation type** is used to define the type of connection between two charts. CSV refers to the type of file and format of data needed to import information into the {{% sys-name %}} system. API refers to how the data interacts with the  {{% sys-name %}} system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
 ## Specifications
 
 The following detailed specifications are available for the Chart Relations CSV API:
 
-* [User instructions for importing data](#user-instructions-for-importing-data).
-
 ### Column Definitions and Specific Coded Values
 
-Definitions for the columns utilized in the specification information below. Commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
+Definitions for the columns utilized in the specification information below. Commonly used specific coded values appear on the [Data Import Standards](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/) page.
 
 High Level: Patient 2 is related to Patient 1 with Relation Type.
 
@@ -183,8 +179,6 @@ MIE,10019,MIE,10006,20
 ```
 {{% /pre %}}
 
-[Example file 1](https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex1.csv)
-
 Adding multiple relations between patients:
 
 {{% pre %}}
@@ -199,8 +193,6 @@ CCHIT,41205325,MIE,10019,8
 ```
 {{% /pre %}}
 
-[Example file 2](https://miewiki.med-web.com/wiki/index.php/File:Chart_rel_ex2.csv)
-
 ## Related Pages
 
-[Data Import Master List](data-import-master-list.md)
+[Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
