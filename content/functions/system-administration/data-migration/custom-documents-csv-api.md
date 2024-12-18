@@ -1,15 +1,11 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2024-05-21T18:37:24.446Z'
-version: 87
-lastAuthor: 'janderson'
+date: '2024-12-18T15:28:14.803Z'
+version: 93
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://miewiki.med-web.com/wiki/images/3/32/Storage_Type_13.txt'
-  - 'https://miewiki.med-web.com/wiki/images/a/ad/Lab_Request_supplemental_layout.pdf'
-  - 'https://miewiki.med-web.com/wiki/images/6/69/Storage_Type_Header_13.txt'
-  - 'https://miewiki.med-web.com/wiki/images/c/c3/Storage_type_1001_example.pdf'
+links: []
 source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -213,16 +209,6 @@ SELECT * FROM storage_types;
 These documents will only be rendered with a header if a custom header layout is created with module=Storage Type Header and name is the same as the storage type layout. Additionally, these layouts will override the default rendering for all documents in the system with that storage type.
 {{% /info %}}
 
-### Example Files
-
-Example files are not fully functional copies of the default document rendering.
-
-[Lab Request custom layout](https://miewiki.med-web.com/wiki/images/3/32/Storage_Type_13.txt) (module=Storage Type, name=13)
-
-[Lab Request supplemental layout](https://miewiki.med-web.com/wiki/images/a/ad/Lab_Request_supplemental_layout.pdf) (module=wcquery, name=13 display)
-
-[Lab Request custom header layout](https://miewiki.med-web.com/wiki/images/6/69/Storage_Type_Header_13.txt) (module=Storage Type Header, name=13)
-
 ## Custom Storage Types
 
 Storage types >= 1001 can be added to create a custom document rendered with a layout.
@@ -258,7 +244,3 @@ You can also perform a manual insert into the documents table.
 {{% info %}}
 These documents will only be rendered with a header if a custom header layout is created with module=Storage Type Header and name is the same as the storage type layout.
 {{% /info %}}
-
-### Example Files
-
-[Custom Storage type example](https://miewiki.med-web.com/wiki/images/c/c3/Storage_type_1001_example.pdf)
