@@ -1,14 +1,14 @@
 ---
 id: '1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
 title: 'PFT Data CSV API'
-date: '2020-03-17T15:18:25.223Z'
-version: 37
-lastAuthor: ''
+date: '2024-12-18T13:40:45.080Z'
+version: 43
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/Import_Overview'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit?usp=sharing'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
   - 'https://www.lucidchart.com/documents/view/4962ac3b-8b0e-46a1-9c2b-549ef7ea93c7'
   - 'https://docs.google.com/spreadsheets/u/1/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub'
   - 'https://docs.google.com/spreadsheets/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub?output=csv'
@@ -26,7 +26,7 @@ The abstract that follows should be presented to decision-makers or stakeholders
 
 PFT data is stored for individual employees, along with information on the employee's height and weight to compare to predicted results. The PFT Data CSV API imports data related to spirometry.
 
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://miewiki.med-web.com/wiki/index.php/Import_Overview) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
 ## Workflow Considerations
 
@@ -52,7 +52,7 @@ Additionally, user instructions are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/) page.
 
 ### Field Requirements
 
