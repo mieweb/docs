@@ -1,18 +1,14 @@
 ---
 id: '1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
 title: 'Lab Result CSV API'
-date: '2020-02-27T21:28:38.594Z'
-version: 34
-lastAuthor: 'aquandt'
+date: '2024-12-18T14:10:29.222Z'
+version: 40
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
   - 'https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample2.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample3.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample4.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Labimportsample5.csv'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
@@ -39,20 +35,10 @@ The following detailed specifications are available for the Lab Result CSV API:
 
 * [Lab Result CSV API specifications](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
     * Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
-    * [User instructions for importing data](#user-instructions-for-importing-data).
 
 ### Column Definitions and Specific Coded Values
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards) page.
-
-## Examples
-
-The following examples are available in CSV format:
-
-* 1 Lab with 1 result - [File:Labimportsample2.csv](https://miewiki.med-web.com/wiki/index.php/File:Labimportsample2.csv)
-* 1 Lab with 2 results - [File:Labimportsample3.csv](https://miewiki.med-web.com/wiki/index.php/File:Labimportsample3.csv)
-* 2 Labs with 2 results each - [File:Labimportsample4.csv](https://miewiki.med-web.com/wiki/index.php/File:Labimportsample4.csv)
-* 3 Labs with 2 results each - [File:Labimportsample5.csv](https://miewiki.med-web.com/wiki/index.php/File:Labimportsample5.csv)
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/) page.
 
 ## Related Pages
 
