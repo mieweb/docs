@@ -1,16 +1,16 @@
 ---
 id: '1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
 title: 'Summary Documents CSV API'
-date: '2020-03-17T15:37:53.190Z'
-version: 65
-lastAuthor: ''
+date: '2024-12-18T14:40:42.804Z'
+version: 71
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/Import_Overview'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1Z2HbO8vuW4wiId1PS_Fk39xGbDJC5el-xBmBvvnLzNY/edit?usp=sharing'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -30,7 +30,7 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 * A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
 * <strong>Free text</strong> refers to text that is entered free-form into a system and is not subject to any type of formatting or standards.
 
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://miewiki.med-web.com/wiki/index.php/Import_Overview) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
 #### Screenshots
 
@@ -68,7 +68,7 @@ Summary documents can be used to store any type of information relatively quickl
 
 #### Disadvantages of Summary Documents
 
-The data in the body of a summary documents is not discrete. Only information in the document header (*Chart ID* (documents.pat_id), *Service Date* (documents.service_date), *Location* (documents.location), etc.) is stored as discrete data. The contents of the document body is not stored discretely and may not be searched or reported in EH.
+The data in the body of a summary document is not discrete. Only information in the document header (*Chart ID* (documents.pat_id), *Service Date* (documents.service_date), *Location* (documents.location), etc.) is stored as discrete data. The contents of the document body is not stored discretely and may not be searched or reported in EH.
 
 Additionally, only text may be stored by this API. While documents in EH may be anything from images, PDFs, Word and Excel documents, or many other storage types, this API is only for structured text documents stored as HTML.
 
@@ -80,9 +80,9 @@ The prior section on Disadvantages of Summary Documents gives an overview of the
 * <em>External ID</em> (documents.ext_doc_id) and <em>Interface</em>: The interface name entered at the time of data import as well as the <em>External ID</em>(documents.ext_doc_id) (typically the autoincrementing or unique key from the source database or spreadsheet) is stored discretely, although it cannot be viewed from the front end of EH.
 * <em>Author (Originator) ID</em> (documents.origin_id) and <em>Entering User ID</em> (documents.user_id): Both the creator of the content and the one who enters the data are stored discretely.
 * <em>Service Date</em> (documents.service_date), <em>Origin Date</em> (documents.origin_date, and <em>Enter Date</em> (documents.enter_date) : These dates are all stored discretely for each document.
-* <em>Location</em> (documents.location): The service location may be used to specify either a clinic location or the system from which the data came (EG: Medgate, OHM, and so on). If a clinical or service location readily available to map to a location in EH, that is typically preferred.
+* <em>Location</em> (documents.location): The service location may be used to specify either a clinic location or the system from which the data came (EG: Medgate, OHM, and so on). If a clinical or service location is readily available to map to a location in EH, that is typically preferred.
 * <em>Document Type</em> (documents.doc_type): The document type classifies the contents of a document. This helps to quickly understand at a glance what kind of data may be found in the document. Additionally, classifying documents with document types creates the ability to search for and report on documents in the system. Examples of document types include insurance cards, patient photos, nurse notes, and so on.
-* <em>Document Title</em> (documents_txt.subject): The title or subject of the document is short text field that is unindexed in the database, but it is stored separately from the body of the document. It is used for quick reference to specify the contents of the document from an EH list without actually opening the document. Thus, it is included as key piece of discrete data to quickly provide a preview of the document.
+* <em>Document Title</em> (documents_txt.subject): The title or subject of the document is short text field that is unindexed in the database, but it is stored separately from the body of the document. It is used for quick reference to specify the contents of the document from an EH list without actually opening the document. Thus, it is included as a key piece of discrete data to quickly provide a preview of the document.
 
 The CSV Summary Document headers *Section Header* (section_header), *Name Value Pair* (name_value.NAME), *Narrative* (narrative), and *Narrative with Prefix* (narrative.PREFIX) are all used to build content for the body of the document. Any data included in the CSV under these headers is not discrete, searchable, or reportable.
 
@@ -138,7 +138,7 @@ Additionally, user instructions are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://miewiki.med-web.com/wiki/index.php/Data_Import_Standards) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/) page.
 
 ### Field Requirements
 
@@ -196,4 +196,4 @@ Unless otherwise specified, validation between the previous system and the new E
 
 ## Related Pages
 
-* [Data Import Master List](https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List)
+* [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
