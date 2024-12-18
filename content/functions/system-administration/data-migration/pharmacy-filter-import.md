@@ -1,12 +1,11 @@
 ---
 id: '1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
 title: 'Pharmacy Filter Import'
-date: '2020-02-27T21:30:59.551Z'
-version: 21
-lastAuthor: 'aquandt'
+date: '2024-12-18T13:47:26.784Z'
+version: 26
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Pharmacy_Filter_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
@@ -17,7 +16,7 @@ The purpose of this page is to define data and fields that may be imported into 
 
 ## Specifications
 
-### Quick Reference Specificiations
+### Quick Reference Specifications
 
 * File format: Data files shall be formatted in Comma Separated Values (CSV)
 * The first row of the file shall contain column header information.
@@ -101,10 +100,6 @@ FilterWithBoth,1234212, 1251254150
 
 ```
 {{% /pre %}}
-
-## Sampe CSV Files
-
-[File:Pharmacy Filter Example.csv](https://miewiki.med-web.com/wiki/index.php/File:Pharmacy_Filter_Example.csv)
 
 ## Related Pages
 
