@@ -1,19 +1,17 @@
 ---
 id: '1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
 title: 'Observation Import'
-date: '2020-02-27T20:46:16.207Z'
-version: 27
+date: '2024-12-18T14:18:07.429Z'
+version: 33
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample1.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv'
+links: []
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
 This wiki page is to document how observation data needs to be constructed in order to import using WebChart's Observation data Import Tool.
 
-* File format: Data file shall be formated in Comma Separated Values (CSV).
+* File format: Data file shall be formatted in Comma Separated Values (CSV).
 * The first row of the file shall contain column header information.
 * Each subsequent row shall represent an observation.
 
@@ -237,13 +235,3 @@ Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Test results are good,Labcorp
 ```
 {{% /pre %}}
-
-## Sample CSV files
-
-Here are sample CSV files to download and view in a text editor or a spreadsheet program.
-
-1 Observation - [File:Obsimportsample1.csv](https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample1.csv)
-
-2 Observations, same patient - [File:Obsimportsample2.csv](https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample2.csv)
-
-2 Observations for 2 different patients - [File:Obsimportsample3.csv](https://miewiki.med-web.com/wiki/index.php/File:Obsimportsample3.csv)
