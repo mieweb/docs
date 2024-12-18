@@ -1,19 +1,18 @@
 ---
 id: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
 title: 'Injections CSV API'
-date: '2020-03-17T15:04:17.378Z'
-version: 50
-lastAuthor: ''
+date: '2024-12-18T14:14:07.179Z'
+version: 56
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'data-import-overview.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
   - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit?usp=sharing'
-  - 'data-import-standards.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
   - 'http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx'
-  - 'https://miewiki.med-web.com/wiki/index.php/Injections_CSV_API'
   - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true'
   - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -31,9 +30,9 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 
 * A <strong>chart</strong> is an employee's (patient's) electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual. Audio tests are linked to a chart through a document.
 * A <strong>document</strong> in EH is a way of storing non-discrete information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
-* An <strong>encounter</strong> documents a visit with a employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
+* An <strong>encounter</strong> documents a visit with an employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
 
-CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
+CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
 ### Screenshots
 
@@ -61,7 +60,7 @@ Additionally, user instructions are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 
-Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](data-import-standards.md) page.
+Definitions for the columns utilized in the specification, as well as commonly used specific coded values appear on the [Data Import Standards](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/) page.
 
 #### CDC Injection Codes
 
@@ -246,7 +245,7 @@ The following fields are required:
 
 The following fields are optional, but provide useful details for record keeping purposes:
 
-* <em>CDC Injection Code</em> (injections.inject_code) documents the CDC Immunization Information Systems CVX Codes. See [CDC Injection Codes](https://miewiki.med-web.com/wiki/index.php/Injections_CSV_API#CDC_Injection_Codes%7C).
+* <em>CDC Injection Code</em> (injections.inject_code) documents the CDC Immunization Information Systems CVX Codes.
 
 **Optional fields**
 
@@ -270,4 +269,4 @@ Unless otherwise specified, validation between the previous system and the new E
 
 ## Related Pages
 
-* [Data Import Master List](https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List)
+* [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
