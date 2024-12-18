@@ -1,8 +1,8 @@
 ---
 id: '1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
 title: 'PFT Data CSV API'
-date: '2024-12-18T13:40:45.080Z'
-version: 43
+date: '2024-12-18T15:29:22.518Z'
+version: 52
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://www.lucidchart.com/documents/view/4962ac3b-8b0e-46a1-9c2b-549ef7ea93c7'
   - 'https://docs.google.com/spreadsheets/u/1/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub'
   - 'https://docs.google.com/spreadsheets/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub?output=csv'
-  - 'https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -89,4 +89,4 @@ The following examples are available:
 
 ## Related Pages
 
-* [Data Import Master List](https://miewiki.med-web.com/wiki/index.php/Data_Import_Master_List)
+* [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
