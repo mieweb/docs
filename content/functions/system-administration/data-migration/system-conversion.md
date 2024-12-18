@@ -1,16 +1,16 @@
 ---
 id: '12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
 title: 'System Conversion'
-date: '2020-02-27T21:31:21.718Z'
-version: 69
-lastAuthor: 'aquandt'
+date: '2024-12-18T14:52:40.243Z'
+version: 80
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
-  - 'data-migration-file-format-standard.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/'
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion'
   - 'https://docs.python.org/2/library/datetime.html'
   - 'https://docs.python.org/2/library/string.html'
-  - 'data-migration-overview.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/'
 source: 'https://drive.google.com/open?id=12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
@@ -25,16 +25,16 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 
 There are a few stages involved in the conversion:
 
-1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](data-migration-file-format-standard.md) <strong><em>(see this page for data file requirements).</em></strong>'
-2. Legacy Data is loaded to development MySQL database using MIE's pysqlimport tool.
+1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/) <strong><em>(see this page for data file requirements).</em></strong>'
+2. Legacy Data is loaded to the development MySQL database using MIE's pysqlimport tool.
 3. Generate <em>Data Mapping Spreadsheet</em> (Google Spreadsheet exportable to Excel/CSV for client use).
 4. Perform data mapping and define WebChart components.
 5. Define metadata for WebChart components.
 6. Export data mapping and convert data using MIE's legacy data conversion tool.
 
-This guide focuses on the Data Mapping Spreadsheet and how to define components to create in WebChart.
+This guide focuses on the Data Mapping Spreadsheet and how to define components to create in WebChart. The Data Mapping Spreadsheet is a Google Spreadsheet generated from the legacy database.
 
-The Data Mapping Spreadsheet is a Google Spreadsheet generated from the legacy database. The following worksheets appear in the spreadsheet:
+The following worksheets appear in the spreadsheet:
 
 1. Data Mapping: a full list of every table and every field along with details about the data type, contents, and usage. The Data Mapping worksheet contains columns for mapping legacy fields to WebChart components and defining discrete data.
 2. Module Summary: used in conjunction with Data Mapping to define various metadata for the summary documents and discrete components. Examples of metadata include patient ID, user ID, doc type, location, and many other pieces of data that would apply to all of the items in a summary document or discrete component.
@@ -143,7 +143,7 @@ The following table **encounters** is used for the Encounter example.
 Notice:
 
 1. The <strong>Data Mapping</strong> tab is selected.
-2. The table <strong>encounters</strong> and it's columns have been located.
+2. The table <strong>encounters</strong> and its columns have been located.
 3. <strong>Sample Encounter</strong> has been entered for the <strong>Module</strong> column for each row of the table.
 
 Based on the *Encounter Options* listed above, determine the mapping to legacy columns and complete the column **Encounter Options**.
@@ -194,7 +194,7 @@ The newly generated Encounters:
 
 ### Summary Documents
 
-A Document is defined as a piece of electronic matter that that serves as an official record in WebChart. A Document has a "document ID" and has the following properties:
+A Document is defined as a piece of electronic matter that serves as an official record in WebChart. A Document has a "document ID" and has the following properties:
 
 * Persistence
 * Stewardship
@@ -218,7 +218,7 @@ Data Mapping:
     * KeyValue: Displays the description and database value in 2 columns.
     * KeyDate: Same as KeyValue except this is for dates. This is planned to be merged into KeyValue.
     * Narrative: An extended area at the bottom of the document suitable for displaying extended text entries such as paragraphs. All fields specified will be combined into this area.
-* Column I, Element Format: Display this field in a custom format. KeyDates accept formats like "%Y/%m/%d"[[1]](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-0), while KeyValues accept formats like "Hello {0}, {1}!"[[2]](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-1). String formatting uses an index (starting at 0) to refer to the Legacy Columns. 0 is the first, 1 is the second, and so on.
+* Column I, Element Format: Display this field in a custom format. KeyDates accept formats like "%Y/%m/%d"[[1]](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-0), while KeyValues accept formats like "Hello {0}, {1}!". String formatting uses an index (starting at 0) to refer to the Legacy Columns. 0 is the first, 1 is the second, and so on.
 
 Module Summary:
 
@@ -305,9 +305,7 @@ An observation in WebChart is a means of storing repeated historic data, such as
 
 The observations table stores discreet data related to an observation code (obs_code). The data defines where an observation appears in a WebChart system by relating the observation code to a patient (pat_id), the user who entered the observation (observer_id), when it was recorded (observed_datetime) and when it was revised (revision_number). Details in the observations table can override details stored on the observation_codes table, such as range, name, and units (obs_range, obs_name, obs_units).
 
-Observations are linked to users through the user ID (user_id). The users table stores information on providers and WebChart users.
-
-The translate table is used throughout WebChart for translations of all kinds, but is used specifically with observations to map an interface's own observation code to an obs_code in WebChart.
+Observations are linked to users through the user ID (user_id). The users table stores information on providers and users. The translate table is used throughout WebChart for translations of all kinds, but is used specifically with observations to map an interface's own observation code to an obs_code.
 
 Multiple observations can be created for a single module. Each observation is a module **component**, and uses the **handle**, **obs_name**, or **obs_code** to match the Data Mapping to Module Summary.
 
@@ -730,5 +728,5 @@ The newly generated Audiograms:
 
 ## Related Pages
 
-* [Data Migration Overview](data-migration-overview.md)
-* [Data Requirements](data-migration-file-format-standard.md)
+* [Data Migration Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/)
+* [Data Requirements](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/)
