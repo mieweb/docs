@@ -1,9 +1,9 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2024-08-07T14:52:15.863Z'
-version: 385
-lastAuthor: 'auhrick'
+date: '2024-12-20T14:13:55.992Z'
+version: 398
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
@@ -270,3 +270,7 @@ This scheduled job automatically generates a case when an injury report is creat
 ### Auto Generation of Case (Step 2 of 2)
 
 This scheduled job adds a case number to the incidents reported from the portal. This is step 2 of a 2 step process. The standard recurrence is every 5 minutes. The system report that is utilized is "AddCasePerform_Verify".
+
+### cgi_datasend
+
+This scheduled job is used for auto fax routes previously held by datasend. This scheduled job can also be used to automatically print routes to network printers. This job should be enabled instead of datasend if the client only needs auto routed faxing. When this job is turned on, enable print and enable fax settings should be turned on.
