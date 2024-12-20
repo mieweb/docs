@@ -1,8 +1,8 @@
 ---
 id: '13jOk33Y1SJkreIkd5pt3QzR7QY28FQvZOcLsMSPA1MM'
 title: 'Observations Report'
-date: '2024-12-20T17:31:27.668Z'
-version: 83
+date: '2024-12-20T17:38:01.647Z'
+version: 86
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -15,17 +15,19 @@ You must have security role access to the Reports module/tab. This setting is in
 
 Click the Reports tab on the left sidebar menu.
 
-Find and click Patient Observations link/tab to view report search fields.
+Find the Patient Observations listed report, or from the Visits grouping of reports, find the Patient Observations report.
+
+The Patient Observations report allows one to search (within a date range) for specific observation(s) needed (discrete observation data stored on a chart).
 
 You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.
 
-This is a report that you can run to show anything stored as an observation (or encounter data if stored as an observations), vitals, etc. for all patients.
+This is a report that you can run to show anything stored as an observation (or encounter data if stored as an observation), vitals, etc. for charts.
 
 ![](../observations-report.assets/f24a16fdc79bac537446190b0ae512e3.png)
 
 * <strong>Start Date:</strong> This is a required field. You must enter a start date.
 * <strong>End Date:</strong> This is a required field. You must have an end date.
-* <strong>Observation:</strong> This is a required field. You must enter one observation for the report to run. Type in the first part of the observation you are searching to show results for. The system will attempt to auto-complete and give you a selection of choices. Click on your choice and it will save it in the list. Continue to type and select another observation to add to the search criteria report you want to run.
+* <strong>Observation:</strong> This is a required field. You must enter one observation for the report to run. Observation field is a Begins With search.  Type in the beginning name of the observation you are searching to show results for. The system will attempt to auto-complete and give you a selection of choices. Click on your choice and it will save it in the list. Continue to type and select another observation to add to the search criteria report you want to run.
 
 ![](../observations-report.assets/6dafaca80251f66cedc1420e8d2d79c3.png)
 
@@ -54,6 +56,6 @@ You can click the Show CSV link and download your search results into an excel s
 
 ## Patient Observations - DataVis Report
 
-The Patient Observations-DataVis report is an additional report that mimics the other Patient Observations report, yet provides additional filter fields and provides an output in DataVis format with added columns of data.
+The Patient Observations-DataVis report is an additional separate report that mimics the other Patient Observations report, yet provides additional search filter fields and provides an output in DataVis format with added columns of data.
 
 ![](../observations-report.assets/7ee1267958ef2cb478ace237fffef9f0.png)
