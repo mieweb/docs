@@ -2,7 +2,7 @@
 id: '1gXrYqsyf8lkyLuE_pXufo_bnzKWMskhOJ8i4Gqm-kX4'
 title: 'RWT Results 2024 Q3'
 date: '2024-10-24T18:15:55.809Z'
-version: 69
+version: 70
 lastAuthor: 'pepperson'
 mimeType: 'text/x-markdown'
 links:

@@ -1,8 +1,8 @@
 ---
 id: '1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
 title: 'Summary Documents CSV API'
-date: '2024-12-18T14:40:42.804Z'
-version: 71
+date: '2024-12-18T14:42:26.558Z'
+version: 73
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:

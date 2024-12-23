@@ -1,8 +1,8 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
-date: '2024-12-18T13:51:58.344Z'
-version: 173
+date: '2024-12-18T13:53:26.918Z'
+version: 176
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:

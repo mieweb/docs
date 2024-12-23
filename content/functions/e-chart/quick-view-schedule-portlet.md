@@ -1,8 +1,8 @@
 ---
 id: '1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
 title: 'Quick View - Schedule Portlet'
-date: '2024-12-16T19:49:40.164Z'
-version: 38
+date: '2024-12-16T19:50:40.950Z'
+version: 41
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
