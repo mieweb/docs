@@ -2,7 +2,7 @@
 id: '1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
 title: 'Device Interface - EKG System'
 date: '2020-02-27T20:28:15.111Z'
-version: 47
+version: 49
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'

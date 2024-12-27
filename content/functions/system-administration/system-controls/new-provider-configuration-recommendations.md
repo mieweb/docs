@@ -2,7 +2,7 @@
 id: '1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 title: 'New Provider Configuration Recommendations'
 date: '2024-07-17T12:49:17.998Z'
-version: 1211
+version: 1214
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
