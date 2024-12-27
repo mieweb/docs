@@ -1,8 +1,8 @@
 ---
 id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 title: 'Adding Restrictions'
-date: '2024-12-27T17:01:33.403Z'
-version: 319
+date: '2024-12-27T17:01:35.477Z'
+version: 323
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
