@@ -1,8 +1,8 @@
 ---
 id: '11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
 title: 'Injection Tab - Vials'
-date: '2024-12-16T20:34:13.187Z'
-version: 188
+date: '2024-12-23T16:08:04.489Z'
+version: 194
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -96,7 +96,7 @@ For example:
 ![](../injection-tab-vials.assets/a3c6a64469f4e066f8ce531a0d8b538b.png)
 
 * <strong>Expiration Date:</strong> can key in the expiration date of the vial.  Once that date has passed, then the Vial will automatically become expired and be visible in the Show Expired/Ended toggle view.
-* <strong>Start Date:</strong> can key in the start date of when injections are to being to be administered from the vial
+* <strong>Start Date:</strong> can key in the start date of when injections are to begin to be administered from the vial
 * <strong>End Date:</strong> can key in an end date of when injections are to stop being administered from the vial.  Once that date has passed, then the Vial will automatically become ended and be visible in the Show Expired/Ended toggle view.
 
 Click the ADD button when done entering the vial(s) you wish. After you enter vial(s), you will be taken back to the immunization/injection summary screen. You will see the summary list of immunizations, injections & vials. You can now add an injection(s) towards the vial(s) you entered.

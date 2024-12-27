@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2024-12-13T14:26:35.188Z'
-version: 287
-lastAuthor: 'mpierzchala'
+date: '2024-12-16T14:17:45.237Z'
+version: 335
+lastAuthor: 'djiamjirarat'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
@@ -19,7 +19,6 @@ links:
   - 'https://www.healthit.gov/sites/default/files/ccds_reference_document_v1_1.pdf'
   - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf'
   - 'https://www.healthit.gov/sites/default/files/170_315g9_application_access_all_data_request_v1_1_1.pdf'
-  - 'http://system/?f=layout&module=JS&name=API_DOC&tabmodule=admin&tabselect=API'
   - 'https://www.mieweb.com/wiki/MIE_File_Import'
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
@@ -30,7 +29,7 @@ wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 
 ## Introduction
 
-With {{% system-name %}}, you can enhance and configure the system to support a wide range of workflows and processes. This includes migrating valuable data from legacy applications, seamlessly integrating with HR systems, email platforms, laboratories, and medical devices, and facilitating secure data sharing across the solution. {{% system-name %}} also provides robust capabilities for aggregating data from multiple sources without encountering barriers.
+With {{% system-name %}}, System Administrators can enhance and configure the system to support a wide range of workflows and processes. This includes migrating valuable data from legacy applications, seamlessly integrating with HR systems, email platforms, laboratories, and medical devices, and facilitating secure data sharing across the solution. {{% system-name %}} also provides robust capabilities for aggregating data from multiple sources without encountering barriers.
 
 This document outlines the framework that underpins these capabilities.
 
@@ -38,13 +37,11 @@ The core API utilizes a REST architecture, supporting both GET and POST methods 
 
 Explore the {{% system-name %}} API, below.
 
-Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel for full visibility of the various objects and their APIs.
+Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel or use the Search tool located in the upper right hand corner of the application for full visibility of the various objects and their APIs.
 
-![](../application-programming-interface-api.assets/c7fcc9233c661a5ffbb1993390ea5402.png)
+![](../application-programming-interface-api.assets/8657b05072273ffb0c081e0e54e89de7.png)
 
-Then you can explore each object type and then click on the Object to experiment with the javascript api.  There is a 
-![](../application-programming-interface-api.assets/e024cc60081a12d06ddf1c7fb045940c.png)
-button at the lower right that allows you to experiment in real time.
+System Administrators can explore each object type and then click on the Object to experiment with the javascript api.  The **>_Run Code** button on the lower right allows System Administrators to experiment in real time.
 
 ![](../application-programming-interface-api.assets/b0c6b56c82c6a95ebba7c679f5cf7ab3.png)
 
@@ -60,7 +57,7 @@ Meteor: https://github.com/mieweb/mieapi-meteor
 
 ### Python API
 
-example in python: [wcjson.py](https://github.com/mieweb/wcexport/blob/master/wcjson.py)
+Example in python: [wcjson.py](https://github.com/mieweb/wcexport/blob/master/wcjson.py)
 
 ### Example programs
 

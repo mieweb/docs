@@ -1,18 +1,17 @@
 ---
 id: '10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE'
 title: 'Quick View - Due List Portlet'
-date: '2024-06-10T14:45:34.557Z'
-version: 102
-lastAuthor: 'janderson'
+date: '2024-12-16T18:42:02.578Z'
+version: 110
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/'
   - 'https://system/?func=scheduler&s=wait_list'
   - '../scheduling/waiting-list-tab.md'
 source: 'https://drive.google.com/open?id=10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE'
 wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
 ---
-The **Due List portlet** found on the [Quick View](https://system/) page is a grid-like report of any chart with at least one pending due list item. By default, the portlet lists any and all charts and MRNs that have something in a **Pending** status on their **Due List**. There are other columns of information, as well as function buttons at the bottom of the report, to work pending due list items en masse for the system. This grid can be sorted, filtered, and arranged as you prefer, without affecting other users.
+The **Due List portlet** found on the Quick View page is a grid-like report of any chart with at least one pending due list item. By default, the portlet lists any and all charts and MRNs that have something in a **Pending** status on their **Due List**. There are other columns of information, as well as function buttons at the bottom of the report, to work pending due list items en masse for the system. This grid can be sorted, filtered, and arranged as you prefer, without affecting other users.
 
 ![](../quick-view-due-list-portlet.assets/e78263d02bd92f0dccbb0c0d37394bfc.png)
 
