@@ -9,7 +9,7 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - '../../e-sign-electronic-signature/e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 ## Terminated Provider Configuration Recommendations
 

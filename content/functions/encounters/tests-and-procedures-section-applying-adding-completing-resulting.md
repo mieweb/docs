@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 While working in an encounter, you may see the Tests & Procedures section found in the Objective section. This section is a reinvention of our "Due List". The Tests & Procedures section displays items that are "due" so when a patient comes in, and the staff is working in an encounter, the clinician has visibility of those "items" that the patient is due for here in this section. *Note: These same items are also visible from the separate chart tab named Due List.*
 

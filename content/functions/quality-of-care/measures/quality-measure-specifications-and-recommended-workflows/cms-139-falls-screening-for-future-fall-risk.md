@@ -14,7 +14,7 @@ links:
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf'
   - 'https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf'
 source: 'https://drive.google.com/open?id=1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 ## Overview
 

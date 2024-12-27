@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 Incoming File/Fax Queue Set-Up and Documentation
 

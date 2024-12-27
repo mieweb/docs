@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 1. [Find employer organizations](finding-employer-organizations.md).
 2. From the search results, select the <strong>name of the organization</strong> to which to add contacts. The system displays information about the organization.

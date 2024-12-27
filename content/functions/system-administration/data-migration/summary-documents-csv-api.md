@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1Z2HbO8vuW4wiId1PS_Fk39xGbDJC5el-xBmBvvnLzNY/edit?usp=sharing'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create structured text (HTML) summary documents using the Summary Documents CSV API.
 

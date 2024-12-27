@@ -10,7 +10,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:ZSEDNHRK'
 source: 'https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 ## Viewing Your Task & Department Task Alerts
 

@@ -12,7 +12,7 @@ links:
   - 'https://www.hidglobal.com/identrust'
   - 'https://www.deadiversion.usdoj.gov/'
 source: 'https://drive.google.com/open?id=1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 The {{% system-name %}} system is not only certified for electronic prescribing, it reduces even more interruptions in the way of allowing electronic prescribing for controlled substances (EPCS). Here, users will find the EPCS User Guide, which consists of step-by-step instructions on the IdentTrust Certification Registration process, as well as the EPCS Setup in {{% system-name %}} .
 

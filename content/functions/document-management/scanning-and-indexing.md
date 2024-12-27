@@ -6,7 +6,7 @@ version: 23
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pwmW3emkb6f6tktfbMmtsZOKMk1XGa6a8VtvCQz269w'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 The {{% system-name %}} WebScan feature allows users to scan either one page or multiple pages, to index into charts. This feature not only assists in the needs of day-to-day operations, but also streamlines the process of going electronic, eliminating paper charts, and storing all documents digitally.
 

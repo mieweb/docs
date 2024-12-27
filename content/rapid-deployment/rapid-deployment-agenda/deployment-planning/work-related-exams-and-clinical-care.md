@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-work-related-exams.md'
 source: 'https://drive.google.com/open?id=1eOhrb_r3jJ_atpkEE6NOmLYTypoYUCIeQj-39MRVoQ0'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 ## Purpose
 

@@ -9,7 +9,7 @@ links:
   - 'radomni.md'
   - '../../system-administration/data-migration/import-export-json-files.md'
 source: 'https://drive.google.com/open?id=1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 The necessary setup for accessing and utilizing TechOmni is fairly simple and straightforward, requiring just a basic install of a layout that is then viewable as a sidemenu option in the {{% system-name %}} system ( {{% sys-name %}} ). When accessed, the TechOmni form and all open encounters (filtered by the determined criteria) will display.
 

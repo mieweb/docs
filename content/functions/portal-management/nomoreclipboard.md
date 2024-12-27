@@ -6,6 +6,6 @@ version: 18
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1BjF6NXvvzRfQtf-G77s_gu5FwvVtNl2x8RSz4cNIU3g'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 NoMoreClipboard is an online, patient-controlled personal health record (PHR) designed to consolidate medical information in one convenient and secure location. With NoMoreClipboard, practices can quickly and affordably create a branded patient portal, where patients can create a personal health record account, share demographic and clinical information, and send and receive messages, including reminders, electronic copies of health information, and clinical summaries. NoMoreClipboard can integrate with most EMR systems and offers a set of tools and services to integrate electronic transactions into legacy systems. NoMoreClipboard has also demonstrated standards-based interoperability with most major EMR vendors as part of Integrating the Healthcare Enterprise (IHE) events, including the HIMSS Interoperability Showcase.

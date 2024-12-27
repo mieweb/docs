@@ -10,7 +10,7 @@ links:
   - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 With the **Patient Portal**, sometimes used and referred to as an **Employee Portal**, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!
 

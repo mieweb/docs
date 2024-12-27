@@ -13,7 +13,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-wikigdrive: '18b16f57bdd63152bb21ca8c0a880f6721201af5'
+wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create completed order records using the Completed Orders CSV API.
 
