@@ -9,7 +9,7 @@ links:
   - 'un-request-unassign-an-e-signature.md'
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
 source: 'https://drive.google.com/open?id=1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c'
-wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
+wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 E-Sign is used to electronically mark a document by putting the label "Signed by: Michael Example, MD" on a document in {{% system-name %}} within a chart.  This ‘signature label' is called an E-sign (electronic signature).  It's not a wet signature in handwriting, but it is a place in the document properties header that says "Signed by: Michael Example, MD".   It puts the name of the person that reviewed the document and marked it as ‘sign'.
 

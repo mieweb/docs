@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMUN&old_module=Email&old_name=Pat+Immunizations+Due&active=0'
 source: 'https://drive.google.com/open?id=18cyXlgTRUM7ANFk3Ho_NODVuaG2Ml5u3VSIxlflECHI'
-wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
+wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMUN&old_module=Email&old_name=Pat+Immunizations+Due&active=0), as needed.

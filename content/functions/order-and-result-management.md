@@ -6,7 +6,7 @@ version: 25
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=103elDMKyCQlA8uZjycHzAZ90L6BR3FTzxRLYOKrgpo8'
-wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
+wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 {{% system-name %}} provides all the tools necessary for customizing, delivering, resulting, and tracking orders electronically. The {{% system-name %}} system not only allows for order faxing and printing, but can also be configured to submit lab orders, track order statuses, and receive results, all electronically.
 

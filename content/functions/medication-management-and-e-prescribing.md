@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'system-administration/system-controls/setting-up-e-prescribers.md'
 source: 'https://drive.google.com/open?id=1BT9iwpUSk65PGOkXhOqxTjwNvG-JzY6aKqNw1elTkKA'
-wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
+wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 The {{% system-name %}} solution provides a sophisticated yet easy-to-use medication management and electronic prescription capability. The Medication Management & E-Prescribing module streamlines the prescribing and refill process, allowing users to e-prescribe using the fewest possible steps, all while improving overall accuracy and reducing the opportunities for medication errors and adverse drug reactions.
 

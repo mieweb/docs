@@ -10,7 +10,7 @@ links:
   - 'indexing-bubble-forms.md'
   - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
-wikigdrive: '8cb7d1655146bef4a73c283dab1861495e6fce27'
+wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 The WebScan module allows users to scan and index documents into the {{% system-name %}} system, so that document images can be attached to associated charts and be stored, accordingly. Indexing is the process of cataloging documents according to their attributes, such as chart name, provider, document type, date of document, etc. Once documents are scanned and indexed, staff can search for and retrieve documents from electronic charts, rather than having to search a medical file for paper copies. Additionally, there are WebScan reports that can be run by an administrator, or users with proper security permissions, that report statistics on batches scanned and/or indexed.
 
