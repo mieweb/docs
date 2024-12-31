@@ -1,9 +1,9 @@
 ---
 id: '1cVM6kOokD8qoZ7i7IdJY4lVB2RIXhgOoDG1fNBPY5kQ'
 title: 'Injection Tab with CHIRP Interface'
-date: '2024-12-05T18:13:28.969Z'
-version: 150
-lastAuthor: 'auhrick'
+date: '2024-12-31T15:58:10.521Z'
+version: 156
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
@@ -51,7 +51,7 @@ When all updates are completed, click the **SAVE** button to save all updates.
 
 ![](../injection-tab-with-chirp-interface.assets/355f3de457b590a86e7d2c031545f127.png)
 
-For users on RC202403 and newer a new system setting (E-Chart/Chirp/Smoothie on Delete Warning) can be enabled. Simply enter a "warning message" in the Current Value field. When data is entered in the Current Value field, that value/message will display to end users when they attempt to delete an injection from {{% system-name %}} .
+For users on RC202403 and newer a new system setting (E-Chart/Chirp/Smoothie on Delete Warning) can be enabled. Simply enter a "warning message" in the Current Value field. Any text/words typed into the 'value' field (of this system setting) will be displayed to end users as a message when 'delete' from patient record is used on/doing updates on the Injection History query screen.
 
 ![](../injection-tab-with-chirp-interface.assets/8b58023881eea5667b0ced22f6ff149e.png)
 
