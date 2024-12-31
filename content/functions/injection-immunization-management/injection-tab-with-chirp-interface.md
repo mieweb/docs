@@ -12,24 +12,24 @@ wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 ## View Injections/Immunizations Record
 
-Navigate to the **_MAR/Injections_** tab in the patient chart.
+Navigate to the **MAR/Injections** tab in the patient chart.
 
-The **_MAR/Injections_** tab will display the Medication Administration list, Immunizations list, a display only version of the Titer Results flowsheet, Injection Documents list, Vials list, and the Contraindications list.
+The **MAR/Injections** tab will display the Medication Administration list, Immunizations list, a display only version of the Titer Results flowsheet, Injection Documents list, Vials list, and the Contraindications list.
 
 ![](../injection-tab-with-chirp-interface.assets/95793a61ee88cf0d92fc4d8c01172cde.png)
 
-To view any *deleted* immunizations or any other *deleted* injections or vials for the specific patient, click the **_Show Deleted_** link. Active *and* deleted records will display for each category.
+To view any deleted immunizations or any other deleted injections or vials for the specific patient, click the **Show Deleted** link. Active and deleted records will display for each category.
 
 ![](../injection-tab-with-chirp-interface.assets/79607fd94db04ff53ce53eb21f696016.png)
 
 Deleted injection/immunization will have the word **deleted** beneath the name column.
 ![](../injection-tab-with-chirp-interface.assets/ceb04c603c820a94aa313830335e835e.png)
 
-Click *Hide Deleted* link to only display the active injections and immunizations records for the patient.
+Click Hide Deleted link to only display the active injections and immunizations records for the patient.
 
 ## Get Update link for most Bidirectional Immunization Interfaces
 
-The **_Get Updates_** link will query the bidirectional interface for the most up to date results on the selected patient
+The **Get Updates** link will query the bidirectional interface for the most up to date results on the selected patient
 
 ![](../injection-tab-with-chirp-interface.assets/1a97978d40024ca51acdab7b5b864920.png)
 
@@ -45,23 +45,23 @@ Onscreen instructions are provided at the top of the reconciliation screen.
 
 Click the Add buttons to move the immunization in the **Updates** column into {{% system-name %}} **(Patient Record column)**.
 
-Click the *Trashcan icon* on the right side of the **Patient Record** column to DELETE this immunization from {{% system-name %}} .
+Click the Trashcan icon on the right side of the **Patient Record** column to DELETE this immunization from {{% system-name %}} .
 
 When all updates are completed, click the **SAVE** button to save all updates.
 
 ![](../injection-tab-with-chirp-interface.assets/355f3de457b590a86e7d2c031545f127.png)
 
-For users on RC202403 and newer a new system setting (E-Chart/Chirp/Smoothie on Delete Warning) can be enabled. Simply enter a "warning message" in the Current Value field. Any text/words typed into the 'value' field (of this system setting) will be displayed to end users as a message when 'delete' from patient record is used on/doing updates on the Injection History query screen.
+For systems on 03-2024RC and newer a new system setting (E-Chart/Chirp/Smoothie on Delete Warning) can be enabled. Simply enter a "warning message" in the Current Value field. Any text/words typed into the 'value' field (of this system setting) will be displayed to end users as a message when 'delete' from the patient record is used on/doing updates on the Injection History query screen.
 
 ![](../injection-tab-with-chirp-interface.assets/8b58023881eea5667b0ced22f6ff149e.png)
 
 ## The Get Updates Link for CHIRP Immunization Interface
 
-If your system is interfaced bi-directionally with an injection program example: CHIRP *(Children and Hoosiers Immunization Registry Program* in Indiana), users will see a **_Get Updates_** link on the MAR/Injections tab.
+If your system is interfaced bi-directionally with an injection program example: CHIRP (Children and Hoosiers Immunization Registry Program in Indiana), users will see a **Get Updates** link on the MAR/Injections tab.
 
 ![](../injection-tab-with-chirp-interface.assets/1a97978d40024ca51acdab7b5b864920.png)
 
-The **_Get Updates_** link will query the bidirectional interface for the most up to date results on the selected patient.
+The **Get Updates** link will query the bidirectional interface for the most up to date results on the selected patient.
 
 Once the query has been run and no updates are available, a message will display to indicate this.
 
@@ -69,7 +69,7 @@ Once the query has been run and no updates are available, a message will display
 
 If there are updates, you'll either get a list of matching patients or a list of the matched patient's injections to bring into {{% system-name %}} .
 
-If the {{% system-name %}} patient needs to be matched/linked to their CHIRP account, you will see a message stating *This patient has not yet been connected to a CHIRP patient account. Please select a potential match to connect to by clicking the CHIRP MR for the correct account*. At the very right end column is a rating column. The greater the number here in the CHIRP account, the more it matches the {{% system-name %}} patient information. 9 rating (highest rating) means this is the same patient in the CHIRP system as this {{% system-name %}} system. You now need to link/connect them (connect their CHIRP account with their {{% system-name %}} account). If you see a lower rating or multiple patient matches, please verify and make sure you link/connect the correct account to the {{% system-name %}} patient account.
+If the {{% system-name %}} patient needs to be matched/linked to their CHIRP account, you will see a message stating This patient has not yet been connected to a CHIRP patient account. Please select a potential match to connect to by clicking the CHIRP MR for the correct account. At the very right end column is a rating column. The greater the number here in the CHIRP account, the more it matches the {{% system-name %}} patient information. 9 rating (highest rating) means this is the same patient in the CHIRP system as this {{% system-name %}} system. You now need to link/connect them (connect their CHIRP account with their {{% system-name %}} account). If you see a lower rating or multiple patient matches, please verify and make sure you link/connect the correct account to the {{% system-name %}} patient account.
 
 If there are multiple matching CHIRP choices with same name, same DOB, etc we suggest you log into the CHIRP web app and look up the patient's identifier in there. We are displaying the CHIRP MR#, so that would make it easy to pick the right one then in {{% system-name %}} which then links the two. Once you select one in {{% system-name %}} – it will be linked to that patient. So the correct one needs to be selected. If you do select the wrong one, contact your MIE Implementer to have that CHIRP MR# removed and then when you go back to get updates you'll see the choices again to link to the correct one for CHIRP.
 
@@ -85,7 +85,7 @@ Then click GET UPDATES FOR THIS PATIENT button if you wish to proceed to link/co
 
 ![](../injection-tab-with-chirp-interface.assets/5722102f563ac26952bbb4a8c8d3b1fb.png)
 
-Once you click GET UPDATES FOR THIS PATIENT, it will grab any and all injection updates from the CHIRP database. It will show the *Injection Updates* screen. On the left is the CHIRP updates. On the right is the {{% system-name %}} patient record. You then select which injection updates from the left side (CHIRP side) to bring into and store into the patient's {{% system-name %}} record on the right side.
+Once you click GET UPDATES FOR THIS PATIENT, it will grab any and all injection updates from the CHIRP database. It will show the Injection Updates screen. On the left is the CHIRP updates. On the right is the {{% system-name %}} patient record. You then select which injection updates from the left side (CHIRP side) to bring into and store into the patient's {{% system-name %}} record on the right side.
 
 You can select individual injection updates from the left and bring over to the right by clicking the >> arrows next to each injection update. Each injection update from CHIRP shows the name of the injection/immunization and also the date given. Click the >> button next to the specific injection & date to bring over.
 
@@ -103,7 +103,7 @@ Once you've clicked the SAVE button, it will refresh your screen and show a succ
 
 ![](../injection-tab-with-chirp-interface.assets/894dc1a1d49ff78cf076872381ef21b9.png)
 
-If there were not any updates for the specific patient's injection record, you would see a message that *No Updates are Available* and you wouldn't see the >> screen to bring over any updates.
+If there were not any updates for the specific patient's injection record, you would see a message that No Updates are Available and you wouldn't see the >> screen to bring over any updates.
 
 ![](../injection-tab-with-chirp-interface.assets/f1f9c62b3df10e3825ed51ff15a8b206.png)
 
@@ -132,15 +132,15 @@ The Injection screen will appear. The Injection screen has fields to fill out pe
 
 * <strong>Egg allergy alert:</strong> When you select other specific injections or immunizations to record, some specific injections will also look for egg allergies and give you an alert. These injections that look for egg allergies and give a pop-up alert are: MMR, Influenza split (incl.purified surface antigen), Influenza whole, Influenza NOS, Influenza live intranasal, Rabies intramuscular injection, Rabies intradermal injection, Rabies NOS and Yellow Fever.
 * <strong>Contraindications:</strong> This is an optional field that is on by default.  If you wish to have it turned on, you will see a contraindications field you can select from and the rest of the fields minimize for documenting.
-* <strong>Administering Location:</strong> If your practice only has 1 location it will automatically populate this field. If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered. If you have a location selected here, it considers this injection an <em>in-house</em> injection. Meaning, the injection was administered at your location. If a location is selected here, you will be required then to fill out the Manufacturer and Expiration Date fields. These are required fields if a location is specified. If the injection was given elsewhere and you are just documenting the injection for records, select <em>No Location</em> and it will not make those other fields required to fill out.
+* <strong>Administering Location:</strong> If your practice only has 1 location it will automatically populate this field. If your practice has several locations programmed into {{% system-name %}} , use the drop-down arrow to select the correct location of where the injection was administered. If you have a location selected here, it considers this injection an in-house injection. Meaning, the injection was administered at your location. If a location is selected here, you will be required then to fill out the Manufacturer and Expiration Date fields. These are required fields if a location is specified. If the injection was given elsewhere and you are just documenting the injection for records, select No Location and it will not make those other fields required to fill out.
 * <strong>Vial / Lot #:</strong> Enter the vial and/or lot # of the serum.
-* <strong>Manufacturer:</strong> Enter the manufacturer's name if desired. The system will attempt to auto-complete your typing. It will give you choices that match and you can highlight and select if you wish. Otherwise, you can continue to free-type in text. This is a required field if you have chosen a location. If you leave the location field set to <em>No Location</em>, this will not be required.
+* <strong>Manufacturer:</strong> Enter the manufacturer's name if desired. The system will attempt to auto-complete your typing. It will give you choices that match and you can highlight and select if you wish. Otherwise, you can continue to free-type in text. This is a required field if you have chosen a location. If you leave the location field set to No Location, this will not be required.
 * <strong>NDC:</strong> National Drug Code pulls the 10 or 11-digit code that represents the injection.
-* <strong>Expiration Date:</strong> Enter expiration from the vial. This is a required field if you have chosen a location. If you leave the location field set to <em>No Location</em>, this will not be required.
+* <strong>Expiration Date:</strong> Enter expiration from the vial. This is a required field if you have chosen a location. If you leave the location field set to No Location, this will not be required.
 * <strong>Administering Date:</strong> Automatically pops-up today's date and current time. Change date or time to when the injection was given.
 * <strong>Administrator:</strong> The Administrator will default to the logged in user. Use the autocomplete to change the name of the administrator if not the logged in user.
 * <strong>Route:</strong> Select the route of the injection, if you wish, from the drop-down of choices.
-* <strong>Site:</strong> Select the site the injection was given from the drop-down of choices. You can select <em>Other</em> and it will open a free-text field for you to type in. Your MIE Implementer can change a system setting to show all or a limited choice of sites to list.
+* <strong>Site:</strong> Select the site the injection was given from the drop-down of choices. You can select Other and it will open a free-text field for you to type in. Your MIE Implementer can change a system setting to show all or a limited choice of sites to list.
 * <strong>Dose:</strong> Enter the dose of the injection.
 * <strong>Strength:</strong> Enter the strength of the injection.
 * <strong>Series #:</strong> Enter the number of the series for this injection record. Example: Patient is here for 2nd Hepatitis B shot. You would enter a 2 in this field as it is the patient's 2nd shot in the Hepatitis B series.
@@ -177,7 +177,7 @@ In the injection/immunization listing, users will see the VIS information stored
 
 ## Quick Add - Add Multiple Injection Records
 
-From the injections tab, click Quick Add at the top right of the injection screen. Click Quick Add at the top right of the injection screen to add multiple injection records to a patient's chart. Using Quick Add only allows you to quickly add multiple *historical injections*. This is a way to add injections that a patient has previously received. It is not as specific of a record as using Add Injection. Using quick add, you can add 10 injections at a time on the screen.
+From the injections tab, click Quick Add at the top right of the injection screen. Click Quick Add at the top right of the injection screen to add multiple injection records to a patient's chart. Using Quick Add only allows you to quickly add multiple historical injections. This is a way to add injections that a patient has previously received. It is not as specific of a record as using Add Injection. Using quick add, you can add 10 injections at a time on the screen.
 
 ![](../injection-tab-with-chirp-interface.assets/95884680f1f431699ad72be23825d1a0.png)
 
@@ -188,7 +188,7 @@ Use tab key to get to each field.
 {{% /tip %}}
 
 * <strong>Injection:</strong> Type in name of an injection to record for the patient. The system will attempt to auto-complete your typing. It will give you choices that match and you can highlight and select if you wish. Otherwise, you can continue to free-type in text.
-* <strong>Date of Injection:</strong> Type in date injection was given. If you don't know the exact date, leave this blank and use the comment field for example: <em>Received injection in 1995</em>.
+* <strong>Date of Injection:</strong> Type in date injection was given. If you don't know the exact date, leave this blank and use the comment field for example: Received injection in 1995.
 * <strong>Administrator:</strong> Use the drop-down arrow to select the administrator of the injection. This is a pre-loaded selection from a specific department list. MIE can program other users to choose from in this column.
 * <strong>Manufacturer:</strong> Enter the manufacturer's name if desired. The system will attempt to auto-complete your typing. It will give you choices that match and you can highlight and select if you wish. Otherwise, you can continue to free-type in text.
 * <strong>Series #:</strong> Enter the number of the series for this injection record. Example: Patient is here for 2^nd Hepatitis B shot. You would enter a 2 in this field as it is the patient's 2^nd shot in the Hepatitis B series.
