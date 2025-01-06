@@ -1,9 +1,9 @@
 ---
 id: '1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 title: 'Fax Manager Tab - Outbound Faxing'
-date: '2024-10-29T13:47:44.974Z'
-version: 115
-lastAuthor: 'janderson'
+date: '2025-01-06T21:52:04.106Z'
+version: 121
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LEQIDNHR'
@@ -96,6 +96,14 @@ You can have {{% system-name %}} send you an email upon each successful sent fax
 Please make sure you have your email entered in your username screen (a superuser/administrator may need to verify this or add this for you within your practice). You can always view the Fax Manager tab to view failed and successful faxes, but the email notification sends you an email instantly to you when the fax has been sent or has a problem being sent.
 
 Please see other help documentation named *Email Notifications of Sent or Failed Faxes-Outbound Faxing.pdf* for further instructions and help with this feature.
+
+## Fax Manager DataVis
+
+A new My Setting User Preference has been added that allows the Fax Manager to be viewed in DataVis. The setting, *Fax Manager DataVis* is located in the *Experiments* section of My Settings and is disabled by default for all users. Users that wish to participate in *beta testing* of this feature must be on release RC03-2025. Users that assist in beta-testing may enable this feature and work with the Deployment or Support teams to report any issues or enhancement requests.
+
+![](../fax-manager-tab-outbound-faxing.assets/4d7e73ed61211dd0af08d92e79fdd208.png)
+
+![](../fax-manager-tab-outbound-faxing.assets/838ae529948d4c11747c05aa099601b2.png)
 
 ## Learning Management System
 
