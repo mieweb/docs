@@ -1,8 +1,8 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2024-10-29T14:55:07.800Z'
-version: 259
+date: '2025-01-06T13:34:17.850Z'
+version: 272
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -208,6 +208,10 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 <tr>
 <td><strong>[Alt] + L</strong></td>
 <td>Copies all the Index Information fields down to the next line/page. Same functionality as right-clicking on the line/page and choosing the Copy Down One option from the context menu.</td>
+</tr>
+<tr>
+<td><strong>[Shift] + [Ctrl] + F</strong></td>
+<td>The fill blank feature copies down indexing information from one page into the blank pages below it.</td>
 </tr>
 <tr>
 <td><strong>[Ctrl] + [Tab]</strong></td>
