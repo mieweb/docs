@@ -1,9 +1,9 @@
 ---
 id: '1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
 title: 'Partition Manager'
-date: '2024-01-24T15:10:45.727Z'
-version: 177
-lastAuthor: 'squarterman'
+date: '2025-01-06T13:45:09.900Z'
+version: 190
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
@@ -21,7 +21,7 @@ In the Control sidemenu tab is a tab called Partition Manager.
 
 You can add a partition by selecting *Add Partition* link from the top right corner.
 
-![](../partition-manager.assets/bb6b73813f87d3cc1b9dfbfa4780fe3a.png)
+![](../partition-manager.assets/09d97b5a5354b541cd7a82106ef4c16a.png)
 
 It will open to the Partition Add screen:
 
