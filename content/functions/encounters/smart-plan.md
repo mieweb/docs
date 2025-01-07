@@ -1,8 +1,8 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2024-10-21T20:21:43.154Z'
-version: 1107
+date: '2025-01-07T20:34:08.999Z'
+version: 1120
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -276,6 +276,10 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 ![](../smart-plan.assets/07bf890dd8ad909d7adba7c2f72f3712.png)
 
+If an Health Surveillance Panel RE order type/representative event is listed on the Due List, a scales icon will display. Once clicked the panel membership will automatically be evaluated and the panel orders will display on the Due List.
+
+![](../smart-plan.assets/bc147a69d33412259d5b03a84206e797.png)
+
 ## Tests & Procedures Quick List
 
 * This Quick List is used to easily add orders to be performed in Today's Smart Plan.
@@ -315,6 +319,15 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 * This Quick List displays a list of all order items configured in the Quick Visit Order Picklist. (Control->Order-Pick Builder->Quick Visit Orders)
 * See more information in the [Order Picklist online Help Guide](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/#order-picklists).
+* Order items on this list can be quickly added to the encounter to be performed or added to the Due List.
+
+![](../smart-plan.assets/ccd977ba3935bbacc856127a9f75aced.png)
+
+![](../smart-plan.assets/ca1bb4fddd801af3b5c591855fa71e50.png)
+
+* Users may also Add Membership orders and immediately evaluate the order that will then populate the Due List.
+
+![](../smart-plan.assets/53e7206f76f634abdb62e79f9f5e5665.png)
 
 ## Recommendations
 
