@@ -1,8 +1,8 @@
 ---
 id: '14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA'
 title: 'AI Chat Box'
-date: '2024-11-25T19:28:34.496Z'
-version: 171
+date: '2025-01-08T22:13:24.452Z'
+version: 181
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -12,11 +12,9 @@ wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 ## AI Assistant
 
-When the AI Assistant is enabled, Enterprise Health clients will see "Wellby", an octopus icon as their AI assistant. WebChart clients will see the "WebChart AI Assistant" bot as their AI Assistant.
+Meet **Ozwell**, our AI Assistant! When AI is enabled, users will see Ozwell in the AI chatbox.
 
-![](../ai-chat-box.assets/4a592aa2b27faafc5cc0b71419707283.png)
-
-![](../ai-chat-box.assets/4c91b23b8ae8307ae3e47959ffaceddf.png)
+![](../ai-chat-box.assets/833cdb71ae5a61f24187456a730696ef.png)
 
 ## AI Assistant Icon
 
