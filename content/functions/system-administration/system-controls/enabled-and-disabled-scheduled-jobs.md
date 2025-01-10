@@ -1,8 +1,8 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2025-01-10T19:51:31.411Z'
-version: 413
+date: '2025-01-10T20:11:51.604Z'
+version: 426
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -13,13 +13,13 @@ The {{% system-name %}} solution allows for numerous scheduled jobs to be enable
 
 To access the Scheduled Jobs, from the Sidemenu, click on the Control Panel, then Scheduled Jobs.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/14a6f6733d1b6dfe235b3e5f41c3accf.png)
+![](../enabled-and-disabled-scheduled-jobs.assets/fa33bcdef08df5ba3e427eaa29000811.png)
 
 ## Enabled Scheduled Jobs
 
 The standard scheduled jobs are displayed upon initial entry to the Scheduled Job screen.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/42f181c611a3dc51bc1972c6e47c1fb0.png)
+![](../enabled-and-disabled-scheduled-jobs.assets/b97c53813ace0bf6e49b478b6c86d09a.png)
 
 ### Health Surveillance Membership
 
@@ -285,3 +285,24 @@ Sends an instruction email with the portal activation/pickup code to patient cha
 
 * Email Template - The default is "Portal Activation Code Instructions Default"
 * Looking if doc.type PORTACTINS exists already for the generated code
+
+## Status
+
+The Status column will show a colored status circle.
+
+* Green status circle means the scheduled job has run successfully routinely as the recurrence is set to.
+* Orange status circle means the scheduled job has run, but some runs have been unsuccessful as the recurrence is set to.
+* Grey status circle means the scheduled job has not run as of yet.
+* Red status circle means the scheduled job has errored out during every run as the recurrence is set to.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/286a3ac2b49c16b9ebe9efa434d9bdb5.png)
+
+### Status History
+
+Clicking on a colored status circle for the specific scheduled job row, will display a Job History for the past 7 days of that scheduled job's runs.
+
+The Job History lists the specific scheduled job name, and the date/time the scheduled job has run (according to recurrence it's set to), the total duration of how long the scheduled job took (in seconds) and another colored status circle within each listed run, to see which runs the scheduled job may have run successfully, or failed, etc.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/5f6113ec3db119ef62e846b60b0c5723.png)
+
+![](../enabled-and-disabled-scheduled-jobs.assets/19876ab46331bd694894c1a49d156f34.png)
