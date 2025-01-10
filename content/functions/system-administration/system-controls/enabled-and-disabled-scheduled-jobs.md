@@ -1,9 +1,9 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2024-12-20T14:13:55.992Z'
-version: 401
-lastAuthor: 'janderson'
+date: '2025-01-10T19:51:31.411Z'
+version: 413
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
@@ -11,7 +11,7 @@ wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
 The {{% system-name %}} solution allows for numerous scheduled jobs to be enabled. Out of the box there are many already enabled and available to be used. There are also available scheduled jobs that are disabled, by default.
 
-To access the Scheduled Jobs, from the Sidemenu, click on Control Panel, then Scheduled Jobs.
+To access the Scheduled Jobs, from the Sidemenu, click on the Control Panel, then Scheduled Jobs.
 
 ![](../enabled-and-disabled-scheduled-jobs.assets/14a6f6733d1b6dfe235b3e5f41c3accf.png)
 
@@ -274,3 +274,14 @@ This scheduled job adds a case number to the incidents reported from the portal.
 ### cgi_datasend
 
 This scheduled job is used for auto fax routes previously held by datasend. This scheduled job can also be used to automatically print routes to network printers. This job should be enabled instead of datasend if the client only needs auto routed faxing. When this job is turned on, enable print and enable fax settings should be turned on.
+
+### Generate Pickup Activation Codes
+
+Generates a portal activation/pickup code if the patient chart has an employer relationship to a portal that is set up to utilize activation code redemption and the patient chart doesn't fit into the system's emailexclusion (separate system report) criteria.
+
+### Send Pickup Activation Code Email
+
+Sends an instruction email with the portal activation/pickup code to patient charts in a PICKUP partition that have had an activation/pickup code generated and haven't received an instruction email yet.
+
+* Email Template - The default is "Portal Activation Code Instructions Default"
+* Looking if doc.type PORTACTINS exists already for the generated code
