@@ -1,35 +1,41 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2024-12-17T18:51:23.133Z'
-version: 421
+date: '2025-01-14T19:47:37.120Z'
+version: 447
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/'
-  - '../../document-management/scanning-and-indexing/indexing-bubble-forms.md'
-  - '../../document-management/scanning-and-indexing/indexing.md'
   - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
-Within {{% system-name %}}, you may have a chart tab named *Audio Tool* where you can import audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results.
+Within an encounter is where typically an audiogram is entered to document Audiogram test results.
 
-The Audiogram Tool tab is no longer configured by default in favor of using the Visit encounter for manual data entry. Should you want to utilize this chart tab, contact your support representative for assistance. The Audio Tool functionality is the same whether initiated from the Audio Tool chart tab or from within the Visit encounter.
+![](../audio-tool-tab.assets/27b30ac7a1e1c9dbf50cba0964c32ad7.png)
+
+However, your system may have a chart tab named *Audio Tool* where you can document audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results.   The Audiogram functionality is the same whether initiated from within an encounter or from a stand alone Audio Tool chart tab.
+
+NOTE: The Audiogram Tool tab is no longer configured by default in favor of using the Visit encounter for manual data entry. Should you want to utilize this chart tab, contact your support representative for assistance. The Audio Tool functionality is the same whether initiated from the Audio Tool chart tab or from within the Visit encounter.
 
 ![](../audio-tool-tab.assets/511d152edeb215741ae057eec955a369.png)
 
-### Audio Questionnaire
+### Show Questions
 
-Use the toggle button in the upper left hand corner of the Audio tool, to Show/Hide the Audiogram questionnaire. This questionnaire is the minimum set of pre exam questions as required by OSHA, however, additional questions can be configured upon request.
+Use the toggle button within the Audiogram screen to Show/Hide a limited Audiogram questionnaire. This questionnaire is the minimum set of pre exam questions as required by OSHA, however, additional questions can be configured upon request.
 
-![](../audio-tool-tab.assets/0a69052871b1e86df3c4ea1f89a1b421.png)
+![](../audio-tool-tab.assets/3e8cae9b72137c1ac487ac41d89dc160.png)
 
 ![](../audio-tool-tab.assets/71167e3bdcf1b601296eb6b0fd868d35.png)
 
-### Audio Tool Data Entry
+NOTE: typically a separate hearing or noise questionnaire is utilized via the portal or during the visit to capture much more information regarding noise exposures, etc.  Those separate questionnaire(s) can be linked to the encounter, reviewed, and documented with an interpretation.
+
+![](../audio-tool-tab.assets/b6fe83c77b7be9f8b64dfee02490f5bd.png)
+
+### Audio Tool Data Entry Screen
 
 Prior test result data displays on the top portion of the Audio tool. If there aren't any prior audiogram results on file, this box will be empty.
 
@@ -66,13 +72,13 @@ The Asset field will be "remembered" and will pre-populate upon the next audiogr
 
 Once all applicable data has been entered, click the *Save* button. The user may at any time click the *Cancel* button to cancel data entry.
 
-![](../audio-tool-tab.assets/a66edda62a5d20fb165312c66eed37ab.png)
+![](../audio-tool-tab.assets/c454b285dde2859c35307eb6aa6bf324.png)
 
 Once saved, users will see a confirmation message. Click OK to close the success message.
 
 ![](../audio-tool-tab.assets/56a782146598399b76f0ff63e46acfd4.png)
 
-The data will be stored in the **Audiogram and Documents** chart tabs. If the Outside Service Provider field is entered on the audio tool, then this name will display as the author of the audio document rather than the user that most recently modified the test.
+The data will be stored in the **Audiogram** and **Documents** chart tabs. If the Outside Service Provider field is entered on the audio tool, then this name will display as the author of the audio document rather than the user that most recently modified the test.
 
 ### Baselines and Alerts
 
@@ -112,11 +118,23 @@ When the **Show NSTS Values** system setting (E-Chart, Audio, Show NSTS Values) 
 
 ![](../audio-tool-tab.assets/3d54e45325c2cb84bef3559f01295414.png)
 
+### STS, NSTS, and OSHA Alert Flags on the Cell View
+
+Columns and rows of Yes or No are displayed for any STS, STS (Non-Age Corrected), NSTS, and OSHA per audiogram captured and per ear.
+
+![](../audio-tool-tab.assets/ef96889d6a78cafe52caf7d9c2ac7feb.png)
+
 ### Stable
 
-If no STS is observed after a baseline has been set, results will display as **Stable**.
+If no STS is observed after a baseline has been set, results will display as **Stable** when looking at (or comparing) audiogram data.
 
 ![](../audio-tool-tab.assets/0bea7a501950a52c95b0673fd3e1329e.png)
+
+### Legend
+
+The audiogram document column/row view has a legend that explains what each color in a column or row indicates.  The plot graph has its own legend below each plot graph (see Graphing section further on this guide).
+
+![](../audio-tool-tab.assets/35e806c39334a3e8008836e28150bd9e.png)
 
 ### Graphing
 
@@ -126,6 +144,10 @@ Users may graph Audio results by clicking the *Graph* button. The *Graph* button
 
 ![](../audio-tool-tab.assets/a8a9364b2c33ba2f672c56df6bedca5f.png)
 
+A legend for the plot graph view is below each graph.  The legend indicates which audiogram data results are from which date.
+
+![](../audio-tool-tab.assets/675d7a3acda3440040d43b0922656e7e.png)
+
 ### Importing Audiogram Results from a device
 
 At the bottom of the Audio Tool users are provided with an option to import audiogram data from external devices. If audio device imports were not included with your {{% system-name %}} deployment, please contact your support representative. Additional configuration is required to import from devices.
@@ -134,19 +156,21 @@ At the bottom of the Audio Tool users are provided with an option to import audi
 
 *See additional online help guide named* [*Device Interface-Audio System*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/)* (MI),* [*Device Interface- Audio: Tremetrics/Maico*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/)
 
-### Summary Document
+### Compare Audiograms
 
-When the audiogram has been completed and the encounter exam is archived and closed, a final summary document is inserted into the chart with the test data, graphs and supplemental questionnaire information. Additionally, users may click on the "Compare" link from within the document to compare today's results with other results on file.
+When the audiogram has been completed and the encounter exam is archived and closed, a finalized audiogram document is inserted into the chart with the audiogram test, data, graphs and supplemental questionnaire information if utilized. Additionally, users may click on the Compare hyperlink from within the document to open up an Audio Compare pop-up displaying any audiogram results with other audiogram results within the chart.
 
-![](../audio-tool-tab.assets/9749f8a5fb4ceee20d835e2c28ef6c60.png)
+![](../audio-tool-tab.assets/faf417fb3e1029c563e0604ca939f4ff.png)
 
-### Bubble Forms
+## Audiogram Reports
 
-{{% system-name %}} also offers a standard audiogram bubble form that is available by default in the {{% system-name %}} system. This bubble form collects audiogram data, and once scanned and indexed into the system, the optical marks are read and the interpreted data is stored discreetly, within the appropriate chart.
+Within the Visits grouping of reports, there are a few standard Audiogram Reports.
 
-![](../audio-tool-tab.assets/a50c6d25ee271a8234b76c3017deae01.png)
+* Audiogram Missed STS Follow-up Report: Lists charts having documented audiogram tests with an STS that do not have a 'Retest' Audiogram performed within 21 days. Date range of performed audiogram test is required.
+* Audiogram Report: Is a searchable report to render audiogram test result details (according to date range entered) found in charts, including any STS, NSTS, OSHA etc alerts.
+* Audiometric Testing: Is a searchable report that displays if a Standard Threshold Shift or OSHA recordable shift has been calculated or not on any chart who has an audiogram test according to date range entered.
 
-To better understand the scanning and indexing of bubble forms, review the [Indexing Bubble Forms](../../document-management/scanning-and-indexing/indexing-bubble-forms.md) and [Indexing](../../document-management/scanning-and-indexing/indexing.md) online help documentation.
+![](../audio-tool-tab.assets/a1a72c70cfb25fb1c722a0cce046da21.png)
 
 ## Learning Management System
 
