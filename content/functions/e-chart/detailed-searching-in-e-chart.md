@@ -1,9 +1,9 @@
 ---
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
-date: '2024-11-12T15:36:54.716Z'
-version: 179
-lastAuthor: 'janderson'
+date: '2025-01-14T14:50:00.993Z'
+version: 187
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTGIDNHR'
@@ -70,6 +70,16 @@ When the system setting *Show Preferred Name on Results* in Patient Search is en
 Detailed search looks for preferred name contents in the *first name* separated field.
 
 ![](../detailed-searching-in-e-chart.assets/3a3f322330f86189b9b2e1500079b184.png)
+
+## Detailed Search DataVis Experiment
+
+A new My Settings preference has been added (disabled by default) to enable a Detail Patient Search Datavis output.  This is a My Settings preference that only affects you, the logged in user.
+
+![](../detailed-searching-in-e-chart.assets/46061004a1e9e0094664b94dbd00727e.png)
+
+If enabled as your preference, when using **Detailed Search** within the Patient Search of E-Chart, the Search fields will display cosmetically different and your search output will be in a datavis format, where one can filter, sort, pivot, etc as needed.  Utilizing a datavis method for Detailed patient chart search will also allow columns to be added to the output as needed.
+
+![](../detailed-searching-in-e-chart.assets/a905eb38987a01e92ff3db54a58a0c2b.png)
 
 ## Learning Management System
 
