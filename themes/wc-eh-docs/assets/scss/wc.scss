@@ -1,5 +1,6 @@
 $prefix: 'bs-';
 $primary: #f7941e;
+$primary-dm: #f7941e;
 $active-nav: rgba(255, 224, 187, 1);
 $dark: #5f6062;
 $dark-mode-dark: #272727;
@@ -47,4 +48,5 @@ $alert-warning-color-dm: lighten(#664d03, 60%);
     --alert-info-color-dm: #{$alert-info-color-dm};
     --alert-success-color-dm: #{$alert-success-color-dm};
     --alert-warning-color-dm: #{$alert-warning-color-dm};
+    --primary-dm: #{$primary-dm};
 }
