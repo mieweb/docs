@@ -1,8 +1,8 @@
 ---
 id: '1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c'
 title: 'Assigned Users'
-date: '2024-10-31T19:42:35.938Z'
-version: 142
+date: '2025-01-15T14:06:11.972Z'
+version: 153
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
 source: 'https://drive.google.com/open?id=1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c'
 wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
-Some workflows may benefit from using the *Assigned Users* feature rather than using [Staging](https://docs.enterprisehealth.com/functions/encounters/working-in-a-visit-encounter/#stage-buttons) buttons from within the encounter. *Assigned Users* allow users to assign encounters to **one** individual at a time. However, assigning the encounter to a user does not prevent others from viewing or working in the encounter.
+Some workflows may benefit from using the *Assigned Users* feature rather than using [Staging](https://docs.enterprisehealth.com/functions/encounters/working-in-a-visit-encounter/#stage-buttons) buttons from within the encounter. *Assigned Users* allow users to assign encounters to **one** individual at a time.  However, assigning the encounter to a user does not prevent others from viewing or working in the encounter.
 
 ## Enable Assigned Users
 
@@ -51,7 +51,9 @@ When a user has been assigned an encounter, the user will see an *Assigned* aler
 
 ![](../assigned-users.assets/c0b786d03e9ce859a2cb0780cc03cca5.png)
 
-Click on the encounter name in the *Options* column to navigate directly to the encounter.
+Click on the encounter name in the *Options* column or click the encounter Id to navigate directly to the encounter.
+
+Closed encounters will no longer display on the assigned worklist.
 
 ![](../assigned-users.assets/426bf494771fc68fd752c624085ff14c.png)
 
@@ -70,6 +72,10 @@ The *Assigned User* autocomplete can be limited to search and display results fo
 Note: The *Assigned Users Department* system setting applies to all encounter types that utilize the *Assign User* feature.
 
 ![](../assigned-users.assets/7196ccd303580f266e93f030daf091db.png)
+
+## Unassign User
+
+There is not an unassign user function. When the *Assigned User* feature has been initialized (by act of assigning the encounter), it is intended to require an assigned user until the workflow is complete or the encounter is closed. If there is a need to unassign a user, then using encounter staging might be a better workflow option rather than using the *Assigned User* feature.
 
 ## Revision Tracking
 
