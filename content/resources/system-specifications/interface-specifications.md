@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2024-12-12T17:26:06.552Z'
-version: 3427
+date: '2025-01-20T20:25:56.321Z'
+version: 3491
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -395,7 +395,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Med Labs of Arkansas (Bi-directional orders and results-including pathology)
 * Natera Lab (Bi-directional)
 * Orchard Lab
-* Paragon_Atlas Labs (results only)
+* Paragon Labs/Atlas (results only)
+* Paragon Labs/Sunquest (results only)
 * Parkview Hospital Lab/Path-Soft Lab Inbound
 * Parkview Lab Outbound
 * Path Group (HL7 bi-directional)
