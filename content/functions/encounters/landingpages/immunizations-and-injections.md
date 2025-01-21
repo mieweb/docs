@@ -1,12 +1,13 @@
 ---
 id: '1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
 title: 'Immunizations and Injections'
-date: '2021-02-26T16:11:01.703Z'
-version: 19
-lastAuthor: ''
+date: '2025-01-21T15:11:41.225Z'
+version: 33
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - '../../injection-immunization-management.md'
 source: 'https://drive.google.com/open?id=1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
 wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
-Immunizations and Injections
+Please proceed instead to the [Injection/Immunization Management page](../../injection-immunization-management.md) to then advance to the specific injection/immunization workflow wanting.
