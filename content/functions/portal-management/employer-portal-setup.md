@@ -1,34 +1,34 @@
 ---
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Employer Portal Setup'
-date: '2024-05-15T16:24:52.378Z'
-version: 296
+date: '2025-01-22T16:19:57.305Z'
+version: 339
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
 ---
-{{% system-name %}} offers various portal options, depending on the needs of the client. The **Employer Portal**, often referred to as the **Supervisor Portal**, **Agency Portal**, or **Leadership Portal**, streamlines employee engagement and tracking, offering easy access to due lists, employee work statuses, as well as health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, or any additional information custom to the business needs. To more fully address preferred configurations and review available options and features, utilize the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} side menu to access and edit the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} , as needed.
+{{% system-name %}} offers various portal options, depending on the needs of the client. The **Employer Portal**, often referred to as the **Supervisor Portal**, **Agency Portal**, or **Leadership Portal**, streamlines employee engagement and tracking, offering easy access to due lists, employee work statuses, as well as health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, or any additional information custom to the business needs.
 
 ## Employer Portal
 
-To begin configuring the Employer Portal, it first needs to be enabled from the **General Configuration** section of the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43" %}} tab. Utilize the Provider Management search to locate the Provider Organization (PO) *chart* that will house the portal configurations.
+To begin configuring the Employer Portal, it first needs to be enabled from the **General Configuration** section of the Portal Setup tab. Navigate to the Employer Organization that this Employer Portal needs configured on. Then select the Portal Management tab, the Portal Setup tab will display beneath it.
 
 ### Initial Setup
 
 Again, before configuring the Employer Portal, it must be enabled within the system. To do this, perform the following:
 
-1. Navigate to the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} side menu.
-2. Type the name of the PO, and click the <strong>Search</strong> button.
-3. Locate the PO Name, and click the hyperlink. In this example, we will be using {{% syslink "Better Corp" "f=chart&s=pat&pat_id=43" %}} .
-4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43" %}}  tab.
+1. Navigate to the <em>Control Panel->Employer Organizations</em>
+2. Type the name of the EO, and click the <strong>Search</strong> button.
+3. Locate the EO Name, and click the hyperlink. In this example, we will be using <em>Better Corp.</em>
+4. Locate and select the <em>Portal Setup</em> tab.
 5. Click on the <strong>General Configuration</strong> section header to open and select the appropriate features to enable all portals that are necessary.
 
     ![](../employer-portal-setup.assets/1944d98e352760503335666f8275eb27.png)
 
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
-7. With the portal setup completed, locate the {{% syslink "Employer Portal" "f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=43" %}} tab of the PO, to begin work on that portal's configurations.
+7. With the portal setup completed, navigate to the <em>Employer Portal</em> tab of the EO, to begin work on that portal's configurations. In most systems, this tab is a subtab under the <em>Portal Management</em> tab.
 
     ![](../employer-portal-setup.assets/912806c78f3c4942295109fde265a732.png)
 
@@ -85,20 +85,24 @@ The expanded Select Module section allows for configuration of each module, if n
 
 1. Clicking on the <strong>Select Modules</strong> header will open a window with all of the default-enabled modules of the Employer Portal checked. Add or remove modules, as needed, and click the <strong>Save</strong> button.
 
-![](../employer-portal-setup.assets/2cb219d178f197f5e72c2b5e5ab15c8b.png)
+![](../employer-portal-setup.assets/4370bebfed6eea84d2ee0fa0601c4b7e.png)
 
-2. There are ten (10) modules that can be selected within the Employer Portal, as well as the ability to link to questionnaires/forms, as needed:
+2. There are ten (15) modules that can be selected within the Employer Portal, as well as the ability to link to questionnaires/forms, as needed:
     1. <strong>Case Review Status</strong>
     2. <strong>EJTA</strong>
-    3. <strong>Health Surveillance</strong>
-    4. <strong>Order Status</strong>
-    5. <strong>Orders</strong>
-    6. <strong>Reports</strong>
-    7. <strong>Send a Message</strong>
-    8. <strong>Supervisor Scheduling</strong>
-    9. <strong>Support</strong>
-    10. <strong>Work Status</strong>
-    11. <strong>Questionnaires/Forms</strong>
+    3. <strong>Forms</strong>
+    4. <strong>Health Surveillance</strong>
+    5. <strong>Layouts</strong>
+    6. <strong>Order Status</strong>
+    7. <strong>Orders</strong>
+    8. <strong>Questionnaires</strong>
+    9. <strong>Reports</strong>
+    10. <strong>Schedule Appointments</strong>
+    11. <strong>Send a Message</strong>
+    12. <strong>Supervisor Other Health Resources</strong>
+    13. <strong>Supervisor Scheduling</strong>
+    14. <strong>Support</strong>
+    15. <strong>Work Status</strong>
 3. All of the module names can be edited or renamed using the <strong>Custom Module Name</strong> field, under each section heading.
 
 {{% info %}}
@@ -120,6 +124,54 @@ The Reports module
 1. <strong>Custom Module Name</strong>: The name defaults to <em>Reports</em>. Customize up to 60 characters.
 2. <strong>Instruction text</strong>: This field may be used to supply optional instructions for utilizing the Employer Reports page.
 3. <strong>Available reports</strong>: Use the selector to choose all reports to be displayed on the Reports page. Reports with the Employer Portal Report category will display in the list for selection.
+
+#### Schedule Appointments
+
+The *Schedule Appointments* module can be updated to allow certain functionality, as well as to display warnings or specified text, as needed.
+
+**Custom Module Name**: The name defaults to *Schedule Appointments*. Customize up to 60 characters.
+
+**Schedule an Appointment**: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the **Locations** chart tab of the Provider Organization chart. Appointment types that are available for selection are managed from the {{% syslink "Appt Types" "func=scheduler&s=apttypes" %}} chart tab of the {{% syslink "Scheduler" "func=scheduler%23Now" %}} . Selecting **Available For Portal** on the respective appointment type indicates that the appointment type will be made available within the portal. Not selecting this option indicates that the appointment type linked to the schedule will NOT be available within the portal.
+
+**Request an Appointment**: This selection allows users to request appointments through their portal by sending an appointment request with their preferences and appointment information to the clinic. Once verified, appointments will display on the user's *My Appointments* page.
+
+{{% note %}}
+To use this feature, a *Request an Appointment* message type must be enabled.
+{{% /note %}}
+
+**Disable appointment confirmation/cancellation emails:** When checked, appointment confirmation and cancellation emails will not be sent.
+
+**Allow scheduling past due appointments**: With this enabled, users will be able to schedule past due appointments.
+
+**Disable calendar searching:** Hides the calendar when scheduling an appointment, to prevent selecting dates not present in the current drop-down list.
+
+**Show "First available provider" option when selecting a provider**: If enabled, the option for *First available provider* will display to users when scheduling appointments.
+
+**Force any available provider**: This disables the Select Provider field from displaying on the portal, automatically assigning a provider based on the appointment type and availability.
+
+**Show appointments regardless of visible date:** When checked, appointments will be displayed on the portal regardless of their visible date. When scheduling these appointments the available times will begin from the appointment's visible date.
+
+**Days to show past appointments**: Use this field to set the number of days of past appointments to display.
+
+**Days out to search for**: This field can be used to set the number of days being searched, out from the present day.
+
+**Days out before showing days**: This field determines how many days before having to show additional days, out from the present day.
+
+**Warning message for past due appointments**: Use this field to free text a warning message that will be displayed next to an appointment past due date.
+
+{{% note %}}
+This field will only display if *Allow scheduling past due appointments* IS NOT selected.
+{{% /note %}}
+
+**Alert text to show at top of form**: Use this field to display an alert or memo at the top of the page (e.g., "If this is a medical emergency, please dial 9-1-1.").
+
+**Appointment types excluded from portal:** Excludes these types of appointments from being displayed in the portal.
+
+**Appointment types that require comments:** Require comments to be entered for these appointment types when scheduled**.**
+
+**Comments input instructions:** This field will update the placeholder text for the comments input when an appointment type that requires comments is enabled.
+
+**Schedule a new appointment button text:** This field will replace the button text that is used to schedule a new appointment; displayed at the bottom of the 'My Appointments' module within the portal.
 
 #### Send a Message
 
