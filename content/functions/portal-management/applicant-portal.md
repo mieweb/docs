@@ -1,12 +1,11 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2024-07-15T16:56:48.175Z'
-version: 279
+date: '2025-01-22T15:11:41.308Z'
+version: 298
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://confluence.mieweb.com/display/DOCS10/Applicant+Portal'
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
@@ -29,7 +28,7 @@ The following items are considerations to be discussed with the Deployment Consu
 
 **Order Picklist**: Any questionnaires being used for the Applicant Portal must fall within an order picklist. Work with the Deployment Consultant(s) to ensure an order picklist is configured, listing each questionnaire needed for the Applicant Portal.
 
-**Applicant Portal EO Chart Tab**: Customizations to the Applicant Portal can be done through the Applicant Portal chart tab of the Provider Organization (PO), as needed. It is through the Applicant Portal chart tab that users with the appropriate permissions may configure the portal components. The portal URL suffix will be provided from this tab, as well, which will be appended to the production database base URL and distributed for use.
+**Applicant Portal EO Chart Tab**: Customizations to the Applicant Portal can be done through the Applicant Portal chart tab of the Employer Organization (EO), as needed. It is through the Applicant Portal chart tab that users with the appropriate permissions may configure the portal components. The portal URL suffix will be provided from this tab, as well, which will be appended to the production database base URL and distributed for use.
 
 **Tasking**: It is important to discuss and determine any tasklist events needing triggered whenever applicants register and submit information via the Applicant Portal.
 
@@ -37,22 +36,7 @@ The following items are considerations to be discussed with the Deployment Consu
 
 The following steps will ensure the Applicant Portal is configured and functions properly.
 
-## Update/Add System Settings
-
-Following the instructions below, *add* these system settings:
-
-* NMC, Partition, Default on Signup
-* NMC, Signup, Limited User Realm
-
-1. Navigate to <strong>System Settings</strong> in the Control Panel.
-2. Click the <strong>Add System Setting</strong> link in the upper-right corner of the page.
-3. Begin typing the name of the setting in the <strong>System Settings</strong> autocomplete.
-4. Select the correct system setting from the autocomplete options, and type the appropriate value in the <strong>Value</strong> field.
-    1. NMC, Partition, Default on Signup = APP
-        1. Users will need to be assigned to the APP partition.
-    2. NMC, Signup, Limited User Realm = Applicant
-        1. <em>Applicant</em> is the name of the department to which users will be assigned.
-5. Click the <strong>Add</strong> button, when finished.
+## Update System Settings
 
 Following the instructions below, *update* these system settings:
 
@@ -110,10 +94,10 @@ Following the instructions below, *update* these system settings:
 
 ## Update Applicant Security Role Permissions
 
-1. Navigate to the [Provider Management](https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+) side menu.
-2. Type the name of the PO, and click the <strong>Search</strong> button. In this example, we will be using Better Corp.
-3. Locate the PO Name, and click the hyperlink.
-4. Locate and select the [Portal Setup](https://confluence.mieweb.com/display/DOCS10/Applicant+Portal#ApplicantPortal-#SYSLINK?f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=43) tab.
+1. Navigate to the Employer Management side menu.
+2. Type the name of the EO, and click the <strong>Search</strong> button. In this example, we will be using Better Corp.
+3. Locate the EO Name, and click the hyperlink.
+4. Locate and select the Portal Setup tab.
 5. Once there, click the <strong>Applicant Portal</strong> header, to expand the section. Click the <strong>Run Setup</strong> button.
 
 ![](../applicant-portal.assets/29d4e5695d2713714eff548176adfbd5.png)
