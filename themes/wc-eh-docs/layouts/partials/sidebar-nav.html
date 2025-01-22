@@ -18,7 +18,7 @@
     {{ partial "sidebar-nav.html" $temp }}
     {{ else }}
     <li class="mb-2 ps-4">
-      <span class="link-dark d-inline-flex rounded seudo-btn" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
+      <span class="d-inline-flex rounded seudo-btn" data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
         <a href="{{ .URL }}" class="text-decoration-none">{{ .Name }}</a>
       </span>
     </li>
