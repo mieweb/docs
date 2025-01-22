@@ -1,8 +1,8 @@
 ---
 id: '1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
 title: 'Vaccine Compliance'
-date: '2024-10-29T20:15:54.076Z'
-version: 41
+date: '2025-01-22T14:58:15.027Z'
+version: 51
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -53,7 +53,7 @@ Select the "System" check box, enter a start and end date for the reporting peri
 <tr>
 <td>Varicella</td>
 <td>2 Varicella Vaccines (CVX:94,21,36,117) <strong>OR</strong><br />
-1 Titer Result demonstrating Immunity (LOINC:17763-4/Qual: Positive)(LOINC:5403-1/Quant:>165) <strong>OR</strong><br />
+1 Titer Result demonstrating Immunity (LOINC:17763-4/Qual: Positive)(LOINC:5403-1/Quant:>165 or Reactive**) <strong>OR</strong><br />
 1 completed Varicella Program Compliance Order (Order id=3472)</td>
 </tr>
 <tr>
@@ -69,6 +69,8 @@ Select the "System" check box, enter a start and end date for the reporting peri
 1 completed Tdap Program Compliance Order within the last 10 years (Order id=3490)</td>
 </tr>
 </table>
+
+** Some laboratories send a quantitative analysis + interpretation with the qualitative analysis, in this case either value noted will be accepted.
 
 ## Optional Immunization Surveillance
 
