@@ -1,20 +1,13 @@
 $prefix: 'bs-';
 $primary: #f7941e;
-$primary-dm: #f7941e;
+$link-color-dark: #f7941e;
 $active-nav: rgba(255, 224, 187, 1);
-$dark: #5f6062;
-$dark-mode-dark: #272727;
-$dark-mode-secondary: #3e4347;
+$dark:#272727;
+$body-bg-dark:#414141;
+$body-color-dark: #fafafa;
+$border-color-dark: #727272;
 
-$alert-dark-color: #393a3b;
-$alert-dark-color-dm: lighten(#393a3b, 65%);
-$alert-info-color: #055160;
-$alert-info-color-dm: lighten(#055160, 65%);
-$alert-success-color: #0f5132;
-$alert-success-color-dm: lighten(#0f5132, 60%);
-$alert-warning-color: #664d03;
-$alert-warning-color-dm: lighten(#664d03, 60%);
-
+$color-mode-type: media-query;
 
 @import 'print';
 @import 'style';
@@ -35,18 +28,5 @@ $alert-warning-color-dm: lighten(#664d03, 60%);
 @import 'dark';
 
 .hljs {
-    background: #f7f4f4 !important;
-}
-
-:root {
-    --code-hs: 330, 67%;
-    --code-l: 52%;
-    --bs-code-color: hsl(var(--code-hs), var(--code-l));
-    --bs-code-color-dm: hsl(var(--code-hs), calc(var(--code-l) + 25%));
-    --bs-alert-bg-dm: $alert-bg;
-    --alert-dark-color-dm: #{$alert-dark-color-dm};
-    --alert-info-color-dm: #{$alert-info-color-dm};
-    --alert-success-color-dm: #{$alert-success-color-dm};
-    --alert-warning-color-dm: #{$alert-warning-color-dm};
-    --primary-dm: #{$primary-dm};
+    background: #f7f4f4 !important;   // code background
 }
