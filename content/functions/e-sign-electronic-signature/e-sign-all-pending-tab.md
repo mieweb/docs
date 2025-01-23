@@ -1,9 +1,9 @@
 ---
 id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 title: 'E-Sign All Pending Tab'
-date: '2024-07-08T18:26:39.616Z'
-version: 62
-lastAuthor: 'janderson'
+date: '2025-01-23T19:35:06.005Z'
+version: 76
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
@@ -71,6 +71,18 @@ Using the Document Report found in the Reports sidemenu, a report can be run to 
 Once the report results, an E-Signature can be requested right there from the report by clicking Request Signature option at the far right.
 
 ![](../e-sign-all-pending-tab.assets/77e5e6d6e835b9e35155f4b66a0a0ea6.png)
+
+## E-Sign DataVis
+
+Users can switch from the legacy E-Sign view to the DataVis format by changing the new "My Settings" user preference. The "Use DataVis in E-sign" preference defaults to "No" to keep users on the legacy list format. Changing it to "Yes" will enable the DataVis format. This update is available for beta testing for customers on RC202309.
+
+![](../e-sign-all-pending-tab.assets/1349e2f2926a2daf50ff5bb7f0608ee4.png)
+
+Select a row or multiple rows, then click the "Review Select E-Sign" to review and sign document(s) from the E-sign Review screen.
+
+Users with Proxy Signing security rights, will have an option to search for other users and toggle to other users E-Sign lists and sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search fields does not display.
+
+![](../e-sign-all-pending-tab.assets/85ba4fd8a3fa8f1cf5ba07162f87eeec.png)
 
 ## Learning Management System
 
