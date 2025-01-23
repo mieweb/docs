@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-01-20T20:25:56.321Z'
-version: 3491
+date: '2025-01-23T16:30:07.801Z'
+version: 3523
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -338,9 +338,10 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Oklahoma (in progress)
 * Oregon Immunization Registry
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
+* South Carolina Immunization Registry (SIMON) (inbound uni-directional)
 * Tennessee (TENNIIS) (unidirectional)
-* Texas
-* Utah
+* Texas Immunization Registry
+* Utah Immunization Registry
 * Virginia Immunization Information System (VIIS) (outbound from EH / inbound to VIIS)
 * West Virginia thru Scientific Technologies Corp (STC)
 * Washington State thru Scientific Technologies Corp (STC)
