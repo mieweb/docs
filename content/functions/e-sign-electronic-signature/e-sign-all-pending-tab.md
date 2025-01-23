@@ -1,8 +1,8 @@
 ---
 id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 title: 'E-Sign All Pending Tab'
-date: '2025-01-23T19:35:06.005Z'
-version: 79
+date: '2025-01-23T20:52:33.776Z'
+version: 83
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -80,7 +80,7 @@ Users can switch from the legacy E-Sign view to the DataVis format by changing t
 
 Select a row or multiple rows, then click the "Review Select E-Sign" to review and sign document(s) from the E-sign Review screen.
 
-Users with Proxy Signing security rights, will have an option to search for other users and toggle to other users E-Sign lists and sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search fields does not display.
+Users with Proxy Signing security rights, will have an option to search for other users and toggle to other users E-Sign lists and sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search field does not display.
 
 ![](../e-sign-all-pending-tab.assets/85ba4fd8a3fa8f1cf5ba07162f87eeec.png)
 
