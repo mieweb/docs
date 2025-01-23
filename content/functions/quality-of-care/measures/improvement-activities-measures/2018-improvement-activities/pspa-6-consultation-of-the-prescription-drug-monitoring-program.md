@@ -2,7 +2,7 @@
 id: '1mAhBSisvHCBxBX1-Tf736vMlK11LbTtsGBIv-0iEJs8'
 title: 'PSPA 6 - Consultation of the Prescription Drug Monitoring Program'
 date: '2020-02-27T20:55:58.769Z'
-version: 23
+version: 24
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

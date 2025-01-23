@@ -2,7 +2,7 @@
 id: '1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4'
 title: 'Conditions CSV API'
 date: '2020-02-27T21:32:21.297Z'
-version: 24
+version: 25
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

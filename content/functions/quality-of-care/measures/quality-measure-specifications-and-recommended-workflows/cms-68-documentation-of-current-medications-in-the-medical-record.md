@@ -2,7 +2,7 @@
 id: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
 title: 'CMS 68 - Documentation of Current Medications in the Medical Record'
 date: '2022-05-23T12:15:40.249Z'
-version: 68
+version: 69
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:

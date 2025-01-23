@@ -2,7 +2,7 @@
 id: '1MIq3ZddHVlacBu26BdF9dv9hz29_ic_MijOAc08GMFg'
 title: 'Financials All Active Deals-Detail Report'
 date: '2024-10-03T19:22:19.965Z'
-version: 24
+version: 26
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

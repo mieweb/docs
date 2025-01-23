@@ -2,7 +2,7 @@
 id: '1jzQHdtDlyEubKE4gVUnA0H6H-UoSrbbwEkdrfquOK6I'
 title: 'PSPA 17 - Implementation of Analytic Capabilities to Manage Total Cost of Care for Practice Population'
 date: '2020-02-27T20:54:50.133Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1Hxs7f9GCBtt0Cj_mH5Nf8L5_QLnE0W8a-Or2Tfg8TQs'
 title: 'CC 14 - Practice Improvements that Engage Community Resources to Support Patient Health Goals'
 date: '2020-02-27T20:51:51.881Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

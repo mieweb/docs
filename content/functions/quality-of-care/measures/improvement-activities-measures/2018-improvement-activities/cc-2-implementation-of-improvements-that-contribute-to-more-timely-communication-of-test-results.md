@@ -2,7 +2,7 @@
 id: '17nTZZRqe8ofCm6bTCe4FAmPyZqREjkWRE7MwrZn_XOU'
 title: 'CC 2 - Implementation of Improvements that Contribute to More Timely Communication of Test Results'
 date: '2020-02-27T20:52:05.062Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '17Gz_wwFB0iRCXgnKBKGdUo-d7mxuDiSItN0TlCQSzb4'
 title: 'Pat Portal Message Notification'
 date: '2020-02-27T20:39:03.308Z'
-version: 21
+version: 22
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+Portal+Message+Notifcation&active=0'

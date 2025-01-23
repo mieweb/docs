@@ -1,8 +1,8 @@
 ---
 id: '1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
 title: 'Transcribing Dictation'
-date: '2024-09-03T18:05:46.890Z'
-version: 120
+date: '2025-01-21T21:50:29.212Z'
+version: 133
 lastAuthor: 'sberry'
 mimeType: 'text/x-markdown'
 links:

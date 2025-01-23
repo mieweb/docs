@@ -2,7 +2,7 @@
 id: '1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI'
 title: 'Encounter Summary Toolbar'
 date: '2020-02-27T19:55:26.253Z'
-version: 39
+version: 40
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI'

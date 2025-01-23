@@ -2,7 +2,7 @@
 id: '1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
 title: 'TeleHealth Pricing'
 date: '2020-03-31T14:37:42.416Z'
-version: 142
+version: 145
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

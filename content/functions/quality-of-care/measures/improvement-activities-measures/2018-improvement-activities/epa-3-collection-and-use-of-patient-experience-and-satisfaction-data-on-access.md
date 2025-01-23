@@ -2,7 +2,7 @@
 id: '1aCaF3MkETgC7c-esx_PL5qhptvQQgYJAUNxhQdwJemY'
 title: 'EPA 3 - Collection and Use of Patient Experience and Satisfaction Data on Access'
 date: '2020-02-27T20:52:44.429Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

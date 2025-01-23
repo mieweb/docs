@@ -2,7 +2,7 @@
 id: '1qdEPvQQznY4yW3MjLY8_25M4VehZOgGUKJFvn37v_ds'
 title: 'PM 21 - Advance Care Planning'
 date: '2020-02-27T20:53:51.715Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

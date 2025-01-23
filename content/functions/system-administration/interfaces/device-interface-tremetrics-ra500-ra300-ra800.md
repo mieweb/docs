@@ -2,7 +2,7 @@
 id: '1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
 title: 'Device Interface - Tremetrics RA500 , RA300, RA800'
 date: '2021-08-31T14:16:27.353Z'
-version: 70
+version: 75
 lastAuthor: 'kkocks'
 mimeType: 'text/x-markdown'
 links:

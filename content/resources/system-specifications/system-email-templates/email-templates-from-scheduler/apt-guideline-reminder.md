@@ -2,7 +2,7 @@
 id: '1v8AzGmcED_QmF-RwhztZuJZjpq99NKLFVUkacCV474A'
 title: 'Apt Guideline Reminder'
 date: '2020-02-27T20:40:07.206Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=WCGUIDE&old_module=Email&old_name=Apt+Guideline+Reminder&active=0'

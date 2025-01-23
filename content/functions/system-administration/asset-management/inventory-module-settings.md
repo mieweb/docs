@@ -2,7 +2,7 @@
 id: '1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
 title: 'Inventory Module Settings'
 date: '2024-12-09T17:43:19.062Z'
-version: 144
+version: 155
 lastAuthor: 'spedroza'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1Ks168BJn6m2SMUbB3tKUpGbluxd780aWFCPPbq2gzdU'
 title: 'PSPA 19 - Implementation of Formal Quality Improvement Methods, Practice Changes, or Other Practice Improvement Processes'
 date: '2020-02-27T20:54:58.280Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
