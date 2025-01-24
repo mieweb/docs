@@ -6,7 +6,7 @@ version: 25
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The {{% system-name %}} Injection/Immunzation module is designed to help clinicians enter and track immunizations and therapeutic or allergy injections, facilitating clinical decisions and follow-ups.
 

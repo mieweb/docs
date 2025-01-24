@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/mie-ca2.crt'
 source: 'https://drive.google.com/open?id=1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 For SSL encrypted web pages, a certificate is used. MIE has created it's own Certificate Authority (CA) for generating certificates. In order to NOT get a warning, you need to install the CA into your web browsers.
 

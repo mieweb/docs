@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization'
 source: 'https://drive.google.com/open?id=15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 This document assumes that the ADFS 3.0 software component is properly configured in the Active Directory domain.
 

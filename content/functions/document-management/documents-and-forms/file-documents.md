@@ -9,7 +9,7 @@ links:
   - 'word-documents-cc-physicians-feature.md'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The  {{% system-name %}} solution has a system setting that allows users to browse and upload any local file types into a specific chart. This setting is known as the **Generic File Upload** setting, and it is enabled by default.
 

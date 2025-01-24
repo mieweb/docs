@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Capturing incident detail on a patient is done through the office visit encounter or though the Incidents chart tab. There is reporting available based on patient incident data.
 

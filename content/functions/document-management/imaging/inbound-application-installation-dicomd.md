@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The following will assist users with installing the dicom inbound application. To begin, simply initiate the installation of the webchart-dicom RPM.
 ```

@@ -6,7 +6,7 @@ version: 73
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Panels can be assigned to work regions to limit the selection for what is appropriate for that region.  Panels displayed in the panel membership page for selection are based on work region and filters out panels not tied to the employee's work region.
 

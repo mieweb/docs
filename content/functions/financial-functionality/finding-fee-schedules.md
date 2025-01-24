@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SibGIGvDkzE-S2ExN9dD5S_HuOEN5xtJqZNNliLNE_s'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Note that the system treats the dates specified in the *Begin Date* and *End Date* fields as inclusive of the effective periods of fee schedules.
 

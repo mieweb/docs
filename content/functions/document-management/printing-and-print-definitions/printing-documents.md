@@ -9,7 +9,7 @@ links:
   - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Printing documents from the {{% system-name %}} system is a simple process. The intent of this help documentation is to go over the steps for printing individual documents and full-size scanned documents, as well as some additional details, as they relate to the printing processes.
 

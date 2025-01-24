@@ -12,7 +12,7 @@ links:
   - 'telehealth-pricing.md'
   - 'https://mie.talentlms.com/shared/start/key:AGBHRKMF'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 

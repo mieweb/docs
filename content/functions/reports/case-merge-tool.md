@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
 source: 'https://drive.google.com/open?id=1EXGZK3LY8tfnJ5AiPLCAsGSInA2sqSTESlQECm76pUY'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The Case Merge Tool is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 

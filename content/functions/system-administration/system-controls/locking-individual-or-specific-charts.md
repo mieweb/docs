@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTAIDNHR'
 source: 'https://drive.google.com/open?id=15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 A user with security can lock patient chart records which then can only be accessed by allowed users. If an individual patient's chart is locked from your view, it will state that in highlight on the E-Chart search screen. If you are allowed to access a locked patient's chart, you will not even see the **Locked** notification since it is not locked to you, the logged in user.
 

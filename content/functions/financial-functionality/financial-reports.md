@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Use financial reports to view balances and details of accounts and pending billing and appointments. Also use financial reports to close out months.
 

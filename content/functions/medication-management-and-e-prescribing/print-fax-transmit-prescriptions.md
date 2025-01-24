@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Printing a prescription will render the prescription on paper from your printer you are hooked up to.
 

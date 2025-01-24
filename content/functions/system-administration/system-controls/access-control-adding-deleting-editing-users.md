@@ -10,7 +10,7 @@ links:
   - 'setting-up-e-prescribers.md'
   - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Must have security permissions to be able to add/edit/delete users
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LEQIDNHR'
 source: 'https://drive.google.com/open?id=1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Click *Fax Manager* tab from the left sidebar menu. The screen opens with a header that says **Outgoing Fax Search** with a search tool. You will be defaulted to the "General" search filter method unless you had previously rendered a detail fax id search. (It will remember which mode you were in last and default you to that.)
 

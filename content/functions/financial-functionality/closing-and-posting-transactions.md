@@ -9,7 +9,7 @@ links:
   - 'creating-statements.md'
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1HRu6JJaf7bNjxyg4u0saJ5lNnc338GczKp_pS00cNts'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Use the pending billing report to close and post transactions. Typically, [create statements](creating-statements.md) after closing and posting transactions.
 

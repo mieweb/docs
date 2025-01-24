@@ -10,7 +10,7 @@ links:
   - 'word-documents-cc-physicians-feature.md'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The {{% system-name %}} system provides the ability to browse to and upload PDF file types, if necessary. This is driven by a system setting ("E-Chart", "PDF Upload", "Enable"), which is enabled by default.
 

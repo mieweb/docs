@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 You must have security role of *Manage Custom Pharmacies* set to Yes to access the Custom Pharmacy tab found in the Control tab module.
 

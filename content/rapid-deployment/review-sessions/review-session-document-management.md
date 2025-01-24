@@ -27,7 +27,7 @@ links:
   - '../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.md'
   - '../../functions/e-chart/insurance-summary-in-demographics-tab.md'
 source: 'https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 ## Agenda
 

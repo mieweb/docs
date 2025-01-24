@@ -9,7 +9,7 @@ links:
   - 'adding-restrictions.md'
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1oK6ySGjUdGxJ6kMIzWCA7Z4YoMukmyapVc01Wb9cEvs'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The Accommodation and/or Lost Time management function provides for the recording and documenting of accommodations (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work accommodations or Lost Time.  Accommodations or Lost Time are also available for viewing throughout the system and its own chart tab outside of an encounter exam.
 

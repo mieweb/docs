@@ -10,7 +10,7 @@ links:
   - 'https://openai.com/api/policies/service-terms/'
   - 'https://openai.com/policies/terms-of-use'
 source: 'https://drive.google.com/open?id=1dSjejCMB7zGviJsgOU-uJ1dnrf05Cn58ZT_GFDd53_M'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 **END USER AGREEMENT AND TERMS OF USE**
 

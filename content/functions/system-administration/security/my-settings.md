@@ -9,7 +9,7 @@ links:
   - 'http://form.id'
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences.
 

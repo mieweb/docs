@@ -9,7 +9,7 @@ links:
   - '../../system-configuration/document-type-tab.md'
   - '../../order-and-result-management/observation-flowsheets.md'
 source: 'https://drive.google.com/open?id=1Wr-vTLd_jr5j2IcTTGKHlvQoD5bBdW0NolS-KrMK1cg'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Document details can be added in multiple ways to many types of documents within {{% system-name %}} . Discrete observation data, for example, can be captured and stored on any document that is indexed within {{% system-name %}} , given the proper setup. Review the information below, to learn about adding and viewing document details, as needed.
 

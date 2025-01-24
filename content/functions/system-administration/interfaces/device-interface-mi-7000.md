@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 This page provides instructions for retrieving results from the MI 7000 audiometer with {{% system-name %}} ( {{% sys-name %}} ), and lists the fields that the interface retrieves.
 

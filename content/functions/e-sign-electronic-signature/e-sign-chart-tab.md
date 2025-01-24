@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qLRL-ZXgf_YMeThPv-seb8y23iiKyhda6jxHnOpWzx0'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 An E-Sign chart tab can be programmed by MIE to display when working in a chart.  An E-sign chart tab is different from the left sidemenu E-Sign module. An E-Sign chart tab will show only your (logged in user) pending e-signs in multi-review format pertaining to that chart only.  If a document from that chart, is pending your e-sign request (logged in user), you can sign the document here and not have to be in the E-Sign module sidemenu tab.  This is just a quick reference of pending E-Sign documents the logged in user is assigned, specific to that chart only.
 

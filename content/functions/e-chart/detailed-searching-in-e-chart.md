@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTGIDNHR'
 source: 'https://drive.google.com/open?id=1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 When in the {{% system-name %}} system, the E-Chart sidemenu tab displays recent charts you've accessed, along with the ability to search for charts by different methods.  E-Chart automatically defaults to search in **Simple** search, but there is a My Settings preference named *Search Method* that can be changed for your login experience.  See more information within the My Settings help guide.
 

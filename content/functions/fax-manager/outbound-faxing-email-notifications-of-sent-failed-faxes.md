@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 You can have {{% system-name %}} send you an email notifying you upon each successful sent fax you did and/or each failed (unsuccessful) fax that you sent via {{% system-name %}} . This is a user preference and only affects you, the logged in user.
 

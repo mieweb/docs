@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
   - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The {{% system-name %}} system is HIPAA compliant and the role based access control security determines who can access the EHR system, and which features of the system the staff member may use. The {{% system-name %}} administrator can allow or limit staff access to patient information, lab results and {{% system-name %}} modification features. Security roles can be defined for an entire department such as physicians, reception, outside guests such as hospitals, or roles can be customized individually.
 

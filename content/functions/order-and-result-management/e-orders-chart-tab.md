@@ -2,13 +2,13 @@
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
 date: '2024-08-14T23:17:56.495Z'
-version: 91
+version: 93
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
 source: 'https://drive.google.com/open?id=1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.
 

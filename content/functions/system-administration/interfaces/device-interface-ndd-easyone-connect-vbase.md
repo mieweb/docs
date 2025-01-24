@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.nddmed.com/en-us/product/easy-on-pc.html'
 source: 'https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The following is referring to the NDD EasyOne Connect spirometry system (also referred to as Easy-On or EasyWare). Contact your MIE Implementer to see if your spirometer system model can be interfaced or quoted.
 

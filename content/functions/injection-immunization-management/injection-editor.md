@@ -9,7 +9,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LSSIDNHR'
 source: 'https://drive.google.com/open?id=184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 If you have security to manage injection codes, you will be able to access the Injections Editor tab.
 

@@ -11,7 +11,7 @@ links:
   - 'https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
   - 'https://mie.talentlms.com/shared/start/key:LGTIDNHR'
 source: 'https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 

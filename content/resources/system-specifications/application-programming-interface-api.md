@@ -1,8 +1,8 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2024-12-16T14:17:45.237Z'
-version: 339
+date: '2025-01-24T17:21:21.031Z'
+version: 388
 lastAuthor: 'djiamjirarat'
 mimeType: 'text/x-markdown'
 links:
@@ -23,7 +23,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 [Terms of API Use](application-programming-interface-api/terms-of-api-use.md)
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 This page provides instructions for retrieving results from the Tremetrics RA500 audiometer with Enterprise Health (EH), and lists the fields that the interface retrieves.
 

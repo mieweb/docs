@@ -9,7 +9,7 @@ links:
   - 'mass-manual-entry-of-respirator-fit-data.md'
   - 'https://mie.talentlms.com/shared/start/key:ZOGDNHRK'
 source: 'https://drive.google.com/open?id=1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The stand-alone Respirator Info is a chart tab found in the employee's chart within the Health Surveillance chart tab and is also summarized in a Fit Test Data portlet within the Summary dashboard.  The stand-alone Respirator Info chart tab lists only the specific respirator panel memberships the employee belongs to as well as historical respirator fit testing discrete date.  This chart tab can also be used to manually add respirator fit test data outside of an encounter.
 

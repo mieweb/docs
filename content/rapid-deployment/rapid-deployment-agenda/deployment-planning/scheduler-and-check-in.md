@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-scheduler.md'
   - '../../review-sessions/review-session-checkin.md'
 source: 'https://drive.google.com/open?id=1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 ## Purpose
 

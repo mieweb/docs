@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 1. Select the side menu. The side menu appears.
 2. Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens.

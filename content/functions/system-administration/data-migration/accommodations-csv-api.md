@@ -17,7 +17,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/clinical-encounter-csv-api/'
 source: 'https://drive.google.com/open?id=1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for accommodations** using the [Case Management CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/case-management-csv-api/).
 

@@ -15,7 +15,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion'
   - 'mie-file-import.md'
 source: 'https://drive.google.com/open?id=1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
 ---
 Data migration is the process of transferring data between different storage types, formats, or systems, and is an important consideration for clients replacing an existing EHR. At {{% system-name %}} , we have imported data from a number of different systems, including Medgate, OHM, Sentry, Flow Gemini, and many other custom databases and countless proprietary spreadsheets. All of these imports involve a similar process, as described in this document.
 
