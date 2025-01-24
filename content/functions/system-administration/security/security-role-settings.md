@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2024-09-05T18:03:11.574Z'
-version: 440
+date: '2025-01-24T15:20:52.717Z'
+version: 446
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -87,8 +87,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Encounter Charges: This controls user access, view or to edit charges on an encounter. This is a specific charges section that is unique to ledgers, etc.
 * Set Grid Defaults: Yes allows user to set default datavis perspective preferences for all other users in the system.
 * Manage IP Settings: This controls user access to edit IP settings (found in the System within Control Panel).
-* Switch Security Roles: This allows the user to dynamically switch security roles if their security role has ‘Add Allowed Roles' configured to it.
-* Manage Dynamic Security Roles: This allows the user to manage the addition and removal of alternate security roles to ‘Add Allowed Roles' section of an entire security role.
+* Switch Security Roles: This allows the user to dynamically switch security roles to roles they are allowed to, if their security role has ‘Add Allowed Roles' configured to it.
+* Manage Dynamic Security Roles: Requires user to also have permission to ‘Switch Security Roles'.  Having Manage Dynamic Security Roles permission allows the user to manage the addition and removal of alternate security roles to ‘Add Allowed Roles' section of an entire security role.
 * Switch User Account: This allows the user to create a valid login session as another user.
 * Enable AI Assistant: This allows the user to utilize Artificial Intelligence by clicking the dark gray AI icon at the top right of the system.
 
