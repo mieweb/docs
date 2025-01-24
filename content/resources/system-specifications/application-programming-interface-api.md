@@ -1,8 +1,8 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2025-01-24T22:34:57.349Z'
-version: 478
+date: '2025-01-24T22:37:09.982Z'
+version: 480
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -101,7 +101,8 @@ COOKIE represents the session and is sent in the response.
 
 ## ONC Certification API 2015 Edition
 
-Overall, this document is intended to comply with the established criteria laid out for 2015 Edition ONC Certification–Patient Selection 170.315(g)(7), Data Category Request 170.315(g)(8), and All Data Request 170.315(g)(9). The following table provides access to the ONC specifications regarding these standards and requirements:
+Overall, this document is intended to comply with the established criteria laid out for the 2015 Edition ONC Certification–Patient Selection 170.315(g)(7), Data Category Request 170.315(g)(8), and All Data Request 170.315(g)(9). The following table provides access to the ONC specifications regarding these standards and requirements:
+
 <table>
 <tr>
 <td>§ 170.315(g)(7)</td>
@@ -160,6 +161,7 @@ Requests are URLs. urllib2.urlopen does the work of calling each request and ou
 ### § 170.315(g)(8) Application access – Data Category Request
 
 URL-specific sections are returned in XML CCDA format.
+
 <table>
 <tr>
 <td>Patient Name</td>
