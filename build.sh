@@ -38,6 +38,7 @@ while [[ $# -gt 0 ]]; do
         PORT=$((PORT+1))
       else
         echo "Building $1"
+        npm ci
         mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
         npx hugo --config "config-$1.toml" --baseURL "$BASE_URL" $OPTS
       fi
