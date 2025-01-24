@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2025-01-24T21:42:13.214Z'
-version: 469
-lastAuthor: 'auhrick'
+date: '2025-01-24T22:34:57.349Z'
+version: 478
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
@@ -45,7 +45,7 @@ System Administrators can explore each object type and then click on the Object 
 
 ![](../application-programming-interface-api.assets/b0c6b56c82c6a95ebba7c679f5cf7ab3.png)
 
-Every object has a URL.  For example: patients:
+Every object has a URL. For example: patients:
 
 ![](../application-programming-interface-api.assets/611e76c09a736d9808e3ca2335ec13cb.png)
 
