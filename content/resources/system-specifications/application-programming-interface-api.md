@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2025-01-24T17:21:21.031Z'
-version: 388
-lastAuthor: 'djiamjirarat'
+date: '2025-01-24T19:53:22.803Z'
+version: 460
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
@@ -19,11 +19,11 @@ links:
   - 'https://www.healthit.gov/sites/default/files/ccds_reference_document_v1_1.pdf'
   - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf'
   - 'https://www.healthit.gov/sites/default/files/170_315g9_application_access_all_data_request_v1_1_1.pdf'
-  - 'https://www.mieweb.com/wiki/MIE_File_Import'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/'
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 [Terms of API Use](application-programming-interface-api/terms-of-api-use.md)
 
@@ -33,7 +33,7 @@ With {{% system-name %}}, System Administrators can enhance and configure the sy
 
 This document outlines the framework that underpins these capabilities.
 
-The core API utilizes a REST architecture, supporting both GET and POST methods to retrieve or modify records. Access to the API requires an authenticated session, which can be established either through a cookie-based mechanism using a username and password or via an OAuth 2.0 bearer token generated with an API key.
+The core API is built on a RESTful architecture, supporting both GET and POST methods to retrieve or modify records. Access to the API requires an authenticated session, which can be established either through a cookie-based mechanism using a username and password by way of an HTTPS POST or via an OAuth 2.0 bearer token generated with an API key.
 
 Explore the {{% system-name %}} API, below.
 
@@ -79,10 +79,10 @@ curl WEBCHARTURL?login_user=USERNAME&login_passwd=PASSWORD
 
 ```
 {{% pre language="py" theme="RDark" %}}
-data = urllib2.urlopen(URL, urllib.urlencode({
+data = urllib.urlencode({
   'login_user': USERNAME,
   'login_passwd': PASSWORD
-}))
+})
 # Ensures the request is a POST request
 request = urllib2.Request(URL, data)
 
@@ -463,7 +463,7 @@ if __name__ == '__main__':
 
 ## Document Export Tool
 
-{{% system-name %}}  has functional tools for importing and exporting documents to the system. The Export Tool is written in Python and can be run on Windows, Mac, or Linux. Conversely, importing documents is done with the [MIE File Import](https://www.mieweb.com/wiki/MIE_File_Import) utility.
+{{% system-name %}}  has functional tools for importing and exporting documents to the system. The Export Tool is written in Python and can be run on Windows, Mac, or Linux. Conversely, importing documents is done with the [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/) utility.
 
 ![](../application-programming-interface-api.assets/e2b6a93dd8fecf5478d5122ba16e713d.png)
 
