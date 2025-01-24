@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 From the Control sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
 

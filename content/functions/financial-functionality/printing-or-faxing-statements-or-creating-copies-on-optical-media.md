@@ -12,7 +12,7 @@ links:
   - '../fax-manager/faxing-documents.md'
   - '../document-management/scanning-and-indexing/batched-documents-printing-faxing-burning.md'
 source: 'https://drive.google.com/open?id=1PA6EeczeCILKgQE0bBuWrU2YH7zp9tTrebyckzxkAyw'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 [Create statements](creating-statements.md) before printing, faxing, or creating copies on optical media (burning).
 

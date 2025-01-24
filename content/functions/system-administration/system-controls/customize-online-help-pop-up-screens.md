@@ -9,7 +9,7 @@ links:
   - 'http://www.mieweb.com/video/WCEncounter.mov*'
   - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'
 source: 'https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 Help is always available in {{% system-name %}} . At the top right corner of your {{% system-name %}} screen session is a help bubble icon.
 

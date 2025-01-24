@@ -6,7 +6,7 @@ version: 34
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 Setting up a portal for your employee's to access is available in {{% system-name %}} . Your MIE Implementer will help with initial setup and configuration, but this help guide also helps for any edits or changes that may need done later down the road. Initial portal setup is in help guide named *Employer-Employee Portal Setup.pdf*
 

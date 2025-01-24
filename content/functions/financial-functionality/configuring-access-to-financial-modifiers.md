@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=11AXz_kKVW3chcUj1EQ0SW4xZKQWtUMjpRpXhs4e9a40'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 For each user security role or user account that needs to view or edit financial modifiers when working with charges or payments, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md).
 

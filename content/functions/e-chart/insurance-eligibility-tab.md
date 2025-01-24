@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 {{% system-name %}} can interface with RealMed insurance eligibility to provide real-time insurance eligibility information on a patient chart. Contact your MIE Implementer to inquire about this optional feature and setup.
 

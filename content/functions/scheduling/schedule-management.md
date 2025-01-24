@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/system-controls/resource-restrictions.md'
 source: 'https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Overview
 

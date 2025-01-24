@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1-88TC5lUrNSXiPmv6dkp6tx5b3MTs4HIDfRTlI3p1lc'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The Open Order Request encounter section displays a list of any open order requests on the patient chart. Users can Clone, Edit, Change Orders, Print/reprint order requests and labels from the Open Order Request encounter section.
 

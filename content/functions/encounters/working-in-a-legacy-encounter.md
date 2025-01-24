@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 When you open an encounter and are working in it, your point & click encounter exam is customized to your practice. Most sections can be customized and programmed to accommodate your workflow. There are different variations on most sections that can be programmed. Contact your MIE Implementer if you have any questions or want to change an entry section.
 

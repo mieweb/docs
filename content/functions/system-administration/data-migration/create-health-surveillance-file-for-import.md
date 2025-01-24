@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888'
   - 'https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU'
 source: 'https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 This document explains how to import your health surveillance data into {{% system-name %}} .
 

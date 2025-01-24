@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-system-administration.md'
 source: 'https://drive.google.com/open?id=1NmvnJfchSVK7KFPNzGUgyLEjKYj7HkIvNRF52SS1J-k'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Purpose
 

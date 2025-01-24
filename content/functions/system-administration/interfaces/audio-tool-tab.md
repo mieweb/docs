@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/'
   - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 Within an encounter is where typically an audiogram is entered to document Audiogram test results.
 

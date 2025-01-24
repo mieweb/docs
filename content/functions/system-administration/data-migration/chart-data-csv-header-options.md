@@ -12,7 +12,7 @@ links:
   - 'chart-observations-import-options.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options'
 source: 'https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing specific fields with processing options using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process the field in a number of ways. This is especially useful for systems where the values may change or need to be removed entirely. Although the default process works in most situations, the options that follow allow a user to fine tune how the data is processed.
 

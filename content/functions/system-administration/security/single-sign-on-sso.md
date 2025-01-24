@@ -10,7 +10,7 @@ links:
   - 'https://en.wikipedia.org/wiki/Single_sign-on_'
   - 'single-sign-on-login-trust.md'
 source: 'https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The following document provides a general overview of using single sign-on (SSO) with {{% system-name %}} . SSO access is a standard for users accessing protected information, such as patient data. Access is provided by creating and enabling a login trust, so that when properly configured, users are redirected to a SSO login page to access the appropriate system(s), accordingly.
 

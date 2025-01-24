@@ -12,7 +12,7 @@ links:
   - '../quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md'
   - 'https://ecqi.healthit.gov/ecqm/ec/2024/cms0002v13?qt-tabs_measure=measure-information'
 source: 'https://drive.google.com/open?id=1dd1jmIH4Xu8nWG80UinTqZluoTtf4RuswpJ69hMb49M'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Overview
 

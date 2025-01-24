@@ -37,7 +37,7 @@ links:
   - 'https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/'
   - 'http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices'
 source: 'https://drive.google.com/open?id=15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Introduction
 

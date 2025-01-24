@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 When written opinion data is keyed into the recommendation section of an encounter, it fills in the Work Status report. Work Status information/documents are found in an encounter additional view, the Work Status chart tab, patient portlet, portal employee page, and portal supervisor page. The Work Status is a summary of an employee's health surveillance status, and can be used by an employer to determine eligibility as to whether the employee is fit to perform his/her duties. It is designed to show current restrictions, off-work status, return to work date(s), and medical clearance determination in real-time.
 

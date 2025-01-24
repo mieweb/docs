@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/working-in-a-visit-encounter/'
 source: 'https://drive.google.com/open?id=1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 This Negations encounter section was added to assist providers when documenting the negation of a specific act or negation of a set of acts.  This section is primarily utilized by providers enrolled in Quality Measures. Providers that chart these negation codes may have patients eligible for exclusion criteria in quality measures, thus increasing their potential payment adjustments. This information is also structured in such a manner that it can easily generate a QRDA I file export when appropriate.
 

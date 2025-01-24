@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 **Toward the bottom of an Encounter Exam is a section called Plan.**
 

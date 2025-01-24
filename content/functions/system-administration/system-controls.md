@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1V2Lt_MnbYoDNFBtcoH6JHJKm4he3obo6_GmOlfyW-L8'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 As a matter of principle,  {{% system-name %}} ensures its products meet the national security and privacy standards, making them HIPAA-compliant and secure. In other words, system administrators can control access to the various components of the system, as well as user abilities, such as adding/modifying data, prescribing medications, or documenting exams, for example.
 

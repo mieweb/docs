@@ -9,7 +9,7 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - '../../document-management.md'
 source: 'https://drive.google.com/open?id=1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding encounter whether the encounter is open or closed. Linking a document to an encounter in a chart allows users to easily view the encounter and corresponding linked documents, all from one place. Security permission of *Link Documents to Encounters* must be permitted to users that need to link documents to encounters.
 

@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EMS&old_module=Email&old_name=Pat+MLOA+Start&active=0'
 source: 'https://drive.google.com/open?id=1acLPzvllmvBdxbihscuwBo2RfY9cNvuSOQ8i9YH4sBE'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EMS&old_module=Email&old_name=Pat+MLOA+Start&active=0), as needed.

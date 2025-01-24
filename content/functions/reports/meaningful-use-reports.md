@@ -6,7 +6,7 @@ version: 47
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1yYiZJPGtNY3bZgy9tBkkdzQ6xFCDbhqxgYSsmaG3dgA'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 There are a few reports a superuser can run to monitor clinicians and see where they are currently on their Meaningful Use calculations and/or to see which clinicians have opted in for Meaningful Use and each measure they have checkmarked to report/calculate on.
 

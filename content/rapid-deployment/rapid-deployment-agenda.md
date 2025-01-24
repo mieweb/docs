@@ -11,7 +11,7 @@ links:
   - 'rapid-deployment-agenda/high-level-demonstration-for-core-team.md'
   - 'rapid-deployment-agenda/deployment-planning.md'
 source: 'https://drive.google.com/open?id=1ezVbJoouKbCwkcPmZ_1Qel6ynv7O33u-T-FJapyN0r8'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 Our Rapid Deployment Agenda provides clients with an outline of the high-level expectations and milestones of a successful deployment. The contents of this outline are based on the more-detailed [standard project plan](rapid-deployment-project-outline.md). For a look at the potential timeline, time estimates, and agenda topics, be sure to check out the [Project Kick-Off](rapid-deployment-agenda/project-kick-off-meeting.md), the [Core Team Demonstration](rapid-deployment-agenda/high-level-demonstration-for-core-team.md), and the various [Deployment Meetings](rapid-deployment-agenda/deployment-planning.md). Note that many of the objectives and milestones can be executed concurrently, utilizing all available resources more effectively and efficiently, thus shortening deployment times.
 

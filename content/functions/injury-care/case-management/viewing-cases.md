@@ -10,7 +10,7 @@ links:
   - 'deleting-an-existing-case.md'
   - 'closing-an-existing-case.md'
 source: 'https://drive.google.com/open?id=1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 A Case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
 

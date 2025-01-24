@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.youtube.com/watch?v=UFH5FwgzL0k'
 source: 'https://drive.google.com/open?id=14JVn4bPROs7udlR_yiBOs2oxpQKGjrTqzotYL4zx5PA'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## AI Assistant
 

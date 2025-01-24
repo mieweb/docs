@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../adding-restrictions.md'
 source: 'https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 

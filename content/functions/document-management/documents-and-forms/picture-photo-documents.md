@@ -11,7 +11,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LBEIDNHR'
 source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The {{% system-name %}} system is designed to allow photos/pictures to be uploaded as documents into charts, as needed. Currently, only JPG, TIFF, and PNG file types are supported for uploading to charts, so it is important to ensure the photos being uploaded are one of these acceptable file formats prior to adding any photo documents to a chart.
 

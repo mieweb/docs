@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
-wikigdrive: '09e37def9271cd982804f575ee70401ad07a0a3f'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The Interface Manager contains a list of custom demographic or HR interfaces that have been configured. This module is not primarily used for custom Enterprise Health demographic interfaces. The Interface Manager editor gives system administrators the ability to manage specific patient fields that come over interfaces.
 
