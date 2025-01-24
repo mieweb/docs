@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-01-23T16:30:07.801Z'
-version: 3523
-lastAuthor: 'bhamm'
+date: '2025-01-23T21:06:32.322Z'
+version: 3586
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -74,9 +74,10 @@ The list below represents a complete listing of all vendors/devices that we have
 
 ## Appointment Reminder Interfaces
 
-* HouseCalls Pro
+* Intrado/HouseCalls Pro
 * Relatient
 * [Televox](https://docs.google.com/spreadsheets/d/1_14Wbq-aCtMDwoq4eZ1twz0NYNVSEIX5tpHgcXKxP44/edit#gid=0)
+* Jellyfish Health (Athena Health)
 
 ## Billing/EMR/Practice Management Interfaces
 
@@ -85,35 +86,52 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * [OpenPM](https://drive.google.com/open?id=1egb4flCHJ6rnKMxQjkHBWini36q8XBIc) (bi-directional) (Preferred)
 * [ADP (Advanced MD)](https://drive.google.com/a/mieweb.com/file/d/0B1jNa-hAYBL2bldTWXNHY3luNzg/view) (non-HL7 webservice)
 * Allscripts Ntierprise
+* Anthem Wellpoint
+* Athena
 * CPSI
 * CRT Medical Systems (bi-directional)
 * [e-ClinicalWorks](../../functions/system-administration/interfaces/e-clinicalworks.md)
 * Encite
 * Epic (bi-directional)
+* Examinetics (bi-directional)
 * GE Centricity
+* Genius
 * Groupcast
+* Health Care Automations
 * Health Nautica
 * Ideal
+* Insync
+* Integra
+* Kareo
 * Medevolve
 * Medic version 7.10a
 * MediSys
 * Meditech (to RIS)
 * McKesson HBOC/STAR
 * Med Synergies
-* Medical Manager
+* Medical Manager (Harmony)
+* MedTrak
 * Medtopia
 * Merlin.net‎
 * MHIN (Michiana Health Information Network)
 * Misys Tiger version 9.10.1
 * Net Practice Noteworthy
+* NexTech
 * NextGen
 * NoviaPWR (practice management and EMR)
 * Novo
 * Pegasus
 * Perfect Bytes
 * PDS Cortex
+* PRICES (PSC Billing System)
 * Professional Medical Billing
+* RANAC
+* Salesforce (Demographics)
+* Systoc
+* Technimed
+* Triarq
 * TriMed
+* X-Link
 
 {{% anchor sys="devices" %}}
 
@@ -145,7 +163,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * [Honeywell VeriPRO Hearing Fit-Testing System](https://sps.honeywell.com/us/en/products/safety/hearing-protection/fit-testing/veripro-fit-testing-system) (Pending [RM#121874](https://pm.mieweb.com/issues/121874))
     * Integrafit MI3000 (Pending RM#117238)
     * [Maico MA800](../../functions/system-administration/interfaces/device-interface-maico-ma800.md) (Serial Uni-directional)
-    * Monitor Instruments MI5000, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
+    * Monitor Instruments MI5000, MI5000B, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
     * [OMI Sensormedics ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html) (File Uni-directional)
     * [Resonance R17A Audiometric XML Device Integration](https://www.resonance-audiology.com/en/r17a-screening-audiometer/) (RM#119721)
     * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (Serial Uni-directional)
@@ -272,24 +290,35 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 ## Hospital Systems
 
 * Beaumont Hospital (results only)
+* Blanchard Valley Hospital
 * Botsford Hospital (results only)
 * Cameron Hospital (results only)
-* St. Joseph Mercy Hospital Oakland, MI - Lab, Radiology, and Reports/Consults
+* Johnson Memorial Hospital (lab, radiology)
 * Lutheran Hospital (results only)
 * Memorial Hospital of Sandusky County - (results only) Paragon Labs/SunQuest
 * Parkview Hospital (results only)
+* St. John's Hospital (results, lab, hospital documents)
+* St. Joseph Mercy Hospital Oakland, MI - Lab, Radiology, and Reports/Consults
 * St. Dominic's Hospital (results only)
 * St. Francis Hospital (results only)
 * Terneuzen Hospital (results only)
+* Van Wert Hospital (orders only)
 
 ## [HR Systems](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)
 
 * ADP
+* Avanti
+* Complio (Immunization and Compliance Management)
 * Concentra HR
+* Echo
 * GDW
+* HCM
 * HR Smart
 * Infor Lawson/Lifeworks People
+* Insperity
+* Kenexa
 * Kronos
+* Meditech
 * Oracle Core Connect
 * Peoplecore
 * Peoplefluent - previously known as PeopleClick
@@ -299,7 +328,11 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * SHRM (LLNL)
 * Spillman
 * Stanford Registry
+* Taleo (COVID Declarations)
+* UCPath
+* UKG
 * Ultipro
+* WALL-E (Demographics/Fitness Center Eligibility)
 * Workday
 
 {{% anchor sys="lab_system_interfaces" %}}
@@ -313,7 +346,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Arizona thru Scientific Technologies Corp (STC)
 * California CAIR unidirectional (bidirectional is possible, but no clients have requested)
 * Colorado (CDPHE CIIS) Immunization Information System
-* Connecticut WiZ
+* Connecticut (CTWiZ) Immunization Registry
 * Florida Shots (unidirectional nightly FTP to send matching injections to FL Shots)
 * Georgia GRITS uni-directional HL7 via HTTPS
 * Hawaii HIR uni-directional
@@ -321,7 +354,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Illinois I-Care (bi-directional via sFTP)
 * Indiana Children's Healthcare Immunization Registry Program (CHIRP) bi-directional HL7 via HTTPS
 * Kansas
-* Kentucky (KYIR) (in progress)
+* Kentucky (KYIR) Immunization Registry
 * Louisiana thru Scientific Technologies Corp (STC)
 * Maryland MDHD Crisp Immunization or ImmuNet
 * Massachusetts Immunization Information System (MIIS) via HTTPS
@@ -329,13 +362,13 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Mississippi thru Scientific Technologies Corp (STC)
 * Missouri Immunization Registry
 * Montana (imMTrax) Immunization Program
-* Nevada State Immunization Registry (in progress)
+* Nevada State Immunization Registry
 * New Jersey Immunization Information System (NJIIS) (unidirectional via nightly sFTP)
-* New York City (CIR)
-* New York State (NYSIIS)
-* North Carolina (CVMS) (in progress)
+* New York City (CIR) Immunization Registry
+* New York State (NYSIIS) Immunization Registry
+* North Carolina (CVMS) Immunization Registry
 * Ohio Immunization Registry (ImpactSIIS) - currently uni-directional to SIIS
-* Oklahoma (in progress)
+* Oklahoma Immunization Registry
 * Oregon Immunization Registry
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
 * South Carolina Immunization Registry (SIMON) (inbound uni-directional)
@@ -352,6 +385,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 ## Lab System Interfaces
 
 * Abbott Alere
+* Advantis Laboratories
+* Aegis Laboratories
 * American Esoteric Laboratories (a.k.a. AEL) (Bi-Directional)
 * AP Easy (results only)
 * Atlas Medical also known as iON
@@ -372,13 +407,16 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * CGM LABDAQ
 * Clinical laboratories of HI bi-directional interface (orders and results)
 * Color Lab (Bi-Directional)
+* Compunet Clinical Laboratory
 * Core Diagnostic Lab (HL7 bi-directional)
+* CRL Toxicology Lab
 * Crown Lab (Bi-Directional)
 * Cunningham Pathology (Aurora Diagnostics) HL7 Bi-directional
 * Cyberlab (Bi-Directional)
 * Diagnostic Laboratory Services (DLS) Bi-directional
 * Dominion Diagnostics (results only)
 * Drug Scan (Bi-directional)
+* eLab
 * Epic Beaker (Bi-directional)
 * Exact Sciences (Bi-Directional)
 * Fort Wayne Med Lab (results only)
@@ -387,15 +425,20 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * IMD Path (Bi-Directional)
 * Inform Diagnostics pathology bi-directional interface (orders and results)
 * iON also known as Atlas Medical
+* JBC Laboratory
 * LabCorp (Client-Bill bi-directional orders and results)
 * Lab Works (HL7 uni-directional results only)
 * Lutheran Hospital Lab/Path (results only)
 * MD State Lab (Bi-directional orders and results)
+* MedCom
 * Medical Diagnostics Laboratory - A OB-GYN specialty lab (Bi-directional)
 * Meditech Lab Interface (Results only)
 * Med Labs of Arkansas (Bi-directional orders and results-including pathology)
+* MedTox Laboratories
 * Natera Lab (Bi-directional)
-* Orchard Lab
+* NuVision Labs, part of Mercy Hospital
+* Orchard Laboratories
+* Oxford Laboratories
 * Paragon Labs/Atlas (results only)
 * Paragon Labs/Sunquest (results only)
 * Parkview Hospital Lab/Path-Soft Lab Inbound
@@ -403,7 +446,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Path Group (HL7 bi-directional)
 * Path Labs
 * Progenity
-* Psychemedics (results only)
+* Psychemedics Toxicology (results only)
 * QuadMed Lab (results only)
 * Quest Diagnostics (Certified Bi-directional orders and results)
 * Regional West Lab Interface
@@ -411,8 +454,10 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * SCC Softlab (bi-directional)
 * St. Dominic's Hospital Lab (results only)
 * Satellite Laboratory Services
+* South Bend Medical Foundation Lab
 * Southeast Clinical Labs (bi-directional)
 * University of Nebraska Medical Center -- UNMC (Bi-directional orders and results)
+* Wyoming Regional West Lab
 
 ## Outbound CCD Transmission
 
