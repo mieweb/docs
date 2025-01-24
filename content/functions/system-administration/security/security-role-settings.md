@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-01-24T15:20:52.717Z'
-version: 446
+date: '2025-01-24T15:22:24.135Z'
+version: 448
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
