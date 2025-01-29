@@ -1,8 +1,8 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2025-01-29T19:15:17.085Z'
-version: 277
+date: '2025-01-29T19:26:25.865Z'
+version: 281
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -39,8 +39,6 @@ You can be alerted via email and/or SMS Text when a task gets assigned to you  T
 **Email me on task addition:** The user **must** have an email address on their user account in the Control Panel.  If this preference is set to Yes, the system will email the user whenever a task gets assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
 
 **Send SMS on task addition:** The system **must** have an SMS/Texting agreement in place as standard texting rates apply. The user **must** have a complete cell number on their user account in the Control Panel.  If a user sets their preference to Yes, the user will receive a SMS text communications when a task has been assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
-
-![](../task-list.assets/dd8ecd3656768634afe99127fb470617.png)
 
 The text does not contain any hyperlinks to the system login.  The text's intent is only for informational notification and reads "Task Added:" followed by the specific Task Description. Texts will be sent to the cell phone as listed on the user's account. Additionally, customers must have a SMS/Texting agreement in place as standard texting rates apply.
 
