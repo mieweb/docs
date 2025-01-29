@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2024-11-20T20:28:41.796Z'
-version: 265
-lastAuthor: 'janderson'
+date: '2025-01-29T19:15:17.085Z'
+version: 277
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -29,6 +29,22 @@ There are two ways to access your pending tasks:
 Either way will take you to the Task List.  It will default to open to Your Task List tab.  It then lists all tasks assigned to your username and/or department(s).
 
 ![](../task-list.assets/1de0692a0b3d887d2771a0f31e7a4a65.png)
+
+## Task Notifications of Tasks Assigned to You
+
+You can be alerted via email and/or SMS Text when a task gets assigned to you  There are 2 available My Settings Preferences that can be setup to allow the specific logged in user to be alerted of tasks being assigned to them.
+
+![](../task-list.assets/f1ac148f3f29cf6c70182080966a68f0.png)
+
+**Email me on task addition:** The user **must** have an email address on their user account in the Control Panel.  If this preference is set to Yes, the system will email the user whenever a task gets assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
+
+**Send SMS on task addition:** The system **must** have an SMS/Texting agreement in place as standard texting rates apply. The user **must** have a complete cell number on their user account in the Control Panel.  If a user sets their preference to Yes, the user will receive a SMS text communications when a task has been assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
+
+![](../task-list.assets/dd8ecd3656768634afe99127fb470617.png)
+
+The text does not contain any hyperlinks to the system login.  The text's intent is only for informational notification and reads "Task Added:" followed by the specific Task Description. Texts will be sent to the cell phone as listed on the user's account. Additionally, customers must have a SMS/Texting agreement in place as standard texting rates apply.
+
+![](../task-list.assets/aaa035b2340aac186b78def517fd1aef.png)
 
 ## Your Task List Tab
 
@@ -102,7 +118,7 @@ Overdue and User Tasks buckets are tasks specifically assigned to you that are a
         ![](../task-list.assets/a08cd215c9456ddf7f4bbd8df66bca6f.png)
 
 * You then choose Add Task or Add Task and Mark Done buttons to indicate how to mark the original task that was assigned to you.
-    * If click Add Task it will prompt you again "You have replied to a task.  Would you like to complete that task?" If you click on the Yes button, it will remove that original task from your queue and still send the reply to the recipient. (Meaning it is really doing the same as add task and mark done).  If you click No then it will leave the original and the reply/new task in the queue.
+    * If you click Add Task it will prompt you again "You have replied to a task.  Would you like to complete that task?" If you click on the Yes button, it will remove that original task from your queue and still send the reply to the recipient. (Meaning it is really doing the same as add task and mark done).  If you click No then it will leave the original and the reply/new task in the queue.
     * If you click Add Task and Mark Done, this will skip the step of asking the user if they want to mark the old task done after they add the new (the new is the reply).  This then takes the original task out of the queue and puts it in the completed task tab. The reply will automatically go back to the person that originally sent you the task.  It is now their turn to complete on their end, and will show up on their task list to do and complete.
 
 ### Task ID Method
