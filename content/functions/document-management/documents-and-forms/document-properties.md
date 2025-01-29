@@ -1,9 +1,9 @@
 ---
 id: '1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 title: 'Document Properties'
-date: '2024-07-01T20:47:33.899Z'
-version: 127
-lastAuthor: 'janderson'
+date: '2025-01-28T23:04:57.085Z'
+version: 136
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'link-documents-to-order-requests.md'
@@ -55,7 +55,9 @@ The following explains the various fields available in the document properties. 
 
 ![](../document-properties.assets/9a0a594f64fa8be928d186685c0b50ad.png)
 
-**Viewed By:** This field is available for clients on 202309 and newer. This field will show the name of the user and date that this document was viewed on the portal.
+**Viewed By:** This field is available for clients on 202309 and newer. This field will show the name of the portal user(s) and date that this document was viewed on the portal, if this document was shared onto the patient and/or supervisor portal.
+
+![](../document-properties.assets/9f943d97fbe48eb17ac358fd9965f9f6.png)
 
 **Subject**: The ability to add a subject to a document is a feature that is enabled by default. This field is designed for free-texted subjects, intended to assist with providing context on and searchability of multitudinous documents. To add a subject, simply click the **Add** link in the *Subject* field of the document properties. After free-texting the subject, click the **Save** button. Subjects cannot be added/edited for email documents, because email subjects are created when the email reminder is triggered from system modules. For more details, review the [Adding a Subject to Documents](adding-a-subject-to-documents.md) documentation.
 
