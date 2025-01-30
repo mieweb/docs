@@ -1,9 +1,9 @@
 ---
 id: '19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
 title: 'Checkin'
-date: '2025-01-02T20:22:26.751Z'
-version: 157
-lastAuthor: 'auhrick'
+date: '2025-01-30T17:18:10.586Z'
+version: 162
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/insurance-summary-in-demographics-tab.md'
@@ -53,7 +53,7 @@ The available fields are as follows:
 
 **Carbon Copies/Related Providers:** This section is used to link appropriate physicians, or provide carbon copies to relevant clinicians associated with the patient. Simply enter the name of the clinicians, specifying their role and whether they need linked to the patient, and click the **Add** button for each. Alternatively, staff may set any related providers from within the encounter, as well.
 
-**Notes/Comments:** This free-text field is used between the Scheduler and Checkin modules. Adding comments/notes in this free-text box will only show when a user is viewing the Checkin screen or tab, or when moving a patient from one station to another. Comments on scheduled appointments transfer over to the Checkin module. These notes can be edited without changing the appointment comments, and are generally used for the specific tasks and actions of that day, allowing staff to monitor what is done throughout the patient's visit. The Notes/Comments are not saved and will be removed when the patient is checked out. Checkin notes are limited to 100 characters.
+**Notes/Comments:** This free-text field is limited to 100 characters and is used between the Scheduler and Checkin modules. Adding comments/notes in this free-text box will only show when a user is viewing the Checkin screen or tab, or when moving a patient from one station to another. Comments on scheduled appointments transfer over to the Checkin module. These notes can be edited without changing the appointment comments, and are generally used for the specific tasks and actions of that day, allowing staff to monitor what is done throughout the patient's visit. The Notes/Comments are not saved and will be removed when the patient is checked out. Checkin notes/comments are limited to 100 characters.
 
 **Station:** Choose the initial station the patient is being checked into. This is typically *Waiting Room*.
 
@@ -79,7 +79,7 @@ The columns available in each category's list view can be sorted, as needed. The
 * <strong>Chief Complaint</strong>: It is possible to add an attribute to show the Chief Complaint column for both categories. If this attribute tag is used in a public setting (i.e., PUBLIC_VIEW="1") or the user does not have Checkin permission, this column will not be displayed in either category view.
 * <strong>Check-In Time</strong>: Displays the time the patient was checked in, when the staff clicked the Checkin link.
 * <strong>Encounter Time</strong>: Displays the total time the patient has been at the facility, since the initial check.
-* <strong>Comment</strong>: Any comments tied to the checkin/station movement are displayed, (Limited to 100 characters.)
+* <strong>Comment</strong>: Any comments tied to the checkin/station movement are displayed and are limited to 100 characters.
 * <strong>Acting User</strong>: This is the name of the user that last edited the patient's location, or station.
 * <strong>Options</strong>: Displays the patient's current station, and in parentheses, the amount of time the patient has been at the station. This can be clicked to move a patient to another station or to check him/her out.
     * <strong>Open</strong>: Click this and the encounter will become the current encounter for the user. The user will then be taken directly into the current encounter's Exam stage.
@@ -88,7 +88,7 @@ The columns available in each category's list view can be sorted, as needed. The
 
 With the patient checked in, the station location of the patient will display in various places throughout the system, including on the Demographics chart tab, Summary chart tab, and the Scheduler and Checkin modules, to name a few. The current station, or room, and duration of time spent at the listed station is displayed. To move or check out a patient, simply click on the link.
 
-When the link is clicked, the *Enter New Station Details* pop-up opens. Move the patient to the appropriate station by using the *New Station* dropdown menu. Comments will display to users when using the Checkin module screen. Click the **Save** button, when finished.
+When the link is clicked, the *Enter New Station Details* pop-up opens. Move the patient to the appropriate station by using the *New Station* dropdown menu. Comments (limited to 100 characters) will display to users when using the Checkin module screen. Click the **Save** button, when finished.
 
 ![](../checkin.assets/26cb63cfc6face05ced20167423a489f.png)
 
