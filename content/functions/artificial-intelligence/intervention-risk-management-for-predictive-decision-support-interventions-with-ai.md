@@ -1,25 +1,25 @@
 ---
 id: '1mphjZQnaF0HQMYPS7fSLpWbV_RrGNG5Huc2NGRbzHHw'
 title: 'Intervention Risk Management for Predictive Decision Support Interventions with AI '
-date: '2024-12-04T19:17:24.259Z'
-version: 91
-lastAuthor: 'nrichardson'
+date: '2025-01-13T20:57:23.020Z'
+version: 109
+lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mphjZQnaF0HQMYPS7fSLpWbV_RrGNG5Huc2NGRbzHHw'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Introduction of MIE's IRM Practices
 
-MIE is committed to the responsible development and deployment of artificial intelligence (AI) in healthcare. As part of this commitment, MIE has implemented robust Intervention Risk Management (IRM) practices for Predictive Decision Support Interventions (DSIs) supplied through its **Wellby platform, which is integrated into MIE's certified WebChart EHR**. This document aims to provide summary information about these practices, in compliance with the requirements outlined in § 170.523(f)(1)(xxi) of the Federal Register. These regulations mandate the public disclosure of summary information regarding IRM practices for any Predictive DSIs supplied by health IT developers as part of a Health IT Module.
+MIE is committed to the responsible development and deployment of artificial intelligence (AI) in healthcare. As part of this commitment, MIE has implemented robust Intervention Risk Management (IRM) practices for Predictive Decision Support Interventions (DSIs) supplied through its **Ozwell platform, which is integrated into MIE's certified WebChart EHR**. This document aims to provide summary information about these practices, in compliance with the requirements outlined in § 170.523(f)(1)(xxi) of the Federal Register. These regulations mandate the public disclosure of summary information regarding IRM practices for any Predictive DSIs supplied by health IT developers as part of a Health IT Module.
 
-**WebChart EHR is ONC-ACB and EPCS certified by Drummond Group, ensuring that it meets the criteria for eligible provider technology and that e-prescribing of controlled substances is in full compliance with DEA requirements**. This certification does not represent an endorsement by the U.S. Department of Health and Human Services. **Wellby is MIE's advanced model engine router, designed to support multiple AI models across multiple modalities, including text, images, and voice, making it a powerful tool within the WebChart EHR ecosystem**.
+**WebChart EHR is ONC-ACB and EPCS certified by Drummond Group, ensuring that it meets the criteria for eligible provider technology and that e-prescribing of controlled substances is in full compliance with DEA requirements**. This certification does not represent an endorsement by the U.S. Department of Health and Human Services. **Ozwell is MIE's advanced model engine router, designed to support multiple AI models across multiple modalities, including text, images, and voice, making it a powerful tool within the WebChart EHR ecosystem**.
 
 Instead of relying solely on the AI model's training data, Retrieval-Augmented Generation (RAG) dynamically fetches the latest and most relevant information, ensuring responses are both accurate and aligned with current standards of care. WebChart empowers physicians by enabling them to upload their own trusted guidelines from professional organizations, such as the American College of Cardiology (ACC), the National Comprehensive Cancer Network (NCCN), and the American College of Occupational and Environmental Medicine (ACOEM). This capability ensures that clinical decision support tools, including those powered by RAG technology, are tailored to reflect the most relevant, evidence-based standards specific to the physician's specialty, institution, or patient population. By integrating these physician-supplied guidelines into the system, WebChart facilitates personalized, up-to-date, and context-specific recommendations, enhancing efficiency and improving alignment with best practices in clinical care.
 
-MIE recognizes the transformative potential of AI in healthcare but also acknowledges the importance of addressing potential risks and ensuring the safe, effective, and ethical use of AI-powered tools. MIE's IRM practices are designed to ensure that Predictive DSIs supplied through Wellby are developed and deployed in a manner that prioritizes patient safety, data privacy, and fairness.
+MIE recognizes the transformative potential of AI in healthcare but also acknowledges the importance of addressing potential risks and ensuring the safe, effective, and ethical use of AI-powered tools. MIE's IRM practices are designed to ensure that Predictive DSIs supplied through Ozwell are developed and deployed in a manner that prioritizes patient safety, data privacy, and fairness.
 
-This document will provide an overview of MIE's IRM framework, highlighting key aspects of risk analysis, risk mitigation, and governance. It will also describe how **Wellby's integration with WebChart** contributes to mitigating risks and promoting responsible AI deployment in healthcare settings.
+This document will provide an overview of MIE's IRM framework, highlighting key aspects of risk analysis, risk mitigation, and governance. It will also describe how **Ozwell's integration with WebChart** contributes to mitigating risks and promoting responsible AI deployment in healthcare settings.
 
 ## Overview of IRM Practices
 
@@ -31,17 +31,17 @@ MIE's approach to IRM prioritizes transparency, accountability, and continuous i
 
 ### Key Principles of MIE's IRM Framework:
 
-* <strong>Proactive Risk Identification:</strong> MIE conducts thorough risk analyses throughout the development and deployment lifecycle, anticipating and identifying potential risks associated with each Predictive DSI supplied through its Wellby platform. This includes considering the eight characteristics of trustworthy AI, as defined by the NIST AI RMF:  <strong>validity, reliability, robustness, fairness, intelligibility, safety, security, and privacy</strong>.
+* <strong>Proactive Risk Identification:</strong> MIE conducts thorough risk analyses throughout the development and deployment lifecycle, anticipating and identifying potential risks associated with each Predictive DSI supplied through its Ozwell platform. This includes considering the eight characteristics of trustworthy AI, as defined by the NIST AI RMF:  <strong>validity, reliability, robustness, fairness, intelligibility, safety, security, and privacy</strong>.
 * <strong>Tailored Risk Mitigation:</strong> MIE develops and implements risk mitigation strategies specific to each Predictive DSI, addressing identified risks with appropriate measures. These strategies may involve data preprocessing techniques, model monitoring, user training, and ongoing evaluation to ensure responsible use.
-* <strong>Robust Data Governance:</strong> MIE has established policies and controls to govern the acquisition, management, and use of data for Predictive DSIs supplied through Wellby. These policies prioritize data security, privacy, and responsible use, ensuring compliance with relevant regulations and ethical considerations.
-* <strong>Wellby as an IRM Facilitator:</strong> MIE's Wellby platform plays a crucial role in supporting and operationalizing IRM practices. Its design and functionality contribute to mitigating risks and enabling responsible AI deployment.  <strong>Key Wellby features include secure API connections to organizational datasets, access controls for both users and APIs, and audit trails to track all interactions and changes.</strong>
+* <strong>Robust Data Governance:</strong> MIE has established policies and controls to govern the acquisition, management, and use of data for Predictive DSIs supplied through Ozwell. These policies prioritize data security, privacy, and responsible use, ensuring compliance with relevant regulations and ethical considerations.
+* <strong>Ozwell as an IRM Facilitator:</strong> MIE's Ozwell platform plays a crucial role in supporting and operationalizing IRM practices. Its design and functionality contribute to mitigating risks and enabling responsible AI deployment.  <strong>Key Ozwell features include secure API connections to organizational datasets, access controls for both users and APIs, and audit trails to track all interactions and changes.</strong>
 * <strong>Continuous Monitoring and Improvement:</strong> MIE is committed to continuous monitoring and improvement of its IRM practices. Processes are in place for regularly reviewing and updating IRM procedures, documentation, and risk assessments. MIE incorporates feedback from stakeholders, leverages industry best practices, and stays abreast of advancements in AI risk management to enhance its framework.
 
-By adhering to these principles, MIE aims to ensure that Predictive DSIs supplied through Wellby are developed and deployed responsibly, maximizing their potential benefits while mitigating potential risks. MIE's proactive approach to IRM contributes to building trust in the use of AI in healthcare, paving the way for its safe and ethical integration into clinical practice.
+By adhering to these principles, MIE aims to ensure that Predictive DSIs supplied through Ozwell are developed and deployed responsibly, maximizing their potential benefits while mitigating potential risks. MIE's proactive approach to IRM contributes to building trust in the use of AI in healthcare, paving the way for its safe and ethical integration into clinical practice.
 
 ## Risk Analysis - IRM Practices
 
-A crucial aspect of MIE's commitment to responsible AI involves a thorough risk analysis of each Predictive DSI supplied through the Wellby platform. **This process aims to identify and understand potential risks and adverse impacts associated with each Predictive DSI across various characteristics, aligning with the principles of the NIST AI RMF**.
+A crucial aspect of MIE's commitment to responsible AI involves a thorough risk analysis of each Predictive DSI supplied through the Ozwell platform. **This process aims to identify and understand potential risks and adverse impacts associated with each Predictive DSI across various characteristics, aligning with the principles of the NIST AI RMF**.
 
 The sources emphasize that MIE is not required to disclose specific risk analysis metrics or mitigation practices beyond the eight characteristics listed in § 170.315(b)(11)(vi)(A). **This allows MIE to protect its intellectual property while providing meaningful information about its approach to risk analysis**.
 
@@ -69,7 +69,7 @@ To illustrate the practical implications of its risk analysis, MIE considers pot
     * Conflicting guidance (e.g., outdated protocols uploaded alongside newer recommendations).
     * Incomplete or poorly formatted guidelines that may not integrate well with the RAG system, leading to ambiguous or unreliable outputs.
 
-**By meticulously analyzing potential risks and adverse impacts across these characteristics, MIE aims to ensure that Predictive DSIs supplied through Wellby are safe, effective, and ethically sound**. This thorough risk analysis is a cornerstone of MIE's responsible AI development process.
+**By meticulously analyzing potential risks and adverse impacts across these characteristics, MIE aims to ensure that Predictive DSIs supplied through Ozwell are safe, effective, and ethically sound**. This thorough risk analysis is a cornerstone of MIE's responsible AI development process.
 
 ## Risk Mitigation for Predictive DSIs
 
@@ -188,4 +188,4 @@ By embedding continuous monitoring and improvement into the lifecycle of its Pre
 
 ## Conclusion
 
-MIE's Predictive Decision Support Interventions (DSIs), powered by the Wellby subsystem, exemplify the organization's dedication to advancing responsible, effective, and safe AI solutions in healthcare. Wellby, with its cutting-edge capabilities in integrating clinician-provided guidelines and Retrieval-Augmented Generation (RAG), empowers providers to deliver personalized, evidence-based care while maintaining full control over the guidelines and data used. By embedding robust governance, clinician feedback mechanisms, and continuous monitoring into the lifecycle of its DSIs, MIE ensures that Wellby remains a reliable and adaptable subsystem, aligned with evolving clinical and regulatory standards. Through Wellby, MIE is redefining how AI supports clinicians, fostering trust, accountability, and innovation in the healthcare landscape.
+MIE's Predictive Decision Support Interventions (DSIs), powered by the Ozwell subsystem, exemplify the organization's dedication to advancing responsible, effective, and safe AI solutions in healthcare. Ozwell, with its cutting-edge capabilities in integrating clinician-provided guidelines and Retrieval-Augmented Generation (RAG), empowers providers to deliver personalized, evidence-based care while maintaining full control over the guidelines and data used. By embedding robust governance, clinician feedback mechanisms, and continuous monitoring into the lifecycle of its DSIs, MIE ensures that Ozwell remains a reliable and adaptable subsystem, aligned with evolving clinical and regulatory standards. Through Ozwell, MIE is redefining how AI supports clinicians, fostering trust, accountability, and innovation in the healthcare landscape.
