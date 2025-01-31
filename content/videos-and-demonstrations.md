@@ -1,8 +1,8 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2025-01-20T17:05:11.203Z'
-version: 734
+date: '2025-01-31T17:03:57.662Z'
+version: 739
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
@@ -173,8 +173,16 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% only sys="eh" %}}
 
-### AI Medical Assistant, Ozwell
+### Enterprise Health AI Medical Assistant, powered by Ozwell
 
 {{< youtube F6DDGccpgRU >}}
+
+{{% /only %}}
+
+{{% only sys="wc" %}}
+
+### WebChart AI Medical Assistant, powered by Ozwell
+
+{{< youtube -DQOsejqR0o >}}
 
 {{% /only %}}
