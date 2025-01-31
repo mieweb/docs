@@ -1,9 +1,9 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2024-11-21T19:54:19.707Z'
-version: 371
-lastAuthor: 'janderson'
+date: '2025-01-31T15:47:49.401Z'
+version: 384
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
@@ -263,19 +263,21 @@ When the Co-Signing Provider is set for a user within My Settings, and that user
 
 ![](../working-in-a-visit-encounter.assets/1b3bc90be7b6353cc69052aadcc01040.png)
 
-![](../working-in-a-visit-encounter.assets/401d34f7c905914c6584f75e8612d640.png)
+![](../working-in-a-visit-encounter.assets/8b2ecff6296e623fdb8b17ad1c1dd937.png)
 
-### Clinical Summary/CCDA
+### CCDA Settings
 
-A clinical summary to hand to the patient can be generated from the CCDA/Clinical Summary section. The electronic version of the CCDA/Clinical Summary can be sent to the patient's NoMoreClipboard account also. The CCDA/clinical summary section allows a provider to uncheckmark to weed out specific sections of the encounter (ex: allergies, etc) from displaying in the CCDA and/or Clinical Summary. By default, generating the clinical summary and electronically sending to their NMC account is checkmarked and will generate/send upon save/view or close/archive.
+A CCDA can be created and noted as Not Restricted or Restricted.
 
-![](../working-in-a-visit-encounter.assets/17b77f707f0d03a40648b08f86b29c74.png)
+The ability to mark CDA Document as Not Restricted or Restricted provides the ability to set the confidentiality tag to 'restricted' on the archived CDA document, as required by Federal EHR Certification. Setting the document to restricted does not block any content from the CDA. To view more information and details on the meanings of the settings, visit: HL7 FHIR v3-Confidentiality
 
-### Patient Education
+![](../working-in-a-visit-encounter.assets/236063db39b7aed7e83433928648e9b5.png)
 
-The dynamic encounter offers a batching mode to document patient education material was given, a free text box to type what was given and also access to batch print patient education handouts that your practice utilizes from the  {{% system-name %}} forms library. Checkmarking the box next to the specific patient education material(s) will document that also on the encounter view/document. Utilizing the Batch link next to each specific patient education material(s) will put them in a ‘batch' which you can then print and hand to the patient. Note: In order for this section & functionality to appear, your MIE Implementer must have loaded your patient education handouts as forms and those doc.types mapped to a chart tab named Patient Education.
+### Clinical Education
 
-![](../working-in-a-visit-encounter.assets/4204686be74ca6ed33cbfa266a2b780c.png)
+The Clinical Education section provides the ability to Generate Clinical Education from your forms library if custom configured to batch forms and allows user to acknowledge clinical education material given to the patient and document what was given.
+
+![](../working-in-a-visit-encounter.assets/a9e1a540a8651f71d0aaa27e5e6a7e73.png)
 
 ### Future Appointments
 
@@ -369,9 +371,17 @@ You can still get into a closed encounter as before, but dynamic encounters will
 
 ![](../working-in-a-visit-encounter.assets/7246d0b054f95f21a0803d59419bf2f0.png)
 
-## Additional Documents
+## Additional Documents / Additional Views
 
-Dynamic encounter sections themselves can store as their own additional document upon the encounter's archive & close. Each dynamic section is a layout and the layout can be set to a specific document type to store as. The section would still be part of the entire stored encounter document, but upon archive & close, the section would store as its own document in the chart if a document type is set on the section layout. Contact your MIE Implementer for any programming needed.
+Encounter sections themselves can generate and store as their own additional document upon the encounter's archive & close. Each section is a layout and the layout can be set to a specific document type to store as. The section would still be part of the entire stored encounter document, but upon archive & close, the section would store as its own document in the chart if a document type is set on the section layout.
+
+The Clinical/Visit Summary is also a standard additional view that is generated.  An additional view for the Clinical (Visit) Summary is configured in the Encounter Exams editor.
+
+![](../working-in-a-visit-encounter.assets/7942fa2ec186e446e6d61b950f956f39.png)
+
+The Patient Clinical Visit Summary has been updated to make it more uniform, compact, and easier to read as a handout given to the patient (or shared to the portal) on the conclusion of their visit. The updated Visit Summary uses 3 main layouts of: Clinical Summary, Vitals, & Vitals_list to populate the contents.
+
+![](../working-in-a-visit-encounter.assets/b9afe047a4eb6cc49c710affdbd3d417.png)
 
 ## Learning Management System
 
