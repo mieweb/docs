@@ -1,20 +1,22 @@
 ---
 id: '1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
 title: 'Adding contacts to employer organizations'
-date: '2021-02-17T22:24:33.565Z'
-version: 23
-lastAuthor: ''
+date: '2025-01-31T15:31:05.562Z'
+version: 45
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-1. [Find employer organizations](finding-employer-organizations.md).
-2. From the search results, select the <strong>name of the organization</strong> to which to add contacts. The system displays information about the organization.
-3. Select the <strong>Overview (EO)</strong> tab.
-4. In the <em>Contacts</em> section, select <strong>Add New Contact</strong>. The <em>Enter Information</em> page appears.
+1. Navigate to the Overview (EO) tab of an [employer organization](finding-employer-organizations.md) chart.
+2. In the <em>Contacts</em> section, select the <strong>Add New Contact</strong> link.  
+    ![](../adding-contacts-to-employer-organizations.assets/a6735fd85a5d1c1c422dc5f9567ccfd3.png)
+3. Enter the Last Name, First Name, and Contact Type, Email, Phone and Start Date.
 
-    ![](../adding-contacts-to-employer-organizations.assets/b52bc2c58fe894c37a87ef56a9d46a08.png)
-5. In the <em>Enter Information</em> page, complete the fields. Select the <strong>Add New</strong> button. The system shows information about the contact.
-6. At the bottom of the information about the contact, select the <strong>Submit</strong> button. The system adds the contact to the employer organization.
+![](../adding-contacts-to-employer-organizations.assets/b52bc2c58fe894c37a87ef56a9d46a08.png)
+
+4. Select the <strong>Add New</strong> button when all known information regarding the contact has been entered.
+5. The user is redirected to the <em>Overview (Contact)</em> tab in the Contact chart. The Contact chart displays contact information and the organizations associated with the contact. Users can return to the Employer Organization by clicking on the employer organization name under the <em>Organization</em> section.
+    ![](../adding-contacts-to-employer-organizations.assets/5d970400bc6425a965362f3598e7b672.png)
