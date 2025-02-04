@@ -1,9 +1,9 @@
 ---
 id: '1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
 title: 'Quick View - Schedule Portlet'
-date: '2024-12-16T19:50:40.950Z'
-version: 41
-lastAuthor: 'auhrick'
+date: '2025-02-04T19:00:59.778Z'
+version: 63
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
@@ -24,36 +24,39 @@ Users can select a location(s), a resource(s), the schedule date and time of day
 
 Once the Search button has been clicked, the schedule information will display beneath the search criteria.
 
-![](../quick-view-schedule-portlet.assets/4982836441cc19976398fdc6acc22b1f.png)
+Each appointment listed on the schedule shows details, allows interoperable functionality, and is color coded by the appointment type that your system is configured to display for easy visualization.
 
-**Time**: Displays the time of the scheduled appointment.
+![](../quick-view-schedule-portlet.assets/ce25165fe09d383e83502c3891c40c5a.png)
 
-**Chart**: Displays the name of the patient scheduled for the appointment.
+**Time**: Displays the time slot of the scheduled appointment. This is a hyperlink that can be used to advance to the Reschedule/Cancel appointment screen for this scheduled appointment.
 
-**Options**: Allows users to Check in and/or quickly create and/or view the encounter associated with the appointment. See below for more information on this functionality.
+**Chart**: Displays the name of the chart that is scheduled for the appointment. This is a hyperlink that can be used to advance to the chart's Summary dashboard and chart contents.
 
-**Stage**: Displays the encounter stage of the encounter associated with the appointment. Not all encounters utilize stages, so it is not uncommon for this column to be empty.
+**Options**: There are some options available from the Schedule quick view portlet:
 
-**Status**: The open lock indicates that the associated encounter to this appointment is still open. A closed lock indicates that the associated encounter to this appointment has been closed.
+* <strong>Checkin</strong> hyperlink<strong>:</strong> Allows users to Check in using that hyperlink to one-click checkin for the scheduled appointment from this portlet.
+* <strong>Checked Out</strong> hyperlink<strong>:</strong> Signifies the person has been checked out, but one can click this hyperlink to check them back in if needed from this portlet.
+* <strong>Checkin Station Name</strong> hyperlink<strong>:</strong> Displays the various station names of where the person is at the moment at the clinic (and how long they've been in that station).  As patients move through their visit, stations may change and update here.  This is a quick visual to see ‘where' physically the patient is in your clinic.  The station is a hyperlink that can be clicked here to quickly <em>move</em> the patient to another station as needed, from this portlet.
+* <strong> [+] icon</strong>: Allows users to only create/add the encounter (that is configured to that specific appointment type) and does <strong>not</strong> check the chart in for their scheduled appointment. This may be used when needing to prepare the encounter for the appointment, but not check the person in for their appointment yet. When the <strong>+</strong> icon is selected, the associated encounter, if configured, will automatically be created & will open and the user will be redirected to the opened encounter. The Encounter section will default the encounter to the date/time of the scheduled appointment (NOT the date/time the encounter was created/opened), as well as display the linked appointment type. If the patient is later checked in, and an encounter was previously created/opened using this [+] icon, a second encounter will not be created.  The user will be directed to the existing encounter. If an encounter was not previously opened at the time of check in, then the existing functionality has not changed. In this case, any associated encounter will automatically be opened for the user upon Checkin.
 
-**Birth Date**: Displays the scheduled patient's date of birth.
+![](../quick-view-schedule-portlet.assets/34bb5349fe39ac3c7964976e6b2d8023.png)
+
+* <strong>Visit</strong> hyperlink: Allows users to click that hyperlink to get right into the open linked encounter that was created based on the specific scheduled appointment.
+* <strong>Checked Out</strong> hyperlink: Signifies the chart has been marked as checked out for their appointment.  If needed, can click on the Checked Out hyperlink to check them in again.
+* <strong>View</strong> hyperlink<strong>:</strong> Allows users to click on that hyperlink to get to the linked encounter ‘view' that was created based on the specific scheduled appointment. But, only the encounter View because the encounter had been closed & archived.
+
+**Stage**: Displays the encounter stage of the appointment's linked encounter.  Not all encounters utilize stages, so it is common for this column to be empty.
+
+**Status** padlock: The green open padlock icon indicates that the linked encounter (to this appointment) is still open (meaning, the encounter has not been closed & archived yet). One can actually quickly click on the green open lock icon to closed & archive the encounter from here.  The red closed padlock icon indicates that its linked encounter (to this appointment) has been closed & archived.  One cannot reopen the encounter from here though.
+
+**Birth Date, Age & Sex**: Displays the related scheduled patient's demographics info.
 
 **Appointment Type(s)**: Displays the appointment type(s) for the scheduled appointment.
 
-**Appointment Reason**: Display the appointment reason, if one was added at the time of scheduling.
+**Appointment Reason**: Display the appointment's Chief Complaint, if one was added at the time of scheduling.
 
 **Resource(s)**: Displays the provider for which the patient has been scheduled to see.
 
 **Location**: Displays the location at which the appointment was scheduled.
 
-**Comment**: Displays any comments entered on the appointment at the time of scheduling.
-
-## Options
-
-The Schedule portlet has been updated to allow users to create the visit encounter prior to patient check in. Users on release 202309 will now see a **+** icon to the right of the Checkin link.  When the **+** icon is selected, the associated encounter, if configured, will automatically open and the user will be redirected to the opened encounter. The Encounter section will default the encounter to the date/time of the scheduled appointment (NOT the date/time the encounter was opened), as well as display the linked appointment type. If the patient is checked in, and an encounter was previously opened, a second encounter will not be created and the user will be directed to the existing encounter. If an encounter was not previously opened at the time of check in, then the existing functionality has not changed. In this case, any associated encounter will automatically be opened for the user upon Checkin.
-
-![](../quick-view-schedule-portlet.assets/d377faa3048677dc876563d0272251d4.png)
-
-![](../quick-view-schedule-portlet.assets/6ddea52a920bb927c5d99feb139e7292.png)
-
-![](../quick-view-schedule-portlet.assets/d46d614ee1f16ebfe5f0a069bef93141.png)
+**Comment**: Displays any appointment comments entered on the appointment at the time of scheduling.
