@@ -1,9 +1,9 @@
 ---
 id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 title: 'Adding Restrictions'
-date: '2024-12-27T21:15:36.665Z'
-version: 341
-lastAuthor: 'mpierzchala'
+date: '2025-02-04T19:11:04.117Z'
+version: 347
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-restrictions.md'
@@ -55,7 +55,8 @@ Complete the Restriction fields to add a new restriction on the chart for this v
 
 When picking an end date for a clinical restriction from the popup calendar, the end time will default to 11:59pm. If you leave the "End Time" field blank, it will also default/assume to 11:59pm.
 
-    * NOTE: The only way around signifying a specific end date and not marking the restriction (with no end date) as permanent would be if the user has security permission to <em>Allow Open Restrictions</em>.  If a user has permission to Allow Open Restrictions, then it allows the user to create & save restrictions without keying in an end date, not having to mark it permanent.  Use caution if allowing this security permission.
+NOTE: The only way around signifying a specific end date and not marking the restriction (with no end date) as permanent would be if the user has security permission to *Allow Open Restrictions*.  If a user has permission to Allow Open Restrictions, then it allows the user to create & save restrictions without keying in an end date, not having to mark it permanent.  Use caution if allowing this security permission.
+
 * Provider: This autocomplete field currently points to select users within the department "Physicians", but can be changed to point to a different department by having your MIE Implementer change the layout: Restriction Providers. By default, if the logged in user is a member of the department this field points to, it will populate that user's name here in the field automatically. You may want to document a restriction on a patient/employee that an outside provider (not internal) put them on, especially for case management.  In this case, you may want to have your system set up to point to a different department as stated above where active & inactive users (via a layout tag) can be set to that department to show up as choices here.
 * Linked Case:  If the encounter visit you are in is linked to a case/incident, that case/incident info will prepopulate here.  If you are adding a restriction and accommodation that should be tied to a different case/incident, you can use this field to auto-complete to link it to the appropriate case/incident.  If you click your down arrow key ↓ on your keyboard, it will display incidents on that chart to link to.
 * Exclude from Notification Email: This functionality is only available if your system has a scheduled job configured to automatically email newly added or changed restrictions/accommodations to patient/employee and documented supervisors.  If such scheduled job is configured for the system, then the email should respect this checkbox, so when checked, the email would not be sent out upon adding, editing or updating a restriction/accommodation in the chart.
