@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-01-24T15:22:24.135Z'
-version: 448
+date: '2025-02-06T14:51:01.635Z'
+version: 459
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -311,7 +311,8 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage System Layouts:  Yes allows a role to access the System Layout Manager tab in Control.  This is mainly for MIE use to edit/create html for system layouts. The edit-layout icon at upper left hand corner of a rendered layout also displayed so can quickly access the layout from the page currently viewing.
 * View Activity Logs: Allows a role to access the Activity Log tab in Control. Log of specific information that displays users that have accessed your system and their actions. Can choose partial Cgi Data View or Full Cgi Data View. Also can view failed logins.
 * Manage Record Locks: Allows a role to manage record locks in patient documents.
-* Manage External Interfaces: Allows a role to manage external interfaces with their {{% system-name %}} system.  MIE uses.
+* Manage Inbound Interfaces: Allows a role to manage inbound interfaces with the system.  MIE uses.  When Manage Inbound Interfaces is set to Yes, it allows access to the Inbound Demographics in the control panel.
+* Manage External Interfaces: Allows a role to manage external interfaces with the system.  MIE uses. When Manage External Interfaces is set to Yes, it allows access to the Interface Manager in the control panel.
 * Manage System Reports:  No, Run Only, Add/Edit, Add/Edit Realtime. The level of permission selected is the level of which users in the security role will be able to run or work on system reports. The "Add/Edit Realtime" setting allows users to Add/Edit reports that are run real time on client databases. Users with "Add/Edit" will only be able to add/edit reports that are not designated as "realtime".
 * Manage Autocompletes:  No, View, Add, Edit, Delete  The level of permission selected is the level of which users in the security role will be able to access AC Manager tab in Control.
 * Manage ICD9s:  No, View, Add, Edit, Delete. The level of permission selected is the level of which users in the security role will be able to access ICD9 Code Manager tab in Control.
