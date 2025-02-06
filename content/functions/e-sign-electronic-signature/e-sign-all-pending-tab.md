@@ -1,9 +1,9 @@
 ---
 id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 title: 'E-Sign All Pending Tab'
-date: '2025-01-23T20:52:33.776Z'
-version: 84
-lastAuthor: 'auhrick'
+date: '2025-02-06T16:05:31.010Z'
+version: 96
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
@@ -74,15 +74,19 @@ Once the report results, an E-Signature can be requested right there from the re
 
 ## E-Sign DataVis
 
-Users can switch from the legacy E-Sign view to the DataVis format by changing the new "My Settings" user preference. The "Use DataVis in E-sign" preference defaults to "No" to keep users on the legacy list format. Changing it to "Yes" will enable the DataVis format. This update is available for beta testing for customers on RC202309.
+Users can switch from the legacy E-Sign view to the DataVis format by changing a My Settings user preference of *Use DataVis in E-sign* to Yes.
 
-![](../e-sign-all-pending-tab.assets/1349e2f2926a2daf50ff5bb7f0608ee4.png)
+![](../e-sign-all-pending-tab.assets/ec51e069b7783150e7c5fbffafe3daab.png)
 
-Select a row or multiple rows, then click the "Review Select E-Sign" to review and sign document(s) from the E-sign Review screen.
+If your My Settings preference to Use DataVis in E-Sign is enabled,you will see the e-sign screen as a datavis of rows and columns.  Once can create their own perspective(s) as needed also.
 
-Users with Proxy Signing security rights, will have an option to search for other users and toggle to other users E-Sign lists and sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search field does not display.
+![](../e-sign-all-pending-tab.assets/d066ac6f453063033b47af0b13d406c7.png)
 
-![](../e-sign-all-pending-tab.assets/85ba4fd8a3fa8f1cf5ba07162f87eeec.png)
+Select a row or multiple rows of pending documents that need e-signed, then click the *Review Selected E-Sign* function button below the datavis table.  Doing that then opens a pop-up with the document(s) within it to review and sign document(s) individually from the E-sign Review screen.
+
+![](../e-sign-all-pending-tab.assets/0ab87717298b27fc042bbb6e526a6176.png)
+
+Users with Proxy Signing security permission will have an option to search for other users and toggle to other users pending E-Sign requests list and be able to sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search field does not display to be able to search for pending e-signs requested for another user.
 
 ## Learning Management System
 
