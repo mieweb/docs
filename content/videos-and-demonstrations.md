@@ -1,8 +1,8 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2025-01-31T17:03:57.662Z'
-version: 739
+date: '2025-02-06T20:26:13.184Z'
+version: 748
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
@@ -81,6 +81,10 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 {{% gvideo  id="17CXSdLmZbLIDXyoYZkuB091pE3vUnPiP" %}}
 
+### Getting Data out of the system using ODBC or JSON API
+
+{{< youtube 9F2KUHstZ-E >}}
+
 {{% /only %}}
 
 {{% only sys="eh" type="INLINE" %}}
@@ -168,6 +172,10 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 ### Quality, Wellness Measures
 
 {{% gvideo  id="1DEt6bWdtJWwKVCwiLL27lOTbM4QyidN7" %}}
+
+### Getting Data out of the system using ODBC or JSON API
+
+{{< youtube 9F2KUHstZ-E >}}
 
 {{% /only %}}
 
