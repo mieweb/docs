@@ -1272,7 +1272,6 @@ wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
             * [Encounter Types](functions/system-administration/system-controls/encounter-types.md)
             * [Auto Routes](functions/system-administration/system-controls/auto-routes.md)
         * [Data Migration](functions/system-administration/data-migration.md)
-            * [EH Data Migration ETL Approach](https://drive.google.com/open?id=1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
             * [Data Migration File Format Standard](functions/system-administration/data-migration/data-migration-file-format-standard.md)
             * [MIE File Import](functions/system-administration/data-migration/mie-file-import.md)
