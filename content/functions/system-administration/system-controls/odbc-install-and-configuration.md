@@ -1,8 +1,8 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-02-12T16:09:51.659Z'
-version: 219
+date: '2025-02-12T16:27:06.231Z'
+version: 220
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -15,6 +15,8 @@ source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrW
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
+
+### Video
 
 Video discussing how to pull data: [How to get data ODBC and JSON (video 15min)](https://youtube.be/9F2KUHstZ-E)
 
