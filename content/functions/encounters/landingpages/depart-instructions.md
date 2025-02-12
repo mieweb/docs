@@ -1,8 +1,8 @@
 ---
 id: '1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
 title: 'Depart Instructions'
-date: '2025-02-12T19:38:00.215Z'
-version: 33
+date: '2025-02-12T19:47:38.869Z'
+version: 41
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -34,3 +34,15 @@ The Depart Instructions encounter section can also change to reflect specific qu
 ![](../depart-instructions.assets/021f9539b47a2524260a87b6a7e102b2.png)
 
 For additional information on configuring and utilizing Chief Complaint protocols that can be utilized within the Depart Instructions encounter section, please see separate guide [Encounter Protocols](../encounter-protocols.md).
+
+## Visit Summary
+
+If the encounter is configured to generate a Patient Clinical Visit Summary upon close & archive, depart instructions encounter section contents will be included in that Patient Clinical Visit Summary document.
+
+![](../depart-instructions.assets/0ff06ef3dcbd26a0d19ed0e8197f58cc.png)
+
+The Clinical/Visit Summary is a standard additional view that is generated on encounters upon close & archive. This additional view for the Clinical (Visit) Summary is configured in the Encounter Exams editor.
+
+![](../depart-instructions.assets/49e4805a68b7a8755f51dd0c83b47f01.png)
+
+The Patient Clinical Visit Summary has been updated to make it more uniform, compact, and easier to read as a handout given to the patient (or shared to the portal) on the conclusion of their visit. The updated Visit Summary uses 3 main layouts of: Clinical Summary, Vitals, & Vitals_list to populate the contents and includes the Depart Instructions encounter section.
