@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-01-24T16:23:53.428Z'
-version: 1065
-lastAuthor: 'auhrick'
+date: '2025-02-12T17:07:44.427Z'
+version: 1090
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -518,6 +518,7 @@ links:
   - 'functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
   - 'functions/system-administration/system-controls/email-reminders-from-system.md'
   - 'functions/system-administration/system-controls/odbc-install-and-configuration.md'
+  - 'functions/system-administration/system-controls/system-report-writing.md'
   - 'functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
   - 'functions/system-administration/system-controls/merge-manager-tab.md'
   - 'functions/system-administration/system-controls/med-web-ssl-certificate-authority.md'
@@ -527,7 +528,7 @@ links:
   - 'functions/system-administration/system-controls/encounter-types.md'
   - 'functions/system-administration/system-controls/auto-routes.md'
   - 'functions/system-administration/data-migration.md'
-  - 'https://drive.google.com/open?id=1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'
+  - 'functions/system-administration/data-migration/eh-data-migration-etl-approach.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
   - 'functions/system-administration/data-migration/data-migration-file-format-standard.md'
   - 'functions/system-administration/data-migration/mie-file-import.md'
@@ -747,7 +748,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 * [Programs](programs.md)
     * [Medical Programs](programs/medical-programs.md)
@@ -1263,6 +1264,7 @@ wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
             * [Secure Email to Whitelisted Domain(s)](functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)
             * [Email Reminders from System](functions/system-administration/system-controls/email-reminders-from-system.md)
             * [ODBC Install & Configuration](functions/system-administration/system-controls/odbc-install-and-configuration.md)
+            * [System Report Writing](functions/system-administration/system-controls/system-report-writing.md)
             * [Merging Accounts/Charts in System](functions/system-administration/system-controls/merging-accounts-charts-in-system.md)
             * [Merge Manager Tab](functions/system-administration/system-controls/merge-manager-tab.md)
             * [Med-Web SSL Certificate Authority](functions/system-administration/system-controls/med-web-ssl-certificate-authority.md)
@@ -1272,6 +1274,7 @@ wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
             * [Encounter Types](functions/system-administration/system-controls/encounter-types.md)
             * [Auto Routes](functions/system-administration/system-controls/auto-routes.md)
         * [Data Migration](functions/system-administration/data-migration.md)
+            * [EH Data Migration ETL Approach](functions/system-administration/data-migration/eh-data-migration-etl-approach.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
             * [Data Migration File Format Standard](functions/system-administration/data-migration/data-migration-file-format-standard.md)
             * [MIE File Import](functions/system-administration/data-migration/mie-file-import.md)
