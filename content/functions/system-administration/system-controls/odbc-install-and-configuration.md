@@ -1,12 +1,13 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-02-12T16:27:06.231Z'
-version: 220
+date: '2025-02-12T17:03:49.945Z'
+version: 231
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.youtube.com/watch?v=9F2KUHstZ-E'
+  - 'system-report-writing.md'
   - 'https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm'
   - 'https://learn.microsoft.com/en-us/power-query/connectors/mysql-database'
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
@@ -19,6 +20,10 @@ As an add-on feature, some clients may choose to implement ODBC (Open Database C
 ### Video
 
 Video discussing how to pull data: [How to get data ODBC and JSON (video 15min)](https://youtube.be/9F2KUHstZ-E)
+
+### System Report Writing
+
+For help on system report writing, please refer to separate guide [System Report Writing](system-report-writing.md)
 
 ### 3rd Party Tools
 
