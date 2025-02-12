@@ -1,11 +1,12 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2023-09-29T16:21:27.559Z'
-version: 171
-lastAuthor: 'auhrick'
+date: '2025-02-12T16:09:51.659Z'
+version: 219
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://www.youtube.com/watch?v=9F2KUHstZ-E'
   - 'https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm'
   - 'https://learn.microsoft.com/en-us/power-query/connectors/mysql-database'
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
@@ -14,6 +15,8 @@ source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrW
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
+
+Video discussing how to pull data: [How to get data ODBC and JSON (video 15min)](https://youtube.be/9F2KUHstZ-E)
 
 ### 3rd Party Tools
 
