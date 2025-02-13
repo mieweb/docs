@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-01-23T21:06:32.322Z'
-version: 3587
+date: '2025-02-07T17:49:22.189Z'
+version: 3864
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -28,7 +28,6 @@ links:
   - 'https://pm.mieweb.com/issues/118062'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-veripro-hearing-fit/'
   - 'https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/his/en-us/products/hearing-protection/documents/sps-his-veripro-faqs.pdf?download=false'
-  - 'http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html'
   - '../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md'
   - 'http://www.horiba.com/us/en/medical/products/hematology/abx-micros/abx-micros-60-details/abx-micros-60-905/'
@@ -72,6 +71,10 @@ The list below represents a complete listing of all vendors/devices that we have
 * [NCPDP Script 8.1/10.6](https://drive.google.com/open?id=0B1jNa-hAYBL2VTFuNFBkY2V4UDA)
 * SureScripts Net2Net
 
+## Absence Management
+
+* WorkForce ACT
+
 ## Appointment Reminder Interfaces
 
 * Intrado/HouseCalls Pro
@@ -88,6 +91,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Allscripts Ntierprise
 * Anthem Wellpoint
 * Athena
+* Cerner
 * CPSI
 * CRT Medical Systems (bi-directional)
 * [e-ClinicalWorks](../../functions/system-administration/interfaces/e-clinicalworks.md)
@@ -96,17 +100,19 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Examinetics (bi-directional)
 * GE Centricity
 * Genius
+* GHR
 * Groupcast
 * Health Care Automations
 * Health Nautica
 * Ideal
 * Insync
 * Integra
-* Kareo
+* Kareo (No longer supported)
 * Medevolve
 * Medic version 7.10a
 * MediSys
 * Meditech (to RIS)
+* Mednet
 * McKesson HBOC/STAR
 * Med Synergies
 * Medical Manager (Harmony)
@@ -174,7 +180,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Barcode Inventory scanner
     * Datalogic Motorola ES46080 QuickScan 6000; Class # 668112-014001-0000 - Acts like a keyboard
 * Blood Chemistry
-    * [Abaxis Piccolo Xpress Blood Chemistry Analyzer](http://www.piccoloxpress.com/medical-diagnostics/piccolo-xpress)
+    * Abaxis Piccolo Xpress Blood Chemistry Analyzer
+    * Nova CCX Chemistry Machine
 * Blood Pressure
     * SunTech Medical Instruments Accuwin Pro Version 3 software - Device is the Oscar 2, 24 hr AB (File Unidirectional)
     * SunTech Medical Tango M2 Model M00060987 - part of Quinton part of QStress
@@ -213,6 +220,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file upload. Support for the [FitTrack Gold v2.1.0.18](https://pm.mieweb.com/issues/117255) added for RC202309 and newer.
     * [Quantifit2](https://pm.mieweb.com/issues/113505) [Respirator Fit Testing Interface](https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM)
     * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file upload
+    * Portacount Ultrafit Model 8038
     * Portacount Ultrafit Model 8048 (in progress)
 * Scale
     * Healthometer 349KLX 400 lb scale
@@ -249,8 +257,10 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 
 * AMICAS
 * Carestream PACS
+* Cerner
 * CPSI
-* Epic
+* eInformatics
+* Epic Radiant (uni-directional and bi-directional)
 * GE PACS (ImageCast)
 * GE Xeleris
 * IDX PACS
@@ -260,10 +270,12 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * McKesson PACS
 * Nuance Powerscribe
 * Philips iSite
+* SXR
 
 ## Eligibility Interfaces
 
 * Availity
+* RealMed
 * Surescripts Advanced
 * ZirMed
 
@@ -280,6 +292,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Indiana Med-Web Regional Health Information Exchange
 * [KHIN](https://www.khinonline.org/Home.aspx)
 * [KyHIE](https://khie.ky.gov/Pages/index.aspx)
+* Medicity HIE
 * MHIA-HIE Michigan Interface bi-directional
 * Michigan Health Connect (MHC) uni-directional
     * [Michigan Care Improvement Registry ](https://mcir.org/)(MCIR) CCD Referral Documents thru MHC
@@ -289,40 +302,55 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 
 ## Hospital Systems
 
+* Adams Memorial Hospital (results only)
 * Beaumont Hospital (results only)
 * Blanchard Valley Hospital
 * Botsford Hospital (results only)
 * Cameron Hospital (results only)
+* Community Hospital of the Monterrey Peninsula (results only)
+* Huntsville Hospital (lab/results)
 * Johnson Memorial Hospital (lab, radiology)
+* Kansas Heart Hospital (labs)
 * Lutheran Hospital (results only)
+* McDonough Physician Hospital (results only)
 * Memorial Hospital of Sandusky County - (results only) Paragon Labs/SunQuest
+* Northwell GoHealth Urgent Care (immunizations)
 * Parkview Hospital (results only)
+* Sarasota Memorial Hospital (results, lab, hospital documents)
 * St. John's Hospital (results, lab, hospital documents)
 * St. Joseph Mercy Hospital Oakland, MI - Lab, Radiology, and Reports/Consults
 * St. Dominic's Hospital (results only)
 * St. Francis Hospital (results only)
 * Terneuzen Hospital (results only)
+* University of Nebraska Medical Center (labs only)
 * Van Wert Hospital (orders only)
 
 ## [HR Systems](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)
 
 * ADP
+* Aptim
 * Avanti
 * Complio (Immunization and Compliance Management)
 * Concentra HR
 * Echo
+* ePerson
 * GDW
 * HCM
 * HR Smart
+* Infor/GHR
 * Infor Lawson/Lifeworks People
 * Insperity
 * Kenexa
 * Kronos
+* Lawson
 * Meditech
+* Menaitech HRMS
 * Oracle Core Connect
+* OSHE
 * Peoplecore
 * Peoplefluent - previously known as PeopleClick
 * Peoplesoft - Oracle GHRIS v9.1
+* Radiant
 * SAD
 * SAP
 * SHRM (LLNL)
@@ -389,6 +417,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Aegis Laboratories
 * American Esoteric Laboratories (a.k.a. AEL) (Bi-Directional)
 * AP Easy (results only)
+* Athena (results only)
 * Atlas Medical also known as iON
 * Assistant Pro (Urine Drug Screen results only)
 * Atherotech Lab Interface (results only)
@@ -417,6 +446,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Dominion Diagnostics (results only)
 * Drug Scan (Bi-directional)
 * eLab
+* EMDAT
 * Epic Beaker (Bi-directional)
 * Exact Sciences (Bi-Directional)
 * Fort Wayne Med Lab (results only)
@@ -424,6 +454,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Geneva Health Solutions (results only - Cardiac Devices)
 * IMD Path (Bi-Directional)
 * Inform Diagnostics pathology bi-directional interface (orders and results)
+* Intellidose
 * iON also known as Atlas Medical
 * JBC Laboratory
 * LabCorp (Client-Bill bi-directional orders and results)
@@ -432,9 +463,10 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * MD State Lab (Bi-directional orders and results)
 * MedCom
 * Medical Diagnostics Laboratory - A OB-GYN specialty lab (Bi-directional)
+* Medicity (uni-directional)
 * Meditech Lab Interface (Results only)
 * Med Labs of Arkansas (Bi-directional orders and results-including pathology)
-* MedTox Laboratories
+* MedTox Laboratories (LabCorp)
 * Natera Lab (Bi-directional)
 * NuVision Labs, part of Mercy Hospital
 * Orchard Laboratories
@@ -443,8 +475,9 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Paragon Labs/Sunquest (results only)
 * Parkview Hospital Lab/Path-Soft Lab Inbound
 * Parkview Lab Outbound
-* Path Group (HL7 bi-directional)
+* PathGroup (HL7 bi-directional)
 * Path Labs
+* PreCheck (results only)
 * Progenity
 * Psychemedics Toxicology (results only)
 * QuadMed Lab (results only)
@@ -458,9 +491,18 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Southeast Clinical Labs (bi-directional)
 * University of Nebraska Medical Center -- UNMC (Bi-directional orders and results)
 * Wyoming Regional West Lab
+* Volpara (Bi-directional)
+
+## Learning Management System
+
+* iLearn
+* Compass
 
 ## Outbound CCD Transmission
 
+* Aledade
+* ObjectiveGI/ObjectiveHealth
+* OPNS
 * SIPAK - Wellcentive (CCOK - using xds.b / autoroute)
 
 ## Med/RX System Interfaces
@@ -489,13 +531,22 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Microsoft Health Vault
 * NoMoreClipboard
 
+## Provider Management
+
+* MDX Hawaii
+* MSOW
+* OHAA
+
 ## Safety Systems
 
 * Agile-Redshift (IH)
 * Benchmark ESG (Gensuite)
     * Safety (bi-directional)
     * Industrial Hygiene (bi-directional)
+* CHESS System
+* DMI
 * Enablon
+* GlobalAdvantage (Health Surveillance)
 * Intelex (Safety and IH)
 * Origami Risk
 * Safetynet
@@ -511,6 +562,12 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Innovative Scan Technologies
 * Smart Document Solutions
 
+## Third Party
+
+* Mobile Health (SFTP/Respirator Fit)
+* Wellness Co (SFTP/Flu)
+* Provant & Vitalogy (Mass Screenings and Consultations)
+
 ## Transcription Interfaces
 
 * BlueWare
@@ -519,6 +576,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Lutheran Hospital
 * Medical Review of Illinois
 * Parkview Hospital
+* SpeechMotion
 * St. Dominics Hospital
 
 ## Transcription Services
@@ -531,11 +589,22 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Medical Review of Illinois
 * TransText
 
+## Volunteer Management
+
+* Samaritan
+* VSysOne
+
+## Wellness
+
+* HumanaVitality
+* Healthways
+
 ## Worker's Compensation
 
 * AmTrust
 * Brentwood
 * Broadspire (bi-directional)
+* Clear Sight
 * Corvel
 * Disney CARS (a Disney system)
 * Liberty Mutual
