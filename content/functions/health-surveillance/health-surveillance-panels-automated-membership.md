@@ -1,8 +1,8 @@
 ---
 id: '1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
 title: 'Health Surveillance Panels - Automated Membership'
-date: '2024-07-15T15:31:48.751Z'
-version: 70
+date: '2025-02-14T19:22:55.805Z'
+version: 87
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,11 +10,11 @@ links:
 source: 'https://drive.google.com/open?id=1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
+Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the **Control Panel** tab. Once on the **Control Panel** tab, click the **HSP** tab listed in the menu of tabs and click on **Health Surveillance**.
 
-![](../health-surveillance-panels-automated-membership.assets/8559017c3985006ba5394aa58ece891b.png)
+![](../health-surveillance-panels-automated-membership.assets/30942734ff261173f4ba2b14bf620616.png)
 
-The listing of current Panels will display on the screen under the Panel Search fields.
+The listing of current Panels will display on the screen.
 
 ## Viewing Memberships
 
@@ -62,7 +62,7 @@ MIE Developers would be the ones to program automated membership rules on any pa
 
 ![](../health-surveillance-panels-automated-membership.assets/0c064298c334fa728f232e083120122e.png)
 
-That is where MIE sets any automatied panel membership rules or additional criteria programming. Location is the Facility_code field in demographics. Building, cost center & employee class fields are also found in employee demographics tab.
+That is where MIE sets any automated panel membership rules or additional criteria programming. Location is the Facility_code field in demographics. Building, cost center & employee class fields are also found in employee demographics tab.
 
 It's always best to do Health Surveillance panels and testing regarding memberships, etc in a DEV/QA system first – export/import panels in there, set up rules and test to validate and spot check using Panel Action Evaluator tab and Time Machine features.
 
