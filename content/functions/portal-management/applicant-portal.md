@@ -1,8 +1,8 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2025-01-22T15:11:41.308Z'
-version: 300
+date: '2025-02-14T17:43:30.812Z'
+version: 309
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -146,7 +146,7 @@ These Security Requirements should always be followed for ensuring the proper se
 
 ## Configure Applicant Portal
 
-1. Navigate to the <strong>Provider Management</strong> side menu.
+1. Navigate to the <strong>Employer Organization</strong> side menu.
 2. Locate and click the link to the portal with which the Applicant Portal is associated.
 3. Click the <strong>Portal Setup</strong> tab.
 4. Click the header to open the <strong>Applicant Portal Setup</strong> section.
