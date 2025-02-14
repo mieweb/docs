@@ -1,8 +1,8 @@
 ---
 id: '1_RMhSD5IiXCHdNXRht41exZoec0AzWdn-ZcloqADsqc'
 title: 'Encounter'
-date: '2025-02-13T15:27:07.261Z'
-version: 53
+date: '2025-02-14T13:10:51.421Z'
+version: 63
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -29,5 +29,9 @@ Employer and Payer can be set to identify which employer organization this chart
 The Archive As field is a set of drop-down choices that the specific encounter visit type (that you are working in) is allowed to be selected to archive as.  Archive As choices are configured within the Encounter Types editor of the Control Panel.
 
 ![](../encounter.assets/e6e4bcd1e1a14f563f550ff2a5101194.png)
+
+To close the section, simply click anywhere on the grey title bar again or click the Next or Save icon at the bottom of the section.  NOTE: The entire encounter outline will refresh automatically when this section is closed and saved.  This is on purpose because the rest of the encounter depends on what Visit type is set here and other fields.
+
+![](../encounter.assets/fe71bd261ded5dc11bc6a081f3ccb3be.png)
 
 For additional information regarding encounters, please refer to [Working in a Visit Encounter.](../working-in-a-visit-encounter.md)
