@@ -1,9 +1,9 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2024-10-29T13:54:04.896Z'
-version: 144
-lastAuthor: 'janderson'
+date: '2025-02-14T18:48:48.786Z'
+version: 178
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
@@ -210,3 +210,26 @@ Click the saved document report template you wish to run. It will open the field
 *Personal Templates* are saved appointment report templates you (the logged in user) have saved & created to be in the library.
 
 *Global Templates* are saved appointment report templates that other users have saved & created in this library and you can access them also.
+
+## Appointments Report - DataVis
+
+The Appointment Report is also available in a DataVis format. The Appointment DataVis Report offers similar filter and result criteria as the standard Appointment Report. The Datavis version of this report is helpful to users needing to pivot, group or count specific appointment information. Users needing to move appointments and/or sending emails should continue to use the legacy Appointment Report.
+
+![](../appointment-report.assets/d307ab541b0dcc803a08dd380ed51868.png)
+
+### Report Filters:
+
+* <strong>Date Range:</strong> It will automatically default to today's date as the range. You can select any date range you wish to run the report for.
+* <strong>On waiting list</strong> checkbox: This option is to search for appointments on the waiting list. If this is checked, then the start and end dates are greyed out/disabled to indicate that they are not being used.
+* <strong>Visible Date:</strong> Enter an appointment visible start and end date range.
+* <strong>Due Date:</strong> Enter an appointment due date start and end date range.
+* <strong>Resource:</strong> Use the autocomplete to select one or more scheduling resources.
+* <strong>Location:</strong> Use the autocomplete to select one or more scheduling locations.
+* <strong>Appointment Type:</strong> Use the autocomplete to  select one or more appointment types.
+* <strong>Cancel Reason:</strong> Use the autocomplete to select one or more cancel reasons codes.
+* <strong>Patient:</strong> Use the autocomplete to select one or more patients.
+* <strong>Time of Day:</strong> You can run the report to filter the results by a specific Appointment Time. Simply enter the time range you want the report to find appointments for. You can enter the time with am or pm, or you can also type in military time (example: 22:00) and it will convert that to 10:00pm.
+* <strong>Appt Duration Range & Encounter Duration Range:</strong> You can run the report to filter the found appointments or encounter appointments by a specific appointment duration range in minutes. You can enter specific appt or encounter appt durations to search or a range of appointment or encounter appt durations in minutes to search.
+* <strong>Edited On:</strong> Enter a start and end date range.
+* <strong>Edited By:</strong> Use the autocomplete to select one or more users.
+* <strong>Linked Encounters:</strong> Use the autocomplete to select one or more Encounter Types.
