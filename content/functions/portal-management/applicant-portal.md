@@ -1,8 +1,8 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2025-02-14T17:43:30.812Z'
-version: 309
+date: '2025-02-17T16:31:32.549Z'
+version: 349
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -38,7 +38,7 @@ The following steps will ensure the Applicant Portal is configured and functions
 
 ## Update System Settings
 
-Following the instructions below, *update* these system settings:
+Following the instructions below, *update* these system settings, if you are on a legacy database system. If you are on a current release, these items will already be configured out of the box:
 
 * NMC, Registrations, Set New Patient at Temporary
 * NMC, User Security, Force Security Role
@@ -63,6 +63,8 @@ Following the instructions below, *update* these system settings:
 
 ## Create APP Partition
 
+This partition will only need to be configured if you are on a legacy database build. The current out of the box configuration includes the APP Partition.
+
 1. Navigate to the <strong>Partition Mgr</strong> tab of the Control Panel.
 2. If it is not already created, the APP partition needs added, accordingly:
     1. <strong>Partition</strong>:  APP
@@ -80,12 +82,16 @@ Following the instructions below, *update* these system settings:
 
 ## Create Applicant Department
 
+Only create the Applicant Department if you are on a legacy database build. The current out of the box configuration includes an Applicant Department.
+
 1. Navigate to the <strong>Access Control</strong> tab of the Control Panel.
 2. Click the <strong>Add Department</strong> link in the upper-right corner of the page.
 3. Enter <em>Applicant</em> into the <strong>Name</strong> field.
 4. Click the <strong>Submit Dept.</strong> button.
 
 ## Create Applicant Security Role
+
+Only create an Applicant Security Role if you are on a legacy database build. The current out of the box configuration includes an Applicant Security Role.
 
 1. Navigate to the <strong>Security Roles</strong> tab of the Control Panel.
 2. Click the <strong>Add Role</strong> link in the upper-right corner of the page.
@@ -114,7 +120,47 @@ Following the instructions below, *update* these system settings:
 These Security Requirements should always be followed for ensuring the proper security role settings.
 {{% /note %}}
 
+## Applicant Portal Configuration
+
+![](../applicant-portal.assets/040bcb95b6e9afb5b26835e7645ef480.png)
+
+**Features**
+
+* <strong>Print Completed Questionnaires</strong>: Displays a new section on the home page which allows the user to print questionnaires after they have been completed.
+* <strong>Auto Start First Questionnaire</strong>: When enabled, this will automatically trigger the first available questionnaire after login. NOTE: This only applies to the first time viewing the home page.
+* <strong>Enable Telehealth</strong>: When enabled, a page will show once the user is done with their questionnaires showing instructions on how to join a TeleHealth visit.
+
+**Additional Fields**
+
+* <strong>Field List</strong>: Choose which additional fields display on the applicant portal form.
+    * Date of Birth
+    * Social Security Number
+    * Email Address
+    * Mobile Phone
+    * Middle Name
+
+**Miscellaneous**
+
+* <strong>Header Text</strong>: Replacement text for the header that displays with the Applicant Portal. This should be used as a general description of the portal. Default is 'Applicant Portal'
+* <strong>Custom Color</strong>: Use the color picker to select a custom color for your portal.
+* <strong>Inactivity Logout Time</strong> (Minimum: 2 Minutes; Maximum: 30 Minutes): Enter the amount of time (in minutes) to determine when a user will be logged out for inactivity. A popup window will display during the last 60 seconds of the timer to notify the user they are about to be logged out. NOTE: This timer is capped by the system setting: System/Login/Timeout and may be overridden by station manager settings. Default logout time is 2 minutes.
+* <strong>Redirect on Logout</strong>: The website that you will be redirected to when logged out.
+* <strong>Partition</strong>: Determines which partition new applicants are placed into once their account is created. NOTE: The partitions in this list are filtered to show only those with their 'Partition View' set to 'Auto Increment'.
+* <strong>Date Format</strong>: Select which format dates will appear on the sign in page. NOTE: This option only affects browsers that do not support native date inputs
+
+**Sign In Page**
+
+* <strong>Form Title</strong>: Replacement text for applicant form title on the initial login page. Default is 'New Applicant Form'
+* <strong>Form Directions</strong>: Replacement text for applicant form directions on the initial login page. Default is 'Welcome! Please complete the fields below to begin.' NOTE: This input is limited to 255 characters. If longer instructions are needed, create a new layout in the 'UPortal Custom' module with the name 'Applicant Portal Form Directions'.
+
+**Home Page**
+
+* <strong>Questionnaire List Directions</strong>: Replacement text for applicant questionnaire directions displayed on the home page after login. Default is 'Once you have completed all of the available questionnaires, please sign out using the button at the top of the page.' NOTE: This input is limited to 255 characters. If longer instructions are needed, create a new layout in the 'UPortal Custom' module with the name 'Applicant Portal Questionnaire Directions'.
+* <strong>Available Questionnaires</strong>: This will determine which questionnaires are available for an applicant to complete within the applicant portal.
+
 ## Add Applicant Portal Chart Tab
+
+Only add the Applicant Portal Chart Tab if you are on a legacy database build. The current out of the box configuration includes the Applicant Portal Chart Tab.
 
 1. Navigate to the <strong>Chart Tabs</strong> tab of the Control Panel.
 2. Click the <strong>Add Chart Tab</strong> link in the upper-right corner of the page.
