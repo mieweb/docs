@@ -9,7 +9,6 @@ wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
       * Absence Management
          * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
       * Artificial Intelligence
-         * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
          * [Intervention Risk Management for Predictive Decision Support Interventions with AI ](functions/artificial-intelligence/intervention-risk-management-for-predictive-decision-support-interventions-with-ai.md)
          * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md)
       * Document Management

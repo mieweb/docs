@@ -767,7 +767,6 @@ wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 * [Functions](functions.md)
     * QuickView
     * [Artificial Intelligence](functions/artificial-intelligence.md)
-        * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#_58zjto1llw5w)
     * [Absence Management](functions/absence-management.md)
         * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
