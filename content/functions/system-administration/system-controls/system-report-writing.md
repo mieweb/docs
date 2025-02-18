@@ -2,7 +2,7 @@
 id: '1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
 title: 'System Report Writing'
 date: '2025-02-12T17:02:46.167Z'
-version: 742
+version: 746
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
