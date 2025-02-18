@@ -1,9 +1,9 @@
 ---
 id: '13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
 title: 'Observations Tab'
-date: '2024-04-15T15:31:28.643Z'
-version: 107
-lastAuthor: 'horner'
+date: '2025-02-18T15:23:58.152Z'
+version: 134
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
@@ -13,51 +13,48 @@ Click *E-Chart* on the left sidebar menu.
 
 Search and select the patient.
 
-Click *Observations* chart tab at the top in the patient's chart. You must have security permission to view, add, edit or delete observations from a patient's observations chart tab.
+Click *Observations/Flowsheets* chart tab at the top in the patient's chart. Users must have security permission to view, add, edit or delete observations from a patient's observations chart tab.
 
-![](../observations-tab.assets/50db8dee9b369016edc948bbcd5db095.png)
+![](../observations-tab.assets/cb216d8d098d91da775c46f8957131fb.png)
 
-Once you click the Observations chart tab, you will see the Observations Search tool.
+Once in the Observations/Flowsheets chart tab, users will see the Observations Search tool.
 
-Here you can enter a date range or specific flow sheet to view narrowed down results of a list of observations the patient has stored.
+Enter a date range or specific flowsheet to view narrowed down results of a list of observations the patient has stored.
 
-If you wish to see the entire listing of observations the patient has stored entirely, simply leave the date ranges both blank, have Flowsheet set to *All Observations* and click search. It will render all the observations stored for this patient in the results.
+To view the entire listing of observations for the patient, simply leave the date ranges both blank, set the Flowsheet to *All Observations* and click search. The system will render all the observations stored for this patient.
 
 ## Search Specific Observation(s) or Date Range
 
-If you click the *Search* link, it will open the observations search fields.
+Users may search for a specific observation(s) and/or a specific date range for the patient.
 
-You can search for a specific observation(s) and/or a specific date range for the patient.
+![](../observations-tab.assets/b320371694d86366e4bfa5da1a05c96c.png)
 
-![](../observations-tab.assets/a14e9dd5f4d5e8e11b2d3bc7565f5667.png)
+* <strong>Observed Start Date:</strong> Enter a start date range for your observation search. If none entered, it will consider 00/00/0000 as the start date.
+* <strong>Observed End Date:</strong> Enter an end date range for your observation search. If none entered, it will consider today's date.
+* <strong>Quick Range:</strong> Select a quick date range from this list of drop-downs. It reads from <strong>today's date</strong>. Instead of entering in a specific date range, users can quickly go here and select <em>today</em> to show only today's entered observations, or select 180 days and it will show all observations entered 180 days ago up to now. This quick range goes back from <strong>today's date</strong>. It inserts quickly that date range into those date fields and then you must click the SEARCH button to show your results for that date range. The ‘quick range' is a hidden remembered user preference. If you prefer 365 days, you'd set this and whenever you come to the observations tab, the Start & End date will prefill with dates that correspond to that range, relative to today's current date. You can change it at any time.
 
-* <strong>Observed Start Date:</strong> You can enter a start date range for your observation search. If none entered, it will consider 00/00/0000 as the start date.
-* <strong>Observed End Date:</strong> You can enter an end date range for your observation search. If none entered, it will consider today's date.
-* <strong>Quick Range:</strong> You can select a quick date range from this list of drop-downs. It reads from <strong>today's date</strong>. Instead of entering in a specific date range, you can quickly go here and select <em>today</em> to show only today's entered observations, or select 180 days and it will show all observations entered 180 days ago up to now. This quick range goes back from <strong>today's date</strong>. It inserts quickly that date range into those date fields and then you must click the SEARCH button to show your results for that date range. The ‘quick range' is a hidden remembered user preference. If you prefer 365 days, you'd set this and whenever you come to the observations tab, the Start & End date will prefill with dates that correspond to that range, relative to today's current date. You can change it at anytime.
-
-![](../observations-tab.assets/273afaf04a9a5f8f6709e940f5b22337.png)
+![](../observations-tab.assets/c1088aea4b80d53ea609cae21365d604.png)
 
 * <strong>Dates Along:</strong> Select horizontal or vertical to display the flowsheet in horizontal or vertical mode for the dates.
 * <strong>Flowsheet:</strong> The default is to show all observations. You can however select a specific flowsheet these observations are for to narrow down your search even more. (See instructions further on next pages regarding flowsheets, editing or adding them.) Encounter data is stored as observations and flowsheets can be built for those.
-* <strong>Additional Criteria:</strong> If you click the + button at Additional Criteria, it will open up another branch of search fields. You can search for observations by the <em>entered</em> observation date start and end date. You can also search for observations entered by a specific user.
-
-![](../observations-tab.assets/ea880c7a093ba1520449c65380f3fdbe.png)
-
-![](../observations-tab.assets/30e17513e044070d3557a9d54a289f75.png)
-
+* <strong>Additional Criteria:</strong> If users click the + button at Additional Criteria, the section will open up another branch of search fields. Users can search for observations by the <em>entered</em> observation date start and end date. users can also search for observations entered by a specific user.
 * <strong>Entered By:</strong> To search for observations entered by a specific user, simply begin typing in first or last name of the user in the field and it will auto-complete choices for you to select.
 
 Click *SEARCH* button to perform the search and show the observation results.
+
+![](../observations-tab.assets/1f533ece3709777a62db688b3b2d0a53.png)
 
 Your results will display beneath the search field tools.
 
 ![](../observations-tab.assets/4edc6ae48ab36e3cd6c732de35c3e3c3.png)
 
-At the end of the results, it displays the total number of observations listed in the summary shown. In this case above, the patient's search result shows 12 observations that fit the criteria you entered.
+The last line of the results box displays the total number of observations listed in the summary. In this case above, the patient's search result shows 12 observations that fit the criteria entered.
 
-Beneath that, it tells you there are *additional observations that exist, modify your search to view*. That means this patient has other observations stored in their chart which don't fit the search criteria you specified. If you want to view those, simply modify your search criteria. The above example patient has 22 stored observations in their chart. The search you entered displayed 12 matching observations. The patient still has 10 more stored observations that didn't fit your search criteria, so it's just notifying you of that incase you want to continue looking for more, etc.
+Beneath that, the system tells the user there are *additional observations that exist, modify your search to view*. That means this patient has other observations stored in their chart which don't fit the search criteria specified. If you want to view those, simply modify your search criteria.
 
-If you selected a specific flowsheet to render, under the resulted flowsheet and under the message *additional observations exists*, etc will be the specific observation entry fields specific to this flowsheet you rendered. You can add specific observations for this patient related to the flowsheet from here.
+The above example patient has 22 stored observations in their chart. The search entered displayed 12 matching observations. The patient still has 10 more stored observations that didn't fit the search criteria, so it's just notifying the user of that in case you want to continue looking for more, etc.
+
+If you selected a specific flowsheet to render, under the resulting flowsheet and under the message *additional observations exists*, etc will be the specific observation entry fields specific to this flowsheet you rendered. You can add specific observations for this patient related to the flowsheet from here.
 
 ![](../observations-tab.assets/ec9f647b3c56ff07ebf52dc6f532b11d.png)
 
@@ -202,17 +199,44 @@ There is a MY SETTINGS preference if you wish to show/display observations in me
 
 The valid range for the weight/stature are:
 
-Stature (Male)                  	  Height (cm)     - Minimum allowed:  24.0  Maximum allowed:   240.0
-
-Stature (Female)                	Height (cm)     - Minimum allowed:  24.0  Maximum allowed:   240.0
-
-Weight (Male)                   	 Weight (kg)     - Minimum allowed:  24.0   Maximum allowed:  240.0
-
-Weight (Female)                    Weight (kg)     - Minimum allowed:  24.0   Maximum allowed:  240.0
-
-Weight-Stature (Male)              Height (cm)   - Minimum allowed:  77.0   Maximum allowed:    121.5
-
-Weight-Stature (Female)          Height (cm)   - Minimum allowed:  77.0   Maximum allowed:	121.5
+<table>
+<tr>
+<td>Stature (Male)</td>
+<td>Height (cm)</td>
+<td>Minimum allowed:  24.0</td>
+<td>Maximum allowed: 240.0</td>
+</tr>
+<tr>
+<td>Stature (Female)</td>
+<td>Height (cm)</td>
+<td>Minimum allowed:  24.0</td>
+<td>Maximum allowed: 240.0</td>
+</tr>
+<tr>
+<td>Weight (Male)</td>
+<td>Weight (kg)</td>
+<td>Minimum allowed:  24.0</td>
+<td>Maximum allowed: 240.0</td>
+</tr>
+<tr>
+<td>Weight (Female)</td>
+<td>Weight (kg)</td>
+<td>Minimum allowed:  24.0</td>
+<td>Maximum allowed: 240.0</td>
+</tr>
+<tr>
+<td>Weight-Stature (Male)</td>
+<td>Height (cm</td>
+<td>Minimum allowed:  77.0</td>
+<td>Maximum allowed: 121.5</td>
+</tr>
+<tr>
+<td>Weight-Stature (Female)</td>
+<td>Height (cm)</td>
+<td>Minimum allowed:  77.0</td>
+<td>Maximum allowed: 121.5</td>
+</tr>
+</table>
 
 The Stature and Weight charts will display observations outside the allowed ranges. They'll list them, but will give you the calculation errors.
 
