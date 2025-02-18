@@ -2,7 +2,7 @@
 id: '1k5oH1WGcmM1on-a0tAeV5yZLbj8L2qaEYAU83hRz1-4'
 title: 'PM 12 - Population Empanelment'
 date: '2020-02-27T20:53:12.102Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
 title: 'Pat NMC Invitation'
 date: '2020-03-10T14:07:47.497Z'
-version: 27
+version: 28
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

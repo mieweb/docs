@@ -2,7 +2,7 @@
 id: '1KdNTFwT7n1CJU3_g-DucNMb3ZulRqSUuAHNM0G4-8fE'
 title: 'Artificial Intelligence Addendum to WebChart Customer SLA (Non Click Thru) - Template (KD Draft 06.12.23)'
 date: '2023-09-13T14:29:11.977Z'
-version: 8
+version: 9
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:

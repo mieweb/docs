@@ -2,7 +2,7 @@
 id: '1-fqAMwYEz4o1hm0StnjrRGVTCmc1uhdUVscrM604G_o'
 title: 'BE 3 - Engagement with QIN-QIO to Implement Self-management Training Programs'
 date: '2020-02-27T20:50:29.384Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

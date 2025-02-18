@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-01-31T16:00:51.654Z'
-version: 388
+date: '2025-01-31T16:01:00.856Z'
+version: 408
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

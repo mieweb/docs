@@ -2,7 +2,7 @@
 id: '1K3GNql1BX7DW5zwok31Dvb4R70WIwwmHrY4zhFOYSI0'
 title: 'BMH 10 - Completion of Collaborative Care Management Training Program'
 date: '2020-02-27T20:56:22.061Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
