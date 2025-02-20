@@ -1,8 +1,8 @@
 ---
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
-date: '2025-02-20T19:58:11.469Z'
-version: 214
+date: '2025-02-20T20:03:25.046Z'
+version: 216
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -110,4 +110,4 @@ The property to allow formatting is *allowFormatting* and it can be accessed by 
 
 To learn more about Using DataVis Grids - Data Tools, follow the link below to the Learning Management System course:
 
-* [Reports](https://mie.talentlms.com/shared/start/key:ALBHRKMF)
+* [Reports](https://mie.talentlms.com/shared/start/key:ALBHRKMF) 206.A (70 minutes)
