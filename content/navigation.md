@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-02-20T18:49:49.355Z'
-version: 1101
+date: '2025-02-20T18:50:13.113Z'
+version: 1104
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -122,7 +122,7 @@ links:
   - 'functions/portal-management/nomoreclipboard.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
-  - 'https://drive.google.com/open?id=1VlEta8TcIurRcg2ujZJXH4PUlsrtVtB7KFZpJrUQn_o'
+  - 'functions/portal-management/portal-portlet.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
   - 'functions/encounters.md'
@@ -868,7 +868,7 @@ wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
         * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#_p4483xhk4y5q)
-        * [Portal Portlet](https://drive.google.com/open?id=1VlEta8TcIurRcg2ujZJXH4PUlsrtVtB7KFZpJrUQn_o)
+        * [Portal Portlet](functions/portal-management/portal-portlet.md)
         * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#_h2rhs75l36bw)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
     * [Encounters](functions/encounters.md)
