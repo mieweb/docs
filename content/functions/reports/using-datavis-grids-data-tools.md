@@ -1,16 +1,16 @@
 ---
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
-date: '2025-01-22T15:42:22.797Z'
-version: 190
-lastAuthor: 'auhrick'
+date: '2025-02-20T19:58:11.469Z'
+version: 214
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
 source: 'https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-*The actual grid you use may differ slightly in appearance from the examples below. Some grids may be configured specifically to disallow certain features.*
+The actual grid you use may differ slightly in appearance from the examples below. Some grids may be configured specifically to disallow certain features.
 
 ## Plain Output
 
@@ -77,9 +77,35 @@ Click the **view history back arrow** in the **view toolbar section** to go back
 
 ## Embedded Formatting Strings
 
-Beginning on release 202403, Datavis reports can be updated to apply formatting to various cells. For example, reports can be updated with embedded formatting strings which will highlight test results that fall outside of a normal range.
+Datavis reports can be updated to apply formatting to various cells. For example, reports can be updated with embedded formatting strings which will highlight test results that fall outside of a normal range.
 
 ![](../using-datavis-grids-data-tools.assets/a60dc069debd74b74ced4fc81112762e.png)
+
+Data values that contain embedded formatting strings can be rendered when the column configuration allows it. The formatting strings have the following format:
+
+{{dv.fmt:<SPECS>}}text{{/}}
+
+where <SPECS> is a comma-separated list of format specifiers:
+
+* bg=HHHHHH sets the background color to the RGB hex color
+* fg=HHHHHH sets the foreground color to the RGB hex color
+* ts=X sets the text style as specified, with any of the following letters supported:
+* b for bold
+* i for italic
+* s for strike-through
+* u for underline
+* cls=C sets CSS class(es) for the HTML element; multiple classes can be separated by spaces, or use several cls formatters.
+
+![](../using-datavis-grids-data-tools.assets/3cff2fbb858e1e9c3017bf49076635be.png)
+
+**WARNING:** Because formatting strings are part of the value, they affect the ordering of data when grouping, sorting, and computing aggregate functions. They will also appear in the dropdown when filtering, and will cause numeric values to be treated as strings. These limitations may be addressed in future updates.
+
+### Column Configuration
+
+The property to allow formatting is *allowFormatting* and it can be accessed by an end user via the COLUMNS selection button within a datavis, where it is represented by the paintbrush icon per column.
+
+![](../using-datavis-grids-data-tools.assets/17b0b8452d98d6b92b8af7f68e00457c.png)
+
 ## Learning Management System
 
 To learn more about Using DataVis Grids - Data Tools, follow the link below to the Learning Management System course:
