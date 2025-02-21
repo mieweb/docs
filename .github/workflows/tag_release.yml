@@ -17,7 +17,7 @@ jobs:
         lfs: 'true'
         clean: 'true'
         fetch-depth: 0
-        
+
     - name: Pull NPM Dependencies
       run: ./setup.sh
 
@@ -29,7 +29,7 @@ jobs:
 
     - name: 'Deploy built documentation to production folder'
       run: |
-        rsync -ruva public deploy@wc-docs.med-web.com:/www/docrootssl/docs
+        rsync -ruva --delete public deploy@wc-docs.med-web.com:/www/docrootssl/docs
 
     - name: Rocket.Chat Notification
       uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
