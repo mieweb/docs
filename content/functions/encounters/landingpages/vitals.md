@@ -1,12 +1,15 @@
 ---
 id: '1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
 title: 'Vitals'
-date: '2021-02-26T15:58:31.774Z'
-version: 13
-lastAuthor: ''
+date: '2025-02-21T13:59:55.465Z'
+version: 21
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - '../../order-and-result-management/vitals-tracking-and-management.md'
 source: 'https://drive.google.com/open?id=1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-Vitals
+Vital signs not only assist in early detection of potential problems, they aid in the monitoring and maintenance of ongoing medical conditions. The Vital Signs layout allows {{% system-name %}} users to view and add measurements of a patient's essential body functions. Whether it is from within the Vitals chart tab or within the  encounter, the body's most basic functions can be measured and recorded, quickly and easily.
+
+Please visit the [Vitals Tracking & Management page](../../order-and-result-management/vitals-tracking-and-management.md) for information regarding Vitals.
