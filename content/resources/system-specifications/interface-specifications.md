@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-02-07T17:49:22.189Z'
-version: 3910
-lastAuthor: 'janderson'
+date: '2025-02-21T14:18:29.204Z'
+version: 3913
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -35,7 +35,7 @@ links:
   - 'https://drive.google.com/open?id=1NoA7PT68mtnbrKJdD9MzmkWqLXv8lMLw'
   - 'http://www.hemochronusersforum.co.uk/microcoagulation.html'
   - 'http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd'
-  - 'https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer'
+  - 'https://drive.google.com/open?id=1G6hVnZooi33R9r2aMMG7RtXSofl16YCRPbyXHJNPBtM'
   - 'https://pm.mieweb.com/issues/117255'
   - 'https://pm.mieweb.com/issues/113505'
   - 'https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM'
@@ -217,7 +217,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Monitor and Defibrillator - [Phillips HeartStart MRx](http://www.healthcare.philips.com/us_en/products/resuscitation/products/mrx/mrx_als.wpd#&&/wEXAQUOY3VycmVudFRhYlBhdGgFEERldGFpbHM6T3ZlcnZpZXevJDkbbr7L4JQhtIIK6OD4k8mA3Q)
 * Respirator Fit
     * Caraflow
-    * OHD [Quantifit Analyzer (FitTrack)](https://confluence.mieweb.com/display/DOCS10/Quantifit+Analyzer) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file upload. Support for the [FitTrack Gold v2.1.0.18](https://pm.mieweb.com/issues/117255) added for RC202309 and newer.
+    * OHD [Quantifit Analyzer (FitTrack)](https://drive.google.com/open?id=1G6hVnZooi33R9r2aMMG7RtXSofl16YCRPbyXHJNPBtM) (File Uni-directional) - Reads files from the FitTrack software. Only sends data to Enterprise Health, currently requires manual file upload. Support for the [FitTrack Gold v2.1.0.18](https://pm.mieweb.com/issues/117255) added for RC202309 and newer.
     * [Quantifit2](https://pm.mieweb.com/issues/113505) [Respirator Fit Testing Interface](https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM)
     * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file upload
     * Portacount Ultrafit Model 8038
