@@ -2,7 +2,7 @@
 id: '15xY5e_Med4ieaB2h3muXWUPM3PYlHSz7GJl1X0FnNx4'
 title: 'CC 8 - Implementation of Documentation Improvements for Practice/Process Improvements'
 date: '2020-02-27T20:52:32.141Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

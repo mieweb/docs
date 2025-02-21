@@ -2,7 +2,7 @@
 id: '1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
 title: 'Delete/Move/Lock Documents'
 date: '2020-03-23T17:21:07.161Z'
-version: 74
+version: 75
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

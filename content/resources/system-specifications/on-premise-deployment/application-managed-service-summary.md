@@ -2,7 +2,7 @@
 id: '1GiUJxGn-GZs2pdNmqNhvzX4LHFO9DUlDccoh3Cxzp5o'
 title: 'Application Managed Service Summary'
 date: '2020-02-27T20:46:34.562Z'
-version: 20
+version: 21
 mimeType: 'text/x-markdown'
 links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/index.html'

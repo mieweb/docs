@@ -2,7 +2,7 @@
 id: '182TznZvZsXHtpl2d3lM7Hmep8vbwyHUfWpBedkB3760'
 title: 'BE 5 - Enhancements/Regular Updates to Practice Websites/Tools that Also Include Considerations for Patients with Cognitive Disabilities'
 date: '2020-02-27T20:50:39.102Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/Section508/index.html?redirect=/InfoTechGenInfo/07_Section508.asp'
