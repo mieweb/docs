@@ -2,7 +2,7 @@
 id: '1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
 title: 'Outbound Faxing Email Notifications of Sent/Failed Faxes'
 date: '2024-02-12T15:46:26.502Z'
-version: 56
+version: 57
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

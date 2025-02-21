@@ -2,7 +2,7 @@
 id: '19eZCdwFGIeRGfT0BkhPoum2aYfCVegyIbkTPw9nctx8'
 title: 'BE 12 - Use Evidence-based Decision Aids to Support Shared Decision-making'
 date: '2020-02-27T20:49:37.485Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

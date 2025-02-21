@@ -2,7 +2,7 @@
 id: '1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
 title: 'Viewing financial reports'
 date: '2021-02-18T19:11:41.072Z'
-version: 21
+version: 23
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

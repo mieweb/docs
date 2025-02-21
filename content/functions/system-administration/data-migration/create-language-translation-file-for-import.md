@@ -2,7 +2,7 @@
 id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 title: 'Create Language Translation File for Import'
 date: '2020-03-17T03:19:40.137Z'
-version: 41
+version: 42
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

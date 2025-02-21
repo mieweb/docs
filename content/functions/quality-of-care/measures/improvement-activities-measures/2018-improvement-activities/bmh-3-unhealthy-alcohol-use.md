@@ -2,7 +2,7 @@
 id: '1d6IkzicJYpzFhNSx5YHAqFA2GuKmIlaqxA5ONHPb2r0'
 title: 'BMH 3 - Unhealthy Alcohol Use'
 date: '2020-02-27T20:51:05.888Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

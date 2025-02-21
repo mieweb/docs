@@ -2,7 +2,7 @@
 id: '1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
 title: 'Adding Hospital Case'
 date: '2020-03-09T23:03:30.240Z'
-version: 39
+version: 40
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

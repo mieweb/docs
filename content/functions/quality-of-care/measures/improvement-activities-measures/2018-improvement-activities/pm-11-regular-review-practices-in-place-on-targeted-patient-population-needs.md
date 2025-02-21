@@ -2,7 +2,7 @@
 id: '1kN85mqiwncMRvbJ0CA1_rXs-MvtZTXdlyfunAtdFVhI'
 title: 'PM 11 - Regular Review Practices in Place on Targeted Patient Population Needs'
 date: '2020-02-27T20:53:08.350Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

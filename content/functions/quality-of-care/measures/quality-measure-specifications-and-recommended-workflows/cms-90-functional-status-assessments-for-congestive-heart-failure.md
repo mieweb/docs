@@ -2,7 +2,7 @@
 id: '18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
 title: 'CMS 90 - Functional Status Assessments for Congestive Heart Failure'
 date: '2022-05-23T12:20:29.883Z'
-version: 74
+version: 75
 lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1M7M1EpVzoEwsmP1qvJZD1qvBH7Ftgu6d7xjgMLDAohs'
 title: 'BMH 6 - Implementation of Co-location PCP and MH Services'
 date: '2020-02-27T20:47:52.437Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

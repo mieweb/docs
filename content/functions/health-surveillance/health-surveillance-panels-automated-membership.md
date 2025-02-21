@@ -1,8 +1,8 @@
 ---
 id: '1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
 title: 'Health Surveillance Panels - Automated Membership'
-date: '2025-02-14T19:22:55.805Z'
-version: 87
+date: '2025-02-17T17:28:28.537Z'
+version: 119
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
 source: 'https://drive.google.com/open?id=1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the **Control Panel** tab. Once on the **Control Panel** tab, click the **HSP** tab listed in the menu of tabs and click on **Health Surveillance**.
+Users must have security access to be in the Health Surveillance tab. On the sidemenu tab, click the **Control Panel** tab. Once on the **Control Panel** tab, click the **HSP** tab listed in the menu of tabs and click on **Health Surveillance**.
 
 ![](../health-surveillance-panels-automated-membership.assets/30942734ff261173f4ba2b14bf620616.png)
 
@@ -18,21 +18,13 @@ The listing of current Panels will display on the screen.
 
 ## Viewing Memberships
 
-You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel from the Health Surveillance tab found in Control.
+You can view current members of panels and also current automated {{% system-name %}} panel membership rules set up for each specific panel from the Health Surveillance tab found under the Control Panel.
 
-To view existing memberships & membership rules on existing panels go to Control tab→Health Surveillance tab→ Find the specific panel and click Membership hyperlink from the main panel listing.
+To view existing memberships & membership rules on existing panels go to the Control Panel→HSP tab→Health Surveillance tab. Find the specific panel and click the Panel Membership icon from the main panel listing.
 
-![](../health-surveillance-panels-automated-membership.assets/152a405ed9a290c61e3e0c92d6b0a89b.png)
+![](../health-surveillance-panels-automated-membership.assets/34e82a7e7d3861207efe7159b50d5e7c.png)
 
-OR you can instead get to membership when in the "actions" of any specific panel.
-
-![](../health-surveillance-panels-automated-membership.assets/77a42aa6472c44394ac6ccf2b6b16060.png)
-
-Then click membership hyperlink found at the top of the Panel Actions screen for that specific panel.
-
-![](../health-surveillance-panels-automated-membership.assets/c83548f64fa11f29ef66d91e6a07c099.png)
-
-Either method, you gain access to the *Panel Membership* screen which shows 3 sections on that screen.  At the top you should see (in bold) the words *Panel Membership* and then the specific panel you accessed membership on.
+![](../health-surveillance-panels-automated-membership.assets/860d3eecee07a2f057213e4b242a627e.png)
 
 The top section shows *Membership Rule* which is any {{% system-name %}} automated configuration rule(s) to get employees into this panel based on specific criteria determined. Automated {{% system-name %}} panel membership rules makes employee's members of the panel automatically (according to the criteria in the rule) as an Implicit Membership.
 
@@ -40,7 +32,7 @@ The next section shows *Individual Include/Exclude* which lists all current empl
 
 At the very bottom you see *Membership Approval* where you can click the *Approve Membership Now* button and it essentially marks the last time a user (with a date/time stamp) that approved & validated this membership screen for the specific panel.
 
-![](../health-surveillance-panels-automated-membership.assets/cd68d728f51233aa305b4aaf45636bd0.png)
+![](../health-surveillance-panels-automated-membership.assets/5614c62dab0fea6b5cbdf9ff2f3d89ea.png)
 
 ![](../health-surveillance-panels-automated-membership.assets/1b37f7cfecb3446d1393db006c5dfc0b.png)
 
@@ -52,15 +44,13 @@ You can have {{% system-name %}} automate membership by including or excluding e
 
 If any automated membership rules exist for the specific panel viewing membership on, it will be listed in the *Membership Rule* section. This lists any CC (Cost Center), Loc (Location), Bld (Building), and EC (Employee Class) that the membership rules are looking at. If custom queries (additional criteria) are also or instead looked at to determine which employee charts are considered members of a panel automatically, then it would be listed in the *additional criteria* field which is only seen if you were to click edit on the membership rule. The start date for the automatic membership rule is also indicated.
 
-![](../health-surveillance-panels-automated-membership.assets/692d8ce03da5606f3a44f45dea7fefb2.png)
-
 ## Add Automated Membership Rule
 
 {{% system-name %}} automated configuration rule(s) to get employees into this panel based on specific criteria determined here in this screen on the specific individual panel. Automated {{% system-name %}} panel membership rules makes employee's members of the panel automatically (according to the criteria in the rule) as an Implicit Membership.  Implicit membership can change automatically when factors change (like change of cost center, class, building or location or any other additional criteria) and helps with automation and less manual work for staff in surveillance.  Ending implicit memberships is also automatically done if they do not fit the criteria anymore. This is set in the system setting *End implicit memberships automatically*.
 
 MIE Developers would be the ones to program automated membership rules on any panels needed, but to add an automatic implicit membership rule to a specific panel you would click the Add Membership Rule hyperlink from the membership screen.
 
-![](../health-surveillance-panels-automated-membership.assets/0c064298c334fa728f232e083120122e.png)
+![](../health-surveillance-panels-automated-membership.assets/b1a09e69cf0bc4caa7177c2a69710fa2.png)
 
 That is where MIE sets any automated panel membership rules or additional criteria programming. Location is the Facility_code field in demographics. Building, cost center & employee class fields are also found in employee demographics tab.
 

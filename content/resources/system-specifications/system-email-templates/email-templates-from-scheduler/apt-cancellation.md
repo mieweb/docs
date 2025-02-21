@@ -2,7 +2,7 @@
 id: '1LQAvQDYNP9KYnjyCjqJyGbTUxC4F2no7MXTOT-bNe0M'
 title: 'Apt Cancellation'
 date: '2020-02-27T20:39:45.441Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Apt+Cancellation&active=0'

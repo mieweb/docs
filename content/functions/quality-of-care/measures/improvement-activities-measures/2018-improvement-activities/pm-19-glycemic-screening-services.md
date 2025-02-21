@@ -2,7 +2,7 @@
 id: '1q7esKo33sD5NLfGpULquOiy20ZPjfBnahEPH0YaZVoY'
 title: 'PM 19 - Glycemic Screening Services'
 date: '2020-02-27T20:53:46.003Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

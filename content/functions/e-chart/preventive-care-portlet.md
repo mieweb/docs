@@ -1,40 +1,41 @@
 ---
 id: '1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
 title: 'Preventive Care Portlet'
-date: '2020-02-27T19:45:32.923Z'
-version: 37
+date: '2025-02-17T18:46:07.012Z'
+version: 65
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-You can select the *Preventative Care* portlet for your view on the Patient Summary chart tab view.
+You can select the *Preventive Care* portlet for your view on the Patient Summary chart tab view.
 
-![](../preventive-care-portlet.assets/a5268224eb93c0c132ff37c4494a49a4.png)
+![](../preventive-care-portlet.assets/ea212d5ed2da00c69fb988a796edd8b1.png)
 
 This shows procedures and can be customized to show screenings/procedures you manage and also specific screenings only show here based on possible age and gender criteria (ex: male patients you wouldn't see Pap Smear or Mammogram Screening procedures to manage).
 
 Clicking on the *manage info* icon will take you to the chart tab where the Preventive Care editor is housed in your system.
 
-![](../preventive-care-portlet.assets/4165539fc268bbcd927d3f8e59d882bb.png)
+![](../preventive-care-portlet.assets/89a42c74e9cb1ba3483aba68057c0f93.png)
 
 {{% system-name %}} systems have this as part of the *Past Medical History* chart tab.
 
-![](../preventive-care-portlet.assets/31992c882115f609b84d3e5db0adc4b0.png)
+![](../preventive-care-portlet.assets/76b429af93c56f4837367e2d0e563cef.png)
 
 You can manage (update) and enter in dates for these Preventive Care screenings there.
 
-* <strong>Procedure:</strong> This is the name of the screening procedure. Click the help bubbles to see the procedure description and recommendations.
+* <strong>Procedure:</strong> This is the name of the screening procedure. Click the Lightning Bolt icon to Add to an Exam or the Plus icon to Add.
 
-![](../preventive-care-portlet.assets/24043cc36c8046287809ec5adcc6a40d.png)
+![](../preventive-care-portlet.assets/d44120c25f811c3cffbe93b8aee4356c.png)
 
-* <strong>Enter New Date:</strong> Enter in the date that specific screening was done. You'll enter in this field when entering in a new date for the screening that was done. You can use the date picker or simply type in a year or date format in the field.
-* <strong>Last Reported Date:</strong> This shows the last most recent date someone had documented for the procedure.
-* <strong>Last Documented in Patient Record:</strong> This shows the last date of of an actual stored <em>document</em> of this procedure in the patient's chart. Example: if you scanned & indexed Mammogram reports that come in under doc.type MAMMO, then we would point this field to look at doc.type MAMMO and display the last most recent date of service of doc.type MAMMO that patient has. The date that is shown here is a hyperlink so you can click the date and it will open to that specific stored document in a separate window on your screen so you can view that document. See below for the list of doc.types this column is pointed to by default. <em>Contact your MIE Implementer if you need them pointed to a different doc.type or if you need the doc.type installed in your document types tab.</em>
+* <strong>Past:</strong> Represents a previously completed order or procedure.<strong></strong> An order with a <em>Completed</em> status with a <em>Completed Date</em> will add the item to the <em>Past</em> column
+* <strong>Last Documented:</strong> Represents any documents that are created in the system because of past procedures at other facilities, or just documented as such. This column will also display the last completed procedure (past procedures list).
+* <strong>Pending</strong>: Represents the next due date of pending orders. An order with a <em>Pending</em> status with a <em>Due Date</em> will add the item to the <em>Pending</em> column
 
-![](../preventive-care-portlet.assets/ebae5e6dff4890156e447317c5b97932.png)
+![](../preventive-care-portlet.assets/e2f2f575b5f6566242f53bbdcaaf36dc.png)
 
-The patient could have an office visit and you ask when their last mammogram was and they say 1989, so you enter that. Then you order a mammogram and the mammogram report comes into your system thru some method and is stored as doc.type MAMMO so, the *last documented in patient record* of an actual mammogram report document you have is shown with the date of service of the document. Then when the patient comes back in, you can update the ‘reported date' using the *enter new date* field available. "Reported Date" is essentially the patient's reporting of when they had a screening procedure done and the "Last Documented in Patient Record" is the date of service of the most recent stored document of that screening type you store & keep in the patient's chart.
+The patient could have an office visit and you ask when their last mammogram was and they say 1989, so you enter that. Then you order a mammogram and the mammogram report comes into your system thru some method and is stored as doc.type MAMMO so, the *last documented in patient record* of an actual mammogram report document you have is shown with the date of service of the document. Then when the patient comes back in, you can update the ‘completed date'.
 
 This Preventive Care portlet can also be added as a section in your encounters for documenting there also and help with meaningful use measures.
 

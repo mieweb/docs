@@ -2,7 +2,7 @@
 id: '1pfoc98Z8qWhN3HRsccaYI04TotYSfYuUzdEmh57tmNk'
 title: 'Pat Guideline Reminder'
 date: '2020-02-27T20:38:34.175Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=WCGUIDE&old_module=Email&old_name=Pat+Guideline+Reminder&active=0'

@@ -2,7 +2,7 @@
 id: '1QGzUvTYY9uw-9HZfepA6i0xWWoh6y7iiZO7p8Cg78YU'
 title: 'PSPA 14 - Participation in Quality Improvement Initiatives'
 date: '2020-02-27T20:54:35.122Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

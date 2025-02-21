@@ -2,7 +2,7 @@
 id: '1BjF6NXvvzRfQtf-G77s_gu5FwvVtNl2x8RSz4cNIU3g'
 title: 'NoMoreClipboard'
 date: '2020-02-27T20:37:24.966Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1BjF6NXvvzRfQtf-G77s_gu5FwvVtNl2x8RSz4cNIU3g'

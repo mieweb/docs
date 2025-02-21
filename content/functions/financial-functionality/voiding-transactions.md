@@ -2,7 +2,7 @@
 id: '1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU'
 title: 'Voiding transactions'
 date: '2021-02-18T19:12:24.594Z'
-version: 18
+version: 19
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

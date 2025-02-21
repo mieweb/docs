@@ -2,7 +2,7 @@
 id: '179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
 title: 'Chart Observations Import Options'
 date: '2020-02-27T21:31:09.639Z'
-version: 36
+version: 37
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

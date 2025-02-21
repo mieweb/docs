@@ -2,7 +2,7 @@
 id: '1I6gw0h_zhrHSC7KDRuSI3CxlgMfd42qWAZjLBbjUT9s'
 title: 'CC 5 - CMS Partner in Patients Hospital Engagement Network'
 date: '2020-02-27T20:52:18.252Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
