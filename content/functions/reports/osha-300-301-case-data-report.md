@@ -1,9 +1,9 @@
 ---
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
-date: '2024-10-01T20:46:57.734Z'
-version: 334
-lastAuthor: 'auhrick'
+date: '2025-02-24T20:32:41.048Z'
+version: 340
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting'
@@ -65,10 +65,10 @@ The below list of columns from the OSHA 300/301 Case Data report, will describe 
 * <strong>ESTABLISHMENT NAME</strong> - pulls the <em>Onsite Location</em> chart's name found on the EO chart of that onside work location/site chart with any acronym in parenthesis found in its Overview EO chart tab.  This report <strong>does</strong> respect the Locations Hierarchy <strong><em>Parent</em></strong>' for this column.  Meaning, if an onsite injury/illness work location/site EO chart has a Parent (in the Locations Hierarchy) mapped to another onsite injury/illness work location/site EO chart, then the Parent's name will pull here as Establishment Name.  OSHA defines an Establishment [<strong>HERE</strong>](https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.46#:~:text=The%20definitions%20contained%20in%20section,or%20industrial%20operations%20are%20performed.)<strong>.</strong>
 * <strong>YEAR OF FILING</strong> - will always be the prior 4 digit year of today's logged in session when generating this report
 * <strong>CASE NUMBER</strong> - This displays the unique assigned number identifier of the OSHA recordable case/incident that the system assigns.  Hence, this is Column A of the OSHA 300 form.
-* <strong>JOB TITLE</strong> - This pulls the data that is stored in the Job Code Description field of the employee's chart demographics. Hence, this is Column C of the OSHA 300 form.
+* <strong>JOB TITLE</strong> - This pulls the data that is stored in the Job Code Description field of the employee's chart demographics.Hence, this is Column C of the OSHA 300 form.  In the report output, Job Title is to be limited to 255 characters per DOL and OSHA API data element requirements.
 * <strong>DATE OF INCIDENT</strong> - This pulls the date from the <em>Date and time of injury or onset of illness</em> field of the OSHA recordable case/incident.  Hence, this is Column D of the OSHA 300 form.
-* <strong>INCIDENT LOCATION</strong> - This pulls the <em>Where the event occurred field (e.g. Loading dock north end)</em> field of the OSHA recordable case/incident when an onsite location choice is selected.  Hence, this is Column E of the OSHA 300 form.
-* <strong>INCIDENT DESCRIPTION</strong> - This pulls the <em>Nature of Injury or Illness / Body Parts</em> section of the OSHA recordable case/incident.  Hence, this is Column F of the OSHA 300 form.
+* <strong>INCIDENT LOCATION</strong> - This pulls the <em>Where the event occurred field (e.g. Loading dock north end)</em> field of the OSHA recordable case/incident when an onsite location choice is selected.  Hence, this is Column E of the OSHA 300 form.  In the report output, Job Title is to be limited to 255 characters per DOL and OSHA API data element requirements.
+* <strong>INCIDENT DESCRIPTION</strong> - This pulls the <em>Nature of Injury or Illness / Body Parts</em> section of the OSHA recordable case/incident.  Hence, this is Column F of the OSHA 300 form. In the report output, Job Title is to be limited to 255 characters per DOL and OSHA API data element requirements.
 * <strong>INCIDENT OUTCOME</strong> - This displays a number (as the value) signifying the highest (most serious) outcome of the OSHA recordable case/incident.  Hence, this is Columns G-J of the OSHA 300 form.
     * Death = 1 value means the case/incident has the field <em>Employee died</em> checkmarked
     * Days Away from Work = 2 value means the case/incident has Lost Time accommodations linked to it
