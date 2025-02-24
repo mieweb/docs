@@ -1,22 +1,26 @@
 ---
 id: '1qHBp70qSV9LSeHEg056zXY8YfXpetOJv2L77zGKOCLI'
 title: 'OSHA 300A Form Log Overlay'
-date: '2024-05-20T19:29:06.365Z'
-version: 225
-lastAuthor: 'janderson'
+date: '2025-02-24T20:13:10.951Z'
+version: 237
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'common-case-search-report.md'
 source: 'https://drive.google.com/open?id=1qHBp70qSV9LSeHEg056zXY8YfXpetOJv2L77zGKOCLI'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## OSHA 300A Form Log Overlay
 
-From an Employer Organization chart, an OSHA 300A chart tab is available which provides an overlay OSHA 300A Form Log ability.
+From an Employer Organization chart, an OSHA 300A chart tab (to pull this year's current totals) and an OSHA 300A Form for Last Year hyperlink (to pull last year's totals) is available which provides an overlay OSHA 300A Form Log ability, depending on the year of totals you wish to generate and/or view.  Additionally, there is the OSHA300A Report that can be run from the Reports sidemenu tab for any date range or additional filter criteria needed.
+
+
+### OSHA 300A Chart Tab - pulls current year totals
+
+The OSHA 300A chart tab within an EO chart functions as *current logged in year* log form overlay.  Meaning, for the current year it's being run, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness location of that Employer Organization (or any onsite injury/illness locations that wrap up to this parent Employer Organization) and overlay the OSHA 300A information onto this log/form overlay.
 
 ![](../osha-300a-form-log-overlay.assets/03d652fd086ebb19da39f15a905c67da.png)
 
-
-The OSHA 300A chart tab functions as *current logged in year* log form overlay.  Meaning, for the current year it's being run, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness location of that Employer Organization (or any onsite injury/illness locations that wrap up to this parent Employer Organization) and overlay the OSHA 300A information onto this log/form overlay.
 
 
 ## How does it work
@@ -51,13 +55,13 @@ Lastly, specific onsite location choices of where the onsite injury/illness occu
 
 ## OSHA 300A Form Overlay
 
-By default, when advancing to the OSHA 300A form/log chart tab, it will overlay any OSHA recordable case (with an onsite injury/illness location of this Employer Org or one that wraps up to this parent Employer Org) for the **current logged in session year.**
+By default, when advancing to the OSHA 300A chart tab, it will overlay any OSHA recordable case (with an onsite injury/illness location of this Employer Org or one that wraps up to this parent Employer Org) for the **current logged in session year.**
 
 Any OSHA recordable cases (for the current logged in session year) will then overlay on the OSHA 300A form log here, if the onsite injury/illness location was this employer organization or any onsite injury/illness location that wraps up to that parent employer organization.
 
 ![](../osha-300a-form-log-overlay.assets/b9aa9cbe0eb591a640c06bb9ab28be6f.png)
 
-## Overlaid Data on the OSHA 300A Form Log
+## Overlaid Data on the OSHA 300A Form Log via OSHA 300A Chart Tab
 
 The **Year** overlaid on the form log will be the current logged in session's year.
 
@@ -73,7 +77,7 @@ The other information for the OSHA 300A form (regarding the establishment inform
 
 From the Overview (EO) tab of the employer organization chart, find the *Other Data* section and click to expand it open.  The data entered in the flowsheet there, will pull to display on the OSHA 300A form overlay.
 
-![](../osha-300a-form-log-overlay.assets/3e989db25c371218a8c1d4c272a5ec74.png)
+![](../osha-300a-form-log-overlay.assets/5a0e5530ca37a481328742ab0d09ca4d.png)
 
 The OSHA recordable** cases**/incidents that have an onsite location noted being at this Employer Organization (or any cases/incidents with onsite locations marked as locations that are children of this parent employer organization), will be overlaid on the form log with all relevant counts of information.
 
@@ -115,13 +119,13 @@ The following describes columns K & L of the log:
 
 ![](../osha-300a-form-log-overlay.assets/a1efc72f4539d377a6630895b098f3db.png)
 
-**K) Total number days away from work:** If any recordable cases (for current year generated) had any Lost Time documented in the Accommodations encounter section and the accommodation is linked to the OSHA recordable case, the total number of Lost Time days will be calculated here and displays a total number.
+**K) Total number days away from work:** If any recordable cases had any Lost Time documented in the Accommodations encounter section and the accommodation is linked to the OSHA recordable case, the total number of Lost Time days will be calculated here and displays a total number.
 
 * If Lost time is documented in the Accommodations section of an encounter that is linked to an OSHA reportable case even for a partial day, it counts as a full day in this calculated column.
 * If Lost time is documented in the Accommodations section of an encounter that is linked to an OSHA reportable case, the start day of the lost time counts as a full day.
 * The date of injury or onset of illness full day doesn't count as a day away from work in this calculated column if a documented lost time day started the same day.  Day of incident/case does not count as a lost time day, if the lost time started that same day.
 
-**L) Total number of days of job transfer or restriction:** If any recordable cases (for current year generated) had any Restrictions documented in the restrictions section of the encounter that is linked to the OSHA recordable case, the total number of Restricted days will be calculated here and displays as a total number.
+**L) Total number of days of job transfer or restriction:** If any recordable cases had any Restrictions documented in the restrictions section of the encounter that is linked to the OSHA recordable case, the total number of Restricted days will be calculated here and displays as a total number.
 
 * Overlapping restriction days are only counted once.
 * The calculation in this column does not include future days.
@@ -133,7 +137,7 @@ The following describes columns M of the log:
 
 ![](../osha-300a-form-log-overlay.assets/ed6658b7795eb3594a65d84a21232ce7.png)
 
-**M)** The counts for each injury/illness type (Injury, Skin Disorder, Respiratory, Poisoning, Hearing Loss or All Other Illnesses) will populate with a total count in the appropriate column based on which *injury/illness type* was selected on the OSHA recordable cases for the current year being generated.
+**M)** The counts for each injury/illness type (Injury, Skin Disorder, Respiratory, Poisoning, Hearing Loss or All Other Illnesses) will populate with a total count in the appropriate column based on which *injury/illness type* was selected on the OSHA recordable cases.
 
 ![](../osha-300a-form-log-overlay.assets/ed1a302d706d1a3fc4588d118b4572b0.png)
 
@@ -143,19 +147,19 @@ You can use your browser's *print* ability, to generate and print the employer o
 
 ![](../osha-300a-form-log-overlay.assets/fb4724fd9c1f5df91cde1f0aec029f58.png)
 
-## Create OSHA 300A Log document
+### OSHA 300A Form for Last Year - hyperlink in Other Data EO Overview setion
 
-Within the *Overview (EO)* chart tab, the Other Data section has an OSHA 300A Form document generation hyperlink available.  This hyperlink will display if your system has doc.type OSHA300A configured with a form image and form variable data overlay.
+Within the *Overview (EO)* chart tab, the Other Data section has an OSHA 300A Form for Last Year totals and document generation hyperlink available.  This hyperlink will display if your system has doc.type OSHA300A configured with a form image and form variable data overlay.
 
-Click on the OSHA 300A Form hyperlink.
+Click on the OSHA 300A Form for Last Year hyperlink.
 
-![](../osha-300a-form-log-overlay.assets/6b9a324e4150e2d14dd7912d741dba1f.png)
+![](../osha-300a-form-log-overlay.assets/2074dd0a40cb44562bdf575b7d35c5c2.png)
 
 Clicking on that hyperlink will automatically create and store a document of the output.  Note: your system's doc.type OSHA300A must be configured to have the form configured with the form option of ‘archive form' checkmarked, for the system to automatically store the OSHA 300A Form document being generated.
 
 ![](../osha-300a-form-log-overlay.assets/e3fe4f517948d5db14d6339d43e6a647.png)
 
-This is the ability to create the OSHA 300A Form as a snapshot in time (for the current year generated) and it stores as a document, within that EO's chart, but can be printed from the form log generated on the screen.
+This is the ability to create the OSHA 300A Form as a snapshot of last year's totals and it stores as a document, within that EO's chart, but can be printed from the form log generated on the screen.
 
 ![](../osha-300a-form-log-overlay.assets/789024a8a167f74770cc03a9e8784305.png)
 
@@ -173,4 +177,4 @@ In the Common Incident Search there are several search filter fields available t
 
 The *On Site Location* filter field (available in this report) respects the onsite injury/illness location selections on a case/incident (and any location hierarchy), just like the OSHA 300A Form log does on the Employer Organization chart.  You would get the same counts and information here from this report, as you would doing the OSHA 300A chart tab Form Log method from the EO chart(s) that also respects the hierarchy of onsite location configuration.
 
-See other help documentation titled *Common Incident Search Report* for detailed information on each search criteria field.
+See other help documentation titled [*Common Case Search Report*](common-case-search-report.md)[ ](common-case-search-report.md)for detailed information on each search criteria field.
