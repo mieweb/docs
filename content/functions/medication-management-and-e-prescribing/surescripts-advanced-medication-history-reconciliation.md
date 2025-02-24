@@ -1,8 +1,8 @@
 ---
 id: '1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
 title: 'SureScripts Advanced - Medication History Reconciliation'
-date: '2024-11-29T15:18:00.389Z'
-version: 498
+date: '2025-02-24T15:40:02.608Z'
+version: 504
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -119,6 +119,12 @@ Change Therapy. This action can only be taken on **Active** Medications.
 
 ![](../surescripts-advanced-medication-history-reconciliation.assets/325105095d96b770c6cf92763f97aeb8.png)
 Refill. This action can only be taken on **Active** Medications.
+
+## Medication History DataVis Perspectives
+
+Several out of the box perspectives are available to assist users viewing the Medication History. Users may view the Medication History by Active, All, Dispensed, Group by Generic, or Group by Therapeutic Class.
+
+![](../surescripts-advanced-medication-history-reconciliation.assets/6d37f721ccc3cefea0da7aa9a37d28fe.png)
 
 ## For Users on a release prior 202409
 
