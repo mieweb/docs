@@ -1,8 +1,8 @@
 ---
 id: '1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
 title: 'Add Document - Legacy View vs. Current View'
-date: '2025-02-13T17:05:27.064Z'
-version: 109
+date: '2025-02-24T15:30:21.595Z'
+version: 114
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -36,9 +36,9 @@ On RC 092024 and newer, the **Add Document** screen has been updated to include 
 
 ![](../add-document-legacy-view-vs.-current-view.assets/f5e32e9837e6ff59ec69e284b83f4dae.png)
 
-The Add Document library view is determined by the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) *Document Add Filter* preference. By default, the setting is **Text**, though users may choose to update the view. Changing this setting will only affect the logged-in user. To set the *Document Add Filter* view, navigate to the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) tab of the **Control Panel** sidemenu and change the setting accordingly.
+The Add Document library view is determined by the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) *Document Add Filter* preference. By default, the setting is **All**, though users may choose to update the view. Changing this setting will only affect the logged-in user. To set the *Document Add Filter* view, navigate to the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) tab of the **Control Panel** sidemenu and change the setting accordingly.
 
-![](../add-document-legacy-view-vs.-current-view.assets/f662af2232f60e0d55c8077c2383e3a9.png)
+![](../add-document-legacy-view-vs.-current-view.assets/885ab2acda98050173c159ffb5133872.png)
 
 ### Most Common Options Menu
 
