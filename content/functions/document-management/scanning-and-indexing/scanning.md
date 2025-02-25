@@ -1,8 +1,8 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2025-02-14T17:24:23.107Z'
-version: 301
+date: '2025-02-25T18:21:10.289Z'
+version: 305
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -25,11 +25,11 @@ Once the page loads, users will see the Batch Search Criteria search options at 
 
 To begin scanning, simply click the **Add Batch** link found in the upper-right corner of the screen. Once clicked, the Batch Upload screen will open. Here, users may scan and index documents, accordingly.
 
-Batch Upload screen in releases 202409 and earlier:
+Batch Upload screen in releases 202309 and earlier:
 
 ![](../scanning.assets/76f70933e1490012553bf9748633510f.png)
 
-Batch Upload screen in release 202503 and newer:
+Batch Upload screen in release 202403 and newer:
 
 ![](../scanning.assets/7f55b439c6c699520cf344798f1ac2d2.png)
 
@@ -86,7 +86,7 @@ Users may close a batch by clicking the **X** icon from the Batch Upload windo
 
 ### Upload a Batch
 
-To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the checked-in batch list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202503 and newer.
+To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the checked-in batch list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202403 and newer.
 
 ![](../scanning.assets/62686b7b65ca7102e28e4b70fbf724bf.png)
 
@@ -94,7 +94,7 @@ To save a batch for later, users may use the **Upload** button. Clicking the U
 
 ### Upload and Index a Batch
 
-To upload and index the scanned documents, click the **Upload and Index** button. This feature is available in release 202503 and newer. When selected, the batch will upload and open the indexing screen in a new browser tab. For detailed information on how to index scanned documents, see our [Indexing](indexing.md) online help documentation.
+To upload and index the scanned documents, click the **Upload and Index** button. This feature is available in release 202403 and newer. When selected, the batch will upload and open the indexing screen in a new browser tab. For detailed information on how to index scanned documents, see our [Indexing](indexing.md) online help documentation.
 
 ![](../scanning.assets/64310a1a06cad86013289f9a2e373826.png)
 
