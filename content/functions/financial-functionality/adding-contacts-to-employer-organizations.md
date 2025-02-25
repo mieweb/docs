@@ -1,15 +1,19 @@
 ---
 id: '1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
 title: 'Adding contacts to employer organizations'
-date: '2025-01-31T15:31:05.562Z'
-version: 48
-lastAuthor: 'auhrick'
+date: '2025-02-25T16:13:22.441Z'
+version: 53
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
+Users must have permission to be able to Manage Contacts to successfully be able to add contacts to employer organization charts.
+
+![](../adding-contacts-to-employer-organizations.assets/feff827d19909973400a5eeb651d058a.png)
+
 1. Navigate to the Overview (EO) tab of an [employer organization](finding-employer-organizations.md) chart.
 2. In the <em>Contacts</em> section, select the <strong>Add New Contact</strong> link.  
     ![](../adding-contacts-to-employer-organizations.assets/a6735fd85a5d1c1c422dc5f9567ccfd3.png)
