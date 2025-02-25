@@ -5,7 +5,7 @@ theme = "wc-eh-docs"
 publishDir = "public/eh"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir=false
-enableGitInfo = true
+#enableGitInfo = true
 
 [frontmatter]
   lastmod = ["lastmod", ":git", "date", "publishDate"]

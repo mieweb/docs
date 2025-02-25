@@ -38,7 +38,17 @@ while [[ $# -gt 0 ]]; do
         PORT=$((PORT+1))
       else
         echo "Building $1"
-        npm ci
+        if [[ -z "$FAST_PREVIEW_RENDER" || ! -d "node_modules" ]]
+        then
+          if [[ ! -z "$NPM_CACHE_DIR" ]]
+          then
+            time npm ci --cache $NPM_CACHE_DIR --prefer-offline --no-audit
+          else
+            time npm ci
+          fi
+        else
+          echo "Fast render, skipping npm ci"
+        fi
         mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
         npx hugo --config "config-$1.toml" --baseURL "$BASE_URL" $OPTS
       fi
